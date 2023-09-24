@@ -3,26 +3,26 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace UnityEngine {
 struct LayerMask;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class StandardGameplaySceneSetupData;
+class BTSCharacterSpawnController;
 }
 namespace GlobalNamespace {
-class BTSCharacterSpawnController;
+class StandardGameplaySceneSetupData;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -202,8 +202,7 @@ constexpr float_t __get__biggestAccelerationSongTime() const;
 /// @brief Method OnDrawGizmos addr 0x22742cc size 0x1d4 virtual false final false
  void OnDrawGizmos() ;
 
-// Ctor Parameters []
-explicit WaypointsTestGameplayManager() ;
+static GlobalNamespace::WaypointsTestGameplayManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x22744a0 size 0x20 virtual false final false
  void _ctor() ;

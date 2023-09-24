@@ -7,11 +7,11 @@
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
 namespace Mono::Security::Interface {
 struct MonoSslPolicyErrors;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
 }
 // Forward declare root types
 namespace Mono::Security::Interface {
@@ -59,8 +59,7 @@ constexpr explicit MonoRemoteCertificateValidationCallback(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MonoRemoteCertificateValidationCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Mono::Security::Interface::MonoRemoteCertificateValidationCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2295584 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

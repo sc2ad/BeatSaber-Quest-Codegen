@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include <cmath>
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::UI {
 class VertexHelper;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace HMUI {
@@ -101,8 +101,7 @@ static constexpr float_t  kMaxElementWidth{10};
 /// @brief Method RebuildAndSetup addr 0x1fa8594 size 0xf0 virtual false final false
 static void RebuildAndSetup(UnityEngine::Transform t) ;
 
-// Ctor Parameters []
-explicit CurvedCanvasSettings() ;
+static HMUI::CurvedCanvasSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa8900 size 0x60 virtual false final false
  void _ctor() ;

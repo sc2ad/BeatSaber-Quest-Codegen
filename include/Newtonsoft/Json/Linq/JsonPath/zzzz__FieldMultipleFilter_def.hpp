@@ -6,34 +6,40 @@
 #include <cstdint>
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
+namespace Newtonsoft::Json::Linq::JsonPath {
+class Newtonsoft__Json__Linq__JsonPath__FieldMultipleFilter___ExecuteFilter_d__4;
+}
+namespace Newtonsoft::Json::Linq::JsonPath {
+class Newtonsoft__Json__Linq__JsonPath__FieldMultipleFilter____c;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
+class List_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JObject;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 struct System__Collections__Generic__List_1__Enumerator;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -106,8 +112,7 @@ static System::Func_2<::StringW,::StringW> __get___9__4_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Linq__JsonPath__FieldMultipleFilter____c() ;
+static Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__FieldMultipleFilter____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2536074 size 0x8 virtual false final false
  void _ctor() ;
@@ -264,8 +269,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__List_1__En
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JsonPath__FieldMultipleFilter___ExecuteFilter_d__4(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__FieldMultipleFilter___ExecuteFilter_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2535fc4 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -370,8 +374,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get__Names_k__Backin
 /// @brief Method ExecuteFilter addr 0x2535f48 size 0x7c virtual true final false
  System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JToken> ExecuteFilter(System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JToken> current, bool errorWhenNoMatch) ;
 
-// Ctor Parameters []
-explicit FieldMultipleFilter() ;
+static Newtonsoft::Json::Linq::JsonPath::FieldMultipleFilter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2536008 size 0x8 virtual false final false
  void _ctor() ;

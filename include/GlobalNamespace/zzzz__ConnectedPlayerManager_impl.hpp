@@ -2,35 +2,36 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
-#include "GlobalNamespace/zzzz__IConnection_def.hpp"
-#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
 #include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__IDiffieHellmanKeyPair_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__IDiffieHellmanKeyPair_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__IConnection_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
+#include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerStateHash_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
 #include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
 #include "GlobalNamespace/zzzz__ByteArrayNetSerializable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer.get_connection
 template<>
 
@@ -1000,8 +1001,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "manager", ty: "GlobalNamespace::ConnectedPlayerManager", modifiers: "", def_value: None }, CppParam { name: "connectionId", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "remoteConnectionId", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "connection", ty: "GlobalNamespace::IConnection", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isMe", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "publicEncryptionKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "random", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer(GlobalNamespace::ConnectedPlayerManager manager, uint8_t connectionId, uint8_t remoteConnectionId, GlobalNamespace::IConnection connection, GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer parent, ::StringW userId, ::StringW userName, bool isConnectionOwner, bool isMe, ::ArrayW<uint8_t> publicEncryptionKey, ::ArrayW<uint8_t> random)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer>(manager, connectionId, remoteConnectionId, connection, parent, userId, userName, isConnectionOwner, isMe, publicEncryptionKey, random))) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer::New_ctor(GlobalNamespace::ConnectedPlayerManager manager, uint8_t connectionId, uint8_t remoteConnectionId, GlobalNamespace::IConnection connection, GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer parent, ::StringW userId, ::StringW userName, bool isConnectionOwner, bool isMe, ::ArrayW<uint8_t> publicEncryptionKey, ::ArrayW<uint8_t> random)  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer>(manager, connectionId, remoteConnectionId, connection, parent, userId, userName, isConnectionOwner, isMe, publicEncryptionKey, random))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer::_ctor(GlobalNamespace::ConnectedPlayerManager manager, uint8_t connectionId, uint8_t remoteConnectionId, GlobalNamespace::IConnection connection, GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer parent, ::StringW userId, ::StringW userName, bool isConnectionOwner, bool isMe, ::ArrayW<uint8_t> publicEncryptionKey, ::ArrayW<uint8_t> random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer>::get(),
@@ -1403,8 +1406,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket, false>(const_cast<void*>(instance), ___internal_method, connectionId, userId, userName, isConnectionOwner);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket>::get(),
@@ -1593,8 +1598,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket, false>(const_cast<void*>(instance), ___internal_method, states, avatar, random, publicEncryptionKey);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket>::get(),
@@ -1765,8 +1772,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket, false>(const_cast<void*>(instance), ___internal_method, avatar);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket>::get(),
@@ -1937,8 +1946,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket, false>(const_cast<void*>(instance), ___internal_method, states);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket>::get(),
@@ -2115,8 +2126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket, false>(const_cast<void*>(instance), ___internal_method, userId, sortIndex);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket>::get(),
@@ -2287,8 +2300,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket::GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket>::get(),
@@ -2459,8 +2474,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket::GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket>::get(),
@@ -2631,8 +2648,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__SyncTimePacket::GlobalNamespace__ConnectedPlayerManager__SyncTimePacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__SyncTimePacket>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__SyncTimePacket GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__SyncTimePacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__SyncTimePacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__SyncTimePacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__SyncTimePacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__SyncTimePacket>::get(),
@@ -2803,8 +2822,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PingPacket::GlobalNamespace__ConnectedPlayerManager__PingPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__PingPacket>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PingPacket GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PingPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PingPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PingPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PingPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PingPacket>::get(),
@@ -2975,8 +2996,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PongPacket::GlobalNamespace__ConnectedPlayerManager__PongPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectedPlayerManager__PongPacket>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PongPacket GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PongPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PongPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PongPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PongPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PongPacket>::get(),
@@ -5054,8 +5077,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "connectionManager", ty: "GlobalNamespace::IConnectionManager", modifiers: "", def_value: None }]
- GlobalNamespace::ConnectedPlayerManager::ConnectedPlayerManager(GlobalNamespace::IConnectionManager connectionManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ConnectedPlayerManager>(connectionManager))) {}
+ GlobalNamespace::ConnectedPlayerManager GlobalNamespace::ConnectedPlayerManager::New_ctor(GlobalNamespace::IConnectionManager connectionManager)  {
+GlobalNamespace::ConnectedPlayerManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ConnectedPlayerManager>(connectionManager))};
+return o;
+}
  void GlobalNamespace::ConnectedPlayerManager::_ctor(GlobalNamespace::IConnectionManager connectionManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ConnectedPlayerManager>::get(),
@@ -5065,8 +5090,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, connectionManager);
 }
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }, CppParam { name: "connectionManager", ty: "GlobalNamespace::IConnectionManager", modifiers: "", def_value: None }]
- GlobalNamespace::ConnectedPlayerManager::ConnectedPlayerManager(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ConnectedPlayerManager>(timeProvider, taskUtility, connectionManager))) {}
+ GlobalNamespace::ConnectedPlayerManager GlobalNamespace::ConnectedPlayerManager::New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager)  {
+GlobalNamespace::ConnectedPlayerManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ConnectedPlayerManager>(timeProvider, taskUtility, connectionManager))};
+return o;
+}
  void GlobalNamespace::ConnectedPlayerManager::_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ConnectedPlayerManager>::get(),

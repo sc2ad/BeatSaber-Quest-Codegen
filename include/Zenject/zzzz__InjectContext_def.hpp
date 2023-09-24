@@ -11,30 +11,39 @@ class IEnumerable_1;
 namespace Zenject {
 struct InjectSources;
 }
-namespace System {
-class Type;
+namespace Zenject {
+struct BindingId;
+}
+namespace Zenject {
+class Zenject__InjectContext___get_ParentContexts_d__52;
 }
 namespace System {
 class IDisposable;
 }
 namespace Zenject {
-struct BindingId;
-}
-namespace Zenject {
 class DiContainer;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Type;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Zenject {
+class Zenject__InjectContext___get_AllObjectTypes_d__56;
+}
+namespace Zenject {
+class Zenject__InjectContext___get_ParentContextsAndSelf_d__54;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Zenject {
@@ -146,8 +155,7 @@ constexpr System::Collections::Generic::IEnumerator_1<Zenject::InjectContext> __
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__InjectContext___get_ParentContexts_d__52(int32_t __1__state) ;
+static Zenject::Zenject__InjectContext___get_ParentContexts_d__52 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d704a8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -283,8 +291,7 @@ constexpr System::Collections::Generic::IEnumerator_1<Zenject::InjectContext> __
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__InjectContext___get_ParentContextsAndSelf_d__54(int32_t __1__state) ;
+static Zenject::Zenject__InjectContext___get_ParentContextsAndSelf_d__54 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d70554 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -420,8 +427,7 @@ constexpr System::Collections::Generic::IEnumerator_1<Zenject::InjectContext> __
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__InjectContext___get_AllObjectTypes_d__56(int32_t __1__state) ;
+static Zenject::Zenject__InjectContext___get_AllObjectTypes_d__56 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d70600 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -607,26 +613,22 @@ constexpr Zenject::DiContainer __get__container() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit InjectContext() ;
+static Zenject::InjectContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d701c0 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "memberType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit InjectContext(Zenject::DiContainer container, System::Type memberType) ;
+static Zenject::InjectContext New_ctor(Zenject::DiContainer container, System::Type memberType) ;
 
 /// @brief Method .ctor addr 0x2d70240 size 0x3c virtual false final false
  void _ctor(Zenject::DiContainer container, System::Type memberType) ;
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "memberType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit InjectContext(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier) ;
+static Zenject::InjectContext New_ctor(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier) ;
 
 /// @brief Method .ctor addr 0x2d70284 size 0x48 virtual false final false
  void _ctor(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier) ;
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "memberType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "optional", ty: "bool", modifiers: "", def_value: None }]
-explicit InjectContext(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier, bool optional) ;
+static Zenject::InjectContext New_ctor(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier, bool optional) ;
 
 /// @brief Method .ctor addr 0x2d702d4 size 0x54 virtual false final false
  void _ctor(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier, bool optional) ;

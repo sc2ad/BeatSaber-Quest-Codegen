@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Reflection/zzzz__ParameterInfo_def.hpp"
-#include "System/Reflection/zzzz__ParameterAttributes_def.hpp"
 #include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
 #include "System/Runtime/InteropServices/zzzz___ParameterInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Reflection/zzzz__ParameterAttributes_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Reflection::ParameterInfo._ctor
 template<>
 
@@ -310,8 +310,10 @@ constexpr void System::Reflection::ParameterInfo::__set_PositionImpl(int32_t val
 constexpr int32_t System::Reflection::ParameterInfo::__get_PositionImpl() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Reflection::ParameterInfo::ParameterInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ParameterInfo>())) {}
+ System::Reflection::ParameterInfo System::Reflection::ParameterInfo::New_ctor()  {
+System::Reflection::ParameterInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::ParameterInfo>())};
+return o;
+}
  void System::Reflection::ParameterInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::ParameterInfo>::get(),

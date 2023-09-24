@@ -9,6 +9,12 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SteamLevelProductsModelSO__LevelProductData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData;
@@ -89,8 +95,7 @@ constexpr ::StringW __get__levelId() const;
 /// @brief Method get_levelId addr 0x221a0e4 size 0x8 virtual false final false
  ::StringW get_levelId() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__SteamLevelProductsModelSO__LevelProductData() ;
+static GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a0ec size 0x8 virtual false final false
  void _ctor() ;
@@ -180,8 +185,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__
 /// @brief Method get_levelProductsData addr 0x221a104 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData> get_levelProductsData() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData() ;
+static GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a10c size 0x58 virtual false final false
  void _ctor() ;
@@ -274,8 +278,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::
 /// @brief Method GetLevelPackProductData addr 0x2219f78 size 0x78 virtual false final false
  GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData GetLevelPackProductData(::StringW levelPackId) ;
 
-// Ctor Parameters []
-explicit SteamLevelProductsModelSO() ;
+static GlobalNamespace::SteamLevelProductsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2219ff0 size 0xec virtual false final false
  void _ctor() ;

@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__GUILayoutUtility_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__GUILayoutGroup_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__GUIStyle_def.hpp"
+#include "UnityEngine/zzzz__GUILayoutUtility_def.hpp"
 #include "UnityEngine/zzzz__GUILayoutOption_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
+#include "UnityEngine/zzzz__GUIStyle_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngineInternal/zzzz__GenericStack_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__GUILayoutUtility__LayoutCache.set_id
 template<>
@@ -91,8 +92,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: Some("-1") }]
- UnityEngine::UnityEngine__GUILayoutUtility__LayoutCache::UnityEngine__GUILayoutUtility__LayoutCache(int32_t instanceID)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__GUILayoutUtility__LayoutCache>(instanceID))) {}
+/// @param instanceID: int32_t (default: -1)
+ UnityEngine::UnityEngine__GUILayoutUtility__LayoutCache UnityEngine::UnityEngine__GUILayoutUtility__LayoutCache::New_ctor(int32_t instanceID)  {
+UnityEngine::UnityEngine__GUILayoutUtility__LayoutCache o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__GUILayoutUtility__LayoutCache>(instanceID))};
+return o;
+}
 /// @param instanceID: int32_t (default: -1)
  void UnityEngine::UnityEngine__GUILayoutUtility__LayoutCache::_ctor(int32_t instanceID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

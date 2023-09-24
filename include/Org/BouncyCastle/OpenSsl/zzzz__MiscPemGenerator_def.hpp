@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObjectGenerator;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {
@@ -93,14 +93,12 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit MiscPemGenerator(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::OpenSsl::MiscPemGenerator New_ctor(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method .ctor addr 0x1043c68 size 0x28 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit MiscPemGenerator(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::OpenSsl::MiscPemGenerator New_ctor(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0x1043c90 size 0x40 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, Org::BouncyCastle::Security::SecureRandom random) ;

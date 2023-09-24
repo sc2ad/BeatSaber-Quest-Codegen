@@ -5,7 +5,35 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class CanvasRenderer;
+class Texture2D;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+struct UIVertex;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::Events {
+class UnityAction;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 class Camera;
@@ -13,57 +41,29 @@ class Camera;
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-class Material;
+namespace UnityEngine::UI::CoroutineTween {
+struct ColorTween;
 }
 namespace UnityEngine {
-class Mesh;
+class Texture;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::Events {
-class UnityAction;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
 struct Rect;
 }
-namespace UnityEngine::UI {
-class ICanvasElement;
+namespace UnityEngine {
+class CanvasRenderer;
 }
 namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine::UI::CoroutineTween {
-struct ColorTween;
+class Material;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct UIVertex;
 }
 namespace UnityEngine::UI::CoroutineTween {
 template<typename T>
@@ -317,8 +317,7 @@ static UnityEngine::Material get_defaultGraphicMaterial() ;
 /// @brief Method set_useLegacyMeshGeneration addr 0x2be2d10 size 0xc virtual false final false
  void set_useLegacyMeshGeneration(bool value) ;
 
-// Ctor Parameters []
-explicit Graphic() ;
+static UnityEngine::UI::Graphic New_ctor() ;
 
 /// @brief Method .ctor addr 0x2be2d1c size 0xb0 virtual false final false
  void _ctor() ;

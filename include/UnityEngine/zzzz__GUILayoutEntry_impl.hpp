@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__GUILayoutEntry_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
 #include "UnityEngine/zzzz__GUILayoutOption_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: UnityEngine::GUILayoutEntry.get_style
 template<>
 
@@ -430,8 +430,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_minWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_maxWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_minHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_maxHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_style", ty: "UnityEngine::GUIStyle", modifiers: "", def_value: None }]
- UnityEngine::GUILayoutEntry::GUILayoutEntry(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUILayoutEntry>(_minWidth, _maxWidth, _minHeight, _maxHeight, _style))) {}
+ UnityEngine::GUILayoutEntry UnityEngine::GUILayoutEntry::New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style)  {
+UnityEngine::GUILayoutEntry o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUILayoutEntry>(_minWidth, _maxWidth, _minHeight, _maxHeight, _style))};
+return o;
+}
  void UnityEngine::GUILayoutEntry::_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUILayoutEntry>::get(),
@@ -441,8 +443,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, _minWidth, _maxWidth, _minHeight, _maxHeight, _style);
 }
-// Ctor Parameters [CppParam { name: "_minWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_maxWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_minHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_maxHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_style", ty: "UnityEngine::GUIStyle", modifiers: "", def_value: None }, CppParam { name: "options", ty: "::ArrayW<UnityEngine::GUILayoutOption>", modifiers: "", def_value: None }]
- UnityEngine::GUILayoutEntry::GUILayoutEntry(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style, ::ArrayW<UnityEngine::GUILayoutOption> options)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUILayoutEntry>(_minWidth, _maxWidth, _minHeight, _maxHeight, _style, options))) {}
+ UnityEngine::GUILayoutEntry UnityEngine::GUILayoutEntry::New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style, ::ArrayW<UnityEngine::GUILayoutOption> options)  {
+UnityEngine::GUILayoutEntry o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUILayoutEntry>(_minWidth, _maxWidth, _minHeight, _maxHeight, _style, options))};
+return o;
+}
  void UnityEngine::GUILayoutEntry::_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style, ::ArrayW<UnityEngine::GUILayoutOption> options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUILayoutEntry>::get(),

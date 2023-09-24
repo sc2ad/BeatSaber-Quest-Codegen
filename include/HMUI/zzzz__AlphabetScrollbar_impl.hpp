@@ -1,22 +1,23 @@
 #pragma once
 #include "HMUI/zzzz__Interactable_impl.hpp"
 #include "HMUI/zzzz__AlphabetScrollbar_def.hpp"
+#include "HMUI/zzzz__TableView_def.hpp"
+#include "HMUI/zzzz__AlphabetScrollbar_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "GlobalNamespace/zzzz__AlphabetScrollInfo_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18._ctor
 template<>
 
@@ -155,8 +156,10 @@ constexpr void HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18:
 constexpr UnityEngine::EventSystems::PointerEventData HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::__get_eventData() const {
 return ::cordl_internals::getInstanceField<UnityEngine::EventSystems::PointerEventData, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18>(__1__state))) {}
+ HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18 HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18>(__1__state))};
+return o;
+}
  void HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18>::get(),
@@ -594,8 +597,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, text, character);
 }
-// Ctor Parameters []
- HMUI::AlphabetScrollbar::AlphabetScrollbar()  : HMUI::Interactable(THROW_UNLESS(::il2cpp_utils::New<AlphabetScrollbar>())) {}
+ HMUI::AlphabetScrollbar HMUI::AlphabetScrollbar::New_ctor()  {
+HMUI::AlphabetScrollbar o{THROW_UNLESS(::il2cpp_utils::New<HMUI::AlphabetScrollbar>())};
+return o;
+}
  void HMUI::AlphabetScrollbar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::AlphabetScrollbar>::get(),

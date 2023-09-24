@@ -49,8 +49,7 @@ constexpr explicit NetSyncSessionList(void* ptr) noexcept : Oculus::Platform::Mo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit NetSyncSessionList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::NetSyncSessionList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x25a14e4 size 0x23c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

@@ -50,8 +50,7 @@ constexpr explicit ImmediateModeException(void* ptr) noexcept : System::Exceptio
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit ImmediateModeException(System::Exception inner) ;
+static UnityEngine::UIElements::ImmediateModeException New_ctor(System::Exception inner) ;
 
 /// @brief Method .ctor addr 0x2c4f418 size 0x80 virtual false final false
  void _ctor(System::Exception inner) ;

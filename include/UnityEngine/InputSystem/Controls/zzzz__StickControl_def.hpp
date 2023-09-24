@@ -115,8 +115,7 @@ constexpr UnityEngine::InputSystem::Controls::ButtonControl __get__right_k__Back
 /// @brief Method FinishSetup addr 0x2978c5c size 0xf8 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit StickControl() ;
+static UnityEngine::InputSystem::Controls::StickControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2978d54 size 0x4 virtual false final false
  void _ctor() ;

@@ -59,6 +59,8 @@ constexpr operator __SamplingFrequency_Unwrapped () const noexcept {
 return std::bit_cast<__SamplingFrequency_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

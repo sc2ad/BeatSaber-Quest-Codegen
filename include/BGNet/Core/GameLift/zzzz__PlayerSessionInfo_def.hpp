@@ -106,8 +106,7 @@ constexpr ::StringW __get_privateGameCode() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PlayerSessionInfo() ;
+static BGNet::Core::GameLift::PlayerSessionInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd3db4 size 0x8 virtual false final false
  void _ctor() ;

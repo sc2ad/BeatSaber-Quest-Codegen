@@ -79,8 +79,7 @@ static void ClearAll(::ArrayW<System::Array> arrays) ;
 /// @brief Method IsPowerOf2 addr 0xe7a524 size 0x10 virtual false final false
 static bool IsPowerOf2(int32_t x) ;
 
-// Ctor Parameters []
-explicit SCrypt() ;
+static Org::BouncyCastle::Crypto::Generators::SCrypt New_ctor() ;
 
 /// @brief Method .ctor addr 0xe7ae1c size 0x8 virtual false final false
  void _ctor() ;

@@ -72,8 +72,7 @@ constexpr ::ArrayW<UnityEngine::Material> __get__materials() const;
 /// @brief Method Awake addr 0x226c6cc size 0x94 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit StaticEnvironmentLights() ;
+static GlobalNamespace::StaticEnvironmentLights New_ctor() ;
 
 /// @brief Method .ctor addr 0x226c760 size 0x8 virtual false final false
  void _ctor() ;

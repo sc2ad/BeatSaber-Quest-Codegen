@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/SceneManagement/zzzz__SceneManagerAPIInternal_def.hpp"
-#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneParameters_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__UnloadSceneOptions_def.hpp"
 //  Writing Method size for method: UnityEngine::SceneManagement::SceneManagerAPIInternal.GetNumScenesInBuildSettings
 template<>

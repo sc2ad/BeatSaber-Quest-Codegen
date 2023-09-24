@@ -4,6 +4,7 @@
 #include "Mono/Security/Cryptography/zzzz__DSAManaged_def.hpp"
 #include "Mono/Math/zzzz__BigInteger_def.hpp"
 #include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
+#include "Mono/Security/Cryptography/zzzz__DSAManaged_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
 //  Writing Method size for method: Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler._ctor
@@ -40,8 +41,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler>(object, method))) {}
+ Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler>(object, method))};
+return o;
+}
  void Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler>::get(),
@@ -410,8 +413,10 @@ constexpr void Mono::Security::Cryptography::DSAManaged::__set_KeyGenerated(Mono
 constexpr Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler Mono::Security::Cryptography::DSAManaged::__get_KeyGenerated() const {
 return ::cordl_internals::getInstanceField<Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }]
- Mono::Security::Cryptography::DSAManaged::DSAManaged(int32_t dwKeySize)  : System::Security::Cryptography::DSA(THROW_UNLESS(::il2cpp_utils::New<DSAManaged>(dwKeySize))) {}
+ Mono::Security::Cryptography::DSAManaged Mono::Security::Cryptography::DSAManaged::New_ctor(int32_t dwKeySize)  {
+Mono::Security::Cryptography::DSAManaged o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::DSAManaged>(dwKeySize))};
+return o;
+}
  void Mono::Security::Cryptography::DSAManaged::_ctor(int32_t dwKeySize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::DSAManaged>::get(),

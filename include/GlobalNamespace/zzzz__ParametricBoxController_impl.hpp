@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ParametricBoxController_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ParametricBoxController.Awake
 template<>
 
@@ -233,8 +233,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ParametricBoxController::ParametricBoxController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ParametricBoxController>())) {}
+ GlobalNamespace::ParametricBoxController GlobalNamespace::ParametricBoxController::New_ctor()  {
+GlobalNamespace::ParametricBoxController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ParametricBoxController>())};
+return o;
+}
  void GlobalNamespace::ParametricBoxController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ParametricBoxController>::get(),

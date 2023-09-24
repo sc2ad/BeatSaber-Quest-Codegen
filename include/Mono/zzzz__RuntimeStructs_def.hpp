@@ -3,6 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Mono {
+struct Mono__RuntimeStructs__GenericParamInfo;
+}
+namespace Mono {
+struct Mono__RuntimeStructs__GPtrArray;
+}
+namespace Mono {
+struct Mono__RuntimeStructs__MonoClass;
+}
+namespace Mono {
+struct Mono__RuntimeStructs__RemoteClass;
+}
 // Forward declare root types
 namespace Mono {
 class RuntimeStructs;

@@ -7,11 +7,7 @@
 #include <cstdint>
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+class IList_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -22,7 +18,21 @@ class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
+class IEnumerable_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__SharedVertex____c;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -33,14 +43,7 @@ class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
+class List_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -110,8 +113,7 @@ static System::Func_2<System::Collections::Generic::KeyValuePair_2<int32_t,int32
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__SharedVertex____c() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x29e3b70 size 0x8 virtual false final false
  void _ctor() ;
@@ -199,14 +201,12 @@ constexpr ::ArrayW<int32_t> __get_m_Vertices() const;
 /// @brief Method get_arrayInternal addr 0x29e2320 size 0x8 virtual false final false
  ::ArrayW<int32_t> get_arrayInternal() ;
 
-// Ctor Parameters [CppParam { name: "indexes", ty: "System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }]
-explicit SharedVertex(System::Collections::Generic::IEnumerable_1<int32_t> indexes) ;
+static UnityEngine::ProBuilder::SharedVertex New_ctor(System::Collections::Generic::IEnumerable_1<int32_t> indexes) ;
 
 /// @brief Method .ctor addr 0x29e1618 size 0xb0 virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<int32_t> indexes) ;
 
-// Ctor Parameters [CppParam { name: "sharedVertex", ty: "UnityEngine::ProBuilder::SharedVertex", modifiers: "", def_value: None }]
-explicit SharedVertex(UnityEngine::ProBuilder::SharedVertex sharedVertex) ;
+static UnityEngine::ProBuilder::SharedVertex New_ctor(UnityEngine::ProBuilder::SharedVertex sharedVertex) ;
 
 /// @brief Method .ctor addr 0x29e2328 size 0xd0 virtual false final false
  void _ctor(UnityEngine::ProBuilder::SharedVertex sharedVertex) ;

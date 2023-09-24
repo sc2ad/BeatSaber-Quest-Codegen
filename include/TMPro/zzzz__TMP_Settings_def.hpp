@@ -5,28 +5,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace TMPro {
-class TMP_StyleSheet;
-}
-namespace UnityEngine {
-class TextAsset;
-}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine {
+class TextAsset;
 }
 namespace TMPro {
 class TMP_FontAsset;
 }
 namespace TMPro {
+class TMP_StyleSheet;
+}
+namespace TMPro {
 class TMP_SpriteAsset;
+}
+namespace TMPro {
+class TMPro__TMP_Settings__LineBreakingTable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace TMPro {
@@ -92,8 +95,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,char16_t> __get_fol
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_Settings__LineBreakingTable() ;
+static TMPro::TMPro__TMP_Settings__LineBreakingTable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa8b94 size 0x8 virtual false final false
  void _ctor() ;
@@ -545,8 +547,7 @@ static void LoadLinebreakingRules() ;
 /// @brief Method GetCharacters addr 0x2aa8b9c size 0x120 virtual false final false
 static System::Collections::Generic::Dictionary_2<int32_t,char16_t> GetCharacters(UnityEngine::TextAsset file) ;
 
-// Ctor Parameters []
-explicit TMP_Settings() ;
+static TMPro::TMP_Settings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa8cbc size 0x10 virtual false final false
  void _ctor() ;

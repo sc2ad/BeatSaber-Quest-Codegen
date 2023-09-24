@@ -3,7 +3,7 @@
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenControl_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
@@ -12,7 +12,7 @@ namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {
@@ -95,8 +95,7 @@ constexpr ::StringW __get_m_ControlPath() const;
 /// @brief Method set_controlPathInternal addr 0x29451f8 size 0x8 virtual true final false
  void set_controlPathInternal(::StringW value) ;
 
-// Ctor Parameters []
-explicit OnScreenButton() ;
+static UnityEngine::InputSystem::OnScreen::OnScreenButton New_ctor() ;
 
 /// @brief Method .ctor addr 0x2945200 size 0x8 virtual false final false
  void _ctor() ;

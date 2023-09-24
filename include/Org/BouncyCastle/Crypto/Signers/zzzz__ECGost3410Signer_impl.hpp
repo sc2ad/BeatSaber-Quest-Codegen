@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__ECGost3410Signer_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDsaExt_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDsa_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDsaExt_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::ECGost3410Signer.get_AlgorithmName
 template<>
 
@@ -206,8 +206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::ECGost3410Signer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECGost3410Signer>())) {}
+ Org::BouncyCastle::Crypto::Signers::ECGost3410Signer Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::New_ctor()  {
+Org::BouncyCastle::Crypto::Signers::ECGost3410Signer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::ECGost3410Signer>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::ECGost3410Signer>::get(),

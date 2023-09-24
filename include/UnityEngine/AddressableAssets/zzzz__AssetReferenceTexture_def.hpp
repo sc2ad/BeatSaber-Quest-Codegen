@@ -10,7 +10,7 @@ class AssetReferenceTexture;
 // Type: UnityEngine.AddressableAssets::AssetReferenceTexture
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 384 }), TypeDefinitionIndex(TypeDefinitionIndex(10013)), TypeDefinitionIndex(TypeDefinitionIndex(14363))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10013)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 384 }), TypeDefinitionIndex(TypeDefinitionIndex(14363))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14365))
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceTexture
 class CORDL_TYPE AssetReferenceTexture : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Texture> {
@@ -49,8 +49,7 @@ constexpr explicit AssetReferenceTexture(void* ptr) noexcept : UnityEngine::Addr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssetReferenceTexture(::StringW guid) ;
+static UnityEngine::AddressableAssets::AssetReferenceTexture New_ctor(::StringW guid) ;
 
 /// @brief Method .ctor addr 0x28921ac size 0x58 virtual false final false
  void _ctor(::StringW guid) ;

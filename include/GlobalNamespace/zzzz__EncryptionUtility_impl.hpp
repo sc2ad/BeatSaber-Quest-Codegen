@@ -1,11 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "System/Security/Cryptography/zzzz__AesCryptoServiceProvider_def.hpp"
+#include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Security/Cryptography/zzzz__AesCryptoServiceProvider_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__HMac_def.hpp"
-#include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState.get_isValid
 template<>
 
@@ -457,8 +458,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "preMasterSecret", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "serverSeed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "clientSeed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "isClient", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState::GlobalNamespace__EncryptionUtility__EncryptionState(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EncryptionUtility__EncryptionState>(preMasterSecret, serverSeed, clientSeed, isClient))) {}
+ GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState::New_ctor(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient)  {
+GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState>(preMasterSecret, serverSeed, clientSeed, isClient))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState::_ctor(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState>::get(),
@@ -562,8 +565,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EncryptionUtility____c__Display
 constexpr bool GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0::__get_isClient() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EncryptionUtility____c__DisplayClass18_0>())) {}
+ GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0 GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0>::get(),

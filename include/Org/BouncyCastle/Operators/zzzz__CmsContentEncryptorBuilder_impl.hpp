@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Operators/zzzz__CmsContentEncryptorBuilder_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__EnvelopedDataHelper_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__EnvelopedDataHelper_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Operators::CmsContentEncryptorBuilder.GetKeySize
 template<>
 
@@ -105,8 +105,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, oid);
 }
-// Ctor Parameters [CppParam { name: "encryptionOID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::CmsContentEncryptorBuilder(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsContentEncryptorBuilder>(encryptionOID))) {}
+ Org::BouncyCastle::Operators::CmsContentEncryptorBuilder Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID)  {
+Org::BouncyCastle::Operators::CmsContentEncryptorBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Operators::CmsContentEncryptorBuilder>(encryptionOID))};
+return o;
+}
  void Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Operators::CmsContentEncryptorBuilder>::get(),
@@ -116,8 +118,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encryptionOID);
 }
-// Ctor Parameters [CppParam { name: "encryptionOID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::CmsContentEncryptorBuilder(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsContentEncryptorBuilder>(encryptionOID, keySize))) {}
+ Org::BouncyCastle::Operators::CmsContentEncryptorBuilder Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize)  {
+Org::BouncyCastle::Operators::CmsContentEncryptorBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Operators::CmsContentEncryptorBuilder>(encryptionOID, keySize))};
+return o;
+}
  void Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Operators::CmsContentEncryptorBuilder>::get(),

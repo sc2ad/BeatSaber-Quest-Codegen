@@ -3,6 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__ScreenBackButtonAnimationController__AnimationType;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -70,6 +73,8 @@ __MoveOut2 = 5,
 constexpr operator __GlobalNamespace__ScreenBackButtonAnimationController__AnimationType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ScreenBackButtonAnimationController__AnimationType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -167,8 +172,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalName
 /// @brief Method StartAnimation addr 0x1fa3504 size 0x70 virtual false final false
  void StartAnimation(GlobalNamespace::GlobalNamespace__ScreenBackButtonAnimationController__AnimationType animationType) ;
 
-// Ctor Parameters []
-explicit ScreenBackButtonAnimationController() ;
+static GlobalNamespace::ScreenBackButtonAnimationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa3574 size 0x1e0 virtual false final false
  void _ctor() ;

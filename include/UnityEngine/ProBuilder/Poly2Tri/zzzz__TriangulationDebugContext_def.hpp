@@ -59,8 +59,7 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationContext __get__tcx() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tcx", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationContext", modifiers: "", def_value: None }]
-explicit TriangulationDebugContext(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext tcx) ;
+static UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext tcx) ;
 
 /// @brief Method .ctor addr 0x29a1358 size 0x28 virtual false final false
  void _ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext tcx) ;

@@ -3,12 +3,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -127,8 +127,7 @@ constexpr int32_t __get__numberOfClearedMissions() const;
 /// @brief Method UpdateNumberOfClearedMissions addr 0x21f09b8 size 0x198 virtual false final false
  int32_t UpdateNumberOfClearedMissions() ;
 
-// Ctor Parameters []
-explicit CampaignProgressModel() ;
+static GlobalNamespace::CampaignProgressModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f0d60 size 0x10 virtual false final false
  void _ctor() ;

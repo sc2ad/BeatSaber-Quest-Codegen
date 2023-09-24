@@ -5,14 +5,14 @@
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
-namespace System {
-class Type;
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -77,8 +77,7 @@ constexpr explicit HashSetConverter(void* ptr) noexcept : Newtonsoft::Json::Json
 /// @brief Method get_CanWrite addr 0x253c064 size 0x8 virtual true final false
  bool get_CanWrite() ;
 
-// Ctor Parameters []
-explicit HashSetConverter() ;
+static Newtonsoft::Json::Converters::HashSetConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x253c06c size 0x8 virtual false final false
  void _ctor() ;

@@ -2,18 +2,19 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Globalization/zzzz__CultureTypes_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/Globalization/zzzz__TextInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Globalization/zzzz__CultureData_def.hpp"
-#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
+#include "System/Globalization/zzzz__CultureTypes_def.hpp"
+#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
+#include "System/Globalization/zzzz__CultureData_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Globalization/zzzz__TextInfo_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 // Ctor Parameters [CppParam { name: "ansi", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ebcdic", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "mac", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "oem", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "right_to_left", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "list_sep", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Globalization::System__Globalization__CultureInfo__Data::System__Globalization__CultureInfo__Data(int32_t ansi, int32_t ebcdic, int32_t mac, int32_t oem, bool right_to_left, uint8_t list_sep) noexcept : ::bs_hook::ValueTypeWrapper() {this->ansi = ansi;
 this->ebcdic = ebcdic;
@@ -92,8 +93,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Globalization::System__Globalization__CultureInfo__OnCultureInfoChangedDelegate::System__Globalization__CultureInfo__OnCultureInfoChangedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Globalization__CultureInfo__OnCultureInfoChangedDelegate>(object, method))) {}
+ System::Globalization::System__Globalization__CultureInfo__OnCultureInfoChangedDelegate System::Globalization::System__Globalization__CultureInfo__OnCultureInfoChangedDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Globalization::System__Globalization__CultureInfo__OnCultureInfoChangedDelegate o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::System__Globalization__CultureInfo__OnCultureInfoChangedDelegate>(object, method))};
+return o;
+}
  void System::Globalization::System__Globalization__CultureInfo__OnCultureInfoChangedDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::System__Globalization__CultureInfo__OnCultureInfoChangedDelegate>::get(),
@@ -1748,8 +1751,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Globalization::TextInfo, false>(const_cast<void*>(instance), ___internal_method, readOnly);
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "int32_t", modifiers: "", def_value: None }]
- System::Globalization::CultureInfo::CultureInfo(int32_t culture)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CultureInfo>(culture))) {}
+ System::Globalization::CultureInfo System::Globalization::CultureInfo::New_ctor(int32_t culture)  {
+System::Globalization::CultureInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CultureInfo>(culture))};
+return o;
+}
  void System::Globalization::CultureInfo::_ctor(int32_t culture)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CultureInfo>::get(),
@@ -1759,8 +1764,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, culture);
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "useUserOverride", ty: "bool", modifiers: "", def_value: None }]
- System::Globalization::CultureInfo::CultureInfo(int32_t culture, bool useUserOverride)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CultureInfo>(culture, useUserOverride))) {}
+ System::Globalization::CultureInfo System::Globalization::CultureInfo::New_ctor(int32_t culture, bool useUserOverride)  {
+System::Globalization::CultureInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CultureInfo>(culture, useUserOverride))};
+return o;
+}
  void System::Globalization::CultureInfo::_ctor(int32_t culture, bool useUserOverride)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CultureInfo>::get(),
@@ -1770,8 +1777,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, culture, useUserOverride);
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "useUserOverride", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "read_only", ty: "bool", modifiers: "", def_value: None }]
- System::Globalization::CultureInfo::CultureInfo(int32_t culture, bool useUserOverride, bool read_only)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CultureInfo>(culture, useUserOverride, read_only))) {}
+ System::Globalization::CultureInfo System::Globalization::CultureInfo::New_ctor(int32_t culture, bool useUserOverride, bool read_only)  {
+System::Globalization::CultureInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CultureInfo>(culture, useUserOverride, read_only))};
+return o;
+}
  void System::Globalization::CultureInfo::_ctor(int32_t culture, bool useUserOverride, bool read_only)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CultureInfo>::get(),
@@ -1781,8 +1790,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, culture, useUserOverride, read_only);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Globalization::CultureInfo::CultureInfo(::StringW name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CultureInfo>(name))) {}
+ System::Globalization::CultureInfo System::Globalization::CultureInfo::New_ctor(::StringW name)  {
+System::Globalization::CultureInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CultureInfo>(name))};
+return o;
+}
  void System::Globalization::CultureInfo::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CultureInfo>::get(),
@@ -1792,8 +1803,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "useUserOverride", ty: "bool", modifiers: "", def_value: None }]
- System::Globalization::CultureInfo::CultureInfo(::StringW name, bool useUserOverride)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CultureInfo>(name, useUserOverride))) {}
+ System::Globalization::CultureInfo System::Globalization::CultureInfo::New_ctor(::StringW name, bool useUserOverride)  {
+System::Globalization::CultureInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CultureInfo>(name, useUserOverride))};
+return o;
+}
  void System::Globalization::CultureInfo::_ctor(::StringW name, bool useUserOverride)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CultureInfo>::get(),
@@ -1803,8 +1816,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, useUserOverride);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "useUserOverride", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "read_only", ty: "bool", modifiers: "", def_value: None }]
- System::Globalization::CultureInfo::CultureInfo(::StringW name, bool useUserOverride, bool read_only)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CultureInfo>(name, useUserOverride, read_only))) {}
+ System::Globalization::CultureInfo System::Globalization::CultureInfo::New_ctor(::StringW name, bool useUserOverride, bool read_only)  {
+System::Globalization::CultureInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CultureInfo>(name, useUserOverride, read_only))};
+return o;
+}
  void System::Globalization::CultureInfo::_ctor(::StringW name, bool useUserOverride, bool read_only)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CultureInfo>::get(),
@@ -1814,8 +1829,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, useUserOverride, read_only);
 }
-// Ctor Parameters []
- System::Globalization::CultureInfo::CultureInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CultureInfo>())) {}
+ System::Globalization::CultureInfo System::Globalization::CultureInfo::New_ctor()  {
+System::Globalization::CultureInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CultureInfo>())};
+return o;
+}
  void System::Globalization::CultureInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CultureInfo>::get(),

@@ -6,10 +6,10 @@ namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-class NoteController;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,7 @@ constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() co
 /// @brief Method HandleNoteWasCut addr 0x20d5c60 size 0x8c virtual false final false
  void HandleNoteWasCut(GlobalNamespace::NoteController noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
-// Ctor Parameters []
-explicit BadCutsMissionObjectiveChecker() ;
+static GlobalNamespace::BadCutsMissionObjectiveChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d5e2c size 0x8 virtual false final false
  void _ctor() ;

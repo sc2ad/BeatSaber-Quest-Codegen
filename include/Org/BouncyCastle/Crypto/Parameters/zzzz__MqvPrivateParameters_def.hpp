@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPublicKeyParameters;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPublicKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -89,14 +89,12 @@ constexpr Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters __get_eph
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "staticPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }]
-explicit MqvPrivateParameters(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey) ;
+static Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey) ;
 
 /// @brief Method .ctor addr 0xeaa814 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey) ;
 
-// Ctor Parameters [CppParam { name: "staticPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }]
-explicit MqvPrivateParameters(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;
+static Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;
 
 /// @brief Method .ctor addr 0xeaa81c size 0x1f0 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;

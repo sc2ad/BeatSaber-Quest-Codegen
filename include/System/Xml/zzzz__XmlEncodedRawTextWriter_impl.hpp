@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlEncodedRawTextWriter_def.hpp"
+#include "System/Xml/zzzz__CharEntityEncoderFallback_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Text/zzzz__Encoder_def.hpp"
+#include "System/Xml/zzzz__NewLineHandling_def.hpp"
 #include "System/Xml/zzzz__XmlCharType_def.hpp"
 #include "System/Xml/zzzz__XmlOutputMethod_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/Xml/zzzz__CharEntityEncoderFallback_def.hpp"
-#include "System/Xml/zzzz__NewLineHandling_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 //  Writing Method size for method: System::Xml::XmlEncodedRawTextWriter._ctor
 template<>
 
@@ -1155,8 +1155,10 @@ constexpr void System::Xml::XmlEncodedRawTextWriter::__set_mergeCDataSections(bo
 constexpr bool System::Xml::XmlEncodedRawTextWriter::__get_mergeCDataSections() const {
 return ::cordl_internals::getInstanceField<bool, 0xb5>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlEncodedRawTextWriter::XmlEncodedRawTextWriter(System::Xml::XmlWriterSettings settings)  : System::Xml::XmlRawWriter(THROW_UNLESS(::il2cpp_utils::New<XmlEncodedRawTextWriter>(settings))) {}
+ System::Xml::XmlEncodedRawTextWriter System::Xml::XmlEncodedRawTextWriter::New_ctor(System::Xml::XmlWriterSettings settings)  {
+System::Xml::XmlEncodedRawTextWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlEncodedRawTextWriter>(settings))};
+return o;
+}
  void System::Xml::XmlEncodedRawTextWriter::_ctor(System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlEncodedRawTextWriter>::get(),
@@ -1166,8 +1168,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, settings);
 }
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlEncodedRawTextWriter::XmlEncodedRawTextWriter(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlRawWriter(THROW_UNLESS(::il2cpp_utils::New<XmlEncodedRawTextWriter>(writer, settings))) {}
+ System::Xml::XmlEncodedRawTextWriter System::Xml::XmlEncodedRawTextWriter::New_ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings)  {
+System::Xml::XmlEncodedRawTextWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlEncodedRawTextWriter>(writer, settings))};
+return o;
+}
  void System::Xml::XmlEncodedRawTextWriter::_ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlEncodedRawTextWriter>::get(),
@@ -1177,8 +1181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, writer, settings);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlEncodedRawTextWriter::XmlEncodedRawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlRawWriter(THROW_UNLESS(::il2cpp_utils::New<XmlEncodedRawTextWriter>(stream, settings))) {}
+ System::Xml::XmlEncodedRawTextWriter System::Xml::XmlEncodedRawTextWriter::New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
+System::Xml::XmlEncodedRawTextWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlEncodedRawTextWriter>(stream, settings))};
+return o;
+}
  void System::Xml::XmlEncodedRawTextWriter::_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlEncodedRawTextWriter>::get(),

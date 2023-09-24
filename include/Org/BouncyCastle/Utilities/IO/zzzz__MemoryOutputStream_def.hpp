@@ -55,8 +55,7 @@ constexpr explicit MemoryOutputStream(void* ptr) noexcept : System::IO::MemorySt
 /// @brief Method get_CanRead addr 0x10d39e4 size 0x8 virtual true final true
  bool get_CanRead() ;
 
-// Ctor Parameters []
-explicit MemoryOutputStream() ;
+static Org::BouncyCastle::Utilities::IO::MemoryOutputStream New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d39ec size 0x8 virtual false final false
  void _ctor() ;

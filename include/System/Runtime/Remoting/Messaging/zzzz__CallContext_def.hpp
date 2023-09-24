@@ -51,8 +51,7 @@ constexpr explicit CallContext(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Methods
 
-// Ctor Parameters []
-explicit CallContext() ;
+static System::Runtime::Remoting::Messaging::CallContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x2339f30 size 0x8 virtual false final false
  void _ctor() ;

@@ -6,24 +6,24 @@
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-struct ColorType;
-}
 namespace GlobalNamespace {
 class INoteDebrisDidFinishEvent;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__NoteDebris__Pool;
 }
 namespace GlobalNamespace {
+struct ColorType;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__NoteData__GameplayType;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace GlobalNamespace {
 class NoteDebris;
@@ -158,8 +158,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::NoteDebris
 /// @brief Method DespawnNoteDebris addr 0x225a9d8 size 0xa4 virtual false final false
  void DespawnNoteDebris(GlobalNamespace::NoteDebris noteDebris) ;
 
-// Ctor Parameters []
-explicit NoteDebrisSpawner() ;
+static GlobalNamespace::NoteDebrisSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x225aa7c size 0x88 virtual false final false
  void _ctor() ;

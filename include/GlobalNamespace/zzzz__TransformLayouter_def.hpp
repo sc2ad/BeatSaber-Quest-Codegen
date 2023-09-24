@@ -47,8 +47,7 @@ constexpr explicit TransformLayouter(void* ptr) noexcept : UnityEngine::MonoBeha
 
 // Methods
 
-// Ctor Parameters []
-explicit TransformLayouter() ;
+static GlobalNamespace::TransformLayouter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7c5e8 size 0x8 virtual false final false
  void _ctor() ;

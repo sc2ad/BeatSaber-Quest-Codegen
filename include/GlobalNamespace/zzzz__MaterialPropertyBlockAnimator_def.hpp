@@ -105,8 +105,7 @@ constexpr bool __get__isInitialized() const;
 /// @brief Method RefreshProperty addr 0x1fa2364 size 0x20 virtual false final false
  void RefreshProperty() ;
 
-// Ctor Parameters []
-explicit MaterialPropertyBlockAnimator() ;
+static GlobalNamespace::MaterialPropertyBlockAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2384 size 0x8 virtual false final false
  void _ctor() ;

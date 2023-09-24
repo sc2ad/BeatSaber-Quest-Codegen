@@ -79,8 +79,7 @@ constexpr float_t __get_m_WaitUntilTime() const;
 /// @brief Method get_keepWaiting addr 0x2b5c200 size 0x9c virtual true final false
  bool get_keepWaiting() ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-explicit WaitForSecondsRealtime(float_t time) ;
+static UnityEngine::WaitForSecondsRealtime New_ctor(float_t time) ;
 
 /// @brief Method .ctor addr 0x2b5c29c size 0x30 virtual false final false
  void _ctor(float_t time) ;

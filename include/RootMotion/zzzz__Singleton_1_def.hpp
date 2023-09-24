@@ -75,8 +75,7 @@ static T get_instance() ;
 /// @brief Method Awake addr 0x0 size 0xffffffffffffffff virtual true final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit Singleton_1() ;
+static RootMotion::Singleton_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

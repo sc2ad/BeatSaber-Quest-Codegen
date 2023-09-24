@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
-#include "System/zzzz__ConsoleKey_def.hpp"
 #include "System/zzzz__ConsoleModifiers_def.hpp"
+#include "System/zzzz__ConsoleKey_def.hpp"
 //  Writing Method size for method: System::ConsoleKeyInfo._ctor
 template<>
 

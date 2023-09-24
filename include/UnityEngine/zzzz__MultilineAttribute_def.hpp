@@ -57,8 +57,7 @@ constexpr int32_t __get_lines() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MultilineAttribute() ;
+static UnityEngine::MultilineAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b54ef8 size 0x20 virtual false final false
  void _ctor() ;

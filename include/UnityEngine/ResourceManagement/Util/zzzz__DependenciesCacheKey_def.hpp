@@ -2,19 +2,19 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -83,8 +83,7 @@ constexpr int32_t __get_m_DependenciesHash() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dependencies", ty: "System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>", modifiers: "", def_value: None }, CppParam { name: "dependenciesHash", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DependenciesCacheKey(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies, int32_t dependenciesHash) ;
+static UnityEngine::ResourceManagement::Util::DependenciesCacheKey New_ctor(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies, int32_t dependenciesHash) ;
 
 /// @brief Method .ctor addr 0x2a35894 size 0x30 virtual false final false
  void _ctor(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies, int32_t dependenciesHash) ;

@@ -13,50 +13,53 @@ namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
+namespace System::Threading::Tasks {
+class TaskScheduler;
+}
 namespace System {
 template<typename TResult>
 class Func_1;
-}
-namespace System {
-class Action;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Threading::Tasks {
-class TaskScheduler;
-}
 namespace System {
-class IAsyncResult;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename TResult>
-class Func_4;
-}
-namespace System::Threading::Tasks {
-struct TaskContinuationOptions;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4,typename TResult>
-class Func_5;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System::Threading::Tasks {
-struct TaskCreationOptions;
+class Action;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise;
+}
+namespace System::Threading::Tasks {
+struct TaskContinuationOptions;
+}
+namespace System::Threading::Tasks {
+struct TaskCreationOptions;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
 class AsyncCallback;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename TResult>
+class Func_4;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename T4,typename TResult>
+class Func_5;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -68,7 +71,7 @@ class TaskFactory;
 // Type: ::CompleteOnInvokePromise
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2770)), TypeDefinitionIndex(TypeDefinitionIndex(2783)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 383 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2770)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 383 }), TypeDefinitionIndex(TypeDefinitionIndex(2783))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2805))
 // CS Name: System.Threading.Tasks.TaskFactory::CompleteOnInvokePromise
 class CORDL_TYPE System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise : public System::Threading::Tasks::Task_1<System::Threading::Tasks::Task> {
@@ -124,8 +127,7 @@ constexpr System::Collections::Generic::IList_1<System::Threading::Tasks::Task> 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tasks", ty: "System::Collections::Generic::IList_1<System::Threading::Tasks::Task>", modifiers: "", def_value: None }]
-explicit System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise(System::Collections::Generic::IList_1<System::Threading::Tasks::Task> tasks) ;
+static System::Threading::Tasks::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise New_ctor(System::Collections::Generic::IList_1<System::Threading::Tasks::Task> tasks) ;
 
 /// @brief Method .ctor addr 0x24bf014 size 0x114 virtual false final false
  void _ctor(System::Collections::Generic::IList_1<System::Threading::Tasks::Task> tasks) ;
@@ -211,14 +213,12 @@ constexpr System::Threading::Tasks::TaskContinuationOptions __get_m_defaultConti
 
 // Methods
 
-// Ctor Parameters []
-explicit TaskFactory() ;
+static System::Threading::Tasks::TaskFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x24bca4c size 0x14 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }, CppParam { name: "continuationOptions", ty: "System::Threading::Tasks::TaskContinuationOptions", modifiers: "", def_value: None }, CppParam { name: "scheduler", ty: "System::Threading::Tasks::TaskScheduler", modifiers: "", def_value: None }]
-explicit TaskFactory(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler scheduler) ;
+static System::Threading::Tasks::TaskFactory New_ctor(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler scheduler) ;
 
 /// @brief Method .ctor addr 0x24bec4c size 0x50 virtual false final false
  void _ctor(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler scheduler) ;

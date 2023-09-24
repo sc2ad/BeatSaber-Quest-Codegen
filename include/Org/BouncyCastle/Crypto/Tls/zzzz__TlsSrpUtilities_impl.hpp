@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpUtilities_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities.AddSrpExtension
 template<>
@@ -202,8 +202,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, cipherSuite);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities::TlsSrpUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsSrpUtilities>())) {}
+ Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities>::get(),

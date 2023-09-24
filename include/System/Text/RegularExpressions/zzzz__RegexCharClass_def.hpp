@@ -6,8 +6,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Text::RegularExpressions {
+struct System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping;
+}
+namespace System::Text::RegularExpressions {
+class System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer;
+}
+namespace System::Text::RegularExpressions {
+struct System__Text__RegularExpressions__RegexCharClass__SingleRange;
 }
 namespace System::Globalization {
 struct UnicodeCategory;
@@ -15,13 +31,6 @@ struct UnicodeCategory;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -171,8 +180,7 @@ static System::Text::RegularExpressions::System__Text__RegularExpressions__Regex
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer() ;
+static System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x27cb98c size 0x8 virtual false final false
  void _ctor() ;
@@ -421,14 +429,12 @@ constexpr System::Text::RegularExpressions::RegexCharClass __get__subtractor() c
 
 // Methods
 
-// Ctor Parameters []
-explicit RegexCharClass() ;
+static System::Text::RegularExpressions::RegexCharClass New_ctor() ;
 
 /// @brief Method .ctor addr 0x27c24d0 size 0xbc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "negate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ranges", ty: "System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange>", modifiers: "", def_value: None }, CppParam { name: "categories", ty: "System::Text::StringBuilder", modifiers: "", def_value: None }, CppParam { name: "subtraction", ty: "System::Text::RegularExpressions::RegexCharClass", modifiers: "", def_value: None }]
-explicit RegexCharClass(bool negate, System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> ranges, System::Text::StringBuilder categories, System::Text::RegularExpressions::RegexCharClass subtraction) ;
+static System::Text::RegularExpressions::RegexCharClass New_ctor(bool negate, System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> ranges, System::Text::StringBuilder categories, System::Text::RegularExpressions::RegexCharClass subtraction) ;
 
 /// @brief Method .ctor addr 0x27c258c size 0x4c virtual false final false
  void _ctor(bool negate, System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> ranges, System::Text::StringBuilder categories, System::Text::RegularExpressions::RegexCharClass subtraction) ;

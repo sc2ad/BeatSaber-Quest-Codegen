@@ -62,8 +62,7 @@ constexpr ::StringW __get__TypeName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TypeDescriptionProviderAttribute(::StringW typeName) ;
+static System::ComponentModel::TypeDescriptionProviderAttribute New_ctor(::StringW typeName) ;
 
 /// @brief Method .ctor addr 0x2786944 size 0x78 virtual false final false
  void _ctor(::StringW typeName) ;

@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class ObjectDigestInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class IssuerSerial;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class ObjectDigestInfo;
+class IssuerSerial;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -108,26 +108,22 @@ constexpr int32_t __get_version() const;
 /// @brief Method GetInstance addr 0x1105b80 size 0x204 virtual false final false
 static Org::BouncyCastle::Asn1::X509::Holder GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "tagObj", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit Holder(Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj) ;
+static Org::BouncyCastle::Asn1::X509::Holder New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj) ;
 
 /// @brief Method .ctor addr 0x1105f74 size 0xe0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Holder(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::Holder New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1105d84 size 0x1f0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "baseCertificateID", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }]
-explicit Holder(Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID) ;
+static Org::BouncyCastle::Asn1::X509::Holder New_ctor(Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID) ;
 
 /// @brief Method .ctor addr 0x1106084 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID) ;
 
-// Ctor Parameters [CppParam { name: "baseCertificateID", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Holder(Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID, int32_t version) ;
+static Org::BouncyCastle::Asn1::X509::Holder New_ctor(Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID, int32_t version) ;
 
 /// @brief Method .ctor addr 0x11060b4 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID, int32_t version) ;
@@ -135,20 +131,17 @@ explicit Holder(Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID, i
 /// @brief Method get_Version addr 0x11060e4 size 0x8 virtual false final false
  int32_t get_Version() ;
 
-// Ctor Parameters [CppParam { name: "entityName", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }]
-explicit Holder(Org::BouncyCastle::Asn1::X509::GeneralNames entityName) ;
+static Org::BouncyCastle::Asn1::X509::Holder New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames entityName) ;
 
 /// @brief Method .ctor addr 0x11060ec size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames entityName) ;
 
-// Ctor Parameters [CppParam { name: "entityName", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Holder(Org::BouncyCastle::Asn1::X509::GeneralNames entityName, int32_t version) ;
+static Org::BouncyCastle::Asn1::X509::Holder New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames entityName, int32_t version) ;
 
 /// @brief Method .ctor addr 0x110611c size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames entityName, int32_t version) ;
 
-// Ctor Parameters [CppParam { name: "objectDigestInfo", ty: "Org::BouncyCastle::Asn1::X509::ObjectDigestInfo", modifiers: "", def_value: None }]
-explicit Holder(Org::BouncyCastle::Asn1::X509::ObjectDigestInfo objectDigestInfo) ;
+static Org::BouncyCastle::Asn1::X509::Holder New_ctor(Org::BouncyCastle::Asn1::X509::ObjectDigestInfo objectDigestInfo) ;
 
 /// @brief Method .ctor addr 0x110614c size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::ObjectDigestInfo objectDigestInfo) ;

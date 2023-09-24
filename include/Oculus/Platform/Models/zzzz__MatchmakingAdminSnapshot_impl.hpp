@@ -30,8 +30,10 @@ constexpr void Oculus::Platform::Models::MatchmakingAdminSnapshot::__set_MyCurre
 constexpr double_t Oculus::Platform::Models::MatchmakingAdminSnapshot::__get_MyCurrentThreshold() const {
 return ::cordl_internals::getInstanceField<double_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::MatchmakingAdminSnapshot::MatchmakingAdminSnapshot(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MatchmakingAdminSnapshot>(o))) {}
+ Oculus::Platform::Models::MatchmakingAdminSnapshot Oculus::Platform::Models::MatchmakingAdminSnapshot::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::MatchmakingAdminSnapshot o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::MatchmakingAdminSnapshot>(o))};
+return o;
+}
  void Oculus::Platform::Models::MatchmakingAdminSnapshot::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::MatchmakingAdminSnapshot>::get(),

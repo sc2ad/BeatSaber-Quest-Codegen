@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__CuttableBySaber_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class Saber;
-}
 namespace UnityEngine {
 class SphereCollider;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class Saber;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,8 +97,7 @@ constexpr bool __get__canBeCut() const;
 /// @brief Method Cut addr 0x210cf5c size 0x34 virtual true final false
  void Cut(GlobalNamespace::Saber saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec) ;
 
-// Ctor Parameters []
-explicit SphereCuttableBySaber() ;
+static GlobalNamespace::SphereCuttableBySaber New_ctor() ;
 
 /// @brief Method .ctor addr 0x210cf90 size 0x8 virtual false final false
  void _ctor() ;

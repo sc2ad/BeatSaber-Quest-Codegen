@@ -1,17 +1,17 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlValueConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::XmlBaseConverter._ctor
 template<>
 
@@ -2329,8 +2329,10 @@ return ::cordl_internals::getStaticField<System::Type, "TimeSpanType", ::il2cpp_
  System::Type System::Xml::Schema::XmlBaseConverter::__get_XPathNavigatorType()  {
 return ::cordl_internals::getStaticField<System::Type, "XPathNavigatorType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlBaseConverter>::get>();
 }
-// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlBaseConverter::XmlBaseConverter(System::Xml::Schema::XmlSchemaType schemaType)  : System::Xml::Schema::XmlValueConverter(THROW_UNLESS(::il2cpp_utils::New<XmlBaseConverter>(schemaType))) {}
+ System::Xml::Schema::XmlBaseConverter System::Xml::Schema::XmlBaseConverter::New_ctor(System::Xml::Schema::XmlSchemaType schemaType)  {
+System::Xml::Schema::XmlBaseConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlBaseConverter>(schemaType))};
+return o;
+}
  void System::Xml::Schema::XmlBaseConverter::_ctor(System::Xml::Schema::XmlSchemaType schemaType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlBaseConverter>::get(),
@@ -2340,8 +2342,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, schemaType);
 }
-// Ctor Parameters [CppParam { name: "typeCode", ty: "System::Xml::Schema::XmlTypeCode", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlBaseConverter::XmlBaseConverter(System::Xml::Schema::XmlTypeCode typeCode)  : System::Xml::Schema::XmlValueConverter(THROW_UNLESS(::il2cpp_utils::New<XmlBaseConverter>(typeCode))) {}
+ System::Xml::Schema::XmlBaseConverter System::Xml::Schema::XmlBaseConverter::New_ctor(System::Xml::Schema::XmlTypeCode typeCode)  {
+System::Xml::Schema::XmlBaseConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlBaseConverter>(typeCode))};
+return o;
+}
  void System::Xml::Schema::XmlBaseConverter::_ctor(System::Xml::Schema::XmlTypeCode typeCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlBaseConverter>::get(),
@@ -2351,8 +2355,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, typeCode);
 }
-// Ctor Parameters [CppParam { name: "converterAtomic", ty: "System::Xml::Schema::XmlBaseConverter", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlBaseConverter::XmlBaseConverter(System::Xml::Schema::XmlBaseConverter converterAtomic)  : System::Xml::Schema::XmlValueConverter(THROW_UNLESS(::il2cpp_utils::New<XmlBaseConverter>(converterAtomic))) {}
+ System::Xml::Schema::XmlBaseConverter System::Xml::Schema::XmlBaseConverter::New_ctor(System::Xml::Schema::XmlBaseConverter converterAtomic)  {
+System::Xml::Schema::XmlBaseConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlBaseConverter>(converterAtomic))};
+return o;
+}
  void System::Xml::Schema::XmlBaseConverter::_ctor(System::Xml::Schema::XmlBaseConverter converterAtomic)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlBaseConverter>::get(),
@@ -2362,8 +2368,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, converterAtomic);
 }
-// Ctor Parameters [CppParam { name: "converterAtomic", ty: "System::Xml::Schema::XmlBaseConverter", modifiers: "", def_value: None }, CppParam { name: "clrTypeDefault", ty: "System::Type", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlBaseConverter::XmlBaseConverter(System::Xml::Schema::XmlBaseConverter converterAtomic, System::Type clrTypeDefault)  : System::Xml::Schema::XmlValueConverter(THROW_UNLESS(::il2cpp_utils::New<XmlBaseConverter>(converterAtomic, clrTypeDefault))) {}
+ System::Xml::Schema::XmlBaseConverter System::Xml::Schema::XmlBaseConverter::New_ctor(System::Xml::Schema::XmlBaseConverter converterAtomic, System::Type clrTypeDefault)  {
+System::Xml::Schema::XmlBaseConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlBaseConverter>(converterAtomic, clrTypeDefault))};
+return o;
+}
  void System::Xml::Schema::XmlBaseConverter::_ctor(System::Xml::Schema::XmlBaseConverter converterAtomic, System::Type clrTypeDefault)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlBaseConverter>::get(),

@@ -3,12 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::Timeline {
+struct IntervalTreeNode;
+}
+namespace UnityEngine::Timeline {
+template<typename T>
+struct UnityEngine__Timeline__IntervalTree_1__Entry;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::Timeline {
-struct IntervalTreeNode;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -205,8 +209,7 @@ constexpr bool __get__dirty_k__BackingField() const;
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
  void Clear() ;
 
-// Ctor Parameters []
-explicit IntervalTree_1() ;
+static UnityEngine::Timeline::IntervalTree_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

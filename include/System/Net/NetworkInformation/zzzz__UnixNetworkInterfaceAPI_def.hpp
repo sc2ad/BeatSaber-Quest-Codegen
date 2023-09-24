@@ -55,8 +55,7 @@ static int32_t getifaddrs(ByRef<::cordl_internals::intptr_t> ifap) ;
 /// @brief Method freeifaddrs addr 0x285b8d8 size 0x7c virtual false final false
 static void freeifaddrs(::cordl_internals::intptr_t ifap) ;
 
-// Ctor Parameters []
-explicit UnixNetworkInterfaceAPI() ;
+static System::Net::NetworkInformation::UnixNetworkInterfaceAPI New_ctor() ;
 
 /// @brief Method .ctor addr 0x285b17c size 0x8 virtual false final false
  void _ctor() ;

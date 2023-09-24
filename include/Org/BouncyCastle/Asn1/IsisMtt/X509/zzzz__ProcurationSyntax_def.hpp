@@ -3,20 +3,20 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::X500 {
-class DirectoryString;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class IssuerSerial;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1::X500 {
+class DirectoryString;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class IssuerSerial;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -105,20 +105,17 @@ constexpr Org::BouncyCastle::Asn1::X509::IssuerSerial __get_certRef() const;
 /// @brief Method GetInstance addr 0xeeb448 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ProcurationSyntax(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xeeb5d0 size 0x2fc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "country", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "typeOfSubstitution", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "certRef", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }]
-explicit ProcurationSyntax(::StringW country, Org::BouncyCastle::Asn1::X500::DirectoryString typeOfSubstitution, Org::BouncyCastle::Asn1::X509::IssuerSerial certRef) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax New_ctor(::StringW country, Org::BouncyCastle::Asn1::X500::DirectoryString typeOfSubstitution, Org::BouncyCastle::Asn1::X509::IssuerSerial certRef) ;
 
 /// @brief Method .ctor addr 0xeeb8cc size 0x3c virtual false final false
  void _ctor(::StringW country, Org::BouncyCastle::Asn1::X500::DirectoryString typeOfSubstitution, Org::BouncyCastle::Asn1::X509::IssuerSerial certRef) ;
 
-// Ctor Parameters [CppParam { name: "country", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "typeOfSubstitution", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "thirdPerson", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit ProcurationSyntax(::StringW country, Org::BouncyCastle::Asn1::X500::DirectoryString typeOfSubstitution, Org::BouncyCastle::Asn1::X509::GeneralName thirdPerson) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax New_ctor(::StringW country, Org::BouncyCastle::Asn1::X500::DirectoryString typeOfSubstitution, Org::BouncyCastle::Asn1::X509::GeneralName thirdPerson) ;
 
 /// @brief Method .ctor addr 0xeeb908 size 0x3c virtual false final false
  void _ctor(::StringW country, Org::BouncyCastle::Asn1::X500::DirectoryString typeOfSubstitution, Org::BouncyCastle::Asn1::X509::GeneralName thirdPerson) ;

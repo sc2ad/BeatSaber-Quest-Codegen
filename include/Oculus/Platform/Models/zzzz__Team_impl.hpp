@@ -42,8 +42,10 @@ constexpr void Oculus::Platform::Models::Team::__set_Name(::StringW value)  {
 constexpr ::StringW Oculus::Platform::Models::Team::__get_Name() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::Team::Team(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Team>(o))) {}
+ Oculus::Platform::Models::Team Oculus::Platform::Models::Team::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::Team o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::Team>(o))};
+return o;
+}
  void Oculus::Platform::Models::Team::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::Team>::get(),

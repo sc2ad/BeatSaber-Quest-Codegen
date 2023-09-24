@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
 namespace UnityEngine {
 class AudioClip;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

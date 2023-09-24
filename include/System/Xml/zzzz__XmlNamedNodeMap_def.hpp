@@ -7,14 +7,20 @@
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Xml {
+struct System__Xml__XmlNamedNodeMap__SmallXmlNodeList;
+}
 namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace GlobalNamespace {
+class System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,8 +97,7 @@ constexpr int32_t __get_position() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator(::bs_hook::Il2CppWrapperType value) ;
+static GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator New_ctor(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method .ctor addr 0x26fc264 size 0x30 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType value) ;
@@ -260,8 +265,7 @@ constexpr System::Xml::System__Xml__XmlNamedNodeMap__SmallXmlNodeList __get_node
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }]
-explicit XmlNamedNodeMap(System::Xml::XmlNode parent) ;
+static System::Xml::XmlNamedNodeMap New_ctor(System::Xml::XmlNode parent) ;
 
 /// @brief Method .ctor addr 0x26f47ec size 0x28 virtual false final false
  void _ctor(System::Xml::XmlNode parent) ;

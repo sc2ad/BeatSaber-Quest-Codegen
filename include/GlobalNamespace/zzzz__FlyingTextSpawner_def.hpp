@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__FlyingTextEffect__Pool;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace UnityEngine {
 struct Color;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__FlyingTextEffect__Pool;
+}
+namespace GlobalNamespace {
+class IFlyingObjectEffectDidFinishEvent;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -127,8 +127,7 @@ constexpr GlobalNamespace::GlobalNamespace__FlyingTextEffect__Pool __get__flying
 /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x2258f38 size 0x11c virtual true final true
  void HandleFlyingObjectEffectDidFinish(GlobalNamespace::FlyingObjectEffect flyingObjectEffect) ;
 
-// Ctor Parameters []
-explicit FlyingTextSpawner() ;
+static GlobalNamespace::FlyingTextSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x2259054 size 0x28 virtual false final false
  void _ctor() ;

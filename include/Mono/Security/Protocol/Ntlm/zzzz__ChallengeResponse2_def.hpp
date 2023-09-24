@@ -6,10 +6,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Mono::Security::Protocol::Ntlm {
-struct NtlmAuthLevel;
+class Type2Message;
 }
 namespace Mono::Security::Protocol::Ntlm {
-class Type2Message;
+struct NtlmAuthLevel;
 }
 // Forward declare root types
 namespace Mono::Security::Protocol::Ntlm {

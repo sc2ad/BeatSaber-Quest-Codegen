@@ -2,8 +2,9 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__FloatTween_def.hpp"
-#include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
+#include "UnityEngine/UI/CoroutineTween/zzzz__FloatTween_def.hpp"
+#include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback._ctor
 template<>
 
@@ -21,8 +22,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback()  : UnityEngine::Events::UnityEvent_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback>())) {}
+ UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback::New_ctor()  {
+UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback>())};
+return o;
+}
  void UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback>::get(),

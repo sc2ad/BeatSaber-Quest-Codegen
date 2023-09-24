@@ -8,11 +8,11 @@ class Sprite;
 namespace HMUI {
 class NoTransitionsButton;
 }
-namespace UnityEngine::UI {
-class Image;
-}
 namespace HMUI {
 struct HMUI__NoTransitionsButton__SelectionState;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace HMUI {
@@ -123,8 +123,7 @@ constexpr bool __get__didStart() const;
 /// @brief Method RefreshVisualState addr 0x1fbcb60 size 0x24 virtual false final false
  void RefreshVisualState() ;
 
-// Ctor Parameters []
-explicit ButtonSpriteSwap() ;
+static HMUI::ButtonSpriteSwap New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbcde8 size 0x8 virtual false final false
  void _ctor() ;

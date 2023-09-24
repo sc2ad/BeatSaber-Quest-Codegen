@@ -3,6 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Xml {
+class XmlDocument;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaValidity;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
 namespace System::Xml::Schema {
 class XmlSchemaElement;
 }
@@ -11,18 +23,6 @@ class IXmlSchemaInfo;
 }
 namespace System::Xml::Schema {
 class XmlSchemaAttribute;
-}
-namespace System::Xml {
-class XmlDocument;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaValidity;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -150,8 +150,7 @@ constexpr System::Xml::XmlName __get_next() const;
 /// @brief Method Create addr 0x26fa81c size 0xf4 virtual false final false
 static System::Xml::XmlName Create(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next, System::Xml::Schema::IXmlSchemaInfo schemaInfo) ;
 
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ownerDoc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Xml::XmlName", modifiers: "", def_value: None }]
-explicit XmlName(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next) ;
+static System::Xml::XmlName New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next) ;
 
 /// @brief Method .ctor addr 0x26fa910 size 0x58 virtual false final false
  void _ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next) ;

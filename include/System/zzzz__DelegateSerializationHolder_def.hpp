@@ -3,14 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Delegate;
-}
 namespace System::Runtime::Serialization {
 class IObjectReference;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System {
+class System__DelegateSerializationHolder__DelegateEntry;
+}
+namespace System {
+class Delegate;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -112,8 +115,7 @@ constexpr System::System__DelegateSerializationHolder__DelegateEntry __get_deleg
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "del", ty: "System::Delegate", modifiers: "", def_value: None }, CppParam { name: "targetLabel", ty: "::StringW", modifiers: "", def_value: None }]
-explicit System__DelegateSerializationHolder__DelegateEntry(System::Delegate del, ::StringW targetLabel) ;
+static System::System__DelegateSerializationHolder__DelegateEntry New_ctor(System::Delegate del, ::StringW targetLabel) ;
 
 /// @brief Method .ctor addr 0x248bae8 size 0x11c virtual false final false
  void _ctor(System::Delegate del, ::StringW targetLabel) ;
@@ -184,8 +186,7 @@ constexpr System::Delegate __get__delegate() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "ctx", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit DelegateSerializationHolder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext ctx) ;
+static System::DelegateSerializationHolder New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext ctx) ;
 
 /// @brief Method .ctor addr 0x248b670 size 0x200 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext ctx) ;

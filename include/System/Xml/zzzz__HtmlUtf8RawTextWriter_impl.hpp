@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Xml/zzzz__XmlUtf8RawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__HtmlUtf8RawTextWriter_def.hpp"
-#include "System/Xml/zzzz__ByteStack_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
-#include "System/Xml/zzzz__AttributeProperties_def.hpp"
-#include "System/Xml/zzzz__TernaryTreeReadOnly_def.hpp"
+#include "System/Xml/zzzz__ElementProperties_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Xml/zzzz__ElementProperties_def.hpp"
+#include "System/Xml/zzzz__ByteStack_def.hpp"
+#include "System/Xml/zzzz__TernaryTreeReadOnly_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/Xml/zzzz__AttributeProperties_def.hpp"
 //  Writing Method size for method: System::Xml::HtmlUtf8RawTextWriter._ctor
 template<>
 
@@ -453,8 +453,10 @@ return ::cordl_internals::getStaticField<System::Xml::TernaryTreeReadOnly, "elem
  System::Xml::TernaryTreeReadOnly System::Xml::HtmlUtf8RawTextWriter::__get_attributePropertySearch()  {
 return ::cordl_internals::getStaticField<System::Xml::TernaryTreeReadOnly, "attributePropertySearch", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::HtmlUtf8RawTextWriter>::get>();
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::HtmlUtf8RawTextWriter::HtmlUtf8RawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlUtf8RawTextWriter(THROW_UNLESS(::il2cpp_utils::New<HtmlUtf8RawTextWriter>(stream, settings))) {}
+ System::Xml::HtmlUtf8RawTextWriter System::Xml::HtmlUtf8RawTextWriter::New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
+System::Xml::HtmlUtf8RawTextWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::HtmlUtf8RawTextWriter>(stream, settings))};
+return o;
+}
  void System::Xml::HtmlUtf8RawTextWriter::_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::HtmlUtf8RawTextWriter>::get(),

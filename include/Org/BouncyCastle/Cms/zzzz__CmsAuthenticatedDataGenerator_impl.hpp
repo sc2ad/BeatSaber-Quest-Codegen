@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedGenerator_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedDataGenerator_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedData_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedData_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator._ctor
 template<>
 
@@ -73,8 +73,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator::CmsAuthenticatedDataGenerator()  : Org::BouncyCastle::Cms::CmsAuthenticatedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsAuthenticatedDataGenerator>())) {}
+ Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator>::get(),
@@ -84,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator::CmsAuthenticatedDataGenerator(Org::BouncyCastle::Security::SecureRandom rand)  : Org::BouncyCastle::Cms::CmsAuthenticatedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsAuthenticatedDataGenerator>(rand))) {}
+ Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator::New_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
+Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator>(rand))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator::_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator>::get(),

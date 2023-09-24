@@ -4,11 +4,11 @@
 namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Buffers {
 class IPinnable;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Buffers {

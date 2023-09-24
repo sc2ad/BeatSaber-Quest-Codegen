@@ -1,20 +1,20 @@
 #pragma once
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderPropertyFlags_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__ComputeBuffer_def.hpp"
-#include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderTextureSubElement_def.hpp"
 #include "UnityEngine/zzzz__MaterialGlobalIlluminationFlags_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderTextureSubElement_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 //  Writing Method size for method: UnityEngine::Material.Create
 template<>
 
@@ -3893,8 +3893,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, self);
 }
-// Ctor Parameters [CppParam { name: "shader", ty: "UnityEngine::Shader", modifiers: "", def_value: None }]
- UnityEngine::Material::Material(UnityEngine::Shader shader)  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<Material>(shader))) {}
+ UnityEngine::Material UnityEngine::Material::New_ctor(UnityEngine::Shader shader)  {
+UnityEngine::Material o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Material>(shader))};
+return o;
+}
  void UnityEngine::Material::_ctor(UnityEngine::Shader shader)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Material>::get(),
@@ -3904,8 +3906,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, shader);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "UnityEngine::Material", modifiers: "", def_value: None }]
- UnityEngine::Material::Material(UnityEngine::Material source)  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<Material>(source))) {}
+ UnityEngine::Material UnityEngine::Material::New_ctor(UnityEngine::Material source)  {
+UnityEngine::Material o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Material>(source))};
+return o;
+}
  void UnityEngine::Material::_ctor(UnityEngine::Material source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Material>::get(),
@@ -3915,8 +3919,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, source);
 }
-// Ctor Parameters [CppParam { name: "contents", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Material::Material(::StringW contents)  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<Material>(contents))) {}
+ UnityEngine::Material UnityEngine::Material::New_ctor(::StringW contents)  {
+UnityEngine::Material o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Material>(contents))};
+return o;
+}
  void UnityEngine::Material::_ctor(::StringW contents)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Material>::get(),

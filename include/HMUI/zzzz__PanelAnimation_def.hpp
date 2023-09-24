@@ -4,27 +4,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine {
 class AnimationCurve;
+}
+namespace System {
+class Action;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace HMUI {
+class HMUI__PanelAnimation___AnimationCoroutine_d__1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -172,8 +175,7 @@ constexpr float_t __get__elapsedTime_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__PanelAnimation___AnimationCoroutine_d__1(int32_t __1__state) ;
+static HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fa5480 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -247,8 +249,7 @@ constexpr explicit PanelAnimation(void* ptr) noexcept : UnityEngine::MonoBehavio
 /// @brief Method AnimationCoroutine addr 0x1fa53bc size 0xc4 virtual false final false
  System::Collections::IEnumerator AnimationCoroutine(float_t duration, UnityEngine::CanvasGroup canvasGroup, UnityEngine::CanvasGroup parentCanvasGroup, UnityEngine::AnimationCurve scaleXAnimationCurve, UnityEngine::AnimationCurve scaleYAnimationCurve, UnityEngine::AnimationCurve alphaAnimationCurve, UnityEngine::AnimationCurve parentAlphaAnimationCurve, System::Action finishedCallback) ;
 
-// Ctor Parameters []
-explicit PanelAnimation() ;
+static HMUI::PanelAnimation New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa54a8 size 0x8 virtual false final false
  void _ctor() ;

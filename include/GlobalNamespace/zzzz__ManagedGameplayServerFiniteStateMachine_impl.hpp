@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "initParams", ty: "GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams", modifiers: "", def_value: None }]
- GlobalNamespace::ManagedGameplayServerFiniteStateMachine::ManagedGameplayServerFiniteStateMachine(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams)  : GlobalNamespace::GameplayServerFiniteStateMachine(THROW_UNLESS(::il2cpp_utils::New<ManagedGameplayServerFiniteStateMachine>(initParams))) {}
+ GlobalNamespace::ManagedGameplayServerFiniteStateMachine GlobalNamespace::ManagedGameplayServerFiniteStateMachine::New_ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams)  {
+GlobalNamespace::ManagedGameplayServerFiniteStateMachine o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ManagedGameplayServerFiniteStateMachine>(initParams))};
+return o;
+}
  void GlobalNamespace::ManagedGameplayServerFiniteStateMachine::_ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ManagedGameplayServerFiniteStateMachine>::get(),

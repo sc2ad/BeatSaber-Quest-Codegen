@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerSequence_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__LazyDerSequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::LazyDerSequence._ctor
 template<>
 
@@ -112,8 +112,10 @@ constexpr void Org::BouncyCastle::Asn1::LazyDerSequence::__set_encoded(::ArrayW<
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Asn1::LazyDerSequence::__get_encoded() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoded", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::LazyDerSequence::LazyDerSequence(::ArrayW<uint8_t> encoded)  : Org::BouncyCastle::Asn1::DerSequence(THROW_UNLESS(::il2cpp_utils::New<LazyDerSequence>(encoded))) {}
+ Org::BouncyCastle::Asn1::LazyDerSequence Org::BouncyCastle::Asn1::LazyDerSequence::New_ctor(::ArrayW<uint8_t> encoded)  {
+Org::BouncyCastle::Asn1::LazyDerSequence o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::LazyDerSequence>(encoded))};
+return o;
+}
  void Org::BouncyCastle::Asn1::LazyDerSequence::_ctor(::ArrayW<uint8_t> encoded)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::LazyDerSequence>::get(),

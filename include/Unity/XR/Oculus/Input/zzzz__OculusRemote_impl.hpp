@@ -220,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::Oculus::Input::OculusRemote::OculusRemote()  : UnityEngine::InputSystem::InputDevice(THROW_UNLESS(::il2cpp_utils::New<OculusRemote>())) {}
+ Unity::XR::Oculus::Input::OculusRemote Unity::XR::Oculus::Input::OculusRemote::New_ctor()  {
+Unity::XR::Oculus::Input::OculusRemote o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::Input::OculusRemote>())};
+return o;
+}
  void Unity::XR::Oculus::Input::OculusRemote::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::Input::OculusRemote>::get(),

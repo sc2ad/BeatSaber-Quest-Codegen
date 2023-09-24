@@ -3,13 +3,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
+struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

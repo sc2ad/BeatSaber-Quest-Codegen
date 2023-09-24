@@ -3,11 +3,11 @@
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::TextCore {
-struct GlyphMetrics;
-}
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine::TextCore {
+struct GlyphMetrics;
 }
 namespace UnityEngine::TextCore {
 struct GlyphRect;
@@ -67,20 +67,17 @@ constexpr UnityEngine::Sprite __get_sprite() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMP_SpriteGlyph() ;
+static TMPro::TMP_SpriteGlyph New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aaccc0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TMP_SpriteGlyph(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
+static TMPro::TMP_SpriteGlyph New_ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
 
 /// @brief Method .ctor addr 0x2aad034 size 0xbc virtual false final false
  void _ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
 
-// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }]
-explicit TMP_SpriteGlyph(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, UnityEngine::Sprite sprite) ;
+static TMPro::TMP_SpriteGlyph New_ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, UnityEngine::Sprite sprite) ;
 
 /// @brief Method .ctor addr 0x2aad0f0 size 0xc4 virtual false final false
  void _ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, UnityEngine::Sprite sprite) ;

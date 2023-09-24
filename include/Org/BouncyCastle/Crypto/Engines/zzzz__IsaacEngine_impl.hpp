@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__IsaacEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::IsaacEngine.Init
 template<>
 
@@ -297,8 +297,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::IsaacEngine::IsaacEngine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IsaacEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::IsaacEngine Org::BouncyCastle::Crypto::Engines::IsaacEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::IsaacEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::IsaacEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::IsaacEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::IsaacEngine>::get(),

@@ -123,14 +123,12 @@ constexpr float_t __get_m_AreaError() const;
 /// @brief Method set_areaError addr 0x29e86a4 size 0x8 virtual false final false
  void set_areaError(float_t value) ;
 
-// Ctor Parameters []
-explicit UnwrapParameters() ;
+static UnityEngine::ProBuilder::UnwrapParameters New_ctor() ;
 
 /// @brief Method .ctor addr 0x29e0db8 size 0x38 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "UnityEngine::ProBuilder::UnwrapParameters", modifiers: "", def_value: None }]
-explicit UnwrapParameters(UnityEngine::ProBuilder::UnwrapParameters other) ;
+static UnityEngine::ProBuilder::UnwrapParameters New_ctor(UnityEngine::ProBuilder::UnwrapParameters other) ;
 
 /// @brief Method .ctor addr 0x29e86bc size 0x88 virtual false final false
  void _ctor(UnityEngine::ProBuilder::UnwrapParameters other) ;

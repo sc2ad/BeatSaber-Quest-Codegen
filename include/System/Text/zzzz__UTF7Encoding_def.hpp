@@ -13,16 +13,28 @@ namespace System::Text {
 class DecoderFallbackBuffer;
 }
 namespace System::Text {
-class Decoder;
+class DecoderNLS;
 }
 namespace System::Text {
 class EncoderNLS;
 }
 namespace System::Text {
+class System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer;
+}
+namespace System::Text {
+class System__Text__UTF7Encoding__DecoderUTF7Fallback;
+}
+namespace System::Text {
+class System__Text__UTF7Encoding__Decoder;
+}
+namespace System::Text {
 class Encoder;
 }
 namespace System::Text {
-class DecoderNLS;
+class Decoder;
+}
+namespace System::Text {
+class System__Text__UTF7Encoding__Encoder;
 }
 // Forward declare root types
 namespace System::Text {
@@ -108,8 +120,7 @@ constexpr bool __get_firstByte() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF7Encoding", modifiers: "", def_value: None }]
-explicit System__Text__UTF7Encoding__Decoder(System::Text::UTF7Encoding encoding) ;
+static System::Text::System__Text__UTF7Encoding__Decoder New_ctor(System::Text::UTF7Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x22d478c size 0x8 virtual false final false
  void _ctor(System::Text::UTF7Encoding encoding) ;
@@ -186,8 +197,7 @@ constexpr int32_t __get_bitCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF7Encoding", modifiers: "", def_value: None }]
-explicit System__Text__UTF7Encoding__Encoder(System::Text::UTF7Encoding encoding) ;
+static System::Text::System__Text__UTF7Encoding__Encoder New_ctor(System::Text::UTF7Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x22d47f8 size 0x8 virtual false final false
  void _ctor(System::Text::UTF7Encoding encoding) ;
@@ -249,8 +259,7 @@ constexpr explicit System__Text__UTF7Encoding__DecoderUTF7Fallback(void* ptr) no
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Text__UTF7Encoding__DecoderUTF7Fallback() ;
+static System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x22d2f0c size 0x8 virtual false final false
  void _ctor() ;
@@ -339,8 +348,7 @@ constexpr int32_t __get_iSize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback", modifiers: "", def_value: None }]
-explicit System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer(System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback fallback) ;
+static System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer New_ctor(System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback fallback) ;
 
 /// @brief Method .ctor addr 0x22d4a90 size 0x10 virtual false final false
  void _ctor(System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback fallback) ;
@@ -447,14 +455,12 @@ constexpr bool __get__allowOptionals() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UTF7Encoding() ;
+static System::Text::UTF7Encoding New_ctor() ;
 
 /// @brief Method .ctor addr 0x22d2b7c size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "allowOptionals", ty: "bool", modifiers: "", def_value: None }]
-explicit UTF7Encoding(bool allowOptionals) ;
+static System::Text::UTF7Encoding New_ctor(bool allowOptionals) ;
 
 /// @brief Method .ctor addr 0x22d2ba0 size 0x30 virtual false final false
  void _ctor(bool allowOptionals) ;

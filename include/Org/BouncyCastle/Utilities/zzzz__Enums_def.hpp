@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System {
-class Type;
+class Array;
 }
 namespace System {
-class Array;
+class Type;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities {
@@ -66,8 +66,7 @@ static ::bs_hook::EnumTypeWrapper GetArbitraryValue(System::Type enumType) ;
 /// @brief Method IsEnumType addr 0x10e27a8 size 0x20 virtual false final false
 static bool IsEnumType(System::Type t) ;
 
-// Ctor Parameters []
-explicit Enums() ;
+static Org::BouncyCastle::Utilities::Enums New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e2980 size 0x8 virtual false final false
  void _ctor() ;

@@ -53,8 +53,7 @@ constexpr explicit TMP_InputValidator(void* ptr) noexcept : UnityEngine::Scripta
 /// @brief Method Validate addr 0x0 size 0xffffffffffffffff virtual true final false
  char16_t Validate(ByRef<::StringW> text, ByRef<int32_t> pos, char16_t ch) ;
 
-// Ctor Parameters []
-explicit TMP_InputValidator() ;
+static TMPro::TMP_InputValidator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa1d4c size 0x8 virtual false final false
  void _ctor() ;

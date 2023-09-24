@@ -828,8 +828,7 @@ static constexpr int32_t  DRAFT_TLS_RSA_PSK_WITH_CHACHA20_POLY1305_SHA256{52398}
 /// @brief Method IsScsv addr 0xed2cb0 size 0x20 virtual false final false
 static bool IsScsv(int32_t cipherSuite) ;
 
-// Ctor Parameters []
-explicit CipherSuite() ;
+static Org::BouncyCastle::Crypto::Tls::CipherSuite New_ctor() ;
 
 /// @brief Method .ctor addr 0xed2cd0 size 0x8 virtual false final false
  void _ctor() ;

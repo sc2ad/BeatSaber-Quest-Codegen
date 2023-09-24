@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "HMUI/zzzz__MouseBinder_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
-#include "System/zzzz__ValueTuple_3_def.hpp"
+#include "HMUI/zzzz__MouseBinder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Tuple_3_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
+#include "System/zzzz__Tuple_3_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__MouseBinder__MouseEventType::HMUI__MouseBinder__MouseEventType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -270,8 +271,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- HMUI::MouseBinder::MouseBinder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MouseBinder>())) {}
+ HMUI::MouseBinder HMUI::MouseBinder::New_ctor()  {
+HMUI::MouseBinder o{THROW_UNLESS(::il2cpp_utils::New<HMUI::MouseBinder>())};
+return o;
+}
  void HMUI::MouseBinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::MouseBinder>::get(),

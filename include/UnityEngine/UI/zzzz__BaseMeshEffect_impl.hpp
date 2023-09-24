@@ -188,8 +188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, vh);
 }
-// Ctor Parameters []
- UnityEngine::UI::BaseMeshEffect::BaseMeshEffect()  : UnityEngine::EventSystems::UIBehaviour(THROW_UNLESS(::il2cpp_utils::New<BaseMeshEffect>())) {}
+ UnityEngine::UI::BaseMeshEffect UnityEngine::UI::BaseMeshEffect::New_ctor()  {
+UnityEngine::UI::BaseMeshEffect o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::BaseMeshEffect>())};
+return o;
+}
  void UnityEngine::UI::BaseMeshEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::BaseMeshEffect>::get(),

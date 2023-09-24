@@ -76,14 +76,12 @@ constexpr ::StringW __get_ModuleAuthenticationType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Authorization(::StringW token) ;
+static System::Net::Authorization New_ctor(::StringW token) ;
 
 /// @brief Method .ctor addr 0x2809d90 size 0x80 virtual false final false
  void _ctor(::StringW token) ;
 
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "finished", ty: "bool", modifiers: "", def_value: None }]
-explicit Authorization(::StringW token, bool finished) ;
+static System::Net::Authorization New_ctor(::StringW token, bool finished) ;
 
 /// @brief Method .ctor addr 0x2809e10 size 0x80 virtual false final false
  void _ctor(::StringW token, bool finished) ;

@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::IO::MemoryInputStream::MemoryInputStream(::ArrayW<uint8_t> buffer)  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<MemoryInputStream>(buffer))) {}
+ Org::BouncyCastle::Utilities::IO::MemoryInputStream Org::BouncyCastle::Utilities::IO::MemoryInputStream::New_ctor(::ArrayW<uint8_t> buffer)  {
+Org::BouncyCastle::Utilities::IO::MemoryInputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::MemoryInputStream>(buffer))};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::MemoryInputStream::_ctor(::ArrayW<uint8_t> buffer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::MemoryInputStream>::get(),

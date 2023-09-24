@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__UrlAndHash_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::UrlAndHash._ctor
 template<>
 
@@ -99,8 +99,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::UrlAndHash::__set_mSha1Hash(::Arr
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::UrlAndHash::__get_mSha1Hash() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sha1Hash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::UrlAndHash::UrlAndHash(::StringW url, ::ArrayW<uint8_t> sha1Hash)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UrlAndHash>(url, sha1Hash))) {}
+ Org::BouncyCastle::Crypto::Tls::UrlAndHash Org::BouncyCastle::Crypto::Tls::UrlAndHash::New_ctor(::StringW url, ::ArrayW<uint8_t> sha1Hash)  {
+Org::BouncyCastle::Crypto::Tls::UrlAndHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::UrlAndHash>(url, sha1Hash))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::UrlAndHash::_ctor(::StringW url, ::ArrayW<uint8_t> sha1Hash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::UrlAndHash>::get(),

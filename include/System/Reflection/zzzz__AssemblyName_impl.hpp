@@ -1,21 +1,21 @@
 #pragma once
 #include "System/Reflection/zzzz__AssemblyName_def.hpp"
-#include "System/Reflection/zzzz__AssemblyNameFlags_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Runtime/InteropServices/zzzz___AssemblyName_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Configuration/Assemblies/zzzz__AssemblyHashAlgorithm_def.hpp"
-#include "System/Configuration/Assemblies/zzzz__AssemblyVersionCompatibility_def.hpp"
-#include "System/zzzz__Version_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Reflection/zzzz__ProcessorArchitecture_def.hpp"
 #include "Mono/zzzz__MonoAssemblyName_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 #include "System/Reflection/zzzz__AssemblyContentType_def.hpp"
+#include "System/Reflection/zzzz__ProcessorArchitecture_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/Configuration/Assemblies/zzzz__AssemblyHashAlgorithm_def.hpp"
+#include "System/Reflection/zzzz__AssemblyNameFlags_def.hpp"
+#include "System/Configuration/Assemblies/zzzz__AssemblyVersionCompatibility_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/InteropServices/zzzz___AssemblyName_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Reflection/zzzz__StrongNameKeyPair_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Reflection::AssemblyName._ctor
 template<>
 
@@ -502,8 +502,10 @@ constexpr void System::Reflection::AssemblyName::__set_contentType(System::Refle
 constexpr System::Reflection::AssemblyContentType System::Reflection::AssemblyName::__get_contentType() const {
 return ::cordl_internals::getInstanceField<System::Reflection::AssemblyContentType, 0x6c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Reflection::AssemblyName::AssemblyName()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssemblyName>())) {}
+ System::Reflection::AssemblyName System::Reflection::AssemblyName::New_ctor()  {
+System::Reflection::AssemblyName o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyName>())};
+return o;
+}
  void System::Reflection::AssemblyName::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyName>::get(),
@@ -522,8 +524,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, name, aname, is_version_definited, is_token_defined);
 }
-// Ctor Parameters [CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyName::AssemblyName(::StringW assemblyName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssemblyName>(assemblyName))) {}
+ System::Reflection::AssemblyName System::Reflection::AssemblyName::New_ctor(::StringW assemblyName)  {
+System::Reflection::AssemblyName o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyName>(assemblyName))};
+return o;
+}
  void System::Reflection::AssemblyName::_ctor(::StringW assemblyName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyName>::get(),
@@ -533,8 +537,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, assemblyName);
 }
-// Ctor Parameters [CppParam { name: "si", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "sc", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Reflection::AssemblyName::AssemblyName(System::Runtime::Serialization::SerializationInfo si, System::Runtime::Serialization::StreamingContext sc)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssemblyName>(si, sc))) {}
+ System::Reflection::AssemblyName System::Reflection::AssemblyName::New_ctor(System::Runtime::Serialization::SerializationInfo si, System::Runtime::Serialization::StreamingContext sc)  {
+System::Reflection::AssemblyName o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyName>(si, sc))};
+return o;
+}
  void System::Reflection::AssemblyName::_ctor(System::Runtime::Serialization::SerializationInfo si, System::Runtime::Serialization::StreamingContext sc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyName>::get(),

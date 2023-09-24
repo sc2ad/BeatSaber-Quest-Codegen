@@ -3,6 +3,10 @@
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
 namespace GlobalNamespace {
 struct BeatmapEventTransitionType;
 }
@@ -10,14 +14,10 @@ namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
-}
-namespace GlobalNamespace {
 struct EnvironmentColorType;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace GlobalNamespace {
+class BeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -137,8 +137,7 @@ static System::Collections::Generic::Dictionary_2<int32_t,GlobalNamespace::Light
 /// @brief Method set_strobeBeatFrequency addr 0xd91cdc size 0x8 virtual false final false
  void set_strobeBeatFrequency(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "transitionType", ty: "GlobalNamespace::BeatmapEventTransitionType", modifiers: "", def_value: None }, CppParam { name: "colorType", ty: "GlobalNamespace::EnvironmentColorType", modifiers: "", def_value: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "strobeBeatFrequency", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LightColorBeatmapEventData(float_t time, int32_t groupId, int32_t elementId, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency) ;
+static GlobalNamespace::LightColorBeatmapEventData New_ctor(float_t time, int32_t groupId, int32_t elementId, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency) ;
 
 /// @brief Method .ctor addr 0xd91ce4 size 0xc4 virtual false final false
  void _ctor(float_t time, int32_t groupId, int32_t elementId, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency) ;

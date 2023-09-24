@@ -6,17 +6,17 @@
 namespace UnityEngine {
 struct RectInt;
 }
-namespace UnityEngine {
-class Texture2D;
-}
 namespace System {
 class IDisposable;
 }
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -131,8 +131,7 @@ constexpr bool __get__disposed_k__BackingField() const;
 /// @brief Method Dispose addr 0x2d150ac size 0x18 virtual true final false
  void Dispose(bool disposing) ;
 
-// Ctor Parameters []
-explicit BaseShaderInfoStorage() ;
+static UnityEngine::UIElements::UIR::BaseShaderInfoStorage New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d150c4 size 0x8 virtual false final false
  void _ctor() ;

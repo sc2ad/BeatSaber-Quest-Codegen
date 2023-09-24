@@ -412,8 +412,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::Blake2sDigest::__set_f0(uint3
 constexpr uint32_t Org::BouncyCastle::Crypto::Digests::Blake2sDigest::__get_f0() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::Blake2sDigest::Blake2sDigest()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Blake2sDigest>())) {}
+ Org::BouncyCastle::Crypto::Digests::Blake2sDigest Org::BouncyCastle::Crypto::Digests::Blake2sDigest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::Blake2sDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Blake2sDigest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Blake2sDigest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Blake2sDigest>::get(),
@@ -423,8 +425,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::Digests::Blake2sDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Blake2sDigest::Blake2sDigest(Org::BouncyCastle::Crypto::Digests::Blake2sDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Blake2sDigest>(digest))) {}
+ Org::BouncyCastle::Crypto::Digests::Blake2sDigest Org::BouncyCastle::Crypto::Digests::Blake2sDigest::New_ctor(Org::BouncyCastle::Crypto::Digests::Blake2sDigest digest)  {
+Org::BouncyCastle::Crypto::Digests::Blake2sDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Blake2sDigest>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Blake2sDigest::_ctor(Org::BouncyCastle::Crypto::Digests::Blake2sDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Blake2sDigest>::get(),
@@ -434,8 +438,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, digest);
 }
-// Ctor Parameters [CppParam { name: "digestBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Blake2sDigest::Blake2sDigest(int32_t digestBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Blake2sDigest>(digestBits))) {}
+ Org::BouncyCastle::Crypto::Digests::Blake2sDigest Org::BouncyCastle::Crypto::Digests::Blake2sDigest::New_ctor(int32_t digestBits)  {
+Org::BouncyCastle::Crypto::Digests::Blake2sDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Blake2sDigest>(digestBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Blake2sDigest::_ctor(int32_t digestBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Blake2sDigest>::get(),
@@ -445,8 +451,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, digestBits);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Blake2sDigest::Blake2sDigest(::ArrayW<uint8_t> key)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Blake2sDigest>(key))) {}
+ Org::BouncyCastle::Crypto::Digests::Blake2sDigest Org::BouncyCastle::Crypto::Digests::Blake2sDigest::New_ctor(::ArrayW<uint8_t> key)  {
+Org::BouncyCastle::Crypto::Digests::Blake2sDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Blake2sDigest>(key))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Blake2sDigest::_ctor(::ArrayW<uint8_t> key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Blake2sDigest>::get(),
@@ -456,8 +464,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "digestBytes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "personalization", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Blake2sDigest::Blake2sDigest(::ArrayW<uint8_t> key, int32_t digestBytes, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> personalization)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Blake2sDigest>(key, digestBytes, salt, personalization))) {}
+ Org::BouncyCastle::Crypto::Digests::Blake2sDigest Org::BouncyCastle::Crypto::Digests::Blake2sDigest::New_ctor(::ArrayW<uint8_t> key, int32_t digestBytes, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> personalization)  {
+Org::BouncyCastle::Crypto::Digests::Blake2sDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Blake2sDigest>(key, digestBytes, salt, personalization))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Blake2sDigest::_ctor(::ArrayW<uint8_t> key, int32_t digestBytes, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> personalization)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Blake2sDigest>::get(),

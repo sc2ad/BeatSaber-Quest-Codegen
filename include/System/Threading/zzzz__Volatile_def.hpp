@@ -4,6 +4,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Threading {
+struct System__Threading__Volatile__VolatileObject;
+}
+namespace System::Threading {
+struct System__Threading__Volatile__VolatileBoolean;
+}
+namespace System::Threading {
+struct System__Threading__Volatile__VolatileInt32;
+}
 // Forward declare root types
 namespace System::Threading {
 class Volatile;

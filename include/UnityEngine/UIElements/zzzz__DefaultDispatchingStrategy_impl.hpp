@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__DefaultDispatchingStrategy_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventDispatchingStrategy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventDispatchingStrategy_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::DefaultDispatchingStrategy.CanDispatchEvent
 template<>
 
@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, evt, panel);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::DefaultDispatchingStrategy::DefaultDispatchingStrategy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultDispatchingStrategy>())) {}
+ UnityEngine::UIElements::DefaultDispatchingStrategy UnityEngine::UIElements::DefaultDispatchingStrategy::New_ctor()  {
+UnityEngine::UIElements::DefaultDispatchingStrategy o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::DefaultDispatchingStrategy>())};
+return o;
+}
  void UnityEngine::UIElements::DefaultDispatchingStrategy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::DefaultDispatchingStrategy>::get(),

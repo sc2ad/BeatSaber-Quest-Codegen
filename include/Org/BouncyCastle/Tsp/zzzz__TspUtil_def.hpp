@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
 }
 namespace System::Collections {
 class ICollection;
 }
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
@@ -124,8 +124,7 @@ static Org::BouncyCastle::Utilities::Collections::ISet GetNonCriticalExtensionOi
 /// @brief Method GetExtensionOids addr 0x10c3c70 size 0xb0 virtual false final false
 static System::Collections::IList GetExtensionOids(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters []
-explicit TspUtil() ;
+static Org::BouncyCastle::Tsp::TspUtil New_ctor() ;
 
 /// @brief Method .ctor addr 0x10cac9c size 0x8 virtual false final false
  void _ctor() ;

@@ -5,25 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine::TextCore::Text {
-struct MeshInfo;
+struct PageInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct LinkInfo;
+struct WordInfo;
 }
 namespace UnityEngine::TextCore::Text {
 struct TextElementInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct WordInfo;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::TextCore::Text {
-struct PageInfo;
+struct LinkInfo;
 }
 namespace UnityEngine::TextCore::Text {
 struct LineInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct MeshInfo;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -176,8 +176,7 @@ constexpr bool __get_isDirty() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TextInfo() ;
+static UnityEngine::TextCore::Text::TextInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bcfde8 size 0x134 virtual false final false
  void _ctor() ;

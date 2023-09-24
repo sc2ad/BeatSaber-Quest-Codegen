@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::ICustomStyle, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::CustomStyleResolvedEvent::CustomStyleResolvedEvent()  : UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::CustomStyleResolvedEvent>(THROW_UNLESS(::il2cpp_utils::New<CustomStyleResolvedEvent>())) {}
+ UnityEngine::UIElements::CustomStyleResolvedEvent UnityEngine::UIElements::CustomStyleResolvedEvent::New_ctor()  {
+UnityEngine::UIElements::CustomStyleResolvedEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::CustomStyleResolvedEvent>())};
+return o;
+}
  void UnityEngine::UIElements::CustomStyleResolvedEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::CustomStyleResolvedEvent>::get(),

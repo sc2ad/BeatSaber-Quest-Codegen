@@ -1,21 +1,22 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ResultsViewController_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "GlobalNamespace/zzzz__ResultsEnvironmentManager_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__ResultsViewController_def.hpp"
+#include "GlobalNamespace/zzzz__FireworksController_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__FireworksController_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__ResultsEnvironmentManager_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__LevelBar_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32._ctor
 template<>
@@ -155,8 +156,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ResultsViewController___StartFi
 constexpr GlobalNamespace::ResultsViewController GlobalNamespace::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ResultsViewController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32 GlobalNamespace::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32>::get(),
@@ -730,8 +733,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ResultsViewController::ResultsViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<ResultsViewController>())) {}
+ GlobalNamespace::ResultsViewController GlobalNamespace::ResultsViewController::New_ctor()  {
+GlobalNamespace::ResultsViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ResultsViewController>())};
+return o;
+}
  void GlobalNamespace::ResultsViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ResultsViewController>::get(),

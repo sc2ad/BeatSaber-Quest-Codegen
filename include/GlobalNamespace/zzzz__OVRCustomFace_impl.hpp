@@ -129,8 +129,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__OVRFaceExpressions__FaceExpression, false>(const_cast<void*>(instance), ___internal_method, blendShapeIndex);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRCustomFace::OVRCustomFace()  : GlobalNamespace::OVRFace(THROW_UNLESS(::il2cpp_utils::New<OVRCustomFace>())) {}
+ GlobalNamespace::OVRCustomFace GlobalNamespace::OVRCustomFace::New_ctor()  {
+GlobalNamespace::OVRCustomFace o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRCustomFace>())};
+return o;
+}
  void GlobalNamespace::OVRCustomFace::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRCustomFace>::get(),

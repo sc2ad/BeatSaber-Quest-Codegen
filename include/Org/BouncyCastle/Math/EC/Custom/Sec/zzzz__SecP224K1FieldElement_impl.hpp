@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpFieldElement_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecP224K1FieldElement_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement._ctor
 template<>
 
@@ -395,8 +395,10 @@ constexpr void Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::
 constexpr ::ArrayW<uint32_t> Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::__get_x() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::SecP224K1FieldElement(Org::BouncyCastle::Math::BigInteger x)  : Org::BouncyCastle::Math::EC::AbstractFpFieldElement(THROW_UNLESS(::il2cpp_utils::New<SecP224K1FieldElement>(x))) {}
+ Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::New_ctor(Org::BouncyCastle::Math::BigInteger x)  {
+Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement>(x))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::_ctor(Org::BouncyCastle::Math::BigInteger x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement>::get(),
@@ -406,8 +408,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::SecP224K1FieldElement()  : Org::BouncyCastle::Math::EC::AbstractFpFieldElement(THROW_UNLESS(::il2cpp_utils::New<SecP224K1FieldElement>())) {}
+ Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::New_ctor()  {
+Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement>::get(),
@@ -417,8 +421,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::SecP224K1FieldElement(::ArrayW<uint32_t> x)  : Org::BouncyCastle::Math::EC::AbstractFpFieldElement(THROW_UNLESS(::il2cpp_utils::New<SecP224K1FieldElement>(x))) {}
+ Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::New_ctor(::ArrayW<uint32_t> x)  {
+Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement>(x))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement::_ctor(::ArrayW<uint32_t> x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1FieldElement>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__EncryptedContentInfoParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1SequenceParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObjectParser_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser._ctor
 template<>
@@ -91,8 +91,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser::__set__
 constexpr Org::BouncyCastle::Asn1::Asn1TaggedObjectParser Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser::__get__encryptedContent() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1TaggedObjectParser, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1SequenceParser", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser::EncryptedContentInfoParser(Org::BouncyCastle::Asn1::Asn1SequenceParser seq)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EncryptedContentInfoParser>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser::New_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq)  {
+Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser::_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser>::get(),

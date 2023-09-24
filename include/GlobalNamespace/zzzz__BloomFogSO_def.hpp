@@ -175,8 +175,7 @@ constexpr GlobalNamespace::BloomFogEnvironmentParams __get__transitionFogParams(
 /// @brief Method SetParams addr 0x1f9069c size 0xe4 virtual false final false
  void SetParams(float_t attenuation, float_t offset, float_t heightFogStartY, float_t heightFogHeight, float_t autoExposureLimit, float_t noteSpawnIntensity) ;
 
-// Ctor Parameters []
-explicit BloomFogSO() ;
+static GlobalNamespace::BloomFogSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f90780 size 0x10 virtual false final false
  void _ctor() ;

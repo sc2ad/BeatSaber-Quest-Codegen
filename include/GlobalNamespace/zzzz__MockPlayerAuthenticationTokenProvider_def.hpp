@@ -2,12 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct PlatformEnvironment;
-}
 namespace GlobalNamespace {
 struct GlobalNamespace__AuthenticationToken__Platform;
 }
@@ -15,14 +9,20 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+struct PlatformEnvironment;
+}
+namespace GlobalNamespace {
+class XPlatformAccessTokenData;
+}
 namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
 }
 namespace GlobalNamespace {
 struct AuthenticationToken;
-}
-namespace GlobalNamespace {
-class XPlatformAccessTokenData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -124,8 +124,7 @@ constexpr GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform __get_
 /// @brief Method get_platform addr 0x227977c size 0x8 virtual true final true
  GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform get_platform() ;
 
-// Ctor Parameters [CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MockPlayerAuthenticationTokenProvider(::StringW userId, ::StringW userName, ::StringW password) ;
+static GlobalNamespace::MockPlayerAuthenticationTokenProvider New_ctor(::StringW userId, ::StringW userName, ::StringW password) ;
 
 /// @brief Method .ctor addr 0x2279784 size 0x98 virtual false final false
  void _ctor(::StringW userId, ::StringW userName, ::StringW password) ;

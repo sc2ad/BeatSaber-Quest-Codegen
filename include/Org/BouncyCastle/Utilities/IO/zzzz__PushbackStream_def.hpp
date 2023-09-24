@@ -61,8 +61,7 @@ constexpr int32_t __get_buf() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "s", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit PushbackStream(System::IO::Stream s) ;
+static Org::BouncyCastle::Utilities::IO::PushbackStream New_ctor(System::IO::Stream s) ;
 
 /// @brief Method .ctor addr 0x10d3a04 size 0x10 virtual false final false
  void _ctor(System::IO::Stream s) ;

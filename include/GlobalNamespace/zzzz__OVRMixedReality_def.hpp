@@ -3,10 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Quaternion;
+class Camera;
 }
 namespace UnityEngine {
-class Camera;
+class GameObject;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class OVRMixedRealityCaptureConfiguration;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__TrackingOrigin;
@@ -16,12 +22,6 @@ class OVRComposition;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class OVRMixedRealityCaptureConfiguration;
 }
 // Forward declare root types
 namespace GlobalNamespace {

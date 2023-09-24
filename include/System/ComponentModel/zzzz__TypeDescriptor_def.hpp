@@ -19,10 +19,10 @@ namespace System::Collections {
 class IComparer;
 }
 namespace System::ComponentModel {
-class PropertyDescriptorCollection;
+class EventDescriptor;
 }
 namespace System::ComponentModel {
-class TypeConverter;
+class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
 class PropertyDescriptor;
@@ -37,13 +37,13 @@ namespace System::ComponentModel {
 class ICustomTypeDescriptor;
 }
 namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace System::ComponentModel {
 class AttributeCollection;
 }
-namespace System::ComponentModel {
-class EventDescriptor;
-}
-namespace System::ComponentModel {
-class TypeDescriptionProvider;
+namespace GlobalNamespace {
+struct System__ComponentModel__TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor;
 }
 namespace System::Collections {
 class IDictionary;
@@ -52,28 +52,58 @@ namespace System::ComponentModel {
 class IExtenderProvider;
 }
 namespace System::ComponentModel {
-class WeakHashtable;
+class TypeDescriptionProvider;
 }
-namespace System::ComponentModel {
-class RefreshEventHandler;
+namespace GlobalNamespace {
+struct System__ComponentModel__TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor;
 }
 namespace System::Collections {
 class ArrayList;
 }
+namespace System::ComponentModel {
+class MemberDescriptor;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__TypeDescriptor__MergedTypeDescriptor;
+}
+namespace System::ComponentModel {
+class RefreshEventHandler;
+}
+namespace System {
+struct Guid;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__TypeDescriptor__MemberDescriptorComparer;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__TypeDescriptor__TypeDescriptorComObject;
+}
+namespace System::ComponentModel {
+class WeakHashtable;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__TypeDescriptor__FilterCacheItem;
+}
 namespace System::Collections {
-class IList;
+class Hashtable;
 }
 namespace System::Diagnostics {
 class BooleanSwitch;
 }
 namespace System::Collections {
-class Hashtable;
+class IList;
 }
 namespace System::ComponentModel {
-class MemberDescriptor;
+class System__ComponentModel__TypeDescriptor__IUnimplemented;
 }
-namespace System {
-struct Guid;
+namespace System::ComponentModel {
+class System__ComponentModel__TypeDescriptor__TypeDescriptionNode;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__TypeDescriptor__TypeDescriptorInterface;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -166,8 +196,7 @@ constexpr System::Collections::ICollection __get_FilteredMembers() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "filter", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }, CppParam { name: "filteredMembers", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem(::ArrayW<System::Attribute> filter, System::Collections::ICollection filteredMembers) ;
+static System::ComponentModel::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem New_ctor(::ArrayW<System::Attribute> filter, System::Collections::ICollection filteredMembers) ;
 
 /// @brief Method .ctor addr 0x27a0e24 size 0x2c virtual false final false
  void _ctor(::ArrayW<System::Attribute> filter, System::Collections::ICollection filteredMembers) ;
@@ -236,8 +265,7 @@ constexpr System::Collections::ICollection __get_FilteredMembers() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "filterService", ty: "System::ComponentModel::Design::ITypeDescriptorFilterService", modifiers: "", def_value: None }, CppParam { name: "filteredMembers", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit System__ComponentModel__TypeDescriptor__FilterCacheItem(System::ComponentModel::Design::ITypeDescriptorFilterService filterService, System::Collections::ICollection filteredMembers) ;
+static System::ComponentModel::System__ComponentModel__TypeDescriptor__FilterCacheItem New_ctor(System::ComponentModel::Design::ITypeDescriptorFilterService filterService, System::Collections::ICollection filteredMembers) ;
 
 /// @brief Method .ctor addr 0x27a0e60 size 0x2c virtual false final false
  void _ctor(System::ComponentModel::Design::ITypeDescriptorFilterService filterService, System::Collections::ICollection filteredMembers) ;
@@ -325,8 +353,7 @@ static System::ComponentModel::System__ComponentModel__TypeDescriptor__MemberDes
 /// @brief Method Compare addr 0x27a1334 size 0x16c virtual true final true
  int32_t Compare(::bs_hook::Il2CppWrapperType left, ::bs_hook::Il2CppWrapperType right) ;
 
-// Ctor Parameters []
-explicit System__ComponentModel__TypeDescriptor__MemberDescriptorComparer() ;
+static System::ComponentModel::System__ComponentModel__TypeDescriptor__MemberDescriptorComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x27a14a0 size 0x8 virtual false final false
  void _ctor() ;
@@ -395,8 +422,7 @@ constexpr System::ComponentModel::ICustomTypeDescriptor __get__secondary() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "primary", ty: "System::ComponentModel::ICustomTypeDescriptor", modifiers: "", def_value: None }, CppParam { name: "secondary", ty: "System::ComponentModel::ICustomTypeDescriptor", modifiers: "", def_value: None }]
-explicit System__ComponentModel__TypeDescriptor__MergedTypeDescriptor(System::ComponentModel::ICustomTypeDescriptor primary, System::ComponentModel::ICustomTypeDescriptor secondary) ;
+static System::ComponentModel::System__ComponentModel__TypeDescriptor__MergedTypeDescriptor New_ctor(System::ComponentModel::ICustomTypeDescriptor primary, System::ComponentModel::ICustomTypeDescriptor secondary) ;
 
 /// @brief Method .ctor addr 0x279f570 size 0x2c virtual false final false
  void _ctor(System::ComponentModel::ICustomTypeDescriptor primary, System::ComponentModel::ICustomTypeDescriptor secondary) ;
@@ -716,8 +742,7 @@ constexpr System::ComponentModel::TypeDescriptionProvider __get_Provider() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "provider", ty: "System::ComponentModel::TypeDescriptionProvider", modifiers: "", def_value: None }]
-explicit System__ComponentModel__TypeDescriptor__TypeDescriptionNode(System::ComponentModel::TypeDescriptionProvider provider) ;
+static System::ComponentModel::System__ComponentModel__TypeDescriptor__TypeDescriptionNode New_ctor(System::ComponentModel::TypeDescriptionProvider provider) ;
 
 /// @brief Method .ctor addr 0x279aa5c size 0x28 virtual false final false
  void _ctor(System::ComponentModel::TypeDescriptionProvider provider) ;

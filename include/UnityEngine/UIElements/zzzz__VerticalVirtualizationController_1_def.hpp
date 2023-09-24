@@ -5,37 +5,41 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System {
 template<typename TResult>
 class Func_1;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::UIElements {
+class BaseVerticalCollectionView;
+}
+namespace UnityEngine::Pool {
+template<typename T>
+class ObjectPool_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
+class VisualElement;
 }
-namespace System::Collections::Generic {
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace UnityEngine::UIElements {
 template<typename T>
-class List_1;
+class UnityEngine__UIElements__VerticalVirtualizationController_1____c;
 }
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
-}
-namespace UnityEngine::Pool {
-template<typename T>
-class ObjectPool_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -121,8 +125,7 @@ static System::Action_1<T> __get___9__25_1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__VerticalVirtualizationController_1____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VerticalVirtualizationController_1____c<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -276,8 +279,7 @@ constexpr UnityEngine::UIElements::VisualElement __get_k_EmptyRows() const;
 /// @brief Method get_lastHeight addr 0x0 size 0xffffffffffffffff virtual false final false
  float_t get_lastHeight() ;
 
-// Ctor Parameters [CppParam { name: "collectionView", ty: "UnityEngine::UIElements::BaseVerticalCollectionView", modifiers: "", def_value: None }]
-explicit VerticalVirtualizationController_1(UnityEngine::UIElements::BaseVerticalCollectionView collectionView) ;
+static UnityEngine::UIElements::VerticalVirtualizationController_1<T> New_ctor(UnityEngine::UIElements::BaseVerticalCollectionView collectionView) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(UnityEngine::UIElements::BaseVerticalCollectionView collectionView) ;

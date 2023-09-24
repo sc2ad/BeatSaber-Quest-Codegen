@@ -1,14 +1,15 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Zenject/zzzz__DisposableManager_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__DisposableManager_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__ILateDisposable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
+#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__DisposableManager__DisposableInfo._ctor
 template<>
 
@@ -114,8 +115,10 @@ constexpr void Zenject::Zenject__DisposableManager__LateDisposableInfo::__set_Pr
 constexpr int32_t Zenject::Zenject__DisposableManager__LateDisposableInfo::__get_Priority() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "lateDisposable", ty: "Zenject::ILateDisposable", modifiers: "", def_value: None }, CppParam { name: "priority", ty: "int32_t", modifiers: "", def_value: None }]
- Zenject::Zenject__DisposableManager__LateDisposableInfo::Zenject__DisposableManager__LateDisposableInfo(Zenject::ILateDisposable lateDisposable, int32_t priority)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DisposableManager__LateDisposableInfo>(lateDisposable, priority))) {}
+ Zenject::Zenject__DisposableManager__LateDisposableInfo Zenject::Zenject__DisposableManager__LateDisposableInfo::New_ctor(Zenject::ILateDisposable lateDisposable, int32_t priority)  {
+Zenject::Zenject__DisposableManager__LateDisposableInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DisposableManager__LateDisposableInfo>(lateDisposable, priority))};
+return o;
+}
  void Zenject::Zenject__DisposableManager__LateDisposableInfo::_ctor(Zenject::ILateDisposable lateDisposable, int32_t priority)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DisposableManager__LateDisposableInfo>::get(),
@@ -217,8 +220,10 @@ constexpr void Zenject::Zenject__DisposableManager____c__DisplayClass4_0::__set_
 constexpr System::IDisposable Zenject::Zenject__DisposableManager____c__DisplayClass4_0::__get_disposable() const {
 return ::cordl_internals::getInstanceField<System::IDisposable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__DisposableManager____c__DisplayClass4_0::Zenject__DisposableManager____c__DisplayClass4_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DisposableManager____c__DisplayClass4_0>())) {}
+ Zenject::Zenject__DisposableManager____c__DisplayClass4_0 Zenject::Zenject__DisposableManager____c__DisplayClass4_0::New_ctor()  {
+Zenject::Zenject__DisposableManager____c__DisplayClass4_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DisposableManager____c__DisplayClass4_0>())};
+return o;
+}
  void Zenject::Zenject__DisposableManager____c__DisplayClass4_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DisposableManager____c__DisplayClass4_0>::get(),
@@ -329,8 +334,10 @@ constexpr void Zenject::Zenject__DisposableManager____c__DisplayClass4_1::__set_
 constexpr Zenject::ILateDisposable Zenject::Zenject__DisposableManager____c__DisplayClass4_1::__get_lateDisposable() const {
 return ::cordl_internals::getInstanceField<Zenject::ILateDisposable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__DisposableManager____c__DisplayClass4_1::Zenject__DisposableManager____c__DisplayClass4_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DisposableManager____c__DisplayClass4_1>())) {}
+ Zenject::Zenject__DisposableManager____c__DisplayClass4_1 Zenject::Zenject__DisposableManager____c__DisplayClass4_1::New_ctor()  {
+Zenject::Zenject__DisposableManager____c__DisplayClass4_1 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DisposableManager____c__DisplayClass4_1>())};
+return o;
+}
  void Zenject::Zenject__DisposableManager____c__DisplayClass4_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DisposableManager____c__DisplayClass4_1>::get(),
@@ -516,8 +523,10 @@ return ::cordl_internals::getStaticField<System::Func_2<Zenject::Zenject__Dispos
  System::Func_2<Zenject::Zenject__DisposableManager__DisposableInfo,int32_t> Zenject::Zenject__DisposableManager____c::__get___9__11_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<Zenject::Zenject__DisposableManager__DisposableInfo,int32_t>, "<>9__11_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DisposableManager____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__DisposableManager____c::Zenject__DisposableManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DisposableManager____c>())) {}
+ Zenject::Zenject__DisposableManager____c Zenject::Zenject__DisposableManager____c::New_ctor()  {
+Zenject::Zenject__DisposableManager____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DisposableManager____c>())};
+return o;
+}
  void Zenject::Zenject__DisposableManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DisposableManager____c>::get(),
@@ -655,8 +664,10 @@ constexpr void Zenject::Zenject__DisposableManager____c__DisplayClass9_0::__set_
 constexpr System::IDisposable Zenject::Zenject__DisposableManager____c__DisplayClass9_0::__get_disposable() const {
 return ::cordl_internals::getInstanceField<System::IDisposable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__DisposableManager____c__DisplayClass9_0::Zenject__DisposableManager____c__DisplayClass9_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DisposableManager____c__DisplayClass9_0>())) {}
+ Zenject::Zenject__DisposableManager____c__DisplayClass9_0 Zenject::Zenject__DisposableManager____c__DisplayClass9_0::New_ctor()  {
+Zenject::Zenject__DisposableManager____c__DisplayClass9_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DisposableManager____c__DisplayClass9_0>())};
+return o;
+}
  void Zenject::Zenject__DisposableManager____c__DisplayClass9_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DisposableManager____c__DisplayClass9_0>::get(),
@@ -891,8 +902,10 @@ constexpr void Zenject::DisposableManager::__set__lateDisposed(bool value)  {
 constexpr bool Zenject::DisposableManager::__get__lateDisposed() const {
 return ::cordl_internals::getInstanceField<bool, 0x21>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "disposables", ty: "System::Collections::Generic::List_1<System::IDisposable>", modifiers: "", def_value: None }, CppParam { name: "priorities", ty: "System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>>", modifiers: "", def_value: None }, CppParam { name: "lateDisposables", ty: "System::Collections::Generic::List_1<Zenject::ILateDisposable>", modifiers: "", def_value: None }, CppParam { name: "latePriorities", ty: "System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>>", modifiers: "", def_value: None }]
- Zenject::DisposableManager::DisposableManager(System::Collections::Generic::List_1<System::IDisposable> disposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities, System::Collections::Generic::List_1<Zenject::ILateDisposable> lateDisposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> latePriorities)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DisposableManager>(disposables, priorities, lateDisposables, latePriorities))) {}
+ Zenject::DisposableManager Zenject::DisposableManager::New_ctor(System::Collections::Generic::List_1<System::IDisposable> disposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities, System::Collections::Generic::List_1<Zenject::ILateDisposable> lateDisposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> latePriorities)  {
+Zenject::DisposableManager o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DisposableManager>(disposables, priorities, lateDisposables, latePriorities))};
+return o;
+}
  void Zenject::DisposableManager::_ctor(System::Collections::Generic::List_1<System::IDisposable> disposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities, System::Collections::Generic::List_1<Zenject::ILateDisposable> lateDisposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> latePriorities)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DisposableManager>::get(),

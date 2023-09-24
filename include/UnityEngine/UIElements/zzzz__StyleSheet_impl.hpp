@@ -2,18 +2,19 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleComplexSelector_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleValueType_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__Dimension_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__ScalableImage_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleValueType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueHandle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueKeyword_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__ScalableImage_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueFunction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleRule_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleComplexSelector_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 // Ctor Parameters [CppParam { name: "styleSheet", ty: "UnityEngine::UIElements::StyleSheet", modifiers: "", def_value: Some("csnull") }, CppParam { name: "mediaQueries", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__StyleSheet__ImportStruct::UnityEngine__UIElements__StyleSheet__ImportStruct(UnityEngine::UIElements::StyleSheet styleSheet, ::ArrayW<::StringW> mediaQueries) noexcept : ::bs_hook::ValueTypeWrapper() {this->styleSheet = styleSheet;
 this->mediaQueries = mediaQueries;
@@ -1197,8 +1198,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, originalString, pattern);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleSheet::StyleSheet()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<StyleSheet>())) {}
+ UnityEngine::UIElements::StyleSheet UnityEngine::UIElements::StyleSheet::New_ctor()  {
+UnityEngine::UIElements::StyleSheet o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleSheet>())};
+return o;
+}
  void UnityEngine::UIElements::StyleSheet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleSheet>::get(),

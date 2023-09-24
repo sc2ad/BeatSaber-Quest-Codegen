@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -77,8 +77,7 @@ constexpr int32_t __get_certainty() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "publicExponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RsaKeyGenerationParameters(Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty) ;
+static Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters New_ctor(Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty) ;
 
 /// @brief Method .ctor addr 0xeab460 size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty) ;

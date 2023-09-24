@@ -1,10 +1,10 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__RequestStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 //  Writing Method size for method: System::Net::RequestStream._ctor
 template<>
 
@@ -364,8 +364,10 @@ constexpr void System::Net::RequestStream::__set_stream(System::IO::Stream value
 constexpr System::IO::Stream System::Net::RequestStream::__get_stream() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::RequestStream::RequestStream(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<RequestStream>(stream, buffer, offset, length))) {}
+ System::Net::RequestStream System::Net::RequestStream::New_ctor(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length)  {
+System::Net::RequestStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::RequestStream>(stream, buffer, offset, length))};
+return o;
+}
  void System::Net::RequestStream::_ctor(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::RequestStream>::get(),
@@ -375,8 +377,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, buffer, offset, length);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contentlength", ty: "int64_t", modifiers: "", def_value: None }]
- System::Net::RequestStream::RequestStream(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<RequestStream>(stream, buffer, offset, length, contentlength))) {}
+ System::Net::RequestStream System::Net::RequestStream::New_ctor(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength)  {
+System::Net::RequestStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::RequestStream>(stream, buffer, offset, length, contentlength))};
+return o;
+}
  void System::Net::RequestStream::_ctor(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::RequestStream>::get(),

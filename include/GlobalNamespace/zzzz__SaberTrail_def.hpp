@@ -4,19 +4,19 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class SaberTrailRenderer;
+class IBladeMovementData;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class TrailElementCollection;
-}
-namespace GlobalNamespace {
-class IBladeMovementData;
-}
-namespace GlobalNamespace {
 struct BladeMovementDataElement;
+}
+namespace GlobalNamespace {
+class SaberTrailRenderer;
+}
+namespace GlobalNamespace {
+class TrailElementCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -208,8 +208,7 @@ constexpr bool __get__inited() const;
 /// @brief Method OnDrawGizmosSelected addr 0x22566b8 size 0x1d4 virtual false final false
  void OnDrawGizmosSelected() ;
 
-// Ctor Parameters []
-explicit SaberTrail() ;
+static GlobalNamespace::SaberTrail New_ctor() ;
 
 /// @brief Method .ctor addr 0x225688c size 0x38 virtual false final false
  void _ctor() ;

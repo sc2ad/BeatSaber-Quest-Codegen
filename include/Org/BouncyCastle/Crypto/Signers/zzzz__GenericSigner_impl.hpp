@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__GenericSigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::GenericSigner._ctor
 template<>
 
@@ -162,8 +162,10 @@ constexpr void Org::BouncyCastle::Crypto::Signers::GenericSigner::__set_forSigni
 constexpr bool Org::BouncyCastle::Crypto::Signers::GenericSigner::__get_forSigning() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::GenericSigner::GenericSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher engine, Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericSigner>(engine, digest))) {}
+ Org::BouncyCastle::Crypto::Signers::GenericSigner Org::BouncyCastle::Crypto::Signers::GenericSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher engine, Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Signers::GenericSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::GenericSigner>(engine, digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::GenericSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher engine, Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::GenericSigner>::get(),

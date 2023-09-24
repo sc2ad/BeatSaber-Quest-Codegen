@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::AccessControl {
+struct AceFlags;
+}
+namespace System::Security::AccessControl {
 struct AceQualifier;
 }
 namespace System::Security::AccessControl {
-struct AceFlags;
+struct AceType;
 }
 namespace System::Security::Principal {
 class SecurityIdentifier;
-}
-namespace System::Security::AccessControl {
-struct AceType;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -66,14 +66,12 @@ constexpr explicit CommonAce(void* ptr) noexcept : System::Security::AccessContr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }, CppParam { name: "qualifier", ty: "System::Security::AccessControl::AceQualifier", modifiers: "", def_value: None }, CppParam { name: "accessMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sid", ty: "System::Security::Principal::SecurityIdentifier", modifiers: "", def_value: None }, CppParam { name: "isCallback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "opaque", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CommonAce(System::Security::AccessControl::AceFlags flags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, bool isCallback, ::ArrayW<uint8_t> opaque) ;
+static System::Security::AccessControl::CommonAce New_ctor(System::Security::AccessControl::AceFlags flags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, bool isCallback, ::ArrayW<uint8_t> opaque) ;
 
 /// @brief Method .ctor addr 0x23157f4 size 0x60 virtual false final false
  void _ctor(System::Security::AccessControl::AceFlags flags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, bool isCallback, ::ArrayW<uint8_t> opaque) ;
 
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CommonAce(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
+static System::Security::AccessControl::CommonAce New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
 
 /// @brief Method .ctor addr 0x231598c size 0x1f0 virtual false final false
  void _ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;

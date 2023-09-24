@@ -79,8 +79,7 @@ constexpr UnityEngine::Material __get__material() const;
 /// @brief Method get_material addr 0x1f94eb4 size 0x8 virtual false final false
  UnityEngine::Material get_material() ;
 
-// Ctor Parameters []
-explicit BloomPrePassLightTypeSO() ;
+static GlobalNamespace::BloomPrePassLightTypeSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f94ebc size 0x8 virtual false final false
  void _ctor() ;

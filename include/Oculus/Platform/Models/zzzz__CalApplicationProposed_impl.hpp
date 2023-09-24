@@ -23,8 +23,10 @@ constexpr void Oculus::Platform::Models::CalApplicationProposed::__set_ID(uint64
 constexpr uint64_t Oculus::Platform::Models::CalApplicationProposed::__get_ID() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::CalApplicationProposed::CalApplicationProposed(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CalApplicationProposed>(o))) {}
+ Oculus::Platform::Models::CalApplicationProposed Oculus::Platform::Models::CalApplicationProposed::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::CalApplicationProposed o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::CalApplicationProposed>(o))};
+return o;
+}
  void Oculus::Platform::Models::CalApplicationProposed::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::CalApplicationProposed>::get(),

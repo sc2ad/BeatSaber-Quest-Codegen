@@ -90,8 +90,7 @@ constexpr int32_t __get__CalculatedSize_k__BackingField() const;
 /// @brief Method set_CalculatedSize addr 0x255003c size 0x8 virtual false final false
  void set_CalculatedSize(int32_t value) ;
 
-// Ctor Parameters []
-explicit BsonToken() ;
+static Newtonsoft::Json::Bson::BsonToken New_ctor() ;
 
 /// @brief Method .ctor addr 0x2550044 size 0x8 virtual false final false
  void _ctor() ;

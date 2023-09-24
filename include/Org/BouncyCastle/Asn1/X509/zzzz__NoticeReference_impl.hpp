@@ -2,11 +2,11 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__NoticeReference_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DisplayText_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::NoticeReference.ConvertVector
 template<>
 
@@ -181,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Asn1EncodableVector, false>(nullptr, ___internal_method, numbers);
 }
-// Ctor Parameters [CppParam { name: "organization", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "numbers", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::NoticeReference::NoticeReference(::StringW organization, System::Collections::IList numbers)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<NoticeReference>(organization, numbers))) {}
+ Org::BouncyCastle::Asn1::X509::NoticeReference Org::BouncyCastle::Asn1::X509::NoticeReference::New_ctor(::StringW organization, System::Collections::IList numbers)  {
+Org::BouncyCastle::Asn1::X509::NoticeReference o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::NoticeReference>(organization, numbers))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::NoticeReference::_ctor(::StringW organization, System::Collections::IList numbers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::NoticeReference>::get(),
@@ -192,8 +194,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, organization, numbers);
 }
-// Ctor Parameters [CppParam { name: "organization", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "noticeNumbers", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::NoticeReference::NoticeReference(::StringW organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<NoticeReference>(organization, noticeNumbers))) {}
+ Org::BouncyCastle::Asn1::X509::NoticeReference Org::BouncyCastle::Asn1::X509::NoticeReference::New_ctor(::StringW organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers)  {
+Org::BouncyCastle::Asn1::X509::NoticeReference o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::NoticeReference>(organization, noticeNumbers))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::NoticeReference::_ctor(::StringW organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::NoticeReference>::get(),
@@ -203,8 +207,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, organization, noticeNumbers);
 }
-// Ctor Parameters [CppParam { name: "organization", ty: "Org::BouncyCastle::Asn1::X509::DisplayText", modifiers: "", def_value: None }, CppParam { name: "noticeNumbers", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::NoticeReference::NoticeReference(Org::BouncyCastle::Asn1::X509::DisplayText organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<NoticeReference>(organization, noticeNumbers))) {}
+ Org::BouncyCastle::Asn1::X509::NoticeReference Org::BouncyCastle::Asn1::X509::NoticeReference::New_ctor(Org::BouncyCastle::Asn1::X509::DisplayText organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers)  {
+Org::BouncyCastle::Asn1::X509::NoticeReference o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::NoticeReference>(organization, noticeNumbers))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::NoticeReference::_ctor(Org::BouncyCastle::Asn1::X509::DisplayText organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::NoticeReference>::get(),
@@ -214,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, organization, noticeNumbers);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::NoticeReference::NoticeReference(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<NoticeReference>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::NoticeReference Org::BouncyCastle::Asn1::X509::NoticeReference::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::NoticeReference o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::NoticeReference>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::NoticeReference::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::NoticeReference>::get(),

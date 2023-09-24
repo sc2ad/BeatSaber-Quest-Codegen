@@ -9,28 +9,28 @@ namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__PlaybackRenderer__PlaybackScreenshot;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class EnvironmentTypeSO;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__ObjectsMovementRecorder__Mode;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__ObjectsMovementRecorder__CameraView;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class EnvironmentTypeSO;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlaybackRenderer__PlaybackScreenshot;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -213,8 +213,7 @@ constexpr bool __get_saveToOldFormat() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gameMode", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "pack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "level", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "characteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "runLevel", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "recordingMode", ty: "GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode", modifiers: "", def_value: None }, CppParam { name: "recordingPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cameraView", ty: "GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView", modifiers: "", def_value: None }, CppParam { name: "addDateTimeSuffixToRecordingName", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "screenshotRecording", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "screenshotWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "screenshotHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "framerate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "playbackScreenshots", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot>", modifiers: "", def_value: None }, CppParam { name: "practice", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songSpeedMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "overrideEnvironments", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentType", ty: "GlobalNamespace::EnvironmentTypeSO", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "saveToOldFormat", ty: "bool", modifiers: "", def_value: None }]
-explicit RecordingToolSettings(::StringW gameMode, GlobalNamespace::IBeatmapLevelPack pack, GlobalNamespace::IPreviewBeatmapLevel level, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO characteristic, bool runLevel, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode recordingMode, ::StringW recordingPath, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate, ::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot> playbackScreenshots, bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, GlobalNamespace::EnvironmentTypeSO environmentType, GlobalNamespace::EnvironmentInfoSO environmentInfo, bool saveToOldFormat) ;
+static GlobalNamespace::RecordingToolSettings New_ctor(::StringW gameMode, GlobalNamespace::IBeatmapLevelPack pack, GlobalNamespace::IPreviewBeatmapLevel level, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO characteristic, bool runLevel, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode recordingMode, ::StringW recordingPath, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate, ::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot> playbackScreenshots, bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, GlobalNamespace::EnvironmentTypeSO environmentType, GlobalNamespace::EnvironmentInfoSO environmentInfo, bool saveToOldFormat) ;
 
 /// @brief Method .ctor addr 0x21ab370 size 0x144 virtual false final false
  void _ctor(::StringW gameMode, GlobalNamespace::IBeatmapLevelPack pack, GlobalNamespace::IPreviewBeatmapLevel level, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO characteristic, bool runLevel, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode recordingMode, ::StringW recordingPath, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate, ::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot> playbackScreenshots, bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, GlobalNamespace::EnvironmentTypeSO environmentType, GlobalNamespace::EnvironmentInfoSO environmentInfo, bool saveToOldFormat) ;

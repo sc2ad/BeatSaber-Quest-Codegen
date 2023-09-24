@@ -2,22 +2,22 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class HealthWarningScenesTransitionSetupDataSO;
+class MenuScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class RecordingToolScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class MenuScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class ShaderWarmupScenesTransitionSetupDataSO;
+class GameScenesManager;
 }
 namespace GlobalNamespace {
 class BeatmapEditorScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class ShaderWarmupScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class HealthWarningScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,8 +115,7 @@ constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 /// @brief Method TransitionToNextScene addr 0x20b474c size 0x1d0 virtual false final false
  void TransitionToNextScene(bool goStraightToMenu, bool goStraightToEditor, bool goToRecordingToolScene) ;
 
-// Ctor Parameters []
-explicit DefaultScenesTransitionsFromInit() ;
+static GlobalNamespace::DefaultScenesTransitionsFromInit New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b491c size 0x8 virtual false final false
  void _ctor() ;

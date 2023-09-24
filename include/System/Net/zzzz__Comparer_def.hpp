@@ -57,8 +57,7 @@ constexpr explicit Comparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 /// @brief Method System.Collections.IComparer.Compare addr 0x281c550 size 0xdc virtual true final true
  int32_t System_Collections_IComparer_Compare(::bs_hook::Il2CppWrapperType ol, ::bs_hook::Il2CppWrapperType or) ;
 
-// Ctor Parameters []
-explicit Comparer() ;
+static System::Net::Comparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x281b53c size 0x8 virtual false final false
  void _ctor() ;

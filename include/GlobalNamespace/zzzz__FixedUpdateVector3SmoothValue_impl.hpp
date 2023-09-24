@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "smooth", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::FixedUpdateVector3SmoothValue::FixedUpdateVector3SmoothValue(float_t smooth)  : GlobalNamespace::FixedUpdateSmoothValue_1<UnityEngine::Vector3>(THROW_UNLESS(::il2cpp_utils::New<FixedUpdateVector3SmoothValue>(smooth))) {}
+ GlobalNamespace::FixedUpdateVector3SmoothValue GlobalNamespace::FixedUpdateVector3SmoothValue::New_ctor(float_t smooth)  {
+GlobalNamespace::FixedUpdateVector3SmoothValue o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FixedUpdateVector3SmoothValue>(smooth))};
+return o;
+}
  void GlobalNamespace::FixedUpdateVector3SmoothValue::_ctor(float_t smooth)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FixedUpdateVector3SmoothValue>::get(),

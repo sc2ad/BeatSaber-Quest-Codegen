@@ -6,15 +6,18 @@
 namespace HMUI {
 class TableCell;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__TableViewWithDetailCell__IDataSource;
+}
 namespace HMUI {
-class TableView;
+class HMUI__TableView__IDataSource;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace HMUI {
-class HMUI__TableView__IDataSource;
+class TableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -172,8 +175,7 @@ constexpr int32_t __get__selectedId() const;
 /// @brief Method DidSelectCellWithIdx addr 0x1fa3f74 size 0x130 virtual true final false
  void DidSelectCellWithIdx(int32_t idx) ;
 
-// Ctor Parameters []
-explicit TableViewWithDetailCell() ;
+static GlobalNamespace::TableViewWithDetailCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa40a4 size 0x10 virtual false final false
  void _ctor() ;

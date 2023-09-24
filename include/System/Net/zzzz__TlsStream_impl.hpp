@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Net/Sockets/zzzz__NetworkStream_impl.hpp"
 #include "System/Net/zzzz__TlsStream_def.hpp"
-#include "System/Net/Security/zzzz__SslStream_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
 //  Writing Method size for method: System::Net::TlsStream._ctor
 template<>
 
@@ -212,8 +212,10 @@ constexpr void System::Net::TlsStream::__set__clientCertificates(System::Securit
 constexpr System::Security::Cryptography::X509Certificates::X509CertificateCollection System::Net::TlsStream::__get__clientCertificates() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::X509Certificates::X509CertificateCollection, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::Net::Sockets::NetworkStream", modifiers: "", def_value: None }, CppParam { name: "socket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }, CppParam { name: "host", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "clientCertificates", ty: "System::Security::Cryptography::X509Certificates::X509CertificateCollection", modifiers: "", def_value: None }]
- System::Net::TlsStream::TlsStream(System::Net::Sockets::NetworkStream stream, System::Net::Sockets::Socket socket, ::StringW host, System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates)  : System::Net::Sockets::NetworkStream(THROW_UNLESS(::il2cpp_utils::New<TlsStream>(stream, socket, host, clientCertificates))) {}
+ System::Net::TlsStream System::Net::TlsStream::New_ctor(System::Net::Sockets::NetworkStream stream, System::Net::Sockets::Socket socket, ::StringW host, System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates)  {
+System::Net::TlsStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::TlsStream>(stream, socket, host, clientCertificates))};
+return o;
+}
  void System::Net::TlsStream::_ctor(System::Net::Sockets::NetworkStream stream, System::Net::Sockets::Socket socket, ::StringW host, System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::TlsStream>::get(),

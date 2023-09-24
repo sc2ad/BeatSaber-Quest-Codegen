@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -80,8 +80,7 @@ constexpr Org::BouncyCastle::Asn1::X509::GeneralName __get_pubLocation() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SinglePubInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Crmf::SinglePubInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdfa82c size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

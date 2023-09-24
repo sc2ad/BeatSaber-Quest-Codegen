@@ -66,8 +66,7 @@ constexpr explicit DecoderExceptionFallbackBuffer(void* ptr) noexcept : System::
 /// @brief Method Throw addr 0x24c2bc0 size 0x1d4 virtual false final false
  void Throw(::ArrayW<uint8_t> bytesUnknown, int32_t index) ;
 
-// Ctor Parameters []
-explicit DecoderExceptionFallbackBuffer() ;
+static System::Text::DecoderExceptionFallbackBuffer New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c2b44 size 0x8 virtual false final false
  void _ctor() ;

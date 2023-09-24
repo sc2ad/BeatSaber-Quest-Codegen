@@ -1,26 +1,26 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Threading {
-class ManualResetEvent;
-}
-namespace System::Net {
-class HttpListenerContext;
-}
-namespace System {
-class Exception;
-}
 namespace System {
 class IAsyncResult;
 }
 namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Threading {
 class WaitCallback;
+}
+namespace System::Net {
+class HttpListenerContext;
+}
+namespace System::Threading {
+class WaitHandle;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace System::Threading {
-class WaitHandle;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Net {
@@ -157,8 +157,7 @@ static System::Threading::WaitCallback __get_InvokeCB() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cb", ty: "System::AsyncCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit ListenerAsyncResult(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state) ;
+static System::Net::ListenerAsyncResult New_ctor(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method .ctor addr 0x283fff4 size 0x80 virtual false final false
  void _ctor(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state) ;

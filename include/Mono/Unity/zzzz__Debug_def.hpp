@@ -5,11 +5,11 @@
 namespace Mono::Unity {
 struct Mono__Unity__UnityTls__unitytls_x509verify_result;
 }
-namespace Mono::Unity {
-struct Mono__Unity__UnityTls__unitytls_errorstate;
-}
 namespace Mono::Security::Interface {
 struct AlertDescription;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_errorstate;
 }
 // Forward declare root types
 namespace Mono::Unity {

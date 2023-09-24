@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::PS4LevelProductsModelSO, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PS4PlatformAdditionalContentModel::PS4PlatformAdditionalContentModel()  : GlobalNamespace::SonyPlatformAdditionalContentModel_1<GlobalNamespace::PS4LevelProductsModelSO>(THROW_UNLESS(::il2cpp_utils::New<PS4PlatformAdditionalContentModel>())) {}
+ GlobalNamespace::PS4PlatformAdditionalContentModel GlobalNamespace::PS4PlatformAdditionalContentModel::New_ctor()  {
+GlobalNamespace::PS4PlatformAdditionalContentModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS4PlatformAdditionalContentModel>())};
+return o;
+}
  void GlobalNamespace::PS4PlatformAdditionalContentModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS4PlatformAdditionalContentModel>::get(),

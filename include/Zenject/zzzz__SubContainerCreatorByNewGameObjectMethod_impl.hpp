@@ -1,12 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectMethod_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__GameObjectContext_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
+#include "Zenject/zzzz__GameObjectContext_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: Zenject::SubContainerCreatorByNewGameObjectMethod._ctor
 template<>
 
@@ -47,8 +47,10 @@ constexpr void Zenject::SubContainerCreatorByNewGameObjectMethod::__set__install
 constexpr System::Action_1<Zenject::DiContainer> Zenject::SubContainerCreatorByNewGameObjectMethod::__get__installerMethod() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "installerMethod", ty: "System::Action_1<Zenject::DiContainer>", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorByNewGameObjectMethod::SubContainerCreatorByNewGameObjectMethod(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod)  : Zenject::SubContainerCreatorByNewGameObjectDynamicContext(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorByNewGameObjectMethod>(container, gameObjectBindInfo, installerMethod))) {}
+ Zenject::SubContainerCreatorByNewGameObjectMethod Zenject::SubContainerCreatorByNewGameObjectMethod::New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod)  {
+Zenject::SubContainerCreatorByNewGameObjectMethod o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorByNewGameObjectMethod>(container, gameObjectBindInfo, installerMethod))};
+return o;
+}
  void Zenject::SubContainerCreatorByNewGameObjectMethod::_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorByNewGameObjectMethod>::get(),

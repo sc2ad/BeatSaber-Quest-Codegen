@@ -65,8 +65,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_EncrypKeyPref() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit SmimeAttributes() ;
+static Org::BouncyCastle::Asn1::Smime::SmimeAttributes New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe61a8 size 0x8 virtual false final false
  void _ctor() ;

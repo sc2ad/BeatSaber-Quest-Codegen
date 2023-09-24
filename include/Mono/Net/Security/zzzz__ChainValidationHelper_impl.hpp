@@ -1,19 +1,20 @@
 #pragma once
 #include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Net/Security/zzzz__LocalCertSelectionCallback_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
+#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
 #include "Mono/Security/Interface/zzzz__ValidationResult_def.hpp"
 #include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
 #include "System/zzzz__WeakReference_1_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
+#include "System/Net/Security/zzzz__LocalCertSelectionCallback_def.hpp"
 #include "Mono/Security/Interface/zzzz__ICertificateValidator_def.hpp"
-#include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
-#include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 //  Writing Method size for method: Mono::Net::Security::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0._ctor
 template<>
 
@@ -54,8 +55,10 @@ constexpr void Mono::Net::Security::Mono__Net__Security__ChainValidationHelper__
 constexpr Mono::Security::Interface::MonoTlsSettings Mono::Net::Security::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0::__get_settings() const {
 return ::cordl_internals::getInstanceField<Mono::Security::Interface::MonoTlsSettings, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Net::Security::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0>())) {}
+ Mono::Net::Security::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0 Mono::Net::Security::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0::New_ctor()  {
+Mono::Net::Security::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0>())};
+return o;
+}
  void Mono::Net::Security::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0>::get(),
@@ -325,8 +328,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Mono::Net::Security::ChainValidationHelper, false>(nullptr, ___internal_method, provider, settings, stream);
 }
-// Ctor Parameters [CppParam { name: "owner", ty: "System::Net::Security::SslStream", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Mono::Net::Security::MobileTlsProvider", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }, CppParam { name: "cloneSettings", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "Mono::Net::Security::MonoTlsStream", modifiers: "", def_value: None }]
- Mono::Net::Security::ChainValidationHelper::ChainValidationHelper(System::Net::Security::SslStream owner, Mono::Net::Security::MobileTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings, bool cloneSettings, Mono::Net::Security::MonoTlsStream stream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ChainValidationHelper>(owner, provider, settings, cloneSettings, stream))) {}
+ Mono::Net::Security::ChainValidationHelper Mono::Net::Security::ChainValidationHelper::New_ctor(System::Net::Security::SslStream owner, Mono::Net::Security::MobileTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings, bool cloneSettings, Mono::Net::Security::MonoTlsStream stream)  {
+Mono::Net::Security::ChainValidationHelper o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::ChainValidationHelper>(owner, provider, settings, cloneSettings, stream))};
+return o;
+}
  void Mono::Net::Security::ChainValidationHelper::_ctor(System::Net::Security::SslStream owner, Mono::Net::Security::MobileTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings, bool cloneSettings, Mono::Net::Security::MonoTlsStream stream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::ChainValidationHelper>::get(),

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Timeline::FrameRateFieldAttribute::FrameRateFieldAttribute()  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<FrameRateFieldAttribute>())) {}
+ UnityEngine::Timeline::FrameRateFieldAttribute UnityEngine::Timeline::FrameRateFieldAttribute::New_ctor()  {
+UnityEngine::Timeline::FrameRateFieldAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::FrameRateFieldAttribute>())};
+return o;
+}
  void UnityEngine::Timeline::FrameRateFieldAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::FrameRateFieldAttribute>::get(),

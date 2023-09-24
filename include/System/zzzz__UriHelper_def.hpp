@@ -6,10 +6,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-struct UnescapeMode;
+class UriParser;
 }
 namespace System {
-class UriParser;
+struct UnescapeMode;
 }
 // Forward declare root types
 namespace System {

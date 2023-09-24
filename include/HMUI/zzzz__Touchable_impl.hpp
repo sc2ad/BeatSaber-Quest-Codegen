@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, vh);
 }
-// Ctor Parameters []
- HMUI::Touchable::Touchable()  : UnityEngine::UI::Graphic(THROW_UNLESS(::il2cpp_utils::New<Touchable>())) {}
+ HMUI::Touchable HMUI::Touchable::New_ctor()  {
+HMUI::Touchable o{THROW_UNLESS(::il2cpp_utils::New<HMUI::Touchable>())};
+return o;
+}
  void HMUI::Touchable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::Touchable>::get(),

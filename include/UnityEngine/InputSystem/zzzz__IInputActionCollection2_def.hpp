@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
 namespace System::Collections {
 class IEnumerable;
 }
@@ -14,10 +11,13 @@ template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
+class IInputActionCollection;
+}
+namespace UnityEngine::InputSystem {
 struct InputBinding;
 }
 namespace UnityEngine::InputSystem {
-class IInputActionCollection;
+class InputAction;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

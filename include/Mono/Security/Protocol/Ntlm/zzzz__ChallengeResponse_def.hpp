@@ -106,14 +106,12 @@ constexpr ::ArrayW<uint8_t> __get__ntpwd() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ChallengeResponse() ;
+static Mono::Security::Protocol::Ntlm::ChallengeResponse New_ctor() ;
 
 /// @brief Method .ctor addr 0x2291520 size 0x70 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "challenge", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ChallengeResponse(::StringW password, ::ArrayW<uint8_t> challenge) ;
+static Mono::Security::Protocol::Ntlm::ChallengeResponse New_ctor(::StringW password, ::ArrayW<uint8_t> challenge) ;
 
 /// @brief Method .ctor addr 0x2291590 size 0x38 virtual false final false
  void _ctor(::StringW password, ::ArrayW<uint8_t> challenge) ;

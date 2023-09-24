@@ -1,9 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData._ctor
@@ -53,8 +54,10 @@ constexpr void GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__Rum
 constexpr float_t GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData::__get_frequency() const {
 return ::cordl_internals::getInstanceField<float_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData>())) {}
+ GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData>::get(),
@@ -253,8 +256,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData, false>(const_cast<void*>(instance), ___internal_method, node, preset);
 }
-// Ctor Parameters []
- GlobalNamespace::RumbleHapticFeedbackPlayer::RumbleHapticFeedbackPlayer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RumbleHapticFeedbackPlayer>())) {}
+ GlobalNamespace::RumbleHapticFeedbackPlayer GlobalNamespace::RumbleHapticFeedbackPlayer::New_ctor()  {
+GlobalNamespace::RumbleHapticFeedbackPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RumbleHapticFeedbackPlayer>())};
+return o;
+}
  void GlobalNamespace::RumbleHapticFeedbackPlayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RumbleHapticFeedbackPlayer>::get(),

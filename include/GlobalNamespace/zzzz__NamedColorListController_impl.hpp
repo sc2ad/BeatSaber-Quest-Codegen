@@ -2,8 +2,9 @@
 #include "GlobalNamespace/zzzz__ListColorController_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedColorListController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "HMUI/zzzz__IValueChanger_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__IValueChanger_1_def.hpp"
+#include "GlobalNamespace/zzzz__NamedColorListController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__NamedColorListController__ColorValuePair._ctor
 template<>
 
@@ -33,8 +34,10 @@ constexpr void GlobalNamespace::GlobalNamespace__NamedColorListController__Color
 constexpr int32_t GlobalNamespace::GlobalNamespace__NamedColorListController__ColorValuePair::__get_value() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__NamedColorListController__ColorValuePair::GlobalNamespace__NamedColorListController__ColorValuePair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__NamedColorListController__ColorValuePair>())) {}
+ GlobalNamespace::GlobalNamespace__NamedColorListController__ColorValuePair GlobalNamespace::GlobalNamespace__NamedColorListController__ColorValuePair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__NamedColorListController__ColorValuePair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__NamedColorListController__ColorValuePair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__NamedColorListController__ColorValuePair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__NamedColorListController__ColorValuePair>::get(),
@@ -265,8 +268,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::NamedColorListController::NamedColorListController()  : GlobalNamespace::ListColorController(THROW_UNLESS(::il2cpp_utils::New<NamedColorListController>())) {}
+ GlobalNamespace::NamedColorListController GlobalNamespace::NamedColorListController::New_ctor()  {
+GlobalNamespace::NamedColorListController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NamedColorListController>())};
+return o;
+}
  void GlobalNamespace::NamedColorListController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NamedColorListController>::get(),

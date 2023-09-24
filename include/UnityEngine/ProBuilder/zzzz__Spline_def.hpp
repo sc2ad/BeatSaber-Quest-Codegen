@@ -5,12 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
-}
-namespace UnityEngine::ProBuilder {
-struct BezierPoint;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -19,11 +19,11 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine::ProBuilder {
+struct BezierPoint;
+}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

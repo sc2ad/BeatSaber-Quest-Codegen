@@ -1,27 +1,28 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusBeatmapDataAssetFileModel_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetFileDeleteResult_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetDetailsList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetDetails_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetFileDownloadUpdate_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__OculusLevelProductsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__OculusBeatmapDataAssetFileModel_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
+#include "GlobalNamespace/zzzz__OculusLevelProductsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetFileDownloadUpdate_def.hpp"
 #include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
+#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData._ctor
 template<>
 
@@ -57,8 +58,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel
 constexpr System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult> GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData::__get_downloadAssetBundleFileTCS() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData(::StringW levelId, ::StringW assetBundlePath)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData>(levelId, assetBundlePath))) {}
+ GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData::New_ctor(::StringW levelId, ::StringW assetBundlePath)  {
+GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData>(levelId, assetBundlePath))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData::_ctor(::StringW levelId, ::StringW assetBundlePath)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData>::get(),
@@ -126,8 +129,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel
 constexpr System::Threading::Tasks::TaskCompletionSource_1<bool> GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0::__get_taskSource() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskCompletionSource_1<bool>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0 GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0>::get(),
@@ -440,8 +445,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel
 constexpr GlobalNamespace::OculusBeatmapDataAssetFileModel GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OculusBeatmapDataAssetFileModel, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0 GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0>::get(),
@@ -605,8 +612,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel
 constexpr Oculus::Platform::Models::AssetDetails GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0::__get_assetDetails() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Models::AssetDetails, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0 GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0>::get(),
@@ -965,8 +974,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "oculusLevelProductsModel", ty: "GlobalNamespace::OculusLevelProductsModelSO", modifiers: "", def_value: None }]
- GlobalNamespace::OculusBeatmapDataAssetFileModel::OculusBeatmapDataAssetFileModel(GlobalNamespace::OculusLevelProductsModelSO oculusLevelProductsModel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OculusBeatmapDataAssetFileModel>(oculusLevelProductsModel))) {}
+ GlobalNamespace::OculusBeatmapDataAssetFileModel GlobalNamespace::OculusBeatmapDataAssetFileModel::New_ctor(GlobalNamespace::OculusLevelProductsModelSO oculusLevelProductsModel)  {
+GlobalNamespace::OculusBeatmapDataAssetFileModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusBeatmapDataAssetFileModel>(oculusLevelProductsModel))};
+return o;
+}
  void GlobalNamespace::OculusBeatmapDataAssetFileModel::_ctor(GlobalNamespace::OculusLevelProductsModelSO oculusLevelProductsModel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusBeatmapDataAssetFileModel>::get(),

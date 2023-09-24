@@ -47,8 +47,7 @@ constexpr explicit DSASignatureDescription(void* ptr) noexcept : System::Securit
 
 // Methods
 
-// Ctor Parameters []
-explicit DSASignatureDescription() ;
+static System::Security::Cryptography::DSASignatureDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x22ff068 size 0xb8 virtual false final false
  void _ctor() ;

@@ -90,8 +90,7 @@ constexpr GlobalNamespace::StepValuePicker __get__stepValuePicker() const;
 /// @brief Method DecButtonPressed addr 0x0 size 0xffffffffffffffff virtual true final false
  void DecButtonPressed() ;
 
-// Ctor Parameters []
-explicit IncDecSettingsController() ;
+static GlobalNamespace::IncDecSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21532b0 size 0x8 virtual false final false
  void _ctor() ;

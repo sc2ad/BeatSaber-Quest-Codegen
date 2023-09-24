@@ -3,26 +3,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DigitallySigned;
 }
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
 namespace System::Collections {
 class IList;
-}
-namespace System::IO {
-class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
@@ -102,8 +102,7 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsContext __get_mContext() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit AbstractTlsKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms) ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms) ;
 
 /// @brief Method .ctor addr 0xecc3fc size 0x30 virtual false final false
  void _ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms) ;

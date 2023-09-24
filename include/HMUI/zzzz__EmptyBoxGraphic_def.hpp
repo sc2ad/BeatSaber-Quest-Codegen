@@ -66,8 +66,7 @@ constexpr float_t __get__depth() const;
 /// @brief Method OnDrawGizmosSelected addr 0x1fb208c size 0x18c virtual false final false
  void OnDrawGizmosSelected() ;
 
-// Ctor Parameters []
-explicit EmptyBoxGraphic() ;
+static HMUI::EmptyBoxGraphic New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb2218 size 0x60 virtual false final false
  void _ctor() ;

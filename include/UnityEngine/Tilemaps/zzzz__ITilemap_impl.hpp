@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Tilemaps/zzzz__ITilemap_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/Tilemaps/zzzz__Tilemap_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3Int_def.hpp"
 //  Writing Method size for method: UnityEngine::Tilemaps::ITilemap._ctor
 template<>
@@ -118,8 +118,10 @@ constexpr void UnityEngine::Tilemaps::ITilemap::__set_m_RefreshPos(Unity::Collec
 constexpr Unity::Collections::NativeArray_1<UnityEngine::Vector3Int> UnityEngine::Tilemaps::ITilemap::__get_m_RefreshPos() const {
 return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<UnityEngine::Vector3Int>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Tilemaps::ITilemap::ITilemap()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ITilemap>())) {}
+ UnityEngine::Tilemaps::ITilemap UnityEngine::Tilemaps::ITilemap::New_ctor()  {
+UnityEngine::Tilemaps::ITilemap o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Tilemaps::ITilemap>())};
+return o;
+}
  void UnityEngine::Tilemaps::ITilemap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Tilemaps::ITilemap>::get(),

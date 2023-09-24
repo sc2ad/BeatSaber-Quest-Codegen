@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/zzzz__XmlNode_impl.hpp"
 #include "System/Xml/zzzz__XmlAttribute_def.hpp"
-#include "System/Xml/zzzz__XmlElement_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/zzzz__XmlNode_def.hpp"
-#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlElement_def.hpp"
 #include "System/Xml/zzzz__XmlName_def.hpp"
+#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 //  Writing Method size for method: System::Xml::XmlAttribute._ctor
 template<>
 
@@ -512,8 +512,10 @@ constexpr void System::Xml::XmlAttribute::__set_lastChild(System::Xml::XmlLinked
 constexpr System::Xml::XmlLinkedNode System::Xml::XmlAttribute::__get_lastChild() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlLinkedNode, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlName", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlAttribute::XmlAttribute(System::Xml::XmlName name, System::Xml::XmlDocument doc)  : System::Xml::XmlNode(THROW_UNLESS(::il2cpp_utils::New<XmlAttribute>(name, doc))) {}
+ System::Xml::XmlAttribute System::Xml::XmlAttribute::New_ctor(System::Xml::XmlName name, System::Xml::XmlDocument doc)  {
+System::Xml::XmlAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlAttribute>(name, doc))};
+return o;
+}
  void System::Xml::XmlAttribute::_ctor(System::Xml::XmlName name, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlAttribute>::get(),
@@ -523,8 +525,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, doc);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "namespaceURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlAttribute::XmlAttribute(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc)  : System::Xml::XmlNode(THROW_UNLESS(::il2cpp_utils::New<XmlAttribute>(prefix, localName, namespaceURI, doc))) {}
+ System::Xml::XmlAttribute System::Xml::XmlAttribute::New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc)  {
+System::Xml::XmlAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlAttribute>(prefix, localName, namespaceURI, doc))};
+return o;
+}
  void System::Xml::XmlAttribute::_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlAttribute>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LoadingControl.add_didPressRefreshButtonEvent
 template<>
@@ -336,8 +336,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LoadingControl::LoadingControl()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LoadingControl>())) {}
+ GlobalNamespace::LoadingControl GlobalNamespace::LoadingControl::New_ctor()  {
+GlobalNamespace::LoadingControl o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LoadingControl>())};
+return o;
+}
  void GlobalNamespace::LoadingControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LoadingControl>::get(),

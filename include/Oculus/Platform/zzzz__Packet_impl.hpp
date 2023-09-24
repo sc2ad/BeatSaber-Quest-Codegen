@@ -137,8 +137,10 @@ constexpr void Oculus::Platform::Packet::__set_packetHandle(::cordl_internals::i
 constexpr ::cordl_internals::intptr_t Oculus::Platform::Packet::__get_packetHandle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "packetHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Packet::Packet(::cordl_internals::intptr_t packetHandle)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Packet>(packetHandle))) {}
+ Oculus::Platform::Packet Oculus::Platform::Packet::New_ctor(::cordl_internals::intptr_t packetHandle)  {
+Oculus::Platform::Packet o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Packet>(packetHandle))};
+return o;
+}
  void Oculus::Platform::Packet::_ctor(::cordl_internals::intptr_t packetHandle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Packet>::get(),

@@ -69,6 +69,8 @@ constexpr operator __MessageEnum_Unwrapped () const noexcept {
 return std::bit_cast<__MessageEnum_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

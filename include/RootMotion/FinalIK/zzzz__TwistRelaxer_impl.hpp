@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__TwistRelaxer_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::TwistRelaxer.Relax
 template<>
 
@@ -211,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::TwistRelaxer::TwistRelaxer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TwistRelaxer>())) {}
+ RootMotion::FinalIK::TwistRelaxer RootMotion::FinalIK::TwistRelaxer::New_ctor()  {
+RootMotion::FinalIK::TwistRelaxer o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::TwistRelaxer>())};
+return o;
+}
  void RootMotion::FinalIK::TwistRelaxer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::TwistRelaxer>::get(),

@@ -3,18 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-class GameObjectContext;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Zenject {
 class ISubContainerCreator;
 }
 namespace System::Collections::Generic {
@@ -22,7 +10,19 @@ template<typename T>
 class List_1;
 }
 namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class GameObjectContext;
+}
+namespace Zenject {
 class DiContainer;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+class InjectContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -87,8 +87,7 @@ constexpr Zenject::DiContainer __get__container() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit SubContainerCreatorDynamicContext(Zenject::DiContainer container) ;
+static Zenject::SubContainerCreatorDynamicContext New_ctor(Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x2d92388 size 0x28 virtual false final false
  void _ctor(Zenject::DiContainer container) ;

@@ -47,8 +47,7 @@ constexpr explicit SignalTrack(void* ptr) noexcept : UnityEngine::Timeline::Mark
 
 // Methods
 
-// Ctor Parameters []
-explicit SignalTrack() ;
+static UnityEngine::Timeline::SignalTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad14f4 size 0x4 virtual false final false
  void _ctor() ;

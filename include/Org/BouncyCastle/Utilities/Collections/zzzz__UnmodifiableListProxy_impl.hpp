@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableList_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableListProxy_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy._ctor
 template<>
 
@@ -180,8 +180,10 @@ constexpr void Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy:
 constexpr System::Collections::IList Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::__get_l() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "l", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::UnmodifiableListProxy(System::Collections::IList l)  : Org::BouncyCastle::Utilities::Collections::UnmodifiableList(THROW_UNLESS(::il2cpp_utils::New<UnmodifiableListProxy>(l))) {}
+ Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::New_ctor(System::Collections::IList l)  {
+Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy>(l))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::_ctor(System::Collections::IList l)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy>::get(),

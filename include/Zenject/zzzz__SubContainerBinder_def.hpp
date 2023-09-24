@@ -3,33 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-class BindStatement;
-}
-namespace Zenject {
-class WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class IBindingFinalizer;
 }
 namespace System {
 class Type;
@@ -40,6 +16,66 @@ class Action_1;
 }
 namespace Zenject {
 class BindInfo;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass22_0;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass12_0;
+}
+namespace Zenject {
+class IBindingFinalizer;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass10_0;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass11_0;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass15_0;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass7_0;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass18_0;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass13_0;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass20_0;
+}
+namespace Zenject {
+class BindStatement;
+}
+namespace Zenject {
+class WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass8_0;
+}
+namespace Zenject {
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass17_0;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace Zenject {
+class Zenject__SubContainerBinder____c__DisplayClass24_0;
 }
 namespace Zenject {
 class ISubContainerCreator;
@@ -144,8 +180,7 @@ constexpr Zenject::DiContainer __get_subContainer() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass7_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d61f9c size 0x8 virtual false final false
  void _ctor() ;
@@ -214,8 +249,7 @@ constexpr System::Func_2<Zenject::InjectContext,Zenject::DiContainer> __get_subC
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass8_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6212c size 0x8 virtual false final false
  void _ctor() ;
@@ -290,8 +324,7 @@ constexpr System::Type __get_installerType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass10_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass10_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6231c size 0x8 virtual false final false
  void _ctor() ;
@@ -366,8 +399,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get_installerMethod() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass11_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass11_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d624a8 size 0x8 virtual false final false
  void _ctor() ;
@@ -442,8 +474,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get_installerMethod() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass12_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass12_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6262c size 0x8 virtual false final false
  void _ctor() ;
@@ -524,8 +555,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get_installerMethod() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass13_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6280c size 0x8 virtual false final false
  void _ctor() ;
@@ -606,8 +636,7 @@ constexpr Zenject::SubContainerBinder __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass15_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass15_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d62a58 size 0x8 virtual false final false
  void _ctor() ;
@@ -694,8 +723,7 @@ constexpr Zenject::SubContainerBinder __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass17_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass17_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d62c58 size 0x8 virtual false final false
  void _ctor() ;
@@ -776,8 +804,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get_installerMethod() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass18_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass18_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d62dec size 0x8 virtual false final false
  void _ctor() ;
@@ -864,8 +891,7 @@ constexpr Zenject::SubContainerBinder __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass20_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass20_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d63054 size 0x8 virtual false final false
  void _ctor() ;
@@ -940,8 +966,7 @@ constexpr Zenject::GameObjectCreationParameters __get_gameObjectInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass22_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass22_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d631e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1016,8 +1041,7 @@ constexpr Zenject::GameObjectCreationParameters __get_gameObjectInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBinder____c__DisplayClass24_0() ;
+static Zenject::Zenject__SubContainerBinder____c__DisplayClass24_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d63374 size 0x8 virtual false final false
  void _ctor() ;
@@ -1133,8 +1157,7 @@ constexpr bool __get__resolveAll() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }, CppParam { name: "subIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "resolveAll", ty: "bool", modifiers: "", def_value: None }]
-explicit SubContainerBinder(Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll) ;
+static Zenject::SubContainerBinder New_ctor(Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll) ;
 
 /// @brief Method .ctor addr 0x2d61dec size 0x50 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll) ;

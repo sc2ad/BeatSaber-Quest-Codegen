@@ -6,10 +6,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
+class GameObject;
+}
+namespace TMPro {
+struct TMPro__TMP_DefaultControls__Resources;
 }
 namespace UnityEngine {
-class GameObject;
+struct Color;
 }
 namespace TMPro {
 class TMP_Text;
@@ -18,7 +21,7 @@ namespace UnityEngine::UI {
 class Selectable;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector2;
 }
 namespace UnityEngine {
 class Sprite;

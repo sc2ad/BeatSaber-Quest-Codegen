@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActiveCenterRingLightsController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerCenterResizeController_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerCenterResizeController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController.Start
 template<>
 
@@ -220,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, constructEdgeDistanceFromCenter);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::MultiplayerLocalActiveCenterRingLightsController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalActiveCenterRingLightsController>())) {}
+ GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::New_ctor()  {
+GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController>::get(),

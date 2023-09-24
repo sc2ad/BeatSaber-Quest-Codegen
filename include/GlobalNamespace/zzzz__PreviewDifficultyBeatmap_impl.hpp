@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PreviewDifficultyBeatmap.get_beatmapLevel
@@ -284,8 +284,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }]
- GlobalNamespace::PreviewDifficultyBeatmap::PreviewDifficultyBeatmap(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PreviewDifficultyBeatmap>(beatmapLevel, beatmapCharacteristic, beatmapDifficulty))) {}
+ GlobalNamespace::PreviewDifficultyBeatmap GlobalNamespace::PreviewDifficultyBeatmap::New_ctor(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty)  {
+GlobalNamespace::PreviewDifficultyBeatmap o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PreviewDifficultyBeatmap>(beatmapLevel, beatmapCharacteristic, beatmapDifficulty))};
+return o;
+}
  void GlobalNamespace::PreviewDifficultyBeatmap::_ctor(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PreviewDifficultyBeatmap>::get(),

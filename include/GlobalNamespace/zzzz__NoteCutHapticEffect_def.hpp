@@ -12,6 +12,9 @@ class HapticFeedbackManager;
 namespace GlobalNamespace {
 struct SaberType;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__NoteCutHapticEffect__Type;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__NoteCutHapticEffect__Type;
@@ -71,6 +74,8 @@ __BadCut = 4,
 constexpr operator __GlobalNamespace__NoteCutHapticEffect__Type_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__NoteCutHapticEffect__Type_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -186,8 +191,7 @@ constexpr GlobalNamespace::HapticFeedbackManager __get__hapticFeedbackManager() 
 /// @brief Method HitNote addr 0x2252700 size 0x88 virtual false final false
  void HitNote(GlobalNamespace::SaberType saberType, GlobalNamespace::GlobalNamespace__NoteCutHapticEffect__Type type) ;
 
-// Ctor Parameters []
-explicit NoteCutHapticEffect() ;
+static GlobalNamespace::NoteCutHapticEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2252788 size 0x8 virtual false final false
  void _ctor() ;

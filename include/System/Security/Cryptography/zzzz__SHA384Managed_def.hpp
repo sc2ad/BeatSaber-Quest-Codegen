@@ -82,8 +82,7 @@ static ::ArrayW<uint64_t> __get__K() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit SHA384Managed() ;
+static System::Security::Cryptography::SHA384Managed New_ctor() ;
 
 /// @brief Method .ctor addr 0x22fcfc0 size 0xc8 virtual false final false
  void _ctor() ;

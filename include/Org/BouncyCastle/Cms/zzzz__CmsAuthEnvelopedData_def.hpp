@@ -3,32 +3,35 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorInfo;
+}
 namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
+namespace Org::BouncyCastle::Cms {
+class Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorInfo;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+class CmsSecureReadable;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
+class CmsReadable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -98,8 +101,7 @@ constexpr Org::BouncyCastle::Cms::CmsAuthEnvelopedData __get_parent() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "Org::BouncyCastle::Cms::CmsAuthEnvelopedData", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable(Org::BouncyCastle::Cms::CmsAuthEnvelopedData parent) ;
+static Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable New_ctor(Org::BouncyCastle::Cms::CmsAuthEnvelopedData parent) ;
 
 /// @brief Method .ctor addr 0x11522fc size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsAuthEnvelopedData parent) ;
@@ -206,20 +208,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_unauthAttrs() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "authEnvData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsAuthEnvelopedData(::ArrayW<uint8_t> authEnvData) ;
+static Org::BouncyCastle::Cms::CmsAuthEnvelopedData New_ctor(::ArrayW<uint8_t> authEnvData) ;
 
 /// @brief Method .ctor addr 0x11521a4 size 0x24 virtual false final false
  void _ctor(::ArrayW<uint8_t> authEnvData) ;
 
-// Ctor Parameters [CppParam { name: "authEnvData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsAuthEnvelopedData(System::IO::Stream authEnvData) ;
+static Org::BouncyCastle::Cms::CmsAuthEnvelopedData New_ctor(System::IO::Stream authEnvData) ;
 
 /// @brief Method .ctor addr 0x11522d8 size 0x24 virtual false final false
  void _ctor(System::IO::Stream authEnvData) ;
 
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit CmsAuthEnvelopedData(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
+static Org::BouncyCastle::Cms::CmsAuthEnvelopedData New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
 
 /// @brief Method .ctor addr 0x11521c8 size 0x110 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;

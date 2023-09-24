@@ -4,39 +4,39 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Oculus::Platform {
-struct VoipDtxState;
-}
-namespace Oculus::Platform::Models {
-class MicrophoneAvailabilityState;
-}
-namespace Oculus::Platform {
-struct VoipMuteState;
-}
-namespace Oculus::Platform::Models {
-class SystemVoipState;
-}
-namespace Oculus::Platform {
-class VoipOptions;
-}
-namespace Oculus::Platform {
-struct SystemVoipStatus;
+template<typename T>
+class Request_1;
 }
 namespace Oculus::Platform {
 class Oculus__Platform__CAPI__FilterCallback;
 }
 namespace Oculus::Platform {
-template<typename T>
-class Oculus__Platform__Message_1__Callback;
+struct VoipMuteState;
+}
+namespace Oculus::Platform {
+struct VoipBitrate;
+}
+namespace Oculus::Platform {
+struct SystemVoipStatus;
 }
 namespace Oculus::Platform::Models {
 class NetworkingPeer;
 }
 namespace Oculus::Platform {
 template<typename T>
-class Request_1;
+class Oculus__Platform__Message_1__Callback;
+}
+namespace Oculus::Platform::Models {
+class SystemVoipState;
 }
 namespace Oculus::Platform {
-struct VoipBitrate;
+struct VoipDtxState;
+}
+namespace Oculus::Platform {
+class VoipOptions;
+}
+namespace Oculus::Platform::Models {
+class MicrophoneAvailabilityState;
 }
 // Forward declare root types
 namespace Oculus::Platform {

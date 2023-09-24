@@ -2,35 +2,35 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MethodResponse_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
-}
 namespace System::Collections {
 class IDictionary;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
 }
 namespace System {
 class Exception;
 }
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
+namespace System::Runtime::Remoting::Activation {
+class IConstructionReturnMessage;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -95,20 +95,17 @@ constexpr explicit ConstructionResponse(void* ptr) noexcept : System::Runtime::R
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resultObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "callCtx", ty: "System::Runtime::Remoting::Messaging::LogicalCallContext", modifiers: "", def_value: None }, CppParam { name: "msg", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
-explicit ConstructionResponse(::bs_hook::Il2CppWrapperType resultObject, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage msg) ;
+static System::Runtime::Remoting::Messaging::ConstructionResponse New_ctor(::bs_hook::Il2CppWrapperType resultObject, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage msg) ;
 
 /// @brief Method .ctor addr 0x232df84 size 0xc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType resultObject, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage msg) ;
 
-// Ctor Parameters [CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "msg", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
-explicit ConstructionResponse(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage msg) ;
+static System::Runtime::Remoting::Messaging::ConstructionResponse New_ctor(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage msg) ;
 
 /// @brief Method .ctor addr 0x2338d44 size 0x4 virtual false final false
  void _ctor(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage msg) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ConstructionResponse(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::Remoting::Messaging::ConstructionResponse New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2341098 size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

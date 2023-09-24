@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__SerializationObjectManager_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationEventHandler_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::SerializationObjectManager._ctor
 template<>
 
@@ -89,8 +89,10 @@ constexpr void System::Runtime::Serialization::SerializationObjectManager::__set
 constexpr System::Runtime::Serialization::SerializationEventHandler System::Runtime::Serialization::SerializationObjectManager::__get__onSerializedHandler() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::SerializationEventHandler, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SerializationObjectManager::SerializationObjectManager(System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerializationObjectManager>(context))) {}
+ System::Runtime::Serialization::SerializationObjectManager System::Runtime::Serialization::SerializationObjectManager::New_ctor(System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::Serialization::SerializationObjectManager o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationObjectManager>(context))};
+return o;
+}
  void System::Runtime::Serialization::SerializationObjectManager::_ctor(System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationObjectManager>::get(),

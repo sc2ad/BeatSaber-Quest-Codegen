@@ -10,7 +10,7 @@ class RoomInviteNotificationList;
 // Type: Oculus.Platform.Models::RoomInviteNotificationList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 953 }), TypeDefinitionIndex(TypeDefinitionIndex(13470))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13470)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 953 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13471))
 // CS Name: Oculus.Platform.Models.RoomInviteNotificationList
 class CORDL_TYPE RoomInviteNotificationList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::RoomInviteNotification> {
@@ -49,8 +49,7 @@ constexpr explicit RoomInviteNotificationList(void* ptr) noexcept : Oculus::Plat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit RoomInviteNotificationList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::RoomInviteNotificationList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x25a2d90 size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

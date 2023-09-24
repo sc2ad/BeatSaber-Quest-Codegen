@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__WindowsConsoleDriver_def.hpp"
+#include "System/zzzz__IConsoleDriver_def.hpp"
 #include "System/zzzz__InputRecord_def.hpp"
+#include "System/zzzz__ConsoleKeyInfo_def.hpp"
 #include "System/zzzz__Handles_def.hpp"
 #include "System/zzzz__ConsoleScreenBufferInfo_def.hpp"
-#include "System/zzzz__ConsoleKeyInfo_def.hpp"
-#include "System/zzzz__IConsoleDriver_def.hpp"
 //  Writing Method size for method: System::WindowsConsoleDriver._ctor
 template<>
 
@@ -129,8 +129,10 @@ constexpr void System::WindowsConsoleDriver::__set_defaultAttribute(int16_t valu
 constexpr int16_t System::WindowsConsoleDriver::__get_defaultAttribute() const {
 return ::cordl_internals::getInstanceField<int16_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::WindowsConsoleDriver::WindowsConsoleDriver()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WindowsConsoleDriver>())) {}
+ System::WindowsConsoleDriver System::WindowsConsoleDriver::New_ctor()  {
+System::WindowsConsoleDriver o{THROW_UNLESS(::il2cpp_utils::New<System::WindowsConsoleDriver>())};
+return o;
+}
  void System::WindowsConsoleDriver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::WindowsConsoleDriver>::get(),

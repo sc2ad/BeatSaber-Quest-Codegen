@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Timeline::SignalTrack::SignalTrack()  : UnityEngine::Timeline::MarkerTrack(THROW_UNLESS(::il2cpp_utils::New<SignalTrack>())) {}
+ UnityEngine::Timeline::SignalTrack UnityEngine::Timeline::SignalTrack::New_ctor()  {
+UnityEngine::Timeline::SignalTrack o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::SignalTrack>())};
+return o;
+}
  void UnityEngine::Timeline::SignalTrack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::SignalTrack>::get(),

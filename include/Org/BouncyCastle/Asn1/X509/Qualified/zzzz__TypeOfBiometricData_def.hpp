@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
@@ -91,14 +91,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_obj() const;
 /// @brief Method GetInstance addr 0xff3254 size 0x1e8 virtual false final false
 static Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "predefinedBiometricType", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TypeOfBiometricData(int32_t predefinedBiometricType) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData New_ctor(int32_t predefinedBiometricType) ;
 
 /// @brief Method .ctor addr 0xff4fe0 size 0xfc virtual false final false
  void _ctor(int32_t predefinedBiometricType) ;
 
-// Ctor Parameters [CppParam { name: "biometricDataOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit TypeOfBiometricData(Org::BouncyCastle::Asn1::DerObjectIdentifier biometricDataOid) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier biometricDataOid) ;
 
 /// @brief Method .ctor addr 0xff50dc size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier biometricDataOid) ;

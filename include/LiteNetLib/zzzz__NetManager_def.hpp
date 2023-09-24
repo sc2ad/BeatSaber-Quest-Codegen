@@ -13,104 +13,110 @@ class IEqualityComparer_1;
 namespace System::Net {
 class IPEndPoint;
 }
-namespace System::Net::Sockets {
-struct SocketError;
-}
-namespace LiteNetLib {
-class NatPunchModule;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace LiteNetLib {
 class INetSocketListener;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
-}
-namespace LiteNetLib {
-class ConnectionRequest;
+namespace System::Net::Sockets {
+struct SocketError;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace System::Threading {
-class Thread;
-}
-namespace LiteNetLib {
-class NetStatistics;
-}
-namespace LiteNetLib {
-class NetPeer;
-}
-namespace System::Threading {
-struct ThreadPriority;
-}
-namespace LiteNetLib {
-struct ConnectionState;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace LiteNetLib {
-class NetConnectRequestPacket;
-}
-namespace LiteNetLib {
-class INetEventListener;
-}
-namespace LiteNetLib {
-struct LiteNetLib__NetEvent__EType;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace LiteNetLib {
-struct DisconnectReason;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
 }
 namespace LiteNetLib {
-class NetSocket;
+class NetConnectRequestPacket;
 }
 namespace LiteNetLib {
-class NetEvent;
+class LiteNetLib__NetManager__IPEndPointComparer;
+}
+namespace LiteNetLib::Layers {
+class PacketLayerBase;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace LiteNetLib {
+struct ConnectionState;
+}
+namespace LiteNetLib {
+struct LiteNetLib__NetManager__NetPeerEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace LiteNetLib {
+class IDeliveryEventListener;
+}
+namespace LiteNetLib {
+class NetSocket;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class Queue_1;
+}
+namespace LiteNetLib {
+struct LiteNetLib__NetEvent__EType;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace LiteNetLib {
+class INetEventListener;
+}
+namespace LiteNetLib {
+class NetPeer;
+}
+namespace System::Threading {
+class Thread;
 }
 namespace LiteNetLib {
 struct DeliveryMethod;
 }
 namespace LiteNetLib {
-class IDeliveryEventListener;
+struct DisconnectReason;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace LiteNetLib {
+class NetEvent;
+}
+namespace LiteNetLib {
+class NetPacket;
+}
+namespace System::Net {
+class IPAddress;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace LiteNetLib {
-class NetPacket;
-}
-namespace System::Threading {
-class ReaderWriterLockSlim;
-}
-namespace LiteNetLib::Layers {
-class PacketLayerBase;
+class ConnectionRequest;
 }
 namespace LiteNetLib {
 class NetPacketPool;
+}
+namespace LiteNetLib {
+class NetStatistics;
+}
+namespace LiteNetLib {
+class NatPunchModule;
+}
+namespace System::Threading {
+struct ThreadPriority;
+}
+namespace System::Threading {
+class ReaderWriterLockSlim;
 }
 namespace System {
 class IDisposable;
@@ -176,8 +182,7 @@ constexpr explicit LiteNetLib__NetManager__IPEndPointComparer(void* ptr) noexcep
 /// @brief Method GetHashCode addr 0x208f318 size 0x20 virtual true final true
  int32_t GetHashCode(System::Net::IPEndPoint obj) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__NetManager__IPEndPointComparer() ;
+static LiteNetLib::LiteNetLib__NetManager__IPEndPointComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2089b0c size 0x8 virtual false final false
  void _ctor() ;
@@ -631,8 +636,7 @@ constexpr System::Threading::ThreadPriority __get_ThreadPriority() const;
 /// @brief Method RemovePeerInternal addr 0x20894c0 size 0x1b4 virtual false final false
  void RemovePeerInternal(LiteNetLib::NetPeer peer) ;
 
-// Ctor Parameters [CppParam { name: "listener", ty: "LiteNetLib::INetEventListener", modifiers: "", def_value: None }, CppParam { name: "extraPacketLayer", ty: "LiteNetLib::Layers::PacketLayerBase", modifiers: "", def_value: None }]
-explicit NetManager(LiteNetLib::INetEventListener listener, LiteNetLib::Layers::PacketLayerBase extraPacketLayer) ;
+static LiteNetLib::NetManager New_ctor(LiteNetLib::INetEventListener listener, LiteNetLib::Layers::PacketLayerBase extraPacketLayer) ;
 
 /// @brief Method .ctor addr 0x2089674 size 0x3d0 virtual false final false
  void _ctor(LiteNetLib::INetEventListener listener, LiteNetLib::Layers::PacketLayerBase extraPacketLayer) ;

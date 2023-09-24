@@ -1,25 +1,25 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByMethodBase_def.hpp"
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace Zenject {
 class SubContainerCreatorBindInfo;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4>
 class Action_4;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace Zenject {
-class InjectContext;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -36,7 +36,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11192)), TypeDefinitionIndex(TypeDefinitionIndex(11188))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11188)), TypeDefinitionIndex(TypeDefinitionIndex(11192))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11192), inst: 5155 })
 // CS Name: Zenject.SubContainerCreatorByMethod`3
 class CORDL_TYPE SubContainerCreatorByMethod_3<TParam1,TParam2,TParam3> : public Zenject::SubContainerCreatorByMethodBase {
@@ -84,8 +84,7 @@ constexpr System::Action_4<Zenject::DiContainer,TParam1,TParam2,TParam3> __get__
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "containerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }, CppParam { name: "installMethod", ty: "System::Action_4<Zenject::DiContainer,TParam1,TParam2,TParam3>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByMethod_3(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Action_4<Zenject::DiContainer,TParam1,TParam2,TParam3> installMethod) ;
+static Zenject::SubContainerCreatorByMethod_3<TParam1,TParam2,TParam3> New_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Action_4<Zenject::DiContainer,TParam1,TParam2,TParam3> installMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Action_4<Zenject::DiContainer,TParam1,TParam2,TParam3> installMethod) ;

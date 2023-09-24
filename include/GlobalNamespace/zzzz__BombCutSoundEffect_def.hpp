@@ -4,17 +4,20 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-class AudioClip;
+class AudioSource;
 }
 namespace UnityEngine {
-class AudioSource;
+class AudioClip;
+}
+namespace GlobalNamespace {
+class Saber;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class Saber;
+class GlobalNamespace__BombCutSoundEffect__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +106,7 @@ constexpr GlobalNamespace::Saber __get__saber() const;
 /// @brief Method StopPlayingAndFinish addr 0x20ba234 size 0x50 virtual false final false
  void StopPlayingAndFinish() ;
 
-// Ctor Parameters []
-explicit BombCutSoundEffect() ;
+static GlobalNamespace::BombCutSoundEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ba284 size 0x8 virtual false final false
  void _ctor() ;
@@ -116,7 +118,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 274 }), TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4043))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4043)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 274 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4042))
 // CS Name: BombCutSoundEffect::Pool
 class CORDL_TYPE GlobalNamespace__BombCutSoundEffect__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::BombCutSoundEffect> {
@@ -155,8 +157,7 @@ constexpr explicit GlobalNamespace__BombCutSoundEffect__Pool(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BombCutSoundEffect__Pool() ;
+static GlobalNamespace::GlobalNamespace__BombCutSoundEffect__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ba28c size 0x48 virtual false final false
  void _ctor() ;

@@ -94,8 +94,7 @@ constexpr ::ArrayW<uint32_t> __get__workingKey() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Cast6Engine() ;
+static Org::BouncyCastle::Crypto::Engines::Cast6Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe3aeac size 0xd4 virtual false final false
  void _ctor() ;

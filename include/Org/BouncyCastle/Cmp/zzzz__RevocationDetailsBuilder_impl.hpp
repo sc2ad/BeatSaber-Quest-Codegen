@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Cmp/zzzz__RevocationDetailsBuilder_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertTemplateBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertTemplateBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
 #include "Org/BouncyCastle/Cmp/zzzz__RevocationDetails_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cmp::RevocationDetailsBuilder.SetPublicKey
@@ -158,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Cmp::RevocationDetails, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cmp::RevocationDetailsBuilder::RevocationDetailsBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RevocationDetailsBuilder>())) {}
+ Org::BouncyCastle::Cmp::RevocationDetailsBuilder Org::BouncyCastle::Cmp::RevocationDetailsBuilder::New_ctor()  {
+Org::BouncyCastle::Cmp::RevocationDetailsBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::RevocationDetailsBuilder>())};
+return o;
+}
  void Org::BouncyCastle::Cmp::RevocationDetailsBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::RevocationDetailsBuilder>::get(),

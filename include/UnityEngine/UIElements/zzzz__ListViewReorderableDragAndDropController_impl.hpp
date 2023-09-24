@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseReorderableDragAndDropController_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewReorderableDragAndDropController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ListView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::ListViewReorderableDragAndDropController._ctor
 template<>
 
@@ -61,8 +61,10 @@ constexpr void UnityEngine::UIElements::ListViewReorderableDragAndDropController
 constexpr UnityEngine::UIElements::ListView UnityEngine::UIElements::ListViewReorderableDragAndDropController::__get_m_ListView() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::ListView, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "view", ty: "UnityEngine::UIElements::ListView", modifiers: "", def_value: None }]
- UnityEngine::UIElements::ListViewReorderableDragAndDropController::ListViewReorderableDragAndDropController(UnityEngine::UIElements::ListView view)  : UnityEngine::UIElements::BaseReorderableDragAndDropController(THROW_UNLESS(::il2cpp_utils::New<ListViewReorderableDragAndDropController>(view))) {}
+ UnityEngine::UIElements::ListViewReorderableDragAndDropController UnityEngine::UIElements::ListViewReorderableDragAndDropController::New_ctor(UnityEngine::UIElements::ListView view)  {
+UnityEngine::UIElements::ListViewReorderableDragAndDropController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ListViewReorderableDragAndDropController>(view))};
+return o;
+}
  void UnityEngine::UIElements::ListViewReorderableDragAndDropController::_ctor(UnityEngine::UIElements::ListView view)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ListViewReorderableDragAndDropController>::get(),

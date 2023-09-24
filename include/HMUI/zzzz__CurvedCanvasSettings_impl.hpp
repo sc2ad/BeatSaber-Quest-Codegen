@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__Graphic_impl.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettings_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: HMUI::CurvedCanvasSettings.get_radius
 template<>
 
@@ -190,8 +190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, t);
 }
-// Ctor Parameters []
- HMUI::CurvedCanvasSettings::CurvedCanvasSettings()  : UnityEngine::UI::Graphic(THROW_UNLESS(::il2cpp_utils::New<CurvedCanvasSettings>())) {}
+ HMUI::CurvedCanvasSettings HMUI::CurvedCanvasSettings::New_ctor()  {
+HMUI::CurvedCanvasSettings o{THROW_UNLESS(::il2cpp_utils::New<HMUI::CurvedCanvasSettings>())};
+return o;
+}
  void HMUI::CurvedCanvasSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::CurvedCanvasSettings>::get(),

@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine {
 struct ColorSpace;
 }
 namespace UnityEngine::Rendering {
 class RenderPipelineAsset;
+}
+namespace UnityEngine {
+class ScriptableObject;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -4,35 +4,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Ocsp {
+class Req;
+}
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class OcspRequest;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1InputStream;
+}
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class OcspRequest;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Ocsp {
-class Req;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1InputStream;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -102,26 +102,22 @@ constexpr Org::BouncyCastle::Asn1::Ocsp::OcspRequest __get_req() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "req", ty: "Org::BouncyCastle::Asn1::Ocsp::OcspRequest", modifiers: "", def_value: None }]
-explicit OcspReq(Org::BouncyCastle::Asn1::Ocsp::OcspRequest req) ;
+static Org::BouncyCastle::Ocsp::OcspReq New_ctor(Org::BouncyCastle::Asn1::Ocsp::OcspRequest req) ;
 
 /// @brief Method .ctor addr 0x101349c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::OcspRequest req) ;
 
-// Ctor Parameters [CppParam { name: "req", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit OcspReq(::ArrayW<uint8_t> req) ;
+static Org::BouncyCastle::Ocsp::OcspReq New_ctor(::ArrayW<uint8_t> req) ;
 
 /// @brief Method .ctor addr 0x10134c4 size 0x74 virtual false final false
  void _ctor(::ArrayW<uint8_t> req) ;
 
-// Ctor Parameters [CppParam { name: "inStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit OcspReq(System::IO::Stream inStr) ;
+static Org::BouncyCastle::Ocsp::OcspReq New_ctor(System::IO::Stream inStr) ;
 
 /// @brief Method .ctor addr 0x1013688 size 0x74 virtual false final false
  void _ctor(System::IO::Stream inStr) ;
 
-// Ctor Parameters [CppParam { name: "aIn", ty: "Org::BouncyCastle::Asn1::Asn1InputStream", modifiers: "", def_value: None }]
-explicit OcspReq(Org::BouncyCastle::Asn1::Asn1InputStream aIn) ;
+static Org::BouncyCastle::Ocsp::OcspReq New_ctor(Org::BouncyCastle::Asn1::Asn1InputStream aIn) ;
 
 /// @brief Method .ctor addr 0x1013538 size 0x150 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1InputStream aIn) ;

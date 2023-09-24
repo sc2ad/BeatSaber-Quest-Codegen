@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "System/IO/zzzz__DirectoryNotFoundException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::IO::DirectoryNotFoundException._ctor
 template<>
 
@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::IO::DirectoryNotFoundException::DirectoryNotFoundException()  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<DirectoryNotFoundException>())) {}
+ System::IO::DirectoryNotFoundException System::IO::DirectoryNotFoundException::New_ctor()  {
+System::IO::DirectoryNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::DirectoryNotFoundException>())};
+return o;
+}
  void System::IO::DirectoryNotFoundException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::DirectoryNotFoundException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::IO::DirectoryNotFoundException::DirectoryNotFoundException(::StringW message)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<DirectoryNotFoundException>(message))) {}
+ System::IO::DirectoryNotFoundException System::IO::DirectoryNotFoundException::New_ctor(::StringW message)  {
+System::IO::DirectoryNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::DirectoryNotFoundException>(message))};
+return o;
+}
  void System::IO::DirectoryNotFoundException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::DirectoryNotFoundException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::IO::DirectoryNotFoundException::DirectoryNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<DirectoryNotFoundException>(info, context))) {}
+ System::IO::DirectoryNotFoundException System::IO::DirectoryNotFoundException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::IO::DirectoryNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::DirectoryNotFoundException>(info, context))};
+return o;
+}
  void System::IO::DirectoryNotFoundException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::DirectoryNotFoundException>::get(),

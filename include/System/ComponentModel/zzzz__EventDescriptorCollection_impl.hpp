@@ -1,12 +1,13 @@
 #pragma once
 #include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
 //  Writing Method size for method: System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator._ctor
 template<>
 
@@ -97,8 +98,10 @@ constexpr void System::ComponentModel::System__ComponentModel__EventDescriptorCo
 constexpr int32_t System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator::__get__current() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "array", ty: "System::Array", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator(System::Array array, int32_t count)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator>(array, count))) {}
+ System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator::New_ctor(System::Array array, int32_t count)  {
+System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator>(array, count))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator::_ctor(System::Array array, int32_t count)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator>::get(),
@@ -790,8 +793,10 @@ constexpr void System::ComponentModel::EventDescriptorCollection::__set__Count_k
 constexpr int32_t System::ComponentModel::EventDescriptorCollection::__get__Count_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "events", ty: "::ArrayW<System::ComponentModel::EventDescriptor>", modifiers: "", def_value: None }]
- System::ComponentModel::EventDescriptorCollection::EventDescriptorCollection(::ArrayW<System::ComponentModel::EventDescriptor> events)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventDescriptorCollection>(events))) {}
+ System::ComponentModel::EventDescriptorCollection System::ComponentModel::EventDescriptorCollection::New_ctor(::ArrayW<System::ComponentModel::EventDescriptor> events)  {
+System::ComponentModel::EventDescriptorCollection o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::EventDescriptorCollection>(events))};
+return o;
+}
  void System::ComponentModel::EventDescriptorCollection::_ctor(::ArrayW<System::ComponentModel::EventDescriptor> events)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::EventDescriptorCollection>::get(),
@@ -801,8 +806,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, events);
 }
-// Ctor Parameters [CppParam { name: "events", ty: "::ArrayW<System::ComponentModel::EventDescriptor>", modifiers: "", def_value: None }, CppParam { name: "readOnly", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::EventDescriptorCollection::EventDescriptorCollection(::ArrayW<System::ComponentModel::EventDescriptor> events, bool readOnly)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventDescriptorCollection>(events, readOnly))) {}
+ System::ComponentModel::EventDescriptorCollection System::ComponentModel::EventDescriptorCollection::New_ctor(::ArrayW<System::ComponentModel::EventDescriptor> events, bool readOnly)  {
+System::ComponentModel::EventDescriptorCollection o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::EventDescriptorCollection>(events, readOnly))};
+return o;
+}
  void System::ComponentModel::EventDescriptorCollection::_ctor(::ArrayW<System::ComponentModel::EventDescriptor> events, bool readOnly)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::EventDescriptorCollection>::get(),

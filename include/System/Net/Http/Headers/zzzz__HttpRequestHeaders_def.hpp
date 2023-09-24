@@ -4,18 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Net::Http::Headers {
-class AuthenticationHeaderValue;
+template<typename T>
+class HttpHeaderValueCollection_1;
 }
 namespace System::Net::Http::Headers {
-class TransferCodingHeaderValue;
+class AuthenticationHeaderValue;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace System::Net::Http::Headers {
-template<typename T>
-class HttpHeaderValueCollection_1;
+class TransferCodingHeaderValue;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__HttpRequestHeaders____c;
 }
 namespace System {
 template<typename T>
@@ -97,8 +100,7 @@ static System::Predicate_1<System::Net::Http::Headers::TransferCodingHeaderValue
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Http__Headers__HttpRequestHeaders____c() ;
+static System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x26aad24 size 0x8 virtual false final false
  void _ctor() ;
@@ -186,8 +188,7 @@ constexpr System::Nullable_1<bool> __get_expectContinue() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HttpRequestHeaders() ;
+static System::Net::Http::Headers::HttpRequestHeaders New_ctor() ;
 
 /// @brief Method .ctor addr 0x26a222c size 0x60 virtual false final false
  void _ctor() ;

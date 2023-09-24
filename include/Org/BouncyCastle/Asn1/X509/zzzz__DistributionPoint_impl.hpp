@@ -2,12 +2,12 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DistributionPoint_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DistributionPointName_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__ReasonFlags_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__ReasonFlags_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::DistributionPoint.GetInstance
 template<>
 
@@ -214,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::DistributionPoint, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::DistributionPoint::DistributionPoint(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DistributionPoint>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::DistributionPoint Org::BouncyCastle::Asn1::X509::DistributionPoint::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::DistributionPoint o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::DistributionPoint>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::DistributionPoint::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::DistributionPoint>::get(),
@@ -225,8 +227,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "distributionPointName", ty: "Org::BouncyCastle::Asn1::X509::DistributionPointName", modifiers: "", def_value: None }, CppParam { name: "reasons", ty: "Org::BouncyCastle::Asn1::X509::ReasonFlags", modifiers: "", def_value: None }, CppParam { name: "crlIssuer", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::DistributionPoint::DistributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName distributionPointName, Org::BouncyCastle::Asn1::X509::ReasonFlags reasons, Org::BouncyCastle::Asn1::X509::GeneralNames crlIssuer)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DistributionPoint>(distributionPointName, reasons, crlIssuer))) {}
+ Org::BouncyCastle::Asn1::X509::DistributionPoint Org::BouncyCastle::Asn1::X509::DistributionPoint::New_ctor(Org::BouncyCastle::Asn1::X509::DistributionPointName distributionPointName, Org::BouncyCastle::Asn1::X509::ReasonFlags reasons, Org::BouncyCastle::Asn1::X509::GeneralNames crlIssuer)  {
+Org::BouncyCastle::Asn1::X509::DistributionPoint o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::DistributionPoint>(distributionPointName, reasons, crlIssuer))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::DistributionPoint::_ctor(Org::BouncyCastle::Asn1::X509::DistributionPointName distributionPointName, Org::BouncyCastle::Asn1::X509::ReasonFlags reasons, Org::BouncyCastle::Asn1::X509::GeneralNames crlIssuer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::DistributionPoint>::get(),

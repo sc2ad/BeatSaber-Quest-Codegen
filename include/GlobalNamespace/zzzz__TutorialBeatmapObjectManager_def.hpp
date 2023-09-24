@@ -5,7 +5,26 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class ObstacleController;
+class ObstacleData;
+}
+namespace GlobalNamespace {
+template<typename T>
+class MemoryPoolContainer_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__TutorialBeatmapObjectManager__InitData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ObstacleController__Pool;
+}
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -15,44 +34,28 @@ namespace GlobalNamespace {
 class GlobalNamespace__TutorialNoteController__Pool;
 }
 namespace GlobalNamespace {
-class BombNoteController;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__BombNoteController__Pool;
+class NoteData;
 }
 namespace GlobalNamespace {
 class TutorialNoteController;
 }
 namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__ObstacleController__Pool;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-template<typename T>
-class MemoryPoolContainer_1;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
-class SliderController;
+class GlobalNamespace__BombNoteController__Pool;
+}
+namespace GlobalNamespace {
+class BombNoteController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+class ObstacleController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -112,8 +115,7 @@ constexpr float_t __get_cutAngleTolerance() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cutAngleTolerance", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__TutorialBeatmapObjectManager__InitData(float_t cutAngleTolerance) ;
+static GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitData New_ctor(float_t cutAngleTolerance) ;
 
 /// @brief Method .ctor addr 0x224d4d8 size 0x28 virtual false final false
  void _ctor(float_t cutAngleTolerance) ;
@@ -222,8 +224,7 @@ constexpr GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitDa
 /// @brief Method DespawnInternal addr 0x224d4cc size 0x4 virtual true final false
  void DespawnInternal(GlobalNamespace::SliderController sliderNoteController) ;
 
-// Ctor Parameters []
-explicit TutorialBeatmapObjectManager() ;
+static GlobalNamespace::TutorialBeatmapObjectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x224d4d0 size 0x8 virtual false final false
  void _ctor() ;

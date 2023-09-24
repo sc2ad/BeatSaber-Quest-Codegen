@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerBadgesProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerBadgesProvider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerResultsData.get_gameId
 template<>
 
@@ -151,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "gameId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localPlayerResultData", ty: "GlobalNamespace::MultiplayerLevelCompletionResults", modifiers: "", def_value: None }, CppParam { name: "otherPlayersResultData", ty: "System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults>", modifiers: "", def_value: None }, CppParam { name: "badgesProvider", ty: "GlobalNamespace::MultiplayerBadgesProvider", modifiers: "", def_value: None }, CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
- GlobalNamespace::MultiplayerResultsData::MultiplayerResultsData(::StringW gameId, GlobalNamespace::MultiplayerLevelCompletionResults localPlayerResultData, System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider badgesProvider, GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerResultsData>(gameId, localPlayerResultData, otherPlayersResultData, badgesProvider, multiplayerSessionManager))) {}
+ GlobalNamespace::MultiplayerResultsData GlobalNamespace::MultiplayerResultsData::New_ctor(::StringW gameId, GlobalNamespace::MultiplayerLevelCompletionResults localPlayerResultData, System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider badgesProvider, GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  {
+GlobalNamespace::MultiplayerResultsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerResultsData>(gameId, localPlayerResultData, otherPlayersResultData, badgesProvider, multiplayerSessionManager))};
+return o;
+}
  void GlobalNamespace::MultiplayerResultsData::_ctor(::StringW gameId, GlobalNamespace::MultiplayerLevelCompletionResults localPlayerResultData, System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider badgesProvider, GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerResultsData>::get(),

@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderMeshController_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "GlobalNamespace/zzzz__SliderMeshConstructor_def.hpp"
-#include "GlobalNamespace/zzzz__SliderData_def.hpp"
-#include "GlobalNamespace/zzzz__PathsHolder_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "GlobalNamespace/zzzz__PathsHolder_def.hpp"
+#include "GlobalNamespace/zzzz__SliderData_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SliderMeshController.get_pathLength
 template<>
 
@@ -221,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(nullptr, ___internal_method, noteCutDirection);
 }
-// Ctor Parameters []
- GlobalNamespace::SliderMeshController::SliderMeshController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SliderMeshController>())) {}
+ GlobalNamespace::SliderMeshController GlobalNamespace::SliderMeshController::New_ctor()  {
+GlobalNamespace::SliderMeshController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SliderMeshController>())};
+return o;
+}
  void GlobalNamespace::SliderMeshController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SliderMeshController>::get(),

@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__HEU_ExampleEvergreenQuery_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 //  Writing Method size for method: GlobalNamespace::HEU_ExampleEvergreenQuery.StartQuery
 template<>
 
@@ -258,8 +258,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, houdiniAsset, objName, geoName, partID, attrName);
 }
-// Ctor Parameters []
- GlobalNamespace::HEU_ExampleEvergreenQuery::HEU_ExampleEvergreenQuery()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_ExampleEvergreenQuery>())) {}
+ GlobalNamespace::HEU_ExampleEvergreenQuery GlobalNamespace::HEU_ExampleEvergreenQuery::New_ctor()  {
+GlobalNamespace::HEU_ExampleEvergreenQuery o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HEU_ExampleEvergreenQuery>())};
+return o;
+}
  void GlobalNamespace::HEU_ExampleEvergreenQuery::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HEU_ExampleEvergreenQuery>::get(),

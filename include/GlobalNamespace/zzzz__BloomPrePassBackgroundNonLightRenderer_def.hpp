@@ -5,10 +5,10 @@ namespace UnityEngine {
 class Renderer;
 }
 namespace UnityEngine {
-class MeshFilter;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+class MeshFilter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -118,8 +118,7 @@ constexpr UnityEngine::Transform __get__cachedTransform() const;
 /// @brief Method InitIfNeeded addr 0x1f93994 size 0xc8 virtual true final false
  void InitIfNeeded() ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundNonLightRenderer() ;
+static GlobalNamespace::BloomPrePassBackgroundNonLightRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f93b10 size 0x54 virtual false final false
  void _ctor() ;

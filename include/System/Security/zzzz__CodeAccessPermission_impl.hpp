@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/zzzz__CodeAccessPermission_def.hpp"
-#include "System/Security/zzzz__IPermission_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Security/zzzz__ISecurityEncodable_def.hpp"
+#include "System/Security/zzzz__IPermission_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Security::CodeAccessPermission._ctor
 template<>
 
@@ -200,8 +200,10 @@ return System::Security::IPermission(::bs_hook::Il2CppWrapperType::instance);
 constexpr  System::Security::CodeAccessPermission::operator System::Security::ISecurityEncodable() const noexcept {
 return System::Security::ISecurityEncodable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::CodeAccessPermission::CodeAccessPermission()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CodeAccessPermission>())) {}
+ System::Security::CodeAccessPermission System::Security::CodeAccessPermission::New_ctor()  {
+System::Security::CodeAccessPermission o{THROW_UNLESS(::il2cpp_utils::New<System::Security::CodeAccessPermission>())};
+return o;
+}
  void System::Security::CodeAccessPermission::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::CodeAccessPermission>::get(),

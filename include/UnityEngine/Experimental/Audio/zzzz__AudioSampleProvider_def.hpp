@@ -3,6 +3,9 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine::Experimental::Audio {
+class UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler;
+}
 // Forward declare root types
 namespace UnityEngine::Experimental::Audio {
 class AudioSampleProvider;
@@ -52,8 +55,7 @@ constexpr explicit UnityEngine__Experimental__Audio__AudioSampleProvider__Sample
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::Experimental::Audio::UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b277d8 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

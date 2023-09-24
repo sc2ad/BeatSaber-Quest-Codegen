@@ -76,8 +76,7 @@ constexpr bool __get_bound() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dimensions", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bound", ty: "bool", modifiers: "", def_value: None }]
-explicit ArraySpec(int32_t dimensions, bool bound) ;
+static System::ArraySpec New_ctor(int32_t dimensions, bool bound) ;
 
 /// @brief Method .ctor addr 0x24984bc size 0x10 virtual false final false
  void _ctor(int32_t dimensions, bool bound) ;

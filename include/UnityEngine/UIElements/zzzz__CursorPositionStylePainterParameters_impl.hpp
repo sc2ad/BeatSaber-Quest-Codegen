@@ -3,10 +3,10 @@
 #include "UnityEngine/UIElements/zzzz__CursorPositionStylePainterParameters_def.hpp"
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextNativeSettings_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextNativeSettings_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::CursorPositionStylePainterParameters.GetDefault
 template<>
 

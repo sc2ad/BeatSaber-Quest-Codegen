@@ -2,9 +2,10 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRExtendedDisplay_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "OVR/OpenVR/zzzz__EVREye_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRExtendedDisplay_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds._ctor
 template<>
 
@@ -73,8 +74,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds::OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds>::get(),
@@ -179,8 +182,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport::OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport>::get(),
@@ -285,8 +290,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo::OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo>::get(),

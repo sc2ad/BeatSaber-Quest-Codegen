@@ -7,14 +7,23 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__Grounding__Leg;
 }
 namespace UnityEngine {
 struct RaycastHit;
 }
+namespace RootMotion::FinalIK {
+struct RootMotion__FinalIK__Grounding__Quality;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__Grounding__Pelvis;
+}
 namespace UnityEngine {
 struct LayerMask;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -85,6 +94,8 @@ __Best = 2,
 constexpr operator __RootMotion__FinalIK__Grounding__Quality_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__FinalIK__Grounding__Quality_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -408,8 +419,7 @@ constexpr UnityEngine::Vector3 __get_transformPosition() const;
 /// @brief Method get_rootYOffset addr 0x11c3a40 size 0x8c virtual false final false
  float_t get_rootYOffset() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__Grounding__Leg() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Leg New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c1fd8 size 0x98 virtual false final false
  void _ctor() ;
@@ -536,8 +546,7 @@ constexpr float_t __get_lastTime() const;
 /// @brief Method Process addr 0x11c2900 size 0x1ec virtual false final false
  void Process(float_t lowestOffset, float_t highestOffset, bool isGrounded) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__Grounding__Pelvis() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Pelvis New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c2070 size 0x8 virtual false final false
  void _ctor() ;
@@ -829,8 +838,7 @@ constexpr bool __get_initiated() const;
 /// @brief Method GetFootCenterOffset addr 0x11c2ea0 size 0x70 virtual false final false
  UnityEngine::Vector3 GetFootCenterOffset() ;
 
-// Ctor Parameters []
-explicit Grounding() ;
+static RootMotion::FinalIK::Grounding New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c0ecc size 0x54 virtual false final false
  void _ctor() ;

@@ -217,8 +217,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::IntegratedSubsystem::IntegratedSubsystem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IntegratedSubsystem>())) {}
+ UnityEngine::IntegratedSubsystem UnityEngine::IntegratedSubsystem::New_ctor()  {
+UnityEngine::IntegratedSubsystem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::IntegratedSubsystem>())};
+return o;
+}
  void UnityEngine::IntegratedSubsystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::IntegratedSubsystem>::get(),

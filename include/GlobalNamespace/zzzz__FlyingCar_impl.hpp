@@ -127,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FlyingCar::FlyingCar()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FlyingCar>())) {}
+ GlobalNamespace::FlyingCar GlobalNamespace::FlyingCar::New_ctor()  {
+GlobalNamespace::FlyingCar o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FlyingCar>())};
+return o;
+}
  void GlobalNamespace::FlyingCar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FlyingCar>::get(),

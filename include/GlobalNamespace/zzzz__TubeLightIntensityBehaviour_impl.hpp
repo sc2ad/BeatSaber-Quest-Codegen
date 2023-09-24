@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeLightIntensityBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TubeLightIntensityBehaviour.ProcessFrame
 template<>
 
@@ -196,8 +196,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playable);
 }
-// Ctor Parameters []
- GlobalNamespace::TubeLightIntensityBehaviour::TubeLightIntensityBehaviour()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<TubeLightIntensityBehaviour>())) {}
+ GlobalNamespace::TubeLightIntensityBehaviour GlobalNamespace::TubeLightIntensityBehaviour::New_ctor()  {
+GlobalNamespace::TubeLightIntensityBehaviour o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TubeLightIntensityBehaviour>())};
+return o;
+}
  void GlobalNamespace::TubeLightIntensityBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TubeLightIntensityBehaviour>::get(),

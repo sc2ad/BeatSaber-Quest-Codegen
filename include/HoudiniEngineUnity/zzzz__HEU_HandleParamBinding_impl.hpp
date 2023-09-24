@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HandleParamBinding_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HandleParamBinding_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType::HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -91,8 +92,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamBinding()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_HandleParamBinding>())) {}
+ HoudiniEngineUnity::HEU_HandleParamBinding HoudiniEngineUnity::HEU_HandleParamBinding::New_ctor()  {
+HoudiniEngineUnity::HEU_HandleParamBinding o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_HandleParamBinding>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_HandleParamBinding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_HandleParamBinding>::get(),

@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Con
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::Configuration::SocketElement::SocketElement()  : System::Configuration::ConfigurationElement(THROW_UNLESS(::il2cpp_utils::New<SocketElement>())) {}
+ System::Net::Configuration::SocketElement System::Net::Configuration::SocketElement::New_ctor()  {
+System::Net::Configuration::SocketElement o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Configuration::SocketElement>())};
+return o;
+}
  void System::Net::Configuration::SocketElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Configuration::SocketElement>::get(),

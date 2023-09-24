@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__VisualTreeUpdater_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IVisualTreeUpdater_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeUpdatePhase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualTreeUpdater_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualTreeUpdater_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray._ctor
 template<>
 
@@ -80,8 +81,10 @@ constexpr void UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdat
 constexpr ::ArrayW<UnityEngine::UIElements::IVisualTreeUpdater> UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray::__get_m_VisualTreeUpdaters() const {
 return ::cordl_internals::getInstanceField<::ArrayW<UnityEngine::UIElements::IVisualTreeUpdater>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray>::get(),
@@ -236,8 +239,10 @@ constexpr void UnityEngine::UIElements::VisualTreeUpdater::__set_m_UpdaterArray(
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray UnityEngine::UIElements::VisualTreeUpdater::__get_m_UpdaterArray() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "panel", ty: "UnityEngine::UIElements::BaseVisualElementPanel", modifiers: "", def_value: None }]
- UnityEngine::UIElements::VisualTreeUpdater::VisualTreeUpdater(UnityEngine::UIElements::BaseVisualElementPanel panel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VisualTreeUpdater>(panel))) {}
+ UnityEngine::UIElements::VisualTreeUpdater UnityEngine::UIElements::VisualTreeUpdater::New_ctor(UnityEngine::UIElements::BaseVisualElementPanel panel)  {
+UnityEngine::UIElements::VisualTreeUpdater o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualTreeUpdater>(panel))};
+return o;
+}
  void UnityEngine::UIElements::VisualTreeUpdater::_ctor(UnityEngine::UIElements::BaseVisualElementPanel panel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualTreeUpdater>::get(),

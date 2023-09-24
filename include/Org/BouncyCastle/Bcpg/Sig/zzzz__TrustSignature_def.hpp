@@ -59,14 +59,12 @@ constexpr explicit TrustSignature(void* ptr) noexcept : Org::BouncyCastle::Bcpg:
 /// @brief Method IntToByteArray addr 0x113f010 size 0x7c virtual false final false
 static ::ArrayW<uint8_t> IntToByteArray(int32_t v1, int32_t v2) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TrustSignature(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::TrustSignature New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113f08c size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "trustAmount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TrustSignature(bool critical, int32_t depth, int32_t trustAmount) ;
+static Org::BouncyCastle::Bcpg::Sig::TrustSignature New_ctor(bool critical, int32_t depth, int32_t trustAmount) ;
 
 /// @brief Method .ctor addr 0x113f0d4 size 0x50 virtual false final false
  void _ctor(bool critical, int32_t depth, int32_t trustAmount) ;

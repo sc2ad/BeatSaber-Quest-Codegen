@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::Outline::Outline()  : UnityEngine::UI::Shadow(THROW_UNLESS(::il2cpp_utils::New<Outline>())) {}
+ UnityEngine::UI::Outline UnityEngine::UI::Outline::New_ctor()  {
+UnityEngine::UI::Outline o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::Outline>())};
+return o;
+}
  void UnityEngine::UI::Outline::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::Outline>::get(),

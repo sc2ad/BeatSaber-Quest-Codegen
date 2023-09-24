@@ -71,8 +71,7 @@ static void ovr_UnityResetTestPlatform() ;
 /// @brief Method OnApplicationQuit addr 0x2554808 size 0x4c virtual false final false
  void OnApplicationQuit() ;
 
-// Ctor Parameters []
-explicit CallbackRunner() ;
+static Oculus::Platform::CallbackRunner New_ctor() ;
 
 /// @brief Method .ctor addr 0x2554854 size 0x10 virtual false final false
  void _ctor() ;

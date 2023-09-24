@@ -2,8 +2,8 @@
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__BsonObjectIdConverter_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::BsonObjectIdConverter.WriteJson
 template<>
@@ -100,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, objectType);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::BsonObjectIdConverter::BsonObjectIdConverter()  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<BsonObjectIdConverter>())) {}
+ Newtonsoft::Json::Converters::BsonObjectIdConverter Newtonsoft::Json::Converters::BsonObjectIdConverter::New_ctor()  {
+Newtonsoft::Json::Converters::BsonObjectIdConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::BsonObjectIdConverter>())};
+return o;
+}
  void Newtonsoft::Json::Converters::BsonObjectIdConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::BsonObjectIdConverter>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Crmf/zzzz__EncryptedValueBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedValue_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_def.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__IEncryptedValuePadder_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crmf::EncryptedValueBuilder._ctor
 template<>
 
@@ -143,8 +143,10 @@ constexpr void Org::BouncyCastle::Crmf::EncryptedValueBuilder::__set_padder(Org:
 constexpr Org::BouncyCastle::Crmf::IEncryptedValuePadder Org::BouncyCastle::Crmf::EncryptedValueBuilder::__get_padder() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crmf::IEncryptedValuePadder, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "wrapper", ty: "Org::BouncyCastle::Crypto::IKeyWrapper", modifiers: "", def_value: None }, CppParam { name: "encryptor", ty: "Org::BouncyCastle::Crypto::ICipherBuilderWithKey", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::EncryptedValueBuilder::EncryptedValueBuilder(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EncryptedValueBuilder>(wrapper, encryptor))) {}
+ Org::BouncyCastle::Crmf::EncryptedValueBuilder Org::BouncyCastle::Crmf::EncryptedValueBuilder::New_ctor(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor)  {
+Org::BouncyCastle::Crmf::EncryptedValueBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::EncryptedValueBuilder>(wrapper, encryptor))};
+return o;
+}
  void Org::BouncyCastle::Crmf::EncryptedValueBuilder::_ctor(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::EncryptedValueBuilder>::get(),
@@ -154,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, wrapper, encryptor);
 }
-// Ctor Parameters [CppParam { name: "wrapper", ty: "Org::BouncyCastle::Crypto::IKeyWrapper", modifiers: "", def_value: None }, CppParam { name: "encryptor", ty: "Org::BouncyCastle::Crypto::ICipherBuilderWithKey", modifiers: "", def_value: None }, CppParam { name: "padder", ty: "Org::BouncyCastle::Crmf::IEncryptedValuePadder", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::EncryptedValueBuilder::EncryptedValueBuilder(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor, Org::BouncyCastle::Crmf::IEncryptedValuePadder padder)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EncryptedValueBuilder>(wrapper, encryptor, padder))) {}
+ Org::BouncyCastle::Crmf::EncryptedValueBuilder Org::BouncyCastle::Crmf::EncryptedValueBuilder::New_ctor(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor, Org::BouncyCastle::Crmf::IEncryptedValuePadder padder)  {
+Org::BouncyCastle::Crmf::EncryptedValueBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::EncryptedValueBuilder>(wrapper, encryptor, padder))};
+return o;
+}
  void Org::BouncyCastle::Crmf::EncryptedValueBuilder::_ctor(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor, Org::BouncyCastle::Crmf::IEncryptedValuePadder padder)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::EncryptedValueBuilder>::get(),

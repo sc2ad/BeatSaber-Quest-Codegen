@@ -99,8 +99,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGeneration
 constexpr int32_t Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::__get_countSmallPrimes() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "countSmallPrimes", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::NaccacheSternKeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes)  : Org::BouncyCastle::Crypto::KeyGenerationParameters(THROW_UNLESS(::il2cpp_utils::New<NaccacheSternKeyGenerationParameters>(random, strength, certainty, countSmallPrimes))) {}
+ Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::New_ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes)  {
+Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters>(random, strength, certainty, countSmallPrimes))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::_ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters>::get(),
@@ -110,8 +112,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, random, strength, certainty, countSmallPrimes);
 }
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "countSmallPrimes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "debug", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::NaccacheSternKeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug)  : Org::BouncyCastle::Crypto::KeyGenerationParameters(THROW_UNLESS(::il2cpp_utils::New<NaccacheSternKeyGenerationParameters>(random, strength, certainty, countSmallPrimes, debug))) {}
+ Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::New_ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug)  {
+Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters>(random, strength, certainty, countSmallPrimes, debug))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::_ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters>::get(),

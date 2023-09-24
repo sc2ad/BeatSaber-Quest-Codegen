@@ -3,24 +3,24 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
 namespace Tweening {
 template<typename T>
 class Tween_1;
 }
-namespace GlobalNamespace {
-struct EaseType;
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Color;
-}
-namespace Tweening {
-class TimeTweeningManager;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -122,8 +122,7 @@ constexpr Tweening::Tween_1<UnityEngine::Color> __get__scoreColorTween() const;
 /// @brief Method SetScore addr 0x21018dc size 0x24 virtual false final false
  void SetScore(::StringW text) ;
 
-// Ctor Parameters []
-explicit MultiplayerScoreItem() ;
+static GlobalNamespace::MultiplayerScoreItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2101900 size 0x8 virtual false final false
  void _ctor() ;

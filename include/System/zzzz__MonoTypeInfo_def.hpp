@@ -66,8 +66,7 @@ constexpr System::Reflection::RuntimeConstructorInfo __get_default_ctor() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoTypeInfo() ;
+static System::MonoTypeInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2487e30 size 0x4 virtual false final false
  void _ctor() ;

@@ -62,8 +62,7 @@ constexpr GlobalNamespace::HealthWarningSceneSetupData __get__sceneSetupData() c
 /// @brief Method InstallBindings addr 0x21b5210 size 0x15c virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit HealthWarningSceneSetup() ;
+static GlobalNamespace::HealthWarningSceneSetup New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b536c size 0x8 virtual false final false
  void _ctor() ;

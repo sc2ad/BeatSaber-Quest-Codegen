@@ -60,8 +60,10 @@ constexpr void System::Xml::XmlLinkedNode::__set_next(System::Xml::XmlLinkedNode
 constexpr System::Xml::XmlLinkedNode System::Xml::XmlLinkedNode::__get_next() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlLinkedNode, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlLinkedNode::XmlLinkedNode(System::Xml::XmlDocument doc)  : System::Xml::XmlNode(THROW_UNLESS(::il2cpp_utils::New<XmlLinkedNode>(doc))) {}
+ System::Xml::XmlLinkedNode System::Xml::XmlLinkedNode::New_ctor(System::Xml::XmlDocument doc)  {
+System::Xml::XmlLinkedNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlLinkedNode>(doc))};
+return o;
+}
  void System::Xml::XmlLinkedNode::_ctor(System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlLinkedNode>::get(),

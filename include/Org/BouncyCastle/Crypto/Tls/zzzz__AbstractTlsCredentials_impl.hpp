@@ -49,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::Tls::Certificate, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials::AbstractTlsCredentials()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AbstractTlsCredentials>())) {}
+ Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials>::get(),

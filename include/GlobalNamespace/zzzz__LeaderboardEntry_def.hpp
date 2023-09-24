@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,8 +85,7 @@ constexpr UnityEngine::Color __get__color() const;
 /// @brief Method SetScore addr 0x2146f20 size 0x190 virtual false final false
  void SetScore(int32_t score, ::StringW playerName, int32_t rank, bool highlighted, bool showSeparator) ;
 
-// Ctor Parameters []
-explicit LeaderboardEntry() ;
+static GlobalNamespace::LeaderboardEntry New_ctor() ;
 
 /// @brief Method .ctor addr 0x21470b0 size 0x14 virtual false final false
  void _ctor() ;

@@ -2,14 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
-namespace System {
-class Action;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace System {
+class Action;
+}
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -75,8 +78,7 @@ constexpr System::Action __get_continuation() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0() ;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x236eef0 size 0x8 virtual false final false
  void _ctor() ;

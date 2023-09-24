@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ObjectInstanceInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InstancedInput_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_ObjectInstanceInfo.IsEquivalentTo
 template<>
 
@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_ObjectInstanceInfo::HEU_ObjectInstanceInfo()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<HEU_ObjectInstanceInfo>())) {}
+ HoudiniEngineUnity::HEU_ObjectInstanceInfo HoudiniEngineUnity::HEU_ObjectInstanceInfo::New_ctor()  {
+HoudiniEngineUnity::HEU_ObjectInstanceInfo o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_ObjectInstanceInfo>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_ObjectInstanceInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_ObjectInstanceInfo>::get(),

@@ -4,30 +4,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class AsyncOperation;
-}
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class ProjectKernel;
-}
-namespace Zenject {
 class SceneContext;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
+struct LoadSceneRelationship;
 }
 namespace Zenject {
-struct LoadSceneRelationship;
+class ProjectKernel;
 }
 // Forward declare root types
 namespace Zenject {
@@ -90,8 +90,7 @@ constexpr Zenject::DiContainer __get__sceneContainer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sceneRoot", ty: "Zenject::SceneContext", modifiers: "", def_value: None }, CppParam { name: "projectKernel", ty: "Zenject::ProjectKernel", modifiers: "", def_value: None }]
-explicit ZenjectSceneLoader(Zenject::SceneContext sceneRoot, Zenject::ProjectKernel projectKernel) ;
+static Zenject::ZenjectSceneLoader New_ctor(Zenject::SceneContext sceneRoot, Zenject::ProjectKernel projectKernel) ;
 
 /// @brief Method .ctor addr 0x2da6d68 size 0xa8 virtual false final false
  void _ctor(Zenject::SceneContext sceneRoot, Zenject::ProjectKernel projectKernel) ;

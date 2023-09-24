@@ -54,8 +54,10 @@ constexpr void TMPro::Compute_DT_EventArgs::__set_Colors(::ArrayW<UnityEngine::C
 constexpr ::ArrayW<UnityEngine::Color> TMPro::Compute_DT_EventArgs::__get_Colors() const {
 return ::cordl_internals::getInstanceField<::ArrayW<UnityEngine::Color>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "TMPro::Compute_DistanceTransform_EventTypes", modifiers: "", def_value: None }, CppParam { name: "progress", ty: "float_t", modifiers: "", def_value: None }]
- TMPro::Compute_DT_EventArgs::Compute_DT_EventArgs(TMPro::Compute_DistanceTransform_EventTypes type, float_t progress)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Compute_DT_EventArgs>(type, progress))) {}
+ TMPro::Compute_DT_EventArgs TMPro::Compute_DT_EventArgs::New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, float_t progress)  {
+TMPro::Compute_DT_EventArgs o{THROW_UNLESS(::il2cpp_utils::New<TMPro::Compute_DT_EventArgs>(type, progress))};
+return o;
+}
  void TMPro::Compute_DT_EventArgs::_ctor(TMPro::Compute_DistanceTransform_EventTypes type, float_t progress)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::Compute_DT_EventArgs>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, progress);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "TMPro::Compute_DistanceTransform_EventTypes", modifiers: "", def_value: None }, CppParam { name: "colors", ty: "::ArrayW<UnityEngine::Color>", modifiers: "", def_value: None }]
- TMPro::Compute_DT_EventArgs::Compute_DT_EventArgs(TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<UnityEngine::Color> colors)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Compute_DT_EventArgs>(type, colors))) {}
+ TMPro::Compute_DT_EventArgs TMPro::Compute_DT_EventArgs::New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<UnityEngine::Color> colors)  {
+TMPro::Compute_DT_EventArgs o{THROW_UNLESS(::il2cpp_utils::New<TMPro::Compute_DT_EventArgs>(type, colors))};
+return o;
+}
  void TMPro::Compute_DT_EventArgs::_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<UnityEngine::Color> colors)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::Compute_DT_EventArgs>::get(),

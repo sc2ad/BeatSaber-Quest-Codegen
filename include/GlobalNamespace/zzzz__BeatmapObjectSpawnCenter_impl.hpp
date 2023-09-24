@@ -2,6 +2,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance.get_playerCount
 template<>
 
@@ -83,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance::GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance>::get(),
@@ -297,8 +300,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, distance);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapObjectSpawnCenter::BeatmapObjectSpawnCenter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatmapObjectSpawnCenter>())) {}
+ GlobalNamespace::BeatmapObjectSpawnCenter GlobalNamespace::BeatmapObjectSpawnCenter::New_ctor()  {
+GlobalNamespace::BeatmapObjectSpawnCenter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapObjectSpawnCenter>())};
+return o;
+}
  void GlobalNamespace::BeatmapObjectSpawnCenter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapObjectSpawnCenter>::get(),

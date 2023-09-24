@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Net {
-class Authorization;
+class ICredentialPolicy;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Net {
-class WebRequest;
+class Authorization;
 }
 namespace System::Net {
 class ICredentials;
 }
 namespace System::Net {
-class ICredentialPolicy;
+class WebRequest;
 }
 // Forward declare root types
 namespace System::Net {

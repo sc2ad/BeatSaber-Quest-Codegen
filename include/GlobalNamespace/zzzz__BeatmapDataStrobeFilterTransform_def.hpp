@@ -4,13 +4,16 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class EnvironmentIntensityReductionOptions;
-}
-namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
+class EnvironmentIntensityReductionOptions;
+}
+namespace GlobalNamespace {
 struct EnvironmentColorType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
@@ -121,8 +124,7 @@ constexpr bool __get__foundFirstColoredEventData() const;
 /// @brief Method AddStrobeData addr 0x21bae20 size 0x94 virtual false final false
  void AddStrobeData(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData() ;
+static GlobalNamespace::GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bad94 size 0x8 virtual false final false
  void _ctor() ;

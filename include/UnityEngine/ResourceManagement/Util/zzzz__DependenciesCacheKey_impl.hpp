@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/Util/zzzz__DependenciesCacheKey_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::Util::DependenciesCacheKey._ctor
 template<>
 
@@ -109,8 +109,10 @@ constexpr void UnityEngine::ResourceManagement::Util::DependenciesCacheKey::__se
 constexpr int32_t UnityEngine::ResourceManagement::Util::DependenciesCacheKey::__get_m_DependenciesHash() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "dependencies", ty: "System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>", modifiers: "", def_value: None }, CppParam { name: "dependenciesHash", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::Util::DependenciesCacheKey::DependenciesCacheKey(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies, int32_t dependenciesHash)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DependenciesCacheKey>(dependencies, dependenciesHash))) {}
+ UnityEngine::ResourceManagement::Util::DependenciesCacheKey UnityEngine::ResourceManagement::Util::DependenciesCacheKey::New_ctor(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies, int32_t dependenciesHash)  {
+UnityEngine::ResourceManagement::Util::DependenciesCacheKey o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Util::DependenciesCacheKey>(dependencies, dependenciesHash))};
+return o;
+}
  void UnityEngine::ResourceManagement::Util::DependenciesCacheKey::_ctor(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies, int32_t dependenciesHash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Util::DependenciesCacheKey>::get(),

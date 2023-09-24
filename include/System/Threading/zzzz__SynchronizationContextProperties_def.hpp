@@ -56,6 +56,8 @@ constexpr operator __SynchronizationContextProperties_Unwrapped () const noexcep
 return std::bit_cast<__SynchronizationContextProperties_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

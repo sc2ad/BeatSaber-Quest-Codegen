@@ -76,8 +76,7 @@ constexpr GlobalNamespace::LightGroup __get__lightGroup() const;
 /// @brief Method OnEnable addr 0x225e7a4 size 0x60 virtual false final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit LightGroupSubsystem() ;
+static GlobalNamespace::LightGroupSubsystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x225cc60 size 0x8 virtual false final false
  void _ctor() ;

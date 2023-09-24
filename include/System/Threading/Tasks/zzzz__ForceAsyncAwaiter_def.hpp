@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System {
 class Action;
 }
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

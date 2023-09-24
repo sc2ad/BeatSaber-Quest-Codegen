@@ -3,11 +3,11 @@
 #include "UnityEngine/UIElements/zzzz__VerticalVirtualizationController_1_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,7 +24,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7470)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7470), inst: 5174 }), TypeDefinitionIndex(TypeDefinitionIndex(7467))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7470)), TypeDefinitionIndex(TypeDefinitionIndex(7467)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7470), inst: 5174 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7467), inst: 2 })
 // CS Name: UnityEngine.UIElements.FixedHeightVirtualizationController`1
 class CORDL_TYPE FixedHeightVirtualizationController_1<T> : public UnityEngine::UIElements::VerticalVirtualizationController_1<T> {
@@ -74,8 +74,7 @@ constexpr explicit FixedHeightVirtualizationController_1(void* ptr) noexcept : U
 /// @brief Method VisibleItemPredicate addr 0x0 size 0xffffffffffffffff virtual true final false
  bool VisibleItemPredicate(T i) ;
 
-// Ctor Parameters [CppParam { name: "collectionView", ty: "UnityEngine::UIElements::BaseVerticalCollectionView", modifiers: "", def_value: None }]
-explicit FixedHeightVirtualizationController_1(UnityEngine::UIElements::BaseVerticalCollectionView collectionView) ;
+static UnityEngine::UIElements::FixedHeightVirtualizationController_1<T> New_ctor(UnityEngine::UIElements::BaseVerticalCollectionView collectionView) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(UnityEngine::UIElements::BaseVerticalCollectionView collectionView) ;

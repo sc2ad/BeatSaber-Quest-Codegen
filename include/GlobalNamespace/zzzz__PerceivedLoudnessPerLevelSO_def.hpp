@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace GlobalNamespace {
+class GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -97,8 +100,7 @@ constexpr ::StringW __get__checkSum() const;
 /// @brief Method get_checksum addr 0x2216188 size 0x8 virtual false final false
  ::StringW get_checksum() ;
 
-// Ctor Parameters [CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "perceivedLoudness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "checkSum", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum) ;
+static GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair New_ctor(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum) ;
 
 /// @brief Method .ctor addr 0x2216190 size 0x40 virtual false final false
  void _ctor(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum) ;
@@ -166,8 +168,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO
 /// @brief Method SetLoudnessData addr 0x22160f8 size 0x78 virtual false final false
  void SetLoudnessData(System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair> loudnessDictionary) ;
 
-// Ctor Parameters []
-explicit PerceivedLoudnessPerLevelSO() ;
+static GlobalNamespace::PerceivedLoudnessPerLevelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2216170 size 0x8 virtual false final false
  void _ctor() ;

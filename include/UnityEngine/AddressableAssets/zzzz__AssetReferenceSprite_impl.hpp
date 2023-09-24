@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::AssetReferenceSprite::AssetReferenceSprite(::StringW guid)  : UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Sprite>(THROW_UNLESS(::il2cpp_utils::New<AssetReferenceSprite>(guid))) {}
+ UnityEngine::AddressableAssets::AssetReferenceSprite UnityEngine::AddressableAssets::AssetReferenceSprite::New_ctor(::StringW guid)  {
+UnityEngine::AddressableAssets::AssetReferenceSprite o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::AssetReferenceSprite>(guid))};
+return o;
+}
  void UnityEngine::AddressableAssets::AssetReferenceSprite::_ctor(::StringW guid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::AssetReferenceSprite>::get(),

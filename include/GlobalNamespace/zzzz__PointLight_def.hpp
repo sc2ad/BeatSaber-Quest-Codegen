@@ -3,12 +3,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +94,7 @@ static System::Collections::Generic::List_1<GlobalNamespace::PointLight> get_lig
 /// @brief Method OnDisable addr 0x1f99c80 size 0x80 virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit PointLight() ;
+static GlobalNamespace::PointLight New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f99d00 size 0x8 virtual false final false
  void _ctor() ;

@@ -105,8 +105,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::InteropServices::ExternalException::ExternalException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ExternalException>())) {}
+ System::Runtime::InteropServices::ExternalException System::Runtime::InteropServices::ExternalException::New_ctor()  {
+System::Runtime::InteropServices::ExternalException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::ExternalException>())};
+return o;
+}
  void System::Runtime::InteropServices::ExternalException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::ExternalException>::get(),
@@ -116,8 +118,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::ExternalException::ExternalException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ExternalException>(message))) {}
+ System::Runtime::InteropServices::ExternalException System::Runtime::InteropServices::ExternalException::New_ctor(::StringW message)  {
+System::Runtime::InteropServices::ExternalException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::ExternalException>(message))};
+return o;
+}
  void System::Runtime::InteropServices::ExternalException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::ExternalException>::get(),
@@ -127,8 +131,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "errorCode", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::ExternalException::ExternalException(::StringW message, int32_t errorCode)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ExternalException>(message, errorCode))) {}
+ System::Runtime::InteropServices::ExternalException System::Runtime::InteropServices::ExternalException::New_ctor(::StringW message, int32_t errorCode)  {
+System::Runtime::InteropServices::ExternalException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::ExternalException>(message, errorCode))};
+return o;
+}
  void System::Runtime::InteropServices::ExternalException::_ctor(::StringW message, int32_t errorCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::ExternalException>::get(),
@@ -138,8 +144,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, errorCode);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::ExternalException::ExternalException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ExternalException>(info, context))) {}
+ System::Runtime::InteropServices::ExternalException System::Runtime::InteropServices::ExternalException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::InteropServices::ExternalException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::ExternalException>(info, context))};
+return o;
+}
  void System::Runtime::InteropServices::ExternalException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::ExternalException>::get(),

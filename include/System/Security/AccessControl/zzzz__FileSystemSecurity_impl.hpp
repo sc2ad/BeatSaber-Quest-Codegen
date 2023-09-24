@@ -2,11 +2,11 @@
 #include "System/Security/AccessControl/zzzz__NativeObjectSecurity_impl.hpp"
 #include "System/Security/AccessControl/zzzz__FileSystemSecurity_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlSections_def.hpp"
-#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
+#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 #include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
+#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
-#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::FileSystemSecurity._ctor
 template<>
 
@@ -41,8 +41,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }]
- System::Security::AccessControl::FileSystemSecurity::FileSystemSecurity(bool isContainer, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections)  : System::Security::AccessControl::NativeObjectSecurity(THROW_UNLESS(::il2cpp_utils::New<FileSystemSecurity>(isContainer, name, includeSections))) {}
+ System::Security::AccessControl::FileSystemSecurity System::Security::AccessControl::FileSystemSecurity::New_ctor(bool isContainer, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections)  {
+System::Security::AccessControl::FileSystemSecurity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::FileSystemSecurity>(isContainer, name, includeSections))};
+return o;
+}
  void System::Security::AccessControl::FileSystemSecurity::_ctor(bool isContainer, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::FileSystemSecurity>::get(),

@@ -5,10 +5,10 @@ namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
+struct GameplayModifierMask;
 }
 namespace GlobalNamespace {
-struct GameplayModifierMask;
+struct SongPackMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,8 +113,7 @@ constexpr bool __get_showInternetGames() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GameServersFilter() ;
+static GlobalNamespace::GameServersFilter New_ctor() ;
 
 /// @brief Method .ctor addr 0x214ddb0 size 0x40 virtual false final false
  void _ctor() ;

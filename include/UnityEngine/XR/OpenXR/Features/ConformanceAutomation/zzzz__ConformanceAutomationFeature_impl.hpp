@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/ConformanceAutomation/zzzz__ConformanceAutomationFeature_def.hpp"
+#include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrVector2f_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrPosef_def.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrVector3f_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrVector2f_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature.OnInstanceCreate
 template<>
 
@@ -478,8 +478,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, xrSession, topLevelPath, inputSourcePath, linearValid, linear, angularValid, angular);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationFeature()  : UnityEngine::XR::OpenXR::Features::OpenXRFeature(THROW_UNLESS(::il2cpp_utils::New<ConformanceAutomationFeature>())) {}
+ UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature>::get(),

@@ -47,8 +47,7 @@ constexpr explicit InjectAttribute(void* ptr) noexcept : Zenject::InjectAttribut
 
 // Methods
 
-// Ctor Parameters []
-explicit InjectAttribute() ;
+static Zenject::InjectAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d402f8 size 0x8 virtual false final false
  void _ctor() ;

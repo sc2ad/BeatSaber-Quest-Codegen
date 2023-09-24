@@ -1,22 +1,23 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__TextAsset_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/TextCore/zzzz__FaceInfo_def.hpp"
-#include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
-#include "UnityEngine/TextCore/LowLevel/zzzz__GlyphRenderMode_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontAssetCreationEditorSettings_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontWeightPair_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Character_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__AtlasPopulationMode_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontFeatureTable_def.hpp"
+#include "UnityEngine/TextCore/LowLevel/zzzz__GlyphRenderMode_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__FontEngineError_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__AtlasPopulationMode_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontFeatureTable_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
+#include "UnityEngine/TextCore/zzzz__FaceInfo_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontWeightPair_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontAssetCreationEditorSettings_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c._ctor
 template<>
@@ -87,8 +88,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::TextCore::T
  System::Func_2<UnityEngine::TextCore::Glyph,uint32_t> UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c::__get___9__145_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::TextCore::Glyph,uint32_t>, "<>9__145_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c::UnityEngine__TextCore__Text__FontAsset____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__TextCore__Text__FontAsset____c>())) {}
+ UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c::New_ctor()  {
+UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c>())};
+return o;
+}
  void UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c>::get(),
@@ -3397,8 +3400,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::FontAsset::FontAsset()  : UnityEngine::TextCore::Text::TextAsset(THROW_UNLESS(::il2cpp_utils::New<FontAsset>())) {}
+ UnityEngine::TextCore::Text::FontAsset UnityEngine::TextCore::Text::FontAsset::New_ctor()  {
+UnityEngine::TextCore::Text::FontAsset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::FontAsset>())};
+return o;
+}
  void UnityEngine::TextCore::Text::FontAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::FontAsset>::get(),

@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine::Rendering {
 class RenderPipeline;
-}
-namespace UnityEngine {
-class Shader;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -173,8 +173,7 @@ constexpr explicit RenderPipelineAsset(void* ptr) noexcept : UnityEngine::Script
 /// @brief Method OnDisable addr 0x2b75c78 size 0x4c virtual true final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit RenderPipelineAsset() ;
+static UnityEngine::Rendering::RenderPipelineAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b75cc4 size 0x8 virtual false final false
  void _ctor() ;

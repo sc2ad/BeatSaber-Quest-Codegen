@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/TextCore/zzzz__Glyph_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteGlyph_def.hpp"
-#include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
 //  Writing Method size for method: TMPro::TMP_SpriteGlyph._ctor
 template<>
@@ -61,8 +61,10 @@ constexpr void TMPro::TMP_SpriteGlyph::__set_sprite(UnityEngine::Sprite value)  
 constexpr UnityEngine::Sprite TMPro::TMP_SpriteGlyph::__get_sprite() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Sprite, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMP_SpriteGlyph::TMP_SpriteGlyph()  : UnityEngine::TextCore::Glyph(THROW_UNLESS(::il2cpp_utils::New<TMP_SpriteGlyph>())) {}
+ TMPro::TMP_SpriteGlyph TMPro::TMP_SpriteGlyph::New_ctor()  {
+TMPro::TMP_SpriteGlyph o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SpriteGlyph>())};
+return o;
+}
  void TMPro::TMP_SpriteGlyph::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SpriteGlyph>::get(),
@@ -72,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }]
- TMPro::TMP_SpriteGlyph::TMP_SpriteGlyph(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex)  : UnityEngine::TextCore::Glyph(THROW_UNLESS(::il2cpp_utils::New<TMP_SpriteGlyph>(index, metrics, glyphRect, scale, atlasIndex))) {}
+ TMPro::TMP_SpriteGlyph TMPro::TMP_SpriteGlyph::New_ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex)  {
+TMPro::TMP_SpriteGlyph o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SpriteGlyph>(index, metrics, glyphRect, scale, atlasIndex))};
+return o;
+}
  void TMPro::TMP_SpriteGlyph::_ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SpriteGlyph>::get(),
@@ -83,8 +87,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, index, metrics, glyphRect, scale, atlasIndex);
 }
-// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }]
- TMPro::TMP_SpriteGlyph::TMP_SpriteGlyph(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, UnityEngine::Sprite sprite)  : UnityEngine::TextCore::Glyph(THROW_UNLESS(::il2cpp_utils::New<TMP_SpriteGlyph>(index, metrics, glyphRect, scale, atlasIndex, sprite))) {}
+ TMPro::TMP_SpriteGlyph TMPro::TMP_SpriteGlyph::New_ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, UnityEngine::Sprite sprite)  {
+TMPro::TMP_SpriteGlyph o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SpriteGlyph>(index, metrics, glyphRect, scale, atlasIndex, sprite))};
+return o;
+}
  void TMPro::TMP_SpriteGlyph::_ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, UnityEngine::Sprite sprite)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SpriteGlyph>::get(),

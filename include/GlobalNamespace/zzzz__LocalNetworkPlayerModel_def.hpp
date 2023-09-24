@@ -11,8 +11,14 @@ namespace GlobalNamespace {
 template<typename T>
 class INetworkPlayerModelPartyConfig_1;
 }
+namespace System::Net {
+class IPAddress;
+}
 namespace GlobalNamespace {
 class INetworkPlayer;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
@@ -21,43 +27,46 @@ namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace GlobalNamespace {
-class LiteNetLibConnectionManager;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-class LocalNetworkDiscoveryManager;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace GlobalNamespace {
-class BasicConnectionRequestHandler;
+struct GlobalNamespace__LocalNetworkPlayerModel___Start_d__41;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class INetworkConfig;
+class BasicConnectionRequestHandler;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace GlobalNamespace {
 class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+class INetworkConfig;
+}
+namespace GlobalNamespace {
+class LocalNetworkDiscoveryManager;
+}
+namespace GlobalNamespace {
+class LiteNetLibConnectionManager;
+}
+namespace GlobalNamespace {
+class IPlatformUserModel;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -65,12 +74,12 @@ struct AsyncVoidMethodBuilder;
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
+namespace GlobalNamespace {
+class UserInfo;
+}
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
-}
-namespace GlobalNamespace {
-class UserInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -386,8 +395,7 @@ constexpr bool __get__invitedMeToJoinTheirParty() const;
 /// @brief Method get_isTimedOut addr 0x2205b2c size 0x70 virtual false final false
  bool get_isTimedOut() ;
 
-// Ctor Parameters [CppParam { name: "playerModel", ty: "GlobalNamespace::LocalNetworkPlayerModel", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ipAddress", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "isMe", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer(GlobalNamespace::LocalNetworkPlayerModel playerModel, ::StringW userId, ::StringW userName, System::Net::IPAddress ipAddress, bool isMe) ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer New_ctor(GlobalNamespace::LocalNetworkPlayerModel playerModel, ::StringW userId, ::StringW userName, System::Net::IPAddress ipAddress, bool isMe) ;
 
 /// @brief Method .ctor addr 0x22063cc size 0x50 virtual false final false
  void _ctor(GlobalNamespace::LocalNetworkPlayerModel playerModel, ::StringW userId, ::StringW userName, System::Net::IPAddress ipAddress, bool isMe) ;
@@ -525,8 +533,7 @@ constexpr explicit GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig(v
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig() ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig New_ctor() ;
 
 /// @brief Method .ctor addr 0x2208524 size 0x8 virtual false final false
  void _ctor() ;
@@ -911,8 +918,7 @@ template<typename T>
 /// @brief Method TryStartServer addr 0x2206890 size 0x188 virtual false final false
  bool TryStartServer() ;
 
-// Ctor Parameters []
-explicit LocalNetworkPlayerModel() ;
+static GlobalNamespace::LocalNetworkPlayerModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2207e64 size 0xd0 virtual false final false
  void _ctor() ;

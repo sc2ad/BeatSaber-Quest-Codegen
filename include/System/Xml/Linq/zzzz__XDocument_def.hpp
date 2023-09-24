@@ -2,12 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Linq/zzzz__XContainer_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml {
-class XmlWriter;
-}
-namespace System::Xml::Linq {
-class XDeclaration;
-}
 namespace System::Xml::Linq {
 class XAttribute;
 }
@@ -17,8 +11,14 @@ class XNode;
 namespace System::Xml::Linq {
 class XElement;
 }
+namespace System::Xml::Linq {
+class XDeclaration;
+}
 namespace System::Xml {
 struct XmlNodeType;
+}
+namespace System::Xml {
+class XmlWriter;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -84,14 +84,12 @@ constexpr System::Xml::Linq::XDeclaration __get__declaration() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XDocument() ;
+static System::Xml::Linq::XDocument New_ctor() ;
 
 /// @brief Method .ctor addr 0x26cb8f4 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XDocument", modifiers: "", def_value: None }]
-explicit XDocument(System::Xml::Linq::XDocument other) ;
+static System::Xml::Linq::XDocument New_ctor(System::Xml::Linq::XDocument other) ;
 
 /// @brief Method .ctor addr 0x26cb8fc size 0x7c virtual false final false
  void _ctor(System::Xml::Linq::XDocument other) ;

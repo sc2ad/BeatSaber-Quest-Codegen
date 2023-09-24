@@ -239,8 +239,7 @@ constexpr ::StringW __get_m_CustomBindings() const;
 /// @brief Method Apply addr 0x293bdac size 0x4 virtual true final false
  void Apply(UnityEngine::InputSystem::IInputActionCollection actions) ;
 
-// Ctor Parameters []
-explicit InputUserSettings() ;
+static UnityEngine::InputSystem::Users::InputUserSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x293bdb0 size 0x8 virtual false final false
  void _ctor() ;

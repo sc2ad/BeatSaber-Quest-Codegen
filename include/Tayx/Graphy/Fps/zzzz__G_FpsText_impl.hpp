@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsText_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "UnityEngine/UI/zzzz__Text_def.hpp"
 //  Writing Method size for method: Tayx::Graphy::Fps::G_FpsText.Awake
 template<>
 
@@ -223,8 +223,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tayx::Graphy::Fps::G_FpsText::G_FpsText()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<G_FpsText>())) {}
+ Tayx::Graphy::Fps::G_FpsText Tayx::Graphy::Fps::G_FpsText::New_ctor()  {
+Tayx::Graphy::Fps::G_FpsText o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Fps::G_FpsText>())};
+return o;
+}
  void Tayx::Graphy::Fps::G_FpsText::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Fps::G_FpsText>::get(),

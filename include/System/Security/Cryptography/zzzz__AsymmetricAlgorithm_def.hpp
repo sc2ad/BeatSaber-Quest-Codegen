@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography {
 class KeySizes;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -79,8 +79,7 @@ constexpr ::ArrayW<System::Security::Cryptography::KeySizes> __get_LegalKeySizes
 
 // Methods
 
-// Ctor Parameters []
-explicit AsymmetricAlgorithm() ;
+static System::Security::Cryptography::AsymmetricAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0x22efbac size 0x8 virtual false final false
  void _ctor() ;

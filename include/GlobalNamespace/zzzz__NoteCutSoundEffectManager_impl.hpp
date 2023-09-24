@@ -1,18 +1,18 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutSoundEffectManager_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__INoteCutSoundEffectDidFinishEvent_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutSoundEffectManager_def.hpp"
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
-#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__InitData._ctor
 template<>
@@ -43,8 +43,10 @@ constexpr void GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__Init
 constexpr bool GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__InitData::__get_ignoreBadCuts() const {
 return ::cordl_internals::getInstanceField<bool, 0x11>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "useTestAudioClips", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ignoreBadCuts", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__InitData::GlobalNamespace__NoteCutSoundEffectManager__InitData(bool useTestAudioClips, bool ignoreBadCuts)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__NoteCutSoundEffectManager__InitData>(useTestAudioClips, ignoreBadCuts))) {}
+ GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__InitData GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__InitData::New_ctor(bool useTestAudioClips, bool ignoreBadCuts)  {
+GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__InitData>(useTestAudioClips, ignoreBadCuts))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__InitData::_ctor(bool useTestAudioClips, bool ignoreBadCuts)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__InitData>::get(),
@@ -403,8 +405,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, noteData);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteCutSoundEffectManager::NoteCutSoundEffectManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteCutSoundEffectManager>())) {}
+ GlobalNamespace::NoteCutSoundEffectManager GlobalNamespace::NoteCutSoundEffectManager::New_ctor()  {
+GlobalNamespace::NoteCutSoundEffectManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteCutSoundEffectManager>())};
+return o;
+}
  void GlobalNamespace::NoteCutSoundEffectManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteCutSoundEffectManager>::get(),

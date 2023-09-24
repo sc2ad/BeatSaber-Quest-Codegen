@@ -7,6 +7,9 @@
 namespace System::Xml::Linq {
 class XNamespace;
 }
+namespace System::Xml::Linq {
+class System__Xml__Linq__NamespaceResolver__NamespaceDeclaration;
+}
 // Forward declare root types
 namespace System::Xml::Linq {
 class System__Xml__Linq__NamespaceResolver__NamespaceDeclaration;
@@ -83,8 +86,7 @@ constexpr System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDecl
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Xml__Linq__NamespaceResolver__NamespaceDeclaration() ;
+static System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration New_ctor() ;
 
 /// @brief Method .ctor addr 0x26cd6d8 size 0x8 virtual false final false
  void _ctor() ;

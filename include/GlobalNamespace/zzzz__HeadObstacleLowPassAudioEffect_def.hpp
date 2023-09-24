@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class MainAudioEffects;
+class PlayerHeadAndObstacleInteraction;
 }
 namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
+class MainAudioEffects;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ constexpr bool __get__headWasInObstacle() const;
 /// @brief Method Update addr 0x225c1d8 size 0x5c virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit HeadObstacleLowPassAudioEffect() ;
+static GlobalNamespace::HeadObstacleLowPassAudioEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x225c234 size 0x8 virtual false final false
  void _ctor() ;

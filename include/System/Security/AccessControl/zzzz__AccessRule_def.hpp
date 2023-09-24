@@ -2,17 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_def.hpp"
 #include <cstdint>
-namespace System::Security::AccessControl {
-struct AccessControlType;
-}
-namespace System::Security::AccessControl {
-struct PropagationFlags;
-}
 namespace System::Security::Principal {
 class IdentityReference;
 }
 namespace System::Security::AccessControl {
+struct AccessControlType;
+}
+namespace System::Security::AccessControl {
 struct InheritanceFlags;
+}
+namespace System::Security::AccessControl {
+struct PropagationFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -74,8 +74,7 @@ constexpr System::Security::AccessControl::AccessControlType __get_type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IdentityReference", modifiers: "", def_value: None }, CppParam { name: "accessMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isInherited", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "inheritanceFlags", ty: "System::Security::AccessControl::InheritanceFlags", modifiers: "", def_value: None }, CppParam { name: "propagationFlags", ty: "System::Security::AccessControl::PropagationFlags", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Security::AccessControl::AccessControlType", modifiers: "", def_value: None }]
-explicit AccessRule(System::Security::Principal::IdentityReference identity, int32_t accessMask, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags, System::Security::AccessControl::AccessControlType type) ;
+static System::Security::AccessControl::AccessRule New_ctor(System::Security::Principal::IdentityReference identity, int32_t accessMask, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags, System::Security::AccessControl::AccessControlType type) ;
 
 /// @brief Method .ctor addr 0x23154a4 size 0x90 virtual false final false
  void _ctor(System::Security::Principal::IdentityReference identity, int32_t accessMask, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags, System::Security::AccessControl::AccessControlType type) ;

@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::ProBuilder::Poly2Tri::Orientation, false>(nullptr, ___internal_method, pa, pb, pc);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil::TriangulationUtil()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TriangulationUtil>())) {}
+ UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil::New_ctor()  {
+UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil>())};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil>::get(),

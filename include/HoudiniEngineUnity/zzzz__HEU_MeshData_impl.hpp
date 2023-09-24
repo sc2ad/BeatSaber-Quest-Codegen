@@ -1,11 +1,11 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_MeshData_def.hpp"
-#include "UnityEngine/zzzz__MeshTopology_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__MeshTopology_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_MeshData._ctor
 template<>
 
@@ -77,8 +77,10 @@ constexpr void HoudiniEngineUnity::HEU_MeshData::__set__meshTopology(UnityEngine
 constexpr UnityEngine::MeshTopology HoudiniEngineUnity::HEU_MeshData::__get__meshTopology() const {
 return ::cordl_internals::getInstanceField<UnityEngine::MeshTopology, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_MeshData::HEU_MeshData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_MeshData>())) {}
+ HoudiniEngineUnity::HEU_MeshData HoudiniEngineUnity::HEU_MeshData::New_ctor()  {
+HoudiniEngineUnity::HEU_MeshData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_MeshData>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_MeshData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_MeshData>::get(),

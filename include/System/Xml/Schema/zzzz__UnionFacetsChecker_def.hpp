@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Exception;
-}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
+}
+namespace System {
+class Exception;
 }
 namespace System::Collections {
 class ArrayList;
@@ -63,8 +63,7 @@ constexpr explicit UnionFacetsChecker(void* ptr) noexcept : System::Xml::Schema:
 /// @brief Method MatchEnumeration addr 0x27300a0 size 0xb4 virtual true final false
  bool MatchEnumeration(::bs_hook::Il2CppWrapperType value, System::Collections::ArrayList enumeration, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
-// Ctor Parameters []
-explicit UnionFacetsChecker() ;
+static System::Xml::Schema::UnionFacetsChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x2730154 size 0x8 virtual false final false
  void _ctor() ;

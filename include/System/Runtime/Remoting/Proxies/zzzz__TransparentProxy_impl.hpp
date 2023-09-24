@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Remoting/Proxies/zzzz__TransparentProxy_def.hpp"
-#include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
 #include "Mono/zzzz__RuntimeRemoteClassHandle_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Proxies::TransparentProxy.GetProxyType
 template<>
 
@@ -195,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, classPtr, fieldPtr, arg);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Proxies::TransparentProxy::TransparentProxy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TransparentProxy>())) {}
+ System::Runtime::Remoting::Proxies::TransparentProxy System::Runtime::Remoting::Proxies::TransparentProxy::New_ctor()  {
+System::Runtime::Remoting::Proxies::TransparentProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Proxies::TransparentProxy>())};
+return o;
+}
  void System::Runtime::Remoting::Proxies::TransparentProxy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Proxies::TransparentProxy>::get(),

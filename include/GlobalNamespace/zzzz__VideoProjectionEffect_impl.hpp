@@ -3,21 +3,21 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VideoProjectionEffect_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__VideoProjectionDataModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__SongTimeSyncedVideoPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "UnityEngine/Video/zzzz__VideoClip_def.hpp"
+#include "GlobalNamespace/zzzz__SongTimeSyncedVideoPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__VideoProjectionDataModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "UnityEngine/Video/zzzz__VideoClip_def.hpp"
+#include "GlobalNamespace/zzzz__VideoProjectionEffect_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentContext_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData._ctor
 template<>
@@ -42,8 +42,10 @@ constexpr void GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData
 constexpr GlobalNamespace::IPreviewBeatmapLevel GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData::__get_previewBeatmapLevel() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IPreviewBeatmapLevel, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData::GlobalNamespace__VideoProjectionEffect__InitData(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VideoProjectionEffect__InitData>(previewBeatmapLevel))) {}
+ GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData::New_ctor(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  {
+GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData>(previewBeatmapLevel))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData::_ctor(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData>::get(),
@@ -93,8 +95,10 @@ constexpr void GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoPro
 constexpr int32_t GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0::__get_eventValue() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0>())) {}
+ GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0 GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0>::get(),
@@ -297,8 +301,10 @@ constexpr void GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoPro
 constexpr GlobalNamespace::IPreviewBeatmapLevel GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior::__get__previewBeatmapLevel() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IPreviewBeatmapLevel, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "dataModel", ty: "GlobalNamespace::VideoProjectionDataModelSO", modifiers: "", def_value: None }, CppParam { name: "videoPlayer", ty: "GlobalNamespace::SongTimeSyncedVideoPlayer", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior(GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior>(dataModel, videoPlayer, previewBeatmapLevel))) {}
+ GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior::New_ctor(GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  {
+GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior>(dataModel, videoPlayer, previewBeatmapLevel))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior::_ctor(GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior>::get(),
@@ -398,8 +404,10 @@ constexpr void GlobalNamespace::GlobalNamespace__VideoProjectionEffect__BeatmapE
 constexpr GlobalNamespace::BeatmapDataCallbackWrapper GlobalNamespace::GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior::__get__callbackWrapper() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BeatmapDataCallbackWrapper, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapData", ty: "GlobalNamespace::IReadonlyBeatmapData", modifiers: "", def_value: None }, CppParam { name: "dataModel", ty: "GlobalNamespace::VideoProjectionDataModelSO", modifiers: "", def_value: None }, CppParam { name: "videoPlayer", ty: "GlobalNamespace::SongTimeSyncedVideoPlayer", modifiers: "", def_value: None }, CppParam { name: "videoEventType", ty: "GlobalNamespace::BasicBeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior::GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  : GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior>(beatmapData, dataModel, videoPlayer, videoEventType, beatmapCallbacksController, previewBeatmapLevel))) {}
+ GlobalNamespace::GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior GlobalNamespace::GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior::New_ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  {
+GlobalNamespace::GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior>(beatmapData, dataModel, videoPlayer, videoEventType, beatmapCallbacksController, previewBeatmapLevel))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior::_ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior>::get(),
@@ -444,8 +452,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "beatmapData", ty: "GlobalNamespace::IReadonlyBeatmapData", modifiers: "", def_value: None }, CppParam { name: "dataModel", ty: "GlobalNamespace::VideoProjectionDataModelSO", modifiers: "", def_value: None }, CppParam { name: "videoPlayer", ty: "GlobalNamespace::SongTimeSyncedVideoPlayer", modifiers: "", def_value: None }, CppParam { name: "videoEventType", ty: "GlobalNamespace::BasicBeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior::GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  : GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior>(beatmapData, dataModel, videoPlayer, videoEventType, previewBeatmapLevel))) {}
+ GlobalNamespace::GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior GlobalNamespace::GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior::New_ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  {
+GlobalNamespace::GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior>(beatmapData, dataModel, videoPlayer, videoEventType, previewBeatmapLevel))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior::_ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior>::get(),
@@ -572,8 +582,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::VideoProjectionEffect::VideoProjectionEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VideoProjectionEffect>())) {}
+ GlobalNamespace::VideoProjectionEffect GlobalNamespace::VideoProjectionEffect::New_ctor()  {
+GlobalNamespace::VideoProjectionEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VideoProjectionEffect>())};
+return o;
+}
  void GlobalNamespace::VideoProjectionEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VideoProjectionEffect>::get(),

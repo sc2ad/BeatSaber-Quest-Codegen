@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__Test_Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::Test_Transform._ctor
 template<>
 
@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::Test_Transform::__set_self(UnityEngine::Trans
 constexpr UnityEngine::Transform HoudiniEngineUnity::Test_Transform::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Transform, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_Transform::Test_Transform(UnityEngine::Transform self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_Transform>(self))) {}
+ HoudiniEngineUnity::Test_Transform HoudiniEngineUnity::Test_Transform::New_ctor(UnityEngine::Transform self)  {
+HoudiniEngineUnity::Test_Transform o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_Transform>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_Transform::_ctor(UnityEngine::Transform self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_Transform>::get(),

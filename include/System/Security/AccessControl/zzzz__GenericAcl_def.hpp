@@ -7,10 +7,10 @@ namespace System {
 class Array;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Security::AccessControl {
+class GenericAce;
 }
 namespace System::Security::AccessControl {
 class AceEnumerator;
@@ -18,8 +18,8 @@ class AceEnumerator;
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Security::AccessControl {
-class GenericAce;
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -105,8 +105,7 @@ static int32_t __get_MaxBinaryLength() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GenericAcl() ;
+static System::Security::AccessControl::GenericAcl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2316014 size 0x8 virtual false final false
  void _ctor() ;

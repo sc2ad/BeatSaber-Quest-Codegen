@@ -1,12 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockBeatmapDataConverter_def.hpp"
 #include "GlobalNamespace/zzzz__MockObstacleData_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__MockBeatmapDataConverter_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c._ctor
 template<>
 
@@ -191,8 +192,10 @@ return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::NoteDat
  System::Func_2<GlobalNamespace::ObstacleData,GlobalNamespace::MockObstacleData> GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c::__get___9__0_6()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::ObstacleData,GlobalNamespace::MockObstacleData>, "<>9__0_6", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c::GlobalNamespace__MockBeatmapDataConverter____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MockBeatmapDataConverter____c>())) {}
+ GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c>::get(),

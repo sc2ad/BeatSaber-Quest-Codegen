@@ -3,18 +3,21 @@
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 class SceneInfo;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct GlobalNamespace__TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -73,6 +76,8 @@ __Restart = 2,
 constexpr operator __GlobalNamespace__TutorialScenesTransitionSetupDataSO__TutorialEndStateType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__TutorialScenesTransitionSetupDataSO__TutorialEndStateType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -196,8 +201,7 @@ constexpr GlobalNamespace::PlayerSpecificSettings __get__playerSpecificSettings_
 /// @brief Method Finish addr 0x21d3ba4 size 0x28 virtual false final false
  void Finish(GlobalNamespace::GlobalNamespace__TutorialScenesTransitionSetupDataSO__TutorialEndStateType endState) ;
 
-// Ctor Parameters []
-explicit TutorialScenesTransitionSetupDataSO() ;
+static GlobalNamespace::TutorialScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3bcc size 0x8 virtual false final false
  void _ctor() ;

@@ -6,7 +6,7 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent;
+class BeatmapEventDataBoxGroup;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering;
@@ -15,7 +15,10 @@ namespace GlobalNamespace {
 class IndexFilter;
 }
 namespace GlobalNamespace {
-class BeatmapEventDataBoxGroup;
+struct GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {

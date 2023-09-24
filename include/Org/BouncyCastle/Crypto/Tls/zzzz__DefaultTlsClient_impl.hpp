@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsClient_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DefaultTlsClient_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDHVerifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDHVerifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::DefaultTlsClient._ctor
 template<>
@@ -180,8 +180,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::__set_mDHVerifi
 constexpr Org::BouncyCastle::Crypto::Tls::TlsDHVerifier Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::__get_mDHVerifier() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::TlsDHVerifier, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::DefaultTlsClient()  : Org::BouncyCastle::Crypto::Tls::AbstractTlsClient(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsClient>())) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsClient Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsClient o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsClient>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsClient>::get(),
@@ -191,8 +193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::DefaultTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsClient(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsClient>(cipherFactory))) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsClient Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory)  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsClient o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsClient>(cipherFactory))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsClient>::get(),
@@ -202,8 +206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipherFactory);
 }
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "dhVerifier", ty: "Org::BouncyCastle::Crypto::Tls::TlsDHVerifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::DefaultTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsClient(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsClient>(cipherFactory, dhVerifier))) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsClient Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier)  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsClient o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsClient>(cipherFactory, dhVerifier))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsClient::_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsClient>::get(),

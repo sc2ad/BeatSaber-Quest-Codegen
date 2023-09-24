@@ -5,10 +5,10 @@ namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerable;
+class ICollection;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

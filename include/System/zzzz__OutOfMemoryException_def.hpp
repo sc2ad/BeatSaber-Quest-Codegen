@@ -54,20 +54,17 @@ constexpr explicit OutOfMemoryException(void* ptr) noexcept : System::SystemExce
 
 // Methods
 
-// Ctor Parameters []
-explicit OutOfMemoryException() ;
+static System::OutOfMemoryException New_ctor() ;
 
 /// @brief Method .ctor addr 0x24639e0 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit OutOfMemoryException(::StringW message) ;
+static System::OutOfMemoryException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2463a38 size 0x20 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit OutOfMemoryException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::OutOfMemoryException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2463a58 size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

@@ -451,8 +451,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::Management::XRGeneralSettings::XRGeneralSettings()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<XRGeneralSettings>())) {}
+ UnityEngine::XR::Management::XRGeneralSettings UnityEngine::XR::Management::XRGeneralSettings::New_ctor()  {
+UnityEngine::XR::Management::XRGeneralSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::Management::XRGeneralSettings>())};
+return o;
+}
  void UnityEngine::XR::Management::XRGeneralSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::Management::XRGeneralSettings>::get(),

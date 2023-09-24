@@ -6,19 +6,19 @@
 namespace System {
 class Type;
 }
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine::AddressableAssets {
+class AddressablesImpl;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class IResourceLocator;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
@@ -105,8 +105,7 @@ constexpr ::StringW __get_m_AtlasSpriteProviderId() const;
 /// @brief Method get_AtlasSpriteProviderId addr 0x2895980 size 0x458 virtual false final false
  ::StringW get_AtlasSpriteProviderId() ;
 
-// Ctor Parameters [CppParam { name: "addr", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
-explicit DynamicResourceLocator(UnityEngine::AddressableAssets::AddressablesImpl addr) ;
+static UnityEngine::AddressableAssets::DynamicResourceLocator New_ctor(UnityEngine::AddressableAssets::AddressablesImpl addr) ;
 
 /// @brief Method .ctor addr 0x2895dd8 size 0x28 virtual false final false
  void _ctor(UnityEngine::AddressableAssets::AddressablesImpl addr) ;

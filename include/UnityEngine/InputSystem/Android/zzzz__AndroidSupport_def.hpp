@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class InputDeviceExecuteCommandDelegate;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android {
@@ -67,8 +67,7 @@ static void Initialize() ;
 /// @brief Method OnFindLayoutForDevice addr 0x29539ac size 0x254 virtual false final false
 static ::StringW OnFindLayoutForDevice(ByRef<UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout, UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate executeCommandDelegate) ;
 
-// Ctor Parameters []
-explicit AndroidSupport() ;
+static UnityEngine::InputSystem::Android::AndroidSupport New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953cc0 size 0x8 virtual false final false
  void _ctor() ;

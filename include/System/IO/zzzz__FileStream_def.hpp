@@ -7,42 +7,48 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-struct FileShare;
-}
-namespace Microsoft::Win32::SafeHandles {
-class SafeFileHandle;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::IO {
-struct SeekOrigin;
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace System::IO {
 struct FileMode;
 }
+namespace System::IO {
+struct FileOptions;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::IO {
-struct FileOptions;
+namespace System::Runtime::InteropServices {
+class SafeHandle;
 }
 namespace System::IO {
 struct FileAccess;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System::IO {
+class System__IO__FileStream__ReadDelegate;
+}
+namespace Microsoft::Win32::SafeHandles {
+class SafeFileHandle;
+}
+namespace System::IO {
+struct FileShare;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+class Task;
 }
-namespace System::Runtime::InteropServices {
-class SafeHandle;
+namespace System::IO {
+class System__IO__FileStream__WriteDelegate;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace System::IO {
@@ -96,8 +102,7 @@ constexpr explicit System__IO__FileStream__ReadDelegate(void* ptr) noexcept : Sy
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__IO__FileStream__ReadDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::IO::System__IO__FileStream__ReadDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x23cee7c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -157,8 +162,7 @@ constexpr explicit System__IO__FileStream__WriteDelegate(void* ptr) noexcept : S
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__IO__FileStream__WriteDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::IO::System__IO__FileStream__WriteDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x23cfafc size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -342,62 +346,52 @@ constexpr int64_t __get_buf_start() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "handle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit FileStream(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize) ;
+static System::IO::FileStream New_ctor(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize) ;
 
 /// @brief Method .ctor addr 0x23cb8c0 size 0x10 virtual false final false
  void _ctor(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize) ;
 
-// Ctor Parameters [CppParam { name: "handle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isAsync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isConsoleWrapper", ty: "bool", modifiers: "", def_value: None }]
-explicit FileStream(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize, bool isAsync, bool isConsoleWrapper) ;
+static System::IO::FileStream New_ctor(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize, bool isAsync, bool isConsoleWrapper) ;
 
 /// @brief Method .ctor addr 0x23cb8d0 size 0x1ac virtual false final false
  void _ctor(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize, bool isAsync, bool isConsoleWrapper) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }]
-explicit FileStream(::StringW path, System::IO::FileMode mode) ;
+static System::IO::FileStream New_ctor(::StringW path, System::IO::FileMode mode) ;
 
 /// @brief Method .ctor addr 0x23cbd64 size 0x34 virtual false final false
  void _ctor(::StringW path, System::IO::FileMode mode) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }]
-explicit FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access) ;
+static System::IO::FileStream New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access) ;
 
 /// @brief Method .ctor addr 0x23cc4c0 size 0x2c virtual false final false
  void _ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }]
-explicit FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share) ;
+static System::IO::FileStream New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share) ;
 
 /// @brief Method .ctor addr 0x23cc504 size 0x24 virtual false final false
  void _ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize) ;
+static System::IO::FileStream New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize) ;
 
 /// @brief Method .ctor addr 0x23cc528 size 0x20 virtual false final false
  void _ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "useAsync", ty: "bool", modifiers: "", def_value: None }]
-explicit FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool useAsync) ;
+static System::IO::FileStream New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool useAsync) ;
 
 /// @brief Method .ctor addr 0x23cc548 size 0x28 virtual false final false
  void _ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool useAsync) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::IO::FileOptions", modifiers: "", def_value: None }]
-explicit FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, System::IO::FileOptions options) ;
+static System::IO::FileStream New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, System::IO::FileOptions options) ;
 
 /// @brief Method .ctor addr 0x23cc570 size 0x20 virtual false final false
  void _ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, System::IO::FileOptions options) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isAsync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "anonymous", ty: "bool", modifiers: "", def_value: None }]
-explicit FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool isAsync, bool anonymous) ;
+static System::IO::FileStream New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool isAsync, bool anonymous) ;
 
 /// @brief Method .ctor addr 0x23cc4ec size 0x18 virtual false final false
  void _ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool isAsync, bool anonymous) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "anonymous", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::IO::FileOptions", modifiers: "", def_value: None }]
-explicit FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool anonymous, System::IO::FileOptions options) ;
+static System::IO::FileStream New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool anonymous, System::IO::FileOptions options) ;
 
 /// @brief Method .ctor addr 0x23cbd98 size 0x728 virtual false final false
  void _ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool anonymous, System::IO::FileOptions options) ;

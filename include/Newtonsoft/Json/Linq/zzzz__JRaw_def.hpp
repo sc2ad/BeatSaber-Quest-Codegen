@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
 namespace Newtonsoft::Json {
 class JsonReader;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -54,14 +54,12 @@ constexpr explicit JRaw(void* ptr) noexcept : Newtonsoft::Json::Linq::JValue(ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JRaw", modifiers: "", def_value: None }]
-explicit JRaw(Newtonsoft::Json::Linq::JRaw other) ;
+static Newtonsoft::Json::Linq::JRaw New_ctor(Newtonsoft::Json::Linq::JRaw other) ;
 
 /// @brief Method .ctor addr 0x2518fe8 size 0x8 virtual false final false
  void _ctor(Newtonsoft::Json::Linq::JRaw other) ;
 
-// Ctor Parameters [CppParam { name: "rawJson", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit JRaw(::bs_hook::Il2CppWrapperType rawJson) ;
+static Newtonsoft::Json::Linq::JRaw New_ctor(::bs_hook::Il2CppWrapperType rawJson) ;
 
 /// @brief Method .ctor addr 0x2518ff0 size 0xc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType rawJson) ;

@@ -6,33 +6,72 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Text {
-class StringBuilder;
+namespace GlobalNamespace {
+struct System__Xml__XmlWellFormedWriter__AttributeValueCache__ItemType;
 }
 namespace System::Xml {
 class XmlWriter;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace GlobalNamespace {
+class System__Xml__XmlWellFormedWriter__AttributeValueCache__BufferChunk;
+}
+namespace GlobalNamespace {
+class System__Xml__XmlWellFormedWriter__AttributeValueCache__Item;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml {
-struct XmlStandalone;
+struct System__Xml__XmlWellFormedWriter__NamespaceKind;
+}
+namespace System::Xml {
+struct System__Xml__XmlWellFormedWriter__State;
 }
 namespace System::Xml {
 struct XmlCharType;
 }
-namespace System {
-class Exception;
+namespace System::Xml {
+struct XmlStandalone;
+}
+namespace System::Xml {
+struct System__Xml__XmlWellFormedWriter__SpecialAttribute;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace System {
+class Exception;
+}
+namespace System::Xml {
+struct System__Xml__XmlWellFormedWriter__Token;
+}
+namespace System::Xml {
+struct System__Xml__XmlWellFormedWriter__Namespace;
+}
 namespace System::Xml {
 class XmlException;
 }
 namespace System::Xml {
+struct System__Xml__XmlWellFormedWriter__AttrName;
+}
+namespace System::Xml {
+class SecureStringHasher;
+}
+namespace System::Xml {
 struct WriteState;
+}
+namespace System::Xml {
+class System__Xml__XmlWellFormedWriter__AttributeValueCache;
+}
+namespace System::Xml {
+class System__Xml__XmlWellFormedWriter__NamespaceResolverProxy;
 }
 namespace System::Xml {
 class XmlRawWriter;
@@ -41,10 +80,7 @@ namespace System::Xml {
 struct ConformanceLevel;
 }
 namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System::Xml {
-class SecureStringHasher;
+struct System__Xml__XmlWellFormedWriter__ElementScope;
 }
 namespace System::Xml {
 struct XmlSpace;
@@ -169,6 +205,8 @@ __StartRootLevelAttr = 118,
 constexpr operator __System__Xml__XmlWellFormedWriter__State_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__XmlWellFormedWriter__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -345,6 +383,8 @@ constexpr operator __System__Xml__XmlWellFormedWriter__Token_Unwrapped () const 
 return std::bit_cast<__System__Xml__XmlWellFormedWriter__Token_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -457,8 +497,7 @@ constexpr System::Xml::XmlWellFormedWriter __get_wfWriter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "wfWriter", ty: "System::Xml::XmlWellFormedWriter", modifiers: "", def_value: None }]
-explicit System__Xml__XmlWellFormedWriter__NamespaceResolverProxy(System::Xml::XmlWellFormedWriter wfWriter) ;
+static System::Xml::System__Xml__XmlWellFormedWriter__NamespaceResolverProxy New_ctor(System::Xml::XmlWellFormedWriter wfWriter) ;
 
 /// @brief Method .ctor addr 0x26e5558 size 0x28 virtual false final false
  void _ctor(System::Xml::XmlWellFormedWriter wfWriter) ;
@@ -619,6 +658,8 @@ __Special = 3,
 constexpr operator __System__Xml__XmlWellFormedWriter__NamespaceKind_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__XmlWellFormedWriter__NamespaceKind_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -858,6 +899,8 @@ constexpr operator __System__Xml__XmlWellFormedWriter__SpecialAttribute_Unwrappe
 return std::bit_cast<__System__Xml__XmlWellFormedWriter__SpecialAttribute_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -942,6 +985,8 @@ __ValueString = 8,
 constexpr operator __System__Xml__XmlWellFormedWriter__AttributeValueCache__ItemType_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__XmlWellFormedWriter__AttributeValueCache__ItemType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1040,8 +1085,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_data() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Xml__XmlWellFormedWriter__AttributeValueCache__Item() ;
+static GlobalNamespace::System__Xml__XmlWellFormedWriter__AttributeValueCache__Item New_ctor() ;
 
 /// @brief Method .ctor addr 0x26ecaf0 size 0x8 virtual false final false
  void _ctor() ;
@@ -1116,8 +1160,7 @@ constexpr int32_t __get_count() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Xml__XmlWellFormedWriter__AttributeValueCache__BufferChunk(::ArrayW<char16_t> buffer, int32_t index, int32_t count) ;
+static GlobalNamespace::System__Xml__XmlWellFormedWriter__AttributeValueCache__BufferChunk New_ctor(::ArrayW<char16_t> buffer, int32_t index, int32_t count) ;
 
 /// @brief Method .ctor addr 0x26ecab4 size 0x3c virtual false final false
  void _ctor(::ArrayW<char16_t> buffer, int32_t index, int32_t count) ;
@@ -1257,8 +1300,7 @@ constexpr int32_t __get_lastItem() const;
 /// @brief Method AddItem addr 0x26ec940 size 0x174 virtual false final false
  void AddItem(GlobalNamespace::System__Xml__XmlWellFormedWriter__AttributeValueCache__ItemType type, ::bs_hook::Il2CppWrapperType data) ;
 
-// Ctor Parameters []
-explicit System__Xml__XmlWellFormedWriter__AttributeValueCache() ;
+static System::Xml::System__Xml__XmlWellFormedWriter__AttributeValueCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x26eb300 size 0x70 virtual false final false
  void _ctor() ;
@@ -1523,8 +1565,7 @@ static ::ArrayW<System::Xml::System__Xml__XmlWellFormedWriter__State> __get_Stat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::Xml::XmlWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlWellFormedWriter(System::Xml::XmlWriter writer, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::XmlWellFormedWriter New_ctor(System::Xml::XmlWriter writer, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26e516c size 0x3e4 virtual false final false
  void _ctor(System::Xml::XmlWriter writer, System::Xml::XmlWriterSettings settings) ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstallerBase_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IInstaller_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: Zenject::ScriptableObjectInstallerBase.get_Container
 template<>
 
@@ -160,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::ScriptableObjectInstallerBase::ScriptableObjectInstallerBase()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<ScriptableObjectInstallerBase>())) {}
+ Zenject::ScriptableObjectInstallerBase Zenject::ScriptableObjectInstallerBase::New_ctor()  {
+Zenject::ScriptableObjectInstallerBase o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ScriptableObjectInstallerBase>())};
+return o;
+}
  void Zenject::ScriptableObjectInstallerBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ScriptableObjectInstallerBase>::get(),

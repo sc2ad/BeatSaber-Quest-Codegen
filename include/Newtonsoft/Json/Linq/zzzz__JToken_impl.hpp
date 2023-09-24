@@ -1,31 +1,32 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__Formatting_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JEnumerable_1_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JTokenEqualityComparer_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JTokenType_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__IJEnumerable_1_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JsonLoadSettings_def.hpp"
-#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JTokenType_def.hpp"
+#include "Newtonsoft/Json/zzzz__Formatting_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__IJEnumerable_1_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JsonLoadSettings_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JTokenEqualityComparer_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation._ctor
 template<>
@@ -56,8 +57,10 @@ constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoA
 constexpr int32_t Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation::__get_LinePosition() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation(int32_t lineNumber, int32_t linePosition)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Linq__JToken__LineInfoAnnotation>(lineNumber, linePosition))) {}
+ Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation::New_ctor(int32_t lineNumber, int32_t linePosition)  {
+Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation>(lineNumber, linePosition))};
+return o;
+}
  void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation::_ctor(int32_t lineNumber, int32_t linePosition)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation>::get(),
@@ -265,8 +268,10 @@ constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___GetAnces
 constexpr Newtonsoft::Json::Linq::JToken Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___GetAncestors_d__41::__get__current_5__1() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Linq::JToken, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___GetAncestors_d__41::Newtonsoft__Json__Linq__JToken___GetAncestors_d__41(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Linq__JToken___GetAncestors_d__41>(__1__state))) {}
+ Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___GetAncestors_d__41 Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___GetAncestors_d__41::New_ctor(int32_t __1__state)  {
+Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___GetAncestors_d__41 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___GetAncestors_d__41>(__1__state))};
+return o;
+}
  void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___GetAncestors_d__41::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___GetAncestors_d__41>::get(),
@@ -525,8 +530,10 @@ constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___AfterSel
 constexpr Newtonsoft::Json::Linq::JToken Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___AfterSelf_d__42::__get__o_5__1() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Linq::JToken, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___AfterSelf_d__42::Newtonsoft__Json__Linq__JToken___AfterSelf_d__42(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Linq__JToken___AfterSelf_d__42>(__1__state))) {}
+ Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___AfterSelf_d__42 Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___AfterSelf_d__42::New_ctor(int32_t __1__state)  {
+Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___AfterSelf_d__42 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___AfterSelf_d__42>(__1__state))};
+return o;
+}
  void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___AfterSelf_d__42::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___AfterSelf_d__42>::get(),
@@ -785,8 +792,10 @@ constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___BeforeSe
 constexpr Newtonsoft::Json::Linq::JToken Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43::__get__o_5__1() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Linq::JToken, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43::Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43>(__1__state))) {}
+ Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43 Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43::New_ctor(int32_t __1__state)  {
+Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43>(__1__state))};
+return o;
+}
  void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43>::get(),
@@ -1063,8 +1072,10 @@ constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotati
 constexpr int32_t Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__172::__get__i_5__2() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__172::Newtonsoft__Json__Linq__JToken___Annotations_d__172(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Linq__JToken___Annotations_d__172>(__1__state))) {}
+ Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__172 Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__172::New_ctor(int32_t __1__state)  {
+Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__172 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__172>(__1__state))};
+return o;
+}
  void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__172::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__172>::get(),
@@ -3713,8 +3724,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JToken::JToken()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JToken>())) {}
+ Newtonsoft::Json::Linq::JToken Newtonsoft::Json::Linq::JToken::New_ctor()  {
+Newtonsoft::Json::Linq::JToken o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JToken>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JToken::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JToken>::get(),
@@ -4943,266 +4956,132 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type);
 }
-//  Writing Method size for method: Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::*)(int32_t)>(&Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1.System_IDisposable_Dispose
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::*)()>(&Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
-                            "System.IDisposable.Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1.MoveNext
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::*)()>(&Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::MoveNext)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
-                            "MoveNext",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1.System_Collections_Generic_IEnumerator_T__get_Current
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<T (Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::*)()>(&Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_Collections_Generic_IEnumerator_T__get_Current)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
-                            "System.Collections.Generic.IEnumerator<T>.get_Current",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1.System_Collections_IEnumerator_Reset
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::*)()>(&Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_Collections_IEnumerator_Reset)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
-                            "System.Collections.IEnumerator.Reset",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1.System_Collections_IEnumerator_get_Current
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::Il2CppWrapperType (Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::*)()>(&Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
-                            "System.Collections.IEnumerator.get_Current",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1.System_Collections_Generic_IEnumerable_T__GetEnumerator
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<T> (Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::*)()>(&Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_Collections_Generic_IEnumerable_T__GetEnumerator)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
-                            "System.Collections.Generic.IEnumerable<T>.GetEnumerator",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1.System_Collections_IEnumerable_GetEnumerator
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator (Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::*)()>(&Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_Collections_IEnumerable_GetEnumerator)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
-                            "System.Collections.IEnumerable.GetEnumerator",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
 /// @brief Convert operator to System::Collections::Generic::IEnumerable_1<T>
-constexpr  Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::operator System::Collections::Generic::IEnumerable_1<T>() const noexcept {
+constexpr  Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::operator System::Collections::Generic::IEnumerable_1<T>() const noexcept {
 return System::Collections::Generic::IEnumerable_1<T>(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to System::Collections::IEnumerable
-constexpr  Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::operator System::Collections::IEnumerable() const noexcept {
+constexpr  Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::operator System::Collections::IEnumerable() const noexcept {
 return System::Collections::IEnumerable(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to System::Collections::Generic::IEnumerator_1<T>
-constexpr  Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::operator System::Collections::Generic::IEnumerator_1<T>() const noexcept {
+constexpr  Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::operator System::Collections::Generic::IEnumerator_1<T>() const noexcept {
 return System::Collections::Generic::IEnumerator_1<T>(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to System::IDisposable
-constexpr  Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::operator System::IDisposable() const noexcept {
+constexpr  Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::operator System::IDisposable() const noexcept {
 return System::IDisposable(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to System::Collections::IEnumerator
-constexpr  Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::operator System::Collections::IEnumerator() const noexcept {
+constexpr  Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::operator System::Collections::IEnumerator() const noexcept {
 return System::Collections::IEnumerator(::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__set___1__state(int32_t value)  {
+constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__set___1__state(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }
-constexpr int32_t Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__get___1__state() const {
+constexpr int32_t Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__get___1__state() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__set___2__current(T value)  {
+constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__set___2__current(T value)  {
 ::cordl_internals::setInstanceField<T, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<T>(value));
 }
-constexpr T Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__get___2__current() const {
+constexpr T Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__get___2__current() const {
 return ::cordl_internals::getInstanceField<T, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__set___l__initialThreadId(int32_t value)  {
+constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__set___l__initialThreadId(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }
-constexpr int32_t Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__get___l__initialThreadId() const {
+constexpr int32_t Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__get___l__initialThreadId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__set___4__this(Newtonsoft::Json::Linq::JToken value)  {
+constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__set___4__this(Newtonsoft::Json::Linq::JToken value)  {
 ::cordl_internals::setInstanceField<Newtonsoft::Json::Linq::JToken, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<Newtonsoft::Json::Linq::JToken>(value));
 }
-constexpr Newtonsoft::Json::Linq::JToken Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__get___4__this() const {
+constexpr Newtonsoft::Json::Linq::JToken Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Linq::JToken, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__set__annotations_5__1(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
+constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__set__annotations_5__1(::ArrayW<::bs_hook::Il2CppWrapperType> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<::bs_hook::Il2CppWrapperType>>(value));
 }
-constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__get__annotations_5__1() const {
+constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__get__annotations_5__1() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__set__i_5__2(int32_t value)  {
+constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__set__i_5__2(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }
-constexpr int32_t Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::__get__i_5__2() const {
+constexpr int32_t Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::__get__i_5__2() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>(__1__state))) {}
- void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::_ctor(int32_t __1__state)  {
+ Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T> Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::New_ctor(int32_t __1__state)  {
+Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T> o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>>(__1__state))};
+return o;
+}
+ void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, __1__state);
 }
- void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_IDisposable_Dispose()  {
+ void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::System_IDisposable_Dispose()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>>::get(),
                             "System.IDisposable.Dispose",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- bool Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::MoveNext()  {
+ bool Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::MoveNext()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>>::get(),
                             "MoveNext",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
- T Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_Collections_Generic_IEnumerator_T__get_Current()  {
+ T Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::System_Collections_Generic_IEnumerator_T__get_Current()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>>::get(),
                             "System.Collections.Generic.IEnumerator<T>.get_Current",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<T, false>(const_cast<void*>(instance), ___internal_method);
 }
- void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_Collections_IEnumerator_Reset()  {
+ void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::System_Collections_IEnumerator_Reset()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>>::get(),
                             "System.Collections.IEnumerator.Reset",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- ::bs_hook::Il2CppWrapperType Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_Collections_IEnumerator_get_Current()  {
+ ::bs_hook::Il2CppWrapperType Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::System_Collections_IEnumerator_get_Current()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>>::get(),
                             "System.Collections.IEnumerator.get_Current",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method);
 }
- System::Collections::Generic::IEnumerator_1<T> Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_Collections_Generic_IEnumerable_T__GetEnumerator()  {
+ System::Collections::Generic::IEnumerator_1<T> Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::System_Collections_Generic_IEnumerable_T__GetEnumerator()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>>::get(),
                             "System.Collections.Generic.IEnumerable<T>.GetEnumerator",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IEnumerator_1<T>, false>(const_cast<void*>(instance), ___internal_method);
 }
- System::Collections::IEnumerator Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1::System_Collections_IEnumerable_GetEnumerator()  {
+ System::Collections::IEnumerator Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>::System_Collections_IEnumerable_GetEnumerator()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T>>::get(),
                             "System.Collections.IEnumerable.GetEnumerator",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

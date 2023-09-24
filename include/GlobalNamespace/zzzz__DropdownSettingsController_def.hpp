@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace HMUI {
-class SimpleTextDropdown;
-}
 namespace System {
 class Action;
 }
 namespace HMUI {
 class DropdownWithTableView;
+}
+namespace HMUI {
+class SimpleTextDropdown;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -116,8 +116,7 @@ constexpr int32_t __get__numberOfElements() const;
 /// @brief Method Refresh addr 0x21528ac size 0x5c virtual false final false
  void Refresh(bool applyValue) ;
 
-// Ctor Parameters []
-explicit DropdownSettingsController() ;
+static GlobalNamespace::DropdownSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2152908 size 0x8 virtual false final false
  void _ctor() ;

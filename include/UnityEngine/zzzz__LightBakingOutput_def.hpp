@@ -3,10 +3,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct LightmapBakeType;
+struct MixedLightingMode;
 }
 namespace UnityEngine {
-struct MixedLightingMode;
+struct LightmapBakeType;
 }
 // Forward declare root types
 namespace UnityEngine {

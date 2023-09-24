@@ -5,20 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
-class StyleSyntaxTokenizer;
+class Expression;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct ExpressionMultiplier;
+struct ExpressionCombinator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct StyleSyntaxToken;
-}
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct ExpressionCombinator;
+class StyleSyntaxTokenizer;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -29,7 +26,10 @@ template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
-class Expression;
+struct ExpressionMultiplier;
+}
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+struct StyleSyntaxToken;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
@@ -149,8 +149,7 @@ static bool IsCombinator(UnityEngine::UIElements::StyleSheets::Syntax::StyleSynt
 /// @brief Method IsMultiplier addr 0x2c7eaa0 size 0x24 virtual false final false
 static bool IsMultiplier(UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken token) ;
 
-// Ctor Parameters []
-explicit StyleSyntaxParser() ;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c7ebec size 0x148 virtual false final false
  void _ctor() ;

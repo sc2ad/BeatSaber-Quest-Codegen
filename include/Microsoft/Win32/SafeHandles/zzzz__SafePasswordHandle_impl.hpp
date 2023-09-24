@@ -138,8 +138,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
- Microsoft::Win32::SafeHandles::SafePasswordHandle::SafePasswordHandle(::StringW password)  : System::Runtime::InteropServices::SafeHandle(THROW_UNLESS(::il2cpp_utils::New<SafePasswordHandle>(password))) {}
+ Microsoft::Win32::SafeHandles::SafePasswordHandle Microsoft::Win32::SafeHandles::SafePasswordHandle::New_ctor(::StringW password)  {
+Microsoft::Win32::SafeHandles::SafePasswordHandle o{THROW_UNLESS(::il2cpp_utils::New<Microsoft::Win32::SafeHandles::SafePasswordHandle>(password))};
+return o;
+}
  void Microsoft::Win32::SafeHandles::SafePasswordHandle::_ctor(::StringW password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Microsoft::Win32::SafeHandles::SafePasswordHandle>::get(),

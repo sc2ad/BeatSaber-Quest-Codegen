@@ -1,20 +1,20 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPrivateKeyParameters;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
+class DHParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -101,8 +101,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 /// @brief Method CalculateAgreement addr 0x118e4f8 size 0x298 virtual false final false
  Org::BouncyCastle::Math::BigInteger CalculateAgreement(Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters pub, Org::BouncyCastle::Math::BigInteger message) ;
 
-// Ctor Parameters []
-explicit DHAgreement() ;
+static Org::BouncyCastle::Crypto::Agreement::DHAgreement New_ctor() ;
 
 /// @brief Method .ctor addr 0x118e790 size 0x8 virtual false final false
  void _ctor() ;

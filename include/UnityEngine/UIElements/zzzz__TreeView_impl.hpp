@@ -3,32 +3,33 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeView_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ITreeViewItem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AlternatingRowBackground_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ListView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseUpEvent_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ListView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TreeView_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AlternatingRowBackground_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SelectionType_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ITreeViewItem_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits.get_uxmlChildElementsDescription
 template<>
@@ -123,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits::UnityEngine__UIElements__TreeView__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__TreeView__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits>::get(),
@@ -740,8 +743,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::TreeView::TreeView()  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<TreeView>())) {}
+ UnityEngine::UIElements::TreeView UnityEngine::UIElements::TreeView::New_ctor()  {
+UnityEngine::UIElements::TreeView o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TreeView>())};
+return o;
+}
  void UnityEngine::UIElements::TreeView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TreeView>::get(),
@@ -957,8 +962,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlFactory::UnityEngine__UIElements__TreeView__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::TreeView,UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__TreeView__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlFactory>::get(),
@@ -1148,8 +1155,10 @@ constexpr void GlobalNamespace::UnityEngine__UIElements__TreeView__UxmlTraits___
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits GlobalNamespace::UnityEngine__UIElements__TreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UnityEngine__UIElements__TreeView__UxmlTraits, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::UnityEngine__UIElements__TreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5::UnityEngine__UIElements__TreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__TreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5>(__1__state))) {}
+ GlobalNamespace::UnityEngine__UIElements__TreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5 GlobalNamespace::UnityEngine__UIElements__TreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5::New_ctor(int32_t __1__state)  {
+GlobalNamespace::UnityEngine__UIElements__TreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__UIElements__TreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5>(__1__state))};
+return o;
+}
  void GlobalNamespace::UnityEngine__UIElements__TreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__UIElements__TreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5>::get(),
@@ -1474,8 +1483,10 @@ constexpr void UnityEngine::UIElements::UnityEngine__UIElements__TreeView___GetA
 constexpr UnityEngine::UIElements::ITreeViewItem UnityEngine::UIElements::UnityEngine__UIElements__TreeView___GetAllItems_d__64::__get__currentItem_5__4() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::ITreeViewItem, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__TreeView___GetAllItems_d__64::UnityEngine__UIElements__TreeView___GetAllItems_d__64(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__TreeView___GetAllItems_d__64>(__1__state))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__TreeView___GetAllItems_d__64 UnityEngine::UIElements::UnityEngine__UIElements__TreeView___GetAllItems_d__64::New_ctor(int32_t __1__state)  {
+UnityEngine::UIElements::UnityEngine__UIElements__TreeView___GetAllItems_d__64 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__TreeView___GetAllItems_d__64>(__1__state))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__TreeView___GetAllItems_d__64::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__TreeView___GetAllItems_d__64>::get(),

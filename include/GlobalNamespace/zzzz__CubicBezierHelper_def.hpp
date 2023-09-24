@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
+namespace UnityEngine {
+struct Vector3;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

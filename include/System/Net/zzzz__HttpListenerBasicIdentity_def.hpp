@@ -57,8 +57,7 @@ constexpr ::StringW __get_password() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "username", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HttpListenerBasicIdentity(::StringW username, ::StringW password) ;
+static System::Net::HttpListenerBasicIdentity New_ctor(::StringW username, ::StringW password) ;
 
 /// @brief Method .ctor addr 0x2836e10 size 0x68 virtual false final false
  void _ctor(::StringW username, ::StringW password) ;

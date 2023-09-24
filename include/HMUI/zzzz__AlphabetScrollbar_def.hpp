@@ -5,24 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace HMUI {
+class TableView;
+}
+namespace HMUI {
+class HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
 namespace UnityEngine::UI {
 class Image;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__AlphabetScrollInfo__Data;
 }
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
 namespace System::Collections::Generic {
 template<typename T>
-class IReadOnlyList_1;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+class List_1;
 }
 namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
@@ -30,31 +30,34 @@ class IPointerUpHandler;
 namespace TMPro {
 class TextMeshProUGUI;
 }
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
-namespace HMUI {
-class TableView;
+class IReadOnlyList_1;
 }
 namespace UnityEngine {
 struct Color;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
+}
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace HMUI {
@@ -148,8 +151,7 @@ constexpr UnityEngine::EventSystems::PointerEventData __get_eventData() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18(int32_t __1__state) ;
+static HMUI::HMUI__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fa507c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -328,8 +330,7 @@ constexpr bool __get__pointerIsDown() const;
 /// @brief Method InitText addr 0x1fa44e4 size 0xb4 virtual false final false
  void InitText(TMPro::TextMeshProUGUI text, char16_t character) ;
 
-// Ctor Parameters []
-explicit AlphabetScrollbar() ;
+static HMUI::AlphabetScrollbar New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa50a4 size 0x2c virtual false final false
  void _ctor() ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/Tsp/zzzz__Accuracy_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "Org/BouncyCastle/Asn1/Tsp/zzzz__TstInfo_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__GenTimeAccuracy_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/Asn1/Tsp/zzzz__TstInfo_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/Tsp/zzzz__Accuracy_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Tsp::TimeStampTokenInfo._ctor
 template<>
 
@@ -257,8 +257,10 @@ constexpr void Org::BouncyCastle::Tsp::TimeStampTokenInfo::__set_genTime(System:
 constexpr System::DateTime Org::BouncyCastle::Tsp::TimeStampTokenInfo::__get_genTime() const {
 return ::cordl_internals::getInstanceField<System::DateTime, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tstInfo", ty: "Org::BouncyCastle::Asn1::Tsp::TstInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampTokenInfo::TimeStampTokenInfo(Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampTokenInfo>(tstInfo))) {}
+ Org::BouncyCastle::Tsp::TimeStampTokenInfo Org::BouncyCastle::Tsp::TimeStampTokenInfo::New_ctor(Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo)  {
+Org::BouncyCastle::Tsp::TimeStampTokenInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampTokenInfo>(tstInfo))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampTokenInfo::_ctor(Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampTokenInfo>::get(),

@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
 class MaterialPropertyBlock;
 }
-namespace UnityEngine::UIElements {
-struct TextureId;
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine::UIElements {
 class TextureRegistry;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -129,8 +129,7 @@ constexpr UnityEngine::UIElements::TextureRegistry __get_textureRegistry() const
 
 // Methods
 
-// Ctor Parameters []
-explicit TextureSlotManager() ;
+static UnityEngine::UIElements::UIR::TextureSlotManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d22e40 size 0x168 virtual false final false
  void _ctor() ;

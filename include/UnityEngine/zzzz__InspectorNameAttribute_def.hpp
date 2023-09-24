@@ -57,8 +57,7 @@ constexpr ::StringW __get_displayName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InspectorNameAttribute(::StringW displayName) ;
+static UnityEngine::InspectorNameAttribute New_ctor(::StringW displayName) ;
 
 /// @brief Method .ctor addr 0x2b54de4 size 0x28 virtual false final false
  void _ctor(::StringW displayName) ;

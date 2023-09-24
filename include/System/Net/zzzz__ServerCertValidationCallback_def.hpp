@@ -1,20 +1,23 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
 namespace System::Net::Security {
 struct SslPolicyErrors;
 }
 namespace System::Threading {
 class ExecutionContext;
 }
+namespace System::Net {
+class System__Net__ServerCertValidationCallback__CallbackContext;
+}
 namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
 }
 // Forward declare root types
 namespace System::Net {
@@ -98,8 +101,7 @@ constexpr bool __get_result() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "request", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "certificate", ty: "System::Security::Cryptography::X509Certificates::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "chain", ty: "System::Security::Cryptography::X509Certificates::X509Chain", modifiers: "", def_value: None }, CppParam { name: "sslPolicyErrors", ty: "System::Net::Security::SslPolicyErrors", modifiers: "", def_value: None }]
-explicit System__Net__ServerCertValidationCallback__CallbackContext(::bs_hook::Il2CppWrapperType request, System::Security::Cryptography::X509Certificates::X509Certificate certificate, System::Security::Cryptography::X509Certificates::X509Chain chain, System::Net::Security::SslPolicyErrors sslPolicyErrors) ;
+static System::Net::System__Net__ServerCertValidationCallback__CallbackContext New_ctor(::bs_hook::Il2CppWrapperType request, System::Security::Cryptography::X509Certificates::X509Certificate certificate, System::Security::Cryptography::X509Certificates::X509Chain chain, System::Net::Security::SslPolicyErrors sslPolicyErrors) ;
 
 /// @brief Method .ctor addr 0x282840c size 0x44 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType request, System::Security::Cryptography::X509Certificates::X509Certificate certificate, System::Security::Cryptography::X509Certificates::X509Chain chain, System::Net::Security::SslPolicyErrors sslPolicyErrors) ;
@@ -172,8 +174,7 @@ constexpr System::Threading::ExecutionContext __get_m_Context() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "validationCallback", ty: "System::Net::Security::RemoteCertificateValidationCallback", modifiers: "", def_value: None }]
-explicit ServerCertValidationCallback(System::Net::Security::RemoteCertificateValidationCallback validationCallback) ;
+static System::Net::ServerCertValidationCallback New_ctor(System::Net::Security::RemoteCertificateValidationCallback validationCallback) ;
 
 /// @brief Method .ctor addr 0x2828178 size 0x78 virtual false final false
  void _ctor(System::Net::Security::RemoteCertificateValidationCallback validationCallback) ;

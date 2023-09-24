@@ -47,8 +47,7 @@ constexpr explicit OVRSandwichComposition(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRSandwichComposition() ;
+static GlobalNamespace::OVRSandwichComposition New_ctor() ;
 
 /// @brief Method .ctor addr 0x25a8fb8 size 0x8 virtual false final false
  void _ctor() ;

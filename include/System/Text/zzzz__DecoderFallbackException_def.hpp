@@ -71,20 +71,17 @@ constexpr int32_t __get__index() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DecoderFallbackException() ;
+static System::Text::DecoderFallbackException New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c2dd4 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "bytesUnknown", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DecoderFallbackException(::StringW message, ::ArrayW<uint8_t> bytesUnknown, int32_t index) ;
+static System::Text::DecoderFallbackException New_ctor(::StringW message, ::ArrayW<uint8_t> bytesUnknown, int32_t index) ;
 
 /// @brief Method .ctor addr 0x24c2da4 size 0x30 virtual false final false
  void _ctor(::StringW message, ::ArrayW<uint8_t> bytesUnknown, int32_t index) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit DecoderFallbackException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Text::DecoderFallbackException New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x24c2e30 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

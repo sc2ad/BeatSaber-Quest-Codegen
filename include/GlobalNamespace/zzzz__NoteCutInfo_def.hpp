@@ -3,8 +3,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+struct GlobalNamespace__NoteCutInfo__FailReason;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -14,6 +14,9 @@ struct SaberType;
 }
 namespace GlobalNamespace {
 class NoteData;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 class ISaberMovementData;
@@ -77,6 +80,8 @@ __WrongDirection = 4,
 constexpr operator __GlobalNamespace__NoteCutInfo__FailReason_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__NoteCutInfo__FailReason_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

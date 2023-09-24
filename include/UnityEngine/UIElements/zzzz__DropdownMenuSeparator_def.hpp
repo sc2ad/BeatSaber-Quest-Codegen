@@ -57,8 +57,7 @@ constexpr ::StringW __get__subMenuPath_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "subMenuPath", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DropdownMenuSeparator(::StringW subMenuPath) ;
+static UnityEngine::UIElements::DropdownMenuSeparator New_ctor(::StringW subMenuPath) ;
 
 /// @brief Method .ctor addr 0x2c8fc60 size 0x28 virtual false final false
  void _ctor(::StringW subMenuPath) ;

@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "formatString", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::DisplayStringFormatAttribute(::StringW formatString)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DisplayStringFormatAttribute>(formatString))) {}
+ UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::New_ctor(::StringW formatString)  {
+UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute>(formatString))};
+return o;
+}
  void UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::_ctor(::StringW formatString)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute>::get(),

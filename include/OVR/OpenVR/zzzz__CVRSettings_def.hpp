@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Text {
+class StringBuilder;
+}
 namespace OVR::OpenVR {
 struct IVRSettings;
 }
 namespace OVR::OpenVR {
 struct EVRSettingsError;
-}
-namespace System::Text {
-class StringBuilder;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -69,8 +69,7 @@ constexpr OVR::OpenVR::IVRSettings __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRSettings(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRSettings New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x26679d0 size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

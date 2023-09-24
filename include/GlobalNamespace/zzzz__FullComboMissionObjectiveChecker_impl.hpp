@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FullComboMissionObjectiveChecker::FullComboMissionObjectiveChecker()  : GlobalNamespace::MissionObjectiveChecker(THROW_UNLESS(::il2cpp_utils::New<FullComboMissionObjectiveChecker>())) {}
+ GlobalNamespace::FullComboMissionObjectiveChecker GlobalNamespace::FullComboMissionObjectiveChecker::New_ctor()  {
+GlobalNamespace::FullComboMissionObjectiveChecker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FullComboMissionObjectiveChecker>())};
+return o;
+}
  void GlobalNamespace::FullComboMissionObjectiveChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FullComboMissionObjectiveChecker>::get(),

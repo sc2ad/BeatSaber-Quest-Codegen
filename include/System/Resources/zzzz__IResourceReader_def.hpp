@@ -1,13 +1,13 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
 class IEnumerable;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
 // Forward declare root types
 namespace System::Resources {

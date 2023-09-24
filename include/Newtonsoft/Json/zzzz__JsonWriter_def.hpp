@@ -7,32 +7,48 @@
 #include <cstddef>
 #include <cstdint>
 namespace Newtonsoft::Json {
-struct JsonPosition;
+struct JsonToken;
 }
 namespace System {
-struct Guid;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-struct TimeSpan;
+struct Decimal;
 }
 namespace Newtonsoft::Json {
 struct WriteState;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace Newtonsoft::Json {
-struct FloatFormatHandling;
+namespace System {
+struct Guid;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace System {
-class Uri;
+struct DateTime;
+}
+namespace Newtonsoft::Json {
+struct DateTimeZoneHandling;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace Newtonsoft::Json {
+struct DateFormatHandling;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json {
+struct JsonContainerType;
+}
+namespace System {
+class IDisposable;
+}
+namespace Newtonsoft::Json {
+struct FloatFormatHandling;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Newtonsoft::Json {
 struct StringEscapeHandling;
@@ -40,39 +56,26 @@ struct StringEscapeHandling;
 namespace Newtonsoft::Json {
 struct Formatting;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+struct TimeSpan;
 }
 namespace Newtonsoft::Json {
-struct DateTimeZoneHandling;
+class JsonWriterException;
 }
 namespace Newtonsoft::Json {
-struct DateFormatHandling;
+struct JsonPosition;
 }
 namespace System {
-class IDisposable;
-}
-namespace Newtonsoft::Json {
-struct JsonContainerType;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json {
-struct JsonToken;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
-struct DateTimeOffset;
+class Uri;
 }
 namespace Newtonsoft::Json::Utilities {
 struct PrimitiveTypeCode;
 }
 namespace Newtonsoft::Json {
-class JsonWriterException;
+struct Newtonsoft__Json__JsonWriter__State;
+}
+namespace System {
+struct DateTimeOffset;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -138,6 +141,8 @@ __Error = 9,
 constexpr operator __Newtonsoft__Json__JsonWriter__State_Unwrapped () const noexcept {
 return std::bit_cast<__Newtonsoft__Json__JsonWriter__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -403,8 +408,7 @@ static ::ArrayW<::ArrayW<Newtonsoft::Json::Newtonsoft__Json__JsonWriter__State>>
 /// @brief Method set_Culture addr 0x24dd318 size 0x8 virtual false final false
  void set_Culture(System::Globalization::CultureInfo value) ;
 
-// Ctor Parameters []
-explicit JsonWriter() ;
+static Newtonsoft::Json::JsonWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x24dd320 size 0x2c virtual false final false
  void _ctor() ;

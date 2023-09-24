@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::Esf {
 class OtherHash;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class CrlIdentifier;
@@ -85,20 +85,17 @@ constexpr Org::BouncyCastle::Asn1::Esf::CrlIdentifier __get_crlIdentifier() cons
 /// @brief Method GetInstance addr 0xe03edc size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::CrlValidatedID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CrlValidatedID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::CrlValidatedID New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe04d38 size 0x1c8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "crlHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHash", modifiers: "", def_value: None }]
-explicit CrlValidatedID(Org::BouncyCastle::Asn1::Esf::OtherHash crlHash) ;
+static Org::BouncyCastle::Asn1::Esf::CrlValidatedID New_ctor(Org::BouncyCastle::Asn1::Esf::OtherHash crlHash) ;
 
 /// @brief Method .ctor addr 0xe05028 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Esf::OtherHash crlHash) ;
 
-// Ctor Parameters [CppParam { name: "crlHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHash", modifiers: "", def_value: None }, CppParam { name: "crlIdentifier", ty: "Org::BouncyCastle::Asn1::Esf::CrlIdentifier", modifiers: "", def_value: None }]
-explicit CrlValidatedID(Org::BouncyCastle::Asn1::Esf::OtherHash crlHash, Org::BouncyCastle::Asn1::Esf::CrlIdentifier crlIdentifier) ;
+static Org::BouncyCastle::Asn1::Esf::CrlValidatedID New_ctor(Org::BouncyCastle::Asn1::Esf::OtherHash crlHash, Org::BouncyCastle::Asn1::Esf::CrlIdentifier crlIdentifier) ;
 
 /// @brief Method .ctor addr 0xe05030 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Esf::OtherHash crlHash, Org::BouncyCastle::Asn1::Esf::CrlIdentifier crlIdentifier) ;

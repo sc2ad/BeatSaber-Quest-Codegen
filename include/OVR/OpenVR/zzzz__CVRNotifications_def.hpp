@@ -8,16 +8,16 @@ namespace OVR::OpenVR {
 struct EVRNotificationStyle;
 }
 namespace OVR::OpenVR {
-struct EVRNotificationError;
+struct IVRNotifications;
 }
 namespace OVR::OpenVR {
 struct EVRNotificationType;
 }
 namespace OVR::OpenVR {
-struct IVRNotifications;
+struct NotificationBitmap_t;
 }
 namespace OVR::OpenVR {
-struct NotificationBitmap_t;
+struct EVRNotificationError;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -74,8 +74,7 @@ constexpr OVR::OpenVR::IVRNotifications __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRNotifications(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRNotifications New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x2667874 size 0x10c virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

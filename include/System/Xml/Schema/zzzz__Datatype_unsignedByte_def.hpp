@@ -6,19 +6,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml::Schema {
-class FacetsChecker;
+struct XmlTypeCode;
 }
 namespace System {
 class Type;
+}
+namespace System::Xml::Schema {
+class FacetsChecker;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
 }
 namespace System {
 class Exception;
@@ -119,8 +119,7 @@ static System::Xml::Schema::FacetsChecker __get_numeric10FacetsChecker() ;
 /// @brief Method TryParseValue addr 0x272ab90 size 0x140 virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_unsignedByte() ;
+static System::Xml::Schema::Datatype_unsignedByte New_ctor() ;
 
 /// @brief Method .ctor addr 0x272acd0 size 0x54 virtual false final false
  void _ctor() ;

@@ -3,7 +3,7 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -12,7 +12,7 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -125,20 +125,17 @@ static Org::BouncyCastle::Asn1::DerInteger __get_DefaultTrailerField() ;
 /// @brief Method GetInstance addr 0xf009d0 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit RsassaPssParameters() ;
+static Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters New_ctor() ;
 
 /// @brief Method .ctor addr 0xf00d3c size 0x74 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "maskGenAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "saltLength", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "trailerField", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
-explicit RsassaPssParameters(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier maskGenAlgorithm, Org::BouncyCastle::Asn1::DerInteger saltLength, Org::BouncyCastle::Asn1::DerInteger trailerField) ;
+static Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier maskGenAlgorithm, Org::BouncyCastle::Asn1::DerInteger saltLength, Org::BouncyCastle::Asn1::DerInteger trailerField) ;
 
 /// @brief Method .ctor addr 0xf00db0 size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier maskGenAlgorithm, Org::BouncyCastle::Asn1::DerInteger saltLength, Org::BouncyCastle::Asn1::DerInteger trailerField) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit RsassaPssParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xf00b58 size 0x1e4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

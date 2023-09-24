@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class DnsEndPoint;
+}
+namespace GlobalNamespace {
 class INetworkConfig;
 }
 namespace GlobalNamespace {
 struct ServiceEnvironment;
-}
-namespace GlobalNamespace {
-class DnsEndPoint;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -197,8 +197,7 @@ constexpr GlobalNamespace::ServiceEnvironment __get__serviceEnvironment() const;
 /// @brief Method GetAppId addr 0x2208d04 size 0x2c virtual false final false
  ::StringW GetAppId() ;
 
-// Ctor Parameters []
-explicit NetworkConfigSO() ;
+static GlobalNamespace::NetworkConfigSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2208d40 size 0x8c virtual false final false
  void _ctor() ;

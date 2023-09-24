@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::If
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
- Zenject::NonLazyBinder::NonLazyBinder(Zenject::BindInfo bindInfo)  : Zenject::IfNotBoundBinder(THROW_UNLESS(::il2cpp_utils::New<NonLazyBinder>(bindInfo))) {}
+ Zenject::NonLazyBinder Zenject::NonLazyBinder::New_ctor(Zenject::BindInfo bindInfo)  {
+Zenject::NonLazyBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::NonLazyBinder>(bindInfo))};
+return o;
+}
  void Zenject::NonLazyBinder::_ctor(Zenject::BindInfo bindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::NonLazyBinder>::get(),

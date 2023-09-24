@@ -80,8 +80,7 @@ constexpr ::ArrayW<int32_t> __get_Dependencies() const;
 /// @brief Method CreateEvent addr 0x2896e00 size 0x44 virtual false final false
  UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventType eventType, int32_t frame, int32_t val) ;
 
-// Ctor Parameters []
-explicit DiagnosticInfo() ;
+static UnityEngine::AddressableAssets::Utility::DiagnosticInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2896e44 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,6 +3,7 @@
 #include "UnityEngine/zzzz__IntegratedSubsystem_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRMeshSubsystem_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/XR/zzzz__XRMeshSubsystem_def.hpp"
 #include "UnityEngine/XR/zzzz__MeshGenerationResult_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::UnityEngine__XR__XRMeshSubsystem__MeshTransformList.Dispose
@@ -113,8 +114,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result, onMeshGenerationComplete);
 }
-// Ctor Parameters []
- UnityEngine::XR::XRMeshSubsystem::XRMeshSubsystem()  : UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRMeshSubsystemDescriptor>(THROW_UNLESS(::il2cpp_utils::New<XRMeshSubsystem>())) {}
+ UnityEngine::XR::XRMeshSubsystem UnityEngine::XR::XRMeshSubsystem::New_ctor()  {
+UnityEngine::XR::XRMeshSubsystem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::XRMeshSubsystem>())};
+return o;
+}
  void UnityEngine::XR::XRMeshSubsystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::XRMeshSubsystem>::get(),

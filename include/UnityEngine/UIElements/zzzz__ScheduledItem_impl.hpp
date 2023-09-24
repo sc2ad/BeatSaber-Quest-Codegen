@@ -1,7 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__ScheduledItem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TimerState_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ScheduledItem_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TimerState_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c._ctor
 template<>
 
@@ -59,8 +60,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
  UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c::__get___9()  {
 return ::cordl_internals::getStaticField<UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c::UnityEngine__UIElements__ScheduledItem____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__ScheduledItem____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c>::get(),
@@ -397,8 +400,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::ScheduledItem::ScheduledItem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ScheduledItem>())) {}
+ UnityEngine::UIElements::ScheduledItem UnityEngine::UIElements::ScheduledItem::New_ctor()  {
+UnityEngine::UIElements::ScheduledItem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ScheduledItem>())};
+return o;
+}
  void UnityEngine::UIElements::ScheduledItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ScheduledItem>::get(),

@@ -4,34 +4,37 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-class IObservable_1;
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputRemoting__MessageType;
 }
 namespace System {
 class Exception;
 }
 namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputRemoting__MessageType;
+struct UnityEngine__InputSystem__InputRemoting__Message;
 }
 namespace System {
-class IDisposable;
+template<typename T>
+class IObservable_1;
 }
-namespace System {
-struct Guid;
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class MessageEventArgs;
 }
 namespace System {
 template<typename T>
 class IObserver_1;
 }
-namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputRemoting__Message;
-}
-namespace UnityEngine::Networking::PlayerConnection {
-class MessageEventArgs;
+namespace System {
+struct Guid;
 }
 namespace UnityEngine::Networking::PlayerConnection {
 class IEditorPlayerConnection;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -103,8 +106,7 @@ constexpr System::IObserver_1<UnityEngine::InputSystem::UnityEngine__InputSystem
 /// @brief Method Dispose addr 0x2915070 size 0x58 virtual true final true
  void Dispose() ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber New_ctor() ;
 
 /// @brief Method .ctor addr 0x29149d4 size 0x8 virtual false final false
  void _ctor() ;
@@ -271,8 +273,7 @@ constexpr ::ArrayW<int32_t> __get_m_ConnectedIds() const;
 /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted addr 0x2914e80 size 0x4 virtual true final true
  void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted() ;
 
-// Ctor Parameters []
-explicit RemoteInputPlayerConnection() ;
+static UnityEngine::InputSystem::RemoteInputPlayerConnection New_ctor() ;
 
 /// @brief Method .ctor addr 0x2914e84 size 0x8 virtual false final false
  void _ctor() ;

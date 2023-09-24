@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Math/Field/zzzz__IPolynomialExtensionField_def.hpp"
+#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IExtensionField_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IPolynomial_def.hpp"
-#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::Field::IPolynomialExtensionField.get_MinimalPolynomial
 template<>
 

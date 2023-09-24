@@ -8,24 +8,14 @@ namespace LiteNetLib {
 class NetPacket;
 }
 namespace LiteNetLib {
-class BaseChannel;
+class NetStatistics;
+}
+namespace LiteNetLib {
+class NetConnectRequestPacket;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class Queue_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace LiteNetLib {
-struct DeliveryMethod;
-}
-namespace LiteNetLib {
-struct ShutdownResult;
 }
 namespace LiteNetLib {
 struct DisconnectResult;
@@ -34,31 +24,44 @@ namespace System {
 struct DateTime;
 }
 namespace LiteNetLib {
-class NetConnectRequestPacket;
-}
-namespace LiteNetLib {
-class NetPacketPool;
-}
-namespace LiteNetLib {
-class NetStatistics;
-}
-namespace LiteNetLib {
-class NetManager;
-}
-namespace LiteNetLib {
 struct ConnectRequestResult;
 }
-namespace System::Diagnostics {
-class Stopwatch;
+namespace LiteNetLib {
+struct ShutdownResult;
 }
 namespace LiteNetLib {
-class NetConnectAcceptPacket;
+struct ConnectionState;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib {
-struct ConnectionState;
+class BaseChannel;
+}
+namespace LiteNetLib {
+class NetManager;
+}
+namespace LiteNetLib {
+class NetConnectAcceptPacket;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Diagnostics {
+class Stopwatch;
+}
+namespace LiteNetLib {
+struct DeliveryMethod;
+}
+namespace LiteNetLib {
+class LiteNetLib__NetPeer__IncomingFragments;
+}
+namespace LiteNetLib {
+class NetPacketPool;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -136,8 +139,7 @@ constexpr uint8_t __get_ChannelId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LiteNetLib__NetPeer__IncomingFragments() ;
+static LiteNetLib::LiteNetLib__NetPeer__IncomingFragments New_ctor() ;
 
 /// @brief Method .ctor addr 0x2090dc0 size 0x8 virtual false final false
  void _ctor() ;
@@ -529,8 +531,7 @@ constexpr LiteNetLib::NetStatistics __get_Statistics() const;
 /// @brief Method get_ResendDelay addr 0x208fc68 size 0x8 virtual false final false
  double_t get_ResendDelay() ;
 
-// Ctor Parameters [CppParam { name: "netManager", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }, CppParam { name: "remoteEndPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NetPeer(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id) ;
+static LiteNetLib::NetPeer New_ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id) ;
 
 /// @brief Method .ctor addr 0x208bb2c size 0x320 virtual false final false
  void _ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id) ;
@@ -544,14 +545,12 @@ explicit NetPeer(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remo
 /// @brief Method CreateChannel addr 0x208fdcc size 0x174 virtual false final false
  LiteNetLib::BaseChannel CreateChannel(uint8_t idx) ;
 
-// Ctor Parameters [CppParam { name: "netManager", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }, CppParam { name: "remoteEndPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "connectNum", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "connectData", ty: "LiteNetLib::Utils::NetDataWriter", modifiers: "", def_value: None }]
-explicit NetPeer(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, uint8_t connectNum, LiteNetLib::Utils::NetDataWriter connectData) ;
+static LiteNetLib::NetPeer New_ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, uint8_t connectNum, LiteNetLib::Utils::NetDataWriter connectData) ;
 
 /// @brief Method .ctor addr 0x208eb3c size 0x110 virtual false final false
  void _ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, uint8_t connectNum, LiteNetLib::Utils::NetDataWriter connectData) ;
 
-// Ctor Parameters [CppParam { name: "netManager", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }, CppParam { name: "remoteEndPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "connectId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "connectNum", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit NetPeer(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, int64_t connectId, uint8_t connectNum) ;
+static LiteNetLib::NetPeer New_ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, int64_t connectId, uint8_t connectNum) ;
 
 /// @brief Method .ctor addr 0x208be68 size 0x68 virtual false final false
  void _ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, int64_t connectId, uint8_t connectNum) ;

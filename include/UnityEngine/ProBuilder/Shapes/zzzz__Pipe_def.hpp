@@ -3,20 +3,20 @@
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -100,8 +100,7 @@ constexpr bool __get_m_Smooth() const;
 /// @brief Method RebuildMesh addr 0x29f5c94 size 0xa70 virtual true final false
  UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit Pipe() ;
+static UnityEngine::ProBuilder::Shapes::Pipe New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f6704 size 0x1c virtual false final false
  void _ctor() ;

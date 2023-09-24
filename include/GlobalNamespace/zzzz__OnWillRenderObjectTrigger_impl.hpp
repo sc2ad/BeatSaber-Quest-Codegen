@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OnWillRenderObjectTrigger_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OnWillRenderObjectTrigger.OnEnable
 template<>
 
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OnWillRenderObjectTrigger::OnWillRenderObjectTrigger()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OnWillRenderObjectTrigger>())) {}
+ GlobalNamespace::OnWillRenderObjectTrigger GlobalNamespace::OnWillRenderObjectTrigger::New_ctor()  {
+GlobalNamespace::OnWillRenderObjectTrigger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OnWillRenderObjectTrigger>())};
+return o;
+}
  void GlobalNamespace::OnWillRenderObjectTrigger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OnWillRenderObjectTrigger>::get(),

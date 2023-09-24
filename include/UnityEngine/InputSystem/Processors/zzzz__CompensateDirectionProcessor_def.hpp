@@ -3,11 +3,11 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {
@@ -16,7 +16,7 @@ class CompensateDirectionProcessor;
 // Type: UnityEngine.InputSystem.Processors::CompensateDirectionProcessor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 394 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6665))
 // CS Name: UnityEngine.InputSystem.Processors.CompensateDirectionProcessor
 class CORDL_TYPE CompensateDirectionProcessor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector3> {
@@ -61,8 +61,7 @@ constexpr explicit CompensateDirectionProcessor(void* ptr) noexcept : UnityEngin
 /// @brief Method ToString addr 0x29666b8 size 0x40 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit CompensateDirectionProcessor() ;
+static UnityEngine::InputSystem::Processors::CompensateDirectionProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x29666f8 size 0x48 virtual false final false
  void _ctor() ;

@@ -4,19 +4,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-struct PlayState;
+struct PlayableTraversalMode;
 }
 namespace UnityEngine::Playables {
 struct DirectorWrapMode;
 }
 namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-struct PlayableTraversalMode;
+struct PlayState;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

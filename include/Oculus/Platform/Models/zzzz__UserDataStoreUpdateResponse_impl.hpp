@@ -23,8 +23,10 @@ constexpr void Oculus::Platform::Models::UserDataStoreUpdateResponse::__set_Succ
 constexpr bool Oculus::Platform::Models::UserDataStoreUpdateResponse::__get_Success() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::UserDataStoreUpdateResponse::UserDataStoreUpdateResponse(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserDataStoreUpdateResponse>(o))) {}
+ Oculus::Platform::Models::UserDataStoreUpdateResponse Oculus::Platform::Models::UserDataStoreUpdateResponse::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::UserDataStoreUpdateResponse o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::UserDataStoreUpdateResponse>(o))};
+return o;
+}
  void Oculus::Platform::Models::UserDataStoreUpdateResponse::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::UserDataStoreUpdateResponse>::get(),

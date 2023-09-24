@@ -3,35 +3,35 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
-}
 namespace System::Collections {
-class IList;
+class IEnumerable;
 }
 namespace Newtonsoft::Json::Utilities {
 class IWrappedCollection;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+class ICollection;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Array;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -143,14 +143,12 @@ constexpr ::bs_hook::Il2CppWrapperType __get__syncRoot() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit CollectionWrapper_1(System::Collections::IList list) ;
+static Newtonsoft::Json::Utilities::CollectionWrapper_1<T> New_ctor(System::Collections::IList list) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::IList list) ;
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::Generic::ICollection_1<T>", modifiers: "", def_value: None }]
-explicit CollectionWrapper_1(System::Collections::Generic::ICollection_1<T> list) ;
+static Newtonsoft::Json::Utilities::CollectionWrapper_1<T> New_ctor(System::Collections::Generic::ICollection_1<T> list) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::ICollection_1<T> list) ;

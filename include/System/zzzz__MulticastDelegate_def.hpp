@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System {
+class Delegate;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
@@ -12,9 +15,6 @@ class MethodInfo;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System {
-class Delegate;
 }
 // Forward declare root types
 namespace System {

@@ -209,8 +209,7 @@ static constexpr float_t  kEpsilon{0.001};
 /// @brief Method Sample addr 0x0 size 0xffffffffffffffff virtual true final false
  void Sample(float_t t) ;
 
-// Ctor Parameters []
-explicit Tween() ;
+static Tweening::Tween New_ctor() ;
 
 /// @brief Method .ctor addr 0x287aa94 size 0x10 virtual false final false
  void _ctor() ;

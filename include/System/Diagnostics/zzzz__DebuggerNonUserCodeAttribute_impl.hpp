@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Diagnostics::DebuggerNonUserCodeAttribute::DebuggerNonUserCodeAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DebuggerNonUserCodeAttribute>())) {}
+ System::Diagnostics::DebuggerNonUserCodeAttribute System::Diagnostics::DebuggerNonUserCodeAttribute::New_ctor()  {
+System::Diagnostics::DebuggerNonUserCodeAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::DebuggerNonUserCodeAttribute>())};
+return o;
+}
  void System::Diagnostics::DebuggerNonUserCodeAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::DebuggerNonUserCodeAttribute>::get(),

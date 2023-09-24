@@ -77,8 +77,7 @@ constexpr float_t __get_weight() const;
 /// @brief Method UpdateConstraint addr 0x0 size 0xffffffffffffffff virtual true final false
  void UpdateConstraint() ;
 
-// Ctor Parameters []
-explicit Constraint() ;
+static RootMotion::FinalIK::Constraint New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b845c size 0x8 virtual false final false
  void _ctor() ;

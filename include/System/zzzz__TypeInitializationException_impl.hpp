@@ -2,8 +2,8 @@
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__TypeInitializationException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::TypeInitializationException._ctor
 template<>
 
@@ -112,8 +112,10 @@ constexpr void System::TypeInitializationException::__set__typeName(::StringW va
 constexpr ::StringW System::TypeInitializationException::__get__typeName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::TypeInitializationException::TypeInitializationException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<TypeInitializationException>())) {}
+ System::TypeInitializationException System::TypeInitializationException::New_ctor()  {
+System::TypeInitializationException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeInitializationException>())};
+return o;
+}
  void System::TypeInitializationException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeInitializationException>::get(),
@@ -123,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "fullTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- System::TypeInitializationException::TypeInitializationException(::StringW fullTypeName, System::Exception innerException)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<TypeInitializationException>(fullTypeName, innerException))) {}
+ System::TypeInitializationException System::TypeInitializationException::New_ctor(::StringW fullTypeName, System::Exception innerException)  {
+System::TypeInitializationException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeInitializationException>(fullTypeName, innerException))};
+return o;
+}
  void System::TypeInitializationException::_ctor(::StringW fullTypeName, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeInitializationException>::get(),
@@ -134,8 +138,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fullTypeName, innerException);
 }
-// Ctor Parameters [CppParam { name: "fullTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- System::TypeInitializationException::TypeInitializationException(::StringW fullTypeName, ::StringW message, System::Exception innerException)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<TypeInitializationException>(fullTypeName, message, innerException))) {}
+ System::TypeInitializationException System::TypeInitializationException::New_ctor(::StringW fullTypeName, ::StringW message, System::Exception innerException)  {
+System::TypeInitializationException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeInitializationException>(fullTypeName, message, innerException))};
+return o;
+}
  void System::TypeInitializationException::_ctor(::StringW fullTypeName, ::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeInitializationException>::get(),
@@ -145,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fullTypeName, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::TypeInitializationException::TypeInitializationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<TypeInitializationException>(info, context))) {}
+ System::TypeInitializationException System::TypeInitializationException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::TypeInitializationException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeInitializationException>(info, context))};
+return o;
+}
  void System::TypeInitializationException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeInitializationException>::get(),

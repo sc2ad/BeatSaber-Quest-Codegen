@@ -9,64 +9,67 @@
 namespace GlobalNamespace {
 struct OVRMaterialData;
 }
-namespace GlobalNamespace {
-struct OVRChunkType;
+namespace System::IO {
+class Stream;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace OVRSimpleJSON {
+class JSONNode;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace GlobalNamespace {
 struct OVRMeshData;
+}
+namespace GlobalNamespace {
+class OVRGLTFAnimatinonNode;
+}
+namespace GlobalNamespace {
+struct OVRGLTFInputNode;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine {
-struct Vector3;
+class SkinnedMeshRenderer;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace GlobalNamespace {
+struct OVRChunkType;
 }
 namespace GlobalNamespace {
 struct OVRTextureQualityFiltering;
-}
-namespace GlobalNamespace {
-class OVRGLTFAnimatinonNode;
-}
-namespace UnityEngine {
-class SkinnedMeshRenderer;
-}
-namespace System::IO {
-class Stream;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
+struct OVRTextureData;
+}
+namespace GlobalNamespace {
 struct OVRGLTFScene;
 }
 namespace UnityEngine {
-class Texture2D;
+class Shader;
 }
 namespace GlobalNamespace {
 struct OVRBinaryChunk;
 }
-namespace OVRSimpleJSON {
-class JSONNode;
-}
 namespace GlobalNamespace {
-struct OVRTextureData;
-}
-namespace UnityEngine {
-class Material;
+class GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace GlobalNamespace {
-struct OVRGLTFInputNode;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Shader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +135,7 @@ constexpr GlobalNamespace::OVRMaterialData __get_matData() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0() ;
+static GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x25b99cc size 0x8 virtual false final false
  void _ctor() ;
@@ -270,14 +272,12 @@ static System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::OVR
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit OVRGLTFLoader(::StringW fileName) ;
+static GlobalNamespace::OVRGLTFLoader New_ctor(::StringW fileName) ;
 
 /// @brief Method .ctor addr 0x25b470c size 0x38 virtual false final false
  void _ctor(::StringW fileName) ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit OVRGLTFLoader(::ArrayW<uint8_t> data) ;
+static GlobalNamespace::OVRGLTFLoader New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x25b4744 size 0x88 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;

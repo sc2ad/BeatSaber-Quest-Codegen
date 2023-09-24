@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::AvatarColorTrack::AvatarColorTrack()  : UnityEngine::Timeline::TrackAsset(THROW_UNLESS(::il2cpp_utils::New<AvatarColorTrack>())) {}
+ GlobalNamespace::AvatarColorTrack GlobalNamespace::AvatarColorTrack::New_ctor()  {
+GlobalNamespace::AvatarColorTrack o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarColorTrack>())};
+return o;
+}
  void GlobalNamespace::AvatarColorTrack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarColorTrack>::get(),

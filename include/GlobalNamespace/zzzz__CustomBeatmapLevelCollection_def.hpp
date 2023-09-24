@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class CustomPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IBeatmapLevelCollection;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -81,8 +81,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::CustomP
 /// @brief Method get_beatmapLevels addr 0x21e9698 size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> get_beatmapLevels() ;
 
-// Ctor Parameters [CppParam { name: "customPreviewBeatmapLevels", ty: "::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel>", modifiers: "", def_value: None }]
-explicit CustomBeatmapLevelCollection(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel> customPreviewBeatmapLevels) ;
+static GlobalNamespace::CustomBeatmapLevelCollection New_ctor(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel> customPreviewBeatmapLevels) ;
 
 /// @brief Method .ctor addr 0x21e96a0 size 0x28 virtual false final false
  void _ctor(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel> customPreviewBeatmapLevels) ;

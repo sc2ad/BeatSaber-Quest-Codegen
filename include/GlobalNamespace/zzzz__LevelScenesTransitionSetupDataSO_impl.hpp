@@ -2,9 +2,10 @@
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
@@ -221,8 +222,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelScenesTransitionSetupDataSO::LevelScenesTransitionSetupDataSO()  : GlobalNamespace::ScenesTransitionSetupDataSO(THROW_UNLESS(::il2cpp_utils::New<LevelScenesTransitionSetupDataSO>())) {}
+ GlobalNamespace::LevelScenesTransitionSetupDataSO GlobalNamespace::LevelScenesTransitionSetupDataSO::New_ctor()  {
+GlobalNamespace::LevelScenesTransitionSetupDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelScenesTransitionSetupDataSO>())};
+return o;
+}
  void GlobalNamespace::LevelScenesTransitionSetupDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelScenesTransitionSetupDataSO>::get(),

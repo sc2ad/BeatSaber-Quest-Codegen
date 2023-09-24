@@ -110,8 +110,10 @@ constexpr void System::ComponentModel::BrowsableAttribute::__set__Browsable_k__B
 constexpr bool System::ComponentModel::BrowsableAttribute::__get__Browsable_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "browsable", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::BrowsableAttribute::BrowsableAttribute(bool browsable)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<BrowsableAttribute>(browsable))) {}
+ System::ComponentModel::BrowsableAttribute System::ComponentModel::BrowsableAttribute::New_ctor(bool browsable)  {
+System::ComponentModel::BrowsableAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::BrowsableAttribute>(browsable))};
+return o;
+}
  void System::ComponentModel::BrowsableAttribute::_ctor(bool browsable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::BrowsableAttribute>::get(),

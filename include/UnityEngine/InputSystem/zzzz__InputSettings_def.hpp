@@ -6,13 +6,22 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputSettings__UpdateMode;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputSettings__BackgroundBehavior;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -77,6 +86,8 @@ __ProcessEventsManually = 3,
 constexpr operator __UnityEngine__InputSystem__InputSettings__UpdateMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputSettings__UpdateMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -151,6 +162,8 @@ constexpr operator __UnityEngine__InputSystem__InputSettings__BackgroundBehavior
 return std::bit_cast<__UnityEngine__InputSystem__InputSettings__BackgroundBehavior_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -223,6 +236,8 @@ __AllDeviceInputAlwaysGoesToGameView = 2,
 constexpr operator __UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputSettings__EditorInputBehaviorInPlayMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -570,8 +585,7 @@ static constexpr int32_t  s_OldUnsupportedFixedAndDynamicUpdateSetting{0};
 /// @brief Method OnChange addr 0x2925408 size 0xcc virtual false final false
  void OnChange() ;
 
-// Ctor Parameters []
-explicit InputSettings() ;
+static UnityEngine::InputSystem::InputSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2925ac8 size 0x44 virtual false final false
  void _ctor() ;

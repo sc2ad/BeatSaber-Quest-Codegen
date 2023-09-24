@@ -71,14 +71,12 @@ static System::Text::RegularExpressions::Regex __declspec(property(get=get_Profi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sampleName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rootBlock", ty: "bool", modifiers: "", def_value: None }]
-explicit ProfileBlock(::StringW sampleName, bool rootBlock) ;
+static Zenject::ProfileBlock New_ctor(::StringW sampleName, bool rootBlock) ;
 
 /// @brief Method .ctor addr 0x2da5064 size 0x8 virtual false final false
  void _ctor(::StringW sampleName, bool rootBlock) ;
 
-// Ctor Parameters [CppParam { name: "sampleName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ProfileBlock(::StringW sampleName) ;
+static Zenject::ProfileBlock New_ctor(::StringW sampleName) ;
 
 /// @brief Method .ctor addr 0x2da506c size 0x8 virtual false final false
  void _ctor(::StringW sampleName) ;

@@ -4,10 +4,6 @@
 namespace System {
 class Action;
 }
-namespace UnityEngine::Events {
-template<typename T0>
-class UnityAction_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -16,12 +12,19 @@ namespace UnityEngine::UI {
 class Toggle;
 }
 namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
+}
+namespace UnityEngine::Events {
+template<typename T0>
+class UnityAction_1;
+}
+namespace HMUI {
+class HMUI__ToggleBinder____c__DisplayClass7_0;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -87,8 +90,7 @@ constexpr System::Action __get_action() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ToggleBinder____c__DisplayClass7_0() ;
+static HMUI::HMUI__ToggleBinder____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa7ef0 size 0x8 virtual false final false
  void _ctor() ;
@@ -159,14 +161,12 @@ constexpr bool __get__enabled() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ToggleBinder() ;
+static HMUI::ToggleBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa7ac4 size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bindingData", ty: "System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle,System::Action_1<bool>>>", modifiers: "", def_value: None }]
-explicit ToggleBinder(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle,System::Action_1<bool>>> bindingData) ;
+static HMUI::ToggleBinder New_ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle,System::Action_1<bool>>> bindingData) ;
 
 /// @brief Method .ctor addr 0x1fa7b5c size 0x3c virtual false final false
  void _ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle,System::Action_1<bool>>> bindingData) ;

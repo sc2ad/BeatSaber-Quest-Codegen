@@ -4,6 +4,9 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__NoteData__GameplayType;
+}
+namespace GlobalNamespace {
 struct ColorType;
 }
 namespace GlobalNamespace {
@@ -11,9 +14,6 @@ struct NoteCutDirection;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__NoteData__GameplayType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -168,8 +168,7 @@ constexpr float_t __get__duration_k__BackingField() const;
 /// @brief Method Mirror addr 0x22796b4 size 0x58 virtual true final false
  void Mirror(int32_t lineCount) ;
 
-// Ctor Parameters []
-explicit MockNoteData() ;
+static GlobalNamespace::MockNoteData New_ctor() ;
 
 /// @brief Method .ctor addr 0x227970c size 0x8 virtual false final false
  void _ctor() ;

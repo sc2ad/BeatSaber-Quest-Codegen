@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::Snap::Snap()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Snap>())) {}
+ GlobalNamespace::Snap GlobalNamespace::Snap::New_ctor()  {
+GlobalNamespace::Snap o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Snap>())};
+return o;
+}
  void GlobalNamespace::Snap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Snap>::get(),

@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__Bounds2D_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Bounds2D.get_size
 template<>
 
@@ -418,8 +418,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<UnityEngine::Vector2>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Bounds2D::Bounds2D()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Bounds2D>())) {}
+ UnityEngine::ProBuilder::Bounds2D UnityEngine::ProBuilder::Bounds2D::New_ctor()  {
+UnityEngine::ProBuilder::Bounds2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Bounds2D>())};
+return o;
+}
  void UnityEngine::ProBuilder::Bounds2D::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Bounds2D>::get(),
@@ -429,8 +431,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "center", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "size", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Bounds2D::Bounds2D(UnityEngine::Vector2 center, UnityEngine::Vector2 size)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Bounds2D>(center, size))) {}
+ UnityEngine::ProBuilder::Bounds2D UnityEngine::ProBuilder::Bounds2D::New_ctor(UnityEngine::Vector2 center, UnityEngine::Vector2 size)  {
+UnityEngine::ProBuilder::Bounds2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Bounds2D>(center, size))};
+return o;
+}
  void UnityEngine::ProBuilder::Bounds2D::_ctor(UnityEngine::Vector2 center, UnityEngine::Vector2 size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Bounds2D>::get(),
@@ -440,8 +444,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, center, size);
 }
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::IList_1<UnityEngine::Vector2>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Bounds2D::Bounds2D(System::Collections::Generic::IList_1<UnityEngine::Vector2> points)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Bounds2D>(points))) {}
+ UnityEngine::ProBuilder::Bounds2D UnityEngine::ProBuilder::Bounds2D::New_ctor(System::Collections::Generic::IList_1<UnityEngine::Vector2> points)  {
+UnityEngine::ProBuilder::Bounds2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Bounds2D>(points))};
+return o;
+}
  void UnityEngine::ProBuilder::Bounds2D::_ctor(System::Collections::Generic::IList_1<UnityEngine::Vector2> points)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Bounds2D>::get(),
@@ -451,8 +457,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, points);
 }
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::IList_1<UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "indexes", ty: "System::Collections::Generic::IList_1<int32_t>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Bounds2D::Bounds2D(System::Collections::Generic::IList_1<UnityEngine::Vector2> points, System::Collections::Generic::IList_1<int32_t> indexes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Bounds2D>(points, indexes))) {}
+ UnityEngine::ProBuilder::Bounds2D UnityEngine::ProBuilder::Bounds2D::New_ctor(System::Collections::Generic::IList_1<UnityEngine::Vector2> points, System::Collections::Generic::IList_1<int32_t> indexes)  {
+UnityEngine::ProBuilder::Bounds2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Bounds2D>(points, indexes))};
+return o;
+}
  void UnityEngine::ProBuilder::Bounds2D::_ctor(System::Collections::Generic::IList_1<UnityEngine::Vector2> points, System::Collections::Generic::IList_1<int32_t> indexes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Bounds2D>::get(),
@@ -462,8 +470,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, points, indexes);
 }
-// Ctor Parameters [CppParam { name: "points", ty: "::ArrayW<UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "edges", ty: "::ArrayW<UnityEngine::ProBuilder::Edge>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Bounds2D::Bounds2D(::ArrayW<UnityEngine::Vector3> points, ::ArrayW<UnityEngine::ProBuilder::Edge> edges)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Bounds2D>(points, edges))) {}
+ UnityEngine::ProBuilder::Bounds2D UnityEngine::ProBuilder::Bounds2D::New_ctor(::ArrayW<UnityEngine::Vector3> points, ::ArrayW<UnityEngine::ProBuilder::Edge> edges)  {
+UnityEngine::ProBuilder::Bounds2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Bounds2D>(points, edges))};
+return o;
+}
  void UnityEngine::ProBuilder::Bounds2D::_ctor(::ArrayW<UnityEngine::Vector3> points, ::ArrayW<UnityEngine::ProBuilder::Edge> edges)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Bounds2D>::get(),
@@ -473,8 +483,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, points, edges);
 }
-// Ctor Parameters [CppParam { name: "points", ty: "::ArrayW<UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Bounds2D::Bounds2D(::ArrayW<UnityEngine::Vector2> points, int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Bounds2D>(points, length))) {}
+ UnityEngine::ProBuilder::Bounds2D UnityEngine::ProBuilder::Bounds2D::New_ctor(::ArrayW<UnityEngine::Vector2> points, int32_t length)  {
+UnityEngine::ProBuilder::Bounds2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Bounds2D>(points, length))};
+return o;
+}
  void UnityEngine::ProBuilder::Bounds2D::_ctor(::ArrayW<UnityEngine::Vector2> points, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Bounds2D>::get(),

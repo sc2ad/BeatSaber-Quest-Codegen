@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509CertPairParser_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509CertificatePair_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::X509CertPairParser.ReadDerCrossCertificatePair
 template<>
 
@@ -156,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::ICollection, false>(const_cast<void*>(instance), ___internal_method, inStream);
 }
-// Ctor Parameters []
- Org::BouncyCastle::X509::X509CertPairParser::X509CertPairParser()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CertPairParser>())) {}
+ Org::BouncyCastle::X509::X509CertPairParser Org::BouncyCastle::X509::X509CertPairParser::New_ctor()  {
+Org::BouncyCastle::X509::X509CertPairParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509CertPairParser>())};
+return o;
+}
  void Org::BouncyCastle::X509::X509CertPairParser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509CertPairParser>::get(),

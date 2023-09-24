@@ -3,27 +3,27 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace Zenject {
-class IProvider;
+class InjectContext;
 }
 namespace Zenject {
 struct TypeValuePair;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System {
+template<typename TResult>
+class Func_1;
+}
+namespace System {
 class Action;
 }
 namespace System {
 class Type;
+}
+namespace Zenject {
+class IProvider;
 }
 // Forward declare root types
 namespace Zenject {
@@ -98,8 +98,7 @@ constexpr System::Func_1<TReturn> __get__method() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "method", ty: "System::Func_1<TReturn>", modifiers: "", def_value: None }]
-explicit MethodProviderSimple_1(System::Func_1<TReturn> method) ;
+static Zenject::MethodProviderSimple_1<TReturn> New_ctor(System::Func_1<TReturn> method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Func_1<TReturn> method) ;

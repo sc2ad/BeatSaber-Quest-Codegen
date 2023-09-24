@@ -2,15 +2,15 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

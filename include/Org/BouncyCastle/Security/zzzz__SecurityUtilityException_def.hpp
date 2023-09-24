@@ -51,20 +51,17 @@ constexpr explicit SecurityUtilityException(void* ptr) noexcept : System::Except
 
 // Methods
 
-// Ctor Parameters []
-explicit SecurityUtilityException() ;
+static Org::BouncyCastle::Security::SecurityUtilityException New_ctor() ;
 
 /// @brief Method .ctor addr 0x10b4d58 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SecurityUtilityException(::StringW message) ;
+static Org::BouncyCastle::Security::SecurityUtilityException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x10b4cf0 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit SecurityUtilityException(::StringW message, System::Exception exception) ;
+static Org::BouncyCastle::Security::SecurityUtilityException New_ctor(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x10b4db0 size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception exception) ;

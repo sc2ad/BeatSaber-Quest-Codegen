@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__ArithmeticException_def.hpp"
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -53,14 +53,12 @@ constexpr explicit DivideByZeroException(void* ptr) noexcept : System::Arithmeti
 
 // Methods
 
-// Ctor Parameters []
-explicit DivideByZeroException() ;
+static System::DivideByZeroException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2427790 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit DivideByZeroException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::DivideByZeroException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24277ec size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

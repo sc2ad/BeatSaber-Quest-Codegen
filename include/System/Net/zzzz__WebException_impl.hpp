@@ -3,11 +3,11 @@
 #include "System/Net/zzzz__WebException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
-#include "System/Net/zzzz__WebExceptionInternalStatus_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
+#include "System/Net/zzzz__WebExceptionInternalStatus_def.hpp"
 //  Writing Method size for method: System::Net::WebException._ctor
 template<>
 
@@ -268,8 +268,10 @@ constexpr void System::Net::WebException::__set_m_InternalStatus(System::Net::We
 constexpr System::Net::WebExceptionInternalStatus System::Net::WebException::__get_m_InternalStatus() const {
 return ::cordl_internals::getInstanceField<System::Net::WebExceptionInternalStatus, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::WebException::WebException()  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<WebException>())) {}
+ System::Net::WebException System::Net::WebException::New_ctor()  {
+System::Net::WebException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebException>())};
+return o;
+}
  void System::Net::WebException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebException>::get(),
@@ -279,8 +281,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::WebException::WebException(::StringW message)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<WebException>(message))) {}
+ System::Net::WebException System::Net::WebException::New_ctor(::StringW message)  {
+System::Net::WebException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebException>(message))};
+return o;
+}
  void System::Net::WebException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebException>::get(),
@@ -290,8 +294,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- System::Net::WebException::WebException(::StringW message, System::Exception innerException)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<WebException>(message, innerException))) {}
+ System::Net::WebException System::Net::WebException::New_ctor(::StringW message, System::Exception innerException)  {
+System::Net::WebException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebException>(message, innerException))};
+return o;
+}
  void System::Net::WebException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebException>::get(),
@@ -301,8 +307,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }]
- System::Net::WebException::WebException(::StringW message, System::Net::WebExceptionStatus status)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<WebException>(message, status))) {}
+ System::Net::WebException System::Net::WebException::New_ctor(::StringW message, System::Net::WebExceptionStatus status)  {
+System::Net::WebException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebException>(message, status))};
+return o;
+}
  void System::Net::WebException::_ctor(::StringW message, System::Net::WebExceptionStatus status)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebException>::get(),
@@ -312,8 +320,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, status);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }, CppParam { name: "internalStatus", ty: "System::Net::WebExceptionInternalStatus", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- System::Net::WebException::WebException(::StringW message, System::Net::WebExceptionStatus status, System::Net::WebExceptionInternalStatus internalStatus, System::Exception innerException)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<WebException>(message, status, internalStatus, innerException))) {}
+ System::Net::WebException System::Net::WebException::New_ctor(::StringW message, System::Net::WebExceptionStatus status, System::Net::WebExceptionInternalStatus internalStatus, System::Exception innerException)  {
+System::Net::WebException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebException>(message, status, internalStatus, innerException))};
+return o;
+}
  void System::Net::WebException::_ctor(::StringW message, System::Net::WebExceptionStatus status, System::Net::WebExceptionInternalStatus internalStatus, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebException>::get(),
@@ -323,8 +333,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, status, internalStatus, innerException);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::WebResponse", modifiers: "", def_value: None }]
- System::Net::WebException::WebException(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<WebException>(message, innerException, status, response))) {}
+ System::Net::WebException System::Net::WebException::New_ctor(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response)  {
+System::Net::WebException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebException>(message, innerException, status, response))};
+return o;
+}
  void System::Net::WebException::_ctor(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebException>::get(),
@@ -334,8 +346,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException, status, response);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::WebResponse", modifiers: "", def_value: None }]
- System::Net::WebException::WebException(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<WebException>(message, data, innerException, status, response))) {}
+ System::Net::WebException System::Net::WebException::New_ctor(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response)  {
+System::Net::WebException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebException>(message, data, innerException, status, response))};
+return o;
+}
  void System::Net::WebException::_ctor(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebException>::get(),
@@ -345,8 +359,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, data, innerException, status, response);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::WebResponse", modifiers: "", def_value: None }, CppParam { name: "internalStatus", ty: "System::Net::WebExceptionInternalStatus", modifiers: "", def_value: None }]
- System::Net::WebException::WebException(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<WebException>(message, innerException, status, response, internalStatus))) {}
+ System::Net::WebException System::Net::WebException::New_ctor(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus)  {
+System::Net::WebException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebException>(message, innerException, status, response, internalStatus))};
+return o;
+}
  void System::Net::WebException::_ctor(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebException>::get(),
@@ -356,8 +372,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException, status, response, internalStatus);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::WebResponse", modifiers: "", def_value: None }, CppParam { name: "internalStatus", ty: "System::Net::WebExceptionInternalStatus", modifiers: "", def_value: None }]
- System::Net::WebException::WebException(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<WebException>(message, data, innerException, status, response, internalStatus))) {}
+ System::Net::WebException System::Net::WebException::New_ctor(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus)  {
+System::Net::WebException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebException>(message, data, innerException, status, response, internalStatus))};
+return o;
+}
  void System::Net::WebException::_ctor(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebException>::get(),
@@ -367,8 +385,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, data, innerException, status, response, internalStatus);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::WebException::WebException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<WebException>(serializationInfo, streamingContext))) {}
+ System::Net::WebException System::Net::WebException::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::WebException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebException>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::WebException::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebException>::get(),

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Xml {
+class System__Xml__NameTable__Entry;
+}
 // Forward declare root types
 namespace System::Xml {
 class NameTable;
@@ -75,8 +78,7 @@ constexpr System::Xml::System__Xml__NameTable__Entry __get_next() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Xml::System__Xml__NameTable__Entry", modifiers: "", def_value: None }]
-explicit System__Xml__NameTable__Entry(::StringW str, int32_t hashCode, System::Xml::System__Xml__NameTable__Entry next) ;
+static System::Xml::System__Xml__NameTable__Entry New_ctor(::StringW str, int32_t hashCode, System::Xml::System__Xml__NameTable__Entry next) ;
 
 /// @brief Method .ctor addr 0x26ff080 size 0x40 virtual false final false
  void _ctor(::StringW str, int32_t hashCode, System::Xml::System__Xml__NameTable__Entry next) ;
@@ -156,8 +158,7 @@ constexpr int32_t __get_hashCodeRandomizer() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NameTable() ;
+static System::Xml::NameTable New_ctor() ;
 
 /// @brief Method .ctor addr 0x26f6930 size 0x70 virtual false final false
  void _ctor() ;

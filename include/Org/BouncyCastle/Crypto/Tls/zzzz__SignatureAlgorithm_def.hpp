@@ -63,8 +63,7 @@ static constexpr uint8_t  ecdsa{3u};
 
 // Methods
 
-// Ctor Parameters []
-explicit SignatureAlgorithm() ;
+static Org::BouncyCastle::Crypto::Tls::SignatureAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0xf094b0 size 0x8 virtual false final false
  void _ctor() ;

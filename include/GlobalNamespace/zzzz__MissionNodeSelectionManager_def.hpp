@@ -3,17 +3,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class MissionNodeVisualController;
-}
-namespace GlobalNamespace {
-class MissionNodesManager;
+class MissionNode;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class MissionNode;
+class MissionNodeVisualController;
+}
+namespace GlobalNamespace {
+class MissionNodesManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +109,7 @@ constexpr GlobalNamespace::MissionNodeVisualController __get__selectedNode() con
 /// @brief Method HandleNodeWasDisplayed addr 0x2149970 size 0x80 virtual false final false
  void HandleNodeWasDisplayed(GlobalNamespace::MissionNodeVisualController missionNode) ;
 
-// Ctor Parameters []
-explicit MissionNodeSelectionManager() ;
+static GlobalNamespace::MissionNodeSelectionManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x21499f0 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,23 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System {
-class IDisposable;
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatusFlags;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElementCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+class X509ChainPolicy;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
+namespace System {
+class IDisposable;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainPolicy;
+class X509Certificate2;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -113,8 +113,7 @@ constexpr explicit X509ChainImpl(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 /// @brief Method Finalize addr 0x27ee268 size 0xa0 virtual true final false
  void Finalize() ;
 
-// Ctor Parameters []
-explicit X509ChainImpl() ;
+static System::Security::Cryptography::X509Certificates::X509ChainImpl New_ctor() ;
 
 /// @brief Method .ctor addr 0x27ee308 size 0x8 virtual false final false
  void _ctor() ;

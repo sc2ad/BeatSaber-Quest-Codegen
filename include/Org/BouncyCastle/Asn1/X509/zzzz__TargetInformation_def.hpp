@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class Target;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class Targets;
+class Target;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::X509 {
+class Targets;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -73,8 +73,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_targets() const;
 /// @brief Method GetInstance addr 0x110dce0 size 0x18c virtual false final false
 static Org::BouncyCastle::Asn1::X509::TargetInformation GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "targets", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit TargetInformation(Org::BouncyCastle::Asn1::Asn1Sequence targets) ;
+static Org::BouncyCastle::Asn1::X509::TargetInformation New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence targets) ;
 
 /// @brief Method .ctor addr 0x110de6c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence targets) ;
@@ -82,14 +81,12 @@ explicit TargetInformation(Org::BouncyCastle::Asn1::Asn1Sequence targets) ;
 /// @brief Method GetTargetsObjects addr 0x110de94 size 0x110 virtual true final false
  ::ArrayW<Org::BouncyCastle::Asn1::X509::Targets> GetTargetsObjects() ;
 
-// Ctor Parameters [CppParam { name: "targets", ty: "Org::BouncyCastle::Asn1::X509::Targets", modifiers: "", def_value: None }]
-explicit TargetInformation(Org::BouncyCastle::Asn1::X509::Targets targets) ;
+static Org::BouncyCastle::Asn1::X509::TargetInformation New_ctor(Org::BouncyCastle::Asn1::X509::Targets targets) ;
 
 /// @brief Method .ctor addr 0x110e130 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::Targets targets) ;
 
-// Ctor Parameters [CppParam { name: "targets", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::Target>", modifiers: "", def_value: None }]
-explicit TargetInformation(::ArrayW<Org::BouncyCastle::Asn1::X509::Target> targets) ;
+static Org::BouncyCastle::Asn1::X509::TargetInformation New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::Target> targets) ;
 
 /// @brief Method .ctor addr 0x110e1ac size 0x70 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::Target> targets) ;

@@ -13,7 +13,7 @@ class MessageWithAssetFileDownloadResult;
 // Type: Oculus.Platform::MessageWithAssetFileDownloadResult
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4432 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13392))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13392)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4432 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13218))
 // CS Name: Oculus.Platform.MessageWithAssetFileDownloadResult
 class CORDL_TYPE MessageWithAssetFileDownloadResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadResult> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithAssetFileDownloadResult(void* ptr) noexcept : Ocul
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithAssetFileDownloadResult(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithAssetFileDownloadResult New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e0b8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

@@ -59,8 +59,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SerializedTypeRestrictionAttribute() ;
+static UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3aad4 size 0x8 virtual false final false
  void _ctor() ;

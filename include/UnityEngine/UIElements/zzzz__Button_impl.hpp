@@ -2,12 +2,13 @@
 #include "UnityEngine/UIElements/zzzz__TextElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Button_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Clickable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits._ctor
 template<>
 
@@ -25,8 +26,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits::UnityEngine__UIElements__Button__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__TextElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Button__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits>::get(),
@@ -191,8 +194,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::Button::Button()  : UnityEngine::UIElements::TextElement(THROW_UNLESS(::il2cpp_utils::New<Button>())) {}
+ UnityEngine::UIElements::Button UnityEngine::UIElements::Button::New_ctor()  {
+UnityEngine::UIElements::Button o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Button>())};
+return o;
+}
  void UnityEngine::UIElements::Button::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Button>::get(),
@@ -202,8 +207,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "clickEvent", ty: "System::Action", modifiers: "", def_value: None }]
- UnityEngine::UIElements::Button::Button(System::Action clickEvent)  : UnityEngine::UIElements::TextElement(THROW_UNLESS(::il2cpp_utils::New<Button>(clickEvent))) {}
+ UnityEngine::UIElements::Button UnityEngine::UIElements::Button::New_ctor(System::Action clickEvent)  {
+UnityEngine::UIElements::Button o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Button>(clickEvent))};
+return o;
+}
  void UnityEngine::UIElements::Button::_ctor(System::Action clickEvent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Button>::get(),
@@ -257,8 +264,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlFactory::UnityEngine__UIElements__Button__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Button,UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Button__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlFactory>::get(),

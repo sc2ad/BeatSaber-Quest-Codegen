@@ -5,22 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Text {
-class Encoding;
-}
-namespace System {
-class IDisposable;
-}
 namespace System {
 class IFormatProvider;
-}
-// Forward declare root types
-namespace System::IO {
-class System__IO__TextWriter__NullTextWriter;
 }
 namespace System::IO {
 class System__IO__TextWriter__SyncTextWriter;
 }
+namespace System::IO {
+class System__IO__TextWriter__NullTextWriter;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Text {
+class Encoding;
+}
+// Forward declare root types
 namespace System::IO {
 class TextWriter;
 }
@@ -115,14 +115,12 @@ constexpr System::IFormatProvider __get__internalFormatProvider() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TextWriter() ;
+static System::IO::TextWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2395ee4 size 0x7c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "formatProvider", ty: "System::IFormatProvider", modifiers: "", def_value: None }]
-explicit TextWriter(System::IFormatProvider formatProvider) ;
+static System::IO::TextWriter New_ctor(System::IFormatProvider formatProvider) ;
 
 /// @brief Method .ctor addr 0x2395748 size 0x88 virtual false final false
  void _ctor(System::IFormatProvider formatProvider) ;
@@ -182,202 +180,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-// Type: ::NullTextWriter
-namespace System::IO {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3572))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3570))
-// CS Name: System.IO.TextWriter::NullTextWriter
-class CORDL_TYPE System__IO__TextWriter__NullTextWriter : public System::IO::TextWriter {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
-
-virtual ~System__IO__TextWriter__NullTextWriter() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__IO__TextWriter__NullTextWriter", modifiers: " const&", def_value: None }]
-constexpr System__IO__TextWriter__NullTextWriter(System__IO__TextWriter__NullTextWriter const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__IO__TextWriter__NullTextWriter", modifiers: "&&", def_value: None }]
-constexpr System__IO__TextWriter__NullTextWriter(System__IO__TextWriter__NullTextWriter&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__IO__TextWriter__NullTextWriter(void* ptr) noexcept : System::IO::TextWriter(ptr) {
-}
-
-
-  constexpr System__IO__TextWriter__NullTextWriter& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__IO__TextWriter__NullTextWriter& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__IO__TextWriter__NullTextWriter& operator=(System__IO__TextWriter__NullTextWriter&& o) noexcept = default;
-  constexpr System__IO__TextWriter__NullTextWriter& operator=(System__IO__TextWriter__NullTextWriter const& o) noexcept = default;
-                
-
-
-// Properties
-
- System::Text::Encoding __declspec(property(get=get_Encoding))  Encoding;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit System__IO__TextWriter__NullTextWriter() ;
-
-/// @brief Method .ctor addr 0x23980a8 size 0x8c virtual false final false
- void _ctor() ;
-
-/// @brief Method get_Encoding addr 0x2398134 size 0x8 virtual true final false
- System::Text::Encoding get_Encoding() ;
-
-/// @brief Method Write addr 0x239813c size 0x4 virtual true final false
- void Write(::ArrayW<char16_t> buffer, int32_t index, int32_t count) ;
-
-/// @brief Method Write addr 0x2398140 size 0x4 virtual true final false
- void Write(::StringW value) ;
-
-/// @brief Method WriteLine addr 0x2398144 size 0x4 virtual true final false
- void WriteLine() ;
-
-/// @brief Method WriteLine addr 0x2398148 size 0x4 virtual true final false
- void WriteLine(::StringW value) ;
-
-/// @brief Method Write addr 0x239814c size 0x4 virtual true final false
- void Write(char16_t value) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::IO
-// Type: ::SyncTextWriter
-namespace System::IO {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3572))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3571))
-// CS Name: System.IO.TextWriter::SyncTextWriter
-class CORDL_TYPE System__IO__TextWriter__SyncTextWriter : public System::IO::TextWriter {
-public:
-// Declarations
-/// @brief Convert operator to System::IDisposable
-constexpr operator  System::IDisposable() const noexcept;
-
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
-
-virtual ~System__IO__TextWriter__SyncTextWriter() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__IO__TextWriter__SyncTextWriter", modifiers: " const&", def_value: None }]
-constexpr System__IO__TextWriter__SyncTextWriter(System__IO__TextWriter__SyncTextWriter const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__IO__TextWriter__SyncTextWriter", modifiers: "&&", def_value: None }]
-constexpr System__IO__TextWriter__SyncTextWriter(System__IO__TextWriter__SyncTextWriter&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__IO__TextWriter__SyncTextWriter(void* ptr) noexcept : System::IO::TextWriter(ptr) {
-}
-
-
-  constexpr System__IO__TextWriter__SyncTextWriter& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__IO__TextWriter__SyncTextWriter& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__IO__TextWriter__SyncTextWriter& operator=(System__IO__TextWriter__SyncTextWriter&& o) noexcept = default;
-  constexpr System__IO__TextWriter__SyncTextWriter& operator=(System__IO__TextWriter__SyncTextWriter const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::IO::TextWriter __declspec(property(get=__get__out, put=__set__out))  _out;
-
-constexpr void __set__out(System::IO::TextWriter value) ;
-
-constexpr System::IO::TextWriter __get__out() const;
-
-
-// Properties
-
- System::Text::Encoding __declspec(property(get=get_Encoding))  Encoding;
-
- System::IFormatProvider __declspec(property(get=get_FormatProvider))  FormatProvider;
-
- ::StringW __declspec(property(get=get_NewLine))  NewLine;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "t", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
-explicit System__IO__TextWriter__SyncTextWriter(System::IO::TextWriter t) ;
-
-/// @brief Method .ctor addr 0x2397f98 size 0x7c virtual false final false
- void _ctor(System::IO::TextWriter t) ;
-
-/// @brief Method get_Encoding addr 0x2398150 size 0x20 virtual true final false
- System::Text::Encoding get_Encoding() ;
-
-/// @brief Method get_FormatProvider addr 0x2398170 size 0x20 virtual true final false
- System::IFormatProvider get_FormatProvider() ;
-
-/// @brief Method get_NewLine addr 0x2398190 size 0x20 virtual true final false
- ::StringW get_NewLine() ;
-
-/// @brief Method Close addr 0x23981b0 size 0x20 virtual true final false
- void Close() ;
-
-/// @brief Method Dispose addr 0x23981d0 size 0xb4 virtual true final false
- void Dispose(bool disposing) ;
-
-/// @brief Method Flush addr 0x2398284 size 0x20 virtual true final false
- void Flush() ;
-
-/// @brief Method Write addr 0x23982a4 size 0x24 virtual true final false
- void Write(char16_t value) ;
-
-/// @brief Method Write addr 0x23982c8 size 0x24 virtual true final false
- void Write(::ArrayW<char16_t> buffer) ;
-
-/// @brief Method Write addr 0x23982ec size 0x24 virtual true final false
- void Write(::ArrayW<char16_t> buffer, int32_t index, int32_t count) ;
-
-/// @brief Method Write addr 0x2398310 size 0x24 virtual true final false
- void Write(::StringW value) ;
-
-/// @brief Method Write addr 0x2398334 size 0x24 virtual true final false
- void Write(::StringW format, ::bs_hook::Il2CppWrapperType arg0, ::bs_hook::Il2CppWrapperType arg1, ::bs_hook::Il2CppWrapperType arg2) ;
-
-/// @brief Method WriteLine addr 0x2398358 size 0x24 virtual true final false
- void WriteLine() ;
-
-/// @brief Method WriteLine addr 0x239837c size 0x24 virtual true final false
- void WriteLine(::ArrayW<char16_t> buffer, int32_t index, int32_t count) ;
-
-/// @brief Method WriteLine addr 0x23983a0 size 0x24 virtual true final false
- void WriteLine(::StringW value) ;
-
-/// @brief Method WriteLine addr 0x23983c4 size 0x24 virtual true final false
- void WriteLine(::StringW format, ::bs_hook::Il2CppWrapperType arg0, ::bs_hook::Il2CppWrapperType arg1, ::bs_hook::Il2CppWrapperType arg2) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::IO
-NEED_NO_BOX(System::IO::System__IO__TextWriter__NullTextWriter);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::System__IO__TextWriter__NullTextWriter, "System.IO", "TextWriter/NullTextWriter");
-NEED_NO_BOX(System::IO::System__IO__TextWriter__SyncTextWriter);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::System__IO__TextWriter__SyncTextWriter, "System.IO", "TextWriter/SyncTextWriter");
 NEED_NO_BOX(System::IO::TextWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter, "System.IO", "TextWriter");

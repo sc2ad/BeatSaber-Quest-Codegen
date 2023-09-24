@@ -1,23 +1,23 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InputActionTrace_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventBuffer_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionChange_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InputActionTrace_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventBuffer_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionChange_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionPhase_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__InputActionTrace__ActionEventPtr.get_action
 template<>
 
@@ -1014,8 +1014,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Utilities::InputActionTrace::InputActionTrace()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputActionTrace>())) {}
+ UnityEngine::InputSystem::Utilities::InputActionTrace UnityEngine::InputSystem::Utilities::InputActionTrace::New_ctor()  {
+UnityEngine::InputSystem::Utilities::InputActionTrace o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::InputActionTrace>())};
+return o;
+}
  void UnityEngine::InputSystem::Utilities::InputActionTrace::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::InputActionTrace>::get(),
@@ -1025,8 +1027,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Utilities::InputActionTrace::InputActionTrace(UnityEngine::InputSystem::InputAction action)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputActionTrace>(action))) {}
+ UnityEngine::InputSystem::Utilities::InputActionTrace UnityEngine::InputSystem::Utilities::InputActionTrace::New_ctor(UnityEngine::InputSystem::InputAction action)  {
+UnityEngine::InputSystem::Utilities::InputActionTrace o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::InputActionTrace>(action))};
+return o;
+}
  void UnityEngine::InputSystem::Utilities::InputActionTrace::_ctor(UnityEngine::InputSystem::InputAction action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::InputActionTrace>::get(),
@@ -1036,8 +1040,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action);
 }
-// Ctor Parameters [CppParam { name: "actionMap", ty: "UnityEngine::InputSystem::InputActionMap", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Utilities::InputActionTrace::InputActionTrace(UnityEngine::InputSystem::InputActionMap actionMap)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputActionTrace>(actionMap))) {}
+ UnityEngine::InputSystem::Utilities::InputActionTrace UnityEngine::InputSystem::Utilities::InputActionTrace::New_ctor(UnityEngine::InputSystem::InputActionMap actionMap)  {
+UnityEngine::InputSystem::Utilities::InputActionTrace o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::InputActionTrace>(actionMap))};
+return o;
+}
  void UnityEngine::InputSystem::Utilities::InputActionTrace::_ctor(UnityEngine::InputSystem::InputActionMap actionMap)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::InputActionTrace>::get(),

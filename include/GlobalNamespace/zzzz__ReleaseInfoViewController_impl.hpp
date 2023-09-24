@@ -1,9 +1,9 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ReleaseInfoViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
+#include "HMUI/zzzz__TextPageScrollView_def.hpp"
+#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ReleaseInfoViewController.DidActivate
 template<>
 
@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-// Ctor Parameters []
- GlobalNamespace::ReleaseInfoViewController::ReleaseInfoViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<ReleaseInfoViewController>())) {}
+ GlobalNamespace::ReleaseInfoViewController GlobalNamespace::ReleaseInfoViewController::New_ctor()  {
+GlobalNamespace::ReleaseInfoViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ReleaseInfoViewController>())};
+return o;
+}
  void GlobalNamespace::ReleaseInfoViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ReleaseInfoViewController>::get(),

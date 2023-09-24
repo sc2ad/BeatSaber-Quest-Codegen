@@ -2,15 +2,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerInGameMenuController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerInGameMenuViewController_def.hpp"
-#include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
+#include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerInGameMenuController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerInGameMenuViewController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0._ctor
 template<>
 
@@ -51,8 +51,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInG
 constexpr bool GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0::__get_value() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0>::get(),
@@ -648,8 +650,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::MultiplayerLocalActivePlayerInGameMenuController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalActivePlayerInGameMenuController>())) {}
+ GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::New_ctor()  {
+GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController>::get(),

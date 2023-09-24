@@ -3,11 +3,11 @@
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace UnityEngine::Events {
-class UnityAction;
-}
 namespace System::Reflection {
 class MethodInfo;
+}
+namespace UnityEngine::Events {
+class UnityAction;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -70,14 +70,12 @@ constexpr UnityEngine::Events::UnityAction __get_Delegate() const;
 /// @brief Method remove_Delegate addr 0x2b7f504 size 0x9c virtual false final false
  void remove_Delegate(UnityEngine::Events::UnityAction value) ;
 
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }]
-explicit InvokableCall(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
+static UnityEngine::Events::InvokableCall New_ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
 
 /// @brief Method .ctor addr 0x2b7f5a0 size 0xe8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "UnityEngine::Events::UnityAction", modifiers: "", def_value: None }]
-explicit InvokableCall(UnityEngine::Events::UnityAction action) ;
+static UnityEngine::Events::InvokableCall New_ctor(UnityEngine::Events::UnityAction action) ;
 
 /// @brief Method .ctor addr 0x2b7f688 size 0x2c virtual false final false
  void _ctor(UnityEngine::Events::UnityAction action) ;

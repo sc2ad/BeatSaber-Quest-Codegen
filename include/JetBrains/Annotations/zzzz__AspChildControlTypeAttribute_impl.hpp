@@ -99,8 +99,10 @@ constexpr void JetBrains::Annotations::AspChildControlTypeAttribute::__set__Cont
 constexpr System::Type JetBrains::Annotations::AspChildControlTypeAttribute::__get__ControlType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tagName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "controlType", ty: "System::Type", modifiers: "", def_value: None }]
- JetBrains::Annotations::AspChildControlTypeAttribute::AspChildControlTypeAttribute(::StringW tagName, System::Type controlType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspChildControlTypeAttribute>(tagName, controlType))) {}
+ JetBrains::Annotations::AspChildControlTypeAttribute JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor(::StringW tagName, System::Type controlType)  {
+JetBrains::Annotations::AspChildControlTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspChildControlTypeAttribute>(tagName, controlType))};
+return o;
+}
  void JetBrains::Annotations::AspChildControlTypeAttribute::_ctor(::StringW tagName, System::Type controlType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspChildControlTypeAttribute>::get(),

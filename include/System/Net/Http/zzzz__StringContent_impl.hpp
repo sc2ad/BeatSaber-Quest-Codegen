@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "content", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Http::StringContent::StringContent(::StringW content)  : System::Net::Http::ByteArrayContent(THROW_UNLESS(::il2cpp_utils::New<StringContent>(content))) {}
+ System::Net::Http::StringContent System::Net::Http::StringContent::New_ctor(::StringW content)  {
+System::Net::Http::StringContent o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::StringContent>(content))};
+return o;
+}
  void System::Net::Http::StringContent::_ctor(::StringW content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::StringContent>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, content);
 }
-// Ctor Parameters [CppParam { name: "content", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "mediaType", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Http::StringContent::StringContent(::StringW content, System::Text::Encoding encoding, ::StringW mediaType)  : System::Net::Http::ByteArrayContent(THROW_UNLESS(::il2cpp_utils::New<StringContent>(content, encoding, mediaType))) {}
+ System::Net::Http::StringContent System::Net::Http::StringContent::New_ctor(::StringW content, System::Text::Encoding encoding, ::StringW mediaType)  {
+System::Net::Http::StringContent o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::StringContent>(content, encoding, mediaType))};
+return o;
+}
  void System::Net::Http::StringContent::_ctor(::StringW content, System::Text::Encoding encoding, ::StringW mediaType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::StringContent>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__Test_Gradient_def.hpp"
-#include "UnityEngine/zzzz__Gradient_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "UnityEngine/zzzz__Gradient_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::Test_Gradient._ctor
 template<>
 
@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::Test_Gradient::__set_self(UnityEngine::Gradie
 constexpr UnityEngine::Gradient HoudiniEngineUnity::Test_Gradient::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Gradient, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Gradient", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_Gradient::Test_Gradient(UnityEngine::Gradient self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_Gradient>(self))) {}
+ HoudiniEngineUnity::Test_Gradient HoudiniEngineUnity::Test_Gradient::New_ctor(UnityEngine::Gradient self)  {
+HoudiniEngineUnity::Test_Gradient o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_Gradient>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_Gradient::_ctor(UnityEngine::Gradient self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_Gradient>::get(),

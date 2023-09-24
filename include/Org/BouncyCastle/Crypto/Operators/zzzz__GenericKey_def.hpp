@@ -74,20 +74,17 @@ constexpr ::bs_hook::Il2CppWrapperType __get_representation() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "representation", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit GenericKey(::bs_hook::Il2CppWrapperType representation) ;
+static Org::BouncyCastle::Crypto::Operators::GenericKey New_ctor(::bs_hook::Il2CppWrapperType representation) ;
 
 /// @brief Method .ctor addr 0xea0f40 size 0x28 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType representation) ;
 
-// Ctor Parameters [CppParam { name: "algorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "representation", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit GenericKey(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::ArrayW<uint8_t> representation) ;
+static Org::BouncyCastle::Crypto::Operators::GenericKey New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::ArrayW<uint8_t> representation) ;
 
 /// @brief Method .ctor addr 0xea0f68 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::ArrayW<uint8_t> representation) ;
 
-// Ctor Parameters [CppParam { name: "algorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "representation", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit GenericKey(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::bs_hook::Il2CppWrapperType representation) ;
+static Org::BouncyCastle::Crypto::Operators::GenericKey New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::bs_hook::Il2CppWrapperType representation) ;
 
 /// @brief Method .ctor addr 0xea0f94 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::bs_hook::Il2CppWrapperType representation) ;

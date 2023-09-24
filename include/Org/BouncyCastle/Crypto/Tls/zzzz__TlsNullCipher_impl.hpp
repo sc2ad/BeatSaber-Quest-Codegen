@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsNullCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsMac_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsMac_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsNullCipher._ctor
 template<>
 
@@ -111,8 +111,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsNullCipher::__set_readMac(Org:
 constexpr Org::BouncyCastle::Crypto::Tls::TlsMac Org::BouncyCastle::Crypto::Tls::TlsNullCipher::__get_readMac() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::TlsMac, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsNullCipher::TlsNullCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsNullCipher>(context))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsNullCipher Org::BouncyCastle::Crypto::Tls::TlsNullCipher::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context)  {
+Org::BouncyCastle::Crypto::Tls::TlsNullCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsNullCipher>(context))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsNullCipher::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsNullCipher>::get(),
@@ -122,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, context);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "serverWriteDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsNullCipher::TlsNullCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsNullCipher>(context, clientWriteDigest, serverWriteDigest))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsNullCipher Org::BouncyCastle::Crypto::Tls::TlsNullCipher::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest)  {
+Org::BouncyCastle::Crypto::Tls::TlsNullCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsNullCipher>(context, clientWriteDigest, serverWriteDigest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsNullCipher::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsNullCipher>::get(),

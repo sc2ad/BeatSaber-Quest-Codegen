@@ -160,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Bson::BsonToken::BsonToken()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BsonToken>())) {}
+ Newtonsoft::Json::Bson::BsonToken Newtonsoft::Json::Bson::BsonToken::New_ctor()  {
+Newtonsoft::Json::Bson::BsonToken o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonToken>())};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonToken::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonToken>::get(),

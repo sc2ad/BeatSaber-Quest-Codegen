@@ -67,8 +67,7 @@ constexpr explicit JPropertyDescriptor(void* ptr) noexcept : System::ComponentMo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JPropertyDescriptor(::StringW name) ;
+static Newtonsoft::Json::Linq::JPropertyDescriptor New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2517928 size 0xc virtual false final false
  void _ctor(::StringW name) ;

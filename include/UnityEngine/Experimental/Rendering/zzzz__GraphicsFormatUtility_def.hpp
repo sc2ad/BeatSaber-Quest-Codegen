@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct RenderTextureFormat;
-}
-namespace UnityEngine {
-struct TextureFormat;
-}
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine {
+struct TextureFormat;
+}
+namespace UnityEngine {
 struct RenderTextureReadWrite;
+}
+namespace UnityEngine {
+struct RenderTextureFormat;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {

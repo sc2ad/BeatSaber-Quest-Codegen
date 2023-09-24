@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__FormatException_impl.hpp"
 #include "System/Net/zzzz__CookieException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 //  Writing Method size for method: System::Net::CookieException._ctor
 template<>
 
@@ -111,8 +111,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 constexpr  System::Net::CookieException::operator System::Runtime::Serialization::ISerializable() const noexcept {
 return System::Runtime::Serialization::ISerializable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::CookieException::CookieException()  : System::FormatException(THROW_UNLESS(::il2cpp_utils::New<CookieException>())) {}
+ System::Net::CookieException System::Net::CookieException::New_ctor()  {
+System::Net::CookieException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::CookieException>())};
+return o;
+}
  void System::Net::CookieException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CookieException>::get(),
@@ -122,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::CookieException::CookieException(::StringW message)  : System::FormatException(THROW_UNLESS(::il2cpp_utils::New<CookieException>(message))) {}
+ System::Net::CookieException System::Net::CookieException::New_ctor(::StringW message)  {
+System::Net::CookieException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::CookieException>(message))};
+return o;
+}
  void System::Net::CookieException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CookieException>::get(),
@@ -133,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
- System::Net::CookieException::CookieException(::StringW message, System::Exception inner)  : System::FormatException(THROW_UNLESS(::il2cpp_utils::New<CookieException>(message, inner))) {}
+ System::Net::CookieException System::Net::CookieException::New_ctor(::StringW message, System::Exception inner)  {
+System::Net::CookieException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::CookieException>(message, inner))};
+return o;
+}
  void System::Net::CookieException::_ctor(::StringW message, System::Exception inner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CookieException>::get(),
@@ -144,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, inner);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::CookieException::CookieException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::FormatException(THROW_UNLESS(::il2cpp_utils::New<CookieException>(serializationInfo, streamingContext))) {}
+ System::Net::CookieException System::Net::CookieException::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::CookieException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::CookieException>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::CookieException::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CookieException>::get(),

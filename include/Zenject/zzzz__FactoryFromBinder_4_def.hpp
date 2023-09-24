@@ -4,28 +4,36 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class ConditionCopyNonLazyBinder;
+class BindInfo;
 }
 namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TContract>
-class FactorySubContainerBinder_4;
-}
-namespace Zenject {
-class DiContainer;
+template<typename TParam1,typename TParam2,typename TParam3,typename TContract,typename TSubFactory>
+class Zenject__FactoryFromBinder_4____c__2_1;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4,typename TResult>
 class Func_5;
 }
 namespace Zenject {
-class BindInfo;
+template<typename TParam1,typename TParam2,typename TParam3,typename TContract>
+class FactorySubContainerBinder_4;
 }
 namespace Zenject {
 class FactoryBindInfo;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TContract>
+class Zenject__FactoryFromBinder_4____c__DisplayClass1_0;
+}
+namespace Zenject {
+class ConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+template<typename TContract>
+class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TValue>
@@ -34,9 +42,9 @@ class IFactory_4;
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace Zenject {
-template<typename TContract>
-class ConcreteBinderGeneric_1;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace Zenject {
 class IProvider;
@@ -122,8 +130,7 @@ constexpr System::Func_5<Zenject::DiContainer,TParam1,TParam2,TParam3,TContract>
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder_4____c__DisplayClass1_0() ;
+static Zenject::Zenject__FactoryFromBinder_4____c__DisplayClass1_0<TParam1,TParam2,TParam3,TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -200,8 +207,7 @@ static System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_4<TPa
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder_4____c__2_1() ;
+static Zenject::Zenject__FactoryFromBinder_4____c__2_1<TParam1,TParam2,TParam3,TContract,TSubFactory> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -224,7 +230,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10788)), TypeDefinitionIndex(TypeDefinitionIndex(10689))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10689)), TypeDefinitionIndex(TypeDefinitionIndex(10788))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10689), inst: 5937 })
 // CS Name: Zenject.FactoryFromBinder`4
 class CORDL_TYPE FactoryFromBinder_4<TParam1,TParam2,TParam3,TContract> : public Zenject::FactoryFromBinderBase {
@@ -268,8 +274,7 @@ constexpr explicit FactoryFromBinder_4(void* ptr) noexcept : Zenject::FactoryFro
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryFromBinder_4(Zenject::DiContainer container, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::FactoryFromBinder_4<TParam1,TParam2,TParam3,TContract> New_ctor(Zenject::DiContainer container, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

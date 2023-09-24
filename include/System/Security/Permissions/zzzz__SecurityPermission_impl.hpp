@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/zzzz__CodeAccessPermission_impl.hpp"
 #include "System/Security/Permissions/zzzz__SecurityPermission_def.hpp"
-#include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/Security/Permissions/zzzz__SecurityPermissionFlag_def.hpp"
-#include "System/Security/zzzz__IPermission_def.hpp"
 #include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
+#include "System/Security/zzzz__IPermission_def.hpp"
+#include "System/Security/zzzz__SecurityElement_def.hpp"
 //  Writing Method size for method: System::Security::Permissions::SecurityPermission._ctor
 template<>
 
@@ -147,8 +147,10 @@ constexpr void System::Security::Permissions::SecurityPermission::__set_flags(Sy
 constexpr System::Security::Permissions::SecurityPermissionFlag System::Security::Permissions::SecurityPermission::__get_flags() const {
 return ::cordl_internals::getInstanceField<System::Security::Permissions::SecurityPermissionFlag, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "state", ty: "System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
- System::Security::Permissions::SecurityPermission::SecurityPermission(System::Security::Permissions::PermissionState state)  : System::Security::CodeAccessPermission(THROW_UNLESS(::il2cpp_utils::New<SecurityPermission>(state))) {}
+ System::Security::Permissions::SecurityPermission System::Security::Permissions::SecurityPermission::New_ctor(System::Security::Permissions::PermissionState state)  {
+System::Security::Permissions::SecurityPermission o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Permissions::SecurityPermission>(state))};
+return o;
+}
  void System::Security::Permissions::SecurityPermission::_ctor(System::Security::Permissions::PermissionState state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Permissions::SecurityPermission>::get(),
@@ -158,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters [CppParam { name: "flag", ty: "System::Security::Permissions::SecurityPermissionFlag", modifiers: "", def_value: None }]
- System::Security::Permissions::SecurityPermission::SecurityPermission(System::Security::Permissions::SecurityPermissionFlag flag)  : System::Security::CodeAccessPermission(THROW_UNLESS(::il2cpp_utils::New<SecurityPermission>(flag))) {}
+ System::Security::Permissions::SecurityPermission System::Security::Permissions::SecurityPermission::New_ctor(System::Security::Permissions::SecurityPermissionFlag flag)  {
+System::Security::Permissions::SecurityPermission o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Permissions::SecurityPermission>(flag))};
+return o;
+}
  void System::Security::Permissions::SecurityPermission::_ctor(System::Security::Permissions::SecurityPermissionFlag flag)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Permissions::SecurityPermission>::get(),

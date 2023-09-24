@@ -2,11 +2,12 @@
 #include "HMUI/zzzz__ContainerViewController_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "HMUI/zzzz__NavigationController_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HMUI/zzzz__NavigationController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__NavigationController__Orientation::HMUI__NavigationController__Orientation(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -88,8 +89,10 @@ constexpr void HMUI::HMUI__NavigationController____c__DisplayClass8_0::__set_end
 constexpr ::ArrayW<float_t> HMUI::HMUI__NavigationController____c__DisplayClass8_0::__get_endPositions() const {
 return ::cordl_internals::getInstanceField<::ArrayW<float_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__NavigationController____c__DisplayClass8_0::HMUI__NavigationController____c__DisplayClass8_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__NavigationController____c__DisplayClass8_0>())) {}
+ HMUI::HMUI__NavigationController____c__DisplayClass8_0 HMUI::HMUI__NavigationController____c__DisplayClass8_0::New_ctor()  {
+HMUI::HMUI__NavigationController____c__DisplayClass8_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__NavigationController____c__DisplayClass8_0>())};
+return o;
+}
  void HMUI::HMUI__NavigationController____c__DisplayClass8_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__NavigationController____c__DisplayClass8_0>::get(),
@@ -166,8 +169,10 @@ constexpr void HMUI::HMUI__NavigationController____c__DisplayClass10_0::__set_mo
 constexpr float_t HMUI::HMUI__NavigationController____c__DisplayClass10_0::__get_moveOffset() const {
 return ::cordl_internals::getInstanceField<float_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__NavigationController____c__DisplayClass10_0::HMUI__NavigationController____c__DisplayClass10_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__NavigationController____c__DisplayClass10_0>())) {}
+ HMUI::HMUI__NavigationController____c__DisplayClass10_0 HMUI::HMUI__NavigationController____c__DisplayClass10_0::New_ctor()  {
+HMUI::HMUI__NavigationController____c__DisplayClass10_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__NavigationController____c__DisplayClass10_0>())};
+return o;
+}
  void HMUI::HMUI__NavigationController____c__DisplayClass10_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__NavigationController____c__DisplayClass10_0>::get(),
@@ -418,8 +423,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<float_t>, false>(const_cast<void*>(instance), ___internal_method, viewControllers, fixedViewControllers, fixedEndPos);
 }
-// Ctor Parameters []
- HMUI::NavigationController::NavigationController()  : HMUI::ContainerViewController(THROW_UNLESS(::il2cpp_utils::New<NavigationController>())) {}
+ HMUI::NavigationController HMUI::NavigationController::New_ctor()  {
+HMUI::NavigationController o{THROW_UNLESS(::il2cpp_utils::New<HMUI::NavigationController>())};
+return o;
+}
  void HMUI::NavigationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::NavigationController>::get(),

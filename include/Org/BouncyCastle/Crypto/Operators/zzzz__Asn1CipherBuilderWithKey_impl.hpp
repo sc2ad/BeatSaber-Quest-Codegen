@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__Asn1CipherBuilderWithKey_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipher_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilder_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilder_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey._ctor
 template<>
 
@@ -114,8 +114,10 @@ constexpr void Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey::_
 constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey::__get_algorithmIdentifier() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encryptionOID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey::Asn1CipherBuilderWithKey(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize, Org::BouncyCastle::Security::SecureRandom random)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1CipherBuilderWithKey>(encryptionOID, keySize, random))) {}
+ Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize, Org::BouncyCastle::Security::SecureRandom random)  {
+Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey>(encryptionOID, keySize, random))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize, Org::BouncyCastle::Security::SecureRandom random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey>::get(),

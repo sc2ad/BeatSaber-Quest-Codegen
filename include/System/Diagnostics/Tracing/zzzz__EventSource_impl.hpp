@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventKeywords_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventLevel_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
 //  Writing Method size for method: System::Diagnostics::Tracing::System__Diagnostics__Tracing__EventSource__EventData.set_DataPointer
 template<>
 
@@ -388,8 +389,10 @@ constexpr void System::Diagnostics::Tracing::EventSource::__set__Name_k__Backing
 constexpr ::StringW System::Diagnostics::Tracing::EventSource::__get__Name_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Diagnostics::Tracing::EventSource::EventSource()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventSource>())) {}
+ System::Diagnostics::Tracing::EventSource System::Diagnostics::Tracing::EventSource::New_ctor()  {
+System::Diagnostics::Tracing::EventSource o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Tracing::EventSource>())};
+return o;
+}
  void System::Diagnostics::Tracing::EventSource::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Tracing::EventSource>::get(),
@@ -399,8 +402,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "eventSourceName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Diagnostics::Tracing::EventSource::EventSource(::StringW eventSourceName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventSource>(eventSourceName))) {}
+ System::Diagnostics::Tracing::EventSource System::Diagnostics::Tracing::EventSource::New_ctor(::StringW eventSourceName)  {
+System::Diagnostics::Tracing::EventSource o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Tracing::EventSource>(eventSourceName))};
+return o;
+}
  void System::Diagnostics::Tracing::EventSource::_ctor(::StringW eventSourceName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Tracing::EventSource>::get(),
@@ -410,8 +415,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, eventSourceName);
 }
-// Ctor Parameters [CppParam { name: "eventSourceGuid", ty: "System::Guid", modifiers: "", def_value: None }, CppParam { name: "eventSourceName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Diagnostics::Tracing::EventSource::EventSource(System::Guid eventSourceGuid, ::StringW eventSourceName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventSource>(eventSourceGuid, eventSourceName))) {}
+ System::Diagnostics::Tracing::EventSource System::Diagnostics::Tracing::EventSource::New_ctor(System::Guid eventSourceGuid, ::StringW eventSourceName)  {
+System::Diagnostics::Tracing::EventSource o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Tracing::EventSource>(eventSourceGuid, eventSourceName))};
+return o;
+}
  void System::Diagnostics::Tracing::EventSource::_ctor(System::Guid eventSourceGuid, ::StringW eventSourceName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Tracing::EventSource>::get(),

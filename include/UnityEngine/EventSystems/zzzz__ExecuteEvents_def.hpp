@@ -4,81 +4,85 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace UnityEngine::EventSystems {
-class IScrollHandler;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine {
-class Transform;
+class ISubmitHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerMoveHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDropHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDeselectHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine {
-class Component;
+class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
 class IEndDragHandler;
 }
 namespace UnityEngine::EventSystems {
-class ISelectHandler;
+class IPointerMoveHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDropHandler;
+}
+namespace UnityEngine::EventSystems {
+template<typename T1>
+class UnityEngine__EventSystems__ExecuteEvents__EventFunction_1;
+}
+namespace UnityEngine::EventSystems {
+class IUpdateSelectedHandler;
 }
 namespace UnityEngine::EventSystems {
 class IMoveHandler;
 }
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Component;
+}
 namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IScrollHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDeselectHandler;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISelectHandler;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
+class IPointerDownHandler;
 }
 namespace System {
 class IAsyncResult;
@@ -448,7 +452,7 @@ namespace UnityEngine::EventSystems {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13135)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(13135))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13135), inst: 2 })
 // CS Name: UnityEngine.EventSystems.ExecuteEvents::EventFunction`1
 class CORDL_TYPE UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1> : public System::MulticastDelegate {
@@ -487,8 +491,7 @@ constexpr explicit UnityEngine__EventSystems__ExecuteEvents__EventFunction_1(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__EventSystems__ExecuteEvents__EventFunction_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

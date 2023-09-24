@@ -66,8 +66,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers::__get_id_ct_encKeyWithID()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "id_ct_encKeyWithID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers::CrmfObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CrmfObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers>::get(),

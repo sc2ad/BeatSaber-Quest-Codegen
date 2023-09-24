@@ -7,6 +7,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+template<typename TValue>
+struct System__Xml__Linq__XHashtable_1__XHashtableState__Entry;
+}
+namespace System::Xml::Linq {
+template<typename TValue>
+class System__Xml__Linq__XHashtable_1__ExtractKeyDelegate;
+}
+namespace System::Xml::Linq {
+template<typename TValue>
+class System__Xml__Linq__XHashtable_1__XHashtableState;
+}
 // Forward declare root types
 namespace System::Xml::Linq {
 template<typename TValue>
@@ -150,8 +162,7 @@ constexpr explicit System__Xml__Linq__XHashtable_1__ExtractKeyDelegate(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Xml__Linq__XHashtable_1__ExtractKeyDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Xml::Linq::System__Xml__Linq__XHashtable_1__ExtractKeyDelegate<TValue> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -236,8 +247,7 @@ constexpr System::Xml::Linq::System__Xml__Linq__XHashtable_1__ExtractKeyDelegate
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "extractKey", ty: "System::Xml::Linq::System__Xml__Linq__XHashtable_1__ExtractKeyDelegate<TValue>", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Xml__Linq__XHashtable_1__XHashtableState(System::Xml::Linq::System__Xml__Linq__XHashtable_1__ExtractKeyDelegate<TValue> extractKey, int32_t capacity) ;
+static System::Xml::Linq::System__Xml__Linq__XHashtable_1__XHashtableState<TValue> New_ctor(System::Xml::Linq::System__Xml__Linq__XHashtable_1__ExtractKeyDelegate<TValue> extractKey, int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Xml::Linq::System__Xml__Linq__XHashtable_1__ExtractKeyDelegate<TValue> extractKey, int32_t capacity) ;
@@ -318,8 +328,7 @@ constexpr System::Xml::Linq::System__Xml__Linq__XHashtable_1__XHashtableState<TV
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "extractKey", ty: "System::Xml::Linq::System__Xml__Linq__XHashtable_1__ExtractKeyDelegate<TValue>", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit XHashtable_1(System::Xml::Linq::System__Xml__Linq__XHashtable_1__ExtractKeyDelegate<TValue> extractKey, int32_t capacity) ;
+static System::Xml::Linq::XHashtable_1<TValue> New_ctor(System::Xml::Linq::System__Xml__Linq__XHashtable_1__ExtractKeyDelegate<TValue> extractKey, int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Xml::Linq::System__Xml__Linq__XHashtable_1__ExtractKeyDelegate<TValue> extractKey, int32_t capacity) ;

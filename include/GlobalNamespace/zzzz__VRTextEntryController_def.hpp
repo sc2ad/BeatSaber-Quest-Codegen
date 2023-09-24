@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -17,12 +17,15 @@ class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class GlobalNamespace__VRTextEntryController___BlinkCursor_d__23;
 }
 namespace GlobalNamespace {
 class UIKeyboard;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -122,8 +125,7 @@ constexpr UnityEngine::Color __get__cursorColor_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VRTextEntryController___BlinkCursor_d__23(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x212e740 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -300,8 +302,7 @@ constexpr bool __get__stopBlinkingCursor() const;
 /// @brief Method HandleUIKeyboardDeleteButtonWasPressed addr 0x212e864 size 0x134 virtual false final false
  void HandleUIKeyboardDeleteButtonWasPressed() ;
 
-// Ctor Parameters []
-explicit VRTextEntryController() ;
+static GlobalNamespace::VRTextEntryController New_ctor() ;
 
 /// @brief Method .ctor addr 0x212e998 size 0x10 virtual false final false
  void _ctor() ;

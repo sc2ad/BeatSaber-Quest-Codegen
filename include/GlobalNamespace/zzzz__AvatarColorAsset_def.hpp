@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 namespace UnityEngine::Timeline {
-struct ClipCaps;
+class ITimelineClipAsset;
 }
 namespace GlobalNamespace {
 class AvatarColorBehaviour;
 }
 namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
+struct ClipCaps;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
@@ -88,8 +88,7 @@ constexpr GlobalNamespace::AvatarColorBehaviour __get__template() const;
 /// @brief Method CreatePlayable addr 0x21b16a8 size 0xa8 virtual true final false
  UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
-// Ctor Parameters []
-explicit AvatarColorAsset() ;
+static GlobalNamespace::AvatarColorAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1750 size 0x8 virtual false final false
  void _ctor() ;

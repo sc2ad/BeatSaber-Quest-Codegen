@@ -1,13 +1,14 @@
 #pragma once
 #include "System/Threading/zzzz__ThreadPool_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/Threading/zzzz__WaitCallback_def.hpp"
-#include "System/Threading/zzzz__RegisteredWaitHandle_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
-#include "System/Threading/zzzz__WaitOrTimerCallback_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/Threading/zzzz__ThreadPool_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
+#include "System/Threading/zzzz__RegisteredWaitHandle_def.hpp"
+#include "System/Threading/zzzz__WaitCallback_def.hpp"
+#include "System/Threading/zzzz__WaitOrTimerCallback_def.hpp"
+#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: System::Threading::ThreadPool.RegisterWaitForSingleObject
 template<>
 
@@ -491,60 +492,28 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-//  Writing Method size for method: System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1::*)()>(&System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1._QueueUserWorkItem_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1::*)(::bs_hook::Il2CppWrapperType)>(&System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1::_QueueUserWorkItem_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1>::get(),
-                            "<QueueUserWorkItem>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1::__set_callBack(System::Action_1<TState> value)  {
+constexpr void System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>::__set_callBack(System::Action_1<TState> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<TState>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<TState>>(value));
 }
-constexpr System::Action_1<TState> System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1::__get_callBack() const {
+constexpr System::Action_1<TState> System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>::__get_callBack() const {
 return ::cordl_internals::getInstanceField<System::Action_1<TState>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1::System__Threading__ThreadPool____c__DisplayClass17_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__ThreadPool____c__DisplayClass17_0_1>())) {}
- void System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1::_ctor()  {
+ System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState> System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>::New_ctor()  {
+System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState> o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>>())};
+return o;
+}
+ void System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1::_QueueUserWorkItem_b__0(::bs_hook::Il2CppWrapperType x)  {
+ void System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>::_QueueUserWorkItem_b__0(::bs_hook::Il2CppWrapperType x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState>>::get(),
                             "<QueueUserWorkItem>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}

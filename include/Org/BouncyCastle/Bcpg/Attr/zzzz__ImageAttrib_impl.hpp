@@ -2,6 +2,7 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Attr/zzzz__ImageAttrib_def.hpp"
+#include "Org/BouncyCastle/Bcpg/Attr/zzzz__ImageAttrib_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format(uint8_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -161,8 +162,10 @@ constexpr void Org::BouncyCastle::Bcpg::Attr::ImageAttrib::__set_imageData(::Arr
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Bcpg::Attr::ImageAttrib::__get_imageData() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Attr::ImageAttrib::ImageAttrib(::ArrayW<uint8_t> data)  : Org::BouncyCastle::Bcpg::UserAttributeSubpacket(THROW_UNLESS(::il2cpp_utils::New<ImageAttrib>(data))) {}
+ Org::BouncyCastle::Bcpg::Attr::ImageAttrib Org::BouncyCastle::Bcpg::Attr::ImageAttrib::New_ctor(::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::Attr::ImageAttrib o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Attr::ImageAttrib>(data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Attr::ImageAttrib::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Attr::ImageAttrib>::get(),
@@ -172,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data);
 }
-// Ctor Parameters [CppParam { name: "forceLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Attr::ImageAttrib::ImageAttrib(bool forceLongLength, ::ArrayW<uint8_t> data)  : Org::BouncyCastle::Bcpg::UserAttributeSubpacket(THROW_UNLESS(::il2cpp_utils::New<ImageAttrib>(forceLongLength, data))) {}
+ Org::BouncyCastle::Bcpg::Attr::ImageAttrib Org::BouncyCastle::Bcpg::Attr::ImageAttrib::New_ctor(bool forceLongLength, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::Attr::ImageAttrib o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Attr::ImageAttrib>(forceLongLength, data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Attr::ImageAttrib::_ctor(bool forceLongLength, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Attr::ImageAttrib>::get(),
@@ -183,8 +188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, forceLongLength, data);
 }
-// Ctor Parameters [CppParam { name: "imageType", ty: "Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format", modifiers: "", def_value: None }, CppParam { name: "imageData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Attr::ImageAttrib::ImageAttrib(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData)  : Org::BouncyCastle::Bcpg::UserAttributeSubpacket(THROW_UNLESS(::il2cpp_utils::New<ImageAttrib>(imageType, imageData))) {}
+ Org::BouncyCastle::Bcpg::Attr::ImageAttrib Org::BouncyCastle::Bcpg::Attr::ImageAttrib::New_ctor(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData)  {
+Org::BouncyCastle::Bcpg::Attr::ImageAttrib o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Attr::ImageAttrib>(imageType, imageData))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Attr::ImageAttrib::_ctor(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Attr::ImageAttrib>::get(),

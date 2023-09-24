@@ -6,31 +6,31 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
-class DerUtcTime;
+class DerGeneralizedTime;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class TbsCertificateList;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
+class DerUtcTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -123,8 +123,7 @@ constexpr System::Collections::IList __get_crlEntries() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit V2TbsCertListGenerator() ;
+static Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x11115a0 size 0x6c virtual false final false
  void _ctor() ;

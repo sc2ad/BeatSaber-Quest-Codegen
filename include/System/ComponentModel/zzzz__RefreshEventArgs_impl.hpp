@@ -25,8 +25,10 @@ constexpr void System::ComponentModel::RefreshEventArgs::__set__TypeChanged_k__B
 constexpr System::Type System::ComponentModel::RefreshEventArgs::__get__TypeChanged_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "typeChanged", ty: "System::Type", modifiers: "", def_value: None }]
- System::ComponentModel::RefreshEventArgs::RefreshEventArgs(System::Type typeChanged)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<RefreshEventArgs>(typeChanged))) {}
+ System::ComponentModel::RefreshEventArgs System::ComponentModel::RefreshEventArgs::New_ctor(System::Type typeChanged)  {
+System::ComponentModel::RefreshEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::RefreshEventArgs>(typeChanged))};
+return o;
+}
  void System::ComponentModel::RefreshEventArgs::_ctor(System::Type typeChanged)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::RefreshEventArgs>::get(),

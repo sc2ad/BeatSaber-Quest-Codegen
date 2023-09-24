@@ -2,21 +2,20 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
-#include "HMUI/zzzz__TableCell_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HMUI/zzzz__TableCell_def.hpp"
+#include "HMUI/zzzz__ITableCellOwner_def.hpp"
+#include "HMUI/zzzz__TableView_def.hpp"
 #include "HMUI/zzzz__ScrollView_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "HMUI/zzzz__TableViewSelectionType_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "HMUI/zzzz__ITableCellOwner_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "HMUI/zzzz__TableViewSelectionType_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__TableView__TableType::HMUI__TableView__TableType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -121,8 +120,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<HMUI::TableCell>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::HMUI__TableView__CellsGroup::HMUI__TableView__CellsGroup()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__TableView__CellsGroup>())) {}
+ HMUI::HMUI__TableView__CellsGroup HMUI::HMUI__TableView__CellsGroup::New_ctor()  {
+HMUI::HMUI__TableView__CellsGroup o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__TableView__CellsGroup>())};
+return o;
+}
  void HMUI::HMUI__TableView__CellsGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__TableView__CellsGroup>::get(),
@@ -1598,8 +1599,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, axis, size);
 }
-// Ctor Parameters []
- HMUI::TableView::TableView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TableView>())) {}
+ HMUI::TableView HMUI::TableView::New_ctor()  {
+HMUI::TableView o{THROW_UNLESS(::il2cpp_utils::New<HMUI::TableView>())};
+return o;
+}
  void HMUI::TableView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::TableView>::get(),

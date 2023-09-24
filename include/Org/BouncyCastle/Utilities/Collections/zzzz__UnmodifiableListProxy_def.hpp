@@ -3,14 +3,14 @@
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableList_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-class Array;
+namespace System::Collections {
+class IList;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections {
-class IList;
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -78,8 +78,7 @@ constexpr System::Collections::IList __get_l() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "l", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit UnmodifiableListProxy(System::Collections::IList l) ;
+static Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy New_ctor(System::Collections::IList l) ;
 
 /// @brief Method .ctor addr 0x10cb3a8 size 0x28 virtual false final false
  void _ctor(System::Collections::IList l) ;

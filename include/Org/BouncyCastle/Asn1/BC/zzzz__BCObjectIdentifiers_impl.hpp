@@ -234,8 +234,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers::__get_linkedCertificate()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "linkedCertificate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers::BCObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BCObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers>::get(),

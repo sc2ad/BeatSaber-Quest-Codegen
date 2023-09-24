@@ -124,8 +124,7 @@ static void ImplMulwAcc(::ArrayW<uint64_t> xs, uint64_t y, ::ArrayW<uint64_t> z,
 /// @brief Method ImplSquare addr 0xf9ce28 size 0x10c virtual false final false
 static void ImplSquare(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> zz) ;
 
-// Ctor Parameters []
-explicit SecT409Field() ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecT409Field New_ctor() ;
 
 /// @brief Method .ctor addr 0xf9db48 size 0x8 virtual false final false
  void _ctor() ;

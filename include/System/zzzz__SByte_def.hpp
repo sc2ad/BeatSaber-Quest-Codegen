@@ -7,16 +7,32 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-struct Decimal;
+class IFormattable;
+}
+namespace System::Globalization {
+struct NumberStyles;
+}
+namespace System {
+class IConvertible;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-class IComparable;
+struct DateTime;
+}
+namespace System {
+struct TypeCode;
 }
 namespace System {
 class Type;
+}
+namespace System {
+struct Decimal;
 }
 namespace System {
 template<typename T>
@@ -27,30 +43,14 @@ template<typename T>
 struct Span_1;
 }
 namespace System {
-struct TypeCode;
-}
-namespace System::Globalization {
-struct NumberStyles;
-}
-namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace System {
-class IConvertible;
 }
 namespace System::Globalization {
 class NumberFormatInfo;
 }
 namespace System {
-struct DateTime;
+class IComparable;
 }
 namespace System {
 class ISpanFormattable;

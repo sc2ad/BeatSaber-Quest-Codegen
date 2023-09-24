@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BezierSpline_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__BezierCurve_def.hpp"
-#include "GlobalNamespace/zzzz__BezierSpline_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BezierSplineEvaluator__CubicSolveResult._ctor
 template<>
 
@@ -312,8 +313,10 @@ constexpr void GlobalNamespace::BezierSplineEvaluator::__set__currentSegmentInde
 constexpr int32_t GlobalNamespace::BezierSplineEvaluator::__get__currentSegmentIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "spline", ty: "GlobalNamespace::BezierSpline", modifiers: "", def_value: None }]
- GlobalNamespace::BezierSplineEvaluator::BezierSplineEvaluator(GlobalNamespace::BezierSpline spline)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BezierSplineEvaluator>(spline))) {}
+ GlobalNamespace::BezierSplineEvaluator GlobalNamespace::BezierSplineEvaluator::New_ctor(GlobalNamespace::BezierSpline spline)  {
+GlobalNamespace::BezierSplineEvaluator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BezierSplineEvaluator>(spline))};
+return o;
+}
  void GlobalNamespace::BezierSplineEvaluator::_ctor(GlobalNamespace::BezierSpline spline)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BezierSplineEvaluator>::get(),

@@ -69,8 +69,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, chars, startPos, len);
 }
-// Ctor Parameters []
- System::Xml::IncrementalReadDecoder::IncrementalReadDecoder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IncrementalReadDecoder>())) {}
+ System::Xml::IncrementalReadDecoder System::Xml::IncrementalReadDecoder::New_ctor()  {
+System::Xml::IncrementalReadDecoder o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::IncrementalReadDecoder>())};
+return o;
+}
  void System::Xml::IncrementalReadDecoder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::IncrementalReadDecoder>::get(),

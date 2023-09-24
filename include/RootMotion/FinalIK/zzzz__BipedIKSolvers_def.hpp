@@ -3,22 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace RootMotion::FinalIK {
-class IKSolverAim;
-}
-namespace RootMotion::FinalIK {
-class IKSolverLookAt;
-}
-namespace RootMotion::FinalIK {
-class IKSolver;
-}
-namespace RootMotion::FinalIK {
 class IKSolverLimb;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFABRIK;
 }
 namespace RootMotion::FinalIK {
+class IKSolverAim;
+}
+namespace RootMotion::FinalIK {
 class Constraints;
+}
+namespace RootMotion::FinalIK {
+class IKSolver;
+}
+namespace RootMotion::FinalIK {
+class IKSolverLookAt;
 }
 namespace RootMotion {
 class BipedReferences;
@@ -148,8 +148,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::IKSolver> __get__ikSolvers() const;
 /// @brief Method AssignReferences addr 0x11b7a1c size 0x120 virtual false final false
  void AssignReferences(RootMotion::BipedReferences references) ;
 
-// Ctor Parameters []
-explicit BipedIKSolvers() ;
+static RootMotion::FinalIK::BipedIKSolvers New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b80b4 size 0x18c virtual false final false
  void _ctor() ;

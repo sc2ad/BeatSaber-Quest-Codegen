@@ -92,8 +92,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::ComponentModel::AddingNewEventArgs::AddingNewEventArgs()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AddingNewEventArgs>())) {}
+ System::ComponentModel::AddingNewEventArgs System::ComponentModel::AddingNewEventArgs::New_ctor()  {
+System::ComponentModel::AddingNewEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::AddingNewEventArgs>())};
+return o;
+}
  void System::ComponentModel::AddingNewEventArgs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::AddingNewEventArgs>::get(),
@@ -103,8 +105,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "newObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::ComponentModel::AddingNewEventArgs::AddingNewEventArgs(::bs_hook::Il2CppWrapperType newObject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AddingNewEventArgs>(newObject))) {}
+ System::ComponentModel::AddingNewEventArgs System::ComponentModel::AddingNewEventArgs::New_ctor(::bs_hook::Il2CppWrapperType newObject)  {
+System::ComponentModel::AddingNewEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::AddingNewEventArgs>(newObject))};
+return o;
+}
  void System::ComponentModel::AddingNewEventArgs::_ctor(::bs_hook::Il2CppWrapperType newObject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::AddingNewEventArgs>::get(),

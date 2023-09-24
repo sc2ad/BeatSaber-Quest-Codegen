@@ -49,8 +49,7 @@ constexpr explicit Dump(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit Dump() ;
+static Org::BouncyCastle::Asn1::Utilities::Dump New_ctor() ;
 
 /// @brief Method .ctor addr 0xff14f0 size 0x8 virtual false final false
  void _ctor() ;

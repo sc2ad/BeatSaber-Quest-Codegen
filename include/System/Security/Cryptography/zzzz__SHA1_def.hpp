@@ -47,8 +47,7 @@ constexpr explicit SHA1(void* ptr) noexcept : System::Security::Cryptography::Ha
 
 // Methods
 
-// Ctor Parameters []
-explicit SHA1() ;
+static System::Security::Cryptography::SHA1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22fb96c size 0x20 virtual false final false
  void _ctor() ;

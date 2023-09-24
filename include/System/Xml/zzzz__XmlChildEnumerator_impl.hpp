@@ -126,8 +126,10 @@ constexpr void System::Xml::XmlChildEnumerator::__set_isFirst(bool value)  {
 constexpr bool System::Xml::XmlChildEnumerator::__get_isFirst() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }]
- System::Xml::XmlChildEnumerator::XmlChildEnumerator(System::Xml::XmlNode container)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlChildEnumerator>(container))) {}
+ System::Xml::XmlChildEnumerator System::Xml::XmlChildEnumerator::New_ctor(System::Xml::XmlNode container)  {
+System::Xml::XmlChildEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlChildEnumerator>(container))};
+return o;
+}
  void System::Xml::XmlChildEnumerator::_ctor(System::Xml::XmlNode container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlChildEnumerator>::get(),

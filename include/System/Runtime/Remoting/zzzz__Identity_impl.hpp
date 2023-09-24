@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__DynamicPropertyCollection_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__DynamicPropertyCollection_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Identity._ctor
 template<>
 
@@ -285,8 +285,10 @@ constexpr void System::Runtime::Remoting::Identity::__set__disposed(bool value) 
 constexpr bool System::Runtime::Remoting::Identity::__get__disposed() const {
 return ::cordl_internals::getInstanceField<bool, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Identity::Identity(::StringW objectUri)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Identity>(objectUri))) {}
+ System::Runtime::Remoting::Identity System::Runtime::Remoting::Identity::New_ctor(::StringW objectUri)  {
+System::Runtime::Remoting::Identity o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Identity>(objectUri))};
+return o;
+}
  void System::Runtime::Remoting::Identity::_ctor(::StringW objectUri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Identity>::get(),

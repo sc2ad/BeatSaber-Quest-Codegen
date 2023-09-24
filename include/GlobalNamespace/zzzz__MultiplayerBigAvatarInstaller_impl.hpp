@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBigAvatarInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerBigAvatarInstaller.InstallBindings
 template<>
 
@@ -65,8 +65,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerBigAvatarInstaller::MultiplayerBigAvatarInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<MultiplayerBigAvatarInstaller>())) {}
+ GlobalNamespace::MultiplayerBigAvatarInstaller GlobalNamespace::MultiplayerBigAvatarInstaller::New_ctor()  {
+GlobalNamespace::MultiplayerBigAvatarInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerBigAvatarInstaller>())};
+return o;
+}
  void GlobalNamespace::MultiplayerBigAvatarInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerBigAvatarInstaller>::get(),

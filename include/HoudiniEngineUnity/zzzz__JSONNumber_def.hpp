@@ -112,14 +112,12 @@ constexpr double_t __get_m_Data() const;
 /// @brief Method set_AsLong addr 0x20692b4 size 0xc virtual true final false
  void set_AsLong(int64_t value) ;
 
-// Ctor Parameters [CppParam { name: "aData", ty: "double_t", modifiers: "", def_value: None }]
-explicit JSONNumber(double_t aData) ;
+static HoudiniEngineUnity::JSONNumber New_ctor(double_t aData) ;
 
 /// @brief Method .ctor addr 0x20632e8 size 0x28 virtual false final false
  void _ctor(double_t aData) ;
 
-// Ctor Parameters [CppParam { name: "aData", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JSONNumber(::StringW aData) ;
+static HoudiniEngineUnity::JSONNumber New_ctor(::StringW aData) ;
 
 /// @brief Method .ctor addr 0x20692c0 size 0x34 virtual false final false
  void _ctor(::StringW aData) ;

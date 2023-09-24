@@ -47,8 +47,7 @@ constexpr explicit DuplicateNodeError(void* ptr) noexcept : System::Exception(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit DuplicateNodeError() ;
+static UnityEngine::ProBuilder::KdTree::DuplicateNodeError New_ctor() ;
 
 /// @brief Method .ctor addr 0x2999ab8 size 0x70 virtual false final false
  void _ctor() ;

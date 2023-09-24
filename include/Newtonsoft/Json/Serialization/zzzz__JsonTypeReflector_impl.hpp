@@ -1,16 +1,17 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__JsonTypeReflector_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ReflectionDelegateFactory_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "System/Runtime/Serialization/zzzz__DataMemberAttribute_def.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContractAttribute_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ReflectionDelegateFactory_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__DataMemberAttribute_def.hpp"
 #include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonTypeReflector_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0._ctor
@@ -59,8 +60,10 @@ constexpr void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization_
 constexpr System::Func_1<::bs_hook::Il2CppWrapperType> Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0::__get_defaultConstructor() const {
 return ::cordl_internals::getInstanceField<System::Func_1<::bs_hook::Il2CppWrapperType>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0>())) {}
+ Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0 Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0::New_ctor()  {
+Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0>::get(),
@@ -125,8 +128,10 @@ return ::cordl_internals::getStaticField<Newtonsoft::Json::Serialization::Newton
  System::Func_2<::bs_hook::Il2CppWrapperType,System::Type> Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c::__get___9__18_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,System::Type>, "<>9__18_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c>::get>();
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c::Newtonsoft__Json__Serialization__JsonTypeReflector____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__JsonTypeReflector____c>())) {}
+ Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c::New_ctor()  {
+Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c>::get(),

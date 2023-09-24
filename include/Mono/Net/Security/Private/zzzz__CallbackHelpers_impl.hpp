@@ -1,9 +1,10 @@
 #pragma once
 #include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"
 #include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoLocalCertificateSelectionCallback_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoRemoteCertificateValidationCallback_def.hpp"
+#include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"
 #include "System/Net/Security/zzzz__LocalCertSelectionCallback_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoLocalCertificateSelectionCallback_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoSslPolicyErrors_def.hpp"
@@ -48,8 +49,10 @@ constexpr void Mono::Net::Security::Private::Mono__Net__Security__Private__Callb
 constexpr System::Net::Security::RemoteCertificateValidationCallback Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0::__get_callback() const {
 return ::cordl_internals::getInstanceField<System::Net::Security::RemoteCertificateValidationCallback, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0>())) {}
+ Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0 Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0::New_ctor()  {
+Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0>())};
+return o;
+}
  void Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0>::get(),
@@ -108,8 +111,10 @@ constexpr void Mono::Net::Security::Private::Mono__Net__Security__Private__Callb
 constexpr Mono::Security::Interface::MonoLocalCertificateSelectionCallback Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0::__get_callback() const {
 return ::cordl_internals::getInstanceField<Mono::Security::Interface::MonoLocalCertificateSelectionCallback, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0>())) {}
+ Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0 Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0::New_ctor()  {
+Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0>())};
+return o;
+}
  void Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0>::get(),

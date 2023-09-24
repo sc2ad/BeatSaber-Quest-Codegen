@@ -3,16 +3,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+class BeatmapDataCallbackWrapper;
 }
 namespace UnityEngine {
 class ParticleSystem;
@@ -102,8 +102,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method ToggleEmitting addr 0x2264e04 size 0xb4 virtual false final false
  void ToggleEmitting(bool shouldPlay) ;
 
-// Ctor Parameters []
-explicit ParticleSystemContinuousEventEffect() ;
+static GlobalNamespace::ParticleSystemContinuousEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2264eb8 size 0x8 virtual false final false
  void _ctor() ;

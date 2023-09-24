@@ -137,8 +137,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::ChaChaEngine::ChaChaEngine()  : Org::BouncyCastle::Crypto::Engines::Salsa20Engine(THROW_UNLESS(::il2cpp_utils::New<ChaChaEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::ChaChaEngine Org::BouncyCastle::Crypto::Engines::ChaChaEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::ChaChaEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::ChaChaEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::ChaChaEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::ChaChaEngine>::get(),
@@ -148,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rounds", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::ChaChaEngine::ChaChaEngine(int32_t rounds)  : Org::BouncyCastle::Crypto::Engines::Salsa20Engine(THROW_UNLESS(::il2cpp_utils::New<ChaChaEngine>(rounds))) {}
+ Org::BouncyCastle::Crypto::Engines::ChaChaEngine Org::BouncyCastle::Crypto::Engines::ChaChaEngine::New_ctor(int32_t rounds)  {
+Org::BouncyCastle::Crypto::Engines::ChaChaEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::ChaChaEngine>(rounds))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::ChaChaEngine::_ctor(int32_t rounds)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::ChaChaEngine>::get(),

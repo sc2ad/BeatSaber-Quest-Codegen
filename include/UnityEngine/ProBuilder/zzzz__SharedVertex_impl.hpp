@@ -1,15 +1,16 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__SharedVertex_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__SharedVertex_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c._ctor
 template<>
@@ -57,8 +58,10 @@ return ::cordl_internals::getStaticField<UnityEngine::ProBuilder::UnityEngine__P
  System::Func_2<System::Collections::Generic::KeyValuePair_2<int32_t,int32_t>,bool> UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c::__get___9__26_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Collections::Generic::KeyValuePair_2<int32_t,int32_t>,bool>, "<>9__26_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c::UnityEngine__ProBuilder__SharedVertex____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__SharedVertex____c>())) {}
+ UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c::New_ctor()  {
+UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c>())};
+return o;
+}
  void UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__SharedVertex____c>::get(),
@@ -495,8 +498,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "indexes", ty: "System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::SharedVertex::SharedVertex(System::Collections::Generic::IEnumerable_1<int32_t> indexes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SharedVertex>(indexes))) {}
+ UnityEngine::ProBuilder::SharedVertex UnityEngine::ProBuilder::SharedVertex::New_ctor(System::Collections::Generic::IEnumerable_1<int32_t> indexes)  {
+UnityEngine::ProBuilder::SharedVertex o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SharedVertex>(indexes))};
+return o;
+}
  void UnityEngine::ProBuilder::SharedVertex::_ctor(System::Collections::Generic::IEnumerable_1<int32_t> indexes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::SharedVertex>::get(),
@@ -506,8 +511,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, indexes);
 }
-// Ctor Parameters [CppParam { name: "sharedVertex", ty: "UnityEngine::ProBuilder::SharedVertex", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::SharedVertex::SharedVertex(UnityEngine::ProBuilder::SharedVertex sharedVertex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SharedVertex>(sharedVertex))) {}
+ UnityEngine::ProBuilder::SharedVertex UnityEngine::ProBuilder::SharedVertex::New_ctor(UnityEngine::ProBuilder::SharedVertex sharedVertex)  {
+UnityEngine::ProBuilder::SharedVertex o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SharedVertex>(sharedVertex))};
+return o;
+}
  void UnityEngine::ProBuilder::SharedVertex::_ctor(UnityEngine::ProBuilder::SharedVertex sharedVertex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::SharedVertex>::get(),

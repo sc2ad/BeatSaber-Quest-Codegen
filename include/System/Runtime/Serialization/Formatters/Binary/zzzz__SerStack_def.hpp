@@ -71,8 +71,7 @@ constexpr int32_t __get_top() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stackId", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SerStack(::StringW stackId) ;
+static System::Runtime::Serialization::Formatters::Binary::SerStack New_ctor(::StringW stackId) ;
 
 /// @brief Method .ctor addr 0x235f048 size 0x74 virtual false final false
  void _ctor(::StringW stackId) ;

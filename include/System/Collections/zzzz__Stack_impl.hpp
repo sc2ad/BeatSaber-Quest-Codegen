@@ -1,10 +1,11 @@
 #pragma once
 #include "System/Collections/zzzz__Stack_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__Stack_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 //  Writing Method size for method: System::Collections::System__Collections__Stack__StackEnumerator._ctor
 template<>
 
@@ -122,8 +123,10 @@ constexpr void System::Collections::System__Collections__Stack__StackEnumerator:
 constexpr ::bs_hook::Il2CppWrapperType System::Collections::System__Collections__Stack__StackEnumerator::__get__currentElement() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stack", ty: "System::Collections::Stack", modifiers: "", def_value: None }]
- System::Collections::System__Collections__Stack__StackEnumerator::System__Collections__Stack__StackEnumerator(System::Collections::Stack stack)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__Stack__StackEnumerator>(stack))) {}
+ System::Collections::System__Collections__Stack__StackEnumerator System::Collections::System__Collections__Stack__StackEnumerator::New_ctor(System::Collections::Stack stack)  {
+System::Collections::System__Collections__Stack__StackEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::System__Collections__Stack__StackEnumerator>(stack))};
+return o;
+}
  void System::Collections::System__Collections__Stack__StackEnumerator::_ctor(System::Collections::Stack stack)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::System__Collections__Stack__StackEnumerator>::get(),
@@ -409,8 +412,10 @@ constexpr void System::Collections::Stack::__set__syncRoot(::bs_hook::Il2CppWrap
 constexpr ::bs_hook::Il2CppWrapperType System::Collections::Stack::__get__syncRoot() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::Stack::Stack()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Stack>())) {}
+ System::Collections::Stack System::Collections::Stack::New_ctor()  {
+System::Collections::Stack o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Stack>())};
+return o;
+}
  void System::Collections::Stack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Stack>::get(),
@@ -420,8 +425,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "initialCapacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Collections::Stack::Stack(int32_t initialCapacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Stack>(initialCapacity))) {}
+ System::Collections::Stack System::Collections::Stack::New_ctor(int32_t initialCapacity)  {
+System::Collections::Stack o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Stack>(initialCapacity))};
+return o;
+}
  void System::Collections::Stack::_ctor(int32_t initialCapacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Stack>::get(),

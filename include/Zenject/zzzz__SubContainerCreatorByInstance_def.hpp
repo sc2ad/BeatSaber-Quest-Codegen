@@ -2,20 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class ISubContainerCreator;
-}
-namespace Zenject {
 struct TypeValuePair;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class DiContainer;
+class ISubContainerCreator;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -75,8 +75,7 @@ constexpr Zenject::DiContainer __get__subcontainer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "subcontainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByInstance(Zenject::DiContainer subcontainer) ;
+static Zenject::SubContainerCreatorByInstance New_ctor(Zenject::DiContainer subcontainer) ;
 
 /// @brief Method .ctor addr 0x2d920e4 size 0x28 virtual false final false
  void _ctor(Zenject::DiContainer subcontainer) ;

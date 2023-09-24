@@ -81,8 +81,10 @@ constexpr void System::Threading::LockQueue::__set_lockCount(int32_t value)  {
 constexpr int32_t System::Threading::LockQueue::__get_lockCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rwlock", ty: "System::Threading::ReaderWriterLock", modifiers: "", def_value: None }]
- System::Threading::LockQueue::LockQueue(System::Threading::ReaderWriterLock rwlock)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LockQueue>(rwlock))) {}
+ System::Threading::LockQueue System::Threading::LockQueue::New_ctor(System::Threading::ReaderWriterLock rwlock)  {
+System::Threading::LockQueue o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::LockQueue>(rwlock))};
+return o;
+}
  void System::Threading::LockQueue::_ctor(System::Threading::ReaderWriterLock rwlock)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::LockQueue>::get(),

@@ -2,8 +2,8 @@
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInput_def.hpp"
 #include "UnityEngine/zzzz__Touch_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__IMECompositionMode_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::EventSystems::BaseInput.get_compositionString
 template<>
 
@@ -437,8 +437,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, buttonName);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::BaseInput::BaseInput()  : UnityEngine::EventSystems::UIBehaviour(THROW_UNLESS(::il2cpp_utils::New<BaseInput>())) {}
+ UnityEngine::EventSystems::BaseInput UnityEngine::EventSystems::BaseInput::New_ctor()  {
+UnityEngine::EventSystems::BaseInput o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::BaseInput>())};
+return o;
+}
  void UnityEngine::EventSystems::BaseInput::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::BaseInput>::get(),

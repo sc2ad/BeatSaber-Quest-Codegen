@@ -213,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::AttitudeSensor::AttitudeSensor()  : UnityEngine::InputSystem::Sensor(THROW_UNLESS(::il2cpp_utils::New<AttitudeSensor>())) {}
+ UnityEngine::InputSystem::AttitudeSensor UnityEngine::InputSystem::AttitudeSensor::New_ctor()  {
+UnityEngine::InputSystem::AttitudeSensor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::AttitudeSensor>())};
+return o;
+}
  void UnityEngine::InputSystem::AttitudeSensor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::AttitudeSensor>::get(),

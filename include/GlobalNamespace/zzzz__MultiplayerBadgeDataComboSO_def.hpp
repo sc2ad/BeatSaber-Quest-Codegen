@@ -54,8 +54,7 @@ constexpr explicit MultiplayerBadgeDataComboSO(void* ptr) noexcept : GlobalNames
 /// @brief Method GetValue addr 0x20d8128 size 0x28 virtual true final false
  int32_t GetValue(GlobalNamespace::MultiplayerPlayerResultsData result) ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgeDataComboSO() ;
+static GlobalNamespace::MultiplayerBadgeDataComboSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d8150 size 0x10 virtual false final false
  void _ctor() ;

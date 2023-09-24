@@ -88,8 +88,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters
 constexpr int32_t Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::__get_lowerSigmaBound() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "privateKey", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "lowerSigmaBound", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::NaccacheSternKeyParameters(bool privateKey, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<NaccacheSternKeyParameters>(privateKey, g, n, lowerSigmaBound))) {}
+ Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::New_ctor(bool privateKey, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound)  {
+Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters>(privateKey, g, n, lowerSigmaBound))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::_ctor(bool privateKey, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters>::get(),

@@ -13,36 +13,57 @@ class AsyncCallback;
 namespace System {
 class IAsyncResult;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class Action;
+namespace HMUI {
+class Screen;
 }
 namespace HMUI {
-class ContainerViewController;
+struct HMUI__ViewController__AnimationType;
 }
 namespace UnityEngine {
 class CanvasGroup;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace HMUI {
+class ButtonBinder;
 }
 namespace UnityEngine::EventSystems {
 class BaseRaycaster;
 }
 namespace HMUI {
-class ButtonBinder;
+class HMUI__ViewController___ReplaceViewControllerCoroutine_d__60;
 }
 namespace HMUI {
-class Screen;
+class HMUI__ViewController__DidActivateDelegate;
+}
+namespace HMUI {
+class ContainerViewController;
+}
+namespace HMUI {
+class HMUI__ViewController___PresentViewControllerCoroutine_d__58;
+}
+namespace HMUI {
+class HMUI__ViewController___DismissViewControllerCoroutine_d__62;
+}
+namespace HMUI {
+class HMUI__ViewController__DidDeactivateDelegate;
+}
+namespace HMUI {
+struct HMUI__ViewController__AnimationDirection;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -111,8 +132,7 @@ constexpr explicit HMUI__ViewController__DidActivateDelegate(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HMUI__ViewController__DidActivateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HMUI::HMUI__ViewController__DidActivateDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x1fba250 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -172,8 +192,7 @@ constexpr explicit HMUI__ViewController__DidDeactivateDelegate(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HMUI__ViewController__DidDeactivateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HMUI::HMUI__ViewController__DidDeactivateDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x1fba400 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -241,6 +260,8 @@ __Out = 2,
 constexpr operator __HMUI__ViewController__AnimationType_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__ViewController__AnimationType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -313,6 +334,8 @@ __Vertical = 1,
 constexpr operator __HMUI__ViewController__AnimationDirection_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__ViewController__AnimationDirection_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -436,8 +459,7 @@ constexpr System::Action __get_finishedCallback() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__ViewController___PresentViewControllerCoroutine_d__58(int32_t __1__state) ;
+static HMUI::HMUI__ViewController___PresentViewControllerCoroutine_d__58 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fb9cc4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -564,8 +586,7 @@ constexpr System::Action __get_finishedCallback() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__ViewController___ReplaceViewControllerCoroutine_d__60(int32_t __1__state) ;
+static HMUI::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fb9d9c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -692,8 +713,7 @@ constexpr HMUI::ViewController __get__movingInViewController_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__ViewController___DismissViewControllerCoroutine_d__62(int32_t __1__state) ;
+static HMUI::HMUI__ViewController___DismissViewControllerCoroutine_d__62 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fb9e7c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -997,8 +1017,7 @@ constexpr UnityEngine::EventSystems::BaseRaycaster __get__graphicRaycaster() con
 /// @brief Method Log addr 0x1fba1f8 size 0x58 virtual false final false
 static void Log(::StringW message) ;
 
-// Ctor Parameters []
-explicit ViewController() ;
+static HMUI::ViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb9604 size 0x8 virtual false final false
  void _ctor() ;

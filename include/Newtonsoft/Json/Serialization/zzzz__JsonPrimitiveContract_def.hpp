@@ -1,15 +1,15 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json::Utilities {
 struct PrimitiveTypeCode;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace Newtonsoft::Json {
 struct ReadType;
@@ -86,8 +86,7 @@ static System::Collections::Generic::Dictionary_2<System::Type,Newtonsoft::Json:
 /// @brief Method set_TypeCode addr 0x24f62d4 size 0x8 virtual false final false
  void set_TypeCode(Newtonsoft::Json::Utilities::PrimitiveTypeCode value) ;
 
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JsonPrimitiveContract(System::Type underlyingType) ;
+static Newtonsoft::Json::Serialization::JsonPrimitiveContract New_ctor(System::Type underlyingType) ;
 
 /// @brief Method .ctor addr 0x24f62dc size 0xf4 virtual false final false
  void _ctor(System::Type underlyingType) ;

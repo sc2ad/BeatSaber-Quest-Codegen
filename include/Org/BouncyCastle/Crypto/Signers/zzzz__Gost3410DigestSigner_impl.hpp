@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__Gost3410DigestSigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDsa_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner._ctor
 template<>
 
@@ -174,8 +174,10 @@ constexpr void Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::__set_f
 constexpr bool Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::__get_forSigning() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::IDsa", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::Gost3410DigestSigner(Org::BouncyCastle::Crypto::IDsa signer, Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3410DigestSigner>(signer, digest))) {}
+ Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::New_ctor(Org::BouncyCastle::Crypto::IDsa signer, Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner>(signer, digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::_ctor(Org::BouncyCastle::Crypto::IDsa signer, Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner>::get(),

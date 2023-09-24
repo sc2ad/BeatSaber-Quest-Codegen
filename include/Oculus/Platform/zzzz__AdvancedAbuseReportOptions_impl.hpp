@@ -178,8 +178,10 @@ constexpr void Oculus::Platform::AdvancedAbuseReportOptions::__set_Handle(::cord
 constexpr ::cordl_internals::intptr_t Oculus::Platform::AdvancedAbuseReportOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::AdvancedAbuseReportOptions::AdvancedAbuseReportOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AdvancedAbuseReportOptions>())) {}
+ Oculus::Platform::AdvancedAbuseReportOptions Oculus::Platform::AdvancedAbuseReportOptions::New_ctor()  {
+Oculus::Platform::AdvancedAbuseReportOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::AdvancedAbuseReportOptions>())};
+return o;
+}
  void Oculus::Platform::AdvancedAbuseReportOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::AdvancedAbuseReportOptions>::get(),

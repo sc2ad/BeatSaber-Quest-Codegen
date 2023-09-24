@@ -4,21 +4,22 @@
 #include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__UpdateConnectionStateReason_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__UpdateConnectionStateReason_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__MultiplayerSessionManager__MessageType::GlobalNamespace__MultiplayerSessionManager__MessageType(uint8_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -99,8 +100,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c_
 constexpr ::StringW GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0::__get_userId() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0::GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0 GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0>::get(),
@@ -165,8 +168,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Multi
  System::Func_2<GlobalNamespace::IConnectedPlayer,int32_t> GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c::__get___9__102_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::IConnectedPlayer,int32_t>, "<>9__102_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c::GlobalNamespace__MultiplayerSessionManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerSessionManager____c>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c>::get(),
@@ -2033,8 +2038,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerSessionManager::MultiplayerSessionManager()  : GlobalNamespace::StandaloneMonobehavior(THROW_UNLESS(::il2cpp_utils::New<MultiplayerSessionManager>())) {}
+ GlobalNamespace::MultiplayerSessionManager GlobalNamespace::MultiplayerSessionManager::New_ctor()  {
+GlobalNamespace::MultiplayerSessionManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerSessionManager>())};
+return o;
+}
  void GlobalNamespace::MultiplayerSessionManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerSessionManager>::get(),

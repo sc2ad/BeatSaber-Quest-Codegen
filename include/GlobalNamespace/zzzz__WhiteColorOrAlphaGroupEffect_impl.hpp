@@ -1,14 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightColorGroupEffect_impl.hpp"
 #include "GlobalNamespace/zzzz__WhiteColorOrAlphaGroupEffect_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
-#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 #include "GlobalNamespace/zzzz__IBpmController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
+#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::WhiteColorOrAlphaGroupEffect._ctor
 template<>
 
@@ -49,8 +49,10 @@ constexpr void GlobalNamespace::WhiteColorOrAlphaGroupEffect::__set__defaultColo
 constexpr UnityEngine::Color GlobalNamespace::WhiteColorOrAlphaGroupEffect::__get__defaultColor() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Color, 0x9c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "defaultColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "lightManager", ty: "GlobalNamespace::LightWithIdManager", modifiers: "", def_value: None }, CppParam { name: "tweeningManager", ty: "Tweening::SongTimeTweeningManager", modifiers: "", def_value: None }, CppParam { name: "colorManager", ty: "GlobalNamespace::ColorManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }, CppParam { name: "bpmController", ty: "GlobalNamespace::IBpmController", modifiers: "", def_value: None }]
- GlobalNamespace::WhiteColorOrAlphaGroupEffect::WhiteColorOrAlphaGroupEffect(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, UnityEngine::Color defaultColor, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController)  : GlobalNamespace::LightColorGroupEffect(THROW_UNLESS(::il2cpp_utils::New<WhiteColorOrAlphaGroupEffect>(initData, defaultColor, lightManager, tweeningManager, colorManager, beatmapCallbacksController, bpmController))) {}
+ GlobalNamespace::WhiteColorOrAlphaGroupEffect GlobalNamespace::WhiteColorOrAlphaGroupEffect::New_ctor(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, UnityEngine::Color defaultColor, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController)  {
+GlobalNamespace::WhiteColorOrAlphaGroupEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::WhiteColorOrAlphaGroupEffect>(initData, defaultColor, lightManager, tweeningManager, colorManager, beatmapCallbacksController, bpmController))};
+return o;
+}
  void GlobalNamespace::WhiteColorOrAlphaGroupEffect::_ctor(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, UnityEngine::Color defaultColor, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::WhiteColorOrAlphaGroupEffect>::get(),

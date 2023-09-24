@@ -77,8 +77,10 @@ constexpr void GlobalNamespace::SimpleTemporalFiltering::__set__bufferTexID(int3
 constexpr int32_t GlobalNamespace::SimpleTemporalFiltering::__get__bufferTexID() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::SimpleTemporalFiltering::SimpleTemporalFiltering()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimpleTemporalFiltering>())) {}
+ GlobalNamespace::SimpleTemporalFiltering GlobalNamespace::SimpleTemporalFiltering::New_ctor()  {
+GlobalNamespace::SimpleTemporalFiltering o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SimpleTemporalFiltering>())};
+return o;
+}
  void GlobalNamespace::SimpleTemporalFiltering::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleTemporalFiltering>::get(),

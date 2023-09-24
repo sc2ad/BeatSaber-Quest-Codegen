@@ -6,98 +6,107 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
 class LobbyPlayerData;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct System__Collections__Generic__Dictionary_2__Enumerator;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
 }
 namespace GlobalNamespace {
 class ILobbyPlayerData;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+struct System__Collections__Generic__Dictionary_2__Enumerator;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
 namespace System::Threading {
 class CancellationTokenSource;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
+class AdditionalContentModel;
 }
 namespace GlobalNamespace {
 class IMenuRpcManager;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
+class LobbyPlayerPermissionsModel;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
+}
+namespace GlobalNamespace {
+class ILobbyPlayersDataModel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LobbyPlayersDataModel____c;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class IReadOnlyDictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
+class PreviewDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+struct GlobalNamespace__LobbyPlayersDataModel___SetOwnedSongPacks_d__43;
 }
 namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IReadOnlyDictionary_2;
+class GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60;
 }
 namespace GlobalNamespace {
 class PlayersLobbyPermissionConfigurationNetSerializable;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class AdditionalContentModel;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyCollection_1;
 }
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -106,11 +115,11 @@ namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
 namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
@@ -185,8 +194,7 @@ static System::Func_2<GlobalNamespace::IBeatmapLevelPack,::StringW> __get___9__4
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LobbyPlayersDataModel____c() ;
+static GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21fcc50 size 0x8 virtual false final false
  void _ctor() ;
@@ -390,8 +398,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__Dictionary
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x21fc900 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -727,8 +734,7 @@ constexpr System::Action_1<::StringW> __get_didChangeEvent() const;
 /// @brief Method get_Values addr 0x21fcaa0 size 0x50 virtual true final true
  System::Collections::Generic::IEnumerable_1<GlobalNamespace::ILobbyPlayerData> get_Values() ;
 
-// Ctor Parameters []
-explicit LobbyPlayersDataModel() ;
+static GlobalNamespace::LobbyPlayersDataModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21fcaf0 size 0xfc virtual false final false
  void _ctor() ;

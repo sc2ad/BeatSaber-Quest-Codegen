@@ -47,8 +47,7 @@ constexpr explicit HEU_SessionHAPI(void* ptr) noexcept : HoudiniEngineUnity::HEU
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_SessionHAPI() ;
+static HoudiniEngineUnity::HEU_SessionHAPI New_ctor() ;
 
 /// @brief Method .ctor addr 0x20311f0 size 0x20 virtual false final false
  void _ctor() ;

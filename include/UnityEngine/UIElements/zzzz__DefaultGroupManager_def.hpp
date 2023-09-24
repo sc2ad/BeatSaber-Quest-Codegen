@@ -1,15 +1,15 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine::UIElements {
-class IGroupManager;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
 class IGroupBoxOption;
+}
+namespace UnityEngine::UIElements {
+class IGroupManager;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -84,8 +84,7 @@ constexpr UnityEngine::UIElements::IGroupBoxOption __get_m_SelectedOption() cons
 /// @brief Method UnregisterOption addr 0x2c4fae8 size 0x58 virtual true final true
  void UnregisterOption(UnityEngine::UIElements::IGroupBoxOption option) ;
 
-// Ctor Parameters []
-explicit DefaultGroupManager() ;
+static UnityEngine::UIElements::DefaultGroupManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c4fb40 size 0x7c virtual false final false
  void _ctor() ;

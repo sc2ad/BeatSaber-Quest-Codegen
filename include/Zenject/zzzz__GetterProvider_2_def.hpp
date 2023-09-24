@@ -2,34 +2,34 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace Zenject {
-struct InjectSources;
-}
 namespace Zenject {
 struct TypeValuePair;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace System {
+class Type;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
 namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+struct InjectSources;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -128,8 +128,7 @@ constexpr Zenject::InjectSources __get__sourceType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "System::Func_2<TObj,TResult>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "sourceType", ty: "Zenject::InjectSources", modifiers: "", def_value: None }, CppParam { name: "matchAll", ty: "bool", modifiers: "", def_value: None }]
-explicit GetterProvider_2(::bs_hook::Il2CppWrapperType identifier, System::Func_2<TObj,TResult> method, Zenject::DiContainer container, Zenject::InjectSources sourceType, bool matchAll) ;
+static Zenject::GetterProvider_2<TObj,TResult> New_ctor(::bs_hook::Il2CppWrapperType identifier, System::Func_2<TObj,TResult> method, Zenject::DiContainer container, Zenject::InjectSources sourceType, bool matchAll) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType identifier, System::Func_2<TObj,TResult> method, Zenject::DiContainer container, Zenject::InjectSources sourceType, bool matchAll) ;

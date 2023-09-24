@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class BoolSO;
-}
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class Renderer;
+}
+namespace GlobalNamespace {
+class BoolSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr UnityEngine::Renderer __get__renderer() const;
 /// @brief Method Awake addr 0x21156cc size 0x78 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit ConditionalMaterialSwitcher() ;
+static GlobalNamespace::ConditionalMaterialSwitcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x2115744 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/IO/zzzz__BinaryReader_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Text/zzzz__Decoder_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
-#include "System/Text/zzzz__Decoder_def.hpp"
 //  Writing Method size for method: System::IO::BinaryReader._ctor
 template<>
 
@@ -562,8 +562,10 @@ constexpr void System::IO::BinaryReader::__set_m_leaveOpen(bool value)  {
 constexpr bool System::IO::BinaryReader::__get_m_leaveOpen() const {
 return ::cordl_internals::getInstanceField<bool, 0x46>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- System::IO::BinaryReader::BinaryReader(System::IO::Stream input)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryReader>(input))) {}
+ System::IO::BinaryReader System::IO::BinaryReader::New_ctor(System::IO::Stream input)  {
+System::IO::BinaryReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::BinaryReader>(input))};
+return o;
+}
  void System::IO::BinaryReader::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::BinaryReader>::get(),
@@ -573,8 +575,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, input);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::IO::BinaryReader::BinaryReader(System::IO::Stream input, System::Text::Encoding encoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryReader>(input, encoding))) {}
+ System::IO::BinaryReader System::IO::BinaryReader::New_ctor(System::IO::Stream input, System::Text::Encoding encoding)  {
+System::IO::BinaryReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::BinaryReader>(input, encoding))};
+return o;
+}
  void System::IO::BinaryReader::_ctor(System::IO::Stream input, System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::BinaryReader>::get(),
@@ -584,8 +588,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, input, encoding);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
- System::IO::BinaryReader::BinaryReader(System::IO::Stream input, System::Text::Encoding encoding, bool leaveOpen)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryReader>(input, encoding, leaveOpen))) {}
+ System::IO::BinaryReader System::IO::BinaryReader::New_ctor(System::IO::Stream input, System::Text::Encoding encoding, bool leaveOpen)  {
+System::IO::BinaryReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::BinaryReader>(input, encoding, leaveOpen))};
+return o;
+}
  void System::IO::BinaryReader::_ctor(System::IO::Stream input, System::Text::Encoding encoding, bool leaveOpen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::BinaryReader>::get(),

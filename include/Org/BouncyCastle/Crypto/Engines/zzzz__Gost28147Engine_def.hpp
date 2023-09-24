@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -150,8 +150,7 @@ static System::Collections::IDictionary __get_sBoxes() ;
 /// @brief Method AddSBox addr 0xe44da4 size 0x11c virtual false final false
 static void AddSBox(::StringW sBoxName, ::ArrayW<uint8_t> sBox) ;
 
-// Ctor Parameters []
-explicit Gost28147Engine() ;
+static Org::BouncyCastle::Crypto::Engines::Gost28147Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe44ec0 size 0x6c virtual false final false
  void _ctor() ;

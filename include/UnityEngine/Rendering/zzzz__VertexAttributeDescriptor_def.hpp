@@ -4,15 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::Rendering {
+struct VertexAttributeFormat;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine::Rendering {
 struct VertexAttribute;
-}
-namespace UnityEngine::Rendering {
-struct VertexAttributeFormat;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

@@ -5,49 +5,49 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class GameplayModifiers;
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
-class AdditionalContentModel;
-}
-namespace GlobalNamespace {
-class GameServerPlayerTableCell;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
+class ILobbyPlayerData;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class ILobbyPlayerData;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace HMUI {
-class HMUI__TableView__IDataSource;
+class AdditionalContentModel;
 }
 namespace HMUI {
 class TableView;
 }
+namespace UnityEngine {
+class GameObject;
+}
 namespace HMUI {
-class TableCell;
+class HMUI__TableView__IDataSource;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class GameServerPlayerTableCell;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
+}
+namespace HMUI {
+class TableCell;
+}
+namespace GlobalNamespace {
+class ILobbyPlayersDataModel;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -280,8 +280,7 @@ constexpr GlobalNamespace::ILobbyPlayersDataModel __get__lobbyPlayersDataModel()
 /// @brief Method Init addr 0x21875e8 size 0x3c virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit GameServerPlayersTableView() ;
+static GlobalNamespace::GameServerPlayersTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2187624 size 0x18 virtual false final false
  void _ctor() ;

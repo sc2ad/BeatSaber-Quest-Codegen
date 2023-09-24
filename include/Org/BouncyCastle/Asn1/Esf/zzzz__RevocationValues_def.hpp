@@ -3,23 +3,23 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class CertificateList;
-}
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class BasicOcspResponse;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class BasicOcspResponse;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class OtherRevVals;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class CertificateList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -96,20 +96,17 @@ constexpr Org::BouncyCastle::Asn1::Esf::OtherRevVals __get_otherRevVals() const;
 /// @brief Method GetInstance addr 0xe08608 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::RevocationValues GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit RevocationValues(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::RevocationValues New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe086ac size 0xa7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "crlVals", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::CertificateList>", modifiers: "", def_value: None }, CppParam { name: "ocspVals", ty: "::ArrayW<Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse>", modifiers: "", def_value: None }, CppParam { name: "otherRevVals", ty: "Org::BouncyCastle::Asn1::Esf::OtherRevVals", modifiers: "", def_value: None }]
-explicit RevocationValues(::ArrayW<Org::BouncyCastle::Asn1::X509::CertificateList> crlVals, ::ArrayW<Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse> ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals) ;
+static Org::BouncyCastle::Asn1::Esf::RevocationValues New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::CertificateList> crlVals, ::ArrayW<Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse> ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals) ;
 
 /// @brief Method .ctor addr 0xe09128 size 0xb8 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::CertificateList> crlVals, ::ArrayW<Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse> ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals) ;
 
-// Ctor Parameters [CppParam { name: "crlVals", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }, CppParam { name: "ocspVals", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }, CppParam { name: "otherRevVals", ty: "Org::BouncyCastle::Asn1::Esf::OtherRevVals", modifiers: "", def_value: None }]
-explicit RevocationValues(System::Collections::IEnumerable crlVals, System::Collections::IEnumerable ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals) ;
+static Org::BouncyCastle::Asn1::Esf::RevocationValues New_ctor(System::Collections::IEnumerable crlVals, System::Collections::IEnumerable ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals) ;
 
 /// @brief Method .ctor addr 0xe091e0 size 0x254 virtual false final false
  void _ctor(System::Collections::IEnumerable crlVals, System::Collections::IEnumerable ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals) ;

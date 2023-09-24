@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class MainMenuViewController;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__MainMenuViewController__MenuButton;
 }
 namespace GlobalNamespace {
 class FireworksController;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class MainMenuViewController;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +95,7 @@ constexpr GlobalNamespace::MainMenuViewController __get__mainMenuViewController(
 /// @brief Method StopFireworks addr 0x20af3cc size 0x20 virtual false final false
  void StopFireworks() ;
 
-// Ctor Parameters []
-explicit AnniversaryManager() ;
+static GlobalNamespace::AnniversaryManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20af3f0 size 0x8 virtual false final false
  void _ctor() ;

@@ -514,8 +514,10 @@ return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2
  ::bs_hook::Il2CppWrapperType Mono::Security::Cryptography::KeyPairPersistence::__get_lockobj()  {
 return ::cordl_internals::getStaticField<::bs_hook::Il2CppWrapperType, "lockobj", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::KeyPairPersistence>::get>();
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
- Mono::Security::Cryptography::KeyPairPersistence::KeyPairPersistence(System::Security::Cryptography::CspParameters parameters)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyPairPersistence>(parameters))) {}
+ Mono::Security::Cryptography::KeyPairPersistence Mono::Security::Cryptography::KeyPairPersistence::New_ctor(System::Security::Cryptography::CspParameters parameters)  {
+Mono::Security::Cryptography::KeyPairPersistence o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::KeyPairPersistence>(parameters))};
+return o;
+}
  void Mono::Security::Cryptography::KeyPairPersistence::_ctor(System::Security::Cryptography::CspParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::KeyPairPersistence>::get(),
@@ -525,8 +527,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parameters);
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "::StringW", modifiers: "", def_value: None }]
- Mono::Security::Cryptography::KeyPairPersistence::KeyPairPersistence(System::Security::Cryptography::CspParameters parameters, ::StringW keyPair)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyPairPersistence>(parameters, keyPair))) {}
+ Mono::Security::Cryptography::KeyPairPersistence Mono::Security::Cryptography::KeyPairPersistence::New_ctor(System::Security::Cryptography::CspParameters parameters, ::StringW keyPair)  {
+Mono::Security::Cryptography::KeyPairPersistence o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::KeyPairPersistence>(parameters, keyPair))};
+return o;
+}
  void Mono::Security::Cryptography::KeyPairPersistence::_ctor(System::Security::Cryptography::CspParameters parameters, ::StringW keyPair)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::KeyPairPersistence>::get(),

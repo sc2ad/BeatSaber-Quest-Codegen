@@ -4,10 +4,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
+class IEventDispatchingStrategy;
+}
+namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
+struct UnityEngine__UIElements__MouseCaptureDispatchingStrategy__EventBehavior;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -69,6 +72,8 @@ __IsSentExclusivelyToCapturingElement = 2,
 constexpr operator __UnityEngine__UIElements__MouseCaptureDispatchingStrategy__EventBehavior_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__MouseCaptureDispatchingStrategy__EventBehavior_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -145,8 +150,7 @@ constexpr explicit MouseCaptureDispatchingStrategy(void* ptr) noexcept : ::bs_ho
 /// @brief Method DispatchEvent addr 0x2cd5ec4 size 0x688 virtual true final true
  void DispatchEvent(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel panel) ;
 
-// Ctor Parameters []
-explicit MouseCaptureDispatchingStrategy() ;
+static UnityEngine::UIElements::MouseCaptureDispatchingStrategy New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd65b8 size 0x8 virtual false final false
  void _ctor() ;

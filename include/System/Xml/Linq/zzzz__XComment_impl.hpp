@@ -129,8 +129,10 @@ constexpr void System::Xml::Linq::XComment::__set_value(::StringW value)  {
 constexpr ::StringW System::Xml::Linq::XComment::__get_value() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Linq::XComment::XComment(::StringW value)  : System::Xml::Linq::XNode(THROW_UNLESS(::il2cpp_utils::New<XComment>(value))) {}
+ System::Xml::Linq::XComment System::Xml::Linq::XComment::New_ctor(::StringW value)  {
+System::Xml::Linq::XComment o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XComment>(value))};
+return o;
+}
  void System::Xml::Linq::XComment::_ctor(::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XComment>::get(),
@@ -140,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XComment", modifiers: "", def_value: None }]
- System::Xml::Linq::XComment::XComment(System::Xml::Linq::XComment other)  : System::Xml::Linq::XNode(THROW_UNLESS(::il2cpp_utils::New<XComment>(other))) {}
+ System::Xml::Linq::XComment System::Xml::Linq::XComment::New_ctor(System::Xml::Linq::XComment other)  {
+System::Xml::Linq::XComment o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XComment>(other))};
+return o;
+}
  void System::Xml::Linq::XComment::_ctor(System::Xml::Linq::XComment other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XComment>::get(),

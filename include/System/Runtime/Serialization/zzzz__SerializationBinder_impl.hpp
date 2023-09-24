@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Type, false>(const_cast<void*>(instance), ___internal_method, assemblyName, typeName);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::SerializationBinder::SerializationBinder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerializationBinder>())) {}
+ System::Runtime::Serialization::SerializationBinder System::Runtime::Serialization::SerializationBinder::New_ctor()  {
+System::Runtime::Serialization::SerializationBinder o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationBinder>())};
+return o;
+}
  void System::Runtime::Serialization::SerializationBinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationBinder>::get(),

@@ -1,16 +1,17 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActiveLevelFailController_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
-#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnController_def.hpp"
-#include "GlobalNamespace/zzzz__LevelFailedTextEffect_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalActiveLevelFailController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
+#include "GlobalNamespace/zzzz__LevelFailedTextEffect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8._ctor
 template<>
 
@@ -143,8 +144,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerLocalActiveLevelFail
 constexpr GlobalNamespace::MultiplayerLocalActiveLevelFailController GlobalNamespace::GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerLocalActiveLevelFailController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8::GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8 GlobalNamespace::GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8>::get(),
@@ -356,8 +359,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, levelCompletionResults);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalActiveLevelFailController::MultiplayerLocalActiveLevelFailController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalActiveLevelFailController>())) {}
+ GlobalNamespace::MultiplayerLocalActiveLevelFailController GlobalNamespace::MultiplayerLocalActiveLevelFailController::New_ctor()  {
+GlobalNamespace::MultiplayerLocalActiveLevelFailController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalActiveLevelFailController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalActiveLevelFailController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalActiveLevelFailController>::get(),

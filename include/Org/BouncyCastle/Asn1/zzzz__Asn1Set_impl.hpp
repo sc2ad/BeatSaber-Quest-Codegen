@@ -1,13 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1SetParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1SetParser_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl._ctor
@@ -87,8 +88,10 @@ constexpr void Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1Se
 constexpr int32_t Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl::__get_index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl(Org::BouncyCastle::Asn1::Asn1Set outer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl>(outer))) {}
+ Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl::New_ctor(Org::BouncyCastle::Asn1::Asn1Set outer)  {
+Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl>(outer))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl::_ctor(Org::BouncyCastle::Asn1::Asn1Set outer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl>::get(),
@@ -163,8 +166,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, x, y);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__DerComparer::Org__BouncyCastle__Asn1__Asn1Set__DerComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__Asn1Set__DerComparer>())) {}
+ Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__DerComparer Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__DerComparer::New_ctor()  {
+Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__DerComparer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__DerComparer>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__DerComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__DerComparer>::get(),
@@ -457,8 +462,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Asn1Set, false>(nullptr, ___internal_method, obj, explicitly);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Asn1Set::Asn1Set()  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<Asn1Set>())) {}
+ Org::BouncyCastle::Asn1::Asn1Set Org::BouncyCastle::Asn1::Asn1Set::New_ctor()  {
+Org::BouncyCastle::Asn1::Asn1Set o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1Set>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1Set::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1Set>::get(),
@@ -468,8 +475,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "element", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1Set::Asn1Set(Org::BouncyCastle::Asn1::Asn1Encodable element)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<Asn1Set>(element))) {}
+ Org::BouncyCastle::Asn1::Asn1Set Org::BouncyCastle::Asn1::Asn1Set::New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable element)  {
+Org::BouncyCastle::Asn1::Asn1Set o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1Set>(element))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1Set::_ctor(Org::BouncyCastle::Asn1::Asn1Encodable element)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1Set>::get(),
@@ -479,8 +488,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, element);
 }
-// Ctor Parameters [CppParam { name: "elements", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1Set::Asn1Set(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<Asn1Set>(elements))) {}
+ Org::BouncyCastle::Asn1::Asn1Set Org::BouncyCastle::Asn1::Asn1Set::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements)  {
+Org::BouncyCastle::Asn1::Asn1Set o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1Set>(elements))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1Set::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1Set>::get(),
@@ -490,8 +501,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, elements);
 }
-// Ctor Parameters [CppParam { name: "elementVector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1Set::Asn1Set(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<Asn1Set>(elementVector))) {}
+ Org::BouncyCastle::Asn1::Asn1Set Org::BouncyCastle::Asn1::Asn1Set::New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector)  {
+Org::BouncyCastle::Asn1::Asn1Set o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1Set>(elementVector))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1Set::_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1Set>::get(),

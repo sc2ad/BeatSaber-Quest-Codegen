@@ -5,9 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -16,6 +13,9 @@ class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECKeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -99,14 +99,12 @@ constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_publicKeyParamSet()
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
-explicit ECKeyParameters(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::ECKeyParameters New_ctor(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea6090 size 0xfc virtual false final false
  void _ctor(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit ECKeyParameters(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+static Org::BouncyCastle::Crypto::Parameters::ECKeyParameters New_ctor(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
 /// @brief Method .ctor addr 0xea62b0 size 0x108 virtual false final false
  void _ctor(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;

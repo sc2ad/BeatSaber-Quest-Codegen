@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_def.hpp"
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -70,14 +70,12 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_val() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit MPInteger(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::MPInteger New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x11463fc size 0x140 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "val", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit MPInteger(Org::BouncyCastle::Math::BigInteger val) ;
+static Org::BouncyCastle::Bcpg::MPInteger New_ctor(Org::BouncyCastle::Math::BigInteger val) ;
 
 /// @brief Method .ctor addr 0x114661c size 0xcc virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger val) ;

@@ -3,12 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Rendering {
-struct BatchVisibility;
-}
-namespace UnityEngine::Rendering {
-struct LODParameters;
-}
 namespace UnityEngine {
 struct Plane;
 }
@@ -16,8 +10,14 @@ namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
+namespace UnityEngine::Rendering {
+struct BatchVisibility;
+}
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine::Rendering {
+struct LODParameters;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

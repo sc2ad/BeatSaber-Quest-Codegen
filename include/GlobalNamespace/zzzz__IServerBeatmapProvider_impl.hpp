@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IServerBeatmapProvider_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IServerBeatmapProvider.VerifyBeatmapForSelectionMask
 template<>
 

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__Logger_def.hpp"
-#include "UnityEngine/zzzz__LogType_def.hpp"
 #include "UnityEngine/zzzz__ILogger_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/zzzz__LogType_def.hpp"
 #include "UnityEngine/zzzz__ILogHandler_def.hpp"
 //  Writing Method size for method: UnityEngine::Logger._ctor
 template<>
@@ -286,8 +286,10 @@ constexpr void UnityEngine::Logger::__set__filterLogType_k__BackingField(UnityEn
 constexpr UnityEngine::LogType UnityEngine::Logger::__get__filterLogType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<UnityEngine::LogType, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "logHandler", ty: "UnityEngine::ILogHandler", modifiers: "", def_value: None }]
- UnityEngine::Logger::Logger(UnityEngine::ILogHandler logHandler)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Logger>(logHandler))) {}
+ UnityEngine::Logger UnityEngine::Logger::New_ctor(UnityEngine::ILogHandler logHandler)  {
+UnityEngine::Logger o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Logger>(logHandler))};
+return o;
+}
  void UnityEngine::Logger::_ctor(UnityEngine::ILogHandler logHandler)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Logger>::get(),

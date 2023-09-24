@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace UnityEngine {
-class Animator;
-}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace UnityEngine {
+class Animator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr bool __get__wasEnabled() const;
 /// @brief Method HandleInputFocusReleased addr 0x1f70730 size 0x24 virtual false final false
  void HandleInputFocusReleased() ;
 
-// Ctor Parameters []
-explicit DeactivateAnimatorOnInputFocusCapture() ;
+static GlobalNamespace::DeactivateAnimatorOnInputFocusCapture New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f70754 size 0x8 virtual false final false
  void _ctor() ;

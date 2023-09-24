@@ -1,30 +1,30 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerStack_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberReference_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ParseRecord_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectNull_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SizedArray_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryCrossAppDomainString_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MessageEnd_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMapTyped_def.hpp"
-#include "System/IO/zzzz__BinaryReader_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObject_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMap_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectReader_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveUnTyped_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssemblyInfo_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveTyped_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectProgress_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectString_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryTypeEnum_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObject_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectString_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectNull_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ParseRecord_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMap_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MessageEnd_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerStack_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveUnTyped_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberReference_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SizedArray_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryCrossAppDomainString_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssemblyInfo_def.hpp"
+#include "System/IO/zzzz__BinaryReader_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectReader_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMapTyped_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::__BinaryParser._ctor
 template<>
 
@@ -957,8 +957,10 @@ return ::cordl_internals::getInstanceField<System::Runtime::Serialization::Forma
  System::Runtime::Serialization::Formatters::Binary::MessageEnd System::Runtime::Serialization::Formatters::Binary::__BinaryParser::__get_messageEnd()  {
 return ::cordl_internals::getStaticField<System::Runtime::Serialization::Formatters::Binary::MessageEnd, "messageEnd", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::__BinaryParser>::get>();
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "objectReader", ty: "System::Runtime::Serialization::Formatters::Binary::ObjectReader", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::__BinaryParser::__BinaryParser(System::IO::Stream stream, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<__BinaryParser>(stream, objectReader))) {}
+ System::Runtime::Serialization::Formatters::Binary::__BinaryParser System::Runtime::Serialization::Formatters::Binary::__BinaryParser::New_ctor(System::IO::Stream stream, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader)  {
+System::Runtime::Serialization::Formatters::Binary::__BinaryParser o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::__BinaryParser>(stream, objectReader))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::__BinaryParser::_ctor(System::IO::Stream stream, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::__BinaryParser>::get(),

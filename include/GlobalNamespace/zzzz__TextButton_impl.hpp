@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextButton_def.hpp"
-#include "UnityEngine/UI/zzzz__Text_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TextButton.get_text
 template<>
 
@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UI::Button, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::TextButton::TextButton()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TextButton>())) {}
+ GlobalNamespace::TextButton GlobalNamespace::TextButton::New_ctor()  {
+GlobalNamespace::TextButton o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TextButton>())};
+return o;
+}
  void GlobalNamespace::TextButton::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TextButton>::get(),

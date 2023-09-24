@@ -6,10 +6,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
@@ -75,14 +75,12 @@ static Org::BouncyCastle::Asn1::DerUtf8String GetInstance(::bs_hook::Il2CppWrapp
 /// @brief Method GetInstance addr 0x113a4d8 size 0xd8 virtual false final false
 static Org::BouncyCastle::Asn1::DerUtf8String GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerUtf8String(::ArrayW<uint8_t> str) ;
+static Org::BouncyCastle::Asn1::DerUtf8String New_ctor(::ArrayW<uint8_t> str) ;
 
 /// @brief Method .ctor addr 0x112c280 size 0x54 virtual false final false
  void _ctor(::ArrayW<uint8_t> str) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DerUtf8String(::StringW str) ;
+static Org::BouncyCastle::Asn1::DerUtf8String New_ctor(::StringW str) ;
 
 /// @brief Method .ctor addr 0x113a5b0 size 0x78 virtual false final false
  void _ctor(::StringW str) ;

@@ -2,6 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace GlobalNamespace {
+class LightRotationGroupEffect;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -11,9 +14,6 @@ class LightRotationGroup;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace GlobalNamespace {
-class LightRotationGroupEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,8 +88,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::LightRotationGro
 /// @brief Method OnDestroy addr 0x225f418 size 0x148 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit LightRotationGroupEffectManager() ;
+static GlobalNamespace::LightRotationGroupEffectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x225f560 size 0x7c virtual false final false
  void _ctor() ;

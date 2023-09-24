@@ -82,8 +82,7 @@ constexpr int32_t __get__inputsPageIndexUI() const;
 /// @brief Method IsEquivalentTo addr 0x1ffec0c size 0x1e4 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_InstanceInputUIState other) ;
 
-// Ctor Parameters []
-explicit HEU_InstanceInputUIState() ;
+static HoudiniEngineUnity::HEU_InstanceInputUIState New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ffedf0 size 0x18 virtual false final false
  void _ctor() ;

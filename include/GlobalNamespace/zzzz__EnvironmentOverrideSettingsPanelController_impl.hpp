@@ -1,19 +1,20 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentsListSO_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
+#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "HMUI/zzzz__PanelAnimationSO_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
-#include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentTypeSO_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements.get_environmentInfos
 template<>
@@ -108,8 +109,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements::GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements>())) {}
+ GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements::New_ctor()  {
+GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements>::get(),
@@ -165,8 +168,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Envir
  System::Func_2<GlobalNamespace::EnvironmentInfoSO,::StringW> GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c::__get___9__12_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::EnvironmentInfoSO,::StringW>, "<>9__12_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EnvironmentOverrideSettingsPanelController____c>())) {}
+ GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c>::get(),
@@ -433,8 +438,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isOn);
 }
-// Ctor Parameters []
- GlobalNamespace::EnvironmentOverrideSettingsPanelController::EnvironmentOverrideSettingsPanelController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EnvironmentOverrideSettingsPanelController>())) {}
+ GlobalNamespace::EnvironmentOverrideSettingsPanelController GlobalNamespace::EnvironmentOverrideSettingsPanelController::New_ctor()  {
+GlobalNamespace::EnvironmentOverrideSettingsPanelController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnvironmentOverrideSettingsPanelController>())};
+return o;
+}
  void GlobalNamespace::EnvironmentOverrideSettingsPanelController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnvironmentOverrideSettingsPanelController>::get(),

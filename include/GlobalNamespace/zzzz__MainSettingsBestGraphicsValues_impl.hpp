@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, mainSettingsModel);
 }
-// Ctor Parameters []
- GlobalNamespace::MainSettingsBestGraphicsValues::MainSettingsBestGraphicsValues()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MainSettingsBestGraphicsValues>())) {}
+ GlobalNamespace::MainSettingsBestGraphicsValues GlobalNamespace::MainSettingsBestGraphicsValues::New_ctor()  {
+GlobalNamespace::MainSettingsBestGraphicsValues o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainSettingsBestGraphicsValues>())};
+return o;
+}
  void GlobalNamespace::MainSettingsBestGraphicsValues::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainSettingsBestGraphicsValues>::get(),

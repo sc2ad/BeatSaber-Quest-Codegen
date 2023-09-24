@@ -4,37 +4,40 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace Zenject {
+class ITickable;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult;
+}
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
+struct GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
 }
 namespace System {
 class Action;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult;
+class ILevelGameplaySetupData;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace Zenject {
-class ITickable;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace System::Threading {
 class CancellationTokenSource;
 }
 namespace GlobalNamespace {
-class ILevelGameplaySetupData;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class BeatmapLevelsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -93,6 +96,8 @@ __WaitingForCountdown = 2,
 constexpr operator __GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -256,8 +261,7 @@ constexpr bool __get__stillDownloadingCalled() const;
 /// @brief Method Tick addr 0x214f570 size 0x2ec virtual true final true
  void Tick() ;
 
-// Ctor Parameters []
-explicit MultiplayerLevelLoader() ;
+static GlobalNamespace::MultiplayerLevelLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x214f85c size 0x8 virtual false final false
  void _ctor() ;

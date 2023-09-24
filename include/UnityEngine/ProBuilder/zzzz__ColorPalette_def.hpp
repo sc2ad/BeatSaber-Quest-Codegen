@@ -2,11 +2,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
-namespace UnityEngine::ProBuilder {
-class IHasDefault;
-}
-namespace UnityEngine {
-struct Color;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::ObjectModel {
 template<typename T>
@@ -16,9 +14,11 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::ProBuilder {
+class IHasDefault;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -119,8 +119,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Color> __get_m_Color
 /// @brief Method get_Count addr 0x29a9854 size 0x48 virtual false final false
  int32_t get_Count() ;
 
-// Ctor Parameters []
-explicit ColorPalette() ;
+static UnityEngine::ProBuilder::ColorPalette New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a989c size 0x8 virtual false final false
  void _ctor() ;

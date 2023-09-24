@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+struct SongPackMask;
+}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
 }
 namespace System {
 struct Int32Enum;
@@ -25,22 +25,22 @@ namespace UnityEngine {
 struct Vector4;
 }
 namespace GlobalNamespace {
-class IRemoteProcedureCall;
-}
-namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-// Forward declare root types
+namespace GlobalNamespace {
+class IRemoteProcedureCall;
+}
 namespace GlobalNamespace {
 template<typename T>
 class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1;
 }
+// Forward declare root types
 namespace GlobalNamespace {
-template<::cordl_internals::il2cpp_reference_type T>
-class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T>;
+template<typename T>
+class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1;
 }
 namespace GlobalNamespace {
 template<>
@@ -49,6 +49,22 @@ class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<GlobalNamespace::SongP
 namespace GlobalNamespace {
 template<>
 class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<System::Int32Enum>;
+}
+namespace GlobalNamespace {
+template<::cordl_internals::is_or_is_backed_by<int64_t> T>
+class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T>;
+}
+namespace GlobalNamespace {
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T>;
+}
+namespace GlobalNamespace {
+template<::cordl_internals::is_or_is_backed_by<uint8_t> T>
+class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T>;
+}
+namespace GlobalNamespace {
+template<::cordl_internals::il2cpp_reference_type T>
+class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T>;
 }
 namespace GlobalNamespace {
 template<>
@@ -69,18 +85,6 @@ class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<bool>;
 namespace GlobalNamespace {
 template<>
 class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<float_t>;
-}
-namespace GlobalNamespace {
-template<>
-class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<int32_t>;
-}
-namespace GlobalNamespace {
-template<>
-class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<int64_t>;
-}
-namespace GlobalNamespace {
-template<>
-class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<uint8_t>;
 }
 namespace GlobalNamespace {
 class RemoteProcedureCall;
@@ -178,8 +182,7 @@ constexpr float_t __get__syncTime_k__BackingField() const;
 /// @brief Method Init addr 0xdc7480 size 0x8 virtual false final false
  GlobalNamespace::IRemoteProcedureCall Init(float_t syncTime) ;
 
-// Ctor Parameters []
-explicit RemoteProcedureCall() ;
+static GlobalNamespace::RemoteProcedureCall New_ctor() ;
 
 /// @brief Method .ctor addr 0xdbc190 size 0x8 virtual false final false
  void _ctor() ;
@@ -191,103 +194,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::TypeWrapper`1
 namespace GlobalNamespace {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 2 })
-// CS Name: RemoteProcedureCall::TypeWrapper`1
-class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- T __declspec(property(get=__get__v, put=__set__v))  _v;
-
-constexpr void __set__v(T value) ;
-
-constexpr T __get__v() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_hasValue))  hasValue;
-
- T __declspec(property(get=get_value))  value;
-
-
-// Methods
-
-/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_hasValue() ;
-
-/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
- T get_value() ;
-
-/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
- void Set(T v) ;
-
-/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
- void Clear() ;
-
-/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
- void Release() ;
-
-/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
-
-/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
-
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::TypeWrapper`1
-namespace GlobalNamespace {
-// cpp template
 template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 92 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 4825 })
 // CS Name: RemoteProcedureCall::TypeWrapper`1
-class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<int32_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -323,18 +235,18 @@ constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr
 
 // Fields
 
- int32_t __declspec(property(get=__get__v, put=__set__v))  _v;
+ System::Int32Enum __declspec(property(get=__get__v, put=__set__v))  _v;
 
-constexpr void __set__v(int32_t value) ;
+constexpr void __set__v(System::Int32Enum value) ;
 
-constexpr int32_t __get__v() const;
+constexpr System::Int32Enum __get__v() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_hasValue))  hasValue;
 
- int32_t __declspec(property(get=get_value))  value;
+ System::Int32Enum __declspec(property(get=get_value))  value;
 
 
 // Methods
@@ -343,10 +255,10 @@ constexpr int32_t __get__v() const;
  bool get_hasValue() ;
 
 /// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t get_value() ;
+ System::Int32Enum get_value() ;
 
 /// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
- void Set(int32_t v) ;
+ void Set(System::Int32Enum v) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
  void Clear() ;
@@ -360,645 +272,7 @@ constexpr int32_t __get__v() const;
 /// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
  void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::TypeWrapper`1
-namespace GlobalNamespace {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 99 })
-// CS Name: RemoteProcedureCall::TypeWrapper`1
-class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<bool> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- bool __declspec(property(get=__get__v, put=__set__v))  _v;
-
-constexpr void __set__v(bool value) ;
-
-constexpr bool __get__v() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_hasValue))  hasValue;
-
- bool __declspec(property(get=get_value))  value;
-
-
-// Methods
-
-/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_hasValue() ;
-
-/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_value() ;
-
-/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
- void Set(bool v) ;
-
-/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
- void Clear() ;
-
-/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
- void Release() ;
-
-/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
-
-/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
-
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::TypeWrapper`1
-namespace GlobalNamespace {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 374 })
-// CS Name: RemoteProcedureCall::TypeWrapper`1
-class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<float_t> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- float_t __declspec(property(get=__get__v, put=__set__v))  _v;
-
-constexpr void __set__v(float_t value) ;
-
-constexpr float_t __get__v() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_hasValue))  hasValue;
-
- float_t __declspec(property(get=get_value))  value;
-
-
-// Methods
-
-/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_hasValue() ;
-
-/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
- float_t get_value() ;
-
-/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
- void Set(float_t v) ;
-
-/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
- void Clear() ;
-
-/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
- void Release() ;
-
-/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
-
-/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
-
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::TypeWrapper`1
-namespace GlobalNamespace {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 394 })
-// CS Name: RemoteProcedureCall::TypeWrapper`1
-class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<UnityEngine::Vector3> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- UnityEngine::Vector3 __declspec(property(get=__get__v, put=__set__v))  _v;
-
-constexpr void __set__v(UnityEngine::Vector3 value) ;
-
-constexpr UnityEngine::Vector3 __get__v() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_hasValue))  hasValue;
-
- UnityEngine::Vector3 __declspec(property(get=get_value))  value;
-
-
-// Methods
-
-/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_hasValue() ;
-
-/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
- UnityEngine::Vector3 get_value() ;
-
-/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
- void Set(UnityEngine::Vector3 v) ;
-
-/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
- void Clear() ;
-
-/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
- void Release() ;
-
-/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
-
-/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
-
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::TypeWrapper`1
-namespace GlobalNamespace {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 717 })
-// CS Name: RemoteProcedureCall::TypeWrapper`1
-class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<uint8_t> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- uint8_t __declspec(property(get=__get__v, put=__set__v))  _v;
-
-constexpr void __set__v(uint8_t value) ;
-
-constexpr uint8_t __get__v() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_hasValue))  hasValue;
-
- uint8_t __declspec(property(get=get_value))  value;
-
-
-// Methods
-
-/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_hasValue() ;
-
-/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
- uint8_t get_value() ;
-
-/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
- void Set(uint8_t v) ;
-
-/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
- void Clear() ;
-
-/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
- void Release() ;
-
-/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
-
-/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
-
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::TypeWrapper`1
-namespace GlobalNamespace {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 731 })
-// CS Name: RemoteProcedureCall::TypeWrapper`1
-class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<UnityEngine::Vector4> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- UnityEngine::Vector4 __declspec(property(get=__get__v, put=__set__v))  _v;
-
-constexpr void __set__v(UnityEngine::Vector4 value) ;
-
-constexpr UnityEngine::Vector4 __get__v() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_hasValue))  hasValue;
-
- UnityEngine::Vector4 __declspec(property(get=get_value))  value;
-
-
-// Methods
-
-/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_hasValue() ;
-
-/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
- UnityEngine::Vector4 get_value() ;
-
-/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
- void Set(UnityEngine::Vector4 v) ;
-
-/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
- void Clear() ;
-
-/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
- void Release() ;
-
-/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
-
-/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
-
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::TypeWrapper`1
-namespace GlobalNamespace {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 830 })
-// CS Name: RemoteProcedureCall::TypeWrapper`1
-class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<int64_t> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- int64_t __declspec(property(get=__get__v, put=__set__v))  _v;
-
-constexpr void __set__v(int64_t value) ;
-
-constexpr int64_t __get__v() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_hasValue))  hasValue;
-
- int64_t __declspec(property(get=get_value))  value;
-
-
-// Methods
-
-/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_hasValue() ;
-
-/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
- int64_t get_value() ;
-
-/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
- void Set(int64_t v) ;
-
-/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
- void Clear() ;
-
-/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
- void Release() ;
-
-/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
-
-/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
-
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::TypeWrapper`1
-namespace GlobalNamespace {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 3222 })
-// CS Name: RemoteProcedureCall::TypeWrapper`1
-class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<UnityEngine::Quaternion> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
-  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- UnityEngine::Quaternion __declspec(property(get=__get__v, put=__set__v))  _v;
-
-constexpr void __set__v(UnityEngine::Quaternion value) ;
-
-constexpr UnityEngine::Quaternion __get__v() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_hasValue))  hasValue;
-
- UnityEngine::Quaternion __declspec(property(get=get_value))  value;
-
-
-// Methods
-
-/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_hasValue() ;
-
-/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
- UnityEngine::Quaternion get_value() ;
-
-/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
- void Set(UnityEngine::Quaternion v) ;
-
-/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
- void Clear() ;
-
-/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
- void Release() ;
-
-/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
-
-/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
- void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
-
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<System::Int32Enum> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1088,8 +362,7 @@ constexpr GlobalNamespace::SongPackMask __get__v() const;
 /// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
  void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<GlobalNamespace::SongPackMask> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1104,9 +377,9 @@ namespace GlobalNamespace {
 template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 4825 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 3222 })
 // CS Name: RemoteProcedureCall::TypeWrapper`1
-class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<UnityEngine::Quaternion> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -1142,18 +415,18 @@ constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr
 
 // Fields
 
- System::Int32Enum __declspec(property(get=__get__v, put=__set__v))  _v;
+ UnityEngine::Quaternion __declspec(property(get=__get__v, put=__set__v))  _v;
 
-constexpr void __set__v(System::Int32Enum value) ;
+constexpr void __set__v(UnityEngine::Quaternion value) ;
 
-constexpr System::Int32Enum __get__v() const;
+constexpr UnityEngine::Quaternion __get__v() const;
 
 
 // Properties
 
  bool __declspec(property(get=get_hasValue))  hasValue;
 
- System::Int32Enum __declspec(property(get=get_value))  value;
+ UnityEngine::Quaternion __declspec(property(get=get_value))  value;
 
 
 // Methods
@@ -1162,10 +435,10 @@ constexpr System::Int32Enum __get__v() const;
  bool get_hasValue() ;
 
 /// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
- System::Int32Enum get_value() ;
+ UnityEngine::Quaternion get_value() ;
 
 /// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
- void Set(System::Int32Enum v) ;
+ void Set(UnityEngine::Quaternion v) ;
 
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
  void Clear() ;
@@ -1179,8 +452,727 @@ constexpr System::Int32Enum __get__v() const;
 /// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
  void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() ;
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<UnityEngine::Quaternion> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::TypeWrapper`1
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<int64_t> T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 830 })
+// CS Name: RemoteProcedureCall::TypeWrapper`1
+class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ T __declspec(property(get=__get__v, put=__set__v))  _v;
+
+constexpr void __set__v(T value) ;
+
+constexpr T __get__v() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_hasValue))  hasValue;
+
+ T __declspec(property(get=get_value))  value;
+
+
+// Methods
+
+/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_hasValue() ;
+
+/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
+ T get_value() ;
+
+/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Set(T v) ;
+
+/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Clear() ;
+
+/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Release() ;
+
+/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
+
+/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
+
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::TypeWrapper`1
+namespace GlobalNamespace {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 731 })
+// CS Name: RemoteProcedureCall::TypeWrapper`1
+class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<UnityEngine::Vector4> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ UnityEngine::Vector4 __declspec(property(get=__get__v, put=__set__v))  _v;
+
+constexpr void __set__v(UnityEngine::Vector4 value) ;
+
+constexpr UnityEngine::Vector4 __get__v() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_hasValue))  hasValue;
+
+ UnityEngine::Vector4 __declspec(property(get=get_value))  value;
+
+
+// Methods
+
+/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_hasValue() ;
+
+/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
+ UnityEngine::Vector4 get_value() ;
+
+/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Set(UnityEngine::Vector4 v) ;
+
+/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Clear() ;
+
+/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Release() ;
+
+/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
+
+/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
+
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<UnityEngine::Vector4> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::TypeWrapper`1
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<uint8_t> T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 717 })
+// CS Name: RemoteProcedureCall::TypeWrapper`1
+class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ T __declspec(property(get=__get__v, put=__set__v))  _v;
+
+constexpr void __set__v(T value) ;
+
+constexpr T __get__v() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_hasValue))  hasValue;
+
+ T __declspec(property(get=get_value))  value;
+
+
+// Methods
+
+/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_hasValue() ;
+
+/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
+ T get_value() ;
+
+/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Set(T v) ;
+
+/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Clear() ;
+
+/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Release() ;
+
+/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
+
+/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
+
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::TypeWrapper`1
+namespace GlobalNamespace {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 394 })
+// CS Name: RemoteProcedureCall::TypeWrapper`1
+class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<UnityEngine::Vector3> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ UnityEngine::Vector3 __declspec(property(get=__get__v, put=__set__v))  _v;
+
+constexpr void __set__v(UnityEngine::Vector3 value) ;
+
+constexpr UnityEngine::Vector3 __get__v() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_hasValue))  hasValue;
+
+ UnityEngine::Vector3 __declspec(property(get=get_value))  value;
+
+
+// Methods
+
+/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_hasValue() ;
+
+/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
+ UnityEngine::Vector3 get_value() ;
+
+/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Set(UnityEngine::Vector3 v) ;
+
+/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Clear() ;
+
+/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Release() ;
+
+/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
+
+/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
+
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<UnityEngine::Vector3> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::TypeWrapper`1
+namespace GlobalNamespace {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 374 })
+// CS Name: RemoteProcedureCall::TypeWrapper`1
+class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<float_t> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ float_t __declspec(property(get=__get__v, put=__set__v))  _v;
+
+constexpr void __set__v(float_t value) ;
+
+constexpr float_t __get__v() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_hasValue))  hasValue;
+
+ float_t __declspec(property(get=get_value))  value;
+
+
+// Methods
+
+/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_hasValue() ;
+
+/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
+ float_t get_value() ;
+
+/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Set(float_t v) ;
+
+/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Clear() ;
+
+/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Release() ;
+
+/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
+
+/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
+
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<float_t> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::TypeWrapper`1
+namespace GlobalNamespace {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 99 })
+// CS Name: RemoteProcedureCall::TypeWrapper`1
+class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<bool> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ bool __declspec(property(get=__get__v, put=__set__v))  _v;
+
+constexpr void __set__v(bool value) ;
+
+constexpr bool __get__v() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_hasValue))  hasValue;
+
+ bool __declspec(property(get=get_value))  value;
+
+
+// Methods
+
+/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_hasValue() ;
+
+/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_value() ;
+
+/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Set(bool v) ;
+
+/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Clear() ;
+
+/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Release() ;
+
+/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
+
+/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
+
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<bool> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::TypeWrapper`1
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 92 })
+// CS Name: RemoteProcedureCall::TypeWrapper`1
+class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ T __declspec(property(get=__get__v, put=__set__v))  _v;
+
+constexpr void __set__v(T value) ;
+
+constexpr T __get__v() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_hasValue))  hasValue;
+
+ T __declspec(property(get=get_value))  value;
+
+
+// Methods
+
+/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_hasValue() ;
+
+/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
+ T get_value() ;
+
+/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Set(T v) ;
+
+/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Clear() ;
+
+/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Release() ;
+
+/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
+
+/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
+
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::TypeWrapper`1
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12874))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12874), inst: 2 })
+// CS Name: RemoteProcedureCall::TypeWrapper`1
+class CORDL_TYPE GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RemoteProcedureCall__TypeWrapper_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RemoteProcedureCall__TypeWrapper_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1&& o) noexcept = default;
+  constexpr GlobalNamespace__RemoteProcedureCall__TypeWrapper_1& operator=(GlobalNamespace__RemoteProcedureCall__TypeWrapper_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ T __declspec(property(get=__get__v, put=__set__v))  _v;
+
+constexpr void __set__v(T value) ;
+
+constexpr T __get__v() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_hasValue))  hasValue;
+
+ T __declspec(property(get=get_value))  value;
+
+
+// Methods
+
+/// @brief Method get_hasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_hasValue() ;
+
+/// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual false final false
+ T get_value() ;
+
+/// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Set(T v) ;
+
+/// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Clear() ;
+
+/// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Release() ;
+
+/// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
+
+/// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
+
+static GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

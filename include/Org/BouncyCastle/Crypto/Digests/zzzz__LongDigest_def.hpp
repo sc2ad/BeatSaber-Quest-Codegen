@@ -166,14 +166,12 @@ static ::ArrayW<uint64_t> __get_K() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit LongDigest() ;
+static Org::BouncyCastle::Crypto::Digests::LongDigest New_ctor() ;
 
 /// @brief Method .ctor addr 0x119b578 size 0xa0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::LongDigest", modifiers: "", def_value: None }]
-explicit LongDigest(Org::BouncyCastle::Crypto::Digests::LongDigest t) ;
+static Org::BouncyCastle::Crypto::Digests::LongDigest New_ctor(Org::BouncyCastle::Crypto::Digests::LongDigest t) ;
 
 /// @brief Method .ctor addr 0x119b618 size 0xac virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::LongDigest t) ;

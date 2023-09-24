@@ -1,12 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__AimController_def.hpp"
+#include "RootMotion/FinalIK/zzzz__AimController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__AimIK_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "RootMotion/FinalIK/zzzz__AimIK_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToTarget_d__33._ctor
 template<>
 
@@ -139,8 +140,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToT
 constexpr RootMotion::FinalIK::AimController RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToTarget_d__33::__get___4__this() const {
 return ::cordl_internals::getInstanceField<RootMotion::FinalIK::AimController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToTarget_d__33::RootMotion__FinalIK__AimController___TurnToTarget_d__33(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__AimController___TurnToTarget_d__33>(__1__state))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToTarget_d__33 RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToTarget_d__33::New_ctor(int32_t __1__state)  {
+RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToTarget_d__33 o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToTarget_d__33>(__1__state))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToTarget_d__33::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToTarget_d__33>::get(),
@@ -530,8 +533,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::AimController::AimController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AimController>())) {}
+ RootMotion::FinalIK::AimController RootMotion::FinalIK::AimController::New_ctor()  {
+RootMotion::FinalIK::AimController o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::AimController>())};
+return o;
+}
  void RootMotion::FinalIK::AimController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::AimController>::get(),

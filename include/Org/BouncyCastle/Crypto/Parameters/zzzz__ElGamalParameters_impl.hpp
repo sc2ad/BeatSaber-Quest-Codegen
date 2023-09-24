@@ -160,8 +160,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::__set_l
 constexpr int32_t Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::__get_l() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::ElGamalParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ElGamalParameters>(p, g))) {}
+ Org::BouncyCastle::Crypto::Parameters::ElGamalParameters Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g)  {
+Org::BouncyCastle::Crypto::Parameters::ElGamalParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ElGamalParameters>(p, g))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ElGamalParameters>::get(),
@@ -171,8 +173,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, p, g);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "l", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::ElGamalParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, int32_t l)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ElGamalParameters>(p, g, l))) {}
+ Org::BouncyCastle::Crypto::Parameters::ElGamalParameters Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, int32_t l)  {
+Org::BouncyCastle::Crypto::Parameters::ElGamalParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ElGamalParameters>(p, g, l))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ElGamalParameters::_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, int32_t l)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ElGamalParameters>::get(),

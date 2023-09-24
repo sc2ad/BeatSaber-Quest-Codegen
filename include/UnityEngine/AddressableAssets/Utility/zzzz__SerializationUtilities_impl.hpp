@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__SerializationUtilities_def.hpp"
+#include "UnityEngine/AddressableAssets/Utility/zzzz__SerializationUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::AddressableAssets::Utility::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType::UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;

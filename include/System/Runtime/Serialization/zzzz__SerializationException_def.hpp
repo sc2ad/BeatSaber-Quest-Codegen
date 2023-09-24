@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+class Exception;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System {
-class Exception;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -66,26 +66,22 @@ static ::StringW __get_s_nullMessage() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit SerializationException() ;
+static System::Runtime::Serialization::SerializationException New_ctor() ;
 
 /// @brief Method .ctor addr 0x23481a0 size 0x74 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SerializationException(::StringW message) ;
+static System::Runtime::Serialization::SerializationException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2348214 size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit SerializationException(::StringW message, System::Exception innerException) ;
+static System::Runtime::Serialization::SerializationException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x2348238 size 0x24 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit SerializationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::Serialization::SerializationException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x234825c size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

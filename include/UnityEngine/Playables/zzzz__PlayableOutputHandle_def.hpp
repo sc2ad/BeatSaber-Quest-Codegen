@@ -6,10 +6,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Playables {
-struct PlayableHandle;
+class INotificationReceiver;
 }
 namespace UnityEngine::Playables {
-class INotificationReceiver;
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 class INotification;

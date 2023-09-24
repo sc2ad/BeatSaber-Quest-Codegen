@@ -56,6 +56,8 @@ constexpr operator __RevocationKeyTag_Unwrapped () const noexcept {
 return std::bit_cast<__RevocationKeyTag_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
 
 // Fields
 

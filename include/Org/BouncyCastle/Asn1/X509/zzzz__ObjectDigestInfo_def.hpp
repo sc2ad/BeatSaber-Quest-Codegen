@@ -6,10 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -21,7 +18,10 @@ namespace Org::BouncyCastle::Asn1 {
 class DerEnumerated;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -125,14 +125,12 @@ static Org::BouncyCastle::Asn1::X509::ObjectDigestInfo GetInstance(::bs_hook::Il
 /// @brief Method GetInstance addr 0x110606c size 0x18 virtual false final false
 static Org::BouncyCastle::Asn1::X509::ObjectDigestInfo GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "digestedObjectType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "otherObjectTypeID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "objectDigest", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ObjectDigestInfo(int32_t digestedObjectType, ::StringW otherObjectTypeID, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, ::ArrayW<uint8_t> objectDigest) ;
+static Org::BouncyCastle::Asn1::X509::ObjectDigestInfo New_ctor(int32_t digestedObjectType, ::StringW otherObjectTypeID, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, ::ArrayW<uint8_t> objectDigest) ;
 
 /// @brief Method .ctor addr 0x1109a2c size 0x104 virtual false final false
  void _ctor(int32_t digestedObjectType, ::StringW otherObjectTypeID, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, ::ArrayW<uint8_t> objectDigest) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ObjectDigestInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::ObjectDigestInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x11097dc size 0x250 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

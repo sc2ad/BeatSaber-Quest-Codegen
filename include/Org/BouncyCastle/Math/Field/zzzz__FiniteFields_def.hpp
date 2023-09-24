@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::Field {
 class IFiniteField;
 }
 namespace Org::BouncyCastle::Math::Field {
 class IPolynomialExtensionField;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {
@@ -79,8 +79,7 @@ static Org::BouncyCastle::Math::Field::IPolynomialExtensionField GetBinaryExtens
 /// @brief Method GetPrimeField addr 0xfce158 size 0x180 virtual false final false
 static Org::BouncyCastle::Math::Field::IFiniteField GetPrimeField(Org::BouncyCastle::Math::BigInteger characteristic) ;
 
-// Ctor Parameters []
-explicit FiniteFields() ;
+static Org::BouncyCastle::Math::Field::FiniteFields New_ctor() ;
 
 /// @brief Method .ctor addr 0xfce3f8 size 0x8 virtual false final false
  void _ctor() ;

@@ -24,8 +24,10 @@ constexpr void Oculus::Platform::Models::NetSyncSetSessionPropertyResult::__set_
 constexpr Oculus::Platform::Models::NetSyncSession Oculus::Platform::Models::NetSyncSetSessionPropertyResult::__get_Session() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Models::NetSyncSession, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::NetSyncSetSessionPropertyResult::NetSyncSetSessionPropertyResult(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetSyncSetSessionPropertyResult>(o))) {}
+ Oculus::Platform::Models::NetSyncSetSessionPropertyResult Oculus::Platform::Models::NetSyncSetSessionPropertyResult::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::NetSyncSetSessionPropertyResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::NetSyncSetSessionPropertyResult>(o))};
+return o;
+}
  void Oculus::Platform::Models::NetSyncSetSessionPropertyResult::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::NetSyncSetSessionPropertyResult>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__RsaPublicBcpgKey_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__MPInteger_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__IBcpgKey_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__MPInteger_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::RsaPublicBcpgKey._ctor
 template<>
 
@@ -141,8 +141,10 @@ constexpr void Org::BouncyCastle::Bcpg::RsaPublicBcpgKey::__set_e(Org::BouncyCas
 constexpr Org::BouncyCastle::Bcpg::MPInteger Org::BouncyCastle::Bcpg::RsaPublicBcpgKey::__get_e() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::MPInteger, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::RsaPublicBcpgKey::RsaPublicBcpgKey(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::BcpgObject(THROW_UNLESS(::il2cpp_utils::New<RsaPublicBcpgKey>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::RsaPublicBcpgKey Org::BouncyCastle::Bcpg::RsaPublicBcpgKey::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::RsaPublicBcpgKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::RsaPublicBcpgKey>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::RsaPublicBcpgKey::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::RsaPublicBcpgKey>::get(),
@@ -152,8 +154,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgIn);
 }
-// Ctor Parameters [CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "e", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::RsaPublicBcpgKey::RsaPublicBcpgKey(Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger e)  : Org::BouncyCastle::Bcpg::BcpgObject(THROW_UNLESS(::il2cpp_utils::New<RsaPublicBcpgKey>(n, e))) {}
+ Org::BouncyCastle::Bcpg::RsaPublicBcpgKey Org::BouncyCastle::Bcpg::RsaPublicBcpgKey::New_ctor(Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger e)  {
+Org::BouncyCastle::Bcpg::RsaPublicBcpgKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::RsaPublicBcpgKey>(n, e))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::RsaPublicBcpgKey::_ctor(Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::RsaPublicBcpgKey>::get(),

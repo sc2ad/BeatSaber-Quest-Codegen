@@ -4,29 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -89,8 +89,7 @@ static System::Collections::IDictionary __get_basicIVSizes() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit ParameterUtilities() ;
+static Org::BouncyCastle::Security::ParameterUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10a59a0 size 0x8 virtual false final false
  void _ctor() ;

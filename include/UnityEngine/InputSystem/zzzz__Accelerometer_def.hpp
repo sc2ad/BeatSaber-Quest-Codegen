@@ -93,8 +93,7 @@ static void set_current(UnityEngine::InputSystem::Accelerometer value) ;
 /// @brief Method FinishSetup addr 0x29153e0 size 0x78 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit Accelerometer() ;
+static UnityEngine::InputSystem::Accelerometer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2915458 size 0x8 virtual false final false
  void _ctor() ;

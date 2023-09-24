@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Encodings/zzzz__Pkcs1Encoding_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding.get_StrictLengthEnabled
 template<>
@@ -351,8 +351,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::Pkcs1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs1Encoding>(cipher))) {}
+ Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding>::get(),
@@ -362,8 +364,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "pLen", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::Pkcs1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, int32_t pLen)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs1Encoding>(cipher, pLen))) {}
+ Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, int32_t pLen)  {
+Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding>(cipher, pLen))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, int32_t pLen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding>::get(),
@@ -373,8 +377,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, pLen);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "fallback", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::Pkcs1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::ArrayW<uint8_t> fallback)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs1Encoding>(cipher, fallback))) {}
+ Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::ArrayW<uint8_t> fallback)  {
+Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding>(cipher, fallback))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::ArrayW<uint8_t> fallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding>::get(),

@@ -5,20 +5,17 @@
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
+#include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HMUI/zzzz__IconSegmentedControl_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__LevelStatsView_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformLeaderboardViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__LevelStatsView_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31._ctor
 template<>
 
@@ -163,8 +160,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewControll
 constexpr bool GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31::__get_showLoadingIndicator() const {
 return ::cordl_internals::getInstanceField<bool, 0x29>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31 GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31>::get(),
@@ -728,8 +727,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PlatformLeaderboardViewController::PlatformLeaderboardViewController()  : GlobalNamespace::LeaderboardViewController(THROW_UNLESS(::il2cpp_utils::New<PlatformLeaderboardViewController>())) {}
+ GlobalNamespace::PlatformLeaderboardViewController GlobalNamespace::PlatformLeaderboardViewController::New_ctor()  {
+GlobalNamespace::PlatformLeaderboardViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlatformLeaderboardViewController>())};
+return o;
+}
  void GlobalNamespace::PlatformLeaderboardViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlatformLeaderboardViewController>::get(),

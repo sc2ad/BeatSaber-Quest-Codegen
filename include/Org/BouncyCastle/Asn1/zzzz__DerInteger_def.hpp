@@ -6,16 +6,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -109,32 +109,27 @@ static Org::BouncyCastle::Asn1::DerInteger GetInstance(::bs_hook::Il2CppWrapperT
 /// @brief Method GetInstance addr 0xdf70e8 size 0x124 virtual false final false
 static Org::BouncyCastle::Asn1::DerInteger GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DerInteger(int32_t value) ;
+static Org::BouncyCastle::Asn1::DerInteger New_ctor(int32_t value) ;
 
 /// @brief Method .ctor addr 0xdf340c size 0x8c virtual false final false
  void _ctor(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: None }]
-explicit DerInteger(int64_t value) ;
+static Org::BouncyCastle::Asn1::DerInteger New_ctor(int64_t value) ;
 
 /// @brief Method .ctor addr 0xdfaab8 size 0x8c virtual false final false
  void _ctor(int64_t value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit DerInteger(Org::BouncyCastle::Math::BigInteger value) ;
+static Org::BouncyCastle::Asn1::DerInteger New_ctor(Org::BouncyCastle::Math::BigInteger value) ;
 
 /// @brief Method .ctor addr 0xdfab44 size 0x88 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger value) ;
 
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerInteger(::ArrayW<uint8_t> bytes) ;
+static Org::BouncyCastle::Asn1::DerInteger New_ctor(::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0xdfaab0 size 0x8 virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes) ;
 
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "clone", ty: "bool", modifiers: "", def_value: None }]
-explicit DerInteger(::ArrayW<uint8_t> bytes, bool clone) ;
+static Org::BouncyCastle::Asn1::DerInteger New_ctor(::ArrayW<uint8_t> bytes, bool clone) ;
 
 /// @brief Method .ctor addr 0xdfabcc size 0x104 virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes, bool clone) ;

@@ -2,14 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class CipherKeyGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Utilities {
@@ -57,8 +57,7 @@ constexpr explicit CipherKeyGeneratorFactory(void* ptr) noexcept : ::bs_hook::Il
 
 // Methods
 
-// Ctor Parameters []
-explicit CipherKeyGeneratorFactory() ;
+static Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0xf34198 size 0x8 virtual false final false
  void _ctor() ;

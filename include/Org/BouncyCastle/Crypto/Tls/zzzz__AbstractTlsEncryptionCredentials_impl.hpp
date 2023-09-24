@@ -54,8 +54,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method, encryptedPreMasterSecret);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::AbstractTlsEncryptionCredentials()  : Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials(THROW_UNLESS(::il2cpp_utils::New<AbstractTlsEncryptionCredentials>())) {}
+ Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials>::get(),

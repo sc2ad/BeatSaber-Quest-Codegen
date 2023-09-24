@@ -70,8 +70,7 @@ constexpr UnityEngine::SpriteRenderer __get__spriteRenderer() const;
 /// @brief Method get_renderer addr 0x1f93f2c size 0x8 virtual true final false
  UnityEngine::Renderer get_renderer() ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundSpriteRenderer() ;
+static GlobalNamespace::BloomPrePassBackgroundSpriteRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f93f34 size 0x54 virtual false final false
  void _ctor() ;

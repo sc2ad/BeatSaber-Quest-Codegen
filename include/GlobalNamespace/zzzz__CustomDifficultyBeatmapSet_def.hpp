@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
@@ -13,10 +13,10 @@ template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class CustomDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class CustomDifficultyBeatmap;
+class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +95,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::CustomD
 /// @brief Method get_difficultyBeatmaps addr 0x21e96d0 size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> get_difficultyBeatmaps() ;
 
-// Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }]
-explicit CustomDifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
+static GlobalNamespace::CustomDifficultyBeatmapSet New_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
 
 /// @brief Method .ctor addr 0x21e96d8 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;

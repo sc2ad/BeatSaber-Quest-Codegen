@@ -2,16 +2,16 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Transform;
+}
+namespace RootMotion::FinalIK {
+class VRIK;
 }
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__VRIKCalibrator__CalibrationData;
 }
-namespace RootMotion::FinalIK {
-class VRIK;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -118,8 +118,7 @@ constexpr RootMotion::FinalIK::VRIK __get_ik() const;
 /// @brief Method OnDestroy addr 0x12109f0 size 0x10c virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit VRIKRootController() ;
+static RootMotion::FinalIK::VRIKRootController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1210afc size 0x8 virtual false final false
  void _ctor() ;

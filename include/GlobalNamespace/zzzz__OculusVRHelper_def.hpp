@@ -6,19 +6,13 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-struct EulerPose;
+struct Quaternion;
 }
 namespace GlobalNamespace {
 struct VRPlatformSDK;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector2;
 }
 namespace GlobalNamespace {
 class IVerboseLogger;
@@ -26,20 +20,26 @@ class IVerboseLogger;
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace System {
-class Action;
+namespace UnityEngine::EventSystems {
+class EventSystem;
 }
 namespace UnityEngine {
 struct Pose;
 }
-namespace UnityEngine::EventSystems {
-class EventSystem;
-}
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Node;
 }
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct EulerPose;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -303,8 +303,7 @@ static GlobalNamespace::GlobalNamespace__OVRPlugin__Node XRNodeToOVRNode(UnityEn
 /// @brief Method DisableEventSystem addr 0x1f8663c size 0xf8 virtual false final false
  void DisableEventSystem() ;
 
-// Ctor Parameters []
-explicit OculusVRHelper() ;
+static GlobalNamespace::OculusVRHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f86e70 size 0x1070 virtual false final false
  void _ctor() ;

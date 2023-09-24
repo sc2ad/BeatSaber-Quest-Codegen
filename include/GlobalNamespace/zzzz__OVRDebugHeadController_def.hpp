@@ -117,8 +117,7 @@ constexpr GlobalNamespace::OVRCameraRig __get_CameraRig() const;
 /// @brief Method Update addr 0x25ae088 size 0x524 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRDebugHeadController() ;
+static GlobalNamespace::OVRDebugHeadController New_ctor() ;
 
 /// @brief Method .ctor addr 0x25ae5ac size 0x24 virtual false final false
  void _ctor() ;

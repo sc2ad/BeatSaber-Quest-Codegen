@@ -87,8 +87,7 @@ static System::Net::Configuration::DefaultProxySectionInternal GetSection() ;
 /// @brief Method get_WebProxy addr 0x285e6c8 size 0x8 virtual false final false
  System::Net::IWebProxy get_WebProxy() ;
 
-// Ctor Parameters []
-explicit DefaultProxySectionInternal() ;
+static System::Net::Configuration::DefaultProxySectionInternal New_ctor() ;
 
 /// @brief Method .ctor addr 0x285e6c0 size 0x8 virtual false final false
  void _ctor() ;

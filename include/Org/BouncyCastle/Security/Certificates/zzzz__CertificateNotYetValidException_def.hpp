@@ -51,20 +51,17 @@ constexpr explicit CertificateNotYetValidException(void* ptr) noexcept : Org::Bo
 
 // Methods
 
-// Ctor Parameters []
-explicit CertificateNotYetValidException() ;
+static Org::BouncyCastle::Security::Certificates::CertificateNotYetValidException New_ctor() ;
 
 /// @brief Method .ctor addr 0x1091830 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CertificateNotYetValidException(::StringW message) ;
+static Org::BouncyCastle::Security::Certificates::CertificateNotYetValidException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x1091838 size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit CertificateNotYetValidException(::StringW message, System::Exception exception) ;
+static Org::BouncyCastle::Security::Certificates::CertificateNotYetValidException New_ctor(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x1091840 size 0x8 virtual false final false
  void _ctor(::StringW message, System::Exception exception) ;

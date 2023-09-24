@@ -4,24 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Security::Authentication {
-struct SslProtocols;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System {
-template<typename T1,typename T2>
-struct ValueTuple_2;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
 namespace Mono::Net::Security {
-class ChainValidationHelper;
+class MobileAuthenticatedStream;
 }
 namespace System {
 class IDisposable;
@@ -29,14 +16,27 @@ class IDisposable;
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
+namespace Mono::Net::Security {
+class ChainValidationHelper;
 }
 namespace Mono::Net::Security {
 class MonoSslAuthenticationOptions;
 }
-namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace System {
+template<typename T1,typename T2>
+struct ValueTuple_2;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -175,8 +175,7 @@ constexpr System::Security::Cryptography::X509Certificates::X509Certificate __ge
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "options", ty: "Mono::Net::Security::MonoSslAuthenticationOptions", modifiers: "", def_value: None }]
-explicit MobileTlsContext(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options) ;
+static Mono::Net::Security::MobileTlsContext New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options) ;
 
 /// @brief Method .ctor addr 0x2688df0 size 0x140 virtual false final false
  void _ctor(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options) ;

@@ -6,10 +6,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector3;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

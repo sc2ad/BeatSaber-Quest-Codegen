@@ -23,8 +23,10 @@ constexpr void GlobalNamespace::SongSpeedData::__set_speedMul(float_t value)  {
 constexpr float_t GlobalNamespace::SongSpeedData::__get_speedMul() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "speedMul", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::SongSpeedData::SongSpeedData(float_t speedMul)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SongSpeedData>(speedMul))) {}
+ GlobalNamespace::SongSpeedData GlobalNamespace::SongSpeedData::New_ctor(float_t speedMul)  {
+GlobalNamespace::SongSpeedData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SongSpeedData>(speedMul))};
+return o;
+}
  void GlobalNamespace::SongSpeedData::_ctor(float_t speedMul)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SongSpeedData>::get(),

@@ -65,8 +65,7 @@ constexpr ::StringW __get__Method_k__BackingField() const;
 /// @brief Method set_Method addr 0x2718534 size 0x8 virtual false final false
  void set_Method(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlTypeConvertorAttribute(::StringW method) ;
+static System::Xml::Serialization::XmlTypeConvertorAttribute New_ctor(::StringW method) ;
 
 /// @brief Method .ctor addr 0x271853c size 0x28 virtual false final false
  void _ctor(::StringW method) ;

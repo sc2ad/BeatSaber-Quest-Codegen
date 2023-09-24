@@ -2,6 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayModifiersConfiguration__SongSpeed;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayModifiersConfiguration__CutAngleTolerance;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayModifiersConfiguration__NoteUniformScale;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GameplayModifiersConfiguration;

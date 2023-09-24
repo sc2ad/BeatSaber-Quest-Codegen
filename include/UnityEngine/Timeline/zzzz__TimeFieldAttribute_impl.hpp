@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimeFieldAttribute_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimeFieldAttribute_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -62,8 +63,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "useEditMode", ty: "UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode", modifiers: "", def_value: Some("1") }]
- UnityEngine::Timeline::TimeFieldAttribute::TimeFieldAttribute(UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode useEditMode)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<TimeFieldAttribute>(useEditMode))) {}
+/// @param useEditMode: UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode (default: 1)
+ UnityEngine::Timeline::TimeFieldAttribute UnityEngine::Timeline::TimeFieldAttribute::New_ctor(UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode useEditMode)  {
+UnityEngine::Timeline::TimeFieldAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TimeFieldAttribute>(useEditMode))};
+return o;
+}
 /// @param useEditMode: UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode (default: 1)
  void UnityEngine::Timeline::TimeFieldAttribute::_ctor(UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode useEditMode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

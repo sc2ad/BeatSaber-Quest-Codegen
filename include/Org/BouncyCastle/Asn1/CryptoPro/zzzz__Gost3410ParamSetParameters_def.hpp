@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Math {
@@ -11,9 +14,6 @@ class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -108,14 +108,12 @@ static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters GetInstanc
 /// @brief Method GetInstance addr 0xdff888 size 0x178 virtual false final false
 static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit Gost3410ParamSetParameters(int32_t keySize, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a) ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters New_ctor(int32_t keySize, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a) ;
 
 /// @brief Method .ctor addr 0xdff278 size 0xc8 virtual false final false
  void _ctor(int32_t keySize, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Gost3410ParamSetParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdffa00 size 0x120 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

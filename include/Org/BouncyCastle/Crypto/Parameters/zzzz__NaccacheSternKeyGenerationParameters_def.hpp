@@ -75,14 +75,12 @@ constexpr int32_t __get_countSmallPrimes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "countSmallPrimes", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NaccacheSternKeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes) ;
+static Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters New_ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes) ;
 
 /// @brief Method .ctor addr 0xeaab30 size 0xbc virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes) ;
 
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "countSmallPrimes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "debug", ty: "bool", modifiers: "", def_value: None }]
-explicit NaccacheSternKeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug) ;
+static Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters New_ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug) ;
 
 /// @brief Method .ctor addr 0xeaabec size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug) ;

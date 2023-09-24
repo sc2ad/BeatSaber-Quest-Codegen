@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__XmlCharacterData_impl.hpp"
 #include "System/Xml/zzzz__XmlComment_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
 //  Writing Method size for method: System::Xml::XmlComment._ctor
 template<>
 
@@ -89,8 +89,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "comment", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlComment::XmlComment(::StringW comment, System::Xml::XmlDocument doc)  : System::Xml::XmlCharacterData(THROW_UNLESS(::il2cpp_utils::New<XmlComment>(comment, doc))) {}
+ System::Xml::XmlComment System::Xml::XmlComment::New_ctor(::StringW comment, System::Xml::XmlDocument doc)  {
+System::Xml::XmlComment o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlComment>(comment, doc))};
+return o;
+}
  void System::Xml::XmlComment::_ctor(::StringW comment, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlComment>::get(),

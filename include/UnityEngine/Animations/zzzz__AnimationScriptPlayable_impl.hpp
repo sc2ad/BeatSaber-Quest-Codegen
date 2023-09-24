@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationScriptPlayable_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 //  Writing Method size for method: UnityEngine::Animations::AnimationScriptPlayable._ctor
 template<>
 

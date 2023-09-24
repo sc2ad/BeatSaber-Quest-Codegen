@@ -96,8 +96,7 @@ constexpr explicit FloatMath(void* ptr) noexcept : UnityEngine::ProBuilder::KdTr
 /// @brief Method DistanceSquaredBetweenPoints addr 0x2999d68 size 0x100 virtual true final false
  float_t DistanceSquaredBetweenPoints(::ArrayW<float_t> a, ::ArrayW<float_t> b) ;
 
-// Ctor Parameters []
-explicit FloatMath() ;
+static UnityEngine::ProBuilder::KdTree::Math::FloatMath New_ctor() ;
 
 /// @brief Method .ctor addr 0x2999e68 size 0x48 virtual false final false
  void _ctor() ;

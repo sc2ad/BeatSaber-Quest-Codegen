@@ -7,17 +7,17 @@
 namespace System::Collections {
 class ArrayList;
 }
-namespace System::Xml::Schema {
-class XmlValueConverter;
+namespace System {
+struct Decimal;
 }
 namespace System {
 class Exception;
 }
-namespace System {
-struct Decimal;
-}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -86,8 +86,7 @@ constexpr System::Decimal __get_minValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "minVal", ty: "System::Decimal", modifiers: "", def_value: None }, CppParam { name: "maxVal", ty: "System::Decimal", modifiers: "", def_value: None }]
-explicit Numeric10FacetsChecker(System::Decimal minVal, System::Decimal maxVal) ;
+static System::Xml::Schema::Numeric10FacetsChecker New_ctor(System::Decimal minVal, System::Decimal maxVal) ;
 
 /// @brief Method .ctor addr 0x27253b8 size 0x40 virtual false final false
  void _ctor(System::Decimal minVal, System::Decimal maxVal) ;

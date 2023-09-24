@@ -30,8 +30,10 @@ constexpr void UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQues
 constexpr bool UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature::__get_targetQuest2() const {
 return ::cordl_internals::getInstanceField<bool, 0x4f>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature::OculusQuestFeature()  : UnityEngine::XR::OpenXR::Features::OpenXRFeature(THROW_UNLESS(::il2cpp_utils::New<OculusQuestFeature>())) {}
+ UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature>::get(),

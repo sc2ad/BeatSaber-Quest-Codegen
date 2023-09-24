@@ -126,8 +126,7 @@ static System::Net::KnownHttpVerb __get_MkCol() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "requireContentBody", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "contentBodyNotAllowed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "connectRequest", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "expectNoContentResponse", ty: "bool", modifiers: "", def_value: None }]
-explicit KnownHttpVerb(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) ;
+static System::Net::KnownHttpVerb New_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) ;
 
 /// @brief Method .ctor addr 0x280cef8 size 0x58 virtual false final false
  void _ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) ;

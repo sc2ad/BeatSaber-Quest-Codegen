@@ -1,14 +1,15 @@
 #pragma once
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__SubContainerPrefabBindingFinalizer_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
+#include "Zenject/zzzz__SubContainerPrefabBindingFinalizer_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__SubContainerCreatorCached_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0._ctor
 template<>
@@ -90,8 +91,10 @@ constexpr void Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__Displa
 constexpr Zenject::DiContainer Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0::__get_container() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0>())) {}
+ Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0 Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0::New_ctor()  {
+Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0>::get(),
@@ -208,8 +211,10 @@ constexpr void Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__Displa
 constexpr Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0 Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1::__get_CS$__8__locals1() const {
 return ::cordl_internals::getInstanceField<Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_0, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1>())) {}
+ Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1 Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1::New_ctor()  {
+Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1>())};
+return o;
+}
  void Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass5_1>::get(),
@@ -326,8 +331,10 @@ constexpr void Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__Displa
 constexpr Zenject::DiContainer Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0::__get_container() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0>())) {}
+ Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0 Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0::New_ctor()  {
+Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0>::get(),
@@ -444,8 +451,10 @@ constexpr void Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__Displa
 constexpr Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0 Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1::__get_CS$__8__locals1() const {
 return ::cordl_internals::getInstanceField<Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_0, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1>())) {}
+ Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1 Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1::New_ctor()  {
+Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1>())};
+return o;
+}
  void Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerPrefabBindingFinalizer____c__DisplayClass6_1>::get(),
@@ -568,8 +577,10 @@ constexpr void Zenject::SubContainerPrefabBindingFinalizer::__set__subContainerC
 constexpr System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator> Zenject::SubContainerPrefabBindingFinalizer::__get__subContainerCreatorFactory() const {
 return ::cordl_internals::getInstanceField<System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "subIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "resolveAll", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "subContainerCreatorFactory", ty: "System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator>", modifiers: "", def_value: None }]
- Zenject::SubContainerPrefabBindingFinalizer::SubContainerPrefabBindingFinalizer(Zenject::BindInfo bindInfo, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator> subContainerCreatorFactory)  : Zenject::ProviderBindingFinalizer(THROW_UNLESS(::il2cpp_utils::New<SubContainerPrefabBindingFinalizer>(bindInfo, subIdentifier, resolveAll, subContainerCreatorFactory))) {}
+ Zenject::SubContainerPrefabBindingFinalizer Zenject::SubContainerPrefabBindingFinalizer::New_ctor(Zenject::BindInfo bindInfo, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator> subContainerCreatorFactory)  {
+Zenject::SubContainerPrefabBindingFinalizer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerPrefabBindingFinalizer>(bindInfo, subIdentifier, resolveAll, subContainerCreatorFactory))};
+return o;
+}
  void Zenject::SubContainerPrefabBindingFinalizer::_ctor(Zenject::BindInfo bindInfo, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator> subContainerCreatorFactory)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerPrefabBindingFinalizer>::get(),

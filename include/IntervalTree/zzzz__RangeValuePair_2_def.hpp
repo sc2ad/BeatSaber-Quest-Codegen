@@ -23,7 +23,7 @@ namespace IntervalTree {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15981)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(15981))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15981), inst: 80 })
 // CS Name: IntervalTree.RangeValuePair`2
 struct CORDL_TYPE RangeValuePair_2<TKey,TValue> : public ::bs_hook::ValueTypeWrapper {

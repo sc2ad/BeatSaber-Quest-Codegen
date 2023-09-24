@@ -141,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters []
- HMUI::ButtonSpriteSwapToggle::ButtonSpriteSwapToggle()  : HMUI::ButtonSpriteSwap(THROW_UNLESS(::il2cpp_utils::New<ButtonSpriteSwapToggle>())) {}
+ HMUI::ButtonSpriteSwapToggle HMUI::ButtonSpriteSwapToggle::New_ctor()  {
+HMUI::ButtonSpriteSwapToggle o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ButtonSpriteSwapToggle>())};
+return o;
+}
  void HMUI::ButtonSpriteSwapToggle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ButtonSpriteSwapToggle>::get(),

@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
 namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
-namespace UnityEngine::UIElements {
 class PointerDownEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class IPointerEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -62,8 +62,7 @@ constexpr explicit MouseDownEvent(void* ptr) noexcept : UnityEngine::UIElements:
 /// @brief Method LocalInit addr 0x2cd9b00 size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit MouseDownEvent() ;
+static UnityEngine::UIElements::MouseDownEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd9b0c size 0x54 virtual false final false
  void _ctor() ;

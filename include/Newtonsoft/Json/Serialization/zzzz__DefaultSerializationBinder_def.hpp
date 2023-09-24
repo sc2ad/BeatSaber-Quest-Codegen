@@ -5,12 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json::Utilities {
 template<typename TKey,typename TValue>
 class ThreadSafeStore_2;
+}
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json::Serialization {
+struct Newtonsoft__Json__Serialization__DefaultSerializationBinder__TypeNameKey;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -158,8 +161,7 @@ static System::Type GetTypeFromTypeNameKey(Newtonsoft::Json::Serialization::Newt
 /// @brief Method BindToType addr 0x24ff5c4 size 0x68 virtual true final false
  System::Type BindToType(::StringW assemblyName, ::StringW typeName) ;
 
-// Ctor Parameters []
-explicit DefaultSerializationBinder() ;
+static Newtonsoft::Json::Serialization::DefaultSerializationBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x24ff634 size 0xc8 virtual false final false
  void _ctor() ;

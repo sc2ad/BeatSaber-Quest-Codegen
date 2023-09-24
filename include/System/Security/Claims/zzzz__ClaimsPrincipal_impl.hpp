@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Security/Claims/zzzz__ClaimsPrincipal_def.hpp"
+#include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::Security::Claims::ClaimsPrincipal.SelectPrimaryIdentity
 template<>
 
@@ -213,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Func_1<System::Security::Claims::ClaimsPrincipal>, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Security::Claims::ClaimsPrincipal::ClaimsPrincipal()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClaimsPrincipal>())) {}
+ System::Security::Claims::ClaimsPrincipal System::Security::Claims::ClaimsPrincipal::New_ctor()  {
+System::Security::Claims::ClaimsPrincipal o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::ClaimsPrincipal>())};
+return o;
+}
  void System::Security::Claims::ClaimsPrincipal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::ClaimsPrincipal>::get(),
@@ -224,8 +226,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Security::Claims::ClaimsPrincipal::ClaimsPrincipal(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClaimsPrincipal>(info, context))) {}
+ System::Security::Claims::ClaimsPrincipal System::Security::Claims::ClaimsPrincipal::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Security::Claims::ClaimsPrincipal o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::ClaimsPrincipal>(info, context))};
+return o;
+}
  void System::Security::Claims::ClaimsPrincipal::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::ClaimsPrincipal>::get(),

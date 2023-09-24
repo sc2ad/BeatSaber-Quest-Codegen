@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Remoting/Activation/zzzz__ContextLevelActivator_def.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IConstructionReturnMessage_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IConstructionReturnMessage_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Activation::ContextLevelActivator._ctor
 template<>
 
@@ -64,8 +64,10 @@ constexpr void System::Runtime::Remoting::Activation::ContextLevelActivator::__s
 constexpr System::Runtime::Remoting::Activation::IActivator System::Runtime::Remoting::Activation::ContextLevelActivator::__get_m_NextActivator() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Activation::IActivator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "next", ty: "System::Runtime::Remoting::Activation::IActivator", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Activation::ContextLevelActivator::ContextLevelActivator(System::Runtime::Remoting::Activation::IActivator next)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ContextLevelActivator>(next))) {}
+ System::Runtime::Remoting::Activation::ContextLevelActivator System::Runtime::Remoting::Activation::ContextLevelActivator::New_ctor(System::Runtime::Remoting::Activation::IActivator next)  {
+System::Runtime::Remoting::Activation::ContextLevelActivator o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Activation::ContextLevelActivator>(next))};
+return o;
+}
  void System::Runtime::Remoting::Activation::ContextLevelActivator::_ctor(System::Runtime::Remoting::Activation::IActivator next)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Activation::ContextLevelActivator>::get(),

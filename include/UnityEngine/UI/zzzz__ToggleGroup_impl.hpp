@@ -2,10 +2,11 @@
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/UI/zzzz__ToggleGroup_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/UI/zzzz__ToggleGroup_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::UnityEngine__UI__ToggleGroup____c._ctor
 template<>
 
@@ -75,8 +76,10 @@ return ::cordl_internals::getStaticField<System::Predicate_1<UnityEngine::UI::To
  System::Func_2<UnityEngine::UI::Toggle,bool> UnityEngine::UI::UnityEngine__UI__ToggleGroup____c::__get___9__14_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::UI::Toggle,bool>, "<>9__14_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__ToggleGroup____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__ToggleGroup____c::UnityEngine__UI__ToggleGroup____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__ToggleGroup____c>())) {}
+ UnityEngine::UI::UnityEngine__UI__ToggleGroup____c UnityEngine::UI::UnityEngine__UI__ToggleGroup____c::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__ToggleGroup____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__ToggleGroup____c>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__ToggleGroup____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__ToggleGroup____c>::get(),
@@ -372,8 +375,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UI::ToggleGroup::ToggleGroup()  : UnityEngine::EventSystems::UIBehaviour(THROW_UNLESS(::il2cpp_utils::New<ToggleGroup>())) {}
+ UnityEngine::UI::ToggleGroup UnityEngine::UI::ToggleGroup::New_ctor()  {
+UnityEngine::UI::ToggleGroup o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::ToggleGroup>())};
+return o;
+}
  void UnityEngine::UI::ToggleGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::ToggleGroup>::get(),

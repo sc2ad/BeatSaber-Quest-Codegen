@@ -5,17 +5,17 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace System {
 class IFormattable;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace System {
 class IFormatProvider;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -93,8 +93,7 @@ static void set_current(UnityEngine::InputSystem::LightSensor value) ;
 /// @brief Method FinishSetup addr 0x2915fc8 size 0x78 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit LightSensor() ;
+static UnityEngine::InputSystem::LightSensor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2916040 size 0x8 virtual false final false
  void _ctor() ;

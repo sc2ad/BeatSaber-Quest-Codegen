@@ -59,8 +59,7 @@ constexpr GlobalNamespace::BoolSO __get__depthTextureEnabled() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DisableDepthTexturePS4() ;
+static GlobalNamespace::DisableDepthTexturePS4 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2675f78 size 0x8 virtual false final false
  void _ctor() ;

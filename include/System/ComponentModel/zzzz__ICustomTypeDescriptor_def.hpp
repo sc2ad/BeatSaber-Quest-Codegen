@@ -7,22 +7,22 @@ namespace System::ComponentModel {
 class TypeConverter;
 }
 namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System {
-class Attribute;
-}
-namespace System::ComponentModel {
-class EventDescriptor;
+class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
 class AttributeCollection;
 }
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
+}
 namespace System {
 class Type;
 }
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
+namespace System {
+class Attribute;
 }
 namespace System::ComponentModel {
 class EventDescriptorCollection;

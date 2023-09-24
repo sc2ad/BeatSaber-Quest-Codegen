@@ -95,8 +95,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, v1, v2);
 }
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Sig::TrustSignature::TrustSignature(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<TrustSignature>(critical, isLongLength, data))) {}
+ Org::BouncyCastle::Bcpg::Sig::TrustSignature Org::BouncyCastle::Bcpg::Sig::TrustSignature::New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::Sig::TrustSignature o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Sig::TrustSignature>(critical, isLongLength, data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Sig::TrustSignature::_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Sig::TrustSignature>::get(),
@@ -106,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, critical, isLongLength, data);
 }
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "trustAmount", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Sig::TrustSignature::TrustSignature(bool critical, int32_t depth, int32_t trustAmount)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<TrustSignature>(critical, depth, trustAmount))) {}
+ Org::BouncyCastle::Bcpg::Sig::TrustSignature Org::BouncyCastle::Bcpg::Sig::TrustSignature::New_ctor(bool critical, int32_t depth, int32_t trustAmount)  {
+Org::BouncyCastle::Bcpg::Sig::TrustSignature o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Sig::TrustSignature>(critical, depth, trustAmount))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Sig::TrustSignature::_ctor(bool critical, int32_t depth, int32_t trustAmount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Sig::TrustSignature>::get(),

@@ -121,8 +121,7 @@ constexpr System::Collections::Generic::List_1<float_t> __get__processedSamples(
 /// @brief Method ProcessSamples addr 0x226ba20 size 0x190 virtual false final false
  void ProcessSamples(::ArrayW<float_t> sourceSamples, System::Collections::Generic::List_1<float_t> processedSamples) ;
 
-// Ctor Parameters []
-explicit BasicSpectrogramData() ;
+static GlobalNamespace::BasicSpectrogramData New_ctor() ;
 
 /// @brief Method .ctor addr 0x226bc68 size 0xb8 virtual false final false
  void _ctor() ;

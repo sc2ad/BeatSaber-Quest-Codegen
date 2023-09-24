@@ -1,16 +1,17 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__MeshUtility_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__MeshUtility_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/zzzz__MeshTopology_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c._ctor
 template<>
@@ -58,8 +59,10 @@ return ::cordl_internals::getStaticField<UnityEngine::ProBuilder::UnityEngine__P
  System::Func_2<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex,int32_t>,System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Vertex>> UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c::__get___9__11_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex,int32_t>,System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Vertex>>, "<>9__11_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c::UnityEngine__ProBuilder__MeshUtility____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshUtility____c>())) {}
+ UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c::New_ctor()  {
+UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c>())};
+return o;
+}
  void UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c>::get(),

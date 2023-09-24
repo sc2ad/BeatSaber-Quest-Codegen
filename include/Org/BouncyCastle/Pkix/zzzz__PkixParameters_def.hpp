@@ -2,17 +2,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPathChecker;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
@@ -20,8 +11,17 @@ class IX509Selector;
 namespace Org::BouncyCastle::X509::Store {
 class X509CertStoreSelector;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPathChecker;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -219,8 +219,7 @@ constexpr bool __get_useDeltas() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "trustAnchors", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }]
-explicit PkixParameters(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors) ;
+static Org::BouncyCastle::Pkix::PkixParameters New_ctor(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors) ;
 
 /// @brief Method .ctor addr 0x10602c4 size 0x160 virtual false final false
  void _ctor(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors) ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__IKeyboardEvent_def.hpp"
-#include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::IKeyboardEvent.get_modifiers
 template<>
 

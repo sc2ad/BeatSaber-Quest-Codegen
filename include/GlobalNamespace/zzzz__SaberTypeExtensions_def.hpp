@@ -5,10 +5,10 @@ namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace GlobalNamespace {
-struct ColorType;
+struct SaberType;
 }
 namespace GlobalNamespace {
-struct SaberType;
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

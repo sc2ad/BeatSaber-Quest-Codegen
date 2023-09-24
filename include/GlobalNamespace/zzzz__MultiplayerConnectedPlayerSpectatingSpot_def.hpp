@@ -3,11 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class IMultiplayerObservable;
-}
-namespace System {
-template<typename T>
-class Action_1;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -15,14 +11,18 @@ class IConnectedPlayer;
 namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
 }
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class MultiplayerSpectatingSpotManager;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class IMultiplayerObservable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -169,8 +169,7 @@ constexpr bool __get__playerFailed() const;
 /// @brief Method HandlePlayerDisconnected addr 0x2105fa4 size 0x4 virtual false final false
  void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer connectedPlayer) ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerSpectatingSpot() ;
+static GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot New_ctor() ;
 
 /// @brief Method .ctor addr 0x2105fa8 size 0x8 virtual false final false
  void _ctor() ;

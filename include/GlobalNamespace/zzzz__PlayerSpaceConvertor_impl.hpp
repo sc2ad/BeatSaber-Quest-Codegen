@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerSpaceConvertor::PlayerSpaceConvertor()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlayerSpaceConvertor>())) {}
+ GlobalNamespace::PlayerSpaceConvertor GlobalNamespace::PlayerSpaceConvertor::New_ctor()  {
+GlobalNamespace::PlayerSpaceConvertor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerSpaceConvertor>())};
+return o;
+}
  void GlobalNamespace::PlayerSpaceConvertor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerSpaceConvertor>::get(),

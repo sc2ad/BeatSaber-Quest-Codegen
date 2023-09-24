@@ -58,8 +58,7 @@ constexpr explicit Datatype_tokenV1Compat(void* ptr) noexcept : System::Xml::Sch
 /// @brief Method get_TypeCode addr 0x2727d18 size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_tokenV1Compat() ;
+static System::Xml::Schema::Datatype_tokenV1Compat New_ctor() ;
 
 /// @brief Method .ctor addr 0x2727d20 size 0x4 virtual false final false
  void _ctor() ;

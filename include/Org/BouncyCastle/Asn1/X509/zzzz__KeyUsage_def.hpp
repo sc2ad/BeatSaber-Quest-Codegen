@@ -92,14 +92,12 @@ static Org::BouncyCastle::Asn1::X509::KeyUsage GetInstance(::bs_hook::Il2CppWrap
 /// @brief Method FromExtensions addr 0x11082b8 size 0x74 virtual false final false
 static Org::BouncyCastle::Asn1::X509::KeyUsage FromExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KeyUsage(int32_t usage) ;
+static Org::BouncyCastle::Asn1::X509::KeyUsage New_ctor(int32_t usage) ;
 
 /// @brief Method .ctor addr 0x110832c size 0x68 virtual false final false
  void _ctor(int32_t usage) ;
 
-// Ctor Parameters [CppParam { name: "usage", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit KeyUsage(Org::BouncyCastle::Asn1::DerBitString usage) ;
+static Org::BouncyCastle::Asn1::X509::KeyUsage New_ctor(Org::BouncyCastle::Asn1::DerBitString usage) ;
 
 /// @brief Method .ctor addr 0x1108224 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerBitString usage) ;

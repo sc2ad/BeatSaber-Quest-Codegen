@@ -1,9 +1,10 @@
 #pragma once
 #include "System/Net/zzzz__LazyAsyncResult_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
+#include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/Net/zzzz__LazyAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__LazyAsyncResult__ThreadContext._ctor
 template<>
 
@@ -27,8 +28,10 @@ constexpr void System::Net::System__Net__LazyAsyncResult__ThreadContext::__set_m
 constexpr int32_t System::Net::System__Net__LazyAsyncResult__ThreadContext::__get_m_NestedIOCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::System__Net__LazyAsyncResult__ThreadContext::System__Net__LazyAsyncResult__ThreadContext()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__LazyAsyncResult__ThreadContext>())) {}
+ System::Net::System__Net__LazyAsyncResult__ThreadContext System::Net::System__Net__LazyAsyncResult__ThreadContext::New_ctor()  {
+System::Net::System__Net__LazyAsyncResult__ThreadContext o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__LazyAsyncResult__ThreadContext>())};
+return o;
+}
  void System::Net::System__Net__LazyAsyncResult__ThreadContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__LazyAsyncResult__ThreadContext>::get(),
@@ -445,8 +448,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::System__Net__LazyAsyncResult__ThreadContext, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "myObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myState", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myCallBack", ty: "System::AsyncCallback", modifiers: "", def_value: None }]
- System::Net::LazyAsyncResult::LazyAsyncResult(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LazyAsyncResult>(myObject, myState, myCallBack))) {}
+ System::Net::LazyAsyncResult System::Net::LazyAsyncResult::New_ctor(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  {
+System::Net::LazyAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::Net::LazyAsyncResult>(myObject, myState, myCallBack))};
+return o;
+}
  void System::Net::LazyAsyncResult::_ctor(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::LazyAsyncResult>::get(),

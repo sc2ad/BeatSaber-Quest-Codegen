@@ -1,1196 +1,497 @@
 #pragma once
 #include "UnityEngine/Pool/zzzz__CollectionPool_2_def.hpp"
-#include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/Pool/zzzz__CollectionPool_2_def.hpp"
 #include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
-#include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
 #include "UnityEngine/zzzz__UIVertex_def.hpp"
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)(TCollection)>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>(value));
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>(value));
 }
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__get___9()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>();
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::__get___9()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::UnityEngine__Pool__CollectionPool_2____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Pool__CollectionPool_2____c>())) {}
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor()  {
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::New_ctor()  {
+UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>())};
+return o;
+}
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0()  {
+ TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::__cctor_b__5_0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>::get(),
                             "<.cctor>b__5_0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1(TCollection l)  {
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::__cctor_b__5_1(TCollection l)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>::get(),
                             "<.cctor>b__5_1",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, l);
 }
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)(TCollection)>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>>(value));
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>>(value));
 }
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__get___9()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>();
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>::__get___9()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::UnityEngine__Pool__CollectionPool_2____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Pool__CollectionPool_2____c>())) {}
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor()  {
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>::New_ctor()  {
+UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>>())};
+return o;
+}
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0()  {
+ TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>::__cctor_b__5_0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>>::get(),
                             "<.cctor>b__5_0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1(TCollection l)  {
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>::__cctor_b__5_1(TCollection l)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>>::get(),
                             "<.cctor>b__5_1",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, l);
 }
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)(TCollection)>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,int32_t> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,int32_t>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,int32_t>>(value));
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>>(value));
 }
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,int32_t> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__get___9()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,int32_t>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>();
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>::__get___9()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::UnityEngine__Pool__CollectionPool_2____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Pool__CollectionPool_2____c>())) {}
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor()  {
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>::New_ctor()  {
+UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>>())};
+return o;
+}
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0()  {
+ TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>::__cctor_b__5_0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>>::get(),
                             "<.cctor>b__5_0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1(TCollection l)  {
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>::__cctor_b__5_1(TCollection l)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>>::get(),
                             "<.cctor>b__5_1",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, l);
 }
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)(TCollection)>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>>(value));
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>>(value));
 }
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__get___9()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>();
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>::__get___9()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::UnityEngine__Pool__CollectionPool_2____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Pool__CollectionPool_2____c>())) {}
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor()  {
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>::New_ctor()  {
+UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>>())};
+return o;
+}
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0()  {
+ TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>::__cctor_b__5_0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>>::get(),
                             "<.cctor>b__5_0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1(TCollection l)  {
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>::__cctor_b__5_1(TCollection l)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector3>>::get(),
                             "<.cctor>b__5_1",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, l);
 }
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)(TCollection)>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>>(value));
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>(value));
 }
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__get___9()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::UIVertex>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>();
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::__get___9()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::UnityEngine__Pool__CollectionPool_2____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Pool__CollectionPool_2____c>())) {}
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor()  {
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::New_ctor()  {
+UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>())};
+return o;
+}
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0()  {
+ TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::__cctor_b__5_0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>::get(),
                             "<.cctor>b__5_0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1(TCollection l)  {
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::__cctor_b__5_1(TCollection l)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>::get(),
                             "<.cctor>b__5_1",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, l);
 }
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)(TCollection)>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>>(value));
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>>(value));
 }
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__get___9()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Vector4>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>();
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>::__get___9()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::UnityEngine__Pool__CollectionPool_2____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Pool__CollectionPool_2____c>())) {}
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor()  {
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>::New_ctor()  {
+UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>>())};
+return o;
+}
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0()  {
+ TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>::__cctor_b__5_0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>>::get(),
                             "<.cctor>b__5_0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1(TCollection l)  {
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>::__cctor_b__5_1(TCollection l)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::Color32>>::get(),
                             "<.cctor>b__5_1",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, l);
 }
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)()>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c.__cctor_b__5_1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::*)(TCollection)>(&UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
-                            "<.cctor>b__5_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>(value));
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::__set___9(UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>::get>(std::forward<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>(value));
 }
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__get___9()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get>();
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::__get___9()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::UnityEngine__Pool__CollectionPool_2____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Pool__CollectionPool_2____c>())) {}
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::_ctor()  {
+ UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem> UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::New_ctor()  {
+UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>())};
+return o;
+}
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_0()  {
+ TCollection UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::__cctor_b__5_0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>::get(),
                             "<.cctor>b__5_0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
- void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c::__cctor_b__5_1(TCollection l)  {
+ void UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>::__cctor_b__5_1(TCollection l)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::UnityEngine__Pool__CollectionPool_2____c<TCollection,TItem>>::get(),
                             "<.cctor>b__5_1",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, l);
 }
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (*)()>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pool::PooledObject_1<TCollection> (*)(ByRef<TCollection>)>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Release
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TCollection)>(&UnityEngine::Pool::CollectionPool_2::Release)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Release",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::CollectionPool_2::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
+ void UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
 }
- UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2::__get_s_Pool()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>();
+ UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::__get_s_Pool()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>::get>();
 }
- TCollection UnityEngine::Pool::CollectionPool_2::Get()  {
+ TCollection UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::Get()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(nullptr, ___internal_method);
 }
- UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2::Get(ByRef<TCollection> value)  {
+ UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::Get(ByRef<TCollection> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Pool::PooledObject_1<TCollection>, false>(nullptr, ___internal_method, value);
 }
- void UnityEngine::Pool::CollectionPool_2::Release(TCollection toRelease)  {
+ void UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>::Release(TCollection toRelease)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDElementDescriptor>>::get(),
                             "Release",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, toRelease);
 }
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (*)()>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pool::PooledObject_1<TCollection> (*)(ByRef<TCollection>)>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Release
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TCollection)>(&UnityEngine::Pool::CollectionPool_2::Release)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Release",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::CollectionPool_2::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
+ void UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector4>::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector4>>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
 }
- UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2::__get_s_Pool()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>();
+ UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector4>::__get_s_Pool()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector4>>::get>();
 }
- TCollection UnityEngine::Pool::CollectionPool_2::Get()  {
+ TCollection UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector4>::Get()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector4>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(nullptr, ___internal_method);
 }
- UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2::Get(ByRef<TCollection> value)  {
+ UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector4>::Get(ByRef<TCollection> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector4>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Pool::PooledObject_1<TCollection>, false>(nullptr, ___internal_method, value);
 }
- void UnityEngine::Pool::CollectionPool_2::Release(TCollection toRelease)  {
+ void UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector4>::Release(TCollection toRelease)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector4>>::get(),
                             "Release",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, toRelease);
 }
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (*)()>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pool::PooledObject_1<TCollection> (*)(ByRef<TCollection>)>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Release
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TCollection)>(&UnityEngine::Pool::CollectionPool_2::Release)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Release",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::CollectionPool_2::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
+ void UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::UIVertex>::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::UIVertex>>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
 }
- UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2::__get_s_Pool()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>();
+ UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::UIVertex>::__get_s_Pool()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::UIVertex>>::get>();
 }
- TCollection UnityEngine::Pool::CollectionPool_2::Get()  {
+ TCollection UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::UIVertex>::Get()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::UIVertex>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(nullptr, ___internal_method);
 }
- UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2::Get(ByRef<TCollection> value)  {
+ UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::UIVertex>::Get(ByRef<TCollection> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::UIVertex>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Pool::PooledObject_1<TCollection>, false>(nullptr, ___internal_method, value);
 }
- void UnityEngine::Pool::CollectionPool_2::Release(TCollection toRelease)  {
+ void UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::UIVertex>::Release(TCollection toRelease)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::UIVertex>>::get(),
                             "Release",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, toRelease);
 }
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (*)()>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pool::PooledObject_1<TCollection> (*)(ByRef<TCollection>)>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Release
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TCollection)>(&UnityEngine::Pool::CollectionPool_2::Release)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Release",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::CollectionPool_2::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
+ void UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector3>::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector3>>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
 }
- UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2::__get_s_Pool()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>();
+ UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector3>::__get_s_Pool()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector3>>::get>();
 }
- TCollection UnityEngine::Pool::CollectionPool_2::Get()  {
+ TCollection UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector3>::Get()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector3>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(nullptr, ___internal_method);
 }
- UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2::Get(ByRef<TCollection> value)  {
+ UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector3>::Get(ByRef<TCollection> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector3>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Pool::PooledObject_1<TCollection>, false>(nullptr, ___internal_method, value);
 }
- void UnityEngine::Pool::CollectionPool_2::Release(TCollection toRelease)  {
+ void UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector3>::Release(TCollection toRelease)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Vector3>>::get(),
                             "Release",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, toRelease);
 }
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (*)()>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pool::PooledObject_1<TCollection> (*)(ByRef<TCollection>)>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Release
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TCollection)>(&UnityEngine::Pool::CollectionPool_2::Release)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Release",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::CollectionPool_2::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
+ void UnityEngine::Pool::CollectionPool_2<TCollection,TItem>::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,TItem>>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
 }
- UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2::__get_s_Pool()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>();
+ UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,TItem>::__get_s_Pool()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,TItem>>::get>();
 }
- TCollection UnityEngine::Pool::CollectionPool_2::Get()  {
+ TCollection UnityEngine::Pool::CollectionPool_2<TCollection,TItem>::Get()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,TItem>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(nullptr, ___internal_method);
 }
- UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2::Get(ByRef<TCollection> value)  {
+ UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,TItem>::Get(ByRef<TCollection> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,TItem>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Pool::PooledObject_1<TCollection>, false>(nullptr, ___internal_method, value);
 }
- void UnityEngine::Pool::CollectionPool_2::Release(TCollection toRelease)  {
+ void UnityEngine::Pool::CollectionPool_2<TCollection,TItem>::Release(TCollection toRelease)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,TItem>>::get(),
                             "Release",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, toRelease);
 }
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (*)()>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pool::PooledObject_1<TCollection> (*)(ByRef<TCollection>)>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Release
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TCollection)>(&UnityEngine::Pool::CollectionPool_2::Release)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Release",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::CollectionPool_2::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
+ void UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Color32>::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Color32>>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
 }
- UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2::__get_s_Pool()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>();
+ UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Color32>::__get_s_Pool()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Color32>>::get>();
 }
- TCollection UnityEngine::Pool::CollectionPool_2::Get()  {
+ TCollection UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Color32>::Get()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Color32>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(nullptr, ___internal_method);
 }
- UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2::Get(ByRef<TCollection> value)  {
+ UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Color32>::Get(ByRef<TCollection> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Color32>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Pool::PooledObject_1<TCollection>, false>(nullptr, ___internal_method, value);
 }
- void UnityEngine::Pool::CollectionPool_2::Release(TCollection toRelease)  {
+ void UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Color32>::Release(TCollection toRelease)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,UnityEngine::Color32>>::get(),
                             "Release",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, toRelease);
 }
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TCollection (*)()>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Get
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pool::PooledObject_1<TCollection> (*)(ByRef<TCollection>)>(&UnityEngine::Pool::CollectionPool_2::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Get",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::Pool::CollectionPool_2.Release
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TCollection)>(&UnityEngine::Pool::CollectionPool_2::Release)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
-                            "Release",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::Pool::CollectionPool_2::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
-::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
+ void UnityEngine::Pool::CollectionPool_2<TCollection,TItem>::__set_s_Pool(UnityEngine::Pool::ObjectPool_1<TCollection> value)  {
+::cordl_internals::setStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,TItem>>::get>(std::forward<UnityEngine::Pool::ObjectPool_1<TCollection>>(value));
 }
- UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2::__get_s_Pool()  {
-return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get>();
+ UnityEngine::Pool::ObjectPool_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,TItem>::__get_s_Pool()  {
+return ::cordl_internals::getStaticField<UnityEngine::Pool::ObjectPool_1<TCollection>, "s_Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,TItem>>::get>();
 }
- TCollection UnityEngine::Pool::CollectionPool_2::Get()  {
+ TCollection UnityEngine::Pool::CollectionPool_2<TCollection,TItem>::Get()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,TItem>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TCollection, false>(nullptr, ___internal_method);
 }
- UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2::Get(ByRef<TCollection> value)  {
+ UnityEngine::Pool::PooledObject_1<TCollection> UnityEngine::Pool::CollectionPool_2<TCollection,TItem>::Get(ByRef<TCollection> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,TItem>>::get(),
                             "Get",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TCollection>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Pool::PooledObject_1<TCollection>, false>(nullptr, ___internal_method, value);
 }
- void UnityEngine::Pool::CollectionPool_2::Release(TCollection toRelease)  {
+ void UnityEngine::Pool::CollectionPool_2<TCollection,TItem>::Release(TCollection toRelease)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Pool::CollectionPool_2<TCollection,TItem>>::get(),
                             "Release",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TCollection>::get()}

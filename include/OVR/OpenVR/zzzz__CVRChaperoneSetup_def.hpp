@@ -7,19 +7,19 @@
 #include <cmath>
 #include <cstdint>
 namespace OVR::OpenVR {
+struct HmdMatrix34_t;
+}
+namespace OVR::OpenVR {
 struct IVRChaperoneSetup;
 }
 namespace OVR::OpenVR {
 struct HmdQuad_t;
 }
-namespace OVR::OpenVR {
-struct EChaperoneConfigFile;
-}
-namespace OVR::OpenVR {
-struct HmdMatrix34_t;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace OVR::OpenVR {
+struct EChaperoneConfigFile;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -76,8 +76,7 @@ constexpr OVR::OpenVR::IVRChaperoneSetup __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRChaperoneSetup(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRChaperoneSetup New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x26652cc size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

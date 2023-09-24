@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__GUIStyleState_def.hpp"
-#include "UnityEngine/zzzz__GUIStyle_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__GUIStyle_def.hpp"
 //  Writing Method size for method: UnityEngine::GUIStyleState.set_textColor
 template<>
 
@@ -177,8 +177,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::GUIStyleState::GUIStyleState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUIStyleState>())) {}
+ UnityEngine::GUIStyleState UnityEngine::GUIStyleState::New_ctor()  {
+UnityEngine::GUIStyleState o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUIStyleState>())};
+return o;
+}
  void UnityEngine::GUIStyleState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUIStyleState>::get(),
@@ -188,8 +190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sourceStyle", ty: "UnityEngine::GUIStyle", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::GUIStyleState::GUIStyleState(UnityEngine::GUIStyle sourceStyle, ::cordl_internals::intptr_t source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUIStyleState>(sourceStyle, source))) {}
+ UnityEngine::GUIStyleState UnityEngine::GUIStyleState::New_ctor(UnityEngine::GUIStyle sourceStyle, ::cordl_internals::intptr_t source)  {
+UnityEngine::GUIStyleState o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUIStyleState>(sourceStyle, source))};
+return o;
+}
  void UnityEngine::GUIStyleState::_ctor(UnityEngine::GUIStyle sourceStyle, ::cordl_internals::intptr_t source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUIStyleState>::get(),

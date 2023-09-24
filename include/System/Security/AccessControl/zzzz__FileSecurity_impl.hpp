@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }]
- System::Security::AccessControl::FileSecurity::FileSecurity(::StringW fileName, System::Security::AccessControl::AccessControlSections includeSections)  : System::Security::AccessControl::FileSystemSecurity(THROW_UNLESS(::il2cpp_utils::New<FileSecurity>(fileName, includeSections))) {}
+ System::Security::AccessControl::FileSecurity System::Security::AccessControl::FileSecurity::New_ctor(::StringW fileName, System::Security::AccessControl::AccessControlSections includeSections)  {
+System::Security::AccessControl::FileSecurity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::FileSecurity>(fileName, includeSections))};
+return o;
+}
  void System::Security::AccessControl::FileSecurity::_ctor(::StringW fileName, System::Security::AccessControl::AccessControlSections includeSections)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::FileSecurity>::get(),

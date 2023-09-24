@@ -79,8 +79,7 @@ constexpr GlobalNamespace::Mirror __get__mirror() const;
 /// @brief Method HandleMirrorDidChangeEnabledState addr 0x219c324 size 0x2c virtual false final false
  void HandleMirrorDidChangeEnabledState(bool isEnabled) ;
 
-// Ctor Parameters []
-explicit DisableWhenMirrorIsEnabled() ;
+static GlobalNamespace::DisableWhenMirrorIsEnabled New_ctor() ;
 
 /// @brief Method .ctor addr 0x219c424 size 0x8 virtual false final false
  void _ctor() ;

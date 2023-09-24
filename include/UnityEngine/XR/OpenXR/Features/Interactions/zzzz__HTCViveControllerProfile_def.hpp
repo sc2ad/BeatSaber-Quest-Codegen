@@ -2,8 +2,20 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
+namespace UnityEngine::XR::OpenXR::Features::Interactions {
+class UnityEngine__XR__OpenXR__Features__Interactions__HTCViveControllerProfile__ViveController;
+}
+namespace UnityEngine::InputSystem::Controls {
+class QuaternionControl;
+}
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
@@ -16,15 +28,6 @@ class HapticControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;
-}
-namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
@@ -336,8 +339,7 @@ constexpr UnityEngine::XR::OpenXR::Input::HapticControl __get__haptic_k__Backing
 /// @brief Method FinishSetup addr 0x2af32cc size 0x3c8 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit UnityEngine__XR__OpenXR__Features__Interactions__HTCViveControllerProfile__ViveController() ;
+static UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__HTCViveControllerProfile__ViveController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2af3694 size 0x8 virtual false final false
  void _ctor() ;
@@ -444,8 +446,7 @@ static constexpr ::ConstString  kDeviceLocalizedName{u"HTC Vive Controller OpenX
 /// @brief Method RegisterActionMapsWithRuntime addr 0x2af15a8 size 0x1bfc virtual true final false
  void RegisterActionMapsWithRuntime() ;
 
-// Ctor Parameters []
-explicit HTCViveControllerProfile() ;
+static UnityEngine::XR::OpenXR::Features::Interactions::HTCViveControllerProfile New_ctor() ;
 
 /// @brief Method .ctor addr 0x2af31a4 size 0x8 virtual false final false
  void _ctor() ;

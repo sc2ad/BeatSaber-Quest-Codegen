@@ -79,8 +79,7 @@ constexpr ::StringW __get__menuName() const;
 /// @brief Method get_localizedMenuName addr 0x21727e8 size 0xc virtual false final false
  ::StringW get_localizedMenuName() ;
 
-// Ctor Parameters []
-explicit SettingsSubMenuInfo() ;
+static GlobalNamespace::SettingsSubMenuInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x21727f4 size 0x8 virtual false final false
  void _ctor() ;

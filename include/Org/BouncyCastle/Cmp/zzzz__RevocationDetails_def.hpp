@@ -74,8 +74,7 @@ constexpr Org::BouncyCastle::Asn1::Cmp::RevDetails __get_revDetails() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "revDetails", ty: "Org::BouncyCastle::Asn1::Cmp::RevDetails", modifiers: "", def_value: None }]
-explicit RevocationDetails(Org::BouncyCastle::Asn1::Cmp::RevDetails revDetails) ;
+static Org::BouncyCastle::Cmp::RevocationDetails New_ctor(Org::BouncyCastle::Asn1::Cmp::RevDetails revDetails) ;
 
 /// @brief Method .ctor addr 0x114dcf0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::RevDetails revDetails) ;

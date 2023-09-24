@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Org::BouncyCastle::Asn1::X500 {
-class AttributeTypeAndValue;
+class Rdn;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X500 {
-class Rdn;
+class AttributeTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -81,8 +81,7 @@ static bool RdnAreEqual(Org::BouncyCastle::Asn1::X500::Rdn rdn1, Org::BouncyCast
 /// @brief Method AtvAreEqual addr 0xff23e4 size 0xcc virtual false final false
 static bool AtvAreEqual(Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue atv1, Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue atv2) ;
 
-// Ctor Parameters []
-explicit IetfUtilities() ;
+static Org::BouncyCastle::Asn1::X500::Style::IetfUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xff24b0 size 0x8 virtual false final false
  void _ctor() ;

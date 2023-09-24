@@ -169,8 +169,10 @@ constexpr void System::Xml::Linq::XProcessingInstruction::__set_data(::StringW v
 constexpr ::StringW System::Xml::Linq::XProcessingInstruction::__get_data() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "target", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Linq::XProcessingInstruction::XProcessingInstruction(::StringW target, ::StringW data)  : System::Xml::Linq::XNode(THROW_UNLESS(::il2cpp_utils::New<XProcessingInstruction>(target, data))) {}
+ System::Xml::Linq::XProcessingInstruction System::Xml::Linq::XProcessingInstruction::New_ctor(::StringW target, ::StringW data)  {
+System::Xml::Linq::XProcessingInstruction o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XProcessingInstruction>(target, data))};
+return o;
+}
  void System::Xml::Linq::XProcessingInstruction::_ctor(::StringW target, ::StringW data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XProcessingInstruction>::get(),
@@ -180,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, target, data);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XProcessingInstruction", modifiers: "", def_value: None }]
- System::Xml::Linq::XProcessingInstruction::XProcessingInstruction(System::Xml::Linq::XProcessingInstruction other)  : System::Xml::Linq::XNode(THROW_UNLESS(::il2cpp_utils::New<XProcessingInstruction>(other))) {}
+ System::Xml::Linq::XProcessingInstruction System::Xml::Linq::XProcessingInstruction::New_ctor(System::Xml::Linq::XProcessingInstruction other)  {
+System::Xml::Linq::XProcessingInstruction o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XProcessingInstruction>(other))};
+return o;
+}
  void System::Xml::Linq::XProcessingInstruction::_ctor(System::Xml::Linq::XProcessingInstruction other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XProcessingInstruction>::get(),

@@ -65,8 +65,7 @@ constexpr ::StringW __get__activityId() const;
 /// @brief Method get_activityId addr 0x221a7b4 size 0x8 virtual false final false
  ::StringW get_activityId() ;
 
-// Ctor Parameters []
-explicit ProgressActivitySubtaskSO() ;
+static GlobalNamespace::ProgressActivitySubtaskSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a7bc size 0x8 virtual false final false
  void _ctor() ;

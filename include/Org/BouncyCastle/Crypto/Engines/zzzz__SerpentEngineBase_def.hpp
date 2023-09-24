@@ -117,8 +117,7 @@ constexpr int32_t __get_X3() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SerpentEngineBase() ;
+static Org::BouncyCastle::Crypto::Engines::SerpentEngineBase New_ctor() ;
 
 /// @brief Method .ctor addr 0xe56988 size 0x8 virtual false final false
  void _ctor() ;

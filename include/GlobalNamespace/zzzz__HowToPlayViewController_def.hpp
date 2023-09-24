@@ -6,6 +6,9 @@
 namespace UnityEngine::UI {
 class Button;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
+}
 namespace System {
 template<typename T>
 class Action_1;
@@ -66,6 +69,8 @@ __Credits = 1,
 constexpr operator __GlobalNamespace__HowToPlayViewController__HowToPlayOptions_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__HowToPlayViewController__HowToPlayOptions_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -163,8 +168,7 @@ constexpr System::Action_1<GlobalNamespace::GlobalNamespace__HowToPlayViewContro
 /// @brief Method DidActivate addr 0x215fed0 size 0x108 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit HowToPlayViewController() ;
+static GlobalNamespace::HowToPlayViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215ffd8 size 0x8 virtual false final false
  void _ctor() ;

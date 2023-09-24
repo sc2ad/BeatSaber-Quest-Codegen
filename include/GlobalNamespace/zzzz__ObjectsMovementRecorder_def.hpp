@@ -7,37 +7,46 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class GlobalNamespace__PlaybackRenderer__PlaybackScreenshot;
+class IPosesSerializer;
 }
 namespace GlobalNamespace {
-class IPosesSerializer;
+class GlobalNamespace__PlaybackRenderer__PlaybackScreenshot;
 }
 namespace GlobalNamespace {
 class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
-class PosesPlayback;
-}
-namespace UnityEngine {
-class Camera;
+class GlobalNamespace__ObjectsMovementRecorder__InitData;
 }
 namespace GlobalNamespace {
-class PoseObjectIdSO;
+struct GlobalNamespace__ObjectsMovementRecorder__Mode;
 }
 namespace GlobalNamespace {
-class PlaybackScreenshotRecorder;
-}
-namespace GlobalNamespace {
-class PoseObject;
+struct GlobalNamespace__ObjectsMovementRecorder__CameraView;
 }
 namespace GlobalNamespace {
 class PosesRecorder;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class PlaybackScreenshotRecorder;
 }
 namespace GlobalNamespace {
 class PlaybackRenderer;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class PosesPlayback;
+}
+namespace GlobalNamespace {
+class PoseObject;
+}
+namespace GlobalNamespace {
+class PoseObjectIdSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,6 +111,8 @@ __Off = 2,
 constexpr operator __GlobalNamespace__ObjectsMovementRecorder__Mode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ObjectsMovementRecorder__Mode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -174,6 +185,8 @@ __ThirdPerson = 1,
 constexpr operator __GlobalNamespace__ObjectsMovementRecorder__CameraView_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ObjectsMovementRecorder__CameraView_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -311,8 +324,7 @@ constexpr GlobalNamespace::IBeatSaberLogger __get_logger() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mode", ty: "GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode", modifiers: "", def_value: None }, CppParam { name: "recordingPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cameraView", ty: "GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView", modifiers: "", def_value: None }, CppParam { name: "addDateTimeSuffixToRecordingName", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "screenshotRecording", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "screenshotWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "screenshotHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "framerate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "playbackScreenshots", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot>", modifiers: "", def_value: None }, CppParam { name: "saveToOldFormat", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "logger", ty: "GlobalNamespace::IBeatSaberLogger", modifiers: "", def_value: None }, CppParam { name: "posesSerializer", ty: "GlobalNamespace::IPosesSerializer", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ObjectsMovementRecorder__InitData(GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate, ::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot> playbackScreenshots, bool saveToOldFormat, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer) ;
+static GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData New_ctor(GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate, ::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot> playbackScreenshots, bool saveToOldFormat, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer) ;
 
 /// @brief Method .ctor addr 0x21a4e60 size 0xa4 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate, ::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot> playbackScreenshots, bool saveToOldFormat, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer) ;
@@ -483,8 +495,7 @@ constexpr GlobalNamespace::IPosesSerializer __get__posesSerializer() const;
 /// @brief Method HandleGameStateChanged addr 0x21a4cec size 0x70 virtual false final false
  void HandleGameStateChanged() ;
 
-// Ctor Parameters []
-explicit ObjectsMovementRecorder() ;
+static GlobalNamespace::ObjectsMovementRecorder New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a4e50 size 0x10 virtual false final false
  void _ctor() ;

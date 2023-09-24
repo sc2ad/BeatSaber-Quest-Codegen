@@ -3,6 +3,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupCircularLayouter_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__LightGroupCircularLayouter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__LightGroupCircularLayouter__RotationDirection::GlobalNamespace__LightGroupCircularLayouter__RotationDirection(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -67,8 +68,10 @@ constexpr void GlobalNamespace::LightGroupCircularLayouter::__set__additionalAng
 constexpr UnityEngine::Vector3 GlobalNamespace::LightGroupCircularLayouter::__get__additionalAngle() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::LightGroupCircularLayouter::LightGroupCircularLayouter()  : GlobalNamespace::LightGroupSubsystem(THROW_UNLESS(::il2cpp_utils::New<LightGroupCircularLayouter>())) {}
+ GlobalNamespace::LightGroupCircularLayouter GlobalNamespace::LightGroupCircularLayouter::New_ctor()  {
+GlobalNamespace::LightGroupCircularLayouter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightGroupCircularLayouter>())};
+return o;
+}
  void GlobalNamespace::LightGroupCircularLayouter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightGroupCircularLayouter>::get(),

@@ -65,14 +65,12 @@ constexpr uint8_t __get_alertDescription() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "alertDescription", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit TlsFatalAlert(uint8_t alertDescription) ;
+static Org::BouncyCastle::Crypto::Tls::TlsFatalAlert New_ctor(uint8_t alertDescription) ;
 
 /// @brief Method .ctor addr 0xf1cfe0 size 0x40 virtual false final false
  void _ctor(uint8_t alertDescription) ;
 
-// Ctor Parameters [CppParam { name: "alertDescription", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "alertCause", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit TlsFatalAlert(uint8_t alertDescription, System::Exception alertCause) ;
+static Org::BouncyCastle::Crypto::Tls::TlsFatalAlert New_ctor(uint8_t alertDescription, System::Exception alertCause) ;
 
 /// @brief Method .ctor addr 0xf1d3d0 size 0x44 virtual false final false
  void _ctor(uint8_t alertDescription, System::Exception alertCause) ;

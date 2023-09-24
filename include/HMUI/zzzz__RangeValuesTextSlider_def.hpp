@@ -6,11 +6,11 @@
 namespace HMUI {
 class ButtonBinder;
 }
-namespace HMUI {
-class TextSlider;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace HMUI {
+class TextSlider;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -155,8 +155,7 @@ constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 /// @brief Method TextForValue addr 0x1faf984 size 0x68 virtual true final false
  ::StringW TextForValue(float_t value) ;
 
-// Ctor Parameters []
-explicit RangeValuesTextSlider() ;
+static HMUI::RangeValuesTextSlider New_ctor() ;
 
 /// @brief Method .ctor addr 0x1faf310 size 0xc virtual false final false
  void _ctor() ;

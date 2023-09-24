@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace LiteNetLib {
+class NetPacket;
+}
+namespace LiteNetLib {
 class NetPeer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class Queue_1;
-}
-namespace LiteNetLib {
-class NetPacket;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -84,8 +84,7 @@ constexpr System::Collections::Generic::Queue_1<LiteNetLib::NetPacket> __get_Out
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }]
-explicit BaseChannel(LiteNetLib::NetPeer peer) ;
+static LiteNetLib::BaseChannel New_ctor(LiteNetLib::NetPeer peer) ;
 
 /// @brief Method .ctor addr 0x208485c size 0x94 virtual false final false
  void _ctor(LiteNetLib::NetPeer peer) ;

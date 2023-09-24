@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerializationHeaderRecord_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord._ctor
 template<>
 
@@ -147,8 +147,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::Serialization
 constexpr int32_t System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::__get_minorVersion() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::SerializationHeaderRecord()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerializationHeaderRecord>())) {}
+ System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord>::get(),
@@ -158,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "binaryHeaderEnum", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum", modifiers: "", def_value: None }, CppParam { name: "topId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headerId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "majorVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minorVersion", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::SerializationHeaderRecord(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerializationHeaderRecord>(binaryHeaderEnum, topId, headerId, majorVersion, minorVersion))) {}
+ System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion)  {
+System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord>(binaryHeaderEnum, topId, headerId, majorVersion, minorVersion))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord>::get(),

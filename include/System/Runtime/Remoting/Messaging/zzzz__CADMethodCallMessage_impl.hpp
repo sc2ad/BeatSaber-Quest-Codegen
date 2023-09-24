@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMessageBase_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMethodCallMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::CADMethodCallMessage.get_Uri
 template<>
 
@@ -130,8 +130,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Runtime::Remoting::Messaging::CADMethodCallMessage, false>(nullptr, ___internal_method, callMsg);
 }
-// Ctor Parameters [CppParam { name: "callMsg", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::CADMethodCallMessage::CADMethodCallMessage(System::Runtime::Remoting::Messaging::IMethodCallMessage callMsg)  : System::Runtime::Remoting::Messaging::CADMessageBase(THROW_UNLESS(::il2cpp_utils::New<CADMethodCallMessage>(callMsg))) {}
+ System::Runtime::Remoting::Messaging::CADMethodCallMessage System::Runtime::Remoting::Messaging::CADMethodCallMessage::New_ctor(System::Runtime::Remoting::Messaging::IMethodCallMessage callMsg)  {
+System::Runtime::Remoting::Messaging::CADMethodCallMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::CADMethodCallMessage>(callMsg))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::CADMethodCallMessage::_ctor(System::Runtime::Remoting::Messaging::IMethodCallMessage callMsg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::CADMethodCallMessage>::get(),

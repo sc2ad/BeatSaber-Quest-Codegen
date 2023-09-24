@@ -47,8 +47,7 @@ constexpr explicit DebuggerStepThroughAttribute(void* ptr) noexcept : System::At
 
 // Methods
 
-// Ctor Parameters []
-explicit DebuggerStepThroughAttribute() ;
+static System::Diagnostics::DebuggerStepThroughAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x240bf38 size 0x8 virtual false final false
  void _ctor() ;

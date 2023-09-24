@@ -4,13 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
+class Packet;
+}
+namespace Org::BouncyCastle::Bcpg {
+class Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
 struct PacketTag;
 }
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class Packet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -82,8 +85,7 @@ constexpr int32_t __get_dataLength() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }, CppParam { name: "partial", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dataLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn, bool partial, int32_t dataLength) ;
+static Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn, bool partial, int32_t dataLength) ;
 
 /// @brief Method .ctor addr 0x11430cc size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn, bool partial, int32_t dataLength) ;
@@ -169,8 +171,7 @@ constexpr int32_t __get_nextB() const;
 /// @brief Method Wrap addr 0x11426cc size 0x98 virtual false final false
 static Org::BouncyCastle::Bcpg::BcpgInputStream Wrap(System::IO::Stream inStr) ;
 
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BcpgInputStream(System::IO::Stream inputStream) ;
+static Org::BouncyCastle::Bcpg::BcpgInputStream New_ctor(System::IO::Stream inputStream) ;
 
 /// @brief Method .ctor addr 0x1142764 size 0x2c virtual false final false
  void _ctor(System::IO::Stream inputStream) ;

@@ -5,10 +5,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-class SpriteRenderer;
+struct Color;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType;
 }
 namespace UnityEngine {
-struct Color;
+class SpriteRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -67,6 +70,8 @@ __AfterApplyingMinAlpha = 2,
 constexpr operator __GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -208,8 +213,7 @@ constexpr bool __get__setOnlyOnce() const;
 /// @brief Method ColorWasSet addr 0x1fa057c size 0x144 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit SpriteLightWithId() ;
+static GlobalNamespace::SpriteLightWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa06c0 size 0x1024 virtual false final false
  void _ctor() ;

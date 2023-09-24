@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScrollViewItemsVisibilityController_def.hpp"
+#include "HMUI/zzzz__ScrollViewItemForVisibilityController_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
-#include "HMUI/zzzz__ScrollViewItemForVisibilityController_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "HMUI/zzzz__ScrollViewItemsVisibilityController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__ScrollViewItemsVisibilityController____c._ctor
 template<>
 
@@ -75,8 +76,10 @@ return ::cordl_internals::getStaticField<System::Func_2<System::Tuple_2<HMUI::Sc
  System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>,float_t> HMUI::HMUI__ScrollViewItemsVisibilityController____c::__get___9__11_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController,float_t>,float_t>, "<>9__11_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ScrollViewItemsVisibilityController____c>::get>();
 }
-// Ctor Parameters []
- HMUI::HMUI__ScrollViewItemsVisibilityController____c::HMUI__ScrollViewItemsVisibilityController____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ScrollViewItemsVisibilityController____c>())) {}
+ HMUI::HMUI__ScrollViewItemsVisibilityController____c HMUI::HMUI__ScrollViewItemsVisibilityController____c::New_ctor()  {
+HMUI::HMUI__ScrollViewItemsVisibilityController____c o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ScrollViewItemsVisibilityController____c>())};
+return o;
+}
  void HMUI::HMUI__ScrollViewItemsVisibilityController____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ScrollViewItemsVisibilityController____c>::get(),
@@ -291,8 +294,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newContentAnchoredPositionY);
 }
-// Ctor Parameters []
- HMUI::ScrollViewItemsVisibilityController::ScrollViewItemsVisibilityController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScrollViewItemsVisibilityController>())) {}
+ HMUI::ScrollViewItemsVisibilityController HMUI::ScrollViewItemsVisibilityController::New_ctor()  {
+HMUI::ScrollViewItemsVisibilityController o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ScrollViewItemsVisibilityController>())};
+return o;
+}
  void HMUI::ScrollViewItemsVisibilityController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ScrollViewItemsVisibilityController>::get(),

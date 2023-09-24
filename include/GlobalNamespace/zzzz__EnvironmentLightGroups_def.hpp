@@ -2,12 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class LightGroupSO;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+class LightGroupSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__EnvironmentLightGroups____c;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -81,8 +84,7 @@ static System::Func_2<GlobalNamespace::LightGroupSO,int32_t> __get___9__6_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__EnvironmentLightGroups____c() ;
+static GlobalNamespace::GlobalNamespace__EnvironmentLightGroups____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bf45c size 0x8 virtual false final false
  void _ctor() ;
@@ -173,8 +175,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::LightGroupSO> __
 /// @brief Method Sort addr 0x21bf2d0 size 0x120 virtual false final false
  void Sort() ;
 
-// Ctor Parameters []
-explicit EnvironmentLightGroups() ;
+static GlobalNamespace::EnvironmentLightGroups New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bf3f0 size 0x8 virtual false final false
  void _ctor() ;

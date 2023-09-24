@@ -35,8 +35,10 @@ constexpr void System::Runtime::Serialization::FixupHolder::__set_m_fixupType(in
 constexpr int32_t System::Runtime::Serialization::FixupHolder::__get_m_fixupType() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "fixupInfo", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "fixupType", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Serialization::FixupHolder::FixupHolder(int64_t id, ::bs_hook::Il2CppWrapperType fixupInfo, int32_t fixupType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FixupHolder>(id, fixupInfo, fixupType))) {}
+ System::Runtime::Serialization::FixupHolder System::Runtime::Serialization::FixupHolder::New_ctor(int64_t id, ::bs_hook::Il2CppWrapperType fixupInfo, int32_t fixupType)  {
+System::Runtime::Serialization::FixupHolder o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::FixupHolder>(id, fixupInfo, fixupType))};
+return o;
+}
  void System::Runtime::Serialization::FixupHolder::_ctor(int64_t id, ::bs_hook::Il2CppWrapperType fixupInfo, int32_t fixupType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::FixupHolder>::get(),

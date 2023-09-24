@@ -6,23 +6,23 @@
 #include <cmath>
 #include <cstdint>
 namespace HMUI {
+class TableView;
+}
+namespace GlobalNamespace {
+class FileBrowserItem;
+}
+namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
 class HMUI__TableView__IDataSource;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace HMUI {
-class TableCell;
-}
-namespace GlobalNamespace {
-class FileBrowserItem;
-}
 namespace GlobalNamespace {
 class FileBrowserTableCell;
-}
-namespace HMUI {
-class TableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -142,8 +142,7 @@ constexpr ::ArrayW<GlobalNamespace::FileBrowserItem> __get__items() const;
 /// @brief Method ClearSelection addr 0x2130ca4 size 0x5c virtual false final false
  void ClearSelection(bool animated, bool scrollToRow0) ;
 
-// Ctor Parameters []
-explicit FileBrowserTableView() ;
+static GlobalNamespace::FileBrowserTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2130d00 size 0x10 virtual false final false
  void _ctor() ;

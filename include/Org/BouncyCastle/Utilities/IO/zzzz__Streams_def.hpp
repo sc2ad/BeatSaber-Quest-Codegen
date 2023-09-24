@@ -61,8 +61,7 @@ static constexpr int32_t  BufferSize{512};
 
 // Methods
 
-// Ctor Parameters []
-explicit Streams() ;
+static Org::BouncyCastle::Utilities::IO::Streams New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d3b1c size 0x8 virtual false final false
  void _ctor() ;

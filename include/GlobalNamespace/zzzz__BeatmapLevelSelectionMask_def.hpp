@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-struct GameplayModifierMask;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -21,6 +18,9 @@ class NetDataWriter;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
+}
+namespace GlobalNamespace {
+struct GameplayModifierMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {

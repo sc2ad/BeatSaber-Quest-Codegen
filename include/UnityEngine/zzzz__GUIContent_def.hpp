@@ -120,26 +120,22 @@ static UnityEngine::GUIContent __get_none() ;
 /// @brief Method set_tooltip addr 0x2b8c588 size 0x8 virtual false final false
  void set_tooltip(::StringW value) ;
 
-// Ctor Parameters []
-explicit GUIContent() ;
+static UnityEngine::GUIContent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b8c590 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GUIContent(::StringW text) ;
+static UnityEngine::GUIContent New_ctor(::StringW text) ;
 
 /// @brief Method .ctor addr 0x2b8c5ec size 0x64 virtual false final false
  void _ctor(::StringW text) ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "image", ty: "UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GUIContent(::StringW text, UnityEngine::Texture image, ::StringW tooltip) ;
+static UnityEngine::GUIContent New_ctor(::StringW text, UnityEngine::Texture image, ::StringW tooltip) ;
 
 /// @brief Method .ctor addr 0x2b8c650 size 0x84 virtual false final false
  void _ctor(::StringW text, UnityEngine::Texture image, ::StringW tooltip) ;
 
-// Ctor Parameters [CppParam { name: "src", ty: "UnityEngine::GUIContent", modifiers: "", def_value: None }]
-explicit GUIContent(UnityEngine::GUIContent src) ;
+static UnityEngine::GUIContent New_ctor(UnityEngine::GUIContent src) ;
 
 /// @brief Method .ctor addr 0x2b83ec8 size 0x84 virtual false final false
  void _ctor(UnityEngine::GUIContent src) ;

@@ -81,8 +81,10 @@ return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2
  System::ComponentModel::DefaultPropertyAttribute System::ComponentModel::DefaultPropertyAttribute::__get_Default()  {
 return ::cordl_internals::getStaticField<System::ComponentModel::DefaultPropertyAttribute, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DefaultPropertyAttribute>::get>();
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::ComponentModel::DefaultPropertyAttribute::DefaultPropertyAttribute(::StringW name)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DefaultPropertyAttribute>(name))) {}
+ System::ComponentModel::DefaultPropertyAttribute System::ComponentModel::DefaultPropertyAttribute::New_ctor(::StringW name)  {
+System::ComponentModel::DefaultPropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DefaultPropertyAttribute>(name))};
+return o;
+}
  void System::ComponentModel::DefaultPropertyAttribute::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DefaultPropertyAttribute>::get(),

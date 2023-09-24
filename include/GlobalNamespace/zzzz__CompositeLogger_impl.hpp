@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CompositeLogger_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CompositeLogger._ctor
 template<>
 
@@ -200,8 +200,10 @@ constexpr void GlobalNamespace::CompositeLogger::__set__loggers(System::Collecti
 constexpr System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger> GlobalNamespace::CompositeLogger::__get__loggers() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::CompositeLogger::CompositeLogger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CompositeLogger>())) {}
+ GlobalNamespace::CompositeLogger GlobalNamespace::CompositeLogger::New_ctor()  {
+GlobalNamespace::CompositeLogger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CompositeLogger>())};
+return o;
+}
  void GlobalNamespace::CompositeLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CompositeLogger>::get(),
@@ -211,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "loggers", ty: "System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger>", modifiers: "", def_value: None }]
- GlobalNamespace::CompositeLogger::CompositeLogger(System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger> loggers)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CompositeLogger>(loggers))) {}
+ GlobalNamespace::CompositeLogger GlobalNamespace::CompositeLogger::New_ctor(System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger> loggers)  {
+GlobalNamespace::CompositeLogger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CompositeLogger>(loggers))};
+return o;
+}
  void GlobalNamespace::CompositeLogger::_ctor(System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger> loggers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CompositeLogger>::get(),

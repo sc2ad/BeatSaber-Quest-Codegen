@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class Focusable;
 }
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
+class IEventHandler;
 }
 namespace UnityEngine::UIElements {
 class FocusController;
@@ -138,8 +138,7 @@ constexpr bool __get__IsFocusDelegated_k__BackingField() const;
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
 static T GetPooled(UnityEngine::UIElements::IEventHandler target, UnityEngine::UIElements::Focusable relatedTarget, UnityEngine::UIElements::FocusChangeDirection direction, UnityEngine::UIElements::FocusController focusController, bool bIsFocusDelegated) ;
 
-// Ctor Parameters []
-explicit FocusEventBase_1() ;
+static UnityEngine::UIElements::FocusEventBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -4,25 +4,46 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
-}
-namespace System::IO {
-class FileSystemInfo;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace System::IO::Enumeration {
+class System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0;
 }
 namespace System::IO {
 class EnumerationOptions;
 }
-namespace System::IO {
-class FileInfo;
+namespace System::IO::Enumeration {
+class System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0;
+}
+namespace System::IO::Enumeration {
+class System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0;
 }
 namespace System::IO {
 class DirectoryInfo;
+}
+namespace System::IO {
+class FileSystemInfo;
+}
+namespace System::IO::Enumeration {
+class System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0;
+}
+namespace System::IO::Enumeration {
+class System__IO__Enumeration__FileSystemEnumerableFactory____c;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
+namespace System::IO::Enumeration {
+class System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0;
+}
+namespace System::IO {
+class FileInfo;
+}
+namespace System::IO::Enumeration {
+class System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::IO::Enumeration {
 struct FileSystemEntry;
@@ -113,8 +134,7 @@ constexpr System::IO::EnumerationOptions __get_options() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0() ;
+static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x23d69e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -213,8 +233,7 @@ static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable_1_
 
 // Methods
 
-// Ctor Parameters []
-explicit System__IO__Enumeration__FileSystemEnumerableFactory____c() ;
+static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x23d747c size 0x8 virtual false final false
  void _ctor() ;
@@ -298,8 +317,7 @@ constexpr System::IO::EnumerationOptions __get_options() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0() ;
+static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x23d6bac size 0x8 virtual false final false
  void _ctor() ;
@@ -368,8 +386,7 @@ constexpr System::IO::EnumerationOptions __get_options() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0() ;
+static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x23d6d78 size 0x8 virtual false final false
  void _ctor() ;
@@ -438,8 +455,7 @@ constexpr System::IO::EnumerationOptions __get_options() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0() ;
+static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x23d6f44 size 0x8 virtual false final false
  void _ctor() ;
@@ -508,8 +524,7 @@ constexpr System::IO::EnumerationOptions __get_options() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0() ;
+static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x23d7110 size 0x8 virtual false final false
  void _ctor() ;
@@ -578,8 +593,7 @@ constexpr System::IO::EnumerationOptions __get_options() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0() ;
+static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x23d72dc size 0x8 virtual false final false
  void _ctor() ;

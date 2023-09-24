@@ -3,6 +3,9 @@
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__SelectSubMenuDestination__Destination;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__SelectSubMenuDestination__Destination;
@@ -64,6 +67,8 @@ __Multiplayer = 6,
 constexpr operator __GlobalNamespace__SelectSubMenuDestination__Destination_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SelectSubMenuDestination__Destination_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -152,8 +157,7 @@ constexpr GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destinatio
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "menuDestination", ty: "GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination", modifiers: "", def_value: None }]
-explicit SelectSubMenuDestination(GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination menuDestination) ;
+static GlobalNamespace::SelectSubMenuDestination New_ctor(GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination menuDestination) ;
 
 /// @brief Method .ctor addr 0x21bc718 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination menuDestination) ;

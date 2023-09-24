@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 //  Writing Method size for method: System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0._ctor
 template<>
 
@@ -50,8 +51,10 @@ constexpr void System::Runtime::CompilerServices::System__Runtime__CompilerServi
 constexpr System::Action System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0::__get_continuation() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0>())) {}
+ System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0 System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0::New_ctor()  {
+System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0 o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0>())};
+return o;
+}
  void System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::System__Runtime__CompilerServices__TaskAwaiter____c__DisplayClass11_0>::get(),

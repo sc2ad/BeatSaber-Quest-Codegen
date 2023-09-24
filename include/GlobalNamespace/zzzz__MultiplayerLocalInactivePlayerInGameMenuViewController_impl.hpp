@@ -1,21 +1,20 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerInGameMenuViewController_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__LocalPlayerInGameMenuInitData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalPlayerDisconnectHelper_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Tweening/zzzz__Tween_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__LocalPlayerInGameMenuInitData_def.hpp"
 #include "GlobalNamespace/zzzz__LevelBar_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectPromptView_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "Tweening/zzzz__Tween_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController.OnEnable
 template<>
 
@@ -388,8 +387,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::MultiplayerLocalInactivePlayerInGameMenuViewController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalInactivePlayerInGameMenuViewController>())) {}
+ GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::New_ctor()  {
+GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController>::get(),

@@ -31,8 +31,10 @@ constexpr void Oculus::Platform::Models::SystemVoipState::__set_Status(Oculus::P
 constexpr Oculus::Platform::SystemVoipStatus Oculus::Platform::Models::SystemVoipState::__get_Status() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::SystemVoipStatus, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::SystemVoipState::SystemVoipState(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SystemVoipState>(o))) {}
+ Oculus::Platform::Models::SystemVoipState Oculus::Platform::Models::SystemVoipState::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::SystemVoipState o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::SystemVoipState>(o))};
+return o;
+}
  void Oculus::Platform::Models::SystemVoipState::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::SystemVoipState>::get(),

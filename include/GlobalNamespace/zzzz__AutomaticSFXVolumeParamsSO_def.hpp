@@ -142,8 +142,7 @@ constexpr float_t __get__volumeSmooth() const;
 /// @brief Method get_volumeSmooth addr 0x20b9fa8 size 0x8 virtual false final false
  float_t get_volumeSmooth() ;
 
-// Ctor Parameters []
-explicit AutomaticSFXVolumeParamsSO() ;
+static GlobalNamespace::AutomaticSFXVolumeParamsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b9fb0 size 0x20 virtual false final false
  void _ctor() ;

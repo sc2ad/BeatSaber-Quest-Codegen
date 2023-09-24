@@ -1,20 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace HMUI {
-struct HMUI__SelectableCell__TransitionType;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine::UI {
+class Image;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,8 +113,7 @@ constexpr UnityEngine::Color __get__bgHighlightColor() const;
 /// @brief Method RefreshVisuals addr 0x212276c size 0x7c virtual false final false
  void RefreshVisuals() ;
 
-// Ctor Parameters []
-explicit BeatmapCharacteristicTableCell() ;
+static GlobalNamespace::BeatmapCharacteristicTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x21227ec size 0x1c virtual false final false
  void _ctor() ;

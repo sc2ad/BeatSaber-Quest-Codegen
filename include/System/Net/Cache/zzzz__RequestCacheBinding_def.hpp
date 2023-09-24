@@ -2,13 +2,13 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Net::Cache {
-class RequestCache;
-}
-namespace System::Net::Cache {
 class RequestCacheValidator;
 }
 namespace System::Net::Cache {
 class RequestCachePolicy;
+}
+namespace System::Net::Cache {
+class RequestCache;
 }
 // Forward declare root types
 namespace System::Net::Cache {
@@ -86,8 +86,7 @@ constexpr System::Net::Cache::RequestCachePolicy __get_m_Policy() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "requestCache", ty: "System::Net::Cache::RequestCache", modifiers: "", def_value: None }, CppParam { name: "cacheValidator", ty: "System::Net::Cache::RequestCacheValidator", modifiers: "", def_value: None }, CppParam { name: "policy", ty: "System::Net::Cache::RequestCachePolicy", modifiers: "", def_value: None }]
-explicit RequestCacheBinding(System::Net::Cache::RequestCache requestCache, System::Net::Cache::RequestCacheValidator cacheValidator, System::Net::Cache::RequestCachePolicy policy) ;
+static System::Net::Cache::RequestCacheBinding New_ctor(System::Net::Cache::RequestCache requestCache, System::Net::Cache::RequestCacheValidator cacheValidator, System::Net::Cache::RequestCachePolicy policy) ;
 
 /// @brief Method .ctor addr 0x285ed10 size 0x3c virtual false final false
  void _ctor(System::Net::Cache::RequestCache requestCache, System::Net::Cache::RequestCacheValidator cacheValidator, System::Net::Cache::RequestCachePolicy policy) ;

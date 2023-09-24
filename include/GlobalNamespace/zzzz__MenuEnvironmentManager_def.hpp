@@ -8,6 +8,12 @@
 namespace UnityEngine {
 class GameObject;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentType;
@@ -68,6 +74,8 @@ __Lobby = 2,
 constexpr operator __GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -161,8 +169,7 @@ constexpr UnityEngine::GameObject __get__wrapper() const;
 /// @brief Method get_wrapper addr 0x222cc48 size 0x8 virtual false final false
  UnityEngine::GameObject get_wrapper() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects() ;
+static GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects New_ctor() ;
 
 /// @brief Method .ctor addr 0x222cc50 size 0x8 virtual false final false
  void _ctor() ;
@@ -238,8 +245,7 @@ constexpr GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironm
 /// @brief Method ShowEnvironmentType addr 0x222cab8 size 0x180 virtual false final false
  void ShowEnvironmentType(GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentType menuEnvironmentType) ;
 
-// Ctor Parameters []
-explicit MenuEnvironmentManager() ;
+static GlobalNamespace::MenuEnvironmentManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x222cc38 size 0x8 virtual false final false
  void _ctor() ;

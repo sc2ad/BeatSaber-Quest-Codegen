@@ -54,8 +54,10 @@ constexpr void System::ComponentModel::ListChangedEventArgs::__set__OldIndex_k__
 constexpr int32_t System::ComponentModel::ListChangedEventArgs::__get__OldIndex_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "listChangedType", ty: "System::ComponentModel::ListChangedType", modifiers: "", def_value: None }, CppParam { name: "newIndex", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::ListChangedEventArgs::ListChangedEventArgs(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<ListChangedEventArgs>(listChangedType, newIndex))) {}
+ System::ComponentModel::ListChangedEventArgs System::ComponentModel::ListChangedEventArgs::New_ctor(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex)  {
+System::ComponentModel::ListChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ListChangedEventArgs>(listChangedType, newIndex))};
+return o;
+}
  void System::ComponentModel::ListChangedEventArgs::_ctor(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ListChangedEventArgs>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, listChangedType, newIndex);
 }
-// Ctor Parameters [CppParam { name: "listChangedType", ty: "System::ComponentModel::ListChangedType", modifiers: "", def_value: None }, CppParam { name: "newIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "oldIndex", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::ListChangedEventArgs::ListChangedEventArgs(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<ListChangedEventArgs>(listChangedType, newIndex, oldIndex))) {}
+ System::ComponentModel::ListChangedEventArgs System::ComponentModel::ListChangedEventArgs::New_ctor(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex)  {
+System::ComponentModel::ListChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ListChangedEventArgs>(listChangedType, newIndex, oldIndex))};
+return o;
+}
  void System::ComponentModel::ListChangedEventArgs::_ctor(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ListChangedEventArgs>::get(),

@@ -55,8 +55,7 @@ constexpr explicit ProxyElement(void* ptr) noexcept : System::Configuration::Con
 
 // Methods
 
-// Ctor Parameters []
-explicit ProxyElement() ;
+static System::Net::Configuration::ProxyElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b2394 size 0x38 virtual false final false
  void _ctor() ;

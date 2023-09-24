@@ -5,9 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Oculus::Platform::Models {
-class AchievementProgressList;
-}
-namespace Oculus::Platform::Models {
 class AchievementDefinitionList;
 }
 namespace Oculus::Platform::Models {
@@ -16,6 +13,9 @@ class AchievementUpdate;
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
+}
+namespace Oculus::Platform::Models {
+class AchievementProgressList;
 }
 // Forward declare root types
 namespace Oculus::Platform {

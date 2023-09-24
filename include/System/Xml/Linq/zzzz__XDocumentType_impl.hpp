@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/Xml/Linq/zzzz__XDocumentType_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::XDocumentType._ctor
 template<>
 
@@ -181,8 +181,10 @@ constexpr void System::Xml::Linq::XDocumentType::__set__internalSubset(::StringW
 constexpr ::StringW System::Xml::Linq::XDocumentType::__get__internalSubset() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "internalSubset", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Linq::XDocumentType::XDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset)  : System::Xml::Linq::XNode(THROW_UNLESS(::il2cpp_utils::New<XDocumentType>(name, publicId, systemId, internalSubset))) {}
+ System::Xml::Linq::XDocumentType System::Xml::Linq::XDocumentType::New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset)  {
+System::Xml::Linq::XDocumentType o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XDocumentType>(name, publicId, systemId, internalSubset))};
+return o;
+}
  void System::Xml::Linq::XDocumentType::_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XDocumentType>::get(),
@@ -192,8 +194,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, publicId, systemId, internalSubset);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XDocumentType", modifiers: "", def_value: None }]
- System::Xml::Linq::XDocumentType::XDocumentType(System::Xml::Linq::XDocumentType other)  : System::Xml::Linq::XNode(THROW_UNLESS(::il2cpp_utils::New<XDocumentType>(other))) {}
+ System::Xml::Linq::XDocumentType System::Xml::Linq::XDocumentType::New_ctor(System::Xml::Linq::XDocumentType other)  {
+System::Xml::Linq::XDocumentType o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XDocumentType>(other))};
+return o;
+}
  void System::Xml::Linq::XDocumentType::_ctor(System::Xml::Linq::XDocumentType other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XDocumentType>::get(),

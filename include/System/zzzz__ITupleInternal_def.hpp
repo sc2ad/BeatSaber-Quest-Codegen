@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Text {
-class StringBuilder;
-}
 namespace System::Runtime::CompilerServices {
 class ITuple;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System {

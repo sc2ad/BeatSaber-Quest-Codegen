@@ -5,62 +5,73 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Zenject {
-class Zenject__SignalSubscription__Pool;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-struct SignalSubscriptionId;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
 class ILateDisposable;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace Zenject {
-class ZenjectSettings;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System {
-class Type;
-}
 namespace Zenject {
-struct SignalMissingHandlerResponses;
-}
-namespace Zenject {
-class InjectTypeInfo;
+template<typename TSignal>
+class Zenject__SignalBus____c__DisplayClass27_0_1;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace Zenject {
-class Zenject__ZenjectSettings__SignalSettings;
+struct SignalMissingHandlerResponses;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
-class SignalSubscription;
+template<typename TSignal>
+class Zenject__SignalBus____c__DisplayClass25_0_1;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+struct SignalSubscriptionId;
 }
 namespace Zenject {
 class SignalDeclaration;
 }
 namespace Zenject {
-struct BindingId;
-}
-namespace Zenject {
 class Zenject__SignalDeclaration__Factory;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Zenject {
+struct BindingId;
+}
+namespace Zenject {
+class Zenject__SignalSubscription__Pool;
+}
+namespace Zenject {
+class Zenject__SignalBus____c;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class SignalSubscription;
+}
+namespace Zenject {
+class ZenjectSettings;
+}
+namespace Zenject {
+class Zenject__ZenjectSettings__SignalSettings;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -158,8 +169,7 @@ static System::Func_2<Zenject::SignalSubscription,::StringW> __get___9__12_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SignalBus____c() ;
+static Zenject::Zenject__SignalBus____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4c674 size 0x8 virtual false final false
  void _ctor() ;
@@ -290,8 +300,7 @@ constexpr Zenject::DiContainer __get__container() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalDeclarations", ty: "System::Collections::Generic::List_1<Zenject::SignalDeclaration>", modifiers: "", def_value: None }, CppParam { name: "parentBus", ty: "Zenject::SignalBus", modifiers: "", def_value: None }, CppParam { name: "zenjectSettings", ty: "Zenject::ZenjectSettings", modifiers: "", def_value: None }, CppParam { name: "subscriptionPool", ty: "Zenject::Zenject__SignalSubscription__Pool", modifiers: "", def_value: None }, CppParam { name: "signalDeclarationFactory", ty: "Zenject::Zenject__SignalDeclaration__Factory", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit SignalBus(System::Collections::Generic::List_1<Zenject::SignalDeclaration> signalDeclarations, Zenject::SignalBus parentBus, Zenject::ZenjectSettings zenjectSettings, Zenject::Zenject__SignalSubscription__Pool subscriptionPool, Zenject::Zenject__SignalDeclaration__Factory signalDeclarationFactory, Zenject::DiContainer container) ;
+static Zenject::SignalBus New_ctor(System::Collections::Generic::List_1<Zenject::SignalDeclaration> signalDeclarations, Zenject::SignalBus parentBus, Zenject::ZenjectSettings zenjectSettings, Zenject::Zenject__SignalSubscription__Pool subscriptionPool, Zenject::Zenject__SignalDeclaration__Factory signalDeclarationFactory, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x2d4afa8 size 0x280 virtual false final false
  void _ctor(System::Collections::Generic::List_1<Zenject::SignalDeclaration> signalDeclarations, Zenject::SignalBus parentBus, Zenject::ZenjectSettings zenjectSettings, Zenject::Zenject__SignalSubscription__Pool subscriptionPool, Zenject::Zenject__SignalDeclaration__Factory signalDeclarationFactory, Zenject::DiContainer container) ;
@@ -521,8 +530,7 @@ constexpr System::Action __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SignalBus____c__DisplayClass25_0_1() ;
+static Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -593,8 +601,7 @@ constexpr System::Action_1<TSignal> __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SignalBus____c__DisplayClass27_0_1() ;
+static Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

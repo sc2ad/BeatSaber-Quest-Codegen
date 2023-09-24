@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "ENet/zzzz__ENetCallbacks_def.hpp"
-#include "ENet/zzzz__FreeCallback_def.hpp"
 #include "ENet/zzzz__NoMemoryCallback_def.hpp"
+#include "ENet/zzzz__FreeCallback_def.hpp"
 #include "ENet/zzzz__AllocCallback_def.hpp"
 // Ctor Parameters [CppParam { name: "malloc", ty: "ENet::AllocCallback", modifiers: "", def_value: Some("csnull") }, CppParam { name: "free", ty: "ENet::FreeCallback", modifiers: "", def_value: Some("csnull") }, CppParam { name: "noMemory", ty: "ENet::NoMemoryCallback", modifiers: "", def_value: Some("csnull") }]
 constexpr ENet::ENetCallbacks::ENetCallbacks(ENet::AllocCallback malloc, ENet::FreeCallback free, ENet::NoMemoryCallback noMemory) noexcept : ::bs_hook::ValueTypeWrapper() {this->malloc = malloc;

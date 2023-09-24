@@ -47,8 +47,7 @@ constexpr explicit RazorSectionAttribute(void* ptr) noexcept : System::Attribute
 
 // Methods
 
-// Ctor Parameters []
-explicit RazorSectionAttribute() ;
+static JetBrains::Annotations::RazorSectionAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d411e0 size 0x8 virtual false final false
  void _ctor() ;

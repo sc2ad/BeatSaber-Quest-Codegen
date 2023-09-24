@@ -6,16 +6,16 @@
 #include <cmath>
 #include <cstdint>
 namespace OVRSimpleJSON {
-class JSONArray;
-}
-namespace OVRSimpleJSON {
-class JSONNode;
-}
-namespace OVRSimpleJSON {
 struct JSONNodeType;
 }
 namespace OVRSimpleJSON {
 struct OVRSimpleJSON__JSONNode__Enumerator;
+}
+namespace OVRSimpleJSON {
+class JSONArray;
+}
+namespace OVRSimpleJSON {
+class JSONNode;
 }
 namespace OVRSimpleJSON {
 class JSONObject;
@@ -116,14 +116,12 @@ constexpr ::StringW __get_m_Key() const;
 /// @brief Method GetEnumerator addr 0x2640cbc size 0x14 virtual true final false
  OVRSimpleJSON::OVRSimpleJSON__JSONNode__Enumerator GetEnumerator() ;
 
-// Ctor Parameters [CppParam { name: "aNode", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }]
-explicit JSONLazyCreator(OVRSimpleJSON::JSONNode aNode) ;
+static OVRSimpleJSON::JSONLazyCreator New_ctor(OVRSimpleJSON::JSONNode aNode) ;
 
 /// @brief Method .ctor addr 0x263e5d4 size 0x28 virtual false final false
  void _ctor(OVRSimpleJSON::JSONNode aNode) ;
 
-// Ctor Parameters [CppParam { name: "aNode", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }, CppParam { name: "aKey", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JSONLazyCreator(OVRSimpleJSON::JSONNode aNode, ::StringW aKey) ;
+static OVRSimpleJSON::JSONLazyCreator New_ctor(OVRSimpleJSON::JSONNode aNode, ::StringW aKey) ;
 
 /// @brief Method .ctor addr 0x263f260 size 0x2c virtual false final false
  void _ctor(OVRSimpleJSON::JSONNode aNode, ::StringW aKey) ;

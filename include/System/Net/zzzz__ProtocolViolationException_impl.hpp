@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__InvalidOperationException_impl.hpp"
 #include "System/Net/zzzz__ProtocolViolationException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Net::ProtocolViolationException._ctor
 template<>
 
@@ -93,8 +93,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 constexpr  System::Net::ProtocolViolationException::operator System::Runtime::Serialization::ISerializable() const noexcept {
 return System::Runtime::Serialization::ISerializable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::ProtocolViolationException::ProtocolViolationException()  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<ProtocolViolationException>())) {}
+ System::Net::ProtocolViolationException System::Net::ProtocolViolationException::New_ctor()  {
+System::Net::ProtocolViolationException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ProtocolViolationException>())};
+return o;
+}
  void System::Net::ProtocolViolationException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ProtocolViolationException>::get(),
@@ -104,8 +106,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::ProtocolViolationException::ProtocolViolationException(::StringW message)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<ProtocolViolationException>(message))) {}
+ System::Net::ProtocolViolationException System::Net::ProtocolViolationException::New_ctor(::StringW message)  {
+System::Net::ProtocolViolationException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ProtocolViolationException>(message))};
+return o;
+}
  void System::Net::ProtocolViolationException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ProtocolViolationException>::get(),
@@ -115,8 +119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::ProtocolViolationException::ProtocolViolationException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<ProtocolViolationException>(serializationInfo, streamingContext))) {}
+ System::Net::ProtocolViolationException System::Net::ProtocolViolationException::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::ProtocolViolationException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ProtocolViolationException>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::ProtocolViolationException::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ProtocolViolationException>::get(),

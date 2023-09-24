@@ -11,7 +11,17 @@ namespace System::Threading {
 struct SpinLock;
 }
 namespace System::Threading {
+class System__Threading__ThreadPoolWorkQueue__QueueSegment;
+}
+namespace System::Threading {
 class ThreadPoolWorkQueueThreadLocals;
+}
+namespace System::Threading {
+template<typename T>
+class System__Threading__ThreadPoolWorkQueue__SparseArray_1;
+}
+namespace System::Threading {
+class System__Threading__ThreadPoolWorkQueue__WorkStealingQueue;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -122,8 +132,7 @@ constexpr System::Threading::SpinLock __get_m_foreignLock() const;
 /// @brief Method TrySteal addr 0x24ae558 size 0x244 virtual false final false
  bool TrySteal(ByRef<System::Threading::IThreadPoolWorkItem> obj, ByRef<bool> missedSteal, int32_t millisecondsTimeout) ;
 
-// Ctor Parameters []
-explicit System__Threading__ThreadPoolWorkQueue__WorkStealingQueue() ;
+static System::Threading::System__Threading__ThreadPoolWorkQueue__WorkStealingQueue New_ctor() ;
 
 /// @brief Method .ctor addr 0x24ae79c size 0x80 virtual false final false
  void _ctor() ;
@@ -201,8 +210,7 @@ constexpr System::Threading::System__Threading__ThreadPoolWorkQueue__QueueSegmen
 /// @brief Method CompareExchangeIndexes addr 0x24ae850 size 0x68 virtual false final false
  bool CompareExchangeIndexes(ByRef<int32_t> prevUpper, int32_t newUpper, ByRef<int32_t> prevLower, int32_t newLower) ;
 
-// Ctor Parameters []
-explicit System__Threading__ThreadPoolWorkQueue__QueueSegment() ;
+static System::Threading::System__Threading__ThreadPoolWorkQueue__QueueSegment New_ctor() ;
 
 /// @brief Method .ctor addr 0x24ae8bc size 0x5c virtual false final false
  void _ctor() ;
@@ -296,8 +304,7 @@ constexpr int32_t __get_numOutstandingThreadRequests() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ThreadPoolWorkQueue() ;
+static System::Threading::ThreadPoolWorkQueue New_ctor() ;
 
 /// @brief Method .ctor addr 0x24ad19c size 0x78 virtual false final false
  void _ctor() ;
@@ -385,8 +392,7 @@ constexpr ::ArrayW<T> __get_m_array() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Threading__ThreadPoolWorkQueue__SparseArray_1(int32_t initialSize) ;
+static System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T> New_ctor(int32_t initialSize) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t initialSize) ;

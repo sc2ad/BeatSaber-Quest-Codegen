@@ -4,39 +4,51 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::ProBuilder {
-class FaceRebuildData;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1;
 }
 namespace UnityEngine::ProBuilder {
-class WingedEdge;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
+class Face;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2;
+}
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct Edge;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__Bevel____c;
 }
 namespace UnityEngine::ProBuilder {
 template<typename T1,typename T2>
 struct SimpleTuple_2;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
+class FaceRebuildData;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::ProBuilder {
+class WingedEdge;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -133,8 +145,7 @@ constexpr System::Func_2<int32_t,int32_t> __get___9__8() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a0980c size 0x8 virtual false final false
  void _ctor() ;
@@ -200,8 +211,7 @@ constexpr UnityEngine::ProBuilder::EdgeLookup __get_lup() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a09814 size 0x8 virtual false final false
  void _ctor() ;
@@ -270,8 +280,7 @@ constexpr UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__Mesh
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a0a4a0 size 0x8 virtual false final false
  void _ctor() ;
@@ -364,8 +373,7 @@ static System::Func_2<UnityEngine::ProBuilder::FaceRebuildData,UnityEngine::ProB
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__Bevel____c() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a0a940 size 0x8 virtual false final false
  void _ctor() ;

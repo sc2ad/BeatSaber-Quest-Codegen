@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelSO;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+class RelativeSfxVolumePerLevelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,8 +68,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,float_t> __get__r
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "relativeSfxVolumePerLevelData", ty: "GlobalNamespace::RelativeSfxVolumePerLevelSO", modifiers: "", def_value: None }]
-explicit RelativeSfxVolumePerLevelModel(GlobalNamespace::RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData) ;
+static GlobalNamespace::RelativeSfxVolumePerLevelModel New_ctor(GlobalNamespace::RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData) ;
 
 /// @brief Method .ctor addr 0x21ee878 size 0x114 virtual false final false
  void _ctor(GlobalNamespace::RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData) ;

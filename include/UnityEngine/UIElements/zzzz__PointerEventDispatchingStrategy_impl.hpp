@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__PointerEventDispatchingStrategy_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventDispatchingStrategy_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::PointerEventDispatchingStrategy.CanDispatchEvent
 template<>
 
@@ -155,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, evt, panel, elementUnderPointer);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::PointerEventDispatchingStrategy::PointerEventDispatchingStrategy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PointerEventDispatchingStrategy>())) {}
+ UnityEngine::UIElements::PointerEventDispatchingStrategy UnityEngine::UIElements::PointerEventDispatchingStrategy::New_ctor()  {
+UnityEngine::UIElements::PointerEventDispatchingStrategy o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PointerEventDispatchingStrategy>())};
+return o;
+}
  void UnityEngine::UIElements::PointerEventDispatchingStrategy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PointerEventDispatchingStrategy>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__Pointer_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Pen_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__PenButton_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__PenButton_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Pen.get_tip
 template<>
 
@@ -706,8 +706,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Pen::Pen()  : UnityEngine::InputSystem::Pointer(THROW_UNLESS(::il2cpp_utils::New<Pen>())) {}
+ UnityEngine::InputSystem::Pen UnityEngine::InputSystem::Pen::New_ctor()  {
+UnityEngine::InputSystem::Pen o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Pen>())};
+return o;
+}
  void UnityEngine::InputSystem::Pen::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Pen>::get(),

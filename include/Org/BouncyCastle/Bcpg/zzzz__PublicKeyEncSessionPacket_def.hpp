@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -94,14 +94,12 @@ constexpr ::ArrayW<::ArrayW<uint8_t>> __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PublicKeyEncSessionPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1143134 size 0x364 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "keyId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<::ArrayW<uint8_t>>", modifiers: "", def_value: None }]
-explicit PublicKeyEncSessionPacket(int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::ArrayW<::ArrayW<uint8_t>> data) ;
+static Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket New_ctor(int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::ArrayW<::ArrayW<uint8_t>> data) ;
 
 /// @brief Method .ctor addr 0x1148068 size 0x144 virtual false final false
  void _ctor(int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::ArrayW<::ArrayW<uint8_t>> data) ;

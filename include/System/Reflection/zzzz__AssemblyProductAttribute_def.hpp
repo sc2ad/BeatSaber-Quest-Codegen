@@ -57,8 +57,7 @@ constexpr ::StringW __get__Product_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyProductAttribute(::StringW product) ;
+static System::Reflection::AssemblyProductAttribute New_ctor(::StringW product) ;
 
 /// @brief Method .ctor addr 0x2378e38 size 0x28 virtual false final false
  void _ctor(::StringW product) ;

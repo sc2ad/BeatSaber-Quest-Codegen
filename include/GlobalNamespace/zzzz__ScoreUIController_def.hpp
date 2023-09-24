@@ -4,11 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ScoreUIController__ScoreDisplayType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ScoreUIController__InitData;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class IScoreController;
@@ -74,8 +80,7 @@ constexpr GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "scoreDisplayType", ty: "GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ScoreUIController__InitData(GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType scoreDisplayType) ;
+static GlobalNamespace::GlobalNamespace__ScoreUIController__InitData New_ctor(GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType scoreDisplayType) ;
 
 /// @brief Method .ctor addr 0x20cd8c0 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType scoreDisplayType) ;
@@ -133,6 +138,8 @@ __ModifiedScore = 1,
 constexpr operator __GlobalNamespace__ScoreUIController__ScoreDisplayType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ScoreUIController__ScoreDisplayType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -253,8 +260,7 @@ static constexpr int32_t  kMaxNumberOfDigits{9};
 /// @brief Method Append000Number addr 0x20cd7b8 size 0x98 virtual false final false
 static void Append000Number(System::Text::StringBuilder stringBuilder, int32_t number) ;
 
-// Ctor Parameters []
-explicit ScoreUIController() ;
+static GlobalNamespace::ScoreUIController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20cd850 size 0x70 virtual false final false
  void _ctor() ;

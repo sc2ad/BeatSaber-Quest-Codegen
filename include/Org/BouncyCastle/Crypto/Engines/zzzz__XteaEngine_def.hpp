@@ -108,8 +108,7 @@ constexpr bool __get__forEncryption() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XteaEngine() ;
+static Org::BouncyCastle::Crypto::Engines::XteaEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe68c6c size 0x80 virtual false final false
  void _ctor() ;

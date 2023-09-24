@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Security/zzzz__MacUtilities_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Security::MacUtilities._ctor
 template<>
 
@@ -129,8 +129,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
  System::Collections::IDictionary Org::BouncyCastle::Security::MacUtilities::__get_algorithms()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "algorithms", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::MacUtilities>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Security::MacUtilities::MacUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MacUtilities>())) {}
+ Org::BouncyCastle::Security::MacUtilities Org::BouncyCastle::Security::MacUtilities::New_ctor()  {
+Org::BouncyCastle::Security::MacUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::MacUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Security::MacUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::MacUtilities>::get(),

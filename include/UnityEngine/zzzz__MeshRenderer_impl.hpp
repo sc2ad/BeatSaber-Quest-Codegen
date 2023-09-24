@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Mesh, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::MeshRenderer::MeshRenderer()  : UnityEngine::Renderer(THROW_UNLESS(::il2cpp_utils::New<MeshRenderer>())) {}
+ UnityEngine::MeshRenderer UnityEngine::MeshRenderer::New_ctor()  {
+UnityEngine::MeshRenderer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::MeshRenderer>())};
+return o;
+}
  void UnityEngine::MeshRenderer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::MeshRenderer>::get(),

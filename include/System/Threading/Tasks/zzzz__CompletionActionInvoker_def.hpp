@@ -1,17 +1,17 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Threading::Tasks {
-class ITaskCompletionAction;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Threading {
 class IThreadPoolWorkItem;
 }
 namespace System::Threading {
 class ThreadAbortException;
+}
+namespace System::Threading::Tasks {
+class ITaskCompletionAction;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -77,8 +77,7 @@ constexpr System::Threading::Tasks::Task __get_m_completingTask() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::Threading::Tasks::ITaskCompletionAction", modifiers: "", def_value: None }, CppParam { name: "completingTask", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }]
-explicit CompletionActionInvoker(System::Threading::Tasks::ITaskCompletionAction action, System::Threading::Tasks::Task completingTask) ;
+static System::Threading::Tasks::CompletionActionInvoker New_ctor(System::Threading::Tasks::ITaskCompletionAction action, System::Threading::Tasks::Task completingTask) ;
 
 /// @brief Method .ctor addr 0x24ba614 size 0x2c virtual false final false
  void _ctor(System::Threading::Tasks::ITaskCompletionAction action, System::Threading::Tasks::Task completingTask) ;

@@ -25,8 +25,10 @@ constexpr void Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::__set__P
 constexpr System::Type Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::__get__ProducerType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "producerType", ty: "System::Type", modifiers: "", def_value: None }]
- Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::JobProducerTypeAttribute(System::Type producerType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<JobProducerTypeAttribute>(producerType))) {}
+ Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::New_ctor(System::Type producerType)  {
+Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute>(producerType))};
+return o;
+}
  void Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::_ctor(System::Type producerType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute>::get(),

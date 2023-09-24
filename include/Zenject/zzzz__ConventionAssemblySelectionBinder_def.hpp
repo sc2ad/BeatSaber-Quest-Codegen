@@ -2,22 +2,28 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace System::Reflection {
+class Assembly;
+}
+namespace Zenject {
+class ConventionBindInfo;
+}
+namespace Zenject {
+class Zenject__ConventionAssemblySelectionBinder____c__DisplayClass12_0;
+}
 namespace System {
-class Type;
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace Zenject {
+class Zenject__ConventionAssemblySelectionBinder____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace Zenject {
-class ConventionBindInfo;
-}
-namespace System::Reflection {
-class Assembly;
-}
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+class Type;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -89,8 +95,7 @@ static System::Func_2<System::Type,System::Reflection::Assembly> __get___9__8_0(
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionAssemblySelectionBinder____c() ;
+static Zenject::Zenject__ConventionAssemblySelectionBinder____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4edb0 size 0x8 virtual false final false
  void _ctor() ;
@@ -159,8 +164,7 @@ constexpr System::Collections::Generic::IEnumerable_1<System::Reflection::Assemb
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionAssemblySelectionBinder____c__DisplayClass12_0() ;
+static Zenject::Zenject__ConventionAssemblySelectionBinder____c__DisplayClass12_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4ec84 size 0x8 virtual false final false
  void _ctor() ;
@@ -238,8 +242,7 @@ constexpr Zenject::ConventionBindInfo __get__BindInfo_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::ConventionBindInfo", modifiers: "", def_value: None }]
-explicit ConventionAssemblySelectionBinder(Zenject::ConventionBindInfo bindInfo) ;
+static Zenject::ConventionAssemblySelectionBinder New_ctor(Zenject::ConventionBindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d4e914 size 0x28 virtual false final false
  void _ctor(Zenject::ConventionBindInfo bindInfo) ;

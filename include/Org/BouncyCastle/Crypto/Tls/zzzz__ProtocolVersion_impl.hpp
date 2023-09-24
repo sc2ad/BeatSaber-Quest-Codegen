@@ -320,8 +320,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::ProtocolVersion::__set_name(::Str
 constexpr ::StringW Org::BouncyCastle::Crypto::Tls::ProtocolVersion::__get_name() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "v", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::ProtocolVersion::ProtocolVersion(int32_t v, ::StringW name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProtocolVersion>(v, name))) {}
+ Org::BouncyCastle::Crypto::Tls::ProtocolVersion Org::BouncyCastle::Crypto::Tls::ProtocolVersion::New_ctor(int32_t v, ::StringW name)  {
+Org::BouncyCastle::Crypto::Tls::ProtocolVersion o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ProtocolVersion>(v, name))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ProtocolVersion::_ctor(int32_t v, ::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ProtocolVersion>::get(),

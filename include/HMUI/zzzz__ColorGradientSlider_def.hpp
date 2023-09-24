@@ -4,33 +4,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
 namespace HMUI {
 class TextSlider;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
-namespace UnityEngine {
-struct Color;
+namespace HMUI {
+class ImageView;
+}
+namespace GlobalNamespace {
+struct ColorChangeUIEventType;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
 }
-namespace System::Text {
-class StringBuilder;
-}
-namespace GlobalNamespace {
-struct ColorChangeUIEventType;
-}
 namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
+class PointerEventData;
 }
-namespace HMUI {
-class ImageView;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace HMUI {
@@ -162,8 +162,7 @@ static System::Text::StringBuilder __get__stringBuilder() ;
 /// @brief Method OnPointerUp addr 0x1faf0fc size 0xa0 virtual true final false
  void OnPointerUp(UnityEngine::EventSystems::PointerEventData eventData) ;
 
-// Ctor Parameters []
-explicit ColorGradientSlider() ;
+static HMUI::ColorGradientSlider New_ctor() ;
 
 /// @brief Method .ctor addr 0x1faf19c size 0x4 virtual false final false
  void _ctor() ;

@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BakedReflectionProbe_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Cubemap_def.hpp"
 #include "GlobalNamespace/zzzz__ReflectionProbeDataSO_def.hpp"
+#include "UnityEngine/zzzz__Cubemap_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BakedReflectionProbe.get_reflectionProbeData
 template<>
 
@@ -269,8 +269,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BakedReflectionProbe::BakedReflectionProbe()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BakedReflectionProbe>())) {}
+ GlobalNamespace::BakedReflectionProbe GlobalNamespace::BakedReflectionProbe::New_ctor()  {
+GlobalNamespace::BakedReflectionProbe o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BakedReflectionProbe>())};
+return o;
+}
  void GlobalNamespace::BakedReflectionProbe::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BakedReflectionProbe>::get(),

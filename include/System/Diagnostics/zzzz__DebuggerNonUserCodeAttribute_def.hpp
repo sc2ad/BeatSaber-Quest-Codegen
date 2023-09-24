@@ -47,8 +47,7 @@ constexpr explicit DebuggerNonUserCodeAttribute(void* ptr) noexcept : System::At
 
 // Methods
 
-// Ctor Parameters []
-explicit DebuggerNonUserCodeAttribute() ;
+static System::Diagnostics::DebuggerNonUserCodeAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x240bf48 size 0x8 virtual false final false
  void _ctor() ;

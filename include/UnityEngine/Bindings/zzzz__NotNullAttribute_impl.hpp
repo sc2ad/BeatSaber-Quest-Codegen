@@ -50,8 +50,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "exception", ty: "::StringW", modifiers: "", def_value: Some("u\"ArgumentNullException\"") }]
- UnityEngine::Bindings::NotNullAttribute::NotNullAttribute(::StringW exception)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NotNullAttribute>(exception))) {}
+/// @param exception: ::StringW (default: u"ArgumentNullException")
+ UnityEngine::Bindings::NotNullAttribute UnityEngine::Bindings::NotNullAttribute::New_ctor(::StringW exception)  {
+UnityEngine::Bindings::NotNullAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NotNullAttribute>(exception))};
+return o;
+}
 /// @param exception: ::StringW (default: u"ArgumentNullException")
  void UnityEngine::Bindings::NotNullAttribute::_ctor(::StringW exception)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

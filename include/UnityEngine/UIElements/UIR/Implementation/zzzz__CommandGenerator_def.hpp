@@ -4,15 +4,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace Unity::Collections {
-template<typename T>
-struct NativeSlice_1;
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualElement__RenderTargetMode;
 }
 namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
-}
-namespace UnityEngine {
-struct Matrix4x4;
+class RenderChain;
 }
 namespace UnityEngine::UIElements::UIR {
 struct ChainBuilderStats;
@@ -20,41 +22,39 @@ struct ChainBuilderStats;
 namespace UnityEngine {
 struct Color32;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChain;
-}
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__VisualElement__RenderTargetMode;
-}
-namespace UnityEngine {
-class Shader;
+struct Matrix4x4;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements::UIR {
-class UIRenderDevice;
+class RenderChainCommand;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeSlice_1;
+}
+namespace UnityEngine {
+class Shader;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
 }
-namespace UnityEngine::UIElements {
-struct TextureId;
+namespace UnityEngine {
+class Texture;
 }
 namespace UnityEngine::UIElements::UIR {
 class MeshHandle;
 }
+namespace UnityEngine::UIElements::UIR {
+class UIRenderDevice;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace UnityEngine::UIElements::UIR::Implementation {
 struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo;
-}
-namespace UnityEngine {
-class Material;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR::Implementation {

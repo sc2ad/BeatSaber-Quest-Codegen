@@ -3,14 +3,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace HMUI {
-class ToggleWithCallbacks;
-}
 namespace UnityEngine {
 class AnimationClip;
 }
 namespace HMUI {
 struct HMUI__ToggleWithCallbacks__SelectionState;
+}
+namespace HMUI {
+class ToggleWithCallbacks;
+}
+namespace HMUI {
+struct HMUI__SwitchView__AnimationType;
 }
 // Forward declare root types
 namespace HMUI {
@@ -68,6 +71,8 @@ __SelectedState = 1,
 constexpr operator __HMUI__SwitchView__AnimationType_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__SwitchView__AnimationType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -213,8 +218,7 @@ constexpr HMUI::ToggleWithCallbacks __get__toggle() const;
 /// @brief Method RefreshVisuals addr 0x1fd3410 size 0x124 virtual false final false
  void RefreshVisuals() ;
 
-// Ctor Parameters []
-explicit SwitchView() ;
+static HMUI::SwitchView New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd3750 size 0x8 virtual false final false
  void _ctor() ;

@@ -115,8 +115,10 @@ constexpr void JetBrains::Annotations::RazorPageBaseTypeAttribute::__set__PageNa
 constexpr ::StringW JetBrains::Annotations::RazorPageBaseTypeAttribute::__get__PageName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "baseType", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::RazorPageBaseTypeAttribute::RazorPageBaseTypeAttribute(::StringW baseType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RazorPageBaseTypeAttribute>(baseType))) {}
+ JetBrains::Annotations::RazorPageBaseTypeAttribute JetBrains::Annotations::RazorPageBaseTypeAttribute::New_ctor(::StringW baseType)  {
+JetBrains::Annotations::RazorPageBaseTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::RazorPageBaseTypeAttribute>(baseType))};
+return o;
+}
  void JetBrains::Annotations::RazorPageBaseTypeAttribute::_ctor(::StringW baseType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::RazorPageBaseTypeAttribute>::get(),
@@ -126,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, baseType);
 }
-// Ctor Parameters [CppParam { name: "baseType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "pageName", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::RazorPageBaseTypeAttribute::RazorPageBaseTypeAttribute(::StringW baseType, ::StringW pageName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RazorPageBaseTypeAttribute>(baseType, pageName))) {}
+ JetBrains::Annotations::RazorPageBaseTypeAttribute JetBrains::Annotations::RazorPageBaseTypeAttribute::New_ctor(::StringW baseType, ::StringW pageName)  {
+JetBrains::Annotations::RazorPageBaseTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::RazorPageBaseTypeAttribute>(baseType, pageName))};
+return o;
+}
  void JetBrains::Annotations::RazorPageBaseTypeAttribute::_ctor(::StringW baseType, ::StringW pageName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::RazorPageBaseTypeAttribute>::get(),

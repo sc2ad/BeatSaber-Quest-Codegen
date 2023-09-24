@@ -5,22 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Reflection {
-struct FieldAttributes;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
 struct BindingFlags;
 }
-namespace System {
-struct RuntimeFieldHandle;
+namespace System::Reflection {
+struct FieldAttributes;
 }
 namespace System::Reflection {
 class Binder;
 }
+namespace System {
+class Type;
+}
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System {
+struct RuntimeFieldHandle;
 }
 // Forward declare root types
 namespace System::Reflection::Emit {

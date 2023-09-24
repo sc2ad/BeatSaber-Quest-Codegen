@@ -5,10 +5,34 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRSkeleton__SkeletonPoseData;
+struct GlobalNamespace__OVRSkeleton__SkeletonType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRHand__Hand;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRHand__HandFinger;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRMeshRenderer__MeshRendererData;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__OVRMesh__IOVRMeshDataProvider;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRHand__TrackingConfidence;
 }
 namespace UnityEngine {
 class Transform;
@@ -17,31 +41,16 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRSkeleton__SkeletonType;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__OVRMesh__MeshType;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__HandState;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Step;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRMeshRenderer__MeshRendererData;
+struct GlobalNamespace__OVRSkeleton__SkeletonPoseData;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider;
+struct GlobalNamespace__OVRPlugin__HandState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -106,6 +115,8 @@ __HandRight = 1,
 constexpr operator __GlobalNamespace__OVRHand__Hand_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRHand__Hand_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -182,6 +193,8 @@ __Max = 5,
 constexpr operator __GlobalNamespace__OVRHand__HandFinger_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRHand__HandFinger_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -263,6 +276,8 @@ __High = 1065353216,
 constexpr operator __GlobalNamespace__OVRHand__TrackingConfidence_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRHand__TrackingConfidence_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -535,8 +550,7 @@ constexpr bool __get__IsDominantHand_k__BackingField() const;
 /// @brief Method OVRMeshRenderer.IOVRMeshRendererDataProvider.GetMeshRendererData addr 0x2623af8 size 0x50 virtual true final true
  GlobalNamespace::GlobalNamespace__OVRMeshRenderer__MeshRendererData OVRMeshRenderer_IOVRMeshRendererDataProvider_GetMeshRendererData() ;
 
-// Ctor Parameters []
-explicit OVRHand() ;
+static GlobalNamespace::OVRHand New_ctor() ;
 
 /// @brief Method .ctor addr 0x2623b48 size 0x10 virtual false final false
  void _ctor() ;

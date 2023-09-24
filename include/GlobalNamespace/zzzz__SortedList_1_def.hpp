@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14960)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14961), inst: 4828 }), TypeDefinitionIndex(TypeDefinitionIndex(14961))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14961), inst: 4828 }), TypeDefinitionIndex(TypeDefinitionIndex(14960)), TypeDefinitionIndex(TypeDefinitionIndex(14961))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14960), inst: 2 })
 // CS Name: SortedList`1
 class CORDL_TYPE SortedList_1<TBase> : public GlobalNamespace::SortedList_2<TBase,TBase> {
@@ -59,14 +59,12 @@ constexpr explicit SortedList_1(void* ptr) noexcept : GlobalNamespace::SortedLis
 
 // Methods
 
-// Ctor Parameters []
-explicit SortedList_1() ;
+static GlobalNamespace::SortedList_1<TBase> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "sortedListDataProcessor", ty: "GlobalNamespace::ISortedListItemProcessor_1<TBase>", modifiers: "", def_value: None }]
-explicit SortedList_1(GlobalNamespace::ISortedListItemProcessor_1<TBase> sortedListDataProcessor) ;
+static GlobalNamespace::SortedList_1<TBase> New_ctor(GlobalNamespace::ISortedListItemProcessor_1<TBase> sortedListDataProcessor) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(GlobalNamespace::ISortedListItemProcessor_1<TBase> sortedListDataProcessor) ;

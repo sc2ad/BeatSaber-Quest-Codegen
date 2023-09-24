@@ -8,6 +8,18 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride;
@@ -81,8 +93,7 @@ constexpr ::StringW __get_packName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName() ;
+static GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f1ff8 size 0x8 virtual false final false
  void _ctor() ;
@@ -160,8 +171,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get_packIds() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack() ;
+static GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f2000 size 0x80 virtual false final false
  void _ctor() ;
@@ -227,8 +237,7 @@ constexpr ::StringW __get_packId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack() ;
+static GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f2080 size 0x8 virtual false final false
  void _ctor() ;
@@ -300,8 +309,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride() ;
+static GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f1f38 size 0xc0 virtual false final false
  void _ctor() ;
@@ -371,8 +379,7 @@ constexpr GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPac
 /// @brief Method get_hasOverride addr 0x21f1ea8 size 0x88 virtual false final false
  bool get_hasOverride() ;
 
-// Ctor Parameters []
-explicit QuickPlaySetupData() ;
+static GlobalNamespace::QuickPlaySetupData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f1f30 size 0x8 virtual false final false
  void _ctor() ;

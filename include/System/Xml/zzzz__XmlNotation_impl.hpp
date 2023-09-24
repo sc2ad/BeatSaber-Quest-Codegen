@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__XmlNode_impl.hpp"
 #include "System/Xml/zzzz__XmlNotation_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 //  Writing Method size for method: System::Xml::XmlNotation._ctor
 template<>
 
@@ -141,8 +141,10 @@ constexpr void System::Xml::XmlNotation::__set_name(::StringW value)  {
 constexpr ::StringW System::Xml::XmlNotation::__get_name() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlNotation::XmlNotation(::StringW name, ::StringW publicId, ::StringW systemId, System::Xml::XmlDocument doc)  : System::Xml::XmlNode(THROW_UNLESS(::il2cpp_utils::New<XmlNotation>(name, publicId, systemId, doc))) {}
+ System::Xml::XmlNotation System::Xml::XmlNotation::New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, System::Xml::XmlDocument doc)  {
+System::Xml::XmlNotation o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlNotation>(name, publicId, systemId, doc))};
+return o;
+}
  void System::Xml::XmlNotation::_ctor(::StringW name, ::StringW publicId, ::StringW systemId, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlNotation>::get(),

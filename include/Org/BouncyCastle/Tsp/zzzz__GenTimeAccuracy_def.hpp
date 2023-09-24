@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::Tsp {
-class Accuracy;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1::Tsp {
+class Accuracy;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -73,8 +73,7 @@ constexpr Org::BouncyCastle::Asn1::Tsp::Accuracy __get_accuracy() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "accuracy", ty: "Org::BouncyCastle::Asn1::Tsp::Accuracy", modifiers: "", def_value: None }]
-explicit GenTimeAccuracy(Org::BouncyCastle::Asn1::Tsp::Accuracy accuracy) ;
+static Org::BouncyCastle::Tsp::GenTimeAccuracy New_ctor(Org::BouncyCastle::Asn1::Tsp::Accuracy accuracy) ;
 
 /// @brief Method .ctor addr 0x10c2db0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Tsp::Accuracy accuracy) ;

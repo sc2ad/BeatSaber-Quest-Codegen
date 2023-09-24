@@ -5,13 +5,13 @@ namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyCollection_1;
 }
-namespace GlobalNamespace {
-template<typename T>
-class ISortedListItemProcessor_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
+}
+namespace GlobalNamespace {
+template<typename T>
+class ISortedListItemProcessor_1;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroup;
@@ -95,8 +95,7 @@ constexpr System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventD
 /// @brief Method ClearDirtyData addr 0x21dc3a0 size 0x50 virtual false final false
  void ClearDirtyData() ;
 
-// Ctor Parameters []
-explicit BeatmapEventDataBoxGroupProcessor() ;
+static GlobalNamespace::BeatmapEventDataBoxGroupProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x21dbf60 size 0x7c virtual false final false
  void _ctor() ;

@@ -155,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isEnabled);
 }
-// Ctor Parameters []
- GlobalNamespace::DisableWhenMirrorIsEnabled::DisableWhenMirrorIsEnabled()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DisableWhenMirrorIsEnabled>())) {}
+ GlobalNamespace::DisableWhenMirrorIsEnabled GlobalNamespace::DisableWhenMirrorIsEnabled::New_ctor()  {
+GlobalNamespace::DisableWhenMirrorIsEnabled o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DisableWhenMirrorIsEnabled>())};
+return o;
+}
  void GlobalNamespace::DisableWhenMirrorIsEnabled::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DisableWhenMirrorIsEnabled>::get(),

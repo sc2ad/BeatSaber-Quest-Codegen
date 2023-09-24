@@ -11,7 +11,7 @@ class ByteEqualityComparer;
 // Type: System.Collections.Generic::ByteEqualityComparer
 namespace System::Collections::Generic {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 717 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 717 }), TypeDefinitionIndex(TypeDefinitionIndex(3854))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3858))
 // CS Name: System.Collections.Generic.ByteEqualityComparer
 class CORDL_TYPE ByteEqualityComparer : public System::Collections::Generic::EqualityComparer_1<uint8_t> {
@@ -68,8 +68,7 @@ constexpr explicit ByteEqualityComparer(void* ptr) noexcept : System::Collection
 /// @brief Method GetHashCode addr 0x241e2c0 size 0x34 virtual true final false
  int32_t GetHashCode() ;
 
-// Ctor Parameters []
-explicit ByteEqualityComparer() ;
+static System::Collections::Generic::ByteEqualityComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x241e2f4 size 0x48 virtual false final false
  void _ctor() ;

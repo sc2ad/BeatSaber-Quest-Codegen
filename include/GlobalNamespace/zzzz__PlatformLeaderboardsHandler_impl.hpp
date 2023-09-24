@@ -1,10 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlatformLeaderboardsHandler.GetScores
 template<>
@@ -75,8 +73,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::HMAsyncRequest, false>(const_cast<void*>(instance), ___internal_method, scoreData, completionHandler);
 }
-// Ctor Parameters []
- GlobalNamespace::PlatformLeaderboardsHandler::PlatformLeaderboardsHandler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlatformLeaderboardsHandler>())) {}
+ GlobalNamespace::PlatformLeaderboardsHandler GlobalNamespace::PlatformLeaderboardsHandler::New_ctor()  {
+GlobalNamespace::PlatformLeaderboardsHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlatformLeaderboardsHandler>())};
+return o;
+}
  void GlobalNamespace::PlatformLeaderboardsHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlatformLeaderboardsHandler>::get(),

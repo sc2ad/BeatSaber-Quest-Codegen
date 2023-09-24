@@ -3,14 +3,14 @@
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-struct EaseType;
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace UnityEngine::Playables {
-struct FrameData;
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace GlobalNamespace {
 class AvatarVisualController;
@@ -106,8 +106,7 @@ constexpr float_t __get__duration() const;
 /// @brief Method OnPlayableDestroy addr 0x21b19b4 size 0x8c virtual true final false
  void OnPlayableDestroy(UnityEngine::Playables::Playable playable) ;
 
-// Ctor Parameters []
-explicit AvatarColorBehaviour() ;
+static GlobalNamespace::AvatarColorBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1a40 size 0x20 virtual false final false
  void _ctor() ;

@@ -1,19 +1,18 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMappingLimb_def.hpp"
-#include "RootMotion/zzzz__BipedLimbOrientations_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedChain_def.hpp"
-#include "RootMotion/zzzz__BipedReferences_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMappingSpine_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMappingBone_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKConstraintBend_def.hpp"
-#include "RootMotion/zzzz__BipedLimbOrientations_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/zzzz__BipedReferences_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FBIKChain_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMappingLimb_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
+#include "RootMotion/zzzz__BipedLimbOrientations_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMappingBone_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMappingSpine_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedChain_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::IKSolverFullBodyBiped.get_bodyEffector
 template<>
 
@@ -1239,8 +1238,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKSolverFullBodyBiped::IKSolverFullBodyBiped()  : RootMotion::FinalIK::IKSolverFullBody(THROW_UNLESS(::il2cpp_utils::New<IKSolverFullBodyBiped>())) {}
+ RootMotion::FinalIK::IKSolverFullBodyBiped RootMotion::FinalIK::IKSolverFullBodyBiped::New_ctor()  {
+RootMotion::FinalIK::IKSolverFullBodyBiped o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolverFullBodyBiped>())};
+return o;
+}
  void RootMotion::FinalIK::IKSolverFullBodyBiped::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolverFullBodyBiped>::get(),

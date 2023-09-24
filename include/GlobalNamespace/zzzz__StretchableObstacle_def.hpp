@@ -5,25 +5,25 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class ParametricBoxFrameController;
-}
-namespace GlobalNamespace {
-class ParametricBoxFakeGlowController;
+class Transform;
 }
 namespace UnityEngine {
 struct Bounds;
 }
 namespace GlobalNamespace {
+class ParametricBoxFakeGlowController;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace GlobalNamespace {
+class ParametricBoxFrameController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -166,8 +166,7 @@ constexpr UnityEngine::Bounds __get__bounds() const;
 /// @brief Method OnValidate addr 0x2247020 size 0x6c virtual false final false
  void OnValidate() ;
 
-// Ctor Parameters []
-explicit StretchableObstacle() ;
+static GlobalNamespace::StretchableObstacle New_ctor() ;
 
 /// @brief Method .ctor addr 0x224708c size 0x34 virtual false final false
  void _ctor() ;

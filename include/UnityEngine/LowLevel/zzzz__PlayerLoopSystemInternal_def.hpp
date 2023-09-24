@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::LowLevel {
-class UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::LowLevel {
+class UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction;
 }
 // Forward declare root types
 namespace UnityEngine::LowLevel {

@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class Texture2D;
+struct UnityEngine__Texture2D__EXRFlags;
 }
 namespace UnityEngine {
-struct UnityEngine__Texture2D__EXRFlags;
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine {

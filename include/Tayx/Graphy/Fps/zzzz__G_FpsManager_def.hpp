@@ -1,39 +1,39 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace UnityEngine::UI {
-class Image;
-}
-namespace Tayx::Graphy::Fps {
-class G_FpsMonitor;
-}
 namespace UnityEngine {
 class RectTransform;
 }
-namespace Tayx::Graphy {
-struct Tayx__Graphy__GraphyManager__ModuleState;
-}
-namespace Tayx::Graphy {
-struct Tayx__Graphy__GraphyManager__ModulePosition;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Tayx::Graphy::Fps {
-class G_FpsText;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__ModuleState;
+}
+namespace Tayx::Graphy::Fps {
+class G_FpsText;
 }
 namespace Tayx::Graphy::UI {
 class IMovable;
 }
+namespace UnityEngine {
+class GameObject;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__ModulePosition;
+}
 namespace Tayx::Graphy::Fps {
 class G_FpsGraph;
+}
+namespace Tayx::Graphy::Fps {
+class G_FpsMonitor;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Tayx::Graphy::UI {
 class IModifiableState;
@@ -186,8 +186,7 @@ constexpr Tayx::Graphy::Tayx__Graphy__GraphyManager__ModuleState __get_m_current
 /// @brief Method SetGraphActive addr 0x2875c2c size 0x44 virtual false final false
  void SetGraphActive(bool active) ;
 
-// Ctor Parameters []
-explicit G_FpsManager() ;
+static Tayx::Graphy::Fps::G_FpsManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2875cd0 size 0xe4 virtual false final false
  void _ctor() ;

@@ -1,10 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback._ctor
@@ -63,8 +64,10 @@ constexpr void Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint
 constexpr bool Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback::__get_m_checkOrder() const {
 return ::cordl_internals::getInstanceField<bool, 0x19>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "decompressed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "checkOrder", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback(Org::BouncyCastle::Math::EC::ECPoint outer, bool decompressed, bool checkOrder)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback>(outer, decompressed, checkOrder))) {}
+ Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback::New_ctor(Org::BouncyCastle::Math::EC::ECPoint outer, bool decompressed, bool checkOrder)  {
+Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback>(outer, decompressed, checkOrder))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback::_ctor(Org::BouncyCastle::Math::EC::ECPoint outer, bool decompressed, bool checkOrder)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback>::get(),
@@ -939,8 +942,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement>, false>(nullptr, ___internal_method, curve);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "y", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "withCompression", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::ECPoint::ECPoint(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, bool withCompression)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECPoint>(curve, x, y, withCompression))) {}
+ Org::BouncyCastle::Math::EC::ECPoint Org::BouncyCastle::Math::EC::ECPoint::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, bool withCompression)  {
+Org::BouncyCastle::Math::EC::ECPoint o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::ECPoint>(curve, x, y, withCompression))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::ECPoint::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, bool withCompression)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::ECPoint>::get(),
@@ -950,8 +955,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, curve, x, y, withCompression);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "y", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "zs", ty: "::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement>", modifiers: "", def_value: None }, CppParam { name: "withCompression", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::ECPoint::ECPoint(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement> zs, bool withCompression)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECPoint>(curve, x, y, zs, withCompression))) {}
+ Org::BouncyCastle::Math::EC::ECPoint Org::BouncyCastle::Math::EC::ECPoint::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement> zs, bool withCompression)  {
+Org::BouncyCastle::Math::EC::ECPoint o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::ECPoint>(curve, x, y, zs, withCompression))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::ECPoint::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement> zs, bool withCompression)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::ECPoint>::get(),

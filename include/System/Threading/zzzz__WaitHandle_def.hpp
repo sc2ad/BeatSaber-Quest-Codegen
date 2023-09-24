@@ -3,17 +3,17 @@
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System {
+class IDisposable;
+}
 namespace Microsoft::Win32::SafeHandles {
 class SafeWaitHandle;
-}
-namespace System::Runtime::InteropServices {
-class SafeHandle;
 }
 namespace System {
 struct TimeSpan;
 }
-namespace System {
-class IDisposable;
+namespace System::Runtime::InteropServices {
+class SafeHandle;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -122,8 +122,7 @@ static constexpr int32_t  MaxWaitHandles{64};
 
 // Methods
 
-// Ctor Parameters []
-explicit WaitHandle() ;
+static System::Threading::WaitHandle New_ctor() ;
 
 /// @brief Method .ctor addr 0x24af844 size 0x1c virtual false final false
  void _ctor() ;

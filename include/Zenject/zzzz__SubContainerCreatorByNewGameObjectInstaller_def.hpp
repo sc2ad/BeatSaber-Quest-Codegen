@@ -9,18 +9,21 @@ class GameObjectContext;
 namespace System {
 class Type;
 }
-namespace Zenject {
-class GameObjectCreationParameters;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0;
+}
+namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-struct TypeValuePair;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -89,8 +92,7 @@ constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> __get_arg
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0() ;
+static Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d925c0 size 0x8 virtual false final false
  void _ctor() ;
@@ -167,8 +169,7 @@ constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> __get__ex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "installerType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArgs", ty: "System::Collections::Generic::List_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewGameObjectInstaller(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type installerType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArgs) ;
+static Zenject::SubContainerCreatorByNewGameObjectInstaller New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type installerType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArgs) ;
 
 /// @brief Method .ctor addr 0x2d923fc size 0xd0 virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type installerType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArgs) ;

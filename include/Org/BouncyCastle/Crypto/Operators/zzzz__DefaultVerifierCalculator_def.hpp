@@ -7,11 +7,11 @@ class Stream;
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
 namespace Org::BouncyCastle::Crypto::IO {
 class SignerSink;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -76,8 +76,7 @@ constexpr Org::BouncyCastle::Crypto::IO::SignerSink __get_mSignerSink() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
-explicit DefaultVerifierCalculator(Org::BouncyCastle::Crypto::ISigner signer) ;
+static Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator New_ctor(Org::BouncyCastle::Crypto::ISigner signer) ;
 
 /// @brief Method .ctor addr 0xe9fea0 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ISigner signer) ;

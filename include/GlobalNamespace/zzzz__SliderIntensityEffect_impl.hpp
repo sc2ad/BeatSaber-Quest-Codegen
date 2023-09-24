@@ -7,11 +7,12 @@
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__SliderIntensityEffect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData._ctor
 template<>
 
@@ -41,8 +42,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData
 constexpr float_t GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData::__get_hapticFeedback() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "arcVisibilityType", ty: "GlobalNamespace::ArcVisibilityType", modifiers: "", def_value: None }, CppParam { name: "hapticFeedbackEnabled", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData::GlobalNamespace__SliderIntensityEffect__InitData(GlobalNamespace::ArcVisibilityType arcVisibilityType, bool hapticFeedbackEnabled)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SliderIntensityEffect__InitData>(arcVisibilityType, hapticFeedbackEnabled))) {}
+ GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData::New_ctor(GlobalNamespace::ArcVisibilityType arcVisibilityType, bool hapticFeedbackEnabled)  {
+GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData>(arcVisibilityType, hapticFeedbackEnabled))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData::_ctor(GlobalNamespace::ArcVisibilityType arcVisibilityType, bool hapticFeedbackEnabled)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData>::get(),
@@ -99,8 +102,11 @@ constexpr void GlobalNamespace::GlobalNamespace__SliderIntensityEffect__FadeElem
 constexpr System::Action GlobalNamespace::GlobalNamespace__SliderIntensityEffect__FadeElement::__get_startCallback() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "startIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "endIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startCallback", ty: "System::Action", modifiers: "", def_value: Some("csnull") }]
- GlobalNamespace::GlobalNamespace__SliderIntensityEffect__FadeElement::GlobalNamespace__SliderIntensityEffect__FadeElement(GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, System::Action startCallback)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SliderIntensityEffect__FadeElement>(easeType, startIntensity, endIntensity, startCallback))) {}
+/// @param startCallback: System::Action (default: csnull)
+ GlobalNamespace::GlobalNamespace__SliderIntensityEffect__FadeElement GlobalNamespace::GlobalNamespace__SliderIntensityEffect__FadeElement::New_ctor(GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, System::Action startCallback)  {
+GlobalNamespace::GlobalNamespace__SliderIntensityEffect__FadeElement o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SliderIntensityEffect__FadeElement>(easeType, startIntensity, endIntensity, startCallback))};
+return o;
+}
 /// @param startCallback: System::Action (default: csnull)
  void GlobalNamespace::GlobalNamespace__SliderIntensityEffect__FadeElement::_ctor(GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, System::Action startCallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,8 +185,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (Gl
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate::GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate GlobalNamespace::GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate>::get(),
@@ -390,8 +398,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SliderIntensityEffect___Process
 constexpr float_t GlobalNamespace::GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32::__get__startTime_5__4() const {
 return ::cordl_internals::getInstanceField<float_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32::GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32 GlobalNamespace::GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32>::get(),
@@ -912,8 +922,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SliderIntensityEffect::SliderIntensityEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SliderIntensityEffect>())) {}
+ GlobalNamespace::SliderIntensityEffect GlobalNamespace::SliderIntensityEffect::New_ctor()  {
+GlobalNamespace::SliderIntensityEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SliderIntensityEffect>())};
+return o;
+}
  void GlobalNamespace::SliderIntensityEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SliderIntensityEffect>::get(),

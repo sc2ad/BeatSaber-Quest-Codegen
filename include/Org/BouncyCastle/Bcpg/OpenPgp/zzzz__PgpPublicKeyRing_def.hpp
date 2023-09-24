@@ -6,20 +6,20 @@
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace Org::BouncyCastle::Bcpg {
 class PublicKeyPacket;
+}
+namespace System::Collections {
+class IList;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -76,20 +76,17 @@ constexpr System::Collections::IList __get_keys() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PgpPublicKeyRing(::ArrayW<uint8_t> encoding) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing New_ctor(::ArrayW<uint8_t> encoding) ;
 
 /// @brief Method .ctor addr 0x102dd40 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoding) ;
 
-// Ctor Parameters [CppParam { name: "pubKeys", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit PgpPublicKeyRing(System::Collections::IList pubKeys) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing New_ctor(System::Collections::IList pubKeys) ;
 
 /// @brief Method .ctor addr 0x102e070 size 0x28 virtual false final false
  void _ctor(System::Collections::IList pubKeys) ;
 
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit PgpPublicKeyRing(System::IO::Stream inputStream) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing New_ctor(System::IO::Stream inputStream) ;
 
 /// @brief Method .ctor addr 0x102ddb8 size 0x2b8 virtual false final false
  void _ctor(System::IO::Stream inputStream) ;

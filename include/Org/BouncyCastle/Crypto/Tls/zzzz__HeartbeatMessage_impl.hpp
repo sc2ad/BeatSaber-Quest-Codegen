@@ -2,6 +2,7 @@
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__HeartbeatMessage_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__HeartbeatMessage_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer.ToTruncatedByteArray
 template<>
@@ -46,8 +47,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method, payloadLength);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer::Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer()  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer>())) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer>::get(),
@@ -126,8 +129,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::HeartbeatMessage::__set_mPaddingL
 constexpr int32_t Org::BouncyCastle::Crypto::Tls::HeartbeatMessage::__get_mPaddingLength() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "payload", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "paddingLength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::HeartbeatMessage::HeartbeatMessage(uint8_t type, ::ArrayW<uint8_t> payload, int32_t paddingLength)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HeartbeatMessage>(type, payload, paddingLength))) {}
+ Org::BouncyCastle::Crypto::Tls::HeartbeatMessage Org::BouncyCastle::Crypto::Tls::HeartbeatMessage::New_ctor(uint8_t type, ::ArrayW<uint8_t> payload, int32_t paddingLength)  {
+Org::BouncyCastle::Crypto::Tls::HeartbeatMessage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::HeartbeatMessage>(type, payload, paddingLength))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::HeartbeatMessage::_ctor(uint8_t type, ::ArrayW<uint8_t> payload, int32_t paddingLength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::HeartbeatMessage>::get(),

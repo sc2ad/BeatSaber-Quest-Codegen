@@ -95,8 +95,10 @@ constexpr void Org::BouncyCastle::Asn1::Crmf::CertReqMessages::__set_content(Org
 constexpr Org::BouncyCastle::Asn1::Asn1Sequence Org::BouncyCastle::Asn1::Crmf::CertReqMessages::__get_content() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Sequence, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::CertReqMessages::CertReqMessages(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertReqMessages>(seq))) {}
+ Org::BouncyCastle::Asn1::Crmf::CertReqMessages Org::BouncyCastle::Asn1::Crmf::CertReqMessages::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Crmf::CertReqMessages o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::CertReqMessages>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::CertReqMessages::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::CertReqMessages>::get(),
@@ -115,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Crmf::CertReqMessages, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "msgs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Crmf::CertReqMsg>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::CertReqMessages::CertReqMessages(::ArrayW<Org::BouncyCastle::Asn1::Crmf::CertReqMsg> msgs)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertReqMessages>(msgs))) {}
+ Org::BouncyCastle::Asn1::Crmf::CertReqMessages Org::BouncyCastle::Asn1::Crmf::CertReqMessages::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Crmf::CertReqMsg> msgs)  {
+Org::BouncyCastle::Asn1::Crmf::CertReqMessages o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::CertReqMessages>(msgs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::CertReqMessages::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Crmf::CertReqMsg> msgs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::CertReqMessages>::get(),

@@ -10,7 +10,7 @@ class ChallengeEntryList;
 // Type: Oculus.Platform.Models::ChallengeEntryList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13403)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1134 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1134 }), TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13403))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13404))
 // CS Name: Oculus.Platform.Models.ChallengeEntryList
 class CORDL_TYPE ChallengeEntryList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::ChallengeEntry> {
@@ -58,8 +58,7 @@ constexpr uint64_t __get_TotalCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ChallengeEntryList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::ChallengeEntryList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259e0d4 size 0x27c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

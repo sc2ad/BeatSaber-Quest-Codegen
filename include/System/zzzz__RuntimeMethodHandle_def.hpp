@@ -5,19 +5,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Reflection {
 class RuntimeMethodInfo;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System {
 struct TypeNameFormatFlags;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 // Forward declare root types
 namespace System {

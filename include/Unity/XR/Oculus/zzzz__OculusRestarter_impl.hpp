@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusRestarter_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "Unity/XR/Oculus/zzzz__OculusRestarter_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22._ctor
 template<>
 
@@ -161,8 +162,10 @@ constexpr void Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndR
 constexpr Unity::XR::Oculus::OculusRestarter Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Unity::XR::Oculus::OculusRestarter, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22>(__1__state))) {}
+ Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22 Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22::New_ctor(int32_t __1__state)  {
+Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22 o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22>(__1__state))};
+return o;
+}
  void Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22>::get(),
@@ -381,8 +384,10 @@ constexpr void Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCo
 constexpr bool Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23::__get_shouldRestart() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23>(__1__state))) {}
+ Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23 Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23::New_ctor(int32_t __1__state)  {
+Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23 o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23>(__1__state))};
+return o;
+}
  void Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23>::get(),
@@ -757,8 +762,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, shouldRestart);
 }
-// Ctor Parameters []
- Unity::XR::Oculus::OculusRestarter::OculusRestarter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OculusRestarter>())) {}
+ Unity::XR::Oculus::OculusRestarter Unity::XR::Oculus::OculusRestarter::New_ctor()  {
+Unity::XR::Oculus::OculusRestarter o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::OculusRestarter>())};
+return o;
+}
  void Unity::XR::Oculus::OculusRestarter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::OculusRestarter>::get(),

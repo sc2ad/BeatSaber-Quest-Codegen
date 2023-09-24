@@ -5,41 +5,101 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
 }
 namespace UnityEngine::InputSystem {
-struct InputControlLayoutChange;
+struct UnityEngine__InputSystem__InputRemoting__RemoteInputDevice;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputRemoting__RemoveDeviceMsg;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputRemoting__ConnectMsg;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputRemoting__StartSendingMsg;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputRemoting__RemoteSender;
+}
+namespace UnityEngine::InputSystem {
+class InputManager;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputRemoting__Subscriber;
 }
 namespace System {
 class Exception;
 }
 namespace System {
 template<typename T>
-class IObserver_1;
+class IObservable_1;
 }
 namespace UnityEngine::InputSystem {
-class InputManager;
+struct InputDeviceChange;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputRemoting__NewEventsMsg;
 }
 namespace System {
 template<typename T>
-class IObservable_1;
+class IObserver_1;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputRemoting__MessageType;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputRemoting__Message;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputRemoting__Flags;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputRemoting__NewLayoutMsg;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlLayoutChange;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputRemoting__DisconnectMsg;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputRemoting__NewDeviceMsg;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputRemoting__StopSendingMsg;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg__Data;
+}
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputRemoting__NewDeviceMsg__Data;
+}
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputRemoting__NewLayoutMsg__Data;
 }
 namespace System {
 template<typename T>
@@ -169,6 +229,8 @@ __StopSending = 9,
 constexpr operator __UnityEngine__InputSystem__InputRemoting__MessageType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputRemoting__MessageType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -327,6 +389,8 @@ __StartSendingOnConnect = 2,
 constexpr operator __UnityEngine__InputSystem__InputRemoting__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputRemoting__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -540,8 +604,7 @@ constexpr System::IObserver_1<UnityEngine::InputSystem::UnityEngine__InputSystem
 /// @brief Method Dispose addr 0x2913688 size 0x58 virtual true final true
  void Dispose() ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputRemoting__Subscriber() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Subscriber New_ctor() ;
 
 /// @brief Method .ctor addr 0x2911e8c size 0x8 virtual false final false
  void _ctor() ;
@@ -999,8 +1062,7 @@ static System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::Stri
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c() ;
+static GlobalNamespace::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2913e88 size 0x8 virtual false final false
  void _ctor() ;
@@ -1242,8 +1304,7 @@ static System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::Stri
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c() ;
+static GlobalNamespace::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2914050 size 0x8 virtual false final false
  void _ctor() ;
@@ -1481,8 +1542,7 @@ constexpr ::ArrayW<UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemo
 /// @brief Method set_sending addr 0x2910bb8 size 0x1c virtual false final false
  void set_sending(bool value) ;
 
-// Ctor Parameters [CppParam { name: "manager", ty: "UnityEngine::InputSystem::InputManager", modifiers: "", def_value: None }, CppParam { name: "startSendingOnConnect", ty: "bool", modifiers: "", def_value: None }]
-explicit InputRemoting(UnityEngine::InputSystem::InputManager manager, bool startSendingOnConnect) ;
+static UnityEngine::InputSystem::InputRemoting New_ctor(UnityEngine::InputSystem::InputManager manager, bool startSendingOnConnect) ;
 
 /// @brief Method .ctor addr 0x2910bd4 size 0x8c virtual false final false
  void _ctor(UnityEngine::InputSystem::InputManager manager, bool startSendingOnConnect) ;

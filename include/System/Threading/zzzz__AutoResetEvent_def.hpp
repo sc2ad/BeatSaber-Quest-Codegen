@@ -47,8 +47,7 @@ constexpr explicit AutoResetEvent(void* ptr) noexcept : System::Threading::Event
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }]
-explicit AutoResetEvent(bool initialState) ;
+static System::Threading::AutoResetEvent New_ctor(bool initialState) ;
 
 /// @brief Method .ctor addr 0x24a2794 size 0x10 virtual false final false
  void _ctor(bool initialState) ;

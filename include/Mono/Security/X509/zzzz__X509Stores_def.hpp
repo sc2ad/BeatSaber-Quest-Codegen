@@ -77,8 +77,7 @@ constexpr Mono::Security::X509::X509Store __get__trusted() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "newFormat", ty: "bool", modifiers: "", def_value: None }]
-explicit X509Stores(::StringW path, bool newFormat) ;
+static Mono::Security::X509::X509Stores New_ctor(::StringW path, bool newFormat) ;
 
 /// @brief Method .ctor addr 0x2290a1c size 0x30 virtual false final false
  void _ctor(::StringW path, bool newFormat) ;

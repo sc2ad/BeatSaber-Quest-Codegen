@@ -3,6 +3,12 @@
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UI {
+class ILayoutSelfController;
+}
+namespace UnityEngine::UI {
+class ILayoutController;
+}
 namespace UnityEngine {
 class RectTransform;
 }
@@ -10,10 +16,7 @@ namespace UnityEngine {
 struct DrivenRectTransformTracker;
 }
 namespace UnityEngine::UI {
-class ILayoutController;
-}
-namespace UnityEngine::UI {
-class ILayoutSelfController;
+struct UnityEngine__UI__ContentSizeFitter__FitMode;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -72,6 +75,8 @@ __PreferredSize = 2,
 constexpr operator __UnityEngine__UI__ContentSizeFitter__FitMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__ContentSizeFitter__FitMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -196,8 +201,7 @@ constexpr UnityEngine::DrivenRectTransformTracker __get_m_Tracker() const;
 /// @brief Method get_rectTransform addr 0x2bfb6dc size 0x94 virtual false final false
  UnityEngine::RectTransform get_rectTransform() ;
 
-// Ctor Parameters []
-explicit ContentSizeFitter() ;
+static UnityEngine::UI::ContentSizeFitter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bfb770 size 0x8 virtual false final false
  void _ctor() ;

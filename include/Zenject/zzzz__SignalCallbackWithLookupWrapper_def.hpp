@@ -3,19 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace System {
-struct Guid;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class Type;
+}
+namespace System {
+class IDisposable;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
 class SignalBus;
-}
-namespace System {
-class IDisposable;
 }
 namespace Zenject {
 class SignalBindingBindInfo;
@@ -24,12 +25,11 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+struct Guid;
 }
 namespace System {
-template<typename T>
-class Action_1;
+template<typename T,typename TResult>
+class Func_2;
 }
 // Forward declare root types
 namespace Zenject {
@@ -125,8 +125,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__identifier() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "Zenject::SignalBindingBindInfo", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "lookupId", ty: "System::Guid", modifiers: "", def_value: None }, CppParam { name: "methodGetter", ty: "System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>>", modifiers: "", def_value: None }, CppParam { name: "signalBus", ty: "Zenject::SignalBus", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit SignalCallbackWithLookupWrapper(Zenject::SignalBindingBindInfo signalBindInfo, System::Type objectType, System::Guid lookupId, System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> methodGetter, Zenject::SignalBus signalBus, Zenject::DiContainer container) ;
+static Zenject::SignalCallbackWithLookupWrapper New_ctor(Zenject::SignalBindingBindInfo signalBindInfo, System::Type objectType, System::Guid lookupId, System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> methodGetter, Zenject::SignalBus signalBus, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x2d47bf0 size 0xf8 virtual false final false
  void _ctor(Zenject::SignalBindingBindInfo signalBindInfo, System::Type objectType, System::Guid lookupId, System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> methodGetter, Zenject::SignalBus signalBus, Zenject::DiContainer container) ;

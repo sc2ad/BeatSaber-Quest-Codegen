@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace HMUI {
-class TitleViewController;
+class Screen;
 }
 namespace HMUI {
-class Screen;
+class TitleViewController;
 }
 namespace System {
 class Action;
 }
-namespace HMUI {
-class ButtonBinder;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 // Forward declare root types
 namespace HMUI {
@@ -173,8 +173,7 @@ constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 /// @brief Method SetBackButton addr 0x1fb8fb4 size 0x30 virtual false final false
  void SetBackButton(bool visible, bool animated) ;
 
-// Ctor Parameters []
-explicit ScreenSystem() ;
+static HMUI::ScreenSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb8fe4 size 0x8 virtual false final false
  void _ctor() ;

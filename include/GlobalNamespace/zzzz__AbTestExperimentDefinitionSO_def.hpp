@@ -5,6 +5,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__AbTestExperimentDefinitionSO__Group;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__AbTestExperimentDefinitionSO__Group;
@@ -62,6 +65,8 @@ __Test2 = 2,
 constexpr operator __GlobalNamespace__AbTestExperimentDefinitionSO__Group_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__AbTestExperimentDefinitionSO__Group_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -203,8 +208,7 @@ constexpr GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group 
 /// @brief Method AbSplit addr 0x2190a18 size 0x288 virtual false final false
  GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group AbSplit(::StringW userId) ;
 
-// Ctor Parameters []
-explicit AbTestExperimentDefinitionSO() ;
+static GlobalNamespace::AbTestExperimentDefinitionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2190ca8 size 0x18 virtual false final false
  void _ctor() ;

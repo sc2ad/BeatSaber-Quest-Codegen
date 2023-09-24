@@ -58,8 +58,10 @@ constexpr void JetBrains::Annotations::ValueProviderAttribute::__set__Name_k__Ba
 constexpr ::StringW JetBrains::Annotations::ValueProviderAttribute::__get__Name_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::ValueProviderAttribute::ValueProviderAttribute(::StringW name)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ValueProviderAttribute>(name))) {}
+ JetBrains::Annotations::ValueProviderAttribute JetBrains::Annotations::ValueProviderAttribute::New_ctor(::StringW name)  {
+JetBrains::Annotations::ValueProviderAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::ValueProviderAttribute>(name))};
+return o;
+}
  void JetBrains::Annotations::ValueProviderAttribute::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::ValueProviderAttribute>::get(),

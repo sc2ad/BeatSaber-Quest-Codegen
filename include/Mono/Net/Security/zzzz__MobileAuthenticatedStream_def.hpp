@@ -7,70 +7,94 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-class Task;
+namespace Mono::Net::Security {
+class BufferOffsetSize;
 }
 namespace Mono::Net::Security {
-class MonoSslAuthenticationOptions;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Security::Authentication {
-struct SslProtocols;
-}
-namespace Mono::Net::Security {
-class MobileTlsContext;
-}
-namespace Mono::Net::Security {
-class MobileTlsProvider;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace Mono::Net::Security {
-struct AsyncOperationStatus;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace Mono::Net::Security {
-class BufferOffsetSize2;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
-}
-namespace Mono::Net::Security {
-class AsyncProtocolRequest;
+struct Mono__Net__Security__MobileAuthenticatedStream___InnerRead_d__66;
 }
 namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
 }
-namespace System::Net::Security {
-class SslStream;
+namespace Mono::Net::Security {
+class BufferOffsetSize2;
 }
 namespace System::IO {
 struct SeekOrigin;
 }
+namespace Mono::Net::Security {
+struct AsyncOperationStatus;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System {
 class Exception;
 }
+namespace System::Security::Authentication {
+struct SslProtocols;
+}
 namespace Mono::Net::Security {
-class BufferOffsetSize;
+class AsyncProtocolRequest;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace Mono::Net::Security {
+class MonoSslAuthenticationOptions;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace Mono::Net::Security {
+struct Mono__Net__Security__MobileAuthenticatedStream___InnerWrite_d__67;
+}
+namespace Mono::Net::Security {
+class MobileTlsContext;
+}
+namespace Mono::Net::Security {
+struct Mono__Net__Security__MobileAuthenticatedStream___ProcessAuthentication_d__48;
+}
+namespace System {
+class IDisposable;
+}
+namespace Mono::Net::Security {
+struct Mono__Net__Security__MobileAuthenticatedStream___StartOperation_d__57;
+}
+namespace Mono::Net::Security {
+class Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0;
+}
+namespace Mono::Net::Security {
+struct Mono__Net__Security__MobileAuthenticatedStream__Operation;
+}
+namespace Mono::Net::Security {
+struct Mono__Net__Security__MobileAuthenticatedStream__OperationType;
+}
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace Mono::Net::Security {
+class MobileTlsProvider;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Net::Security {
+class SslStream;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -81,13 +105,10 @@ template<typename TResult>
 struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace Mono::Net::Security {
 class AsyncProtocolResult;
@@ -171,6 +192,8 @@ __Close = 6,
 constexpr operator __Mono__Net__Security__MobileAuthenticatedStream__Operation_Unwrapped () const noexcept {
 return std::bit_cast<__Mono__Net__Security__MobileAuthenticatedStream__Operation_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -257,6 +280,8 @@ __Shutdown = 3,
 constexpr operator __Mono__Net__Security__MobileAuthenticatedStream__OperationType_Unwrapped () const noexcept {
 return std::bit_cast<__Mono__Net__Security__MobileAuthenticatedStream__OperationType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -542,8 +567,7 @@ constexpr int32_t __get_len() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0() ;
+static Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2691dbc size 0x8 virtual false final false
  void _ctor() ;
@@ -954,8 +978,7 @@ constexpr int32_t __get_ID() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "System::Net::Security::SslStream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Mono::Net::Security::MobileTlsProvider", modifiers: "", def_value: None }]
-explicit MobileAuthenticatedStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider) ;
+static Mono::Net::Security::MobileAuthenticatedStream New_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider) ;
 
 /// @brief Method .ctor addr 0x268bd94 size 0x134 virtual false final false
  void _ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider) ;

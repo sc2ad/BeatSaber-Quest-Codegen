@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XText_impl.hpp"
 #include "System/Xml/Linq/zzzz__XCData_def.hpp"
-#include "System/Xml/Linq/zzzz__XNode_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
+#include "System/Xml/Linq/zzzz__XNode_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::XCData._ctor
 template<>
 
@@ -89,8 +89,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Linq::XCData::XCData(::StringW value)  : System::Xml::Linq::XText(THROW_UNLESS(::il2cpp_utils::New<XCData>(value))) {}
+ System::Xml::Linq::XCData System::Xml::Linq::XCData::New_ctor(::StringW value)  {
+System::Xml::Linq::XCData o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XCData>(value))};
+return o;
+}
  void System::Xml::Linq::XCData::_ctor(::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XCData>::get(),
@@ -100,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XCData", modifiers: "", def_value: None }]
- System::Xml::Linq::XCData::XCData(System::Xml::Linq::XCData other)  : System::Xml::Linq::XText(THROW_UNLESS(::il2cpp_utils::New<XCData>(other))) {}
+ System::Xml::Linq::XCData System::Xml::Linq::XCData::New_ctor(System::Xml::Linq::XCData other)  {
+System::Xml::Linq::XCData o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XCData>(other))};
+return o;
+}
  void System::Xml::Linq::XCData::_ctor(System::Xml::Linq::XCData other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XCData>::get(),

@@ -257,8 +257,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::Poser::Poser()  : RootMotion::SolverManager(THROW_UNLESS(::il2cpp_utils::New<Poser>())) {}
+ RootMotion::FinalIK::Poser RootMotion::FinalIK::Poser::New_ctor()  {
+RootMotion::FinalIK::Poser o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::Poser>())};
+return o;
+}
  void RootMotion::FinalIK::Poser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::Poser>::get(),

@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyAchievementIdsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
+#include "GlobalNamespace/zzzz__SonyAchievementIdsModelSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData.get_ps4TrophyId
@@ -85,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData>())) {}
+ GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData>::get(),
@@ -261,8 +264,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, trophyId, achievementId);
 }
-// Ctor Parameters []
- GlobalNamespace::SonyAchievementIdsModelSO::SonyAchievementIdsModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<SonyAchievementIdsModelSO>())) {}
+ GlobalNamespace::SonyAchievementIdsModelSO GlobalNamespace::SonyAchievementIdsModelSO::New_ctor()  {
+GlobalNamespace::SonyAchievementIdsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SonyAchievementIdsModelSO>())};
+return o;
+}
  void GlobalNamespace::SonyAchievementIdsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SonyAchievementIdsModelSO>::get(),

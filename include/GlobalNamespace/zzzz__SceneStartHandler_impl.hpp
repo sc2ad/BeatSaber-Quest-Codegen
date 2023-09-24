@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SceneStartHandler_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettingsNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettingsAtStartNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettingsNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettingsAtStartNetSerializable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SceneStartHandler.add_sceneSetupDidFinishEvent
 template<>
@@ -341,8 +341,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "playersAtGameStartModel", ty: "GlobalNamespace::PlayersSpecificSettingsAtGameStartModel", modifiers: "", def_value: None }]
- GlobalNamespace::SceneStartHandler::SceneStartHandler(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneStartHandler>(multiplayerSessionManager, gameplayRpcManager, playersAtGameStartModel))) {}
+ GlobalNamespace::SceneStartHandler GlobalNamespace::SceneStartHandler::New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)  {
+GlobalNamespace::SceneStartHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SceneStartHandler>(multiplayerSessionManager, gameplayRpcManager, playersAtGameStartModel))};
+return o;
+}
  void GlobalNamespace::SceneStartHandler::_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SceneStartHandler>::get(),

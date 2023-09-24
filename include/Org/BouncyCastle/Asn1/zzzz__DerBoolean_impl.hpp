@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerBoolean_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerBoolean.GetInstance
 template<>
@@ -236,8 +236,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerBoolean, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "val", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerBoolean::DerBoolean(::ArrayW<uint8_t> val)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerBoolean>(val))) {}
+ Org::BouncyCastle::Asn1::DerBoolean Org::BouncyCastle::Asn1::DerBoolean::New_ctor(::ArrayW<uint8_t> val)  {
+Org::BouncyCastle::Asn1::DerBoolean o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerBoolean>(val))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerBoolean::_ctor(::ArrayW<uint8_t> val)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerBoolean>::get(),
@@ -247,8 +249,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, val);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerBoolean::DerBoolean(bool value)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerBoolean>(value))) {}
+ Org::BouncyCastle::Asn1::DerBoolean Org::BouncyCastle::Asn1::DerBoolean::New_ctor(bool value)  {
+Org::BouncyCastle::Asn1::DerBoolean o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerBoolean>(value))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerBoolean::_ctor(bool value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerBoolean>::get(),

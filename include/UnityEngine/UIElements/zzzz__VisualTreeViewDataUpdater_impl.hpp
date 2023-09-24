@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeViewDataUpdater_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::VisualTreeViewDataUpdater.get_profilerMarker
 template<>
 
@@ -188,8 +188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::VisualTreeViewDataUpdater::VisualTreeViewDataUpdater()  : UnityEngine::UIElements::BaseVisualTreeUpdater(THROW_UNLESS(::il2cpp_utils::New<VisualTreeViewDataUpdater>())) {}
+ UnityEngine::UIElements::VisualTreeViewDataUpdater UnityEngine::UIElements::VisualTreeViewDataUpdater::New_ctor()  {
+UnityEngine::UIElements::VisualTreeViewDataUpdater o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualTreeViewDataUpdater>())};
+return o;
+}
  void UnityEngine::UIElements::VisualTreeViewDataUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualTreeViewDataUpdater>::get(),

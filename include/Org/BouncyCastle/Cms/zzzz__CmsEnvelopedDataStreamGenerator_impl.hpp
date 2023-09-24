@@ -2,16 +2,17 @@
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedGenerator_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedDataStreamGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedDataStreamGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__BerSequenceGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__CipherStream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__BerSequenceGenerator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream._ctor
 template<>
 
@@ -110,8 +111,10 @@ constexpr void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataS
 constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream::__get__eiGen() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::BerSequenceGenerator, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Cms::CmsEnvelopedGenerator", modifiers: "", def_value: None }, CppParam { name: "outStream", ty: "Org::BouncyCastle::Crypto::IO::CipherStream", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "envGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(Org::BouncyCastle::Cms::CmsEnvelopedGenerator outer, Org::BouncyCastle::Crypto::IO::CipherStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator envGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream>(outer, outStream, cGen, envGen, eiGen))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream::New_ctor(Org::BouncyCastle::Cms::CmsEnvelopedGenerator outer, Org::BouncyCastle::Crypto::IO::CipherStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator envGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream>(outer, outStream, cGen, envGen, eiGen))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream::_ctor(Org::BouncyCastle::Cms::CmsEnvelopedGenerator outer, Org::BouncyCastle::Crypto::IO::CipherStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator envGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream>::get(),
@@ -325,8 +328,10 @@ constexpr void Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator::__set__b
 constexpr bool Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator::__get__berEncodeRecipientSet() const {
 return ::cordl_internals::getInstanceField<bool, 0x3c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator::CmsEnvelopedDataStreamGenerator()  : Org::BouncyCastle::Cms::CmsEnvelopedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsEnvelopedDataStreamGenerator>())) {}
+ Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator>::get(),
@@ -336,8 +341,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator::CmsEnvelopedDataStreamGenerator(Org::BouncyCastle::Security::SecureRandom rand)  : Org::BouncyCastle::Cms::CmsEnvelopedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsEnvelopedDataStreamGenerator>(rand))) {}
+ Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator::New_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
+Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator>(rand))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator::_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator>::get(),

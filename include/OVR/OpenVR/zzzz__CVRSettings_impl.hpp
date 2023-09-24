@@ -1,8 +1,8 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRSettings_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRSettings_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRSettingsError_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRSettings._ctor
 template<>
 
@@ -230,8 +230,10 @@ constexpr void OVR::OpenVR::CVRSettings::__set_FnTable(OVR::OpenVR::IVRSettings 
 constexpr OVR::OpenVR::IVRSettings OVR::OpenVR::CVRSettings::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRSettings, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRSettings::CVRSettings(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRSettings>(pInterface))) {}
+ OVR::OpenVR::CVRSettings OVR::OpenVR::CVRSettings::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRSettings o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRSettings>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRSettings::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRSettings>::get(),

@@ -1,17 +1,17 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "TMPro/zzzz__TMP_SubMeshUI_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "TMPro/zzzz__MaterialReference_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: TMPro::TMP_SubMeshUI.get_fontAsset
 template<>
 
@@ -1335,8 +1335,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mat);
 }
-// Ctor Parameters []
- TMPro::TMP_SubMeshUI::TMP_SubMeshUI()  : UnityEngine::UI::MaskableGraphic(THROW_UNLESS(::il2cpp_utils::New<TMP_SubMeshUI>())) {}
+ TMPro::TMP_SubMeshUI TMPro::TMP_SubMeshUI::New_ctor()  {
+TMPro::TMP_SubMeshUI o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SubMeshUI>())};
+return o;
+}
  void TMPro::TMP_SubMeshUI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SubMeshUI>::get(),

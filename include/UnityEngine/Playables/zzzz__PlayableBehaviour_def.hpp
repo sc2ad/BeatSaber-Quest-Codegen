@@ -1,17 +1,17 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class ICloneable;
-}
 namespace UnityEngine::Playables {
-class IPlayableBehaviour;
+struct Playable;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+class IPlayableBehaviour;
+}
+namespace System {
+class ICloneable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -65,8 +65,7 @@ constexpr explicit PlayableBehaviour(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Methods
 
-// Ctor Parameters []
-explicit PlayableBehaviour() ;
+static UnityEngine::Playables::PlayableBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b7cac0 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,25 +2,25 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-class IMaterialModifier;
+class Camera;
 }
 namespace UnityEngine {
-class Camera;
+class ICanvasRaycastFilter;
 }
 namespace UnityEngine::UI {
 class Graphic;
 }
 namespace UnityEngine {
-class ICanvasRaycastFilter;
+class RectTransform;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UI {
+class IMaterialModifier;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -128,8 +128,7 @@ constexpr UnityEngine::Material __get_m_UnmaskMaterial() const;
 /// @brief Method get_graphic addr 0x2c01538 size 0x58 virtual false final false
  UnityEngine::UI::Graphic get_graphic() ;
 
-// Ctor Parameters []
-explicit Mask() ;
+static UnityEngine::UI::Mask New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c01590 size 0x10 virtual false final false
  void _ctor() ;

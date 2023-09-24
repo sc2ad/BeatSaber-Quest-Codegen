@@ -58,8 +58,7 @@ constexpr explicit SerpentEngine(void* ptr) noexcept : Org::BouncyCastle::Crypto
 /// @brief Method DecryptBlock addr 0xe59e18 size 0x1734 virtual true final false
  void DecryptBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff) ;
 
-// Ctor Parameters []
-explicit SerpentEngine() ;
+static Org::BouncyCastle::Crypto::Engines::SerpentEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe5b54c size 0x58 virtual false final false
  void _ctor() ;

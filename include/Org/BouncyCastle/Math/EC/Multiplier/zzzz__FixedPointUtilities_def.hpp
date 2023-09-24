@@ -4,6 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback;
+}
+namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -13,13 +19,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class FixedPointPreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class IPreCompCallback;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -82,8 +85,7 @@ constexpr Org::BouncyCastle::Math::EC::ECPoint __get_m_p() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback(Org::BouncyCastle::Math::EC::ECPoint p) ;
+static Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback New_ctor(Org::BouncyCastle::Math::EC::ECPoint p) ;
 
 /// @brief Method .ctor addr 0xfa9188 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECPoint p) ;
@@ -163,8 +165,7 @@ static Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo GetFixedPo
 /// @brief Method Precompute addr 0xfa8fa4 size 0x120 virtual false final false
 static Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo Precompute(Org::BouncyCastle::Math::EC::ECPoint p) ;
 
-// Ctor Parameters []
-explicit FixedPointUtilities() ;
+static Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xfa9210 size 0x8 virtual false final false
  void _ctor() ;

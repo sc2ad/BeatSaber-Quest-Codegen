@@ -4,12 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
+namespace System {
 template<typename T>
-class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class IOVRSceneComponent;
+struct Nullable_1;
 }
 namespace GlobalNamespace {
 class OVRSceneAnchor;
@@ -19,21 +16,30 @@ template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector2;
 }
-namespace System {
+namespace System::Collections::Generic {
 template<typename T>
-struct Nullable_1;
+class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRScenePlane__GetBoundaryLengthJob;
 }
 namespace Unity::Jobs {
 struct JobHandle;
+}
+namespace GlobalNamespace {
+class IOVRSceneComponent;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRScenePlane__GetBoundaryJob;
 }
 namespace GlobalNamespace {
 struct OVRSpace;
@@ -372,8 +378,7 @@ static void SetChildScale(UnityEngine::Transform parentTransform, float_t width,
 /// @brief Method OnDisable addr 0x260a774 size 0x114 virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit OVRScenePlane() ;
+static GlobalNamespace::OVRScenePlane New_ctor() ;
 
 /// @brief Method .ctor addr 0x260a888 size 0x84 virtual false final false
  void _ctor() ;

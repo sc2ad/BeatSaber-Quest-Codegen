@@ -80,8 +80,7 @@ constexpr ::ArrayW<uint8_t> __get__targetInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Type2Message(::ArrayW<uint8_t> message) ;
+static Mono::Security::Protocol::Ntlm::Type2Message New_ctor(::ArrayW<uint8_t> message) ;
 
 /// @brief Method .ctor addr 0x22942b0 size 0xa4 virtual false final false
  void _ctor(::ArrayW<uint8_t> message) ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RuntimePanel_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::RuntimePanel.get_panelSettings
 template<>
@@ -102,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::RuntimePanel, false>(nullptr, ___internal_method, ownerObject);
 }
-// Ctor Parameters [CppParam { name: "ownerObject", ty: "UnityEngine::ScriptableObject", modifiers: "", def_value: None }]
- UnityEngine::UIElements::RuntimePanel::RuntimePanel(UnityEngine::ScriptableObject ownerObject)  : UnityEngine::UIElements::BaseRuntimePanel(THROW_UNLESS(::il2cpp_utils::New<RuntimePanel>(ownerObject))) {}
+ UnityEngine::UIElements::RuntimePanel UnityEngine::UIElements::RuntimePanel::New_ctor(UnityEngine::ScriptableObject ownerObject)  {
+UnityEngine::UIElements::RuntimePanel o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::RuntimePanel>(ownerObject))};
+return o;
+}
  void UnityEngine::UIElements::RuntimePanel::_ctor(UnityEngine::ScriptableObject ownerObject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::RuntimePanel>::get(),

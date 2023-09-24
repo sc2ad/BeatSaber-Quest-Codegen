@@ -47,8 +47,7 @@ constexpr explicit JsonRequiredAttribute(void* ptr) noexcept : System::Attribute
 
 // Methods
 
-// Ctor Parameters []
-explicit JsonRequiredAttribute() ;
+static Newtonsoft::Json::JsonRequiredAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c7f70 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__Restriction_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/X500/zzzz__DirectoryString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction.GetInstance
 template<>
 
@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "restriction", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::Restriction(Org::BouncyCastle::Asn1::X500::DirectoryString restriction)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Restriction>(restriction))) {}
+ Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::New_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString restriction)  {
+Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction>(restriction))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString restriction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction>::get(),
@@ -114,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, restriction);
 }
-// Ctor Parameters [CppParam { name: "restriction", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::Restriction(::StringW restriction)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Restriction>(restriction))) {}
+ Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::New_ctor(::StringW restriction)  {
+Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction>(restriction))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::_ctor(::StringW restriction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction>::get(),

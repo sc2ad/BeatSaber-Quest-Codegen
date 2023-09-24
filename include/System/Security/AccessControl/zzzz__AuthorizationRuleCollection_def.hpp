@@ -51,8 +51,7 @@ constexpr explicit AuthorizationRuleCollection(void* ptr) noexcept : System::Col
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rules", ty: "::ArrayW<System::Security::AccessControl::AuthorizationRule>", modifiers: "", def_value: None }]
-explicit AuthorizationRuleCollection(::ArrayW<System::Security::AccessControl::AuthorizationRule> rules) ;
+static System::Security::AccessControl::AuthorizationRuleCollection New_ctor(::ArrayW<System::Security::AccessControl::AuthorizationRule> rules) ;
 
 /// @brief Method .ctor addr 0x23157ac size 0x48 virtual false final false
  void _ctor(::ArrayW<System::Security::AccessControl::AuthorizationRule> rules) ;

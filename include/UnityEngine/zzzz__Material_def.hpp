@@ -7,18 +7,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+struct Color;
+}
 namespace UnityEngine::Rendering {
 struct ShaderPropertyFlags;
 }
 namespace UnityEngine {
-class ComputeBuffer;
+struct Vector4;
 }
 namespace UnityEngine {
-class GraphicsBuffer;
+class ComputeBuffer;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::Rendering {
+struct RenderTextureSubElement;
 }
 namespace UnityEngine {
 struct MaterialGlobalIlluminationFlags;
@@ -29,26 +31,24 @@ struct Vector2;
 namespace UnityEngine {
 class Texture;
 }
-namespace UnityEngine {
-struct Matrix4x4;
+namespace UnityEngine::Rendering {
+struct LocalKeyword;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::Rendering {
-struct LocalKeyword;
-}
-namespace UnityEngine::Rendering {
-struct RenderTextureSubElement;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
-struct Color;
+class GraphicsBuffer;
 }
 namespace UnityEngine {
 class Shader;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -137,20 +137,17 @@ static void CreateWithMaterial(UnityEngine::Material self, UnityEngine::Material
 /// @brief Method CreateWithString addr 0x2b461c4 size 0x3c virtual false final false
 static void CreateWithString(UnityEngine::Material self) ;
 
-// Ctor Parameters [CppParam { name: "shader", ty: "UnityEngine::Shader", modifiers: "", def_value: None }]
-explicit Material(UnityEngine::Shader shader) ;
+static UnityEngine::Material New_ctor(UnityEngine::Shader shader) ;
 
 /// @brief Method .ctor addr 0x2b46200 size 0x90 virtual false final false
  void _ctor(UnityEngine::Shader shader) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "UnityEngine::Material", modifiers: "", def_value: None }]
-explicit Material(UnityEngine::Material source) ;
+static UnityEngine::Material New_ctor(UnityEngine::Material source) ;
 
 /// @brief Method .ctor addr 0x2b46290 size 0x90 virtual false final false
  void _ctor(UnityEngine::Material source) ;
 
-// Ctor Parameters [CppParam { name: "contents", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Material(::StringW contents) ;
+static UnityEngine::Material New_ctor(::StringW contents) ;
 
 /// @brief Method .ctor addr 0x2b460bc size 0x80 virtual false final false
  void _ctor(::StringW contents) ;

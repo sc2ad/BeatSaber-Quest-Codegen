@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class Asn1InputStream;
-}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class OcspResponse;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1InputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -72,26 +72,22 @@ constexpr Org::BouncyCastle::Asn1::Ocsp::OcspResponse __get_resp() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resp", ty: "Org::BouncyCastle::Asn1::Ocsp::OcspResponse", modifiers: "", def_value: None }]
-explicit OcspResp(Org::BouncyCastle::Asn1::Ocsp::OcspResponse resp) ;
+static Org::BouncyCastle::Ocsp::OcspResp New_ctor(Org::BouncyCastle::Asn1::Ocsp::OcspResponse resp) ;
 
 /// @brief Method .ctor addr 0x1015b78 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::OcspResponse resp) ;
 
-// Ctor Parameters [CppParam { name: "resp", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit OcspResp(::ArrayW<uint8_t> resp) ;
+static Org::BouncyCastle::Ocsp::OcspResp New_ctor(::ArrayW<uint8_t> resp) ;
 
 /// @brief Method .ctor addr 0x1015ba0 size 0x74 virtual false final false
  void _ctor(::ArrayW<uint8_t> resp) ;
 
-// Ctor Parameters [CppParam { name: "inStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit OcspResp(System::IO::Stream inStr) ;
+static Org::BouncyCastle::Ocsp::OcspResp New_ctor(System::IO::Stream inStr) ;
 
 /// @brief Method .ctor addr 0x1015d4c size 0x74 virtual false final false
  void _ctor(System::IO::Stream inStr) ;
 
-// Ctor Parameters [CppParam { name: "aIn", ty: "Org::BouncyCastle::Asn1::Asn1InputStream", modifiers: "", def_value: None }]
-explicit OcspResp(Org::BouncyCastle::Asn1::Asn1InputStream aIn) ;
+static Org::BouncyCastle::Ocsp::OcspResp New_ctor(Org::BouncyCastle::Asn1::Asn1InputStream aIn) ;
 
 /// @brief Method .ctor addr 0x1015c14 size 0x138 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1InputStream aIn) ;

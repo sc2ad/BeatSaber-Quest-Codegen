@@ -1,8 +1,8 @@
 #pragma once
 #include "Mono/Security/Cryptography/zzzz__RC4_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__ARC4Managed_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: Mono::Security::Cryptography::ARC4Managed._ctor
 template<>
 
@@ -330,8 +330,10 @@ constexpr void Mono::Security::Cryptography::ARC4Managed::__set_m_disposed(bool 
 constexpr bool Mono::Security::Cryptography::ARC4Managed::__get_m_disposed() const {
 return ::cordl_internals::getInstanceField<bool, 0x5a>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::Cryptography::ARC4Managed::ARC4Managed()  : Mono::Security::Cryptography::RC4(THROW_UNLESS(::il2cpp_utils::New<ARC4Managed>())) {}
+ Mono::Security::Cryptography::ARC4Managed Mono::Security::Cryptography::ARC4Managed::New_ctor()  {
+Mono::Security::Cryptography::ARC4Managed o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::ARC4Managed>())};
+return o;
+}
  void Mono::Security::Cryptography::ARC4Managed::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::ARC4Managed>::get(),

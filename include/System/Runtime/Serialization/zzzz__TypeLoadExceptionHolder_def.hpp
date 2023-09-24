@@ -62,8 +62,7 @@ constexpr ::StringW __get_m_typeName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TypeLoadExceptionHolder(::StringW typeName) ;
+static System::Runtime::Serialization::TypeLoadExceptionHolder New_ctor(::StringW typeName) ;
 
 /// @brief Method .ctor addr 0x2350b28 size 0x28 virtual false final false
  void _ctor(::StringW typeName) ;

@@ -1,10 +1,11 @@
 #pragma once
 #include "Mono/Security/Cryptography/zzzz__PKCS8_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
-#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSA_def.hpp"
+#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "Mono/Security/Cryptography/zzzz__PKCS8_def.hpp"
 //  Writing Method size for method: Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo._ctor
 template<>
 
@@ -233,8 +234,10 @@ constexpr void Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8
 constexpr System::Collections::ArrayList Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo::__get__list() const {
 return ::cordl_internals::getInstanceField<System::Collections::ArrayList, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__Cryptography__PKCS8__PrivateKeyInfo>())) {}
+ Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo::New_ctor()  {
+Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo>())};
+return o;
+}
  void Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo>::get(),
@@ -244,8 +247,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo(::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__Cryptography__PKCS8__PrivateKeyInfo>(data))) {}
+ Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo::New_ctor(::ArrayW<uint8_t> data)  {
+Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo>(data))};
+return o;
+}
  void Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo>::get(),
@@ -488,8 +493,10 @@ constexpr void Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8
 constexpr ::ArrayW<uint8_t> Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo::__get__data() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo>())) {}
+ Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo::New_ctor()  {
+Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo>())};
+return o;
+}
  void Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo>::get(),
@@ -499,8 +506,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo(::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo>(data))) {}
+ Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo::New_ctor(::ArrayW<uint8_t> data)  {
+Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo>(data))};
+return o;
+}
  void Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo>::get(),

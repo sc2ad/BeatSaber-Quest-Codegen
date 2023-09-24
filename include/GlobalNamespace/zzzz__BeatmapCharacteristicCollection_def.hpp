@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace GlobalNamespace {
-class AppStaticSettingsSO;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class AppStaticSettingsSO;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollectionSO;
@@ -80,8 +80,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::Beatmap
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collection", ty: "GlobalNamespace::BeatmapCharacteristicCollectionSO", modifiers: "", def_value: None }, CppParam { name: "appSettings", ty: "GlobalNamespace::AppStaticSettingsSO", modifiers: "", def_value: None }]
-explicit BeatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO collection, GlobalNamespace::AppStaticSettingsSO appSettings) ;
+static GlobalNamespace::BeatmapCharacteristicCollection New_ctor(GlobalNamespace::BeatmapCharacteristicCollectionSO collection, GlobalNamespace::AppStaticSettingsSO appSettings) ;
 
 /// @brief Method .ctor addr 0x21c9274 size 0x464 virtual false final false
  void _ctor(GlobalNamespace::BeatmapCharacteristicCollectionSO collection, GlobalNamespace::AppStaticSettingsSO appSettings) ;

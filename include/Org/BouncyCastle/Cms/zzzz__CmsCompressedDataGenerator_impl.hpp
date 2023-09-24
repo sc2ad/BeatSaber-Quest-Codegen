@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsCompressedDataGenerator::CmsCompressedDataGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsCompressedDataGenerator>())) {}
+ Org::BouncyCastle::Cms::CmsCompressedDataGenerator Org::BouncyCastle::Cms::CmsCompressedDataGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::CmsCompressedDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsCompressedDataGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsCompressedDataGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsCompressedDataGenerator>::get(),

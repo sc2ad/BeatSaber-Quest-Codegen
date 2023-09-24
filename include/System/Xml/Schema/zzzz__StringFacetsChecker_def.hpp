@@ -3,14 +3,14 @@
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Collections {
+class ArrayList;
+}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
 namespace System {
 class Exception;
-}
-namespace System::Collections {
-class ArrayList;
 }
 namespace System::Xml::Schema {
 struct XmlTypeCode;
@@ -99,8 +99,7 @@ static System::Text::RegularExpressions::Regex get_LanguagePattern() ;
 /// @brief Method CheckBuiltInFacets addr 0x272ef68 size 0x218 virtual false final false
  System::Exception CheckBuiltInFacets(::StringW s, System::Xml::Schema::XmlTypeCode typeCode, bool verifyUri) ;
 
-// Ctor Parameters []
-explicit StringFacetsChecker() ;
+static System::Xml::Schema::StringFacetsChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x272f3b0 size 0x8 virtual false final false
  void _ctor() ;

@@ -14,6 +14,9 @@ namespace System {
 template<typename T>
 class Action_1;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__NamedIntListController__TextValuePair;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__NamedIntListController__TextValuePair;
@@ -86,8 +89,7 @@ constexpr int32_t __get_value() const;
 /// @brief Method get_localizedText addr 0x2126fa4 size 0xc virtual false final false
  ::StringW get_localizedText() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__NamedIntListController__TextValuePair() ;
+static GlobalNamespace::GlobalNamespace__NamedIntListController__TextValuePair New_ctor() ;
 
 /// @brief Method .ctor addr 0x2126fb8 size 0x8 virtual false final false
  void _ctor() ;
@@ -185,8 +187,7 @@ constexpr System::Action_1<int32_t> __get_valueChangedEvent() const;
 /// @brief Method TextForValue addr 0x2126f68 size 0x3c virtual true final false
  ::StringW TextForValue(int32_t idx) ;
 
-// Ctor Parameters []
-explicit NamedIntListController() ;
+static GlobalNamespace::NamedIntListController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2126fb0 size 0x8 virtual false final false
  void _ctor() ;

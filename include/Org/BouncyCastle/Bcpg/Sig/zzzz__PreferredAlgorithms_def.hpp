@@ -55,14 +55,12 @@ constexpr explicit PreferredAlgorithms(void* ptr) noexcept : Org::BouncyCastle::
 /// @brief Method IntToByteArray addr 0x113e1e8 size 0xa0 virtual false final false
 static ::ArrayW<uint8_t> IntToByteArray(::ArrayW<int32_t> v) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Bcpg::SignatureSubpacketTag", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PreferredAlgorithms(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms New_ctor(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113e288 size 0x48 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Bcpg::SignatureSubpacketTag", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "preferences", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit PreferredAlgorithms(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, ::ArrayW<int32_t> preferences) ;
+static Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms New_ctor(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, ::ArrayW<int32_t> preferences) ;
 
 /// @brief Method .ctor addr 0x113e2d0 size 0x54 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, ::ArrayW<int32_t> preferences) ;

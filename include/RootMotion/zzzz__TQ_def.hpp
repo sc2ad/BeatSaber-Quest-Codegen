@@ -68,8 +68,7 @@ constexpr UnityEngine::Quaternion __get_q() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "translation", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
-explicit TQ(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation) ;
+static RootMotion::TQ New_ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method .ctor addr 0x11a79d8 size 0x64 virtual false final false
  void _ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation) ;

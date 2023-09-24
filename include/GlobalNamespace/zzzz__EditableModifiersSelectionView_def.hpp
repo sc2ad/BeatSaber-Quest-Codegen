@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 namespace UnityEngine {
 class CanvasGroup;
@@ -127,8 +127,7 @@ constexpr bool __get__showClearButton_k__BackingField() const;
 /// @brief Method SetGameplayModifiers addr 0x21867e4 size 0x64 virtual true final false
  void SetGameplayModifiers(GlobalNamespace::GameplayModifiers gameplayModifiers) ;
 
-// Ctor Parameters []
-explicit EditableModifiersSelectionView() ;
+static GlobalNamespace::EditableModifiersSelectionView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2186848 size 0x10 virtual false final false
  void _ctor() ;

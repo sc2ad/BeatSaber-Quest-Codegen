@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Security/Util/zzzz__Parser_def.hpp"
-#include "System/Security/Util/zzzz__Tokenizer_def.hpp"
-#include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/Security/zzzz__SecurityDocument_def.hpp"
+#include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/Security/Util/zzzz__TokenizerStream_def.hpp"
+#include "System/Security/Util/zzzz__Tokenizer_def.hpp"
 //  Writing Method size for method: System::Security::Util::Parser.GetTopElement
 template<>
 
@@ -154,8 +154,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "System::Security::Util::Tokenizer", modifiers: "", def_value: None }]
- System::Security::Util::Parser::Parser(System::Security::Util::Tokenizer t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Parser>(t))) {}
+ System::Security::Util::Parser System::Security::Util::Parser::New_ctor(System::Security::Util::Tokenizer t)  {
+System::Security::Util::Parser o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Util::Parser>(t))};
+return o;
+}
  void System::Security::Util::Parser::_ctor(System::Security::Util::Tokenizer t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Util::Parser>::get(),
@@ -165,8 +167,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Util::Parser::Parser(::StringW input)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Parser>(input))) {}
+ System::Security::Util::Parser System::Security::Util::Parser::New_ctor(::StringW input)  {
+System::Security::Util::Parser o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Util::Parser>(input))};
+return o;
+}
  void System::Security::Util::Parser::_ctor(::StringW input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Util::Parser>::get(),

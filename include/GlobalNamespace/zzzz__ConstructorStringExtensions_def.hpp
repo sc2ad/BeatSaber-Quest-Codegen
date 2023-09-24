@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine {
-struct Pose;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Pose;
 }
 namespace System::Collections::Generic {
 template<typename T>

@@ -1,6 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair.get_levelId
 template<>
@@ -115,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "perceivedLoudness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "checkSum", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair>(levelId, perceivedLoudness, checkSum))) {}
+ GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::New_ctor(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum)  {
+GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair>(levelId, perceivedLoudness, checkSum))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair::_ctor(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair>::get(),
@@ -201,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, loudnessDictionary);
 }
-// Ctor Parameters []
- GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLoudnessPerLevelSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<PerceivedLoudnessPerLevelSO>())) {}
+ GlobalNamespace::PerceivedLoudnessPerLevelSO GlobalNamespace::PerceivedLoudnessPerLevelSO::New_ctor()  {
+GlobalNamespace::PerceivedLoudnessPerLevelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PerceivedLoudnessPerLevelSO>())};
+return o;
+}
  void GlobalNamespace::PerceivedLoudnessPerLevelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PerceivedLoudnessPerLevelSO>::get(),

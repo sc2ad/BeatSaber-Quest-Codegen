@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBoolean;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerBoolean;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -82,14 +82,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "critical", ty: "Org::BouncyCastle::Asn1::DerBoolean", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit X509Extension(Org::BouncyCastle::Asn1::DerBoolean critical, Org::BouncyCastle::Asn1::Asn1OctetString value) ;
+static Org::BouncyCastle::Asn1::X509::X509Extension New_ctor(Org::BouncyCastle::Asn1::DerBoolean critical, Org::BouncyCastle::Asn1::Asn1OctetString value) ;
 
 /// @brief Method .ctor addr 0x1113ab0 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerBoolean critical, Org::BouncyCastle::Asn1::Asn1OctetString value) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit X509Extension(bool critical, Org::BouncyCastle::Asn1::Asn1OctetString value) ;
+static Org::BouncyCastle::Asn1::X509::X509Extension New_ctor(bool critical, Org::BouncyCastle::Asn1::Asn1OctetString value) ;
 
 /// @brief Method .ctor addr 0x1111e68 size 0x30 virtual false final false
  void _ctor(bool critical, Org::BouncyCastle::Asn1::Asn1OctetString value) ;

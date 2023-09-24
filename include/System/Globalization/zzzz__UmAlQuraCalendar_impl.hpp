@@ -3,6 +3,7 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Globalization/zzzz__UmAlQuraCalendar_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/Globalization/zzzz__UmAlQuraCalendar_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
 //  Writing Method size for method: System::Globalization::System__Globalization__UmAlQuraCalendar__DateMapping._ctor
 template<>
@@ -584,8 +585,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::DateTime, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Globalization::UmAlQuraCalendar::UmAlQuraCalendar()  : System::Globalization::Calendar(THROW_UNLESS(::il2cpp_utils::New<UmAlQuraCalendar>())) {}
+ System::Globalization::UmAlQuraCalendar System::Globalization::UmAlQuraCalendar::New_ctor()  {
+System::Globalization::UmAlQuraCalendar o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::UmAlQuraCalendar>())};
+return o;
+}
  void System::Globalization::UmAlQuraCalendar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::UmAlQuraCalendar>::get(),

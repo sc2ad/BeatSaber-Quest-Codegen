@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outImguiEvent);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::KeyDownEvent::KeyDownEvent()  : UnityEngine::UIElements::KeyboardEventBase_1<UnityEngine::UIElements::KeyDownEvent>(THROW_UNLESS(::il2cpp_utils::New<KeyDownEvent>())) {}
+ UnityEngine::UIElements::KeyDownEvent UnityEngine::UIElements::KeyDownEvent::New_ctor()  {
+UnityEngine::UIElements::KeyDownEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::KeyDownEvent>())};
+return o;
+}
  void UnityEngine::UIElements::KeyDownEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::KeyDownEvent>::get(),

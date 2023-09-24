@@ -1,15 +1,15 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemReader_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__PemReader_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
-#include "Org/BouncyCastle/OpenSsl/zzzz__IPasswordFinder_def.hpp"
-#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
-#include "Org/BouncyCastle/Pkcs/zzzz__Pkcs10CertificationRequest_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Crl_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Pkcs/zzzz__Pkcs10CertificationRequest_def.hpp"
+#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
+#include "Org/BouncyCastle/OpenSsl/zzzz__IPasswordFinder_def.hpp"
 #include "System/IO/zzzz__TextReader_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::OpenSsl::PemReader._ctor
 template<>
@@ -221,8 +221,10 @@ constexpr void Org::BouncyCastle::OpenSsl::PemReader::__set_pFinder(Org::BouncyC
 constexpr Org::BouncyCastle::OpenSsl::IPasswordFinder Org::BouncyCastle::OpenSsl::PemReader::__get_pFinder() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::OpenSsl::IPasswordFinder, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::TextReader", modifiers: "", def_value: None }]
- Org::BouncyCastle::OpenSsl::PemReader::PemReader(System::IO::TextReader reader)  : Org::BouncyCastle::Utilities::IO::Pem::PemReader(THROW_UNLESS(::il2cpp_utils::New<PemReader>(reader))) {}
+ Org::BouncyCastle::OpenSsl::PemReader Org::BouncyCastle::OpenSsl::PemReader::New_ctor(System::IO::TextReader reader)  {
+Org::BouncyCastle::OpenSsl::PemReader o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::OpenSsl::PemReader>(reader))};
+return o;
+}
  void Org::BouncyCastle::OpenSsl::PemReader::_ctor(System::IO::TextReader reader)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::OpenSsl::PemReader>::get(),
@@ -232,8 +234,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader);
 }
-// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::TextReader", modifiers: "", def_value: None }, CppParam { name: "pFinder", ty: "Org::BouncyCastle::OpenSsl::IPasswordFinder", modifiers: "", def_value: None }]
- Org::BouncyCastle::OpenSsl::PemReader::PemReader(System::IO::TextReader reader, Org::BouncyCastle::OpenSsl::IPasswordFinder pFinder)  : Org::BouncyCastle::Utilities::IO::Pem::PemReader(THROW_UNLESS(::il2cpp_utils::New<PemReader>(reader, pFinder))) {}
+ Org::BouncyCastle::OpenSsl::PemReader Org::BouncyCastle::OpenSsl::PemReader::New_ctor(System::IO::TextReader reader, Org::BouncyCastle::OpenSsl::IPasswordFinder pFinder)  {
+Org::BouncyCastle::OpenSsl::PemReader o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::OpenSsl::PemReader>(reader, pFinder))};
+return o;
+}
  void Org::BouncyCastle::OpenSsl::PemReader::_ctor(System::IO::TextReader reader, Org::BouncyCastle::OpenSsl::IPasswordFinder pFinder)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::OpenSsl::PemReader>::get(),

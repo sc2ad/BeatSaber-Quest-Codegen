@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityOpus/zzzz__Decoder_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityOpus/zzzz__NumChannels_def.hpp"
 #include "UnityOpus/zzzz__SamplingFrequency_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: UnityOpus::Decoder._ctor
 template<>
 
@@ -116,8 +116,10 @@ constexpr void UnityOpus::Decoder::__set_disposedValue(bool value)  {
 constexpr bool UnityOpus::Decoder::__get_disposedValue() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "samplingFrequency", ty: "UnityOpus::SamplingFrequency", modifiers: "", def_value: None }, CppParam { name: "channels", ty: "UnityOpus::NumChannels", modifiers: "", def_value: None }]
- UnityOpus::Decoder::Decoder(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Decoder>(samplingFrequency, channels))) {}
+ UnityOpus::Decoder UnityOpus::Decoder::New_ctor(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels)  {
+UnityOpus::Decoder o{THROW_UNLESS(::il2cpp_utils::New<UnityOpus::Decoder>(samplingFrequency, channels))};
+return o;
+}
  void UnityOpus::Decoder::_ctor(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityOpus::Decoder>::get(),

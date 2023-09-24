@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "VRUIControls/zzzz__PhysicsRaycasterWithCache_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Ray_def.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "VRUIControls/zzzz__PhysicsRaycasterWithCache_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
 //  Writing Method size for method: VRUIControls::VRUIControls__PhysicsRaycasterWithCache__CachedRaycast._ctor
 template<>
 
@@ -122,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, ray, hitInfo, maxDistance, layerMask);
 }
-// Ctor Parameters []
- VRUIControls::PhysicsRaycasterWithCache::PhysicsRaycasterWithCache()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PhysicsRaycasterWithCache>())) {}
+ VRUIControls::PhysicsRaycasterWithCache VRUIControls::PhysicsRaycasterWithCache::New_ctor()  {
+VRUIControls::PhysicsRaycasterWithCache o{THROW_UNLESS(::il2cpp_utils::New<VRUIControls::PhysicsRaycasterWithCache>())};
+return o;
+}
  void VRUIControls::PhysicsRaycasterWithCache::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<VRUIControls::PhysicsRaycasterWithCache>::get(),

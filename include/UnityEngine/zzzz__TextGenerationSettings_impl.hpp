@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__TextGenerationSettings_def.hpp"
-#include "UnityEngine/zzzz__FontStyle_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
 #include "UnityEngine/zzzz__VerticalWrapMode_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__FontStyle_def.hpp"
 //  Writing Method size for method: UnityEngine::TextGenerationSettings.CompareColors
 template<>
 

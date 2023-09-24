@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_impl.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__NormalizeVector2Processor_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Processors::NormalizeVector2Processor.Process
 template<>
 
@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Processors::NormalizeVector2Processor::NormalizeVector2Processor()  : UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector2>(THROW_UNLESS(::il2cpp_utils::New<NormalizeVector2Processor>())) {}
+ UnityEngine::InputSystem::Processors::NormalizeVector2Processor UnityEngine::InputSystem::Processors::NormalizeVector2Processor::New_ctor()  {
+UnityEngine::InputSystem::Processors::NormalizeVector2Processor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Processors::NormalizeVector2Processor>())};
+return o;
+}
  void UnityEngine::InputSystem::Processors::NormalizeVector2Processor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Processors::NormalizeVector2Processor>::get(),

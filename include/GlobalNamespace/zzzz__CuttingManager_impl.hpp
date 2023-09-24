@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CuttingManager_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutter_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CuttingManager.OnEnable
 template<>
 
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, leftSaber, rightSaber);
 }
-// Ctor Parameters []
- GlobalNamespace::CuttingManager::CuttingManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CuttingManager>())) {}
+ GlobalNamespace::CuttingManager GlobalNamespace::CuttingManager::New_ctor()  {
+GlobalNamespace::CuttingManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CuttingManager>())};
+return o;
+}
  void GlobalNamespace::CuttingManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CuttingManager>::get(),

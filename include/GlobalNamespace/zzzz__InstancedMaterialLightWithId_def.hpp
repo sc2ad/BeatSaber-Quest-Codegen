@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class MaterialPropertyBlockColorSetter;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockColorSetter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +102,7 @@ constexpr bool __get__startColorWasSet() const;
 /// @brief Method ColorWasSet addr 0x1f9cd58 size 0x84 virtual true final false
  void ColorWasSet(UnityEngine::Color newColor) ;
 
-// Ctor Parameters []
-explicit InstancedMaterialLightWithId() ;
+static GlobalNamespace::InstancedMaterialLightWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9cddc size 0x18 virtual false final false
  void _ctor() ;

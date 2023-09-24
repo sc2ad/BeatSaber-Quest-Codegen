@@ -4,15 +4,15 @@
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelCollection;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPrevie
 /// @brief Method get_beatmapLevels addr 0x21e2b20 size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> get_beatmapLevels() ;
 
-// Ctor Parameters [CppParam { name: "levels", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel>", modifiers: "", def_value: None }]
-explicit BeatmapLevelCollection(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> levels) ;
+static GlobalNamespace::BeatmapLevelCollection New_ctor(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> levels) ;
 
 /// @brief Method .ctor addr 0x21e2b28 size 0x28 virtual false final false
  void _ctor(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> levels) ;

@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_TOPNodeData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__TOPNodeTags_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_TOPWorkResult_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_WorkItemTally_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__TOPNodeTags_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_WorkItemTally_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_TOPNodeData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_TOPWorkResult_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_TOPNodeData__PDGState::HoudiniEngineUnity__HEU_TOPNodeData__PDGState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -196,8 +197,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_TOPNodeData::HEU_TOPNodeData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_TOPNodeData>())) {}
+ HoudiniEngineUnity::HEU_TOPNodeData HoudiniEngineUnity::HEU_TOPNodeData::New_ctor()  {
+HoudiniEngineUnity::HEU_TOPNodeData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_TOPNodeData>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_TOPNodeData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_TOPNodeData>::get(),

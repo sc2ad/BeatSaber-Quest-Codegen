@@ -4,13 +4,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct DragAndDropPosition;
-}
-namespace UnityEngine::UIElements {
 class IDragAndDropData;
 }
 namespace UnityEngine::UIElements {
 class IListDragAndDropArgs;
+}
+namespace UnityEngine::UIElements {
+struct DragAndDropPosition;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

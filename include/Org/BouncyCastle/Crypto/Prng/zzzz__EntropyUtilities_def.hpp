@@ -55,8 +55,7 @@ constexpr explicit EntropyUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 /// @brief Method GenerateSeed addr 0xeb4678 size 0x15c virtual false final false
 static ::ArrayW<uint8_t> GenerateSeed(Org::BouncyCastle::Crypto::IEntropySource entropySource, int32_t numBytes) ;
 
-// Ctor Parameters []
-explicit EntropyUtilities() ;
+static Org::BouncyCastle::Crypto::Prng::EntropyUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb47d4 size 0x8 virtual false final false
  void _ctor() ;

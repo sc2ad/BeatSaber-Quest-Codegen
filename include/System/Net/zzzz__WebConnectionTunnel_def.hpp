@@ -5,37 +5,43 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::IO {
-class Stream;
+namespace System::Net {
+struct System__Net__WebConnectionTunnel___Initialize_d__42;
 }
 namespace System::Net {
-class HttpWebRequest;
+struct System__Net__WebConnectionTunnel___ReadHeaders_d__43;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System {
-template<typename T1,typename T2,typename T3>
-struct ValueTuple_3;
+namespace System::Net {
+struct System__Net__WebConnectionTunnel__NtlmAuthState;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System::IO {
+class Stream;
 }
 namespace System {
 class Version;
 }
+namespace System {
+template<typename T1,typename T2,typename T3>
+struct ValueTuple_3;
+}
 namespace System::Net {
 class WebHeaderCollection;
 }
+namespace System::Net {
+class HttpWebRequest;
+}
 namespace System {
 class Uri;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -47,12 +53,15 @@ struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredT
 namespace System::Runtime::CompilerServices {
 struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
-namespace System::IO {
-class MemoryStream;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
+}
+namespace System::IO {
+class MemoryStream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -117,6 +126,8 @@ __Response = 2,
 constexpr operator __System__Net__WebConnectionTunnel__NtlmAuthState_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__WebConnectionTunnel__NtlmAuthState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -518,8 +529,7 @@ constexpr ::ArrayW<uint8_t> __get__Data_k__BackingField() const;
 /// @brief Method get_ConnectUri addr 0x284e040 size 0x8 virtual false final false
  System::Uri get_ConnectUri() ;
 
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::HttpWebRequest", modifiers: "", def_value: None }, CppParam { name: "connectUri", ty: "System::Uri", modifiers: "", def_value: None }]
-explicit WebConnectionTunnel(System::Net::HttpWebRequest request, System::Uri connectUri) ;
+static System::Net::WebConnectionTunnel New_ctor(System::Net::HttpWebRequest request, System::Uri connectUri) ;
 
 /// @brief Method .ctor addr 0x284c794 size 0x2c virtual false final false
  void _ctor(System::Net::HttpWebRequest request, System::Uri connectUri) ;

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Zenject::InjectOptionalAttribute::InjectOptionalAttribute()  : Zenject::InjectAttributeBase(THROW_UNLESS(::il2cpp_utils::New<InjectOptionalAttribute>())) {}
+ Zenject::InjectOptionalAttribute Zenject::InjectOptionalAttribute::New_ctor()  {
+Zenject::InjectOptionalAttribute o{THROW_UNLESS(::il2cpp_utils::New<Zenject::InjectOptionalAttribute>())};
+return o;
+}
  void Zenject::InjectOptionalAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::InjectOptionalAttribute>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__Constraint_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__ConstraintRotationOffset_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::ConstraintRotationOffset.UpdateConstraint
 template<>
 
@@ -116,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::ConstraintRotationOffset::ConstraintRotationOffset()  : RootMotion::FinalIK::Constraint(THROW_UNLESS(::il2cpp_utils::New<ConstraintRotationOffset>())) {}
+ RootMotion::FinalIK::ConstraintRotationOffset RootMotion::FinalIK::ConstraintRotationOffset::New_ctor()  {
+RootMotion::FinalIK::ConstraintRotationOffset o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::ConstraintRotationOffset>())};
+return o;
+}
  void RootMotion::FinalIK::ConstraintRotationOffset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::ConstraintRotationOffset>::get(),
@@ -127,8 +129,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::ConstraintRotationOffset::ConstraintRotationOffset(UnityEngine::Transform transform)  : RootMotion::FinalIK::Constraint(THROW_UNLESS(::il2cpp_utils::New<ConstraintRotationOffset>(transform))) {}
+ RootMotion::FinalIK::ConstraintRotationOffset RootMotion::FinalIK::ConstraintRotationOffset::New_ctor(UnityEngine::Transform transform)  {
+RootMotion::FinalIK::ConstraintRotationOffset o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::ConstraintRotationOffset>(transform))};
+return o;
+}
  void RootMotion::FinalIK::ConstraintRotationOffset::_ctor(UnityEngine::Transform transform)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::ConstraintRotationOffset>::get(),

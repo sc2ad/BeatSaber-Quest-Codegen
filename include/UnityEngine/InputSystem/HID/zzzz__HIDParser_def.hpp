@@ -6,7 +6,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HIDParser__HIDItemTypeAndTag;
+}
+namespace UnityEngine::InputSystem::HID {
 struct UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HIDParser__HIDReportData;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HIDParser__HIDItemStateLocal;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HIDParser__HIDItemStateGlobal;
 }
 namespace System {
 template<typename T>
@@ -183,6 +195,8 @@ __Delimiter = 168,
 constexpr operator __UnityEngine__InputSystem__HID__HIDParser__HIDItemTypeAndTag_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__HID__HIDParser__HIDItemTypeAndTag_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

@@ -1,17 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -89,26 +89,22 @@ constexpr System::Runtime::InteropServices::GCHandle __get_gcHandle() const;
 /// @brief Method AllocateHandle addr 0x249bca0 size 0x28 virtual false final false
  void AllocateHandle(::bs_hook::Il2CppWrapperType target) ;
 
-// Ctor Parameters []
-explicit WeakReference() ;
+static System::WeakReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x249bcc8 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit WeakReference(::bs_hook::Il2CppWrapperType target) ;
+static System::WeakReference New_ctor(::bs_hook::Il2CppWrapperType target) ;
 
 /// @brief Method .ctor addr 0x249bcd0 size 0x30 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType target) ;
 
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "trackResurrection", ty: "bool", modifiers: "", def_value: None }]
-explicit WeakReference(::bs_hook::Il2CppWrapperType target, bool trackResurrection) ;
+static System::WeakReference New_ctor(::bs_hook::Il2CppWrapperType target, bool trackResurrection) ;
 
 /// @brief Method .ctor addr 0x249bd00 size 0x34 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType target, bool trackResurrection) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit WeakReference(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::WeakReference New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x249bd34 size 0x138 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

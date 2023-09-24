@@ -47,8 +47,7 @@ constexpr explicit ExtensionOfNativeClassAttribute(void* ptr) noexcept : System:
 
 // Methods
 
-// Ctor Parameters []
-explicit ExtensionOfNativeClassAttribute() ;
+static UnityEngine::ExtensionOfNativeClassAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5c1e8 size 0x8 virtual false final false
  void _ctor() ;

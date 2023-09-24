@@ -3,12 +3,59 @@
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionDelegateFactory_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace Newtonsoft::Json::Utilities {
+template<typename T>
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1;
+}
+namespace Newtonsoft::Json::Utilities {
+template<typename T>
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1;
+}
+namespace Newtonsoft::Json::Utilities {
+template<typename T>
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1;
+}
 namespace System::Reflection {
-class PropertyInfo;
+class MethodBase;
+}
+namespace Newtonsoft::Json::Utilities {
+template<typename T>
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename T,typename TResult>
 class MethodCall_2;
+}
+namespace System::Reflection {
+class FieldInfo;
+}
+namespace Newtonsoft::Json::Utilities {
+template<typename T>
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1;
+}
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionDelegateFactory;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace Newtonsoft::Json::Utilities {
+template<typename T>
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace Newtonsoft::Json::Serialization {
+template<typename T>
+class ObjectConstructor_1;
+}
+namespace Newtonsoft::Json::Utilities {
+class Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -17,26 +64,6 @@ class Func_2;
 namespace System {
 template<typename TResult>
 class Func_1;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json::Serialization {
-template<typename T>
-class ObjectConstructor_1;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace Newtonsoft::Json::Utilities {
-class ReflectionDelegateFactory;
 }
 namespace System::Reflection {
 class ConstructorInfo;
@@ -153,8 +180,7 @@ constexpr System::Reflection::MethodBase __get_method() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e2654 size 0x8 virtual false final false
  void _ctor() ;
@@ -281,8 +307,7 @@ template<typename T>
 template<typename T>
  System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(System::Reflection::PropertyInfo propertyInfo) ;
 
-// Ctor Parameters []
-explicit LateBoundReflectionDelegateFactory() ;
+static Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e265c size 0x8 virtual false final false
  void _ctor() ;
@@ -350,8 +375,7 @@ constexpr System::Reflection::MethodBase __get_method() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -425,8 +449,7 @@ constexpr System::Reflection::ConstructorInfo __get_constructorInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -494,8 +517,7 @@ constexpr System::Reflection::PropertyInfo __get_propertyInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -560,8 +582,7 @@ constexpr System::Reflection::FieldInfo __get_fieldInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -626,8 +647,7 @@ constexpr System::Reflection::FieldInfo __get_fieldInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -692,8 +712,7 @@ constexpr System::Reflection::PropertyInfo __get_propertyInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

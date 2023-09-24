@@ -50,8 +50,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Serialization::XmlTypeConvertorAttribute::XmlTypeConvertorAttribute(::StringW method)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<XmlTypeConvertorAttribute>(method))) {}
+ System::Xml::Serialization::XmlTypeConvertorAttribute System::Xml::Serialization::XmlTypeConvertorAttribute::New_ctor(::StringW method)  {
+System::Xml::Serialization::XmlTypeConvertorAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Serialization::XmlTypeConvertorAttribute>(method))};
+return o;
+}
  void System::Xml::Serialization::XmlTypeConvertorAttribute::_ctor(::StringW method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Serialization::XmlTypeConvertorAttribute>::get(),

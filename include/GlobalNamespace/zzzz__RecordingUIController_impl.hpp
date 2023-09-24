@@ -2,6 +2,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingUIController_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingUIController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__RecordingUIController__InitData._ctor
 template<>
 
@@ -25,8 +26,10 @@ constexpr void GlobalNamespace::GlobalNamespace__RecordingUIController__InitData
 constexpr bool GlobalNamespace::GlobalNamespace__RecordingUIController__InitData::__get_recordingEnabled() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "recordingEnabled", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__RecordingUIController__InitData::GlobalNamespace__RecordingUIController__InitData(bool recordingEnabled)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__RecordingUIController__InitData>(recordingEnabled))) {}
+ GlobalNamespace::GlobalNamespace__RecordingUIController__InitData GlobalNamespace::GlobalNamespace__RecordingUIController__InitData::New_ctor(bool recordingEnabled)  {
+GlobalNamespace::GlobalNamespace__RecordingUIController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__RecordingUIController__InitData>(recordingEnabled))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__RecordingUIController__InitData::_ctor(bool recordingEnabled)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__RecordingUIController__InitData>::get(),
@@ -129,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::RecordingUIController::RecordingUIController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RecordingUIController>())) {}
+ GlobalNamespace::RecordingUIController GlobalNamespace::RecordingUIController::New_ctor()  {
+GlobalNamespace::RecordingUIController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingUIController>())};
+return o;
+}
  void GlobalNamespace::RecordingUIController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingUIController>::get(),

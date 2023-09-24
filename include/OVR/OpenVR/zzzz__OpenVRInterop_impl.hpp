@@ -253,8 +253,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- OVR::OpenVR::OpenVRInterop::OpenVRInterop()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OpenVRInterop>())) {}
+ OVR::OpenVR::OpenVRInterop OVR::OpenVR::OpenVRInterop::New_ctor()  {
+OVR::OpenVR::OpenVRInterop o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OpenVRInterop>())};
+return o;
+}
  void OVR::OpenVR::OpenVRInterop::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OpenVRInterop>::get(),

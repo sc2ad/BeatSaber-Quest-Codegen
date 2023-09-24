@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__ShapeFactory_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__PivotLocation_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__PivotLocation_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::ShapeFactory.Instantiate
 template<>
 

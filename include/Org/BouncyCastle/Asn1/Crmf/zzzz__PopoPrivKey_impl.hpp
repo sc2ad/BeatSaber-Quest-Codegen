@@ -2,10 +2,10 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoPrivKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__SubsequentMessage_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__SubsequentMessage_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Crmf::PopoPrivKey._ctor
 template<>
 
@@ -124,8 +124,10 @@ constexpr void Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::__set_obj(Org::Bouncy
 constexpr Org::BouncyCastle::Asn1::Asn1Encodable Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::__get_obj() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Encodable, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::PopoPrivKey(Org::BouncyCastle::Asn1::Asn1TaggedObject obj)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PopoPrivKey>(obj))) {}
+ Org::BouncyCastle::Asn1::Crmf::PopoPrivKey Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject obj)  {
+Org::BouncyCastle::Asn1::Crmf::PopoPrivKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::PopoPrivKey>(obj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::PopoPrivKey>::get(),
@@ -144,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Crmf::PopoPrivKey, false>(nullptr, ___internal_method, tagged, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "msg", ty: "Org::BouncyCastle::Asn1::Crmf::SubsequentMessage", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::PopoPrivKey(Org::BouncyCastle::Asn1::Crmf::SubsequentMessage msg)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PopoPrivKey>(msg))) {}
+ Org::BouncyCastle::Asn1::Crmf::PopoPrivKey Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::New_ctor(Org::BouncyCastle::Asn1::Crmf::SubsequentMessage msg)  {
+Org::BouncyCastle::Asn1::Crmf::PopoPrivKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::PopoPrivKey>(msg))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::_ctor(Org::BouncyCastle::Asn1::Crmf::SubsequentMessage msg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::PopoPrivKey>::get(),

@@ -53,8 +53,7 @@ constexpr explicit UrlInputFieldSettingsController(void* ptr) noexcept : GlobalN
 /// @brief Method HandleInputFieldDidChange addr 0x2153ca8 size 0x90 virtual true final false
  void HandleInputFieldDidChange(HMUI::InputFieldView inputFieldView) ;
 
-// Ctor Parameters []
-explicit UrlInputFieldSettingsController() ;
+static GlobalNamespace::UrlInputFieldSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2153d38 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,12 +4,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Mono::Net::Security {
+struct Mono__Net__Security__AsyncProtocolRequest___ProcessOperation_d__24;
+}
+namespace Mono::Net::Security {
+class MobileAuthenticatedStream;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace Mono::Net::Security {
+struct Mono__Net__Security__AsyncProtocolRequest___InnerRead_d__25;
+}
+namespace Mono::Net::Security {
+struct Mono__Net__Security__AsyncProtocolRequest___StartOperation_d__23;
+}
+namespace Mono::Net::Security {
+class AsyncProtocolResult;
+}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace Mono::Net::Security {
-class AsyncProtocolResult;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace Mono::Net::Security {
 struct AsyncOperationStatus;
@@ -18,25 +36,16 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
@@ -473,8 +482,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_locker() const;
 /// @brief Method set_UserResult addr 0x268c8a8 size 0x8 virtual false final false
  void set_UserResult(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "sync", ty: "bool", modifiers: "", def_value: None }]
-explicit AsyncProtocolRequest(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync) ;
+static Mono::Net::Security::AsyncProtocolRequest New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync) ;
 
 /// @brief Method .ctor addr 0x268c8b0 size 0x88 virtual false final false
  void _ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync) ;

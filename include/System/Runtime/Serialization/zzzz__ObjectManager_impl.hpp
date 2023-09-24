@@ -1,17 +1,17 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__ObjectManager_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/Reflection/zzzz__RuntimeConstructorInfo_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ObjectHolder_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ObjectHolderList_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationEventHandler_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Runtime/Serialization/zzzz__DeserializationEventHandler_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__FixupHolder_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ObjectHolderList_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationEventHandler_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ObjectHolder_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::ObjectManager._ctor
 template<>
 
@@ -553,8 +553,10 @@ constexpr void System::Runtime::Serialization::ObjectManager::__set_m_context(Sy
 constexpr System::Runtime::Serialization::StreamingContext System::Runtime::Serialization::ObjectManager::__get_m_context() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::StreamingContext, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "selector", ty: "System::Runtime::Serialization::ISurrogateSelector", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }, CppParam { name: "checkSecurity", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isCrossAppDomain", ty: "bool", modifiers: "", def_value: None }]
- System::Runtime::Serialization::ObjectManager::ObjectManager(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, bool checkSecurity, bool isCrossAppDomain)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectManager>(selector, context, checkSecurity, isCrossAppDomain))) {}
+ System::Runtime::Serialization::ObjectManager System::Runtime::Serialization::ObjectManager::New_ctor(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, bool checkSecurity, bool isCrossAppDomain)  {
+System::Runtime::Serialization::ObjectManager o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::ObjectManager>(selector, context, checkSecurity, isCrossAppDomain))};
+return o;
+}
  void System::Runtime::Serialization::ObjectManager::_ctor(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, bool checkSecurity, bool isCrossAppDomain)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::ObjectManager>::get(),

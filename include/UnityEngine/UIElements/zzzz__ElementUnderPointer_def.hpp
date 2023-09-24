@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
+class IPointerEvent;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine {
@@ -12,9 +15,6 @@ struct Vector2;
 }
 namespace UnityEngine::UIElements {
 struct ContextType;
-}
-namespace UnityEngine::UIElements {
-class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
 class IMouseEvent;
@@ -134,8 +134,7 @@ constexpr ::ArrayW<bool> __get_m_IsPickingPointerTemporaries() const;
 /// @brief Method CommitElementUnderPointers addr 0x2cd11cc size 0xc54 virtual false final false
  void CommitElementUnderPointers(UnityEngine::UIElements::EventDispatcher dispatcher, UnityEngine::UIElements::ContextType contextType) ;
 
-// Ctor Parameters []
-explicit ElementUnderPointer() ;
+static UnityEngine::UIElements::ElementUnderPointer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd2594 size 0x15c virtual false final false
  void _ctor() ;

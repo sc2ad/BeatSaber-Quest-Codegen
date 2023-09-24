@@ -147,8 +147,7 @@ static int32_t __get_negotiated_ff_dhe_groups() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit ExtensionType() ;
+static Org::BouncyCastle::Crypto::Tls::ExtensionType New_ctor() ;
 
 /// @brief Method .ctor addr 0xf042d4 size 0x8 virtual false final false
  void _ctor() ;

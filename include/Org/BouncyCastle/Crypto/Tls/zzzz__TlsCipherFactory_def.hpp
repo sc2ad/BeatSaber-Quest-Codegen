@@ -2,10 +2,10 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class TlsCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

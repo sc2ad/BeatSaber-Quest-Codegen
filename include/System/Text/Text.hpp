@@ -1,5 +1,6 @@
 #pragma once
 #include "System/Text/ASCIIEncoding.hpp"
+#include "System/Text/ASCIIEncoding_ASCIIEncodingSealed.hpp"
 #include "System/Text/Decoder.hpp"
 #include "System/Text/DecoderExceptionFallback.hpp"
 #include "System/Text/DecoderExceptionFallbackBuffer.hpp"
@@ -35,6 +36,7 @@
 #include "System/Text/UTF32Encoding.hpp"
 #include "System/Text/UTF7Encoding.hpp"
 #include "System/Text/UTF8Encoding.hpp"
+#include "System/Text/UTF8Encoding_UTF8EncodingSealed.hpp"
 #include "System/Text/UnicodeEncoding.hpp"
 #include "System/Text/ValueStringBuilder.hpp"
 #include "System/Text/ValueUtf8Converter.hpp"

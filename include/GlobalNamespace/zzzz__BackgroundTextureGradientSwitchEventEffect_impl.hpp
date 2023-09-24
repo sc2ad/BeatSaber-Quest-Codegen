@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BackgroundTextureGradientSwitchEventEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BackgroundTextureGradientSwitchEventEffect.Start
 template<>
 
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, eventData);
 }
-// Ctor Parameters []
- GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::BackgroundTextureGradientSwitchEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BackgroundTextureGradientSwitchEventEffect>())) {}
+ GlobalNamespace::BackgroundTextureGradientSwitchEventEffect GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::New_ctor()  {
+GlobalNamespace::BackgroundTextureGradientSwitchEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BackgroundTextureGradientSwitchEventEffect>())};
+return o;
+}
  void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BackgroundTextureGradientSwitchEventEffect>::get(),

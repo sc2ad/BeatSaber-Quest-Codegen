@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PacketTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -78,8 +78,7 @@ constexpr ::ArrayW<uint8_t> __get_contents() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit ExperimentalPacket(Org::BouncyCastle::Bcpg::PacketTag tag, Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::ExperimentalPacket New_ctor(Org::BouncyCastle::Bcpg::PacketTag tag, Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x11450e4 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PacketTag tag, Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;

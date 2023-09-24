@@ -67,8 +67,7 @@ constexpr explicit BeatmapSaveDataItem(void* ptr) noexcept : ::bs_hook::Il2CppWr
 /// @brief Method CompareTo addr 0xd9c020 size 0xb0 virtual true final true
  int32_t CompareTo(BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem other) ;
 
-// Ctor Parameters []
-explicit BeatmapSaveDataItem() ;
+static BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem New_ctor() ;
 
 /// @brief Method .ctor addr 0xd9bd50 size 0x8 virtual false final false
  void _ctor() ;

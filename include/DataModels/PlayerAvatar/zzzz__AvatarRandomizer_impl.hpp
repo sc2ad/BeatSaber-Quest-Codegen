@@ -1,7 +1,7 @@
 #pragma once
 #include "DataModels/PlayerAvatar/zzzz__AvatarRandomizer_def.hpp"
-#include "DataModels/PlayerAvatar/zzzz__RandomizeAvatarColorMap_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarData_def.hpp"
+#include "DataModels/PlayerAvatar/zzzz__RandomizeAvatarColorMap_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarPartsModel_def.hpp"
 //  Writing Method size for method: DataModels::PlayerAvatar::AvatarRandomizer.RandomizeAll
 template<>

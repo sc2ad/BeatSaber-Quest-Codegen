@@ -2,8 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-class Random;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -11,11 +12,10 @@ class IList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class IReadOnlyList_1;
+}
+namespace System {
+class Random;
 }
 // Forward declare root types
 namespace GlobalNamespace {

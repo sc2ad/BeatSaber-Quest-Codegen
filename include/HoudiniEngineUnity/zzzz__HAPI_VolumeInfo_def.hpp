@@ -4,13 +4,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-struct HAPI_VolumeType;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_StorageType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

@@ -2,15 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace Oculus::Platform::Models {
+class LaunchDetails;
+}
 namespace Oculus::Platform {
 struct LaunchResult;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Oculus__Platform__Message_1__Callback;
-}
-namespace Oculus::Platform::Models {
-class LaunchDetails;
 }
 // Forward declare root types
 namespace Oculus::Platform {

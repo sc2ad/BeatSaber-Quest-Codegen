@@ -50,8 +50,7 @@ constexpr explicit GameServerBrowserFlowCoordinator(void* ptr) noexcept : HMUI::
 /// @brief Method DidActivate addr 0x2136f88 size 0x4 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit GameServerBrowserFlowCoordinator() ;
+static GlobalNamespace::GameServerBrowserFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2136f8c size 0x8 virtual false final false
  void _ctor() ;

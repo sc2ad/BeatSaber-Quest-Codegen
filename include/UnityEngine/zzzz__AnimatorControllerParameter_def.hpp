@@ -100,8 +100,7 @@ constexpr bool __get_m_DefaultBool() const;
 /// @brief Method GetHashCode addr 0x2b1a364 size 0x20 virtual true final false
  int32_t GetHashCode() ;
 
-// Ctor Parameters []
-explicit AnimatorControllerParameter() ;
+static UnityEngine::AnimatorControllerParameter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b1a384 size 0x50 virtual false final false
  void _ctor() ;

@@ -5,59 +5,60 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-struct DisconnectedReason;
+class GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams;
 }
-namespace BGNet::Core {
-struct DeliveryMethod;
+namespace System {
+class IDisposable;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameLiftConnectionManager___GameLiftConnectToServer_d__81;
+}
+namespace GlobalNamespace {
+class ICertificateValidator;
 }
 namespace GlobalNamespace {
 struct PublicServerInfo;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameLiftConnectionManager__StartClientParams;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class IPollable;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace GlobalNamespace {
-class IPollable;
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace BGNet::Core {
+class ITimeProvider;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace System {
-class Action;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-template<typename T>
-class Action_1;
+class IConnection;
 }
 namespace GlobalNamespace {
-template<typename T>
-class IConnectionInitParams_1;
+class IConnectionManager;
 }
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
+namespace BGNet::Core {
+struct DeliveryMethod;
 }
 namespace GlobalNamespace {
-class GameLiftClientConnectionRequestHandler;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+class GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase;
 }
 namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace BGNet::Core::GameLift {
-class IGameLiftPlayerSessionProvider;
+namespace System {
+class Action;
 }
 namespace BGNet::Core {
 class ITaskUtility;
@@ -65,44 +66,58 @@ class ITaskUtility;
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Action_3;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System {
-class IDisposable;
+namespace BGNet::Core::GameLift {
+class IGameLiftPlayerSessionProvider;
 }
 namespace GlobalNamespace {
-class IConnection;
+class GameLiftClientConnectionRequestHandler;
 }
-namespace System::Collections::Generic {
+namespace GlobalNamespace {
 template<typename T>
-class IReadOnlyList_1;
+class IConnectionInitParams_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace GlobalNamespace {
-class IConnectionManager;
+struct GlobalNamespace__GameLiftConnectionManager__ConnectionState;
 }
-namespace BGNet::Core {
-class ITimeProvider;
-}
-namespace System::Threading {
-struct CancellationToken;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace GlobalNamespace {
-class ICertificateValidator;
+struct DisconnectedReason;
 }
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace BGNet::Core::GameLift {
+class PlayerSessionInfo;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
-namespace BGNet::Core::GameLift {
-class PlayerSessionInfo;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -177,6 +192,8 @@ __Disconnecting = 3,
 constexpr operator __GlobalNamespace__GameLiftConnectionManager__ConnectionState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__GameLiftConnectionManager__ConnectionState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -275,8 +292,7 @@ constexpr GlobalNamespace::GameplayServerConfiguration __get_configuration() con
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase() ;
+static GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase New_ctor() ;
 
 /// @brief Method .ctor addr 0xdabd24 size 0x2c virtual false final false
  void _ctor() ;
@@ -342,8 +358,7 @@ constexpr ::StringW __get_code() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams() ;
+static GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams New_ctor() ;
 
 /// @brief Method .ctor addr 0xdabd64 size 0x2c virtual false final false
  void _ctor() ;
@@ -394,8 +409,7 @@ constexpr explicit GlobalNamespace__GameLiftConnectionManager__StartClientParams
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameLiftConnectionManager__StartClientParams() ;
+static GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__StartClientParams New_ctor() ;
 
 /// @brief Method .ctor addr 0xdabd90 size 0x2c virtual false final false
  void _ctor() ;
@@ -814,14 +828,12 @@ constexpr System::Action_3<GlobalNamespace::IConnection,LiteNetLib::Utils::NetDa
 /// @brief Method PollUpdate addr 0xdaac28 size 0xa0 virtual true final true
  void PollUpdate() ;
 
-// Ctor Parameters []
-explicit GameLiftConnectionManager() ;
+static GlobalNamespace::GameLiftConnectionManager New_ctor() ;
 
 /// @brief Method .ctor addr 0xdaacc8 size 0x118 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }, CppParam { name: "connectionManager", ty: "GlobalNamespace::IConnectionManager", modifiers: "", def_value: None }, CppParam { name: "certificateValidator", ty: "GlobalNamespace::ICertificateValidator", modifiers: "", def_value: None }]
-explicit GameLiftConnectionManager(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager, GlobalNamespace::ICertificateValidator certificateValidator) ;
+static GlobalNamespace::GameLiftConnectionManager New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager, GlobalNamespace::ICertificateValidator certificateValidator) ;
 
 /// @brief Method .ctor addr 0xdaae8c size 0x4b0 virtual false final false
  void _ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager, GlobalNamespace::ICertificateValidator certificateValidator) ;

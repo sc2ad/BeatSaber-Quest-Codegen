@@ -385,8 +385,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::Cast5Engine::__set__rounds(in
 constexpr int32_t Org::BouncyCastle::Crypto::Engines::Cast5Engine::__get__rounds() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::Cast5Engine::Cast5Engine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Cast5Engine>())) {}
+ Org::BouncyCastle::Crypto::Engines::Cast5Engine Org::BouncyCastle::Crypto::Engines::Cast5Engine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::Cast5Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Cast5Engine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Cast5Engine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Cast5Engine>::get(),

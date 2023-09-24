@@ -134,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::JsonExtensionDataAttribute::JsonExtensionDataAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<JsonExtensionDataAttribute>())) {}
+ Newtonsoft::Json::JsonExtensionDataAttribute Newtonsoft::Json::JsonExtensionDataAttribute::New_ctor()  {
+Newtonsoft::Json::JsonExtensionDataAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonExtensionDataAttribute>())};
+return o;
+}
  void Newtonsoft::Json::JsonExtensionDataAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonExtensionDataAttribute>::get(),

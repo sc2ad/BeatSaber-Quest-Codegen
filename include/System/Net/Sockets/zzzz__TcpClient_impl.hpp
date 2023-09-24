@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
+#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::Net::Sockets::TcpClient._ctor
 template<>
 
@@ -331,8 +331,10 @@ constexpr void System::Net::Sockets::TcpClient::__set_m_CleanedUp(bool value)  {
 constexpr bool System::Net::Sockets::TcpClient::__get_m_CleanedUp() const {
 return ::cordl_internals::getInstanceField<bool, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Sockets::TcpClient::TcpClient()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TcpClient>())) {}
+ System::Net::Sockets::TcpClient System::Net::Sockets::TcpClient::New_ctor()  {
+System::Net::Sockets::TcpClient o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::TcpClient>())};
+return o;
+}
  void System::Net::Sockets::TcpClient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::TcpClient>::get(),
@@ -342,8 +344,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "family", ty: "System::Net::Sockets::AddressFamily", modifiers: "", def_value: None }]
- System::Net::Sockets::TcpClient::TcpClient(System::Net::Sockets::AddressFamily family)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TcpClient>(family))) {}
+ System::Net::Sockets::TcpClient System::Net::Sockets::TcpClient::New_ctor(System::Net::Sockets::AddressFamily family)  {
+System::Net::Sockets::TcpClient o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::TcpClient>(family))};
+return o;
+}
  void System::Net::Sockets::TcpClient::_ctor(System::Net::Sockets::AddressFamily family)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::TcpClient>::get(),
@@ -353,8 +357,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, family);
 }
-// Ctor Parameters [CppParam { name: "acceptedSocket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }]
- System::Net::Sockets::TcpClient::TcpClient(System::Net::Sockets::Socket acceptedSocket)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TcpClient>(acceptedSocket))) {}
+ System::Net::Sockets::TcpClient System::Net::Sockets::TcpClient::New_ctor(System::Net::Sockets::Socket acceptedSocket)  {
+System::Net::Sockets::TcpClient o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::TcpClient>(acceptedSocket))};
+return o;
+}
  void System::Net::Sockets::TcpClient::_ctor(System::Net::Sockets::Socket acceptedSocket)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::TcpClient>::get(),

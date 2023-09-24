@@ -2,6 +2,7 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SessionParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__SessionParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder._ctor
 template<>
 
@@ -237,8 +238,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__S
 constexpr bool Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder::__get_mExtendedMasterSecret() const {
 return ::cordl_internals::getInstanceField<bool, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder>())) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder>::get(),
@@ -573,8 +576,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::SessionParameters::__set_mExtende
 constexpr bool Org::BouncyCastle::Crypto::Tls::SessionParameters::__get_mExtendedMasterSecret() const {
 return ::cordl_internals::getInstanceField<bool, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipherSuite", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "compressionAlgorithm", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "masterSecret", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "peerCertificate", ty: "Org::BouncyCastle::Crypto::Tls::Certificate", modifiers: "", def_value: None }, CppParam { name: "pskIdentity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "srpIdentity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "encodedServerExtensions", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "extendedMasterSecret", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::SessionParameters::SessionParameters(int32_t cipherSuite, uint8_t compressionAlgorithm, ::ArrayW<uint8_t> masterSecret, Org::BouncyCastle::Crypto::Tls::Certificate peerCertificate, ::ArrayW<uint8_t> pskIdentity, ::ArrayW<uint8_t> srpIdentity, ::ArrayW<uint8_t> encodedServerExtensions, bool extendedMasterSecret)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SessionParameters>(cipherSuite, compressionAlgorithm, masterSecret, peerCertificate, pskIdentity, srpIdentity, encodedServerExtensions, extendedMasterSecret))) {}
+ Org::BouncyCastle::Crypto::Tls::SessionParameters Org::BouncyCastle::Crypto::Tls::SessionParameters::New_ctor(int32_t cipherSuite, uint8_t compressionAlgorithm, ::ArrayW<uint8_t> masterSecret, Org::BouncyCastle::Crypto::Tls::Certificate peerCertificate, ::ArrayW<uint8_t> pskIdentity, ::ArrayW<uint8_t> srpIdentity, ::ArrayW<uint8_t> encodedServerExtensions, bool extendedMasterSecret)  {
+Org::BouncyCastle::Crypto::Tls::SessionParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::SessionParameters>(cipherSuite, compressionAlgorithm, masterSecret, peerCertificate, pskIdentity, srpIdentity, encodedServerExtensions, extendedMasterSecret))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::SessionParameters::_ctor(int32_t cipherSuite, uint8_t compressionAlgorithm, ::ArrayW<uint8_t> masterSecret, Org::BouncyCastle::Crypto::Tls::Certificate peerCertificate, ::ArrayW<uint8_t> pskIdentity, ::ArrayW<uint8_t> srpIdentity, ::ArrayW<uint8_t> encodedServerExtensions, bool extendedMasterSecret)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::SessionParameters>::get(),

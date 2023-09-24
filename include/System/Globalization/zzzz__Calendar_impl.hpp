@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Globalization/zzzz__Calendar_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: System::Globalization::Calendar.get_MinSupportedDateTime
 template<>
 
@@ -570,8 +570,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::DateTime, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Globalization::Calendar::Calendar()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Calendar>())) {}
+ System::Globalization::Calendar System::Globalization::Calendar::New_ctor()  {
+System::Globalization::Calendar o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::Calendar>())};
+return o;
+}
  void System::Globalization::Calendar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::Calendar>::get(),

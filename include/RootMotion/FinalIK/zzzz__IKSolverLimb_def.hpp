@@ -10,13 +10,19 @@ namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
+struct AvatarIKGoal;
+}
+namespace RootMotion::FinalIK {
+struct RootMotion__FinalIK__IKSolverLimb__BendModifier;
+}
+namespace RootMotion::FinalIK {
+struct RootMotion__FinalIK__IKSolverLimb__AxisDirection;
+}
+namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct AvatarIKGoal;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -80,6 +86,8 @@ __Goal = 4,
 constexpr operator __RootMotion__FinalIK__IKSolverLimb__BendModifier_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__FinalIK__IKSolverLimb__BendModifier_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -345,14 +353,12 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLimb__AxisD
 /// @brief Method OnPostSolveVirtual addr 0x11e18a0 size 0xa8 virtual true final false
  void OnPostSolveVirtual() ;
 
-// Ctor Parameters []
-explicit IKSolverLimb() ;
+static RootMotion::FinalIK::IKSolverLimb New_ctor() ;
 
 /// @brief Method .ctor addr 0x11e1948 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "goal", ty: "UnityEngine::AvatarIKGoal", modifiers: "", def_value: None }]
-explicit IKSolverLimb(UnityEngine::AvatarIKGoal goal) ;
+static RootMotion::FinalIK::IKSolverLimb New_ctor(UnityEngine::AvatarIKGoal goal) ;
 
 /// @brief Method .ctor addr 0x11e1adc size 0x80 virtual false final false
  void _ctor(UnityEngine::AvatarIKGoal goal) ;

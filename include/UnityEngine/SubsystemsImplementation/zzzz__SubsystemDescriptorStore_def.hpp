@@ -6,15 +6,15 @@
 namespace UnityEngine {
 class IntegratedSubsystemDescriptor;
 }
+namespace UnityEngine::SubsystemsImplementation {
+class SubsystemDescriptorWithProvider;
+}
 namespace UnityEngine {
 class SubsystemDescriptor;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::SubsystemsImplementation {
-class SubsystemDescriptorWithProvider;
 }
 // Forward declare root types
 namespace UnityEngine::SubsystemsImplementation {

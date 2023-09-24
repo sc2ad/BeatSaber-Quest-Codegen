@@ -379,8 +379,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__maxValue_k__BackingField() const;
 /// @brief Method set_maxValue addr 0x2967920 size 0x8 virtual false final false
  void set_maxValue(::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters []
-explicit InputControlAttribute() ;
+static UnityEngine::InputSystem::Layouts::InputControlAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2967928 size 0x10 virtual false final false
  void _ctor() ;

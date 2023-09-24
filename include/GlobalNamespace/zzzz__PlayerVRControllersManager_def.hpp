@@ -81,8 +81,7 @@ constexpr GlobalNamespace::VRController __get__rightHandVRController() const;
 /// @brief Method DisableAllVRControllers addr 0x210937c size 0x38 virtual false final false
  void DisableAllVRControllers() ;
 
-// Ctor Parameters []
-explicit PlayerVRControllersManager() ;
+static GlobalNamespace::PlayerVRControllersManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x21093b4 size 0x8 virtual false final false
  void _ctor() ;

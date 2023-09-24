@@ -4,19 +4,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace LIV::SDK::Unity {
-struct TEXTURE_FORMAT;
-}
-namespace LIV::SDK::Unity {
-struct TEXTURE_ID;
-}
-namespace LIV::SDK::Unity {
 struct TEXTURE_DEVICE;
 }
 namespace LIV::SDK::Unity {
 struct TEXTURE_TYPE;
 }
 namespace LIV::SDK::Unity {
+struct TEXTURE_FORMAT;
+}
+namespace LIV::SDK::Unity {
 struct TEXTURE_COLOR_SPACE;
+}
+namespace LIV::SDK::Unity {
+struct TEXTURE_ID;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

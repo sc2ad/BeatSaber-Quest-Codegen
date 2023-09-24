@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::TagPropertyAttribute::TagPropertyAttribute()  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<TagPropertyAttribute>())) {}
+ GlobalNamespace::TagPropertyAttribute GlobalNamespace::TagPropertyAttribute::New_ctor()  {
+GlobalNamespace::TagPropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TagPropertyAttribute>())};
+return o;
+}
  void GlobalNamespace::TagPropertyAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TagPropertyAttribute>::get(),

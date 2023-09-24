@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__RangeContentValidator_def.hpp"
-#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
-#include "System/Xml/Schema/zzzz__Positions_def.hpp"
-#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
+#include "System/Xml/Schema/zzzz__Positions_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::RangeContentValidator._ctor
 template<>
 
@@ -64,8 +64,10 @@ constexpr void System::Xml::Schema::RangeContentValidator::__set_endMarkerPos(in
 constexpr int32_t System::Xml::Schema::RangeContentValidator::__get_endMarkerPos() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x44>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "firstpos", ty: "System::Xml::Schema::BitSet", modifiers: "", def_value: None }, CppParam { name: "followpos", ty: "::ArrayW<System::Xml::Schema::BitSet>", modifiers: "", def_value: None }, CppParam { name: "symbols", ty: "System::Xml::Schema::SymbolsDictionary", modifiers: "", def_value: None }, CppParam { name: "positions", ty: "System::Xml::Schema::Positions", modifiers: "", def_value: None }, CppParam { name: "endMarkerPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }, CppParam { name: "isEmptiable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "positionsWithRangeTerminals", ty: "System::Xml::Schema::BitSet", modifiers: "", def_value: None }, CppParam { name: "minmaxNodesCount", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::Schema::RangeContentValidator::RangeContentValidator(System::Xml::Schema::BitSet firstpos, ::ArrayW<System::Xml::Schema::BitSet> followpos, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions, int32_t endMarkerPos, System::Xml::Schema::XmlSchemaContentType contentType, bool isEmptiable, System::Xml::Schema::BitSet positionsWithRangeTerminals, int32_t minmaxNodesCount)  : System::Xml::Schema::ContentValidator(THROW_UNLESS(::il2cpp_utils::New<RangeContentValidator>(firstpos, followpos, symbols, positions, endMarkerPos, contentType, isEmptiable, positionsWithRangeTerminals, minmaxNodesCount))) {}
+ System::Xml::Schema::RangeContentValidator System::Xml::Schema::RangeContentValidator::New_ctor(System::Xml::Schema::BitSet firstpos, ::ArrayW<System::Xml::Schema::BitSet> followpos, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions, int32_t endMarkerPos, System::Xml::Schema::XmlSchemaContentType contentType, bool isEmptiable, System::Xml::Schema::BitSet positionsWithRangeTerminals, int32_t minmaxNodesCount)  {
+System::Xml::Schema::RangeContentValidator o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::RangeContentValidator>(firstpos, followpos, symbols, positions, endMarkerPos, contentType, isEmptiable, positionsWithRangeTerminals, minmaxNodesCount))};
+return o;
+}
  void System::Xml::Schema::RangeContentValidator::_ctor(System::Xml::Schema::BitSet firstpos, ::ArrayW<System::Xml::Schema::BitSet> followpos, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions, int32_t endMarkerPos, System::Xml::Schema::XmlSchemaContentType contentType, bool isEmptiable, System::Xml::Schema::BitSet positionsWithRangeTerminals, int32_t minmaxNodesCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::RangeContentValidator>::get(),

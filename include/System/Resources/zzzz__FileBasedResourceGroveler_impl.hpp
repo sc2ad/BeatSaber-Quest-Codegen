@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Resources/zzzz__FileBasedResourceGroveler_def.hpp"
-#include "System/Resources/zzzz__IResourceGroveler_def.hpp"
 #include "System/Resources/zzzz__ResourceManager_def.hpp"
+#include "System/Resources/zzzz__IResourceGroveler_def.hpp"
 //  Writing Method size for method: System::Resources::FileBasedResourceGroveler._ctor
 template<>
 
@@ -29,8 +29,10 @@ constexpr void System::Resources::FileBasedResourceGroveler::__set__mediator(Sys
 constexpr System::Resources::System__Resources__ResourceManager__ResourceManagerMediator System::Resources::FileBasedResourceGroveler::__get__mediator() const {
 return ::cordl_internals::getInstanceField<System::Resources::System__Resources__ResourceManager__ResourceManagerMediator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mediator", ty: "System::Resources::System__Resources__ResourceManager__ResourceManagerMediator", modifiers: "", def_value: None }]
- System::Resources::FileBasedResourceGroveler::FileBasedResourceGroveler(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FileBasedResourceGroveler>(mediator))) {}
+ System::Resources::FileBasedResourceGroveler System::Resources::FileBasedResourceGroveler::New_ctor(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator)  {
+System::Resources::FileBasedResourceGroveler o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::FileBasedResourceGroveler>(mediator))};
+return o;
+}
  void System::Resources::FileBasedResourceGroveler::_ctor(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::FileBasedResourceGroveler>::get(),

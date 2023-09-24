@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::MockPlayersModel::MockPlayersModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockPlayersModel>())) {}
+ GlobalNamespace::MockPlayersModel GlobalNamespace::MockPlayersModel::New_ctor()  {
+GlobalNamespace::MockPlayersModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockPlayersModel>())};
+return o;
+}
  void GlobalNamespace::MockPlayersModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockPlayersModel>::get(),

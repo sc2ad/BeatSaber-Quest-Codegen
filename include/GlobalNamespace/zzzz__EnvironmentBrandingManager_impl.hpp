@@ -2,6 +2,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentBrandingManager_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentBrandingManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData._ctor
 template<>
 
@@ -25,8 +26,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__Ini
 constexpr bool GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData::__get_hideBranding() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hideBranding", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData::GlobalNamespace__EnvironmentBrandingManager__InitData(bool hideBranding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EnvironmentBrandingManager__InitData>(hideBranding))) {}
+ GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData::New_ctor(bool hideBranding)  {
+GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData>(hideBranding))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData::_ctor(bool hideBranding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData>::get(),
@@ -97,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EnvironmentBrandingManager::EnvironmentBrandingManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EnvironmentBrandingManager>())) {}
+ GlobalNamespace::EnvironmentBrandingManager GlobalNamespace::EnvironmentBrandingManager::New_ctor()  {
+GlobalNamespace::EnvironmentBrandingManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnvironmentBrandingManager>())};
+return o;
+}
  void GlobalNamespace::EnvironmentBrandingManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnvironmentBrandingManager>::get(),

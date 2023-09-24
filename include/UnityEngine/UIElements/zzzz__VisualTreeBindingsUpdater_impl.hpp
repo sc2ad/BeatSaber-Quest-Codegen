@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeHierarchyTrackerUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeBindingsUpdater_def.hpp"
-#include "UnityEngine/UIElements/zzzz__HierarchyChangeType_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/zzzz__PropertyName_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__PropertyName_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IBinding_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__HierarchyChangeType_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::VisualTreeBindingsUpdater.get_profilerMarker
 template<>
 
@@ -481,8 +481,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::VisualTreeBindingsUpdater::VisualTreeBindingsUpdater()  : UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater(THROW_UNLESS(::il2cpp_utils::New<VisualTreeBindingsUpdater>())) {}
+ UnityEngine::UIElements::VisualTreeBindingsUpdater UnityEngine::UIElements::VisualTreeBindingsUpdater::New_ctor()  {
+UnityEngine::UIElements::VisualTreeBindingsUpdater o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualTreeBindingsUpdater>())};
+return o;
+}
  void UnityEngine::UIElements::VisualTreeBindingsUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualTreeBindingsUpdater>::get(),

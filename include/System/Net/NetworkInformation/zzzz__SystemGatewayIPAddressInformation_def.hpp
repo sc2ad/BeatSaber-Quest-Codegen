@@ -4,11 +4,11 @@
 namespace System::Net::NetworkInformation {
 class GatewayIPAddressInformationCollection;
 }
-namespace System::Net::NetworkInformation {
-class IPAddressCollection;
-}
 namespace System::Net {
 class IPAddress;
+}
+namespace System::Net::NetworkInformation {
+class IPAddressCollection;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -65,8 +65,7 @@ constexpr System::Net::IPAddress __get_address() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "address", ty: "System::Net::IPAddress", modifiers: "", def_value: None }]
-explicit SystemGatewayIPAddressInformation(System::Net::IPAddress address) ;
+static System::Net::NetworkInformation::SystemGatewayIPAddressInformation New_ctor(System::Net::IPAddress address) ;
 
 /// @brief Method .ctor addr 0x28592f8 size 0x28 virtual false final false
  void _ctor(System::Net::IPAddress address) ;

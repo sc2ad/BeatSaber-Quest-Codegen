@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- JetBrains::Annotations::RegexPatternAttribute::RegexPatternAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RegexPatternAttribute>())) {}
+ JetBrains::Annotations::RegexPatternAttribute JetBrains::Annotations::RegexPatternAttribute::New_ctor()  {
+JetBrains::Annotations::RegexPatternAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::RegexPatternAttribute>())};
+return o;
+}
  void JetBrains::Annotations::RegexPatternAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::RegexPatternAttribute>::get(),

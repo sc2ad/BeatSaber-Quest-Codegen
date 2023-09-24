@@ -100,8 +100,7 @@ constexpr UnityEngine::ISubsystemDescriptor __get_m_SubsystemDescriptor() const;
 /// @brief Method IsRunning addr 0x2ba34d0 size 0x3c virtual false final false
  bool IsRunning() ;
 
-// Ctor Parameters []
-explicit IntegratedSubsystem() ;
+static UnityEngine::IntegratedSubsystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba350c size 0x8 virtual false final false
  void _ctor() ;

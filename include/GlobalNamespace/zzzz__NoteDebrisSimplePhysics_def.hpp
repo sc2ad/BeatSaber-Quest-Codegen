@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisPhysics_def.hpp"
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -106,8 +106,7 @@ constexpr bool __get__firstUpdate() const;
 /// @brief Method AddVelocity addr 0x2240a08 size 0x20 virtual true final false
  void AddVelocity(UnityEngine::Vector3 force) ;
 
-// Ctor Parameters []
-explicit NoteDebrisSimplePhysics() ;
+static GlobalNamespace::NoteDebrisSimplePhysics New_ctor() ;
 
 /// @brief Method .ctor addr 0x2240a28 size 0x8 virtual false final false
  void _ctor() ;

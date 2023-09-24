@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ILobbyStateDataModel.add_playerConnectedEvent
 template<>

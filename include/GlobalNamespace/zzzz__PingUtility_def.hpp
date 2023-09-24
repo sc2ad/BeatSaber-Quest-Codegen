@@ -5,33 +5,39 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
 namespace UnityEngine {
 class Ping;
 }
 namespace System::Net {
 class IPAddress;
 }
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PingUtility___PingAsync_d__0;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+namespace GlobalNamespace {
+class GlobalNamespace__PingUtility____c;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct TaskAwaiter_1;
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -100,8 +106,7 @@ static System::Func_2<System::Net::IPAddress,UnityEngine::Ping> __get___9__0_0()
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PingUtility____c() ;
+static GlobalNamespace::GlobalNamespace__PingUtility____c New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc4624 size 0x8 virtual false final false
  void _ctor() ;

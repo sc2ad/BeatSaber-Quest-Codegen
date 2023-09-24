@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyLevelProductsModelSO_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
+#include "GlobalNamespace/zzzz__SonyLevelProductsModelSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData.get_entitlementLabel
 template<>
@@ -116,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "entitlementLabel", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "productLabel", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData(::StringW entitlementLabel, ::StringW productLabel, ::StringW levelId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SonyLevelProductsModelSO__LevelProductData>(entitlementLabel, productLabel, levelId))) {}
+ GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData::New_ctor(::StringW entitlementLabel, ::StringW productLabel, ::StringW levelId)  {
+GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData>(entitlementLabel, productLabel, levelId))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData::_ctor(::StringW entitlementLabel, ::StringW productLabel, ::StringW levelId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData>::get(),
@@ -325,8 +328,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "productLabel", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelPackId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "packLevelPriceDiscountMul", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "levelProductsData", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData>", modifiers: "", def_value: None }, CppParam { name: "packIndex", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData(::StringW productLabel, ::StringW levelPackId, float_t packLevelPriceDiscountMul, ::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData> levelProductsData, int32_t packIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData>(productLabel, levelPackId, packLevelPriceDiscountMul, levelProductsData, packIndex))) {}
+ GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData::New_ctor(::StringW productLabel, ::StringW levelPackId, float_t packLevelPriceDiscountMul, ::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData> levelProductsData, int32_t packIndex)  {
+GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData>(productLabel, levelPackId, packLevelPriceDiscountMul, levelProductsData, packIndex))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData::_ctor(::StringW productLabel, ::StringW levelPackId, float_t packLevelPriceDiscountMul, ::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData> levelProductsData, int32_t packIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData>::get(),
@@ -510,8 +515,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData, false>(const_cast<void*>(instance), ___internal_method, levelPackId);
 }
-// Ctor Parameters []
- GlobalNamespace::SonyLevelProductsModelSO::SonyLevelProductsModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<SonyLevelProductsModelSO>())) {}
+ GlobalNamespace::SonyLevelProductsModelSO GlobalNamespace::SonyLevelProductsModelSO::New_ctor()  {
+GlobalNamespace::SonyLevelProductsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SonyLevelProductsModelSO>())};
+return o;
+}
  void GlobalNamespace::SonyLevelProductsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SonyLevelProductsModelSO>::get(),

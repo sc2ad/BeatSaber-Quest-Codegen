@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__WingedEdgeEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::WingedEdgeEnumerator._ctor
 template<>
 
@@ -130,8 +130,10 @@ constexpr void UnityEngine::ProBuilder::WingedEdgeEnumerator::__set_m_Current(Un
 constexpr UnityEngine::ProBuilder::WingedEdge UnityEngine::ProBuilder::WingedEdgeEnumerator::__get_m_Current() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::WingedEdge, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "start", ty: "UnityEngine::ProBuilder::WingedEdge", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::WingedEdgeEnumerator::WingedEdgeEnumerator(UnityEngine::ProBuilder::WingedEdge start)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WingedEdgeEnumerator>(start))) {}
+ UnityEngine::ProBuilder::WingedEdgeEnumerator UnityEngine::ProBuilder::WingedEdgeEnumerator::New_ctor(UnityEngine::ProBuilder::WingedEdge start)  {
+UnityEngine::ProBuilder::WingedEdgeEnumerator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::WingedEdgeEnumerator>(start))};
+return o;
+}
  void UnityEngine::ProBuilder::WingedEdgeEnumerator::_ctor(UnityEngine::ProBuilder::WingedEdge start)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::WingedEdgeEnumerator>::get(),

@@ -4,32 +4,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Security::Principal {
+struct WindowsAccountType;
+}
+namespace System::Security::Principal {
+class IIdentity;
+}
 namespace System::Security::Principal {
 class WindowsImpersonationContext;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System::Security::Principal {
-struct WindowsAccountType;
+namespace System {
+class IDisposable;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Security::Principal {
-class IIdentity;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Security::Claims {
 class ClaimsIdentity;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class IDisposable;
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -141,20 +141,17 @@ static ::cordl_internals::intptr_t __get_invalidWindows() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "userToken", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "acctType", ty: "System::Security::Principal::WindowsAccountType", modifiers: "", def_value: None }, CppParam { name: "isAuthenticated", ty: "bool", modifiers: "", def_value: None }]
-explicit WindowsIdentity(::cordl_internals::intptr_t userToken, ::StringW type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated) ;
+static System::Security::Principal::WindowsIdentity New_ctor(::cordl_internals::intptr_t userToken, ::StringW type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated) ;
 
 /// @brief Method .ctor addr 0x230f970 size 0x64 virtual false final false
  void _ctor(::cordl_internals::intptr_t userToken, ::StringW type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit WindowsIdentity(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Security::Principal::WindowsIdentity New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x230fb34 size 0x3c virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "claimsIdentity", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }, CppParam { name: "userToken", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit WindowsIdentity(System::Security::Claims::ClaimsIdentity claimsIdentity, ::cordl_internals::intptr_t userToken) ;
+static System::Security::Principal::WindowsIdentity New_ctor(System::Security::Claims::ClaimsIdentity claimsIdentity, ::cordl_internals::intptr_t userToken) ;
 
 /// @brief Method .ctor addr 0x230fb70 size 0xa4 virtual false final false
  void _ctor(System::Security::Claims::ClaimsIdentity claimsIdentity, ::cordl_internals::intptr_t userToken) ;

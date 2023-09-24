@@ -1,17 +1,17 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine::Playables {
 struct Playable;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 template<typename T>
@@ -101,8 +101,7 @@ static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::PrefabCon
 /// @brief Method SetHideFlagsRecursive addr 0x2ad448c size 0x348 virtual false final false
 static void SetHideFlagsRecursive(UnityEngine::GameObject gameObject) ;
 
-// Ctor Parameters []
-explicit PrefabControlPlayable() ;
+static UnityEngine::Timeline::PrefabControlPlayable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad49b0 size 0x8 virtual false final false
  void _ctor() ;

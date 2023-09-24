@@ -1,8 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair.get_lightColor
 template<>
 
@@ -64,8 +65,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuLightsPresetSO__LightIdColorPair>())) {}
+ GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair>::get(),
@@ -188,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MenuLightsPresetSO::MenuLightsPresetSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<MenuLightsPresetSO>())) {}
+ GlobalNamespace::MenuLightsPresetSO GlobalNamespace::MenuLightsPresetSO::New_ctor()  {
+GlobalNamespace::MenuLightsPresetSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MenuLightsPresetSO>())};
+return o;
+}
  void GlobalNamespace::MenuLightsPresetSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MenuLightsPresetSO>::get(),

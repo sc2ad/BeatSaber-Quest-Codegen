@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectKeyIdentifier_def.hpp"
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Extension {
@@ -53,8 +53,7 @@ constexpr explicit SubjectKeyIdentifierStructure(void* ptr) noexcept : Org::Boun
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encodedValue", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit SubjectKeyIdentifierStructure(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue) ;
+static Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue) ;
 
 /// @brief Method .ctor addr 0x10e41d8 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue) ;
@@ -62,8 +61,7 @@ explicit SubjectKeyIdentifierStructure(Org::BouncyCastle::Asn1::Asn1OctetString 
 /// @brief Method FromPublicKey addr 0x10e426c size 0x1bc virtual false final false
 static Org::BouncyCastle::Asn1::Asn1OctetString FromPublicKey(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
 
-// Ctor Parameters [CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit SubjectKeyIdentifierStructure(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
+static Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
 
 /// @brief Method .ctor addr 0x10e4428 size 0x24 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;

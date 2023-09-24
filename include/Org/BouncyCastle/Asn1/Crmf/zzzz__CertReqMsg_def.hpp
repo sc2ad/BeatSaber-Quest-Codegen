@@ -3,8 +3,11 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
 namespace Org::BouncyCastle::Asn1::Crmf {
-class AttributeTypeAndValue;
+class CertRequest;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -13,10 +16,7 @@ namespace Org::BouncyCastle::Asn1::Crmf {
 class ProofOfPossession;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
-class CertRequest;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class AttributeTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -95,8 +95,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_regInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertReqMsg(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Crmf::CertReqMsg New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf5f6c size 0x150 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -107,8 +106,7 @@ static Org::BouncyCastle::Asn1::Crmf::CertReqMsg GetInstance(::bs_hook::Il2CppWr
 /// @brief Method GetInstance addr 0xdf62e8 size 0x18 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::CertReqMsg GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "certReq", ty: "Org::BouncyCastle::Asn1::Crmf::CertRequest", modifiers: "", def_value: None }, CppParam { name: "popo", ty: "Org::BouncyCastle::Asn1::Crmf::ProofOfPossession", modifiers: "", def_value: None }, CppParam { name: "regInfo", ty: "::ArrayW<Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue>", modifiers: "", def_value: None }]
-explicit CertReqMsg(Org::BouncyCastle::Asn1::Crmf::CertRequest certReq, Org::BouncyCastle::Asn1::Crmf::ProofOfPossession popo, ::ArrayW<Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue> regInfo) ;
+static Org::BouncyCastle::Asn1::Crmf::CertReqMsg New_ctor(Org::BouncyCastle::Asn1::Crmf::CertRequest certReq, Org::BouncyCastle::Asn1::Crmf::ProofOfPossession popo, ::ArrayW<Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue> regInfo) ;
 
 /// @brief Method .ctor addr 0xdf6300 size 0xdc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::CertRequest certReq, Org::BouncyCastle::Asn1::Crmf::ProofOfPossession popo, ::ArrayW<Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue> regInfo) ;

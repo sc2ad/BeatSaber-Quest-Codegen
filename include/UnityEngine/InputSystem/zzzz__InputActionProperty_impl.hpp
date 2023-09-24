@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionProperty_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::InputActionProperty.get_action
 template<>
 

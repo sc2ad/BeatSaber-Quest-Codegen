@@ -65,8 +65,7 @@ constexpr bool __get_m_observed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "exception", ty: "System::AggregateException", modifiers: "", def_value: None }]
-explicit UnobservedTaskExceptionEventArgs(System::AggregateException exception) ;
+static System::Threading::Tasks::UnobservedTaskExceptionEventArgs New_ctor(System::AggregateException exception) ;
 
 /// @brief Method .ctor addr 0x24be424 size 0x6c virtual false final false
  void _ctor(System::AggregateException exception) ;

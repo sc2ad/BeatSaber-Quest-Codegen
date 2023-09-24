@@ -13,7 +13,7 @@ class NormalizeProcessor;
 // Type: UnityEngine.InputSystem.Processors::NormalizeProcessor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 374 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6670))
 // CS Name: UnityEngine.InputSystem.Processors.NormalizeProcessor
 class CORDL_TYPE NormalizeProcessor : public UnityEngine::InputSystem::InputProcessor_1<float_t> {
@@ -85,8 +85,7 @@ static float_t Denormalize(float_t value, float_t min, float_t max, float_t zero
 /// @brief Method ToString addr 0x2966df0 size 0xc4 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit NormalizeProcessor() ;
+static UnityEngine::InputSystem::Processors::NormalizeProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2966eb4 size 0x48 virtual false final false
  void _ctor() ;

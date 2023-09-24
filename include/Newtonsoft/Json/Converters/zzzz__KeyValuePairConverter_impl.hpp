@@ -1,12 +1,12 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__KeyValuePairConverter_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::KeyValuePairConverter.InitializeReflectionObject
 template<>
 
@@ -134,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, objectType);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::KeyValuePairConverter::KeyValuePairConverter()  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<KeyValuePairConverter>())) {}
+ Newtonsoft::Json::Converters::KeyValuePairConverter Newtonsoft::Json::Converters::KeyValuePairConverter::New_ctor()  {
+Newtonsoft::Json::Converters::KeyValuePairConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::KeyValuePairConverter>())};
+return o;
+}
  void Newtonsoft::Json::Converters::KeyValuePairConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::KeyValuePairConverter>::get(),

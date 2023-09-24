@@ -57,14 +57,12 @@ static Microsoft::Win32::SafeHandles::SafeProcessHandle __get_InvalidHandle() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "handle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit SafeProcessHandle(::cordl_internals::intptr_t handle) ;
+static Microsoft::Win32::SafeHandles::SafeProcessHandle New_ctor(::cordl_internals::intptr_t handle) ;
 
 /// @brief Method .ctor addr 0x2699484 size 0x2c virtual false final false
  void _ctor(::cordl_internals::intptr_t handle) ;
 
-// Ctor Parameters [CppParam { name: "existingHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
-explicit SafeProcessHandle(::cordl_internals::intptr_t existingHandle, bool ownsHandle) ;
+static Microsoft::Win32::SafeHandles::SafeProcessHandle New_ctor(::cordl_internals::intptr_t existingHandle, bool ownsHandle) ;
 
 /// @brief Method .ctor addr 0x2699254 size 0x2c virtual false final false
  void _ctor(::cordl_internals::intptr_t existingHandle, bool ownsHandle) ;

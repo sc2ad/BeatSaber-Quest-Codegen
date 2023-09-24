@@ -61,8 +61,7 @@ constexpr explicit VmpcKsa3Engine(void* ptr) noexcept : Org::BouncyCastle::Crypt
 /// @brief Method InitKey addr 0xe686b0 size 0x2a4 virtual true final false
  void InitKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes) ;
 
-// Ctor Parameters []
-explicit VmpcKsa3Engine() ;
+static Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe68954 size 0x14 virtual false final false
  void _ctor() ;

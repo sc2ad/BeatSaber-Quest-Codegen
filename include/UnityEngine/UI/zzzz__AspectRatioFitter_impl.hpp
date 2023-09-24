@@ -2,11 +2,12 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/UI/zzzz__AspectRatioFitter_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/UI/zzzz__ILayoutController_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutSelfController_def.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/UI/zzzz__AspectRatioFitter_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutSelfController_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UI::UnityEngine__UI__AspectRatioFitter__AspectMode::UnityEngine__UI__AspectRatioFitter__AspectMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -467,8 +468,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::RectTransform, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UI::AspectRatioFitter::AspectRatioFitter()  : UnityEngine::EventSystems::UIBehaviour(THROW_UNLESS(::il2cpp_utils::New<AspectRatioFitter>())) {}
+ UnityEngine::UI::AspectRatioFitter UnityEngine::UI::AspectRatioFitter::New_ctor()  {
+UnityEngine::UI::AspectRatioFitter o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::AspectRatioFitter>())};
+return o;
+}
  void UnityEngine::UI::AspectRatioFitter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::AspectRatioFitter>::get(),

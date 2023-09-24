@@ -91,8 +91,7 @@ constexpr ::StringW __get__Name_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "capcount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Group(::StringW text, ::ArrayW<int32_t> caps, int32_t capcount, ::StringW name) ;
+static System::Text::RegularExpressions::Group New_ctor(::StringW text, ::ArrayW<int32_t> caps, int32_t capcount, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x27bcacc size 0x9c virtual false final false
  void _ctor(::StringW text, ::ArrayW<int32_t> caps, int32_t capcount, ::StringW name) ;
@@ -100,8 +99,7 @@ explicit Group(::StringW text, ::ArrayW<int32_t> caps, int32_t capcount, ::Strin
 /// @brief Method get_Success addr 0x27bcb68 size 0x10 virtual false final false
  bool get_Success() ;
 
-// Ctor Parameters []
-explicit Group() ;
+static System::Text::RegularExpressions::Group New_ctor() ;
 
 /// @brief Method .ctor addr 0x27bcc74 size 0x38 virtual false final false
  void _ctor() ;

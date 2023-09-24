@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -93,20 +93,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_bagAttributes() const;
 /// @brief Method GetInstance addr 0xf01240 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::SafeBag GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
-explicit SafeBag(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::Asn1Object obj) ;
+static Org::BouncyCastle::Asn1::Pkcs::SafeBag New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::Asn1Object obj) ;
 
 /// @brief Method .ctor addr 0xf014b0 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::Asn1Object obj) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }, CppParam { name: "bagAttributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit SafeBag(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::Asn1Object obj, Org::BouncyCastle::Asn1::Asn1Set bagAttributes) ;
+static Org::BouncyCastle::Asn1::Pkcs::SafeBag New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::Asn1Object obj, Org::BouncyCastle::Asn1::Asn1Set bagAttributes) ;
 
 /// @brief Method .ctor addr 0xf014e0 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::Asn1Object obj, Org::BouncyCastle::Asn1::Asn1Set bagAttributes) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SafeBag(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::SafeBag New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xf012e4 size 0x1cc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

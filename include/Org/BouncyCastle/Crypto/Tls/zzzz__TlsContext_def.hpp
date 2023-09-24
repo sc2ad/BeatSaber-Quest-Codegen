@@ -4,8 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Tls {
-class SecurityParameters;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
@@ -16,8 +16,8 @@ class TlsSession;
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Tls {
+class SecurityParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

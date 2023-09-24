@@ -58,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-// Ctor Parameters []
- GlobalNamespace::RecordingToolLoggingViewController::RecordingToolLoggingViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<RecordingToolLoggingViewController>())) {}
+ GlobalNamespace::RecordingToolLoggingViewController GlobalNamespace::RecordingToolLoggingViewController::New_ctor()  {
+GlobalNamespace::RecordingToolLoggingViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingToolLoggingViewController>())};
+return o;
+}
  void GlobalNamespace::RecordingToolLoggingViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingToolLoggingViewController>::get(),

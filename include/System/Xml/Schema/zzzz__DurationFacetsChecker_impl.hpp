@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__FacetsChecker_impl.hpp"
 #include "System/Xml/Schema/zzzz__DurationFacetsChecker_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::DurationFacetsChecker.CheckValueFacets
 template<>
@@ -126,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, value, enumeration);
 }
-// Ctor Parameters []
- System::Xml::Schema::DurationFacetsChecker::DurationFacetsChecker()  : System::Xml::Schema::FacetsChecker(THROW_UNLESS(::il2cpp_utils::New<DurationFacetsChecker>())) {}
+ System::Xml::Schema::DurationFacetsChecker System::Xml::Schema::DurationFacetsChecker::New_ctor()  {
+System::Xml::Schema::DurationFacetsChecker o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::DurationFacetsChecker>())};
+return o;
+}
  void System::Xml::Schema::DurationFacetsChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::DurationFacetsChecker>::get(),

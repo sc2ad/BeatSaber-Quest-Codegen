@@ -7,29 +7,29 @@
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class Holder;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1::X509 {
+class Holder;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace System {
 class ICloneable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralNames;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -103,32 +103,27 @@ constexpr Org::BouncyCastle::Asn1::X509::Holder __get_holder() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit AttributeCertificateHolder(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::X509::AttributeCertificateHolder New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x10e7c8c size 0x34 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "issuerName", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit AttributeCertificateHolder(Org::BouncyCastle::Asn1::X509::X509Name issuerName, Org::BouncyCastle::Math::BigInteger serialNumber) ;
+static Org::BouncyCastle::X509::AttributeCertificateHolder New_ctor(Org::BouncyCastle::Asn1::X509::X509Name issuerName, Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
 /// @brief Method .ctor addr 0x10e7cc0 size 0xf4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name issuerName, Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
-// Ctor Parameters [CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
-explicit AttributeCertificateHolder(Org::BouncyCastle::X509::X509Certificate cert) ;
+static Org::BouncyCastle::X509::AttributeCertificateHolder New_ctor(Org::BouncyCastle::X509::X509Certificate cert) ;
 
 /// @brief Method .ctor addr 0x10e7e48 size 0x1e4 virtual false final false
  void _ctor(Org::BouncyCastle::X509::X509Certificate cert) ;
 
-// Ctor Parameters [CppParam { name: "principal", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
-explicit AttributeCertificateHolder(Org::BouncyCastle::Asn1::X509::X509Name principal) ;
+static Org::BouncyCastle::X509::AttributeCertificateHolder New_ctor(Org::BouncyCastle::Asn1::X509::X509Name principal) ;
 
 /// @brief Method .ctor addr 0x10e802c size 0x8c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name principal) ;
 
-// Ctor Parameters [CppParam { name: "digestedObjectType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "otherObjectTypeID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectDigest", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit AttributeCertificateHolder(int32_t digestedObjectType, ::StringW digestAlgorithm, ::StringW otherObjectTypeID, ::ArrayW<uint8_t> objectDigest) ;
+static Org::BouncyCastle::X509::AttributeCertificateHolder New_ctor(int32_t digestedObjectType, ::StringW digestAlgorithm, ::StringW otherObjectTypeID, ::ArrayW<uint8_t> objectDigest) ;
 
 /// @brief Method .ctor addr 0x10e80b8 size 0x168 virtual false final false
  void _ctor(int32_t digestedObjectType, ::StringW digestAlgorithm, ::StringW otherObjectTypeID, ::ArrayW<uint8_t> objectDigest) ;

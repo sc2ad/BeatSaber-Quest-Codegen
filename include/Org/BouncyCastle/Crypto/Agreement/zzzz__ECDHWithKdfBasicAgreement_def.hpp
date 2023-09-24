@@ -74,8 +74,7 @@ constexpr Org::BouncyCastle::Crypto::IDerivationFunction __get_kdf() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "kdf", ty: "Org::BouncyCastle::Crypto::IDerivationFunction", modifiers: "", def_value: None }]
-explicit ECDHWithKdfBasicAgreement(::StringW algorithm, Org::BouncyCastle::Crypto::IDerivationFunction kdf) ;
+static Org::BouncyCastle::Crypto::Agreement::ECDHWithKdfBasicAgreement New_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::IDerivationFunction kdf) ;
 
 /// @brief Method .ctor addr 0x118f988 size 0xa4 virtual false final false
  void _ctor(::StringW algorithm, Org::BouncyCastle::Crypto::IDerivationFunction kdf) ;

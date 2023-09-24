@@ -123,8 +123,7 @@ static GlobalNamespace::SmallBufferPool __get_instance() ;
 /// @brief Method ReleaseBufferInternal addr 0xdc9e0c size 0x1c4 virtual false final false
  void ReleaseBufferInternal(::ArrayW<uint8_t> buffer) ;
 
-// Ctor Parameters []
-explicit SmallBufferPool() ;
+static GlobalNamespace::SmallBufferPool New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc9fec size 0xe8 virtual false final false
  void _ctor() ;

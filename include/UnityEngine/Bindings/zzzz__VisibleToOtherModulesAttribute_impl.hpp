@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Bindings::VisibleToOtherModulesAttribute::VisibleToOtherModulesAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<VisibleToOtherModulesAttribute>())) {}
+ UnityEngine::Bindings::VisibleToOtherModulesAttribute UnityEngine::Bindings::VisibleToOtherModulesAttribute::New_ctor()  {
+UnityEngine::Bindings::VisibleToOtherModulesAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::VisibleToOtherModulesAttribute>())};
+return o;
+}
  void UnityEngine::Bindings::VisibleToOtherModulesAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::VisibleToOtherModulesAttribute>::get(),
@@ -46,8 +48,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "modules", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
- UnityEngine::Bindings::VisibleToOtherModulesAttribute::VisibleToOtherModulesAttribute(::ArrayW<::StringW> modules)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<VisibleToOtherModulesAttribute>(modules))) {}
+ UnityEngine::Bindings::VisibleToOtherModulesAttribute UnityEngine::Bindings::VisibleToOtherModulesAttribute::New_ctor(::ArrayW<::StringW> modules)  {
+UnityEngine::Bindings::VisibleToOtherModulesAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::VisibleToOtherModulesAttribute>(modules))};
+return o;
+}
  void UnityEngine::Bindings::VisibleToOtherModulesAttribute::_ctor(::ArrayW<::StringW> modules)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::VisibleToOtherModulesAttribute>::get(),

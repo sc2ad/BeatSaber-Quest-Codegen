@@ -57,26 +57,22 @@ constexpr explicit UnauthorizedAccessException(void* ptr) noexcept : System::Sys
 
 // Methods
 
-// Ctor Parameters []
-explicit UnauthorizedAccessException() ;
+static System::UnauthorizedAccessException New_ctor() ;
 
 /// @brief Method .ctor addr 0x245fa9c size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UnauthorizedAccessException(::StringW message) ;
+static System::UnauthorizedAccessException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x245faf4 size 0x20 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit UnauthorizedAccessException(::StringW message, System::Exception inner) ;
+static System::UnauthorizedAccessException New_ctor(::StringW message, System::Exception inner) ;
 
 /// @brief Method .ctor addr 0x245fb14 size 0x20 virtual false final false
  void _ctor(::StringW message, System::Exception inner) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit UnauthorizedAccessException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::UnauthorizedAccessException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x245fb34 size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

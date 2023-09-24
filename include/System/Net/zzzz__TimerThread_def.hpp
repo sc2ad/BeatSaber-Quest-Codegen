@@ -9,14 +9,30 @@
 namespace System {
 class IDisposable;
 }
-namespace System::Threading {
-class WaitHandle;
+namespace GlobalNamespace {
+struct System__Net__TimerThread__TimerNode__TimerState;
+}
+namespace System::Net {
+class System__Net__TimerThread__Timer;
+}
+namespace System::Net {
+class System__Net__TimerThread__TimerQueue;
+}
+namespace System::Net {
+class System__Net__TimerThread__InfiniteTimerQueue;
+}
+namespace System::Net {
+class System__Net__TimerThread__InfiniteTimer;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedList_1;
+}
+namespace System::Net {
+class System__Net__TimerThread__TimerNode;
 }
 namespace System {
 class WeakReference;
-}
-namespace System::Threading {
-class AutoResetEvent;
 }
 namespace System::Threading {
 class ManualResetEvent;
@@ -27,9 +43,17 @@ class Hashtable;
 namespace System {
 class EventArgs;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedList_1;
+namespace System::Net {
+class System__Net__TimerThread__Callback;
+}
+namespace System::Threading {
+class AutoResetEvent;
+}
+namespace System::Threading {
+class WaitHandle;
+}
+namespace System::Net {
+class System__Net__TimerThread__Queue;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,8 +139,7 @@ constexpr int32_t __get_m_DurationMilliseconds() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "durationMilliseconds", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Net__TimerThread__Queue(int32_t durationMilliseconds) ;
+static System::Net::System__Net__TimerThread__Queue New_ctor(int32_t durationMilliseconds) ;
 
 /// @brief Method .ctor addr 0x2818b48 size 0x28 virtual false final false
  void _ctor(int32_t durationMilliseconds) ;
@@ -200,8 +223,7 @@ constexpr int32_t __get_m_DurationMilliseconds() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "durationMilliseconds", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Net__TimerThread__Timer(int32_t durationMilliseconds) ;
+static System::Net::System__Net__TimerThread__Timer New_ctor(int32_t durationMilliseconds) ;
 
 /// @brief Method .ctor addr 0x2818b78 size 0x34 virtual false final false
  void _ctor(int32_t durationMilliseconds) ;
@@ -267,8 +289,7 @@ constexpr explicit System__Net__TimerThread__Callback(void* ptr) noexcept : Syst
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Net__TimerThread__Callback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Net::System__Net__TimerThread__Callback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2818bcc size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -337,8 +358,7 @@ constexpr System::Net::System__Net__TimerThread__TimerNode __get_m_Timers() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "durationMilliseconds", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Net__TimerThread__TimerQueue(int32_t durationMilliseconds) ;
+static System::Net::System__Net__TimerThread__TimerQueue New_ctor(int32_t durationMilliseconds) ;
 
 /// @brief Method .ctor addr 0x2817504 size 0x98 virtual false final false
  void _ctor(int32_t durationMilliseconds) ;
@@ -395,8 +415,7 @@ constexpr explicit System__Net__TimerThread__InfiniteTimerQueue(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__TimerThread__InfiniteTimerQueue() ;
+static System::Net::System__Net__TimerThread__InfiniteTimerQueue New_ctor() ;
 
 /// @brief Method .ctor addr 0x28174e4 size 0x20 virtual false final false
  void _ctor() ;
@@ -459,6 +478,8 @@ __Sentinel = 3,
 constexpr operator __System__Net__TimerThread__TimerNode__TimerState_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__TimerThread__TimerNode__TimerState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -577,14 +598,12 @@ constexpr System::Net::System__Net__TimerThread__TimerNode __get_prev() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Net::System__Net__TimerThread__Callback", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "durationMilliseconds", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "queueLock", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit System__Net__TimerThread__TimerNode(System::Net::System__Net__TimerThread__Callback callback, ::bs_hook::Il2CppWrapperType context, int32_t durationMilliseconds, ::bs_hook::Il2CppWrapperType queueLock) ;
+static System::Net::System__Net__TimerThread__TimerNode New_ctor(System::Net::System__Net__TimerThread__Callback callback, ::bs_hook::Il2CppWrapperType context, int32_t durationMilliseconds, ::bs_hook::Il2CppWrapperType queueLock) ;
 
 /// @brief Method .ctor addr 0x2818f4c size 0x58 virtual false final false
  void _ctor(System::Net::System__Net__TimerThread__Callback callback, ::bs_hook::Il2CppWrapperType context, int32_t durationMilliseconds, ::bs_hook::Il2CppWrapperType queueLock) ;
 
-// Ctor Parameters []
-explicit System__Net__TimerThread__TimerNode() ;
+static System::Net::System__Net__TimerThread__TimerNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x2818d10 size 0x30 virtual false final false
  void _ctor() ;
@@ -670,8 +689,7 @@ constexpr int32_t __get_cancelled() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__TimerThread__InfiniteTimer() ;
+static System::Net::System__Net__TimerThread__InfiniteTimer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2819290 size 0x2c virtual false final false
  void _ctor() ;

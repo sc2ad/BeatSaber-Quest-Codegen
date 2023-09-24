@@ -53,8 +53,7 @@ constexpr explicit PS5OnGoingToBackgroundSaveHandler(void* ptr) noexcept : Globa
 /// @brief Method Unsubscribe addr 0x221a7f8 size 0x4 virtual true final false
  void Unsubscribe() ;
 
-// Ctor Parameters []
-explicit PS5OnGoingToBackgroundSaveHandler() ;
+static GlobalNamespace::PS5OnGoingToBackgroundSaveHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a7fc size 0x8 virtual false final false
  void _ctor() ;

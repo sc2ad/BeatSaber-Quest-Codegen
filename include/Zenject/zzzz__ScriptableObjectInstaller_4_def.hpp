@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -70,8 +70,7 @@ static TDerived InstallFromResource(Zenject::DiContainer container, TParam1 p1, 
 /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
 static TDerived InstallFromResource(::StringW resourcePath, Zenject::DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3) ;
 
-// Ctor Parameters []
-explicit ScriptableObjectInstaller_4() ;
+static Zenject::ScriptableObjectInstaller_4<TParam1,TParam2,TParam3,TDerived> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

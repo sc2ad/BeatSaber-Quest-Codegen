@@ -1,13 +1,13 @@
 #pragma once
 #include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "Mono/Security/Interface/zzzz__ICertificateValidator_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "Mono/Security/Interface/zzzz__TlsProtocols_def.hpp"
-#include "Mono/Security/Interface/zzzz__CipherSuiteCode_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoRemoteCertificateValidationCallback_def.hpp"
-#include "Mono/Security/Interface/zzzz__ICertificateValidator_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoLocalCertificateSelectionCallback_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoLocalCertificateSelectionCallback_def.hpp"
+#include "Mono/Security/Interface/zzzz__CipherSuiteCode_def.hpp"
 //  Writing Method size for method: Mono::Security::Interface::MonoTlsSettings.get_RemoteCertificateValidationCallback
 template<>
 
@@ -891,8 +891,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Mono::Security::Interface::MonoTlsSettings::MonoTlsSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoTlsSettings>())) {}
+ Mono::Security::Interface::MonoTlsSettings Mono::Security::Interface::MonoTlsSettings::New_ctor()  {
+Mono::Security::Interface::MonoTlsSettings o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Interface::MonoTlsSettings>())};
+return o;
+}
  void Mono::Security::Interface::MonoTlsSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Interface::MonoTlsSettings>::get(),
@@ -947,8 +949,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Mono::Security::Interface::MonoTlsSettings, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }]
- Mono::Security::Interface::MonoTlsSettings::MonoTlsSettings(Mono::Security::Interface::MonoTlsSettings other)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoTlsSettings>(other))) {}
+ Mono::Security::Interface::MonoTlsSettings Mono::Security::Interface::MonoTlsSettings::New_ctor(Mono::Security::Interface::MonoTlsSettings other)  {
+Mono::Security::Interface::MonoTlsSettings o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Interface::MonoTlsSettings>(other))};
+return o;
+}
  void Mono::Security::Interface::MonoTlsSettings::_ctor(Mono::Security::Interface::MonoTlsSettings other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Interface::MonoTlsSettings>::get(),

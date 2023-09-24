@@ -2,14 +2,15 @@
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedGenerator_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedDataStreamGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedDataStreamGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerSequenceGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream._ctor
 template<>
 
@@ -108,8 +109,10 @@ constexpr void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedD
 constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream::__get_eiGen() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::BerSequenceGenerator, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "macStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "authGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream(System::IO::Stream macStream, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator authGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream>(macStream, mac, cGen, authGen, eiGen))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream::New_ctor(System::IO::Stream macStream, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator authGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream>(macStream, mac, cGen, authGen, eiGen))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream::_ctor(System::IO::Stream macStream, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator authGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream>::get(),
@@ -294,8 +297,10 @@ constexpr void Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator::__se
 constexpr bool Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator::__get__berEncodeRecipientSet() const {
 return ::cordl_internals::getInstanceField<bool, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator::CmsAuthenticatedDataStreamGenerator()  : Org::BouncyCastle::Cms::CmsAuthenticatedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsAuthenticatedDataStreamGenerator>())) {}
+ Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator>::get(),
@@ -305,8 +310,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator::CmsAuthenticatedDataStreamGenerator(Org::BouncyCastle::Security::SecureRandom rand)  : Org::BouncyCastle::Cms::CmsAuthenticatedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsAuthenticatedDataStreamGenerator>(rand))) {}
+ Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator::New_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
+Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator>(rand))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator::_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator>::get(),

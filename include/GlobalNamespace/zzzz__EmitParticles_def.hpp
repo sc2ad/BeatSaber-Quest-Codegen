@@ -63,8 +63,7 @@ constexpr UnityEngine::ParticleSystem __get__particleSystem() const;
 /// @brief Method Emit addr 0x224e120 size 0x1c virtual false final false
  void Emit(int32_t count) ;
 
-// Ctor Parameters []
-explicit EmitParticles() ;
+static GlobalNamespace::EmitParticles New_ctor() ;
 
 /// @brief Method .ctor addr 0x224e13c size 0x8 virtual false final false
  void _ctor() ;

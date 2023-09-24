@@ -1,8 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapDataObstaclesAndBombsTransform_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataObstaclesAndBombsTransform_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0._ctor
 template<>
 
@@ -49,8 +50,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTra
 constexpr bool GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__get_noBombs() const {
 return ::cordl_internals::getInstanceField<bool, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0 GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0>::get(),

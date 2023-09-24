@@ -3,19 +3,37 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine {
-struct Quaternion;
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Frustumf;
+}
+namespace OVR::OpenVR {
+struct HmdMatrix34_t;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Quatf;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRTracker__Frustum;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Colorf;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Frustumf;
-}
-namespace GlobalNamespace {
 struct OVRPose;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Vector3f;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Posef;
@@ -23,41 +41,23 @@ struct GlobalNamespace__OVRPlugin__Posef;
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Vector4f;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Quatf;
-}
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace OVR::OpenVR {
-struct HmdMatrix34_t;
+class Gradient;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRSpace__StorageLocation;
 }
 namespace UnityEngine {
-class Gradient;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Vector3f;
+struct Vector4;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector4;
-}
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__SpaceStorageLocation;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Colorf;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "noteSpawnInfo", ty: "GlobalNamespace::NoteSpawnInfoNetSerializable", modifiers: "", def_value: None }]
- GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable::NoteDataFromNoteSpawnInfoNetSerializable(GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfo)  : GlobalNamespace::NoteData(THROW_UNLESS(::il2cpp_utils::New<NoteDataFromNoteSpawnInfoNetSerializable>(noteSpawnInfo))) {}
+ GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable::New_ctor(GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfo)  {
+GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable>(noteSpawnInfo))};
+return o;
+}
  void GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable::_ctor(GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable>::get(),

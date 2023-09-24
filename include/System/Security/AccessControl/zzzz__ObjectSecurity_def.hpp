@@ -3,37 +3,37 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Security::AccessControl {
-class AuthorizationRuleCollection;
+class CommonSecurityDescriptor;
 }
 namespace System::Security::AccessControl {
-struct PropagationFlags;
+class AuthorizationRuleCollection;
 }
 namespace System::Security::AccessControl {
 class QualifiedAce;
 }
 namespace System::Security::AccessControl {
-struct AccessControlType;
+class AccessRule;
+}
+namespace System::Security::AccessControl {
+struct AccessControlSections;
+}
+namespace System::Security::AccessControl {
+struct PropagationFlags;
+}
+namespace System {
+class Type;
+}
+namespace System::Threading {
+class ReaderWriterLock;
 }
 namespace System::Security::Principal {
 class IdentityReference;
 }
 namespace System::Security::AccessControl {
-class CommonSecurityDescriptor;
-}
-namespace System::Security::AccessControl {
-struct AccessControlSections;
-}
-namespace System::Threading {
-class ReaderWriterLock;
-}
-namespace System::Security::AccessControl {
 struct InheritanceFlags;
 }
-namespace System {
-class Type;
-}
 namespace System::Security::AccessControl {
-class AccessRule;
+struct AccessControlType;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -107,14 +107,12 @@ constexpr System::Threading::ReaderWriterLock __get_rw_lock() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "securityDescriptor", ty: "System::Security::AccessControl::CommonSecurityDescriptor", modifiers: "", def_value: None }]
-explicit ObjectSecurity(System::Security::AccessControl::CommonSecurityDescriptor securityDescriptor) ;
+static System::Security::AccessControl::ObjectSecurity New_ctor(System::Security::AccessControl::CommonSecurityDescriptor securityDescriptor) ;
 
 /// @brief Method .ctor addr 0x231958c size 0xc4 virtual false final false
  void _ctor(System::Security::AccessControl::CommonSecurityDescriptor securityDescriptor) ;
 
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDS", ty: "bool", modifiers: "", def_value: None }]
-explicit ObjectSecurity(bool isContainer, bool isDS) ;
+static System::Security::AccessControl::ObjectSecurity New_ctor(bool isContainer, bool isDS) ;
 
 /// @brief Method .ctor addr 0x23179a4 size 0xfc virtual false final false
  void _ctor(bool isContainer, bool isDS) ;

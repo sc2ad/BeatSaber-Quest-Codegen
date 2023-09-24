@@ -7,17 +7,17 @@ namespace UnityEngine {
 class ParticleSystem;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
 struct FrameData;
 }
 namespace UnityEngine::Playables {
 template<typename T>
 struct ScriptPlayable_1;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -127,8 +127,7 @@ static void SetRandomSeed(UnityEngine::ParticleSystem particleSystem, uint32_t r
 /// @brief Method Simulate addr 0x2ad3fc0 size 0xc4 virtual false final false
  void Simulate(float_t time, bool restart) ;
 
-// Ctor Parameters []
-explicit ParticleControlPlayable() ;
+static UnityEngine::Timeline::ParticleControlPlayable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad409c size 0x1c virtual false final false
  void _ctor() ;

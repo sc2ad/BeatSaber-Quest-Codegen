@@ -6,10 +6,10 @@ template<typename T>
 class IEquivable_1;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -81,32 +81,27 @@ constexpr UnityEngine::Vector3 __get_scale() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CurveNodeData() ;
+static HoudiniEngineUnity::CurveNodeData New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdd25c size 0xa8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
-explicit CurveNodeData(UnityEngine::Vector3 position) ;
+static HoudiniEngineUnity::CurveNodeData New_ctor(UnityEngine::Vector3 position) ;
 
 /// @brief Method .ctor addr 0x1fdd304 size 0xd0 virtual false final false
  void _ctor(UnityEngine::Vector3 position) ;
 
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
-explicit CurveNodeData(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
+static HoudiniEngineUnity::CurveNodeData New_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method .ctor addr 0x1fdd3d4 size 0x12c virtual false final false
  void _ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
-explicit CurveNodeData(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale) ;
+static HoudiniEngineUnity::CurveNodeData New_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale) ;
 
 /// @brief Method .ctor addr 0x1fdd500 size 0x138 virtual false final false
  void _ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "HoudiniEngineUnity::CurveNodeData", modifiers: "", def_value: None }]
-explicit CurveNodeData(HoudiniEngineUnity::CurveNodeData other) ;
+static HoudiniEngineUnity::CurveNodeData New_ctor(HoudiniEngineUnity::CurveNodeData other) ;
 
 /// @brief Method .ctor addr 0x1fdd638 size 0xf0 virtual false final false
  void _ctor(HoudiniEngineUnity::CurveNodeData other) ;

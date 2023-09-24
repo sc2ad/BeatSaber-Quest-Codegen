@@ -64,8 +64,7 @@ constexpr float_t __get_Distance() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit NetSyncVoipAttenuationValue(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::NetSyncVoipAttenuationValue New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x25a1890 size 0x88 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

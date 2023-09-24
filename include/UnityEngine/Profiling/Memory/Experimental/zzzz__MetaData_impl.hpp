@@ -29,8 +29,10 @@ constexpr void UnityEngine::Profiling::Memory::Experimental::MetaData::__set_pla
 constexpr ::StringW UnityEngine::Profiling::Memory::Experimental::MetaData::__get_platform() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Profiling::Memory::Experimental::MetaData::MetaData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MetaData>())) {}
+ UnityEngine::Profiling::Memory::Experimental::MetaData UnityEngine::Profiling::Memory::Experimental::MetaData::New_ctor()  {
+UnityEngine::Profiling::Memory::Experimental::MetaData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Profiling::Memory::Experimental::MetaData>())};
+return o;
+}
  void UnityEngine::Profiling::Memory::Experimental::MetaData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Profiling::Memory::Experimental::MetaData>::get(),

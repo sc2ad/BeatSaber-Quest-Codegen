@@ -63,8 +63,7 @@ constexpr TMPro::TextMeshProUGUI __get__text() const;
 /// @brief Method SetText addr 0x1fd71a8 size 0x68 virtual false final false
  void SetText(::StringW text) ;
 
-// Ctor Parameters []
-explicit TextPageScrollView() ;
+static HMUI::TextPageScrollView New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd7210 size 0x30 virtual false final false
  void _ctor() ;

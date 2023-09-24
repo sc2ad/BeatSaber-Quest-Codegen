@@ -1,16 +1,17 @@
 #pragma once
 #include "Zenject/zzzz__TickableManager_def.hpp"
+#include "Zenject/zzzz__TickableManager_def.hpp"
 #include "Zenject/zzzz__ILateTickable_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__TickablesTaskUpdater_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__FixedTickablesTaskUpdater_def.hpp"
-#include "Zenject/zzzz__IFixedTickable_def.hpp"
-#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__LateTickablesTaskUpdater_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
+#include "Zenject/zzzz__IFixedTickable_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__TickableManager____c__DisplayClass17_0._ctor
 template<>
@@ -86,8 +87,10 @@ constexpr void Zenject::Zenject__TickableManager____c__DisplayClass17_0::__set_t
 constexpr Zenject::IFixedTickable Zenject::Zenject__TickableManager____c__DisplayClass17_0::__get_tickable() const {
 return ::cordl_internals::getInstanceField<Zenject::IFixedTickable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__TickableManager____c__DisplayClass17_0::Zenject__TickableManager____c__DisplayClass17_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__TickableManager____c__DisplayClass17_0>())) {}
+ Zenject::Zenject__TickableManager____c__DisplayClass17_0 Zenject::Zenject__TickableManager____c__DisplayClass17_0::New_ctor()  {
+Zenject::Zenject__TickableManager____c__DisplayClass17_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__TickableManager____c__DisplayClass17_0>())};
+return o;
+}
  void Zenject::Zenject__TickableManager____c__DisplayClass17_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__TickableManager____c__DisplayClass17_0>::get(),
@@ -319,8 +322,10 @@ return ::cordl_internals::getStaticField<System::Func_2<ModestTree::Util::ValueP
  System::Func_2<ModestTree::Util::ValuePair_2<System::Type,int32_t>,int32_t> Zenject::Zenject__TickableManager____c::__get___9__19_2()  {
 return ::cordl_internals::getStaticField<System::Func_2<ModestTree::Util::ValuePair_2<System::Type,int32_t>,int32_t>, "<>9__19_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__TickableManager____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__TickableManager____c::Zenject__TickableManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__TickableManager____c>())) {}
+ Zenject::Zenject__TickableManager____c Zenject::Zenject__TickableManager____c::New_ctor()  {
+Zenject::Zenject__TickableManager____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__TickableManager____c>())};
+return o;
+}
  void Zenject::Zenject__TickableManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__TickableManager____c>::get(),
@@ -476,8 +481,10 @@ constexpr void Zenject::Zenject__TickableManager____c__DisplayClass18_0::__set_t
 constexpr Zenject::ITickable Zenject::Zenject__TickableManager____c__DisplayClass18_0::__get_tickable() const {
 return ::cordl_internals::getInstanceField<Zenject::ITickable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__TickableManager____c__DisplayClass18_0::Zenject__TickableManager____c__DisplayClass18_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__TickableManager____c__DisplayClass18_0>())) {}
+ Zenject::Zenject__TickableManager____c__DisplayClass18_0 Zenject::Zenject__TickableManager____c__DisplayClass18_0::New_ctor()  {
+Zenject::Zenject__TickableManager____c__DisplayClass18_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__TickableManager____c__DisplayClass18_0>())};
+return o;
+}
  void Zenject::Zenject__TickableManager____c__DisplayClass18_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__TickableManager____c__DisplayClass18_0>::get(),
@@ -588,8 +595,10 @@ constexpr void Zenject::Zenject__TickableManager____c__DisplayClass19_0::__set_t
 constexpr Zenject::ILateTickable Zenject::Zenject__TickableManager____c__DisplayClass19_0::__get_tickable() const {
 return ::cordl_internals::getInstanceField<Zenject::ILateTickable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__TickableManager____c__DisplayClass19_0::Zenject__TickableManager____c__DisplayClass19_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__TickableManager____c__DisplayClass19_0>())) {}
+ Zenject::Zenject__TickableManager____c__DisplayClass19_0 Zenject::Zenject__TickableManager____c__DisplayClass19_0::New_ctor()  {
+Zenject::Zenject__TickableManager____c__DisplayClass19_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__TickableManager____c__DisplayClass19_0>())};
+return o;
+}
  void Zenject::Zenject__TickableManager____c__DisplayClass19_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__TickableManager____c__DisplayClass19_0>::get(),
@@ -1179,8 +1188,10 @@ constexpr void Zenject::TickableManager::__set__isPaused(bool value)  {
 constexpr bool Zenject::TickableManager::__get__isPaused() const {
 return ::cordl_internals::getInstanceField<bool, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::TickableManager::TickableManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TickableManager>())) {}
+ Zenject::TickableManager Zenject::TickableManager::New_ctor()  {
+Zenject::TickableManager o{THROW_UNLESS(::il2cpp_utils::New<Zenject::TickableManager>())};
+return o;
+}
  void Zenject::TickableManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::TickableManager>::get(),

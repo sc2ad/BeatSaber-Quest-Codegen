@@ -2,26 +2,26 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Asn1::Cms {
+class Evidence;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class MetaData;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class Evidence;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerIA5String;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class MetaData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -113,14 +113,12 @@ constexpr Org::BouncyCastle::Asn1::Cms::Evidence __get_temporalEvidence() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dataUri", ty: "Org::BouncyCastle::Asn1::DerIA5String", modifiers: "", def_value: None }, CppParam { name: "metaData", ty: "Org::BouncyCastle::Asn1::Cms::MetaData", modifiers: "", def_value: None }, CppParam { name: "content", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "temporalEvidence", ty: "Org::BouncyCastle::Asn1::Cms::Evidence", modifiers: "", def_value: None }]
-explicit TimeStampedData(Org::BouncyCastle::Asn1::DerIA5String dataUri, Org::BouncyCastle::Asn1::Cms::MetaData metaData, Org::BouncyCastle::Asn1::Asn1OctetString content, Org::BouncyCastle::Asn1::Cms::Evidence temporalEvidence) ;
+static Org::BouncyCastle::Asn1::Cms::TimeStampedData New_ctor(Org::BouncyCastle::Asn1::DerIA5String dataUri, Org::BouncyCastle::Asn1::Cms::MetaData metaData, Org::BouncyCastle::Asn1::Asn1OctetString content, Org::BouncyCastle::Asn1::Cms::Evidence temporalEvidence) ;
 
 /// @brief Method .ctor addr 0xdf41bc size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerIA5String dataUri, Org::BouncyCastle::Asn1::Cms::MetaData metaData, Org::BouncyCastle::Asn1::Asn1OctetString content, Org::BouncyCastle::Asn1::Cms::Evidence temporalEvidence) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit TimeStampedData(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::TimeStampedData New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf4250 size 0x268 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

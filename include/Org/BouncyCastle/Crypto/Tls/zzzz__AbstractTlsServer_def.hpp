@@ -4,49 +4,49 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class NewSessionTicket;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateStatus;
+class TlsServer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCompression;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPeer;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsServerContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsCredentials;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServer;
+class TlsCipherFactory;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateStatus;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
+class TlsKeyExchange;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto::Tls {
+class NewSessionTicket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -222,14 +222,12 @@ constexpr System::Collections::IDictionary __get_mServerExtensions() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AbstractTlsServer() ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsServer New_ctor() ;
 
 /// @brief Method .ctor addr 0xecc9ec size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }]
-explicit AbstractTlsServer(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsServer New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;
 
 /// @brief Method .ctor addr 0xecca58 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;

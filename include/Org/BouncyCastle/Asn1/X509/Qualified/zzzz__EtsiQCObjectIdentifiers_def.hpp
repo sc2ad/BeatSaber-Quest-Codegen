@@ -83,8 +83,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdEtsiQcsQcSscd() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit EtsiQCObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::X509::Qualified::EtsiQCObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xff3854 size 0x8 virtual false final false
  void _ctor() ;

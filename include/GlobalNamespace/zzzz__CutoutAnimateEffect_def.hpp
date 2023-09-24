@@ -8,11 +8,14 @@
 namespace UnityEngine {
 class AnimationCurve;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
 class CutoutEffect;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7;
 }
 namespace System {
 class IDisposable;
@@ -131,8 +134,7 @@ constexpr float_t __get__elapsedTime_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x224dca8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -247,8 +249,7 @@ constexpr bool __get__animating_k__BackingField() const;
 /// @brief Method AnimateCutout addr 0x2245e84 size 0x54 virtual false final false
  void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration) ;
 
-// Ctor Parameters []
-explicit CutoutAnimateEffect() ;
+static GlobalNamespace::CutoutAnimateEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x224dd94 size 0x34 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Reflection/zzzz__StrongNameKeyPair_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
 //  Writing Method size for method: System::Reflection::StrongNameKeyPair._ctor
 template<>
 
@@ -87,8 +87,10 @@ constexpr void System::Reflection::StrongNameKeyPair::__set__keyPairArray(::Arra
 constexpr ::ArrayW<uint8_t> System::Reflection::StrongNameKeyPair::__get__keyPairArray() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Reflection::StrongNameKeyPair::StrongNameKeyPair(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StrongNameKeyPair>(info, context))) {}
+ System::Reflection::StrongNameKeyPair System::Reflection::StrongNameKeyPair::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Reflection::StrongNameKeyPair o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::StrongNameKeyPair>(info, context))};
+return o;
+}
  void System::Reflection::StrongNameKeyPair::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::StrongNameKeyPair>::get(),

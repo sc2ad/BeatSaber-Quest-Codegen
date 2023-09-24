@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Collections::ReadOnlyCollectionBase.get_InnerList
 template<>
 
@@ -192,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Collections::ReadOnlyCollectionBase::ReadOnlyCollectionBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReadOnlyCollectionBase>())) {}
+ System::Collections::ReadOnlyCollectionBase System::Collections::ReadOnlyCollectionBase::New_ctor()  {
+System::Collections::ReadOnlyCollectionBase o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::ReadOnlyCollectionBase>())};
+return o;
+}
  void System::Collections::ReadOnlyCollectionBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::ReadOnlyCollectionBase>::get(),

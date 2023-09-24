@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "initParams", ty: "GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams", modifiers: "", def_value: None }]
- GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine::QuickStartOneSongGameplayServerFiniteStateMachine(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams)  : GlobalNamespace::GameplayServerFiniteStateMachine(THROW_UNLESS(::il2cpp_utils::New<QuickStartOneSongGameplayServerFiniteStateMachine>(initParams))) {}
+ GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine::New_ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams)  {
+GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine>(initParams))};
+return o;
+}
  void GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine::_ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine>::get(),

@@ -4,25 +4,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-template<typename TParam1,typename TParam2,typename TValue>
-class IFactory_3;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class IFactory;
+template<typename TValue>
+class IDespawnableMemoryPool_1;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TValue>
 class IMemoryPool_3;
 }
 namespace Zenject {
-class IMemoryPool;
+template<typename TParam1,typename TParam2,typename TValue>
+class IFactory_3;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-template<typename TValue>
-class IDespawnableMemoryPool_1;
+class IFactory;
 }
 // Forward declare root types
 namespace Zenject {
@@ -39,7 +39,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10991)), TypeDefinitionIndex(TypeDefinitionIndex(10982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2661 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10991)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2661 }), TypeDefinitionIndex(TypeDefinitionIndex(10982))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10982), inst: 5155 })
 // CS Name: Zenject.MemoryPool`3
 class CORDL_TYPE MemoryPool_3<TParam1,TParam2,TValue> : public Zenject::MemoryPoolBase_1<TValue> {
@@ -102,8 +102,7 @@ constexpr explicit MemoryPool_3(void* ptr) noexcept : Zenject::MemoryPoolBase_1<
 /// @brief Method Zenject.IFactory<TParam1,TParam2,TValue>.Create addr 0x0 size 0xffffffffffffffff virtual true final true
  TValue Zenject_IFactory_TParam1,TParam2,TValue__Create(TParam1 p1, TParam2 p2) ;
 
-// Ctor Parameters []
-explicit MemoryPool_3() ;
+static Zenject::MemoryPool_3<TParam1,TParam2,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

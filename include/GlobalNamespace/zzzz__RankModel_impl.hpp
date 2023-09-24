@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
+#include "GlobalNamespace/zzzz__RankModel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__RankModel__Rank::GlobalNamespace__RankModel__Rank(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }

@@ -3,9 +3,10 @@
 #include "Zenject/zzzz__MonoMemoryPool_4_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSStarTextEffectController_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Animation_def.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__BTSStarTextEffectController_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/zzzz__Animation_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BTSStarTextEffectController.get_animationDuration
 template<>
 
@@ -99,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sprite, parentTransform, desiredAnimationLength);
 }
-// Ctor Parameters []
- GlobalNamespace::BTSStarTextEffectController::BTSStarTextEffectController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BTSStarTextEffectController>())) {}
+ GlobalNamespace::BTSStarTextEffectController GlobalNamespace::BTSStarTextEffectController::New_ctor()  {
+GlobalNamespace::BTSStarTextEffectController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BTSStarTextEffectController>())};
+return o;
+}
  void GlobalNamespace::BTSStarTextEffectController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BTSStarTextEffectController>::get(),
@@ -153,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sprite, transform, desiredAnimationLength, starTextEffectController);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool::GlobalNamespace__BTSStarTextEffectController__Pool()  : Zenject::MonoMemoryPool_4<UnityEngine::Sprite,UnityEngine::Transform,float_t,GlobalNamespace::BTSStarTextEffectController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BTSStarTextEffectController__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool>::get(),

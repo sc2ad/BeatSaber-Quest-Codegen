@@ -1,13 +1,13 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
+namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

@@ -3,10 +3,11 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Xml/zzzz__XmlEventCache_def.hpp"
-#include "System/Xml/Xsl/Runtime/zzzz__StringConcat_def.hpp"
-#include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
+#include "System/Xml/zzzz__XmlStandalone_def.hpp"
+#include "System/Xml/zzzz__XmlEventCache_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Xml/Xsl/Runtime/zzzz__StringConcat_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Xml::System__Xml__XmlEventCache__XmlEventType::System__Xml__XmlEventCache__XmlEventType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1064,8 +1065,10 @@ constexpr void System::Xml::XmlEventCache::__set_baseUri(::StringW value)  {
 constexpr ::StringW System::Xml::XmlEventCache::__get_baseUri() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "baseUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hasRootNode", ty: "bool", modifiers: "", def_value: None }]
- System::Xml::XmlEventCache::XmlEventCache(::StringW baseUri, bool hasRootNode)  : System::Xml::XmlRawWriter(THROW_UNLESS(::il2cpp_utils::New<XmlEventCache>(baseUri, hasRootNode))) {}
+ System::Xml::XmlEventCache System::Xml::XmlEventCache::New_ctor(::StringW baseUri, bool hasRootNode)  {
+System::Xml::XmlEventCache o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlEventCache>(baseUri, hasRootNode))};
+return o;
+}
  void System::Xml::XmlEventCache::_ctor(::StringW baseUri, bool hasRootNode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlEventCache>::get(),

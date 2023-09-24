@@ -5,17 +5,17 @@
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
 }
-namespace Org::BouncyCastle::Ocsp {
-class CertificateID;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class SingleResponse;
+}
+namespace Org::BouncyCastle::Ocsp {
+class CertificateID;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -81,8 +81,7 @@ constexpr Org::BouncyCastle::Asn1::Ocsp::SingleResponse __get_resp() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resp", ty: "Org::BouncyCastle::Asn1::Ocsp::SingleResponse", modifiers: "", def_value: None }]
-explicit SingleResp(Org::BouncyCastle::Asn1::Ocsp::SingleResponse resp) ;
+static Org::BouncyCastle::Ocsp::SingleResp New_ctor(Org::BouncyCastle::Asn1::Ocsp::SingleResponse resp) ;
 
 /// @brief Method .ctor addr 0x100fec8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::SingleResponse resp) ;

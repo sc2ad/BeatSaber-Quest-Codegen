@@ -1,15 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerSyncStateManager_5_impl.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncStateManager_def.hpp"
-#include "GlobalNamespace/zzzz__INodePoseSyncStateManager_5_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
-#include "GlobalNamespace/zzzz__NodePoseSyncStateNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__NodePoseSyncState_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__NodePoseSyncStateNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__PoseSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__NodePoseSyncState_def.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncStateDeltaNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
+#include "GlobalNamespace/zzzz__NodePoseSyncState_def.hpp"
+#include "GlobalNamespace/zzzz__INodePoseSyncStateManager_5_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NodePoseSyncStateManager.get_deltaUpdateFrequency
 template<>
 
@@ -295,8 +294,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::PoseSerializable, false>(const_cast<void*>(instance), ___internal_method, a, b, smooth);
 }
-// Ctor Parameters []
- GlobalNamespace::NodePoseSyncStateManager::NodePoseSyncStateManager()  : GlobalNamespace::MultiplayerSyncStateManager_5<GlobalNamespace::NodePoseSyncState,GlobalNamespace::GlobalNamespace__NodePoseSyncState__NodePose,GlobalNamespace::PoseSerializable,GlobalNamespace::NodePoseSyncStateNetSerializable,GlobalNamespace::NodePoseSyncStateDeltaNetSerializable>(THROW_UNLESS(::il2cpp_utils::New<NodePoseSyncStateManager>())) {}
+ GlobalNamespace::NodePoseSyncStateManager GlobalNamespace::NodePoseSyncStateManager::New_ctor()  {
+GlobalNamespace::NodePoseSyncStateManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NodePoseSyncStateManager>())};
+return o;
+}
  void GlobalNamespace::NodePoseSyncStateManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NodePoseSyncStateManager>::get(),

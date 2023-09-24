@@ -4,8 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::XR::OpenXR::NativeTypes {
+struct XrVector2f;
+}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -15,12 +21,6 @@ struct XrPosef;
 }
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrVector3f;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::XR::OpenXR::NativeTypes {
-struct XrVector2f;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::ConformanceAutomation {
@@ -140,8 +140,7 @@ static bool xrSetInputDeviceLocationEXT(uint64_t xrSession, uint64_t topLevelPat
 /// @brief Method xrSetInputDeviceVelocityUNITY addr 0x2b04ea8 size 0xfc virtual false final false
 static bool xrSetInputDeviceVelocityUNITY(uint64_t xrSession, uint64_t topLevelPath, uint64_t inputSourcePath, bool linearValid, UnityEngine::XR::OpenXR::NativeTypes::XrVector3f linear, bool angularValid, UnityEngine::XR::OpenXR::NativeTypes::XrVector3f angular) ;
 
-// Ctor Parameters []
-explicit ConformanceAutomationFeature() ;
+static UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b04fa4 size 0x8 virtual false final false
  void _ctor() ;

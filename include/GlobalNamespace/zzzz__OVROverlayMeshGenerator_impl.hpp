@@ -2,19 +2,19 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVROverlayMeshGenerator_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__MeshCollider_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__OVROverlayMeshGenerator_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
+#include "UnityEngine/zzzz__MeshCollider_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVROverlayMeshGenerator__CubeFace::GlobalNamespace__OVROverlayMeshGenerator__CubeFace(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -604,8 +604,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, verts, uv, triangles, scale, rect, longitudes);
 }
-// Ctor Parameters []
- GlobalNamespace::OVROverlayMeshGenerator::OVROverlayMeshGenerator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVROverlayMeshGenerator>())) {}
+ GlobalNamespace::OVROverlayMeshGenerator GlobalNamespace::OVROverlayMeshGenerator::New_ctor()  {
+GlobalNamespace::OVROverlayMeshGenerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVROverlayMeshGenerator>())};
+return o;
+}
  void GlobalNamespace::OVROverlayMeshGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVROverlayMeshGenerator>::get(),

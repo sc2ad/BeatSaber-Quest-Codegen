@@ -42,8 +42,10 @@ constexpr void GlobalNamespace::MultiplayerModeSettings::__set_quickPlayEnableLe
 constexpr bool GlobalNamespace::MultiplayerModeSettings::__get_quickPlayEnableLevelSelection() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerModeSettings::MultiplayerModeSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerModeSettings>())) {}
+ GlobalNamespace::MultiplayerModeSettings GlobalNamespace::MultiplayerModeSettings::New_ctor()  {
+GlobalNamespace::MultiplayerModeSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerModeSettings>())};
+return o;
+}
  void GlobalNamespace::MultiplayerModeSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerModeSettings>::get(),

@@ -4,21 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__BitMaskSparse____c;
+}
+namespace GlobalNamespace {
 template<typename T>
 class IBitMask_1;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -92,8 +95,7 @@ static System::Func_2<uint32_t,::StringW> __get___9__8_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BitMaskSparse____c() ;
+static GlobalNamespace::GlobalNamespace__BitMaskSparse____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x1214df4 size 0x8 virtual false final false
  void _ctor() ;
@@ -181,8 +183,7 @@ constexpr System::Collections::Generic::SortedSet_1<uint32_t> __get__sparseSet()
 /// @brief Method get_bitCount addr 0x1214ad0 size 0x8 virtual true final true
  int32_t get_bitCount() ;
 
-// Ctor Parameters [CppParam { name: "bitCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BitMaskSparse(int32_t bitCount) ;
+static GlobalNamespace::BitMaskSparse New_ctor(int32_t bitCount) ;
 
 /// @brief Method .ctor addr 0x12131ec size 0x90 virtual false final false
  void _ctor(int32_t bitCount) ;

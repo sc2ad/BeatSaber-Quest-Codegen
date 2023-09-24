@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XObject_impl.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
-#include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::XNode._ctor
 template<>
 
@@ -129,8 +129,10 @@ constexpr void System::Xml::Linq::XNode::__set_next(System::Xml::Linq::XNode val
 constexpr System::Xml::Linq::XNode System::Xml::Linq::XNode::__get_next() const {
 return ::cordl_internals::getInstanceField<System::Xml::Linq::XNode, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Linq::XNode::XNode()  : System::Xml::Linq::XObject(THROW_UNLESS(::il2cpp_utils::New<XNode>())) {}
+ System::Xml::Linq::XNode System::Xml::Linq::XNode::New_ctor()  {
+System::Xml::Linq::XNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XNode>())};
+return o;
+}
  void System::Xml::Linq::XNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XNode>::get(),

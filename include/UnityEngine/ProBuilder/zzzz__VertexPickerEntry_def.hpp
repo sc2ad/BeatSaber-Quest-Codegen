@@ -3,11 +3,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

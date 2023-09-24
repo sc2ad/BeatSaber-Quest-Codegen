@@ -50,8 +50,7 @@ constexpr explicit SmimeCapabilitiesAttribute(void* ptr) noexcept : Org::BouncyC
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "capabilities", ty: "Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector", modifiers: "", def_value: None }]
-explicit SmimeCapabilitiesAttribute(Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector capabilities) ;
+static Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute New_ctor(Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector capabilities) ;
 
 /// @brief Method .ctor addr 0xfe7464 size 0xe4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector capabilities) ;

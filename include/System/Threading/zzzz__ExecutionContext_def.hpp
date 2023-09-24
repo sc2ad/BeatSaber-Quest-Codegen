@@ -4,46 +4,55 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Threading {
+struct System__Threading__ExecutionContext__Flags;
+}
 namespace System {
 class IDisposable;
 }
-namespace System::Threading {
-class SynchronizationContext;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System::Threading {
-struct ExecutionContextSwitcher;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Threading {
-class ContextCallback;
+class IllogicalCallContext;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace System::Threading {
+class ContextCallback;
+}
+namespace System::Threading {
+struct System__Threading__ExecutionContext__Reader;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
+}
+namespace System::Threading {
 class IAsyncLocal;
+}
+namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System::Threading {
+class SynchronizationContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Threading {
+struct ExecutionContextSwitcher;
+}
+namespace System::Threading {
+struct System__Threading__ExecutionContext__CaptureOptions;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IllogicalCallContext;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Threading {
 class Thread;
@@ -115,6 +124,8 @@ __IsPreAllocatedDefault = 4,
 constexpr operator __System__Threading__ExecutionContext__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__System__Threading__ExecutionContext__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -288,6 +299,8 @@ constexpr operator __System__Threading__ExecutionContext__CaptureOptions_Unwrapp
 return std::bit_cast<__System__Threading__ExecutionContext__CaptureOptions_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -453,14 +466,12 @@ static System::Threading::ExecutionContext __get_Default() ;
 /// @brief Method get_IsPreAllocatedDefault addr 0x24a9d5c size 0xc virtual false final false
  bool get_IsPreAllocatedDefault() ;
 
-// Ctor Parameters []
-explicit ExecutionContext() ;
+static System::Threading::ExecutionContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x24a9d68 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "isPreAllocatedDefault", ty: "bool", modifiers: "", def_value: None }]
-explicit ExecutionContext(bool isPreAllocatedDefault) ;
+static System::Threading::ExecutionContext New_ctor(bool isPreAllocatedDefault) ;
 
 /// @brief Method .ctor addr 0x24a9d70 size 0x30 virtual false final false
  void _ctor(bool isPreAllocatedDefault) ;
@@ -540,8 +551,7 @@ static System::Threading::ExecutionContext Capture(ByRef<System::Threading::Stac
 /// @brief Method GetObjectData addr 0x24aac68 size 0x110 virtual true final true
  void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ExecutionContext(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Threading::ExecutionContext New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24aad78 size 0x100 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

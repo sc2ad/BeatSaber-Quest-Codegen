@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class ITimeProvider;
 }
 namespace GlobalNamespace {
-class ITimeProvider;
+class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +74,7 @@ constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionM
 /// @brief Method get_time addr 0x21170e4 size 0xa4 virtual true final true
  float_t get_time() ;
 
-// Ctor Parameters []
-explicit SyncTimeProvider() ;
+static GlobalNamespace::SyncTimeProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2117188 size 0x8 virtual false final false
  void _ctor() ;

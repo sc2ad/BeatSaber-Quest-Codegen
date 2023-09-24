@@ -1,7 +1,7 @@
 #pragma once
 #include "Tayx/Graphy/zzzz__G_GraphShader_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: Tayx::Graphy::G_GraphShader.InitializeShader
 template<>
 
@@ -277,8 +277,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tayx::Graphy::G_GraphShader::G_GraphShader()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<G_GraphShader>())) {}
+ Tayx::Graphy::G_GraphShader Tayx::Graphy::G_GraphShader::New_ctor()  {
+Tayx::Graphy::G_GraphShader o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::G_GraphShader>())};
+return o;
+}
  void Tayx::Graphy::G_GraphShader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::G_GraphShader>::get(),

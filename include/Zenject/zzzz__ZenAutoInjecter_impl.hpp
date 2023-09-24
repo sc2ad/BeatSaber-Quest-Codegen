@@ -2,8 +2,9 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__ZenAutoInjecter_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__ZenAutoInjecter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Zenject::Zenject__ZenAutoInjecter__ContainerSources::Zenject__ZenAutoInjecter__ContainerSources(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -235,8 +236,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Zenject::DiContainer, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::ZenAutoInjecter::ZenAutoInjecter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ZenAutoInjecter>())) {}
+ Zenject::ZenAutoInjecter Zenject::ZenAutoInjecter::New_ctor()  {
+Zenject::ZenAutoInjecter o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ZenAutoInjecter>())};
+return o;
+}
  void Zenject::ZenAutoInjecter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ZenAutoInjecter>::get(),

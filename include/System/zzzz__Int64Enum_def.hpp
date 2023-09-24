@@ -54,6 +54,8 @@ constexpr operator __Int64Enum_Unwrapped () const noexcept {
 return std::bit_cast<__Int64Enum_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int64_t;
+
 
 // Fields
 

@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__InternetConnectionChecker_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__InternetConnectionChecker_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__InternetConnectionChecker___IsConnectedToInternetAsync_d__0.MoveNext
 template<>
 
@@ -128,8 +129,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<bool>, false>(nullptr, ___internal_method, cancellationToken);
 }
-// Ctor Parameters []
- GlobalNamespace::InternetConnectionChecker::InternetConnectionChecker()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InternetConnectionChecker>())) {}
+ GlobalNamespace::InternetConnectionChecker GlobalNamespace::InternetConnectionChecker::New_ctor()  {
+GlobalNamespace::InternetConnectionChecker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::InternetConnectionChecker>())};
+return o;
+}
  void GlobalNamespace::InternetConnectionChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::InternetConnectionChecker>::get(),

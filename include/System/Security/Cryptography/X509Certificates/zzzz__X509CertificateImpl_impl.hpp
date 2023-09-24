@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509CertificateImpl.get_IsValid
 template<>
 
@@ -597,8 +597,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509CertificateImpl::X509CertificateImpl()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CertificateImpl>())) {}
+ System::Security::Cryptography::X509Certificates::X509CertificateImpl System::Security::Cryptography::X509Certificates::X509CertificateImpl::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509CertificateImpl o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509CertificateImpl>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509CertificateImpl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509CertificateImpl>::get(),

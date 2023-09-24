@@ -56,8 +56,7 @@ constexpr explicit PemWriter(void* ptr) noexcept : Org::BouncyCastle::Utilities:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
-explicit PemWriter(System::IO::TextWriter writer) ;
+static Org::BouncyCastle::OpenSsl::PemWriter New_ctor(System::IO::TextWriter writer) ;
 
 /// @brief Method .ctor addr 0x1048c0c size 0x4 virtual false final false
  void _ctor(System::IO::TextWriter writer) ;

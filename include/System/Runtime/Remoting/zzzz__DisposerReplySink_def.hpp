@@ -5,13 +5,13 @@ namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -77,8 +77,7 @@ constexpr System::IDisposable __get__disposable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "next", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }, CppParam { name: "disposable", ty: "System::IDisposable", modifiers: "", def_value: None }]
-explicit DisposerReplySink(System::Runtime::Remoting::Messaging::IMessageSink next, System::IDisposable disposable) ;
+static System::Runtime::Remoting::DisposerReplySink New_ctor(System::Runtime::Remoting::Messaging::IMessageSink next, System::IDisposable disposable) ;
 
 /// @brief Method .ctor addr 0x2328120 size 0x2c virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMessageSink next, System::IDisposable disposable) ;

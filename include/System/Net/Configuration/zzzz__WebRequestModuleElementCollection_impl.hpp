@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::Configuration::WebRequestModuleElementCollection::WebRequestModuleElementCollection()  : System::Configuration::ConfigurationElementCollection(THROW_UNLESS(::il2cpp_utils::New<WebRequestModuleElementCollection>())) {}
+ System::Net::Configuration::WebRequestModuleElementCollection System::Net::Configuration::WebRequestModuleElementCollection::New_ctor()  {
+System::Net::Configuration::WebRequestModuleElementCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Configuration::WebRequestModuleElementCollection>())};
+return o;
+}
  void System::Net::Configuration::WebRequestModuleElementCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Configuration::WebRequestModuleElementCollection>::get(),

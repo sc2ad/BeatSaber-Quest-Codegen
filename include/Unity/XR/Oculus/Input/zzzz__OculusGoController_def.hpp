@@ -47,8 +47,7 @@ constexpr explicit OculusGoController(void* ptr) noexcept : Unity::XR::Oculus::I
 
 // Methods
 
-// Ctor Parameters []
-explicit OculusGoController() ;
+static Unity::XR::Oculus::Input::OculusGoController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae41fc size 0x8 virtual false final false
  void _ctor() ;

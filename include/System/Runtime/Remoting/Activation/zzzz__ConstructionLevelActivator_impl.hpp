@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Runtime::Remoting::Activation::IConstructionReturnMessage, false>(const_cast<void*>(instance), ___internal_method, msg);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Activation::ConstructionLevelActivator::ConstructionLevelActivator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ConstructionLevelActivator>())) {}
+ System::Runtime::Remoting::Activation::ConstructionLevelActivator System::Runtime::Remoting::Activation::ConstructionLevelActivator::New_ctor()  {
+System::Runtime::Remoting::Activation::ConstructionLevelActivator o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Activation::ConstructionLevelActivator>())};
+return o;
+}
  void System::Runtime::Remoting::Activation::ConstructionLevelActivator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Activation::ConstructionLevelActivator>::get(),

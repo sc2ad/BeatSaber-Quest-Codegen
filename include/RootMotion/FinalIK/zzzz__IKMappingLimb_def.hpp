@@ -6,11 +6,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKMapping__BoneMap;
-}
-namespace RootMotion::FinalIK {
-class IKSolver;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
@@ -18,8 +15,14 @@ class Transform;
 namespace RootMotion::FinalIK {
 class IKSolverFullBody;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+class IKSolver;
+}
+namespace RootMotion::FinalIK {
+struct RootMotion__FinalIK__IKMappingLimb__BoneMapType;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKMapping__BoneMap;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -79,6 +82,8 @@ __Bone3 = 3,
 constexpr operator __RootMotion__FinalIK__IKMappingLimb__BoneMapType_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__FinalIK__IKMappingLimb__BoneMapType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -227,14 +232,12 @@ constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap __get_bon
 /// @brief Method SetLimbOrientation addr 0x11d1280 size 0x2b8 virtual false final false
  void SetLimbOrientation(UnityEngine::Vector3 upper, UnityEngine::Vector3 lower) ;
 
-// Ctor Parameters []
-explicit IKMappingLimb() ;
+static RootMotion::FinalIK::IKMappingLimb New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d1538 size 0x11c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bone1", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone2", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone3", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "parentBone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit IKMappingLimb(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3, UnityEngine::Transform parentBone) ;
+static RootMotion::FinalIK::IKMappingLimb New_ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3, UnityEngine::Transform parentBone) ;
 
 /// @brief Method .ctor addr 0x11d1654 size 0x148 virtual false final false
  void _ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3, UnityEngine::Transform parentBone) ;

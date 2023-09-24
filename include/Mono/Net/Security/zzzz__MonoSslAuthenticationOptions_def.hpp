@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+class X509CertificateCollection;
+}
+namespace System::Net::Security {
+struct EncryptionPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+class X509Certificate;
 }
 namespace System::Net::Security {
 class ServerCertSelectionCallback;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
-}
-namespace System::Net::Security {
-struct EncryptionPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509RevocationMode;
@@ -138,8 +138,7 @@ constexpr System::Net::Security::ServerCertSelectionCallback __get__ServerCertSe
 /// @brief Method get_ServerCertSelectionDelegate addr 0x269262c size 0x8 virtual false final false
  System::Net::Security::ServerCertSelectionCallback get_ServerCertSelectionDelegate() ;
 
-// Ctor Parameters []
-explicit MonoSslAuthenticationOptions() ;
+static Mono::Net::Security::MonoSslAuthenticationOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x2692634 size 0x8 virtual false final false
  void _ctor() ;

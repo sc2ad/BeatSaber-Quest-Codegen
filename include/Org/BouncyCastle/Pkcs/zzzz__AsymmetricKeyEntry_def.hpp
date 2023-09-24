@@ -6,11 +6,11 @@
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -72,20 +72,17 @@ constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_key() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit AsymmetricKeyEntry(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key) ;
+static Org::BouncyCastle::Pkcs::AsymmetricKeyEntry New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key) ;
 
 /// @brief Method .ctor addr 0x1049d4c size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
-explicit AsymmetricKeyEntry(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::Hashtable attributes) ;
+static Org::BouncyCastle::Pkcs::AsymmetricKeyEntry New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::Hashtable attributes) ;
 
 /// @brief Method .ctor addr 0x1049dc0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::Hashtable attributes) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit AsymmetricKeyEntry(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::IDictionary attributes) ;
+static Org::BouncyCastle::Pkcs::AsymmetricKeyEntry New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::IDictionary attributes) ;
 
 /// @brief Method .ctor addr 0x1049de8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::IDictionary attributes) ;

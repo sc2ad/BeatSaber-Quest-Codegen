@@ -11,7 +11,7 @@ class DoubleMath;
 // Type: UnityEngine.ProBuilder.KdTree.Math::DoubleMath
 namespace UnityEngine::ProBuilder::KdTree::Math {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15811)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15811), inst: 2598 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15811), inst: 2598 }), TypeDefinitionIndex(TypeDefinitionIndex(15811))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15809))
 // CS Name: UnityEngine.ProBuilder.KdTree.Math.DoubleMath
 class CORDL_TYPE DoubleMath : public UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<double_t> {
@@ -96,8 +96,7 @@ constexpr explicit DoubleMath(void* ptr) noexcept : UnityEngine::ProBuilder::KdT
 /// @brief Method DistanceSquaredBetweenPoints addr 0x2999ba4 size 0x100 virtual true final false
  double_t DistanceSquaredBetweenPoints(::ArrayW<double_t> a, ::ArrayW<double_t> b) ;
 
-// Ctor Parameters []
-explicit DoubleMath() ;
+static UnityEngine::ProBuilder::KdTree::Math::DoubleMath New_ctor() ;
 
 /// @brief Method .ctor addr 0x2999ca4 size 0x48 virtual false final false
  void _ctor() ;

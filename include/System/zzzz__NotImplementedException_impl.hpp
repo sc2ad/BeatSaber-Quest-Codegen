@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__NotImplementedException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::NotImplementedException._ctor
 template<>
 
@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::NotImplementedException::NotImplementedException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<NotImplementedException>())) {}
+ System::NotImplementedException System::NotImplementedException::New_ctor()  {
+System::NotImplementedException o{THROW_UNLESS(::il2cpp_utils::New<System::NotImplementedException>())};
+return o;
+}
  void System::NotImplementedException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::NotImplementedException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::NotImplementedException::NotImplementedException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<NotImplementedException>(message))) {}
+ System::NotImplementedException System::NotImplementedException::New_ctor(::StringW message)  {
+System::NotImplementedException o{THROW_UNLESS(::il2cpp_utils::New<System::NotImplementedException>(message))};
+return o;
+}
  void System::NotImplementedException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::NotImplementedException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::NotImplementedException::NotImplementedException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<NotImplementedException>(info, context))) {}
+ System::NotImplementedException System::NotImplementedException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::NotImplementedException o{THROW_UNLESS(::il2cpp_utils::New<System::NotImplementedException>(info, context))};
+return o;
+}
  void System::NotImplementedException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::NotImplementedException>::get(),

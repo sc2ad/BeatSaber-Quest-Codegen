@@ -70,8 +70,10 @@ constexpr void Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::__set_wrapp
 constexpr Org::BouncyCastle::Crypto::IKeyWrapper Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::__get_wrapper() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IKeyWrapper, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::Asn1KeyWrapper(::StringW algorithm, Org::BouncyCastle::X509::X509Certificate cert)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1KeyWrapper>(algorithm, cert))) {}
+ Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::New_ctor(::StringW algorithm, Org::BouncyCastle::X509::X509Certificate cert)  {
+Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper>(algorithm, cert))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::_ctor(::StringW algorithm, Org::BouncyCastle::X509::X509Certificate cert)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper>::get(),

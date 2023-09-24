@@ -5,11 +5,11 @@
 namespace HMUI {
 struct HMUI__SelectableCell__TransitionType;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +95,7 @@ constexpr UnityEngine::UI::Image __get__highlightImage() const;
 /// @brief Method HighlightDidChange addr 0x21306e8 size 0x40 virtual true final false
  void HighlightDidChange(HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
-// Ctor Parameters []
-explicit FileBrowserTableCell() ;
+static GlobalNamespace::FileBrowserTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x2130728 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,23 +1,23 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplaySetupViewController_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSettingsPanelController_def.hpp"
-#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSettingsPanelController_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerSettingsPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__ColorsOverrideSettingsPanelController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemesSettings_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__GameplaySetupViewController_def.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
-#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
+#include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSettingsPanelController_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
+#include "GlobalNamespace/zzzz__ColorsOverrideSettingsPanelController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSettingsPanelController_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemesSettings_def.hpp"
+#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Panel._ctor
 template<>
 
@@ -53,8 +53,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Pa
 constexpr UnityEngine::GameObject GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Panel::__get_gameObject() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GameObject, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "refreshable", ty: "GlobalNamespace::IRefreshable", modifiers: "", def_value: None }, CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Panel::GlobalNamespace__GameplaySetupViewController__Panel(::StringW title, GlobalNamespace::IRefreshable refreshable, UnityEngine::GameObject gameObject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameplaySetupViewController__Panel>(title, refreshable, gameObject))) {}
+ GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Panel GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Panel::New_ctor(::StringW title, GlobalNamespace::IRefreshable refreshable, UnityEngine::GameObject gameObject)  {
+GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Panel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Panel>(title, refreshable, gameObject))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Panel::_ctor(::StringW title, GlobalNamespace::IRefreshable refreshable, UnityEngine::GameObject gameObject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Panel>::get(),
@@ -593,8 +595,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GameplaySetupViewController::GameplaySetupViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<GameplaySetupViewController>())) {}
+ GlobalNamespace::GameplaySetupViewController GlobalNamespace::GameplaySetupViewController::New_ctor()  {
+GlobalNamespace::GameplaySetupViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplaySetupViewController>())};
+return o;
+}
  void GlobalNamespace::GameplaySetupViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplaySetupViewController>::get(),

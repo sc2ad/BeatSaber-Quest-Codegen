@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::ColorBoostBeatmapEventDataProcessor::ColorBoostBeatmapEventDataProcessor()  : GlobalNamespace::BeatmapEventDataProcessor_1<GlobalNamespace::ColorBoostBeatmapEventData>(THROW_UNLESS(::il2cpp_utils::New<ColorBoostBeatmapEventDataProcessor>())) {}
+ GlobalNamespace::ColorBoostBeatmapEventDataProcessor GlobalNamespace::ColorBoostBeatmapEventDataProcessor::New_ctor()  {
+GlobalNamespace::ColorBoostBeatmapEventDataProcessor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorBoostBeatmapEventDataProcessor>())};
+return o;
+}
  void GlobalNamespace::ColorBoostBeatmapEventDataProcessor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorBoostBeatmapEventDataProcessor>::get(),

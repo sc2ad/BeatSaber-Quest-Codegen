@@ -1,20 +1,20 @@
 #pragma once
 #include "Org/BouncyCastle/Security/zzzz__DotNetUtilities_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaPrivateCrtKeyParameters_def.hpp"
-#include "System/Security/Cryptography/zzzz__CspParameters_def.hpp"
-#include "System/Security/Cryptography/zzzz__RSAParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509CertificateStructure_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSA_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaPublicKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__RsaPrivateKeyStructure_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
+#include "System/Security/Cryptography/zzzz__RSAParameters_def.hpp"
+#include "System/Security/Cryptography/zzzz__CspParameters_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaPrivateCrtKeyParameters_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__RsaPrivateKeyStructure_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509CertificateStructure_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaPublicKeyParameters_def.hpp"
+#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Security::DotNetUtilities._ctor
 template<>
 
@@ -440,8 +440,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Security::DotNetUtilities::DotNetUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DotNetUtilities>())) {}
+ Org::BouncyCastle::Security::DotNetUtilities Org::BouncyCastle::Security::DotNetUtilities::New_ctor()  {
+Org::BouncyCastle::Security::DotNetUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::DotNetUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Security::DotNetUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::DotNetUtilities>::get(),

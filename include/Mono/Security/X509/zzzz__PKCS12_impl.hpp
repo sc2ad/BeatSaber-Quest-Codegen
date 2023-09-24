@@ -1,17 +1,17 @@
 #pragma once
 #include "Mono/Security/X509/zzzz__PKCS12_def.hpp"
-#include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
-#include "Mono/Security/zzzz__PKCS7_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
-#include "Mono/Security/zzzz__PKCS7_def.hpp"
-#include "Mono/Security/zzzz__ASN1_def.hpp"
-#include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Mono/Security/Cryptography/zzzz__PKCS8_def.hpp"
+#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
+#include "Mono/Security/Cryptography/zzzz__PKCS8_def.hpp"
+#include "Mono/Security/zzzz__PKCS7_def.hpp"
+#include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
+#include "Mono/Security/zzzz__ASN1_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
+#include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_def.hpp"
+#include "Mono/Security/X509/zzzz__PKCS12_def.hpp"
 //  Writing Method size for method: Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes._ctor
 template<>
 
@@ -224,8 +224,10 @@ constexpr void Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes::
 constexpr ::ArrayW<uint8_t> Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes::__get__salt() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes::Mono__Security__X509__PKCS12__DeriveBytes()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__X509__PKCS12__DeriveBytes>())) {}
+ Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes::New_ctor()  {
+Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes>())};
+return o;
+}
  void Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes>::get(),
@@ -879,8 +881,10 @@ return ::cordl_internals::getInstanceField<System::Security::Cryptography::Rando
  int32_t Mono::Security::X509::PKCS12::__get_password_max_length()  {
 return ::cordl_internals::getStaticField<int32_t, "password_max_length", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::PKCS12>::get>();
 }
-// Ctor Parameters []
- Mono::Security::X509::PKCS12::PKCS12()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PKCS12>())) {}
+ Mono::Security::X509::PKCS12 Mono::Security::X509::PKCS12::New_ctor()  {
+Mono::Security::X509::PKCS12 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::PKCS12>())};
+return o;
+}
  void Mono::Security::X509::PKCS12::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::PKCS12>::get(),
@@ -890,8 +894,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::X509::PKCS12::PKCS12(::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PKCS12>(data))) {}
+ Mono::Security::X509::PKCS12 Mono::Security::X509::PKCS12::New_ctor(::ArrayW<uint8_t> data)  {
+Mono::Security::X509::PKCS12 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::PKCS12>(data))};
+return o;
+}
  void Mono::Security::X509::PKCS12::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::PKCS12>::get(),
@@ -901,8 +907,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
- Mono::Security::X509::PKCS12::PKCS12(::ArrayW<uint8_t> data, ::StringW password)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PKCS12>(data, password))) {}
+ Mono::Security::X509::PKCS12 Mono::Security::X509::PKCS12::New_ctor(::ArrayW<uint8_t> data, ::StringW password)  {
+Mono::Security::X509::PKCS12 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::PKCS12>(data, password))};
+return o;
+}
  void Mono::Security::X509::PKCS12::_ctor(::ArrayW<uint8_t> data, ::StringW password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::PKCS12>::get(),

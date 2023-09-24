@@ -1,14 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+namespace UnityEngine::EventSystems {
+class EventSystem;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::EventSystems {
 struct MoveDirection;
-}
-namespace UnityEngine::EventSystems {
-class EventSystem;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -90,8 +90,7 @@ constexpr UnityEngine::EventSystems::MoveDirection __get__moveDir_k__BackingFiel
 /// @brief Method set_moveDir addr 0x2c1c1d0 size 0x8 virtual false final false
  void set_moveDir(UnityEngine::EventSystems::MoveDirection value) ;
 
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
-explicit AxisEventData(UnityEngine::EventSystems::EventSystem eventSystem) ;
+static UnityEngine::EventSystems::AxisEventData New_ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;
 
 /// @brief Method .ctor addr 0x2c1c1d8 size 0x68 virtual false final false
  void _ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;

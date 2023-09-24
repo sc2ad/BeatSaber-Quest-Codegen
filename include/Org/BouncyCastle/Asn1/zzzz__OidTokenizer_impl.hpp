@@ -63,8 +63,10 @@ constexpr void Org::BouncyCastle::Asn1::OidTokenizer::__set_index(int32_t value)
 constexpr int32_t Org::BouncyCastle::Asn1::OidTokenizer::__get_index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::OidTokenizer::OidTokenizer(::StringW oid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OidTokenizer>(oid))) {}
+ Org::BouncyCastle::Asn1::OidTokenizer Org::BouncyCastle::Asn1::OidTokenizer::New_ctor(::StringW oid)  {
+Org::BouncyCastle::Asn1::OidTokenizer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::OidTokenizer>(oid))};
+return o;
+}
  void Org::BouncyCastle::Asn1::OidTokenizer::_ctor(::StringW oid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::OidTokenizer>::get(),

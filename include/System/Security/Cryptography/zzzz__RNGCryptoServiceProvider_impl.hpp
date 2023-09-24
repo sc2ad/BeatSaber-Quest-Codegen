@@ -166,8 +166,10 @@ constexpr void System::Security::Cryptography::RNGCryptoServiceProvider::__set__
 constexpr ::cordl_internals::intptr_t System::Security::Cryptography::RNGCryptoServiceProvider::__get__handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::RNGCryptoServiceProvider::RNGCryptoServiceProvider()  : System::Security::Cryptography::RandomNumberGenerator(THROW_UNLESS(::il2cpp_utils::New<RNGCryptoServiceProvider>())) {}
+ System::Security::Cryptography::RNGCryptoServiceProvider System::Security::Cryptography::RNGCryptoServiceProvider::New_ctor()  {
+System::Security::Cryptography::RNGCryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RNGCryptoServiceProvider>())};
+return o;
+}
  void System::Security::Cryptography::RNGCryptoServiceProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RNGCryptoServiceProvider>::get(),

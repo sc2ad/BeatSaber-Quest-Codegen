@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/zzzz__NetworkCredential_def.hpp"
+#include "System/Security/zzzz__SecureString_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
-#include "System/Security/zzzz__SecureString_def.hpp"
 //  Writing Method size for method: System::Net::NetworkCredential._ctor
 template<>
 
@@ -229,8 +229,10 @@ constexpr void System::Net::NetworkCredential::__set_m_password(System::Security
 constexpr System::Security::SecureString System::Net::NetworkCredential::__get_m_password() const {
 return ::cordl_internals::getInstanceField<System::Security::SecureString, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::NetworkCredential::NetworkCredential(::StringW userName, ::StringW password)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetworkCredential>(userName, password))) {}
+ System::Net::NetworkCredential System::Net::NetworkCredential::New_ctor(::StringW userName, ::StringW password)  {
+System::Net::NetworkCredential o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkCredential>(userName, password))};
+return o;
+}
  void System::Net::NetworkCredential::_ctor(::StringW userName, ::StringW password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkCredential>::get(),
@@ -240,8 +242,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, userName, password);
 }
-// Ctor Parameters [CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "domain", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::NetworkCredential::NetworkCredential(::StringW userName, ::StringW password, ::StringW domain)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetworkCredential>(userName, password, domain))) {}
+ System::Net::NetworkCredential System::Net::NetworkCredential::New_ctor(::StringW userName, ::StringW password, ::StringW domain)  {
+System::Net::NetworkCredential o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkCredential>(userName, password, domain))};
+return o;
+}
  void System::Net::NetworkCredential::_ctor(::StringW userName, ::StringW password, ::StringW domain)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkCredential>::get(),

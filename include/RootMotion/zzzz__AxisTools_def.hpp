@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace RootMotion {
 struct Axis;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -80,8 +80,7 @@ static UnityEngine::Vector3 GetAxisVectorToDirection(UnityEngine::Transform t, U
 /// @brief Method GetAxisVectorToDirection addr 0x11ab63c size 0x48c virtual false final false
 static UnityEngine::Vector3 GetAxisVectorToDirection(UnityEngine::Quaternion r, UnityEngine::Vector3 direction) ;
 
-// Ctor Parameters []
-explicit AxisTools() ;
+static RootMotion::AxisTools New_ctor() ;
 
 /// @brief Method .ctor addr 0x11abac8 size 0x8 virtual false final false
  void _ctor() ;

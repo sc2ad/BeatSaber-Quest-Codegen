@@ -604,8 +604,10 @@ constexpr void Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::__
 constexpr ::ArrayW<uint64_t> Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::__get_x() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint64_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::SecT409FieldElement(Org::BouncyCastle::Math::BigInteger x)  : Org::BouncyCastle::Math::EC::AbstractF2mFieldElement(THROW_UNLESS(::il2cpp_utils::New<SecT409FieldElement>(x))) {}
+ Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::New_ctor(Org::BouncyCastle::Math::BigInteger x)  {
+Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement>(x))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::_ctor(Org::BouncyCastle::Math::BigInteger x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement>::get(),
@@ -615,8 +617,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::SecT409FieldElement()  : Org::BouncyCastle::Math::EC::AbstractF2mFieldElement(THROW_UNLESS(::il2cpp_utils::New<SecT409FieldElement>())) {}
+ Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::New_ctor()  {
+Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement>::get(),
@@ -626,8 +630,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::SecT409FieldElement(::ArrayW<uint64_t> x)  : Org::BouncyCastle::Math::EC::AbstractF2mFieldElement(THROW_UNLESS(::il2cpp_utils::New<SecT409FieldElement>(x))) {}
+ Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::New_ctor(::ArrayW<uint64_t> x)  {
+Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement>(x))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement::_ctor(::ArrayW<uint64_t> x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement>::get(),

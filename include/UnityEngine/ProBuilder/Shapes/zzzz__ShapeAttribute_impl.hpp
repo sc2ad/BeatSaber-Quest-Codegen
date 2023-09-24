@@ -24,8 +24,10 @@ constexpr void UnityEngine::ProBuilder::Shapes::ShapeAttribute::__set_name(::Str
 constexpr ::StringW UnityEngine::ProBuilder::Shapes::ShapeAttribute::__get_name() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "n", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Shapes::ShapeAttribute::ShapeAttribute(::StringW n)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ShapeAttribute>(n))) {}
+ UnityEngine::ProBuilder::Shapes::ShapeAttribute UnityEngine::ProBuilder::Shapes::ShapeAttribute::New_ctor(::StringW n)  {
+UnityEngine::ProBuilder::Shapes::ShapeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Shapes::ShapeAttribute>(n))};
+return o;
+}
  void UnityEngine::ProBuilder::Shapes::ShapeAttribute::_ctor(::StringW n)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Shapes::ShapeAttribute>::get(),

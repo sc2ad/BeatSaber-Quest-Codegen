@@ -4,11 +4,11 @@
 #include <cstdint>
 namespace System::Collections::Generic {
 template<typename T>
-class HashSet_1;
+class LinkedList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class LinkedList_1;
+class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -96,8 +96,7 @@ constexpr System::Collections::Generic::HashSet_1<T> __get__set() const;
 /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
  void Clear() ;
 
-// Ctor Parameters []
-explicit QueueSet_1() ;
+static GlobalNamespace::QueueSet_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

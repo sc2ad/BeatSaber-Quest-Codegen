@@ -2,15 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace GlobalNamespace {
 struct GlobalNamespace__GameplayModifiers__EnergyType;
 }
 namespace System {
 class Action;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -14,22 +14,25 @@ namespace GlobalNamespace {
 class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+class MultiplayerPlayersManager;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class GlobalNamespace__CoreGameHUDController__InitData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
 }
 namespace GlobalNamespace {
 class MultiplayerController;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__CoreGameHUDController__InitData;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__MultiplayerController__State;
+class MultiplayerLayoutProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +98,7 @@ static System::Func_2<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20fc6bc size 0x8 virtual false final false
  void _ctor() ;
@@ -218,8 +220,7 @@ static constexpr float_t  kUpdateInterval{0.5};
 /// @brief Method HandleStateChanged addr 0x20fc54c size 0x104 virtual false final false
  void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State newState) ;
 
-// Ctor Parameters []
-explicit MultiplayerOtherPlayersScoreDiffTextManager() ;
+static GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20fc650 size 0x8 virtual false final false
  void _ctor() ;

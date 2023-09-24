@@ -70,8 +70,7 @@ constexpr ::ArrayW<uint32_t> __get_x() const;
 /// @brief Method ExponentiateX addr 0xe86034 size 0x110 virtual true final true
  void ExponentiateX(int64_t pow, ::ArrayW<uint8_t> output) ;
 
-// Ctor Parameters []
-explicit BasicGcmExponentiator() ;
+static Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe86280 size 0x8 virtual false final false
  void _ctor() ;

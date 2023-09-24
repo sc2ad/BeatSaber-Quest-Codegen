@@ -3,44 +3,44 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-struct Memory_1;
+namespace System::Threading::Tasks {
+template<typename TResult>
+struct ValueTask_1;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
 template<typename T>
-struct ReadOnlySpan_1;
-}
-namespace System {
-template<typename T>
 struct ReadOnlyMemory_1;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::IO {
-struct SeekOrigin;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace System::IO {
+class Stream;
+}
 namespace System::Threading::Tasks {
-template<typename TResult>
-struct ValueTask_1;
+struct ValueTask;
+}
+namespace System {
+template<typename T>
+struct Memory_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 template<typename T>
 struct Span_1;
 }
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System::IO {
-class Stream;
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::IO {
@@ -166,44 +166,37 @@ constexpr System::Threading::Tasks::Task_1<int32_t> __get__lastReadTask() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MemoryStream() ;
+static System::IO::MemoryStream New_ctor() ;
 
 /// @brief Method .ctor addr 0x238fa6c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MemoryStream(int32_t capacity) ;
+static System::IO::MemoryStream New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x238fa74 size 0x160 virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit MemoryStream(::ArrayW<uint8_t> buffer) ;
+static System::IO::MemoryStream New_ctor(::ArrayW<uint8_t> buffer) ;
 
 /// @brief Method .ctor addr 0x238fbd4 size 0x8 virtual false final false
  void _ctor(::ArrayW<uint8_t> buffer) ;
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "writable", ty: "bool", modifiers: "", def_value: None }]
-explicit MemoryStream(::ArrayW<uint8_t> buffer, bool writable) ;
+static System::IO::MemoryStream New_ctor(::ArrayW<uint8_t> buffer, bool writable) ;
 
 /// @brief Method .ctor addr 0x238fbdc size 0xf0 virtual false final false
  void _ctor(::ArrayW<uint8_t> buffer, bool writable) ;
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MemoryStream(::ArrayW<uint8_t> buffer, int32_t index, int32_t count) ;
+static System::IO::MemoryStream New_ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count) ;
 
 /// @brief Method .ctor addr 0x238fccc size 0xc virtual false final false
  void _ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count) ;
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "writable", ty: "bool", modifiers: "", def_value: None }]
-explicit MemoryStream(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable) ;
+static System::IO::MemoryStream New_ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable) ;
 
 /// @brief Method .ctor addr 0x238feb0 size 0xc virtual false final false
  void _ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable) ;
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "writable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "publiclyVisible", ty: "bool", modifiers: "", def_value: None }]
-explicit MemoryStream(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable, bool publiclyVisible) ;
+static System::IO::MemoryStream New_ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable, bool publiclyVisible) ;
 
 /// @brief Method .ctor addr 0x238fcd8 size 0x1d8 virtual false final false
  void _ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable, bool publiclyVisible) ;

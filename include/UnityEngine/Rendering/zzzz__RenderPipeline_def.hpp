@@ -2,18 +2,18 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace UnityEngine {
-struct UnityEngine__Camera__RenderRequest;
-}
 namespace UnityEngine::Rendering {
 struct ScriptableRenderContext;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-class Camera;
+struct UnityEngine__Camera__RenderRequest;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

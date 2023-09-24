@@ -3,11 +3,12 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Comparison_1_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardType::GlobalNamespace__LocalLeaderboardsModel__LeaderboardType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -61,8 +62,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreDa
 constexpr int64_t GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData::__get__timestamp() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData::GlobalNamespace__LocalLeaderboardsModel__ScoreData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalLeaderboardsModel__ScoreData>())) {}
+ GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData>::get(),
@@ -101,8 +104,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__Leaderb
 constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData> GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData::__get__scores() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalLeaderboardsModel__LeaderboardData>())) {}
+ GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData>::get(),
@@ -135,8 +140,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__SavedLe
 constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData> GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData::__get__leaderboardsData() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData::GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData>())) {}
+ GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData>::get(),
@@ -238,8 +245,10 @@ return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::GlobalN
  System::Predicate_1<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData> GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel____c::__get___9__17_1()  {
 return ::cordl_internals::getStaticField<System::Predicate_1<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData>, "<>9__17_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel____c::GlobalNamespace__LocalLeaderboardsModel____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalLeaderboardsModel____c>())) {}
+ GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel____c GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel____c>::get(),
@@ -927,8 +936,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, saveData);
 }
-// Ctor Parameters []
- GlobalNamespace::LocalLeaderboardsModel::LocalLeaderboardsModel()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<LocalLeaderboardsModel>())) {}
+ GlobalNamespace::LocalLeaderboardsModel GlobalNamespace::LocalLeaderboardsModel::New_ctor()  {
+GlobalNamespace::LocalLeaderboardsModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LocalLeaderboardsModel>())};
+return o;
+}
  void GlobalNamespace::LocalLeaderboardsModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LocalLeaderboardsModel>::get(),

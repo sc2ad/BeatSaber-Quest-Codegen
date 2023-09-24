@@ -2,23 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
 namespace HMUI {
-class RangeValuesTextSlider;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
+class TimeSlider;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class SongPreviewPlayer;
+class LevelBar;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace HMUI {
+class RangeValuesTextSlider;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -26,20 +26,20 @@ class Button;
 namespace HMUI {
 class PercentSlider;
 }
-namespace HMUI {
-class TimeSlider;
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
+class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
-class LevelBar;
-}
-namespace System {
-class Action;
+class PerceivedLoudnessPerLevelModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -218,8 +218,7 @@ constexpr GlobalNamespace::BeatmapDifficulty __get__beatmapDifficulty() const;
 /// @brief Method PlayButtonPressed addr 0x217e5a0 size 0x48 virtual false final false
  void PlayButtonPressed() ;
 
-// Ctor Parameters []
-explicit PracticeViewController() ;
+static GlobalNamespace::PracticeViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217e5e8 size 0x8 virtual false final false
  void _ctor() ;

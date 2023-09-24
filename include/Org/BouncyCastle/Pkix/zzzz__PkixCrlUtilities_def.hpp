@@ -4,11 +4,11 @@
 namespace System::Collections {
 class ICollection;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace System::Collections {
 class IList;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixParameters;
 }
 namespace Org::BouncyCastle::X509::Store {
 class X509CrlStoreSelector;
@@ -16,8 +16,8 @@ class X509CrlStoreSelector;
 namespace System {
 struct DateTime;
 }
-namespace Org::BouncyCastle::Pkix {
-class PkixParameters;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -74,8 +74,7 @@ constexpr explicit PkixCrlUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 /// @brief Method FindCrls addr 0x1079638 size 0x578 virtual false final false
  System::Collections::ICollection FindCrls(Org::BouncyCastle::X509::Store::X509CrlStoreSelector crlSelect, System::Collections::IList crlStores) ;
 
-// Ctor Parameters []
-explicit PkixCrlUtilities() ;
+static Org::BouncyCastle::Pkix::PkixCrlUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x1078ec4 size 0x8 virtual false final false
  void _ctor() ;

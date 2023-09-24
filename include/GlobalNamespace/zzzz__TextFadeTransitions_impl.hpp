@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextFadeTransitions_def.hpp"
+#include "GlobalNamespace/zzzz__TextFadeTransitions_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -199,8 +200,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, text);
 }
-// Ctor Parameters []
- GlobalNamespace::TextFadeTransitions::TextFadeTransitions()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TextFadeTransitions>())) {}
+ GlobalNamespace::TextFadeTransitions GlobalNamespace::TextFadeTransitions::New_ctor()  {
+GlobalNamespace::TextFadeTransitions o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TextFadeTransitions>())};
+return o;
+}
  void GlobalNamespace::TextFadeTransitions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TextFadeTransitions>::get(),

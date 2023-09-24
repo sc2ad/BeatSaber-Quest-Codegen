@@ -2,11 +2,11 @@
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationMixerPlayable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationTrack_def.hpp"
-#include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::ActivationMixerPlayable.Create
 template<>
 
@@ -172,8 +172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playable, info, playerData);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::ActivationMixerPlayable::ActivationMixerPlayable()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<ActivationMixerPlayable>())) {}
+ UnityEngine::Timeline::ActivationMixerPlayable UnityEngine::Timeline::ActivationMixerPlayable::New_ctor()  {
+UnityEngine::Timeline::ActivationMixerPlayable o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::ActivationMixerPlayable>())};
+return o;
+}
  void UnityEngine::Timeline::ActivationMixerPlayable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::ActivationMixerPlayable>::get(),

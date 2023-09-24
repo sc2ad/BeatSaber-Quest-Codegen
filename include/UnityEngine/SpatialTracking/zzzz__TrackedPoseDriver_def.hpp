@@ -4,20 +4,32 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Pose;
+namespace UnityEngine::SpatialTracking {
+struct UnityEngine__SpatialTracking__TrackedPoseDriver__UpdateType;
+}
+namespace UnityEngine::SpatialTracking {
+struct UnityEngine__SpatialTracking__TrackedPoseDriver__TrackingType;
 }
 namespace UnityEngine::Experimental::XR::Interaction {
 class BasePoseProvider;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Pose;
+}
+namespace UnityEngine::SpatialTracking {
+struct PoseDataFlags;
+}
+namespace UnityEngine::SpatialTracking {
+struct UnityEngine__SpatialTracking__TrackedPoseDriver__DeviceType;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::SpatialTracking {
-struct PoseDataFlags;
+struct UnityEngine__SpatialTracking__TrackedPoseDriver__TrackedPose;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::SpatialTracking {
@@ -85,6 +97,8 @@ __GenericXRRemote = 2,
 constexpr operator __UnityEngine__SpatialTracking__TrackedPoseDriver__DeviceType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__SpatialTracking__TrackedPoseDriver__DeviceType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -166,6 +180,8 @@ __RemotePose = 10,
 constexpr operator __UnityEngine__SpatialTracking__TrackedPoseDriver__TrackedPose_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__SpatialTracking__TrackedPoseDriver__TrackedPose_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -264,6 +280,8 @@ constexpr operator __UnityEngine__SpatialTracking__TrackedPoseDriver__TrackingTy
 return std::bit_cast<__UnityEngine__SpatialTracking__TrackedPoseDriver__TrackingType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -336,6 +354,8 @@ __BeforeRender = 2,
 constexpr operator __UnityEngine__SpatialTracking__TrackedPoseDriver__UpdateType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__SpatialTracking__TrackedPoseDriver__UpdateType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -558,8 +578,7 @@ constexpr UnityEngine::Pose __get_m_OriginPose() const;
 /// @brief Method PerformUpdate addr 0x2ba2dc4 size 0xc4 virtual true final false
  void PerformUpdate() ;
 
-// Ctor Parameters []
-explicit TrackedPoseDriver() ;
+static UnityEngine::SpatialTracking::TrackedPoseDriver New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba2e88 size 0x10 virtual false final false
  void _ctor() ;

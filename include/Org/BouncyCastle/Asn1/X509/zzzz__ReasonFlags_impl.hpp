@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "reasons", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::ReasonFlags::ReasonFlags(int32_t reasons)  : Org::BouncyCastle::Asn1::DerBitString(THROW_UNLESS(::il2cpp_utils::New<ReasonFlags>(reasons))) {}
+ Org::BouncyCastle::Asn1::X509::ReasonFlags Org::BouncyCastle::Asn1::X509::ReasonFlags::New_ctor(int32_t reasons)  {
+Org::BouncyCastle::Asn1::X509::ReasonFlags o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::ReasonFlags>(reasons))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::ReasonFlags::_ctor(int32_t reasons)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::ReasonFlags>::get(),
@@ -47,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reasons);
 }
-// Ctor Parameters [CppParam { name: "reasons", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::ReasonFlags::ReasonFlags(Org::BouncyCastle::Asn1::DerBitString reasons)  : Org::BouncyCastle::Asn1::DerBitString(THROW_UNLESS(::il2cpp_utils::New<ReasonFlags>(reasons))) {}
+ Org::BouncyCastle::Asn1::X509::ReasonFlags Org::BouncyCastle::Asn1::X509::ReasonFlags::New_ctor(Org::BouncyCastle::Asn1::DerBitString reasons)  {
+Org::BouncyCastle::Asn1::X509::ReasonFlags o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::ReasonFlags>(reasons))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::ReasonFlags::_ctor(Org::BouncyCastle::Asn1::DerBitString reasons)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::ReasonFlags>::get(),

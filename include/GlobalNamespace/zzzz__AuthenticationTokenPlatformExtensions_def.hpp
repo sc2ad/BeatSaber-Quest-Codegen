@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-struct GlobalNamespace__AuthenticationToken__Platform;
+struct GlobalNamespace__UserInfo__Platform;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__UserInfo__Platform;
+struct GlobalNamespace__AuthenticationToken__Platform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

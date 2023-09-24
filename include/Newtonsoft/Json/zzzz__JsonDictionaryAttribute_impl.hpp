@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Newtonsoft::Json::JsonDictionaryAttribute::JsonDictionaryAttribute()  : Newtonsoft::Json::JsonContainerAttribute(THROW_UNLESS(::il2cpp_utils::New<JsonDictionaryAttribute>())) {}
+ Newtonsoft::Json::JsonDictionaryAttribute Newtonsoft::Json::JsonDictionaryAttribute::New_ctor()  {
+Newtonsoft::Json::JsonDictionaryAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonDictionaryAttribute>())};
+return o;
+}
  void Newtonsoft::Json::JsonDictionaryAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonDictionaryAttribute>::get(),
@@ -46,8 +48,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonDictionaryAttribute::JsonDictionaryAttribute(::StringW id)  : Newtonsoft::Json::JsonContainerAttribute(THROW_UNLESS(::il2cpp_utils::New<JsonDictionaryAttribute>(id))) {}
+ Newtonsoft::Json::JsonDictionaryAttribute Newtonsoft::Json::JsonDictionaryAttribute::New_ctor(::StringW id)  {
+Newtonsoft::Json::JsonDictionaryAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonDictionaryAttribute>(id))};
+return o;
+}
  void Newtonsoft::Json::JsonDictionaryAttribute::_ctor(::StringW id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonDictionaryAttribute>::get(),

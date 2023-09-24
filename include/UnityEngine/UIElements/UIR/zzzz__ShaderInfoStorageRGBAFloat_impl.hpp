@@ -1,8 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorage_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorageRGBAFloat_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorageRGBAFloat_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c._ctor
 template<>
 
@@ -43,8 +44,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
  UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c::__get___9()  {
 return ::cordl_internals::getStaticField<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c>())) {}
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c::New_ctor()  {
+UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c>::get(),
@@ -86,8 +89,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
  System::Func_2<UnityEngine::Color,UnityEngine::Color> UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::__get_s_Convert()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::Color,UnityEngine::Color>, "s_Convert", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat>::get>();
 }
-// Ctor Parameters [CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: Some("64") }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: Some("4096") }]
- UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::ShaderInfoStorageRGBAFloat(int32_t initialSize, int32_t maxSize)  : UnityEngine::UIElements::UIR::ShaderInfoStorage_1<UnityEngine::Color>(THROW_UNLESS(::il2cpp_utils::New<ShaderInfoStorageRGBAFloat>(initialSize, maxSize))) {}
+/// @param initialSize: int32_t (default: 64)
+/// @param maxSize: int32_t (default: 4096)
+ UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::New_ctor(int32_t initialSize, int32_t maxSize)  {
+UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat>(initialSize, maxSize))};
+return o;
+}
 /// @param initialSize: int32_t (default: 64)
 /// @param maxSize: int32_t (default: 4096)
  void UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::_ctor(int32_t initialSize, int32_t maxSize)  {

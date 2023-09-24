@@ -4,40 +4,40 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Net {
-struct HttpStatusCode;
+class CookieContainer;
 }
-namespace System {
-class IDisposable;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Net {
+class CookieCollection;
 }
 namespace System {
 class Uri;
 }
-namespace System::Net {
-class CookieContainer;
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System {
+class Version;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Net {
-class WebHeaderCollection;
 }
 namespace System::Net {
 class WebResponseStream;
 }
-namespace System {
-class Version;
+namespace System::Net {
+struct HttpStatusCode;
 }
 namespace System::Net {
-class CookieCollection;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+class WebHeaderCollection;
 }
 // Forward declare root types
 namespace System::Net {
@@ -177,26 +177,22 @@ constexpr System::IO::Stream __get_stream() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HttpWebResponse() ;
+static System::Net::HttpWebResponse New_ctor() ;
 
 /// @brief Method .ctor addr 0x283f608 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::HttpStatusCode", modifiers: "", def_value: None }, CppParam { name: "headers", ty: "System::Net::WebHeaderCollection", modifiers: "", def_value: None }]
-explicit HttpWebResponse(System::Uri uri, ::StringW method, System::Net::HttpStatusCode status, System::Net::WebHeaderCollection headers) ;
+static System::Net::HttpWebResponse New_ctor(System::Uri uri, ::StringW method, System::Net::HttpStatusCode status, System::Net::WebHeaderCollection headers) ;
 
 /// @brief Method .ctor addr 0x283f610 size 0xb4 virtual false final false
  void _ctor(System::Uri uri, ::StringW method, System::Net::HttpStatusCode status, System::Net::WebHeaderCollection headers) ;
 
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::Net::WebResponseStream", modifiers: "", def_value: None }, CppParam { name: "container", ty: "System::Net::CookieContainer", modifiers: "", def_value: None }]
-explicit HttpWebResponse(System::Uri uri, ::StringW method, System::Net::WebResponseStream stream, System::Net::CookieContainer container) ;
+static System::Net::HttpWebResponse New_ctor(System::Uri uri, ::StringW method, System::Net::WebResponseStream stream, System::Net::CookieContainer container) ;
 
 /// @brief Method .ctor addr 0x283ee4c size 0x2ec virtual false final false
  void _ctor(System::Uri uri, ::StringW method, System::Net::WebResponseStream stream, System::Net::CookieContainer container) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit HttpWebResponse(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::HttpWebResponse New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x283f8d8 size 0x39c virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

@@ -3,32 +3,33 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__IgnoranceConnectionManager_def.hpp"
-#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
 #include "GlobalNamespace/zzzz__IConnection_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceClient_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceServer_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "IgnoranceCore/zzzz__IgnoranceChannelTypes_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
+#include "GlobalNamespace/zzzz__IgnoranceConnectionManager_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "IgnoranceCore/zzzz__IgnoranceChannelTypes_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__ConnectionState::GlobalNamespace__IgnoranceConnectionManager__ConnectionState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -95,8 +96,10 @@ constexpr void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__Ign
 constexpr bool GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__get_enableBackgroundSentry() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase>())) {}
+ GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::New_ctor()  {
+GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase>::get(),
@@ -153,8 +156,10 @@ constexpr void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__Sta
 constexpr ::StringW GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__StartServerParams::__get_privateKey() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__StartServerParams::GlobalNamespace__IgnoranceConnectionManager__StartServerParams()  : GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__IgnoranceConnectionManager__StartServerParams>())) {}
+ GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__StartServerParams GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__StartServerParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__StartServerParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__StartServerParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__StartServerParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__StartServerParams>::get(),
@@ -223,8 +228,10 @@ constexpr void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__Con
 constexpr ::StringW GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams::__get_rootCertificate() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams::GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams()  : GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams>())) {}
+ GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams>::get(),
@@ -475,8 +482,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "connectionManager", ty: "GlobalNamespace::IgnoranceConnectionManager", modifiers: "", def_value: None }, CppParam { name: "peerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection(GlobalNamespace::IgnoranceConnectionManager connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName, bool isConnectionOwner)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection>(connectionManager, peerId, userId, userName, isConnectionOwner))) {}
+ GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection::New_ctor(GlobalNamespace::IgnoranceConnectionManager connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName, bool isConnectionOwner)  {
+GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection>(connectionManager, peerId, userId, userName, isConnectionOwner))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection::_ctor(GlobalNamespace::IgnoranceConnectionManager connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName, bool isConnectionOwner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection>::get(),
@@ -544,8 +553,10 @@ constexpr void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c
 constexpr IgnoranceCore::IgnoranceClient GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0::__get_client() const {
 return ::cordl_internals::getInstanceField<IgnoranceCore::IgnoranceClient, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0>())) {}
+ GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0 GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0>::get(),
@@ -604,8 +615,10 @@ constexpr void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c
 constexpr IgnoranceCore::IgnoranceServer GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1::__get_server() const {
 return ::cordl_internals::getInstanceField<IgnoranceCore::IgnoranceServer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1>())) {}
+ GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1 GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1::New_ctor()  {
+GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1>::get(),
@@ -2141,8 +2154,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::IgnoranceConnectionManager::IgnoranceConnectionManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IgnoranceConnectionManager>())) {}
+ GlobalNamespace::IgnoranceConnectionManager GlobalNamespace::IgnoranceConnectionManager::New_ctor()  {
+GlobalNamespace::IgnoranceConnectionManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::IgnoranceConnectionManager>())};
+return o;
+}
  void GlobalNamespace::IgnoranceConnectionManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IgnoranceConnectionManager>::get(),
@@ -2152,8 +2167,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }]
- GlobalNamespace::IgnoranceConnectionManager::IgnoranceConnectionManager(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IgnoranceConnectionManager>(timeProvider, taskUtility))) {}
+ GlobalNamespace::IgnoranceConnectionManager GlobalNamespace::IgnoranceConnectionManager::New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility)  {
+GlobalNamespace::IgnoranceConnectionManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::IgnoranceConnectionManager>(timeProvider, taskUtility))};
+return o;
+}
  void GlobalNamespace::IgnoranceConnectionManager::_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IgnoranceConnectionManager>::get(),

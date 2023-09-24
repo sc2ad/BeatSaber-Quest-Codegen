@@ -7,32 +7,29 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace HoudiniEngineUnity {
-class HEU_UnityMaterialInfo;
+namespace UnityEngine {
+class Material;
 }
 namespace HoudiniEngineUnity {
-class HEU_MaterialData;
+class HEU_GeoGroup;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_GenerateGeoCache____c;
+}
+namespace HoudiniEngineUnity {
+class HEU_UnityMaterialInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
+}
+namespace HoudiniEngineUnity {
 class HEU_MeshData;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
-}
-namespace HoudiniEngineUnity {
-class HEU_MeshIndexFormat;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_GeneratedOutputData;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -46,22 +43,34 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
+struct HAPI_PartInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeoGroup;
+class HEU_MeshIndexFormat;
 }
 namespace UnityEngine {
 struct MeshTopology;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeneratedOutputData;
+class HEU_GeneratedOutput;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_GeoInfo;
 }
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType;
 }
 namespace System {
 template<typename T>
@@ -138,6 +147,8 @@ __SIMPLE_CAPSULE = 6,
 constexpr operator __HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -280,8 +291,7 @@ constexpr bool __get__isTrigger() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x20516c8 size 0x8 virtual false final false
  void _ctor() ;
@@ -353,8 +363,7 @@ static System::Comparison_1<float_t> __get___9__65_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_GenerateGeoCache____c() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2053d40 size 0x8 virtual false final false
  void _ctor() ;
@@ -778,8 +787,7 @@ static bool GenerateGeoGroupUsingGeoCachePoints(HoudiniEngineUnity::HEU_SessionB
 /// @brief Method CalculateGroupMeshTopology addr 0x20516d0 size 0x1c8 virtual false final false
 static UnityEngine::MeshTopology CalculateGroupMeshTopology(System::Collections::Generic::List_1<int32_t> groupFaces, ::ArrayW<int32_t> allFaceCounts) ;
 
-// Ctor Parameters []
-explicit HEU_GenerateGeoCache() ;
+static HoudiniEngineUnity::HEU_GenerateGeoCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x2048bc8 size 0x1fc virtual false final false
  void _ctor() ;

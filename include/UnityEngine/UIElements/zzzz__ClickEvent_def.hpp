@@ -12,7 +12,7 @@ class ClickEvent;
 // Type: UnityEngine.UIElements::ClickEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4679 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4679 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7303))
 // CS Name: UnityEngine.UIElements.ClickEvent
 class CORDL_TYPE ClickEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::ClickEvent> {
@@ -57,8 +57,7 @@ constexpr explicit ClickEvent(void* ptr) noexcept : UnityEngine::UIElements::Poi
 /// @brief Method LocalInit addr 0x2cd92a8 size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit ClickEvent() ;
+static UnityEngine::UIElements::ClickEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd92b4 size 0x54 virtual false final false
  void _ctor() ;

@@ -58,8 +58,7 @@ constexpr explicit Datatype_day(void* ptr) noexcept : System::Xml::Schema::Datat
 /// @brief Method get_TypeCode addr 0x2726800 size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_day() ;
+static System::Xml::Schema::Datatype_day New_ctor() ;
 
 /// @brief Method .ctor addr 0x2726808 size 0x58 virtual false final false
  void _ctor() ;

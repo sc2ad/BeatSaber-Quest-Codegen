@@ -292,8 +292,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::GUIContent::GUIContent()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUIContent>())) {}
+ UnityEngine::GUIContent UnityEngine::GUIContent::New_ctor()  {
+UnityEngine::GUIContent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUIContent>())};
+return o;
+}
  void UnityEngine::GUIContent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUIContent>::get(),
@@ -303,8 +305,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::GUIContent::GUIContent(::StringW text)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUIContent>(text))) {}
+ UnityEngine::GUIContent UnityEngine::GUIContent::New_ctor(::StringW text)  {
+UnityEngine::GUIContent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUIContent>(text))};
+return o;
+}
  void UnityEngine::GUIContent::_ctor(::StringW text)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUIContent>::get(),
@@ -314,8 +318,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, text);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "image", ty: "UnityEngine::Texture", modifiers: "", def_value: None }, CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::GUIContent::GUIContent(::StringW text, UnityEngine::Texture image, ::StringW tooltip)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUIContent>(text, image, tooltip))) {}
+ UnityEngine::GUIContent UnityEngine::GUIContent::New_ctor(::StringW text, UnityEngine::Texture image, ::StringW tooltip)  {
+UnityEngine::GUIContent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUIContent>(text, image, tooltip))};
+return o;
+}
  void UnityEngine::GUIContent::_ctor(::StringW text, UnityEngine::Texture image, ::StringW tooltip)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUIContent>::get(),
@@ -325,8 +331,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, text, image, tooltip);
 }
-// Ctor Parameters [CppParam { name: "src", ty: "UnityEngine::GUIContent", modifiers: "", def_value: None }]
- UnityEngine::GUIContent::GUIContent(UnityEngine::GUIContent src)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUIContent>(src))) {}
+ UnityEngine::GUIContent UnityEngine::GUIContent::New_ctor(UnityEngine::GUIContent src)  {
+UnityEngine::GUIContent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUIContent>(src))};
+return o;
+}
  void UnityEngine::GUIContent::_ctor(UnityEngine::GUIContent src)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUIContent>::get(),

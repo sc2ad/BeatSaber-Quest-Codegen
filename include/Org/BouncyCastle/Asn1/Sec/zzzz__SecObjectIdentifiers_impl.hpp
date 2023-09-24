@@ -222,8 +222,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers::__get_SecP256r1()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "SecP256r1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers::SecObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SecObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers>::get(),

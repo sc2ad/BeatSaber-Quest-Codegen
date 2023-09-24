@@ -6,46 +6,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonArrayContract;
-}
 namespace System::Collections {
 class IList;
-}
-namespace Newtonsoft::Json::Serialization {
-template<typename T>
-class ObjectConstructor_1;
-}
-namespace Newtonsoft::Json {
-struct DefaultValueHandling;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonSerializerProxy;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonObjectContract;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonContainerContract;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonISerializableContract;
@@ -54,23 +16,73 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonProperty;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonDictionaryContract;
+namespace Newtonsoft::Json::Linq {
+class JTokenReader;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace Newtonsoft::Json {
-class JsonConverter;
+class JsonSerializer;
+}
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonArrayContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__JsonSerializerInternalReader__CreatorPropertyContext;
 }
 namespace Newtonsoft::Json::Linq {
-class JTokenReader;
+class JToken;
+}
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__JsonSerializerInternalReader____c;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonProperty;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonObjectContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerProxy;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonContainerContract;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonDictionaryContract;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace Newtonsoft::Json {
+struct DefaultValueHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+template<typename T>
+class ObjectConstructor_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__JsonSerializerInternalReader____c__DisplayClass36_0;
+}
+namespace Newtonsoft::Json::Serialization {
+struct Newtonsoft__Json__Serialization__JsonSerializerInternalReader__PropertyPresence;
 }
 namespace System {
 template<typename T>
@@ -146,6 +158,8 @@ __Value = 2,
 constexpr operator __Newtonsoft__Json__Serialization__JsonSerializerInternalReader__PropertyPresence_Unwrapped () const noexcept {
 return std::bit_cast<__Newtonsoft__Json__Serialization__JsonSerializerInternalReader__PropertyPresence_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -250,8 +264,7 @@ constexpr bool __get_Used() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__JsonSerializerInternalReader__CreatorPropertyContext() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalReader__CreatorPropertyContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x250f8a4 size 0x8 virtual false final false
  void _ctor() ;
@@ -311,8 +324,7 @@ constexpr Newtonsoft::Json::Serialization::JsonProperty __get_property() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__JsonSerializerInternalReader____c__DisplayClass36_0() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalReader____c__DisplayClass36_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x250f8ac size 0x8 virtual false final false
  void _ctor() ;
@@ -399,8 +411,7 @@ static System::Func_2<Newtonsoft::Json::Serialization::JsonProperty,Newtonsoft::
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__JsonSerializerInternalReader____c() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalReader____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x250f93c size 0x8 virtual false final false
  void _ctor() ;
@@ -471,8 +482,7 @@ constexpr explicit JsonSerializerInternalReader(void* ptr) noexcept : Newtonsoft
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "serializer", ty: "Newtonsoft::Json::JsonSerializer", modifiers: "", def_value: None }]
-explicit JsonSerializerInternalReader(Newtonsoft::Json::JsonSerializer serializer) ;
+static Newtonsoft::Json::Serialization::JsonSerializerInternalReader New_ctor(Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method .ctor addr 0x25037e4 size 0x4 virtual false final false
  void _ctor(Newtonsoft::Json::JsonSerializer serializer) ;

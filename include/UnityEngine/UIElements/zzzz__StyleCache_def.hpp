@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
+struct ComputedStyle;
+}
+namespace UnityEngine::UIElements {
 struct ComputedTransitionProperty;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace UnityEngine::UIElements {
-struct ComputedStyle;
 }
 namespace UnityEngine::UIElements {
 class StyleVariableContext;

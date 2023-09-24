@@ -5,34 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Collections {
-class IList;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Collections {
 class ICollection;
-}
-namespace System::Text::RegularExpressions {
-class Match;
-}
-namespace System::Text::RegularExpressions {
-class Group;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -40,17 +13,47 @@ class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class ICollection_1;
+}
+namespace System::Text::RegularExpressions {
+class Group;
+}
+namespace System::Text::RegularExpressions {
+class Match;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Text::RegularExpressions {
+class System__Text__RegularExpressions__GroupCollection__Enumerator;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerator;
+class Hashtable;
 }
 namespace System {
 class IDisposable;
@@ -135,8 +138,7 @@ constexpr int32_t __get__index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collection", ty: "System::Text::RegularExpressions::GroupCollection", modifiers: "", def_value: None }]
-explicit System__Text__RegularExpressions__GroupCollection__Enumerator(System::Text::RegularExpressions::GroupCollection collection) ;
+static System::Text::RegularExpressions::System__Text__RegularExpressions__GroupCollection__Enumerator New_ctor(System::Text::RegularExpressions::GroupCollection collection) ;
 
 /// @brief Method .ctor addr 0x27bd054 size 0x30 virtual false final false
  void _ctor(System::Text::RegularExpressions::GroupCollection collection) ;
@@ -270,8 +272,7 @@ constexpr ::ArrayW<System::Text::RegularExpressions::Group> __get__groups() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "match", ty: "System::Text::RegularExpressions::Match", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
-explicit GroupCollection(System::Text::RegularExpressions::Match match, System::Collections::Hashtable caps) ;
+static System::Text::RegularExpressions::GroupCollection New_ctor(System::Text::RegularExpressions::Match match, System::Collections::Hashtable caps) ;
 
 /// @brief Method .ctor addr 0x27bccac size 0x2c virtual false final false
  void _ctor(System::Text::RegularExpressions::Match match, System::Collections::Hashtable caps) ;
@@ -369,8 +370,7 @@ explicit GroupCollection(System::Text::RegularExpressions::Match match, System::
 /// @brief Method System.Collections.IList.set_Item addr 0x27bdd40 size 0x50 virtual true final true
  void System_Collections_IList_set_Item(int32_t index, ::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters []
-explicit GroupCollection() ;
+static System::Text::RegularExpressions::GroupCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27bdd90 size 0x38 virtual false final false
  void _ctor() ;

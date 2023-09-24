@@ -1,9 +1,9 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ControllersTransformSettingsViewController_def.hpp"
-#include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ControllersTransformSettingsViewController.DidActivate
 template<>
 
@@ -205,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, slider, value);
 }
-// Ctor Parameters []
- GlobalNamespace::ControllersTransformSettingsViewController::ControllersTransformSettingsViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<ControllersTransformSettingsViewController>())) {}
+ GlobalNamespace::ControllersTransformSettingsViewController GlobalNamespace::ControllersTransformSettingsViewController::New_ctor()  {
+GlobalNamespace::ControllersTransformSettingsViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ControllersTransformSettingsViewController>())};
+return o;
+}
  void GlobalNamespace::ControllersTransformSettingsViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ControllersTransformSettingsViewController>::get(),

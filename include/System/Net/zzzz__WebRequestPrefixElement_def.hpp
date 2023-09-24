@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Net {
-class IWebRequestCreate;
-}
 namespace System {
 class Type;
+}
+namespace System::Net {
+class IWebRequestCreate;
 }
 // Forward declare root types
 namespace System::Net {
@@ -86,8 +86,7 @@ constexpr System::Type __get_creatorType() const;
 /// @brief Method set_Creator addr 0x280cdec size 0x8 virtual false final false
  void set_Creator(System::Net::IWebRequestCreate value) ;
 
-// Ctor Parameters [CppParam { name: "P", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "C", ty: "System::Net::IWebRequestCreate", modifiers: "", def_value: None }]
-explicit WebRequestPrefixElement(::StringW P, System::Net::IWebRequestCreate C) ;
+static System::Net::WebRequestPrefixElement New_ctor(::StringW P, System::Net::IWebRequestCreate C) ;
 
 /// @brief Method .ctor addr 0x280cdf4 size 0x2c virtual false final false
  void _ctor(::StringW P, System::Net::IWebRequestCreate C) ;

@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertTemplateBuilder;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertTemplateBuilder;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
@@ -86,8 +86,7 @@ constexpr Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder __get__templateBuil
 /// @brief Method Build addr 0x114dedc size 0xb4 virtual false final false
  Org::BouncyCastle::Cmp::RevocationDetails Build() ;
 
-// Ctor Parameters []
-explicit RevocationDetailsBuilder() ;
+static Org::BouncyCastle::Cmp::RevocationDetailsBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x114df90 size 0x68 virtual false final false
  void _ctor() ;

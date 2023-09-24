@@ -1,7 +1,5 @@
 #pragma once
 #include "VRUIControls/zzzz__MouseState_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "VRUIControls/zzzz__ButtonState_def.hpp"
@@ -132,8 +130,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, button, stateForMouseButton, data);
 }
-// Ctor Parameters []
- VRUIControls::MouseState::MouseState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MouseState>())) {}
+ VRUIControls::MouseState VRUIControls::MouseState::New_ctor()  {
+VRUIControls::MouseState o{THROW_UNLESS(::il2cpp_utils::New<VRUIControls::MouseState>())};
+return o;
+}
  void VRUIControls::MouseState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<VRUIControls::MouseState>::get(),

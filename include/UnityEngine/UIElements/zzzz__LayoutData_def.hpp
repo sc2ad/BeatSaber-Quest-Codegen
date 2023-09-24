@@ -6,33 +6,33 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct Align;
-}
-namespace UnityEngine::UIElements {
-struct Length;
+struct DisplayStyle;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleDataGroup_1;
+}
+namespace UnityEngine::UIElements {
+struct Align;
+}
+namespace UnityEngine::UIElements {
+struct FlexDirection;
+}
+namespace UnityEngine::UIElements {
+struct Wrap;
+}
+namespace UnityEngine::UIElements {
+struct Justify;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
-struct DisplayStyle;
-}
-namespace UnityEngine::UIElements {
-struct FlexDirection;
-}
-namespace UnityEngine::UIElements {
-struct Justify;
-}
-namespace UnityEngine::UIElements {
 struct Position;
 }
 namespace UnityEngine::UIElements {
-struct Wrap;
+struct Length;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

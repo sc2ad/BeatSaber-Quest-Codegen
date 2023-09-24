@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class DerApplicationSpecific;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerApplicationSpecific;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Utilities {
@@ -77,8 +77,7 @@ static ::StringW __get_NewLine() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Asn1Dump() ;
+static Org::BouncyCastle::Asn1::Utilities::Asn1Dump New_ctor() ;
 
 /// @brief Method .ctor addr 0xfedf64 size 0x8 virtual false final false
  void _ctor() ;

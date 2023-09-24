@@ -171,8 +171,10 @@ return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "iT2", ::il2cpp_uti
  ::ArrayW<uint32_t> System::Security::Cryptography::AesTransform::__get_iT3()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "iT3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::AesTransform>::get>();
 }
-// Ctor Parameters [CppParam { name: "algo", ty: "System::Security::Cryptography::Aes", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::AesTransform::AesTransform(System::Security::Cryptography::Aes algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  : Mono::Security::Cryptography::SymmetricTransform(THROW_UNLESS(::il2cpp_utils::New<AesTransform>(algo, encryption, key, iv))) {}
+ System::Security::Cryptography::AesTransform System::Security::Cryptography::AesTransform::New_ctor(System::Security::Cryptography::Aes algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  {
+System::Security::Cryptography::AesTransform o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::AesTransform>(algo, encryption, key, iv))};
+return o;
+}
  void System::Security::Cryptography::AesTransform::_ctor(System::Security::Cryptography::Aes algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::AesTransform>::get(),

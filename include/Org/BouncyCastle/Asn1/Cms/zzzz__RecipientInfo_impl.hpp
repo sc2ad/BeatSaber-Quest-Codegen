@@ -1,16 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyTransRecipientInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__OtherRecipientInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__PasswordRecipientInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyAgreeRecipientInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__PasswordRecipientInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__KekRecipientInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyAgreeRecipientInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__OtherRecipientInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyTransRecipientInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::RecipientInfo._ctor
 template<>
 
@@ -225,8 +225,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::RecipientInfo::__set_info(Org::Boun
 constexpr Org::BouncyCastle::Asn1::Asn1Encodable Org::BouncyCastle::Asn1::Cms::RecipientInfo::__get_info() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Encodable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::RecipientInfo::RecipientInfo(Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo info)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RecipientInfo>(info))) {}
+ Org::BouncyCastle::Asn1::Cms::RecipientInfo Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo info)  {
+Org::BouncyCastle::Asn1::Cms::RecipientInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::RecipientInfo>(info))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::RecipientInfo>::get(),
@@ -236,8 +238,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::RecipientInfo::RecipientInfo(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RecipientInfo>(info))) {}
+ Org::BouncyCastle::Asn1::Cms::RecipientInfo Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info)  {
+Org::BouncyCastle::Asn1::Cms::RecipientInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::RecipientInfo>(info))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::RecipientInfo>::get(),
@@ -247,8 +251,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KekRecipientInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::RecipientInfo::RecipientInfo(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RecipientInfo>(info))) {}
+ Org::BouncyCastle::Asn1::Cms::RecipientInfo Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info)  {
+Org::BouncyCastle::Asn1::Cms::RecipientInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::RecipientInfo>(info))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::RecipientInfo>::get(),
@@ -258,8 +264,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::RecipientInfo::RecipientInfo(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RecipientInfo>(info))) {}
+ Org::BouncyCastle::Asn1::Cms::RecipientInfo Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info)  {
+Org::BouncyCastle::Asn1::Cms::RecipientInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::RecipientInfo>(info))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::RecipientInfo>::get(),
@@ -269,8 +277,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::RecipientInfo::RecipientInfo(Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo info)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RecipientInfo>(info))) {}
+ Org::BouncyCastle::Asn1::Cms::RecipientInfo Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo info)  {
+Org::BouncyCastle::Asn1::Cms::RecipientInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::RecipientInfo>(info))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::RecipientInfo>::get(),
@@ -280,8 +290,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::RecipientInfo::RecipientInfo(Org::BouncyCastle::Asn1::Asn1Object info)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RecipientInfo>(info))) {}
+ Org::BouncyCastle::Asn1::Cms::RecipientInfo Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(Org::BouncyCastle::Asn1::Asn1Object info)  {
+Org::BouncyCastle::Asn1::Cms::RecipientInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::RecipientInfo>(info))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(Org::BouncyCastle::Asn1::Asn1Object info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::RecipientInfo>::get(),

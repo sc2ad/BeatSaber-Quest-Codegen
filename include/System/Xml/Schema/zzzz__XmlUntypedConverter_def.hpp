@@ -8,20 +8,20 @@
 namespace System {
 struct DateTimeOffset;
 }
-namespace System {
-struct DateTime;
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System {
 class Type;
 }
-namespace System {
-struct Decimal;
-}
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct Decimal;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -90,14 +90,12 @@ static System::Xml::Schema::XmlValueConverter __get_UntypedList() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlUntypedConverter() ;
+static System::Xml::Schema::XmlUntypedConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x274783c size 0x90 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "atomicConverter", ty: "System::Xml::Schema::XmlUntypedConverter", modifiers: "", def_value: None }, CppParam { name: "allowListToList", ty: "bool", modifiers: "", def_value: None }]
-explicit XmlUntypedConverter(System::Xml::Schema::XmlUntypedConverter atomicConverter, bool allowListToList) ;
+static System::Xml::Schema::XmlUntypedConverter New_ctor(System::Xml::Schema::XmlUntypedConverter atomicConverter, bool allowListToList) ;
 
 /// @brief Method .ctor addr 0x2747934 size 0x98 virtual false final false
  void _ctor(System::Xml::Schema::XmlUntypedConverter atomicConverter, bool allowListToList) ;

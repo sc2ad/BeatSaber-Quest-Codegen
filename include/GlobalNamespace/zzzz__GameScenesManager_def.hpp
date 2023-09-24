@@ -7,11 +7,30 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__GameScenesManager__ScenesStackData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameScenesManager____c__DisplayClass32_0;
+}
+namespace Zenject {
+class ZenjectSceneLoader;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameScenesManager____c__DisplayClass30_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameScenesManager____c__DisplayClass38_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameScenesManager__ScenePresentType;
+}
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class SceneInfo;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
@@ -19,36 +38,44 @@ class ScenesTransitionSetupDataSO;
 namespace Zenject {
 class DiContainer;
 }
-namespace UnityEngine {
-class WaitUntil;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+class GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace GlobalNamespace {
+class GlobalNamespace__GameScenesManager____c__DisplayClass34_0;
 }
-namespace Zenject {
-class ZenjectSceneLoader;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameScenesManager____c__DisplayClass35_0;
+}
+namespace UnityEngine {
+class WaitUntil;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameScenesManager__SceneDismissType;
+}
+namespace GlobalNamespace {
+class SceneInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
-namespace UnityEngine {
-class AsyncOperation;
+namespace System::Collections {
+class IEnumerator;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GlobalNamespace__GameScenesManager____c__DisplayClass33_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameScenesManager____c__DisplayClass31_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -58,8 +85,14 @@ namespace System::Collections::Generic {
 template<typename T>
 struct System__Collections__Generic__List_1__Enumerator;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::EventSystems {
 class EventSystem;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -174,8 +207,7 @@ constexpr Zenject::DiContainer __get__container_k__BackingField() const;
 /// @brief Method set_container addr 0x1f80fa4 size 0x8 virtual false final false
  void set_container(Zenject::DiContainer value) ;
 
-// Ctor Parameters [CppParam { name: "sceneNames", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__GameScenesManager__ScenesStackData(System::Collections::Generic::List_1<::StringW> sceneNames) ;
+static GlobalNamespace::GlobalNamespace__GameScenesManager__ScenesStackData New_ctor(System::Collections::Generic::List_1<::StringW> sceneNames) ;
 
 /// @brief Method .ctor addr 0x1f7ebb8 size 0x28 virtual false final false
  void _ctor(System::Collections::Generic::List_1<::StringW> sceneNames) ;
@@ -237,6 +269,8 @@ __Activate = 2,
 constexpr operator __GlobalNamespace__GameScenesManager__ScenePresentType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__GameScenesManager__ScenePresentType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -310,6 +344,8 @@ __Deactivate = 2,
 constexpr operator __GlobalNamespace__GameScenesManager__SceneDismissType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__GameScenesManager__SceneDismissType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -402,8 +438,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get_finishCallback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameScenesManager____c__DisplayClass30_0() ;
+static GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass30_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7ea88 size 0x8 virtual false final false
  void _ctor() ;
@@ -475,8 +510,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get_finishCallback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameScenesManager____c__DisplayClass31_0() ;
+static GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass31_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7ee98 size 0x8 virtual false final false
  void _ctor() ;
@@ -581,8 +615,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get___9__2() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameScenesManager____c__DisplayClass32_0() ;
+static GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass32_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7f1f8 size 0x8 virtual false final false
  void _ctor() ;
@@ -693,8 +726,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get___9__2() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameScenesManager____c__DisplayClass33_0() ;
+static GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass33_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7f82c size 0x8 virtual false final false
  void _ctor() ;
@@ -781,8 +813,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get_finishCallback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameScenesManager____c__DisplayClass34_0() ;
+static GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass34_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7fbf0 size 0x8 virtual false final false
  void _ctor() ;
@@ -860,8 +891,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get_sceneNamesToRemo
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameScenesManager____c__DisplayClass35_0() ;
+static GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass35_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7ff98 size 0x8 virtual false final false
  void _ctor() ;
@@ -927,8 +957,7 @@ constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get_newScenesTransition
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameScenesManager____c__DisplayClass38_0() ;
+static GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass38_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f81874 size 0x8 virtual false final false
  void _ctor() ;
@@ -1112,8 +1141,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__List_1__En
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f7ffa0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -1372,8 +1400,7 @@ static void ActivatePresentedSceneRootObjects(System::Collections::Generic::List
 /// @brief Method Log addr 0x1f80e64 size 0x58 virtual false final false
 static void Log(::StringW message) ;
 
-// Ctor Parameters []
-explicit GameScenesManager() ;
+static GlobalNamespace::GameScenesManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f80ebc size 0xc0 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ListExtensions_def.hpp"
-#include "System/zzzz__Random_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/zzzz__Random_def.hpp"
  void GlobalNamespace::ListExtensions::__set__random(System::Random value)  {
 ::cordl_internals::setStaticField<System::Random, "_random", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ListExtensions>::get>(std::forward<System::Random>(value));
 }

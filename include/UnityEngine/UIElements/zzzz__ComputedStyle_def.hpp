@@ -6,29 +6,35 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::UIElements {
-struct VisualData;
-}
 namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyValue;
+struct StylePropertyId;
 }
 namespace UnityEngine::UIElements {
-struct Wrap;
+struct FlexDirection;
+}
+namespace UnityEngine::UIElements {
+struct TransformData;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflow;
+}
+namespace UnityEngine::UIElements {
+struct TransformOrigin;
+}
+namespace UnityEngine {
+struct TextAnchor;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StyleValueManaged;
 }
 namespace UnityEngine::UIElements {
-struct Visibility;
+struct Translate;
 }
 namespace UnityEngine::UIElements {
-struct Rotate;
+struct OverflowClipBox;
 }
-namespace UnityEngine {
-struct ScaleMode;
+namespace UnityEngine::UIElements {
+struct VisualData;
 }
 namespace UnityEngine::UIElements {
 struct Cursor;
@@ -40,10 +46,10 @@ namespace UnityEngine::UIElements {
 struct TransitionData;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
+struct Wrap;
 }
 namespace UnityEngine::UIElements {
-struct OverflowClipBox;
+struct Length;
 }
 namespace UnityEngine::UIElements {
 struct OverflowInternal;
@@ -52,113 +58,107 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StyleValue;
-}
 namespace UnityEngine::UIElements {
-struct TransformData;
-}
-namespace UnityEngine::UIElements {
-struct Align;
-}
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
-}
-namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements {
-struct EasingFunction;
-}
-namespace UnityEngine::UIElements {
-struct RareData;
-}
-namespace UnityEngine::UIElements {
-struct ComputedTransitionProperty;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
-}
-namespace UnityEngine::UIElements {
-struct Position;
-}
-namespace UnityEngine::UIElements {
-struct FlexDirection;
-}
-namespace UnityEngine::Yoga {
-class YogaNode;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-class StylePropertyReader;
-}
-namespace UnityEngine::UIElements {
-struct LayoutData;
-}
-namespace UnityEngine::UIElements {
-struct WhiteSpace;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
+struct Rotate;
 }
 namespace UnityEngine {
 struct FontStyle;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace UnityEngine::UIElements {
+struct TextOverflowPosition;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 struct StyleDataRef_1;
 }
 namespace UnityEngine::UIElements {
+struct StyleTranslate;
+}
+namespace UnityEngine::UIElements {
+struct RareData;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+class StylePropertyReader;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
+}
+namespace UnityEngine::UIElements {
+struct LayoutData;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
-namespace UnityEngine::UIElements {
-struct InheritedData;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct Background;
+}
+namespace UnityEngine::UIElements {
+struct Align;
+}
+namespace UnityEngine::UIElements {
+struct ComputedTransitionProperty;
+}
+namespace UnityEngine::Yoga {
+class YogaNode;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyValue;
+}
+namespace UnityEngine::UIElements {
+struct TextShadow;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
+}
+namespace UnityEngine {
+struct ScaleMode;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+struct TimeValue;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UIElements {
 struct Justify;
 }
 namespace UnityEngine::UIElements {
-struct StyleTranslate;
+struct Visibility;
 }
 namespace UnityEngine::UIElements {
-struct TextOverflow;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct TimeValue;
+struct EasingFunction;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StyleValue;
+}
+namespace UnityEngine::UIElements {
+struct Position;
+}
+namespace UnityEngine::UIElements {
+struct InheritedData;
+}
+namespace UnityEngine::UIElements {
+struct WhiteSpace;
+}
+namespace UnityEngine::UIElements {
+struct FontDefinition;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

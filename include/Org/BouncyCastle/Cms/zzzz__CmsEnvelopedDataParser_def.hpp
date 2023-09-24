@@ -4,8 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
-class EnvelopedDataParser;
+class AttributeTable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
@@ -13,14 +19,8 @@ class RecipientInformationStore;
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class EnvelopedDataParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -110,14 +110,12 @@ constexpr bool __get__attrNotRead() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "envelopedData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsEnvelopedDataParser(::ArrayW<uint8_t> envelopedData) ;
+static Org::BouncyCastle::Cms::CmsEnvelopedDataParser New_ctor(::ArrayW<uint8_t> envelopedData) ;
 
 /// @brief Method .ctor addr 0x1155478 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> envelopedData) ;
 
-// Ctor Parameters [CppParam { name: "envelopedData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsEnvelopedDataParser(System::IO::Stream envelopedData) ;
+static Org::BouncyCastle::Cms::CmsEnvelopedDataParser New_ctor(System::IO::Stream envelopedData) ;
 
 /// @brief Method .ctor addr 0x11554f0 size 0x2f8 virtual false final false
  void _ctor(System::IO::Stream envelopedData) ;

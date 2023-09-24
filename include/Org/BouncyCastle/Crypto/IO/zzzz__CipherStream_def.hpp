@@ -114,8 +114,7 @@ constexpr bool __get_inStreamEnded() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readCipher", ty: "Org::BouncyCastle::Crypto::IBufferedCipher", modifiers: "", def_value: None }, CppParam { name: "writeCipher", ty: "Org::BouncyCastle::Crypto::IBufferedCipher", modifiers: "", def_value: None }]
-explicit CipherStream(System::IO::Stream stream, Org::BouncyCastle::Crypto::IBufferedCipher readCipher, Org::BouncyCastle::Crypto::IBufferedCipher writeCipher) ;
+static Org::BouncyCastle::Crypto::IO::CipherStream New_ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::IBufferedCipher readCipher, Org::BouncyCastle::Crypto::IBufferedCipher writeCipher) ;
 
 /// @brief Method .ctor addr 0xe7afcc size 0x90 virtual false final false
  void _ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::IBufferedCipher readCipher, Org::BouncyCastle::Crypto::IBufferedCipher writeCipher) ;

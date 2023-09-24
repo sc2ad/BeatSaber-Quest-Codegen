@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Attribute_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Reflection/zzzz__ParameterInfo_def.hpp"
-#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
-#include "System/Reflection/zzzz__EventInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__EventInfo_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 //  Writing Method size for method: System::Attribute.InternalGetCustomAttributes
 template<>
 
@@ -698,8 +698,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Attribute, false>(nullptr, ___internal_method, element, attributeType, inherit);
 }
-// Ctor Parameters []
- System::Attribute::Attribute()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Attribute>())) {}
+ System::Attribute System::Attribute::New_ctor()  {
+System::Attribute o{THROW_UNLESS(::il2cpp_utils::New<System::Attribute>())};
+return o;
+}
  void System::Attribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Attribute>::get(),

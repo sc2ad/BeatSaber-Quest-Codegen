@@ -75,8 +75,7 @@ constexpr Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2Cpp
 /// @brief Method set_ISerializableCreator addr 0x24f6148 size 0x8 virtual false final false
  void set_ISerializableCreator(Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> value) ;
 
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JsonISerializableContract(System::Type underlyingType) ;
+static Newtonsoft::Json::Serialization::JsonISerializableContract New_ctor(System::Type underlyingType) ;
 
 /// @brief Method .ctor addr 0x24f6150 size 0x20 virtual false final false
  void _ctor(System::Type underlyingType) ;

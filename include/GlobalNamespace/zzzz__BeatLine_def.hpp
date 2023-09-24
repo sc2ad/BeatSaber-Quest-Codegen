@@ -4,21 +4,27 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 #include <cstddef>
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
 namespace UnityEngine {
-class AnimationCurve;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatLine__HighlightData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+class GlobalNamespace__BeatLine__Pool;
 }
 namespace UnityEngine {
-struct Color;
+class AnimationCurve;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -152,8 +158,7 @@ constexpr float_t __get__rotation() const;
 /// @brief Method ManualUpdate addr 0x222d2bc size 0x14c virtual false final false
  void ManualUpdate(float_t songTime) ;
 
-// Ctor Parameters []
-explicit BeatLine() ;
+static GlobalNamespace::BeatLine New_ctor() ;
 
 /// @brief Method .ctor addr 0x222d408 size 0xcc virtual false final false
  void _ctor() ;
@@ -165,7 +170,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2705 }), TypeDefinitionIndex(TypeDefinitionIndex(4816))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4816)), TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2705 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4814))
 // CS Name: BeatLine::Pool
 class CORDL_TYPE GlobalNamespace__BeatLine__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::BeatLine> {
@@ -204,8 +209,7 @@ constexpr explicit GlobalNamespace__BeatLine__Pool(void* ptr) noexcept : Zenject
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatLine__Pool() ;
+static GlobalNamespace::GlobalNamespace__BeatLine__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x222d4d4 size 0x48 virtual false final false
  void _ctor() ;

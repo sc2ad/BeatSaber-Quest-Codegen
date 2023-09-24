@@ -5,16 +5,16 @@
 #include <cmath>
 #include <cstdint>
 namespace OVR::OpenVR {
-struct HmdQuad_t;
+struct ChaperoneCalibrationState;
+}
+namespace OVR::OpenVR {
+struct HmdColor_t;
 }
 namespace OVR::OpenVR {
 struct IVRChaperone;
 }
 namespace OVR::OpenVR {
-struct ChaperoneCalibrationState;
-}
-namespace OVR::OpenVR {
-struct HmdColor_t;
+struct HmdQuad_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -71,8 +71,7 @@ constexpr OVR::OpenVR::IVRChaperone __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRChaperone(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRChaperone New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x266508c size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

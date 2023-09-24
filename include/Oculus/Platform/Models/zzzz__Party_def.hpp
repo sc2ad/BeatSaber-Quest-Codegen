@@ -114,8 +114,7 @@ constexpr Oculus::Platform::Models::UserList __get_Users() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Party(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::Party New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x25a1c1c size 0x274 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

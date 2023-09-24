@@ -9,27 +9,69 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System {
 template<typename T>
 class Predicate_1;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceExecuteCommandDelegate;
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__HIDElementDescriptor;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__HIDElementFlags;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__HIDCollectionType;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__Simulation;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__Button;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__HIDReportType;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptor;
+}
+namespace UnityEngine::InputSystem::HID {
+class UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
+namespace UnityEngine::InputSystem::HID {
+class UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__GenericDesktop;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__HIDCollectionDescriptor;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__UsagePage;
+}
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HID__HIDDeviceDescriptorBuilder;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceExecuteCommandDelegate;
+}
 namespace System {
 class Type;
+}
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c;
 }
 namespace UnityEngine::InputSystem::Layouts {
 class InputControlLayout;
@@ -45,11 +87,11 @@ struct Nullable_1;
 namespace UnityEngine::InputSystem::Utilities {
 struct PrimitiveValue;
 }
-namespace UnityEngine::InputSystem::Layouts {
-class UnityEngine__InputSystem__Layouts__InputControlLayout__Builder;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class UnityEngine__InputSystem__Layouts__InputControlLayout__Builder;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::HID {
@@ -166,8 +208,7 @@ static System::Func_2<UnityEngine::InputSystem::Layouts::UnityEngine__InputSyste
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c() ;
+static GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x294b144 size 0x8 virtual false final false
  void _ctor() ;
@@ -259,8 +300,7 @@ constexpr System::Type __get_deviceType() const;
 /// @brief Method Build addr 0x2949470 size 0xcac virtual false final false
  UnityEngine::InputSystem::Layouts::InputControlLayout Build() ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder() ;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x294775c size 0x8 virtual false final false
  void _ctor() ;
@@ -320,6 +360,8 @@ __Feature = 3,
 constexpr operator __UnityEngine__InputSystem__HID__HID__HIDReportType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__HID__HID__HIDReportType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -400,6 +442,8 @@ __UsageModifier = 6,
 constexpr operator __UnityEngine__InputSystem__HID__HID__HIDCollectionType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__HID__HID__HIDCollectionType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -491,6 +535,8 @@ __BufferedBytes = 256,
 constexpr operator __UnityEngine__InputSystem__HID__HID__HIDElementFlags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__HID__HID__HIDElementFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1167,6 +1213,8 @@ constexpr operator __UnityEngine__InputSystem__HID__HID__UsagePage_Unwrapped () 
 return std::bit_cast<__UnityEngine__InputSystem__HID__HID__UsagePage_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1373,6 +1421,8 @@ __SystemDisplayLCDAutoScale = 183,
 constexpr operator __UnityEngine__InputSystem__HID__HID__GenericDesktop_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__HID__HID__GenericDesktop_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1700,6 +1750,8 @@ constexpr operator __UnityEngine__InputSystem__HID__HID__Simulation_Unwrapped ()
 return std::bit_cast<__UnityEngine__InputSystem__HID__HID__Simulation_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1921,6 +1973,8 @@ constexpr operator __UnityEngine__InputSystem__HID__HID__Button_Unwrapped () con
 return std::bit_cast<__UnityEngine__InputSystem__HID__HID__Button_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1997,8 +2051,7 @@ constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HID
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0() ;
+static UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2946fbc size 0x8 virtual false final false
  void _ctor() ;
@@ -2134,8 +2187,7 @@ static ::StringW UsagePageToString(UnityEngine::InputSystem::HID::UnityEngine__I
 /// @brief Method UsageToString addr 0x29493cc size 0x9c virtual false final false
 static ::StringW UsageToString(UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__UsagePage usagePage, int32_t usage) ;
 
-// Ctor Parameters []
-explicit HID() ;
+static UnityEngine::InputSystem::HID::HID New_ctor() ;
 
 /// @brief Method .ctor addr 0x2949468 size 0x8 virtual false final false
  void _ctor() ;

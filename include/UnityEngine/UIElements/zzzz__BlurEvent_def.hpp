@@ -53,8 +53,7 @@ constexpr explicit BlurEvent(void* ptr) noexcept : UnityEngine::UIElements::Focu
 /// @brief Method PreDispatch addr 0x2cdac98 size 0x7c virtual true final false
  void PreDispatch(UnityEngine::UIElements::IPanel panel) ;
 
-// Ctor Parameters []
-explicit BlurEvent() ;
+static UnityEngine::UIElements::BlurEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdad14 size 0x48 virtual false final false
  void _ctor() ;

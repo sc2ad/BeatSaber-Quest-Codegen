@@ -2,14 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Oculus::Platform::Models {
-class NetSyncConnection;
-}
-namespace Oculus::Platform::Models {
 class NetSyncSessionsChangedNotification;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Oculus__Platform__Message_1__Callback;
+}
+namespace Oculus::Platform::Models {
+class NetSyncConnection;
 }
 // Forward declare root types
 namespace Oculus::Platform {

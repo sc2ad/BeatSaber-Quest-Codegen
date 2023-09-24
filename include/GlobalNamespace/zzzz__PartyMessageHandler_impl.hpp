@@ -4,16 +4,17 @@
 #include "GlobalNamespace/zzzz__PartyMessageHandler_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
-#include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
+#include "GlobalNamespace/zzzz__PartyMessageHandler_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__PartyMessageHandler__MessageType::GlobalNamespace__PartyMessageHandler__MessageType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -93,8 +94,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate::GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate GlobalNamespace::GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate>::get(),
@@ -199,8 +202,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate>::get(),
@@ -398,8 +403,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage>())) {}
+ GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage>::get(),
@@ -533,8 +540,10 @@ constexpr void GlobalNamespace::PartyMessageHandler::__set_connectToMasterServer
 constexpr GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate GlobalNamespace::PartyMessageHandler::__get_connectToMasterServerEvent() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "connectedPlayerManager", ty: "GlobalNamespace::ConnectedPlayerManager", modifiers: "", def_value: None }]
- GlobalNamespace::PartyMessageHandler::PartyMessageHandler(GlobalNamespace::ConnectedPlayerManager connectedPlayerManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PartyMessageHandler>(connectedPlayerManager))) {}
+ GlobalNamespace::PartyMessageHandler GlobalNamespace::PartyMessageHandler::New_ctor(GlobalNamespace::ConnectedPlayerManager connectedPlayerManager)  {
+GlobalNamespace::PartyMessageHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PartyMessageHandler>(connectedPlayerManager))};
+return o;
+}
  void GlobalNamespace::PartyMessageHandler::_ctor(GlobalNamespace::ConnectedPlayerManager connectedPlayerManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PartyMessageHandler>::get(),

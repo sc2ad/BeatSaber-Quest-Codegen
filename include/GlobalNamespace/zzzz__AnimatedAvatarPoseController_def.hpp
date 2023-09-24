@@ -62,8 +62,7 @@ constexpr GlobalNamespace::AvatarPoseController __get__avatarPoseController() co
 /// @brief Method LateUpdate addr 0x20bf4c0 size 0x18 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit AnimatedAvatarPoseController() ;
+static GlobalNamespace::AnimatedAvatarPoseController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bf688 size 0x8 virtual false final false
  void _ctor() ;

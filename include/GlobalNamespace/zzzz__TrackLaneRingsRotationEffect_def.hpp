@@ -11,6 +11,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect;
@@ -93,8 +96,7 @@ constexpr int32_t __get_progressPos() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect() ;
+static GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x226d2d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -222,8 +224,7 @@ constexpr System::Collections::Generic::List_1<int32_t> __get_ringRotationEffect
 /// @brief Method RecycleRingRotationEffect addr 0x226d530 size 0xa8 virtual false final false
  void RecycleRingRotationEffect(GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect ringRotationEffect) ;
 
-// Ctor Parameters []
-explicit TrackLaneRingsRotationEffect() ;
+static GlobalNamespace::TrackLaneRingsRotationEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x226d71c size 0x90 virtual false final false
  void _ctor() ;

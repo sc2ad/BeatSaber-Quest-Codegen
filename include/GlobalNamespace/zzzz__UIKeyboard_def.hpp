@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
+class GlobalNamespace__UIKeyboard____c__DisplayClass21_0;
+}
+namespace GlobalNamespace {
 class TextMeshProButton;
 }
 namespace System {
@@ -80,8 +83,7 @@ constexpr GlobalNamespace::UIKeyboard __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__UIKeyboard____c__DisplayClass21_0() ;
+static GlobalNamespace::GlobalNamespace__UIKeyboard____c__DisplayClass21_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x212d6a4 size 0x8 virtual false final false
  void _ctor() ;
@@ -234,8 +236,7 @@ constexpr bool __get__hideCancelButton() const;
 /// @brief Method Awake addr 0x212c954 size 0xd50 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit UIKeyboard() ;
+static GlobalNamespace::UIKeyboard New_ctor() ;
 
 /// @brief Method .ctor addr 0x212d6ac size 0x8 virtual false final false
  void _ctor() ;

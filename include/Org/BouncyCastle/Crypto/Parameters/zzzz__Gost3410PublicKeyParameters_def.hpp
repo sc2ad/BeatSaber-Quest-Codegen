@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Gost3410KeyParameters_def.hpp"
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Gost3410Parameters;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Gost3410Parameters;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -70,14 +70,12 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_y() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "y", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters", modifiers: "", def_value: None }]
-explicit Gost3410PublicKeyParameters(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters parameters) ;
 
 /// @brief Method .ctor addr 0xea94a0 size 0xc0 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "y", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit Gost3410PublicKeyParameters(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+static Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
 /// @brief Method .ctor addr 0xea9560 size 0xc8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;

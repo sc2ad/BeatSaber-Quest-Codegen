@@ -12,20 +12,140 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
+namespace TMPro {
+class TMPro__TMP_InputField___MouseDragOutsideRect_d__294;
 }
-namespace UnityEngine::UI {
-class ILayoutElement;
+namespace TMPro {
+struct TMPro__TMP_InputField__CharacterValidation;
+}
+namespace TMPro {
+class TMPro__TMP_InputField__OnChangeEvent;
 }
 namespace UnityEngine {
-class RectTransform;
+class Object;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::UI {
+class RectMask2D;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::EventSystems {
+class IScrollHandler;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace TMPro {
+class TMPro__TMP_InputField__OnValidateInput;
+}
+namespace UnityEngine::UI {
+class Scrollbar;
+}
+namespace TMPro {
+struct TMPro__TMP_InputField__LineType;
 }
 namespace TMPro {
 class TMP_ScrollbarEventHandler;
 }
 namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Selectable__SelectionState;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+class CanvasRenderer;
+}
+namespace UnityEngine::UI {
+class LayoutGroup;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace TMPro {
+class TMPro__TMP_InputField__SubmitEvent;
+}
+namespace UnityEngine::EventSystems {
+class IEndDragHandler;
+}
+namespace TMPro {
+class TMPro__TMP_InputField___CaretBlink_d__276;
+}
+namespace TMPro {
+class TMP_Text;
+}
+namespace UnityEngine::EventSystems {
+class IUpdateSelectedHandler;
+}
+namespace UnityEngine {
+struct UIVertex;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace TMPro {
+class TMPro__TMP_InputField__TouchScreenKeyboardEvent;
+}
+namespace TMPro {
+struct TMPro__TMP_InputField__InputType;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class BaseInput;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace TMPro {
+class TMP_InputValidator;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace TMPro {
+struct TMPro__TMP_InputField__ContentType;
+}
+namespace UnityEngine {
+class TouchScreenKeyboard;
+}
+namespace TMPro {
+class TMPro__TMP_InputField__TextSelectionEvent;
+}
+namespace UnityEngine {
+struct TouchScreenKeyboardType;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 namespace UnityEngine {
 class WaitForSecondsRealtime;
@@ -36,101 +156,20 @@ class TMP_FontAsset;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine::UI {
-class RectMask2D;
+namespace TMPro {
+class TMPro__TMP_InputField__SelectionEvent;
 }
-namespace UnityEngine::UI {
-class Graphic;
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-class CanvasRenderer;
-}
-namespace UnityEngine::UI {
-class VertexHelper;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::EventSystems {
-class IScrollHandler;
-}
-namespace UnityEngine::UI {
-class Scrollbar;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine::UI {
-class LayoutGroup;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine::EventSystems {
-class BaseInput;
-}
-namespace UnityEngine::UI {
-struct UnityEngine__UI__Selectable__SelectionState;
-}
-namespace UnityEngine {
-struct TouchScreenKeyboardType;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine {
-struct UIVertex;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine {
-class TouchScreenKeyboard;
-}
 namespace TMPro {
-class TMP_InputValidator;
-}
-namespace UnityEngine::EventSystems {
-class IEndDragHandler;
-}
-namespace TMPro {
-class TMP_Text;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
+struct TMPro__TMP_InputField__EditState;
 }
 namespace System {
 class AsyncCallback;
@@ -246,6 +285,8 @@ constexpr operator __TMPro__TMP_InputField__ContentType_Unwrapped () const noexc
 return std::bit_cast<__TMPro__TMP_InputField__ContentType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -340,6 +381,8 @@ constexpr operator __TMPro__TMP_InputField__InputType_Unwrapped () const noexcep
 return std::bit_cast<__TMPro__TMP_InputField__InputType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -418,6 +461,8 @@ __CustomValidator = 8,
 constexpr operator __TMPro__TMP_InputField__CharacterValidation_Unwrapped () const noexcept {
 return std::bit_cast<__TMPro__TMP_InputField__CharacterValidation_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -510,6 +555,8 @@ constexpr operator __TMPro__TMP_InputField__LineType_Unwrapped () const noexcept
 return std::bit_cast<__TMPro__TMP_InputField__LineType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -574,8 +621,7 @@ constexpr explicit TMPro__TMP_InputField__OnValidateInput(void* ptr) noexcept : 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit TMPro__TMP_InputField__OnValidateInput(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static TMPro::TMPro__TMP_InputField__OnValidateInput New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2aa1570 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -635,8 +681,7 @@ constexpr explicit TMPro__TMP_InputField__SubmitEvent(void* ptr) noexcept : Unit
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_InputField__SubmitEvent() ;
+static TMPro::TMPro__TMP_InputField__SubmitEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa1744 size 0x48 virtual false final false
  void _ctor() ;
@@ -648,7 +693,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::OnChangeEvent
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 380 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12326))
 // CS Name: TMPro.TMP_InputField::OnChangeEvent
 class CORDL_TYPE TMPro__TMP_InputField__OnChangeEvent : public UnityEngine::Events::UnityEvent_1<::StringW> {
@@ -687,8 +732,7 @@ constexpr explicit TMPro__TMP_InputField__OnChangeEvent(void* ptr) noexcept : Un
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_InputField__OnChangeEvent() ;
+static TMPro::TMPro__TMP_InputField__OnChangeEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa178c size 0x48 virtual false final false
  void _ctor() ;
@@ -739,8 +783,7 @@ constexpr explicit TMPro__TMP_InputField__SelectionEvent(void* ptr) noexcept : U
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_InputField__SelectionEvent() ;
+static TMPro::TMPro__TMP_InputField__SelectionEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa17d4 size 0x48 virtual false final false
  void _ctor() ;
@@ -791,8 +834,7 @@ constexpr explicit TMPro__TMP_InputField__TextSelectionEvent(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_InputField__TextSelectionEvent() ;
+static TMPro::TMPro__TMP_InputField__TextSelectionEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa181c size 0x48 virtual false final false
  void _ctor() ;
@@ -843,8 +885,7 @@ constexpr explicit TMPro__TMP_InputField__TouchScreenKeyboardEvent(void* ptr) no
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_InputField__TouchScreenKeyboardEvent() ;
+static TMPro::TMPro__TMP_InputField__TouchScreenKeyboardEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa1864 size 0x48 virtual false final false
  void _ctor() ;
@@ -902,6 +943,8 @@ __Finish = 1,
 constexpr operator __TMPro__TMP_InputField__EditState_Unwrapped () const noexcept {
 return std::bit_cast<__TMPro__TMP_InputField__EditState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1001,8 +1044,7 @@ constexpr TMPro::TMP_InputField __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TMPro__TMP_InputField___CaretBlink_d__276(int32_t __1__state) ;
+static TMPro::TMPro__TMP_InputField___CaretBlink_d__276 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2aa18ac size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -1111,8 +1153,7 @@ constexpr UnityEngine::EventSystems::PointerEventData __get_eventData() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TMPro__TMP_InputField___MouseDragOutsideRect_d__294(int32_t __1__state) ;
+static TMPro::TMPro__TMP_InputField___MouseDragOutsideRect_d__294 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2aa1a34 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -1940,8 +1981,7 @@ static ::StringW __declspec(property(get=get_clipboard, put=set_clipboard))  cli
 /// @brief Method get_compositionLength addr 0x2a7ab84 size 0x2c virtual false final false
  int32_t get_compositionLength() ;
 
-// Ctor Parameters []
-explicit TMP_InputField() ;
+static TMPro::TMP_InputField New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a7abb0 size 0x290 virtual false final false
  void _ctor() ;

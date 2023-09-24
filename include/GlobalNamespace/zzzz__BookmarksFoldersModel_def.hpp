@@ -7,6 +7,9 @@
 namespace GlobalNamespace {
 class FileBrowserItem;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__BookmarksFoldersModel____c;
+}
 namespace System {
 struct System__Environment__SpecialFolder;
 }
@@ -78,8 +81,7 @@ static System::Func_2<System::System__Environment__SpecialFolder,::StringW> __ge
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BookmarksFoldersModel____c() ;
+static GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bbbe0 size 0x8 virtual false final false
  void _ctor() ;
@@ -158,8 +160,7 @@ constexpr ::ArrayW<GlobalNamespace::FileBrowserItem> __get__bookmarksFolders() c
 /// @brief Method get_bookmarksFolders addr 0x21bb5a0 size 0x594 virtual false final false
  ::ArrayW<GlobalNamespace::FileBrowserItem> get_bookmarksFolders() ;
 
-// Ctor Parameters []
-explicit BookmarksFoldersModel() ;
+static GlobalNamespace::BookmarksFoldersModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bbb74 size 0x8 virtual false final false
  void _ctor() ;

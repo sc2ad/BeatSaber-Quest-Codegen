@@ -1,6 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AutomaticSFXVolume_def.hpp"
+#include "GlobalNamespace/zzzz__AutomaticSFXVolume_def.hpp"
 #include "GlobalNamespace/zzzz__AutomaticSFXVolumeParamsSO_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__AutomaticSFXVolume__InitData._ctor
@@ -38,8 +39,11 @@ constexpr void GlobalNamespace::GlobalNamespace__AutomaticSFXVolume__InitData::_
 constexpr bool GlobalNamespace::GlobalNamespace__AutomaticSFXVolume__InitData::__get_adaptiveSfx() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "volumeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "adaptiveSfx", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "maxVolume", ty: "float_t", modifiers: "", def_value: Some("inf") }]
- GlobalNamespace::GlobalNamespace__AutomaticSFXVolume__InitData::GlobalNamespace__AutomaticSFXVolume__InitData(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AutomaticSFXVolume__InitData>(volumeOffset, adaptiveSfx, maxVolume))) {}
+/// @param maxVolume: float_t (default: inf)
+ GlobalNamespace::GlobalNamespace__AutomaticSFXVolume__InitData GlobalNamespace::GlobalNamespace__AutomaticSFXVolume__InitData::New_ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume)  {
+GlobalNamespace::GlobalNamespace__AutomaticSFXVolume__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AutomaticSFXVolume__InitData>(volumeOffset, adaptiveSfx, maxVolume))};
+return o;
+}
 /// @param maxVolume: float_t (default: inf)
  void GlobalNamespace::GlobalNamespace__AutomaticSFXVolume__InitData::_ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -289,8 +293,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AutomaticSFXVolume::AutomaticSFXVolume()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AutomaticSFXVolume>())) {}
+ GlobalNamespace::AutomaticSFXVolume GlobalNamespace::AutomaticSFXVolume::New_ctor()  {
+GlobalNamespace::AutomaticSFXVolume o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AutomaticSFXVolume>())};
+return o;
+}
  void GlobalNamespace::AutomaticSFXVolume::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AutomaticSFXVolume>::get(),

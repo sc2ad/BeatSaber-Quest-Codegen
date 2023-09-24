@@ -4,10 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Oculus::Platform::Models {
-class UserCapabilityList;
+class UserList;
+}
+namespace Oculus::Platform::Models {
+class LaunchFriendRequestFlowResult;
+}
+namespace Oculus::Platform::Models {
+class UserProof;
 }
 namespace Oculus::Platform {
 class UserOptions;
+}
+namespace Oculus::Platform::Models {
+class LaunchUnblockFlowResult;
+}
+namespace Oculus::Platform::Models {
+class User;
 }
 namespace Oculus::Platform::Models {
 class OrgScopedID;
@@ -16,32 +28,20 @@ namespace Oculus::Platform::Models {
 class UserAndRoomList;
 }
 namespace Oculus::Platform::Models {
-class User;
-}
-namespace Oculus::Platform::Models {
-class SdkAccountList;
-}
-namespace Oculus::Platform::Models {
 class LaunchBlockFlowResult;
 }
 namespace Oculus::Platform::Models {
-class LaunchFriendRequestFlowResult;
+class BlockedUserList;
 }
 namespace Oculus::Platform::Models {
-class UserList;
+class SdkAccountList;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
 namespace Oculus::Platform::Models {
-class BlockedUserList;
-}
-namespace Oculus::Platform::Models {
-class UserProof;
-}
-namespace Oculus::Platform::Models {
-class LaunchUnblockFlowResult;
+class UserCapabilityList;
 }
 // Forward declare root types
 namespace Oculus::Platform {

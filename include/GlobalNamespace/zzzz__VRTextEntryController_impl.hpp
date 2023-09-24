@@ -1,12 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRTextEntryController_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__VRTextEntryController_def.hpp"
 #include "GlobalNamespace/zzzz__UIKeyboard_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23._ctor
@@ -147,8 +148,10 @@ constexpr void GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCu
 constexpr UnityEngine::Color GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23::__get__cursorColor_5__2() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Color, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRTextEntryController___BlinkCursor_d__23>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23 GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRTextEntryController___BlinkCursor_d__23>::get(),
@@ -698,8 +701,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::VRTextEntryController::VRTextEntryController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VRTextEntryController>())) {}
+ GlobalNamespace::VRTextEntryController GlobalNamespace::VRTextEntryController::New_ctor()  {
+GlobalNamespace::VRTextEntryController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VRTextEntryController>())};
+return o;
+}
  void GlobalNamespace::VRTextEntryController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VRTextEntryController>::get(),

@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Crypto {
 class ISignerWithRecovery;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ISigner;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -172,14 +172,12 @@ constexpr ::ArrayW<uint8_t> __get_preBlock() const;
 /// @brief Method GetRecoveredMessage addr 0xec2fe4 size 0x8 virtual true final true
  ::ArrayW<uint8_t> GetRecoveredMessage() ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "isImplicit", ty: "bool", modifiers: "", def_value: None }]
-explicit Iso9796d2Signer(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, bool isImplicit) ;
+static Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, bool isImplicit) ;
 
 /// @brief Method .ctor addr 0xec2fec size 0x108 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, bool isImplicit) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit Iso9796d2Signer(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xec30f4 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest) ;

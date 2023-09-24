@@ -1,16 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509V1CertificateGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__V1TbsCertificateGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__V1TbsCertificateGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateStructure_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateStructure_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::X509V1CertificateGenerator._ctor
 template<>
@@ -274,8 +274,10 @@ constexpr void Org::BouncyCastle::X509::X509V1CertificateGenerator::__set_signat
 constexpr ::StringW Org::BouncyCastle::X509::X509V1CertificateGenerator::__get_signatureAlgorithm() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::X509::X509V1CertificateGenerator::X509V1CertificateGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509V1CertificateGenerator>())) {}
+ Org::BouncyCastle::X509::X509V1CertificateGenerator Org::BouncyCastle::X509::X509V1CertificateGenerator::New_ctor()  {
+Org::BouncyCastle::X509::X509V1CertificateGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509V1CertificateGenerator>())};
+return o;
+}
  void Org::BouncyCastle::X509::X509V1CertificateGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509V1CertificateGenerator>::get(),

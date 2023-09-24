@@ -5,16 +5,63 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class BombNoteController;
+class BurstSliderGameNoteController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ObstacleController__Pool;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BombNoteController__Pool;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__SliderController__Pool;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+class BombNoteController;
+}
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SliderController__LengthType;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class GameNoteController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameNoteController__Pool;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BasicBeatmapObjectManager__InitData;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
 template<typename T>
@@ -23,56 +70,12 @@ class MemoryPoolContainer_1;
 namespace GlobalNamespace {
 class GlobalNamespace__BurstSliderGameNoteController__Pool;
 }
-namespace GlobalNamespace {
-class BurstSliderGameNoteController;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__ObstacleController__Pool;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__SliderController__LengthType;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace GlobalNamespace {
-class GameNoteController;
-}
-namespace GlobalNamespace {
-class SliderController;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__GameNoteController__Pool;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__BombNoteController__Pool;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+class SliderData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -150,8 +153,7 @@ constexpr float_t __get_notesUniformScale() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "disappearingArrows", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ghostNotes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cutAngleTolerance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "notesUniformScale", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BasicBeatmapObjectManager__InitData(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale) ;
+static GlobalNamespace::GlobalNamespace__BasicBeatmapObjectManager__InitData New_ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale) ;
 
 /// @brief Method .ctor addr 0x222fd68 size 0x44 virtual false final false
  void _ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale) ;
@@ -290,8 +292,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalName
 /// @brief Method DespawnInternal addr 0x222fc4c size 0x9c virtual true final false
  void DespawnInternal(GlobalNamespace::SliderController sliderNoteController) ;
 
-// Ctor Parameters []
-explicit BasicBeatmapObjectManager() ;
+static GlobalNamespace::BasicBeatmapObjectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x222fce8 size 0x4 virtual false final false
  void _ctor() ;

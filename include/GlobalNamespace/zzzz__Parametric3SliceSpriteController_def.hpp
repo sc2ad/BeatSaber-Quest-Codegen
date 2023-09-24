@@ -4,19 +4,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Color;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
+class MeshFilter;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -235,8 +235,7 @@ static int32_t __get__instanceCount() ;
 /// @brief Method Refresh addr 0x1f967e4 size 0x224 virtual false final false
  void Refresh() ;
 
-// Ctor Parameters []
-explicit Parametric3SliceSpriteController() ;
+static GlobalNamespace::Parametric3SliceSpriteController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f96aec size 0x24 virtual false final false
  void _ctor() ;

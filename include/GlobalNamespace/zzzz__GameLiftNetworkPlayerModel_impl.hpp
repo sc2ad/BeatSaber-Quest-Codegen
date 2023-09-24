@@ -1,16 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__NetworkPlayerModel_1_impl.hpp"
 #include "GlobalNamespace/zzzz__GameLiftNetworkPlayerModel_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
 #include "GlobalNamespace/zzzz__GameLiftConnectionManager_def.hpp"
 #include "BGNet/Core/GameLift/zzzz__IGameLiftPlayerSessionProvider_def.hpp"
-#include "GlobalNamespace/zzzz__GameLiftConnectionManager_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
-#include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "GlobalNamespace/zzzz__GameLiftConnectionManager_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameLiftNetworkPlayerModel.get_secret
 template<>
@@ -283,8 +281,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::GameLiftConnectionManager>, false>(const_cast<void*>(instance), ___internal_method, selectionMask, configuration);
 }
-// Ctor Parameters []
- GlobalNamespace::GameLiftNetworkPlayerModel::GameLiftNetworkPlayerModel()  : GlobalNamespace::NetworkPlayerModel_1<GlobalNamespace::GameLiftConnectionManager>(THROW_UNLESS(::il2cpp_utils::New<GameLiftNetworkPlayerModel>())) {}
+ GlobalNamespace::GameLiftNetworkPlayerModel GlobalNamespace::GameLiftNetworkPlayerModel::New_ctor()  {
+GlobalNamespace::GameLiftNetworkPlayerModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameLiftNetworkPlayerModel>())};
+return o;
+}
  void GlobalNamespace::GameLiftNetworkPlayerModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameLiftNetworkPlayerModel>::get(),

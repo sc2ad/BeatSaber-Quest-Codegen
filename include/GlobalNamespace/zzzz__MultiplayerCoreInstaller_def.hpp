@@ -5,13 +5,13 @@ namespace GlobalNamespace {
 class MultiplayerBadgesModelSO;
 }
 namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
 class ScoreSyncStateManager;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +89,7 @@ constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionM
 /// @brief Method InstallBindings addr 0x211a5c0 size 0x61c virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MultiplayerCoreInstaller() ;
+static GlobalNamespace::MultiplayerCoreInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211abdc size 0x8 virtual false final false
  void _ctor() ;

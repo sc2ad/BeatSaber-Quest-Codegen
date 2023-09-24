@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__CleanBundleCacheOperation_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::CleanBundleCacheOperation._ctor
 template<>
 
@@ -253,8 +253,10 @@ constexpr void UnityEngine::AddressableAssets::CleanBundleCacheOperation::__set_
 constexpr bool UnityEngine::AddressableAssets::CleanBundleCacheOperation::__get_m_UseMultiThreading() const {
 return ::cordl_internals::getInstanceField<bool, 0xc8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "aa", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }, CppParam { name: "forceSingleThreading", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::CleanBundleCacheOperation::CleanBundleCacheOperation(UnityEngine::AddressableAssets::AddressablesImpl aa, bool forceSingleThreading)  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool>(THROW_UNLESS(::il2cpp_utils::New<CleanBundleCacheOperation>(aa, forceSingleThreading))) {}
+ UnityEngine::AddressableAssets::CleanBundleCacheOperation UnityEngine::AddressableAssets::CleanBundleCacheOperation::New_ctor(UnityEngine::AddressableAssets::AddressablesImpl aa, bool forceSingleThreading)  {
+UnityEngine::AddressableAssets::CleanBundleCacheOperation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::CleanBundleCacheOperation>(aa, forceSingleThreading))};
+return o;
+}
  void UnityEngine::AddressableAssets::CleanBundleCacheOperation::_ctor(UnityEngine::AddressableAssets::AddressablesImpl aa, bool forceSingleThreading)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::CleanBundleCacheOperation>::get(),

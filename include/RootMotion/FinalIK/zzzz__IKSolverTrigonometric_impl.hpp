@@ -1,9 +1,10 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKSolver_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverTrigonometric_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverTrigonometric_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone.Initiate
 template<>
@@ -112,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone::RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone()  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone RootMotion::FinalIK::RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone>::get(),
@@ -766,8 +769,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method, IKPosition, bendNormal);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKSolverTrigonometric::IKSolverTrigonometric()  : RootMotion::FinalIK::IKSolver(THROW_UNLESS(::il2cpp_utils::New<IKSolverTrigonometric>())) {}
+ RootMotion::FinalIK::IKSolverTrigonometric RootMotion::FinalIK::IKSolverTrigonometric::New_ctor()  {
+RootMotion::FinalIK::IKSolverTrigonometric o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolverTrigonometric>())};
+return o;
+}
  void RootMotion::FinalIK::IKSolverTrigonometric::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolverTrigonometric>::get(),

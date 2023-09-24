@@ -5,10 +5,28 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::TextCore::Text {
-class TextStyleSheet;
+class SpriteAsset;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextureMapping;
 }
 namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextFontWeight;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextOverflowMode;
+}
+namespace UnityEngine::TextCore::Text {
+class TextSettings;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextAlignment;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
@@ -17,37 +35,19 @@ namespace UnityEngine::TextCore::Text {
 struct FontStyles;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextOverflowMode;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextureMapping;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
-}
-namespace UnityEngine {
 struct Rect;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextFontWeight;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine::TextCore::Text {
-struct VertexSortingOrder;
-}
-namespace UnityEngine::TextCore::Text {
-class TextSettings;
+class TextStyleSheet;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector4;
+}
+namespace UnityEngine::TextCore::Text {
+struct VertexSortingOrder;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -377,8 +377,7 @@ constexpr float_t __get_charWidthMaxAdj() const;
 /// @brief Method GetHashCode addr 0x2bc9b30 size 0x56c virtual true final false
  int32_t GetHashCode() ;
 
-// Ctor Parameters []
-explicit TextGenerationSettings() ;
+static UnityEngine::TextCore::Text::TextGenerationSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bca09c size 0x5c virtual false final false
  void _ctor() ;

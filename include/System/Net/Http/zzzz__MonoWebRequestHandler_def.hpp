@@ -4,26 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Security::Principal {
-struct TokenImpersonationLevel;
+namespace System::Net::Http {
+class HttpRequestMessage;
 }
-namespace System::Net::Security {
-class SslClientAuthenticationOptions;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
+namespace System::Net {
+class HttpWebResponse;
 }
 namespace System::Net {
 class IWebProxy;
 }
-namespace System::Net::Http::Headers {
-class HttpRequestHeaders;
+namespace System::Net::Http {
+class IMonoHttpClientHandler;
 }
 namespace System::Net {
-class HttpWebRequest;
+struct DecompressionMethods;
 }
-namespace System::Net {
-class HttpWebResponse;
+namespace System::Net::Http {
+struct System__Net__Http__MonoWebRequestHandler___SendAsync_d__99;
+}
+namespace System::Net::Http {
+class System__Net__Http__MonoWebRequestHandler____c;
+}
+namespace System::Net::Security {
+class SslClientAuthenticationOptions;
+}
+namespace System::Net::Cache {
+class RequestCachePolicy;
 }
 namespace System::Net::Security {
 struct AuthenticationLevel;
@@ -31,81 +37,81 @@ struct AuthenticationLevel;
 namespace System::Net::Http {
 class HttpResponseMessage;
 }
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace System::Net {
+class HttpWebRequest;
+}
 namespace System::Net::Http {
-class IMonoHttpClientHandler;
+class HttpMethod;
+}
+namespace System::Net {
+class ICredentials;
+}
+namespace System::Net::Http::Headers {
+class HttpRequestHeaders;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System {
 struct TimeSpan;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Net {
-struct DecompressionMethods;
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
 }
 namespace System::Net {
 class CookieContainer;
 }
-namespace System::Net::Http {
-class HttpRequestMessage;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System::Net::Http {
-class HttpMethod;
-}
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+class IDisposable;
+}
+namespace System::Security::Principal {
+struct TokenImpersonationLevel;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Net {
-class WebResponse;
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
-}
-namespace System::Threading {
-struct CancellationTokenRegistration;
+class IAsyncStateMachine;
 }
 namespace System::Net::Http {
 class HttpContent;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+template<typename TResult>
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Net {
+class WebResponse;
+}
+namespace System::Threading {
+struct CancellationTokenRegistration;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -186,8 +192,7 @@ static System::Action_1<::bs_hook::Il2CppWrapperType> __get___9__99_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Http__MonoWebRequestHandler____c() ;
+static System::Net::Http::System__Net__Http__MonoWebRequestHandler____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x269cfb8 size 0x8 virtual false final false
  void _ctor() ;
@@ -562,8 +567,7 @@ constexpr bool __get_disposed() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoWebRequestHandler() ;
+static System::Net::Http::MonoWebRequestHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x269ad50 size 0x1b0 virtual false final false
  void _ctor() ;

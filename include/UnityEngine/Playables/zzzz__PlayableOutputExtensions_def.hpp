@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::Playables {
-class INotification;
-}
-namespace UnityEngine::Playables {
-class INotificationReceiver;
-}
 namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine::Playables {
+class INotificationReceiver;
+}
+namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+class INotification;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

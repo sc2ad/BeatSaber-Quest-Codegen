@@ -3,17 +3,11 @@
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+struct Vector3Serializable;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__NoteData__ScoringType;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__NoteData__GameplayType;
@@ -22,13 +16,19 @@ namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace GlobalNamespace {
-struct ColorType;
-}
-namespace GlobalNamespace {
-struct Vector3Serializable;
+struct GlobalNamespace__NoteData__ScoringType;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace GlobalNamespace {
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -211,8 +211,7 @@ static GlobalNamespace::NoteSpawnInfoNetSerializable Obtain() ;
 /// @brief Method Init addr 0x1217c58 size 0x140 virtual false final false
  GlobalNamespace::NoteSpawnInfoNetSerializable Init(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, GlobalNamespace::GlobalNamespace__NoteData__GameplayType gameplayType, GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, GlobalNamespace::ColorType colorType, GlobalNamespace::NoteCutDirection cutDirection, float_t timeToNextColorNote, float_t timeToPrevColorNote, int32_t flipLineIndex, float_t flipYSide, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float_t jumpGravity, float_t moveDuration, float_t jumpDuration, float_t rotation, float_t cutDirectionAngleOffset, float_t cutSfxVolumeMultiplier) ;
 
-// Ctor Parameters []
-explicit NoteSpawnInfoNetSerializable() ;
+static GlobalNamespace::NoteSpawnInfoNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1217d98 size 0x58 virtual false final false
  void _ctor() ;

@@ -41,8 +41,10 @@ constexpr void Oculus::Platform::Models::ApplicationVersion::__set_LatestName(::
 constexpr ::StringW Oculus::Platform::Models::ApplicationVersion::__get_LatestName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::ApplicationVersion::ApplicationVersion(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ApplicationVersion>(o))) {}
+ Oculus::Platform::Models::ApplicationVersion Oculus::Platform::Models::ApplicationVersion::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::ApplicationVersion o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::ApplicationVersion>(o))};
+return o;
+}
  void Oculus::Platform::Models::ApplicationVersion::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::ApplicationVersion>::get(),

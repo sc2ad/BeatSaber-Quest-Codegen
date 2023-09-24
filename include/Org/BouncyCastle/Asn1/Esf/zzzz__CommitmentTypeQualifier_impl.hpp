@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CommitmentTypeQualifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier._ctor
@@ -136,8 +136,10 @@ constexpr void Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::__set_qual
 constexpr Org::BouncyCastle::Asn1::Asn1Object Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::__get_qualifier() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Object, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "commitmentTypeIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::CommitmentTypeQualifier(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CommitmentTypeQualifier>(commitmentTypeIdentifier))) {}
+ Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier)  {
+Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier>(commitmentTypeIdentifier))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier>::get(),
@@ -147,8 +149,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, commitmentTypeIdentifier);
 }
-// Ctor Parameters [CppParam { name: "commitmentTypeIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "qualifier", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::CommitmentTypeQualifier(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier, Org::BouncyCastle::Asn1::Asn1Encodable qualifier)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CommitmentTypeQualifier>(commitmentTypeIdentifier, qualifier))) {}
+ Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier, Org::BouncyCastle::Asn1::Asn1Encodable qualifier)  {
+Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier>(commitmentTypeIdentifier, qualifier))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier, Org::BouncyCastle::Asn1::Asn1Encodable qualifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier>::get(),
@@ -158,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, commitmentTypeIdentifier, qualifier);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::CommitmentTypeQualifier(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CommitmentTypeQualifier>(seq))) {}
+ Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier>::get(),

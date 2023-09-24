@@ -41,8 +41,10 @@ constexpr void System::Runtime::CompilerServices::NullableAttribute::__set_Nulla
 constexpr ::ArrayW<uint8_t> System::Runtime::CompilerServices::NullableAttribute::__get_NullableFlags() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "", ty: "uint8_t", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::NullableAttribute::NullableAttribute(uint8_t )  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NullableAttribute>())) {}
+ System::Runtime::CompilerServices::NullableAttribute System::Runtime::CompilerServices::NullableAttribute::New_ctor(uint8_t )  {
+System::Runtime::CompilerServices::NullableAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::NullableAttribute>())};
+return o;
+}
  void System::Runtime::CompilerServices::NullableAttribute::_ctor(uint8_t )  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::NullableAttribute>::get(),
@@ -52,8 +54,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, );
 }
-// Ctor Parameters [CppParam { name: "", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::NullableAttribute::NullableAttribute(::ArrayW<uint8_t> )  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NullableAttribute>())) {}
+ System::Runtime::CompilerServices::NullableAttribute System::Runtime::CompilerServices::NullableAttribute::New_ctor(::ArrayW<uint8_t> )  {
+System::Runtime::CompilerServices::NullableAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::NullableAttribute>())};
+return o;
+}
  void System::Runtime::CompilerServices::NullableAttribute::_ctor(::ArrayW<uint8_t> )  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::NullableAttribute>::get(),

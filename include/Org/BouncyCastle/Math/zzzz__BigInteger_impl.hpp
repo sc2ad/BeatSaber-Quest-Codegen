@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "System/zzzz__Random_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/zzzz__Random_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::BigInteger.GetByteLength
 template<>
 
@@ -2037,8 +2037,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::BigInteger, false>(nullptr, ___internal_method, sizeInBits);
 }
-// Ctor Parameters [CppParam { name: "signum", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mag", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "checkMag", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::BigInteger::BigInteger(int32_t signum, ::ArrayW<int32_t> mag, bool checkMag)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BigInteger>(signum, mag, checkMag))) {}
+ Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::BigInteger::New_ctor(int32_t signum, ::ArrayW<int32_t> mag, bool checkMag)  {
+Org::BouncyCastle::Math::BigInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::BigInteger>(signum, mag, checkMag))};
+return o;
+}
  void Org::BouncyCastle::Math::BigInteger::_ctor(int32_t signum, ::ArrayW<int32_t> mag, bool checkMag)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::BigInteger>::get(),
@@ -2048,8 +2050,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, signum, mag, checkMag);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::BigInteger::BigInteger(::StringW value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BigInteger>(value))) {}
+ Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::BigInteger::New_ctor(::StringW value)  {
+Org::BouncyCastle::Math::BigInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::BigInteger>(value))};
+return o;
+}
  void Org::BouncyCastle::Math::BigInteger::_ctor(::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::BigInteger>::get(),
@@ -2059,8 +2063,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::BigInteger::BigInteger(::StringW str, int32_t radix)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BigInteger>(str, radix))) {}
+ Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::BigInteger::New_ctor(::StringW str, int32_t radix)  {
+Org::BouncyCastle::Math::BigInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::BigInteger>(str, radix))};
+return o;
+}
  void Org::BouncyCastle::Math::BigInteger::_ctor(::StringW str, int32_t radix)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::BigInteger>::get(),
@@ -2070,8 +2076,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str, radix);
 }
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::BigInteger::BigInteger(::ArrayW<uint8_t> bytes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BigInteger>(bytes))) {}
+ Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::BigInteger::New_ctor(::ArrayW<uint8_t> bytes)  {
+Org::BouncyCastle::Math::BigInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::BigInteger>(bytes))};
+return o;
+}
  void Org::BouncyCastle::Math::BigInteger::_ctor(::ArrayW<uint8_t> bytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::BigInteger>::get(),
@@ -2081,8 +2089,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bytes);
 }
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::BigInteger::BigInteger(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BigInteger>(bytes, offset, length))) {}
+ Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::BigInteger::New_ctor(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length)  {
+Org::BouncyCastle::Math::BigInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::BigInteger>(bytes, offset, length))};
+return o;
+}
  void Org::BouncyCastle::Math::BigInteger::_ctor(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::BigInteger>::get(),
@@ -2101,8 +2111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t>, false>(nullptr, ___internal_method, bytes, offset, length);
 }
-// Ctor Parameters [CppParam { name: "sign", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::BigInteger::BigInteger(int32_t sign, ::ArrayW<uint8_t> bytes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BigInteger>(sign, bytes))) {}
+ Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::BigInteger::New_ctor(int32_t sign, ::ArrayW<uint8_t> bytes)  {
+Org::BouncyCastle::Math::BigInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::BigInteger>(sign, bytes))};
+return o;
+}
  void Org::BouncyCastle::Math::BigInteger::_ctor(int32_t sign, ::ArrayW<uint8_t> bytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::BigInteger>::get(),
@@ -2112,8 +2124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sign, bytes);
 }
-// Ctor Parameters [CppParam { name: "sign", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::BigInteger::BigInteger(int32_t sign, ::ArrayW<uint8_t> bytes, int32_t offset, int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BigInteger>(sign, bytes, offset, length))) {}
+ Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::BigInteger::New_ctor(int32_t sign, ::ArrayW<uint8_t> bytes, int32_t offset, int32_t length)  {
+Org::BouncyCastle::Math::BigInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::BigInteger>(sign, bytes, offset, length))};
+return o;
+}
  void Org::BouncyCastle::Math::BigInteger::_ctor(int32_t sign, ::ArrayW<uint8_t> bytes, int32_t offset, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::BigInteger>::get(),
@@ -2123,8 +2137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sign, bytes, offset, length);
 }
-// Ctor Parameters [CppParam { name: "sizeInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "System::Random", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::BigInteger::BigInteger(int32_t sizeInBits, System::Random random)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BigInteger>(sizeInBits, random))) {}
+ Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::BigInteger::New_ctor(int32_t sizeInBits, System::Random random)  {
+Org::BouncyCastle::Math::BigInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::BigInteger>(sizeInBits, random))};
+return o;
+}
  void Org::BouncyCastle::Math::BigInteger::_ctor(int32_t sizeInBits, System::Random random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::BigInteger>::get(),
@@ -2134,8 +2150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sizeInBits, random);
 }
-// Ctor Parameters [CppParam { name: "bitLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "System::Random", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::BigInteger::BigInteger(int32_t bitLength, int32_t certainty, System::Random random)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BigInteger>(bitLength, certainty, random))) {}
+ Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::BigInteger::New_ctor(int32_t bitLength, int32_t certainty, System::Random random)  {
+Org::BouncyCastle::Math::BigInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::BigInteger>(bitLength, certainty, random))};
+return o;
+}
  void Org::BouncyCastle::Math::BigInteger::_ctor(int32_t bitLength, int32_t certainty, System::Random random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::BigInteger>::get(),

@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Input::OpenXRDevice::OpenXRDevice()  : UnityEngine::InputSystem::InputDevice(THROW_UNLESS(::il2cpp_utils::New<OpenXRDevice>())) {}
+ UnityEngine::XR::OpenXR::Input::OpenXRDevice UnityEngine::XR::OpenXR::Input::OpenXRDevice::New_ctor()  {
+UnityEngine::XR::OpenXR::Input::OpenXRDevice o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Input::OpenXRDevice>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Input::OpenXRDevice::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Input::OpenXRDevice>::get(),

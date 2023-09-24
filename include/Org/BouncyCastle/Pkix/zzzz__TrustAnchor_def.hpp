@@ -114,20 +114,17 @@ constexpr Org::BouncyCastle::Asn1::X509::NameConstraints __get_nc() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "trustedCert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "nameConstraints", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TrustAnchor(Org::BouncyCastle::X509::X509Certificate trustedCert, ::ArrayW<uint8_t> nameConstraints) ;
+static Org::BouncyCastle::Pkix::TrustAnchor New_ctor(Org::BouncyCastle::X509::X509Certificate trustedCert, ::ArrayW<uint8_t> nameConstraints) ;
 
 /// @brief Method .ctor addr 0x109122c size 0x88 virtual false final false
  void _ctor(Org::BouncyCastle::X509::X509Certificate trustedCert, ::ArrayW<uint8_t> nameConstraints) ;
 
-// Ctor Parameters [CppParam { name: "caPrincipal", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "nameConstraints", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TrustAnchor(Org::BouncyCastle::Asn1::X509::X509Name caPrincipal, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, ::ArrayW<uint8_t> nameConstraints) ;
+static Org::BouncyCastle::Pkix::TrustAnchor New_ctor(Org::BouncyCastle::Asn1::X509::X509Name caPrincipal, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, ::ArrayW<uint8_t> nameConstraints) ;
 
 /// @brief Method .ctor addr 0x1091370 size 0xcc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name caPrincipal, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, ::ArrayW<uint8_t> nameConstraints) ;
 
-// Ctor Parameters [CppParam { name: "caName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "nameConstraints", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TrustAnchor(::StringW caName, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, ::ArrayW<uint8_t> nameConstraints) ;
+static Org::BouncyCastle::Pkix::TrustAnchor New_ctor(::StringW caName, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, ::ArrayW<uint8_t> nameConstraints) ;
 
 /// @brief Method .ctor addr 0x109143c size 0x148 virtual false final false
  void _ctor(::StringW caName, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, ::ArrayW<uint8_t> nameConstraints) ;

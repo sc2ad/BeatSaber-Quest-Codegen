@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::OriginatorID::OriginatorID()  : Org::BouncyCastle::X509::Store::X509CertStoreSelector(THROW_UNLESS(::il2cpp_utils::New<OriginatorID>())) {}
+ Org::BouncyCastle::Cms::OriginatorID Org::BouncyCastle::Cms::OriginatorID::New_ctor()  {
+Org::BouncyCastle::Cms::OriginatorID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::OriginatorID>())};
+return o;
+}
  void Org::BouncyCastle::Cms::OriginatorID::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::OriginatorID>::get(),

@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class CompetetiveActivitySO;
+class ProgressActivitySO;
 }
 namespace GlobalNamespace {
-class ProgressActivitySO;
+class CompetetiveActivitySO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,8 +82,7 @@ constexpr ::ArrayW<GlobalNamespace::CompetetiveActivitySO> __get__competetiveAct
 /// @brief Method get_competetiveActivities addr 0x221a7d4 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::CompetetiveActivitySO> get_competetiveActivities() ;
 
-// Ctor Parameters []
-explicit PS5ActivityIdsModelSO() ;
+static GlobalNamespace::PS5ActivityIdsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a7dc size 0x8 virtual false final false
  void _ctor() ;

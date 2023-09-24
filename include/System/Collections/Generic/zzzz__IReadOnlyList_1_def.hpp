@@ -1,6 +1,9 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyCollection_1;
@@ -8,9 +11,6 @@ class IReadOnlyCollection_1;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections::Generic {

@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__MultiplayerStatusData__AvailabilityStatus::GlobalNamespace__MultiplayerStatusData__AvailabilityStatus(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -42,8 +43,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMess
 constexpr ::StringW GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage::__get_message() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage>::get(),
@@ -76,8 +79,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMess
 constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage> GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage::__get_localizations() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage::GlobalNamespace__MultiplayerStatusData__UserMessage()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerStatusData__UserMessage>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage>::get(),
@@ -406,8 +411,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerStatusData::MultiplayerStatusData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerStatusData>())) {}
+ GlobalNamespace::MultiplayerStatusData GlobalNamespace::MultiplayerStatusData::New_ctor()  {
+GlobalNamespace::MultiplayerStatusData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerStatusData>())};
+return o;
+}
  void GlobalNamespace::MultiplayerStatusData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerStatusData>::get(),

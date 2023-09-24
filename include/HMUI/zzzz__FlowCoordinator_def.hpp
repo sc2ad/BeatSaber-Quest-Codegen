@@ -6,32 +6,59 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace HMUI {
-class ViewController;
-}
-namespace UnityEngine::EventSystems {
-class EventSystem;
+class NavigationController;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HMUI {
-struct HMUI__ViewController__AnimationDirection;
+class HMUI__FlowCoordinator____c__DisplayClass37_0;
 }
 namespace HMUI {
-class NavigationController;
-}
-namespace UnityEngine::EventSystems {
-class BaseInputModule;
+class HMUI__FlowCoordinator____c__DisplayClass38_0;
 }
 namespace HMUI {
-struct HMUI__ViewController__AnimationType;
+class HMUI__FlowCoordinator____c__DisplayClass47_0;
 }
 namespace System {
 class Action;
 }
 namespace HMUI {
+struct HMUI__ViewController__AnimationDirection;
+}
+namespace HMUI {
 class ScreenSystem;
+}
+namespace HMUI {
+struct HMUI__ViewController__AnimationType;
+}
+namespace HMUI {
+class HMUI__FlowCoordinator____c__DisplayClass39_0;
+}
+namespace HMUI {
+class HMUI__FlowCoordinator____c__DisplayClass40_0;
+}
+namespace UnityEngine::EventSystems {
+class BaseInputModule;
+}
+namespace HMUI {
+class HMUI__FlowCoordinator____c__DisplayClass43_0;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace HMUI {
+class HMUI__FlowCoordinator____c__DisplayClass41_0;
+}
+namespace UnityEngine::EventSystems {
+class EventSystem;
+}
+namespace HMUI {
+class HMUI__FlowCoordinator____c__DisplayClass48_0;
+}
+namespace HMUI {
+class HMUI__FlowCoordinator____c__DisplayClass44_0;
 }
 // Forward declare root types
 namespace HMUI {
@@ -127,8 +154,7 @@ constexpr HMUI::FlowCoordinator __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__FlowCoordinator____c__DisplayClass37_0() ;
+static HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb450c size 0x8 virtual false final false
  void _ctor() ;
@@ -218,8 +244,7 @@ constexpr HMUI::FlowCoordinator __get_flowCoordinator() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__FlowCoordinator____c__DisplayClass38_0() ;
+static HMUI::HMUI__FlowCoordinator____c__DisplayClass38_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb4af4 size 0x8 virtual false final false
  void _ctor() ;
@@ -300,8 +325,7 @@ constexpr HMUI::FlowCoordinator __get_flowCoordinatorToReplace() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__FlowCoordinator____c__DisplayClass39_0() ;
+static HMUI::HMUI__FlowCoordinator____c__DisplayClass39_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb4e14 size 0x8 virtual false final false
  void _ctor() ;
@@ -382,8 +406,7 @@ constexpr HMUI::ViewController __get_topViewController() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__FlowCoordinator____c__DisplayClass40_0() ;
+static HMUI::HMUI__FlowCoordinator____c__DisplayClass40_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb4e1c size 0x8 virtual false final false
  void _ctor() ;
@@ -464,8 +487,7 @@ constexpr HMUI::ViewController __get_newTopViewController() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__FlowCoordinator____c__DisplayClass41_0() ;
+static HMUI::HMUI__FlowCoordinator____c__DisplayClass41_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb4ffc size 0x8 virtual false final false
  void _ctor() ;
@@ -546,8 +568,7 @@ constexpr HMUI::ViewController __get_originalTopViewController() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__FlowCoordinator____c__DisplayClass43_0() ;
+static HMUI::HMUI__FlowCoordinator____c__DisplayClass43_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb50e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -628,8 +649,7 @@ constexpr HMUI::ViewController __get_viewController() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__FlowCoordinator____c__DisplayClass44_0() ;
+static HMUI::HMUI__FlowCoordinator____c__DisplayClass44_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb5214 size 0x8 virtual false final false
  void _ctor() ;
@@ -710,8 +730,7 @@ constexpr HMUI::NavigationController __get_navigationController() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__FlowCoordinator____c__DisplayClass47_0() ;
+static HMUI::HMUI__FlowCoordinator____c__DisplayClass47_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb5450 size 0x8 virtual false final false
  void _ctor() ;
@@ -792,8 +811,7 @@ constexpr HMUI::NavigationController __get_navigationController() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__FlowCoordinator____c__DisplayClass48_0() ;
+static HMUI::HMUI__FlowCoordinator____c__DisplayClass48_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb5598 size 0x8 virtual false final false
  void _ctor() ;
@@ -1144,8 +1162,7 @@ constexpr UnityEngine::EventSystems::EventSystem __get__prevEventSystem() const;
 /// @brief Method Log addr 0x1fb5c60 size 0x58 virtual false final false
 static void Log(::StringW message) ;
 
-// Ctor Parameters []
-explicit FlowCoordinator() ;
+static HMUI::FlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb5cb8 size 0x7c virtual false final false
  void _ctor() ;

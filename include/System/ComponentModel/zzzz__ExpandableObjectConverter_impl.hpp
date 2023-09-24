@@ -55,8 +55,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::ComponentModel::ExpandableObjectConverter::ExpandableObjectConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<ExpandableObjectConverter>())) {}
+ System::ComponentModel::ExpandableObjectConverter System::ComponentModel::ExpandableObjectConverter::New_ctor()  {
+System::ComponentModel::ExpandableObjectConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ExpandableObjectConverter>())};
+return o;
+}
  void System::ComponentModel::ExpandableObjectConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ExpandableObjectConverter>::get(),

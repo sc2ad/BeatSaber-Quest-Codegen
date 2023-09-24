@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ByteArrayNetSerializable_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ByteArrayNetSerializable.get_length
 template<>
 
@@ -325,8 +325,13 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "minLength", ty: "int32_t", modifiers: "", def_value: Some("0") }, CppParam { name: "maxLength", ty: "int32_t", modifiers: "", def_value: Some("32767") }, CppParam { name: "allowEmpty", ty: "bool", modifiers: "", def_value: Some("false") }]
- GlobalNamespace::ByteArrayNetSerializable::ByteArrayNetSerializable(::StringW name, int32_t minLength, int32_t maxLength, bool allowEmpty)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ByteArrayNetSerializable>(name, minLength, maxLength, allowEmpty))) {}
+/// @param minLength: int32_t (default: 0)
+/// @param maxLength: int32_t (default: 32767)
+/// @param allowEmpty: bool (default: false)
+ GlobalNamespace::ByteArrayNetSerializable GlobalNamespace::ByteArrayNetSerializable::New_ctor(::StringW name, int32_t minLength, int32_t maxLength, bool allowEmpty)  {
+GlobalNamespace::ByteArrayNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ByteArrayNetSerializable>(name, minLength, maxLength, allowEmpty))};
+return o;
+}
 /// @param minLength: int32_t (default: 0)
 /// @param maxLength: int32_t (default: 32767)
 /// @param allowEmpty: bool (default: false)
@@ -339,8 +344,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, minLength, maxLength, allowEmpty);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "allowEmpty", ty: "bool", modifiers: "", def_value: Some("false") }]
- GlobalNamespace::ByteArrayNetSerializable::ByteArrayNetSerializable(::StringW name, int32_t size, bool allowEmpty)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ByteArrayNetSerializable>(name, size, allowEmpty))) {}
+/// @param allowEmpty: bool (default: false)
+ GlobalNamespace::ByteArrayNetSerializable GlobalNamespace::ByteArrayNetSerializable::New_ctor(::StringW name, int32_t size, bool allowEmpty)  {
+GlobalNamespace::ByteArrayNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ByteArrayNetSerializable>(name, size, allowEmpty))};
+return o;
+}
 /// @param allowEmpty: bool (default: false)
  void GlobalNamespace::ByteArrayNetSerializable::_ctor(::StringW name, int32_t size, bool allowEmpty)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -62,8 +62,7 @@ constexpr explicit PlusNode(void* ptr) noexcept : System::Xml::Schema::InteriorN
 /// @brief Method get_IsNullable addr 0x271b290 size 0x20 virtual true final false
  bool get_IsNullable() ;
 
-// Ctor Parameters []
-explicit PlusNode() ;
+static System::Xml::Schema::PlusNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x271b2b0 size 0x8 virtual false final false
  void _ctor() ;

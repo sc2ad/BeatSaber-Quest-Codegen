@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__RoleSyntax_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::RoleSyntax.GetInstance
 template<>
@@ -213,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::RoleSyntax, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "roleAuthority", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "roleName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::RoleSyntax::RoleSyntax(Org::BouncyCastle::Asn1::X509::GeneralNames roleAuthority, Org::BouncyCastle::Asn1::X509::GeneralName roleName)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RoleSyntax>(roleAuthority, roleName))) {}
+ Org::BouncyCastle::Asn1::X509::RoleSyntax Org::BouncyCastle::Asn1::X509::RoleSyntax::New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames roleAuthority, Org::BouncyCastle::Asn1::X509::GeneralName roleName)  {
+Org::BouncyCastle::Asn1::X509::RoleSyntax o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::RoleSyntax>(roleAuthority, roleName))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames roleAuthority, Org::BouncyCastle::Asn1::X509::GeneralName roleName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::RoleSyntax>::get(),
@@ -224,8 +226,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, roleAuthority, roleName);
 }
-// Ctor Parameters [CppParam { name: "roleName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::RoleSyntax::RoleSyntax(Org::BouncyCastle::Asn1::X509::GeneralName roleName)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RoleSyntax>(roleName))) {}
+ Org::BouncyCastle::Asn1::X509::RoleSyntax Org::BouncyCastle::Asn1::X509::RoleSyntax::New_ctor(Org::BouncyCastle::Asn1::X509::GeneralName roleName)  {
+Org::BouncyCastle::Asn1::X509::RoleSyntax o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::RoleSyntax>(roleName))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor(Org::BouncyCastle::Asn1::X509::GeneralName roleName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::RoleSyntax>::get(),
@@ -235,8 +239,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, roleName);
 }
-// Ctor Parameters [CppParam { name: "roleName", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::RoleSyntax::RoleSyntax(::StringW roleName)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RoleSyntax>(roleName))) {}
+ Org::BouncyCastle::Asn1::X509::RoleSyntax Org::BouncyCastle::Asn1::X509::RoleSyntax::New_ctor(::StringW roleName)  {
+Org::BouncyCastle::Asn1::X509::RoleSyntax o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::RoleSyntax>(roleName))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor(::StringW roleName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::RoleSyntax>::get(),
@@ -246,8 +252,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, roleName);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::RoleSyntax::RoleSyntax(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RoleSyntax>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::RoleSyntax Org::BouncyCastle::Asn1::X509::RoleSyntax::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::RoleSyntax o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::RoleSyntax>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::RoleSyntax>::get(),

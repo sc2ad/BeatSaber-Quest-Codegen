@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusSettings_def.hpp"
+#include "Unity/XR/Oculus/zzzz__OculusSettings_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Unity::XR::Oculus::Unity__XR__Oculus__OculusSettings__StereoRenderingModeDesktop::Unity__XR__Oculus__OculusSettings__StereoRenderingModeDesktop(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -225,8 +226,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::Oculus::OculusSettings::OculusSettings()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<OculusSettings>())) {}
+ Unity::XR::Oculus::OculusSettings Unity::XR::Oculus::OculusSettings::New_ctor()  {
+Unity::XR::Oculus::OculusSettings o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::OculusSettings>())};
+return o;
+}
  void Unity::XR::Oculus::OculusSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::OculusSettings>::get(),

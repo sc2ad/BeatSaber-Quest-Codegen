@@ -2,11 +2,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml::Schema {
-struct SchemaType;
-}
-namespace System::Xml::Schema {
-class SchemaAttDef;
+namespace System::Xml {
+class XmlQualifiedName;
 }
 namespace System::Xml {
 class IDtdAttributeListInfo;
@@ -16,22 +13,25 @@ template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace System::Xml {
-class XmlQualifiedName;
+class IDtdInfo;
 }
 namespace System::Xml::Schema {
 class SchemaElementDecl;
 }
 namespace System::Xml::Schema {
-class SchemaNotation;
+class SchemaEntity;
+}
+namespace System::Xml::Schema {
+class SchemaAttDef;
+}
+namespace System::Xml::Schema {
+struct SchemaType;
 }
 namespace System::Xml {
 class IDtdEntityInfo;
 }
-namespace System::Xml {
-class IDtdInfo;
-}
 namespace System::Xml::Schema {
-class SchemaEntity;
+class SchemaNotation;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -190,8 +190,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,System::Xml::Sche
 
 // Methods
 
-// Ctor Parameters []
-explicit SchemaInfo() ;
+static System::Xml::Schema::SchemaInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2731b80 size 0x1ac virtual false final false
  void _ctor() ;

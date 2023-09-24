@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__NoteTrailParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteTrailParticleSystem.Awake
 template<>
 
@@ -85,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, startPos, endPos, count);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteTrailParticleSystem::NoteTrailParticleSystem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteTrailParticleSystem>())) {}
+ GlobalNamespace::NoteTrailParticleSystem GlobalNamespace::NoteTrailParticleSystem::New_ctor()  {
+GlobalNamespace::NoteTrailParticleSystem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteTrailParticleSystem>())};
+return o;
+}
  void GlobalNamespace::NoteTrailParticleSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteTrailParticleSystem>::get(),

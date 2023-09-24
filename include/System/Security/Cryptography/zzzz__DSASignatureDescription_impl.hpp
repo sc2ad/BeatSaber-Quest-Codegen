@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::DSASignatureDescription::DSASignatureDescription()  : System::Security::Cryptography::SignatureDescription(THROW_UNLESS(::il2cpp_utils::New<DSASignatureDescription>())) {}
+ System::Security::Cryptography::DSASignatureDescription System::Security::Cryptography::DSASignatureDescription::New_ctor()  {
+System::Security::Cryptography::DSASignatureDescription o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DSASignatureDescription>())};
+return o;
+}
  void System::Security::Cryptography::DSASignatureDescription::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DSASignatureDescription>::get(),

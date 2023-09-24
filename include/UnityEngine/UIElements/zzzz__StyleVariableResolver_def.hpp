@@ -7,14 +7,20 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
+struct StyleValueHandle;
+}
+namespace UnityEngine::UIElements {
 class StyleVariableContext;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-class StylePropertyValueMatcher;
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__StyleVariableResolver__Result;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+class StylePropertyValueMatcher;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -23,17 +29,17 @@ class List_1;
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyValue;
 }
-namespace UnityEngine::UIElements {
-class StyleProperty;
-}
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 class StyleSyntaxParser;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
+struct UnityEngine__UIElements__StyleVariableResolver__ResolveContext;
 }
 namespace UnityEngine::UIElements {
-struct StyleValueHandle;
+class StyleProperty;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -95,6 +101,8 @@ __NotFound = 2,
 constexpr operator __UnityEngine__UIElements__StyleVariableResolver__Result_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__StyleVariableResolver__Result_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -333,8 +341,7 @@ constexpr UnityEngine::UIElements::StyleVariableContext __get__variableContext_k
 /// @brief Method ParseVarFunction addr 0x2cf3024 size 0xb0 virtual false final false
 static void ParseVarFunction(UnityEngine::UIElements::StyleSheet sheet, ::ArrayW<UnityEngine::UIElements::StyleValueHandle> handles, ByRef<int32_t> index, ByRef<int32_t> argCount, ByRef<::StringW> variableName) ;
 
-// Ctor Parameters []
-explicit StyleVariableResolver() ;
+static UnityEngine::UIElements::StyleVariableResolver New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf39fc size 0x134 virtual false final false
  void _ctor() ;

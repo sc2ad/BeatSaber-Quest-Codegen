@@ -1,11 +1,11 @@
 #pragma once
-#include "System/Text/zzzz__ASCIIEncoding_impl.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__ASCIIEncoding_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
-#include "System/Text/zzzz__EncoderNLS_def.hpp"
-#include "System/Text/zzzz__DecoderNLS_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
+#include "System/Text/zzzz__EncoderNLS_def.hpp"
+#include "System/Text/zzzz__ASCIIEncoding_ASCIIEncodingSealed_def.hpp"
+#include "System/Text/zzzz__DecoderNLS_def.hpp"
 //  Writing Method size for method: System::Text::ASCIIEncoding._ctor
 template<>
 
@@ -369,8 +369,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
  System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed System::Text::ASCIIEncoding::__get_s_default()  {
 return ::cordl_internals::getStaticField<System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed, "s_default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::ASCIIEncoding>::get>();
 }
-// Ctor Parameters []
- System::Text::ASCIIEncoding::ASCIIEncoding()  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<ASCIIEncoding>())) {}
+ System::Text::ASCIIEncoding System::Text::ASCIIEncoding::New_ctor()  {
+System::Text::ASCIIEncoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::ASCIIEncoding>())};
+return o;
+}
  void System::Text::ASCIIEncoding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::ASCIIEncoding>::get(),
@@ -559,32 +561,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Text::Encoder, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed::*)()>(&System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x24c1ae0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed::System__Text__ASCIIEncoding__ASCIIEncodingSealed()  : System::Text::ASCIIEncoding(THROW_UNLESS(::il2cpp_utils::New<System__Text__ASCIIEncoding__ASCIIEncodingSealed>())) {}
- void System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }

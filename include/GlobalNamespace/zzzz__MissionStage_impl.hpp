@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionStage_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissionStage.get_minimumMissionsToUnlock
 template<>
 
@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector2, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionStage::MissionStage()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionStage>())) {}
+ GlobalNamespace::MissionStage GlobalNamespace::MissionStage::New_ctor()  {
+GlobalNamespace::MissionStage o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionStage>())};
+return o;
+}
  void GlobalNamespace::MissionStage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionStage>::get(),

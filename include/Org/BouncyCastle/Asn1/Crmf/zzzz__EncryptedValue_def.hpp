@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -117,8 +117,7 @@ constexpr Org::BouncyCastle::Asn1::DerBitString __get_encValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit EncryptedValue(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Crmf::EncryptedValue New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf816c size 0x1f8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -126,8 +125,7 @@ explicit EncryptedValue(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xdf8010 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::EncryptedValue GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "intendedAlg", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "symmAlg", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "encSymmKey", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }, CppParam { name: "keyAlg", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "valueHint", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "encValue", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit EncryptedValue(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier intendedAlg, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier symmAlg, Org::BouncyCastle::Asn1::DerBitString encSymmKey, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyAlg, Org::BouncyCastle::Asn1::Asn1OctetString valueHint, Org::BouncyCastle::Asn1::DerBitString encValue) ;
+static Org::BouncyCastle::Asn1::Crmf::EncryptedValue New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier intendedAlg, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier symmAlg, Org::BouncyCastle::Asn1::DerBitString encSymmKey, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyAlg, Org::BouncyCastle::Asn1::Asn1OctetString valueHint, Org::BouncyCastle::Asn1::DerBitString encValue) ;
 
 /// @brief Method .ctor addr 0xdf8364 size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier intendedAlg, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier symmAlg, Org::BouncyCastle::Asn1::DerBitString encSymmKey, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyAlg, Org::BouncyCastle::Asn1::Asn1OctetString valueHint, Org::BouncyCastle::Asn1::DerBitString encValue) ;

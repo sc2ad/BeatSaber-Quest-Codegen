@@ -3,16 +3,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+class GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
+class IConnectedPlayer;
 }
 namespace TMPro {
 class TextMeshPro;
@@ -186,8 +186,7 @@ constexpr float_t __get__colorAnimationStartDuration() const;
 /// @brief Method ChangeColor addr 0x21009fc size 0x7c virtual false final false
  void ChangeColor(UnityEngine::Color toColor, float_t duration) ;
 
-// Ctor Parameters []
-explicit MultiplayerPositionDisplay() ;
+static GlobalNamespace::MultiplayerPositionDisplay New_ctor() ;
 
 /// @brief Method .ctor addr 0x2100d8c size 0x24 virtual false final false
  void _ctor() ;

@@ -307,8 +307,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::Initialization::CacheInitializationData::CacheInitializationData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CacheInitializationData>())) {}
+ UnityEngine::AddressableAssets::Initialization::CacheInitializationData UnityEngine::AddressableAssets::Initialization::CacheInitializationData::New_ctor()  {
+UnityEngine::AddressableAssets::Initialization::CacheInitializationData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Initialization::CacheInitializationData>())};
+return o;
+}
  void UnityEngine::AddressableAssets::Initialization::CacheInitializationData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Initialization::CacheInitializationData>::get(),

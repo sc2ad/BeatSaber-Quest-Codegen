@@ -1,17 +1,23 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class IAsyncResult;
+namespace System::Threading {
+class WaitHandle;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::Threading {
-class WaitHandle;
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult;
+}
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__TaskToApm____c__DisplayClass3_0;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -100,8 +106,7 @@ constexpr bool __get__completedSynchronously() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "task", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "completedSynchronously", ty: "bool", modifiers: "", def_value: None }]
-explicit System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult(System::Threading::Tasks::Task task, ::bs_hook::Il2CppWrapperType state, bool completedSynchronously) ;
+static System::Threading::Tasks::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult New_ctor(System::Threading::Tasks::Task task, ::bs_hook::Il2CppWrapperType state, bool completedSynchronously) ;
 
 /// @brief Method .ctor addr 0x24b3a3c size 0x3c virtual false final false
  void _ctor(System::Threading::Tasks::Task task, ::bs_hook::Il2CppWrapperType state, bool completedSynchronously) ;
@@ -179,8 +184,7 @@ constexpr System::IAsyncResult __get_asyncResult() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__Tasks__TaskToApm____c__DisplayClass3_0() ;
+static System::Threading::Tasks::System__Threading__Tasks__TaskToApm____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24b3c60 size 0x8 virtual false final false
  void _ctor() ;

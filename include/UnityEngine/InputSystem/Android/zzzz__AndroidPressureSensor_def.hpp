@@ -47,8 +47,7 @@ constexpr explicit AndroidPressureSensor(void* ptr) noexcept : UnityEngine::Inpu
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidPressureSensor() ;
+static UnityEngine::InputSystem::Android::AndroidPressureSensor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953078 size 0x8 virtual false final false
  void _ctor() ;

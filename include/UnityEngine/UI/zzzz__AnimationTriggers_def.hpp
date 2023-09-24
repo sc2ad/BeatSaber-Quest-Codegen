@@ -139,8 +139,7 @@ constexpr ::StringW __get_m_DisabledTrigger() const;
 /// @brief Method set_disabledTrigger addr 0x2bd7cc0 size 0x8 virtual false final false
  void set_disabledTrigger(::StringW value) ;
 
-// Ctor Parameters []
-explicit AnimationTriggers() ;
+static UnityEngine::UI::AnimationTriggers New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd7cc8 size 0xd0 virtual false final false
  void _ctor() ;

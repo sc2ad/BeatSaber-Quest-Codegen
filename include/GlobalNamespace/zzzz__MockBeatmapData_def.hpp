@@ -5,10 +5,10 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class MockNoteData;
+class MockObstacleData;
 }
 namespace GlobalNamespace {
-class MockObstacleData;
+class MockNoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -146,8 +146,7 @@ constexpr ::ArrayW<GlobalNamespace::MockObstacleData> __get__obstacles_k__Backin
 /// @brief Method set_obstacles addr 0x22791bc size 0x8 virtual false final false
  void set_obstacles(::ArrayW<GlobalNamespace::MockObstacleData> value) ;
 
-// Ctor Parameters []
-explicit MockBeatmapData() ;
+static GlobalNamespace::MockBeatmapData New_ctor() ;
 
 /// @brief Method .ctor addr 0x22791c4 size 0x8 virtual false final false
  void _ctor() ;

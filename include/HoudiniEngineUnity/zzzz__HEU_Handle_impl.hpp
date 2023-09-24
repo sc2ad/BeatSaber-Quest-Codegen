@@ -2,17 +2,18 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Handle_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Handle_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HandleParamBinding_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Parameters_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_HandleInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HandleParamBinding_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_Handle__HEU_HandleType::HoudiniEngineUnity__HEU_Handle__HEU_HandleType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -741,8 +742,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_Handle::HEU_Handle()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<HEU_Handle>())) {}
+ HoudiniEngineUnity::HEU_Handle HoudiniEngineUnity::HEU_Handle::New_ctor()  {
+HoudiniEngineUnity::HEU_Handle o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_Handle>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_Handle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_Handle>::get(),

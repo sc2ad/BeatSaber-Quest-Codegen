@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class DistributionPoint;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -83,14 +83,12 @@ static Org::BouncyCastle::Asn1::X509::CrlDistPoint GetInstance(::bs_hook::Il2Cpp
 /// @brief Method FromExtensions addr 0x1100974 size 0x74 virtual false final false
 static Org::BouncyCastle::Asn1::X509::CrlDistPoint FromExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CrlDistPoint(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::CrlDistPoint New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x110094c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "points", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::DistributionPoint>", modifiers: "", def_value: None }]
-explicit CrlDistPoint(::ArrayW<Org::BouncyCastle::Asn1::X509::DistributionPoint> points) ;
+static Org::BouncyCastle::Asn1::X509::CrlDistPoint New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::DistributionPoint> points) ;
 
 /// @brief Method .ctor addr 0x11009f4 size 0x7c virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::DistributionPoint> points) ;

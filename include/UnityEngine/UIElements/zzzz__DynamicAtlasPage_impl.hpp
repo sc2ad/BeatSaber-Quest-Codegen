@@ -1,16 +1,15 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasPage_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
-#include "UnityEngine/zzzz__Vector2Int_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__Allocator2D_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Allocator2D_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__TextureBlitter_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 #include "UnityEngine/zzzz__FilterMode_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Vector2Int_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__TextureBlitter_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::DynamicAtlasPage.get_textureId
 template<>
 
@@ -436,8 +435,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::FilterMode, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "format", ty: "UnityEngine::RenderTextureFormat", modifiers: "", def_value: None }, CppParam { name: "filterMode", ty: "UnityEngine::FilterMode", modifiers: "", def_value: None }, CppParam { name: "minSize", ty: "UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "UnityEngine::Vector2Int", modifiers: "", def_value: None }]
- UnityEngine::UIElements::DynamicAtlasPage::DynamicAtlasPage(UnityEngine::RenderTextureFormat format, UnityEngine::FilterMode filterMode, UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DynamicAtlasPage>(format, filterMode, minSize, maxSize))) {}
+ UnityEngine::UIElements::DynamicAtlasPage UnityEngine::UIElements::DynamicAtlasPage::New_ctor(UnityEngine::RenderTextureFormat format, UnityEngine::FilterMode filterMode, UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize)  {
+UnityEngine::UIElements::DynamicAtlasPage o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::DynamicAtlasPage>(format, filterMode, minSize, maxSize))};
+return o;
+}
  void UnityEngine::UIElements::DynamicAtlasPage::_ctor(UnityEngine::RenderTextureFormat format, UnityEngine::FilterMode filterMode, UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::DynamicAtlasPage>::get(),

@@ -77,8 +77,7 @@ constexpr bool __get__startFromCenter() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LightGroupLinearLayouter() ;
+static GlobalNamespace::LightGroupLinearLayouter New_ctor() ;
 
 /// @brief Method .ctor addr 0x225e6f8 size 0x70 virtual false final false
  void _ctor() ;

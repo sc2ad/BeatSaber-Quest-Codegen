@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Ice::BeatmapFloorLightTilesGrid::BeatmapFloorLightTilesGrid()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatmapFloorLightTilesGrid>())) {}
+ Ice::BeatmapFloorLightTilesGrid Ice::BeatmapFloorLightTilesGrid::New_ctor()  {
+Ice::BeatmapFloorLightTilesGrid o{THROW_UNLESS(::il2cpp_utils::New<Ice::BeatmapFloorLightTilesGrid>())};
+return o;
+}
  void Ice::BeatmapFloorLightTilesGrid::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Ice::BeatmapFloorLightTilesGrid>::get(),

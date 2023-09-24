@@ -24,8 +24,10 @@ constexpr void System::Runtime::InteropServices::FieldOffsetAttribute::__set__va
 constexpr int32_t System::Runtime::InteropServices::FieldOffsetAttribute::__get__val() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::FieldOffsetAttribute::FieldOffsetAttribute(int32_t offset)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<FieldOffsetAttribute>(offset))) {}
+ System::Runtime::InteropServices::FieldOffsetAttribute System::Runtime::InteropServices::FieldOffsetAttribute::New_ctor(int32_t offset)  {
+System::Runtime::InteropServices::FieldOffsetAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::FieldOffsetAttribute>(offset))};
+return o;
+}
  void System::Runtime::InteropServices::FieldOffsetAttribute::_ctor(int32_t offset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::FieldOffsetAttribute>::get(),

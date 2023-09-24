@@ -105,8 +105,10 @@ constexpr void System::Runtime::Remoting::WellKnownClientTypeEntry::__set_app_ur
 constexpr ::StringW System::Runtime::Remoting::WellKnownClientTypeEntry::__get_app_url() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectUrl", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::Remoting::WellKnownClientTypeEntry::WellKnownClientTypeEntry(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl)  : System::Runtime::Remoting::TypeEntry(THROW_UNLESS(::il2cpp_utils::New<WellKnownClientTypeEntry>(typeName, assemblyName, objectUrl))) {}
+ System::Runtime::Remoting::WellKnownClientTypeEntry System::Runtime::Remoting::WellKnownClientTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl)  {
+System::Runtime::Remoting::WellKnownClientTypeEntry o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::WellKnownClientTypeEntry>(typeName, assemblyName, objectUrl))};
+return o;
+}
  void System::Runtime::Remoting::WellKnownClientTypeEntry::_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::WellKnownClientTypeEntry>::get(),

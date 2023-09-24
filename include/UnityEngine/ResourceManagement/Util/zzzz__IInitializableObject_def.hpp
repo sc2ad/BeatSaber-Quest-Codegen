@@ -1,12 +1,12 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

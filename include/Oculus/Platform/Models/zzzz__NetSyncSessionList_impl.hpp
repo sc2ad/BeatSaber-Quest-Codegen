@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::NetSyncSessionList::NetSyncSessionList(::cordl_internals::intptr_t a)  : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::NetSyncSession>(THROW_UNLESS(::il2cpp_utils::New<NetSyncSessionList>(a))) {}
+ Oculus::Platform::Models::NetSyncSessionList Oculus::Platform::Models::NetSyncSessionList::New_ctor(::cordl_internals::intptr_t a)  {
+Oculus::Platform::Models::NetSyncSessionList o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::NetSyncSessionList>(a))};
+return o;
+}
  void Oculus::Platform::Models::NetSyncSessionList::_ctor(::cordl_internals::intptr_t a)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::NetSyncSessionList>::get(),

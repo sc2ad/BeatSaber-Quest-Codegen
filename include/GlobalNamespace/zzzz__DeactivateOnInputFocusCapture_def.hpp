@@ -98,8 +98,7 @@ constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 /// @brief Method DeactivateGameObject addr 0x1f709c0 size 0x1a4 virtual false final false
  void DeactivateGameObject() ;
 
-// Ctor Parameters []
-explicit DeactivateOnInputFocusCapture() ;
+static GlobalNamespace::DeactivateOnInputFocusCapture New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f71160 size 0x8 virtual false final false
  void _ctor() ;

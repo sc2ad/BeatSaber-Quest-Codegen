@@ -7,13 +7,13 @@ namespace Unity::IO::LowLevel::Unsafe {
 struct ProcessingState;
 }
 namespace Unity::IO::LowLevel::Unsafe {
-struct FileReadType;
-}
-namespace Unity::IO::LowLevel::Unsafe {
 struct Priority;
 }
 namespace Unity::IO::LowLevel::Unsafe {
 struct AssetLoadingSubsystem;
+}
+namespace Unity::IO::LowLevel::Unsafe {
+struct FileReadType;
 }
 // Forward declare root types
 namespace Unity::IO::LowLevel::Unsafe {

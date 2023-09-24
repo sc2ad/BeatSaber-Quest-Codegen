@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cause", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsException::TlsException(::StringW message, System::Exception cause)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<TlsException>(message, cause))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsException Org::BouncyCastle::Crypto::Tls::TlsException::New_ctor(::StringW message, System::Exception cause)  {
+Org::BouncyCastle::Crypto::Tls::TlsException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsException>(message, cause))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsException::_ctor(::StringW message, System::Exception cause)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsException>::get(),

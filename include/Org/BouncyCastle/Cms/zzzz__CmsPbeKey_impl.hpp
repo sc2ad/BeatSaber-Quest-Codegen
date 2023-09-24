@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsPbeKey_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsPbeKey._ctor
 template<>
 
@@ -246,8 +246,10 @@ constexpr void Org::BouncyCastle::Cms::CmsPbeKey::__set_iterationCount(int32_t v
 constexpr int32_t Org::BouncyCastle::Cms::CmsPbeKey::__get_iterationCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsPbeKey::CmsPbeKey(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsPbeKey>(password, salt, iterationCount))) {}
+ Org::BouncyCastle::Cms::CmsPbeKey Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  {
+Org::BouncyCastle::Cms::CmsPbeKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsPbeKey>(password, salt, iterationCount))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsPbeKey::_ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsPbeKey>::get(),
@@ -257,8 +259,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, password, salt, iterationCount);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyDerivationAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsPbeKey::CmsPbeKey(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsPbeKey>(password, keyDerivationAlgorithm))) {}
+ Org::BouncyCastle::Cms::CmsPbeKey Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  {
+Org::BouncyCastle::Cms::CmsPbeKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsPbeKey>(password, keyDerivationAlgorithm))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsPbeKey::_ctor(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsPbeKey>::get(),
@@ -268,8 +272,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, password, keyDerivationAlgorithm);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsPbeKey::CmsPbeKey(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsPbeKey>(password, salt, iterationCount))) {}
+ Org::BouncyCastle::Cms::CmsPbeKey Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  {
+Org::BouncyCastle::Cms::CmsPbeKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsPbeKey>(password, salt, iterationCount))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsPbeKey::_ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsPbeKey>::get(),
@@ -279,8 +285,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, password, salt, iterationCount);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "keyDerivationAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsPbeKey::CmsPbeKey(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsPbeKey>(password, keyDerivationAlgorithm))) {}
+ Org::BouncyCastle::Cms::CmsPbeKey Org::BouncyCastle::Cms::CmsPbeKey::New_ctor(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  {
+Org::BouncyCastle::Cms::CmsPbeKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsPbeKey>(password, keyDerivationAlgorithm))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsPbeKey::_ctor(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsPbeKey>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CertPairStoreSelector_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509CertificatePair_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CertStoreSelector_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509CertificatePair_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::Store::X509CertPairStoreSelector.CloneSelector
 template<>
 
@@ -226,8 +226,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::X509::Store::X509CertStoreSelector, false>(nullptr, ___internal_method, s);
 }
-// Ctor Parameters []
- Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::X509CertPairStoreSelector()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CertPairStoreSelector>())) {}
+ Org::BouncyCastle::X509::Store::X509CertPairStoreSelector Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::New_ctor()  {
+Org::BouncyCastle::X509::Store::X509CertPairStoreSelector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Store::X509CertPairStoreSelector>())};
+return o;
+}
  void Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Store::X509CertPairStoreSelector>::get(),
@@ -237,8 +239,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "Org::BouncyCastle::X509::Store::X509CertPairStoreSelector", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::X509CertPairStoreSelector(Org::BouncyCastle::X509::Store::X509CertPairStoreSelector o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CertPairStoreSelector>(o))) {}
+ Org::BouncyCastle::X509::Store::X509CertPairStoreSelector Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::New_ctor(Org::BouncyCastle::X509::Store::X509CertPairStoreSelector o)  {
+Org::BouncyCastle::X509::Store::X509CertPairStoreSelector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Store::X509CertPairStoreSelector>(o))};
+return o;
+}
  void Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::_ctor(Org::BouncyCastle::X509::Store::X509CertPairStoreSelector o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Store::X509CertPairStoreSelector>::get(),

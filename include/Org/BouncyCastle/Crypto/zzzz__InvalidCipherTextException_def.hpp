@@ -51,20 +51,17 @@ constexpr explicit InvalidCipherTextException(void* ptr) noexcept : Org::BouncyC
 
 // Methods
 
-// Ctor Parameters []
-explicit InvalidCipherTextException() ;
+static Org::BouncyCastle::Crypto::InvalidCipherTextException New_ctor() ;
 
 /// @brief Method .ctor addr 0xf387ec size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InvalidCipherTextException(::StringW message) ;
+static Org::BouncyCastle::Crypto::InvalidCipherTextException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0xf387f0 size 0x4 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit InvalidCipherTextException(::StringW message, System::Exception exception) ;
+static Org::BouncyCastle::Crypto::InvalidCipherTextException New_ctor(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0xf387f4 size 0x4 virtual false final false
  void _ctor(::StringW message, System::Exception exception) ;

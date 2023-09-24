@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::GradientRemap::GradientRemap()  : UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::GradientRemap>(THROW_UNLESS(::il2cpp_utils::New<GradientRemap>())) {}
+ UnityEngine::UIElements::UIR::GradientRemap UnityEngine::UIElements::UIR::GradientRemap::New_ctor()  {
+UnityEngine::UIElements::UIR::GradientRemap o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::GradientRemap>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::GradientRemap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::GradientRemap>::get(),

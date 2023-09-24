@@ -6,16 +6,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Ed25519PrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class Org__BouncyCastle__Crypto__Signers__Ed25519Signer__Buffer;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed25519PublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Ed25519PrivateKeyParameters;
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -75,8 +78,7 @@ constexpr explicit Org__BouncyCastle__Crypto__Signers__Ed25519Signer__Buffer(voi
 /// @brief Method Reset addr 0xebd200 size 0xf0 virtual false final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__Signers__Ed25519Signer__Buffer() ;
+static Org::BouncyCastle::Crypto::Signers::Org__BouncyCastle__Crypto__Signers__Ed25519Signer__Buffer New_ctor() ;
 
 /// @brief Method .ctor addr 0xebcc58 size 0x8 virtual false final false
  void _ctor() ;
@@ -164,8 +166,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters __ge
 
 // Methods
 
-// Ctor Parameters []
-explicit Ed25519Signer() ;
+static Org::BouncyCastle::Crypto::Signers::Ed25519Signer New_ctor() ;
 
 /// @brief Method .ctor addr 0xebcbf0 size 0x68 virtual false final false
  void _ctor() ;

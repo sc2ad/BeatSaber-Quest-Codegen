@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::Vector3SO::Vector3SO()  : GlobalNamespace::ObservableVariableSO_1<UnityEngine::Vector3>(THROW_UNLESS(::il2cpp_utils::New<Vector3SO>())) {}
+ GlobalNamespace::Vector3SO GlobalNamespace::Vector3SO::New_ctor()  {
+GlobalNamespace::Vector3SO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Vector3SO>())};
+return o;
+}
  void GlobalNamespace::Vector3SO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Vector3SO>::get(),

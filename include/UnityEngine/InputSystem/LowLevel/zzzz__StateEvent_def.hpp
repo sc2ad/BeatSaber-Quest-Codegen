@@ -3,23 +3,26 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace Unity::Collections {
-struct Allocator;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+struct UnityEngine__InputSystem__LowLevel__StateEvent___stateData_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+struct InputEventPtr;
+}
+namespace Unity::Collections {
+struct Allocator;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace Unity::Collections {
 template<typename T>

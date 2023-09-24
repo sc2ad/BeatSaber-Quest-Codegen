@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::RIPEMD160::RIPEMD160()  : System::Security::Cryptography::HashAlgorithm(THROW_UNLESS(::il2cpp_utils::New<RIPEMD160>())) {}
+ System::Security::Cryptography::RIPEMD160 System::Security::Cryptography::RIPEMD160::New_ctor()  {
+System::Security::Cryptography::RIPEMD160 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RIPEMD160>())};
+return o;
+}
  void System::Security::Cryptography::RIPEMD160::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RIPEMD160>::get(),

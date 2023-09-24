@@ -59,8 +59,7 @@ constexpr System::Type __get__BuilderType_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "builderType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit AsyncMethodBuilderAttribute(System::Type builderType) ;
+static System::Runtime::CompilerServices::AsyncMethodBuilderAttribute New_ctor(System::Type builderType) ;
 
 /// @brief Method .ctor addr 0x236d98c size 0x28 virtual false final false
  void _ctor(System::Type builderType) ;

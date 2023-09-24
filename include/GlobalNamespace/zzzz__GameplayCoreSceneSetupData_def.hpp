@@ -4,35 +4,38 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
 class BeatmapDataCache;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
+class MainSettingsModelSO;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameplayCoreSceneSetupData___GetTransformedBeatmapDataAsync_d__15;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14;
+}
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
 }
 namespace GlobalNamespace {
 class ColorScheme;
@@ -40,16 +43,19 @@ class ColorScheme;
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
+}
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -353,8 +359,7 @@ constexpr GlobalNamespace::IReadonlyBeatmapData __get__transformedBeatmapData() 
 /// @brief Method get_transformedBeatmapData addr 0x21b6af4 size 0x8 virtual false final false
  GlobalNamespace::IReadonlyBeatmapData get_transformedBeatmapData() ;
 
-// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty: "GlobalNamespace::PlayerSpecificSettings", modifiers: "", def_value: None }, CppParam { name: "practiceSettings", ty: "GlobalNamespace::PracticeSettings", modifiers: "", def_value: None }, CppParam { name: "useTestNoteCutSoundEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "colorScheme", ty: "GlobalNamespace::ColorScheme", modifiers: "", def_value: None }, CppParam { name: "mainSettingsModel", ty: "GlobalNamespace::MainSettingsModelSO", modifiers: "", def_value: None }, CppParam { name: "beatmapDataCache", ty: "GlobalNamespace::BeatmapDataCache", modifiers: "", def_value: None }]
-explicit GameplayCoreSceneSetupData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::MainSettingsModelSO mainSettingsModel, GlobalNamespace::BeatmapDataCache beatmapDataCache) ;
+static GlobalNamespace::GameplayCoreSceneSetupData New_ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::MainSettingsModelSO mainSettingsModel, GlobalNamespace::BeatmapDataCache beatmapDataCache) ;
 
 /// @brief Method .ctor addr 0x21b6afc size 0x88 virtual false final false
  void _ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::MainSettingsModelSO mainSettingsModel, GlobalNamespace::BeatmapDataCache beatmapDataCache) ;

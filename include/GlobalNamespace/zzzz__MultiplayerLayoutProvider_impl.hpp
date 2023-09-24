@@ -219,8 +219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::MultiplayerPlayerLayout, false>(const_cast<void*>(instance), ___internal_method, activePlayersCount);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLayoutProvider::MultiplayerLayoutProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLayoutProvider>())) {}
+ GlobalNamespace::MultiplayerLayoutProvider GlobalNamespace::MultiplayerLayoutProvider::New_ctor()  {
+GlobalNamespace::MultiplayerLayoutProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLayoutProvider>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLayoutProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLayoutProvider>::get(),

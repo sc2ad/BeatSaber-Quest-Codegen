@@ -24,45 +24,57 @@ class RectTransform;
 namespace GlobalNamespace {
 class MultiplayerResultsTableCell;
 }
-namespace HMUI {
-class HMUI__TableView__IDataSource;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace Tweening {
 class TimeTweeningManager;
 }
-namespace GlobalNamespace {
-class MultiplayerOffsetPositionByLocalPlayerPosition;
+namespace HMUI {
+class TableView;
+}
+namespace HMUI {
+class TableCell;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace HMUI {
-class TableView;
+class HMUI__TableView__IDataSource;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace UnityEngine {
-class AudioClip;
+class GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
-namespace HMUI {
-class TableCell;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32;
+}
+namespace GlobalNamespace {
+class MultiplayerOffsetPositionByLocalPlayerPosition;
 }
 namespace UnityEngine {
 class AudioSource;
 }
 namespace UnityEngine {
-struct Vector3;
+class AudioClip;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1;
+}
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -137,8 +149,7 @@ constexpr GlobalNamespace::MultiplayerResultsTableCell __get_cell() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x218dfd4 size 0x8 virtual false final false
  void _ctor() ;
@@ -204,8 +215,7 @@ constexpr UnityEngine::RectTransform __get_winnerRectTransform() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x218dfdc size 0x8 virtual false final false
  void _ctor() ;
@@ -302,8 +312,7 @@ constexpr GlobalNamespace::MultiplayerResultsTableView __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x218e05c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -412,8 +421,7 @@ constexpr GlobalNamespace::MultiplayerResultsTableView __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x218e0fc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -661,8 +669,7 @@ constexpr UnityEngine::Quaternion __get__lastParentRotation() const;
 /// @brief Method PlayAvatarSlideInSound addr 0x218e084 size 0x78 virtual false final false
  System::Collections::IEnumerator PlayAvatarSlideInSound(float_t delay) ;
 
-// Ctor Parameters []
-explicit MultiplayerResultsTableView() ;
+static GlobalNamespace::MultiplayerResultsTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x218e124 size 0x1c virtual false final false
  void _ctor() ;

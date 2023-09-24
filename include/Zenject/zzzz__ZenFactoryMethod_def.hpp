@@ -56,8 +56,7 @@ constexpr explicit ZenFactoryMethod(void* ptr) noexcept : System::MulticastDeleg
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ZenFactoryMethod(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Zenject::ZenFactoryMethod New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2d404b8 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

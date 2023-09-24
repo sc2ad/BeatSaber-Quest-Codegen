@@ -3,11 +3,11 @@
 #include "GlobalNamespace/zzzz__LightColorBeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__LightColorBaseData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightColorBeatmapEventDataBox.get_subtypeIdentifier
 template<>
@@ -119,8 +119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "GlobalNamespace::IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionEaseType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "lightColorBaseDataList", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightColorBaseData>", modifiers: "", def_value: None }]
- GlobalNamespace::LightColorBeatmapEventDataBox::LightColorBeatmapEventDataBox(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType brightnessDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightColorBaseData> lightColorBaseDataList)  : GlobalNamespace::BeatmapEventDataBox(THROW_UNLESS(::il2cpp_utils::New<LightColorBeatmapEventDataBox>(indexFilter, beatDistributionParam, beatDistributionParamType, brightnessDistributionParam, brightnessDistributionParamType, brightnessDistributionShouldAffectFirstBaseEvent, brightnessDistributionEaseType, lightColorBaseDataList))) {}
+ GlobalNamespace::LightColorBeatmapEventDataBox GlobalNamespace::LightColorBeatmapEventDataBox::New_ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType brightnessDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightColorBaseData> lightColorBaseDataList)  {
+GlobalNamespace::LightColorBeatmapEventDataBox o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightColorBeatmapEventDataBox>(indexFilter, beatDistributionParam, beatDistributionParamType, brightnessDistributionParam, brightnessDistributionParamType, brightnessDistributionShouldAffectFirstBaseEvent, brightnessDistributionEaseType, lightColorBaseDataList))};
+return o;
+}
  void GlobalNamespace::LightColorBeatmapEventDataBox::_ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType brightnessDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightColorBaseData> lightColorBaseDataList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightColorBeatmapEventDataBox>::get(),

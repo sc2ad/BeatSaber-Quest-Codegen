@@ -5,38 +5,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Reflection {
-class RuntimeAssembly;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class RuntimeModule;
-}
-namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System::Reflection {
-class Assembly;
-}
 namespace System {
 class RuntimeType;
 }
 namespace System::Reflection {
 struct TypeAttributes;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Reflection {
+struct CorElementType;
+}
+namespace System::Reflection {
+class RuntimeAssembly;
+}
+namespace System::Reflection {
+class RuntimeModule;
+}
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Reflection {
-struct CorElementType;
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Type;
+}
+namespace System::Threading {
+struct StackCrawlMark;
 }
 // Forward declare root types
 namespace System {

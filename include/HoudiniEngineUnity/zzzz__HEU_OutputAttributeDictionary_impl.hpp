@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_OutputAttributeDictionary::HEU_OutputAttributeDictionary()  : HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW,HoudiniEngineUnity::HEU_OutputAttribute>(THROW_UNLESS(::il2cpp_utils::New<HEU_OutputAttributeDictionary>())) {}
+ HoudiniEngineUnity::HEU_OutputAttributeDictionary HoudiniEngineUnity::HEU_OutputAttributeDictionary::New_ctor()  {
+HoudiniEngineUnity::HEU_OutputAttributeDictionary o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_OutputAttributeDictionary>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_OutputAttributeDictionary::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_OutputAttributeDictionary>::get(),

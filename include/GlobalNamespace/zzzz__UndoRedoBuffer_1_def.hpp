@@ -81,8 +81,7 @@ constexpr int32_t __get__cursor() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UndoRedoBuffer_1(int32_t capacity) ;
+static GlobalNamespace::UndoRedoBuffer_1<T> New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t capacity) ;

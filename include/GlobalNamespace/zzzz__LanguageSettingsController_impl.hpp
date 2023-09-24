@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::LanguageSettingsController::LanguageSettingsController()  : GlobalNamespace::DropdownSettingsController(THROW_UNLESS(::il2cpp_utils::New<LanguageSettingsController>())) {}
+ GlobalNamespace::LanguageSettingsController GlobalNamespace::LanguageSettingsController::New_ctor()  {
+GlobalNamespace::LanguageSettingsController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LanguageSettingsController>())};
+return o;
+}
  void GlobalNamespace::LanguageSettingsController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LanguageSettingsController>::get(),

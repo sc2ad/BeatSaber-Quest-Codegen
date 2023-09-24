@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__ChaCha20Poly1305_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ChaCha7539Engine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__ChaCha20Poly1305_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State::Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -473,8 +474,10 @@ constexpr void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__set_mBufPos
 constexpr int32_t Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::__get_mBufPos() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x5c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ChaCha20Poly1305()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ChaCha20Poly1305>())) {}
+ Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305 Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::New_ctor()  {
+Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305>::get(),
@@ -484,8 +487,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "poly1305", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ChaCha20Poly1305(Org::BouncyCastle::Crypto::IMac poly1305)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ChaCha20Poly1305>(poly1305))) {}
+ Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305 Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::New_ctor(Org::BouncyCastle::Crypto::IMac poly1305)  {
+Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305>(poly1305))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::_ctor(Org::BouncyCastle::Crypto::IMac poly1305)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305>::get(),

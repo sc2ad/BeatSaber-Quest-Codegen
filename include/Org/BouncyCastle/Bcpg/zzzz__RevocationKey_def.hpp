@@ -62,14 +62,12 @@ constexpr explicit RevocationKey(void* ptr) noexcept : Org::BouncyCastle::Bcpg::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isCritical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit RevocationKey(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::RevocationKey New_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113e62c size 0x48 virtual false final false
  void _ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "isCritical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "signatureClass", ty: "Org::BouncyCastle::Bcpg::RevocationKeyTag", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "fingerprint", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit RevocationKey(bool isCritical, Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;
+static Org::BouncyCastle::Bcpg::RevocationKey New_ctor(bool isCritical, Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;
 
 /// @brief Method .ctor addr 0x113e674 size 0x54 virtual false final false
  void _ctor(bool isCritical, Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint) ;

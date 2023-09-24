@@ -1,7 +1,7 @@
 #pragma once
 #include "RootMotion/zzzz__AxisTools_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "RootMotion/zzzz__Axis_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: RootMotion::AxisTools.ToVector3
@@ -203,8 +203,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(nullptr, ___internal_method, r, direction);
 }
-// Ctor Parameters []
- RootMotion::AxisTools::AxisTools()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AxisTools>())) {}
+ RootMotion::AxisTools RootMotion::AxisTools::New_ctor()  {
+RootMotion::AxisTools o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::AxisTools>())};
+return o;
+}
  void RootMotion::AxisTools::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::AxisTools>::get(),

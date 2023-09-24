@@ -56,8 +56,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::SpriteCharacter::SpriteCharacter()  : UnityEngine::TextCore::Text::TextElement(THROW_UNLESS(::il2cpp_utils::New<SpriteCharacter>())) {}
+ UnityEngine::TextCore::Text::SpriteCharacter UnityEngine::TextCore::Text::SpriteCharacter::New_ctor()  {
+UnityEngine::TextCore::Text::SpriteCharacter o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::SpriteCharacter>())};
+return o;
+}
  void UnityEngine::TextCore::Text::SpriteCharacter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::SpriteCharacter>::get(),

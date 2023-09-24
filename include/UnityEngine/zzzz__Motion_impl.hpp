@@ -41,8 +41,10 @@ constexpr void UnityEngine::Motion::__set__isAnimatorMotion_k__BackingField(bool
 constexpr bool UnityEngine::Motion::__get__isAnimatorMotion_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Motion::Motion()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<Motion>())) {}
+ UnityEngine::Motion UnityEngine::Motion::New_ctor()  {
+UnityEngine::Motion o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Motion>())};
+return o;
+}
  void UnityEngine::Motion::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Motion>::get(),

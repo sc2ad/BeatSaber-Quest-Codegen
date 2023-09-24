@@ -47,8 +47,7 @@ constexpr explicit PreventReadOnlyInstanceModificationAttribute(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters []
-explicit PreventReadOnlyInstanceModificationAttribute() ;
+static UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba1824 size 0x8 virtual false final false
  void _ctor() ;

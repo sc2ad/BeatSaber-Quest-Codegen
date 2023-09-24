@@ -3,22 +3,22 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace HoudiniEngineUnity {
+class HEU_InstancedInput;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_PartData;
 }
-namespace HoudiniEngineUnity {
-class HEU_InstancedInput;
-}
-namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -105,8 +105,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::GameObject> __get__i
 /// @brief Method IsEquivalentTo addr 0x1ffee08 size 0x148 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_ObjectInstanceInfo other) ;
 
-// Ctor Parameters []
-explicit HEU_ObjectInstanceInfo() ;
+static HoudiniEngineUnity::HEU_ObjectInstanceInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ffef50 size 0xc8 virtual false final false
  void _ctor() ;

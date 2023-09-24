@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
+struct ContactPoint2D;
 }
 namespace UnityEngine {
-struct ContactPoint2D;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, platform);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::Util::PlatformUtilities::PlatformUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlatformUtilities>())) {}
+ UnityEngine::ResourceManagement::Util::PlatformUtilities UnityEngine::ResourceManagement::Util::PlatformUtilities::New_ctor()  {
+UnityEngine::ResourceManagement::Util::PlatformUtilities o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Util::PlatformUtilities>())};
+return o;
+}
  void UnityEngine::ResourceManagement::Util::PlatformUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Util::PlatformUtilities>::get(),

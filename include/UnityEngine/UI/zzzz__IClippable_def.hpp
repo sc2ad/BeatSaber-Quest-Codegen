@@ -1,16 +1,16 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 namespace UnityEngine {
-struct Rect;
+class GameObject;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class GameObject;
+class RectTransform;
 }
 namespace UnityEngine {
-class RectTransform;
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

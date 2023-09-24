@@ -64,8 +64,10 @@ constexpr void UnityEngine::UIElements::UxmlChildElementDescription::__set__elem
 constexpr ::StringW UnityEngine::UIElements::UxmlChildElementDescription::__get__elementNamespace_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UxmlChildElementDescription::UxmlChildElementDescription(System::Type t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UxmlChildElementDescription>(t))) {}
+ UnityEngine::UIElements::UxmlChildElementDescription UnityEngine::UIElements::UxmlChildElementDescription::New_ctor(System::Type t)  {
+UnityEngine::UIElements::UxmlChildElementDescription o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UxmlChildElementDescription>(t))};
+return o;
+}
  void UnityEngine::UIElements::UxmlChildElementDescription::_ctor(System::Type t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UxmlChildElementDescription>::get(),

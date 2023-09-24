@@ -10,21 +10,23 @@ class ICollection;
 }
 namespace System::Collections::Concurrent {
 template<typename T>
-class IProducerConsumerCollection_1;
-}
-namespace System::Collections {
-class IEnumerator;
+class System__Collections__Concurrent__ConcurrentQueue_1__Segment;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System::Collections::Concurrent {
+template<typename T>
+class System__Collections__Concurrent__ConcurrentQueue_1___Enumerate_d__28;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class Array;
+namespace System::Collections::Concurrent {
+template<typename T>
+class IProducerConsumerCollection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -32,6 +34,16 @@ class IReadOnlyCollection_1;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Array;
+}
+namespace GlobalNamespace {
+template<typename T>
+struct System__Collections__Concurrent__ConcurrentQueue_1__Segment__Slot;
 }
 namespace System::Collections::Concurrent {
 struct PaddedHeadAndTail;
@@ -224,8 +236,7 @@ constexpr System::Collections::Concurrent::System__Collections__Concurrent__Conc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "boundedLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Collections__Concurrent__ConcurrentQueue_1__Segment(int32_t boundedLength) ;
+static System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentQueue_1__Segment<T> New_ctor(int32_t boundedLength) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t boundedLength) ;
@@ -378,8 +389,7 @@ constexpr int32_t __get__i_5__5() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Collections__Concurrent__ConcurrentQueue_1___Enumerate_d__28(int32_t __1__state) ;
+static System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentQueue_1___Enumerate_d__28<T> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -496,8 +506,7 @@ constexpr System::Collections::Concurrent::System__Collections__Concurrent__Conc
 
 // Methods
 
-// Ctor Parameters []
-explicit ConcurrentQueue_1() ;
+static System::Collections::Concurrent::ConcurrentQueue_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

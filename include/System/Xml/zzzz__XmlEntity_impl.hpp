@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/zzzz__XmlNode_impl.hpp"
 #include "System/Xml/zzzz__XmlEntity_def.hpp"
-#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
 //  Writing Method size for method: System::Xml::XmlEntity._ctor
@@ -325,8 +325,10 @@ constexpr void System::Xml::XmlEntity::__set_childrenFoliating(bool value)  {
 constexpr bool System::Xml::XmlEntity::__get_childrenFoliating() const {
 return ::cordl_internals::getInstanceField<bool, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "strdata", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "notationName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlEntity::XmlEntity(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, System::Xml::XmlDocument doc)  : System::Xml::XmlNode(THROW_UNLESS(::il2cpp_utils::New<XmlEntity>(name, strdata, publicId, systemId, notationName, doc))) {}
+ System::Xml::XmlEntity System::Xml::XmlEntity::New_ctor(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, System::Xml::XmlDocument doc)  {
+System::Xml::XmlEntity o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlEntity>(name, strdata, publicId, systemId, notationName, doc))};
+return o;
+}
  void System::Xml::XmlEntity::_ctor(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlEntity>::get(),

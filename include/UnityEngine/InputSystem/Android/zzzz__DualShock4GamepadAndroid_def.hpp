@@ -47,8 +47,7 @@ constexpr explicit DualShock4GamepadAndroid(void* ptr) noexcept : UnityEngine::I
 
 // Methods
 
-// Ctor Parameters []
-explicit DualShock4GamepadAndroid() ;
+static UnityEngine::InputSystem::Android::DualShock4GamepadAndroid New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953048 size 0x8 virtual false final false
  void _ctor() ;

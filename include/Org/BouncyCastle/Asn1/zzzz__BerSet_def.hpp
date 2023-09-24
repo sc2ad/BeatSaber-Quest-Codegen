@@ -71,26 +71,22 @@ static Org::BouncyCastle::Asn1::BerSet FromVector(Org::BouncyCastle::Asn1::Asn1E
 /// @brief Method FromVector addr 0x11337f8 size 0x94 virtual false final false
 static Org::BouncyCastle::Asn1::BerSet FromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector, bool needsSorting) ;
 
-// Ctor Parameters []
-explicit BerSet() ;
+static Org::BouncyCastle::Asn1::BerSet New_ctor() ;
 
 /// @brief Method .ctor addr 0x1133910 size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "element", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit BerSet(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
+static Org::BouncyCastle::Asn1::BerSet New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
 
 /// @brief Method .ctor addr 0x1133964 size 0x64 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
 
-// Ctor Parameters [CppParam { name: "elementVector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit BerSet(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
+static Org::BouncyCastle::Asn1::BerSet New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
 
 /// @brief Method .ctor addr 0x1133794 size 0x64 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
 
-// Ctor Parameters [CppParam { name: "elementVector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }, CppParam { name: "needsSorting", ty: "bool", modifiers: "", def_value: None }]
-explicit BerSet(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector, bool needsSorting) ;
+static Org::BouncyCastle::Asn1::BerSet New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector, bool needsSorting) ;
 
 /// @brief Method .ctor addr 0x113388c size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector, bool needsSorting) ;

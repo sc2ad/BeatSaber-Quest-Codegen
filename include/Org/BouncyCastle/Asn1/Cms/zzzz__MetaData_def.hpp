@@ -11,14 +11,14 @@ class DerIA5String;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class Attributes;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerUtf8String;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class Attributes;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -104,14 +104,12 @@ constexpr Org::BouncyCastle::Asn1::Cms::Attributes __get_otherMetaData() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hashProtected", ty: "Org::BouncyCastle::Asn1::DerBoolean", modifiers: "", def_value: None }, CppParam { name: "fileName", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }, CppParam { name: "mediaType", ty: "Org::BouncyCastle::Asn1::DerIA5String", modifiers: "", def_value: None }, CppParam { name: "otherMetaData", ty: "Org::BouncyCastle::Asn1::Cms::Attributes", modifiers: "", def_value: None }]
-explicit MetaData(Org::BouncyCastle::Asn1::DerBoolean hashProtected, Org::BouncyCastle::Asn1::DerUtf8String fileName, Org::BouncyCastle::Asn1::DerIA5String mediaType, Org::BouncyCastle::Asn1::Cms::Attributes otherMetaData) ;
+static Org::BouncyCastle::Asn1::Cms::MetaData New_ctor(Org::BouncyCastle::Asn1::DerBoolean hashProtected, Org::BouncyCastle::Asn1::DerUtf8String fileName, Org::BouncyCastle::Asn1::DerIA5String mediaType, Org::BouncyCastle::Asn1::Cms::Attributes otherMetaData) ;
 
 /// @brief Method .ctor addr 0xded500 size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerBoolean hashProtected, Org::BouncyCastle::Asn1::DerUtf8String fileName, Org::BouncyCastle::Asn1::DerIA5String mediaType, Org::BouncyCastle::Asn1::Cms::Attributes otherMetaData) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit MetaData(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::MetaData New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xded540 size 0x214 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

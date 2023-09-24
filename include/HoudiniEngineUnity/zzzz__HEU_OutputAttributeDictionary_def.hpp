@@ -10,7 +10,7 @@ class HEU_OutputAttributeDictionary;
 // Type: HoudiniEngineUnity::HEU_OutputAttributeDictionary
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9607)), TypeDefinitionIndex(TypeDefinitionIndex(9796)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9796), inst: 2474 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9796), inst: 2474 }), TypeDefinitionIndex(TypeDefinitionIndex(9796)), TypeDefinitionIndex(TypeDefinitionIndex(9607))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9608))
 // CS Name: HoudiniEngineUnity.HEU_OutputAttributeDictionary
 class CORDL_TYPE HEU_OutputAttributeDictionary : public HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW,HoudiniEngineUnity::HEU_OutputAttribute> {
@@ -49,8 +49,7 @@ constexpr explicit HEU_OutputAttributeDictionary(void* ptr) noexcept : HoudiniEn
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_OutputAttributeDictionary() ;
+static HoudiniEngineUnity::HEU_OutputAttributeDictionary New_ctor() ;
 
 /// @brief Method .ctor addr 0x201115c size 0x48 virtual false final false
  void _ctor() ;

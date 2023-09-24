@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__FixedPointPreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo.get_LookupTable
 template<>
 
@@ -198,8 +198,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::FixedPointPreCompInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FixedPointPreCompInfo>())) {}
+ Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::New_ctor()  {
+Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo>::get(),

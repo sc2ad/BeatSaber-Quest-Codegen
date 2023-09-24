@@ -4,14 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine {
+class Cloth;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ClothRandomFluctuation__SineLayer;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-class Cloth;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +80,7 @@ constexpr float_t __get_offset() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__ClothRandomFluctuation__SineLayer() ;
+static GlobalNamespace::GlobalNamespace__ClothRandomFluctuation__SineLayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x20af67c size 0x8 virtual false final false
  void _ctor() ;
@@ -191,8 +193,7 @@ constexpr float_t __get__speed() const;
 /// @brief Method GetNoise addr 0x20af570 size 0x104 virtual false final false
  float_t GetNoise(float_t time, float_t offset) ;
 
-// Ctor Parameters []
-explicit ClothRandomFluctuation() ;
+static GlobalNamespace::ClothRandomFluctuation New_ctor() ;
 
 /// @brief Method .ctor addr 0x20af674 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,15 +2,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PauseController_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
-#include "GlobalNamespace/zzzz__PauseMenuManager_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelStartController_def.hpp"
-#include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
+#include "GlobalNamespace/zzzz__PauseController_def.hpp"
+#include "GlobalNamespace/zzzz__PauseMenuManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
+#include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelStartController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PauseController__InitData._ctor
 template<>
 
@@ -34,8 +35,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PauseController__InitData::__se
 constexpr bool GlobalNamespace::GlobalNamespace__PauseController__InitData::__get_startPaused() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "startPaused", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PauseController__InitData::GlobalNamespace__PauseController__InitData(bool startPaused)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PauseController__InitData>(startPaused))) {}
+ GlobalNamespace::GlobalNamespace__PauseController__InitData GlobalNamespace::GlobalNamespace__PauseController__InitData::New_ctor(bool startPaused)  {
+GlobalNamespace::GlobalNamespace__PauseController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PauseController__InitData>(startPaused))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PauseController__InitData::_ctor(bool startPaused)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PauseController__InitData>::get(),
@@ -85,8 +88,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PauseController____c__DisplayCl
 constexpr bool GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0::__get_value() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0::GlobalNamespace__PauseController____c__DisplayClass25_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PauseController____c__DisplayClass25_0>())) {}
+ GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0 GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0>::get(),
@@ -862,8 +867,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PauseController::PauseController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PauseController>())) {}
+ GlobalNamespace::PauseController GlobalNamespace::PauseController::New_ctor()  {
+GlobalNamespace::PauseController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PauseController>())};
+return o;
+}
  void GlobalNamespace::PauseController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PauseController>::get(),

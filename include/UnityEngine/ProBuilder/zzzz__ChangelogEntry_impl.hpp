@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "UnityEngine::ProBuilder::SemVer", modifiers: "", def_value: None }, CppParam { name: "releaseNotes", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::ChangelogEntry::ChangelogEntry(UnityEngine::ProBuilder::SemVer version, ::StringW releaseNotes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ChangelogEntry>(version, releaseNotes))) {}
+ UnityEngine::ProBuilder::ChangelogEntry UnityEngine::ProBuilder::ChangelogEntry::New_ctor(UnityEngine::ProBuilder::SemVer version, ::StringW releaseNotes)  {
+UnityEngine::ProBuilder::ChangelogEntry o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::ChangelogEntry>(version, releaseNotes))};
+return o;
+}
  void UnityEngine::ProBuilder::ChangelogEntry::_ctor(UnityEngine::ProBuilder::SemVer version, ::StringW releaseNotes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::ChangelogEntry>::get(),

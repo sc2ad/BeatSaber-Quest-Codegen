@@ -100,8 +100,7 @@ constexpr int32_t __get_initial_n() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "delimiter", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "baseNum", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tmin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tmax", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "skew", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "damp", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "initialBias", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "initialN", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Bootstring(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN) ;
+static System::Globalization::Bootstring New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN) ;
 
 /// @brief Method .ctor addr 0x240b638 size 0x6c virtual false final false
  void _ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN) ;

@@ -5,14 +5,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::AI {
-class NavMeshPath;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::AI {
+class NavMeshPath;
+}
+namespace RootMotion::Demos {
+struct RootMotion__Demos__Navigator__State;
 }
 // Forward declare root types
 namespace RootMotion::Demos {
@@ -71,6 +74,8 @@ __OnPath = 2,
 constexpr operator __RootMotion__Demos__Navigator__State_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__Demos__Navigator__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -265,8 +270,7 @@ constexpr float_t __get_nextPathTime() const;
 /// @brief Method Visualize addr 0x11b6fb4 size 0x1c4 virtual false final false
  void Visualize() ;
 
-// Ctor Parameters []
-explicit Navigator() ;
+static RootMotion::Demos::Navigator New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b7178 size 0x64 virtual false final false
  void _ctor() ;

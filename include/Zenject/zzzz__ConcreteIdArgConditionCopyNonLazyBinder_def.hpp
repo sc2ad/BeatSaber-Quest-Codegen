@@ -54,8 +54,7 @@ constexpr explicit ConcreteIdArgConditionCopyNonLazyBinder(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit ConcreteIdArgConditionCopyNonLazyBinder(Zenject::BindInfo bindInfo) ;
+static Zenject::ConcreteIdArgConditionCopyNonLazyBinder New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d4def8 size 0x8 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;

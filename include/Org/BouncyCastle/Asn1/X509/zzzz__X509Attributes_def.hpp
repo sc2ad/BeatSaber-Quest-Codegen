@@ -59,8 +59,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_RoleSyntax() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509Attributes() ;
+static Org::BouncyCastle::Asn1::X509::X509Attributes New_ctor() ;
 
 /// @brief Method .ctor addr 0x1113184 size 0x8 virtual false final false
  void _ctor() ;

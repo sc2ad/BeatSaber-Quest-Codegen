@@ -159,8 +159,10 @@ constexpr void UnityEngine::GUIScrollGroup::__set_verticalScrollbar(UnityEngine:
 constexpr UnityEngine::GUIStyle UnityEngine::GUIScrollGroup::__get_verticalScrollbar() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GUIStyle, 0xb8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::GUIScrollGroup::GUIScrollGroup()  : UnityEngine::GUILayoutGroup(THROW_UNLESS(::il2cpp_utils::New<GUIScrollGroup>())) {}
+ UnityEngine::GUIScrollGroup UnityEngine::GUIScrollGroup::New_ctor()  {
+UnityEngine::GUIScrollGroup o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUIScrollGroup>())};
+return o;
+}
  void UnityEngine::GUIScrollGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUIScrollGroup>::get(),

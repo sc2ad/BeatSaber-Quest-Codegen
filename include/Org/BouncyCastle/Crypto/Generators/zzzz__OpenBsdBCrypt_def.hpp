@@ -80,8 +80,7 @@ static Org::BouncyCastle::Utilities::Collections::ISet __get_AllowedVersions() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit OpenBsdBCrypt() ;
+static Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt New_ctor() ;
 
 /// @brief Method .ctor addr 0xe753bc size 0x8 virtual false final false
  void _ctor() ;

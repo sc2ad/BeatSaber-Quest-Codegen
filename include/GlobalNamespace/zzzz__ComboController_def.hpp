@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class NoteController;
+class PlayerHeadAndObstacleInteraction;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class IComboController;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
@@ -16,14 +16,14 @@ namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class IComboController;
+class NoteController;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -148,8 +148,7 @@ constexpr int32_t __get__maxCombo() const;
 /// @brief Method HandleNoteWasMissed addr 0x210d618 size 0x84 virtual false final false
  void HandleNoteWasMissed(GlobalNamespace::NoteController noteController) ;
 
-// Ctor Parameters []
-explicit ComboController() ;
+static GlobalNamespace::ComboController New_ctor() ;
 
 /// @brief Method .ctor addr 0x210d69c size 0x8 virtual false final false
  void _ctor() ;

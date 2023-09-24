@@ -184,8 +184,10 @@ constexpr void UnityEngine::AI::NavMeshPath::__set_m_Corners(::ArrayW<UnityEngin
 constexpr ::ArrayW<UnityEngine::Vector3> UnityEngine::AI::NavMeshPath::__get_m_Corners() const {
 return ::cordl_internals::getInstanceField<::ArrayW<UnityEngine::Vector3>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AI::NavMeshPath::NavMeshPath()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NavMeshPath>())) {}
+ UnityEngine::AI::NavMeshPath UnityEngine::AI::NavMeshPath::New_ctor()  {
+UnityEngine::AI::NavMeshPath o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AI::NavMeshPath>())};
+return o;
+}
  void UnityEngine::AI::NavMeshPath::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AI::NavMeshPath>::get(),

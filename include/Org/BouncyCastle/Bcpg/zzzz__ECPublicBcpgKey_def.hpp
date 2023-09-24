@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Bcpg {
-class IBcpgKey;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class IBcpgKey;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -95,20 +95,17 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_point() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit ECPublicBcpgKey(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::ECPublicBcpgKey New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1146b3c size 0xc8 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "point", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }]
-explicit ECPublicBcpgKey(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::EC::ECPoint point) ;
+static Org::BouncyCastle::Bcpg::ECPublicBcpgKey New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::EC::ECPoint point) ;
 
 /// @brief Method .ctor addr 0x1146d64 size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::EC::ECPoint point) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "encodedPoint", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ECPublicBcpgKey(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::BigInteger encodedPoint) ;
+static Org::BouncyCastle::Bcpg::ECPublicBcpgKey New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::BigInteger encodedPoint) ;
 
 /// @brief Method .ctor addr 0x1146e0c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::BigInteger encodedPoint) ;

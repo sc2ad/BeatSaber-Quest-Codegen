@@ -112,8 +112,7 @@ constexpr HMUI::ITableCellOwner __get__tableCellOwner() const;
 /// @brief Method WasPreparedForReuse addr 0x1fd51a4 size 0x4 virtual true final false
  void WasPreparedForReuse() ;
 
-// Ctor Parameters []
-explicit TableCell() ;
+static HMUI::TableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd51a8 size 0x8 virtual false final false
  void _ctor() ;

@@ -175,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, definesList);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_RenderingPipelineDefines::HEU_RenderingPipelineDefines()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_RenderingPipelineDefines>())) {}
+ HoudiniEngineUnity::HEU_RenderingPipelineDefines HoudiniEngineUnity::HEU_RenderingPipelineDefines::New_ctor()  {
+HoudiniEngineUnity::HEU_RenderingPipelineDefines o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_RenderingPipelineDefines>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_RenderingPipelineDefines::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_RenderingPipelineDefines>::get(),

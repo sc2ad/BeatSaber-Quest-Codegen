@@ -2,11 +2,12 @@
 #include "System/Text/zzzz__DecoderNLS_impl.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__UTF32Encoding_def.hpp"
-#include "System/Text/zzzz__Decoder_def.hpp"
-#include "System/Text/zzzz__Encoder_def.hpp"
+#include "System/Text/zzzz__UTF32Encoding_def.hpp"
+#include "System/Text/zzzz__EncoderNLS_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Text/zzzz__DecoderNLS_def.hpp"
-#include "System/Text/zzzz__EncoderNLS_def.hpp"
+#include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Text/zzzz__Encoder_def.hpp"
 //  Writing Method size for method: System::Text::System__Text__UTF32Encoding__UTF32Decoder._ctor
 template<>
 
@@ -70,8 +71,10 @@ constexpr void System::Text::System__Text__UTF32Encoding__UTF32Decoder::__set_re
 constexpr int32_t System::Text::System__Text__UTF32Encoding__UTF32Decoder::__get_readByteCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF32Encoding", modifiers: "", def_value: None }]
- System::Text::System__Text__UTF32Encoding__UTF32Decoder::System__Text__UTF32Encoding__UTF32Decoder(System::Text::UTF32Encoding encoding)  : System::Text::DecoderNLS(THROW_UNLESS(::il2cpp_utils::New<System__Text__UTF32Encoding__UTF32Decoder>(encoding))) {}
+ System::Text::System__Text__UTF32Encoding__UTF32Decoder System::Text::System__Text__UTF32Encoding__UTF32Decoder::New_ctor(System::Text::UTF32Encoding encoding)  {
+System::Text::System__Text__UTF32Encoding__UTF32Decoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__UTF32Encoding__UTF32Decoder>(encoding))};
+return o;
+}
  void System::Text::System__Text__UTF32Encoding__UTF32Decoder::_ctor(System::Text::UTF32Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF32Encoding__UTF32Decoder>::get(),
@@ -651,8 +654,10 @@ constexpr void System::Text::UTF32Encoding::__set__bigEndian(bool value)  {
 constexpr bool System::Text::UTF32Encoding::__get__bigEndian() const {
 return ::cordl_internals::getInstanceField<bool, 0x3a>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::UTF32Encoding::UTF32Encoding()  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UTF32Encoding>())) {}
+ System::Text::UTF32Encoding System::Text::UTF32Encoding::New_ctor()  {
+System::Text::UTF32Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UTF32Encoding>())};
+return o;
+}
  void System::Text::UTF32Encoding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UTF32Encoding>::get(),
@@ -662,8 +667,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bigEndian", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "byteOrderMark", ty: "bool", modifiers: "", def_value: None }]
- System::Text::UTF32Encoding::UTF32Encoding(bool bigEndian, bool byteOrderMark)  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UTF32Encoding>(bigEndian, byteOrderMark))) {}
+ System::Text::UTF32Encoding System::Text::UTF32Encoding::New_ctor(bool bigEndian, bool byteOrderMark)  {
+System::Text::UTF32Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UTF32Encoding>(bigEndian, byteOrderMark))};
+return o;
+}
  void System::Text::UTF32Encoding::_ctor(bool bigEndian, bool byteOrderMark)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UTF32Encoding>::get(),
@@ -673,8 +680,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bigEndian, byteOrderMark);
 }
-// Ctor Parameters [CppParam { name: "bigEndian", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "byteOrderMark", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "throwOnInvalidCharacters", ty: "bool", modifiers: "", def_value: None }]
- System::Text::UTF32Encoding::UTF32Encoding(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCharacters)  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UTF32Encoding>(bigEndian, byteOrderMark, throwOnInvalidCharacters))) {}
+ System::Text::UTF32Encoding System::Text::UTF32Encoding::New_ctor(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCharacters)  {
+System::Text::UTF32Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UTF32Encoding>(bigEndian, byteOrderMark, throwOnInvalidCharacters))};
+return o;
+}
  void System::Text::UTF32Encoding::_ctor(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCharacters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UTF32Encoding>::get(),

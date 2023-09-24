@@ -137,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DelayedMenuButtonTrigger::DelayedMenuButtonTrigger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DelayedMenuButtonTrigger>())) {}
+ GlobalNamespace::DelayedMenuButtonTrigger GlobalNamespace::DelayedMenuButtonTrigger::New_ctor()  {
+GlobalNamespace::DelayedMenuButtonTrigger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DelayedMenuButtonTrigger>())};
+return o;
+}
  void GlobalNamespace::DelayedMenuButtonTrigger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DelayedMenuButtonTrigger>::get(),

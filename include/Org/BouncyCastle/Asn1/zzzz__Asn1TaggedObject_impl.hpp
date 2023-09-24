@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObjectParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObjectParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Asn1TaggedObject.IsConstructed
 template<>
 
@@ -279,8 +279,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Asn1TaggedObject, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1TaggedObject::Asn1TaggedObject(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<Asn1TaggedObject>(tagNo, obj))) {}
+ Org::BouncyCastle::Asn1::Asn1TaggedObject Org::BouncyCastle::Asn1::Asn1TaggedObject::New_ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj)  {
+Org::BouncyCastle::Asn1::Asn1TaggedObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1TaggedObject>(tagNo, obj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1TaggedObject::_ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1TaggedObject>::get(),
@@ -290,8 +292,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tagNo, obj);
 }
-// Ctor Parameters [CppParam { name: "explicitly", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1TaggedObject::Asn1TaggedObject(bool explicitly, int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<Asn1TaggedObject>(explicitly, tagNo, obj))) {}
+ Org::BouncyCastle::Asn1::Asn1TaggedObject Org::BouncyCastle::Asn1::Asn1TaggedObject::New_ctor(bool explicitly, int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj)  {
+Org::BouncyCastle::Asn1::Asn1TaggedObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1TaggedObject>(explicitly, tagNo, obj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1TaggedObject::_ctor(bool explicitly, int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1TaggedObject>::get(),

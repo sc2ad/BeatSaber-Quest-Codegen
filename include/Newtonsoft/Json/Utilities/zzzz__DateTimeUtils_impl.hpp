@@ -1,17 +1,17 @@
 #pragma once
 #include "Newtonsoft/Json/Utilities/zzzz__DateTimeUtils_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__StringReference_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "Newtonsoft/Json/zzzz__DateFormatHandling_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/zzzz__DateTimeKind_def.hpp"
 #include "System/Xml/zzzz__XmlDateTimeSerializationMode_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateFormatHandling_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__StringReference_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DateTimeParser_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Utilities::DateTimeUtils.GetUtcOffset
 template<>
 

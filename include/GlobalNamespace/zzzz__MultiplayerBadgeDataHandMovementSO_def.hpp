@@ -54,8 +54,7 @@ constexpr explicit MultiplayerBadgeDataHandMovementSO(void* ptr) noexcept : Glob
 /// @brief Method GetValue addr 0x20d8684 size 0x2c virtual true final false
  float_t GetValue(GlobalNamespace::MultiplayerPlayerResultsData result) ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgeDataHandMovementSO() ;
+static GlobalNamespace::MultiplayerBadgeDataHandMovementSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d86b0 size 0x10 virtual false final false
  void _ctor() ;

@@ -1,24 +1,25 @@
 #pragma once
 #include "TMPro/zzzz__TMP_Asset_impl.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "TMPro/zzzz__FontAssetCreationSettings_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "TMPro/zzzz__FaceInfo_Legacy_def.hpp"
-#include "TMPro/zzzz__TMP_FontWeightPair_def.hpp"
-#include "TMPro/zzzz__TMP_Character_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphRenderMode_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
 #include "TMPro/zzzz__AtlasPopulationMode_def.hpp"
+#include "TMPro/zzzz__FontAssetCreationSettings_def.hpp"
+#include "UnityEngine/TextCore/zzzz__FaceInfo_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "TMPro/zzzz__TMP_FontFeatureTable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/TextCore/zzzz__FaceInfo_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
 #include "TMPro/zzzz__TMP_Glyph_def.hpp"
-#include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "TMPro/zzzz__FaceInfo_Legacy_def.hpp"
 #include "TMPro/zzzz__KerningTable_def.hpp"
+#include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
+#include "TMPro/zzzz__TMP_Character_def.hpp"
+#include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
+#include "TMPro/zzzz__TMP_FontWeightPair_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__TMP_FontAsset____c._ctor
 template<>
@@ -89,8 +90,10 @@ return ::cordl_internals::getStaticField<System::Func_2<TMPro::TMP_Character,uin
  System::Func_2<UnityEngine::TextCore::Glyph,uint32_t> TMPro::TMPro__TMP_FontAsset____c::__get___9__125_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::TextCore::Glyph,uint32_t>, "<>9__125_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_FontAsset____c>::get>();
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_FontAsset____c::TMPro__TMP_FontAsset____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_FontAsset____c>())) {}
+ TMPro::TMPro__TMP_FontAsset____c TMPro::TMPro__TMP_FontAsset____c::New_ctor()  {
+TMPro::TMPro__TMP_FontAsset____c o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_FontAsset____c>())};
+return o;
+}
  void TMPro::TMPro__TMP_FontAsset____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_FontAsset____c>::get(),
@@ -2928,8 +2931,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TMP_FontAsset::TMP_FontAsset()  : TMPro::TMP_Asset(THROW_UNLESS(::il2cpp_utils::New<TMP_FontAsset>())) {}
+ TMPro::TMP_FontAsset TMPro::TMP_FontAsset::New_ctor()  {
+TMPro::TMP_FontAsset o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_FontAsset>())};
+return o;
+}
  void TMPro::TMP_FontAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_FontAsset>::get(),

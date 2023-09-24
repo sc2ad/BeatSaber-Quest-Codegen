@@ -4,69 +4,87 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Zenject {
-class Zenject__InjectTypeInfo__InjectConstructorInfo;
+class Zenject__InjectTypeInfo__InjectMethodInfo;
 }
 namespace Zenject::Internal {
-class Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo;
+class Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo;
 }
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace Zenject::Internal {
-class Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo;
-}
-namespace Zenject {
-class ZenInjectMethod;
-}
-namespace Zenject {
-class ZenFactoryMethod;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Reflection {
-struct BindingFlags;
+namespace System {
+class Type;
 }
 namespace Zenject {
 class Zenject__InjectTypeInfo__InjectMemberInfo;
 }
 namespace Zenject::Internal {
-class Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo;
+class Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1;
 }
 namespace Zenject {
-class Zenject__InjectTypeInfo__InjectMethodInfo;
+class ZenMemberSetterMethod;
 }
-namespace System {
-class Type;
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0;
 }
 namespace System::Reflection {
 class ConstructorInfo;
 }
 namespace System::Reflection {
+struct BindingFlags;
+}
+namespace Zenject {
+class ZenInjectMethod;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0;
+}
+namespace System::Reflection {
 class FieldInfo;
 }
 namespace Zenject::Internal {
-class Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo;
+class Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo;
+}
+namespace Zenject {
+class ZenFactoryMethod;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionInfoTypeInfoConverter____c;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace Zenject {
+class Zenject__InjectTypeInfo__InjectConstructorInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace Zenject {
-class ZenMemberSetterMethod;
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0;
 }
 namespace Zenject {
-class InjectableInfo;
+class InjectTypeInfo;
 }
 namespace Zenject::Internal {
 class Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo;
 }
+namespace Zenject {
+class InjectableInfo;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -148,8 +166,7 @@ constexpr System::Reflection::MethodInfo __get_methodInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0() ;
+static Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da8390 size 0x8 virtual false final false
  void _ctor() ;
@@ -236,8 +253,7 @@ static System::Func_2<System::Reflection::FieldInfo,::StringW> __get___9__8_1() 
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionInfoTypeInfoConverter____c() ;
+static Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da8f10 size 0x8 virtual false final false
  void _ctor() ;
@@ -312,8 +328,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0() ;
+static Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da8760 size 0x8 virtual false final false
  void _ctor() ;
@@ -388,8 +403,7 @@ constexpr System::Collections::Generic::List_1<System::Reflection::FieldInfo> __
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0() ;
+static Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da8c5c size 0x8 virtual false final false
  void _ctor() ;
@@ -467,8 +481,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_value() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1() ;
+static Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da95a8 size 0x8 virtual false final false
  void _ctor() ;
@@ -543,8 +556,7 @@ constexpr System::Reflection::PropertyInfo __get_propInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0() ;
+static Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da8c64 size 0x8 virtual false final false
  void _ctor() ;

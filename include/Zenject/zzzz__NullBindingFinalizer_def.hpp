@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class IBindingFinalizer;
+class DiContainer;
 }
 namespace Zenject {
 struct BindingInheritanceMethods;
 }
 namespace Zenject {
-class DiContainer;
+class IBindingFinalizer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -70,8 +70,7 @@ constexpr explicit NullBindingFinalizer(void* ptr) noexcept : ::bs_hook::Il2CppW
 /// @brief Method FinalizeBinding addr 0x2d68a1c size 0x4 virtual true final true
  void FinalizeBinding(Zenject::DiContainer container) ;
 
-// Ctor Parameters []
-explicit NullBindingFinalizer() ;
+static Zenject::NullBindingFinalizer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d68a20 size 0x8 virtual false final false
  void _ctor() ;

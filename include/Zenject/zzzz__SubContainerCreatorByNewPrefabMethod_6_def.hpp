@@ -4,10 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
+class GameObjectContext;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class GameObjectContext;
+struct TypeValuePair;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6>
+class Zenject__SubContainerCreatorByNewPrefabMethod_6____c__DisplayClass2_0;
 }
 namespace Zenject {
 class IPrefabProvider;
@@ -15,13 +26,6 @@ class IPrefabProvider;
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6,typename T7>
 class Action_7;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
@@ -107,8 +111,7 @@ constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> __get_arg
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerCreatorByNewPrefabMethod_6____c__DisplayClass2_0() ;
+static Zenject::Zenject__SubContainerCreatorByNewPrefabMethod_6____c__DisplayClass2_0<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -181,8 +184,7 @@ constexpr System::Action_7<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "installerMethod", ty: "System::Action_7<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewPrefabMethod_6(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_7<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6> installerMethod) ;
+static Zenject::SubContainerCreatorByNewPrefabMethod_6<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6> New_ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_7<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6> installerMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_7<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6> installerMethod) ;

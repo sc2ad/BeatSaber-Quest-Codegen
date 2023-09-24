@@ -68,8 +68,7 @@ constexpr ::ArrayW<GlobalNamespace::SkinColorSO> __get__colors() const;
 /// @brief Method get_colors addr 0x22299f8 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::SkinColorSO> get_colors() ;
 
-// Ctor Parameters []
-explicit SkinColorSetSO() ;
+static GlobalNamespace::SkinColorSetSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2229a00 size 0x8 virtual false final false
  void _ctor() ;

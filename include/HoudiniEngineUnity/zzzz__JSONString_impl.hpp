@@ -2,8 +2,8 @@
 #include "HoudiniEngineUnity/zzzz__JSONNode_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONString_def.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__JSONTextMode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONNodeType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__JSONTextMode_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::JSONString.get_Tag
 template<>
@@ -209,8 +209,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "aData", ty: "::StringW", modifiers: "", def_value: None }]
- HoudiniEngineUnity::JSONString::JSONString(::StringW aData)  : HoudiniEngineUnity::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONString>(aData))) {}
+ HoudiniEngineUnity::JSONString HoudiniEngineUnity::JSONString::New_ctor(::StringW aData)  {
+HoudiniEngineUnity::JSONString o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::JSONString>(aData))};
+return o;
+}
  void HoudiniEngineUnity::JSONString::_ctor(::StringW aData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::JSONString>::get(),

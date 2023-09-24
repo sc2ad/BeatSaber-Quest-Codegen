@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "str", ty: "Org::BouncyCastle::Asn1::DerIA5String", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::NetscapeRevocationUrl(Org::BouncyCastle::Asn1::DerIA5String str)  : Org::BouncyCastle::Asn1::DerIA5String(THROW_UNLESS(::il2cpp_utils::New<NetscapeRevocationUrl>(str))) {}
+ Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::New_ctor(Org::BouncyCastle::Asn1::DerIA5String str)  {
+Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::_ctor(Org::BouncyCastle::Asn1::DerIA5String str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl>::get(),

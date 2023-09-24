@@ -1,20 +1,20 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
-#include "UnityEngine/zzzz__VerticalWrapMode_def.hpp"
+#include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/UI/zzzz__FontData_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__TextGenerationSettings_def.hpp"
 #include "UnityEngine/zzzz__UIVertex_def.hpp"
-#include "UnityEngine/zzzz__TextGenerator_def.hpp"
-#include "UnityEngine/UI/zzzz__FontData_def.hpp"
-#include "UnityEngine/zzzz__TextAnchor_def.hpp"
-#include "UnityEngine/zzzz__FontStyle_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/zzzz__TextGenerator_def.hpp"
+#include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
+#include "UnityEngine/zzzz__VerticalWrapMode_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::Text._ctor
 template<>
 
@@ -894,8 +894,10 @@ constexpr void UnityEngine::UI::Text::__set_m_TempVerts(::ArrayW<UnityEngine::UI
 constexpr ::ArrayW<UnityEngine::UIVertex> UnityEngine::UI::Text::__get_m_TempVerts() const {
 return ::cordl_internals::getInstanceField<::ArrayW<UnityEngine::UIVertex>, 0xf8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UI::Text::Text()  : UnityEngine::UI::MaskableGraphic(THROW_UNLESS(::il2cpp_utils::New<Text>())) {}
+ UnityEngine::UI::Text UnityEngine::UI::Text::New_ctor()  {
+UnityEngine::UI::Text o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::Text>())};
+return o;
+}
  void UnityEngine::UI::Text::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::Text>::get(),

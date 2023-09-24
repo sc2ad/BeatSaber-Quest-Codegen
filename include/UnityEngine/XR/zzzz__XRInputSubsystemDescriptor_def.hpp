@@ -48,8 +48,7 @@ constexpr explicit XRInputSubsystemDescriptor(void* ptr) noexcept : UnityEngine:
 
 // Methods
 
-// Ctor Parameters []
-explicit XRInputSubsystemDescriptor() ;
+static UnityEngine::XR::XRInputSubsystemDescriptor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d39c14 size 0x48 virtual false final false
  void _ctor() ;

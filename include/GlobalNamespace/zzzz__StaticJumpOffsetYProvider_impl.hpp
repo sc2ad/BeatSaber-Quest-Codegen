@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__StaticJumpOffsetYProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
+#include "GlobalNamespace/zzzz__StaticJumpOffsetYProvider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData._ctor
 template<>
 
@@ -24,8 +25,10 @@ constexpr void GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__Init
 constexpr float_t GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData::__get_jumpyYOffset() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "jumpyYOffset", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData::GlobalNamespace__StaticJumpOffsetYProvider__InitData(float_t jumpyYOffset)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__StaticJumpOffsetYProvider__InitData>(jumpyYOffset))) {}
+ GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData::New_ctor(float_t jumpyYOffset)  {
+GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData>(jumpyYOffset))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData::_ctor(float_t jumpyYOffset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData>::get(),
@@ -88,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::StaticJumpOffsetYProvider::StaticJumpOffsetYProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StaticJumpOffsetYProvider>())) {}
+ GlobalNamespace::StaticJumpOffsetYProvider GlobalNamespace::StaticJumpOffsetYProvider::New_ctor()  {
+GlobalNamespace::StaticJumpOffsetYProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StaticJumpOffsetYProvider>())};
+return o;
+}
  void GlobalNamespace::StaticJumpOffsetYProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StaticJumpOffsetYProvider>::get(),

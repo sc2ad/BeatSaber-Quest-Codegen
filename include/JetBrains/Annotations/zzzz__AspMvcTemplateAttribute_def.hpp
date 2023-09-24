@@ -47,8 +47,7 @@ constexpr explicit AspMvcTemplateAttribute(void* ptr) noexcept : System::Attribu
 
 // Methods
 
-// Ctor Parameters []
-explicit AspMvcTemplateAttribute() ;
+static JetBrains::Annotations::AspMvcTemplateAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41140 size 0x8 virtual false final false
  void _ctor() ;

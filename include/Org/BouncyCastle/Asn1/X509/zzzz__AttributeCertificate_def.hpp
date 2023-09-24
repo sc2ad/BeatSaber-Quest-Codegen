@@ -8,6 +8,9 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class AttributeCertificateInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -15,9 +18,6 @@ class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -98,14 +98,12 @@ constexpr Org::BouncyCastle::Asn1::DerBitString __get_signatureValue() const;
 /// @brief Method GetInstance addr 0xff719c size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::X509::AttributeCertificate GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "acinfo", ty: "Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo", modifiers: "", def_value: None }, CppParam { name: "signatureAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "signatureValue", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit AttributeCertificate(Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo acinfo, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signatureAlgorithm, Org::BouncyCastle::Asn1::DerBitString signatureValue) ;
+static Org::BouncyCastle::Asn1::X509::AttributeCertificate New_ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo acinfo, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signatureAlgorithm, Org::BouncyCastle::Asn1::DerBitString signatureValue) ;
 
 /// @brief Method .ctor addr 0xff73bc size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo acinfo, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signatureAlgorithm, Org::BouncyCastle::Asn1::DerBitString signatureValue) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit AttributeCertificate(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::AttributeCertificate New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff7240 size 0x17c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

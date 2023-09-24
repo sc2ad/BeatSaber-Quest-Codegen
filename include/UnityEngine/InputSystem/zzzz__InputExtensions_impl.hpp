@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputExtensions_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionPhase_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__TouchPhase_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__TouchPhase_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::InputExtensions.IsInProgress
 template<>
 

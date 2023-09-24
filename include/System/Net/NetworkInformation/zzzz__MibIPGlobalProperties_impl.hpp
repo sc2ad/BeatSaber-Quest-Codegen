@@ -60,8 +60,10 @@ return ::cordl_internals::getInstanceField<::StringW, 0x38>(this->::bs_hook::Il2
  ::ArrayW<char16_t> System::Net::NetworkInformation::MibIPGlobalProperties::__get_wsChars()  {
 return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "wsChars", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::MibIPGlobalProperties>::get>();
 }
-// Ctor Parameters [CppParam { name: "procDir", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::NetworkInformation::MibIPGlobalProperties::MibIPGlobalProperties(::StringW procDir)  : System::Net::NetworkInformation::UnixIPGlobalProperties(THROW_UNLESS(::il2cpp_utils::New<MibIPGlobalProperties>(procDir))) {}
+ System::Net::NetworkInformation::MibIPGlobalProperties System::Net::NetworkInformation::MibIPGlobalProperties::New_ctor(::StringW procDir)  {
+System::Net::NetworkInformation::MibIPGlobalProperties o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::MibIPGlobalProperties>(procDir))};
+return o;
+}
  void System::Net::NetworkInformation::MibIPGlobalProperties::_ctor(::StringW procDir)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::MibIPGlobalProperties>::get(),

@@ -1,15 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarTweenController_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarTweenController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "Tweening/zzzz__Tween_1_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Tweening/zzzz__Tween_1_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__WaitForSeconds_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0._ctor
 template<>
 
@@ -56,8 +57,10 @@ constexpr void GlobalNamespace::GlobalNamespace__AvatarTweenController____c__Dis
 constexpr UnityEngine::Vector3 GlobalNamespace::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0::__get_originalScale() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AvatarTweenController____c__DisplayClass52_0>())) {}
+ GlobalNamespace::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0 GlobalNamespace::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0>::get(),
@@ -214,8 +217,10 @@ constexpr void GlobalNamespace::GlobalNamespace__AvatarTweenController___AppearA
 constexpr UnityEngine::WaitForSeconds GlobalNamespace::GlobalNamespace__AvatarTweenController___AppearAnimation_d__53::__get__waitYieldInstruction_5__2() const {
 return ::cordl_internals::getInstanceField<UnityEngine::WaitForSeconds, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AvatarTweenController___AppearAnimation_d__53::GlobalNamespace__AvatarTweenController___AppearAnimation_d__53(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AvatarTweenController___AppearAnimation_d__53>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__AvatarTweenController___AppearAnimation_d__53 GlobalNamespace::GlobalNamespace__AvatarTweenController___AppearAnimation_d__53::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__AvatarTweenController___AppearAnimation_d__53 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AvatarTweenController___AppearAnimation_d__53>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AvatarTweenController___AppearAnimation_d__53::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AvatarTweenController___AppearAnimation_d__53>::get(),
@@ -402,8 +407,10 @@ constexpr void GlobalNamespace::GlobalNamespace__AvatarTweenController___Disappe
 constexpr GlobalNamespace::AvatarTweenController GlobalNamespace::GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::AvatarTweenController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58::GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58 GlobalNamespace::GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58>::get(),
@@ -1385,8 +1392,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarTweenController::AvatarTweenController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AvatarTweenController>())) {}
+ GlobalNamespace::AvatarTweenController GlobalNamespace::AvatarTweenController::New_ctor()  {
+GlobalNamespace::AvatarTweenController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarTweenController>())};
+return o;
+}
  void GlobalNamespace::AvatarTweenController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarTweenController>::get(),

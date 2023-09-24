@@ -23,8 +23,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
  Org::BouncyCastle::Ocsp::CertificateStatus Org::BouncyCastle::Ocsp::CertificateStatus::__get_Good()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Ocsp::CertificateStatus, "Good", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::CertificateStatus>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Ocsp::CertificateStatus::CertificateStatus()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertificateStatus>())) {}
+ Org::BouncyCastle::Ocsp::CertificateStatus Org::BouncyCastle::Ocsp::CertificateStatus::New_ctor()  {
+Org::BouncyCastle::Ocsp::CertificateStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::CertificateStatus>())};
+return o;
+}
  void Org::BouncyCastle::Ocsp::CertificateStatus::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::CertificateStatus>::get(),

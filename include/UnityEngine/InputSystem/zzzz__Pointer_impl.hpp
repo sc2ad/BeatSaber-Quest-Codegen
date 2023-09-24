@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Pointer_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__DeltaControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateCallbackReceiver_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__DeltaControl_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Pointer.get_position
 template<>
 
@@ -585,8 +585,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, control, eventPtr, offset);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Pointer::Pointer()  : UnityEngine::InputSystem::InputDevice(THROW_UNLESS(::il2cpp_utils::New<Pointer>())) {}
+ UnityEngine::InputSystem::Pointer UnityEngine::InputSystem::Pointer::New_ctor()  {
+UnityEngine::InputSystem::Pointer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Pointer>())};
+return o;
+}
  void UnityEngine::InputSystem::Pointer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Pointer>::get(),

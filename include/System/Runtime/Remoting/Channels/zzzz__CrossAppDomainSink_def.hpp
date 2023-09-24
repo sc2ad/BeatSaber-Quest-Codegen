@@ -7,20 +7,23 @@
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
 }
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Runtime::Remoting::Messaging {
 class CADMethodCallMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Channels {
+struct System__Runtime__Remoting__Channels__CrossAppDomainSink__ProcessMessageRes;
 }
 namespace System::Runtime::Remoting::Messaging {
 class CADMethodReturnMessage;
@@ -164,8 +167,7 @@ constexpr int32_t __get__domainID() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "domainID", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CrossAppDomainSink(int32_t domainID) ;
+static System::Runtime::Remoting::Channels::CrossAppDomainSink New_ctor(int32_t domainID) ;
 
 /// @brief Method .ctor addr 0x2337008 size 0x28 virtual false final false
  void _ctor(int32_t domainID) ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
-#include "System/Xml/zzzz__LineInfo_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__LineInfo_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Xml::IDtdParserAdapter.get_NameTable
 template<>

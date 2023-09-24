@@ -3,23 +3,26 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem::UI {
-struct UIPointerType;
+class ExtendedPointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::InputSystem::UI {
-class ExtendedPointerEventData;
+struct UIPointerType;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector2;
+}
+namespace UnityEngine::InputSystem::UI {
+struct UnityEngine__InputSystem__UI__PointerModel__ButtonState;
 }
 namespace UnityEngine::EventSystems {
 struct UnityEngine__EventSystems__PointerEventData__FramePressState;

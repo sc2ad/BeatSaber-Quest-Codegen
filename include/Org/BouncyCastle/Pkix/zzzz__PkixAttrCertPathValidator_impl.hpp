@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Pkix/zzzz__PkixAttrCertPathValidator_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathValidatorResult_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::PkixAttrCertPathValidator.Validate
 template<>
 
@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Pkix::PkixCertPathValidatorResult, false>(const_cast<void*>(instance), ___internal_method, certPath, pkixParams);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::PkixAttrCertPathValidator::PkixAttrCertPathValidator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixAttrCertPathValidator>())) {}
+ Org::BouncyCastle::Pkix::PkixAttrCertPathValidator Org::BouncyCastle::Pkix::PkixAttrCertPathValidator::New_ctor()  {
+Org::BouncyCastle::Pkix::PkixAttrCertPathValidator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixAttrCertPathValidator>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixAttrCertPathValidator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixAttrCertPathValidator>::get(),

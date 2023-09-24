@@ -1,13 +1,13 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServersFilterViewController_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__GameServersFilter_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "GlobalNamespace/zzzz__SongPacksDropdown_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyDropdown_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__GameServersFilter_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersDropdown_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameServersFilterViewController.get_gameServersFilter
 template<>
 
@@ -284,8 +284,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, currentFilter);
 }
-// Ctor Parameters []
- GlobalNamespace::GameServersFilterViewController::GameServersFilterViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<GameServersFilterViewController>())) {}
+ GlobalNamespace::GameServersFilterViewController GlobalNamespace::GameServersFilterViewController::New_ctor()  {
+GlobalNamespace::GameServersFilterViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameServersFilterViewController>())};
+return o;
+}
  void GlobalNamespace::GameServersFilterViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameServersFilterViewController>::get(),

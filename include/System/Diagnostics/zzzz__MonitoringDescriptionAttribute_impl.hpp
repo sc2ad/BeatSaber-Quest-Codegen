@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
- System::Diagnostics::MonitoringDescriptionAttribute::MonitoringDescriptionAttribute(::StringW description)  : System::ComponentModel::DescriptionAttribute(THROW_UNLESS(::il2cpp_utils::New<MonitoringDescriptionAttribute>(description))) {}
+ System::Diagnostics::MonitoringDescriptionAttribute System::Diagnostics::MonitoringDescriptionAttribute::New_ctor(::StringW description)  {
+System::Diagnostics::MonitoringDescriptionAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::MonitoringDescriptionAttribute>(description))};
+return o;
+}
  void System::Diagnostics::MonitoringDescriptionAttribute::_ctor(::StringW description)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::MonitoringDescriptionAttribute>::get(),

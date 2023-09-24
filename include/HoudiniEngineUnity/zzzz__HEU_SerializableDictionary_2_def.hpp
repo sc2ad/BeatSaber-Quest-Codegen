@@ -8,8 +8,20 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class IDictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
@@ -18,24 +30,12 @@ namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IDictionary_2;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -197,8 +197,7 @@ constexpr ::ArrayW<TValue> __get__values() const;
 /// @brief Method OnBeforeSerialize addr 0x0 size 0xffffffffffffffff virtual true final true
  void OnBeforeSerialize() ;
 
-// Ctor Parameters []
-explicit HEU_SerializableDictionary_2() ;
+static HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

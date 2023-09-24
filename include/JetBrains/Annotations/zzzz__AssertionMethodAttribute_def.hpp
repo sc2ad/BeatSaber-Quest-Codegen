@@ -47,8 +47,7 @@ constexpr explicit AssertionMethodAttribute(void* ptr) noexcept : System::Attrib
 
 // Methods
 
-// Ctor Parameters []
-explicit AssertionMethodAttribute() ;
+static JetBrains::Annotations::AssertionMethodAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41220 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,10 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerVerticalPlayerMovementManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerFacade_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
@@ -209,8 +207,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerVerticalPlayerMovementManager::MultiplayerVerticalPlayerMovementManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerVerticalPlayerMovementManager>())) {}
+ GlobalNamespace::MultiplayerVerticalPlayerMovementManager GlobalNamespace::MultiplayerVerticalPlayerMovementManager::New_ctor()  {
+GlobalNamespace::MultiplayerVerticalPlayerMovementManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerVerticalPlayerMovementManager>())};
+return o;
+}
  void GlobalNamespace::MultiplayerVerticalPlayerMovementManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerVerticalPlayerMovementManager>::get(),

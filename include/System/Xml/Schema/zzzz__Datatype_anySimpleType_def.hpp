@@ -8,14 +8,17 @@
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
-namespace System {
-class Exception;
-}
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace System::Xml::Schema {
-class FacetsChecker;
+struct XmlTypeCode;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
 }
 namespace System::Xml {
 struct XmlTokenizedType;
@@ -24,16 +27,13 @@ namespace System {
 class Type;
 }
 namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
 }
+namespace System {
+class Exception;
+}
 namespace System::Xml::Schema {
-class XmlSchemaType;
+class FacetsChecker;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -138,8 +138,7 @@ static System::Type __get_listValueType() ;
 /// @brief Method TryParseValue addr 0x2723da4 size 0x24 virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_anySimpleType() ;
+static System::Xml::Schema::Datatype_anySimpleType New_ctor() ;
 
 /// @brief Method .ctor addr 0x2723dc8 size 0x58 virtual false final false
  void _ctor() ;

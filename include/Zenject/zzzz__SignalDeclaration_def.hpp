@@ -6,35 +6,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Zenject {
+class Zenject__ZenjectSettings__SignalSettings;
+}
+namespace Zenject {
 class SignalSubscription;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+struct SignalMissingHandlerResponses;
+}
+namespace Zenject {
+struct BindingId;
+}
+namespace Zenject {
+class Zenject__SignalDeclaration__Factory;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-struct BindingId;
-}
-namespace Zenject {
-class ITickable;
-}
-namespace Zenject {
-class Zenject__ZenjectSettings__SignalSettings;
-}
-namespace Zenject {
-class ZenjectSettings;
+class SignalDeclarationBindInfo;
 }
 namespace System {
 class IDisposable;
 }
 namespace Zenject {
-class SignalDeclarationBindInfo;
+class ZenjectSettings;
 }
 namespace Zenject {
-struct SignalMissingHandlerResponses;
+class ITickable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -147,8 +150,7 @@ constexpr int32_t __get__TickPriority_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::SignalDeclarationBindInfo", modifiers: "", def_value: None }, CppParam { name: "zenjectSettings", ty: "Zenject::ZenjectSettings", modifiers: "", def_value: None }]
-explicit SignalDeclaration(Zenject::SignalDeclarationBindInfo bindInfo, Zenject::ZenjectSettings zenjectSettings) ;
+static Zenject::SignalDeclaration New_ctor(Zenject::SignalDeclarationBindInfo bindInfo, Zenject::ZenjectSettings zenjectSettings) ;
 
 /// @brief Method .ctor addr 0x2d49380 size 0x188 virtual false final false
  void _ctor(Zenject::SignalDeclarationBindInfo bindInfo, Zenject::ZenjectSettings zenjectSettings) ;
@@ -196,7 +198,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Factory
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10947)), TypeDefinitionIndex(TypeDefinitionIndex(10596)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3373 }), TypeDefinitionIndex(TypeDefinitionIndex(10601))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10947)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3373 }), TypeDefinitionIndex(TypeDefinitionIndex(10596)), TypeDefinitionIndex(TypeDefinitionIndex(10601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10600))
 // CS Name: Zenject.SignalDeclaration::Factory
 class CORDL_TYPE Zenject__SignalDeclaration__Factory : public Zenject::PlaceholderFactory_2<Zenject::SignalDeclarationBindInfo,Zenject::SignalDeclaration> {
@@ -235,8 +237,7 @@ constexpr explicit Zenject__SignalDeclaration__Factory(void* ptr) noexcept : Zen
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SignalDeclaration__Factory() ;
+static Zenject::Zenject__SignalDeclaration__Factory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4a438 size 0x48 virtual false final false
  void _ctor() ;

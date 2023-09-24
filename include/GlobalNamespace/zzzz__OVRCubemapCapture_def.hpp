@@ -5,9 +5,6 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
 struct KeyCode;
 }
 namespace UnityEngine {
@@ -15,6 +12,9 @@ class Cubemap;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,8 +113,7 @@ static void RenderIntoCubemap(UnityEngine::Camera ownerCamera, UnityEngine::Cube
 /// @brief Method SaveCubemapCapture addr 0x261e4d4 size 0x774 virtual false final false
 static bool SaveCubemapCapture(UnityEngine::Cubemap cubemap, ::StringW pathName) ;
 
-// Ctor Parameters []
-explicit OVRCubemapCapture() ;
+static GlobalNamespace::OVRCubemapCapture New_ctor() ;
 
 /// @brief Method .ctor addr 0x261ec48 size 0x28 virtual false final false
  void _ctor() ;

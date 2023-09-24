@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -148,14 +148,12 @@ constexpr int32_t __get_xOff() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TigerDigest() ;
+static Org::BouncyCastle::Crypto::Digests::TigerDigest New_ctor() ;
 
 /// @brief Method .ctor addr 0xe1c368 size 0x8c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::TigerDigest", modifiers: "", def_value: None }]
-explicit TigerDigest(Org::BouncyCastle::Crypto::Digests::TigerDigest t) ;
+static Org::BouncyCastle::Crypto::Digests::TigerDigest New_ctor(Org::BouncyCastle::Crypto::Digests::TigerDigest t) ;
 
 /// @brief Method .ctor addr 0xe1c498 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::TigerDigest t) ;

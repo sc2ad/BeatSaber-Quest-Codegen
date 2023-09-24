@@ -156,8 +156,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers::__get_ecka_eg_SessionKDF_AES256()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "ecka_eg_SessionKDF_AES256", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers::BsiObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BsiObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers>::get(),

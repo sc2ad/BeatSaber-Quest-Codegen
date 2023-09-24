@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -56,8 +56,7 @@ constexpr explicit FixedPointCombMultiplier(void* ptr) noexcept : Org::BouncyCas
 /// @brief Method MultiplyPositive addr 0xfa8cb0 size 0x2a8 virtual true final false
  Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
-// Ctor Parameters []
-explicit FixedPointCombMultiplier() ;
+static Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0xfa90c4 size 0x8 virtual false final false
  void _ctor() ;

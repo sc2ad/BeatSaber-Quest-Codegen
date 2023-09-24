@@ -1,16 +1,17 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampResponseGenerator_def.hpp"
-#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
-#include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenGenerator_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatusInfo_def.hpp"
-#include "Org/BouncyCastle/Tsp/zzzz__TimeStampResponse_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatus_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampResponse_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampResponseGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatus_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatusInfo_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo._ctor
 template<>
 
@@ -28,8 +29,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "failInfoValue", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo::Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo(int32_t failInfoValue)  : Org::BouncyCastle::Asn1::DerBitString(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo>(failInfoValue))) {}
+ Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo::New_ctor(int32_t failInfoValue)  {
+Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo>(failInfoValue))};
+return o;
+}
  void Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo::_ctor(int32_t failInfoValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo>::get(),
@@ -234,8 +237,10 @@ constexpr void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__set_accepte
 constexpr System::Collections::IList Org::BouncyCastle::Tsp::TimeStampResponseGenerator::__get_acceptedExtensions() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tokenGenerator", ty: "Org::BouncyCastle::Tsp::TimeStampTokenGenerator", modifiers: "", def_value: None }, CppParam { name: "acceptedAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampResponseGenerator::TimeStampResponseGenerator(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampResponseGenerator>(tokenGenerator, acceptedAlgorithms))) {}
+ Org::BouncyCastle::Tsp::TimeStampResponseGenerator Org::BouncyCastle::Tsp::TimeStampResponseGenerator::New_ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms)  {
+Org::BouncyCastle::Tsp::TimeStampResponseGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampResponseGenerator>(tokenGenerator, acceptedAlgorithms))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampResponseGenerator>::get(),
@@ -245,8 +250,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tokenGenerator, acceptedAlgorithms);
 }
-// Ctor Parameters [CppParam { name: "tokenGenerator", ty: "Org::BouncyCastle::Tsp::TimeStampTokenGenerator", modifiers: "", def_value: None }, CppParam { name: "acceptedAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "acceptedPolicy", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampResponseGenerator::TimeStampResponseGenerator(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicy)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampResponseGenerator>(tokenGenerator, acceptedAlgorithms, acceptedPolicy))) {}
+ Org::BouncyCastle::Tsp::TimeStampResponseGenerator Org::BouncyCastle::Tsp::TimeStampResponseGenerator::New_ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicy)  {
+Org::BouncyCastle::Tsp::TimeStampResponseGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampResponseGenerator>(tokenGenerator, acceptedAlgorithms, acceptedPolicy))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampResponseGenerator>::get(),
@@ -256,8 +263,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tokenGenerator, acceptedAlgorithms, acceptedPolicy);
 }
-// Ctor Parameters [CppParam { name: "tokenGenerator", ty: "Org::BouncyCastle::Tsp::TimeStampTokenGenerator", modifiers: "", def_value: None }, CppParam { name: "acceptedAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "acceptedPolicies", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "acceptedExtensions", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampResponseGenerator::TimeStampResponseGenerator(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicies, System::Collections::IList acceptedExtensions)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampResponseGenerator>(tokenGenerator, acceptedAlgorithms, acceptedPolicies, acceptedExtensions))) {}
+ Org::BouncyCastle::Tsp::TimeStampResponseGenerator Org::BouncyCastle::Tsp::TimeStampResponseGenerator::New_ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicies, System::Collections::IList acceptedExtensions)  {
+Org::BouncyCastle::Tsp::TimeStampResponseGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampResponseGenerator>(tokenGenerator, acceptedAlgorithms, acceptedPolicies, acceptedExtensions))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicies, System::Collections::IList acceptedExtensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampResponseGenerator>::get(),

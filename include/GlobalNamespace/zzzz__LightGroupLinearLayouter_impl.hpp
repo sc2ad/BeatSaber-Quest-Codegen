@@ -42,8 +42,10 @@ constexpr void GlobalNamespace::LightGroupLinearLayouter::__set__startFromCenter
 constexpr bool GlobalNamespace::LightGroupLinearLayouter::__get__startFromCenter() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::LightGroupLinearLayouter::LightGroupLinearLayouter()  : GlobalNamespace::LightGroupSubsystem(THROW_UNLESS(::il2cpp_utils::New<LightGroupLinearLayouter>())) {}
+ GlobalNamespace::LightGroupLinearLayouter GlobalNamespace::LightGroupLinearLayouter::New_ctor()  {
+GlobalNamespace::LightGroupLinearLayouter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightGroupLinearLayouter>())};
+return o;
+}
  void GlobalNamespace::LightGroupLinearLayouter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightGroupLinearLayouter>::get(),

@@ -1,6 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
+#include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData._ctor
@@ -38,8 +39,10 @@ constexpr void GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData
 constexpr bool GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData::__get_advancedHUD() const {
 return ::cordl_internals::getInstanceField<bool, 0x12>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hide", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "showEnergyPanel", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "advancedHUD", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData::GlobalNamespace__CoreGameHUDController__InitData(bool hide, bool showEnergyPanel, bool advancedHUD)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CoreGameHUDController__InitData>(hide, showEnergyPanel, advancedHUD))) {}
+ GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData::New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD)  {
+GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData>(hide, showEnergyPanel, advancedHUD))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData::_ctor(bool hide, bool showEnergyPanel, bool advancedHUD)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData>::get(),
@@ -252,8 +255,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, initData);
 }
-// Ctor Parameters []
- GlobalNamespace::CoreGameHUDController::CoreGameHUDController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CoreGameHUDController>())) {}
+ GlobalNamespace::CoreGameHUDController GlobalNamespace::CoreGameHUDController::New_ctor()  {
+GlobalNamespace::CoreGameHUDController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CoreGameHUDController>())};
+return o;
+}
  void GlobalNamespace::CoreGameHUDController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CoreGameHUDController>::get(),

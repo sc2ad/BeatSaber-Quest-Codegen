@@ -1,22 +1,22 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 namespace UnityEngine::UIElements {
-class EventDispatcher;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+class FocusController;
 }
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-struct ContextType;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class FocusController;
+class EventDispatcher;
+}
+namespace UnityEngine::UIElements {
+struct ContextType;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

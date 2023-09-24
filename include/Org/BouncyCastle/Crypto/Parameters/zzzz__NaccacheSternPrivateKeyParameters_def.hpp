@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__NaccacheSternKeyParameters_def.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace System::Collections {
 class ArrayList;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace System::Collections {
 class IList;
@@ -81,14 +81,12 @@ constexpr System::Collections::IList __get_smallPrimes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "lowerSigmaBound", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "smallPrimes", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "phiN", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit NaccacheSternPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::ArrayList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN) ;
+static Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::ArrayList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN) ;
 
 /// @brief Method .ctor addr 0xeaac60 size 0x54 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::ArrayList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN) ;
 
-// Ctor Parameters [CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "lowerSigmaBound", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "smallPrimes", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "phiN", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit NaccacheSternPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::IList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN) ;
+static Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::IList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN) ;
 
 /// @brief Method .ctor addr 0xeaacb4 size 0x54 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::IList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN) ;

@@ -6,27 +6,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
 namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
-}
-namespace BeatmapSaveDataVersion3 {
-class BeatmapSaveData;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace System {
-class Action;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class GlobalNamespace__BeatmapDataSO____c__DisplayClass5_0;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -34,19 +15,62 @@ struct BeatmapDifficulty;
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
-namespace System::Runtime::CompilerServices {
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapDataSO____c__DisplayClass2_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapDataSO____c__DisplayClass1_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapDataSO___LoadBeatmapSaveDataAsync_d__5;
+}
+namespace BeatmapSaveDataVersion3 {
+class BeatmapSaveData;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapDataSO___GetBeatmapDataAsync_d__2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapDataSO____c__DisplayClass6_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapDataSO___RunTaskAndLogException_d__6;
+}
+namespace System::Threading::Tasks {
 template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+class Task_1;
+}
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapDataSO___GetBeatmapDataBasicInfoAsync_d__1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -136,8 +160,7 @@ constexpr BeatmapSaveDataVersion3::BeatmapSaveData __get_beatmapSaveData() const
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapDataSO____c__DisplayClass1_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapDataSO____c__DisplayClass1_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21cb00c size 0x8 virtual false final false
  void _ctor() ;
@@ -331,8 +354,7 @@ constexpr GlobalNamespace::PlayerSpecificSettings __get_playerSpecificSettings()
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapDataSO____c__DisplayClass2_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapDataSO____c__DisplayClass2_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21cb69c size 0x8 virtual false final false
  void _ctor() ;
@@ -526,8 +548,7 @@ constexpr GlobalNamespace::BeatmapDataSO __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapDataSO____c__DisplayClass5_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapDataSO____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21cbc4c size 0x8 virtual false final false
  void _ctor() ;
@@ -679,8 +700,7 @@ constexpr System::Action __get_action() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapDataSO____c__DisplayClass6_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapDataSO____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21cbf70 size 0x8 virtual false final false
  void _ctor() ;
@@ -863,8 +883,7 @@ constexpr GlobalNamespace::IBeatmapDataBasicInfo __get__beatmapDataBasic() const
 /// @brief Method RunTaskAndLogException addr 0x21caf3c size 0xc8 virtual false final false
  System::Threading::Tasks::Task RunTaskAndLogException(System::Action action) ;
 
-// Ctor Parameters []
-explicit BeatmapDataSO() ;
+static GlobalNamespace::BeatmapDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21cb004 size 0x8 virtual false final false
  void _ctor() ;

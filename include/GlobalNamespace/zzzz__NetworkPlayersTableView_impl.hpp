@@ -3,14 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersTableView_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
-#include "HMUI/zzzz__TableCell_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkPlayersTableView_def.hpp"
+#include "HMUI/zzzz__TableView_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerTableCell_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkPlayerOptionsTableCell_def.hpp"
 #include "GlobalNamespace/zzzz__LevelPackHeaderTableCell_def.hpp"
+#include "HMUI/zzzz__TableCell_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkPlayerOptionsTableCell_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellInfo__CellType::GlobalNamespace__NetworkPlayersTableView__CellInfo__CellType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -64,8 +64,10 @@ constexpr void GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellIn
 constexpr bool GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellInfo::__get_lastCellInParty() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellInfo::GlobalNamespace__NetworkPlayersTableView__CellInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__NetworkPlayersTableView__CellInfo>())) {}
+ GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellInfo GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellInfo::New_ctor()  {
+GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellInfo o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellInfo>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellInfo>::get(),
@@ -332,8 +334,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, player);
 }
-// Ctor Parameters []
- GlobalNamespace::NetworkPlayersTableView::NetworkPlayersTableView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NetworkPlayersTableView>())) {}
+ GlobalNamespace::NetworkPlayersTableView GlobalNamespace::NetworkPlayersTableView::New_ctor()  {
+GlobalNamespace::NetworkPlayersTableView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NetworkPlayersTableView>())};
+return o;
+}
  void GlobalNamespace::NetworkPlayersTableView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NetworkPlayersTableView>::get(),

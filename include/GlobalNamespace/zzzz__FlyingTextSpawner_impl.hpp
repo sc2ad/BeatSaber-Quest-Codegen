@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingTextSpawner_def.hpp"
-#include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingTextEffect_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingTextEffect_def.hpp"
+#include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FlyingTextSpawner.SpawnText
 template<>
 
@@ -128,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, flyingObjectEffect);
 }
-// Ctor Parameters []
- GlobalNamespace::FlyingTextSpawner::FlyingTextSpawner()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FlyingTextSpawner>())) {}
+ GlobalNamespace::FlyingTextSpawner GlobalNamespace::FlyingTextSpawner::New_ctor()  {
+GlobalNamespace::FlyingTextSpawner o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FlyingTextSpawner>())};
+return o;
+}
  void GlobalNamespace::FlyingTextSpawner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FlyingTextSpawner>::get(),

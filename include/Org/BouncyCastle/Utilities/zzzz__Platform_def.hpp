@@ -3,29 +3,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IDictionary;
+namespace System::Globalization {
+class CompareInfo;
 }
 namespace System::Collections {
-class IEnumerable;
+class IDictionary;
 }
 namespace System {
 class Exception;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
 }
-namespace System::Globalization {
-class CompareInfo;
+namespace System::IO {
+class Stream;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System::IO {
 class TextWriter;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities {
@@ -148,8 +148,7 @@ static bool EndsWith(::StringW source, ::StringW suffix) ;
 /// @brief Method GetTypeName addr 0x10e346c size 0x2c virtual false final false
 static ::StringW GetTypeName(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit Platform() ;
+static Org::BouncyCastle::Utilities::Platform New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e3534 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,15 +1,16 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/Xml/Linq/zzzz__XContainer_def.hpp"
+#include "System/Xml/Linq/zzzz__XNode_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Xml/Linq/zzzz__XNode_def.hpp"
+#include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
+#include "System/Xml/Linq/zzzz__XContainer_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
-#include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18._ctor
 template<>
 
@@ -196,8 +197,10 @@ constexpr void System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18::_
 constexpr System::Xml::Linq::XNode System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18::__get__n_5__2() const {
 return ::cordl_internals::getInstanceField<System::Xml::Linq::XNode, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18::System__Xml__Linq__XContainer___Nodes_d__18(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__Linq__XContainer___Nodes_d__18>(__1__state))) {}
+ System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18 System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18::New_ctor(int32_t __1__state)  {
+System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18 o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18>(__1__state))};
+return o;
+}
  void System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18>::get(),
@@ -667,8 +670,10 @@ constexpr void System::Xml::Linq::XContainer::__set_content(::bs_hook::Il2CppWra
 constexpr ::bs_hook::Il2CppWrapperType System::Xml::Linq::XContainer::__get_content() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Linq::XContainer::XContainer()  : System::Xml::Linq::XNode(THROW_UNLESS(::il2cpp_utils::New<XContainer>())) {}
+ System::Xml::Linq::XContainer System::Xml::Linq::XContainer::New_ctor()  {
+System::Xml::Linq::XContainer o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XContainer>())};
+return o;
+}
  void System::Xml::Linq::XContainer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XContainer>::get(),
@@ -678,8 +683,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XContainer", modifiers: "", def_value: None }]
- System::Xml::Linq::XContainer::XContainer(System::Xml::Linq::XContainer other)  : System::Xml::Linq::XNode(THROW_UNLESS(::il2cpp_utils::New<XContainer>(other))) {}
+ System::Xml::Linq::XContainer System::Xml::Linq::XContainer::New_ctor(System::Xml::Linq::XContainer other)  {
+System::Xml::Linq::XContainer o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XContainer>(other))};
+return o;
+}
  void System::Xml::Linq::XContainer::_ctor(System::Xml::Linq::XContainer other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XContainer>::get(),

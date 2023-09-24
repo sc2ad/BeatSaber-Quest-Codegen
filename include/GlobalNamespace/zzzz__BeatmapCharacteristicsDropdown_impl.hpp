@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicsDropdown_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicsDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c._ctor
 template<>
@@ -53,8 +54,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Beatm
  System::Func_2<GlobalNamespace::BeatmapCharacteristicSO,::StringW> GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c::__get___9__5_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::BeatmapCharacteristicSO,::StringW>, "<>9__5_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c::GlobalNamespace__BeatmapCharacteristicsDropdown____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapCharacteristicsDropdown____c>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c>::get(),
@@ -290,8 +293,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dropdownWithTableView, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapCharacteristicsDropdown::BeatmapCharacteristicsDropdown()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatmapCharacteristicsDropdown>())) {}
+ GlobalNamespace::BeatmapCharacteristicsDropdown GlobalNamespace::BeatmapCharacteristicsDropdown::New_ctor()  {
+GlobalNamespace::BeatmapCharacteristicsDropdown o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapCharacteristicsDropdown>())};
+return o;
+}
  void GlobalNamespace::BeatmapCharacteristicsDropdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapCharacteristicsDropdown>::get(),

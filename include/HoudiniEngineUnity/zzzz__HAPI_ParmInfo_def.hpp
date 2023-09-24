@@ -10,19 +10,19 @@ namespace HoudiniEngineUnity {
 struct HAPI_ParmType;
 }
 namespace HoudiniEngineUnity {
+struct HAPI_NodeType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PrmScriptType;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_ChoiceListType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_RampType;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeType;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_NodeFlags;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PrmScriptType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

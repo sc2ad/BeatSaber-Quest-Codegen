@@ -1,10 +1,10 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
 namespace System {
 class MarshalByRefObject;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {

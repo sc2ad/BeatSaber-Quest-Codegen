@@ -1,22 +1,22 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterSpawnEventEffect_def.hpp"
-#include "GlobalNamespace/zzzz__BTSCharacterDataModel_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentContext_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacterDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BTSCharacterSpawnEventEffect.add_startCharacterAnimationEvent
 template<>
 
@@ -353,8 +353,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Tuple_2<GlobalNamespace::BTSCharacter,UnityEngine::AnimationClip>, false>(nullptr, ___internal_method, charDictionary, animDictionary, prefabId, animationId);
 }
-// Ctor Parameters []
- GlobalNamespace::BTSCharacterSpawnEventEffect::BTSCharacterSpawnEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BTSCharacterSpawnEventEffect>())) {}
+ GlobalNamespace::BTSCharacterSpawnEventEffect GlobalNamespace::BTSCharacterSpawnEventEffect::New_ctor()  {
+GlobalNamespace::BTSCharacterSpawnEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BTSCharacterSpawnEventEffect>())};
+return o;
+}
  void GlobalNamespace::BTSCharacterSpawnEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BTSCharacterSpawnEventEffect>::get(),

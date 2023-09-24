@@ -2,8 +2,9 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRDisplay_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__OVRDisplay_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "UpFov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "DownFov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LeftFov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "RightFov", ty: "float_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRDisplay__EyeFov::GlobalNamespace__OVRDisplay__EyeFov(float_t UpFov, float_t DownFov, float_t LeftFov, float_t RightFov) noexcept : ::bs_hook::ValueTypeWrapper() {this->UpFov = UpFov;
@@ -437,8 +438,10 @@ constexpr void GlobalNamespace::OVRDisplay::__set_RecenteredPose(System::Action 
 constexpr System::Action GlobalNamespace::OVRDisplay::__get_RecenteredPose() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRDisplay::OVRDisplay()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRDisplay>())) {}
+ GlobalNamespace::OVRDisplay GlobalNamespace::OVRDisplay::New_ctor()  {
+GlobalNamespace::OVRDisplay o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRDisplay>())};
+return o;
+}
  void GlobalNamespace::OVRDisplay::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRDisplay>::get(),

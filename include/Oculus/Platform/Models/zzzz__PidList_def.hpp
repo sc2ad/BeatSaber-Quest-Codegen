@@ -10,7 +10,7 @@ class PidList;
 // Type: Oculus.Platform.Models::PidList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1145 }), TypeDefinitionIndex(TypeDefinitionIndex(13459))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1145 }), TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13459))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13460))
 // CS Name: Oculus.Platform.Models.PidList
 class CORDL_TYPE PidList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Pid> {
@@ -49,8 +49,7 @@ constexpr explicit PidList(void* ptr) noexcept : Oculus::Platform::Models::Deser
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit PidList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::PidList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x25a2058 size 0x23c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

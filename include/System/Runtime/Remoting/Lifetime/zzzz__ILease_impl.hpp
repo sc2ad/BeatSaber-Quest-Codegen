@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__LeaseState_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Lifetime::ILease.get_CurrentLeaseTime
 template<>
 

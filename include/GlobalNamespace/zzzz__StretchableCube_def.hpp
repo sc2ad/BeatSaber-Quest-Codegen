@@ -8,10 +8,10 @@ namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -200,8 +200,7 @@ constexpr UnityEngine::Mesh __get__mesh() const;
 /// @brief Method RefreshUVs addr 0x2246674 size 0x94 virtual false final false
  void RefreshUVs() ;
 
-// Ctor Parameters []
-explicit StretchableCube() ;
+static GlobalNamespace::StretchableCube New_ctor() ;
 
 /// @brief Method .ctor addr 0x2246708 size 0x8 virtual false final false
  void _ctor() ;

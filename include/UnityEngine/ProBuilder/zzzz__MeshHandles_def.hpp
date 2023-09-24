@@ -3,18 +3,31 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct Vector4;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine {
+class Mesh;
+}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__MeshHandles____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -23,26 +36,16 @@ class List_1;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
 namespace UnityEngine {
-class Mesh;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+struct Vector4;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -114,8 +117,7 @@ static System::Func_2<UnityEngine::ProBuilder::Face,System::Collections::Generic
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshHandles____c() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshHandles____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x29bc048 size 0x8 virtual false final false
  void _ctor() ;

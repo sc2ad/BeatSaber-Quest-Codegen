@@ -7,22 +7,22 @@ namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Net {
 class IPAddress;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::ObjectModel {
 template<typename T>
@@ -99,8 +99,7 @@ constexpr System::Collections::ObjectModel::Collection_1<System::Net::IPAddress>
 
 // Methods
 
-// Ctor Parameters []
-explicit IPAddressCollection() ;
+static System::Net::NetworkInformation::IPAddressCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x2858c58 size 0x7c virtual false final false
  void _ctor() ;

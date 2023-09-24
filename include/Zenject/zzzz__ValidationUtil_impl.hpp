@@ -1,10 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__ValidationUtil_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__ValidationUtil_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__ValidationUtil____c._ctor
 template<>
 
@@ -85,8 +86,10 @@ return ::cordl_internals::getStaticField<Zenject::Zenject__ValidationUtil____c, 
  System::Func_2<System::Type,Zenject::TypeValuePair> Zenject::Zenject__ValidationUtil____c::__get___9__0_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Type,Zenject::TypeValuePair>, "<>9__0_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ValidationUtil____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__ValidationUtil____c::Zenject__ValidationUtil____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ValidationUtil____c>())) {}
+ Zenject::Zenject__ValidationUtil____c Zenject::Zenject__ValidationUtil____c::New_ctor()  {
+Zenject::Zenject__ValidationUtil____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ValidationUtil____c>())};
+return o;
+}
  void Zenject::Zenject__ValidationUtil____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ValidationUtil____c>::get(),

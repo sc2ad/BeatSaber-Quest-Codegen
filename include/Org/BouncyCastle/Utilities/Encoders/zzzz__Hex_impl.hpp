@@ -212,8 +212,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
  Org::BouncyCastle::Utilities::Encoders::HexEncoder Org::BouncyCastle::Utilities::Encoders::Hex::__get_encoder()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Utilities::Encoders::HexEncoder, "encoder", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Encoders::Hex>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Encoders::Hex::Hex()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Hex>())) {}
+ Org::BouncyCastle::Utilities::Encoders::Hex Org::BouncyCastle::Utilities::Encoders::Hex::New_ctor()  {
+Org::BouncyCastle::Utilities::Encoders::Hex o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Encoders::Hex>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Encoders::Hex::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Encoders::Hex>::get(),

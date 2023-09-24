@@ -75,14 +75,12 @@ constexpr Org::BouncyCastle::Crypto::ICipherParameters __get_parameters() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ParametersWithSalt(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt) ;
+static Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt) ;
 
 /// @brief Method .ctor addr 0xeab16c size 0x1c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt) ;
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "saltOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ParametersWithSalt(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt, int32_t saltOff, int32_t saltLen) ;
+static Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt, int32_t saltOff, int32_t saltLen) ;
 
 /// @brief Method .ctor addr 0xeab188 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt, int32_t saltOff, int32_t saltLen) ;

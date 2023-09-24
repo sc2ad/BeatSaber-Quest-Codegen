@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::Remoting::FormatterData::FormatterData()  : System::Runtime::Remoting::ProviderData(THROW_UNLESS(::il2cpp_utils::New<FormatterData>())) {}
+ System::Runtime::Remoting::FormatterData System::Runtime::Remoting::FormatterData::New_ctor()  {
+System::Runtime::Remoting::FormatterData o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::FormatterData>())};
+return o;
+}
  void System::Runtime::Remoting::FormatterData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::FormatterData>::get(),

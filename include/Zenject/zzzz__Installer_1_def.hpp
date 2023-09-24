@@ -64,8 +64,7 @@ constexpr explicit Installer_1(void* ptr) noexcept : Zenject::InstallerBase(ptr)
 /// @brief Method Install addr 0x0 size 0xffffffffffffffff virtual false final false
 static void Install(Zenject::DiContainer container) ;
 
-// Ctor Parameters []
-explicit Installer_1() ;
+static Zenject::Installer_1<TDerived> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

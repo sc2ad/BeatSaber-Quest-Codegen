@@ -5,18 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Text {
-class Encoding;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
 namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
+}
+namespace System::Text {
+class Encoding;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -86,8 +86,7 @@ constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
 /// @brief Method Release addr 0x2d36e40 size 0x3c virtual false final false
  void Release() ;
 
-// Ctor Parameters []
-explicit DownloadHandler() ;
+static UnityEngine::Networking::DownloadHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d36e7c size 0x8 virtual false final false
  void _ctor() ;

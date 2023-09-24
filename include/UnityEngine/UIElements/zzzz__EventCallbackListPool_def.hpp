@@ -69,8 +69,7 @@ constexpr System::Collections::Generic::Stack_1<UnityEngine::UIElements::EventCa
 /// @brief Method Release addr 0x2cd3d70 size 0x64 virtual false final false
  void Release(UnityEngine::UIElements::EventCallbackList element) ;
 
-// Ctor Parameters []
-explicit EventCallbackListPool() ;
+static UnityEngine::UIElements::EventCallbackListPool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd3e40 size 0x7c virtual false final false
  void _ctor() ;

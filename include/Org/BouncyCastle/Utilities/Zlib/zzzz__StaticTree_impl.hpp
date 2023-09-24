@@ -77,8 +77,10 @@ constexpr void Org::BouncyCastle::Utilities::Zlib::StaticTree::__set_max_length(
 constexpr int32_t Org::BouncyCastle::Utilities::Zlib::StaticTree::__get_max_length() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "static_tree", ty: "::ArrayW<int16_t>", modifiers: "", def_value: None }, CppParam { name: "extra_bits", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "extra_base", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elems", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max_length", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Zlib::StaticTree::StaticTree(::ArrayW<int16_t> static_tree, ::ArrayW<int32_t> extra_bits, int32_t extra_base, int32_t elems, int32_t max_length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StaticTree>(static_tree, extra_bits, extra_base, elems, max_length))) {}
+ Org::BouncyCastle::Utilities::Zlib::StaticTree Org::BouncyCastle::Utilities::Zlib::StaticTree::New_ctor(::ArrayW<int16_t> static_tree, ::ArrayW<int32_t> extra_bits, int32_t extra_base, int32_t elems, int32_t max_length)  {
+Org::BouncyCastle::Utilities::Zlib::StaticTree o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::StaticTree>(static_tree, extra_bits, extra_base, elems, max_length))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::StaticTree::_ctor(::ArrayW<int16_t> static_tree, ::ArrayW<int32_t> extra_bits, int32_t extra_base, int32_t elems, int32_t max_length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::StaticTree>::get(),

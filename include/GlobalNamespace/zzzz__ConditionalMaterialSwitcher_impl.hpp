@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ConditionalMaterialSwitcher_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ConditionalMaterialSwitcher.Awake
 template<>
 
@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ConditionalMaterialSwitcher::ConditionalMaterialSwitcher()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ConditionalMaterialSwitcher>())) {}
+ GlobalNamespace::ConditionalMaterialSwitcher GlobalNamespace::ConditionalMaterialSwitcher::New_ctor()  {
+GlobalNamespace::ConditionalMaterialSwitcher o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ConditionalMaterialSwitcher>())};
+return o;
+}
  void GlobalNamespace::ConditionalMaterialSwitcher::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ConditionalMaterialSwitcher>::get(),

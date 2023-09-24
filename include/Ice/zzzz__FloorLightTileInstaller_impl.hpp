@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Ice::FloorLightTileInstaller::FloorLightTileInstaller()  : Zenject::ScriptableObjectInstaller(THROW_UNLESS(::il2cpp_utils::New<FloorLightTileInstaller>())) {}
+ Ice::FloorLightTileInstaller Ice::FloorLightTileInstaller::New_ctor()  {
+Ice::FloorLightTileInstaller o{THROW_UNLESS(::il2cpp_utils::New<Ice::FloorLightTileInstaller>())};
+return o;
+}
  void Ice::FloorLightTileInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Ice::FloorLightTileInstaller>::get(),

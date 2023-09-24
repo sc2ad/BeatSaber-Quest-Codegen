@@ -49,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRating(float_t time)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapObjectExecutionRating>(time))) {}
+ GlobalNamespace::BeatmapObjectExecutionRating GlobalNamespace::BeatmapObjectExecutionRating::New_ctor(float_t time)  {
+GlobalNamespace::BeatmapObjectExecutionRating o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapObjectExecutionRating>(time))};
+return o;
+}
  void GlobalNamespace::BeatmapObjectExecutionRating::_ctor(float_t time)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapObjectExecutionRating>::get(),

@@ -2,8 +2,8 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "OVR/OpenVR/zzzz__TrackedDevicePose_t_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdMatrix34_t_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdVector3_t_def.hpp"
 #include "OVR/OpenVR/zzzz__ETrackingResult_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdVector3_t_def.hpp"
 // Ctor Parameters [CppParam { name: "mDeviceToAbsoluteTracking", ty: "OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vVelocity", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vAngularVelocity", ty: "OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "eTrackingResult", ty: "OVR::OpenVR::ETrackingResult", modifiers: "", def_value: Some("{}") }, CppParam { name: "bPoseIsValid", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "bDeviceIsConnected", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr OVR::OpenVR::TrackedDevicePose_t::TrackedDevicePose_t(OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking, OVR::OpenVR::HmdVector3_t vVelocity, OVR::OpenVR::HmdVector3_t vAngularVelocity, OVR::OpenVR::ETrackingResult eTrackingResult, bool bPoseIsValid, bool bDeviceIsConnected) noexcept : ::bs_hook::ValueTypeWrapper() {this->mDeviceToAbsoluteTracking = mDeviceToAbsoluteTracking;
 this->vVelocity = vVelocity;

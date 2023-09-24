@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -11,15 +14,8 @@ class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Controller;
 }
 namespace GlobalNamespace {
 struct OVRGLTFInputNode;
@@ -27,11 +23,18 @@ struct OVRGLTFInputNode;
 namespace GlobalNamespace {
 class OVRGLTFAnimatinonNode;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16;
+}
 namespace UnityEngine {
 class Shader;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRInput__Controller;
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +122,7 @@ constexpr GlobalNamespace::OVRRuntimeController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x262ff28 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -287,8 +289,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInp
 /// @brief Method InputFocusLost addr 0x262ff5c size 0x8 virtual false final false
  void InputFocusLost() ;
 
-// Ctor Parameters []
-explicit OVRRuntimeController() ;
+static GlobalNamespace::OVRRuntimeController New_ctor() ;
 
 /// @brief Method .ctor addr 0x262ff64 size 0x10 virtual false final false
  void _ctor() ;

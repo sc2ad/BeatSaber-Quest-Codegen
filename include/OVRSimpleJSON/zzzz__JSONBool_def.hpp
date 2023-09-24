@@ -4,8 +4,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace OVRSimpleJSON {
-struct JSONTextMode;
+namespace System::Text {
+class StringBuilder;
 }
 namespace OVRSimpleJSON {
 struct OVRSimpleJSON__JSONNode__Enumerator;
@@ -13,8 +13,8 @@ struct OVRSimpleJSON__JSONNode__Enumerator;
 namespace OVRSimpleJSON {
 struct JSONNodeType;
 }
-namespace System::Text {
-class StringBuilder;
+namespace OVRSimpleJSON {
+struct JSONTextMode;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {
@@ -103,14 +103,12 @@ constexpr bool __get_m_Data() const;
 /// @brief Method set_AsBool addr 0x2640978 size 0xc virtual true final false
  void set_AsBool(bool value) ;
 
-// Ctor Parameters [CppParam { name: "aData", ty: "bool", modifiers: "", def_value: None }]
-explicit JSONBool(bool aData) ;
+static OVRSimpleJSON::JSONBool New_ctor(bool aData) ;
 
 /// @brief Method .ctor addr 0x2640984 size 0x28 virtual false final false
  void _ctor(bool aData) ;
 
-// Ctor Parameters [CppParam { name: "aData", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JSONBool(::StringW aData) ;
+static OVRSimpleJSON::JSONBool New_ctor(::StringW aData) ;
 
 /// @brief Method .ctor addr 0x26409ac size 0x34 virtual false final false
  void _ctor(::StringW aData) ;

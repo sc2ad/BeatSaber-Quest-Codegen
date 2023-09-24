@@ -82,8 +82,7 @@ constexpr char16_t __get__cReplacement() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit InternalDecoderBestFitFallback(System::Text::Encoding encoding) ;
+static System::Text::InternalDecoderBestFitFallback New_ctor(System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x24c25c4 size 0x30 virtual false final false
  void _ctor(System::Text::Encoding encoding) ;

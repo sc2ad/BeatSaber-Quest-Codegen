@@ -5,68 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerStack;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberReference;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ParseRecord;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectNull;
-}
 namespace System {
 struct Decimal;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SizedArray;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryCrossAppDomainString;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MessageEnd;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMapTyped;
-}
-namespace System::IO {
-class BinaryReader;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObject;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMap;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectReader;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveUnTyped;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
-}
-namespace System::IO {
-class Stream;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class MemberPrimitiveTyped;
@@ -75,10 +15,70 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectProgress;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryTypeEnum;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObject;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryHeaderEnum;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryObjectString;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
+struct InternalPrimitiveTypeE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectNull;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ParseRecord;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMap;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MessageEnd;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerStack;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberPrimitiveUnTyped;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberReference;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SizedArray;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryCrossAppDomainString;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryAssemblyInfo;
+}
+namespace System::IO {
+class BinaryReader;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectReader;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMapTyped;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -290,8 +290,7 @@ static System::Runtime::Serialization::Formatters::Binary::MessageEnd __get_mess
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "objectReader", ty: "System::Runtime::Serialization::Formatters::Binary::ObjectReader", modifiers: "", def_value: None }]
-explicit __BinaryParser(System::IO::Stream stream, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader) ;
+static System::Runtime::Serialization::Formatters::Binary::__BinaryParser New_ctor(System::IO::Stream stream, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader) ;
 
 /// @brief Method .ctor addr 0x2365c04 size 0x10c virtual false final false
  void _ctor(System::IO::Stream stream, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader) ;

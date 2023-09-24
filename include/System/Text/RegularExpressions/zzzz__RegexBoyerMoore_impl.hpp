@@ -123,8 +123,10 @@ constexpr void System::Text::RegularExpressions::RegexBoyerMoore::__set__culture
 constexpr System::Globalization::CultureInfo System::Text::RegularExpressions::RegexBoyerMoore::__get__culture() const {
 return ::cordl_internals::getInstanceField<System::Globalization::CultureInfo, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "caseInsensitive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rightToLeft", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexBoyerMoore::RegexBoyerMoore(::StringW pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo culture)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexBoyerMoore>(pattern, caseInsensitive, rightToLeft, culture))) {}
+ System::Text::RegularExpressions::RegexBoyerMoore System::Text::RegularExpressions::RegexBoyerMoore::New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo culture)  {
+System::Text::RegularExpressions::RegexBoyerMoore o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexBoyerMoore>(pattern, caseInsensitive, rightToLeft, culture))};
+return o;
+}
  void System::Text::RegularExpressions::RegexBoyerMoore::_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo culture)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexBoyerMoore>::get(),

@@ -216,8 +216,10 @@ return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "ipTab", ::il2cpp_u
  ::ArrayW<uint32_t> System::Security::Cryptography::DESTransform::__get_fpTab()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "fpTab", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DESTransform>::get>();
 }
-// Ctor Parameters [CppParam { name: "symmAlgo", ty: "System::Security::Cryptography::SymmetricAlgorithm", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::DESTransform::DESTransform(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  : Mono::Security::Cryptography::SymmetricTransform(THROW_UNLESS(::il2cpp_utils::New<DESTransform>(symmAlgo, encryption, key, iv))) {}
+ System::Security::Cryptography::DESTransform System::Security::Cryptography::DESTransform::New_ctor(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  {
+System::Security::Cryptography::DESTransform o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DESTransform>(symmAlgo, encryption, key, iv))};
+return o;
+}
  void System::Security::Cryptography::DESTransform::_ctor(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DESTransform>::get(),

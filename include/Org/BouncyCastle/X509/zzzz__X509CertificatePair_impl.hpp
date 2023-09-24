@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509CertificatePair_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__CertificatePair_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::X509CertificatePair._ctor
 template<>
 
@@ -133,8 +133,10 @@ constexpr void Org::BouncyCastle::X509::X509CertificatePair::__set_reverse(Org::
 constexpr Org::BouncyCastle::X509::X509Certificate Org::BouncyCastle::X509::X509CertificatePair::__get_reverse() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::X509::X509Certificate, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "forward", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "reverse", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::X509CertificatePair::X509CertificatePair(Org::BouncyCastle::X509::X509Certificate forward, Org::BouncyCastle::X509::X509Certificate reverse)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CertificatePair>(forward, reverse))) {}
+ Org::BouncyCastle::X509::X509CertificatePair Org::BouncyCastle::X509::X509CertificatePair::New_ctor(Org::BouncyCastle::X509::X509Certificate forward, Org::BouncyCastle::X509::X509Certificate reverse)  {
+Org::BouncyCastle::X509::X509CertificatePair o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509CertificatePair>(forward, reverse))};
+return o;
+}
  void Org::BouncyCastle::X509::X509CertificatePair::_ctor(Org::BouncyCastle::X509::X509Certificate forward, Org::BouncyCastle::X509::X509Certificate reverse)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509CertificatePair>::get(),
@@ -144,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, forward, reverse);
 }
-// Ctor Parameters [CppParam { name: "pair", ty: "Org::BouncyCastle::Asn1::X509::CertificatePair", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::X509CertificatePair::X509CertificatePair(Org::BouncyCastle::Asn1::X509::CertificatePair pair)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CertificatePair>(pair))) {}
+ Org::BouncyCastle::X509::X509CertificatePair Org::BouncyCastle::X509::X509CertificatePair::New_ctor(Org::BouncyCastle::Asn1::X509::CertificatePair pair)  {
+Org::BouncyCastle::X509::X509CertificatePair o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509CertificatePair>(pair))};
+return o;
+}
  void Org::BouncyCastle::X509::X509CertificatePair::_ctor(Org::BouncyCastle::Asn1::X509::CertificatePair pair)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509CertificatePair>::get(),

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_short_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_byte_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
+#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::Datatype_byte.get_FacetsChecker
 template<>
 
@@ -198,8 +198,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Exception, false>(const_cast<void*>(instance), ___internal_method, s, nameTable, nsmgr, typedValue);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_byte::Datatype_byte()  : System::Xml::Schema::Datatype_short(THROW_UNLESS(::il2cpp_utils::New<Datatype_byte>())) {}
+ System::Xml::Schema::Datatype_byte System::Xml::Schema::Datatype_byte::New_ctor()  {
+System::Xml::Schema::Datatype_byte o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_byte>())};
+return o;
+}
  void System::Xml::Schema::Datatype_byte::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_byte>::get(),

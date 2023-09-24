@@ -84,8 +84,7 @@ constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_privateKey() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "publicKeyPacket", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit PgpPrivateKey(int64_t keyID, Org::BouncyCastle::Bcpg::PublicKeyPacket publicKeyPacket, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey New_ctor(int64_t keyID, Org::BouncyCastle::Bcpg::PublicKeyPacket publicKeyPacket, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;
 
 /// @brief Method .ctor addr 0x1021c48 size 0xac virtual false final false
  void _ctor(int64_t keyID, Org::BouncyCastle::Bcpg::PublicKeyPacket publicKeyPacket, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;

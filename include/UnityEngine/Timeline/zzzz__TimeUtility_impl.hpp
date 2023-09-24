@@ -1,9 +1,10 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__TimeUtility_def.hpp"
-#include "UnityEngine/Timeline/zzzz__StandardFrameRates_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameRate_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimeUtility_def.hpp"
+#include "UnityEngine/Timeline/zzzz__StandardFrameRates_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c._ctor
 template<>
 
@@ -96,8 +97,10 @@ return ::cordl_internals::getStaticField<System::Func_2<char16_t,bool>, "<>9__15
  System::Func_2<char16_t,bool> UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c::__get___9__16_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<char16_t,bool>, "<>9__16_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c::UnityEngine__Timeline__TimeUtility____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__TimeUtility____c>())) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c::New_ctor()  {
+UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c>())};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c>::get(),

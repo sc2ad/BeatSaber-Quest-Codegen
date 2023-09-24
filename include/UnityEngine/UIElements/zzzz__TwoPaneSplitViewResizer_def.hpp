@@ -4,7 +4,13 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::UIElements {
+struct TwoPaneSplitViewOrientation;
+}
+namespace UnityEngine::UIElements {
 class TwoPaneSplitView;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -13,16 +19,10 @@ namespace UnityEngine::UIElements {
 class PointerDownEvent;
 }
 namespace UnityEngine::UIElements {
-struct TwoPaneSplitViewOrientation;
+class PointerMoveEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerUpEvent;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::UIElements {
-class PointerMoveEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -126,8 +126,7 @@ constexpr UnityEngine::UIElements::TwoPaneSplitViewOrientation __get_m_Orientati
 /// @brief Method get_flexedPaneMinDimension addr 0x2cc3840 size 0x114 virtual false final false
  float_t get_flexedPaneMinDimension() ;
 
-// Ctor Parameters [CppParam { name: "splitView", ty: "UnityEngine::UIElements::TwoPaneSplitView", modifiers: "", def_value: None }, CppParam { name: "dir", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "UnityEngine::UIElements::TwoPaneSplitViewOrientation", modifiers: "", def_value: None }]
-explicit TwoPaneSplitViewResizer(UnityEngine::UIElements::TwoPaneSplitView splitView, int32_t dir, UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation) ;
+static UnityEngine::UIElements::TwoPaneSplitViewResizer New_ctor(UnityEngine::UIElements::TwoPaneSplitView splitView, int32_t dir, UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation) ;
 
 /// @brief Method .ctor addr 0x2cc3954 size 0xd8 virtual false final false
  void _ctor(UnityEngine::UIElements::TwoPaneSplitView splitView, int32_t dir, UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation) ;

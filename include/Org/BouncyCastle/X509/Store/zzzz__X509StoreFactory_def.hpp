@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
-namespace Org::BouncyCastle::X509::Store {
 class IX509StoreParameters;
-}
-namespace System {
-class Type;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -60,8 +60,7 @@ constexpr explicit X509StoreFactory(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Methods
 
-// Ctor Parameters []
-explicit X509StoreFactory() ;
+static Org::BouncyCastle::X509::Store::X509StoreFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e754c size 0x8 virtual false final false
  void _ctor() ;

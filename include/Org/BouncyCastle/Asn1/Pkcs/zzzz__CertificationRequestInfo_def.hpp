@@ -3,22 +3,22 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Set;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -107,14 +107,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_attributes() const;
 /// @brief Method GetInstance addr 0xef81c4 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "subject", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "pkInfo", ty: "Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit CertificationRequestInfo(Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo pkInfo, Org::BouncyCastle::Asn1::Asn1Set attributes) ;
+static Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo New_ctor(Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo pkInfo, Org::BouncyCastle::Asn1::Asn1Set attributes) ;
 
 /// @brief Method .ctor addr 0xef8614 size 0xfc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo pkInfo, Org::BouncyCastle::Asn1::Asn1Set attributes) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertificationRequestInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef83bc size 0x258 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

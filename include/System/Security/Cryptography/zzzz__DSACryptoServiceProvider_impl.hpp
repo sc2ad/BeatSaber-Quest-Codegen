@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__DSA_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DSACryptoServiceProvider_def.hpp"
-#include "Mono/Security/Cryptography/zzzz__DSAManaged_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
-#include "System/zzzz__EventArgs_def.hpp"
 #include "Mono/Security/Cryptography/zzzz__KeyPairPersistence_def.hpp"
+#include "System/zzzz__EventArgs_def.hpp"
+#include "Mono/Security/Cryptography/zzzz__DSAManaged_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::DSACryptoServiceProvider._ctor
 template<>
 
@@ -234,8 +234,10 @@ return ::cordl_internals::getInstanceField<Mono::Security::Cryptography::DSAMana
  bool System::Security::Cryptography::DSACryptoServiceProvider::__get_useMachineKeyStore()  {
 return ::cordl_internals::getStaticField<bool, "useMachineKeyStore", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DSACryptoServiceProvider>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::DSACryptoServiceProvider::DSACryptoServiceProvider()  : System::Security::Cryptography::DSA(THROW_UNLESS(::il2cpp_utils::New<DSACryptoServiceProvider>())) {}
+ System::Security::Cryptography::DSACryptoServiceProvider System::Security::Cryptography::DSACryptoServiceProvider::New_ctor()  {
+System::Security::Cryptography::DSACryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DSACryptoServiceProvider>())};
+return o;
+}
  void System::Security::Cryptography::DSACryptoServiceProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DSACryptoServiceProvider>::get(),
@@ -245,8 +247,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::Cryptography::DSACryptoServiceProvider::DSACryptoServiceProvider(int32_t dwKeySize)  : System::Security::Cryptography::DSA(THROW_UNLESS(::il2cpp_utils::New<DSACryptoServiceProvider>(dwKeySize))) {}
+ System::Security::Cryptography::DSACryptoServiceProvider System::Security::Cryptography::DSACryptoServiceProvider::New_ctor(int32_t dwKeySize)  {
+System::Security::Cryptography::DSACryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DSACryptoServiceProvider>(dwKeySize))};
+return o;
+}
  void System::Security::Cryptography::DSACryptoServiceProvider::_ctor(int32_t dwKeySize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DSACryptoServiceProvider>::get(),

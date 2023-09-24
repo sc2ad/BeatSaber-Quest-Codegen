@@ -68,8 +68,7 @@ constexpr UnityEngine::Color __get_m_Color() const;
 /// @brief Method get_color addr 0x2ac90f4 size 0xc virtual false final false
  UnityEngine::Color get_color() ;
 
-// Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "float_t", modifiers: "", def_value: None }]
-explicit TrackColorAttribute(float_t r, float_t g, float_t b) ;
+static UnityEngine::Timeline::TrackColorAttribute New_ctor(float_t r, float_t g, float_t b) ;
 
 /// @brief Method .ctor addr 0x2ac9100 size 0x44 virtual false final false
  void _ctor(float_t r, float_t g, float_t b) ;

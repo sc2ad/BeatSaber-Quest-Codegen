@@ -7,27 +7,33 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class RenderTexture;
+namespace GlobalNamespace {
+class BloomPrePassBackgroundNonLightRenderer;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
+class RenderTexture;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
+namespace UnityEngine {
+struct Vector4;
+}
 namespace GlobalNamespace {
-class BloomPrePassBackgroundNonLightRenderer;
+class GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +108,7 @@ constexpr int32_t __get_propertyId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty() ;
+static GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f93714 size 0x8 virtual false final false
  void _ctor() ;
@@ -163,6 +168,8 @@ __Matrix4x4 = 3,
 constexpr operator __GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -322,8 +329,7 @@ constexpr UnityEngine::MaterialPropertyBlock __get__reusableGetMaterialPropertyB
 /// @brief Method AutoFillRenderers addr 0x1f93534 size 0x50 virtual false final false
  void AutoFillRenderers() ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundNonLightInstancedGroupRenderer() ;
+static GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f93584 size 0x128 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__ContentDispositionHeaderValue_def.hpp"
+#include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::ContentDispositionHeaderValue._ctor
 template<>
 
@@ -156,8 +156,10 @@ constexpr void System::Net::Http::Headers::ContentDispositionHeaderValue::__set_
 constexpr System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue> System::Net::Http::Headers::ContentDispositionHeaderValue::__get_parameters() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::ContentDispositionHeaderValue::ContentDispositionHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ContentDispositionHeaderValue>())) {}
+ System::Net::Http::Headers::ContentDispositionHeaderValue System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor()  {
+System::Net::Http::Headers::ContentDispositionHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::ContentDispositionHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::ContentDispositionHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::ContentDispositionHeaderValue>::get(),
@@ -167,8 +169,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::ContentDispositionHeaderValue", modifiers: "", def_value: None }]
- System::Net::Http::Headers::ContentDispositionHeaderValue::ContentDispositionHeaderValue(System::Net::Http::Headers::ContentDispositionHeaderValue source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ContentDispositionHeaderValue>(source))) {}
+ System::Net::Http::Headers::ContentDispositionHeaderValue System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor(System::Net::Http::Headers::ContentDispositionHeaderValue source)  {
+System::Net::Http::Headers::ContentDispositionHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::ContentDispositionHeaderValue>(source))};
+return o;
+}
  void System::Net::Http::Headers::ContentDispositionHeaderValue::_ctor(System::Net::Http::Headers::ContentDispositionHeaderValue source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::ContentDispositionHeaderValue>::get(),

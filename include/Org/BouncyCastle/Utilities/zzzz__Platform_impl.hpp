@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/zzzz__Platform_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Platform.GetNewLine
 template<>
 
@@ -557,8 +557,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Platform::Platform()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Platform>())) {}
+ Org::BouncyCastle::Utilities::Platform Org::BouncyCastle::Utilities::Platform::New_ctor()  {
+Org::BouncyCastle::Utilities::Platform o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Platform>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Platform::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Platform>::get(),

@@ -4,7 +4,7 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class RenderTexture;
+class Shader;
 }
 namespace UnityEngine {
 class Material;
@@ -13,7 +13,7 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-class Shader;
+class RenderTexture;
 }
 namespace UnityEngine {
 struct Matrix4x4;
@@ -137,8 +137,7 @@ static bool __get__initialized() ;
 /// @brief Method Render addr 0x1f91f84 size 0xd4 virtual true final false
  void Render(UnityEngine::RenderTexture dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix) ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundColor() ;
+static GlobalNamespace::BloomPrePassBackgroundColor New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f92058 size 0x6c virtual false final false
  void _ctor() ;

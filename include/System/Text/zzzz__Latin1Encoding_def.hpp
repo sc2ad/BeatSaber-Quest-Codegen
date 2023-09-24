@@ -10,13 +10,13 @@ namespace System::Text {
 class EncoderNLS;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Text {
 class DecoderNLS;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Text {
@@ -82,14 +82,12 @@ static ::ArrayW<char16_t> __get_arrayCharBestFit() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Latin1Encoding() ;
+static System::Text::Latin1Encoding New_ctor() ;
 
 /// @brief Method .ctor addr 0x22cb5d8 size 0xc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit Latin1Encoding(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Text::Latin1Encoding New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x22cb5e4 size 0x4c virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

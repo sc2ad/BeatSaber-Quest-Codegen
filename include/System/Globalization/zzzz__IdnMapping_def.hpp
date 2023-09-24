@@ -73,8 +73,7 @@ constexpr System::Globalization::Punycode __get_puny() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit IdnMapping() ;
+static System::Globalization::IdnMapping New_ctor() ;
 
 /// @brief Method .ctor addr 0x2409fd8 size 0x90 virtual false final false
  void _ctor() ;

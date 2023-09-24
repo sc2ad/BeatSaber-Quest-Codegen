@@ -72,14 +72,12 @@ constexpr int32_t __get__OldIndex_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "listChangedType", ty: "System::ComponentModel::ListChangedType", modifiers: "", def_value: None }, CppParam { name: "newIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ListChangedEventArgs(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex) ;
+static System::ComponentModel::ListChangedEventArgs New_ctor(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex) ;
 
 /// @brief Method .ctor addr 0x277eb5c size 0x8 virtual false final false
  void _ctor(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex) ;
 
-// Ctor Parameters [CppParam { name: "listChangedType", ty: "System::ComponentModel::ListChangedType", modifiers: "", def_value: None }, CppParam { name: "newIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "oldIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ListChangedEventArgs(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex) ;
+static System::ComponentModel::ListChangedEventArgs New_ctor(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex) ;
 
 /// @brief Method .ctor addr 0x277eb64 size 0x80 virtual false final false
  void _ctor(System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex) ;

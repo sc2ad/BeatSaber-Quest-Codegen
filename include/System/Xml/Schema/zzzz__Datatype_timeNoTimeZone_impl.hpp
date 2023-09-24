@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Xml::Schema::Datatype_timeNoTimeZone::Datatype_timeNoTimeZone()  : System::Xml::Schema::Datatype_dateTimeBase(THROW_UNLESS(::il2cpp_utils::New<Datatype_timeNoTimeZone>())) {}
+ System::Xml::Schema::Datatype_timeNoTimeZone System::Xml::Schema::Datatype_timeNoTimeZone::New_ctor()  {
+System::Xml::Schema::Datatype_timeNoTimeZone o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_timeNoTimeZone>())};
+return o;
+}
  void System::Xml::Schema::Datatype_timeNoTimeZone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_timeNoTimeZone>::get(),

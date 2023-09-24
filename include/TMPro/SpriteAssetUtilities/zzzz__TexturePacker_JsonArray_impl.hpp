@@ -2,6 +2,7 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "TMPro/SpriteAssetUtilities/zzzz__TexturePacker_JsonArray_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "TMPro/SpriteAssetUtilities/zzzz__TexturePacker_JsonArray_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame.ToString
 template<>
@@ -232,8 +233,10 @@ constexpr void TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__Texture
 constexpr TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject::__get_meta() const {
 return ::cordl_internals::getInstanceField<TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject>())) {}
+ TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject::New_ctor()  {
+TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject o{THROW_UNLESS(::il2cpp_utils::New<TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject>())};
+return o;
+}
  void TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject>::get(),
@@ -260,8 +263,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::TexturePacker_JsonArray()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TexturePacker_JsonArray>())) {}
+ TMPro::SpriteAssetUtilities::TexturePacker_JsonArray TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::New_ctor()  {
+TMPro::SpriteAssetUtilities::TexturePacker_JsonArray o{THROW_UNLESS(::il2cpp_utils::New<TMPro::SpriteAssetUtilities::TexturePacker_JsonArray>())};
+return o;
+}
  void TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::SpriteAssetUtilities::TexturePacker_JsonArray>::get(),

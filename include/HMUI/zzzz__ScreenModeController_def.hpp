@@ -5,11 +5,11 @@
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
-namespace HMUI {
-class ScreenModeData;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace HMUI {
+class ScreenModeData;
 }
 namespace HMUI {
 class CurvedCanvasSettings;
@@ -96,8 +96,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method SetDefaultMode addr 0x1fb8d4c size 0x8 virtual false final false
  void SetDefaultMode() ;
 
-// Ctor Parameters []
-explicit ScreenModeController() ;
+static HMUI::ScreenModeController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb8d54 size 0x8 virtual false final false
  void _ctor() ;

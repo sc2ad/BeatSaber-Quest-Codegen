@@ -322,8 +322,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "styleName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "styleOpeningDefinition", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "styleClosingDefinition", ty: "::StringW", modifiers: "", def_value: None }]
- TMPro::TMP_Style::TMP_Style(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_Style>(styleName, styleOpeningDefinition, styleClosingDefinition))) {}
+ TMPro::TMP_Style TMPro::TMP_Style::New_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition)  {
+TMPro::TMP_Style o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Style>(styleName, styleOpeningDefinition, styleClosingDefinition))};
+return o;
+}
  void TMPro::TMP_Style::_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Style>::get(),

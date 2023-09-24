@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__GUILayoutEntry_impl.hpp"
 #include "UnityEngine/zzzz__GUILayoutGroup_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__GUILayoutEntry_def.hpp"
 #include "UnityEngine/zzzz__GUILayoutOption_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
 //  Writing Method size for method: UnityEngine::GUILayoutGroup.get_marginLeft
 template<>
@@ -422,8 +422,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::GUILayoutGroup::GUILayoutGroup()  : UnityEngine::GUILayoutEntry(THROW_UNLESS(::il2cpp_utils::New<GUILayoutGroup>())) {}
+ UnityEngine::GUILayoutGroup UnityEngine::GUILayoutGroup::New_ctor()  {
+UnityEngine::GUILayoutGroup o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUILayoutGroup>())};
+return o;
+}
  void UnityEngine::GUILayoutGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUILayoutGroup>::get(),

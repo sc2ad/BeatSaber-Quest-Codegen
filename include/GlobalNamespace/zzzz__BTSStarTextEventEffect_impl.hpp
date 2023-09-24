@@ -1,15 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSStarTextEventEffect_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "GlobalNamespace/zzzz__BTSStarTextEventEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StarTextSprite.get_id
 template<>
 
@@ -123,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StarTextSprite::GlobalNamespace__BTSStarTextEventEffect__StarTextSprite()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BTSStarTextEventEffect__StarTextSprite>())) {}
+ GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StarTextSprite GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StarTextSprite::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StarTextSprite o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StarTextSprite>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StarTextSprite::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StarTextSprite>::get(),
@@ -215,8 +218,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Transform, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StartTextPosition::GlobalNamespace__BTSStarTextEventEffect__StartTextPosition()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BTSStarTextEventEffect__StartTextPosition>())) {}
+ GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StartTextPosition GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StartTextPosition::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StartTextPosition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StartTextPosition>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StartTextPosition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StartTextPosition>::get(),
@@ -422,8 +427,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, basicBeatmapEventData);
 }
-// Ctor Parameters []
- GlobalNamespace::BTSStarTextEventEffect::BTSStarTextEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BTSStarTextEventEffect>())) {}
+ GlobalNamespace::BTSStarTextEventEffect GlobalNamespace::BTSStarTextEventEffect::New_ctor()  {
+GlobalNamespace::BTSStarTextEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BTSStarTextEventEffect>())};
+return o;
+}
  void GlobalNamespace::BTSStarTextEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BTSStarTextEventEffect>::get(),

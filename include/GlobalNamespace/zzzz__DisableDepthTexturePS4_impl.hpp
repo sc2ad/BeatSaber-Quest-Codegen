@@ -25,8 +25,10 @@ constexpr void GlobalNamespace::DisableDepthTexturePS4::__set__depthTextureEnabl
 constexpr GlobalNamespace::BoolSO GlobalNamespace::DisableDepthTexturePS4::__get__depthTextureEnabled() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BoolSO, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::DisableDepthTexturePS4::DisableDepthTexturePS4()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DisableDepthTexturePS4>())) {}
+ GlobalNamespace::DisableDepthTexturePS4 GlobalNamespace::DisableDepthTexturePS4::New_ctor()  {
+GlobalNamespace::DisableDepthTexturePS4 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DisableDepthTexturePS4>())};
+return o;
+}
  void GlobalNamespace::DisableDepthTexturePS4::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DisableDepthTexturePS4>::get(),

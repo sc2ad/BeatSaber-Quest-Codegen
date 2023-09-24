@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Security::Certificates::CertificateException::CertificateException()  : Org::BouncyCastle::Security::GeneralSecurityException(THROW_UNLESS(::il2cpp_utils::New<CertificateException>())) {}
+ Org::BouncyCastle::Security::Certificates::CertificateException Org::BouncyCastle::Security::Certificates::CertificateException::New_ctor()  {
+Org::BouncyCastle::Security::Certificates::CertificateException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::Certificates::CertificateException>())};
+return o;
+}
  void Org::BouncyCastle::Security::Certificates::CertificateException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::Certificates::CertificateException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Security::Certificates::CertificateException::CertificateException(::StringW message)  : Org::BouncyCastle::Security::GeneralSecurityException(THROW_UNLESS(::il2cpp_utils::New<CertificateException>(message))) {}
+ Org::BouncyCastle::Security::Certificates::CertificateException Org::BouncyCastle::Security::Certificates::CertificateException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Security::Certificates::CertificateException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::Certificates::CertificateException>(message))};
+return o;
+}
  void Org::BouncyCastle::Security::Certificates::CertificateException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::Certificates::CertificateException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Security::Certificates::CertificateException::CertificateException(::StringW message, System::Exception exception)  : Org::BouncyCastle::Security::GeneralSecurityException(THROW_UNLESS(::il2cpp_utils::New<CertificateException>(message, exception))) {}
+ Org::BouncyCastle::Security::Certificates::CertificateException Org::BouncyCastle::Security::Certificates::CertificateException::New_ctor(::StringW message, System::Exception exception)  {
+Org::BouncyCastle::Security::Certificates::CertificateException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::Certificates::CertificateException>(message, exception))};
+return o;
+}
  void Org::BouncyCastle::Security::Certificates::CertificateException::_ctor(::StringW message, System::Exception exception)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::Certificates::CertificateException>::get(),

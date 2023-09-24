@@ -1,8 +1,9 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Net/zzzz__MonoChunkParser_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Net/zzzz__MonoChunkParser_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__MonoChunkParser__State::System__Net__MonoChunkParser__State(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -64,8 +65,10 @@ constexpr void System::Net::System__Net__MonoChunkParser__Chunk::__set_Offset(in
 constexpr int32_t System::Net::System__Net__MonoChunkParser__Chunk::__get_Offset() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "chunk", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Net::System__Net__MonoChunkParser__Chunk::System__Net__MonoChunkParser__Chunk(::ArrayW<uint8_t> chunk)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__MonoChunkParser__Chunk>(chunk))) {}
+ System::Net::System__Net__MonoChunkParser__Chunk System::Net::System__Net__MonoChunkParser__Chunk::New_ctor(::ArrayW<uint8_t> chunk)  {
+System::Net::System__Net__MonoChunkParser__Chunk o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__MonoChunkParser__Chunk>(chunk))};
+return o;
+}
  void System::Net::System__Net__MonoChunkParser__Chunk::_ctor(::ArrayW<uint8_t> chunk)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__MonoChunkParser__Chunk>::get(),
@@ -382,8 +385,10 @@ constexpr void System::Net::MonoChunkParser::__set_chunks(System::Collections::A
 constexpr System::Collections::ArrayList System::Net::MonoChunkParser::__get_chunks() const {
 return ::cordl_internals::getInstanceField<System::Collections::ArrayList, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "headers", ty: "System::Net::WebHeaderCollection", modifiers: "", def_value: None }]
- System::Net::MonoChunkParser::MonoChunkParser(System::Net::WebHeaderCollection headers)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoChunkParser>(headers))) {}
+ System::Net::MonoChunkParser System::Net::MonoChunkParser::New_ctor(System::Net::WebHeaderCollection headers)  {
+System::Net::MonoChunkParser o{THROW_UNLESS(::il2cpp_utils::New<System::Net::MonoChunkParser>(headers))};
+return o;
+}
  void System::Net::MonoChunkParser::_ctor(System::Net::WebHeaderCollection headers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::MonoChunkParser>::get(),

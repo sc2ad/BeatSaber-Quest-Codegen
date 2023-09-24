@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseInputStream_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ArmoredInputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__Crc24_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__Crc24_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::ArmoredInputStream.Decode
 template<>
 
@@ -375,8 +375,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, in0, in1, in2, in3, result);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::ArmoredInputStream::ArmoredInputStream(System::IO::Stream input)  : Org::BouncyCastle::Utilities::IO::BaseInputStream(THROW_UNLESS(::il2cpp_utils::New<ArmoredInputStream>(input))) {}
+ Org::BouncyCastle::Bcpg::ArmoredInputStream Org::BouncyCastle::Bcpg::ArmoredInputStream::New_ctor(System::IO::Stream input)  {
+Org::BouncyCastle::Bcpg::ArmoredInputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::ArmoredInputStream>(input))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::ArmoredInputStream::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::ArmoredInputStream>::get(),
@@ -386,8 +388,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, input);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "hasHeaders", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::ArmoredInputStream::ArmoredInputStream(System::IO::Stream input, bool hasHeaders)  : Org::BouncyCastle::Utilities::IO::BaseInputStream(THROW_UNLESS(::il2cpp_utils::New<ArmoredInputStream>(input, hasHeaders))) {}
+ Org::BouncyCastle::Bcpg::ArmoredInputStream Org::BouncyCastle::Bcpg::ArmoredInputStream::New_ctor(System::IO::Stream input, bool hasHeaders)  {
+Org::BouncyCastle::Bcpg::ArmoredInputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::ArmoredInputStream>(input, hasHeaders))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::ArmoredInputStream::_ctor(System::IO::Stream input, bool hasHeaders)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::ArmoredInputStream>::get(),

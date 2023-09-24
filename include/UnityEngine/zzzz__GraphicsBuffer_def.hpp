@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct UnityEngine__GraphicsBuffer__Target;
+}
 // Forward declare root types
 namespace UnityEngine {
 struct UnityEngine__GraphicsBuffer__Target;
@@ -67,6 +70,8 @@ __Constant = 512,
 constexpr operator __UnityEngine__GraphicsBuffer__Target_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__GraphicsBuffer__Target_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

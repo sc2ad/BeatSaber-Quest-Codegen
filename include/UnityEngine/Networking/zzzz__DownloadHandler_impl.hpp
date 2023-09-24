@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 //  Writing Method size for method: UnityEngine::Networking::DownloadHandler.Release
 template<>
 
@@ -346,8 +346,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Networking::DownloadHandler::DownloadHandler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DownloadHandler>())) {}
+ UnityEngine::Networking::DownloadHandler UnityEngine::Networking::DownloadHandler::New_ctor()  {
+UnityEngine::Networking::DownloadHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::DownloadHandler>())};
+return o;
+}
  void UnityEngine::Networking::DownloadHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::DownloadHandler>::get(),

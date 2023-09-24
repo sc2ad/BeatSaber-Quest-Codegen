@@ -57,8 +57,7 @@ constexpr ::StringW __get__ConditionString_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "conditionString", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ConditionalAttribute(::StringW conditionString) ;
+static System::Diagnostics::ConditionalAttribute New_ctor(::StringW conditionString) ;
 
 /// @brief Method .ctor addr 0x240bf08 size 0x28 virtual false final false
  void _ctor(::StringW conditionString) ;

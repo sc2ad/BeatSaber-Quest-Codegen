@@ -83,8 +83,7 @@ constexpr System::Action __get_levelFinishedEvent() const;
 /// @brief Method remove_levelFinishedEvent addr 0x2271958 size 0x9c virtual true final true
  void remove_levelFinishedEvent(System::Action value) ;
 
-// Ctor Parameters []
-explicit MockLevelEndActions() ;
+static GlobalNamespace::MockLevelEndActions New_ctor() ;
 
 /// @brief Method .ctor addr 0x22719f4 size 0x8 virtual false final false
  void _ctor() ;

@@ -7,19 +7,22 @@ namespace GlobalNamespace {
 class MissionObjective;
 }
 namespace GlobalNamespace {
-class MissionObjectiveChecker;
-}
-namespace GlobalNamespace {
 class ILevelEndActions;
 }
 namespace GlobalNamespace {
 class MissionObjectiveTypeSO;
 }
 namespace GlobalNamespace {
-class MissionObjectiveResult;
+class GlobalNamespace__MissionObjectiveCheckersManager__InitData;
 }
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class MissionObjectiveChecker;
+}
+namespace GlobalNamespace {
+class MissionObjectiveResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -79,8 +82,7 @@ constexpr ::ArrayW<GlobalNamespace::MissionObjective> __get_missionObjectives() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "missionObjectives", ty: "::ArrayW<GlobalNamespace::MissionObjective>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MissionObjectiveCheckersManager__InitData(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives) ;
+static GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager__InitData New_ctor(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives) ;
 
 /// @brief Method .ctor addr 0x20d7b44 size 0x28 virtual false final false
  void _ctor(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives) ;
@@ -228,8 +230,7 @@ constexpr ::ArrayW<GlobalNamespace::MissionObjectiveChecker> __get__activeMissio
 /// @brief Method StopChecking addr 0x20d7a10 size 0xd8 virtual false final false
  void StopChecking() ;
 
-// Ctor Parameters []
-explicit MissionObjectiveCheckersManager() ;
+static GlobalNamespace::MissionObjectiveCheckersManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d7aec size 0x58 virtual false final false
  void _ctor() ;

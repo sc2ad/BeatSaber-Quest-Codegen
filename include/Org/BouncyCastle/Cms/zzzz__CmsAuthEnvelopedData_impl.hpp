@@ -1,14 +1,15 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthEnvelopedData_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorInfo_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformationStore_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsAuthEnvelopedData_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorInfo_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable._ctor
 template<>
 
@@ -87,8 +88,10 @@ constexpr void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedD
 constexpr Org::BouncyCastle::Cms::CmsAuthEnvelopedData Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable::__get_parent() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Cms::CmsAuthEnvelopedData, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "Org::BouncyCastle::Cms::CmsAuthEnvelopedData", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable(Org::BouncyCastle::Cms::CmsAuthEnvelopedData parent)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable>(parent))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable::New_ctor(Org::BouncyCastle::Cms::CmsAuthEnvelopedData parent)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable>(parent))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable::_ctor(Org::BouncyCastle::Cms::CmsAuthEnvelopedData parent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable>::get(),
@@ -218,8 +221,10 @@ constexpr void Org::BouncyCastle::Cms::CmsAuthEnvelopedData::__set_unauthAttrs(O
 constexpr Org::BouncyCastle::Asn1::Asn1Set Org::BouncyCastle::Cms::CmsAuthEnvelopedData::__get_unauthAttrs() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Set, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "authEnvData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsAuthEnvelopedData::CmsAuthEnvelopedData(::ArrayW<uint8_t> authEnvData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsAuthEnvelopedData>(authEnvData))) {}
+ Org::BouncyCastle::Cms::CmsAuthEnvelopedData Org::BouncyCastle::Cms::CmsAuthEnvelopedData::New_ctor(::ArrayW<uint8_t> authEnvData)  {
+Org::BouncyCastle::Cms::CmsAuthEnvelopedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthEnvelopedData>(authEnvData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthEnvelopedData::_ctor(::ArrayW<uint8_t> authEnvData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthEnvelopedData>::get(),
@@ -229,8 +234,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, authEnvData);
 }
-// Ctor Parameters [CppParam { name: "authEnvData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsAuthEnvelopedData::CmsAuthEnvelopedData(System::IO::Stream authEnvData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsAuthEnvelopedData>(authEnvData))) {}
+ Org::BouncyCastle::Cms::CmsAuthEnvelopedData Org::BouncyCastle::Cms::CmsAuthEnvelopedData::New_ctor(System::IO::Stream authEnvData)  {
+Org::BouncyCastle::Cms::CmsAuthEnvelopedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthEnvelopedData>(authEnvData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthEnvelopedData::_ctor(System::IO::Stream authEnvData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthEnvelopedData>::get(),
@@ -240,8 +247,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, authEnvData);
 }
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsAuthEnvelopedData::CmsAuthEnvelopedData(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsAuthEnvelopedData>(contentInfo))) {}
+ Org::BouncyCastle::Cms::CmsAuthEnvelopedData Org::BouncyCastle::Cms::CmsAuthEnvelopedData::New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  {
+Org::BouncyCastle::Cms::CmsAuthEnvelopedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthEnvelopedData>(contentInfo))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthEnvelopedData::_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthEnvelopedData>::get(),

@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "LiteNetLib/zzzz__EventBasedNatPunchListener_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "LiteNetLib/zzzz__INatPunchListener_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/zzzz__EventBasedNatPunchListener_def.hpp"
 #include "LiteNetLib/zzzz__NatAddressType_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest._ctor
 template<>
 
@@ -74,8 +75,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest>(object, method))) {}
+ LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest>(object, method))};
+return o;
+}
  void LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest>::get(),
@@ -180,8 +183,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess>(object, method))) {}
+ LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess>(object, method))};
+return o;
+}
  void LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess>::get(),
@@ -407,8 +412,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, targetEndPoint, type, token);
 }
-// Ctor Parameters []
- LiteNetLib::EventBasedNatPunchListener::EventBasedNatPunchListener()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventBasedNatPunchListener>())) {}
+ LiteNetLib::EventBasedNatPunchListener LiteNetLib::EventBasedNatPunchListener::New_ctor()  {
+LiteNetLib::EventBasedNatPunchListener o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::EventBasedNatPunchListener>())};
+return o;
+}
  void LiteNetLib::EventBasedNatPunchListener::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::EventBasedNatPunchListener>::get(),

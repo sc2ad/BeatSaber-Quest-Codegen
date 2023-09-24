@@ -2,35 +2,35 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBindingComposite_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBindingResolver_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputProcessor_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionPhase_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ISavedState_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionChange_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBindingComposite_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionChange_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputProcessor_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ISavedState_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBindingResolver_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionPhase_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__SavedStructState_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::UnityEngine__InputSystem__InputActionState__InteractionState__Flags::UnityEngine__InputSystem__InputActionState__InteractionState__Flags(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -3488,8 +3488,10 @@ return ::cordl_internals::getStaticField<UnityEngine::InputSystem::Utilities::Un
  System::Action UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionState____c::__get___9__135_1()  {
 return ::cordl_internals::getStaticField<System::Action, "<>9__135_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionState____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionState____c::UnityEngine__InputSystem__InputActionState____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputActionState____c>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionState____c UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionState____c::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionState____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionState____c>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionState____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionState____c>::get(),
@@ -6493,8 +6495,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::InputActionState::InputActionState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputActionState>())) {}
+ UnityEngine::InputSystem::InputActionState UnityEngine::InputSystem::InputActionState::New_ctor()  {
+UnityEngine::InputSystem::InputActionState o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::InputActionState>())};
+return o;
+}
  void UnityEngine::InputSystem::InputActionState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::InputActionState>::get(),

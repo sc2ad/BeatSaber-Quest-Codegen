@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UIDocumentList_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIDocumentList.RemoveFromListAndFromVisualTree
 template<>
 
@@ -79,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, uiDocument, visualTree, firstInsertIndex);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIDocumentList::UIDocumentList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIDocumentList>())) {}
+ UnityEngine::UIElements::UIDocumentList UnityEngine::UIElements::UIDocumentList::New_ctor()  {
+UnityEngine::UIElements::UIDocumentList o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIDocumentList>())};
+return o;
+}
  void UnityEngine::UIElements::UIDocumentList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIDocumentList>::get(),

@@ -5,11 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class PoseObject;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class PoseObject;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -19,10 +19,13 @@ namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__PosesRecordingData__ExternalCameraCalibration;
+class PosesRecordingData;
 }
 namespace GlobalNamespace {
-class PosesRecordingData;
+class GlobalNamespace__PosesRecorder____c;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PosesRecordingData__ExternalCameraCalibration;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +97,7 @@ static System::Func_2<GlobalNamespace::PoseObject,::StringW> __get___9__6_1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PosesRecorder____c() ;
+static GlobalNamespace::GlobalNamespace__PosesRecorder____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a6c78 size 0x8 virtual false final false
  void _ctor() ;
@@ -198,8 +200,7 @@ constexpr GlobalNamespace::PosesRecordingData __get__data() const;
 /// @brief Method StopRecording addr 0x21a4cd4 size 0xc virtual false final false
  void StopRecording() ;
 
-// Ctor Parameters []
-explicit PosesRecorder() ;
+static GlobalNamespace::PosesRecorder New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a6c0c size 0x8 virtual false final false
  void _ctor() ;

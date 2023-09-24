@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Paddings {
 class IBlockCipherPadding;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Paddings {
@@ -67,14 +67,12 @@ constexpr Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding __get_padding
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding", modifiers: "", def_value: None }]
-explicit PaddedBufferedBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding padding) ;
+static Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding padding) ;
 
 /// @brief Method .ctor addr 0xea131c size 0xf0 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding padding) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit PaddedBufferedBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+static Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xea140c size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crmf/zzzz__PKMacFactory_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMacFactory_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PbmParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMacFactory_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crmf::PKMacFactory._ctor
 template<>
 
@@ -70,8 +70,10 @@ constexpr void Org::BouncyCastle::Crmf::PKMacFactory::__set_key(::ArrayW<uint8_t
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crmf::PKMacFactory::__get_key() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Cmp::PbmParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::PKMacFactory::PKMacFactory(::ArrayW<uint8_t> key, Org::BouncyCastle::Asn1::Cmp::PbmParameter parameters)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PKMacFactory>(key, parameters))) {}
+ Org::BouncyCastle::Crmf::PKMacFactory Org::BouncyCastle::Crmf::PKMacFactory::New_ctor(::ArrayW<uint8_t> key, Org::BouncyCastle::Asn1::Cmp::PbmParameter parameters)  {
+Org::BouncyCastle::Crmf::PKMacFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::PKMacFactory>(key, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crmf::PKMacFactory::_ctor(::ArrayW<uint8_t> key, Org::BouncyCastle::Asn1::Cmp::PbmParameter parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::PKMacFactory>::get(),

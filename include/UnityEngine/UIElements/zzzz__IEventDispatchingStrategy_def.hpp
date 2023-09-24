@@ -1,10 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 namespace UnityEngine::UIElements {
-class IPanel;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

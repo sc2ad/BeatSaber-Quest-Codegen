@@ -7,10 +7,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace System {
 template<typename T>
@@ -18,9 +21,6 @@ class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
 namespace System::Collections {
 class IList;
 }
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -78,8 +78,7 @@ constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_mRequestExtensions
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "responderIDList", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "requestExtensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
-explicit OcspStatusRequest(System::Collections::IList responderIDList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions) ;
+static Org::BouncyCastle::Crypto::Tls::OcspStatusRequest New_ctor(System::Collections::IList responderIDList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions) ;
 
 /// @brief Method .ctor addr 0xf04f10 size 0x2c virtual false final false
  void _ctor(System::Collections::IList responderIDList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions) ;

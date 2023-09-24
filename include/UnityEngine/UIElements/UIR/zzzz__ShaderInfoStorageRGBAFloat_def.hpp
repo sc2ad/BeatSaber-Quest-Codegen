@@ -4,12 +4,15 @@
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine {
+struct Color;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UIElements::UIR {
+class UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -69,8 +72,7 @@ static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoSto
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__ShaderInfoStorageRGBAFloat____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d156d4 size 0x8 virtual false final false
  void _ctor() ;
@@ -85,7 +87,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.UIElements.UIR::ShaderInfoStorageRGBAFloat
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7481), inst: 280 }), TypeDefinitionIndex(TypeDefinitionIndex(10192)), TypeDefinitionIndex(TypeDefinitionIndex(7481))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10192)), TypeDefinitionIndex(TypeDefinitionIndex(7481)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7481), inst: 280 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7485))
 // CS Name: UnityEngine.UIElements.UIR.ShaderInfoStorageRGBAFloat
 class CORDL_TYPE ShaderInfoStorageRGBAFloat : public UnityEngine::UIElements::UIR::ShaderInfoStorage_1<UnityEngine::Color> {
@@ -135,8 +137,7 @@ static System::Func_2<UnityEngine::Color,UnityEngine::Color> __get_s_Convert() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ShaderInfoStorageRGBAFloat(int32_t initialSize, int32_t maxSize) ;
+static UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat New_ctor(int32_t initialSize, int32_t maxSize) ;
 
 /// @brief Method .ctor addr 0x2d130c8 size 0x94 virtual false final false
  void _ctor(int32_t initialSize, int32_t maxSize) ;

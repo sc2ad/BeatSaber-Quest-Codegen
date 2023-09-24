@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/zzzz__WebRequestPrefixElement_def.hpp"
-#include "System/Net/zzzz__IWebRequestCreate_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Net/zzzz__IWebRequestCreate_def.hpp"
 //  Writing Method size for method: System::Net::WebRequestPrefixElement.get_Creator
 template<>
 
@@ -89,8 +89,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "P", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "C", ty: "System::Net::IWebRequestCreate", modifiers: "", def_value: None }]
- System::Net::WebRequestPrefixElement::WebRequestPrefixElement(::StringW P, System::Net::IWebRequestCreate C)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WebRequestPrefixElement>(P, C))) {}
+ System::Net::WebRequestPrefixElement System::Net::WebRequestPrefixElement::New_ctor(::StringW P, System::Net::IWebRequestCreate C)  {
+System::Net::WebRequestPrefixElement o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebRequestPrefixElement>(P, C))};
+return o;
+}
  void System::Net::WebRequestPrefixElement::_ctor(::StringW P, System::Net::IWebRequestCreate C)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebRequestPrefixElement>::get(),

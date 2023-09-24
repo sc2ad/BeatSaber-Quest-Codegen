@@ -2,8 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 #include <cmath>
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace GlobalNamespace {
+class CustomTweenBehaviour;
+}
+namespace GlobalNamespace {
+class TimelineArrayReference;
+}
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableGraph;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 template<typename T>
@@ -12,20 +24,8 @@ struct ExposedReference_1;
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
 }
-namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace GlobalNamespace {
-class CustomTweenBehaviour;
-}
-namespace GlobalNamespace {
-class TimelineArrayReference;
+struct Playable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +108,7 @@ constexpr GlobalNamespace::CustomTweenBehaviour __get_template() const;
 /// @brief Method CreatePlayable addr 0x21b1554 size 0x144 virtual true final false
  UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
-// Ctor Parameters []
-explicit ArrayPositionTween() ;
+static GlobalNamespace::ArrayPositionTween New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1698 size 0x8 virtual false final false
  void _ctor() ;

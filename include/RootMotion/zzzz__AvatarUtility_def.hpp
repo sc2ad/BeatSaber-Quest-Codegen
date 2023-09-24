@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine {
-class Avatar;
-}
-namespace UnityEngine {
 struct Quaternion;
-}
-namespace UnityEngine {
-struct HumanBodyBones;
 }
 namespace UnityEngine {
 struct AvatarIKGoal;
 }
+namespace UnityEngine {
+struct HumanBodyBones;
+}
 namespace RootMotion {
 class TQ;
+}
+namespace UnityEngine {
+class Avatar;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -72,8 +72,7 @@ static RootMotion::TQ GetIKGoalTQ(UnityEngine::Avatar avatar, float_t humanScale
 /// @brief Method HumanIDFromAvatarIKGoal addr 0x11a7c6c size 0x20 virtual false final false
 static UnityEngine::HumanBodyBones HumanIDFromAvatarIKGoal(UnityEngine::AvatarIKGoal avatarIKGoal) ;
 
-// Ctor Parameters []
-explicit AvatarUtility() ;
+static RootMotion::AvatarUtility New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a82e4 size 0x8 virtual false final false
  void _ctor() ;

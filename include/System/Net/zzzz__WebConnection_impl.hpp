@@ -1,31 +1,32 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__WebConnection_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Func_4_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Net/zzzz__WebRequestStream_def.hpp"
-#include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
-#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Net/zzzz__NetworkCredential_def.hpp"
+#include "System/zzzz__Func_4_def.hpp"
 #include "System/Net/zzzz__ServicePoint_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/zzzz__WebConnection_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/Net/zzzz__WebException_def.hpp"
+#include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Net/zzzz__WebRequestStream_def.hpp"
+#include "System/Net/zzzz__WebException_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Net/zzzz__NetworkCredential_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
@@ -98,8 +99,10 @@ return ::cordl_internals::getStaticField<System::Func_4<System::Net::IPEndPoint,
  System::Action_1<System::IAsyncResult> System::Net::System__Net__WebConnection____c::__get___9__16_1()  {
 return ::cordl_internals::getStaticField<System::Action_1<System::IAsyncResult>, "<>9__16_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__WebConnection____c>::get>();
 }
-// Ctor Parameters []
- System::Net::System__Net__WebConnection____c::System__Net__WebConnection____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__WebConnection____c>())) {}
+ System::Net::System__Net__WebConnection____c System::Net::System__Net__WebConnection____c::New_ctor()  {
+System::Net::System__Net__WebConnection____c o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__WebConnection____c>())};
+return o;
+}
  void System::Net::System__Net__WebConnection____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__WebConnection____c>::get(),
@@ -1021,8 +1024,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::ServicePoint, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sPoint", ty: "System::Net::ServicePoint", modifiers: "", def_value: None }]
- System::Net::WebConnection::WebConnection(System::Net::ServicePoint sPoint)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WebConnection>(sPoint))) {}
+ System::Net::WebConnection System::Net::WebConnection::New_ctor(System::Net::ServicePoint sPoint)  {
+System::Net::WebConnection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebConnection>(sPoint))};
+return o;
+}
  void System::Net::WebConnection::_ctor(System::Net::ServicePoint sPoint)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebConnection>::get(),

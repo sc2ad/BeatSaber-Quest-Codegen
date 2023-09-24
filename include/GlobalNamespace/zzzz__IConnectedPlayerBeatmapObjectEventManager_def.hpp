@@ -1,23 +1,23 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace GlobalNamespace {
 class ObstacleSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
+class NoteCutInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class NoteMissInfoNetSerializable;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

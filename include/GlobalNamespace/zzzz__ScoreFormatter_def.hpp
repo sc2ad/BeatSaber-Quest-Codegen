@@ -64,8 +64,7 @@ static System::Globalization::NumberFormatInfo __get__numberFormatInfo() ;
 /// @brief Method Format addr 0x21c39e8 size 0x80 virtual false final false
 static ::StringW Format(int32_t score) ;
 
-// Ctor Parameters []
-explicit ScoreFormatter() ;
+static GlobalNamespace::ScoreFormatter New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c3a68 size 0x8 virtual false final false
  void _ctor() ;

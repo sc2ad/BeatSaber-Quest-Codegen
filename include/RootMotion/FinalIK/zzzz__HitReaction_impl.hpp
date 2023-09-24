@@ -5,11 +5,12 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
+#include "RootMotion/FinalIK/zzzz__HitReaction_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
-#include "UnityEngine/zzzz__Rigidbody_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__Rigidbody_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint.get_inProgress
 template<>
 
@@ -451,8 +452,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, solver, weight);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint::RootMotion__FinalIK__HitReaction__HitPoint()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__HitReaction__HitPoint>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint>::get(),
@@ -555,8 +558,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink::RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink>())) {}
+ GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink::New_ctor()  {
+GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink>())};
+return o;
+}
  void GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink>::get(),
@@ -679,8 +684,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, solver, weight);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointEffector::RootMotion__FinalIK__HitReaction__HitPointEffector()  : RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__HitReaction__HitPointEffector>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointEffector RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointEffector::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointEffector o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointEffector>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointEffector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointEffector>::get(),
@@ -783,8 +790,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink::RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink>())) {}
+ GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink::New_ctor()  {
+GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink>())};
+return o;
+}
  void GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink>::get(),
@@ -907,8 +916,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, solver, weight);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointBone::RootMotion__FinalIK__HitReaction__HitPointBone()  : RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__HitReaction__HitPointBone>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointBone RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointBone::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointBone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointBone>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointBone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointBone>::get(),
@@ -1025,8 +1036,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, collider, force, point);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::HitReaction::HitReaction()  : RootMotion::FinalIK::OffsetModifier(THROW_UNLESS(::il2cpp_utils::New<HitReaction>())) {}
+ RootMotion::FinalIK::HitReaction RootMotion::FinalIK::HitReaction::New_ctor()  {
+RootMotion::FinalIK::HitReaction o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::HitReaction>())};
+return o;
+}
  void RootMotion::FinalIK::HitReaction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::HitReaction>::get(),

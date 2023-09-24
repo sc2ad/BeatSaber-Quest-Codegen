@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::TeamList::TeamList(::cordl_internals::intptr_t a)  : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Team>(THROW_UNLESS(::il2cpp_utils::New<TeamList>(a))) {}
+ Oculus::Platform::Models::TeamList Oculus::Platform::Models::TeamList::New_ctor(::cordl_internals::intptr_t a)  {
+Oculus::Platform::Models::TeamList o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::TeamList>(a))};
+return o;
+}
  void Oculus::Platform::Models::TeamList::_ctor(::cordl_internals::intptr_t a)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::TeamList>::get(),

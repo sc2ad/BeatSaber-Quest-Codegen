@@ -57,14 +57,12 @@ constexpr explicit IssuerKeyId(void* ptr) noexcept : Org::BouncyCastle::Bcpg::Si
 /// @brief Method KeyIdToBytes addr 0x113d7f0 size 0xd4 virtual false final false
 static ::ArrayW<uint8_t> KeyIdToBytes(int64_t keyId) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit IssuerKeyId(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::IssuerKeyId New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113d8c4 size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "keyId", ty: "int64_t", modifiers: "", def_value: None }]
-explicit IssuerKeyId(bool critical, int64_t keyId) ;
+static Org::BouncyCastle::Bcpg::Sig::IssuerKeyId New_ctor(bool critical, int64_t keyId) ;
 
 /// @brief Method .ctor addr 0x113d90c size 0x4c virtual false final false
  void _ctor(bool critical, int64_t keyId) ;

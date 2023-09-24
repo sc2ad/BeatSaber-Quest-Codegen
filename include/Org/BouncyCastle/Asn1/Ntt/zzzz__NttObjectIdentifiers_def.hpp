@@ -89,8 +89,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdCamellia256Wrap() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit NttObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xef1228 size 0x8 virtual false final false
  void _ctor() ;

@@ -88,20 +88,17 @@ static Org::BouncyCastle::Asn1::Ocsp::ServiceLocator GetInstance(Org::BouncyCast
 /// @brief Method GetInstance addr 0xef58fc size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Ocsp::ServiceLocator GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "issuer", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
-explicit ServiceLocator(Org::BouncyCastle::Asn1::X509::X509Name issuer) ;
+static Org::BouncyCastle::Asn1::Ocsp::ServiceLocator New_ctor(Org::BouncyCastle::Asn1::X509::X509Name issuer) ;
 
 /// @brief Method .ctor addr 0xef5b5c size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name issuer) ;
 
-// Ctor Parameters [CppParam { name: "issuer", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "locator", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
-explicit ServiceLocator(Org::BouncyCastle::Asn1::X509::X509Name issuer, Org::BouncyCastle::Asn1::Asn1Object locator) ;
+static Org::BouncyCastle::Asn1::Ocsp::ServiceLocator New_ctor(Org::BouncyCastle::Asn1::X509::X509Name issuer, Org::BouncyCastle::Asn1::Asn1Object locator) ;
 
 /// @brief Method .ctor addr 0xef5b64 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name issuer, Org::BouncyCastle::Asn1::Asn1Object locator) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ServiceLocator(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ocsp::ServiceLocator New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef5a84 size 0xd8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

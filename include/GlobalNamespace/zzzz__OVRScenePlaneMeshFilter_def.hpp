@@ -4,11 +4,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
-class Mesh;
+namespace Unity::Jobs {
+struct JobHandle;
 }
 namespace System {
 template<typename T>
@@ -19,19 +16,28 @@ template<typename T>
 struct NativeArray_1;
 }
 namespace UnityEngine {
+class Mesh;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRScenePlaneMeshFilter__TriangulateBoundaryJob;
+}
+namespace UnityEngine {
 struct Vector2;
 }
-namespace Unity::Jobs {
-struct JobHandle;
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList;
 }
 namespace Unity::Jobs {
 class IJob;
 }
-namespace Unity::Collections {
-struct Allocator;
-}
 namespace System {
 class IDisposable;
+}
+namespace Unity::Collections {
+struct Allocator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -310,8 +316,7 @@ constexpr Unity::Collections::NativeArray_1<int32_t> __get__triangles() const;
 /// @brief Method OnDisable addr 0x260b9a4 size 0x90 virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit OVRScenePlaneMeshFilter() ;
+static GlobalNamespace::OVRScenePlaneMeshFilter New_ctor() ;
 
 /// @brief Method .ctor addr 0x260ba34 size 0x8 virtual false final false
  void _ctor() ;

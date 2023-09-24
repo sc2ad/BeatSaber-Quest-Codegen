@@ -1,12 +1,12 @@
 #pragma once
 #include "RootMotion/zzzz__BakerHumanoidQT_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Avatar_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::BakerHumanoidQT._ctor
 template<>
 
@@ -285,8 +285,10 @@ constexpr void RootMotion::BakerHumanoidQT::__set_lastQSet(bool value)  {
 constexpr bool RootMotion::BakerHumanoidQT::__get_lastQSet() const {
 return ::cordl_internals::getInstanceField<bool, 0x9c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- RootMotion::BakerHumanoidQT::BakerHumanoidQT(::StringW name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BakerHumanoidQT>(name))) {}
+ RootMotion::BakerHumanoidQT RootMotion::BakerHumanoidQT::New_ctor(::StringW name)  {
+RootMotion::BakerHumanoidQT o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::BakerHumanoidQT>(name))};
+return o;
+}
  void RootMotion::BakerHumanoidQT::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::BakerHumanoidQT>::get(),
@@ -296,8 +298,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "goal", ty: "UnityEngine::AvatarIKGoal", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- RootMotion::BakerHumanoidQT::BakerHumanoidQT(UnityEngine::Transform transform, UnityEngine::AvatarIKGoal goal, ::StringW name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BakerHumanoidQT>(transform, goal, name))) {}
+ RootMotion::BakerHumanoidQT RootMotion::BakerHumanoidQT::New_ctor(UnityEngine::Transform transform, UnityEngine::AvatarIKGoal goal, ::StringW name)  {
+RootMotion::BakerHumanoidQT o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::BakerHumanoidQT>(transform, goal, name))};
+return o;
+}
  void RootMotion::BakerHumanoidQT::_ctor(UnityEngine::Transform transform, UnityEngine::AvatarIKGoal goal, ::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::BakerHumanoidQT>::get(),

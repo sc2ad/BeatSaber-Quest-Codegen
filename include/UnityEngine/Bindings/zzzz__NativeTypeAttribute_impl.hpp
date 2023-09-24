@@ -166,8 +166,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::Bindings::NativeTypeAttribute::NativeTypeAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeTypeAttribute>())) {}
+ UnityEngine::Bindings::NativeTypeAttribute UnityEngine::Bindings::NativeTypeAttribute::New_ctor()  {
+UnityEngine::Bindings::NativeTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativeTypeAttribute>())};
+return o;
+}
  void UnityEngine::Bindings::NativeTypeAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativeTypeAttribute>::get(),
@@ -177,8 +179,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "codegenOptions", ty: "UnityEngine::Bindings::CodegenOptions", modifiers: "", def_value: None }]
- UnityEngine::Bindings::NativeTypeAttribute::NativeTypeAttribute(UnityEngine::Bindings::CodegenOptions codegenOptions)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeTypeAttribute>(codegenOptions))) {}
+ UnityEngine::Bindings::NativeTypeAttribute UnityEngine::Bindings::NativeTypeAttribute::New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions)  {
+UnityEngine::Bindings::NativeTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativeTypeAttribute>(codegenOptions))};
+return o;
+}
  void UnityEngine::Bindings::NativeTypeAttribute::_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativeTypeAttribute>::get(),
@@ -188,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, codegenOptions);
 }
-// Ctor Parameters [CppParam { name: "header", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Bindings::NativeTypeAttribute::NativeTypeAttribute(::StringW header)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeTypeAttribute>(header))) {}
+ UnityEngine::Bindings::NativeTypeAttribute UnityEngine::Bindings::NativeTypeAttribute::New_ctor(::StringW header)  {
+UnityEngine::Bindings::NativeTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativeTypeAttribute>(header))};
+return o;
+}
  void UnityEngine::Bindings::NativeTypeAttribute::_ctor(::StringW header)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativeTypeAttribute>::get(),
@@ -199,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, header);
 }
-// Ctor Parameters [CppParam { name: "codegenOptions", ty: "UnityEngine::Bindings::CodegenOptions", modifiers: "", def_value: None }, CppParam { name: "intermediateStructName", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Bindings::NativeTypeAttribute::NativeTypeAttribute(UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeTypeAttribute>(codegenOptions, intermediateStructName))) {}
+ UnityEngine::Bindings::NativeTypeAttribute UnityEngine::Bindings::NativeTypeAttribute::New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName)  {
+UnityEngine::Bindings::NativeTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativeTypeAttribute>(codegenOptions, intermediateStructName))};
+return o;
+}
  void UnityEngine::Bindings::NativeTypeAttribute::_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativeTypeAttribute>::get(),

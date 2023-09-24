@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumeration_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UxmlEnumeration.get_values
 template<>
 
@@ -105,8 +105,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UxmlEnumeration::UxmlEnumeration()  : UnityEngine::UIElements::UxmlTypeRestriction(THROW_UNLESS(::il2cpp_utils::New<UxmlEnumeration>())) {}
+ UnityEngine::UIElements::UxmlEnumeration UnityEngine::UIElements::UxmlEnumeration::New_ctor()  {
+UnityEngine::UIElements::UxmlEnumeration o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UxmlEnumeration>())};
+return o;
+}
  void UnityEngine::UIElements::UxmlEnumeration::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UxmlEnumeration>::get(),

@@ -4,19 +4,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace HoudiniEngineUnity {
-class JSONNode;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace HoudiniEngineUnity {
+class JSONNode;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct System__Collections__Generic__Dictionary_2__Enumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -25,28 +32,27 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace HoudiniEngineUnity {
-struct HoudiniEngineUnity__JSONNode__Enumerator;
+namespace System::Text {
+class StringBuilder;
 }
 namespace HoudiniEngineUnity {
 struct JSONTextMode;
 }
-namespace System::Text {
-class StringBuilder;
+namespace HoudiniEngineUnity {
+struct JSONNodeType;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__JSONNode__Enumerator;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace HoudiniEngineUnity {
-struct JSONNodeType;
+class HoudiniEngineUnity__JSONObject____c__DisplayClass21_0;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__JSONObject___get_Children_d__23;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -109,8 +115,7 @@ constexpr HoudiniEngineUnity::JSONNode __get_aNode() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__JSONObject____c__DisplayClass21_0() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20688c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -219,8 +224,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__Dictionary
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__JSONObject___get_Children_d__23(int32_t __1__state) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__JSONObject___get_Children_d__23 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2068944 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -379,8 +383,7 @@ constexpr bool __get_inline() const;
 /// @brief Method WriteToStringBuilder addr 0x2068978 size 0x308 virtual true final false
  void WriteToStringBuilder(System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, HoudiniEngineUnity::JSONTextMode aMode) ;
 
-// Ctor Parameters []
-explicit JSONObject() ;
+static HoudiniEngineUnity::JSONObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x2064250 size 0x7c virtual false final false
  void _ctor() ;

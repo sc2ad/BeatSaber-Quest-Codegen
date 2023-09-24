@@ -4,10 +4,10 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class MockNoteData;
+class IMockPlayerScoreCalculator;
 }
 namespace GlobalNamespace {
-class IMockPlayerScoreCalculator;
+class MockNoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,8 +76,7 @@ constexpr float_t __get__chanceAggregated() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hitChance", ty: "float_t", modifiers: "", def_value: None }]
-explicit DeterministicHitChanceScoreCalculator(float_t hitChance) ;
+static GlobalNamespace::DeterministicHitChanceScoreCalculator New_ctor(float_t hitChance) ;
 
 /// @brief Method .ctor addr 0x20e9b80 size 0x28 virtual false final false
  void _ctor(float_t hitChance) ;

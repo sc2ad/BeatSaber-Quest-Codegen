@@ -95,8 +95,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_MicrosoftAppPolicies()
 
 // Methods
 
-// Ctor Parameters []
-explicit MicrosoftObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xeedb94 size 0x8 virtual false final false
  void _ctor() ;

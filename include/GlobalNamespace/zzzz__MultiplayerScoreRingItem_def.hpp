@@ -2,6 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreItem_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerScoreRingItem__Pool;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__MultiplayerScoreRingItem__Pool;
@@ -53,8 +56,7 @@ constexpr explicit MultiplayerScoreRingItem(void* ptr) noexcept : GlobalNamespac
 
 // Methods
 
-// Ctor Parameters []
-explicit MultiplayerScoreRingItem() ;
+static GlobalNamespace::MultiplayerScoreRingItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2102988 size 0x8 virtual false final false
  void _ctor() ;
@@ -66,7 +68,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(5343)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2718 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2718 }), TypeDefinitionIndex(TypeDefinitionIndex(5343)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5342))
 // CS Name: MultiplayerScoreRingItem::Pool
 class CORDL_TYPE GlobalNamespace__MultiplayerScoreRingItem__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MultiplayerScoreRingItem> {
@@ -105,8 +107,7 @@ constexpr explicit GlobalNamespace__MultiplayerScoreRingItem__Pool(void* ptr) no
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerScoreRingItem__Pool() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerScoreRingItem__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2102990 size 0x48 virtual false final false
  void _ctor() ;

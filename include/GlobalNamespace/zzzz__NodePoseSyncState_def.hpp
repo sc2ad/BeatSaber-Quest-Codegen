@@ -3,25 +3,28 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-struct PoseSerializable;
-}
-namespace GlobalNamespace {
-template<typename T>
-class IEquatableByReference_1;
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace GlobalNamespace {
 template<typename TStateTable,typename TType,typename TState>
 class IStateTable_3;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataReader;
+}
+namespace GlobalNamespace {
+template<typename T>
+class IEquatableByReference_1;
+}
+namespace GlobalNamespace {
+struct PoseSerializable;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__NodePoseSyncState__NodePose;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,6 +84,8 @@ __Count = 3,
 constexpr operator __GlobalNamespace__NodePoseSyncState__NodePose_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__NodePoseSyncState__NodePose_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "binaryType", ty: "Newtonsoft::Json::Bson::BsonBinaryType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonBinary::BsonBinary(::ArrayW<uint8_t> value, Newtonsoft::Json::Bson::BsonBinaryType binaryType)  : Newtonsoft::Json::Bson::BsonValue(THROW_UNLESS(::il2cpp_utils::New<BsonBinary>(value, binaryType))) {}
+ Newtonsoft::Json::Bson::BsonBinary Newtonsoft::Json::Bson::BsonBinary::New_ctor(::ArrayW<uint8_t> value, Newtonsoft::Json::Bson::BsonBinaryType binaryType)  {
+Newtonsoft::Json::Bson::BsonBinary o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonBinary>(value, binaryType))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonBinary::_ctor(::ArrayW<uint8_t> value, Newtonsoft::Json::Bson::BsonBinaryType binaryType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonBinary>::get(),

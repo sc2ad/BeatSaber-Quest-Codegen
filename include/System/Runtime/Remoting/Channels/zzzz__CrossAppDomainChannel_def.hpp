@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Remoting::Channels {
-class IChannel;
-}
-namespace System::Runtime::Remoting::Channels {
 class IChannelSender;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
 }
 namespace System::Runtime::Remoting::Channels {
 class IChannelReceiver;
+}
+namespace System::Runtime::Remoting::Channels {
+class IChannel;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -107,8 +107,7 @@ static void RegisterCrossAppDomainChannel() ;
 /// @brief Method CreateMessageSink addr 0x2336b70 size 0x180 virtual true final false
  System::Runtime::Remoting::Messaging::IMessageSink CreateMessageSink(::StringW url, ::bs_hook::Il2CppWrapperType data, ByRef<::StringW> uri) ;
 
-// Ctor Parameters []
-explicit CrossAppDomainChannel() ;
+static System::Runtime::Remoting::Channels::CrossAppDomainChannel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2336ab0 size 0x8 virtual false final false
  void _ctor() ;

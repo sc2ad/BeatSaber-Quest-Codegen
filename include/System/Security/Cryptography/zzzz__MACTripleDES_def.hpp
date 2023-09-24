@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography {
+class CryptoStream;
+}
+namespace System::Security::Cryptography {
 class TailStream;
 }
 namespace System::Security::Cryptography {
@@ -11,9 +14,6 @@ class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
 class TripleDES;
-}
-namespace System::Security::Cryptography {
-class CryptoStream;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -94,8 +94,7 @@ constexpr System::Security::Cryptography::TripleDES __get_des() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MACTripleDES() ;
+static System::Security::Cryptography::MACTripleDES New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f4218 size 0x130 virtual false final false
  void _ctor() ;

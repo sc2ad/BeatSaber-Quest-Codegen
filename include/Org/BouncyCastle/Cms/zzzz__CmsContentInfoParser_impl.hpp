@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsContentInfoParser_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfoParser_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsContentInfoParser._ctor
 template<>
 
@@ -48,8 +48,10 @@ constexpr void Org::BouncyCastle::Cms::CmsContentInfoParser::__set_data(System::
 constexpr System::IO::Stream Org::BouncyCastle::Cms::CmsContentInfoParser::__get_data() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsContentInfoParser::CmsContentInfoParser(System::IO::Stream data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsContentInfoParser>(data))) {}
+ Org::BouncyCastle::Cms::CmsContentInfoParser Org::BouncyCastle::Cms::CmsContentInfoParser::New_ctor(System::IO::Stream data)  {
+Org::BouncyCastle::Cms::CmsContentInfoParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsContentInfoParser>(data))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsContentInfoParser::_ctor(System::IO::Stream data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsContentInfoParser>::get(),

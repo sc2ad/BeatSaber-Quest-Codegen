@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlUtf8RawTextWriter_def.hpp"
-#include "System/Xml/zzzz__XmlStandalone_def.hpp"
 #include "System/Xml/zzzz__XmlCharType_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/Xml/zzzz__NewLineHandling_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Xml/zzzz__XmlOutputMethod_def.hpp"
-#include "System/Xml/zzzz__NewLineHandling_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/Xml/zzzz__XmlStandalone_def.hpp"
 //  Writing Method size for method: System::Xml::XmlUtf8RawTextWriter._ctor
 template<>
 
@@ -1081,8 +1081,10 @@ constexpr void System::Xml::XmlUtf8RawTextWriter::__set_mergeCDataSections(bool 
 constexpr bool System::Xml::XmlUtf8RawTextWriter::__get_mergeCDataSections() const {
 return ::cordl_internals::getInstanceField<bool, 0x85>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlUtf8RawTextWriter::XmlUtf8RawTextWriter(System::Xml::XmlWriterSettings settings)  : System::Xml::XmlRawWriter(THROW_UNLESS(::il2cpp_utils::New<XmlUtf8RawTextWriter>(settings))) {}
+ System::Xml::XmlUtf8RawTextWriter System::Xml::XmlUtf8RawTextWriter::New_ctor(System::Xml::XmlWriterSettings settings)  {
+System::Xml::XmlUtf8RawTextWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlUtf8RawTextWriter>(settings))};
+return o;
+}
  void System::Xml::XmlUtf8RawTextWriter::_ctor(System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlUtf8RawTextWriter>::get(),
@@ -1092,8 +1094,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, settings);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlUtf8RawTextWriter::XmlUtf8RawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlRawWriter(THROW_UNLESS(::il2cpp_utils::New<XmlUtf8RawTextWriter>(stream, settings))) {}
+ System::Xml::XmlUtf8RawTextWriter System::Xml::XmlUtf8RawTextWriter::New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
+System::Xml::XmlUtf8RawTextWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlUtf8RawTextWriter>(stream, settings))};
+return o;
+}
  void System::Xml::XmlUtf8RawTextWriter::_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlUtf8RawTextWriter>::get(),

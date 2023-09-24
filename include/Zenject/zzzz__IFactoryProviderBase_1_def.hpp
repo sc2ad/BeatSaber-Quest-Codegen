@@ -3,27 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class Action;
-}
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 struct Guid;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 namespace Zenject {
 class IProvider;
@@ -34,18 +24,28 @@ class InjectContext;
 namespace System {
 struct Int32Enum;
 }
+namespace System {
+class Type;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System {
+class Action;
+}
 // Forward declare root types
 namespace Zenject {
 template<typename TContract>
 class IFactoryProviderBase_1;
 }
 namespace Zenject {
-template<::cordl_internals::il2cpp_reference_type TContract>
-class IFactoryProviderBase_1<TContract>;
-}
-namespace Zenject {
 template<>
 class IFactoryProviderBase_1<System::Int32Enum>;
+}
+namespace Zenject {
+template<::cordl_internals::il2cpp_reference_type TContract>
+class IFactoryProviderBase_1<TContract>;
 }
 namespace Zenject {
 template<>
@@ -55,12 +55,12 @@ class IFactoryProviderBase_1<float_t>;
 // Type: Zenject::IFactoryProviderBase`1
 namespace Zenject {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TContract>
+template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11136))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11136), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11136), inst: 4825 })
 // CS Name: Zenject.IFactoryProviderBase`1
-class CORDL_TYPE IFactoryProviderBase_1<TContract> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE IFactoryProviderBase_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief Convert operator to Zenject::IProvider
@@ -125,8 +125,7 @@ constexpr Zenject::DiContainer __get__Container_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "factoryId", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit IFactoryProviderBase_1(Zenject::DiContainer container, System::Guid factoryId) ;
+static Zenject::IFactoryProviderBase_1<System::Int32Enum> New_ctor(Zenject::DiContainer container, System::Guid factoryId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, System::Guid factoryId) ;
@@ -235,8 +234,7 @@ constexpr Zenject::DiContainer __get__Container_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "factoryId", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit IFactoryProviderBase_1(Zenject::DiContainer container, System::Guid factoryId) ;
+static Zenject::IFactoryProviderBase_1<float_t> New_ctor(Zenject::DiContainer container, System::Guid factoryId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, System::Guid factoryId) ;
@@ -275,12 +273,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: Zenject::IFactoryProviderBase`1
 namespace Zenject {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11136))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11136), inst: 4825 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11136), inst: 2 })
 // CS Name: Zenject.IFactoryProviderBase`1
-class CORDL_TYPE IFactoryProviderBase_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE IFactoryProviderBase_1<TContract> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief Convert operator to Zenject::IProvider
@@ -345,8 +343,7 @@ constexpr Zenject::DiContainer __get__Container_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "factoryId", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit IFactoryProviderBase_1(Zenject::DiContainer container, System::Guid factoryId) ;
+static Zenject::IFactoryProviderBase_1<TContract> New_ctor(Zenject::DiContainer container, System::Guid factoryId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, System::Guid factoryId) ;

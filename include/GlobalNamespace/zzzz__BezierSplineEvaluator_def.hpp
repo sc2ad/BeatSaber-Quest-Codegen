@@ -5,9 +5,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+class BezierSpline;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -15,8 +14,12 @@ struct Vector3;
 namespace GlobalNamespace {
 struct BezierCurve;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace GlobalNamespace {
-class BezierSpline;
+struct GlobalNamespace__BezierSplineEvaluator__CubicSolveResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -173,8 +176,7 @@ static constexpr float_t  kSlightBelowZero{-0.0005};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "spline", ty: "GlobalNamespace::BezierSpline", modifiers: "", def_value: None }]
-explicit BezierSplineEvaluator(GlobalNamespace::BezierSpline spline) ;
+static GlobalNamespace::BezierSplineEvaluator New_ctor(GlobalNamespace::BezierSpline spline) ;
 
 /// @brief Method .ctor addr 0x20a6d70 size 0x34 virtual false final false
  void _ctor(GlobalNamespace::BezierSpline spline) ;

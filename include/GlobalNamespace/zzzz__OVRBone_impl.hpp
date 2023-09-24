@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRBone_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRBone.get_Id
 template<>
 
@@ -210,8 +210,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRBone::OVRBone()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRBone>())) {}
+ GlobalNamespace::OVRBone GlobalNamespace::OVRBone::New_ctor()  {
+GlobalNamespace::OVRBone o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRBone>())};
+return o;
+}
  void GlobalNamespace::OVRBone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRBone>::get(),
@@ -221,8 +223,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId", modifiers: "", def_value: None }, CppParam { name: "parentBoneIndex", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "trans", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- GlobalNamespace::OVRBone::OVRBone(GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId id, int16_t parentBoneIndex, UnityEngine::Transform trans)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRBone>(id, parentBoneIndex, trans))) {}
+ GlobalNamespace::OVRBone GlobalNamespace::OVRBone::New_ctor(GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId id, int16_t parentBoneIndex, UnityEngine::Transform trans)  {
+GlobalNamespace::OVRBone o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRBone>(id, parentBoneIndex, trans))};
+return o;
+}
  void GlobalNamespace::OVRBone::_ctor(GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId id, int16_t parentBoneIndex, UnityEngine::Transform trans)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRBone>::get(),

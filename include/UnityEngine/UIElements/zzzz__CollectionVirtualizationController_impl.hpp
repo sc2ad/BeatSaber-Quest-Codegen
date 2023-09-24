@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__CollectionVirtualizationController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::CollectionVirtualizationController.get_lastVisibleIndex
 template<>
 
@@ -267,8 +267,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "scrollView", ty: "UnityEngine::UIElements::ScrollView", modifiers: "", def_value: None }]
- UnityEngine::UIElements::CollectionVirtualizationController::CollectionVirtualizationController(UnityEngine::UIElements::ScrollView scrollView)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CollectionVirtualizationController>(scrollView))) {}
+ UnityEngine::UIElements::CollectionVirtualizationController UnityEngine::UIElements::CollectionVirtualizationController::New_ctor(UnityEngine::UIElements::ScrollView scrollView)  {
+UnityEngine::UIElements::CollectionVirtualizationController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::CollectionVirtualizationController>(scrollView))};
+return o;
+}
  void UnityEngine::UIElements::CollectionVirtualizationController::_ctor(UnityEngine::UIElements::ScrollView scrollView)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::CollectionVirtualizationController>::get(),

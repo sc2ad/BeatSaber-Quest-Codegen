@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IUxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class IUxmlFactory;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -89,8 +89,7 @@ constexpr TTraits __get_m_Traits() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UxmlFactory_2() ;
+static UnityEngine::UIElements::UxmlFactory_2<TCreatedType,TTraits> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

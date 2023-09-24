@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DerSequenceReader_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Security/Cryptography/zzzz__DerSequenceReader_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader__DerTag::System__Security__Cryptography__DerSequenceReader__DerTag(uint8_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -121,8 +122,10 @@ return ::cordl_internals::getStaticField<System::Func_1<System::Text::Encoding>,
  System::Func_1<System::Globalization::DateTimeFormatInfo> System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader____c::__get___9__51_0()  {
 return ::cordl_internals::getStaticField<System::Func_1<System::Globalization::DateTimeFormatInfo>, "<>9__51_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader____c>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader____c::System__Security__Cryptography__DerSequenceReader____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Security__Cryptography__DerSequenceReader____c>())) {}
+ System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader____c System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader____c::New_ctor()  {
+System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader____c o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader____c>())};
+return o;
+}
  void System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader____c>::get(),
@@ -754,8 +757,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::DerSequenceReader::DerSequenceReader(::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DerSequenceReader>(data))) {}
+ System::Security::Cryptography::DerSequenceReader System::Security::Cryptography::DerSequenceReader::New_ctor(::ArrayW<uint8_t> data)  {
+System::Security::Cryptography::DerSequenceReader o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DerSequenceReader>(data))};
+return o;
+}
  void System::Security::Cryptography::DerSequenceReader::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DerSequenceReader>::get(),
@@ -765,8 +770,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::Cryptography::DerSequenceReader::DerSequenceReader(::ArrayW<uint8_t> data, int32_t offset, int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DerSequenceReader>(data, offset, length))) {}
+ System::Security::Cryptography::DerSequenceReader System::Security::Cryptography::DerSequenceReader::New_ctor(::ArrayW<uint8_t> data, int32_t offset, int32_t length)  {
+System::Security::Cryptography::DerSequenceReader o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DerSequenceReader>(data, offset, length))};
+return o;
+}
  void System::Security::Cryptography::DerSequenceReader::_ctor(::ArrayW<uint8_t> data, int32_t offset, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DerSequenceReader>::get(),
@@ -776,8 +783,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data, offset, length);
 }
-// Ctor Parameters [CppParam { name: "tagToEat", ty: "System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader__DerTag", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::Cryptography::DerSequenceReader::DerSequenceReader(System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader__DerTag tagToEat, ::ArrayW<uint8_t> data, int32_t offset, int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DerSequenceReader>(tagToEat, data, offset, length))) {}
+ System::Security::Cryptography::DerSequenceReader System::Security::Cryptography::DerSequenceReader::New_ctor(System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader__DerTag tagToEat, ::ArrayW<uint8_t> data, int32_t offset, int32_t length)  {
+System::Security::Cryptography::DerSequenceReader o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DerSequenceReader>(tagToEat, data, offset, length))};
+return o;
+}
  void System::Security::Cryptography::DerSequenceReader::_ctor(System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader__DerTag tagToEat, ::ArrayW<uint8_t> data, int32_t offset, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DerSequenceReader>::get(),

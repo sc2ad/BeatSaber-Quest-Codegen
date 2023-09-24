@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::DisableOnNonOculus::DisableOnNonOculus()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DisableOnNonOculus>())) {}
+ GlobalNamespace::DisableOnNonOculus GlobalNamespace::DisableOnNonOculus::New_ctor()  {
+GlobalNamespace::DisableOnNonOculus o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DisableOnNonOculus>())};
+return o;
+}
  void GlobalNamespace::DisableOnNonOculus::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DisableOnNonOculus>::get(),

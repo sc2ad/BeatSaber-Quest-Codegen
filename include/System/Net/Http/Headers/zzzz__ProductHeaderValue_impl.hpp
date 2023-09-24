@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__ProductHeaderValue_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::ProductHeaderValue._ctor
 template<>
 
@@ -207,8 +207,10 @@ constexpr void System::Net::Http::Headers::ProductHeaderValue::__set__Version_k_
 constexpr ::StringW System::Net::Http::Headers::ProductHeaderValue::__get__Version_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::ProductHeaderValue::ProductHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProductHeaderValue>())) {}
+ System::Net::Http::Headers::ProductHeaderValue System::Net::Http::Headers::ProductHeaderValue::New_ctor()  {
+System::Net::Http::Headers::ProductHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::ProductHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::ProductHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::ProductHeaderValue>::get(),

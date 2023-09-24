@@ -47,8 +47,7 @@ constexpr explicit XamlItemBindingOfItemsControlAttribute(void* ptr) noexcept : 
 
 // Methods
 
-// Ctor Parameters []
-explicit XamlItemBindingOfItemsControlAttribute() ;
+static JetBrains::Annotations::XamlItemBindingOfItemsControlAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41290 size 0x8 virtual false final false
  void _ctor() ;

@@ -66,8 +66,7 @@ constexpr explicit Datatype_IDREF(void* ptr) noexcept : System::Xml::Schema::Dat
 /// @brief Method get_TokenizedType addr 0x2727e74 size 0x8 virtual true final false
  System::Xml::XmlTokenizedType get_TokenizedType() ;
 
-// Ctor Parameters []
-explicit Datatype_IDREF() ;
+static System::Xml::Schema::Datatype_IDREF New_ctor() ;
 
 /// @brief Method .ctor addr 0x2727e7c size 0x4 virtual false final false
  void _ctor() ;

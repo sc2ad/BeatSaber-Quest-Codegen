@@ -1,24 +1,24 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__FactoryFromBinder_1_def.hpp"
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class FactoryFromBinderUntyped;
-}
 namespace System {
 class Type;
 }
 namespace Zenject {
-template<typename TContract>
-class FactoryFromBinder_1;
+class FactoryFromBinderUntyped;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class BindInfo;
 }
 namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-class DiContainer;
+template<typename TContract>
+class FactoryFromBinder_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -74,8 +74,7 @@ constexpr explicit FactoryToChoiceBinder_1(void* ptr) noexcept : Zenject::Factor
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryToChoiceBinder_1(Zenject::DiContainer container, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::FactoryToChoiceBinder_1<TContract> New_ctor(Zenject::DiContainer container, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

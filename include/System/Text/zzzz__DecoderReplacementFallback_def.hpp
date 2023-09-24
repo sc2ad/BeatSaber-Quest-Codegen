@@ -8,10 +8,10 @@ namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
 }
 namespace System::Text {
 class DecoderFallbackBuffer;
@@ -81,14 +81,12 @@ constexpr ::StringW __get__strDefault() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DecoderReplacementFallback() ;
+static System::Text::DecoderReplacementFallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c2e38 size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit DecoderReplacementFallback(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Text::DecoderReplacementFallback New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24c4144 size 0x104 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
@@ -96,8 +94,7 @@ explicit DecoderReplacementFallback(System::Runtime::Serialization::Serializatio
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x24c4248 size 0x5c virtual true final true
  void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "replacement", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DecoderReplacementFallback(::StringW replacement) ;
+static System::Text::DecoderReplacementFallback New_ctor(::StringW replacement) ;
 
 /// @brief Method .ctor addr 0x24c3f9c size 0x1a8 virtual false final false
  void _ctor(::StringW replacement) ;

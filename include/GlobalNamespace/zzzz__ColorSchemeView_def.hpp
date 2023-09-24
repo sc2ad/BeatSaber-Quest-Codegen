@@ -101,8 +101,7 @@ constexpr UnityEngine::UI::Image __get__obstacleColorImage() const;
 /// @brief Method SetColors addr 0x211e5bc size 0x1b8 virtual false final false
  void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstacleColor) ;
 
-// Ctor Parameters []
-explicit ColorSchemeView() ;
+static GlobalNamespace::ColorSchemeView New_ctor() ;
 
 /// @brief Method .ctor addr 0x211e7f8 size 0x8 virtual false final false
  void _ctor() ;

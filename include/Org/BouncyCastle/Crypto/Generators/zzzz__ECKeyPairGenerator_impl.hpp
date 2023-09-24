@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__ECKeyPairGenerator_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPublicKeyParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator._ctor
 template<>
@@ -157,8 +157,10 @@ constexpr void Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::__set_
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::__get_random() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::ECKeyPairGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECKeyPairGenerator>())) {}
+ Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator>::get(),
@@ -168,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::ECKeyPairGenerator(::StringW algorithm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECKeyPairGenerator>(algorithm))) {}
+ Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor(::StringW algorithm)  {
+Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator>(algorithm))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::_ctor(::StringW algorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator>::get(),

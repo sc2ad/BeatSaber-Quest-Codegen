@@ -65,8 +65,7 @@ constexpr ::StringW __get__activityId() const;
 /// @brief Method get_activityId addr 0x221a7c4 size 0x8 virtual false final false
  ::StringW get_activityId() ;
 
-// Ctor Parameters []
-explicit PS5ActivityDataSO() ;
+static GlobalNamespace::PS5ActivityDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a7a4 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Xml/zzzz__IDtdParserAdapterV1_def.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_def.hpp"
 #include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_def.hpp"
 //  Writing Method size for method: System::Xml::IDtdParserAdapterV1.get_V1CompatibilityMode
 template<>
 

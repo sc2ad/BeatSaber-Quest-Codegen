@@ -82,8 +82,7 @@ static ::ArrayW<uint32_t> __get__K() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit SHA256Managed() ;
+static System::Security::Cryptography::SHA256Managed New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f3d18 size 0x124 virtual false final false
  void _ctor() ;

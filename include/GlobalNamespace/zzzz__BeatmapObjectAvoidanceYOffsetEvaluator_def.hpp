@@ -6,13 +6,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+struct GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
 }
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -169,8 +172,7 @@ constexpr GlobalNamespace::IBeatmapObjectSpawnController __get__beatmapObjectSpa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "beatmapObjectSpawnController", ty: "GlobalNamespace::IBeatmapObjectSpawnController", modifiers: "", def_value: None }, CppParam { name: "moveToPlayerHeadTParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteSpawnData", ty: "GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData", modifiers: "", def_value: None }]
-explicit BeatmapObjectAvoidanceYOffsetEvaluator(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::IBeatmapObjectSpawnController beatmapObjectSpawnController, float_t moveToPlayerHeadTParam, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData) ;
+static GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator New_ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::IBeatmapObjectSpawnController beatmapObjectSpawnController, float_t moveToPlayerHeadTParam, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData) ;
 
 /// @brief Method .ctor addr 0x20a4e34 size 0x154 virtual false final false
  void _ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::IBeatmapObjectSpawnController beatmapObjectSpawnController, float_t moveToPlayerHeadTParam, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData) ;

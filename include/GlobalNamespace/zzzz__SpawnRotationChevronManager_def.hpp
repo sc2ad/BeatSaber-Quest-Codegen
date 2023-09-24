@@ -8,40 +8,43 @@ namespace GlobalNamespace {
 class SpawnRotationChevron;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
 class BeatmapObjectData;
-}
-namespace GlobalNamespace {
-class SpawnRotationBeatmapEventData;
-}
-namespace UnityEngine {
-class AnimationCurve;
 }
 namespace GlobalNamespace {
 class BeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class GlobalNamespace__SpawnRotationChevron__Pool;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__SpawnRotationChevron__Pool;
+class GlobalNamespace__SpawnRotationChevronManager__DirectionData;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class SpawnRotationBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +122,7 @@ constexpr float_t __get_fadeInEndTime() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SpawnRotationChevronManager__DirectionData() ;
+static GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData New_ctor() ;
 
 /// @brief Method .ctor addr 0x226b8b8 size 0x8 virtual false final false
  void _ctor() ;
@@ -305,8 +307,7 @@ constexpr float_t __get__currentSpawnRotation() const;
 /// @brief Method ComputeAheadTime addr 0x226b8dc size 0x5c virtual false final false
  float_t ComputeAheadTime() ;
 
-// Ctor Parameters []
-explicit SpawnRotationChevronManager() ;
+static GlobalNamespace::SpawnRotationChevronManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x226b938 size 0x14 virtual false final false
  void _ctor() ;

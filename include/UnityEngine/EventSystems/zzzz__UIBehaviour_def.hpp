@@ -86,8 +86,7 @@ constexpr explicit UIBehaviour(void* ptr) noexcept : UnityEngine::MonoBehaviour(
 /// @brief Method IsDestroyed addr 0x2c283a4 size 0x5c virtual true final true
  bool IsDestroyed() ;
 
-// Ctor Parameters []
-explicit UIBehaviour() ;
+static UnityEngine::EventSystems::UIBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1b888 size 0x8 virtual false final false
  void _ctor() ;

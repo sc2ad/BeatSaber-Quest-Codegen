@@ -120,8 +120,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::BigInteger, false>(nullptr, ___internal_method, y, parameters);
 }
-// Ctor Parameters [CppParam { name: "y", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DsaParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::DsaPublicKeyParameters(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters)  : Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters(THROW_UNLESS(::il2cpp_utils::New<DsaPublicKeyParameters>(y, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::New_ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters>(y, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters::_ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters>::get(),

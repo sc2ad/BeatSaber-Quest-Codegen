@@ -6,13 +6,13 @@ template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typ
 class FactoryFromBinder_5;
 }
 namespace Zenject {
+class FactoryBindInfo;
+}
+namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
 class BindInfo;
-}
-namespace Zenject {
-class FactoryBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -68,8 +68,7 @@ constexpr explicit FactoryToChoiceBinder_5(void* ptr) noexcept : Zenject::Factor
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryToChoiceBinder_5(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::FactoryToChoiceBinder_5<TParam1,TParam2,TParam3,TParam4,TContract> New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

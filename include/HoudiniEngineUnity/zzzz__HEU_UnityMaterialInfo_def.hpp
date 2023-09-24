@@ -70,8 +70,7 @@ constexpr int32_t __get__substanceIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "unityMaterialPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "substancePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "substanceIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HEU_UnityMaterialInfo(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex) ;
+static HoudiniEngineUnity::HEU_UnityMaterialInfo New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex) ;
 
 /// @brief Method .ctor addr 0x2030150 size 0x3c virtual false final false
  void _ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex) ;

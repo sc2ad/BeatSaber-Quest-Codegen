@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "System/zzzz__StringComparison_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Utilities::Substring.get_isEmpty
 template<>
 

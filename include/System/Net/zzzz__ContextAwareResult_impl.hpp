@@ -2,8 +2,9 @@
 #include "System/Net/zzzz__LazyAsyncResult_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Net/zzzz__ContextAwareResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Net/zzzz__ContextAwareResult_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__ContextAwareResult__StateFlags::System__Net__ContextAwareResult__StateFlags(uint8_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -66,8 +67,10 @@ return ::cordl_internals::getStaticField<System::Net::System__Net__ContextAwareR
  System::Threading::ContextCallback System::Net::System__Net__ContextAwareResult____c::__get___9__17_0()  {
 return ::cordl_internals::getStaticField<System::Threading::ContextCallback, "<>9__17_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__ContextAwareResult____c>::get>();
 }
-// Ctor Parameters []
- System::Net::System__Net__ContextAwareResult____c::System__Net__ContextAwareResult____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__ContextAwareResult____c>())) {}
+ System::Net::System__Net__ContextAwareResult____c System::Net::System__Net__ContextAwareResult____c::New_ctor()  {
+System::Net::System__Net__ContextAwareResult____c o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__ContextAwareResult____c>())};
+return o;
+}
  void System::Net::System__Net__ContextAwareResult____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__ContextAwareResult____c>::get(),
@@ -326,8 +329,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "myObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myState", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myCallBack", ty: "System::AsyncCallback", modifiers: "", def_value: None }]
- System::Net::ContextAwareResult::ContextAwareResult(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  : System::Net::LazyAsyncResult(THROW_UNLESS(::il2cpp_utils::New<ContextAwareResult>(myObject, myState, myCallBack))) {}
+ System::Net::ContextAwareResult System::Net::ContextAwareResult::New_ctor(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  {
+System::Net::ContextAwareResult o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ContextAwareResult>(myObject, myState, myCallBack))};
+return o;
+}
  void System::Net::ContextAwareResult::_ctor(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ContextAwareResult>::get(),
@@ -337,8 +342,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, myObject, myState, myCallBack);
 }
-// Ctor Parameters [CppParam { name: "captureIdentity", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "forceCaptureContext", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "myObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myState", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myCallBack", ty: "System::AsyncCallback", modifiers: "", def_value: None }]
- System::Net::ContextAwareResult::ContextAwareResult(bool captureIdentity, bool forceCaptureContext, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  : System::Net::LazyAsyncResult(THROW_UNLESS(::il2cpp_utils::New<ContextAwareResult>(captureIdentity, forceCaptureContext, myObject, myState, myCallBack))) {}
+ System::Net::ContextAwareResult System::Net::ContextAwareResult::New_ctor(bool captureIdentity, bool forceCaptureContext, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  {
+System::Net::ContextAwareResult o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ContextAwareResult>(captureIdentity, forceCaptureContext, myObject, myState, myCallBack))};
+return o;
+}
  void System::Net::ContextAwareResult::_ctor(bool captureIdentity, bool forceCaptureContext, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ContextAwareResult>::get(),
@@ -348,8 +355,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, captureIdentity, forceCaptureContext, myObject, myState, myCallBack);
 }
-// Ctor Parameters [CppParam { name: "captureIdentity", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "forceCaptureContext", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "threadSafeContextCopy", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "myObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myState", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myCallBack", ty: "System::AsyncCallback", modifiers: "", def_value: None }]
- System::Net::ContextAwareResult::ContextAwareResult(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  : System::Net::LazyAsyncResult(THROW_UNLESS(::il2cpp_utils::New<ContextAwareResult>(captureIdentity, forceCaptureContext, threadSafeContextCopy, myObject, myState, myCallBack))) {}
+ System::Net::ContextAwareResult System::Net::ContextAwareResult::New_ctor(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  {
+System::Net::ContextAwareResult o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ContextAwareResult>(captureIdentity, forceCaptureContext, threadSafeContextCopy, myObject, myState, myCallBack))};
+return o;
+}
  void System::Net::ContextAwareResult::_ctor(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ContextAwareResult>::get(),

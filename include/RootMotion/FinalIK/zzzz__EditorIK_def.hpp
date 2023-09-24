@@ -65,8 +65,7 @@ constexpr RootMotion::FinalIK::IK __get_ik() const;
 /// @brief Method Update addr 0x1207b4c size 0xc0 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit EditorIK() ;
+static RootMotion::FinalIK::EditorIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x1207c0c size 0x8 virtual false final false
  void _ctor() ;

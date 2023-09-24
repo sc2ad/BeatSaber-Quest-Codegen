@@ -47,8 +47,7 @@ constexpr explicit OpenXRLoaderNoPreInit(void* ptr) noexcept : UnityEngine::XR::
 
 // Methods
 
-// Ctor Parameters []
-explicit OpenXRLoaderNoPreInit() ;
+static UnityEngine::XR::OpenXR::OpenXRLoaderNoPreInit New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aeb2f8 size 0x54 virtual false final false
  void _ctor() ;

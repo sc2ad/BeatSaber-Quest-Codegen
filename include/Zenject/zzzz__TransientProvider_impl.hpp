@@ -1,14 +1,15 @@
 #pragma once
 #include "Zenject/zzzz__TransientProvider_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__TransientProvider_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__TransientProvider____c__DisplayClass11_0._ctor
 template<>
@@ -108,8 +109,10 @@ constexpr void Zenject::Zenject__TransientProvider____c__DisplayClass11_0::__set
 constexpr Zenject::InjectContext Zenject::Zenject__TransientProvider____c__DisplayClass11_0::__get_context() const {
 return ::cordl_internals::getInstanceField<Zenject::InjectContext, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__TransientProvider____c__DisplayClass11_0::Zenject__TransientProvider____c__DisplayClass11_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__TransientProvider____c__DisplayClass11_0>())) {}
+ Zenject::Zenject__TransientProvider____c__DisplayClass11_0 Zenject::Zenject__TransientProvider____c__DisplayClass11_0::New_ctor()  {
+Zenject::Zenject__TransientProvider____c__DisplayClass11_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__TransientProvider____c__DisplayClass11_0>())};
+return o;
+}
  void Zenject::Zenject__TransientProvider____c__DisplayClass11_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__TransientProvider____c__DisplayClass11_0>::get(),
@@ -282,8 +285,10 @@ constexpr void Zenject::TransientProvider::__set__instantiateCallback(System::Ac
 constexpr System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> Zenject::TransientProvider::__get__instantiateCallback() const {
 return ::cordl_internals::getInstanceField<System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "concreteType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "bindingContext", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- Zenject::TransientProvider::TransientProvider(System::Type concreteType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, ::StringW bindingContext, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TransientProvider>(concreteType, container, extraArguments, bindingContext, concreteIdentifier, instantiateCallback))) {}
+ Zenject::TransientProvider Zenject::TransientProvider::New_ctor(System::Type concreteType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, ::StringW bindingContext, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  {
+Zenject::TransientProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::TransientProvider>(concreteType, container, extraArguments, bindingContext, concreteIdentifier, instantiateCallback))};
+return o;
+}
  void Zenject::TransientProvider::_ctor(System::Type concreteType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, ::StringW bindingContext, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::TransientProvider>::get(),

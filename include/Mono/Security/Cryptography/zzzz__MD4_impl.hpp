@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Mono::Security::Cryptography::MD4::MD4()  : System::Security::Cryptography::HashAlgorithm(THROW_UNLESS(::il2cpp_utils::New<MD4>())) {}
+ Mono::Security::Cryptography::MD4 Mono::Security::Cryptography::MD4::New_ctor()  {
+Mono::Security::Cryptography::MD4 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::MD4>())};
+return o;
+}
  void Mono::Security::Cryptography::MD4::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::MD4>::get(),

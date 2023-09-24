@@ -2,17 +2,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationChevronManager_def.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationChevron_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
-#include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnController_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__SpawnRotationChevron_def.hpp"
+#include "GlobalNamespace/zzzz__SpawnRotationChevronManager_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData._ctor
 template<>
 
@@ -54,8 +54,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__Di
 constexpr float_t GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData::__get_fadeInEndTime() const {
 return ::cordl_internals::getInstanceField<float_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData::GlobalNamespace__SpawnRotationChevronManager__DirectionData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SpawnRotationChevronManager__DirectionData>())) {}
+ GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SpawnRotationChevronManager__DirectionData>::get(),
@@ -372,8 +374,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SpawnRotationChevronManager::SpawnRotationChevronManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SpawnRotationChevronManager>())) {}
+ GlobalNamespace::SpawnRotationChevronManager GlobalNamespace::SpawnRotationChevronManager::New_ctor()  {
+GlobalNamespace::SpawnRotationChevronManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SpawnRotationChevronManager>())};
+return o;
+}
  void GlobalNamespace::SpawnRotationChevronManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SpawnRotationChevronManager>::get(),

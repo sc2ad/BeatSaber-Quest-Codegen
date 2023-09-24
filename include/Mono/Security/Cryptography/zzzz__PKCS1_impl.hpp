@@ -7,7 +7,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::PKCS1::Compare)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x229865c;
+  constexpr static std::size_t addrs = 0x22b4668;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, int32_t)>(&Mono::Security::Cryptography::PKCS1::I2OSP)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22986d0;
+  constexpr static std::size_t addrs = 0x22b46dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::PKCS1::OS2IP)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x229875c;
+  constexpr static std::size_t addrs = 0x22b4768;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(System::Security::Cryptography::RSA, ::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::PKCS1::RSAVP1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2298818;
+  constexpr static std::size_t addrs = 0x22b4824;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,9 +73,43 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 //  Writing Method size for method: Mono::Security::Cryptography::PKCS1.Verify_v15
 template<>
 
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Security::Cryptography::RSA, System::Security::Cryptography::HashAlgorithm, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::PKCS1::Verify_v15)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x22b4840;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::PKCS1>::get(),
+                            "Verify_v15",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Security::Cryptography::RSA>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Security::Cryptography::HashAlgorithm>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: Mono::Security::Cryptography::PKCS1.Verify_v15
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Security::Cryptography::RSA, ::StringW, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::PKCS1::Verify_v15)> {
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x22b4aa0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::PKCS1>::get(),
+                            "Verify_v15",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Security::Cryptography::RSA>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: Mono::Security::Cryptography::PKCS1.Verify_v15
+template<>
+
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Security::Cryptography::RSA, System::Security::Cryptography::HashAlgorithm, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool)>(&Mono::Security::Cryptography::PKCS1::Verify_v15)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x2298834;
+  constexpr static std::size_t addrs = 0x22b48c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,8 +125,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(System::Security::Cryptography::HashAlgorithm, ::ArrayW<uint8_t>, int32_t)>(&Mono::Security::Cryptography::PKCS1::Encode_v15)> {
-  constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x2298a14;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x22b508c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,46 +138,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ___internal_method;
   }
 };
-//  Writing Method size for method: Mono::Security::Cryptography::PKCS1.HashNameFromOid
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, bool)>(&Mono::Security::Cryptography::PKCS1::HashNameFromOid)> {
-  constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x2298d5c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::PKCS1>::get(),
-                            "HashNameFromOid",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Mono::Security::Cryptography::PKCS1.CreateFromOid
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm (*)(::StringW)>(&Mono::Security::Cryptography::PKCS1::CreateFromOid)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x229916c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::PKCS1>::get(),
-                            "CreateFromOid",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: Mono::Security::Cryptography::PKCS1.CreateFromName
 template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm (*)(::StringW)>(&Mono::Security::Cryptography::PKCS1::CreateFromName)> {
-  constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x22991c8;
+  constexpr static std::size_t size = 0x410;
+  constexpr static std::size_t addrs = 0x22b4c7c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,6 +215,24 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, rsa, s);
 }
+ bool Mono::Security::Cryptography::PKCS1::Verify_v15(System::Security::Cryptography::RSA rsa, System::Security::Cryptography::HashAlgorithm hash, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::PKCS1>::get(),
+                            "Verify_v15",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Security::Cryptography::RSA>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Security::Cryptography::HashAlgorithm>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, rsa, hash, hashValue, signature);
+}
+ bool Mono::Security::Cryptography::PKCS1::Verify_v15(System::Security::Cryptography::RSA rsa, ::StringW hashName, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::PKCS1>::get(),
+                            "Verify_v15",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Security::Cryptography::RSA>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, rsa, hashName, hashValue, signature);
+}
  bool Mono::Security::Cryptography::PKCS1::Verify_v15(System::Security::Cryptography::RSA rsa, System::Security::Cryptography::HashAlgorithm hash, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature, bool tryNonStandardEncoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::PKCS1>::get(),
@@ -232,25 +250,6 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Security::Cryptography::HashAlgorithm>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, hash, hashValue, emLength);
-}
-/// @param throwOnError: bool (default: true)
- ::StringW Mono::Security::Cryptography::PKCS1::HashNameFromOid(::StringW oid, bool throwOnError)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::PKCS1>::get(),
-                            "HashNameFromOid",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, oid, throwOnError);
-}
- System::Security::Cryptography::HashAlgorithm Mono::Security::Cryptography::PKCS1::CreateFromOid(::StringW oid)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::PKCS1>::get(),
-                            "CreateFromOid",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Security::Cryptography::HashAlgorithm, false>(nullptr, ___internal_method, oid);
 }
  System::Security::Cryptography::HashAlgorithm Mono::Security::Cryptography::PKCS1::CreateFromName(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

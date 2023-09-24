@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/Schema/zzzz__ValidationEventArgs_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSeverityType_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaException_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSeverityType_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::ValidationEventArgs.get_Severity
 template<>
 

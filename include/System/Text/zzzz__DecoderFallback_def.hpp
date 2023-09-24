@@ -87,8 +87,7 @@ static System::Text::DecoderFallback get_ExceptionFallback() ;
 /// @brief Method get_MaxCharCount addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_MaxCharCount() ;
 
-// Ctor Parameters []
-explicit DecoderFallback() ;
+static System::Text::DecoderFallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c25f4 size 0x8 virtual false final false
  void _ctor() ;

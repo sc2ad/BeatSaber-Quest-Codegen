@@ -2,28 +2,29 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IPropertyPreview_def.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "UnityEngine/Timeline/zzzz__MarkerTrack_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
-#include "UnityEngine/Timeline/zzzz__DiscreteTime_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimelineAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
+#include "UnityEngine/Timeline/zzzz__DiscreteTime_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IPropertyPreview_def.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__StandardFrameRates_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__Versions::UnityEngine__Timeline__TimelineAsset__Versions(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -291,8 +292,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__EditorSettings::UnityEngine__Timeline__TimelineAsset__EditorSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__TimelineAsset__EditorSettings>())) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__EditorSettings UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__EditorSettings::New_ctor()  {
+UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__EditorSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__EditorSettings>())};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__EditorSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__EditorSettings>::get(),
@@ -528,8 +531,10 @@ constexpr void UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset___get
 constexpr System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding> UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset___get_outputs_d__27::__get___7__wrap2() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset___get_outputs_d__27::UnityEngine__Timeline__TimelineAsset___get_outputs_d__27(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__TimelineAsset___get_outputs_d__27>(__1__state))) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset___get_outputs_d__27 UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset___get_outputs_d__27::New_ctor(int32_t __1__state)  {
+UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset___get_outputs_d__27 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset___get_outputs_d__27>(__1__state))};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset___get_outputs_d__27::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset___get_outputs_d__27>::get(),
@@ -1811,8 +1816,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, clip);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::TimelineAsset::TimelineAsset()  : UnityEngine::Playables::PlayableAsset(THROW_UNLESS(::il2cpp_utils::New<TimelineAsset>())) {}
+ UnityEngine::Timeline::TimelineAsset UnityEngine::Timeline::TimelineAsset::New_ctor()  {
+UnityEngine::Timeline::TimelineAsset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TimelineAsset>())};
+return o;
+}
  void UnityEngine::Timeline::TimelineAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TimelineAsset>::get(),

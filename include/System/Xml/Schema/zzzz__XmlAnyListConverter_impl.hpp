@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlListConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlAnyListConverter_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlBaseConverter_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlBaseConverter_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::XmlAnyListConverter._ctor
 template<>
 
@@ -51,8 +51,10 @@ return ::cordl_internals::getStaticField<System::Xml::Schema::XmlValueConverter,
  System::Xml::Schema::XmlValueConverter System::Xml::Schema::XmlAnyListConverter::__get_AnyAtomicList()  {
 return ::cordl_internals::getStaticField<System::Xml::Schema::XmlValueConverter, "AnyAtomicList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAnyListConverter>::get>();
 }
-// Ctor Parameters [CppParam { name: "atomicConverter", ty: "System::Xml::Schema::XmlBaseConverter", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAnyListConverter::XmlAnyListConverter(System::Xml::Schema::XmlBaseConverter atomicConverter)  : System::Xml::Schema::XmlListConverter(THROW_UNLESS(::il2cpp_utils::New<XmlAnyListConverter>(atomicConverter))) {}
+ System::Xml::Schema::XmlAnyListConverter System::Xml::Schema::XmlAnyListConverter::New_ctor(System::Xml::Schema::XmlBaseConverter atomicConverter)  {
+System::Xml::Schema::XmlAnyListConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAnyListConverter>(atomicConverter))};
+return o;
+}
  void System::Xml::Schema::XmlAnyListConverter::_ctor(System::Xml::Schema::XmlBaseConverter atomicConverter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAnyListConverter>::get(),

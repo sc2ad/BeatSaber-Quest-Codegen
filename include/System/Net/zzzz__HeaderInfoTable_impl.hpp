@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/zzzz__HeaderInfoTable_def.hpp"
-#include "System/Net/zzzz__HeaderParser_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Net/zzzz__HeaderInfo_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Net/zzzz__HeaderParser_def.hpp"
 //  Writing Method size for method: System::Net::HeaderInfoTable.ParseSingleValue
 template<>
 
@@ -122,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::HeaderInfo, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters []
- System::Net::HeaderInfoTable::HeaderInfoTable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HeaderInfoTable>())) {}
+ System::Net::HeaderInfoTable System::Net::HeaderInfoTable::New_ctor()  {
+System::Net::HeaderInfoTable o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HeaderInfoTable>())};
+return o;
+}
  void System::Net::HeaderInfoTable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HeaderInfoTable>::get(),

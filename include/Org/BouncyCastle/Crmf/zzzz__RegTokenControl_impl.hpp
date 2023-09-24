@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crmf/zzzz__RegTokenControl_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerUtf8String_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__IControl_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crmf::RegTokenControl._ctor
 template<>
@@ -88,8 +88,10 @@ constexpr void Org::BouncyCastle::Crmf::RegTokenControl::__set_token(Org::Bouncy
 constexpr Org::BouncyCastle::Asn1::DerUtf8String Org::BouncyCastle::Crmf::RegTokenControl::__get_token() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerUtf8String, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "token", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::RegTokenControl::RegTokenControl(Org::BouncyCastle::Asn1::DerUtf8String token)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegTokenControl>(token))) {}
+ Org::BouncyCastle::Crmf::RegTokenControl Org::BouncyCastle::Crmf::RegTokenControl::New_ctor(Org::BouncyCastle::Asn1::DerUtf8String token)  {
+Org::BouncyCastle::Crmf::RegTokenControl o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::RegTokenControl>(token))};
+return o;
+}
  void Org::BouncyCastle::Crmf::RegTokenControl::_ctor(Org::BouncyCastle::Asn1::DerUtf8String token)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::RegTokenControl>::get(),
@@ -99,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, token);
 }
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::RegTokenControl::RegTokenControl(::StringW token)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegTokenControl>(token))) {}
+ Org::BouncyCastle::Crmf::RegTokenControl Org::BouncyCastle::Crmf::RegTokenControl::New_ctor(::StringW token)  {
+Org::BouncyCastle::Crmf::RegTokenControl o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::RegTokenControl>(token))};
+return o;
+}
  void Org::BouncyCastle::Crmf::RegTokenControl::_ctor(::StringW token)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::RegTokenControl>::get(),

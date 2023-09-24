@@ -51,20 +51,17 @@ constexpr explicit CrlException(void* ptr) noexcept : Org::BouncyCastle::Securit
 
 // Methods
 
-// Ctor Parameters []
-explicit CrlException() ;
+static Org::BouncyCastle::Security::Certificates::CrlException New_ctor() ;
 
 /// @brief Method .ctor addr 0x1091860 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CrlException(::StringW msg) ;
+static Org::BouncyCastle::Security::Certificates::CrlException New_ctor(::StringW msg) ;
 
 /// @brief Method .ctor addr 0x1091868 size 0x8 virtual false final false
  void _ctor(::StringW msg) ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit CrlException(::StringW msg, System::Exception e) ;
+static Org::BouncyCastle::Security::Certificates::CrlException New_ctor(::StringW msg, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x1091870 size 0x8 virtual false final false
  void _ctor(::StringW msg, System::Exception e) ;

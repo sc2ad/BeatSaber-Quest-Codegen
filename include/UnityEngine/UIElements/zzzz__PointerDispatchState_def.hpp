@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
-class IPointerEvent;
+class IEventHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -76,8 +76,7 @@ constexpr ::ArrayW<bool> __get_m_ShouldSendCompatibilityMouseEvents() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PointerDispatchState() ;
+static UnityEngine::UIElements::PointerDispatchState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3ffe4 size 0xd8 virtual false final false
  void _ctor() ;

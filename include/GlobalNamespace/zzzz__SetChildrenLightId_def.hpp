@@ -57,8 +57,7 @@ constexpr int32_t __get__ID() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SetChildrenLightId() ;
+static GlobalNamespace::SetChildrenLightId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa0550 size 0x10 virtual false final false
  void _ctor() ;

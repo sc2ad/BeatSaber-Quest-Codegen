@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class PolicyInformation;
 }
-namespace Org::BouncyCastle::Asn1::Ess {
-class OtherCertID;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::Ess {
+class OtherCertID;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ess {
@@ -79,14 +79,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_policies() const;
 /// @brief Method GetInstance addr 0xe0d158 size 0x190 virtual false final false
 static Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate GetInstance(::bs_hook::Il2CppWrapperType o) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OtherSigningCertificate(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0d2e8 size 0x154 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "otherCertID", ty: "Org::BouncyCastle::Asn1::Ess::OtherCertID", modifiers: "", def_value: None }]
-explicit OtherSigningCertificate(Org::BouncyCastle::Asn1::Ess::OtherCertID otherCertID) ;
+static Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate New_ctor(Org::BouncyCastle::Asn1::Ess::OtherCertID otherCertID) ;
 
 /// @brief Method .ctor addr 0xe0d43c size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ess::OtherCertID otherCertID) ;

@@ -10,19 +10,22 @@ namespace UnityEngine {
 class TerrainLayer;
 }
 namespace UnityEngine {
-class TreePrototype;
+struct Vector3;
 }
 namespace UnityEngine {
-struct TreeInstance;
+class DetailPrototype;
+}
+namespace UnityEngine {
+struct UnityEngine__TerrainData__BoundaryValueType;
 }
 namespace UnityEngine {
 class Terrain;
 }
 namespace UnityEngine {
-struct Vector3;
+class TreePrototype;
 }
 namespace UnityEngine {
-class DetailPrototype;
+struct TreeInstance;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -87,6 +90,8 @@ __MaxBaseMapRes = 8,
 constexpr operator __UnityEngine__TerrainData__BoundaryValueType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__TerrainData__BoundaryValueType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -281,8 +286,7 @@ static int32_t __get_k_MaximumBaseMapResolution() ;
 /// @brief Method GetBoundaryValue addr 0x2ba5678 size 0x3c virtual false final false
 static int32_t GetBoundaryValue(UnityEngine::UnityEngine__TerrainData__BoundaryValueType type) ;
 
-// Ctor Parameters []
-explicit TerrainData() ;
+static UnityEngine::TerrainData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba56b4 size 0xa4 virtual false final false
  void _ctor() ;

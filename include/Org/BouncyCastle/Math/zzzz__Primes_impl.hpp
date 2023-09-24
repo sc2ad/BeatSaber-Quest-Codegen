@@ -2,6 +2,7 @@
 #include "Org/BouncyCastle/Math/zzzz__Primes_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__Primes_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput.ProbablyPrime
 template<>
@@ -161,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "provablyComposite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "factor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput::Org__BouncyCastle__Math__Primes__MROutput(bool provablyComposite, Org::BouncyCastle::Math::BigInteger factor)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__Primes__MROutput>(provablyComposite, factor))) {}
+ Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput::New_ctor(bool provablyComposite, Org::BouncyCastle::Math::BigInteger factor)  {
+Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput>(provablyComposite, factor))};
+return o;
+}
  void Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput::_ctor(bool provablyComposite, Org::BouncyCastle::Math::BigInteger factor)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput>::get(),
@@ -285,8 +288,10 @@ constexpr void Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__STOutpu
 constexpr int32_t Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__STOutput::__get_mPrimeGenCounter() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "prime", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "primeSeed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "primeGenCounter", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__STOutput::Org__BouncyCastle__Math__Primes__STOutput(Org::BouncyCastle::Math::BigInteger prime, ::ArrayW<uint8_t> primeSeed, int32_t primeGenCounter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__Primes__STOutput>(prime, primeSeed, primeGenCounter))) {}
+ Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__STOutput Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__STOutput::New_ctor(Org::BouncyCastle::Math::BigInteger prime, ::ArrayW<uint8_t> primeSeed, int32_t primeGenCounter)  {
+Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__STOutput o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__STOutput>(prime, primeSeed, primeGenCounter))};
+return o;
+}
  void Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__STOutput::_ctor(Org::BouncyCastle::Math::BigInteger prime, ::ArrayW<uint8_t> primeSeed, int32_t primeGenCounter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__STOutput>::get(),
@@ -728,8 +733,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, x);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::Primes::Primes()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Primes>())) {}
+ Org::BouncyCastle::Math::Primes Org::BouncyCastle::Math::Primes::New_ctor()  {
+Org::BouncyCastle::Math::Primes o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::Primes>())};
+return o;
+}
  void Org::BouncyCastle::Math::Primes::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::Primes>::get(),

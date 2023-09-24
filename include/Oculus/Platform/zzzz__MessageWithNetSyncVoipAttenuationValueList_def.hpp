@@ -13,7 +13,7 @@ class MessageWithNetSyncVoipAttenuationValueList;
 // Type: Oculus.Platform::MessageWithNetSyncVoipAttenuationValueList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13453)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4464 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4464 }), TypeDefinitionIndex(TypeDefinitionIndex(13453)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13261))
 // CS Name: Oculus.Platform.MessageWithNetSyncVoipAttenuationValueList
 class CORDL_TYPE MessageWithNetSyncVoipAttenuationValueList : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncVoipAttenuationValueList> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithNetSyncVoipAttenuationValueList(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithNetSyncVoipAttenuationValueList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x2582aa8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

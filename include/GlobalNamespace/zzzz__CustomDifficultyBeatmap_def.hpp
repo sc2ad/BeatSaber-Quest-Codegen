@@ -5,45 +5,54 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class IBeatmapLevel;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__CustomDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__33;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__CustomDifficultyBeatmap___GetBeatmapDataAsync_d__34;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0;
+}
+namespace GlobalNamespace {
 class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
 }
 namespace BeatmapSaveDataVersion3 {
 class BeatmapSaveData;
 }
 namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class IDifficultyBeatmap;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -220,8 +229,7 @@ constexpr GlobalNamespace::PlayerSpecificSettings __get_playerSpecificSettings()
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0() ;
+static GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e9c64 size 0x8 virtual false final false
  void _ctor() ;
@@ -518,8 +526,7 @@ constexpr BeatmapSaveDataVersion3::BeatmapSaveData __get__beatmapSaveData_k__Bac
 /// @brief Method GetBeatmapDataAsync addr 0x21e9850 size 0x108 virtual true final true
  System::Threading::Tasks::Task_1<GlobalNamespace::IReadonlyBeatmapData> GetBeatmapDataAsync(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
 
-// Ctor Parameters [CppParam { name: "level", ty: "GlobalNamespace::IBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "parentDifficultyBeatmapSet", ty: "GlobalNamespace::IDifficultyBeatmapSet", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "difficultyRank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpMovementSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapColorSchemeIdx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "environmentNameIdx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatmapSaveData", ty: "BeatmapSaveDataVersion3::BeatmapSaveData", modifiers: "", def_value: None }, CppParam { name: "beatmapDataBasicInfo", ty: "GlobalNamespace::IBeatmapDataBasicInfo", modifiers: "", def_value: None }]
-explicit CustomDifficultyBeatmap(GlobalNamespace::IBeatmapLevel level, GlobalNamespace::IDifficultyBeatmapSet parentDifficultyBeatmapSet, GlobalNamespace::BeatmapDifficulty difficulty, int32_t difficultyRank, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, float_t beatsPerMinute, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx, BeatmapSaveDataVersion3::BeatmapSaveData beatmapSaveData, GlobalNamespace::IBeatmapDataBasicInfo beatmapDataBasicInfo) ;
+static GlobalNamespace::CustomDifficultyBeatmap New_ctor(GlobalNamespace::IBeatmapLevel level, GlobalNamespace::IDifficultyBeatmapSet parentDifficultyBeatmapSet, GlobalNamespace::BeatmapDifficulty difficulty, int32_t difficultyRank, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, float_t beatsPerMinute, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx, BeatmapSaveDataVersion3::BeatmapSaveData beatmapSaveData, GlobalNamespace::IBeatmapDataBasicInfo beatmapDataBasicInfo) ;
 
 /// @brief Method .ctor addr 0x21e9958 size 0x94 virtual false final false
  void _ctor(GlobalNamespace::IBeatmapLevel level, GlobalNamespace::IDifficultyBeatmapSet parentDifficultyBeatmapSet, GlobalNamespace::BeatmapDifficulty difficulty, int32_t difficultyRank, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, float_t beatsPerMinute, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx, BeatmapSaveDataVersion3::BeatmapSaveData beatmapSaveData, GlobalNamespace::IBeatmapDataBasicInfo beatmapDataBasicInfo) ;

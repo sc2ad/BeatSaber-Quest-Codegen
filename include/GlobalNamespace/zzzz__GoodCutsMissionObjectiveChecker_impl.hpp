@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_impl.hpp"
 #include "GlobalNamespace/zzzz__GoodCutsMissionObjectiveChecker_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GoodCutsMissionObjectiveChecker.Init
 template<>
@@ -105,8 +105,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteController, noteCutInfo);
 }
-// Ctor Parameters []
- GlobalNamespace::GoodCutsMissionObjectiveChecker::GoodCutsMissionObjectiveChecker()  : GlobalNamespace::SimpleValueMissionObjectiveChecker(THROW_UNLESS(::il2cpp_utils::New<GoodCutsMissionObjectiveChecker>())) {}
+ GlobalNamespace::GoodCutsMissionObjectiveChecker GlobalNamespace::GoodCutsMissionObjectiveChecker::New_ctor()  {
+GlobalNamespace::GoodCutsMissionObjectiveChecker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GoodCutsMissionObjectiveChecker>())};
+return o;
+}
  void GlobalNamespace::GoodCutsMissionObjectiveChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GoodCutsMissionObjectiveChecker>::get(),

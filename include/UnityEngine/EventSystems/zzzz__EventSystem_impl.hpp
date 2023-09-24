@@ -2,14 +2,15 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseInputModule_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "System/zzzz__Comparison_1_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseInputModule_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "activeEventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: Some("csnull") }, CppParam { name: "sendEvents", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "createPanelGameObjectsOnStart", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig::UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig(UnityEngine::EventSystems::EventSystem activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart) noexcept : ::bs_hook::ValueTypeWrapper() {this->activeEventSystem = activeEventSystem;
 this->sendEvents = sendEvents;
@@ -73,8 +74,10 @@ constexpr void UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem
 constexpr UnityEngine::GameObject UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0::__get_go() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GameObject, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0>())) {}
+ UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0 UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0::New_ctor()  {
+UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0>())};
+return o;
+}
  void UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0>::get(),
@@ -885,8 +888,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::EventSystem::EventSystem()  : UnityEngine::EventSystems::UIBehaviour(THROW_UNLESS(::il2cpp_utils::New<EventSystem>())) {}
+ UnityEngine::EventSystems::EventSystem UnityEngine::EventSystems::EventSystem::New_ctor()  {
+UnityEngine::EventSystems::EventSystem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::EventSystem>())};
+return o;
+}
  void UnityEngine::EventSystems::EventSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::EventSystem>::get(),

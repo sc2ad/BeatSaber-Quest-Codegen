@@ -3,29 +3,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Oculus::Platform {
-class Request;
-}
-namespace Oculus::Platform {
-class RoomOptions;
-}
 namespace Oculus::Platform::Models {
-class UserList;
+class Room;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
 namespace Oculus::Platform {
-template<typename T>
-class Oculus__Platform__Message_1__Callback;
+class RoomOptions;
+}
+namespace Oculus::Platform {
+class Request;
 }
 namespace Oculus::Platform::Models {
-class Room;
+class RoomInviteNotification;
+}
+namespace Oculus::Platform::Models {
+class UserList;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Oculus__Platform__Message_1__Callback;
 }
 namespace Oculus::Platform::Models {
 class RoomList;
@@ -35,9 +38,6 @@ struct RoomMembershipLockStatus;
 }
 namespace Oculus::Platform {
 struct RoomJoinPolicy;
-}
-namespace Oculus::Platform::Models {
-class RoomInviteNotification;
 }
 // Forward declare root types
 namespace Oculus::Platform {

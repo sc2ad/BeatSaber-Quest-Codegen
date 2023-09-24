@@ -3,8 +3,9 @@
 #include "UnityEngine/Rendering/zzzz__BatchRendererGroup_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchRendererCullingOutput_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_def.hpp"
-#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
+#include "UnityEngine/Rendering/zzzz__BatchRendererGroup_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingContext_def.hpp"
+#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 //  Writing Method size for method: UnityEngine::Rendering::UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling._ctor
 template<>
 
@@ -39,8 +40,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Jobs
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Rendering::UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling::UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling>(object, method))) {}
+ UnityEngine::Rendering::UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling UnityEngine::Rendering::UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::Rendering::UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Rendering::UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling>(object, method))};
+return o;
+}
  void UnityEngine::Rendering::UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Rendering::UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling>::get(),

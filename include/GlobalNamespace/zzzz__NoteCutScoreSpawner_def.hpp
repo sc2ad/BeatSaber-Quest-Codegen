@@ -5,10 +5,10 @@ namespace GlobalNamespace {
 class FlyingScoreSpawner;
 }
 namespace GlobalNamespace {
-class ScoringElement;
+class IScoreController;
 }
 namespace GlobalNamespace {
-class IScoreController;
+class ScoringElement;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::IScoreController __get__scoreController() const;
 /// @brief Method HandleScoringForNoteStarted addr 0x225a698 size 0xac virtual false final false
  void HandleScoringForNoteStarted(GlobalNamespace::ScoringElement scoringElement) ;
 
-// Ctor Parameters []
-explicit NoteCutScoreSpawner() ;
+static GlobalNamespace::NoteCutScoreSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x225a744 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace HMUI {
 struct HMUI__SelectableCell__TransitionType;
 }
 namespace HMUI {
 class SelectableCell;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace HMUI {
@@ -108,8 +108,7 @@ constexpr UnityEngine::AnimationClip __get__selectedAndHighlightedAnimationClip(
 /// @brief Method RefreshVisuals addr 0x1fd268c size 0x64 virtual false final false
  void RefreshVisuals() ;
 
-// Ctor Parameters []
-explicit SelectableCellStaticAnimations() ;
+static HMUI::SelectableCellStaticAnimations New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd27e4 size 0x8 virtual false final false
  void _ctor() ;

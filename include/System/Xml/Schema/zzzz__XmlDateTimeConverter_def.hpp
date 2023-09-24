@@ -3,20 +3,20 @@
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-struct DateTimeOffset;
-}
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System {
-struct DateTime;
+class Type;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System {
-class Type;
+struct DateTime;
+}
+namespace System {
+struct DateTimeOffset;
 }
 namespace System::Xml::Schema {
 class XmlValueConverter;
@@ -67,8 +67,7 @@ constexpr explicit XmlDateTimeConverter(void* ptr) noexcept : System::Xml::Schem
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
-explicit XmlDateTimeConverter(System::Xml::Schema::XmlSchemaType schemaType) ;
+static System::Xml::Schema::XmlDateTimeConverter New_ctor(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method .ctor addr 0x27410e8 size 0x64 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType schemaType) ;

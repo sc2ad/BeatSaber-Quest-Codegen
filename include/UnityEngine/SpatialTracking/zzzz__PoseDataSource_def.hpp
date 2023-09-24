@@ -2,24 +2,24 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace UnityEngine {
-struct Pose;
-}
 namespace UnityEngine::SpatialTracking {
 struct PoseDataFlags;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace UnityEngine::SpatialTracking {
-struct UnityEngine__SpatialTracking__TrackedPoseDriver__TrackedPose;
-}
 namespace UnityEngine::XR {
 struct XRNodeState;
+}
+namespace UnityEngine::SpatialTracking {
+struct UnityEngine__SpatialTracking__TrackedPoseDriver__TrackedPose;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+struct Pose;
 }
 // Forward declare root types
 namespace UnityEngine::SpatialTracking {

@@ -564,8 +564,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, x, zz);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Custom::Sec::SecT409Field::SecT409Field()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SecT409Field>())) {}
+ Org::BouncyCastle::Math::EC::Custom::Sec::SecT409Field Org::BouncyCastle::Math::EC::Custom::Sec::SecT409Field::New_ctor()  {
+Org::BouncyCastle::Math::EC::Custom::Sec::SecT409Field o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Sec::SecT409Field>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Sec::SecT409Field::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::SecT409Field>::get(),

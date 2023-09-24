@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__DefaultEnvironmentEventsFactory_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupLists_def.hpp"
 #include "GlobalNamespace/zzzz__DefaultEnvironmentEvents_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DefaultEnvironmentEventsFactory.InsertDefaultEnvironmentEvents
 template<>

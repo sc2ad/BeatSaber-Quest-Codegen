@@ -4,9 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509::SigI {
@@ -14,6 +11,9 @@ class NameOrPseudonym;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
 }
 namespace Org::BouncyCastle::Asn1::X500 {
 class DirectoryString;
@@ -124,14 +124,12 @@ constexpr Org::BouncyCastle::Asn1::X500::DirectoryString __get_postalAddress() c
 /// @brief Method GetInstance addr 0xff5b28 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::X509::SigI::PersonalData GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PersonalData(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::SigI::PersonalData New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff5cb0 size 0x36c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "nameOrPseudonym", ty: "Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym", modifiers: "", def_value: None }, CppParam { name: "nameDistinguisher", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "dateOfBirth", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }, CppParam { name: "placeOfBirth", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "gender", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "postalAddress", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }]
-explicit PersonalData(Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym nameOrPseudonym, Org::BouncyCastle::Math::BigInteger nameDistinguisher, Org::BouncyCastle::Asn1::DerGeneralizedTime dateOfBirth, Org::BouncyCastle::Asn1::X500::DirectoryString placeOfBirth, ::StringW gender, Org::BouncyCastle::Asn1::X500::DirectoryString postalAddress) ;
+static Org::BouncyCastle::Asn1::X509::SigI::PersonalData New_ctor(Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym nameOrPseudonym, Org::BouncyCastle::Math::BigInteger nameDistinguisher, Org::BouncyCastle::Asn1::DerGeneralizedTime dateOfBirth, Org::BouncyCastle::Asn1::X500::DirectoryString placeOfBirth, ::StringW gender, Org::BouncyCastle::Asn1::X500::DirectoryString postalAddress) ;
 
 /// @brief Method .ctor addr 0xff601c size 0x54 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym nameOrPseudonym, Org::BouncyCastle::Math::BigInteger nameDistinguisher, Org::BouncyCastle::Asn1::DerGeneralizedTime dateOfBirth, Org::BouncyCastle::Asn1::X500::DirectoryString placeOfBirth, ::StringW gender, Org::BouncyCastle::Asn1::X500::DirectoryString postalAddress) ;

@@ -4,8 +4,6 @@
 #include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLeadPlayerProvider.add_newLeaderWasSelectedEvent
 template<>
 
@@ -305,8 +303,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstPlayer);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLeadPlayerProvider::MultiplayerLeadPlayerProvider()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLeadPlayerProvider>())) {}
+ GlobalNamespace::MultiplayerLeadPlayerProvider GlobalNamespace::MultiplayerLeadPlayerProvider::New_ctor()  {
+GlobalNamespace::MultiplayerLeadPlayerProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLeadPlayerProvider>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLeadPlayerProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLeadPlayerProvider>::get(),

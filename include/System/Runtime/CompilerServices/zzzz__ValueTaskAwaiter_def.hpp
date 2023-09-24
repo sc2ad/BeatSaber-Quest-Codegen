@@ -3,17 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 namespace System {
-class Action;
-}
-namespace System {
 template<typename T>
 class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
 }
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
 namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
+class System__Runtime__CompilerServices__ValueTaskAwaiter____c;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -73,8 +76,7 @@ static System::Runtime::CompilerServices::System__Runtime__CompilerServices__Val
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__CompilerServices__ValueTaskAwaiter____c() ;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x236e9b8 size 0x8 virtual false final false
  void _ctor() ;

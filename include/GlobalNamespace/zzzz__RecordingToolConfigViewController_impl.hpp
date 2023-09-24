@@ -58,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-// Ctor Parameters []
- GlobalNamespace::RecordingToolConfigViewController::RecordingToolConfigViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<RecordingToolConfigViewController>())) {}
+ GlobalNamespace::RecordingToolConfigViewController GlobalNamespace::RecordingToolConfigViewController::New_ctor()  {
+GlobalNamespace::RecordingToolConfigViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingToolConfigViewController>())};
+return o;
+}
  void GlobalNamespace::RecordingToolConfigViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingToolConfigViewController>::get(),

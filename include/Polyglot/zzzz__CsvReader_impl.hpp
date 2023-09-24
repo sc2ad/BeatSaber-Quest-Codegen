@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "Polyglot/zzzz__CsvReader_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Polyglot/zzzz__CsvReader_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Polyglot::Polyglot__CsvReader__ParsingMode::Polyglot__CsvReader__ParsingMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -57,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<System::Collections::Generic::List_1<::StringW>>, false>(nullptr, ___internal_method, src);
 }
-// Ctor Parameters []
- Polyglot::CsvReader::CsvReader()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CsvReader>())) {}
+ Polyglot::CsvReader Polyglot::CsvReader::New_ctor()  {
+Polyglot::CsvReader o{THROW_UNLESS(::il2cpp_utils::New<Polyglot::CsvReader>())};
+return o;
+}
  void Polyglot::CsvReader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Polyglot::CsvReader>::get(),

@@ -75,8 +75,7 @@ constexpr ::cordl_internals::intptr_t __get_m_ptr() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "numBytes", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OVRNativeBuffer(int32_t numBytes) ;
+static GlobalNamespace::OVRNativeBuffer New_ctor(int32_t numBytes) ;
 
 /// @brief Method .ctor addr 0x25a9cc8 size 0x70 virtual false final false
  void _ctor(int32_t numBytes) ;

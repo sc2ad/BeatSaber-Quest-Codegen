@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Polyglot {
-struct GoogleDriveDownloadFormat;
-}
 namespace UnityEngine {
 class TextAsset;
+}
+namespace Polyglot {
+struct GoogleDriveDownloadFormat;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -130,8 +130,7 @@ constexpr bool __get_downloadOnStart() const;
 /// @brief Method set_DownloadOnStart addr 0x2672c90 size 0xc virtual false final false
  void set_DownloadOnStart(bool value) ;
 
-// Ctor Parameters []
-explicit LocalizationDocument() ;
+static Polyglot::LocalizationDocument New_ctor() ;
 
 /// @brief Method .ctor addr 0x2672c9c size 0x8 virtual false final false
  void _ctor() ;

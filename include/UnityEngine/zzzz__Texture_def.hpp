@@ -4,32 +4,32 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::Rendering {
-struct TextureDimension;
+namespace UnityEngine {
+struct TextureFormat;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
 }
 namespace UnityEngine {
-class UnityException;
+struct ColorSpace;
+}
+namespace UnityEngine::Rendering {
+struct TextureDimension;
 }
 namespace UnityEngine {
 struct TextureWrapMode;
 }
 namespace UnityEngine {
-struct TextureFormat;
+class UnityException;
 }
 namespace UnityEngine {
-struct ColorSpace;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
+struct FilterMode;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct FormatUsage;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine {
-struct FilterMode;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -111,8 +111,7 @@ static int32_t __get_GenerateAllMips() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Texture() ;
+static UnityEngine::Texture New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b372d4 size 0x58 virtual false final false
  void _ctor() ;

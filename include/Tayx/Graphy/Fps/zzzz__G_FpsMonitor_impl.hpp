@@ -1,6 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
+#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c._ctor
 template<>
@@ -48,8 +49,10 @@ return ::cordl_internals::getStaticField<Tayx::Graphy::Fps::Tayx__Graphy__Fps__G
  System::Comparison_1<int16_t> Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c::__get___9__25_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<int16_t>, "<>9__25_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c>::get>();
 }
-// Ctor Parameters []
- Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c::Tayx__Graphy__Fps__G_FpsMonitor____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tayx__Graphy__Fps__G_FpsMonitor____c>())) {}
+ Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c::New_ctor()  {
+Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c>())};
+return o;
+}
  void Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c>::get(),
@@ -469,8 +472,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tayx::Graphy::Fps::G_FpsMonitor::G_FpsMonitor()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<G_FpsMonitor>())) {}
+ Tayx::Graphy::Fps::G_FpsMonitor Tayx::Graphy::Fps::G_FpsMonitor::New_ctor()  {
+Tayx::Graphy::Fps::G_FpsMonitor o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Fps::G_FpsMonitor>())};
+return o;
+}
  void Tayx::Graphy::Fps::G_FpsMonitor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Fps::G_FpsMonitor>::get(),

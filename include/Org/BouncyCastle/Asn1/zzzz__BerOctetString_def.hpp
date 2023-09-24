@@ -8,16 +8,19 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOctetString;
@@ -106,8 +109,7 @@ constexpr int32_t __get_nextChunkPos() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "octets", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator(::ArrayW<uint8_t> octets, int32_t chunkSize) ;
+static Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator New_ctor(::ArrayW<uint8_t> octets, int32_t chunkSize) ;
 
 /// @brief Method .ctor addr 0x113190c size 0x38 virtual false final false
  void _ctor(::ArrayW<uint8_t> octets, int32_t chunkSize) ;
@@ -202,38 +204,32 @@ static ::ArrayW<uint8_t> ToBytes(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetStri
 /// @brief Method ToOctetStringArray addr 0x11314d8 size 0x1ec virtual false final false
 static ::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> ToOctetStringArray(System::Collections::IEnumerable e) ;
 
-// Ctor Parameters [CppParam { name: "e", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit BerOctetString(System::Collections::IEnumerable e) ;
+static Org::BouncyCastle::Asn1::BerOctetString New_ctor(System::Collections::IEnumerable e) ;
 
 /// @brief Method .ctor addr 0x11316c4 size 0x6c virtual false final false
  void _ctor(System::Collections::IEnumerable e) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit BerOctetString(::ArrayW<uint8_t> str) ;
+static Org::BouncyCastle::Asn1::BerOctetString New_ctor(::ArrayW<uint8_t> str) ;
 
 /// @brief Method .ctor addr 0x1131730 size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> str) ;
 
-// Ctor Parameters [CppParam { name: "octs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString>", modifiers: "", def_value: None }]
-explicit BerOctetString(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs) ;
+static Org::BouncyCastle::Asn1::BerOctetString New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs) ;
 
 /// @brief Method .ctor addr 0x1129c88 size 0x70 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BerOctetString(::ArrayW<uint8_t> str, int32_t chunkSize) ;
+static Org::BouncyCastle::Asn1::BerOctetString New_ctor(::ArrayW<uint8_t> str, int32_t chunkSize) ;
 
 /// @brief Method .ctor addr 0x11317ac size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> str, int32_t chunkSize) ;
 
-// Ctor Parameters [CppParam { name: "octs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString>", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BerOctetString(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize) ;
+static Org::BouncyCastle::Asn1::BerOctetString New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize) ;
 
 /// @brief Method .ctor addr 0x11317d4 size 0x7c virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "octs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString>", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BerOctetString(::ArrayW<uint8_t> str, ::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize) ;
+static Org::BouncyCastle::Asn1::BerOctetString New_ctor(::ArrayW<uint8_t> str, ::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize) ;
 
 /// @brief Method .ctor addr 0x1131850 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint8_t> str, ::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize) ;

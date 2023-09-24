@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::UIElements {
 template<typename T>
-class INotifyValueChanged_1;
+class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
-class ChangeEvent_1;
+class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
 template<typename TEventType>

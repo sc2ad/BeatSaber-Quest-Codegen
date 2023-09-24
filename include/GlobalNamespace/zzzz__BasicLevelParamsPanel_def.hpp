@@ -79,8 +79,7 @@ constexpr TMPro::TextMeshProUGUI __get__bpmText() const;
 /// @brief Method set_bpm addr 0x218499c size 0x48 virtual false final false
  void set_bpm(float_t value) ;
 
-// Ctor Parameters []
-explicit BasicLevelParamsPanel() ;
+static GlobalNamespace::BasicLevelParamsPanel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21849e4 size 0x8 virtual false final false
  void _ctor() ;

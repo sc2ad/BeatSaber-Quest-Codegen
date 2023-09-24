@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceClient_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
-#include "IgnoranceThirdparty/zzzz__RingBuffer_1_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceIncomingPacket_def.hpp"
+#include "IgnoranceThirdparty/zzzz__RingBuffer_1_def.hpp"
+#include "IgnoranceCore/zzzz__IgnoranceClient_def.hpp"
+#include "IgnoranceCore/zzzz__IgnoranceClientStats_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceOutgoingPacket_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceCommandPacket_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceConnectionEvent_def.hpp"
-#include "IgnoranceCore/zzzz__IgnoranceClientStats_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
 // Ctor Parameters [CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PollTime", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Port", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Verbosity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "UseSsl", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "ValidateCertificate", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "RootCertificatePath", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "RootCertificate", ty: "::StringW", modifiers: "", def_value: Some("csnull") }]
 constexpr IgnoranceCore::IgnoranceCore__IgnoranceClient__ThreadParamInfo::IgnoranceCore__IgnoranceClient__ThreadParamInfo(int32_t Channels, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity, ::StringW Address, bool UseSsl, bool ValidateCertificate, ::StringW RootCertificatePath, ::StringW RootCertificate) noexcept : ::bs_hook::ValueTypeWrapper() {this->Channels = Channels;
 this->PollTime = PollTime;
@@ -347,8 +348,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- IgnoranceCore::IgnoranceClient::IgnoranceClient()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IgnoranceClient>())) {}
+ IgnoranceCore::IgnoranceClient IgnoranceCore::IgnoranceClient::New_ctor()  {
+IgnoranceCore::IgnoranceClient o{THROW_UNLESS(::il2cpp_utils::New<IgnoranceCore::IgnoranceClient>())};
+return o;
+}
  void IgnoranceCore::IgnoranceClient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IgnoranceCore::IgnoranceClient>::get(),

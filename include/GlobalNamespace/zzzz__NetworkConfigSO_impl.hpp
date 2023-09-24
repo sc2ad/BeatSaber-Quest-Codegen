@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkConfigSO_def.hpp"
+#include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
-#include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NetworkConfigSO.get_maxPartySize
 template<>
 
@@ -409,8 +409,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::NetworkConfigSO::NetworkConfigSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<NetworkConfigSO>())) {}
+ GlobalNamespace::NetworkConfigSO GlobalNamespace::NetworkConfigSO::New_ctor()  {
+GlobalNamespace::NetworkConfigSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NetworkConfigSO>())};
+return o;
+}
  void GlobalNamespace::NetworkConfigSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NetworkConfigSO>::get(),

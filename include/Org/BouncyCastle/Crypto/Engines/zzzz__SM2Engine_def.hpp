@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECKeyParameters;
@@ -15,14 +15,14 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ECMultiplier;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -115,14 +115,12 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_mRandom() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SM2Engine() ;
+static Org::BouncyCastle::Crypto::Engines::SM2Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe5c230 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit SM2Engine(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Engines::SM2Engine New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe5c29c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

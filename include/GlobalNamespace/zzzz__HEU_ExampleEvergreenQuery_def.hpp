@@ -4,15 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
-}
 namespace System::Text {
 class StringBuilder;
 }
@@ -20,10 +11,19 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_GeoInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+struct HAPI_AttributeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeOwner;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -98,8 +98,7 @@ static void QueryAttributeByStorageType(HoudiniEngineUnity::HEU_SessionBase sess
 /// @brief Method QueryAttribute addr 0x1fd819c size 0x444 virtual false final false
 static void QueryAttribute(HoudiniEngineUnity::HEU_HoudiniAsset houdiniAsset, ::StringW objName, ::StringW geoName, int32_t partID, ::StringW attrName) ;
 
-// Ctor Parameters []
-explicit HEU_ExampleEvergreenQuery() ;
+static GlobalNamespace::HEU_ExampleEvergreenQuery New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd9234 size 0x8 virtual false final false
  void _ctor() ;

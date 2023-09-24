@@ -23,8 +23,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 constexpr  GlobalNamespace::LightColorGroupParent::operator GlobalNamespace::IEditTimeValidated() const noexcept {
 return GlobalNamespace::IEditTimeValidated(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::LightColorGroupParent::LightColorGroupParent()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightColorGroupParent>())) {}
+ GlobalNamespace::LightColorGroupParent GlobalNamespace::LightColorGroupParent::New_ctor()  {
+GlobalNamespace::LightColorGroupParent o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightColorGroupParent>())};
+return o;
+}
  void GlobalNamespace::LightColorGroupParent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightColorGroupParent>::get(),

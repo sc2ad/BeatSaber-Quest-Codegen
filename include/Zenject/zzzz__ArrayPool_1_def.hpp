@@ -22,7 +22,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11026)), TypeDefinitionIndex(TypeDefinitionIndex(11036)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 2701 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11036)), TypeDefinitionIndex(TypeDefinitionIndex(11026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 2701 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11036), inst: 2 })
 // CS Name: Zenject.ArrayPool`1
 class CORDL_TYPE ArrayPool_1<T> : public Zenject::StaticMemoryPoolBaseBase_1<::ArrayW<T>> {
@@ -76,8 +76,7 @@ static System::Collections::Generic::Dictionary_2<int32_t,Zenject::ArrayPool_1<T
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ArrayPool_1(int32_t length) ;
+static Zenject::ArrayPool_1<T> New_ctor(int32_t length) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t length) ;

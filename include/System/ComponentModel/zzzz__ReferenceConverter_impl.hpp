@@ -1,10 +1,11 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__ReferenceConverter_def.hpp"
+#include "System/ComponentModel/zzzz__ReferenceConverter_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
-#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 //  Writing Method size for method: System::ComponentModel::System__ComponentModel__ReferenceConverter__ReferenceComparer._ctor
 template<>
@@ -50,8 +51,10 @@ constexpr void System::ComponentModel::System__ComponentModel__ReferenceConverte
 constexpr System::ComponentModel::ReferenceConverter System::ComponentModel::System__ComponentModel__ReferenceConverter__ReferenceComparer::__get__converter() const {
 return ::cordl_internals::getInstanceField<System::ComponentModel::ReferenceConverter, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "converter", ty: "System::ComponentModel::ReferenceConverter", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__ReferenceConverter__ReferenceComparer::System__ComponentModel__ReferenceConverter__ReferenceComparer(System::ComponentModel::ReferenceConverter converter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__ReferenceConverter__ReferenceComparer>(converter))) {}
+ System::ComponentModel::System__ComponentModel__ReferenceConverter__ReferenceComparer System::ComponentModel::System__ComponentModel__ReferenceConverter__ReferenceComparer::New_ctor(System::ComponentModel::ReferenceConverter converter)  {
+System::ComponentModel::System__ComponentModel__ReferenceConverter__ReferenceComparer o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__ReferenceConverter__ReferenceComparer>(converter))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__ReferenceConverter__ReferenceComparer::_ctor(System::ComponentModel::ReferenceConverter converter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__ReferenceConverter__ReferenceComparer>::get(),
@@ -218,8 +221,10 @@ constexpr void System::ComponentModel::ReferenceConverter::__set__type(System::T
 constexpr System::Type System::ComponentModel::ReferenceConverter::__get__type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::ComponentModel::ReferenceConverter::ReferenceConverter(System::Type type)  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<ReferenceConverter>(type))) {}
+ System::ComponentModel::ReferenceConverter System::ComponentModel::ReferenceConverter::New_ctor(System::Type type)  {
+System::ComponentModel::ReferenceConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ReferenceConverter>(type))};
+return o;
+}
  void System::ComponentModel::ReferenceConverter::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ReferenceConverter>::get(),

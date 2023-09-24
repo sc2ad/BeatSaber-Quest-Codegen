@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+struct GlobalNamespace__RankModel__Rank;
 }
 namespace GlobalNamespace {
 class RelativeScoreAndImmediateRankCounter;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__RankModel__Rank;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +108,7 @@ constexpr GlobalNamespace::GlobalNamespace__RankModel__Rank __get__prevImmediate
 /// @brief Method RefreshUI addr 0x22758e4 size 0x16c virtual false final false
  void RefreshUI() ;
 
-// Ctor Parameters []
-explicit ImmediateRankUIPanel() ;
+static GlobalNamespace::ImmediateRankUIPanel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2275af0 size 0x14 virtual false final false
  void _ctor() ;

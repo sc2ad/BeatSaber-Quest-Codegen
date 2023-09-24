@@ -98,8 +98,10 @@ constexpr void Mono::Security::Protocol::Ntlm::Type1Message::__set__domain(::Str
 constexpr ::StringW Mono::Security::Protocol::Ntlm::Type1Message::__get__domain() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::Protocol::Ntlm::Type1Message::Type1Message()  : Mono::Security::Protocol::Ntlm::MessageBase(THROW_UNLESS(::il2cpp_utils::New<Type1Message>())) {}
+ Mono::Security::Protocol::Ntlm::Type1Message Mono::Security::Protocol::Ntlm::Type1Message::New_ctor()  {
+Mono::Security::Protocol::Ntlm::Type1Message o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Protocol::Ntlm::Type1Message>())};
+return o;
+}
  void Mono::Security::Protocol::Ntlm::Type1Message::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Protocol::Ntlm::Type1Message>::get(),

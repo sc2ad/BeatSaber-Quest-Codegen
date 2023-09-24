@@ -2,11 +2,11 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct MessageEnum;
-}
 namespace System {
 class Type;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct MessageEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
@@ -108,8 +108,7 @@ static ::bs_hook::Il2CppWrapperType __get_instanceOfVoid() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit BinaryMethodReturn() ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn New_ctor() ;
 
 /// @brief Method .ctor addr 0x2355f74 size 0x10 virtual false final false
  void _ctor() ;

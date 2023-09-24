@@ -48,8 +48,7 @@ constexpr explicit DoubleSO(void* ptr) noexcept : GlobalNamespace::ObservableVar
 
 // Methods
 
-// Ctor Parameters []
-explicit DoubleSO() ;
+static GlobalNamespace::DoubleSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83d1c size 0x48 virtual false final false
  void _ctor() ;

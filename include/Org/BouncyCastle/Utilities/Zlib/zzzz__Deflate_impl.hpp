@@ -1,6 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Deflate_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
+#include "Org/BouncyCastle/Utilities/Zlib/zzzz__Deflate_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Tree_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config._ctor
 template<>
@@ -49,8 +50,10 @@ constexpr void Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities_
 constexpr int32_t Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config::__get_func() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "good_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max_lazy", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nice_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max_chain", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "func", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config::Org__BouncyCastle__Utilities__Zlib__Deflate__Config(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Utilities__Zlib__Deflate__Config>(good_length, max_lazy, nice_length, max_chain, func))) {}
+ Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config::New_ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func)  {
+Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config>(good_length, max_lazy, nice_length, max_chain, func))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config::_ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config>::get(),
@@ -1071,8 +1074,10 @@ constexpr void Org::BouncyCastle::Utilities::Zlib::Deflate::__set_bi_valid(int32
 constexpr int32_t Org::BouncyCastle::Utilities::Zlib::Deflate::__get_bi_valid() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x12c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Zlib::Deflate::Deflate()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Deflate>())) {}
+ Org::BouncyCastle::Utilities::Zlib::Deflate Org::BouncyCastle::Utilities::Zlib::Deflate::New_ctor()  {
+Org::BouncyCastle::Utilities::Zlib::Deflate o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::Deflate>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::Deflate::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::Deflate>::get(),

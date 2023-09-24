@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, distance);
 }
-// Ctor Parameters []
- GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::OffsetByBeatmapObjectSpawnCenter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OffsetByBeatmapObjectSpawnCenter>())) {}
+ GlobalNamespace::OffsetByBeatmapObjectSpawnCenter GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::New_ctor()  {
+GlobalNamespace::OffsetByBeatmapObjectSpawnCenter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OffsetByBeatmapObjectSpawnCenter>())};
+return o;
+}
  void GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OffsetByBeatmapObjectSpawnCenter>::get(),

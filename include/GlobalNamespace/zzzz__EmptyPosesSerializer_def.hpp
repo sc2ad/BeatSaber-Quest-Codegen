@@ -72,8 +72,7 @@ constexpr explicit EmptyPosesSerializer(void* ptr) noexcept : ::bs_hook::Il2CppW
 /// @brief Method RecordingCanBeCreated addr 0x21a3c94 size 0x8 virtual true final true
  bool RecordingCanBeCreated(::StringW path) ;
 
-// Ctor Parameters []
-explicit EmptyPosesSerializer() ;
+static GlobalNamespace::EmptyPosesSerializer New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a3c9c size 0x8 virtual false final false
  void _ctor() ;

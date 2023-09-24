@@ -23,8 +23,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 constexpr  GlobalNamespace::SteamNetworkPlayerModel::operator GlobalNamespace::INetworkPlayerModel() const noexcept {
 return GlobalNamespace::INetworkPlayerModel(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::SteamNetworkPlayerModel::SteamNetworkPlayerModel()  : GlobalNamespace::PlatformNetworkPlayerModel(THROW_UNLESS(::il2cpp_utils::New<SteamNetworkPlayerModel>())) {}
+ GlobalNamespace::SteamNetworkPlayerModel GlobalNamespace::SteamNetworkPlayerModel::New_ctor()  {
+GlobalNamespace::SteamNetworkPlayerModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SteamNetworkPlayerModel>())};
+return o;
+}
  void GlobalNamespace::SteamNetworkPlayerModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SteamNetworkPlayerModel>::get(),

@@ -186,8 +186,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, a, b, x);
 }
-// Ctor Parameters []
- GlobalNamespace::PerlinNoise::PerlinNoise()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PerlinNoise>())) {}
+ GlobalNamespace::PerlinNoise GlobalNamespace::PerlinNoise::New_ctor()  {
+GlobalNamespace::PerlinNoise o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PerlinNoise>())};
+return o;
+}
  void GlobalNamespace::PerlinNoise::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PerlinNoise>::get(),

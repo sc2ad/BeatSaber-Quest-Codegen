@@ -30,8 +30,10 @@ constexpr void Oculus::Platform::Models::SdkAccount::__set_UserId(uint64_t value
 constexpr uint64_t Oculus::Platform::Models::SdkAccount::__get_UserId() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::SdkAccount::SdkAccount(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SdkAccount>(o))) {}
+ Oculus::Platform::Models::SdkAccount Oculus::Platform::Models::SdkAccount::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::SdkAccount o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::SdkAccount>(o))};
+return o;
+}
  void Oculus::Platform::Models::SdkAccount::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::SdkAccount>::get(),

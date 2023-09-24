@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::ChangeCipherSpec::ChangeCipherSpec()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ChangeCipherSpec>())) {}
+ Org::BouncyCastle::Crypto::Tls::ChangeCipherSpec Org::BouncyCastle::Crypto::Tls::ChangeCipherSpec::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::ChangeCipherSpec o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ChangeCipherSpec>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ChangeCipherSpec::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ChangeCipherSpec>::get(),

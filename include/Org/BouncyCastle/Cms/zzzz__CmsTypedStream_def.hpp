@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Cms {
+class Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream;
+}
 namespace System::IO {
 class Stream;
 }
@@ -57,8 +60,7 @@ constexpr explicit Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream(void
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream(System::IO::Stream input) ;
+static Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x1174e44 size 0x8 virtual false final false
  void _ctor(System::IO::Stream input) ;
@@ -139,20 +141,17 @@ constexpr System::IO::Stream __get__in() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsTypedStream(System::IO::Stream inStream) ;
+static Org::BouncyCastle::Cms::CmsTypedStream New_ctor(System::IO::Stream inStream) ;
 
 /// @brief Method .ctor addr 0x1174d00 size 0x80 virtual false final false
  void _ctor(System::IO::Stream inStream) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsTypedStream(::StringW oid, System::IO::Stream inStream) ;
+static Org::BouncyCastle::Cms::CmsTypedStream New_ctor(::StringW oid, System::IO::Stream inStream) ;
 
 /// @brief Method .ctor addr 0x1162fa0 size 0x8 virtual false final false
  void _ctor(::StringW oid, System::IO::Stream inStream) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "bufSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CmsTypedStream(::StringW oid, System::IO::Stream inStream, int32_t bufSize) ;
+static Org::BouncyCastle::Cms::CmsTypedStream New_ctor(::StringW oid, System::IO::Stream inStream, int32_t bufSize) ;
 
 /// @brief Method .ctor addr 0x1174d80 size 0xc4 virtual false final false
  void _ctor(::StringW oid, System::IO::Stream inStream, int32_t bufSize) ;

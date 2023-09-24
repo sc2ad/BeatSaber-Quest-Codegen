@@ -3,35 +3,38 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
-class LightWithIdManager;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class LightColorBeatmapEventData;
-}
-namespace GlobalNamespace {
-struct EnvironmentColorType;
+class ColorManager;
 }
 namespace Tweening {
 class FloatTween;
 }
 namespace GlobalNamespace {
+class LightColorBeatmapEventData;
+}
+namespace GlobalNamespace {
+class LightWithIdManager;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
 class IBpmController;
 }
 namespace GlobalNamespace {
-class ColorManager;
+struct EnvironmentColorType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LightColorGroupEffect__InitData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +106,7 @@ constexpr int32_t __get_lightId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LightColorGroupEffect__InitData(int32_t groupId, int32_t elementId, int32_t lightId) ;
+static GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData New_ctor(int32_t groupId, int32_t elementId, int32_t lightId) ;
 
 /// @brief Method .ctor addr 0x225d950 size 0x3c virtual false final false
  void _ctor(int32_t groupId, int32_t elementId, int32_t lightId) ;
@@ -256,8 +258,7 @@ static UnityEngine::Color __get_offColor() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "lightManager", ty: "GlobalNamespace::LightWithIdManager", modifiers: "", def_value: None }, CppParam { name: "tweeningManager", ty: "Tweening::SongTimeTweeningManager", modifiers: "", def_value: None }, CppParam { name: "colorManager", ty: "GlobalNamespace::ColorManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }, CppParam { name: "bpmController", ty: "GlobalNamespace::IBpmController", modifiers: "", def_value: None }]
-explicit LightColorGroupEffect(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController) ;
+static GlobalNamespace::LightColorGroupEffect New_ctor(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController) ;
 
 /// @brief Method .ctor addr 0x225cc68 size 0x36c virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController) ;

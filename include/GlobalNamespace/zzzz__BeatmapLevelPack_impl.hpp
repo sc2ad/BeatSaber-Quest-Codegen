@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapLevelPack.get_packID
 template<>
 
@@ -265,8 +265,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::IBeatmapLevelCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "levelPackID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "packName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "shortPackName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "coverImage", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "smallCoverImage", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "levelCollection", ty: "GlobalNamespace::IBeatmapLevelCollection", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapLevelPack::BeatmapLevelPack(::StringW levelPackID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::IBeatmapLevelCollection levelCollection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelPack>(levelPackID, packName, shortPackName, coverImage, smallCoverImage, levelCollection))) {}
+ GlobalNamespace::BeatmapLevelPack GlobalNamespace::BeatmapLevelPack::New_ctor(::StringW levelPackID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::IBeatmapLevelCollection levelCollection)  {
+GlobalNamespace::BeatmapLevelPack o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelPack>(levelPackID, packName, shortPackName, coverImage, smallCoverImage, levelCollection))};
+return o;
+}
  void GlobalNamespace::BeatmapLevelPack::_ctor(::StringW levelPackID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::IBeatmapLevelCollection levelCollection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelPack>::get(),

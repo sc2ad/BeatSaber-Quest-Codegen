@@ -81,8 +81,7 @@ constexpr bool __get_Completed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit AssetFileDownloadUpdate(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::AssetFileDownloadUpdate New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x259cfbc size 0xbc virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

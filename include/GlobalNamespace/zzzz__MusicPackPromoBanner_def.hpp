@@ -2,14 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine {
-class RectTransform;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace UnityEngine {
+class RectTransform;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
@@ -17,11 +20,8 @@ class IBeatmapLevelPack;
 namespace UnityEngine {
 class GameObject;
 }
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo;
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -141,8 +141,7 @@ constexpr ::StringW __get__text() const;
 /// @brief Method Setup addr 0x218e470 size 0x108 virtual false final false
  void Setup(GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo musicPackPromoData, bool probablyOwned) ;
 
-// Ctor Parameters []
-explicit MusicPackPromoBanner() ;
+static GlobalNamespace::MusicPackPromoBanner New_ctor() ;
 
 /// @brief Method .ctor addr 0x218e578 size 0x8 virtual false final false
  void _ctor() ;

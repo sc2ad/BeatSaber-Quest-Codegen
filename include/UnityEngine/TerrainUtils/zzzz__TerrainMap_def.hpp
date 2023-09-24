@@ -2,28 +2,31 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine {
-class Terrain;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::TerrainUtils {
-struct TerrainTileCoord;
-}
 namespace System {
 template<typename T>
 class Predicate_1;
+}
+namespace UnityEngine::TerrainUtils {
+class UnityEngine__TerrainUtils__TerrainMap____c__DisplayClass3_0;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::TerrainUtils {
 struct TerrainMapStatusCode;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::TerrainUtils {
+struct TerrainTileCoord;
+}
+namespace UnityEngine {
+class Terrain;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::TerrainUtils {
@@ -83,8 +86,7 @@ constexpr int32_t __get_groupID() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__TerrainUtils__TerrainMap____c__DisplayClass3_0() ;
+static UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainMap____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba79ec size 0x8 virtual false final false
  void _ctor() ;
@@ -178,8 +180,7 @@ static UnityEngine::TerrainUtils::TerrainMap CreateFromPlacement(UnityEngine::Ve
 /// @brief Method get_terrainTiles addr 0x2ba80d0 size 0x8 virtual false final false
  System::Collections::Generic::Dictionary_2<UnityEngine::TerrainUtils::TerrainTileCoord,UnityEngine::Terrain> get_terrainTiles() ;
 
-// Ctor Parameters []
-explicit TerrainMap() ;
+static UnityEngine::TerrainUtils::TerrainMap New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba7dd4 size 0x84 virtual false final false
  void _ctor() ;

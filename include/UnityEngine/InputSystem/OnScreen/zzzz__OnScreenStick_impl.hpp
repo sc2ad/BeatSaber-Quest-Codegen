@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenControl_impl.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenStick_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::OnScreen::OnScreenStick.OnPointerDown
 template<>
 
@@ -273,8 +273,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::OnScreen::OnScreenStick::OnScreenStick()  : UnityEngine::InputSystem::OnScreen::OnScreenControl(THROW_UNLESS(::il2cpp_utils::New<OnScreenStick>())) {}
+ UnityEngine::InputSystem::OnScreen::OnScreenStick UnityEngine::InputSystem::OnScreen::OnScreenStick::New_ctor()  {
+UnityEngine::InputSystem::OnScreen::OnScreenStick o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::OnScreen::OnScreenStick>())};
+return o;
+}
  void UnityEngine::InputSystem::OnScreen::OnScreenStick::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::OnScreen::OnScreenStick>::get(),

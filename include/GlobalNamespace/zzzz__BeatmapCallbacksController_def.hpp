@@ -4,21 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapCallbacksController__ICallCallbacksBehavior;
 }
 namespace GlobalNamespace {
-template<typename T>
-class BeatmapDataCallback_1;
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -27,22 +29,32 @@ class Dictionary_2;
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
+namespace System {
+class Action;
+}
 namespace GlobalNamespace {
-class BeatmapDataItem;
+template<typename T>
+class BeatmapDataCallback_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapCallbacksController__InitData;
 }
 namespace GlobalNamespace {
 class CallbacksInTime;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
 }
 namespace System {
-class Type;
-}
-namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -123,8 +135,7 @@ constexpr bool __get_shouldKeepReplayState() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beatmapData", ty: "GlobalNamespace::IReadonlyBeatmapData", modifiers: "", def_value: None }, CppParam { name: "startFilterTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shouldKeepReplayState", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapCallbacksController__InitData(GlobalNamespace::IReadonlyBeatmapData beatmapData, float_t startFilterTime, bool shouldKeepReplayState) ;
+static GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData New_ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, float_t startFilterTime, bool shouldKeepReplayState) ;
 
 /// @brief Method .ctor addr 0x2231b10 size 0x40 virtual false final false
  void _ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, float_t startFilterTime, bool shouldKeepReplayState) ;
@@ -212,8 +223,7 @@ constexpr explicit GlobalNamespace__BeatmapCallbacksController__CallCallbacksBeh
 /// @brief Method Replay addr 0x2231b68 size 0x4 virtual true final true
  void Replay(System::Collections::Generic::Dictionary_2<float_t,GlobalNamespace::CallbacksInTime> callbacksInTimes) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior() ;
+static GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior New_ctor() ;
 
 /// @brief Method .ctor addr 0x2230228 size 0x8 virtual false final false
  void _ctor() ;
@@ -282,8 +292,7 @@ constexpr System::Collections::Generic::Dictionary_2<System::ValueTuple_2<System
 /// @brief Method Replay addr 0x2231c30 size 0x288 virtual true final true
  void Replay(System::Collections::Generic::Dictionary_2<float_t,GlobalNamespace::CallbacksInTime> callbacksInTimes) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState() ;
+static GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2230230 size 0x7c virtual false final false
  void _ctor() ;
@@ -424,8 +433,7 @@ constexpr bool __get__processingCallbacks() const;
 /// @brief Method remove_didProcessAllCallbacksThisFrameEvent addr 0x222fe64 size 0x9c virtual false final false
  void remove_didProcessAllCallbacksThisFrameEvent(System::Action value) ;
 
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData", modifiers: "", def_value: None }]
-explicit BeatmapCallbacksController(GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData initData) ;
+static GlobalNamespace::BeatmapCallbacksController New_ctor(GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData initData) ;
 
 /// @brief Method .ctor addr 0x222ff00 size 0x328 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData initData) ;

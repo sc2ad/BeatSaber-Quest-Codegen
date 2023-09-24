@@ -6,13 +6,13 @@ namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -69,8 +69,7 @@ constexpr explicit VersionConverter(void* ptr) noexcept : Newtonsoft::Json::Json
 /// @brief Method CanConvert addr 0x25408f4 size 0x84 virtual true final false
  bool CanConvert(System::Type objectType) ;
 
-// Ctor Parameters []
-explicit VersionConverter() ;
+static Newtonsoft::Json::Converters::VersionConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2540978 size 0x8 virtual false final false
  void _ctor() ;

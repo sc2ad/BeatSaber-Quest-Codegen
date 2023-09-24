@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsAgreementCredentials_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
-}
 namespace Org::BouncyCastle::Crypto {
 class IBasicAgreement;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
@@ -90,8 +90,7 @@ constexpr bool __get_mTruncateAgreement() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certificate", ty: "Org::BouncyCastle::Crypto::Tls::Certificate", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit DefaultTlsAgreementCredentials(Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials New_ctor(Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;
 
 /// @brief Method .ctor addr 0xed3ba0 size 0x2d4 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;

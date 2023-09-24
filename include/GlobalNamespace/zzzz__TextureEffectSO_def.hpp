@@ -53,8 +53,7 @@ constexpr explicit TextureEffectSO(void* ptr) noexcept : GlobalNamespace::Persis
 /// @brief Method Render addr 0x1fa3364 size 0x68 virtual true final false
  void Render(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest) ;
 
-// Ctor Parameters []
-explicit TextureEffectSO() ;
+static GlobalNamespace::TextureEffectSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa33cc size 0x8 virtual false final false
  void _ctor() ;

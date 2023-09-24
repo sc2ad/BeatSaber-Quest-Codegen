@@ -3,7 +3,7 @@
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
-class Label;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -12,13 +12,13 @@ namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class NavigationSubmitEvent;
+class Label;
 }
 namespace UnityEngine::UIElements {
 class Clickable;
+}
+namespace UnityEngine::UIElements {
+class NavigationSubmitEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -27,7 +27,7 @@ class BaseBoolField;
 // Type: UnityEngine.UIElements::BaseBoolField
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7228), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(7228))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7228)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7228), inst: 99 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7163))
 // CS Name: UnityEngine.UIElements.BaseBoolField
 class CORDL_TYPE BaseBoolField : public UnityEngine::UIElements::BaseField_1<bool> {
@@ -98,8 +98,7 @@ constexpr ::StringW __get_m_OriginalText() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BaseBoolField(::StringW label) ;
+static UnityEngine::UIElements::BaseBoolField New_ctor(::StringW label) ;
 
 /// @brief Method .ctor addr 0x2cb4a3c size 0x29c virtual false final false
  void _ctor(::StringW label) ;

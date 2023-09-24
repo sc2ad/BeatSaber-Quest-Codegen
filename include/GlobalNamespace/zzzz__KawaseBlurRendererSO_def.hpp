@@ -7,23 +7,35 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Shader;
+namespace GlobalNamespace {
+struct GlobalNamespace__KawaseBlurRendererSO__Pass;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-class Texture2D;
+class Shader;
+}
+namespace UnityEngine {
+class Texture;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__KawaseBlurRendererSO__BloomKernel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__KawaseBlurRendererSO__KernelSize;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__KawaseBlurRendererSO__WeightsType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -96,6 +108,8 @@ __Kernel143 = 7,
 constexpr operator __GlobalNamespace__KawaseBlurRendererSO__KernelSize_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__KawaseBlurRendererSO__KernelSize_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -185,6 +199,8 @@ constexpr operator __GlobalNamespace__KawaseBlurRendererSO__WeightsType_Unwrappe
 return std::bit_cast<__GlobalNamespace__KawaseBlurRendererSO__WeightsType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -264,8 +280,7 @@ constexpr int32_t __get_sharedPartWithNext() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__KawaseBlurRendererSO__BloomKernel() ;
+static GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__BloomKernel New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9a564 size 0x8 virtual false final false
  void _ctor() ;
@@ -328,6 +343,8 @@ __BlurGammaAndAdd = 6,
 constexpr operator __GlobalNamespace__KawaseBlurRendererSO__Pass_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__KawaseBlurRendererSO__Pass_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -563,8 +580,7 @@ static int32_t __get__tempTexture1ID() ;
 /// @brief Method CreateBlurCommandBuffer addr 0x1f9b354 size 0x310 virtual false final false
  UnityEngine::Rendering::CommandBuffer CreateBlurCommandBuffer(int32_t width, int32_t height, ::StringW globalTextureName, GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize kernelSize, float_t boost) ;
 
-// Ctor Parameters []
-explicit KawaseBlurRendererSO() ;
+static GlobalNamespace::KawaseBlurRendererSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9b664 size 0x8 virtual false final false
  void _ctor() ;

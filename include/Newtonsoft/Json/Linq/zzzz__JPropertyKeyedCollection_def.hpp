@@ -5,12 +5,12 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEqualityComparer_1;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -27,7 +27,7 @@ class JPropertyKeyedCollection;
 // Type: Newtonsoft.Json.Linq::JPropertyKeyedCollection
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3799)), TypeDefinitionIndex(TypeDefinitionIndex(11944)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3799), inst: 990 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3799)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3799), inst: 990 }), TypeDefinitionIndex(TypeDefinitionIndex(11944))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11911))
 // CS Name: Newtonsoft.Json.Linq.JPropertyKeyedCollection
 class CORDL_TYPE JPropertyKeyedCollection : public System::Collections::ObjectModel::Collection_1<Newtonsoft::Json::Linq::JToken> {
@@ -90,8 +90,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,Newtonsoft::Json:
 
 // Methods
 
-// Ctor Parameters []
-explicit JPropertyKeyedCollection() ;
+static Newtonsoft::Json::Linq::JPropertyKeyedCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x2517d38 size 0x90 virtual false final false
  void _ctor() ;

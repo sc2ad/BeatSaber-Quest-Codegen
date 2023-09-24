@@ -2,14 +2,15 @@
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/zzzz__ValveIndexControllerProfile_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
-#include "UnityEngine/XR/OpenXR/Input/zzzz__HapticControl_def.hpp"
-#include "UnityEngine/XR/OpenXR/Input/zzzz__PoseControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
+#include "UnityEngine/XR/OpenXR/Input/zzzz__PoseControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/XR/OpenXR/Input/zzzz__HapticControl_def.hpp"
+#include "UnityEngine/XR/OpenXR/Features/Interactions/zzzz__ValveIndexControllerProfile_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__ValveIndexControllerProfile__ValveIndexController.get_system
 template<>
 
@@ -1619,8 +1620,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__ValveIndexControllerProfile__ValveIndexController::UnityEngine__XR__OpenXR__Features__Interactions__ValveIndexControllerProfile__ValveIndexController()  : UnityEngine::InputSystem::XR::XRControllerWithRumble(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__Interactions__ValveIndexControllerProfile__ValveIndexController>())) {}
+ UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__ValveIndexControllerProfile__ValveIndexController UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__ValveIndexControllerProfile__ValveIndexController::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__ValveIndexControllerProfile__ValveIndexController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__ValveIndexControllerProfile__ValveIndexController>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__ValveIndexControllerProfile__ValveIndexController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__ValveIndexControllerProfile__ValveIndexController>::get(),
@@ -1725,8 +1728,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::ValveIndexControllerProfile()  : UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature(THROW_UNLESS(::il2cpp_utils::New<ValveIndexControllerProfile>())) {}
+ UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile>::get(),

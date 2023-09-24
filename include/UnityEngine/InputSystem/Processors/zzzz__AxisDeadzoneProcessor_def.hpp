@@ -86,8 +86,7 @@ constexpr float_t __get_max() const;
 /// @brief Method ToString addr 0x29662d8 size 0xa8 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit AxisDeadzoneProcessor() ;
+static UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2966380 size 0x48 virtual false final false
  void _ctor() ;

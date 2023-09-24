@@ -2,9 +2,10 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/XR/OpenXR/zzzz__OpenXRSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRSettings__RenderMode::UnityEngine__XR__OpenXR__OpenXRSettings__RenderMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -631,8 +632,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::XR::OpenXR::OpenXRSettings, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::OpenXRSettings::OpenXRSettings()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<OpenXRSettings>())) {}
+ UnityEngine::XR::OpenXR::OpenXRSettings UnityEngine::XR::OpenXR::OpenXRSettings::New_ctor()  {
+UnityEngine::XR::OpenXR::OpenXRSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::OpenXRSettings>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::OpenXRSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::OpenXRSettings>::get(),

@@ -290,8 +290,10 @@ return ::cordl_internals::getInstanceField<int32_t, 0x38>(this->::bs_hook::Il2Cp
  ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Digests::MD2Digest::__get_S()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "S", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::MD2Digest>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::MD2Digest::MD2Digest()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MD2Digest>())) {}
+ Org::BouncyCastle::Crypto::Digests::MD2Digest Org::BouncyCastle::Crypto::Digests::MD2Digest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::MD2Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::MD2Digest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::MD2Digest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::MD2Digest>::get(),
@@ -301,8 +303,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::MD2Digest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::MD2Digest::MD2Digest(Org::BouncyCastle::Crypto::Digests::MD2Digest t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MD2Digest>(t))) {}
+ Org::BouncyCastle::Crypto::Digests::MD2Digest Org::BouncyCastle::Crypto::Digests::MD2Digest::New_ctor(Org::BouncyCastle::Crypto::Digests::MD2Digest t)  {
+Org::BouncyCastle::Crypto::Digests::MD2Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::MD2Digest>(t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::MD2Digest::_ctor(Org::BouncyCastle::Crypto::Digests::MD2Digest t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::MD2Digest>::get(),

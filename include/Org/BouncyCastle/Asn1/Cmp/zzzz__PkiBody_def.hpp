@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
@@ -170,14 +170,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_body() const;
 /// @brief Method GetInstance addr 0xddbf7c size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::PkiBody GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit PkiBody(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiBody New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
 /// @brief Method .ctor addr 0xddc104 size 0x50 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "content", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit PkiBody(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable content) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiBody New_ctor(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable content) ;
 
 /// @brief Method .ctor addr 0xddc2b0 size 0x3c virtual false final false
  void _ctor(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable content) ;

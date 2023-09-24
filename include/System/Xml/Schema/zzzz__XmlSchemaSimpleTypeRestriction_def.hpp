@@ -76,8 +76,7 @@ constexpr System::Xml::Schema::XmlSchemaObjectCollection __get_facets() const;
 /// @brief Method set_BaseTypeName addr 0x2735810 size 0x98 virtual false final false
  void set_BaseTypeName(System::Xml::XmlQualifiedName value) ;
 
-// Ctor Parameters []
-explicit XmlSchemaSimpleTypeRestriction() ;
+static System::Xml::Schema::XmlSchemaSimpleTypeRestriction New_ctor() ;
 
 /// @brief Method .ctor addr 0x27358a8 size 0x9c virtual false final false
  void _ctor() ;

@@ -1,31 +1,27 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__SliderSpawnInfoNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteSpawnInfoNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfoNetSerializable_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "GlobalNamespace/zzzz__SliderData_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSpawnInfoNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBombNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__MemoryPoolContainer_2_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfoNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayerBeatmapObjectEventManager_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBombNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__SliderSpawnInfoNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__MemoryPoolContainer_2_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBombNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__SliderData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__NoteSpawnInfoNetSerializable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData._ctor
 template<>
 
@@ -61,8 +57,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatm
 constexpr float_t GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData::__get_notesUniformScale() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "disappearingArrows", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ghostNotes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "notesUniformScale", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData(bool disappearingArrows, bool ghostNotes, float_t notesUniformScale)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData>(disappearingArrows, ghostNotes, notesUniformScale))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData::New_ctor(bool disappearingArrows, bool ghostNotes, float_t notesUniformScale)  {
+GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData>(disappearingArrows, ghostNotes, notesUniformScale))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData::_ctor(bool disappearingArrows, bool ghostNotes, float_t notesUniformScale)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData>::get(),
@@ -377,8 +375,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData", modifiers: "", def_value: None }, CppParam { name: "beatmapObjectEventManager", ty: "GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager", modifiers: "", def_value: None }, CppParam { name: "gameNotePool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool", modifiers: "", def_value: None }, CppParam { name: "burstSliderHeadGameNotePool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool", modifiers: "", def_value: None }, CppParam { name: "burstSliderGameNotePool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool", modifiers: "", def_value: None }, CppParam { name: "burstSliderFillPool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool", modifiers: "", def_value: None }, CppParam { name: "bombNotePool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool", modifiers: "", def_value: None }, CppParam { name: "obstaclePool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool", modifiers: "", def_value: None }]
- GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::MultiplayerConnectedPlayerBeatmapObjectManager(GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData initData, GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager beatmapObjectEventManager, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool gameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderHeadGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderFillPool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool bombNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool obstaclePool)  : GlobalNamespace::BeatmapObjectManager(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConnectedPlayerBeatmapObjectManager>(initData, beatmapObjectEventManager, gameNotePool, burstSliderHeadGameNotePool, burstSliderGameNotePool, burstSliderFillPool, bombNotePool, obstaclePool))) {}
+ GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::New_ctor(GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData initData, GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager beatmapObjectEventManager, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool gameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderHeadGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderFillPool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool bombNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool obstaclePool)  {
+GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager>(initData, beatmapObjectEventManager, gameNotePool, burstSliderHeadGameNotePool, burstSliderGameNotePool, burstSliderFillPool, bombNotePool, obstaclePool))};
+return o;
+}
  void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::_ctor(GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData initData, GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager beatmapObjectEventManager, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool gameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderHeadGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderFillPool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool bombNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool obstaclePool)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager>::get(),

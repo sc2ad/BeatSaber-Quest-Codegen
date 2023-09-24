@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorTMPTextStateTransition_def.hpp"
+#include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
+#include "GlobalNamespace/zzzz__ColorTransitionSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "Tweening/zzzz__ColorTween_def.hpp"
-#include "GlobalNamespace/zzzz__ColorTransitionSO_def.hpp"
-#include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorTMPTextStateTransition.get_transition
 template<>
 
@@ -432,8 +432,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, endColor);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorTMPTextStateTransition::ColorTMPTextStateTransition()  : GlobalNamespace::BaseStateTransition_1<TMPro::TMP_Text>(THROW_UNLESS(::il2cpp_utils::New<ColorTMPTextStateTransition>())) {}
+ GlobalNamespace::ColorTMPTextStateTransition GlobalNamespace::ColorTMPTextStateTransition::New_ctor()  {
+GlobalNamespace::ColorTMPTextStateTransition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorTMPTextStateTransition>())};
+return o;
+}
  void GlobalNamespace::ColorTMPTextStateTransition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorTMPTextStateTransition>::get(),

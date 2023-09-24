@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace RootMotion::FinalIK {
-class IK;
+namespace UnityEngine {
+class Rigidbody;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-class Rigidbody;
-}
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class IK;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -185,8 +185,7 @@ constexpr UnityEngine::Rigidbody __get_characterRootRigidbody() const;
 /// @brief Method OnDestroy addr 0x11beb94 size 0x204 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit GrounderIK() ;
+static RootMotion::FinalIK::GrounderIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x11bed98 size 0x90 virtual false final false
  void _ctor() ;

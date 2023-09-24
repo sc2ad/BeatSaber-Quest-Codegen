@@ -126,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "converterType", ty: "System::Type", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonConverterAttribute::JsonConverterAttribute(System::Type converterType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<JsonConverterAttribute>(converterType))) {}
+ Newtonsoft::Json::JsonConverterAttribute Newtonsoft::Json::JsonConverterAttribute::New_ctor(System::Type converterType)  {
+Newtonsoft::Json::JsonConverterAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonConverterAttribute>(converterType))};
+return o;
+}
  void Newtonsoft::Json::JsonConverterAttribute::_ctor(System::Type converterType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonConverterAttribute>::get(),
@@ -137,8 +139,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, converterType);
 }
-// Ctor Parameters [CppParam { name: "converterType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "converterParameters", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonConverterAttribute::JsonConverterAttribute(System::Type converterType, ::ArrayW<::bs_hook::Il2CppWrapperType> converterParameters)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<JsonConverterAttribute>(converterType, converterParameters))) {}
+ Newtonsoft::Json::JsonConverterAttribute Newtonsoft::Json::JsonConverterAttribute::New_ctor(System::Type converterType, ::ArrayW<::bs_hook::Il2CppWrapperType> converterParameters)  {
+Newtonsoft::Json::JsonConverterAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonConverterAttribute>(converterType, converterParameters))};
+return o;
+}
  void Newtonsoft::Json::JsonConverterAttribute::_ctor(System::Type converterType, ::ArrayW<::bs_hook::Il2CppWrapperType> converterParameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonConverterAttribute>::get(),

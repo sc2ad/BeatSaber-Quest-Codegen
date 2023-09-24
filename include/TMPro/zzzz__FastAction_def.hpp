@@ -1,9 +1,8 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedList_1;
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -13,8 +12,9 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System {
-class Action;
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedList_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -86,8 +86,7 @@ constexpr System::Collections::Generic::Dictionary_2<System::Action,System::Coll
 /// @brief Method Call addr 0x2a578e4 size 0x98 virtual false final false
  void Call() ;
 
-// Ctor Parameters []
-explicit FastAction() ;
+static TMPro::FastAction New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a5797c size 0xc0 virtual false final false
  void _ctor() ;

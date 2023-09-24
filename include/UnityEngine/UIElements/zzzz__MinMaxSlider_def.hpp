@@ -7,33 +7,42 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__MinMaxSlider__UxmlFactory;
+}
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__MinMaxSlider__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MinMaxSlider__DragState;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 class ClampedDragger_1;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
+class UxmlFloatAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class UxmlFloatAttributeDescription;
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -51,7 +60,7 @@ class UnityEngine__UIElements__MinMaxSlider__UxmlTraits;
 // Type: ::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10184)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7227), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(7227))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7227), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(7227))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7204))
 // CS Name: UnityEngine.UIElements.MinMaxSlider::UxmlTraits
 class CORDL_TYPE UnityEngine__UIElements__MinMaxSlider__UxmlTraits : public UnityEngine::UIElements::UnityEngine__UIElements__BaseField_1__UxmlTraits<UnityEngine::Vector2> {
@@ -120,8 +129,7 @@ constexpr UnityEngine::UIElements::UxmlFloatAttributeDescription __get_m_HighLim
 /// @brief Method Init addr 0x2cc0770 size 0x1bc virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__MinMaxSlider__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__MinMaxSlider__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc092c size 0x170 virtual false final false
  void _ctor() ;
@@ -133,7 +141,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.UIElements::MinMaxSlider
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10184)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7228), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(7228))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(7228)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7228), inst: 393 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7206))
 // CS Name: UnityEngine.UIElements.MinMaxSlider
 class CORDL_TYPE MinMaxSlider : public UnityEngine::UIElements::BaseField_1<UnityEngine::Vector2> {
@@ -367,14 +375,12 @@ static ::StringW __get_maxThumbUssClassName() ;
 /// @brief Method set_highLimit addr 0x2cbf520 size 0x170 virtual false final false
  void set_highLimit(float_t value) ;
 
-// Ctor Parameters []
-explicit MinMaxSlider() ;
+static UnityEngine::UIElements::MinMaxSlider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbf690 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "minValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "minLimit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxLimit", ty: "float_t", modifiers: "", def_value: None }]
-explicit MinMaxSlider(::StringW label, float_t minValue, float_t maxValue, float_t minLimit, float_t maxLimit) ;
+static UnityEngine::UIElements::MinMaxSlider New_ctor(::StringW label, float_t minValue, float_t maxValue, float_t minLimit, float_t maxLimit) ;
 
 /// @brief Method .ctor addr 0x2cbf6b0 size 0x528 virtual false final false
  void _ctor(::StringW label, float_t minValue, float_t maxValue, float_t minLimit, float_t maxLimit) ;
@@ -422,7 +428,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5095 }), TypeDefinitionIndex(TypeDefinitionIndex(7206)), TypeDefinitionIndex(TypeDefinitionIndex(7204)), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7206)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5095 }), TypeDefinitionIndex(TypeDefinitionIndex(7204)), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7203))
 // CS Name: UnityEngine.UIElements.MinMaxSlider::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__MinMaxSlider__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::MinMaxSlider,UnityEngine::UIElements::UnityEngine__UIElements__MinMaxSlider__UxmlTraits> {
@@ -461,8 +467,7 @@ constexpr explicit UnityEngine__UIElements__MinMaxSlider__UxmlFactory(void* ptr)
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__MinMaxSlider__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__MinMaxSlider__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc0728 size 0x48 virtual false final false
  void _ctor() ;
@@ -522,6 +527,8 @@ __MaxThumb = 3,
 constexpr operator __UnityEngine__UIElements__MinMaxSlider__DragState_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__MinMaxSlider__DragState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

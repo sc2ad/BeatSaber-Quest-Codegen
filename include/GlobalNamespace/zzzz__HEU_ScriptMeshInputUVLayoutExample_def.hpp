@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__HEU_ScriptMeshInputUVLayoutExample__OutputMode;
+}
 namespace UnityEngine {
 class GameObject;
 }
@@ -64,6 +67,8 @@ __REPLACE = 1,
 constexpr operator __GlobalNamespace__HEU_ScriptMeshInputUVLayoutExample__OutputMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__HEU_ScriptMeshInputUVLayoutExample__OutputMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -131,8 +136,7 @@ constexpr explicit HEU_ScriptMeshInputUVLayoutExample(void* ptr) noexcept : ::bs
 /// @brief Method ApplyUVLayoutTo addr 0x1fd984c size 0x840 virtual false final false
 static void ApplyUVLayoutTo(::ArrayW<UnityEngine::GameObject> gameObjects, GlobalNamespace::GlobalNamespace__HEU_ScriptMeshInputUVLayoutExample__OutputMode outputMode, ::StringW output_name_suffix) ;
 
-// Ctor Parameters []
-explicit HEU_ScriptMeshInputUVLayoutExample() ;
+static GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fda134 size 0x8 virtual false final false
  void _ctor() ;

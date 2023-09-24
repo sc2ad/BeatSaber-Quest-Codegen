@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, value, formatInfo);
 }
-// Ctor Parameters []
- System::ComponentModel::SByteConverter::SByteConverter()  : System::ComponentModel::BaseNumberConverter(THROW_UNLESS(::il2cpp_utils::New<SByteConverter>())) {}
+ System::ComponentModel::SByteConverter System::ComponentModel::SByteConverter::New_ctor()  {
+System::ComponentModel::SByteConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::SByteConverter>())};
+return o;
+}
  void System::ComponentModel::SByteConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::SByteConverter>::get(),

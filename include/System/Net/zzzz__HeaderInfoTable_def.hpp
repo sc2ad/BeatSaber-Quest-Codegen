@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Net {
-class HeaderParser;
+class HeaderInfo;
 }
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
-class HeaderInfo;
+class HeaderParser;
 }
 // Forward declare root types
 namespace System::Net {
@@ -99,8 +99,7 @@ static ::ArrayW<::StringW> ParseMultiValue(::StringW value) ;
 /// @brief Method get_Item addr 0x280e8bc size 0xdc virtual false final false
  System::Net::HeaderInfo get_Item(::StringW name) ;
 
-// Ctor Parameters []
-explicit HeaderInfoTable() ;
+static System::Net::HeaderInfoTable New_ctor() ;
 
 /// @brief Method .ctor addr 0x281101c size 0x8 virtual false final false
  void _ctor() ;

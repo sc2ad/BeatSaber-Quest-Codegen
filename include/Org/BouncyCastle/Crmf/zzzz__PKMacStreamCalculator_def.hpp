@@ -5,13 +5,13 @@ namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto::IO {
 class MacSink;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IStreamCalculator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -76,8 +76,7 @@ constexpr Org::BouncyCastle::Crypto::IO::MacSink __get__stream() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit PKMacStreamCalculator(Org::BouncyCastle::Crypto::IMac mac) ;
+static Org::BouncyCastle::Crmf::PKMacStreamCalculator New_ctor(Org::BouncyCastle::Crypto::IMac mac) ;
 
 /// @brief Method .ctor addr 0x1186cf8 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IMac mac) ;

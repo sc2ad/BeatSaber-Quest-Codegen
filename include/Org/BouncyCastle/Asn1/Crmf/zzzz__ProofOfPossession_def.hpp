@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PopoSigningKey;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -12,14 +12,14 @@ class Asn1Encodable;
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PopoSigningKey;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PopoPrivKey;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -104,8 +104,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_obj() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit ProofOfPossession(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
+static Org::BouncyCastle::Asn1::Crmf::ProofOfPossession New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
 /// @brief Method .ctor addr 0xdfa588 size 0x150 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
@@ -113,20 +112,17 @@ explicit ProofOfPossession(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 /// @brief Method GetInstance addr 0xdf6160 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::ProofOfPossession GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit ProofOfPossession() ;
+static Org::BouncyCastle::Asn1::Crmf::ProofOfPossession New_ctor() ;
 
 /// @brief Method .ctor addr 0xdfa6d8 size 0x70 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "Poposk", ty: "Org::BouncyCastle::Asn1::Crmf::PopoSigningKey", modifiers: "", def_value: None }]
-explicit ProofOfPossession(Org::BouncyCastle::Asn1::Crmf::PopoSigningKey Poposk) ;
+static Org::BouncyCastle::Asn1::Crmf::ProofOfPossession New_ctor(Org::BouncyCastle::Asn1::Crmf::PopoSigningKey Poposk) ;
 
 /// @brief Method .ctor addr 0xdfa748 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::PopoSigningKey Poposk) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "privkey", ty: "Org::BouncyCastle::Asn1::Crmf::PopoPrivKey", modifiers: "", def_value: None }]
-explicit ProofOfPossession(int32_t type, Org::BouncyCastle::Asn1::Crmf::PopoPrivKey privkey) ;
+static Org::BouncyCastle::Asn1::Crmf::ProofOfPossession New_ctor(int32_t type, Org::BouncyCastle::Asn1::Crmf::PopoPrivKey privkey) ;
 
 /// @brief Method .ctor addr 0xdfa778 size 0x30 virtual false final false
  void _ctor(int32_t type, Org::BouncyCastle::Asn1::Crmf::PopoPrivKey privkey) ;

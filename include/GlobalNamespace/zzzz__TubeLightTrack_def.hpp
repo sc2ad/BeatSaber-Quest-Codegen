@@ -47,8 +47,7 @@ constexpr explicit TubeLightTrack(void* ptr) noexcept : UnityEngine::Timeline::T
 
 // Methods
 
-// Ctor Parameters []
-explicit TubeLightTrack() ;
+static GlobalNamespace::TubeLightTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b3dcc size 0x58 virtual false final false
  void _ctor() ;

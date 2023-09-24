@@ -6,44 +6,47 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-class Mesh;
+class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshFilter;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class MeshCollider;
+class Texture;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class Texture;
+struct Quaternion;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVROverlay__OverlayShape;
+struct GlobalNamespace__OVROverlayMeshGenerator__CubeFace;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace GlobalNamespace {
 class OVROverlay;
 }
 namespace UnityEngine {
-class MeshRenderer;
+class MeshCollider;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVROverlay__OverlayShape;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -106,6 +109,8 @@ __COUNT = 6,
 constexpr operator __GlobalNamespace__OVROverlayMeshGenerator__CubeFace_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVROverlayMeshGenerator__CubeFace_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -368,8 +373,7 @@ static void BuildQuad(System::Collections::Generic::List_1<UnityEngine::Vector3>
 /// @brief Method BuildHemicylinder addr 0x25d78e8 size 0x660 virtual false final false
 static void BuildHemicylinder(System::Collections::Generic::List_1<UnityEngine::Vector3> verts, System::Collections::Generic::List_1<UnityEngine::Vector2> uv, System::Collections::Generic::List_1<int32_t> triangles, UnityEngine::Vector3 scale, UnityEngine::Rect rect, int32_t longitudes) ;
 
-// Ctor Parameters []
-explicit OVROverlayMeshGenerator() ;
+static GlobalNamespace::OVROverlayMeshGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x25d8220 size 0x104 virtual false final false
  void _ctor() ;

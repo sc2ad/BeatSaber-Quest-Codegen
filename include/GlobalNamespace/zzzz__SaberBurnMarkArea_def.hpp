@@ -6,40 +6,40 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct UnityEngine__ParticleSystem__EmitParams;
-}
-namespace UnityEngine {
-class Shader;
+class RenderTexture;
 }
 namespace UnityEngine {
 class Renderer;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class SaberManager;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Material;
 }
 namespace UnityEngine {
 class LineRenderer;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__EmitParams;
 }
 namespace GlobalNamespace {
 class Saber;
 }
 namespace UnityEngine {
+struct Plane;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-class Material;
+class Shader;
 }
 namespace GlobalNamespace {
 class ColorManager;
-}
-namespace UnityEngine {
-struct Plane;
-}
-namespace GlobalNamespace {
-class SaberManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -231,8 +231,7 @@ constexpr UnityEngine::Material __get__fadeOutMaterial() const;
 /// @brief Method LateUpdate addr 0x2253f84 size 0x6c0 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit SaberBurnMarkArea() ;
+static GlobalNamespace::SaberBurnMarkArea New_ctor() ;
 
 /// @brief Method .ctor addr 0x2254644 size 0x7c virtual false final false
  void _ctor() ;

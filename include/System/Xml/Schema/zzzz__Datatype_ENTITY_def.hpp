@@ -66,8 +66,7 @@ constexpr explicit Datatype_ENTITY(void* ptr) noexcept : System::Xml::Schema::Da
 /// @brief Method get_TokenizedType addr 0x2727e88 size 0x8 virtual true final false
  System::Xml::XmlTokenizedType get_TokenizedType() ;
 
-// Ctor Parameters []
-explicit Datatype_ENTITY() ;
+static System::Xml::Schema::Datatype_ENTITY New_ctor() ;
 
 /// @brief Method .ctor addr 0x2727e90 size 0x4 virtual false final false
  void _ctor() ;

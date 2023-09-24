@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::DoesNotRequireDomainReloadInitAttribute::DoesNotRequireDomainReloadInitAttribute()  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<DoesNotRequireDomainReloadInitAttribute>())) {}
+ GlobalNamespace::DoesNotRequireDomainReloadInitAttribute GlobalNamespace::DoesNotRequireDomainReloadInitAttribute::New_ctor()  {
+GlobalNamespace::DoesNotRequireDomainReloadInitAttribute o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DoesNotRequireDomainReloadInitAttribute>())};
+return o;
+}
  void GlobalNamespace::DoesNotRequireDomainReloadInitAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DoesNotRequireDomainReloadInitAttribute>::get(),

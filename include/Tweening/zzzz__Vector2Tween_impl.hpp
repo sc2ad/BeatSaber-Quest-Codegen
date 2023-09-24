@@ -2,8 +2,8 @@
 #include "Tweening/zzzz__Tween_1_impl.hpp"
 #include "Tweening/zzzz__Vector2Tween_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "Zenject/zzzz__StaticMemoryPool_7_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "Zenject/zzzz__StaticMemoryPool_7_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
 //  Writing Method size for method: Tweening::Vector2Tween._ctor
 template<>
@@ -62,8 +62,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
  Zenject::StaticMemoryPool_7<UnityEngine::Vector2,UnityEngine::Vector2,System::Action_1<UnityEngine::Vector2>,float_t,GlobalNamespace::EaseType,float_t,Tweening::Vector2Tween> Tweening::Vector2Tween::__get_Pool()  {
 return ::cordl_internals::getStaticField<Zenject::StaticMemoryPool_7<UnityEngine::Vector2,UnityEngine::Vector2,System::Action_1<UnityEngine::Vector2>,float_t,GlobalNamespace::EaseType,float_t,Tweening::Vector2Tween>, "Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tweening::Vector2Tween>::get>();
 }
-// Ctor Parameters []
- Tweening::Vector2Tween::Vector2Tween()  : Tweening::Tween_1<UnityEngine::Vector2>(THROW_UNLESS(::il2cpp_utils::New<Vector2Tween>())) {}
+ Tweening::Vector2Tween Tweening::Vector2Tween::New_ctor()  {
+Tweening::Vector2Tween o{THROW_UNLESS(::il2cpp_utils::New<Tweening::Vector2Tween>())};
+return o;
+}
  void Tweening::Vector2Tween::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tweening::Vector2Tween>::get(),
@@ -73,8 +75,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "fromValue", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "toValue", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "onUpdate", ty: "System::Action_1<UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: Some("0") }]
- Tweening::Vector2Tween::Vector2Tween(UnityEngine::Vector2 fromValue, UnityEngine::Vector2 toValue, System::Action_1<UnityEngine::Vector2> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay)  : Tweening::Tween_1<UnityEngine::Vector2>(THROW_UNLESS(::il2cpp_utils::New<Vector2Tween>(fromValue, toValue, onUpdate, duration, easeType, delay))) {}
+/// @param delay: float_t (default: 0)
+ Tweening::Vector2Tween Tweening::Vector2Tween::New_ctor(UnityEngine::Vector2 fromValue, UnityEngine::Vector2 toValue, System::Action_1<UnityEngine::Vector2> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay)  {
+Tweening::Vector2Tween o{THROW_UNLESS(::il2cpp_utils::New<Tweening::Vector2Tween>(fromValue, toValue, onUpdate, duration, easeType, delay))};
+return o;
+}
 /// @param delay: float_t (default: 0)
  void Tweening::Vector2Tween::_ctor(UnityEngine::Vector2 fromValue, UnityEngine::Vector2 toValue, System::Action_1<UnityEngine::Vector2> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -3,10 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct EdgeLookup;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
@@ -16,15 +20,11 @@ class WingedEdge;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IList_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {

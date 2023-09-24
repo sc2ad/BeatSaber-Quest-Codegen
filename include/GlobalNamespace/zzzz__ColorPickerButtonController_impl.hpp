@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorPickerButtonController_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorPickerButtonController.get_button
 template<>
@@ -85,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorPickerButtonController::ColorPickerButtonController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ColorPickerButtonController>())) {}
+ GlobalNamespace::ColorPickerButtonController GlobalNamespace::ColorPickerButtonController::New_ctor()  {
+GlobalNamespace::ColorPickerButtonController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorPickerButtonController>())};
+return o;
+}
  void GlobalNamespace::ColorPickerButtonController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorPickerButtonController>::get(),

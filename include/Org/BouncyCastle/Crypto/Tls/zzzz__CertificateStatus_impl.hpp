@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateStatus_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspResponse_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspResponse_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::CertificateStatus._ctor
 template<>
 
@@ -133,8 +133,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::CertificateStatus::__set_mRespons
 constexpr ::bs_hook::Il2CppWrapperType Org::BouncyCastle::Crypto::Tls::CertificateStatus::__get_mResponse() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "statusType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "response", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::CertificateStatus::CertificateStatus(uint8_t statusType, ::bs_hook::Il2CppWrapperType response)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertificateStatus>(statusType, response))) {}
+ Org::BouncyCastle::Crypto::Tls::CertificateStatus Org::BouncyCastle::Crypto::Tls::CertificateStatus::New_ctor(uint8_t statusType, ::bs_hook::Il2CppWrapperType response)  {
+Org::BouncyCastle::Crypto::Tls::CertificateStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::CertificateStatus>(statusType, response))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::CertificateStatus::_ctor(uint8_t statusType, ::bs_hook::Il2CppWrapperType response)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::CertificateStatus>::get(),

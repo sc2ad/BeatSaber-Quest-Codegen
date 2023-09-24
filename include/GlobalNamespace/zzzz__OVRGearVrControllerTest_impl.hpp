@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::OVRGearVrControllerTest::OVRGearVrControllerTest()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRGearVrControllerTest>())) {}
+ GlobalNamespace::OVRGearVrControllerTest GlobalNamespace::OVRGearVrControllerTest::New_ctor()  {
+GlobalNamespace::OVRGearVrControllerTest o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRGearVrControllerTest>())};
+return o;
+}
  void GlobalNamespace::OVRGearVrControllerTest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRGearVrControllerTest>::get(),

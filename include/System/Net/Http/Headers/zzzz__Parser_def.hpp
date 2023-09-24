@@ -5,12 +5,45 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__Parser__Uri;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__Parser__Token;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__Parser__Int;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__Parser__Long;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__Parser__MD5;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__Parser__Host;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__Parser__EmailAddress;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__Parser__TimeSpanSeconds;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__Parser__DateTime;
+}
+namespace GlobalNamespace {
+class System__Net__Http__Headers__Parser__DateTime____c;
+}
+namespace System {
+struct DateTimeOffset;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System {
-struct DateTimeOffset;
+namespace GlobalNamespace {
+class System__Net__Http__Headers__Parser__MD5____c;
 }
 namespace System {
 struct TimeSpan;
@@ -158,8 +191,7 @@ static GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c __get_
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Http__Headers__Parser__DateTime____c() ;
+static GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x26ad0ec size 0x8 virtual false final false
  void _ctor() ;
@@ -478,8 +510,7 @@ static GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c __get___9()
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Http__Headers__Parser__MD5____c() ;
+static GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x26ad684 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Xml::Schema {
-class SymbolsDictionary;
-}
-namespace System::Xml::Schema {
-class BitSet;
-}
-namespace System::Xml::Schema {
 class InteriorNode;
 }
 namespace System::Xml::Schema {
+class SymbolsDictionary;
+}
+namespace System::Xml::Schema {
 class Positions;
+}
+namespace System::Xml::Schema {
+class BitSet;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -77,8 +77,7 @@ constexpr int32_t __get_pos() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pos", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LeafNode(int32_t pos) ;
+static System::Xml::Schema::LeafNode New_ctor(int32_t pos) ;
 
 /// @brief Method .ctor addr 0x271a270 size 0x28 virtual false final false
  void _ctor(int32_t pos) ;

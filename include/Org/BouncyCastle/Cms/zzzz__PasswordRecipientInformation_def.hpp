@@ -1,20 +1,20 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
-namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Cms {
+class CmsTypedStream;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSecureReadable;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class PasswordRecipientInfo;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -76,8 +76,7 @@ constexpr Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo __get_info() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo", modifiers: "", def_value: None }, CppParam { name: "secureReadable", ty: "Org::BouncyCastle::Cms::CmsSecureReadable", modifiers: "", def_value: None }]
-explicit PasswordRecipientInformation(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
+static Org::BouncyCastle::Cms::PasswordRecipientInformation New_ctor(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
 
 /// @brief Method .ctor addr 0x1158d98 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;

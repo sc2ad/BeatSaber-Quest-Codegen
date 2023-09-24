@@ -6,17 +6,20 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace RootMotion::FinalIK {
-class IKSolverLimb;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class IKSolverLimb;
+}
+namespace RootMotion::FinalIK {
+struct RootMotion__FinalIK__Finger__DOF;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -74,6 +77,8 @@ __Three = 1,
 constexpr operator __RootMotion__FinalIK__Finger__DOF_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__FinalIK__Finger__DOF_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -285,8 +290,7 @@ constexpr UnityEngine::Vector3 __get_bone1TwistAxis() const;
 /// @brief Method Update addr 0x11b9138 size 0x660 virtual false final false
  void Update(float_t masterWeight) ;
 
-// Ctor Parameters []
-explicit Finger() ;
+static RootMotion::FinalIK::Finger New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b9798 size 0x10 virtual false final false
  void _ctor() ;

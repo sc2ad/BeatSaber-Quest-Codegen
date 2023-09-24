@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PS4Helper_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PS4Helper.add_didGoToBackgroundExecutionEvent
 template<>
 
@@ -171,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PS4Helper::PS4Helper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PS4Helper>())) {}
+ GlobalNamespace::PS4Helper GlobalNamespace::PS4Helper::New_ctor()  {
+GlobalNamespace::PS4Helper o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS4Helper>())};
+return o;
+}
  void GlobalNamespace::PS4Helper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS4Helper>::get(),

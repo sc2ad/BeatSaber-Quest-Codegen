@@ -1,7 +1,8 @@
 #pragma once
 #include "TMPro/zzzz__KerningTable_def.hpp"
-#include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
+#include "TMPro/zzzz__KerningTable_def.hpp"
 #include "TMPro/zzzz__KerningPair_def.hpp"
+#include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__KerningTable____c__DisplayClass3_0._ctor
@@ -50,8 +51,10 @@ constexpr void TMPro::TMPro__KerningTable____c__DisplayClass3_0::__set_second(ui
 constexpr uint32_t TMPro::TMPro__KerningTable____c__DisplayClass3_0::__get_second() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__KerningTable____c__DisplayClass3_0::TMPro__KerningTable____c__DisplayClass3_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__KerningTable____c__DisplayClass3_0>())) {}
+ TMPro::TMPro__KerningTable____c__DisplayClass3_0 TMPro::TMPro__KerningTable____c__DisplayClass3_0::New_ctor()  {
+TMPro::TMPro__KerningTable____c__DisplayClass3_0 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__KerningTable____c__DisplayClass3_0>())};
+return o;
+}
  void TMPro::TMPro__KerningTable____c__DisplayClass3_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__KerningTable____c__DisplayClass3_0>::get(),
@@ -116,8 +119,10 @@ constexpr void TMPro::TMPro__KerningTable____c__DisplayClass4_0::__set_second(ui
 constexpr uint32_t TMPro::TMPro__KerningTable____c__DisplayClass4_0::__get_second() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__KerningTable____c__DisplayClass4_0::TMPro__KerningTable____c__DisplayClass4_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__KerningTable____c__DisplayClass4_0>())) {}
+ TMPro::TMPro__KerningTable____c__DisplayClass4_0 TMPro::TMPro__KerningTable____c__DisplayClass4_0::New_ctor()  {
+TMPro::TMPro__KerningTable____c__DisplayClass4_0 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__KerningTable____c__DisplayClass4_0>())};
+return o;
+}
  void TMPro::TMPro__KerningTable____c__DisplayClass4_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__KerningTable____c__DisplayClass4_0>::get(),
@@ -182,8 +187,10 @@ constexpr void TMPro::TMPro__KerningTable____c__DisplayClass5_0::__set_right(int
 constexpr int32_t TMPro::TMPro__KerningTable____c__DisplayClass5_0::__get_right() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__KerningTable____c__DisplayClass5_0::TMPro__KerningTable____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__KerningTable____c__DisplayClass5_0>())) {}
+ TMPro::TMPro__KerningTable____c__DisplayClass5_0 TMPro::TMPro__KerningTable____c__DisplayClass5_0::New_ctor()  {
+TMPro::TMPro__KerningTable____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__KerningTable____c__DisplayClass5_0>())};
+return o;
+}
  void TMPro::TMPro__KerningTable____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__KerningTable____c__DisplayClass5_0>::get(),
@@ -271,8 +278,10 @@ return ::cordl_internals::getStaticField<System::Func_2<TMPro::KerningPair,uint3
  System::Func_2<TMPro::KerningPair,uint32_t> TMPro::TMPro__KerningTable____c::__get___9__7_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<TMPro::KerningPair,uint32_t>, "<>9__7_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__KerningTable____c>::get>();
 }
-// Ctor Parameters []
- TMPro::TMPro__KerningTable____c::TMPro__KerningTable____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__KerningTable____c>())) {}
+ TMPro::TMPro__KerningTable____c TMPro::TMPro__KerningTable____c::New_ctor()  {
+TMPro::TMPro__KerningTable____c o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__KerningTable____c>())};
+return o;
+}
  void TMPro::TMPro__KerningTable____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__KerningTable____c>::get(),
@@ -425,8 +434,10 @@ constexpr void TMPro::KerningTable::__set_kerningPairs(System::Collections::Gene
 constexpr System::Collections::Generic::List_1<TMPro::KerningPair> TMPro::KerningTable::__get_kerningPairs() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<TMPro::KerningPair>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::KerningTable::KerningTable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KerningTable>())) {}
+ TMPro::KerningTable TMPro::KerningTable::New_ctor()  {
+TMPro::KerningTable o{THROW_UNLESS(::il2cpp_utils::New<TMPro::KerningTable>())};
+return o;
+}
  void TMPro::KerningTable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::KerningTable>::get(),

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException::PkixNameConstraintValidatorException(::StringW msg)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<PkixNameConstraintValidatorException>(msg))) {}
+ Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException::New_ctor(::StringW msg)  {
+Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException>(msg))};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException::_ctor(::StringW msg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException>::get(),

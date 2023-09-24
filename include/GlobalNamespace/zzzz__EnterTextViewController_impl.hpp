@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__EnterTextViewController_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__VRTextEntryController_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EnterTextViewController.add_didFinishEvent
 template<>
 
@@ -176,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EnterTextViewController::EnterTextViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<EnterTextViewController>())) {}
+ GlobalNamespace::EnterTextViewController GlobalNamespace::EnterTextViewController::New_ctor()  {
+GlobalNamespace::EnterTextViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnterTextViewController>())};
+return o;
+}
  void GlobalNamespace::EnterTextViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnterTextViewController>::get(),

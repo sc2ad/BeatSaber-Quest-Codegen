@@ -177,8 +177,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters::__s
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters::__get_fixedInputData() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ki", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "fixedInputData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "r", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "useCounter", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters::KdfFeedbackParameters(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> fixedInputData, int32_t r, bool useCounter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KdfFeedbackParameters>(ki, iv, fixedInputData, r, useCounter))) {}
+ Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters::New_ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> fixedInputData, int32_t r, bool useCounter)  {
+Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters>(ki, iv, fixedInputData, r, useCounter))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters::_ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> fixedInputData, int32_t r, bool useCounter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters>::get(),

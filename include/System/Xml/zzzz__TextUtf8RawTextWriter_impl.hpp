@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__XmlUtf8RawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__TextUtf8RawTextWriter_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 //  Writing Method size for method: System::Xml::TextUtf8RawTextWriter._ctor
 template<>
 
@@ -395,8 +395,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::TextUtf8RawTextWriter::TextUtf8RawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlUtf8RawTextWriter(THROW_UNLESS(::il2cpp_utils::New<TextUtf8RawTextWriter>(stream, settings))) {}
+ System::Xml::TextUtf8RawTextWriter System::Xml::TextUtf8RawTextWriter::New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
+System::Xml::TextUtf8RawTextWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::TextUtf8RawTextWriter>(stream, settings))};
+return o;
+}
  void System::Xml::TextUtf8RawTextWriter::_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::TextUtf8RawTextWriter>::get(),

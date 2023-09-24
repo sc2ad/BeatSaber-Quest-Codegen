@@ -3,20 +3,20 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
-class ProfessionInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
+class NamingAuthority;
+}
+namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
+class ProfessionInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
-}
-namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
-class NamingAuthority;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -95,14 +95,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_professionInfos() const;
 /// @brief Method GetInstance addr 0xee885c size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Admissions(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xee89e4 size 0x6dc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "admissionAuthority", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }, CppParam { name: "namingAuthority", ty: "Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority", modifiers: "", def_value: None }, CppParam { name: "professionInfos", ty: "::ArrayW<Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo>", modifiers: "", def_value: None }]
-explicit Admissions(Org::BouncyCastle::Asn1::X509::GeneralName admissionAuthority, Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority namingAuthority, ::ArrayW<Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo> professionInfos) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions New_ctor(Org::BouncyCastle::Asn1::X509::GeneralName admissionAuthority, Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority namingAuthority, ::ArrayW<Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo> professionInfos) ;
 
 /// @brief Method .ctor addr 0xee9138 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralName admissionAuthority, Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority namingAuthority, ::ArrayW<Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo> professionInfos) ;

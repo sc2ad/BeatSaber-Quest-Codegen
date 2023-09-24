@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace UnityEngine::InputSystem {
-struct InputInteractionContext;
+class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
+struct InputInteractionContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Interactions {
@@ -98,8 +98,7 @@ constexpr double_t __get_m_TimePressed() const;
 /// @brief Method Reset addr 0x2979d58 size 0x8 virtual true final true
  void Reset() ;
 
-// Ctor Parameters []
-explicit HoldInteraction() ;
+static UnityEngine::InputSystem::Interactions::HoldInteraction New_ctor() ;
 
 /// @brief Method .ctor addr 0x2979d60 size 0x8 virtual false final false
  void _ctor() ;

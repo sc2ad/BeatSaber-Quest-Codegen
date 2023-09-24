@@ -2,21 +2,21 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
+}
+namespace UnityEngine::UIElements {
+class ReusableCollectionItem;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace System {
 class Action;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
 }
 namespace System::Collections {
 class IList;
@@ -164,8 +164,7 @@ constexpr System::Action_2<int32_t,int32_t> __get_itemIndexChanged() const;
 /// @brief Method RaiseItemIndexChanged addr 0x2d10494 size 0x1c virtual false final false
  void RaiseItemIndexChanged(int32_t srcIndex, int32_t dstIndex) ;
 
-// Ctor Parameters []
-explicit CollectionViewController() ;
+static UnityEngine::UIElements::CollectionViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d10a98 size 0x8 virtual false final false
  void _ctor() ;

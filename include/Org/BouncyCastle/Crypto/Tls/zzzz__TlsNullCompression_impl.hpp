@@ -75,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IO::Stream, false>(const_cast<void*>(instance), ___internal_method, output);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::TlsNullCompression::TlsNullCompression()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsNullCompression>())) {}
+ Org::BouncyCastle::Crypto::Tls::TlsNullCompression Org::BouncyCastle::Crypto::Tls::TlsNullCompression::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::TlsNullCompression o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsNullCompression>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsNullCompression::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsNullCompression>::get(),

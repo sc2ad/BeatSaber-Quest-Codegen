@@ -1,17 +1,18 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__Context_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__Context_def.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include "Zenject/zzzz__InstallerBase_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "Zenject/zzzz__ZenjectBinding_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__Context____c._ctor
 template<>
@@ -93,8 +94,10 @@ return ::cordl_internals::getStaticField<Zenject::Zenject__Context____c, "<>9", 
  System::Func_2<System::Type,bool> Zenject::Zenject__Context____c::__get___9__16_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Type,bool>, "<>9__16_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__Context____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__Context____c::Zenject__Context____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__Context____c>())) {}
+ Zenject::Zenject__Context____c Zenject::Zenject__Context____c::New_ctor()  {
+Zenject::Zenject__Context____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__Context____c>())};
+return o;
+}
  void Zenject::Zenject__Context____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__Context____c>::get(),
@@ -715,8 +718,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, components);
 }
-// Ctor Parameters []
- Zenject::Context::Context()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Context>())) {}
+ Zenject::Context Zenject::Context::New_ctor()  {
+Zenject::Context o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Context>())};
+return o;
+}
  void Zenject::Context::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Context>::get(),

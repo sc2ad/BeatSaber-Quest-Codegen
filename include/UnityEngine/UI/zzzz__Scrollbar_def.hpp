@@ -7,52 +7,64 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine::EventSystems {
 class IBeginDragHandler;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__Scrollbar___ClickRepeat_d__58;
 }
 namespace UnityEngine {
 struct DrivenRectTransformTracker;
 }
 namespace UnityEngine {
-class Transform;
+class RectTransform;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::UI {
-struct CanvasUpdate;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IInitializePotentialDragHandler;
 }
 namespace UnityEngine::UI {
-class ICanvasElement;
+struct UnityEngine__UI__Scrollbar__Axis;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine::UI {
 class Selectable;
 }
 namespace UnityEngine::EventSystems {
-class IDragHandler;
+class IEventSystemHandler;
 }
 namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class Coroutine;
+class Transform;
 }
 namespace UnityEngine::EventSystems {
 class AxisEventData;
 }
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Scrollbar__Direction;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__Scrollbar__ScrollEvent;
+}
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IDragHandler;
 }
 namespace System {
 class IDisposable;
@@ -129,6 +141,8 @@ constexpr operator __UnityEngine__UI__Scrollbar__Direction_Unwrapped () const no
 return std::bit_cast<__UnityEngine__UI__Scrollbar__Direction_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -157,7 +171,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: ::ScrollEvent
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13048))
 // CS Name: UnityEngine.UI.Scrollbar::ScrollEvent
 class CORDL_TYPE UnityEngine__UI__Scrollbar__ScrollEvent : public UnityEngine::Events::UnityEvent_1<float_t> {
@@ -196,8 +210,7 @@ constexpr explicit UnityEngine__UI__Scrollbar__ScrollEvent(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__Scrollbar__ScrollEvent() ;
+static UnityEngine::UI::UnityEngine__UI__Scrollbar__ScrollEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c07ef0 size 0x48 virtual false final false
  void _ctor() ;
@@ -255,6 +268,8 @@ __Vertical = 1,
 constexpr operator __UnityEngine__UI__Scrollbar__Axis_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__Scrollbar__Axis_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -366,8 +381,7 @@ constexpr UnityEngine::Camera __get_camera() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__Scrollbar___ClickRepeat_d__58(int32_t __1__state) ;
+static UnityEngine::UI::UnityEngine__UI__Scrollbar___ClickRepeat_d__58 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2c08fc0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -564,8 +578,7 @@ constexpr bool __get_m_DelayedUpdateVisuals() const;
 /// @brief Method set_direction addr 0x2c07db4 size 0x74 virtual false final false
  void set_direction(UnityEngine::UI::UnityEngine__UI__Scrollbar__Direction value) ;
 
-// Ctor Parameters []
-explicit Scrollbar() ;
+static UnityEngine::UI::Scrollbar New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c07e28 size 0xc8 virtual false final false
  void _ctor() ;

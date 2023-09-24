@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__LayoutRebuilder_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
+#include "UnityEngine/UI/zzzz__LayoutRebuilder_def.hpp"
+#include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
-#include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c._ctor
 template<>
@@ -181,8 +182,10 @@ return ::cordl_internals::getStaticField<UnityEngine::Events::UnityAction_1<Unit
  UnityEngine::Events::UnityAction_1<UnityEngine::Component> UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c::__get___9__12_3()  {
 return ::cordl_internals::getStaticField<UnityEngine::Events::UnityAction_1<UnityEngine::Component>, "<>9__12_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c::UnityEngine__UI__LayoutRebuilder____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__LayoutRebuilder____c>())) {}
+ UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c>::get(),
@@ -762,8 +765,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UI::LayoutRebuilder::LayoutRebuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LayoutRebuilder>())) {}
+ UnityEngine::UI::LayoutRebuilder UnityEngine::UI::LayoutRebuilder::New_ctor()  {
+UnityEngine::UI::LayoutRebuilder o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::LayoutRebuilder>())};
+return o;
+}
  void UnityEngine::UI::LayoutRebuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::LayoutRebuilder>::get(),

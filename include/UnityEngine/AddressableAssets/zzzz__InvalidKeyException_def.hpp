@@ -3,43 +3,43 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System {
-class Type;
+namespace UnityEngine::AddressableAssets {
+struct UnityEngine__AddressableAssets__Addressables__MergeMode;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
+namespace System {
+class Exception;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class List_1;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::AddressableAssets {
+class AddressablesImpl;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace UnityEngine::AddressableAssets {
-struct UnityEngine__AddressableAssets__Addressables__MergeMode;
-}
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -143,56 +143,47 @@ static constexpr ::ConstString  BaseInvalidKeyMessageFormat{u"{0}, Key={1}, Type
 /// @brief Method get_MergeMode addr 0x287e764 size 0x8 virtual false final false
  System::Nullable_1<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode> get_MergeMode() ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit InvalidKeyException(::bs_hook::Il2CppWrapperType key) ;
+static UnityEngine::AddressableAssets::InvalidKeyException New_ctor(::bs_hook::Il2CppWrapperType key) ;
 
 /// @brief Method .ctor addr 0x287e76c size 0x8c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType key) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit InvalidKeyException(::bs_hook::Il2CppWrapperType key, System::Type type) ;
+static UnityEngine::AddressableAssets::InvalidKeyException New_ctor(::bs_hook::Il2CppWrapperType key, System::Type type) ;
 
 /// @brief Method .ctor addr 0x287e7f8 size 0x70 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType key, System::Type type) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "addr", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
-explicit InvalidKeyException(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::AddressablesImpl addr) ;
+static UnityEngine::AddressableAssets::InvalidKeyException New_ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::AddressablesImpl addr) ;
 
 /// @brief Method .ctor addr 0x287e868 size 0x80 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::AddressablesImpl addr) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "mergeMode", ty: "UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode", modifiers: "", def_value: None }]
-explicit InvalidKeyException(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode) ;
+static UnityEngine::AddressableAssets::InvalidKeyException New_ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode) ;
 
 /// @brief Method .ctor addr 0x287e8e8 size 0xac virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "mergeMode", ty: "UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode", modifiers: "", def_value: None }, CppParam { name: "addr", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
-explicit InvalidKeyException(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode, UnityEngine::AddressableAssets::AddressablesImpl addr) ;
+static UnityEngine::AddressableAssets::InvalidKeyException New_ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode, UnityEngine::AddressableAssets::AddressablesImpl addr) ;
 
 /// @brief Method .ctor addr 0x287e994 size 0xb8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode, UnityEngine::AddressableAssets::AddressablesImpl addr) ;
 
-// Ctor Parameters []
-explicit InvalidKeyException() ;
+static UnityEngine::AddressableAssets::InvalidKeyException New_ctor() ;
 
 /// @brief Method .ctor addr 0x287ea4c size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InvalidKeyException(::StringW message) ;
+static UnityEngine::AddressableAssets::InvalidKeyException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x287eaa4 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit InvalidKeyException(::StringW message, System::Exception innerException) ;
+static UnityEngine::AddressableAssets::InvalidKeyException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x287eb0c size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit InvalidKeyException(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context) ;
+static UnityEngine::AddressableAssets::InvalidKeyException New_ctor(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x287eb7c size 0x80 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context) ;

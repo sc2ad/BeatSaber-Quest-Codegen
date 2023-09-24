@@ -12,7 +12,7 @@ class AvatarSpritePartSO;
 // Type: ::AvatarSpritePartSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4773)), TypeDefinitionIndex(TypeDefinitionIndex(10227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4773), inst: 752 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4773), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(10227)), TypeDefinitionIndex(TypeDefinitionIndex(4773))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4775))
 // CS Name: AvatarSpritePartSO
 class CORDL_TYPE AvatarSpritePartSO : public GlobalNamespace::AvatarPartSO_1<UnityEngine::Sprite> {
@@ -59,8 +59,7 @@ constexpr explicit AvatarSpritePartSO(void* ptr) noexcept : GlobalNamespace::Ava
 /// @brief Method get_sprite addr 0x2229974 size 0x3c virtual false final false
  UnityEngine::Sprite get_sprite() ;
 
-// Ctor Parameters []
-explicit AvatarSpritePartSO() ;
+static GlobalNamespace::AvatarSpritePartSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x22299b0 size 0x48 virtual false final false
  void _ctor() ;

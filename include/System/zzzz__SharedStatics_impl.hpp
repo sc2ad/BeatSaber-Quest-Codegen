@@ -64,8 +64,10 @@ constexpr void System::SharedStatics::__set__maker(System::Security::Util::Syste
 constexpr System::Security::Util::System__Security__Util__Tokenizer__StringMaker System::SharedStatics::__get__maker() const {
 return ::cordl_internals::getInstanceField<System::Security::Util::System__Security__Util__Tokenizer__StringMaker, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::SharedStatics::SharedStatics()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SharedStatics>())) {}
+ System::SharedStatics System::SharedStatics::New_ctor()  {
+System::SharedStatics o{THROW_UNLESS(::il2cpp_utils::New<System::SharedStatics>())};
+return o;
+}
  void System::SharedStatics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::SharedStatics>::get(),

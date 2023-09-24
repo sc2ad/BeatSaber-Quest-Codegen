@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Timeline::NotKeyableAttribute::NotKeyableAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NotKeyableAttribute>())) {}
+ UnityEngine::Timeline::NotKeyableAttribute UnityEngine::Timeline::NotKeyableAttribute::New_ctor()  {
+UnityEngine::Timeline::NotKeyableAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::NotKeyableAttribute>())};
+return o;
+}
  void UnityEngine::Timeline::NotKeyableAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::NotKeyableAttribute>::get(),

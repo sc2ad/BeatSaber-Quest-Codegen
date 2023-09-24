@@ -5,31 +5,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace TMPro {
-struct TMP_LineInfo;
-}
-namespace TMPro {
-struct MaterialReference;
-}
-namespace TMPro {
-struct TMP_CharacterInfo;
-}
-namespace TMPro {
-struct TMP_PageInfo;
-}
-namespace UnityEngine {
-struct Vector2;
+struct TMP_WordInfo;
 }
 namespace TMPro {
 struct TMP_MeshInfo;
 }
 namespace TMPro {
-struct TMP_WordInfo;
+struct MaterialReference;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace TMPro {
-struct TMP_LinkInfo;
+struct TMP_CharacterInfo;
+}
+namespace TMPro {
+struct TMP_LineInfo;
+}
+namespace TMPro {
+struct TMP_PageInfo;
 }
 namespace TMPro {
 class TMP_Text;
+}
+namespace TMPro {
+struct TMP_LinkInfo;
 }
 // Forward declare root types
 namespace TMPro {
@@ -188,20 +188,17 @@ constexpr ::ArrayW<TMPro::TMP_MeshInfo> __get_m_CachedMeshInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMP_TextInfo() ;
+static TMPro::TMP_TextInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab04cc size 0x128 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TMP_TextInfo(int32_t characterCount) ;
+static TMPro::TMP_TextInfo New_ctor(int32_t characterCount) ;
 
 /// @brief Method .ctor addr 0x2ab05f4 size 0x12c virtual false final false
  void _ctor(int32_t characterCount) ;
 
-// Ctor Parameters [CppParam { name: "textComponent", ty: "TMPro::TMP_Text", modifiers: "", def_value: None }]
-explicit TMP_TextInfo(TMPro::TMP_Text textComponent) ;
+static TMPro::TMP_TextInfo New_ctor(TMPro::TMP_Text textComponent) ;
 
 /// @brief Method .ctor addr 0x2ab0720 size 0x16c virtual false final false
  void _ctor(TMPro::TMP_Text textComponent) ;

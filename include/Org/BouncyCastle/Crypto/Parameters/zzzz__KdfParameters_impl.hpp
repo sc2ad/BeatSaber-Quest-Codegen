@@ -68,8 +68,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::KdfParameters::__set_share
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Parameters::KdfParameters::__get_shared() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "shared", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::KdfParameters::KdfParameters(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KdfParameters>(shared, iv))) {}
+ Org::BouncyCastle::Crypto::Parameters::KdfParameters Org::BouncyCastle::Crypto::Parameters::KdfParameters::New_ctor(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv)  {
+Org::BouncyCastle::Crypto::Parameters::KdfParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::KdfParameters>(shared, iv))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::KdfParameters::_ctor(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::KdfParameters>::get(),

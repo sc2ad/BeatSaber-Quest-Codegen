@@ -65,8 +65,7 @@ constexpr float_t __get__time_k__BackingField() const;
 /// @brief Method get_time addr 0x21bb530 size 0x8 virtual false final false
  float_t get_time() ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-explicit BeatmapObjectExecutionRating(float_t time) ;
+static GlobalNamespace::BeatmapObjectExecutionRating New_ctor(float_t time) ;
 
 /// @brief Method .ctor addr 0x21bb538 size 0x28 virtual false final false
  void _ctor(float_t time) ;

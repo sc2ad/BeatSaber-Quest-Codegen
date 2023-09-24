@@ -1,7 +1,7 @@
 #pragma once
 #include "Oculus/Platform/Models/zzzz__NetSyncConnection_def.hpp"
-#include "Oculus/Platform/zzzz__NetSyncDisconnectReason_def.hpp"
 #include "Oculus/Platform/zzzz__NetSyncConnectionStatus_def.hpp"
+#include "Oculus/Platform/zzzz__NetSyncDisconnectReason_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Models::NetSyncConnection._ctor
 template<>
 
@@ -49,8 +49,10 @@ constexpr void Oculus::Platform::Models::NetSyncConnection::__set_ZoneId(::Strin
 constexpr ::StringW Oculus::Platform::Models::NetSyncConnection::__get_ZoneId() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::NetSyncConnection::NetSyncConnection(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetSyncConnection>(o))) {}
+ Oculus::Platform::Models::NetSyncConnection Oculus::Platform::Models::NetSyncConnection::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::NetSyncConnection o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::NetSyncConnection>(o))};
+return o;
+}
  void Oculus::Platform::Models::NetSyncConnection::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::NetSyncConnection>::get(),

@@ -3,17 +3,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScrollView_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__ScrollView_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "HMUI/zzzz__EventSystemListener_def.hpp"
+#include "HMUI/zzzz__ItemForFocussedScrolling_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "HMUI/zzzz__VerticalScrollIndicator_def.hpp"
-#include "HMUI/zzzz__ItemForFocussedScrolling_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "HMUI/zzzz__EventSystemListener_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__ScrollView__ScrollType::HMUI__ScrollView__ScrollType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -120,8 +121,10 @@ return ::cordl_internals::getStaticField<System::Func_2<float_t,float_t>, "<>9__
  System::Func_2<float_t,float_t> HMUI::HMUI__ScrollView____c::__get___9__42_3()  {
 return ::cordl_internals::getStaticField<System::Func_2<float_t,float_t>, "<>9__42_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ScrollView____c>::get>();
 }
-// Ctor Parameters []
- HMUI::HMUI__ScrollView____c::HMUI__ScrollView____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ScrollView____c>())) {}
+ HMUI::HMUI__ScrollView____c HMUI::HMUI__ScrollView____c::New_ctor()  {
+HMUI::HMUI__ScrollView____c o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ScrollView____c>())};
+return o;
+}
  void HMUI::HMUI__ScrollView____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ScrollView____c>::get(),
@@ -189,8 +192,10 @@ constexpr void HMUI::HMUI__ScrollView____c__DisplayClass55_0::__set_threshold(fl
 constexpr float_t HMUI::HMUI__ScrollView____c__DisplayClass55_0::__get_threshold() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__ScrollView____c__DisplayClass55_0::HMUI__ScrollView____c__DisplayClass55_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ScrollView____c__DisplayClass55_0>())) {}
+ HMUI::HMUI__ScrollView____c__DisplayClass55_0 HMUI::HMUI__ScrollView____c__DisplayClass55_0::New_ctor()  {
+HMUI::HMUI__ScrollView____c__DisplayClass55_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ScrollView____c__DisplayClass55_0>())};
+return o;
+}
  void HMUI::HMUI__ScrollView____c__DisplayClass55_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ScrollView____c__DisplayClass55_0>::get(),
@@ -249,8 +254,10 @@ constexpr void HMUI::HMUI__ScrollView____c__DisplayClass56_0::__set_threshold(fl
 constexpr float_t HMUI::HMUI__ScrollView____c__DisplayClass56_0::__get_threshold() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__ScrollView____c__DisplayClass56_0::HMUI__ScrollView____c__DisplayClass56_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ScrollView____c__DisplayClass56_0>())) {}
+ HMUI::HMUI__ScrollView____c__DisplayClass56_0 HMUI::HMUI__ScrollView____c__DisplayClass56_0::New_ctor()  {
+HMUI::HMUI__ScrollView____c__DisplayClass56_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ScrollView____c__DisplayClass56_0>())};
+return o;
+}
  void HMUI::HMUI__ScrollView____c__DisplayClass56_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ScrollView____c__DisplayClass56_0>::get(),
@@ -309,8 +316,10 @@ constexpr void HMUI::HMUI__ScrollView____c__DisplayClass61_0::__set_threshold(fl
 constexpr float_t HMUI::HMUI__ScrollView____c__DisplayClass61_0::__get_threshold() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__ScrollView____c__DisplayClass61_0::HMUI__ScrollView____c__DisplayClass61_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ScrollView____c__DisplayClass61_0>())) {}
+ HMUI::HMUI__ScrollView____c__DisplayClass61_0 HMUI::HMUI__ScrollView____c__DisplayClass61_0::New_ctor()  {
+HMUI::HMUI__ScrollView____c__DisplayClass61_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ScrollView____c__DisplayClass61_0>())};
+return o;
+}
  void HMUI::HMUI__ScrollView____c__DisplayClass61_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ScrollView____c__DisplayClass61_0>::get(),
@@ -369,8 +378,10 @@ constexpr void HMUI::HMUI__ScrollView____c__DisplayClass61_1::__set_threshold(fl
 constexpr float_t HMUI::HMUI__ScrollView____c__DisplayClass61_1::__get_threshold() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__ScrollView____c__DisplayClass61_1::HMUI__ScrollView____c__DisplayClass61_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ScrollView____c__DisplayClass61_1>())) {}
+ HMUI::HMUI__ScrollView____c__DisplayClass61_1 HMUI::HMUI__ScrollView____c__DisplayClass61_1::New_ctor()  {
+HMUI::HMUI__ScrollView____c__DisplayClass61_1 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ScrollView____c__DisplayClass61_1>())};
+return o;
+}
  void HMUI::HMUI__ScrollView____c__DisplayClass61_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ScrollView____c__DisplayClass61_1>::get(),
@@ -1338,8 +1349,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<HMUI::HMUI__ScrollView__ScrollDirection, false>(const_cast<void*>(instance), ___internal_method, deltaPos);
 }
-// Ctor Parameters []
- HMUI::ScrollView::ScrollView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScrollView>())) {}
+ HMUI::ScrollView HMUI::ScrollView::New_ctor()  {
+HMUI::ScrollView o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ScrollView>())};
+return o;
+}
  void HMUI::ScrollView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ScrollView>::get(),

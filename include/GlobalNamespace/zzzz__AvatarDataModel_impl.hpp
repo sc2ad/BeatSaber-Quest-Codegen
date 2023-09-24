@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarData_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarPartsModel_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarData_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AvatarDataModel.get_avatarData
 template<>
@@ -274,8 +274,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::AvatarData, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarDataModel::AvatarDataModel()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AvatarDataModel>())) {}
+ GlobalNamespace::AvatarDataModel GlobalNamespace::AvatarDataModel::New_ctor()  {
+GlobalNamespace::AvatarDataModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarDataModel>())};
+return o;
+}
  void GlobalNamespace::AvatarDataModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarDataModel>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNodeState_def.hpp"
+#include "UnityEngine/XR/zzzz__AvailableTrackingData_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/XR/zzzz__AvailableTrackingData_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::XRNodeState.set_uniqueID
 template<>
 

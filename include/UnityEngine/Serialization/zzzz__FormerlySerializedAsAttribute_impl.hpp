@@ -24,8 +24,10 @@ constexpr void UnityEngine::Serialization::FormerlySerializedAsAttribute::__set_
 constexpr ::StringW UnityEngine::Serialization::FormerlySerializedAsAttribute::__get_m_oldName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "oldName", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Serialization::FormerlySerializedAsAttribute::FormerlySerializedAsAttribute(::StringW oldName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<FormerlySerializedAsAttribute>(oldName))) {}
+ UnityEngine::Serialization::FormerlySerializedAsAttribute UnityEngine::Serialization::FormerlySerializedAsAttribute::New_ctor(::StringW oldName)  {
+UnityEngine::Serialization::FormerlySerializedAsAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Serialization::FormerlySerializedAsAttribute>(oldName))};
+return o;
+}
  void UnityEngine::Serialization::FormerlySerializedAsAttribute::_ctor(::StringW oldName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Serialization::FormerlySerializedAsAttribute>::get(),

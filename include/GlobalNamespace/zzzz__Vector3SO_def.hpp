@@ -48,8 +48,7 @@ constexpr explicit Vector3SO(void* ptr) noexcept : GlobalNamespace::ObservableVa
 
 // Methods
 
-// Ctor Parameters []
-explicit Vector3SO() ;
+static GlobalNamespace::Vector3SO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83e9c size 0x48 virtual false final false
  void _ctor() ;

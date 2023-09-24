@@ -81,8 +81,7 @@ constexpr bool __get__Browsable_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "browsable", ty: "bool", modifiers: "", def_value: None }]
-explicit BrowsableAttribute(bool browsable) ;
+static System::ComponentModel::BrowsableAttribute New_ctor(bool browsable) ;
 
 /// @brief Method .ctor addr 0x2771060 size 0x28 virtual false final false
  void _ctor(bool browsable) ;

@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Unity::Profiling {
+struct Unity__Profiling__ProfilerMarker__AutoScope;
+}
 namespace System {
 class IDisposable;
 }

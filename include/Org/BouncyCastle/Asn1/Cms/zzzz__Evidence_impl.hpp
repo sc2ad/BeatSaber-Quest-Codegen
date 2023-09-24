@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__Evidence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__TimeStampTokenEvidence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::Evidence._ctor
 template<>
 
@@ -124,8 +124,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::Evidence::__set_otherEvidence(Org::
 constexpr Org::BouncyCastle::Asn1::Asn1Sequence Org::BouncyCastle::Asn1::Cms::Evidence::__get_otherEvidence() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Sequence, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tstEvidence", ty: "Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::Evidence::Evidence(Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence tstEvidence)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Evidence>(tstEvidence))) {}
+ Org::BouncyCastle::Asn1::Cms::Evidence Org::BouncyCastle::Asn1::Cms::Evidence::New_ctor(Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence tstEvidence)  {
+Org::BouncyCastle::Asn1::Cms::Evidence o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::Evidence>(tstEvidence))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::Evidence::_ctor(Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence tstEvidence)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::Evidence>::get(),
@@ -135,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tstEvidence);
 }
-// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::Evidence::Evidence(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Evidence>(tagged))) {}
+ Org::BouncyCastle::Asn1::Cms::Evidence Org::BouncyCastle::Asn1::Cms::Evidence::New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  {
+Org::BouncyCastle::Asn1::Cms::Evidence o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::Evidence>(tagged))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::Evidence::_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::Evidence>::get(),

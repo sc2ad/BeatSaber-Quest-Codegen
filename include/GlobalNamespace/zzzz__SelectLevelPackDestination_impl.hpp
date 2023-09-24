@@ -25,8 +25,10 @@ constexpr void GlobalNamespace::SelectLevelPackDestination::__set_beatmapLevelPa
 constexpr GlobalNamespace::IBeatmapLevelPack GlobalNamespace::SelectLevelPackDestination::__get_beatmapLevelPack() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IBeatmapLevelPack, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }]
- GlobalNamespace::SelectLevelPackDestination::SelectLevelPackDestination(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack)  : GlobalNamespace::MenuDestination(THROW_UNLESS(::il2cpp_utils::New<SelectLevelPackDestination>(beatmapLevelPack))) {}
+ GlobalNamespace::SelectLevelPackDestination GlobalNamespace::SelectLevelPackDestination::New_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack)  {
+GlobalNamespace::SelectLevelPackDestination o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectLevelPackDestination>(beatmapLevelPack))};
+return o;
+}
  void GlobalNamespace::SelectLevelPackDestination::_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectLevelPackDestination>::get(),

@@ -1,17 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsManager_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsText_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsGraph_def.hpp"
+#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
 //  Writing Method size for method: Tayx::Graphy::Fps::G_FpsManager.Awake
 template<>
@@ -339,8 +337,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, active);
 }
-// Ctor Parameters []
- Tayx::Graphy::Fps::G_FpsManager::G_FpsManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<G_FpsManager>())) {}
+ Tayx::Graphy::Fps::G_FpsManager Tayx::Graphy::Fps::G_FpsManager::New_ctor()  {
+Tayx::Graphy::Fps::G_FpsManager o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Fps::G_FpsManager>())};
+return o;
+}
  void Tayx::Graphy::Fps::G_FpsManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Fps::G_FpsManager>::get(),

@@ -70,8 +70,7 @@ constexpr ::StringW __get_Message() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "code", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "httpCode", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Error(int32_t code, ::StringW message, int32_t httpCode) ;
+static Oculus::Platform::Models::Error New_ctor(int32_t code, ::StringW message, int32_t httpCode) ;
 
 /// @brief Method .ctor addr 0x259eb20 size 0x3c virtual false final false
  void _ctor(int32_t code, ::StringW message, int32_t httpCode) ;

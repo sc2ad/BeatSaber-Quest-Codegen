@@ -62,8 +62,7 @@ constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 /// @brief Method InstallBindings addr 0x20c2f94 size 0x54 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit LobbyAvatarInstaller() ;
+static GlobalNamespace::LobbyAvatarInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c2fe8 size 0x8 virtual false final false
  void _ctor() ;

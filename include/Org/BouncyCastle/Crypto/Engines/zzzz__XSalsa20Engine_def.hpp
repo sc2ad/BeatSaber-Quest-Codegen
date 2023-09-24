@@ -66,8 +66,7 @@ constexpr explicit XSalsa20Engine(void* ptr) noexcept : Org::BouncyCastle::Crypt
 /// @brief Method SetKey addr 0xe689b0 size 0x264 virtual true final false
  void SetKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes) ;
 
-// Ctor Parameters []
-explicit XSalsa20Engine() ;
+static Org::BouncyCastle::Crypto::Engines::XSalsa20Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe68c14 size 0x58 virtual false final false
  void _ctor() ;

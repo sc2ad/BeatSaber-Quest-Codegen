@@ -79,14 +79,12 @@ constexpr int32_t __get_scale() const;
 /// @brief Method GetInstance addr 0xf394b4 size 0x84 virtual false final false
 static Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal GetInstance(Org::BouncyCastle::Math::BigInteger val, int32_t scale) ;
 
-// Ctor Parameters [CppParam { name: "bigInt", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SimpleBigDecimal(Org::BouncyCastle::Math::BigInteger bigInt, int32_t scale) ;
+static Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal New_ctor(Org::BouncyCastle::Math::BigInteger bigInt, int32_t scale) ;
 
 /// @brief Method .ctor addr 0xf39538 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger bigInt, int32_t scale) ;
 
-// Ctor Parameters [CppParam { name: "limBigDec", ty: "Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal", modifiers: "", def_value: None }]
-explicit SimpleBigDecimal(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal limBigDec) ;
+static Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal New_ctor(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal limBigDec) ;
 
 /// @brief Method .ctor addr 0xf395b8 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal limBigDec) ;

@@ -2,23 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PopoSigningKeyInput;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -96,8 +96,7 @@ constexpr Org::BouncyCastle::Asn1::DerBitString __get_signature() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PopoSigningKey(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Crmf::PopoSigningKey New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf9c50 size 0x208 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -108,8 +107,7 @@ static Org::BouncyCastle::Asn1::Crmf::PopoSigningKey GetInstance(::bs_hook::Il2C
 /// @brief Method GetInstance addr 0xdfa168 size 0x18 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::PopoSigningKey GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "poposkIn", ty: "Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput", modifiers: "", def_value: None }, CppParam { name: "aid", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit PopoSigningKey(Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput poposkIn, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier aid, Org::BouncyCastle::Asn1::DerBitString signature) ;
+static Org::BouncyCastle::Asn1::Crmf::PopoSigningKey New_ctor(Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput poposkIn, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier aid, Org::BouncyCastle::Asn1::DerBitString signature) ;
 
 /// @brief Method .ctor addr 0xdfa180 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput poposkIn, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier aid, Org::BouncyCastle::Asn1::DerBitString signature) ;

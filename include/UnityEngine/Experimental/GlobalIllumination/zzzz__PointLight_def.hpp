@@ -7,16 +7,16 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
+struct LinearColor;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct FalloffType;
 }
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LightMode;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {

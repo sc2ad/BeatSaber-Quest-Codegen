@@ -5,10 +5,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

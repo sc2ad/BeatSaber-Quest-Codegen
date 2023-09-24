@@ -144,8 +144,10 @@ constexpr void System::Xml::XmlCharacterData::__set_data(::StringW value)  {
 constexpr ::StringW System::Xml::XmlCharacterData::__get_data() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlCharacterData::XmlCharacterData(::StringW data, System::Xml::XmlDocument doc)  : System::Xml::XmlLinkedNode(THROW_UNLESS(::il2cpp_utils::New<XmlCharacterData>(data, doc))) {}
+ System::Xml::XmlCharacterData System::Xml::XmlCharacterData::New_ctor(::StringW data, System::Xml::XmlDocument doc)  {
+System::Xml::XmlCharacterData o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlCharacterData>(data, doc))};
+return o;
+}
  void System::Xml::XmlCharacterData::_ctor(::StringW data, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlCharacterData>::get(),

@@ -120,8 +120,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Principal::IdentityReference::IdentityReference()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IdentityReference>())) {}
+ System::Security::Principal::IdentityReference System::Security::Principal::IdentityReference::New_ctor()  {
+System::Security::Principal::IdentityReference o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::IdentityReference>())};
+return o;
+}
  void System::Security::Principal::IdentityReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::IdentityReference>::get(),

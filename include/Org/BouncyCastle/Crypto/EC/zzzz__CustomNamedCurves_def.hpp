@@ -3,32 +3,128 @@
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParametersHolder;
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder;
 }
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
 class GlvTypeBParameters;
 }
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParametersHolder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECPoint;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::EC {
@@ -181,8 +277,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe21a88 size 0x8 virtual false final false
  void _ctor() ;
@@ -245,8 +340,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe21c14 size 0x8 virtual false final false
  void _ctor() ;
@@ -309,8 +403,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe21df4 size 0x8 virtual false final false
  void _ctor() ;
@@ -373,8 +466,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe22294 size 0x8 virtual false final false
  void _ctor() ;
@@ -437,8 +529,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe22474 size 0x8 virtual false final false
  void _ctor() ;
@@ -501,8 +592,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe22654 size 0x8 virtual false final false
  void _ctor() ;
@@ -565,8 +655,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe22af4 size 0x8 virtual false final false
  void _ctor() ;
@@ -629,8 +718,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe22cd4 size 0x8 virtual false final false
  void _ctor() ;
@@ -693,8 +781,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe23174 size 0x8 virtual false final false
  void _ctor() ;
@@ -757,8 +844,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe23354 size 0x8 virtual false final false
  void _ctor() ;
@@ -821,8 +907,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe237f4 size 0x8 virtual false final false
  void _ctor() ;
@@ -885,8 +970,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe239d4 size 0x8 virtual false final false
  void _ctor() ;
@@ -949,8 +1033,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe23bb4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1013,8 +1096,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe23d94 size 0x8 virtual false final false
  void _ctor() ;
@@ -1077,8 +1159,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe23f74 size 0x8 virtual false final false
  void _ctor() ;
@@ -1141,8 +1222,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe24154 size 0x8 virtual false final false
  void _ctor() ;
@@ -1205,8 +1285,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe24334 size 0x8 virtual false final false
  void _ctor() ;
@@ -1269,8 +1348,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe24514 size 0x8 virtual false final false
  void _ctor() ;
@@ -1333,8 +1411,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe246a0 size 0x8 virtual false final false
  void _ctor() ;
@@ -1397,8 +1474,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe24880 size 0x8 virtual false final false
  void _ctor() ;
@@ -1461,8 +1537,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe24a60 size 0x8 virtual false final false
  void _ctor() ;
@@ -1525,8 +1600,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe24c40 size 0x8 virtual false final false
  void _ctor() ;
@@ -1589,8 +1663,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe24e20 size 0x8 virtual false final false
  void _ctor() ;
@@ -1653,8 +1726,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe24fac size 0x8 virtual false final false
  void _ctor() ;
@@ -1717,8 +1789,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe2518c size 0x8 virtual false final false
  void _ctor() ;
@@ -1781,8 +1852,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe25318 size 0x8 virtual false final false
  void _ctor() ;
@@ -1845,8 +1915,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe254a4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1909,8 +1978,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe25684 size 0x8 virtual false final false
  void _ctor() ;
@@ -1973,8 +2041,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe25810 size 0x8 virtual false final false
  void _ctor() ;
@@ -2037,8 +2104,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe259f0 size 0x8 virtual false final false
  void _ctor() ;
@@ -2101,8 +2167,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe25b7c size 0x8 virtual false final false
  void _ctor() ;
@@ -2165,8 +2230,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder() ;
+static Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe25d5c size 0x8 virtual false final false
  void _ctor() ;
@@ -2322,8 +2386,7 @@ static System::Collections::IEnumerable __declspec(property(get=get_Names))  Nam
 
 // Methods
 
-// Ctor Parameters []
-explicit CustomNamedCurves() ;
+static Org::BouncyCastle::Crypto::EC::CustomNamedCurves New_ctor() ;
 
 /// @brief Method .ctor addr 0xe1fd80 size 0x8 virtual false final false
  void _ctor() ;

@@ -56,8 +56,7 @@ constexpr explicit ZSignedDigitR2LMultiplier(void* ptr) noexcept : Org::BouncyCa
 /// @brief Method MultiplyPositive addr 0xfadd4c size 0x130 virtual true final false
  Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
-// Ctor Parameters []
-explicit ZSignedDigitR2LMultiplier() ;
+static Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0xfade7c size 0x8 virtual false final false
  void _ctor() ;

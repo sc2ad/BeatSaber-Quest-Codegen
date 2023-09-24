@@ -2,10 +2,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_def.hpp"
 namespace System::Configuration {
-class ConfigurationPropertyCollection;
+class ConfigurationElement;
 }
 namespace System::Configuration {
-class ConfigurationElement;
+class ConfigurationPropertyCollection;
 }
 // Forward declare root types
 namespace System::Net::Configuration {
@@ -58,8 +58,7 @@ constexpr explicit DefaultProxySection(void* ptr) noexcept : System::Configurati
 
 // Methods
 
-// Ctor Parameters []
-explicit DefaultProxySection() ;
+static System::Net::Configuration::DefaultProxySection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b22ec size 0x38 virtual false final false
  void _ctor() ;

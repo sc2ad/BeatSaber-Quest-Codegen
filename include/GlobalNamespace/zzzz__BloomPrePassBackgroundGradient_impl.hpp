@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundGradient_def.hpp"
+#include "UnityEngine/zzzz__Gradient_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "UnityEngine/zzzz__Gradient_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BloomPrePassBackgroundGradient.UpdatePixels
 template<>
 
@@ -53,8 +53,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pixels, numberOfPixels);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassBackgroundGradient::BloomPrePassBackgroundGradient()  : GlobalNamespace::BloomPrePassBackgroundTextureGradient(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassBackgroundGradient>())) {}
+ GlobalNamespace::BloomPrePassBackgroundGradient GlobalNamespace::BloomPrePassBackgroundGradient::New_ctor()  {
+GlobalNamespace::BloomPrePassBackgroundGradient o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassBackgroundGradient>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassBackgroundGradient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassBackgroundGradient>::get(),

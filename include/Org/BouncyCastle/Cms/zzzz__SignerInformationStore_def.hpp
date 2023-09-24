@@ -2,20 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Cms {
+class SignerInformation;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInformation;
+class ICollection;
 }
 namespace Org::BouncyCastle::Cms {
 class SignerID;
 }
 namespace System::Collections {
-class ICollection;
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -83,14 +83,12 @@ constexpr System::Collections::IDictionary __get_table() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signerInfo", ty: "Org::BouncyCastle::Cms::SignerInformation", modifiers: "", def_value: None }]
-explicit SignerInformationStore(Org::BouncyCastle::Cms::SignerInformation signerInfo) ;
+static Org::BouncyCastle::Cms::SignerInformationStore New_ctor(Org::BouncyCastle::Cms::SignerInformation signerInfo) ;
 
 /// @brief Method .ctor addr 0x11820ac size 0x18c virtual false final false
  void _ctor(Org::BouncyCastle::Cms::SignerInformation signerInfo) ;
 
-// Ctor Parameters [CppParam { name: "signerInfos", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit SignerInformationStore(System::Collections::ICollection signerInfos) ;
+static Org::BouncyCastle::Cms::SignerInformationStore New_ctor(System::Collections::ICollection signerInfos) ;
 
 /// @brief Method .ctor addr 0x1182238 size 0x5a8 virtual false final false
  void _ctor(System::Collections::ICollection signerInfos) ;

@@ -1,43 +1,43 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_EnvIntType_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_MaterialInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_HandleInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_VolumeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ParmChoiceInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_SphereInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_StatusVerbosity_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_HandleBindingInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_SessionEnvIntType_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_VolumeTileInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_GroupType_def.hpp"
-#include "HoudiniEngineUnity/zzzz__SessionMode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_CurveInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_State_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_StatusType_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_HeightFieldSampling_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Result_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_CookOptions_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_BoxInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__SessionConnectionState_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ImageInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_CacheProperty_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_SessionSyncInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Viewport_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_HeightFieldSampling_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AssetInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_SphereInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_CurveInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_VolumeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__SessionConnectionState_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_HandleInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_CookOptions_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_SessionEnvIntType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_StatusType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_State_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_SessionSyncInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
+#include "HoudiniEngineUnity/zzzz__SessionMode_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ParmChoiceInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_EnvIntType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ImageInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_GroupType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_MaterialInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_HandleBindingInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_StatusVerbosity_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_CacheProperty_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_VolumeTileInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Viewport_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_BoxInfo_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_SessionBase.get_UserNotifiedSessionInvalid
 template<>
 
@@ -3679,8 +3679,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, asset);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_SessionBase::HEU_SessionBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_SessionBase>())) {}
+ HoudiniEngineUnity::HEU_SessionBase HoudiniEngineUnity::HEU_SessionBase::New_ctor()  {
+HoudiniEngineUnity::HEU_SessionBase o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_SessionBase>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_SessionBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_SessionBase>::get(),

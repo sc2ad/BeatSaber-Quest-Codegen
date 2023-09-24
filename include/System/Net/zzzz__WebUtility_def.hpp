@@ -8,14 +8,17 @@
 namespace System::Text {
 class Encoding;
 }
+namespace System::Net::Configuration {
+struct UnicodeDecodingConformance;
+}
 namespace System::IO {
 class TextWriter;
 }
 namespace System::Net::Configuration {
 struct UnicodeEncodingConformance;
 }
-namespace System::Net::Configuration {
-struct UnicodeDecodingConformance;
+namespace System::Net {
+class System__Net__WebUtility__UrlDecoder;
 }
 // Forward declare root types
 namespace System::Net {
@@ -108,8 +111,7 @@ constexpr System::Text::Encoding __get__encoding() const;
 /// @brief Method FlushBytes addr 0x2814628 size 0x60 virtual false final false
  void FlushBytes() ;
 
-// Ctor Parameters [CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit System__Net__WebUtility__UrlDecoder(int32_t bufferSize, System::Text::Encoding encoding) ;
+static System::Net::System__Net__WebUtility__UrlDecoder New_ctor(int32_t bufferSize, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x28142b4 size 0x74 virtual false final false
  void _ctor(int32_t bufferSize, System::Text::Encoding encoding) ;

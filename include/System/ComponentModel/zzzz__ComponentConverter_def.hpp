@@ -3,17 +3,17 @@
 #include "System/ComponentModel/zzzz__ReferenceConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
 namespace System {
 class Type;
+}
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
 }
 namespace System {
 class Attribute;
 }
 namespace System::ComponentModel {
-class ITypeDescriptorContext;
+class PropertyDescriptorCollection;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -61,8 +61,7 @@ constexpr explicit ComponentConverter(void* ptr) noexcept : System::ComponentMod
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit ComponentConverter(System::Type type) ;
+static System::ComponentModel::ComponentConverter New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2787ac0 size 0x6c virtual false final false
  void _ctor(System::Type type) ;

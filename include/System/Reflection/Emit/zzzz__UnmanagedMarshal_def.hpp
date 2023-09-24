@@ -47,8 +47,7 @@ constexpr explicit UnmanagedMarshal(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Methods
 
-// Ctor Parameters []
-explicit UnmanagedMarshal() ;
+static System::Reflection::Emit::UnmanagedMarshal New_ctor() ;
 
 /// @brief Method .ctor addr 0x238ebd0 size 0x8 virtual false final false
  void _ctor() ;

@@ -82,8 +82,7 @@ constexpr ::ArrayW<uint32_t> __get_buff() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SHA1Internal() ;
+static System::Security::Cryptography::SHA1Internal New_ctor() ;
 
 /// @brief Method .ctor addr 0x23081f4 size 0x9c virtual false final false
  void _ctor() ;

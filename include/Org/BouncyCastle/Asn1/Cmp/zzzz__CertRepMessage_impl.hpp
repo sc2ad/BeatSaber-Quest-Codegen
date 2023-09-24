@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertRepMessage_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__CmpCertificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__CmpCertificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertResponse_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cmp::CertRepMessage._ctor
 template<>
 
@@ -119,8 +119,10 @@ constexpr void Org::BouncyCastle::Asn1::Cmp::CertRepMessage::__set_response(Org:
 constexpr Org::BouncyCastle::Asn1::Asn1Sequence Org::BouncyCastle::Asn1::Cmp::CertRepMessage::__get_response() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Sequence, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::CertRepMessage::CertRepMessage(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertRepMessage>(seq))) {}
+ Org::BouncyCastle::Asn1::Cmp::CertRepMessage Org::BouncyCastle::Asn1::Cmp::CertRepMessage::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cmp::CertRepMessage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::CertRepMessage>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::CertRepMessage::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::CertRepMessage>::get(),
@@ -139,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cmp::CertRepMessage, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "caPubs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate>", modifiers: "", def_value: None }, CppParam { name: "response", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::CertRepMessage::CertRepMessage(::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> caPubs, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse> response)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertRepMessage>(caPubs, response))) {}
+ Org::BouncyCastle::Asn1::Cmp::CertRepMessage Org::BouncyCastle::Asn1::Cmp::CertRepMessage::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> caPubs, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse> response)  {
+Org::BouncyCastle::Asn1::Cmp::CertRepMessage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::CertRepMessage>(caPubs, response))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::CertRepMessage::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> caPubs, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse> response)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::CertRepMessage>::get(),

@@ -54,6 +54,8 @@ constexpr operator __SByteEnum_Unwrapped () const noexcept {
 return std::bit_cast<__SByteEnum_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int8_t;
+
 
 // Fields
 

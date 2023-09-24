@@ -3,6 +3,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
+}
+namespace GlobalNamespace {
+class BeatmapEventDataBox;
+}
+namespace GlobalNamespace {
+class BeatmapData;
+}
+namespace GlobalNamespace {
+class IBeatToTimeConvertor;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class IReadOnlyDictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapEventDataBoxGroup__ElementData;
+}
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
@@ -11,36 +35,15 @@ template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace System {
+template<typename T>
+class IComparable_1;
+}
+namespace System {
 class Type;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 struct ValueTuple_3;
-}
-namespace GlobalNamespace {
-class BeatmapEventDataBox;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IReadOnlyDictionary_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System {
-template<typename T>
-class IComparable_1;
-}
-namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -167,8 +170,7 @@ constexpr GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementDat
 /// @brief Method get_previous addr 0x21db6ac size 0x8 virtual false final false
  GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData get_previous() ;
 
-// Ctor Parameters [CppParam { name: "boxGroup", ty: "GlobalNamespace::BeatmapEventDataBoxGroup", modifiers: "", def_value: None }, CppParam { name: "eventBox", ty: "GlobalNamespace::BeatmapEventDataBox", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "durationOrderIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "distributionOrderIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startBeat", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapEventDataBoxGroup__ElementData(GlobalNamespace::BeatmapEventDataBoxGroup boxGroup, GlobalNamespace::BeatmapEventDataBox eventBox, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat) ;
+static GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData New_ctor(GlobalNamespace::BeatmapEventDataBoxGroup boxGroup, GlobalNamespace::BeatmapEventDataBox eventBox, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat) ;
 
 /// @brief Method .ctor addr 0x21db0e8 size 0x8c virtual false final false
  void _ctor(GlobalNamespace::BeatmapEventDataBoxGroup boxGroup, GlobalNamespace::BeatmapEventDataBox eventBox, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat) ;
@@ -268,8 +270,7 @@ constexpr System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::B
 /// @brief Method get_elementDataDict addr 0x21da8ec size 0x8 virtual false final false
  System::Collections::Generic::IReadOnlyDictionary_2<System::ValueTuple_3<int32_t,System::Type,int32_t>,GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData> get_elementDataDict() ;
 
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapEventDataBoxList", ty: "System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox>", modifiers: "", def_value: None }]
-explicit BeatmapEventDataBoxGroup(float_t beat, System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> beatmapEventDataBoxList) ;
+static GlobalNamespace::BeatmapEventDataBoxGroup New_ctor(float_t beat, System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> beatmapEventDataBoxList) ;
 
 /// @brief Method .ctor addr 0x21da8f4 size 0x78c virtual false final false
  void _ctor(float_t beat, System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> beatmapEventDataBoxList) ;

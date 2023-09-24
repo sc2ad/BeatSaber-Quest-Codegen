@@ -6,16 +6,16 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

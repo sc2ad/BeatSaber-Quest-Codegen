@@ -211,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Sprite, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SpriteSwapTransitionSO::SpriteSwapTransitionSO()  : GlobalNamespace::BaseTransitionSO(THROW_UNLESS(::il2cpp_utils::New<SpriteSwapTransitionSO>())) {}
+ GlobalNamespace::SpriteSwapTransitionSO GlobalNamespace::SpriteSwapTransitionSO::New_ctor()  {
+GlobalNamespace::SpriteSwapTransitionSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SpriteSwapTransitionSO>())};
+return o;
+}
  void GlobalNamespace::SpriteSwapTransitionSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SpriteSwapTransitionSO>::get(),

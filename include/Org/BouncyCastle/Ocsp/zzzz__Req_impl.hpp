@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__Req_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__CertificateID_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__Request_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::Req._ctor
 template<>
 
@@ -78,8 +78,10 @@ constexpr void Org::BouncyCastle::Ocsp::Req::__set_req(Org::BouncyCastle::Asn1::
 constexpr Org::BouncyCastle::Asn1::Ocsp::Request Org::BouncyCastle::Ocsp::Req::__get_req() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Ocsp::Request, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "req", ty: "Org::BouncyCastle::Asn1::Ocsp::Request", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::Req::Req(Org::BouncyCastle::Asn1::Ocsp::Request req)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<Req>(req))) {}
+ Org::BouncyCastle::Ocsp::Req Org::BouncyCastle::Ocsp::Req::New_ctor(Org::BouncyCastle::Asn1::Ocsp::Request req)  {
+Org::BouncyCastle::Ocsp::Req o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::Req>(req))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::Req::_ctor(Org::BouncyCastle::Asn1::Ocsp::Request req)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::Req>::get(),

@@ -206,8 +206,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::__set_see
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::__get_seed() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestRandomGenerator(Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DigestRandomGenerator>(digest))) {}
+ Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator>::get(),

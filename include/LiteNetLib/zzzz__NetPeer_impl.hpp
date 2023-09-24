@@ -1,23 +1,24 @@
 #pragma once
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
 #include "LiteNetLib/zzzz__NetPacket_def.hpp"
-#include "LiteNetLib/zzzz__BaseChannel_def.hpp"
+#include "LiteNetLib/zzzz__NetStatistics_def.hpp"
+#include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
-#include "LiteNetLib/zzzz__ShutdownResult_def.hpp"
 #include "LiteNetLib/zzzz__DisconnectResult_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
-#include "LiteNetLib/zzzz__NetPacketPool_def.hpp"
-#include "LiteNetLib/zzzz__NetStatistics_def.hpp"
-#include "LiteNetLib/zzzz__NetManager_def.hpp"
 #include "LiteNetLib/zzzz__ConnectRequestResult_def.hpp"
-#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
-#include "LiteNetLib/zzzz__NetConnectAcceptPacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/zzzz__ShutdownResult_def.hpp"
 #include "LiteNetLib/zzzz__ConnectionState_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/zzzz__BaseChannel_def.hpp"
+#include "LiteNetLib/zzzz__NetManager_def.hpp"
+#include "LiteNetLib/zzzz__NetConnectAcceptPacket_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
+#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
+#include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "LiteNetLib/zzzz__NetPacketPool_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 //  Writing Method size for method: LiteNetLib::LiteNetLib__NetPeer__IncomingFragments._ctor
 template<>
 
@@ -59,8 +60,10 @@ constexpr void LiteNetLib::LiteNetLib__NetPeer__IncomingFragments::__set_Channel
 constexpr uint8_t LiteNetLib::LiteNetLib__NetPeer__IncomingFragments::__get_ChannelId() const {
 return ::cordl_internals::getInstanceField<uint8_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::LiteNetLib__NetPeer__IncomingFragments::LiteNetLib__NetPeer__IncomingFragments()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__NetPeer__IncomingFragments>())) {}
+ LiteNetLib::LiteNetLib__NetPeer__IncomingFragments LiteNetLib::LiteNetLib__NetPeer__IncomingFragments::New_ctor()  {
+LiteNetLib::LiteNetLib__NetPeer__IncomingFragments o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__NetPeer__IncomingFragments>())};
+return o;
+}
  void LiteNetLib::LiteNetLib__NetPeer__IncomingFragments::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__NetPeer__IncomingFragments>::get(),
@@ -1218,8 +1221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<double_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "netManager", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }, CppParam { name: "remoteEndPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }]
- LiteNetLib::NetPeer::NetPeer(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetPeer>(netManager, remoteEndPoint, id))) {}
+ LiteNetLib::NetPeer LiteNetLib::NetPeer::New_ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id)  {
+LiteNetLib::NetPeer o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetPeer>(netManager, remoteEndPoint, id))};
+return o;
+}
  void LiteNetLib::NetPeer::_ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetPeer>::get(),
@@ -1256,8 +1261,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<LiteNetLib::BaseChannel, false>(const_cast<void*>(instance), ___internal_method, idx);
 }
-// Ctor Parameters [CppParam { name: "netManager", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }, CppParam { name: "remoteEndPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "connectNum", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "connectData", ty: "LiteNetLib::Utils::NetDataWriter", modifiers: "", def_value: None }]
- LiteNetLib::NetPeer::NetPeer(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, uint8_t connectNum, LiteNetLib::Utils::NetDataWriter connectData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetPeer>(netManager, remoteEndPoint, id, connectNum, connectData))) {}
+ LiteNetLib::NetPeer LiteNetLib::NetPeer::New_ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, uint8_t connectNum, LiteNetLib::Utils::NetDataWriter connectData)  {
+LiteNetLib::NetPeer o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetPeer>(netManager, remoteEndPoint, id, connectNum, connectData))};
+return o;
+}
  void LiteNetLib::NetPeer::_ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, uint8_t connectNum, LiteNetLib::Utils::NetDataWriter connectData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetPeer>::get(),
@@ -1267,8 +1274,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, netManager, remoteEndPoint, id, connectNum, connectData);
 }
-// Ctor Parameters [CppParam { name: "netManager", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }, CppParam { name: "remoteEndPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "connectId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "connectNum", ty: "uint8_t", modifiers: "", def_value: None }]
- LiteNetLib::NetPeer::NetPeer(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, int64_t connectId, uint8_t connectNum)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetPeer>(netManager, remoteEndPoint, id, connectId, connectNum))) {}
+ LiteNetLib::NetPeer LiteNetLib::NetPeer::New_ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, int64_t connectId, uint8_t connectNum)  {
+LiteNetLib::NetPeer o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetPeer>(netManager, remoteEndPoint, id, connectId, connectNum))};
+return o;
+}
  void LiteNetLib::NetPeer::_ctor(LiteNetLib::NetManager netManager, System::Net::IPEndPoint remoteEndPoint, int32_t id, int64_t connectId, uint8_t connectNum)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetPeer>::get(),

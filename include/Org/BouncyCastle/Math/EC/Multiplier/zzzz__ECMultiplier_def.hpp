@@ -1,10 +1,10 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {

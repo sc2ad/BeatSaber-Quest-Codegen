@@ -74,8 +74,7 @@ constexpr bool __get_disableMultiplayer() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AppStaticSettingsSO() ;
+static GlobalNamespace::AppStaticSettingsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b9064 size 0x8 virtual false final false
  void _ctor() ;

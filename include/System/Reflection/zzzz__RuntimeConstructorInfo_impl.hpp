@@ -1,22 +1,22 @@
 #pragma once
 #include "System/Reflection/zzzz__ConstructorInfo_impl.hpp"
 #include "System/Reflection/zzzz__RuntimeConstructorInfo_def.hpp"
-#include "System/zzzz__RuntimeMethodHandle_def.hpp"
 #include "System/Reflection/zzzz__MethodImplAttributes_def.hpp"
-#include "System/Reflection/zzzz__MethodAttributes_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
-#include "System/Reflection/zzzz__CallingConventions_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/Reflection/zzzz__RuntimeModule_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Reflection/zzzz__CallingConventions_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/zzzz__RuntimeMethodHandle_def.hpp"
+#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "System/Reflection/zzzz__MethodAttributes_def.hpp"
 //  Writing Method size for method: System::Reflection::RuntimeConstructorInfo.get_Module
 template<>
 
@@ -862,8 +862,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, method);
 }
-// Ctor Parameters []
- System::Reflection::RuntimeConstructorInfo::RuntimeConstructorInfo()  : System::Reflection::ConstructorInfo(THROW_UNLESS(::il2cpp_utils::New<RuntimeConstructorInfo>())) {}
+ System::Reflection::RuntimeConstructorInfo System::Reflection::RuntimeConstructorInfo::New_ctor()  {
+System::Reflection::RuntimeConstructorInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::RuntimeConstructorInfo>())};
+return o;
+}
  void System::Reflection::RuntimeConstructorInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::RuntimeConstructorInfo>::get(),

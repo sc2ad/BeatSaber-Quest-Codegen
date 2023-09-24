@@ -4,11 +4,12 @@
 #include "System/Threading/zzzz__Timer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
+#include "System/Threading/zzzz__Timer_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Threading/zzzz__TimerCallback_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 //  Writing Method size for method: System::Threading::System__Threading__Timer__TimerComparer.System_Collections_IComparer_Compare
 template<>
 
@@ -339,8 +340,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::System__Threading__Timer__Scheduler, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Threading::System__Threading__Timer__Scheduler::System__Threading__Timer__Scheduler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Timer__Scheduler>())) {}
+ System::Threading::System__Threading__Timer__Scheduler System::Threading::System__Threading__Timer__Scheduler::New_ctor()  {
+System::Threading::System__Threading__Timer__Scheduler o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::System__Threading__Timer__Scheduler>())};
+return o;
+}
  void System::Threading::System__Threading__Timer__Scheduler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__Timer__Scheduler>::get(),
@@ -644,8 +647,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::System__Threading__Timer__Scheduler, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Threading::TimerCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "dueTime", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "period", ty: "int32_t", modifiers: "", def_value: None }]
- System::Threading::Timer::Timer(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int32_t dueTime, int32_t period)  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<Timer>(callback, state, dueTime, period))) {}
+ System::Threading::Timer System::Threading::Timer::New_ctor(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int32_t dueTime, int32_t period)  {
+System::Threading::Timer o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Timer>(callback, state, dueTime, period))};
+return o;
+}
  void System::Threading::Timer::_ctor(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int32_t dueTime, int32_t period)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Timer>::get(),
@@ -655,8 +660,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, callback, state, dueTime, period);
 }
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Threading::TimerCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "dueTime", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "period", ty: "System::TimeSpan", modifiers: "", def_value: None }]
- System::Threading::Timer::Timer(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan dueTime, System::TimeSpan period)  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<Timer>(callback, state, dueTime, period))) {}
+ System::Threading::Timer System::Threading::Timer::New_ctor(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan dueTime, System::TimeSpan period)  {
+System::Threading::Timer o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Timer>(callback, state, dueTime, period))};
+return o;
+}
  void System::Threading::Timer::_ctor(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan dueTime, System::TimeSpan period)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Timer>::get(),

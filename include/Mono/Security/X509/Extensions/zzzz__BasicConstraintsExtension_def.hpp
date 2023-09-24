@@ -72,8 +72,7 @@ constexpr int32_t __get_pathLenConstraint() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "extension", ty: "Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
-explicit BasicConstraintsExtension(Mono::Security::X509::X509Extension extension) ;
+static Mono::Security::X509::Extensions::BasicConstraintsExtension New_ctor(Mono::Security::X509::X509Extension extension) ;
 
 /// @brief Method .ctor addr 0x228f514 size 0x4 virtual false final false
  void _ctor(Mono::Security::X509::X509Extension extension) ;

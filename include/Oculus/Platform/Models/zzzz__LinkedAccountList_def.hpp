@@ -10,7 +10,7 @@ class LinkedAccountList;
 // Type: Oculus.Platform.Models::LinkedAccountList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13431)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1140 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1140 }), TypeDefinitionIndex(TypeDefinitionIndex(13431)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13432))
 // CS Name: Oculus.Platform.Models.LinkedAccountList
 class CORDL_TYPE LinkedAccountList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::LinkedAccount> {
@@ -49,8 +49,7 @@ constexpr explicit LinkedAccountList(void* ptr) noexcept : Oculus::Platform::Mod
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LinkedAccountList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::LinkedAccountList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259fd44 size 0x23c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

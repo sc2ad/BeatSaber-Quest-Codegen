@@ -4,17 +4,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignatureSubpacketVector;
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 namespace Org::BouncyCastle::Bcpg {
 class Packet;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
+struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
 }
 namespace System {
 struct DateTime;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpUserAttributeSubpacketVector;
+}
+namespace Org::BouncyCastle::Bcpg {
+class SignatureSubpacket;
 }
 namespace System::IO {
 class Stream;
@@ -23,22 +32,13 @@ namespace Org::BouncyCastle::Bcpg {
 class TrustPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
+struct HashAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
 class SignaturePacket;
 }
-namespace Org::BouncyCastle::Bcpg {
-class SignatureSubpacket;
-}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpUserAttributeSubpacketVector;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class PgpSignatureSubpacketVector;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
@@ -184,20 +184,17 @@ constexpr uint8_t __get_lastb() const;
 /// @brief Method Cast addr 0x103bf54 size 0xd0 virtual false final false
 static Org::BouncyCastle::Bcpg::SignaturePacket Cast(Org::BouncyCastle::Bcpg::Packet packet) ;
 
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PgpSignature(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method .ctor addr 0x103c024 size 0x34 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
-// Ctor Parameters [CppParam { name: "sigPacket", ty: "Org::BouncyCastle::Bcpg::SignaturePacket", modifiers: "", def_value: None }]
-explicit PgpSignature(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature New_ctor(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket) ;
 
 /// @brief Method .ctor addr 0x103c058 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket) ;
 
-// Ctor Parameters [CppParam { name: "sigPacket", ty: "Org::BouncyCastle::Bcpg::SignaturePacket", modifiers: "", def_value: None }, CppParam { name: "trustPacket", ty: "Org::BouncyCastle::Bcpg::TrustPacket", modifiers: "", def_value: None }]
-explicit PgpSignature(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, Org::BouncyCastle::Bcpg::TrustPacket trustPacket) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature New_ctor(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, Org::BouncyCastle::Bcpg::TrustPacket trustPacket) ;
 
 /// @brief Method .ctor addr 0x103c060 size 0x88 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, Org::BouncyCastle::Bcpg::TrustPacket trustPacket) ;

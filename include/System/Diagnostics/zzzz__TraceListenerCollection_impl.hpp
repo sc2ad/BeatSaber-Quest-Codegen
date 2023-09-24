@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Diagnostics/zzzz__TraceListenerCollection_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Diagnostics/zzzz__TraceListener_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Diagnostics/zzzz__TraceListener_def.hpp"
 //  Writing Method size for method: System::Diagnostics::TraceListenerCollection._ctor
 template<>
 
@@ -348,8 +348,10 @@ constexpr void System::Diagnostics::TraceListenerCollection::__set_list(System::
 constexpr System::Collections::ArrayList System::Diagnostics::TraceListenerCollection::__get_list() const {
 return ::cordl_internals::getInstanceField<System::Collections::ArrayList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Diagnostics::TraceListenerCollection::TraceListenerCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TraceListenerCollection>())) {}
+ System::Diagnostics::TraceListenerCollection System::Diagnostics::TraceListenerCollection::New_ctor()  {
+System::Diagnostics::TraceListenerCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::TraceListenerCollection>())};
+return o;
+}
  void System::Diagnostics::TraceListenerCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::TraceListenerCollection>::get(),

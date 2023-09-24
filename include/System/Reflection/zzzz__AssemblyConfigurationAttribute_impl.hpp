@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyConfigurationAttribute::__set__Config
 constexpr ::StringW System::Reflection::AssemblyConfigurationAttribute::__get__Configuration_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "configuration", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyConfigurationAttribute::AssemblyConfigurationAttribute(::StringW configuration)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyConfigurationAttribute>(configuration))) {}
+ System::Reflection::AssemblyConfigurationAttribute System::Reflection::AssemblyConfigurationAttribute::New_ctor(::StringW configuration)  {
+System::Reflection::AssemblyConfigurationAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyConfigurationAttribute>(configuration))};
+return o;
+}
  void System::Reflection::AssemblyConfigurationAttribute::_ctor(::StringW configuration)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyConfigurationAttribute>::get(),

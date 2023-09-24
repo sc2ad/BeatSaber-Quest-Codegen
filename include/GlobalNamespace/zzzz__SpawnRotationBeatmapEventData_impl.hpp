@@ -2,8 +2,9 @@
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType::GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -219,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "spawnRotationEventType", ty: "GlobalNamespace::GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType", modifiers: "", def_value: None }, CppParam { name: "deltaRotation", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::SpawnRotationBeatmapEventData::SpawnRotationBeatmapEventData(float_t time, GlobalNamespace::GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType, float_t deltaRotation)  : GlobalNamespace::BeatmapEventData(THROW_UNLESS(::il2cpp_utils::New<SpawnRotationBeatmapEventData>(time, spawnRotationEventType, deltaRotation))) {}
+ GlobalNamespace::SpawnRotationBeatmapEventData GlobalNamespace::SpawnRotationBeatmapEventData::New_ctor(float_t time, GlobalNamespace::GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType, float_t deltaRotation)  {
+GlobalNamespace::SpawnRotationBeatmapEventData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SpawnRotationBeatmapEventData>(time, spawnRotationEventType, deltaRotation))};
+return o;
+}
  void GlobalNamespace::SpawnRotationBeatmapEventData::_ctor(float_t time, GlobalNamespace::GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType, float_t deltaRotation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SpawnRotationBeatmapEventData>::get(),

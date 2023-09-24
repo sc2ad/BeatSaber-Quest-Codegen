@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsStreamException::CmsStreamException()  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<CmsStreamException>())) {}
+ Org::BouncyCastle::Cms::CmsStreamException Org::BouncyCastle::Cms::CmsStreamException::New_ctor()  {
+Org::BouncyCastle::Cms::CmsStreamException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsStreamException>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsStreamException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsStreamException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsStreamException::CmsStreamException(::StringW name)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<CmsStreamException>(name))) {}
+ Org::BouncyCastle::Cms::CmsStreamException Org::BouncyCastle::Cms::CmsStreamException::New_ctor(::StringW name)  {
+Org::BouncyCastle::Cms::CmsStreamException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsStreamException>(name))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsStreamException::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsStreamException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsStreamException::CmsStreamException(::StringW name, System::Exception e)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<CmsStreamException>(name, e))) {}
+ Org::BouncyCastle::Cms::CmsStreamException Org::BouncyCastle::Cms::CmsStreamException::New_ctor(::StringW name, System::Exception e)  {
+Org::BouncyCastle::Cms::CmsStreamException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsStreamException>(name, e))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsStreamException::_ctor(::StringW name, System::Exception e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsStreamException>::get(),

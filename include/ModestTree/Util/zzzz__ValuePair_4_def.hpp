@@ -83,14 +83,12 @@ constexpr T4 __get_Fourth() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ValuePair_4() ;
+static ModestTree::Util::ValuePair_4<T1,T2,T3,T4> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "first", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "second", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "third", ty: "T3", modifiers: "", def_value: None }, CppParam { name: "fourth", ty: "T4", modifiers: "", def_value: None }]
-explicit ValuePair_4(T1 first, T2 second, T3 third, T4 fourth) ;
+static ModestTree::Util::ValuePair_4<T1,T2,T3,T4> New_ctor(T1 first, T2 second, T3 third, T4 fourth) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(T1 first, T2 second, T3 third, T4 fourth) ;

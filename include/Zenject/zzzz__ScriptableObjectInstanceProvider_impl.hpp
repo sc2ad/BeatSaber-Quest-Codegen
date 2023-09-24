@@ -1,15 +1,16 @@
 #pragma once
 #include "Zenject/zzzz__ScriptableObjectInstanceProvider_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__ScriptableObjectInstanceProvider_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0._ctor
 template<>
@@ -103,8 +104,10 @@ constexpr void Zenject::Zenject__ScriptableObjectInstanceProvider____c__DisplayC
 constexpr Zenject::InjectContext Zenject::Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0::__get_context() const {
 return ::cordl_internals::getInstanceField<Zenject::InjectContext, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0::Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0>())) {}
+ Zenject::Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0 Zenject::Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0::New_ctor()  {
+Zenject::Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0>())};
+return o;
+}
  void Zenject::Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ScriptableObjectInstanceProvider____c__DisplayClass13_0>::get(),
@@ -272,8 +275,10 @@ constexpr void Zenject::ScriptableObjectInstanceProvider::__set__resource(UnityE
 constexpr UnityEngine::Object Zenject::ScriptableObjectInstanceProvider::__get__resource() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Object, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "resource", ty: "UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "createNew", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- Zenject::ScriptableObjectInstanceProvider::ScriptableObjectInstanceProvider(UnityEngine::Object resource, System::Type resourceType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, bool createNew, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ScriptableObjectInstanceProvider>(resource, resourceType, container, extraArguments, createNew, concreteIdentifier, instantiateCallback))) {}
+ Zenject::ScriptableObjectInstanceProvider Zenject::ScriptableObjectInstanceProvider::New_ctor(UnityEngine::Object resource, System::Type resourceType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, bool createNew, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  {
+Zenject::ScriptableObjectInstanceProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ScriptableObjectInstanceProvider>(resource, resourceType, container, extraArguments, createNew, concreteIdentifier, instantiateCallback))};
+return o;
+}
  void Zenject::ScriptableObjectInstanceProvider::_ctor(UnityEngine::Object resource, System::Type resourceType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, bool createNew, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ScriptableObjectInstanceProvider>::get(),

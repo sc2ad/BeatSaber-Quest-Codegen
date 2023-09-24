@@ -3,17 +3,17 @@
 #include "System/Collections/zzzz__CollectionBase_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Mono::Security {
-class ASN1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Mono::Security::X509 {
 class X509Extension;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
+}
+namespace Mono::Security {
+class ASN1;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -78,14 +78,12 @@ constexpr bool __get_readOnly() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509ExtensionCollection() ;
+static Mono::Security::X509::X509ExtensionCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x228fdd8 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
-explicit X509ExtensionCollection(Mono::Security::ASN1 asn1) ;
+static Mono::Security::X509::X509ExtensionCollection New_ctor(Mono::Security::ASN1 asn1) ;
 
 /// @brief Method .ctor addr 0x228bb04 size 0x13c virtual false final false
  void _ctor(Mono::Security::ASN1 asn1) ;

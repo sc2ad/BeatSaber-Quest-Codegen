@@ -1,31 +1,32 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__UIRenderDevice_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__DrawBufferRange_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__TextureSlotManager_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__Transform3x4_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Utility_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Page_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__DrawBufferRange_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__Transform3x4_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__TextureSlotManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__UIRenderDevice_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__DrawParams_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__State_def.hpp"
 // Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "allocTime", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "meshHandle", ty: "UnityEngine::UIElements::UIR::MeshHandle", modifiers: "", def_value: Some("csnull") }, CppParam { name: "permAllocVerts", ty: "UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: Some("{}") }, CppParam { name: "permAllocIndices", ty: "UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: Some("{}") }, CppParam { name: "permPage", ty: "UnityEngine::UIElements::UIR::Page", modifiers: "", def_value: Some("csnull") }, CppParam { name: "copyBackIndices", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate(uint32_t id, uint32_t allocTime, UnityEngine::UIElements::UIR::MeshHandle meshHandle, UnityEngine::UIElements::UIR::Alloc permAllocVerts, UnityEngine::UIElements::UIR::Alloc permAllocIndices, UnityEngine::UIElements::UIR::Page permPage, bool copyBackIndices) noexcept : ::bs_hook::ValueTypeWrapper() {this->id = id;
@@ -335,8 +336,10 @@ return ::cordl_internals::getStaticField<System::Func_1<UnityEngine::UIElements:
  System::Action_1<UnityEngine::UIElements::UIR::MeshHandle> UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c::__get___9__53_1()  {
 return ::cordl_internals::getStaticField<System::Action_1<UnityEngine::UIElements::UIR::MeshHandle>, "<>9__53_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c::UnityEngine__UIElements__UIR__UIRenderDevice____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIR__UIRenderDevice____c>())) {}
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c::New_ctor()  {
+UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c>::get(),
@@ -1315,8 +1318,12 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "initialVertexCapacity", ty: "uint32_t", modifiers: "", def_value: Some("0u") }, CppParam { name: "initialIndexCapacity", ty: "uint32_t", modifiers: "", def_value: Some("0u") }]
- UnityEngine::UIElements::UIR::UIRenderDevice::UIRenderDevice(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIRenderDevice>(initialVertexCapacity, initialIndexCapacity))) {}
+/// @param initialVertexCapacity: uint32_t (default: 0u)
+/// @param initialIndexCapacity: uint32_t (default: 0u)
+ UnityEngine::UIElements::UIR::UIRenderDevice UnityEngine::UIElements::UIR::UIRenderDevice::New_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity)  {
+UnityEngine::UIElements::UIR::UIRenderDevice o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UIRenderDevice>(initialVertexCapacity, initialIndexCapacity))};
+return o;
+}
 /// @param initialVertexCapacity: uint32_t (default: 0u)
 /// @param initialIndexCapacity: uint32_t (default: 0u)
  void UnityEngine::UIElements::UIR::UIRenderDevice::_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity)  {
@@ -1328,8 +1335,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, initialVertexCapacity, initialIndexCapacity);
 }
-// Ctor Parameters [CppParam { name: "initialVertexCapacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "initialIndexCapacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "mockDevice", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UIR::UIRenderDevice::UIRenderDevice(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIRenderDevice>(initialVertexCapacity, initialIndexCapacity, mockDevice))) {}
+ UnityEngine::UIElements::UIR::UIRenderDevice UnityEngine::UIElements::UIR::UIRenderDevice::New_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice)  {
+UnityEngine::UIElements::UIR::UIRenderDevice o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UIRenderDevice>(initialVertexCapacity, initialIndexCapacity, mockDevice))};
+return o;
+}
  void UnityEngine::UIElements::UIR::UIRenderDevice::_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UIRenderDevice>::get(),

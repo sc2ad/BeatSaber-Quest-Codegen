@@ -274,8 +274,10 @@ constexpr void Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher::__set_cipher(O
 constexpr Org::BouncyCastle::Crypto::IBlockCipher Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher::__get_cipher() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IBlockCipher, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher::KCtrBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KCtrBlockCipher>(cipher))) {}
+ Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher>::get(),

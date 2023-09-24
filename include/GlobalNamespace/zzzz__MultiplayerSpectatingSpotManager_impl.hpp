@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotManager_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotManager_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -51,8 +52,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Multi
  System::Func_2<GlobalNamespace::IMultiplayerSpectatingSpot,bool> GlobalNamespace::GlobalNamespace__MultiplayerSpectatingSpotManager____c::__get___9__3_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::IMultiplayerSpectatingSpot,bool>, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerSpectatingSpotManager____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerSpectatingSpotManager____c::GlobalNamespace__MultiplayerSpectatingSpotManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerSpectatingSpotManager____c>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerSpectatingSpotManager____c GlobalNamespace::GlobalNamespace__MultiplayerSpectatingSpotManager____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerSpectatingSpotManager____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerSpectatingSpotManager____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerSpectatingSpotManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerSpectatingSpotManager____c>::get(),
@@ -282,8 +285,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, spectatingSpot);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerSpectatingSpotManager::MultiplayerSpectatingSpotManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerSpectatingSpotManager>())) {}
+ GlobalNamespace::MultiplayerSpectatingSpotManager GlobalNamespace::MultiplayerSpectatingSpotManager::New_ctor()  {
+GlobalNamespace::MultiplayerSpectatingSpotManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerSpectatingSpotManager>())};
+return o;
+}
  void GlobalNamespace::MultiplayerSpectatingSpotManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerSpectatingSpotManager>::get(),

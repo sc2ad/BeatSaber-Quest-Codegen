@@ -1,18 +1,18 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChainVEData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChainTextEntry_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__BasicNode_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderDataDirtyTypes_def.hpp"
-#include "UnityEngine/UIElements/UIR/Implementation/zzzz__ClipMethod_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__BasicNode_1_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderDataDirtyTypes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TextureEntry_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/UIElements/UIR/Implementation/zzzz__ClipMethod_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::RenderChainVEData.get_lastClosingOrLastCommand
 template<>
 

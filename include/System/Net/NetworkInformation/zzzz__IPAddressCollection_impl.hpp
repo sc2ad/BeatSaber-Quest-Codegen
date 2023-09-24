@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__IPAddressCollection_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::IPAddressCollection._ctor
 template<>
@@ -212,8 +212,10 @@ constexpr void System::Net::NetworkInformation::IPAddressCollection::__set_addre
 constexpr System::Collections::ObjectModel::Collection_1<System::Net::IPAddress> System::Net::NetworkInformation::IPAddressCollection::__get_addresses() const {
 return ::cordl_internals::getInstanceField<System::Collections::ObjectModel::Collection_1<System::Net::IPAddress>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::NetworkInformation::IPAddressCollection::IPAddressCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPAddressCollection>())) {}
+ System::Net::NetworkInformation::IPAddressCollection System::Net::NetworkInformation::IPAddressCollection::New_ctor()  {
+System::Net::NetworkInformation::IPAddressCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::IPAddressCollection>())};
+return o;
+}
  void System::Net::NetworkInformation::IPAddressCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::IPAddressCollection>::get(),

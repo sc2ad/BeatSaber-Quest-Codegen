@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/zzzz__PermissionSet_impl.hpp"
 #include "System/Security/zzzz__NamedPermissionSet_def.hpp"
-#include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
+#include "System/Security/zzzz__SecurityElement_def.hpp"
 //  Writing Method size for method: System::Security::NamedPermissionSet._ctor
 template<>
 
@@ -151,8 +151,10 @@ constexpr void System::Security::NamedPermissionSet::__set_description(::StringW
 constexpr ::StringW System::Security::NamedPermissionSet::__get_description() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::NamedPermissionSet::NamedPermissionSet()  : System::Security::PermissionSet(THROW_UNLESS(::il2cpp_utils::New<NamedPermissionSet>())) {}
+ System::Security::NamedPermissionSet System::Security::NamedPermissionSet::New_ctor()  {
+System::Security::NamedPermissionSet o{THROW_UNLESS(::il2cpp_utils::New<System::Security::NamedPermissionSet>())};
+return o;
+}
  void System::Security::NamedPermissionSet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::NamedPermissionSet>::get(),
@@ -162,8 +164,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "state", ty: "System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
- System::Security::NamedPermissionSet::NamedPermissionSet(::StringW name, System::Security::Permissions::PermissionState state)  : System::Security::PermissionSet(THROW_UNLESS(::il2cpp_utils::New<NamedPermissionSet>(name, state))) {}
+ System::Security::NamedPermissionSet System::Security::NamedPermissionSet::New_ctor(::StringW name, System::Security::Permissions::PermissionState state)  {
+System::Security::NamedPermissionSet o{THROW_UNLESS(::il2cpp_utils::New<System::Security::NamedPermissionSet>(name, state))};
+return o;
+}
  void System::Security::NamedPermissionSet::_ctor(::StringW name, System::Security::Permissions::PermissionState state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::NamedPermissionSet>::get(),
@@ -173,8 +177,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, state);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::NamedPermissionSet::NamedPermissionSet(::StringW name)  : System::Security::PermissionSet(THROW_UNLESS(::il2cpp_utils::New<NamedPermissionSet>(name))) {}
+ System::Security::NamedPermissionSet System::Security::NamedPermissionSet::New_ctor(::StringW name)  {
+System::Security::NamedPermissionSet o{THROW_UNLESS(::il2cpp_utils::New<System::Security::NamedPermissionSet>(name))};
+return o;
+}
  void System::Security::NamedPermissionSet::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::NamedPermissionSet>::get(),

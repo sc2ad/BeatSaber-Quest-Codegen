@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRating_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__BombExecutionRating_def.hpp"
+#include "GlobalNamespace/zzzz__BombExecutionRating_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__BombExecutionRating__Rating::GlobalNamespace__BombExecutionRating__Rating(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -62,8 +63,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__BombExecutionRating__Rating, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rating", ty: "GlobalNamespace::GlobalNamespace__BombExecutionRating__Rating", modifiers: "", def_value: None }]
- GlobalNamespace::BombExecutionRating::BombExecutionRating(float_t time, GlobalNamespace::GlobalNamespace__BombExecutionRating__Rating rating)  : GlobalNamespace::BeatmapObjectExecutionRating(THROW_UNLESS(::il2cpp_utils::New<BombExecutionRating>(time, rating))) {}
+ GlobalNamespace::BombExecutionRating GlobalNamespace::BombExecutionRating::New_ctor(float_t time, GlobalNamespace::GlobalNamespace__BombExecutionRating__Rating rating)  {
+GlobalNamespace::BombExecutionRating o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BombExecutionRating>(time, rating))};
+return o;
+}
  void GlobalNamespace::BombExecutionRating::_ctor(float_t time, GlobalNamespace::GlobalNamespace__BombExecutionRating__Rating rating)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BombExecutionRating>::get(),

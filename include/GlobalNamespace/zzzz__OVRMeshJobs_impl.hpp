@@ -1,16 +1,14 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshJobs_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMeshJobs_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
 #include "UnityEngine/zzzz__BoneWeight_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__TransformToUnitySpaceJob.Execute
 template<>
@@ -177,8 +175,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::OVRMeshJobs::OVRMeshJobs()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRMeshJobs>())) {}
+ GlobalNamespace::OVRMeshJobs GlobalNamespace::OVRMeshJobs::New_ctor()  {
+GlobalNamespace::OVRMeshJobs o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRMeshJobs>())};
+return o;
+}
  void GlobalNamespace::OVRMeshJobs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRMeshJobs>::get(),
@@ -188,33 +188,33 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>._ctor
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::*)(::ArrayW<int16_t>, int32_t)>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::*)(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>, int32_t)>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int16_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>.Dispose
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>.Dispose
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::*)()>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::*)()>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::Dispose)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(),
                             "Dispose",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -223,181 +223,37 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   }
 };
 /// @brief Convert operator to System::IDisposable
-constexpr  GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::operator System::IDisposable() const {
+constexpr  GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::operator System::IDisposable() const {
 return System::IDisposable(::cordl_internals::Box(this).convert());
 }
-// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
-constexpr GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<int16_t> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept : ::bs_hook::ValueTypeWrapper() {this->UnityNativeArray = UnityNativeArray;
+// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
+constexpr GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept : ::bs_hook::ValueTypeWrapper() {this->UnityNativeArray = UnityNativeArray;
 this->_handle = _handle;
 }
-constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::__set_UnityNativeArray(Unity::Collections::NativeArray_1<int16_t> value)  {
-::cordl_internals::setInstanceField<Unity::Collections::NativeArray_1<int16_t>, 0x0>(this->__instance, std::forward<Unity::Collections::NativeArray_1<int16_t>>(value));
+constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::__set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> value)  {
+::cordl_internals::setInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>, 0x0>(this->__instance, std::forward<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>(value));
 }
-constexpr Unity::Collections::NativeArray_1<int16_t> GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::__get_UnityNativeArray() const {
-return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<int16_t>, 0x0>(this->__instance);
+constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::__get_UnityNativeArray() const {
+return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>, 0x0>(this->__instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::__set__handle(System::Runtime::InteropServices::GCHandle value)  {
+constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::__set__handle(System::Runtime::InteropServices::GCHandle value)  {
 ::cordl_internals::setInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance, std::forward<System::Runtime::InteropServices::GCHandle>(value));
 }
-constexpr System::Runtime::InteropServices::GCHandle GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::__get__handle() const {
+constexpr System::Runtime::InteropServices::GCHandle GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::__get__handle() const {
 return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance);
 }
- void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::_ctor(::ArrayW<int16_t> ovrArray, int32_t length)  {
+ void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::_ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> ovrArray, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int16_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, ovrArray, length);
 }
- void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>::Dispose()  {
+ void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::Dispose()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>>::get(),
-                            "Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
-}
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::*)(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>, int32_t)>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>.Dispose
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::*)()>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::Dispose)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(),
-                            "Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::IDisposable
-constexpr  GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::operator System::IDisposable() const {
-return System::IDisposable(::cordl_internals::Box(this).convert());
-}
-// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
-constexpr GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept : ::bs_hook::ValueTypeWrapper() {this->UnityNativeArray = UnityNativeArray;
-this->_handle = _handle;
-}
-constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::__set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> value)  {
-::cordl_internals::setInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>, 0x0>(this->__instance, std::forward<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>(value));
-}
-constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::__get_UnityNativeArray() const {
-return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>, 0x0>(this->__instance);
-}
-constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::__set__handle(System::Runtime::InteropServices::GCHandle value)  {
-::cordl_internals::setInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance, std::forward<System::Runtime::InteropServices::GCHandle>(value));
-}
-constexpr System::Runtime::InteropServices::GCHandle GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::__get__handle() const {
-return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance);
-}
- void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::_ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> ovrArray, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, ovrArray, length);
-}
- void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(),
-                            "Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
-}
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::*)(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>, int32_t)>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>.Dispose
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::*)()>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::Dispose)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(),
-                            "Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::IDisposable
-constexpr  GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::operator System::IDisposable() const {
-return System::IDisposable(::cordl_internals::Box(this).convert());
-}
-// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
-constexpr GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept : ::bs_hook::ValueTypeWrapper() {this->UnityNativeArray = UnityNativeArray;
-this->_handle = _handle;
-}
-constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::__set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> value)  {
-::cordl_internals::setInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>, 0x0>(this->__instance, std::forward<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>(value));
-}
-constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::__get_UnityNativeArray() const {
-return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>, 0x0>(this->__instance);
-}
-constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::__set__handle(System::Runtime::InteropServices::GCHandle value)  {
-::cordl_internals::setInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance, std::forward<System::Runtime::InteropServices::GCHandle>(value));
-}
-constexpr System::Runtime::InteropServices::GCHandle GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::__get__handle() const {
-return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance);
-}
- void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::_ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> ovrArray, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, ovrArray, length);
-}
- void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(),
                             "Dispose",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -476,33 +332,33 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>._ctor
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::*)(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>, int32_t)>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::*)(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>, int32_t)>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>.Dispose
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>.Dispose
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::*)()>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::*)()>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::Dispose)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(),
                             "Dispose",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -511,37 +367,147 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   }
 };
 /// @brief Convert operator to System::IDisposable
-constexpr  GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::operator System::IDisposable() const {
+constexpr  GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::operator System::IDisposable() const {
 return System::IDisposable(::cordl_internals::Box(this).convert());
 }
-// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
-constexpr GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept : ::bs_hook::ValueTypeWrapper() {this->UnityNativeArray = UnityNativeArray;
+// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
+constexpr GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept : ::bs_hook::ValueTypeWrapper() {this->UnityNativeArray = UnityNativeArray;
 this->_handle = _handle;
 }
-constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::__set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> value)  {
-::cordl_internals::setInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>, 0x0>(this->__instance, std::forward<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>(value));
+constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::__set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> value)  {
+::cordl_internals::setInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>, 0x0>(this->__instance, std::forward<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>(value));
 }
-constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::__get_UnityNativeArray() const {
-return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>, 0x0>(this->__instance);
+constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::__get_UnityNativeArray() const {
+return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>, 0x0>(this->__instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::__set__handle(System::Runtime::InteropServices::GCHandle value)  {
+constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::__set__handle(System::Runtime::InteropServices::GCHandle value)  {
 ::cordl_internals::setInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance, std::forward<System::Runtime::InteropServices::GCHandle>(value));
 }
-constexpr System::Runtime::InteropServices::GCHandle GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::__get__handle() const {
+constexpr System::Runtime::InteropServices::GCHandle GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::__get__handle() const {
 return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance);
 }
- void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::_ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> ovrArray, int32_t length)  {
+ void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::_ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> ovrArray, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, ovrArray, length);
 }
- void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>::Dispose()  {
+ void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>::Dispose()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>>::get(),
+                            "Dispose",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
+}
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::*)(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>, int32_t)>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>.Dispose
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::*)()>(&GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::Dispose)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(),
+                            "Dispose",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to System::IDisposable
+constexpr  GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::operator System::IDisposable() const {
+return System::IDisposable(::cordl_internals::Box(this).convert());
+}
+// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
+constexpr GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept : ::bs_hook::ValueTypeWrapper() {this->UnityNativeArray = UnityNativeArray;
+this->_handle = _handle;
+}
+constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::__set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> value)  {
+::cordl_internals::setInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>, 0x0>(this->__instance, std::forward<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>(value));
+}
+constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::__get_UnityNativeArray() const {
+return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>, 0x0>(this->__instance);
+}
+constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::__set__handle(System::Runtime::InteropServices::GCHandle value)  {
+::cordl_internals::setInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance, std::forward<System::Runtime::InteropServices::GCHandle>(value));
+}
+constexpr System::Runtime::InteropServices::GCHandle GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::__get__handle() const {
+return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance);
+}
+ void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::_ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> ovrArray, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, ovrArray, length);
+}
+ void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>>::get(),
+                            "Dispose",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
+}
+/// @brief Convert operator to System::IDisposable
+constexpr  GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>::operator System::IDisposable() const {
+return System::IDisposable(::cordl_internals::Box(this).convert());
+}
+// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
+constexpr GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<T> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept : ::bs_hook::ValueTypeWrapper() {this->UnityNativeArray = UnityNativeArray;
+this->_handle = _handle;
+}
+constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>::__set_UnityNativeArray(Unity::Collections::NativeArray_1<T> value)  {
+::cordl_internals::setInstanceField<Unity::Collections::NativeArray_1<T>, 0x0>(this->__instance, std::forward<Unity::Collections::NativeArray_1<T>>(value));
+}
+constexpr Unity::Collections::NativeArray_1<T> GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>::__get_UnityNativeArray() const {
+return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<T>, 0x0>(this->__instance);
+}
+constexpr void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>::__set__handle(System::Runtime::InteropServices::GCHandle value)  {
+::cordl_internals::setInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance, std::forward<System::Runtime::InteropServices::GCHandle>(value));
+}
+constexpr System::Runtime::InteropServices::GCHandle GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>::__get__handle() const {
+return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::GCHandle, 0x8>(this->__instance);
+}
+ void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>::_ctor(::ArrayW<T> ovrArray, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, ovrArray, length);
+}
+ void GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>>::get(),
                             "Dispose",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

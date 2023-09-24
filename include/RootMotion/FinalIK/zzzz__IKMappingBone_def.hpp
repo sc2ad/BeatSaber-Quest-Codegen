@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKMapping__BoneMap;
+class IKSolverFullBody;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class IKSolverFullBody;
+class IKSolver;
 }
 namespace RootMotion::FinalIK {
-class IKSolver;
+class RootMotion__FinalIK__IKMapping__BoneMap;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -86,14 +86,12 @@ constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap __get_bon
 /// @brief Method IsValid addr 0x11d0e90 size 0x9c virtual true final false
  bool IsValid(RootMotion::FinalIK::IKSolver solver, ByRef<::StringW> message) ;
 
-// Ctor Parameters []
-explicit IKMappingBone() ;
+static RootMotion::FinalIK::IKMappingBone New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d0f2c size 0x84 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit IKMappingBone(UnityEngine::Transform bone) ;
+static RootMotion::FinalIK::IKMappingBone New_ctor(UnityEngine::Transform bone) ;
 
 /// @brief Method .ctor addr 0x11d0fb0 size 0x98 virtual false final false
  void _ctor(UnityEngine::Transform bone) ;

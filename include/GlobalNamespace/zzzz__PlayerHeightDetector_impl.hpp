@@ -2,11 +2,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData._ctor
 template<>
 
@@ -36,8 +37,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData:
 constexpr float_t GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData::__get_startPlayerHeight() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "headPosToPlayerHeightOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startPlayerHeight", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData::GlobalNamespace__PlayerHeightDetector__InitData(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerHeightDetector__InitData>(headPosToPlayerHeightOffset, startPlayerHeight))) {}
+ GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData::New_ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight)  {
+GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData>(headPosToPlayerHeightOffset, startPlayerHeight))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData::_ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData>::get(),
@@ -306,8 +309,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, obstacleData);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerHeightDetector::PlayerHeightDetector()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlayerHeightDetector>())) {}
+ GlobalNamespace::PlayerHeightDetector GlobalNamespace::PlayerHeightDetector::New_ctor()  {
+GlobalNamespace::PlayerHeightDetector o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerHeightDetector>())};
+return o;
+}
  void GlobalNamespace::PlayerHeightDetector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerHeightDetector>::get(),

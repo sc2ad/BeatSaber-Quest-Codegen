@@ -10,11 +10,11 @@ struct Nullable_1;
 namespace LiteNetLib::Utils {
 struct NtpMode;
 }
-namespace System {
-struct DateTime;
-}
 namespace LiteNetLib::Utils {
 struct NtpLeapIndicator;
+}
+namespace System {
+struct DateTime;
 }
 namespace System {
 struct TimeSpan;
@@ -189,14 +189,12 @@ constexpr System::Nullable_1<System::DateTime> __get__DestinationTimestamp_k__Ba
 /// @brief Method get_CorrectionOffset addr 0x2099c44 size 0x174 virtual false final false
  System::TimeSpan get_CorrectionOffset() ;
 
-// Ctor Parameters []
-explicit NtpPacket() ;
+static LiteNetLib::Utils::NtpPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x2099db8 size 0xe4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit NtpPacket(::ArrayW<uint8_t> bytes) ;
+static LiteNetLib::Utils::NtpPacket New_ctor(::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0x2099e9c size 0x9c virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes) ;

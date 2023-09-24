@@ -1,14 +1,15 @@
 #pragma once
 #include "GlobalNamespace/zzzz__KnucklesUnityXRHapticsHandler_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "GlobalNamespace/zzzz__KnucklesUnityXRHapticsHandler_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9._ctor
 template<>
 
@@ -153,8 +154,10 @@ constexpr void GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler__
 constexpr UnityEngine::WaitForSecondsRealtime GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::__get__waiter_5__3() const {
 return ::cordl_internals::getInstanceField<UnityEngine::WaitForSecondsRealtime, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9 GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9>::get(),
@@ -332,8 +335,10 @@ constexpr void GlobalNamespace::KnucklesUnityXRHapticsHandler::__set__amplitude(
 constexpr float_t GlobalNamespace::KnucklesUnityXRHapticsHandler::__get__amplitude() const {
 return ::cordl_internals::getInstanceField<float_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "node", ty: "UnityEngine::XR::XRNode", modifiers: "", def_value: None }, CppParam { name: "coroutineRunner", ty: "UnityEngine::MonoBehaviour", modifiers: "", def_value: None }]
- GlobalNamespace::KnucklesUnityXRHapticsHandler::KnucklesUnityXRHapticsHandler(UnityEngine::XR::XRNode node, UnityEngine::MonoBehaviour coroutineRunner)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KnucklesUnityXRHapticsHandler>(node, coroutineRunner))) {}
+ GlobalNamespace::KnucklesUnityXRHapticsHandler GlobalNamespace::KnucklesUnityXRHapticsHandler::New_ctor(UnityEngine::XR::XRNode node, UnityEngine::MonoBehaviour coroutineRunner)  {
+GlobalNamespace::KnucklesUnityXRHapticsHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::KnucklesUnityXRHapticsHandler>(node, coroutineRunner))};
+return o;
+}
  void GlobalNamespace::KnucklesUnityXRHapticsHandler::_ctor(UnityEngine::XR::XRNode node, UnityEngine::MonoBehaviour coroutineRunner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::KnucklesUnityXRHapticsHandler>::get(),

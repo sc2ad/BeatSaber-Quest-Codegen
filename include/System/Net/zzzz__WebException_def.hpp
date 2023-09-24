@@ -8,20 +8,20 @@ class SerializationInfo;
 namespace System::Net {
 class WebResponse;
 }
-namespace System::Net {
-struct WebExceptionStatus;
-}
-namespace System::Net {
-struct WebExceptionInternalStatus;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
 class Exception;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Net {
+struct WebExceptionStatus;
+}
+namespace System::Net {
+struct WebExceptionInternalStatus;
 }
 // Forward declare root types
 namespace System::Net {
@@ -100,62 +100,52 @@ constexpr System::Net::WebExceptionInternalStatus __get_m_InternalStatus() const
 
 // Methods
 
-// Ctor Parameters []
-explicit WebException() ;
+static System::Net::WebException New_ctor() ;
 
 /// @brief Method .ctor addr 0x280e204 size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit WebException(::StringW message) ;
+static System::Net::WebException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x280c9f0 size 0x14 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit WebException(::StringW message, System::Exception innerException) ;
+static System::Net::WebException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x280e214 size 0x10 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }]
-explicit WebException(::StringW message, System::Net::WebExceptionStatus status) ;
+static System::Net::WebException New_ctor(::StringW message, System::Net::WebExceptionStatus status) ;
 
 /// @brief Method .ctor addr 0x280cbdc size 0x14 virtual false final false
  void _ctor(::StringW message, System::Net::WebExceptionStatus status) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }, CppParam { name: "internalStatus", ty: "System::Net::WebExceptionInternalStatus", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit WebException(::StringW message, System::Net::WebExceptionStatus status, System::Net::WebExceptionInternalStatus internalStatus, System::Exception innerException) ;
+static System::Net::WebException New_ctor(::StringW message, System::Net::WebExceptionStatus status, System::Net::WebExceptionInternalStatus internalStatus, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x280e238 size 0x1c virtual false final false
  void _ctor(::StringW message, System::Net::WebExceptionStatus status, System::Net::WebExceptionInternalStatus internalStatus, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::WebResponse", modifiers: "", def_value: None }]
-explicit WebException(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response) ;
+static System::Net::WebException New_ctor(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response) ;
 
 /// @brief Method .ctor addr 0x280e224 size 0x14 virtual false final false
  void _ctor(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::WebResponse", modifiers: "", def_value: None }]
-explicit WebException(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response) ;
+static System::Net::WebException New_ctor(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response) ;
 
 /// @brief Method .ctor addr 0x280e26c size 0xe0 virtual false final false
  void _ctor(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::WebResponse", modifiers: "", def_value: None }, CppParam { name: "internalStatus", ty: "System::Net::WebExceptionInternalStatus", modifiers: "", def_value: None }]
-explicit WebException(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus) ;
+static System::Net::WebException New_ctor(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus) ;
 
 /// @brief Method .ctor addr 0x280e254 size 0x18 virtual false final false
  void _ctor(::StringW message, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::WebExceptionStatus", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::WebResponse", modifiers: "", def_value: None }, CppParam { name: "internalStatus", ty: "System::Net::WebExceptionInternalStatus", modifiers: "", def_value: None }]
-explicit WebException(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus) ;
+static System::Net::WebException New_ctor(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus) ;
 
 /// @brief Method .ctor addr 0x280e34c size 0xf0 virtual false final false
  void _ctor(::StringW message, ::StringW data, System::Exception innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse response, System::Net::WebExceptionInternalStatus internalStatus) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit WebException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::WebException New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x280e43c size 0x10 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

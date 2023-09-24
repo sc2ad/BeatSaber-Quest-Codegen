@@ -7,14 +7,14 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 template<typename TSignal>
 class BindSignalToBinder_1;
 }
 namespace Zenject {
 class SignalBindingBindInfo;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -70,8 +70,7 @@ constexpr explicit BindSignalIdToBinder_1(void* ptr) noexcept : Zenject::BindSig
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "signalBindInfo", ty: "Zenject::SignalBindingBindInfo", modifiers: "", def_value: None }]
-explicit BindSignalIdToBinder_1(Zenject::DiContainer container, Zenject::SignalBindingBindInfo signalBindInfo) ;
+static Zenject::BindSignalIdToBinder_1<TSignal> New_ctor(Zenject::DiContainer container, Zenject::SignalBindingBindInfo signalBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::SignalBindingBindInfo signalBindInfo) ;

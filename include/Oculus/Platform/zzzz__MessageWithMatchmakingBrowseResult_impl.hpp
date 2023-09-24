@@ -1,9 +1,9 @@
 #pragma once
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithMatchmakingBrowseResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__MatchmakingBrowseResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__MatchmakingEnqueueResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__RoomList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__MatchmakingEnqueueResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__MatchmakingBrowseResult_def.hpp"
 //  Writing Method size for method: Oculus::Platform::MessageWithMatchmakingBrowseResult._ctor
 template<>
 
@@ -72,8 +72,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::MessageWithMatchmakingBrowseResult::MessageWithMatchmakingBrowseResult(::cordl_internals::intptr_t c_message)  : Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingBrowseResult>(THROW_UNLESS(::il2cpp_utils::New<MessageWithMatchmakingBrowseResult>(c_message))) {}
+ Oculus::Platform::MessageWithMatchmakingBrowseResult Oculus::Platform::MessageWithMatchmakingBrowseResult::New_ctor(::cordl_internals::intptr_t c_message)  {
+Oculus::Platform::MessageWithMatchmakingBrowseResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::MessageWithMatchmakingBrowseResult>(c_message))};
+return o;
+}
  void Oculus::Platform::MessageWithMatchmakingBrowseResult::_ctor(::cordl_internals::intptr_t c_message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithMatchmakingBrowseResult>::get(),

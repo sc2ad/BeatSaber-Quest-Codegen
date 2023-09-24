@@ -70,8 +70,7 @@ constexpr Org::BouncyCastle::Crypto::IStreamCipher __get_cipher() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IStreamCipher", modifiers: "", def_value: None }]
-explicit BufferedStreamCipher(Org::BouncyCastle::Crypto::IStreamCipher cipher) ;
+static Org::BouncyCastle::Crypto::BufferedStreamCipher New_ctor(Org::BouncyCastle::Crypto::IStreamCipher cipher) ;
 
 /// @brief Method .ctor addr 0xf37d14 size 0xbc virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IStreamCipher cipher) ;

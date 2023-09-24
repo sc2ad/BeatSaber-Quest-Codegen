@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRProfile_def.hpp"
+#include "GlobalNamespace/zzzz__OVRProfile_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRProfile__State::GlobalNamespace__OVRProfile__State(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -240,8 +241,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__OVRProfile__State, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRProfile::OVRProfile()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<OVRProfile>())) {}
+ GlobalNamespace::OVRProfile GlobalNamespace::OVRProfile::New_ctor()  {
+GlobalNamespace::OVRProfile o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRProfile>())};
+return o;
+}
  void GlobalNamespace::OVRProfile::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRProfile>::get(),

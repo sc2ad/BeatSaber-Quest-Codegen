@@ -47,8 +47,7 @@ constexpr explicit ExtensionAttribute(void* ptr) noexcept : System::Attribute(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit ExtensionAttribute() ;
+static System::Runtime::CompilerServices::ExtensionAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236df04 size 0x8 virtual false final false
  void _ctor() ;

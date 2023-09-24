@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1::Ocsp {
-class TbsRequest;
+class Signature;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class Signature;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class TbsRequest;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -91,14 +91,12 @@ static Org::BouncyCastle::Asn1::Ocsp::OcspRequest GetInstance(Org::BouncyCastle:
 /// @brief Method GetInstance addr 0xef2950 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Ocsp::OcspRequest GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "tbsRequest", ty: "Org::BouncyCastle::Asn1::Ocsp::TbsRequest", modifiers: "", def_value: None }, CppParam { name: "optionalSignature", ty: "Org::BouncyCastle::Asn1::Ocsp::Signature", modifiers: "", def_value: None }]
-explicit OcspRequest(Org::BouncyCastle::Asn1::Ocsp::TbsRequest tbsRequest, Org::BouncyCastle::Asn1::Ocsp::Signature optionalSignature) ;
+static Org::BouncyCastle::Asn1::Ocsp::OcspRequest New_ctor(Org::BouncyCastle::Asn1::Ocsp::TbsRequest tbsRequest, Org::BouncyCastle::Asn1::Ocsp::Signature optionalSignature) ;
 
 /// @brief Method .ctor addr 0xef2bf4 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::TbsRequest tbsRequest, Org::BouncyCastle::Asn1::Ocsp::Signature optionalSignature) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OcspRequest(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ocsp::OcspRequest New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef2ad8 size 0x11c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

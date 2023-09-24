@@ -4,9 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
-}
 namespace Org::BouncyCastle::Crypto::Engines {
 class Dstu7624Engine;
 }
@@ -15,6 +12,9 @@ class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -97,8 +97,7 @@ constexpr int32_t __get_blockSize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "blockSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Dstu7624WrapEngine(int32_t blockSizeBits) ;
+static Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine New_ctor(int32_t blockSizeBits) ;
 
 /// @brief Method .ctor addr 0xe42f10 size 0x90 virtual false final false
  void _ctor(int32_t blockSizeBits) ;

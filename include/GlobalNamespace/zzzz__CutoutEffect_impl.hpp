@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CutoutEffect_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CutoutEffect.get_useRandomCutoutOffset
 template<>
@@ -167,8 +167,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cutout, cutoutOffset);
 }
-// Ctor Parameters []
- GlobalNamespace::CutoutEffect::CutoutEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CutoutEffect>())) {}
+ GlobalNamespace::CutoutEffect GlobalNamespace::CutoutEffect::New_ctor()  {
+GlobalNamespace::CutoutEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CutoutEffect>())};
+return o;
+}
  void GlobalNamespace::CutoutEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CutoutEffect>::get(),

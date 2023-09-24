@@ -3,19 +3,19 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Sequence;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class DHValidationParms;
@@ -121,14 +121,12 @@ static Org::BouncyCastle::Asn1::X9::DHDomainParameters GetInstance(Org::BouncyCa
 /// @brief Method GetInstance addr 0x111db70 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::X9::DHDomainParameters GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "j", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "validationParms", ty: "Org::BouncyCastle::Asn1::X9::DHValidationParms", modifiers: "", def_value: None }]
-explicit DHDomainParameters(Org::BouncyCastle::Asn1::DerInteger p, Org::BouncyCastle::Asn1::DerInteger g, Org::BouncyCastle::Asn1::DerInteger q, Org::BouncyCastle::Asn1::DerInteger j, Org::BouncyCastle::Asn1::X9::DHValidationParms validationParms) ;
+static Org::BouncyCastle::Asn1::X9::DHDomainParameters New_ctor(Org::BouncyCastle::Asn1::DerInteger p, Org::BouncyCastle::Asn1::DerInteger g, Org::BouncyCastle::Asn1::DerInteger q, Org::BouncyCastle::Asn1::DerInteger j, Org::BouncyCastle::Asn1::X9::DHValidationParms validationParms) ;
 
 /// @brief Method .ctor addr 0x111dee4 size 0xf0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerInteger p, Org::BouncyCastle::Asn1::DerInteger g, Org::BouncyCastle::Asn1::DerInteger q, Org::BouncyCastle::Asn1::DerInteger j, Org::BouncyCastle::Asn1::X9::DHValidationParms validationParms) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit DHDomainParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X9::DHDomainParameters New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x111dcf8 size 0x1ec virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

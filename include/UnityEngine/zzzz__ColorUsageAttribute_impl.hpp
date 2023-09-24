@@ -71,8 +71,10 @@ constexpr void UnityEngine::ColorUsageAttribute::__set_maxExposureValue(float_t 
 constexpr float_t UnityEngine::ColorUsageAttribute::__get_maxExposureValue() const {
 return ::cordl_internals::getInstanceField<float_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "showAlpha", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::ColorUsageAttribute::ColorUsageAttribute(bool showAlpha)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<ColorUsageAttribute>(showAlpha))) {}
+ UnityEngine::ColorUsageAttribute UnityEngine::ColorUsageAttribute::New_ctor(bool showAlpha)  {
+UnityEngine::ColorUsageAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ColorUsageAttribute>(showAlpha))};
+return o;
+}
  void UnityEngine::ColorUsageAttribute::_ctor(bool showAlpha)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ColorUsageAttribute>::get(),
@@ -82,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, showAlpha);
 }
-// Ctor Parameters [CppParam { name: "showAlpha", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hdr", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::ColorUsageAttribute::ColorUsageAttribute(bool showAlpha, bool hdr)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<ColorUsageAttribute>(showAlpha, hdr))) {}
+ UnityEngine::ColorUsageAttribute UnityEngine::ColorUsageAttribute::New_ctor(bool showAlpha, bool hdr)  {
+UnityEngine::ColorUsageAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ColorUsageAttribute>(showAlpha, hdr))};
+return o;
+}
  void UnityEngine::ColorUsageAttribute::_ctor(bool showAlpha, bool hdr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ColorUsageAttribute>::get(),

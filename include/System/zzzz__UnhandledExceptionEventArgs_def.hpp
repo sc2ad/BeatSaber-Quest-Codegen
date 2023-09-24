@@ -70,8 +70,7 @@ constexpr bool __get__isTerminating() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "exception", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "isTerminating", ty: "bool", modifiers: "", def_value: None }]
-explicit UnhandledExceptionEventArgs(::bs_hook::Il2CppWrapperType exception, bool isTerminating) ;
+static System::UnhandledExceptionEventArgs New_ctor(::bs_hook::Il2CppWrapperType exception, bool isTerminating) ;
 
 /// @brief Method .ctor addr 0x245fb38 size 0x74 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType exception, bool isTerminating) ;

@@ -17,7 +17,7 @@ class StickDeadzoneProcessor;
 // Type: UnityEngine.InputSystem.Processors::StickDeadzoneProcessor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 393 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6676))
 // CS Name: UnityEngine.InputSystem.Processors.StickDeadzoneProcessor
 class CORDL_TYPE StickDeadzoneProcessor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector2> {
@@ -93,8 +93,7 @@ constexpr float_t __get_max() const;
 /// @brief Method ToString addr 0x29676bc size 0xa8 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit StickDeadzoneProcessor() ;
+static UnityEngine::InputSystem::Processors::StickDeadzoneProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2967764 size 0x48 virtual false final false
  void _ctor() ;

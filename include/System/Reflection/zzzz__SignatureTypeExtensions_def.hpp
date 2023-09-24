@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Reflection {
-class SignatureType;
-}
 namespace System {
 class Type;
 }
 namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
 class ParameterInfo;
+}
+namespace System::Reflection {
+class SignatureType;
 }
 // Forward declare root types
 namespace System::Reflection {

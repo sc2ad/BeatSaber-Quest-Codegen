@@ -94,8 +94,7 @@ static ::StringW GenerateReport() ;
 /// @brief Method DumpReport addr 0x2ae5768 size 0x4 virtual false final false
 static void DumpReport(::StringW reason) ;
 
-// Ctor Parameters []
-explicit DiagnosticReport() ;
+static UnityEngine::XR::OpenXR::DiagnosticReport New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae576c size 0x8 virtual false final false
  void _ctor() ;

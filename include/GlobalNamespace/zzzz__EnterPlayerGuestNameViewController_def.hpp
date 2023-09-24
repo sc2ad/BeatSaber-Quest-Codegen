@@ -5,26 +5,35 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace HMUI {
-class InputFieldView;
-}
-namespace HMUI {
-class UIKeyboard;
-}
 namespace GlobalNamespace {
-class StringSignal;
+class GlobalNamespace__EnterPlayerGuestNameViewController____c__DisplayClass10_1;
 }
 namespace GlobalNamespace {
 class GuestNameButtonsListItemsList;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__EnterPlayerGuestNameViewController__FinishDelegate;
+}
+namespace HMUI {
+class InputFieldView;
+}
+namespace GlobalNamespace {
+class StringSignal;
+}
+namespace HMUI {
+class UIKeyboard;
+}
+namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace System {
-class AsyncCallback;
+namespace GlobalNamespace {
+class GlobalNamespace__EnterPlayerGuestNameViewController____c__DisplayClass10_0;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -88,8 +97,7 @@ constexpr explicit GlobalNamespace__EnterPlayerGuestNameViewController__FinishDe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__EnterPlayerGuestNameViewController__FinishDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__EnterPlayerGuestNameViewController__FinishDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x215a3a4 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -164,8 +172,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get_guestPlayerNames
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__EnterPlayerGuestNameViewController____c__DisplayClass10_0() ;
+static GlobalNamespace::GlobalNamespace__EnterPlayerGuestNameViewController____c__DisplayClass10_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x215a204 size 0x8 virtual false final false
  void _ctor() ;
@@ -234,8 +241,7 @@ constexpr GlobalNamespace::GlobalNamespace__EnterPlayerGuestNameViewController__
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__EnterPlayerGuestNameViewController____c__DisplayClass10_1() ;
+static GlobalNamespace::GlobalNamespace__EnterPlayerGuestNameViewController____c__DisplayClass10_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x215a628 size 0x8 virtual false final false
  void _ctor() ;
@@ -352,8 +358,7 @@ constexpr GlobalNamespace::GlobalNamespace__EnterPlayerGuestNameViewController__
 /// @brief Method OkButtonPressed addr 0x215a2bc size 0xe0 virtual false final false
  void OkButtonPressed() ;
 
-// Ctor Parameters []
-explicit EnterPlayerGuestNameViewController() ;
+static GlobalNamespace::EnterPlayerGuestNameViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215a39c size 0x8 virtual false final false
  void _ctor() ;

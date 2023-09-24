@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 namespace GlobalNamespace {
-class SceneSetupData;
+class SceneInfo;
 }
 namespace GlobalNamespace {
-class SceneInfo;
+class SceneSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -73,8 +73,7 @@ constexpr GlobalNamespace::SceneInfo __get__sceneInfo() const;
 /// @brief Method Init addr 0x1f82a38 size 0xf0 virtual false final false
  void Init(GlobalNamespace::SceneSetupData sceneSetupData) ;
 
-// Ctor Parameters []
-explicit SingleFixedSceneScenesTransitionSetupDataSO() ;
+static GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f82b30 size 0x8 virtual false final false
  void _ctor() ;

@@ -80,14 +80,12 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_g() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit JPakePrimeOrderGroup(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g) ;
+static Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g) ;
 
 /// @brief Method .ctor addr 0x118a294 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "skipChecks", ty: "bool", modifiers: "", def_value: None }]
-explicit JPakePrimeOrderGroup(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, bool skipChecks) ;
+static Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, bool skipChecks) ;
 
 /// @brief Method .ctor addr 0x118a29c size 0x330 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, bool skipChecks) ;

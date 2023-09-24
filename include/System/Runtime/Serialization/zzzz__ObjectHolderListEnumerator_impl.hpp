@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__ObjectHolderListEnumerator_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ObjectHolder_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectHolderList_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ObjectHolder_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::ObjectHolderListEnumerator._ctor
 template<>
 
@@ -77,8 +77,10 @@ constexpr void System::Runtime::Serialization::ObjectHolderListEnumerator::__set
 constexpr int32_t System::Runtime::Serialization::ObjectHolderListEnumerator::__get_m_currPos() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "list", ty: "System::Runtime::Serialization::ObjectHolderList", modifiers: "", def_value: None }, CppParam { name: "isFixupEnumerator", ty: "bool", modifiers: "", def_value: None }]
- System::Runtime::Serialization::ObjectHolderListEnumerator::ObjectHolderListEnumerator(System::Runtime::Serialization::ObjectHolderList list, bool isFixupEnumerator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectHolderListEnumerator>(list, isFixupEnumerator))) {}
+ System::Runtime::Serialization::ObjectHolderListEnumerator System::Runtime::Serialization::ObjectHolderListEnumerator::New_ctor(System::Runtime::Serialization::ObjectHolderList list, bool isFixupEnumerator)  {
+System::Runtime::Serialization::ObjectHolderListEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::ObjectHolderListEnumerator>(list, isFixupEnumerator))};
+return o;
+}
  void System::Runtime::Serialization::ObjectHolderListEnumerator::_ctor(System::Runtime::Serialization::ObjectHolderList list, bool isFixupEnumerator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::ObjectHolderListEnumerator>::get(),

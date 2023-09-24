@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine::EventSystems {
+class ISelectHandler;
+}
+namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class ISelectHandler;
+class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -17,7 +17,7 @@ namespace UnityEngine::EventSystems {
 class IDeselectHandler;
 }
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace TMPro {
@@ -95,8 +95,7 @@ constexpr bool __get_isSelected() const;
 /// @brief Method OnDeselect addr 0x2aa80fc size 0x74 virtual true final true
  void OnDeselect(UnityEngine::EventSystems::BaseEventData eventData) ;
 
-// Ctor Parameters []
-explicit TMP_ScrollbarEventHandler() ;
+static TMPro::TMP_ScrollbarEventHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa8170 size 0x8 virtual false final false
  void _ctor() ;

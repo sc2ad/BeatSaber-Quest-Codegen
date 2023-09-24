@@ -5,26 +5,35 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::Networking {
+class UploadHandler;
+}
 namespace System {
 class Uri;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
+}
+namespace UnityEngine::Networking {
+class CertificateHandler;
 }
 namespace System::Text {
 class Encoding;
 }
 namespace UnityEngine::Networking {
-class UploadHandler;
+struct UnityEngine__Networking__UnityWebRequest__UnityWebRequestMethod;
+}
+namespace UnityEngine::Networking {
+struct UnityEngine__Networking__UnityWebRequest__UnityWebRequestError;
 }
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::Networking {
-class CertificateHandler;
-}
-namespace UnityEngine::Networking {
 class DownloadHandler;
 }
 namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
+struct UnityEngine__Networking__UnityWebRequest__Result;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -91,6 +100,8 @@ __Custom = 4,
 constexpr operator __UnityEngine__Networking__UnityWebRequest__UnityWebRequestMethod_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Networking__UnityWebRequest__UnityWebRequestMethod_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -196,6 +207,8 @@ __NoInternetConnection = 28,
 constexpr operator __UnityEngine__Networking__UnityWebRequest__UnityWebRequestError_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Networking__UnityWebRequest__UnityWebRequestError_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -349,6 +362,8 @@ __DataProcessingError = 4,
 constexpr operator __UnityEngine__Networking__UnityWebRequest__Result_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Networking__UnityWebRequest__Result_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -571,8 +586,7 @@ static ::cordl_internals::intptr_t Create() ;
 /// @brief Method InternalSetDefaults addr 0x2d356bc size 0x14 virtual false final false
  void InternalSetDefaults() ;
 
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "downloadHandler", ty: "UnityEngine::Networking::DownloadHandler", modifiers: "", def_value: None }, CppParam { name: "uploadHandler", ty: "UnityEngine::Networking::UploadHandler", modifiers: "", def_value: None }]
-explicit UnityWebRequest(::StringW url, ::StringW method, UnityEngine::Networking::DownloadHandler downloadHandler, UnityEngine::Networking::UploadHandler uploadHandler) ;
+static UnityEngine::Networking::UnityWebRequest New_ctor(::StringW url, ::StringW method, UnityEngine::Networking::DownloadHandler downloadHandler, UnityEngine::Networking::UploadHandler uploadHandler) ;
 
 /// @brief Method .ctor addr 0x2d356d0 size 0xa4 virtual false final false
  void _ctor(::StringW url, ::StringW method, UnityEngine::Networking::DownloadHandler downloadHandler, UnityEngine::Networking::UploadHandler uploadHandler) ;

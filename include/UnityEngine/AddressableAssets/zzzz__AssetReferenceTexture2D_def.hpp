@@ -49,8 +49,7 @@ constexpr explicit AssetReferenceTexture2D(void* ptr) noexcept : UnityEngine::Ad
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssetReferenceTexture2D(::StringW guid) ;
+static UnityEngine::AddressableAssets::AssetReferenceTexture2D New_ctor(::StringW guid) ;
 
 /// @brief Method .ctor addr 0x2892204 size 0x58 virtual false final false
  void _ctor(::StringW guid) ;

@@ -47,8 +47,7 @@ constexpr explicit SliderState(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Methods
 
-// Ctor Parameters []
-explicit SliderState() ;
+static UnityEngine::SliderState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b86048 size 0x8 virtual false final false
  void _ctor() ;

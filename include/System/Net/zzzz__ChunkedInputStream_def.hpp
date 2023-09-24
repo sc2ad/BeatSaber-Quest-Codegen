@@ -5,20 +5,23 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class AsyncCallback;
-}
 namespace System::Net {
 class MonoChunkParser;
 }
 namespace System::Net {
 class HttpListenerContext;
 }
+namespace System::Net {
+class System__Net__ChunkedInputStream__ReadBufferState;
+}
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::Net {
 class HttpStreamAsyncResult;
@@ -105,8 +108,7 @@ constexpr System::Net::HttpStreamAsyncResult __get_Ares() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ares", ty: "System::Net::HttpStreamAsyncResult", modifiers: "", def_value: None }]
-explicit System__Net__ChunkedInputStream__ReadBufferState(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Net::HttpStreamAsyncResult ares) ;
+static System::Net::System__Net__ChunkedInputStream__ReadBufferState New_ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Net::HttpStreamAsyncResult ares) ;
 
 /// @brief Method .ctor addr 0x282a3cc size 0x48 virtual false final false
  void _ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Net::HttpStreamAsyncResult ares) ;
@@ -186,8 +188,7 @@ constexpr bool __get_no_more_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "System::Net::HttpListenerContext", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ChunkedInputStream(System::Net::HttpListenerContext context, System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length) ;
+static System::Net::ChunkedInputStream New_ctor(System::Net::HttpListenerContext context, System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length) ;
 
 /// @brief Method .ctor addr 0x2829e1c size 0x104 virtual false final false
  void _ctor(System::Net::HttpListenerContext context, System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length) ;

@@ -61,8 +61,7 @@ constexpr System::Security::Cryptography::SHA1Internal __get_sha() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SHA1CryptoServiceProvider() ;
+static System::Security::Cryptography::SHA1CryptoServiceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2303294 size 0x68 virtual false final false
  void _ctor() ;

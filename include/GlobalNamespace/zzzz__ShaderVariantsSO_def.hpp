@@ -7,8 +7,14 @@
 namespace UnityEngine {
 class Shader;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant;
+}
 namespace UnityEngine::Rendering {
 struct PassType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ShaderVariantsSO__ShaderVariant;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -90,8 +96,7 @@ constexpr ::StringW __get__keywords() const;
 /// @brief Method get_keywords addr 0x267a768 size 0x8 virtual false final false
  ::StringW get_keywords() ;
 
-// Ctor Parameters [CppParam { name: "passType", ty: "UnityEngine::Rendering::PassType", modifiers: "", def_value: None }, CppParam { name: "keywords", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant(UnityEngine::Rendering::PassType passType, ::StringW keywords) ;
+static GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant New_ctor(UnityEngine::Rendering::PassType passType, ::StringW keywords) ;
 
 /// @brief Method .ctor addr 0x267a770 size 0x30 virtual false final false
  void _ctor(UnityEngine::Rendering::PassType passType, ::StringW keywords) ;
@@ -172,8 +177,7 @@ constexpr UnityEngine::Shader __get__shader() const;
 /// @brief Method get_shader addr 0x267a72c size 0x8 virtual false final false
  UnityEngine::Shader get_shader() ;
 
-// Ctor Parameters [CppParam { name: "shader", ty: "UnityEngine::Shader", modifiers: "", def_value: None }, CppParam { name: "variants", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ShaderVariantsSO__ShaderVariant(UnityEngine::Shader shader, ::ArrayW<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant> variants) ;
+static GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant New_ctor(UnityEngine::Shader shader, ::ArrayW<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant> variants) ;
 
 /// @brief Method .ctor addr 0x267a734 size 0x2c virtual false final false
  void _ctor(UnityEngine::Shader shader, ::ArrayW<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant> variants) ;
@@ -246,8 +250,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVar
 /// @brief Method Init addr 0x267a714 size 0x8 virtual false final false
  void Init(::ArrayW<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant> shaderVariants) ;
 
-// Ctor Parameters []
-explicit ShaderVariantsSO() ;
+static GlobalNamespace::ShaderVariantsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x267a71c size 0x8 virtual false final false
  void _ctor() ;

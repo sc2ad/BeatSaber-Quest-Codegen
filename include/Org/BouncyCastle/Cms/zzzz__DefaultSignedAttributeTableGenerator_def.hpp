@@ -4,14 +4,14 @@
 namespace System::Collections {
 class Hashtable;
 }
+namespace Org::BouncyCastle::Cms {
+class CmsAttributeTableGenerator;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsAttributeTableGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -71,14 +71,12 @@ constexpr System::Collections::IDictionary __get_table() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DefaultSignedAttributeTableGenerator() ;
+static Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x115f084 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "attributeTable", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
-explicit DefaultSignedAttributeTableGenerator(Org::BouncyCastle::Asn1::Cms::AttributeTable attributeTable) ;
+static Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator New_ctor(Org::BouncyCastle::Asn1::Cms::AttributeTable attributeTable) ;
 
 /// @brief Method .ctor addr 0x115f56c size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::AttributeTable attributeTable) ;

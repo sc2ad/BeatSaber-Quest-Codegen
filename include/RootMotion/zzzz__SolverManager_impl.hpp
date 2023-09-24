@@ -421,8 +421,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::SolverManager::SolverManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SolverManager>())) {}
+ RootMotion::SolverManager RootMotion::SolverManager::New_ctor()  {
+RootMotion::SolverManager o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::SolverManager>())};
+return o;
+}
  void RootMotion::SolverManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::SolverManager>::get(),

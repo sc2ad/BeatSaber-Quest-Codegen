@@ -4,11 +4,11 @@
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Rect;
-}
 namespace UnityEngine::UIElements {
 class IManipulator;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

@@ -191,8 +191,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ecka_eg_SessionKDF_AES
 
 // Methods
 
-// Ctor Parameters []
-explicit BsiObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd6d50 size 0x8 virtual false final false
  void _ctor() ;

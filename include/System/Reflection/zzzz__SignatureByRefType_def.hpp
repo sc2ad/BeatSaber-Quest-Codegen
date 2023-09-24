@@ -61,8 +61,7 @@ constexpr explicit SignatureByRefType(void* ptr) noexcept : System::Reflection::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementType", ty: "System::Reflection::SignatureType", modifiers: "", def_value: None }]
-explicit SignatureByRefType(System::Reflection::SignatureType elementType) ;
+static System::Reflection::SignatureByRefType New_ctor(System::Reflection::SignatureType elementType) ;
 
 /// @brief Method .ctor addr 0x237cde4 size 0x24 virtual false final false
  void _ctor(System::Reflection::SignatureType elementType) ;

@@ -3,15 +3,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace Zenject {
+class InjectTypeInfo;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
 class IAnimatorMoveHandler;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -74,8 +74,7 @@ constexpr System::Collections::Generic::List_1<Zenject::IAnimatorMoveHandler> __
 /// @brief Method OnAnimatorMove addr 0x2d95560 size 0x1b0 virtual false final false
  void OnAnimatorMove() ;
 
-// Ctor Parameters []
-explicit AnimatorMoveHandlerManager() ;
+static Zenject::AnimatorMoveHandlerManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d95710 size 0x8 virtual false final false
  void _ctor() ;

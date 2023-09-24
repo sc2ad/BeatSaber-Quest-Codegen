@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace GlobalNamespace {
+class GlobalNamespace__SpawnRotationChevron__Pool;
+}
+namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
@@ -91,8 +94,7 @@ constexpr float_t __get__lightAmount() const;
 /// @brief Method UpdateLights addr 0x226a680 size 0x70 virtual false final false
  void UpdateLights() ;
 
-// Ctor Parameters []
-explicit SpawnRotationChevron() ;
+static GlobalNamespace::SpawnRotationChevron New_ctor() ;
 
 /// @brief Method .ctor addr 0x226a6f8 size 0x8 virtual false final false
  void _ctor() ;
@@ -104,7 +106,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5095)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2723 }), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2723 }), TypeDefinitionIndex(TypeDefinitionIndex(5095))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5094))
 // CS Name: SpawnRotationChevron::Pool
 class CORDL_TYPE GlobalNamespace__SpawnRotationChevron__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::SpawnRotationChevron> {
@@ -143,8 +145,7 @@ constexpr explicit GlobalNamespace__SpawnRotationChevron__Pool(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SpawnRotationChevron__Pool() ;
+static GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x226a700 size 0x48 virtual false final false
  void _ctor() ;

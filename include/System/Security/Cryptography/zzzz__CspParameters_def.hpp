@@ -96,26 +96,22 @@ constexpr int32_t __get_m_flags() const;
 /// @brief Method set_Flags addr 0x22f0010 size 0xe8 virtual false final false
  void set_Flags(System::Security::Cryptography::CspProviderFlags value) ;
 
-// Ctor Parameters []
-explicit CspParameters() ;
+static System::Security::Cryptography::CspParameters New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f00f8 size 0x2c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "dwTypeIn", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CspParameters(int32_t dwTypeIn) ;
+static System::Security::Cryptography::CspParameters New_ctor(int32_t dwTypeIn) ;
 
 /// @brief Method .ctor addr 0x22f0168 size 0x34 virtual false final false
  void _ctor(int32_t dwTypeIn) ;
 
-// Ctor Parameters [CppParam { name: "dwTypeIn", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "strProviderNameIn", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "strContainerNameIn", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CspParameters(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn) ;
+static System::Security::Cryptography::CspParameters New_ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn) ;
 
 /// @brief Method .ctor addr 0x22f0124 size 0x44 virtual false final false
  void _ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn) ;
 
-// Ctor Parameters [CppParam { name: "providerType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "providerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyContainerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::Cryptography::CspProviderFlags", modifiers: "", def_value: None }]
-explicit CspParameters(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, System::Security::Cryptography::CspProviderFlags flags) ;
+static System::Security::Cryptography::CspParameters New_ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, System::Security::Cryptography::CspProviderFlags flags) ;
 
 /// @brief Method .ctor addr 0x22f019c size 0x50 virtual false final false
  void _ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, System::Security::Cryptography::CspProviderFlags flags) ;

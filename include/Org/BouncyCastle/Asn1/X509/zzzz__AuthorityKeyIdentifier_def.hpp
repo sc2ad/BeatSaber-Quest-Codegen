@@ -5,32 +5,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -115,38 +115,32 @@ static Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier GetInstance(::bs_ho
 /// @brief Method FromExtensions addr 0xff8db4 size 0x68 virtual false final false
 static Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier FromExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit AuthorityKeyIdentifier(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff8a0c size 0x3a8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "spki", ty: "Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo", modifiers: "", def_value: None }]
-explicit AuthorityKeyIdentifier(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;
+static Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier New_ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;
 
 /// @brief Method .ctor addr 0xff8e1c size 0xc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;
 
-// Ctor Parameters [CppParam { name: "spki", ty: "Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo", modifiers: "", def_value: None }, CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit AuthorityKeyIdentifier(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
+static Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier New_ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
 /// @brief Method .ctor addr 0xff8e28 size 0x288 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit AuthorityKeyIdentifier(Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
+static Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
 /// @brief Method .ctor addr 0xff90b0 size 0x10 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
-// Ctor Parameters [CppParam { name: "keyIdentifier", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit AuthorityKeyIdentifier(::ArrayW<uint8_t> keyIdentifier) ;
+static Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier New_ctor(::ArrayW<uint8_t> keyIdentifier) ;
 
 /// @brief Method .ctor addr 0xff9198 size 0xc virtual false final false
  void _ctor(::ArrayW<uint8_t> keyIdentifier) ;
 
-// Ctor Parameters [CppParam { name: "keyIdentifier", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit AuthorityKeyIdentifier(::ArrayW<uint8_t> keyIdentifier, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
+static Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier New_ctor(::ArrayW<uint8_t> keyIdentifier, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
 /// @brief Method .ctor addr 0xff90c0 size 0xd8 virtual false final false
  void _ctor(::ArrayW<uint8_t> keyIdentifier, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber) ;

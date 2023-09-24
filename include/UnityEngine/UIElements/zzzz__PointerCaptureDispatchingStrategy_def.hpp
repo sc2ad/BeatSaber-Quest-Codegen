@@ -65,8 +65,7 @@ constexpr explicit PointerCaptureDispatchingStrategy(void* ptr) noexcept : ::bs_
 /// @brief Method DispatchEvent addr 0x2cd33a8 size 0x5d0 virtual true final true
  void DispatchEvent(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel panel) ;
 
-// Ctor Parameters []
-explicit PointerCaptureDispatchingStrategy() ;
+static UnityEngine::UIElements::PointerCaptureDispatchingStrategy New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd3a04 size 0x8 virtual false final false
  void _ctor() ;

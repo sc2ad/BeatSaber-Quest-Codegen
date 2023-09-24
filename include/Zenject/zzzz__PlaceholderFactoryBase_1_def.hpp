@@ -2,34 +2,34 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Zenject {
-class InjectContext;
+namespace System {
+class Type;
 }
 namespace Zenject {
 class IValidatable;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class IProvider;
 }
-namespace Zenject {
-struct TypeValuePair;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace Zenject {
-class IPlaceholderFactory;
-}
-namespace System {
-class Type;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class InjectContext;
+}
+namespace Zenject {
+class IPlaceholderFactory;
 }
 // Forward declare root types
 namespace Zenject {
@@ -123,8 +123,7 @@ constexpr Zenject::InjectContext __get__injectContext() const;
 /// @brief Method get_ParamTypes addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Collections::Generic::IEnumerable_1<System::Type> get_ParamTypes() ;
 
-// Ctor Parameters []
-explicit PlaceholderFactoryBase_1() ;
+static Zenject::PlaceholderFactoryBase_1<TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

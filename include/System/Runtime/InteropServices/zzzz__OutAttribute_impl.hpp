@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::InteropServices::OutAttribute::OutAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<OutAttribute>())) {}
+ System::Runtime::InteropServices::OutAttribute System::Runtime::InteropServices::OutAttribute::New_ctor()  {
+System::Runtime::InteropServices::OutAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::OutAttribute>())};
+return o;
+}
  void System::Runtime::InteropServices::OutAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::OutAttribute>::get(),

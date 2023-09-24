@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/ComponentModel/zzzz__AttributeCollection_def.hpp"
-#include "System/zzzz__Attribute_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/ComponentModel/zzzz__AttributeCollection_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
 // Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: Some("csnull") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::ComponentModel::System__ComponentModel__AttributeCollection__AttributeEntry::System__ComponentModel__AttributeCollection__AttributeEntry(System::Type type, int32_t index) noexcept : ::bs_hook::ValueTypeWrapper() {this->type = type;
 this->index = index;
@@ -272,8 +273,10 @@ constexpr void System::ComponentModel::AttributeCollection::__set__index(int32_t
 constexpr int32_t System::ComponentModel::AttributeCollection::__get__index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
- System::ComponentModel::AttributeCollection::AttributeCollection(::ArrayW<System::Attribute> attributes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeCollection>(attributes))) {}
+ System::ComponentModel::AttributeCollection System::ComponentModel::AttributeCollection::New_ctor(::ArrayW<System::Attribute> attributes)  {
+System::ComponentModel::AttributeCollection o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::AttributeCollection>(attributes))};
+return o;
+}
  void System::ComponentModel::AttributeCollection::_ctor(::ArrayW<System::Attribute> attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::AttributeCollection>::get(),

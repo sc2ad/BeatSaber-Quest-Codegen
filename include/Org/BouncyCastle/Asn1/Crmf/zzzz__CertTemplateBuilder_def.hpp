@@ -2,35 +2,35 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class OptionalValidity;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class OptionalValidity;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertTemplate;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+class SubjectPublicKeyInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertTemplate;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -177,8 +177,7 @@ constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_extensions() const
 /// @brief Method AddOptional addr 0xdf75a8 size 0xa0 virtual false final false
  void AddOptional(Org::BouncyCastle::Asn1::Asn1EncodableVector v, int32_t tagNo, bool isExplicit, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
-// Ctor Parameters []
-explicit CertTemplateBuilder() ;
+static Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0xdf7648 size 0x8 virtual false final false
  void _ctor() ;

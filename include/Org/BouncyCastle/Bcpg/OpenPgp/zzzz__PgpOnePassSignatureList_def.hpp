@@ -72,14 +72,12 @@ constexpr ::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> __get_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sigs", ty: "::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature>", modifiers: "", def_value: None }]
-explicit PgpOnePassSignatureList(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> sigs) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList New_ctor(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> sigs) ;
 
 /// @brief Method .ctor addr 0x10251b8 size 0xb8 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> sigs) ;
 
-// Ctor Parameters [CppParam { name: "sig", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature", modifiers: "", def_value: None }]
-explicit PgpOnePassSignatureList(Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature sig) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature sig) ;
 
 /// @brief Method .ctor addr 0x1025f74 size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature sig) ;

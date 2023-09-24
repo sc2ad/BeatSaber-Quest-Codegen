@@ -4,16 +4,16 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Shader;
+class RenderTexture;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Material;
 }
 namespace GlobalNamespace {
 class KawaseBlurRendererSO;
 }
 namespace UnityEngine {
-class Material;
+class Shader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -165,8 +165,7 @@ constexpr UnityEngine::Material __get__mainEffectMaterial() const;
 /// @brief Method Render addr 0x2676a78 size 0x210 virtual true final false
  void Render(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest, float_t fade) ;
 
-// Ctor Parameters []
-explicit KawaseBloomMainEffectSO() ;
+static GlobalNamespace::KawaseBloomMainEffectSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2676c88 size 0x28 virtual false final false
  void _ctor() ;

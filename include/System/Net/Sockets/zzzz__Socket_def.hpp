@@ -8,139 +8,167 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Threading {
-class ContextCallback;
-}
-namespace System::Threading {
 class SendOrPostCallback;
 }
-namespace System {
-class IOAsyncCallback;
-}
-namespace System {
-template<typename T>
-struct Span_1;
-}
-namespace System::Net::Sockets {
-struct AddressFamily;
-}
-namespace System::Net::Sockets {
-struct SocketAsyncOperation;
-}
-namespace System {
-template<typename T>
-struct ArraySegment_1;
-}
-namespace System::Net::Sockets {
-struct IOControlCode;
-}
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace System::Threading {
-class Thread;
-}
-namespace System::Net::NetworkInformation {
-struct NetworkInterfaceComponent;
+class ContextCallback;
 }
 namespace System::Net::Sockets {
-struct SocketShutdown;
+class System__Net__Sockets__Socket____c;
 }
 namespace System {
 template<typename T>
 struct ReadOnlyMemory_1;
 }
-namespace System::Net::Sockets {
-struct SocketOptionLevel;
-}
-namespace System::Net::Sockets {
-struct SelectMode;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Net::Sockets {
-struct IPProtectionLevel;
-}
 namespace System::Net {
-class EndPoint;
-}
-namespace System::Net::Sockets {
-class SocketAsyncEventArgs;
+class IPAddress;
 }
 namespace System {
-class AsyncCallback;
+template<typename T>
+struct ReadOnlySpan_1;
+}
+namespace System::Net::Sockets {
+struct SocketError;
 }
 namespace System::Net::Sockets {
 struct SocketOperation;
+}
+namespace System {
+class IOSelectorJob;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
 namespace System {
-class IOSelectorJob;
-}
-namespace System::Net::Sockets {
-class SafeSocketHandle;
-}
-namespace System::Net::Sockets {
-struct SocketFlags;
-}
-namespace System {
-class Exception;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-struct ValueTask_1;
+template<typename TEventArgs>
+class EventHandler_1;
 }
 namespace System {
 template<typename T>
 struct Memory_1;
 }
+namespace System {
+class IOAsyncCallback;
+}
+namespace System::Net::Sockets {
+class System__Net__Sockets__Socket____c__DisplayClass298_0;
+}
 namespace System::Net {
 class SocketAddress;
 }
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace System::Net::Sockets {
-struct SocketType;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System::Net::Sockets {
-struct SocketError;
-}
-namespace System::Net::Sockets {
-struct SocketOptionName;
-}
-namespace System::Net::Sockets {
-class SocketAsyncResult;
-}
 namespace System {
-template<typename TEventArgs>
-class EventHandler_1;
+class IAsyncResult;
+}
+namespace System::Net::Sockets {
+class SafeSocketHandle;
+}
+namespace System::Net::Sockets {
+template<typename TResult>
+class System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Net::Sockets {
+struct System__Net__Sockets__Socket__WSABUF;
+}
+namespace System::Net::Sockets {
+struct AddressFamily;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::Net::Sockets {
+class System__Net__Sockets__Socket____c__DisplayClass355_0;
+}
+namespace System::Net::Sockets {
+class System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System::Net::Sockets {
+struct IOControlCode;
+}
+namespace System::Net::Sockets {
+class System__Net__Sockets__Socket__CachedEventArgs;
+}
+namespace System::Net::Sockets {
+struct SocketOptionLevel;
+}
+namespace System {
+template<typename T>
+struct ArraySegment_1;
+}
+namespace System::Threading {
+class Thread;
+}
+namespace System::Net::Sockets {
+struct SocketFlags;
+}
+namespace System {
+template<typename T>
+struct Span_1;
+}
+namespace System::Net::Sockets {
+class SocketAsyncEventArgs;
+}
+namespace System::Net {
+class EndPoint;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace System::Net::Sockets {
+struct SocketType;
+}
+namespace System::Net::Sockets {
+struct IPProtectionLevel;
+}
+namespace System::Net::Sockets {
+struct SocketShutdown;
+}
+namespace System::Net::Sockets {
+struct SelectMode;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Net::NetworkInformation {
+struct NetworkInterfaceComponent;
+}
+namespace System::Net::Sockets {
+class System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Net::Sockets {
+class SocketAsyncResult;
+}
 namespace System::Net::Sockets {
 struct ProtocolType;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+struct ValueTask_1;
+}
+namespace System::Net::Sockets {
+struct SocketOptionName;
+}
+namespace System {
+class Exception;
+}
+namespace System::Net::Sockets {
+class System__Net__Sockets__Socket____c__DisplayClass240_0;
+}
+namespace System::Net::Sockets {
+struct SocketAsyncOperation;
 }
 namespace System::Threading::Tasks::Sources {
 template<typename TResult>
@@ -150,11 +178,11 @@ namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Threading::Tasks::Sources {
-struct ValueTaskSourceOnCompletedFlags;
+namespace GlobalNamespace {
+class System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c;
 }
 namespace System::Threading::Tasks::Sources {
-class IValueTaskSource;
+struct ValueTaskSourceOnCompletedFlags;
 }
 namespace System::Threading::Tasks::Sources {
 struct ValueTaskSourceStatus;
@@ -162,16 +190,19 @@ struct ValueTaskSourceStatus;
 namespace System::Threading {
 class ExecutionContext;
 }
+namespace System::Threading::Tasks::Sources {
+class IValueTaskSource;
+}
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
 }
 namespace System {
-class IOAsyncResult;
-}
-namespace System {
 template<typename TResult>
 class Func_1;
+}
+namespace System {
+class IOAsyncResult;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -197,12 +228,12 @@ namespace System::Net::Sockets {
 class System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs;
 }
 namespace System::Net::Sockets {
-template<::cordl_internals::il2cpp_reference_type TResult>
+template<::cordl_internals::is_or_is_backed_by<int32_t> TResult>
 class System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>;
 }
 namespace System::Net::Sockets {
-template<>
-class System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>;
+template<::cordl_internals::il2cpp_reference_type TResult>
+class System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>;
 }
 namespace System::Net::Sockets {
 class System__Net__Sockets__Socket____c;
@@ -294,8 +325,7 @@ constexpr System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsy
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Sockets__Socket__CachedEventArgs() ;
+static System::Net::Sockets::System__Net__Sockets__Socket__CachedEventArgs New_ctor() ;
 
 /// @brief Method .ctor addr 0x286ba2c size 0x8 virtual false final false
  void _ctor() ;
@@ -308,12 +338,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::TaskSocketAsyncEventArgs`1
 namespace System::Net::Sockets {
 // cpp template
-template<>
+template<::cordl_internals::is_or_is_backed_by<int32_t> TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8177)), TypeDefinitionIndex(TypeDefinitionIndex(8208))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8208)), TypeDefinitionIndex(TypeDefinitionIndex(8177))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8177), inst: 92 })
 // CS Name: System.Net.Sockets.Socket::TaskSocketAsyncEventArgs`1
-class CORDL_TYPE System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t> : public System::Net::Sockets::SocketAsyncEventArgs {
+class CORDL_TYPE System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult> : public System::Net::Sockets::SocketAsyncEventArgs {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -349,11 +379,11 @@ constexpr explicit System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1(void
 
 // Fields
 
- System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __declspec(property(get=__get__builder, put=__set__builder))  _builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> __declspec(property(get=__get__builder, put=__set__builder))  _builder;
 
-constexpr void __set__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> value) ;
+constexpr void __set__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value) ;
 
-constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __get__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> __get__builder() const;
 
  bool __declspec(property(get=__get__accessed, put=__set__accessed))  _accessed;
 
@@ -364,14 +394,84 @@ constexpr bool __get__accessed() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1() ;
+static System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method GetCompletionResponsibility addr 0x0 size 0xffffffffffffffff virtual false final false
- System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> GetCompletionResponsibility(ByRef<bool> responsibleForReturningToPool) ;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> GetCompletionResponsibility(ByRef<bool> responsibleForReturningToPool) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System::Net::Sockets
+// Type: ::TaskSocketAsyncEventArgs`1
+namespace System::Net::Sockets {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TResult>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8177)), TypeDefinitionIndex(TypeDefinitionIndex(8208))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8177), inst: 2 })
+// CS Name: System.Net.Sockets.Socket::TaskSocketAsyncEventArgs`1
+class CORDL_TYPE System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult> : public System::Net::Sockets::SocketAsyncEventArgs {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xe0};
+
+virtual ~System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1", modifiers: " const&", def_value: None }]
+constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1(System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1", modifiers: "&&", def_value: None }]
+constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1(System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1(void* ptr) noexcept : System::Net::Sockets::SocketAsyncEventArgs(ptr) {
+}
+
+
+  constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1& operator=(System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1&& o) noexcept = default;
+  constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1& operator=(System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> __declspec(property(get=__get__builder, put=__set__builder))  _builder;
+
+constexpr void __set__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value) ;
+
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> __get__builder() const;
+
+ bool __declspec(property(get=__get__accessed, put=__set__accessed))  _accessed;
+
+constexpr void __set__accessed(bool value) ;
+
+constexpr bool __get__accessed() const;
+
+
+// Methods
+
+static System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method GetCompletionResponsibility addr 0x0 size 0xffffffffffffffff virtual false final false
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> GetCompletionResponsibility(ByRef<bool> responsibleForReturningToPool) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -380,7 +480,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Int32TaskSocketAsyncEventArgs
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8177), inst: 92 }), TypeDefinitionIndex(TypeDefinitionIndex(8177))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8177)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8177), inst: 92 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8178))
 // CS Name: System.Net.Sockets.Socket::Int32TaskSocketAsyncEventArgs
 class CORDL_TYPE System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs : public System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t> {
@@ -428,8 +528,7 @@ constexpr bool __get__wrapExceptionsInIOExceptions() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs() ;
+static System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs New_ctor() ;
 
 /// @brief Method .ctor addr 0x286b9e4 size 0x48 virtual false final false
  void _ctor() ;
@@ -501,8 +600,7 @@ static System::Threading::SendOrPostCallback __get___9__20_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c() ;
+static GlobalNamespace::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2766414 size 0x8 virtual false final false
  void _ctor() ;
@@ -629,8 +727,7 @@ constexpr bool __get__WrapExceptionsInIOExceptions_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs() ;
+static System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs New_ctor() ;
 
 /// @brief Method .ctor addr 0x286ba34 size 0x6c virtual false final false
  void _ctor() ;
@@ -857,8 +954,7 @@ static System::IOAsyncCallback __get___9__297_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Sockets__Socket____c() ;
+static System::Net::Sockets::System__Net__Sockets__Socket____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2766680 size 0x8 virtual false final false
  void _ctor() ;
@@ -1002,8 +1098,7 @@ constexpr System::Net::Sockets::SocketAsyncResult __get_sockares() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Sockets__Socket____c__DisplayClass240_0() ;
+static System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass240_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x27698f8 size 0x8 virtual false final false
  void _ctor() ;
@@ -1066,8 +1161,7 @@ constexpr int32_t __get_sent_so_far() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Sockets__Socket____c__DisplayClass298_0() ;
+static System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass298_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2769a20 size 0x8 virtual false final false
  void _ctor() ;
@@ -1142,8 +1236,7 @@ constexpr ::cordl_internals::intptr_t __get_handle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Sockets__Socket____c__DisplayClass355_0() ;
+static System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass355_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2769acc size 0x8 virtual false final false
  void _ctor() ;
@@ -1589,8 +1682,7 @@ static System::Exception GetException(System::Net::Sockets::SocketError error, b
 /// @brief Method ReturnSocketAsyncEventArgs addr 0x2863404 size 0x40 virtual false final false
  void ReturnSocketAsyncEventArgs(System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<System::Net::Sockets::Socket> saea) ;
 
-// Ctor Parameters [CppParam { name: "addressFamily", ty: "System::Net::Sockets::AddressFamily", modifiers: "", def_value: None }, CppParam { name: "socketType", ty: "System::Net::Sockets::SocketType", modifiers: "", def_value: None }, CppParam { name: "protocolType", ty: "System::Net::Sockets::ProtocolType", modifiers: "", def_value: None }]
-explicit Socket(System::Net::Sockets::AddressFamily addressFamily, System::Net::Sockets::SocketType socketType, System::Net::Sockets::ProtocolType protocolType) ;
+static System::Net::Sockets::Socket New_ctor(System::Net::Sockets::AddressFamily addressFamily, System::Net::Sockets::SocketType socketType, System::Net::Sockets::ProtocolType protocolType) ;
 
 /// @brief Method .ctor addr 0x28636c0 size 0x254 virtual false final false
  void _ctor(System::Net::Sockets::AddressFamily addressFamily, System::Net::Sockets::SocketType socketType, System::Net::Sockets::ProtocolType protocolType) ;
@@ -1700,8 +1792,7 @@ static void InitializeSockets() ;
 /// @brief Method SetSocketOption addr 0x2862788 size 0x150 virtual false final false
  void SetSocketOption(System::Net::Sockets::SocketOptionLevel optionLevel, System::Net::Sockets::SocketOptionName optionName, int32_t optionValue, bool silent) ;
 
-// Ctor Parameters [CppParam { name: "family", ty: "System::Net::Sockets::AddressFamily", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Net::Sockets::SocketType", modifiers: "", def_value: None }, CppParam { name: "proto", ty: "System::Net::Sockets::ProtocolType", modifiers: "", def_value: None }, CppParam { name: "safe_handle", ty: "System::Net::Sockets::SafeSocketHandle", modifiers: "", def_value: None }]
-explicit Socket(System::Net::Sockets::AddressFamily family, System::Net::Sockets::SocketType type, System::Net::Sockets::ProtocolType proto, System::Net::Sockets::SafeSocketHandle safe_handle) ;
+static System::Net::Sockets::Socket New_ctor(System::Net::Sockets::AddressFamily family, System::Net::Sockets::SocketType type, System::Net::Sockets::ProtocolType proto, System::Net::Sockets::SafeSocketHandle safe_handle) ;
 
 /// @brief Method .ctor addr 0x2865ec4 size 0xfc virtual false final false
  void _ctor(System::Net::Sockets::AddressFamily family, System::Net::Sockets::SocketType type, System::Net::Sockets::ProtocolType proto, System::Net::Sockets::SafeSocketHandle safe_handle) ;
@@ -2041,78 +2132,6 @@ static bool IsProtocolSupported_internal(System::Net::NetworkInformation::Networ
 
 /// @brief Method IsProtocolSupported addr 0x2865af4 size 0x54 virtual false final false
 static bool IsProtocolSupported(System::Net::NetworkInformation::NetworkInterfaceComponent networkInterface) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Net::Sockets
-// Type: ::TaskSocketAsyncEventArgs`1
-namespace System::Net::Sockets {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TResult>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8208)), TypeDefinitionIndex(TypeDefinitionIndex(8177))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8177), inst: 2 })
-// CS Name: System.Net.Sockets.Socket::TaskSocketAsyncEventArgs`1
-class CORDL_TYPE System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult> : public System::Net::Sockets::SocketAsyncEventArgs {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xe0};
-
-virtual ~System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1", modifiers: " const&", def_value: None }]
-constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1(System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1", modifiers: "&&", def_value: None }]
-constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1(System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1(void* ptr) noexcept : System::Net::Sockets::SocketAsyncEventArgs(ptr) {
-}
-
-
-  constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1& operator=(System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1&& o) noexcept = default;
-  constexpr System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1& operator=(System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> __declspec(property(get=__get__builder, put=__set__builder))  _builder;
-
-constexpr void __set__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value) ;
-
-constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> __get__builder() const;
-
- bool __declspec(property(get=__get__accessed, put=__set__accessed))  _accessed;
-
-constexpr void __set__accessed(bool value) ;
-
-constexpr bool __get__accessed() const;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method GetCompletionResponsibility addr 0x0 size 0xffffffffffffffff virtual false final false
- System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> GetCompletionResponsibility(ByRef<bool> responsibleForReturningToPool) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

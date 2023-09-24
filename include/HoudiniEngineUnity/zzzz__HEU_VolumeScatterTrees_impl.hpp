@@ -1,9 +1,9 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeScatterTrees_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_TreePrototypeInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_VolumeScatterTrees.IsEquivalentTo
 template<>
@@ -106,8 +106,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_VolumeScatterTrees::HEU_VolumeScatterTrees()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_VolumeScatterTrees>())) {}
+ HoudiniEngineUnity::HEU_VolumeScatterTrees HoudiniEngineUnity::HEU_VolumeScatterTrees::New_ctor()  {
+HoudiniEngineUnity::HEU_VolumeScatterTrees o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_VolumeScatterTrees>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_VolumeScatterTrees::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_VolumeScatterTrees>::get(),

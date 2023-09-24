@@ -47,8 +47,7 @@ constexpr explicit AsymmetricSignatureFormatter(void* ptr) noexcept : ::bs_hook:
 
 // Methods
 
-// Ctor Parameters []
-explicit AsymmetricSignatureFormatter() ;
+static System::Security::Cryptography::AsymmetricSignatureFormatter New_ctor() ;
 
 /// @brief Method .ctor addr 0x22efdbc size 0x8 virtual false final false
  void _ctor() ;

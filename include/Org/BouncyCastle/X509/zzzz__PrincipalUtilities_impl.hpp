@@ -98,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::X509Name, false>(nullptr, ___internal_method, crl);
 }
-// Ctor Parameters []
- Org::BouncyCastle::X509::PrincipalUtilities::PrincipalUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PrincipalUtilities>())) {}
+ Org::BouncyCastle::X509::PrincipalUtilities Org::BouncyCastle::X509::PrincipalUtilities::New_ctor()  {
+Org::BouncyCastle::X509::PrincipalUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::PrincipalUtilities>())};
+return o;
+}
  void Org::BouncyCastle::X509::PrincipalUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::PrincipalUtilities>::get(),

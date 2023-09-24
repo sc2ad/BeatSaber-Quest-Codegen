@@ -1,13 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration.get_enableMixedReality
 template<>
 

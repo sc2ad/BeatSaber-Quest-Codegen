@@ -4,16 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Zenject {
-struct RootResolveMethods;
+class Zenject__ZenjectSettings__SignalSettings;
 }
 namespace Zenject {
 struct ValidationErrorResponses;
 }
 namespace Zenject {
-struct SignalDefaultSyncModes;
+struct RootResolveMethods;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+struct SignalDefaultSyncModes;
 }
 namespace Zenject {
 struct SignalMissingHandlerResponses;
@@ -111,14 +114,12 @@ constexpr int32_t __get__defaultAsyncTickPriority() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "defaultSyncMode", ty: "Zenject::SignalDefaultSyncModes", modifiers: "", def_value: None }, CppParam { name: "missingHandlerDefaultResponse", ty: "Zenject::SignalMissingHandlerResponses", modifiers: "", def_value: None }, CppParam { name: "requireStrictUnsubscribe", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "defaultAsyncTickPriority", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__ZenjectSettings__SignalSettings(Zenject::SignalDefaultSyncModes defaultSyncMode, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int32_t defaultAsyncTickPriority) ;
+static Zenject::Zenject__ZenjectSettings__SignalSettings New_ctor(Zenject::SignalDefaultSyncModes defaultSyncMode, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int32_t defaultAsyncTickPriority) ;
 
 /// @brief Method .ctor addr 0x2d8b148 size 0x44 virtual false final false
  void _ctor(Zenject::SignalDefaultSyncModes defaultSyncMode, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int32_t defaultAsyncTickPriority) ;
 
-// Ctor Parameters []
-explicit Zenject__ZenjectSettings__SignalSettings() ;
+static Zenject::Zenject__ZenjectSettings__SignalSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d8b18c size 0x30 virtual false final false
  void _ctor() ;
@@ -241,14 +242,12 @@ constexpr Zenject::Zenject__ZenjectSettings__SignalSettings __get__signalSetting
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "validationErrorResponse", ty: "Zenject::ValidationErrorResponses", modifiers: "", def_value: None }, CppParam { name: "validationRootResolveMethod", ty: "Zenject::RootResolveMethods", modifiers: "", def_value: None }, CppParam { name: "displayWarningWhenResolvingDuringInstall", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ensureDeterministicDestructionOrderOnApplicationQuit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "signalSettings", ty: "Zenject::Zenject__ZenjectSettings__SignalSettings", modifiers: "", def_value: None }]
-explicit ZenjectSettings(Zenject::ValidationErrorResponses validationErrorResponse, Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, Zenject::Zenject__ZenjectSettings__SignalSettings signalSettings) ;
+static Zenject::ZenjectSettings New_ctor(Zenject::ValidationErrorResponses validationErrorResponse, Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, Zenject::Zenject__ZenjectSettings__SignalSettings signalSettings) ;
 
 /// @brief Method .ctor addr 0x2d8aff4 size 0xa0 virtual false final false
  void _ctor(Zenject::ValidationErrorResponses validationErrorResponse, Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, Zenject::Zenject__ZenjectSettings__SignalSettings signalSettings) ;
 
-// Ctor Parameters []
-explicit ZenjectSettings() ;
+static Zenject::ZenjectSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d8b094 size 0x18 virtual false final false
  void _ctor() ;

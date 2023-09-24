@@ -2,10 +2,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPacksDropdown_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMaskModelSO_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__SongPacksDropdown_def.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SongPacksDropdown____c._ctor
@@ -54,8 +55,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__SongP
  System::Func_2<::StringW,::StringW> GlobalNamespace::GlobalNamespace__SongPacksDropdown____c::__get___9__7_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<::StringW,::StringW>, "<>9__7_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SongPacksDropdown____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SongPacksDropdown____c::GlobalNamespace__SongPacksDropdown____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SongPacksDropdown____c>())) {}
+ GlobalNamespace::GlobalNamespace__SongPacksDropdown____c GlobalNamespace::GlobalNamespace__SongPacksDropdown____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SongPacksDropdown____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SongPacksDropdown____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SongPacksDropdown____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SongPacksDropdown____c>::get(),
@@ -381,8 +384,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dropdownWithTableView, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::SongPacksDropdown::SongPacksDropdown()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SongPacksDropdown>())) {}
+ GlobalNamespace::SongPacksDropdown GlobalNamespace::SongPacksDropdown::New_ctor()  {
+GlobalNamespace::SongPacksDropdown o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SongPacksDropdown>())};
+return o;
+}
  void GlobalNamespace::SongPacksDropdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SongPacksDropdown>::get(),

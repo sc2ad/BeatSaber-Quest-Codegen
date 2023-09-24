@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- JetBrains::Annotations::AspMvcPartialViewAttribute::AspMvcPartialViewAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspMvcPartialViewAttribute>())) {}
+ JetBrains::Annotations::AspMvcPartialViewAttribute JetBrains::Annotations::AspMvcPartialViewAttribute::New_ctor()  {
+JetBrains::Annotations::AspMvcPartialViewAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspMvcPartialViewAttribute>())};
+return o;
+}
  void JetBrains::Annotations::AspMvcPartialViewAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspMvcPartialViewAttribute>::get(),

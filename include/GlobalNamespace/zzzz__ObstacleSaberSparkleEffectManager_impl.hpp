@@ -1,19 +1,19 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSaberSparkleEffectManager_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSaberSparkleEffect_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ObstacleSaberSparkleEffectManager.add_sparkleEffectDidStartEvent
 template<>
 
@@ -375,8 +375,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, bounds, transform, bladeBottomPos, bladeTopPos, burnMarkPos);
 }
-// Ctor Parameters []
- GlobalNamespace::ObstacleSaberSparkleEffectManager::ObstacleSaberSparkleEffectManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ObstacleSaberSparkleEffectManager>())) {}
+ GlobalNamespace::ObstacleSaberSparkleEffectManager GlobalNamespace::ObstacleSaberSparkleEffectManager::New_ctor()  {
+GlobalNamespace::ObstacleSaberSparkleEffectManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObstacleSaberSparkleEffectManager>())};
+return o;
+}
  void GlobalNamespace::ObstacleSaberSparkleEffectManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObstacleSaberSparkleEffectManager>::get(),

@@ -1,14 +1,14 @@
 #pragma once
 #include "Zenject/zzzz__SignalCallbackWithLookupWrapper_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__SignalBus_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__SignalBindingBindInfo_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: Zenject::SignalCallbackWithLookupWrapper._ctor
 template<>
 
@@ -140,8 +140,10 @@ constexpr void Zenject::SignalCallbackWithLookupWrapper::__set__identifier(::bs_
 constexpr ::bs_hook::Il2CppWrapperType Zenject::SignalCallbackWithLookupWrapper::__get__identifier() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "Zenject::SignalBindingBindInfo", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "lookupId", ty: "System::Guid", modifiers: "", def_value: None }, CppParam { name: "methodGetter", ty: "System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>>", modifiers: "", def_value: None }, CppParam { name: "signalBus", ty: "Zenject::SignalBus", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
- Zenject::SignalCallbackWithLookupWrapper::SignalCallbackWithLookupWrapper(Zenject::SignalBindingBindInfo signalBindInfo, System::Type objectType, System::Guid lookupId, System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> methodGetter, Zenject::SignalBus signalBus, Zenject::DiContainer container)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignalCallbackWithLookupWrapper>(signalBindInfo, objectType, lookupId, methodGetter, signalBus, container))) {}
+ Zenject::SignalCallbackWithLookupWrapper Zenject::SignalCallbackWithLookupWrapper::New_ctor(Zenject::SignalBindingBindInfo signalBindInfo, System::Type objectType, System::Guid lookupId, System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> methodGetter, Zenject::SignalBus signalBus, Zenject::DiContainer container)  {
+Zenject::SignalCallbackWithLookupWrapper o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalCallbackWithLookupWrapper>(signalBindInfo, objectType, lookupId, methodGetter, signalBus, container))};
+return o;
+}
  void Zenject::SignalCallbackWithLookupWrapper::_ctor(Zenject::SignalBindingBindInfo signalBindInfo, System::Type objectType, System::Guid lookupId, System::Func_2<::bs_hook::Il2CppWrapperType,System::Action_1<::bs_hook::Il2CppWrapperType>> methodGetter, Zenject::SignalBus signalBus, Zenject::DiContainer container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalCallbackWithLookupWrapper>::get(),

@@ -207,8 +207,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerIntroCountdownTextController::MultiplayerIntroCountdownTextController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerIntroCountdownTextController>())) {}
+ GlobalNamespace::MultiplayerIntroCountdownTextController GlobalNamespace::MultiplayerIntroCountdownTextController::New_ctor()  {
+GlobalNamespace::MultiplayerIntroCountdownTextController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerIntroCountdownTextController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerIntroCountdownTextController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerIntroCountdownTextController>::get(),

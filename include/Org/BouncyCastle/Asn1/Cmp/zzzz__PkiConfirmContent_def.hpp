@@ -54,8 +54,7 @@ constexpr explicit PkiConfirmContent(void* ptr) noexcept : Org::BouncyCastle::As
 /// @brief Method GetInstance addr 0xddcaa0 size 0x150 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit PkiConfirmContent() ;
+static Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent New_ctor() ;
 
 /// @brief Method .ctor addr 0xddd114 size 0x8 virtual false final false
  void _ctor() ;

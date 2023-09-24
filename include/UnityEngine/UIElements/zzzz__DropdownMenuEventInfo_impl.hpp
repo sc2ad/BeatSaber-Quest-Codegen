@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__DropdownMenuEventInfo_def.hpp"
-#include "UnityEngine/zzzz__EventModifiers_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::DropdownMenuEventInfo._ctor
 template<>
 
@@ -51,8 +51,10 @@ constexpr void UnityEngine::UIElements::DropdownMenuEventInfo::__set__keyCode_k_
 constexpr UnityEngine::KeyCode UnityEngine::UIElements::DropdownMenuEventInfo::__get__keyCode_k__BackingField() const {
 return ::cordl_internals::getInstanceField<UnityEngine::KeyCode, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "e", ty: "UnityEngine::UIElements::EventBase", modifiers: "", def_value: None }]
- UnityEngine::UIElements::DropdownMenuEventInfo::DropdownMenuEventInfo(UnityEngine::UIElements::EventBase e)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DropdownMenuEventInfo>(e))) {}
+ UnityEngine::UIElements::DropdownMenuEventInfo UnityEngine::UIElements::DropdownMenuEventInfo::New_ctor(UnityEngine::UIElements::EventBase e)  {
+UnityEngine::UIElements::DropdownMenuEventInfo o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::DropdownMenuEventInfo>(e))};
+return o;
+}
  void UnityEngine::UIElements::DropdownMenuEventInfo::_ctor(UnityEngine::UIElements::EventBase e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::DropdownMenuEventInfo>::get(),

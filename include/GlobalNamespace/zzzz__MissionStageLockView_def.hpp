@@ -97,8 +97,7 @@ constexpr float_t __get__startAnimationTime() const;
 /// @brief Method UpdateStageLockText addr 0x214ac2c size 0x24 virtual false final false
  void UpdateStageLockText(::StringW text) ;
 
-// Ctor Parameters []
-explicit MissionStageLockView() ;
+static GlobalNamespace::MissionStageLockView New_ctor() ;
 
 /// @brief Method .ctor addr 0x214ac50 size 0x8 virtual false final false
  void _ctor() ;

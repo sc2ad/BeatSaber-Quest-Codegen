@@ -4,21 +4,36 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__OpenProductStoreResult;
 }
 namespace GlobalNamespace {
-class AlwaysOwnedContentContainerSO;
+struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel___GetPackEntitlementStatusAsync_d__11;
+}
 namespace System {
 class Action;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel___GetLevelEntitlementStatusAsync_d__10;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__IsPackBetterBuyThanLevelResult;
+}
+namespace GlobalNamespace {
+class AlwaysOwnedContentContainerSO;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__UpdateEntitlementsResult;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -27,6 +42,9 @@ struct AsyncTaskMethodBuilder_1;
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,6 +119,8 @@ constexpr operator __GlobalNamespace__AdditionalContentModel__EntitlementStatus_
 return std::bit_cast<__GlobalNamespace__AdditionalContentModel__EntitlementStatus_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -173,6 +193,8 @@ constexpr operator __GlobalNamespace__AdditionalContentModel__OpenProductStoreRe
 return std::bit_cast<__GlobalNamespace__AdditionalContentModel__OpenProductStoreResult_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -241,6 +263,8 @@ __Failed = 1,
 constexpr operator __GlobalNamespace__AdditionalContentModel__UpdateEntitlementsResult_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__AdditionalContentModel__UpdateEntitlementsResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -311,6 +335,8 @@ __Failed = 2,
 constexpr operator __GlobalNamespace__AdditionalContentModel__IsPackBetterBuyThanLevelResult_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__AdditionalContentModel__IsPackBetterBuyThanLevelResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -629,8 +655,7 @@ constexpr System::Action __get_didInvalidateDataEvent() const;
 /// @brief Method OpenLevelPackProductStoreAsync addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Threading::Tasks::Task_1<GlobalNamespace::GlobalNamespace__AdditionalContentModel__OpenProductStoreResult> OpenLevelPackProductStoreAsync(::StringW levelPackId, System::Threading::CancellationToken token) ;
 
-// Ctor Parameters []
-explicit AdditionalContentModel() ;
+static GlobalNamespace::AdditionalContentModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c76c8 size 0x8 virtual false final false
  void _ctor() ;

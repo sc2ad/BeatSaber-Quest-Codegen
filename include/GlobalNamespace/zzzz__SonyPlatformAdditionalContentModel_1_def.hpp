@@ -4,34 +4,62 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+template<typename T>
+struct GlobalNamespace__SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__5;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__UpdateEntitlementsResult;
+}
+namespace GlobalNamespace {
+template<typename T>
+struct GlobalNamespace__SonyPlatformAdditionalContentModel_1___IsPackBetterBuyThanLevelAsync_d__9;
+}
+namespace GlobalNamespace {
+class ISonyCommerceHelper;
+}
+namespace GlobalNamespace {
+template<typename T>
+struct GlobalNamespace__SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__13;
+}
 namespace System::Threading {
 class SemaphoreSlim;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
+struct GlobalNamespace__AdditionalContentModel__IsPackBetterBuyThanLevelResult;
 }
 namespace GlobalNamespace {
-class ISonyCommerceHelper;
+template<typename T>
+struct GlobalNamespace__SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__12;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__IsPackBetterBuyThanLevelResult;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+template<typename T>
+struct GlobalNamespace__SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__7;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__OpenProductStoreResult;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__UpdateEntitlementsResult;
+template<typename T>
+struct GlobalNamespace__SonyPlatformAdditionalContentModel_1___OpenLevelPackProductStoreAsync_d__8;
+}
+namespace GlobalNamespace {
+template<typename T>
+struct GlobalNamespace__SonyPlatformAdditionalContentModel_1___GetPackEntitlementStatusInternalAsync_d__6;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -41,11 +69,11 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__ISonyCommerceHelper__DisplayProductBrowseDialogResult;
@@ -131,7 +159,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4681)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(4681))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4681), inst: 2 })
 // CS Name: SonyPlatformAdditionalContentModel`1::<GetLevelEntitlementStatusInternalAsync>d__5
 struct CORDL_TYPE GlobalNamespace__SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__5<T> : public ::bs_hook::ValueTypeWrapper {
@@ -228,7 +256,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(4682))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4682)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4682), inst: 2 })
 // CS Name: SonyPlatformAdditionalContentModel`1::<GetPackEntitlementStatusInternalAsync>d__6
 struct CORDL_TYPE GlobalNamespace__SonyPlatformAdditionalContentModel_1___GetPackEntitlementStatusInternalAsync_d__6<T> : public ::bs_hook::ValueTypeWrapper {
@@ -325,7 +353,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4683)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(4683))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4683), inst: 2 })
 // CS Name: SonyPlatformAdditionalContentModel`1::<OpenLevelProductStoreAsync>d__7
 struct CORDL_TYPE GlobalNamespace__SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__7<T> : public ::bs_hook::ValueTypeWrapper {
@@ -422,7 +450,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(4684))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4684)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4684), inst: 2 })
 // CS Name: SonyPlatformAdditionalContentModel`1::<OpenLevelPackProductStoreAsync>d__8
 struct CORDL_TYPE GlobalNamespace__SonyPlatformAdditionalContentModel_1___OpenLevelPackProductStoreAsync_d__8<T> : public ::bs_hook::ValueTypeWrapper {
@@ -519,7 +547,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(4685))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4685)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4685), inst: 2 })
 // CS Name: SonyPlatformAdditionalContentModel`1::<IsPackBetterBuyThanLevelAsync>d__9
 struct CORDL_TYPE GlobalNamespace__SonyPlatformAdditionalContentModel_1___IsPackBetterBuyThanLevelAsync_d__9<T> : public ::bs_hook::ValueTypeWrapper {
@@ -713,7 +741,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4687)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(4687))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4687), inst: 2 })
 // CS Name: SonyPlatformAdditionalContentModel`1::<UpdateEntitlementsAsync>d__13
 struct CORDL_TYPE GlobalNamespace__SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__13<T> : public ::bs_hook::ValueTypeWrapper {
@@ -917,8 +945,7 @@ constexpr GlobalNamespace::ISonyCommerceHelper __get__sonyCommerceHelper() const
 /// @brief Method GetLevelProductsModel addr 0x0 size 0xffffffffffffffff virtual true final false
  T GetLevelProductsModel() ;
 
-// Ctor Parameters []
-explicit SonyPlatformAdditionalContentModel_1() ;
+static GlobalNamespace::SonyPlatformAdditionalContentModel_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

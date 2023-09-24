@@ -11,7 +11,7 @@ class MouseEnterWindowEvent;
 // Type: UnityEngine.UIElements::MouseEnterWindowEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7314)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4507 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4507 }), TypeDefinitionIndex(TypeDefinitionIndex(7314))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7322))
 // CS Name: UnityEngine.UIElements.MouseEnterWindowEvent
 class CORDL_TYPE MouseEnterWindowEvent : public UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseEnterWindowEvent> {
@@ -56,8 +56,7 @@ constexpr explicit MouseEnterWindowEvent(void* ptr) noexcept : UnityEngine::UIEl
 /// @brief Method LocalInit addr 0x2cda3f0 size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit MouseEnterWindowEvent() ;
+static UnityEngine::UIElements::MouseEnterWindowEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cda3fc size 0x54 virtual false final false
  void _ctor() ;

@@ -3,15 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivable_1;
 }
 namespace UnityEngine {
 class Material;
 }
-namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
+namespace UnityEngine {
+class GameObject;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeneratedOutputData;
@@ -149,8 +149,7 @@ static void BakeGameObjectComponents(UnityEngine::GameObject sourceGO, UnityEngi
 /// @brief Method IsEquivalentTo addr 0x1fe36bc size 0x1a8 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_GeneratedOutput other) ;
 
-// Ctor Parameters []
-explicit HEU_GeneratedOutput() ;
+static HoudiniEngineUnity::HEU_GeneratedOutput New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fda08c size 0xa8 virtual false final false
  void _ctor() ;

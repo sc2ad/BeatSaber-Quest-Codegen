@@ -62,8 +62,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::MgfParameters::__set_seed(
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Parameters::MgfParameters::__get_seed() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::MgfParameters::MgfParameters(::ArrayW<uint8_t> seed)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MgfParameters>(seed))) {}
+ Org::BouncyCastle::Crypto::Parameters::MgfParameters Org::BouncyCastle::Crypto::Parameters::MgfParameters::New_ctor(::ArrayW<uint8_t> seed)  {
+Org::BouncyCastle::Crypto::Parameters::MgfParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::MgfParameters>(seed))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::MgfParameters::_ctor(::ArrayW<uint8_t> seed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::MgfParameters>::get(),
@@ -73,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seed);
 }
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::MgfParameters::MgfParameters(::ArrayW<uint8_t> seed, int32_t off, int32_t len)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MgfParameters>(seed, off, len))) {}
+ Org::BouncyCastle::Crypto::Parameters::MgfParameters Org::BouncyCastle::Crypto::Parameters::MgfParameters::New_ctor(::ArrayW<uint8_t> seed, int32_t off, int32_t len)  {
+Org::BouncyCastle::Crypto::Parameters::MgfParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::MgfParameters>(seed, off, len))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::MgfParameters::_ctor(::ArrayW<uint8_t> seed, int32_t off, int32_t len)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::MgfParameters>::get(),

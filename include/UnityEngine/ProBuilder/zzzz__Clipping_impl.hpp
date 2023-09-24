@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Clipping_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Clipping_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::ProBuilder::UnityEngine__ProBuilder__Clipping__OutCode::UnityEngine__ProBuilder__Clipping__OutCode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }

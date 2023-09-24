@@ -2,14 +2,15 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__AdditionalCanvasShaderChannels_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/zzzz__RenderMode_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__AdditionalCanvasShaderChannels_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__Canvas__WillRenderCanvases._ctor
 template<>
 
@@ -44,8 +45,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__Canvas__WillRenderCanvases::UnityEngine__Canvas__WillRenderCanvases(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Canvas__WillRenderCanvases>(object, method))) {}
+ UnityEngine::UnityEngine__Canvas__WillRenderCanvases UnityEngine::UnityEngine__Canvas__WillRenderCanvases::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__Canvas__WillRenderCanvases o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__Canvas__WillRenderCanvases>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__Canvas__WillRenderCanvases::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__Canvas__WillRenderCanvases>::get(),
@@ -1263,8 +1266,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, displayIndex);
 }
-// Ctor Parameters []
- UnityEngine::Canvas::Canvas()  : UnityEngine::Behaviour(THROW_UNLESS(::il2cpp_utils::New<Canvas>())) {}
+ UnityEngine::Canvas UnityEngine::Canvas::New_ctor()  {
+UnityEngine::Canvas o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Canvas>())};
+return o;
+}
  void UnityEngine::Canvas::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Canvas>::get(),

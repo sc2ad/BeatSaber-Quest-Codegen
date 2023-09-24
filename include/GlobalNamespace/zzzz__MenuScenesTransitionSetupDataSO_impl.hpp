@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::MenuScenesTransitionSetupDataSO::MenuScenesTransitionSetupDataSO()  : GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO(THROW_UNLESS(::il2cpp_utils::New<MenuScenesTransitionSetupDataSO>())) {}
+ GlobalNamespace::MenuScenesTransitionSetupDataSO GlobalNamespace::MenuScenesTransitionSetupDataSO::New_ctor()  {
+GlobalNamespace::MenuScenesTransitionSetupDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MenuScenesTransitionSetupDataSO>())};
+return o;
+}
  void GlobalNamespace::MenuScenesTransitionSetupDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MenuScenesTransitionSetupDataSO>::get(),

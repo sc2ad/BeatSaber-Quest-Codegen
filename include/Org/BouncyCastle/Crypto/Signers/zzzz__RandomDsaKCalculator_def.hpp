@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Signers {
 class IDsaKCalculator;
@@ -93,8 +93,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 /// @brief Method NextK addr 0xec6d6c size 0xc4 virtual true final false
  Org::BouncyCastle::Math::BigInteger NextK() ;
 
-// Ctor Parameters []
-explicit RandomDsaKCalculator() ;
+static Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator New_ctor() ;
 
 /// @brief Method .ctor addr 0xec6e30 size 0x8 virtual false final false
  void _ctor() ;

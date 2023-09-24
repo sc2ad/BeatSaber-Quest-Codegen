@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
 namespace System::Globalization {
 class CompareInfo;
 }
 namespace System::Numerics {
 template<typename T>
 struct Vector_1;
-}
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System {

@@ -8,25 +8,25 @@ namespace System {
 class Type;
 }
 namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Reflection {
 struct MethodImplAttributes;
 }
 namespace System::Reflection {
 struct MethodAttributes;
 }
-namespace System::Reflection {
-struct CallingConventions;
-}
-namespace System::Reflection {
-class ParameterInfo;
-}
 namespace System::Runtime::InteropServices {
 class MarshalAsAttribute;
 }
 namespace System::Reflection {
-class MemberInfo;
+class RuntimeMethodInfo;
 }
 namespace System::Reflection {
-class RuntimeMethodInfo;
+struct CallingConventions;
+}
+namespace System::Reflection {
+class MemberInfo;
 }
 // Forward declare root types
 namespace System::Reflection {

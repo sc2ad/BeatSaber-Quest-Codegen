@@ -47,8 +47,7 @@ constexpr explicit LightGroupTranslationYTransform(void* ptr) noexcept : UnityEn
 
 // Methods
 
-// Ctor Parameters []
-explicit LightGroupTranslationYTransform() ;
+static GlobalNamespace::LightGroupTranslationYTransform New_ctor() ;
 
 /// @brief Method .ctor addr 0x225e80c size 0x8 virtual false final false
  void _ctor() ;

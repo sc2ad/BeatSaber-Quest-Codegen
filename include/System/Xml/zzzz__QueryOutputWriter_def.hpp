@@ -5,23 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml {
-struct XmlStandalone;
-}
-namespace System::Xml {
-class BitStack;
+class XmlRawWriter;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace System::Xml {
-class XmlQualifiedName;
-}
-namespace System::Xml {
-class XmlRawWriter;
-}
-namespace System::Xml {
 class IXmlNamespaceResolver;
+}
+namespace System::Xml {
+class BitStack;
+}
+namespace System::Xml {
+struct XmlStandalone;
+}
+namespace System::Xml {
+class XmlQualifiedName;
 }
 namespace System::Xml {
 class XmlWriterSettings;
@@ -154,8 +154,7 @@ constexpr int32_t __get_depth() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::Xml::XmlRawWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit QueryOutputWriter(System::Xml::XmlRawWriter writer, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::QueryOutputWriter New_ctor(System::Xml::XmlRawWriter writer, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26c1170 size 0x2d4 virtual false final false
  void _ctor(System::Xml::XmlRawWriter writer, System::Xml::XmlWriterSettings settings) ;

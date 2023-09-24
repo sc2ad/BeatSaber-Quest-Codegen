@@ -37,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::De
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "Zenject::SignalDeclarationBindInfo", modifiers: "", def_value: None }]
- Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder(Zenject::SignalDeclarationBindInfo signalBindInfo)  : Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder(THROW_UNLESS(::il2cpp_utils::New<DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder>(signalBindInfo))) {}
+ Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder::New_ctor(Zenject::SignalDeclarationBindInfo signalBindInfo)  {
+Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder>(signalBindInfo))};
+return o;
+}
  void Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder::_ctor(Zenject::SignalDeclarationBindInfo signalBindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder>::get(),

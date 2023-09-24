@@ -1,17 +1,18 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "HMUI/zzzz__ContainerViewController_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
 #include "HMUI/zzzz__Screen_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "HMUI/zzzz__ContainerViewController_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15._ctor
 template<>
 
@@ -186,8 +187,10 @@ constexpr void HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_
 constexpr float_t HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15::__get__elapsedTime_5__4() const {
 return ::cordl_internals::getInstanceField<float_t, 0x54>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ContainerViewController___AddViewControllerCoroutine_d__15>(__1__state))) {}
+ HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15 HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15>(__1__state))};
+return o;
+}
  void HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15>::get(),
@@ -422,8 +425,10 @@ constexpr void HMUI::HMUI__ContainerViewController___RemoveViewControllersCorout
 constexpr float_t HMUI::HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17::__get__elapsedTime_5__5() const {
 return ::cordl_internals::getInstanceField<float_t, 0x5c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17::HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17>(__1__state))) {}
+ HMUI::HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17 HMUI::HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17>(__1__state))};
+return o;
+}
  void HMUI::HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17>::get(),
@@ -898,8 +903,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<float_t>, false>(const_cast<void*>(instance), ___internal_method, viewControllers, exludeFromEndCount);
 }
-// Ctor Parameters []
- HMUI::ContainerViewController::ContainerViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<ContainerViewController>())) {}
+ HMUI::ContainerViewController HMUI::ContainerViewController::New_ctor()  {
+HMUI::ContainerViewController o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ContainerViewController>())};
+return o;
+}
  void HMUI::ContainerViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ContainerViewController>::get(),

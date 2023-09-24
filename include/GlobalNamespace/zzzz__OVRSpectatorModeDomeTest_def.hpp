@@ -4,9 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -14,8 +11,11 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Media__PlatformCameraMode;
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -23,11 +23,14 @@ struct Vector3;
 namespace UnityEngine {
 class Camera;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Fovf;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Media__PlatformCameraMode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,8 +118,7 @@ constexpr GlobalNamespace::OVRSpectatorModeDomeTest __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRSpectatorModeDomeTest___TimerCoroutine_d__20 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x263587c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -292,8 +294,7 @@ static constexpr float_t  elevationLimit{30};
 /// @brief Method OnApplicationQuit addr 0x2635a04 size 0x20 virtual false final false
  void OnApplicationQuit() ;
 
-// Ctor Parameters []
-explicit OVRSpectatorModeDomeTest() ;
+static GlobalNamespace::OVRSpectatorModeDomeTest New_ctor() ;
 
 /// @brief Method .ctor addr 0x2635a24 size 0x24 virtual false final false
  void _ctor() ;

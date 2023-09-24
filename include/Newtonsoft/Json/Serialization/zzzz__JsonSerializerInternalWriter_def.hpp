@@ -6,76 +6,76 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonArrayContract;
-}
-namespace Newtonsoft::Json {
-struct DefaultValueHandling;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonPrimitiveContract;
-}
-namespace Newtonsoft::Json {
-struct PreserveReferencesHandling;
-}
-namespace Newtonsoft::Json {
-struct TypeNameHandling;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonObjectContract;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonISerializableContract;
-}
 namespace System::Collections {
-class IDictionary;
+class IEnumerable;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonSerializerProxy;
+class JsonProperty;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonDictionaryContract;
 }
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
+}
 namespace System::Collections {
-class IEnumerable;
+class IDictionary;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonObjectContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
+namespace System {
+class Type;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace Newtonsoft::Json::Serialization {
 class JsonStringContract;
+}
+namespace Newtonsoft::Json {
+struct PreserveReferencesHandling;
 }
 namespace System {
 class Array;
 }
 namespace Newtonsoft::Json::Serialization {
+class JsonArrayContract;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace Newtonsoft::Json::Serialization {
 class JsonContainerContract;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonProperty;
+class JsonISerializableContract;
 }
-namespace System::Collections::Generic {
+namespace Newtonsoft::Json {
+struct DefaultValueHandling;
+}
+namespace System {
 template<typename T>
-class List_1;
+struct Nullable_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerProxy;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonPrimitiveContract;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -144,8 +144,7 @@ constexpr System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __g
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "serializer", ty: "Newtonsoft::Json::JsonSerializer", modifiers: "", def_value: None }]
-explicit JsonSerializerInternalWriter(Newtonsoft::Json::JsonSerializer serializer) ;
+static Newtonsoft::Json::Serialization::JsonSerializerInternalWriter New_ctor(Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method .ctor addr 0x250f984 size 0x8c virtual false final false
  void _ctor(Newtonsoft::Json::JsonSerializer serializer) ;

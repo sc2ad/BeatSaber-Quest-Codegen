@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (Un
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::AnyKeyControl::AnyKeyControl()  : UnityEngine::InputSystem::Controls::ButtonControl(THROW_UNLESS(::il2cpp_utils::New<AnyKeyControl>())) {}
+ UnityEngine::InputSystem::Controls::AnyKeyControl UnityEngine::InputSystem::Controls::AnyKeyControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::AnyKeyControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::AnyKeyControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::AnyKeyControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::AnyKeyControl>::get(),

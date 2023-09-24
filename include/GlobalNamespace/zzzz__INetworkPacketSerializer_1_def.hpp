@@ -1,10 +1,10 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;

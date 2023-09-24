@@ -258,8 +258,10 @@ constexpr void Newtonsoft::Json::Serialization::ErrorContext::__set__Handled_k__
 constexpr bool Newtonsoft::Json::Serialization::ErrorContext::__get__Handled_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "originalObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "member", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "error", ty: "System::Exception", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::ErrorContext::ErrorContext(::bs_hook::Il2CppWrapperType originalObject, ::bs_hook::Il2CppWrapperType member, ::StringW path, System::Exception error)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ErrorContext>(originalObject, member, path, error))) {}
+ Newtonsoft::Json::Serialization::ErrorContext Newtonsoft::Json::Serialization::ErrorContext::New_ctor(::bs_hook::Il2CppWrapperType originalObject, ::bs_hook::Il2CppWrapperType member, ::StringW path, System::Exception error)  {
+Newtonsoft::Json::Serialization::ErrorContext o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::ErrorContext>(originalObject, member, path, error))};
+return o;
+}
  void Newtonsoft::Json::Serialization::ErrorContext::_ctor(::bs_hook::Il2CppWrapperType originalObject, ::bs_hook::Il2CppWrapperType member, ::StringW path, System::Exception error)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::ErrorContext>::get(),

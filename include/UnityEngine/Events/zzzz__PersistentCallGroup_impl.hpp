@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__PersistentCallGroup_def.hpp"
 #include "UnityEngine/Events/zzzz__InvokableCallList_def.hpp"
-#include "UnityEngine/Events/zzzz__PersistentCall_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEventBase_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Events/zzzz__PersistentCall_def.hpp"
 //  Writing Method size for method: UnityEngine::Events::PersistentCallGroup._ctor
 template<>
 
@@ -61,8 +61,10 @@ constexpr void UnityEngine::Events::PersistentCallGroup::__set_m_Calls(System::C
 constexpr System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall> UnityEngine::Events::PersistentCallGroup::__get_m_Calls() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Events::PersistentCallGroup::PersistentCallGroup()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PersistentCallGroup>())) {}
+ UnityEngine::Events::PersistentCallGroup UnityEngine::Events::PersistentCallGroup::New_ctor()  {
+UnityEngine::Events::PersistentCallGroup o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Events::PersistentCallGroup>())};
+return o;
+}
  void UnityEngine::Events::PersistentCallGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::PersistentCallGroup>::get(),

@@ -61,8 +61,7 @@ constexpr System::ComponentModel::EditorBrowsableState __get_browsableState() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "state", ty: "System::ComponentModel::EditorBrowsableState", modifiers: "", def_value: None }]
-explicit EditorBrowsableAttribute(System::ComponentModel::EditorBrowsableState state) ;
+static System::ComponentModel::EditorBrowsableAttribute New_ctor(System::ComponentModel::EditorBrowsableState state) ;
 
 /// @brief Method .ctor addr 0x2770fa4 size 0x28 virtual false final false
  void _ctor(System::ComponentModel::EditorBrowsableState state) ;

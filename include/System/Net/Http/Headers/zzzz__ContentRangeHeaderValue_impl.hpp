@@ -251,8 +251,10 @@ constexpr void System::Net::Http::Headers::ContentRangeHeaderValue::__set__To_k_
 constexpr System::Nullable_1<int64_t> System::Net::Http::Headers::ContentRangeHeaderValue::__get__To_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Nullable_1<int64_t>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::ContentRangeHeaderValue::ContentRangeHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ContentRangeHeaderValue>())) {}
+ System::Net::Http::Headers::ContentRangeHeaderValue System::Net::Http::Headers::ContentRangeHeaderValue::New_ctor()  {
+System::Net::Http::Headers::ContentRangeHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::ContentRangeHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::ContentRangeHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::ContentRangeHeaderValue>::get(),

@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::Networking::UnityWebRequestAsyncOperation::UnityWebRequestAsyncOperation()  : UnityEngine::AsyncOperation(THROW_UNLESS(::il2cpp_utils::New<UnityWebRequestAsyncOperation>())) {}
+ UnityEngine::Networking::UnityWebRequestAsyncOperation UnityEngine::Networking::UnityWebRequestAsyncOperation::New_ctor()  {
+UnityEngine::Networking::UnityWebRequestAsyncOperation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::UnityWebRequestAsyncOperation>())};
+return o;
+}
  void UnityEngine::Networking::UnityWebRequestAsyncOperation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::UnityWebRequestAsyncOperation>::get(),

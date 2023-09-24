@@ -3,39 +3,39 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Zenject {
-struct ScopeTypes;
+struct InvalidBindResponses;
 }
 namespace Zenject {
 struct BindingInheritanceMethods;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class BindingCondition;
 }
 namespace Zenject {
-struct ToChoices;
+struct TypeValuePair;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace Zenject {
-struct InvalidBindResponses;
-}
-namespace System {
-class Type;
+class InjectContext;
 }
 namespace Zenject {
-struct TypeValuePair;
+struct ScopeTypes;
+}
+namespace Zenject {
+struct ToChoices;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace Zenject {
-class InjectContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -197,8 +197,7 @@ constexpr System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> 
 
 // Methods
 
-// Ctor Parameters []
-explicit BindInfo() ;
+static Zenject::BindInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d65480 size 0xec virtual false final false
  void _ctor() ;

@@ -3,6 +3,38 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
+template<typename TValue>
+class IFactory_1;
+}
+namespace Zenject {
+template<typename TContract>
+class Zenject__FactoryFromBinder0Extensions____c__1_1;
+}
+namespace Zenject {
+template<typename TContract>
+class Zenject__FactoryFromBinder0Extensions____c__3_1;
+}
+namespace Zenject {
+template<typename TContract>
+class Zenject__FactoryFromBinder0Extensions____c__DisplayClass6_0_1;
+}
+namespace Zenject {
+template<typename TContract,typename TMemoryPool>
+class Zenject__FactoryFromBinder0Extensions____c__DisplayClass0_0_2;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace Zenject {
+template<typename TContract,typename TMemoryPool>
+class Zenject__FactoryFromBinder0Extensions____c__5_2;
+}
+namespace Zenject {
+template<typename TContract>
+class FactoryFromBinder_1;
+}
+namespace Zenject {
 class ArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
@@ -11,31 +43,19 @@ class MemoryPoolInitialSizeMaxSizeBinder_1;
 }
 namespace Zenject {
 template<typename TContract>
-class FactoryFromBinder_1;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace Zenject {
-template<typename TContract>
 class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
-template<typename TValue>
-class IFactory_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class DiContainer;
+class IProvider;
 }
 namespace System {
 struct Guid;
 }
 namespace Zenject {
-class IProvider;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -228,8 +248,7 @@ constexpr System::Guid __get_poolId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder0Extensions____c__DisplayClass0_0_2() ;
+static Zenject::Zenject__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract,TMemoryPool> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -306,8 +325,7 @@ static System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder0Extensions____c__1_1() ;
+static Zenject::Zenject__FactoryFromBinder0Extensions____c__1_1<TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -384,8 +402,7 @@ static System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder0Extensions____c__3_1() ;
+static Zenject::Zenject__FactoryFromBinder0Extensions____c__3_1<TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -462,8 +479,7 @@ static System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder0Extensions____c__5_2() ;
+static Zenject::Zenject__FactoryFromBinder0Extensions____c__5_2<TContract,TMemoryPool> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -534,8 +550,7 @@ constexpr System::Guid __get_factoryId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder0Extensions____c__DisplayClass6_0_1() ;
+static Zenject::Zenject__FactoryFromBinder0Extensions____c__DisplayClass6_0_1<TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

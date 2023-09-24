@@ -1,20 +1,20 @@
 #pragma once
 #include "Org/BouncyCastle/Pkix/zzzz__Rfc3280CertPathUtilities_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Crl_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__ReasonsMask_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixCrlUtilities_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixPolicyNode_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixNameConstraintValidator_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__CertStatus_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixPolicyNode_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixNameConstraintValidator_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Crl_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DistributionPoint_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__ReasonsMask_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixCrlUtilities_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::Rfc3280CertPathUtilities.ProcessCrlB2
 template<>
 
@@ -998,8 +998,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Pkix::PkixPolicyNode, false>(nullptr, ___internal_method, certPath, index, validPolicyTree);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::Rfc3280CertPathUtilities::Rfc3280CertPathUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Rfc3280CertPathUtilities>())) {}
+ Org::BouncyCastle::Pkix::Rfc3280CertPathUtilities Org::BouncyCastle::Pkix::Rfc3280CertPathUtilities::New_ctor()  {
+Org::BouncyCastle::Pkix::Rfc3280CertPathUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::Rfc3280CertPathUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::Rfc3280CertPathUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::Rfc3280CertPathUtilities>::get(),

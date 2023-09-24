@@ -9,6 +9,9 @@ namespace System {
 template<typename T>
 class Action_1;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapObjectSpawnCenter;
@@ -86,8 +89,7 @@ constexpr float_t __get__distance() const;
 /// @brief Method get_distance addr 0x2235bf4 size 0x8 virtual false final false
  float_t get_distance() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance() ;
+static GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnCenter__PlayerCountToDistance New_ctor() ;
 
 /// @brief Method .ctor addr 0x2235bfc size 0x8 virtual false final false
  void _ctor() ;
@@ -198,8 +200,7 @@ constexpr float_t __get__spawnCenterDistance() const;
 /// @brief Method ReportAndSaveSpawnCenterDistance addr 0x2235bb4 size 0x28 virtual false final false
  void ReportAndSaveSpawnCenterDistance(float_t distance) ;
 
-// Ctor Parameters []
-explicit BeatmapObjectSpawnCenter() ;
+static GlobalNamespace::BeatmapObjectSpawnCenter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2235bdc size 0x10 virtual false final false
  void _ctor() ;

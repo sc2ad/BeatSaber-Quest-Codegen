@@ -2,27 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace Zenject {
-class IProvider;
-}
 namespace System {
-class Type;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-class DiContainer;
+class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
 struct TypeValuePair;
 }
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class DiContainer;
+}
 namespace System {
-class Action;
+class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -101,8 +101,7 @@ constexpr Zenject::DiContainer __get__container() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "instanceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "instance", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit InstanceProvider(System::Type instanceType, ::bs_hook::Il2CppWrapperType instance, Zenject::DiContainer container) ;
+static Zenject::InstanceProvider New_ctor(System::Type instanceType, ::bs_hook::Il2CppWrapperType instance, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x2d8e44c size 0x3c virtual false final false
  void _ctor(System::Type instanceType, ::bs_hook::Il2CppWrapperType instance, Zenject::DiContainer container) ;

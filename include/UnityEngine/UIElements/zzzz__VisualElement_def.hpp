@@ -13,12 +13,15 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class UxmlChildElementDescription;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace UnityEngine::UIElements {
+class UxmlChildElementDescription;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -30,33 +33,24 @@ class IEnumerator;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
 namespace UnityEngine::UIElements {
 class IVisualElementPanelActivatable;
 }
 namespace UnityEngine::UIElements {
 class VisualElementPanelActivator;
 }
-namespace UnityEngine {
-class Sprite;
-}
 namespace UnityEngine::UIElements {
-class VectorImage;
+class IVisualElementScheduledItem;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyValue;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyValue;
-}
-namespace UnityEngine::UIElements {
-struct StyleValueType;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 class Texture2D;
@@ -64,18 +58,24 @@ class Texture2D;
 namespace UnityEngine::UIElements {
 class ICustomStyle;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UIElements {
+class VectorImage;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 struct CustomStyleProperty_1;
 }
+namespace UnityEngine {
+class Sprite;
+}
 namespace UnityEngine::UIElements {
-struct TimerState;
+struct StyleValueType;
 }
 namespace System {
 class Action;
+}
+namespace UnityEngine::UIElements {
+struct TimerState;
 }
 namespace System {
 template<typename T>
@@ -85,20 +85,17 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
+class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
-struct PickingMode;
+class UxmlIntAttributeDescription;
 }
-namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+namespace GlobalNamespace {
+class UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -109,160 +106,138 @@ class IUxmlAttributes;
 namespace UnityEngine::UIElements {
 struct UsageHints;
 }
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+struct PickingMode;
+}
 namespace UnityEngine::UIElements::Experimental {
 struct StyleValues;
 }
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine::Yoga {
-class YogaNode;
-}
 namespace UnityEngine::UIElements {
-struct PseudoStates;
-}
-namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements {
-class IExperimentalFeatures;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::UIElements::UIR {
-struct RenderChainVEData;
-}
-namespace UnityEngine::UIElements {
-class IVisualElementScheduler;
-}
-namespace UnityEngine::UIElements {
-class TooltipEvent;
-}
-namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace UnityEngine {
-struct Quaternion;
+class IStylePropertyAnimationSystem;
 }
 namespace UnityEngine::UIElements {
 struct Visibility;
 }
 namespace UnityEngine::UIElements {
-class IResolvedStyle;
-}
-namespace UnityEngine::UIElements {
-class InlineStyleAccess;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-struct RenderHints;
-}
-namespace UnityEngine::Yoga {
-struct YogaMeasureMode;
-}
-namespace UnityEngine::UIElements {
-struct WhiteSpace;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace UnityEngine::UIElements {
-class MeshGenerationContext;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements::Experimental {
-class ITransitionAnimations;
-}
-namespace UnityEngine::UIElements {
-struct VisualElementFlags;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
-}
-namespace UnityEngine::UIElements {
-struct Rotate;
-}
-namespace UnityEngine::UIElements::Experimental {
-template<typename T>
-class ValueAnimation_1;
-}
-namespace UnityEngine::Yoga {
-struct YogaSize;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::UIElements {
-class IStyle;
-}
-namespace UnityEngine::UIElements {
-struct ComputedStyle;
-}
-namespace UnityEngine::UIElements {
-class ITransform;
-}
-namespace UnityEngine::UIElements {
 struct VisualElementStyleSheetSet;
 }
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
+struct PseudoStates;
 }
 namespace UnityEngine::UIElements {
-class StyleVariableContext;
+class StyleRule;
 }
 namespace UnityEngine::UIElements {
-class IStylePropertyAnimations;
+class UnityEngine__UIElements__VisualElement____c__DisplayClass435_0;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
 }
 namespace UnityEngine {
-struct Vector2;
+struct PropertyName;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine::UIElements {
+class IStylePropertyAnimations;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualElement__MeasureMode;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualElement__RenderTargetMode;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualElement__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualElement__CustomStyleAccess;
+}
+namespace UnityEngine::UIElements {
+class IStyle;
+}
+namespace UnityEngine::UIElements {
+class ITransform;
+}
+namespace UnityEngine::UIElements {
+struct Background;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualElement__TypeData;
+}
+namespace UnityEngine::UIElements {
+struct Translate;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
+struct TransformOrigin;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualElement__Hierarchy;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualElement__SimpleScheduledItem;
+}
+namespace UnityEngine::Yoga {
+struct YogaMeasureMode;
+}
+namespace UnityEngine::UIElements {
+class FocusController;
+}
+namespace UnityEngine::UIElements {
+struct VisualElementFlags;
+}
+namespace UnityEngine::UIElements {
+struct ComputedStyle;
+}
+namespace UnityEngine::UIElements {
+struct Rotate;
 }
 namespace UnityEngine::UIElements {
 class VisualTreeAsset;
+}
+namespace UnityEngine::UIElements {
+struct DispatchMode;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+struct HierarchyChangeType;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualElement__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualElement__TimerStateScheduledItem;
 }
 namespace UnityEngine::UIElements {
 struct StyleFloat;
@@ -270,38 +245,103 @@ struct StyleFloat;
 namespace UnityEngine::UIElements {
 struct DisplayStyle;
 }
-namespace UnityEngine::UIElements::Experimental {
-class IValueAnimationUpdate;
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine::UIElements {
-class IStylePropertyAnimationSystem;
-}
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
+class MeshGenerationContext;
 }
 namespace UnityEngine::UIElements {
 struct Scale;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+struct TextShadow;
 }
 namespace UnityEngine::UIElements {
-struct DispatchMode;
+class IExperimentalFeatures;
 }
 namespace UnityEngine::UIElements {
-struct HierarchyChangeType;
+struct FontDefinition;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace UnityEngine::UIElements {
+struct WhiteSpace;
+}
+namespace UnityEngine::Yoga {
+class YogaNode;
+}
+namespace UnityEngine::UIElements {
+struct RenderHints;
+}
+namespace UnityEngine::UIElements {
+class InlineStyleAccess;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduler;
+}
+namespace UnityEngine::UIElements {
+template<typename ActionType>
+class UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements::Experimental {
+class IValueAnimationUpdate;
+}
+namespace UnityEngine::UIElements {
+class TooltipEvent;
+}
+namespace UnityEngine::UIElements::Experimental {
+class ITransitionAnimations;
+}
+namespace UnityEngine::UIElements {
+class StyleVariableContext;
+}
+namespace UnityEngine::UIElements {
+class IResolvedStyle;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::UIElements::UIR {
+struct RenderChainVEData;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 namespace UnityEngine {
-struct PropertyName;
+struct Vector3;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine::Yoga {
+struct YogaSize;
 }
 namespace UnityEngine::UIElements {
 class VisualElementAnimationSystem;
 }
-namespace UnityEngine::UIElements {
-class StyleRule;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
+namespace UnityEngine::UIElements::Experimental {
+template<typename T>
+class ValueAnimation_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -431,8 +471,7 @@ constexpr UnityEngine::UIElements::VisualElementPanelActivator __get_m_Activator
 /// @brief Method set_element addr 0x2c37438 size 0x8 virtual false final false
  void set_element(UnityEngine::UIElements::VisualElement value) ;
 
-// Ctor Parameters [CppParam { name: "handler", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem(UnityEngine::UIElements::VisualElement handler) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem New_ctor(UnityEngine::UIElements::VisualElement handler) ;
 
 /// @brief Method .ctor addr 0x2c37440 size 0xa8 virtual false final false
  void _ctor(UnityEngine::UIElements::VisualElement handler) ;
@@ -469,10 +508,72 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
 // Type: ::VisualElementScheduledItem`1
+// Type: ::VisualElementScheduledItem`1
+namespace UnityEngine::UIElements {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type ActionType>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6816)), TypeDefinitionIndex(TypeDefinitionIndex(6815))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6816), inst: 2 })
+// CS Name: UnityEngine.UIElements.VisualElement::VisualElementScheduledItem`1
+class CORDL_TYPE UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType> : public UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
+
+virtual ~UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1(UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1(UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1(void* ptr) noexcept : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem(ptr) {
+}
+
+
+  constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1& operator=(UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1& operator=(UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ ActionType __declspec(property(get=__get_updateEvent, put=__set_updateEvent))  updateEvent;
+
+constexpr void __set_updateEvent(ActionType value) ;
+
+constexpr ActionType __get_updateEvent() const;
+
+
+// Methods
+
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType> New_ctor(UnityEngine::UIElements::VisualElement handler, ActionType upEvent) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(UnityEngine::UIElements::VisualElement handler, ActionType upEvent) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::UIElements
 // Type: ::TimerStateScheduledItem
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6816)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6816), inst: 5175 }), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(7026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 386 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 386 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6816), inst: 5175 }), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6816)), TypeDefinitionIndex(TypeDefinitionIndex(7026))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6817))
 // CS Name: UnityEngine.UIElements.VisualElement::TimerStateScheduledItem
 class CORDL_TYPE UnityEngine__UIElements__VisualElement__TimerStateScheduledItem : public UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<System::Action_1<UnityEngine::UIElements::TimerState>> {
@@ -511,8 +612,7 @@ constexpr explicit UnityEngine__UIElements__VisualElement__TimerStateScheduledIt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "handler", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }, CppParam { name: "updateEvent", ty: "System::Action_1<UnityEngine::UIElements::TimerState>", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__VisualElement__TimerStateScheduledItem(UnityEngine::UIElements::VisualElement handler, System::Action_1<UnityEngine::UIElements::TimerState> updateEvent) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TimerStateScheduledItem New_ctor(UnityEngine::UIElements::VisualElement handler, System::Action_1<UnityEngine::UIElements::TimerState> updateEvent) ;
 
 /// @brief Method .ctor addr 0x2c28848 size 0x60 virtual false final false
  void _ctor(UnityEngine::UIElements::VisualElement handler, System::Action_1<UnityEngine::UIElements::TimerState> updateEvent) ;
@@ -527,7 +627,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::SimpleScheduledItem
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6816)), TypeDefinitionIndex(TypeDefinitionIndex(2322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6816), inst: 973 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6816), inst: 973 }), TypeDefinitionIndex(TypeDefinitionIndex(6816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6818))
 // CS Name: UnityEngine.UIElements.VisualElement::SimpleScheduledItem
 class CORDL_TYPE UnityEngine__UIElements__VisualElement__SimpleScheduledItem : public UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<System::Action> {
@@ -566,8 +666,7 @@ constexpr explicit UnityEngine__UIElements__VisualElement__SimpleScheduledItem(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "handler", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }, CppParam { name: "updateEvent", ty: "System::Action", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__VisualElement__SimpleScheduledItem(UnityEngine::UIElements::VisualElement handler, System::Action updateEvent) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__SimpleScheduledItem New_ctor(UnityEngine::UIElements::VisualElement handler, System::Action updateEvent) ;
 
 /// @brief Method .ctor addr 0x2c28970 size 0x60 virtual false final false
  void _ctor(UnityEngine::UIElements::VisualElement handler, System::Action updateEvent) ;
@@ -713,8 +812,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Style(
 /// @brief Method Init addr 0x2c37cfc size 0x288 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__VisualElement__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c37f84 size 0x4d0 virtual false final false
  void _ctor() ;
@@ -1781,8 +1879,7 @@ static UnityEngine::Rect ComputeAAAlignedBound(UnityEngine::Rect position, Unity
 /// @brief Method ChangeIMGUIContainerCount addr 0x2c2ee54 size 0x30 virtual false final false
  void ChangeIMGUIContainerCount(int32_t delta) ;
 
-// Ctor Parameters []
-explicit VisualElement() ;
+static UnityEngine::UIElements::VisualElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c2ee84 size 0x28c virtual false final false
  void _ctor() ;
@@ -2272,7 +2369,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5117 }), TypeDefinitionIndex(TypeDefinitionIndex(6828)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(6821))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5117 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(6821)), TypeDefinitionIndex(TypeDefinitionIndex(6828))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6819))
 // CS Name: UnityEngine.UIElements.VisualElement::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__VisualElement__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits> {
@@ -2311,8 +2408,7 @@ constexpr explicit UnityEngine__UIElements__VisualElement__UxmlFactory(void* ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__VisualElement__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c37bfc size 0x48 virtual false final false
  void _ctor() ;
@@ -2412,8 +2508,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlT
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2c37cb8 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -2494,6 +2589,8 @@ constexpr operator __UnityEngine__UIElements__VisualElement__MeasureMode_Unwrapp
 return std::bit_cast<__UnityEngine__UIElements__VisualElement__MeasureMode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -2567,6 +2664,8 @@ __GammaToLinear = 3,
 constexpr operator __UnityEngine__UIElements__VisualElement__RenderTargetMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__VisualElement__RenderTargetMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -2668,8 +2767,7 @@ constexpr ::StringW __get_m_TypeName() const;
 /// @brief Method get_type addr 0x2c38630 size 0x8 virtual false final false
  System::Type get_type() ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__VisualElement__TypeData(System::Type type) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TypeData New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2c32628 size 0x6c virtual false final false
  void _ctor(System::Type type) ;
@@ -2911,8 +3009,7 @@ constexpr float_t __get_m_DpiScaling() const;
 /// @brief Method LogCustomPropertyWarning addr 0x2c38e20 size 0x104 virtual false final false
 static void LogCustomPropertyWarning(::StringW propertyName, UnityEngine::UIElements::StyleValueType valueType, UnityEngine::UIElements::StyleSheets::StylePropertyValue customProp) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__VisualElement__CustomStyleAccess() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__CustomStyleAccess New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c37424 size 0x8 virtual false final false
  void _ctor() ;
@@ -2978,77 +3075,13 @@ constexpr UnityEngine::UIElements::Experimental::StyleValues __get_to() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__VisualElement____c__DisplayClass435_0() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualElement____c__DisplayClass435_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c36c78 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <UnityEngine.UIElements.Experimental.ITransitionAnimations.Start>b__0 addr 0x2c392e8 size 0x1c virtual false final false
  UnityEngine::UIElements::Experimental::StyleValues _UnityEngine_UIElements_Experimental_ITransitionAnimations_Start_b__0(UnityEngine::UIElements::VisualElement e) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def UnityEngine::UIElements
-// Type: ::VisualElementScheduledItem`1
-namespace UnityEngine::UIElements {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type ActionType>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6815)), TypeDefinitionIndex(TypeDefinitionIndex(6816))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6816), inst: 2 })
-// CS Name: UnityEngine.UIElements.VisualElement::VisualElementScheduledItem`1
-class CORDL_TYPE UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType> : public UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
-
-virtual ~UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1", modifiers: " const&", def_value: None }]
-constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1(UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1", modifiers: "&&", def_value: None }]
-constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1(UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1(void* ptr) noexcept : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem(ptr) {
-}
-
-
-  constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1& operator=(UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1&& o) noexcept = default;
-  constexpr UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1& operator=(UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- ActionType __declspec(property(get=__get_updateEvent, put=__set_updateEvent))  updateEvent;
-
-constexpr void __set_updateEvent(ActionType value) ;
-
-constexpr ActionType __get_updateEvent() const;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "handler", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }, CppParam { name: "upEvent", ty: "ActionType", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1(UnityEngine::UIElements::VisualElement handler, ActionType upEvent) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(UnityEngine::UIElements::VisualElement handler, ActionType upEvent) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

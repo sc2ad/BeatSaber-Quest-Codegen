@@ -91,6 +91,8 @@ constexpr operator __TextAlignmentOptions_Unwrapped () const noexcept {
 return std::bit_cast<__TextAlignmentOptions_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

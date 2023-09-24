@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssembly_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::BinaryAssembly._ctor
 template<>
 
@@ -99,8 +99,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryAssembl
 constexpr ::StringW System::Runtime::Serialization::Formatters::Binary::BinaryAssembly::__get_assemblyString() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::BinaryAssembly::BinaryAssembly()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryAssembly>())) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryAssembly System::Runtime::Serialization::Formatters::Binary::BinaryAssembly::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::BinaryAssembly o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryAssembly>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryAssembly::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryAssembly>::get(),

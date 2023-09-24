@@ -138,8 +138,10 @@ constexpr void UnityEngine::Yoga::YogaConfig::__set__logger(UnityEngine::Yoga::L
 constexpr UnityEngine::Yoga::Logger UnityEngine::Yoga::YogaConfig::__get__logger() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Yoga::Logger, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ygConfig", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Yoga::YogaConfig::YogaConfig(::cordl_internals::intptr_t ygConfig)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<YogaConfig>(ygConfig))) {}
+ UnityEngine::Yoga::YogaConfig UnityEngine::Yoga::YogaConfig::New_ctor(::cordl_internals::intptr_t ygConfig)  {
+UnityEngine::Yoga::YogaConfig o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Yoga::YogaConfig>(ygConfig))};
+return o;
+}
  void UnityEngine::Yoga::YogaConfig::_ctor(::cordl_internals::intptr_t ygConfig)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Yoga::YogaConfig>::get(),
@@ -149,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ygConfig);
 }
-// Ctor Parameters []
- UnityEngine::Yoga::YogaConfig::YogaConfig()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<YogaConfig>())) {}
+ UnityEngine::Yoga::YogaConfig UnityEngine::Yoga::YogaConfig::New_ctor()  {
+UnityEngine::Yoga::YogaConfig o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Yoga::YogaConfig>())};
+return o;
+}
  void UnityEngine::Yoga::YogaConfig::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Yoga::YogaConfig>::get(),

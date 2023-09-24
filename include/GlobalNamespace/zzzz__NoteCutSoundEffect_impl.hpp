@@ -2,16 +2,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__INoteCutSoundEffectDidFinishEvent_def.hpp"
-#include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
+#include "GlobalNamespace/zzzz__INoteCutSoundEffectDidFinishEvent_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteCutSoundEffect.get_didFinishEvent
 template<>
 
@@ -465,8 +466,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteController, noteCutInfo);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteCutSoundEffect::NoteCutSoundEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteCutSoundEffect>())) {}
+ GlobalNamespace::NoteCutSoundEffect GlobalNamespace::NoteCutSoundEffect::New_ctor()  {
+GlobalNamespace::NoteCutSoundEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteCutSoundEffect>())};
+return o;
+}
  void GlobalNamespace::NoteCutSoundEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteCutSoundEffect>::get(),
@@ -493,8 +496,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool::GlobalNamespace__NoteCutSoundEffect__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::NoteCutSoundEffect>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__NoteCutSoundEffect__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool>::get(),

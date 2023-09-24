@@ -3,11 +3,11 @@
 #include "Mono/Security/Cryptography/zzzz__RC4_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography {
 class ICryptoTransform;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {
@@ -105,8 +105,7 @@ constexpr bool __get_m_disposed() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ARC4Managed() ;
+static Mono::Security::Cryptography::ARC4Managed New_ctor() ;
 
 /// @brief Method .ctor addr 0x2295c88 size 0x80 virtual false final false
  void _ctor() ;

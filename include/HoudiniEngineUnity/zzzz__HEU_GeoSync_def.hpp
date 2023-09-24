@@ -63,8 +63,7 @@ constexpr ::StringW __get__filePath() const;
 /// @brief Method SetupLoadTask addr 0x20386e4 size 0x98 virtual true final false
  void SetupLoadTask(HoudiniEngineUnity::HEU_SessionBase session) ;
 
-// Ctor Parameters []
-explicit HEU_GeoSync() ;
+static HoudiniEngineUnity::HEU_GeoSync New_ctor() ;
 
 /// @brief Method .ctor addr 0x2038790 size 0x4c virtual false final false
  void _ctor() ;

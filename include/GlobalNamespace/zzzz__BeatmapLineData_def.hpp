@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class BeatmapObjectData;
+class IReadonlyBeatmapLineData;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -14,7 +14,7 @@ template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapLineData;
+class BeatmapObjectData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,14 +82,12 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectDat
 /// @brief Method get_beatmapObjectsData addr 0xd93a34 size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData> get_beatmapObjectsData() ;
 
-// Ctor Parameters [CppParam { name: "initialCapacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BeatmapLineData(int32_t initialCapacity) ;
+static GlobalNamespace::BeatmapLineData New_ctor(int32_t initialCapacity) ;
 
 /// @brief Method .ctor addr 0xd93a3c size 0x90 virtual false final false
  void _ctor(int32_t initialCapacity) ;
 
-// Ctor Parameters [CppParam { name: "beatmapObjectData", ty: "System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData>", modifiers: "", def_value: None }]
-explicit BeatmapLineData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData> beatmapObjectData) ;
+static GlobalNamespace::BeatmapLineData New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData> beatmapObjectData) ;
 
 /// @brief Method .ctor addr 0xd93acc size 0x28 virtual false final false
  void _ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData> beatmapObjectData) ;

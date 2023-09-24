@@ -2,9 +2,10 @@
 #include "System/Collections/Specialized/zzzz__ListDictionary_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Specialized/zzzz__ListDictionary_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
@@ -159,8 +160,10 @@ constexpr void System::Collections::Specialized::System__Collections__Specialize
 constexpr bool System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeEnumerator::__get__start() const {
 return ::cordl_internals::getInstanceField<bool, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::Specialized::ListDictionary", modifiers: "", def_value: None }]
- System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeEnumerator::System__Collections__Specialized__ListDictionary__NodeEnumerator(System::Collections::Specialized::ListDictionary list)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__Specialized__ListDictionary__NodeEnumerator>(list))) {}
+ System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeEnumerator System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeEnumerator::New_ctor(System::Collections::Specialized::ListDictionary list)  {
+System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeEnumerator>(list))};
+return o;
+}
  void System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeEnumerator::_ctor(System::Collections::Specialized::ListDictionary list)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeEnumerator>::get(),
@@ -326,8 +329,10 @@ constexpr void GlobalNamespace::System__Collections__Specialized__ListDictionary
 constexpr bool GlobalNamespace::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::__get__start() const {
 return ::cordl_internals::getInstanceField<bool, 0x25>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::Specialized::ListDictionary", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator(System::Collections::Specialized::ListDictionary list, bool isKeys)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator>(list, isKeys))) {}
+ GlobalNamespace::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator GlobalNamespace::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::New_ctor(System::Collections::Specialized::ListDictionary list, bool isKeys)  {
+GlobalNamespace::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator>(list, isKeys))};
+return o;
+}
  void GlobalNamespace::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator::_ctor(System::Collections::Specialized::ListDictionary list, bool isKeys)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator>::get(),
@@ -486,8 +491,10 @@ constexpr void System::Collections::Specialized::System__Collections__Specialize
 constexpr bool System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection::__get__isKeys() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::Specialized::ListDictionary", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
- System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection(System::Collections::Specialized::ListDictionary list, bool isKeys)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__Specialized__ListDictionary__NodeKeyValueCollection>(list, isKeys))) {}
+ System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection::New_ctor(System::Collections::Specialized::ListDictionary list, bool isKeys)  {
+System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection>(list, isKeys))};
+return o;
+}
  void System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection::_ctor(System::Collections::Specialized::ListDictionary list, bool isKeys)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection>::get(),
@@ -577,8 +584,10 @@ constexpr void System::Collections::Specialized::System__Collections__Specialize
 constexpr System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode::__get_next() const {
 return ::cordl_internals::getInstanceField<System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode::System__Collections__Specialized__ListDictionary__DictionaryNode()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__Specialized__ListDictionary__DictionaryNode>())) {}
+ System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode::New_ctor()  {
+System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode>())};
+return o;
+}
  void System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode>::get(),
@@ -936,8 +945,10 @@ constexpr void System::Collections::Specialized::ListDictionary::__set__syncRoot
 constexpr ::bs_hook::Il2CppWrapperType System::Collections::Specialized::ListDictionary::__get__syncRoot() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::Specialized::ListDictionary::ListDictionary()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ListDictionary>())) {}
+ System::Collections::Specialized::ListDictionary System::Collections::Specialized::ListDictionary::New_ctor()  {
+System::Collections::Specialized::ListDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::ListDictionary>())};
+return o;
+}
  void System::Collections::Specialized::ListDictionary::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::ListDictionary>::get(),
@@ -947,8 +958,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::IComparer", modifiers: "", def_value: None }]
- System::Collections::Specialized::ListDictionary::ListDictionary(System::Collections::IComparer comparer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ListDictionary>(comparer))) {}
+ System::Collections::Specialized::ListDictionary System::Collections::Specialized::ListDictionary::New_ctor(System::Collections::IComparer comparer)  {
+System::Collections::Specialized::ListDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::ListDictionary>(comparer))};
+return o;
+}
  void System::Collections::Specialized::ListDictionary::_ctor(System::Collections::IComparer comparer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::ListDictionary>::get(),

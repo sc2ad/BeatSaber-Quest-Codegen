@@ -141,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, context);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Composites::ButtonWithOneModifier::ButtonWithOneModifier()  : UnityEngine::InputSystem::InputBindingComposite_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<ButtonWithOneModifier>())) {}
+ UnityEngine::InputSystem::Composites::ButtonWithOneModifier UnityEngine::InputSystem::Composites::ButtonWithOneModifier::New_ctor()  {
+UnityEngine::InputSystem::Composites::ButtonWithOneModifier o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Composites::ButtonWithOneModifier>())};
+return o;
+}
  void UnityEngine::InputSystem::Composites::ButtonWithOneModifier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Composites::ButtonWithOneModifier>::get(),

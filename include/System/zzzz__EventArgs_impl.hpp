@@ -23,8 +23,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
  System::EventArgs System::EventArgs::__get_Empty()  {
 return ::cordl_internals::getStaticField<System::EventArgs, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::EventArgs>::get>();
 }
-// Ctor Parameters []
- System::EventArgs::EventArgs()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventArgs>())) {}
+ System::EventArgs System::EventArgs::New_ctor()  {
+System::EventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::EventArgs>())};
+return o;
+}
  void System::EventArgs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::EventArgs>::get(),

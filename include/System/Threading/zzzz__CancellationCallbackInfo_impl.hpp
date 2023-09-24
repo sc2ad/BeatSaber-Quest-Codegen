@@ -1,11 +1,10 @@
 #pragma once
-#include "System/Threading/zzzz__CancellationCallbackInfo_impl.hpp"
 #include "System/Threading/zzzz__CancellationCallbackInfo_def.hpp"
-#include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "System/Threading/zzzz__SynchronizationContext_def.hpp"
+#include "System/Threading/zzzz__CancellationCallbackInfo_WithSyncContext_def.hpp"
+#include "System/Threading/zzzz__ExecutionContext_def.hpp"
 //  Writing Method size for method: System::Threading::CancellationCallbackInfo._ctor
 template<>
 
@@ -87,8 +86,10 @@ return ::cordl_internals::getInstanceField<System::Threading::CancellationTokenS
  System::Threading::ContextCallback System::Threading::CancellationCallbackInfo::__get_s_executionContextCallback()  {
 return ::cordl_internals::getStaticField<System::Threading::ContextCallback, "s_executionContextCallback", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::CancellationCallbackInfo>::get>();
 }
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Action_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "stateForCallback", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "targetExecutionContext", ty: "System::Threading::ExecutionContext", modifiers: "", def_value: None }, CppParam { name: "cancellationTokenSource", ty: "System::Threading::CancellationTokenSource", modifiers: "", def_value: None }]
- System::Threading::CancellationCallbackInfo::CancellationCallbackInfo(System::Action_1<::bs_hook::Il2CppWrapperType> callback, ::bs_hook::Il2CppWrapperType stateForCallback, System::Threading::ExecutionContext targetExecutionContext, System::Threading::CancellationTokenSource cancellationTokenSource)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CancellationCallbackInfo>(callback, stateForCallback, targetExecutionContext, cancellationTokenSource))) {}
+ System::Threading::CancellationCallbackInfo System::Threading::CancellationCallbackInfo::New_ctor(System::Action_1<::bs_hook::Il2CppWrapperType> callback, ::bs_hook::Il2CppWrapperType stateForCallback, System::Threading::ExecutionContext targetExecutionContext, System::Threading::CancellationTokenSource cancellationTokenSource)  {
+System::Threading::CancellationCallbackInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::CancellationCallbackInfo>(callback, stateForCallback, targetExecutionContext, cancellationTokenSource))};
+return o;
+}
  void System::Threading::CancellationCallbackInfo::_ctor(System::Action_1<::bs_hook::Il2CppWrapperType> callback, ::bs_hook::Il2CppWrapperType stateForCallback, System::Threading::ExecutionContext targetExecutionContext, System::Threading::CancellationTokenSource cancellationTokenSource)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::CancellationCallbackInfo>::get(),
@@ -115,38 +116,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj);
-}
-//  Writing Method size for method: System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext::*)(System::Action_1<::bs_hook::Il2CppWrapperType>, ::bs_hook::Il2CppWrapperType, System::Threading::ExecutionContext, System::Threading::CancellationTokenSource, System::Threading::SynchronizationContext)>(&System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x24a5b58;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_1<::bs_hook::Il2CppWrapperType>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::ExecutionContext>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationTokenSource>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::SynchronizationContext>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext::__set_TargetSyncContext(System::Threading::SynchronizationContext value)  {
-::cordl_internals::setInstanceField<System::Threading::SynchronizationContext, 0x30>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Threading::SynchronizationContext>(value));
-}
-constexpr System::Threading::SynchronizationContext System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext::__get_TargetSyncContext() const {
-return ::cordl_internals::getInstanceField<System::Threading::SynchronizationContext, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Action_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "stateForCallback", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "targetExecutionContext", ty: "System::Threading::ExecutionContext", modifiers: "", def_value: None }, CppParam { name: "cancellationTokenSource", ty: "System::Threading::CancellationTokenSource", modifiers: "", def_value: None }, CppParam { name: "targetSyncContext", ty: "System::Threading::SynchronizationContext", modifiers: "", def_value: None }]
- System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext::System__Threading__CancellationCallbackInfo__WithSyncContext(System::Action_1<::bs_hook::Il2CppWrapperType> callback, ::bs_hook::Il2CppWrapperType stateForCallback, System::Threading::ExecutionContext targetExecutionContext, System::Threading::CancellationTokenSource cancellationTokenSource, System::Threading::SynchronizationContext targetSyncContext)  : System::Threading::CancellationCallbackInfo(THROW_UNLESS(::il2cpp_utils::New<System__Threading__CancellationCallbackInfo__WithSyncContext>(callback, stateForCallback, targetExecutionContext, cancellationTokenSource, targetSyncContext))) {}
- void System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext::_ctor(System::Action_1<::bs_hook::Il2CppWrapperType> callback, ::bs_hook::Il2CppWrapperType stateForCallback, System::Threading::ExecutionContext targetExecutionContext, System::Threading::CancellationTokenSource cancellationTokenSource, System::Threading::SynchronizationContext targetSyncContext)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_1<::bs_hook::Il2CppWrapperType>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::ExecutionContext>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationTokenSource>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::SynchronizationContext>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, callback, stateForCallback, targetExecutionContext, cancellationTokenSource, targetSyncContext);
 }

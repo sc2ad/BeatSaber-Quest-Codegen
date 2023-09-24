@@ -42,8 +42,10 @@ constexpr void GlobalNamespace::RecordingConverter::__set__logger(GlobalNamespac
 constexpr GlobalNamespace::IBeatSaberLogger GlobalNamespace::RecordingConverter::__get__logger() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IBeatSaberLogger, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "logger", ty: "GlobalNamespace::IBeatSaberLogger", modifiers: "", def_value: None }]
- GlobalNamespace::RecordingConverter::RecordingConverter(GlobalNamespace::IBeatSaberLogger logger)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RecordingConverter>(logger))) {}
+ GlobalNamespace::RecordingConverter GlobalNamespace::RecordingConverter::New_ctor(GlobalNamespace::IBeatSaberLogger logger)  {
+GlobalNamespace::RecordingConverter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingConverter>(logger))};
+return o;
+}
  void GlobalNamespace::RecordingConverter::_ctor(GlobalNamespace::IBeatSaberLogger logger)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingConverter>::get(),

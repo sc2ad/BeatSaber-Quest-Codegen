@@ -5,11 +5,68 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
+namespace System::Runtime::Remoting {
+class ActivatedClientTypeEntry;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Remoting {
+class ObjRef;
+}
+namespace System::Runtime::Remoting {
+class ClientActivatedIdentity;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class MarshalByRefObject;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodReturnMessage;
+}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryFormatter;
 }
+namespace System::Collections {
+class Hashtable;
+}
+namespace System {
+class Exception;
+}
+namespace System::Runtime::Remoting {
+class System__Runtime__Remoting__RemotingServices__CACD;
+}
+namespace System::Runtime::Remoting {
+class Identity;
+}
 namespace System::Runtime::Remoting {
 class WellKnownClientTypeEntry;
+}
+namespace System::Runtime::Remoting {
+class ClientIdentity;
+}
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Runtime::Remoting {
+class ServerIdentity;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
@@ -18,64 +75,10 @@ namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
 namespace System::Runtime::Remoting {
-class ClientActivatedIdentity;
-}
-namespace System {
-class Exception;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Remoting {
-class ServerIdentity;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System {
-class MarshalByRefObject;
-}
-namespace System::Runtime::Remoting {
 struct WellKnownObjectMode;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 namespace System::Runtime::Remoting::Proxies {
 class RealProxy;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
-}
-namespace System::Runtime::Remoting {
-class ActivatedClientTypeEntry;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Runtime::Remoting {
-class Identity;
-}
-namespace System::Runtime::Remoting {
-class ObjRef;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
-namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System::Runtime::Remoting {
-class ClientIdentity;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -141,8 +144,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_c() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__Remoting__RemotingServices__CACD() ;
+static System::Runtime::Remoting::System__Runtime__Remoting__RemotingServices__CACD New_ctor() ;
 
 /// @brief Method .ctor addr 0x2326544 size 0x8 virtual false final false
  void _ctor() ;

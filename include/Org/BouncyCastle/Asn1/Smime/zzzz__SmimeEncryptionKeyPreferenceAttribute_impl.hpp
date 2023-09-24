@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Smime/zzzz__SmimeEncryptionKeyPreferenceAttribute_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientKeyIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__IssuerAndSerialNumber_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientKeyIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute._ctor
 template<>
 
@@ -55,8 +55,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "issAndSer", ty: "Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::SmimeEncryptionKeyPreferenceAttribute(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issAndSer)  : Org::BouncyCastle::Asn1::X509::AttributeX509(THROW_UNLESS(::il2cpp_utils::New<SmimeEncryptionKeyPreferenceAttribute>(issAndSer))) {}
+ Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::New_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issAndSer)  {
+Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute>(issAndSer))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issAndSer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute>::get(),
@@ -66,8 +68,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, issAndSer);
 }
-// Ctor Parameters [CppParam { name: "rKeyID", ty: "Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::SmimeEncryptionKeyPreferenceAttribute(Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier rKeyID)  : Org::BouncyCastle::Asn1::X509::AttributeX509(THROW_UNLESS(::il2cpp_utils::New<SmimeEncryptionKeyPreferenceAttribute>(rKeyID))) {}
+ Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::New_ctor(Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier rKeyID)  {
+Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute>(rKeyID))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::_ctor(Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier rKeyID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute>::get(),
@@ -77,8 +81,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, rKeyID);
 }
-// Ctor Parameters [CppParam { name: "sKeyID", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::SmimeEncryptionKeyPreferenceAttribute(Org::BouncyCastle::Asn1::Asn1OctetString sKeyID)  : Org::BouncyCastle::Asn1::X509::AttributeX509(THROW_UNLESS(::il2cpp_utils::New<SmimeEncryptionKeyPreferenceAttribute>(sKeyID))) {}
+ Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString sKeyID)  {
+Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute>(sKeyID))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::_ctor(Org::BouncyCastle::Asn1::Asn1OctetString sKeyID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute>::get(),

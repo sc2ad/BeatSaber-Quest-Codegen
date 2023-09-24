@@ -5,11 +5,11 @@
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -80,8 +80,7 @@ constexpr explicit XmlNodeList(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 /// @brief Method PrivateDisposeNodeList addr 0x26fe00c size 0x4 virtual true final false
  void PrivateDisposeNodeList() ;
 
-// Ctor Parameters []
-explicit XmlNodeList() ;
+static System::Xml::XmlNodeList New_ctor() ;
 
 /// @brief Method .ctor addr 0x26fe010 size 0x8 virtual false final false
  void _ctor() ;

@@ -64,8 +64,7 @@ constexpr JetBrains::Annotations::CollectionAccessType __get__CollectionAccessTy
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collectionAccessType", ty: "JetBrains::Annotations::CollectionAccessType", modifiers: "", def_value: None }]
-explicit CollectionAccessAttribute(JetBrains::Annotations::CollectionAccessType collectionAccessType) ;
+static JetBrains::Annotations::CollectionAccessAttribute New_ctor(JetBrains::Annotations::CollectionAccessType collectionAccessType) ;
 
 /// @brief Method .ctor addr 0x2d411e8 size 0x28 virtual false final false
  void _ctor(JetBrains::Annotations::CollectionAccessType collectionAccessType) ;

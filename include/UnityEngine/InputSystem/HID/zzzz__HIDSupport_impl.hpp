@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HIDSupport_def.hpp"
+#include "UnityEngine/InputSystem/HID/zzzz__HIDSupport_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HIDSupport__HIDPageUsage._ctor
 template<>

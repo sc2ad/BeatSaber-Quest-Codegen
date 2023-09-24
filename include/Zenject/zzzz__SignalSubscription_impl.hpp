@@ -1,12 +1,13 @@
 #pragma once
 #include "Zenject/zzzz__PoolableMemoryPool_3_impl.hpp"
 #include "Zenject/zzzz__SignalSubscription_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__SignalDeclaration_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__SignalSubscription_def.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
 #include "Zenject/zzzz__IPoolable_2_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "Zenject/zzzz__SignalDeclaration_def.hpp"
 //  Writing Method size for method: Zenject::SignalSubscription._ctor
 template<>
 
@@ -209,8 +210,10 @@ constexpr void Zenject::SignalSubscription::__set__signalId(Zenject::BindingId v
 constexpr Zenject::BindingId Zenject::SignalSubscription::__get__signalId() const {
 return ::cordl_internals::getInstanceField<Zenject::BindingId, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pool", ty: "Zenject::Zenject__SignalSubscription__Pool", modifiers: "", def_value: None }]
- Zenject::SignalSubscription::SignalSubscription(Zenject::Zenject__SignalSubscription__Pool pool)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignalSubscription>(pool))) {}
+ Zenject::SignalSubscription Zenject::SignalSubscription::New_ctor(Zenject::Zenject__SignalSubscription__Pool pool)  {
+Zenject::SignalSubscription o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalSubscription>(pool))};
+return o;
+}
  void Zenject::SignalSubscription::_ctor(Zenject::Zenject__SignalSubscription__Pool pool)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalSubscription>::get(),
@@ -352,8 +355,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Zenject::Zenject__SignalSubscription__Pool::Zenject__SignalSubscription__Pool()  : Zenject::PoolableMemoryPool_3<System::Action_1<::bs_hook::Il2CppWrapperType>,Zenject::SignalDeclaration,Zenject::SignalSubscription>(THROW_UNLESS(::il2cpp_utils::New<Zenject__SignalSubscription__Pool>())) {}
+ Zenject::Zenject__SignalSubscription__Pool Zenject::Zenject__SignalSubscription__Pool::New_ctor()  {
+Zenject::Zenject__SignalSubscription__Pool o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SignalSubscription__Pool>())};
+return o;
+}
  void Zenject::Zenject__SignalSubscription__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalSubscription__Pool>::get(),

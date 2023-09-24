@@ -56,8 +56,7 @@ constexpr explicit RuntimeAnimatorController(void* ptr) noexcept : UnityEngine::
 
 // Methods
 
-// Ctor Parameters []
-explicit RuntimeAnimatorController() ;
+static UnityEngine::RuntimeAnimatorController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b193a0 size 0x58 virtual false final false
  void _ctor() ;

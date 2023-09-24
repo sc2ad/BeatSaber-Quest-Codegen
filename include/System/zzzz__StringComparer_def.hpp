@@ -3,28 +3,28 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System {
+class OrdinalCaseSensitiveComparer;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IComparer_1;
 }
 namespace System {
-class CultureAwareComparer;
-}
-namespace System {
 class OrdinalIgnoreCaseComparer;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEqualityComparer_1;
-}
-namespace System {
-class OrdinalCaseSensitiveComparer;
 }
 namespace System::Collections {
 class IEqualityComparer;
 }
+namespace System {
+class CultureAwareComparer;
+}
 namespace System::Collections {
 class IComparer;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace System {
@@ -147,8 +147,7 @@ static System::StringComparer get_OrdinalIgnoreCase() ;
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode(::StringW obj) ;
 
-// Ctor Parameters []
-explicit StringComparer() ;
+static System::StringComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2456de4 size 0x8 virtual false final false
  void _ctor() ;

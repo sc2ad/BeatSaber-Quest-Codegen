@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
+class S2k;
+}
+namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-class S2k;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
@@ -97,14 +97,12 @@ constexpr ::ArrayW<uint8_t> __get_secKeyData() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit SymmetricKeyEncSessionPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1144214 size 0xb4 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "s2k", ty: "Org::BouncyCastle::Bcpg::S2k", modifiers: "", def_value: None }, CppParam { name: "secKeyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SymmetricKeyEncSessionPacket(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> secKeyData) ;
+static Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket New_ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> secKeyData) ;
 
 /// @brief Method .ctor addr 0x114aa54 size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> secKeyData) ;

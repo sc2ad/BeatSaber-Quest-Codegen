@@ -64,8 +64,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "switchLevelType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit SwitchLevelAttribute(System::Type switchLevelType) ;
+static System::Diagnostics::SwitchLevelAttribute New_ctor(System::Type switchLevelType) ;
 
 /// @brief Method .ctor addr 0x27da2d8 size 0x2c virtual false final false
  void _ctor(System::Type switchLevelType) ;

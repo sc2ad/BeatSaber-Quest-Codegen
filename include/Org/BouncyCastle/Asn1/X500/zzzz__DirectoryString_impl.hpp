@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X500/zzzz__DirectoryString_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1String_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1String_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X500::DirectoryString.GetInstance
 template<>
 
@@ -140,8 +140,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X500::DirectoryString, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "Org::BouncyCastle::Asn1::DerStringBase", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X500::DirectoryString::DirectoryString(Org::BouncyCastle::Asn1::DerStringBase str)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DirectoryString>(str))) {}
+ Org::BouncyCastle::Asn1::X500::DirectoryString Org::BouncyCastle::Asn1::X500::DirectoryString::New_ctor(Org::BouncyCastle::Asn1::DerStringBase str)  {
+Org::BouncyCastle::Asn1::X500::DirectoryString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X500::DirectoryString>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X500::DirectoryString::_ctor(Org::BouncyCastle::Asn1::DerStringBase str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X500::DirectoryString>::get(),
@@ -151,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X500::DirectoryString::DirectoryString(::StringW str)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DirectoryString>(str))) {}
+ Org::BouncyCastle::Asn1::X500::DirectoryString Org::BouncyCastle::Asn1::X500::DirectoryString::New_ctor(::StringW str)  {
+Org::BouncyCastle::Asn1::X500::DirectoryString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X500::DirectoryString>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X500::DirectoryString::_ctor(::StringW str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X500::DirectoryString>::get(),

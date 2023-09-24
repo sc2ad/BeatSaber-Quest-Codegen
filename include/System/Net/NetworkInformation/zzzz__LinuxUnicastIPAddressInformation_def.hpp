@@ -64,8 +64,7 @@ constexpr System::Net::IPAddress __get_address() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "address", ty: "System::Net::IPAddress", modifiers: "", def_value: None }]
-explicit LinuxUnicastIPAddressInformation(System::Net::IPAddress address) ;
+static System::Net::NetworkInformation::LinuxUnicastIPAddressInformation New_ctor(System::Net::IPAddress address) ;
 
 /// @brief Method .ctor addr 0x285cbcc size 0x28 virtual false final false
  void _ctor(System::Net::IPAddress address) ;

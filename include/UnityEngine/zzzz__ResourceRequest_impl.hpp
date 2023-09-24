@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__AsyncOperation_impl.hpp"
 #include "UnityEngine/zzzz__ResourceRequest_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceRequest.GetResult
 template<>
 
@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Object, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ResourceRequest::ResourceRequest()  : UnityEngine::AsyncOperation(THROW_UNLESS(::il2cpp_utils::New<ResourceRequest>())) {}
+ UnityEngine::ResourceRequest UnityEngine::ResourceRequest::New_ctor()  {
+UnityEngine::ResourceRequest o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceRequest>())};
+return o;
+}
  void UnityEngine::ResourceRequest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceRequest>::get(),

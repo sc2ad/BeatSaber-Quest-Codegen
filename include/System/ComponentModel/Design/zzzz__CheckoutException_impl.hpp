@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/InteropServices/zzzz__ExternalException_impl.hpp"
 #include "System/ComponentModel/Design/zzzz__CheckoutException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::ComponentModel::Design::CheckoutException._ctor
 template<>
 
@@ -60,8 +60,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
  System::ComponentModel::Design::CheckoutException System::ComponentModel::Design::CheckoutException::__get_Canceled()  {
 return ::cordl_internals::getStaticField<System::ComponentModel::Design::CheckoutException, "Canceled", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Design::CheckoutException>::get>();
 }
-// Ctor Parameters []
- System::ComponentModel::Design::CheckoutException::CheckoutException()  : System::Runtime::InteropServices::ExternalException(THROW_UNLESS(::il2cpp_utils::New<CheckoutException>())) {}
+ System::ComponentModel::Design::CheckoutException System::ComponentModel::Design::CheckoutException::New_ctor()  {
+System::ComponentModel::Design::CheckoutException o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Design::CheckoutException>())};
+return o;
+}
  void System::ComponentModel::Design::CheckoutException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Design::CheckoutException>::get(),
@@ -71,8 +73,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "errorCode", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::Design::CheckoutException::CheckoutException(::StringW message, int32_t errorCode)  : System::Runtime::InteropServices::ExternalException(THROW_UNLESS(::il2cpp_utils::New<CheckoutException>(message, errorCode))) {}
+ System::ComponentModel::Design::CheckoutException System::ComponentModel::Design::CheckoutException::New_ctor(::StringW message, int32_t errorCode)  {
+System::ComponentModel::Design::CheckoutException o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Design::CheckoutException>(message, errorCode))};
+return o;
+}
  void System::ComponentModel::Design::CheckoutException::_ctor(::StringW message, int32_t errorCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Design::CheckoutException>::get(),
@@ -82,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, errorCode);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::ComponentModel::Design::CheckoutException::CheckoutException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Runtime::InteropServices::ExternalException(THROW_UNLESS(::il2cpp_utils::New<CheckoutException>(info, context))) {}
+ System::ComponentModel::Design::CheckoutException System::ComponentModel::Design::CheckoutException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::ComponentModel::Design::CheckoutException o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Design::CheckoutException>(info, context))};
+return o;
+}
  void System::ComponentModel::Design::CheckoutException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Design::CheckoutException>::get(),

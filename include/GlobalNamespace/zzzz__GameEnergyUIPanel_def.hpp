@@ -3,18 +3,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace UnityEngine {
 class RectTransform;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
 }
 namespace UnityEngine::UI {
 class Image;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::Playables {
+class PlayableDirector;
 }
 namespace GlobalNamespace {
 class IGameEnergyCounter;
@@ -143,8 +143,7 @@ constexpr UnityEngine::RectTransform __get__energyBarRectTransform() const;
 /// @brief Method HandleGameEnergyDidChange addr 0x227580c size 0x4 virtual false final false
  void HandleGameEnergyDidChange(float_t energy) ;
 
-// Ctor Parameters []
-explicit GameEnergyUIPanel() ;
+static GlobalNamespace::GameEnergyUIPanel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2275810 size 0x10 virtual false final false
  void _ctor() ;

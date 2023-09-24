@@ -7,10 +7,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Globalization {
+struct System__Globalization__HebrewNumber__HebrewValue;
+}
+namespace System::Globalization {
+struct System__Globalization__HebrewNumber__HebrewToken;
+}
+namespace System::Globalization {
 struct HebrewNumberParsingContext;
 }
 namespace System::Globalization {
 struct HebrewNumberParsingState;
+}
+namespace System::Globalization {
+struct System__Globalization__HebrewNumber__HS;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -83,6 +92,8 @@ __DoubleQuote = 9,
 constexpr operator __System__Globalization__HebrewNumber__HebrewToken_Unwrapped () const noexcept {
 return std::bit_cast<__System__Globalization__HebrewNumber__HebrewToken_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int16_t;
 
 
 // Fields
@@ -261,6 +272,8 @@ __END = 100,
 constexpr operator __System__Globalization__HebrewNumber__HS_Unwrapped () const noexcept {
 return std::bit_cast<__System__Globalization__HebrewNumber__HS_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int8_t;
 
 
 // Fields

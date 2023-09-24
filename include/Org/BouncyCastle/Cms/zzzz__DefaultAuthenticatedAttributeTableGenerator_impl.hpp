@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__DefaultAuthenticatedAttributeTableGenerator_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator._ctor
 template<>
 
@@ -81,8 +81,10 @@ constexpr void Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerat
 constexpr System::Collections::IDictionary Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator::__get_table() const {
 return ::cordl_internals::getInstanceField<System::Collections::IDictionary, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator::DefaultAuthenticatedAttributeTableGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultAuthenticatedAttributeTableGenerator>())) {}
+ Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator>::get(),
@@ -92,8 +94,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "attributeTable", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator::DefaultAuthenticatedAttributeTableGenerator(Org::BouncyCastle::Asn1::Cms::AttributeTable attributeTable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultAuthenticatedAttributeTableGenerator>(attributeTable))) {}
+ Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator::New_ctor(Org::BouncyCastle::Asn1::Cms::AttributeTable attributeTable)  {
+Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator>(attributeTable))};
+return o;
+}
  void Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator::_ctor(Org::BouncyCastle::Asn1::Cms::AttributeTable attributeTable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator>::get(),

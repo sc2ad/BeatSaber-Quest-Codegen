@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class ParticleSystem;
+namespace GlobalNamespace {
+class GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
 class SpriteRenderer;
 }
 namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine {
-struct Color;
+class Material;
 }
 namespace GlobalNamespace {
 template<typename T>
@@ -25,17 +25,20 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
-class Material;
+struct Color;
 }
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine {
+class ParticleSystem;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -123,8 +126,7 @@ constexpr GlobalNamespace::FlickeringNeonSign __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x22692ec size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -288,8 +290,7 @@ constexpr GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip> __get__s
 /// @brief Method SetOn addr 0x2269314 size 0x110 virtual false final false
  void SetOn(bool on) ;
 
-// Ctor Parameters []
-explicit FlickeringNeonSign() ;
+static GlobalNamespace::FlickeringNeonSign New_ctor() ;
 
 /// @brief Method .ctor addr 0x2269424 size 0x14 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DefaultTlsDHVerifier_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDHVerifier_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDHVerifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier.AddDefaultGroup
 template<>
 
@@ -211,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, dhParameters);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::DefaultTlsDHVerifier()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsDHVerifier>())) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier>::get(),
@@ -222,8 +224,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "minimumPrimeBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::DefaultTlsDHVerifier(int32_t minimumPrimeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsDHVerifier>(minimumPrimeBits))) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::New_ctor(int32_t minimumPrimeBits)  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier>(minimumPrimeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::_ctor(int32_t minimumPrimeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier>::get(),
@@ -233,8 +237,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, minimumPrimeBits);
 }
-// Ctor Parameters [CppParam { name: "groups", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "minimumPrimeBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::DefaultTlsDHVerifier(System::Collections::IList groups, int32_t minimumPrimeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsDHVerifier>(groups, minimumPrimeBits))) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::New_ctor(System::Collections::IList groups, int32_t minimumPrimeBits)  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier>(groups, minimumPrimeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::_ctor(System::Collections::IList groups, int32_t minimumPrimeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier>::get(),

@@ -1,15 +1,14 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__GhostEffectAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
-#include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "GlobalNamespace/zzzz__TimelineArrayReference_def.hpp"
+#include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
+#include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GhostEffectAsset.get_clipCaps
 template<>
 
@@ -101,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Playables::Playable, false>(const_cast<void*>(instance), ___internal_method, graph, go);
 }
-// Ctor Parameters []
- GlobalNamespace::GhostEffectAsset::GhostEffectAsset()  : UnityEngine::Playables::PlayableAsset(THROW_UNLESS(::il2cpp_utils::New<GhostEffectAsset>())) {}
+ GlobalNamespace::GhostEffectAsset GlobalNamespace::GhostEffectAsset::New_ctor()  {
+GlobalNamespace::GhostEffectAsset o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GhostEffectAsset>())};
+return o;
+}
  void GlobalNamespace::GhostEffectAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GhostEffectAsset>::get(),

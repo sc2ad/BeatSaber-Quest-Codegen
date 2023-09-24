@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::Ess {
-class EssCertIDv2;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class PolicyInformation;
 }
+namespace Org::BouncyCastle::Asn1::Ess {
+class EssCertIDv2;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ess {
@@ -79,26 +79,22 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_policies() const;
 /// @brief Method GetInstance addr 0xe0def8 size 0x190 virtual false final false
 static Org::BouncyCastle::Asn1::Ess::SigningCertificateV2 GetInstance(::bs_hook::Il2CppWrapperType o) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SigningCertificateV2(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ess::SigningCertificateV2 New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0e088 size 0x184 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "cert", ty: "Org::BouncyCastle::Asn1::Ess::EssCertIDv2", modifiers: "", def_value: None }]
-explicit SigningCertificateV2(Org::BouncyCastle::Asn1::Ess::EssCertIDv2 cert) ;
+static Org::BouncyCastle::Asn1::Ess::SigningCertificateV2 New_ctor(Org::BouncyCastle::Asn1::Ess::EssCertIDv2 cert) ;
 
 /// @brief Method .ctor addr 0xe0e20c size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ess::EssCertIDv2 cert) ;
 
-// Ctor Parameters [CppParam { name: "certs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Ess::EssCertIDv2>", modifiers: "", def_value: None }]
-explicit SigningCertificateV2(::ArrayW<Org::BouncyCastle::Asn1::Ess::EssCertIDv2> certs) ;
+static Org::BouncyCastle::Asn1::Ess::SigningCertificateV2 New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Ess::EssCertIDv2> certs) ;
 
 /// @brief Method .ctor addr 0xe0e288 size 0x7c virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Ess::EssCertIDv2> certs) ;
 
-// Ctor Parameters [CppParam { name: "certs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Ess::EssCertIDv2>", modifiers: "", def_value: None }, CppParam { name: "policies", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation>", modifiers: "", def_value: None }]
-explicit SigningCertificateV2(::ArrayW<Org::BouncyCastle::Asn1::Ess::EssCertIDv2> certs, ::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation> policies) ;
+static Org::BouncyCastle::Asn1::Ess::SigningCertificateV2 New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Ess::EssCertIDv2> certs, ::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation> policies) ;
 
 /// @brief Method .ctor addr 0xe0e304 size 0xa4 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Ess::EssCertIDv2> certs, ::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation> policies) ;

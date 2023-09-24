@@ -3,6 +3,37 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Newtonsoft::Json::Linq {
+template<typename T,typename U>
+class Newtonsoft__Json__Linq__Extensions____c__13_2;
+}
+namespace Newtonsoft::Json::Linq {
+class Newtonsoft__Json__Linq__Extensions____c;
+}
+namespace Newtonsoft::Json::Linq {
+template<typename T>
+class Newtonsoft__Json__Linq__Extensions____c__1_1;
+}
+namespace Newtonsoft::Json::Linq {
+template<typename T>
+class Newtonsoft__Json__Linq__Extensions____c__3_1;
+}
+namespace Newtonsoft::Json::Linq {
+template<typename T>
+class Newtonsoft__Json__Linq__Extensions____c__2_1;
+}
+namespace Newtonsoft::Json::Linq {
+template<typename T,typename U>
+class Newtonsoft__Json__Linq__Extensions___Values_d__11_2;
+}
+namespace Newtonsoft::Json::Linq {
+template<typename T,typename U>
+class Newtonsoft__Json__Linq__Extensions___Convert_d__14_2;
+}
+namespace Newtonsoft::Json::Linq {
+template<typename T>
+class Newtonsoft__Json__Linq__Extensions____c__0_1;
+}
+namespace Newtonsoft::Json::Linq {
 class JToken;
 }
 namespace Newtonsoft::Json::Linq {
@@ -11,23 +42,23 @@ class JObject;
 namespace Newtonsoft::Json::Linq {
 class JProperty;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace Newtonsoft::Json::Linq {
 template<typename T>
 class IJEnumerable_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System {
 class IDisposable;
@@ -160,8 +191,7 @@ static System::Func_2<Newtonsoft::Json::Linq::JObject,System::Collections::Gener
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Linq__Extensions____c() ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__Extensions____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x251970c size 0x8 virtual false final false
  void _ctor() ;
@@ -372,8 +402,7 @@ static System::Func_2<T,System::Collections::Generic::IEnumerable_1<Newtonsoft::
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Linq__Extensions____c__0_1() ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__Extensions____c__0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -444,8 +473,7 @@ static System::Func_2<T,System::Collections::Generic::IEnumerable_1<Newtonsoft::
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Linq__Extensions____c__1_1() ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__Extensions____c__1_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -516,8 +544,7 @@ static System::Func_2<T,System::Collections::Generic::IEnumerable_1<Newtonsoft::
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Linq__Extensions____c__2_1() ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__Extensions____c__2_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -588,8 +615,7 @@ static System::Func_2<T,System::Collections::Generic::IEnumerable_1<Newtonsoft::
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Linq__Extensions____c__3_1() ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__Extensions____c__3_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -730,8 +756,7 @@ constexpr System::Collections::Generic::IEnumerator_1<Newtonsoft::Json::Linq::JT
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__Extensions___Values_d__11_2(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__Extensions___Values_d__11_2<T,U> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -826,8 +851,7 @@ static System::Func_2<T,System::Collections::Generic::IEnumerable_1<Newtonsoft::
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Linq__Extensions____c__13_2() ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__Extensions____c__13_2<T,U> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -944,8 +968,7 @@ constexpr System::Collections::Generic::IEnumerator_1<T> __get___7__wrap1() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__Extensions___Convert_d__14_2(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__Extensions___Convert_d__14_2<T,U> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;

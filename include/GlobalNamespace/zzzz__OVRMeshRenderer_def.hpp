@@ -4,16 +4,28 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class OVRMesh;
+struct GlobalNamespace__OVRMeshRenderer__MeshRendererData;
 }
 namespace UnityEngine {
 class SkinnedMeshRenderer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider;
 }
 namespace GlobalNamespace {
 class OVRSkeleton;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior;
+}
+namespace GlobalNamespace {
+class OVRMesh;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -201,6 +213,8 @@ constexpr operator __GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior_Unwrap
 return std::bit_cast<__GlobalNamespace__OVRMeshRenderer__ConfidenceBehavior_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -269,6 +283,8 @@ __SwapMaterial = 1,
 constexpr operator __GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRMeshRenderer__SystemGestureBehavior_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -464,8 +480,7 @@ constexpr bool __get__ShouldUseSystemGestureMaterial_k__BackingField() const;
 /// @brief Method Update addr 0x262669c size 0x2a0 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRMeshRenderer() ;
+static GlobalNamespace::OVRMeshRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x262693c size 0x10 virtual false final false
  void _ctor() ;

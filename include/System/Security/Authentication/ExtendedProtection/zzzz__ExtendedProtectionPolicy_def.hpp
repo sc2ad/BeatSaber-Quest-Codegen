@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Security::Authentication::ExtendedProtection {
 struct PolicyEnforcement;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Security::Authentication::ExtendedProtection {
@@ -63,14 +63,12 @@ constexpr explicit ExtendedProtectionPolicy(void* ptr) noexcept : ::bs_hook::Il2
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "policyEnforcement", ty: "System::Security::Authentication::ExtendedProtection::PolicyEnforcement", modifiers: "", def_value: None }]
-explicit ExtendedProtectionPolicy(System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) ;
+static System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy New_ctor(System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) ;
 
 /// @brief Method .ctor addr 0x27e1c24 size 0x8 virtual false final false
  void _ctor(System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ExtendedProtectionPolicy(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27e1c2c size 0x48 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

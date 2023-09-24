@@ -110,8 +110,10 @@ constexpr void System::ComponentModel::NotifyParentPropertyAttribute::__set_noti
 constexpr bool System::ComponentModel::NotifyParentPropertyAttribute::__get_notifyParent() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "notifyParent", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyParentPropertyAttribute::NotifyParentPropertyAttribute(bool notifyParent)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NotifyParentPropertyAttribute>(notifyParent))) {}
+ System::ComponentModel::NotifyParentPropertyAttribute System::ComponentModel::NotifyParentPropertyAttribute::New_ctor(bool notifyParent)  {
+System::ComponentModel::NotifyParentPropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyParentPropertyAttribute>(notifyParent))};
+return o;
+}
  void System::ComponentModel::NotifyParentPropertyAttribute::_ctor(bool notifyParent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyParentPropertyAttribute>::get(),

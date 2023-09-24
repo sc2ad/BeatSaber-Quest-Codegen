@@ -35,8 +35,10 @@ constexpr void Oculus::Platform::Models::Destination::__set_DisplayName(::String
 constexpr ::StringW Oculus::Platform::Models::Destination::__get_DisplayName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::Destination::Destination(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Destination>(o))) {}
+ Oculus::Platform::Models::Destination Oculus::Platform::Models::Destination::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::Destination o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::Destination>(o))};
+return o;
+}
  void Oculus::Platform::Models::Destination::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::Destination>::get(),

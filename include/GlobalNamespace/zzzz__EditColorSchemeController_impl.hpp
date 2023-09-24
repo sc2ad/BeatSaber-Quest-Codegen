@@ -2,16 +2,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EditColorSchemeController_def.hpp"
 #include "GlobalNamespace/zzzz__RGBPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemeColorsToggleGroup_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__HSVPanelController_def.hpp"
+#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__PreviousColorPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemeColorsToggleGroup_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EditColorSchemeController.add_didFinishEvent
 template<>
 
@@ -380,8 +380,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- GlobalNamespace::EditColorSchemeController::EditColorSchemeController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EditColorSchemeController>())) {}
+ GlobalNamespace::EditColorSchemeController GlobalNamespace::EditColorSchemeController::New_ctor()  {
+GlobalNamespace::EditColorSchemeController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EditColorSchemeController>())};
+return o;
+}
  void GlobalNamespace::EditColorSchemeController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EditColorSchemeController>::get(),

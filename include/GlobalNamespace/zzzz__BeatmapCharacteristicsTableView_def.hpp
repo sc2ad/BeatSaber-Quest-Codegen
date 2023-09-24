@@ -4,15 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+namespace HMUI {
+class HMUI__TableView__IDataSource;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicTableCell;
-}
-namespace System {
-template<typename T>
-class Action_1;
+namespace HMUI {
+class TableView;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
@@ -20,11 +16,15 @@ class BeatmapCharacteristicCollection;
 namespace HMUI {
 class TableCell;
 }
-namespace HMUI {
-class HMUI__TableView__IDataSource;
+namespace System {
+template<typename T>
+class Action_1;
 }
-namespace HMUI {
-class TableView;
+namespace GlobalNamespace {
+class BeatmapCharacteristicTableCell;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -159,8 +159,7 @@ constexpr int32_t __get__selectedColumn() const;
 /// @brief Method SelectCellWithIdx addr 0x21850e8 size 0x20 virtual false final false
  void SelectCellWithIdx(int32_t idx) ;
 
-// Ctor Parameters []
-explicit BeatmapCharacteristicsTableView() ;
+static GlobalNamespace::BeatmapCharacteristicsTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2185108 size 0x58 virtual false final false
  void _ctor() ;

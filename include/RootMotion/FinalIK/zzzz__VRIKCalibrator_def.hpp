@@ -3,16 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
+}
+namespace GlobalNamespace {
+class RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__VRIKCalibrator__CalibrationData;
 }
 namespace RootMotion::FinalIK {
 class VRIK;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__VRIKCalibrator__Settings;
 }
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__IKSolverVR__Leg;
@@ -171,8 +180,7 @@ constexpr float_t __get_pelvisRotationWeight() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__VRIKCalibrator__Settings() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Settings New_ctor() ;
 
 /// @brief Method .ctor addr 0x1210168 size 0x204 virtual false final false
  void _ctor() ;
@@ -244,8 +252,7 @@ constexpr UnityEngine::Quaternion __get_localRotation() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "t", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target(UnityEngine::Transform t) ;
+static GlobalNamespace::RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target New_ctor(UnityEngine::Transform t) ;
 
 /// @brief Method .ctor addr 0x120f3c0 size 0xb4 virtual false final false
  void _ctor(UnityEngine::Transform t) ;
@@ -376,8 +383,7 @@ constexpr float_t __get_pelvisRotationWeight() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__VRIKCalibrator__CalibrationData() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__CalibrationData New_ctor() ;
 
 /// @brief Method .ctor addr 0x120eb40 size 0x8 virtual false final false
  void _ctor() ;

@@ -68,8 +68,7 @@ constexpr bool __get__isAny() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "methodName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlSchemaProviderAttribute(::StringW methodName) ;
+static System::Xml::Serialization::XmlSchemaProviderAttribute New_ctor(::StringW methodName) ;
 
 /// @brief Method .ctor addr 0x27185f0 size 0x28 virtual false final false
  void _ctor(::StringW methodName) ;

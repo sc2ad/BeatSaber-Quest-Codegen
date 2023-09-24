@@ -6,6 +6,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System {
+class Uri;
+}
+namespace System {
+struct DateTime;
+}
+namespace Newtonsoft::Json {
+struct JsonToken;
+}
+namespace System {
+struct Decimal;
+}
+namespace System::IO {
+class TextWriter;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
 namespace Newtonsoft::Json {
 template<typename T>
 class IArrayPool_1;
@@ -14,32 +33,13 @@ namespace Newtonsoft::Json::Utilities {
 class Base64Encoder;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
-struct Guid;
-}
-namespace System::IO {
-class TextWriter;
-}
-namespace Newtonsoft::Json {
-struct JsonToken;
+struct TimeSpan;
 }
 namespace System {
 struct DateTimeOffset;
 }
 namespace System {
-class Uri;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
-struct TimeSpan;
+struct Guid;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -198,8 +198,7 @@ constexpr ::ArrayW<char16_t> __get__indentChars() const;
 /// @brief Method set_QuoteName addr 0x24d14f4 size 0xc virtual false final false
  void set_QuoteName(bool value) ;
 
-// Ctor Parameters [CppParam { name: "textWriter", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
-explicit JsonTextWriter(System::IO::TextWriter textWriter) ;
+static Newtonsoft::Json::JsonTextWriter New_ctor(System::IO::TextWriter textWriter) ;
 
 /// @brief Method .ctor addr 0x24d1500 size 0xe0 virtual false final false
  void _ctor(System::IO::TextWriter textWriter) ;

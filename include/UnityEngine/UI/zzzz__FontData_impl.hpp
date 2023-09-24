@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__FontData_def.hpp"
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
-#include "UnityEngine/zzzz__TextAnchor_def.hpp"
 #include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
 #include "UnityEngine/zzzz__VerticalWrapMode_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
+#include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::FontData.get_defaultFontData
 template<>
 
@@ -801,8 +801,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UI::FontData::FontData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FontData>())) {}
+ UnityEngine::UI::FontData UnityEngine::UI::FontData::New_ctor()  {
+UnityEngine::UI::FontData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::FontData>())};
+return o;
+}
  void UnityEngine::UI::FontData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::FontData>::get(),

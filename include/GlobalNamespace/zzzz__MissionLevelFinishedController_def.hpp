@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
-}
-namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
+class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class ILevelEndActions;
 }
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
+class PrepareLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MissionObjectiveCheckersManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -98,8 +98,7 @@ constexpr GlobalNamespace::ILevelEndActions __get__gameplayManager() const;
 /// @brief Method StartLevelFinished addr 0x20d437c size 0xb0 virtual false final false
  void StartLevelFinished() ;
 
-// Ctor Parameters []
-explicit MissionLevelFinishedController() ;
+static GlobalNamespace::MissionLevelFinishedController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d442c size 0x8 virtual false final false
  void _ctor() ;

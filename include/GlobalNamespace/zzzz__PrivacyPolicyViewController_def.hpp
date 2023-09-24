@@ -4,18 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class LocalizedTextAsset;
+}
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PrivacyPolicyViewController__ButtonType;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace HMUI {
 class TextPageScrollView;
-}
-namespace GlobalNamespace {
-class LocalizedTextAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -72,6 +75,8 @@ __Ok = 0,
 constexpr operator __GlobalNamespace__PrivacyPolicyViewController__ButtonType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__PrivacyPolicyViewController__ButtonType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -202,8 +207,7 @@ constexpr bool __get__showIAcceptPrompt() const;
 /// @brief Method Init addr 0x217e978 size 0x14 virtual false final false
  void Init(bool showUpdate, bool showIAcceptPrompt) ;
 
-// Ctor Parameters []
-explicit PrivacyPolicyViewController() ;
+static GlobalNamespace::PrivacyPolicyViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217e98c size 0x8 virtual false final false
  void _ctor() ;

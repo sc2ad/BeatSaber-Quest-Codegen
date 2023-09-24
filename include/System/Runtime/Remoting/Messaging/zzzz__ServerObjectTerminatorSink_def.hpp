@@ -68,8 +68,7 @@ constexpr System::Runtime::Remoting::Messaging::IMessageSink __get__nextSink() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nextSink", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
-explicit ServerObjectTerminatorSink(System::Runtime::Remoting::Messaging::IMessageSink nextSink) ;
+static System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink New_ctor(System::Runtime::Remoting::Messaging::IMessageSink nextSink) ;
 
 /// @brief Method .ctor addr 0x2347350 size 0x28 virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMessageSink nextSink) ;

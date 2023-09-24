@@ -2,9 +2,10 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__StandaloneInputModule_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__StandaloneInputModule_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__StandaloneInputModule__InputMode::UnityEngine__EventSystems__StandaloneInputModule__InputMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -713,8 +714,10 @@ constexpr void UnityEngine::EventSystems::StandaloneInputModule::__set_m_ForceMo
 constexpr bool UnityEngine::EventSystems::StandaloneInputModule::__get_m_ForceModuleActive() const {
 return ::cordl_internals::getInstanceField<bool, 0xb8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::StandaloneInputModule::StandaloneInputModule()  : UnityEngine::EventSystems::PointerInputModule(THROW_UNLESS(::il2cpp_utils::New<StandaloneInputModule>())) {}
+ UnityEngine::EventSystems::StandaloneInputModule UnityEngine::EventSystems::StandaloneInputModule::New_ctor()  {
+UnityEngine::EventSystems::StandaloneInputModule o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::StandaloneInputModule>())};
+return o;
+}
  void UnityEngine::EventSystems::StandaloneInputModule::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::StandaloneInputModule>::get(),

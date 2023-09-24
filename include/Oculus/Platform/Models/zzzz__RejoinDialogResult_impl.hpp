@@ -23,8 +23,10 @@ constexpr void Oculus::Platform::Models::RejoinDialogResult::__set_RejoinSelecte
 constexpr bool Oculus::Platform::Models::RejoinDialogResult::__get_RejoinSelected() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::RejoinDialogResult::RejoinDialogResult(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RejoinDialogResult>(o))) {}
+ Oculus::Platform::Models::RejoinDialogResult Oculus::Platform::Models::RejoinDialogResult::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::RejoinDialogResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::RejoinDialogResult>(o))};
+return o;
+}
  void Oculus::Platform::Models::RejoinDialogResult::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::RejoinDialogResult>::get(),

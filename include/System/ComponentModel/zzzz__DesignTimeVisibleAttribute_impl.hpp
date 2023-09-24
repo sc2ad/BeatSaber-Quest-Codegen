@@ -110,8 +110,10 @@ return ::cordl_internals::getStaticField<System::ComponentModel::DesignTimeVisib
  System::ComponentModel::DesignTimeVisibleAttribute System::ComponentModel::DesignTimeVisibleAttribute::__get_Default()  {
 return ::cordl_internals::getStaticField<System::ComponentModel::DesignTimeVisibleAttribute, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DesignTimeVisibleAttribute>::get>();
 }
-// Ctor Parameters [CppParam { name: "visible", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::DesignTimeVisibleAttribute::DesignTimeVisibleAttribute(bool visible)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DesignTimeVisibleAttribute>(visible))) {}
+ System::ComponentModel::DesignTimeVisibleAttribute System::ComponentModel::DesignTimeVisibleAttribute::New_ctor(bool visible)  {
+System::ComponentModel::DesignTimeVisibleAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DesignTimeVisibleAttribute>(visible))};
+return o;
+}
  void System::ComponentModel::DesignTimeVisibleAttribute::_ctor(bool visible)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DesignTimeVisibleAttribute>::get(),

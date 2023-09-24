@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__GameObjectTestExceptionsSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__GameObjectTestExceptionsSO_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException.get_environmentInfo
 template<>
@@ -90,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException>())) {}
+ GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException>::get(),
@@ -150,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentInfoSO,::ArrayW<::StringW>>, false>(nullptr, ___internal_method, testExceptionArray);
 }
-// Ctor Parameters []
- GlobalNamespace::GameObjectTestExceptionsSO::GameObjectTestExceptionsSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<GameObjectTestExceptionsSO>())) {}
+ GlobalNamespace::GameObjectTestExceptionsSO GlobalNamespace::GameObjectTestExceptionsSO::New_ctor()  {
+GlobalNamespace::GameObjectTestExceptionsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameObjectTestExceptionsSO>())};
+return o;
+}
  void GlobalNamespace::GameObjectTestExceptionsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameObjectTestExceptionsSO>::get(),

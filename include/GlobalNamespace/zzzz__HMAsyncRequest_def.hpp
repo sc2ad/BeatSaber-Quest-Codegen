@@ -10,6 +10,9 @@ class AsyncCallback;
 namespace System {
 class IAsyncResult;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__HMAsyncRequest__CancelHander;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__HMAsyncRequest__CancelHander;
@@ -59,8 +62,7 @@ constexpr explicit GlobalNamespace__HMAsyncRequest__CancelHander(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__HMAsyncRequest__CancelHander(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__HMAsyncRequest__CancelHander New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x1f78710 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -156,8 +158,7 @@ constexpr GlobalNamespace::GlobalNamespace__HMAsyncRequest__CancelHander __get__
 /// @brief Method Cancel addr 0x1f78680 size 0x28 virtual true final false
  void Cancel() ;
 
-// Ctor Parameters []
-explicit HMAsyncRequest() ;
+static GlobalNamespace::HMAsyncRequest New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f786a8 size 0x4 virtual false final false
  void _ctor() ;

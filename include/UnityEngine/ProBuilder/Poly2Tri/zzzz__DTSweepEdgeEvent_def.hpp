@@ -65,8 +65,7 @@ constexpr bool __get_Right() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DTSweepEdgeEvent() ;
+static UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a0b28 size 0x8 virtual false final false
  void _ctor() ;

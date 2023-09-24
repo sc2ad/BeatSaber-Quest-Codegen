@@ -75,8 +75,7 @@ static constexpr int32_t  Unauthorized{6};
 /// @brief Method Generate addr 0x10160a0 size 0x318 virtual false final false
  Org::BouncyCastle::Ocsp::OcspResp Generate(int32_t status, ::bs_hook::Il2CppWrapperType response) ;
 
-// Ctor Parameters []
-explicit OCSPRespGenerator() ;
+static Org::BouncyCastle::Ocsp::OCSPRespGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x10163b8 size 0x8 virtual false final false
  void _ctor() ;

@@ -8,32 +8,50 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem {
-class IInputActionCollection;
+class InputDevice;
 }
-namespace System {
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace System::Collections::Generic {
 template<typename T>
-struct Nullable_1;
+class IEnumerator_1;
+}
+namespace UnityEngine::InputSystem {
+class InputActionMap;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride;
+struct UnityEngine__InputSystem__InputActionAsset__WriteFileJson;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
 namespace UnityEngine::InputSystem {
-class InputActionMap;
+class IInputActionCollection;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 struct Guid;
@@ -45,22 +63,16 @@ namespace UnityEngine::InputSystem {
 struct InputBinding;
 }
 namespace UnityEngine::InputSystem {
-class InputDevice;
+class IInputActionCollection2;
 }
 namespace UnityEngine::InputSystem {
 class InputActionState;
 }
 namespace UnityEngine::InputSystem {
-class IInputActionCollection2;
-}
-namespace System::Collections {
-class IEnumerable;
+struct UnityEngine__InputSystem__InputActionAsset__ReadFileJson;
 }
 namespace UnityEngine::InputSystem {
 struct UnityEngine__InputSystem__InputActionMap__DeviceArray;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
 }
 namespace System {
 class IDisposable;
@@ -347,8 +359,7 @@ constexpr int32_t __get__n_5__6() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8(int32_t __1__state) ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x28a6570 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -481,8 +492,7 @@ constexpr int32_t __get__n_5__5() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31(int32_t __1__state) ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x28a82fc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -726,8 +736,7 @@ static UnityEngine::InputSystem::InputActionAsset FromJson(::StringW json) ;
 /// @brief Method OnDestroy addr 0x28a8944 size 0x28 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit InputActionAsset() ;
+static UnityEngine::InputSystem::InputActionAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a896c size 0x8 virtual false final false
  void _ctor() ;

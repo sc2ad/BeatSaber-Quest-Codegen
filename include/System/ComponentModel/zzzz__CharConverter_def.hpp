@@ -5,11 +5,11 @@
 namespace System {
 class Type;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -66,8 +66,7 @@ constexpr explicit CharConverter(void* ptr) noexcept : System::ComponentModel::T
 /// @brief Method ConvertFrom addr 0x2774c6c size 0x188 virtual true final false
  ::bs_hook::Il2CppWrapperType ConvertFrom(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters []
-explicit CharConverter() ;
+static System::ComponentModel::CharConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2774df4 size 0x8 virtual false final false
  void _ctor() ;

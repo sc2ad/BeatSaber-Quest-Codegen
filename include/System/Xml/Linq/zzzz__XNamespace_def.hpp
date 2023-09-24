@@ -5,11 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml::Linq {
-class XName;
-}
-namespace System::Xml::Linq {
 template<typename TValue>
 class XHashtable_1;
+}
+namespace System::Xml::Linq {
+class XName;
 }
 namespace System {
 class WeakReference;
@@ -116,8 +116,7 @@ static System::Xml::Linq::XNamespace __declspec(property(get=get_Xmlns))  Xmlns;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "namespaceName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XNamespace(::StringW namespaceName) ;
+static System::Xml::Linq::XNamespace New_ctor(::StringW namespaceName) ;
 
 /// @brief Method .ctor addr 0x26cdf14 size 0xf0 virtual false final false
  void _ctor(::StringW namespaceName) ;

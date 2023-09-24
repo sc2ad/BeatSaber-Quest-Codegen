@@ -1,9 +1,9 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutputData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_GeneratedOutputData.IsEquivalentTo
 template<>
@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_GeneratedOutputData::HEU_GeneratedOutputData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_GeneratedOutputData>())) {}
+ HoudiniEngineUnity::HEU_GeneratedOutputData HoudiniEngineUnity::HEU_GeneratedOutputData::New_ctor()  {
+HoudiniEngineUnity::HEU_GeneratedOutputData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_GeneratedOutputData>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_GeneratedOutputData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_GeneratedOutputData>::get(),

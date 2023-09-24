@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__SM2Engine_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::SM2Engine._ctor
@@ -249,8 +249,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::SM2Engine::__set_mRandom(Org:
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Crypto::Engines::SM2Engine::__get_mRandom() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::SM2Engine::SM2Engine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM2Engine>())) {}
+ Org::BouncyCastle::Crypto::Engines::SM2Engine Org::BouncyCastle::Crypto::Engines::SM2Engine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::SM2Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::SM2Engine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::SM2Engine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::SM2Engine>::get(),
@@ -260,8 +262,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::SM2Engine::SM2Engine(Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM2Engine>(digest))) {}
+ Org::BouncyCastle::Crypto::Engines::SM2Engine Org::BouncyCastle::Crypto::Engines::SM2Engine::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Engines::SM2Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::SM2Engine>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::SM2Engine::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::SM2Engine>::get(),

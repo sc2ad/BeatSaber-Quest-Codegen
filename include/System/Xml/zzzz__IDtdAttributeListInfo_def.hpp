@@ -1,12 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml {
-class IDtdDefaultAttributeInfo;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System::Xml {
+class IDtdDefaultAttributeInfo;
 }
 namespace System::Xml {
 class IDtdAttributeInfo;

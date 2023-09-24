@@ -1,15 +1,15 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JConstructor_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenType_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JsonLoadSettings_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JsonMergeSettings_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JsonLoadSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JsonMergeSettings_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JConstructor.get_ChildrenTokens
 template<>
 
@@ -399,8 +399,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Newtonsoft::Json::Linq::JTokenType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JConstructor::JConstructor()  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JConstructor>())) {}
+ Newtonsoft::Json::Linq::JConstructor Newtonsoft::Json::Linq::JConstructor::New_ctor()  {
+Newtonsoft::Json::Linq::JConstructor o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JConstructor>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JConstructor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JConstructor>::get(),
@@ -410,8 +412,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JConstructor", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JConstructor::JConstructor(Newtonsoft::Json::Linq::JConstructor other)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JConstructor>(other))) {}
+ Newtonsoft::Json::Linq::JConstructor Newtonsoft::Json::Linq::JConstructor::New_ctor(Newtonsoft::Json::Linq::JConstructor other)  {
+Newtonsoft::Json::Linq::JConstructor o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JConstructor>(other))};
+return o;
+}
  void Newtonsoft::Json::Linq::JConstructor::_ctor(Newtonsoft::Json::Linq::JConstructor other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JConstructor>::get(),
@@ -421,8 +425,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JConstructor::JConstructor(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JConstructor>(name, content))) {}
+ Newtonsoft::Json::Linq::JConstructor Newtonsoft::Json::Linq::JConstructor::New_ctor(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content)  {
+Newtonsoft::Json::Linq::JConstructor o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JConstructor>(name, content))};
+return o;
+}
  void Newtonsoft::Json::Linq::JConstructor::_ctor(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JConstructor>::get(),
@@ -432,8 +438,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, content);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JConstructor::JConstructor(::StringW name, ::bs_hook::Il2CppWrapperType content)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JConstructor>(name, content))) {}
+ Newtonsoft::Json::Linq::JConstructor Newtonsoft::Json::Linq::JConstructor::New_ctor(::StringW name, ::bs_hook::Il2CppWrapperType content)  {
+Newtonsoft::Json::Linq::JConstructor o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JConstructor>(name, content))};
+return o;
+}
  void Newtonsoft::Json::Linq::JConstructor::_ctor(::StringW name, ::bs_hook::Il2CppWrapperType content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JConstructor>::get(),
@@ -443,8 +451,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, content);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JConstructor::JConstructor(::StringW name)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JConstructor>(name))) {}
+ Newtonsoft::Json::Linq::JConstructor Newtonsoft::Json::Linq::JConstructor::New_ctor(::StringW name)  {
+Newtonsoft::Json::Linq::JConstructor o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JConstructor>(name))};
+return o;
+}
  void Newtonsoft::Json::Linq::JConstructor::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JConstructor>::get(),

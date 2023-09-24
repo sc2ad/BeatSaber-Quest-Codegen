@@ -1,12 +1,13 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__InternalUtility_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__InternalUtility_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0._ctor
 template<>
@@ -48,8 +49,10 @@ constexpr void UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility
 constexpr ::StringW UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0::__get_valid() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0>())) {}
+ UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0 UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0::New_ctor()  {
+UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0>::get(),

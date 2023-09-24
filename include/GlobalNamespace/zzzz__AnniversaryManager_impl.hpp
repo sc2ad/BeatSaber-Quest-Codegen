@@ -2,10 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AnniversaryManager_def.hpp"
 #include "GlobalNamespace/zzzz__MainMenuViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MainMenuViewController_def.hpp"
 #include "GlobalNamespace/zzzz__FireworksController_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AnniversaryManager.Start
 template<>
 
@@ -191,8 +190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AnniversaryManager::AnniversaryManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AnniversaryManager>())) {}
+ GlobalNamespace::AnniversaryManager GlobalNamespace::AnniversaryManager::New_ctor()  {
+GlobalNamespace::AnniversaryManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AnniversaryManager>())};
+return o;
+}
  void GlobalNamespace::AnniversaryManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AnniversaryManager>::get(),

@@ -3,26 +3,26 @@
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
+class MainSettingsModelSO;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsData;
+class ColorScheme;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class SceneInfo;
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
@@ -31,19 +31,19 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
 class PracticeSettings;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace GlobalNamespace {
+class SceneInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -252,8 +252,7 @@ constexpr GlobalNamespace::ColorScheme __get__colorScheme_k__BackingField() cons
 /// @brief Method FinishWithDisconnect addr 0x21d3a8c size 0x28 virtual false final false
  void FinishWithDisconnect(GlobalNamespace::DisconnectedReason disconnectedReason) ;
 
-// Ctor Parameters []
-explicit MultiplayerLevelScenesTransitionSetupDataSO() ;
+static GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3ab4 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace UnityEngine::UI {
-class Image;
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
 }
 namespace HMUI {
 class HoverHint;
 }
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +74,7 @@ constexpr UnityEngine::UI::Image __get__iconImage() const;
 /// @brief Method SetModifier addr 0x2122f2c size 0x224 virtual false final false
  void SetModifier(GlobalNamespace::GameplayModifierParamsSO modifierParam, bool showName) ;
 
-// Ctor Parameters []
-explicit GameplayModifierInfoListItem() ;
+static GlobalNamespace::GameplayModifierInfoListItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2123150 size 0x8 virtual false final false
  void _ctor() ;

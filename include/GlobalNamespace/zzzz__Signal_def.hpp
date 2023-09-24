@@ -74,8 +74,7 @@ constexpr System::Action __get__event() const;
 /// @brief Method Unsubscribe addr 0x1f834e0 size 0x4 virtual false final false
  void Unsubscribe(System::Action foo) ;
 
-// Ctor Parameters []
-explicit Signal() ;
+static GlobalNamespace::Signal New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f834e4 size 0x8 virtual false final false
  void _ctor() ;

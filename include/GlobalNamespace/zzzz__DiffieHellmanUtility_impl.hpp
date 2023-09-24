@@ -1,15 +1,16 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__DiffieHellmanUtility_def.hpp"
-#include "GlobalNamespace/zzzz__IDiffieHellmanKeyPair_def.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__ECDHBasicAgreement_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__DHBasicAgreement_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__DiffieHellmanUtility_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "GlobalNamespace/zzzz__IDiffieHellmanKeyPair_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHPrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
@@ -71,8 +72,10 @@ constexpr void GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHel
 constexpr ::ArrayW<uint8_t> GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::__get_clientPublicKey() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0>())) {}
+ GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0 GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0>::get(),
@@ -184,8 +187,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "privateKeyParameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair>(privateKeyParameters, publicKey))) {}
+ GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair::New_ctor(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey)  {
+GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair>(privateKeyParameters, publicKey))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair::_ctor(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair>::get(),
@@ -259,8 +264,10 @@ constexpr void GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__Eliptical
 constexpr ::ArrayW<uint8_t> GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::__get_clientPublicKey() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0>())) {}
+ GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0 GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0>::get(),
@@ -372,8 +379,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "privateKeyParameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair>(privateKeyParameters, publicKey))) {}
+ GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair::New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey)  {
+GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair>(privateKeyParameters, publicKey))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair::_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair>::get(),
@@ -468,8 +477,10 @@ constexpr void GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__Operation
 constexpr ::StringW GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__OperationTimer::__get__operationName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "operationName", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__OperationTimer::GlobalNamespace__DiffieHellmanUtility__OperationTimer(::StringW operationName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DiffieHellmanUtility__OperationTimer>(operationName))) {}
+ GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__OperationTimer GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__OperationTimer::New_ctor(::StringW operationName)  {
+GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__OperationTimer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__OperationTimer>(operationName))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__OperationTimer::_ctor(::StringW operationName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__OperationTimer>::get(),

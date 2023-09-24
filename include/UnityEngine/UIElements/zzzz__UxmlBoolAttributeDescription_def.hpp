@@ -9,6 +9,9 @@ template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UxmlBoolAttributeDescription____c;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
@@ -84,8 +87,7 @@ static System::Func_3<::StringW,bool,bool> __get___9__4_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UxmlBoolAttributeDescription____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c98db0 size 0x8 virtual false final false
  void _ctor() ;
@@ -103,7 +105,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.UIElements::UxmlBoolAttributeDescription
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7073)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7073), inst: 99 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7073), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(7073))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7083))
 // CS Name: UnityEngine.UIElements.UxmlBoolAttributeDescription
 class CORDL_TYPE UxmlBoolAttributeDescription : public UnityEngine::UIElements::TypedUxmlAttributeDescription_1<bool> {
@@ -144,8 +146,7 @@ constexpr explicit UxmlBoolAttributeDescription(void* ptr) noexcept : UnityEngin
 
 // Methods
 
-// Ctor Parameters []
-explicit UxmlBoolAttributeDescription() ;
+static UnityEngine::UIElements::UxmlBoolAttributeDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c98948 size 0x9c virtual false final false
  void _ctor() ;

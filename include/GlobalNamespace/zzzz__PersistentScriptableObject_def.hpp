@@ -50,8 +50,7 @@ constexpr explicit PersistentScriptableObject(void* ptr) noexcept : UnityEngine:
 /// @brief Method OnEnable addr 0x1f79844 size 0x24 virtual true final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit PersistentScriptableObject() ;
+static GlobalNamespace::PersistentScriptableObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f79868 size 0x8 virtual false final false
  void _ctor() ;

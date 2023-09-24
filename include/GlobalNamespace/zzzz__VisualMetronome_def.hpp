@@ -3,19 +3,19 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-class RectTransform;
+struct Color;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace UnityEngine {
+class AudioSource;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct Color;
+class RectTransform;
 }
-namespace UnityEngine {
-class AudioSource;
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -198,8 +198,7 @@ constexpr bool __get__dontTickThisFrame() const;
 /// @brief Method SetMovingTickerNormalizedPosition addr 0x211ca04 size 0xc8 virtual false final false
  void SetMovingTickerNormalizedPosition(float_t t) ;
 
-// Ctor Parameters []
-explicit VisualMetronome() ;
+static GlobalNamespace::VisualMetronome New_ctor() ;
 
 /// @brief Method .ctor addr 0x211cacc size 0x3c virtual false final false
  void _ctor() ;

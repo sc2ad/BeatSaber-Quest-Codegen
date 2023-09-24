@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::BurstSliderGameNoteController, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BurstSliderNoteDisappearingArrowController::BurstSliderNoteDisappearingArrowController()  : GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::BurstSliderGameNoteController>(THROW_UNLESS(::il2cpp_utils::New<BurstSliderNoteDisappearingArrowController>())) {}
+ GlobalNamespace::BurstSliderNoteDisappearingArrowController GlobalNamespace::BurstSliderNoteDisappearingArrowController::New_ctor()  {
+GlobalNamespace::BurstSliderNoteDisappearingArrowController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BurstSliderNoteDisappearingArrowController>())};
+return o;
+}
  void GlobalNamespace::BurstSliderNoteDisappearingArrowController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BurstSliderNoteDisappearingArrowController>::get(),

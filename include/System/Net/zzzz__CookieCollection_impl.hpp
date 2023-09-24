@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Net/zzzz__CookieCollection_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Net/zzzz__CookieCollection_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/Net/zzzz__Cookie_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__CookieCollection__Stamp::System__Net__CookieCollection__Stamp(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -117,8 +118,10 @@ constexpr void System::Net::System__Net__CookieCollection__CookieCollectionEnume
 constexpr int32_t System::Net::System__Net__CookieCollection__CookieCollectionEnumerator::__get_m_version() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cookies", ty: "System::Net::CookieCollection", modifiers: "", def_value: None }]
- System::Net::System__Net__CookieCollection__CookieCollectionEnumerator::System__Net__CookieCollection__CookieCollectionEnumerator(System::Net::CookieCollection cookies)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__CookieCollection__CookieCollectionEnumerator>(cookies))) {}
+ System::Net::System__Net__CookieCollection__CookieCollectionEnumerator System::Net::System__Net__CookieCollection__CookieCollectionEnumerator::New_ctor(System::Net::CookieCollection cookies)  {
+System::Net::System__Net__CookieCollection__CookieCollectionEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__CookieCollection__CookieCollectionEnumerator>(cookies))};
+return o;
+}
  void System::Net::System__Net__CookieCollection__CookieCollectionEnumerator::_ctor(System::Net::CookieCollection cookies)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__CookieCollection__CookieCollectionEnumerator>::get(),
@@ -431,8 +434,10 @@ constexpr void System::Net::CookieCollection::__set_m_IsReadOnly(bool value)  {
 constexpr bool System::Net::CookieCollection::__get_m_IsReadOnly() const {
 return ::cordl_internals::getInstanceField<bool, 0x29>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::CookieCollection::CookieCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CookieCollection>())) {}
+ System::Net::CookieCollection System::Net::CookieCollection::New_ctor()  {
+System::Net::CookieCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::CookieCollection>())};
+return o;
+}
  void System::Net::CookieCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CookieCollection>::get(),

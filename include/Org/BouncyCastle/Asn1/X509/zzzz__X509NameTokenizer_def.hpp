@@ -79,14 +79,12 @@ constexpr System::Text::StringBuilder __get_buffer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit X509NameTokenizer(::StringW oid) ;
+static Org::BouncyCastle::Asn1::X509::X509NameTokenizer New_ctor(::StringW oid) ;
 
 /// @brief Method .ctor addr 0x111b34c size 0x8 virtual false final false
  void _ctor(::StringW oid) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "separator", ty: "char16_t", modifiers: "", def_value: None }]
-explicit X509NameTokenizer(::StringW oid, char16_t separator) ;
+static Org::BouncyCastle::Asn1::X509::X509NameTokenizer New_ctor(::StringW oid, char16_t separator) ;
 
 /// @brief Method .ctor addr 0x111b520 size 0x8c virtual false final false
  void _ctor(::StringW oid, char16_t separator) ;

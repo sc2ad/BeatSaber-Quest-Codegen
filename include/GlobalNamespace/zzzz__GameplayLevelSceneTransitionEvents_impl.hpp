@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__GameplayLevelSceneTransitionEvents_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameplayLevelSceneTransitionEvents.add_anyGameplayLevelDidFinishEvent
 template<>
 
@@ -185,8 +185,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "standardLevelScenesTransitionSetupData", ty: "GlobalNamespace::StandardLevelScenesTransitionSetupDataSO", modifiers: "", def_value: None }, CppParam { name: "missionLevelScenesTransitionSetupData", ty: "GlobalNamespace::MissionLevelScenesTransitionSetupDataSO", modifiers: "", def_value: None }, CppParam { name: "multiplayerLevelScenesTransitionSetupData", ty: "GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
- GlobalNamespace::GameplayLevelSceneTransitionEvents::GameplayLevelSceneTransitionEvents(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameplayLevelSceneTransitionEvents>(standardLevelScenesTransitionSetupData, missionLevelScenesTransitionSetupData, multiplayerLevelScenesTransitionSetupData))) {}
+ GlobalNamespace::GameplayLevelSceneTransitionEvents GlobalNamespace::GameplayLevelSceneTransitionEvents::New_ctor(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData)  {
+GlobalNamespace::GameplayLevelSceneTransitionEvents o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayLevelSceneTransitionEvents>(standardLevelScenesTransitionSetupData, missionLevelScenesTransitionSetupData, multiplayerLevelScenesTransitionSetupData))};
+return o;
+}
  void GlobalNamespace::GameplayLevelSceneTransitionEvents::_ctor(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplayLevelSceneTransitionEvents>::get(),

@@ -7,6 +7,9 @@
 namespace GlobalNamespace {
 struct OVRPose;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRTracker__Frustum;
+}
 namespace UnityEngine {
 struct Vector2;
 }
@@ -164,8 +167,7 @@ constexpr explicit OVRTracker(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 /// @brief Method GetPresent addr 0x26188cc size 0x104 virtual false final false
  bool GetPresent(int32_t tracker) ;
 
-// Ctor Parameters []
-explicit OVRTracker() ;
+static GlobalNamespace::OVRTracker New_ctor() ;
 
 /// @brief Method .ctor addr 0x2618e28 size 0x8 virtual false final false
  void _ctor() ;

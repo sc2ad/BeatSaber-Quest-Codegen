@@ -5,13 +5,13 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace UnityEngine {
-struct Vector2;
+class PlayerTransforms;
 }
 namespace GlobalNamespace {
-class BeatmapObjectAvoidancePathEvaluator;
+class IReadonlyBeatmapData;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class BezierSplineEvaluator;
@@ -20,22 +20,22 @@ namespace GlobalNamespace {
 struct OffsetDirection;
 }
 namespace GlobalNamespace {
-class BeatmapObjectAvoidanceTiltEvaluator;
-}
-namespace UnityEngine {
-class Transform;
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class BeatmapObjectAvoidanceYOffsetEvaluator;
 }
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-class BeatmapObjectAvoidanceYOffsetEvaluator;
+class BeatmapObjectAvoidanceTiltEvaluator;
+}
+namespace GlobalNamespace {
+class BeatmapObjectAvoidancePathEvaluator;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -194,8 +194,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method HandleBeatmapObjectSpawnControllerDidInit addr 0x20a6da4 size 0x4 virtual false final false
  void HandleBeatmapObjectSpawnControllerDidInit() ;
 
-// Ctor Parameters []
-explicit BeatmapObjectsAvoidance() ;
+static GlobalNamespace::BeatmapObjectsAvoidance New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a6da8 size 0x14 virtual false final false
  void _ctor() ;

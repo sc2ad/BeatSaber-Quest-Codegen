@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_def.hpp"
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class NoteController;
 }
 namespace GlobalNamespace {
-class NoteController;
+class BeatmapObjectManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,7 @@ constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() co
 /// @brief Method HandleNoteWasMissed addr 0x20d7d50 size 0x70 virtual false final false
  void HandleNoteWasMissed(GlobalNamespace::NoteController noteController) ;
 
-// Ctor Parameters []
-explicit MissMissionObjectiveChecker() ;
+static GlobalNamespace::MissMissionObjectiveChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d7dc0 size 0x8 virtual false final false
  void _ctor() ;

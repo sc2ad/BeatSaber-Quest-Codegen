@@ -3,30 +3,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsNetSerializable;
+}
+namespace GlobalNamespace {
 class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettingsNetSerializable;
-}
-namespace GlobalNamespace {
 class PlayerSpecificSettingsAtStartNetSerializable;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -150,8 +150,7 @@ constexpr System::Action_1<::StringW> __get_sceneSetupDidReceiveTooLateEvent() c
 /// @brief Method remove_sceneSetupDidReceiveTooLateEvent addr 0xdc7848 size 0xb0 virtual false final false
  void remove_sceneSetupDidReceiveTooLateEvent(System::Action_1<::StringW> value) ;
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "playersAtGameStartModel", ty: "GlobalNamespace::PlayersSpecificSettingsAtGameStartModel", modifiers: "", def_value: None }]
-explicit SceneStartHandler(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel) ;
+static GlobalNamespace::SceneStartHandler New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel) ;
 
 /// @brief Method .ctor addr 0xdc78f8 size 0xe8 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel) ;

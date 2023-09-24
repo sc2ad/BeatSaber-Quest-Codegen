@@ -98,8 +98,7 @@ constexpr UnityEngine::Texture2D __get__blackTexture() const;
 /// @brief Method SetTextureDataToShaders addr 0x219a278 size 0x13c virtual false final false
  void SetTextureDataToShaders() ;
 
-// Ctor Parameters []
-explicit BakedLightDataLoader() ;
+static GlobalNamespace::BakedLightDataLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x219a3b4 size 0x8 virtual false final false
  void _ctor() ;

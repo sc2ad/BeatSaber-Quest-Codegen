@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::Configuration::BypassElementCollection::BypassElementCollection()  : System::Configuration::ConfigurationElementCollection(THROW_UNLESS(::il2cpp_utils::New<BypassElementCollection>())) {}
+ System::Net::Configuration::BypassElementCollection System::Net::Configuration::BypassElementCollection::New_ctor()  {
+System::Net::Configuration::BypassElementCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Configuration::BypassElementCollection>())};
+return o;
+}
  void System::Net::Configuration::BypassElementCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Configuration::BypassElementCollection>::get(),

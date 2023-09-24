@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/Xml/zzzz__WriteState_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 //  Writing Method size for method: System::Xml::XmlWriter.WriteStartDocument
 template<>
 
@@ -858,8 +858,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::XmlWriter, false>(nullptr, ___internal_method, output, settings);
 }
-// Ctor Parameters []
- System::Xml::XmlWriter::XmlWriter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlWriter>())) {}
+ System::Xml::XmlWriter System::Xml::XmlWriter::New_ctor()  {
+System::Xml::XmlWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlWriter>())};
+return o;
+}
  void System::Xml::XmlWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlWriter>::get(),

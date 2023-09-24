@@ -7,44 +7,56 @@
 namespace Org::BouncyCastle::OpenSsl {
 class IPasswordFinder;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaPrivateCrtKeyParameters;
-}
 namespace System {
 class IDisposable;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 namespace GlobalNamespace {
 class ICertificateEncryptionProvider;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaPrivateCrtKeyParameters;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace Org::BouncyCastle::X509 {
 class X509CertificateParser;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatus;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
+namespace GlobalNamespace {
+class GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__X509CertificateUtility__PasswordFinder;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__X509CertificateUtility____c;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -116,14 +128,12 @@ constexpr ::ArrayW<char16_t> __get__password() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__X509CertificateUtility__PasswordFinder(::ArrayW<uint8_t> password) ;
+static GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder New_ctor(::ArrayW<uint8_t> password) ;
 
 /// @brief Method .ctor addr 0xdd01d8 size 0xb8 virtual false final false
  void _ctor(::ArrayW<uint8_t> password) ;
 
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GlobalNamespace__X509CertificateUtility__PasswordFinder(::StringW password) ;
+static GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder New_ctor(::StringW password) ;
 
 /// @brief Method .ctor addr 0xdd0290 size 0x3c virtual false final false
  void _ctor(::StringW password) ;
@@ -192,8 +202,7 @@ constexpr Org::BouncyCastle::Crypto::ISigner __get__signer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters", modifiers: "", def_value: None }]
-explicit GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters privateKey) ;
+static GlobalNamespace::GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider New_ctor(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters privateKey) ;
 
 /// @brief Method .ctor addr 0xdd02d4 size 0x10c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters privateKey) ;
@@ -329,8 +338,7 @@ constexpr System::Collections::IEnumerator __get___7__wrap2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0xdd0578 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -426,8 +434,7 @@ static System::Func_2<System::Security::Cryptography::X509Certificates::X509Chai
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__X509CertificateUtility____c() ;
+static GlobalNamespace::GlobalNamespace__X509CertificateUtility____c New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd0d28 size 0x8 virtual false final false
  void _ctor() ;

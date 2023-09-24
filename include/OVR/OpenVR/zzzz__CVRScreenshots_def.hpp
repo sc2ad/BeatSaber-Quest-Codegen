@@ -10,16 +10,16 @@ namespace OVR::OpenVR {
 struct EVRScreenshotType;
 }
 namespace OVR::OpenVR {
+struct IVRScreenshots;
+}
+namespace OVR::OpenVR {
 struct EVRScreenshotPropertyFilenames;
 }
 namespace OVR::OpenVR {
-struct IVRScreenshots;
+struct EVRScreenshotError;
 }
 namespace System::Text {
 class StringBuilder;
-}
-namespace OVR::OpenVR {
-struct EVRScreenshotError;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -76,8 +76,7 @@ constexpr OVR::OpenVR::IVRScreenshots __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRScreenshots(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRScreenshots New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x2667cfc size 0x11c virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

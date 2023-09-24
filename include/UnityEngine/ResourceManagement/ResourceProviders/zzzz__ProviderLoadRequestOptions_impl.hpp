@@ -159,8 +159,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::ProviderLoadRequestOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProviderLoadRequestOptions>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions>::get(),

@@ -382,8 +382,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyLength, state, stateOffset);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Salsa20Engine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Salsa20Engine>())) {}
+ Org::BouncyCastle::Crypto::Engines::Salsa20Engine Org::BouncyCastle::Crypto::Engines::Salsa20Engine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::Salsa20Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Salsa20Engine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Salsa20Engine>::get(),
@@ -393,8 +395,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rounds", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Salsa20Engine(int32_t rounds)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Salsa20Engine>(rounds))) {}
+ Org::BouncyCastle::Crypto::Engines::Salsa20Engine Org::BouncyCastle::Crypto::Engines::Salsa20Engine::New_ctor(int32_t rounds)  {
+Org::BouncyCastle::Crypto::Engines::Salsa20Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Salsa20Engine>(rounds))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor(int32_t rounds)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Salsa20Engine>::get(),

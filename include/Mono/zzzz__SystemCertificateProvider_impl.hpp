@@ -1,13 +1,13 @@
 #pragma once
 #include "Mono/zzzz__SystemCertificateProvider_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyStorageFlags_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "Mono/zzzz__CertificateImportFlags_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyStorageFlags_def.hpp"
-#include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"
 #include "Mono/zzzz__ISystemCertificateProvider_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Impl_def.hpp"
-#include "Mono/zzzz__X509PalImpl_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
+#include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"
+#include "Mono/zzzz__X509PalImpl_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Impl_def.hpp"
 //  Writing Method size for method: Mono::SystemCertificateProvider.GetX509Pal
 template<>
 
@@ -258,8 +258,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Security::Cryptography::X509Certificates::X509Certificate2Impl, false>(const_cast<void*>(instance), ___internal_method, cert, importFlags);
 }
-// Ctor Parameters []
- Mono::SystemCertificateProvider::SystemCertificateProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SystemCertificateProvider>())) {}
+ Mono::SystemCertificateProvider Mono::SystemCertificateProvider::New_ctor()  {
+Mono::SystemCertificateProvider o{THROW_UNLESS(::il2cpp_utils::New<Mono::SystemCertificateProvider>())};
+return o;
+}
  void Mono::SystemCertificateProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::SystemCertificateProvider>::get(),

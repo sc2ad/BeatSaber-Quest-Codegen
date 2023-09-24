@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMaskModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SongPackMasksModel._ctor
 template<>
 
@@ -82,8 +82,10 @@ constexpr void GlobalNamespace::SongPackMasksModel::__set__allSongPackMask(Globa
 constexpr GlobalNamespace::SongPackMask GlobalNamespace::SongPackMasksModel::__get__allSongPackMask() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::SongPackMask, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "songPackMasks", ty: "GlobalNamespace::SongPackMaskModelSO", modifiers: "", def_value: None }]
- GlobalNamespace::SongPackMasksModel::SongPackMasksModel(GlobalNamespace::SongPackMaskModelSO songPackMasks)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SongPackMasksModel>(songPackMasks))) {}
+ GlobalNamespace::SongPackMasksModel GlobalNamespace::SongPackMasksModel::New_ctor(GlobalNamespace::SongPackMaskModelSO songPackMasks)  {
+GlobalNamespace::SongPackMasksModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SongPackMasksModel>(songPackMasks))};
+return o;
+}
  void GlobalNamespace::SongPackMasksModel::_ctor(GlobalNamespace::SongPackMaskModelSO songPackMasks)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SongPackMasksModel>::get(),

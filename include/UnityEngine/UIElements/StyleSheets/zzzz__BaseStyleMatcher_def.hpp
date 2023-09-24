@@ -4,12 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+class Expression;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct UnityEngine__UIElements__StyleSheets__BaseStyleMatcher__MatchContext;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
-}
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-class Expression;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
@@ -268,8 +271,7 @@ constexpr UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSh
 /// @brief Method MatchDataType addr 0x2c77e7c size 0xfc virtual false final false
  bool MatchDataType(UnityEngine::UIElements::StyleSheets::Syntax::Expression exp) ;
 
-// Ctor Parameters []
-explicit BaseStyleMatcher() ;
+static UnityEngine::UIElements::StyleSheets::BaseStyleMatcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c784c0 size 0x7c virtual false final false
  void _ctor() ;

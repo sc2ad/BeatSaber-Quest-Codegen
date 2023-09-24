@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class Sprite;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+class Sprite;
 }
 // Forward declare root types
 namespace TMPro {
@@ -88,8 +88,7 @@ constexpr UnityEngine::Sprite __get_sprite() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMP_Sprite() ;
+static TMPro::TMP_Sprite New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aaa5b8 size 0x8 virtual false final false
  void _ctor() ;

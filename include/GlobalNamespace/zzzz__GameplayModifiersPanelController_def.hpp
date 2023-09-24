@@ -4,26 +4,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace HMUI {
-class ToggleBinder;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System {
-class Action;
+class GameplayModifierToggle;
 }
 namespace GlobalNamespace {
 class IRefreshable;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace HMUI {
+class ToggleBinder;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
@@ -32,10 +25,20 @@ namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class GameplayModifierToggle;
+class GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0;
 }
-namespace UnityEngine::UI {
-class Toggle;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +104,7 @@ constexpr GlobalNamespace::GameplayModifiersPanelController __get___4__this() co
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0() ;
+static GlobalNamespace::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x215bcd4 size 0x8 virtual false final false
  void _ctor() ;
@@ -265,8 +267,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayMo
 /// @brief Method IRefreshable.Refresh addr 0x215bfd8 size 0x104 virtual true final true
  void IRefreshable_Refresh() ;
 
-// Ctor Parameters []
-explicit GameplayModifiersPanelController() ;
+static GlobalNamespace::GameplayModifiersPanelController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215c0dc size 0x80 virtual false final false
  void _ctor() ;

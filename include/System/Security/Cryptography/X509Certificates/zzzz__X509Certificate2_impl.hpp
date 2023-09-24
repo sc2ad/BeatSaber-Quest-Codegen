@@ -1,19 +1,19 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ContentType_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X500DistinguishedName_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509NameType_def.hpp"
-#include "System/Security/Cryptography/zzzz__Oid_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Impl_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__PublicKey_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Security/Cryptography/zzzz__Oid_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509NameType_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__PublicKey_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ExtensionCollection_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Impl_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X500DistinguishedName_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509Certificate2.Reset
 template<>
 
@@ -530,8 +530,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certificate2()  : System::Security::Cryptography::X509Certificates::X509Certificate(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2>())) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2 System::Security::Cryptography::X509Certificates::X509Certificate2::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509Certificate2 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2>::get(),
@@ -541,8 +543,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certificate2(::ArrayW<uint8_t> rawData)  : System::Security::Cryptography::X509Certificates::X509Certificate(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2>(rawData))) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2 System::Security::Cryptography::X509Certificates::X509Certificate2::New_ctor(::ArrayW<uint8_t> rawData)  {
+System::Security::Cryptography::X509Certificates::X509Certificate2 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2>(rawData))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2::_ctor(::ArrayW<uint8_t> rawData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2>::get(),
@@ -552,8 +556,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, rawData);
 }
-// Ctor Parameters [CppParam { name: "impl", ty: "System::Security::Cryptography::X509Certificates::X509Certificate2Impl", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certificate2(System::Security::Cryptography::X509Certificates::X509Certificate2Impl impl)  : System::Security::Cryptography::X509Certificates::X509Certificate(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2>(impl))) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2 System::Security::Cryptography::X509Certificates::X509Certificate2::New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Impl impl)  {
+System::Security::Cryptography::X509Certificates::X509Certificate2 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2>(impl))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2::_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Impl impl)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2>::get(),
@@ -563,8 +569,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, impl);
 }
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certificate2(::StringW fileName)  : System::Security::Cryptography::X509Certificates::X509Certificate(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2>(fileName))) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2 System::Security::Cryptography::X509Certificates::X509Certificate2::New_ctor(::StringW fileName)  {
+System::Security::Cryptography::X509Certificates::X509Certificate2 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2>(fileName))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2::_ctor(::StringW fileName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2>::get(),
@@ -574,8 +582,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fileName);
 }
-// Ctor Parameters [CppParam { name: "certificate", ty: "System::Security::Cryptography::X509Certificates::X509Certificate", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certificate2(System::Security::Cryptography::X509Certificates::X509Certificate certificate)  : System::Security::Cryptography::X509Certificates::X509Certificate(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2>(certificate))) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2 System::Security::Cryptography::X509Certificates::X509Certificate2::New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate certificate)  {
+System::Security::Cryptography::X509Certificates::X509Certificate2 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2>(certificate))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2::_ctor(System::Security::Cryptography::X509Certificates::X509Certificate certificate)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2>::get(),
@@ -585,8 +595,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certificate);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Certificate2::X509Certificate2(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Security::Cryptography::X509Certificates::X509Certificate(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2>(info, context))) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2 System::Security::Cryptography::X509Certificates::X509Certificate2::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Security::Cryptography::X509Certificates::X509Certificate2 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2>(info, context))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2>::get(),

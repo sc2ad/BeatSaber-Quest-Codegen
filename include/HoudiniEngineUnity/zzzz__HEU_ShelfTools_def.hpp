@@ -8,21 +8,21 @@
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace HoudiniEngineUnity {
 class HEU_ShelfToolData;
 }
 namespace HoudiniEngineUnity {
 class HEU_Shelf;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -178,8 +178,7 @@ static ::StringW GetToolIconPath(HoudiniEngineUnity::HEU_ShelfToolData tool, ::S
 /// @brief Method GetToolAssetPath addr 0x2060e44 size 0x15c virtual false final false
 static ::StringW GetToolAssetPath(HoudiniEngineUnity::HEU_ShelfToolData tool, ::StringW inPath) ;
 
-// Ctor Parameters []
-explicit HEU_ShelfTools() ;
+static HoudiniEngineUnity::HEU_ShelfTools New_ctor() ;
 
 /// @brief Method .ctor addr 0x20626a8 size 0x8 virtual false final false
  void _ctor() ;

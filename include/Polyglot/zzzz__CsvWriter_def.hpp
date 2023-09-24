@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Text {
-class StringBuilder;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -64,8 +64,7 @@ static void AppendElement(System::Text::StringBuilder buffer, ::StringW element)
 /// @brief Method HasEscapeChars addr 0x2670110 size 0xb4 virtual false final false
 static bool HasEscapeChars(::StringW element) ;
 
-// Ctor Parameters []
-explicit CsvWriter() ;
+static Polyglot::CsvWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2670248 size 0x8 virtual false final false
  void _ctor() ;

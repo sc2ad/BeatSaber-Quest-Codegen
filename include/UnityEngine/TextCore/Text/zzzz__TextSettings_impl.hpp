@@ -2,13 +2,14 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__SpriteAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__UnicodeLineBreakingRules_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextStyleSheet_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__SpriteAsset_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__UnicodeLineBreakingRules_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__TextSettings__FontReferenceMap._ctor
 template<>
 
@@ -1060,8 +1061,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::TextCore::Text::FontAsset, false>(const_cast<void*>(instance), ___internal_method, font);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::TextSettings::TextSettings()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TextSettings>())) {}
+ UnityEngine::TextCore::Text::TextSettings UnityEngine::TextCore::Text::TextSettings::New_ctor()  {
+UnityEngine::TextCore::Text::TextSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::TextSettings>())};
+return o;
+}
  void UnityEngine::TextCore::Text::TextSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::TextSettings>::get(),

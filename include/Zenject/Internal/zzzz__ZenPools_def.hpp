@@ -4,47 +4,47 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Zenject {
-class BindStatement;
+template<typename TValue>
+class StaticMemoryPool_1;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Type;
+class InjectableInfo;
 }
 namespace Zenject::Internal {
 class LookupId;
 }
 namespace Zenject {
+class InjectContext;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-template<typename TValue>
-class StaticMemoryPool_1;
-}
-namespace Zenject {
 struct BindingId;
-}
-namespace Zenject {
-class InjectableInfo;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
+class BindStatement;
+}
+namespace Zenject {
 class DiContainer;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Zenject::Internal {

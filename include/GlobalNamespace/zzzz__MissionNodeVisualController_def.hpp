@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+namespace GlobalNamespace {
+class MissionToggle;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
 class MissionNode;
-}
-namespace GlobalNamespace {
-class MissionToggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -187,8 +187,7 @@ constexpr bool __get__interactable() const;
 /// @brief Method HandleMissionToggleSelectionDidChange addr 0x214aab0 size 0x40 virtual false final false
  void HandleMissionToggleSelectionDidChange(GlobalNamespace::MissionToggle toggle) ;
 
-// Ctor Parameters []
-explicit MissionNodeVisualController() ;
+static GlobalNamespace::MissionNodeVisualController New_ctor() ;
 
 /// @brief Method .ctor addr 0x214aaf0 size 0x8 virtual false final false
  void _ctor() ;

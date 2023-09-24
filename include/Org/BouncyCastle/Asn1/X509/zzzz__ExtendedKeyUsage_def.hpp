@@ -4,32 +4,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace System::Collections {
-class IEnumerable;
+class IList;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class KeyPurposeID;
 }
-namespace System::Collections {
-class ArrayList;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace System::Collections {
-class IList;
+class IEnumerable;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -106,26 +106,22 @@ static Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage GetInstance(::bs_hook::Il
 /// @brief Method FromExtensions addr 0x11032ac size 0x74 virtual false final false
 static Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage FromExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ExtendedKeyUsage(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1102ec8 size 0x3e4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "usages", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::KeyPurposeID>", modifiers: "", def_value: None }]
-explicit ExtendedKeyUsage(::ArrayW<Org::BouncyCastle::Asn1::X509::KeyPurposeID> usages) ;
+static Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::KeyPurposeID> usages) ;
 
 /// @brief Method .ctor addr 0x1103320 size 0x170 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::KeyPurposeID> usages) ;
 
-// Ctor Parameters [CppParam { name: "usages", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }]
-explicit ExtendedKeyUsage(System::Collections::ArrayList usages) ;
+static Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage New_ctor(System::Collections::ArrayList usages) ;
 
 /// @brief Method .ctor addr 0x1103490 size 0x4 virtual false final false
  void _ctor(System::Collections::ArrayList usages) ;
 
-// Ctor Parameters [CppParam { name: "usages", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit ExtendedKeyUsage(System::Collections::IEnumerable usages) ;
+static Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage New_ctor(System::Collections::IEnumerable usages) ;
 
 /// @brief Method .ctor addr 0x1103494 size 0x458 virtual false final false
  void _ctor(System::Collections::IEnumerable usages) ;

@@ -4,16 +4,16 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace System::Collections::Generic {
+template<typename T>
+class IComparer_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IComparer_1;
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 // Forward declare root types
 namespace System::Linq {

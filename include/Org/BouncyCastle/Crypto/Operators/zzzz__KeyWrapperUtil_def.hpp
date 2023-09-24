@@ -75,8 +75,7 @@ static Org::BouncyCastle::Crypto::IKeyWrapper WrapperForName(::StringW algorithm
 /// @brief Method UnwrapperForName addr 0xe9bf58 size 0x238 virtual false final false
 static Org::BouncyCastle::Crypto::IKeyUnwrapper UnwrapperForName(::StringW algorithm, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
-// Ctor Parameters []
-explicit KeyWrapperUtil() ;
+static Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil New_ctor() ;
 
 /// @brief Method .ctor addr 0xe9c190 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__AsymmetricSignatureDeformatter_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DSASignatureDeformatter_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSA_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::DSASignatureDeformatter._ctor
 template<>
 
@@ -100,8 +100,10 @@ constexpr void System::Security::Cryptography::DSASignatureDeformatter::__set__o
 constexpr ::StringW System::Security::Cryptography::DSASignatureDeformatter::__get__oid() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::DSASignatureDeformatter::DSASignatureDeformatter()  : System::Security::Cryptography::AsymmetricSignatureDeformatter(THROW_UNLESS(::il2cpp_utils::New<DSASignatureDeformatter>())) {}
+ System::Security::Cryptography::DSASignatureDeformatter System::Security::Cryptography::DSASignatureDeformatter::New_ctor()  {
+System::Security::Cryptography::DSASignatureDeformatter o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DSASignatureDeformatter>())};
+return o;
+}
  void System::Security::Cryptography::DSASignatureDeformatter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DSASignatureDeformatter>::get(),
@@ -111,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "System::Security::Cryptography::AsymmetricAlgorithm", modifiers: "", def_value: None }]
- System::Security::Cryptography::DSASignatureDeformatter::DSASignatureDeformatter(System::Security::Cryptography::AsymmetricAlgorithm key)  : System::Security::Cryptography::AsymmetricSignatureDeformatter(THROW_UNLESS(::il2cpp_utils::New<DSASignatureDeformatter>(key))) {}
+ System::Security::Cryptography::DSASignatureDeformatter System::Security::Cryptography::DSASignatureDeformatter::New_ctor(System::Security::Cryptography::AsymmetricAlgorithm key)  {
+System::Security::Cryptography::DSASignatureDeformatter o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DSASignatureDeformatter>(key))};
+return o;
+}
  void System::Security::Cryptography::DSASignatureDeformatter::_ctor(System::Security::Cryptography::AsymmetricAlgorithm key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DSASignatureDeformatter>::get(),

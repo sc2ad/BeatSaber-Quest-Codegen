@@ -5,15 +5,15 @@
 namespace HMUI {
 class UIKeyboard;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace HMUI {
 class InputFieldView;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +109,7 @@ constexpr GlobalNamespace::INetworkPlayer __get__selectedNetworkPlayer() const;
 /// @brief Method HandleUIKeyboardOkButtonWasPressed addr 0x2179988 size 0x3c virtual false final false
  void HandleUIKeyboardOkButtonWasPressed() ;
 
-// Ctor Parameters []
-explicit ServerPasswordEntryViewController() ;
+static GlobalNamespace::ServerPasswordEntryViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21799c4 size 0x8 virtual false final false
  void _ctor() ;

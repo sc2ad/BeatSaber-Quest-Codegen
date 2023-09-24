@@ -1,17 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+namespace UnityEngine {
+struct Color;
+}
 namespace GlobalNamespace {
 class SimpleColorSO;
 }
 namespace GlobalNamespace {
-class ColorSchemeSO;
-}
-namespace GlobalNamespace {
 class ColorScheme;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class ColorSchemeSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -133,8 +133,7 @@ constexpr GlobalNamespace::ColorScheme __get__colorScheme() const;
 /// @brief Method InitColors addr 0x2192420 size 0xbc virtual false final false
  void InitColors() ;
 
-// Ctor Parameters []
-explicit EnvironmentColorManager() ;
+static GlobalNamespace::EnvironmentColorManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x21924e4 size 0x8 virtual false final false
  void _ctor() ;

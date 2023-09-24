@@ -24,6 +24,18 @@ struct ETrackingUniverseOrigin;
 namespace System::Text {
 class StringBuilder;
 }
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 class OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor;
@@ -82,8 +94,7 @@ constexpr explicit OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26628ec size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -143,8 +154,7 @@ constexpr explicit OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2662a98 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -204,8 +214,7 @@ constexpr explicit OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2662ca4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -265,8 +274,7 @@ constexpr explicit OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2662e90 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

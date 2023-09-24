@@ -2,19 +2,22 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace System {
+template<typename TInput,typename TOutput>
+class Converter_2;
+}
 namespace UnityEngine {
 class TerrainLayer;
 }
 namespace HoudiniEngineUnity {
 class Test_TerrainLayer;
 }
-namespace System {
-template<typename TInput,typename TOutput>
-class Converter_2;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__Test_TerrainLayer_Extensions____c;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -86,8 +89,7 @@ static System::Converter_2<UnityEngine::TerrainLayer,HoudiniEngineUnity::Test_Te
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__Test_TerrainLayer_Extensions____c() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__Test_TerrainLayer_Extensions____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20753b8 size 0x8 virtual false final false
  void _ctor() ;

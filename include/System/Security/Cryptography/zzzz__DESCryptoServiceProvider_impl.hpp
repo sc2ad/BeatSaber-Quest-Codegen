@@ -87,8 +87,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::DESCryptoServiceProvider::DESCryptoServiceProvider()  : System::Security::Cryptography::DES(THROW_UNLESS(::il2cpp_utils::New<DESCryptoServiceProvider>())) {}
+ System::Security::Cryptography::DESCryptoServiceProvider System::Security::Cryptography::DESCryptoServiceProvider::New_ctor()  {
+System::Security::Cryptography::DESCryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DESCryptoServiceProvider>())};
+return o;
+}
  void System::Security::Cryptography::DESCryptoServiceProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DESCryptoServiceProvider>::get(),

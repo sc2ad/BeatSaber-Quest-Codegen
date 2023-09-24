@@ -47,8 +47,7 @@ constexpr explicit NavigationCancelEvent(void* ptr) noexcept : UnityEngine::UIEl
 
 // Methods
 
-// Ctor Parameters []
-explicit NavigationCancelEvent() ;
+static UnityEngine::UIElements::NavigationCancelEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdbeb0 size 0x48 virtual false final false
  void _ctor() ;

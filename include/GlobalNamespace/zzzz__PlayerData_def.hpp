@@ -4,60 +4,60 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class GameplayModifiers;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class PlayerLevelStatsData;
-}
-namespace GlobalNamespace {
-class ColorSchemesSettings;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace GlobalNamespace {
-class MultiplayerModeSettings;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
+class PlayerSpecificSettings;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class PlayerMissionStatsData;
-}
-namespace GlobalNamespace {
-class MissionHelpSO;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
 class PlayerAllOverallStatsData;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
+class MissionHelpSO;
+}
+namespace GlobalNamespace {
+class PlayerLevelStatsData;
+}
+namespace GlobalNamespace {
 class PlayerAgreements;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
+}
+namespace GlobalNamespace {
+class PlayerMissionStatsData;
+}
+namespace GlobalNamespace {
+class MultiplayerModeSettings;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class ColorSchemesSettings;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -505,14 +505,12 @@ constexpr System::Action __get_didIncreaseNumberOfGameplaysEvent() const;
 /// @brief Method remove_didIncreaseNumberOfGameplaysEvent addr 0x2221200 size 0x9c virtual false final false
  void remove_didIncreaseNumberOfGameplaysEvent(System::Action value) ;
 
-// Ctor Parameters [CppParam { name: "playerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lastSelectedBeatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "colorSchemesSettings", ty: "GlobalNamespace::ColorSchemesSettings", modifiers: "", def_value: None }, CppParam { name: "overrideEnvironmentSettings", ty: "GlobalNamespace::OverrideEnvironmentSettings", modifiers: "", def_value: None }]
-explicit PlayerData(::StringW playerId, ::StringW playerName, GlobalNamespace::BeatmapCharacteristicSO lastSelectedBeatmapCharacteristic, GlobalNamespace::ColorSchemesSettings colorSchemesSettings, GlobalNamespace::OverrideEnvironmentSettings overrideEnvironmentSettings) ;
+static GlobalNamespace::PlayerData New_ctor(::StringW playerId, ::StringW playerName, GlobalNamespace::BeatmapCharacteristicSO lastSelectedBeatmapCharacteristic, GlobalNamespace::ColorSchemesSettings colorSchemesSettings, GlobalNamespace::OverrideEnvironmentSettings overrideEnvironmentSettings) ;
 
 /// @brief Method .ctor addr 0x222129c size 0x2d4 virtual false final false
  void _ctor(::StringW playerId, ::StringW playerName, GlobalNamespace::BeatmapCharacteristicSO lastSelectedBeatmapCharacteristic, GlobalNamespace::ColorSchemesSettings colorSchemesSettings, GlobalNamespace::OverrideEnvironmentSettings overrideEnvironmentSettings) ;
 
-// Ctor Parameters [CppParam { name: "playerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "shouldShowTutorialPrompt", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "shouldShow360Warning", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "agreedToEula", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "didSelectLanguage", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "agreedToMultiplayerDisclaimer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "avatarCreated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "didSelectRegionVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "playerAgreements", ty: "GlobalNamespace::PlayerAgreements", modifiers: "", def_value: None }, CppParam { name: "lastSelectedBeatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "lastSelectedBeatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty: "GlobalNamespace::PlayerSpecificSettings", modifiers: "", def_value: None }, CppParam { name: "practiceSettings", ty: "GlobalNamespace::PracticeSettings", modifiers: "", def_value: None }, CppParam { name: "playerAllOverallStatsData", ty: "GlobalNamespace::PlayerAllOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "levelsStatsData", ty: "System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData>", modifiers: "", def_value: None }, CppParam { name: "missionsStatsData", ty: "System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData>", modifiers: "", def_value: None }, CppParam { name: "showedMissionHelpIds", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "guestPlayerNames", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "colorSchemesSettings", ty: "GlobalNamespace::ColorSchemesSettings", modifiers: "", def_value: None }, CppParam { name: "overrideEnvironmentSettings", ty: "GlobalNamespace::OverrideEnvironmentSettings", modifiers: "", def_value: None }, CppParam { name: "favoritesLevelIds", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "multiplayerModeSettings", ty: "GlobalNamespace::MultiplayerModeSettings", modifiers: "", def_value: None }, CppParam { name: "currentDlcPromoDisplayCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currentDlcPromoId", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PlayerData(::StringW playerId, ::StringW playerName, bool shouldShowTutorialPrompt, bool shouldShow360Warning, bool agreedToEula, bool didSelectLanguage, bool agreedToMultiplayerDisclaimer, bool avatarCreated, int32_t didSelectRegionVersion, GlobalNamespace::PlayerAgreements playerAgreements, GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO lastSelectedBeatmapCharacteristic, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, GlobalNamespace::PlayerAllOverallStatsData playerAllOverallStatsData, System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData> levelsStatsData, System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData> missionsStatsData, System::Collections::Generic::List_1<::StringW> showedMissionHelpIds, System::Collections::Generic::List_1<::StringW> guestPlayerNames, GlobalNamespace::ColorSchemesSettings colorSchemesSettings, GlobalNamespace::OverrideEnvironmentSettings overrideEnvironmentSettings, System::Collections::Generic::List_1<::StringW> favoritesLevelIds, GlobalNamespace::MultiplayerModeSettings multiplayerModeSettings, int32_t currentDlcPromoDisplayCount, ::StringW currentDlcPromoId) ;
+static GlobalNamespace::PlayerData New_ctor(::StringW playerId, ::StringW playerName, bool shouldShowTutorialPrompt, bool shouldShow360Warning, bool agreedToEula, bool didSelectLanguage, bool agreedToMultiplayerDisclaimer, bool avatarCreated, int32_t didSelectRegionVersion, GlobalNamespace::PlayerAgreements playerAgreements, GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO lastSelectedBeatmapCharacteristic, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, GlobalNamespace::PlayerAllOverallStatsData playerAllOverallStatsData, System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData> levelsStatsData, System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData> missionsStatsData, System::Collections::Generic::List_1<::StringW> showedMissionHelpIds, System::Collections::Generic::List_1<::StringW> guestPlayerNames, GlobalNamespace::ColorSchemesSettings colorSchemesSettings, GlobalNamespace::OverrideEnvironmentSettings overrideEnvironmentSettings, System::Collections::Generic::List_1<::StringW> favoritesLevelIds, GlobalNamespace::MultiplayerModeSettings multiplayerModeSettings, int32_t currentDlcPromoDisplayCount, ::StringW currentDlcPromoId) ;
 
 /// @brief Method .ctor addr 0x2221570 size 0x1fc virtual false final false
  void _ctor(::StringW playerId, ::StringW playerName, bool shouldShowTutorialPrompt, bool shouldShow360Warning, bool agreedToEula, bool didSelectLanguage, bool agreedToMultiplayerDisclaimer, bool avatarCreated, int32_t didSelectRegionVersion, GlobalNamespace::PlayerAgreements playerAgreements, GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO lastSelectedBeatmapCharacteristic, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, GlobalNamespace::PlayerAllOverallStatsData playerAllOverallStatsData, System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData> levelsStatsData, System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData> missionsStatsData, System::Collections::Generic::List_1<::StringW> showedMissionHelpIds, System::Collections::Generic::List_1<::StringW> guestPlayerNames, GlobalNamespace::ColorSchemesSettings colorSchemesSettings, GlobalNamespace::OverrideEnvironmentSettings overrideEnvironmentSettings, System::Collections::Generic::List_1<::StringW> favoritesLevelIds, GlobalNamespace::MultiplayerModeSettings multiplayerModeSettings, int32_t currentDlcPromoDisplayCount, ::StringW currentDlcPromoId) ;

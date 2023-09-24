@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__NoPauseGamePause_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoPauseGamePause.get_isPaused
 template<>
 
@@ -307,8 +307,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::NoPauseGamePause::NoPauseGamePause()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NoPauseGamePause>())) {}
+ GlobalNamespace::NoPauseGamePause GlobalNamespace::NoPauseGamePause::New_ctor()  {
+GlobalNamespace::NoPauseGamePause o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoPauseGamePause>())};
+return o;
+}
  void GlobalNamespace::NoPauseGamePause::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoPauseGamePause>::get(),

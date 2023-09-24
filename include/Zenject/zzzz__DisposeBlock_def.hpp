@@ -2,29 +2,25 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
-namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TValue>
-class IMemoryPool_6;
-}
-namespace Zenject {
-template<typename TValue>
-class IDespawnableMemoryPool_1;
-}
-namespace Zenject {
-template<typename TValue>
-class StaticMemoryPool_1;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TValue>
-class IMemoryPool_8;
+template<typename TValue>
+class StaticMemoryPool_1;
 }
 namespace Zenject {
-template<typename TValue>
-class IMemoryPool_1;
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TValue>
+class IMemoryPool_6;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TValue>
+class IMemoryPool_5;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TValue>
@@ -34,20 +30,19 @@ namespace System {
 class IDisposable;
 }
 namespace Zenject {
-template<typename TParam1,typename TValue>
-class IMemoryPool_2;
+template<typename TValue>
+class IMemoryPool_1;
+}
+namespace Zenject {
+struct Zenject__DisposeBlock__SpawnedObjectPoolPair;
+}
+namespace Zenject {
+template<typename TValue>
+class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TValue>
 class IMemoryPool_4;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TValue>
-class IMemoryPool_5;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -56,6 +51,14 @@ class List_1;
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TValue>
 class IMemoryPool_7;
+}
+namespace Zenject {
+template<typename TParam1,typename TValue>
+class IMemoryPool_2;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TValue>
+class IMemoryPool_8;
 }
 namespace Zenject {
 class IMemoryPool;
@@ -263,8 +266,7 @@ static Zenject::DisposeBlock Spawn() ;
 /// @brief Method Dispose addr 0x2da49c8 size 0x80 virtual true final true
  void Dispose() ;
 
-// Ctor Parameters []
-explicit DisposeBlock() ;
+static Zenject::DisposeBlock New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da4a48 size 0x8 virtual false final false
  void _ctor() ;

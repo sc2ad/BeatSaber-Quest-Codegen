@@ -5,17 +5,17 @@ namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
 }
 // Forward declare root types
 namespace HMUI {
@@ -105,8 +105,7 @@ constexpr System::Action_1<UnityEngine::EventSystems::PointerEventData> __get_po
 /// @brief Method OnPointerExit addr 0x1fa983c size 0x1c virtual true final true
  void OnPointerExit(UnityEngine::EventSystems::PointerEventData eventData) ;
 
-// Ctor Parameters []
-explicit EventSystemListener() ;
+static HMUI::EventSystemListener New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa9858 size 0x8 virtual false final false
  void _ctor() ;

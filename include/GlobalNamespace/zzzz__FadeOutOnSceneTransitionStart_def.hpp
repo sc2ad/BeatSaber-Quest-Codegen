@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class GameScenesManager;
+class FadeInOutController;
 }
 namespace GlobalNamespace {
-class FadeInOutController;
+class GameScenesManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,8 +78,7 @@ constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 /// @brief Method HandleGameScenesManagerTransitionDidStart addr 0x267649c size 0x1c virtual false final false
  void HandleGameScenesManagerTransitionDidStart(float_t duration) ;
 
-// Ctor Parameters []
-explicit FadeOutOnSceneTransitionStart() ;
+static GlobalNamespace::FadeOutOnSceneTransitionStart New_ctor() ;
 
 /// @brief Method .ctor addr 0x26764b8 size 0x8 virtual false final false
  void _ctor() ;

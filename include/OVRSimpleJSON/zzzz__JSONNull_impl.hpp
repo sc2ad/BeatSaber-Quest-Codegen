@@ -1,8 +1,8 @@
 #pragma once
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNull_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
 //  Writing Method size for method: OVRSimpleJSON::JSONNull.CreateOrGet
@@ -230,8 +230,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<OVRSimpleJSON::JSONNull, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- OVRSimpleJSON::JSONNull::JSONNull()  : OVRSimpleJSON::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONNull>())) {}
+ OVRSimpleJSON::JSONNull OVRSimpleJSON::JSONNull::New_ctor()  {
+OVRSimpleJSON::JSONNull o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::JSONNull>())};
+return o;
+}
  void OVRSimpleJSON::JSONNull::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::JSONNull>::get(),

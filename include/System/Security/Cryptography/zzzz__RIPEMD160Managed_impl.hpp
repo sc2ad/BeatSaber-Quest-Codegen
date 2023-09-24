@@ -246,8 +246,10 @@ constexpr void System::Security::Cryptography::RIPEMD160Managed::__set__blockDWo
 constexpr ::ArrayW<uint32_t> System::Security::Cryptography::RIPEMD160Managed::__get__blockDWords() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::RIPEMD160Managed::RIPEMD160Managed()  : System::Security::Cryptography::RIPEMD160(THROW_UNLESS(::il2cpp_utils::New<RIPEMD160Managed>())) {}
+ System::Security::Cryptography::RIPEMD160Managed System::Security::Cryptography::RIPEMD160Managed::New_ctor()  {
+System::Security::Cryptography::RIPEMD160Managed o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RIPEMD160Managed>())};
+return o;
+}
  void System::Security::Cryptography::RIPEMD160Managed::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RIPEMD160Managed>::get(),

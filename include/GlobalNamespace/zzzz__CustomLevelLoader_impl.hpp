@@ -51,8 +51,10 @@ constexpr void GlobalNamespace::CustomLevelLoader::__set__smallDefaultPackCover(
 constexpr UnityEngine::Sprite GlobalNamespace::CustomLevelLoader::__get__smallDefaultPackCover() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Sprite, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::CustomLevelLoader::CustomLevelLoader()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CustomLevelLoader>())) {}
+ GlobalNamespace::CustomLevelLoader GlobalNamespace::CustomLevelLoader::New_ctor()  {
+GlobalNamespace::CustomLevelLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CustomLevelLoader>())};
+return o;
+}
  void GlobalNamespace::CustomLevelLoader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CustomLevelLoader>::get(),

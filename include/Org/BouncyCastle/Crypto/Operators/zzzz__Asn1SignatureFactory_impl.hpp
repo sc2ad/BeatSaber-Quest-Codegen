@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__Asn1SignatureFactory_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory._ctor
 template<>
 
@@ -119,8 +119,10 @@ constexpr void Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::__set
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::__get_random() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::Asn1SignatureFactory(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1SignatureFactory>(algorithm, privateKey))) {}
+ Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::New_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  {
+Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory>(algorithm, privateKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory>::get(),
@@ -130,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithm, privateKey);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::Asn1SignatureFactory(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey, Org::BouncyCastle::Security::SecureRandom random)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1SignatureFactory>(algorithm, privateKey, random))) {}
+ Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::New_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey, Org::BouncyCastle::Security::SecureRandom random)  {
+Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory>(algorithm, privateKey, random))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey, Org::BouncyCastle::Security::SecureRandom random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory>::get(),

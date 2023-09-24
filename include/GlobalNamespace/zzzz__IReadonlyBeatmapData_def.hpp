@@ -1,41 +1,41 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class BeatmapDataItem;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedList_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedListNode_1;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
 namespace GlobalNamespace {
 class BeatmapData;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedList_1;
+}
 namespace GlobalNamespace {
-class BeatmapEventData;
+class BeatmapDataItem;
 }
 namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
 }
-namespace System {
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
+namespace System::Collections::Generic {
 template<typename T>
-class Action_1;
+class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -4,10 +4,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace OVR::OpenVR {
-struct VRControllerState_t;
+struct VRControllerAxis_t;
 }
 namespace OVR::OpenVR {
-struct VRControllerAxis_t;
+struct VRControllerState_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

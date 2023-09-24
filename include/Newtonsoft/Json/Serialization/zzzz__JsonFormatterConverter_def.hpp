@@ -4,17 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-struct Decimal;
-}
-namespace System {
-class Type;
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerInternalReader;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonProperty;
-}
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
 }
 namespace System {
 struct TypeCode;
@@ -25,8 +19,14 @@ struct DateTime;
 namespace Newtonsoft::Json::Serialization {
 class JsonISerializableContract;
 }
-namespace Newtonsoft::Json::Serialization {
-class JsonSerializerInternalReader;
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -98,8 +98,7 @@ constexpr Newtonsoft::Json::Serialization::JsonProperty __get__member() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reader", ty: "Newtonsoft::Json::Serialization::JsonSerializerInternalReader", modifiers: "", def_value: None }, CppParam { name: "contract", ty: "Newtonsoft::Json::Serialization::JsonISerializableContract", modifiers: "", def_value: None }, CppParam { name: "member", ty: "Newtonsoft::Json::Serialization::JsonProperty", modifiers: "", def_value: None }]
-explicit JsonFormatterConverter(Newtonsoft::Json::Serialization::JsonSerializerInternalReader reader, Newtonsoft::Json::Serialization::JsonISerializableContract contract, Newtonsoft::Json::Serialization::JsonProperty member) ;
+static Newtonsoft::Json::Serialization::JsonFormatterConverter New_ctor(Newtonsoft::Json::Serialization::JsonSerializerInternalReader reader, Newtonsoft::Json::Serialization::JsonISerializableContract contract, Newtonsoft::Json::Serialization::JsonProperty member) ;
 
 /// @brief Method .ctor addr 0x24f5858 size 0xa4 virtual false final false
  void _ctor(Newtonsoft::Json::Serialization::JsonSerializerInternalReader reader, Newtonsoft::Json::Serialization::JsonISerializableContract contract, Newtonsoft::Json::Serialization::JsonProperty member) ;

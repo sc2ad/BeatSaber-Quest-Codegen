@@ -8,17 +8,26 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Collections {
-class Stack;
-}
-namespace System {
-class Exception;
+namespace Mono::Xml {
+class Mono__Xml__SmallXmlParser__AttrListImpl;
 }
 namespace System::IO {
 class TextReader;
 }
+namespace Mono::Xml {
+class Mono__Xml__SmallXmlParser__IContentHandler;
+}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Collections {
+class Stack;
+}
+namespace Mono::Xml {
+class Mono__Xml__SmallXmlParser__IAttrList;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Mono::Xml {
@@ -218,8 +227,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get_attrValues() con
 /// @brief Method Add addr 0x22a79b0 size 0x114 virtual false final false
  void Add(::StringW name, ::StringW value) ;
 
-// Ctor Parameters []
-explicit Mono__Xml__SmallXmlParser__AttrListImpl() ;
+static Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl New_ctor() ;
 
 /// @brief Method .ctor addr 0x22a60f0 size 0xa0 virtual false final false
  void _ctor() ;
@@ -351,8 +359,7 @@ constexpr bool __get_resetColumn() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SmallXmlParser() ;
+static Mono::Xml::SmallXmlParser New_ctor() ;
 
 /// @brief Method .ctor addr 0x22a59e8 size 0x118 virtual false final false
  void _ctor() ;

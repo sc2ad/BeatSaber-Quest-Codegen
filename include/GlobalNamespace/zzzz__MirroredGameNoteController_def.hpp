@@ -5,33 +5,36 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+struct NoteVisualModifierType;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
 template<typename T>
 class ICubeNoteControllerInitializable_1;
 }
-namespace GlobalNamespace {
-class ColorManager;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class NoteMovement;
+class INoteVisualModifierTypeProvider;
 }
 namespace GlobalNamespace {
 class IGameNoteMirrorable;
 }
 namespace GlobalNamespace {
-class INoteVisualModifierTypeProvider;
-}
-namespace GlobalNamespace {
 class INoteMovementProvider;
 }
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
+class GlobalNamespace__MirroredGameNoteController__Pool;
+}
+namespace GlobalNamespace {
+class NoteMovement;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,7 +46,7 @@ class MirroredGameNoteController;
 // Type: ::MirroredGameNoteController
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4872)), TypeDefinitionIndex(TypeDefinitionIndex(4862)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4872), inst: 4483 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4872), inst: 4483 }), TypeDefinitionIndex(TypeDefinitionIndex(4862)), TypeDefinitionIndex(TypeDefinitionIndex(4872))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4871))
 // CS Name: MirroredGameNoteController
 class CORDL_TYPE MirroredGameNoteController : public GlobalNamespace::MirroredNoteController_1<GlobalNamespace::IGameNoteMirrorable> {
@@ -142,8 +145,7 @@ static int32_t __get__colorId() ;
 /// @brief Method Mirror addr 0x223d868 size 0x150 virtual true final false
  void Mirror(GlobalNamespace::IGameNoteMirrorable noteController) ;
 
-// Ctor Parameters []
-explicit MirroredGameNoteController() ;
+static GlobalNamespace::MirroredGameNoteController New_ctor() ;
 
 /// @brief Method .ctor addr 0x223d9b8 size 0x48 virtual false final false
  void _ctor() ;
@@ -155,7 +157,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4871)), TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 332 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4871)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 332 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4870))
 // CS Name: MirroredGameNoteController::Pool
 class CORDL_TYPE GlobalNamespace__MirroredGameNoteController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MirroredGameNoteController> {
@@ -194,8 +196,7 @@ constexpr explicit GlobalNamespace__MirroredGameNoteController__Pool(void* ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MirroredGameNoteController__Pool() ;
+static GlobalNamespace::GlobalNamespace__MirroredGameNoteController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x223da68 size 0x48 virtual false final false
  void _ctor() ;

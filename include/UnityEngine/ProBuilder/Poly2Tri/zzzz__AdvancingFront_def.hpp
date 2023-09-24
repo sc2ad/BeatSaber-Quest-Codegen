@@ -76,8 +76,7 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode __get_Search() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "head", ty: "UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode", modifiers: "", def_value: None }, CppParam { name: "tail", ty: "UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode", modifiers: "", def_value: None }]
-explicit AdvancingFront(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode tail) ;
+static UnityEngine::ProBuilder::Poly2Tri::AdvancingFront New_ctor(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode tail) ;
 
 /// @brief Method .ctor addr 0x299d0e8 size 0x30 virtual false final false
  void _ctor(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode tail) ;

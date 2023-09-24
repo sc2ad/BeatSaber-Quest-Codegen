@@ -5,6 +5,9 @@
 namespace GlobalNamespace {
 class IJumpOffsetYProvider;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__StaticJumpOffsetYProvider__InitData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__StaticJumpOffsetYProvider__InitData;
@@ -63,8 +66,7 @@ constexpr float_t __get_jumpyYOffset() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "jumpyYOffset", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__StaticJumpOffsetYProvider__InitData(float_t jumpyYOffset) ;
+static GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData New_ctor(float_t jumpyYOffset) ;
 
 /// @brief Method .ctor addr 0x224cf50 size 0x28 virtual false final false
  void _ctor(float_t jumpyYOffset) ;
@@ -137,8 +139,7 @@ constexpr GlobalNamespace::GlobalNamespace__StaticJumpOffsetYProvider__InitData 
 /// @brief Method get_jumpOffsetY addr 0x224cf2c size 0x1c virtual true final true
  float_t get_jumpOffsetY() ;
 
-// Ctor Parameters []
-explicit StaticJumpOffsetYProvider() ;
+static GlobalNamespace::StaticJumpOffsetYProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x224cf48 size 0x8 virtual false final false
  void _ctor() ;

@@ -76,8 +76,7 @@ constexpr ::ArrayW<uint32_t> __get__blockDWords() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RIPEMD160Managed() ;
+static System::Security::Cryptography::RIPEMD160Managed New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f3924 size 0x124 virtual false final false
  void _ctor() ;

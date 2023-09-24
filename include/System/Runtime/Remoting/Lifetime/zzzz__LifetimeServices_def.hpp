@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-struct TimeSpan;
-}
 namespace System::Runtime::Remoting::Lifetime {
 class LeaseManager;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System::Runtime::Remoting {
 class ServerIdentity;

@@ -6,10 +6,10 @@ template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
+class IPlayableOutput;
 }
 namespace UnityEngine::Playables {
-class IPlayableOutput;
+struct PlayableOutputHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

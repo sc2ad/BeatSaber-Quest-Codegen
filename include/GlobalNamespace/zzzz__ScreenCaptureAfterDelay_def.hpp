@@ -7,6 +7,9 @@
 namespace GlobalNamespace {
 struct GlobalNamespace__ScreenCaptureCache__ScreenshotType;
 }
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -14,8 +17,14 @@ class IEnumerator_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GlobalNamespace__ScreenCaptureAfterDelay__InitData;
+}
+namespace GlobalNamespace {
+class MainEffectController;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine {
 class RenderTexture;
@@ -24,10 +33,7 @@ namespace GlobalNamespace {
 class ScreenCaptureCache;
 }
 namespace GlobalNamespace {
-class MainEffectController;
-}
-namespace UnityEngine {
-class Texture2D;
+class GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +114,7 @@ constexpr int32_t __get_pixelsHeight() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "screenshotType", ty: "GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType", modifiers: "", def_value: None }, CppParam { name: "screenCaptureTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "pixelsWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pixelsHeight", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ScreenCaptureAfterDelay__InitData(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight) ;
+static GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData New_ctor(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight) ;
 
 /// @brief Method .ctor addr 0x267a388 size 0x60 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight) ;
@@ -197,8 +202,7 @@ constexpr GlobalNamespace::ScreenCaptureAfterDelay __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2679fbc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -310,8 +314,7 @@ constexpr UnityEngine::RenderTexture __get__captureRenderTexture() const;
 /// @brief Method HandleMainEffectControllerAfterImageEffectEvent addr 0x267a0c4 size 0x210 virtual false final false
  void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine::RenderTexture renderTexture) ;
 
-// Ctor Parameters []
-explicit ScreenCaptureAfterDelay() ;
+static GlobalNamespace::ScreenCaptureAfterDelay New_ctor() ;
 
 /// @brief Method .ctor addr 0x267a380 size 0x8 virtual false final false
  void _ctor() ;

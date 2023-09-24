@@ -5,33 +5,33 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class IComparable;
-}
-namespace System::Collections {
-class IEqualityComparer;
+class IValueTupleInternal;
 }
 namespace System::Collections {
 class IStructuralComparable;
+}
+namespace System {
+class IComparable;
+}
+namespace System::Collections {
+class IComparer;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace System::Collections {
+class IStructuralEquatable;
 }
 namespace System {
 template<typename T>
 class IComparable_1;
 }
 namespace System::Collections {
-class IStructuralEquatable;
-}
-namespace System::Collections {
-class IComparer;
+class IEqualityComparer;
 }
 namespace System::Runtime::CompilerServices {
 class ITuple;
-}
-namespace System {
-class IValueTupleInternal;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
 }
 // Forward declare root types
 namespace System {

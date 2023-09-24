@@ -47,8 +47,7 @@ constexpr explicit RazorLayoutAttribute(void* ptr) noexcept : System::Attribute(
 
 // Methods
 
-// Ctor Parameters []
-explicit RazorLayoutAttribute() ;
+static JetBrains::Annotations::RazorLayoutAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d414ac size 0x8 virtual false final false
  void _ctor() ;

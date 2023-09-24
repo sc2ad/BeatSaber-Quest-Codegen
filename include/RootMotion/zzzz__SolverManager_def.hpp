@@ -144,8 +144,7 @@ constexpr bool __get_skipSolverUpdate() const;
 /// @brief Method UpdateSolverExternal addr 0x11b5524 size 0x38 virtual false final false
  void UpdateSolverExternal() ;
 
-// Ctor Parameters []
-explicit SolverManager() ;
+static RootMotion::SolverManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b555c size 0x10 virtual false final false
  void _ctor() ;

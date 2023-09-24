@@ -79,8 +79,7 @@ constexpr UnityEngine::Renderer __get__renderer() const;
 /// @brief Method Awake addr 0x1f93e74 size 0x64 virtual true final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundParticleSystemRenderer() ;
+static GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f93ed8 size 0x54 virtual false final false
  void _ctor() ;

@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObjectGenerator;
-}
-namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
 }
 namespace System::IO {
 class TextWriter;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObjectGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO::Pem {
@@ -88,8 +88,7 @@ constexpr ::ArrayW<char16_t> __get_buf() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
-explicit PemWriter(System::IO::TextWriter writer) ;
+static Org::BouncyCastle::Utilities::IO::Pem::PemWriter New_ctor(System::IO::TextWriter writer) ;
 
 /// @brief Method .ctor addr 0x1047edc size 0xfc virtual false final false
  void _ctor(System::IO::TextWriter writer) ;

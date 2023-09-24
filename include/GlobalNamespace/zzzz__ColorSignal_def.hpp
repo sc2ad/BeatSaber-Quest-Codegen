@@ -9,7 +9,7 @@ class ColorSignal;
 // Type: ::ColorSignal
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13881)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 280 }), TypeDefinitionIndex(TypeDefinitionIndex(10192))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 280 }), TypeDefinitionIndex(TypeDefinitionIndex(10192)), TypeDefinitionIndex(TypeDefinitionIndex(13881))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13877))
 // CS Name: ColorSignal
 class CORDL_TYPE ColorSignal : public GlobalNamespace::GenericSignal_1<UnityEngine::Color> {
@@ -48,8 +48,7 @@ constexpr explicit ColorSignal(void* ptr) noexcept : GlobalNamespace::GenericSig
 
 // Methods
 
-// Ctor Parameters []
-explicit ColorSignal() ;
+static GlobalNamespace::ColorSignal New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f830e4 size 0x48 virtual false final false
  void _ctor() ;

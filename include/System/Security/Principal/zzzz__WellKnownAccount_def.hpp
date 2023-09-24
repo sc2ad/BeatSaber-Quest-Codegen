@@ -151,8 +151,7 @@ static System::Security::Principal::WellKnownAccount LookupByName(::StringW s) ;
 /// @brief Method LookupBySddlForm addr 0x230d2a4 size 0xc0 virtual false final false
 static System::Security::Principal::WellKnownAccount LookupBySddlForm(::StringW s) ;
 
-// Ctor Parameters []
-explicit WellKnownAccount() ;
+static System::Security::Principal::WellKnownAccount New_ctor() ;
 
 /// @brief Method .ctor addr 0x230d5b8 size 0x8 virtual false final false
  void _ctor() ;

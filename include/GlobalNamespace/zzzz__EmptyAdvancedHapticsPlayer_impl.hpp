@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__EmptyAdvancedHapticsPlayer_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EmptyAdvancedHapticsPlayer.PlayHapticFeedback
 template<>
 
@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, hapticPreset);
 }
-// Ctor Parameters []
- GlobalNamespace::EmptyAdvancedHapticsPlayer::EmptyAdvancedHapticsPlayer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EmptyAdvancedHapticsPlayer>())) {}
+ GlobalNamespace::EmptyAdvancedHapticsPlayer GlobalNamespace::EmptyAdvancedHapticsPlayer::New_ctor()  {
+GlobalNamespace::EmptyAdvancedHapticsPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EmptyAdvancedHapticsPlayer>())};
+return o;
+}
  void GlobalNamespace::EmptyAdvancedHapticsPlayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EmptyAdvancedHapticsPlayer>::get(),

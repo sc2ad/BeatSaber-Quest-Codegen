@@ -10,39 +10,63 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine {
-class RectTransform;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace HMUI {
-class VerticalScrollIndicator;
-}
-namespace HMUI {
-class ItemForFocussedScrolling;
-}
-namespace UnityEngine::UI {
-class Button;
+class HMUI__ScrollView____c__DisplayClass56_0;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace HMUI {
-class EventSystemListener;
+struct HMUI__ScrollView__ScrollDirection;
+}
+namespace HMUI {
+class HMUI__ScrollView____c__DisplayClass61_1;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace HMUI {
+class HMUI__ScrollView____c__DisplayClass55_0;
+}
+namespace HMUI {
+class HMUI__ScrollView____c__DisplayClass61_0;
+}
+namespace HMUI {
+struct HMUI__ScrollView__ScrollViewDirection;
+}
+namespace HMUI {
+class EventSystemListener;
+}
+namespace HMUI {
+class ItemForFocussedScrolling;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace HMUI {
+class HMUI__ScrollView____c;
+}
+namespace HMUI {
+struct HMUI__ScrollView__ScrollType;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace HMUI {
+class VerticalScrollIndicator;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace HMUI {
@@ -123,6 +147,8 @@ constexpr operator __HMUI__ScrollView__ScrollType_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__ScrollView__ScrollType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -197,6 +223,8 @@ __Right = 4,
 constexpr operator __HMUI__ScrollView__ScrollDirection_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__ScrollView__ScrollDirection_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -275,6 +303,8 @@ __Horizontal = 1,
 constexpr operator __HMUI__ScrollView__ScrollViewDirection_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__ScrollView__ScrollViewDirection_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -358,8 +388,7 @@ static System::Func_2<float_t,float_t> __get___9__42_3() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ScrollView____c() ;
+static HMUI::HMUI__ScrollView____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd1570 size 0x8 virtual false final false
  void _ctor() ;
@@ -425,8 +454,7 @@ constexpr float_t __get_threshold() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ScrollView____c__DisplayClass55_0() ;
+static HMUI::HMUI__ScrollView____c__DisplayClass55_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd10cc size 0x8 virtual false final false
  void _ctor() ;
@@ -489,8 +517,7 @@ constexpr float_t __get_threshold() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ScrollView____c__DisplayClass56_0() ;
+static HMUI::HMUI__ScrollView____c__DisplayClass56_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd13e8 size 0x8 virtual false final false
  void _ctor() ;
@@ -553,8 +580,7 @@ constexpr float_t __get_threshold() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ScrollView____c__DisplayClass61_0() ;
+static HMUI::HMUI__ScrollView____c__DisplayClass61_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd145c size 0x8 virtual false final false
  void _ctor() ;
@@ -617,8 +643,7 @@ constexpr float_t __get_threshold() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ScrollView____c__DisplayClass61_1() ;
+static HMUI::HMUI__ScrollView____c__DisplayClass61_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd1464 size 0x8 virtual false final false
  void _ctor() ;
@@ -940,8 +965,7 @@ constexpr float_t __get__joystickScrollStartTime() const;
 /// @brief Method ResolveScrollDirection addr 0x1fd140c size 0x50 virtual false final false
  HMUI::HMUI__ScrollView__ScrollDirection ResolveScrollDirection(UnityEngine::Vector2 deltaPos) ;
 
-// Ctor Parameters []
-explicit ScrollView() ;
+static HMUI::ScrollView New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd146c size 0x30 virtual false final false
  void _ctor() ;

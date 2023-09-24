@@ -192,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- JetBrains::Annotations::MacroAttribute::MacroAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MacroAttribute>())) {}
+ JetBrains::Annotations::MacroAttribute JetBrains::Annotations::MacroAttribute::New_ctor()  {
+JetBrains::Annotations::MacroAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::MacroAttribute>())};
+return o;
+}
  void JetBrains::Annotations::MacroAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::MacroAttribute>::get(),

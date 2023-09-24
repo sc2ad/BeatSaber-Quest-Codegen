@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "RootMotion/Demos/zzzz__Navigator_def.hpp"
-#include "UnityEngine/AI/zzzz__NavMeshPath_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/AI/zzzz__NavMeshPath_def.hpp"
+#include "RootMotion/Demos/zzzz__Navigator_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr RootMotion::Demos::RootMotion__Demos__Navigator__State::RootMotion__Demos__Navigator__State(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -403,8 +404,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::Demos::Navigator::Navigator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Navigator>())) {}
+ RootMotion::Demos::Navigator RootMotion::Demos::Navigator::New_ctor()  {
+RootMotion::Demos::Navigator o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::Demos::Navigator>())};
+return o;
+}
  void RootMotion::Demos::Navigator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::Demos::Navigator>::get(),

@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/Xml/Schema/zzzz__RestrictionFacets_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::FacetsChecker.CheckLexicalFacets
 template<>
 
@@ -467,8 +467,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Decimal, false>(nullptr, ___internal_method, x, y);
 }
-// Ctor Parameters []
- System::Xml::Schema::FacetsChecker::FacetsChecker()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FacetsChecker>())) {}
+ System::Xml::Schema::FacetsChecker System::Xml::Schema::FacetsChecker::New_ctor()  {
+System::Xml::Schema::FacetsChecker o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::FacetsChecker>())};
+return o;
+}
  void System::Xml::Schema::FacetsChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::FacetsChecker>::get(),

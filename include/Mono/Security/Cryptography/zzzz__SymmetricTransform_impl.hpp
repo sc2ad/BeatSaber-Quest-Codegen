@@ -1,8 +1,8 @@
 #pragma once
 #include "Mono/Security/Cryptography/zzzz__SymmetricTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_def.hpp"
 //  Writing Method size for method: Mono::Security::Cryptography::SymmetricTransform._ctor
@@ -459,8 +459,10 @@ constexpr void Mono::Security::Cryptography::SymmetricTransform::__set__rng(Syst
 constexpr System::Security::Cryptography::RandomNumberGenerator Mono::Security::Cryptography::SymmetricTransform::__get__rng() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::RandomNumberGenerator, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "symmAlgo", ty: "System::Security::Cryptography::SymmetricAlgorithm", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rgbIV", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::Cryptography::SymmetricTransform::SymmetricTransform(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SymmetricTransform>(symmAlgo, encryption, rgbIV))) {}
+ Mono::Security::Cryptography::SymmetricTransform Mono::Security::Cryptography::SymmetricTransform::New_ctor(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV)  {
+Mono::Security::Cryptography::SymmetricTransform o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::SymmetricTransform>(symmAlgo, encryption, rgbIV))};
+return o;
+}
  void Mono::Security::Cryptography::SymmetricTransform::_ctor(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::SymmetricTransform>::get(),

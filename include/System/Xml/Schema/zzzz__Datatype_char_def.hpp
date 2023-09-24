@@ -8,14 +8,14 @@
 namespace System::Xml {
 class XmlNameTable;
 }
+namespace System {
+class Type;
+}
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System {
 class Exception;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -100,8 +100,7 @@ static System::Type __get_listValueType() ;
 /// @brief Method TryParseValue addr 0x272bd74 size 0xac virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_char() ;
+static System::Xml::Schema::Datatype_char New_ctor() ;
 
 /// @brief Method .ctor addr 0x272be20 size 0x54 virtual false final false
  void _ctor() ;

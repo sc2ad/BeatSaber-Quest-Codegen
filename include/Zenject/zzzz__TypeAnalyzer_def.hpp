@@ -2,27 +2,30 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System {
-class Type;
-}
-namespace Zenject {
-struct ReflectionBakingCoverageModes;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace Zenject {
+class Zenject__TypeAnalyzer____c__DisplayClass23_0;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
-namespace Zenject::Internal {
-class Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo;
+namespace Zenject {
+struct ReflectionBakingCoverageModes;
 }
 namespace Zenject::Internal {
 class Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo;
 }
 namespace Zenject {
 class Zenject__InjectTypeInfo__InjectMemberInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -82,8 +85,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__TypeAnalyzer____c__DisplayClass23_0() ;
+static Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da5b98 size 0x8 virtual false final false
  void _ctor() ;

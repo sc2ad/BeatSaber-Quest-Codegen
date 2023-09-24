@@ -75,8 +75,7 @@ constexpr System::Collections::IEnumerator __get_enumerator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "enumerable", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit X509ChainElementEnumerator(System::Collections::IEnumerable enumerable) ;
+static System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator New_ctor(System::Collections::IEnumerable enumerable) ;
 
 /// @brief Method .ctor addr 0x27edc7c size 0xb4 virtual false final false
  void _ctor(System::Collections::IEnumerable enumerable) ;

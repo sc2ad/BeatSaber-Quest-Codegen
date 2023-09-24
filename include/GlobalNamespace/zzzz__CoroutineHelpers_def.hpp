@@ -13,6 +13,9 @@ class Coroutine;
 namespace System {
 class Action;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -115,8 +118,7 @@ constexpr System::Action __get_action() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f76300 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;

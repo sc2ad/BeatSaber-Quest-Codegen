@@ -57,8 +57,7 @@ constexpr explicit IdentityReference(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Methods
 
-// Ctor Parameters []
-explicit IdentityReference() ;
+static System::Security::Principal::IdentityReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x230bbe8 size 0x8 virtual false final false
  void _ctor() ;

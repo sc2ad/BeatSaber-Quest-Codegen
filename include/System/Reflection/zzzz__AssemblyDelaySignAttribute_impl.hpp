@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyDelaySignAttribute::__set__DelaySign_
 constexpr bool System::Reflection::AssemblyDelaySignAttribute::__get__DelaySign_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "delaySign", ty: "bool", modifiers: "", def_value: None }]
- System::Reflection::AssemblyDelaySignAttribute::AssemblyDelaySignAttribute(bool delaySign)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyDelaySignAttribute>(delaySign))) {}
+ System::Reflection::AssemblyDelaySignAttribute System::Reflection::AssemblyDelaySignAttribute::New_ctor(bool delaySign)  {
+System::Reflection::AssemblyDelaySignAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyDelaySignAttribute>(delaySign))};
+return o;
+}
  void System::Reflection::AssemblyDelaySignAttribute::_ctor(bool delaySign)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyDelaySignAttribute>::get(),

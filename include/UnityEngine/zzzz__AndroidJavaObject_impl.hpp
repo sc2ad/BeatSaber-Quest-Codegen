@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaRunnable_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaClass_def.hpp"
 #include "UnityEngine/zzzz__GlobalJavaObjectRef_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaRunnable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: UnityEngine::AndroidJavaObject._ctor
 template<>
 
@@ -452,8 +452,10 @@ constexpr void UnityEngine::AndroidJavaObject::__set_m_jclass(UnityEngine::Globa
 constexpr UnityEngine::GlobalJavaObjectRef UnityEngine::AndroidJavaObject::__get_m_jclass() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GlobalJavaObjectRef, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaObject::AndroidJavaObject(::StringW className, ::ArrayW<::StringW> args)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaObject>(className, args))) {}
+ UnityEngine::AndroidJavaObject UnityEngine::AndroidJavaObject::New_ctor(::StringW className, ::ArrayW<::StringW> args)  {
+UnityEngine::AndroidJavaObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaObject>(className, args))};
+return o;
+}
  void UnityEngine::AndroidJavaObject::_ctor(::StringW className, ::ArrayW<::StringW> args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaObject>::get(),
@@ -463,8 +465,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, className, args);
 }
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<UnityEngine::AndroidJavaObject>", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaObject::AndroidJavaObject(::StringW className, ::ArrayW<UnityEngine::AndroidJavaObject> args)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaObject>(className, args))) {}
+ UnityEngine::AndroidJavaObject UnityEngine::AndroidJavaObject::New_ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaObject> args)  {
+UnityEngine::AndroidJavaObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaObject>(className, args))};
+return o;
+}
  void UnityEngine::AndroidJavaObject::_ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaObject> args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaObject>::get(),
@@ -474,8 +478,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, className, args);
 }
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<UnityEngine::AndroidJavaClass>", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaObject::AndroidJavaObject(::StringW className, ::ArrayW<UnityEngine::AndroidJavaClass> args)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaObject>(className, args))) {}
+ UnityEngine::AndroidJavaObject UnityEngine::AndroidJavaObject::New_ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaClass> args)  {
+UnityEngine::AndroidJavaObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaObject>(className, args))};
+return o;
+}
  void UnityEngine::AndroidJavaObject::_ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaClass> args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaObject>::get(),
@@ -485,8 +491,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, className, args);
 }
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<UnityEngine::AndroidJavaProxy>", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaObject::AndroidJavaObject(::StringW className, ::ArrayW<UnityEngine::AndroidJavaProxy> args)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaObject>(className, args))) {}
+ UnityEngine::AndroidJavaObject UnityEngine::AndroidJavaObject::New_ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaProxy> args)  {
+UnityEngine::AndroidJavaObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaObject>(className, args))};
+return o;
+}
  void UnityEngine::AndroidJavaObject::_ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaProxy> args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaObject>::get(),
@@ -496,8 +504,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, className, args);
 }
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<UnityEngine::AndroidJavaRunnable>", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaObject::AndroidJavaObject(::StringW className, ::ArrayW<UnityEngine::AndroidJavaRunnable> args)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaObject>(className, args))) {}
+ UnityEngine::AndroidJavaObject UnityEngine::AndroidJavaObject::New_ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaRunnable> args)  {
+UnityEngine::AndroidJavaObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaObject>(className, args))};
+return o;
+}
  void UnityEngine::AndroidJavaObject::_ctor(::StringW className, ::ArrayW<UnityEngine::AndroidJavaRunnable> args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaObject>::get(),
@@ -507,8 +517,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, className, args);
 }
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaObject::AndroidJavaObject(::StringW className, ::ArrayW<::bs_hook::Il2CppWrapperType> args)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaObject>(className, args))) {}
+ UnityEngine::AndroidJavaObject UnityEngine::AndroidJavaObject::New_ctor(::StringW className, ::ArrayW<::bs_hook::Il2CppWrapperType> args)  {
+UnityEngine::AndroidJavaObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaObject>(className, args))};
+return o;
+}
  void UnityEngine::AndroidJavaObject::_ctor(::StringW className, ::ArrayW<::bs_hook::Il2CppWrapperType> args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaObject>::get(),
@@ -739,8 +751,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, className, args);
 }
-// Ctor Parameters [CppParam { name: "jobject", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaObject::AndroidJavaObject(::cordl_internals::intptr_t jobject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaObject>(jobject))) {}
+ UnityEngine::AndroidJavaObject UnityEngine::AndroidJavaObject::New_ctor(::cordl_internals::intptr_t jobject)  {
+UnityEngine::AndroidJavaObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaObject>(jobject))};
+return o;
+}
  void UnityEngine::AndroidJavaObject::_ctor(::cordl_internals::intptr_t jobject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaObject>::get(),
@@ -750,8 +764,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, jobject);
 }
-// Ctor Parameters []
- UnityEngine::AndroidJavaObject::AndroidJavaObject()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaObject>())) {}
+ UnityEngine::AndroidJavaObject UnityEngine::AndroidJavaObject::New_ctor()  {
+UnityEngine::AndroidJavaObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaObject>())};
+return o;
+}
  void UnityEngine::AndroidJavaObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaObject>::get(),

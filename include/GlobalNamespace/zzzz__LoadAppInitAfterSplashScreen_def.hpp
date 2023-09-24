@@ -3,25 +3,31 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace System {
 class IDisposable;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace UnityEngine {
-class AsyncOperation;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__LoadAppInitAfterSplashScreen____c;
+}
+namespace GlobalNamespace {
 class AppInitScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LoadAppInitAfterSplashScreen___Start_d__2;
 }
 namespace UnityEngine {
 class Camera;
@@ -93,8 +99,7 @@ static System::Func_1<bool> __get___9__2_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LoadAppInitAfterSplashScreen____c() ;
+static GlobalNamespace::GlobalNamespace__LoadAppInitAfterSplashScreen____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b4a20 size 0x8 virtual false final false
  void _ctor() ;
@@ -191,8 +196,7 @@ constexpr UnityEngine::AsyncOperation __get__sceneAsyncLoad_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LoadAppInitAfterSplashScreen___Start_d__2(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__LoadAppInitAfterSplashScreen___Start_d__2 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20b498c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -280,8 +284,7 @@ constexpr GlobalNamespace::AppInitScenesTransitionSetupDataSO __get__appInitScen
 /// @brief Method Start addr 0x20b4924 size 0x68 virtual false final false
  System::Collections::IEnumerator Start() ;
 
-// Ctor Parameters []
-explicit LoadAppInitAfterSplashScreen() ;
+static GlobalNamespace::LoadAppInitAfterSplashScreen New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b49b4 size 0x8 virtual false final false
  void _ctor() ;

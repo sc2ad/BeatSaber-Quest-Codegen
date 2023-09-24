@@ -3,6 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Noise3DTexturesGenerator_def.hpp"
 #include "UnityEngine/zzzz__Texture3D_def.hpp"
+#include "GlobalNamespace/zzzz__Noise3DTexturesGenerator_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 // Ctor Parameters [CppParam { name: "globalPropertyName", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "materialPropertyNameCouples", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__Noise3DTexturesGenerator__MaterialPropertyNameCouple>", modifiers: "", def_value: Some("csnull") }]
@@ -118,8 +119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<UnityEngine::Color32>, false>(nullptr, ___internal_method, width, height, depth, scale, repeat, contrast);
 }
-// Ctor Parameters []
- GlobalNamespace::Noise3DTexturesGenerator::Noise3DTexturesGenerator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Noise3DTexturesGenerator>())) {}
+ GlobalNamespace::Noise3DTexturesGenerator GlobalNamespace::Noise3DTexturesGenerator::New_ctor()  {
+GlobalNamespace::Noise3DTexturesGenerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Noise3DTexturesGenerator>())};
+return o;
+}
  void GlobalNamespace::Noise3DTexturesGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Noise3DTexturesGenerator>::get(),

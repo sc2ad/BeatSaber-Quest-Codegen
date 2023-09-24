@@ -4,26 +4,26 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Playables {
-class IPlayable;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

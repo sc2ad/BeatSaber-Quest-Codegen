@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::PlusNode::PlusNode()  : System::Xml::Schema::InteriorNode(THROW_UNLESS(::il2cpp_utils::New<PlusNode>())) {}
+ System::Xml::Schema::PlusNode System::Xml::Schema::PlusNode::New_ctor()  {
+System::Xml::Schema::PlusNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::PlusNode>())};
+return o;
+}
  void System::Xml::Schema::PlusNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::PlusNode>::get(),

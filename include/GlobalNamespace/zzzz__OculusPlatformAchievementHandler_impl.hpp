@@ -1,15 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OculusPlatformAchievementHandler_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AchievementUpdate_def.hpp"
+#include "GlobalNamespace/zzzz__IPlatformAchievementsHandler_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformAchievementsHandler_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformAchievementsHandler_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AchievementUpdate_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AchievementProgress_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformAchievementsHandler_def.hpp"
-#include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AchievementProgress_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__OculusPlatformAchievementHandler_def.hpp"
+#include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0._ctor
 template<>
 
@@ -50,8 +49,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandle
 constexpr GlobalNamespace::GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0::__get_completionHandler() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0 GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0>::get(),
@@ -116,8 +117,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandle
 constexpr GlobalNamespace::OculusPlatformAchievementHandler GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OculusPlatformAchievementHandler, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0 GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0>::get(),
@@ -176,8 +179,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandle
 constexpr Oculus::Platform::Models::AchievementProgress GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1::__get_achievement() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Models::AchievementProgress, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1 GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1>::get(),
@@ -301,8 +306,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::HMAsyncRequest, false>(const_cast<void*>(instance), ___internal_method, completionHandler);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusPlatformAchievementHandler::OculusPlatformAchievementHandler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OculusPlatformAchievementHandler>())) {}
+ GlobalNamespace::OculusPlatformAchievementHandler GlobalNamespace::OculusPlatformAchievementHandler::New_ctor()  {
+GlobalNamespace::OculusPlatformAchievementHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusPlatformAchievementHandler>())};
+return o;
+}
  void GlobalNamespace::OculusPlatformAchievementHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusPlatformAchievementHandler>::get(),

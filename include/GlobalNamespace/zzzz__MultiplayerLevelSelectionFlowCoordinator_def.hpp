@@ -3,24 +3,21 @@
 #include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace HMUI {
-struct HMUI__ViewController__AnimationType;
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LevelSelectionFlowCoordinator__State;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
+namespace HMUI {
+struct HMUI__ViewController__AnimationType;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace System {
-class Action;
 }
 namespace HMUI {
 class ViewController;
@@ -29,10 +26,13 @@ namespace GlobalNamespace {
 class ILobbyGameStateController;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
+class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__LevelSelectionFlowCoordinator__State;
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -227,8 +227,7 @@ constexpr bool __get__isBeingFinished() const;
 /// @brief Method DismissViewControllersAndFinish addr 0x2142b10 size 0x70 virtual false final false
  void DismissViewControllersAndFinish() ;
 
-// Ctor Parameters []
-explicit MultiplayerLevelSelectionFlowCoordinator() ;
+static GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2142b84 size 0x1008 virtual false final false
  void _ctor() ;

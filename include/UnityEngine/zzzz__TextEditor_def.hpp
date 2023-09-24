@@ -5,12 +5,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct UnityEngine__TextEditor__DblClickSnapping;
+}
+namespace UnityEngine {
+class TouchScreenKeyboard;
+}
+namespace UnityEngine {
+class GUIStyle;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+struct UnityEngine__TextEditor__TextEditOp;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine {
-class Event;
+struct UnityEngine__TextEditor__CharacterType;
 }
 namespace UnityEngine {
 class GUIContent;
@@ -19,13 +37,7 @@ namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class TouchScreenKeyboard;
-}
-namespace UnityEngine {
-class GUIStyle;
+struct UnityEngine__TextEditor__Direction;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -92,6 +104,8 @@ __PARAGRAPHS = 1u,
 constexpr operator __UnityEngine__TextEditor__DblClickSnapping_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__TextEditor__DblClickSnapping_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields
@@ -163,6 +177,8 @@ __WhiteSpace = 3,
 constexpr operator __UnityEngine__TextEditor__CharacterType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__TextEditor__CharacterType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -238,6 +254,8 @@ __Backward = 1,
 constexpr operator __UnityEngine__TextEditor__Direction_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__TextEditor__Direction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -355,6 +373,8 @@ __ScrollPageDown = 49,
 constexpr operator __UnityEngine__TextEditor__TextEditOp_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__TextEditor__TextEditOp_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -768,8 +788,7 @@ static System::Collections::Generic::Dictionary_2<UnityEngine::Event,UnityEngine
 /// @brief Method get_altCursorPosition addr 0x2b8cdd4 size 0x8 virtual false final false
  int32_t get_altCursorPosition() ;
 
-// Ctor Parameters []
-explicit TextEditor() ;
+static UnityEngine::TextEditor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b8cddc size 0xf8 virtual false final false
  void _ctor() ;

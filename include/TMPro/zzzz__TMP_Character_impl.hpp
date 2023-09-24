@@ -71,8 +71,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- TMPro::TMP_Character::TMP_Character()  : TMPro::TMP_TextElement(THROW_UNLESS(::il2cpp_utils::New<TMP_Character>())) {}
+ TMPro::TMP_Character TMPro::TMP_Character::New_ctor()  {
+TMPro::TMP_Character o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Character>())};
+return o;
+}
  void TMPro::TMP_Character::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Character>::get(),
@@ -82,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "UnityEngine::TextCore::Glyph", modifiers: "", def_value: None }]
- TMPro::TMP_Character::TMP_Character(uint32_t unicode, UnityEngine::TextCore::Glyph glyph)  : TMPro::TMP_TextElement(THROW_UNLESS(::il2cpp_utils::New<TMP_Character>(unicode, glyph))) {}
+ TMPro::TMP_Character TMPro::TMP_Character::New_ctor(uint32_t unicode, UnityEngine::TextCore::Glyph glyph)  {
+TMPro::TMP_Character o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Character>(unicode, glyph))};
+return o;
+}
  void TMPro::TMP_Character::_ctor(uint32_t unicode, UnityEngine::TextCore::Glyph glyph)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Character>::get(),
@@ -93,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, unicode, glyph);
 }
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "TMPro::TMP_FontAsset", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "UnityEngine::TextCore::Glyph", modifiers: "", def_value: None }]
- TMPro::TMP_Character::TMP_Character(uint32_t unicode, TMPro::TMP_FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph)  : TMPro::TMP_TextElement(THROW_UNLESS(::il2cpp_utils::New<TMP_Character>(unicode, fontAsset, glyph))) {}
+ TMPro::TMP_Character TMPro::TMP_Character::New_ctor(uint32_t unicode, TMPro::TMP_FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph)  {
+TMPro::TMP_Character o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Character>(unicode, fontAsset, glyph))};
+return o;
+}
  void TMPro::TMP_Character::_ctor(uint32_t unicode, TMPro::TMP_FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Character>::get(),
@@ -104,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, unicode, fontAsset, glyph);
 }
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyphIndex", ty: "uint32_t", modifiers: "", def_value: None }]
- TMPro::TMP_Character::TMP_Character(uint32_t unicode, uint32_t glyphIndex)  : TMPro::TMP_TextElement(THROW_UNLESS(::il2cpp_utils::New<TMP_Character>(unicode, glyphIndex))) {}
+ TMPro::TMP_Character TMPro::TMP_Character::New_ctor(uint32_t unicode, uint32_t glyphIndex)  {
+TMPro::TMP_Character o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Character>(unicode, glyphIndex))};
+return o;
+}
  void TMPro::TMP_Character::_ctor(uint32_t unicode, uint32_t glyphIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Character>::get(),

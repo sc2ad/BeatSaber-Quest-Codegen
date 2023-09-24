@@ -65,8 +65,7 @@ constexpr explicit ServerContextTerminatorSink(void* ptr) noexcept : ::bs_hook::
 /// @brief Method AsyncProcessMessage addr 0x2347260 size 0xe8 virtual true final true
  System::Runtime::Remoting::Messaging::IMessageCtrl AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage msg, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
 
-// Ctor Parameters []
-explicit ServerContextTerminatorSink() ;
+static System::Runtime::Remoting::Messaging::ServerContextTerminatorSink New_ctor() ;
 
 /// @brief Method .ctor addr 0x2347348 size 0x8 virtual false final false
  void _ctor() ;

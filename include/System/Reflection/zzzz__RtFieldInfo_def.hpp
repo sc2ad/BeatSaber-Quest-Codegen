@@ -3,13 +3,13 @@
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Reflection {
 class Binder;
 }
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System::Reflection {
-struct BindingFlags;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -66,8 +66,7 @@ constexpr explicit RtFieldInfo(void* ptr) noexcept : System::Reflection::FieldIn
 /// @brief Method CheckConsistency addr 0x0 size 0xffffffffffffffff virtual true final false
  void CheckConsistency(::bs_hook::Il2CppWrapperType target) ;
 
-// Ctor Parameters []
-explicit RtFieldInfo() ;
+static System::Reflection::RtFieldInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2385a80 size 0x8 virtual false final false
  void _ctor() ;

@@ -61,8 +61,7 @@ constexpr System::Xml::XmlRawWriter __get_rawWriter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rawWriter", ty: "System::Xml::XmlRawWriter", modifiers: "", def_value: None }]
-explicit XmlRawWriterBase64Encoder(System::Xml::XmlRawWriter rawWriter) ;
+static System::Xml::XmlRawWriterBase64Encoder New_ctor(System::Xml::XmlRawWriter rawWriter) ;
 
 /// @brief Method .ctor addr 0x26bb260 size 0x24 virtual false final false
  void _ctor(System::Xml::XmlRawWriter rawWriter) ;

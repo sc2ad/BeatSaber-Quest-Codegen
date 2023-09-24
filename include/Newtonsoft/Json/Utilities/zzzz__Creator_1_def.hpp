@@ -24,7 +24,7 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(11835))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11835)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11835), inst: 2 })
 // CS Name: Newtonsoft.Json.Utilities.Creator`1
 class CORDL_TYPE Creator_1<T> : public System::MulticastDelegate {
@@ -63,8 +63,7 @@ constexpr explicit Creator_1(void* ptr) noexcept : System::MulticastDelegate(ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Creator_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Newtonsoft::Json::Utilities::Creator_1<T> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

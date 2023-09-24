@@ -4,13 +4,14 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/zzzz__TimerThread_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/Net/zzzz__TimerThread_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/zzzz__WeakReference_def.hpp"
-#include "System/Threading/zzzz__AutoResetEvent_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
+#include "System/Threading/zzzz__AutoResetEvent_def.hpp"
+#include "System/Threading/zzzz__WaitHandle_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__TimerThread__Queue._ctor
 template<>
 
@@ -68,8 +69,10 @@ constexpr void System::Net::System__Net__TimerThread__Queue::__set_m_DurationMil
 constexpr int32_t System::Net::System__Net__TimerThread__Queue::__get_m_DurationMilliseconds() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "durationMilliseconds", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::System__Net__TimerThread__Queue::System__Net__TimerThread__Queue(int32_t durationMilliseconds)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__TimerThread__Queue>(durationMilliseconds))) {}
+ System::Net::System__Net__TimerThread__Queue System::Net::System__Net__TimerThread__Queue::New_ctor(int32_t durationMilliseconds)  {
+System::Net::System__Net__TimerThread__Queue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__TimerThread__Queue>(durationMilliseconds))};
+return o;
+}
  void System::Net::System__Net__TimerThread__Queue::_ctor(int32_t durationMilliseconds)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__TimerThread__Queue>::get(),
@@ -215,8 +218,10 @@ constexpr void System::Net::System__Net__TimerThread__Timer::__set_m_DurationMil
 constexpr int32_t System::Net::System__Net__TimerThread__Timer::__get_m_DurationMilliseconds() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "durationMilliseconds", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::System__Net__TimerThread__Timer::System__Net__TimerThread__Timer(int32_t durationMilliseconds)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__TimerThread__Timer>(durationMilliseconds))) {}
+ System::Net::System__Net__TimerThread__Timer System::Net::System__Net__TimerThread__Timer::New_ctor(int32_t durationMilliseconds)  {
+System::Net::System__Net__TimerThread__Timer o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__TimerThread__Timer>(durationMilliseconds))};
+return o;
+}
  void System::Net::System__Net__TimerThread__Timer::_ctor(int32_t durationMilliseconds)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__TimerThread__Timer>::get(),
@@ -305,8 +310,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Net::System__Net__TimerThread__Callback::System__Net__TimerThread__Callback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Net__TimerThread__Callback>(object, method))) {}
+ System::Net::System__Net__TimerThread__Callback System::Net::System__Net__TimerThread__Callback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Net::System__Net__TimerThread__Callback o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__TimerThread__Callback>(object, method))};
+return o;
+}
  void System::Net::System__Net__TimerThread__Callback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__TimerThread__Callback>::get(),
@@ -388,8 +395,10 @@ constexpr void System::Net::System__Net__TimerThread__TimerQueue::__set_m_Timers
 constexpr System::Net::System__Net__TimerThread__TimerNode System::Net::System__Net__TimerThread__TimerQueue::__get_m_Timers() const {
 return ::cordl_internals::getInstanceField<System::Net::System__Net__TimerThread__TimerNode, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "durationMilliseconds", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::System__Net__TimerThread__TimerQueue::System__Net__TimerThread__TimerQueue(int32_t durationMilliseconds)  : System::Net::System__Net__TimerThread__Queue(THROW_UNLESS(::il2cpp_utils::New<System__Net__TimerThread__TimerQueue>(durationMilliseconds))) {}
+ System::Net::System__Net__TimerThread__TimerQueue System::Net::System__Net__TimerThread__TimerQueue::New_ctor(int32_t durationMilliseconds)  {
+System::Net::System__Net__TimerThread__TimerQueue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__TimerThread__TimerQueue>(durationMilliseconds))};
+return o;
+}
  void System::Net::System__Net__TimerThread__TimerQueue::_ctor(int32_t durationMilliseconds)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__TimerThread__TimerQueue>::get(),
@@ -451,8 +460,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::System__Net__TimerThread__InfiniteTimerQueue::System__Net__TimerThread__InfiniteTimerQueue()  : System::Net::System__Net__TimerThread__Queue(THROW_UNLESS(::il2cpp_utils::New<System__Net__TimerThread__InfiniteTimerQueue>())) {}
+ System::Net::System__Net__TimerThread__InfiniteTimerQueue System::Net::System__Net__TimerThread__InfiniteTimerQueue::New_ctor()  {
+System::Net::System__Net__TimerThread__InfiniteTimerQueue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__TimerThread__InfiniteTimerQueue>())};
+return o;
+}
  void System::Net::System__Net__TimerThread__InfiniteTimerQueue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__TimerThread__InfiniteTimerQueue>::get(),
@@ -673,8 +684,10 @@ constexpr void System::Net::System__Net__TimerThread__TimerNode::__set_prev(Syst
 constexpr System::Net::System__Net__TimerThread__TimerNode System::Net::System__Net__TimerThread__TimerNode::__get_prev() const {
 return ::cordl_internals::getInstanceField<System::Net::System__Net__TimerThread__TimerNode, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Net::System__Net__TimerThread__Callback", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "durationMilliseconds", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "queueLock", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Net::System__Net__TimerThread__TimerNode::System__Net__TimerThread__TimerNode(System::Net::System__Net__TimerThread__Callback callback, ::bs_hook::Il2CppWrapperType context, int32_t durationMilliseconds, ::bs_hook::Il2CppWrapperType queueLock)  : System::Net::System__Net__TimerThread__Timer(THROW_UNLESS(::il2cpp_utils::New<System__Net__TimerThread__TimerNode>(callback, context, durationMilliseconds, queueLock))) {}
+ System::Net::System__Net__TimerThread__TimerNode System::Net::System__Net__TimerThread__TimerNode::New_ctor(System::Net::System__Net__TimerThread__Callback callback, ::bs_hook::Il2CppWrapperType context, int32_t durationMilliseconds, ::bs_hook::Il2CppWrapperType queueLock)  {
+System::Net::System__Net__TimerThread__TimerNode o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__TimerThread__TimerNode>(callback, context, durationMilliseconds, queueLock))};
+return o;
+}
  void System::Net::System__Net__TimerThread__TimerNode::_ctor(System::Net::System__Net__TimerThread__Callback callback, ::bs_hook::Il2CppWrapperType context, int32_t durationMilliseconds, ::bs_hook::Il2CppWrapperType queueLock)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__TimerThread__TimerNode>::get(),
@@ -684,8 +697,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, callback, context, durationMilliseconds, queueLock);
 }
-// Ctor Parameters []
- System::Net::System__Net__TimerThread__TimerNode::System__Net__TimerThread__TimerNode()  : System::Net::System__Net__TimerThread__Timer(THROW_UNLESS(::il2cpp_utils::New<System__Net__TimerThread__TimerNode>())) {}
+ System::Net::System__Net__TimerThread__TimerNode System::Net::System__Net__TimerThread__TimerNode::New_ctor()  {
+System::Net::System__Net__TimerThread__TimerNode o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__TimerThread__TimerNode>())};
+return o;
+}
  void System::Net::System__Net__TimerThread__TimerNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__TimerThread__TimerNode>::get(),
@@ -815,8 +830,10 @@ constexpr void System::Net::System__Net__TimerThread__InfiniteTimer::__set_cance
 constexpr int32_t System::Net::System__Net__TimerThread__InfiniteTimer::__get_cancelled() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::System__Net__TimerThread__InfiniteTimer::System__Net__TimerThread__InfiniteTimer()  : System::Net::System__Net__TimerThread__Timer(THROW_UNLESS(::il2cpp_utils::New<System__Net__TimerThread__InfiniteTimer>())) {}
+ System::Net::System__Net__TimerThread__InfiniteTimer System::Net::System__Net__TimerThread__InfiniteTimer::New_ctor()  {
+System::Net::System__Net__TimerThread__InfiniteTimer o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__TimerThread__InfiniteTimer>())};
+return o;
+}
  void System::Net::System__Net__TimerThread__InfiniteTimer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__TimerThread__InfiniteTimer>::get(),

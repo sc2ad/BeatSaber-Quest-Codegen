@@ -629,8 +629,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, zz);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Curve25519Field()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Curve25519Field>())) {}
+ Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::New_ctor()  {
+Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field>::get(),

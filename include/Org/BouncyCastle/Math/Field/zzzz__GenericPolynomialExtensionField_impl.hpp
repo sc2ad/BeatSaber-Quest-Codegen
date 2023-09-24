@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Math/Field/zzzz__GenericPolynomialExtensionField_def.hpp"
-#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
-#include "Org/BouncyCastle/Math/Field/zzzz__IExtensionField_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/Field/zzzz__IPolynomialExtensionField_def.hpp"
+#include "Org/BouncyCastle/Math/Field/zzzz__IExtensionField_def.hpp"
+#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IPolynomial_def.hpp"
+#include "Org/BouncyCastle/Math/Field/zzzz__IPolynomialExtensionField_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField._ctor
 template<>
 
@@ -165,8 +165,10 @@ constexpr void Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::
 constexpr Org::BouncyCastle::Math::Field::IPolynomial Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::__get_minimalPolynomial() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::Field::IPolynomial, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "subfield", ty: "Org::BouncyCastle::Math::Field::IFiniteField", modifiers: "", def_value: None }, CppParam { name: "polynomial", ty: "Org::BouncyCastle::Math::Field::IPolynomial", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::GenericPolynomialExtensionField(Org::BouncyCastle::Math::Field::IFiniteField subfield, Org::BouncyCastle::Math::Field::IPolynomial polynomial)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericPolynomialExtensionField>(subfield, polynomial))) {}
+ Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::New_ctor(Org::BouncyCastle::Math::Field::IFiniteField subfield, Org::BouncyCastle::Math::Field::IPolynomial polynomial)  {
+Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField>(subfield, polynomial))};
+return o;
+}
  void Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::_ctor(Org::BouncyCastle::Math::Field::IFiniteField subfield, Org::BouncyCastle::Math::Field::IPolynomial polynomial)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField>::get(),

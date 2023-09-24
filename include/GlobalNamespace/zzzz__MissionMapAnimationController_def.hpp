@@ -28,14 +28,29 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace GlobalNamespace {
+class MenuShockwave;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12;
+}
 namespace HMUI {
 class ScrollView;
 }
 namespace GlobalNamespace {
-class MissionNodesManager;
+class GlobalNamespace__MissionMapAnimationController____c;
 }
 namespace GlobalNamespace {
-class MenuShockwave;
+class GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13;
+}
+namespace GlobalNamespace {
+class MissionNodesManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -147,8 +162,7 @@ constexpr System::Action __get_finishCallback() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2147eb8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -257,8 +271,7 @@ constexpr GlobalNamespace::MissionMapAnimationController __get___4__this() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2147f54 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -361,8 +374,7 @@ constexpr GlobalNamespace::MissionMapAnimationController __get___4__this() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2147fe4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -449,8 +461,7 @@ static System::Func_2<GlobalNamespace::MissionNodeConnection,float_t> __get___9_
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MissionMapAnimationController____c() ;
+static GlobalNamespace::GlobalNamespace__MissionMapAnimationController____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2148760 size 0x8 virtual false final false
  void _ctor() ;
@@ -562,8 +573,7 @@ constexpr int32_t __get___7__wrap3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2148074 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -716,8 +726,7 @@ constexpr GlobalNamespace::MenuShockwave __get__shockwaveEffect() const;
 /// @brief Method UpdateNodesAndConnectionCoroutine addr 0x214800c size 0x68 virtual false final false
  System::Collections::IEnumerator UpdateNodesAndConnectionCoroutine() ;
 
-// Ctor Parameters []
-explicit MissionMapAnimationController() ;
+static GlobalNamespace::MissionMapAnimationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x214809c size 0x14 virtual false final false
  void _ctor() ;

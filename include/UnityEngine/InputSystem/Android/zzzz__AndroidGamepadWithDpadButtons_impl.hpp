@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons::AndroidGamepadWithDpadButtons()  : UnityEngine::InputSystem::Android::AndroidGamepad(THROW_UNLESS(::il2cpp_utils::New<AndroidGamepadWithDpadButtons>())) {}
+ UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons::New_ctor()  {
+UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons>::get(),

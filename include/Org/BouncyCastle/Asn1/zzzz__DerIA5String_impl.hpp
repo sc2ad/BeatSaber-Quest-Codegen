@@ -215,8 +215,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerIA5String, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerIA5String::DerIA5String(::ArrayW<uint8_t> str)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerIA5String>(str))) {}
+ Org::BouncyCastle::Asn1::DerIA5String Org::BouncyCastle::Asn1::DerIA5String::New_ctor(::ArrayW<uint8_t> str)  {
+Org::BouncyCastle::Asn1::DerIA5String o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerIA5String>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerIA5String::_ctor(::ArrayW<uint8_t> str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerIA5String>::get(),
@@ -226,8 +228,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerIA5String::DerIA5String(::StringW str)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerIA5String>(str))) {}
+ Org::BouncyCastle::Asn1::DerIA5String Org::BouncyCastle::Asn1::DerIA5String::New_ctor(::StringW str)  {
+Org::BouncyCastle::Asn1::DerIA5String o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerIA5String>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerIA5String::_ctor(::StringW str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerIA5String>::get(),
@@ -237,8 +241,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "validate", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerIA5String::DerIA5String(::StringW str, bool validate)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerIA5String>(str, validate))) {}
+ Org::BouncyCastle::Asn1::DerIA5String Org::BouncyCastle::Asn1::DerIA5String::New_ctor(::StringW str, bool validate)  {
+Org::BouncyCastle::Asn1::DerIA5String o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerIA5String>(str, validate))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerIA5String::_ctor(::StringW str, bool validate)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerIA5String>::get(),

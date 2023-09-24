@@ -1,17 +1,18 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__MediaAsyncLoader_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "GlobalNamespace/zzzz__MediaAsyncLoader_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "GlobalNamespace/zzzz__IMediaAsyncLoader_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MediaAsyncLoader___LoadWebpage_d__0.MoveNext
 template<>
 
@@ -584,8 +585,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
 }
-// Ctor Parameters []
- GlobalNamespace::MediaAsyncLoader::MediaAsyncLoader()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MediaAsyncLoader>())) {}
+ GlobalNamespace::MediaAsyncLoader GlobalNamespace::MediaAsyncLoader::New_ctor()  {
+GlobalNamespace::MediaAsyncLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MediaAsyncLoader>())};
+return o;
+}
  void GlobalNamespace::MediaAsyncLoader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MediaAsyncLoader>::get(),

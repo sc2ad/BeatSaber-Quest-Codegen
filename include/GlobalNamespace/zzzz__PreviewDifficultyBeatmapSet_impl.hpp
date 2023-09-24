@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::BeatmapDifficulty>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulties", ty: "::ArrayW<GlobalNamespace::BeatmapDifficulty>", modifiers: "", def_value: None }]
- GlobalNamespace::PreviewDifficultyBeatmapSet::PreviewDifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::ArrayW<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PreviewDifficultyBeatmapSet>(beatmapCharacteristic, beatmapDifficulties))) {}
+ GlobalNamespace::PreviewDifficultyBeatmapSet GlobalNamespace::PreviewDifficultyBeatmapSet::New_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::ArrayW<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties)  {
+GlobalNamespace::PreviewDifficultyBeatmapSet o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PreviewDifficultyBeatmapSet>(beatmapCharacteristic, beatmapDifficulties))};
+return o;
+}
  void GlobalNamespace::PreviewDifficultyBeatmapSet::_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::ArrayW<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PreviewDifficultyBeatmapSet>::get(),

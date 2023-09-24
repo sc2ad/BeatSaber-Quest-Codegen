@@ -69,8 +69,7 @@ constexpr System::Xml::XmlLinkedNode __get_next() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlLinkedNode(System::Xml::XmlDocument doc) ;
+static System::Xml::XmlLinkedNode New_ctor(System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f46a0 size 0x18 virtual false final false
  void _ctor(System::Xml::XmlDocument doc) ;

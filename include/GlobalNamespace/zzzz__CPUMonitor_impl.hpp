@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CPUMonitor_def.hpp"
 #include "GlobalNamespace/zzzz__ICPUMonitor_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "System/Diagnostics/zzzz__Process_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CPUMonitor.PollUpdate
 template<>
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CPUMonitor::CPUMonitor()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CPUMonitor>())) {}
+ GlobalNamespace::CPUMonitor GlobalNamespace::CPUMonitor::New_ctor()  {
+GlobalNamespace::CPUMonitor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CPUMonitor>())};
+return o;
+}
  void GlobalNamespace::CPUMonitor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CPUMonitor>::get(),

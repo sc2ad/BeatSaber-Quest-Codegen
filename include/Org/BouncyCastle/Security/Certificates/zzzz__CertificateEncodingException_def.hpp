@@ -51,20 +51,17 @@ constexpr explicit CertificateEncodingException(void* ptr) noexcept : Org::Bounc
 
 // Methods
 
-// Ctor Parameters []
-explicit CertificateEncodingException() ;
+static Org::BouncyCastle::Security::Certificates::CertificateEncodingException New_ctor() ;
 
 /// @brief Method .ctor addr 0x1091800 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CertificateEncodingException(::StringW msg) ;
+static Org::BouncyCastle::Security::Certificates::CertificateEncodingException New_ctor(::StringW msg) ;
 
 /// @brief Method .ctor addr 0x1091808 size 0x8 virtual false final false
  void _ctor(::StringW msg) ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit CertificateEncodingException(::StringW msg, System::Exception e) ;
+static Org::BouncyCastle::Security::Certificates::CertificateEncodingException New_ctor(::StringW msg, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x1091810 size 0x8 virtual false final false
  void _ctor(::StringW msg, System::Exception e) ;

@@ -8,10 +8,10 @@
 #include <cmath>
 #include <cstdint>
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -22,18 +22,18 @@ template<typename TResult>
 class Func_1;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace System {
-class Type;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System::Reflection {
 class PropertyInfo;
+}
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -41,9 +41,116 @@ class MethodInfo;
 namespace System::Net {
 class IPEndPoint;
 }
+namespace LiteNetLib::Utils {
+template<typename TProperty>
+class LiteNetLib__Utils__NetSerializer__CustomTypeStatic_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__DoubleSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__UShortSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__CharSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__EnumByteSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename TProperty>
+class LiteNetLib__Utils__NetSerializer__CustomTypeStruct_1;
+}
+namespace LiteNetLib::Utils {
+template<typename TClass,typename TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2;
+}
+namespace LiteNetLib::Utils {
+template<typename TClass,typename TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__FloatSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__IPEndPointSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__LongSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename TProperty>
+class LiteNetLib__Utils__NetSerializer__CustomTypeClass_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__UIntSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename TClass,typename TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallStatic_2;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__ByteSerializer_1;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace LiteNetLib::Utils {
+class LiteNetLib__Utils__NetSerializer__CustomType;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__IntSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__ShortSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__BoolSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__EnumIntSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__SByteSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename TClass,typename TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallClass_2;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__StringSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__ULongSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__ClassInfo_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetSerializer__FastCall_1;
+}
+namespace LiteNetLib::Utils {
+template<typename TClass,typename TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallStruct_2;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
@@ -190,28 +297,44 @@ template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::il2c
 class LiteNetLib__Utils__NetSerializer__FastCallClass_2<TClass,TProperty>;
 }
 namespace LiteNetLib::Utils {
-template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2<TClass,char16_t>;
-}
-namespace LiteNetLib::Utils {
 template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::il2cpp_reference_type TProperty>
 class LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2<TClass,TProperty>;
 }
 namespace LiteNetLib::Utils {
 template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,uint32_t>;
+class LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2<TClass,char16_t>;
 }
 namespace LiteNetLib::Utils {
-template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,double_t>;
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<uint16_t> TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>;
 }
 namespace LiteNetLib::Utils {
-template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,uint8_t>;
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<int8_t> TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>;
 }
 namespace LiteNetLib::Utils {
-template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,int16_t>;
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<uint32_t> TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>;
+}
+namespace LiteNetLib::Utils {
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<int64_t> TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>;
+}
+namespace LiteNetLib::Utils {
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<uint64_t> TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>;
+}
+namespace LiteNetLib::Utils {
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<int32_t> TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>;
+}
+namespace LiteNetLib::Utils {
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<uint8_t> TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>;
+}
+namespace LiteNetLib::Utils {
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<int16_t> TProperty>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>;
 }
 namespace LiteNetLib::Utils {
 template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::il2cpp_reference_type TProperty>
@@ -219,27 +342,7 @@ class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>;
 }
 namespace LiteNetLib::Utils {
 template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,uint64_t>;
-}
-namespace LiteNetLib::Utils {
-template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,uint16_t>;
-}
-namespace LiteNetLib::Utils {
-template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,float_t>;
-}
-namespace LiteNetLib::Utils {
-template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,int32_t>;
-}
-namespace LiteNetLib::Utils {
-template<::cordl_internals::il2cpp_reference_type TClass>
 class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,bool>;
-}
-namespace LiteNetLib::Utils {
-template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,int8_t>;
 }
 namespace LiteNetLib::Utils {
 template<::cordl_internals::il2cpp_reference_type TClass>
@@ -247,7 +350,11 @@ class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,char16_t>;
 }
 namespace LiteNetLib::Utils {
 template<::cordl_internals::il2cpp_reference_type TClass>
-class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,int64_t>;
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,double_t>;
+}
+namespace LiteNetLib::Utils {
+template<::cordl_internals::il2cpp_reference_type TClass>
+class LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,float_t>;
 }
 namespace LiteNetLib::Utils {
 template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::il2cpp_reference_type TProperty>
@@ -308,6 +415,1240 @@ class NetSerializer;
 // Type: ::FastCallSpecific`2
 // Type: ::FastCallSpecificAuto`2
 // Type: ::FastCallStatic`2
+// Type: ::FastCall`1
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14490))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 2 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCall`1
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCall_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCall_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCall_1", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCall_1(LiteNetLib__Utils__NetSerializer__FastCall_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCall_1", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCall_1(LiteNetLib__Utils__NetSerializer__FastCall_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCall_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCall_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCall_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCall_1& operator=(LiteNetLib__Utils__NetSerializer__FastCall_1&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCall_1& operator=(LiteNetLib__Utils__NetSerializer__FastCall_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ bool __declspec(property(get=__get_IsArray, put=__set_IsArray))  IsArray;
+
+constexpr void __set_IsArray(bool value) ;
+
+constexpr bool __get_IsArray() const;
+
+
+// Methods
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+/// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Read(T inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Write(T inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+ void ReadArray(T inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+ void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<T> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<uint64_t> TProperty>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14490)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 })}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6267 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,TProperty> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,TProperty> value) ;
+
+constexpr System::Func_2<TClass,TProperty> __get_Getter() const;
+
+ System::Action_2<TClass,TProperty> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,TProperty> value) ;
+
+constexpr System::Action_2<TClass,TProperty> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<TProperty>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<TProperty>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<uint16_t> TProperty>
+// Is value type: false
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14490)), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6266 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,TProperty> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,TProperty> value) ;
+
+constexpr System::Func_2<TClass,TProperty> __get_Getter() const;
+
+ System::Action_2<TClass,TProperty> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,TProperty> value) ;
+
+constexpr System::Action_2<TClass,TProperty> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<TProperty>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<TProperty>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<int8_t> TProperty>
+// Is value type: false
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14490)), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6264 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,TProperty> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,TProperty> value) ;
+
+constexpr System::Func_2<TClass,TProperty> __get_Getter() const;
+
+ System::Action_2<TClass,TProperty> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,TProperty> value) ;
+
+constexpr System::Action_2<TClass,TProperty> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<TProperty>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<TProperty>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<int16_t> TProperty>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14490)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6262 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,TProperty> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,TProperty> value) ;
+
+constexpr System::Func_2<TClass,TProperty> __get_Getter() const;
+
+ System::Action_2<TClass,TProperty> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,TProperty> value) ;
+
+constexpr System::Action_2<TClass,TProperty> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<TProperty>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<TProperty>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14490))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6260 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,double_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,double_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,double_t> value) ;
+
+constexpr System::Func_2<TClass,double_t> __get_Getter() const;
+
+ System::Action_2<TClass,double_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,double_t> value) ;
+
+constexpr System::Action_2<TClass,double_t> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<double_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<double_t>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<double_t>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<double_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<double_t>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<double_t>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<double_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<double_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,double_t> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass>
+// Is value type: false
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14490)), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6259 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,char16_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,char16_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,char16_t> value) ;
+
+constexpr System::Func_2<TClass,char16_t> __get_Getter() const;
+
+ System::Action_2<TClass,char16_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,char16_t> value) ;
+
+constexpr System::Action_2<TClass,char16_t> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<char16_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<char16_t>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<char16_t>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<char16_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<char16_t>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<char16_t>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<char16_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<char16_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,char16_t> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<uint32_t> TProperty>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14490))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1557 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,TProperty> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,TProperty> value) ;
+
+constexpr System::Func_2<TClass,TProperty> __get_Getter() const;
+
+ System::Action_2<TClass,TProperty> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,TProperty> value) ;
+
+constexpr System::Action_2<TClass,TProperty> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<TProperty>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<TProperty>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14490)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1553 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,float_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,float_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,float_t> value) ;
+
+constexpr System::Func_2<TClass,float_t> __get_Getter() const;
+
+ System::Action_2<TClass,float_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,float_t> value) ;
+
+constexpr System::Action_2<TClass,float_t> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<float_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<float_t>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<float_t>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<float_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<float_t>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<float_t>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<float_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<float_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,float_t> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<int64_t> TProperty>
+// Is value type: false
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14490))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1550 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,TProperty> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,TProperty> value) ;
+
+constexpr System::Func_2<TClass,TProperty> __get_Getter() const;
+
+ System::Action_2<TClass,TProperty> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,TProperty> value) ;
+
+constexpr System::Action_2<TClass,TProperty> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<TProperty>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<TProperty>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<int32_t> TProperty>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14490)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1548 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,TProperty> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,TProperty> value) ;
+
+constexpr System::Func_2<TClass,TProperty> __get_Getter() const;
+
+ System::Action_2<TClass,TProperty> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,TProperty> value) ;
+
+constexpr System::Action_2<TClass,TProperty> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<TProperty>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<TProperty>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::is_or_is_backed_by<uint8_t> TProperty>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14490)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 })}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1545 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,TProperty> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,TProperty> value) ;
+
+constexpr System::Func_2<TClass,TProperty> __get_Getter() const;
+
+ System::Action_2<TClass,TProperty> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,TProperty> value) ;
+
+constexpr System::Action_2<TClass,TProperty> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<TProperty>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<TProperty>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass>
+// Is value type: false
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14490))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1544 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,bool> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,bool> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,bool> value) ;
+
+constexpr System::Func_2<TClass,bool> __get_Getter() const;
+
+ System::Action_2<TClass,bool> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,bool> value) ;
+
+constexpr System::Action_2<TClass,bool> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<bool>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<bool>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<bool>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<bool>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<bool>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<bool>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<bool> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<bool> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,bool> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecific`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::il2cpp_reference_type TProperty>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14490)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 })}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 80 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Func_2<TClass,TProperty> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
+
+constexpr void __set_Getter(System::Func_2<TClass,TProperty> value) ;
+
+constexpr System::Func_2<TClass,TProperty> __get_Getter() const;
+
+ System::Action_2<TClass,TProperty> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
+
+constexpr void __set_Setter(System::Action_2<TClass,TProperty> value) ;
+
+constexpr System::Action_2<TClass,TProperty> __get_Setter() const;
+
+ System::Func_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
+
+constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Func_2<TClass,::ArrayW<TProperty>> __get_GetterArr() const;
+
+ System::Action_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
+
+constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<TProperty>> value) ;
+
+constexpr System::Action_2<TClass,::ArrayW<TProperty>> __get_SetterArr() const;
+
+
+// Methods
+
+/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<TProperty> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
 // Type: ::FastCallStruct`2
 namespace LiteNetLib::Utils {
 // cpp template
@@ -373,8 +1714,7 @@ constexpr TProperty __get__p() const;
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallStruct_2() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallStruct_2 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -447,8 +1787,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__CustomType(void* ptr) noexc
 template<typename T>
  LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<T> Get() ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__CustomType() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__CustomType New_ctor() ;
 
 /// @brief Method .ctor addr 0x209944c size 0x8 virtual false final false
  void _ctor() ;
@@ -505,8 +1844,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__CustomTypeStruct_1(void* pt
 template<typename T>
  LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<T> Get() ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__CustomTypeStruct_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__CustomTypeStruct_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -672,14 +2010,12 @@ template<typename T>
 template<typename T>
  void RegisterNestedType(System::Action_2<LiteNetLib::Utils::NetDataWriter,T> writer, System::Func_2<LiteNetLib::Utils::NetDataReader,T> reader) ;
 
-// Ctor Parameters []
-explicit NetSerializer() ;
+static LiteNetLib::Utils::NetSerializer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2098f24 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "maxStringLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NetSerializer(int32_t maxStringLength) ;
+static LiteNetLib::Utils::NetSerializer New_ctor(int32_t maxStringLength) ;
 
 /// @brief Method .ctor addr 0x2099018 size 0x90 virtual false final false
  void _ctor(int32_t maxStringLength) ;
@@ -712,1332 +2048,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-// Type: ::FastCall`1
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type T>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14490))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 2 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCall`1
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCall_1<T> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCall_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCall_1", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCall_1(LiteNetLib__Utils__NetSerializer__FastCall_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCall_1", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCall_1(LiteNetLib__Utils__NetSerializer__FastCall_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCall_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCall_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCall_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCall_1& operator=(LiteNetLib__Utils__NetSerializer__FastCall_1&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCall_1& operator=(LiteNetLib__Utils__NetSerializer__FastCall_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- bool __declspec(property(get=__get_IsArray, put=__set_IsArray))  IsArray;
-
-constexpr void __set_IsArray(bool value) ;
-
-constexpr bool __get_IsArray() const;
-
-
-// Methods
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-/// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
- void Read(T inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
- void Write(T inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
- void ReadArray(T inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
- void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCall_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::il2cpp_reference_type TProperty>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14490)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 80 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,TProperty> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,TProperty> value) ;
-
-constexpr System::Func_2<TClass,TProperty> __get_Getter() const;
-
- System::Action_2<TClass,TProperty> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,TProperty> value) ;
-
-constexpr System::Action_2<TClass,TProperty> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<TProperty>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<TProperty>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<TProperty>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<TProperty>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<TProperty>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<TProperty> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<TProperty> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14490)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 })}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1544 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,bool> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,bool> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,bool> value) ;
-
-constexpr System::Func_2<TClass,bool> __get_Getter() const;
-
- System::Action_2<TClass,bool> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,bool> value) ;
-
-constexpr System::Action_2<TClass,bool> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<bool>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<bool>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<bool>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<bool>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<bool>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<bool>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<bool> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<bool> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14490)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 })}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1545 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,uint8_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,uint8_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,uint8_t> value) ;
-
-constexpr System::Func_2<TClass,uint8_t> __get_Getter() const;
-
- System::Action_2<TClass,uint8_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,uint8_t> value) ;
-
-constexpr System::Action_2<TClass,uint8_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<uint8_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<uint8_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<uint8_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<uint8_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<uint8_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<uint8_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint8_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint8_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14490))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1548 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,int32_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,int32_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,int32_t> value) ;
-
-constexpr System::Func_2<TClass,int32_t> __get_Getter() const;
-
- System::Action_2<TClass,int32_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,int32_t> value) ;
-
-constexpr System::Action_2<TClass,int32_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<int32_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<int32_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<int32_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<int32_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<int32_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<int32_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int32_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int32_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14490))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1550 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,int64_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,int64_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,int64_t> value) ;
-
-constexpr System::Func_2<TClass,int64_t> __get_Getter() const;
-
- System::Action_2<TClass,int64_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,int64_t> value) ;
-
-constexpr System::Action_2<TClass,int64_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<int64_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<int64_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<int64_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<int64_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<int64_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<int64_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int64_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int64_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14490)), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1553 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,float_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,float_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,float_t> value) ;
-
-constexpr System::Func_2<TClass,float_t> __get_Getter() const;
-
- System::Action_2<TClass,float_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,float_t> value) ;
-
-constexpr System::Action_2<TClass,float_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<float_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<float_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<float_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<float_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<float_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<float_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<float_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<float_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14490)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 })}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1557 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,uint32_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,uint32_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,uint32_t> value) ;
-
-constexpr System::Func_2<TClass,uint32_t> __get_Getter() const;
-
- System::Action_2<TClass,uint32_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,uint32_t> value) ;
-
-constexpr System::Action_2<TClass,uint32_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<uint32_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<uint32_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<uint32_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<uint32_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<uint32_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<uint32_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint32_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint32_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14490))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6259 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,char16_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,char16_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,char16_t> value) ;
-
-constexpr System::Func_2<TClass,char16_t> __get_Getter() const;
-
- System::Action_2<TClass,char16_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,char16_t> value) ;
-
-constexpr System::Action_2<TClass,char16_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<char16_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<char16_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<char16_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<char16_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<char16_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<char16_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<char16_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<char16_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14490))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6260 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,double_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,double_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,double_t> value) ;
-
-constexpr System::Func_2<TClass,double_t> __get_Getter() const;
-
- System::Action_2<TClass,double_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,double_t> value) ;
-
-constexpr System::Action_2<TClass,double_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<double_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<double_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<double_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<double_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<double_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<double_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<double_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<double_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14490)), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6262 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,int16_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,int16_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,int16_t> value) ;
-
-constexpr System::Func_2<TClass,int16_t> __get_Getter() const;
-
- System::Action_2<TClass,int16_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,int16_t> value) ;
-
-constexpr System::Action_2<TClass,int16_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<int16_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<int16_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<int16_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<int16_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<int16_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<int16_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int16_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int16_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14490)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 })}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6264 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,int8_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,int8_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,int8_t> value) ;
-
-constexpr System::Func_2<TClass,int8_t> __get_Getter() const;
-
- System::Action_2<TClass,int8_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,int8_t> value) ;
-
-constexpr System::Action_2<TClass,int8_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<int8_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<int8_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<int8_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<int8_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<int8_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<int8_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int8_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int8_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14490)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 })}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6266 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,uint16_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,uint16_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,uint16_t> value) ;
-
-constexpr System::Func_2<TClass,uint16_t> __get_Getter() const;
-
- System::Action_2<TClass,uint16_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,uint16_t> value) ;
-
-constexpr System::Action_2<TClass,uint16_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<uint16_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<uint16_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<uint16_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<uint16_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<uint16_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<uint16_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint16_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint16_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecific`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass>
-// Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1891 }), TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14490))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 6267 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecific`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,uint64_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<TClass>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecific_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecific_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Func_2<TClass,uint64_t> __declspec(property(get=__get_Getter, put=__set_Getter))  Getter;
-
-constexpr void __set_Getter(System::Func_2<TClass,uint64_t> value) ;
-
-constexpr System::Func_2<TClass,uint64_t> __get_Getter() const;
-
- System::Action_2<TClass,uint64_t> __declspec(property(get=__get_Setter, put=__set_Setter))  Setter;
-
-constexpr void __set_Setter(System::Action_2<TClass,uint64_t> value) ;
-
-constexpr System::Action_2<TClass,uint64_t> __get_Setter() const;
-
- System::Func_2<TClass,::ArrayW<uint64_t>> __declspec(property(get=__get_GetterArr, put=__set_GetterArr))  GetterArr;
-
-constexpr void __set_GetterArr(System::Func_2<TClass,::ArrayW<uint64_t>> value) ;
-
-constexpr System::Func_2<TClass,::ArrayW<uint64_t>> __get_GetterArr() const;
-
- System::Action_2<TClass,::ArrayW<uint64_t>> __declspec(property(get=__get_SetterArr, put=__set_SetterArr))  SetterArr;
-
-constexpr void __set_SetterArr(System::Action_2<TClass,::ArrayW<uint64_t>> value) ;
-
-constexpr System::Action_2<TClass,::ArrayW<uint64_t>> __get_SetterArr() const;
-
-
-// Methods
-
-/// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint64_t> ReadArrayHelper(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint64_t> WriteArrayHelper(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, bool isArray) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecific_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
-// Type: ::FastCallSpecificAuto`2
-namespace LiteNetLib::Utils {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::il2cpp_reference_type TProperty>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14492)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1874 })}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14492), inst: 80 })
-// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecificAuto`2
-class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2", modifiers: " const&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2(LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2", modifiers: "&&", def_value: None }]
-constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2(LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>(ptr) {
-}
-
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2&& o) noexcept = default;
-  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2 const& o) noexcept = default;
-                
-
-
-// Methods
-
-/// @brief Method ElementRead addr 0x0 size 0xffffffffffffffff virtual true final false
- void ElementRead(LiteNetLib::Utils::NetDataReader r, ByRef<TProperty> prop) ;
-
-/// @brief Method ElementWrite addr 0x0 size 0xffffffffffffffff virtual true final false
- void ElementWrite(LiteNetLib::Utils::NetDataWriter w, ByRef<TProperty> prop) ;
-
-/// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
- void Read(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
- void Write(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-/// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
- void ReadArray(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
-
-/// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
- void WriteArray(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
-
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def LiteNetLib::Utils
 // Type: ::FastCallSpecificAuto`2
 namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TClass>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14492)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1874 }), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1874 }), TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14492))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14492), inst: 6259 })
 // CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecificAuto`2
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2<TClass,char16_t> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,char16_t> {
@@ -2094,8 +2110,78 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2(void
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2<TClass,char16_t> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def LiteNetLib::Utils
+// Type: ::FastCallSpecificAuto`2
+namespace LiteNetLib::Utils {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::il2cpp_reference_type TProperty>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14492)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1874 })}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14492), inst: 80 })
+// CS Name: LiteNetLib.Utils.NetSerializer::FastCallSpecificAuto`2
+class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2", modifiers: " const&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2(LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2", modifiers: "&&", def_value: None }]
+constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2(LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2(void* ptr) noexcept : LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty>(ptr) {
+}
+
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2&& o) noexcept = default;
+  constexpr LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2& operator=(LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2 const& o) noexcept = default;
+                
+
+
+// Methods
+
+/// @brief Method ElementRead addr 0x0 size 0xffffffffffffffff virtual true final false
+ void ElementRead(LiteNetLib::Utils::NetDataReader r, ByRef<TProperty> prop) ;
+
+/// @brief Method ElementWrite addr 0x0 size 0xffffffffffffffff virtual true final false
+ void ElementWrite(LiteNetLib::Utils::NetDataWriter w, ByRef<TProperty> prop) ;
+
+/// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Read(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Write(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+/// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+ void ReadArray(TClass inf, LiteNetLib::Utils::NetDataReader r) ;
+
+/// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+ void WriteArray(TClass inf, LiteNetLib::Utils::NetDataWriter w) ;
+
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2<TClass,TProperty> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2109,7 +2195,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::il2cpp_reference_type TProperty>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14493)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1875 }), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1875 }), TypeDefinitionIndex(TypeDefinitionIndex(14493)), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14493), inst: 80 })
 // CS Name: LiteNetLib.Utils.NetSerializer::FastCallStatic`2
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallStatic_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> {
@@ -2163,8 +2249,7 @@ constexpr System::Func_2<LiteNetLib::Utils::NetDataReader,TProperty> __get__read
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "write", ty: "System::Action_2<LiteNetLib::Utils::NetDataWriter,TProperty>", modifiers: "", def_value: None }, CppParam { name: "read", ty: "System::Func_2<LiteNetLib::Utils::NetDataReader,TProperty>", modifiers: "", def_value: None }]
-explicit LiteNetLib__Utils__NetSerializer__FastCallStatic_2(System::Action_2<LiteNetLib::Utils::NetDataWriter,TProperty> write, System::Func_2<LiteNetLib::Utils::NetDataReader,TProperty> read) ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallStatic_2<TClass,TProperty> New_ctor(System::Action_2<LiteNetLib::Utils::NetDataWriter,TProperty> write, System::Func_2<LiteNetLib::Utils::NetDataReader,TProperty> read) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Action_2<LiteNetLib::Utils::NetDataWriter,TProperty> write, System::Func_2<LiteNetLib::Utils::NetDataReader,TProperty> read) ;
@@ -2190,7 +2275,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TClass,::cordl_internals::il2cpp_reference_type TProperty>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14495)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1873 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1873 }), TypeDefinitionIndex(TypeDefinitionIndex(14495))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14495), inst: 80 })
 // CS Name: LiteNetLib.Utils.NetSerializer::FastCallClass`2
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FastCallClass_2<TClass,TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<TClass,TProperty> {
@@ -2238,8 +2323,7 @@ constexpr System::Func_1<TProperty> __get__constructor() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "constructor", ty: "System::Func_1<TProperty>", modifiers: "", def_value: None }]
-explicit LiteNetLib__Utils__NetSerializer__FastCallClass_2(System::Func_1<TProperty> constructor) ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallClass_2<TClass,TProperty> New_ctor(System::Func_1<TProperty> constructor) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Func_1<TProperty> constructor) ;
@@ -2265,7 +2349,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1878 }), TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14496))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14496)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1878 }), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14496), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::IntSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__IntSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<T,int32_t> {
@@ -2316,8 +2400,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__IntSerializer_1(void* ptr) 
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__IntSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__IntSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2382,8 +2465,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__UIntSerializer_1(void* ptr)
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__UIntSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__UIntSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2397,7 +2479,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14498)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1881 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1881 }), TypeDefinitionIndex(TypeDefinitionIndex(14498))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14498), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::ShortSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__ShortSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<T,int16_t> {
@@ -2448,8 +2530,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__ShortSerializer_1(void* ptr
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__ShortSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__ShortSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2463,7 +2544,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14499)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1885 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14499)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1885 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14499), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::UShortSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__UShortSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<T,uint16_t> {
@@ -2514,8 +2595,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__UShortSerializer_1(void* pt
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__UShortSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__UShortSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2580,8 +2660,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__LongSerializer_1(void* ptr)
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__LongSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__LongSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2595,7 +2674,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14501)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1884 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1884 }), TypeDefinitionIndex(TypeDefinitionIndex(14501)), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14501), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::ULongSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__ULongSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<T,uint64_t> {
@@ -2646,8 +2725,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__ULongSerializer_1(void* ptr
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__ULongSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__ULongSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2661,7 +2739,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14502)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1871 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14502)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1871 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14502), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::ByteSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__ByteSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<T,uint8_t> {
@@ -2712,8 +2790,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__ByteSerializer_1(void* ptr)
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__ByteSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__ByteSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2727,7 +2804,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1880 }), TypeDefinitionIndex(TypeDefinitionIndex(14503)), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14503)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1880 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14503), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::SByteSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__SByteSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<T,int8_t> {
@@ -2778,8 +2855,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__SByteSerializer_1(void* ptr
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__SByteSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__SByteSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2793,7 +2869,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1877 }), TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14504))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14504)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1877 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14504), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::FloatSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__FloatSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<T,float_t> {
@@ -2844,8 +2920,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__FloatSerializer_1(void* ptr
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__FloatSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FloatSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2859,7 +2934,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1872 }), TypeDefinitionIndex(TypeDefinitionIndex(14505))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1872 }), TypeDefinitionIndex(TypeDefinitionIndex(14505)), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14505), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::DoubleSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__DoubleSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<T,double_t> {
@@ -2910,8 +2985,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__DoubleSerializer_1(void* pt
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__DoubleSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__DoubleSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2976,8 +3050,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__BoolSerializer_1(void* ptr)
 /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
  void WriteArray(T inf, LiteNetLib::Utils::NetDataWriter w) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__BoolSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__BoolSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2991,7 +3064,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14492)), TypeDefinitionIndex(TypeDefinitionIndex(14507)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14492), inst: 1868 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14492), inst: 1868 }), TypeDefinitionIndex(TypeDefinitionIndex(14492)), TypeDefinitionIndex(TypeDefinitionIndex(14507))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14507), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::CharSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__CharSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2<T,char16_t> {
@@ -3036,8 +3109,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__CharSerializer_1(void* ptr)
 /// @brief Method ElementRead addr 0x0 size 0xffffffffffffffff virtual true final false
  void ElementRead(LiteNetLib::Utils::NetDataReader r, ByRef<char16_t> prop) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__CharSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__CharSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3051,7 +3123,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14492), inst: 1869 }), TypeDefinitionIndex(TypeDefinitionIndex(14508)), TypeDefinitionIndex(TypeDefinitionIndex(14492)), TypeDefinitionIndex(TypeDefinitionIndex(7883))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14508)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14492), inst: 1869 }), TypeDefinitionIndex(TypeDefinitionIndex(7883)), TypeDefinitionIndex(TypeDefinitionIndex(14492))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14508), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::IPEndPointSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__IPEndPointSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecificAuto_2<T,System::Net::IPEndPoint> {
@@ -3096,8 +3168,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__IPEndPointSerializer_1(void
 /// @brief Method ElementRead addr 0x0 size 0xffffffffffffffff virtual true final false
  void ElementRead(LiteNetLib::Utils::NetDataReader r, ByRef<System::Net::IPEndPoint> prop) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetSerializer__IPEndPointSerializer_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__IPEndPointSerializer_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3111,7 +3182,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1882 }), TypeDefinitionIndex(TypeDefinitionIndex(14491)), TypeDefinitionIndex(TypeDefinitionIndex(14509))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst: 1882 }), TypeDefinitionIndex(TypeDefinitionIndex(14509)), TypeDefinitionIndex(TypeDefinitionIndex(14491))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14509), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::StringSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__StringSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCallSpecific_2<T,::StringW> {
@@ -3159,8 +3230,7 @@ constexpr int32_t __get__maxLength() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "maxLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__Utils__NetSerializer__StringSerializer_1(int32_t maxLength) ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__StringSerializer_1<T> New_ctor(int32_t maxLength) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t maxLength) ;
@@ -3186,7 +3256,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14510)), TypeDefinitionIndex(TypeDefinitionIndex(14490)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1890 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14510)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14490), inst: 1890 }), TypeDefinitionIndex(TypeDefinitionIndex(14490))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14510), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::EnumByteSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__EnumByteSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<T> {
@@ -3240,8 +3310,7 @@ constexpr System::Type __get_PropertyType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "property", ty: "System::Reflection::PropertyInfo", modifiers: "", def_value: None }, CppParam { name: "propertyType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit LiteNetLib__Utils__NetSerializer__EnumByteSerializer_1(System::Reflection::PropertyInfo property, System::Type propertyType) ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__EnumByteSerializer_1<T> New_ctor(System::Reflection::PropertyInfo property, System::Type propertyType) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Reflection::PropertyInfo property, System::Type propertyType) ;
@@ -3261,7 +3330,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14510)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14510), inst: 1589 }), TypeDefinitionIndex(TypeDefinitionIndex(14511))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14510), inst: 1589 }), TypeDefinitionIndex(TypeDefinitionIndex(14510)), TypeDefinitionIndex(TypeDefinitionIndex(14511))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14511), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::EnumIntSerializer`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__EnumIntSerializer_1<T> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__EnumByteSerializer_1<T> {
@@ -3300,8 +3369,7 @@ constexpr explicit LiteNetLib__Utils__NetSerializer__EnumIntSerializer_1(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "property", ty: "System::Reflection::PropertyInfo", modifiers: "", def_value: None }, CppParam { name: "propertyType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit LiteNetLib__Utils__NetSerializer__EnumIntSerializer_1(System::Reflection::PropertyInfo property, System::Type propertyType) ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__EnumIntSerializer_1<T> New_ctor(System::Reflection::PropertyInfo property, System::Type propertyType) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Reflection::PropertyInfo property, System::Type propertyType) ;
@@ -3381,8 +3449,7 @@ constexpr int32_t __get__membersCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "serializers", ty: "System::Collections::Generic::List_1<LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<T>>", modifiers: "", def_value: None }]
-explicit LiteNetLib__Utils__NetSerializer__ClassInfo_1(System::Collections::Generic::List_1<LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<T>> serializers) ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__ClassInfo_1<T> New_ctor(System::Collections::Generic::List_1<LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<T>> serializers) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::List_1<LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__FastCall_1<T>> serializers) ;
@@ -3402,7 +3469,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TProperty>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14513)), TypeDefinitionIndex(TypeDefinitionIndex(14515))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14515)), TypeDefinitionIndex(TypeDefinitionIndex(14513))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14515), inst: 2 })
 // CS Name: LiteNetLib.Utils.NetSerializer::CustomTypeClass`1
 class CORDL_TYPE LiteNetLib__Utils__NetSerializer__CustomTypeClass_1<TProperty> : public LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__CustomType {
@@ -3450,8 +3517,7 @@ constexpr System::Func_1<TProperty> __get__constructor() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "constructor", ty: "System::Func_1<TProperty>", modifiers: "", def_value: None }]
-explicit LiteNetLib__Utils__NetSerializer__CustomTypeClass_1(System::Func_1<TProperty> constructor) ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__CustomTypeClass_1<TProperty> New_ctor(System::Func_1<TProperty> constructor) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Func_1<TProperty> constructor) ;
@@ -3523,8 +3589,7 @@ constexpr System::Func_2<LiteNetLib::Utils::NetDataReader,TProperty> __get__read
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::Action_2<LiteNetLib::Utils::NetDataWriter,TProperty>", modifiers: "", def_value: None }, CppParam { name: "reader", ty: "System::Func_2<LiteNetLib::Utils::NetDataReader,TProperty>", modifiers: "", def_value: None }]
-explicit LiteNetLib__Utils__NetSerializer__CustomTypeStatic_1(System::Action_2<LiteNetLib::Utils::NetDataWriter,TProperty> writer, System::Func_2<LiteNetLib::Utils::NetDataReader,TProperty> reader) ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetSerializer__CustomTypeStatic_1<TProperty> New_ctor(System::Action_2<LiteNetLib::Utils::NetDataWriter,TProperty> writer, System::Func_2<LiteNetLib::Utils::NetDataReader,TProperty> reader) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Action_2<LiteNetLib::Utils::NetDataWriter,TProperty> writer, System::Func_2<LiteNetLib::Utils::NetDataReader,TProperty> reader) ;

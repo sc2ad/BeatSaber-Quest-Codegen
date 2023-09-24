@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml::Linq {
+class XNamespace;
+}
+namespace System::Xml::Linq {
 class XName;
 }
 namespace System::Xml {
 struct XmlNodeType;
-}
-namespace System::Xml::Linq {
-class XNamespace;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -90,14 +90,12 @@ constexpr ::StringW __get_value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::Linq::XName", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit XAttribute(System::Xml::Linq::XName name, ::bs_hook::Il2CppWrapperType value) ;
+static System::Xml::Linq::XAttribute New_ctor(System::Xml::Linq::XName name, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method .ctor addr 0x26c8084 size 0xbc virtual false final false
  void _ctor(System::Xml::Linq::XName name, ::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XAttribute", modifiers: "", def_value: None }]
-explicit XAttribute(System::Xml::Linq::XAttribute other) ;
+static System::Xml::Linq::XAttribute New_ctor(System::Xml::Linq::XAttribute other) ;
 
 /// @brief Method .ctor addr 0x26c8784 size 0x7c virtual false final false
  void _ctor(System::Xml::Linq::XAttribute other) ;

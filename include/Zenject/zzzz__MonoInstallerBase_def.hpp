@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class IInstaller;
+class InjectTypeInfo;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IInstaller;
 }
 // Forward declare root types
 namespace Zenject {
@@ -91,8 +91,7 @@ constexpr Zenject::DiContainer __get__Container_k__BackingField() const;
 /// @brief Method InstallBindings addr 0x2d7bc24 size 0x40 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MonoInstallerBase() ;
+static Zenject::MonoInstallerBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7ba88 size 0x8 virtual false final false
  void _ctor() ;

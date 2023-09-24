@@ -9,19 +9,19 @@ namespace GlobalNamespace {
 template<typename T>
 class IBitMask_1;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
-template<typename T>
-class INetImmutableSerializable_1;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class INetImmutableSerializable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

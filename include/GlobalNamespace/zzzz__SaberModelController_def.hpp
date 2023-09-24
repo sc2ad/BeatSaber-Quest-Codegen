@@ -6,11 +6,20 @@
 namespace UnityEngine {
 struct Color;
 }
+namespace GlobalNamespace {
+class SetSaberFakeGlowColor;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
+}
+namespace GlobalNamespace {
+class SaberTrail;
+}
+namespace GlobalNamespace {
+class Saber;
 }
 namespace GlobalNamespace {
 class SetSaberGlowColor;
@@ -19,13 +28,7 @@ namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
-class SaberTrail;
-}
-namespace GlobalNamespace {
-class SetSaberFakeGlowColor;
-}
-namespace GlobalNamespace {
-class Saber;
+class GlobalNamespace__SaberModelController__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,14 +88,12 @@ constexpr UnityEngine::Color __get_trailTintColor() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SaberModelController__InitData() ;
+static GlobalNamespace::GlobalNamespace__SaberModelController__InitData New_ctor() ;
 
 /// @brief Method .ctor addr 0x210c76c size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "trailTintColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SaberModelController__InitData(UnityEngine::Color trailTintColor) ;
+static GlobalNamespace::GlobalNamespace__SaberModelController__InitData New_ctor(UnityEngine::Color trailTintColor) ;
 
 /// @brief Method .ctor addr 0x210c78c size 0x40 virtual false final false
  void _ctor(UnityEngine::Color trailTintColor) ;
@@ -187,8 +188,7 @@ constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 /// @brief Method Init addr 0x210c3ec size 0x2f0 virtual false final false
  void Init(UnityEngine::Transform parent, GlobalNamespace::Saber saber) ;
 
-// Ctor Parameters []
-explicit SaberModelController() ;
+static GlobalNamespace::SaberModelController New_ctor() ;
 
 /// @brief Method .ctor addr 0x210c6fc size 0x70 virtual false final false
  void _ctor() ;

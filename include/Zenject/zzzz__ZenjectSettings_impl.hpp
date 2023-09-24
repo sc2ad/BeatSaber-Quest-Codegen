@@ -1,9 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__ZenjectSettings_def.hpp"
-#include "Zenject/zzzz__RootResolveMethods_def.hpp"
+#include "Zenject/zzzz__ZenjectSettings_def.hpp"
 #include "Zenject/zzzz__ValidationErrorResponses_def.hpp"
-#include "Zenject/zzzz__SignalDefaultSyncModes_def.hpp"
+#include "Zenject/zzzz__RootResolveMethods_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__SignalDefaultSyncModes_def.hpp"
 #include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__ZenjectSettings__SignalSettings._ctor
 template<>
@@ -171,8 +172,13 @@ constexpr void Zenject::Zenject__ZenjectSettings__SignalSettings::__set__default
 constexpr int32_t Zenject::Zenject__ZenjectSettings__SignalSettings::__get__defaultAsyncTickPriority() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "defaultSyncMode", ty: "Zenject::SignalDefaultSyncModes", modifiers: "", def_value: None }, CppParam { name: "missingHandlerDefaultResponse", ty: "Zenject::SignalMissingHandlerResponses", modifiers: "", def_value: Some("2") }, CppParam { name: "requireStrictUnsubscribe", ty: "bool", modifiers: "", def_value: Some("false") }, CppParam { name: "defaultAsyncTickPriority", ty: "int32_t", modifiers: "", def_value: Some("1") }]
- Zenject::Zenject__ZenjectSettings__SignalSettings::Zenject__ZenjectSettings__SignalSettings(Zenject::SignalDefaultSyncModes defaultSyncMode, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int32_t defaultAsyncTickPriority)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ZenjectSettings__SignalSettings>(defaultSyncMode, missingHandlerDefaultResponse, requireStrictUnsubscribe, defaultAsyncTickPriority))) {}
+/// @param missingHandlerDefaultResponse: Zenject::SignalMissingHandlerResponses (default: 2)
+/// @param requireStrictUnsubscribe: bool (default: false)
+/// @param defaultAsyncTickPriority: int32_t (default: 1)
+ Zenject::Zenject__ZenjectSettings__SignalSettings Zenject::Zenject__ZenjectSettings__SignalSettings::New_ctor(Zenject::SignalDefaultSyncModes defaultSyncMode, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int32_t defaultAsyncTickPriority)  {
+Zenject::Zenject__ZenjectSettings__SignalSettings o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ZenjectSettings__SignalSettings>(defaultSyncMode, missingHandlerDefaultResponse, requireStrictUnsubscribe, defaultAsyncTickPriority))};
+return o;
+}
 /// @param missingHandlerDefaultResponse: Zenject::SignalMissingHandlerResponses (default: 2)
 /// @param requireStrictUnsubscribe: bool (default: false)
 /// @param defaultAsyncTickPriority: int32_t (default: 1)
@@ -185,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, defaultSyncMode, missingHandlerDefaultResponse, requireStrictUnsubscribe, defaultAsyncTickPriority);
 }
-// Ctor Parameters []
- Zenject::Zenject__ZenjectSettings__SignalSettings::Zenject__ZenjectSettings__SignalSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ZenjectSettings__SignalSettings>())) {}
+ Zenject::Zenject__ZenjectSettings__SignalSettings Zenject::Zenject__ZenjectSettings__SignalSettings::New_ctor()  {
+Zenject::Zenject__ZenjectSettings__SignalSettings o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ZenjectSettings__SignalSettings>())};
+return o;
+}
  void Zenject::Zenject__ZenjectSettings__SignalSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ZenjectSettings__SignalSettings>::get(),
@@ -405,8 +413,14 @@ constexpr void Zenject::ZenjectSettings::__set__signalSettings(Zenject::Zenject_
 constexpr Zenject::Zenject__ZenjectSettings__SignalSettings Zenject::ZenjectSettings::__get__signalSettings() const {
 return ::cordl_internals::getInstanceField<Zenject::Zenject__ZenjectSettings__SignalSettings, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "validationErrorResponse", ty: "Zenject::ValidationErrorResponses", modifiers: "", def_value: None }, CppParam { name: "validationRootResolveMethod", ty: "Zenject::RootResolveMethods", modifiers: "", def_value: Some("0") }, CppParam { name: "displayWarningWhenResolvingDuringInstall", ty: "bool", modifiers: "", def_value: Some("true") }, CppParam { name: "ensureDeterministicDestructionOrderOnApplicationQuit", ty: "bool", modifiers: "", def_value: Some("false") }, CppParam { name: "signalSettings", ty: "Zenject::Zenject__ZenjectSettings__SignalSettings", modifiers: "", def_value: Some("csnull") }]
- Zenject::ZenjectSettings::ZenjectSettings(Zenject::ValidationErrorResponses validationErrorResponse, Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, Zenject::Zenject__ZenjectSettings__SignalSettings signalSettings)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ZenjectSettings>(validationErrorResponse, validationRootResolveMethod, displayWarningWhenResolvingDuringInstall, ensureDeterministicDestructionOrderOnApplicationQuit, signalSettings))) {}
+/// @param validationRootResolveMethod: Zenject::RootResolveMethods (default: 0)
+/// @param displayWarningWhenResolvingDuringInstall: bool (default: true)
+/// @param ensureDeterministicDestructionOrderOnApplicationQuit: bool (default: false)
+/// @param signalSettings: Zenject::Zenject__ZenjectSettings__SignalSettings (default: csnull)
+ Zenject::ZenjectSettings Zenject::ZenjectSettings::New_ctor(Zenject::ValidationErrorResponses validationErrorResponse, Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, Zenject::Zenject__ZenjectSettings__SignalSettings signalSettings)  {
+Zenject::ZenjectSettings o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ZenjectSettings>(validationErrorResponse, validationRootResolveMethod, displayWarningWhenResolvingDuringInstall, ensureDeterministicDestructionOrderOnApplicationQuit, signalSettings))};
+return o;
+}
 /// @param validationRootResolveMethod: Zenject::RootResolveMethods (default: 0)
 /// @param displayWarningWhenResolvingDuringInstall: bool (default: true)
 /// @param ensureDeterministicDestructionOrderOnApplicationQuit: bool (default: false)
@@ -420,8 +434,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, validationErrorResponse, validationRootResolveMethod, displayWarningWhenResolvingDuringInstall, ensureDeterministicDestructionOrderOnApplicationQuit, signalSettings);
 }
-// Ctor Parameters []
- Zenject::ZenjectSettings::ZenjectSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ZenjectSettings>())) {}
+ Zenject::ZenjectSettings Zenject::ZenjectSettings::New_ctor()  {
+Zenject::ZenjectSettings o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ZenjectSettings>())};
+return o;
+}
  void Zenject::ZenjectSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ZenjectSettings>::get(),

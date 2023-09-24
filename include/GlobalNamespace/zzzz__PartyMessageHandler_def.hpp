@@ -12,20 +12,20 @@ namespace System {
 class AsyncCallback;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace GlobalNamespace {
-class IPoolablePacket;
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace GlobalNamespace {
 template<typename T>
 class PacketPool_1;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+class IPoolablePacket;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
@@ -34,17 +34,29 @@ namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-template<typename TType,typename TData>
-class NetworkPacketSerializer_2;
+class GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate;
+}
+namespace GlobalNamespace {
+template<typename TType,typename TData>
+class NetworkPacketSerializer_2;
 }
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
 class ConnectedPlayerManager;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PartyMessageHandler__MessageType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -111,6 +123,8 @@ constexpr operator __GlobalNamespace__PartyMessageHandler__MessageType_Unwrapped
 return std::bit_cast<__GlobalNamespace__PartyMessageHandler__MessageType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -169,8 +183,7 @@ constexpr explicit GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDele
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__PartyMessageHandler__ServerStatusUpdatedDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0xdc4178 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -230,8 +243,7 @@ constexpr explicit GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0xdc4358 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -326,8 +338,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__PartyMess
 /// @brief Method Release addr 0xdc4124 size 0x54 virtual true final true
  void Release() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage() ;
+static GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMasterServerMessage New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc44b8 size 0x8 virtual false final false
  void _ctor() ;
@@ -410,8 +421,7 @@ constexpr GlobalNamespace::GlobalNamespace__PartyMessageHandler__ConnectToMaster
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connectedPlayerManager", ty: "GlobalNamespace::ConnectedPlayerManager", modifiers: "", def_value: None }]
-explicit PartyMessageHandler(GlobalNamespace::ConnectedPlayerManager connectedPlayerManager) ;
+static GlobalNamespace::PartyMessageHandler New_ctor(GlobalNamespace::ConnectedPlayerManager connectedPlayerManager) ;
 
 /// @brief Method .ctor addr 0xdc3d4c size 0x168 virtual false final false
  void _ctor(GlobalNamespace::ConnectedPlayerManager connectedPlayerManager) ;

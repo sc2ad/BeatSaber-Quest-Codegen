@@ -65,8 +65,7 @@ constexpr GlobalNamespace::BloomPrePassBackgroundColorsGradient __get__bloomPreP
 /// @brief Method ColorWasSet addr 0x1f9c58c size 0x20 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundColorsGradientTintColorWithLightIds() ;
+static GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9c5ac size 0x10 virtual false final false
  void _ctor() ;

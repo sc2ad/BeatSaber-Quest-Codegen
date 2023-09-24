@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHKeyParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHPrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters._ctor
 template<>
 
@@ -112,8 +112,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters::__
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters::__get_x() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters::DHPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters)  : Org::BouncyCastle::Crypto::Parameters::DHKeyParameters(THROW_UNLESS(::il2cpp_utils::New<DHPrivateKeyParameters>(x, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters::New_ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters>(x, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters::_ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters>::get(),
@@ -123,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x, parameters);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }, CppParam { name: "algorithmOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters::DHPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid)  : Org::BouncyCastle::Crypto::Parameters::DHKeyParameters(THROW_UNLESS(::il2cpp_utils::New<DHPrivateKeyParameters>(x, parameters, algorithmOid))) {}
+ Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters::New_ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid)  {
+Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters>(x, parameters, algorithmOid))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters::_ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters>::get(),

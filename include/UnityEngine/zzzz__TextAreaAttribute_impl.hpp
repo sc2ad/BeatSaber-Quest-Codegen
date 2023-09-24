@@ -47,8 +47,10 @@ constexpr void UnityEngine::TextAreaAttribute::__set_maxLines(int32_t value)  {
 constexpr int32_t UnityEngine::TextAreaAttribute::__get_maxLines() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::TextAreaAttribute::TextAreaAttribute()  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<TextAreaAttribute>())) {}
+ UnityEngine::TextAreaAttribute UnityEngine::TextAreaAttribute::New_ctor()  {
+UnityEngine::TextAreaAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextAreaAttribute>())};
+return o;
+}
  void UnityEngine::TextAreaAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextAreaAttribute>::get(),
@@ -58,8 +60,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "minLines", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxLines", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::TextAreaAttribute::TextAreaAttribute(int32_t minLines, int32_t maxLines)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<TextAreaAttribute>(minLines, maxLines))) {}
+ UnityEngine::TextAreaAttribute UnityEngine::TextAreaAttribute::New_ctor(int32_t minLines, int32_t maxLines)  {
+UnityEngine::TextAreaAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextAreaAttribute>(minLines, maxLines))};
+return o;
+}
  void UnityEngine::TextAreaAttribute::_ctor(int32_t minLines, int32_t maxLines)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextAreaAttribute>::get(),

@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -75,26 +75,22 @@ constexpr int32_t __get_nativeErrorCode() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Win32Exception() ;
+static System::ComponentModel::Win32Exception New_ctor() ;
 
 /// @brief Method .ctor addr 0x27a7230 size 0x74 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "error", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Win32Exception(int32_t error) ;
+static System::ComponentModel::Win32Exception New_ctor(int32_t error) ;
 
 /// @brief Method .ctor addr 0x27a72a4 size 0x38 virtual false final false
  void _ctor(int32_t error) ;
 
-// Ctor Parameters [CppParam { name: "error", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Win32Exception(int32_t error, ::StringW message) ;
+static System::ComponentModel::Win32Exception New_ctor(int32_t error, ::StringW message) ;
 
 /// @brief Method .ctor addr 0x27a7bd0 size 0x2c virtual false final false
  void _ctor(int32_t error, ::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit Win32Exception(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::ComponentModel::Win32Exception New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27a7bfc size 0x88 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

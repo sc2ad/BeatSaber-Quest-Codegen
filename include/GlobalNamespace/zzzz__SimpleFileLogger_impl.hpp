@@ -2,6 +2,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SimpleFileLogger_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__SimpleFileLogger_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger.OnDestroy
 template<>
@@ -104,8 +105,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::GlobalNamespace__SimpleFileLogger__MonoLogger()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SimpleFileLogger__MonoLogger>())) {}
+ GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger>::get(),
@@ -242,8 +245,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SimpleFileLogger::SimpleFileLogger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimpleFileLogger>())) {}
+ GlobalNamespace::SimpleFileLogger GlobalNamespace::SimpleFileLogger::New_ctor()  {
+GlobalNamespace::SimpleFileLogger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SimpleFileLogger>())};
+return o;
+}
  void GlobalNamespace::SimpleFileLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleFileLogger>::get(),

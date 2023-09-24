@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GameplayModifierInfoListItemsList::GameplayModifierInfoListItemsList()  : HMUI::UIItemsList_1<GlobalNamespace::GameplayModifierInfoListItem>(THROW_UNLESS(::il2cpp_utils::New<GameplayModifierInfoListItemsList>())) {}
+ GlobalNamespace::GameplayModifierInfoListItemsList GlobalNamespace::GameplayModifierInfoListItemsList::New_ctor()  {
+GlobalNamespace::GameplayModifierInfoListItemsList o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayModifierInfoListItemsList>())};
+return o;
+}
  void GlobalNamespace::GameplayModifierInfoListItemsList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplayModifierInfoListItemsList>::get(),

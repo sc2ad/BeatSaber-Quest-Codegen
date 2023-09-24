@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__InvokableCallList_def.hpp"
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::Events::InvokableCallList.AddPersistentInvokableCall
 template<>
 
@@ -174,8 +174,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Events::InvokableCallList::InvokableCallList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InvokableCallList>())) {}
+ UnityEngine::Events::InvokableCallList UnityEngine::Events::InvokableCallList::New_ctor()  {
+UnityEngine::Events::InvokableCallList o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Events::InvokableCallList>())};
+return o;
+}
  void UnityEngine::Events::InvokableCallList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::InvokableCallList>::get(),

@@ -47,8 +47,7 @@ constexpr explicit SOVariableAttribute(void* ptr) noexcept : UnityEngine::Proper
 
 // Methods
 
-// Ctor Parameters []
-explicit SOVariableAttribute() ;
+static GlobalNamespace::SOVariableAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83df4 size 0x8 virtual false final false
  void _ctor() ;

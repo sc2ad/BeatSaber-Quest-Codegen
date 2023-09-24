@@ -6,72 +6,193 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace Zenject {
-struct InjectSources;
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
-class BindInfo;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+class Zenject__FromBinder____c__DisplayClass58_0;
 }
 namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
+class Zenject__FromBinder____c__DisplayClass68_0;
 }
 namespace UnityEngine {
-class Object;
+class ScriptableObject;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass57_0;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass60_1;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass65_0;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass66_0;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass56_0;
+}
+namespace Zenject {
+template<typename TObj,typename TResult>
+class Zenject__FromBinder____c__DisplayClass71_0_2;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass62_1;
 }
 namespace Zenject {
 template<typename TContract>
 class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
-class BindStatement;
+class Zenject__FromBinder____c__DisplayClass53_0;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass64_0;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass61_0;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass59_0;
+}
+namespace Zenject {
+class Zenject__FromBinder____c;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass65_1;
+}
+namespace Zenject {
+class IBindingFinalizer;
+}
+namespace Zenject {
+template<typename TValue>
+class IFactory_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass66_2;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-template<typename TValue>
-class IFactory_1;
+class Zenject__FromBinder____c__DisplayClass30_0;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass60_0;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass36_0;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass61_1;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass72_0;
 }
 namespace Zenject {
 class SubContainerBinder;
 }
-namespace UnityEngine {
-class GameObject;
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass61_2;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass29_0;
 }
 namespace Zenject {
 class IProvider;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace Zenject {
+template<typename TContract>
+class Zenject__FromBinder____c__DisplayClass28_0_1;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass60_2;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass65_2;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass62_2;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass22_0;
+}
+namespace Zenject {
+template<typename TConcrete>
+class Zenject__FromBinder____c__DisplayClass70_0_1;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass35_0;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass63_0;
+}
+namespace Zenject {
+class BindStatement;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass32_0;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass59_1;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass67_0;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace UnityEngine {
 class Component;
 }
 namespace Zenject {
-class IBindingFinalizer;
+class Zenject__FromBinder____c__DisplayClass31_0;
 }
-namespace UnityEngine {
-class ScriptableObject;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace Zenject {
-class DiContainer;
+class Zenject__FromBinder____c__DisplayClass66_1;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass64_1;
+}
+namespace Zenject {
+class Zenject__FromBinder____c__DisplayClass62_0;
+}
+namespace Zenject {
+struct InjectSources;
+}
+namespace Zenject {
+template<typename TConcrete>
+class Zenject__FromBinder____c__DisplayClass69_0_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -84,10 +205,10 @@ namespace Zenject {
 class IPrefabInstantiator;
 }
 namespace System {
-struct Guid;
+struct Int32Enum;
 }
 namespace System {
-struct Int32Enum;
+struct Guid;
 }
 namespace UnityEngine {
 class MonoBehaviour;
@@ -119,12 +240,12 @@ namespace Zenject {
 class Zenject__FromBinder____c__DisplayClass22_0;
 }
 namespace Zenject {
-template<::cordl_internals::il2cpp_reference_type TContract>
-class Zenject__FromBinder____c__DisplayClass28_0_1<TContract>;
-}
-namespace Zenject {
 template<>
 class Zenject__FromBinder____c__DisplayClass28_0_1<System::Int32Enum>;
+}
+namespace Zenject {
+template<::cordl_internals::il2cpp_reference_type TContract>
+class Zenject__FromBinder____c__DisplayClass28_0_1<TContract>;
 }
 namespace Zenject {
 template<>
@@ -227,24 +348,24 @@ namespace Zenject {
 class Zenject__FromBinder____c__DisplayClass68_0;
 }
 namespace Zenject {
-template<::cordl_internals::il2cpp_reference_type TConcrete>
-class Zenject__FromBinder____c__DisplayClass69_0_1<TConcrete>;
-}
-namespace Zenject {
 template<>
 class Zenject__FromBinder____c__DisplayClass69_0_1<System::Int32Enum>;
+}
+namespace Zenject {
+template<::cordl_internals::il2cpp_reference_type TConcrete>
+class Zenject__FromBinder____c__DisplayClass69_0_1<TConcrete>;
 }
 namespace Zenject {
 template<>
 class Zenject__FromBinder____c__DisplayClass69_0_1<float_t>;
 }
 namespace Zenject {
-template<::cordl_internals::il2cpp_reference_type TConcrete>
-class Zenject__FromBinder____c__DisplayClass70_0_1<TConcrete>;
-}
-namespace Zenject {
 template<>
 class Zenject__FromBinder____c__DisplayClass70_0_1<System::Int32Enum>;
+}
+namespace Zenject {
+template<::cordl_internals::il2cpp_reference_type TConcrete>
+class Zenject__FromBinder____c__DisplayClass70_0_1<TConcrete>;
 }
 namespace Zenject {
 template<>
@@ -320,8 +441,7 @@ constexpr bool __get_matchAll() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass22_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass22_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d569a8 size 0x8 virtual false final false
  void _ctor() ;
@@ -391,8 +511,7 @@ constexpr UnityEngine::GameObject __get_gameObject() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass29_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass29_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d56bd8 size 0x8 virtual false final false
  void _ctor() ;
@@ -461,8 +580,7 @@ constexpr UnityEngine::GameObject __get_gameObject() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass30_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass30_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d56d48 size 0x8 virtual false final false
  void _ctor() ;
@@ -531,8 +649,7 @@ constexpr System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> __get_g
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass31_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass31_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d56ea8 size 0x8 virtual false final false
  void _ctor() ;
@@ -601,8 +718,7 @@ constexpr System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> __get_g
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass32_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass32_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d57008 size 0x8 virtual false final false
  void _ctor() ;
@@ -737,8 +853,7 @@ static System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> __ge
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c() ;
+static Zenject::Zenject__FromBinder____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5a3d8 size 0x8 virtual false final false
  void _ctor() ;
@@ -843,8 +958,7 @@ constexpr Zenject::FromBinder __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass35_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass35_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d57340 size 0x8 virtual false final false
  void _ctor() ;
@@ -919,8 +1033,7 @@ constexpr Zenject::FromBinder __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass36_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass36_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d574a4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1001,8 +1114,7 @@ constexpr bool __get_createNew() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass53_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass53_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d58488 size 0x8 virtual false final false
  void _ctor() ;
@@ -1083,8 +1195,7 @@ constexpr bool __get_createNew() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass56_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass56_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d58604 size 0x8 virtual false final false
  void _ctor() ;
@@ -1153,8 +1264,7 @@ constexpr ::StringW __get_resourcePath() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass57_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass57_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d58754 size 0x8 virtual false final false
  void _ctor() ;
@@ -1223,8 +1333,7 @@ constexpr ::StringW __get_resourcePath() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass58_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass58_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d588a4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1293,8 +1402,7 @@ constexpr bool __get_includeInactive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass59_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass59_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d589c8 size 0x8 virtual false final false
  void _ctor() ;
@@ -1369,8 +1477,7 @@ constexpr Zenject::Zenject__FromBinder____c__DisplayClass59_0 __get_CS$__8__loca
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass59_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass59_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5bd44 size 0x8 virtual false final false
  void _ctor() ;
@@ -1451,8 +1558,7 @@ constexpr System::Func_2<UnityEngine::Component,bool> __get_predicate() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass60_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass60_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d58b08 size 0x8 virtual false final false
  void _ctor() ;
@@ -1527,8 +1633,7 @@ constexpr Zenject::Zenject__FromBinder____c__DisplayClass60_0 __get_CS$__8__loca
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass60_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass60_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5c4ac size 0x8 virtual false final false
  void _ctor() ;
@@ -1603,8 +1708,7 @@ constexpr UnityEngine::MonoBehaviour __get_monoBehaviour() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass60_2() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass60_2 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5c970 size 0x8 virtual false final false
  void _ctor() ;
@@ -1682,8 +1786,7 @@ constexpr bool __get_excludeSelf() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass61_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass61_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d58c38 size 0x8 virtual false final false
  void _ctor() ;
@@ -1758,8 +1861,7 @@ constexpr Zenject::Zenject__FromBinder____c__DisplayClass61_0 __get_CS$__8__loca
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass61_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass61_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5cf58 size 0x8 virtual false final false
  void _ctor() ;
@@ -1834,8 +1936,7 @@ constexpr UnityEngine::MonoBehaviour __get_monoBehaviour() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass61_2() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass61_2 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5d524 size 0x8 virtual false final false
  void _ctor() ;
@@ -1913,8 +2014,7 @@ constexpr bool __get_excludeSelf() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass62_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass62_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d58d68 size 0x8 virtual false final false
  void _ctor() ;
@@ -1989,8 +2089,7 @@ constexpr Zenject::Zenject__FromBinder____c__DisplayClass62_0 __get_CS$__8__loca
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass62_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass62_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5db0c size 0x8 virtual false final false
  void _ctor() ;
@@ -2065,8 +2164,7 @@ constexpr UnityEngine::MonoBehaviour __get_monoBehaviour() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass62_2() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass62_2 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5dfb0 size 0x8 virtual false final false
  void _ctor() ;
@@ -2138,8 +2236,7 @@ constexpr System::Type __get_concreteType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass63_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass63_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5a8b4 size 0x8 virtual false final false
  void _ctor() ;
@@ -2208,8 +2305,7 @@ constexpr System::Type __get_concreteType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass64_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass64_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5a9a8 size 0x8 virtual false final false
  void _ctor() ;
@@ -2278,8 +2374,7 @@ constexpr UnityEngine::MonoBehaviour __get_monoBehaviour() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass64_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass64_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5eae8 size 0x8 virtual false final false
  void _ctor() ;
@@ -2348,8 +2443,7 @@ constexpr bool __get_includeInactive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass65_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass65_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d59108 size 0x8 virtual false final false
  void _ctor() ;
@@ -2436,8 +2530,7 @@ constexpr System::Func_2<UnityEngine::GameObject,UnityEngine::Component> __get__
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass65_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass65_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5f030 size 0x8 virtual false final false
  void _ctor() ;
@@ -2509,8 +2602,7 @@ constexpr Zenject::InjectContext __get_ctx() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass65_2() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass65_2 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5f52c size 0x8 virtual false final false
  void _ctor() ;
@@ -2585,8 +2677,7 @@ constexpr System::Func_2<UnityEngine::Component,bool> __get_predicate() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass66_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass66_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d59238 size 0x8 virtual false final false
  void _ctor() ;
@@ -2673,8 +2764,7 @@ constexpr System::Func_2<UnityEngine::GameObject,System::Collections::Generic::I
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass66_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass66_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5fb24 size 0x8 virtual false final false
  void _ctor() ;
@@ -2746,8 +2836,7 @@ constexpr Zenject::InjectContext __get_ctx() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass66_2() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass66_2 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5ff08 size 0x8 virtual false final false
  void _ctor() ;
@@ -2816,8 +2905,7 @@ constexpr System::Func_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> __
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass67_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass67_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d59348 size 0x8 virtual false final false
  void _ctor() ;
@@ -2886,8 +2974,7 @@ constexpr System::Func_2<Zenject::InjectContext,System::Collections::Generic::IE
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass68_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass68_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d59458 size 0x8 virtual false final false
  void _ctor() ;
@@ -2959,8 +3046,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_instance() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass72_0() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass72_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d595b4 size 0x8 virtual false final false
  void _ctor() ;
@@ -3130,8 +3216,7 @@ constexpr Zenject::BindStatement __get__BindStatement_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }]
-explicit FromBinder(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
+static Zenject::FromBinder New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
 
 /// @brief Method .ctor addr 0x2d56698 size 0x30 virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
@@ -3345,12 +3430,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<>c__DisplayClass28_0`1
 namespace Zenject {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TContract>
+template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10813))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10813), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10813), inst: 4825 })
 // CS Name: Zenject.FromBinder::<>c__DisplayClass28_0`1
-class CORDL_TYPE Zenject__FromBinder____c__DisplayClass28_0_1<TContract> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__FromBinder____c__DisplayClass28_0_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -3395,8 +3480,7 @@ constexpr System::Guid __get_factoryId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass28_0_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass28_0_1<System::Int32Enum> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3467,8 +3551,7 @@ constexpr System::Guid __get_factoryId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass28_0_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass28_0_1<float_t> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3489,12 +3572,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<>c__DisplayClass28_0`1
 namespace Zenject {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10813))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10813), inst: 4825 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10813), inst: 2 })
 // CS Name: Zenject.FromBinder::<>c__DisplayClass28_0`1
-class CORDL_TYPE Zenject__FromBinder____c__DisplayClass28_0_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__FromBinder____c__DisplayClass28_0_1<TContract> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -3539,8 +3622,7 @@ constexpr System::Guid __get_factoryId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass28_0_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass28_0_1<TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3561,12 +3643,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<>c__DisplayClass69_0`1
 namespace Zenject {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TConcrete>
+template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10847))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10847), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10847), inst: 4825 })
 // CS Name: Zenject.FromBinder::<>c__DisplayClass69_0`1
-class CORDL_TYPE Zenject__FromBinder____c__DisplayClass69_0_1<TConcrete> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__FromBinder____c__DisplayClass69_0_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -3602,17 +3684,16 @@ constexpr explicit Zenject__FromBinder____c__DisplayClass69_0_1(void* ptr) noexc
 
 // Fields
 
- System::Func_2<Zenject::InjectContext,TConcrete> __declspec(property(get=__get_method, put=__set_method))  method;
+ System::Func_2<Zenject::InjectContext,System::Int32Enum> __declspec(property(get=__get_method, put=__set_method))  method;
 
-constexpr void __set_method(System::Func_2<Zenject::InjectContext,TConcrete> value) ;
+constexpr void __set_method(System::Func_2<Zenject::InjectContext,System::Int32Enum> value) ;
 
-constexpr System::Func_2<Zenject::InjectContext,TConcrete> __get_method() const;
+constexpr System::Func_2<Zenject::InjectContext,System::Int32Enum> __get_method() const;
 
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass69_0_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass69_0_1<System::Int32Enum> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3683,8 +3764,7 @@ constexpr System::Func_2<Zenject::InjectContext,float_t> __get_method() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass69_0_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass69_0_1<float_t> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3705,12 +3785,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<>c__DisplayClass69_0`1
 namespace Zenject {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type TConcrete>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10847))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10847), inst: 4825 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10847), inst: 2 })
 // CS Name: Zenject.FromBinder::<>c__DisplayClass69_0`1
-class CORDL_TYPE Zenject__FromBinder____c__DisplayClass69_0_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__FromBinder____c__DisplayClass69_0_1<TConcrete> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -3746,17 +3826,16 @@ constexpr explicit Zenject__FromBinder____c__DisplayClass69_0_1(void* ptr) noexc
 
 // Fields
 
- System::Func_2<Zenject::InjectContext,System::Int32Enum> __declspec(property(get=__get_method, put=__set_method))  method;
+ System::Func_2<Zenject::InjectContext,TConcrete> __declspec(property(get=__get_method, put=__set_method))  method;
 
-constexpr void __set_method(System::Func_2<Zenject::InjectContext,System::Int32Enum> value) ;
+constexpr void __set_method(System::Func_2<Zenject::InjectContext,TConcrete> value) ;
 
-constexpr System::Func_2<Zenject::InjectContext,System::Int32Enum> __get_method() const;
+constexpr System::Func_2<Zenject::InjectContext,TConcrete> __get_method() const;
 
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass69_0_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass69_0_1<TConcrete> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3777,12 +3856,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<>c__DisplayClass70_0`1
 namespace Zenject {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TConcrete>
+template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10848))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10848), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10848), inst: 4825 })
 // CS Name: Zenject.FromBinder::<>c__DisplayClass70_0`1
-class CORDL_TYPE Zenject__FromBinder____c__DisplayClass70_0_1<TConcrete> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__FromBinder____c__DisplayClass70_0_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -3818,17 +3897,16 @@ constexpr explicit Zenject__FromBinder____c__DisplayClass70_0_1(void* ptr) noexc
 
 // Fields
 
- System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<TConcrete>> __declspec(property(get=__get_method, put=__set_method))  method;
+ System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<System::Int32Enum>> __declspec(property(get=__get_method, put=__set_method))  method;
 
-constexpr void __set_method(System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<TConcrete>> value) ;
+constexpr void __set_method(System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<System::Int32Enum>> value) ;
 
-constexpr System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<TConcrete>> __get_method() const;
+constexpr System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<System::Int32Enum>> __get_method() const;
 
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass70_0_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass70_0_1<System::Int32Enum> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3899,8 +3977,7 @@ constexpr System::Func_2<Zenject::InjectContext,System::Collections::Generic::IE
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass70_0_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass70_0_1<float_t> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3921,12 +3998,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<>c__DisplayClass70_0`1
 namespace Zenject {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type TConcrete>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10848))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10848), inst: 4825 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10848), inst: 2 })
 // CS Name: Zenject.FromBinder::<>c__DisplayClass70_0`1
-class CORDL_TYPE Zenject__FromBinder____c__DisplayClass70_0_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__FromBinder____c__DisplayClass70_0_1<TConcrete> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -3962,17 +4039,16 @@ constexpr explicit Zenject__FromBinder____c__DisplayClass70_0_1(void* ptr) noexc
 
 // Fields
 
- System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<System::Int32Enum>> __declspec(property(get=__get_method, put=__set_method))  method;
+ System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<TConcrete>> __declspec(property(get=__get_method, put=__set_method))  method;
 
-constexpr void __set_method(System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<System::Int32Enum>> value) ;
+constexpr void __set_method(System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<TConcrete>> value) ;
 
-constexpr System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<System::Int32Enum>> __get_method() const;
+constexpr System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<TConcrete>> __get_method() const;
 
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass70_0_1() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass70_0_1<TConcrete> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -4061,8 +4137,7 @@ constexpr bool __get_matchMultiple() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinder____c__DisplayClass71_0_2() ;
+static Zenject::Zenject__FromBinder____c__DisplayClass71_0_2<TObj,TResult> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

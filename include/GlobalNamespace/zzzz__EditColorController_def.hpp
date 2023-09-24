@@ -2,23 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 namespace GlobalNamespace {
+struct ColorChangeUIEventType;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class HSVPanelController;
+}
+namespace GlobalNamespace {
 class PreviousColorPanelController;
 }
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-struct ColorChangeUIEventType;
-}
-namespace GlobalNamespace {
-class HSVPanelController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -162,8 +162,7 @@ constexpr bool __get__colorChanged() const;
 /// @brief Method ChangeColor addr 0x2120010 size 0x94 virtual false final false
  void ChangeColor(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit EditColorController() ;
+static GlobalNamespace::EditColorController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2120190 size 0x8 virtual false final false
  void _ctor() ;

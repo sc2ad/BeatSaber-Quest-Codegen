@@ -24,8 +24,10 @@ constexpr void GlobalNamespace::MultiplayerPsPlusFeatureNotifier::__set__isSpect
 constexpr bool GlobalNamespace::MultiplayerPsPlusFeatureNotifier::__get__isSpectator() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerPsPlusFeatureNotifier::MultiplayerPsPlusFeatureNotifier()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerPsPlusFeatureNotifier>())) {}
+ GlobalNamespace::MultiplayerPsPlusFeatureNotifier GlobalNamespace::MultiplayerPsPlusFeatureNotifier::New_ctor()  {
+GlobalNamespace::MultiplayerPsPlusFeatureNotifier o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerPsPlusFeatureNotifier>())};
+return o;
+}
  void GlobalNamespace::MultiplayerPsPlusFeatureNotifier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerPsPlusFeatureNotifier>::get(),

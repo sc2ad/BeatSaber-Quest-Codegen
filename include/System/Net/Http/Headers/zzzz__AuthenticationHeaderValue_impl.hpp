@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__AuthenticationHeaderValue_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::AuthenticationHeaderValue._ctor
 template<>
 
@@ -241,8 +241,10 @@ constexpr void System::Net::Http::Headers::AuthenticationHeaderValue::__set__Sch
 constexpr ::StringW System::Net::Http::Headers::AuthenticationHeaderValue::__get__Scheme_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "scheme", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "parameter", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Http::Headers::AuthenticationHeaderValue::AuthenticationHeaderValue(::StringW scheme, ::StringW parameter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AuthenticationHeaderValue>(scheme, parameter))) {}
+ System::Net::Http::Headers::AuthenticationHeaderValue System::Net::Http::Headers::AuthenticationHeaderValue::New_ctor(::StringW scheme, ::StringW parameter)  {
+System::Net::Http::Headers::AuthenticationHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::AuthenticationHeaderValue>(scheme, parameter))};
+return o;
+}
  void System::Net::Http::Headers::AuthenticationHeaderValue::_ctor(::StringW scheme, ::StringW parameter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::AuthenticationHeaderValue>::get(),
@@ -252,8 +254,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, scheme, parameter);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::AuthenticationHeaderValue::AuthenticationHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AuthenticationHeaderValue>())) {}
+ System::Net::Http::Headers::AuthenticationHeaderValue System::Net::Http::Headers::AuthenticationHeaderValue::New_ctor()  {
+System::Net::Http::Headers::AuthenticationHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::AuthenticationHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::AuthenticationHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::AuthenticationHeaderValue>::get(),

@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::IO {
@@ -79,14 +79,12 @@ constexpr ::StringW __get__FusionLog_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit FileLoadException() ;
+static System::IO::FileLoadException New_ctor() ;
 
 /// @brief Method .ctor addr 0x238eff0 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit FileLoadException(::StringW message) ;
+static System::IO::FileLoadException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x238f04c size 0x24 virtual false final false
  void _ctor(::StringW message) ;
@@ -103,8 +101,7 @@ explicit FileLoadException(::StringW message) ;
 /// @brief Method ToString addr 0x238f118 size 0x1e4 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit FileLoadException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::IO::FileLoadException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x238f2fc size 0xb0 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

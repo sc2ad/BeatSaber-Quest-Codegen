@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

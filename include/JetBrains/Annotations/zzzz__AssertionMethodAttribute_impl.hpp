@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- JetBrains::Annotations::AssertionMethodAttribute::AssertionMethodAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssertionMethodAttribute>())) {}
+ JetBrains::Annotations::AssertionMethodAttribute JetBrains::Annotations::AssertionMethodAttribute::New_ctor()  {
+JetBrains::Annotations::AssertionMethodAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AssertionMethodAttribute>())};
+return o;
+}
  void JetBrains::Annotations::AssertionMethodAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AssertionMethodAttribute>::get(),

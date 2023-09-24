@@ -80,8 +80,7 @@ constexpr GlobalNamespace::MultiplayerResultsPyramidViewAvatar __get__multiplaye
 /// @brief Method InstallBindings addr 0x20fb304 size 0x144 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MultiplayerObjectInstaller() ;
+static GlobalNamespace::MultiplayerObjectInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x20fb448 size 0x8 virtual false final false
  void _ctor() ;

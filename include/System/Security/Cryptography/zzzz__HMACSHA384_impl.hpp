@@ -58,8 +58,10 @@ constexpr void System::Security::Cryptography::HMACSHA384::__set_m_useLegacyBloc
 constexpr bool System::Security::Cryptography::HMACSHA384::__get_m_useLegacyBlockSize() const {
 return ::cordl_internals::getInstanceField<bool, 0x61>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::HMACSHA384::HMACSHA384()  : System::Security::Cryptography::HMAC(THROW_UNLESS(::il2cpp_utils::New<HMACSHA384>())) {}
+ System::Security::Cryptography::HMACSHA384 System::Security::Cryptography::HMACSHA384::New_ctor()  {
+System::Security::Cryptography::HMACSHA384 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::HMACSHA384>())};
+return o;
+}
  void System::Security::Cryptography::HMACSHA384::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::HMACSHA384>::get(),
@@ -69,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::HMACSHA384::HMACSHA384(::ArrayW<uint8_t> key)  : System::Security::Cryptography::HMAC(THROW_UNLESS(::il2cpp_utils::New<HMACSHA384>(key))) {}
+ System::Security::Cryptography::HMACSHA384 System::Security::Cryptography::HMACSHA384::New_ctor(::ArrayW<uint8_t> key)  {
+System::Security::Cryptography::HMACSHA384 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::HMACSHA384>(key))};
+return o;
+}
  void System::Security::Cryptography::HMACSHA384::_ctor(::ArrayW<uint8_t> key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::HMACSHA384>::get(),

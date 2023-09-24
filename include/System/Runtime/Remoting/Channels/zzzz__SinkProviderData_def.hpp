@@ -9,10 +9,10 @@ namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
-class ArrayList;
+class IDictionary;
 }
 namespace System::Collections {
-class IDictionary;
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -88,8 +88,7 @@ constexpr System::Collections::Hashtable __get_properties() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SinkProviderData(::StringW name) ;
+static System::Runtime::Remoting::Channels::SinkProviderData New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2337f98 size 0xac virtual false final false
  void _ctor(::StringW name) ;

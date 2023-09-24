@@ -4,25 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Vector4;
-}
-namespace TMPro {
-struct TextContainerAnchors;
+class RectTransform;
 }
 namespace TMPro {
 class TextMeshPro;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace TMPro {
+struct TextContainerAnchors;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace TMPro {
@@ -283,8 +283,7 @@ constexpr TMPro::TextMeshPro __get_m_textMeshPro() const;
 /// @brief Method GetAnchorPosition addr 0x2a58930 size 0xf0 virtual false final false
  TMPro::TextContainerAnchors GetAnchorPosition(UnityEngine::Vector2 pivot) ;
 
-// Ctor Parameters []
-explicit TextContainer() ;
+static TMPro::TextContainer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a59488 size 0x70 virtual false final false
  void _ctor() ;

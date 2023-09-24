@@ -1,7 +1,8 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__Parser_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Parser_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::System__Net__Http__Headers__Parser__Token.Check
@@ -96,8 +97,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
  GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c::__get___9()  {
 return ::cordl_internals::getStaticField<GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c::System__Net__Http__Headers__Parser__DateTime____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Http__Headers__Parser__DateTime____c>())) {}
+ GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c::New_ctor()  {
+GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c>())};
+return o;
+}
  void GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Net__Http__Headers__Parser__DateTime____c>::get(),
@@ -292,8 +295,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
  GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c::__get___9()  {
 return ::cordl_internals::getStaticField<GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c::System__Net__Http__Headers__Parser__MD5____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Http__Headers__Parser__MD5____c>())) {}
+ GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c::New_ctor()  {
+GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c>())};
+return o;
+}
  void GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Net__Http__Headers__Parser__MD5____c>::get(),

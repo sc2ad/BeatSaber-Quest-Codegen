@@ -47,8 +47,7 @@ constexpr explicit ScrollViewState(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Methods
 
-// Ctor Parameters []
-explicit ScrollViewState() ;
+static UnityEngine::ScrollViewState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b8b350 size 0x8 virtual false final false
  void _ctor() ;

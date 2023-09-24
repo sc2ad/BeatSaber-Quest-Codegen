@@ -41,8 +41,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived::__set_aler
 constexpr uint8_t Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived::__get_alertDescription() const {
 return ::cordl_internals::getInstanceField<uint8_t, 0x8c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "alertDescription", ty: "uint8_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived::TlsFatalAlertReceived(uint8_t alertDescription)  : Org::BouncyCastle::Crypto::Tls::TlsException(THROW_UNLESS(::il2cpp_utils::New<TlsFatalAlertReceived>(alertDescription))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived::New_ctor(uint8_t alertDescription)  {
+Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived>(alertDescription))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived::_ctor(uint8_t alertDescription)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived>::get(),

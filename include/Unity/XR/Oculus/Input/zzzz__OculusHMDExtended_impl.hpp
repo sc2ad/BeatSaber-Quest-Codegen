@@ -1,8 +1,8 @@
 #pragma once
 #include "Unity/XR/Oculus/Input/zzzz__OculusHMD_impl.hpp"
 #include "Unity/XR/Oculus/Input/zzzz__OculusHMDExtended_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 //  Writing Method size for method: Unity::XR::Oculus::Input::OculusHMDExtended.get_back
 template<>
 
@@ -162,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::Oculus::Input::OculusHMDExtended::OculusHMDExtended()  : Unity::XR::Oculus::Input::OculusHMD(THROW_UNLESS(::il2cpp_utils::New<OculusHMDExtended>())) {}
+ Unity::XR::Oculus::Input::OculusHMDExtended Unity::XR::Oculus::Input::OculusHMDExtended::New_ctor()  {
+Unity::XR::Oculus::Input::OculusHMDExtended o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::Input::OculusHMDExtended>())};
+return o;
+}
  void Unity::XR::Oculus::Input::OculusHMDExtended::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::Input::OculusHMDExtended>::get(),

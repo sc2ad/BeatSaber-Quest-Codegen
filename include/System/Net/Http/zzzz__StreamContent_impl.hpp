@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Net/Http/zzzz__HttpContent_impl.hpp"
 #include "System/Net/Http/zzzz__StreamContent_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__TransportContext_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/zzzz__TransportContext_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: System::Net::Http::StreamContent._ctor
 template<>
 
@@ -137,8 +137,10 @@ constexpr void System::Net::Http::StreamContent::__set_contentCopied(bool value)
 constexpr bool System::Net::Http::StreamContent::__get_contentCopied() const {
 return ::cordl_internals::getInstanceField<bool, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "content", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- System::Net::Http::StreamContent::StreamContent(System::IO::Stream content)  : System::Net::Http::HttpContent(THROW_UNLESS(::il2cpp_utils::New<StreamContent>(content))) {}
+ System::Net::Http::StreamContent System::Net::Http::StreamContent::New_ctor(System::IO::Stream content)  {
+System::Net::Http::StreamContent o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::StreamContent>(content))};
+return o;
+}
  void System::Net::Http::StreamContent::_ctor(System::IO::Stream content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::StreamContent>::get(),
@@ -148,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, content);
 }
-// Ctor Parameters [CppParam { name: "content", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::Http::StreamContent::StreamContent(System::IO::Stream content, int32_t bufferSize)  : System::Net::Http::HttpContent(THROW_UNLESS(::il2cpp_utils::New<StreamContent>(content, bufferSize))) {}
+ System::Net::Http::StreamContent System::Net::Http::StreamContent::New_ctor(System::IO::Stream content, int32_t bufferSize)  {
+System::Net::Http::StreamContent o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::StreamContent>(content, bufferSize))};
+return o;
+}
  void System::Net::Http::StreamContent::_ctor(System::IO::Stream content, int32_t bufferSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::StreamContent>::get(),
@@ -159,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, content, bufferSize);
 }
-// Ctor Parameters [CppParam { name: "content", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
- System::Net::Http::StreamContent::StreamContent(System::IO::Stream content, System::Threading::CancellationToken cancellationToken)  : System::Net::Http::HttpContent(THROW_UNLESS(::il2cpp_utils::New<StreamContent>(content, cancellationToken))) {}
+ System::Net::Http::StreamContent System::Net::Http::StreamContent::New_ctor(System::IO::Stream content, System::Threading::CancellationToken cancellationToken)  {
+System::Net::Http::StreamContent o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::StreamContent>(content, cancellationToken))};
+return o;
+}
  void System::Net::Http::StreamContent::_ctor(System::IO::Stream content, System::Threading::CancellationToken cancellationToken)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::StreamContent>::get(),

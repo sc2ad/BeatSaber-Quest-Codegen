@@ -4,11 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UIElements {
+struct Wrap;
 }
 namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
+struct EasingFunction;
+}
+namespace UnityEngine::UIElements {
+struct Cursor;
 }
 namespace UnityEngine {
 struct ScaleMode;
@@ -17,59 +20,37 @@ namespace UnityEngine::UIElements {
 struct DisplayStyle;
 }
 namespace UnityEngine::UIElements {
-struct Justify;
-}
-namespace UnityEngine::UIElements {
 struct Position;
-}
-namespace UnityEngine::UIElements {
-struct EasingFunction;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine::UIElements {
-struct Rotate;
-}
-namespace UnityEngine::UIElements {
-struct TimeValue;
-}
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
 }
 namespace UnityEngine::UIElements {
 struct Length;
 }
 namespace UnityEngine::UIElements {
-struct Visibility;
+struct StylePropertyName;
 }
 namespace UnityEngine::UIElements {
-struct Wrap;
-}
-namespace UnityEngine {
-struct FontStyle;
+struct TextOverflowPosition;
 }
 namespace UnityEngine::UIElements {
-struct TextOverflow;
+struct OverflowInternal;
 }
 namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
+struct Translate;
 }
 namespace UnityEngine::UIElements {
 struct Align;
 }
 namespace UnityEngine::UIElements {
-struct OverflowClipBox;
+struct Background;
+}
+namespace UnityEngine::UIElements {
+struct Justify;
+}
+namespace UnityEngine::UIElements {
+struct TextShadow;
+}
+namespace UnityEngine::UIElements {
+struct ComputedStyle;
 }
 namespace UnityEngine::UIElements {
 struct TransformOrigin;
@@ -78,25 +59,44 @@ namespace UnityEngine::UIElements {
 struct WhiteSpace;
 }
 namespace UnityEngine::UIElements {
-struct Cursor;
+struct Rotate;
 }
-namespace UnityEngine {
-class Font;
+namespace UnityEngine::UIElements {
+struct OverflowClipBox;
 }
 namespace UnityEngine::UIElements {
 struct FontDefinition;
 }
-namespace UnityEngine::UIElements {
-struct ComputedStyle;
+namespace UnityEngine {
+struct TextAnchor;
 }
-namespace UnityEngine::UIElements {
-struct FlexDirection;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements {
 struct Scale;
 }
 namespace UnityEngine::UIElements {
-struct OverflowInternal;
+struct TextOverflow;
+}
+namespace UnityEngine::UIElements {
+struct TimeValue;
+}
+namespace UnityEngine::UIElements {
+struct Visibility;
+}
+namespace UnityEngine {
+struct FontStyle;
+}
+namespace UnityEngine::UIElements {
+struct FlexDirection;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

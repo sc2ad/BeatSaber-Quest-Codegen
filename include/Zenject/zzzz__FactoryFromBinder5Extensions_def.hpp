@@ -8,22 +8,42 @@ class FactoryFromBinder_6;
 }
 namespace Zenject {
 template<typename TContract>
+class MemoryPoolInitialSizeMaxSizeBinder_1;
+}
+namespace Zenject {
+template<typename TContract>
 class ConcreteBinderGeneric_1;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TContract>
+class Zenject__FactoryFromBinder5Extensions____c__DisplayClass0_0_6;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TContract>
+class Zenject__FactoryFromBinder5Extensions____c__3_6;
+}
+namespace Zenject {
+class ArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TContract,typename TMemoryPool>
+class Zenject__FactoryFromBinder5Extensions____c__5_7;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TValue>
 class IFactory_6;
 }
 namespace Zenject {
-class ArgConditionCopyNonLazyBinder;
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TContract>
+class Zenject__FactoryFromBinder5Extensions____c__1_6;
 }
 namespace Zenject {
-template<typename TContract>
-class MemoryPoolInitialSizeMaxSizeBinder_1;
-}
-namespace System {
-template<typename T>
-class Action_1;
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TContract,typename TMemoryPool>
+class Zenject__FactoryFromBinder5Extensions____c__DisplayClass6_0_7;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -32,10 +52,10 @@ namespace System {
 struct Guid;
 }
 namespace Zenject {
-class DiContainer;
+class IProvider;
 }
 namespace Zenject {
-class IProvider;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -228,8 +248,7 @@ constexpr System::Guid __get_factoryId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder5Extensions____c__DisplayClass0_0_6() ;
+static Zenject::Zenject__FactoryFromBinder5Extensions____c__DisplayClass0_0_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -306,8 +325,7 @@ static System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder5Extensions____c__1_6() ;
+static Zenject::Zenject__FactoryFromBinder5Extensions____c__1_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -384,8 +402,7 @@ static System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder5Extensions____c__3_6() ;
+static Zenject::Zenject__FactoryFromBinder5Extensions____c__3_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -462,8 +479,7 @@ static System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder5Extensions____c__5_7() ;
+static Zenject::Zenject__FactoryFromBinder5Extensions____c__5_7<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TMemoryPool> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -534,8 +550,7 @@ constexpr System::Guid __get_poolId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinder5Extensions____c__DisplayClass6_0_7() ;
+static Zenject::Zenject__FactoryFromBinder5Extensions____c__DisplayClass6_0_7<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TMemoryPool> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

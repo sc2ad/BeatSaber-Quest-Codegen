@@ -3,19 +3,19 @@
 #include "UnityEngine/InputSystem/XR/zzzz__PoseState_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem::XR {
-struct PoseState;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
-}
-namespace UnityEngine::InputSystem::Controls {
 class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class Vector3Control;
+}
+namespace UnityEngine::InputSystem::XR {
+struct PoseState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -24,7 +24,7 @@ class PoseControl;
 // Type: UnityEngine.InputSystem.XR::PoseControl
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3757 }), TypeDefinitionIndex(TypeDefinitionIndex(6405)), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6405)), TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3757 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6406))
 // CS Name: UnityEngine.InputSystem.XR.PoseControl
 class CORDL_TYPE PoseControl : public UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::XR::PoseState> {
@@ -153,8 +153,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector3Control __get__angularVeloc
 /// @brief Method set_angularVelocity addr 0x29329bc size 0x8 virtual false final false
  void set_angularVelocity(UnityEngine::InputSystem::Controls::Vector3Control value) ;
 
-// Ctor Parameters []
-explicit PoseControl() ;
+static UnityEngine::InputSystem::XR::PoseControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x29329c4 size 0x7c virtual false final false
  void _ctor() ;

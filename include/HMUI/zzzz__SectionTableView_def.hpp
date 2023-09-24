@@ -13,14 +13,20 @@ namespace HMUI {
 struct HMUI__TableView__ScrollPositionType;
 }
 namespace HMUI {
-class TableView;
+struct HMUI__SectionTableView__Section;
+}
+namespace HMUI {
+class HMUI__TableView__IDataSource;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
 }
 namespace HMUI {
-class HMUI__TableView__IDataSource;
+class HMUI__SectionTableView__IDataSource;
+}
+namespace HMUI {
+class TableView;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -282,8 +288,7 @@ constexpr ::ArrayW<HMUI::HMUI__SectionTableView__Section> __get__sections() cons
 /// @brief Method SectionAndRowForBaseRow addr 0x1fd3ce4 size 0xe0 virtual false final false
  void SectionAndRowForBaseRow(int32_t baseRow, ByRef<int32_t> section, ByRef<int32_t> row, ByRef<bool> isSectionHeader) ;
 
-// Ctor Parameters []
-explicit SectionTableView() ;
+static HMUI::SectionTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd4e88 size 0x4 virtual false final false
  void _ctor() ;

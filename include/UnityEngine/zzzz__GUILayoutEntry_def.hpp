@@ -6,13 +6,13 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
 class GUIStyle;
 }
 namespace UnityEngine {
 class GUILayoutOption;
+}
+namespace UnityEngine {
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -170,14 +170,12 @@ static int32_t __get_indent() ;
 /// @brief Method get_marginVertical addr 0x2b8316c size 0x3c virtual false final false
  int32_t get_marginVertical() ;
 
-// Ctor Parameters [CppParam { name: "_minWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_maxWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_minHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_maxHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_style", ty: "UnityEngine::GUIStyle", modifiers: "", def_value: None }]
-explicit GUILayoutEntry(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style) ;
+static UnityEngine::GUILayoutEntry New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style) ;
 
 /// @brief Method .ctor addr 0x2b831a8 size 0x10c virtual false final false
  void _ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style) ;
 
-// Ctor Parameters [CppParam { name: "_minWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_maxWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_minHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_maxHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_style", ty: "UnityEngine::GUIStyle", modifiers: "", def_value: None }, CppParam { name: "options", ty: "::ArrayW<UnityEngine::GUILayoutOption>", modifiers: "", def_value: None }]
-explicit GUILayoutEntry(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style, ::ArrayW<UnityEngine::GUILayoutOption> options) ;
+static UnityEngine::GUILayoutEntry New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style, ::ArrayW<UnityEngine::GUILayoutOption> options) ;
 
 /// @brief Method .ctor addr 0x2b832b4 size 0x108 virtual false final false
  void _ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, UnityEngine::GUIStyle _style, ::ArrayW<UnityEngine::GUILayoutOption> options) ;

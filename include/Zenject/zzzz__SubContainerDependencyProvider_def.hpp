@@ -2,27 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+namespace System {
+class Action;
+}
+namespace System {
+class Type;
+}
 namespace Zenject {
-class DiContainer;
+class ISubContainerCreator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-class ISubContainerCreator;
-}
-namespace System {
-class Action;
+class DiContainer;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
-}
-namespace System {
-class Type;
 }
 namespace Zenject {
 class IProvider;
@@ -110,8 +110,7 @@ constexpr bool __get__resolveAll() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dependencyType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "subContainerCreator", ty: "Zenject::ISubContainerCreator", modifiers: "", def_value: None }, CppParam { name: "resolveAll", ty: "bool", modifiers: "", def_value: None }]
-explicit SubContainerDependencyProvider(System::Type dependencyType, ::bs_hook::Il2CppWrapperType identifier, Zenject::ISubContainerCreator subContainerCreator, bool resolveAll) ;
+static Zenject::SubContainerDependencyProvider New_ctor(System::Type dependencyType, ::bs_hook::Il2CppWrapperType identifier, Zenject::ISubContainerCreator subContainerCreator, bool resolveAll) ;
 
 /// @brief Method .ctor addr 0x2d9413c size 0x44 virtual false final false
  void _ctor(System::Type dependencyType, ::bs_hook::Il2CppWrapperType identifier, Zenject::ISubContainerCreator subContainerCreator, bool resolveAll) ;

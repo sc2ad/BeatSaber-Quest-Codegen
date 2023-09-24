@@ -2,6 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -9,9 +12,6 @@ class List_1;
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
 }
 // Forward declare root types
 namespace TMPro {
@@ -100,8 +100,7 @@ static TMPro::TMP_UpdateRegistry __declspec(property(get=get_instance))  instanc
 /// @brief Method get_instance addr 0x2ab534c size 0x7c virtual false final false
 static TMPro::TMP_UpdateRegistry get_instance() ;
 
-// Ctor Parameters []
-explicit TMP_UpdateRegistry() ;
+static TMPro::TMP_UpdateRegistry New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab53c8 size 0x15c virtual false final false
  void _ctor() ;

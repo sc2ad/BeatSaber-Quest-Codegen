@@ -347,8 +347,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, disposing);
 }
-// Ctor Parameters []
- System::Security::Cryptography::HMAC::HMAC()  : System::Security::Cryptography::KeyedHashAlgorithm(THROW_UNLESS(::il2cpp_utils::New<HMAC>())) {}
+ System::Security::Cryptography::HMAC System::Security::Cryptography::HMAC::New_ctor()  {
+System::Security::Cryptography::HMAC o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::HMAC>())};
+return o;
+}
  void System::Security::Cryptography::HMAC::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::HMAC>::get(),

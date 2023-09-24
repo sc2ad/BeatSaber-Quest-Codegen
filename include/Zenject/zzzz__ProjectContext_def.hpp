@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__Context_def.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace UnityEngine {
-class GameObject;
+class MonoBehaviour;
+}
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -15,20 +14,21 @@ class List_1;
 namespace Zenject {
 struct ReflectionBakingCoverageModes;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace Zenject {
 class ZenjectSettings;
 }
-namespace UnityEngine {
-class MonoBehaviour;
-}
 namespace Zenject {
 class DiContainer;
 }
-namespace System {
-class Action;
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace Zenject {
@@ -233,8 +233,7 @@ static void InstantiateAndInitialize() ;
 /// @brief Method InstallBindings addr 0x2d778f0 size 0x33c virtual false final false
  void InstallBindings(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour> injectableMonoBehaviours) ;
 
-// Ctor Parameters []
-explicit ProjectContext() ;
+static Zenject::ProjectContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d77cec size 0xc virtual false final false
  void _ctor() ;

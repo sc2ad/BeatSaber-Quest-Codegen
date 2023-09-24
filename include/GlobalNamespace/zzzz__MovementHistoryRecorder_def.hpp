@@ -86,8 +86,7 @@ constexpr float_t __get__accum() const;
 /// @brief Method get_averagingValueRecorer addr 0x210b1c8 size 0x8 virtual false final false
  GlobalNamespace::AveragingValueRecorder get_averagingValueRecorer() ;
 
-// Ctor Parameters [CppParam { name: "averageWindowDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "historyValuesPerSecond", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "increaseSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "decreaseSpeed", ty: "float_t", modifiers: "", def_value: None }]
-explicit MovementHistoryRecorder(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed) ;
+static GlobalNamespace::MovementHistoryRecorder New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed) ;
 
 /// @brief Method .ctor addr 0x210b1d0 size 0x9c virtual false final false
  void _ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed) ;

@@ -53,8 +53,7 @@ constexpr explicit RSA(void* ptr) noexcept : System::Security::Cryptography::Asy
 
 // Methods
 
-// Ctor Parameters []
-explicit RSA() ;
+static System::Security::Cryptography::RSA New_ctor() ;
 
 /// @brief Method .ctor addr 0x22fa444 size 0x8 virtual false final false
  void _ctor() ;

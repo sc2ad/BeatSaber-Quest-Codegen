@@ -10,104 +10,137 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class TextGenerator;
-}
 namespace UnityEngine::EventSystems {
-class BaseInput;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine {
-struct TouchScreenKeyboardType;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine {
-class WaitForSecondsRealtime;
-}
-namespace UnityEngine {
-class TouchScreenKeyboard;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
+class IDragHandler;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
 }
 namespace UnityEngine::UI {
-struct UnityEngine__UI__Selectable__SelectionState;
+class Text;
 }
-namespace UnityEngine::EventSystems {
-class IDragHandler;
+namespace UnityEngine {
+struct Color;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Selectable__SelectionState;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__InputField__SubmitEvent;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__InputField___CaretBlink_d__172;
+}
+namespace UnityEngine {
+class TextGenerator;
+}
 namespace UnityEngine::EventSystems {
 class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IUpdateSelectedHandler;
 }
 namespace UnityEngine::UI {
 class ICanvasElement;
 }
+namespace UnityEngine::UI {
+struct UnityEngine__UI__InputField__ContentType;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__InputField__EditState;
+}
 namespace UnityEngine {
-struct UIVertex;
+class Mesh;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__InputField__OnValidateInput;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__InputField__LineType;
+}
+namespace UnityEngine {
+class TouchScreenKeyboard;
 }
 namespace UnityEngine {
 class Event;
 }
 namespace UnityEngine {
-class Coroutine;
+class RectTransform;
+}
+namespace UnityEngine {
+class WaitForSecondsRealtime;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__InputField__EndEditEvent;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__InputField___MouseDragOutsideRect_d__194;
 }
 namespace UnityEngine::EventSystems {
-class IEndDragHandler;
+class PointerEventData;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class CanvasRenderer;
-}
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::EventSystems {
+class BaseEventData;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
 }
 namespace UnityEngine {
-class Mesh;
+struct UIVertex;
 }
-namespace System {
-class IAsyncResult;
+namespace UnityEngine {
+class CanvasRenderer;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__InputField__OnChangeEvent;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine {
+struct TouchScreenKeyboardType;
+}
+namespace UnityEngine::EventSystems {
+class BaseInput;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__InputField__InputType;
+}
+namespace UnityEngine::EventSystems {
+class IEndDragHandler;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__InputField__CharacterValidation;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -211,6 +244,8 @@ constexpr operator __UnityEngine__UI__InputField__ContentType_Unwrapped () const
 return std::bit_cast<__UnityEngine__UI__InputField__ContentType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -305,6 +340,8 @@ constexpr operator __UnityEngine__UI__InputField__InputType_Unwrapped () const n
 return std::bit_cast<__UnityEngine__UI__InputField__InputType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -380,6 +417,8 @@ __EmailAddress = 5,
 constexpr operator __UnityEngine__UI__InputField__CharacterValidation_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__InputField__CharacterValidation_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -463,6 +502,8 @@ constexpr operator __UnityEngine__UI__InputField__LineType_Unwrapped () const no
 return std::bit_cast<__UnityEngine__UI__InputField__LineType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -527,8 +568,7 @@ constexpr explicit UnityEngine__UI__InputField__OnValidateInput(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__InputField__OnValidateInput(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2bf0b60 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -549,7 +589,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::SubmitEvent
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 380 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13002))
 // CS Name: UnityEngine.UI.InputField::SubmitEvent
 class CORDL_TYPE UnityEngine__UI__InputField__SubmitEvent : public UnityEngine::Events::UnityEvent_1<::StringW> {
@@ -588,8 +628,7 @@ constexpr explicit UnityEngine__UI__InputField__SubmitEvent(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__InputField__SubmitEvent() ;
+static UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bf04e4 size 0x48 virtual false final false
  void _ctor() ;
@@ -601,7 +640,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::EndEditEvent
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13003))
 // CS Name: UnityEngine.UI.InputField::EndEditEvent
 class CORDL_TYPE UnityEngine__UI__InputField__EndEditEvent : public UnityEngine::Events::UnityEvent_1<::StringW> {
@@ -640,8 +679,7 @@ constexpr explicit UnityEngine__UI__InputField__EndEditEvent(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__InputField__EndEditEvent() ;
+static UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bf052c size 0x48 virtual false final false
  void _ctor() ;
@@ -692,8 +730,7 @@ constexpr explicit UnityEngine__UI__InputField__OnChangeEvent(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__InputField__OnChangeEvent() ;
+static UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bf0574 size 0x48 virtual false final false
  void _ctor() ;
@@ -751,6 +788,8 @@ __Finish = 1,
 constexpr operator __UnityEngine__UI__InputField__EditState_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__InputField__EditState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -850,8 +889,7 @@ constexpr UnityEngine::UI::InputField __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__InputField___CaretBlink_d__172(int32_t __1__state) ;
+static UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2bf2798 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -960,8 +998,7 @@ constexpr UnityEngine::UI::InputField __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__InputField___MouseDragOutsideRect_d__194(int32_t __1__state) ;
+static UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2bf4df8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -1499,8 +1536,7 @@ static ::StringW __declspec(property(get=get_clipboard, put=set_clipboard))  cli
 /// @brief Method get_compositionString addr 0x2bf02b8 size 0x94 virtual false final false
  ::StringW get_compositionString() ;
 
-// Ctor Parameters []
-explicit InputField() ;
+static UnityEngine::UI::InputField New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bf034c size 0x198 virtual false final false
  void _ctor() ;

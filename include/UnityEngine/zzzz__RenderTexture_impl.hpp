@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__Texture_impl.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
+#include "UnityEngine/zzzz__VRTextureUsage_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
 #include "UnityEngine/zzzz__RenderBuffer_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__DefaultFormat_def.hpp"
-#include "UnityEngine/zzzz__VRTextureUsage_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureReadWrite_def.hpp"
+#include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureMemoryless_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureReadWrite_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 //  Writing Method size for method: UnityEngine::RenderTexture.get_width
 template<>
 
@@ -1370,8 +1370,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, temp);
 }
-// Ctor Parameters []
- UnityEngine::RenderTexture::RenderTexture()  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>())) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor()  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>())};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1381,8 +1383,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "desc", ty: "UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(UnityEngine::RenderTextureDescriptor desc)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(desc))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(UnityEngine::RenderTextureDescriptor desc)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(desc))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(UnityEngine::RenderTextureDescriptor desc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1392,8 +1396,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, desc);
 }
-// Ctor Parameters [CppParam { name: "textureToCopy", ty: "UnityEngine::RenderTexture", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(UnityEngine::RenderTexture textureToCopy)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(textureToCopy))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(UnityEngine::RenderTexture textureToCopy)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(textureToCopy))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(UnityEngine::RenderTexture textureToCopy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1403,8 +1409,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, textureToCopy);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::DefaultFormat", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(width, height, depth, format))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(width, height, depth, format))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1414,8 +1422,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, format);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(width, height, depth, format))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(width, height, depth, format))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1425,8 +1435,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, format);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(width, height, depth, format, mipCount))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(width, height, depth, format, mipCount))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1436,8 +1448,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, format, mipCount);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "colorFormat", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "depthStencilFormat", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat, int32_t mipCount)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(width, height, colorFormat, depthStencilFormat, mipCount))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat, int32_t mipCount)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(width, height, colorFormat, depthStencilFormat, mipCount))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat, int32_t mipCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1447,8 +1461,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, colorFormat, depthStencilFormat, mipCount);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "colorFormat", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "depthStencilFormat", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(width, height, colorFormat, depthStencilFormat))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(width, height, colorFormat, depthStencilFormat))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1458,8 +1474,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, colorFormat, depthStencilFormat);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::RenderTextureFormat", modifiers: "", def_value: None }, CppParam { name: "readWrite", ty: "UnityEngine::RenderTextureReadWrite", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(width, height, depth, format, readWrite))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(width, height, depth, format, readWrite))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1469,8 +1487,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, format, readWrite);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::RenderTextureFormat", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(width, height, depth, format))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(width, height, depth, format))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1480,8 +1500,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, format);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(int32_t width, int32_t height, int32_t depth)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(width, height, depth))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(width, height, depth))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, int32_t depth)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),
@@ -1491,8 +1513,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::RenderTextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::RenderTexture::RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, int32_t mipCount)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<RenderTexture>(width, height, depth, format, mipCount))) {}
+ UnityEngine::RenderTexture UnityEngine::RenderTexture::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, int32_t mipCount)  {
+UnityEngine::RenderTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RenderTexture>(width, height, depth, format, mipCount))};
+return o;
+}
  void UnityEngine::RenderTexture::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, int32_t mipCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RenderTexture>::get(),

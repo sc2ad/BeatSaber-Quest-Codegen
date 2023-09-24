@@ -1,12 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WTauNafMultiplier_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mPoint_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Abc/zzzz__ZTauElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Abc/zzzz__ZTauElement_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WTauNafMultiplier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback._ctor
 template<>
 
@@ -57,8 +58,10 @@ constexpr void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math_
 constexpr int8_t Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback::__get_m_a() const {
 return ::cordl_internals::getInstanceField<int8_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::EC::AbstractF2mPoint", modifiers: "", def_value: None }, CppParam { name: "a", ty: "int8_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback(Org::BouncyCastle::Math::EC::AbstractF2mPoint p, int8_t a)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback>(p, a))) {}
+ Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback::New_ctor(Org::BouncyCastle::Math::EC::AbstractF2mPoint p, int8_t a)  {
+Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback>(p, a))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback::_ctor(Org::BouncyCastle::Math::EC::AbstractF2mPoint p, int8_t a)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback>::get(),
@@ -178,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::EC::AbstractF2mPoint, false>(nullptr, ___internal_method, p, u);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafMultiplier()  : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(THROW_UNLESS(::il2cpp_utils::New<WTauNafMultiplier>())) {}
+ Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::New_ctor()  {
+Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier>::get(),

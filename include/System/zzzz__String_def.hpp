@@ -7,41 +7,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Text {
-class Encoding;
-}
-namespace System::Globalization {
-struct CompareOptions;
+namespace System {
+struct System__String__ProbabilisticMap;
 }
 namespace System {
-class IComparable;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-struct StringSplitOptions;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class IConvertible;
-}
-namespace System::Collections::Generic {
-template<typename T>
-struct ValueListBuilder_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+struct Decimal;
 }
 namespace System::Text {
 struct NormalizationForm;
@@ -50,41 +20,77 @@ namespace System {
 struct ParamsArray;
 }
 namespace System {
-struct DateTime;
+struct TypeCode;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
-class Type;
+template<typename T>
+struct ReadOnlySpan_1;
 }
-namespace System {
-struct Decimal;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Buffers {
-template<typename T,typename TArg>
-class SpanAction_2;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace System {
-struct StringComparison;
+struct StringSplitOptions;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Collections::Generic {
+template<typename T>
+struct ValueListBuilder_1;
 }
 namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
+class Type;
+}
+namespace System::Globalization {
+struct CompareOptions;
+}
+namespace System::Buffers {
+template<typename T,typename TArg>
+class SpanAction_2;
+}
+namespace System {
+struct System__String__TrimType;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+class IComparable;
 }
 namespace System {
 template<typename T>
 class IComparable_1;
 }
 namespace System {
-struct TypeCode;
+class IConvertible;
+}
+namespace System {
+struct StringComparison;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class ICloneable;
+}
+namespace System::Text {
+class Encoding;
 }
 // Forward declare root types
 namespace System {
@@ -146,6 +152,8 @@ __Both = 2,
 constexpr operator __System__String__TrimType_Unwrapped () const noexcept {
 return std::bit_cast<__System__String__TrimType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -703,8 +711,7 @@ static void SetCharBit(void* charMap, uint8_t value) ;
 /// @brief Method LastIndexOf addr 0x22c6588 size 0x394 virtual false final false
  int32_t LastIndexOf(::StringW value, int32_t startIndex, int32_t count, System::StringComparison comparisonType) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }]
-explicit String(::ArrayW<char16_t> value) ;
+static System::String New_ctor(::ArrayW<char16_t> value) ;
 
 /// @brief Method .ctor addr 0x22c692c size 0x4 virtual false final false
  void _ctor(::ArrayW<char16_t> value) ;
@@ -712,8 +719,7 @@ explicit String(::ArrayW<char16_t> value) ;
 /// @brief Method Ctor addr 0x22c6930 size 0x90 virtual false final false
 static ::StringW Ctor(::ArrayW<char16_t> value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit String(::ArrayW<char16_t> value, int32_t startIndex, int32_t length) ;
+static System::String New_ctor(::ArrayW<char16_t> value, int32_t startIndex, int32_t length) ;
 
 /// @brief Method .ctor addr 0x22c69c0 size 0x4 virtual false final false
  void _ctor(::ArrayW<char16_t> value, int32_t startIndex, int32_t length) ;
@@ -721,8 +727,7 @@ explicit String(::ArrayW<char16_t> value, int32_t startIndex, int32_t length) ;
 /// @brief Method Ctor addr 0x22c69c4 size 0x1bc virtual false final false
 static ::StringW Ctor(::ArrayW<char16_t> value, int32_t startIndex, int32_t length) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit String(void* value, int32_t startIndex, int32_t length) ;
+static System::String New_ctor(void* value, int32_t startIndex, int32_t length) ;
 
 /// @brief Method .ctor addr 0x22c6b80 size 0x4 virtual false final false
  void _ctor(void* value, int32_t startIndex, int32_t length) ;
@@ -730,8 +735,7 @@ explicit String(void* value, int32_t startIndex, int32_t length) ;
 /// @brief Method Ctor addr 0x22c6b84 size 0x190 virtual false final false
 static ::StringW Ctor(void* ptr, int32_t startIndex, int32_t length) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit String(void* value, int32_t startIndex, int32_t length) ;
+static System::String New_ctor(void* value, int32_t startIndex, int32_t length) ;
 
 /// @brief Method .ctor addr 0x22c6d14 size 0x4 virtual false final false
  void _ctor(void* value, int32_t startIndex, int32_t length) ;
@@ -742,8 +746,7 @@ static ::StringW Ctor(void* value, int32_t startIndex, int32_t length) ;
 /// @brief Method CreateStringForSByteConstructor addr 0x22c6ea0 size 0x7c virtual false final false
 static ::StringW CreateStringForSByteConstructor(void* pb, int32_t numBytes) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "enc", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit String(void* value, int32_t startIndex, int32_t length, System::Text::Encoding enc) ;
+static System::String New_ctor(void* value, int32_t startIndex, int32_t length, System::Text::Encoding enc) ;
 
 /// @brief Method .ctor addr 0x22c6f1c size 0x4 virtual false final false
  void _ctor(void* value, int32_t startIndex, int32_t length, System::Text::Encoding enc) ;
@@ -751,8 +754,7 @@ explicit String(void* value, int32_t startIndex, int32_t length, System::Text::E
 /// @brief Method Ctor addr 0x22c6f20 size 0x1e4 virtual false final false
 static ::StringW Ctor(void* value, int32_t startIndex, int32_t length, System::Text::Encoding enc) ;
 
-// Ctor Parameters [CppParam { name: "c", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
-explicit String(char16_t c, int32_t count) ;
+static System::String New_ctor(char16_t c, int32_t count) ;
 
 /// @brief Method .ctor addr 0x22c7114 size 0x4 virtual false final false
  void _ctor(char16_t c, int32_t count) ;
@@ -760,8 +762,7 @@ explicit String(char16_t c, int32_t count) ;
 /// @brief Method Ctor addr 0x22c7118 size 0x120 virtual false final false
 static ::StringW Ctor(char16_t c, int32_t count) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }]
-explicit String(System::ReadOnlySpan_1<char16_t> value) ;
+static System::String New_ctor(System::ReadOnlySpan_1<char16_t> value) ;
 
 /// @brief Method .ctor addr 0x22c7238 size 0x4 virtual false final false
  void _ctor(System::ReadOnlySpan_1<char16_t> value) ;

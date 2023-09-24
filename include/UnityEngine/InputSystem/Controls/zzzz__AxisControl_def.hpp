@@ -4,6 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::InputSystem::Controls {
+struct UnityEngine__InputSystem__Controls__AxisControl__Clamp;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
 struct UnityEngine__InputSystem__Controls__AxisControl__Clamp;
@@ -63,6 +66,8 @@ constexpr operator __UnityEngine__InputSystem__Controls__AxisControl__Clamp_Unwr
 return std::bit_cast<__UnityEngine__InputSystem__Controls__AxisControl__Clamp_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -91,7 +96,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.InputSystem.Controls::AxisControl
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 374 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6711))
 // CS Name: UnityEngine.InputSystem.Controls.AxisControl
 class CORDL_TYPE AxisControl : public UnityEngine::InputSystem::InputControl_1<float_t> {
@@ -207,8 +212,7 @@ constexpr float_t __get_scaleFactor() const;
 /// @brief Method Unpreprocess addr 0x297720c size 0x4c virtual false final false
  float_t Unpreprocess(float_t value) ;
 
-// Ctor Parameters []
-explicit AxisControl() ;
+static UnityEngine::InputSystem::Controls::AxisControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2977258 size 0x88 virtual false final false
  void _ctor() ;

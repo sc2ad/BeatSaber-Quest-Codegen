@@ -4,29 +4,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Net::Sockets {
-class NetworkStream;
+namespace System::Net {
+struct CloseExState;
 }
 namespace System::Net {
-struct TriState;
-}
-namespace System::Net {
-class ICloseEx;
+class FtpWebRequest;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System::Net {
-struct CloseExState;
+struct TriState;
 }
 namespace System::IO {
 struct SeekOrigin;
 }
+namespace System::Net {
+class ICloseEx;
+}
+namespace System::Net::Sockets {
+class NetworkStream;
+}
 namespace System {
 class IAsyncResult;
-}
-namespace System::Net {
-class FtpWebRequest;
 }
 // Forward declare root types
 namespace System::Net {
@@ -135,8 +135,7 @@ constexpr bool __get__closing() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "networkStream", ty: "System::Net::Sockets::NetworkStream", modifiers: "", def_value: None }, CppParam { name: "request", ty: "System::Net::FtpWebRequest", modifiers: "", def_value: None }, CppParam { name: "writeOnly", ty: "System::Net::TriState", modifiers: "", def_value: None }]
-explicit FtpDataStream(System::Net::Sockets::NetworkStream networkStream, System::Net::FtpWebRequest request, System::Net::TriState writeOnly) ;
+static System::Net::FtpDataStream New_ctor(System::Net::Sockets::NetworkStream networkStream, System::Net::FtpWebRequest request, System::Net::TriState writeOnly) ;
 
 /// @brief Method .ctor addr 0x27fe2ec size 0xfc virtual false final false
  void _ctor(System::Net::Sockets::NetworkStream networkStream, System::Net::FtpWebRequest request, System::Net::TriState writeOnly) ;

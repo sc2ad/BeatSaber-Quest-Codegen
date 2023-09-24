@@ -54,8 +54,7 @@ static constexpr uint8_t  change_cipher_spec{1u};
 
 // Methods
 
-// Ctor Parameters []
-explicit ChangeCipherSpec() ;
+static Org::BouncyCastle::Crypto::Tls::ChangeCipherSpec New_ctor() ;
 
 /// @brief Method .ctor addr 0xed2ca8 size 0x8 virtual false final false
  void _ctor() ;

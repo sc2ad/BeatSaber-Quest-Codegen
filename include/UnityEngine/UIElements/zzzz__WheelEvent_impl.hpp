@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__WheelEvent_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::WheelEvent.get_delta
 template<>
 
@@ -183,8 +183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::WheelEvent::WheelEvent()  : UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::WheelEvent>(THROW_UNLESS(::il2cpp_utils::New<WheelEvent>())) {}
+ UnityEngine::UIElements::WheelEvent UnityEngine::UIElements::WheelEvent::New_ctor()  {
+UnityEngine::UIElements::WheelEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::WheelEvent>())};
+return o;
+}
  void UnityEngine::UIElements::WheelEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::WheelEvent>::get(),

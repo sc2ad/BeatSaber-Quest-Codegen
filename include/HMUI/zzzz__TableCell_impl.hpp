@@ -297,8 +297,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::TableCell::TableCell()  : HMUI::SelectableCell(THROW_UNLESS(::il2cpp_utils::New<TableCell>())) {}
+ HMUI::TableCell HMUI::TableCell::New_ctor()  {
+HMUI::TableCell o{THROW_UNLESS(::il2cpp_utils::New<HMUI::TableCell>())};
+return o;
+}
  void HMUI::TableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::TableCell>::get(),

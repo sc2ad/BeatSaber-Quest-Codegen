@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Diagnostics {
-class CorrelationManager;
+class TraceListenerCollection;
 }
 namespace System::Diagnostics {
-class TraceListenerCollection;
+class CorrelationManager;
 }
 // Forward declare root types
 namespace System::Diagnostics {

@@ -59,8 +59,7 @@ static constexpr ::ConstString  BindAnyAddress{u"::0"};
 
 // Methods
 
-// Ctor Parameters []
-explicit IgnoranceInternals() ;
+static IgnoranceCore::IgnoranceInternals New_ctor() ;
 
 /// @brief Method .ctor addr 0x2084854 size 0x8 virtual false final false
  void _ctor() ;

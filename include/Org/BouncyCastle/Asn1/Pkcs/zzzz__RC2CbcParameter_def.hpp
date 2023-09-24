@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -88,20 +88,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_iv() const;
 /// @brief Method GetInstance addr 0xeff42c size 0x164 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit RC2CbcParameter(::ArrayW<uint8_t> iv) ;
+static Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter New_ctor(::ArrayW<uint8_t> iv) ;
 
 /// @brief Method .ctor addr 0xeff704 size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> iv) ;
 
-// Ctor Parameters [CppParam { name: "parameterVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit RC2CbcParameter(int32_t parameterVersion, ::ArrayW<uint8_t> iv) ;
+static Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter New_ctor(int32_t parameterVersion, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method .ctor addr 0xeff780 size 0xb4 virtual false final false
  void _ctor(int32_t parameterVersion, ::ArrayW<uint8_t> iv) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit RC2CbcParameter(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xeff590 size 0x174 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

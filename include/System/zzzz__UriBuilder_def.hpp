@@ -136,20 +136,17 @@ constexpr ::StringW __get__username() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UriBuilder() ;
+static System::UriBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b5114 size 0x10c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UriBuilder(::StringW uri) ;
+static System::UriBuilder New_ctor(::StringW uri) ;
 
 /// @brief Method .ctor addr 0x27b5220 size 0x1a8 virtual false final false
  void _ctor(::StringW uri) ;
 
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }]
-explicit UriBuilder(System::Uri uri) ;
+static System::UriBuilder New_ctor(System::Uri uri) ;
 
 /// @brief Method .ctor addr 0x27b553c size 0x174 virtual false final false
  void _ctor(System::Uri uri) ;

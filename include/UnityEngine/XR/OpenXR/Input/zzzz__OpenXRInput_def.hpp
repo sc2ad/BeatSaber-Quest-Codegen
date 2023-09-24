@@ -7,37 +7,49 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine::XR::OpenXR::Features {
+class OpenXRInteractionFeature;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
+namespace UnityEngine::XR::OpenXR::Input {
+struct UnityEngine__XR__OpenXR__Input__OpenXRInput__GetInternalDeviceIdCommand;
 }
-namespace UnityEngine::InputSystem {
-class InputAction;
+namespace UnityEngine::XR::OpenXR::Input {
+class UnityEngine__XR__OpenXR__Input__OpenXRInput____c;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine::XR::OpenXR::Features {
-class OpenXRInteractionFeature;
+namespace UnityEngine::InputSystem {
+class InputActionReference;
 }
 namespace UnityEngine::XR::OpenXR::Features {
 class UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig;
 }
 namespace UnityEngine::InputSystem {
-class InputActionReference;
+class InputDevice;
+}
+namespace UnityEngine::XR::OpenXR::Input {
+struct UnityEngine__XR__OpenXR__Input__OpenXRInput__InputSourceNameFlags;
+}
+namespace UnityEngine::XR::OpenXR::Input {
+struct UnityEngine__XR__OpenXR__Input__OpenXRInput__SerializedGuid;
 }
 namespace UnityEngine::XR::OpenXR::Features {
 struct UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionType;
 }
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::XR::OpenXR::Input {
+struct UnityEngine__XR__OpenXR__Input__OpenXRInput__SerializedBinding;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace UnityEngine::XR::OpenXR::Features {
-class UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig;
 }
 namespace UnityEngine::XR::OpenXR::Features {
 class UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding;
@@ -46,14 +58,17 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace UnityEngine::XR::OpenXR::Features {
+class UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
 }
 namespace System {
 struct Guid;
@@ -253,6 +268,8 @@ constexpr operator __UnityEngine__XR__OpenXR__Input__OpenXRInput__InputSourceNam
 return std::bit_cast<__UnityEngine__XR__OpenXR__Input__OpenXRInput__InputSourceNameFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -440,8 +457,7 @@ static System::Func_2<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__XR__OpenXR__Input__OpenXRInput____c() ;
+static UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aef9d4 size 0x8 virtual false final false
  void _ctor() ;

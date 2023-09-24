@@ -52,8 +52,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Xml::Ucs4Encoding3412::Ucs4Encoding3412()  : System::Xml::Ucs4Encoding(THROW_UNLESS(::il2cpp_utils::New<Ucs4Encoding3412>())) {}
+ System::Xml::Ucs4Encoding3412 System::Xml::Ucs4Encoding3412::New_ctor()  {
+System::Xml::Ucs4Encoding3412 o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Ucs4Encoding3412>())};
+return o;
+}
  void System::Xml::Ucs4Encoding3412::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Ucs4Encoding3412>::get(),

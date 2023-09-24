@@ -447,8 +447,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal, false>(nullptr, ___internal_method, val, scale);
 }
-// Ctor Parameters [CppParam { name: "bigInt", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::SimpleBigDecimal(Org::BouncyCastle::Math::BigInteger bigInt, int32_t scale)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimpleBigDecimal>(bigInt, scale))) {}
+ Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::New_ctor(Org::BouncyCastle::Math::BigInteger bigInt, int32_t scale)  {
+Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal>(bigInt, scale))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::_ctor(Org::BouncyCastle::Math::BigInteger bigInt, int32_t scale)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal>::get(),
@@ -458,8 +460,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bigInt, scale);
 }
-// Ctor Parameters [CppParam { name: "limBigDec", ty: "Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::SimpleBigDecimal(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal limBigDec)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimpleBigDecimal>(limBigDec))) {}
+ Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::New_ctor(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal limBigDec)  {
+Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal>(limBigDec))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::_ctor(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal limBigDec)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal>::get(),

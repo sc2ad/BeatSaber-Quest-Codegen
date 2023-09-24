@@ -2,9 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
-}
-namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
@@ -12,6 +9,9 @@ class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class AxisControl;
 }
 // Forward declare root types
 namespace Unity::XR::OpenVR {
@@ -208,8 +208,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector3Control __get__deviceAngula
 /// @brief Method FinishSetup addr 0x28a2a0c size 0x238 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit ViveWand() ;
+static Unity::XR::OpenVR::ViveWand New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a2c44 size 0x8 virtual false final false
  void _ctor() ;

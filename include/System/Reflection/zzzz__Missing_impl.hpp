@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Reflection/zzzz__Missing_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Reflection::Missing._ctor
 template<>
@@ -47,8 +47,10 @@ return System::Runtime::Serialization::ISerializable(::bs_hook::Il2CppWrapperTyp
  System::Reflection::Missing System::Reflection::Missing::__get_Value()  {
 return ::cordl_internals::getStaticField<System::Reflection::Missing, "Value", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::Missing>::get>();
 }
-// Ctor Parameters []
- System::Reflection::Missing::Missing()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Missing>())) {}
+ System::Reflection::Missing System::Reflection::Missing::New_ctor()  {
+System::Reflection::Missing o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::Missing>())};
+return o;
+}
  void System::Reflection::Missing::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::Missing>::get(),

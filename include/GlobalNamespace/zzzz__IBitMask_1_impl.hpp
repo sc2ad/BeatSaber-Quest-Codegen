@@ -1,57 +1,6 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
-//  Writing Method size for method: GlobalNamespace::IBitMask_1.get_bitCount
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (GlobalNamespace::IBitMask_1::*)()>(&GlobalNamespace::IBitMask_1::get_bitCount)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(GlobalNamespace::IBitMask_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IBitMask_1>::get(),
-                                  0
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::IBitMask_1.SetBits
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<T (GlobalNamespace::IBitMask_1::*)(int32_t, uint64_t)>(&GlobalNamespace::IBitMask_1::SetBits)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(GlobalNamespace::IBitMask_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IBitMask_1>::get(),
-                                  1
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::IBitMask_1.GetBits
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::IBitMask_1::*)(int32_t, int32_t)>(&GlobalNamespace::IBitMask_1::GetBits)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(GlobalNamespace::IBitMask_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IBitMask_1>::get(),
-                                  2
-                                ));
-    return ___internal_method;
-  }
-};
 /// @brief Convert operator to System::IEquatable_1<T>
 constexpr  GlobalNamespace::IBitMask_1::operator System::IEquatable_1<T>() const noexcept {
 return System::IEquatable_1<T>(::bs_hook::Il2CppWrapperType::instance);

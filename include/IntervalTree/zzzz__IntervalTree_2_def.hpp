@@ -4,25 +4,22 @@
 #include <cstdint>
 namespace IntervalTree {
 template<typename TKey,typename TValue>
-class IntervalTreeNode_2;
+class IntervalTree__IntervalTree_2____c__DisplayClass19_0;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace IntervalTree {
+template<typename TKey,typename TValue>
+class IntervalTree__IntervalTree_2____c__DisplayClass20_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
 namespace IntervalTree {
 template<typename TKey,typename TValue>
-struct RangeValuePair_2;
+class IntervalTree__IntervalTree_2____c__DisplayClass24_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -30,11 +27,34 @@ class IEnumerable_1;
 }
 namespace IntervalTree {
 template<typename TKey,typename TValue>
+struct RangeValuePair_2;
+}
+namespace IntervalTree {
+template<typename TKey,typename TValue>
 class IIntervalTree_2;
+}
+namespace IntervalTree {
+template<typename TKey,typename TValue>
+class IntervalTree__IntervalTree_2____c__DisplayClass23_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IComparer_1;
+}
+namespace IntervalTree {
+template<typename TKey,typename TValue>
+class IntervalTree__IntervalTree_2____c;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace IntervalTree {
+template<typename TKey,typename TValue>
+class IntervalTreeNode_2;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -154,8 +174,7 @@ static System::Func_2<IntervalTree::RangeValuePair_2<TKey,TValue>,TValue> __get_
 
 // Methods
 
-// Ctor Parameters []
-explicit IntervalTree__IntervalTree_2____c() ;
+static IntervalTree::IntervalTree__IntervalTree_2____c<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -220,8 +239,7 @@ constexpr TValue __get_value() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit IntervalTree__IntervalTree_2____c__DisplayClass19_0() ;
+static IntervalTree::IntervalTree__IntervalTree_2____c__DisplayClass19_0<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -286,8 +304,7 @@ constexpr System::Collections::Generic::IEnumerable_1<TValue> __get_items() cons
 
 // Methods
 
-// Ctor Parameters []
-explicit IntervalTree__IntervalTree_2____c__DisplayClass20_0() ;
+static IntervalTree::IntervalTree__IntervalTree_2____c__DisplayClass20_0<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -358,8 +375,7 @@ constexpr TKey __get_key() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit IntervalTree__IntervalTree_2____c__DisplayClass23_0() ;
+static IntervalTree::IntervalTree__IntervalTree_2____c__DisplayClass23_0<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -430,8 +446,7 @@ constexpr TKey __get_key() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit IntervalTree__IntervalTree_2____c__DisplayClass24_0() ;
+static IntervalTree::IntervalTree__IntervalTree_2____c__DisplayClass24_0<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -559,14 +574,12 @@ constexpr bool __get_isInSync() const;
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_Count() ;
 
-// Ctor Parameters []
-explicit IntervalTree_2() ;
+static IntervalTree::IntervalTree_2<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit IntervalTree_2(System::Collections::Generic::IComparer_1<TKey> comparer) ;
+static IntervalTree::IntervalTree_2<TKey,TValue> New_ctor(System::Collections::Generic::IComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IComparer_1<TKey> comparer) ;

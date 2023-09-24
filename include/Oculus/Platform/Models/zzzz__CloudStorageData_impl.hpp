@@ -41,8 +41,10 @@ constexpr void Oculus::Platform::Models::CloudStorageData::__set_Key(::StringW v
 constexpr ::StringW Oculus::Platform::Models::CloudStorageData::__get_Key() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::CloudStorageData::CloudStorageData(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CloudStorageData>(o))) {}
+ Oculus::Platform::Models::CloudStorageData Oculus::Platform::Models::CloudStorageData::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::CloudStorageData o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::CloudStorageData>(o))};
+return o;
+}
  void Oculus::Platform::Models::CloudStorageData::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::CloudStorageData>::get(),

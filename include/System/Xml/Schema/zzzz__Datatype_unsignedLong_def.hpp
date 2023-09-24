@@ -5,23 +5,23 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Exception;
-}
-namespace System::Xml::Schema {
-class FacetsChecker;
-}
-namespace System {
-class Type;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
+}
+namespace System::Xml::Schema {
+class FacetsChecker;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -119,8 +119,7 @@ static System::Xml::Schema::FacetsChecker __get_numeric10FacetsChecker() ;
 /// @brief Method TryParseValue addr 0x2729d24 size 0x184 virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_unsignedLong() ;
+static System::Xml::Schema::Datatype_unsignedLong New_ctor() ;
 
 /// @brief Method .ctor addr 0x2729ea8 size 0x54 virtual false final false
  void _ctor() ;

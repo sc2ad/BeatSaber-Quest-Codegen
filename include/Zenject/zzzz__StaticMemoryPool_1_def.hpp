@@ -6,16 +6,16 @@ namespace Zenject {
 template<typename TValue>
 class IMemoryPool_1;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace Zenject {
+template<typename TValue>
+class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
 class IMemoryPool;
 }
-namespace Zenject {
-template<typename TValue>
-class IDespawnableMemoryPool_1;
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -32,7 +32,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11027), inst: 152 }), TypeDefinitionIndex(TypeDefinitionIndex(11027)), TypeDefinitionIndex(TypeDefinitionIndex(11028))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11027), inst: 152 }), TypeDefinitionIndex(TypeDefinitionIndex(11028)), TypeDefinitionIndex(TypeDefinitionIndex(11027))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11028), inst: 2 })
 // CS Name: Zenject.StaticMemoryPool`1
 class CORDL_TYPE StaticMemoryPool_1<TValue> : public Zenject::StaticMemoryPoolBase_1<TValue> {
@@ -94,8 +94,7 @@ constexpr System::Action_1<TValue> __get__onSpawnMethod() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onSpawnMethod", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "onDespawnedMethod", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StaticMemoryPool_1(System::Action_1<TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod, int32_t initialSize) ;
+static Zenject::StaticMemoryPool_1<TValue> New_ctor(System::Action_1<TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod, int32_t initialSize) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Action_1<TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod, int32_t initialSize) ;

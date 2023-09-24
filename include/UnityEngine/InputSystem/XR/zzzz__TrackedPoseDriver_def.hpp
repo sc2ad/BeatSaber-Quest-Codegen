@@ -3,11 +3,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::InputSystem::XR {
+struct UnityEngine__InputSystem__XR__TrackedPoseDriver__TrackingType;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -18,8 +24,8 @@ struct UnityEngine__InputSystem__InputAction__CallbackContext;
 namespace UnityEngine::InputSystem {
 struct InputActionProperty;
 }
-namespace UnityEngine::InputSystem {
-class InputAction;
+namespace UnityEngine::InputSystem::XR {
+struct UnityEngine__InputSystem__XR__TrackedPoseDriver__UpdateType;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -81,6 +87,8 @@ __PositionOnly = 2,
 constexpr operator __UnityEngine__InputSystem__XR__TrackedPoseDriver__TrackingType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__XR__TrackedPoseDriver__TrackingType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -154,6 +162,8 @@ __BeforeRender = 2,
 constexpr operator __UnityEngine__InputSystem__XR__TrackedPoseDriver__UpdateType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__XR__TrackedPoseDriver__UpdateType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -415,8 +425,7 @@ constexpr bool __get_m_HasMigratedActions() const;
 /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize addr 0x29341dc size 0x78 virtual true final true
  void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize() ;
 
-// Ctor Parameters []
-explicit TrackedPoseDriver() ;
+static UnityEngine::InputSystem::XR::TrackedPoseDriver New_ctor() ;
 
 /// @brief Method .ctor addr 0x2934254 size 0x98 virtual false final false
  void _ctor() ;

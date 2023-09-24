@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Text::RegularExpressions {
-struct RegexOptions;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Text::RegularExpressions {
+struct RegexOptions;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -107,32 +107,27 @@ constexpr System::Text::RegularExpressions::RegexNode __get_Next() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }]
-explicit RegexNode(int32_t type, System::Text::RegularExpressions::RegexOptions options) ;
+static System::Text::RegularExpressions::RegexNode New_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options) ;
 
 /// @brief Method .ctor addr 0x27cf690 size 0x30 virtual false final false
  void _ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "ch", ty: "char16_t", modifiers: "", def_value: None }]
-explicit RegexNode(int32_t type, System::Text::RegularExpressions::RegexOptions options, char16_t ch) ;
+static System::Text::RegularExpressions::RegexNode New_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, char16_t ch) ;
 
 /// @brief Method .ctor addr 0x27cf6c0 size 0x40 virtual false final false
  void _ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, char16_t ch) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RegexNode(int32_t type, System::Text::RegularExpressions::RegexOptions options, ::StringW str) ;
+static System::Text::RegularExpressions::RegexNode New_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, ::StringW str) ;
 
 /// @brief Method .ctor addr 0x27cf700 size 0x40 virtual false final false
  void _ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, ::StringW str) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RegexNode(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m) ;
+static System::Text::RegularExpressions::RegexNode New_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m) ;
 
 /// @brief Method .ctor addr 0x27cf740 size 0x40 virtual false final false
  void _ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "n", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RegexNode(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n) ;
+static System::Text::RegularExpressions::RegexNode New_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n) ;
 
 /// @brief Method .ctor addr 0x27cf780 size 0x44 virtual false final false
  void _ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n) ;

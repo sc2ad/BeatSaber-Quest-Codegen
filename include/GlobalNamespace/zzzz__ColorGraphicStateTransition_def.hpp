@@ -5,14 +5,14 @@
 namespace GlobalNamespace {
 class ColorTransitionSO;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class BaseTransitionSO;
 }
 namespace Tweening {
 class ColorTween;
 }
-namespace GlobalNamespace {
-class BaseTransitionSO;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ class ColorGraphicStateTransition;
 // Type: ::ColorGraphicStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12981)), TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 893 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 893 }), TypeDefinitionIndex(TypeDefinitionIndex(12981)), TypeDefinitionIndex(TypeDefinitionIndex(5544))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5548))
 // CS Name: ColorGraphicStateTransition
 class CORDL_TYPE ColorGraphicStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Graphic> {
@@ -122,8 +122,7 @@ constexpr Tweening::ColorTween __get__colorTween() const;
 /// @brief Method StartTween addr 0x2128390 size 0x238 virtual false final false
  void StartTween(UnityEngine::Color endColor) ;
 
-// Ctor Parameters []
-explicit ColorGraphicStateTransition() ;
+static GlobalNamespace::ColorGraphicStateTransition New_ctor() ;
 
 /// @brief Method .ctor addr 0x2128848 size 0x48 virtual false final false
  void _ctor() ;

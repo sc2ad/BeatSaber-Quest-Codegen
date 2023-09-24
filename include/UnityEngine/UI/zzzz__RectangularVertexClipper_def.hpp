@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace UnityEngine {
-struct Rect;
+class Canvas;
 }
 namespace UnityEngine {
-class Canvas;
+struct Rect;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -78,8 +78,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get_m_CanvasCorners() const;
 /// @brief Method GetCanvasRect addr 0x2bda3f8 size 0x170 virtual false final false
  UnityEngine::Rect GetCanvasRect(UnityEngine::RectTransform t, UnityEngine::Canvas c) ;
 
-// Ctor Parameters []
-explicit RectangularVertexClipper() ;
+static UnityEngine::UI::RectangularVertexClipper New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bda568 size 0x68 virtual false final false
  void _ctor() ;

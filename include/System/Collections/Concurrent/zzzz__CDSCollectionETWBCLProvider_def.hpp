@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
-#include <cstdint>
 // Forward declare root types
 namespace System::Collections::Concurrent {
 class CDSCollectionETWBCLProvider;
@@ -10,7 +9,7 @@ class CDSCollectionETWBCLProvider;
 namespace System::Collections::Concurrent {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3732))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3790))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8377))
 // CS Name: System.Collections.Concurrent.CDSCollectionETWBCLProvider
 class CORDL_TYPE CDSCollectionETWBCLProvider : public System::Diagnostics::Tracing::EventSource {
 public:
@@ -57,14 +56,16 @@ static System::Collections::Concurrent::CDSCollectionETWBCLProvider __get_Log() 
 
 // Methods
 
-// Ctor Parameters []
-explicit CDSCollectionETWBCLProvider() ;
+static System::Collections::Concurrent::CDSCollectionETWBCLProvider New_ctor() ;
 
-/// @brief Method .ctor addr 0x241dde4 size 0x4 virtual false final false
+/// @brief Method .ctor addr 0x27af0dc size 0x8 virtual false final false
  void _ctor() ;
 
-/// @brief Method ConcurrentDictionary_AcquiringAllLocks addr 0x241dde8 size 0x4 virtual false final false
- void ConcurrentDictionary_AcquiringAllLocks(int32_t numOfBuckets) ;
+/// @brief Method ConcurrentBag_TryTakeSteals addr 0x27af0e4 size 0x38 virtual false final false
+ void ConcurrentBag_TryTakeSteals() ;
+
+/// @brief Method ConcurrentBag_TryPeekSteals addr 0x27af11c size 0x38 virtual false final false
+ void ConcurrentBag_TryPeekSteals() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

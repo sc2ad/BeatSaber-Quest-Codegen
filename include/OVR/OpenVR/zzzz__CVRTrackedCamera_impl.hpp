@@ -1,12 +1,12 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRTrackedCamera_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRTrackedCameraFrameType_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector2_t_def.hpp"
+#include "OVR/OpenVR/zzzz__CameraVideoStreamFrameHeader_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRTrackedCameraFrameType_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRTrackedCamera_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRTrackedCameraError_def.hpp"
-#include "OVR/OpenVR/zzzz__CameraVideoStreamFrameHeader_t_def.hpp"
-#include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdMatrix44_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRTrackedCamera._ctor
 template<>
 
@@ -234,8 +234,10 @@ constexpr void OVR::OpenVR::CVRTrackedCamera::__set_FnTable(OVR::OpenVR::IVRTrac
 constexpr OVR::OpenVR::IVRTrackedCamera OVR::OpenVR::CVRTrackedCamera::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRTrackedCamera, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRTrackedCamera::CVRTrackedCamera(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRTrackedCamera>(pInterface))) {}
+ OVR::OpenVR::CVRTrackedCamera OVR::OpenVR::CVRTrackedCamera::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRTrackedCamera o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRTrackedCamera>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRTrackedCamera::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRTrackedCamera>::get(),

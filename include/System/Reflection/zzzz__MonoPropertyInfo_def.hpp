@@ -5,11 +5,11 @@
 namespace System::Reflection {
 struct PropertyAttributes;
 }
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class MethodInfo;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {

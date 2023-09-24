@@ -277,8 +277,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::StickControl::StickControl()  : UnityEngine::InputSystem::Controls::Vector2Control(THROW_UNLESS(::il2cpp_utils::New<StickControl>())) {}
+ UnityEngine::InputSystem::Controls::StickControl UnityEngine::InputSystem::Controls::StickControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::StickControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::StickControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::StickControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::StickControl>::get(),

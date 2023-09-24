@@ -77,8 +77,10 @@ constexpr void Org::BouncyCastle::Bcpg::UserIdPacket::__set_idData(::ArrayW<uint
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Bcpg::UserIdPacket::__get_idData() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::UserIdPacket::UserIdPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<UserIdPacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::UserIdPacket Org::BouncyCastle::Bcpg::UserIdPacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::UserIdPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::UserIdPacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::UserIdPacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::UserIdPacket>::get(),
@@ -88,8 +90,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgIn);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::UserIdPacket::UserIdPacket(::StringW id)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<UserIdPacket>(id))) {}
+ Org::BouncyCastle::Bcpg::UserIdPacket Org::BouncyCastle::Bcpg::UserIdPacket::New_ctor(::StringW id)  {
+Org::BouncyCastle::Bcpg::UserIdPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::UserIdPacket>(id))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::UserIdPacket::_ctor(::StringW id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::UserIdPacket>::get(),

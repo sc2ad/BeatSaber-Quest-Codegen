@@ -64,8 +64,7 @@ constexpr ::StringW __get_Name() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit AchievementUpdate(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::AchievementUpdate New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x259c294 size 0x8c virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

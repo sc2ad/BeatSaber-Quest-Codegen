@@ -2,24 +2,25 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusPlatformUserModel_def.hpp"
-#include "Oculus/Platform/Models/zzzz__User_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__User_def.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
+#include "GlobalNamespace/zzzz__OculusPlatformUserModel_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
+#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OculusPlatformUserModel__OculusAccessTokenTaskState::GlobalNamespace__OculusPlatformUserModel__OculusAccessTokenTaskState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -79,8 +80,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__D
 constexpr GlobalNamespace::OculusPlatformUserModel GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OculusPlatformUserModel, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0 GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0>::get(),
@@ -245,8 +248,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__D
 constexpr GlobalNamespace::OculusPlatformUserModel GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OculusPlatformUserModel, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0 GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0>::get(),
@@ -305,8 +310,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__D
 constexpr System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlatformUserAuthTokenData> GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0::__get_tcs() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlatformUserAuthTokenData>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0 GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0>::get(),
@@ -383,8 +390,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__D
 constexpr System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::StringW>> GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0::__get_tcs() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::StringW>>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0 GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0>::get(),
@@ -449,8 +458,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__D
 constexpr GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0 GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1::__get_CS$__8__locals1() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1 GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1>::get(),
@@ -855,8 +866,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusPlatformUserModel::OculusPlatformUserModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OculusPlatformUserModel>())) {}
+ GlobalNamespace::OculusPlatformUserModel GlobalNamespace::OculusPlatformUserModel::New_ctor()  {
+GlobalNamespace::OculusPlatformUserModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusPlatformUserModel>())};
+return o;
+}
  void GlobalNamespace::OculusPlatformUserModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusPlatformUserModel>::get(),

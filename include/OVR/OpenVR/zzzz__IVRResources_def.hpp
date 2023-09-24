@@ -14,6 +14,12 @@ class AsyncCallback;
 namespace System::Text {
 class StringBuilder;
 }
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRResources___LoadSharedResource;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRResources___GetResourceFullPath;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 class OVR__OpenVR__IVRResources___GetResourceFullPath;
@@ -66,8 +72,7 @@ constexpr explicit OVR__OpenVR__IVRResources___LoadSharedResource(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRResources___LoadSharedResource(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265f678 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -127,8 +132,7 @@ constexpr explicit OVR__OpenVR__IVRResources___GetResourceFullPath(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRResources___GetResourceFullPath(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265f824 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

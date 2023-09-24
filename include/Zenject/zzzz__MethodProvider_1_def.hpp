@@ -4,27 +4,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace Zenject {
-class IProvider;
+class DiContainer;
 }
 namespace System {
 class Type;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Zenject {
-class InjectContext;
 }
 namespace System {
 class Action;
@@ -32,18 +15,35 @@ class Action;
 namespace System {
 struct Int32Enum;
 }
+namespace Zenject {
+class InjectContext;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class IProvider;
+}
 // Forward declare root types
 namespace Zenject {
 template<typename TReturn>
 class MethodProvider_1;
 }
 namespace Zenject {
-template<::cordl_internals::il2cpp_reference_type TReturn>
-class MethodProvider_1<TReturn>;
-}
-namespace Zenject {
 template<>
 class MethodProvider_1<System::Int32Enum>;
+}
+namespace Zenject {
+template<::cordl_internals::il2cpp_reference_type TReturn>
+class MethodProvider_1<TReturn>;
 }
 namespace Zenject {
 template<>
@@ -53,12 +53,12 @@ class MethodProvider_1<float_t>;
 // Type: Zenject::MethodProvider`1
 namespace Zenject {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TReturn>
+template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11149))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11149), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11149), inst: 4825 })
 // CS Name: Zenject.MethodProvider`1
-class CORDL_TYPE MethodProvider_1<TReturn> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE MethodProvider_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief Convert operator to Zenject::IProvider
@@ -103,11 +103,11 @@ constexpr void __set__container(Zenject::DiContainer value) ;
 
 constexpr Zenject::DiContainer __get__container() const;
 
- System::Func_2<Zenject::InjectContext,TReturn> __declspec(property(get=__get__method, put=__set__method))  _method;
+ System::Func_2<Zenject::InjectContext,System::Int32Enum> __declspec(property(get=__get__method, put=__set__method))  _method;
 
-constexpr void __set__method(System::Func_2<Zenject::InjectContext,TReturn> value) ;
+constexpr void __set__method(System::Func_2<Zenject::InjectContext,System::Int32Enum> value) ;
 
-constexpr System::Func_2<Zenject::InjectContext,TReturn> __get__method() const;
+constexpr System::Func_2<Zenject::InjectContext,System::Int32Enum> __get__method() const;
 
 
 // Properties
@@ -119,11 +119,10 @@ constexpr System::Func_2<Zenject::InjectContext,TReturn> __get__method() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "method", ty: "System::Func_2<Zenject::InjectContext,TReturn>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit MethodProvider_1(System::Func_2<Zenject::InjectContext,TReturn> method, Zenject::DiContainer container) ;
+static Zenject::MethodProvider_1<System::Int32Enum> New_ctor(System::Func_2<Zenject::InjectContext,System::Int32Enum> method, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(System::Func_2<Zenject::InjectContext,TReturn> method, Zenject::DiContainer container) ;
+ void _ctor(System::Func_2<Zenject::InjectContext,System::Int32Enum> method, Zenject::DiContainer container) ;
 
 /// @brief Method get_IsCached addr 0x0 size 0xffffffffffffffff virtual true final true
  bool get_IsCached() ;
@@ -210,8 +209,7 @@ constexpr System::Func_2<Zenject::InjectContext,float_t> __get__method() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "method", ty: "System::Func_2<Zenject::InjectContext,float_t>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit MethodProvider_1(System::Func_2<Zenject::InjectContext,float_t> method, Zenject::DiContainer container) ;
+static Zenject::MethodProvider_1<float_t> New_ctor(System::Func_2<Zenject::InjectContext,float_t> method, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Func_2<Zenject::InjectContext,float_t> method, Zenject::DiContainer container) ;
@@ -235,12 +233,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: Zenject::MethodProvider`1
 namespace Zenject {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type TReturn>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11149))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11149), inst: 4825 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11149), inst: 2 })
 // CS Name: Zenject.MethodProvider`1
-class CORDL_TYPE MethodProvider_1<System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE MethodProvider_1<TReturn> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief Convert operator to Zenject::IProvider
@@ -285,11 +283,11 @@ constexpr void __set__container(Zenject::DiContainer value) ;
 
 constexpr Zenject::DiContainer __get__container() const;
 
- System::Func_2<Zenject::InjectContext,System::Int32Enum> __declspec(property(get=__get__method, put=__set__method))  _method;
+ System::Func_2<Zenject::InjectContext,TReturn> __declspec(property(get=__get__method, put=__set__method))  _method;
 
-constexpr void __set__method(System::Func_2<Zenject::InjectContext,System::Int32Enum> value) ;
+constexpr void __set__method(System::Func_2<Zenject::InjectContext,TReturn> value) ;
 
-constexpr System::Func_2<Zenject::InjectContext,System::Int32Enum> __get__method() const;
+constexpr System::Func_2<Zenject::InjectContext,TReturn> __get__method() const;
 
 
 // Properties
@@ -301,11 +299,10 @@ constexpr System::Func_2<Zenject::InjectContext,System::Int32Enum> __get__method
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "method", ty: "System::Func_2<Zenject::InjectContext,System::Int32Enum>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit MethodProvider_1(System::Func_2<Zenject::InjectContext,System::Int32Enum> method, Zenject::DiContainer container) ;
+static Zenject::MethodProvider_1<TReturn> New_ctor(System::Func_2<Zenject::InjectContext,TReturn> method, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(System::Func_2<Zenject::InjectContext,System::Int32Enum> method, Zenject::DiContainer container) ;
+ void _ctor(System::Func_2<Zenject::InjectContext,TReturn> method, Zenject::DiContainer container) ;
 
 /// @brief Method get_IsCached addr 0x0 size 0xffffffffffffffff virtual true final true
  bool get_IsCached() ;

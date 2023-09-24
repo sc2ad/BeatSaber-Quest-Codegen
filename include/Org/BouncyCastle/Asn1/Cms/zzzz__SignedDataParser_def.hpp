@@ -4,14 +4,14 @@
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SequenceParser;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfoParser;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1SetParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SetParser;
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfoParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -100,8 +100,7 @@ constexpr bool __get__crlsCalled() const;
 /// @brief Method GetInstance addr 0xdf1be4 size 0x19c virtual false final false
 static Org::BouncyCastle::Asn1::Cms::SignedDataParser GetInstance(::bs_hook::Il2CppWrapperType o) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1SequenceParser", modifiers: "", def_value: None }]
-explicit SignedDataParser(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
+static Org::BouncyCastle::Asn1::Cms::SignedDataParser New_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
 
 /// @brief Method .ctor addr 0xdf1d80 size 0x124 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;

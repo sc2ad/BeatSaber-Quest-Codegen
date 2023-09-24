@@ -64,8 +64,7 @@ constexpr T __get_poolNext() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LinkedPoolItem_1() ;
+static UnityEngine::UIElements::UIR::LinkedPoolItem_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

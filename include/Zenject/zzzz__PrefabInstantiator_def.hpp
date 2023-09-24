@@ -4,27 +4,36 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
+class IPrefabProvider;
+}
+namespace Zenject {
 class DiContainer;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace Zenject {
+class Zenject__PrefabInstantiator____c__DisplayClass15_0;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
 }
-namespace UnityEngine {
-class Object;
-}
 namespace Zenject {
 class GameObjectCreationParameters;
+}
+namespace Zenject {
+class IPrefabInstantiator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace Zenject {
-class IPrefabInstantiator;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -33,17 +42,11 @@ class IEnumerable_1;
 namespace System {
 class Action;
 }
-namespace System {
-class Type;
-}
 namespace UnityEngine {
 class GameObject;
 }
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
-class IPrefabProvider;
+namespace UnityEngine {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -130,8 +133,7 @@ constexpr bool __get_shouldMakeActive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__PrefabInstantiator____c__DisplayClass15_0() ;
+static Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d8fac0 size 0x8 virtual false final false
  void _ctor() ;
@@ -250,8 +252,7 @@ constexpr System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "argumentTarget", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "instantiateCallbackTypes", ty: "System::Collections::Generic::IEnumerable_1<System::Type>", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit PrefabInstantiator(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type argumentTarget, System::Collections::Generic::IEnumerable_1<System::Type> instantiateCallbackTypes, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, Zenject::IPrefabProvider prefabProvider, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
+static Zenject::PrefabInstantiator New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type argumentTarget, System::Collections::Generic::IEnumerable_1<System::Type> instantiateCallbackTypes, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, Zenject::IPrefabProvider prefabProvider, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
 
 /// @brief Method .ctor addr 0x2d8f79c size 0xc4 virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type argumentTarget, System::Collections::Generic::IEnumerable_1<System::Type> instantiateCallbackTypes, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, Zenject::IPrefabProvider prefabProvider, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;

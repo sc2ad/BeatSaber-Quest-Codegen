@@ -1,11 +1,12 @@
 #pragma once
 #include "System/IO/Enumeration/zzzz__FileSystemEnumerableFactory_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/IO/zzzz__FileSystemInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/IO/Enumeration/zzzz__FileSystemEnumerableFactory_def.hpp"
 #include "System/IO/zzzz__EnumerationOptions_def.hpp"
-#include "System/IO/zzzz__FileInfo_def.hpp"
 #include "System/IO/zzzz__DirectoryInfo_def.hpp"
+#include "System/IO/zzzz__FileSystemInfo_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/IO/zzzz__FileInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEntry_def.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEnumerable_1_def.hpp"
 //  Writing Method size for method: System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0._ctor
@@ -54,8 +55,10 @@ constexpr void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnume
 constexpr System::IO::EnumerationOptions System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0::__get_options() const {
 return ::cordl_internals::getInstanceField<System::IO::EnumerationOptions, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0>())) {}
+ System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0 System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0::New_ctor()  {
+System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0 o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0>())};
+return o;
+}
  void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass3_0>::get(),
@@ -235,8 +238,10 @@ return ::cordl_internals::getStaticField<System::IO::Enumeration::System__IO__En
  System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable_1__FindTransform<System::IO::FileSystemInfo> System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c::__get___9__8_0()  {
 return ::cordl_internals::getStaticField<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable_1__FindTransform<System::IO::FileSystemInfo>, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c>::get>();
 }
-// Ctor Parameters []
- System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c::System__IO__Enumeration__FileSystemEnumerableFactory____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Enumeration__FileSystemEnumerableFactory____c>())) {}
+ System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c::New_ctor()  {
+System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c>())};
+return o;
+}
  void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c>::get(),
@@ -346,8 +351,10 @@ constexpr void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnume
 constexpr System::IO::EnumerationOptions System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0::__get_options() const {
 return ::cordl_internals::getInstanceField<System::IO::EnumerationOptions, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0>())) {}
+ System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0 System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0::New_ctor()  {
+System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0 o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0>())};
+return o;
+}
  void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass4_0>::get(),
@@ -412,8 +419,10 @@ constexpr void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnume
 constexpr System::IO::EnumerationOptions System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0::__get_options() const {
 return ::cordl_internals::getInstanceField<System::IO::EnumerationOptions, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0>())) {}
+ System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0 System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0::New_ctor()  {
+System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0>())};
+return o;
+}
  void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass5_0>::get(),
@@ -478,8 +487,10 @@ constexpr void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnume
 constexpr System::IO::EnumerationOptions System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0::__get_options() const {
 return ::cordl_internals::getInstanceField<System::IO::EnumerationOptions, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0>())) {}
+ System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0 System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0::New_ctor()  {
+System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0 o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0>())};
+return o;
+}
  void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass6_0>::get(),
@@ -544,8 +555,10 @@ constexpr void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnume
 constexpr System::IO::EnumerationOptions System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0::__get_options() const {
 return ::cordl_internals::getInstanceField<System::IO::EnumerationOptions, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0>())) {}
+ System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0 System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0::New_ctor()  {
+System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0>())};
+return o;
+}
  void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass7_0>::get(),
@@ -610,8 +623,10 @@ constexpr void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnume
 constexpr System::IO::EnumerationOptions System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0::__get_options() const {
 return ::cordl_internals::getInstanceField<System::IO::EnumerationOptions, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0>())) {}
+ System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0 System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0::New_ctor()  {
+System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0 o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0>())};
+return o;
+}
  void System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerableFactory____c__DisplayClass8_0>::get(),

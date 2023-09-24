@@ -37,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ar
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
- Zenject::ConcreteIdArgConditionCopyNonLazyBinder::ConcreteIdArgConditionCopyNonLazyBinder(Zenject::BindInfo bindInfo)  : Zenject::ArgConditionCopyNonLazyBinder(THROW_UNLESS(::il2cpp_utils::New<ConcreteIdArgConditionCopyNonLazyBinder>(bindInfo))) {}
+ Zenject::ConcreteIdArgConditionCopyNonLazyBinder Zenject::ConcreteIdArgConditionCopyNonLazyBinder::New_ctor(Zenject::BindInfo bindInfo)  {
+Zenject::ConcreteIdArgConditionCopyNonLazyBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ConcreteIdArgConditionCopyNonLazyBinder>(bindInfo))};
+return o;
+}
  void Zenject::ConcreteIdArgConditionCopyNonLazyBinder::_ctor(Zenject::BindInfo bindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ConcreteIdArgConditionCopyNonLazyBinder>::get(),

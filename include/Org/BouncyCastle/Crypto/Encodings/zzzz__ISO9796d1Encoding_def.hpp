@@ -124,8 +124,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_modulus() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
-explicit ISO9796d1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
+static Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe25ee8 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;

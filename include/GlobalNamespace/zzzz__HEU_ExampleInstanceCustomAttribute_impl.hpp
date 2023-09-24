@@ -85,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, outAttr);
 }
-// Ctor Parameters []
- GlobalNamespace::HEU_ExampleInstanceCustomAttribute::HEU_ExampleInstanceCustomAttribute()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HEU_ExampleInstanceCustomAttribute>())) {}
+ GlobalNamespace::HEU_ExampleInstanceCustomAttribute GlobalNamespace::HEU_ExampleInstanceCustomAttribute::New_ctor()  {
+GlobalNamespace::HEU_ExampleInstanceCustomAttribute o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HEU_ExampleInstanceCustomAttribute>())};
+return o;
+}
  void GlobalNamespace::HEU_ExampleInstanceCustomAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HEU_ExampleInstanceCustomAttribute>::get(),

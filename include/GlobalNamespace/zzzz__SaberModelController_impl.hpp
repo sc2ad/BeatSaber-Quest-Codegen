@@ -2,13 +2,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberModelController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__SetSaberFakeGlowColor_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "GlobalNamespace/zzzz__SaberTrail_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
 #include "GlobalNamespace/zzzz__SetSaberGlowColor_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "GlobalNamespace/zzzz__SaberTrail_def.hpp"
-#include "GlobalNamespace/zzzz__SetSaberFakeGlowColor_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "GlobalNamespace/zzzz__SaberModelController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SaberModelController__InitData._ctor
 template<>
 
@@ -49,8 +50,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SaberModelController__InitData:
 constexpr UnityEngine::Color GlobalNamespace::GlobalNamespace__SaberModelController__InitData::__get_trailTintColor() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Color, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SaberModelController__InitData::GlobalNamespace__SaberModelController__InitData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SaberModelController__InitData>())) {}
+ GlobalNamespace::GlobalNamespace__SaberModelController__InitData GlobalNamespace::GlobalNamespace__SaberModelController__InitData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SaberModelController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SaberModelController__InitData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SaberModelController__InitData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SaberModelController__InitData>::get(),
@@ -60,8 +63,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "trailTintColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SaberModelController__InitData::GlobalNamespace__SaberModelController__InitData(UnityEngine::Color trailTintColor)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SaberModelController__InitData>(trailTintColor))) {}
+ GlobalNamespace::GlobalNamespace__SaberModelController__InitData GlobalNamespace::GlobalNamespace__SaberModelController__InitData::New_ctor(UnityEngine::Color trailTintColor)  {
+GlobalNamespace::GlobalNamespace__SaberModelController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SaberModelController__InitData>(trailTintColor))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SaberModelController__InitData::_ctor(UnityEngine::Color trailTintColor)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SaberModelController__InitData>::get(),
@@ -150,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parent, saber);
 }
-// Ctor Parameters []
- GlobalNamespace::SaberModelController::SaberModelController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SaberModelController>())) {}
+ GlobalNamespace::SaberModelController GlobalNamespace::SaberModelController::New_ctor()  {
+GlobalNamespace::SaberModelController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SaberModelController>())};
+return o;
+}
  void GlobalNamespace::SaberModelController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SaberModelController>::get(),

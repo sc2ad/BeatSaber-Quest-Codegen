@@ -3,13 +3,13 @@
 #include "UnityEngine/UIElements/zzzz__CallbackEventHandler_def.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class VisualElement;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 class FocusController;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -105,8 +105,7 @@ constexpr bool __get_isIMGUIContainer() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Focusable() ;
+static UnityEngine::UIElements::Focusable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c80f04 size 0x28 virtual false final false
  void _ctor() ;

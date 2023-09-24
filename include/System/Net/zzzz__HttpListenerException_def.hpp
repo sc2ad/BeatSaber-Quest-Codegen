@@ -60,20 +60,17 @@ constexpr explicit HttpListenerException(void* ptr) noexcept : System::Component
 
 // Methods
 
-// Ctor Parameters []
-explicit HttpListenerException() ;
+static System::Net::HttpListenerException New_ctor() ;
 
 /// @brief Method .ctor addr 0x280a084 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "errorCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HttpListenerException(int32_t errorCode, ::StringW message) ;
+static System::Net::HttpListenerException New_ctor(int32_t errorCode, ::StringW message) ;
 
 /// @brief Method .ctor addr 0x280a0e8 size 0x8 virtual false final false
  void _ctor(int32_t errorCode, ::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit HttpListenerException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::HttpListenerException New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x280a0f0 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

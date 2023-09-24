@@ -3,16 +3,17 @@
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RadioButtonGroup_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__RadioButtonGroup_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__RadioButton_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits.Init
 template<>
 
@@ -62,8 +63,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits()  : UnityEngine::UIElements::BaseFieldTraits_2<int32_t,UnityEngine::UIElements::UxmlIntAttributeDescription>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__RadioButtonGroup__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits>::get(),
@@ -212,8 +215,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::RadioButtonGroup::RadioButtonGroup()  : UnityEngine::UIElements::BaseField_1<int32_t>(THROW_UNLESS(::il2cpp_utils::New<RadioButtonGroup>())) {}
+ UnityEngine::UIElements::RadioButtonGroup UnityEngine::UIElements::RadioButtonGroup::New_ctor()  {
+UnityEngine::UIElements::RadioButtonGroup o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::RadioButtonGroup>())};
+return o;
+}
  void UnityEngine::UIElements::RadioButtonGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::RadioButtonGroup>::get(),
@@ -223,8 +228,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "radioButtonChoices", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::UIElements::RadioButtonGroup::RadioButtonGroup(::StringW label, System::Collections::Generic::List_1<::StringW> radioButtonChoices)  : UnityEngine::UIElements::BaseField_1<int32_t>(THROW_UNLESS(::il2cpp_utils::New<RadioButtonGroup>(label, radioButtonChoices))) {}
+/// @param radioButtonChoices: System::Collections::Generic::List_1<::StringW> (default: csnull)
+ UnityEngine::UIElements::RadioButtonGroup UnityEngine::UIElements::RadioButtonGroup::New_ctor(::StringW label, System::Collections::Generic::List_1<::StringW> radioButtonChoices)  {
+UnityEngine::UIElements::RadioButtonGroup o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::RadioButtonGroup>(label, radioButtonChoices))};
+return o;
+}
 /// @param radioButtonChoices: System::Collections::Generic::List_1<::StringW> (default: csnull)
  void UnityEngine::UIElements::RadioButtonGroup::_ctor(::StringW label, System::Collections::Generic::List_1<::StringW> radioButtonChoices)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -279,8 +287,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlFactory::UnityEngine__UIElements__RadioButtonGroup__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::RadioButtonGroup,UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__RadioButtonGroup__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlFactory>::get(),

@@ -1,19 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusMRCManager_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OculusMRCManager.get_enableMixedReality
 template<>
 
@@ -1781,8 +1775,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::GameObject, false>(const_cast<void*>(instance), ___internal_method, mainCameraGameObject, cameraType);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusMRCManager::OculusMRCManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OculusMRCManager>())) {}
+ GlobalNamespace::OculusMRCManager GlobalNamespace::OculusMRCManager::New_ctor()  {
+GlobalNamespace::OculusMRCManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusMRCManager>())};
+return o;
+}
  void GlobalNamespace::OculusMRCManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusMRCManager>::get(),

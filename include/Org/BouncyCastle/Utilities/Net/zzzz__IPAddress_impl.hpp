@@ -251,8 +251,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, address);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Net::IPAddress::IPAddress()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPAddress>())) {}
+ Org::BouncyCastle::Utilities::Net::IPAddress Org::BouncyCastle::Utilities::Net::IPAddress::New_ctor()  {
+Org::BouncyCastle::Utilities::Net::IPAddress o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Net::IPAddress>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Net::IPAddress::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Net::IPAddress>::get(),

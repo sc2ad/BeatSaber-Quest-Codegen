@@ -174,8 +174,7 @@ static ::ArrayW<uint8_t> __get_T3() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "blockSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Dstu7624Engine(int32_t blockSizeBits) ;
+static Org::BouncyCastle::Crypto::Engines::Dstu7624Engine New_ctor(int32_t blockSizeBits) ;
 
 /// @brief Method .ctor addr 0xe40858 size 0xc8 virtual false final false
  void _ctor(int32_t blockSizeBits) ;

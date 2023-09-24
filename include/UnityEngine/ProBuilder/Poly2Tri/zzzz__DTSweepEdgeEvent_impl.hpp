@@ -30,8 +30,10 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::__set_Right(
 constexpr bool UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::__get_Right() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::DTSweepEdgeEvent()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DTSweepEdgeEvent>())) {}
+ UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::New_ctor()  {
+UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent>())};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent>::get(),

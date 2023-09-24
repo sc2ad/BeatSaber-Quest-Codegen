@@ -64,8 +64,7 @@ constexpr System::LocalDataStore __get_m_Store() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "store", ty: "System::LocalDataStore", modifiers: "", def_value: None }]
-explicit LocalDataStoreHolder(System::LocalDataStore store) ;
+static System::LocalDataStoreHolder New_ctor(System::LocalDataStore store) ;
 
 /// @brief Method .ctor addr 0x246971c size 0x28 virtual false final false
  void _ctor(System::LocalDataStore store) ;

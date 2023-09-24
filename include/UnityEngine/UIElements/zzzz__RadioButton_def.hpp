@@ -6,19 +6,25 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__RadioButton__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
 class IGroupBoxOption;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__RadioButton__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UxmlStringAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,7 +39,7 @@ class UnityEngine__UIElements__RadioButton__UxmlTraits;
 // Type: ::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 884 }), TypeDefinitionIndex(TypeDefinitionIndex(7229))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7229)), TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 884 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7174))
 // CS Name: UnityEngine.UIElements.RadioButton::UxmlTraits
 class CORDL_TYPE UnityEngine__UIElements__RadioButton__UxmlTraits : public UnityEngine::UIElements::BaseFieldTraits_2<bool,UnityEngine::UIElements::UxmlBoolAttributeDescription> {
@@ -84,8 +90,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Text()
 /// @brief Method Init addr 0x2cbad0c size 0x118 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__RadioButton__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbae24 size 0xa0 virtual false final false
  void _ctor() ;
@@ -199,14 +204,12 @@ constexpr UnityEngine::UIElements::VisualElement __get_m_CheckmarkBackground() c
 /// @brief Method set_value addr 0x2cba618 size 0xe0 virtual true final false
  void set_value(bool value) ;
 
-// Ctor Parameters []
-explicit RadioButton() ;
+static UnityEngine::UIElements::RadioButton New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cba7ec size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RadioButton(::StringW label) ;
+static UnityEngine::UIElements::RadioButton New_ctor(::StringW label) ;
 
 /// @brief Method .ctor addr 0x2cba7f4 size 0x1d8 virtual false final false
  void _ctor(::StringW label) ;
@@ -236,7 +239,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5098 }), TypeDefinitionIndex(TypeDefinitionIndex(7175)), TypeDefinitionIndex(TypeDefinitionIndex(7174)), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7174)), TypeDefinitionIndex(TypeDefinitionIndex(7175)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5098 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7173))
 // CS Name: UnityEngine.UIElements.RadioButton::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__RadioButton__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::RadioButton,UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlTraits> {
@@ -275,8 +278,7 @@ constexpr explicit UnityEngine__UIElements__RadioButton__UxmlFactory(void* ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__RadioButton__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__RadioButton__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbacc4 size 0x48 virtual false final false
  void _ctor() ;

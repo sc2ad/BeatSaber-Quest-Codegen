@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElementCollection_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElementEnumerator_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElement_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509ChainElementCollection._ctor
@@ -209,8 +209,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509ChainElemen
 constexpr System::Collections::ArrayList System::Security::Cryptography::X509Certificates::X509ChainElementCollection::__get__list() const {
 return ::cordl_internals::getInstanceField<System::Collections::ArrayList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509ChainElementCollection::X509ChainElementCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509ChainElementCollection>())) {}
+ System::Security::Cryptography::X509Certificates::X509ChainElementCollection System::Security::Cryptography::X509Certificates::X509ChainElementCollection::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509ChainElementCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509ChainElementCollection>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509ChainElementCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509ChainElementCollection>::get(),

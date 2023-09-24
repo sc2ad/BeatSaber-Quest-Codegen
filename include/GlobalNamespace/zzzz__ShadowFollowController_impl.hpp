@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ShadowFollowController_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ShadowFollowController.SetTargetTransform
 template<>
 
@@ -109,8 +109,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ShadowFollowController::ShadowFollowController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ShadowFollowController>())) {}
+ GlobalNamespace::ShadowFollowController GlobalNamespace::ShadowFollowController::New_ctor()  {
+GlobalNamespace::ShadowFollowController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ShadowFollowController>())};
+return o;
+}
  void GlobalNamespace::ShadowFollowController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ShadowFollowController>::get(),

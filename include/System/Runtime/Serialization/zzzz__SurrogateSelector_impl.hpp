@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__SurrogateSelector_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SurrogateHashtable_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::SurrogateSelector._ctor
 template<>
 
@@ -72,8 +72,10 @@ constexpr void System::Runtime::Serialization::SurrogateSelector::__set_m_nextSe
 constexpr System::Runtime::Serialization::ISurrogateSelector System::Runtime::Serialization::SurrogateSelector::__get_m_nextSelector() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::ISurrogateSelector, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::SurrogateSelector::SurrogateSelector()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SurrogateSelector>())) {}
+ System::Runtime::Serialization::SurrogateSelector System::Runtime::Serialization::SurrogateSelector::New_ctor()  {
+System::Runtime::Serialization::SurrogateSelector o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SurrogateSelector>())};
+return o;
+}
  void System::Runtime::Serialization::SurrogateSelector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SurrogateSelector>::get(),

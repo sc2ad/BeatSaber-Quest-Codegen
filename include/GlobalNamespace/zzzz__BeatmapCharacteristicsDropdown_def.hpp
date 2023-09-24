@@ -4,21 +4,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapCharacteristicsDropdown____c;
+}
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
 namespace HMUI {
 class DropdownWithTableView;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
 namespace HMUI {
 class SimpleTextDropdown;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -88,8 +91,7 @@ static System::Func_2<GlobalNamespace::BeatmapCharacteristicSO,::StringW> __get_
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapCharacteristicsDropdown____c() ;
+static GlobalNamespace::GlobalNamespace__BeatmapCharacteristicsDropdown____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x214caf4 size 0x8 virtual false final false
  void _ctor() ;
@@ -187,8 +189,7 @@ constexpr System::Action_1<GlobalNamespace::BeatmapCharacteristicSO> __get_didSe
 /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx addr 0x214c9ac size 0xdc virtual false final false
  void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
 
-// Ctor Parameters []
-explicit BeatmapCharacteristicsDropdown() ;
+static GlobalNamespace::BeatmapCharacteristicsDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x214ca88 size 0x8 virtual false final false
  void _ctor() ;

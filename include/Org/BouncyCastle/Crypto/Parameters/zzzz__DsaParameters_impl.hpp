@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaValidationParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaValidationParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::DsaParameters._ctor
 template<>
 
@@ -184,8 +184,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::DsaParameters::__set_valid
 constexpr Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters Org::BouncyCastle::Crypto::Parameters::DsaParameters::__get_validation() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DsaParameters::DsaParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DsaParameters>(p, q, g))) {}
+ Org::BouncyCastle::Crypto::Parameters::DsaParameters Org::BouncyCastle::Crypto::Parameters::DsaParameters::New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g)  {
+Org::BouncyCastle::Crypto::Parameters::DsaParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DsaParameters>(p, q, g))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DsaParameters::_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DsaParameters>::get(),
@@ -195,8 +197,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, p, q, g);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DsaParameters::DsaParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters parameters)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DsaParameters>(p, q, g, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::DsaParameters Org::BouncyCastle::Crypto::Parameters::DsaParameters::New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::DsaParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DsaParameters>(p, q, g, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DsaParameters::_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DsaParameters>::get(),

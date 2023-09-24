@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__Char_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: System::Char.IsLatin1
 template<>

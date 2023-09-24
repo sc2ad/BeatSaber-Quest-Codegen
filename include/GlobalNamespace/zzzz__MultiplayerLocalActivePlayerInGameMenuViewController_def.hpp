@@ -3,37 +3,37 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class DisconnectPromptView;
-}
-namespace GlobalNamespace {
-class LocalPlayerInGameMenuInitData;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalPlayerDisconnectHelper;
+class IConnectedPlayer;
 }
-namespace Polyglot {
-class LocalizedTextMeshProUGUI;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IVRPlatformHelper;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class LocalPlayerInGameMenuInitData;
+}
+namespace Polyglot {
+class LocalizedTextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalPlayerDisconnectHelper;
+}
+namespace GlobalNamespace {
+class DisconnectPromptView;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -243,8 +243,7 @@ static constexpr float_t  kDisabledInteractionDuration{0.2};
 /// @brief Method ResumeButtonPressed addr 0x20d0534 size 0x38 virtual false final false
  void ResumeButtonPressed() ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalActivePlayerInGameMenuViewController() ;
+static GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d06bc size 0x8 virtual false final false
  void _ctor() ;

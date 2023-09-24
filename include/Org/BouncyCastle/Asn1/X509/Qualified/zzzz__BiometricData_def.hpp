@@ -3,22 +3,22 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerIA5String;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
+namespace Org::BouncyCastle::Asn1 {
+class DerIA5String;
+}
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
 class TypeOfBiometricData;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
@@ -107,20 +107,17 @@ constexpr Org::BouncyCastle::Asn1::DerIA5String __get_sourceDataUri() const;
 /// @brief Method GetInstance addr 0xff3028 size 0x168 virtual false final false
 static Org::BouncyCastle::Asn1::X509::Qualified::BiometricData GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit BiometricData(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::BiometricData New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff3190 size 0xc4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "typeOfBiometricData", ty: "Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "biometricDataHash", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "sourceDataUri", ty: "Org::BouncyCastle::Asn1::DerIA5String", modifiers: "", def_value: None }]
-explicit BiometricData(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash, Org::BouncyCastle::Asn1::DerIA5String sourceDataUri) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::BiometricData New_ctor(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash, Org::BouncyCastle::Asn1::DerIA5String sourceDataUri) ;
 
 /// @brief Method .ctor addr 0xff343c size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash, Org::BouncyCastle::Asn1::DerIA5String sourceDataUri) ;
 
-// Ctor Parameters [CppParam { name: "typeOfBiometricData", ty: "Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "biometricDataHash", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit BiometricData(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::BiometricData New_ctor(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash) ;
 
 /// @brief Method .ctor addr 0xff347c size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash) ;

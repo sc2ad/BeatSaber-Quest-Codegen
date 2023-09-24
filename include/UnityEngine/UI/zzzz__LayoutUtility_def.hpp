@@ -4,15 +4,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
 namespace UnityEngine {
 class RectTransform;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__LayoutUtility____c;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -120,8 +123,7 @@ static System::Func_2<UnityEngine::UI::ILayoutElement,float_t> __get___9__8_0() 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__LayoutUtility____c() ;
+static UnityEngine::UI::UnityEngine__UI__LayoutUtility____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c00ed0 size 0x8 virtual false final false
  void _ctor() ;

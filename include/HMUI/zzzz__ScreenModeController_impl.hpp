@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScreenModeController_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "HMUI/zzzz__ScreenModeData_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "HMUI/zzzz__ScreenModeData_def.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettings_def.hpp"
 //  Writing Method size for method: HMUI::ScreenModeController.Awake
 template<>
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::ScreenModeController::ScreenModeController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScreenModeController>())) {}
+ HMUI::ScreenModeController HMUI::ScreenModeController::New_ctor()  {
+HMUI::ScreenModeController o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ScreenModeController>())};
+return o;
+}
  void HMUI::ScreenModeController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ScreenModeController>::get(),

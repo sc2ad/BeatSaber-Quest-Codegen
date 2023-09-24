@@ -1,24 +1,23 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UIElementsUtility_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Panel_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IMGUIContainer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUIElementsUtility_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
-#include "UnityEngine/zzzz__GUILayoutUtility_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ContextType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/zzzz__EventType_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ContextType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Panel_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IMGUIContainer_def.hpp"
+#include "UnityEngine/zzzz__GUILayoutUtility_def.hpp"
+#include "UnityEngine/zzzz__EventType_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUIElementsUtility_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIElementsUtility._ctor
 template<>
 
@@ -395,8 +394,10 @@ return ::cordl_internals::getStaticField<Unity::Profiling::ProfilerMarker, "s_Re
  Unity::Profiling::ProfilerMarker UnityEngine::UIElements::UIElementsUtility::__get_s_EventProfilerMarker()  {
 return ::cordl_internals::getStaticField<Unity::Profiling::ProfilerMarker, "s_EventProfilerMarker", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIElementsUtility>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIElementsUtility::UIElementsUtility()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIElementsUtility>())) {}
+ UnityEngine::UIElements::UIElementsUtility UnityEngine::UIElements::UIElementsUtility::New_ctor()  {
+UnityEngine::UIElements::UIElementsUtility o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIElementsUtility>())};
+return o;
+}
  void UnityEngine::UIElements::UIElementsUtility::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIElementsUtility>::get(),

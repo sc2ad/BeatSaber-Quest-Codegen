@@ -1,17 +1,17 @@
 #pragma once
 #include "System/IO/zzzz__File_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/IO/zzzz__FileShare_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/IO/zzzz__FileAttributes_def.hpp"
-#include "System/IO/zzzz__FileStream_def.hpp"
-#include "System/IO/zzzz__StreamWriter_def.hpp"
 #include "System/IO/zzzz__FileAccess_def.hpp"
-#include "System/Security/AccessControl/zzzz__AccessControlSections_def.hpp"
+#include "System/IO/zzzz__FileShare_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/IO/zzzz__FileAttributes_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/IO/zzzz__StreamReader_def.hpp"
-#include "System/IO/zzzz__FileMode_def.hpp"
 #include "System/Security/AccessControl/zzzz__FileSecurity_def.hpp"
+#include "System/IO/zzzz__StreamWriter_def.hpp"
+#include "System/IO/zzzz__FileMode_def.hpp"
+#include "System/Security/AccessControl/zzzz__AccessControlSections_def.hpp"
+#include "System/IO/zzzz__FileStream_def.hpp"
+#include "System/IO/zzzz__StreamReader_def.hpp"
 //  Writing Method size for method: System::IO::File.OpenText
 template<>
 

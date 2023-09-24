@@ -42,8 +42,13 @@ constexpr void UnityEngine::Scripting::APIUpdating::MovedFromAttribute::__set_da
 constexpr UnityEngine::Scripting::APIUpdating::MovedFromAttributeData UnityEngine::Scripting::APIUpdating::MovedFromAttribute::__get_data() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "autoUpdateAPI", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sourceNamespace", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "sourceAssembly", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "sourceClassName", ty: "::StringW", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::Scripting::APIUpdating::MovedFromAttribute::MovedFromAttribute(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MovedFromAttribute>(autoUpdateAPI, sourceNamespace, sourceAssembly, sourceClassName))) {}
+/// @param sourceNamespace: ::StringW (default: csnull)
+/// @param sourceAssembly: ::StringW (default: csnull)
+/// @param sourceClassName: ::StringW (default: csnull)
+ UnityEngine::Scripting::APIUpdating::MovedFromAttribute UnityEngine::Scripting::APIUpdating::MovedFromAttribute::New_ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName)  {
+UnityEngine::Scripting::APIUpdating::MovedFromAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Scripting::APIUpdating::MovedFromAttribute>(autoUpdateAPI, sourceNamespace, sourceAssembly, sourceClassName))};
+return o;
+}
 /// @param sourceNamespace: ::StringW (default: csnull)
 /// @param sourceAssembly: ::StringW (default: csnull)
 /// @param sourceClassName: ::StringW (default: csnull)
@@ -56,8 +61,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, autoUpdateAPI, sourceNamespace, sourceAssembly, sourceClassName);
 }
-// Ctor Parameters [CppParam { name: "sourceNamespace", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Scripting::APIUpdating::MovedFromAttribute::MovedFromAttribute(::StringW sourceNamespace)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MovedFromAttribute>(sourceNamespace))) {}
+ UnityEngine::Scripting::APIUpdating::MovedFromAttribute UnityEngine::Scripting::APIUpdating::MovedFromAttribute::New_ctor(::StringW sourceNamespace)  {
+UnityEngine::Scripting::APIUpdating::MovedFromAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Scripting::APIUpdating::MovedFromAttribute>(sourceNamespace))};
+return o;
+}
  void UnityEngine::Scripting::APIUpdating::MovedFromAttribute::_ctor(::StringW sourceNamespace)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Scripting::APIUpdating::MovedFromAttribute>::get(),

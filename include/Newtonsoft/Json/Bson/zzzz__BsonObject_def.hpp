@@ -4,10 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class IEnumerable_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Newtonsoft::Json::Bson {
 class BsonProperty;
@@ -16,15 +24,7 @@ namespace Newtonsoft::Json::Bson {
 class BsonToken;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+class IEnumerable;
 }
 namespace Newtonsoft::Json::Bson {
 struct BsonType;
@@ -107,8 +107,7 @@ constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Bson::BsonPrope
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x25501cc size 0x4 virtual true final true
  System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
-// Ctor Parameters []
-explicit BsonObject() ;
+static Newtonsoft::Json::Bson::BsonObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x25501d0 size 0x7c virtual false final false
  void _ctor() ;

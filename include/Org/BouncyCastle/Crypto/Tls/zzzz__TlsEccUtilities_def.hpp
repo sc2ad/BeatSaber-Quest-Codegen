@@ -5,37 +5,37 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPublicKeyParameters;
-}
-namespace System::Collections {
-class IDictionary;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
+}
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+class ECPoint;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPublicKeyParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -209,8 +209,7 @@ static void WriteECPoint(::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Ma
 /// @brief Method WriteNamedECParameters addr 0xf1b960 size 0xcc virtual false final false
 static void WriteNamedECParameters(int32_t namedCurve, System::IO::Stream output) ;
 
-// Ctor Parameters []
-explicit TlsEccUtilities() ;
+static Org::BouncyCastle::Crypto::Tls::TlsEccUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xf1cd74 size 0x8 virtual false final false
  void _ctor() ;

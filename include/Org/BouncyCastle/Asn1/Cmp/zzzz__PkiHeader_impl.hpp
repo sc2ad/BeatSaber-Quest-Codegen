@@ -1,15 +1,15 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiHeader_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__InfoTypeAndValue_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiFreeText_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiFreeText_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cmp::PkiHeader._ctor
 template<>
 
@@ -389,8 +389,10 @@ constexpr void Org::BouncyCastle::Asn1::Cmp::PkiHeader::__set_generalInfo(Org::B
 constexpr Org::BouncyCastle::Asn1::Asn1Sequence Org::BouncyCastle::Asn1::Cmp::PkiHeader::__get_generalInfo() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Sequence, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::PkiHeader::PkiHeader(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiHeader>(seq))) {}
+ Org::BouncyCastle::Asn1::Cmp::PkiHeader Org::BouncyCastle::Asn1::Cmp::PkiHeader::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cmp::PkiHeader o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::PkiHeader>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::PkiHeader::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::PkiHeader>::get(),
@@ -409,8 +411,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cmp::PkiHeader, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "pvno", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sender", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }, CppParam { name: "recipient", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::PkiHeader::PkiHeader(int32_t pvno, Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiHeader>(pvno, sender, recipient))) {}
+ Org::BouncyCastle::Asn1::Cmp::PkiHeader Org::BouncyCastle::Asn1::Cmp::PkiHeader::New_ctor(int32_t pvno, Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient)  {
+Org::BouncyCastle::Asn1::Cmp::PkiHeader o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::PkiHeader>(pvno, sender, recipient))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::PkiHeader::_ctor(int32_t pvno, Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::PkiHeader>::get(),
@@ -420,8 +424,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pvno, sender, recipient);
 }
-// Ctor Parameters [CppParam { name: "pvno", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "sender", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }, CppParam { name: "recipient", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::PkiHeader::PkiHeader(Org::BouncyCastle::Asn1::DerInteger pvno, Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiHeader>(pvno, sender, recipient))) {}
+ Org::BouncyCastle::Asn1::Cmp::PkiHeader Org::BouncyCastle::Asn1::Cmp::PkiHeader::New_ctor(Org::BouncyCastle::Asn1::DerInteger pvno, Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient)  {
+Org::BouncyCastle::Asn1::Cmp::PkiHeader o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::PkiHeader>(pvno, sender, recipient))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::PkiHeader::_ctor(Org::BouncyCastle::Asn1::DerInteger pvno, Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::PkiHeader>::get(),

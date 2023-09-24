@@ -1,6 +1,9 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::Xml {
+class XmlNameTable;
+}
 namespace System::Collections {
 class Hashtable;
 }
@@ -16,14 +19,11 @@ class XmlReaderSettings;
 namespace System::Xml::Schema {
 class ValidationEventArgs;
 }
-namespace System::Collections {
-class SortedList;
-}
 namespace System::Xml::Schema {
 class ValidationEventHandler;
 }
-namespace System::Xml {
-class XmlNameTable;
+namespace System::Collections {
+class SortedList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -140,14 +140,12 @@ constexpr System::Xml::Schema::XmlSchemaCompilationSettings __get_compilationSet
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlSchemaSet() ;
+static System::Xml::Schema::XmlSchemaSet New_ctor() ;
 
 /// @brief Method .ctor addr 0x2735444 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "nameTable", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
-explicit XmlSchemaSet(System::Xml::XmlNameTable nameTable) ;
+static System::Xml::Schema::XmlSchemaSet New_ctor(System::Xml::XmlNameTable nameTable) ;
 
 /// @brief Method .ctor addr 0x27354a8 size 0x288 virtual false final false
  void _ctor(System::Xml::XmlNameTable nameTable) ;

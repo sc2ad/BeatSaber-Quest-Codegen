@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GameNoteController, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DisappearingArrowController::DisappearingArrowController()  : GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::GameNoteController>(THROW_UNLESS(::il2cpp_utils::New<DisappearingArrowController>())) {}
+ GlobalNamespace::DisappearingArrowController GlobalNamespace::DisappearingArrowController::New_ctor()  {
+GlobalNamespace::DisappearingArrowController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DisappearingArrowController>())};
+return o;
+}
  void GlobalNamespace::DisappearingArrowController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DisappearingArrowController>::get(),

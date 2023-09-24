@@ -2,8 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System {
-class Type;
+namespace Zenject {
+class Zenject__ConventionBindInfo____c__DisplayClass6_0;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace Zenject {
+class Zenject__ConventionBindInfo____c__DisplayClass7_0;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -13,16 +19,16 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Reflection {
-class Assembly;
+namespace System {
+class Type;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -88,8 +94,7 @@ constexpr System::Reflection::Assembly __get_assembly() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionBindInfo____c__DisplayClass6_0() ;
+static Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4f40c size 0x8 virtual false final false
  void _ctor() ;
@@ -158,8 +163,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionBindInfo____c__DisplayClass7_0() ;
+static Zenject::Zenject__ConventionBindInfo____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4f4ec size 0x8 virtual false final false
  void _ctor() ;
@@ -265,8 +269,7 @@ static System::Collections::Generic::Dictionary_2<System::Reflection::Assembly,:
 /// @brief Method ResolveTypes addr 0x2d4dc54 size 0x1b0 virtual false final false
  System::Collections::Generic::List_1<System::Type> ResolveTypes() ;
 
-// Ctor Parameters []
-explicit ConventionBindInfo() ;
+static Zenject::ConventionBindInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4db6c size 0xc0 virtual false final false
  void _ctor() ;

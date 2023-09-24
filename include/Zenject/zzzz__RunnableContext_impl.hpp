@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__Context_impl.hpp"
 #include "Zenject/zzzz__RunnableContext_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: Zenject::RunnableContext.get_Initialized
 template<>
 
@@ -199,8 +199,10 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, gameObject);
 }
-// Ctor Parameters []
- Zenject::RunnableContext::RunnableContext()  : Zenject::Context(THROW_UNLESS(::il2cpp_utils::New<RunnableContext>())) {}
+ Zenject::RunnableContext Zenject::RunnableContext::New_ctor()  {
+Zenject::RunnableContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::RunnableContext>())};
+return o;
+}
  void Zenject::RunnableContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::RunnableContext>::get(),

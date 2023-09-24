@@ -85,8 +85,7 @@ constexpr GlobalNamespace::LightWithIdManager __get__lightWithIdManager() const;
 /// @brief Method Update addr 0x2252eb8 size 0x5c virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OneTimeLightColorEffect() ;
+static GlobalNamespace::OneTimeLightColorEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2252f14 size 0x10 virtual false final false
  void _ctor() ;

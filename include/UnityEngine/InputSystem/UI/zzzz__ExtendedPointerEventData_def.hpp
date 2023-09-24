@@ -15,8 +15,8 @@ class TouchControl;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine::EventSystems {
-class EventSystem;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -24,8 +24,8 @@ struct Vector3;
 namespace UnityEngine::InputSystem {
 class Pen;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine::EventSystems {
+class EventSystem;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -135,8 +135,7 @@ constexpr UnityEngine::Quaternion __get__trackedDeviceOrientation_k__BackingFiel
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
-explicit ExtendedPointerEventData(UnityEngine::EventSystems::EventSystem eventSystem) ;
+static UnityEngine::InputSystem::UI::ExtendedPointerEventData New_ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;
 
 /// @brief Method .ctor addr 0x293be8c size 0x8 virtual false final false
  void _ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "Zenject/zzzz__PrefabProviderResource_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: Zenject::PrefabProviderResource._ctor
 template<>
 
@@ -46,8 +46,10 @@ constexpr void Zenject::PrefabProviderResource::__set__resourcePath(::StringW va
 constexpr ::StringW Zenject::PrefabProviderResource::__get__resourcePath() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "resourcePath", ty: "::StringW", modifiers: "", def_value: None }]
- Zenject::PrefabProviderResource::PrefabProviderResource(::StringW resourcePath)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PrefabProviderResource>(resourcePath))) {}
+ Zenject::PrefabProviderResource Zenject::PrefabProviderResource::New_ctor(::StringW resourcePath)  {
+Zenject::PrefabProviderResource o{THROW_UNLESS(::il2cpp_utils::New<Zenject::PrefabProviderResource>(resourcePath))};
+return o;
+}
  void Zenject::PrefabProviderResource::_ctor(::StringW resourcePath)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::PrefabProviderResource>::get(),

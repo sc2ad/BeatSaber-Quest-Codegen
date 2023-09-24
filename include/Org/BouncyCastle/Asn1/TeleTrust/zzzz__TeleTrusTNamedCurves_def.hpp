@@ -10,23 +10,65 @@ class X9ECParametersHolder;
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder;
+}
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECPoint;
 }
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder;
+}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::TeleTrust {
@@ -125,8 +167,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe8f80 size 0x8 virtual false final false
  void _ctor() ;
@@ -189,8 +230,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe91bc size 0x8 virtual false final false
  void _ctor() ;
@@ -253,8 +293,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe93f8 size 0x8 virtual false final false
  void _ctor() ;
@@ -317,8 +356,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe9634 size 0x8 virtual false final false
  void _ctor() ;
@@ -381,8 +419,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe9870 size 0x8 virtual false final false
  void _ctor() ;
@@ -445,8 +482,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe9aac size 0x8 virtual false final false
  void _ctor() ;
@@ -509,8 +545,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe9ce8 size 0x8 virtual false final false
  void _ctor() ;
@@ -573,8 +608,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe9f24 size 0x8 virtual false final false
  void _ctor() ;
@@ -637,8 +671,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfea160 size 0x8 virtual false final false
  void _ctor() ;
@@ -701,8 +734,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfea39c size 0x8 virtual false final false
  void _ctor() ;
@@ -765,8 +797,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfea5d8 size 0x8 virtual false final false
  void _ctor() ;
@@ -829,8 +860,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfea814 size 0x8 virtual false final false
  void _ctor() ;
@@ -893,8 +923,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfeaa50 size 0x8 virtual false final false
  void _ctor() ;
@@ -957,8 +986,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder() ;
+static Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfeac8c size 0x8 virtual false final false
  void _ctor() ;
@@ -1096,8 +1124,7 @@ static System::Collections::IEnumerable get_Names() ;
 /// @brief Method GetOid addr 0xfe8d9c size 0x1dc virtual false final false
 static Org::BouncyCastle::Asn1::DerObjectIdentifier GetOid(int16_t curvesize, bool twisted) ;
 
-// Ctor Parameters []
-explicit TeleTrusTNamedCurves() ;
+static Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe8f78 size 0x8 virtual false final false
  void _ctor() ;

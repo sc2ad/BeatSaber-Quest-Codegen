@@ -3,8 +3,9 @@
 #include "GlobalNamespace/zzzz__MissionSelectionNavigationController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__MissionSelectionMapViewController_def.hpp"
+#include "GlobalNamespace/zzzz__MissionSelectionNavigationController_def.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelDetailViewController_def.hpp"
+#include "GlobalNamespace/zzzz__MissionSelectionMapViewController_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0._ctor
 template<>
@@ -75,8 +76,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionSelectionNavigationContr
 constexpr System::Action GlobalNamespace::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0::__get___9__1() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0>())) {}
+ GlobalNamespace::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0 GlobalNamespace::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0>::get(),
@@ -347,8 +350,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, finishedCallback);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionSelectionNavigationController::MissionSelectionNavigationController()  : HMUI::NavigationController(THROW_UNLESS(::il2cpp_utils::New<MissionSelectionNavigationController>())) {}
+ GlobalNamespace::MissionSelectionNavigationController GlobalNamespace::MissionSelectionNavigationController::New_ctor()  {
+GlobalNamespace::MissionSelectionNavigationController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionSelectionNavigationController>())};
+return o;
+}
  void GlobalNamespace::MissionSelectionNavigationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionSelectionNavigationController>::get(),

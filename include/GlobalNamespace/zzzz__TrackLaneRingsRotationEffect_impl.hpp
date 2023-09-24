@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffect_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect._ctor
 template<>
 
@@ -50,8 +51,10 @@ constexpr void GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__R
 constexpr int32_t GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect::__get_progressPos() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect>())) {}
+ GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect::New_ctor()  {
+GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TrackLaneRingsRotationEffect__RingRotationEffect>::get(),
@@ -334,8 +337,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ringRotationEffect);
 }
-// Ctor Parameters []
- GlobalNamespace::TrackLaneRingsRotationEffect::TrackLaneRingsRotationEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TrackLaneRingsRotationEffect>())) {}
+ GlobalNamespace::TrackLaneRingsRotationEffect GlobalNamespace::TrackLaneRingsRotationEffect::New_ctor()  {
+GlobalNamespace::TrackLaneRingsRotationEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TrackLaneRingsRotationEffect>())};
+return o;
+}
  void GlobalNamespace::TrackLaneRingsRotationEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TrackLaneRingsRotationEffect>::get(),

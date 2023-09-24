@@ -68,8 +68,7 @@ constexpr bool __get_privateKey() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "privateKey", ty: "bool", modifiers: "", def_value: None }]
-explicit AsymmetricKeyParameter(bool privateKey) ;
+static Org::BouncyCastle::Crypto::AsymmetricKeyParameter New_ctor(bool privateKey) ;
 
 /// @brief Method .ctor addr 0xea3254 size 0x28 virtual false final false
  void _ctor(bool privateKey) ;

@@ -133,8 +133,10 @@ constexpr void System::Runtime::Serialization::ObjectHolderList::__set_m_count(i
 constexpr int32_t System::Runtime::Serialization::ObjectHolderList::__get_m_count() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::ObjectHolderList::ObjectHolderList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectHolderList>())) {}
+ System::Runtime::Serialization::ObjectHolderList System::Runtime::Serialization::ObjectHolderList::New_ctor()  {
+System::Runtime::Serialization::ObjectHolderList o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::ObjectHolderList>())};
+return o;
+}
  void System::Runtime::Serialization::ObjectHolderList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::ObjectHolderList>::get(),
@@ -144,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "startingSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Serialization::ObjectHolderList::ObjectHolderList(int32_t startingSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectHolderList>(startingSize))) {}
+ System::Runtime::Serialization::ObjectHolderList System::Runtime::Serialization::ObjectHolderList::New_ctor(int32_t startingSize)  {
+System::Runtime::Serialization::ObjectHolderList o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::ObjectHolderList>(startingSize))};
+return o;
+}
  void System::Runtime::Serialization::ObjectHolderList::_ctor(int32_t startingSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::ObjectHolderList>::get(),

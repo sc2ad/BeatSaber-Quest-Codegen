@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UI::Button, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::TextMeshProButton::TextMeshProButton()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TextMeshProButton>())) {}
+ GlobalNamespace::TextMeshProButton GlobalNamespace::TextMeshProButton::New_ctor()  {
+GlobalNamespace::TextMeshProButton o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TextMeshProButton>())};
+return o;
+}
  void GlobalNamespace::TextMeshProButton::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TextMeshProButton>::get(),

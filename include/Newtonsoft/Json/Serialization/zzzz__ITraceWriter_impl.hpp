@@ -1,7 +1,7 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Diagnostics/zzzz__TraceLevel_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::ITraceWriter.get_LevelFilter
 template<>
 

@@ -284,8 +284,10 @@ constexpr void System::Xml::Schema::BitSet::__set_bits(::ArrayW<uint32_t> value)
 constexpr ::ArrayW<uint32_t> System::Xml::Schema::BitSet::__get_bits() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Schema::BitSet::BitSet()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BitSet>())) {}
+ System::Xml::Schema::BitSet System::Xml::Schema::BitSet::New_ctor()  {
+System::Xml::Schema::BitSet o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::BitSet>())};
+return o;
+}
  void System::Xml::Schema::BitSet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::BitSet>::get(),
@@ -295,8 +297,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::Schema::BitSet::BitSet(int32_t count)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BitSet>(count))) {}
+ System::Xml::Schema::BitSet System::Xml::Schema::BitSet::New_ctor(int32_t count)  {
+System::Xml::Schema::BitSet o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::BitSet>(count))};
+return o;
+}
  void System::Xml::Schema::BitSet::_ctor(int32_t count)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::BitSet>::get(),

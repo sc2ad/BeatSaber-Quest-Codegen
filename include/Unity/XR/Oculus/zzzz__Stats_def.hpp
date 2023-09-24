@@ -4,6 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace Unity::XR::Oculus {
+class Unity__XR__Oculus__Stats__AppMetrics;
+}
+namespace Unity::XR::Oculus {
+class Unity__XR__Oculus__Stats__AdaptivePerformance;
+}
+namespace Unity::XR::Oculus {
+class Unity__XR__Oculus__Stats__PerfMetrics;
+}
 namespace UnityEngine {
 class IntegratedSubsystem;
 }
@@ -377,8 +386,7 @@ static ::StringW get_PluginVersion() ;
 /// @brief Method GetOculusDisplaySubsystem addr 0x2ae0378 size 0x344 virtual false final false
 static UnityEngine::IntegratedSubsystem GetOculusDisplaySubsystem() ;
 
-// Ctor Parameters []
-explicit Stats() ;
+static Unity::XR::Oculus::Stats New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae06bc size 0x8 virtual false final false
  void _ctor() ;

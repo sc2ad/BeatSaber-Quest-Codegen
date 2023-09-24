@@ -62,8 +62,7 @@ constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksCon
 /// @brief Method Start addr 0x2270834 size 0x188 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit LightmappingGameplayManager() ;
+static GlobalNamespace::LightmappingGameplayManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x22709bc size 0x8 virtual false final false
  void _ctor() ;

@@ -2,17 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__Eyes_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
-namespace UnityEngine::InputSystem::XR {
-struct Eyes;
-}
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
+class AxisControl;
+}
+namespace UnityEngine::InputSystem::XR {
+struct Eyes;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -21,7 +21,7 @@ class EyesControl;
 // Type: UnityEngine.InputSystem.XR::EyesControl
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3754 }), TypeDefinitionIndex(TypeDefinitionIndex(6421)), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6421)), TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3754 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6423))
 // CS Name: UnityEngine.InputSystem.XR.EyesControl
 class CORDL_TYPE EyesControl : public UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::XR::Eyes> {
@@ -173,8 +173,7 @@ constexpr UnityEngine::InputSystem::Controls::AxisControl __get__rightEyeOpenAmo
 /// @brief Method WriteValueIntoState addr 0x2936120 size 0x114 virtual true final false
  void WriteValueIntoState(UnityEngine::InputSystem::XR::Eyes value, void* statePtr) ;
 
-// Ctor Parameters []
-explicit EyesControl() ;
+static UnityEngine::InputSystem::XR::EyesControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2936234 size 0x48 virtual false final false
  void _ctor() ;

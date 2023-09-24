@@ -53,8 +53,7 @@ constexpr explicit DateTimeConverterBase(void* ptr) noexcept : Newtonsoft::Json:
 /// @brief Method CanConvert addr 0x253bc6c size 0x140 virtual true final false
  bool CanConvert(System::Type objectType) ;
 
-// Ctor Parameters []
-explicit DateTimeConverterBase() ;
+static Newtonsoft::Json::Converters::DateTimeConverterBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x253bdac size 0x8 virtual false final false
  void _ctor() ;

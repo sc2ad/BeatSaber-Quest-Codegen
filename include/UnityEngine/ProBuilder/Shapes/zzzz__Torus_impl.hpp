@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Torus_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Shapes::Torus.CopyShape
 template<>
 
@@ -189,8 +189,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<UnityEngine::Vector3>, false>(nullptr, ___internal_method, segments, radius, circumference, rotation, offset);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Shapes::Torus::Torus()  : UnityEngine::ProBuilder::Shapes::Shape(THROW_UNLESS(::il2cpp_utils::New<Torus>())) {}
+ UnityEngine::ProBuilder::Shapes::Torus UnityEngine::ProBuilder::Shapes::Torus::New_ctor()  {
+UnityEngine::ProBuilder::Shapes::Torus o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Shapes::Torus>())};
+return o;
+}
  void UnityEngine::ProBuilder::Shapes::Torus::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Shapes::Torus>::get(),

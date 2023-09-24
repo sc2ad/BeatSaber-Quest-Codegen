@@ -2,6 +2,7 @@
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/Net/zzzz__NetEventSource_def.hpp"
 #include "System/zzzz__FormattableString_def.hpp"
+#include "System/Net/zzzz__NetEventSource_def.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventKeywords_def.hpp"
 constexpr System::Diagnostics::Tracing::EventKeywords  System::Net::System__Net__NetEventSource__Keywords::Default{1};
 constexpr System::Diagnostics::Tracing::EventKeywords  System::Net::System__Net__NetEventSource__Keywords::Debug{2};
@@ -614,8 +615,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, eventId, arg1, arg2, arg3, arg4);
 }
-// Ctor Parameters []
- System::Net::NetEventSource::NetEventSource()  : System::Diagnostics::Tracing::EventSource(THROW_UNLESS(::il2cpp_utils::New<NetEventSource>())) {}
+ System::Net::NetEventSource System::Net::NetEventSource::New_ctor()  {
+System::Net::NetEventSource o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetEventSource>())};
+return o;
+}
  void System::Net::NetEventSource::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetEventSource>::get(),

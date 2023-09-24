@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyController_def.hpp"
-#include "GlobalNamespace/zzzz__MenuEnvironmentManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyCenterStageManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarPlaceManager_def.hpp"
+#include "GlobalNamespace/zzzz__MenuEnvironmentManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLobbyController.get_lobbyActivated
 template<>
 
@@ -168,8 +168,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLobbyController::MultiplayerLobbyController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLobbyController>())) {}
+ GlobalNamespace::MultiplayerLobbyController GlobalNamespace::MultiplayerLobbyController::New_ctor()  {
+GlobalNamespace::MultiplayerLobbyController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLobbyController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLobbyController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLobbyController>::get(),

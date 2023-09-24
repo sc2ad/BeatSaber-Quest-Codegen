@@ -1,12 +1,12 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__DateTimeConverterBase_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IsoDateTimeConverter_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::IsoDateTimeConverter.get_DateTimeStyles
 template<>
 
@@ -250,8 +250,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, reader, objectType, existingValue, serializer);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::IsoDateTimeConverter::IsoDateTimeConverter()  : Newtonsoft::Json::Converters::DateTimeConverterBase(THROW_UNLESS(::il2cpp_utils::New<IsoDateTimeConverter>())) {}
+ Newtonsoft::Json::Converters::IsoDateTimeConverter Newtonsoft::Json::Converters::IsoDateTimeConverter::New_ctor()  {
+Newtonsoft::Json::Converters::IsoDateTimeConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::IsoDateTimeConverter>())};
+return o;
+}
  void Newtonsoft::Json::Converters::IsoDateTimeConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::IsoDateTimeConverter>::get(),

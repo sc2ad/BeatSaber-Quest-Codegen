@@ -82,8 +82,7 @@ constexpr bool __get_invertZ() const;
 /// @brief Method ToString addr 0x2966bb0 size 0xc4 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit InvertVector3Processor() ;
+static UnityEngine::InputSystem::Processors::InvertVector3Processor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2966c74 size 0x58 virtual false final false
  void _ctor() ;

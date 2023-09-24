@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Entry_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkcs::Pkcs12Entry._ctor
@@ -130,8 +130,10 @@ constexpr void Org::BouncyCastle::Pkcs::Pkcs12Entry::__set_attributes(System::Co
 constexpr System::Collections::IDictionary Org::BouncyCastle::Pkcs::Pkcs12Entry::__get_attributes() const {
 return ::cordl_internals::getInstanceField<System::Collections::IDictionary, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "attributes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs12Entry::Pkcs12Entry(System::Collections::IDictionary attributes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs12Entry>(attributes))) {}
+ Org::BouncyCastle::Pkcs::Pkcs12Entry Org::BouncyCastle::Pkcs::Pkcs12Entry::New_ctor(System::Collections::IDictionary attributes)  {
+Org::BouncyCastle::Pkcs::Pkcs12Entry o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs12Entry>(attributes))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs12Entry::_ctor(System::Collections::IDictionary attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs12Entry>::get(),

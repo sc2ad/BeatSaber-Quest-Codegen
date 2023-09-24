@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__PemUtilities_def.hpp"
+#include "Org/BouncyCastle/OpenSsl/zzzz__PemUtilities_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Org::BouncyCastle::OpenSsl::Org__BouncyCastle__OpenSsl__PemUtilities__PemBaseAlg::Org__BouncyCastle__OpenSsl__PemUtilities__PemBaseAlg(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -129,8 +130,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::ICipherParameters, false>(nullptr, ___internal_method, password, baseAlg, salt);
 }
-// Ctor Parameters []
- Org::BouncyCastle::OpenSsl::PemUtilities::PemUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PemUtilities>())) {}
+ Org::BouncyCastle::OpenSsl::PemUtilities Org::BouncyCastle::OpenSsl::PemUtilities::New_ctor()  {
+Org::BouncyCastle::OpenSsl::PemUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::OpenSsl::PemUtilities>())};
+return o;
+}
  void Org::BouncyCastle::OpenSsl::PemUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::OpenSsl::PemUtilities>::get(),

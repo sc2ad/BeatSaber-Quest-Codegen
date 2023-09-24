@@ -91,8 +91,10 @@ constexpr void Org::BouncyCastle::Bcpg::Crc24::__set_crc(int32_t value)  {
 constexpr int32_t Org::BouncyCastle::Bcpg::Crc24::__get_crc() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Bcpg::Crc24::Crc24()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Crc24>())) {}
+ Org::BouncyCastle::Bcpg::Crc24 Org::BouncyCastle::Bcpg::Crc24::New_ctor()  {
+Org::BouncyCastle::Bcpg::Crc24 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Crc24>())};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Crc24::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Crc24>::get(),

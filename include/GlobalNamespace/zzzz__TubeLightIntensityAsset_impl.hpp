@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeLightIntensityAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "GlobalNamespace/zzzz__TubeLightIntensityBehaviour_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TubeLightIntensityAsset.get_clipCaps
 template<>
 
@@ -86,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Playables::Playable, false>(const_cast<void*>(instance), ___internal_method, graph, go);
 }
-// Ctor Parameters []
- GlobalNamespace::TubeLightIntensityAsset::TubeLightIntensityAsset()  : UnityEngine::Playables::PlayableAsset(THROW_UNLESS(::il2cpp_utils::New<TubeLightIntensityAsset>())) {}
+ GlobalNamespace::TubeLightIntensityAsset GlobalNamespace::TubeLightIntensityAsset::New_ctor()  {
+GlobalNamespace::TubeLightIntensityAsset o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TubeLightIntensityAsset>())};
+return o;
+}
  void GlobalNamespace::TubeLightIntensityAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TubeLightIntensityAsset>::get(),

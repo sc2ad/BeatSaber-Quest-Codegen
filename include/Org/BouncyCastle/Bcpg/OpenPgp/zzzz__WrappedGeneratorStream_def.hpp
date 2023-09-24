@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__FilterStream_def.hpp"
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class IStreamGenerator;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -62,8 +62,7 @@ constexpr Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator __get_gen() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gen", ty: "Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator", modifiers: "", def_value: None }, CppParam { name: "str", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit WrappedGeneratorStream(Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator gen, System::IO::Stream str) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator gen, System::IO::Stream str) ;
 
 /// @brief Method .ctor addr 0x1043b8c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator gen, System::IO::Stream str) ;

@@ -87,8 +87,10 @@ constexpr void GlobalNamespace::MockPlayerLobbyPoseGenerator::__set_mockNodePose
 constexpr GlobalNamespace::MockNodePoseSyncStateSender GlobalNamespace::MockPlayerLobbyPoseGenerator::__get_mockNodePoseSyncStateSender() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MockNodePoseSyncStateSender, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
- GlobalNamespace::MockPlayerLobbyPoseGenerator::MockPlayerLobbyPoseGenerator(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockPlayerLobbyPoseGenerator>(multiplayerSessionManager))) {}
+ GlobalNamespace::MockPlayerLobbyPoseGenerator GlobalNamespace::MockPlayerLobbyPoseGenerator::New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  {
+GlobalNamespace::MockPlayerLobbyPoseGenerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockPlayerLobbyPoseGenerator>(multiplayerSessionManager))};
+return o;
+}
  void GlobalNamespace::MockPlayerLobbyPoseGenerator::_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockPlayerLobbyPoseGenerator>::get(),

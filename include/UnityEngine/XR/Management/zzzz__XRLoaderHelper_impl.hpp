@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/XR/Management/zzzz__XRLoader_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__ISubsystem_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__ISubsystem_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::Management::XRLoaderHelper.Deinitialize
 template<>
 
@@ -152,8 +152,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::Management::XRLoaderHelper::XRLoaderHelper()  : UnityEngine::XR::Management::XRLoader(THROW_UNLESS(::il2cpp_utils::New<XRLoaderHelper>())) {}
+ UnityEngine::XR::Management::XRLoaderHelper UnityEngine::XR::Management::XRLoaderHelper::New_ctor()  {
+UnityEngine::XR::Management::XRLoaderHelper o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::Management::XRLoaderHelper>())};
+return o;
+}
  void UnityEngine::XR::Management::XRLoaderHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::Management::XRLoaderHelper>::get(),

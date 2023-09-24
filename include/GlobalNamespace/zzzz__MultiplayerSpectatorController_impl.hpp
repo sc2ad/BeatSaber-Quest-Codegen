@@ -2,16 +2,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSpectatorController_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSpectatorController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotManager_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17._ctor
 template<>
 
@@ -150,8 +150,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController_
 constexpr GlobalNamespace::IMultiplayerSpectatingSpot GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__get__defaultSpot_5__2() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IMultiplayerSpectatingSpot, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17>::get(),
@@ -338,8 +340,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController_
 constexpr GlobalNamespace::MultiplayerSpectatorController GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerSpectatorController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18>::get(),
@@ -791,8 +795,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerSpectatorController::MultiplayerSpectatorController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerSpectatorController>())) {}
+ GlobalNamespace::MultiplayerSpectatorController GlobalNamespace::MultiplayerSpectatorController::New_ctor()  {
+GlobalNamespace::MultiplayerSpectatorController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerSpectatorController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerSpectatorController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerSpectatorController>::get(),

@@ -8,19 +8,19 @@ namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISignerWithRecovery;
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class ISigner;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISignerWithRecovery;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -211,14 +211,12 @@ constexpr int32_t __get_preTLength() const;
 /// @brief Method GetRecoveredMessage addr 0xec0bec size 0x8 virtual true final true
  ::ArrayW<uint8_t> GetRecoveredMessage() ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isImplicit", ty: "bool", modifiers: "", def_value: None }]
-explicit Iso9796d2PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength, bool isImplicit) ;
+static Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength, bool isImplicit) ;
 
 /// @brief Method .ctor addr 0xec0bf4 size 0x194 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength, bool isImplicit) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Iso9796d2PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength) ;
+static Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength) ;
 
 /// @brief Method .ctor addr 0xec1060 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength) ;

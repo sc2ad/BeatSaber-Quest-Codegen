@@ -57,8 +57,7 @@ constexpr ::StringW __get__KeyFile_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyFile", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyKeyFileAttribute(::StringW keyFile) ;
+static System::Reflection::AssemblyKeyFileAttribute New_ctor(::StringW keyFile) ;
 
 /// @brief Method .ctor addr 0x2378e10 size 0x28 virtual false final false
  void _ctor(::StringW keyFile) ;

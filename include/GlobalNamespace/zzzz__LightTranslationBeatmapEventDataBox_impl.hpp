@@ -3,13 +3,13 @@
 #include "GlobalNamespace/zzzz__LightTranslationBeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBaseData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightTranslationBeatmapEventDataBox.get_subtypeIdentifier
 template<>
 
@@ -120,8 +120,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "GlobalNamespace::IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "flipTranslation", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gapDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gapDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "gapDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gapDistributionEaseType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "lightTranslationBaseDataList", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData>", modifiers: "", def_value: None }]
- GlobalNamespace::LightTranslationBeatmapEventDataBox::LightTranslationBeatmapEventDataBox(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType gapDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> lightTranslationBaseDataList)  : GlobalNamespace::BeatmapEventDataBox(THROW_UNLESS(::il2cpp_utils::New<LightTranslationBeatmapEventDataBox>(indexFilter, beatDistributionParam, beatDistributionParamType, axis, flipTranslation, gapDistributionParam, gapDistributionParamType, gapDistributionShouldAffectFirstBaseEvent, gapDistributionEaseType, lightTranslationBaseDataList))) {}
+ GlobalNamespace::LightTranslationBeatmapEventDataBox GlobalNamespace::LightTranslationBeatmapEventDataBox::New_ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType gapDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> lightTranslationBaseDataList)  {
+GlobalNamespace::LightTranslationBeatmapEventDataBox o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightTranslationBeatmapEventDataBox>(indexFilter, beatDistributionParam, beatDistributionParamType, axis, flipTranslation, gapDistributionParam, gapDistributionParamType, gapDistributionShouldAffectFirstBaseEvent, gapDistributionEaseType, lightTranslationBaseDataList))};
+return o;
+}
  void GlobalNamespace::LightTranslationBeatmapEventDataBox::_ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType gapDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> lightTranslationBaseDataList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightTranslationBeatmapEventDataBox>::get(),

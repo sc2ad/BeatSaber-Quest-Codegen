@@ -85,8 +85,7 @@ static bool IsPrivate(uint8_t hashAlgorithm) ;
 /// @brief Method IsRecognized addr 0xf04540 size 0x14 virtual false final false
 static bool IsRecognized(uint8_t hashAlgorithm) ;
 
-// Ctor Parameters []
-explicit HashAlgorithm() ;
+static Org::BouncyCastle::Crypto::Tls::HashAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04554 size 0x8 virtual false final false
  void _ctor() ;

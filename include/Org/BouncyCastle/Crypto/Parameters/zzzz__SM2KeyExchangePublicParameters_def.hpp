@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPublicKeyParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPublicKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -78,8 +78,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters __get_mEp
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "staticPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }]
-explicit SM2KeyExchangePublicParameters(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;
+static Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;
 
 /// @brief Method .ctor addr 0xead5ec size 0xfc virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;

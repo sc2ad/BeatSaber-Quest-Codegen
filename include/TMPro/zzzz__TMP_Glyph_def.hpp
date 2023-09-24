@@ -50,8 +50,7 @@ constexpr explicit TMP_Glyph(void* ptr) noexcept : TMPro::TMP_TextElement_Legacy
 /// @brief Method Clone addr 0x2a78814 size 0x7c virtual false final false
 static TMPro::TMP_Glyph Clone(TMPro::TMP_Glyph source) ;
 
-// Ctor Parameters []
-explicit TMP_Glyph() ;
+static TMPro::TMP_Glyph New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a78890 size 0x8 virtual false final false
  void _ctor() ;

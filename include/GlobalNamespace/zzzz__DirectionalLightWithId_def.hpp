@@ -78,8 +78,7 @@ constexpr float_t __get__minIntensity() const;
 /// @brief Method ColorWasSet addr 0x1f9cb8c size 0x34 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit DirectionalLightWithId() ;
+static GlobalNamespace::DirectionalLightWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9cbc0 size 0x18 virtual false final false
  void _ctor() ;

@@ -12,6 +12,9 @@ class EventArgs;
 namespace System::Security::Cryptography {
 struct RSAParameters;
 }
+namespace Mono::Security::Cryptography {
+class Mono__Security__Cryptography__RSAManaged__KeyGeneratedEventHandler;
+}
 namespace Mono::Math {
 class BigInteger;
 }
@@ -26,7 +29,7 @@ class RSAManaged;
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14010))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2282))
 // CS Name: Mono.Security.Cryptography.RSAManaged::KeyGeneratedEventHandler
 class CORDL_TYPE Mono__Security__Cryptography__RSAManaged__KeyGeneratedEventHandler : public System::MulticastDelegate {
 public:
@@ -64,13 +67,12 @@ constexpr explicit Mono__Security__Cryptography__RSAManaged__KeyGeneratedEventHa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Security__Cryptography__RSAManaged__KeyGeneratedEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Mono::Security::Cryptography::Mono__Security__Cryptography__RSAManaged__KeyGeneratedEventHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
-/// @brief Method .ctor addr 0x229cc84 size 0x130 virtual false final false
+/// @brief Method .ctor addr 0x22b7874 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
-/// @brief Method Invoke addr 0x229cdb4 size 0x14 virtual true final false
+/// @brief Method Invoke addr 0x22b79a4 size 0x14 virtual true final false
  void Invoke(::bs_hook::Il2CppWrapperType sender, System::EventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
@@ -81,7 +83,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2952))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14011))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2283))
 // CS Name: Mono.Security.Cryptography.RSAManaged
 class CORDL_TYPE RSAManaged : public System::Security::Cryptography::RSA {
 public:
@@ -209,46 +211,45 @@ constexpr Mono::Security::Cryptography::Mono__Security__Cryptography__RSAManaged
 
 // Methods
 
-// Ctor Parameters []
-explicit RSAManaged() ;
+static Mono::Security::Cryptography::RSAManaged New_ctor(int32_t keySize) ;
 
-/// @brief Method .ctor addr 0x229aa6c size 0x8 virtual false final false
- void _ctor() ;
-
-// Ctor Parameters [CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RSAManaged(int32_t keySize) ;
-
-/// @brief Method .ctor addr 0x229aa74 size 0xf0 virtual false final false
+/// @brief Method .ctor addr 0x22b552c size 0xf0 virtual false final false
  void _ctor(int32_t keySize) ;
 
-/// @brief Method Finalize addr 0x229ab64 size 0xa0 virtual true final false
+/// @brief Method Finalize addr 0x22b561c size 0xa0 virtual true final false
  void Finalize() ;
 
-/// @brief Method GenerateKeyPair addr 0x229ac04 size 0x268 virtual false final false
+/// @brief Method GenerateKeyPair addr 0x22b56bc size 0x268 virtual false final false
  void GenerateKeyPair() ;
 
-/// @brief Method get_KeySize addr 0x229b47c size 0xa4 virtual true final false
+/// @brief Method get_KeySize addr 0x22b5f34 size 0xa4 virtual true final false
  int32_t get_KeySize() ;
 
-/// @brief Method get_PublicOnly addr 0x229b520 size 0xa0 virtual false final false
+/// @brief Method get_PublicOnly addr 0x22b5fd8 size 0xa0 virtual false final false
  bool get_PublicOnly() ;
 
-/// @brief Method EncryptValue addr 0x229b670 size 0x10c virtual true final false
+/// @brief Method EncryptValue addr 0x22b6128 size 0x10c virtual true final false
  ::ArrayW<uint8_t> EncryptValue(::ArrayW<uint8_t> rgb) ;
 
-/// @brief Method ExportParameters addr 0x229bb30 size 0x334 virtual true final false
+/// @brief Method ExportParameters addr 0x22b65e8 size 0x334 virtual true final false
  System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters) ;
 
-/// @brief Method ImportParameters addr 0x229bf90 size 0x46c virtual true final false
+/// @brief Method ImportParameters addr 0x22b6a48 size 0x46c virtual true final false
  void ImportParameters(System::Security::Cryptography::RSAParameters parameters) ;
 
-/// @brief Method Dispose addr 0x229c3fc size 0x204 virtual true final false
+/// @brief Method Dispose addr 0x22b6eb4 size 0x204 virtual true final false
  void Dispose(bool disposing) ;
 
-/// @brief Method ToXmlString addr 0x229c600 size 0x684 virtual true final false
+/// @brief Method add_KeyGenerated addr 0x22b70b8 size 0x9c virtual false final false
+ void add_KeyGenerated(Mono::Security::Cryptography::Mono__Security__Cryptography__RSAManaged__KeyGeneratedEventHandler value) ;
+
+/// @brief Method remove_KeyGenerated addr 0x22b7154 size 0x9c virtual false final false
+ void remove_KeyGenerated(Mono::Security::Cryptography::Mono__Security__Cryptography__RSAManaged__KeyGeneratedEventHandler value) ;
+
+/// @brief Method ToXmlString addr 0x22b71f0 size 0x684 virtual true final false
  ::StringW ToXmlString(bool includePrivateParameters) ;
 
-/// @brief Method GetPaddedValue addr 0x229ba30 size 0xb0 virtual false final false
+/// @brief Method GetPaddedValue addr 0x22b64e8 size 0xb0 virtual false final false
  ::ArrayW<uint8_t> GetPaddedValue(Mono::Math::BigInteger value, int32_t length) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;

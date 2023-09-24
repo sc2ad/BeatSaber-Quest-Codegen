@@ -60,8 +60,10 @@ constexpr void HMUI::ScreenModeData::__set_minYPos(float_t value)  {
 constexpr float_t HMUI::ScreenModeData::__get_minYPos() const {
 return ::cordl_internals::getInstanceField<float_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "offsetHeightByHeadPos", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "yOffsetRelativeToHead", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "minYPos", ty: "float_t", modifiers: "", def_value: None }]
- HMUI::ScreenModeData::ScreenModeData(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ScreenModeData>(position, rotation, scale, radius, offsetHeightByHeadPos, yOffsetRelativeToHead, minYPos))) {}
+ HMUI::ScreenModeData HMUI::ScreenModeData::New_ctor(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos)  {
+HMUI::ScreenModeData o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ScreenModeData>(position, rotation, scale, radius, offsetHeightByHeadPos, yOffsetRelativeToHead, minYPos))};
+return o;
+}
  void HMUI::ScreenModeData::_ctor(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ScreenModeData>::get(),

@@ -54,20 +54,17 @@ constexpr explicit CryptographicUnexpectedOperationException(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit CryptographicUnexpectedOperationException() ;
+static System::Security::Cryptography::CryptographicUnexpectedOperationException New_ctor() ;
 
 /// @brief Method .ctor addr 0x22effdc size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CryptographicUnexpectedOperationException(::StringW message) ;
+static System::Security::Cryptography::CryptographicUnexpectedOperationException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x22ef238 size 0x48 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit CryptographicUnexpectedOperationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Security::Cryptography::CryptographicUnexpectedOperationException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x22f0000 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

@@ -5,26 +5,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Reflection {
+class CustomAttributeData;
+}
 namespace System::Runtime::InteropServices {
 class MarshalAsAttribute;
 }
 namespace System::Reflection {
 struct CallingConventions;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+class MemberInfo;
 }
 namespace System::Text {
 class StringBuilder;
 }
-namespace System::Reflection {
-class MemberInfo;
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class ParameterInfo;
-}
-namespace System::Reflection {
-class CustomAttributeData;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -86,8 +86,7 @@ constexpr System::Runtime::InteropServices::MarshalAsAttribute __get_marshalAs()
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "position", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "defaultValue", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "marshalAs", ty: "System::Runtime::InteropServices::MarshalAsAttribute", modifiers: "", def_value: None }]
-explicit RuntimeParameterInfo(::StringW name, System::Type type, int32_t position, int32_t attrs, ::bs_hook::Il2CppWrapperType defaultValue, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs) ;
+static System::Reflection::RuntimeParameterInfo New_ctor(::StringW name, System::Type type, int32_t position, int32_t attrs, ::bs_hook::Il2CppWrapperType defaultValue, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs) ;
 
 /// @brief Method .ctor addr 0x2389550 size 0x68 virtual false final false
  void _ctor(::StringW name, System::Type type, int32_t position, int32_t attrs, ::bs_hook::Il2CppWrapperType defaultValue, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs) ;
@@ -95,14 +94,12 @@ explicit RuntimeParameterInfo(::StringW name, System::Type type, int32_t positio
 /// @brief Method FormatParameters addr 0x2386b6c size 0x1f4 virtual false final false
 static void FormatParameters(System::Text::StringBuilder sb, ::ArrayW<System::Reflection::ParameterInfo> p, System::Reflection::CallingConventions callingConvention, bool serialization) ;
 
-// Ctor Parameters [CppParam { name: "pinfo", ty: "System::Reflection::ParameterInfo", modifiers: "", def_value: None }, CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }]
-explicit RuntimeParameterInfo(System::Reflection::ParameterInfo pinfo, System::Reflection::MemberInfo member) ;
+static System::Reflection::RuntimeParameterInfo New_ctor(System::Reflection::ParameterInfo pinfo, System::Reflection::MemberInfo member) ;
 
 /// @brief Method .ctor addr 0x23895b8 size 0x90 virtual false final false
  void _ctor(System::Reflection::ParameterInfo pinfo, System::Reflection::MemberInfo member) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "marshalAs", ty: "System::Runtime::InteropServices::MarshalAsAttribute", modifiers: "", def_value: None }]
-explicit RuntimeParameterInfo(System::Type type, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs) ;
+static System::Reflection::RuntimeParameterInfo New_ctor(System::Type type, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs) ;
 
 /// @brief Method .ctor addr 0x238970c size 0x50 virtual false final false
  void _ctor(System::Type type, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs) ;

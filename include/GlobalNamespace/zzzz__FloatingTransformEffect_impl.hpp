@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatingTransformEffect_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FloatingTransformEffect.Start
 template<>
 
@@ -263,8 +263,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method, time);
 }
-// Ctor Parameters []
- GlobalNamespace::FloatingTransformEffect::FloatingTransformEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FloatingTransformEffect>())) {}
+ GlobalNamespace::FloatingTransformEffect GlobalNamespace::FloatingTransformEffect::New_ctor()  {
+GlobalNamespace::FloatingTransformEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FloatingTransformEffect>())};
+return o;
+}
  void GlobalNamespace::FloatingTransformEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FloatingTransformEffect>::get(),

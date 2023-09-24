@@ -1,10 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ShockwaveEffect_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "GlobalNamespace/zzzz__IntSO_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ShockwaveEffect.Start
 template<>
 
@@ -98,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pos);
 }
-// Ctor Parameters []
- GlobalNamespace::ShockwaveEffect::ShockwaveEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ShockwaveEffect>())) {}
+ GlobalNamespace::ShockwaveEffect GlobalNamespace::ShockwaveEffect::New_ctor()  {
+GlobalNamespace::ShockwaveEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ShockwaveEffect>())};
+return o;
+}
  void GlobalNamespace::ShockwaveEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ShockwaveEffect>::get(),

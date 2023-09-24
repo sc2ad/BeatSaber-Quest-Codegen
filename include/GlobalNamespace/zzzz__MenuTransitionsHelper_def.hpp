@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class LevelCompletionResults;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
@@ -38,10 +38,38 @@ namespace BeatmapEditor3D {
 class BeatmapEditorStandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0;
+}
+namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class PracticeSettings;
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0;
+}
+namespace GlobalNamespace {
+class CreditsScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class LevelScenesTransitionSetupDataSO;
@@ -49,55 +77,45 @@ class LevelScenesTransitionSetupDataSO;
 namespace GlobalNamespace {
 class BeatmapDataCache;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-class CreditsScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MissionObjective;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+class GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
 class AppInitScenesTransitionSetupDataContainerSO;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class BeatmapEditorScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
+class PracticeSettings;
+}
+namespace GlobalNamespace {
+class ColorScheme;
+}
+namespace GlobalNamespace {
+class MissionObjective;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -184,8 +202,7 @@ constexpr GlobalNamespace::LevelCompletionResults __get_levelCompletionResults()
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0() ;
+static GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d2de0 size 0x8 virtual false final false
  void _ctor() ;
@@ -260,8 +277,7 @@ constexpr GlobalNamespace::MultiplayerResultsData __get_multiplayerResultsData()
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0() ;
+static GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d2fb8 size 0x8 virtual false final false
  void _ctor() ;
@@ -330,8 +346,7 @@ constexpr GlobalNamespace::DisconnectedReason __get_disconnectedReason() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0() ;
+static GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3148 size 0x8 virtual false final false
  void _ctor() ;
@@ -406,8 +421,7 @@ constexpr GlobalNamespace::MissionCompletionResults __get_missionCompletionResul
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0() ;
+static GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3310 size 0x8 virtual false final false
  void _ctor() ;
@@ -482,8 +496,7 @@ constexpr GlobalNamespace::TutorialScenesTransitionSetupDataSO __get_tutorialSce
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0() ;
+static GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d345c size 0x8 virtual false final false
  void _ctor() ;
@@ -558,8 +571,7 @@ constexpr GlobalNamespace::LevelCompletionResults __get_levelCompletionResults()
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0() ;
+static GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3778 size 0x8 virtual false final false
  void _ctor() ;
@@ -787,8 +799,7 @@ constexpr System::Action_2<BeatmapEditor3D::BeatmapEditorStandardLevelScenesTran
 /// @brief Method HandleBeatmapEditorGameSceneDidFinish addr 0x21d3644 size 0x134 virtual false final false
  void HandleBeatmapEditorGameSceneDidFinish(BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO beatmapEditorStandardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
-// Ctor Parameters []
-explicit MenuTransitionsHelper() ;
+static GlobalNamespace::MenuTransitionsHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3830 size 0x8 virtual false final false
  void _ctor() ;

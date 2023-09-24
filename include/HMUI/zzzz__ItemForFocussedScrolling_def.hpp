@@ -47,8 +47,7 @@ constexpr explicit ItemForFocussedScrolling(void* ptr) noexcept : UnityEngine::M
 
 // Methods
 
-// Ctor Parameters []
-explicit ItemForFocussedScrolling() ;
+static HMUI::ItemForFocussedScrolling New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fcf564 size 0x8 virtual false final false
  void _ctor() ;

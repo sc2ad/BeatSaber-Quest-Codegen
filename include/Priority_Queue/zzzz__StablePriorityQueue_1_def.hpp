@@ -18,6 +18,10 @@ namespace Priority_Queue {
 template<typename TItem,typename TPriority>
 class IPriorityQueue_2;
 }
+namespace Priority_Queue {
+template<typename TItem,typename TPriority>
+class IFixedSizePriorityQueue_2;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -26,8 +30,8 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace Priority_Queue {
-template<typename TItem,typename TPriority>
-class IFixedSizePriorityQueue_2;
+template<typename T>
+class Priority_Queue__StablePriorityQueue_1___GetEnumerator_d__22;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -135,8 +139,7 @@ constexpr int32_t __get__i_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Priority_Queue__StablePriorityQueue_1___GetEnumerator_d__22(int32_t __1__state) ;
+static Priority_Queue::Priority_Queue__StablePriorityQueue_1___GetEnumerator_d__22<T> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -248,8 +251,7 @@ constexpr int64_t __get__numNodesEverEnqueued() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "maxNodes", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StablePriorityQueue_1(int32_t maxNodes) ;
+static Priority_Queue::StablePriorityQueue_1<T> New_ctor(int32_t maxNodes) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t maxNodes) ;

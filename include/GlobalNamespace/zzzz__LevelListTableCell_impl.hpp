@@ -2,20 +2,20 @@
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelListTableCell_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "GlobalNamespace/zzzz__LevelListTableCell_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LevelListTableCell___SetDataFromLevelAsync_d__19.MoveNext
 template<>
@@ -558,8 +558,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelListTableCell::LevelListTableCell()  : HMUI::TableCell(THROW_UNLESS(::il2cpp_utils::New<LevelListTableCell>())) {}
+ GlobalNamespace::LevelListTableCell GlobalNamespace::LevelListTableCell::New_ctor()  {
+GlobalNamespace::LevelListTableCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelListTableCell>())};
+return o;
+}
  void GlobalNamespace::LevelListTableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelListTableCell>::get(),

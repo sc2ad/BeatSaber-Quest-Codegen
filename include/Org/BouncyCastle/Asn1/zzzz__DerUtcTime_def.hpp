@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -87,20 +87,17 @@ static Org::BouncyCastle::Asn1::DerUtcTime GetInstance(::bs_hook::Il2CppWrapperT
 /// @brief Method GetInstance addr 0x11399c8 size 0x140 virtual false final false
 static Org::BouncyCastle::Asn1::DerUtcTime GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DerUtcTime(::StringW time) ;
+static Org::BouncyCastle::Asn1::DerUtcTime New_ctor(::StringW time) ;
 
 /// @brief Method .ctor addr 0x1139b08 size 0x168 virtual false final false
  void _ctor(::StringW time) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit DerUtcTime(System::DateTime time) ;
+static Org::BouncyCastle::Asn1::DerUtcTime New_ctor(System::DateTime time) ;
 
 /// @brief Method .ctor addr 0x1139cc0 size 0xbc virtual false final false
  void _ctor(System::DateTime time) ;
 
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerUtcTime(::ArrayW<uint8_t> bytes) ;
+static Org::BouncyCastle::Asn1::DerUtcTime New_ctor(::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0x112c24c size 0x34 virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes) ;

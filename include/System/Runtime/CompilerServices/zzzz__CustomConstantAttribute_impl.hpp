@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Runtime::CompilerServices::CustomConstantAttribute::CustomConstantAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<CustomConstantAttribute>())) {}
+ System::Runtime::CompilerServices::CustomConstantAttribute System::Runtime::CompilerServices::CustomConstantAttribute::New_ctor()  {
+System::Runtime::CompilerServices::CustomConstantAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::CustomConstantAttribute>())};
+return o;
+}
  void System::Runtime::CompilerServices::CustomConstantAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::CustomConstantAttribute>::get(),

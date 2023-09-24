@@ -6,18 +6,18 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleValue_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+struct Length;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

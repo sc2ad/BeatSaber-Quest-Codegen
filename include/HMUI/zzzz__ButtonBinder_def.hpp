@@ -1,22 +1,22 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-template<typename T1,typename T2>
-class Tuple_2;
-}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace System {
-class Action;
-}
-namespace UnityEngine::Events {
-class UnityAction;
+template<typename T1,typename T2>
+class Tuple_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::Events {
+class UnityAction;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace HMUI {
@@ -73,20 +73,17 @@ constexpr System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::
 
 // Methods
 
-// Ctor Parameters []
-explicit ButtonBinder() ;
+static HMUI::ButtonBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa591c size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "button", ty: "UnityEngine::UI::Button", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }]
-explicit ButtonBinder(UnityEngine::UI::Button button, System::Action action) ;
+static HMUI::ButtonBinder New_ctor(UnityEngine::UI::Button button, System::Action action) ;
 
 /// @brief Method .ctor addr 0x1fa59ac size 0x3c virtual false final false
  void _ctor(UnityEngine::UI::Button button, System::Action action) ;
 
-// Ctor Parameters [CppParam { name: "bindingData", ty: "System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button,System::Action>>", modifiers: "", def_value: None }]
-explicit ButtonBinder(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button,System::Action>> bindingData) ;
+static HMUI::ButtonBinder New_ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button,System::Action>> bindingData) ;
 
 /// @brief Method .ctor addr 0x1fa5aac size 0x34 virtual false final false
  void _ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button,System::Action>> bindingData) ;

@@ -85,8 +85,7 @@ constexpr int32_t __get_keyType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PrivateKey(::ArrayW<uint8_t> data, ::StringW password) ;
+static Mono::Security::Authenticode::PrivateKey New_ctor(::ArrayW<uint8_t> data, ::StringW password) ;
 
 /// @brief Method .ctor addr 0x229f268 size 0xe4 virtual false final false
  void _ctor(::ArrayW<uint8_t> data, ::StringW password) ;

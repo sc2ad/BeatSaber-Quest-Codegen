@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_impl.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__ScaleVector3Processor_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Processors::ScaleVector3Processor.Process
 template<>
 
@@ -90,8 +90,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Processors::ScaleVector3Processor::ScaleVector3Processor()  : UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector3>(THROW_UNLESS(::il2cpp_utils::New<ScaleVector3Processor>())) {}
+ UnityEngine::InputSystem::Processors::ScaleVector3Processor UnityEngine::InputSystem::Processors::ScaleVector3Processor::New_ctor()  {
+UnityEngine::InputSystem::Processors::ScaleVector3Processor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Processors::ScaleVector3Processor>())};
+return o;
+}
  void UnityEngine::InputSystem::Processors::ScaleVector3Processor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Processors::ScaleVector3Processor>::get(),

@@ -6,29 +6,32 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class Mesh;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-struct Color;
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+struct Color;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BlocksBlade__Element;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +97,7 @@ constexpr float_t __get_velocity() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BlocksBlade__Element() ;
+static GlobalNamespace::GlobalNamespace__BlocksBlade__Element New_ctor() ;
 
 /// @brief Method .ctor addr 0x2109cfc size 0x8 virtual false final false
  void _ctor() ;
@@ -306,8 +308,7 @@ constexpr int32_t __get__layer() const;
 /// @brief Method RandomPointOnCircle addr 0x210a2c0 size 0x4c virtual false final false
  UnityEngine::Vector2 RandomPointOnCircle(float_t radius) ;
 
-// Ctor Parameters []
-explicit BlocksBlade() ;
+static GlobalNamespace::BlocksBlade New_ctor() ;
 
 /// @brief Method .ctor addr 0x210a30c size 0x38 virtual false final false
  void _ctor() ;

@@ -2,10 +2,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;

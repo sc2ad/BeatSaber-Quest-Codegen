@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GameCoreSceneSetupData::GameCoreSceneSetupData()  : GlobalNamespace::SceneSetupData(THROW_UNLESS(::il2cpp_utils::New<GameCoreSceneSetupData>())) {}
+ GlobalNamespace::GameCoreSceneSetupData GlobalNamespace::GameCoreSceneSetupData::New_ctor()  {
+GlobalNamespace::GameCoreSceneSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameCoreSceneSetupData>())};
+return o;
+}
  void GlobalNamespace::GameCoreSceneSetupData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameCoreSceneSetupData>::get(),

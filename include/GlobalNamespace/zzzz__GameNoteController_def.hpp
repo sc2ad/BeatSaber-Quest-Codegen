@@ -5,7 +5,45 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace GlobalNamespace {
+struct NoteVisualModifierType;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
 class Saber;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__NoteData__GameplayType;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class INoteMirrorable;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class BoxCuttableBySaber;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class INoteVisualModifierTypeProvider;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameNoteController__Pool;
+}
+namespace GlobalNamespace {
+template<typename T>
+class ICubeNoteControllerInitializable_1;
 }
 namespace GlobalNamespace {
 class IGameNoteMirrorable;
@@ -14,45 +52,10 @@ namespace GlobalNamespace {
 class NoteMovement;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__NoteData__GameplayType;
-}
-namespace GlobalNamespace {
-template<typename T>
-class ICubeNoteControllerInitializable_1;
-}
-namespace GlobalNamespace {
-class BoxCuttableBySaber;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
-}
-namespace GlobalNamespace {
 class INoteMovementProvider;
-}
-namespace GlobalNamespace {
-class INoteVisualModifierTypeProvider;
-}
-namespace GlobalNamespace {
-class INoteMirrorable;
-}
-namespace GlobalNamespace {
-class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -228,8 +231,7 @@ constexpr float_t __get__cutAngleTolerance() const;
 /// @brief Method Pause addr 0x223d200 size 0x10 virtual true final false
  void Pause(bool pause) ;
 
-// Ctor Parameters []
-explicit GameNoteController() ;
+static GlobalNamespace::GameNoteController New_ctor() ;
 
 /// @brief Method .ctor addr 0x223d210 size 0x4 virtual false final false
  void _ctor() ;
@@ -241,7 +243,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4860)), TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 297 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 297 }), TypeDefinitionIndex(TypeDefinitionIndex(4860))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4859))
 // CS Name: GameNoteController::Pool
 class CORDL_TYPE GlobalNamespace__GameNoteController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::GameNoteController> {
@@ -280,8 +282,7 @@ constexpr explicit GlobalNamespace__GameNoteController__Pool(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameNoteController__Pool() ;
+static GlobalNamespace::GlobalNamespace__GameNoteController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x223d46c size 0x48 virtual false final false
  void _ctor() ;

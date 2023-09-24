@@ -8,25 +8,31 @@ namespace System {
 class Action;
 }
 namespace UnityEngine {
-class CanvasGroup;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 class Canvas;
+}
+namespace HMUI {
+class PanelAnimationSO;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HMUI {
-class ViewController;
+class HMUI__ModalView____c__DisplayClass21_0;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace HMUI {
+class HMUI__ModalView____c__DisplayClass17_0;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace HMUI {
-class PanelAnimationSO;
+class ViewController;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -95,8 +101,7 @@ constexpr System::Action __get_finishedCallback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ModalView____c__DisplayClass17_0() ;
+static HMUI::HMUI__ModalView____c__DisplayClass17_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fce7d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -165,8 +170,7 @@ constexpr bool __get_prevAnimateParentCanvas() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ModalView____c__DisplayClass21_0() ;
+static HMUI::HMUI__ModalView____c__DisplayClass21_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fcf208 size 0x8 virtual false final false
  void _ctor() ;
@@ -332,8 +336,7 @@ constexpr int32_t __get__test() const;
 /// @brief Method GetModalRootTransform addr 0x1fcebbc size 0x100 virtual false final false
 static UnityEngine::Transform GetModalRootTransform(UnityEngine::Transform transform, ByRef<UnityEngine::Canvas> canvas, ByRef<HMUI::ViewController> viewController) ;
 
-// Ctor Parameters []
-explicit ModalView() ;
+static HMUI::ModalView New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fcf210 size 0x10 virtual false final false
  void _ctor() ;

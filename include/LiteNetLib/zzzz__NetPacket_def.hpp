@@ -146,14 +146,12 @@ constexpr ::bs_hook::Il2CppWrapperType __get_UserData() const;
 /// @brief Method set_FragmentsTotal addr 0x208f660 size 0x10 virtual false final false
  void set_FragmentsTotal(uint16_t value) ;
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NetPacket(int32_t size) ;
+static LiteNetLib::NetPacket New_ctor(int32_t size) ;
 
 /// @brief Method .ctor addr 0x208f670 size 0x6c virtual false final false
  void _ctor(int32_t size) ;
 
-// Ctor Parameters [CppParam { name: "property", ty: "LiteNetLib::PacketProperty", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NetPacket(LiteNetLib::PacketProperty property, int32_t size) ;
+static LiteNetLib::NetPacket New_ctor(LiteNetLib::PacketProperty property, int32_t size) ;
 
 /// @brief Method .ctor addr 0x208f6dc size 0xcc virtual false final false
  void _ctor(LiteNetLib::PacketProperty property, int32_t size) ;

@@ -4,7 +4,10 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-struct GlobalNamespace__PyramidBloomRendererSO__Pass;
+class BloomFogSO;
+}
+namespace GlobalNamespace {
+class PyramidBloomRendererSO;
 }
 namespace UnityEngine {
 class Material;
@@ -12,14 +15,11 @@ class Material;
 namespace UnityEngine {
 class RenderTexture;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__PyramidBloomRendererSO__Pass;
+}
 namespace UnityEngine {
 class Shader;
-}
-namespace GlobalNamespace {
-class BloomFogSO;
-}
-namespace GlobalNamespace {
-class PyramidBloomRendererSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -225,8 +225,7 @@ constexpr UnityEngine::Material __get__mainEffectMaterial() const;
 /// @brief Method Render addr 0x2677898 size 0x274 virtual true final false
  void Render(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest, float_t fade) ;
 
-// Ctor Parameters []
-explicit PyramidBloomMainEffectSO() ;
+static GlobalNamespace::PyramidBloomMainEffectSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2677b0c size 0x3c virtual false final false
  void _ctor() ;

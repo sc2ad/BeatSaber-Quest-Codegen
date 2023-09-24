@@ -5,16 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateList;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class CrlEntry;
+class Time;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -22,17 +25,14 @@ class IEnumerable;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateList;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
+class CrlEntry;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -124,8 +124,7 @@ static Org::BouncyCastle::Asn1::X509::CertificateList GetInstance(Org::BouncyCas
 /// @brief Method GetInstance addr 0xff9b48 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::X509::CertificateList GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertificateList(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::CertificateList New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff9bec size 0x150 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

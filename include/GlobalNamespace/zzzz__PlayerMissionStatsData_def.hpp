@@ -79,8 +79,7 @@ constexpr bool __get__cleared() const;
 /// @brief Method set_cleared addr 0x2226f58 size 0xc virtual false final false
  void set_cleared(bool value) ;
 
-// Ctor Parameters [CppParam { name: "missionId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cleared", ty: "bool", modifiers: "", def_value: None }]
-explicit PlayerMissionStatsData(::StringW missionId, bool cleared) ;
+static GlobalNamespace::PlayerMissionStatsData New_ctor(::StringW missionId, bool cleared) ;
 
 /// @brief Method .ctor addr 0x2225cac size 0x30 virtual false final false
  void _ctor(::StringW missionId, bool cleared) ;

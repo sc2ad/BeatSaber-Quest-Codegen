@@ -5,18 +5,18 @@
 namespace HMUI {
 class SegmentedControl;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace HMUI {
-class IconSegmentedControl;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
+}
+namespace HMUI {
+class IconSegmentedControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,8 +117,7 @@ constexpr GlobalNamespace::BeatmapCharacteristicSO __get__selectedBeatmapCharact
 /// @brief Method HandleBeatmapCharacteristicSegmentedControlDidSelectCell addr 0x215684c size 0xec virtual false final false
  void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(HMUI::SegmentedControl segmentedControl, int32_t cellNumber) ;
 
-// Ctor Parameters []
-explicit BeatmapCharacteristicSelectionViewController() ;
+static GlobalNamespace::BeatmapCharacteristicSelectionViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2156938 size 0x8 virtual false final false
  void _ctor() ;

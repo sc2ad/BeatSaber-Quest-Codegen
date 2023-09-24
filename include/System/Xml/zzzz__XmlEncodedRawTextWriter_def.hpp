@@ -6,34 +6,34 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml {
-struct XmlCharType;
+class CharEntityEncoderFallback;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System::Xml {
-struct XmlOutputMethod;
+class XmlWriterSettings;
 }
 namespace System::IO {
 class TextWriter;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::Text {
 class Encoder;
 }
 namespace System::Xml {
-class CharEntityEncoderFallback;
-}
-namespace System::Xml {
 struct NewLineHandling;
 }
 namespace System::Xml {
-struct XmlStandalone;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::IO {
-class Stream;
+struct XmlCharType;
 }
 namespace System::Xml {
-class XmlWriterSettings;
+struct XmlOutputMethod;
+}
+namespace System::Xml {
+struct XmlStandalone;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -281,20 +281,17 @@ constexpr bool __get_mergeCDataSections() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlEncodedRawTextWriter(System::Xml::XmlWriterSettings settings) ;
+static System::Xml::XmlEncodedRawTextWriter New_ctor(System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26c3d64 size 0xdc virtual false final false
  void _ctor(System::Xml::XmlWriterSettings settings) ;
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlEncodedRawTextWriter(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::XmlEncodedRawTextWriter New_ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26bc72c size 0xd8 virtual false final false
  void _ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlEncodedRawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::XmlEncodedRawTextWriter New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26bc9a0 size 0x284 virtual false final false
  void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;

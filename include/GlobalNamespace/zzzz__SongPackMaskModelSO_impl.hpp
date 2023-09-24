@@ -2,16 +2,17 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMaskModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMaskModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPackSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionSO_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Polyglot/zzzz__Language_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackDataType::GlobalNamespace__SongPackMaskModelSO__SongPackDataType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -166,8 +167,10 @@ return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::IBeatma
  System::Func_2<GlobalNamespace::BeatmapLevelPackCollectionSO,System::Collections::Generic::IEnumerable_1<::StringW>> GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c::__get___9__11_3()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::BeatmapLevelPackCollectionSO,System::Collections::Generic::IEnumerable_1<::StringW>>, "<>9__11_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c>())) {}
+ GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c>::get(),
@@ -365,8 +368,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem>())) {}
+ GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem>::get(),
@@ -727,8 +732,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SongPackMaskModelSO::SongPackMaskModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<SongPackMaskModelSO>())) {}
+ GlobalNamespace::SongPackMaskModelSO GlobalNamespace::SongPackMaskModelSO::New_ctor()  {
+GlobalNamespace::SongPackMaskModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SongPackMaskModelSO>())};
+return o;
+}
  void GlobalNamespace::SongPackMaskModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SongPackMaskModelSO>::get(),

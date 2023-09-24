@@ -2,10 +2,10 @@
 #include "UnityEngine/ProBuilder/zzzz__ShapeGenerator_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ShapeType_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Axis_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__PivotLocation_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ShapeType_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__PivotLocation_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Axis_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::ShapeGenerator.CreateShape
 template<>
 

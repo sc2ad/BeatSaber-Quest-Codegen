@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
- UnityEngine::UIElements::ImmediateModeException::ImmediateModeException(System::Exception inner)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<ImmediateModeException>(inner))) {}
+ UnityEngine::UIElements::ImmediateModeException UnityEngine::UIElements::ImmediateModeException::New_ctor(System::Exception inner)  {
+UnityEngine::UIElements::ImmediateModeException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ImmediateModeException>(inner))};
+return o;
+}
  void UnityEngine::UIElements::ImmediateModeException::_ctor(System::Exception inner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ImmediateModeException>::get(),

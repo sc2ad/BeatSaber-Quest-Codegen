@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__RestrictionFacets_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"
 #include "System/Xml/Schema/zzzz__RestrictionFlags_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 constexpr void System::Xml::Schema::RestrictionFacets::__set_Length(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }

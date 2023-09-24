@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -70,14 +70,12 @@ constexpr ::ArrayW<uint8_t> __get_zeroBytes() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DerNull() ;
+static Org::BouncyCastle::Asn1::DerNull New_ctor() ;
 
 /// @brief Method .ctor addr 0x1130ed0 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "dummy", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DerNull(int32_t dummy) ;
+static Org::BouncyCastle::Asn1::DerNull New_ctor(int32_t dummy) ;
 
 /// @brief Method .ctor addr 0x1130f28 size 0x58 virtual false final false
  void _ctor(int32_t dummy) ;

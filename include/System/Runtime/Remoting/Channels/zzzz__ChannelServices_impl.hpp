@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Runtime/Remoting/Channels/zzzz__ChannelServices_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
-#include "System/Runtime/Remoting/Channels/zzzz__IChannelSender_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ProviderData_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__IChannel_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__CrossContextChannel_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ReturnMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ProviderData_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Runtime/Remoting/Channels/zzzz__IChannelSender_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Channels::ChannelServices.get_CrossContextChannel
 template<>
 

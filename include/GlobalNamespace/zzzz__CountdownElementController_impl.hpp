@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CountdownElementController_def.hpp"
-#include "UnityEngine/zzzz__Animation_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__Animation_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CountdownElementController.SetTextAndRunAnimation
 template<>
 
@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CountdownElementController::CountdownElementController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CountdownElementController>())) {}
+ GlobalNamespace::CountdownElementController GlobalNamespace::CountdownElementController::New_ctor()  {
+GlobalNamespace::CountdownElementController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CountdownElementController>())};
+return o;
+}
  void GlobalNamespace::CountdownElementController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CountdownElementController>::get(),

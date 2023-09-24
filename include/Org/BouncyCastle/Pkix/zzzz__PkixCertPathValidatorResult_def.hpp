@@ -5,11 +5,11 @@
 namespace Org::BouncyCastle::Pkix {
 class TrustAnchor;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Pkix {
 class PkixPolicyNode;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -96,8 +96,7 @@ constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_subjectPublicK
 /// @brief Method get_SubjectPublicKey addr 0x1067e0c size 0x8 virtual false final false
  Org::BouncyCastle::Crypto::AsymmetricKeyParameter get_SubjectPublicKey() ;
 
-// Ctor Parameters [CppParam { name: "trustAnchor", ty: "Org::BouncyCastle::Pkix::TrustAnchor", modifiers: "", def_value: None }, CppParam { name: "policyTree", ty: "Org::BouncyCastle::Pkix::PkixPolicyNode", modifiers: "", def_value: None }, CppParam { name: "subjectPublicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit PkixCertPathValidatorResult(Org::BouncyCastle::Pkix::TrustAnchor trustAnchor, Org::BouncyCastle::Pkix::PkixPolicyNode policyTree, Org::BouncyCastle::Crypto::AsymmetricKeyParameter subjectPublicKey) ;
+static Org::BouncyCastle::Pkix::PkixCertPathValidatorResult New_ctor(Org::BouncyCastle::Pkix::TrustAnchor trustAnchor, Org::BouncyCastle::Pkix::PkixPolicyNode policyTree, Org::BouncyCastle::Crypto::AsymmetricKeyParameter subjectPublicKey) ;
 
 /// @brief Method .ctor addr 0x1067e14 size 0xb4 virtual false final false
  void _ctor(Org::BouncyCastle::Pkix::TrustAnchor trustAnchor, Org::BouncyCastle::Pkix::PkixPolicyNode policyTree, Org::BouncyCastle::Crypto::AsymmetricKeyParameter subjectPublicKey) ;

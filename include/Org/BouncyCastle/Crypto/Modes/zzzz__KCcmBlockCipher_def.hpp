@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-class MemoryStream;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
+}
+namespace System::IO {
+class MemoryStream;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -190,14 +190,12 @@ constexpr int32_t __get_Nb_() const;
 /// @brief Method setNb addr 0xe93c1c size 0x78 virtual false final false
  void setNb(int32_t Nb) ;
 
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit KCcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher engine) ;
+static Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine) ;
 
 /// @brief Method .ctor addr 0xe93c94 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher engine) ;
 
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "Nb", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KCcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t Nb) ;
+static Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t Nb) ;
 
 /// @brief Method .ctor addr 0xe93c9c size 0x4b8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t Nb) ;

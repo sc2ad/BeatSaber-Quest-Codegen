@@ -76,8 +76,7 @@ constexpr Org::BouncyCastle::Crypto::Prng::X931Rng __get_mDrbg() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "randomSource", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "drbg", ty: "Org::BouncyCastle::Crypto::Prng::X931Rng", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }]
-explicit X931SecureRandom(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::Prng::X931Rng drbg, bool predictionResistant) ;
+static Org::BouncyCastle::Crypto::Prng::X931SecureRandom New_ctor(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::Prng::X931Rng drbg, bool predictionResistant) ;
 
 /// @brief Method .ctor addr 0xeb7bf0 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::Prng::X931Rng drbg, bool predictionResistant) ;

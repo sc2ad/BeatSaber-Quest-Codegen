@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Ess/zzzz__ContentHints_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerUtf8String_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerUtf8String_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Ess::ContentHints.GetInstance
 template<>
@@ -145,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Ess::ContentHints, false>(nullptr, ___internal_method, o);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ess::ContentHints::ContentHints(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ContentHints>(seq))) {}
+ Org::BouncyCastle::Asn1::Ess::ContentHints Org::BouncyCastle::Asn1::Ess::ContentHints::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Ess::ContentHints o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ess::ContentHints>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ess::ContentHints::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ess::ContentHints>::get(),
@@ -156,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "contentType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ess::ContentHints::ContentHints(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ContentHints>(contentType))) {}
+ Org::BouncyCastle::Asn1::Ess::ContentHints Org::BouncyCastle::Asn1::Ess::ContentHints::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType)  {
+Org::BouncyCastle::Asn1::Ess::ContentHints o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ess::ContentHints>(contentType))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ess::ContentHints::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ess::ContentHints>::get(),
@@ -167,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, contentType);
 }
-// Ctor Parameters [CppParam { name: "contentType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "contentDescription", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ess::ContentHints::ContentHints(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Asn1::DerUtf8String contentDescription)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ContentHints>(contentType, contentDescription))) {}
+ Org::BouncyCastle::Asn1::Ess::ContentHints Org::BouncyCastle::Asn1::Ess::ContentHints::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Asn1::DerUtf8String contentDescription)  {
+Org::BouncyCastle::Asn1::Ess::ContentHints o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ess::ContentHints>(contentType, contentDescription))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ess::ContentHints::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Asn1::DerUtf8String contentDescription)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ess::ContentHints>::get(),

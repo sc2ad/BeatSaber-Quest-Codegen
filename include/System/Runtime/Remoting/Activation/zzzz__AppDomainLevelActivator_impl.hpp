@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Remoting/Activation/zzzz__AppDomainLevelActivator_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionReturnMessage_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Activation::AppDomainLevelActivator._ctor
 template<>
 
@@ -70,8 +70,10 @@ constexpr void System::Runtime::Remoting::Activation::AppDomainLevelActivator::_
 constexpr System::Runtime::Remoting::Activation::IActivator System::Runtime::Remoting::Activation::AppDomainLevelActivator::__get__next() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Activation::IActivator, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "activationUrl", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Runtime::Remoting::Activation::IActivator", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Activation::AppDomainLevelActivator::AppDomainLevelActivator(::StringW activationUrl, System::Runtime::Remoting::Activation::IActivator next)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AppDomainLevelActivator>(activationUrl, next))) {}
+ System::Runtime::Remoting::Activation::AppDomainLevelActivator System::Runtime::Remoting::Activation::AppDomainLevelActivator::New_ctor(::StringW activationUrl, System::Runtime::Remoting::Activation::IActivator next)  {
+System::Runtime::Remoting::Activation::AppDomainLevelActivator o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Activation::AppDomainLevelActivator>(activationUrl, next))};
+return o;
+}
  void System::Runtime::Remoting::Activation::AppDomainLevelActivator::_ctor(::StringW activationUrl, System::Runtime::Remoting::Activation::IActivator next)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Activation::AppDomainLevelActivator>::get(),

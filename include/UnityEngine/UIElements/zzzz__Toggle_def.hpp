@@ -6,10 +6,16 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
-class VisualElement;
+class UnityEngine__UIElements__Toggle__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__Toggle__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -30,7 +36,7 @@ class UnityEngine__UIElements__Toggle__UxmlTraits;
 // Type: ::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7083)), TypeDefinitionIndex(TypeDefinitionIndex(7229)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 884 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7229)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 884 }), TypeDefinitionIndex(TypeDefinitionIndex(7083))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7190))
 // CS Name: UnityEngine.UIElements.Toggle::UxmlTraits
 class CORDL_TYPE UnityEngine__UIElements__Toggle__UxmlTraits : public UnityEngine::UIElements::BaseFieldTraits_2<bool,UnityEngine::UIElements::UxmlBoolAttributeDescription> {
@@ -81,8 +87,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Text()
 /// @brief Method Init addr 0x2cbd3c4 size 0x118 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Toggle__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Toggle__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbd4dc size 0xa0 virtual false final false
  void _ctor() ;
@@ -176,14 +181,12 @@ static ::StringW __get_textUssClassName() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Toggle() ;
+static UnityEngine::UIElements::Toggle New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbc7b4 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Toggle(::StringW label) ;
+static UnityEngine::UIElements::Toggle New_ctor(::StringW label) ;
 
 /// @brief Method .ctor addr 0x2cbd098 size 0xfc virtual false final false
  void _ctor(::StringW label) ;
@@ -198,7 +201,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5110 }), TypeDefinitionIndex(TypeDefinitionIndex(7191)), TypeDefinitionIndex(TypeDefinitionIndex(7190)), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5110 }), TypeDefinitionIndex(TypeDefinitionIndex(7191)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7190))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7189))
 // CS Name: UnityEngine.UIElements.Toggle::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__Toggle__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Toggle,UnityEngine::UIElements::UnityEngine__UIElements__Toggle__UxmlTraits> {
@@ -237,8 +240,7 @@ constexpr explicit UnityEngine__UIElements__Toggle__UxmlFactory(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Toggle__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Toggle__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbd37c size 0x48 virtual false final false
  void _ctor() ;

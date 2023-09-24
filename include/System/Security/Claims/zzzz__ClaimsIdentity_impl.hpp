@@ -1,16 +1,17 @@
 #pragma once
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Security/Principal/zzzz__IIdentity_def.hpp"
-#include "System/Security/Claims/zzzz__Claim_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
+#include "System/Security/Claims/zzzz__Claim_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Security/Principal/zzzz__IIdentity_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: System::Security::Claims::System__Security__Claims__ClaimsIdentity___get_Claims_d__51._ctor
 template<>
 
@@ -220,8 +221,10 @@ constexpr void System::Security::Claims::System__Security__Claims__ClaimsIdentit
 constexpr System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim> System::Security::Claims::System__Security__Claims__ClaimsIdentity___get_Claims_d__51::__get___7__wrap2() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::Claims::System__Security__Claims__ClaimsIdentity___get_Claims_d__51::System__Security__Claims__ClaimsIdentity___get_Claims_d__51(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Security__Claims__ClaimsIdentity___get_Claims_d__51>(__1__state))) {}
+ System::Security::Claims::System__Security__Claims__ClaimsIdentity___get_Claims_d__51 System::Security::Claims::System__Security__Claims__ClaimsIdentity___get_Claims_d__51::New_ctor(int32_t __1__state)  {
+System::Security::Claims::System__Security__Claims__ClaimsIdentity___get_Claims_d__51 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::System__Security__Claims__ClaimsIdentity___get_Claims_d__51>(__1__state))};
+return o;
+}
  void System::Security::Claims::System__Security__Claims__ClaimsIdentity___get_Claims_d__51::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::System__Security__Claims__ClaimsIdentity___get_Claims_d__51>::get(),
@@ -810,8 +813,10 @@ constexpr void System::Security::Claims::ClaimsIdentity::__set_m_serializedClaim
 constexpr ::StringW System::Security::Claims::ClaimsIdentity::__get_m_serializedClaims() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Claims::ClaimsIdentity::ClaimsIdentity()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClaimsIdentity>())) {}
+ System::Security::Claims::ClaimsIdentity System::Security::Claims::ClaimsIdentity::New_ctor()  {
+System::Security::Claims::ClaimsIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::ClaimsIdentity>())};
+return o;
+}
  void System::Security::Claims::ClaimsIdentity::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::ClaimsIdentity>::get(),
@@ -821,8 +826,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "claims", ty: "System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim>", modifiers: "", def_value: None }]
- System::Security::Claims::ClaimsIdentity::ClaimsIdentity(System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClaimsIdentity>(claims))) {}
+ System::Security::Claims::ClaimsIdentity System::Security::Claims::ClaimsIdentity::New_ctor(System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims)  {
+System::Security::Claims::ClaimsIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::ClaimsIdentity>(claims))};
+return o;
+}
  void System::Security::Claims::ClaimsIdentity::_ctor(System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::ClaimsIdentity>::get(),
@@ -832,8 +839,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, claims);
 }
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IIdentity", modifiers: "", def_value: None }, CppParam { name: "claims", ty: "System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim>", modifiers: "", def_value: None }, CppParam { name: "authenticationType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "roleType", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Claims::ClaimsIdentity::ClaimsIdentity(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClaimsIdentity>(identity, claims, authenticationType, nameType, roleType))) {}
+ System::Security::Claims::ClaimsIdentity System::Security::Claims::ClaimsIdentity::New_ctor(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType)  {
+System::Security::Claims::ClaimsIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::ClaimsIdentity>(identity, claims, authenticationType, nameType, roleType))};
+return o;
+}
  void System::Security::Claims::ClaimsIdentity::_ctor(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::ClaimsIdentity>::get(),
@@ -843,8 +852,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, identity, claims, authenticationType, nameType, roleType);
 }
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IIdentity", modifiers: "", def_value: None }, CppParam { name: "claims", ty: "System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim>", modifiers: "", def_value: None }, CppParam { name: "authenticationType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "roleType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "checkAuthType", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Claims::ClaimsIdentity::ClaimsIdentity(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType, bool checkAuthType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClaimsIdentity>(identity, claims, authenticationType, nameType, roleType, checkAuthType))) {}
+ System::Security::Claims::ClaimsIdentity System::Security::Claims::ClaimsIdentity::New_ctor(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType, bool checkAuthType)  {
+System::Security::Claims::ClaimsIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::ClaimsIdentity>(identity, claims, authenticationType, nameType, roleType, checkAuthType))};
+return o;
+}
  void System::Security::Claims::ClaimsIdentity::_ctor(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType, bool checkAuthType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::ClaimsIdentity>::get(),
@@ -854,8 +865,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, identity, claims, authenticationType, nameType, roleType, checkAuthType);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }]
- System::Security::Claims::ClaimsIdentity::ClaimsIdentity(System::Security::Claims::ClaimsIdentity other)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClaimsIdentity>(other))) {}
+ System::Security::Claims::ClaimsIdentity System::Security::Claims::ClaimsIdentity::New_ctor(System::Security::Claims::ClaimsIdentity other)  {
+System::Security::Claims::ClaimsIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::ClaimsIdentity>(other))};
+return o;
+}
  void System::Security::Claims::ClaimsIdentity::_ctor(System::Security::Claims::ClaimsIdentity other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::ClaimsIdentity>::get(),
@@ -865,8 +878,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Security::Claims::ClaimsIdentity::ClaimsIdentity(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClaimsIdentity>(info, context))) {}
+ System::Security::Claims::ClaimsIdentity System::Security::Claims::ClaimsIdentity::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Security::Claims::ClaimsIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::ClaimsIdentity>(info, context))};
+return o;
+}
  void System::Security::Claims::ClaimsIdentity::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::ClaimsIdentity>::get(),

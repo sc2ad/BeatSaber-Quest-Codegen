@@ -145,8 +145,7 @@ static void AddPInvTo(::ArrayW<uint32_t> z) ;
 /// @brief Method SubPInvFrom addr 0xf63214 size 0xa0 virtual false final false
 static void SubPInvFrom(::ArrayW<uint32_t> z) ;
 
-// Ctor Parameters []
-explicit SecP224R1Field() ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1Field New_ctor() ;
 
 /// @brief Method .ctor addr 0xf6357c size 0x8 virtual false final false
  void _ctor() ;

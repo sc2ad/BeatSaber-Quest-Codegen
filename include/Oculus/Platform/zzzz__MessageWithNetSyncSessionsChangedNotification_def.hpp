@@ -13,7 +13,7 @@ class MessageWithNetSyncSessionsChangedNotification;
 // Type: Oculus.Platform::MessageWithNetSyncSessionsChangedNotification
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 947 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13450))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 947 }), TypeDefinitionIndex(TypeDefinitionIndex(13450))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13259))
 // CS Name: Oculus.Platform.MessageWithNetSyncSessionsChangedNotification
 class CORDL_TYPE MessageWithNetSyncSessionsChangedNotification : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionsChangedNotification> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithNetSyncSessionsChangedNotification(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithNetSyncSessionsChangedNotification(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithNetSyncSessionsChangedNotification New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257ecc0 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

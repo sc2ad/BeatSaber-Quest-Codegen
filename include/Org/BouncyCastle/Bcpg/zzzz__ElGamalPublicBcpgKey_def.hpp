@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
+class MPInteger;
+}
+namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;
 }
 namespace Org::BouncyCastle::Math {
@@ -12,9 +15,6 @@ class BigInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class MPInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
@@ -100,14 +100,12 @@ constexpr Org::BouncyCastle::Bcpg::MPInteger __get_y() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit ElGamalPublicBcpgKey(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x11474b4 size 0xb0 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "y", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ElGamalPublicBcpgKey(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger y) ;
+static Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger y) ;
 
 /// @brief Method .ctor addr 0x1147564 size 0xc0 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger y) ;

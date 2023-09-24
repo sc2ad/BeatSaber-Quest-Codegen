@@ -5,24 +5,28 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace Zenject {
-class DiContainer;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Collections::Generic {
+namespace HMUI {
 template<typename T>
-class IEnumerable_1;
+class HMUI__UIItemsList_1__DataCallback;
 }
 // Forward declare root types
 namespace HMUI {
@@ -48,7 +52,7 @@ namespace HMUI {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13724)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(13724))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13724), inst: 2 })
 // CS Name: HMUI.UIItemsList`1::DataCallback
 class CORDL_TYPE HMUI__UIItemsList_1__DataCallback<T> : public System::MulticastDelegate {
@@ -87,8 +91,7 @@ constexpr explicit HMUI__UIItemsList_1__DataCallback(void* ptr) noexcept : Syste
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HMUI__UIItemsList_1__DataCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HMUI::HMUI__UIItemsList_1__DataCallback<T> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -196,8 +199,7 @@ constexpr System::Collections::Generic::List_1<T> __get__items() const;
 /// @brief Method SetData addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetData(int32_t numberOfElements, HMUI::HMUI__UIItemsList_1__DataCallback<T> dataCallback) ;
 
-// Ctor Parameters []
-explicit UIItemsList_1() ;
+static HMUI::UIItemsList_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

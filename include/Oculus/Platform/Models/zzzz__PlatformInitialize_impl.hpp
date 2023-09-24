@@ -24,8 +24,10 @@ constexpr void Oculus::Platform::Models::PlatformInitialize::__set_Result(Oculus
 constexpr Oculus::Platform::PlatformInitializeResult Oculus::Platform::Models::PlatformInitialize::__get_Result() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::PlatformInitializeResult, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::PlatformInitialize::PlatformInitialize(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlatformInitialize>(o))) {}
+ Oculus::Platform::Models::PlatformInitialize Oculus::Platform::Models::PlatformInitialize::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::PlatformInitialize o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::PlatformInitialize>(o))};
+return o;
+}
  void Oculus::Platform::Models::PlatformInitialize::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::PlatformInitialize>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "TMPro/zzzz__FastAction_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 //  Writing Method size for method: TMPro::FastAction.Add
 template<>
 
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::FastAction::FastAction()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FastAction>())) {}
+ TMPro::FastAction TMPro::FastAction::New_ctor()  {
+TMPro::FastAction o{THROW_UNLESS(::il2cpp_utils::New<TMPro::FastAction>())};
+return o;
+}
  void TMPro::FastAction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::FastAction>::get(),

@@ -88,8 +88,7 @@ constexpr ::StringW __get__stackTrace() const;
 /// @brief Method HandleLog addr 0x21922c0 size 0xa0 virtual false final false
  void HandleLog(::StringW logString, ::StringW stackTrace, UnityEngine::LogType type) ;
 
-// Ctor Parameters []
-explicit CrashManagerSO() ;
+static GlobalNamespace::CrashManagerSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2192360 size 0x8 virtual false final false
  void _ctor() ;

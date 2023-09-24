@@ -47,8 +47,7 @@ constexpr explicit BakeIdMapper(void* ptr) noexcept : UnityEngine::MonoBehaviour
 
 // Methods
 
-// Ctor Parameters []
-explicit BakeIdMapper() ;
+static GlobalNamespace::BakeIdMapper New_ctor() ;
 
 /// @brief Method .ctor addr 0x219b634 size 0x8 virtual false final false
  void _ctor() ;

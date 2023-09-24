@@ -4,49 +4,49 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
+class DSA;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
+}
+namespace System::Security::Cryptography {
+struct RSAParameters;
+}
+namespace System::Security::Cryptography {
+class CspParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace System::Security::Cryptography {
-struct DSAParameters;
+class AsymmetricAlgorithm;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Security::Cryptography {
-class RSA;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaPrivateCrtKeyParameters;
 }
 namespace System::Security::Cryptography {
-class CspParameters;
+struct DSAParameters;
 }
-namespace System::Security::Cryptography {
-struct RSAParameters;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
-}
-namespace System::Security::Cryptography {
-class DSA;
-}
-namespace Org::BouncyCastle::X509 {
+namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class RsaPrivateKeyStructure;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
+class DsaPublicKeyParameters;
+}
+namespace System::Security::Cryptography {
+class RSA;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -94,8 +94,7 @@ constexpr explicit DotNetUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Methods
 
-// Ctor Parameters []
-explicit DotNetUtilities() ;
+static Org::BouncyCastle::Security::DotNetUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x109ced8 size 0x8 virtual false final false
  void _ctor() ;

@@ -47,8 +47,7 @@ constexpr explicit ExcludeFromObjectFactoryAttribute(void* ptr) noexcept : Syste
 
 // Methods
 
-// Ctor Parameters []
-explicit ExcludeFromObjectFactoryAttribute() ;
+static UnityEngine::ExcludeFromObjectFactoryAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5c0e0 size 0x8 virtual false final false
  void _ctor() ;

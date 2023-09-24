@@ -24,7 +24,7 @@ class JsonPropertyCollection;
 // Type: Newtonsoft.Json.Serialization::JsonPropertyCollection
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11887)), TypeDefinitionIndex(TypeDefinitionIndex(3801)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3801), inst: 3804 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11887)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3801), inst: 3804 }), TypeDefinitionIndex(TypeDefinitionIndex(3801))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11888))
 // CS Name: Newtonsoft.Json.Serialization.JsonPropertyCollection
 class CORDL_TYPE JsonPropertyCollection : public System::Collections::ObjectModel::KeyedCollection_2<::StringW,Newtonsoft::Json::Serialization::JsonProperty> {
@@ -78,8 +78,7 @@ constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JsonPropertyCollection(System::Type type) ;
+static Newtonsoft::Json::Serialization::JsonPropertyCollection New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x24f97ec size 0x160 virtual false final false
  void _ctor(System::Type type) ;

@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyFileVersionAttribute::__set__Version_
 constexpr ::StringW System::Reflection::AssemblyFileVersionAttribute::__get__Version_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyFileVersionAttribute::AssemblyFileVersionAttribute(::StringW version)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyFileVersionAttribute>(version))) {}
+ System::Reflection::AssemblyFileVersionAttribute System::Reflection::AssemblyFileVersionAttribute::New_ctor(::StringW version)  {
+System::Reflection::AssemblyFileVersionAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyFileVersionAttribute>(version))};
+return o;
+}
  void System::Reflection::AssemblyFileVersionAttribute::_ctor(::StringW version)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyFileVersionAttribute>::get(),

@@ -1,34 +1,34 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Panel_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IVisualTreeUpdater_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IMGUIContainer_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TimeMsFunction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeUpdater_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TimerEventScheduler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ContextType_def.hpp"
-#include "UnityEngine/UIElements/zzzz__LoadResourceFunction_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualTreeUpdater_def.hpp"
+#include "UnityEngine/zzzz__Vector2Int_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SavePersistentViewData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
-#include "UnityEngine/zzzz__Vector2Int_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IScheduler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualTreeUpdatePhase_def.hpp"
-#include "UnityEngine/zzzz__EventInterests_def.hpp"
-#include "UnityEngine/UIElements/zzzz__GetViewDataDictionary_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/UIElements/zzzz__LoadResourceFunction_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IMGUIContainer_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TimerEventScheduler_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/zzzz__EventInterests_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TimeMsFunction_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IScheduler_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GetViewDataDictionary_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualTreeUpdatePhase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ContextType_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::Panel.get_visualTree
 template<>
 
@@ -1350,8 +1350,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "ownerObject", ty: "UnityEngine::ScriptableObject", modifiers: "", def_value: None }, CppParam { name: "contextType", ty: "UnityEngine::UIElements::ContextType", modifiers: "", def_value: None }, CppParam { name: "dispatcher", ty: "UnityEngine::UIElements::EventDispatcher", modifiers: "", def_value: None }]
- UnityEngine::UIElements::Panel::Panel(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::ContextType contextType, UnityEngine::UIElements::EventDispatcher dispatcher)  : UnityEngine::UIElements::BaseVisualElementPanel(THROW_UNLESS(::il2cpp_utils::New<Panel>(ownerObject, contextType, dispatcher))) {}
+ UnityEngine::UIElements::Panel UnityEngine::UIElements::Panel::New_ctor(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::ContextType contextType, UnityEngine::UIElements::EventDispatcher dispatcher)  {
+UnityEngine::UIElements::Panel o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Panel>(ownerObject, contextType, dispatcher))};
+return o;
+}
  void UnityEngine::UIElements::Panel::_ctor(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::ContextType contextType, UnityEngine::UIElements::EventDispatcher dispatcher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Panel>::get(),

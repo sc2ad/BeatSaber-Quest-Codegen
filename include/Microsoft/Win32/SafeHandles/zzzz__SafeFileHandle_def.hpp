@@ -48,8 +48,7 @@ constexpr explicit SafeFileHandle(void* ptr) noexcept : Microsoft::Win32::SafeHa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "preexistingHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
-explicit SafeFileHandle(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle) ;
+static Microsoft::Win32::SafeHandles::SafeFileHandle New_ctor(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle) ;
 
 /// @brief Method .ctor addr 0x22beaf4 size 0x28 virtual false final false
  void _ctor(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle) ;

@@ -13,7 +13,7 @@ class MessageWithAssetDetails;
 // Type: Oculus.Platform::MessageWithAssetDetails
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 1130 }), TypeDefinitionIndex(TypeDefinitionIndex(13388)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 1130 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13388))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13214))
 // CS Name: Oculus.Platform.MessageWithAssetDetails
 class CORDL_TYPE MessageWithAssetDetails : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetails> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithAssetDetails(void* ptr) noexcept : Oculus::Platfor
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithAssetDetails(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithAssetDetails New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257df58 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

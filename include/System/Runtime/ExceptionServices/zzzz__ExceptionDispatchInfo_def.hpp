@@ -72,8 +72,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_m_stackTrace() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit ExceptionDispatchInfo(System::Exception exception) ;
+static System::Runtime::ExceptionServices::ExceptionDispatchInfo New_ctor(System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x236d800 size 0x128 virtual false final false
  void _ctor(System::Exception exception) ;

@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class MeshFilter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr UnityEngine::MeshRenderer __get__meshRenderer() const;
 /// @brief Method Awake addr 0x1f76758 size 0x88 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit CustomBoundingBox() ;
+static GlobalNamespace::CustomBoundingBox New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f767e0 size 0x60 virtual false final false
  void _ctor() ;

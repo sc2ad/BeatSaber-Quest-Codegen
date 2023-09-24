@@ -1,5 +1,6 @@
 #pragma once
 #include "RootMotion/zzzz__BipedLimbOrientations_def.hpp"
+#include "RootMotion/zzzz__BipedLimbOrientations_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation._ctor
 template<>
@@ -36,8 +37,10 @@ constexpr void RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation::_
 constexpr UnityEngine::Vector3 RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation::__get_lastBoneLeftAxis() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "upperBoneForwardAxis", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "lowerBoneForwardAxis", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "lastBoneLeftAxis", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
- RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation::RootMotion__BipedLimbOrientations__LimbOrientation(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__BipedLimbOrientations__LimbOrientation>(upperBoneForwardAxis, lowerBoneForwardAxis, lastBoneLeftAxis))) {}
+ RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation::New_ctor(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis)  {
+RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation>(upperBoneForwardAxis, lowerBoneForwardAxis, lastBoneLeftAxis))};
+return o;
+}
  void RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation::_ctor(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation>::get(),
@@ -122,8 +125,10 @@ constexpr void RootMotion::BipedLimbOrientations::__set_rightLeg(RootMotion::Roo
 constexpr RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation RootMotion::BipedLimbOrientations::__get_rightLeg() const {
 return ::cordl_internals::getInstanceField<RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "leftArm", ty: "RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation", modifiers: "", def_value: None }, CppParam { name: "rightArm", ty: "RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation", modifiers: "", def_value: None }, CppParam { name: "leftLeg", ty: "RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation", modifiers: "", def_value: None }, CppParam { name: "rightLeg", ty: "RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation", modifiers: "", def_value: None }]
- RootMotion::BipedLimbOrientations::BipedLimbOrientations(RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftLeg, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightLeg)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BipedLimbOrientations>(leftArm, rightArm, leftLeg, rightLeg))) {}
+ RootMotion::BipedLimbOrientations RootMotion::BipedLimbOrientations::New_ctor(RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftLeg, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightLeg)  {
+RootMotion::BipedLimbOrientations o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::BipedLimbOrientations>(leftArm, rightArm, leftLeg, rightLeg))};
+return o;
+}
  void RootMotion::BipedLimbOrientations::_ctor(RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftLeg, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightLeg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::BipedLimbOrientations>::get(),

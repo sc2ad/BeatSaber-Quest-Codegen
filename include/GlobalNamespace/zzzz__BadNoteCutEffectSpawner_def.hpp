@@ -3,7 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class GlobalNamespace__CoreGameHUDController__InitData;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class FlyingSpriteSpawner;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
@@ -12,13 +18,7 @@ namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__CoreGameHUDController__InitData;
-}
-namespace GlobalNamespace {
-class FlyingSpriteSpawner;
+class BeatmapObjectManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +102,7 @@ constexpr GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData __ge
 /// @brief Method HandleNoteWasCut addr 0x2257e30 size 0x118 virtual false final false
  void HandleNoteWasCut(GlobalNamespace::NoteController noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
-// Ctor Parameters []
-explicit BadNoteCutEffectSpawner() ;
+static GlobalNamespace::BadNoteCutEffectSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x2258140 size 0x8 virtual false final false
  void _ctor() ;

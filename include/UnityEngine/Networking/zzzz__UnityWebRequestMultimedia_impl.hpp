@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Networking/zzzz__UnityWebRequestMultimedia_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "UnityEngine/zzzz__AudioType_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 //  Writing Method size for method: UnityEngine::Networking::UnityWebRequestMultimedia.GetAudioClip
 template<>
 

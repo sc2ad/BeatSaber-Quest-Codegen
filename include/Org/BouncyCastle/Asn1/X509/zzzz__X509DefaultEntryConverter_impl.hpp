@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Asn1Object, false>(const_cast<void*>(instance), ___internal_method, oid, value);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter::X509DefaultEntryConverter()  : Org::BouncyCastle::Asn1::X509::X509NameEntryConverter(THROW_UNLESS(::il2cpp_utils::New<X509DefaultEntryConverter>())) {}
+ Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter::New_ctor()  {
+Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter>::get(),

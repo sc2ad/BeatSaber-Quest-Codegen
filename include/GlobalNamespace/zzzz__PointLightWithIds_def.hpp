@@ -65,8 +65,7 @@ constexpr GlobalNamespace::PointLight __get__pointLight() const;
 /// @brief Method ColorWasSet addr 0x1f9ffb0 size 0x20 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit PointLightWithIds() ;
+static GlobalNamespace::PointLightWithIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9ffd0 size 0x18 virtual false final false
  void _ctor() ;

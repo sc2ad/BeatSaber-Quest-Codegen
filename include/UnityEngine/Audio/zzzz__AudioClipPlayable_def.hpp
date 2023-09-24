@@ -3,24 +3,24 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstddef>
-namespace UnityEngine {
-class AudioClip;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-class IPlayable;
-}
-namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+class IPlayable;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {

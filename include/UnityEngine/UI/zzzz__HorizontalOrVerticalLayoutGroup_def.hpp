@@ -180,8 +180,7 @@ constexpr bool __get_m_ReverseArrangement() const;
 /// @brief Method GetChildSizes addr 0x2bfda8c size 0x118 virtual false final false
  void GetChildSizes(UnityEngine::RectTransform child, int32_t axis, bool controlSize, bool childForceExpand, ByRef<float_t> min, ByRef<float_t> preferred, ByRef<float_t> flexible) ;
 
-// Ctor Parameters []
-explicit HorizontalOrVerticalLayoutGroup() ;
+static UnityEngine::UI::HorizontalOrVerticalLayoutGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bfce0c size 0xc virtual false final false
  void _ctor() ;

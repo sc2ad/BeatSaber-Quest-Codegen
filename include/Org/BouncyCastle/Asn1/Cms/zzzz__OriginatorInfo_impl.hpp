@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::OriginatorInfo._ctor
 template<>
 
@@ -136,8 +136,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::OriginatorInfo::__set_crls(Org::Bou
 constexpr Org::BouncyCastle::Asn1::Asn1Set Org::BouncyCastle::Asn1::Cms::OriginatorInfo::__get_crls() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Set, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "certs", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "crls", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::OriginatorInfo::OriginatorInfo(Org::BouncyCastle::Asn1::Asn1Set certs, Org::BouncyCastle::Asn1::Asn1Set crls)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OriginatorInfo>(certs, crls))) {}
+ Org::BouncyCastle::Asn1::Cms::OriginatorInfo Org::BouncyCastle::Asn1::Cms::OriginatorInfo::New_ctor(Org::BouncyCastle::Asn1::Asn1Set certs, Org::BouncyCastle::Asn1::Asn1Set crls)  {
+Org::BouncyCastle::Asn1::Cms::OriginatorInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::OriginatorInfo>(certs, crls))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::OriginatorInfo::_ctor(Org::BouncyCastle::Asn1::Asn1Set certs, Org::BouncyCastle::Asn1::Asn1Set crls)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::OriginatorInfo>::get(),
@@ -147,8 +149,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certs, crls);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::OriginatorInfo::OriginatorInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OriginatorInfo>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::OriginatorInfo Org::BouncyCastle::Asn1::Cms::OriginatorInfo::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cms::OriginatorInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::OriginatorInfo>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::OriginatorInfo::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::OriginatorInfo>::get(),

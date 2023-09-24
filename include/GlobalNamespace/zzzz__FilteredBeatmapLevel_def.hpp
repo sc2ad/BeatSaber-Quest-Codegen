@@ -5,44 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class IFilePathSongPreviewAudioClipProvider;
-}
-namespace GlobalNamespace {
-class IFilePathSongAudioClipProvider;
-}
-namespace GlobalNamespace {
-class IAssetSongPreviewAudioClipProvider;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
 class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
@@ -53,10 +16,50 @@ template<typename T>
 class HashSet_1;
 }
 namespace GlobalNamespace {
-class IAssetSongAudioClipProvider;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IFilePathSongPreviewAudioClipProvider;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelData;
+}
+namespace GlobalNamespace {
+class IFilePathSongAudioClipProvider;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class IAssetSongPreviewAudioClipProvider;
+}
+namespace GlobalNamespace {
+class IAssetSongAudioClipProvider;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
@@ -141,8 +144,7 @@ constexpr GlobalNamespace::IBeatmapLevelData __get__beatmapLevelData() const;
 /// @brief Method get_difficultyBeatmapSets addr 0x2162d1c size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> get_difficultyBeatmapSets() ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevelData", ty: "GlobalNamespace::IBeatmapLevelData", modifiers: "", def_value: None }, CppParam { name: "allowedBeatmapDifficultyMask", ty: "GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "notAllowedCharacteristics", ty: "System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData(GlobalNamespace::IBeatmapLevelData beatmapLevelData, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics) ;
+static GlobalNamespace::GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData New_ctor(GlobalNamespace::IBeatmapLevelData beatmapLevelData, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics) ;
 
 /// @brief Method .ctor addr 0x21621d4 size 0xaa8 virtual false final false
  void _ctor(GlobalNamespace::IBeatmapLevelData beatmapLevelData, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics) ;
@@ -350,8 +352,7 @@ constexpr GlobalNamespace::IBeatmapLevel __get__beatmapLevel() const;
 /// @brief Method get_isEmpty addr 0x2161f14 size 0x124 virtual false final false
  bool get_isEmpty() ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "GlobalNamespace::IBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "allowedBeatmapDifficultyMask", ty: "GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "notAllowedCharacteristics", ty: "System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: None }]
-explicit FilteredBeatmapLevel(GlobalNamespace::IBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics) ;
+static GlobalNamespace::FilteredBeatmapLevel New_ctor(GlobalNamespace::IBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics) ;
 
 /// @brief Method .ctor addr 0x2162038 size 0x19c virtual false final false
  void _ctor(GlobalNamespace::IBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics) ;

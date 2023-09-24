@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::AccessControl {
-struct AceType;
+struct AceFlags;
 }
 namespace System::Security::Principal {
 class SecurityIdentifier;
 }
 namespace System::Security::AccessControl {
-struct AceFlags;
+struct AceType;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -80,14 +80,12 @@ constexpr System::Security::Principal::SecurityIdentifier __get_identifier() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Security::AccessControl::AceType", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }]
-explicit KnownAce(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags) ;
+static System::Security::AccessControl::KnownAce New_ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags) ;
 
 /// @brief Method .ctor addr 0x2318c94 size 0x4 virtual false final false
  void _ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags) ;
 
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KnownAce(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
+static System::Security::AccessControl::KnownAce New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
 
 /// @brief Method .ctor addr 0x2318c98 size 0x4 virtual false final false
  void _ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;

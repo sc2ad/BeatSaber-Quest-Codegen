@@ -56,6 +56,8 @@ constexpr operator __Compute_DistanceTransform_EventTypes_Unwrapped () const noe
 return std::bit_cast<__Compute_DistanceTransform_EventTypes_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

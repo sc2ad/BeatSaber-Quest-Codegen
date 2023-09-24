@@ -4,18 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace UnityEngine::XR {
-struct XRNode;
+struct InputDevice;
 }
 namespace UnityEngine::XR {
 struct ConnectionChangeType;
 }
 namespace UnityEngine::XR {
-struct InputDevice;
-}
-namespace System {
-template<typename T>
-class Action_1;
+struct XRNode;
 }
 // Forward declare root types
 namespace UnityEngine::XR {

@@ -52,8 +52,7 @@ constexpr explicit MessageWithLeaderboardEntryList(void* ptr) noexcept : Oculus:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithLeaderboardEntryList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithLeaderboardEntryList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e950 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

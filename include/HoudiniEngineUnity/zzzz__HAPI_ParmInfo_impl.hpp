@@ -3,11 +3,11 @@
 #include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Permissions_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ParmType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_NodeType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_PrmScriptType_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ChoiceListType_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_RampType_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_NodeType_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_NodeFlags_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PrmScriptType_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HAPI_ParmInfo.isInt
 template<>
 

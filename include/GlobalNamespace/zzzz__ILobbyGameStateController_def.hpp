@@ -1,43 +1,43 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+struct MultiplayerLobbyState;
+}
+namespace GlobalNamespace {
+class ILevelGameplaySetupData;
+}
+namespace System {
+class Action;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-class ILevelGameplaySetupData;
+class MultiplayerResultsData;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
+struct CannotStartGameReason;
+}
+namespace GlobalNamespace {
 class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace System {
-class Action;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace GlobalNamespace {
 class PlayersMissingEntitlementsNetSerializable;
-}
-namespace GlobalNamespace {
-struct MultiplayerLobbyState;
-}
-namespace GlobalNamespace {
-struct CannotStartGameReason;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,56 +5,59 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class GameplayModifiersPanelController;
+class GlobalNamespace__GameplaySetupViewController__Panel;
 }
-namespace GlobalNamespace {
-class GameplayModifiers;
+namespace HMUI {
+class SegmentedControl;
 }
 namespace GlobalNamespace {
 class OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
 class PlayerSettingsPanelController;
 }
-namespace HMUI {
-class TextSegmentedControl;
-}
 namespace GlobalNamespace {
-class EnvironmentOverrideSettingsPanelController;
+class GameplayModifiersPanelController;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class EnvironmentOverrideSettingsPanelController;
+}
+namespace GlobalNamespace {
+class ColorsOverrideSettingsPanelController;
 }
 namespace GlobalNamespace {
 class MultiplayerSettingsPanelController;
 }
 namespace GlobalNamespace {
-class ColorsOverrideSettingsPanelController;
-}
-namespace System {
-class Action;
+struct GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout;
 }
 namespace GlobalNamespace {
-class ColorSchemesSettings;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace HMUI {
-class SegmentedControl;
-}
 namespace GlobalNamespace {
-class IRefreshable;
+class ColorSchemesSettings;
+}
+namespace HMUI {
+class TextSegmentedControl;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class IRefreshable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -126,8 +129,7 @@ constexpr UnityEngine::GameObject __get_gameObject() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "refreshable", ty: "GlobalNamespace::IRefreshable", modifiers: "", def_value: None }, CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }]
-explicit GlobalNamespace__GameplaySetupViewController__Panel(::StringW title, GlobalNamespace::IRefreshable refreshable, UnityEngine::GameObject gameObject) ;
+static GlobalNamespace::GlobalNamespace__GameplaySetupViewController__Panel New_ctor(::StringW title, GlobalNamespace::IRefreshable refreshable, UnityEngine::GameObject gameObject) ;
 
 /// @brief Method .ctor addr 0x215d640 size 0x3c virtual false final false
  void _ctor(::StringW title, GlobalNamespace::IRefreshable refreshable, UnityEngine::GameObject gameObject) ;
@@ -338,8 +340,7 @@ constexpr bool __get__isInitialized() const;
 /// @brief Method RefreshActivePanel addr 0x215d568 size 0xd8 virtual false final false
  void RefreshActivePanel() ;
 
-// Ctor Parameters []
-explicit GameplaySetupViewController() ;
+static GlobalNamespace::GameplaySetupViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215d67c size 0x8 virtual false final false
  void _ctor() ;

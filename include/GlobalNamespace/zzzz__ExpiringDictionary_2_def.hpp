@@ -3,30 +3,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace BGNet::Core {
-class ITimeProvider;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace GlobalNamespace {
+template<typename TKey,typename TValue>
+class GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14;
 }
 namespace GlobalNamespace {
 template<typename T>
 class OrderedSet_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -34,6 +28,20 @@ class IEnumerator;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace BGNet::Core {
+class ITimeProvider;
+}
+namespace GlobalNamespace {
+template<typename TKey,typename TValue>
+class GlobalNamespace__ExpiringDictionary_2__Entry;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -134,8 +142,7 @@ constexpr int64_t __get_expireTime() const;
 /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
  void Dispose() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ExpiringDictionary_2__Entry() ;
+static GlobalNamespace::GlobalNamespace__ExpiringDictionary_2__Entry<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -231,8 +238,7 @@ constexpr System::Collections::Generic::IEnumerator_1<GlobalNamespace::GlobalNam
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__ExpiringDictionary_2___Enumerate_d__14<TKey,TValue> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -362,8 +368,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Count() ;
 
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "expirationLengthMs", ty: "int64_t", modifiers: "", def_value: None }]
-explicit ExpiringDictionary_2(BGNet::Core::ITimeProvider timeProvider, int64_t expirationLengthMs) ;
+static GlobalNamespace::ExpiringDictionary_2<TKey,TValue> New_ctor(BGNet::Core::ITimeProvider timeProvider, int64_t expirationLengthMs) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(BGNet::Core::ITimeProvider timeProvider, int64_t expirationLengthMs) ;

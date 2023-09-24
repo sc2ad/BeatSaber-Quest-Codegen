@@ -57,8 +57,7 @@ constexpr ::StringW __get_name() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "n", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ShapeAttribute(::StringW n) ;
+static UnityEngine::ProBuilder::Shapes::ShapeAttribute New_ctor(::StringW n) ;
 
 /// @brief Method .ctor addr 0x29f82c4 size 0x28 virtual false final false
  void _ctor(::StringW n) ;

@@ -11,6 +11,9 @@ template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace TMPro {
+class TMPro__TMP_FontFeatureTable____c;
+}
+namespace TMPro {
 class TMP_GlyphPairAdjustmentRecord;
 }
 namespace System {
@@ -87,8 +90,7 @@ static System::Func_2<TMPro::TMP_GlyphPairAdjustmentRecord,uint32_t> __get___9__
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_FontFeatureTable____c() ;
+static TMPro::TMPro__TMP_FontFeatureTable____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a7a9a8 size 0x8 virtual false final false
  void _ctor() ;
@@ -173,8 +175,7 @@ constexpr System::Collections::Generic::Dictionary_2<uint32_t,TMPro::TMP_GlyphPa
 /// @brief Method set_glyphPairAdjustmentRecords addr 0x2a7a93c size 0x8 virtual false final false
  void set_glyphPairAdjustmentRecords(System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord> value) ;
 
-// Ctor Parameters []
-explicit TMP_FontFeatureTable() ;
+static TMPro::TMP_FontFeatureTable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a774e0 size 0xc4 virtual false final false
  void _ctor() ;

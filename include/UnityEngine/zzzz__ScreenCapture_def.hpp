@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct UnityEngine__ScreenCapture__StereoScreenCaptureMode;
+}
 // Forward declare root types
 namespace UnityEngine {
 struct UnityEngine__ScreenCapture__StereoScreenCaptureMode;
@@ -61,6 +64,8 @@ __BothEyes = 3,
 constexpr operator __UnityEngine__ScreenCapture__StereoScreenCaptureMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ScreenCapture__StereoScreenCaptureMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

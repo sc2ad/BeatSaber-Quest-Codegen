@@ -47,8 +47,7 @@ constexpr explicit AndroidLightSensor(void* ptr) noexcept : UnityEngine::InputSy
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidLightSensor() ;
+static UnityEngine::InputSystem::Android::AndroidLightSensor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953070 size 0x8 virtual false final false
  void _ctor() ;

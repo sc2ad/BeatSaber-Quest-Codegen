@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CameraDepthTextureMode::CameraDepthTextureMode()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CameraDepthTextureMode>())) {}
+ GlobalNamespace::CameraDepthTextureMode GlobalNamespace::CameraDepthTextureMode::New_ctor()  {
+GlobalNamespace::CameraDepthTextureMode o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CameraDepthTextureMode>())};
+return o;
+}
  void GlobalNamespace::CameraDepthTextureMode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CameraDepthTextureMode>::get(),

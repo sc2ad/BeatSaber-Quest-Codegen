@@ -53,8 +53,7 @@ constexpr explicit PkixCertPathChecker(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Methods
 
-// Ctor Parameters []
-explicit PkixCertPathChecker() ;
+static Org::BouncyCastle::Pkix::PkixCertPathChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x1068260 size 0x8 virtual false final false
  void _ctor() ;

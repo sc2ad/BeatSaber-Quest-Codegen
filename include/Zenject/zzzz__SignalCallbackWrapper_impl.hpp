@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__SignalCallbackWrapper_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__SignalBindingBindInfo_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__SignalBus_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__SignalBindingBindInfo_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: Zenject::SignalCallbackWrapper._ctor
 template<>
 
@@ -119,8 +119,10 @@ constexpr void Zenject::SignalCallbackWrapper::__set__identifier(::bs_hook::Il2C
 constexpr ::bs_hook::Il2CppWrapperType Zenject::SignalCallbackWrapper::__get__identifier() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::SignalBindingBindInfo", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "signalBus", ty: "Zenject::SignalBus", modifiers: "", def_value: None }]
- Zenject::SignalCallbackWrapper::SignalCallbackWrapper(Zenject::SignalBindingBindInfo bindInfo, System::Action_1<::bs_hook::Il2CppWrapperType> action, Zenject::SignalBus signalBus)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignalCallbackWrapper>(bindInfo, action, signalBus))) {}
+ Zenject::SignalCallbackWrapper Zenject::SignalCallbackWrapper::New_ctor(Zenject::SignalBindingBindInfo bindInfo, System::Action_1<::bs_hook::Il2CppWrapperType> action, Zenject::SignalBus signalBus)  {
+Zenject::SignalCallbackWrapper o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalCallbackWrapper>(bindInfo, action, signalBus))};
+return o;
+}
  void Zenject::SignalCallbackWrapper::_ctor(Zenject::SignalBindingBindInfo bindInfo, System::Action_1<::bs_hook::Il2CppWrapperType> action, Zenject::SignalBus signalBus)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalCallbackWrapper>::get(),

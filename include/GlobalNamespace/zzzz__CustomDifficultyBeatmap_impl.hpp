@@ -1,19 +1,20 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
-#include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
+#include "GlobalNamespace/zzzz__CustomDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__33.MoveNext
 template<>
@@ -165,8 +166,10 @@ constexpr void GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap____c__D
 constexpr GlobalNamespace::PlayerSpecificSettings GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0::__get_playerSpecificSettings() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::PlayerSpecificSettings, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0::GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0>())) {}
+ GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0 GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CustomDifficultyBeatmap____c__DisplayClass34_0>::get(),
@@ -717,8 +720,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<GlobalNamespace::IReadonlyBeatmapData>, false>(const_cast<void*>(instance), ___internal_method, environmentInfo, playerSpecificSettings);
 }
-// Ctor Parameters [CppParam { name: "level", ty: "GlobalNamespace::IBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "parentDifficultyBeatmapSet", ty: "GlobalNamespace::IDifficultyBeatmapSet", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "difficultyRank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpMovementSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapColorSchemeIdx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "environmentNameIdx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatmapSaveData", ty: "BeatmapSaveDataVersion3::BeatmapSaveData", modifiers: "", def_value: None }, CppParam { name: "beatmapDataBasicInfo", ty: "GlobalNamespace::IBeatmapDataBasicInfo", modifiers: "", def_value: None }]
- GlobalNamespace::CustomDifficultyBeatmap::CustomDifficultyBeatmap(GlobalNamespace::IBeatmapLevel level, GlobalNamespace::IDifficultyBeatmapSet parentDifficultyBeatmapSet, GlobalNamespace::BeatmapDifficulty difficulty, int32_t difficultyRank, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, float_t beatsPerMinute, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx, BeatmapSaveDataVersion3::BeatmapSaveData beatmapSaveData, GlobalNamespace::IBeatmapDataBasicInfo beatmapDataBasicInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomDifficultyBeatmap>(level, parentDifficultyBeatmapSet, difficulty, difficultyRank, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatsPerMinute, beatmapColorSchemeIdx, environmentNameIdx, beatmapSaveData, beatmapDataBasicInfo))) {}
+ GlobalNamespace::CustomDifficultyBeatmap GlobalNamespace::CustomDifficultyBeatmap::New_ctor(GlobalNamespace::IBeatmapLevel level, GlobalNamespace::IDifficultyBeatmapSet parentDifficultyBeatmapSet, GlobalNamespace::BeatmapDifficulty difficulty, int32_t difficultyRank, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, float_t beatsPerMinute, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx, BeatmapSaveDataVersion3::BeatmapSaveData beatmapSaveData, GlobalNamespace::IBeatmapDataBasicInfo beatmapDataBasicInfo)  {
+GlobalNamespace::CustomDifficultyBeatmap o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CustomDifficultyBeatmap>(level, parentDifficultyBeatmapSet, difficulty, difficultyRank, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatsPerMinute, beatmapColorSchemeIdx, environmentNameIdx, beatmapSaveData, beatmapDataBasicInfo))};
+return o;
+}
  void GlobalNamespace::CustomDifficultyBeatmap::_ctor(GlobalNamespace::IBeatmapLevel level, GlobalNamespace::IDifficultyBeatmapSet parentDifficultyBeatmapSet, GlobalNamespace::BeatmapDifficulty difficulty, int32_t difficultyRank, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, float_t beatsPerMinute, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx, BeatmapSaveDataVersion3::BeatmapSaveData beatmapSaveData, GlobalNamespace::IBeatmapDataBasicInfo beatmapDataBasicInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CustomDifficultyBeatmap>::get(),

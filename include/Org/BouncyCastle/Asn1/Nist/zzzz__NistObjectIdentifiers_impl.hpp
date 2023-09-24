@@ -384,8 +384,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::__get_IdRsassaPkcs1V15WithSha3_512()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "IdRsassaPkcs1V15WithSha3_512", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::NistObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NistObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers>::get(),

@@ -76,8 +76,7 @@ static void CheckKey(::ArrayW<uint8_t> key) ;
 /// @brief Method CheckMask addr 0xe79628 size 0x60 virtual false final false
 static void CheckMask(uint8_t b, uint8_t mask) ;
 
-// Ctor Parameters []
-explicit Poly1305KeyGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe79688 size 0x10 virtual false final false
  void _ctor() ;

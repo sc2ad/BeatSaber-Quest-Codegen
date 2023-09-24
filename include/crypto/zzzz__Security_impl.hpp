@@ -148,8 +148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::IBufferedCipher, false>(nullptr, ___internal_method, isEncryption, key, iv);
 }
-// Ctor Parameters []
- crypto::Security::Security()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Security>())) {}
+ crypto::Security crypto::Security::New_ctor()  {
+crypto::Security o{THROW_UNLESS(::il2cpp_utils::New<crypto::Security>())};
+return o;
+}
  void crypto::Security::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<crypto::Security>::get(),

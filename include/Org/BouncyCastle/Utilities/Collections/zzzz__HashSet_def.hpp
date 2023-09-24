@@ -3,22 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Collections {
-class IDictionary;
+class ICollection;
 }
 namespace System::Collections {
-class ICollection;
+class IDictionary;
+}
+namespace System {
+class Array;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class Array;
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -99,14 +99,12 @@ constexpr System::Collections::IDictionary __get_impl() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HashSet() ;
+static Org::BouncyCastle::Utilities::Collections::HashSet New_ctor() ;
 
 /// @brief Method .ctor addr 0x10c9b88 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "s", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit HashSet(System::Collections::IEnumerable s) ;
+static Org::BouncyCastle::Utilities::Collections::HashSet New_ctor(System::Collections::IEnumerable s) ;
 
 /// @brief Method .ctor addr 0x10ca8c4 size 0x324 virtual false final false
  void _ctor(System::Collections::IEnumerable s) ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__DifficultyTableCell_def.hpp"
-#include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "GlobalNamespace/zzzz__FillIndicator_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "GlobalNamespace/zzzz__FillIndicator_def.hpp"
+#include "HMUI/zzzz__SelectableCell_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DifficultyTableCell.set_difficultyText
 template<>
 
@@ -176,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, transitionType);
 }
-// Ctor Parameters []
- GlobalNamespace::DifficultyTableCell::DifficultyTableCell()  : HMUI::TableCell(THROW_UNLESS(::il2cpp_utils::New<DifficultyTableCell>())) {}
+ GlobalNamespace::DifficultyTableCell GlobalNamespace::DifficultyTableCell::New_ctor()  {
+GlobalNamespace::DifficultyTableCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DifficultyTableCell>())};
+return o;
+}
  void GlobalNamespace::DifficultyTableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DifficultyTableCell>::get(),

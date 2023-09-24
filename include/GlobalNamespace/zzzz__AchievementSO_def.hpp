@@ -65,8 +65,7 @@ constexpr ::StringW __get__achievementId() const;
 /// @brief Method get_achievementId addr 0x20c7054 size 0x8 virtual false final false
  ::StringW get_achievementId() ;
 
-// Ctor Parameters []
-explicit AchievementSO() ;
+static GlobalNamespace::AchievementSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c705c size 0x8 virtual false final false
  void _ctor() ;

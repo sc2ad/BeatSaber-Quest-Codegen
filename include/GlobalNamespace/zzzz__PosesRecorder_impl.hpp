@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__PoseObject_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__PoseObject_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
-#include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
+#include "GlobalNamespace/zzzz__PosesRecorder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PosesRecorder____c._ctor
 template<>
 
@@ -76,8 +76,10 @@ return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::PoseObj
  System::Func_2<GlobalNamespace::PoseObject,::StringW> GlobalNamespace::GlobalNamespace__PosesRecorder____c::__get___9__6_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::PoseObject,::StringW>, "<>9__6_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PosesRecorder____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PosesRecorder____c::GlobalNamespace__PosesRecorder____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PosesRecorder____c>())) {}
+ GlobalNamespace::GlobalNamespace__PosesRecorder____c GlobalNamespace::GlobalNamespace__PosesRecorder____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PosesRecorder____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PosesRecorder____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PosesRecorder____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PosesRecorder____c>::get(),
@@ -296,8 +298,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PosesRecorder::PosesRecorder()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PosesRecorder>())) {}
+ GlobalNamespace::PosesRecorder GlobalNamespace::PosesRecorder::New_ctor()  {
+GlobalNamespace::PosesRecorder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PosesRecorder>())};
+return o;
+}
  void GlobalNamespace::PosesRecorder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PosesRecorder>::get(),

@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapDataBasicInfo_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapDataBasicInfo.get_numberOfLines
 template<>
 
@@ -183,8 +183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<::StringW>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "numberOfLines", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cuttableNotesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obstaclesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bombsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "specialBasicBeatmapEventKeywords", ty: "System::Collections::Generic::IEnumerable_1<::StringW>", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapDataBasicInfo::BeatmapDataBasicInfo(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount, System::Collections::Generic::IEnumerable_1<::StringW> specialBasicBeatmapEventKeywords)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapDataBasicInfo>(numberOfLines, cuttableNotesCount, obstaclesCount, bombsCount, specialBasicBeatmapEventKeywords))) {}
+ GlobalNamespace::BeatmapDataBasicInfo GlobalNamespace::BeatmapDataBasicInfo::New_ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount, System::Collections::Generic::IEnumerable_1<::StringW> specialBasicBeatmapEventKeywords)  {
+GlobalNamespace::BeatmapDataBasicInfo o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapDataBasicInfo>(numberOfLines, cuttableNotesCount, obstaclesCount, bombsCount, specialBasicBeatmapEventKeywords))};
+return o;
+}
  void GlobalNamespace::BeatmapDataBasicInfo::_ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount, System::Collections::Generic::IEnumerable_1<::StringW> specialBasicBeatmapEventKeywords)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapDataBasicInfo>::get(),

@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class IntegratedSubsystem;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+class IntegratedSubsystem;
 }
 namespace UnityEngine::SubsystemsImplementation {
 class SubsystemWithProvider;

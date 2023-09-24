@@ -1,9 +1,9 @@
 #pragma once
 #include "Mono/zzzz__SystemDependencyProvider_def.hpp"
 #include "Mono/zzzz__ISystemCertificateProvider_def.hpp"
-#include "Mono/zzzz__X509PalImpl_def.hpp"
 #include "Mono/zzzz__ISystemDependencyProvider_def.hpp"
 #include "Mono/zzzz__SystemCertificateProvider_def.hpp"
+#include "Mono/zzzz__X509PalImpl_def.hpp"
 //  Writing Method size for method: Mono::SystemDependencyProvider.get_Instance
 template<>
 
@@ -173,8 +173,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Mono::X509PalImpl, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Mono::SystemDependencyProvider::SystemDependencyProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SystemDependencyProvider>())) {}
+ Mono::SystemDependencyProvider Mono::SystemDependencyProvider::New_ctor()  {
+Mono::SystemDependencyProvider o{THROW_UNLESS(::il2cpp_utils::New<Mono::SystemDependencyProvider>())};
+return o;
+}
  void Mono::SystemDependencyProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::SystemDependencyProvider>::get(),

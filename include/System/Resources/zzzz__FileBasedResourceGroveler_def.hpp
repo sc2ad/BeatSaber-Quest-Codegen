@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Resources {
-class IResourceGroveler;
+class System__Resources__ResourceManager__ResourceManagerMediator;
 }
 namespace System::Resources {
-class System__Resources__ResourceManager__ResourceManagerMediator;
+class IResourceGroveler;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -65,8 +65,7 @@ constexpr System::Resources::System__Resources__ResourceManager__ResourceManager
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mediator", ty: "System::Resources::System__Resources__ResourceManager__ResourceManagerMediator", modifiers: "", def_value: None }]
-explicit FileBasedResourceGroveler(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator) ;
+static System::Resources::FileBasedResourceGroveler New_ctor(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator) ;
 
 /// @brief Method .ctor addr 0x23732ec size 0x28 virtual false final false
  void _ctor(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator) ;

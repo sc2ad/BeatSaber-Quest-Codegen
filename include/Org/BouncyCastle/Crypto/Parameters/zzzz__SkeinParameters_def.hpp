@@ -4,14 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-struct DateTime;
-}
 namespace System::Collections {
 class IDictionary;
 }
+namespace System {
+struct DateTime;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -71,20 +74,17 @@ constexpr System::Collections::IDictionary __get_parameters() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder() ;
+static Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder New_ctor() ;
 
 /// @brief Method .ctor addr 0xeac6d4 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "paramsMap", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder(System::Collections::IDictionary paramsMap) ;
+static Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder New_ctor(System::Collections::IDictionary paramsMap) ;
 
 /// @brief Method .ctor addr 0xeac738 size 0x380 virtual false final false
  void _ctor(System::Collections::IDictionary paramsMap) ;
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::SkeinParameters", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder(Org::BouncyCastle::Crypto::Parameters::SkeinParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder New_ctor(Org::BouncyCastle::Crypto::Parameters::SkeinParameters parameters) ;
 
 /// @brief Method .ctor addr 0xeacab8 size 0x390 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::SkeinParameters parameters) ;
@@ -197,14 +197,12 @@ constexpr System::Collections::IDictionary __get_parameters() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SkeinParameters() ;
+static Org::BouncyCastle::Crypto::Parameters::SkeinParameters New_ctor() ;
 
 /// @brief Method .ctor addr 0xeac0d8 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit SkeinParameters(System::Collections::IDictionary parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::SkeinParameters New_ctor(System::Collections::IDictionary parameters) ;
 
 /// @brief Method .ctor addr 0xeac144 size 0x28 virtual false final false
  void _ctor(System::Collections::IDictionary parameters) ;

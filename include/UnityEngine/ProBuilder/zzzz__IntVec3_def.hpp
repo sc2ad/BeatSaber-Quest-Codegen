@@ -5,12 +5,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json::Utilities {
 struct PrimitiveTypeCode;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -87,8 +87,7 @@ constexpr Newtonsoft::Json::Utilities::PrimitiveTypeCode __get__TypeCode_k__Back
 /// @brief Method set_TypeCode addr 0x24e3c50 size 0x8 virtual false final false
  void set_TypeCode(Newtonsoft::Json::Utilities::PrimitiveTypeCode value) ;
 
-// Ctor Parameters []
-explicit TypeInformation() ;
+static Newtonsoft::Json::Utilities::TypeInformation New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e3c58 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,29 +1,29 @@
 #pragma once
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__StateMachineBehaviour_def.hpp"
-#include "UnityEngine/zzzz__AnimatorCullingMode_def.hpp"
-#include "UnityEngine/zzzz__AnimatorRecorderMode_def.hpp"
-#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
-#include "UnityEngine/zzzz__AvatarIKHint_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__StateInfoIndex_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/zzzz__AnimatorControllerParameter_def.hpp"
-#include "UnityEngine/zzzz__Avatar_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-#include "UnityEngine/zzzz__AnimatorClipInfo_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__AnimatorStateInfo_def.hpp"
-#include "UnityEngine/zzzz__MatchTargetWeightMask_def.hpp"
-#include "UnityEngine/zzzz__AnimatorTransitionInfo_def.hpp"
-#include "UnityEngine/zzzz__RuntimeAnimatorController_def.hpp"
 #include "UnityEngine/zzzz__AvatarTarget_def.hpp"
+#include "UnityEngine/zzzz__AnimatorRecorderMode_def.hpp"
+#include "UnityEngine/zzzz__Avatar_def.hpp"
+#include "UnityEngine/zzzz__MatchTargetWeightMask_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/zzzz__AnimatorUpdateMode_def.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
+#include "UnityEngine/zzzz__RuntimeAnimatorController_def.hpp"
+#include "UnityEngine/zzzz__AnimatorStateInfo_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__AnimatorCullingMode_def.hpp"
+#include "UnityEngine/zzzz__AvatarIKHint_def.hpp"
+#include "UnityEngine/zzzz__AnimatorTransitionInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__AnimatorControllerParameter_def.hpp"
 #include "UnityEngine/zzzz__HumanBodyBones_def.hpp"
+#include "UnityEngine/zzzz__StateMachineBehaviour_def.hpp"
+#include "UnityEngine/zzzz__AnimatorClipInfo_def.hpp"
+#include "UnityEngine/zzzz__StateInfoIndex_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: UnityEngine::Animator.get_isOptimizable
 template<>
 
@@ -6965,8 +6965,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, id, value);
 }
-// Ctor Parameters []
- UnityEngine::Animator::Animator()  : UnityEngine::Behaviour(THROW_UNLESS(::il2cpp_utils::New<Animator>())) {}
+ UnityEngine::Animator UnityEngine::Animator::New_ctor()  {
+UnityEngine::Animator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Animator>())};
+return o;
+}
  void UnityEngine::Animator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Animator>::get(),

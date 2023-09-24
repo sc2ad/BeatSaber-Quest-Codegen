@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "os", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerOutputStream::BerOutputStream(System::IO::Stream os)  : Org::BouncyCastle::Asn1::DerOutputStream(THROW_UNLESS(::il2cpp_utils::New<BerOutputStream>(os))) {}
+ Org::BouncyCastle::Asn1::BerOutputStream Org::BouncyCastle::Asn1::BerOutputStream::New_ctor(System::IO::Stream os)  {
+Org::BouncyCastle::Asn1::BerOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerOutputStream>(os))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerOutputStream::_ctor(System::IO::Stream os)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerOutputStream>::get(),

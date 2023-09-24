@@ -108,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::BodyTilt::BodyTilt()  : RootMotion::FinalIK::OffsetModifier(THROW_UNLESS(::il2cpp_utils::New<BodyTilt>())) {}
+ RootMotion::FinalIK::BodyTilt RootMotion::FinalIK::BodyTilt::New_ctor()  {
+RootMotion::FinalIK::BodyTilt o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::BodyTilt>())};
+return o;
+}
  void RootMotion::FinalIK::BodyTilt::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::BodyTilt>::get(),

@@ -112,8 +112,7 @@ constexpr GlobalNamespace::KawaseBlurRendererSO __get__kawaseBlurRenderer() cons
 /// @brief Method Render addr 0x267ad38 size 0x38 virtual true final false
  void Render(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest) ;
 
-// Ctor Parameters []
-explicit BloomPrePassDoubleKawaseBlurTextureEffectSO() ;
+static GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x267ad70 size 0x2c virtual false final false
  void _ctor() ;

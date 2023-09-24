@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class EncryptedPrivateKeyInfo;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -64,8 +64,7 @@ constexpr explicit PrivateKeyInfoFactory(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Methods
 
-// Ctor Parameters []
-explicit PrivateKeyInfoFactory() ;
+static Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x105b0f4 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,15 +4,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
+namespace GlobalNamespace {
+struct GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
+}
+namespace GlobalNamespace {
 template<typename T>
-class IComparable_1;
+class GlobalNamespace__ScoringElement__Pool_1;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
+namespace System {
+template<typename T>
+class IComparable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -176,8 +180,7 @@ constexpr bool __get__isFinished_k__BackingField() const;
 /// @brief Method Reinitialize addr 0x211017c size 0x4 virtual true final false
  void Reinitialize() ;
 
-// Ctor Parameters []
-explicit ScoringElement() ;
+static GlobalNamespace::ScoringElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2110180 size 0x8 virtual false final false
  void _ctor() ;
@@ -191,7 +194,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10980), inst: 2653 }), TypeDefinitionIndex(TypeDefinitionIndex(5412)), TypeDefinitionIndex(TypeDefinitionIndex(10980))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10980)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10980), inst: 2653 }), TypeDefinitionIndex(TypeDefinitionIndex(5412))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5412), inst: 2 })
 // CS Name: ScoringElement::Pool`1
 class CORDL_TYPE GlobalNamespace__ScoringElement__Pool_1<T> : public Zenject::MemoryPool_1<T> {
@@ -233,8 +236,7 @@ constexpr explicit GlobalNamespace__ScoringElement__Pool_1(void* ptr) noexcept :
 /// @brief Method Reinitialize addr 0x0 size 0xffffffffffffffff virtual true final false
  void Reinitialize(T scoringElement) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ScoringElement__Pool_1() ;
+static GlobalNamespace::GlobalNamespace__ScoringElement__Pool_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

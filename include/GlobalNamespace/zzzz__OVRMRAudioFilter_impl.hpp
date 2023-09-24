@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data, channels);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRMRAudioFilter::OVRMRAudioFilter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRMRAudioFilter>())) {}
+ GlobalNamespace::OVRMRAudioFilter GlobalNamespace::OVRMRAudioFilter::New_ctor()  {
+GlobalNamespace::OVRMRAudioFilter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRMRAudioFilter>())};
+return o;
+}
  void GlobalNamespace::OVRMRAudioFilter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRMRAudioFilter>::get(),

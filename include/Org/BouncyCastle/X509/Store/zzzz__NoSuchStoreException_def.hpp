@@ -51,20 +51,17 @@ constexpr explicit NoSuchStoreException(void* ptr) noexcept : Org::BouncyCastle:
 
 // Methods
 
-// Ctor Parameters []
-explicit NoSuchStoreException() ;
+static Org::BouncyCastle::X509::Store::NoSuchStoreException New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e505c size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NoSuchStoreException(::StringW message) ;
+static Org::BouncyCastle::X509::Store::NoSuchStoreException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x10e5060 size 0x4 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit NoSuchStoreException(::StringW message, System::Exception e) ;
+static Org::BouncyCastle::X509::Store::NoSuchStoreException New_ctor(::StringW message, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x10e5064 size 0x4 virtual false final false
  void _ctor(::StringW message, System::Exception e) ;

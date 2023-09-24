@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::Esf {
+class OtherHash;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class IssuerSerial;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::Esf {
-class OtherHash;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -85,20 +85,17 @@ constexpr Org::BouncyCastle::Asn1::X509::IssuerSerial __get_issuerSerial() const
 /// @brief Method GetInstance addr 0xe0235c size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::OtherCertID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OtherCertID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::OtherCertID New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe06608 size 0x1cc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "otherCertHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHash", modifiers: "", def_value: None }]
-explicit OtherCertID(Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash) ;
+static Org::BouncyCastle::Asn1::Esf::OtherCertID New_ctor(Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash) ;
 
 /// @brief Method .ctor addr 0xe067d4 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash) ;
 
-// Ctor Parameters [CppParam { name: "otherCertHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHash", modifiers: "", def_value: None }, CppParam { name: "issuerSerial", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }]
-explicit OtherCertID(Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
+static Org::BouncyCastle::Asn1::Esf::OtherCertID New_ctor(Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
 
 /// @brief Method .ctor addr 0xe067dc size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Esf::OtherHash otherCertHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;

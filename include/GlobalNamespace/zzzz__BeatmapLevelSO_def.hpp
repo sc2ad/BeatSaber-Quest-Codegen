@@ -8,77 +8,104 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace UnityEngine {
 class Sprite;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-class IAssetSongPreviewAudioClipProvider;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace GlobalNamespace {
-class IAssetSongAudioClipProvider;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelSO___GetPreviewAudioClipAsync_d__68;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapLevelSO__DifficultyBeatmapSet;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class BeatmapDataSO;
+class IDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class PreviewDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
+}
+namespace GlobalNamespace {
+class IAssetSongPreviewAudioClipProvider;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IAssetSongAudioClipProvider;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelSO___GetCoverImageAsync_d__69;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelSO__GetBeatmapLevelDataResult;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelSO___GetBeatmapLevelDataAsync_d__72;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__16;
 }
 namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
 }
 namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap___GetBeatmapDataAsync_d__17;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapDataSO;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct TaskAwaiter_1;
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+struct TaskAwaiter_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelSO__GetBeatmapLevelDataResult__Result;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -184,8 +211,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyB
 /// @brief Method get_difficultyBeatmaps addr 0x21e85b0 size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> get_difficultyBeatmaps() ;
 
-// Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmaps", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapLevelSO__DifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap> difficultyBeatmaps) ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmapSet New_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap> difficultyBeatmaps) ;
 
 /// @brief Method .ctor addr 0x21e85b8 size 0x2c virtual false final false
  void _ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap> difficultyBeatmaps) ;
@@ -522,8 +548,7 @@ constexpr GlobalNamespace::IDifficultyBeatmapSet __get__parentDifficultyBeatmapS
 /// @brief Method SetParents addr 0x21e06d0 size 0x8 virtual false final false
  void SetParents(GlobalNamespace::IBeatmapLevel parentLevel, GlobalNamespace::IDifficultyBeatmapSet parentDifficultyBeatmapSet) ;
 
-// Ctor Parameters [CppParam { name: "parentLevel", ty: "GlobalNamespace::IBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "difficultyRank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpMovementSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "environmentNameIdx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatmapData", ty: "GlobalNamespace::BeatmapDataSO", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap(GlobalNamespace::IBeatmapLevel parentLevel, GlobalNamespace::BeatmapDifficulty difficulty, int32_t difficultyRank, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, int32_t environmentNameIdx, GlobalNamespace::BeatmapDataSO beatmapData) ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap New_ctor(GlobalNamespace::IBeatmapLevel parentLevel, GlobalNamespace::BeatmapDifficulty difficulty, int32_t difficultyRank, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, int32_t environmentNameIdx, GlobalNamespace::BeatmapDataSO beatmapData) ;
 
 /// @brief Method .ctor addr 0x21e8810 size 0x64 virtual false final false
  void _ctor(GlobalNamespace::IBeatmapLevel parentLevel, GlobalNamespace::BeatmapDifficulty difficulty, int32_t difficultyRank, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, int32_t environmentNameIdx, GlobalNamespace::BeatmapDataSO beatmapData) ;
@@ -582,6 +607,8 @@ __Fail = 2,
 constexpr operator __GlobalNamespace__BeatmapLevelSO__GetBeatmapLevelDataResult__Result_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__BeatmapLevelSO__GetBeatmapLevelDataResult__Result_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1269,8 +1296,7 @@ constexpr GlobalNamespace::GlobalNamespace__BeatmapLevelSO__GetBeatmapLevelDataR
 /// @brief Method InitFull addr 0x21e8570 size 0x30 virtual false final false
  void InitFull(::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, UnityEngine::AudioClip audioClip, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, UnityEngine::Sprite coverImage, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::EnvironmentInfoSO allDirectionsEnvironmentInfo, ::ArrayW<GlobalNamespace::EnvironmentInfoSO> environmentInfos, ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmapSet> difficultyBeatmapSets) ;
 
-// Ctor Parameters []
-explicit BeatmapLevelSO() ;
+static GlobalNamespace::BeatmapLevelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e85a0 size 0x8 virtual false final false
  void _ctor() ;

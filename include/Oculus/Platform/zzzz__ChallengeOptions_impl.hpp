@@ -230,8 +230,10 @@ constexpr void Oculus::Platform::ChallengeOptions::__set_Handle(::cordl_internal
 constexpr ::cordl_internals::intptr_t Oculus::Platform::ChallengeOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::ChallengeOptions::ChallengeOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ChallengeOptions>())) {}
+ Oculus::Platform::ChallengeOptions Oculus::Platform::ChallengeOptions::New_ctor()  {
+Oculus::Platform::ChallengeOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::ChallengeOptions>())};
+return o;
+}
  void Oculus::Platform::ChallengeOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::ChallengeOptions>::get(),

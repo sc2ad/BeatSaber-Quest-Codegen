@@ -5,34 +5,49 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class ArcVisibilityTypeSettingsDropdown;
-}
-namespace GlobalNamespace {
-struct NoteJumpDurationTypeSettings;
-}
-namespace GlobalNamespace {
-class FormattedFloatListSettingsController;
-}
-namespace GlobalNamespace {
-class PlayerHeightSettingsController;
+struct GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout;
 }
 namespace GlobalNamespace {
 class NoteJumpStartBeatOffsetDropdown;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class EventBinder;
 }
 namespace GlobalNamespace {
+class PlayerHeightSettingsController;
+}
+namespace GlobalNamespace {
 class EnvironmentEffectsFilterPresetDropdown;
+}
+namespace GlobalNamespace {
+class ArcVisibilityTypeSettingsDropdown;
+}
+namespace GlobalNamespace {
+class FormattedFloatListSettingsController;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+struct NoteJumpDurationTypeSettings;
 }
 namespace GlobalNamespace {
 class NoteJumpDurationTypeSettingsDropdown;
 }
 namespace GlobalNamespace {
-struct EnvironmentEffectsFilterPreset;
-}
-namespace UnityEngine::UI {
-class Toggle;
+struct ArcVisibilityType;
 }
 namespace HMUI {
 class ToggleBinder;
@@ -41,19 +56,7 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace GlobalNamespace {
-struct ArcVisibilityType;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace System {
-class Action;
+struct EnvironmentEffectsFilterPreset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -112,6 +115,8 @@ __Multiplayer = 2,
 constexpr operator __GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -454,8 +459,7 @@ constexpr GlobalNamespace::EventBinder __get__eventBinder() const;
 /// @brief Method RefreshArcsWarning addr 0x215e664 size 0xe0 virtual false final false
  void RefreshArcsWarning(GlobalNamespace::ArcVisibilityType arcVisibilityType, bool forceRebuild) ;
 
-// Ctor Parameters []
-explicit PlayerSettingsPanelController() ;
+static GlobalNamespace::PlayerSettingsPanelController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215e97c size 0x68 virtual false final false
  void _ctor() ;

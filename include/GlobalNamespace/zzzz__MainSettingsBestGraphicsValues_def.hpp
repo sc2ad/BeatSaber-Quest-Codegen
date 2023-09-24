@@ -53,8 +53,7 @@ constexpr explicit MainSettingsBestGraphicsValues(void* ptr) noexcept : ::bs_hoo
 /// @brief Method ApplyValues addr 0x21ef688 size 0x154 virtual false final false
 static void ApplyValues(GlobalNamespace::MainSettingsModelSO mainSettingsModel) ;
 
-// Ctor Parameters []
-explicit MainSettingsBestGraphicsValues() ;
+static GlobalNamespace::MainSettingsBestGraphicsValues New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ef7dc size 0x8 virtual false final false
  void _ctor() ;

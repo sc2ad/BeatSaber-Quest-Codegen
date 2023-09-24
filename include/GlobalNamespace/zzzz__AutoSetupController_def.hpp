@@ -1,24 +1,24 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class AutoSetupData;
-}
-namespace HMUI {
-class ToggleBinder;
-}
-namespace HMUI {
-class ButtonBinder;
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class AutoSetupData;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace UnityEngine::UI {
-class Toggle;
+namespace HMUI {
+class ButtonBinder;
+}
+namespace HMUI {
+class ToggleBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -138,8 +138,7 @@ constexpr GlobalNamespace::AutoSetupData __get__autoSetupData() const;
 /// @brief Method OnDisable addr 0x214b67c size 0x1c virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit AutoSetupController() ;
+static GlobalNamespace::AutoSetupController New_ctor() ;
 
 /// @brief Method .ctor addr 0x214b698 size 0xc8 virtual false final false
  void _ctor() ;

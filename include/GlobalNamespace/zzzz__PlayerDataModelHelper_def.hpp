@@ -2,22 +2,22 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveDataV1_0_1__PlayerAllOverallStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData;
+}
+namespace GlobalNamespace {
 class PlayerAllOverallStatsData;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__PlayerSaveData__PlayerOverallStatsData;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData;
-}
-namespace GlobalNamespace {
 class GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__PlayerSaveDataV1_0_1__PlayerAllOverallStatsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

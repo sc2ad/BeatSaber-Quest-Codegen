@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__GameServersFilter_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameServersFilter._ctor
 template<>
 
@@ -74,8 +74,10 @@ constexpr void GlobalNamespace::GameServersFilter::__set_showInternetGames(bool 
 constexpr bool GlobalNamespace::GameServersFilter::__get_showInternetGames() const {
 return ::cordl_internals::getInstanceField<bool, 0x2a>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GameServersFilter::GameServersFilter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameServersFilter>())) {}
+ GlobalNamespace::GameServersFilter GlobalNamespace::GameServersFilter::New_ctor()  {
+GlobalNamespace::GameServersFilter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameServersFilter>())};
+return o;
+}
  void GlobalNamespace::GameServersFilter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameServersFilter>::get(),

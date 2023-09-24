@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine {
-class Object;
-}
 namespace Zenject {
 class IPrefabProvider;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -66,8 +66,7 @@ constexpr ::StringW __get__resourcePath() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resourcePath", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PrefabProviderResource(::StringW resourcePath) ;
+static Zenject::PrefabProviderResource New_ctor(::StringW resourcePath) ;
 
 /// @brief Method .ctor addr 0x2d906f8 size 0x28 virtual false final false
  void _ctor(::StringW resourcePath) ;

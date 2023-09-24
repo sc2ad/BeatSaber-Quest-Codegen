@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__KnownAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__QualifiedAce_def.hpp"
-#include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceQualifier_def.hpp"
+#include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceType_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::QualifiedAce._ctor
 template<>
@@ -129,8 +129,10 @@ constexpr void System::Security::AccessControl::QualifiedAce::__set_opaque(::Arr
 constexpr ::ArrayW<uint8_t> System::Security::AccessControl::QualifiedAce::__get_opaque() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Security::AccessControl::AceType", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }, CppParam { name: "opaque", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::AccessControl::QualifiedAce::QualifiedAce(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque)  : System::Security::AccessControl::KnownAce(THROW_UNLESS(::il2cpp_utils::New<QualifiedAce>(type, flags, opaque))) {}
+ System::Security::AccessControl::QualifiedAce System::Security::AccessControl::QualifiedAce::New_ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque)  {
+System::Security::AccessControl::QualifiedAce o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::QualifiedAce>(type, flags, opaque))};
+return o;
+}
  void System::Security::AccessControl::QualifiedAce::_ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::QualifiedAce>::get(),
@@ -140,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, flags, opaque);
 }
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::QualifiedAce::QualifiedAce(::ArrayW<uint8_t> binaryForm, int32_t offset)  : System::Security::AccessControl::KnownAce(THROW_UNLESS(::il2cpp_utils::New<QualifiedAce>(binaryForm, offset))) {}
+ System::Security::AccessControl::QualifiedAce System::Security::AccessControl::QualifiedAce::New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
+System::Security::AccessControl::QualifiedAce o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::QualifiedAce>(binaryForm, offset))};
+return o;
+}
  void System::Security::AccessControl::QualifiedAce::_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::QualifiedAce>::get(),

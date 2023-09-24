@@ -2,11 +2,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjectiveChecker_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveTypeSO_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjectiveResult_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjectiveChecker_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjectiveResult_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager__InitData._ctor
 template<>
 
@@ -30,8 +31,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager
 constexpr ::ArrayW<GlobalNamespace::MissionObjective> GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager__InitData::__get_missionObjectives() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::MissionObjective>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "missionObjectives", ty: "::ArrayW<GlobalNamespace::MissionObjective>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager__InitData::GlobalNamespace__MissionObjectiveCheckersManager__InitData(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionObjectiveCheckersManager__InitData>(missionObjectives))) {}
+ GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager__InitData GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager__InitData::New_ctor(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives)  {
+GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager__InitData>(missionObjectives))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager__InitData::_ctor(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionObjectiveCheckersManager__InitData>::get(),
@@ -490,8 +493,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionObjectiveCheckersManager::MissionObjectiveCheckersManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionObjectiveCheckersManager>())) {}
+ GlobalNamespace::MissionObjectiveCheckersManager GlobalNamespace::MissionObjectiveCheckersManager::New_ctor()  {
+GlobalNamespace::MissionObjectiveCheckersManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionObjectiveCheckersManager>())};
+return o;
+}
  void GlobalNamespace::MissionObjectiveCheckersManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionObjectiveCheckersManager>::get(),

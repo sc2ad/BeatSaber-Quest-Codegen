@@ -3,12 +3,15 @@
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UI {
-struct UnityEngine__UI__Selectable__SelectionState;
+namespace HMUI {
+struct HMUI__ToggleWithCallbacks__SelectionState;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Selectable__SelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -69,6 +72,8 @@ __Disabled = 4,
 constexpr operator __HMUI__ToggleWithCallbacks__SelectionState_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__ToggleWithCallbacks__SelectionState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -168,8 +173,7 @@ constexpr System::Action_1<HMUI::HMUI__ToggleWithCallbacks__SelectionState> __ge
 /// @brief Method DoStateTransition addr 0x1fd7240 size 0x4c virtual true final false
  void DoStateTransition(UnityEngine::UI::UnityEngine__UI__Selectable__SelectionState state, bool instant) ;
 
-// Ctor Parameters []
-explicit ToggleWithCallbacks() ;
+static HMUI::ToggleWithCallbacks New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd728c size 0x8 virtual false final false
  void _ctor() ;

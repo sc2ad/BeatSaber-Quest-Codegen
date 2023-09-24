@@ -41,8 +41,10 @@ constexpr void System::Runtime::CompilerServices::TypeForwardedFromAttribute::__
 constexpr ::StringW System::Runtime::CompilerServices::TypeForwardedFromAttribute::__get__AssemblyFullName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "assemblyFullName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::TypeForwardedFromAttribute::TypeForwardedFromAttribute(::StringW assemblyFullName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TypeForwardedFromAttribute>(assemblyFullName))) {}
+ System::Runtime::CompilerServices::TypeForwardedFromAttribute System::Runtime::CompilerServices::TypeForwardedFromAttribute::New_ctor(::StringW assemblyFullName)  {
+System::Runtime::CompilerServices::TypeForwardedFromAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::TypeForwardedFromAttribute>(assemblyFullName))};
+return o;
+}
  void System::Runtime::CompilerServices::TypeForwardedFromAttribute::_ctor(::StringW assemblyFullName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::TypeForwardedFromAttribute>::get(),

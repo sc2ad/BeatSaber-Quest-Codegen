@@ -1,15 +1,15 @@
 #pragma once
 #include "HMUI/zzzz__TextSlider_impl.hpp"
 #include "HMUI/zzzz__ColorGradientSlider_def.hpp"
-#include "HMUI/zzzz__TextSlider_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
+#include "HMUI/zzzz__TextSlider_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
+#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: HMUI::ColorGradientSlider.add_colorDidChangeEvent
 template<>
 
@@ -317,8 +317,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, eventData);
 }
-// Ctor Parameters []
- HMUI::ColorGradientSlider::ColorGradientSlider()  : HMUI::TextSlider(THROW_UNLESS(::il2cpp_utils::New<ColorGradientSlider>())) {}
+ HMUI::ColorGradientSlider HMUI::ColorGradientSlider::New_ctor()  {
+HMUI::ColorGradientSlider o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ColorGradientSlider>())};
+return o;
+}
  void HMUI::ColorGradientSlider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ColorGradientSlider>::get(),

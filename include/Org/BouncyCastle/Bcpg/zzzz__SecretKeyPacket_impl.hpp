@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SecretKeyPacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyAlgorithmTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__S2k_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyPacket_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyPacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyAlgorithmTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::SecretKeyPacket._ctor
 template<>
@@ -229,8 +229,10 @@ constexpr void Org::BouncyCastle::Bcpg::SecretKeyPacket::__set_iv(::ArrayW<uint8
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Bcpg::SecretKeyPacket::__get_iv() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::SecretKeyPacket::SecretKeyPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<SecretKeyPacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::SecretKeyPacket Org::BouncyCastle::Bcpg::SecretKeyPacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::SecretKeyPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::SecretKeyPacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::SecretKeyPacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::SecretKeyPacket>::get(),
@@ -240,8 +242,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgIn);
 }
-// Ctor Parameters [CppParam { name: "pubKeyPacket", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "s2k", ty: "Org::BouncyCastle::Bcpg::S2k", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "secKeyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::SecretKeyPacket::SecretKeyPacket(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<SecretKeyPacket>(pubKeyPacket, encAlgorithm, s2k, iv, secKeyData))) {}
+ Org::BouncyCastle::Bcpg::SecretKeyPacket Org::BouncyCastle::Bcpg::SecretKeyPacket::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData)  {
+Org::BouncyCastle::Bcpg::SecretKeyPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::SecretKeyPacket>(pubKeyPacket, encAlgorithm, s2k, iv, secKeyData))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::SecretKeyPacket::_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::SecretKeyPacket>::get(),
@@ -251,8 +255,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pubKeyPacket, encAlgorithm, s2k, iv, secKeyData);
 }
-// Ctor Parameters [CppParam { name: "pubKeyPacket", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "s2kUsage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "s2k", ty: "Org::BouncyCastle::Bcpg::S2k", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "secKeyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::SecretKeyPacket::SecretKeyPacket(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<SecretKeyPacket>(pubKeyPacket, encAlgorithm, s2kUsage, s2k, iv, secKeyData))) {}
+ Org::BouncyCastle::Bcpg::SecretKeyPacket Org::BouncyCastle::Bcpg::SecretKeyPacket::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData)  {
+Org::BouncyCastle::Bcpg::SecretKeyPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::SecretKeyPacket>(pubKeyPacket, encAlgorithm, s2kUsage, s2k, iv, secKeyData))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::SecretKeyPacket::_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::SecretKeyPacket>::get(),

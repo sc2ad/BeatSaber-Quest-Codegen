@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "currentObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "errorContext", ty: "Newtonsoft::Json::Serialization::ErrorContext", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::ErrorEventArgs::ErrorEventArgs(::bs_hook::Il2CppWrapperType currentObject, Newtonsoft::Json::Serialization::ErrorContext errorContext)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<ErrorEventArgs>(currentObject, errorContext))) {}
+ Newtonsoft::Json::Serialization::ErrorEventArgs Newtonsoft::Json::Serialization::ErrorEventArgs::New_ctor(::bs_hook::Il2CppWrapperType currentObject, Newtonsoft::Json::Serialization::ErrorContext errorContext)  {
+Newtonsoft::Json::Serialization::ErrorEventArgs o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::ErrorEventArgs>(currentObject, errorContext))};
+return o;
+}
  void Newtonsoft::Json::Serialization::ErrorEventArgs::_ctor(::bs_hook::Il2CppWrapperType currentObject, Newtonsoft::Json::Serialization::ErrorContext errorContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::ErrorEventArgs>::get(),

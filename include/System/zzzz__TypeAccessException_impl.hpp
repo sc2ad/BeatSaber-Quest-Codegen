@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__TypeLoadException_impl.hpp"
 #include "System/zzzz__TypeAccessException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::TypeAccessException._ctor
 template<>
 
@@ -37,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::TypeAccessException::TypeAccessException()  : System::TypeLoadException(THROW_UNLESS(::il2cpp_utils::New<TypeAccessException>())) {}
+ System::TypeAccessException System::TypeAccessException::New_ctor()  {
+System::TypeAccessException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeAccessException>())};
+return o;
+}
  void System::TypeAccessException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeAccessException>::get(),
@@ -48,8 +50,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::TypeAccessException::TypeAccessException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::TypeLoadException(THROW_UNLESS(::il2cpp_utils::New<TypeAccessException>(info, context))) {}
+ System::TypeAccessException System::TypeAccessException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::TypeAccessException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeAccessException>(info, context))};
+return o;
+}
  void System::TypeAccessException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeAccessException>::get(),

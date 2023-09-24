@@ -36,8 +36,10 @@ constexpr void System::DelegateData::__set_curried_first_arg(bool value)  {
 constexpr bool System::DelegateData::__get_curried_first_arg() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::DelegateData::DelegateData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DelegateData>())) {}
+ System::DelegateData System::DelegateData::New_ctor()  {
+System::DelegateData o{THROW_UNLESS(::il2cpp_utils::New<System::DelegateData>())};
+return o;
+}
  void System::DelegateData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::DelegateData>::get(),

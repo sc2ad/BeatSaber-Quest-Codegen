@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController::SafeAreaFocusedSimpleDialogPromptViewController()  : GlobalNamespace::SimpleDialogPromptViewController(THROW_UNLESS(::il2cpp_utils::New<SafeAreaFocusedSimpleDialogPromptViewController>())) {}
+ GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController::New_ctor()  {
+GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController>())};
+return o;
+}
  void GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController>::get(),

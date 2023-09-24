@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__DHKeyGeneratorHelper_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper._ctor
 template<>
 
@@ -60,8 +60,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::DHKeyGeneratorHelper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DHKeyGeneratorHelper>())) {}
+ Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::New_ctor()  {
+Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper>::get(),

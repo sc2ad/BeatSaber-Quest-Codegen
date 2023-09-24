@@ -4,6 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System {
+template<typename T>
+class Predicate_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
@@ -11,26 +15,22 @@ class ICollection_1;
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Net::Http::Headers {
 class HttpHeaders;
 }
 namespace System::Net::Http::Headers {
 class HeaderInfo;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
+namespace System::Collections::Generic {
 template<typename T>
-class Predicate_1;
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -135,8 +135,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get_invalidValues() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "headers", ty: "System::Net::Http::Headers::HttpHeaders", modifiers: "", def_value: None }, CppParam { name: "headerInfo", ty: "System::Net::Http::Headers::HeaderInfo", modifiers: "", def_value: None }]
-explicit HttpHeaderValueCollection_1(System::Net::Http::Headers::HttpHeaders headers, System::Net::Http::Headers::HeaderInfo headerInfo) ;
+static System::Net::Http::Headers::HttpHeaderValueCollection_1<T> New_ctor(System::Net::Http::Headers::HttpHeaders headers, System::Net::Http::Headers::HeaderInfo headerInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Net::Http::Headers::HttpHeaders headers, System::Net::Http::Headers::HeaderInfo headerInfo) ;

@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Net::Http::Headers {
+class NameValueHeaderValue;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -14,9 +17,6 @@ class ICollection_1;
 }
 namespace System {
 class ICloneable;
-}
-namespace System::Net::Http::Headers {
-class NameValueHeaderValue;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -87,14 +87,12 @@ constexpr System::Collections::Generic::List_1<System::Net::Http::Headers::NameV
 
 // Methods
 
-// Ctor Parameters []
-explicit ContentDispositionHeaderValue() ;
+static System::Net::Http::Headers::ContentDispositionHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26a5c38 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::ContentDispositionHeaderValue", modifiers: "", def_value: None }]
-explicit ContentDispositionHeaderValue(System::Net::Http::Headers::ContentDispositionHeaderValue source) ;
+static System::Net::Http::Headers::ContentDispositionHeaderValue New_ctor(System::Net::Http::Headers::ContentDispositionHeaderValue source) ;
 
 /// @brief Method .ctor addr 0x26a5c40 size 0x278 virtual false final false
  void _ctor(System::Net::Http::Headers::ContentDispositionHeaderValue source) ;

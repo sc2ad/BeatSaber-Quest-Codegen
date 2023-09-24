@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__AttributeHelperEngine_def.hpp"
-#include "UnityEngine/zzzz__DisallowMultipleComponent_def.hpp"
-#include "UnityEngine/zzzz__RequireComponent_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/zzzz__RequireComponent_def.hpp"
+#include "UnityEngine/zzzz__DisallowMultipleComponent_def.hpp"
 #include "UnityEngine/zzzz__ExecuteInEditMode_def.hpp"
 //  Writing Method size for method: UnityEngine::AttributeHelperEngine.GetParentTypeDisallowingMultipleInclusion
 template<>

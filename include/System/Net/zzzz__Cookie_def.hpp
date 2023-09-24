@@ -7,14 +7,14 @@
 namespace System {
 struct DateTime;
 }
+namespace System::Collections {
+class IComparer;
+}
 namespace System::Net {
 class Comparer;
 }
 namespace System::Net {
 struct CookieVariant;
-}
-namespace System::Collections {
-class IComparer;
 }
 namespace System {
 class Uri;
@@ -263,8 +263,7 @@ constexpr bool __get_IsQuotedDomain() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Cookie() ;
+static System::Net::Cookie New_ctor() ;
 
 /// @brief Method .ctor addr 0x2819450 size 0xe0 virtual false final false
  void _ctor() ;

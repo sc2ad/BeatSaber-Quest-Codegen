@@ -7,87 +7,105 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements::UIR {
-struct DrawBufferRange;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
-}
-namespace System {
 template<typename T>
-struct Nullable_1;
-}
-namespace UnityEngine::UIElements::UIR {
-struct Alloc;
-}
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine::UIElements::UIR {
-class TextureSlotManager;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine {
-class Texture;
+class UnityEngine__UIElements__UIR__Utility__GPUBuffer_1;
 }
 namespace System {
 class Exception;
 }
 namespace UnityEngine::UIElements::UIR {
-template<typename T>
-class LinkedPool_1;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedList_1;
+class Page;
 }
 namespace UnityEngine::UIElements::UIR {
-class MeshHandle;
+struct DrawBufferRange;
 }
 namespace UnityEngine::UIElements::UIR {
 struct Transform3x4;
 }
 namespace UnityEngine::UIElements::UIR {
-template<typename T>
-class UnityEngine__UIElements__UIR__Utility__GPUBuffer_1;
-}
-namespace UnityEngine::UIElements::UIR {
-class Page;
-}
-namespace System {
-class IDisposable;
+class TextureSlotManager;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements::UIR {
+class UnityEngine__UIElements__UIR__UIRenderDevice____c;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine::UIElements::UIR {
+template<typename T>
+class LinkedPool_1;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree;
+}
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedList_1;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine::UIElements::UIR {
+class MeshHandle;
+}
+namespace UnityEngine::UIElements::UIR {
+struct Alloc;
+}
+namespace UnityEngine::UIElements::UIR {
 class DrawParams;
 }
 namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree;
+}
+namespace UnityEngine {
 struct Vector4;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChainCommand;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeSlice_1;
 }
 namespace System {
-template<typename TResult>
-class Func_1;
-}
-namespace System {
 template<typename T>
 class Action_1;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct State;
@@ -592,8 +610,7 @@ static System::Action_1<UnityEngine::UIElements::UIR::MeshHandle> __get___9__53_
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIR__UIRenderDevice____c() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c5c308 size 0x8 virtual false final false
  void _ctor() ;
@@ -936,14 +953,12 @@ static bool __declspec(property(get=get_shaderModelIs35))  shaderModelIs35;
 /// @brief Method set_breakBatches addr 0x2c550a0 size 0xc virtual false final false
  void set_breakBatches(bool value) ;
 
-// Ctor Parameters [CppParam { name: "initialVertexCapacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "initialIndexCapacity", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit UIRenderDevice(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity) ;
+static UnityEngine::UIElements::UIR::UIRenderDevice New_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity) ;
 
 /// @brief Method .ctor addr 0x2c55464 size 0x8 virtual false final false
  void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity) ;
 
-// Ctor Parameters [CppParam { name: "initialVertexCapacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "initialIndexCapacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "mockDevice", ty: "bool", modifiers: "", def_value: None }]
-explicit UIRenderDevice(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice) ;
+static UnityEngine::UIElements::UIR::UIRenderDevice New_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice) ;
 
 /// @brief Method .ctor addr 0x2c5546c size 0x5b0 virtual false final false
  void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice) ;

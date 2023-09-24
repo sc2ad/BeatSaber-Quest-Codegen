@@ -78,8 +78,7 @@ constexpr ::ArrayW<UnityEngine::UnityEngine__ParticleSystem__EmissionModule> __g
 /// @brief Method OnBecameInvisible addr 0x1f76bec size 0x74 virtual false final false
  void OnBecameInvisible() ;
 
-// Ctor Parameters []
-explicit EnableEmmisionOnVisible() ;
+static GlobalNamespace::EnableEmmisionOnVisible New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f76c60 size 0x8 virtual false final false
  void _ctor() ;

@@ -156,8 +156,7 @@ constexpr float_t __get__lastFadeOutProgress() const;
 /// @brief Method UpdateRenderers addr 0x20aeebc size 0x15c virtual false final false
  void UpdateRenderers(float_t flipBookAlpha, float_t bloomAlpha) ;
 
-// Ctor Parameters []
-explicit ContinuousFireEffect() ;
+static GlobalNamespace::ContinuousFireEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20af018 size 0x8c virtual false final false
  void _ctor() ;

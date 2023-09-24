@@ -2,13 +2,13 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
-}
-namespace Org::BouncyCastle::Pkix {
 class PkixParameters;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPathValidatorResult;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPath;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -59,8 +59,7 @@ constexpr explicit PkixAttrCertPathValidator(void* ptr) noexcept : ::bs_hook::Il
 /// @brief Method Validate addr 0x105fa58 size 0x3cc virtual true final false
  Org::BouncyCastle::Pkix::PkixCertPathValidatorResult Validate(Org::BouncyCastle::Pkix::PkixCertPath certPath, Org::BouncyCastle::Pkix::PkixParameters pkixParams) ;
 
-// Ctor Parameters []
-explicit PkixAttrCertPathValidator() ;
+static Org::BouncyCastle::Pkix::PkixAttrCertPathValidator New_ctor() ;
 
 /// @brief Method .ctor addr 0x105f0f8 size 0x8 virtual false final false
  void _ctor() ;

@@ -57,14 +57,12 @@ constexpr float_t __get_height() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SpaceAttribute() ;
+static UnityEngine::SpaceAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b54e34 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None }]
-explicit SpaceAttribute(float_t height) ;
+static UnityEngine::SpaceAttribute New_ctor(float_t height) ;
 
 /// @brief Method .ctor addr 0x2b54e54 size 0x28 virtual false final false
  void _ctor(float_t height) ;

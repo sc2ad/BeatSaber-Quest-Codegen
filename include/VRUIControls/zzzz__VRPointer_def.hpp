@@ -3,20 +3,20 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace UnityEngine::EventSystems {
+class EventSystem;
+}
 namespace VRUIControls {
 class VRLaserPointer;
 }
 namespace UnityEngine::EventSystems {
-class EventSystem;
-}
-namespace UnityEngine::EventSystems {
 class PointerEventData;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace GlobalNamespace {
 class VRController;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
@@ -265,8 +265,7 @@ constexpr UnityEngine::EventSystems::PointerEventData __get__pointerData() const
 /// @brief Method Process addr 0x2d3ec3c size 0x68 virtual false final false
  void Process(UnityEngine::EventSystems::PointerEventData pointerEventData) ;
 
-// Ctor Parameters []
-explicit VRPointer() ;
+static VRUIControls::VRPointer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40234 size 0x24 virtual false final false
  void _ctor() ;

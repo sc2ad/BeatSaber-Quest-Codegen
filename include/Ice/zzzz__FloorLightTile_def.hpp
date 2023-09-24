@@ -3,24 +3,27 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
-namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace Tweening {
-class ColorTween;
+namespace GlobalNamespace {
+class MaterialPropertyBlockColorSetter;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace GlobalNamespace {
-class MaterialPropertyBlockColorSetter;
+namespace UnityEngine {
+struct Color;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
+namespace Ice {
+class Ice__FloorLightTile__Pool;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
-namespace UnityEngine {
-struct Color;
+namespace Tweening {
+class ColorTween;
 }
 // Forward declare root types
 namespace Ice {
@@ -130,8 +133,7 @@ constexpr Tweening::ColorTween __get__fadeOutTween() const;
 /// @brief Method SetColor addr 0x12119a4 size 0x64 virtual false final false
  void SetColor(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit FloorLightTile() ;
+static Ice::FloorLightTile New_ctor() ;
 
 /// @brief Method .ctor addr 0x1211a08 size 0x8 virtual false final false
  void _ctor() ;
@@ -143,7 +145,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace Ice {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 295 }), TypeDefinitionIndex(TypeDefinitionIndex(16000)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 295 }), TypeDefinitionIndex(TypeDefinitionIndex(16000))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15999))
 // CS Name: Ice.FloorLightTile::Pool
 class CORDL_TYPE Ice__FloorLightTile__Pool : public Zenject::MonoMemoryPool_1<Ice::FloorLightTile> {
@@ -182,8 +184,7 @@ constexpr explicit Ice__FloorLightTile__Pool(void* ptr) noexcept : Zenject::Mono
 
 // Methods
 
-// Ctor Parameters []
-explicit Ice__FloorLightTile__Pool() ;
+static Ice::Ice__FloorLightTile__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x1211a10 size 0x48 virtual false final false
  void _ctor() ;

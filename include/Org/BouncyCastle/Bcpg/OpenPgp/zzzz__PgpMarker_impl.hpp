@@ -26,8 +26,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker::__set_data(Org::Boun
 constexpr Org::BouncyCastle::Bcpg::MarkerPacket Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker::__get_data() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::MarkerPacket, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker::PgpMarker(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(THROW_UNLESS(::il2cpp_utils::New<PgpMarker>(bcpgInput))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker>(bcpgInput))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker>::get(),

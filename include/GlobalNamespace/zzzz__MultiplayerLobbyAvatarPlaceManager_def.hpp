@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool;
@@ -109,8 +109,7 @@ constexpr float_t __get__minOuterCircleRadius() const;
 /// @brief Method DespawnAllPlaces addr 0x20c5678 size 0x14c virtual false final false
  void DespawnAllPlaces() ;
 
-// Ctor Parameters []
-explicit MultiplayerLobbyAvatarPlaceManager() ;
+static GlobalNamespace::MultiplayerLobbyAvatarPlaceManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c57c8 size 0x7c virtual false final false
  void _ctor() ;

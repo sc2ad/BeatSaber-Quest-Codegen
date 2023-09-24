@@ -68,8 +68,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::TimeSpan, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Diagnostics::ProcessThreadTimes::ProcessThreadTimes()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProcessThreadTimes>())) {}
+ System::Diagnostics::ProcessThreadTimes System::Diagnostics::ProcessThreadTimes::New_ctor()  {
+System::Diagnostics::ProcessThreadTimes o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::ProcessThreadTimes>())};
+return o;
+}
  void System::Diagnostics::ProcessThreadTimes::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::ProcessThreadTimes>::get(),

@@ -47,8 +47,7 @@ constexpr explicit SourceTemplateAttribute(void* ptr) noexcept : System::Attribu
 
 // Methods
 
-// Ctor Parameters []
-explicit SourceTemplateAttribute() ;
+static JetBrains::Annotations::SourceTemplateAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40ec0 size 0x8 virtual false final false
  void _ctor() ;

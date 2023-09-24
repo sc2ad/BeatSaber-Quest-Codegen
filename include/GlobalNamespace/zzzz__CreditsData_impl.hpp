@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__CreditsData_def.hpp"
+#include "GlobalNamespace/zzzz__CreditsData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__CreditsData__TextStyle::GlobalNamespace__CreditsData__TextStyle(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -100,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__CreditsData__Text::GlobalNamespace__CreditsData__Text()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CreditsData__Text>())) {}
+ GlobalNamespace::GlobalNamespace__CreditsData__Text GlobalNamespace::GlobalNamespace__CreditsData__Text::New_ctor()  {
+GlobalNamespace::GlobalNamespace__CreditsData__Text o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CreditsData__Text>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CreditsData__Text::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CreditsData__Text>::get(),
@@ -230,8 +233,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__CreditsData__RootCreditsItem::GlobalNamespace__CreditsData__RootCreditsItem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CreditsData__RootCreditsItem>())) {}
+ GlobalNamespace::GlobalNamespace__CreditsData__RootCreditsItem GlobalNamespace::GlobalNamespace__CreditsData__RootCreditsItem::New_ctor()  {
+GlobalNamespace::GlobalNamespace__CreditsData__RootCreditsItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CreditsData__RootCreditsItem>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CreditsData__RootCreditsItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CreditsData__RootCreditsItem>::get(),
@@ -322,8 +327,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__CreditsData__ChildCreditsItem::GlobalNamespace__CreditsData__ChildCreditsItem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CreditsData__ChildCreditsItem>())) {}
+ GlobalNamespace::GlobalNamespace__CreditsData__ChildCreditsItem GlobalNamespace::GlobalNamespace__CreditsData__ChildCreditsItem::New_ctor()  {
+GlobalNamespace::GlobalNamespace__CreditsData__ChildCreditsItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CreditsData__ChildCreditsItem>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CreditsData__ChildCreditsItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CreditsData__ChildCreditsItem>::get(),
@@ -382,8 +389,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::CreditsData, false>(nullptr, ___internal_method, text);
 }
-// Ctor Parameters []
- GlobalNamespace::CreditsData::CreditsData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CreditsData>())) {}
+ GlobalNamespace::CreditsData GlobalNamespace::CreditsData::New_ctor()  {
+GlobalNamespace::CreditsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CreditsData>())};
+return o;
+}
  void GlobalNamespace::CreditsData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CreditsData>::get(),

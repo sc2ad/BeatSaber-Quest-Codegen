@@ -3,17 +3,11 @@
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace UnityEngine::Rendering {
-struct TextureDimension;
-}
 namespace UnityEngine {
-struct RenderTextureDescriptor;
+struct VRTextureUsage;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
-}
-namespace UnityEngine {
-struct RenderTextureFormat;
 }
 namespace UnityEngine {
 struct RenderBuffer;
@@ -21,14 +15,20 @@ struct RenderBuffer;
 namespace UnityEngine::Experimental::Rendering {
 struct DefaultFormat;
 }
+namespace UnityEngine::Rendering {
+struct TextureDimension;
+}
 namespace UnityEngine {
-struct VRTextureUsage;
+struct RenderTextureFormat;
+}
+namespace UnityEngine {
+struct RenderTextureMemoryless;
 }
 namespace UnityEngine {
 struct RenderTextureReadWrite;
 }
 namespace UnityEngine {
-struct RenderTextureMemoryless;
+struct RenderTextureDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -209,74 +209,62 @@ static UnityEngine::RenderTexture GetTemporary_Internal(UnityEngine::RenderTextu
 /// @brief Method ReleaseTemporary addr 0x2b3d2a4 size 0x3c virtual false final false
 static void ReleaseTemporary(UnityEngine::RenderTexture temp) ;
 
-// Ctor Parameters []
-explicit RenderTexture() ;
+static UnityEngine::RenderTexture New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b3d2e0 size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "desc", ty: "UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }]
-explicit RenderTexture(UnityEngine::RenderTextureDescriptor desc) ;
+static UnityEngine::RenderTexture New_ctor(UnityEngine::RenderTextureDescriptor desc) ;
 
 /// @brief Method .ctor addr 0x2b3d334 size 0xf8 virtual false final false
  void _ctor(UnityEngine::RenderTextureDescriptor desc) ;
 
-// Ctor Parameters [CppParam { name: "textureToCopy", ty: "UnityEngine::RenderTexture", modifiers: "", def_value: None }]
-explicit RenderTexture(UnityEngine::RenderTexture textureToCopy) ;
+static UnityEngine::RenderTexture New_ctor(UnityEngine::RenderTexture textureToCopy) ;
 
 /// @brief Method .ctor addr 0x2b3d87c size 0x16c virtual false final false
  void _ctor(UnityEngine::RenderTexture textureToCopy) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::DefaultFormat", modifiers: "", def_value: None }]
-explicit RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format) ;
+static UnityEngine::RenderTexture New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format) ;
 
 /// @brief Method .ctor addr 0x2b3da78 size 0x4c virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }]
-explicit RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format) ;
+static UnityEngine::RenderTexture New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format) ;
 
 /// @brief Method .ctor addr 0x2b3dac4 size 0x90 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount) ;
+static UnityEngine::RenderTexture New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount) ;
 
 /// @brief Method .ctor addr 0x2b3db54 size 0x200 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "colorFormat", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "depthStencilFormat", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RenderTexture(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat, int32_t mipCount) ;
+static UnityEngine::RenderTexture New_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat, int32_t mipCount) ;
 
 /// @brief Method .ctor addr 0x2b3ddd8 size 0x204 virtual false final false
  void _ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat, int32_t mipCount) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "colorFormat", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "depthStencilFormat", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }]
-explicit RenderTexture(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat) ;
+static UnityEngine::RenderTexture New_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat) ;
 
 /// @brief Method .ctor addr 0x2b3dfdc size 0x90 virtual false final false
  void _ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::RenderTextureFormat", modifiers: "", def_value: None }, CppParam { name: "readWrite", ty: "UnityEngine::RenderTextureReadWrite", modifiers: "", def_value: None }]
-explicit RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite) ;
+static UnityEngine::RenderTexture New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite) ;
 
 /// @brief Method .ctor addr 0x2b3e06c size 0xa8 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, UnityEngine::RenderTextureReadWrite readWrite) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::RenderTextureFormat", modifiers: "", def_value: None }]
-explicit RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format) ;
+static UnityEngine::RenderTexture New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format) ;
 
 /// @brief Method .ctor addr 0x2b3e2f0 size 0x90 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RenderTexture(int32_t width, int32_t height, int32_t depth) ;
+static UnityEngine::RenderTexture New_ctor(int32_t width, int32_t height, int32_t depth) ;
 
 /// @brief Method .ctor addr 0x2b3e420 size 0x8 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::RenderTextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RenderTexture(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, int32_t mipCount) ;
+static UnityEngine::RenderTexture New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, int32_t mipCount) ;
 
 /// @brief Method .ctor addr 0x2b3e380 size 0xa0 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::RenderTextureFormat format, int32_t mipCount) ;

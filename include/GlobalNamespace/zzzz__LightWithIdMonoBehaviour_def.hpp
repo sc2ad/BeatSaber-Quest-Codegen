@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class LightWithIdManager;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class LightWithIdManager;
 }
 namespace GlobalNamespace {
 class ILightWithId;
@@ -118,8 +118,7 @@ constexpr bool __get__isRegistered() const;
 /// @brief Method SetLightId addr 0x1f9e828 size 0xa8 virtual false final false
  void SetLightId(int32_t newLightId) ;
 
-// Ctor Parameters []
-explicit LightWithIdMonoBehaviour() ;
+static GlobalNamespace::LightWithIdMonoBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9c4cc size 0x10 virtual false final false
  void _ctor() ;

@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -82,14 +82,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Object __get_certValue() const;
 /// @brief Method GetInstance addr 0xef7c24 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::CertBag GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertBag(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::CertBag New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef7cc8 size 0x13c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "certID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "certValue", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
-explicit CertBag(Org::BouncyCastle::Asn1::DerObjectIdentifier certID, Org::BouncyCastle::Asn1::Asn1Object certValue) ;
+static Org::BouncyCastle::Asn1::Pkcs::CertBag New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier certID, Org::BouncyCastle::Asn1::Asn1Object certValue) ;
 
 /// @brief Method .ctor addr 0xef7e04 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier certID, Org::BouncyCastle::Asn1::Asn1Object certValue) ;

@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class AsyncOperation;
-}
 namespace UnityEngine::SceneManagement {
 struct LoadSceneParameters;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace UnityEngine::SceneManagement {
 struct UnloadSceneOptions;

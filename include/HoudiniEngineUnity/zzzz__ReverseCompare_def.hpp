@@ -57,8 +57,7 @@ constexpr explicit ReverseCompare(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 /// @brief Method Compare addr 0x2048824 size 0x78 virtual true final true
  int32_t Compare(::bs_hook::Il2CppWrapperType x, ::bs_hook::Il2CppWrapperType y) ;
 
-// Ctor Parameters []
-explicit ReverseCompare() ;
+static HoudiniEngineUnity::ReverseCompare New_ctor() ;
 
 /// @brief Method .ctor addr 0x204889c size 0x8 virtual false final false
  void _ctor() ;

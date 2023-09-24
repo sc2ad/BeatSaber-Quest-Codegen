@@ -2,15 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine {
-class Object;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections {
-class Hashtable;
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -93,8 +93,7 @@ constexpr System::Collections::Generic::IEnumerable_1<UnityEngine::Object> __get
 /// @brief Method get_userData addr 0x2c910a0 size 0x8 virtual false final false
  ::bs_hook::Il2CppWrapperType get_userData() ;
 
-// Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit StartDragArgs(::StringW title, ::bs_hook::Il2CppWrapperType userData) ;
+static UnityEngine::UIElements::StartDragArgs New_ctor(::StringW title, ::bs_hook::Il2CppWrapperType userData) ;
 
 /// @brief Method .ctor addr 0x2c90fe8 size 0x80 virtual false final false
  void _ctor(::StringW title, ::bs_hook::Il2CppWrapperType userData) ;

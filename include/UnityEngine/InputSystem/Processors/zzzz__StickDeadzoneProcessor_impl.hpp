@@ -163,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::StickDeadzoneProcessor()  : UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector2>(THROW_UNLESS(::il2cpp_utils::New<StickDeadzoneProcessor>())) {}
+ UnityEngine::InputSystem::Processors::StickDeadzoneProcessor UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::New_ctor()  {
+UnityEngine::InputSystem::Processors::StickDeadzoneProcessor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Processors::StickDeadzoneProcessor>())};
+return o;
+}
  void UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Processors::StickDeadzoneProcessor>::get(),

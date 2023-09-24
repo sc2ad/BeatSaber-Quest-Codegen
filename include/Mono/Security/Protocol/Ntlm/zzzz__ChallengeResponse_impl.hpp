@@ -245,8 +245,10 @@ constexpr void Mono::Security::Protocol::Ntlm::ChallengeResponse::__set__ntpwd(:
 constexpr ::ArrayW<uint8_t> Mono::Security::Protocol::Ntlm::ChallengeResponse::__get__ntpwd() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::Protocol::Ntlm::ChallengeResponse::ChallengeResponse()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ChallengeResponse>())) {}
+ Mono::Security::Protocol::Ntlm::ChallengeResponse Mono::Security::Protocol::Ntlm::ChallengeResponse::New_ctor()  {
+Mono::Security::Protocol::Ntlm::ChallengeResponse o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Protocol::Ntlm::ChallengeResponse>())};
+return o;
+}
  void Mono::Security::Protocol::Ntlm::ChallengeResponse::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Protocol::Ntlm::ChallengeResponse>::get(),
@@ -256,8 +258,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "challenge", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::Protocol::Ntlm::ChallengeResponse::ChallengeResponse(::StringW password, ::ArrayW<uint8_t> challenge)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ChallengeResponse>(password, challenge))) {}
+ Mono::Security::Protocol::Ntlm::ChallengeResponse Mono::Security::Protocol::Ntlm::ChallengeResponse::New_ctor(::StringW password, ::ArrayW<uint8_t> challenge)  {
+Mono::Security::Protocol::Ntlm::ChallengeResponse o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Protocol::Ntlm::ChallengeResponse>(password, challenge))};
+return o;
+}
  void Mono::Security::Protocol::Ntlm::ChallengeResponse::_ctor(::StringW password, ::ArrayW<uint8_t> challenge)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Protocol::Ntlm::ChallengeResponse>::get(),

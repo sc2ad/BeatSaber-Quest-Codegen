@@ -3,28 +3,28 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
+namespace UnityEngine::Pool {
+template<typename T>
+class IObjectPool_1;
 }
 namespace UnityEngine::Pool {
 template<typename T>
 struct PooledObject_1;
 }
-namespace UnityEngine::Pool {
+namespace System {
 template<typename T>
-class IObjectPool_1;
+class Action_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System {
-template<typename T>
-class Action_1;
+class IDisposable;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
@@ -153,8 +153,7 @@ constexpr int32_t __get__CountAll_k__BackingField() const;
 /// @brief Method get_CountInactive addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t get_CountInactive() ;
 
-// Ctor Parameters [CppParam { name: "createFunc", ty: "System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnGet", ty: "System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnRelease", ty: "System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnDestroy", ty: "System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "collectionCheck", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "defaultCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ObjectPool_1(System::Func_1<T> createFunc, System::Action_1<T> actionOnGet, System::Action_1<T> actionOnRelease, System::Action_1<T> actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize) ;
+static UnityEngine::Pool::ObjectPool_1<T> New_ctor(System::Func_1<T> createFunc, System::Action_1<T> actionOnGet, System::Action_1<T> actionOnRelease, System::Action_1<T> actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Func_1<T> createFunc, System::Action_1<T> actionOnGet, System::Action_1<T> actionOnRelease, System::Action_1<T> actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize) ;

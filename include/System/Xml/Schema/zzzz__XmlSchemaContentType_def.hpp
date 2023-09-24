@@ -58,6 +58,8 @@ constexpr operator __XmlSchemaContentType_Unwrapped () const noexcept {
 return std::bit_cast<__XmlSchemaContentType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

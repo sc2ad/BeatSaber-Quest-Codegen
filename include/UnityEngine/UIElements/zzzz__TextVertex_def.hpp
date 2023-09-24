@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Color32;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__SipHash_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Macs::SipHash._ctor
 template<>
 
@@ -293,8 +293,10 @@ constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_wordCount(int32_t
 constexpr int32_t Org::BouncyCastle::Crypto::Macs::SipHash::__get_wordCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x54>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Macs::SipHash::SipHash()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SipHash>())) {}
+ Org::BouncyCastle::Crypto::Macs::SipHash Org::BouncyCastle::Crypto::Macs::SipHash::New_ctor()  {
+Org::BouncyCastle::Crypto::Macs::SipHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::SipHash>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::SipHash::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::SipHash>::get(),
@@ -304,8 +306,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "c", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Macs::SipHash::SipHash(int32_t c, int32_t d)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SipHash>(c, d))) {}
+ Org::BouncyCastle::Crypto::Macs::SipHash Org::BouncyCastle::Crypto::Macs::SipHash::New_ctor(int32_t c, int32_t d)  {
+Org::BouncyCastle::Crypto::Macs::SipHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::SipHash>(c, d))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::SipHash::_ctor(int32_t c, int32_t d)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::SipHash>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__MeansImplicitUseAttribute_def.hpp"
-#include "JetBrains/Annotations/zzzz__ImplicitUseTargetFlags_def.hpp"
 #include "JetBrains/Annotations/zzzz__ImplicitUseKindFlags_def.hpp"
+#include "JetBrains/Annotations/zzzz__ImplicitUseTargetFlags_def.hpp"
 //  Writing Method size for method: JetBrains::Annotations::MeansImplicitUseAttribute._ctor
 template<>
 
@@ -151,8 +151,10 @@ constexpr void JetBrains::Annotations::MeansImplicitUseAttribute::__set__TargetF
 constexpr JetBrains::Annotations::ImplicitUseTargetFlags JetBrains::Annotations::MeansImplicitUseAttribute::__get__TargetFlags_k__BackingField() const {
 return ::cordl_internals::getInstanceField<JetBrains::Annotations::ImplicitUseTargetFlags, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- JetBrains::Annotations::MeansImplicitUseAttribute::MeansImplicitUseAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MeansImplicitUseAttribute>())) {}
+ JetBrains::Annotations::MeansImplicitUseAttribute JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor()  {
+JetBrains::Annotations::MeansImplicitUseAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::MeansImplicitUseAttribute>())};
+return o;
+}
  void JetBrains::Annotations::MeansImplicitUseAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::MeansImplicitUseAttribute>::get(),
@@ -162,8 +164,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "useKindFlags", ty: "JetBrains::Annotations::ImplicitUseKindFlags", modifiers: "", def_value: None }]
- JetBrains::Annotations::MeansImplicitUseAttribute::MeansImplicitUseAttribute(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MeansImplicitUseAttribute>(useKindFlags))) {}
+ JetBrains::Annotations::MeansImplicitUseAttribute JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags)  {
+JetBrains::Annotations::MeansImplicitUseAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::MeansImplicitUseAttribute>(useKindFlags))};
+return o;
+}
  void JetBrains::Annotations::MeansImplicitUseAttribute::_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::MeansImplicitUseAttribute>::get(),
@@ -173,8 +177,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, useKindFlags);
 }
-// Ctor Parameters [CppParam { name: "targetFlags", ty: "JetBrains::Annotations::ImplicitUseTargetFlags", modifiers: "", def_value: None }]
- JetBrains::Annotations::MeansImplicitUseAttribute::MeansImplicitUseAttribute(JetBrains::Annotations::ImplicitUseTargetFlags targetFlags)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MeansImplicitUseAttribute>(targetFlags))) {}
+ JetBrains::Annotations::MeansImplicitUseAttribute JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor(JetBrains::Annotations::ImplicitUseTargetFlags targetFlags)  {
+JetBrains::Annotations::MeansImplicitUseAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::MeansImplicitUseAttribute>(targetFlags))};
+return o;
+}
  void JetBrains::Annotations::MeansImplicitUseAttribute::_ctor(JetBrains::Annotations::ImplicitUseTargetFlags targetFlags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::MeansImplicitUseAttribute>::get(),
@@ -184,8 +190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, targetFlags);
 }
-// Ctor Parameters [CppParam { name: "useKindFlags", ty: "JetBrains::Annotations::ImplicitUseKindFlags", modifiers: "", def_value: None }, CppParam { name: "targetFlags", ty: "JetBrains::Annotations::ImplicitUseTargetFlags", modifiers: "", def_value: None }]
- JetBrains::Annotations::MeansImplicitUseAttribute::MeansImplicitUseAttribute(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MeansImplicitUseAttribute>(useKindFlags, targetFlags))) {}
+ JetBrains::Annotations::MeansImplicitUseAttribute JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags)  {
+JetBrains::Annotations::MeansImplicitUseAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::MeansImplicitUseAttribute>(useKindFlags, targetFlags))};
+return o;
+}
  void JetBrains::Annotations::MeansImplicitUseAttribute::_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::MeansImplicitUseAttribute>::get(),

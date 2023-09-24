@@ -4,34 +4,43 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__AvatarTweenController____c__DisplayClass52_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace Tweening {
 template<typename T>
 class Tween_1;
 }
+namespace UnityEngine {
+class Transform;
+}
 namespace Tweening {
 class TimeTweeningManager;
 }
 namespace GlobalNamespace {
-struct EaseType;
+class GlobalNamespace__AvatarTweenController___AppearAnimation_d__53;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine {
 class WaitForSeconds;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +112,7 @@ constexpr UnityEngine::Vector3 __get_originalScale() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__AvatarTweenController____c__DisplayClass52_0() ;
+static GlobalNamespace::GlobalNamespace__AvatarTweenController____c__DisplayClass52_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c0f68 size 0x8 virtual false final false
  void _ctor() ;
@@ -201,8 +209,7 @@ constexpr UnityEngine::WaitForSeconds __get__waitYieldInstruction_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AvatarTweenController___AppearAnimation_d__53(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__AvatarTweenController___AppearAnimation_d__53 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c0f70 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -305,8 +312,7 @@ constexpr GlobalNamespace::AvatarTweenController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__AvatarTweenController___DisappearAnimation_d__58 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c1a68 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -684,8 +690,7 @@ constexpr UnityEngine::Vector3 __get__avatarLocalScale() const;
 /// @brief Method StopAll addr 0x20c0ae8 size 0x94 virtual false final false
  void StopAll() ;
 
-// Ctor Parameters []
-explicit AvatarTweenController() ;
+static GlobalNamespace::AvatarTweenController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c1a90 size 0x54 virtual false final false
  void _ctor() ;

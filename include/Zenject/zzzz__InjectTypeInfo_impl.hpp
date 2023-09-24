@@ -1,7 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__InjectableInfo_def.hpp"
 #include "Zenject/zzzz__ZenFactoryMethod_def.hpp"
@@ -36,8 +37,10 @@ constexpr void Zenject::Zenject__InjectTypeInfo__InjectMemberInfo::__set_Info(Ze
 constexpr Zenject::InjectableInfo Zenject::Zenject__InjectTypeInfo__InjectMemberInfo::__get_Info() const {
 return ::cordl_internals::getInstanceField<Zenject::InjectableInfo, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "setter", ty: "Zenject::ZenMemberSetterMethod", modifiers: "", def_value: None }, CppParam { name: "info", ty: "Zenject::InjectableInfo", modifiers: "", def_value: None }]
- Zenject::Zenject__InjectTypeInfo__InjectMemberInfo::Zenject__InjectTypeInfo__InjectMemberInfo(Zenject::ZenMemberSetterMethod setter, Zenject::InjectableInfo info)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__InjectTypeInfo__InjectMemberInfo>(setter, info))) {}
+ Zenject::Zenject__InjectTypeInfo__InjectMemberInfo Zenject::Zenject__InjectTypeInfo__InjectMemberInfo::New_ctor(Zenject::ZenMemberSetterMethod setter, Zenject::InjectableInfo info)  {
+Zenject::Zenject__InjectTypeInfo__InjectMemberInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__InjectTypeInfo__InjectMemberInfo>(setter, info))};
+return o;
+}
  void Zenject::Zenject__InjectTypeInfo__InjectMemberInfo::_ctor(Zenject::ZenMemberSetterMethod setter, Zenject::InjectableInfo info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InjectTypeInfo__InjectMemberInfo>::get(),
@@ -76,8 +79,10 @@ constexpr void Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo::__set_Pa
 constexpr ::ArrayW<Zenject::InjectableInfo> Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo::__get_Parameters() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Zenject::InjectableInfo>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "factory", ty: "Zenject::ZenFactoryMethod", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "::ArrayW<Zenject::InjectableInfo>", modifiers: "", def_value: None }]
- Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo::Zenject__InjectTypeInfo__InjectConstructorInfo(Zenject::ZenFactoryMethod factory, ::ArrayW<Zenject::InjectableInfo> parameters)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__InjectTypeInfo__InjectConstructorInfo>(factory, parameters))) {}
+ Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo::New_ctor(Zenject::ZenFactoryMethod factory, ::ArrayW<Zenject::InjectableInfo> parameters)  {
+Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo>(factory, parameters))};
+return o;
+}
  void Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo::_ctor(Zenject::ZenFactoryMethod factory, ::ArrayW<Zenject::InjectableInfo> parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo>::get(),
@@ -122,8 +127,10 @@ constexpr void Zenject::Zenject__InjectTypeInfo__InjectMethodInfo::__set_Paramet
 constexpr ::ArrayW<Zenject::InjectableInfo> Zenject::Zenject__InjectTypeInfo__InjectMethodInfo::__get_Parameters() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Zenject::InjectableInfo>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "Zenject::ZenInjectMethod", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "::ArrayW<Zenject::InjectableInfo>", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- Zenject::Zenject__InjectTypeInfo__InjectMethodInfo::Zenject__InjectTypeInfo__InjectMethodInfo(Zenject::ZenInjectMethod action, ::ArrayW<Zenject::InjectableInfo> parameters, ::StringW name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__InjectTypeInfo__InjectMethodInfo>(action, parameters, name))) {}
+ Zenject::Zenject__InjectTypeInfo__InjectMethodInfo Zenject::Zenject__InjectTypeInfo__InjectMethodInfo::New_ctor(Zenject::ZenInjectMethod action, ::ArrayW<Zenject::InjectableInfo> parameters, ::StringW name)  {
+Zenject::Zenject__InjectTypeInfo__InjectMethodInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo>(action, parameters, name))};
+return o;
+}
  void Zenject::Zenject__InjectTypeInfo__InjectMethodInfo::_ctor(Zenject::ZenInjectMethod action, ::ArrayW<Zenject::InjectableInfo> parameters, ::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo>::get(),
@@ -277,8 +284,10 @@ return ::cordl_internals::getStaticField<System::Func_2<Zenject::Zenject__Inject
  System::Func_2<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo,System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo>> Zenject::InjectTypeInfo::__get_CS$__9__CachedAnonymousMethodDelegate3()  {
 return ::cordl_internals::getStaticField<System::Func_2<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo,System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo>>, "CS$<>9__CachedAnonymousMethodDelegate3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::InjectTypeInfo>::get>();
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "injectConstructor", ty: "Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo", modifiers: "", def_value: None }, CppParam { name: "injectMethods", ty: "::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo>", modifiers: "", def_value: None }, CppParam { name: "injectMembers", ty: "::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMemberInfo>", modifiers: "", def_value: None }]
- Zenject::InjectTypeInfo::InjectTypeInfo(System::Type type, Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo injectConstructor, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo> injectMethods, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMemberInfo> injectMembers)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InjectTypeInfo>(type, injectConstructor, injectMethods, injectMembers))) {}
+ Zenject::InjectTypeInfo Zenject::InjectTypeInfo::New_ctor(System::Type type, Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo injectConstructor, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo> injectMethods, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMemberInfo> injectMembers)  {
+Zenject::InjectTypeInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::InjectTypeInfo>(type, injectConstructor, injectMethods, injectMembers))};
+return o;
+}
  void Zenject::InjectTypeInfo::_ctor(System::Type type, Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo injectConstructor, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo> injectMethods, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMemberInfo> injectMembers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::InjectTypeInfo>::get(),

@@ -7,19 +7,19 @@ namespace UnityEngine {
 struct FontStyle;
 }
 namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine {
 struct HorizontalWrapMode;
-}
-namespace UnityEngine {
-class Font;
 }
 namespace UnityEngine {
 struct VerticalWrapMode;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
+struct TextAnchor;
+}
+namespace UnityEngine {
+class Font;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -255,8 +255,7 @@ static UnityEngine::UI::FontData get_defaultFontData() ;
 /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize addr 0x2be2040 size 0x44 virtual true final true
  void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize() ;
 
-// Ctor Parameters []
-explicit FontData() ;
+static UnityEngine::UI::FontData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2be1f68 size 0x8 virtual false final false
  void _ctor() ;

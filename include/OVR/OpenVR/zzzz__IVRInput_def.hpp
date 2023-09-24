@@ -8,6 +8,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace System {
+class IAsyncResult;
+}
+namespace OVR::OpenVR {
+struct EVRInputError;
+}
 namespace OVR::OpenVR {
 struct EVRSkeletalTransformSpace;
 }
@@ -16,12 +22,6 @@ struct VRBoneTransform_t;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace OVR::OpenVR {
-struct EVRInputError;
 }
 namespace OVR::OpenVR {
 struct InputAnalogActionData_t;
@@ -49,6 +49,60 @@ struct EVRSkeletalMotionRange;
 }
 namespace OVR::OpenVR {
 struct VRActiveActionSet_t;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetSkeletalBoneDataCompressed;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___ShowBindingsForActionSet;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetPoseActionData;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetSkeletalBoneData;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___SetActionManifestPath;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___DecompressSkeletalBoneData;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___TriggerHapticVibrationAction;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetActionSetHandle;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetOriginTrackedDeviceInfo;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetDigitalActionData;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetActionOrigins;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetInputSourceHandle;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetAnalogActionData;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetSkeletalActionData;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetActionHandle;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___UpdateActionState;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___GetOriginLocalizedName;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRInput___ShowActionOrigins;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -150,8 +204,7 @@ constexpr explicit OVR__OpenVR__IVRInput___SetActionManifestPath(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___SetActionManifestPath(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___SetActionManifestPath New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265fdcc size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -211,8 +264,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetActionSetHandle(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetActionSetHandle(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetActionSetHandle New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265fefc size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -272,8 +324,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetActionHandle(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetActionHandle(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetActionHandle New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26600a8 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -333,8 +384,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetInputSourceHandle(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetInputSourceHandle(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetInputSourceHandle New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2660254 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -394,8 +444,7 @@ constexpr explicit OVR__OpenVR__IVRInput___UpdateActionState(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___UpdateActionState(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___UpdateActionState New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2660400 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -455,8 +504,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetDigitalActionData(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetDigitalActionData(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetDigitalActionData New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26605bc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -516,8 +564,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetAnalogActionData(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetAnalogActionData(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetAnalogActionData New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26607c0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -577,8 +624,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetPoseActionData(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetPoseActionData(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetPoseActionData New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26609c4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -638,8 +684,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetSkeletalActionData(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetSkeletalActionData(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetSkeletalActionData New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2660c28 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -699,8 +744,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetSkeletalBoneData(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetSkeletalBoneData(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetSkeletalBoneData New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2660e2c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -760,8 +804,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetSkeletalBoneDataCompressed(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetSkeletalBoneDataCompressed(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetSkeletalBoneDataCompressed New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x266105c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -821,8 +864,7 @@ constexpr explicit OVR__OpenVR__IVRInput___DecompressSkeletalBoneData(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___DecompressSkeletalBoneData(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___DecompressSkeletalBoneData New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26612d4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -882,8 +924,7 @@ constexpr explicit OVR__OpenVR__IVRInput___TriggerHapticVibrationAction(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___TriggerHapticVibrationAction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___TriggerHapticVibrationAction New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26614dc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -943,8 +984,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetActionOrigins(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetActionOrigins(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetActionOrigins New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26616e8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1004,8 +1044,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetOriginLocalizedName(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetOriginLocalizedName(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetOriginLocalizedName New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26618b8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1065,8 +1104,7 @@ constexpr explicit OVR__OpenVR__IVRInput___GetOriginTrackedDeviceInfo(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___GetOriginTrackedDeviceInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___GetOriginTrackedDeviceInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2661a74 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1126,8 +1164,7 @@ constexpr explicit OVR__OpenVR__IVRInput___ShowActionOrigins(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___ShowActionOrigins(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___ShowActionOrigins New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2661c60 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1187,8 +1224,7 @@ constexpr explicit OVR__OpenVR__IVRInput___ShowBindingsForActionSet(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRInput___ShowBindingsForActionSet(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRInput___ShowBindingsForActionSet New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2661df8 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

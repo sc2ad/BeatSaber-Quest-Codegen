@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HMUI::ItemForFocussedScrolling::ItemForFocussedScrolling()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ItemForFocussedScrolling>())) {}
+ HMUI::ItemForFocussedScrolling HMUI::ItemForFocussedScrolling::New_ctor()  {
+HMUI::ItemForFocussedScrolling o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ItemForFocussedScrolling>())};
+return o;
+}
  void HMUI::ItemForFocussedScrolling::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ItemForFocussedScrolling>::get(),

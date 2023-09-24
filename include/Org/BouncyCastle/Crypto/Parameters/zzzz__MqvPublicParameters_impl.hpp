@@ -69,8 +69,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters::__set
 constexpr Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters::__get_ephemeralPublicKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "staticPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters::MqvPublicParameters(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MqvPublicParameters>(staticPublicKey, ephemeralPublicKey))) {}
+ Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey)  {
+Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters>(staticPublicKey, ephemeralPublicKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters::_ctor(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters>::get(),

@@ -67,8 +67,7 @@ constexpr ::ArrayW<uint8_t> __get_aki() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "extension", ty: "Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
-explicit AuthorityKeyIdentifierExtension(Mono::Security::X509::X509Extension extension) ;
+static Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension New_ctor(Mono::Security::X509::X509Extension extension) ;
 
 /// @brief Method .ctor addr 0x2290ce8 size 0x4 virtual false final false
  void _ctor(Mono::Security::X509::X509Extension extension) ;

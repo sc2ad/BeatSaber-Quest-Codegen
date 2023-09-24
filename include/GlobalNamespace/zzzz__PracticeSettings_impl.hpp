@@ -268,8 +268,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::PracticeSettings, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PracticeSettings::PracticeSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PracticeSettings>())) {}
+ GlobalNamespace::PracticeSettings GlobalNamespace::PracticeSettings::New_ctor()  {
+GlobalNamespace::PracticeSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PracticeSettings>())};
+return o;
+}
  void GlobalNamespace::PracticeSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PracticeSettings>::get(),
@@ -279,8 +281,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "practiceSettings", ty: "GlobalNamespace::PracticeSettings", modifiers: "", def_value: None }]
- GlobalNamespace::PracticeSettings::PracticeSettings(GlobalNamespace::PracticeSettings practiceSettings)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PracticeSettings>(practiceSettings))) {}
+ GlobalNamespace::PracticeSettings GlobalNamespace::PracticeSettings::New_ctor(GlobalNamespace::PracticeSettings practiceSettings)  {
+GlobalNamespace::PracticeSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PracticeSettings>(practiceSettings))};
+return o;
+}
  void GlobalNamespace::PracticeSettings::_ctor(GlobalNamespace::PracticeSettings practiceSettings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PracticeSettings>::get(),
@@ -290,8 +294,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, practiceSettings);
 }
-// Ctor Parameters [CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songSpeedMul", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::PracticeSettings::PracticeSettings(float_t startSongTime, float_t songSpeedMul)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PracticeSettings>(startSongTime, songSpeedMul))) {}
+ GlobalNamespace::PracticeSettings GlobalNamespace::PracticeSettings::New_ctor(float_t startSongTime, float_t songSpeedMul)  {
+GlobalNamespace::PracticeSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PracticeSettings>(startSongTime, songSpeedMul))};
+return o;
+}
  void GlobalNamespace::PracticeSettings::_ctor(float_t startSongTime, float_t songSpeedMul)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PracticeSettings>::get(),

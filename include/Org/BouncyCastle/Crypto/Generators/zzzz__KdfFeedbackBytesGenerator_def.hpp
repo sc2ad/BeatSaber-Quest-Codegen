@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
 class IMacDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class IDerivationParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -147,8 +147,7 @@ constexpr ::ArrayW<uint8_t> __get_k() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prf", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit KdfFeedbackBytesGenerator(Org::BouncyCastle::Crypto::IMac prf) ;
+static Org::BouncyCastle::Crypto::Generators::KdfFeedbackBytesGenerator New_ctor(Org::BouncyCastle::Crypto::IMac prf) ;
 
 /// @brief Method .ctor addr 0xe727bc size 0xe0 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IMac prf) ;

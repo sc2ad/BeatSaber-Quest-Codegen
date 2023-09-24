@@ -63,7 +63,7 @@ namespace cordl_internals {
   template<il2cpp_value_type T, std::size_t offset, std::size_t sz>
   CORDL_HIDDEN constexpr void setInstanceField(std::array<std::byte, sz>& instance, T&& v) {
     static_assert(offset <= sz - T::__CORDL_VALUE_TYPE_SIZE, "offset is too large for the size of the instance to be assigned comfortably!");
-    std::copy_n(v.__instance.begin(), T::__CORDL_VALUE_TYPE_SIZE, std::next(instance, offset));
+    std::copy_n(v.__instance.begin(), T::__CORDL_VALUE_TYPE_SIZE, std::next(instance.begin(), offset));
   }
 
   /// @brief set trivial value @ offset on instance
@@ -133,9 +133,9 @@ namespace cordl_internals {
   /// @brief get reference type value @ offset on instance of size sz
   template <il2cpp_reference_type T, std::size_t offset, std::size_t sz>
   [[nodiscard]] CORDL_HIDDEN constexpr T
-  getInstanceField(std::array<std::byte, sz> const& instance) {
+  getInstanceField(std::array<std::byte, sz> const &instance) {
     return T(*const_cast<void**>(static_cast<void const* const*>(
-        static_cast<void const*>(&std::next(instance.begin() + offset)))));
+        static_cast<void const*>(getAtOffset<offset>(instance.data())))));
   }
 
   /// @brief get value type value @ offset on instance

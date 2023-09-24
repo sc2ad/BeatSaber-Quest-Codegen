@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SimulatedTlsSrpIdentityManager_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpLoginParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpIdentityManager_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/Srp/zzzz__Srp6VerifierGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpLoginParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager.GetRfc5054Default
 template<>
 
@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager, false>(nullptr, ___internal_method, group, seedKey);
 }
-// Ctor Parameters [CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters", modifiers: "", def_value: None }, CppParam { name: "verifierGenerator", ty: "Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::SimulatedTlsSrpIdentityManager(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator verifierGenerator, Org::BouncyCastle::Crypto::IMac mac)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimulatedTlsSrpIdentityManager>(group, verifierGenerator, mac))) {}
+ Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::New_ctor(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator verifierGenerator, Org::BouncyCastle::Crypto::IMac mac)  {
+Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager>(group, verifierGenerator, mac))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::_ctor(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator verifierGenerator, Org::BouncyCastle::Crypto::IMac mac)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager>::get(),

@@ -69,8 +69,7 @@ constexpr int32_t __get_counter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "counter", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DHValidationParameters(::ArrayW<uint8_t> seed, int32_t counter) ;
+static Org::BouncyCastle::Crypto::Parameters::DHValidationParameters New_ctor(::ArrayW<uint8_t> seed, int32_t counter) ;
 
 /// @brief Method .ctor addr 0xea4440 size 0xfc virtual false final false
  void _ctor(::ArrayW<uint8_t> seed, int32_t counter) ;

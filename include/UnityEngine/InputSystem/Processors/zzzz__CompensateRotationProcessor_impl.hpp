@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_impl.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__CompensateRotationProcessor_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Processors::CompensateRotationProcessor.Process
 template<>
 
@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Processors::CompensateRotationProcessor::CompensateRotationProcessor()  : UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Quaternion>(THROW_UNLESS(::il2cpp_utils::New<CompensateRotationProcessor>())) {}
+ UnityEngine::InputSystem::Processors::CompensateRotationProcessor UnityEngine::InputSystem::Processors::CompensateRotationProcessor::New_ctor()  {
+UnityEngine::InputSystem::Processors::CompensateRotationProcessor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Processors::CompensateRotationProcessor>())};
+return o;
+}
  void UnityEngine::InputSystem::Processors::CompensateRotationProcessor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Processors::CompensateRotationProcessor>::get(),

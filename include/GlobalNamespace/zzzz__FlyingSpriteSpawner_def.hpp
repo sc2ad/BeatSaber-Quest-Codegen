@@ -6,25 +6,25 @@ namespace GlobalNamespace {
 class IFlyingObjectEffectDidFinishEvent;
 }
 namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Quaternion;
+class Sprite;
 }
 namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__FlyingSpriteEffect__Pool;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -138,8 +138,7 @@ constexpr GlobalNamespace::GlobalNamespace__FlyingSpriteEffect__Pool __get__flyi
 /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x2258c1c size 0x11c virtual true final true
  void HandleFlyingObjectEffectDidFinish(GlobalNamespace::FlyingObjectEffect flyingObjectEffect) ;
 
-// Ctor Parameters []
-explicit FlyingSpriteSpawner() ;
+static GlobalNamespace::FlyingSpriteSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x2258d38 size 0x20 virtual false final false
  void _ctor() ;

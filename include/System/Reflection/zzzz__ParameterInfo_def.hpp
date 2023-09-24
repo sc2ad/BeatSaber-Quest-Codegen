@@ -5,25 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Reflection {
-struct ParameterAttributes;
-}
-namespace System::Reflection {
 class ICustomAttributeProvider;
-}
-namespace System::Runtime::Serialization {
-class IObjectReference;
 }
 namespace System::Runtime::InteropServices {
 class _ParameterInfo;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+struct ParameterAttributes;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Reflection {
 class MemberInfo;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class IObjectReference;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -143,8 +143,7 @@ static constexpr int32_t  MetadataToken_ParamDef{134217728};
 
 // Methods
 
-// Ctor Parameters []
-explicit ParameterInfo() ;
+static System::Reflection::ParameterInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x237bfc4 size 0x8 virtual false final false
  void _ctor() ;

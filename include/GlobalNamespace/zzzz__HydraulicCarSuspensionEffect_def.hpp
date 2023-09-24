@@ -7,14 +7,11 @@
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
 namespace UnityEngine {
 class SpringJoint;
-}
-namespace UnityEngine {
-class Rigidbody;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -24,7 +21,10 @@ namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BasicBeatmapEventData;
+}
+namespace UnityEngine {
+class Rigidbody;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -165,8 +165,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__expandBeatmapDataCa
 /// @brief Method HandleExpandBeatmapEvent addr 0x20ae018 size 0xa4 virtual false final false
  void HandleExpandBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
-// Ctor Parameters []
-explicit HydraulicCarSuspensionEffect() ;
+static GlobalNamespace::HydraulicCarSuspensionEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ae0bc size 0x14 virtual false final false
  void _ctor() ;

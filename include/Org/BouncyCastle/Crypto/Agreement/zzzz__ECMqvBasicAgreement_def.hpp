@@ -2,29 +2,29 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBasicAgreement;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
 class MqvPrivateParameters;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPublicKeyParameters;
+class ECPrivateKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -96,8 +96,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters __get_priv
 /// @brief Method CalculateMqvAgreement addr 0x1190024 size 0x254 virtual false final false
 static Org::BouncyCastle::Math::EC::ECPoint CalculateMqvAgreement(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters d1U, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters d2U, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters Q2U, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters Q1V, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters Q2V) ;
 
-// Ctor Parameters []
-explicit ECMqvBasicAgreement() ;
+static Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement New_ctor() ;
 
 /// @brief Method .ctor addr 0x1190278 size 0x8 virtual false final false
  void _ctor() ;

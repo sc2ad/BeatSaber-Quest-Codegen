@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -134,8 +134,7 @@ constexpr bool __get__isInitialized() const;
 /// @brief Method OnValidate addr 0x1fa25a0 size 0x40 virtual false final false
  void OnValidate() ;
 
-// Ctor Parameters []
-explicit MaterialPropertyBlockColorSetter() ;
+static GlobalNamespace::MaterialPropertyBlockColorSetter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa25e0 size 0x10 virtual false final false
  void _ctor() ;

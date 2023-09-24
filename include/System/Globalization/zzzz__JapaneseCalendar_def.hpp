@@ -11,13 +11,13 @@ namespace System {
 struct DateTime;
 }
 namespace System::Globalization {
-class EraInfo;
-}
-namespace System::Globalization {
 class Calendar;
 }
 namespace System::Globalization {
 class GregorianCalendarHelper;
+}
+namespace System::Globalization {
+class EraInfo;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -120,8 +120,7 @@ static ::ArrayW<System::Globalization::EraInfo> GetErasFromRegistry() ;
 /// @brief Method GetDefaultInstance addr 0x23f6914 size 0xb8 virtual false final false
 static System::Globalization::Calendar GetDefaultInstance() ;
 
-// Ctor Parameters []
-explicit JapaneseCalendar() ;
+static System::Globalization::JapaneseCalendar New_ctor() ;
 
 /// @brief Method .ctor addr 0x23f69cc size 0x1cc virtual false final false
  void _ctor() ;

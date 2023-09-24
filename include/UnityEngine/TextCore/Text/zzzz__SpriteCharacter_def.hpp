@@ -72,8 +72,7 @@ constexpr int32_t __get_m_HashCode() const;
 /// @brief Method get_name addr 0x2bd2638 size 0x8 virtual false final false
  ::StringW get_name() ;
 
-// Ctor Parameters []
-explicit SpriteCharacter() ;
+static UnityEngine::TextCore::Text::SpriteCharacter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd2640 size 0x20 virtual false final false
  void _ctor() ;

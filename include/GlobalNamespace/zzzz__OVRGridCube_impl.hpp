@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGridCube_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__KeyCode_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
+#include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRGridCube.Update
 template<>
 
@@ -217,8 +217,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, CubeSwitchColor);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRGridCube::OVRGridCube()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRGridCube>())) {}
+ GlobalNamespace::OVRGridCube GlobalNamespace::OVRGridCube::New_ctor()  {
+GlobalNamespace::OVRGridCube o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRGridCube>())};
+return o;
+}
  void GlobalNamespace::OVRGridCube::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRGridCube>::get(),

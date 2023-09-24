@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::UI::Collections {
+namespace System {
 template<typename T>
-class IndexedSet_1;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
+class Comparison_1;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System {
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::UI::Collections {
 template<typename T>
-class Comparison_1;
+class IndexedSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -117,8 +117,7 @@ static UnityEngine::UI::CanvasUpdateRegistry __declspec(property(get=get_instanc
 
 // Methods
 
-// Ctor Parameters []
-explicit CanvasUpdateRegistry() ;
+static UnityEngine::UI::CanvasUpdateRegistry New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd8110 size 0x26c virtual false final false
  void _ctor() ;

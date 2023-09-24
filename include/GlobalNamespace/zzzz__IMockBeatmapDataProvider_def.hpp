@@ -1,20 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
 }
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
 class MockBeatmapData;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

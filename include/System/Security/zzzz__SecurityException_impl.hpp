@@ -112,8 +112,10 @@ constexpr void System::Security::SecurityException::__set_permissionState(::Stri
 constexpr ::StringW System::Security::SecurityException::__get_permissionState() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::SecurityException::SecurityException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<SecurityException>())) {}
+ System::Security::SecurityException System::Security::SecurityException::New_ctor()  {
+System::Security::SecurityException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::SecurityException>())};
+return o;
+}
  void System::Security::SecurityException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::SecurityException>::get(),
@@ -123,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::SecurityException::SecurityException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<SecurityException>(message))) {}
+ System::Security::SecurityException System::Security::SecurityException::New_ctor(::StringW message)  {
+System::Security::SecurityException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::SecurityException>(message))};
+return o;
+}
  void System::Security::SecurityException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::SecurityException>::get(),
@@ -134,8 +138,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Security::SecurityException::SecurityException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<SecurityException>(info, context))) {}
+ System::Security::SecurityException System::Security::SecurityException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Security::SecurityException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::SecurityException>(info, context))};
+return o;
+}
  void System::Security::SecurityException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::SecurityException>::get(),
@@ -145,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
- System::Security::SecurityException::SecurityException(::StringW message, System::Exception inner)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<SecurityException>(message, inner))) {}
+ System::Security::SecurityException System::Security::SecurityException::New_ctor(::StringW message, System::Exception inner)  {
+System::Security::SecurityException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::SecurityException>(message, inner))};
+return o;
+}
  void System::Security::SecurityException::_ctor(::StringW message, System::Exception inner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::SecurityException>::get(),

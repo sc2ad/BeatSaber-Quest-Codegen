@@ -47,8 +47,10 @@ constexpr void System::Xml::Serialization::XmlSchemaProviderAttribute::__set__is
 constexpr bool System::Xml::Serialization::XmlSchemaProviderAttribute::__get__isAny() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "methodName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Serialization::XmlSchemaProviderAttribute::XmlSchemaProviderAttribute(::StringW methodName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaProviderAttribute>(methodName))) {}
+ System::Xml::Serialization::XmlSchemaProviderAttribute System::Xml::Serialization::XmlSchemaProviderAttribute::New_ctor(::StringW methodName)  {
+System::Xml::Serialization::XmlSchemaProviderAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Serialization::XmlSchemaProviderAttribute>(methodName))};
+return o;
+}
  void System::Xml::Serialization::XmlSchemaProviderAttribute::_ctor(::StringW methodName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Serialization::XmlSchemaProviderAttribute>::get(),

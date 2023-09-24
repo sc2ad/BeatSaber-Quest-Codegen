@@ -3,17 +3,17 @@
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
 namespace System {
 class Type;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -61,8 +61,7 @@ constexpr explicit XmlMiscConverter(void* ptr) noexcept : System::Xml::Schema::X
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
-explicit XmlMiscConverter(System::Xml::Schema::XmlSchemaType schemaType) ;
+static System::Xml::Schema::XmlMiscConverter New_ctor(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method .ctor addr 0x27453c0 size 0x68 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType schemaType) ;

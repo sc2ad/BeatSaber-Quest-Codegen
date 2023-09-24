@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CAKeyUpdAnnContent_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__CmpCertificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__CmpCertificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent._ctor
 template<>
 
@@ -124,8 +124,10 @@ constexpr void Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::__set_newWithNe
 constexpr Org::BouncyCastle::Asn1::Cmp::CmpCertificate Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::__get_newWithNew() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cmp::CmpCertificate, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::CAKeyUpdAnnContent(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CAKeyUpdAnnContent>(seq))) {}
+ Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent>::get(),

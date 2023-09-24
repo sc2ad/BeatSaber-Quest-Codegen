@@ -2,6 +2,7 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Box_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Box_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::Box._ctor
 template<>
 
@@ -25,8 +26,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
  ::StringW UnityEngine::UIElements::Box::__get_ussClassName()  {
 return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Box>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::Box::Box()  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<Box>())) {}
+ UnityEngine::UIElements::Box UnityEngine::UIElements::Box::New_ctor()  {
+UnityEngine::UIElements::Box o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Box>())};
+return o;
+}
  void UnityEngine::UIElements::Box::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Box>::get(),
@@ -53,8 +56,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory::UnityEngine__UIElements__Box__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_1<UnityEngine::UIElements::Box>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Box__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory>::get(),

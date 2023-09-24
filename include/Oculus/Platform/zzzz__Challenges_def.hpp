@@ -5,29 +5,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Oculus::Platform {
-class ChallengeOptions;
-}
-namespace Oculus::Platform::Models {
-class ChallengeList;
+struct LeaderboardFilterType;
 }
 namespace Oculus::Platform {
-class Request;
+struct LeaderboardStartAt;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
 namespace Oculus::Platform {
-struct LeaderboardStartAt;
+class Request;
 }
 namespace Oculus::Platform::Models {
 class Challenge;
 }
-namespace Oculus::Platform {
-struct LeaderboardFilterType;
+namespace Oculus::Platform::Models {
+class ChallengeList;
 }
 namespace Oculus::Platform::Models {
 class ChallengeEntryList;
+}
+namespace Oculus::Platform {
+class ChallengeOptions;
 }
 // Forward declare root types
 namespace Oculus::Platform {

@@ -7,11 +7,11 @@
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
 namespace System::Reflection {
 class MethodBase;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

@@ -1,10 +1,10 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
+class AsymmetricCipherKeyPair;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

@@ -5,14 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
-}
 namespace Org::BouncyCastle::Math::EC {
 class AbstractF2mPoint;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class IPreCompCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
+}
+namespace Org::BouncyCastle::Math::EC::Abc {
+class ZTauElement;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
@@ -20,8 +23,8 @@ class ECPoint;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Math::EC::Abc {
-class ZTauElement;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -90,8 +93,7 @@ constexpr int8_t __get_m_a() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::EC::AbstractF2mPoint", modifiers: "", def_value: None }, CppParam { name: "a", ty: "int8_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback(Org::BouncyCastle::Math::EC::AbstractF2mPoint p, int8_t a) ;
+static Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WTauNafMultiplier__WTauNafCallback New_ctor(Org::BouncyCastle::Math::EC::AbstractF2mPoint p, int8_t a) ;
 
 /// @brief Method .ctor addr 0xfadabc size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::AbstractF2mPoint p, int8_t a) ;
@@ -165,8 +167,7 @@ static ::StringW __get_PRECOMP_NAME() ;
 /// @brief Method MultiplyFromWTnaf addr 0xfad668 size 0x454 virtual false final false
 static Org::BouncyCastle::Math::EC::AbstractF2mPoint MultiplyFromWTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint p, ::ArrayW<int8_t> u) ;
 
-// Ctor Parameters []
-explicit WTauNafMultiplier() ;
+static Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0xfadb4c size 0x8 virtual false final false
  void _ctor() ;

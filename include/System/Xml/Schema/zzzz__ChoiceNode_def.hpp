@@ -3,19 +3,19 @@
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace System::Xml::Schema {
-class InteriorNode;
+class SyntaxTreeNode;
 }
 namespace System::Xml::Schema {
-class BitSet;
+class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
 class Positions;
 }
 namespace System::Xml::Schema {
-class SyntaxTreeNode;
+class BitSet;
 }
 namespace System::Xml::Schema {
-class SymbolsDictionary;
+class InteriorNode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -80,8 +80,7 @@ static void ConstructChildPos(System::Xml::Schema::SyntaxTreeNode child, System:
 /// @brief Method ExpandTree addr 0x271b1f0 size 0x4 virtual true final false
  void ExpandTree(System::Xml::Schema::InteriorNode parent, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions) ;
 
-// Ctor Parameters []
-explicit ChoiceNode() ;
+static System::Xml::Schema::ChoiceNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x271a7b8 size 0x8 virtual false final false
  void _ctor() ;

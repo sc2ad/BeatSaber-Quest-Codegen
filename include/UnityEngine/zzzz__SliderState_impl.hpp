@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::SliderState::SliderState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SliderState>())) {}
+ UnityEngine::SliderState UnityEngine::SliderState::New_ctor()  {
+UnityEngine::SliderState o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::SliderState>())};
+return o;
+}
  void UnityEngine::SliderState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SliderState>::get(),

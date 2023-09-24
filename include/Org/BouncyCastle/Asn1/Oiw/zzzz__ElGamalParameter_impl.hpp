@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Oiw/zzzz__ElGamalParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Oiw::ElGamalParameter._ctor
 template<>
 
@@ -102,8 +102,10 @@ constexpr void Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::__set_g(Org::Boun
 constexpr Org::BouncyCastle::Asn1::DerInteger Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::__get_g() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerInteger, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::ElGamalParameter(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ElGamalParameter>(p, g))) {}
+ Org::BouncyCastle::Asn1::Oiw::ElGamalParameter Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g)  {
+Org::BouncyCastle::Asn1::Oiw::ElGamalParameter o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Oiw::ElGamalParameter>(p, g))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Oiw::ElGamalParameter>::get(),
@@ -113,8 +115,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, p, g);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::ElGamalParameter(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ElGamalParameter>(seq))) {}
+ Org::BouncyCastle::Asn1::Oiw::ElGamalParameter Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Oiw::ElGamalParameter o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Oiw::ElGamalParameter>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Oiw::ElGamalParameter>::get(),

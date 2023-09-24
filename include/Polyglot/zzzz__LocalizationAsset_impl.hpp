@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Polyglot::LocalizationAsset::LocalizationAsset()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LocalizationAsset>())) {}
+ Polyglot::LocalizationAsset Polyglot::LocalizationAsset::New_ctor()  {
+Polyglot::LocalizationAsset o{THROW_UNLESS(::il2cpp_utils::New<Polyglot::LocalizationAsset>())};
+return o;
+}
  void Polyglot::LocalizationAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Polyglot::LocalizationAsset>::get(),

@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__AbstractEventData_def.hpp"
 namespace UnityEngine::EventSystems {
-class EventSystem;
+class BaseInputModule;
 }
 namespace UnityEngine::EventSystems {
-class BaseInputModule;
+class EventSystem;
 }
 namespace UnityEngine {
 class GameObject;
@@ -72,8 +72,7 @@ constexpr UnityEngine::EventSystems::EventSystem __get_m_EventSystem() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
-explicit BaseEventData(UnityEngine::EventSystems::EventSystem eventSystem) ;
+static UnityEngine::EventSystems::BaseEventData New_ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;
 
 /// @brief Method .ctor addr 0x2c1c240 size 0x28 virtual false final false
  void _ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;

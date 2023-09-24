@@ -1,12 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__EndoUtilities_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ScalarSplitParameters_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__EndoPreCompInfo_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__EndoUtilities_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ScalarSplitParameters_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__EndoPreCompInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback._ctor
 template<>
 
@@ -74,8 +75,10 @@ constexpr void Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__E
 constexpr Org::BouncyCastle::Math::EC::ECPoint Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback::__get_m_point() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::ECPoint, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "endomorphism", ty: "Org::BouncyCastle::Math::EC::Endo::ECEndomorphism", modifiers: "", def_value: None }, CppParam { name: "point", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::ECPoint point)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback>(endomorphism, point))) {}
+ Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback::New_ctor(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::ECPoint point)  {
+Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback>(endomorphism, point))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback::_ctor(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::ECPoint point)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback>::get(),
@@ -204,8 +207,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::BigInteger, false>(nullptr, ___internal_method, k, g, t);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Endo::EndoUtilities::EndoUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EndoUtilities>())) {}
+ Org::BouncyCastle::Math::EC::Endo::EndoUtilities Org::BouncyCastle::Math::EC::Endo::EndoUtilities::New_ctor()  {
+Org::BouncyCastle::Math::EC::Endo::EndoUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Endo::EndoUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Endo::EndoUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Endo::EndoUtilities>::get(),

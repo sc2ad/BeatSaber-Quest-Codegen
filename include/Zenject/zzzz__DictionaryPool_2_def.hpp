@@ -21,7 +21,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3809)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11028), inst: 2698 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3809), inst: 1153 }), TypeDefinitionIndex(TypeDefinitionIndex(11028)), TypeDefinitionIndex(TypeDefinitionIndex(11037))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3809)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11028), inst: 2698 }), TypeDefinitionIndex(TypeDefinitionIndex(11037)), TypeDefinitionIndex(TypeDefinitionIndex(11028)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3809), inst: 1153 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11037), inst: 80 })
 // CS Name: Zenject.DictionaryPool`2
 class CORDL_TYPE DictionaryPool_2<TKey,TValue> : public Zenject::StaticMemoryPool_1<System::Collections::Generic::Dictionary_2<TKey,TValue>> {
@@ -74,8 +74,7 @@ static Zenject::DictionaryPool_2<TKey,TValue> __declspec(property(get=get_Instan
 
 // Methods
 
-// Ctor Parameters []
-explicit DictionaryPool_2() ;
+static Zenject::DictionaryPool_2<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

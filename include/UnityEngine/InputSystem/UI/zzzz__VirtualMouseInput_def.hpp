@@ -8,26 +8,29 @@
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-class Canvas;
-}
 namespace UnityEngine::InputSystem {
-class Mouse;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine {
-class RectTransform;
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
 }
 namespace UnityEngine::InputSystem {
 struct InputActionProperty;
 }
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::InputSystem::UI {
+struct UnityEngine__InputSystem__UI__VirtualMouseInput__CursorMode;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace System {
+class Action;
+}
 namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputAction__CallbackContext;
+class Mouse;
 }
 namespace System {
 template<typename T>
@@ -89,6 +92,8 @@ __HardwareCursorIfAvailable = 1,
 constexpr operator __UnityEngine__InputSystem__UI__VirtualMouseInput__CursorMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__UI__VirtualMouseInput__CursorMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -401,8 +406,7 @@ static void SetAction(ByRef<UnityEngine::InputSystem::InputActionProperty> field
 /// @brief Method OnAfterInputUpdate addr 0x2945140 size 0x4 virtual false final false
  void OnAfterInputUpdate() ;
 
-// Ctor Parameters []
-explicit VirtualMouseInput() ;
+static UnityEngine::InputSystem::UI::VirtualMouseInput New_ctor() ;
 
 /// @brief Method .ctor addr 0x2945144 size 0x14 virtual false final false
  void _ctor() ;

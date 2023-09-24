@@ -63,8 +63,7 @@ static bool RequestHasErrors(UnityEngine::Networking::UnityWebRequest webReq, By
 /// @brief Method IsAssetBundleDownloaded addr 0x2a38118 size 0xa4 virtual false final false
 static bool IsAssetBundleDownloaded(UnityEngine::Networking::UnityWebRequestAsyncOperation op) ;
 
-// Ctor Parameters []
-explicit UnityWebRequestUtilities() ;
+static UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3ba34 size 0x8 virtual false final false
  void _ctor() ;

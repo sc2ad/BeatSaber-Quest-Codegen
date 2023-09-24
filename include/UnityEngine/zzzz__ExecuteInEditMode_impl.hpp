@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ExecuteInEditMode::ExecuteInEditMode()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ExecuteInEditMode>())) {}
+ UnityEngine::ExecuteInEditMode UnityEngine::ExecuteInEditMode::New_ctor()  {
+UnityEngine::ExecuteInEditMode o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ExecuteInEditMode>())};
+return o;
+}
  void UnityEngine::ExecuteInEditMode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ExecuteInEditMode>::get(),

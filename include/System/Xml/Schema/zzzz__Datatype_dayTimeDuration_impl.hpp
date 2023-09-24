@@ -2,9 +2,9 @@
 #include "System/Xml/Schema/zzzz__Datatype_duration_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_dayTimeDuration_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::Datatype_dayTimeDuration.TryParseValue
 template<>
 
@@ -74,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Schema::XmlTypeCode, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_dayTimeDuration::Datatype_dayTimeDuration()  : System::Xml::Schema::Datatype_duration(THROW_UNLESS(::il2cpp_utils::New<Datatype_dayTimeDuration>())) {}
+ System::Xml::Schema::Datatype_dayTimeDuration System::Xml::Schema::Datatype_dayTimeDuration::New_ctor()  {
+System::Xml::Schema::Datatype_dayTimeDuration o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_dayTimeDuration>())};
+return o;
+}
  void System::Xml::Schema::Datatype_dayTimeDuration::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_dayTimeDuration>::get(),

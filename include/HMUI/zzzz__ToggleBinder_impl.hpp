@@ -1,11 +1,12 @@
 #pragma once
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__ToggleBinder____c__DisplayClass7_0._ctor
 template<>
 
@@ -52,8 +53,10 @@ constexpr void HMUI::HMUI__ToggleBinder____c__DisplayClass7_0::__set_action(Syst
 constexpr System::Action HMUI::HMUI__ToggleBinder____c__DisplayClass7_0::__get_action() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__ToggleBinder____c__DisplayClass7_0::HMUI__ToggleBinder____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ToggleBinder____c__DisplayClass7_0>())) {}
+ HMUI::HMUI__ToggleBinder____c__DisplayClass7_0 HMUI::HMUI__ToggleBinder____c__DisplayClass7_0::New_ctor()  {
+HMUI::HMUI__ToggleBinder____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ToggleBinder____c__DisplayClass7_0>())};
+return o;
+}
  void HMUI::HMUI__ToggleBinder____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ToggleBinder____c__DisplayClass7_0>::get(),
@@ -237,8 +240,10 @@ constexpr void HMUI::ToggleBinder::__set__enabled(bool value)  {
 constexpr bool HMUI::ToggleBinder::__get__enabled() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::ToggleBinder::ToggleBinder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ToggleBinder>())) {}
+ HMUI::ToggleBinder HMUI::ToggleBinder::New_ctor()  {
+HMUI::ToggleBinder o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ToggleBinder>())};
+return o;
+}
  void HMUI::ToggleBinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ToggleBinder>::get(),
@@ -248,8 +253,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bindingData", ty: "System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle,System::Action_1<bool>>>", modifiers: "", def_value: None }]
- HMUI::ToggleBinder::ToggleBinder(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle,System::Action_1<bool>>> bindingData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ToggleBinder>(bindingData))) {}
+ HMUI::ToggleBinder HMUI::ToggleBinder::New_ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle,System::Action_1<bool>>> bindingData)  {
+HMUI::ToggleBinder o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ToggleBinder>(bindingData))};
+return o;
+}
  void HMUI::ToggleBinder::_ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle,System::Action_1<bool>>> bindingData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ToggleBinder>::get(),

@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
@@ -139,8 +139,7 @@ static void AddPInvTo(::ArrayW<uint32_t> z) ;
 /// @brief Method SubPInvFrom addr 0xf6acc4 size 0xf0 virtual false final false
 static void SubPInvFrom(::ArrayW<uint32_t> z) ;
 
-// Ctor Parameters []
-explicit SecP256R1Field() ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecP256R1Field New_ctor() ;
 
 /// @brief Method .ctor addr 0xf6aff8 size 0x8 virtual false final false
  void _ctor() ;

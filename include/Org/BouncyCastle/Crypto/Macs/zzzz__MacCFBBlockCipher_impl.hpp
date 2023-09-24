@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__MacCFBBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher._ctor
 template<>
 
@@ -172,8 +172,10 @@ constexpr void Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::__set_cipher(
 constexpr Org::BouncyCastle::Crypto::IBlockCipher Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::__get_cipher() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IBlockCipher, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "bitBlockSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::MacCFBBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t bitBlockSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MacCFBBlockCipher>(cipher, bitBlockSize))) {}
+ Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t bitBlockSize)  {
+Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher>(cipher, bitBlockSize))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t bitBlockSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher>::get(),

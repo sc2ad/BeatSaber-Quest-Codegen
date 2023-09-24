@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Schema::XmlTypeCode, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_year::Datatype_year()  : System::Xml::Schema::Datatype_dateTimeBase(THROW_UNLESS(::il2cpp_utils::New<Datatype_year>())) {}
+ System::Xml::Schema::Datatype_year System::Xml::Schema::Datatype_year::New_ctor()  {
+System::Xml::Schema::Datatype_year o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_year>())};
+return o;
+}
  void System::Xml::Schema::Datatype_year::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_year>::get(),

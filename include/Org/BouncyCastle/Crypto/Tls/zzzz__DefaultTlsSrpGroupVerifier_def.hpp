@@ -1,17 +1,17 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Srp6GroupParameters;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpGroupVerifier;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Srp6GroupParameters;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace System::Collections {
-class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -77,14 +77,12 @@ constexpr System::Collections::IList __get_mGroups() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DefaultTlsSrpGroupVerifier() ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier New_ctor() ;
 
 /// @brief Method .ctor addr 0xed7358 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "groups", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit DefaultTlsSrpGroupVerifier(System::Collections::IList groups) ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier New_ctor(System::Collections::IList groups) ;
 
 /// @brief Method .ctor addr 0xed73c4 size 0x28 virtual false final false
  void _ctor(System::Collections::IList groups) ;

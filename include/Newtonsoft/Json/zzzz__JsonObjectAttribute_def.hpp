@@ -2,15 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerAttribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
 namespace Newtonsoft::Json {
 struct MemberSerialization;
 }
 namespace Newtonsoft::Json {
 struct Required;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -92,20 +92,17 @@ constexpr System::Nullable_1<Newtonsoft::Json::Required> __get__itemRequired() c
 /// @brief Method set_ItemRequired addr 0x24c8440 size 0x68 virtual false final false
  void set_ItemRequired(Newtonsoft::Json::Required value) ;
 
-// Ctor Parameters []
-explicit JsonObjectAttribute() ;
+static Newtonsoft::Json::JsonObjectAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c84a8 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "memberSerialization", ty: "Newtonsoft::Json::MemberSerialization", modifiers: "", def_value: None }]
-explicit JsonObjectAttribute(Newtonsoft::Json::MemberSerialization memberSerialization) ;
+static Newtonsoft::Json::JsonObjectAttribute New_ctor(Newtonsoft::Json::MemberSerialization memberSerialization) ;
 
 /// @brief Method .ctor addr 0x24c84b0 size 0x28 virtual false final false
  void _ctor(Newtonsoft::Json::MemberSerialization memberSerialization) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JsonObjectAttribute(::StringW id) ;
+static Newtonsoft::Json::JsonObjectAttribute New_ctor(::StringW id) ;
 
 /// @brief Method .ctor addr 0x24c84d8 size 0x28 virtual false final false
  void _ctor(::StringW id) ;

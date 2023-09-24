@@ -1,7 +1,7 @@
 #pragma once
 #include "Mono/Security/Protocol/Ntlm/zzzz__ChallengeResponse2_def.hpp"
-#include "Mono/Security/Protocol/Ntlm/zzzz__NtlmAuthLevel_def.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__Type2Message_def.hpp"
+#include "Mono/Security/Protocol/Ntlm/zzzz__NtlmAuthLevel_def.hpp"
 //  Writing Method size for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2.Compute_LM
 template<>
 

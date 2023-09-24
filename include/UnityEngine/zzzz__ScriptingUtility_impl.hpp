@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__ScriptingUtility_def.hpp"
+#include "UnityEngine/zzzz__ScriptingUtility_def.hpp"
 // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UnityEngine__ScriptingUtility__TestClass::UnityEngine__ScriptingUtility__TestClass(int32_t value) noexcept : ::bs_hook::ValueTypeWrapper() {this->value = value;
 }

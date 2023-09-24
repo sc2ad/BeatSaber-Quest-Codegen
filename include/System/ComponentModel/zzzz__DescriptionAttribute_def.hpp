@@ -72,14 +72,12 @@ constexpr ::StringW __get__DescriptionValue_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DescriptionAttribute() ;
+static System::ComponentModel::DescriptionAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x277181c size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DescriptionAttribute(::StringW description) ;
+static System::ComponentModel::DescriptionAttribute New_ctor(::StringW description) ;
 
 /// @brief Method .ctor addr 0x2771878 size 0x28 virtual false final false
  void _ctor(::StringW description) ;

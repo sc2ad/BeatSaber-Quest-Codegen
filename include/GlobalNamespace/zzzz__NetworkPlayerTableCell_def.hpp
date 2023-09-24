@@ -2,20 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
+}
 namespace UnityEngine {
 class GameObject;
 }
-namespace HMUI {
-struct HMUI__SelectableCell__TransitionType;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UI {
 class Image;
 }
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -160,8 +160,7 @@ constexpr bool __get__isMe() const;
 /// @brief Method get_activeColor addr 0x2152194 size 0x5c virtual false final false
  UnityEngine::Color get_activeColor() ;
 
-// Ctor Parameters []
-explicit NetworkPlayerTableCell() ;
+static GlobalNamespace::NetworkPlayerTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x21521f0 size 0x1c virtual false final false
  void _ctor() ;

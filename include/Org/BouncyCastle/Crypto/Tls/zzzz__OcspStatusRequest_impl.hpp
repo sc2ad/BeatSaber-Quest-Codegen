@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__OcspStatusRequest_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::OcspStatusRequest._ctor
 template<>
 
@@ -100,8 +100,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::__set_mRequest
 constexpr Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::__get_mRequestExtensions() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::X509Extensions, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "responderIDList", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "requestExtensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::OcspStatusRequest(System::Collections::IList responderIDList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OcspStatusRequest>(responderIDList, requestExtensions))) {}
+ Org::BouncyCastle::Crypto::Tls::OcspStatusRequest Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::New_ctor(System::Collections::IList responderIDList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions)  {
+Org::BouncyCastle::Crypto::Tls::OcspStatusRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::OcspStatusRequest>(responderIDList, requestExtensions))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::_ctor(System::Collections::IList responderIDList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::OcspStatusRequest>::get(),

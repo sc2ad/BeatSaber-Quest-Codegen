@@ -1,15 +1,15 @@
 #pragma once
 #include "Org/BouncyCastle/X509/Store/zzzz__X509AttrCertStoreSelector_def.hpp"
-#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__AttributeCertificateIssuer_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__AttributeCertificateHolder_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__AttributeCertificateIssuer_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector._ctor
 template<>
 
@@ -485,8 +485,10 @@ constexpr void Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector::__set_
 constexpr Org::BouncyCastle::Utilities::Collections::ISet Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector::__get_targetGroups() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Utilities::Collections::ISet, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector::X509AttrCertStoreSelector()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509AttrCertStoreSelector>())) {}
+ Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector::New_ctor()  {
+Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector>())};
+return o;
+}
  void Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector>::get(),
@@ -496,8 +498,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector::X509AttrCertStoreSelector(Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509AttrCertStoreSelector>(o))) {}
+ Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector::New_ctor(Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector o)  {
+Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector>(o))};
+return o;
+}
  void Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector::_ctor(Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector>::get(),

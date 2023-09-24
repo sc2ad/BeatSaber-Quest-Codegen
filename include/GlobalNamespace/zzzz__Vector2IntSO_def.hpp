@@ -9,7 +9,7 @@ class Vector2IntSO;
 // Type: ::Vector2IntSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13904)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 3257 }), TypeDefinitionIndex(TypeDefinitionIndex(10185))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10185)), TypeDefinitionIndex(TypeDefinitionIndex(13904)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 3257 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13908))
 // CS Name: Vector2IntSO
 class CORDL_TYPE Vector2IntSO : public GlobalNamespace::ObservableVariableSO_1<UnityEngine::Vector2Int> {
@@ -48,8 +48,7 @@ constexpr explicit Vector2IntSO(void* ptr) noexcept : GlobalNamespace::Observabl
 
 // Methods
 
-// Ctor Parameters []
-explicit Vector2IntSO() ;
+static GlobalNamespace::Vector2IntSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83e54 size 0x48 virtual false final false
  void _ctor() ;

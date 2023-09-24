@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AccessDescription;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AccessDescription;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -86,26 +86,22 @@ static Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess GetInstance(::b
 /// @brief Method FromExtensions addr 0xff8580 size 0x68 virtual false final false
 static Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess FromExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit AuthorityInformationAccess(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff83b8 size 0x1c8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "description", ty: "Org::BouncyCastle::Asn1::X509::AccessDescription", modifiers: "", def_value: None }]
-explicit AuthorityInformationAccess(Org::BouncyCastle::Asn1::X509::AccessDescription description) ;
+static Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess New_ctor(Org::BouncyCastle::Asn1::X509::AccessDescription description) ;
 
 /// @brief Method .ctor addr 0xff85e8 size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AccessDescription description) ;
 
-// Ctor Parameters [CppParam { name: "descriptions", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::AccessDescription>", modifiers: "", def_value: None }]
-explicit AuthorityInformationAccess(::ArrayW<Org::BouncyCastle::Asn1::X509::AccessDescription> descriptions) ;
+static Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::AccessDescription> descriptions) ;
 
 /// @brief Method .ctor addr 0xff8690 size 0x30 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::AccessDescription> descriptions) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "location", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit AuthorityInformationAccess(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::X509::GeneralName location) ;
+static Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::X509::GeneralName location) ;
 
 /// @brief Method .ctor addr 0xff86c0 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::X509::GeneralName location) ;

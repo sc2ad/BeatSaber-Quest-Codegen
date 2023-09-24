@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, node, hapticPreset);
 }
-// Ctor Parameters []
- GlobalNamespace::HapticFeedbackManager::HapticFeedbackManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HapticFeedbackManager>())) {}
+ GlobalNamespace::HapticFeedbackManager GlobalNamespace::HapticFeedbackManager::New_ctor()  {
+GlobalNamespace::HapticFeedbackManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HapticFeedbackManager>())};
+return o;
+}
  void GlobalNamespace::HapticFeedbackManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HapticFeedbackManager>::get(),

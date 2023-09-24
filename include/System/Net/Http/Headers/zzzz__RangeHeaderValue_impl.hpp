@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__RangeHeaderValue_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__RangeItemHeaderValue_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::RangeHeaderValue._ctor
 template<>
 
@@ -173,8 +173,10 @@ constexpr void System::Net::Http::Headers::RangeHeaderValue::__set_unit(::String
 constexpr ::StringW System::Net::Http::Headers::RangeHeaderValue::__get_unit() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::RangeHeaderValue::RangeHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RangeHeaderValue>())) {}
+ System::Net::Http::Headers::RangeHeaderValue System::Net::Http::Headers::RangeHeaderValue::New_ctor()  {
+System::Net::Http::Headers::RangeHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::RangeHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::RangeHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::RangeHeaderValue>::get(),
@@ -184,8 +186,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::RangeHeaderValue", modifiers: "", def_value: None }]
- System::Net::Http::Headers::RangeHeaderValue::RangeHeaderValue(System::Net::Http::Headers::RangeHeaderValue source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RangeHeaderValue>(source))) {}
+ System::Net::Http::Headers::RangeHeaderValue System::Net::Http::Headers::RangeHeaderValue::New_ctor(System::Net::Http::Headers::RangeHeaderValue source)  {
+System::Net::Http::Headers::RangeHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::RangeHeaderValue>(source))};
+return o;
+}
  void System::Net::Http::Headers::RangeHeaderValue::_ctor(System::Net::Http::Headers::RangeHeaderValue source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::RangeHeaderValue>::get(),

@@ -7,24 +7,24 @@
 namespace LiteNetLib::Utils {
 class NtpPacket;
 }
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace System::Net::Sockets {
-struct SocketError;
-}
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace System::Net {
+class IPAddress;
 }
 namespace LiteNetLib {
 class INetSocketListener;
 }
 namespace LiteNetLib {
 class NetSocket;
+}
+namespace System::Net::Sockets {
+struct SocketError;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
@@ -99,8 +99,7 @@ constexpr System::Net::IPEndPoint __get__ntpEndPoint() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "endPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }, CppParam { name: "onRequestComplete", ty: "System::Action_1<LiteNetLib::Utils::NtpPacket>", modifiers: "", def_value: None }]
-explicit NtpRequest(System::Net::IPEndPoint endPoint, System::Action_1<LiteNetLib::Utils::NtpPacket> onRequestComplete) ;
+static LiteNetLib::Utils::NtpRequest New_ctor(System::Net::IPEndPoint endPoint, System::Action_1<LiteNetLib::Utils::NtpPacket> onRequestComplete) ;
 
 /// @brief Method .ctor addr 0x209a42c size 0xf0 virtual false final false
  void _ctor(System::Net::IPEndPoint endPoint, System::Action_1<LiteNetLib::Utils::NtpPacket> onRequestComplete) ;

@@ -4,11 +4,11 @@
 namespace GlobalNamespace {
 class Saber;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class SaberModelController;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr Zenject::DiContainer __get__container() const;
 /// @brief Method Start addr 0x210c368 size 0x84 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit SaberModelContainer() ;
+static GlobalNamespace::SaberModelContainer New_ctor() ;
 
 /// @brief Method .ctor addr 0x210c6dc size 0x8 virtual false final false
  void _ctor() ;

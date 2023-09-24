@@ -5,6 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Unity::Collections {
+template<typename T>
+struct NativeSlice_1;
+}
 namespace System {
 class IDisposable;
 }
@@ -14,43 +18,46 @@ struct GfxUpdateBufferRange;
 namespace UnityEngine::UIElements {
 struct Vertex;
 }
-namespace Unity::Collections {
-template<typename T>
-struct NativeSlice_1;
-}
-namespace UnityEngine {
-struct RectInt;
-}
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
-namespace System {
+namespace UnityEngine::UIElements::UIR {
 template<typename T>
-class Action_1;
-}
-namespace UnityEngine::Rendering {
-struct VertexAttributeDescriptor;
-}
-namespace UnityEngine::Rendering {
-struct StencilState;
-}
-namespace System {
-class Action;
+class UnityEngine__UIElements__UIR__Utility__GPUBuffer_1;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__Utility__GPUBufferType;
+}
+namespace UnityEngine::Rendering {
+struct StencilState;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine::Rendering {
+struct VertexAttributeDescriptor;
+}
+namespace UnityEngine {
+struct RectInt;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -61,12 +68,12 @@ namespace UnityEngine::UIElements::UIR {
 struct UnityEngine__UIElements__UIR__Utility__GPUBufferType;
 }
 namespace UnityEngine::UIElements::UIR {
-template<>
-class UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<UnityEngine::UIElements::Vertex>;
+template<::cordl_internals::is_or_is_backed_by<uint16_t> T>
+class UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<T>;
 }
 namespace UnityEngine::UIElements::UIR {
 template<>
-class UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<uint16_t>;
+class UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<UnityEngine::UIElements::Vertex>;
 }
 namespace UnityEngine::UIElements::UIR {
 class Utility;
@@ -120,6 +127,8 @@ __Index = 1,
 constexpr operator __UnityEngine__UIElements__UIR__Utility__GPUBufferType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__UIR__Utility__GPUBufferType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -385,103 +394,6 @@ namespace UnityEngine::UIElements::UIR {
 template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15404))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15404), inst: 728 })
-// CS Name: UnityEngine.UIElements.UIR.Utility::GPUBuffer`1
-class CORDL_TYPE UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<uint16_t> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief Convert operator to System::IDisposable
-constexpr operator  System::IDisposable() const noexcept;
-
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
-
-virtual ~UnityEngine__UIElements__UIR__Utility__GPUBuffer_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__Utility__GPUBuffer_1", modifiers: " const&", def_value: None }]
-constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1(UnityEngine__UIElements__UIR__Utility__GPUBuffer_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__Utility__GPUBuffer_1", modifiers: "&&", def_value: None }]
-constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1(UnityEngine__UIElements__UIR__Utility__GPUBuffer_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityEngine__UIElements__UIR__Utility__GPUBuffer_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1& operator=(UnityEngine__UIElements__UIR__Utility__GPUBuffer_1&& o) noexcept = default;
-  constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1& operator=(UnityEngine__UIElements__UIR__Utility__GPUBuffer_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- ::cordl_internals::intptr_t __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
-
-constexpr void __set_buffer(::cordl_internals::intptr_t value) ;
-
-constexpr ::cordl_internals::intptr_t __get_buffer() const;
-
- int32_t __declspec(property(get=__get_elemCount, put=__set_elemCount))  elemCount;
-
-constexpr void __set_elemCount(int32_t value) ;
-
-constexpr int32_t __get_elemCount() const;
-
- int32_t __declspec(property(get=__get_elemStride, put=__set_elemStride))  elemStride;
-
-constexpr void __set_elemStride(int32_t value) ;
-
-constexpr int32_t __get_elemStride() const;
-
-
-// Properties
-
- int32_t __declspec(property(get=get_ElementStride))  ElementStride;
-
- ::cordl_internals::intptr_t __declspec(property(get=get_BufferPointer))  BufferPointer;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "elementCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__UIR__Utility__GPUBuffer_1(int32_t elementCount, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType type) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t elementCount, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType type) ;
-
-/// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
- void Dispose() ;
-
-/// @brief Method UpdateRanges addr 0x0 size 0xffffffffffffffff virtual false final false
- void UpdateRanges(Unity::Collections::NativeSlice_1<UnityEngine::UIElements::UIR::GfxUpdateBufferRange> ranges, int32_t rangesMin, int32_t rangesMax) ;
-
-/// @brief Method get_ElementStride addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t get_ElementStride() ;
-
-/// @brief Method get_BufferPointer addr 0x0 size 0xffffffffffffffff virtual false final false
- ::cordl_internals::intptr_t get_BufferPointer() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def UnityEngine::UIElements::UIR
-// Type: ::GPUBuffer`1
-namespace UnityEngine::UIElements::UIR {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15404))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15404), inst: 732 })
 // CS Name: UnityEngine.UIElements.UIR.Utility::GPUBuffer`1
 class CORDL_TYPE UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<UnityEngine::UIElements::Vertex> : public ::bs_hook::Il2CppWrapperType {
@@ -551,8 +463,103 @@ constexpr int32_t __get_elemStride() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__UIR__Utility__GPUBuffer_1(int32_t elementCount, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType type) ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<UnityEngine::UIElements::Vertex> New_ctor(int32_t elementCount, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType type) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(int32_t elementCount, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType type) ;
+
+/// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+ void Dispose() ;
+
+/// @brief Method UpdateRanges addr 0x0 size 0xffffffffffffffff virtual false final false
+ void UpdateRanges(Unity::Collections::NativeSlice_1<UnityEngine::UIElements::UIR::GfxUpdateBufferRange> ranges, int32_t rangesMin, int32_t rangesMax) ;
+
+/// @brief Method get_ElementStride addr 0x0 size 0xffffffffffffffff virtual false final false
+ int32_t get_ElementStride() ;
+
+/// @brief Method get_BufferPointer addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::cordl_internals::intptr_t get_BufferPointer() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::UIElements::UIR
+// Type: ::GPUBuffer`1
+namespace UnityEngine::UIElements::UIR {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<uint16_t> T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15404))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15404), inst: 728 })
+// CS Name: UnityEngine.UIElements.UIR.Utility::GPUBuffer`1
+class CORDL_TYPE UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
+
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
+
+virtual ~UnityEngine__UIElements__UIR__Utility__GPUBuffer_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__Utility__GPUBuffer_1", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1(UnityEngine__UIElements__UIR__Utility__GPUBuffer_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__Utility__GPUBuffer_1", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1(UnityEngine__UIElements__UIR__Utility__GPUBuffer_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit UnityEngine__UIElements__UIR__Utility__GPUBuffer_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1& operator=(UnityEngine__UIElements__UIR__Utility__GPUBuffer_1&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__Utility__GPUBuffer_1& operator=(UnityEngine__UIElements__UIR__Utility__GPUBuffer_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ ::cordl_internals::intptr_t __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
+
+constexpr void __set_buffer(::cordl_internals::intptr_t value) ;
+
+constexpr ::cordl_internals::intptr_t __get_buffer() const;
+
+ int32_t __declspec(property(get=__get_elemCount, put=__set_elemCount))  elemCount;
+
+constexpr void __set_elemCount(int32_t value) ;
+
+constexpr int32_t __get_elemCount() const;
+
+ int32_t __declspec(property(get=__get_elemStride, put=__set_elemStride))  elemStride;
+
+constexpr void __set_elemStride(int32_t value) ;
+
+constexpr int32_t __get_elemStride() const;
+
+
+// Properties
+
+ int32_t __declspec(property(get=get_ElementStride))  ElementStride;
+
+ ::cordl_internals::intptr_t __declspec(property(get=get_BufferPointer))  BufferPointer;
+
+
+// Methods
+
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<T> New_ctor(int32_t elementCount, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType type) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t elementCount, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBufferType type) ;

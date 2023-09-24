@@ -51,8 +51,7 @@ constexpr explicit BerOutputStream(void* ptr) noexcept : Org::BouncyCastle::Asn1
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "os", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BerOutputStream(System::IO::Stream os) ;
+static Org::BouncyCastle::Asn1::BerOutputStream New_ctor(System::IO::Stream os) ;
 
 /// @brief Method .ctor addr 0x1130d78 size 0x4 virtual false final false
  void _ctor(System::IO::Stream os) ;

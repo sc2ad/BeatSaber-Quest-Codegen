@@ -5,65 +5,71 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Reflection {
-class AssemblyName;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerStack;
-}
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization {
 class SerializationBinder;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class NameCache;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ParseRecord;
+class System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver;
 }
-namespace System::IO {
-class Stream;
+namespace System::Runtime::Remoting::Messaging {
+class HeaderHandler;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class IntSizedArray;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Runtime::Serialization {
 class ObjectManager;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+class InternalFE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class SerObjectInfoInit;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class NameCache;
+class BinaryAssemblyInfo;
 }
-namespace System::Runtime::Remoting::Messaging {
-class HeaderHandler;
+namespace System {
+class Type;
 }
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
+namespace System::IO {
+class Stream;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class InternalFE;
-}
-namespace System::Runtime::Remoting::Messaging {
-class Header;
+class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ReadObjectInfo;
 }
 namespace System::Reflection {
-class Assembly;
+class AssemblyName;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerStack;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ParseRecord;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class IntSizedArray;
+}
+namespace System::Runtime::Remoting::Messaging {
+class Header;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -132,8 +138,7 @@ constexpr ::StringW __get_assemblyName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly() ;
+static System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly New_ctor() ;
 
 /// @brief Method .ctor addr 0x23632ec size 0x8 virtual false final false
  void _ctor() ;
@@ -193,8 +198,7 @@ constexpr System::Reflection::Assembly __get_m_topLevelAssembly() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "topLevelAssembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }]
-explicit System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver(System::Reflection::Assembly topLevelAssembly) ;
+static System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver New_ctor(System::Reflection::Assembly topLevelAssembly) ;
 
 /// @brief Method .ctor addr 0x2363384 size 0x28 virtual false final false
  void _ctor(System::Reflection::Assembly topLevelAssembly) ;
@@ -415,8 +419,7 @@ constexpr System::Type __get_previousType() const;
 /// @brief Method set_TopObject addr 0x235f260 size 0x14 virtual false final false
  void set_TopObject(::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "selector", ty: "System::Runtime::Serialization::ISurrogateSelector", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }, CppParam { name: "formatterEnums", ty: "System::Runtime::Serialization::Formatters::Binary::InternalFE", modifiers: "", def_value: None }, CppParam { name: "binder", ty: "System::Runtime::Serialization::SerializationBinder", modifiers: "", def_value: None }]
-explicit ObjectReader(System::IO::Stream stream, System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE formatterEnums, System::Runtime::Serialization::SerializationBinder binder) ;
+static System::Runtime::Serialization::Formatters::Binary::ObjectReader New_ctor(System::IO::Stream stream, System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE formatterEnums, System::Runtime::Serialization::SerializationBinder binder) ;
 
 /// @brief Method .ctor addr 0x235f274 size 0x114 virtual false final false
  void _ctor(System::IO::Stream stream, System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE formatterEnums, System::Runtime::Serialization::SerializationBinder binder) ;

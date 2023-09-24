@@ -157,8 +157,7 @@ constexpr int32_t __get__numberOfColors() const;
 /// @brief Method get_numberOfColors addr 0x21c9728 size 0x8 virtual false final false
  int32_t get_numberOfColors() ;
 
-// Ctor Parameters []
-explicit BeatmapCharacteristicSO() ;
+static GlobalNamespace::BeatmapCharacteristicSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c9730 size 0x10 virtual false final false
  void _ctor() ;

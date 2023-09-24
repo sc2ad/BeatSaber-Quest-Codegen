@@ -16,7 +16,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11021)), TypeDefinitionIndex(TypeDefinitionIndex(11031)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11031), inst: 3503 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11031)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11031), inst: 3503 }), TypeDefinitionIndex(TypeDefinitionIndex(11021))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11021), inst: 5937 })
 // CS Name: Zenject.PoolableStaticMemoryPool`4
 class CORDL_TYPE PoolableStaticMemoryPool_4<TParam1,TParam2,TParam3,TValue> : public Zenject::StaticMemoryPool_4<TParam1,TParam2,TParam3,TValue> {
@@ -55,8 +55,7 @@ constexpr explicit PoolableStaticMemoryPool_4(void* ptr) noexcept : Zenject::Sta
 
 // Methods
 
-// Ctor Parameters []
-explicit PoolableStaticMemoryPool_4() ;
+static Zenject::PoolableStaticMemoryPool_4<TParam1,TParam2,TParam3,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

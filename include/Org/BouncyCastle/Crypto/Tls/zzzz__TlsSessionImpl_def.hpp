@@ -86,8 +86,7 @@ constexpr bool __get_mResumable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sessionID", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "sessionParameters", ty: "Org::BouncyCastle::Crypto::Tls::SessionParameters", modifiers: "", def_value: None }]
-explicit TlsSessionImpl(::ArrayW<uint8_t> sessionID, Org::BouncyCastle::Crypto::Tls::SessionParameters sessionParameters) ;
+static Org::BouncyCastle::Crypto::Tls::TlsSessionImpl New_ctor(::ArrayW<uint8_t> sessionID, Org::BouncyCastle::Crypto::Tls::SessionParameters sessionParameters) ;
 
 /// @brief Method .ctor addr 0xf29be4 size 0x140 virtual false final false
  void _ctor(::ArrayW<uint8_t> sessionID, Org::BouncyCastle::Crypto::Tls::SessionParameters sessionParameters) ;

@@ -5,31 +5,28 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class AvatarPartsModel;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarData;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class MockPlayerSettings;
+struct DisconnectedReason;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace GlobalNamespace {
+class MockPlayerSettings;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarData;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -39,10 +36,13 @@ namespace GlobalNamespace {
 class MockPlayerFiniteStateMachine;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class AvatarPartsModel;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
 class NodePoseSyncStateManager;
@@ -489,8 +489,7 @@ constexpr GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() const
 /// @brief Method set_isTerminating addr 0x20ebd14 size 0x58 virtual false final false
  void set_isTerminating(bool value) ;
 
-// Ctor Parameters [CppParam { name: "settings", ty: "GlobalNamespace::MockPlayerSettings", modifiers: "", def_value: None }, CppParam { name: "isLocalPlayer", ty: "bool", modifiers: "", def_value: None }]
-explicit MockPlayer(GlobalNamespace::MockPlayerSettings settings, bool isLocalPlayer) ;
+static GlobalNamespace::MockPlayer New_ctor(GlobalNamespace::MockPlayerSettings settings, bool isLocalPlayer) ;
 
 /// @brief Method .ctor addr 0x20ebd6c size 0xb8 virtual false final false
  void _ctor(GlobalNamespace::MockPlayerSettings settings, bool isLocalPlayer) ;

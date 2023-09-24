@@ -60,8 +60,7 @@ static constexpr int32_t  aead{2};
 
 // Methods
 
-// Ctor Parameters []
-explicit CipherType() ;
+static Org::BouncyCastle::Crypto::Tls::CipherType New_ctor() ;
 
 /// @brief Method .ctor addr 0xed2cd8 size 0x8 virtual false final false
  void _ctor() ;

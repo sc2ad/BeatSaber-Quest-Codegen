@@ -4,6 +4,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::ComponentModel {
+class System__ComponentModel__ReferenceConverter__ReferenceComparer;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__TypeConverter__StandardValuesCollection;
+}
 namespace System::Globalization {
 class CultureInfo;
 }
@@ -12,9 +18,6 @@ class Type;
 }
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
-}
-namespace System::ComponentModel {
-class System__ComponentModel__TypeConverter__StandardValuesCollection;
 }
 namespace System::Collections {
 class IComparer;
@@ -80,8 +83,7 @@ constexpr System::ComponentModel::ReferenceConverter __get__converter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "converter", ty: "System::ComponentModel::ReferenceConverter", modifiers: "", def_value: None }]
-explicit System__ComponentModel__ReferenceConverter__ReferenceComparer(System::ComponentModel::ReferenceConverter converter) ;
+static System::ComponentModel::System__ComponentModel__ReferenceConverter__ReferenceComparer New_ctor(System::ComponentModel::ReferenceConverter converter) ;
 
 /// @brief Method .ctor addr 0x2783fc4 size 0x28 virtual false final false
  void _ctor(System::ComponentModel::ReferenceConverter converter) ;
@@ -152,8 +154,7 @@ constexpr System::Type __get__type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit ReferenceConverter(System::Type type) ;
+static System::ComponentModel::ReferenceConverter New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2782c44 size 0x28 virtual false final false
  void _ctor(System::Type type) ;

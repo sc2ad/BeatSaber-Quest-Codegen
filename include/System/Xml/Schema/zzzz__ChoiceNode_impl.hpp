@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__InteriorNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__ChoiceNode_def.hpp"
-#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
-#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
-#include "System/Xml/Schema/zzzz__Positions_def.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
+#include "System/Xml/Schema/zzzz__Positions_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
+#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::ChoiceNode.ConstructChildPos
 template<>
 
@@ -127,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parent, symbols, positions);
 }
-// Ctor Parameters []
- System::Xml::Schema::ChoiceNode::ChoiceNode()  : System::Xml::Schema::InteriorNode(THROW_UNLESS(::il2cpp_utils::New<ChoiceNode>())) {}
+ System::Xml::Schema::ChoiceNode System::Xml::Schema::ChoiceNode::New_ctor()  {
+System::Xml::Schema::ChoiceNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::ChoiceNode>())};
+return o;
+}
  void System::Xml::Schema::ChoiceNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::ChoiceNode>::get(),

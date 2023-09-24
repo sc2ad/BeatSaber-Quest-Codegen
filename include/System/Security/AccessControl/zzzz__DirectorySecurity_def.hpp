@@ -51,8 +51,7 @@ constexpr explicit DirectorySecurity(void* ptr) noexcept : System::Security::Acc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }]
-explicit DirectorySecurity(::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;
+static System::Security::AccessControl::DirectorySecurity New_ctor(::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;
 
 /// @brief Method .ctor addr 0x231815c size 0x18 virtual false final false
  void _ctor(::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;

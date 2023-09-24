@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
@@ -91,8 +91,7 @@ static Org::BouncyCastle::Math::BigInteger HashPaddedPair(Org::BouncyCastle::Cry
 /// @brief Method GetPadded addr 0x118e08c size 0x9c virtual false final false
 static ::ArrayW<uint8_t> GetPadded(Org::BouncyCastle::Math::BigInteger n, int32_t length) ;
 
-// Ctor Parameters []
-explicit Srp6Utilities() ;
+static Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Utilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x118e128 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::IO {
+class System__IO__Path____c;
+}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
@@ -12,6 +15,10 @@ struct ReadOnlySpan_1;
 namespace System {
 template<typename T>
 struct Span_1;
+}
+namespace System {
+template<typename T1>
+struct ValueTuple_1;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6,typename T7,typename TRest>
@@ -24,10 +31,6 @@ struct ValueTuple_5;
 namespace System::Buffers {
 template<typename T,typename TArg>
 class SpanAction_2;
-}
-namespace System {
-template<typename T1>
-struct ValueTuple_1;
 }
 // Forward declare root types
 namespace System::IO {
@@ -99,8 +102,7 @@ static System::Buffers::SpanAction_2<char16_t,System::ValueTuple_8<::cordl_inter
 
 // Methods
 
-// Ctor Parameters []
-explicit System__IO__Path____c() ;
+static System::IO::System__IO__Path____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x23d3958 size 0x8 virtual false final false
  void _ctor() ;

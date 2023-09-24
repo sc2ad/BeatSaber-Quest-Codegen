@@ -3,18 +3,18 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace HMUI {
-class TextSegmentedControl;
+namespace GlobalNamespace {
+class SettingsSubMenuInfo;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace GlobalNamespace {
-class SettingsSubMenuInfo;
-}
 namespace HMUI {
 class SegmentedControl;
+}
+namespace HMUI {
+class TextSegmentedControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -123,8 +123,7 @@ constexpr int32_t __get__selectedSubMenuInfoIdx() const;
 /// @brief Method HandleSettingsMenuSegmentedControlDidSelectCell addr 0x2172ba8 size 0x54 virtual false final false
  void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI::SegmentedControl segmentedControl, int32_t cellIdx) ;
 
-// Ctor Parameters []
-explicit MainSettingsMenuViewController() ;
+static GlobalNamespace::MainSettingsMenuViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2172bfc size 0x8 virtual false final false
  void _ctor() ;

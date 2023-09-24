@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeTable_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::AttributeTable._ctor
 template<>
@@ -131,8 +131,10 @@ constexpr void Org::BouncyCastle::Asn1::X509::AttributeTable::__set_attributes(S
 constexpr System::Collections::IDictionary Org::BouncyCastle::Asn1::X509::AttributeTable::__get_attributes() const {
 return ::cordl_internals::getInstanceField<System::Collections::IDictionary, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "attrs", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AttributeTable::AttributeTable(System::Collections::IDictionary attrs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeTable>(attrs))) {}
+ Org::BouncyCastle::Asn1::X509::AttributeTable Org::BouncyCastle::Asn1::X509::AttributeTable::New_ctor(System::Collections::IDictionary attrs)  {
+Org::BouncyCastle::Asn1::X509::AttributeTable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AttributeTable>(attrs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AttributeTable::_ctor(System::Collections::IDictionary attrs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AttributeTable>::get(),
@@ -142,8 +144,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, attrs);
 }
-// Ctor Parameters [CppParam { name: "attrs", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AttributeTable::AttributeTable(System::Collections::Hashtable attrs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeTable>(attrs))) {}
+ Org::BouncyCastle::Asn1::X509::AttributeTable Org::BouncyCastle::Asn1::X509::AttributeTable::New_ctor(System::Collections::Hashtable attrs)  {
+Org::BouncyCastle::Asn1::X509::AttributeTable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AttributeTable>(attrs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AttributeTable::_ctor(System::Collections::Hashtable attrs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AttributeTable>::get(),
@@ -153,8 +157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, attrs);
 }
-// Ctor Parameters [CppParam { name: "v", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AttributeTable::AttributeTable(Org::BouncyCastle::Asn1::Asn1EncodableVector v)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeTable>(v))) {}
+ Org::BouncyCastle::Asn1::X509::AttributeTable Org::BouncyCastle::Asn1::X509::AttributeTable::New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector v)  {
+Org::BouncyCastle::Asn1::X509::AttributeTable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AttributeTable>(v))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AttributeTable::_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector v)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AttributeTable>::get(),
@@ -164,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, v);
 }
-// Ctor Parameters [CppParam { name: "s", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AttributeTable::AttributeTable(Org::BouncyCastle::Asn1::Asn1Set s)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeTable>(s))) {}
+ Org::BouncyCastle::Asn1::X509::AttributeTable Org::BouncyCastle::Asn1::X509::AttributeTable::New_ctor(Org::BouncyCastle::Asn1::Asn1Set s)  {
+Org::BouncyCastle::Asn1::X509::AttributeTable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AttributeTable>(s))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AttributeTable::_ctor(Org::BouncyCastle::Asn1::Asn1Set s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AttributeTable>::get(),

@@ -4,10 +4,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class IDifficultyBeatmapSet;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -24,20 +24,16 @@ namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
+struct GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0____GetBeatmapData_b__3_d;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -45,16 +41,32 @@ struct CancellationToken;
 namespace GlobalNamespace {
 class MockBeatmapData;
 }
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MockBeatmapLoader____c;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MockBeatmapLoader___GetBeatmapData_d__2;
+}
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult;
@@ -226,8 +238,7 @@ constexpr GlobalNamespace::IReadonlyBeatmapData __get_beatmapData() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0() ;
+static GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ea7e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -302,8 +313,7 @@ static System::Func_2<GlobalNamespace::IDifficultyBeatmapSet,System::Collections
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MockBeatmapLoader____c() ;
+static GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ead00 size 0x8 virtual false final false
  void _ctor() ;
@@ -479,8 +489,7 @@ constexpr GlobalNamespace::BeatmapLevelsModel __get__beatmapLevelsModel() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beatmapLevelsModel", ty: "GlobalNamespace::BeatmapLevelsModel", modifiers: "", def_value: None }]
-explicit MockBeatmapLoader(GlobalNamespace::BeatmapLevelsModel beatmapLevelsModel) ;
+static GlobalNamespace::MockBeatmapLoader New_ctor(GlobalNamespace::BeatmapLevelsModel beatmapLevelsModel) ;
 
 /// @brief Method .ctor addr 0x20ea6b0 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::BeatmapLevelsModel beatmapLevelsModel) ;

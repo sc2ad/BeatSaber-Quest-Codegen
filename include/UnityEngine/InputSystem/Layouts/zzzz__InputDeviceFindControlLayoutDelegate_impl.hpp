@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceFindControlLayoutDelegate_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceExecuteCommandDelegate_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate._ctor
 template<>
 
@@ -73,8 +73,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate::InputDeviceFindControlLayoutDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<InputDeviceFindControlLayoutDelegate>(object, method))) {}
+ UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate>(object, method))};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate>::get(),

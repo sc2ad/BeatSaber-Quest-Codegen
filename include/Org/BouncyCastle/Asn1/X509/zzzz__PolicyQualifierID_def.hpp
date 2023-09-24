@@ -66,8 +66,7 @@ static Org::BouncyCastle::Asn1::X509::PolicyQualifierID __get_IdQtUnotice() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PolicyQualifierID(::StringW id) ;
+static Org::BouncyCastle::Asn1::X509::PolicyQualifierID New_ctor(::StringW id) ;
 
 /// @brief Method .ctor addr 0x110a9e8 size 0x68 virtual false final false
  void _ctor(::StringW id) ;

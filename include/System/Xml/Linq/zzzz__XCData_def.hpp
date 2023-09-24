@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Linq/zzzz__XText_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml::Linq {
-class XNode;
-}
 namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlWriter;
+}
+namespace System::Xml::Linq {
+class XNode;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -62,14 +62,12 @@ constexpr explicit XCData(void* ptr) noexcept : System::Xml::Linq::XText(ptr) {
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XCData(::StringW value) ;
+static System::Xml::Linq::XCData New_ctor(::StringW value) ;
 
 /// @brief Method .ctor addr 0x26c9250 size 0x4 virtual false final false
  void _ctor(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XCData", modifiers: "", def_value: None }]
-explicit XCData(System::Xml::Linq::XCData other) ;
+static System::Xml::Linq::XCData New_ctor(System::Xml::Linq::XCData other) ;
 
 /// @brief Method .ctor addr 0x26c92cc size 0x4 virtual false final false
  void _ctor(System::Xml::Linq::XCData other) ;

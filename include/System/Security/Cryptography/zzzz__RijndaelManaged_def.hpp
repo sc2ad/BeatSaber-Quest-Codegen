@@ -58,8 +58,7 @@ constexpr explicit RijndaelManaged(void* ptr) noexcept : System::Security::Crypt
 
 // Methods
 
-// Ctor Parameters []
-explicit RijndaelManaged() ;
+static System::Security::Cryptography::RijndaelManaged New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f5718 size 0xe0 virtual false final false
  void _ctor() ;

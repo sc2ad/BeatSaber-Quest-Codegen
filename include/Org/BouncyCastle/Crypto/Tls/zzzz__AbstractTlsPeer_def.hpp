@@ -6,17 +6,17 @@
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPeer;
 }
-namespace System {
-class Exception;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCompression;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
+class TlsCipher;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -109,8 +109,7 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsCloseable __get_mCloseHandle() cons
 /// @brief Method NotifyHandshakeComplete addr 0xecb330 size 0x4 virtual true final false
  void NotifyHandshakeComplete() ;
 
-// Ctor Parameters []
-explicit AbstractTlsPeer() ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsPeer New_ctor() ;
 
 /// @brief Method .ctor addr 0xecb334 size 0x8 virtual false final false
  void _ctor() ;

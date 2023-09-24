@@ -2,6 +2,26 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace GlobalNamespace {
+template<typename T>
+class IConnectionInitParams_1;
+}
+namespace GlobalNamespace {
+class IPollable;
+}
 namespace System {
 template<typename T>
 class Action_1;
@@ -9,16 +29,15 @@ class Action_1;
 namespace GlobalNamespace {
 class IConnection;
 }
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
 }
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
@@ -26,27 +45,8 @@ struct ConnectionFailedReason;
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace GlobalNamespace {
-template<typename T>
-class IConnectionInitParams_1;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-class IDisposable;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace System {
 class Action;
-}
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IScoreController.add_scoreDidChangeEvent
 template<>
 

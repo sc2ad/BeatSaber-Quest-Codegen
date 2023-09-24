@@ -52,8 +52,7 @@ constexpr explicit ScoreObjectiveValueFormatterSO(void* ptr) noexcept : GlobalNa
 /// @brief Method FormatValue addr 0x21f12c0 size 0x58 virtual true final false
  ::StringW FormatValue(int32_t value) ;
 
-// Ctor Parameters []
-explicit ScoreObjectiveValueFormatterSO() ;
+static GlobalNamespace::ScoreObjectiveValueFormatterSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f1318 size 0x8 virtual false final false
  void _ctor() ;

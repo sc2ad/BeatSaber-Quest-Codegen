@@ -3,18 +3,18 @@
 #include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class AudioClip;
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequest;
 }
 namespace UnityEngine {
-struct AudioType;
+class AudioClip;
 }
-namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
+namespace UnityEngine {
+struct AudioType;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -84,8 +84,7 @@ static ::cordl_internals::intptr_t Create(UnityEngine::Networking::DownloadHandl
 /// @brief Method InternalCreateAudioClip addr 0x2d33b84 size 0x5c virtual false final false
  void InternalCreateAudioClip(::StringW url, UnityEngine::AudioType audioType) ;
 
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "audioType", ty: "UnityEngine::AudioType", modifiers: "", def_value: None }]
-explicit DownloadHandlerAudioClip(::StringW url, UnityEngine::AudioType audioType) ;
+static UnityEngine::Networking::DownloadHandlerAudioClip New_ctor(::StringW url, UnityEngine::AudioType audioType) ;
 
 /// @brief Method .ctor addr 0x2d33acc size 0x64 virtual false final false
  void _ctor(::StringW url, UnityEngine::AudioType audioType) ;

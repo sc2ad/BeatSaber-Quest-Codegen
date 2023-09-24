@@ -82,8 +82,7 @@ constexpr ::ArrayW<int32_t> __get__parentIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "containerID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "member", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "parentIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit ValueTypeFixupInfo(int64_t containerID, System::Reflection::FieldInfo member, ::ArrayW<int32_t> parentIndex) ;
+static System::Runtime::Serialization::ValueTypeFixupInfo New_ctor(int64_t containerID, System::Reflection::FieldInfo member, ::ArrayW<int32_t> parentIndex) ;
 
 /// @brief Method .ctor addr 0x2349968 size 0x150 virtual false final false
  void _ctor(int64_t containerID, System::Reflection::FieldInfo member, ::ArrayW<int32_t> parentIndex) ;

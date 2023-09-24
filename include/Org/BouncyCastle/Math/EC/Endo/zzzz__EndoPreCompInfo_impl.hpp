@@ -140,8 +140,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo::EndoPreCompInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EndoPreCompInfo>())) {}
+ Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo::New_ctor()  {
+Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo>::get(),

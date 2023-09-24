@@ -5,26 +5,32 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace TMPro {
-class TextMeshPro;
-}
 namespace Tweening {
 class FloatTween;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerScoreDiffText__State;
 }
 namespace Tweening {
 class TimeTweeningManager;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace TMPro {
+class TextMeshPro;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 class MultiplayerLeadPlayerProvider;
 }
 namespace UnityEngine {
 class SpriteRenderer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,6 +91,8 @@ __Right = 1,
 constexpr operator __GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerScoreDiffText__HorizontalPosition_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -156,6 +164,8 @@ __AnimatingHide = 3,
 constexpr operator __GlobalNamespace__MultiplayerScoreDiffText__State_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerScoreDiffText__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -324,8 +334,7 @@ constexpr Tweening::FloatTween __get__onPlatformTextAlphaTween() const;
 /// @brief Method HandleNewLeaderWasSelected addr 0x20e1f8c size 0xc0 virtual false final false
  void HandleNewLeaderWasSelected(::StringW userId) ;
 
-// Ctor Parameters []
-explicit MultiplayerScoreDiffText() ;
+static GlobalNamespace::MultiplayerScoreDiffText New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e204c size 0x20 virtual false final false
  void _ctor() ;

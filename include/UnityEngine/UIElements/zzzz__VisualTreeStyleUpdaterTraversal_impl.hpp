@@ -1,19 +1,20 @@
 #pragma once
 #include "UnityEngine/UIElements/StyleSheets/zzzz__HierarchyTraversal_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeStyleUpdaterTraversal_def.hpp"
-#include "System/zzzz__Comparison_1_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__SelectorMatchRecord_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResultInfo_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ComputedStyle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualTreeStyleUpdaterTraversal_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleMatchingContext_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyReader_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ComputedStyle_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyReader_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResultInfo_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleRule_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c._ctor
 template<>
@@ -61,8 +62,10 @@ return ::cordl_internals::getStaticField<UnityEngine::UIElements::UnityEngine__U
  System::Comparison_1<UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c::__get___9__24_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>, "<>9__24_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c>::get(),
@@ -536,8 +539,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sheet, rule);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::VisualTreeStyleUpdaterTraversal()  : UnityEngine::UIElements::StyleSheets::HierarchyTraversal(THROW_UNLESS(::il2cpp_utils::New<VisualTreeStyleUpdaterTraversal>())) {}
+ UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::New_ctor()  {
+UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal>())};
+return o;
+}
  void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal>::get(),

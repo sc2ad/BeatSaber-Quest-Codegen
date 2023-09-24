@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine {
-class Object;
-}
 namespace Zenject {
 class IPrefabProvider;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -65,8 +65,7 @@ constexpr UnityEngine::Object __get__prefab() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prefab", ty: "UnityEngine::Object", modifiers: "", def_value: None }]
-explicit PrefabProvider(UnityEngine::Object prefab) ;
+static Zenject::PrefabProvider New_ctor(UnityEngine::Object prefab) ;
 
 /// @brief Method .ctor addr 0x2d906bc size 0x34 virtual false final false
  void _ctor(UnityEngine::Object prefab) ;

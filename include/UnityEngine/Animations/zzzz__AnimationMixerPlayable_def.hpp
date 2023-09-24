@@ -9,15 +9,15 @@ struct PlayableGraph;
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace System {
-template<typename T>
-class IEquatable_1;
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
-namespace UnityEngine::Playables {
-class IPlayable;
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

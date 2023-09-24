@@ -5,23 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
@@ -29,14 +14,29 @@ class DateTimeObject;
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactory;
 }
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactoryProvider;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 namespace Org::BouncyCastle::X509 {
 class X509CrlEntry;
 }
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactoryProvider;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class CertificateList;
@@ -143,8 +143,7 @@ constexpr int32_t __get_hashValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Asn1::X509::CertificateList", modifiers: "", def_value: None }]
-explicit X509Crl(Org::BouncyCastle::Asn1::X509::CertificateList c) ;
+static Org::BouncyCastle::X509::X509Crl New_ctor(Org::BouncyCastle::Asn1::X509::CertificateList c) ;
 
 /// @brief Method .ctor addr 0x10f0e7c size 0x1bc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::CertificateList c) ;

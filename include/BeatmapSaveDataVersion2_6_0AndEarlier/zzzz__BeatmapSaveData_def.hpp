@@ -6,13 +6,52 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ColorType;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteData;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleData;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleType;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteType;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapObjectType;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventsForKeyword;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__EventData;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SliderType;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SliderData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__WaypointData;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventKeywordFiltersData;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
@@ -140,6 +179,8 @@ __BpmChange = 100,
 constexpr operator __BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType_Unwrapped () const noexcept {
 return std::bit_cast<__BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -318,8 +359,7 @@ constexpr float_t __get__floatValue() const;
 /// @brief Method get_floatValue addr 0xd9bd48 size 0x8 virtual false final false
  float_t get_floatValue() ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "floatValue", ty: "float_t", modifiers: "", def_value: None }]
-explicit BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__EventData(float_t time, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType type, int32_t value, float_t floatValue) ;
+static BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__EventData New_ctor(float_t time, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType type, int32_t value, float_t floatValue) ;
 
 /// @brief Method .ctor addr 0xd9bc28 size 0x44 virtual false final false
  void _ctor(float_t time, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType type, int32_t value, float_t floatValue) ;
@@ -378,6 +418,8 @@ __Slider = 3,
 constexpr operator __BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapObjectType_Unwrapped () const noexcept {
 return std::bit_cast<__BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapObjectType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -453,6 +495,8 @@ __None = -1,
 constexpr operator __BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteType_Unwrapped () const noexcept {
 return std::bit_cast<__BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -533,6 +577,8 @@ constexpr operator __BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__Col
 return std::bit_cast<__BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ColorType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -604,6 +650,8 @@ __Burst = 1,
 constexpr operator __BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SliderType_Unwrapped () const noexcept {
 return std::bit_cast<__BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SliderType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -727,8 +775,7 @@ constexpr GlobalNamespace::NoteCutDirection __get__cutDirection() const;
 /// @brief Method get_cutDirection addr 0xd9bd78 size 0x8 virtual false final false
  GlobalNamespace::NoteCutDirection get_cutDirection() ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "type", ty: "BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteType", modifiers: "", def_value: None }, CppParam { name: "cutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }]
-explicit BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteData(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteType type, GlobalNamespace::NoteCutDirection cutDirection) ;
+static BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteData New_ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteType type, GlobalNamespace::NoteCutDirection cutDirection) ;
 
 /// @brief Method .ctor addr 0xd9bd80 size 0x50 virtual false final false
  void _ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteType type, GlobalNamespace::NoteCutDirection cutDirection) ;
@@ -829,8 +876,7 @@ constexpr GlobalNamespace::OffsetDirection __get__offsetDirection() const;
 /// @brief Method get_offsetDirection addr 0xd9bde8 size 0x8 virtual false final false
  GlobalNamespace::OffsetDirection get_offsetDirection() ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "offsetDirection", ty: "GlobalNamespace::OffsetDirection", modifiers: "", def_value: None }]
-explicit BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__WaypointData(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection) ;
+static BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__WaypointData New_ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection) ;
 
 /// @brief Method .ctor addr 0xd9bdf0 size 0x4c virtual false final false
  void _ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection) ;
@@ -1019,8 +1065,7 @@ constexpr GlobalNamespace::SliderMidAnchorMode __get__sliderMidAnchorMode() cons
 /// @brief Method get_sliderMidAnchorMode addr 0xd9be94 size 0x8 virtual false final false
  GlobalNamespace::SliderMidAnchorMode get_sliderMidAnchorMode() ;
 
-// Ctor Parameters [CppParam { name: "colorType", ty: "BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ColorType", modifiers: "", def_value: None }, CppParam { name: "headTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headLineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "headControlPointLengthMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headCutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "tailTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tailLineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "tailControlPointLengthMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tailCutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "sliderMidAnchorMode", ty: "GlobalNamespace::SliderMidAnchorMode", modifiers: "", def_value: None }]
-explicit BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SliderData(BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ColorType colorType, float_t headTime, int32_t headLineIndex, GlobalNamespace::NoteLineLayer headLineLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailTime, int32_t tailLineIndex, GlobalNamespace::NoteLineLayer tailLineLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode) ;
+static BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SliderData New_ctor(BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ColorType colorType, float_t headTime, int32_t headLineIndex, GlobalNamespace::NoteLineLayer headLineLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailTime, int32_t tailLineIndex, GlobalNamespace::NoteLineLayer tailLineLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode) ;
 
 /// @brief Method .ctor addr 0xd9be9c size 0x9c virtual false final false
  void _ctor(BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ColorType colorType, float_t headTime, int32_t headLineIndex, GlobalNamespace::NoteLineLayer headLineLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailTime, int32_t tailLineIndex, GlobalNamespace::NoteLineLayer tailLineLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode) ;
@@ -1132,8 +1177,7 @@ constexpr int32_t __get__width() const;
 /// @brief Method get_width addr 0xd9bf58 size 0x8 virtual false final false
  int32_t get_width() ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleType", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleData(float_t time, int32_t lineIndex, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleType type, float_t duration, int32_t width) ;
+static BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleData New_ctor(float_t time, int32_t lineIndex, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleType type, float_t duration, int32_t width) ;
 
 /// @brief Method .ctor addr 0xd9bf60 size 0x54 virtual false final false
  void _ctor(float_t time, int32_t lineIndex, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleType type, float_t duration, int32_t width) ;
@@ -1192,6 +1236,8 @@ __Free = 2,
 constexpr operator __BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleType_Unwrapped () const noexcept {
 return std::bit_cast<__BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1274,8 +1320,7 @@ constexpr System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEar
 /// @brief Method get_keywords addr 0xd9bfb4 size 0x8 virtual false final false
  System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventsForKeyword> get_keywords() ;
 
-// Ctor Parameters [CppParam { name: "keywords", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventsForKeyword>", modifiers: "", def_value: None }]
-explicit BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventKeywordFiltersData(System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventsForKeyword> keywords) ;
+static BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventKeywordFiltersData New_ctor(System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventsForKeyword> keywords) ;
 
 /// @brief Method .ctor addr 0xd9bfbc size 0x28 virtual false final false
  void _ctor(System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventsForKeyword> keywords) ;
@@ -1354,8 +1399,7 @@ constexpr System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEar
 /// @brief Method get_specialEvents addr 0xd9bfec size 0x8 virtual false final false
  System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType> get_specialEvents() ;
 
-// Ctor Parameters [CppParam { name: "keyword", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "specialEvents", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType>", modifiers: "", def_value: None }]
-explicit BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventsForKeyword(::StringW keyword, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType> specialEvents) ;
+static BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventsForKeyword New_ctor(::StringW keyword, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType> specialEvents) ;
 
 /// @brief Method .ctor addr 0xd9bff4 size 0x2c virtual false final false
  void _ctor(::StringW keyword, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType> specialEvents) ;
@@ -1533,8 +1577,7 @@ static BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarl
 /// @brief Method get_specialEventsKeywordFilters addr 0xd9b818 size 0x8 virtual false final false
  BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventKeywordFiltersData get_specialEventsKeywordFilters() ;
 
-// Ctor Parameters [CppParam { name: "events", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__EventData>", modifiers: "", def_value: None }, CppParam { name: "notes", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteData>", modifiers: "", def_value: None }, CppParam { name: "sliders", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SliderData>", modifiers: "", def_value: None }, CppParam { name: "waypoints", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__WaypointData>", modifiers: "", def_value: None }, CppParam { name: "obstacles", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleData>", modifiers: "", def_value: None }, CppParam { name: "specialEventsKeywordFilters", ty: "BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventKeywordFiltersData", modifiers: "", def_value: None }]
-explicit BeatmapSaveData(System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__EventData> events, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteData> notes, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SliderData> sliders, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__WaypointData> waypoints, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleData> obstacles, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventKeywordFiltersData specialEventsKeywordFilters) ;
+static BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData New_ctor(System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__EventData> events, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteData> notes, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SliderData> sliders, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__WaypointData> waypoints, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleData> obstacles, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventKeywordFiltersData specialEventsKeywordFilters) ;
 
 /// @brief Method .ctor addr 0xd9b820 size 0x90 virtual false final false
  void _ctor(System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__EventData> events, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__NoteData> notes, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SliderData> sliders, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__WaypointData> waypoints, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__ObstacleData> obstacles, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__SpecialEventKeywordFiltersData specialEventsKeywordFilters) ;

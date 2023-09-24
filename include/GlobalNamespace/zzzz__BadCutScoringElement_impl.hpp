@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ScoringElement_impl.hpp"
 #include "GlobalNamespace/zzzz__BadCutScoringElement_def.hpp"
+#include "GlobalNamespace/zzzz__BadCutScoringElement_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BadCutScoringElement.get_cutScore
@@ -162,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteData);
 }
-// Ctor Parameters []
- GlobalNamespace::BadCutScoringElement::BadCutScoringElement()  : GlobalNamespace::ScoringElement(THROW_UNLESS(::il2cpp_utils::New<BadCutScoringElement>())) {}
+ GlobalNamespace::BadCutScoringElement GlobalNamespace::BadCutScoringElement::New_ctor()  {
+GlobalNamespace::BadCutScoringElement o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BadCutScoringElement>())};
+return o;
+}
  void GlobalNamespace::BadCutScoringElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BadCutScoringElement>::get(),
@@ -190,8 +193,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BadCutScoringElement__Pool::GlobalNamespace__BadCutScoringElement__Pool()  : GlobalNamespace::GlobalNamespace__ScoringElement__Pool_1<GlobalNamespace::BadCutScoringElement>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BadCutScoringElement__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__BadCutScoringElement__Pool GlobalNamespace::GlobalNamespace__BadCutScoringElement__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BadCutScoringElement__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BadCutScoringElement__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BadCutScoringElement__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BadCutScoringElement__Pool>::get(),

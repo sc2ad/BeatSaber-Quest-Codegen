@@ -1,18 +1,19 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__LIV_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKRender_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "LIV/SDK/Unity/zzzz__INVALIDATION_FLAGS_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKRender_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "LIV/SDK/Unity/zzzz__LIV_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68._ctor
 template<>
 
@@ -145,8 +146,10 @@ constexpr void LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d_
 constexpr LIV::SDK::Unity::LIV LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68::__get___4__this() const {
 return ::cordl_internals::getInstanceField<LIV::SDK::Unity::LIV, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68>(__1__state))) {}
+ LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68 LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68::New_ctor(int32_t __1__state)  {
+LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68 o{THROW_UNLESS(::il2cpp_utils::New<LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68>(__1__state))};
+return o;
+}
  void LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68>::get(),
@@ -1388,8 +1391,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- LIV::SDK::Unity::LIV::LIV()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LIV>())) {}
+ LIV::SDK::Unity::LIV LIV::SDK::Unity::LIV::New_ctor()  {
+LIV::SDK::Unity::LIV o{THROW_UNLESS(::il2cpp_utils::New<LIV::SDK::Unity::LIV>())};
+return o;
+}
  void LIV::SDK::Unity::LIV::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LIV::SDK::Unity::LIV>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Bcpg {
-class UserAttributeSubpacket;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class UserAttributeSubpacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -62,8 +62,7 @@ constexpr System::IO::Stream __get_input() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit UserAttributeSubpacketsParser(System::IO::Stream input) ;
+static Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x114ad30 size 0x28 virtual false final false
  void _ctor(System::IO::Stream input) ;

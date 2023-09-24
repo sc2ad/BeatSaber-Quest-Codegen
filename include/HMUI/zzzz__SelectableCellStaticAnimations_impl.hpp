@@ -1,9 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__SelectableCellStaticAnimations_def.hpp"
+#include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "HMUI/zzzz__SelectableCell_def.hpp"
 //  Writing Method size for method: HMUI::SelectableCellStaticAnimations.Awake
 template<>
 
@@ -207,8 +206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::SelectableCellStaticAnimations::SelectableCellStaticAnimations()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SelectableCellStaticAnimations>())) {}
+ HMUI::SelectableCellStaticAnimations HMUI::SelectableCellStaticAnimations::New_ctor()  {
+HMUI::SelectableCellStaticAnimations o{THROW_UNLESS(::il2cpp_utils::New<HMUI::SelectableCellStaticAnimations>())};
+return o;
+}
  void HMUI::SelectableCellStaticAnimations::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::SelectableCellStaticAnimations>::get(),

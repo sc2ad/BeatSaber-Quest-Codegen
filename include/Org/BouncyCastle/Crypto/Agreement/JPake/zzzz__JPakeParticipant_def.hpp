@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Agreement::JPake {
-class JPakePrimeOrderGroup;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 class JPakeRound1Payload;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Crypto::Agreement::JPake {
+class JPakePrimeOrderGroup;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 class JPakeRound2Payload;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 class JPakeRound3Payload;
@@ -223,20 +223,17 @@ constexpr int32_t __get_state() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }]
-explicit JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password) ;
+static Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant New_ctor(::StringW participantId, ::ArrayW<char16_t> password) ;
 
 /// @brief Method .ctor addr 0x1187f60 size 0x78 virtual false final false
  void _ctor(::StringW participantId, ::ArrayW<char16_t> password) ;
 
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup", modifiers: "", def_value: None }]
-explicit JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group) ;
+static Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant New_ctor(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group) ;
 
 /// @brief Method .ctor addr 0x1187fd8 size 0xbc virtual false final false
  void _ctor(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group) ;
 
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant New_ctor(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0x1188094 size 0x23c virtual false final false
  void _ctor(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Security::SecureRandom random) ;

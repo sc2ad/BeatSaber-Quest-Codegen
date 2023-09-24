@@ -3,12 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+class UnityEngine__InputSystem__Utilities__MiscHelpers___EveryNth_d__1_1;
+}
+namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace System {
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -16,12 +26,6 @@ class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -232,8 +236,7 @@ constexpr System::Collections::Generic::IEnumerator_1<TValue> __get___7__wrap2()
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Utilities__MiscHelpers___EveryNth_d__1_1(int32_t __1__state) ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__MiscHelpers___EveryNth_d__1_1<TValue> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;

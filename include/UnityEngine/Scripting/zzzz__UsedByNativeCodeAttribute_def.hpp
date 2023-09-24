@@ -62,14 +62,12 @@ constexpr ::StringW __get__Name_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UsedByNativeCodeAttribute() ;
+static UnityEngine::Scripting::UsedByNativeCodeAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba0fd4 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UsedByNativeCodeAttribute(::StringW name) ;
+static UnityEngine::Scripting::UsedByNativeCodeAttribute New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2ba0fdc size 0x28 virtual false final false
  void _ctor(::StringW name) ;

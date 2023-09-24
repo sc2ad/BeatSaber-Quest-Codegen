@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Resources/zzzz__IResourceReader_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 //  Writing Method size for method: System::Resources::IResourceReader.Close
 template<>
 

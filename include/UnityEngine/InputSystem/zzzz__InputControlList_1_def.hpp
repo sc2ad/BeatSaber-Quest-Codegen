@@ -6,6 +6,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem {
+template<typename TControl>
+struct UnityEngine__InputSystem__InputControlList_1__Enumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
@@ -14,37 +33,22 @@ namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyCollection_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
+struct Allocator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace Unity::Collections {
-struct Allocator;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -70,7 +74,7 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TControl>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6308)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(6308))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6308), inst: 2 })
 // CS Name: UnityEngine.InputSystem.InputControlList`1::Enumerator
 struct CORDL_TYPE UnityEngine__InputSystem__InputControlList_1__Enumerator<TControl> : public ::bs_hook::ValueTypeWrapper {

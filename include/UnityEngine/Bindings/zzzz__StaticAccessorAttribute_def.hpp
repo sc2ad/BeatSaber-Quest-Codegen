@@ -79,14 +79,12 @@ constexpr UnityEngine::Bindings::StaticAccessorType __get__Type_k__BackingField(
 /// @brief Method set_Type addr 0x2ba1784 size 0x8 virtual false final false
  void set_Type(UnityEngine::Bindings::StaticAccessorType value) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StaticAccessorAttribute(::StringW name) ;
+static UnityEngine::Bindings::StaticAccessorAttribute New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2ba178c size 0x28 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "UnityEngine::Bindings::StaticAccessorType", modifiers: "", def_value: None }]
-explicit StaticAccessorAttribute(::StringW name, UnityEngine::Bindings::StaticAccessorType type) ;
+static UnityEngine::Bindings::StaticAccessorAttribute New_ctor(::StringW name, UnityEngine::Bindings::StaticAccessorType type) ;
 
 /// @brief Method .ctor addr 0x2ba17b4 size 0x30 virtual false final false
  void _ctor(::StringW name, UnityEngine::Bindings::StaticAccessorType type) ;

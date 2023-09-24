@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
+class EnvironmentLightGroups;
+}
+namespace GlobalNamespace {
 class BeatmapEventDataBoxGroupLists;
 }
 namespace GlobalNamespace {
 class DefaultEnvironmentEvents;
-}
-namespace GlobalNamespace {
-class EnvironmentLightGroups;
 }
 namespace GlobalNamespace {
 class BeatmapData;

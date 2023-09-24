@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,8 +117,7 @@ constexpr bool __get__initialized() const;
 /// @brief Method LateUpdate addr 0x2257bc8 size 0x108 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit SpawnLaserAnimation() ;
+static GlobalNamespace::SpawnLaserAnimation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2257cd0 size 0x14 virtual false final false
  void _ctor() ;

@@ -1,18 +1,18 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightDataGI_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__DirectionalLight_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__SpotLight_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__PointLight_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__Cookie_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__RectangleLight_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__FalloffType_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__SpotLight_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__RectangleLight_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__Cookie_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__DirectionalLight_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__PointLight_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightType_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__DiscLight_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: UnityEngine::Experimental::GlobalIllumination::LightDataGI.Init
 template<>
 

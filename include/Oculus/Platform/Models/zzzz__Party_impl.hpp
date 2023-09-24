@@ -74,8 +74,10 @@ constexpr void Oculus::Platform::Models::Party::__set_Users(Oculus::Platform::Mo
 constexpr Oculus::Platform::Models::UserList Oculus::Platform::Models::Party::__get_Users() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Models::UserList, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::Party::Party(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Party>(o))) {}
+ Oculus::Platform::Models::Party Oculus::Platform::Models::Party::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::Party o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::Party>(o))};
+return o;
+}
  void Oculus::Platform::Models::Party::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::Party>::get(),

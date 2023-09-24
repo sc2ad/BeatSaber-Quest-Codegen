@@ -1,15 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerGameplayManager_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLocalPlayerDisconnectHelper_def.hpp"
-#include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
-#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
 #include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerInGameMenuController_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsListener_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalPlayerDisconnectHelper_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerGameplayManager_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsListener_def.hpp"
+#include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerInGameMenuController_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData._ctor
 template<>
 
@@ -33,8 +34,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGam
 constexpr bool GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData::__get_failOn0Energy() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "failOn0Energy", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData(bool failOn0Energy)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData>(failOn0Energy))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData::New_ctor(bool failOn0Energy)  {
+GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData>(failOn0Energy))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData::_ctor(bool failOn0Energy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData>::get(),
@@ -465,8 +468,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, hasFocus);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::MultiplayerLocalActivePlayerGameplayManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalActivePlayerGameplayManager>())) {}
+ GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::New_ctor()  {
+GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager>::get(),

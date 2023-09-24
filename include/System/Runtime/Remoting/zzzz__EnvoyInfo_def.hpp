@@ -70,8 +70,7 @@ constexpr System::Runtime::Remoting::Messaging::IMessageSink __get_envoySinks() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sinks", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
-explicit EnvoyInfo(System::Runtime::Remoting::Messaging::IMessageSink sinks) ;
+static System::Runtime::Remoting::EnvoyInfo New_ctor(System::Runtime::Remoting::Messaging::IMessageSink sinks) ;
 
 /// @brief Method .ctor addr 0x2319dfc size 0x28 virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMessageSink sinks) ;

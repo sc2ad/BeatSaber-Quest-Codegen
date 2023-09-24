@@ -1,15 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsPyramidView_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerResultsPyramidViewAvatar_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsPyramidViewAvatar_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerResultsPyramidView.get_resultAvatarDirectors
 template<>
 
@@ -185,8 +184,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, resultsData, badgeStartTransform, badgeMidTransform);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerResultsPyramidView::MultiplayerResultsPyramidView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerResultsPyramidView>())) {}
+ GlobalNamespace::MultiplayerResultsPyramidView GlobalNamespace::MultiplayerResultsPyramidView::New_ctor()  {
+GlobalNamespace::MultiplayerResultsPyramidView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerResultsPyramidView>())};
+return o;
+}
  void GlobalNamespace::MultiplayerResultsPyramidView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerResultsPyramidView>::get(),

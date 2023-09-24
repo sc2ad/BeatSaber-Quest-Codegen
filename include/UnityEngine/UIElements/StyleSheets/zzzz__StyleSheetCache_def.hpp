@@ -4,18 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
-}
 namespace UnityEngine::UIElements {
 class StyleRule;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+class UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKey;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -147,8 +153,7 @@ constexpr explicit UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetH
 /// @brief Method GetHashCode addr 0x2c7365c size 0x40 virtual true final true
  int32_t GetHashCode(UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKey key) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer() ;
+static UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c7369c size 0x8 virtual false final false
  void _ctor() ;

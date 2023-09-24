@@ -4,21 +4,27 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace System {
+class IComparable;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LevelCompletionResults__LevelEndStateType;
+}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace System {
-class IComparable;
 }
 namespace LiteNetLib::Utils {
 template<typename T>
 class INetImmutableSerializable_1;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+struct GlobalNamespace__LevelCompletionResults__LevelEndAction;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__RankModel__Rank;
@@ -83,6 +89,8 @@ __Failed = 2,
 constexpr operator __GlobalNamespace__LevelCompletionResults__LevelEndStateType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LevelCompletionResults__LevelEndStateType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -156,6 +164,8 @@ __Restart = 2,
 constexpr operator __GlobalNamespace__LevelCompletionResults__LevelEndAction_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LevelCompletionResults__LevelEndAction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -378,14 +388,12 @@ constexpr float_t __get_endSongTime() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LevelCompletionResults() ;
+static GlobalNamespace::LevelCompletionResults New_ctor() ;
 
 /// @brief Method .ctor addr 0x1215b64 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "modifiedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "multipliedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "GlobalNamespace::GlobalNamespace__RankModel__Rank", modifiers: "", def_value: None }, CppParam { name: "fullCombo", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "leftSaberMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightSaberMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "leftHandMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightHandMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "levelEndStateType", ty: "GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType", modifiers: "", def_value: None }, CppParam { name: "levelEndAction", ty: "GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction", modifiers: "", def_value: None }, CppParam { name: "energy", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "goodCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "badCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "missedCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "notGoodCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "okCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "goodCutsCountForNotesWithFullScoreScoringType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "averageCenterDistanceCutScoreForNotesWithFullScoreScoringType", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "averageCutScoreForNotesWithFullScoreScoringType", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxCombo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "endSongTime", ty: "float_t", modifiers: "", def_value: None }]
-explicit LevelCompletionResults(GlobalNamespace::GameplayModifiers gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, GlobalNamespace::GlobalNamespace__RankModel__Rank rank, bool fullCombo, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType levelEndStateType, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore, int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime) ;
+static GlobalNamespace::LevelCompletionResults New_ctor(GlobalNamespace::GameplayModifiers gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, GlobalNamespace::GlobalNamespace__RankModel__Rank rank, bool fullCombo, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType levelEndStateType, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore, int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime) ;
 
 /// @brief Method .ctor addr 0x1215b6c size 0x12c virtual false final false
  void _ctor(GlobalNamespace::GameplayModifiers gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, GlobalNamespace::GlobalNamespace__RankModel__Rank rank, bool fullCombo, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType levelEndStateType, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore, int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime) ;

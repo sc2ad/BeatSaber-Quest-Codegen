@@ -70,8 +70,10 @@ constexpr void Mono::Security::X509::X509Stores::__set__trusted(Mono::Security::
 constexpr Mono::Security::X509::X509Store Mono::Security::X509::X509Stores::__get__trusted() const {
 return ::cordl_internals::getInstanceField<Mono::Security::X509::X509Store, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "newFormat", ty: "bool", modifiers: "", def_value: None }]
- Mono::Security::X509::X509Stores::X509Stores(::StringW path, bool newFormat)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Stores>(path, newFormat))) {}
+ Mono::Security::X509::X509Stores Mono::Security::X509::X509Stores::New_ctor(::StringW path, bool newFormat)  {
+Mono::Security::X509::X509Stores o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::X509Stores>(path, newFormat))};
+return o;
+}
  void Mono::Security::X509::X509Stores::_ctor(::StringW path, bool newFormat)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::X509Stores>::get(),

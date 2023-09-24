@@ -5,17 +5,17 @@
 namespace Org::BouncyCastle::Asn1::Esf {
 class OtherRevRefs;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::Esf {
+class OcspListID;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class CrlListID;
 }
-namespace Org::BouncyCastle::Asn1::Esf {
-class OcspListID;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -96,14 +96,12 @@ constexpr Org::BouncyCastle::Asn1::Esf::OtherRevRefs __get_otherRev() const;
 /// @brief Method GetInstance addr 0xe02d48 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::CrlOcspRef GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CrlOcspRef(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::CrlOcspRef New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe04454 size 0x3e4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "crlids", ty: "Org::BouncyCastle::Asn1::Esf::CrlListID", modifiers: "", def_value: None }, CppParam { name: "ocspids", ty: "Org::BouncyCastle::Asn1::Esf::OcspListID", modifiers: "", def_value: None }, CppParam { name: "otherRev", ty: "Org::BouncyCastle::Asn1::Esf::OtherRevRefs", modifiers: "", def_value: None }]
-explicit CrlOcspRef(Org::BouncyCastle::Asn1::Esf::CrlListID crlids, Org::BouncyCastle::Asn1::Esf::OcspListID ocspids, Org::BouncyCastle::Asn1::Esf::OtherRevRefs otherRev) ;
+static Org::BouncyCastle::Asn1::Esf::CrlOcspRef New_ctor(Org::BouncyCastle::Asn1::Esf::CrlListID crlids, Org::BouncyCastle::Asn1::Esf::OcspListID ocspids, Org::BouncyCastle::Asn1::Esf::OtherRevRefs otherRev) ;
 
 /// @brief Method .ctor addr 0xe04b48 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Esf::CrlListID crlids, Org::BouncyCastle::Asn1::Esf::OcspListID ocspids, Org::BouncyCastle::Asn1::Esf::OtherRevRefs otherRev) ;

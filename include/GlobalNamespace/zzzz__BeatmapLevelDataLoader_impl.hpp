@@ -1,36 +1,36 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataLoader_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__AsyncCache_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelDataLoader_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__AsyncCache_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
-#include "GlobalNamespace/zzzz__IFilePathSongPreviewAudioClipProvider_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewDifficultyBeatmapSet_def.hpp"
+#include "GlobalNamespace/zzzz__IFilePathSongPreviewAudioClipProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "GlobalNamespace/zzzz__IAssetSongPreviewAudioClipProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
-#include "UnityEngine/zzzz__AssetBundleCreateRequest_def.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "UnityEngine/zzzz__AssetBundleCreateRequest_def.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"
 #include "UnityEngine/zzzz__AssetBundleRequest_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__AssetBundleLevelInfo._ctor
 template<>
 
@@ -165,8 +165,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "difficultyBeatmapSet", ty: "GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicSerializedName", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "parentLevel", ty: "GlobalNamespace::IBeatmapLevel", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet(GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet difficultyBeatmapSet, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristicSerializedName, GlobalNamespace::IBeatmapLevel parentLevel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet>(difficultyBeatmapSet, beatmapCharacteristicSerializedName, parentLevel))) {}
+ GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet::New_ctor(GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet difficultyBeatmapSet, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristicSerializedName, GlobalNamespace::IBeatmapLevel parentLevel)  {
+GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet>(difficultyBeatmapSet, beatmapCharacteristicSerializedName, parentLevel))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet::_ctor(GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet difficultyBeatmapSet, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristicSerializedName, GlobalNamespace::IBeatmapLevel parentLevel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet>::get(),
@@ -261,8 +263,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelData", ty: "GlobalNamespace::BeatmapLevelDataSO", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicCollection", ty: "GlobalNamespace::BeatmapCharacteristicCollection", modifiers: "", def_value: None }, CppParam { name: "parentLevel", ty: "GlobalNamespace::IBeatmapLevel", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData(GlobalNamespace::BeatmapLevelDataSO beatmapLevelData, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection, GlobalNamespace::IBeatmapLevel parentLevel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData>(beatmapLevelData, beatmapCharacteristicCollection, parentLevel))) {}
+ GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData::New_ctor(GlobalNamespace::BeatmapLevelDataSO beatmapLevelData, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection, GlobalNamespace::IBeatmapLevel parentLevel)  {
+GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData>(beatmapLevelData, beatmapCharacteristicCollection, parentLevel))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData::_ctor(GlobalNamespace::BeatmapLevelDataSO beatmapLevelData, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection, GlobalNamespace::IBeatmapLevel parentLevel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData>::get(),
@@ -947,8 +951,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<UnityEngine::Sprite>, false>(const_cast<void*>(instance), ___internal_method, cancellationToken);
 }
-// Ctor Parameters [CppParam { name: "previewLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview(GlobalNamespace::IPreviewBeatmapLevel previewLevel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview>(previewLevel))) {}
+ GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview::New_ctor(GlobalNamespace::IPreviewBeatmapLevel previewLevel)  {
+GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview>(previewLevel))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview::_ctor(GlobalNamespace::IPreviewBeatmapLevel previewLevel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview>::get(),
@@ -1233,8 +1239,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__Di
 constexpr System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO> GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0::__get_taskSource() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0 GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0>::get(),
@@ -1305,8 +1313,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__Di
 constexpr GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0 GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1::__get_CS$__8__locals1() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1 GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1>::get(),
@@ -1525,8 +1535,10 @@ constexpr void GlobalNamespace::BeatmapLevelDataLoader::__set__allBeatmapCharact
 constexpr GlobalNamespace::BeatmapCharacteristicCollection GlobalNamespace::BeatmapLevelDataLoader::__get__allBeatmapCharacteristicCollection() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BeatmapCharacteristicCollection, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "allBeatmapCharacteristicCollection", ty: "GlobalNamespace::BeatmapCharacteristicCollection", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapLevelDataLoader::BeatmapLevelDataLoader(GlobalNamespace::BeatmapCharacteristicCollection allBeatmapCharacteristicCollection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelDataLoader>(allBeatmapCharacteristicCollection))) {}
+ GlobalNamespace::BeatmapLevelDataLoader GlobalNamespace::BeatmapLevelDataLoader::New_ctor(GlobalNamespace::BeatmapCharacteristicCollection allBeatmapCharacteristicCollection)  {
+GlobalNamespace::BeatmapLevelDataLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelDataLoader>(allBeatmapCharacteristicCollection))};
+return o;
+}
  void GlobalNamespace::BeatmapLevelDataLoader::_ctor(GlobalNamespace::BeatmapCharacteristicCollection allBeatmapCharacteristicCollection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelDataLoader>::get(),

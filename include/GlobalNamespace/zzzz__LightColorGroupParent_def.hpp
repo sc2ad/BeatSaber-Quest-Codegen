@@ -53,8 +53,7 @@ constexpr explicit LightColorGroupParent(void* ptr) noexcept : UnityEngine::Mono
 
 // Methods
 
-// Ctor Parameters []
-explicit LightColorGroupParent() ;
+static GlobalNamespace::LightColorGroupParent New_ctor() ;
 
 /// @brief Method .ctor addr 0x225df68 size 0x8 virtual false final false
  void _ctor() ;

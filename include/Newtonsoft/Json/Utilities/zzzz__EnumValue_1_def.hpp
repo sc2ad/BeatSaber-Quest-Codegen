@@ -9,19 +9,19 @@ template<typename T>
 class EnumValue_1;
 }
 namespace Newtonsoft::Json::Utilities {
-template<>
-class EnumValue_1<uint64_t>;
+template<::cordl_internals::is_or_is_backed_by<uint64_t> T>
+class EnumValue_1<T>;
 }
 // Type: Newtonsoft.Json.Utilities::EnumValue`1
 // Type: Newtonsoft.Json.Utilities::EnumValue`1
 namespace Newtonsoft::Json::Utilities {
 // cpp template
-template<>
+template<::cordl_internals::is_or_is_backed_by<uint64_t> T>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11829))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11829), inst: 389 })
 // CS Name: Newtonsoft.Json.Utilities.EnumValue`1
-class CORDL_TYPE EnumValue_1<uint64_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE EnumValue_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -63,18 +63,18 @@ constexpr void __set__name(::StringW value) ;
 
 constexpr ::StringW __get__name() const;
 
- uint64_t __declspec(property(get=__get__value, put=__set__value))  _value;
+ T __declspec(property(get=__get__value, put=__set__value))  _value;
 
-constexpr void __set__value(uint64_t value) ;
+constexpr void __set__value(T value) ;
 
-constexpr uint64_t __get__value() const;
+constexpr T __get__value() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
- uint64_t __declspec(property(get=get_Value))  Value;
+ T __declspec(property(get=get_Value))  Value;
 
 
 // Methods
@@ -83,13 +83,12 @@ constexpr uint64_t __get__value() const;
  ::StringW get_Name() ;
 
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
- uint64_t get_Value() ;
+ T get_Value() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "uint64_t", modifiers: "", def_value: None }]
-explicit EnumValue_1(::StringW name, uint64_t value) ;
+static Newtonsoft::Json::Utilities::EnumValue_1<T> New_ctor(::StringW name, T value) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::StringW name, uint64_t value) ;
+ void _ctor(::StringW name, T value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

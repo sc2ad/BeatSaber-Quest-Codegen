@@ -155,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, foo);
 }
-// Ctor Parameters []
- GlobalNamespace::Signal::Signal()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<Signal>())) {}
+ GlobalNamespace::Signal GlobalNamespace::Signal::New_ctor()  {
+GlobalNamespace::Signal o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Signal>())};
+return o;
+}
  void GlobalNamespace::Signal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Signal>::get(),

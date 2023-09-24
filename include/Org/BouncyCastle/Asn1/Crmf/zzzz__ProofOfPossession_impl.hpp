@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__ProofOfPossession_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoSigningKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoSigningKey_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoPrivKey_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Crmf::ProofOfPossession._ctor
 template<>
 
@@ -159,8 +159,10 @@ constexpr void Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::__set_obj(Org::
 constexpr Org::BouncyCastle::Asn1::Asn1Encodable Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::__get_obj() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Encodable, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::ProofOfPossession(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ProofOfPossession>(tagged))) {}
+ Org::BouncyCastle::Asn1::Crmf::ProofOfPossession Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  {
+Org::BouncyCastle::Asn1::Crmf::ProofOfPossession o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::ProofOfPossession>(tagged))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::ProofOfPossession>::get(),
@@ -179,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Crmf::ProofOfPossession, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::ProofOfPossession()  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ProofOfPossession>())) {}
+ Org::BouncyCastle::Asn1::Crmf::ProofOfPossession Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::New_ctor()  {
+Org::BouncyCastle::Asn1::Crmf::ProofOfPossession o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::ProofOfPossession>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::ProofOfPossession>::get(),
@@ -190,8 +194,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Poposk", ty: "Org::BouncyCastle::Asn1::Crmf::PopoSigningKey", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::ProofOfPossession(Org::BouncyCastle::Asn1::Crmf::PopoSigningKey Poposk)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ProofOfPossession>(Poposk))) {}
+ Org::BouncyCastle::Asn1::Crmf::ProofOfPossession Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::New_ctor(Org::BouncyCastle::Asn1::Crmf::PopoSigningKey Poposk)  {
+Org::BouncyCastle::Asn1::Crmf::ProofOfPossession o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::ProofOfPossession>(Poposk))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor(Org::BouncyCastle::Asn1::Crmf::PopoSigningKey Poposk)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::ProofOfPossession>::get(),
@@ -201,8 +207,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, Poposk);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "privkey", ty: "Org::BouncyCastle::Asn1::Crmf::PopoPrivKey", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::ProofOfPossession(int32_t type, Org::BouncyCastle::Asn1::Crmf::PopoPrivKey privkey)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ProofOfPossession>(type, privkey))) {}
+ Org::BouncyCastle::Asn1::Crmf::ProofOfPossession Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::New_ctor(int32_t type, Org::BouncyCastle::Asn1::Crmf::PopoPrivKey privkey)  {
+Org::BouncyCastle::Asn1::Crmf::ProofOfPossession o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::ProofOfPossession>(type, privkey))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor(int32_t type, Org::BouncyCastle::Asn1::Crmf::PopoPrivKey privkey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::ProofOfPossession>::get(),

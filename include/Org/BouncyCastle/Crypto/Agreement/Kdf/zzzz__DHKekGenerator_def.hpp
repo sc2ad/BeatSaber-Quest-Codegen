@@ -102,8 +102,7 @@ constexpr ::ArrayW<uint8_t> __get_partyAInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit DHKekGenerator(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0x118bc48 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

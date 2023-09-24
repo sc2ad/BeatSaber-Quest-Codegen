@@ -69,8 +69,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Xml::SafeAsciiDecoder::SafeAsciiDecoder()  : System::Text::Decoder(THROW_UNLESS(::il2cpp_utils::New<SafeAsciiDecoder>())) {}
+ System::Xml::SafeAsciiDecoder System::Xml::SafeAsciiDecoder::New_ctor()  {
+System::Xml::SafeAsciiDecoder o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::SafeAsciiDecoder>())};
+return o;
+}
  void System::Xml::SafeAsciiDecoder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::SafeAsciiDecoder>::get(),

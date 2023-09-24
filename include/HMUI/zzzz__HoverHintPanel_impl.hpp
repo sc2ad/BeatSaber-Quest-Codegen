@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HoverHintPanel_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: HMUI::HoverHintPanel.get_isShown
 template<>
 
@@ -214,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector2, false>(const_cast<void*>(instance), ___internal_method, containerSize, spawnRect, panelSize);
 }
-// Ctor Parameters []
- HMUI::HoverHintPanel::HoverHintPanel()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HoverHintPanel>())) {}
+ HMUI::HoverHintPanel HMUI::HoverHintPanel::New_ctor()  {
+HMUI::HoverHintPanel o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HoverHintPanel>())};
+return o;
+}
  void HMUI::HoverHintPanel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HoverHintPanel>::get(),

@@ -12,7 +12,7 @@ class MultiplayerConnectedPlayerDisappearingArrowController;
 // Type: ::MultiplayerConnectedPlayerDisappearingArrowController
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4858)), TypeDefinitionIndex(TypeDefinitionIndex(5237)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 340 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5237)), TypeDefinitionIndex(TypeDefinitionIndex(4858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 340 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5235))
 // CS Name: MultiplayerConnectedPlayerDisappearingArrowController
 class CORDL_TYPE MultiplayerConnectedPlayerDisappearingArrowController : public GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> {
@@ -68,8 +68,7 @@ constexpr GlobalNamespace::MultiplayerConnectedPlayerGameNoteController __get__g
 /// @brief Method get_gameNoteController addr 0x20e215c size 0x8 virtual true final false
  GlobalNamespace::MultiplayerConnectedPlayerGameNoteController get_gameNoteController() ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerDisappearingArrowController() ;
+static GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e2164 size 0x6c virtual false final false
  void _ctor() ;

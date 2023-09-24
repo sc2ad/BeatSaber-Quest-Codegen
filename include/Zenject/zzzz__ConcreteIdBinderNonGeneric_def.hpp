@@ -6,13 +6,13 @@ namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class ConcreteBinderNonGeneric;
-}
-namespace Zenject {
 class BindStatement;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class ConcreteBinderNonGeneric;
 }
 // Forward declare root types
 namespace Zenject {
@@ -60,8 +60,7 @@ constexpr explicit ConcreteIdBinderNonGeneric(void* ptr) noexcept : Zenject::Con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }]
-explicit ConcreteIdBinderNonGeneric(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
+static Zenject::ConcreteIdBinderNonGeneric New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
 
 /// @brief Method .ctor addr 0x2d4dea8 size 0x34 virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__BinaryWriter_def.hpp"
-#include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Text/zzzz__Encoder_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 //  Writing Method size for method: System::IO::BinaryWriter._ctor
 template<>
 
@@ -481,8 +481,10 @@ constexpr void System::IO::BinaryWriter::__set__maxChars(int32_t value)  {
 constexpr int32_t System::IO::BinaryWriter::__get__maxChars() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::BinaryWriter::BinaryWriter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryWriter>())) {}
+ System::IO::BinaryWriter System::IO::BinaryWriter::New_ctor()  {
+System::IO::BinaryWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::BinaryWriter>())};
+return o;
+}
  void System::IO::BinaryWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::BinaryWriter>::get(),
@@ -492,8 +494,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- System::IO::BinaryWriter::BinaryWriter(System::IO::Stream output)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryWriter>(output))) {}
+ System::IO::BinaryWriter System::IO::BinaryWriter::New_ctor(System::IO::Stream output)  {
+System::IO::BinaryWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::BinaryWriter>(output))};
+return o;
+}
  void System::IO::BinaryWriter::_ctor(System::IO::Stream output)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::BinaryWriter>::get(),
@@ -503,8 +507,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, output);
 }
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::IO::BinaryWriter::BinaryWriter(System::IO::Stream output, System::Text::Encoding encoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryWriter>(output, encoding))) {}
+ System::IO::BinaryWriter System::IO::BinaryWriter::New_ctor(System::IO::Stream output, System::Text::Encoding encoding)  {
+System::IO::BinaryWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::BinaryWriter>(output, encoding))};
+return o;
+}
  void System::IO::BinaryWriter::_ctor(System::IO::Stream output, System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::BinaryWriter>::get(),
@@ -514,8 +520,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, output, encoding);
 }
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
- System::IO::BinaryWriter::BinaryWriter(System::IO::Stream output, System::Text::Encoding encoding, bool leaveOpen)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryWriter>(output, encoding, leaveOpen))) {}
+ System::IO::BinaryWriter System::IO::BinaryWriter::New_ctor(System::IO::Stream output, System::Text::Encoding encoding, bool leaveOpen)  {
+System::IO::BinaryWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::BinaryWriter>(output, encoding, leaveOpen))};
+return o;
+}
  void System::IO::BinaryWriter::_ctor(System::IO::Stream output, System::Text::Encoding encoding, bool leaveOpen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::BinaryWriter>::get(),

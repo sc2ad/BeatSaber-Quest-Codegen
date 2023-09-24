@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_impl.hpp"
 #include "GlobalNamespace/zzzz__MissMissionObjectiveChecker_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissMissionObjectiveChecker.Init
 template<>
 
@@ -104,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteController);
 }
-// Ctor Parameters []
- GlobalNamespace::MissMissionObjectiveChecker::MissMissionObjectiveChecker()  : GlobalNamespace::SimpleValueMissionObjectiveChecker(THROW_UNLESS(::il2cpp_utils::New<MissMissionObjectiveChecker>())) {}
+ GlobalNamespace::MissMissionObjectiveChecker GlobalNamespace::MissMissionObjectiveChecker::New_ctor()  {
+GlobalNamespace::MissMissionObjectiveChecker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissMissionObjectiveChecker>())};
+return o;
+}
  void GlobalNamespace::MissMissionObjectiveChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissMissionObjectiveChecker>::get(),

@@ -62,14 +62,12 @@ constexpr ::StringW __get__ParameterName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NotifyPropertyChangedInvocatorAttribute() ;
+static JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40af4 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "parameterName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NotifyPropertyChangedInvocatorAttribute(::StringW parameterName) ;
+static JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute New_ctor(::StringW parameterName) ;
 
 /// @brief Method .ctor addr 0x2d40afc size 0x28 virtual false final false
  void _ctor(::StringW parameterName) ;

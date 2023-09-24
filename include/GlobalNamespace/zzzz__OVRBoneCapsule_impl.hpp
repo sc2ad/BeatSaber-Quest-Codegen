@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRBoneCapsule_def.hpp"
-#include "UnityEngine/zzzz__CapsuleCollider_def.hpp"
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
+#include "UnityEngine/zzzz__CapsuleCollider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRBoneCapsule.get_BoneIndex
 template<>
 
@@ -210,8 +210,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRBoneCapsule::OVRBoneCapsule()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRBoneCapsule>())) {}
+ GlobalNamespace::OVRBoneCapsule GlobalNamespace::OVRBoneCapsule::New_ctor()  {
+GlobalNamespace::OVRBoneCapsule o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRBoneCapsule>())};
+return o;
+}
  void GlobalNamespace::OVRBoneCapsule::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRBoneCapsule>::get(),
@@ -221,8 +223,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "boneIndex", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "capsuleRigidBody", ty: "UnityEngine::Rigidbody", modifiers: "", def_value: None }, CppParam { name: "capsuleCollider", ty: "UnityEngine::CapsuleCollider", modifiers: "", def_value: None }]
- GlobalNamespace::OVRBoneCapsule::OVRBoneCapsule(int16_t boneIndex, UnityEngine::Rigidbody capsuleRigidBody, UnityEngine::CapsuleCollider capsuleCollider)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRBoneCapsule>(boneIndex, capsuleRigidBody, capsuleCollider))) {}
+ GlobalNamespace::OVRBoneCapsule GlobalNamespace::OVRBoneCapsule::New_ctor(int16_t boneIndex, UnityEngine::Rigidbody capsuleRigidBody, UnityEngine::CapsuleCollider capsuleCollider)  {
+GlobalNamespace::OVRBoneCapsule o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRBoneCapsule>(boneIndex, capsuleRigidBody, capsuleCollider))};
+return o;
+}
  void GlobalNamespace::OVRBoneCapsule::_ctor(int16_t boneIndex, UnityEngine::Rigidbody capsuleRigidBody, UnityEngine::CapsuleCollider capsuleCollider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRBoneCapsule>::get(),

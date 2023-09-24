@@ -2,18 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
-class LightTranslationGroupEffect;
+class LightTranslationGroup;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class LightTranslationGroup;
+class LightTranslationGroupEffect;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,8 +88,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::LightTranslation
 /// @brief Method OnDestroy addr 0x2260d6c size 0x148 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit LightTranslationGroupEffectManager() ;
+static GlobalNamespace::LightTranslationGroupEffectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2260eb4 size 0x7c virtual false final false
  void _ctor() ;

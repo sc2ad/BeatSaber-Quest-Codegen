@@ -89,8 +89,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ProofOfCreation() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit CommitmentTypeIdentifier() ;
+static Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier New_ctor() ;
 
 /// @brief Method .ctor addr 0xe01294 size 0x8 virtual false final false
  void _ctor() ;

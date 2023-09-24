@@ -6,19 +6,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct EventType;
+struct PointerType;
 }
 namespace UnityEngine {
-struct PointerType;
+struct EventType;
 }
 namespace UnityEngine {
 struct EventModifiers;
 }
 namespace UnityEngine {
-struct Vector2;
+struct KeyCode;
 }
 namespace UnityEngine {
-struct KeyCode;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -126,14 +126,12 @@ static UnityEngine::Event __declspec(property(get=get_current, put=set_current))
 
 // Methods
 
-// Ctor Parameters []
-explicit Event() ;
+static UnityEngine::Event New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b8641c size 0x4c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "displayIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Event(int32_t displayIndex) ;
+static UnityEngine::Event New_ctor(int32_t displayIndex) ;
 
 /// @brief Method .ctor addr 0x2b864a4 size 0x50 virtual false final false
  void _ctor(int32_t displayIndex) ;

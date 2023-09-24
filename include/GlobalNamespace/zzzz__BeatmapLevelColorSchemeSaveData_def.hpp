@@ -68,8 +68,7 @@ constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme __get_co
 /// @brief Method IsDefault addr 0x21df0e8 size 0x15c virtual false final false
  bool IsDefault() ;
 
-// Ctor Parameters []
-explicit BeatmapLevelColorSchemeSaveData() ;
+static GlobalNamespace::BeatmapLevelColorSchemeSaveData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21df244 size 0x8 virtual false final false
  void _ctor() ;

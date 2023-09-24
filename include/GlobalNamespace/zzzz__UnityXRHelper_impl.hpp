@@ -2,23 +2,22 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNodeState_def.hpp"
-#include "GlobalNamespace/zzzz__UnityXRController_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
-#include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
-#include "GlobalNamespace/zzzz__UnityXRController_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "GlobalNamespace/zzzz__VRPlatformSDK_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-#include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "GlobalNamespace/zzzz__UnityXRController_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__EulerPose_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNodeState_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
+#include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1445,8 +1444,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pos, rot);
 }
-// Ctor Parameters []
- GlobalNamespace::UnityXRHelper::UnityXRHelper()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<UnityXRHelper>())) {}
+ GlobalNamespace::UnityXRHelper GlobalNamespace::UnityXRHelper::New_ctor()  {
+GlobalNamespace::UnityXRHelper o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityXRHelper>())};
+return o;
+}
  void GlobalNamespace::UnityXRHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityXRHelper>::get(),

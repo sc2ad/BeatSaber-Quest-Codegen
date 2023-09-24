@@ -12,7 +12,7 @@ class HapticControl;
 // Type: UnityEngine.XR.OpenXR.Input::HapticControl
 namespace UnityEngine::XR::OpenXR::Input {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3755 }), TypeDefinitionIndex(TypeDefinitionIndex(14187)), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3755 }), TypeDefinitionIndex(TypeDefinitionIndex(14187))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14188))
 // CS Name: UnityEngine.XR.OpenXR.Input.HapticControl
 class CORDL_TYPE HapticControl : public UnityEngine::InputSystem::InputControl_1<UnityEngine::XR::OpenXR::Input::Haptic> {
@@ -51,8 +51,7 @@ constexpr explicit HapticControl(void* ptr) noexcept : UnityEngine::InputSystem:
 
 // Methods
 
-// Ctor Parameters []
-explicit HapticControl() ;
+static UnityEngine::XR::OpenXR::Input::HapticControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aed734 size 0x58 virtual false final false
  void _ctor() ;

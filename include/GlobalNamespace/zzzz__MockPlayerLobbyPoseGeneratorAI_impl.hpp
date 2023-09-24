@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGeneratorAI_def.hpp"
-#include "System/zzzz__Random_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "System/zzzz__Random_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockPlayerLobbyPoseGeneratorAI._ctor
 template<>
 
@@ -127,8 +127,10 @@ constexpr void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__set__nextTarge
 constexpr float_t GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__get__nextTargetTime() const {
 return ::cordl_internals::getInstanceField<float_t, 0x128>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
- GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::MockPlayerLobbyPoseGeneratorAI(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  : GlobalNamespace::MockPlayerLobbyPoseGenerator(THROW_UNLESS(::il2cpp_utils::New<MockPlayerLobbyPoseGeneratorAI>(multiplayerSessionManager))) {}
+ GlobalNamespace::MockPlayerLobbyPoseGeneratorAI GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  {
+GlobalNamespace::MockPlayerLobbyPoseGeneratorAI o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockPlayerLobbyPoseGeneratorAI>(multiplayerSessionManager))};
+return o;
+}
  void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockPlayerLobbyPoseGeneratorAI>::get(),

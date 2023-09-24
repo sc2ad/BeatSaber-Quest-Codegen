@@ -6,33 +6,37 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::Utilities {
-struct TypeTable;
-}
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-class InputActionState;
+class InputActionMap;
 }
 namespace UnityEngine::InputSystem {
 class InputProcessor;
 }
-namespace UnityEngine::InputSystem {
-class InputActionMap;
+namespace UnityEngine::InputSystem::Utilities {
+struct TypeTable;
 }
 namespace UnityEngine::InputSystem::Utilities {
-struct NameAndParameters;
+struct NamedValue;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionState__UnmanagedMemory;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
+namespace UnityEngine::InputSystem::Utilities {
+struct NameAndParameters;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputActionState__UnmanagedMemory;
+class InputActionState;
 }
 namespace UnityEngine::InputSystem {
 class InputBindingComposite;
@@ -44,15 +48,11 @@ struct ReadOnlyArray_1;
 namespace UnityEngine::InputSystem {
 class IInputInteraction;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct NamedValue;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

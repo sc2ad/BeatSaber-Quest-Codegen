@@ -5,17 +5,17 @@
 namespace Org::BouncyCastle::Math::EC::Endo {
 class GlvTypeBParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ECEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPointMap;
 }
-namespace Org::BouncyCastle::Math::EC::Endo {
-class GlvEndomorphism;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
+class GlvEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
@@ -94,8 +94,7 @@ constexpr Org::BouncyCastle::Math::EC::ECPointMap __get_m_pointMap() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters", modifiers: "", def_value: None }]
-explicit GlvTypeBEndomorphism(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters parameters) ;
+static Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters parameters) ;
 
 /// @brief Method .ctor addr 0xfa83bc size 0xb8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters parameters) ;

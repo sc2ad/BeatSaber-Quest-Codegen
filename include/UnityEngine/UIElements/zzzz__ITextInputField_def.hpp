@@ -5,10 +5,10 @@ namespace UnityEngine::UIElements {
 class TextEditorEngine;
 }
 namespace UnityEngine::UIElements {
-class ITextElement;
+class IEventHandler;
 }
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class ITextElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

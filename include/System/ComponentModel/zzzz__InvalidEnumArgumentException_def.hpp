@@ -7,10 +7,10 @@ namespace System {
 class Type;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -58,26 +58,22 @@ constexpr explicit InvalidEnumArgumentException(void* ptr) noexcept : System::Ar
 
 // Methods
 
-// Ctor Parameters []
-explicit InvalidEnumArgumentException() ;
+static System::ComponentModel::InvalidEnumArgumentException New_ctor() ;
 
 /// @brief Method .ctor addr 0x27724c4 size 0xc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InvalidEnumArgumentException(::StringW message) ;
+static System::ComponentModel::InvalidEnumArgumentException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x27724d0 size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "argumentName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "invalidValue", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "enumClass", ty: "System::Type", modifiers: "", def_value: None }]
-explicit InvalidEnumArgumentException(::StringW argumentName, int32_t invalidValue, System::Type enumClass) ;
+static System::ComponentModel::InvalidEnumArgumentException New_ctor(::StringW argumentName, int32_t invalidValue, System::Type enumClass) ;
 
 /// @brief Method .ctor addr 0x27724d8 size 0xe4 virtual false final false
  void _ctor(::StringW argumentName, int32_t invalidValue, System::Type enumClass) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit InvalidEnumArgumentException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::ComponentModel::InvalidEnumArgumentException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27725bc size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

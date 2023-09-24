@@ -3,10 +3,16 @@
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class IPanel;
+class IMouseEvent;
 }
 namespace UnityEngine {
 struct EventModifiers;
+}
+namespace UnityEngine::UIElements {
+class IPointerEvent;
+}
+namespace UnityEngine::UIElements {
+class IEventHandler;
 }
 namespace UnityEngine::UIElements {
 class IMouseEventInternal;
@@ -18,13 +24,7 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class IEventHandler;
-}
-namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
-namespace UnityEngine::UIElements {
-class IMouseEvent;
+class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -41,7 +41,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1631 }), TypeDefinitionIndex(TypeDefinitionIndex(7314))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1631 }), TypeDefinitionIndex(TypeDefinitionIndex(7314)), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 2 })
 // CS Name: UnityEngine.UIElements.MouseEventBase`1
 class CORDL_TYPE MouseEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
@@ -284,8 +284,7 @@ static T GetPooled(UnityEngine::UIElements::IMouseEvent triggerEvent) ;
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
 static T GetPooled(UnityEngine::UIElements::IPointerEvent pointerEvent) ;
 
-// Ctor Parameters []
-explicit MouseEventBase_1() ;
+static UnityEngine::UIElements::MouseEventBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

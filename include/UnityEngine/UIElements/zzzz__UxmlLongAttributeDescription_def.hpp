@@ -9,10 +9,13 @@ template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UnityEngine__UIElements__UxmlLongAttributeDescription____c;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -78,8 +81,7 @@ static System::Func_3<::StringW,int64_t,int64_t> __get___9__3_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UxmlLongAttributeDescription____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlLongAttributeDescription____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c98900 size 0x8 virtual false final false
  void _ctor() ;
@@ -135,8 +137,7 @@ constexpr explicit UxmlLongAttributeDescription(void* ptr) noexcept : UnityEngin
 
 // Methods
 
-// Ctor Parameters []
-explicit UxmlLongAttributeDescription() ;
+static UnityEngine::UIElements::UxmlLongAttributeDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c98660 size 0x9c virtual false final false
  void _ctor() ;

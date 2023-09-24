@@ -3,13 +3,13 @@
 #include "System/Xml/zzzz__XmlCharacterData_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class XmlDocument;
-}
-namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
 struct XmlNodeType;
+}
+namespace System::Xml {
+class XmlDocument;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -66,8 +66,7 @@ constexpr explicit XmlComment(void* ptr) noexcept : System::Xml::XmlCharacterDat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "comment", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlComment(::StringW comment, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlComment New_ctor(::StringW comment, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f06a0 size 0x2c virtual false final false
  void _ctor(::StringW comment, System::Xml::XmlDocument doc) ;

@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__LightConstants__BakeId;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__LightConstants__BakeId;
@@ -63,6 +66,8 @@ __F = 6,
 constexpr operator __GlobalNamespace__LightConstants__BakeId_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LightConstants__BakeId_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

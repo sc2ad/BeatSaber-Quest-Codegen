@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace OVR::OpenVR {
-struct IVRResources;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace OVR::OpenVR {
+struct IVRResources;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -64,8 +64,7 @@ constexpr OVR::OpenVR::IVRResources __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRResources(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRResources New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x2667f24 size 0x10c virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

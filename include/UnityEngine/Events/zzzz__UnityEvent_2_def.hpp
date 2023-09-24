@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::Events {
-class BaseInvokableCall;
-}
 namespace System {
 class Type;
 }
 namespace System::Reflection {
 class MethodInfo;
+}
+namespace UnityEngine::Events {
+class BaseInvokableCall;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -76,8 +76,7 @@ constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get_m_InvokeArray() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEvent_2() ;
+static UnityEngine::Events::UnityEvent_2<T0,T1> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

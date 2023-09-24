@@ -10,6 +10,9 @@ class UnityAction_1;
 namespace TMPro {
 class ITweenValue;
 }
+namespace TMPro {
+class TMPro__FloatTween__FloatTweenCallback;
+}
 // Forward declare root types
 namespace TMPro {
 class TMPro__FloatTween__FloatTweenCallback;
@@ -20,7 +23,7 @@ struct FloatTween;
 // Type: ::FloatTweenCallback
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12283))
 // CS Name: TMPro.FloatTween::FloatTweenCallback
 class CORDL_TYPE TMPro__FloatTween__FloatTweenCallback : public UnityEngine::Events::UnityEvent_1<float_t> {
@@ -59,8 +62,7 @@ constexpr explicit TMPro__FloatTween__FloatTweenCallback(void* ptr) noexcept : U
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__FloatTween__FloatTweenCallback() ;
+static TMPro::TMPro__FloatTween__FloatTweenCallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a6aaf0 size 0x48 virtual false final false
  void _ctor() ;

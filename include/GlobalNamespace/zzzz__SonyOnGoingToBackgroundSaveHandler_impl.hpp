@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyOnGoingToBackgroundSaveHandler_def.hpp"
-#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
+#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SonyOnGoingToBackgroundSaveHandler.Initialize
 template<>
 
@@ -176,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::SonyOnGoingToBackgroundSaveHandler()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SonyOnGoingToBackgroundSaveHandler>())) {}
+ GlobalNamespace::SonyOnGoingToBackgroundSaveHandler GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::New_ctor()  {
+GlobalNamespace::SonyOnGoingToBackgroundSaveHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>())};
+return o;
+}
  void GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>::get(),

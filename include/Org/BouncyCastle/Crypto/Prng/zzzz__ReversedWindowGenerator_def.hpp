@@ -76,8 +76,7 @@ constexpr int32_t __get_windowCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "generator", ty: "Org::BouncyCastle::Crypto::Prng::IRandomGenerator", modifiers: "", def_value: None }, CppParam { name: "windowSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ReversedWindowGenerator(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator, int32_t windowSize) ;
+static Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator New_ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator, int32_t windowSize) ;
 
 /// @brief Method .ctor addr 0xeb47dc size 0x114 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator, int32_t windowSize) ;

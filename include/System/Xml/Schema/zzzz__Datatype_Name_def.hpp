@@ -58,8 +58,7 @@ constexpr explicit Datatype_Name(void* ptr) noexcept : System::Xml::Schema::Data
 /// @brief Method get_TypeCode addr 0x2727d44 size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_Name() ;
+static System::Xml::Schema::Datatype_Name New_ctor() ;
 
 /// @brief Method .ctor addr 0x2727d4c size 0x4 virtual false final false
  void _ctor() ;

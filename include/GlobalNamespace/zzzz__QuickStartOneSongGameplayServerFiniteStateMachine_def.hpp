@@ -50,8 +50,7 @@ constexpr explicit QuickStartOneSongGameplayServerFiniteStateMachine(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initParams", ty: "GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams", modifiers: "", def_value: None }]
-explicit QuickStartOneSongGameplayServerFiniteStateMachine(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
+static GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine New_ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
 
 /// @brief Method .ctor addr 0xdaf2e0 size 0x30 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;

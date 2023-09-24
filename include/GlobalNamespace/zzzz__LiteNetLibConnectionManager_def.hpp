@@ -9,27 +9,27 @@ namespace System::Net {
 class IPEndPoint;
 }
 namespace GlobalNamespace {
-class IConnectionRequestHandler;
-}
-namespace GlobalNamespace {
 template<typename T>
 class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
-class IConnection;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+class IConnectionRequestHandler;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace BGNet::Core {
-struct DeliveryMethod;
+namespace GlobalNamespace {
+class IConnection;
 }
 namespace LiteNetLib {
 class NetPeer;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace LiteNetLib {
 class ConnectionRequest;
@@ -38,8 +38,48 @@ namespace System {
 template<typename T>
 class Predicate_1;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__LiteNetLibConnectionManager___BackgroundShutdownSentry_d__127;
+}
+namespace System::Net::Sockets {
+struct SocketError;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LiteNetLibConnectionManager__StartClientParams;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace GlobalNamespace {
+class IConnectionManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LiteNetLibConnectionManager__StartServerParams;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System {
+class IDisposable;
+}
+namespace BGNet::Core {
+class ITaskUtility;
+}
 namespace LiteNetLib {
-struct UnconnectedMessageType;
+struct DeliveryMethod;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LiteNetLibConnectionManager__ConnectionState;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
@@ -51,84 +91,77 @@ class ITimeProvider;
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace LiteNetLib {
+class NetPacketReader;
+}
+namespace LiteNetLib {
+struct DisconnectReason;
+}
+namespace LiteNetLib {
+struct UnconnectedMessageType;
+}
 namespace System {
-class IDisposable;
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class PacketEncryptionLayer;
+}
+namespace GlobalNamespace {
+class IPollable;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LiteNetLibConnectionManager____c;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
+}
+namespace LiteNetLib {
+struct DisconnectInfo;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest;
 }
 namespace LiteNetLib {
 class NetManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace LiteNetLib {
-class NetPacketReader;
+class INetEventListener;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LiteNetLibConnectionManager__NetworkMode;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LiteNetLibConnectionManager___BackgroundDisconnectSentry_d__126;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-class IConnectionManager;
-}
-namespace LiteNetLib {
-class INetEventListener;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
-}
-namespace GlobalNamespace {
-class PacketEncryptionLayer;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System::Net::Sockets {
-struct SocketError;
-}
-namespace LiteNetLib {
-struct DeliveryMethod;
-}
 namespace System {
 class Action;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace LiteNetLib {
-struct DisconnectInfo;
-}
-namespace LiteNetLib {
-struct DisconnectReason;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -221,6 +254,8 @@ constexpr operator __GlobalNamespace__LiteNetLibConnectionManager__NetworkMode_U
 return std::bit_cast<__GlobalNamespace__LiteNetLibConnectionManager__NetworkMode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -294,6 +329,8 @@ __Disconnecting = 3,
 constexpr operator __GlobalNamespace__LiteNetLibConnectionManager__ConnectionState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LiteNetLibConnectionManager__ConnectionState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -410,8 +447,7 @@ constexpr int32_t __get_disconnectTimeoutMs() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase() ;
+static GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase New_ctor() ;
 
 /// @brief Method .ctor addr 0xdb56b8 size 0x10 virtual false final false
  void _ctor() ;
@@ -477,8 +513,7 @@ constexpr ::StringW __get_userName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LiteNetLibConnectionManager__StartServerParams() ;
+static GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartServerParams New_ctor() ;
 
 /// @brief Method .ctor addr 0xdb56c8 size 0x10 virtual false final false
  void _ctor() ;
@@ -529,8 +564,7 @@ constexpr explicit GlobalNamespace__LiteNetLibConnectionManager__StartClientPara
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LiteNetLibConnectionManager__StartClientParams() ;
+static GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartClientParams New_ctor() ;
 
 /// @brief Method .ctor addr 0xdb56d8 size 0x10 virtual false final false
  void _ctor() ;
@@ -620,8 +654,7 @@ constexpr bool __get_serverIsConnectionOwner() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams() ;
+static GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams New_ctor() ;
 
 /// @brief Method .ctor addr 0xdb56e8 size 0x18 virtual false final false
  void _ctor() ;
@@ -722,8 +755,7 @@ constexpr LiteNetLib::ConnectionRequest __get__request() const;
 /// @brief Method get_endPoint addr 0xdb5718 size 0x1c virtual false final false
  System::Net::IPEndPoint get_endPoint() ;
 
-// Ctor Parameters [CppParam { name: "request", ty: "LiteNetLib::ConnectionRequest", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest(LiteNetLib::ConnectionRequest request, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
+static GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest New_ctor(LiteNetLib::ConnectionRequest request, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
 
 /// @brief Method .ctor addr 0xdb5734 size 0x44 virtual false final false
  void _ctor(LiteNetLib::ConnectionRequest request, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
@@ -828,8 +860,7 @@ constexpr LiteNetLib::NetPeer __get_netPeer() const;
 /// @brief Method get_isConnectionOwner addr 0xdb57a4 size 0x8 virtual true final true
  bool get_isConnectionOwner() ;
 
-// Ctor Parameters [CppParam { name: "netPeer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection(LiteNetLib::NetPeer netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
+static GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection New_ctor(LiteNetLib::NetPeer netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
 
 /// @brief Method .ctor addr 0xdb57ac size 0x44 virtual false final false
  void _ctor(LiteNetLib::NetPeer netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
@@ -910,8 +941,7 @@ static System::Predicate_1<GlobalNamespace::GlobalNamespace__LiteNetLibConnectio
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LiteNetLibConnectionManager____c() ;
+static GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0xdb5a5c size 0x8 virtual false final false
  void _ctor() ;
@@ -1492,14 +1522,12 @@ constexpr GlobalNamespace::GlobalNamespace__NetworkStatisticsState__NetworkStati
 /// @brief Method NoDomainReloadInit addr 0xdb34cc size 0x88 virtual false final false
 static void NoDomainReloadInit() ;
 
-// Ctor Parameters []
-explicit LiteNetLibConnectionManager() ;
+static GlobalNamespace::LiteNetLibConnectionManager New_ctor() ;
 
 /// @brief Method .ctor addr 0xdb35dc size 0xac virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }]
-explicit LiteNetLibConnectionManager(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility) ;
+static GlobalNamespace::LiteNetLibConnectionManager New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility) ;
 
 /// @brief Method .ctor addr 0xdb3688 size 0x200 virtual false final false
  void _ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility) ;

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -93,8 +96,7 @@ constexpr ::StringW __get__leaderboardId() const;
 /// @brief Method get_leaderboardId addr 0x221bc04 size 0x8 virtual false final false
  ::StringW get_leaderboardId() ;
 
-// Ctor Parameters [CppParam { name: "sonyLeaderboardId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "leaderboardId", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData(uint32_t sonyLeaderboardId, ::StringW leaderboardId) ;
+static GlobalNamespace::GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData New_ctor(uint32_t sonyLeaderboardId, ::StringW leaderboardId) ;
 
 /// @brief Method .ctor addr 0x221bc0c size 0x30 virtual false final false
  void _ctor(uint32_t sonyLeaderboardId, ::StringW leaderboardId) ;
@@ -179,8 +181,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,uint32_t> __get__
 /// @brief Method DoesSupport360 addr 0x0 size 0xffffffffffffffff virtual true final false
  bool DoesSupport360() ;
 
-// Ctor Parameters []
-explicit SonyLeaderboardIdsModelSO() ;
+static GlobalNamespace::SonyLeaderboardIdsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a418 size 0xc0 virtual false final false
  void _ctor() ;

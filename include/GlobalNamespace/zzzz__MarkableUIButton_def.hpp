@@ -89,8 +89,7 @@ constexpr int32_t __get__markedTriggerId() const;
 /// @brief Method ToggleMarked addr 0x1f78e50 size 0x10 virtual false final false
  void ToggleMarked() ;
 
-// Ctor Parameters []
-explicit MarkableUIButton() ;
+static GlobalNamespace::MarkableUIButton New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f78e60 size 0x8 virtual false final false
  void _ctor() ;

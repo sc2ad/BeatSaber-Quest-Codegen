@@ -58,8 +58,10 @@ constexpr void Org::BouncyCastle::Utilities::Date::DateTimeObject::__set_dt(Syst
 constexpr System::DateTime Org::BouncyCastle::Utilities::Date::DateTimeObject::__get_dt() const {
 return ::cordl_internals::getInstanceField<System::DateTime, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "dt", ty: "System::DateTime", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Date::DateTimeObject::DateTimeObject(System::DateTime dt)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DateTimeObject>(dt))) {}
+ Org::BouncyCastle::Utilities::Date::DateTimeObject Org::BouncyCastle::Utilities::Date::DateTimeObject::New_ctor(System::DateTime dt)  {
+Org::BouncyCastle::Utilities::Date::DateTimeObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Date::DateTimeObject>(dt))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Date::DateTimeObject::_ctor(System::DateTime dt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Date::DateTimeObject>::get(),

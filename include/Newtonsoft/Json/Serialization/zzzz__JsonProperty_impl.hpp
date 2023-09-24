@@ -1,20 +1,20 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
-#include "Newtonsoft/Json/zzzz__ObjectCreationHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__Required_def.hpp"
-#include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__NullValueHandling_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 #include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__IAttributeProvider_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__ObjectCreationHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "Newtonsoft/Json/zzzz__Required_def.hpp"
+#include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::JsonProperty.get_PropertyContract
 template<>
 
@@ -1868,8 +1868,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, writer);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::JsonProperty::JsonProperty()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JsonProperty>())) {}
+ Newtonsoft::Json::Serialization::JsonProperty Newtonsoft::Json::Serialization::JsonProperty::New_ctor()  {
+Newtonsoft::Json::Serialization::JsonProperty o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::JsonProperty>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::JsonProperty::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::JsonProperty>::get(),

@@ -52,8 +52,7 @@ constexpr explicit PropertyChangedEventHandler(void* ptr) noexcept : System::Mul
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit PropertyChangedEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::ComponentModel::PropertyChangedEventHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x27870ac size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

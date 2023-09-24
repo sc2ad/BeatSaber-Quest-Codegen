@@ -111,8 +111,10 @@ return ::cordl_internals::getStaticField<System::Xml::Schema::ContentValidator, 
  System::Xml::Schema::ContentValidator System::Xml::Schema::ContentValidator::__get_Any()  {
 return ::cordl_internals::getStaticField<System::Xml::Schema::ContentValidator, "Any", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::ContentValidator>::get>();
 }
-// Ctor Parameters [CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }]
- System::Xml::Schema::ContentValidator::ContentValidator(System::Xml::Schema::XmlSchemaContentType contentType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ContentValidator>(contentType))) {}
+ System::Xml::Schema::ContentValidator System::Xml::Schema::ContentValidator::New_ctor(System::Xml::Schema::XmlSchemaContentType contentType)  {
+System::Xml::Schema::ContentValidator o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::ContentValidator>(contentType))};
+return o;
+}
  void System::Xml::Schema::ContentValidator::_ctor(System::Xml::Schema::XmlSchemaContentType contentType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::ContentValidator>::get(),
@@ -122,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, contentType);
 }
-// Ctor Parameters [CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }, CppParam { name: "isOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isEmptiable", ty: "bool", modifiers: "", def_value: None }]
- System::Xml::Schema::ContentValidator::ContentValidator(System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ContentValidator>(contentType, isOpen, isEmptiable))) {}
+ System::Xml::Schema::ContentValidator System::Xml::Schema::ContentValidator::New_ctor(System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)  {
+System::Xml::Schema::ContentValidator o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::ContentValidator>(contentType, isOpen, isEmptiable))};
+return o;
+}
  void System::Xml::Schema::ContentValidator::_ctor(System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::ContentValidator>::get(),

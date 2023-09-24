@@ -1,19 +1,20 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Group_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Group_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::System__Text__RegularExpressions__GroupCollection__Enumerator._ctor
 template<>
@@ -141,8 +142,10 @@ constexpr void System::Text::RegularExpressions::System__Text__RegularExpression
 constexpr int32_t System::Text::RegularExpressions::System__Text__RegularExpressions__GroupCollection__Enumerator::__get__index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "collection", ty: "System::Text::RegularExpressions::GroupCollection", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::System__Text__RegularExpressions__GroupCollection__Enumerator::System__Text__RegularExpressions__GroupCollection__Enumerator(System::Text::RegularExpressions::GroupCollection collection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Text__RegularExpressions__GroupCollection__Enumerator>(collection))) {}
+ System::Text::RegularExpressions::System__Text__RegularExpressions__GroupCollection__Enumerator System::Text::RegularExpressions::System__Text__RegularExpressions__GroupCollection__Enumerator::New_ctor(System::Text::RegularExpressions::GroupCollection collection)  {
+System::Text::RegularExpressions::System__Text__RegularExpressions__GroupCollection__Enumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::System__Text__RegularExpressions__GroupCollection__Enumerator>(collection))};
+return o;
+}
  void System::Text::RegularExpressions::System__Text__RegularExpressions__GroupCollection__Enumerator::_ctor(System::Text::RegularExpressions::GroupCollection collection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::System__Text__RegularExpressions__GroupCollection__Enumerator>::get(),
@@ -808,8 +811,10 @@ constexpr void System::Text::RegularExpressions::GroupCollection::__set__groups(
 constexpr ::ArrayW<System::Text::RegularExpressions::Group> System::Text::RegularExpressions::GroupCollection::__get__groups() const {
 return ::cordl_internals::getInstanceField<::ArrayW<System::Text::RegularExpressions::Group>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "match", ty: "System::Text::RegularExpressions::Match", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::GroupCollection::GroupCollection(System::Text::RegularExpressions::Match match, System::Collections::Hashtable caps)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GroupCollection>(match, caps))) {}
+ System::Text::RegularExpressions::GroupCollection System::Text::RegularExpressions::GroupCollection::New_ctor(System::Text::RegularExpressions::Match match, System::Collections::Hashtable caps)  {
+System::Text::RegularExpressions::GroupCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::GroupCollection>(match, caps))};
+return o;
+}
  void System::Text::RegularExpressions::GroupCollection::_ctor(System::Text::RegularExpressions::Match match, System::Collections::Hashtable caps)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::GroupCollection>::get(),
@@ -1098,8 +1103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, index, value);
 }
-// Ctor Parameters []
- System::Text::RegularExpressions::GroupCollection::GroupCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GroupCollection>())) {}
+ System::Text::RegularExpressions::GroupCollection System::Text::RegularExpressions::GroupCollection::New_ctor()  {
+System::Text::RegularExpressions::GroupCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::GroupCollection>())};
+return o;
+}
  void System::Text::RegularExpressions::GroupCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::GroupCollection>::get(),

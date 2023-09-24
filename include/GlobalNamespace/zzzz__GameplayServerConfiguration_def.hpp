@@ -4,9 +4,19 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class INetImmutableSerializable_1;
 }
 namespace GlobalNamespace {
 struct SongSelectionMode;
@@ -15,23 +25,13 @@ namespace GlobalNamespace {
 struct InvitePolicy;
 }
 namespace GlobalNamespace {
-struct GameplayServerMode;
+struct DiscoveryPolicy;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+struct GameplayServerMode;
 }
 namespace GlobalNamespace {
 struct GameplayServerControlSettings;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-struct DiscoveryPolicy;
-}
-namespace LiteNetLib::Utils {
-template<typename T>
-class INetImmutableSerializable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

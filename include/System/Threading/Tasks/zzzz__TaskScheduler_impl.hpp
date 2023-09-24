@@ -1,10 +1,11 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
-#include "System/Threading/zzzz__Lock_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
+#include "System/zzzz__EventHandler_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/Tasks/zzzz__UnobservedTaskExceptionEventArgs_def.hpp"
-#include "System/zzzz__EventHandler_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
+#include "System/Threading/zzzz__Lock_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::TaskScheduler.QueueTask
 template<>
 
@@ -299,8 +300,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Threading::Tasks::TaskScheduler::TaskScheduler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TaskScheduler>())) {}
+ System::Threading::Tasks::TaskScheduler System::Threading::Tasks::TaskScheduler::New_ctor()  {
+System::Threading::Tasks::TaskScheduler o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskScheduler>())};
+return o;
+}
  void System::Threading::Tasks::TaskScheduler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskScheduler>::get(),

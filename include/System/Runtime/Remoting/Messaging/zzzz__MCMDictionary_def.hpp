@@ -61,8 +61,7 @@ static ::ArrayW<::StringW> __get_InternalKeys() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
-explicit MCMDictionary(System::Runtime::Remoting::Messaging::IMethodMessage message) ;
+static System::Runtime::Remoting::Messaging::MCMDictionary New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage message) ;
 
 /// @brief Method .ctor addr 0x2341f58 size 0x7c virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMethodMessage message) ;

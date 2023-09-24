@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightManager_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightManager.OnEnable
 template<>
 
@@ -228,8 +228,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LightManager::LightManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightManager>())) {}
+ GlobalNamespace::LightManager GlobalNamespace::LightManager::New_ctor()  {
+GlobalNamespace::LightManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightManager>())};
+return o;
+}
  void GlobalNamespace::LightManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightManager>::get(),

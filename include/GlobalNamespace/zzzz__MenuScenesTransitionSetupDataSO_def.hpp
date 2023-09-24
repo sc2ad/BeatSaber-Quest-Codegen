@@ -47,8 +47,7 @@ constexpr explicit MenuScenesTransitionSetupDataSO(void* ptr) noexcept : GlobalN
 
 // Methods
 
-// Ctor Parameters []
-explicit MenuScenesTransitionSetupDataSO() ;
+static GlobalNamespace::MenuScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d0e08 size 0x8 virtual false final false
  void _ctor() ;

@@ -199,8 +199,7 @@ constexpr ::ArrayW<int64_t> __get__state() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit WhirlpoolDigest() ;
+static Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest New_ctor() ;
 
 /// @brief Method .ctor addr 0xe1ea2c size 0x2b0 virtual false final false
  void _ctor() ;
@@ -211,8 +210,7 @@ static int64_t packIntoLong(int32_t b7, int32_t b6, int32_t b5, int32_t b4, int3
 /// @brief Method maskWithReductionPolynomial addr 0xe1e9e4 size 0x14 virtual false final false
 static int32_t maskWithReductionPolynomial(int32_t input) ;
 
-// Ctor Parameters [CppParam { name: "originalDigest", ty: "Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest", modifiers: "", def_value: None }]
-explicit WhirlpoolDigest(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest originalDigest) ;
+static Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest New_ctor(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest originalDigest) ;
 
 /// @brief Method .ctor addr 0xe1ecdc size 0x110 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest originalDigest) ;

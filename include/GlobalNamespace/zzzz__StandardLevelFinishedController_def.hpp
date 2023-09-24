@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
+class ILevelEndActions;
+}
+namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class ILevelEndActions;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +89,7 @@ constexpr GlobalNamespace::ILevelEndActions __get__gameplayManager() const;
 /// @brief Method StartLevelFinished addr 0x20d5918 size 0x40 virtual false final false
  void StartLevelFinished() ;
 
-// Ctor Parameters []
-explicit StandardLevelFinishedController() ;
+static GlobalNamespace::StandardLevelFinishedController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d5958 size 0x8 virtual false final false
  void _ctor() ;

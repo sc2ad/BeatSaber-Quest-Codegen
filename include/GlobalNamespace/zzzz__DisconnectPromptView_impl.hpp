@@ -1,12 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DisconnectPromptView_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "HMUI/zzzz__PanelAnimationSO_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectPromptView_def.hpp"
+#include "HMUI/zzzz__PanelAnimationSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0._ctor
 template<>
 
@@ -53,8 +54,10 @@ constexpr void GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__Disp
 constexpr GlobalNamespace::DisconnectPromptView GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::DisconnectPromptView, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0>())) {}
+ GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0 GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0>::get(),
@@ -322,8 +325,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, finishedCallback);
 }
-// Ctor Parameters []
- GlobalNamespace::DisconnectPromptView::DisconnectPromptView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DisconnectPromptView>())) {}
+ GlobalNamespace::DisconnectPromptView GlobalNamespace::DisconnectPromptView::New_ctor()  {
+GlobalNamespace::DisconnectPromptView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DisconnectPromptView>())};
+return o;
+}
  void GlobalNamespace::DisconnectPromptView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DisconnectPromptView>::get(),

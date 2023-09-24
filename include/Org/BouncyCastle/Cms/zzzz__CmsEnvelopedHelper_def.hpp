@@ -3,41 +3,47 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
-}
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto {
 class IWrapper;
 }
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
+}
 namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
 }
 namespace Org::BouncyCastle::Crypto {
+class IBufferedCipher;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Cms {
+class Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSecureReadable;
+}
+namespace Org::BouncyCastle::Cms {
+class Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto {
 class IMac;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsReadable;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -122,8 +128,7 @@ constexpr Org::BouncyCastle::Cms::CmsReadable __get_readable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "readable", ty: "Org::BouncyCastle::Cms::CmsReadable", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable) ;
+static Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable) ;
 
 /// @brief Method .ctor addr 0x1158e28 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable) ;
@@ -214,8 +219,7 @@ constexpr Org::BouncyCastle::Cms::CmsReadable __get_readable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "readable", ty: "Org::BouncyCastle::Cms::CmsReadable", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable) ;
+static Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable) ;
 
 /// @brief Method .ctor addr 0x11592c4 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable) ;
@@ -321,8 +325,7 @@ static Org::BouncyCastle::Cms::RecipientInformationStore BuildRecipientInformati
 /// @brief Method ReadRecipientInfo addr 0x1157c28 size 0x37c virtual false final false
 static void ReadRecipientInfo(System::Collections::IList infos, Org::BouncyCastle::Asn1::Cms::RecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
 
-// Ctor Parameters []
-explicit CmsEnvelopedHelper() ;
+static Org::BouncyCastle::Cms::CmsEnvelopedHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x1157458 size 0x8 virtual false final false
  void _ctor() ;

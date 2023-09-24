@@ -100,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Bindings::StaticAccessorAttribute::StaticAccessorAttribute(::StringW name)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<StaticAccessorAttribute>(name))) {}
+ UnityEngine::Bindings::StaticAccessorAttribute UnityEngine::Bindings::StaticAccessorAttribute::New_ctor(::StringW name)  {
+UnityEngine::Bindings::StaticAccessorAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::StaticAccessorAttribute>(name))};
+return o;
+}
  void UnityEngine::Bindings::StaticAccessorAttribute::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::StaticAccessorAttribute>::get(),
@@ -111,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "UnityEngine::Bindings::StaticAccessorType", modifiers: "", def_value: None }]
- UnityEngine::Bindings::StaticAccessorAttribute::StaticAccessorAttribute(::StringW name, UnityEngine::Bindings::StaticAccessorType type)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<StaticAccessorAttribute>(name, type))) {}
+ UnityEngine::Bindings::StaticAccessorAttribute UnityEngine::Bindings::StaticAccessorAttribute::New_ctor(::StringW name, UnityEngine::Bindings::StaticAccessorType type)  {
+UnityEngine::Bindings::StaticAccessorAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::StaticAccessorAttribute>(name, type))};
+return o;
+}
  void UnityEngine::Bindings::StaticAccessorAttribute::_ctor(::StringW name, UnityEngine::Bindings::StaticAccessorType type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::StaticAccessorAttribute>::get(),

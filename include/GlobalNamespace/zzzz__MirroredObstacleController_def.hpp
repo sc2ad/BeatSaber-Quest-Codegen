@@ -3,17 +3,20 @@
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class ObstacleController;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class StretchableObstacle;
+class ObstacleControllerBase;
 }
 namespace GlobalNamespace {
-class ObstacleControllerBase;
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MirroredObstacleController__Pool;
+}
+namespace GlobalNamespace {
+class StretchableObstacle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +125,7 @@ constexpr UnityEngine::Transform __get__followedTransform() const;
 /// @brief Method HandleDidStartDissolving addr 0x2244a0c size 0x20 virtual false final false
  void HandleDidStartDissolving(GlobalNamespace::ObstacleControllerBase obstacleController, float_t duration) ;
 
-// Ctor Parameters []
-explicit MirroredObstacleController() ;
+static GlobalNamespace::MirroredObstacleController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2244a48 size 0x8 virtual false final false
  void _ctor() ;
@@ -135,7 +137,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2712 }), TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4905))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4905)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2712 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4904))
 // CS Name: MirroredObstacleController::Pool
 class CORDL_TYPE GlobalNamespace__MirroredObstacleController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MirroredObstacleController> {
@@ -174,8 +176,7 @@ constexpr explicit GlobalNamespace__MirroredObstacleController__Pool(void* ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MirroredObstacleController__Pool() ;
+static GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2244a58 size 0x48 virtual false final false
  void _ctor() ;

@@ -5,7 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -14,7 +14,7 @@ namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -121,8 +121,7 @@ constexpr ::ArrayW<uint8_t> __get_outputBuf() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit HMac(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Macs::HMac New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe81b40 size 0x15c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

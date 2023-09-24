@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig._ctor
@@ -25,8 +26,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 constexpr  GlobalNamespace::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig::operator GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::PlatformNetworkPlayerModel>() const noexcept {
 return GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::PlatformNetworkPlayerModel>(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig()  : GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig>())) {}
+ GlobalNamespace::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig GlobalNamespace::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig>::get(),
@@ -105,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PlatformNetworkPlayerModel::PlatformNetworkPlayerModel()  : GlobalNamespace::BaseNetworkPlayerModel(THROW_UNLESS(::il2cpp_utils::New<PlatformNetworkPlayerModel>())) {}
+ GlobalNamespace::PlatformNetworkPlayerModel GlobalNamespace::PlatformNetworkPlayerModel::New_ctor()  {
+GlobalNamespace::PlatformNetworkPlayerModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlatformNetworkPlayerModel>())};
+return o;
+}
  void GlobalNamespace::PlatformNetworkPlayerModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlatformNetworkPlayerModel>::get(),

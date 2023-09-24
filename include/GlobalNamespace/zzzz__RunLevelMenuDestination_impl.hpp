@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__RunLevelMenuDestination_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RunLevelMenuDestination._ctor
 template<>
 
@@ -82,8 +82,10 @@ constexpr void GlobalNamespace::RunLevelMenuDestination::__set_environmentName(:
 constexpr ::StringW GlobalNamespace::RunLevelMenuDestination::__get_environmentName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "practice", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songSpeedMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "overrideEnvironments", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "environmentName", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::RunLevelMenuDestination::RunLevelMenuDestination(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName)  : GlobalNamespace::MenuDestination(THROW_UNLESS(::il2cpp_utils::New<RunLevelMenuDestination>(beatmapLevelPack, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, practice, startSongTime, songSpeedMultiplier, overrideEnvironments, environmentType, environmentName))) {}
+ GlobalNamespace::RunLevelMenuDestination GlobalNamespace::RunLevelMenuDestination::New_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName)  {
+GlobalNamespace::RunLevelMenuDestination o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RunLevelMenuDestination>(beatmapLevelPack, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, practice, startSongTime, songSpeedMultiplier, overrideEnvironments, environmentType, environmentName))};
+return o;
+}
  void GlobalNamespace::RunLevelMenuDestination::_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RunLevelMenuDestination>::get(),

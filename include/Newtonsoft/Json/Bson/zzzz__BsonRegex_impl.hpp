@@ -153,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonRegex::BsonRegex(::StringW pattern, ::StringW options)  : Newtonsoft::Json::Bson::BsonToken(THROW_UNLESS(::il2cpp_utils::New<BsonRegex>(pattern, options))) {}
+ Newtonsoft::Json::Bson::BsonRegex Newtonsoft::Json::Bson::BsonRegex::New_ctor(::StringW pattern, ::StringW options)  {
+Newtonsoft::Json::Bson::BsonRegex o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonRegex>(pattern, options))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonRegex::_ctor(::StringW pattern, ::StringW options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonRegex>::get(),

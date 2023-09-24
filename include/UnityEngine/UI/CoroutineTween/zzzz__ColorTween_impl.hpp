@@ -3,9 +3,10 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__ColorTween_def.hpp"
+#include "UnityEngine/UI/CoroutineTween/zzzz__ColorTween_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenMode::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -35,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback()  : UnityEngine::Events::UnityEvent_1<UnityEngine::Color>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback>())) {}
+ UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback::New_ctor()  {
+UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback>())};
+return o;
+}
  void UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback>::get(),

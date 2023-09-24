@@ -62,8 +62,7 @@ static System::Net::NetworkInformation::IPGlobalProperties InternalGetIPGlobalPr
 /// @brief Method get_DomainName addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_DomainName() ;
 
-// Ctor Parameters []
-explicit IPGlobalProperties() ;
+static System::Net::NetworkInformation::IPGlobalProperties New_ctor() ;
 
 /// @brief Method .ctor addr 0x2859024 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Collections {
-class Hashtable;
+class ICollection;
 }
 namespace System::Xml {
 class XmlQualifiedName;
 }
 namespace System::Collections {
-class ArrayList;
+class Hashtable;
 }
 namespace System::Xml::Schema {
 class NamespaceList;
 }
 namespace System::Collections {
-class ICollection;
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -110,8 +110,7 @@ constexpr bool __get_isUpaEnforced() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SymbolsDictionary() ;
+static System::Xml::Schema::SymbolsDictionary New_ctor() ;
 
 /// @brief Method .ctor addr 0x27191b4 size 0xa4 virtual false final false
  void _ctor() ;

@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Xml {
-class Ucs4Decoder;
+namespace System::Text {
+class Decoder;
 }
 namespace System::Text {
 class Encoding;
 }
-namespace System::Text {
-class Encoder;
+namespace System::Xml {
+class Ucs4Decoder;
 }
 namespace System::Text {
-class Decoder;
+class Encoder;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -131,8 +131,7 @@ static System::Text::Encoding get_UCS4_2143() ;
 /// @brief Method get_UCS4_3412 addr 0x2712590 size 0x58 virtual false final false
 static System::Text::Encoding get_UCS4_3412() ;
 
-// Ctor Parameters []
-explicit Ucs4Encoding() ;
+static System::Xml::Ucs4Encoding New_ctor() ;
 
 /// @brief Method .ctor addr 0x2712650 size 0x8 virtual false final false
  void _ctor() ;

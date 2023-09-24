@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
 namespace GlobalNamespace {
 class AsyncComputeOperation;
 }
 namespace GlobalNamespace {
 template<typename T>
 class AsyncComputeOperation_1;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace System {
 class IDisposable;

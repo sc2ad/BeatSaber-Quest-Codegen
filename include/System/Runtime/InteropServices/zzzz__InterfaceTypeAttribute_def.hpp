@@ -59,8 +59,7 @@ constexpr System::Runtime::InteropServices::ComInterfaceType __get__val() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "interfaceType", ty: "System::Runtime::InteropServices::ComInterfaceType", modifiers: "", def_value: None }]
-explicit InterfaceTypeAttribute(System::Runtime::InteropServices::ComInterfaceType interfaceType) ;
+static System::Runtime::InteropServices::InterfaceTypeAttribute New_ctor(System::Runtime::InteropServices::ComInterfaceType interfaceType) ;
 
 /// @brief Method .ctor addr 0x236abc8 size 0x28 virtual false final false
  void _ctor(System::Runtime::InteropServices::ComInterfaceType interfaceType) ;

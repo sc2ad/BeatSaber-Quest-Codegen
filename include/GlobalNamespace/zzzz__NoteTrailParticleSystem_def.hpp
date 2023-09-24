@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 namespace UnityEngine {
+struct UnityEngine__ParticleSystem__EmitParams;
+}
+namespace UnityEngine {
 class ParticleSystem;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct UnityEngine__ParticleSystem__EmitParams;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,8 +78,7 @@ constexpr UnityEngine::UnityEngine__ParticleSystem__EmitParams __get__emitParams
 /// @brief Method Emit addr 0x2252da0 size 0x110 virtual false final false
  void Emit(UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, int32_t count) ;
 
-// Ctor Parameters []
-explicit NoteTrailParticleSystem() ;
+static GlobalNamespace::NoteTrailParticleSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2252eb0 size 0x8 virtual false final false
  void _ctor() ;

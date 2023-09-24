@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIRLayoutUpdater_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIRLayoutUpdater.get_profilerMarker
 template<>
 
@@ -138,8 +138,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, currentLayoutPass, isDisplayed);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIRLayoutUpdater::UIRLayoutUpdater()  : UnityEngine::UIElements::BaseVisualTreeUpdater(THROW_UNLESS(::il2cpp_utils::New<UIRLayoutUpdater>())) {}
+ UnityEngine::UIElements::UIRLayoutUpdater UnityEngine::UIElements::UIRLayoutUpdater::New_ctor()  {
+UnityEngine::UIElements::UIRLayoutUpdater o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIRLayoutUpdater>())};
+return o;
+}
  void UnityEngine::UIElements::UIRLayoutUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIRLayoutUpdater>::get(),

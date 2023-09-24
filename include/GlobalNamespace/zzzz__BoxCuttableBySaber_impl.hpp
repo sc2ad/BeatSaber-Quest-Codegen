@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CuttableBySaber_impl.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
 #include "UnityEngine/zzzz__BoxCollider_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BoxCuttableBySaber.get_radius
 template<>
@@ -326,8 +326,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BoxCuttableBySaber::BoxCuttableBySaber()  : GlobalNamespace::CuttableBySaber(THROW_UNLESS(::il2cpp_utils::New<BoxCuttableBySaber>())) {}
+ GlobalNamespace::BoxCuttableBySaber GlobalNamespace::BoxCuttableBySaber::New_ctor()  {
+GlobalNamespace::BoxCuttableBySaber o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BoxCuttableBySaber>())};
+return o;
+}
  void GlobalNamespace::BoxCuttableBySaber::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BoxCuttableBySaber>::get(),

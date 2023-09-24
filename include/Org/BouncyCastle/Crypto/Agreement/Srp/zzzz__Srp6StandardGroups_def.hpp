@@ -147,8 +147,7 @@ static Org::BouncyCastle::Math::BigInteger FromHex(::StringW hex) ;
 /// @brief Method FromNG addr 0x118d838 size 0xb4 virtual false final false
 static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters FromNG(::StringW hexN, ::StringW hexG) ;
 
-// Ctor Parameters []
-explicit Srp6StandardGroups() ;
+static Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups New_ctor() ;
 
 /// @brief Method .ctor addr 0x118dab8 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,8 +2,8 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcherGate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::EventDispatcherGate._ctor
 template<>
 

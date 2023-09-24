@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SurrogateHashtable::SurrogateHashtable(int32_t size)  : System::Collections::Hashtable(THROW_UNLESS(::il2cpp_utils::New<SurrogateHashtable>(size))) {}
+ System::Runtime::Serialization::SurrogateHashtable System::Runtime::Serialization::SurrogateHashtable::New_ctor(int32_t size)  {
+System::Runtime::Serialization::SurrogateHashtable o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SurrogateHashtable>(size))};
+return o;
+}
  void System::Runtime::Serialization::SurrogateHashtable::_ctor(int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SurrogateHashtable>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/ComponentModel/zzzz__BaseNumberConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__DecimalConverter_def.hpp"
+#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 //  Writing Method size for method: System::ComponentModel::DecimalConverter.get_AllowHex
 template<>
 
@@ -204,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, value, formatInfo);
 }
-// Ctor Parameters []
- System::ComponentModel::DecimalConverter::DecimalConverter()  : System::ComponentModel::BaseNumberConverter(THROW_UNLESS(::il2cpp_utils::New<DecimalConverter>())) {}
+ System::ComponentModel::DecimalConverter System::ComponentModel::DecimalConverter::New_ctor()  {
+System::ComponentModel::DecimalConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DecimalConverter>())};
+return o;
+}
  void System::ComponentModel::DecimalConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DecimalConverter>::get(),

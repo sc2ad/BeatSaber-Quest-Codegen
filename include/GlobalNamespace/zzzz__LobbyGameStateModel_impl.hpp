@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LobbyGameStateModel_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerGameState_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerGameState_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LobbyGameStateModel.get_gameState
 template<>
 
@@ -245,8 +245,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newGameState, sendNotification);
 }
-// Ctor Parameters []
- GlobalNamespace::LobbyGameStateModel::LobbyGameStateModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LobbyGameStateModel>())) {}
+ GlobalNamespace::LobbyGameStateModel GlobalNamespace::LobbyGameStateModel::New_ctor()  {
+GlobalNamespace::LobbyGameStateModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LobbyGameStateModel>())};
+return o;
+}
  void GlobalNamespace::LobbyGameStateModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LobbyGameStateModel>::get(),

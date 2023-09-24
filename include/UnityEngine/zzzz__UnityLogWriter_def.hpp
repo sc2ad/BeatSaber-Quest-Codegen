@@ -79,8 +79,7 @@ static void Init() ;
 /// @brief Method Write addr 0x2b2b844 size 0x48 virtual true final false
  void Write(::ArrayW<char16_t> buffer, int32_t index, int32_t count) ;
 
-// Ctor Parameters []
-explicit UnityLogWriter() ;
+static UnityEngine::UnityLogWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b2b74c size 0x58 virtual false final false
  void _ctor() ;

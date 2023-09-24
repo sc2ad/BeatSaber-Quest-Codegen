@@ -2,9 +2,10 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobsUtility_def.hpp"
-#include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobRanges_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobsUtility_def.hpp"
+#include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobRanges_def.hpp"
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__ScheduleMode_def.hpp"
 //  Writing Method size for method: Unity::Jobs::LowLevel::Unsafe::Unity__Jobs__LowLevel__Unsafe__JobsUtility__JobScheduleParameters._ctor
 template<>
@@ -96,8 +97,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Unity::Jobs::LowLevel::Unsafe::Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_::Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_>(object, method))) {}
+ Unity::Jobs::LowLevel::Unsafe::Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_ Unity::Jobs::LowLevel::Unsafe::Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+Unity::Jobs::LowLevel::Unsafe::Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_ o{THROW_UNLESS(::il2cpp_utils::New<Unity::Jobs::LowLevel::Unsafe::Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_>(object, method))};
+return o;
+}
  void Unity::Jobs::LowLevel::Unsafe::Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::Jobs::LowLevel::Unsafe::Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_>::get(),

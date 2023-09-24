@@ -5,19 +5,22 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class TrackLaneRingsRotationEffect;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
+struct GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
+class TrackLaneRingsRotationEffect;
+}
+namespace GlobalNamespace {
 class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,6 +79,8 @@ __MaxOr0 = 2,
 constexpr operator __GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__TrackLaneRingsRotationEffectSpawner__RotationStepType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -209,8 +214,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method HandleBeatmapEvent addr 0x226d8ec size 0xcc virtual false final false
  void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
-// Ctor Parameters []
-explicit TrackLaneRingsRotationEffectSpawner() ;
+static GlobalNamespace::TrackLaneRingsRotationEffectSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x226d9b8 size 0x24 virtual false final false
  void _ctor() ;

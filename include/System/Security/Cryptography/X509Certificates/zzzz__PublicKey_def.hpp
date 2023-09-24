@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography {
-class DSA;
-}
-namespace System::Security::Cryptography {
 class AsnEncodedData;
 }
 namespace System::Security::Cryptography {
 class Oid;
+}
+namespace System::Security::Cryptography {
+class DSA;
 }
 namespace System::Security::Cryptography {
 class RSA;
@@ -102,8 +102,7 @@ static ::ArrayW<uint8_t> __get_Empty() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "oid", ty: "System::Security::Cryptography::Oid", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "keyValue", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }]
-explicit PublicKey(System::Security::Cryptography::Oid oid, System::Security::Cryptography::AsnEncodedData parameters, System::Security::Cryptography::AsnEncodedData keyValue) ;
+static System::Security::Cryptography::X509Certificates::PublicKey New_ctor(System::Security::Cryptography::Oid oid, System::Security::Cryptography::AsnEncodedData parameters, System::Security::Cryptography::AsnEncodedData keyValue) ;
 
 /// @brief Method .ctor addr 0x27e5134 size 0x174 virtual false final false
  void _ctor(System::Security::Cryptography::Oid oid, System::Security::Cryptography::AsnEncodedData parameters, System::Security::Cryptography::AsnEncodedData keyValue) ;

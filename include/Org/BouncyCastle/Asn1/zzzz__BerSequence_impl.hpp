@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__DerSequence_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerSequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::BerSequence.FromVector
 template<>
 
@@ -121,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::BerSequence, false>(nullptr, ___internal_method, elementVector);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::BerSequence::BerSequence()  : Org::BouncyCastle::Asn1::DerSequence(THROW_UNLESS(::il2cpp_utils::New<BerSequence>())) {}
+ Org::BouncyCastle::Asn1::BerSequence Org::BouncyCastle::Asn1::BerSequence::New_ctor()  {
+Org::BouncyCastle::Asn1::BerSequence o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerSequence>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerSequence::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerSequence>::get(),
@@ -132,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "element", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerSequence::BerSequence(Org::BouncyCastle::Asn1::Asn1Encodable element)  : Org::BouncyCastle::Asn1::DerSequence(THROW_UNLESS(::il2cpp_utils::New<BerSequence>(element))) {}
+ Org::BouncyCastle::Asn1::BerSequence Org::BouncyCastle::Asn1::BerSequence::New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable element)  {
+Org::BouncyCastle::Asn1::BerSequence o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerSequence>(element))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerSequence::_ctor(Org::BouncyCastle::Asn1::Asn1Encodable element)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerSequence>::get(),
@@ -143,8 +147,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, element);
 }
-// Ctor Parameters [CppParam { name: "elements", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerSequence::BerSequence(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements)  : Org::BouncyCastle::Asn1::DerSequence(THROW_UNLESS(::il2cpp_utils::New<BerSequence>(elements))) {}
+ Org::BouncyCastle::Asn1::BerSequence Org::BouncyCastle::Asn1::BerSequence::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements)  {
+Org::BouncyCastle::Asn1::BerSequence o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerSequence>(elements))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerSequence::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerSequence>::get(),
@@ -154,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, elements);
 }
-// Ctor Parameters [CppParam { name: "elementVector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerSequence::BerSequence(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector)  : Org::BouncyCastle::Asn1::DerSequence(THROW_UNLESS(::il2cpp_utils::New<BerSequence>(elementVector))) {}
+ Org::BouncyCastle::Asn1::BerSequence Org::BouncyCastle::Asn1::BerSequence::New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector)  {
+Org::BouncyCastle::Asn1::BerSequence o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerSequence>(elementVector))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerSequence::_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerSequence>::get(),

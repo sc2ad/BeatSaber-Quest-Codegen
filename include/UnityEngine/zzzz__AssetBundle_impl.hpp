@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"
 #include "UnityEngine/zzzz__AssetBundleCreateRequest_def.hpp"
-#include "UnityEngine/zzzz__AssetBundleRequest_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/zzzz__AssetBundleRequest_def.hpp"
 //  Writing Method size for method: UnityEngine::AssetBundle._ctor
 template<>
 
@@ -328,8 +328,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::AssetBundle::AssetBundle()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<AssetBundle>())) {}
+ UnityEngine::AssetBundle UnityEngine::AssetBundle::New_ctor()  {
+UnityEngine::AssetBundle o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AssetBundle>())};
+return o;
+}
  void UnityEngine::AssetBundle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AssetBundle>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsPbeKey_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__Pkcs5Scheme2PbeKey_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey._ctor
 template<>
 
@@ -88,8 +88,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::Pkcs5Scheme2PbeKey(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  : Org::BouncyCastle::Cms::CmsPbeKey(THROW_UNLESS(::il2cpp_utils::New<Pkcs5Scheme2PbeKey>(password, salt, iterationCount))) {}
+ Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::New_ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  {
+Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey>(password, salt, iterationCount))};
+return o;
+}
  void Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::_ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey>::get(),
@@ -99,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, password, salt, iterationCount);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyDerivationAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::Pkcs5Scheme2PbeKey(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  : Org::BouncyCastle::Cms::CmsPbeKey(THROW_UNLESS(::il2cpp_utils::New<Pkcs5Scheme2PbeKey>(password, keyDerivationAlgorithm))) {}
+ Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::New_ctor(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  {
+Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey>(password, keyDerivationAlgorithm))};
+return o;
+}
  void Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::_ctor(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey>::get(),
@@ -110,8 +114,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, password, keyDerivationAlgorithm);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::Pkcs5Scheme2PbeKey(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  : Org::BouncyCastle::Cms::CmsPbeKey(THROW_UNLESS(::il2cpp_utils::New<Pkcs5Scheme2PbeKey>(password, salt, iterationCount))) {}
+ Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::New_ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  {
+Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey>(password, salt, iterationCount))};
+return o;
+}
  void Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::_ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey>::get(),
@@ -121,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, password, salt, iterationCount);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "keyDerivationAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::Pkcs5Scheme2PbeKey(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  : Org::BouncyCastle::Cms::CmsPbeKey(THROW_UNLESS(::il2cpp_utils::New<Pkcs5Scheme2PbeKey>(password, keyDerivationAlgorithm))) {}
+ Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::New_ctor(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  {
+Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey>(password, keyDerivationAlgorithm))};
+return o;
+}
  void Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::_ctor(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey>::get(),

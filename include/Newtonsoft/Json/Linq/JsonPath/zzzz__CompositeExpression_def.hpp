@@ -1,15 +1,15 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
-namespace Newtonsoft::Json::Linq::JsonPath {
-class QueryExpression;
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace Newtonsoft::Json::Linq {
-class JToken;
+namespace Newtonsoft::Json::Linq::JsonPath {
+class QueryExpression;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -77,8 +77,7 @@ constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Linq::JsonPath:
 /// @brief Method set_Expressions addr 0x2539254 size 0x8 virtual false final false
  void set_Expressions(System::Collections::Generic::List_1<Newtonsoft::Json::Linq::JsonPath::QueryExpression> value) ;
 
-// Ctor Parameters []
-explicit CompositeExpression() ;
+static Newtonsoft::Json::Linq::JsonPath::CompositeExpression New_ctor() ;
 
 /// @brief Method .ctor addr 0x2538d98 size 0x80 virtual false final false
  void _ctor() ;

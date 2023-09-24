@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "RootMotion/zzzz__BipedNaming_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/zzzz__BipedNaming_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr RootMotion::RootMotion__BipedNaming__BoneType::RootMotion__BipedNaming__BoneType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }

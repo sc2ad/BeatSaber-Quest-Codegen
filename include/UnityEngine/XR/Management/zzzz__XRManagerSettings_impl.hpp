@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRManagerSettings_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/XR/Management/zzzz__XRLoader_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/XR/Management/zzzz__XRLoader_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/XR/Management/zzzz__XRManagerSettings_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24._ctor
 template<>
 
@@ -164,8 +164,10 @@ constexpr void UnityEngine::XR::Management::UnityEngine__XR__Management__XRManag
 constexpr System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<UnityEngine::XR::Management::XRLoader> UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<UnityEngine::XR::Management::XRLoader>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24>(__1__state))) {}
+ UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24 UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24::New_ctor(int32_t __1__state)  {
+UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24>(__1__state))};
+return o;
+}
  void UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24>::get(),
@@ -927,8 +929,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::HashSet_1<UnityEngine::XR::Management::XRLoader>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::Management::XRManagerSettings::XRManagerSettings()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<XRManagerSettings>())) {}
+ UnityEngine::XR::Management::XRManagerSettings UnityEngine::XR::Management::XRManagerSettings::New_ctor()  {
+UnityEngine::XR::Management::XRManagerSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::Management::XRManagerSettings>())};
+return o;
+}
  void UnityEngine::XR::Management::XRManagerSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::Management::XRManagerSettings>::get(),

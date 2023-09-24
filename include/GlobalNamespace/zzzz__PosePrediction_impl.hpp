@@ -123,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::PoseSerializable, false>(nullptr, ___internal_method, a, b, t);
 }
-// Ctor Parameters []
- GlobalNamespace::PosePrediction::PosePrediction()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PosePrediction>())) {}
+ GlobalNamespace::PosePrediction GlobalNamespace::PosePrediction::New_ctor()  {
+GlobalNamespace::PosePrediction o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PosePrediction>())};
+return o;
+}
  void GlobalNamespace::PosePrediction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PosePrediction>::get(),

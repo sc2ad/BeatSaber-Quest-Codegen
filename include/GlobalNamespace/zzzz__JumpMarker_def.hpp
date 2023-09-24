@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
-namespace GlobalNamespace {
-class JumpDestinationMarker;
-}
 namespace UnityEngine {
 struct PropertyName;
 }
 namespace UnityEngine::Playables {
 class INotification;
+}
+namespace GlobalNamespace {
+class JumpDestinationMarker;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,8 +87,7 @@ constexpr UnityEngine::PropertyName __get__id_k__BackingField() const;
 /// @brief Method get_jumpDestination addr 0x1f838d0 size 0x8 virtual false final false
  GlobalNamespace::JumpDestinationMarker get_jumpDestination() ;
 
-// Ctor Parameters []
-explicit JumpMarker() ;
+static GlobalNamespace::JumpMarker New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f838d8 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,10 +3,10 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralSubtree_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__OtherName_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::PkixNameConstraintValidator._ctor
 template<>
 
@@ -1292,8 +1292,10 @@ constexpr void Org::BouncyCastle::Pkix::PkixNameConstraintValidator::__set_permi
 constexpr Org::BouncyCastle::Utilities::Collections::ISet Org::BouncyCastle::Pkix::PkixNameConstraintValidator::__get_permittedSubtreesOtherName() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Utilities::Collections::ISet, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::PkixNameConstraintValidator::PkixNameConstraintValidator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixNameConstraintValidator>())) {}
+ Org::BouncyCastle::Pkix::PkixNameConstraintValidator Org::BouncyCastle::Pkix::PkixNameConstraintValidator::New_ctor()  {
+Org::BouncyCastle::Pkix::PkixNameConstraintValidator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixNameConstraintValidator>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixNameConstraintValidator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixNameConstraintValidator>::get(),

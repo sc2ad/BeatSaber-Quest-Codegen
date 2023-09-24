@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__BooleanQueryExpression_def.hpp"
-#include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression.get_Path
@@ -190,8 +190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, value, queryValue);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::BooleanQueryExpression()  : Newtonsoft::Json::Linq::JsonPath::QueryExpression(THROW_UNLESS(::il2cpp_utils::New<BooleanQueryExpression>())) {}
+ Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::New_ctor()  {
+Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression>::get(),

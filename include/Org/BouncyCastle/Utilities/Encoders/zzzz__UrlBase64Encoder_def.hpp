@@ -47,8 +47,7 @@ constexpr explicit UrlBase64Encoder(void* ptr) noexcept : Org::BouncyCastle::Uti
 
 // Methods
 
-// Ctor Parameters []
-explicit UrlBase64Encoder() ;
+static Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d35a4 size 0x74 virtual false final false
  void _ctor() ;

@@ -1,23 +1,23 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
 namespace System::Net::Security {
 class SslStream;
 }
-namespace Mono::Net::Security {
-class MobileTlsContext;
-}
-namespace System::IO {
-class Stream;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 namespace Mono::Net::Security {
 class MobileTlsProvider;
 }
 namespace Mono::Net::Security {
+class MobileTlsContext;
+}
+namespace Mono::Net::Security {
 class MonoSslAuthenticationOptions;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -65,8 +65,7 @@ constexpr explicit UnityTlsStream(void* ptr) noexcept : Mono::Net::Security::Mob
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "System::Net::Security::SslStream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Mono::Net::Security::MobileTlsProvider", modifiers: "", def_value: None }]
-explicit UnityTlsStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider) ;
+static Mono::Unity::UnityTlsStream New_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider) ;
 
 /// @brief Method .ctor addr 0x268b378 size 0x94 virtual false final false
  void _ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider) ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MoveAndRotateWithMainCamera_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "GlobalNamespace/zzzz__MainCamera_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__MainCamera_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MoveAndRotateWithMainCamera.Awake
 template<>
 
@@ -98,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MoveAndRotateWithMainCamera::MoveAndRotateWithMainCamera()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MoveAndRotateWithMainCamera>())) {}
+ GlobalNamespace::MoveAndRotateWithMainCamera GlobalNamespace::MoveAndRotateWithMainCamera::New_ctor()  {
+GlobalNamespace::MoveAndRotateWithMainCamera o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MoveAndRotateWithMainCamera>())};
+return o;
+}
  void GlobalNamespace::MoveAndRotateWithMainCamera::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MoveAndRotateWithMainCamera>::get(),

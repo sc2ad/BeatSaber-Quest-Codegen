@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuNeonLightsGenerator_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MenuNeonLightsGenerator._ctor
 template<>
@@ -93,8 +93,10 @@ constexpr void GlobalNamespace::MenuNeonLightsGenerator::__set__afterSpawnRotati
 constexpr UnityEngine::Vector3 GlobalNamespace::MenuNeonLightsGenerator::__get__afterSpawnRotation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::MenuNeonLightsGenerator::MenuNeonLightsGenerator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MenuNeonLightsGenerator>())) {}
+ GlobalNamespace::MenuNeonLightsGenerator GlobalNamespace::MenuNeonLightsGenerator::New_ctor()  {
+GlobalNamespace::MenuNeonLightsGenerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MenuNeonLightsGenerator>())};
+return o;
+}
  void GlobalNamespace::MenuNeonLightsGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MenuNeonLightsGenerator>::get(),

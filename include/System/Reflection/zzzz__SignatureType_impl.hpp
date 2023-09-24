@@ -1,28 +1,28 @@
 #pragma once
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Reflection/zzzz__SignatureType_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
-#include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/Reflection/zzzz__EventInfo_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
 #include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/Reflection/zzzz__ParameterModifier_def.hpp"
-#include "System/Reflection/zzzz__TypeAttributes_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Reflection/zzzz__CallingConventions_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
-#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
-#include "System/zzzz__RuntimeTypeHandle_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
+#include "System/Reflection/zzzz__CallingConventions_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
+#include "System/zzzz__RuntimeTypeHandle_def.hpp"
+#include "System/Reflection/zzzz__TypeAttributes_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/Reflection/zzzz__EventInfo_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Reflection/zzzz__ParameterModifier_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 //  Writing Method size for method: System::Reflection::SignatureType.get_IsSignatureType
 template<>
 
@@ -2094,8 +2094,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::RuntimeTypeHandle, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Reflection::SignatureType::SignatureType()  : System::Type(THROW_UNLESS(::il2cpp_utils::New<SignatureType>())) {}
+ System::Reflection::SignatureType System::Reflection::SignatureType::New_ctor()  {
+System::Reflection::SignatureType o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::SignatureType>())};
+return o;
+}
  void System::Reflection::SignatureType::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::SignatureType>::get(),

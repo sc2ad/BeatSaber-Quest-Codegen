@@ -1,21 +1,22 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
+#include "System/Net/zzzz__HttpWebRequest_def.hpp"
 #include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "System/Net/zzzz__WebExceptionStatus_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Net/zzzz__HttpWebRequest_def.hpp"
-#include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 //  Writing Method size for method: Mono::Net::Security::Mono__Net__Security__MonoTlsStream___CreateStream_d__18.MoveNext
 template<>
 
@@ -347,8 +348,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::HttpWebRequest", modifiers: "", def_value: None }, CppParam { name: "networkStream", ty: "System::Net::Sockets::NetworkStream", modifiers: "", def_value: None }]
- Mono::Net::Security::MonoTlsStream::MonoTlsStream(System::Net::HttpWebRequest request, System::Net::Sockets::NetworkStream networkStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoTlsStream>(request, networkStream))) {}
+ Mono::Net::Security::MonoTlsStream Mono::Net::Security::MonoTlsStream::New_ctor(System::Net::HttpWebRequest request, System::Net::Sockets::NetworkStream networkStream)  {
+Mono::Net::Security::MonoTlsStream o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::MonoTlsStream>(request, networkStream))};
+return o;
+}
  void Mono::Net::Security::MonoTlsStream::_ctor(System::Net::HttpWebRequest request, System::Net::Sockets::NetworkStream networkStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::MonoTlsStream>::get(),

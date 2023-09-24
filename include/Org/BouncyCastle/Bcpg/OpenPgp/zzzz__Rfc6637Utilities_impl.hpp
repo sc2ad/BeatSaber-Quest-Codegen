@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__Rfc6637Utilities_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyAlgorithmTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyPacket_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities._ctor
 template<>
 
@@ -130,8 +130,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
  ::ArrayW<uint8_t> Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities::__get_ANONYMOUS_SENDER()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "ANONYMOUS_SENDER", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities::Rfc6637Utilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Rfc6637Utilities>())) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities::New_ctor()  {
+Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities>())};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities>::get(),

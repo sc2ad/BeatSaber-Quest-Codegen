@@ -7,12 +7,12 @@
 namespace HoudiniEngineUnity {
 class HEU_InputPreset;
 }
+namespace HoudiniEngineUnity {
+class HEU_VolumeCachePreset;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeCachePreset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -111,8 +111,7 @@ constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCac
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_AssetPreset() ;
+static HoudiniEngineUnity::HEU_AssetPreset New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdad2c size 0x148 virtual false final false
  void _ctor() ;

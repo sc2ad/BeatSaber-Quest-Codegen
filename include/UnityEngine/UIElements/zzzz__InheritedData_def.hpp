@@ -5,40 +5,40 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UIElements {
+struct WhiteSpace;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+class IStyleDataGroup_1;
 }
 namespace UnityEngine::UIElements {
 struct TextShadow;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine {
+struct TextAnchor;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-struct Length;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UIElements {
-struct WhiteSpace;
+struct Visibility;
+}
+namespace UnityEngine {
+struct FontStyle;
 }
 namespace UnityEngine::UIElements {
 struct FontDefinition;
 }
 namespace UnityEngine {
 class Font;
-}
-namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine::UIElements {
-struct Visibility;
-}
-namespace UnityEngine::UIElements {
-template<typename T>
-class IStyleDataGroup_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

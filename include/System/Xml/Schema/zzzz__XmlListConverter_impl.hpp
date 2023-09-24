@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlListConverter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::XmlListConverter._ctor
 template<>
 
@@ -203,8 +203,10 @@ constexpr void System::Xml::Schema::XmlListConverter::__set_atomicConverter(Syst
 constexpr System::Xml::Schema::XmlValueConverter System::Xml::Schema::XmlListConverter::__get_atomicConverter() const {
 return ::cordl_internals::getInstanceField<System::Xml::Schema::XmlValueConverter, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "atomicConverter", ty: "System::Xml::Schema::XmlBaseConverter", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlListConverter::XmlListConverter(System::Xml::Schema::XmlBaseConverter atomicConverter)  : System::Xml::Schema::XmlBaseConverter(THROW_UNLESS(::il2cpp_utils::New<XmlListConverter>(atomicConverter))) {}
+ System::Xml::Schema::XmlListConverter System::Xml::Schema::XmlListConverter::New_ctor(System::Xml::Schema::XmlBaseConverter atomicConverter)  {
+System::Xml::Schema::XmlListConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlListConverter>(atomicConverter))};
+return o;
+}
  void System::Xml::Schema::XmlListConverter::_ctor(System::Xml::Schema::XmlBaseConverter atomicConverter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlListConverter>::get(),
@@ -214,8 +216,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, atomicConverter);
 }
-// Ctor Parameters [CppParam { name: "atomicConverter", ty: "System::Xml::Schema::XmlBaseConverter", modifiers: "", def_value: None }, CppParam { name: "clrTypeDefault", ty: "System::Type", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlListConverter::XmlListConverter(System::Xml::Schema::XmlBaseConverter atomicConverter, System::Type clrTypeDefault)  : System::Xml::Schema::XmlBaseConverter(THROW_UNLESS(::il2cpp_utils::New<XmlListConverter>(atomicConverter, clrTypeDefault))) {}
+ System::Xml::Schema::XmlListConverter System::Xml::Schema::XmlListConverter::New_ctor(System::Xml::Schema::XmlBaseConverter atomicConverter, System::Type clrTypeDefault)  {
+System::Xml::Schema::XmlListConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlListConverter>(atomicConverter, clrTypeDefault))};
+return o;
+}
  void System::Xml::Schema::XmlListConverter::_ctor(System::Xml::Schema::XmlBaseConverter atomicConverter, System::Type clrTypeDefault)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlListConverter>::get(),
@@ -225,8 +229,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, atomicConverter, clrTypeDefault);
 }
-// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlListConverter::XmlListConverter(System::Xml::Schema::XmlSchemaType schemaType)  : System::Xml::Schema::XmlBaseConverter(THROW_UNLESS(::il2cpp_utils::New<XmlListConverter>(schemaType))) {}
+ System::Xml::Schema::XmlListConverter System::Xml::Schema::XmlListConverter::New_ctor(System::Xml::Schema::XmlSchemaType schemaType)  {
+System::Xml::Schema::XmlListConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlListConverter>(schemaType))};
+return o;
+}
  void System::Xml::Schema::XmlListConverter::_ctor(System::Xml::Schema::XmlSchemaType schemaType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlListConverter>::get(),

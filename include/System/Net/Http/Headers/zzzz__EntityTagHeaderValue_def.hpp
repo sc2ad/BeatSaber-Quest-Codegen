@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Net::Http::Headers {
-struct Token;
-}
 namespace System {
 class ICloneable;
+}
+namespace System::Net::Http::Headers {
+struct Token;
 }
 namespace System::Net::Http::Headers {
 class Lexer;
@@ -94,8 +94,7 @@ constexpr ::StringW __get__Tag_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit EntityTagHeaderValue() ;
+static System::Net::Http::Headers::EntityTagHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26a6f88 size 0x8 virtual false final false
  void _ctor() ;

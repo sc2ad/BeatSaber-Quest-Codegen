@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::ImageWithHintItemsList::ImageWithHintItemsList()  : HMUI::UIItemsList_1<HMUI::ImageWithHint>(THROW_UNLESS(::il2cpp_utils::New<ImageWithHintItemsList>())) {}
+ GlobalNamespace::ImageWithHintItemsList GlobalNamespace::ImageWithHintItemsList::New_ctor()  {
+GlobalNamespace::ImageWithHintItemsList o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ImageWithHintItemsList>())};
+return o;
+}
  void GlobalNamespace::ImageWithHintItemsList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ImageWithHintItemsList>::get(),

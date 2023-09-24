@@ -66,8 +66,7 @@ static constexpr int32_t  kLateSpawnRotationBeatmapEventExecutionOrder{1000};
 
 // Methods
 
-// Ctor Parameters []
-explicit BeatmapDataItemExecutionOrderConstants() ;
+static GlobalNamespace::BeatmapDataItemExecutionOrderConstants New_ctor() ;
 
 /// @brief Method .ctor addr 0xd919b0 size 0x8 virtual false final false
  void _ctor() ;

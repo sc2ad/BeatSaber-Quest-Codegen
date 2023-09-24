@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__GUILayoutEntry_impl.hpp"
 #include "UnityEngine/zzzz__GUIWordWrapSizer_def.hpp"
-#include "UnityEngine/zzzz__GUILayoutOption_def.hpp"
-#include "UnityEngine/zzzz__GUIContent_def.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
+#include "UnityEngine/zzzz__GUIContent_def.hpp"
+#include "UnityEngine/zzzz__GUILayoutOption_def.hpp"
 //  Writing Method size for method: UnityEngine::GUIWordWrapSizer._ctor
 template<>
 
@@ -73,8 +73,10 @@ constexpr void UnityEngine::GUIWordWrapSizer::__set_m_ForcedMaxHeight(float_t va
 constexpr float_t UnityEngine::GUIWordWrapSizer::__get_m_ForcedMaxHeight() const {
 return ::cordl_internals::getInstanceField<float_t, 0x54>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "style", ty: "UnityEngine::GUIStyle", modifiers: "", def_value: None }, CppParam { name: "content", ty: "UnityEngine::GUIContent", modifiers: "", def_value: None }, CppParam { name: "options", ty: "::ArrayW<UnityEngine::GUILayoutOption>", modifiers: "", def_value: None }]
- UnityEngine::GUIWordWrapSizer::GUIWordWrapSizer(UnityEngine::GUIStyle style, UnityEngine::GUIContent content, ::ArrayW<UnityEngine::GUILayoutOption> options)  : UnityEngine::GUILayoutEntry(THROW_UNLESS(::il2cpp_utils::New<GUIWordWrapSizer>(style, content, options))) {}
+ UnityEngine::GUIWordWrapSizer UnityEngine::GUIWordWrapSizer::New_ctor(UnityEngine::GUIStyle style, UnityEngine::GUIContent content, ::ArrayW<UnityEngine::GUILayoutOption> options)  {
+UnityEngine::GUIWordWrapSizer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUIWordWrapSizer>(style, content, options))};
+return o;
+}
  void UnityEngine::GUIWordWrapSizer::_ctor(UnityEngine::GUIStyle style, UnityEngine::GUIContent content, ::ArrayW<UnityEngine::GUILayoutOption> options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUIWordWrapSizer>::get(),

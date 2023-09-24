@@ -6,7 +6,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_Handle__HEU_HandleType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_XYZOrder;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -16,28 +25,22 @@ template<typename T>
 class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_RSTOrder;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_HandleParamBinding;
+struct HAPI_TransformEuler;
 }
 namespace HoudiniEngineUnity {
 class HEU_Parameters;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_XYZOrder;
-}
-namespace UnityEngine {
-struct Vector3;
+struct HAPI_RSTOrder;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_HandleInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_HandleParamBinding;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -95,6 +98,8 @@ __UNSUPPORTED = 1,
 constexpr operator __HoudiniEngineUnity__HEU_Handle__HEU_HandleType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_Handle__HEU_HandleType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -328,8 +333,7 @@ static bool IsSpecialRSTOrder(HoudiniEngineUnity::HAPI_RSTOrder rstOrder) ;
 /// @brief Method IsEquivalentTo addr 0x201e97c size 0x4fc virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_Handle other) ;
 
-// Ctor Parameters []
-explicit HEU_Handle() ;
+static HoudiniEngineUnity::HEU_Handle New_ctor() ;
 
 /// @brief Method .ctor addr 0x201ee78 size 0xd4 virtual false final false
  void _ctor() ;

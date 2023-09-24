@@ -5,11 +5,11 @@
 namespace UnityEngine::UI {
 class Image;
 }
-namespace HMUI {
-class HoverHint;
-}
 namespace UnityEngine {
 class Sprite;
+}
+namespace HMUI {
+class HoverHint;
 }
 // Forward declare root types
 namespace HMUI {
@@ -88,8 +88,7 @@ constexpr HMUI::HoverHint __get__hoverHint() const;
 /// @brief Method set_hintText addr 0x1fcd0ac size 0x1c virtual false final false
  void set_hintText(::StringW value) ;
 
-// Ctor Parameters []
-explicit ImageWithHint() ;
+static HMUI::ImageWithHint New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fcd0c8 size 0x8 virtual false final false
  void _ctor() ;

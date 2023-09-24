@@ -5,18 +5,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::Timeline {
-struct StandardFrameRates;
+namespace UnityEngine::Playables {
+struct FrameRate;
 }
 namespace UnityEngine {
 class AnimationClip;
 }
-namespace UnityEngine::Playables {
-struct FrameRate;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__TimeUtility____c;
+}
+namespace UnityEngine::Timeline {
+struct StandardFrameRates;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -94,8 +97,7 @@ static System::Func_2<char16_t,bool> __get___9__16_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Timeline__TimeUtility____c() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__TimeUtility____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2adba24 size 0x8 virtual false final false
  void _ctor() ;

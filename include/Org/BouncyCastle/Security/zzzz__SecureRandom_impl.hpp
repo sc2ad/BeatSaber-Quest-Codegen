@@ -447,8 +447,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, length);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Security::SecureRandom::SecureRandom()  : System::Random(THROW_UNLESS(::il2cpp_utils::New<SecureRandom>())) {}
+ Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Security::SecureRandom::New_ctor()  {
+Org::BouncyCastle::Security::SecureRandom o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::SecureRandom>())};
+return o;
+}
  void Org::BouncyCastle::Security::SecureRandom::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::SecureRandom>::get(),
@@ -458,8 +460,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Security::SecureRandom::SecureRandom(::ArrayW<uint8_t> seed)  : System::Random(THROW_UNLESS(::il2cpp_utils::New<SecureRandom>(seed))) {}
+ Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Security::SecureRandom::New_ctor(::ArrayW<uint8_t> seed)  {
+Org::BouncyCastle::Security::SecureRandom o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::SecureRandom>(seed))};
+return o;
+}
  void Org::BouncyCastle::Security::SecureRandom::_ctor(::ArrayW<uint8_t> seed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::SecureRandom>::get(),
@@ -469,8 +473,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seed);
 }
-// Ctor Parameters [CppParam { name: "generator", ty: "Org::BouncyCastle::Crypto::Prng::IRandomGenerator", modifiers: "", def_value: None }]
- Org::BouncyCastle::Security::SecureRandom::SecureRandom(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator)  : System::Random(THROW_UNLESS(::il2cpp_utils::New<SecureRandom>(generator))) {}
+ Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Security::SecureRandom::New_ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator)  {
+Org::BouncyCastle::Security::SecureRandom o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::SecureRandom>(generator))};
+return o;
+}
  void Org::BouncyCastle::Security::SecureRandom::_ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::SecureRandom>::get(),

@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__AutoUnwrapSettings_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__AutoUnwrapSettings_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::ProBuilder::UnityEngine__ProBuilder__AutoUnwrapSettings__Anchor::UnityEngine__ProBuilder__AutoUnwrapSettings__Anchor(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;

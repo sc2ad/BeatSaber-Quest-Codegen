@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKMapping__BoneMap;
+struct FullBodyBipedChain;
 }
 namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
 }
 namespace RootMotion::FinalIK {
-struct FullBodyBipedChain;
+class RootMotion__FinalIK__IKMapping__BoneMap;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -99,8 +99,7 @@ constexpr bool __get_skip() const;
 /// @brief Method OnDestroy addr 0x120d6f0 size 0x10c virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit ShoulderRotator() ;
+static RootMotion::FinalIK::ShoulderRotator New_ctor() ;
 
 /// @brief Method .ctor addr 0x120d7fc size 0x14 virtual false final false
  void _ctor() ;

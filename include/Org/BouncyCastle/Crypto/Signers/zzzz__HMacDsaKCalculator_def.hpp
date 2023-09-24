@@ -6,17 +6,17 @@
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaKCalculator;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Macs {
 class HMac;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaKCalculator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -99,8 +99,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_n() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit HMacDsaKCalculator(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xec0344 size 0xe8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

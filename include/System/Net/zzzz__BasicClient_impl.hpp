@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/zzzz__BasicClient_def.hpp"
-#include "System/Net/zzzz__Authorization_def.hpp"
-#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__Authorization_def.hpp"
 //  Writing Method size for method: System::Net::BasicClient.Authenticate
 template<>
 
@@ -155,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::BasicClient::BasicClient()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BasicClient>())) {}
+ System::Net::BasicClient System::Net::BasicClient::New_ctor()  {
+System::Net::BasicClient o{THROW_UNLESS(::il2cpp_utils::New<System::Net::BasicClient>())};
+return o;
+}
  void System::Net::BasicClient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::BasicClient>::get(),

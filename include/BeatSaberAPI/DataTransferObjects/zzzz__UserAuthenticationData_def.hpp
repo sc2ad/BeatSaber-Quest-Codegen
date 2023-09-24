@@ -99,8 +99,7 @@ constexpr ::StringW __get_publicUserDisplayName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UserAuthenticationData() ;
+static BeatSaberAPI::DataTransferObjects::UserAuthenticationData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d7374 size 0x8 virtual false final false
  void _ctor() ;

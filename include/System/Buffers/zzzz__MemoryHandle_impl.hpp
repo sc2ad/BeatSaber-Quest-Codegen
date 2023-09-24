@@ -2,8 +2,8 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Buffers/zzzz__MemoryHandle_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Buffers/zzzz__IPinnable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::Buffers::MemoryHandle._ctor
 template<>
 

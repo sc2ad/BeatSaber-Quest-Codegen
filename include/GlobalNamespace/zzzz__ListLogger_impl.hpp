@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__ListLogger_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "GlobalNamespace/zzzz__ListLogger_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__ListLogger__LogType::GlobalNamespace__ListLogger__LogType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -69,8 +70,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ListLogger__LogMessage::__set_c
 constexpr ::bs_hook::Il2CppWrapperType GlobalNamespace::GlobalNamespace__ListLogger__LogMessage::__get_context() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "GlobalNamespace::GlobalNamespace__ListLogger__LogType", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ListLogger__LogMessage::GlobalNamespace__ListLogger__LogMessage(GlobalNamespace::GlobalNamespace__ListLogger__LogType type, ::StringW message, ::bs_hook::Il2CppWrapperType context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ListLogger__LogMessage>(type, message, context))) {}
+ GlobalNamespace::GlobalNamespace__ListLogger__LogMessage GlobalNamespace::GlobalNamespace__ListLogger__LogMessage::New_ctor(GlobalNamespace::GlobalNamespace__ListLogger__LogType type, ::StringW message, ::bs_hook::Il2CppWrapperType context)  {
+GlobalNamespace::GlobalNamespace__ListLogger__LogMessage o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ListLogger__LogMessage>(type, message, context))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ListLogger__LogMessage::_ctor(GlobalNamespace::GlobalNamespace__ListLogger__LogType type, ::StringW message, ::bs_hook::Il2CppWrapperType context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ListLogger__LogMessage>::get(),
@@ -278,8 +281,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__ListLogger__LogMessage>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ListLogger::ListLogger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ListLogger>())) {}
+ GlobalNamespace::ListLogger GlobalNamespace::ListLogger::New_ctor()  {
+GlobalNamespace::ListLogger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ListLogger>())};
+return o;
+}
  void GlobalNamespace::ListLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ListLogger>::get(),

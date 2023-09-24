@@ -1,12 +1,12 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
-namespace Newtonsoft::Json::Linq::JsonPath {
-class PathFilter;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Newtonsoft::Json::Linq::JsonPath {
+class PathFilter;
 }
 namespace Newtonsoft::Json::Linq {
 class JValue;
@@ -100,8 +100,7 @@ constexpr Newtonsoft::Json::Linq::JValue __get__Value_k__BackingField() const;
 /// @brief Method EqualsWithStringCoercion addr 0x2539968 size 0x4d4 virtual false final false
  bool EqualsWithStringCoercion(Newtonsoft::Json::Linq::JValue value, Newtonsoft::Json::Linq::JValue queryValue) ;
 
-// Ctor Parameters []
-explicit BooleanQueryExpression() ;
+static Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression New_ctor() ;
 
 /// @brief Method .ctor addr 0x2538ce8 size 0x8 virtual false final false
  void _ctor() ;

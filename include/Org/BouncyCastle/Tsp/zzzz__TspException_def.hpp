@@ -51,20 +51,17 @@ constexpr explicit TspException(void* ptr) noexcept : System::Exception(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit TspException() ;
+static Org::BouncyCastle::Tsp::TspException New_ctor() ;
 
 /// @brief Method .ctor addr 0x10c8398 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TspException(::StringW message) ;
+static Org::BouncyCastle::Tsp::TspException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x10c7b88 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit TspException(::StringW message, System::Exception e) ;
+static Org::BouncyCastle::Tsp::TspException New_ctor(::StringW message, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x10c48ac size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception e) ;

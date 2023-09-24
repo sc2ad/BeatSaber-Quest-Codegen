@@ -229,8 +229,10 @@ constexpr void Oculus::Platform::RichPresenceOptions::__set_Handle(::cordl_inter
 constexpr ::cordl_internals::intptr_t Oculus::Platform::RichPresenceOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::RichPresenceOptions::RichPresenceOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RichPresenceOptions>())) {}
+ Oculus::Platform::RichPresenceOptions Oculus::Platform::RichPresenceOptions::New_ctor()  {
+Oculus::Platform::RichPresenceOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::RichPresenceOptions>())};
+return o;
+}
  void Oculus::Platform::RichPresenceOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::RichPresenceOptions>::get(),

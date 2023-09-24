@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__TransferCodingWithQualityHeaderValue_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::TransferCodingWithQualityHeaderValue._ctor
 template<>
 
@@ -55,8 +55,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TransferCodingWithQualityHeaderValue()  : System::Net::Http::Headers::TransferCodingHeaderValue(THROW_UNLESS(::il2cpp_utils::New<TransferCodingWithQualityHeaderValue>())) {}
+ System::Net::Http::Headers::TransferCodingWithQualityHeaderValue System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::New_ctor()  {
+System::Net::Http::Headers::TransferCodingWithQualityHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::TransferCodingWithQualityHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::TransferCodingWithQualityHeaderValue>::get(),

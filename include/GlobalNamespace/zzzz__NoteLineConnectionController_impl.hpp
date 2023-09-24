@@ -2,13 +2,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteLineConnectionController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineConnectionController_def.hpp"
 #include "UnityEngine/zzzz__LineRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteLineConnectionController.add_didFinishEvent
 template<>
 
@@ -234,8 +235,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteLineConnectionController::NoteLineConnectionController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteLineConnectionController>())) {}
+ GlobalNamespace::NoteLineConnectionController GlobalNamespace::NoteLineConnectionController::New_ctor()  {
+GlobalNamespace::NoteLineConnectionController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteLineConnectionController>())};
+return o;
+}
  void GlobalNamespace::NoteLineConnectionController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteLineConnectionController>::get(),
@@ -262,8 +265,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__NoteLineConnectionController__Pool::GlobalNamespace__NoteLineConnectionController__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::NoteLineConnectionController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__NoteLineConnectionController__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__NoteLineConnectionController__Pool GlobalNamespace::GlobalNamespace__NoteLineConnectionController__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__NoteLineConnectionController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__NoteLineConnectionController__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__NoteLineConnectionController__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__NoteLineConnectionController__Pool>::get(),

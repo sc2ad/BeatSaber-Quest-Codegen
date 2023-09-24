@@ -5,7 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Reflection {
-class Binder;
+class MethodInfo;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System {
+struct RuntimeMethodHandle;
 }
 namespace System::Reflection {
 struct MethodImplAttributes;
@@ -13,23 +19,17 @@ struct MethodImplAttributes;
 namespace System::Reflection {
 struct MethodAttributes;
 }
+namespace System {
+class Type;
+}
 namespace System::Reflection {
-struct BindingFlags;
+class ParameterInfo;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System {
-class Type;
-}
-namespace System {
-struct RuntimeMethodHandle;
-}
 namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Reflection {
-class ParameterInfo;
+class Binder;
 }
 // Forward declare root types
 namespace System::Reflection::Emit {

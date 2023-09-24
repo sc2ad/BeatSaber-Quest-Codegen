@@ -2,15 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class LightGroupSO;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace GlobalNamespace {
-class LightGroupSO;
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -124,8 +124,7 @@ constexpr System::Action_1<UnityEngine::GameObject> __get_didRefreshContentEvent
 /// @brief Method remove_didRefreshContentEvent addr 0x1f9beb8 size 0xb0 virtual false final false
  void remove_didRefreshContentEvent(System::Action_1<UnityEngine::GameObject> value) ;
 
-// Ctor Parameters []
-explicit LightGroup() ;
+static GlobalNamespace::LightGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9bf68 size 0x8 virtual false final false
  void _ctor() ;

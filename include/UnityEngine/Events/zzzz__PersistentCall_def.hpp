@@ -3,16 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
-namespace UnityEngine::Events {
-struct PersistentListenerMode;
+namespace UnityEngine {
+class Object;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace UnityEngine::Events {
+class BaseInvokableCall;
 }
 namespace UnityEngine::Events {
 struct UnityEventCallState;
@@ -21,10 +18,13 @@ namespace UnityEngine::Events {
 class UnityEventBase;
 }
 namespace UnityEngine::Events {
-class BaseInvokableCall;
+class ArgumentCache;
 }
 namespace UnityEngine::Events {
-class ArgumentCache;
+struct PersistentListenerMode;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -157,8 +157,7 @@ static UnityEngine::Events::BaseInvokableCall GetObjectCall(UnityEngine::Object 
 /// @brief Method OnAfterDeserialize addr 0x2b8017c size 0x1c virtual true final true
  void OnAfterDeserialize() ;
 
-// Ctor Parameters []
-explicit PersistentCall() ;
+static UnityEngine::Events::PersistentCall New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b80198 size 0x74 virtual false final false
  void _ctor() ;

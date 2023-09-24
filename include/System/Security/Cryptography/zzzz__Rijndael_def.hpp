@@ -66,8 +66,7 @@ static ::ArrayW<System::Security::Cryptography::KeySizes> __get_s_legalKeySizes(
 
 // Methods
 
-// Ctor Parameters []
-explicit Rijndael() ;
+static System::Security::Cryptography::Rijndael New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f554c size 0x7c virtual false final false
  void _ctor() ;

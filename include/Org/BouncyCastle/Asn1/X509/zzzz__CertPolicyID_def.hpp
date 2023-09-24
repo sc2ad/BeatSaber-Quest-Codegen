@@ -48,8 +48,7 @@ constexpr explicit CertPolicyID(void* ptr) noexcept : Org::BouncyCastle::Asn1::D
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CertPolicyID(::StringW id) ;
+static Org::BouncyCastle::Asn1::X509::CertPolicyID New_ctor(::StringW id) ;
 
 /// @brief Method .ctor addr 0x1100824 size 0x68 virtual false final false
  void _ctor(::StringW id) ;

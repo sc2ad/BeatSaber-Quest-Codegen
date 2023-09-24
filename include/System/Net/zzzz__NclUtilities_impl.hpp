@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/zzzz__NclUtilities_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/Net/zzzz__IPHostEntry_def.hpp"
 //  Writing Method size for method: System::Net::NclUtilities.IsFatal
 template<>

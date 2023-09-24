@@ -6,22 +6,25 @@
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
+namespace GlobalNamespace {
+class PreviewBeatmapLevelSO;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class PreviewBeatmapLevelSO;
+class GlobalNamespace__BeatmapLevelsPromoDataSO____c;
+}
+namespace GlobalNamespace {
+class PreviewBeatmapLevelPackSO;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -109,8 +112,7 @@ static System::Func_2<GlobalNamespace::PreviewBeatmapLevelSO,::StringW> __get___
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapLevelsPromoDataSO____c() ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelsPromoDataSO____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2191710 size 0x8 virtual false final false
  void _ctor() ;
@@ -238,8 +240,7 @@ constexpr System::Collections::Generic::HashSet_1<::StringW> __get__updatedBeatm
 /// @brief Method IsBeatmapLevelUpdated addr 0x218af4c size 0x1f8 virtual false final false
  bool IsBeatmapLevelUpdated(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel) ;
 
-// Ctor Parameters []
-explicit BeatmapLevelsPromoDataSO() ;
+static GlobalNamespace::BeatmapLevelsPromoDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21916a4 size 0x8 virtual false final false
  void _ctor() ;

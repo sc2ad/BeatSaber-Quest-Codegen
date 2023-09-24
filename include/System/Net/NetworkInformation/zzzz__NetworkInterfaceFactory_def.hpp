@@ -57,8 +57,7 @@ constexpr explicit NetworkInterfaceFactory(void* ptr) noexcept : ::bs_hook::Il2C
 /// @brief Method Create addr 0x285dbb0 size 0x4 virtual false final false
 static System::Net::NetworkInformation::NetworkInterfaceFactory Create() ;
 
-// Ctor Parameters []
-explicit NetworkInterfaceFactory() ;
+static System::Net::NetworkInformation::NetworkInterfaceFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x285dc04 size 0x8 virtual false final false
  void _ctor() ;

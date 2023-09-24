@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ResourceLocationBase_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.get_InternalId
 template<>
 
@@ -408,8 +408,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "providerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ResourceLocationBase(::StringW name, ::StringW id, ::StringW providerId, System::Type t, ::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceLocationBase>(name, id, providerId, t, dependencies))) {}
+ UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::New_ctor(::StringW name, ::StringW id, ::StringW providerId, System::Type t, ::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies)  {
+UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase>(name, id, providerId, t, dependencies))};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::_ctor(::StringW name, ::StringW id, ::StringW providerId, System::Type t, ::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase>::get(),

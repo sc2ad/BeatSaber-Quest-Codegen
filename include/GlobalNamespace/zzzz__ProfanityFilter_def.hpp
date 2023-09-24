@@ -9,20 +9,26 @@ class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
+class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ProfanityFilter__TrieNode;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,8 +103,7 @@ constexpr int32_t __get__shortestWord() const;
 /// @brief Method IsMatch addr 0xdc6dc8 size 0x178 virtual false final false
  bool IsMatch(::StringW word, int32_t index) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ProfanityFilter__TrieNode() ;
+static GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc688c size 0x10 virtual false final false
  void _ctor() ;
@@ -204,8 +209,7 @@ constexpr char16_t __get___3__c() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0xdc6fb8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -290,8 +294,7 @@ constexpr GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode __get__tri
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "wordList", ty: "System::Collections::Generic::IEnumerable_1<::StringW>", modifiers: "", def_value: None }]
-explicit ProfanityFilter(System::Collections::Generic::IEnumerable_1<::StringW> wordList) ;
+static GlobalNamespace::ProfanityFilter New_ctor(System::Collections::Generic::IEnumerable_1<::StringW> wordList) ;
 
 /// @brief Method .ctor addr 0xdc654c size 0x340 virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<::StringW> wordList) ;

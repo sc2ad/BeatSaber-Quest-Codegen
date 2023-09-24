@@ -1,13 +1,13 @@
 #pragma once
 #include "Zenject/zzzz__GetFromGameObjectGetterComponentProvider_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: Zenject::GetFromGameObjectGetterComponentProvider._ctor
 template<>
 
@@ -115,8 +115,10 @@ constexpr void Zenject::GetFromGameObjectGetterComponentProvider::__set__matchSi
 constexpr bool Zenject::GetFromGameObjectGetterComponentProvider::__get__matchSingle() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "gameObjectGetter", ty: "System::Func_2<Zenject::InjectContext,UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "matchSingle", ty: "bool", modifiers: "", def_value: None }]
- Zenject::GetFromGameObjectGetterComponentProvider::GetFromGameObjectGetterComponentProvider(System::Type componentType, System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, bool matchSingle)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GetFromGameObjectGetterComponentProvider>(componentType, gameObjectGetter, matchSingle))) {}
+ Zenject::GetFromGameObjectGetterComponentProvider Zenject::GetFromGameObjectGetterComponentProvider::New_ctor(System::Type componentType, System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, bool matchSingle)  {
+Zenject::GetFromGameObjectGetterComponentProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::GetFromGameObjectGetterComponentProvider>(componentType, gameObjectGetter, matchSingle))};
+return o;
+}
  void Zenject::GetFromGameObjectGetterComponentProvider::_ctor(System::Type componentType, System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, bool matchSingle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::GetFromGameObjectGetterComponentProvider>::get(),

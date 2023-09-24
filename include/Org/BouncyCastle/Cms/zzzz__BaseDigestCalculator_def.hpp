@@ -64,8 +64,7 @@ constexpr ::ArrayW<uint8_t> __get_digest() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit BaseDigestCalculator(::ArrayW<uint8_t> digest) ;
+static Org::BouncyCastle::Cms::BaseDigestCalculator New_ctor(::ArrayW<uint8_t> digest) ;
 
 /// @brief Method .ctor addr 0x114dff8 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> digest) ;

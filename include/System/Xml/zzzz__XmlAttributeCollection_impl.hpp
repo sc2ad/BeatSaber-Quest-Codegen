@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/zzzz__XmlNamedNodeMap_impl.hpp"
 #include "System/Xml/zzzz__XmlAttributeCollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Xml/zzzz__XmlAttribute_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 //  Writing Method size for method: System::Xml::XmlAttributeCollection._ctor
 template<>
 
@@ -371,8 +371,10 @@ return System::Collections::ICollection(::bs_hook::Il2CppWrapperType::instance);
 constexpr  System::Xml::XmlAttributeCollection::operator System::Collections::IEnumerable() const noexcept {
 return System::Collections::IEnumerable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }]
- System::Xml::XmlAttributeCollection::XmlAttributeCollection(System::Xml::XmlNode parent)  : System::Xml::XmlNamedNodeMap(THROW_UNLESS(::il2cpp_utils::New<XmlAttributeCollection>(parent))) {}
+ System::Xml::XmlAttributeCollection System::Xml::XmlAttributeCollection::New_ctor(System::Xml::XmlNode parent)  {
+System::Xml::XmlAttributeCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlAttributeCollection>(parent))};
+return o;
+}
  void System::Xml::XmlAttributeCollection::_ctor(System::Xml::XmlNode parent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlAttributeCollection>::get(),

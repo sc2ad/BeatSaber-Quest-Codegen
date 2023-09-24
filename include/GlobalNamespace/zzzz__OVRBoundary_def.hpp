@@ -5,15 +5,24 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRBoundary__Node;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRBoundary__BoundaryTestResult;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRBoundary__BoundaryType;
+}
+namespace GlobalNamespace {
+class OVRNativeBuffer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace GlobalNamespace {
-class OVRNativeBuffer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,6 +87,8 @@ __Head = 9,
 constexpr operator __GlobalNamespace__OVRBoundary__Node_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRBoundary__Node_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -150,6 +161,8 @@ __PlayArea = 256,
 constexpr operator __GlobalNamespace__OVRBoundary__BoundaryType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRBoundary__BoundaryType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -337,8 +350,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> __get_cache
 /// @brief Method SetVisible addr 0x25a9a78 size 0x9c virtual false final false
  void SetVisible(bool value) ;
 
-// Ctor Parameters []
-explicit OVRBoundary() ;
+static GlobalNamespace::OVRBoundary New_ctor() ;
 
 /// @brief Method .ctor addr 0x25a9b14 size 0x7c virtual false final false
  void _ctor() ;

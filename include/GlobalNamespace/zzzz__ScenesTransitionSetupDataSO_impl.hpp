@@ -2,13 +2,14 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10.MoveNext
 template<>
@@ -449,8 +450,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container);
 }
-// Ctor Parameters []
- GlobalNamespace::ScenesTransitionSetupDataSO::ScenesTransitionSetupDataSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<ScenesTransitionSetupDataSO>())) {}
+ GlobalNamespace::ScenesTransitionSetupDataSO GlobalNamespace::ScenesTransitionSetupDataSO::New_ctor()  {
+GlobalNamespace::ScenesTransitionSetupDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ScenesTransitionSetupDataSO>())};
+return o;
+}
  void GlobalNamespace::ScenesTransitionSetupDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ScenesTransitionSetupDataSO>::get(),

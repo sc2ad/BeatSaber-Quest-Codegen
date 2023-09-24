@@ -73,8 +73,7 @@ constexpr ::StringW __get_UserId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LinkedAccount(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::LinkedAccount New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x259fcac size 0x98 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

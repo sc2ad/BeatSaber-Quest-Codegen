@@ -3,11 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
@@ -15,26 +18,23 @@ class ISigner;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -193,8 +193,7 @@ static void AddEntries(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, ::Strin
 /// @brief Method GetEncOid addr 0x115eacc size 0x4e0 virtual false final false
  ::StringW GetEncOid(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, ::StringW digestOID) ;
 
-// Ctor Parameters []
-explicit CmsSignedHelper() ;
+static Org::BouncyCastle::Cms::CmsSignedHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x117425c size 0x8 virtual false final false
  void _ctor() ;

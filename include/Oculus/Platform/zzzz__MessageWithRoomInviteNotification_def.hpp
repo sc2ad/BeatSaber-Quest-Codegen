@@ -13,7 +13,7 @@ class MessageWithRoomInviteNotification;
 // Type: Oculus.Platform::MessageWithRoomInviteNotification
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 953 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13470))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 953 }), TypeDefinitionIndex(TypeDefinitionIndex(13470))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13276))
 // CS Name: Oculus.Platform.MessageWithRoomInviteNotification
 class CORDL_TYPE MessageWithRoomInviteNotification : public Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithRoomInviteNotification(void* ptr) noexcept : Oculu
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithRoomInviteNotification(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithRoomInviteNotification New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f138 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

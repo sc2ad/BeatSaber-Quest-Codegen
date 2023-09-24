@@ -1,9 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_TaskManager_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_TaskManager.Update
 template<>
 
@@ -273,8 +272,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, task);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_TaskManager::HEU_TaskManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_TaskManager>())) {}
+ HoudiniEngineUnity::HEU_TaskManager HoudiniEngineUnity::HEU_TaskManager::New_ctor()  {
+HoudiniEngineUnity::HEU_TaskManager o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_TaskManager>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_TaskManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_TaskManager>::get(),

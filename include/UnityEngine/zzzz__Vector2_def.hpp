@@ -9,14 +9,14 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace System {
 class IFormattable;
 }
 namespace System {
 class IFormatProvider;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -4,10 +4,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-struct ConsoleKey;
+struct ConsoleModifiers;
 }
 namespace System {
-struct ConsoleModifiers;
+struct ConsoleKey;
 }
 // Forward declare root types
 namespace System {

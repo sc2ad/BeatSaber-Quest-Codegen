@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
-#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::HashAlgorithm._ctor
 template<>
 
@@ -357,8 +357,10 @@ constexpr void System::Security::Cryptography::HashAlgorithm::__set_State(int32_
 constexpr int32_t System::Security::Cryptography::HashAlgorithm::__get_State() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::HashAlgorithm::HashAlgorithm()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HashAlgorithm>())) {}
+ System::Security::Cryptography::HashAlgorithm System::Security::Cryptography::HashAlgorithm::New_ctor()  {
+System::Security::Cryptography::HashAlgorithm o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::HashAlgorithm>())};
+return o;
+}
  void System::Security::Cryptography::HashAlgorithm::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::HashAlgorithm>::get(),

@@ -3,11 +3,11 @@
 #include "Zenject/zzzz__MemoryPool_2_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -24,7 +24,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10993)), TypeDefinitionIndex(TypeDefinitionIndex(10981)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10981), inst: 3362 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10981)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10981), inst: 3362 }), TypeDefinitionIndex(TypeDefinitionIndex(10993))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10993), inst: 80 })
 // CS Name: Zenject.MonoMemoryPool`2
 class CORDL_TYPE MonoMemoryPool_2<TParam1,TValue> : public Zenject::MemoryPool_2<TParam1,TValue> {
@@ -72,8 +72,7 @@ constexpr UnityEngine::Transform __get__originalParent() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoMemoryPool_2() ;
+static Zenject::MonoMemoryPool_2<TParam1,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

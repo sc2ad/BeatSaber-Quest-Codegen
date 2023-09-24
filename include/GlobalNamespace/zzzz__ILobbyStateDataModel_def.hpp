@@ -4,6 +4,9 @@
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
@@ -11,9 +14,6 @@ class IReadOnlyList_1;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace System {
 template<typename T>

@@ -1,22 +1,22 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BaseResultsEnvironmentController_impl.hpp"
 #include "GlobalNamespace/zzzz__BtsResultsEnvironmentController_def.hpp"
+#include "GlobalNamespace/zzzz__BtsResultsEnvironmentController_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacterDataModel_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__BTSCharacterDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__BTSCharacterDataModel_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AssetReference_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterResultAnimationController_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AssetReference_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation.get_name
 template<>
 
@@ -148,8 +148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, assetReference, btsCharacter, alternativeMaterial);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation>())) {}
+ GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation>::get(),
@@ -291,8 +293,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController
 constexpr GlobalNamespace::BtsResultsEnvironmentController GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BtsResultsEnvironmentController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11>::get(),
@@ -553,8 +557,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BtsResultsEnvironmentController::BtsResultsEnvironmentController()  : GlobalNamespace::BaseResultsEnvironmentController(THROW_UNLESS(::il2cpp_utils::New<BtsResultsEnvironmentController>())) {}
+ GlobalNamespace::BtsResultsEnvironmentController GlobalNamespace::BtsResultsEnvironmentController::New_ctor()  {
+GlobalNamespace::BtsResultsEnvironmentController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BtsResultsEnvironmentController>())};
+return o;
+}
  void GlobalNamespace::BtsResultsEnvironmentController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BtsResultsEnvironmentController>::get(),

@@ -4,36 +4,36 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace Tayx::Graphy {
-struct Tayx__Graphy__GraphyManager__ModulePosition;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine {
+class RectTransform;
 }
 namespace Tayx::Graphy::UI {
 class IMovable;
 }
-namespace Tayx::Graphy::UI {
-class IModifiableState;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace UnityEngine {
-class RectTransform;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace Tayx::Graphy::UI {
+class IModifiableState;
 }
 namespace Tayx::Graphy {
 struct Tayx__Graphy__GraphyManager__ModuleState;
 }
 namespace Tayx::Graphy {
-class GraphyManager;
+struct Tayx__Graphy__GraphyManager__ModulePosition;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Advanced {
@@ -216,8 +216,7 @@ constexpr ::ArrayW<::StringW> __get_m_windowStrings() const;
 /// @brief Method Init addr 0x2877f5c size 0xe78 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit G_AdvancedData() ;
+static Tayx::Graphy::Advanced::G_AdvancedData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2879058 size 0x23c virtual false final false
  void _ctor() ;

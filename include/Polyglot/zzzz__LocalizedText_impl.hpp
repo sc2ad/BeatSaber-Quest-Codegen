@@ -1,8 +1,8 @@
 #pragma once
 #include "Polyglot/zzzz__LocalizedTextComponent_1_impl.hpp"
 #include "Polyglot/zzzz__LocalizedText_def.hpp"
-#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
 //  Writing Method size for method: Polyglot::LocalizedText.SetText
 template<>
@@ -151,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, alignment);
 }
-// Ctor Parameters []
- Polyglot::LocalizedText::LocalizedText()  : Polyglot::LocalizedTextComponent_1<UnityEngine::UI::Text>(THROW_UNLESS(::il2cpp_utils::New<LocalizedText>())) {}
+ Polyglot::LocalizedText Polyglot::LocalizedText::New_ctor()  {
+Polyglot::LocalizedText o{THROW_UNLESS(::il2cpp_utils::New<Polyglot::LocalizedText>())};
+return o;
+}
  void Polyglot::LocalizedText::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Polyglot::LocalizedText>::get(),

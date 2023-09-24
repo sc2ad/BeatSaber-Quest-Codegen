@@ -2,6 +2,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
 }
@@ -9,13 +12,10 @@ namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -63,26 +63,22 @@ constexpr explicit JsonSerializationException(void* ptr) noexcept : Newtonsoft::
 
 // Methods
 
-// Ctor Parameters []
-explicit JsonSerializationException() ;
+static Newtonsoft::Json::JsonSerializationException New_ctor() ;
 
 /// @brief Method .ctor addr 0x24d8ee4 size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JsonSerializationException(::StringW message) ;
+static Newtonsoft::Json::JsonSerializationException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x24d8618 size 0x4 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit JsonSerializationException(::StringW message, System::Exception innerException) ;
+static Newtonsoft::Json::JsonSerializationException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x24d8ee8 size 0x4 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit JsonSerializationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static Newtonsoft::Json::JsonSerializationException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24d8eec size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

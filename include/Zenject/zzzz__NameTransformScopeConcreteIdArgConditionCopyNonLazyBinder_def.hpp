@@ -3,13 +3,13 @@
 #include "Zenject/zzzz__TransformScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace Zenject {
 class TransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -57,8 +57,7 @@ constexpr explicit NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "gameObjectInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
-explicit NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectInfo) ;
+static Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder New_ctor(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectInfo) ;
 
 /// @brief Method .ctor addr 0x2d52f14 size 0x28 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectInfo) ;

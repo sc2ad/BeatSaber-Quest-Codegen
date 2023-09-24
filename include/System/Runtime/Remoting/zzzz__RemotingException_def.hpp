@@ -6,10 +6,10 @@ namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -57,26 +57,22 @@ constexpr explicit RemotingException(void* ptr) noexcept : System::SystemExcepti
 
 // Methods
 
-// Ctor Parameters []
-explicit RemotingException() ;
+static System::Runtime::Remoting::RemotingException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2322704 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RemotingException(::StringW message) ;
+static System::Runtime::Remoting::RemotingException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2319c88 size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit RemotingException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::Remoting::RemotingException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x232270c size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "InnerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit RemotingException(::StringW message, System::Exception InnerException) ;
+static System::Runtime::Remoting::RemotingException New_ctor(::StringW message, System::Exception InnerException) ;
 
 /// @brief Method .ctor addr 0x23204dc size 0x8 virtual false final false
  void _ctor(::StringW message, System::Exception InnerException) ;

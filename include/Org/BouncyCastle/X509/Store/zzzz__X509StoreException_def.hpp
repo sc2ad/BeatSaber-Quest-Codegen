@@ -51,20 +51,17 @@ constexpr explicit X509StoreException(void* ptr) noexcept : System::Exception(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit X509StoreException() ;
+static Org::BouncyCastle::X509::Store::X509StoreException New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e4f2c size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit X509StoreException(::StringW message) ;
+static Org::BouncyCastle::X509::Store::X509StoreException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x10e4f84 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit X509StoreException(::StringW message, System::Exception e) ;
+static Org::BouncyCastle::X509::Store::X509StoreException New_ctor(::StringW message, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x10e4fec size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception e) ;

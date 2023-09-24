@@ -5,11 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {
@@ -90,14 +90,12 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_x() const;
 /// @brief Method CalculateResidue addr 0xfbfc94 size 0x124 virtual false final false
 static Org::BouncyCastle::Math::BigInteger CalculateResidue(Org::BouncyCastle::Math::BigInteger p) ;
 
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit FpFieldElement(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger x) ;
+static Org::BouncyCastle::Math::EC::FpFieldElement New_ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method .ctor addr 0xfc1508 size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger x) ;
 
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "r", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit FpFieldElement(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::BigInteger x) ;
+static Org::BouncyCastle::Math::EC::FpFieldElement New_ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method .ctor addr 0xfc0068 size 0xbc virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::BigInteger x) ;

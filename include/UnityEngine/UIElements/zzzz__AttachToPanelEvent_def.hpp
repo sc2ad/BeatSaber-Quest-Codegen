@@ -47,8 +47,7 @@ constexpr explicit AttachToPanelEvent(void* ptr) noexcept : UnityEngine::UIEleme
 
 // Methods
 
-// Ctor Parameters []
-explicit AttachToPanelEvent() ;
+static UnityEngine::UIElements::AttachToPanelEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdb924 size 0x48 virtual false final false
  void _ctor() ;

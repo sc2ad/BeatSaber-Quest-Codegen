@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__SM2KeyExchange_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__SM2KeyExchangePublicParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__SM2KeyExchangePublicParameters_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange._ctor
 template<>
 
@@ -300,8 +300,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__set_mInit
 constexpr bool Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__get_mInitiator() const {
 return ::cordl_internals::getInstanceField<bool, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::SM2KeyExchange()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM2KeyExchange>())) {}
+ Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::New_ctor()  {
+Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange>::get(),
@@ -311,8 +313,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::SM2KeyExchange(Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM2KeyExchange>(digest))) {}
+ Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange>::get(),

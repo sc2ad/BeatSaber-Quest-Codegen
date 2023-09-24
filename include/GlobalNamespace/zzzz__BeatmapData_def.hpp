@@ -6,62 +6,69 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class BeatmapObjectData;
+template<typename T>
+class GlobalNamespace__BeatmapData____c__DisplayClass45_0_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
-}
-namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedList_1;
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace GlobalNamespace {
-class BeatmapObjectsInTimeRowProcessor;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
-}
 namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-template<typename T>
-class ISortedList_1;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
 }
 namespace GlobalNamespace {
+template<typename T>
+class ISortedList_1;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem;
+}
+namespace GlobalNamespace {
 template<typename TBase>
 class BeatmapDataSortedListForTypeAndIds_1;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace GlobalNamespace {
+class BeatmapObjectsInTimeRowProcessor;
+}
+namespace GlobalNamespace {
+class BeatmapObjectData;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedList_1;
 }
 namespace System {
 template<typename T>
@@ -136,8 +143,7 @@ constexpr System::Collections::Generic::LinkedListNode_1<GlobalNamespace::Beatma
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "node", ty: "System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> node) ;
+static GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem New_ctor(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> node) ;
 
 /// @brief Method .ctor addr 0x21ca5e0 size 0x28 virtual false final false
  void _ctor(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> node) ;
@@ -369,8 +375,7 @@ constexpr bool __get__isCreatingFilteredCopy() const;
 /// @brief Method remove_beatmapEventDataWasRemovedEvent addr 0x21c9e24 size 0xb0 virtual true final true
  void remove_beatmapEventDataWasRemovedEvent(System::Action_1<GlobalNamespace::BeatmapEventData> value) ;
 
-// Ctor Parameters [CppParam { name: "numberOfLines", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BeatmapData(int32_t numberOfLines) ;
+static GlobalNamespace::BeatmapData New_ctor(int32_t numberOfLines) ;
 
 /// @brief Method .ctor addr 0x21b938c size 0x194 virtual false final false
  void _ctor(int32_t numberOfLines) ;
@@ -481,8 +486,7 @@ constexpr ::ArrayW<int32_t> __get_subtypeGroupIdentifiers() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapData____c__DisplayClass45_0_1() ;
+static GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

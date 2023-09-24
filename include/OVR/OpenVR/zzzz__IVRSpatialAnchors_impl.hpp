@@ -8,6 +8,7 @@
 #include "OVR/OpenVR/zzzz__SpatialAnchorPose_t_def.hpp"
 #include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRSpatialAnchors_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor._ctor
 template<>
 
@@ -76,8 +77,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromDescriptor>::get(),
@@ -182,8 +185,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___CreateSpatialAnchorFromPose>::get(),
@@ -288,8 +293,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorPose>::get(),
@@ -394,8 +401,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRSpatialAnchors___GetSpatialAnchorDescriptor>::get(),

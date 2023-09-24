@@ -56,8 +56,7 @@ constexpr explicit NafL2RMultiplier(void* ptr) noexcept : Org::BouncyCastle::Mat
 /// @brief Method MultiplyPositive addr 0xfaa22c size 0x148 virtual true final false
  Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
-// Ctor Parameters []
-explicit NafL2RMultiplier() ;
+static Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0xfaa374 size 0x8 virtual false final false
  void _ctor() ;

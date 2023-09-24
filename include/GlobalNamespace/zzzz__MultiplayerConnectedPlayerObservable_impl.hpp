@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObservable_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerConnectedPlayerObservable._ctor
 template<>
 
@@ -63,8 +63,10 @@ constexpr void GlobalNamespace::MultiplayerConnectedPlayerObservable::__set__con
 constexpr GlobalNamespace::IConnectedPlayer GlobalNamespace::MultiplayerConnectedPlayerObservable::__get__connectedPlayer() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IConnectedPlayer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "connectedPlayer", ty: "GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }]
- GlobalNamespace::MultiplayerConnectedPlayerObservable::MultiplayerConnectedPlayerObservable(GlobalNamespace::IConnectedPlayer connectedPlayer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConnectedPlayerObservable>(connectedPlayer))) {}
+ GlobalNamespace::MultiplayerConnectedPlayerObservable GlobalNamespace::MultiplayerConnectedPlayerObservable::New_ctor(GlobalNamespace::IConnectedPlayer connectedPlayer)  {
+GlobalNamespace::MultiplayerConnectedPlayerObservable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConnectedPlayerObservable>(connectedPlayer))};
+return o;
+}
  void GlobalNamespace::MultiplayerConnectedPlayerObservable::_ctor(GlobalNamespace::IConnectedPlayer connectedPlayer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConnectedPlayerObservable>::get(),

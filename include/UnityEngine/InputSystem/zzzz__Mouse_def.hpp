@@ -2,13 +2,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Pointer_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateCallbackReceiver;
@@ -17,7 +11,13 @@ namespace UnityEngine::InputSystem::Controls {
 class DeltaControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class IntegerControl;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -219,8 +219,7 @@ static void set_current(UnityEngine::InputSystem::Mouse value) ;
 /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnStateEvent addr 0x28dbaec size 0x4 virtual true final true
  void UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_OnStateEvent(UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
 
-// Ctor Parameters []
-explicit Mouse() ;
+static UnityEngine::InputSystem::Mouse New_ctor() ;
 
 /// @brief Method .ctor addr 0x28dbaf0 size 0x2c virtual false final false
  void _ctor() ;

@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
- GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::MockPlayerLobbyPoseGeneratorRecording(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  : GlobalNamespace::MockPlayerLobbyPoseGenerator(THROW_UNLESS(::il2cpp_utils::New<MockPlayerLobbyPoseGeneratorRecording>(multiplayerSessionManager))) {}
+ GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  {
+GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording>(multiplayerSessionManager))};
+return o;
+}
  void GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording>::get(),

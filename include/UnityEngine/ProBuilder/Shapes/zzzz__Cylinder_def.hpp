@@ -2,8 +2,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include <cstdint>
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -11,11 +11,11 @@ struct Quaternion;
 namespace UnityEngine {
 struct Bounds;
 }
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -93,8 +93,7 @@ constexpr bool __get_m_Smooth() const;
 /// @brief Method RebuildMesh addr 0x29f3460 size 0xbfc virtual true final false
  UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit Cylinder() ;
+static UnityEngine::ProBuilder::Shapes::Cylinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f405c size 0x18 virtual false final false
  void _ctor() ;

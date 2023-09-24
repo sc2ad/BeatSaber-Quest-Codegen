@@ -5,33 +5,45 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine {
 class AudioClip;
-}
-namespace GlobalNamespace {
-class MultiplayerIntroCountdownTextController;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class MultiplayerOffsetPositionByLocalPlayerPosition;
+class MultiplayerIntroCountdownTextController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 namespace Tweening {
 class TimeTweeningManager;
 }
-namespace UnityEngine {
-class AudioSource;
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25;
+}
+namespace GlobalNamespace {
+class MultiplayerOffsetPositionByLocalPlayerPosition;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -152,8 +164,7 @@ constexpr float_t __get__soundDelayAfterText_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20f9944 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -268,8 +279,7 @@ constexpr UnityEngine::AudioClip __get_audioClip() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20f99f0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -350,8 +360,7 @@ constexpr GlobalNamespace::MultiplayerIntroCountdown __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f9fe0 size 0x8 virtual false final false
  void _ctor() ;
@@ -478,8 +487,7 @@ constexpr GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__Disp
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20f9aa0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -690,8 +698,7 @@ constexpr float_t __get__alpha() const;
 /// @brief Method PhaseRoutine addr 0x20f9a18 size 0x88 virtual false final false
  System::Collections::IEnumerator PhaseRoutine(::StringW text, float_t appearDuration, float_t disappearDuration) ;
 
-// Ctor Parameters []
-explicit MultiplayerIntroCountdown() ;
+static GlobalNamespace::MultiplayerIntroCountdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f9ac8 size 0x80 virtual false final false
  void _ctor() ;

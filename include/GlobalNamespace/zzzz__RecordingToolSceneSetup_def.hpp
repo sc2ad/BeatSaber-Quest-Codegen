@@ -62,8 +62,7 @@ constexpr GlobalNamespace::RecordingToolSceneSetupData __get__sceneSetupData() c
 /// @brief Method InstallBindings addr 0x21b6968 size 0xc4 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit RecordingToolSceneSetup() ;
+static GlobalNamespace::RecordingToolSceneSetup New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b6a2c size 0x8 virtual false final false
  void _ctor() ;

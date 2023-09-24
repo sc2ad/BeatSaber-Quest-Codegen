@@ -2,20 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace HMUI {
-class ToggleBinder;
-}
 namespace UnityEngine::UI {
 class Toggle;
 }
 namespace GlobalNamespace {
-class INetworkPlayerModel;
+class LocalNetworkPlayerModel;
+}
+namespace HMUI {
+class ToggleBinder;
 }
 namespace GlobalNamespace {
 class INetworkConfig;
 }
 namespace GlobalNamespace {
-class LocalNetworkPlayerModel;
+class INetworkPlayerModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -144,8 +144,7 @@ constexpr bool __get__allowAnyoneToJoin() const;
 /// @brief Method RefreshParty addr 0x2171b8c size 0x1a8 virtual false final false
  void RefreshParty(bool overrideHide) ;
 
-// Ctor Parameters []
-explicit LocalNetworkPlayersViewController() ;
+static GlobalNamespace::LocalNetworkPlayersViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2171d94 size 0x8 virtual false final false
  void _ctor() ;

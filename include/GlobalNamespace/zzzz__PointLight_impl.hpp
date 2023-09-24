@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PointLight_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PointLight.get_lights
 template<>
 
@@ -116,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PointLight::PointLight()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PointLight>())) {}
+ GlobalNamespace::PointLight GlobalNamespace::PointLight::New_ctor()  {
+GlobalNamespace::PointLight o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PointLight>())};
+return o;
+}
  void GlobalNamespace::PointLight::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PointLight>::get(),

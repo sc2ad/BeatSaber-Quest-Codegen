@@ -3,19 +3,20 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferMesh_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_BaseSync_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferInstancer_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GenerateOptions_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferMesh_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferInstancer_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolume_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GenerateOptions_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolume_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
@@ -97,8 +98,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__
 constexpr System::Collections::Generic::Dictionary_2<int32_t,HoudiniEngineUnity::HEU_LoadBufferBase> HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData::__get__idBuffersMap() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<int32_t,HoudiniEngineUnity::HEU_LoadBufferBase>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData>::get(),
@@ -155,8 +158,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__
 constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer> HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::__get__instancerBuffers() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject>::get(),
@@ -245,8 +250,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback>(object, method))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback>(object, method))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback>::get(),
@@ -1226,8 +1233,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<HoudiniEngineUnity::HEU_LoadBufferVolume, false>(nullptr, ___internal_method, tileIndex, buffers);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_ThreadedTaskLoadGeo()  : HoudiniEngineUnity::HEU_ThreadedTask(THROW_UNLESS(::il2cpp_utils::New<HEU_ThreadedTaskLoadGeo>())) {}
+ HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::New_ctor()  {
+HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo>::get(),

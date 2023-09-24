@@ -1,10 +1,10 @@
 #pragma once
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONBool_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
 //  Writing Method size for method: OVRSimpleJSON::JSONBool.get_Tag
 template<>
 
@@ -278,8 +278,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "aData", ty: "bool", modifiers: "", def_value: None }]
- OVRSimpleJSON::JSONBool::JSONBool(bool aData)  : OVRSimpleJSON::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONBool>(aData))) {}
+ OVRSimpleJSON::JSONBool OVRSimpleJSON::JSONBool::New_ctor(bool aData)  {
+OVRSimpleJSON::JSONBool o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::JSONBool>(aData))};
+return o;
+}
  void OVRSimpleJSON::JSONBool::_ctor(bool aData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::JSONBool>::get(),
@@ -289,8 +291,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, aData);
 }
-// Ctor Parameters [CppParam { name: "aData", ty: "::StringW", modifiers: "", def_value: None }]
- OVRSimpleJSON::JSONBool::JSONBool(::StringW aData)  : OVRSimpleJSON::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONBool>(aData))) {}
+ OVRSimpleJSON::JSONBool OVRSimpleJSON::JSONBool::New_ctor(::StringW aData)  {
+OVRSimpleJSON::JSONBool o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::JSONBool>(aData))};
+return o;
+}
  void OVRSimpleJSON::JSONBool::_ctor(::StringW aData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::JSONBool>::get(),

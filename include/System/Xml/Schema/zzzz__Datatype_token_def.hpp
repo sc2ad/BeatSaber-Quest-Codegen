@@ -66,8 +66,7 @@ constexpr explicit Datatype_token(void* ptr) noexcept : System::Xml::Schema::Dat
 /// @brief Method get_BuiltInWhitespaceFacet addr 0x2727d0c size 0x8 virtual true final false
  System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() ;
 
-// Ctor Parameters []
-explicit Datatype_token() ;
+static System::Xml::Schema::Datatype_token New_ctor() ;
 
 /// @brief Method .ctor addr 0x2727d14 size 0x4 virtual false final false
  void _ctor() ;

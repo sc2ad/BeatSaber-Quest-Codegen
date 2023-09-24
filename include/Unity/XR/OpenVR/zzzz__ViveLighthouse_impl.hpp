@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Unity::XR::OpenVR::ViveLighthouse::ViveLighthouse()  : UnityEngine::InputSystem::TrackedDevice(THROW_UNLESS(::il2cpp_utils::New<ViveLighthouse>())) {}
+ Unity::XR::OpenVR::ViveLighthouse Unity::XR::OpenVR::ViveLighthouse::New_ctor()  {
+Unity::XR::OpenVR::ViveLighthouse o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::OpenVR::ViveLighthouse>())};
+return o;
+}
  void Unity::XR::OpenVR::ViveLighthouse::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::OpenVR::ViveLighthouse>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupProcessor_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapEventDataBoxGroupProcessor.get_dirtyBoxGroups
@@ -136,8 +136,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapEventDataBoxGroupProcessor::BeatmapEventDataBoxGroupProcessor()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapEventDataBoxGroupProcessor>())) {}
+ GlobalNamespace::BeatmapEventDataBoxGroupProcessor GlobalNamespace::BeatmapEventDataBoxGroupProcessor::New_ctor()  {
+GlobalNamespace::BeatmapEventDataBoxGroupProcessor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapEventDataBoxGroupProcessor>())};
+return o;
+}
  void GlobalNamespace::BeatmapEventDataBoxGroupProcessor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapEventDataBoxGroupProcessor>::get(),

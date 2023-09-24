@@ -5,18 +5,12 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::TextCore {
-struct FaceInfo;
-}
-namespace TMPro {
-class TMP_Sprite;
-}
 namespace UnityEngine {
 class Texture;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template<typename T>
+class List_1;
 }
 namespace TMPro {
 class TMP_SpriteCharacter;
@@ -28,12 +22,21 @@ class HashSet_1;
 namespace UnityEngine {
 class Material;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace TMPro {
 class TMP_SpriteGlyph;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::TextCore {
+struct FaceInfo;
+}
+namespace TMPro {
+class TMP_Sprite;
+}
+namespace TMPro {
+class TMPro__TMP_SpriteAsset____c;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -109,8 +112,7 @@ static System::Func_2<TMPro::TMP_SpriteCharacter,uint32_t> __get___9__41_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_SpriteAsset____c() ;
+static TMPro::TMPro__TMP_SpriteAsset____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aace84 size 0x8 virtual false final false
  void _ctor() ;
@@ -341,8 +343,7 @@ static TMPro::TMP_SpriteAsset SearchForSpriteByHashCodeInternal(TMPro::TMP_Sprit
 /// @brief Method UpgradeSpriteAsset addr 0x2aab82c size 0x53c virtual false final false
  void UpgradeSpriteAsset() ;
 
-// Ctor Parameters []
-explicit TMP_SpriteAsset() ;
+static TMPro::TMP_SpriteAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aacd60 size 0xc0 virtual false final false
  void _ctor() ;

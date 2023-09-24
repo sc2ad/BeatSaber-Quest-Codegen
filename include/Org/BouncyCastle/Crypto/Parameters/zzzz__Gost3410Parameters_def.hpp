@@ -98,14 +98,12 @@ constexpr Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters __
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit Gost3410Parameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a) ;
+static Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a) ;
 
 /// @brief Method .ctor addr 0xea8e54 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "validation", ty: "Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters", modifiers: "", def_value: None }]
-explicit Gost3410Parameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters validation) ;
+static Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters validation) ;
 
 /// @brief Method .ctor addr 0xea904c size 0xe0 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters validation) ;

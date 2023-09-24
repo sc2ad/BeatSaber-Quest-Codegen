@@ -7,11 +7,11 @@
 namespace System {
 class IAsyncResult;
 }
-namespace System {
-class AsyncCallback;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -59,8 +59,7 @@ constexpr explicit InputDeviceExecuteCommandDelegate(void* ptr) noexcept : Syste
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit InputDeviceExecuteCommandDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2954eec size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

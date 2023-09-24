@@ -2,17 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedGenerator_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
+namespace Org::BouncyCastle::Crypto {
+class CipherKeyGenerator;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsAuthenticatedData;
+class CmsProcessable;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
+namespace Org::BouncyCastle::Cms {
+class CmsAuthenticatedData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -60,14 +60,12 @@ constexpr explicit CmsAuthenticatedDataGenerator(void* ptr) noexcept : Org::Boun
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsAuthenticatedDataGenerator() ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x114f698 size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit CmsAuthenticatedDataGenerator(Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator New_ctor(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x114f69c size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom rand) ;

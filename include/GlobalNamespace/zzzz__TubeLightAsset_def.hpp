@@ -1,8 +1,8 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-namespace GlobalNamespace {
-class TubeLightBehaviour;
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
@@ -10,8 +10,8 @@ class ITimelineClipAsset;
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::Playables {
-struct Playable;
+namespace GlobalNamespace {
+class TubeLightBehaviour;
 }
 namespace UnityEngine::Timeline {
 struct ClipCaps;
@@ -88,8 +88,7 @@ constexpr GlobalNamespace::TubeLightBehaviour __get__template() const;
 /// @brief Method CreatePlayable addr 0x21b3218 size 0xa8 virtual true final false
  UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
-// Ctor Parameters []
-explicit TubeLightAsset() ;
+static GlobalNamespace::TubeLightAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b32c0 size 0x8 virtual false final false
  void _ctor() ;

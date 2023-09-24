@@ -4,15 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class Material;
+namespace GlobalNamespace {
+class GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs;
 }
 namespace UnityEngine {
-class Renderer;
+class Material;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+class Renderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +100,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 /// @brief Method get_materialPairs addr 0x20a7284 size 0x8 virtual false final false
  System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs> get_materialPairs() ;
 
-// Ctor Parameters [CppParam { name: "renderer", ty: "UnityEngine::Renderer", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs(UnityEngine::Renderer renderer) ;
+static GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs New_ctor(UnityEngine::Renderer renderer) ;
 
 /// @brief Method .ctor addr 0x20a728c size 0x90 virtual false final false
  void _ctor(UnityEngine::Renderer renderer) ;
@@ -167,8 +172,7 @@ constexpr UnityEngine::Material __get_alternativeMaterial() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs() ;
+static GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a731c size 0x8 virtual false final false
  void _ctor() ;
@@ -235,8 +239,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitche
 /// @brief Method SwapMaterials addr 0x20a6fd0 size 0x254 virtual false final false
  void SwapMaterials(bool alternative) ;
 
-// Ctor Parameters []
-explicit BTSCharacterMaterialSwitcher() ;
+static GlobalNamespace::BTSCharacterMaterialSwitcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a7274 size 0x8 virtual false final false
  void _ctor() ;

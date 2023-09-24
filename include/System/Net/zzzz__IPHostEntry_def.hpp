@@ -103,8 +103,7 @@ constexpr bool __get_isTrustedHost() const;
 /// @brief Method set_AddressList addr 0x280c03c size 0x8 virtual false final false
  void set_AddressList(::ArrayW<System::Net::IPAddress> value) ;
 
-// Ctor Parameters []
-explicit IPHostEntry() ;
+static System::Net::IPHostEntry New_ctor() ;
 
 /// @brief Method .ctor addr 0x280c044 size 0x10 virtual false final false
  void _ctor() ;

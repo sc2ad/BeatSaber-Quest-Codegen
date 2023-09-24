@@ -5,22 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class PolicyInformation;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -89,20 +89,17 @@ static Org::BouncyCastle::Asn1::X509::CertificatePolicies GetInstance(Org::Bounc
 /// @brief Method FromExtensions addr 0xffa86c size 0x68 virtual false final false
 static Org::BouncyCastle::Asn1::X509::CertificatePolicies FromExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::PolicyInformation", modifiers: "", def_value: None }]
-explicit CertificatePolicies(Org::BouncyCastle::Asn1::X509::PolicyInformation name) ;
+static Org::BouncyCastle::Asn1::X509::CertificatePolicies New_ctor(Org::BouncyCastle::Asn1::X509::PolicyInformation name) ;
 
 /// @brief Method .ctor addr 0xffa8d4 size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::PolicyInformation name) ;
 
-// Ctor Parameters [CppParam { name: "policyInformation", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation>", modifiers: "", def_value: None }]
-explicit CertificatePolicies(::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation> policyInformation) ;
+static Org::BouncyCastle::Asn1::X509::CertificatePolicies New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation> policyInformation) ;
 
 /// @brief Method .ctor addr 0xffa97c size 0x30 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation> policyInformation) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertificatePolicies(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::CertificatePolicies New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xffa728 size 0x12c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

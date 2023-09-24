@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Zenject::DefaultGameObjectKernel::DefaultGameObjectKernel()  : Zenject::MonoKernel(THROW_UNLESS(::il2cpp_utils::New<DefaultGameObjectKernel>())) {}
+ Zenject::DefaultGameObjectKernel Zenject::DefaultGameObjectKernel::New_ctor()  {
+Zenject::DefaultGameObjectKernel o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DefaultGameObjectKernel>())};
+return o;
+}
  void Zenject::DefaultGameObjectKernel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DefaultGameObjectKernel>::get(),

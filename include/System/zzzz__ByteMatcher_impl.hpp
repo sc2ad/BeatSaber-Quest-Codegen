@@ -1,7 +1,7 @@
 #pragma once
 #include "System/zzzz__ByteMatcher_def.hpp"
-#include "System/zzzz__TermInfoStrings_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/zzzz__TermInfoStrings_def.hpp"
 //  Writing Method size for method: System::ByteMatcher.AddMapping
 template<>
 
@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::TermInfoStrings, false>(const_cast<void*>(instance), ___internal_method, buffer, offset, length, used);
 }
-// Ctor Parameters []
- System::ByteMatcher::ByteMatcher()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ByteMatcher>())) {}
+ System::ByteMatcher System::ByteMatcher::New_ctor()  {
+System::ByteMatcher o{THROW_UNLESS(::il2cpp_utils::New<System::ByteMatcher>())};
+return o;
+}
  void System::ByteMatcher::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ByteMatcher>::get(),

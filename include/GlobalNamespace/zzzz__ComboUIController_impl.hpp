@@ -233,8 +233,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ComboUIController::ComboUIController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ComboUIController>())) {}
+ GlobalNamespace::ComboUIController GlobalNamespace::ComboUIController::New_ctor()  {
+GlobalNamespace::ComboUIController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ComboUIController>())};
+return o;
+}
  void GlobalNamespace::ComboUIController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ComboUIController>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Sphere_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Shapes::Sphere.CopyShape
 template<>
 
@@ -157,8 +157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<UnityEngine::Vector3>, false>(nullptr, ___internal_method, vertices, radius);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Shapes::Sphere::Sphere()  : UnityEngine::ProBuilder::Shapes::Shape(THROW_UNLESS(::il2cpp_utils::New<Sphere>())) {}
+ UnityEngine::ProBuilder::Shapes::Sphere UnityEngine::ProBuilder::Shapes::Sphere::New_ctor()  {
+UnityEngine::ProBuilder::Shapes::Sphere o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Shapes::Sphere>())};
+return o;
+}
  void UnityEngine::ProBuilder::Shapes::Sphere::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Shapes::Sphere>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
-}
 namespace UnityEngine::XR {
 struct XRNode;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

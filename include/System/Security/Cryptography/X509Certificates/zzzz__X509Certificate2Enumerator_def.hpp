@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections {
-class IEnumerator;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2Collection;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -75,8 +75,7 @@ constexpr System::Collections::IEnumerator __get_enumerator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collection", ty: "System::Security::Cryptography::X509Certificates::X509Certificate2Collection", modifiers: "", def_value: None }]
-explicit X509Certificate2Enumerator(System::Security::Cryptography::X509Certificates::X509Certificate2Collection collection) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection collection) ;
 
 /// @brief Method .ctor addr 0x27ea688 size 0xb4 virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection collection) ;

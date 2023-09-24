@@ -307,8 +307,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GameplayModifierParamsSO::GameplayModifierParamsSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<GameplayModifierParamsSO>())) {}
+ GlobalNamespace::GameplayModifierParamsSO GlobalNamespace::GameplayModifierParamsSO::New_ctor()  {
+GlobalNamespace::GameplayModifierParamsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayModifierParamsSO>())};
+return o;
+}
  void GlobalNamespace::GameplayModifierParamsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplayModifierParamsSO>::get(),

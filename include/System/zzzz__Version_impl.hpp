@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Version_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__ISpanFormattable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: System::Version._ctor
 template<>
 
@@ -597,8 +597,10 @@ constexpr void System::Version::__set__Revision(int32_t value)  {
 constexpr int32_t System::Version::__get__Revision() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "major", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "int32_t", modifiers: "", def_value: None }]
- System::Version::Version(int32_t major, int32_t minor, int32_t build, int32_t revision)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Version>(major, minor, build, revision))) {}
+ System::Version System::Version::New_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision)  {
+System::Version o{THROW_UNLESS(::il2cpp_utils::New<System::Version>(major, minor, build, revision))};
+return o;
+}
  void System::Version::_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Version>::get(),
@@ -608,8 +610,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, major, minor, build, revision);
 }
-// Ctor Parameters [CppParam { name: "major", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "int32_t", modifiers: "", def_value: None }]
- System::Version::Version(int32_t major, int32_t minor, int32_t build)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Version>(major, minor, build))) {}
+ System::Version System::Version::New_ctor(int32_t major, int32_t minor, int32_t build)  {
+System::Version o{THROW_UNLESS(::il2cpp_utils::New<System::Version>(major, minor, build))};
+return o;
+}
  void System::Version::_ctor(int32_t major, int32_t minor, int32_t build)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Version>::get(),
@@ -619,8 +623,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, major, minor, build);
 }
-// Ctor Parameters [CppParam { name: "major", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "int32_t", modifiers: "", def_value: None }]
- System::Version::Version(int32_t major, int32_t minor)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Version>(major, minor))) {}
+ System::Version System::Version::New_ctor(int32_t major, int32_t minor)  {
+System::Version o{THROW_UNLESS(::il2cpp_utils::New<System::Version>(major, minor))};
+return o;
+}
  void System::Version::_ctor(int32_t major, int32_t minor)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Version>::get(),
@@ -630,8 +636,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, major, minor);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }]
- System::Version::Version(::StringW version)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Version>(version))) {}
+ System::Version System::Version::New_ctor(::StringW version)  {
+System::Version o{THROW_UNLESS(::il2cpp_utils::New<System::Version>(version))};
+return o;
+}
  void System::Version::_ctor(::StringW version)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Version>::get(),
@@ -641,8 +649,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, version);
 }
-// Ctor Parameters []
- System::Version::Version()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Version>())) {}
+ System::Version System::Version::New_ctor()  {
+System::Version o{THROW_UNLESS(::il2cpp_utils::New<System::Version>())};
+return o;
+}
  void System::Version::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Version>::get(),
@@ -652,8 +662,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "System::Version", modifiers: "", def_value: None }]
- System::Version::Version(System::Version version)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Version>(version))) {}
+ System::Version System::Version::New_ctor(System::Version version)  {
+System::Version o{THROW_UNLESS(::il2cpp_utils::New<System::Version>(version))};
+return o;
+}
  void System::Version::_ctor(System::Version version)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Version>::get(),

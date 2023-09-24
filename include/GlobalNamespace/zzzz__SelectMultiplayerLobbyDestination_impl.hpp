@@ -64,8 +64,10 @@ constexpr void GlobalNamespace::SelectMultiplayerLobbyDestination::__set_lobbyCo
 constexpr ::StringW GlobalNamespace::SelectMultiplayerLobbyDestination::__get_lobbyCode() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "lobbySecret", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lobbyCode", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::SelectMultiplayerLobbyDestination::SelectMultiplayerLobbyDestination(::StringW lobbySecret, ::StringW lobbyCode)  : GlobalNamespace::MenuDestination(THROW_UNLESS(::il2cpp_utils::New<SelectMultiplayerLobbyDestination>(lobbySecret, lobbyCode))) {}
+ GlobalNamespace::SelectMultiplayerLobbyDestination GlobalNamespace::SelectMultiplayerLobbyDestination::New_ctor(::StringW lobbySecret, ::StringW lobbyCode)  {
+GlobalNamespace::SelectMultiplayerLobbyDestination o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectMultiplayerLobbyDestination>(lobbySecret, lobbyCode))};
+return o;
+}
  void GlobalNamespace::SelectMultiplayerLobbyDestination::_ctor(::StringW lobbySecret, ::StringW lobbyCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectMultiplayerLobbyDestination>::get(),
@@ -75,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, lobbySecret, lobbyCode);
 }
-// Ctor Parameters [CppParam { name: "roomId", ty: "uint64_t", modifiers: "", def_value: None }]
- GlobalNamespace::SelectMultiplayerLobbyDestination::SelectMultiplayerLobbyDestination(uint64_t roomId)  : GlobalNamespace::MenuDestination(THROW_UNLESS(::il2cpp_utils::New<SelectMultiplayerLobbyDestination>(roomId))) {}
+ GlobalNamespace::SelectMultiplayerLobbyDestination GlobalNamespace::SelectMultiplayerLobbyDestination::New_ctor(uint64_t roomId)  {
+GlobalNamespace::SelectMultiplayerLobbyDestination o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectMultiplayerLobbyDestination>(roomId))};
+return o;
+}
  void GlobalNamespace::SelectMultiplayerLobbyDestination::_ctor(uint64_t roomId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectMultiplayerLobbyDestination>::get(),
@@ -86,8 +90,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, roomId);
 }
-// Ctor Parameters [CppParam { name: "lobbyCode", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::SelectMultiplayerLobbyDestination::SelectMultiplayerLobbyDestination(::StringW lobbyCode)  : GlobalNamespace::MenuDestination(THROW_UNLESS(::il2cpp_utils::New<SelectMultiplayerLobbyDestination>(lobbyCode))) {}
+ GlobalNamespace::SelectMultiplayerLobbyDestination GlobalNamespace::SelectMultiplayerLobbyDestination::New_ctor(::StringW lobbyCode)  {
+GlobalNamespace::SelectMultiplayerLobbyDestination o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectMultiplayerLobbyDestination>(lobbyCode))};
+return o;
+}
  void GlobalNamespace::SelectMultiplayerLobbyDestination::_ctor(::StringW lobbyCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectMultiplayerLobbyDestination>::get(),

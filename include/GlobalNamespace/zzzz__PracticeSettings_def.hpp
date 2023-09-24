@@ -104,20 +104,17 @@ static GlobalNamespace::PracticeSettings __declspec(property(get=get_defaultPrac
 /// @brief Method get_defaultPracticeSettings addr 0x2229a58 size 0x74 virtual false final false
 static GlobalNamespace::PracticeSettings get_defaultPracticeSettings() ;
 
-// Ctor Parameters []
-explicit PracticeSettings() ;
+static GlobalNamespace::PracticeSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2226768 size 0x38 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "practiceSettings", ty: "GlobalNamespace::PracticeSettings", modifiers: "", def_value: None }]
-explicit PracticeSettings(GlobalNamespace::PracticeSettings practiceSettings) ;
+static GlobalNamespace::PracticeSettings New_ctor(GlobalNamespace::PracticeSettings practiceSettings) ;
 
 /// @brief Method .ctor addr 0x2229ae4 size 0x40 virtual false final false
  void _ctor(GlobalNamespace::PracticeSettings practiceSettings) ;
 
-// Ctor Parameters [CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songSpeedMul", ty: "float_t", modifiers: "", def_value: None }]
-explicit PracticeSettings(float_t startSongTime, float_t songSpeedMul) ;
+static GlobalNamespace::PracticeSettings New_ctor(float_t startSongTime, float_t songSpeedMul) ;
 
 /// @brief Method .ctor addr 0x2225cdc size 0x40 virtual false final false
  void _ctor(float_t startSongTime, float_t songSpeedMul) ;

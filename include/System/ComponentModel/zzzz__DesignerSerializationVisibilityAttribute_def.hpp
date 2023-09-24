@@ -90,8 +90,7 @@ constexpr System::ComponentModel::DesignerSerializationVisibility __get__Visibil
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "visibility", ty: "System::ComponentModel::DesignerSerializationVisibility", modifiers: "", def_value: None }]
-explicit DesignerSerializationVisibilityAttribute(System::ComponentModel::DesignerSerializationVisibility visibility) ;
+static System::ComponentModel::DesignerSerializationVisibilityAttribute New_ctor(System::ComponentModel::DesignerSerializationVisibility visibility) ;
 
 /// @brief Method .ctor addr 0x2771fc0 size 0x28 virtual false final false
  void _ctor(System::ComponentModel::DesignerSerializationVisibility visibility) ;

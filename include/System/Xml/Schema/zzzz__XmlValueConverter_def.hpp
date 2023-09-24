@@ -5,19 +5,19 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-class Type;
-}
-namespace System {
-struct DateTime;
+struct DateTimeOffset;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System {
-struct Decimal;
+class Type;
 }
 namespace System {
-struct DateTimeOffset;
+struct DateTime;
+}
+namespace System {
+struct Decimal;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -239,8 +239,7 @@ constexpr explicit XmlValueConverter(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 /// @brief Method ChangeType addr 0x0 size 0xffffffffffffffff virtual true final false
  ::bs_hook::Il2CppWrapperType ChangeType(::bs_hook::Il2CppWrapperType value, System::Type destinationType, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
-// Ctor Parameters []
-explicit XmlValueConverter() ;
+static System::Xml::Schema::XmlValueConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x27359e8 size 0x8 virtual false final false
  void _ctor() ;

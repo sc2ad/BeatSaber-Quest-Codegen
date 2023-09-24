@@ -4,6 +4,7 @@
 #include "LiteNetLib/zzzz__ReliableChannel_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
+#include "LiteNetLib/zzzz__ReliableChannel_def.hpp"
 #include "LiteNetLib/zzzz__NetPacket_def.hpp"
 //  Writing Method size for method: LiteNetLib::LiteNetLib__ReliableChannel__PendingPacket.ToString
 template<>
@@ -278,8 +279,10 @@ constexpr void LiteNetLib::ReliableChannel::__set__id(uint8_t value)  {
 constexpr uint8_t LiteNetLib::ReliableChannel::__get__id() const {
 return ::cordl_internals::getInstanceField<uint8_t, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }, CppParam { name: "ordered", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "uint8_t", modifiers: "", def_value: None }]
- LiteNetLib::ReliableChannel::ReliableChannel(LiteNetLib::NetPeer peer, bool ordered, uint8_t id)  : LiteNetLib::BaseChannel(THROW_UNLESS(::il2cpp_utils::New<ReliableChannel>(peer, ordered, id))) {}
+ LiteNetLib::ReliableChannel LiteNetLib::ReliableChannel::New_ctor(LiteNetLib::NetPeer peer, bool ordered, uint8_t id)  {
+LiteNetLib::ReliableChannel o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::ReliableChannel>(peer, ordered, id))};
+return o;
+}
  void LiteNetLib::ReliableChannel::_ctor(LiteNetLib::NetPeer peer, bool ordered, uint8_t id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::ReliableChannel>::get(),

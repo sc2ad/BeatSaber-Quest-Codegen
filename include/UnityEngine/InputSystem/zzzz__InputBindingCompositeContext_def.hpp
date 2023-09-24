@@ -9,24 +9,34 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputActionState__BindingState;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System {
 class IDisposable;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionState__BindingState;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::InputSystem {
+template<typename TValue>
+struct UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1;
+}
 namespace UnityEngine::InputSystem {
 class InputActionState;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputBindingCompositeContext__PartBinding;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
@@ -266,8 +276,7 @@ constexpr int32_t __get__i_5__6() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2(int32_t __1__state) ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x28c3c48 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -408,58 +417,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: ::DefaultComparer`1
 namespace UnityEngine::InputSystem {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TValue>
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6275)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6275), inst: 2 })
-// CS Name: UnityEngine.InputSystem.InputBindingCompositeContext::DefaultComparer`1
-struct CORDL_TYPE UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1<TValue> : public ::bs_hook::ValueTypeWrapper {
-public:
-// Declarations
-/// @brief Convert operator to System::Collections::Generic::IComparer_1<TValue>
-constexpr operator  System::Collections::Generic::IComparer_1<TValue>() const;
-
-
-                    constexpr UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1(UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1 const&) = default;
-                    constexpr UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1(UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1&&) = default;
-                    constexpr UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1& operator=(UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1 const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1& operator=(UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-
-// Methods
-
-/// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t Compare(TValue x, TValue y) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def UnityEngine::InputSystem
-// Type: ::DefaultComparer`1
-namespace UnityEngine::InputSystem {
-// cpp template
 template<>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6275)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
@@ -504,6 +461,58 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 /// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t Compare(float_t x, float_t y) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::InputSystem
+// Type: ::DefaultComparer`1
+namespace UnityEngine::InputSystem {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TValue>
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6275)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6275), inst: 2 })
+// CS Name: UnityEngine.InputSystem.InputBindingCompositeContext::DefaultComparer`1
+struct CORDL_TYPE UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1<TValue> : public ::bs_hook::ValueTypeWrapper {
+public:
+// Declarations
+/// @brief Convert operator to System::Collections::Generic::IComparer_1<TValue>
+constexpr operator  System::Collections::Generic::IComparer_1<TValue>() const;
+
+
+                    constexpr UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1(UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1 const&) = default;
+                    constexpr UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1(UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1&&) = default;
+                    constexpr UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1& operator=(UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1 const& o) {
+                        __instance = o.__instance;
+                        return *this;
+                    };
+                    constexpr UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1& operator=(UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1&& o) noexcept {
+                        __instance = std::move(o.__instance);
+                        return *this;
+                    };
+                
+
+/// @brief The size of the true value type
+static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
+
+/// @brief Holds the value type data
+ std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
+
+// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
+constexpr explicit UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+}
+
+/// @brief conversion method for value type
+constexpr void* convert() const noexcept {
+return const_cast<void*>(static_cast<const void*>(__instance.data()));
+}
+
+
+// Methods
+
+/// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final true
+ int32_t Compare(TValue x, TValue y) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };

@@ -1,14 +1,15 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__Marshal_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__ICustomMarshaler_def.hpp"
-#include "System/Security/zzzz__SecureString_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__Marshal_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Security/zzzz__SecureString_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__ICustomMarshaler_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__SecureStringAllocator._ctor
@@ -45,8 +46,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_int
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__SecureStringAllocator::System__Runtime__InteropServices__Marshal__SecureStringAllocator(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__InteropServices__Marshal__SecureStringAllocator>(object, method))) {}
+ System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__SecureStringAllocator System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__SecureStringAllocator::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__SecureStringAllocator o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__SecureStringAllocator>(object, method))};
+return o;
+}
  void System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__SecureStringAllocator::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__SecureStringAllocator>::get(),
@@ -138,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, key);
 }
-// Ctor Parameters []
- System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer::System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer>())) {}
+ System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer::New_ctor()  {
+System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer>())};
+return o;
+}
  void System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer>::get(),
@@ -195,8 +200,10 @@ return ::cordl_internals::getStaticField<System::Runtime::InteropServices::Syste
  System::Func_1<System::Collections::Generic::Dictionary_2<System::ValueTuple_2<System::Type,::StringW>,System::Runtime::InteropServices::ICustomMarshaler>> System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal____c::__get___9__201_0()  {
 return ::cordl_internals::getStaticField<System::Func_1<System::Collections::Generic::Dictionary_2<System::ValueTuple_2<System::Type,::StringW>,System::Runtime::InteropServices::ICustomMarshaler>>, "<>9__201_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal____c>::get>();
 }
-// Ctor Parameters []
- System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal____c::System__Runtime__InteropServices__Marshal____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__InteropServices__Marshal____c>())) {}
+ System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal____c System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal____c::New_ctor()  {
+System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal____c o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal____c>())};
+return o;
+}
  void System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal____c>::get(),

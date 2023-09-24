@@ -3,15 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
 }
 namespace System {
 class Random;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -74,8 +74,7 @@ static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::T
 /// @brief Method UniformGrid addr 0x29a2168 size 0x18c virtual false final false
 static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint> UniformGrid(int32_t n, double_t scale) ;
 
-// Ctor Parameters []
-explicit PointGenerator() ;
+static UnityEngine::ProBuilder::Poly2Tri::PointGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a22f4 size 0x8 virtual false final false
  void _ctor() ;

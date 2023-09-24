@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System {
+struct TimeSpan;
+}
+namespace System {
 struct DateTime;
 }
 namespace System::Globalization {
 class DaylightTime;
-}
-namespace System {
-struct TimeSpan;
 }
 // Forward declare root types
 namespace System {
@@ -82,8 +82,7 @@ static System::TimeZone __declspec(property(get=get_CurrentTimeZone))  CurrentTi
 /// @brief Method get_InternalSyncObject addr 0x2458ae0 size 0xa0 virtual false final false
 static ::bs_hook::Il2CppWrapperType get_InternalSyncObject() ;
 
-// Ctor Parameters []
-explicit TimeZone() ;
+static System::TimeZone New_ctor() ;
 
 /// @brief Method .ctor addr 0x2458b80 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,10 +5,10 @@ namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECPointMap;
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+class ECPointMap;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {
@@ -68,8 +68,7 @@ constexpr Org::BouncyCastle::Math::EC::ECFieldElement __get_scale() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "scale", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }]
-explicit ScaleYPointMap(Org::BouncyCastle::Math::EC::ECFieldElement scale) ;
+static Org::BouncyCastle::Math::EC::ScaleYPointMap New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement scale) ;
 
 /// @brief Method .ctor addr 0xfcdcfc size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECFieldElement scale) ;

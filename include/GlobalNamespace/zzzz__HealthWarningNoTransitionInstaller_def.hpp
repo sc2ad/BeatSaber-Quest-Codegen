@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class HealthWarningSceneSetupData;
 }
 namespace GlobalNamespace {
 class HealthWarningScenesTransitionSetupDataSO;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +74,7 @@ constexpr GlobalNamespace::HealthWarningScenesTransitionSetupDataSO __get__scene
 /// @brief Method InstallBindings addr 0x21b65a4 size 0x44 virtual true final false
  void InstallBindings(Zenject::DiContainer container) ;
 
-// Ctor Parameters []
-explicit HealthWarningNoTransitionInstaller() ;
+static GlobalNamespace::HealthWarningNoTransitionInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b65e8 size 0x8 virtual false final false
  void _ctor() ;

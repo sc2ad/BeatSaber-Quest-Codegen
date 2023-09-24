@@ -6,14 +6,14 @@
 namespace UnityEngine::UIElements {
 struct VectorImageVertex;
 }
+namespace UnityEngine::UIElements {
+struct GradientSettings;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 class Texture2D;
-}
-namespace UnityEngine::UIElements {
-struct GradientSettings;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -94,8 +94,7 @@ constexpr UnityEngine::Vector2 __get_size() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit VectorImage() ;
+static UnityEngine::UIElements::VectorImage New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c44248 size 0x64 virtual false final false
  void _ctor() ;

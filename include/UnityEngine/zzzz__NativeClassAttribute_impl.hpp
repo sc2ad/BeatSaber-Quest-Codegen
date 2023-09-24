@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "qualifiedCppName", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::NativeClassAttribute::NativeClassAttribute(::StringW qualifiedCppName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeClassAttribute>(qualifiedCppName))) {}
+ UnityEngine::NativeClassAttribute UnityEngine::NativeClassAttribute::New_ctor(::StringW qualifiedCppName)  {
+UnityEngine::NativeClassAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::NativeClassAttribute>(qualifiedCppName))};
+return o;
+}
  void UnityEngine::NativeClassAttribute::_ctor(::StringW qualifiedCppName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::NativeClassAttribute>::get(),
@@ -110,8 +112,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, qualifiedCppName);
 }
-// Ctor Parameters [CppParam { name: "qualifiedCppName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "declaration", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::NativeClassAttribute::NativeClassAttribute(::StringW qualifiedCppName, ::StringW declaration)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeClassAttribute>(qualifiedCppName, declaration))) {}
+ UnityEngine::NativeClassAttribute UnityEngine::NativeClassAttribute::New_ctor(::StringW qualifiedCppName, ::StringW declaration)  {
+UnityEngine::NativeClassAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::NativeClassAttribute>(qualifiedCppName, declaration))};
+return o;
+}
  void UnityEngine::NativeClassAttribute::_ctor(::StringW qualifiedCppName, ::StringW declaration)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::NativeClassAttribute>::get(),

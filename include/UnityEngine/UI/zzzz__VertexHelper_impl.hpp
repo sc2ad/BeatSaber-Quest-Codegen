@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
-#include "UnityEngine/zzzz__UIVertex_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/zzzz__UIVertex_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::VertexHelper._ctor
 template<>
 
@@ -406,8 +406,10 @@ constexpr void UnityEngine::UI::VertexHelper::__set_m_ListsInitalized(bool value
 constexpr bool UnityEngine::UI::VertexHelper::__get_m_ListsInitalized() const {
 return ::cordl_internals::getInstanceField<bool, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UI::VertexHelper::VertexHelper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VertexHelper>())) {}
+ UnityEngine::UI::VertexHelper UnityEngine::UI::VertexHelper::New_ctor()  {
+UnityEngine::UI::VertexHelper o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::VertexHelper>())};
+return o;
+}
  void UnityEngine::UI::VertexHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::VertexHelper>::get(),
@@ -417,8 +419,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }]
- UnityEngine::UI::VertexHelper::VertexHelper(UnityEngine::Mesh m)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VertexHelper>(m))) {}
+ UnityEngine::UI::VertexHelper UnityEngine::UI::VertexHelper::New_ctor(UnityEngine::Mesh m)  {
+UnityEngine::UI::VertexHelper o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::VertexHelper>(m))};
+return o;
+}
  void UnityEngine::UI::VertexHelper::_ctor(UnityEngine::Mesh m)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::VertexHelper>::get(),

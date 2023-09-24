@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BaseTransitionSO_impl.hpp"
 #include "GlobalNamespace/zzzz__GradientTransitionSO_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GradientTransitionSO.get_normalColor1
 template<>
 
@@ -404,8 +404,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GradientTransitionSO::GradientTransitionSO()  : GlobalNamespace::BaseTransitionSO(THROW_UNLESS(::il2cpp_utils::New<GradientTransitionSO>())) {}
+ GlobalNamespace::GradientTransitionSO GlobalNamespace::GradientTransitionSO::New_ctor()  {
+GlobalNamespace::GradientTransitionSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GradientTransitionSO>())};
+return o;
+}
  void GlobalNamespace::GradientTransitionSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GradientTransitionSO>::get(),

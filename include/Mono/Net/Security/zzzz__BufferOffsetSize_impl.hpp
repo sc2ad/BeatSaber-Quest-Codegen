@@ -116,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- Mono::Net::Security::BufferOffsetSize::BufferOffsetSize(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BufferOffsetSize>(buffer, offset, size))) {}
+ Mono::Net::Security::BufferOffsetSize Mono::Net::Security::BufferOffsetSize::New_ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size)  {
+Mono::Net::Security::BufferOffsetSize o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::BufferOffsetSize>(buffer, offset, size))};
+return o;
+}
  void Mono::Net::Security::BufferOffsetSize::_ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::BufferOffsetSize>::get(),

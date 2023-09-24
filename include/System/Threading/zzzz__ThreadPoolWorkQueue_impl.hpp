@@ -2,6 +2,7 @@
 #include "System/Threading/zzzz__ThreadPoolWorkQueue_def.hpp"
 #include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__SpinLock_def.hpp"
+#include "System/Threading/zzzz__ThreadPoolWorkQueue_def.hpp"
 #include "System/Threading/zzzz__ThreadPoolWorkQueueThreadLocals_def.hpp"
 //  Writing Method size for method: System::Threading::System__Threading__ThreadPoolWorkQueue__WorkStealingQueue.LocalPush
 template<>
@@ -180,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, obj, missedSteal, millisecondsTimeout);
 }
-// Ctor Parameters []
- System::Threading::System__Threading__ThreadPoolWorkQueue__WorkStealingQueue::System__Threading__ThreadPoolWorkQueue__WorkStealingQueue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__ThreadPoolWorkQueue__WorkStealingQueue>())) {}
+ System::Threading::System__Threading__ThreadPoolWorkQueue__WorkStealingQueue System::Threading::System__Threading__ThreadPoolWorkQueue__WorkStealingQueue::New_ctor()  {
+System::Threading::System__Threading__ThreadPoolWorkQueue__WorkStealingQueue o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::System__Threading__ThreadPoolWorkQueue__WorkStealingQueue>())};
+return o;
+}
  void System::Threading::System__Threading__ThreadPoolWorkQueue__WorkStealingQueue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__WorkStealingQueue>::get(),
@@ -329,8 +332,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, prevUpper, newUpper, prevLower, newLower);
 }
-// Ctor Parameters []
- System::Threading::System__Threading__ThreadPoolWorkQueue__QueueSegment::System__Threading__ThreadPoolWorkQueue__QueueSegment()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__ThreadPoolWorkQueue__QueueSegment>())) {}
+ System::Threading::System__Threading__ThreadPoolWorkQueue__QueueSegment System::Threading::System__Threading__ThreadPoolWorkQueue__QueueSegment::New_ctor()  {
+System::Threading::System__Threading__ThreadPoolWorkQueue__QueueSegment o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::System__Threading__ThreadPoolWorkQueue__QueueSegment>())};
+return o;
+}
  void System::Threading::System__Threading__ThreadPoolWorkQueue__QueueSegment::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__QueueSegment>::get(),
@@ -527,8 +532,10 @@ constexpr void System::Threading::ThreadPoolWorkQueue::__set_numOutstandingThrea
 constexpr int32_t System::Threading::ThreadPoolWorkQueue::__get_numOutstandingThreadRequests() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Threading::ThreadPoolWorkQueue::ThreadPoolWorkQueue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ThreadPoolWorkQueue>())) {}
+ System::Threading::ThreadPoolWorkQueue System::Threading::ThreadPoolWorkQueue::New_ctor()  {
+System::Threading::ThreadPoolWorkQueue o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ThreadPoolWorkQueue>())};
+return o;
+}
  void System::Threading::ThreadPoolWorkQueue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ThreadPoolWorkQueue>::get(),
@@ -601,112 +608,46 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-//  Writing Method size for method: System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::*)(int32_t)>(&System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1.get_Current
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<T> (System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::*)()>(&System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::get_Current)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1>::get(),
-                            "get_Current",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1.Add
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::*)(T)>(&System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::Add)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1>::get(),
-                            "Add",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1.Remove
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::*)(T)>(&System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::Remove)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1>::get(),
-                            "Remove",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::__set_m_array(::ArrayW<T> value)  {
+constexpr void System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>::__set_m_array(::ArrayW<T> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<T>>(value));
 }
-constexpr ::ArrayW<T> System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::__get_m_array() const {
+constexpr ::ArrayW<T> System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>::__get_m_array() const {
 return ::cordl_internals::getInstanceField<::ArrayW<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::System__Threading__ThreadPoolWorkQueue__SparseArray_1(int32_t initialSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__ThreadPoolWorkQueue__SparseArray_1>(initialSize))) {}
- void System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::_ctor(int32_t initialSize)  {
+ System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T> System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>::New_ctor(int32_t initialSize)  {
+System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T> o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>>(initialSize))};
+return o;
+}
+ void System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>::_ctor(int32_t initialSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, initialSize);
 }
- ::ArrayW<T> System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::get_Current()  {
+ ::ArrayW<T> System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>::get_Current()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>>::get(),
                             "get_Current",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<T>, false>(const_cast<void*>(instance), ___internal_method);
 }
- int32_t System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::Add(T e)  {
+ int32_t System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>::Add(T e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>>::get(),
                             "Add",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, e);
 }
- void System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1::Remove(T e)  {
+ void System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>::Remove(T e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__ThreadPoolWorkQueue__SparseArray_1<T>>::get(),
                             "Remove",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}

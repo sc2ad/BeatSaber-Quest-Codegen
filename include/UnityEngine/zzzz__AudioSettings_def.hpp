@@ -12,6 +12,12 @@ class Action;
 namespace UnityEngine {
 struct AudioConfiguration;
 }
+namespace UnityEngine {
+class UnityEngine__AudioSettings__AudioConfigurationChangeHandler;
+}
+namespace UnityEngine {
+class UnityEngine__AudioSettings__Mobile;
+}
 namespace System {
 template<typename T>
 class Action_1;
@@ -68,8 +74,7 @@ constexpr explicit UnityEngine__AudioSettings__AudioConfigurationChangeHandler(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__AudioSettings__AudioConfigurationChangeHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__AudioSettings__AudioConfigurationChangeHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b246ec size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

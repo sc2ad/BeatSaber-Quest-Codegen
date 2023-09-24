@@ -6,11 +6,14 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct LengthUnit;
+struct UnityEngine__UIElements__Length__Unit;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+struct LengthUnit;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -70,6 +73,8 @@ __None = 3,
 constexpr operator __UnityEngine__UIElements__Length__Unit_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__Length__Unit_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

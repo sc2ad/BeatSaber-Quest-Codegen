@@ -127,8 +127,10 @@ constexpr void Org::BouncyCastle::Cms::CmsCompressedData::__set_contentInfo(Org:
 constexpr Org::BouncyCastle::Asn1::Cms::ContentInfo Org::BouncyCastle::Cms::CmsCompressedData::__get_contentInfo() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cms::ContentInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "compressedData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsCompressedData::CmsCompressedData(::ArrayW<uint8_t> compressedData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsCompressedData>(compressedData))) {}
+ Org::BouncyCastle::Cms::CmsCompressedData Org::BouncyCastle::Cms::CmsCompressedData::New_ctor(::ArrayW<uint8_t> compressedData)  {
+Org::BouncyCastle::Cms::CmsCompressedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsCompressedData>(compressedData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsCompressedData::_ctor(::ArrayW<uint8_t> compressedData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsCompressedData>::get(),
@@ -138,8 +140,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, compressedData);
 }
-// Ctor Parameters [CppParam { name: "compressedDataStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsCompressedData::CmsCompressedData(System::IO::Stream compressedDataStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsCompressedData>(compressedDataStream))) {}
+ Org::BouncyCastle::Cms::CmsCompressedData Org::BouncyCastle::Cms::CmsCompressedData::New_ctor(System::IO::Stream compressedDataStream)  {
+Org::BouncyCastle::Cms::CmsCompressedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsCompressedData>(compressedDataStream))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsCompressedData::_ctor(System::IO::Stream compressedDataStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsCompressedData>::get(),
@@ -149,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, compressedDataStream);
 }
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsCompressedData::CmsCompressedData(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsCompressedData>(contentInfo))) {}
+ Org::BouncyCastle::Cms::CmsCompressedData Org::BouncyCastle::Cms::CmsCompressedData::New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  {
+Org::BouncyCastle::Cms::CmsCompressedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsCompressedData>(contentInfo))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsCompressedData::_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsCompressedData>::get(),

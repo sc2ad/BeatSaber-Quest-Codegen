@@ -6,31 +6,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Reflection {
-struct MethodImplAttributes;
-}
-namespace System::Reflection {
 class ParameterInfo;
-}
-namespace System {
-struct RuntimeMethodHandle;
 }
 namespace System::Reflection {
 struct MethodAttributes;
 }
-namespace System::Reflection {
-struct CallingConventions;
+namespace System {
+struct RuntimeMethodHandle;
+}
+namespace System {
+class Type;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Reflection {
+struct MethodImplAttributes;
 }
 namespace System::Reflection {
 class Binder;
 }
 namespace System::Reflection {
-struct BindingFlags;
+struct CallingConventions;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -105,8 +105,7 @@ constexpr explicit MethodBase(void* ptr) noexcept : System::Reflection::MemberIn
 
 // Methods
 
-// Ctor Parameters []
-explicit MethodBase() ;
+static System::Reflection::MethodBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2378ec0 size 0x8 virtual false final false
  void _ctor() ;

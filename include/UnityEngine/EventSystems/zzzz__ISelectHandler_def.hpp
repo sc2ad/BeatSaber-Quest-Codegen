@@ -1,10 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

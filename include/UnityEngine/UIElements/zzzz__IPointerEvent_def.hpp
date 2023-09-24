@@ -7,10 +7,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct EventModifiers;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+struct EventModifiers;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

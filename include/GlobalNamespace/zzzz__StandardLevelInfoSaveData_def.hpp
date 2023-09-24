@@ -6,7 +6,16 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__StandardLevelInfoSaveData__VersionCheck;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
 class BeatmapLevelColorSchemeSaveData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,8 +100,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__
 /// @brief Method get_difficultyBeatmaps addr 0x21ef228 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmap> get_difficultyBeatmaps() ;
 
-// Ctor Parameters [CppParam { name: "beatmapCharacteristicName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmaps", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmap>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmapSet(::StringW beatmapCharacteristicName, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmap> difficultyBeatmaps) ;
+static GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmapSet New_ctor(::StringW beatmapCharacteristicName, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmap> difficultyBeatmaps) ;
 
 /// @brief Method .ctor addr 0x21ef1f4 size 0x2c virtual false final false
  void _ctor(::StringW beatmapCharacteristicName, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmap> difficultyBeatmaps) ;
@@ -226,8 +234,7 @@ constexpr int32_t __get__environmentNameIdx() const;
 /// @brief Method get_environmentNameIdx addr 0x21ef260 size 0x8 virtual false final false
  int32_t get_environmentNameIdx() ;
 
-// Ctor Parameters [CppParam { name: "difficultyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficultyRank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatmapFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "noteJumpMovementSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapColorSchemeIdx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "environmentNameIdx", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmap(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx) ;
+static GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmap New_ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx) ;
 
 /// @brief Method .ctor addr 0x21ef18c size 0x68 virtual false final false
  void _ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx) ;
@@ -295,8 +302,7 @@ constexpr ::StringW __get__version() const;
 /// @brief Method get_version addr 0x21ef268 size 0x8 virtual false final false
  ::StringW get_version() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__StandardLevelInfoSaveData__VersionCheck() ;
+static GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__VersionCheck New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ef270 size 0x8 virtual false final false
  void _ctor() ;
@@ -565,8 +571,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__
 /// @brief Method get_difficultyBeatmapSets addr 0x21eea90 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmapSet> get_difficultyBeatmapSets() ;
 
-// Ctor Parameters [CppParam { name: "songName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songSubName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shuffle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shufflePeriod", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "coverImageFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "environmentName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "allDirectionsEnvironmentName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "environmentNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "colorSchemes", ty: "::ArrayW<GlobalNamespace::BeatmapLevelColorSchemeSaveData>", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmapSets", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmapSet>", modifiers: "", def_value: None }]
-explicit StandardLevelInfoSaveData(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::StringW environmentName, ::StringW allDirectionsEnvironmentName, ::ArrayW<::StringW> environmentNames, ::ArrayW<GlobalNamespace::BeatmapLevelColorSchemeSaveData> colorSchemes, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmapSet> difficultyBeatmapSets) ;
+static GlobalNamespace::StandardLevelInfoSaveData New_ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::StringW environmentName, ::StringW allDirectionsEnvironmentName, ::ArrayW<::StringW> environmentNames, ::ArrayW<GlobalNamespace::BeatmapLevelColorSchemeSaveData> colorSchemes, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmapSet> difficultyBeatmapSets) ;
 
 /// @brief Method .ctor addr 0x21eea98 size 0xf8 virtual false final false
  void _ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::StringW environmentName, ::StringW allDirectionsEnvironmentName, ::ArrayW<::StringW> environmentNames, ::ArrayW<GlobalNamespace::BeatmapLevelColorSchemeSaveData> colorSchemes, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData__DifficultyBeatmapSet> difficultyBeatmapSets) ;

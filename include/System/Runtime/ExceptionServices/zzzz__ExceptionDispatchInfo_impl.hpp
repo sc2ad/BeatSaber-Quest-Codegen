@@ -115,8 +115,10 @@ constexpr void System::Runtime::ExceptionServices::ExceptionDispatchInfo::__set_
 constexpr ::bs_hook::Il2CppWrapperType System::Runtime::ExceptionServices::ExceptionDispatchInfo::__get_m_stackTrace() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
- System::Runtime::ExceptionServices::ExceptionDispatchInfo::ExceptionDispatchInfo(System::Exception exception)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ExceptionDispatchInfo>(exception))) {}
+ System::Runtime::ExceptionServices::ExceptionDispatchInfo System::Runtime::ExceptionServices::ExceptionDispatchInfo::New_ctor(System::Exception exception)  {
+System::Runtime::ExceptionServices::ExceptionDispatchInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::ExceptionServices::ExceptionDispatchInfo>(exception))};
+return o;
+}
  void System::Runtime::ExceptionServices::ExceptionDispatchInfo::_ctor(System::Exception exception)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::ExceptionServices::ExceptionDispatchInfo>::get(),

@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace UnityEngine {
-class ParticleSystem;
+struct UnityEngine__ParticleSystem__EmitParams;
 }
-namespace VRUIControls {
-class VRPointer;
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace GlobalNamespace {
 class Signal;
@@ -14,8 +14,8 @@ class Signal;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct UnityEngine__ParticleSystem__EmitParams;
+namespace VRUIControls {
+class VRPointer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +105,7 @@ constexpr UnityEngine::UnityEngine__ParticleSystem__EmitParams __get__shockwaveP
 /// @brief Method SpawnShockwave addr 0x212fa28 size 0xa4 virtual false final false
  void SpawnShockwave(UnityEngine::Vector3 pos) ;
 
-// Ctor Parameters []
-explicit MenuShockwave() ;
+static GlobalNamespace::MenuShockwave New_ctor() ;
 
 /// @brief Method .ctor addr 0x212facc size 0x8 virtual false final false
  void _ctor() ;

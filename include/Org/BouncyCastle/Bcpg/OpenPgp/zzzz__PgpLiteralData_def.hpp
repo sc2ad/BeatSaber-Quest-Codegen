@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Bcpg {
-class LiteralDataPacket;
+namespace System::IO {
+class Stream;
 }
 namespace System {
 struct DateTime;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Bcpg {
+class LiteralDataPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
@@ -92,8 +92,7 @@ constexpr Org::BouncyCastle::Bcpg::LiteralDataPacket __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PgpLiteralData(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method .ctor addr 0x1023d80 size 0x120 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;

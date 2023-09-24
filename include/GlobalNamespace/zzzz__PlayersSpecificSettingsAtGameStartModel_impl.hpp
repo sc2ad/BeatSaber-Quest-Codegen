@@ -2,9 +2,10 @@
 #include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettingsAtStartNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettingsNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettingsNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettingsAtStartNetSerializable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0._ctor
 template<>
 
@@ -45,8 +46,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameSt
 constexpr GlobalNamespace::IConnectedPlayer GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0::__get_player() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IConnectedPlayer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0>())) {}
+ GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0 GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0>::get(),
@@ -264,8 +267,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "localPlayerSpecificSettings", ty: "GlobalNamespace::PlayerSpecificSettingsNetSerializable", modifiers: "", def_value: None }]
- GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::PlayersSpecificSettingsAtGameStartModel(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::PlayerSpecificSettingsNetSerializable localPlayerSpecificSettings)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayersSpecificSettingsAtGameStartModel>(multiplayerSessionManager, localPlayerSpecificSettings))) {}
+ GlobalNamespace::PlayersSpecificSettingsAtGameStartModel GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::PlayerSpecificSettingsNetSerializable localPlayerSpecificSettings)  {
+GlobalNamespace::PlayersSpecificSettingsAtGameStartModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayersSpecificSettingsAtGameStartModel>(multiplayerSessionManager, localPlayerSpecificSettings))};
+return o;
+}
  void GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::PlayerSpecificSettingsNetSerializable localPlayerSpecificSettings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayersSpecificSettingsAtGameStartModel>::get(),

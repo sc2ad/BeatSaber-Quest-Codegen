@@ -62,14 +62,12 @@ constexpr ::StringW __get__Comment_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PublicAPIAttribute() ;
+static JetBrains::Annotations::PublicAPIAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40de8 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "comment", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PublicAPIAttribute(::StringW comment) ;
+static JetBrains::Annotations::PublicAPIAttribute New_ctor(::StringW comment) ;
 
 /// @brief Method .ctor addr 0x2d40df0 size 0x28 virtual false final false
  void _ctor(::StringW comment) ;

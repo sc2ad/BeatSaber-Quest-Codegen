@@ -2,15 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class Transform;
+namespace TMPro {
+class TMPro__TMP_MaterialManager__MaskingMaterial;
 }
 namespace TMPro {
-class TMP_FontAsset;
+class TMPro__TMP_MaterialManager__FallbackMaterial;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace TMPro {
+class TMPro__TMP_MaterialManager____c__DisplayClass11_0;
+}
+namespace TMPro {
+class TMPro__TMP_MaterialManager____c__DisplayClass9_0;
 }
 namespace UnityEngine {
 class GameObject;
@@ -18,12 +20,28 @@ class GameObject;
 namespace UnityEngine {
 class Material;
 }
+namespace TMPro {
+class TMPro__TMP_MaterialManager____c__DisplayClass12_0;
+}
+namespace TMPro {
+class TMPro__TMP_MaterialManager____c__DisplayClass13_0;
+}
+namespace UnityEngine::UI {
+class MaskableGraphic;
+}
+namespace TMPro {
+class TMP_FontAsset;
+}
+namespace UnityEngine {
+class Transform;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine::UI {
-class MaskableGraphic;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -122,8 +140,7 @@ constexpr int32_t __get_count() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_MaterialManager__FallbackMaterial() ;
+static TMPro::TMPro__TMP_MaterialManager__FallbackMaterial New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa4ae4 size 0x8 virtual false final false
  void _ctor() ;
@@ -201,8 +218,7 @@ constexpr int32_t __get_stencilID() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_MaterialManager__MaskingMaterial() ;
+static TMPro::TMPro__TMP_MaterialManager__MaskingMaterial New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa3040 size 0x8 virtual false final false
  void _ctor() ;
@@ -262,8 +278,7 @@ constexpr UnityEngine::Material __get_stencilMaterial() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_MaterialManager____c__DisplayClass9_0() ;
+static TMPro::TMPro__TMP_MaterialManager____c__DisplayClass9_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa33a8 size 0x8 virtual false final false
  void _ctor() ;
@@ -326,8 +341,7 @@ constexpr UnityEngine::Material __get_stencilMaterial() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_MaterialManager____c__DisplayClass11_0() ;
+static TMPro::TMPro__TMP_MaterialManager____c__DisplayClass11_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa36e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -390,8 +404,7 @@ constexpr UnityEngine::Material __get_stencilMaterial() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_MaterialManager____c__DisplayClass12_0() ;
+static TMPro::TMPro__TMP_MaterialManager____c__DisplayClass12_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa3848 size 0x8 virtual false final false
  void _ctor() ;
@@ -454,8 +467,7 @@ constexpr UnityEngine::Material __get_baseMaterial() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_MaterialManager____c__DisplayClass13_0() ;
+static TMPro::TMPro__TMP_MaterialManager____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa3d7c size 0x8 virtual false final false
  void _ctor() ;

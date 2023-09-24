@@ -3,15 +3,22 @@
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class GameObjectContext;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-class GameObjectContext;
-}
-namespace Zenject {
-struct TypeValuePair;
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4>
+class Zenject__SubContainerCreatorByNewGameObjectMethod_4____c__DisplayClass2_0;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4,typename T5>
@@ -19,9 +26,6 @@ class Action_5;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -104,8 +108,7 @@ constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> __get_arg
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerCreatorByNewGameObjectMethod_4____c__DisplayClass2_0() ;
+static Zenject::Zenject__SubContainerCreatorByNewGameObjectMethod_4____c__DisplayClass2_0<TParam1,TParam2,TParam3,TParam4> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -178,8 +181,7 @@ constexpr System::Action_5<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4>
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "installerMethod", ty: "System::Action_5<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewGameObjectMethod_4(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_5<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4> installerMethod) ;
+static Zenject::SubContainerCreatorByNewGameObjectMethod_4<TParam1,TParam2,TParam3,TParam4> New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_5<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4> installerMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_5<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4> installerMethod) ;

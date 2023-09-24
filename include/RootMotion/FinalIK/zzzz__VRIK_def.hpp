@@ -8,10 +8,13 @@ namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class IKSolver;
+class RootMotion__FinalIK__VRIK__References;
 }
 namespace RootMotion::FinalIK {
 class IKSolverVR;
+}
+namespace RootMotion::FinalIK {
+class IKSolver;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -216,8 +219,7 @@ constexpr UnityEngine::Transform __get_rightToes() const;
 /// @brief Method AutoDetectReferences addr 0x11c58ec size 0x38c virtual false final false
 static bool AutoDetectReferences(UnityEngine::Transform root, ByRef<RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References> references) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__VRIK__References() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c66b4 size 0x8 virtual false final false
  void _ctor() ;
@@ -309,8 +311,7 @@ constexpr RootMotion::FinalIK::IKSolverVR __get_solver() const;
 /// @brief Method UpdateSolver addr 0x11c648c size 0x190 virtual true final false
  void UpdateSolver() ;
 
-// Ctor Parameters []
-explicit VRIK() ;
+static RootMotion::FinalIK::VRIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c661c size 0x98 virtual false final false
  void _ctor() ;

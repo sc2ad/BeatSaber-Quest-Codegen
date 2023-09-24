@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class IssuerSerial;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ess {
@@ -85,20 +85,17 @@ constexpr Org::BouncyCastle::Asn1::X509::IssuerSerial __get_issuerSerial() const
 /// @brief Method GetInstance addr 0xe0bd74 size 0x190 virtual false final false
 static Org::BouncyCastle::Asn1::Ess::EssCertID GetInstance(::bs_hook::Il2CppWrapperType o) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit EssCertID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ess::EssCertID New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0bf04 size 0x154 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "hash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit EssCertID(::ArrayW<uint8_t> hash) ;
+static Org::BouncyCastle::Asn1::Ess::EssCertID New_ctor(::ArrayW<uint8_t> hash) ;
 
 /// @brief Method .ctor addr 0xe0c058 size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> hash) ;
 
-// Ctor Parameters [CppParam { name: "hash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "issuerSerial", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }]
-explicit EssCertID(::ArrayW<uint8_t> hash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
+static Org::BouncyCastle::Asn1::Ess::EssCertID New_ctor(::ArrayW<uint8_t> hash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
 
 /// @brief Method .ctor addr 0xe0c0d4 size 0x80 virtual false final false
  void _ctor(::ArrayW<uint8_t> hash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;

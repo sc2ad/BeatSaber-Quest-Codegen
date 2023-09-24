@@ -69,8 +69,7 @@ constexpr bool __get_undo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "token", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit WindowsImpersonationContext(::cordl_internals::intptr_t token) ;
+static System::Security::Principal::WindowsImpersonationContext New_ctor(::cordl_internals::intptr_t token) ;
 
 /// @brief Method .ctor addr 0x230fd50 size 0x8c virtual false final false
  void _ctor(::cordl_internals::intptr_t token) ;

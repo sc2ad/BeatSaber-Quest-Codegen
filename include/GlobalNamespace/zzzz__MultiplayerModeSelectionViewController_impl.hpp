@@ -2,10 +2,11 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerModeSelectionViewController_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerModeSelectionViewController_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__MultiplayerModeSelectionViewController__MenuButton::GlobalNamespace__MultiplayerModeSelectionViewController__MenuButton(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -283,8 +284,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, menuButton);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerModeSelectionViewController::MultiplayerModeSelectionViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<MultiplayerModeSelectionViewController>())) {}
+ GlobalNamespace::MultiplayerModeSelectionViewController GlobalNamespace::MultiplayerModeSelectionViewController::New_ctor()  {
+GlobalNamespace::MultiplayerModeSelectionViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerModeSelectionViewController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerModeSelectionViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerModeSelectionViewController>::get(),

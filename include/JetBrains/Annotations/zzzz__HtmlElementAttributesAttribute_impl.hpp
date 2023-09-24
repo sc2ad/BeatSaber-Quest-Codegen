@@ -75,8 +75,10 @@ constexpr void JetBrains::Annotations::HtmlElementAttributesAttribute::__set__Na
 constexpr ::StringW JetBrains::Annotations::HtmlElementAttributesAttribute::__get__Name_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- JetBrains::Annotations::HtmlElementAttributesAttribute::HtmlElementAttributesAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<HtmlElementAttributesAttribute>())) {}
+ JetBrains::Annotations::HtmlElementAttributesAttribute JetBrains::Annotations::HtmlElementAttributesAttribute::New_ctor()  {
+JetBrains::Annotations::HtmlElementAttributesAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::HtmlElementAttributesAttribute>())};
+return o;
+}
  void JetBrains::Annotations::HtmlElementAttributesAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::HtmlElementAttributesAttribute>::get(),
@@ -86,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::HtmlElementAttributesAttribute::HtmlElementAttributesAttribute(::StringW name)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<HtmlElementAttributesAttribute>(name))) {}
+ JetBrains::Annotations::HtmlElementAttributesAttribute JetBrains::Annotations::HtmlElementAttributesAttribute::New_ctor(::StringW name)  {
+JetBrains::Annotations::HtmlElementAttributesAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::HtmlElementAttributesAttribute>(name))};
+return o;
+}
  void JetBrains::Annotations::HtmlElementAttributesAttribute::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::HtmlElementAttributesAttribute>::get(),

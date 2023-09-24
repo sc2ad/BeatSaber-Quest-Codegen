@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__StringComparer_impl.hpp"
 #include "System/zzzz__CultureAwareComparer_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Globalization/zzzz__CompareOptions_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
 //  Writing Method size for method: System::CultureAwareComparer._ctor
 template<>
@@ -176,8 +176,10 @@ constexpr void System::CultureAwareComparer::__set__options(System::Globalizatio
 constexpr System::Globalization::CompareOptions System::CultureAwareComparer::__get__options() const {
 return ::cordl_internals::getInstanceField<System::Globalization::CompareOptions, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Globalization::CompareOptions", modifiers: "", def_value: None }]
- System::CultureAwareComparer::CultureAwareComparer(System::Globalization::CultureInfo culture, System::Globalization::CompareOptions options)  : System::StringComparer(THROW_UNLESS(::il2cpp_utils::New<CultureAwareComparer>(culture, options))) {}
+ System::CultureAwareComparer System::CultureAwareComparer::New_ctor(System::Globalization::CultureInfo culture, System::Globalization::CompareOptions options)  {
+System::CultureAwareComparer o{THROW_UNLESS(::il2cpp_utils::New<System::CultureAwareComparer>(culture, options))};
+return o;
+}
  void System::CultureAwareComparer::_ctor(System::Globalization::CultureInfo culture, System::Globalization::CompareOptions options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::CultureAwareComparer>::get(),
@@ -187,8 +189,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, culture, options);
 }
-// Ctor Parameters [CppParam { name: "compareInfo", ty: "System::Globalization::CompareInfo", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Globalization::CompareOptions", modifiers: "", def_value: None }]
- System::CultureAwareComparer::CultureAwareComparer(System::Globalization::CompareInfo compareInfo, System::Globalization::CompareOptions options)  : System::StringComparer(THROW_UNLESS(::il2cpp_utils::New<CultureAwareComparer>(compareInfo, options))) {}
+ System::CultureAwareComparer System::CultureAwareComparer::New_ctor(System::Globalization::CompareInfo compareInfo, System::Globalization::CompareOptions options)  {
+System::CultureAwareComparer o{THROW_UNLESS(::il2cpp_utils::New<System::CultureAwareComparer>(compareInfo, options))};
+return o;
+}
  void System::CultureAwareComparer::_ctor(System::Globalization::CompareInfo compareInfo, System::Globalization::CompareOptions options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::CultureAwareComparer>::get(),
@@ -198,8 +202,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, compareInfo, options);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::CultureAwareComparer::CultureAwareComparer(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::StringComparer(THROW_UNLESS(::il2cpp_utils::New<CultureAwareComparer>(info, context))) {}
+ System::CultureAwareComparer System::CultureAwareComparer::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::CultureAwareComparer o{THROW_UNLESS(::il2cpp_utils::New<System::CultureAwareComparer>(info, context))};
+return o;
+}
  void System::CultureAwareComparer::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::CultureAwareComparer>::get(),

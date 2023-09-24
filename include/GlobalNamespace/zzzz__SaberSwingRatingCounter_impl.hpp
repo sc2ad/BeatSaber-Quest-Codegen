@@ -1,15 +1,15 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SaberSwingRatingCounter_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberMovementData_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
 #include "GlobalNamespace/zzzz__BladeMovementDataElement_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberMovementData_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SaberSwingRatingCounter.get_beforeCutRating
 template<>
 
@@ -421,8 +421,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SaberSwingRatingCounter::SaberSwingRatingCounter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SaberSwingRatingCounter>())) {}
+ GlobalNamespace::SaberSwingRatingCounter GlobalNamespace::SaberSwingRatingCounter::New_ctor()  {
+GlobalNamespace::SaberSwingRatingCounter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SaberSwingRatingCounter>())};
+return o;
+}
  void GlobalNamespace::SaberSwingRatingCounter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SaberSwingRatingCounter>::get(),

@@ -300,8 +300,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::GeneralDigest::__set_byteCoun
 constexpr int64_t Org::BouncyCastle::Crypto::Digests::GeneralDigest::__get_byteCount() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::GeneralDigest::GeneralDigest()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GeneralDigest>())) {}
+ Org::BouncyCastle::Crypto::Digests::GeneralDigest Org::BouncyCastle::Crypto::Digests::GeneralDigest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::GeneralDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::GeneralDigest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::GeneralDigest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::GeneralDigest>::get(),
@@ -311,8 +313,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::GeneralDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::GeneralDigest::GeneralDigest(Org::BouncyCastle::Crypto::Digests::GeneralDigest t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GeneralDigest>(t))) {}
+ Org::BouncyCastle::Crypto::Digests::GeneralDigest Org::BouncyCastle::Crypto::Digests::GeneralDigest::New_ctor(Org::BouncyCastle::Crypto::Digests::GeneralDigest t)  {
+Org::BouncyCastle::Crypto::Digests::GeneralDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::GeneralDigest>(t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::GeneralDigest::_ctor(Org::BouncyCastle::Crypto::Digests::GeneralDigest t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::GeneralDigest>::get(),

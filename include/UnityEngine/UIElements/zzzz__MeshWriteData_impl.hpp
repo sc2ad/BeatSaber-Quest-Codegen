@@ -203,8 +203,10 @@ constexpr void UnityEngine::UIElements::MeshWriteData::__set_currentVertex(int32
 constexpr int32_t UnityEngine::UIElements::MeshWriteData::__get_currentVertex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x44>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::MeshWriteData::MeshWriteData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MeshWriteData>())) {}
+ UnityEngine::UIElements::MeshWriteData UnityEngine::UIElements::MeshWriteData::New_ctor()  {
+UnityEngine::UIElements::MeshWriteData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::MeshWriteData>())};
+return o;
+}
  void UnityEngine::UIElements::MeshWriteData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::MeshWriteData>::get(),

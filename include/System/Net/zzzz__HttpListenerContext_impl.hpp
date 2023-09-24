@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/zzzz__HttpListenerContext_def.hpp"
-#include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
 #include "System/Net/zzzz__HttpListener_def.hpp"
-#include "System/Net/zzzz__AuthenticationSchemes_def.hpp"
 #include "System/Net/zzzz__HttpListenerRequest_def.hpp"
-#include "System/Net/zzzz__HttpConnection_def.hpp"
 #include "System/Net/zzzz__HttpListenerResponse_def.hpp"
+#include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
+#include "System/Net/zzzz__HttpConnection_def.hpp"
+#include "System/Net/zzzz__AuthenticationSchemes_def.hpp"
 //  Writing Method size for method: System::Net::HttpListenerContext._ctor
 template<>
 
@@ -235,8 +235,10 @@ constexpr void System::Net::HttpListenerContext::__set_Listener(System::Net::Htt
 constexpr System::Net::HttpListener System::Net::HttpListenerContext::__get_Listener() const {
 return ::cordl_internals::getInstanceField<System::Net::HttpListener, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cnc", ty: "System::Net::HttpConnection", modifiers: "", def_value: None }]
- System::Net::HttpListenerContext::HttpListenerContext(System::Net::HttpConnection cnc)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpListenerContext>(cnc))) {}
+ System::Net::HttpListenerContext System::Net::HttpListenerContext::New_ctor(System::Net::HttpConnection cnc)  {
+System::Net::HttpListenerContext o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpListenerContext>(cnc))};
+return o;
+}
  void System::Net::HttpListenerContext::_ctor(System::Net::HttpConnection cnc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerContext>::get(),

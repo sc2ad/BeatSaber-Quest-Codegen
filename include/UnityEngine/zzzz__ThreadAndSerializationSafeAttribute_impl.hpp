@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ThreadAndSerializationSafeAttribute::ThreadAndSerializationSafeAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ThreadAndSerializationSafeAttribute>())) {}
+ UnityEngine::ThreadAndSerializationSafeAttribute UnityEngine::ThreadAndSerializationSafeAttribute::New_ctor()  {
+UnityEngine::ThreadAndSerializationSafeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ThreadAndSerializationSafeAttribute>())};
+return o;
+}
  void UnityEngine::ThreadAndSerializationSafeAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ThreadAndSerializationSafeAttribute>::get(),

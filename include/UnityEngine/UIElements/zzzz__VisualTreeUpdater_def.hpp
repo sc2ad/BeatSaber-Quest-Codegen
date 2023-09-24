@@ -4,22 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class IVisualTreeUpdater;
-}
-namespace UnityEngine::UIElements {
 struct VisualTreeUpdatePhase;
 }
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
+class IVisualTreeUpdater;
 }
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -86,8 +89,7 @@ constexpr ::ArrayW<UnityEngine::UIElements::IVisualTreeUpdater> __get_m_VisualTr
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__UpdaterArray New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3965c size 0x5c virtual false final false
  void _ctor() ;
@@ -167,8 +169,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeUpdater__U
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "panel", ty: "UnityEngine::UIElements::BaseVisualElementPanel", modifiers: "", def_value: None }]
-explicit VisualTreeUpdater(UnityEngine::UIElements::BaseVisualElementPanel panel) ;
+static UnityEngine::UIElements::VisualTreeUpdater New_ctor(UnityEngine::UIElements::BaseVisualElementPanel panel) ;
 
 /// @brief Method .ctor addr 0x2c395e0 size 0x7c virtual false final false
  void _ctor(UnityEngine::UIElements::BaseVisualElementPanel panel) ;

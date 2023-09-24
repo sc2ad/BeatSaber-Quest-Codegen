@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+namespace System::Xml {
+class XmlElement;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlElement;
 }
-namespace System::Xml {
-class XmlElement;
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -77,8 +77,7 @@ constexpr System::Xml::XmlElement __get__element() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "element", ty: "System::Xml::XmlElement", modifiers: "", def_value: None }]
-explicit XmlElementWrapper(System::Xml::XmlElement element) ;
+static Newtonsoft::Json::Converters::XmlElementWrapper New_ctor(System::Xml::XmlElement element) ;
 
 /// @brief Method .ctor addr 0x2541d74 size 0x2c virtual false final false
  void _ctor(System::Xml::XmlElement element) ;

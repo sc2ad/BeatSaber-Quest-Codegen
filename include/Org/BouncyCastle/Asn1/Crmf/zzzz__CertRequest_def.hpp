@@ -6,14 +6,14 @@
 namespace Org::BouncyCastle::Asn1::Crmf {
 class Controls;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertTemplate;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
@@ -94,8 +94,7 @@ constexpr Org::BouncyCastle::Asn1::Crmf::Controls __get_controls() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertRequest(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Crmf::CertRequest New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf665c size 0x9c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -103,14 +102,12 @@ explicit CertRequest(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xdf60bc size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::CertRequest GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "certReqId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certTemplate", ty: "Org::BouncyCastle::Asn1::Crmf::CertTemplate", modifiers: "", def_value: None }, CppParam { name: "controls", ty: "Org::BouncyCastle::Asn1::Crmf::Controls", modifiers: "", def_value: None }]
-explicit CertRequest(int32_t certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls) ;
+static Org::BouncyCastle::Asn1::Crmf::CertRequest New_ctor(int32_t certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls) ;
 
 /// @brief Method .ctor addr 0xdf6928 size 0x8c virtual false final false
  void _ctor(int32_t certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls) ;
 
-// Ctor Parameters [CppParam { name: "certReqId", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "certTemplate", ty: "Org::BouncyCastle::Asn1::Crmf::CertTemplate", modifiers: "", def_value: None }, CppParam { name: "controls", ty: "Org::BouncyCastle::Asn1::Crmf::Controls", modifiers: "", def_value: None }]
-explicit CertRequest(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls) ;
+static Org::BouncyCastle::Asn1::Crmf::CertRequest New_ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls) ;
 
 /// @brief Method .ctor addr 0xdf69b4 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls) ;

@@ -109,8 +109,10 @@ constexpr void System::Security::Cryptography::SignatureDescription::__set__strD
 constexpr ::StringW System::Security::Cryptography::SignatureDescription::__get__strDeformatter() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::SignatureDescription::SignatureDescription()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignatureDescription>())) {}
+ System::Security::Cryptography::SignatureDescription System::Security::Cryptography::SignatureDescription::New_ctor()  {
+System::Security::Cryptography::SignatureDescription o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::SignatureDescription>())};
+return o;
+}
  void System::Security::Cryptography::SignatureDescription::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::SignatureDescription>::get(),

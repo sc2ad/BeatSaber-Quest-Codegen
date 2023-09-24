@@ -54,20 +54,17 @@ constexpr explicit IndexOutOfRangeException(void* ptr) noexcept : System::System
 
 // Methods
 
-// Ctor Parameters []
-explicit IndexOutOfRangeException() ;
+static System::IndexOutOfRangeException New_ctor() ;
 
 /// @brief Method .ctor addr 0x243bb70 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit IndexOutOfRangeException(::StringW message) ;
+static System::IndexOutOfRangeException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x243bbcc size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit IndexOutOfRangeException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::IndexOutOfRangeException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x243bbf0 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

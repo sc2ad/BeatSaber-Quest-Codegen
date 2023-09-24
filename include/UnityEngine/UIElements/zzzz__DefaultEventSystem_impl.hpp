@@ -1,17 +1,18 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DefaultEventSystem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__Func_4_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DefaultEventSystem_def.hpp"
 #include "UnityEngine/zzzz__Touch_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Func_4_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__UpdateMode::UnityEngine__UIElements__DefaultEventSystem__UpdateMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -304,8 +305,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__Input::UnityEngine__UIElements__DefaultEventSystem__Input()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__DefaultEventSystem__Input>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__Input UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__Input::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__Input o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__Input>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__Input::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__Input>::get(),
@@ -466,8 +469,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__NoInput::UnityEngine__UIElements__DefaultEventSystem__NoInput()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__DefaultEventSystem__NoInput>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__NoInput UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__NoInput::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__NoInput o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__NoInput>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__NoInput::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__NoInput>::get(),
@@ -678,8 +683,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::UIElements:
  System::Func_4<UnityEngine::Vector3,UnityEngine::Vector3,UnityEngine::Touch,UnityEngine::UIElements::EventBase> UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem____c::__get___9__30_0()  {
 return ::cordl_internals::getStaticField<System::Func_4<UnityEngine::Vector3,UnityEngine::Vector3,UnityEngine::Touch,UnityEngine::UIElements::EventBase>, "<>9__30_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem____c::UnityEngine__UIElements__DefaultEventSystem____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__DefaultEventSystem____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem____c UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem____c>::get(),
@@ -1282,8 +1289,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector2, false>(nullptr, ___internal_method, evt, targetDisplay);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::DefaultEventSystem::DefaultEventSystem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultEventSystem>())) {}
+ UnityEngine::UIElements::DefaultEventSystem UnityEngine::UIElements::DefaultEventSystem::New_ctor()  {
+UnityEngine::UIElements::DefaultEventSystem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::DefaultEventSystem>())};
+return o;
+}
  void UnityEngine::UIElements::DefaultEventSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::DefaultEventSystem>::get(),

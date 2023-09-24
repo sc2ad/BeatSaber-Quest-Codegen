@@ -61,8 +61,7 @@ constexpr bool __get__WrapNonExceptionThrows_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RuntimeCompatibilityAttribute() ;
+static System::Runtime::CompilerServices::RuntimeCompatibilityAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236e108 size 0x8 virtual false final false
  void _ctor() ;

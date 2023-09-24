@@ -41,8 +41,10 @@ constexpr void Mono::Globalization::Unicode::Contraction::__set_SortKey(::ArrayW
 constexpr ::ArrayW<uint8_t> Mono::Globalization::Unicode::Contraction::__get_SortKey() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "replacement", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sortkey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Globalization::Unicode::Contraction::Contraction(int32_t index, ::ArrayW<char16_t> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Contraction>(index, source, replacement, sortkey))) {}
+ Mono::Globalization::Unicode::Contraction Mono::Globalization::Unicode::Contraction::New_ctor(int32_t index, ::ArrayW<char16_t> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey)  {
+Mono::Globalization::Unicode::Contraction o{THROW_UNLESS(::il2cpp_utils::New<Mono::Globalization::Unicode::Contraction>(index, source, replacement, sortkey))};
+return o;
+}
  void Mono::Globalization::Unicode::Contraction::_ctor(int32_t index, ::ArrayW<char16_t> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Globalization::Unicode::Contraction>::get(),

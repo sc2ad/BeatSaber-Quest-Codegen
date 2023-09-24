@@ -87,8 +87,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::
 constexpr ::ArrayW<Org::BouncyCastle::Math::BigInteger> Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::__get_knowledgeProofForX2s() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Org::BouncyCastle::Math::BigInteger>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "knowledgeProofForX2s", ty: "::ArrayW<Org::BouncyCastle::Math::BigInteger>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::JPakeRound2Payload(::StringW participantId, Org::BouncyCastle::Math::BigInteger a, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX2s)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JPakeRound2Payload>(participantId, a, knowledgeProofForX2s))) {}
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::New_ctor(::StringW participantId, Org::BouncyCastle::Math::BigInteger a, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX2s)  {
+Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload>(participantId, a, knowledgeProofForX2s))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::_ctor(::StringW participantId, Org::BouncyCastle::Math::BigInteger a, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX2s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload>::get(),

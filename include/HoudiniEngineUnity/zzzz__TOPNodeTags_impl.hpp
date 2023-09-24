@@ -29,8 +29,10 @@ constexpr void HoudiniEngineUnity::TOPNodeTags::__set__autoload(bool value)  {
 constexpr bool HoudiniEngineUnity::TOPNodeTags::__get__autoload() const {
 return ::cordl_internals::getInstanceField<bool, 0x11>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::TOPNodeTags::TOPNodeTags()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TOPNodeTags>())) {}
+ HoudiniEngineUnity::TOPNodeTags HoudiniEngineUnity::TOPNodeTags::New_ctor()  {
+HoudiniEngineUnity::TOPNodeTags o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::TOPNodeTags>())};
+return o;
+}
  void HoudiniEngineUnity::TOPNodeTags::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::TOPNodeTags>::get(),

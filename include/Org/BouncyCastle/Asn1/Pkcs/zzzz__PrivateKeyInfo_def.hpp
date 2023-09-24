@@ -8,28 +8,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -134,26 +134,22 @@ static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo GetInstance(::bs_hook::Il2C
 /// @brief Method GetVersionValue addr 0xefef94 size 0x124 virtual false final false
 static int32_t GetVersionValue(Org::BouncyCastle::Asn1::DerInteger version) ;
 
-// Ctor Parameters [CppParam { name: "privateKeyAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit PrivateKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey) ;
+static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey) ;
 
 /// @brief Method .ctor addr 0xeff0b8 size 0xc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey) ;
 
-// Ctor Parameters [CppParam { name: "privateKeyAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit PrivateKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes) ;
+static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes) ;
 
 /// @brief Method .ctor addr 0xeff214 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes) ;
 
-// Ctor Parameters [CppParam { name: "privateKeyAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PrivateKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes, ::ArrayW<uint8_t> publicKey) ;
+static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes, ::ArrayW<uint8_t> publicKey) ;
 
 /// @brief Method .ctor addr 0xeff0c4 size 0x150 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes, ::ArrayW<uint8_t> publicKey) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PrivateKeyInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xefec70 size 0x324 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

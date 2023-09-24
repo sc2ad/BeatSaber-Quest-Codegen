@@ -54,20 +54,17 @@ constexpr explicit KeyNotFoundException(void* ptr) noexcept : System::SystemExce
 
 // Methods
 
-// Ctor Parameters []
-explicit KeyNotFoundException() ;
+static System::Collections::Generic::KeyNotFoundException New_ctor() ;
 
 /// @brief Method .ctor addr 0x241de4c size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit KeyNotFoundException(::StringW message) ;
+static System::Collections::Generic::KeyNotFoundException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x241dea8 size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit KeyNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Collections::Generic::KeyNotFoundException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x241decc size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

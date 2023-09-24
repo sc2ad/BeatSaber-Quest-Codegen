@@ -2,8 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricCipherKeyPairGenerator;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
@@ -11,23 +23,11 @@ class X9ECParameters;
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPublicKeyParameters;
@@ -108,14 +108,12 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ECKeyPairGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe6d7f0 size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ECKeyPairGenerator(::StringW algorithm) ;
+static Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator New_ctor(::StringW algorithm) ;
 
 /// @brief Method .ctor addr 0xe6d838 size 0xc0 virtual false final false
  void _ctor(::StringW algorithm) ;

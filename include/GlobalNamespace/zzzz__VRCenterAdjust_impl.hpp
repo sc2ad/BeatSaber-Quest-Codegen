@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRCenterAdjust_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
-#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
+#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
+#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::VRCenterAdjust.Awake
 template<>
 
@@ -254,8 +254,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::VRCenterAdjust::VRCenterAdjust()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VRCenterAdjust>())) {}
+ GlobalNamespace::VRCenterAdjust GlobalNamespace::VRCenterAdjust::New_ctor()  {
+GlobalNamespace::VRCenterAdjust o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VRCenterAdjust>())};
+return o;
+}
  void GlobalNamespace::VRCenterAdjust::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VRCenterAdjust>::get(),

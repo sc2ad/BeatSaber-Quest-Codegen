@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TypeTable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::InputProcessor.ProcessAsObject
 template<>
@@ -104,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Type, false>(nullptr, ___internal_method, processorType);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::InputProcessor::InputProcessor()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputProcessor>())) {}
+ UnityEngine::InputSystem::InputProcessor UnityEngine::InputSystem::InputProcessor::New_ctor()  {
+UnityEngine::InputSystem::InputProcessor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::InputProcessor>())};
+return o;
+}
  void UnityEngine::InputSystem::InputProcessor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::InputProcessor>::get(),

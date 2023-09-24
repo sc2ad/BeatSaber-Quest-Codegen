@@ -73,8 +73,7 @@ constexpr UnityEngine::ProBuilder::EntityType __get_m_EntityType() const;
 /// @brief Method SetEntity addr 0x29ac70c size 0x8 virtual false final false
  void SetEntity(UnityEngine::ProBuilder::EntityType t) ;
 
-// Ctor Parameters []
-explicit Entity() ;
+static UnityEngine::ProBuilder::Entity New_ctor() ;
 
 /// @brief Method .ctor addr 0x29ac714 size 0x8 virtual false final false
  void _ctor() ;

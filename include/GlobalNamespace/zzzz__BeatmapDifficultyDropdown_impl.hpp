@@ -3,10 +3,11 @@
 #include "GlobalNamespace/zzzz__BeatmapDifficultyDropdown_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficultyDropdown_def.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c._ctor
 template<>
@@ -54,8 +55,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Beatm
  System::Func_2<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask,::StringW>,::StringW> GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c::__get___9__11_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask,::StringW>,::StringW>, "<>9__11_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c::GlobalNamespace__BeatmapDifficultyDropdown____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapDifficultyDropdown____c>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c>::get(),
@@ -401,8 +404,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dropdownWithTableView, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapDifficultyDropdown::BeatmapDifficultyDropdown()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatmapDifficultyDropdown>())) {}
+ GlobalNamespace::BeatmapDifficultyDropdown GlobalNamespace::BeatmapDifficultyDropdown::New_ctor()  {
+GlobalNamespace::BeatmapDifficultyDropdown o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapDifficultyDropdown>())};
+return o;
+}
  void GlobalNamespace::BeatmapDifficultyDropdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapDifficultyDropdown>::get(),

@@ -1,25 +1,25 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace GlobalNamespace {
-class IAsyncComputeManager;
-}
-namespace System::Threading {
-class Thread;
+namespace System::Collections::Concurrent {
+template<typename T>
+class BlockingCollection_1;
 }
 namespace GlobalNamespace {
 template<typename T>
 class AsyncComputeOperation_1;
 }
-namespace GlobalNamespace {
-class AsyncComputeOperation;
-}
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Concurrent {
-template<typename T>
-class BlockingCollection_1;
+namespace GlobalNamespace {
+class IAsyncComputeManager;
+}
+namespace GlobalNamespace {
+class AsyncComputeOperation;
+}
+namespace System::Threading {
+class Thread;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
@@ -98,8 +98,7 @@ constexpr bool __get__disposed() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AsyncComputeManager() ;
+static GlobalNamespace::AsyncComputeManager New_ctor() ;
 
 /// @brief Method .ctor addr 0xd9c0d0 size 0x140 virtual false final false
  void _ctor() ;

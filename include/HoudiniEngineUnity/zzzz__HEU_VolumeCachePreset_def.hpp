@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace HoudiniEngineUnity {
-class HEU_VolumeLayerPreset;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeLayerPreset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -95,8 +95,7 @@ constexpr int32_t __get__tile() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_VolumeCachePreset() ;
+static HoudiniEngineUnity::HEU_VolumeCachePreset New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdafec size 0x7c virtual false final false
  void _ctor() ;

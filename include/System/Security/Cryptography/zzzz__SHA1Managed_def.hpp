@@ -76,8 +76,7 @@ constexpr ::ArrayW<uint32_t> __get__expandedBuffer() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SHA1Managed() ;
+static System::Security::Cryptography::SHA1Managed New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f3b10 size 0x124 virtual false final false
  void _ctor() ;

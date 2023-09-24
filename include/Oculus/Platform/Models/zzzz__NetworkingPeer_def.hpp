@@ -73,8 +73,7 @@ constexpr Oculus::Platform::PeerConnectionState __get__State_k__BackingField() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "Oculus::Platform::PeerConnectionState", modifiers: "", def_value: None }]
-explicit NetworkingPeer(uint64_t id, Oculus::Platform::PeerConnectionState state) ;
+static Oculus::Platform::Models::NetworkingPeer New_ctor(uint64_t id, Oculus::Platform::PeerConnectionState state) ;
 
 /// @brief Method .ctor addr 0x25a1b54 size 0x30 virtual false final false
  void _ctor(uint64_t id, Oculus::Platform::PeerConnectionState state) ;

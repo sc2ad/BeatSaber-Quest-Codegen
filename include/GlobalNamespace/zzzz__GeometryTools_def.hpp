@@ -57,8 +57,7 @@ constexpr explicit GeometryTools(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 /// @brief Method ThreePointsToBox addr 0x1f78274 size 0x3ec virtual false final false
 static bool ThreePointsToBox(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, ByRef<UnityEngine::Vector3> center, ByRef<UnityEngine::Vector3> halfSize, ByRef<UnityEngine::Quaternion> orientation) ;
 
-// Ctor Parameters []
-explicit GeometryTools() ;
+static GlobalNamespace::GeometryTools New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f78660 size 0x8 virtual false final false
  void _ctor() ;

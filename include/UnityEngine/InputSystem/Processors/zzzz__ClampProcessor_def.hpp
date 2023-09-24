@@ -13,7 +13,7 @@ class ClampProcessor;
 // Type: UnityEngine.InputSystem.Processors::ClampProcessor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6664))
 // CS Name: UnityEngine.InputSystem.Processors.ClampProcessor
 class CORDL_TYPE ClampProcessor : public UnityEngine::InputSystem::InputProcessor_1<float_t> {
@@ -73,8 +73,7 @@ constexpr float_t __get_max() const;
 /// @brief Method ToString addr 0x29663e0 size 0xa0 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit ClampProcessor() ;
+static UnityEngine::InputSystem::Processors::ClampProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2966480 size 0x48 virtual false final false
  void _ctor() ;

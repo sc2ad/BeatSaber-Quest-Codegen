@@ -5,11 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
-}
 namespace System {
 class Array;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalPrimitiveTypeE;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -132,8 +132,7 @@ constexpr ::ArrayW<uint64_t> __get_uint64A() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "code", ty: "System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE", modifiers: "", def_value: None }, CppParam { name: "array", ty: "System::Array", modifiers: "", def_value: None }]
-explicit PrimitiveArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array array) ;
+static System::Runtime::Serialization::Formatters::Binary::PrimitiveArray New_ctor(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array array) ;
 
 /// @brief Method .ctor addr 0x2361a40 size 0x34 virtual false final false
  void _ctor(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array array) ;

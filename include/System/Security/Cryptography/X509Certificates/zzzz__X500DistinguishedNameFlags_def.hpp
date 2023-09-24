@@ -64,6 +64,8 @@ constexpr operator __X500DistinguishedNameFlags_Unwrapped () const noexcept {
 return std::bit_cast<__X500DistinguishedNameFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

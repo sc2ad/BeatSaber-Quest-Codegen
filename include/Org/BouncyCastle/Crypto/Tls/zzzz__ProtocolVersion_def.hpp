@@ -115,8 +115,7 @@ constexpr ::StringW __get_name() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "v", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ProtocolVersion(int32_t v, ::StringW name) ;
+static Org::BouncyCastle::Crypto::Tls::ProtocolVersion New_ctor(int32_t v, ::StringW name) ;
 
 /// @brief Method .ctor addr 0xf055bc size 0x34 virtual false final false
  void _ctor(int32_t v, ::StringW name) ;

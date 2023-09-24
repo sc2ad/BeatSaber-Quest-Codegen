@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerEnumerated_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerEnumerated.GetInstance
 template<>
 
@@ -262,8 +262,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerEnumerated, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "val", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerEnumerated::DerEnumerated(int32_t val)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerEnumerated>(val))) {}
+ Org::BouncyCastle::Asn1::DerEnumerated Org::BouncyCastle::Asn1::DerEnumerated::New_ctor(int32_t val)  {
+Org::BouncyCastle::Asn1::DerEnumerated o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerEnumerated>(val))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerEnumerated::_ctor(int32_t val)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerEnumerated>::get(),
@@ -273,8 +275,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, val);
 }
-// Ctor Parameters [CppParam { name: "val", ty: "int64_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerEnumerated::DerEnumerated(int64_t val)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerEnumerated>(val))) {}
+ Org::BouncyCastle::Asn1::DerEnumerated Org::BouncyCastle::Asn1::DerEnumerated::New_ctor(int64_t val)  {
+Org::BouncyCastle::Asn1::DerEnumerated o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerEnumerated>(val))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerEnumerated::_ctor(int64_t val)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerEnumerated>::get(),
@@ -284,8 +288,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, val);
 }
-// Ctor Parameters [CppParam { name: "val", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerEnumerated::DerEnumerated(Org::BouncyCastle::Math::BigInteger val)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerEnumerated>(val))) {}
+ Org::BouncyCastle::Asn1::DerEnumerated Org::BouncyCastle::Asn1::DerEnumerated::New_ctor(Org::BouncyCastle::Math::BigInteger val)  {
+Org::BouncyCastle::Asn1::DerEnumerated o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerEnumerated>(val))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerEnumerated::_ctor(Org::BouncyCastle::Math::BigInteger val)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerEnumerated>::get(),
@@ -295,8 +301,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, val);
 }
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerEnumerated::DerEnumerated(::ArrayW<uint8_t> bytes)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerEnumerated>(bytes))) {}
+ Org::BouncyCastle::Asn1::DerEnumerated Org::BouncyCastle::Asn1::DerEnumerated::New_ctor(::ArrayW<uint8_t> bytes)  {
+Org::BouncyCastle::Asn1::DerEnumerated o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerEnumerated>(bytes))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerEnumerated::_ctor(::ArrayW<uint8_t> bytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerEnumerated>::get(),

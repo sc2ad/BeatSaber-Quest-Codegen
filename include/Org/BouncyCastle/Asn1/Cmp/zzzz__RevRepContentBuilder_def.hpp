@@ -1,17 +1,17 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertId;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class CertificateList;
 }
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertId;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class RevRepContent;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusInfo;
@@ -95,8 +95,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1EncodableVector __get_crls() const;
 /// @brief Method Build addr 0xde2124 size 0x1a4 virtual true final false
  Org::BouncyCastle::Asn1::Cmp::RevRepContent Build() ;
 
-// Ctor Parameters []
-explicit RevRepContentBuilder() ;
+static Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0xde22c8 size 0xa0 virtual false final false
  void _ctor() ;

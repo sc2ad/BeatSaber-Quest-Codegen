@@ -47,8 +47,7 @@ constexpr explicit UnityEngineModuleAssembly(void* ptr) noexcept : System::Attri
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngineModuleAssembly() ;
+static UnityEngine::UnityEngineModuleAssembly New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba0e98 size 0x8 virtual false final false
  void _ctor() ;

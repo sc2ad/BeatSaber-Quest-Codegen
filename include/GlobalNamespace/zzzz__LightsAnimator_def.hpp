@@ -16,13 +16,7 @@ template<typename T>
 class IEnumerator_1;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace GlobalNamespace {
 struct EaseType;
-}
-namespace GlobalNamespace {
-class DirectionalLight;
 }
 namespace Tweening {
 class TimeTweeningManager;
@@ -30,8 +24,17 @@ class TimeTweeningManager;
 namespace Tweening {
 class ColorTween;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class DirectionalLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -125,8 +128,7 @@ constexpr GlobalNamespace::LightsAnimator __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20e2b34 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -245,8 +247,7 @@ constexpr Tweening::ColorTween __get__tween() const;
 /// @brief Method DisableDirectionalLightsCoroutine addr 0x20e2abc size 0x78 virtual false final false
  System::Collections::IEnumerator DisableDirectionalLightsCoroutine(float_t delay) ;
 
-// Ctor Parameters []
-explicit LightsAnimator() ;
+static GlobalNamespace::LightsAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e2b5c size 0x8 virtual false final false
  void _ctor() ;

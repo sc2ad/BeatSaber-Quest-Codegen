@@ -13,7 +13,7 @@ class ZenjectManagersInstaller;
 // Type: Zenject::ZenjectManagersInstaller
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11073)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11073), inst: 3767 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11073), inst: 3767 }), TypeDefinitionIndex(TypeDefinitionIndex(11073))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11099))
 // CS Name: Zenject.ZenjectManagersInstaller
 class CORDL_TYPE ZenjectManagersInstaller : public Zenject::Installer_1<Zenject::ZenjectManagersInstaller> {
@@ -55,8 +55,7 @@ constexpr explicit ZenjectManagersInstaller(void* ptr) noexcept : Zenject::Insta
 /// @brief Method InstallBindings addr 0x2d7c8f4 size 0x1bc virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit ZenjectManagersInstaller() ;
+static Zenject::ZenjectManagersInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7cab0 size 0x48 virtual false final false
  void _ctor() ;

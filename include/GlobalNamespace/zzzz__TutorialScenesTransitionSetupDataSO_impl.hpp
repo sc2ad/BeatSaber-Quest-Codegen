@@ -2,10 +2,11 @@
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
-#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
+#include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__TutorialScenesTransitionSetupDataSO__TutorialEndStateType::GlobalNamespace__TutorialScenesTransitionSetupDataSO__TutorialEndStateType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -221,8 +222,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, endState);
 }
-// Ctor Parameters []
- GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialScenesTransitionSetupDataSO()  : GlobalNamespace::ScenesTransitionSetupDataSO(THROW_UNLESS(::il2cpp_utils::New<TutorialScenesTransitionSetupDataSO>())) {}
+ GlobalNamespace::TutorialScenesTransitionSetupDataSO GlobalNamespace::TutorialScenesTransitionSetupDataSO::New_ctor()  {
+GlobalNamespace::TutorialScenesTransitionSetupDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TutorialScenesTransitionSetupDataSO>())};
+return o;
+}
  void GlobalNamespace::TutorialScenesTransitionSetupDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TutorialScenesTransitionSetupDataSO>::get(),

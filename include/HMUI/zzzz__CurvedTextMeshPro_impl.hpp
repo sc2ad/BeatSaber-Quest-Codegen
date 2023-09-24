@@ -1,10 +1,10 @@
 #pragma once
 #include "TMPro/zzzz__TextMeshProUGUI_impl.hpp"
 #include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
-#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
-#include "GlobalNamespace/zzzz__IComponentRefresher_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
+#include "GlobalNamespace/zzzz__IComponentRefresher_def.hpp"
 //  Writing Method size for method: HMUI::CurvedTextMeshPro.get_useScriptableObjectColors
 template<>
 
@@ -226,8 +226,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::CurvedTextMeshPro::CurvedTextMeshPro()  : TMPro::TextMeshProUGUI(THROW_UNLESS(::il2cpp_utils::New<CurvedTextMeshPro>())) {}
+ HMUI::CurvedTextMeshPro HMUI::CurvedTextMeshPro::New_ctor()  {
+HMUI::CurvedTextMeshPro o{THROW_UNLESS(::il2cpp_utils::New<HMUI::CurvedTextMeshPro>())};
+return o;
+}
  void HMUI::CurvedTextMeshPro::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::CurvedTextMeshPro>::get(),

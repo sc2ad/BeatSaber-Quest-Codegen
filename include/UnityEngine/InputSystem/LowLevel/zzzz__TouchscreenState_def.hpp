@@ -8,6 +8,12 @@ struct FourCC;
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__TouchscreenState___primaryTouchData_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__TouchscreenState___touchData_e__FixedBuffer;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
 struct TouchscreenState;

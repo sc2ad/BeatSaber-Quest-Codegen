@@ -6,16 +6,16 @@ namespace GlobalNamespace {
 class GlobalNamespace__CoreGameHUDController__InitData;
 }
 namespace GlobalNamespace {
-class FlyingSpriteSpawner;
-}
-namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class FlyingSpriteSpawner;
 }
 namespace GlobalNamespace {
 class NoteController;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +105,7 @@ constexpr float_t __get__spawnPosZ() const;
 /// @brief Method HandleNoteWasMissed addr 0x22591e8 size 0x18c virtual false final false
  void HandleNoteWasMissed(GlobalNamespace::NoteController noteController) ;
 
-// Ctor Parameters []
-explicit MissedNoteEffectSpawner() ;
+static GlobalNamespace::MissedNoteEffectSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x2259374 size 0x8 virtual false final false
  void _ctor() ;

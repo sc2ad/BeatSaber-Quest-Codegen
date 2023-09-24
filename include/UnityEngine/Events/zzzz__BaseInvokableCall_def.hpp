@@ -54,14 +54,12 @@ constexpr explicit BaseInvokableCall(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Methods
 
-// Ctor Parameters []
-explicit BaseInvokableCall() ;
+static UnityEngine::Events::BaseInvokableCall New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b7f2d0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "function", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }]
-explicit BaseInvokableCall(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo function) ;
+static UnityEngine::Events::BaseInvokableCall New_ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo function) ;
 
 /// @brief Method .ctor addr 0x2b7f2d8 size 0xe8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo function) ;

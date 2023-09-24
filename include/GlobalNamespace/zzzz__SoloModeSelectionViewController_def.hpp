@@ -3,12 +3,15 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+struct GlobalNamespace__SoloModeSelectionViewController__MenuType;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,6 +71,8 @@ __Back = 3,
 constexpr operator __GlobalNamespace__SoloModeSelectionViewController__MenuType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SoloModeSelectionViewController__MenuType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -183,8 +188,7 @@ constexpr System::Action_2<GlobalNamespace::SoloModeSelectionViewController,Glob
 /// @brief Method HandleMenuButton addr 0x2182124 size 0x28 virtual false final false
  void HandleMenuButton(GlobalNamespace::GlobalNamespace__SoloModeSelectionViewController__MenuType subMenuType) ;
 
-// Ctor Parameters []
-explicit SoloModeSelectionViewController() ;
+static GlobalNamespace::SoloModeSelectionViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x218214c size 0x8 virtual false final false
  void _ctor() ;

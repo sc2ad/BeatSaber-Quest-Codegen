@@ -1,14 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Uri;
-}
 namespace System::Net {
 class IWebRequestCreate;
 }
 namespace System::Net {
 class WebRequest;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -59,8 +59,7 @@ constexpr explicit FtpWebRequestCreator(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Methods
 
-// Ctor Parameters []
-explicit FtpWebRequestCreator() ;
+static System::Net::FtpWebRequestCreator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2809558 size 0x8 virtual false final false
  void _ctor() ;

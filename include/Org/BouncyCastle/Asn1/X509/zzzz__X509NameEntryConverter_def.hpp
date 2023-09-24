@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -64,8 +64,7 @@ constexpr explicit X509NameEntryConverter(void* ptr) noexcept : ::bs_hook::Il2Cp
 /// @brief Method GetConvertedValue addr 0x0 size 0xffffffffffffffff virtual true final false
  Org::BouncyCastle::Asn1::Asn1Object GetConvertedValue(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, ::StringW value) ;
 
-// Ctor Parameters []
-explicit X509NameEntryConverter() ;
+static Org::BouncyCastle::Asn1::X509::X509NameEntryConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1113708 size 0x8 virtual false final false
  void _ctor() ;

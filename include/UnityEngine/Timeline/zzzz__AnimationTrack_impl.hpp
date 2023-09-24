@@ -1,35 +1,35 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AnimationTrack_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ILayerable_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IntervalTree_1_def.hpp"
-#include "UnityEngine/Timeline/zzzz__MatchTargetFields_def.hpp"
-#include "UnityEngine/Timeline/zzzz__RuntimeElement_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"
-#include "UnityEngine/zzzz__AvatarMask_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ILayerable_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TrackOffset_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IntervalTree_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__MatchTargetFields_def.hpp"
+#include "UnityEngine/zzzz__AvatarMask_def.hpp"
 #include "UnityEngine/Timeline/zzzz__AnimationPlayableAsset_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
-#include "UnityEngine/Animations/zzzz__AnimationLayerMixerPlayable_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TrackOffset_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "UnityEngine/Timeline/zzzz__AppliedOffsetMode_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
+#include "UnityEngine/Animations/zzzz__AnimationLayerMixerPlayable_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"
+#include "UnityEngine/Timeline/zzzz__AnimationTrack_def.hpp"
+#include "UnityEngine/Timeline/zzzz__RuntimeElement_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack__AnimationTrackUpgrade.ConvertRotationsToEuler
 template<>
 
@@ -288,8 +288,10 @@ constexpr void UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack___ge
 constexpr UnityEngine::Timeline::AnimationTrack UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack___get_outputs_d__49::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Timeline::AnimationTrack, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack___get_outputs_d__49::UnityEngine__Timeline__AnimationTrack___get_outputs_d__49(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__AnimationTrack___get_outputs_d__49>(__1__state))) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack___get_outputs_d__49 UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack___get_outputs_d__49::New_ctor(int32_t __1__state)  {
+UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack___get_outputs_d__49 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack___get_outputs_d__49>(__1__state))};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack___get_outputs_d__49::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack___get_outputs_d__49>::get(),
@@ -2577,8 +2579,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oldVersion);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::AnimationTrack::AnimationTrack()  : UnityEngine::Timeline::TrackAsset(THROW_UNLESS(::il2cpp_utils::New<AnimationTrack>())) {}
+ UnityEngine::Timeline::AnimationTrack UnityEngine::Timeline::AnimationTrack::New_ctor()  {
+UnityEngine::Timeline::AnimationTrack o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::AnimationTrack>())};
+return o;
+}
  void UnityEngine::Timeline::AnimationTrack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::AnimationTrack>::get(),

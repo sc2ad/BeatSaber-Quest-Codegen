@@ -1,9 +1,10 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
 #include "System/zzzz__Int32Enum_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum>._ctor
 template<>
@@ -74,8 +75,10 @@ return ::cordl_internals::getStaticField<System::Func_3<::StringW,System::Int32E
  System::Func_3<::StringW,System::Int32Enum,System::Int32Enum> UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum>::__get___9__4_0()  {
 return ::cordl_internals::getStaticField<System::Func_3<::StringW,System::Int32Enum,System::Int32Enum>, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum>>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum>::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum> UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum>::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum>>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum>>::get(),
@@ -154,8 +157,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UxmlEnumAttributeDescription_1<System::Int32Enum>::UxmlEnumAttributeDescription_1()  : UnityEngine::UIElements::TypedUxmlAttributeDescription_1<System::Int32Enum>(THROW_UNLESS(::il2cpp_utils::New<UxmlEnumAttributeDescription_1>())) {}
+ UnityEngine::UIElements::UxmlEnumAttributeDescription_1<System::Int32Enum> UnityEngine::UIElements::UxmlEnumAttributeDescription_1<System::Int32Enum>::New_ctor()  {
+UnityEngine::UIElements::UxmlEnumAttributeDescription_1<System::Int32Enum> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UxmlEnumAttributeDescription_1<System::Int32Enum>>())};
+return o;
+}
  void UnityEngine::UIElements::UxmlEnumAttributeDescription_1<System::Int32Enum>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UxmlEnumAttributeDescription_1<System::Int32Enum>>::get(),

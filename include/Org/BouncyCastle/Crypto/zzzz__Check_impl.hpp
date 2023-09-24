@@ -95,8 +95,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, buf, off, len, msg);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Check::Check()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Check>())) {}
+ Org::BouncyCastle::Crypto::Check Org::BouncyCastle::Crypto::Check::New_ctor()  {
+Org::BouncyCastle::Crypto::Check o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Check>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Check::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Check>::get(),

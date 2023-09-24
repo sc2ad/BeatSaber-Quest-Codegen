@@ -1,37 +1,38 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSystem_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlLayoutChange_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputMetrics_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventListener_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceFindControlLayoutDelegate_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionChange_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputRuntime_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputRuntime_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputSystem_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSettings_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommandDelegate_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Version_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControlLayoutChange_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputMetrics_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
+#include "System/zzzz__IObservable_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventListener_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommandDelegate_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceFindControlLayoutDelegate_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeltaStateEvent_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__StateEvent_def.hpp"
@@ -154,8 +155,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem
  System::Func_2<UnityEngine::InputSystem::InputControl,bool> UnityEngine::InputSystem::UnityEngine__InputSystem__InputSystem____c::__get___9__79_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::InputControl,bool>, "<>9__79_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputSystem____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputSystem____c::UnityEngine__InputSystem__InputSystem____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputSystem____c>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputSystem____c UnityEngine::InputSystem::UnityEngine__InputSystem__InputSystem____c::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputSystem____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputSystem____c>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputSystem____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputSystem____c>::get(),

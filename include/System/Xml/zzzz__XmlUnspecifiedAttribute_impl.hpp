@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/zzzz__XmlAttribute_impl.hpp"
 #include "System/Xml/zzzz__XmlUnspecifiedAttribute_def.hpp"
-#include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlNode_def.hpp"
 //  Writing Method size for method: System::Xml::XmlUnspecifiedAttribute._ctor
 template<>
 
@@ -128,8 +128,10 @@ constexpr void System::Xml::XmlUnspecifiedAttribute::__set_fSpecified(bool value
 constexpr bool System::Xml::XmlUnspecifiedAttribute::__get_fSpecified() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "namespaceURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlUnspecifiedAttribute::XmlUnspecifiedAttribute(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc)  : System::Xml::XmlAttribute(THROW_UNLESS(::il2cpp_utils::New<XmlUnspecifiedAttribute>(prefix, localName, namespaceURI, doc))) {}
+ System::Xml::XmlUnspecifiedAttribute System::Xml::XmlUnspecifiedAttribute::New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc)  {
+System::Xml::XmlUnspecifiedAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlUnspecifiedAttribute>(prefix, localName, namespaceURI, doc))};
+return o;
+}
  void System::Xml::XmlUnspecifiedAttribute::_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlUnspecifiedAttribute>::get(),

@@ -7,55 +7,55 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct FilterMode;
+class Renderer;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::Rendering {
-struct RenderTargetIdentifier;
-}
-namespace UnityEngine::Rendering {
-struct RenderBufferLoadAction;
-}
-namespace UnityEngine::Rendering {
-struct RenderBufferStoreAction;
-}
-namespace UnityEngine::Rendering {
-struct CommandBufferExecutionFlags;
-}
-namespace System {
-class IDisposable;
+struct Vector2;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
+namespace UnityEngine::Rendering {
+struct RenderTargetIdentifier;
+}
 namespace UnityEngine {
 class Material;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine {
 struct RenderTextureMemoryless;
 }
 namespace UnityEngine {
-struct Vector2;
+struct RenderTextureFormat;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine::Rendering {
+struct RenderBufferLoadAction;
+}
+namespace UnityEngine::Rendering {
+struct CommandBufferExecutionFlags;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine::Rendering {
 struct RenderTextureSubElement;
 }
 namespace UnityEngine {
-class Renderer;
+struct FilterMode;
 }
-namespace UnityEngine {
-struct RenderTextureFormat;
+namespace UnityEngine::Rendering {
+struct RenderBufferStoreAction;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -195,8 +195,7 @@ static ::cordl_internals::intptr_t InitBuffer() ;
 /// @brief Method Dispose addr 0x2b72a94 size 0x78 virtual false final false
  void Dispose(bool disposing) ;
 
-// Ctor Parameters []
-explicit CommandBuffer() ;
+static UnityEngine::Rendering::CommandBuffer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b72b70 size 0x48 virtual false final false
  void _ctor() ;

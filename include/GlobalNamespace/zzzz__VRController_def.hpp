@@ -3,11 +3,23 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 class VRControllerTransformOffset;
 }
-namespace UnityEngine::XR {
-struct XRNode;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Pose;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 class Transform;
@@ -15,20 +27,8 @@ class Transform;
 namespace UnityEngine {
 class GameObject;
 }
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Pose;
-}
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::XR {
+struct XRNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -240,8 +240,7 @@ static UnityEngine::Pose InvertControllerPose(UnityEngine::Pose finalPose) ;
 /// @brief Method Update addr 0x1f8e294 size 0x2b4 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit VRController() ;
+static GlobalNamespace::VRController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8e548 size 0x98 virtual false final false
  void _ctor() ;

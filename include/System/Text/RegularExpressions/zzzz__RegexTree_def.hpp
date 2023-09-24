@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Text::RegularExpressions {
-struct RegexOptions;
+class RegexNode;
 }
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Text::RegularExpressions {
-class RegexNode;
+struct RegexOptions;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -104,8 +104,7 @@ constexpr System::Text::RegularExpressions::RegexOptions __get_Options() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "root", ty: "System::Text::RegularExpressions::RegexNode", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capNumList", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "capTop", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "capNames", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capsList", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }]
-explicit RegexTree(System::Text::RegularExpressions::RegexNode root, System::Collections::Hashtable caps, ::ArrayW<int32_t> capNumList, int32_t capTop, System::Collections::Hashtable capNames, ::ArrayW<::StringW> capsList, System::Text::RegularExpressions::RegexOptions options) ;
+static System::Text::RegularExpressions::RegexTree New_ctor(System::Text::RegularExpressions::RegexNode root, System::Collections::Hashtable caps, ::ArrayW<int32_t> capNumList, int32_t capTop, System::Collections::Hashtable capNames, ::ArrayW<::StringW> capsList, System::Text::RegularExpressions::RegexOptions options) ;
 
 /// @brief Method .ctor addr 0x27d1380 size 0x68 virtual false final false
  void _ctor(System::Text::RegularExpressions::RegexNode root, System::Collections::Hashtable caps, ::ArrayW<int32_t> capNumList, int32_t capTop, System::Collections::Hashtable capNames, ::ArrayW<::StringW> capsList, System::Text::RegularExpressions::RegexOptions options) ;

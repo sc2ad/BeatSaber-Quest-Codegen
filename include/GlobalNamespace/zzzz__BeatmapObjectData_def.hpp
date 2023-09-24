@@ -49,8 +49,7 @@ constexpr explicit BeatmapObjectData(void* ptr) noexcept : GlobalNamespace::Beat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifier", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BeatmapObjectData(float_t time, int32_t subtypeIdentifier) ;
+static GlobalNamespace::BeatmapObjectData New_ctor(float_t time, int32_t subtypeIdentifier) ;
 
 /// @brief Method .ctor addr 0xd93b9c size 0x40 virtual false final false
  void _ctor(float_t time, int32_t subtypeIdentifier) ;

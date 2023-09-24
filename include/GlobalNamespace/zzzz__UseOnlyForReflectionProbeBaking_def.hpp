@@ -50,8 +50,7 @@ constexpr explicit UseOnlyForReflectionProbeBaking(void* ptr) noexcept : UnityEn
 /// @brief Method Awake addr 0x219d040 size 0x24 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit UseOnlyForReflectionProbeBaking() ;
+static GlobalNamespace::UseOnlyForReflectionProbeBaking New_ctor() ;
 
 /// @brief Method .ctor addr 0x219d064 size 0x8 virtual false final false
  void _ctor() ;

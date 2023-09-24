@@ -81,8 +81,7 @@ constexpr bool __get__IsReadOnly_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isReadOnly", ty: "bool", modifiers: "", def_value: None }]
-explicit ReadOnlyAttribute(bool isReadOnly) ;
+static System::ComponentModel::ReadOnlyAttribute New_ctor(bool isReadOnly) ;
 
 /// @brief Method .ctor addr 0x27725c4 size 0x28 virtual false final false
  void _ctor(bool isReadOnly) ;

@@ -8,14 +8,17 @@
 namespace System::Security::AccessControl {
 struct ResourceType;
 }
+namespace System::Security::AccessControl {
+struct AccessControlSections;
+}
 namespace System::Runtime::InteropServices {
 class SafeHandle;
 }
+namespace System::Security::AccessControl {
+class System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode;
+}
 namespace System {
 class Exception;
-}
-namespace System::Security::AccessControl {
-struct AccessControlSections;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -66,8 +69,7 @@ constexpr explicit System__Security__AccessControl__NativeObjectSecurity__Except
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2319070 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -132,20 +134,17 @@ constexpr System::Security::AccessControl::System__Security__AccessControl__Nati
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Security::AccessControl::ResourceType", modifiers: "", def_value: None }, CppParam { name: "exceptionFromErrorCode", ty: "System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode", modifiers: "", def_value: None }, CppParam { name: "exceptionContext", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit NativeObjectSecurity(bool isContainer, System::Security::AccessControl::ResourceType resourceType, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext) ;
+static System::Security::AccessControl::NativeObjectSecurity New_ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext) ;
 
 /// @brief Method .ctor addr 0x2318cbc size 0x2c virtual false final false
  void _ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext) ;
 
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Security::AccessControl::ResourceType", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }]
-explicit NativeObjectSecurity(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;
+static System::Security::AccessControl::NativeObjectSecurity New_ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;
 
 /// @brief Method .ctor addr 0x2318380 size 0x10 virtual false final false
  void _ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;
 
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Security::AccessControl::ResourceType", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }, CppParam { name: "exceptionFromErrorCode", ty: "System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode", modifiers: "", def_value: None }, CppParam { name: "exceptionContext", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit NativeObjectSecurity(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext) ;
+static System::Security::AccessControl::NativeObjectSecurity New_ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext) ;
 
 /// @brief Method .ctor addr 0x2318ce8 size 0x74 virtual false final false
  void _ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext) ;

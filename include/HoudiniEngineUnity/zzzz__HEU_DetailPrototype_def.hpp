@@ -129,8 +129,7 @@ constexpr int32_t __get__renderMode() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_DetailPrototype() ;
+static HoudiniEngineUnity::HEU_DetailPrototype New_ctor() ;
 
 /// @brief Method .ctor addr 0x2077f90 size 0xfc virtual false final false
  void _ctor() ;

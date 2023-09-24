@@ -2,24 +2,24 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-struct EaseType;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace Tweening {
-class TimeTweeningManager;
-}
 namespace Tweening {
 template<typename T>
 class Tween_1;
 }
 namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct Quaternion;
+}
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -124,8 +124,7 @@ constexpr bool __get__initialized() const;
 /// @brief Method Animate addr 0x21053e8 size 0xfc virtual false final false
  void Animate(bool show, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;
 
-// Ctor Parameters []
-explicit ScaleAnimator() ;
+static GlobalNamespace::ScaleAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x21054e4 size 0x10 virtual false final false
  void _ctor() ;

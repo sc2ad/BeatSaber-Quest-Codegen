@@ -3,22 +3,23 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "System/zzzz__Version_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRPlugin__GUID._ctor
@@ -104,8 +105,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRPlugin__GUID::__set_d7(uint8
 constexpr uint8_t GlobalNamespace::GlobalNamespace__OVRPlugin__GUID::__get_d7() const {
 return ::cordl_internals::getInstanceField<uint8_t, 0x1f>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRPlugin__GUID::GlobalNamespace__OVRPlugin__GUID()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRPlugin__GUID>())) {}
+ GlobalNamespace::GlobalNamespace__OVRPlugin__GUID GlobalNamespace::GlobalNamespace__OVRPlugin__GUID::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRPlugin__GUID o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRPlugin__GUID>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRPlugin__GUID::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRPlugin__GUID>::get(),
@@ -235,8 +238,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRPlugin__LogCallback2DelegateType::GlobalNamespace__OVRPlugin__LogCallback2DelegateType(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRPlugin__LogCallback2DelegateType>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__OVRPlugin__LogCallback2DelegateType GlobalNamespace::GlobalNamespace__OVRPlugin__LogCallback2DelegateType::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__OVRPlugin__LogCallback2DelegateType o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRPlugin__LogCallback2DelegateType>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRPlugin__LogCallback2DelegateType::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRPlugin__LogCallback2DelegateType>::get(),
@@ -4567,8 +4572,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh::__set_BlendWei
 constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4f> GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh::__get_BlendWeights() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4f>, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh::GlobalNamespace__OVRPlugin__Mesh()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRPlugin__Mesh>())) {}
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh>::get(),
@@ -7320,8 +7327,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRPlugin__Media::GlobalNamespace__OVRPlugin__Media()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRPlugin__Media>())) {}
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Media GlobalNamespace::GlobalNamespace__OVRPlugin__Media::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRPlugin__Media o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRPlugin__Media>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRPlugin__Media::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRPlugin__Media>::get(),
@@ -7675,8 +7684,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, texture);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRPlugin__Ktx::GlobalNamespace__OVRPlugin__Ktx()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRPlugin__Ktx>())) {}
+ GlobalNamespace::GlobalNamespace__OVRPlugin__Ktx GlobalNamespace::GlobalNamespace__OVRPlugin__Ktx::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRPlugin__Ktx o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRPlugin__Ktx>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRPlugin__Ktx::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRPlugin__Ktx>::get(),
@@ -7995,8 +8006,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, xrSession);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRPlugin__UnityOpenXR::GlobalNamespace__OVRPlugin__UnityOpenXR()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRPlugin__UnityOpenXR>())) {}
+ GlobalNamespace::GlobalNamespace__OVRPlugin__UnityOpenXR GlobalNamespace::GlobalNamespace__OVRPlugin__UnityOpenXR::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRPlugin__UnityOpenXR o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRPlugin__UnityOpenXR>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRPlugin__UnityOpenXR::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRPlugin__UnityOpenXR>::get(),

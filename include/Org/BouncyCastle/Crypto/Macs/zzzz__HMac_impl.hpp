@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__HMac_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Macs::HMac._ctor
 template<>
 
@@ -220,8 +220,10 @@ constexpr void Org::BouncyCastle::Crypto::Macs::HMac::__set_outputBuf(::ArrayW<u
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Macs::HMac::__get_outputBuf() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Macs::HMac::HMac(Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMac>(digest))) {}
+ Org::BouncyCastle::Crypto::Macs::HMac Org::BouncyCastle::Crypto::Macs::HMac::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Macs::HMac o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::HMac>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::HMac::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::HMac>::get(),

@@ -2,11 +2,11 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::IO {
-class TextReader;
-}
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
+}
+namespace System::IO {
+class TextReader;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO::Pem {
@@ -74,8 +74,7 @@ constexpr System::IO::TextReader __get_reader() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::TextReader", modifiers: "", def_value: None }]
-explicit PemReader(System::IO::TextReader reader) ;
+static Org::BouncyCastle::Utilities::IO::Pem::PemReader New_ctor(System::IO::TextReader reader) ;
 
 /// @brief Method .ctor addr 0x10453f8 size 0x78 virtual false final false
  void _ctor(System::IO::TextReader reader) ;

@@ -1,15 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRRuntimeController_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__OVRInput_def.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFInputNode_def.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFAnimatinonNode_def.hpp"
+#include "GlobalNamespace/zzzz__OVRRuntimeController_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-#include "GlobalNamespace/zzzz__OVRInput_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16._ctor
 template<>
 
@@ -142,8 +143,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateCo
 constexpr GlobalNamespace::OVRRuntimeController GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OVRRuntimeController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16 GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRRuntimeController___UpdateControllerModel_d__16>::get(),
@@ -495,8 +498,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRRuntimeController::OVRRuntimeController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRRuntimeController>())) {}
+ GlobalNamespace::OVRRuntimeController GlobalNamespace::OVRRuntimeController::New_ctor()  {
+GlobalNamespace::OVRRuntimeController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRRuntimeController>())};
+return o;
+}
  void GlobalNamespace::OVRRuntimeController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRRuntimeController>::get(),

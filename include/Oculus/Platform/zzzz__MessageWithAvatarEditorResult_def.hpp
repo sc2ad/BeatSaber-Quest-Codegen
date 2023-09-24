@@ -13,7 +13,7 @@ class MessageWithAvatarEditorResult;
 // Type: Oculus.Platform::MessageWithAvatarEditorResult
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4433 }), TypeDefinitionIndex(TypeDefinitionIndex(13394))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4433 }), TypeDefinitionIndex(TypeDefinitionIndex(13394)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13220))
 // CS Name: Oculus.Platform.MessageWithAvatarEditorResult
 class CORDL_TYPE MessageWithAvatarEditorResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AvatarEditorResult> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithAvatarEditorResult(void* ptr) noexcept : Oculus::P
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithAvatarEditorResult(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithAvatarEditorResult New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e168 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

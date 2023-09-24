@@ -54,8 +54,7 @@ constexpr explicit MemoryInputStream(void* ptr) noexcept : System::IO::MemoryStr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit MemoryInputStream(::ArrayW<uint8_t> buffer) ;
+static Org::BouncyCastle::Utilities::IO::MemoryInputStream New_ctor(::ArrayW<uint8_t> buffer) ;
 
 /// @brief Method .ctor addr 0x10d39d0 size 0xc virtual false final false
  void _ctor(::ArrayW<uint8_t> buffer) ;

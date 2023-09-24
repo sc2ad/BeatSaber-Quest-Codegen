@@ -4,26 +4,32 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class NavigationMoveEvent;
+struct UnityEngine__UIElements__KeyboardNavigationManipulator____c__DisplayClass6_0;
 }
 namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
-class NavigationCancelEvent;
+struct KeyboardNavigationOperation;
 }
 namespace UnityEngine::UIElements {
-struct KeyboardNavigationOperation;
+class NavigationMoveEvent;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
 class NavigationSubmitEvent;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__KeyboardNavigationManipulator____c__DisplayClass5_0;
+}
+namespace UnityEngine::UIElements {
+class NavigationCancelEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -196,8 +202,7 @@ constexpr System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,UnityEngine::UIElements::EventBase>", modifiers: "", def_value: None }]
-explicit KeyboardNavigationManipulator(System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,UnityEngine::UIElements::EventBase> action) ;
+static UnityEngine::UIElements::KeyboardNavigationManipulator New_ctor(System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,UnityEngine::UIElements::EventBase> action) ;
 
 /// @brief Method .ctor addr 0x2c4af1c size 0x28 virtual false final false
  void _ctor(System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,UnityEngine::UIElements::EventBase> action) ;

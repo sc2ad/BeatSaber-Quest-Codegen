@@ -66,8 +66,7 @@ static ::ArrayW<System::Security::Cryptography::KeySizes> __get_s_legalKeySizes(
 
 // Methods
 
-// Ctor Parameters []
-explicit Aes() ;
+static System::Security::Cryptography::Aes New_ctor() ;
 
 /// @brief Method .ctor addr 0x22ef994 size 0x84 virtual false final false
  void _ctor() ;

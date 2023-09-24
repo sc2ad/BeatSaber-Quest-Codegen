@@ -10,13 +10,13 @@ namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +109,7 @@ constexpr ::StringW __get_backButtonText() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "missionObjectives", ty: "::ArrayW<GlobalNamespace::MissionObjective>", modifiers: "", def_value: None }, CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "backButtonText", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MissionGameplaySceneSetupData(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::GameplayModifiers gameplayModifiers, ::StringW backButtonText) ;
+static GlobalNamespace::MissionGameplaySceneSetupData New_ctor(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::GameplayModifiers gameplayModifiers, ::StringW backButtonText) ;
 
 /// @brief Method .ctor addr 0x21cf940 size 0x6c virtual false final false
  void _ctor(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::GameplayModifiers gameplayModifiers, ::StringW backButtonText) ;

@@ -3,14 +3,14 @@
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include <cmath>
-namespace Tweening {
-class FloatTween;
+namespace GlobalNamespace {
+class BaseTransitionSO;
 }
 namespace GlobalNamespace {
 class CanvasGroupTransitionSO;
 }
-namespace GlobalNamespace {
-class BaseTransitionSO;
+namespace Tweening {
+class FloatTween;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +19,7 @@ class CanvasGroupStateTransition;
 // Type: ::CanvasGroupStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), TypeDefinitionIndex(TypeDefinitionIndex(15764)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 892 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15764)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 892 }), TypeDefinitionIndex(TypeDefinitionIndex(5544))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5546))
 // CS Name: CanvasGroupStateTransition
 class CORDL_TYPE CanvasGroupStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::CanvasGroup> {
@@ -120,8 +120,7 @@ constexpr Tweening::FloatTween __get__floatTween() const;
 /// @brief Method StartTween addr 0x2127ed4 size 0x1dc virtual false final false
  void StartTween(float_t endAlpha) ;
 
-// Ctor Parameters []
-explicit CanvasGroupStateTransition() ;
+static GlobalNamespace::CanvasGroupStateTransition New_ctor() ;
 
 /// @brief Method .ctor addr 0x212822c size 0x48 virtual false final false
  void _ctor() ;

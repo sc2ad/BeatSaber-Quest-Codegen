@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Generator_def.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -75,14 +75,12 @@ constexpr int32_t __get__tagNo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BerGenerator(System::IO::Stream outStream) ;
+static Org::BouncyCastle::Asn1::BerGenerator New_ctor(System::IO::Stream outStream) ;
 
 /// @brief Method .ctor addr 0x1130c80 size 0x2c virtual false final false
  void _ctor(System::IO::Stream outStream) ;
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
-explicit BerGenerator(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::BerGenerator New_ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
 
 /// @brief Method .ctor addr 0x1130cac size 0x4c virtual false final false
  void _ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;

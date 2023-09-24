@@ -2,17 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Runtime::Remoting::Proxies {
-class RealProxy;
+namespace Mono {
+struct RuntimeRemoteClassHandle;
 }
 namespace System {
 class RuntimeType;
 }
-namespace Mono {
-struct RuntimeRemoteClassHandle;
-}
 namespace System::Runtime::Remoting::Contexts {
 class Context;
+}
+namespace System::Runtime::Remoting::Proxies {
+class RealProxy;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {
@@ -106,8 +106,7 @@ constexpr bool __get__custom_type_info() const;
 /// @brief Method StoreRemoteField addr 0x232b150 size 0x2d8 virtual false final false
  void StoreRemoteField(::cordl_internals::intptr_t classPtr, ::cordl_internals::intptr_t fieldPtr, ::bs_hook::Il2CppWrapperType arg) ;
 
-// Ctor Parameters []
-explicit TransparentProxy() ;
+static System::Runtime::Remoting::Proxies::TransparentProxy New_ctor() ;
 
 /// @brief Method .ctor addr 0x232b428 size 0x8 virtual false final false
  void _ctor() ;

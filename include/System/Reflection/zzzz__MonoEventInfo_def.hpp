@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class MethodInfo;
 }
 namespace System::Reflection {
 struct EventAttributes;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {

@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyTransRecipientInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo._ctor
 template<>
 
@@ -167,8 +167,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo::__set_encryp
 constexpr Org::BouncyCastle::Asn1::Asn1OctetString Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo::__get_encryptedKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1OctetString, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rid", ty: "Org::BouncyCastle::Asn1::Cms::RecipientIdentifier", modifiers: "", def_value: None }, CppParam { name: "keyEncryptionAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptedKey", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo::KeyTransRecipientInfo(Org::BouncyCastle::Asn1::Cms::RecipientIdentifier rid, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<KeyTransRecipientInfo>(rid, keyEncryptionAlgorithm, encryptedKey))) {}
+ Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo::New_ctor(Org::BouncyCastle::Asn1::Cms::RecipientIdentifier rid, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey)  {
+Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo>(rid, keyEncryptionAlgorithm, encryptedKey))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo::_ctor(Org::BouncyCastle::Asn1::Cms::RecipientIdentifier rid, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo>::get(),
@@ -178,8 +180,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, rid, keyEncryptionAlgorithm, encryptedKey);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo::KeyTransRecipientInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<KeyTransRecipientInfo>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo>::get(),

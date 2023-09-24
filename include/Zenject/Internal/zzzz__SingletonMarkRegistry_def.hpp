@@ -1,12 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -75,8 +75,7 @@ constexpr System::Collections::Generic::HashSet_1<System::Type> __get__boundNonS
 /// @brief Method MarkSingleton addr 0x2da8018 size 0xd4 virtual false final false
  void MarkSingleton(System::Type type) ;
 
-// Ctor Parameters []
-explicit SingletonMarkRegistry() ;
+static Zenject::Internal::SingletonMarkRegistry New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da80ec size 0xa0 virtual false final false
  void _ctor() ;

@@ -61,8 +61,7 @@ static constexpr int32_t  NMAX{5552};
 /// @brief Method adler32 addr 0x10d4968 size 0x32c virtual false final false
  int64_t adler32(int64_t adler, ::ArrayW<uint8_t> buf, int32_t index, int32_t len) ;
 
-// Ctor Parameters []
-explicit Adler32() ;
+static Org::BouncyCastle::Utilities::Zlib::Adler32 New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d4c94 size 0x8 virtual false final false
  void _ctor() ;

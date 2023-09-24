@@ -20,7 +20,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11027)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 151 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11026)), TypeDefinitionIndex(TypeDefinitionIndex(11027)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 151 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11027), inst: 2 })
 // CS Name: Zenject.StaticMemoryPoolBase`1
 class CORDL_TYPE StaticMemoryPoolBase_1<TValue> : public Zenject::StaticMemoryPoolBaseBase_1<TValue> {
@@ -59,8 +59,7 @@ constexpr explicit StaticMemoryPoolBase_1(void* ptr) noexcept : Zenject::StaticM
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onDespawnedMethod", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }]
-explicit StaticMemoryPoolBase_1(System::Action_1<TValue> onDespawnedMethod) ;
+static Zenject::StaticMemoryPoolBase_1<TValue> New_ctor(System::Action_1<TValue> onDespawnedMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Action_1<TValue> onDespawnedMethod) ;

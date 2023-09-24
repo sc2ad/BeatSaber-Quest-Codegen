@@ -7,33 +7,33 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-struct DateTime;
-}
-namespace System {
 template<typename T>
 struct Span_1;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+struct Base64FormattingOptions;
+}
+namespace System {
+struct Decimal;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
 namespace System {
-class IConvertible;
-}
-namespace System {
-struct Base64FormattingOptions;
-}
-namespace System {
-struct TypeCode;
+struct DateTime;
 }
 namespace System {
 class Type;
 }
 namespace System {
-struct Decimal;
-}
-namespace System {
-class IFormatProvider;
+class IConvertible;
 }
 // Forward declare root types
 namespace System {

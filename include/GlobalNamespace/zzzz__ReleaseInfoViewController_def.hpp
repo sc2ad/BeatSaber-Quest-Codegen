@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace GlobalNamespace {
-class MainSettingsModelSO;
+namespace UnityEngine {
+class TextAsset;
 }
 namespace HMUI {
 class TextPageScrollView;
 }
-namespace UnityEngine {
-class TextAsset;
+namespace GlobalNamespace {
+class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr UnityEngine::TextAsset __get__firstTextAsset() const;
 /// @brief Method DidActivate addr 0x217f154 size 0x5c virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit ReleaseInfoViewController() ;
+static GlobalNamespace::ReleaseInfoViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217f1b0 size 0x8 virtual false final false
  void _ctor() ;

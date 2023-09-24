@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyKeyFileAttribute::__set__KeyFile_k__B
 constexpr ::StringW System::Reflection::AssemblyKeyFileAttribute::__get__KeyFile_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "keyFile", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyKeyFileAttribute::AssemblyKeyFileAttribute(::StringW keyFile)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyKeyFileAttribute>(keyFile))) {}
+ System::Reflection::AssemblyKeyFileAttribute System::Reflection::AssemblyKeyFileAttribute::New_ctor(::StringW keyFile)  {
+System::Reflection::AssemblyKeyFileAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyKeyFileAttribute>(keyFile))};
+return o;
+}
  void System::Reflection::AssemblyKeyFileAttribute::_ctor(::StringW keyFile)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyKeyFileAttribute>::get(),

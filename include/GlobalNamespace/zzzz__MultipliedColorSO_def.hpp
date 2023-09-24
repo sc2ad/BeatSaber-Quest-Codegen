@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-namespace GlobalNamespace {
-class SimpleColorSO;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class SimpleColorSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,8 +76,7 @@ constexpr UnityEngine::Color __get__multiplierColor() const;
 /// @brief Method get_color addr 0x11a36b8 size 0x50 virtual true final false
  UnityEngine::Color get_color() ;
 
-// Ctor Parameters []
-explicit MultipliedColorSO() ;
+static GlobalNamespace::MultipliedColorSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a3708 size 0x8 virtual false final false
  void _ctor() ;

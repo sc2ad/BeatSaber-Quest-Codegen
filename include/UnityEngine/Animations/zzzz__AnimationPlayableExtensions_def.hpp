@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
 namespace UnityEngine {
 class AnimationClip;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

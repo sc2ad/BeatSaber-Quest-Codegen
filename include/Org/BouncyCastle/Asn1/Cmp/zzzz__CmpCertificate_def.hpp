@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
-}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AttributeCertificate;
@@ -87,14 +87,12 @@ constexpr Org::BouncyCastle::Asn1::X509::AttributeCertificate __get_x509v2AttrCe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "x509v2AttrCert", ty: "Org::BouncyCastle::Asn1::X509::AttributeCertificate", modifiers: "", def_value: None }]
-explicit CmpCertificate(Org::BouncyCastle::Asn1::X509::AttributeCertificate x509v2AttrCert) ;
+static Org::BouncyCastle::Asn1::Cmp::CmpCertificate New_ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificate x509v2AttrCert) ;
 
 /// @brief Method .ctor addr 0xdd936c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificate x509v2AttrCert) ;
 
-// Ctor Parameters [CppParam { name: "x509v3PKCert", ty: "Org::BouncyCastle::Asn1::X509::X509CertificateStructure", modifiers: "", def_value: None }]
-explicit CmpCertificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure x509v3PKCert) ;
+static Org::BouncyCastle::Asn1::Cmp::CmpCertificate New_ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure x509v3PKCert) ;
 
 /// @brief Method .ctor addr 0xdd9394 size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure x509v3PKCert) ;

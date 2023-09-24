@@ -75,20 +75,17 @@ static Org::BouncyCastle::Asn1::DerBmpString GetInstance(::bs_hook::Il2CppWrappe
 /// @brief Method GetInstance addr 0x1135564 size 0xd8 virtual false final false
 static Org::BouncyCastle::Asn1::DerBmpString GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerBmpString(::ArrayW<uint8_t> str) ;
+static Org::BouncyCastle::Asn1::DerBmpString New_ctor(::ArrayW<uint8_t> str) ;
 
 /// @brief Method .ctor addr 0x113563c size 0x198 virtual false final false
  void _ctor(::ArrayW<uint8_t> str) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }]
-explicit DerBmpString(::ArrayW<char16_t> str) ;
+static Org::BouncyCastle::Asn1::DerBmpString New_ctor(::ArrayW<char16_t> str) ;
 
 /// @brief Method .ctor addr 0x112bee8 size 0x88 virtual false final false
  void _ctor(::ArrayW<char16_t> str) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DerBmpString(::StringW str) ;
+static Org::BouncyCastle::Asn1::DerBmpString New_ctor(::StringW str) ;
 
 /// @brief Method .ctor addr 0x11357d4 size 0x78 virtual false final false
  void _ctor(::StringW str) ;

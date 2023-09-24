@@ -13,7 +13,7 @@ class MessageWithAchievementProgressList;
 // Type: Oculus.Platform::MessageWithAchievementProgressList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13383)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4425 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4425 }), TypeDefinitionIndex(TypeDefinitionIndex(13383))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13210))
 // CS Name: Oculus.Platform.MessageWithAchievementProgressList
 class CORDL_TYPE MessageWithAchievementProgressList : public Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementProgressList> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithAchievementProgressList(void* ptr) noexcept : Ocul
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithAchievementProgressList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithAchievementProgressList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257ddf8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

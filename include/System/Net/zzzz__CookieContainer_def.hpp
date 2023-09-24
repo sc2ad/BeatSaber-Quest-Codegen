@@ -5,27 +5,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Net {
-struct HeaderVariantInfo;
+class Cookie;
 }
 namespace System {
 class Uri;
 }
 namespace System::Net {
-class Cookie;
+class PathList;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Net {
 class CookieCollection;
 }
 namespace System::Net {
-class PathList;
+struct HeaderVariantInfo;
 }
 // Forward declare root types
 namespace System::Net {
@@ -118,8 +118,7 @@ constexpr ::StringW __get_m_fqdnMyDomain() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CookieContainer() ;
+static System::Net::CookieContainer New_ctor() ;
 
 /// @brief Method .ctor addr 0x281d774 size 0xf4 virtual false final false
  void _ctor() ;

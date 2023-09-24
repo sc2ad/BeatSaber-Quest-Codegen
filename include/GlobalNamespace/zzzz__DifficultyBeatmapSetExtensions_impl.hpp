@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__DifficultyBeatmapSetExtensions_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewDifficultyBeatmapSet_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 template<typename T>
  System::Collections::Generic::IReadOnlyList_1<T> GlobalNamespace::DifficultyBeatmapSetExtensions::GetDifficultyBeatmapSetsWithout360Movement(System::Collections::Generic::IReadOnlyList_1<T> difficultyBeatmapSets)  {
 static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioText_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
 //  Writing Method size for method: Tayx::Graphy::Audio::G_AudioText.Awake
 template<>
 
@@ -155,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tayx::Graphy::Audio::G_AudioText::G_AudioText()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<G_AudioText>())) {}
+ Tayx::Graphy::Audio::G_AudioText Tayx::Graphy::Audio::G_AudioText::New_ctor()  {
+Tayx::Graphy::Audio::G_AudioText o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Audio::G_AudioText>())};
+return o;
+}
  void Tayx::Graphy::Audio::G_AudioText::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Audio::G_AudioText>::get(),

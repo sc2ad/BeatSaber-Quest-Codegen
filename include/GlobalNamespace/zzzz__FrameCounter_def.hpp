@@ -63,8 +63,7 @@ constexpr int32_t __get__numberOfFrames() const;
 /// @brief Method OnDestroy addr 0x1f781d0 size 0x9c virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit FrameCounter() ;
+static GlobalNamespace::FrameCounter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7826c size 0x8 virtual false final false
  void _ctor() ;

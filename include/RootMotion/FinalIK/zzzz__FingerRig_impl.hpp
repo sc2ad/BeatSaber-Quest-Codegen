@@ -377,8 +377,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::FingerRig::FingerRig()  : RootMotion::SolverManager(THROW_UNLESS(::il2cpp_utils::New<FingerRig>())) {}
+ RootMotion::FinalIK::FingerRig RootMotion::FinalIK::FingerRig::New_ctor()  {
+RootMotion::FinalIK::FingerRig o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::FingerRig>())};
+return o;
+}
  void RootMotion::FinalIK::FingerRig::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::FingerRig>::get(),

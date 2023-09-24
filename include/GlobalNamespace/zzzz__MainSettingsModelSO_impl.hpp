@@ -2,14 +2,15 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__LanguageSO_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
-#include "GlobalNamespace/zzzz__StringSO_def.hpp"
-#include "GlobalNamespace/zzzz__Vector2IntSO_def.hpp"
+#include "GlobalNamespace/zzzz__IntSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
-#include "GlobalNamespace/zzzz__IntSO_def.hpp"
+#include "GlobalNamespace/zzzz__Vector2IntSO_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "GlobalNamespace/zzzz__StringSO_def.hpp"
+#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
+#include "GlobalNamespace/zzzz__LanguageSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__MainSettingsModelSO__WindowMode::GlobalNamespace__MainSettingsModelSO__WindowMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -344,8 +345,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MainSettingsModelSO__Config::__
 constexpr bool GlobalNamespace::GlobalNamespace__MainSettingsModelSO__Config::__get_enableFPSCounter() const {
 return ::cordl_internals::getInstanceField<bool, 0xe0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MainSettingsModelSO__Config::GlobalNamespace__MainSettingsModelSO__Config()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MainSettingsModelSO__Config>())) {}
+ GlobalNamespace::GlobalNamespace__MainSettingsModelSO__Config GlobalNamespace::GlobalNamespace__MainSettingsModelSO__Config::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MainSettingsModelSO__Config o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MainSettingsModelSO__Config>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MainSettingsModelSO__Config::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainSettingsModelSO__Config>::get(),
@@ -838,8 +841,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MainSettingsModelSO::MainSettingsModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<MainSettingsModelSO>())) {}
+ GlobalNamespace::MainSettingsModelSO GlobalNamespace::MainSettingsModelSO::New_ctor()  {
+GlobalNamespace::MainSettingsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainSettingsModelSO>())};
+return o;
+}
  void GlobalNamespace::MainSettingsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainSettingsModelSO>::get(),

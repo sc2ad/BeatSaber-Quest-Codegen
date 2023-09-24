@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricCipherKeyPairGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
+class KeyGenerationParameters;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -118,8 +118,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters __ge
 /// @brief Method ChooseRandomPrime addr 0xe79e80 size 0x230 virtual true final false
  Org::BouncyCastle::Math::BigInteger ChooseRandomPrime(int32_t bitlength, Org::BouncyCastle::Math::BigInteger e) ;
 
-// Ctor Parameters []
-explicit RsaKeyPairGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe7a1e8 size 0x8 virtual false final false
  void _ctor() ;

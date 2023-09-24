@@ -82,8 +82,7 @@ constexpr GlobalNamespace::VertexPath __get__vertexPath() const;
 /// @brief Method get_vertexPath addr 0x21af108 size 0x8 virtual false final false
  GlobalNamespace::VertexPath get_vertexPath() ;
 
-// Ctor Parameters [CppParam { name: "numberOfFixedVertexPathSegments", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "updateVertexPath", ty: "bool", modifiers: "", def_value: None }]
-explicit PathsHolder(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath) ;
+static GlobalNamespace::PathsHolder New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath) ;
 
 /// @brief Method .ctor addr 0x21af110 size 0x124 virtual false final false
  void _ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath) ;

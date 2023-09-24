@@ -5,8 +5,9 @@
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__MainThreadDispatcher_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MainThreadDispatcher.DispatchOnMainThread
 template<>
 
@@ -142,8 +143,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MainThreadDispatcher::MainThreadDispatcher()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MainThreadDispatcher>())) {}
+ GlobalNamespace::MainThreadDispatcher GlobalNamespace::MainThreadDispatcher::New_ctor()  {
+GlobalNamespace::MainThreadDispatcher o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainThreadDispatcher>())};
+return o;
+}
  void GlobalNamespace::MainThreadDispatcher::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainThreadDispatcher>::get(),
@@ -153,300 +156,172 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::*)()>(&GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1._DispatchOnMainThread_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::*)()>(&GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::_DispatchOnMainThread_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1>::get(),
-                            "<DispatchOnMainThread>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::__set_action(System::Action_1<A> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A>::__set_action(System::Action_1<A> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<A>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<A>>(value));
 }
-constexpr System::Action_1<A> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::__get_action() const {
+constexpr System::Action_1<A> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A>::__get_action() const {
 return ::cordl_internals::getInstanceField<System::Action_1<A>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::__set_firstParameter(A value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A>::__set_firstParameter(A value)  {
 ::cordl_internals::setInstanceField<A, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<A>(value));
 }
-constexpr A GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::__get_firstParameter() const {
+constexpr A GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A>::__get_firstParameter() const {
 return ::cordl_internals::getInstanceField<A, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1>())) {}
- void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::_ctor()  {
+ GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A>::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A> o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A>>())};
+return o;
+}
+ void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1::_DispatchOnMainThread_b__0()  {
+ void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A>::_DispatchOnMainThread_b__0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A>>::get(),
                             "<DispatchOnMainThread>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::*)()>(&GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2._DispatchOnMainThread_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::*)()>(&GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::_DispatchOnMainThread_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2>::get(),
-                            "<DispatchOnMainThread>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::__set_action(System::Action_2<A,B> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>::__set_action(System::Action_2<A,B> value)  {
 ::cordl_internals::setInstanceField<System::Action_2<A,B>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_2<A,B>>(value));
 }
-constexpr System::Action_2<A,B> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::__get_action() const {
+constexpr System::Action_2<A,B> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>::__get_action() const {
 return ::cordl_internals::getInstanceField<System::Action_2<A,B>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::__set_firstParameter(A value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>::__set_firstParameter(A value)  {
 ::cordl_internals::setInstanceField<A, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<A>(value));
 }
-constexpr A GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::__get_firstParameter() const {
+constexpr A GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>::__get_firstParameter() const {
 return ::cordl_internals::getInstanceField<A, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::__set_secondParameter(B value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>::__set_secondParameter(B value)  {
 ::cordl_internals::setInstanceField<B, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<B>(value));
 }
-constexpr B GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::__get_secondParameter() const {
+constexpr B GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>::__get_secondParameter() const {
 return ::cordl_internals::getInstanceField<B, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2>())) {}
- void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::_ctor()  {
+ GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B> o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>>())};
+return o;
+}
+ void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2::_DispatchOnMainThread_b__0()  {
+ void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>::_DispatchOnMainThread_b__0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B>>::get(),
                             "<DispatchOnMainThread>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::*)()>(&GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3._DispatchOnMainThread_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::*)()>(&GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::_DispatchOnMainThread_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3>::get(),
-                            "<DispatchOnMainThread>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::__set_action(System::Action_3<A,B,C> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::__set_action(System::Action_3<A,B,C> value)  {
 ::cordl_internals::setInstanceField<System::Action_3<A,B,C>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_3<A,B,C>>(value));
 }
-constexpr System::Action_3<A,B,C> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::__get_action() const {
+constexpr System::Action_3<A,B,C> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::__get_action() const {
 return ::cordl_internals::getInstanceField<System::Action_3<A,B,C>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::__set_firstParameter(A value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::__set_firstParameter(A value)  {
 ::cordl_internals::setInstanceField<A, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<A>(value));
 }
-constexpr A GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::__get_firstParameter() const {
+constexpr A GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::__get_firstParameter() const {
 return ::cordl_internals::getInstanceField<A, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::__set_secondParameter(B value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::__set_secondParameter(B value)  {
 ::cordl_internals::setInstanceField<B, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<B>(value));
 }
-constexpr B GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::__get_secondParameter() const {
+constexpr B GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::__get_secondParameter() const {
 return ::cordl_internals::getInstanceField<B, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::__set_thirdParameter(C value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::__set_thirdParameter(C value)  {
 ::cordl_internals::setInstanceField<C, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<C>(value));
 }
-constexpr C GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::__get_thirdParameter() const {
+constexpr C GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::__get_thirdParameter() const {
 return ::cordl_internals::getInstanceField<C, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3>())) {}
- void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::_ctor()  {
+ GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C> o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>>())};
+return o;
+}
+ void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3::_DispatchOnMainThread_b__0()  {
+ void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>::_DispatchOnMainThread_b__0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C>>::get(),
                             "<DispatchOnMainThread>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::*)()>(&GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4._DispatchOnMainThread_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::*)()>(&GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::_DispatchOnMainThread_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4>::get(),
-                            "<DispatchOnMainThread>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::__set_action(System::Action_4<A,B,C,D> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::__set_action(System::Action_4<A,B,C,D> value)  {
 ::cordl_internals::setInstanceField<System::Action_4<A,B,C,D>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_4<A,B,C,D>>(value));
 }
-constexpr System::Action_4<A,B,C,D> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::__get_action() const {
+constexpr System::Action_4<A,B,C,D> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::__get_action() const {
 return ::cordl_internals::getInstanceField<System::Action_4<A,B,C,D>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::__set_firstParameter(A value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::__set_firstParameter(A value)  {
 ::cordl_internals::setInstanceField<A, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<A>(value));
 }
-constexpr A GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::__get_firstParameter() const {
+constexpr A GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::__get_firstParameter() const {
 return ::cordl_internals::getInstanceField<A, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::__set_secondParameter(B value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::__set_secondParameter(B value)  {
 ::cordl_internals::setInstanceField<B, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<B>(value));
 }
-constexpr B GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::__get_secondParameter() const {
+constexpr B GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::__get_secondParameter() const {
 return ::cordl_internals::getInstanceField<B, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::__set_thirdParameter(C value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::__set_thirdParameter(C value)  {
 ::cordl_internals::setInstanceField<C, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<C>(value));
 }
-constexpr C GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::__get_thirdParameter() const {
+constexpr C GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::__get_thirdParameter() const {
 return ::cordl_internals::getInstanceField<C, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::__set_fourthParameter(D value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::__set_fourthParameter(D value)  {
 ::cordl_internals::setInstanceField<D, 0x30>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<D>(value));
 }
-constexpr D GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::__get_fourthParameter() const {
+constexpr D GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::__get_fourthParameter() const {
 return ::cordl_internals::getInstanceField<D, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4>())) {}
- void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::_ctor()  {
+ GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D> GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D> o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>>())};
+return o;
+}
+ void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4::_DispatchOnMainThread_b__0()  {
+ void GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>::_DispatchOnMainThread_b__0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D>>::get(),
                             "<DispatchOnMainThread>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

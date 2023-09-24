@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__RemotingSurrogateSelector_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__RemotingSurrogate_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ObjRefSurrogate_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::RemotingSurrogateSelector._ctor
 template<>
@@ -68,8 +68,10 @@ constexpr void System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::
 constexpr System::Runtime::Serialization::ISurrogateSelector System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::__get__next() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::ISurrogateSelector, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::RemotingSurrogateSelector()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RemotingSurrogateSelector>())) {}
+ System::Runtime::Remoting::Messaging::RemotingSurrogateSelector System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::New_ctor()  {
+System::Runtime::Remoting::Messaging::RemotingSurrogateSelector o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::RemotingSurrogateSelector>())};
+return o;
+}
  void System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::RemotingSurrogateSelector>::get(),

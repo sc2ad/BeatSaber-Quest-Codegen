@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-class LocalDataStoreSlot;
-}
-namespace System {
-class LocalDataStore;
-}
-namespace System {
 class LocalDataStoreHolder;
+}
+namespace System {
+class LocalDataStoreSlot;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System {
+class LocalDataStore;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -136,8 +136,7 @@ constexpr int64_t __get_m_CookieGenerator() const;
 /// @brief Method GetSlotTableLength addr 0x2469ee4 size 0x1c virtual false final false
  int32_t GetSlotTableLength() ;
 
-// Ctor Parameters []
-explicit LocalDataStoreMgr() ;
+static System::LocalDataStoreMgr New_ctor() ;
 
 /// @brief Method .ctor addr 0x246a8e8 size 0xec virtual false final false
  void _ctor() ;

@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::Field {
-class IFiniteField;
-}
-namespace Org::BouncyCastle::Math::Field {
-class IExtensionField;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::Field {
-class IPolynomialExtensionField;
+class IExtensionField;
+}
+namespace Org::BouncyCastle::Math::Field {
+class IFiniteField;
 }
 namespace Org::BouncyCastle::Math::Field {
 class IPolynomial;
+}
+namespace Org::BouncyCastle::Math::Field {
+class IPolynomialExtensionField;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {
@@ -100,8 +100,7 @@ constexpr Org::BouncyCastle::Math::Field::IPolynomial __get_minimalPolynomial() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "subfield", ty: "Org::BouncyCastle::Math::Field::IFiniteField", modifiers: "", def_value: None }, CppParam { name: "polynomial", ty: "Org::BouncyCastle::Math::Field::IPolynomial", modifiers: "", def_value: None }]
-explicit GenericPolynomialExtensionField(Org::BouncyCastle::Math::Field::IFiniteField subfield, Org::BouncyCastle::Math::Field::IPolynomial polynomial) ;
+static Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField New_ctor(Org::BouncyCastle::Math::Field::IFiniteField subfield, Org::BouncyCastle::Math::Field::IPolynomial polynomial) ;
 
 /// @brief Method .ctor addr 0xfce12c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Math::Field::IFiniteField subfield, Org::BouncyCastle::Math::Field::IPolynomial polynomial) ;

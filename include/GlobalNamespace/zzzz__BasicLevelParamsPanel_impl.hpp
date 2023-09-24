@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::BasicLevelParamsPanel::BasicLevelParamsPanel()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BasicLevelParamsPanel>())) {}
+ GlobalNamespace::BasicLevelParamsPanel GlobalNamespace::BasicLevelParamsPanel::New_ctor()  {
+GlobalNamespace::BasicLevelParamsPanel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BasicLevelParamsPanel>())};
+return o;
+}
  void GlobalNamespace::BasicLevelParamsPanel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BasicLevelParamsPanel>::get(),

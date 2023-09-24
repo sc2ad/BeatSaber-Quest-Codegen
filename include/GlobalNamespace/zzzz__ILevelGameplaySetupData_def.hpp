@@ -1,10 +1,10 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 namespace GlobalNamespace {
-class GameplayModifiers;
+class PreviewDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {

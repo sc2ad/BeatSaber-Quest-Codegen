@@ -1,25 +1,25 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
-}
 namespace System {
 class Exception;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Collections::Generic {
+template<typename T>
+class LowLevelListWithIList_1;
 }
 namespace System {
 class AggregateException;
+}
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
 }
 namespace System::Collections::ObjectModel {
 template<typename T>
 class ReadOnlyCollection_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class LowLevelListWithIList_1;
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -105,8 +105,7 @@ constexpr bool __get_m_isHandled() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "task", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }]
-explicit TaskExceptionHolder(System::Threading::Tasks::Task task) ;
+static System::Threading::Tasks::TaskExceptionHolder New_ctor(System::Threading::Tasks::Task task) ;
 
 /// @brief Method .ctor addr 0x24b7510 size 0x28 virtual false final false
  void _ctor(System::Threading::Tasks::Task task) ;

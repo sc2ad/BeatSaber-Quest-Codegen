@@ -2,26 +2,26 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::Cms {
-class KekIdentifier;
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedHelper;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInfoGenerator;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1::Cms {
+class KekIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class RecipientInfo;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedHelper;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -114,8 +114,7 @@ constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_keyEncryption
 
 // Methods
 
-// Ctor Parameters []
-explicit KekRecipientInfoGenerator() ;
+static Org::BouncyCastle::Cms::KekRecipientInfoGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x11766b0 size 0x8 virtual false final false
  void _ctor() ;

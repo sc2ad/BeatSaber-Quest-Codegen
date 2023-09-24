@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IVisualTreeUpdater_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualTreeUpdater_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::BaseVisualTreeUpdater.add_panelChanged
 template<>
 
@@ -304,8 +304,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, versionChangeType);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::BaseVisualTreeUpdater::BaseVisualTreeUpdater()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BaseVisualTreeUpdater>())) {}
+ UnityEngine::UIElements::BaseVisualTreeUpdater UnityEngine::UIElements::BaseVisualTreeUpdater::New_ctor()  {
+UnityEngine::UIElements::BaseVisualTreeUpdater o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::BaseVisualTreeUpdater>())};
+return o;
+}
  void UnityEngine::UIElements::BaseVisualTreeUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::BaseVisualTreeUpdater>::get(),

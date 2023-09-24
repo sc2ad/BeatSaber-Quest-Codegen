@@ -2,28 +2,28 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class IPoolableSerializable;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace System::Collections::Concurrent {
-template<typename T>
-class ConcurrentBag_1;
-}
 namespace System {
 class Type;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+class IPoolableSerializable;
+}
+namespace System::Collections::Concurrent {
+template<typename T>
+class ConcurrentBag_1;
 }
 namespace System::Collections::Concurrent {
 template<typename TKey,typename TValue>
 class ConcurrentDictionary_2;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -120,8 +120,7 @@ static void Release(GlobalNamespace::IPoolableSerializable t) ;
 /// @brief Method GetPool addr 0x12192bc size 0x1e8 virtual false final false
 static System::Collections::Concurrent::ConcurrentBag_1<GlobalNamespace::IPoolableSerializable> GetPool(System::Type t) ;
 
-// Ctor Parameters []
-explicit PoolableSerializable() ;
+static GlobalNamespace::PoolableSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1217670 size 0x8 virtual false final false
  void _ctor() ;

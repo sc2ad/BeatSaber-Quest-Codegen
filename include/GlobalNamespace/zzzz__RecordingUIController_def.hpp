@@ -6,6 +6,9 @@
 namespace UnityEngine {
 class GameObject;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__RecordingUIController__InitData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__RecordingUIController__InitData;
@@ -64,8 +67,7 @@ constexpr bool __get_recordingEnabled() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "recordingEnabled", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__RecordingUIController__InitData(bool recordingEnabled) ;
+static GlobalNamespace::GlobalNamespace__RecordingUIController__InitData New_ctor(bool recordingEnabled) ;
 
 /// @brief Method .ctor addr 0x2276e04 size 0x28 virtual false final false
  void _ctor(bool recordingEnabled) ;
@@ -151,8 +153,7 @@ constexpr float_t __get__lastUpdateTime() const;
 /// @brief Method Update addr 0x2276d88 size 0x6c virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit RecordingUIController() ;
+static GlobalNamespace::RecordingUIController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2276df4 size 0x10 virtual false final false
  void _ctor() ;

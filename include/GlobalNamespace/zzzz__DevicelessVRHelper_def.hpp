@@ -6,28 +6,28 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class IVerboseLogger;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
 class IVRPlatformHelper;
-}
-namespace UnityEngine {
-struct Pose;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
+class IVerboseLogger;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+struct Pose;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
 struct VRPlatformSDK;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -253,8 +253,7 @@ constexpr bool __get__scrollingLastFrame() const;
 /// @brief Method RefreshControllersReference addr 0x1f84d18 size 0x1c virtual true final true
  void RefreshControllersReference() ;
 
-// Ctor Parameters []
-explicit DevicelessVRHelper() ;
+static GlobalNamespace::DevicelessVRHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f84d34 size 0x10 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__TransitionTimingSO_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BaseTransitionSO.get_easeType
 template<>
 
@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BaseTransitionSO::BaseTransitionSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BaseTransitionSO>())) {}
+ GlobalNamespace::BaseTransitionSO GlobalNamespace::BaseTransitionSO::New_ctor()  {
+GlobalNamespace::BaseTransitionSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BaseTransitionSO>())};
+return o;
+}
  void GlobalNamespace::BaseTransitionSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BaseTransitionSO>::get(),

@@ -6,19 +6,25 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct TextAnchor;
+struct Vector2;
+}
+namespace UnityEngine {
+class GUIStyleState;
 }
 namespace UnityEngine {
 class GUIContent;
 }
 namespace UnityEngine {
-class Font;
+struct Rect;
 }
 namespace UnityEngine {
 struct TextClipping;
 }
 namespace UnityEngine {
-class GUIStyleState;
+struct FontStyle;
+}
+namespace UnityEngine {
+struct TextAnchor;
 }
 namespace UnityEngine {
 struct ImagePosition;
@@ -27,13 +33,7 @@ namespace UnityEngine {
 class RectOffset;
 }
 namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector2;
+class Font;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -330,14 +330,12 @@ static bool IsTooltipActive(::StringW tooltip) ;
 /// @brief Method SetDefaultFont addr 0x2b95478 size 0x3c virtual false final false
 static void SetDefaultFont(UnityEngine::Font font) ;
 
-// Ctor Parameters []
-explicit GUIStyle() ;
+static UnityEngine::GUIStyle New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b954b4 size 0x88 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "UnityEngine::GUIStyle", modifiers: "", def_value: None }]
-explicit GUIStyle(UnityEngine::GUIStyle other) ;
+static UnityEngine::GUIStyle New_ctor(UnityEngine::GUIStyle other) ;
 
 /// @brief Method .ctor addr 0x2b9553c size 0xe4 virtual false final false
  void _ctor(UnityEngine::GUIStyle other) ;

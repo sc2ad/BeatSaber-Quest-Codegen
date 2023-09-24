@@ -110,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::WindowResolutionSettingsController::WindowResolutionSettingsController()  : GlobalNamespace::ListSettingsController(THROW_UNLESS(::il2cpp_utils::New<WindowResolutionSettingsController>())) {}
+ GlobalNamespace::WindowResolutionSettingsController GlobalNamespace::WindowResolutionSettingsController::New_ctor()  {
+GlobalNamespace::WindowResolutionSettingsController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::WindowResolutionSettingsController>())};
+return o;
+}
  void GlobalNamespace::WindowResolutionSettingsController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::WindowResolutionSettingsController>::get(),

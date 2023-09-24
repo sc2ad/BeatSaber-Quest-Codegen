@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class InjectTypeInfo;
+class IInstaller;
 }
 namespace Zenject {
-class IInstaller;
+class InjectTypeInfo;
 }
 namespace Zenject {
 class DiContainer;
@@ -84,8 +84,7 @@ constexpr Zenject::DiContainer __get__container() const;
 /// @brief Method InstallBindings addr 0x0 size 0xffffffffffffffff virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit InstallerBase() ;
+static Zenject::InstallerBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7b50c size 0x8 virtual false final false
  void _ctor() ;

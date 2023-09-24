@@ -9,13 +9,16 @@ namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-class Animation;
-}
-namespace UnityEngine {
 class SpriteRenderer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BTSStarTextEffectController__Pool;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine {
+class Animation;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +112,7 @@ constexpr float_t __get__currentAnimationDuration() const;
 /// @brief Method Reinitialize addr 0x20aa8ec size 0x108 virtual false final false
  void Reinitialize(UnityEngine::Sprite sprite, UnityEngine::Transform parentTransform, float_t desiredAnimationLength) ;
 
-// Ctor Parameters []
-explicit BTSStarTextEffectController() ;
+static GlobalNamespace::BTSStarTextEffectController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20aa9f4 size 0x8 virtual false final false
  void _ctor() ;
@@ -122,7 +124,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10995)), TypeDefinitionIndex(TypeDefinitionIndex(10217)), TypeDefinitionIndex(TypeDefinitionIndex(10227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10995), inst: 3394 }), TypeDefinitionIndex(TypeDefinitionIndex(3964))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10995)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10995), inst: 3394 }), TypeDefinitionIndex(TypeDefinitionIndex(10227)), TypeDefinitionIndex(TypeDefinitionIndex(10217)), TypeDefinitionIndex(TypeDefinitionIndex(3964))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3963))
 // CS Name: BTSStarTextEffectController::Pool
 class CORDL_TYPE GlobalNamespace__BTSStarTextEffectController__Pool : public Zenject::MonoMemoryPool_4<UnityEngine::Sprite,UnityEngine::Transform,float_t,GlobalNamespace::BTSStarTextEffectController> {
@@ -164,8 +166,7 @@ constexpr explicit GlobalNamespace__BTSStarTextEffectController__Pool(void* ptr)
 /// @brief Method Reinitialize addr 0x20aa9fc size 0x14 virtual true final false
  void Reinitialize(UnityEngine::Sprite sprite, UnityEngine::Transform transform, float_t desiredAnimationLength, GlobalNamespace::BTSStarTextEffectController starTextEffectController) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BTSStarTextEffectController__Pool() ;
+static GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x20aaa10 size 0x48 virtual false final false
  void _ctor() ;

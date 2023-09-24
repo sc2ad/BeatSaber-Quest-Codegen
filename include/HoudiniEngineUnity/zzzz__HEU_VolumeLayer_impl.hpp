@@ -1,9 +1,9 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeLayer_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HFLayerType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__TerrainLayer_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HFLayerType_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_DetailPrototype_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_VolumeLayer.IsEquivalentTo
 template<>
@@ -118,8 +118,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_VolumeLayer::HEU_VolumeLayer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_VolumeLayer>())) {}
+ HoudiniEngineUnity::HEU_VolumeLayer HoudiniEngineUnity::HEU_VolumeLayer::New_ctor()  {
+HoudiniEngineUnity::HEU_VolumeLayer o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_VolumeLayer>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_VolumeLayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_VolumeLayer>::get(),

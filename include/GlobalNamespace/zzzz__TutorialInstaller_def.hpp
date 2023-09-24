@@ -3,16 +3,16 @@
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class PlayerHeightDetector;
+class TutorialSceneSetupData;
+}
+namespace GlobalNamespace {
+class EffectPoolsManualInstaller;
 }
 namespace UnityEngine {
 class AudioClip;
 }
 namespace GlobalNamespace {
-class TutorialSceneSetupData;
-}
-namespace GlobalNamespace {
-class EffectPoolsManualInstaller;
+class PlayerHeightDetector;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -96,8 +96,7 @@ constexpr GlobalNamespace::TutorialSceneSetupData __get__sceneSetupData() const;
 /// @brief Method InstallBindings addr 0x211b6f4 size 0xd08 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit TutorialInstaller() ;
+static GlobalNamespace::TutorialInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211c3fc size 0x10 virtual false final false
  void _ctor() ;

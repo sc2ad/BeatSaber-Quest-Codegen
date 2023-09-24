@@ -4,17 +4,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__OffsetPose__EffectorLink;
+}
+namespace RootMotion::FinalIK {
+class IKSolverFullBodyBiped;
 }
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -95,8 +98,7 @@ constexpr UnityEngine::Vector3 __get_pinWeight() const;
 /// @brief Method Apply addr 0x120b3f0 size 0x250 virtual false final false
  void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__OffsetPose__EffectorLink() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink New_ctor() ;
 
 /// @brief Method .ctor addr 0x120b73c size 0x8 virtual false final false
  void _ctor() ;
@@ -164,8 +166,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__Effecto
 /// @brief Method Apply addr 0x120b640 size 0xa4 virtual false final false
  void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit OffsetPose() ;
+static RootMotion::FinalIK::OffsetPose New_ctor() ;
 
 /// @brief Method .ctor addr 0x120b6e4 size 0x58 virtual false final false
  void _ctor() ;

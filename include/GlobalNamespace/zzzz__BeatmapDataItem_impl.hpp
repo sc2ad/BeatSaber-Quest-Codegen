@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -170,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "executionOrder", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifier", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "GlobalNamespace::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapDataItem::BeatmapDataItem(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, GlobalNamespace::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapDataItem>(time, executionOrder, subtypeIdentifier, type))) {}
+ GlobalNamespace::BeatmapDataItem GlobalNamespace::BeatmapDataItem::New_ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, GlobalNamespace::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType type)  {
+GlobalNamespace::BeatmapDataItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapDataItem>(time, executionOrder, subtypeIdentifier, type))};
+return o;
+}
  void GlobalNamespace::BeatmapDataItem::_ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, GlobalNamespace::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapDataItem>::get(),

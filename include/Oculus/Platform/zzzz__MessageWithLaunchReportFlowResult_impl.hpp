@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::MessageWithLaunchReportFlowResult::MessageWithLaunchReportFlowResult(::cordl_internals::intptr_t c_message)  : Oculus::Platform::Message_1<Oculus::Platform::Models::LaunchReportFlowResult>(THROW_UNLESS(::il2cpp_utils::New<MessageWithLaunchReportFlowResult>(c_message))) {}
+ Oculus::Platform::MessageWithLaunchReportFlowResult Oculus::Platform::MessageWithLaunchReportFlowResult::New_ctor(::cordl_internals::intptr_t c_message)  {
+Oculus::Platform::MessageWithLaunchReportFlowResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::MessageWithLaunchReportFlowResult>(c_message))};
+return o;
+}
  void Oculus::Platform::MessageWithLaunchReportFlowResult::_ctor(::cordl_internals::intptr_t c_message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithLaunchReportFlowResult>::get(),

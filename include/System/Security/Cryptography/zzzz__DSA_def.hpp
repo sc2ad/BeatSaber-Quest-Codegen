@@ -53,8 +53,7 @@ constexpr explicit DSA(void* ptr) noexcept : System::Security::Cryptography::Asy
 
 // Methods
 
-// Ctor Parameters []
-explicit DSA() ;
+static System::Security::Cryptography::DSA New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f1fb0 size 0x8 virtual false final false
  void _ctor() ;

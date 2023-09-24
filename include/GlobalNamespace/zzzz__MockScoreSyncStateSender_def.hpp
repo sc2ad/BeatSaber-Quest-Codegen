@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace System {
 class IDisposable;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class StandardScoreSyncStateNetSerializable;
@@ -72,8 +72,7 @@ constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionM
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "msm", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
-explicit MockScoreSyncStateSender(GlobalNamespace::IMultiplayerSessionManager msm) ;
+static GlobalNamespace::MockScoreSyncStateSender New_ctor(GlobalNamespace::IMultiplayerSessionManager msm) ;
 
 /// @brief Method .ctor addr 0x2279ab4 size 0x17c virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager msm) ;

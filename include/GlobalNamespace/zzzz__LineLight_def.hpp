@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -116,8 +116,7 @@ static System::Collections::Generic::List_1<GlobalNamespace::LineLight> get_line
 /// @brief Method OnDrawGizmos addr 0x1fa19a8 size 0x88 virtual false final false
  void OnDrawGizmos() ;
 
-// Ctor Parameters []
-explicit LineLight() ;
+static GlobalNamespace::LineLight New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa1a30 size 0x8 virtual false final false
  void _ctor() ;

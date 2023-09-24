@@ -3,10 +3,10 @@
 #include "Zenject/zzzz__MonoInstallerBase_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,7 +23,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11085)), TypeDefinitionIndex(TypeDefinitionIndex(11088))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11088)), TypeDefinitionIndex(TypeDefinitionIndex(11085))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 5938 })
 // CS Name: Zenject.MonoInstaller`5
 class CORDL_TYPE MonoInstaller_5<TParam1,TParam2,TParam3,TParam4,TDerived> : public Zenject::MonoInstallerBase {
@@ -68,8 +68,7 @@ static TDerived InstallFromResource(Zenject::DiContainer container, TParam1 p1, 
 /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
 static TDerived InstallFromResource(::StringW resourcePath, Zenject::DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) ;
 
-// Ctor Parameters []
-explicit MonoInstaller_5() ;
+static Zenject::MonoInstaller_5<TParam1,TParam2,TParam3,TParam4,TDerived> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

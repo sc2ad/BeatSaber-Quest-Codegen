@@ -5,14 +5,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
+namespace System::Security::Principal {
+class SecurityIdentifier;
+}
 namespace System::Security::AccessControl {
 class RawAcl;
+}
+namespace System::Security::AccessControl {
+struct AceQualifier;
 }
 namespace System::Security::AccessControl {
 struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
-struct AuditFlags;
+template<typename T>
+class System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1;
+}
+namespace System::Security::AccessControl {
+struct PropagationFlags;
+}
+namespace System::Security::AccessControl {
+class ObjectAce;
+}
+namespace System {
+struct Guid;
 }
 namespace System::Security::AccessControl {
 class QualifiedAce;
@@ -20,23 +36,11 @@ class QualifiedAce;
 namespace System::Security::AccessControl {
 class GenericAce;
 }
-namespace System::Security::Principal {
-class SecurityIdentifier;
-}
-namespace System {
-struct Guid;
-}
-namespace System::Security::AccessControl {
-class ObjectAce;
-}
 namespace System::Security::AccessControl {
 struct AceFlags;
 }
 namespace System::Security::AccessControl {
-struct PropagationFlags;
-}
-namespace System::Security::AccessControl {
-struct AceQualifier;
+struct AuditFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -144,14 +148,12 @@ constexpr System::Security::AccessControl::RawAcl __get_raw_acl() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDS", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CommonAcl(bool isContainer, bool isDS, uint8_t revision, int32_t capacity) ;
+static System::Security::AccessControl::CommonAcl New_ctor(bool isContainer, bool isDS, uint8_t revision, int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x2315f4c size 0xc8 virtual false final false
  void _ctor(bool isContainer, bool isDS, uint8_t revision, int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDS", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CommonAcl(bool isContainer, bool isDS, int32_t capacity) ;
+static System::Security::AccessControl::CommonAcl New_ctor(bool isContainer, bool isDS, int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x23160f0 size 0x8c virtual false final false
  void _ctor(bool isContainer, bool isDS, int32_t capacity) ;
@@ -283,8 +285,7 @@ constexpr explicit System__Security__AccessControl__CommonAcl__RemoveAcesCallbac
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1<T> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

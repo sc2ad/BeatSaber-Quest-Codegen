@@ -3,6 +3,9 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__Box__UxmlFactory;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class Box;
@@ -63,8 +66,7 @@ static ::StringW __get_ussClassName() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Box() ;
+static UnityEngine::UIElements::Box New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb4900 size 0x94 virtual false final false
  void _ctor() ;
@@ -76,7 +78,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7090), inst: 5081 }), TypeDefinitionIndex(TypeDefinitionIndex(7090)), TypeDefinitionIndex(TypeDefinitionIndex(7162))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7090), inst: 5081 }), TypeDefinitionIndex(TypeDefinitionIndex(7162)), TypeDefinitionIndex(TypeDefinitionIndex(7090))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7161))
 // CS Name: UnityEngine.UIElements.Box::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__Box__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_1<UnityEngine::UIElements::Box> {
@@ -115,8 +117,7 @@ constexpr explicit UnityEngine__UIElements__Box__UxmlFactory(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Box__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Box__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb49f4 size 0x48 virtual false final false
  void _ctor() ;

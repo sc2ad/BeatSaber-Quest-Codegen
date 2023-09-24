@@ -13,7 +13,22 @@ namespace UnityEngine {
 struct Vector4;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair;
+}
+namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +117,7 @@ constexpr int32_t __get__propertyId_k__BackingField() const;
 /// @brief Method set_propertyId addr 0x1fa2e64 size 0x8 virtual false final false
  void set_propertyId(int32_t value) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase() ;
+static GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2e6c size 0x28 virtual false final false
  void _ctor() ;
@@ -166,8 +180,7 @@ constexpr float_t __get_value() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair() ;
+static GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2e94 size 0x28 virtual false final false
  void _ctor() ;
@@ -227,8 +240,7 @@ constexpr int32_t __get_value() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair() ;
+static GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2ebc size 0x28 virtual false final false
  void _ctor() ;
@@ -288,8 +300,7 @@ constexpr UnityEngine::Vector4 __get_vector() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair() ;
+static GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2ee4 size 0x28 virtual false final false
  void _ctor() ;
@@ -349,8 +360,7 @@ constexpr UnityEngine::Color __get_color() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair() ;
+static GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2f0c size 0x28 virtual false final false
  void _ctor() ;
@@ -456,8 +466,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSette
 /// @brief Method ApplyParams addr 0x1fa2bf8 size 0x1a4 virtual false final false
  void ApplyParams() ;
 
-// Ctor Parameters []
-explicit MaterialPropertyValuesSetter() ;
+static GlobalNamespace::MaterialPropertyValuesSetter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2e54 size 0x8 virtual false final false
  void _ctor() ;

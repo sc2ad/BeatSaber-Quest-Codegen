@@ -68,8 +68,7 @@ static TDerived InstallFromResource(Zenject::DiContainer container, TParam1 p1, 
 /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
 static TDerived InstallFromResource(::StringW resourcePath, Zenject::DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3) ;
 
-// Ctor Parameters []
-explicit MonoInstaller_4() ;
+static Zenject::MonoInstaller_4<TParam1,TParam2,TParam3,TDerived> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -5,23 +5,20 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-class ColorSO;
+namespace HMUI {
+struct HMUI__ImageView__GradientDirection;
 }
-namespace GlobalNamespace {
-class IComponentRefresher;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
 }
-namespace HMUI {
-class CurvedCanvasSettingsHelper;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine {
 struct Vector4;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Color32;
@@ -29,11 +26,17 @@ struct Color32;
 namespace UnityEngine {
 struct Rect;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace HMUI {
+class CurvedCanvasSettingsHelper;
+}
+namespace GlobalNamespace {
+class ColorSO;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color;
+}
+namespace GlobalNamespace {
+class IComponentRefresher;
 }
 // Forward declare root types
 namespace HMUI {
@@ -91,6 +94,8 @@ __Vertical = 1,
 constexpr operator __HMUI__ImageView__GradientDirection_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__ImageView__GradientDirection_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -380,8 +385,7 @@ static int32_t GetNumberOfElements(float_t curvedUIRadius, float_t width) ;
 /// @brief Method GetDrawingDimensions addr 0x1fcb0bc size 0x588 virtual false final false
  UnityEngine::Vector4 GetDrawingDimensions(bool shouldPreserveAspect) ;
 
-// Ctor Parameters []
-explicit ImageView() ;
+static HMUI::ImageView New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fcceb0 size 0x8c virtual false final false
  void _ctor() ;

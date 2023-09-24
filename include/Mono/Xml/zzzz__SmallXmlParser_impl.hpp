@@ -1,10 +1,11 @@
 #pragma once
 #include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__Stack_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
+#include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
 #include "System/IO/zzzz__TextReader_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Collections/zzzz__Stack_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: Mono::Xml::Mono__Xml__SmallXmlParser__IContentHandler.OnStartParsing
 template<>
 
@@ -584,8 +585,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, value);
 }
-// Ctor Parameters []
- Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl::Mono__Xml__SmallXmlParser__AttrListImpl()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Xml__SmallXmlParser__AttrListImpl>())) {}
+ Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl::New_ctor()  {
+Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl o{THROW_UNLESS(::il2cpp_utils::New<Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl>())};
+return o;
+}
  void Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl>::get(),
@@ -1058,8 +1061,10 @@ constexpr void Mono::Xml::SmallXmlParser::__set_resetColumn(bool value)  {
 constexpr bool Mono::Xml::SmallXmlParser::__get_resetColumn() const {
 return ::cordl_internals::getInstanceField<bool, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Xml::SmallXmlParser::SmallXmlParser()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SmallXmlParser>())) {}
+ Mono::Xml::SmallXmlParser Mono::Xml::SmallXmlParser::New_ctor()  {
+Mono::Xml::SmallXmlParser o{THROW_UNLESS(::il2cpp_utils::New<Mono::Xml::SmallXmlParser>())};
+return o;
+}
  void Mono::Xml::SmallXmlParser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Xml::SmallXmlParser>::get(),

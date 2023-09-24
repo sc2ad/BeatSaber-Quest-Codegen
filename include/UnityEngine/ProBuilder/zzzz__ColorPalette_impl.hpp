@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ColorPalette_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__IHasDefault_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__IHasDefault_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::ColorPalette.get_current
 template<>
 
@@ -247,8 +247,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::ColorPalette::ColorPalette()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<ColorPalette>())) {}
+ UnityEngine::ProBuilder::ColorPalette UnityEngine::ProBuilder::ColorPalette::New_ctor()  {
+UnityEngine::ProBuilder::ColorPalette o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::ColorPalette>())};
+return o;
+}
  void UnityEngine::ProBuilder::ColorPalette::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::ColorPalette>::get(),

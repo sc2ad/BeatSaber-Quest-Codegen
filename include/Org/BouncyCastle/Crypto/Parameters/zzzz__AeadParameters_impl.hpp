@@ -132,8 +132,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::AeadParameters::__set_macS
 constexpr int32_t Org::BouncyCastle::Crypto::Parameters::AeadParameters::__get_macSize() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::Parameters::KeyParameter", modifiers: "", def_value: None }, CppParam { name: "macSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::AeadParameters::AeadParameters(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, int32_t macSize, ::ArrayW<uint8_t> nonce)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AeadParameters>(key, macSize, nonce))) {}
+ Org::BouncyCastle::Crypto::Parameters::AeadParameters Org::BouncyCastle::Crypto::Parameters::AeadParameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, int32_t macSize, ::ArrayW<uint8_t> nonce)  {
+Org::BouncyCastle::Crypto::Parameters::AeadParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::AeadParameters>(key, macSize, nonce))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::AeadParameters::_ctor(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, int32_t macSize, ::ArrayW<uint8_t> nonce)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::AeadParameters>::get(),
@@ -143,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key, macSize, nonce);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::Parameters::KeyParameter", modifiers: "", def_value: None }, CppParam { name: "macSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "associatedText", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::AeadParameters::AeadParameters(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, int32_t macSize, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> associatedText)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AeadParameters>(key, macSize, nonce, associatedText))) {}
+ Org::BouncyCastle::Crypto::Parameters::AeadParameters Org::BouncyCastle::Crypto::Parameters::AeadParameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, int32_t macSize, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> associatedText)  {
+Org::BouncyCastle::Crypto::Parameters::AeadParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::AeadParameters>(key, macSize, nonce, associatedText))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::AeadParameters::_ctor(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, int32_t macSize, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> associatedText)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::AeadParameters>::get(),

@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1 {
 class IAsn1String;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -92,20 +92,17 @@ constexpr Org::BouncyCastle::Asn1::IAsn1String __get_contents() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DisplayText(int32_t type, ::StringW text) ;
+static Org::BouncyCastle::Asn1::X509::DisplayText New_ctor(int32_t type, ::StringW text) ;
 
 /// @brief Method .ctor addr 0x1101798 size 0x16c virtual false final false
  void _ctor(int32_t type, ::StringW text) ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DisplayText(::StringW text) ;
+static Org::BouncyCastle::Asn1::X509::DisplayText New_ctor(::StringW text) ;
 
 /// @brief Method .ctor addr 0x1101904 size 0xa4 virtual false final false
  void _ctor(::StringW text) ;
 
-// Ctor Parameters [CppParam { name: "contents", ty: "Org::BouncyCastle::Asn1::IAsn1String", modifiers: "", def_value: None }]
-explicit DisplayText(Org::BouncyCastle::Asn1::IAsn1String contents) ;
+static Org::BouncyCastle::Asn1::X509::DisplayText New_ctor(Org::BouncyCastle::Asn1::IAsn1String contents) ;
 
 /// @brief Method .ctor addr 0x11019a8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::IAsn1String contents) ;

@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine {
+class AndroidJavaProxy;
+}
+namespace UnityEngine {
+class AndroidJavaRunnable;
+}
 namespace System {
 class Array;
 }
 namespace UnityEngine {
 struct jvalue;
-}
-namespace UnityEngine {
-class AndroidJavaRunnable;
-}
-namespace UnityEngine {
-class AndroidJavaProxy;
 }
 // Forward declare root types
 namespace UnityEngine {

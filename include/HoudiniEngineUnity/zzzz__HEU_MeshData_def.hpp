@@ -3,16 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct MeshTopology;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -22,6 +12,16 @@ struct Vector3;
 }
 namespace UnityEngine {
 struct Color32;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine {
+struct MeshTopology;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -126,8 +126,7 @@ constexpr UnityEngine::MeshTopology __get__meshTopology() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_MeshData() ;
+static HoudiniEngineUnity::HEU_MeshData New_ctor() ;
 
 /// @brief Method .ctor addr 0x205e734 size 0x1f0 virtual false final false
  void _ctor() ;

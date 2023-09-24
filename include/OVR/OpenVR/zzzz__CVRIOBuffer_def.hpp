@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace OVR::OpenVR {
-struct EIOBufferMode;
+struct EIOBufferError;
 }
 namespace OVR::OpenVR {
 struct IVRIOBuffer;
 }
 namespace OVR::OpenVR {
-struct EIOBufferError;
+struct EIOBufferMode;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -68,8 +68,7 @@ constexpr OVR::OpenVR::IVRIOBuffer __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRIOBuffer(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRIOBuffer New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x26685d8 size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

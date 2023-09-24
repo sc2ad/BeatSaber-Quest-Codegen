@@ -65,8 +65,7 @@ constexpr ::cordl_internals::intptr_t __get__handle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RNGCryptoServiceProvider() ;
+static System::Security::Cryptography::RNGCryptoServiceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2300be4 size 0x98 virtual false final false
  void _ctor() ;

@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml::Linq {
-class XDocumentType;
+namespace Newtonsoft::Json::Converters {
+class IXmlDocumentType;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlDocumentType;
+namespace System::Xml::Linq {
+class XDocumentType;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -85,8 +85,7 @@ constexpr System::Xml::Linq::XDocumentType __get__documentType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "documentType", ty: "System::Xml::Linq::XDocumentType", modifiers: "", def_value: None }]
-explicit XDocumentTypeWrapper(System::Xml::Linq::XDocumentType documentType) ;
+static Newtonsoft::Json::Converters::XDocumentTypeWrapper New_ctor(System::Xml::Linq::XDocumentType documentType) ;
 
 /// @brief Method .ctor addr 0x2542f44 size 0x6c virtual false final false
  void _ctor(System::Xml::Linq::XDocumentType documentType) ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneCameraBloomPrePass_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRendererSO_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SceneCameraBloomPrePass._ctor
 template<>
 
@@ -39,8 +39,10 @@ constexpr void GlobalNamespace::SceneCameraBloomPrePass::__set__bloomPrepassRend
 constexpr UnityEngine::RenderTexture GlobalNamespace::SceneCameraBloomPrePass::__get__bloomPrepassRenderTexture() const {
 return ::cordl_internals::getInstanceField<UnityEngine::RenderTexture, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::SceneCameraBloomPrePass::SceneCameraBloomPrePass()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SceneCameraBloomPrePass>())) {}
+ GlobalNamespace::SceneCameraBloomPrePass GlobalNamespace::SceneCameraBloomPrePass::New_ctor()  {
+GlobalNamespace::SceneCameraBloomPrePass o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SceneCameraBloomPrePass>())};
+return o;
+}
  void GlobalNamespace::SceneCameraBloomPrePass::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SceneCameraBloomPrePass>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightTransformGroup_3_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationGroup_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "GlobalNamespace/zzzz__IEditTimeValidated_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightTranslationGroup.get_xTranslationLimits
 template<>
 
@@ -242,8 +242,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LightTranslationGroup::LightTranslationGroup()  : GlobalNamespace::LightTransformGroup_3<GlobalNamespace::LightGroupTranslationXTransform,GlobalNamespace::LightGroupTranslationYTransform,GlobalNamespace::LightGroupTranslationZTransform>(THROW_UNLESS(::il2cpp_utils::New<LightTranslationGroup>())) {}
+ GlobalNamespace::LightTranslationGroup GlobalNamespace::LightTranslationGroup::New_ctor()  {
+GlobalNamespace::LightTranslationGroup o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightTranslationGroup>())};
+return o;
+}
  void GlobalNamespace::LightTranslationGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightTranslationGroup>::get(),

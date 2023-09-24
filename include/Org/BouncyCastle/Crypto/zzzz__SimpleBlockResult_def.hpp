@@ -69,8 +69,7 @@ constexpr ::ArrayW<uint8_t> __get_result() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "result", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SimpleBlockResult(::ArrayW<uint8_t> result) ;
+static Org::BouncyCastle::Crypto::SimpleBlockResult New_ctor(::ArrayW<uint8_t> result) ;
 
 /// @brief Method .ctor addr 0xf38e58 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> result) ;

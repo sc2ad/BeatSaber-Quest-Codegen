@@ -231,8 +231,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, exception, context);
 }
-// Ctor Parameters []
- GlobalNamespace::UnityDebugLogger::UnityDebugLogger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityDebugLogger>())) {}
+ GlobalNamespace::UnityDebugLogger GlobalNamespace::UnityDebugLogger::New_ctor()  {
+GlobalNamespace::UnityDebugLogger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityDebugLogger>())};
+return o;
+}
  void GlobalNamespace::UnityDebugLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityDebugLogger>::get(),

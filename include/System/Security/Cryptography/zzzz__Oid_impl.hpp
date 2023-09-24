@@ -172,8 +172,10 @@ constexpr void System::Security::Cryptography::Oid::__set__group(System::Securit
 constexpr System::Security::Cryptography::OidGroup System::Security::Cryptography::Oid::__get__group() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::OidGroup, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::Oid::Oid()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Oid>())) {}
+ System::Security::Cryptography::Oid System::Security::Cryptography::Oid::New_ctor()  {
+System::Security::Cryptography::Oid o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::Oid>())};
+return o;
+}
  void System::Security::Cryptography::Oid::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::Oid>::get(),
@@ -183,8 +185,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Cryptography::Oid::Oid(::StringW oid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Oid>(oid))) {}
+ System::Security::Cryptography::Oid System::Security::Cryptography::Oid::New_ctor(::StringW oid)  {
+System::Security::Cryptography::Oid o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::Oid>(oid))};
+return o;
+}
  void System::Security::Cryptography::Oid::_ctor(::StringW oid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::Oid>::get(),
@@ -194,8 +198,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oid);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "friendlyName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Cryptography::Oid::Oid(::StringW value, ::StringW friendlyName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Oid>(value, friendlyName))) {}
+ System::Security::Cryptography::Oid System::Security::Cryptography::Oid::New_ctor(::StringW value, ::StringW friendlyName)  {
+System::Security::Cryptography::Oid o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::Oid>(value, friendlyName))};
+return o;
+}
  void System::Security::Cryptography::Oid::_ctor(::StringW value, ::StringW friendlyName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::Oid>::get(),
@@ -205,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value, friendlyName);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "System::Security::Cryptography::Oid", modifiers: "", def_value: None }]
- System::Security::Cryptography::Oid::Oid(System::Security::Cryptography::Oid oid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Oid>(oid))) {}
+ System::Security::Cryptography::Oid System::Security::Cryptography::Oid::New_ctor(System::Security::Cryptography::Oid oid)  {
+System::Security::Cryptography::Oid o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::Oid>(oid))};
+return o;
+}
  void System::Security::Cryptography::Oid::_ctor(System::Security::Cryptography::Oid oid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::Oid>::get(),
@@ -252,8 +260,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "friendlyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "group", ty: "System::Security::Cryptography::OidGroup", modifiers: "", def_value: None }]
- System::Security::Cryptography::Oid::Oid(::StringW value, ::StringW friendlyName, System::Security::Cryptography::OidGroup group)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Oid>(value, friendlyName, group))) {}
+ System::Security::Cryptography::Oid System::Security::Cryptography::Oid::New_ctor(::StringW value, ::StringW friendlyName, System::Security::Cryptography::OidGroup group)  {
+System::Security::Cryptography::Oid o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::Oid>(value, friendlyName, group))};
+return o;
+}
  void System::Security::Cryptography::Oid::_ctor(::StringW value, ::StringW friendlyName, System::Security::Cryptography::OidGroup group)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::Oid>::get(),

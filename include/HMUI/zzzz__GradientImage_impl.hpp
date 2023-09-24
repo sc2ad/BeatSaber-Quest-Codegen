@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__Image_impl.hpp"
 #include "HMUI/zzzz__GradientImage_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
 //  Writing Method size for method: HMUI::GradientImage.get_color0
 template<>
 
@@ -508,8 +508,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector4, false>(const_cast<void*>(instance), ___internal_method, shouldPreserveAspect);
 }
-// Ctor Parameters []
- HMUI::GradientImage::GradientImage()  : UnityEngine::UI::Image(THROW_UNLESS(::il2cpp_utils::New<GradientImage>())) {}
+ HMUI::GradientImage HMUI::GradientImage::New_ctor()  {
+HMUI::GradientImage o{THROW_UNLESS(::il2cpp_utils::New<HMUI::GradientImage>())};
+return o;
+}
  void HMUI::GradientImage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::GradientImage>::get(),

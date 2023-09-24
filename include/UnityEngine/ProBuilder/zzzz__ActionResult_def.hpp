@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::ProBuilder {
+struct UnityEngine__ProBuilder__ActionResult__Status;
+}
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct UnityEngine__ProBuilder__ActionResult__Status;
@@ -62,6 +65,8 @@ __NoChange = 3,
 constexpr operator __UnityEngine__ProBuilder__ActionResult__Status_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ProBuilder__ActionResult__Status_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -172,8 +177,7 @@ static UnityEngine::ProBuilder::ActionResult __declspec(property(get=get_UserCan
 /// @brief Method set_notification addr 0x29a2d98 size 0x8 virtual false final false
  void set_notification(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "status", ty: "UnityEngine::ProBuilder::UnityEngine__ProBuilder__ActionResult__Status", modifiers: "", def_value: None }, CppParam { name: "notification", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ActionResult(UnityEngine::ProBuilder::UnityEngine__ProBuilder__ActionResult__Status status, ::StringW notification) ;
+static UnityEngine::ProBuilder::ActionResult New_ctor(UnityEngine::ProBuilder::UnityEngine__ProBuilder__ActionResult__Status status, ::StringW notification) ;
 
 /// @brief Method .ctor addr 0x29a2da0 size 0x30 virtual false final false
  void _ctor(UnityEngine::ProBuilder::UnityEngine__ProBuilder__ActionResult__Status status, ::StringW notification) ;

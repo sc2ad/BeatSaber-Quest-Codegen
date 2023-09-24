@@ -1,14 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace UnityEngine::UIElements {
-class ITextHandle;
+namespace System {
+class Action;
 }
 namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
 }
-namespace System {
-class Action;
+namespace UnityEngine::UIElements {
+class ITextHandle;
 }
 namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;

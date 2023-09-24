@@ -1,12 +1,13 @@
 #pragma once
 #include "Mono/Security/X509/zzzz__X509Crl_def.hpp"
 #include "Mono/Security/zzzz__ASN1_def.hpp"
-#include "Mono/Security/X509/zzzz__X509ExtensionCollection_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
+#include "Mono/Security/X509/zzzz__X509ExtensionCollection_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Crl_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSA_def.hpp"
 //  Writing Method size for method: Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry._ctor
 template<>
@@ -94,8 +95,10 @@ constexpr void Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry
 constexpr Mono::Security::X509::X509ExtensionCollection Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry::__get_extensions() const {
 return ::cordl_internals::getInstanceField<Mono::Security::X509::X509ExtensionCollection, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "entry", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
- Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry::Mono__Security__X509__X509Crl__X509CrlEntry(Mono::Security::ASN1 entry)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__X509__X509Crl__X509CrlEntry>(entry))) {}
+ Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry::New_ctor(Mono::Security::ASN1 entry)  {
+Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry>(entry))};
+return o;
+}
  void Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry::_ctor(Mono::Security::ASN1 entry)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry>::get(),
@@ -396,8 +399,10 @@ constexpr void Mono::Security::X509::X509Crl::__set_hash_value(::ArrayW<uint8_t>
 constexpr ::ArrayW<uint8_t> Mono::Security::X509::X509Crl::__get_hash_value() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "crl", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::X509::X509Crl::X509Crl(::ArrayW<uint8_t> crl)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Crl>(crl))) {}
+ Mono::Security::X509::X509Crl Mono::Security::X509::X509Crl::New_ctor(::ArrayW<uint8_t> crl)  {
+Mono::Security::X509::X509Crl o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::X509Crl>(crl))};
+return o;
+}
  void Mono::Security::X509::X509Crl::_ctor(::ArrayW<uint8_t> crl)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::X509Crl>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::XObjectWrapper._ctor
 template<>
 
@@ -207,8 +207,10 @@ constexpr void Newtonsoft::Json::Converters::XObjectWrapper::__set__xmlObject(Sy
 constexpr System::Xml::Linq::XObject Newtonsoft::Json::Converters::XObjectWrapper::__get__xmlObject() const {
 return ::cordl_internals::getInstanceField<System::Xml::Linq::XObject, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "xmlObject", ty: "System::Xml::Linq::XObject", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::XObjectWrapper::XObjectWrapper(System::Xml::Linq::XObject xmlObject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XObjectWrapper>(xmlObject))) {}
+ Newtonsoft::Json::Converters::XObjectWrapper Newtonsoft::Json::Converters::XObjectWrapper::New_ctor(System::Xml::Linq::XObject xmlObject)  {
+Newtonsoft::Json::Converters::XObjectWrapper o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::XObjectWrapper>(xmlObject))};
+return o;
+}
  void Newtonsoft::Json::Converters::XObjectWrapper::_ctor(System::Xml::Linq::XObject xmlObject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::XObjectWrapper>::get(),

@@ -72,8 +72,7 @@ constexpr float_t __get_currentProgress() const;
 /// @brief Method Update addr 0x262dac0 size 0x6c virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRProgressIndicator() ;
+static GlobalNamespace::OVRProgressIndicator New_ctor() ;
 
 /// @brief Method .ctor addr 0x262db2c size 0x14 virtual false final false
  void _ctor() ;

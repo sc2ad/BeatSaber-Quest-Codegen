@@ -3,6 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class IDisposable;
 }
@@ -10,21 +13,21 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class GlobalNamespace__TutorialController___OutroCoroutine_d__19;
 }
 namespace GlobalNamespace {
 class TutorialSongController;
 }
 namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IntroTutorialController;
+}
+namespace System {
 template<typename T>
 class Action_1;
-}
-namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class Signal;
 }
 namespace GlobalNamespace {
 class ILevelStartController;
@@ -33,10 +36,10 @@ namespace GlobalNamespace {
 class AudioFading;
 }
 namespace GlobalNamespace {
-class IntroTutorialController;
+class Signal;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class TutorialScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class PauseController;
@@ -127,8 +130,7 @@ constexpr GlobalNamespace::TutorialController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__TutorialController___OutroCoroutine_d__19(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__TutorialController___OutroCoroutine_d__19 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2112764 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -304,8 +306,7 @@ constexpr bool __get__doingOutroTransition() const;
 /// @brief Method HandlePauseControllerDidResume addr 0x21127d0 size 0x8 virtual false final false
  void HandlePauseControllerDidResume() ;
 
-// Ctor Parameters []
-explicit TutorialController() ;
+static GlobalNamespace::TutorialController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21127d8 size 0x8 virtual false final false
  void _ctor() ;

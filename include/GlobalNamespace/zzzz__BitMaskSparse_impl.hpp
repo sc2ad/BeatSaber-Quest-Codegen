@@ -1,10 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
+#include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
 #include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BitMaskSparse____c._ctor
@@ -53,8 +54,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__BitMa
  System::Func_2<uint32_t,::StringW> GlobalNamespace::GlobalNamespace__BitMaskSparse____c::__get___9__8_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<uint32_t,::StringW>, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BitMaskSparse____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BitMaskSparse____c::GlobalNamespace__BitMaskSparse____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BitMaskSparse____c>())) {}
+ GlobalNamespace::GlobalNamespace__BitMaskSparse____c GlobalNamespace::GlobalNamespace__BitMaskSparse____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BitMaskSparse____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BitMaskSparse____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BitMaskSparse____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BitMaskSparse____c>::get(),
@@ -242,8 +245,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bitCount", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::BitMaskSparse::BitMaskSparse(int32_t bitCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BitMaskSparse>(bitCount))) {}
+ GlobalNamespace::BitMaskSparse GlobalNamespace::BitMaskSparse::New_ctor(int32_t bitCount)  {
+GlobalNamespace::BitMaskSparse o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BitMaskSparse>(bitCount))};
+return o;
+}
  void GlobalNamespace::BitMaskSparse::_ctor(int32_t bitCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BitMaskSparse>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
-#include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
+#include "System/Xml/zzzz__XmlNode_def.hpp"
 //  Writing Method size for method: System::Xml::XmlNodeChangedEventArgs._ctor
 template<>
 
@@ -73,8 +73,10 @@ constexpr void System::Xml::XmlNodeChangedEventArgs::__set_newValue(::StringW va
 constexpr ::StringW System::Xml::XmlNodeChangedEventArgs::__get_newValue() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "node", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }, CppParam { name: "oldParent", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }, CppParam { name: "newParent", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }, CppParam { name: "oldValue", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "newValue", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Xml::XmlNodeChangedAction", modifiers: "", def_value: None }]
- System::Xml::XmlNodeChangedEventArgs::XmlNodeChangedEventArgs(System::Xml::XmlNode node, System::Xml::XmlNode oldParent, System::Xml::XmlNode newParent, ::StringW oldValue, ::StringW newValue, System::Xml::XmlNodeChangedAction action)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<XmlNodeChangedEventArgs>(node, oldParent, newParent, oldValue, newValue, action))) {}
+ System::Xml::XmlNodeChangedEventArgs System::Xml::XmlNodeChangedEventArgs::New_ctor(System::Xml::XmlNode node, System::Xml::XmlNode oldParent, System::Xml::XmlNode newParent, ::StringW oldValue, ::StringW newValue, System::Xml::XmlNodeChangedAction action)  {
+System::Xml::XmlNodeChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlNodeChangedEventArgs>(node, oldParent, newParent, oldValue, newValue, action))};
+return o;
+}
  void System::Xml::XmlNodeChangedEventArgs::_ctor(System::Xml::XmlNode node, System::Xml::XmlNode oldParent, System::Xml::XmlNode newParent, ::StringW oldValue, ::StringW newValue, System::Xml::XmlNodeChangedAction action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlNodeChangedEventArgs>::get(),

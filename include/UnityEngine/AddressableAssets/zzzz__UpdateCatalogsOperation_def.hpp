@@ -5,26 +5,38 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IResourceProvider;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
-}
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class IResourceLocator;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__UpdateCatalogsOperation____c;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo;
+}
+namespace UnityEngine::AddressableAssets {
+class AddressablesImpl;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -33,12 +45,6 @@ class IEnumerable_1;
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
-}
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl;
-}
-namespace UnityEngine::AddressableAssets {
-class UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -107,8 +113,7 @@ static System::Func_2<UnityEngine::ResourceManagement::ResourceProviders::IResou
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__UpdateCatalogsOperation____c() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28956c8 size 0x8 virtual false final false
  void _ctor() ;
@@ -177,8 +182,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::AddressableAssets::R
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x289565c size 0x8 virtual false final false
  void _ctor() ;
@@ -193,7 +197,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.AddressableAssets::UpdateCatalogsOperation
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3828)), TypeDefinitionIndex(TypeDefinitionIndex(14393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 771 }), TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 769 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3828)), TypeDefinitionIndex(TypeDefinitionIndex(14393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 771 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 769 }), TypeDefinitionIndex(TypeDefinitionIndex(14313))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14377))
 // CS Name: UnityEngine.AddressableAssets.UpdateCatalogsOperation
 class CORDL_TYPE UpdateCatalogsOperation : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator>> {
@@ -269,8 +273,7 @@ constexpr bool __get_m_AutoCleanBundleCache() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "aa", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
-explicit UpdateCatalogsOperation(UnityEngine::AddressableAssets::AddressablesImpl aa) ;
+static UnityEngine::AddressableAssets::UpdateCatalogsOperation New_ctor(UnityEngine::AddressableAssets::AddressablesImpl aa) ;
 
 /// @brief Method .ctor addr 0x288ff84 size 0x5c virtual false final false
  void _ctor(UnityEngine::AddressableAssets::AddressablesImpl aa) ;

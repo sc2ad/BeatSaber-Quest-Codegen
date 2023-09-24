@@ -4,6 +4,7 @@
 #include "GlobalNamespace/zzzz__PlayerSaveData_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -148,8 +149,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifie
 constexpr bool GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers::__get_smallCubes() const {
 return ::cordl_internals::getInstanceField<bool, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers::GlobalNamespace__PlayerSaveData__GameplayModifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__GameplayModifiers>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers>::get(),
@@ -332,8 +335,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificS
 constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings::__get_environmentEffectsFilterExpertPlusPreset() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData, 0x44>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__PlayerSpecificSettings>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings>::get(),
@@ -401,8 +406,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOveral
 constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData::__get_onlinePlayOverallStatsData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData>::get(),
@@ -412,8 +419,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "campaignOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "soloFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "partyFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "onlinePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData onlinePlayOverallStatsData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData, onlinePlayOverallStatsData))) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData::New_ctor(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData onlinePlayOverallStatsData)  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData, onlinePlayOverallStatsData))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData::_ctor(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData onlinePlayOverallStatsData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData>::get(),
@@ -523,8 +532,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallSt
 constexpr int64_t GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData::__get_cummulativeCutScoreWithoutMultiplier() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__PlayerOverallStatsData>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData>::get(),
@@ -534,8 +545,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "goodCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "badCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "missedCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalScore", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "playedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cleardLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "failedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullComboCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timePlayed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "handDistanceTravelled", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cummulativeCutScoreWithoutMultiplier", ty: "int64_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__PlayerOverallStatsData>(goodCutsCount, badCutsCount, missedCutsCount, totalScore, playedLevelsCount, cleardLevelsCount, failedLevelsCount, fullComboCount, timePlayed, handDistanceTravelled, cummulativeCutScoreWithoutMultiplier))) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData::New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier)  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData>(goodCutsCount, badCutsCount, missedCutsCount, totalScore, playedLevelsCount, cleardLevelsCount, failedLevelsCount, fullComboCount, timePlayed, handDistanceTravelled, cummulativeCutScoreWithoutMultiplier))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData::_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData>::get(),
@@ -616,8 +629,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStat
 constexpr int32_t GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData::__get_playCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x3c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__PlayerLevelStatsData>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData>::get(),
@@ -656,8 +671,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionSt
 constexpr bool GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData::__get_cleared() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__PlayerMissionStatsData>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData>::get(),
@@ -696,8 +713,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSetting
 constexpr float_t GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings::__get_songSpeedMul() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings::GlobalNamespace__PlayerSaveData__PracticeSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__PracticeSettings>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings>::get(),
@@ -772,8 +791,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme::__
 constexpr UnityEngine::Color GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme::__get_environmentColor1Boost() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Color, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "colorSchemeId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "saberAColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme::GlobalNamespace__PlayerSaveData__ColorScheme(::StringW colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__ColorScheme>(colorSchemeId, saberAColor, saberBColor, environmentColor0, environmentColor1, obstaclesColor, environmentColor0Boost, environmentColor1Boost))) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme::New_ctor(::StringW colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost)  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme>(colorSchemeId, saberAColor, saberBColor, environmentColor0, environmentColor1, obstaclesColor, environmentColor0Boost, environmentColor1Boost))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme::_ctor(::StringW colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme>::get(),
@@ -818,8 +839,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSet
 constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings::__get_colorSchemes() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "overrideDefaultColors", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "selectedColorSchemeId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "colorSchemes", ty: "System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings::GlobalNamespace__PlayerSaveData__ColorSchemesSettings(bool overrideDefaultColors, ::StringW selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> colorSchemes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__ColorSchemesSettings>(overrideDefaultColors, selectedColorSchemeId, colorSchemes))) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings::New_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> colorSchemes)  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings>(overrideDefaultColors, selectedColorSchemeId, colorSchemes))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings::_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> colorSchemes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings>::get(),
@@ -864,8 +887,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnviron
 constexpr ::StringW GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings::__get_override360EnvironmentName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings>::get(),
@@ -898,8 +923,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer::__
 constexpr ::StringW GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer::__get_playerName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer::GlobalNamespace__PlayerSaveData__GuestPlayer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__GuestPlayer>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer>::get(),
@@ -956,8 +983,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerMode
 constexpr bool GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings::__get_quickPlayEnableLevelSelection() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__MultiplayerModeSettings>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings>::get(),
@@ -1002,8 +1031,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreement
 constexpr int32_t GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData::__get_healthAndSafetyVersion() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData::GlobalNamespace__PlayerSaveData__PlayerAgreementsData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__PlayerAgreementsData>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData>::get(),
@@ -1180,8 +1211,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer::__
 constexpr ::StringW GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer::__get_currentDlcPromoId() const {
 return ::cordl_internals::getInstanceField<::StringW, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer::GlobalNamespace__PlayerSaveData__LocalPlayer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerSaveData__LocalPlayer>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer>::get(),
@@ -1220,8 +1253,10 @@ constexpr void GlobalNamespace::PlayerSaveData::__set_guestPlayers(System::Colle
 constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer> GlobalNamespace::PlayerSaveData::__get_guestPlayers() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerSaveData::PlayerSaveData()  : GlobalNamespace::VersionSaveData(THROW_UNLESS(::il2cpp_utils::New<PlayerSaveData>())) {}
+ GlobalNamespace::PlayerSaveData GlobalNamespace::PlayerSaveData::New_ctor()  {
+GlobalNamespace::PlayerSaveData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerSaveData>())};
+return o;
+}
  void GlobalNamespace::PlayerSaveData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerSaveData>::get(),

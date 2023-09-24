@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/zzzz__EncoderFallback_impl.hpp"
 #include "System/Text/zzzz__InternalEncoderBestFitFallback_def.hpp"
-#include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 //  Writing Method size for method: System::Text::InternalEncoderBestFitFallback._ctor
 template<>
 
@@ -100,8 +100,10 @@ constexpr void System::Text::InternalEncoderBestFitFallback::__set__arrayBestFit
 constexpr ::ArrayW<char16_t> System::Text::InternalEncoderBestFitFallback::__get__arrayBestFit() const {
 return ::cordl_internals::getInstanceField<::ArrayW<char16_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::Text::InternalEncoderBestFitFallback::InternalEncoderBestFitFallback(System::Text::Encoding encoding)  : System::Text::EncoderFallback(THROW_UNLESS(::il2cpp_utils::New<InternalEncoderBestFitFallback>(encoding))) {}
+ System::Text::InternalEncoderBestFitFallback System::Text::InternalEncoderBestFitFallback::New_ctor(System::Text::Encoding encoding)  {
+System::Text::InternalEncoderBestFitFallback o{THROW_UNLESS(::il2cpp_utils::New<System::Text::InternalEncoderBestFitFallback>(encoding))};
+return o;
+}
  void System::Text::InternalEncoderBestFitFallback::_ctor(System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::InternalEncoderBestFitFallback>::get(),

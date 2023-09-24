@@ -48,8 +48,7 @@ constexpr explicit CamelCasePropertyNamesContractResolver(void* ptr) noexcept : 
 
 // Methods
 
-// Ctor Parameters []
-explicit CamelCasePropertyNamesContractResolver() ;
+static Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f6bf4 size 0x60 virtual false final false
  void _ctor() ;

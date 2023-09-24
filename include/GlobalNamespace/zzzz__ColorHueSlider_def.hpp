@@ -2,11 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__CircleSlider_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-struct ColorChangeUIEventType;
-}
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Action_3;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace GlobalNamespace {
+struct ColorChangeUIEventType;
 }
 namespace HMUI {
 class CircleSlider;
@@ -16,13 +23,6 @@ class PointerEventData;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -118,8 +118,7 @@ constexpr System::Action_3<GlobalNamespace::ColorHueSlider,float_t,GlobalNamespa
 /// @brief Method OnPointerUp addr 0x211ce5c size 0x40 virtual true final false
  void OnPointerUp(UnityEngine::EventSystems::PointerEventData eventData) ;
 
-// Ctor Parameters []
-explicit ColorHueSlider() ;
+static GlobalNamespace::ColorHueSlider New_ctor() ;
 
 /// @brief Method .ctor addr 0x211ce9c size 0x8 virtual false final false
  void _ctor() ;

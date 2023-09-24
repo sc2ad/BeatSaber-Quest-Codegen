@@ -3,10 +3,10 @@
 #include "System/Runtime/InteropServices/zzzz__ExternalException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {
@@ -54,14 +54,12 @@ constexpr explicit COMException(void* ptr) noexcept : System::Runtime::InteropSe
 
 // Methods
 
-// Ctor Parameters []
-explicit COMException() ;
+static System::Runtime::InteropServices::COMException New_ctor() ;
 
 /// @brief Method .ctor addr 0x236a9b0 size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit COMException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::InteropServices::COMException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x236a9b4 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

@@ -3,31 +3,31 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class RecordingToolSettings;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__ObjectsMovementRecorder__InitData;
-}
-namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace GlobalNamespace {
-class ListLogger;
+class RecordingToolResourceContainerSO;
 }
 namespace GlobalNamespace {
 class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
+class MenuDestination;
+}
+namespace GlobalNamespace {
+class RecordingToolSettings;
+}
+namespace GlobalNamespace {
+class ListLogger;
+}
+namespace GlobalNamespace {
 class ProgramArguments;
 }
 namespace GlobalNamespace {
-class RecordingToolResourceContainerSO;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+class GlobalNamespace__ObjectsMovementRecorder__InitData;
 }
 namespace GlobalNamespace {
 class IPosesSerializer;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -177,8 +177,7 @@ constexpr GlobalNamespace::IPosesSerializer __get__posesSerializer() const;
 /// @brief Method get_posesSerializer addr 0x21abf90 size 0x8 virtual false final false
  GlobalNamespace::IPosesSerializer get_posesSerializer() ;
 
-// Ctor Parameters [CppParam { name: "programArguments", ty: "GlobalNamespace::ProgramArguments", modifiers: "", def_value: None }, CppParam { name: "resourceContainer", ty: "GlobalNamespace::RecordingToolResourceContainerSO", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicCollection", ty: "GlobalNamespace::BeatmapCharacteristicCollection", modifiers: "", def_value: None }]
-explicit RecordingToolManager(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection) ;
+static GlobalNamespace::RecordingToolManager New_ctor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection) ;
 
 /// @brief Method .ctor addr 0x21abc90 size 0x2b8 virtual false final false
  void _ctor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection) ;

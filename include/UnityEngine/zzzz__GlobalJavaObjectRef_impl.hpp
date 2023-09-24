@@ -80,8 +80,10 @@ constexpr void UnityEngine::GlobalJavaObjectRef::__set_m_jobject(::cordl_interna
 constexpr ::cordl_internals::intptr_t UnityEngine::GlobalJavaObjectRef::__get_m_jobject() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "jobject", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::GlobalJavaObjectRef::GlobalJavaObjectRef(::cordl_internals::intptr_t jobject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalJavaObjectRef>(jobject))) {}
+ UnityEngine::GlobalJavaObjectRef UnityEngine::GlobalJavaObjectRef::New_ctor(::cordl_internals::intptr_t jobject)  {
+UnityEngine::GlobalJavaObjectRef o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GlobalJavaObjectRef>(jobject))};
+return o;
+}
  void UnityEngine::GlobalJavaObjectRef::_ctor(::cordl_internals::intptr_t jobject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GlobalJavaObjectRef>::get(),

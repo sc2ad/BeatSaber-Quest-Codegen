@@ -2,26 +2,26 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-class InjectContext;
+class ISubContainerCreator;
 }
 namespace Zenject {
 class IPrefabProvider;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
-}
-namespace Zenject {
-class ISubContainerCreator;
 }
 // Forward declare root types
 namespace Zenject {
@@ -93,8 +93,7 @@ constexpr Zenject::DiContainer __get__container() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewPrefab(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
+static Zenject::SubContainerCreatorByNewPrefab New_ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d92aa8 size 0x3c virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;

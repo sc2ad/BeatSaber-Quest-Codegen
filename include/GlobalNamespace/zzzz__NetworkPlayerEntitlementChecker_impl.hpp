@@ -2,14 +2,14 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerEntitlementChecker_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkPlayerEntitlementChecker_def.hpp"
 #include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__EntitlementsStatus_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "GlobalNamespace/zzzz__EntitlementsStatus_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__5.MoveNext
 template<>
@@ -356,8 +356,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>, false>(const_cast<void*>(instance), ___internal_method, levelId);
 }
-// Ctor Parameters []
- GlobalNamespace::NetworkPlayerEntitlementChecker::NetworkPlayerEntitlementChecker()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NetworkPlayerEntitlementChecker>())) {}
+ GlobalNamespace::NetworkPlayerEntitlementChecker GlobalNamespace::NetworkPlayerEntitlementChecker::New_ctor()  {
+GlobalNamespace::NetworkPlayerEntitlementChecker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NetworkPlayerEntitlementChecker>())};
+return o;
+}
  void GlobalNamespace::NetworkPlayerEntitlementChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NetworkPlayerEntitlementChecker>::get(),

@@ -98,8 +98,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,System::Collections
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "poolMaxSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "poolCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "poolCacheMaxSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "initialPoolCacheCapacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LRUCacheAllocationStrategy(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity) ;
+static UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy New_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity) ;
 
 /// @brief Method .ctor addr 0x2a32a50 size 0x1d8 virtual false final false
  void _ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity) ;

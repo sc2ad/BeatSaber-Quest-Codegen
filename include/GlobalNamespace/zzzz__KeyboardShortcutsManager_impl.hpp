@@ -2,9 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__KeyboardShortcutsManager_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__KeyboardShortcutsManager_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut._ctor
 template<>
 
@@ -74,8 +75,10 @@ constexpr void GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__Keybo
 constexpr UnityEngine::KeyCode GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut::__get_combinationKey2() const {
 return ::cordl_internals::getInstanceField<UnityEngine::KeyCode, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mainKey", ty: "UnityEngine::KeyCode", modifiers: "", def_value: None }, CppParam { name: "combinationKey1", ty: "UnityEngine::KeyCode", modifiers: "", def_value: None }, CppParam { name: "combinationKey2", ty: "UnityEngine::KeyCode", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut>(mainKey, combinationKey1, combinationKey2))) {}
+ GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut::New_ctor(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2)  {
+GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut>(mainKey, combinationKey1, combinationKey2))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut::_ctor(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut>::get(),
@@ -464,8 +467,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mainKey, callback);
 }
-// Ctor Parameters []
- GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcutsManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<KeyboardShortcutsManager>())) {}
+ GlobalNamespace::KeyboardShortcutsManager GlobalNamespace::KeyboardShortcutsManager::New_ctor()  {
+GlobalNamespace::KeyboardShortcutsManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::KeyboardShortcutsManager>())};
+return o;
+}
  void GlobalNamespace::KeyboardShortcutsManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::KeyboardShortcutsManager>::get(),

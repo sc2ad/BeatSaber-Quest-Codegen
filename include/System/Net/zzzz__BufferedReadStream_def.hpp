@@ -21,16 +21,19 @@ struct CancellationToken;
 namespace System::Net {
 class BufferOffsetSize;
 }
+namespace System::Net {
+struct System__Net__BufferedReadStream___ProcessReadAsync_d__2;
+}
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template<typename TResult>
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 // Forward declare root types
 namespace System::Net {
@@ -199,8 +202,7 @@ constexpr System::Net::BufferOffsetSize __get_readBuffer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readBuffer", ty: "System::Net::BufferOffsetSize", modifiers: "", def_value: None }]
-explicit BufferedReadStream(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::BufferOffsetSize readBuffer) ;
+static System::Net::BufferedReadStream New_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::BufferOffsetSize readBuffer) ;
 
 /// @brief Method .ctor addr 0x2829934 size 0x28 virtual false final false
  void _ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::BufferOffsetSize readBuffer) ;

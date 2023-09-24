@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_flags_def.hpp"
+#include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_flags_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::NetworkInformation::AixStructs::System__Net__NetworkInformation__AixStructs__ifreq_flags___ifr_name_e__FixedBuffer::System__Net__NetworkInformation__AixStructs__ifreq_flags___ifr_name_e__FixedBuffer(uint8_t FixedElementField) noexcept : ::bs_hook::ValueTypeWrapper() {this->FixedElementField = FixedElementField;
 }

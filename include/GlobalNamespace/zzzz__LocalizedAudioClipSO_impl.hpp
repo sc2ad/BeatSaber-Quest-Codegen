@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__LocalizedAudioClipSO_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "Polyglot/zzzz__Language_def.hpp"
+#include "GlobalNamespace/zzzz__LocalizedAudioClipSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo._ctor
 template<>
 
@@ -32,8 +33,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__Localized
 constexpr UnityEngine::AudioClip GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo::__get_localizedAudioClip() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AudioClip, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo>())) {}
+ GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo>::get(),
@@ -83,8 +86,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO____c__Disp
 constexpr Polyglot::Language GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0::__get_language() const {
 return ::cordl_internals::getInstanceField<Polyglot::Language, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0::GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0>())) {}
+ GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0 GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0>::get(),
@@ -158,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::AudioClip, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<LocalizedAudioClipSO>())) {}
+ GlobalNamespace::LocalizedAudioClipSO GlobalNamespace::LocalizedAudioClipSO::New_ctor()  {
+GlobalNamespace::LocalizedAudioClipSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LocalizedAudioClipSO>())};
+return o;
+}
  void GlobalNamespace::LocalizedAudioClipSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LocalizedAudioClipSO>::get(),

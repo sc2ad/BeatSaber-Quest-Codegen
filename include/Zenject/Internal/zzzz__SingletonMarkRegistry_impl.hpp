@@ -1,7 +1,7 @@
 #pragma once
 #include "Zenject/Internal/zzzz__SingletonMarkRegistry_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: Zenject::Internal::SingletonMarkRegistry.MarkNonSingleton
 template<>
 
@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type);
 }
-// Ctor Parameters []
- Zenject::Internal::SingletonMarkRegistry::SingletonMarkRegistry()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SingletonMarkRegistry>())) {}
+ Zenject::Internal::SingletonMarkRegistry Zenject::Internal::SingletonMarkRegistry::New_ctor()  {
+Zenject::Internal::SingletonMarkRegistry o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::SingletonMarkRegistry>())};
+return o;
+}
  void Zenject::Internal::SingletonMarkRegistry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::SingletonMarkRegistry>::get(),

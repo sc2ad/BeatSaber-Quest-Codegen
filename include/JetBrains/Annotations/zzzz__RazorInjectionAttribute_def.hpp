@@ -70,8 +70,7 @@ constexpr ::StringW __get__FieldName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fieldName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RazorInjectionAttribute(::StringW type, ::StringW fieldName) ;
+static JetBrains::Annotations::RazorInjectionAttribute New_ctor(::StringW type, ::StringW fieldName) ;
 
 /// @brief Method .ctor addr 0x2d413ac size 0x2c virtual false final false
  void _ctor(::StringW type, ::StringW fieldName) ;

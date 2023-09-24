@@ -5,14 +5,11 @@
 namespace UnityEngine {
 class ScriptableObject;
 }
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1;
+}
 namespace UnityEngine {
 class Object;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine::Timeline {
-class TrackAsset;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -20,6 +17,15 @@ class List_1;
 }
 namespace System {
 class Type;
+}
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine::Timeline {
+class TrackAsset;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -82,8 +88,7 @@ constexpr ::StringW __get_name() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad97f8 size 0x8 virtual false final false
  void _ctor() ;
@@ -146,8 +151,7 @@ constexpr ::StringW __get_result() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad9800 size 0x8 virtual false final false
  void _ctor() ;

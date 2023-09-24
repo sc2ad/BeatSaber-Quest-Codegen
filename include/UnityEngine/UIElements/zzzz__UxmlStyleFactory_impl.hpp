@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStyleFactory_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UxmlStyleFactory.get_uxmlName
 template<>
 
@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::VisualElement, false>(const_cast<void*>(instance), ___internal_method, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UxmlStyleFactory::UxmlStyleFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UxmlStyleTraits>(THROW_UNLESS(::il2cpp_utils::New<UxmlStyleFactory>())) {}
+ UnityEngine::UIElements::UxmlStyleFactory UnityEngine::UIElements::UxmlStyleFactory::New_ctor()  {
+UnityEngine::UIElements::UxmlStyleFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UxmlStyleFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UxmlStyleFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UxmlStyleFactory>::get(),

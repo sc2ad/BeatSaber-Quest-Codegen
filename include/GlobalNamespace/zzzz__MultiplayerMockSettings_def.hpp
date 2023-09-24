@@ -2,7 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 namespace GlobalNamespace {
-class MultiplayerStatusData;
+class MockServerSettings;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace GlobalNamespace {
 class MockPlayerSettings;
@@ -10,12 +14,8 @@ class MockPlayerSettings;
 namespace GlobalNamespace {
 class QuickPlaySetupData;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace GlobalNamespace {
-class MockServerSettings;
+class MultiplayerStatusData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -147,8 +147,7 @@ constexpr GlobalNamespace::QuickPlaySetupData __get__quickPlaySetupData() const;
 /// @brief Method SharedSettings addr 0x20efb7c size 0x8 virtual false final false
 static GlobalNamespace::MultiplayerMockSettings SharedSettings() ;
 
-// Ctor Parameters []
-explicit MultiplayerMockSettings() ;
+static GlobalNamespace::MultiplayerMockSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x20efb84 size 0x7c virtual false final false
  void _ctor() ;

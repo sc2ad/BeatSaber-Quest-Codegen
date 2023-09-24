@@ -3,18 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class IPoolablePacket;
+}
+namespace GlobalNamespace {
 template<typename T>
 class IPacketPool_1;
 }
 namespace GlobalNamespace {
-class IPoolablePacket;
+class IPacketPool;
 }
 namespace System::Collections::Concurrent {
 template<typename T>
 class ConcurrentBag_1;
-}
-namespace GlobalNamespace {
-class IPacketPool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +103,7 @@ constexpr System::Collections::Concurrent::ConcurrentBag_1<T> __get__bag() const
 /// @brief Method IPacketPool.Release addr 0x0 size 0xffffffffffffffff virtual true final true
  void IPacketPool_Release(GlobalNamespace::IPoolablePacket o) ;
 
-// Ctor Parameters []
-explicit PacketPool_1() ;
+static GlobalNamespace::PacketPool_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

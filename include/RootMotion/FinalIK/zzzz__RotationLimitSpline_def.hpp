@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Keyframe;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -94,8 +94,7 @@ constexpr UnityEngine::AnimationCurve __get_spline() const;
 /// @brief Method LimitSwing addr 0x1205bc0 size 0x3b8 virtual false final false
  UnityEngine::Quaternion LimitSwing(UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit RotationLimitSpline() ;
+static RootMotion::FinalIK::RotationLimitSpline New_ctor() ;
 
 /// @brief Method .ctor addr 0x1205f78 size 0x10 virtual false final false
  void _ctor() ;

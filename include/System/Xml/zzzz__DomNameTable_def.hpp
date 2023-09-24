@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Xml {
+class XmlName;
+}
 namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
 namespace System::Xml {
-class XmlName;
+class XmlNameTable;
 }
 namespace System::Xml {
 class XmlDocument;
-}
-namespace System::Xml {
-class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -95,8 +95,7 @@ constexpr System::Xml::XmlNameTable __get_nameTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "document", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit DomNameTable(System::Xml::XmlDocument document) ;
+static System::Xml::DomNameTable New_ctor(System::Xml::XmlDocument document) ;
 
 /// @brief Method .ctor addr 0x26edab8 size 0x84 virtual false final false
  void _ctor(System::Xml::XmlDocument document) ;

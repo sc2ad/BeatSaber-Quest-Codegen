@@ -116,8 +116,7 @@ constexpr UnityEngine::InputSystem::Controls::AxisControl __get__w_k__BackingFie
 /// @brief Method set_w addr 0x2978910 size 0x8 virtual false final false
  void set_w(UnityEngine::InputSystem::Controls::AxisControl value) ;
 
-// Ctor Parameters []
-explicit QuaternionControl() ;
+static UnityEngine::InputSystem::Controls::QuaternionControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2978918 size 0x90 virtual false final false
  void _ctor() ;

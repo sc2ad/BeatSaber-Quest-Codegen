@@ -4,14 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Xml::Schema {
+struct System__Xml__Schema__NamespaceList__ListType;
+}
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Collections {
-class ICollection;
-}
 namespace System::Xml {
 class XmlQualifiedName;
+}
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -70,6 +73,8 @@ __Set = 2,
 constexpr operator __System__Xml__Schema__NamespaceList__ListType_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__Schema__NamespaceList__ListType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -167,14 +172,12 @@ constexpr ::StringW __get_targetNamespace() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NamespaceList() ;
+static System::Xml::Schema::NamespaceList New_ctor() ;
 
 /// @brief Method .ctor addr 0x273015c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "namespaces", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "targetNamespace", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NamespaceList(::StringW namespaces, ::StringW targetNamespace) ;
+static System::Xml::Schema::NamespaceList New_ctor(::StringW namespaces, ::StringW targetNamespace) ;
 
 /// @brief Method .ctor addr 0x2730164 size 0x2a0 virtual false final false
  void _ctor(::StringW namespaces, ::StringW targetNamespace) ;

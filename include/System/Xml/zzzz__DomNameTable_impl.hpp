@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__DomNameTable_def.hpp"
-#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
 #include "System/Xml/zzzz__XmlName_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
 //  Writing Method size for method: System::Xml::DomNameTable._ctor
 template<>
 
@@ -102,8 +102,10 @@ constexpr void System::Xml::DomNameTable::__set_nameTable(System::Xml::XmlNameTa
 constexpr System::Xml::XmlNameTable System::Xml::DomNameTable::__get_nameTable() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlNameTable, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "document", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::DomNameTable::DomNameTable(System::Xml::XmlDocument document)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DomNameTable>(document))) {}
+ System::Xml::DomNameTable System::Xml::DomNameTable::New_ctor(System::Xml::XmlDocument document)  {
+System::Xml::DomNameTable o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::DomNameTable>(document))};
+return o;
+}
  void System::Xml::DomNameTable::_ctor(System::Xml::XmlDocument document)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::DomNameTable>::get(),

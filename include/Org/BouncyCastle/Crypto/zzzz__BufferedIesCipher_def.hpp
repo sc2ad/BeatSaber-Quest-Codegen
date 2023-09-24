@@ -7,11 +7,11 @@
 namespace Org::BouncyCastle::Crypto::Engines {
 class IesEngine;
 }
-namespace System::IO {
-class MemoryStream;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace System::IO {
+class MemoryStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -85,8 +85,7 @@ constexpr System::IO::MemoryStream __get_buffer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::Engines::IesEngine", modifiers: "", def_value: None }]
-explicit BufferedIesCipher(Org::BouncyCastle::Crypto::Engines::IesEngine engine) ;
+static Org::BouncyCastle::Crypto::BufferedIesCipher New_ctor(Org::BouncyCastle::Crypto::Engines::IesEngine engine) ;
 
 /// @brief Method .ctor addr 0xf378e4 size 0xf0 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Engines::IesEngine engine) ;

@@ -1,17 +1,17 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__BasicOcspResp_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__ResponseData_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__RespData_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__RespID_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__SingleResp_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__RespID_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__ResponseData_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__SingleResp_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__BasicOcspResponse_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__RespData_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::BasicOcspResp._ctor
 template<>
 
@@ -347,8 +347,10 @@ constexpr void Org::BouncyCastle::Ocsp::BasicOcspResp::__set_data(Org::BouncyCas
 constexpr Org::BouncyCastle::Asn1::Ocsp::ResponseData Org::BouncyCastle::Ocsp::BasicOcspResp::__get_data() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Ocsp::ResponseData, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "resp", ty: "Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::BasicOcspResp::BasicOcspResp(Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse resp)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<BasicOcspResp>(resp))) {}
+ Org::BouncyCastle::Ocsp::BasicOcspResp Org::BouncyCastle::Ocsp::BasicOcspResp::New_ctor(Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse resp)  {
+Org::BouncyCastle::Ocsp::BasicOcspResp o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::BasicOcspResp>(resp))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::BasicOcspResp::_ctor(Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse resp)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::BasicOcspResp>::get(),

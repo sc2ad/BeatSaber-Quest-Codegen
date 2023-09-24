@@ -7,6 +7,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__SimpleFileLogger__MonoLogger;
+}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -77,8 +80,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get__lines() const;
 /// @brief Method Clear addr 0x1f7b124 size 0x84 virtual false final false
  void Clear() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__SimpleFileLogger__MonoLogger() ;
+static GlobalNamespace::GlobalNamespace__SimpleFileLogger__MonoLogger New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7b550 size 0x7c virtual false final false
  void _ctor() ;
@@ -160,8 +162,7 @@ static void LogVector(::StringW description, UnityEngine::Vector3 vec) ;
 /// @brief Method Clear addr 0x1f7b4e4 size 0x18 virtual false final false
 static void Clear() ;
 
-// Ctor Parameters []
-explicit SimpleFileLogger() ;
+static GlobalNamespace::SimpleFileLogger New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7b4fc size 0x8 virtual false final false
  void _ctor() ;

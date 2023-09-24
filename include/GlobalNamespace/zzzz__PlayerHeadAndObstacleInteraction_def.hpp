@@ -2,6 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
 namespace GlobalNamespace {
 class ObstacleController;
 }
@@ -11,15 +20,6 @@ class HashSet_1;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
 }
 namespace System {
 template<typename T>
@@ -142,8 +142,7 @@ constexpr int32_t __get__prevFrameNumberOfIntersectingObstaclesCount() const;
 /// @brief Method Update addr 0x2108920 size 0x8c virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit PlayerHeadAndObstacleInteraction() ;
+static GlobalNamespace::PlayerHeadAndObstacleInteraction New_ctor() ;
 
 /// @brief Method .ctor addr 0x21089ac size 0x84 virtual false final false
  void _ctor() ;

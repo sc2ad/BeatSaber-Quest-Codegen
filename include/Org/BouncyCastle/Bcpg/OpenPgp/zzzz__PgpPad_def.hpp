@@ -49,8 +49,7 @@ constexpr explicit PgpPad(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit PgpPad() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPad New_ctor() ;
 
 /// @brief Method .ctor addr 0x10260ac size 0x8 virtual false final false
  void _ctor() ;

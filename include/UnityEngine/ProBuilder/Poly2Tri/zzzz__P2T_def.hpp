@@ -2,25 +2,25 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::ProBuilder::Poly2Tri {
+class ConstrainedPointSet;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationContext;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class Triangulatable;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 struct TriangulationAlgorithm;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class PolygonSet;
+class PointSet;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class Polygon;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class ConstrainedPointSet;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class PointSet;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class Triangulatable;
+class PolygonSet;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

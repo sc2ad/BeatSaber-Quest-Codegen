@@ -4,12 +4,12 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Rendering {
-struct ShaderTagId;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::Rendering {
+struct ShaderTagId;
 }
 namespace System {
 class Type;

@@ -1,14 +1,14 @@
 #pragma once
 #include "Zenject/zzzz__PrefabInstantiatorCached_def.hpp"
-#include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: Zenject::PrefabInstantiatorCached._ctor
 template<>
 
@@ -127,8 +127,10 @@ constexpr void Zenject::PrefabInstantiatorCached::__set__gameObject(UnityEngine:
 constexpr UnityEngine::GameObject Zenject::PrefabInstantiatorCached::__get__gameObject() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GameObject, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "subInstantiator", ty: "Zenject::IPrefabInstantiator", modifiers: "", def_value: None }]
- Zenject::PrefabInstantiatorCached::PrefabInstantiatorCached(Zenject::IPrefabInstantiator subInstantiator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PrefabInstantiatorCached>(subInstantiator))) {}
+ Zenject::PrefabInstantiatorCached Zenject::PrefabInstantiatorCached::New_ctor(Zenject::IPrefabInstantiator subInstantiator)  {
+Zenject::PrefabInstantiatorCached o{THROW_UNLESS(::il2cpp_utils::New<Zenject::PrefabInstantiatorCached>(subInstantiator))};
+return o;
+}
  void Zenject::PrefabInstantiatorCached::_ctor(Zenject::IPrefabInstantiator subInstantiator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::PrefabInstantiatorCached>::get(),

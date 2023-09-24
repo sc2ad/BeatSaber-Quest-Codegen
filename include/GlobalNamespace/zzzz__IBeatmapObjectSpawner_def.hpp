@@ -3,22 +3,22 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
-namespace GlobalNamespace {
 class ObstacleData;
 }
 namespace GlobalNamespace {
-class NoteData;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
+class NoteData;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
 class SliderData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

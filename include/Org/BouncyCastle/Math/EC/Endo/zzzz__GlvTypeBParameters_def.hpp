@@ -95,14 +95,12 @@ constexpr Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters __get_m_split
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beta", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "lambda", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "v1", ty: "::ArrayW<Org::BouncyCastle::Math::BigInteger>", modifiers: "", def_value: None }, CppParam { name: "v2", ty: "::ArrayW<Org::BouncyCastle::Math::BigInteger>", modifiers: "", def_value: None }, CppParam { name: "g1", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g2", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "bits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlvTypeBParameters(Org::BouncyCastle::Math::BigInteger beta, Org::BouncyCastle::Math::BigInteger lambda, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v2, Org::BouncyCastle::Math::BigInteger g1, Org::BouncyCastle::Math::BigInteger g2, int32_t bits) ;
+static Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters New_ctor(Org::BouncyCastle::Math::BigInteger beta, Org::BouncyCastle::Math::BigInteger lambda, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v2, Org::BouncyCastle::Math::BigInteger g1, Org::BouncyCastle::Math::BigInteger g2, int32_t bits) ;
 
 /// @brief Method .ctor addr 0xfa8500 size 0xbc virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger beta, Org::BouncyCastle::Math::BigInteger lambda, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v2, Org::BouncyCastle::Math::BigInteger g1, Org::BouncyCastle::Math::BigInteger g2, int32_t bits) ;
 
-// Ctor Parameters [CppParam { name: "beta", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "lambda", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "splitParams", ty: "Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters", modifiers: "", def_value: None }]
-explicit GlvTypeBParameters(Org::BouncyCastle::Math::BigInteger beta, Org::BouncyCastle::Math::BigInteger lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters splitParams) ;
+static Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters New_ctor(Org::BouncyCastle::Math::BigInteger beta, Org::BouncyCastle::Math::BigInteger lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters splitParams) ;
 
 /// @brief Method .ctor addr 0xfa86b8 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger beta, Org::BouncyCastle::Math::BigInteger lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters splitParams) ;

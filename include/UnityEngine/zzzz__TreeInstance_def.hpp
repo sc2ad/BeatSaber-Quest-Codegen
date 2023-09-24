@@ -4,10 +4,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Color32;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color32;
 }
 // Forward declare root types
 namespace UnityEngine {

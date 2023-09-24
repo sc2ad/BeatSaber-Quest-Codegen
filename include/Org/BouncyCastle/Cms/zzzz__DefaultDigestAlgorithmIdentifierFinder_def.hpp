@@ -75,8 +75,7 @@ static System::Collections::IDictionary __get_digestNameToOids() ;
 /// @brief Method find addr 0x11721ac size 0x19c virtual false final false
  Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier find(::StringW digAlgName) ;
 
-// Ctor Parameters []
-explicit DefaultDigestAlgorithmIdentifierFinder() ;
+static Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x116216c size 0x8 virtual false final false
  void _ctor() ;

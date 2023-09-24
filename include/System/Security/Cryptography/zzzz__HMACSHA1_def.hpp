@@ -49,20 +49,17 @@ constexpr explicit HMACSHA1(void* ptr) noexcept : System::Security::Cryptography
 
 // Methods
 
-// Ctor Parameters []
-explicit HMACSHA1() ;
+static System::Security::Cryptography::HMACSHA1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f3370 size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HMACSHA1(::ArrayW<uint8_t> key) ;
+static System::Security::Cryptography::HMACSHA1 New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0x22f3a48 size 0x8 virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "useManagedSha1", ty: "bool", modifiers: "", def_value: None }]
-explicit HMACSHA1(::ArrayW<uint8_t> key, bool useManagedSha1) ;
+static System::Security::Cryptography::HMACSHA1 New_ctor(::ArrayW<uint8_t> key, bool useManagedSha1) ;
 
 /// @brief Method .ctor addr 0x22f3a50 size 0xc0 virtual false final false
  void _ctor(::ArrayW<uint8_t> key, bool useManagedSha1) ;

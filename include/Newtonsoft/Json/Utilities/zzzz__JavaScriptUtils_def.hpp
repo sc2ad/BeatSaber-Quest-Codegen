@@ -8,12 +8,12 @@
 namespace Newtonsoft::Json {
 struct StringEscapeHandling;
 }
-namespace System::IO {
-class TextWriter;
-}
 namespace Newtonsoft::Json {
 template<typename T>
 class IArrayPool_1;
+}
+namespace System::IO {
+class TextWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

@@ -6,37 +6,40 @@
 namespace HMUI {
 class SegmentedControlCell;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
 namespace HMUI {
-class SelectableCell;
+class HMUI__SegmentedControl__IDataSource;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace HMUI {
+class SelectableCell;
+}
+namespace HMUI {
 struct HMUI__SelectableCell__TransitionType;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HMUI {
@@ -210,8 +213,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,System::Action_1<in
 /// @brief Method SelectCellWithNumber addr 0x1fad07c size 0xa8 virtual false final false
  void SelectCellWithNumber(int32_t selectCellNumber) ;
 
-// Ctor Parameters []
-explicit SegmentedControl() ;
+static HMUI::SegmentedControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fac700 size 0x10c virtual false final false
  void _ctor() ;

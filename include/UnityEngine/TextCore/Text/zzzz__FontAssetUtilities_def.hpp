@@ -4,10 +4,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 namespace UnityEngine::TextCore::Text {
+struct TextFontWeight;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace UnityEngine::TextCore::Text {
 class SpriteCharacter;
 }
 namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
+struct FontStyles;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -17,17 +24,10 @@ namespace UnityEngine::TextCore::Text {
 class Character;
 }
 namespace UnityEngine::TextCore::Text {
-struct FontStyles;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace UnityEngine::TextCore::Text {
 class FontAsset;
 }
 namespace UnityEngine::TextCore::Text {
-struct TextFontWeight;
+class SpriteAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

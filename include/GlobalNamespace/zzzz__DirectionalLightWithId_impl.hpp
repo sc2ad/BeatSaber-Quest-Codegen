@@ -64,8 +64,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- GlobalNamespace::DirectionalLightWithId::DirectionalLightWithId()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DirectionalLightWithId>())) {}
+ GlobalNamespace::DirectionalLightWithId GlobalNamespace::DirectionalLightWithId::New_ctor()  {
+GlobalNamespace::DirectionalLightWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DirectionalLightWithId>())};
+return o;
+}
  void GlobalNamespace::DirectionalLightWithId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DirectionalLightWithId>::get(),

@@ -5,28 +5,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace ENet {
+struct Packet;
+}
+namespace ENet {
+struct Address;
+}
+namespace System {
+class IDisposable;
+}
+namespace ENet {
 class ChecksumCallback;
 }
 namespace ENet {
 class InterceptCallback;
 }
 namespace ENet {
-struct Packet;
-}
-namespace ENet {
-struct SslConfiguration;
-}
-namespace ENet {
 struct Event;
-}
-namespace System {
-class IDisposable;
-}
-namespace ENet {
-struct Address;
 }
 namespace ENet {
 struct Peer;
+}
+namespace ENet {
+struct SslConfiguration;
 }
 namespace System {
 template<typename T>
@@ -200,8 +200,7 @@ static void ThrowIfChannelsExceeded(int32_t channelLimit) ;
 /// @brief Method Flush addr 0x207fea0 size 0x18 virtual false final false
  void Flush() ;
 
-// Ctor Parameters []
-explicit Host() ;
+static ENet::Host New_ctor() ;
 
 /// @brief Method .ctor addr 0x207ff34 size 0x8 virtual false final false
  void _ctor() ;

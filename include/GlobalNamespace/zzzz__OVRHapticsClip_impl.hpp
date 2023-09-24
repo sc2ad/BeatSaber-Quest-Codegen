@@ -311,8 +311,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRHapticsClip::OVRHapticsClip()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRHapticsClip>())) {}
+ GlobalNamespace::OVRHapticsClip GlobalNamespace::OVRHapticsClip::New_ctor()  {
+GlobalNamespace::OVRHapticsClip o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRHapticsClip>())};
+return o;
+}
  void GlobalNamespace::OVRHapticsClip::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRHapticsClip>::get(),
@@ -322,8 +324,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::OVRHapticsClip::OVRHapticsClip(int32_t capacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRHapticsClip>(capacity))) {}
+ GlobalNamespace::OVRHapticsClip GlobalNamespace::OVRHapticsClip::New_ctor(int32_t capacity)  {
+GlobalNamespace::OVRHapticsClip o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRHapticsClip>(capacity))};
+return o;
+}
  void GlobalNamespace::OVRHapticsClip::_ctor(int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRHapticsClip>::get(),
@@ -333,8 +337,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity);
 }
-// Ctor Parameters [CppParam { name: "samples", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "samplesCount", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::OVRHapticsClip::OVRHapticsClip(::ArrayW<uint8_t> samples, int32_t samplesCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRHapticsClip>(samples, samplesCount))) {}
+ GlobalNamespace::OVRHapticsClip GlobalNamespace::OVRHapticsClip::New_ctor(::ArrayW<uint8_t> samples, int32_t samplesCount)  {
+GlobalNamespace::OVRHapticsClip o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRHapticsClip>(samples, samplesCount))};
+return o;
+}
  void GlobalNamespace::OVRHapticsClip::_ctor(::ArrayW<uint8_t> samples, int32_t samplesCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRHapticsClip>::get(),
@@ -344,8 +350,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, samples, samplesCount);
 }
-// Ctor Parameters [CppParam { name: "a", ty: "GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }, CppParam { name: "b", ty: "GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }]
- GlobalNamespace::OVRHapticsClip::OVRHapticsClip(GlobalNamespace::OVRHapticsClip a, GlobalNamespace::OVRHapticsClip b)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRHapticsClip>(a, b))) {}
+ GlobalNamespace::OVRHapticsClip GlobalNamespace::OVRHapticsClip::New_ctor(GlobalNamespace::OVRHapticsClip a, GlobalNamespace::OVRHapticsClip b)  {
+GlobalNamespace::OVRHapticsClip o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRHapticsClip>(a, b))};
+return o;
+}
  void GlobalNamespace::OVRHapticsClip::_ctor(GlobalNamespace::OVRHapticsClip a, GlobalNamespace::OVRHapticsClip b)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRHapticsClip>::get(),
@@ -355,8 +363,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, a, b);
 }
-// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "channel", ty: "int32_t", modifiers: "", def_value: Some("0") }]
- GlobalNamespace::OVRHapticsClip::OVRHapticsClip(UnityEngine::AudioClip audioClip, int32_t channel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRHapticsClip>(audioClip, channel))) {}
+/// @param channel: int32_t (default: 0)
+ GlobalNamespace::OVRHapticsClip GlobalNamespace::OVRHapticsClip::New_ctor(UnityEngine::AudioClip audioClip, int32_t channel)  {
+GlobalNamespace::OVRHapticsClip o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRHapticsClip>(audioClip, channel))};
+return o;
+}
 /// @param channel: int32_t (default: 0)
  void GlobalNamespace::OVRHapticsClip::_ctor(UnityEngine::AudioClip audioClip, int32_t channel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

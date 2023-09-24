@@ -7,13 +7,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine {
 class Material;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PyramidBloomRendererSO__Pass;
 }
 namespace UnityEngine {
 class RenderTexture;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PyramidBloomRendererSO__Level;
+}
+namespace UnityEngine {
+class Shader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,6 +92,8 @@ __UpsampleTentAndACESToneMappingGlobalIntensity = 13,
 constexpr operator __GlobalNamespace__PyramidBloomRendererSO__Pass_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__PyramidBloomRendererSO__Pass_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -337,8 +345,7 @@ constexpr bool __get__initialized() const;
 /// @brief Method RenderBloom addr 0x1f8f57c size 0x800 virtual false final false
  void RenderBloom(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset, bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness, GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass preFilterPass, GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass downsamplePass, GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass upsamplePass, GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass finalUpsamplePass, bool isScreenspaceEffect) ;
 
-// Ctor Parameters []
-explicit PyramidBloomRendererSO() ;
+static GlobalNamespace::PyramidBloomRendererSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8fd7c size 0x50 virtual false final false
  void _ctor() ;

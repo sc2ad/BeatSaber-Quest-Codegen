@@ -68,8 +68,7 @@ constexpr UnityEngine::Vector3 __get_offset() const;
 /// @brief Method SnapPosition addr 0x1f7b718 size 0x27c virtual false final false
  void SnapPosition() ;
 
-// Ctor Parameters []
-explicit Snap() ;
+static GlobalNamespace::Snap New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7b994 size 0x18 virtual false final false
  void _ctor() ;

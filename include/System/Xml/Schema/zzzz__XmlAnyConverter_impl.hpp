@@ -1,14 +1,14 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlAnyConverter_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigator_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::XmlAnyConverter._ctor
 template<>
 
@@ -361,8 +361,10 @@ return ::cordl_internals::getStaticField<System::Xml::Schema::XmlValueConverter,
  System::Xml::Schema::XmlValueConverter System::Xml::Schema::XmlAnyConverter::__get_AnyAtomic()  {
 return ::cordl_internals::getStaticField<System::Xml::Schema::XmlValueConverter, "AnyAtomic", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAnyConverter>::get>();
 }
-// Ctor Parameters [CppParam { name: "typeCode", ty: "System::Xml::Schema::XmlTypeCode", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAnyConverter::XmlAnyConverter(System::Xml::Schema::XmlTypeCode typeCode)  : System::Xml::Schema::XmlBaseConverter(THROW_UNLESS(::il2cpp_utils::New<XmlAnyConverter>(typeCode))) {}
+ System::Xml::Schema::XmlAnyConverter System::Xml::Schema::XmlAnyConverter::New_ctor(System::Xml::Schema::XmlTypeCode typeCode)  {
+System::Xml::Schema::XmlAnyConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAnyConverter>(typeCode))};
+return o;
+}
  void System::Xml::Schema::XmlAnyConverter::_ctor(System::Xml::Schema::XmlTypeCode typeCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAnyConverter>::get(),

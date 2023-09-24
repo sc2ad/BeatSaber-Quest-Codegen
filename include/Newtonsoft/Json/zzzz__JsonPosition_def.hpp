@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Text {
-class StringBuilder;
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Newtonsoft::Json {
 struct JsonContainerType;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {

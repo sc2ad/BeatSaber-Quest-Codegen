@@ -6,76 +6,82 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace UnityEngine::UI {
-struct CanvasUpdate;
+namespace System::Collections {
+class IEnumerator;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace TMPro {
-class TMP_TextInfo;
-}
-namespace TMPro {
-class TMP_SubMeshUI;
-}
-namespace TMPro {
-struct TMPro__TMP_Text__UnicodeChar;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-struct Vector4;
+namespace System {
+class IDisposable;
 }
 namespace TMPro {
 struct TMP_VertexDataUpdateFlags;
 }
 namespace UnityEngine {
-class CanvasRenderer;
+struct Color;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine::UI {
-class ILayoutElement;
+struct CanvasUpdate;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace TMPro {
+class TMP_TextInfo;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace TMPro {
+struct TMPro__TMP_Text__UnicodeChar;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace TMPro {
+class TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class CanvasRenderer;
+}
+namespace TMPro {
+class TMP_SubMeshUI;
+}
+namespace TMPro {
+class TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 // Forward declare root types
 namespace TMPro {
@@ -166,8 +172,7 @@ constexpr TMPro::TextMeshProUGUI __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18(int32_t __1__state) ;
+static TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2a6022c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -270,8 +275,7 @@ constexpr TMPro::TextMeshProUGUI __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19(int32_t __1__state) ;
+static TMPro::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2a602bc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -813,8 +817,7 @@ static Unity::Profiling::ProfilerMarker __get_k_GenerateTextPhaseIIIMarker() ;
 /// @brief Method UpdateSDFScale addr 0x2a660e4 size 0x210 virtual false final false
  void UpdateSDFScale(float_t scaleDelta) ;
 
-// Ctor Parameters []
-explicit TextMeshProUGUI() ;
+static TMPro::TextMeshProUGUI New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a669ac size 0xb8 virtual false final false
  void _ctor() ;

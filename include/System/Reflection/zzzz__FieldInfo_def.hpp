@@ -4,35 +4,35 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System {
+class Type;
+}
+namespace System {
+struct RuntimeFieldHandle;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Reflection {
+class CustomAttributeData;
+}
 namespace System::Reflection {
 class Binder;
 }
 namespace System::Reflection {
 struct MemberTypes;
 }
-namespace System {
-struct RuntimeTypeHandle;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System {
-struct RuntimeFieldHandle;
+struct RuntimeTypeHandle;
 }
 namespace System::Runtime::InteropServices {
 class MarshalAsAttribute;
 }
 namespace System::Reflection {
 struct FieldAttributes;
-}
-namespace System::Reflection {
-class CustomAttributeData;
-}
-namespace System {
-class Type;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Reflection {
-struct BindingFlags;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -103,8 +103,7 @@ constexpr explicit FieldInfo(void* ptr) noexcept : System::Reflection::MemberInf
 
 // Methods
 
-// Ctor Parameters []
-explicit FieldInfo() ;
+static System::Reflection::FieldInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2379560 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
+class X509Certificate2Impl;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509KeyStorageFlags;
 }
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateImpl;
+}
 namespace Microsoft::Win32::SafeHandles {
 class SafePasswordHandle;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Impl;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
@@ -73,8 +73,7 @@ constexpr explicit X509PalImplMono(void* ptr) noexcept : Mono::X509PalImpl(ptr) 
 /// @brief Method Import addr 0x268558c size 0x8 virtual true final false
  System::Security::Cryptography::X509Certificates::X509Certificate2Impl Import(System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
 
-// Ctor Parameters []
-explicit X509PalImplMono() ;
+static Mono::X509PalImplMono New_ctor() ;
 
 /// @brief Method .ctor addr 0x2684b24 size 0x58 virtual false final false
  void _ctor() ;

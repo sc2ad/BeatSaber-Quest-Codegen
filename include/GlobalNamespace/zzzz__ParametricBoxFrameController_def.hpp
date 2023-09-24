@@ -4,16 +4,16 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class MeshRenderer;
+struct Color;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Vector3;
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -138,8 +138,7 @@ static int32_t __get__sizeParamsID() ;
 /// @brief Method Refresh addr 0x1f97398 size 0x11c virtual false final false
  void Refresh() ;
 
-// Ctor Parameters []
-explicit ParametricBoxFrameController() ;
+static GlobalNamespace::ParametricBoxFrameController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f974d4 size 0x14 virtual false final false
  void _ctor() ;

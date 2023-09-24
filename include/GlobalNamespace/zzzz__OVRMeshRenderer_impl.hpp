@@ -3,10 +3,11 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMesh_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
 #include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMesh_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRMeshRenderer__IOVRMeshRendererDataProvider.GetMeshRendererData
 template<>
 
@@ -661,8 +662,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRMeshRenderer::OVRMeshRenderer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRMeshRenderer>())) {}
+ GlobalNamespace::OVRMeshRenderer GlobalNamespace::OVRMeshRenderer::New_ctor()  {
+GlobalNamespace::OVRMeshRenderer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRMeshRenderer>())};
+return o;
+}
  void GlobalNamespace::OVRMeshRenderer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRMeshRenderer>::get(),

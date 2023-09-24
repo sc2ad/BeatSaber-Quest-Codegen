@@ -7,14 +7,6 @@
 namespace Unity::Collections {
 struct Allocator;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
-}
 namespace System {
 template<typename T>
 class Predicate_1;
@@ -23,6 +15,22 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEqualityComparer_1;
 }
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+class UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+class UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+class UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System {
 template<typename TResult>
 class Func_1;
@@ -30,6 +38,10 @@ class Func_1;
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
@@ -319,72 +331,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<>c__DisplayClass33_0`1
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TValue>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6739))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6739), inst: 2 })
-// CS Name: UnityEngine.InputSystem.Utilities.ArrayHelpers::<>c__DisplayClass33_0`1
-class CORDL_TYPE UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1", modifiers: " const&", def_value: None }]
-constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1(UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1", modifiers: "&&", def_value: None }]
-constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1(UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1& operator=(UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1&& o) noexcept = default;
-  constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1& operator=(UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- TValue __declspec(property(get=__get_secondValue, put=__set_secondValue))  secondValue;
-
-constexpr void __set_secondValue(TValue value) ;
-
-constexpr TValue __get_secondValue() const;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <Merge>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- bool _Merge_b__0(TValue x) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def UnityEngine::InputSystem::Utilities
-// Type: ::<>c__DisplayClass33_0`1
-namespace UnityEngine::InputSystem::Utilities {
-// cpp template
 template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6739))}
@@ -435,14 +381,78 @@ constexpr UnityEngine::InputSystem::Utilities::InternedString __get_secondValue(
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1() ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<UnityEngine::InputSystem::Utilities::InternedString> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <Merge>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
  bool _Merge_b__0(UnityEngine::InputSystem::Utilities::InternedString x) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::InputSystem::Utilities
+// Type: ::<>c__DisplayClass33_0`1
+namespace UnityEngine::InputSystem::Utilities {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TValue>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6739))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6739), inst: 2 })
+// CS Name: UnityEngine.InputSystem.Utilities.ArrayHelpers::<>c__DisplayClass33_0`1
+class CORDL_TYPE UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1(UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1(UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1& operator=(UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1&& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1& operator=(UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ TValue __declspec(property(get=__get_secondValue, put=__set_secondValue))  secondValue;
+
+constexpr void __set_secondValue(TValue value) ;
+
+constexpr TValue __get_secondValue() const;
+
+
+// Methods
+
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <Merge>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool _Merge_b__0(TValue x) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -501,8 +511,7 @@ constexpr System::Collections::Generic::IEqualityComparer_1<TValue> __get_compar
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1() ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -570,8 +579,7 @@ constexpr UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utiliti
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1() ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

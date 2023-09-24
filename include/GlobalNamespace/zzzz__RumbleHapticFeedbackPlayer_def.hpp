@@ -4,14 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IHapticFeedbackPlayer;
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+class IHapticFeedbackPlayer;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
@@ -101,8 +104,7 @@ constexpr float_t __get_frequency() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData() ;
+static GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8b940 size 0x8 virtual false final false
  void _ctor() ;
@@ -194,8 +196,7 @@ constexpr System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode,Sys
 /// @brief Method GetRumble addr 0x1f8b358 size 0x120 virtual false final false
  GlobalNamespace::GlobalNamespace__RumbleHapticFeedbackPlayer__RumbleData GetRumble(UnityEngine::XR::XRNode node, ::bs_hook::Il2CppWrapperType preset) ;
 
-// Ctor Parameters []
-explicit RumbleHapticFeedbackPlayer() ;
+static GlobalNamespace::RumbleHapticFeedbackPlayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8b948 size 0x7c virtual false final false
  void _ctor() ;

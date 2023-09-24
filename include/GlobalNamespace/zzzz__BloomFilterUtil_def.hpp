@@ -8,6 +8,10 @@ template<typename T>
 class IEnumerable_1;
 }
 namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1;
+}
+namespace GlobalNamespace {
 struct BitMask128;
 }
 // Forward declare root types
@@ -19,12 +23,12 @@ namespace GlobalNamespace {
 class BloomFilterUtil;
 }
 namespace GlobalNamespace {
-template<::cordl_internals::il2cpp_reference_type T>
-class GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T>;
-}
-namespace GlobalNamespace {
 template<>
 class GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128>;
+}
+namespace GlobalNamespace {
+template<::cordl_internals::il2cpp_reference_type T>
+class GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T>;
 }
 // Type: ::<>c__DisplayClass2_0`1
 // Type: ::BloomFilterUtil
@@ -98,78 +102,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<>c__DisplayClass2_0`1
 namespace GlobalNamespace {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15086))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15086), inst: 2 })
-// CS Name: BloomFilterUtil::<>c__DisplayClass2_0`1
-class CORDL_TYPE GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& o) noexcept = default;
-  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- int32_t __declspec(property(get=__get_hashCount, put=__set_hashCount))  hashCount;
-
-constexpr void __set_hashCount(int32_t value) ;
-
-constexpr int32_t __get_hashCount() const;
-
- int32_t __declspec(property(get=__get_hashBits, put=__set_hashBits))  hashBits;
-
-constexpr void __set_hashBits(int32_t value) ;
-
-constexpr int32_t __get_hashBits() const;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <ToBloomFilter>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- T _ToBloomFilter_b__0(T bloomFilter, ::StringW str) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::<>c__DisplayClass2_0`1
-namespace GlobalNamespace {
-// cpp template
 template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15086))}
@@ -226,14 +158,84 @@ constexpr int32_t __get_hashBits() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() ;
+static GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<GlobalNamespace::BitMask128> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <ToBloomFilter>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
  GlobalNamespace::BitMask128 _ToBloomFilter_b__0(GlobalNamespace::BitMask128 bloomFilter, ::StringW str) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::<>c__DisplayClass2_0`1
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15086))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15086), inst: 2 })
+// CS Name: BloomFilterUtil::<>c__DisplayClass2_0`1
+class CORDL_TYPE GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1&& o) noexcept = default;
+  constexpr GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1& operator=(GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ int32_t __declspec(property(get=__get_hashCount, put=__set_hashCount))  hashCount;
+
+constexpr void __set_hashCount(int32_t value) ;
+
+constexpr int32_t __get_hashCount() const;
+
+ int32_t __declspec(property(get=__get_hashBits, put=__set_hashBits))  hashBits;
+
+constexpr void __set_hashBits(int32_t value) ;
+
+constexpr int32_t __get_hashBits() const;
+
+
+// Methods
+
+static GlobalNamespace::GlobalNamespace__BloomFilterUtil____c__DisplayClass2_0_1<T> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <ToBloomFilter>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ T _ToBloomFilter_b__0(T bloomFilter, ::StringW str) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

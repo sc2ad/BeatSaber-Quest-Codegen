@@ -4,34 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSongTimeSyncController;
-}
-namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class IConnectedPlayerBeatmapObjectEventManager;
+class NoteMissInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class ObstacleSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData;
+}
+namespace GlobalNamespace {
+class NoteCutInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class IPoolableSerializable;
@@ -39,8 +25,25 @@ class IPoolableSerializable;
 namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class Queue_1;
+}
 namespace GlobalNamespace {
-class NoteMissInfoNetSerializable;
+class IConnectedPlayerBeatmapObjectEventManager;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerSongTimeSyncController;
+}
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -276,8 +279,7 @@ template<typename T>
 /// @brief Method InvokeCallback addr 0x20dd2e8 size 0x210 virtual false final false
  void InvokeCallback(GlobalNamespace::IPoolableSerializable noteEventData) ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerBeatmapObjectEventManager() ;
+static GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20dd50c size 0x7c virtual false final false
  void _ctor() ;

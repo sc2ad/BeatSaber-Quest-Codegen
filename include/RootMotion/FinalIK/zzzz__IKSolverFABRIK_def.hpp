@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__IterationDelegate;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__IterationDelegate;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -158,8 +158,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get_solverLocalPositions() const;
 /// @brief Method MapToSolverPositionsLimited addr 0x11d8fa4 size 0xb0 virtual false final false
  void MapToSolverPositionsLimited() ;
 
-// Ctor Parameters []
-explicit IKSolverFABRIK() ;
+static RootMotion::FinalIK::IKSolverFABRIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d9e7c size 0x80 virtual false final false
  void _ctor() ;

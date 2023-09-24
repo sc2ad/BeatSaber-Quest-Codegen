@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsServer_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SrpTlsServer_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpLoginParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSignerCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpIdentityManager_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSignerCredentials_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::SrpTlsServer._ctor
 template<>
 
@@ -196,8 +196,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::SrpTlsServer::__set_mLoginParamet
 constexpr Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters Org::BouncyCastle::Crypto::Tls::SrpTlsServer::__get_mLoginParameters() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "srpIdentityManager", ty: "Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::SrpTlsServer::SrpTlsServer(Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager srpIdentityManager)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsServer(THROW_UNLESS(::il2cpp_utils::New<SrpTlsServer>(srpIdentityManager))) {}
+ Org::BouncyCastle::Crypto::Tls::SrpTlsServer Org::BouncyCastle::Crypto::Tls::SrpTlsServer::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager srpIdentityManager)  {
+Org::BouncyCastle::Crypto::Tls::SrpTlsServer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::SrpTlsServer>(srpIdentityManager))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::SrpTlsServer::_ctor(Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager srpIdentityManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::SrpTlsServer>::get(),
@@ -207,8 +209,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, srpIdentityManager);
 }
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "srpIdentityManager", ty: "Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::SrpTlsServer::SrpTlsServer(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager srpIdentityManager)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsServer(THROW_UNLESS(::il2cpp_utils::New<SrpTlsServer>(cipherFactory, srpIdentityManager))) {}
+ Org::BouncyCastle::Crypto::Tls::SrpTlsServer Org::BouncyCastle::Crypto::Tls::SrpTlsServer::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager srpIdentityManager)  {
+Org::BouncyCastle::Crypto::Tls::SrpTlsServer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::SrpTlsServer>(cipherFactory, srpIdentityManager))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::SrpTlsServer::_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager srpIdentityManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::SrpTlsServer>::get(),

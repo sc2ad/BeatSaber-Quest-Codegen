@@ -56,6 +56,8 @@ constexpr operator __AlertLevel_Unwrapped () const noexcept {
 return std::bit_cast<__AlertLevel_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
 
 // Fields
 

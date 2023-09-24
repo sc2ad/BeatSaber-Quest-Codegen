@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/CryptoPro/zzzz__ECGost3410NamedCurves_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves.ConfigureBasepoint
 template<>
 
@@ -214,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::EC::ECCurve, false>(nullptr, ___internal_method, curve);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::ECGost3410NamedCurves()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECGost3410NamedCurves>())) {}
+ Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::New_ctor()  {
+Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves>::get(),

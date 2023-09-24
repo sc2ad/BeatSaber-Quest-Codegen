@@ -1,10 +1,10 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelData;
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

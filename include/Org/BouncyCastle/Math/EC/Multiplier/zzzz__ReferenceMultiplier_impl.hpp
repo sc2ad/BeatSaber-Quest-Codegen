@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ReferenceMultiplier_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Multiplier::ReferenceMultiplier.MultiplyPositive
 template<>
 
@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::EC::ECPoint, false>(const_cast<void*>(instance), ___internal_method, p, k);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Multiplier::ReferenceMultiplier::ReferenceMultiplier()  : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(THROW_UNLESS(::il2cpp_utils::New<ReferenceMultiplier>())) {}
+ Org::BouncyCastle::Math::EC::Multiplier::ReferenceMultiplier Org::BouncyCastle::Math::EC::Multiplier::ReferenceMultiplier::New_ctor()  {
+Org::BouncyCastle::Math::EC::Multiplier::ReferenceMultiplier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::ReferenceMultiplier>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::ReferenceMultiplier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::ReferenceMultiplier>::get(),

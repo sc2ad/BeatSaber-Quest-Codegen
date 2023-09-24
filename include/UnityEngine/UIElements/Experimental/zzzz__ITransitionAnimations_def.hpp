@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements::Experimental {
-struct StyleValues;
-}
-namespace UnityEngine::UIElements::Experimental {
 template<typename T>
 class ValueAnimation_1;
+}
+namespace UnityEngine::UIElements::Experimental {
+struct StyleValues;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Experimental {

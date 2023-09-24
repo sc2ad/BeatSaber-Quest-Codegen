@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine {
+class UnityEngine__TextAsset__EncodingUtility;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;

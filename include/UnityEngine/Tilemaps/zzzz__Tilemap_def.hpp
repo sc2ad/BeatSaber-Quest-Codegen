@@ -5,25 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class Grid;
+struct Matrix4x4;
+}
+namespace UnityEngine::Tilemaps {
+class TileBase;
 }
 namespace UnityEngine {
-struct Vector3Int;
+class Object;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
 struct BoundsInt;
 }
 namespace UnityEngine {
-class Object;
+class Grid;
 }
-namespace UnityEngine::Tilemaps {
-class TileBase;
+namespace UnityEngine {
+struct Vector3Int;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {

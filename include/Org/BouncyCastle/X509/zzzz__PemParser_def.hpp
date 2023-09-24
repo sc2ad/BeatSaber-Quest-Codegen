@@ -81,8 +81,7 @@ constexpr ::StringW __get__footer2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PemParser(::StringW type) ;
+static Org::BouncyCastle::X509::PemParser New_ctor(::StringW type) ;
 
 /// @brief Method .ctor addr 0x10e98dc size 0x118 virtual false final false
  void _ctor(::StringW type) ;

@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Paddings {
 class IBlockCipherPadding;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Paddings {
@@ -85,8 +85,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 /// @brief Method PadCount addr 0xea2304 size 0x84 virtual true final true
  int32_t PadCount(::ArrayW<uint8_t> input) ;
 
-// Ctor Parameters []
-explicit X923Padding() ;
+static Org::BouncyCastle::Crypto::Paddings::X923Padding New_ctor() ;
 
 /// @brief Method .ctor addr 0xea2388 size 0x8 virtual false final false
  void _ctor() ;

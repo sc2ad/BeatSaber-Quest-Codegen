@@ -2,7 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
 class Material;
+}
+namespace TMPro {
+template<typename A>
+class FastAction_1;
 }
 namespace TMPro {
 template<typename A,typename B>
@@ -12,21 +19,14 @@ namespace UnityEngine {
 class Object;
 }
 namespace TMPro {
-template<typename A>
-class FastAction_1;
-}
-namespace TMPro {
-class FastAction;
+class Compute_DT_EventArgs;
 }
 namespace TMPro {
 template<typename A,typename B,typename C>
 class FastAction_3;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace TMPro {
-class Compute_DT_EventArgs;
+class FastAction;
 }
 // Forward declare root types
 namespace TMPro {

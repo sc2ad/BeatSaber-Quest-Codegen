@@ -30,7 +30,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10804)), TypeDefinitionIndex(TypeDefinitionIndex(10651)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10651), inst: 1695 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10651)), TypeDefinitionIndex(TypeDefinitionIndex(10804)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10651), inst: 1695 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10804), inst: 5939 })
 // CS Name: Zenject.FactoryToChoiceIdBinder`6
 class CORDL_TYPE FactoryToChoiceIdBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> : public Zenject::FactoryArgumentsToChoiceBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> {
@@ -69,8 +69,7 @@ constexpr explicit FactoryToChoiceIdBinder_6(void* ptr) noexcept : Zenject::Fact
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryToChoiceIdBinder_6(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::FactoryToChoiceIdBinder_6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

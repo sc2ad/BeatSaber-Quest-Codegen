@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__Mgf1BytesGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator._ctor
 template<>
 
@@ -110,8 +110,10 @@ constexpr void Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator::__set_
 constexpr int32_t Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator::__get_hLen() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator::Mgf1BytesGenerator(Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mgf1BytesGenerator>(digest))) {}
+ Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator>::get(),

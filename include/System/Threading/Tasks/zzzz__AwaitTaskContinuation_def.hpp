@@ -3,33 +3,33 @@
 #include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+namespace System {
+class Exception;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
 namespace System::Threading {
 class ThreadAbortException;
 }
-namespace System::Threading::Tasks {
-class TaskScheduler;
-}
-namespace System {
-class Action;
-}
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Threading {
+class ContextCallback;
 }
 namespace System::Threading {
 class IThreadPoolWorkItem;
 }
-namespace System::Threading {
-class ExecutionContext;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Threading {
-class ContextCallback;
-}
 namespace System {
-class Exception;
+class Action;
+}
+namespace System::Threading::Tasks {
+class TaskScheduler;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -106,8 +106,7 @@ static bool __declspec(property(get=get_IsValidLocationForInlining))  IsValidLoc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "flowExecutionContext", ty: "bool", modifiers: "", def_value: None }]
-explicit AwaitTaskContinuation(System::Action action, bool flowExecutionContext) ;
+static System::Threading::Tasks::AwaitTaskContinuation New_ctor(System::Action action, bool flowExecutionContext) ;
 
 /// @brief Method .ctor addr 0x24bd220 size 0x80 virtual false final false
  void _ctor(System::Action action, bool flowExecutionContext) ;

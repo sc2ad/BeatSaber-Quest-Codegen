@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__SafeSerializationManager_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SafeSerializationEventArgs_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SafeSerializationEventArgs_def.hpp"
 #include "System/zzzz__EventHandler_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::SafeSerializationManager._ctor
 template<>
 
@@ -182,8 +182,10 @@ constexpr void System::Runtime::Serialization::SafeSerializationManager::__set_S
 constexpr System::EventHandler_1<System::Runtime::Serialization::SafeSerializationEventArgs> System::Runtime::Serialization::SafeSerializationManager::__get_SerializeObjectState() const {
 return ::cordl_internals::getInstanceField<System::EventHandler_1<System::Runtime::Serialization::SafeSerializationEventArgs>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::SafeSerializationManager::SafeSerializationManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SafeSerializationManager>())) {}
+ System::Runtime::Serialization::SafeSerializationManager System::Runtime::Serialization::SafeSerializationManager::New_ctor()  {
+System::Runtime::Serialization::SafeSerializationManager o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SafeSerializationManager>())};
+return o;
+}
  void System::Runtime::Serialization::SafeSerializationManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SafeSerializationManager>::get(),
@@ -193,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SafeSerializationManager::SafeSerializationManager(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SafeSerializationManager>(info, context))) {}
+ System::Runtime::Serialization::SafeSerializationManager System::Runtime::Serialization::SafeSerializationManager::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::Serialization::SafeSerializationManager o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SafeSerializationManager>(info, context))};
+return o;
+}
  void System::Runtime::Serialization::SafeSerializationManager::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SafeSerializationManager>::get(),

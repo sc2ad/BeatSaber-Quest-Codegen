@@ -1,5 +1,6 @@
 #pragma once
 #include "Newtonsoft/Json/Utilities/zzzz__PropertyNameTable_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__PropertyNameTable_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry._ctor
 template<>
 
@@ -35,8 +36,10 @@ constexpr void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__Propert
 constexpr Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry::__get_Next() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry", modifiers: "", def_value: None }]
- Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry::Newtonsoft__Json__Utilities__PropertyNameTable__Entry(::StringW value, int32_t hashCode, Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry next)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Utilities__PropertyNameTable__Entry>(value, hashCode, next))) {}
+ Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry::New_ctor(::StringW value, int32_t hashCode, Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry next)  {
+Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry>(value, hashCode, next))};
+return o;
+}
  void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry::_ctor(::StringW value, int32_t hashCode, Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry next)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry>::get(),
@@ -172,8 +175,10 @@ constexpr void Newtonsoft::Json::Utilities::PropertyNameTable::__set__mask(int32
 constexpr int32_t Newtonsoft::Json::Utilities::PropertyNameTable::__get__mask() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Utilities::PropertyNameTable::PropertyNameTable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PropertyNameTable>())) {}
+ Newtonsoft::Json::Utilities::PropertyNameTable Newtonsoft::Json::Utilities::PropertyNameTable::New_ctor()  {
+Newtonsoft::Json::Utilities::PropertyNameTable o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Utilities::PropertyNameTable>())};
+return o;
+}
  void Newtonsoft::Json::Utilities::PropertyNameTable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::PropertyNameTable>::get(),

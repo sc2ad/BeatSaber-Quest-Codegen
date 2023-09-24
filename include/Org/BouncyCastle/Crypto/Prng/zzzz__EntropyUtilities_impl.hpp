@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, entropySource, numBytes);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Prng::EntropyUtilities::EntropyUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EntropyUtilities>())) {}
+ Org::BouncyCastle::Crypto::Prng::EntropyUtilities Org::BouncyCastle::Crypto::Prng::EntropyUtilities::New_ctor()  {
+Org::BouncyCastle::Crypto::Prng::EntropyUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::EntropyUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::EntropyUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::EntropyUtilities>::get(),

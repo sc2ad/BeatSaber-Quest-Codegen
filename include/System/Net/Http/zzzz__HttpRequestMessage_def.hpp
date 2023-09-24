@@ -3,22 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Uri;
 }
 namespace System::Net::Http {
 class HttpContent;
 }
 namespace System {
-class IDisposable;
-}
-namespace System::Net::Http::Headers {
-class HttpRequestHeaders;
+class Version;
 }
 namespace System::Net::Http {
 class HttpMethod;
 }
-namespace System {
-class Version;
+namespace System::Net::Http::Headers {
+class HttpRequestHeaders;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -127,20 +127,17 @@ constexpr System::Net::Http::HttpContent __get__Content_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HttpRequestMessage() ;
+static System::Net::Http::HttpRequestMessage New_ctor() ;
 
 /// @brief Method .ctor addr 0x26a203c size 0x9c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "method", ty: "System::Net::Http::HttpMethod", modifiers: "", def_value: None }, CppParam { name: "requestUri", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HttpRequestMessage(System::Net::Http::HttpMethod method, ::StringW requestUri) ;
+static System::Net::Http::HttpRequestMessage New_ctor(System::Net::Http::HttpMethod method, ::StringW requestUri) ;
 
 /// @brief Method .ctor addr 0x26a20d8 size 0x94 virtual false final false
  void _ctor(System::Net::Http::HttpMethod method, ::StringW requestUri) ;
 
-// Ctor Parameters [CppParam { name: "method", ty: "System::Net::Http::HttpMethod", modifiers: "", def_value: None }, CppParam { name: "requestUri", ty: "System::Uri", modifiers: "", def_value: None }]
-explicit HttpRequestMessage(System::Net::Http::HttpMethod method, System::Uri requestUri) ;
+static System::Net::Http::HttpRequestMessage New_ctor(System::Net::Http::HttpMethod method, System::Uri requestUri) ;
 
 /// @brief Method .ctor addr 0x269f6e4 size 0x3c virtual false final false
  void _ctor(System::Net::Http::HttpMethod method, System::Uri requestUri) ;

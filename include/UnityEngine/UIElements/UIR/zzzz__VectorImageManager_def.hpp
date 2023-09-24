@@ -1,28 +1,27 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class VectorImage;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::UIElements::UIR {
-class GradientRemapPool;
+namespace UnityEngine::UIElements {
+class AtlasBase;
 }
 namespace UnityEngine::UIElements::UIR {
-class GradientSettingsAtlas;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+class VectorImageRenderInfoPool;
 }
 namespace UnityEngine::UIElements::UIR {
 class VectorImageRenderInfo;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
@@ -33,14 +32,15 @@ struct ProfilerMarker;
 namespace System {
 class IDisposable;
 }
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
 namespace UnityEngine::UIElements::UIR {
-class VectorImageRenderInfoPool;
+class GradientSettingsAtlas;
 }
-namespace UnityEngine::UIElements {
-class VectorImage;
-}
-namespace UnityEngine::UIElements {
-class AtlasBase;
+namespace UnityEngine::UIElements::UIR {
+class GradientRemapPool;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -164,8 +164,7 @@ constexpr bool __get__disposed_k__BackingField() const;
 /// @brief Method get_atlas addr 0x2c54670 size 0x14 virtual false final false
  UnityEngine::Texture2D get_atlas() ;
 
-// Ctor Parameters [CppParam { name: "atlas", ty: "UnityEngine::UIElements::AtlasBase", modifiers: "", def_value: None }]
-explicit VectorImageManager(UnityEngine::UIElements::AtlasBase atlas) ;
+static UnityEngine::UIElements::UIR::VectorImageManager New_ctor(UnityEngine::UIElements::AtlasBase atlas) ;
 
 /// @brief Method .ctor addr 0x2c54684 size 0x1bc virtual false final false
  void _ctor(UnityEngine::UIElements::AtlasBase atlas) ;

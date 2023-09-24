@@ -102,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::AveragingValueRecorder, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "averageWindowDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "historyValuesPerSecond", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "increaseSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "decreaseSpeed", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::MovementHistoryRecorder::MovementHistoryRecorder(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MovementHistoryRecorder>(averageWindowDuration, historyValuesPerSecond, increaseSpeed, decreaseSpeed))) {}
+ GlobalNamespace::MovementHistoryRecorder GlobalNamespace::MovementHistoryRecorder::New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed)  {
+GlobalNamespace::MovementHistoryRecorder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MovementHistoryRecorder>(averageWindowDuration, historyValuesPerSecond, increaseSpeed, decreaseSpeed))};
+return o;
+}
  void GlobalNamespace::MovementHistoryRecorder::_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MovementHistoryRecorder>::get(),

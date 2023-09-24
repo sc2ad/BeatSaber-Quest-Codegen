@@ -59,8 +59,7 @@ constexpr ::ArrayW<uint8_t> __get_nodeBuffer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nodeBuffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TernaryTreeReadOnly(::ArrayW<uint8_t> nodeBuffer) ;
+static System::Xml::TernaryTreeReadOnly New_ctor(::ArrayW<uint8_t> nodeBuffer) ;
 
 /// @brief Method .ctor addr 0x26be7c0 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> nodeBuffer) ;

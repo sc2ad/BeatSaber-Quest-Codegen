@@ -3,20 +3,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+template<typename TTask>
+class Zenject__TaskUpdater_1____c;
+}
+namespace Zenject {
+template<typename TTask>
+class Zenject__TaskUpdater_1____c__DisplayClass8_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template<typename TTask>
+class Zenject__TaskUpdater_1__TaskInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -124,8 +136,7 @@ constexpr bool __get_IsRemoved() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "task", ty: "TTask", modifiers: "", def_value: None }, CppParam { name: "priority", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__TaskUpdater_1__TaskInfo(TTask task, int32_t priority) ;
+static Zenject::Zenject__TaskUpdater_1__TaskInfo<TTask> New_ctor(TTask task, int32_t priority) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(TTask task, int32_t priority) ;
@@ -199,8 +210,7 @@ static System::Func_2<Zenject::Zenject__TaskUpdater_1__TaskInfo<TTask>,TTask> __
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__TaskUpdater_1____c() ;
+static Zenject::Zenject__TaskUpdater_1____c<TTask> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -271,8 +281,7 @@ constexpr TTask __get_task() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__TaskUpdater_1____c__DisplayClass8_0() ;
+static Zenject::Zenject__TaskUpdater_1____c__DisplayClass8_0<TTask> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -398,8 +407,7 @@ constexpr System::Collections::Generic::List_1<Zenject::Zenject__TaskUpdater_1__
 /// @brief Method UpdateItem addr 0x0 size 0xffffffffffffffff virtual true final false
  void UpdateItem(TTask task) ;
 
-// Ctor Parameters []
-explicit TaskUpdater_1() ;
+static Zenject::TaskUpdater_1<TTask> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

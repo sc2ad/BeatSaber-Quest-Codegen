@@ -66,8 +66,7 @@ static constexpr float_t  kAccelerationMultiplier{-0.10197162};
 /// @brief Method Process addr 0x29545d0 size 0x1c virtual true final false
  UnityEngine::Vector3 Process(UnityEngine::Vector3 vector, UnityEngine::InputSystem::InputControl control) ;
 
-// Ctor Parameters []
-explicit AndroidCompensateDirectionProcessor() ;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x29545ec size 0x8 virtual false final false
  void _ctor() ;

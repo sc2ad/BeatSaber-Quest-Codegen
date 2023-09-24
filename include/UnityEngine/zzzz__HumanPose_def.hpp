@@ -4,10 +4,10 @@
 #include <cmath>
 #include <cstddef>
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine {

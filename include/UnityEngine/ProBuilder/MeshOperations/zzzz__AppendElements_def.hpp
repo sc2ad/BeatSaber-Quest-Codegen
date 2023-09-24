@@ -4,24 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::ProBuilder {
-class ActionResult;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__AppendElements____c;
 }
 namespace UnityEngine {
 struct Color;
@@ -29,21 +17,39 @@ struct Color;
 namespace UnityEngine::ProBuilder {
 class Face;
 }
-namespace UnityEngine::ProBuilder {
-class PolyShape;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
-namespace UnityEngine::ProBuilder {
-class FaceRebuildData;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine::ProBuilder {
 class Vertex;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class ActionResult;
+}
+namespace UnityEngine::ProBuilder {
+class PolyShape;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class FaceRebuildData;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -137,8 +143,7 @@ static System::Func_2<UnityEngine::ProBuilder::FaceRebuildData,UnityEngine::ProB
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__AppendElements____c() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a06fe8 size 0x8 virtual false final false
  void _ctor() ;
@@ -210,8 +215,7 @@ constexpr int32_t __get_delCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a044a8 size 0x8 virtual false final false
  void _ctor() ;

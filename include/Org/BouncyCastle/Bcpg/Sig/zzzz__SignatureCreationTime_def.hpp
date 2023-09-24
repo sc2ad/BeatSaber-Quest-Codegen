@@ -55,14 +55,12 @@ constexpr explicit SignatureCreationTime(void* ptr) noexcept : Org::BouncyCastle
 /// @brief Method TimeToBytes addr 0x113ea78 size 0xe8 virtual false final false
 static ::ArrayW<uint8_t> TimeToBytes(System::DateTime time) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SignatureCreationTime(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113eb60 size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "date", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit SignatureCreationTime(bool critical, System::DateTime date) ;
+static Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime New_ctor(bool critical, System::DateTime date) ;
 
 /// @brief Method .ctor addr 0x113eba8 size 0x4c virtual false final false
  void _ctor(bool critical, System::DateTime date) ;

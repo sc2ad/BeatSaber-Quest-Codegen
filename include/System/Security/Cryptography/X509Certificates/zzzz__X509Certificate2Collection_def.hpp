@@ -6,10 +6,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Enumerator;
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+class X509Certificate2Enumerator;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509FindType;
@@ -74,14 +74,12 @@ static ::ArrayW<::StringW> __get_newline_split() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509Certificate2Collection() ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2Collection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27e8e50 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "certificates", ty: "System::Security::Cryptography::X509Certificates::X509Certificate2Collection", modifiers: "", def_value: None }]
-explicit X509Certificate2Collection(System::Security::Cryptography::X509Certificates::X509Certificate2Collection certificates) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2Collection New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection certificates) ;
 
 /// @brief Method .ctor addr 0x27e8e60 size 0x2c virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection certificates) ;

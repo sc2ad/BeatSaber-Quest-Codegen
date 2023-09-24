@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Net {
-class CommandStream;
+class ResponseDescription;
 }
 namespace System::Net {
-class ResponseDescription;
+class CommandStream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -82,8 +82,7 @@ constexpr System::Net::CommandStream __get_Connection() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connection", ty: "System::Net::CommandStream", modifiers: "", def_value: None }]
-explicit ReceiveState(System::Net::CommandStream connection) ;
+static System::Net::ReceiveState New_ctor(System::Net::CommandStream connection) ;
 
 /// @brief Method .ctor addr 0x27fd37c size 0xa0 virtual false final false
  void _ctor(System::Net::CommandStream connection) ;

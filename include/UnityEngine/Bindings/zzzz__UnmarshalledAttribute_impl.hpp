@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Bindings::UnmarshalledAttribute::UnmarshalledAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<UnmarshalledAttribute>())) {}
+ UnityEngine::Bindings::UnmarshalledAttribute UnityEngine::Bindings::UnmarshalledAttribute::New_ctor()  {
+UnityEngine::Bindings::UnmarshalledAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::UnmarshalledAttribute>())};
+return o;
+}
  void UnityEngine::Bindings::UnmarshalledAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::UnmarshalledAttribute>::get(),

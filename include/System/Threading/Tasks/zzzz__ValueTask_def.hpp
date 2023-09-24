@@ -8,22 +8,28 @@
 namespace System::Threading::Tasks::Sources {
 class IValueTaskSource;
 }
+namespace GlobalNamespace {
+class System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace System::Runtime::CompilerServices {
-struct ValueTaskAwaiter;
+struct ConfiguredValueTaskAwaitable;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Runtime::CompilerServices {
-struct ConfiguredValueTaskAwaitable;
+struct ValueTaskAwaiter;
+}
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +92,7 @@ static GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTa
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c() ;
+static GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24b4904 size 0x8 virtual false final false
  void _ctor() ;
@@ -102,7 +107,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::ValueTaskSourceAsTask
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 867 }), TypeDefinitionIndex(TypeDefinitionIndex(2790)), TypeDefinitionIndex(TypeDefinitionIndex(2770))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2790)), TypeDefinitionIndex(TypeDefinitionIndex(2770)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 867 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2762))
 // CS Name: System.Threading.Tasks.ValueTask::ValueTaskSourceAsTask
 class CORDL_TYPE System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask : public System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult> {
@@ -164,8 +169,7 @@ constexpr int16_t __get__token() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::Threading::Tasks::Sources::IValueTaskSource", modifiers: "", def_value: None }, CppParam { name: "token", ty: "int16_t", modifiers: "", def_value: None }]
-explicit System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask(System::Threading::Tasks::Sources::IValueTaskSource source, int16_t token) ;
+static System::Threading::Tasks::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask New_ctor(System::Threading::Tasks::Sources::IValueTaskSource source, int16_t token) ;
 
 /// @brief Method .ctor addr 0x24b43b4 size 0x120 virtual false final false
  void _ctor(System::Threading::Tasks::Sources::IValueTaskSource source, int16_t token) ;

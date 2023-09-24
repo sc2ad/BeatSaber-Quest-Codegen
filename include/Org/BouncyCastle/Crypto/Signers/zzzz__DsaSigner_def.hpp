@@ -4,26 +4,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DsaKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsaExt;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsa;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaKCalculator;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDsaExt;
-}
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaKCalculator;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDsa;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -105,14 +105,12 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DsaSigner() ;
+static Org::BouncyCastle::Crypto::Signers::DsaSigner New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb91a4 size 0x70 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "kCalculator", ty: "Org::BouncyCastle::Crypto::Signers::IDsaKCalculator", modifiers: "", def_value: None }]
-explicit DsaSigner(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator kCalculator) ;
+static Org::BouncyCastle::Crypto::Signers::DsaSigner New_ctor(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator kCalculator) ;
 
 /// @brief Method .ctor addr 0xeb9214 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator kCalculator) ;

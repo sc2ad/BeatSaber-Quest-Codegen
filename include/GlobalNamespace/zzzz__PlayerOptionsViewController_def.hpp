@@ -1,8 +1,9 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace GlobalNamespace {
-class PlayerSettingsPanelController;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -13,9 +14,8 @@ class PlayerDataModel;
 namespace HMUI {
 class ViewController;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class PlayerSettingsPanelController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +102,7 @@ constexpr System::Action_1<HMUI::ViewController> __get_didFinishEvent() const;
 /// @brief Method DidDeactivate addr 0x215dfdc size 0xb0 virtual true final false
  void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling) ;
 
-// Ctor Parameters []
-explicit PlayerOptionsViewController() ;
+static GlobalNamespace::PlayerOptionsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215e08c size 0x8 virtual false final false
  void _ctor() ;

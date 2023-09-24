@@ -6,10 +6,10 @@ namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine {

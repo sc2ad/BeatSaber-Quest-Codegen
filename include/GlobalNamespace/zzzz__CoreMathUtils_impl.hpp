@@ -95,8 +95,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, startHalfJumpDurationInBeats, maxHalfJumpDistance, noteJumpMovementSpeed, oneBeatDuration, minHalfJumpDistance);
 }
-// Ctor Parameters []
- GlobalNamespace::CoreMathUtils::CoreMathUtils()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CoreMathUtils>())) {}
+ GlobalNamespace::CoreMathUtils GlobalNamespace::CoreMathUtils::New_ctor()  {
+GlobalNamespace::CoreMathUtils o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CoreMathUtils>())};
+return o;
+}
  void GlobalNamespace::CoreMathUtils::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CoreMathUtils>::get(),

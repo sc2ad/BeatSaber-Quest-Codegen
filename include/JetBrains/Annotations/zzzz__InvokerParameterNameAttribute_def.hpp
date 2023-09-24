@@ -47,8 +47,7 @@ constexpr explicit InvokerParameterNameAttribute(void* ptr) noexcept : System::A
 
 // Methods
 
-// Ctor Parameters []
-explicit InvokerParameterNameAttribute() ;
+static JetBrains::Annotations::InvokerParameterNameAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40aec size 0x8 virtual false final false
  void _ctor() ;

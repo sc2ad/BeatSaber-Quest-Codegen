@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection._ctor
 template<>
 
@@ -212,8 +212,10 @@ constexpr void System::Net::NetworkInformation::GatewayIPAddressInformationColle
 constexpr System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::GatewayIPAddressInformation> System::Net::NetworkInformation::GatewayIPAddressInformationCollection::__get_addresses() const {
 return ::cordl_internals::getInstanceField<System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::GatewayIPAddressInformation>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::NetworkInformation::GatewayIPAddressInformationCollection::GatewayIPAddressInformationCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GatewayIPAddressInformationCollection>())) {}
+ System::Net::NetworkInformation::GatewayIPAddressInformationCollection System::Net::NetworkInformation::GatewayIPAddressInformationCollection::New_ctor()  {
+System::Net::NetworkInformation::GatewayIPAddressInformationCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::GatewayIPAddressInformationCollection>())};
+return o;
+}
  void System::Net::NetworkInformation::GatewayIPAddressInformationCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::GatewayIPAddressInformationCollection>::get(),

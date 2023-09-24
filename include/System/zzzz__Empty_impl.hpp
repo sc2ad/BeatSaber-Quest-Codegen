@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Empty_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::Empty._ctor
 template<>
 
@@ -64,8 +64,10 @@ return System::Runtime::Serialization::ISerializable(::bs_hook::Il2CppWrapperTyp
  System::Empty System::Empty::__get_Value()  {
 return ::cordl_internals::getStaticField<System::Empty, "Value", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Empty>::get>();
 }
-// Ctor Parameters []
- System::Empty::Empty()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Empty>())) {}
+ System::Empty System::Empty::New_ctor()  {
+System::Empty o{THROW_UNLESS(::il2cpp_utils::New<System::Empty>())};
+return o;
+}
  void System::Empty::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Empty>::get(),

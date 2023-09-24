@@ -3,31 +3,31 @@
 #include "System/Xml/zzzz__XmlReader_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::IO {
-class TextReader;
-}
-namespace System::Xml {
-class IDtdInfo;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml {
-struct EntityHandling;
+struct ReadState;
 }
 namespace System::Xml {
 class XmlResolver;
 }
 namespace System::Xml {
-struct ReadState;
+class IXmlNamespaceResolver;
+}
+namespace System::Xml {
+struct XmlNodeType;
+}
+namespace System::IO {
+class TextReader;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml {
+struct EntityHandling;
 }
 namespace System::Xml {
 class XmlTextReaderImpl;
+}
+namespace System::Xml {
+class IDtdInfo;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -124,8 +124,7 @@ constexpr System::Xml::XmlTextReaderImpl __get_impl() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::TextReader", modifiers: "", def_value: None }, CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
-explicit XmlTextReader(System::IO::TextReader input, System::Xml::XmlNameTable nt) ;
+static System::Xml::XmlTextReader New_ctor(System::IO::TextReader input, System::Xml::XmlNameTable nt) ;
 
 /// @brief Method .ctor addr 0x26e0444 size 0xac virtual false final false
  void _ctor(System::IO::TextReader input, System::Xml::XmlNameTable nt) ;

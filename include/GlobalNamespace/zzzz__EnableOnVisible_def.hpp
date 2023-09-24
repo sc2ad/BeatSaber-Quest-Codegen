@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace UnityEngine {
+class Behaviour;
+}
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace UnityEngine {
-class Behaviour;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,8 +85,7 @@ constexpr ::ArrayW<UnityEngine::Behaviour> __get__components() const;
 /// @brief Method OnBecameInvisible addr 0x1f76eb4 size 0x88 virtual false final false
  void OnBecameInvisible() ;
 
-// Ctor Parameters []
-explicit EnableOnVisible() ;
+static GlobalNamespace::EnableOnVisible New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f76f3c size 0x8 virtual false final false
  void _ctor() ;

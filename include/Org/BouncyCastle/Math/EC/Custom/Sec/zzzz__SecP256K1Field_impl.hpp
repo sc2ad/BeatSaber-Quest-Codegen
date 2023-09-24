@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecP256K1Field_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Field.Add
 template<>
 
@@ -531,8 +531,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, x, z);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Field::SecP256K1Field()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SecP256K1Field>())) {}
+ Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Field Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Field::New_ctor()  {
+Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Field o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Field>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Field::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Field>::get(),

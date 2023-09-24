@@ -3,8 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateStructure;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class IssuerAndSerialNumber;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
@@ -12,23 +24,11 @@ class Asn1Set;
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1InputStream;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class IssuerAndSerialNumber;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateStructure;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -120,8 +120,7 @@ static Org::BouncyCastle::Asn1::X509::TbsCertificateStructure GetTbsCertificateS
 /// @brief Method GetIssuerAndSerialNumber addr 0x115e510 size 0x94 virtual false final false
 static Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber GetIssuerAndSerialNumber(Org::BouncyCastle::X509::X509Certificate cert) ;
 
-// Ctor Parameters []
-explicit CmsUtilities() ;
+static Org::BouncyCastle::Cms::CmsUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x1175008 size 0x8 virtual false final false
  void _ctor() ;

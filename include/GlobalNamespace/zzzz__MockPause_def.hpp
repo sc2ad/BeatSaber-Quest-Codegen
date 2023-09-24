@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace GlobalNamespace {
-class IGamePause;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class IGamePause;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -112,8 +112,7 @@ constexpr System::Action __get_didResumeEvent() const;
 /// @brief Method Resume addr 0x20ced2c size 0x40 virtual true final true
  void Resume() ;
 
-// Ctor Parameters []
-explicit MockPause() ;
+static GlobalNamespace::MockPause New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ced6c size 0x8 virtual false final false
  void _ctor() ;

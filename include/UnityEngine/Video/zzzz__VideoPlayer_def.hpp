@@ -7,13 +7,25 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::Video {
+class UnityEngine__Video__VideoPlayer__TimeEventHandler;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine::Video {
+class UnityEngine__Video__VideoPlayer__FrameReadyEventHandler;
+}
+namespace UnityEngine::Video {
 class VideoClip;
 }
 namespace UnityEngine::Video {
 struct VideoTimeReference;
 }
-namespace UnityEngine {
-class Texture;
+namespace UnityEngine::Video {
+class UnityEngine__Video__VideoPlayer__EventHandler;
+}
+namespace UnityEngine::Video {
+class UnityEngine__Video__VideoPlayer__ErrorEventHandler;
 }
 // Forward declare root types
 namespace UnityEngine::Video {
@@ -73,8 +85,7 @@ constexpr explicit UnityEngine__Video__VideoPlayer__EventHandler(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Video__VideoPlayer__EventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::Video::UnityEngine__Video__VideoPlayer__EventHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2d3837c size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -128,8 +139,7 @@ constexpr explicit UnityEngine__Video__VideoPlayer__ErrorEventHandler(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Video__VideoPlayer__ErrorEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::Video::UnityEngine__Video__VideoPlayer__ErrorEventHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2d38464 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -183,8 +193,7 @@ constexpr explicit UnityEngine__Video__VideoPlayer__FrameReadyEventHandler(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Video__VideoPlayer__FrameReadyEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::Video::UnityEngine__Video__VideoPlayer__FrameReadyEventHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2d38550 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -238,8 +247,7 @@ constexpr explicit UnityEngine__Video__VideoPlayer__TimeEventHandler(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Video__VideoPlayer__TimeEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::Video::UnityEngine__Video__VideoPlayer__TimeEventHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2d3863c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

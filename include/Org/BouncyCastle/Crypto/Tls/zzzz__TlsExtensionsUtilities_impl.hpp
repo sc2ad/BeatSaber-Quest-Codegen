@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsExtensionsUtilities_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__HeartbeatExtension_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ServerNameList_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateStatusRequest_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__HeartbeatExtension_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities.EnsureExtensionsInitialised
 template<>
 
@@ -1243,8 +1243,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, extensionData);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities::TlsExtensionsUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsExtensionsUtilities>())) {}
+ Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities>::get(),

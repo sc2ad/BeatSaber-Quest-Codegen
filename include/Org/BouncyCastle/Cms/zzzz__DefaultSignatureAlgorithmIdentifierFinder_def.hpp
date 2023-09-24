@@ -6,8 +6,8 @@
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class RsassaPssParameters;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace System::Collections {
 class IDictionary;
@@ -15,8 +15,8 @@ class IDictionary;
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -160,8 +160,7 @@ static Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters CreatePssParams(Org::B
 /// @brief Method Find addr 0x117033c size 0x54 virtual false final false
  Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier Find(::StringW sigAlgName) ;
 
-// Ctor Parameters []
-explicit DefaultSignatureAlgorithmIdentifierFinder() ;
+static Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1170390 size 0x8 virtual false final false
  void _ctor() ;

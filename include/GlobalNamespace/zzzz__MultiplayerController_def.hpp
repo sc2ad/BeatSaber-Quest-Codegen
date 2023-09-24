@@ -6,15 +6,15 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
 }
 namespace GlobalNamespace {
 struct MultiplayerPlayerStartState;
@@ -27,6 +27,36 @@ namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
+class MultiplayerPlayersManager;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
+class MultiplayerOutroAnimationController;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class SongStartSyncController;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+struct MultiplayerGameState;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
 class FadeInOutController;
 }
 namespace System {
@@ -34,65 +64,47 @@ template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerController____c;
+}
+namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+class GlobalNamespace__MultiplayerController____c__DisplayClass42_0;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelFinishedController;
-}
-namespace GlobalNamespace {
-struct MultiplayerGameState;
-}
-namespace GlobalNamespace {
-class MultiplayerOutroAnimationController;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class MultiplayerResultsData;
+class IMenuRpcManager;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
-}
-namespace GlobalNamespace {
-class SongStartSyncController;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
+class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class MultiplayerLevelFinishedController;
 }
-namespace UnityEngine {
-class Coroutine;
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37;
 }
 namespace GlobalNamespace {
 class SceneStartSyncController;
 }
 namespace GlobalNamespace {
-class IMenuRpcManager;
+class MultiplayerIntroAnimationController;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 namespace GlobalNamespace {
-class MultiplayerIntroAnimationController;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgesProvider;
@@ -167,6 +179,8 @@ __Finished = 6,
 constexpr operator __GlobalNamespace__MultiplayerController__State_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerController__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -287,8 +301,7 @@ constexpr GlobalNamespace::MultiplayerPlayerStartState __get_localPlayerSyncStat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20f3080 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -369,8 +382,7 @@ constexpr float_t __get_introAnimationStartSyncTime() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerController____c__DisplayClass42_0() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerController____c__DisplayClass42_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f38dc size 0x8 virtual false final false
  void _ctor() ;
@@ -439,8 +451,7 @@ static System::Func_2<GlobalNamespace::MultiplayerLevelCompletionResults,bool> _
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerController____c() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerController____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f68cc size 0x8 virtual false final false
  void _ctor() ;
@@ -738,8 +749,7 @@ static constexpr float_t  kGetMultiplayerGameStateTimeout{20};
 /// @brief Method GetSongStartSyncTime addr 0x20f3210 size 0x38 virtual false final false
  float_t GetSongStartSyncTime(float_t introAnimationStartSyncTime) ;
 
-// Ctor Parameters []
-explicit MultiplayerController() ;
+static GlobalNamespace::MultiplayerController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f50dc size 0x58 virtual false final false
  void _ctor() ;

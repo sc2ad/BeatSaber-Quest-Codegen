@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputValue_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::InputValue.Get
 template<>
 
@@ -91,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::InputValue::InputValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputValue>())) {}
+ UnityEngine::InputSystem::InputValue UnityEngine::InputSystem::InputValue::New_ctor()  {
+UnityEngine::InputSystem::InputValue o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::InputValue>())};
+return o;
+}
  void UnityEngine::InputSystem::InputValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::InputValue>::get(),

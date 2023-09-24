@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__UnityEventBase_def.hpp"
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "UnityEngine/Events/zzzz__PersistentListenerMode_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Events/zzzz__InvokableCallList_def.hpp"
-#include "UnityEngine/Events/zzzz__PersistentCall_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Events/zzzz__PersistentCallGroup_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
+#include "UnityEngine/Events/zzzz__PersistentCall_def.hpp"
+#include "UnityEngine/Events/zzzz__PersistentListenerMode_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: UnityEngine::Events::UnityEventBase._ctor
 template<>
@@ -286,8 +286,10 @@ constexpr void UnityEngine::Events::UnityEventBase::__set_m_CallsDirty(bool valu
 constexpr bool UnityEngine::Events::UnityEventBase::__get_m_CallsDirty() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Events::UnityEventBase::UnityEventBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEventBase>())) {}
+ UnityEngine::Events::UnityEventBase UnityEngine::Events::UnityEventBase::New_ctor()  {
+UnityEngine::Events::UnityEventBase o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Events::UnityEventBase>())};
+return o;
+}
  void UnityEngine::Events::UnityEventBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEventBase>::get(),

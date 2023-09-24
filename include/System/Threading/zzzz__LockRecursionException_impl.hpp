@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Threading::LockRecursionException::LockRecursionException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<LockRecursionException>())) {}
+ System::Threading::LockRecursionException System::Threading::LockRecursionException::New_ctor()  {
+System::Threading::LockRecursionException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::LockRecursionException>())};
+return o;
+}
  void System::Threading::LockRecursionException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::LockRecursionException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Threading::LockRecursionException::LockRecursionException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<LockRecursionException>(message))) {}
+ System::Threading::LockRecursionException System::Threading::LockRecursionException::New_ctor(::StringW message)  {
+System::Threading::LockRecursionException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::LockRecursionException>(message))};
+return o;
+}
  void System::Threading::LockRecursionException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::LockRecursionException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Threading::LockRecursionException::LockRecursionException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<LockRecursionException>(info, context))) {}
+ System::Threading::LockRecursionException System::Threading::LockRecursionException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Threading::LockRecursionException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::LockRecursionException>(info, context))};
+return o;
+}
  void System::Threading::LockRecursionException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::LockRecursionException>::get(),

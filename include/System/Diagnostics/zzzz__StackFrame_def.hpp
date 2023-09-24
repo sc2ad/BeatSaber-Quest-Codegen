@@ -116,14 +116,12 @@ constexpr ::StringW __get_internalMethodName() const;
 /// @brief Method get_frame_info addr 0x240c224 size 0x8 virtual false final false
 static bool get_frame_info(int32_t skip, bool needFileInfo, ByRef<System::Reflection::MethodBase> method, ByRef<int32_t> iloffset, ByRef<int32_t> native_offset, ByRef<::StringW> file, ByRef<int32_t> line, ByRef<int32_t> column) ;
 
-// Ctor Parameters []
-explicit StackFrame() ;
+static System::Diagnostics::StackFrame New_ctor() ;
 
 /// @brief Method .ctor addr 0x240c22c size 0x50 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "skipFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fNeedFileInfo", ty: "bool", modifiers: "", def_value: None }]
-explicit StackFrame(int32_t skipFrames, bool fNeedFileInfo) ;
+static System::Diagnostics::StackFrame New_ctor(int32_t skipFrames, bool fNeedFileInfo) ;
 
 /// @brief Method .ctor addr 0x240c27c size 0x60 virtual false final false
  void _ctor(int32_t skipFrames, bool fNeedFileInfo) ;

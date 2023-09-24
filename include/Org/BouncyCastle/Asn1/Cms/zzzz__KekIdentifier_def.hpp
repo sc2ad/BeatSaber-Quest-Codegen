@@ -4,6 +4,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
 class OtherKeyAttribute;
 }
@@ -15,12 +21,6 @@ class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -98,14 +98,12 @@ constexpr Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute __get_other() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyIdentifier", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "date", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }, CppParam { name: "other", ty: "Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute", modifiers: "", def_value: None }]
-explicit KekIdentifier(::ArrayW<uint8_t> keyIdentifier, Org::BouncyCastle::Asn1::DerGeneralizedTime date, Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute other) ;
+static Org::BouncyCastle::Asn1::Cms::KekIdentifier New_ctor(::ArrayW<uint8_t> keyIdentifier, Org::BouncyCastle::Asn1::DerGeneralizedTime date, Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute other) ;
 
 /// @brief Method .ctor addr 0xdeb668 size 0x90 virtual false final false
  void _ctor(::ArrayW<uint8_t> keyIdentifier, Org::BouncyCastle::Asn1::DerGeneralizedTime date, Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute other) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit KekIdentifier(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::KekIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdeb6f8 size 0x298 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

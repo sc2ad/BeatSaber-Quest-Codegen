@@ -13,7 +13,7 @@ class MessageWithLeaderboardList;
 // Type: Oculus.Platform::MessageWithLeaderboardList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4451 }), TypeDefinitionIndex(TypeDefinitionIndex(13428)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4451 }), TypeDefinitionIndex(TypeDefinitionIndex(13428))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13245))
 // CS Name: Oculus.Platform.MessageWithLeaderboardList
 class CORDL_TYPE MessageWithLeaderboardList : public Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardList> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithLeaderboardList(void* ptr) noexcept : Oculus::Plat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithLeaderboardList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithLeaderboardList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e8f8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

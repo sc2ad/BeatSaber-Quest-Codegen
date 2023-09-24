@@ -48,8 +48,7 @@ constexpr explicit PkixNameConstraintValidatorException(void* ptr) noexcept : Sy
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PkixNameConstraintValidatorException(::StringW msg) ;
+static Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException New_ctor(::StringW msg) ;
 
 /// @brief Method .ctor addr 0x107ee24 size 0x68 virtual false final false
  void _ctor(::StringW msg) ;

@@ -78,8 +78,10 @@ constexpr void System::Reflection::ExceptionHandlingClause::__set_handler_length
 constexpr int32_t System::Reflection::ExceptionHandlingClause::__get_handler_length() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Reflection::ExceptionHandlingClause::ExceptionHandlingClause()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ExceptionHandlingClause>())) {}
+ System::Reflection::ExceptionHandlingClause System::Reflection::ExceptionHandlingClause::New_ctor()  {
+System::Reflection::ExceptionHandlingClause o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::ExceptionHandlingClause>())};
+return o;
+}
  void System::Reflection::ExceptionHandlingClause::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::ExceptionHandlingClause>::get(),

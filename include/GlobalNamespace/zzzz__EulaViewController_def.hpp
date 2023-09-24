@@ -7,20 +7,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UI {
-class Image;
+class Button;
 }
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace HMUI {
-class TextPageScrollView;
+namespace GlobalNamespace {
+class GlobalNamespace__EulaViewController__InitData;
 }
 namespace GlobalNamespace {
 class LocalizedTextAsset;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+struct GlobalNamespace__EulaViewController__ButtonType;
 }
 namespace UnityEngine {
 class Coroutine;
@@ -28,8 +24,21 @@ class Coroutine;
 namespace GlobalNamespace {
 class ICoroutineStarter;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22;
+}
+namespace HMUI {
+class TextPageScrollView;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace UnityEngine::UI {
-class Button;
+class Image;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -101,6 +110,8 @@ constexpr operator __GlobalNamespace__EulaViewController__ButtonType_Unwrapped (
 return std::bit_cast<__GlobalNamespace__EulaViewController__ButtonType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -171,8 +182,7 @@ constexpr bool __get_showDoNotAgreeButton() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "showDoNotAgreeButton", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__EulaViewController__InitData(bool showDoNotAgreeButton) ;
+static GlobalNamespace::GlobalNamespace__EulaViewController__InitData New_ctor(bool showDoNotAgreeButton) ;
 
 /// @brief Method .ctor addr 0x215b030 size 0x28 virtual false final false
  void _ctor(bool showDoNotAgreeButton) ;
@@ -278,8 +288,7 @@ constexpr float_t __get__elapsedTime_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x215af98 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -462,8 +471,7 @@ constexpr UnityEngine::Coroutine __get__buttonsCoroutine() const;
 /// @brief Method EnableButtonsCoroutine addr 0x215ae4c size 0x78 virtual false final false
  System::Collections::IEnumerator EnableButtonsCoroutine(float_t delay) ;
 
-// Ctor Parameters []
-explicit EulaViewController() ;
+static GlobalNamespace::EulaViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215afc0 size 0x10 virtual false final false
  void _ctor() ;

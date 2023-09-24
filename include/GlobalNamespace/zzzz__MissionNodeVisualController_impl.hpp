@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeVisualController_def.hpp"
+#include "GlobalNamespace/zzzz__MissionToggle_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNode_def.hpp"
-#include "GlobalNamespace/zzzz__MissionToggle_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissionNodeVisualController.add_nodeWasSelectEvent
 template<>
 
@@ -641,8 +641,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, toggle);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionNodeVisualController::MissionNodeVisualController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionNodeVisualController>())) {}
+ GlobalNamespace::MissionNodeVisualController GlobalNamespace::MissionNodeVisualController::New_ctor()  {
+GlobalNamespace::MissionNodeVisualController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionNodeVisualController>())};
+return o;
+}
  void GlobalNamespace::MissionNodeVisualController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionNodeVisualController>::get(),

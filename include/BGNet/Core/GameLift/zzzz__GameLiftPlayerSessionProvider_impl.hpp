@@ -1,32 +1,32 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "BGNet/Core/GameLift/zzzz__GameLiftPlayerSessionProvider_def.hpp"
-#include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
-#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
 #include "BGNet/Core/GameLift/zzzz__IGameLiftPlayerSessionProvider_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__GraphAPIClient_def.hpp"
-#include "BGNet/Core/GameLift/zzzz__PlayerSessionInfo_def.hpp"
-#include "GlobalNamespace/zzzz__XPlatformAuthFeatureFlag_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "BGNet/Core/GameLift/zzzz__GameLiftPlayerSessionProvider_def.hpp"
+#include "GlobalNamespace/zzzz__XPlatformAuthFeatureFlag_def.hpp"
+#include "BGNet/Core/GameLift/zzzz__PlayerSessionInfo_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "BGNet/Core/GameLift/zzzz__GetMultiplayerInstanceResponse_def.hpp"
+#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
+#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
+#include "GlobalNamespace/zzzz__GraphAPIClient_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "BGNet/Core/GameLift/zzzz__GetMultiplayerInstanceResponse_def.hpp"
+#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 //  Writing Method size for method: BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14.MoveNext
 template<>
@@ -432,8 +432,10 @@ return ::cordl_internals::getStaticField<System::Func_2<System::Collections::Gen
  System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW,GlobalNamespace::RollingAverage>,int64_t> BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c::__get___9__16_2()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW,GlobalNamespace::RollingAverage>,int64_t>, "<>9__16_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c>::get>();
 }
-// Ctor Parameters []
- BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c>())) {}
+ BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c::New_ctor()  {
+BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c o{THROW_UNLESS(::il2cpp_utils::New<BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c>())};
+return o;
+}
  void BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c>::get(),
@@ -759,8 +761,10 @@ constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__set__last
 constexpr int64_t BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__get__lastPingTime() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "networkConfig", ty: "GlobalNamespace::INetworkConfig", modifiers: "", def_value: None }, CppParam { name: "xPlatformAuthFeatureFlag", ty: "GlobalNamespace::XPlatformAuthFeatureFlag", modifiers: "", def_value: None }]
- BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GameLiftPlayerSessionProvider(GlobalNamespace::INetworkConfig networkConfig, GlobalNamespace::XPlatformAuthFeatureFlag xPlatformAuthFeatureFlag)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameLiftPlayerSessionProvider>(networkConfig, xPlatformAuthFeatureFlag))) {}
+ BGNet::Core::GameLift::GameLiftPlayerSessionProvider BGNet::Core::GameLift::GameLiftPlayerSessionProvider::New_ctor(GlobalNamespace::INetworkConfig networkConfig, GlobalNamespace::XPlatformAuthFeatureFlag xPlatformAuthFeatureFlag)  {
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider o{THROW_UNLESS(::il2cpp_utils::New<BGNet::Core::GameLift::GameLiftPlayerSessionProvider>(networkConfig, xPlatformAuthFeatureFlag))};
+return o;
+}
  void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_ctor(GlobalNamespace::INetworkConfig networkConfig, GlobalNamespace::XPlatformAuthFeatureFlag xPlatformAuthFeatureFlag)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BGNet::Core::GameLift::GameLiftPlayerSessionProvider>::get(),

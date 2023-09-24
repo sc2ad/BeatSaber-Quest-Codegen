@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-struct XmlSpace;
+class XmlNameTable;
 }
 namespace System::Xml {
 class XmlNamespaceManager;
@@ -12,7 +12,7 @@ namespace System::Text {
 class Encoding;
 }
 namespace System::Xml {
-class XmlNameTable;
+struct XmlSpace;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -148,14 +148,12 @@ constexpr System::Text::Encoding __get__encoding() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }, CppParam { name: "nsMgr", ty: "System::Xml::XmlNamespaceManager", modifiers: "", def_value: None }, CppParam { name: "docTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "pubId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sysId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "internalSubset", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "baseURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xmlSpace", ty: "System::Xml::XmlSpace", modifiers: "", def_value: None }]
-explicit XmlParserContext(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace) ;
+static System::Xml::XmlParserContext New_ctor(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace) ;
 
 /// @brief Method .ctor addr 0x26c6c8c size 0x2c virtual false final false
  void _ctor(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace) ;
 
-// Ctor Parameters [CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }, CppParam { name: "nsMgr", ty: "System::Xml::XmlNamespaceManager", modifiers: "", def_value: None }, CppParam { name: "docTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "pubId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sysId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "internalSubset", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "baseURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xmlSpace", ty: "System::Xml::XmlSpace", modifiers: "", def_value: None }, CppParam { name: "enc", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit XmlParserContext(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace, System::Text::Encoding enc) ;
+static System::Xml::XmlParserContext New_ctor(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace, System::Text::Encoding enc) ;
 
 /// @brief Method .ctor addr 0x26c6cb8 size 0x1bc virtual false final false
  void _ctor(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace, System::Text::Encoding enc) ;

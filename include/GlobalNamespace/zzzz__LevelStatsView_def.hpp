@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class PlayerData;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -83,8 +83,7 @@ constexpr TMPro::TextMeshProUGUI __get__maxRankText() const;
 /// @brief Method ShowStats addr 0x218c0b4 size 0x3b4 virtual false final false
  void ShowStats(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::PlayerData playerData) ;
 
-// Ctor Parameters []
-explicit LevelStatsView() ;
+static GlobalNamespace::LevelStatsView New_ctor() ;
 
 /// @brief Method .ctor addr 0x218c468 size 0x8 virtual false final false
  void _ctor() ;

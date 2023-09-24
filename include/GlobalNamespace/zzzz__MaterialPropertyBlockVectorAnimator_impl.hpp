@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MaterialPropertyBlockVectorAnimator::MaterialPropertyBlockVectorAnimator()  : GlobalNamespace::MaterialPropertyBlockAnimator(THROW_UNLESS(::il2cpp_utils::New<MaterialPropertyBlockVectorAnimator>())) {}
+ GlobalNamespace::MaterialPropertyBlockVectorAnimator GlobalNamespace::MaterialPropertyBlockVectorAnimator::New_ctor()  {
+GlobalNamespace::MaterialPropertyBlockVectorAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MaterialPropertyBlockVectorAnimator>())};
+return o;
+}
  void GlobalNamespace::MaterialPropertyBlockVectorAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MaterialPropertyBlockVectorAnimator>::get(),

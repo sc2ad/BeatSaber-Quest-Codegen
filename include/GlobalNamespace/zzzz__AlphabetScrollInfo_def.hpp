@@ -2,6 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__AlphabetScrollInfo__Data;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class AlphabetScrollInfo;
@@ -66,8 +69,7 @@ constexpr int32_t __get_cellIdx() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "cellIdx", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AlphabetScrollInfo__Data(char16_t character, int32_t cellIdx) ;
+static GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data New_ctor(char16_t character, int32_t cellIdx) ;
 
 /// @brief Method .ctor addr 0x1f74a40 size 0x30 virtual false final false
  void _ctor(char16_t character, int32_t cellIdx) ;
@@ -120,8 +122,7 @@ constexpr explicit AlphabetScrollInfo(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Methods
 
-// Ctor Parameters []
-explicit AlphabetScrollInfo() ;
+static GlobalNamespace::AlphabetScrollInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f74a38 size 0x8 virtual false final false
  void _ctor() ;

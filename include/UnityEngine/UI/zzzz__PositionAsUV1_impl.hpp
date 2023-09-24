@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::PositionAsUV1::PositionAsUV1()  : UnityEngine::UI::BaseMeshEffect(THROW_UNLESS(::il2cpp_utils::New<PositionAsUV1>())) {}
+ UnityEngine::UI::PositionAsUV1 UnityEngine::UI::PositionAsUV1::New_ctor()  {
+UnityEngine::UI::PositionAsUV1 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::PositionAsUV1>())};
+return o;
+}
  void UnityEngine::UI::PositionAsUV1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::PositionAsUV1>::get(),

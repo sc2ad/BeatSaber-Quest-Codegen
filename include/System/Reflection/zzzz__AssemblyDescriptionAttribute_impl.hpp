@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyDescriptionAttribute::__set__Descript
 constexpr ::StringW System::Reflection::AssemblyDescriptionAttribute::__get__Description_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyDescriptionAttribute::AssemblyDescriptionAttribute(::StringW description)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyDescriptionAttribute>(description))) {}
+ System::Reflection::AssemblyDescriptionAttribute System::Reflection::AssemblyDescriptionAttribute::New_ctor(::StringW description)  {
+System::Reflection::AssemblyDescriptionAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyDescriptionAttribute>(description))};
+return o;
+}
  void System::Reflection::AssemblyDescriptionAttribute::_ctor(::StringW description)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyDescriptionAttribute>::get(),

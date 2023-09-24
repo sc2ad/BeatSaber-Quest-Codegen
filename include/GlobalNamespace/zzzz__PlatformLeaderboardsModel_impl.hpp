@@ -9,19 +9,19 @@
 #include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
-#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsHandler_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
+#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
+#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__State::GlobalNamespace__PlatformLeaderboardsModel__State(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -137,8 +137,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler>::get(),
@@ -243,8 +245,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler>::get(),
@@ -343,8 +347,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__Lead
 constexpr ::StringW GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore::__get_playerId() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "score", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "playerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore::GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO> gameplayModifiers)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore>(score, rank, playerName, playerId, gameplayModifiers))) {}
+ GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore::New_ctor(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO> gameplayModifiers)  {
+GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore>(score, rank, playerName, playerId, gameplayModifiers))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore::_ctor(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO> gameplayModifiers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore>::get(),
@@ -872,8 +878,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmap, multipliedScore, modifiedScore, maxPossibleMultipliedScore, fullCombo, goodCutsCount, badCutsCount, missedCount, maxCombo, energy, gameplayModifiers);
 }
-// Ctor Parameters []
- GlobalNamespace::PlatformLeaderboardsModel::PlatformLeaderboardsModel()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlatformLeaderboardsModel>())) {}
+ GlobalNamespace::PlatformLeaderboardsModel GlobalNamespace::PlatformLeaderboardsModel::New_ctor()  {
+GlobalNamespace::PlatformLeaderboardsModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlatformLeaderboardsModel>())};
+return o;
+}
  void GlobalNamespace::PlatformLeaderboardsModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlatformLeaderboardsModel>::get(),

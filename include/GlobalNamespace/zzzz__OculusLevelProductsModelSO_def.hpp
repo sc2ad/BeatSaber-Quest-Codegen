@@ -4,6 +4,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace GlobalNamespace {
+class GlobalNamespace__OculusLevelProductsModelSO__LevelPackProductData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusLevelProductsModelSO__LevelProductData;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -93,8 +99,7 @@ constexpr ::StringW __get__sku() const;
 /// @brief Method get_assetFile addr 0x2217688 size 0x1c virtual false final false
  ::StringW get_assetFile() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusLevelProductsModelSO__LevelProductData() ;
+static GlobalNamespace::GlobalNamespace__OculusLevelProductsModelSO__LevelProductData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2219584 size 0x8 virtual false final false
  void _ctor() ;
@@ -184,8 +189,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__OculusLevelProductsModelSO_
 /// @brief Method get_levelProductsData addr 0x221959c size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__OculusLevelProductsModelSO__LevelProductData> get_levelProductsData() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusLevelProductsModelSO__LevelPackProductData() ;
+static GlobalNamespace::GlobalNamespace__OculusLevelProductsModelSO__LevelPackProductData New_ctor() ;
 
 /// @brief Method .ctor addr 0x22195a4 size 0x58 virtual false final false
  void _ctor() ;
@@ -287,8 +291,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_
 /// @brief Method GetLevelSku addr 0x22193cc size 0x78 virtual false final false
  ::StringW GetLevelSku(::StringW assetFile) ;
 
-// Ctor Parameters []
-explicit OculusLevelProductsModelSO() ;
+static GlobalNamespace::OculusLevelProductsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2219444 size 0x130 virtual false final false
  void _ctor() ;

@@ -99,8 +99,7 @@ constexpr UnityEngine::Vector3 __get_lastForward() const;
 /// @brief Method OnModifyOffset addr 0x1207804 size 0x1ec virtual true final false
  void OnModifyOffset() ;
 
-// Ctor Parameters []
-explicit BodyTilt() ;
+static RootMotion::FinalIK::BodyTilt New_ctor() ;
 
 /// @brief Method .ctor addr 0x1207aa4 size 0x1c virtual false final false
  void _ctor() ;

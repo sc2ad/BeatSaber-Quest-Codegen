@@ -90,8 +90,7 @@ static int32_t __get_BASE() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit IdeaEngine() ;
+static Org::BouncyCastle::Crypto::Engines::IdeaEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe474b4 size 0x8 virtual false final false
  void _ctor() ;

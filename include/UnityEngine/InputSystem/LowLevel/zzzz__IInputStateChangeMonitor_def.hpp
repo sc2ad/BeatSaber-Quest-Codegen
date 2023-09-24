@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

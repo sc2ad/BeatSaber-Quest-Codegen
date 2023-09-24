@@ -3,11 +3,11 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {
@@ -16,7 +16,7 @@ class NormalizeVector2Processor;
 // Type: UnityEngine.InputSystem.Processors::NormalizeVector2Processor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 393 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6671))
 // CS Name: UnityEngine.InputSystem.Processors.NormalizeVector2Processor
 class CORDL_TYPE NormalizeVector2Processor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector2> {
@@ -61,8 +61,7 @@ constexpr explicit NormalizeVector2Processor(void* ptr) noexcept : UnityEngine::
 /// @brief Method ToString addr 0x2966fb0 size 0x40 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit NormalizeVector2Processor() ;
+static UnityEngine::InputSystem::Processors::NormalizeVector2Processor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2966ff0 size 0x48 virtual false final false
  void _ctor() ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMessageBase_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMethodReturnMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__CADArgHolder_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__CADArgHolder_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage.Create
 template<>
 
@@ -153,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Runtime::Remoting::Messaging::CADMethodReturnMessage, false>(nullptr, ___internal_method, callMsg);
 }
-// Ctor Parameters [CppParam { name: "retMsg", ty: "System::Runtime::Remoting::Messaging::IMethodReturnMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::CADMethodReturnMessage::CADMethodReturnMessage(System::Runtime::Remoting::Messaging::IMethodReturnMessage retMsg)  : System::Runtime::Remoting::Messaging::CADMessageBase(THROW_UNLESS(::il2cpp_utils::New<CADMethodReturnMessage>(retMsg))) {}
+ System::Runtime::Remoting::Messaging::CADMethodReturnMessage System::Runtime::Remoting::Messaging::CADMethodReturnMessage::New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage retMsg)  {
+System::Runtime::Remoting::Messaging::CADMethodReturnMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::CADMethodReturnMessage>(retMsg))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::CADMethodReturnMessage::_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage retMsg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::CADMethodReturnMessage>::get(),

@@ -55,8 +55,7 @@ constexpr explicit CorrelationManager(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Methods
 
-// Ctor Parameters []
-explicit CorrelationManager() ;
+static System::Diagnostics::CorrelationManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x27d99f0 size 0x8 virtual false final false
  void _ctor() ;

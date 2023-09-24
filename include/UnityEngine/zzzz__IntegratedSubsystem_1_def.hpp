@@ -68,8 +68,7 @@ constexpr explicit IntegratedSubsystem_1(void* ptr) noexcept : UnityEngine::Inte
 /// @brief Method get_SubsystemDescriptor addr 0x0 size 0xffffffffffffffff virtual false final false
  TSubsystemDescriptor get_SubsystemDescriptor() ;
 
-// Ctor Parameters []
-explicit IntegratedSubsystem_1() ;
+static UnityEngine::IntegratedSubsystem_1<TSubsystemDescriptor> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

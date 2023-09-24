@@ -74,8 +74,7 @@ constexpr UnityEngine::UIElements::UIR::BestFitAllocator __get_m_High() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "maxSize", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit GPUBufferAllocator(uint32_t maxSize) ;
+static UnityEngine::UIElements::UIR::GPUBufferAllocator New_ctor(uint32_t maxSize) ;
 
 /// @brief Method .ctor addr 0x2c5c748 size 0x94 virtual false final false
  void _ctor(uint32_t maxSize) ;

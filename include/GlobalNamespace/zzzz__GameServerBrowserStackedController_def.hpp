@@ -53,8 +53,7 @@ constexpr explicit GameServerBrowserStackedController(void* ptr) noexcept : HMUI
 /// @brief Method DidDeactivate addr 0x21765b8 size 0x4 virtual true final false
  void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling) ;
 
-// Ctor Parameters []
-explicit GameServerBrowserStackedController() ;
+static GlobalNamespace::GameServerBrowserStackedController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21765bc size 0x8 virtual false final false
  void _ctor() ;

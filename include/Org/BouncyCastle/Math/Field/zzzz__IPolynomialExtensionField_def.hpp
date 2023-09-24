@@ -1,13 +1,13 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 namespace Org::BouncyCastle::Math::Field {
+class IFiniteField;
+}
+namespace Org::BouncyCastle::Math::Field {
 class IExtensionField;
 }
 namespace Org::BouncyCastle::Math::Field {
 class IPolynomial;
-}
-namespace Org::BouncyCastle::Math::Field {
-class IFiniteField;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {

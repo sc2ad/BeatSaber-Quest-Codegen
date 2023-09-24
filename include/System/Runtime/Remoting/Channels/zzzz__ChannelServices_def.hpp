@@ -5,10 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Channels {
-class IChannelSender;
+class IChannel;
+}
+namespace System::Runtime::Remoting::Contexts {
+class CrossContextChannel;
+}
+namespace System::Runtime::Remoting::Messaging {
+class ReturnMessage;
+}
+namespace System::Runtime::Remoting {
+class ChannelData;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 namespace System::Runtime::Remoting {
 class ProviderData;
@@ -17,22 +32,7 @@ namespace System::Collections {
 class IList;
 }
 namespace System::Runtime::Remoting::Channels {
-class IChannel;
-}
-namespace System::Runtime::Remoting {
-class ChannelData;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Runtime::Remoting::Contexts {
-class CrossContextChannel;
-}
-namespace System::Runtime::Remoting::Messaging {
-class ReturnMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IChannelSender;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {

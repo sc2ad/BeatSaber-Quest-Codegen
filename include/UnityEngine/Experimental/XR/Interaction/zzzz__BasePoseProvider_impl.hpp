@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Experimental/XR/Interaction/zzzz__BasePoseProvider_def.hpp"
-#include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__PoseDataFlags_def.hpp"
+#include "UnityEngine/zzzz__Pose_def.hpp"
 //  Writing Method size for method: UnityEngine::Experimental::XR::Interaction::BasePoseProvider.GetPoseFromProvider
 template<>
 
@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, output);
 }
-// Ctor Parameters []
- UnityEngine::Experimental::XR::Interaction::BasePoseProvider::BasePoseProvider()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BasePoseProvider>())) {}
+ UnityEngine::Experimental::XR::Interaction::BasePoseProvider UnityEngine::Experimental::XR::Interaction::BasePoseProvider::New_ctor()  {
+UnityEngine::Experimental::XR::Interaction::BasePoseProvider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Experimental::XR::Interaction::BasePoseProvider>())};
+return o;
+}
  void UnityEngine::Experimental::XR::Interaction::BasePoseProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Experimental::XR::Interaction::BasePoseProvider>::get(),

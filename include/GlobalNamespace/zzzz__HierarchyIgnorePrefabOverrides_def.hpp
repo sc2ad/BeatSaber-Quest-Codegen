@@ -47,8 +47,7 @@ constexpr explicit HierarchyIgnorePrefabOverrides(void* ptr) noexcept : UnityEng
 
 // Methods
 
-// Ctor Parameters []
-explicit HierarchyIgnorePrefabOverrides() ;
+static GlobalNamespace::HierarchyIgnorePrefabOverrides New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c3a70 size 0x8 virtual false final false
  void _ctor() ;

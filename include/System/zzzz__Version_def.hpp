@@ -5,6 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace System {
 class IFormatProvider;
 }
 namespace System {
@@ -14,6 +18,9 @@ struct Span_1;
 namespace System {
 template<typename T>
 class IComparable_1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class IComparable;
@@ -25,15 +32,8 @@ namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
-namespace System::Text {
-class StringBuilder;
-}
 namespace System {
 class ISpanFormattable;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
 }
 // Forward declare root types
 namespace System {
@@ -136,38 +136,32 @@ constexpr int32_t __get__Revision() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "major", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Version(int32_t major, int32_t minor, int32_t build, int32_t revision) ;
+static System::Version New_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision) ;
 
 /// @brief Method .ctor addr 0x24604d4 size 0x124 virtual false final false
  void _ctor(int32_t major, int32_t minor, int32_t build, int32_t revision) ;
 
-// Ctor Parameters [CppParam { name: "major", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Version(int32_t major, int32_t minor, int32_t build) ;
+static System::Version New_ctor(int32_t major, int32_t minor, int32_t build) ;
 
 /// @brief Method .ctor addr 0x24605f8 size 0xf8 virtual false final false
  void _ctor(int32_t major, int32_t minor, int32_t build) ;
 
-// Ctor Parameters [CppParam { name: "major", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Version(int32_t major, int32_t minor) ;
+static System::Version New_ctor(int32_t major, int32_t minor) ;
 
 /// @brief Method .ctor addr 0x24606f0 size 0xc0 virtual false final false
  void _ctor(int32_t major, int32_t minor) ;
 
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Version(::StringW version) ;
+static System::Version New_ctor(::StringW version) ;
 
 /// @brief Method .ctor addr 0x24607b0 size 0x44 virtual false final false
  void _ctor(::StringW version) ;
 
-// Ctor Parameters []
-explicit Version() ;
+static System::Version New_ctor() ;
 
 /// @brief Method .ctor addr 0x2460890 size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "version", ty: "System::Version", modifiers: "", def_value: None }]
-explicit Version(System::Version version) ;
+static System::Version New_ctor(System::Version version) ;
 
 /// @brief Method .ctor addr 0x24608b4 size 0x3c virtual false final false
  void _ctor(System::Version version) ;

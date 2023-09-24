@@ -1,11 +1,12 @@
 #pragma once
 #include "System/Collections/zzzz__ListDictionaryInternal_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__ListDictionaryInternal_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 //  Writing Method size for method: System::Collections::System__Collections__ListDictionaryInternal__NodeEnumerator._ctor
 template<>
@@ -158,8 +159,10 @@ constexpr void System::Collections::System__Collections__ListDictionaryInternal_
 constexpr bool System::Collections::System__Collections__ListDictionaryInternal__NodeEnumerator::__get_start() const {
 return ::cordl_internals::getInstanceField<bool, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::ListDictionaryInternal", modifiers: "", def_value: None }]
- System::Collections::System__Collections__ListDictionaryInternal__NodeEnumerator::System__Collections__ListDictionaryInternal__NodeEnumerator(System::Collections::ListDictionaryInternal list)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__ListDictionaryInternal__NodeEnumerator>(list))) {}
+ System::Collections::System__Collections__ListDictionaryInternal__NodeEnumerator System::Collections::System__Collections__ListDictionaryInternal__NodeEnumerator::New_ctor(System::Collections::ListDictionaryInternal list)  {
+System::Collections::System__Collections__ListDictionaryInternal__NodeEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::System__Collections__ListDictionaryInternal__NodeEnumerator>(list))};
+return o;
+}
  void System::Collections::System__Collections__ListDictionaryInternal__NodeEnumerator::_ctor(System::Collections::ListDictionaryInternal list)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::System__Collections__ListDictionaryInternal__NodeEnumerator>::get(),
@@ -325,8 +328,10 @@ constexpr void GlobalNamespace::System__Collections__ListDictionaryInternal__Nod
 constexpr bool GlobalNamespace::System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator::__get_start() const {
 return ::cordl_internals::getInstanceField<bool, 0x25>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::ListDictionaryInternal", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator::System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator(System::Collections::ListDictionaryInternal list, bool isKeys)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator>(list, isKeys))) {}
+ GlobalNamespace::System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator GlobalNamespace::System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator::New_ctor(System::Collections::ListDictionaryInternal list, bool isKeys)  {
+GlobalNamespace::System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator>(list, isKeys))};
+return o;
+}
  void GlobalNamespace::System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator::_ctor(System::Collections::ListDictionaryInternal list, bool isKeys)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator>::get(),
@@ -485,8 +490,10 @@ constexpr void System::Collections::System__Collections__ListDictionaryInternal_
 constexpr bool System::Collections::System__Collections__ListDictionaryInternal__NodeKeyValueCollection::__get_isKeys() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::ListDictionaryInternal", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
- System::Collections::System__Collections__ListDictionaryInternal__NodeKeyValueCollection::System__Collections__ListDictionaryInternal__NodeKeyValueCollection(System::Collections::ListDictionaryInternal list, bool isKeys)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__ListDictionaryInternal__NodeKeyValueCollection>(list, isKeys))) {}
+ System::Collections::System__Collections__ListDictionaryInternal__NodeKeyValueCollection System::Collections::System__Collections__ListDictionaryInternal__NodeKeyValueCollection::New_ctor(System::Collections::ListDictionaryInternal list, bool isKeys)  {
+System::Collections::System__Collections__ListDictionaryInternal__NodeKeyValueCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::System__Collections__ListDictionaryInternal__NodeKeyValueCollection>(list, isKeys))};
+return o;
+}
  void System::Collections::System__Collections__ListDictionaryInternal__NodeKeyValueCollection::_ctor(System::Collections::ListDictionaryInternal list, bool isKeys)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::System__Collections__ListDictionaryInternal__NodeKeyValueCollection>::get(),
@@ -576,8 +583,10 @@ constexpr void System::Collections::System__Collections__ListDictionaryInternal_
 constexpr System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode::__get_next() const {
 return ::cordl_internals::getInstanceField<System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode::System__Collections__ListDictionaryInternal__DictionaryNode()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__ListDictionaryInternal__DictionaryNode>())) {}
+ System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode::New_ctor()  {
+System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode>())};
+return o;
+}
  void System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode>::get(),
@@ -912,8 +921,10 @@ constexpr void System::Collections::ListDictionaryInternal::__set__syncRoot(::bs
 constexpr ::bs_hook::Il2CppWrapperType System::Collections::ListDictionaryInternal::__get__syncRoot() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::ListDictionaryInternal::ListDictionaryInternal()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ListDictionaryInternal>())) {}
+ System::Collections::ListDictionaryInternal System::Collections::ListDictionaryInternal::New_ctor()  {
+System::Collections::ListDictionaryInternal o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::ListDictionaryInternal>())};
+return o;
+}
  void System::Collections::ListDictionaryInternal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::ListDictionaryInternal>::get(),

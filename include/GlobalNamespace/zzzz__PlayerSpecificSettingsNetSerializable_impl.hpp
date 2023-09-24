@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PlayerSpecificSettingsNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemeNetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemeNetSerializable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlayerSpecificSettingsNetSerializable._ctor
 template<>
 
@@ -119,8 +119,10 @@ constexpr void GlobalNamespace::PlayerSpecificSettingsNetSerializable::__set_col
 constexpr GlobalNamespace::ColorSchemeNetSerializable GlobalNamespace::PlayerSpecificSettingsNetSerializable::__get_colorScheme() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ColorSchemeNetSerializable, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerSpecificSettingsNetSerializable::PlayerSpecificSettingsNetSerializable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerSpecificSettingsNetSerializable>())) {}
+ GlobalNamespace::PlayerSpecificSettingsNetSerializable GlobalNamespace::PlayerSpecificSettingsNetSerializable::New_ctor()  {
+GlobalNamespace::PlayerSpecificSettingsNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerSpecificSettingsNetSerializable>())};
+return o;
+}
  void GlobalNamespace::PlayerSpecificSettingsNetSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerSpecificSettingsNetSerializable>::get(),
@@ -130,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "automaticPlayerHeight", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playerHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headPosToPlayerHeightOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "saberAColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
- GlobalNamespace::PlayerSpecificSettingsNetSerializable::PlayerSpecificSettingsNetSerializable(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerSpecificSettingsNetSerializable>(userId, userName, leftHanded, automaticPlayerHeight, playerHeight, headPosToPlayerHeightOffset, saberAColor, saberBColor, obstaclesColor, environmentColor0, environmentColor1, environmentColor0Boost, environmentColor1Boost))) {}
+ GlobalNamespace::PlayerSpecificSettingsNetSerializable GlobalNamespace::PlayerSpecificSettingsNetSerializable::New_ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost)  {
+GlobalNamespace::PlayerSpecificSettingsNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerSpecificSettingsNetSerializable>(userId, userName, leftHanded, automaticPlayerHeight, playerHeight, headPosToPlayerHeightOffset, saberAColor, saberBColor, obstaclesColor, environmentColor0, environmentColor1, environmentColor0Boost, environmentColor1Boost))};
+return o;
+}
  void GlobalNamespace::PlayerSpecificSettingsNetSerializable::_ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerSpecificSettingsNetSerializable>::get(),

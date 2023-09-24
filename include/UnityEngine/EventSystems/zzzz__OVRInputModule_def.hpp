@@ -7,34 +7,29 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRInput__Button;
+class OVRCursor;
 }
-namespace UnityEngine {
-class Transform;
+namespace UnityEngine::EventSystems {
+struct UnityEngine__EventSystems__OVRInputModule__InputMode;
 }
 namespace UnityEngine {
 struct KeyCode;
 }
+namespace UnityEngine::EventSystems {
+class OVRPointerEventData;
+}
 namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine {
+class Transform;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
 namespace UnityEngine::EventSystems {
 class UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData;
-}
-namespace GlobalNamespace {
-class OVRCursor;
-}
-namespace GlobalNamespace {
-class OVRRaycaster;
-}
-namespace UnityEngine::EventSystems {
-struct UnityEngine__EventSystems__PointerEventData__FramePressState;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::EventSystems {
-class OVRPointerEventData;
 }
 namespace UnityEngine {
 class RectTransform;
@@ -42,12 +37,20 @@ class RectTransform;
 namespace UnityEngine::EventSystems {
 class UnityEngine__EventSystems__PointerInputModule__MouseState;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace UnityEngine::EventSystems {
+struct UnityEngine__EventSystems__PointerEventData__FramePressState;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Button;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace GlobalNamespace {
+class OVRRaycaster;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -105,6 +108,8 @@ __Buttons = 1,
 constexpr operator __UnityEngine__EventSystems__OVRInputModule__InputMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__EventSystems__OVRInputModule__InputMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -339,8 +344,7 @@ constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModu
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRInputModule() ;
+static UnityEngine::EventSystems::OVRInputModule New_ctor() ;
 
 /// @brief Method .ctor addr 0x266ac1c size 0x16c virtual false final false
  void _ctor() ;

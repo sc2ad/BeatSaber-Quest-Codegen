@@ -8,45 +8,8 @@
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine::Timeline {
-class IPropertyCollector;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
-}
-namespace UnityEngine {
-template<typename T>
-struct ExposedReference_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace UnityEngine::Timeline {
-class IPropertyPreview;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine::Timeline {
-struct UnityEngine__Timeline__ActivationControlPlayable__PostPlaybackState;
-}
-namespace UnityEngine::Playables {
-class PlayableAsset;
+struct ClipCaps;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -54,7 +17,42 @@ class List_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class ParticleSystem;
+}
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+class PlayableAsset;
+}
+namespace UnityEngine::Timeline {
+class IPropertyPreview;
+}
+namespace UnityEngine::Timeline {
+struct UnityEngine__Timeline__ActivationControlPlayable__PostPlaybackState;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class HashSet_1;
+}
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
 }
 namespace UnityEngine {
 class GameObject;
@@ -63,23 +61,28 @@ namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Timeline {
-struct ClipCaps;
+class IPropertyCollector;
 }
 namespace UnityEngine {
-class ParticleSystem;
+template<typename T>
+struct ExposedReference_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace System {
 class IDisposable;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -197,8 +200,7 @@ constexpr int32_t __get___7__wrap2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39(int32_t __1__state) ;
+static UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2accb18 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -485,8 +487,7 @@ static void PreviewTimeControl(UnityEngine::Timeline::IPropertyCollector driver,
 /// @brief Method PreviewDirectors addr 0x2acdd58 size 0x3c8 virtual false final false
 static void PreviewDirectors(UnityEngine::Timeline::IPropertyCollector driver, System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector> directors) ;
 
-// Ctor Parameters []
-explicit ControlPlayableAsset() ;
+static UnityEngine::Timeline::ControlPlayableAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ace120 size 0x84 virtual false final false
  void _ctor() ;

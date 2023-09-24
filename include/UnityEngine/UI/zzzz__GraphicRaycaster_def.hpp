@@ -4,12 +4,28 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-class Canvas;
+struct Vector2;
 }
 namespace UnityEngine {
 class Camera;
@@ -17,21 +33,11 @@ class Camera;
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UI {
+class UnityEngine__UI__GraphicRaycaster____c;
 }
 namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
+struct UnityEngine__UI__GraphicRaycaster__BlockingObjects;
 }
 namespace System {
 template<typename T>
@@ -98,6 +104,8 @@ __All = 3,
 constexpr operator __UnityEngine__UI__GraphicRaycaster__BlockingObjects_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__GraphicRaycaster__BlockingObjects_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -181,8 +189,7 @@ static System::Comparison_1<UnityEngine::UI::Graphic> __get___9__27_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__GraphicRaycaster____c() ;
+static UnityEngine::UI::UnityEngine__UI__GraphicRaycaster____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2be7778 size 0x8 virtual false final false
  void _ctor() ;
@@ -323,8 +330,7 @@ static System::Collections::Generic::List_1<UnityEngine::UI::Graphic> __get_s_So
 /// @brief Method set_blockingMask addr 0x2be627c size 0x8 virtual false final false
  void set_blockingMask(UnityEngine::LayerMask value) ;
 
-// Ctor Parameters []
-explicit GraphicRaycaster() ;
+static UnityEngine::UI::GraphicRaycaster New_ctor() ;
 
 /// @brief Method .ctor addr 0x2be6284 size 0x94 virtual false final false
  void _ctor() ;

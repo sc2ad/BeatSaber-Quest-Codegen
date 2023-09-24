@@ -154,8 +154,10 @@ constexpr void System::Xml::Linq::XDeclaration::__set__standalone(::StringW valu
 constexpr ::StringW System::Xml::Linq::XDeclaration::__get__standalone() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "standalone", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Linq::XDeclaration::XDeclaration(::StringW version, ::StringW encoding, ::StringW standalone)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XDeclaration>(version, encoding, standalone))) {}
+ System::Xml::Linq::XDeclaration System::Xml::Linq::XDeclaration::New_ctor(::StringW version, ::StringW encoding, ::StringW standalone)  {
+System::Xml::Linq::XDeclaration o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XDeclaration>(version, encoding, standalone))};
+return o;
+}
  void System::Xml::Linq::XDeclaration::_ctor(::StringW version, ::StringW encoding, ::StringW standalone)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XDeclaration>::get(),
@@ -165,8 +167,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, version, encoding, standalone);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XDeclaration", modifiers: "", def_value: None }]
- System::Xml::Linq::XDeclaration::XDeclaration(System::Xml::Linq::XDeclaration other)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XDeclaration>(other))) {}
+ System::Xml::Linq::XDeclaration System::Xml::Linq::XDeclaration::New_ctor(System::Xml::Linq::XDeclaration other)  {
+System::Xml::Linq::XDeclaration o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XDeclaration>(other))};
+return o;
+}
  void System::Xml::Linq::XDeclaration::_ctor(System::Xml::Linq::XDeclaration other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XDeclaration>::get(),

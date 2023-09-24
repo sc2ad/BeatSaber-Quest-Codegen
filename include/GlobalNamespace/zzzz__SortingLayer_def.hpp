@@ -70,8 +70,7 @@ constexpr UnityEngine::Renderer __get__renderer() const;
 /// @brief Method Reset addr 0x1f83868 size 0x50 virtual false final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit SortingLayer() ;
+static GlobalNamespace::SortingLayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f838b8 size 0x8 virtual false final false
  void _ctor() ;

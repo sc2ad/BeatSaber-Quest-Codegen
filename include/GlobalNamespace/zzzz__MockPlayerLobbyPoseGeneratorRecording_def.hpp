@@ -50,8 +50,7 @@ constexpr explicit MockPlayerLobbyPoseGeneratorRecording(void* ptr) noexcept : G
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
-explicit MockPlayerLobbyPoseGeneratorRecording(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
+static GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
 
 /// @brief Method .ctor addr 0x20edf24 size 0x8 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;

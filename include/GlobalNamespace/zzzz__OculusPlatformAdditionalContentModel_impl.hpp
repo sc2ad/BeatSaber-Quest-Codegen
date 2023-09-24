@@ -3,23 +3,20 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusPlatformAdditionalContentModel_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Purchase_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PurchaseList_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetDetailsList_def.hpp"
+#include "GlobalNamespace/zzzz__OculusPlatformAdditionalContentModel_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "GlobalNamespace/zzzz__OculusLevelProductsModelSO_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__5.MoveNext
 template<>
@@ -575,8 +572,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContent
 constexpr System::Threading::Tasks::TaskCompletionSource_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase>> GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0::__get_launchCheckoutFlowTaskSource() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskCompletionSource_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase>>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0 GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0>::get(),
@@ -835,8 +834,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContent
 constexpr Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::PurchaseList> GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0::__get___9__1() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::PurchaseList>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0 GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0>::get(),
@@ -1284,8 +1285,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, levelPackId);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusPlatformAdditionalContentModel::OculusPlatformAdditionalContentModel()  : GlobalNamespace::AdditionalContentModel(THROW_UNLESS(::il2cpp_utils::New<OculusPlatformAdditionalContentModel>())) {}
+ GlobalNamespace::OculusPlatformAdditionalContentModel GlobalNamespace::OculusPlatformAdditionalContentModel::New_ctor()  {
+GlobalNamespace::OculusPlatformAdditionalContentModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusPlatformAdditionalContentModel>())};
+return o;
+}
  void GlobalNamespace::OculusPlatformAdditionalContentModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusPlatformAdditionalContentModel>::get(),

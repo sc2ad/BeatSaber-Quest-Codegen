@@ -62,8 +62,7 @@ constexpr explicit QmarkNode(void* ptr) noexcept : System::Xml::Schema::Interior
 /// @brief Method get_IsNullable addr 0x271b2d8 size 0x8 virtual true final false
  bool get_IsNullable() ;
 
-// Ctor Parameters []
-explicit QmarkNode() ;
+static System::Xml::Schema::QmarkNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x271b2e0 size 0x8 virtual false final false
  void _ctor() ;

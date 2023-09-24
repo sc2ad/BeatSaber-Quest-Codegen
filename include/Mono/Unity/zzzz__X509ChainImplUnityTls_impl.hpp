@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_impl.hpp"
 #include "Mono/Unity/zzzz__X509ChainImplUnityTls_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElementCollection_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainPolicy_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElementCollection_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "Mono/Unity/zzzz__UnityTls_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainPolicy_def.hpp"
 //  Writing Method size for method: Mono::Unity::X509ChainImplUnityTls._ctor
 template<>
 
@@ -208,8 +208,11 @@ constexpr void Mono::Unity::X509ChainImplUnityTls::__set_reverseOrder(bool value
 constexpr bool Mono::Unity::X509ChainImplUnityTls::__get_reverseOrder() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "nativeCertificateChain", ty: "Mono::Unity::Mono__Unity__UnityTls__unitytls_x509list_ref", modifiers: "", def_value: None }, CppParam { name: "reverseOrder", ty: "bool", modifiers: "", def_value: Some("false") }]
- Mono::Unity::X509ChainImplUnityTls::X509ChainImplUnityTls(Mono::Unity::Mono__Unity__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder)  : System::Security::Cryptography::X509Certificates::X509ChainImpl(THROW_UNLESS(::il2cpp_utils::New<X509ChainImplUnityTls>(nativeCertificateChain, reverseOrder))) {}
+/// @param reverseOrder: bool (default: false)
+ Mono::Unity::X509ChainImplUnityTls Mono::Unity::X509ChainImplUnityTls::New_ctor(Mono::Unity::Mono__Unity__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder)  {
+Mono::Unity::X509ChainImplUnityTls o{THROW_UNLESS(::il2cpp_utils::New<Mono::Unity::X509ChainImplUnityTls>(nativeCertificateChain, reverseOrder))};
+return o;
+}
 /// @param reverseOrder: bool (default: false)
  void Mono::Unity::X509ChainImplUnityTls::_ctor(Mono::Unity::Mono__Unity__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

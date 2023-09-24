@@ -47,8 +47,7 @@ constexpr explicit PreserveAttribute(void* ptr) noexcept : System::Attribute(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit PreserveAttribute() ;
+static Newtonsoft::Json::Shims::PreserveAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f2324 size 0x8 virtual false final false
  void _ctor() ;

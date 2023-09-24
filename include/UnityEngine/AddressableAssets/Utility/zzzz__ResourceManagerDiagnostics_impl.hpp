@@ -1,8 +1,7 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/Utility/zzzz__ResourceManagerDiagnostics_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__DiagnosticInfo_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
@@ -141,8 +140,10 @@ constexpr void UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnosti
 constexpr System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::AddressableAssets::Utility::DiagnosticInfo> UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::__get_m_cachedDiagnosticInfo() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::AddressableAssets::Utility::DiagnosticInfo>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "resourceManager", ty: "UnityEngine::ResourceManagement::ResourceManager", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::ResourceManagerDiagnostics(UnityEngine::ResourceManagement::ResourceManager resourceManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceManagerDiagnostics>(resourceManager))) {}
+ UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::New_ctor(UnityEngine::ResourceManagement::ResourceManager resourceManager)  {
+UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics>(resourceManager))};
+return o;
+}
  void UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::_ctor(UnityEngine::ResourceManagement::ResourceManager resourceManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics>::get(),

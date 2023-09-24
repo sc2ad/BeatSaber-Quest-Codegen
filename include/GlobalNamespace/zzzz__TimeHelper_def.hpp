@@ -128,8 +128,7 @@ static void set_interpolationFactor(float_t value) ;
 /// @brief Method __SetTime addr 0x1f74840 size 0x4c virtual false final false
 static void __SetTime(float_t time) ;
 
-// Ctor Parameters []
-explicit TimeHelper() ;
+static GlobalNamespace::TimeHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7488c size 0x8 virtual false final false
  void _ctor() ;

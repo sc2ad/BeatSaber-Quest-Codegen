@@ -55,8 +55,7 @@ static ::ArrayW<uint8_t> ConvertToDefiniteLength(::ArrayW<uint8_t> berPkcs12File
 /// @brief Method ConvertToDefiniteLength addr 0x105a1b8 size 0x46c virtual false final false
 static ::ArrayW<uint8_t> ConvertToDefiniteLength(::ArrayW<uint8_t> berPkcs12File, ::ArrayW<char16_t> passwd) ;
 
-// Ctor Parameters []
-explicit Pkcs12Utilities() ;
+static Org::BouncyCastle::Pkcs::Pkcs12Utilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x105a624 size 0x8 virtual false final false
  void _ctor() ;

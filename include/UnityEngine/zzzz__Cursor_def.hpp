@@ -6,10 +6,10 @@ namespace UnityEngine {
 struct CursorLockMode;
 }
 namespace UnityEngine {
-class Texture2D;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+class Texture2D;
 }
 namespace UnityEngine {
 struct CursorMode;

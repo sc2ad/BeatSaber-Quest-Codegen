@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsManager_def.hpp"
-#include "GlobalNamespace/zzzz__TrackLaneRing_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "GlobalNamespace/zzzz__TrackLaneRing_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TrackLaneRingsManager.get_ringPositionStep
 template<>
 
@@ -212,8 +212,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::TrackLaneRingsManager::TrackLaneRingsManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TrackLaneRingsManager>())) {}
+ GlobalNamespace::TrackLaneRingsManager GlobalNamespace::TrackLaneRingsManager::New_ctor()  {
+GlobalNamespace::TrackLaneRingsManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TrackLaneRingsManager>())};
+return o;
+}
  void GlobalNamespace::TrackLaneRingsManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TrackLaneRingsManager>::get(),

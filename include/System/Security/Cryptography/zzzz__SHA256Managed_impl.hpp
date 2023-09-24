@@ -303,8 +303,10 @@ return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x40>(this->::bs_
  ::ArrayW<uint32_t> System::Security::Cryptography::SHA256Managed::__get__K()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "_K", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::SHA256Managed>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::SHA256Managed::SHA256Managed()  : System::Security::Cryptography::SHA256(THROW_UNLESS(::il2cpp_utils::New<SHA256Managed>())) {}
+ System::Security::Cryptography::SHA256Managed System::Security::Cryptography::SHA256Managed::New_ctor()  {
+System::Security::Cryptography::SHA256Managed o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::SHA256Managed>())};
+return o;
+}
  void System::Security::Cryptography::SHA256Managed::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::SHA256Managed>::get(),

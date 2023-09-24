@@ -7,11 +7,11 @@
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
@@ -84,14 +84,12 @@ constexpr ::ArrayW<uint8_t> __get_certificateHash() const;
 /// @brief Method GetInstance addr 0xee7a40 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertHash(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xee7bc8 size 0x11c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "certificateHash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CertHash(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, ::ArrayW<uint8_t> certificateHash) ;
+static Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, ::ArrayW<uint8_t> certificateHash) ;
 
 /// @brief Method .ctor addr 0xee7ce4 size 0x130 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, ::ArrayW<uint8_t> certificateHash) ;

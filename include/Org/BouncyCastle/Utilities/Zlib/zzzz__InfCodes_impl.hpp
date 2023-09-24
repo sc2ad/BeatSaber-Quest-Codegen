@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__InfCodes_def.hpp"
-#include "Org/BouncyCastle/Utilities/Zlib/zzzz__InfBlocks_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
+#include "Org/BouncyCastle/Utilities/Zlib/zzzz__InfBlocks_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Zlib::InfCodes._ctor
 template<>
 
@@ -177,8 +177,10 @@ constexpr void Org::BouncyCastle::Utilities::Zlib::InfCodes::__set_dtree_index(i
 constexpr int32_t Org::BouncyCastle::Utilities::Zlib::InfCodes::__get_dtree_index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Zlib::InfCodes::InfCodes()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InfCodes>())) {}
+ Org::BouncyCastle::Utilities::Zlib::InfCodes Org::BouncyCastle::Utilities::Zlib::InfCodes::New_ctor()  {
+Org::BouncyCastle::Utilities::Zlib::InfCodes o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::InfCodes>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::InfCodes::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::InfCodes>::get(),

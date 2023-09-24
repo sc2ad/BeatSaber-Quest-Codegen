@@ -83,8 +83,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_exponent() const;
 /// @brief Method Validate addr 0xeab5ac size 0x16c virtual false final false
 static Org::BouncyCastle::Math::BigInteger Validate(Org::BouncyCastle::Math::BigInteger modulus) ;
 
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "modulus", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "exponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit RsaKeyParameters(bool isPrivate, Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger exponent) ;
+static Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters New_ctor(bool isPrivate, Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger exponent) ;
 
 /// @brief Method .ctor addr 0xeab718 size 0x1c8 virtual false final false
  void _ctor(bool isPrivate, Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger exponent) ;

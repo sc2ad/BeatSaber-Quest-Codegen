@@ -776,8 +776,7 @@ static constexpr ::ConstString  HEU_KEY_CTRL{u"Ctrl"};
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_Defines() ;
+static HoudiniEngineUnity::HEU_Defines New_ctor() ;
 
 /// @brief Method .ctor addr 0x2012e4c size 0x8 virtual false final false
  void _ctor() ;

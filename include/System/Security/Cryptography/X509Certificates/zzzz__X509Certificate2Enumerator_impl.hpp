@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Enumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator._ctor
 template<>
 
@@ -115,8 +115,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509Certificate
 constexpr System::Collections::IEnumerator System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::__get_enumerator() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "collection", ty: "System::Security::Cryptography::X509Certificates::X509Certificate2Collection", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::X509Certificate2Enumerator(System::Security::Cryptography::X509Certificates::X509Certificate2Collection collection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2Enumerator>(collection))) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection collection)  {
+System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator>(collection))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection collection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator>::get(),

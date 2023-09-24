@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMethodRef_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::CADMethodRef.GetTypes
 template<>
 
@@ -102,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodBase, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "msg", ty: "System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::CADMethodRef::CADMethodRef(System::Runtime::Remoting::Messaging::IMethodMessage msg)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CADMethodRef>(msg))) {}
+ System::Runtime::Remoting::Messaging::CADMethodRef System::Runtime::Remoting::Messaging::CADMethodRef::New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage msg)  {
+System::Runtime::Remoting::Messaging::CADMethodRef o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::CADMethodRef>(msg))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::CADMethodRef::_ctor(System::Runtime::Remoting::Messaging::IMethodMessage msg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::CADMethodRef>::get(),

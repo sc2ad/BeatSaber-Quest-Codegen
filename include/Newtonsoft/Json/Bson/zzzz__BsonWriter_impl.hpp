@@ -1,18 +1,18 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonWriter_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonWriter_def.hpp"
-#include "System/zzzz__DateTimeKind_def.hpp"
-#include "Newtonsoft/Json/Bson/zzzz__BsonType_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
-#include "Newtonsoft/Json/Bson/zzzz__BsonBinaryWriter_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
-#include "System/IO/zzzz__BinaryWriter_def.hpp"
+#include "System/zzzz__DateTimeKind_def.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonToken_def.hpp"
+#include "Newtonsoft/Json/Bson/zzzz__BsonType_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
+#include "System/IO/zzzz__BinaryWriter_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Newtonsoft/Json/Bson/zzzz__BsonBinaryWriter_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Bson::BsonWriter.get_DateTimeKindHandling
 template<>
@@ -787,8 +787,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonWriter::BsonWriter(System::IO::Stream stream)  : Newtonsoft::Json::JsonWriter(THROW_UNLESS(::il2cpp_utils::New<BsonWriter>(stream))) {}
+ Newtonsoft::Json::Bson::BsonWriter Newtonsoft::Json::Bson::BsonWriter::New_ctor(System::IO::Stream stream)  {
+Newtonsoft::Json::Bson::BsonWriter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonWriter>(stream))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonWriter::_ctor(System::IO::Stream stream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonWriter>::get(),
@@ -798,8 +800,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream);
 }
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::BinaryWriter", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonWriter::BsonWriter(System::IO::BinaryWriter writer)  : Newtonsoft::Json::JsonWriter(THROW_UNLESS(::il2cpp_utils::New<BsonWriter>(writer))) {}
+ Newtonsoft::Json::Bson::BsonWriter Newtonsoft::Json::Bson::BsonWriter::New_ctor(System::IO::BinaryWriter writer)  {
+Newtonsoft::Json::Bson::BsonWriter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonWriter>(writer))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonWriter::_ctor(System::IO::BinaryWriter writer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonWriter>::get(),

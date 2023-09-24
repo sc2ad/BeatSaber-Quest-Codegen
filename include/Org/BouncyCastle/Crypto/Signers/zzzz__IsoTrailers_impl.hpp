@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__IsoTrailers_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::IsoTrailers.CreateTrailerMap
 template<>
 
@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, digest);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Signers::IsoTrailers::IsoTrailers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IsoTrailers>())) {}
+ Org::BouncyCastle::Crypto::Signers::IsoTrailers Org::BouncyCastle::Crypto::Signers::IsoTrailers::New_ctor()  {
+Org::BouncyCastle::Crypto::Signers::IsoTrailers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::IsoTrailers>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::IsoTrailers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::IsoTrailers>::get(),

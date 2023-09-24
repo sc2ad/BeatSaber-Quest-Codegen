@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__OVRFace_def.hpp"
 #include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
 #include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRFace.get_FaceExpressions
 template<>
 
@@ -221,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__OVRFaceExpressions__FaceExpression, false>(const_cast<void*>(instance), ___internal_method, blendShapeIndex);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRFace::OVRFace()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRFace>())) {}
+ GlobalNamespace::OVRFace GlobalNamespace::OVRFace::New_ctor()  {
+GlobalNamespace::OVRFace o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRFace>())};
+return o;
+}
  void GlobalNamespace::OVRFace::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRFace>::get(),

@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace ENet {
-class PacketFreeCallback;
-}
 namespace System {
 class IDisposable;
+}
+namespace ENet {
+class PacketFreeCallback;
 }
 namespace ENet {
 struct PacketFlags;

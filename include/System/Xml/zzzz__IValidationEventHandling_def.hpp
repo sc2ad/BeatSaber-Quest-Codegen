@@ -1,10 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace System {
-class Exception;
-}
 namespace System::Xml::Schema {
 struct XmlSeverityType;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml {

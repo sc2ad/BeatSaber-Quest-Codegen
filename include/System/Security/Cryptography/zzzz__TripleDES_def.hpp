@@ -72,8 +72,7 @@ static ::ArrayW<System::Security::Cryptography::KeySizes> __get_s_legalKeySizes(
 
 // Methods
 
-// Ctor Parameters []
-explicit TripleDES() ;
+static System::Security::Cryptography::TripleDES New_ctor() ;
 
 /// @brief Method .ctor addr 0x22ffbc0 size 0x88 virtual false final false
  void _ctor() ;

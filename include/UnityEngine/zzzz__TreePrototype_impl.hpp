@@ -217,8 +217,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::TreePrototype::TreePrototype()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TreePrototype>())) {}
+ UnityEngine::TreePrototype UnityEngine::TreePrototype::New_ctor()  {
+UnityEngine::TreePrototype o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TreePrototype>())};
+return o;
+}
  void UnityEngine::TreePrototype::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TreePrototype>::get(),

@@ -1,5 +1,6 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__ThreadedSeedGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/Prng/zzzz__ThreadedSeedGenerator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator.Run
 template<>
 
@@ -107,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method, numBytes, fast);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator>())) {}
+ Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator>::get(),
@@ -161,8 +164,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method, numBytes, fast);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::ThreadedSeedGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ThreadedSeedGenerator>())) {}
+ Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator>::get(),

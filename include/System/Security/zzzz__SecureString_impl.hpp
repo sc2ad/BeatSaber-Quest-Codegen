@@ -159,8 +159,10 @@ constexpr void System::Security::SecureString::__set_data(::ArrayW<uint8_t> valu
 constexpr ::ArrayW<uint8_t> System::Security::SecureString::__get_data() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::SecureString::SecureString()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SecureString>())) {}
+ System::Security::SecureString System::Security::SecureString::New_ctor()  {
+System::Security::SecureString o{THROW_UNLESS(::il2cpp_utils::New<System::Security::SecureString>())};
+return o;
+}
  void System::Security::SecureString::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::SecureString>::get(),
@@ -170,8 +172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::SecureString::SecureString(void* value, int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SecureString>(value, length))) {}
+ System::Security::SecureString System::Security::SecureString::New_ctor(void* value, int32_t length)  {
+System::Security::SecureString o{THROW_UNLESS(::il2cpp_utils::New<System::Security::SecureString>(value, length))};
+return o;
+}
  void System::Security::SecureString::_ctor(void* value, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::SecureString>::get(),

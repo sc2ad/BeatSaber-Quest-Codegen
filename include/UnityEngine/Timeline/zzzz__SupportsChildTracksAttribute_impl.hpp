@@ -31,8 +31,12 @@ constexpr void UnityEngine::Timeline::SupportsChildTracksAttribute::__set_levels
 constexpr int32_t UnityEngine::Timeline::SupportsChildTracksAttribute::__get_levels() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "childType", ty: "System::Type", modifiers: "", def_value: Some("csnull") }, CppParam { name: "levels", ty: "int32_t", modifiers: "", def_value: Some("2147483647") }]
- UnityEngine::Timeline::SupportsChildTracksAttribute::SupportsChildTracksAttribute(System::Type childType, int32_t levels)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<SupportsChildTracksAttribute>(childType, levels))) {}
+/// @param childType: System::Type (default: csnull)
+/// @param levels: int32_t (default: 2147483647)
+ UnityEngine::Timeline::SupportsChildTracksAttribute UnityEngine::Timeline::SupportsChildTracksAttribute::New_ctor(System::Type childType, int32_t levels)  {
+UnityEngine::Timeline::SupportsChildTracksAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::SupportsChildTracksAttribute>(childType, levels))};
+return o;
+}
 /// @param childType: System::Type (default: csnull)
 /// @param levels: int32_t (default: 2147483647)
  void UnityEngine::Timeline::SupportsChildTracksAttribute::_ctor(System::Type childType, int32_t levels)  {

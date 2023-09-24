@@ -8,31 +8,43 @@
 #include <cstdint>
 namespace System {
 template<typename T>
-class IEquatable_1;
+struct Span_1;
+}
+namespace System {
+struct System__Guid__GuidParseThrowStyle;
+}
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 class ISpanFormattable;
 }
 namespace System {
-template<typename T>
-struct Span_1;
+class IFormattable;
 }
 namespace System {
-class IComparable;
-}
-namespace System {
-class IFormatProvider;
+struct System__Guid__GuidResult;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
 namespace System {
+struct System__Guid__ParseFailureKind;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+struct System__Guid__GuidStyles;
+}
+namespace System {
 template<typename T>
 class IComparable_1;
 }
 namespace System {
-class IFormattable;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Exception;
@@ -115,6 +127,8 @@ __Any = 15,
 constexpr operator __System__Guid__GuidStyles_Unwrapped () const noexcept {
 return std::bit_cast<__System__Guid__GuidStyles_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -225,6 +239,8 @@ constexpr operator __System__Guid__GuidParseThrowStyle_Unwrapped () const noexce
 return std::bit_cast<__System__Guid__GuidParseThrowStyle_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -300,6 +316,8 @@ __FormatWithInnerException = 5,
 constexpr operator __System__Guid__ParseFailureKind_Unwrapped () const noexcept {
 return std::bit_cast<__System__Guid__ParseFailureKind_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

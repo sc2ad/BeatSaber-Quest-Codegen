@@ -2,19 +2,20 @@
 #include "System/Net/zzzz__WebConnectionStream_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__WebRequestStream_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "System/Net/zzzz__WebRequestStream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Net/zzzz__WebCompletionSource_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "System/Net/zzzz__BufferOffsetSize_def.hpp"
 #include "System/Net/zzzz__WebOperation_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
 #include "System/Net/zzzz__WebConnection_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
@@ -1312,8 +1313,10 @@ constexpr void System::Net::WebRequestStream::__set__KeepAlive_k__BackingField(b
 constexpr bool System::Net::WebRequestStream::__get__KeepAlive_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "connection", ty: "System::Net::WebConnection", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tunnel", ty: "System::Net::WebConnectionTunnel", modifiers: "", def_value: None }]
- System::Net::WebRequestStream::WebRequestStream(System::Net::WebConnection connection, System::Net::WebOperation operation, System::IO::Stream stream, System::Net::WebConnectionTunnel tunnel)  : System::Net::WebConnectionStream(THROW_UNLESS(::il2cpp_utils::New<WebRequestStream>(connection, operation, stream, tunnel))) {}
+ System::Net::WebRequestStream System::Net::WebRequestStream::New_ctor(System::Net::WebConnection connection, System::Net::WebOperation operation, System::IO::Stream stream, System::Net::WebConnectionTunnel tunnel)  {
+System::Net::WebRequestStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebRequestStream>(connection, operation, stream, tunnel))};
+return o;
+}
  void System::Net::WebRequestStream::_ctor(System::Net::WebConnection connection, System::Net::WebOperation operation, System::IO::Stream stream, System::Net::WebConnectionTunnel tunnel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebRequestStream>::get(),

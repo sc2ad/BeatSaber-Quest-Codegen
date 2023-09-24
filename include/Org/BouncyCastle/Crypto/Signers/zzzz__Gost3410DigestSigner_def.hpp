@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IDsa;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDsa;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -103,8 +103,7 @@ constexpr bool __get_forSigning() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::IDsa", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit Gost3410DigestSigner(Org::BouncyCastle::Crypto::IDsa signer, Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner New_ctor(Org::BouncyCastle::Crypto::IDsa signer, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xebee74 size 0xcc virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDsa signer, Org::BouncyCastle::Crypto::IDigest digest) ;

@@ -42,8 +42,10 @@ constexpr void System::Diagnostics::SwitchLevelAttribute::__set_type(System::Typ
 constexpr System::Type System::Diagnostics::SwitchLevelAttribute::__get_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "switchLevelType", ty: "System::Type", modifiers: "", def_value: None }]
- System::Diagnostics::SwitchLevelAttribute::SwitchLevelAttribute(System::Type switchLevelType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<SwitchLevelAttribute>(switchLevelType))) {}
+ System::Diagnostics::SwitchLevelAttribute System::Diagnostics::SwitchLevelAttribute::New_ctor(System::Type switchLevelType)  {
+System::Diagnostics::SwitchLevelAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::SwitchLevelAttribute>(switchLevelType))};
+return o;
+}
  void System::Diagnostics::SwitchLevelAttribute::_ctor(System::Type switchLevelType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::SwitchLevelAttribute>::get(),

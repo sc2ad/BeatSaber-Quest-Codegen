@@ -5,31 +5,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
 class ICloneable;
-}
-namespace System {
-class DelegateData;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 namespace System {
 class MulticastDelegate;
 }
 namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Type;
+}
+namespace System::Reflection {
 struct BindingFlags;
+}
+namespace System {
+class DelegateData;
 }
 // Forward declare root types
 namespace System {

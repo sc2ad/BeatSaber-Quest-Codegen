@@ -5,81 +5,84 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 namespace UnityEngine::UIElements {
-struct Justify;
-}
-namespace UnityEngine::UIElements {
-struct StyleTextShadow;
-}
-namespace UnityEngine::UIElements {
-struct StyleTranslate;
-}
-namespace UnityEngine::UIElements {
-class StyleRule;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements {
-struct Position;
-}
-namespace UnityEngine::UIElements {
-class IStyle;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StyleValue;
-}
-namespace UnityEngine::UIElements {
-struct ComputedStyle;
-}
-namespace UnityEngine::UIElements {
-struct StyleColor;
-}
-namespace UnityEngine::UIElements {
-struct StyleScale;
-}
-namespace UnityEngine::UIElements {
-struct FlexDirection;
-}
-namespace UnityEngine::UIElements {
-struct StyleFloat;
-}
-namespace UnityEngine::UIElements {
-template<typename T>
-struct StyleEnum_1;
+struct DisplayStyle;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StyleValueManaged;
 }
 namespace UnityEngine::UIElements {
-struct StyleTransformOrigin;
+struct StyleTranslate;
+}
+namespace UnityEngine::UIElements {
+struct StyleColor;
+}
+namespace UnityEngine::UIElements {
+struct FlexDirection;
+}
+namespace UnityEngine::UIElements {
+struct StyleRotate;
+}
+namespace UnityEngine::UIElements {
+struct Justify;
+}
+namespace UnityEngine::UIElements {
+class IStyle;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+struct StyleEnum_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleTextShadow;
+}
+namespace UnityEngine::UIElements {
+struct Visibility;
+}
+namespace UnityEngine::UIElements {
+struct ComputedStyle;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-struct StyleLength;
+class StyleRule;
 }
-namespace UnityEngine::UIElements {
-struct StyleRotate;
-}
-namespace UnityEngine::UIElements {
-struct StyleCursor;
-}
-namespace UnityEngine::UIElements {
-struct Visibility;
+namespace UnityEngine::UIElements::StyleSheets {
+struct StyleValue;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct DisplayStyle;
+struct Position;
+}
+namespace UnityEngine::UIElements {
+struct StyleScale;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 class StylePropertyReader;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace UnityEngine::UIElements {
+struct StyleFloat;
+}
+namespace UnityEngine::UIElements {
+struct StyleCursor;
+}
+namespace UnityEngine::UIElements {
+struct StyleTransformOrigin;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__InlineStyleAccess__InlineRule;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
+}
+namespace UnityEngine::UIElements {
+struct StyleLength;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -404,8 +407,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__InlineStyleAccess__I
 /// @brief Method set_ve addr 0x2cfabb4 size 0x8 virtual false final false
  void set_ve(UnityEngine::UIElements::VisualElement value) ;
 
-// Ctor Parameters [CppParam { name: "ve", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }]
-explicit InlineStyleAccess(UnityEngine::UIElements::VisualElement ve) ;
+static UnityEngine::UIElements::InlineStyleAccess New_ctor(UnityEngine::UIElements::VisualElement ve) ;
 
 /// @brief Method .ctor addr 0x2cfabbc size 0x24 virtual false final false
  void _ctor(UnityEngine::UIElements::VisualElement ve) ;

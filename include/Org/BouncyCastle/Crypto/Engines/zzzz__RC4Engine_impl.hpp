@@ -209,8 +209,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyBytes);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::RC4Engine::RC4Engine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RC4Engine>())) {}
+ Org::BouncyCastle::Crypto::Engines::RC4Engine Org::BouncyCastle::Crypto::Engines::RC4Engine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::RC4Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::RC4Engine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::RC4Engine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::RC4Engine>::get(),

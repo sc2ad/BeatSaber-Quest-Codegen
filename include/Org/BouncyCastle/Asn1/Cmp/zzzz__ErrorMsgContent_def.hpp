@@ -3,19 +3,19 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiStatusInfo;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiFreeText;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiFreeText;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -93,8 +93,7 @@ constexpr Org::BouncyCastle::Asn1::Cmp::PkiFreeText __get_errorDetails() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ErrorMsgContent(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdd9e10 size 0x11c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -102,14 +101,12 @@ explicit ErrorMsgContent(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xdda0b4 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "pkiStatusInfo", ty: "Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo", modifiers: "", def_value: None }]
-explicit ErrorMsgContent(Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo pkiStatusInfo) ;
+static Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo pkiStatusInfo) ;
 
 /// @brief Method .ctor addr 0xdda23c size 0xc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo pkiStatusInfo) ;
 
-// Ctor Parameters [CppParam { name: "pkiStatusInfo", ty: "Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo", modifiers: "", def_value: None }, CppParam { name: "errorCode", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "errorDetails", ty: "Org::BouncyCastle::Asn1::Cmp::PkiFreeText", modifiers: "", def_value: None }]
-explicit ErrorMsgContent(Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo pkiStatusInfo, Org::BouncyCastle::Asn1::DerInteger errorCode, Org::BouncyCastle::Asn1::Cmp::PkiFreeText errorDetails) ;
+static Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo pkiStatusInfo, Org::BouncyCastle::Asn1::DerInteger errorCode, Org::BouncyCastle::Asn1::Cmp::PkiFreeText errorDetails) ;
 
 /// @brief Method .ctor addr 0xdda248 size 0x8c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo pkiStatusInfo, Org::BouncyCastle::Asn1::DerInteger errorCode, Org::BouncyCastle::Asn1::Cmp::PkiFreeText errorDetails) ;

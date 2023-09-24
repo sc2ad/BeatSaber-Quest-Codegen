@@ -73,8 +73,7 @@ constexpr int32_t __get_order() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit XmlElementAttribute(::StringW elementName, System::Type type) ;
+static System::Xml::Serialization::XmlElementAttribute New_ctor(::StringW elementName, System::Type type) ;
 
 /// @brief Method .ctor addr 0x271858c size 0x34 virtual false final false
  void _ctor(::StringW elementName, System::Type type) ;

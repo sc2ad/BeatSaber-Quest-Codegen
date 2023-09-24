@@ -3,20 +3,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Color32;
+namespace TMPro {
+struct HighlightState;
 }
 namespace TMPro {
-class TMP_FontAsset;
-}
-namespace TMPro {
-class TMP_TextElement;
-}
-namespace TMPro {
-class TMP_SpriteAsset;
-}
-namespace UnityEngine {
-struct Vector3;
+struct TMP_TextElementType;
 }
 namespace UnityEngine {
 class Material;
@@ -25,13 +16,22 @@ namespace TMPro {
 struct TMP_Vertex;
 }
 namespace TMPro {
-struct HighlightState;
+class TMP_SpriteAsset;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace TMPro {
+class TMP_TextElement;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace TMPro {
 struct FontStyles;
 }
 namespace TMPro {
-struct TMP_TextElementType;
+class TMP_FontAsset;
 }
 // Forward declare root types
 namespace TMPro {

@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__TaskUpdater_1_impl.hpp"
 #include "Zenject/zzzz__FixedTickablesTaskUpdater_def.hpp"
-#include "Zenject/zzzz__IFixedTickable_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__IFixedTickable_def.hpp"
 //  Writing Method size for method: Zenject::FixedTickablesTaskUpdater.UpdateItem
 template<>
 
@@ -80,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, task);
 }
-// Ctor Parameters []
- Zenject::FixedTickablesTaskUpdater::FixedTickablesTaskUpdater()  : Zenject::TaskUpdater_1<Zenject::IFixedTickable>(THROW_UNLESS(::il2cpp_utils::New<FixedTickablesTaskUpdater>())) {}
+ Zenject::FixedTickablesTaskUpdater Zenject::FixedTickablesTaskUpdater::New_ctor()  {
+Zenject::FixedTickablesTaskUpdater o{THROW_UNLESS(::il2cpp_utils::New<Zenject::FixedTickablesTaskUpdater>())};
+return o;
+}
  void Zenject::FixedTickablesTaskUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::FixedTickablesTaskUpdater>::get(),

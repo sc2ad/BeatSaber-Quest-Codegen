@@ -56,6 +56,8 @@ constexpr operator __EVROverlayIntersectionMaskPrimitiveType_Unwrapped () const 
 return std::bit_cast<__EVROverlayIntersectionMaskPrimitiveType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

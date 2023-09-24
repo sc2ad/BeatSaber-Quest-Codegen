@@ -82,8 +82,7 @@ constexpr UnityEngine::Color __get__addColor() const;
 /// @brief Method get_color addr 0x11a3648 size 0x68 virtual true final false
  UnityEngine::Color get_color() ;
 
-// Ctor Parameters []
-explicit MultipliedAndAddedColorSO() ;
+static GlobalNamespace::MultipliedAndAddedColorSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a36b0 size 0x8 virtual false final false
  void _ctor() ;

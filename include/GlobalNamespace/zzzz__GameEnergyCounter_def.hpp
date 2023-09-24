@@ -6,14 +6,10 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-template<typename T>
-class Action_1;
+class Action;
 }
 namespace GlobalNamespace {
-class IGameEnergyCounter;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
+struct NoteCutInfo;
 }
 namespace GlobalNamespace {
 class NoteController;
@@ -21,17 +17,24 @@ class NoteController;
 namespace GlobalNamespace {
 class SaberClashChecker;
 }
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class IGameEnergyCounter;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameEnergyCounter__InitData;
+}
 namespace GlobalNamespace {
 class PlayerHeadAndObstacleInteraction;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__GameplayModifiers__EnergyType;
 }
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
-struct NoteCutInfo;
+class BeatmapObjectManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +112,7 @@ constexpr bool __get_failOnSaberClash() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "energyType", ty: "GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType", modifiers: "", def_value: None }, CppParam { name: "noFail", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instaFail", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "failOnSaberClash", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__GameEnergyCounter__InitData(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash) ;
+static GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData New_ctor(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash) ;
 
 /// @brief Method .ctor addr 0x2107e98 size 0x48 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash) ;
@@ -383,8 +385,7 @@ constexpr float_t __get__nextFrameEnergyChange() const;
 /// @brief Method ProcessEnergyChange addr 0x2107ae4 size 0xf0 virtual false final false
  void ProcessEnergyChange(float_t energyChange) ;
 
-// Ctor Parameters []
-explicit GameEnergyCounter() ;
+static GlobalNamespace::GameEnergyCounter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2107e80 size 0x18 virtual false final false
  void _ctor() ;

@@ -4,44 +4,44 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Bcpg {
-class PublicKeyPacket;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpUserAttributeSubpacketVector;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPublicKeyParameters;
-}
-namespace Org::BouncyCastle::Bcpg {
-class TrustPacket;
-}
 namespace System {
 struct DateTime;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignature;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Bcpg {
+class TrustPacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+class PublicKeyPacket;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpUserAttributeSubpacketVector;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignature;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPublicKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -188,44 +188,37 @@ static void UpdateDigest(Org::BouncyCastle::Crypto::IDigest d, Org::BouncyCastle
 /// @brief Method Init addr 0x1027244 size 0x320 virtual false final false
  void Init() ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit PgpPublicKey(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, System::DateTime time) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, System::DateTime time) ;
 
 /// @brief Method .ctor addr 0x1021758 size 0x4f0 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, System::DateTime time) ;
 
-// Ctor Parameters [CppParam { name: "publicPk", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }]
-explicit PgpPublicKey(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey New_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk) ;
 
 /// @brief Method .ctor addr 0x1027564 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk) ;
 
-// Ctor Parameters [CppParam { name: "publicPk", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "trustPk", ty: "Org::BouncyCastle::Bcpg::TrustPacket", modifiers: "", def_value: None }, CppParam { name: "sigs", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit PgpPublicKey(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList sigs) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey New_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList sigs) ;
 
 /// @brief Method .ctor addr 0x102769c size 0xb4 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList sigs) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey", modifiers: "", def_value: None }, CppParam { name: "trust", ty: "Org::BouncyCastle::Bcpg::TrustPacket", modifiers: "", def_value: None }, CppParam { name: "subSigs", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit PgpPublicKey(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key, Org::BouncyCastle::Bcpg::TrustPacket trust, System::Collections::IList subSigs) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key, Org::BouncyCastle::Bcpg::TrustPacket trust, System::Collections::IList subSigs) ;
 
 /// @brief Method .ctor addr 0x1023254 size 0xcc virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key, Org::BouncyCastle::Bcpg::TrustPacket trust, System::Collections::IList subSigs) ;
 
-// Ctor Parameters [CppParam { name: "pubKey", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey", modifiers: "", def_value: None }]
-explicit PgpPublicKey(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
 
 /// @brief Method .ctor addr 0x102384c size 0x508 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey) ;
 
-// Ctor Parameters [CppParam { name: "publicPk", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "trustPk", ty: "Org::BouncyCastle::Bcpg::TrustPacket", modifiers: "", def_value: None }, CppParam { name: "keySigs", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "ids", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "idTrusts", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "idSigs", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit PgpPublicKey(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList keySigs, System::Collections::IList ids, System::Collections::IList idTrusts, System::Collections::IList idSigs) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey New_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList keySigs, System::Collections::IList ids, System::Collections::IList idTrusts, System::Collections::IList idSigs) ;
 
 /// @brief Method .ctor addr 0x1027750 size 0xcc virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList keySigs, System::Collections::IList ids, System::Collections::IList idTrusts, System::Collections::IList idSigs) ;
 
-// Ctor Parameters [CppParam { name: "publicPk", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "ids", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "idSigs", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit PgpPublicKey(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, System::Collections::IList ids, System::Collections::IList idSigs) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey New_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, System::Collections::IList ids, System::Collections::IList idSigs) ;
 
 /// @brief Method .ctor addr 0x10275e4 size 0xb8 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, System::Collections::IList ids, System::Collections::IList idSigs) ;

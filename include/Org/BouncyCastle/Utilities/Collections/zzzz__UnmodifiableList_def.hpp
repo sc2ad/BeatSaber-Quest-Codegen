@@ -3,12 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
@@ -16,6 +10,12 @@ class IEnumerable;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -87,8 +87,7 @@ constexpr explicit UnmodifiableList(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Methods
 
-// Ctor Parameters []
-explicit UnmodifiableList() ;
+static Org::BouncyCastle::Utilities::Collections::UnmodifiableList New_ctor() ;
 
 /// @brief Method .ctor addr 0x10ce758 size 0x8 virtual false final false
  void _ctor() ;

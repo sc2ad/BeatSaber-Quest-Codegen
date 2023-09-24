@@ -47,8 +47,7 @@ constexpr explicit ProvidesContextAttribute(void* ptr) noexcept : System::Attrib
 
 // Methods
 
-// Ctor Parameters []
-explicit ProvidesContextAttribute() ;
+static JetBrains::Annotations::ProvidesContextAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40e78 size 0x8 virtual false final false
  void _ctor() ;

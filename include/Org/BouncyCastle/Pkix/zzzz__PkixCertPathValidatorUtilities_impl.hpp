@@ -1,32 +1,32 @@
 #pragma once
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathValidatorUtilities_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__CrlDistPoint_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509Extension_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixBuilderParameters_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Crl_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixCrlUtilities_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixPolicyNode_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__CertStatus_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__CrlDistPoint_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixPolicyNode_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DistributionPoint_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__X509AttrCertStoreSelector_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__TrustAnchor_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__X509CrlStoreSelector_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__X509CertStoreSelector_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__X509AttrCertStoreSelector_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixBuilderParameters_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509Extension_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixCrlUtilities_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Crl_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__CertStatus_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__X509CertStoreSelector_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__X509CrlStoreSelector_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities.FindTrustAnchor
 template<>
 
@@ -834,8 +834,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Asn1Object, false>(nullptr, ___internal_method, ext, oid);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities::PkixCertPathValidatorUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixCertPathValidatorUtilities>())) {}
+ Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities::New_ctor()  {
+Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities>::get(),

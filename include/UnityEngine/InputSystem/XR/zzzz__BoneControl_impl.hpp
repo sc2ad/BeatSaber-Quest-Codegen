@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__BoneControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
-#include "UnityEngine/InputSystem/XR/zzzz__Bone_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
+#include "UnityEngine/InputSystem/XR/zzzz__Bone_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::XR::BoneControl.get_parentBoneIndex
 template<>
 
@@ -274,8 +274,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value, statePtr);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::XR::BoneControl::BoneControl()  : UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::XR::Bone>(THROW_UNLESS(::il2cpp_utils::New<BoneControl>())) {}
+ UnityEngine::InputSystem::XR::BoneControl UnityEngine::InputSystem::XR::BoneControl::New_ctor()  {
+UnityEngine::InputSystem::XR::BoneControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::XR::BoneControl>())};
+return o;
+}
  void UnityEngine::InputSystem::XR::BoneControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::XR::BoneControl>::get(),

@@ -9,27 +9,35 @@ class Func_2;
 namespace UnityEngine::UI {
 class InputField;
 }
+namespace GlobalNamespace {
+class IObservableChange;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4>
 class Tuple_4;
+}
+namespace System {
+class Action;
+}
+namespace HMUI {
+template<typename T0,typename T1>
+class HMUI__InputFieldDataBinder____c__DisplayClass2_0_2;
 }
 namespace UnityEngine::Events {
 template<typename T0>
 class UnityAction_1;
 }
 namespace System {
-class Action;
-}
-namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
 }
-namespace System::Collections::Generic {
+namespace HMUI {
 template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-class IObservableChange;
+class HMUI__InputFieldDataBinder____c__3_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -110,8 +118,7 @@ constexpr System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::
 
 // Methods
 
-// Ctor Parameters []
-explicit InputFieldDataBinder() ;
+static HMUI::InputFieldDataBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa5e64 size 0x80 virtual false final false
  void _ctor() ;
@@ -202,8 +209,7 @@ constexpr System::Func_2<T1,::StringW> __get_toStringConvertor() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__InputFieldDataBinder____c__DisplayClass2_0_2() ;
+static HMUI::HMUI__InputFieldDataBinder____c__DisplayClass2_0_2<T0,T1> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -277,8 +283,7 @@ static System::Func_2<::StringW,::StringW> __get___9__3_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__InputFieldDataBinder____c__3_1() ;
+static HMUI::HMUI__InputFieldDataBinder____c__3_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

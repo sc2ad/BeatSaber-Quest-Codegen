@@ -5,31 +5,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
-}
-namespace Mono::Security::X509 {
-class X509Certificate;
-}
-namespace System::Security::Cryptography {
-class DSA;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImplCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
+struct X509KeyStorageFlags;
 }
-namespace Microsoft::Win32::SafeHandles {
-class SafePasswordHandle;
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateImpl;
 }
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
 class RSA;
+}
+namespace Mono::Security::X509 {
+class X509Certificate;
+}
+namespace Microsoft::Win32::SafeHandles {
+class SafePasswordHandle;
+}
+namespace System::Security::Cryptography {
+class DSA;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -122,20 +122,17 @@ static ::ArrayW<uint8_t> __get_signedData() ;
 /// @brief Method get_IsValid addr 0x27eac1c size 0x10 virtual true final false
  bool get_IsValid() ;
 
-// Ctor Parameters [CppParam { name: "cert", ty: "Mono::Security::X509::X509Certificate", modifiers: "", def_value: None }]
-explicit X509Certificate2ImplMono(Mono::Security::X509::X509Certificate cert) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono New_ctor(Mono::Security::X509::X509Certificate cert) ;
 
 /// @brief Method .ctor addr 0x27eac2c size 0x28 virtual false final false
  void _ctor(Mono::Security::X509::X509Certificate cert) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono", modifiers: "", def_value: None }]
-explicit X509Certificate2ImplMono(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono other) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono other) ;
 
 /// @brief Method .ctor addr 0x27eac5c size 0x44 virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono other) ;
 
-// Ctor Parameters [CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "Microsoft::Win32::SafeHandles::SafePasswordHandle", modifiers: "", def_value: None }, CppParam { name: "keyStorageFlags", ty: "System::Security::Cryptography::X509Certificates::X509KeyStorageFlags", modifiers: "", def_value: None }]
-explicit X509Certificate2ImplMono(::ArrayW<uint8_t> rawData, Microsoft::Win32::SafeHandles::SafePasswordHandle password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono New_ctor(::ArrayW<uint8_t> rawData, Microsoft::Win32::SafeHandles::SafePasswordHandle password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
 
 /// @brief Method .ctor addr 0x27ead00 size 0x15c virtual false final false
  void _ctor(::ArrayW<uint8_t> rawData, Microsoft::Win32::SafeHandles::SafePasswordHandle password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;

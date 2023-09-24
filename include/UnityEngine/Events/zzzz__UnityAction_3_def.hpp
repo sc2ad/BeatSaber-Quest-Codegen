@@ -9,27 +9,27 @@ template<typename T0,typename T1,typename T2>
 class UnityAction_3;
 }
 namespace UnityEngine::Events {
-template<::cordl_internals::il2cpp_reference_type T0>
-class UnityAction_3<T0,int32_t,int32_t>;
-}
-namespace UnityEngine::Events {
-template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T2>
-class UnityAction_3<T0,bool,T2>;
+template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::is_or_is_backed_by<int32_t> T1,::cordl_internals::is_or_is_backed_by<int32_t> T2>
+class UnityAction_3<T0,T1,T2>;
 }
 namespace UnityEngine::Events {
 template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2>
 class UnityAction_3<T0,T1,T2>;
 }
+namespace UnityEngine::Events {
+template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T2>
+class UnityAction_3<T0,bool,T2>;
+}
 // Type: UnityEngine.Events::UnityAction`3
 // Type: UnityEngine.Events::UnityAction`3
 namespace UnityEngine::Events {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T0>
+template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10402)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10402), inst: 5153 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(10402))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10402), inst: 7476 })
 // CS Name: UnityEngine.Events.UnityAction`3
-class CORDL_TYPE UnityAction_3<T0,int32_t,int32_t> : public System::MulticastDelegate {
+class CORDL_TYPE UnityAction_3<T0,bool,T2> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -65,14 +65,13 @@ constexpr explicit UnityAction_3(void* ptr) noexcept : System::MulticastDelegate
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityAction_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::Events::UnityAction_3<T0,bool,T2> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void Invoke(T0 arg0, int32_t arg1, int32_t arg2) ;
+ void Invoke(T0 arg0, bool arg1, T2 arg2) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -122,8 +121,7 @@ constexpr explicit UnityAction_3(void* ptr) noexcept : System::MulticastDelegate
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityAction_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::Events::UnityAction_3<T0,T1,T2> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -138,12 +136,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.Events::UnityAction`3
 namespace UnityEngine::Events {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T2>
+template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::is_or_is_backed_by<int32_t> T1,::cordl_internals::is_or_is_backed_by<int32_t> T2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(10402))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10402), inst: 7476 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10402)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10402), inst: 5153 })
 // CS Name: UnityEngine.Events.UnityAction`3
-class CORDL_TYPE UnityAction_3<T0,bool,T2> : public System::MulticastDelegate {
+class CORDL_TYPE UnityAction_3<T0,T1,T2> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -179,14 +177,13 @@ constexpr explicit UnityAction_3(void* ptr) noexcept : System::MulticastDelegate
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityAction_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::Events::UnityAction_3<T0,T1,T2> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
- void Invoke(T0 arg0, bool arg1, T2 arg2) ;
+ void Invoke(T0 arg0, T1 arg1, T2 arg2) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

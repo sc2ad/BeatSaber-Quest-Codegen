@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__OperationCanceledException_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCanceledException_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::TaskCanceledException._ctor
 template<>
@@ -78,8 +78,10 @@ constexpr void System::Threading::Tasks::TaskCanceledException::__set__canceledT
 constexpr System::Threading::Tasks::Task System::Threading::Tasks::TaskCanceledException::__get__canceledTask() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Threading::Tasks::TaskCanceledException::TaskCanceledException()  : System::OperationCanceledException(THROW_UNLESS(::il2cpp_utils::New<TaskCanceledException>())) {}
+ System::Threading::Tasks::TaskCanceledException System::Threading::Tasks::TaskCanceledException::New_ctor()  {
+System::Threading::Tasks::TaskCanceledException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskCanceledException>())};
+return o;
+}
  void System::Threading::Tasks::TaskCanceledException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskCanceledException>::get(),
@@ -89,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Threading::Tasks::TaskCanceledException::TaskCanceledException(::StringW message)  : System::OperationCanceledException(THROW_UNLESS(::il2cpp_utils::New<TaskCanceledException>(message))) {}
+ System::Threading::Tasks::TaskCanceledException System::Threading::Tasks::TaskCanceledException::New_ctor(::StringW message)  {
+System::Threading::Tasks::TaskCanceledException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskCanceledException>(message))};
+return o;
+}
  void System::Threading::Tasks::TaskCanceledException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskCanceledException>::get(),
@@ -100,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "task", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }]
- System::Threading::Tasks::TaskCanceledException::TaskCanceledException(System::Threading::Tasks::Task task)  : System::OperationCanceledException(THROW_UNLESS(::il2cpp_utils::New<TaskCanceledException>(task))) {}
+ System::Threading::Tasks::TaskCanceledException System::Threading::Tasks::TaskCanceledException::New_ctor(System::Threading::Tasks::Task task)  {
+System::Threading::Tasks::TaskCanceledException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskCanceledException>(task))};
+return o;
+}
  void System::Threading::Tasks::TaskCanceledException::_ctor(System::Threading::Tasks::Task task)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskCanceledException>::get(),
@@ -111,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, task);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Threading::Tasks::TaskCanceledException::TaskCanceledException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::OperationCanceledException(THROW_UNLESS(::il2cpp_utils::New<TaskCanceledException>(info, context))) {}
+ System::Threading::Tasks::TaskCanceledException System::Threading::Tasks::TaskCanceledException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Threading::Tasks::TaskCanceledException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskCanceledException>(info, context))};
+return o;
+}
  void System::Threading::Tasks::TaskCanceledException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskCanceledException>::get(),

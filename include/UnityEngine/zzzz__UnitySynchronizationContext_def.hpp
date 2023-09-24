@@ -5,14 +5,17 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Threading {
-class SendOrPostCallback;
+class SynchronizationContext;
+}
+namespace UnityEngine {
+struct UnityEngine__UnitySynchronizationContext__WorkRequest;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Threading {
-class SynchronizationContext;
+class SendOrPostCallback;
 }
 namespace System::Threading {
 class ManualResetEvent;
@@ -169,14 +172,12 @@ constexpr int32_t __get_m_TrackedCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mainThreadID", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnitySynchronizationContext(int32_t mainThreadID) ;
+static UnityEngine::UnitySynchronizationContext New_ctor(int32_t mainThreadID) ;
 
 /// @brief Method .ctor addr 0x2b5ce6c size 0xb8 virtual false final false
  void _ctor(int32_t mainThreadID) ;
 
-// Ctor Parameters [CppParam { name: "queue", ty: "System::Collections::Generic::List_1<UnityEngine::UnityEngine__UnitySynchronizationContext__WorkRequest>", modifiers: "", def_value: None }, CppParam { name: "mainThreadID", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnitySynchronizationContext(System::Collections::Generic::List_1<UnityEngine::UnityEngine__UnitySynchronizationContext__WorkRequest> queue, int32_t mainThreadID) ;
+static UnityEngine::UnitySynchronizationContext New_ctor(System::Collections::Generic::List_1<UnityEngine::UnityEngine__UnitySynchronizationContext__WorkRequest> queue, int32_t mainThreadID) ;
 
 /// @brief Method .ctor addr 0x2b5cf24 size 0xa0 virtual false final false
  void _ctor(System::Collections::Generic::List_1<UnityEngine::UnityEngine__UnitySynchronizationContext__WorkRequest> queue, int32_t mainThreadID) ;

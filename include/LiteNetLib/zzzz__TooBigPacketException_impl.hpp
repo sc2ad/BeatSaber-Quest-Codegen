@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- LiteNetLib::TooBigPacketException::TooBigPacketException()  : LiteNetLib::InvalidPacketException(THROW_UNLESS(::il2cpp_utils::New<TooBigPacketException>())) {}
+ LiteNetLib::TooBigPacketException LiteNetLib::TooBigPacketException::New_ctor()  {
+LiteNetLib::TooBigPacketException o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::TooBigPacketException>())};
+return o;
+}
  void LiteNetLib::TooBigPacketException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::TooBigPacketException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- LiteNetLib::TooBigPacketException::TooBigPacketException(::StringW message)  : LiteNetLib::InvalidPacketException(THROW_UNLESS(::il2cpp_utils::New<TooBigPacketException>(message))) {}
+ LiteNetLib::TooBigPacketException LiteNetLib::TooBigPacketException::New_ctor(::StringW message)  {
+LiteNetLib::TooBigPacketException o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::TooBigPacketException>(message))};
+return o;
+}
  void LiteNetLib::TooBigPacketException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::TooBigPacketException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- LiteNetLib::TooBigPacketException::TooBigPacketException(::StringW message, System::Exception innerException)  : LiteNetLib::InvalidPacketException(THROW_UNLESS(::il2cpp_utils::New<TooBigPacketException>(message, innerException))) {}
+ LiteNetLib::TooBigPacketException LiteNetLib::TooBigPacketException::New_ctor(::StringW message, System::Exception innerException)  {
+LiteNetLib::TooBigPacketException o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::TooBigPacketException>(message, innerException))};
+return o;
+}
  void LiteNetLib::TooBigPacketException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::TooBigPacketException>::get(),

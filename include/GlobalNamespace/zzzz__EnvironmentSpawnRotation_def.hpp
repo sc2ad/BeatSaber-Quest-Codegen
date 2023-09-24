@@ -4,13 +4,13 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class SpawnRotationBeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -144,8 +144,7 @@ static int32_t __get__numberOfActiveEnvironmentSpawnRotationObjects() ;
 /// @brief Method LateUpdate addr 0x226900c size 0x128 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit EnvironmentSpawnRotation() ;
+static GlobalNamespace::EnvironmentSpawnRotation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2269134 size 0x8 virtual false final false
  void _ctor() ;

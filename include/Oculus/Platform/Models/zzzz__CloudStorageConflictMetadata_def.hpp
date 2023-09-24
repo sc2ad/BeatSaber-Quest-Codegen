@@ -66,8 +66,7 @@ constexpr Oculus::Platform::Models::CloudStorageMetadata __get_Remote() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CloudStorageConflictMetadata(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::CloudStorageConflictMetadata New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x259e350 size 0xe0 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine::Experimental::Rendering {
-class IScriptableRuntimeReflectionSystem;
-}
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::Experimental::Rendering {
+class IScriptableRuntimeReflectionSystem;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {
@@ -74,8 +74,7 @@ static bool BuiltinUpdate() ;
 /// @brief Method Internal_BuiltinRuntimeReflectionSystem_New addr 0x2b7b578 size 0x5c virtual false final false
 static UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem Internal_BuiltinRuntimeReflectionSystem_New() ;
 
-// Ctor Parameters []
-explicit BuiltinRuntimeReflectionSystem() ;
+static UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b7b5d4 size 0x8 virtual false final false
  void _ctor() ;

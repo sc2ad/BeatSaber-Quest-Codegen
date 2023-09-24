@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TX,::cordl_internals::il2cpp_reference_type TY,::cordl_internals::il2cpp_reference_type TZ>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5035)), TypeDefinitionIndex(TypeDefinitionIndex(5043))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5043)), TypeDefinitionIndex(TypeDefinitionIndex(5035))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5043), inst: 5155 })
 // CS Name: LightTransformGroup`3
 class CORDL_TYPE LightTransformGroup_3<TX,TY,TZ> : public GlobalNamespace::LightGroupSubsystem {
@@ -146,8 +146,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Transform> __get__zT
 /// @brief Method get_count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_count() ;
 
-// Ctor Parameters []
-explicit LightTransformGroup_3() ;
+static GlobalNamespace::LightTransformGroup_3<TX,TY,TZ> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

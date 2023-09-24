@@ -3,12 +3,15 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 #include <cmath>
 #include <cstddef>
-namespace UnityEngine::UI::CoroutineTween {
-class ITweenValue;
-}
 namespace UnityEngine::Events {
 template<typename T0>
 class UnityAction_1;
+}
+namespace UnityEngine::UI::CoroutineTween {
+class UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback;
+}
+namespace UnityEngine::UI::CoroutineTween {
+class ITweenValue;
 }
 // Forward declare root types
 namespace UnityEngine::UI::CoroutineTween {
@@ -20,7 +23,7 @@ struct FloatTween;
 // Type: ::FloatTweenCallback
 namespace UnityEngine::UI::CoroutineTween {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13093))
 // CS Name: UnityEngine.UI.CoroutineTween.FloatTween::FloatTweenCallback
 class CORDL_TYPE UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback : public UnityEngine::Events::UnityEvent_1<float_t> {
@@ -59,8 +62,7 @@ constexpr explicit UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallba
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback() ;
+static UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__FloatTween__FloatTweenCallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c191f0 size 0x48 virtual false final false
  void _ctor() ;

@@ -50,8 +50,7 @@ constexpr explicit DownloadOnlyLocation(void* ptr) noexcept : UnityEngine::Resou
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
-explicit DownloadOnlyLocation(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
+static UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation New_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
 
 /// @brief Method .ctor addr 0x2a3bebc size 0x28 virtual false final false
  void _ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;

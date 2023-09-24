@@ -1,14 +1,14 @@
 #pragma once
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_impl.hpp"
 #include "Zenject/zzzz__AddToExistingGameObjectComponentProviderGetter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: Zenject::AddToExistingGameObjectComponentProviderGetter._ctor
 template<>
 
@@ -66,8 +66,10 @@ constexpr void Zenject::AddToExistingGameObjectComponentProviderGetter::__set__g
 constexpr System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> Zenject::AddToExistingGameObjectComponentProviderGetter::__get__gameObjectGetter() const {
 return ::cordl_internals::getInstanceField<System::Func_2<Zenject::InjectContext,UnityEngine::GameObject>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "gameObjectGetter", ty: "System::Func_2<Zenject::InjectContext,UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::List_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- Zenject::AddToExistingGameObjectComponentProviderGetter::AddToExistingGameObjectComponentProviderGetter(System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  : Zenject::AddToGameObjectComponentProviderBase(THROW_UNLESS(::il2cpp_utils::New<AddToExistingGameObjectComponentProviderGetter>(gameObjectGetter, container, componentType, extraArguments, concreteIdentifier, instantiateCallback))) {}
+ Zenject::AddToExistingGameObjectComponentProviderGetter Zenject::AddToExistingGameObjectComponentProviderGetter::New_ctor(System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  {
+Zenject::AddToExistingGameObjectComponentProviderGetter o{THROW_UNLESS(::il2cpp_utils::New<Zenject::AddToExistingGameObjectComponentProviderGetter>(gameObjectGetter, container, componentType, extraArguments, concreteIdentifier, instantiateCallback))};
+return o;
+}
  void Zenject::AddToExistingGameObjectComponentProviderGetter::_ctor(System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::AddToExistingGameObjectComponentProviderGetter>::get(),

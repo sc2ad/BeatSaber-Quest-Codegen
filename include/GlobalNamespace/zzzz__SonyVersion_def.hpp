@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__SonyVersion__VersionFormat;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__SonyVersion__VersionFormat;
@@ -62,6 +65,8 @@ __Short = 3,
 constexpr operator __GlobalNamespace__SonyVersion__VersionFormat_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SonyVersion__VersionFormat_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -160,8 +165,7 @@ constexpr uint32_t __get__minorVersion() const;
 /// @brief Method get_minorVersion addr 0x221c490 size 0x8 virtual false final false
  uint32_t get_minorVersion() ;
 
-// Ctor Parameters [CppParam { name: "majorVersion", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "minorVersion", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit SonyVersion(uint32_t majorVersion, uint32_t minorVersion) ;
+static GlobalNamespace::SonyVersion New_ctor(uint32_t majorVersion, uint32_t minorVersion) ;
 
 /// @brief Method .ctor addr 0x221c498 size 0x2c virtual false final false
  void _ctor(uint32_t majorVersion, uint32_t minorVersion) ;

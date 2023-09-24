@@ -70,8 +70,7 @@ constexpr UnityEngine::Color __get__color() const;
 /// @brief Method SetColor addr 0x11a371c size 0xc virtual false final false
  void SetColor(UnityEngine::Color c) ;
 
-// Ctor Parameters []
-explicit SimpleColorSO() ;
+static GlobalNamespace::SimpleColorSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a3728 size 0x8 virtual false final false
  void _ctor() ;

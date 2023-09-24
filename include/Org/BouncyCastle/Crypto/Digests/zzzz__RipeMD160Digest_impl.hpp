@@ -367,8 +367,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::RipeMD160Digest::__set_xOff(i
 constexpr int32_t Org::BouncyCastle::Crypto::Digests::RipeMD160Digest::__get_xOff() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::RipeMD160Digest::RipeMD160Digest()  : Org::BouncyCastle::Crypto::Digests::GeneralDigest(THROW_UNLESS(::il2cpp_utils::New<RipeMD160Digest>())) {}
+ Org::BouncyCastle::Crypto::Digests::RipeMD160Digest Org::BouncyCastle::Crypto::Digests::RipeMD160Digest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::RipeMD160Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::RipeMD160Digest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::RipeMD160Digest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::RipeMD160Digest>::get(),
@@ -378,8 +380,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::RipeMD160Digest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::RipeMD160Digest::RipeMD160Digest(Org::BouncyCastle::Crypto::Digests::RipeMD160Digest t)  : Org::BouncyCastle::Crypto::Digests::GeneralDigest(THROW_UNLESS(::il2cpp_utils::New<RipeMD160Digest>(t))) {}
+ Org::BouncyCastle::Crypto::Digests::RipeMD160Digest Org::BouncyCastle::Crypto::Digests::RipeMD160Digest::New_ctor(Org::BouncyCastle::Crypto::Digests::RipeMD160Digest t)  {
+Org::BouncyCastle::Crypto::Digests::RipeMD160Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::RipeMD160Digest>(t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::RipeMD160Digest::_ctor(Org::BouncyCastle::Crypto::Digests::RipeMD160Digest t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::RipeMD160Digest>::get(),

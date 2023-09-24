@@ -3,36 +3,22 @@
 #include "System/Xml/Schema/zzzz__SchemaDeclBase_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml::Schema {
-class ContentValidator;
-}
-namespace System::Xml::Schema {
 class SchemaAttDef;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace System::Xml::Schema {
 class XmlSchemaAnyAttribute;
+}
+namespace System::Xml {
+class IDtdAttributeListInfo;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
 namespace System::Xml {
-class IDtdDefaultAttributeInfo;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Xml {
-class XmlQualifiedName;
-}
-namespace System::Xml {
-class IDtdAttributeListInfo;
-}
-namespace System::Xml {
 class IDtdAttributeInfo;
+}
+namespace System::Xml::Schema {
+class ContentValidator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -41,6 +27,20 @@ class IList_1;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Xml {
+class IDtdDefaultAttributeInfo;
+}
+namespace System::Xml {
+class XmlQualifiedName;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -173,20 +173,17 @@ static System::Xml::Schema::SchemaElementDecl __get_Empty() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit SchemaElementDecl() ;
+static System::Xml::Schema::SchemaElementDecl New_ctor() ;
 
 /// @brief Method .ctor addr 0x27311b8 size 0xbc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "dtype", ty: "System::Xml::Schema::XmlSchemaDatatype", modifiers: "", def_value: None }]
-explicit SchemaElementDecl(System::Xml::Schema::XmlSchemaDatatype dtype) ;
+static System::Xml::Schema::SchemaElementDecl New_ctor(System::Xml::Schema::XmlSchemaDatatype dtype) ;
 
 /// @brief Method .ctor addr 0x2731274 size 0x104 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaDatatype dtype) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SchemaElementDecl(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
+static System::Xml::Schema::SchemaElementDecl New_ctor(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
 
 /// @brief Method .ctor addr 0x2731378 size 0xd4 virtual false final false
  void _ctor(System::Xml::XmlQualifiedName name, ::StringW prefix) ;

@@ -2,10 +2,10 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageSink;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -68,8 +68,7 @@ constexpr System::Runtime::Remoting::Messaging::IMessage __get_MsgRequest() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "msgRequest", ty: "System::Runtime::Remoting::Messaging::IMessage", modifiers: "", def_value: None }, CppParam { name: "replySink", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
-explicit AsyncRequest(System::Runtime::Remoting::Messaging::IMessage msgRequest, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
+static System::Runtime::Remoting::Channels::AsyncRequest New_ctor(System::Runtime::Remoting::Messaging::IMessage msgRequest, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
 
 /// @brief Method .ctor addr 0x2337ac4 size 0x2c virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMessage msgRequest, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;

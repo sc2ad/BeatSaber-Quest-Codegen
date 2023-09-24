@@ -2,23 +2,23 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Net::Security {
-class SslServerAuthenticationOptions;
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
 }
 namespace System::Net::Security {
 struct EncryptionPolicy;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+namespace System::Net::Security {
+class SslServerAuthenticationOptions;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509RevocationMode;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -102,8 +102,7 @@ constexpr System::Net::Security::SslServerAuthenticationOptions __get__Options_k
 /// @brief Method get_ServerMode addr 0x2692834 size 0x8 virtual true final false
  bool get_ServerMode() ;
 
-// Ctor Parameters []
-explicit MonoSslServerAuthenticationOptions() ;
+static Mono::Net::Security::MonoSslServerAuthenticationOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x268fcf0 size 0x6c virtual false final false
  void _ctor() ;

@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Collections::Specialized::CaseSensitiveStringDictionary::CaseSensitiveStringDictionary()  : System::Collections::Specialized::StringDictionary(THROW_UNLESS(::il2cpp_utils::New<CaseSensitiveStringDictionary>())) {}
+ System::Collections::Specialized::CaseSensitiveStringDictionary System::Collections::Specialized::CaseSensitiveStringDictionary::New_ctor()  {
+System::Collections::Specialized::CaseSensitiveStringDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::CaseSensitiveStringDictionary>())};
+return o;
+}
  void System::Collections::Specialized::CaseSensitiveStringDictionary::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::CaseSensitiveStringDictionary>::get(),

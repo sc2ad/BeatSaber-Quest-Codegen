@@ -36,8 +36,10 @@ constexpr void Assets::OVR::Scripts::RangedRecord::__set_max(float_t value)  {
 constexpr float_t Assets::OVR::Scripts::RangedRecord::__get_max() const {
 return ::cordl_internals::getInstanceField<float_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cat", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "val", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "minVal", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxVal", ty: "float_t", modifiers: "", def_value: None }]
- Assets::OVR::Scripts::RangedRecord::RangedRecord(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal)  : Assets::OVR::Scripts::Record(THROW_UNLESS(::il2cpp_utils::New<RangedRecord>(order, cat, msg, val, minVal, maxVal))) {}
+ Assets::OVR::Scripts::RangedRecord Assets::OVR::Scripts::RangedRecord::New_ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal)  {
+Assets::OVR::Scripts::RangedRecord o{THROW_UNLESS(::il2cpp_utils::New<Assets::OVR::Scripts::RangedRecord>(order, cat, msg, val, minVal, maxVal))};
+return o;
+}
  void Assets::OVR::Scripts::RangedRecord::_ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Assets::OVR::Scripts::RangedRecord>::get(),

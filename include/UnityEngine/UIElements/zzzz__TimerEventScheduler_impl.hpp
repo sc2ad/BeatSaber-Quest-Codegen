@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__TimerEventScheduler_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IScheduler_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ScheduledItem_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::TimerEventScheduler.Schedule
 template<>
@@ -191,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::TimerEventScheduler::TimerEventScheduler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimerEventScheduler>())) {}
+ UnityEngine::UIElements::TimerEventScheduler UnityEngine::UIElements::TimerEventScheduler::New_ctor()  {
+UnityEngine::UIElements::TimerEventScheduler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TimerEventScheduler>())};
+return o;
+}
  void UnityEngine::UIElements::TimerEventScheduler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TimerEventScheduler>::get(),

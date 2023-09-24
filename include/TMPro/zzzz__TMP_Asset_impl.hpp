@@ -69,8 +69,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TMP_Asset::TMP_Asset()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TMP_Asset>())) {}
+ TMPro::TMP_Asset TMPro::TMP_Asset::New_ctor()  {
+TMPro::TMP_Asset o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Asset>())};
+return o;
+}
  void TMPro::TMP_Asset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Asset>::get(),

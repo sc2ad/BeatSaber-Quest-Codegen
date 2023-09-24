@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class HapticFeedbackManager;
-}
-namespace UnityEngine {
-struct UnityEngine__ParticleSystem__EmissionModule;
+class SaberClashChecker;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
 }
-namespace GlobalNamespace {
-class SaberClashChecker;
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__EmissionModule;
 }
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace GlobalNamespace {
+class HapticFeedbackManager;
 }
 namespace GlobalNamespace {
 class ColorManager;
@@ -131,8 +131,7 @@ constexpr bool __get__sabersAreClashing() const;
 /// @brief Method LateUpdate addr 0x226734c size 0xfc virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit SaberClashEffect() ;
+static GlobalNamespace::SaberClashEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2267448 size 0x8 virtual false final false
  void _ctor() ;

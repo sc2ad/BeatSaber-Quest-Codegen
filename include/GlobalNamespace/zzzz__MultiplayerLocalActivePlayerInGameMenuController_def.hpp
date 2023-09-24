@@ -5,33 +5,36 @@
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace GlobalNamespace {
-class IGamePause;
-}
-namespace GlobalNamespace {
-class SaberManager;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerInGameMenuViewController;
-}
-namespace GlobalNamespace {
-class IMenuButtonTrigger;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class IMenuButtonTrigger;
+}
+namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
+}
+namespace GlobalNamespace {
+class SaberManager;
+}
+namespace GlobalNamespace {
+class IGamePause;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalActivePlayerInGameMenuViewController;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,8 +94,7 @@ constexpr bool __get_value() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20cf238 size 0x8 virtual false final false
  void _ctor() ;
@@ -281,8 +283,7 @@ constexpr bool __get__gameMenuIsShown() const;
 /// @brief Method HandleStateChanged addr 0x20cff70 size 0x1d0 virtual false final false
  void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalActivePlayerInGameMenuController() ;
+static GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d0140 size 0x8 virtual false final false
  void _ctor() ;

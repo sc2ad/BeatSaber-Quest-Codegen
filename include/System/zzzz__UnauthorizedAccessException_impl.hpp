@@ -72,8 +72,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::UnauthorizedAccessException::UnauthorizedAccessException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<UnauthorizedAccessException>())) {}
+ System::UnauthorizedAccessException System::UnauthorizedAccessException::New_ctor()  {
+System::UnauthorizedAccessException o{THROW_UNLESS(::il2cpp_utils::New<System::UnauthorizedAccessException>())};
+return o;
+}
  void System::UnauthorizedAccessException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UnauthorizedAccessException>::get(),
@@ -83,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::UnauthorizedAccessException::UnauthorizedAccessException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<UnauthorizedAccessException>(message))) {}
+ System::UnauthorizedAccessException System::UnauthorizedAccessException::New_ctor(::StringW message)  {
+System::UnauthorizedAccessException o{THROW_UNLESS(::il2cpp_utils::New<System::UnauthorizedAccessException>(message))};
+return o;
+}
  void System::UnauthorizedAccessException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UnauthorizedAccessException>::get(),
@@ -94,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
- System::UnauthorizedAccessException::UnauthorizedAccessException(::StringW message, System::Exception inner)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<UnauthorizedAccessException>(message, inner))) {}
+ System::UnauthorizedAccessException System::UnauthorizedAccessException::New_ctor(::StringW message, System::Exception inner)  {
+System::UnauthorizedAccessException o{THROW_UNLESS(::il2cpp_utils::New<System::UnauthorizedAccessException>(message, inner))};
+return o;
+}
  void System::UnauthorizedAccessException::_ctor(::StringW message, System::Exception inner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UnauthorizedAccessException>::get(),
@@ -105,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, inner);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::UnauthorizedAccessException::UnauthorizedAccessException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<UnauthorizedAccessException>(info, context))) {}
+ System::UnauthorizedAccessException System::UnauthorizedAccessException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::UnauthorizedAccessException o{THROW_UNLESS(::il2cpp_utils::New<System::UnauthorizedAccessException>(info, context))};
+return o;
+}
  void System::UnauthorizedAccessException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UnauthorizedAccessException>::get(),

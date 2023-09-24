@@ -1,22 +1,22 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeCache_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_VolumeScatterTrees_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_DetailPrototype_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_VolumeLayer_def.hpp"
 #include "UnityEngine/zzzz__TerrainLayer_def.hpp"
-#include "UnityEngine/zzzz__TerrainData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_DetailProperties_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GeoNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_VolumeScatterTrees_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_DetailPrototype_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_VolumeLayer_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "UnityEngine/zzzz__TerrainData_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeCachePreset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_DetailProperties_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_VolumeCache.get_IsDirty
 template<>
 
@@ -936,8 +936,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_VolumeCache::HEU_VolumeCache()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<HEU_VolumeCache>())) {}
+ HoudiniEngineUnity::HEU_VolumeCache HoudiniEngineUnity::HEU_VolumeCache::New_ctor()  {
+HoudiniEngineUnity::HEU_VolumeCache o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_VolumeCache>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_VolumeCache::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_VolumeCache>::get(),

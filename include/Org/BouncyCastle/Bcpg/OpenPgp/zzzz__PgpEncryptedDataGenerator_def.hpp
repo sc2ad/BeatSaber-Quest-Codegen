@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
 }
 namespace Org::BouncyCastle::Bcpg {
 class S2k;
@@ -23,25 +23,34 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
 }
 namespace Org::BouncyCastle::Crypto::IO {
-class CipherStream;
-}
-namespace Org::BouncyCastle::Crypto::IO {
 class DigestStream;
-}
-namespace System::Collections {
-class IList;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class IStreamGenerator;
+class Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedDataGenerator__PubMethod;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
 }
-namespace System::IO {
-class Stream;
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedDataGenerator__EncMethod;
+}
+namespace Org::BouncyCastle::Crypto::IO {
+class CipherStream;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class IStreamGenerator;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedDataGenerator__PbeMethod;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -122,8 +131,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::KeyParameter __get_key() const;
 /// @brief Method AddSessionInfo addr 0x0 size 0xffffffffffffffff virtual true final false
  void AddSessionInfo(::ArrayW<uint8_t> si, Org::BouncyCastle::Security::SecureRandom random) ;
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedDataGenerator__EncMethod() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedDataGenerator__EncMethod New_ctor() ;
 
 /// @brief Method .ctor addr 0x101f468 size 0x8 virtual false final false
  void _ctor() ;
@@ -183,8 +191,7 @@ constexpr Org::BouncyCastle::Bcpg::S2k __get_s2k() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "s2k", ty: "Org::BouncyCastle::Bcpg::S2k", modifiers: "", def_value: None }, CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::Parameters::KeyParameter", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedDataGenerator__PbeMethod(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, Org::BouncyCastle::Crypto::Parameters::KeyParameter key) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedDataGenerator__PbeMethod New_ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, Org::BouncyCastle::Crypto::Parameters::KeyParameter key) ;
 
 /// @brief Method .ctor addr 0x101def4 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, Org::BouncyCastle::Crypto::Parameters::KeyParameter key) ;
@@ -265,8 +272,7 @@ constexpr ::ArrayW<::ArrayW<uint8_t>> __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pubKey", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey", modifiers: "", def_value: None }, CppParam { name: "sessionKeyObfuscation", ty: "bool", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedDataGenerator__PubMethod(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey, bool sessionKeyObfuscation) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedDataGenerator__PubMethod New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey, bool sessionKeyObfuscation) ;
 
 /// @brief Method .ctor addr 0x101e0d8 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey, bool sessionKeyObfuscation) ;
@@ -398,32 +404,27 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_rand() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }]
-explicit PgpEncryptedDataGenerator(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator New_ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm) ;
 
 /// @brief Method .ctor addr 0x101da08 size 0xac virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm) ;
 
-// Ctor Parameters [CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "withIntegrityPacket", ty: "bool", modifiers: "", def_value: None }]
-explicit PgpEncryptedDataGenerator(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool withIntegrityPacket) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator New_ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool withIntegrityPacket) ;
 
 /// @brief Method .ctor addr 0x101dab4 size 0xb4 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool withIntegrityPacket) ;
 
-// Ctor Parameters [CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpEncryptedDataGenerator(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator New_ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x101db68 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "withIntegrityPacket", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpEncryptedDataGenerator(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool withIntegrityPacket, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator New_ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool withIntegrityPacket, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x101dbe8 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool withIntegrityPacket, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "oldFormat", ty: "bool", modifiers: "", def_value: None }]
-explicit PgpEncryptedDataGenerator(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Security::SecureRandom rand, bool oldFormat) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator New_ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Security::SecureRandom rand, bool oldFormat) ;
 
 /// @brief Method .ctor addr 0x101dc78 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Security::SecureRandom rand, bool oldFormat) ;

@@ -110,8 +110,7 @@ constexpr bool __get_closed() const;
 /// @brief Method Write addr 0x1134a70 size 0x40 virtual true final true
  void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
-// Ctor Parameters []
-explicit BaseInputStream() ;
+static Org::BouncyCastle::Utilities::IO::BaseInputStream New_ctor() ;
 
 /// @brief Method .ctor addr 0x1134ab0 size 0x58 virtual false final false
  void _ctor() ;

@@ -2,18 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace System::Xml {
 struct XmlNodeType;
+}
+namespace System::Xml::Linq {
+class XObject;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
 }
-namespace System::Xml::Linq {
-class XObject;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -98,8 +98,7 @@ constexpr System::Xml::Linq::XObject __get__xmlObject() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "xmlObject", ty: "System::Xml::Linq::XObject", modifiers: "", def_value: None }]
-explicit XObjectWrapper(System::Xml::Linq::XObject xmlObject) ;
+static Newtonsoft::Json::Converters::XObjectWrapper New_ctor(System::Xml::Linq::XObject xmlObject) ;
 
 /// @brief Method .ctor addr 0x2542e88 size 0x28 virtual false final false
  void _ctor(System::Xml::Linq::XObject xmlObject) ;

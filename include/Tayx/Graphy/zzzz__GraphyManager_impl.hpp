@@ -2,17 +2,18 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "Tayx/Graphy/Utils/zzzz__G_Singleton_1_impl.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "Tayx/Graphy/Fps/zzzz__G_FpsManager_def.hpp"
-#include "UnityEngine/zzzz__FFTWindow_def.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamManager_def.hpp"
-#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
+#include "Tayx/Graphy/Fps/zzzz__G_FpsManager_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "Tayx/Graphy/Advanced/zzzz__G_AdvancedData_def.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioManager_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
+#include "Tayx/Graphy/Advanced/zzzz__G_AdvancedData_def.hpp"
+#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
-#include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
 #include "UnityEngine/zzzz__AudioListener_def.hpp"
+#include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
+#include "UnityEngine/zzzz__FFTWindow_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Tayx::Graphy::Tayx__Graphy__GraphyManager__Mode::Tayx__Graphy__GraphyManager__Mode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1848,8 +1849,10 @@ constexpr void Tayx::Graphy::GraphyManager::__set_m_modulePresetState(Tayx::Grap
 constexpr Tayx::Graphy::Tayx__Graphy__GraphyManager__ModulePreset Tayx::Graphy::GraphyManager::__get_m_modulePresetState() const {
 return ::cordl_internals::getInstanceField<Tayx::Graphy::Tayx__Graphy__GraphyManager__ModulePreset, 0x140>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Tayx::Graphy::GraphyManager::GraphyManager()  : Tayx::Graphy::Utils::G_Singleton_1<Tayx::Graphy::GraphyManager>(THROW_UNLESS(::il2cpp_utils::New<GraphyManager>())) {}
+ Tayx::Graphy::GraphyManager Tayx::Graphy::GraphyManager::New_ctor()  {
+Tayx::Graphy::GraphyManager o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::GraphyManager>())};
+return o;
+}
  void Tayx::Graphy::GraphyManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::GraphyManager>::get(),

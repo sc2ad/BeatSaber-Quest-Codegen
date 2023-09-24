@@ -86,8 +86,7 @@ constexpr int32_t __get_materialHashCode() const;
 /// @brief Method get_instanceID addr 0x2a69d38 size 0x28 virtual false final false
  int32_t get_instanceID() ;
 
-// Ctor Parameters []
-explicit TMP_Asset() ;
+static TMPro::TMP_Asset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a69d60 size 0x8 virtual false final false
  void _ctor() ;

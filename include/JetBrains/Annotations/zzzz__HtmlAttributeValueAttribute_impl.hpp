@@ -58,8 +58,10 @@ constexpr void JetBrains::Annotations::HtmlAttributeValueAttribute::__set__Name_
 constexpr ::StringW JetBrains::Annotations::HtmlAttributeValueAttribute::__get__Name_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::HtmlAttributeValueAttribute::HtmlAttributeValueAttribute(::StringW name)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<HtmlAttributeValueAttribute>(name))) {}
+ JetBrains::Annotations::HtmlAttributeValueAttribute JetBrains::Annotations::HtmlAttributeValueAttribute::New_ctor(::StringW name)  {
+JetBrains::Annotations::HtmlAttributeValueAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::HtmlAttributeValueAttribute>(name))};
+return o;
+}
  void JetBrains::Annotations::HtmlAttributeValueAttribute::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::HtmlAttributeValueAttribute>::get(),

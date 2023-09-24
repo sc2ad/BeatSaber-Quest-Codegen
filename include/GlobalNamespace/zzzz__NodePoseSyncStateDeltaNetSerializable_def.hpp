@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-struct NodePoseSyncState;
-}
 namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace GlobalNamespace {
+struct NodePoseSyncState;
 }
 namespace GlobalNamespace {
 template<typename T>
@@ -145,8 +145,7 @@ static GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNet
 /// @brief Method Release addr 0xdccc90 size 0xac virtual true final true
  void Release() ;
 
-// Ctor Parameters []
-explicit NodePoseSyncStateDeltaNetSerializable() ;
+static GlobalNamespace::NodePoseSyncStateDeltaNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0xdccd3c size 0x8 virtual false final false
  void _ctor() ;

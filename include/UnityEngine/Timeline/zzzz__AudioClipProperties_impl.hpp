@@ -24,8 +24,10 @@ constexpr void UnityEngine::Timeline::AudioClipProperties::__set_volume(float_t 
 constexpr float_t UnityEngine::Timeline::AudioClipProperties::__get_volume() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::AudioClipProperties::AudioClipProperties()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<AudioClipProperties>())) {}
+ UnityEngine::Timeline::AudioClipProperties UnityEngine::Timeline::AudioClipProperties::New_ctor()  {
+UnityEngine::Timeline::AudioClipProperties o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::AudioClipProperties>())};
+return o;
+}
  void UnityEngine::Timeline::AudioClipProperties::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::AudioClipProperties>::get(),

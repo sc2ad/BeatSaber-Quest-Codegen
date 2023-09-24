@@ -52,8 +52,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tableCellOwner, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::TableCellWithSeparator::TableCellWithSeparator()  : HMUI::TableCell(THROW_UNLESS(::il2cpp_utils::New<TableCellWithSeparator>())) {}
+ GlobalNamespace::TableCellWithSeparator GlobalNamespace::TableCellWithSeparator::New_ctor()  {
+GlobalNamespace::TableCellWithSeparator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TableCellWithSeparator>())};
+return o;
+}
  void GlobalNamespace::TableCellWithSeparator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TableCellWithSeparator>::get(),

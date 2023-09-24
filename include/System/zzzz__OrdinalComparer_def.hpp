@@ -59,8 +59,7 @@ constexpr bool __get__ignoreCase() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ignoreCase", ty: "bool", modifiers: "", def_value: None }]
-explicit OrdinalComparer(bool ignoreCase) ;
+static System::OrdinalComparer New_ctor(bool ignoreCase) ;
 
 /// @brief Method .ctor addr 0x2457560 size 0x6c virtual false final false
  void _ctor(bool ignoreCase) ;

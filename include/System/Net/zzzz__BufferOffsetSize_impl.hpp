@@ -52,8 +52,10 @@ constexpr void System::Net::BufferOffsetSize::__set_Size(int32_t value)  {
 constexpr int32_t System::Net::BufferOffsetSize::__get_Size() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "copyBuffer", ty: "bool", modifiers: "", def_value: None }]
- System::Net::BufferOffsetSize::BufferOffsetSize(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, bool copyBuffer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BufferOffsetSize>(buffer, offset, size, copyBuffer))) {}
+ System::Net::BufferOffsetSize System::Net::BufferOffsetSize::New_ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, bool copyBuffer)  {
+System::Net::BufferOffsetSize o{THROW_UNLESS(::il2cpp_utils::New<System::Net::BufferOffsetSize>(buffer, offset, size, copyBuffer))};
+return o;
+}
  void System::Net::BufferOffsetSize::_ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, bool copyBuffer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::BufferOffsetSize>::get(),
@@ -63,8 +65,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buffer, offset, size, copyBuffer);
 }
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "copyBuffer", ty: "bool", modifiers: "", def_value: None }]
- System::Net::BufferOffsetSize::BufferOffsetSize(::ArrayW<uint8_t> buffer, bool copyBuffer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BufferOffsetSize>(buffer, copyBuffer))) {}
+ System::Net::BufferOffsetSize System::Net::BufferOffsetSize::New_ctor(::ArrayW<uint8_t> buffer, bool copyBuffer)  {
+System::Net::BufferOffsetSize o{THROW_UNLESS(::il2cpp_utils::New<System::Net::BufferOffsetSize>(buffer, copyBuffer))};
+return o;
+}
  void System::Net::BufferOffsetSize::_ctor(::ArrayW<uint8_t> buffer, bool copyBuffer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::BufferOffsetSize>::get(),

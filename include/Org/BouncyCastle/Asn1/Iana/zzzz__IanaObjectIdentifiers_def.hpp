@@ -83,8 +83,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_HmacRipeMD160() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit IanaObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xe10da0 size 0x1008 virtual false final false
  void _ctor() ;

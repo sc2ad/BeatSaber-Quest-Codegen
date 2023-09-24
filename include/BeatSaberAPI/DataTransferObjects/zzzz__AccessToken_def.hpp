@@ -63,8 +63,7 @@ constexpr ::StringW __get_expiration() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AccessToken() ;
+static BeatSaberAPI::DataTransferObjects::AccessToken New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d7384 size 0x8 virtual false final false
  void _ctor() ;

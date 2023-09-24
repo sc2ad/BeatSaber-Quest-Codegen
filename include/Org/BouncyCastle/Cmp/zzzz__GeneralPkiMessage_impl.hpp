@@ -137,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cmp::PkiMessage, false>(nullptr, ___internal_method, encoding);
 }
-// Ctor Parameters [CppParam { name: "pkiMessage", ty: "Org::BouncyCastle::Asn1::Cmp::PkiMessage", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cmp::GeneralPkiMessage::GeneralPkiMessage(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GeneralPkiMessage>(pkiMessage))) {}
+ Org::BouncyCastle::Cmp::GeneralPkiMessage Org::BouncyCastle::Cmp::GeneralPkiMessage::New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage)  {
+Org::BouncyCastle::Cmp::GeneralPkiMessage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::GeneralPkiMessage>(pkiMessage))};
+return o;
+}
  void Org::BouncyCastle::Cmp::GeneralPkiMessage::_ctor(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::GeneralPkiMessage>::get(),
@@ -148,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pkiMessage);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cmp::GeneralPkiMessage::GeneralPkiMessage(::ArrayW<uint8_t> encoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GeneralPkiMessage>(encoding))) {}
+ Org::BouncyCastle::Cmp::GeneralPkiMessage Org::BouncyCastle::Cmp::GeneralPkiMessage::New_ctor(::ArrayW<uint8_t> encoding)  {
+Org::BouncyCastle::Cmp::GeneralPkiMessage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::GeneralPkiMessage>(encoding))};
+return o;
+}
  void Org::BouncyCastle::Cmp::GeneralPkiMessage::_ctor(::ArrayW<uint8_t> encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::GeneralPkiMessage>::get(),

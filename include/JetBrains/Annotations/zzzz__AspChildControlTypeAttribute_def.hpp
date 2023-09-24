@@ -73,8 +73,7 @@ constexpr System::Type __get__ControlType_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tagName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "controlType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit AspChildControlTypeAttribute(::StringW tagName, System::Type controlType) ;
+static JetBrains::Annotations::AspChildControlTypeAttribute New_ctor(::StringW tagName, System::Type controlType) ;
 
 /// @brief Method .ctor addr 0x2d41298 size 0x2c virtual false final false
  void _ctor(::StringW tagName, System::Type controlType) ;

@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
@@ -76,44 +76,37 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_seq() const;
 /// @brief Method GetInstance addr 0xfdda18 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ECPrivateKeyStructure(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xfddabc size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ECPrivateKeyStructure(Org::BouncyCastle::Math::BigInteger key) ;
+static Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure New_ctor(Org::BouncyCastle::Math::BigInteger key) ;
 
 /// @brief Method .ctor addr 0xfddb34 size 0x1c0 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger key) ;
 
-// Ctor Parameters [CppParam { name: "orderBitLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "key", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ECPrivateKeyStructure(int32_t orderBitLength, Org::BouncyCastle::Math::BigInteger key) ;
+static Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure New_ctor(int32_t orderBitLength, Org::BouncyCastle::Math::BigInteger key) ;
 
 /// @brief Method .ctor addr 0xfddcf4 size 0xc virtual false final false
  void _ctor(int32_t orderBitLength, Org::BouncyCastle::Math::BigInteger key) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit ECPrivateKeyStructure(Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
+static Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure New_ctor(Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
 /// @brief Method .ctor addr 0xfddd0c size 0xc virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit ECPrivateKeyStructure(Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::DerBitString publicKey, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
+static Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure New_ctor(Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::DerBitString publicKey, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
 /// @brief Method .ctor addr 0xfddd18 size 0x284 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::DerBitString publicKey, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
-// Ctor Parameters [CppParam { name: "orderBitLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "key", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit ECPrivateKeyStructure(int32_t orderBitLength, Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
+static Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure New_ctor(int32_t orderBitLength, Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
 /// @brief Method .ctor addr 0xfddd00 size 0xc virtual false final false
  void _ctor(int32_t orderBitLength, Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
-// Ctor Parameters [CppParam { name: "orderBitLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "key", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit ECPrivateKeyStructure(int32_t orderBitLength, Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::DerBitString publicKey, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
+static Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure New_ctor(int32_t orderBitLength, Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::DerBitString publicKey, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
 /// @brief Method .ctor addr 0xfddf9c size 0x2fc virtual false final false
  void _ctor(int32_t orderBitLength, Org::BouncyCastle::Math::BigInteger key, Org::BouncyCastle::Asn1::DerBitString publicKey, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;

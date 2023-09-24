@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Reflection/zzzz__CustomAttributeNamedArgument_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/Reflection/zzzz__CustomAttributeTypedArgument_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 //  Writing Method size for method: System::Reflection::CustomAttributeNamedArgument._ctor
 template<>
 

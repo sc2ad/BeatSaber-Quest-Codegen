@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__IntroTutorialRing_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IntroTutorialRing.set_alpha
 template<>
@@ -383,8 +383,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- GlobalNamespace::IntroTutorialRing::IntroTutorialRing()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<IntroTutorialRing>())) {}
+ GlobalNamespace::IntroTutorialRing GlobalNamespace::IntroTutorialRing::New_ctor()  {
+GlobalNamespace::IntroTutorialRing o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::IntroTutorialRing>())};
+return o;
+}
  void GlobalNamespace::IntroTutorialRing::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IntroTutorialRing>::get(),

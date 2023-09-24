@@ -6,6 +6,12 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
@@ -68,6 +74,8 @@ __Failed = 1,
 constexpr operator __GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -138,6 +146,8 @@ __Failed = 2,
 constexpr operator __GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

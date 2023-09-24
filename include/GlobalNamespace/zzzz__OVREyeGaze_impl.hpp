@@ -2,11 +2,12 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVREyeGaze_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPermissionsRequester_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "GlobalNamespace/zzzz__OVREyeGaze_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPermissionsRequester_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVREyeGaze__EyeId::GlobalNamespace__OVREyeGaze__EyeId(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -458,8 +459,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVREyeGaze::OVREyeGaze()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVREyeGaze>())) {}
+ GlobalNamespace::OVREyeGaze GlobalNamespace::OVREyeGaze::New_ctor()  {
+GlobalNamespace::OVREyeGaze o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVREyeGaze>())};
+return o;
+}
  void GlobalNamespace::OVREyeGaze::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVREyeGaze>::get(),

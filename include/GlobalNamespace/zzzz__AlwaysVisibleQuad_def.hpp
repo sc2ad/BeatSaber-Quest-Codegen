@@ -65,8 +65,7 @@ constexpr UnityEngine::Mesh __get__mesh() const;
 /// @brief Method OnDisable addr 0x2674eb4 size 0xc virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit AlwaysVisibleQuad() ;
+static GlobalNamespace::AlwaysVisibleQuad New_ctor() ;
 
 /// @brief Method .ctor addr 0x2674ec0 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,17 +1,18 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightTranslationGroupEffect_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBeatmapEventData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallback_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__LightTranslationGroupEffect_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData._ctor
 template<>
 
@@ -113,8 +114,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__In
 constexpr UnityEngine::Vector2 GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData::__get_zDistributionLimits() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector2, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "xMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "yMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "zMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "xTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "yTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "zTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "xTranslationLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "xDistributionLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "yTranslationLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "yDistributionLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "zTranslationLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "zDistributionLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData::GlobalNamespace__LightTranslationGroupEffect__InitData(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, UnityEngine::Transform xTransform, UnityEngine::Transform yTransform, UnityEngine::Transform zTransform, UnityEngine::Vector2 xTranslationLimits, UnityEngine::Vector2 xDistributionLimits, UnityEngine::Vector2 yTranslationLimits, UnityEngine::Vector2 yDistributionLimits, UnityEngine::Vector2 zTranslationLimits, UnityEngine::Vector2 zDistributionLimits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightTranslationGroupEffect__InitData>(groupId, elementId, xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform, xTranslationLimits, xDistributionLimits, yTranslationLimits, yDistributionLimits, zTranslationLimits, zDistributionLimits))) {}
+ GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData::New_ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, UnityEngine::Transform xTransform, UnityEngine::Transform yTransform, UnityEngine::Transform zTransform, UnityEngine::Vector2 xTranslationLimits, UnityEngine::Vector2 xDistributionLimits, UnityEngine::Vector2 yTranslationLimits, UnityEngine::Vector2 yDistributionLimits, UnityEngine::Vector2 zTranslationLimits, UnityEngine::Vector2 zDistributionLimits)  {
+GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData>(groupId, elementId, xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform, xTranslationLimits, xDistributionLimits, yTranslationLimits, yDistributionLimits, zTranslationLimits, zDistributionLimits))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData::_ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, UnityEngine::Transform xTransform, UnityEngine::Transform yTransform, UnityEngine::Transform zTransform, UnityEngine::Vector2 xTranslationLimits, UnityEngine::Vector2 xDistributionLimits, UnityEngine::Vector2 yTranslationLimits, UnityEngine::Vector2 yDistributionLimits, UnityEngine::Vector2 zTranslationLimits, UnityEngine::Vector2 zDistributionLimits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData>::get(),
@@ -188,8 +191,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____
 constexpr GlobalNamespace::LightTranslationGroupEffect GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::LightTranslationGroupEffect, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0>())) {}
+ GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0 GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0>::get(),
@@ -364,8 +369,10 @@ constexpr void GlobalNamespace::LightTranslationGroupEffect::__set__lightTransla
 constexpr GlobalNamespace::BeatmapDataCallbackWrapper GlobalNamespace::LightTranslationGroupEffect::__get__lightTranslationZBeatmapEventCallbackWrapper() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BeatmapDataCallbackWrapper, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "tweeningManager", ty: "Tweening::SongTimeTweeningManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }]
- GlobalNamespace::LightTranslationGroupEffect::LightTranslationGroupEffect(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LightTranslationGroupEffect>(initData, tweeningManager, beatmapCallbacksController))) {}
+ GlobalNamespace::LightTranslationGroupEffect GlobalNamespace::LightTranslationGroupEffect::New_ctor(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  {
+GlobalNamespace::LightTranslationGroupEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightTranslationGroupEffect>(initData, tweeningManager, beatmapCallbacksController))};
+return o;
+}
  void GlobalNamespace::LightTranslationGroupEffect::_ctor(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightTranslationGroupEffect>::get(),

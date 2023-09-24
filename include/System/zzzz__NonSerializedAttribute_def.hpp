@@ -47,8 +47,7 @@ constexpr explicit NonSerializedAttribute(void* ptr) noexcept : System::Attribut
 
 // Methods
 
-// Ctor Parameters []
-explicit NonSerializedAttribute() ;
+static System::NonSerializedAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2442a64 size 0x8 virtual false final false
  void _ctor() ;

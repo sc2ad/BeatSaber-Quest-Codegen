@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaBlindingParameters_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaKeyParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters._ctor
 template<>
@@ -70,8 +70,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::__s
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::__get_blindingFactor() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters", modifiers: "", def_value: None }, CppParam { name: "blindingFactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::RsaBlindingParameters(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters publicKey, Org::BouncyCastle::Math::BigInteger blindingFactor)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaBlindingParameters>(publicKey, blindingFactor))) {}
+ Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters publicKey, Org::BouncyCastle::Math::BigInteger blindingFactor)  {
+Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters>(publicKey, blindingFactor))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::_ctor(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters publicKey, Org::BouncyCastle::Math::BigInteger blindingFactor)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters>::get(),

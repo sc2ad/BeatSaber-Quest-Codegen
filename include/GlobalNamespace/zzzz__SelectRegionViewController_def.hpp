@@ -10,6 +10,15 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__SelectRegionViewController____c;
+}
+namespace HMUI {
+class DropdownWithTableView;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SelectRegionViewController__Region;
+}
 namespace UnityEngine::UI {
 class Button;
 }
@@ -20,8 +29,8 @@ namespace System {
 template<typename T>
 class Action_1;
 }
-namespace HMUI {
-class DropdownWithTableView;
+namespace GlobalNamespace {
+struct GlobalNamespace__SelectRegionViewController__RegionToLocalizationKeyPair;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,6 +98,8 @@ __Other = 5,
 constexpr operator __GlobalNamespace__SelectRegionViewController__Region_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SelectRegionViewController__Region_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -243,8 +254,7 @@ static System::Func_2<GlobalNamespace::GlobalNamespace__SelectRegionViewControll
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SelectRegionViewController____c() ;
+static GlobalNamespace::GlobalNamespace__SelectRegionViewController____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2181758 size 0x8 virtual false final false
  void _ctor() ;
@@ -346,8 +356,7 @@ constexpr System::Action_1<GlobalNamespace::GlobalNamespace__SelectRegionViewCon
 /// @brief Method HandleRegionSelectionDropdownDidSelectCell addr 0x2181644 size 0x44 virtual false final false
  void HandleRegionSelectionDropdownDidSelectCell(HMUI::DropdownWithTableView dropdown, int32_t idx) ;
 
-// Ctor Parameters []
-explicit SelectRegionViewController() ;
+static GlobalNamespace::SelectRegionViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2181688 size 0x8 virtual false final false
  void _ctor() ;

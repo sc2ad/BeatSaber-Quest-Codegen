@@ -3,14 +3,14 @@
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_def.hpp"
 #include <cstdint>
 namespace HoudiniEngineUnity {
-class HEU_GenerateGeoCache;
+class HEU_GeoGroup;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeoGroup;
+class HEU_GenerateGeoCache;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -103,8 +103,7 @@ constexpr bool __get__bPartInstanced() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_LoadBufferMesh() ;
+static HoudiniEngineUnity::HEU_LoadBufferMesh New_ctor() ;
 
 /// @brief Method .ctor addr 0x203a388 size 0x8 virtual false final false
  void _ctor() ;

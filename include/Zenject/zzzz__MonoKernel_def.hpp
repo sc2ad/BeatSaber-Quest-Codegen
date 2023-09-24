@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class InjectTypeInfo;
+class TickableManager;
 }
 namespace Zenject {
-class TickableManager;
+class InjectTypeInfo;
 }
 namespace Zenject {
 class DisposableManager;
@@ -119,8 +119,7 @@ constexpr bool __get__isDestroyed() const;
 /// @brief Method OnDestroy addr 0x2d9c1b8 size 0x54 virtual true final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit MonoKernel() ;
+static Zenject::MonoKernel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9b4d8 size 0x8 virtual false final false
  void _ctor() ;

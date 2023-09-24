@@ -96,8 +96,7 @@ constexpr float_t __get_time() const;
 /// @brief Method UpdateLocalDistance addr 0x225770c size 0xa8 virtual false final false
  void UpdateLocalDistance(GlobalNamespace::TrailElement prev) ;
 
-// Ctor Parameters []
-explicit TrailElement() ;
+static GlobalNamespace::TrailElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x22577b4 size 0x8 virtual false final false
  void _ctor() ;

@@ -87,8 +87,7 @@ constexpr Polyglot::GoogleDriveDownloadFormat __get_format() const;
 /// @brief Method set_Format addr 0x2672c38 size 0x8 virtual false final false
  void set_Format(Polyglot::GoogleDriveDownloadFormat value) ;
 
-// Ctor Parameters []
-explicit LocalizationAsset() ;
+static Polyglot::LocalizationAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2672c40 size 0x8 virtual false final false
  void _ctor() ;

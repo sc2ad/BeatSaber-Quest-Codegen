@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaKeyGenerationParameters_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaParameters_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters._ctor
 template<>
 
@@ -43,8 +43,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters
 constexpr Org::BouncyCastle::Crypto::Parameters::DsaParameters Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters::__get_parameters() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::DsaParameters, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DsaParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters::DsaKeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters)  : Org::BouncyCastle::Crypto::KeyGenerationParameters(THROW_UNLESS(::il2cpp_utils::New<DsaKeyGenerationParameters>(random, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters::New_ctor(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters>(random, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters::_ctor(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters>::get(),

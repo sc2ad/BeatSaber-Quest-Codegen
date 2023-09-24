@@ -3,41 +3,41 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System::Collections {
+class IList;
 }
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extension;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class ArrayList;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Collections {
 class IEnumerator;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace System::Collections {
-class IList;
+class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extension;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -309,44 +309,37 @@ static Org::BouncyCastle::Asn1::X509::X509Extensions GetInstance(Org::BouncyCast
 /// @brief Method GetInstance addr 0x110ec7c size 0x1ec virtual false final false
 static Org::BouncyCastle::Asn1::X509::X509Extensions GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit X509Extensions(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::X509Extensions New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1113ce0 size 0x7f0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "extensions", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit X509Extensions(System::Collections::IDictionary extensions) ;
+static Org::BouncyCastle::Asn1::X509::X509Extensions New_ctor(System::Collections::IDictionary extensions) ;
 
 /// @brief Method .ctor addr 0x11144d0 size 0xc virtual false final false
  void _ctor(System::Collections::IDictionary extensions) ;
 
-// Ctor Parameters [CppParam { name: "ordering", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit X509Extensions(System::Collections::IList ordering, System::Collections::IDictionary extensions) ;
+static Org::BouncyCastle::Asn1::X509::X509Extensions New_ctor(System::Collections::IList ordering, System::Collections::IDictionary extensions) ;
 
 /// @brief Method .ctor addr 0x11144dc size 0x564 virtual false final false
  void _ctor(System::Collections::IList ordering, System::Collections::IDictionary extensions) ;
 
-// Ctor Parameters [CppParam { name: "oids", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "values", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit X509Extensions(System::Collections::IList oids, System::Collections::IList values) ;
+static Org::BouncyCastle::Asn1::X509::X509Extensions New_ctor(System::Collections::IList oids, System::Collections::IList values) ;
 
 /// @brief Method .ctor addr 0x1111e98 size 0x4fc virtual false final false
  void _ctor(System::Collections::IList oids, System::Collections::IList values) ;
 
-// Ctor Parameters [CppParam { name: "extensions", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
-explicit X509Extensions(System::Collections::Hashtable extensions) ;
+static Org::BouncyCastle::Asn1::X509::X509Extensions New_ctor(System::Collections::Hashtable extensions) ;
 
 /// @brief Method .ctor addr 0x1114a40 size 0xc virtual false final false
  void _ctor(System::Collections::Hashtable extensions) ;
 
-// Ctor Parameters [CppParam { name: "ordering", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
-explicit X509Extensions(System::Collections::ArrayList ordering, System::Collections::Hashtable extensions) ;
+static Org::BouncyCastle::Asn1::X509::X509Extensions New_ctor(System::Collections::ArrayList ordering, System::Collections::Hashtable extensions) ;
 
 /// @brief Method .ctor addr 0x1114a4c size 0x4d8 virtual false final false
  void _ctor(System::Collections::ArrayList ordering, System::Collections::Hashtable extensions) ;
 
-// Ctor Parameters [CppParam { name: "oids", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "values", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }]
-explicit X509Extensions(System::Collections::ArrayList oids, System::Collections::ArrayList values) ;
+static Org::BouncyCastle::Asn1::X509::X509Extensions New_ctor(System::Collections::ArrayList oids, System::Collections::ArrayList values) ;
 
 /// @brief Method .ctor addr 0x1114f24 size 0x4a4 virtual false final false
  void _ctor(System::Collections::ArrayList oids, System::Collections::ArrayList values) ;

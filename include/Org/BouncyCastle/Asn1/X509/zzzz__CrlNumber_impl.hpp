@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "number", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::CrlNumber::CrlNumber(Org::BouncyCastle::Math::BigInteger number)  : Org::BouncyCastle::Asn1::DerInteger(THROW_UNLESS(::il2cpp_utils::New<CrlNumber>(number))) {}
+ Org::BouncyCastle::Asn1::X509::CrlNumber Org::BouncyCastle::Asn1::X509::CrlNumber::New_ctor(Org::BouncyCastle::Math::BigInteger number)  {
+Org::BouncyCastle::Asn1::X509::CrlNumber o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::CrlNumber>(number))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::CrlNumber::_ctor(Org::BouncyCastle::Math::BigInteger number)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::CrlNumber>::get(),

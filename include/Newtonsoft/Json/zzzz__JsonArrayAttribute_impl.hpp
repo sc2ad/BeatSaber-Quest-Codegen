@@ -110,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::JsonArrayAttribute::JsonArrayAttribute()  : Newtonsoft::Json::JsonContainerAttribute(THROW_UNLESS(::il2cpp_utils::New<JsonArrayAttribute>())) {}
+ Newtonsoft::Json::JsonArrayAttribute Newtonsoft::Json::JsonArrayAttribute::New_ctor()  {
+Newtonsoft::Json::JsonArrayAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonArrayAttribute>())};
+return o;
+}
  void Newtonsoft::Json::JsonArrayAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonArrayAttribute>::get(),
@@ -121,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "allowNullItems", ty: "bool", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonArrayAttribute::JsonArrayAttribute(bool allowNullItems)  : Newtonsoft::Json::JsonContainerAttribute(THROW_UNLESS(::il2cpp_utils::New<JsonArrayAttribute>(allowNullItems))) {}
+ Newtonsoft::Json::JsonArrayAttribute Newtonsoft::Json::JsonArrayAttribute::New_ctor(bool allowNullItems)  {
+Newtonsoft::Json::JsonArrayAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonArrayAttribute>(allowNullItems))};
+return o;
+}
  void Newtonsoft::Json::JsonArrayAttribute::_ctor(bool allowNullItems)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonArrayAttribute>::get(),
@@ -132,8 +136,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, allowNullItems);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonArrayAttribute::JsonArrayAttribute(::StringW id)  : Newtonsoft::Json::JsonContainerAttribute(THROW_UNLESS(::il2cpp_utils::New<JsonArrayAttribute>(id))) {}
+ Newtonsoft::Json::JsonArrayAttribute Newtonsoft::Json::JsonArrayAttribute::New_ctor(::StringW id)  {
+Newtonsoft::Json::JsonArrayAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonArrayAttribute>(id))};
+return o;
+}
  void Newtonsoft::Json::JsonArrayAttribute::_ctor(::StringW id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonArrayAttribute>::get(),

@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__SM4Engine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::SM4Engine.tau
 template<>
 
@@ -359,8 +359,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::SM4Engine::SM4Engine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM4Engine>())) {}
+ Org::BouncyCastle::Crypto::Engines::SM4Engine Org::BouncyCastle::Crypto::Engines::SM4Engine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::SM4Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::SM4Engine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::SM4Engine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::SM4Engine>::get(),

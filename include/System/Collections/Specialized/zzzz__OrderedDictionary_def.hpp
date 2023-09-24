@@ -2,44 +2,50 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
+class ArrayList;
 }
 namespace System::Collections {
-class IEnumerator;
+class ICollection;
 }
 namespace System::Collections {
-class IEqualityComparer;
+class Hashtable;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+class SerializationInfo;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
-class ArrayList;
+class IEnumerator;
+}
+namespace System::Collections::Specialized {
+class System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator;
+}
+namespace System::Collections::Specialized {
+class System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection;
 }
 namespace System::Collections {
-class Hashtable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class ICollection;
+class IDictionaryEnumerator;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -128,8 +134,7 @@ constexpr System::Collections::IEnumerator __get__arrayEnumerator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "array", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "objectReturnType", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator(System::Collections::ArrayList array, int32_t objectReturnType) ;
+static System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator New_ctor(System::Collections::ArrayList array, int32_t objectReturnType) ;
 
 /// @brief Method .ctor addr 0x27abb7c size 0x4c virtual false final false
  void _ctor(System::Collections::ArrayList array, int32_t objectReturnType) ;
@@ -228,8 +233,7 @@ constexpr bool __get__isKeys() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "array", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
-explicit System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection(System::Collections::ArrayList array, bool isKeys) ;
+static System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection New_ctor(System::Collections::ArrayList array, bool isKeys) ;
 
 /// @brief Method .ctor addr 0x27ab304 size 0x30 virtual false final false
  void _ctor(System::Collections::ArrayList array, bool isKeys) ;
@@ -382,26 +386,22 @@ constexpr System::Runtime::Serialization::SerializationInfo __get__siInfo() cons
 
 // Methods
 
-// Ctor Parameters []
-explicit OrderedDictionary() ;
+static System::Collections::Specialized::OrderedDictionary New_ctor() ;
 
 /// @brief Method .ctor addr 0x27ab134 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OrderedDictionary(int32_t capacity) ;
+static System::Collections::Specialized::OrderedDictionary New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x27ab154 size 0x2c virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
-explicit OrderedDictionary(int32_t capacity, System::Collections::IEqualityComparer comparer) ;
+static System::Collections::Specialized::OrderedDictionary New_ctor(int32_t capacity, System::Collections::IEqualityComparer comparer) ;
 
 /// @brief Method .ctor addr 0x27ab180 size 0x30 virtual false final false
  void _ctor(int32_t capacity, System::Collections::IEqualityComparer comparer) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit OrderedDictionary(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Collections::Specialized::OrderedDictionary New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27ab1b0 size 0x28 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

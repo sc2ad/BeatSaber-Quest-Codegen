@@ -60,8 +60,10 @@ constexpr void GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::__set__nodeP
 constexpr GlobalNamespace::NodePoseSyncStateManager GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::__get__nodePoseSyncStateManager() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::NodePoseSyncStateManager, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "nodePoseSyncStateManager", ty: "GlobalNamespace::NodePoseSyncStateManager", modifiers: "", def_value: None }]
- GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::MockPlayerLobbyPoseGeneratorMirror(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager)  : GlobalNamespace::MockPlayerLobbyPoseGenerator(THROW_UNLESS(::il2cpp_utils::New<MockPlayerLobbyPoseGeneratorMirror>(multiplayerSessionManager, nodePoseSyncStateManager))) {}
+ GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager)  {
+GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror>(multiplayerSessionManager, nodePoseSyncStateManager))};
+return o;
+}
  void GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror>::get(),

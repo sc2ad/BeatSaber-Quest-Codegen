@@ -5,14 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Zenject {
+class Context;
+}
 namespace UnityEngine {
 class Component;
 }
 namespace Zenject {
-class InjectTypeInfo;
+struct Zenject__ZenjectBinding__BindTypes;
 }
 namespace Zenject {
-class Context;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -72,6 +75,8 @@ __BaseType = 3,
 constexpr operator __Zenject__ZenjectBinding__BindTypes_Unwrapped () const noexcept {
 return std::bit_cast<__Zenject__ZenjectBinding__BindTypes_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -220,8 +225,7 @@ constexpr Zenject::Zenject__ZenjectBinding__BindTypes __get__bindType() const;
 /// @brief Method Start addr 0x2d7c720 size 0x4 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit ZenjectBinding() ;
+static Zenject::ZenjectBinding New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7c724 size 0x58 virtual false final false
  void _ctor() ;

@@ -6,10 +6,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Globalization {
-struct CompareOptions;
+class SortKey;
 }
 namespace System::Globalization {
-class SortKey;
+struct CompareOptions;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
@@ -192,8 +192,7 @@ constexpr bool __get_frenchSorted() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "lcid", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SortKeyBuffer(int32_t lcid) ;
+static Mono::Globalization::Unicode::SortKeyBuffer New_ctor(int32_t lcid) ;
 
 /// @brief Method .ctor addr 0x22ab988 size 0x8 virtual false final false
  void _ctor(int32_t lcid) ;

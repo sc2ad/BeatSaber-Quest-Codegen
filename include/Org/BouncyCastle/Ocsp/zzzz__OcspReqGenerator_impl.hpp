@@ -1,15 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Ocsp/zzzz__OcspReqGenerator_def.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__CertificateID_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__OcspReq_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__OcspReqGenerator_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__OcspReq_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__Request_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject._ctor
@@ -58,8 +59,10 @@ constexpr void Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerato
 constexpr Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject::__get_extensions() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::X509Extensions, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "certId", ty: "Org::BouncyCastle::Ocsp::CertificateID", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject>(certId, extensions))) {}
+ Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject::New_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  {
+Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject>(certId, extensions))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject::_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject>::get(),
@@ -373,8 +376,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerable, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Ocsp::OcspReqGenerator::OcspReqGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OcspReqGenerator>())) {}
+ Org::BouncyCastle::Ocsp::OcspReqGenerator Org::BouncyCastle::Ocsp::OcspReqGenerator::New_ctor()  {
+Org::BouncyCastle::Ocsp::OcspReqGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspReqGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspReqGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspReqGenerator>::get(),

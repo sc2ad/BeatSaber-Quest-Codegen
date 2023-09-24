@@ -372,8 +372,10 @@ constexpr void System::Reflection::SignatureConstructedGenericType::__set__gener
 constexpr ::ArrayW<System::Type> System::Reflection::SignatureConstructedGenericType::__get__genericTypeArguments() const {
 return ::cordl_internals::getInstanceField<::ArrayW<System::Type>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "genericTypeDefinition", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "typeArguments", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }]
- System::Reflection::SignatureConstructedGenericType::SignatureConstructedGenericType(System::Type genericTypeDefinition, ::ArrayW<System::Type> typeArguments)  : System::Reflection::SignatureType(THROW_UNLESS(::il2cpp_utils::New<SignatureConstructedGenericType>(genericTypeDefinition, typeArguments))) {}
+ System::Reflection::SignatureConstructedGenericType System::Reflection::SignatureConstructedGenericType::New_ctor(System::Type genericTypeDefinition, ::ArrayW<System::Type> typeArguments)  {
+System::Reflection::SignatureConstructedGenericType o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::SignatureConstructedGenericType>(genericTypeDefinition, typeArguments))};
+return o;
+}
  void System::Reflection::SignatureConstructedGenericType::_ctor(System::Type genericTypeDefinition, ::ArrayW<System::Type> typeArguments)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::SignatureConstructedGenericType>::get(),

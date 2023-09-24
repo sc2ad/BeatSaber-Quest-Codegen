@@ -225,8 +225,10 @@ constexpr void System::TermInfoReader::__set_intOffset(int32_t value)  {
 constexpr int32_t System::TermInfoReader::__get_intOffset() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "term", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: None }]
- System::TermInfoReader::TermInfoReader(::StringW term, ::StringW filename)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TermInfoReader>(term, filename))) {}
+ System::TermInfoReader System::TermInfoReader::New_ctor(::StringW term, ::StringW filename)  {
+System::TermInfoReader o{THROW_UNLESS(::il2cpp_utils::New<System::TermInfoReader>(term, filename))};
+return o;
+}
  void System::TermInfoReader::_ctor(::StringW term, ::StringW filename)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TermInfoReader>::get(),
@@ -236,8 +238,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, term, filename);
 }
-// Ctor Parameters [CppParam { name: "term", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::TermInfoReader::TermInfoReader(::StringW term, ::ArrayW<uint8_t> buffer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TermInfoReader>(term, buffer))) {}
+ System::TermInfoReader System::TermInfoReader::New_ctor(::StringW term, ::ArrayW<uint8_t> buffer)  {
+System::TermInfoReader o{THROW_UNLESS(::il2cpp_utils::New<System::TermInfoReader>(term, buffer))};
+return o;
+}
  void System::TermInfoReader::_ctor(::StringW term, ::ArrayW<uint8_t> buffer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TermInfoReader>::get(),

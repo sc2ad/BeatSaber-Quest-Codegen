@@ -2,9 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Xml::Schema {
-class XmlSchemaDatatype;
-}
 namespace System {
 class Exception;
 }
@@ -13,6 +10,9 @@ struct DateTime;
 }
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -72,8 +72,7 @@ constexpr explicit DateTimeFacetsChecker(void* ptr) noexcept : System::Xml::Sche
 /// @brief Method MatchEnumeration addr 0x272ecac size 0x138 virtual false final false
  bool MatchEnumeration(System::DateTime value, System::Collections::ArrayList enumeration, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
-// Ctor Parameters []
-explicit DateTimeFacetsChecker() ;
+static System::Xml::Schema::DateTimeFacetsChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x272ee40 size 0x8 virtual false final false
  void _ctor() ;

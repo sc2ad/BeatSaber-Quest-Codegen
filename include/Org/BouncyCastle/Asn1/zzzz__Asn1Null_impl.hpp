@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Asn1Null::Asn1Null()  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<Asn1Null>())) {}
+ Org::BouncyCastle::Asn1::Asn1Null Org::BouncyCastle::Asn1::Asn1Null::New_ctor()  {
+Org::BouncyCastle::Asn1::Asn1Null o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1Null>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1Null::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1Null>::get(),

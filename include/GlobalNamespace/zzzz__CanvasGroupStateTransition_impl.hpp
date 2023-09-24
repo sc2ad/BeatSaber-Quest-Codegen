@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_impl.hpp"
 #include "GlobalNamespace/zzzz__CanvasGroupStateTransition_def.hpp"
-#include "Tweening/zzzz__FloatTween_def.hpp"
-#include "GlobalNamespace/zzzz__CanvasGroupTransitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
+#include "GlobalNamespace/zzzz__CanvasGroupTransitionSO_def.hpp"
+#include "Tweening/zzzz__FloatTween_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CanvasGroupStateTransition.get_transition
 template<>
 
@@ -431,8 +431,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, endAlpha);
 }
-// Ctor Parameters []
- GlobalNamespace::CanvasGroupStateTransition::CanvasGroupStateTransition()  : GlobalNamespace::BaseStateTransition_1<UnityEngine::CanvasGroup>(THROW_UNLESS(::il2cpp_utils::New<CanvasGroupStateTransition>())) {}
+ GlobalNamespace::CanvasGroupStateTransition GlobalNamespace::CanvasGroupStateTransition::New_ctor()  {
+GlobalNamespace::CanvasGroupStateTransition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CanvasGroupStateTransition>())};
+return o;
+}
  void GlobalNamespace::CanvasGroupStateTransition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CanvasGroupStateTransition>::get(),

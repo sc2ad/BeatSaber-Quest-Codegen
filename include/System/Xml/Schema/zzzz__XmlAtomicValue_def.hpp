@@ -9,20 +9,26 @@
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
-namespace System {
-class ICloneable;
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System {
 struct TypeCode;
 }
-namespace System {
-class Type;
+namespace System::Xml::Schema {
+class System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName;
+}
+namespace System::Xml::Schema {
+struct System__Xml__Schema__XmlAtomicValue__Union;
 }
 namespace System {
 struct DateTime;
 }
-namespace System::Xml::Schema {
-class XmlSchemaType;
+namespace System {
+class ICloneable;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -171,8 +177,7 @@ constexpr ::StringW __get_ns() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: None }]
-explicit System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName(::StringW prefix, ::StringW ns) ;
+static System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName New_ctor(::StringW prefix, ::StringW ns) ;
 
 /// @brief Method .ctor addr 0x2732a5c size 0x2c virtual false final false
  void _ctor(::StringW prefix, ::StringW ns) ;
@@ -290,56 +295,47 @@ constexpr System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePre
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "bool", modifiers: "", def_value: None }]
-explicit XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, bool value) ;
+static System::Xml::Schema::XmlAtomicValue New_ctor(System::Xml::Schema::XmlSchemaType xmlType, bool value) ;
 
 /// @brief Method .ctor addr 0x27323d8 size 0x8c virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType xmlType, bool value) ;
 
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, System::DateTime value) ;
+static System::Xml::Schema::XmlAtomicValue New_ctor(System::Xml::Schema::XmlSchemaType xmlType, System::DateTime value) ;
 
 /// @brief Method .ctor addr 0x2732464 size 0x88 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType xmlType, System::DateTime value) ;
 
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "double_t", modifiers: "", def_value: None }]
-explicit XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, double_t value) ;
+static System::Xml::Schema::XmlAtomicValue New_ctor(System::Xml::Schema::XmlSchemaType xmlType, double_t value) ;
 
 /// @brief Method .ctor addr 0x27324ec size 0x90 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType xmlType, double_t value) ;
 
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-explicit XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, int32_t value) ;
+static System::Xml::Schema::XmlAtomicValue New_ctor(System::Xml::Schema::XmlSchemaType xmlType, int32_t value) ;
 
 /// @brief Method .ctor addr 0x273257c size 0x88 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType xmlType, int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: None }]
-explicit XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, int64_t value) ;
+static System::Xml::Schema::XmlAtomicValue New_ctor(System::Xml::Schema::XmlSchemaType xmlType, int64_t value) ;
 
 /// @brief Method .ctor addr 0x2732604 size 0x88 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType xmlType, int64_t value) ;
 
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value) ;
+static System::Xml::Schema::XmlAtomicValue New_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value) ;
 
 /// @brief Method .ctor addr 0x273268c size 0xa4 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nsResolver", ty: "System::Xml::IXmlNamespaceResolver", modifiers: "", def_value: None }]
-explicit XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value, System::Xml::IXmlNamespaceResolver nsResolver) ;
+static System::Xml::Schema::XmlAtomicValue New_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 /// @brief Method .ctor addr 0x2732730 size 0x1ac virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value) ;
+static System::Xml::Schema::XmlAtomicValue New_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method .ctor addr 0x2732a88 size 0xa4 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "nsResolver", ty: "System::Xml::IXmlNamespaceResolver", modifiers: "", def_value: None }]
-explicit XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value, System::Xml::IXmlNamespaceResolver nsResolver) ;
+static System::Xml::Schema::XmlAtomicValue New_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
 /// @brief Method .ctor addr 0x2732b2c size 0x1f0 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value, System::Xml::IXmlNamespaceResolver nsResolver) ;

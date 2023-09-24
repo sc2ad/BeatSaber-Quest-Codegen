@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System {
-class Action;
+template<typename T>
+class Action_1;
 }
 namespace GlobalNamespace {
 class IComboController;
 }
 namespace System {
-template<typename T>
-class Action_1;
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,8 +88,7 @@ constexpr System::Action __get_comboBreakingEventHappenedEvent() const;
 /// @brief Method remove_comboBreakingEventHappenedEvent addr 0x210e4c0 size 0x9c virtual true final true
  void remove_comboBreakingEventHappenedEvent(System::Action value) ;
 
-// Ctor Parameters []
-explicit MockComboController() ;
+static GlobalNamespace::MockComboController New_ctor() ;
 
 /// @brief Method .ctor addr 0x210e55c size 0x8 virtual false final false
  void _ctor() ;

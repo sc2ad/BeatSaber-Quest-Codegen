@@ -3,20 +3,20 @@
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace UnityEngine::Experimental::Rendering {
+struct TextureCreationFlags;
+}
 namespace UnityEngine {
 struct TextureFormat;
 }
 namespace UnityEngine::Experimental::Rendering {
-struct TextureCreationFlags;
-}
-namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
-}
-namespace UnityEngine {
-struct Color32;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct DefaultFormat;
+}
+namespace UnityEngine {
+struct Color32;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -87,44 +87,37 @@ static void Internal_Create(UnityEngine::Texture3D mono, int32_t w, int32_t h, i
 /// @brief Method SetPixels32 addr 0x2b3b678 size 0x48 virtual false final false
  void SetPixels32(::ArrayW<UnityEngine::Color32> colors) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::DefaultFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
-explicit Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
+static UnityEngine::Texture3D New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
 /// @brief Method .ctor addr 0x2b3b6c0 size 0x54 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
-explicit Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
+static UnityEngine::Texture3D New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
 /// @brief Method .ctor addr 0x2b3b714 size 0xa0 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) ;
+static UnityEngine::Texture3D New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) ;
 
 /// @brief Method .ctor addr 0x2b3b7b4 size 0xec virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount) ;
+static UnityEngine::Texture3D New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount) ;
 
 /// @brief Method .ctor addr 0x2b3b8f8 size 0x14c virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nativeTex", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::cordl_internals::intptr_t nativeTex) ;
+static UnityEngine::Texture3D New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::cordl_internals::intptr_t nativeTex) ;
 
 /// @brief Method .ctor addr 0x2b3ba44 size 0x134 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::cordl_internals::intptr_t nativeTex) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipChain", ty: "bool", modifiers: "", def_value: None }]
-explicit Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain) ;
+static UnityEngine::Texture3D New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain) ;
 
 /// @brief Method .ctor addr 0x2b3bb78 size 0x10 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipChain", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nativeTex", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain, ::cordl_internals::intptr_t nativeTex) ;
+static UnityEngine::Texture3D New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain, ::cordl_internals::intptr_t nativeTex) ;
 
 /// @brief Method .ctor addr 0x2b3bb88 size 0x10 virtual false final false
  void _ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain, ::cordl_internals::intptr_t nativeTex) ;

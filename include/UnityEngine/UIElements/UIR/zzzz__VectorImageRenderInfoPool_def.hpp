@@ -7,12 +7,15 @@ namespace System {
 template<typename TResult>
 class Func_1;
 }
-namespace UnityEngine::UIElements::UIR {
-class VectorImageRenderInfo;
-}
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine::UIElements::UIR {
+class VectorImageRenderInfo;
+}
+namespace UnityEngine::UIElements::UIR {
+class UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -84,8 +87,7 @@ static System::Action_1<UnityEngine::UIElements::UIR::VectorImageRenderInfo> __g
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c54288 size 0x8 virtual false final false
  void _ctor() ;
@@ -144,8 +146,7 @@ constexpr explicit VectorImageRenderInfoPool(void* ptr) noexcept : UnityEngine::
 
 // Methods
 
-// Ctor Parameters []
-explicit VectorImageRenderInfoPool() ;
+static UnityEngine::UIElements::UIR::VectorImageRenderInfoPool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c5409c size 0x188 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayoutAttribute_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute.get_stateType
 template<>
 
@@ -658,8 +658,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute::InputControlLayoutAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<InputControlLayoutAttribute>())) {}
+ UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute::New_ctor()  {
+UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute>())};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute>::get(),

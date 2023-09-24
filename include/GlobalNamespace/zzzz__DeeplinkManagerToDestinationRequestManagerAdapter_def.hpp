@@ -2,26 +2,26 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
-class IDestinationRequestManager;
-}
-namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace GlobalNamespace {
 class IDeeplinkManager;
 }
 namespace GlobalNamespace {
 class Deeplink;
 }
+namespace GlobalNamespace {
+class IDestinationRequestManager;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
+class MenuDestination;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -125,8 +125,7 @@ constexpr GlobalNamespace::MenuDestination __get__currentMenuDestinationRequest(
 /// @brief Method HandleDeeplinkManagerDidReceiveDeeplink addr 0x21bbf50 size 0x5c4 virtual false final false
  void HandleDeeplinkManagerDidReceiveDeeplink(GlobalNamespace::Deeplink deeplink) ;
 
-// Ctor Parameters []
-explicit DeeplinkManagerToDestinationRequestManagerAdapter() ;
+static GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bc740 size 0x8 virtual false final false
  void _ctor() ;

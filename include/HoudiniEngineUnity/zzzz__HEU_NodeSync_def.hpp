@@ -85,8 +85,7 @@ static void CreateNodeSync(HoudiniEngineUnity::HEU_SessionBase session, ::String
 /// @brief Method SyncUpdate addr 0x2038d14 size 0x10c virtual true final false
  void SyncUpdate() ;
 
-// Ctor Parameters []
-explicit HEU_NodeSync() ;
+static HoudiniEngineUnity::HEU_NodeSync New_ctor() ;
 
 /// @brief Method .ctor addr 0x2038e20 size 0x4 virtual false final false
  void _ctor() ;

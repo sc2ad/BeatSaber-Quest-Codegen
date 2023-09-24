@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyCenterStageLayoutAnimator_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator.StartCountdown
 template<>
 
@@ -146,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, from, to, duration);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::MultiplayerLobbyCenterStageLayoutAnimator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLobbyCenterStageLayoutAnimator>())) {}
+ GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::New_ctor()  {
+GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator>::get(),

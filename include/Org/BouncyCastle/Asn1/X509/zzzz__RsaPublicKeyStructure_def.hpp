@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -88,14 +88,12 @@ static Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure GetInstance(Org::Bou
 /// @brief Method GetInstance addr 0x110bfb0 size 0x178 virtual false final false
 static Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "modulus", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicExponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit RsaPublicKeyStructure(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent) ;
+static Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure New_ctor(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent) ;
 
 /// @brief Method .ctor addr 0x110c250 size 0x13c virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit RsaPublicKeyStructure(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x110c128 size 0x128 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

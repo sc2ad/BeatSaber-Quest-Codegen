@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class CertifiedKeyPair;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class CertifiedKeyPair;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -102,8 +102,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_rspInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertResponse(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::CertResponse New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdd86b8 size 0x148 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -111,14 +110,12 @@ explicit CertResponse(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xdd8478 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::CertResponse GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "certReqId", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "status", ty: "Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo", modifiers: "", def_value: None }]
-explicit CertResponse(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo status) ;
+static Org::BouncyCastle::Asn1::Cmp::CertResponse New_ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo status) ;
 
 /// @brief Method .ctor addr 0xdd8988 size 0xc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo status) ;
 
-// Ctor Parameters [CppParam { name: "certReqId", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "status", ty: "Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo", modifiers: "", def_value: None }, CppParam { name: "certifiedKeyPair", ty: "Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair", modifiers: "", def_value: None }, CppParam { name: "rspInfo", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit CertResponse(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo status, Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair certifiedKeyPair, Org::BouncyCastle::Asn1::Asn1OctetString rspInfo) ;
+static Org::BouncyCastle::Asn1::Cmp::CertResponse New_ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo status, Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair certifiedKeyPair, Org::BouncyCastle::Asn1::Asn1OctetString rspInfo) ;
 
 /// @brief Method .ctor addr 0xdd8994 size 0xb8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo status, Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair certifiedKeyPair, Org::BouncyCastle::Asn1::Asn1OctetString rspInfo) ;

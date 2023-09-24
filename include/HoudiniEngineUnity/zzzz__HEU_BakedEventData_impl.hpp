@@ -1,9 +1,9 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventData_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_BakedEventData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_BakedEventData._ctor
 template<>
 
@@ -27,8 +27,10 @@ constexpr void HoudiniEngineUnity::HEU_BakedEventData::__set_IsNewBake(bool valu
 constexpr bool HoudiniEngineUnity::HEU_BakedEventData::__get_IsNewBake() const {
 return ::cordl_internals::getInstanceField<bool, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "asset", ty: "HoudiniEngineUnity::HEU_HoudiniAsset", modifiers: "", def_value: None }, CppParam { name: "successful", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "outputObjects", ty: "System::Collections::Generic::List_1<UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "isNewBake", ty: "bool", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HEU_BakedEventData::HEU_BakedEventData(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects, bool isNewBake)  : HoudiniEngineUnity::HEU_AssetEventData(THROW_UNLESS(::il2cpp_utils::New<HEU_BakedEventData>(asset, successful, outputObjects, isNewBake))) {}
+ HoudiniEngineUnity::HEU_BakedEventData HoudiniEngineUnity::HEU_BakedEventData::New_ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects, bool isNewBake)  {
+HoudiniEngineUnity::HEU_BakedEventData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_BakedEventData>(asset, successful, outputObjects, isNewBake))};
+return o;
+}
  void HoudiniEngineUnity::HEU_BakedEventData::_ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects, bool isNewBake)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_BakedEventData>::get(),

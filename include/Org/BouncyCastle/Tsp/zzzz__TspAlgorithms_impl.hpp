@@ -102,8 +102,10 @@ return ::cordl_internals::getStaticField<::StringW, "SM3", ::il2cpp_utils::il2cp
  System::Collections::IList Org::BouncyCastle::Tsp::TspAlgorithms::__get_Allowed()  {
 return ::cordl_internals::getStaticField<System::Collections::IList, "Allowed", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TspAlgorithms>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Tsp::TspAlgorithms::TspAlgorithms()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TspAlgorithms>())) {}
+ Org::BouncyCastle::Tsp::TspAlgorithms Org::BouncyCastle::Tsp::TspAlgorithms::New_ctor()  {
+Org::BouncyCastle::Tsp::TspAlgorithms o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TspAlgorithms>())};
+return o;
+}
  void Org::BouncyCastle::Tsp::TspAlgorithms::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TspAlgorithms>::get(),

@@ -6,14 +6,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
 namespace GlobalNamespace {
 class IConnection;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
 }
 namespace GlobalNamespace {
 template<typename T>
@@ -28,46 +28,52 @@ class IgnoranceClient;
 namespace IgnoranceCore {
 class IgnoranceServer;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace BGNet::Core {
 class ITimeProvider;
 }
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-class IConnectionManager;
-}
-namespace System {
-class IDisposable;
-}
-namespace IgnoranceCore {
-struct IgnoranceChannelTypes;
-}
-namespace System {
-class Action;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace BGNet::Core {
 class ITaskUtility;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
 namespace GlobalNamespace {
-class IPollable;
+class GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__IgnoranceConnectionManager__StartServerParams;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection;
+}
+namespace GlobalNamespace {
 struct DisconnectedReason;
+}
+namespace IgnoranceCore {
+struct IgnoranceChannelTypes;
+}
+namespace System::Threading {
+class CancellationTokenSource;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
@@ -77,17 +83,38 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0;
+}
+namespace GlobalNamespace {
+class IConnectionManager;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__IgnoranceConnectionManager___DisposeAsync_d__77;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__IgnoranceConnectionManager__ConnectionState;
+}
+namespace GlobalNamespace {
+class IPollable;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -175,6 +202,8 @@ __Disposed = 4,
 constexpr operator __GlobalNamespace__IgnoranceConnectionManager__ConnectionState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__IgnoranceConnectionManager__ConnectionState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -282,8 +311,7 @@ constexpr bool __get_enableBackgroundSentry() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase() ;
+static GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnectionParamsBase New_ctor() ;
 
 /// @brief Method .ctor addr 0xdb1d2c size 0x10 virtual false final false
  void _ctor() ;
@@ -367,8 +395,7 @@ constexpr ::StringW __get_privateKey() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__IgnoranceConnectionManager__StartServerParams() ;
+static GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__StartServerParams New_ctor() ;
 
 /// @brief Method .ctor addr 0xdb1d3c size 0x10 virtual false final false
  void _ctor() ;
@@ -464,8 +491,7 @@ constexpr ::StringW __get_rootCertificate() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams() ;
+static GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__ConnectToServerParams New_ctor() ;
 
 /// @brief Method .ctor addr 0xdabcb0 size 0x10 virtual false final false
  void _ctor() ;
@@ -579,8 +605,7 @@ constexpr bool __get__isConnectionOwner_k__BackingField() const;
 /// @brief Method set_isConnectionOwner addr 0xdb1d74 size 0xc virtual false final false
  void set_isConnectionOwner(bool value) ;
 
-// Ctor Parameters [CppParam { name: "connectionManager", ty: "GlobalNamespace::IgnoranceConnectionManager", modifiers: "", def_value: None }, CppParam { name: "peerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection(GlobalNamespace::IgnoranceConnectionManager connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
+static GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager__IgnoranceConnection New_ctor(GlobalNamespace::IgnoranceConnectionManager connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
 
 /// @brief Method .ctor addr 0xdb1430 size 0x58 virtual false final false
  void _ctor(GlobalNamespace::IgnoranceConnectionManager connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
@@ -646,8 +671,7 @@ constexpr IgnoranceCore::IgnoranceClient __get_client() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0() ;
+static GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0xdb1dcc size 0x8 virtual false final false
  void _ctor() ;
@@ -710,8 +734,7 @@ constexpr IgnoranceCore::IgnoranceServer __get_server() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1() ;
+static GlobalNamespace::GlobalNamespace__IgnoranceConnectionManager____c__DisplayClass77_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0xdb1ddc size 0x8 virtual false final false
  void _ctor() ;
@@ -1242,14 +1265,12 @@ constexpr ::StringW __get__serverUserName_k__BackingField() const;
 /// @brief Method set_serverUserName addr 0xdb0540 size 0x8 virtual false final false
  void set_serverUserName(::StringW value) ;
 
-// Ctor Parameters []
-explicit IgnoranceConnectionManager() ;
+static GlobalNamespace::IgnoranceConnectionManager New_ctor() ;
 
 /// @brief Method .ctor addr 0xdaade0 size 0xac virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }]
-explicit IgnoranceConnectionManager(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility) ;
+static GlobalNamespace::IgnoranceConnectionManager New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility) ;
 
 /// @brief Method .ctor addr 0xdb0548 size 0x1b0 virtual false final false
  void _ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility) ;

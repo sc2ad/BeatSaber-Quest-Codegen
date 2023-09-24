@@ -3,7 +3,7 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -12,10 +12,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_otherRevInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "otherRevInfoFormat", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "otherRevInfo", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit OtherRevocationInfoFormat(Org::BouncyCastle::Asn1::DerObjectIdentifier otherRevInfoFormat, Org::BouncyCastle::Asn1::Asn1Encodable otherRevInfo) ;
+static Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier otherRevInfoFormat, Org::BouncyCastle::Asn1::Asn1Encodable otherRevInfo) ;
 
 /// @brief Method .ctor addr 0xdeeacc size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier otherRevInfoFormat, Org::BouncyCastle::Asn1::Asn1Encodable otherRevInfo) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OtherRevocationInfoFormat(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdeeaf8 size 0xac virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

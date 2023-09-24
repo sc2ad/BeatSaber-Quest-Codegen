@@ -7,19 +7,19 @@
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine::ProBuilder {
 class WingedEdge;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine::ProBuilder {
-class Face;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

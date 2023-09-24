@@ -25,8 +25,10 @@ constexpr void GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO::__s
 constexpr GlobalNamespace::AppInitScenesTransitionSetupDataSO GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO::__get_appInitScenesTransitionSetupData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::AppInitScenesTransitionSetupDataSO, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO::AppInitScenesTransitionSetupDataContainerSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<AppInitScenesTransitionSetupDataContainerSO>())) {}
+ GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO::New_ctor()  {
+GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>())};
+return o;
+}
  void GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>::get(),

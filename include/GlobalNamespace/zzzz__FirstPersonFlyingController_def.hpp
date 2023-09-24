@@ -3,11 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class MouseLook;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class VRCenterAdjust;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 class Transform;
@@ -15,11 +18,8 @@ class Transform;
 namespace GlobalNamespace {
 class VRController;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Camera;
+namespace GlobalNamespace {
+class MouseLook;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -154,8 +154,7 @@ constexpr UnityEngine::Transform __get__cameraTransform() const;
 /// @brief Method Inject addr 0x21933b8 size 0x12c virtual false final false
  void Inject(UnityEngine::Camera camera, GlobalNamespace::VRCenterAdjust centerAdjust, GlobalNamespace::VRController controller0, GlobalNamespace::VRController controller1, bool shouldBeEnabled) ;
 
-// Ctor Parameters []
-explicit FirstPersonFlyingController() ;
+static GlobalNamespace::FirstPersonFlyingController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21934e4 size 0xa8 virtual false final false
  void _ctor() ;

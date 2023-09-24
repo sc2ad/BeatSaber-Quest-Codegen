@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__WaypointsTestGameplayManager_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "GlobalNamespace/zzzz__StandardGameplaySceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterSpawnController_def.hpp"
+#include "GlobalNamespace/zzzz__StandardGameplaySceneSetupData_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::WaypointsTestGameplayManager.Start
 template<>
 
@@ -269,8 +269,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::WaypointsTestGameplayManager::WaypointsTestGameplayManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<WaypointsTestGameplayManager>())) {}
+ GlobalNamespace::WaypointsTestGameplayManager GlobalNamespace::WaypointsTestGameplayManager::New_ctor()  {
+GlobalNamespace::WaypointsTestGameplayManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::WaypointsTestGameplayManager>())};
+return o;
+}
  void GlobalNamespace::WaypointsTestGameplayManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::WaypointsTestGameplayManager>::get(),

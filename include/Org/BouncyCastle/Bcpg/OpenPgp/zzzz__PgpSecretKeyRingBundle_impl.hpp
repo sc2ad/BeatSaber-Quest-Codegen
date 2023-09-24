@@ -3,9 +3,9 @@
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSecretKey_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSecretKeyRing_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle._ctor
 template<>
 
@@ -307,8 +307,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::__set_o
 constexpr System::Collections::IList Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::__get_order() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "secretRings", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "order", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::PgpSecretKeyRingBundle(System::Collections::IDictionary secretRings, System::Collections::IList order)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpSecretKeyRingBundle>(secretRings, order))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::New_ctor(System::Collections::IDictionary secretRings, System::Collections::IList order)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle>(secretRings, order))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::_ctor(System::Collections::IDictionary secretRings, System::Collections::IList order)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle>::get(),
@@ -318,8 +320,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, secretRings, order);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::PgpSecretKeyRingBundle(::ArrayW<uint8_t> encoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpSecretKeyRingBundle>(encoding))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::New_ctor(::ArrayW<uint8_t> encoding)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle>(encoding))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::_ctor(::ArrayW<uint8_t> encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle>::get(),
@@ -329,8 +333,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoding);
 }
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::PgpSecretKeyRingBundle(System::IO::Stream inputStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpSecretKeyRingBundle>(inputStream))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::New_ctor(System::IO::Stream inputStream)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle>(inputStream))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::_ctor(System::IO::Stream inputStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle>::get(),
@@ -340,8 +346,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inputStream);
 }
-// Ctor Parameters [CppParam { name: "e", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::PgpSecretKeyRingBundle(System::Collections::IEnumerable e)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpSecretKeyRingBundle>(e))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::New_ctor(System::Collections::IEnumerable e)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle>(e))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle::_ctor(System::Collections::IEnumerable e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle>::get(),

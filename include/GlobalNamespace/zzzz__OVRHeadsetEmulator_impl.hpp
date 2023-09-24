@@ -2,9 +2,10 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRHeadsetEmulator_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
+#include "GlobalNamespace/zzzz__OVRHeadsetEmulator_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__CursorLockMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRHeadsetEmulator__OpMode::GlobalNamespace__OVRHeadsetEmulator__OpMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -211,8 +212,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRHeadsetEmulator::OVRHeadsetEmulator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRHeadsetEmulator>())) {}
+ GlobalNamespace::OVRHeadsetEmulator GlobalNamespace::OVRHeadsetEmulator::New_ctor()  {
+GlobalNamespace::OVRHeadsetEmulator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRHeadsetEmulator>())};
+return o;
+}
  void GlobalNamespace::OVRHeadsetEmulator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRHeadsetEmulator>::get(),

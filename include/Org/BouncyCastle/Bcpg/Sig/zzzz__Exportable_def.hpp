@@ -52,14 +52,12 @@ constexpr explicit Exportable(void* ptr) noexcept : Org::BouncyCastle::Bcpg::Sig
 /// @brief Method BooleanToByteArray addr 0x113d2ac size 0x6c virtual false final false
 static ::ArrayW<uint8_t> BooleanToByteArray(bool val) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Exportable(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::Exportable New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113d318 size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isExportable", ty: "bool", modifiers: "", def_value: None }]
-explicit Exportable(bool critical, bool isExportable) ;
+static Org::BouncyCastle::Bcpg::Sig::Exportable New_ctor(bool critical, bool isExportable) ;
 
 /// @brief Method .ctor addr 0x113d360 size 0x4c virtual false final false
  void _ctor(bool critical, bool isExportable) ;

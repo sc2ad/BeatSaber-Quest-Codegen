@@ -1,23 +1,23 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapLoader_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__MockBeatmapLoader_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__IMockBeatmapDataProvider_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapData_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0____GetBeatmapData_b__3_d.MoveNext
 template<>
@@ -191,8 +191,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__Display
 constexpr GlobalNamespace::IReadonlyBeatmapData GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0::__get_beatmapData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IReadonlyBeatmapData, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0>())) {}
+ GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0 GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c__DisplayClass2_0>::get(),
@@ -275,8 +277,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__MockB
  System::Func_2<GlobalNamespace::IDifficultyBeatmapSet,System::Collections::Generic::IEnumerable_1<GlobalNamespace::IDifficultyBeatmap>> GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c::__get___9__2_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::IDifficultyBeatmapSet,System::Collections::Generic::IEnumerable_1<GlobalNamespace::IDifficultyBeatmap>>, "<>9__2_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c::GlobalNamespace__MockBeatmapLoader____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MockBeatmapLoader____c>())) {}
+ GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockBeatmapLoader____c>::get(),
@@ -467,8 +471,10 @@ constexpr void GlobalNamespace::MockBeatmapLoader::__set__beatmapLevelsModel(Glo
 constexpr GlobalNamespace::BeatmapLevelsModel GlobalNamespace::MockBeatmapLoader::__get__beatmapLevelsModel() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BeatmapLevelsModel, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelsModel", ty: "GlobalNamespace::BeatmapLevelsModel", modifiers: "", def_value: None }]
- GlobalNamespace::MockBeatmapLoader::MockBeatmapLoader(GlobalNamespace::BeatmapLevelsModel beatmapLevelsModel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockBeatmapLoader>(beatmapLevelsModel))) {}
+ GlobalNamespace::MockBeatmapLoader GlobalNamespace::MockBeatmapLoader::New_ctor(GlobalNamespace::BeatmapLevelsModel beatmapLevelsModel)  {
+GlobalNamespace::MockBeatmapLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockBeatmapLoader>(beatmapLevelsModel))};
+return o;
+}
  void GlobalNamespace::MockBeatmapLoader::_ctor(GlobalNamespace::BeatmapLevelsModel beatmapLevelsModel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockBeatmapLoader>::get(),

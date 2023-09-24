@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/zzzz__HttpStreamAsyncResult_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: System::Net::HttpStreamAsyncResult.Complete
 template<>
@@ -242,8 +242,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::HttpStreamAsyncResult::HttpStreamAsyncResult()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpStreamAsyncResult>())) {}
+ System::Net::HttpStreamAsyncResult System::Net::HttpStreamAsyncResult::New_ctor()  {
+System::Net::HttpStreamAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpStreamAsyncResult>())};
+return o;
+}
  void System::Net::HttpStreamAsyncResult::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpStreamAsyncResult>::get(),

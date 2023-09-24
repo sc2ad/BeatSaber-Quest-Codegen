@@ -6,26 +6,32 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::EventSystems {
-struct RaycastResult;
+struct UnityEngine__EventSystems__PointerEventData__InputButton;
 }
 namespace UnityEngine {
 class GameObject;
 }
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::EventSystems {
+struct UnityEngine__EventSystems__PointerEventData__FramePressState;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -87,6 +93,8 @@ __Middle = 2,
 constexpr operator __UnityEngine__EventSystems__PointerEventData__InputButton_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__EventSystems__PointerEventData__InputButton_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -161,6 +169,8 @@ __NotChanged = 3,
 constexpr operator __UnityEngine__EventSystems__PointerEventData__FramePressState_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__EventSystems__PointerEventData__FramePressState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -663,8 +673,7 @@ constexpr bool __get__reentered_k__BackingField() const;
 /// @brief Method set_reentered addr 0x2c1c74c size 0xc virtual false final false
  void set_reentered(bool value) ;
 
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
-explicit PointerEventData(UnityEngine::EventSystems::EventSystem eventSystem) ;
+static UnityEngine::EventSystems::PointerEventData New_ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;
 
 /// @brief Method .ctor addr 0x2c1c758 size 0x12c virtual false final false
  void _ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;

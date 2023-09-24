@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentAudioEffectsPlayer_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EnvironmentAudioEffectsPlayer.get_audioSource
 template<>
 
@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, clip, volume);
 }
-// Ctor Parameters []
- GlobalNamespace::EnvironmentAudioEffectsPlayer::EnvironmentAudioEffectsPlayer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EnvironmentAudioEffectsPlayer>())) {}
+ GlobalNamespace::EnvironmentAudioEffectsPlayer GlobalNamespace::EnvironmentAudioEffectsPlayer::New_ctor()  {
+GlobalNamespace::EnvironmentAudioEffectsPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnvironmentAudioEffectsPlayer>())};
+return o;
+}
  void GlobalNamespace::EnvironmentAudioEffectsPlayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnvironmentAudioEffectsPlayer>::get(),

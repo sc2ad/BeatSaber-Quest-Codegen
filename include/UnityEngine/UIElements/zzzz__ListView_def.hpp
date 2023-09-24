@@ -6,81 +6,79 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class UxmlChildElementDescription;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class IEnumerator_1;
 }
-namespace UnityEngine::UIElements {
-class Label;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace UnityEngine::UIElements {
-class Button;
+class UxmlChildElementDescription;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__ListView__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+struct ListViewReorderMode;
+}
+namespace UnityEngine::UIElements {
+class ListViewController;
+}
+namespace UnityEngine::UIElements {
+class Label;
+}
+namespace UnityEngine::UIElements {
+class TextField;
+}
+namespace UnityEngine::UIElements {
+class ListViewDragger;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__ListView__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class Button;
+}
+namespace UnityEngine::UIElements {
+class ICollectionDragAndDropController;
+}
+namespace UnityEngine::UIElements {
+class Foldout;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
-class TextField;
-}
-namespace UnityEngine::UIElements {
-struct ListViewReorderMode;
-}
-namespace UnityEngine::UIElements {
-class ListViewDragger;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-class Foldout;
-}
-namespace UnityEngine::UIElements {
-class ListViewController;
-}
-namespace UnityEngine::UIElements {
-class ICollectionDragAndDropController;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-struct SelectionType;
-}
-namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+template<typename T>
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 struct AlternatingRowBackground;
@@ -89,8 +87,19 @@ namespace UnityEngine::UIElements {
 struct CollectionVirtualizationMethod;
 }
 namespace UnityEngine::UIElements {
-template<typename T>
-class UxmlEnumAttributeDescription_1;
+class UxmlIntAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+struct SelectionType;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__ListView__UxmlTraits___get_uxmlChildElementsDescription_d__13;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -235,8 +244,7 @@ constexpr UnityEngine::UIElements::UxmlBoolAttributeDescription __get_m_Horizont
 /// @brief Method Init addr 0x2cb72f0 size 0x3d4 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__ListView__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__ListView__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb76c4 size 0x51c virtual false final false
  void _ctor() ;
@@ -584,8 +592,7 @@ static ::StringW __get_footerRemoveButtonName() ;
 /// @brief Method CreateDragAndDropController addr 0x2cb6cc0 size 0x64 virtual true final false
  UnityEngine::UIElements::ICollectionDragAndDropController CreateDragAndDropController() ;
 
-// Ctor Parameters []
-explicit ListView() ;
+static UnityEngine::UIElements::ListView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb6d24 size 0x9c virtual false final false
  void _ctor() ;
@@ -603,7 +610,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5094 }), TypeDefinitionIndex(TypeDefinitionIndex(7167)), TypeDefinitionIndex(TypeDefinitionIndex(7168))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5094 }), TypeDefinitionIndex(TypeDefinitionIndex(7168)), TypeDefinitionIndex(TypeDefinitionIndex(7167))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7165))
 // CS Name: UnityEngine.UIElements.ListView::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__ListView__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::ListView,UnityEngine::UIElements::UnityEngine__UIElements__ListView__UxmlTraits> {
@@ -642,8 +649,7 @@ constexpr explicit UnityEngine__UIElements__ListView__UxmlFactory(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__ListView__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__ListView__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb7200 size 0x48 virtual false final false
  void _ctor() ;
@@ -743,8 +749,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__ListView__UxmlTraits
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__ListView__UxmlTraits___get_uxmlChildElementsDescription_d__13(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__UIElements__ListView__UxmlTraits___get_uxmlChildElementsDescription_d__13 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2cb72ac size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Newtonsoft::Json::JsonIgnoreAttribute::JsonIgnoreAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<JsonIgnoreAttribute>())) {}
+ Newtonsoft::Json::JsonIgnoreAttribute Newtonsoft::Json::JsonIgnoreAttribute::New_ctor()  {
+Newtonsoft::Json::JsonIgnoreAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonIgnoreAttribute>())};
+return o;
+}
  void Newtonsoft::Json::JsonIgnoreAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonIgnoreAttribute>::get(),

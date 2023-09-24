@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
-namespace System {
-class Exception;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -56,20 +56,17 @@ constexpr explicit TaskSchedulerException(void* ptr) noexcept : System::Exceptio
 
 // Methods
 
-// Ctor Parameters []
-explicit TaskSchedulerException() ;
+static System::Threading::Tasks::TaskSchedulerException New_ctor() ;
 
 /// @brief Method .ctor addr 0x24b3774 size 0x70 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit TaskSchedulerException(System::Exception innerException) ;
+static System::Threading::Tasks::TaskSchedulerException New_ctor(System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x24b37e4 size 0x80 virtual false final false
  void _ctor(System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit TaskSchedulerException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Threading::Tasks::TaskSchedulerException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24b3864 size 0x80 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

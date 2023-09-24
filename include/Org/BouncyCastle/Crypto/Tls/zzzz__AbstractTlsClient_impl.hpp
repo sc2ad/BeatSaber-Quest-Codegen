@@ -2,18 +2,18 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsPeer_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsClient_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAuthentication_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__NewSessionTicket_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClient_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCompression_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClient_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClientContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__NewSessionTicket_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__ProtocolVersion_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__ProtocolVersion_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClientContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::AbstractTlsClient._ctor
 template<>
 
@@ -495,8 +495,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::AbstractTlsClient::__set_mSelecte
 constexpr int16_t Org::BouncyCastle::Crypto::Tls::AbstractTlsClient::__get_mSelectedCompressionMethod() const {
 return ::cordl_internals::getInstanceField<int16_t, 0x4c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::AbstractTlsClient::AbstractTlsClient()  : Org::BouncyCastle::Crypto::Tls::AbstractTlsPeer(THROW_UNLESS(::il2cpp_utils::New<AbstractTlsClient>())) {}
+ Org::BouncyCastle::Crypto::Tls::AbstractTlsClient Org::BouncyCastle::Crypto::Tls::AbstractTlsClient::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::AbstractTlsClient o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::AbstractTlsClient>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::AbstractTlsClient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::AbstractTlsClient>::get(),
@@ -506,8 +508,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::AbstractTlsClient::AbstractTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsPeer(THROW_UNLESS(::il2cpp_utils::New<AbstractTlsClient>(cipherFactory))) {}
+ Org::BouncyCastle::Crypto::Tls::AbstractTlsClient Org::BouncyCastle::Crypto::Tls::AbstractTlsClient::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory)  {
+Org::BouncyCastle::Crypto::Tls::AbstractTlsClient o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::AbstractTlsClient>(cipherFactory))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::AbstractTlsClient::_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::AbstractTlsClient>::get(),

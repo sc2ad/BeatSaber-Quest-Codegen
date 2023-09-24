@@ -5,40 +5,40 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Cms {
-class SignerInformation;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerIdentifier;
-}
-namespace Org::BouncyCastle::Cms {
 class SignerInformationStore;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerInformation;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace System::Collections {
 class IList;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -240,14 +240,12 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_rand() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsSignedGenerator() ;
+static Org::BouncyCastle::Cms::CmsSignedGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x115d660 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit CmsSignedGenerator(Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Cms::CmsSignedGenerator New_ctor(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x115d6c4 size 0xa0 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom rand) ;

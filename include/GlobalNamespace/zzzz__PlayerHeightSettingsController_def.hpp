@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class Vector3SO;
-}
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace GlobalNamespace {
+class Vector3SO;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -15,11 +15,11 @@ class ButtonBinder;
 namespace UnityEngine::UI {
 class Button;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -138,8 +138,7 @@ constexpr float_t __get__value() const;
 /// @brief Method RefreshUI addr 0x21545a4 size 0xa8 virtual false final false
  void RefreshUI() ;
 
-// Ctor Parameters []
-explicit PlayerHeightSettingsController() ;
+static GlobalNamespace::PlayerHeightSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215476c size 0x8 virtual false final false
  void _ctor() ;

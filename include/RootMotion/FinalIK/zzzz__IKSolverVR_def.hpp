@@ -8,17 +8,29 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolverVR__Leg;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Point;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolverVR__Spine;
+}
+namespace RootMotion::FinalIK {
+struct RootMotion__FinalIK__IKSolverVR__PositionOffset;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolverVR__VirtualBone;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolverVR__Locomotion;
 }
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__VRIK__References;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__Point;
+class RootMotion__FinalIK__IKSolverVR__BodyPart;
 }
 namespace UnityEngine {
 struct Keyframe;
@@ -26,17 +38,35 @@ struct Keyframe;
 namespace UnityEngine {
 struct Vector3;
 }
+namespace RootMotion::FinalIK {
+struct RootMotion__FinalIK__IKSolverVR__RotationOffset;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolverVR__Arm;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolverVR__Footstep;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
+}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+struct RootMotion__FinalIK__IKSolverVR__Arm__ShoulderRotationMode;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
-namespace UnityEngine::Events {
-class UnityEvent;
-}
 namespace RootMotion {
 struct InterpolationMode;
+}
+namespace UnityEngine::Events {
+class UnityEvent;
 }
 namespace UnityEngine {
 struct LayerMask;
@@ -124,6 +154,8 @@ __FromTo = 1,
 constexpr operator __RootMotion__FinalIK__IKSolverVR__Arm__ShoulderRotationMode_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__FinalIK__IKSolverVR__Arm__ShoulderRotationMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -298,8 +330,7 @@ constexpr int32_t __get_LOD() const;
 /// @brief Method Visualize addr 0x11ef2f0 size 0x14 virtual false final false
  void Visualize() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKSolverVR__BodyPart() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart New_ctor() ;
 
 /// @brief Method .ctor addr 0x11eefa4 size 0x98 virtual false final false
  void _ctor() ;
@@ -592,8 +623,7 @@ static constexpr float_t  pitchOffsetAngle{-30};
 /// @brief Method Visualize addr 0x11eee8c size 0x118 virtual false final false
  void Visualize(RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone bone1, RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone bone2, RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone bone3, UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKSolverVR__Arm() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Arm New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ed35c size 0x18c virtual false final false
  void _ctor() ;
@@ -747,8 +777,7 @@ constexpr float_t __get_supportLegWV() const;
 /// @brief Method set_stepProgress addr 0x11ef320 size 0x8 virtual false final false
  void set_stepProgress(float_t value) ;
 
-// Ctor Parameters [CppParam { name: "rootRotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "footPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "footRotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "characterSpaceOffset", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__IKSolverVR__Footstep(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Footstep New_ctor(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset) ;
 
 /// @brief Method .ctor addr 0x11ef328 size 0x1c4 virtual false final false
  void _ctor(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset) ;
@@ -1069,8 +1098,7 @@ constexpr UnityEngine::Vector3 __get_bendNormalRelToTarget() const;
 /// @brief Method ResetOffsets addr 0x11f19b0 size 0xe0 virtual true final false
  void ResetOffsets() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKSolverVR__Leg() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Leg New_ctor() ;
 
 /// @brief Method .ctor addr 0x11e06b0 size 0xdc virtual false final false
  void _ctor() ;
@@ -1347,8 +1375,7 @@ constexpr int32_t __get_rightFootIndex() const;
 /// @brief Method GetLineSphereCollision addr 0x11f1cc8 size 0x1b0 virtual false final false
 static bool GetLineSphereCollision(UnityEngine::Vector3 lineStart, UnityEngine::Vector3 lineEnd, UnityEngine::Vector3 sphereCenter, float_t sphereRadius) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKSolverVR__Locomotion() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Locomotion New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ed4e8 size 0xec virtual false final false
  void _ctor() ;
@@ -1821,8 +1848,7 @@ constexpr UnityEngine::Vector3 __get_chestForward() const;
 /// @brief Method Bend addr 0x11f490c size 0x270 virtual false final false
  void Bend(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone> bones, int32_t firstIndex, int32_t lastIndex, UnityEngine::Quaternion targetRotation, UnityEngine::Quaternion rotationOffset, float_t clampWeight, bool uniformWeight, float_t w) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKSolverVR__Spine() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Spine New_ctor() ;
 
 /// @brief Method .ctor addr 0x11f5f50 size 0x11c virtual false final false
  void _ctor() ;
@@ -1887,6 +1913,8 @@ __RightHeel = 8,
 constexpr operator __RootMotion__FinalIK__IKSolverVR__PositionOffset_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__FinalIK__IKSolverVR__PositionOffset_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1978,6 +2006,8 @@ __Head = 2,
 constexpr operator __RootMotion__FinalIK__IKSolverVR__RotationOffset_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__FinalIK__IKSolverVR__RotationOffset_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -2088,8 +2118,7 @@ constexpr UnityEngine::Vector3 __get_axis() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__IKSolverVR__VirtualBone(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone New_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method .ctor addr 0x11f2d18 size 0x70 virtual false final false
  void _ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) ;
@@ -2505,8 +2534,7 @@ static ::ArrayW<UnityEngine::Keyframe> GetSineKeyframes(float_t mag) ;
 /// @brief Method GetPelvisOffset addr 0x11eca38 size 0x6ec virtual false final false
  UnityEngine::Vector3 GetPelvisOffset() ;
 
-// Ctor Parameters []
-explicit IKSolverVR() ;
+static RootMotion::FinalIK::IKSolverVR New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ed134 size 0x228 virtual false final false
  void _ctor() ;

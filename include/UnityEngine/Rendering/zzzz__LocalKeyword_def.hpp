@@ -4,12 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Rendering {
-struct LocalKeywordSpace;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::Rendering {
+struct LocalKeywordSpace;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

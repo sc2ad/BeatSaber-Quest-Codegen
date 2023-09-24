@@ -5,13 +5,13 @@ namespace GlobalNamespace {
 class PlayerDataFileManagerSO;
 }
 namespace GlobalNamespace {
+class PlayerData;
+}
+namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 class ISaveData;
-}
-namespace GlobalNamespace {
-class PlayerData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,8 +117,7 @@ constexpr GlobalNamespace::BeatmapCharacteristicCollection __get__beatmapCharact
 /// @brief Method Load addr 0x222694c size 0x28 virtual false final false
  void Load() ;
 
-// Ctor Parameters []
-explicit PlayerDataModel() ;
+static GlobalNamespace::PlayerDataModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x22269c8 size 0x8 virtual false final false
  void _ctor() ;

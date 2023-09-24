@@ -6,10 +6,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine::UIElements {
 struct OverflowInternal;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UIElements {
+struct Background;
 }
 namespace System {
 template<typename T>
@@ -19,11 +22,8 @@ namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleDataGroup_1;
 }
-namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements {
-struct Length;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

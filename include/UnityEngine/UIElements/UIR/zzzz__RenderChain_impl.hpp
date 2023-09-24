@@ -1,41 +1,42 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChain_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__UIRenderDevice_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderChain_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureRegistry_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__UIRVEShaderInfoAllocator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ChainBuilderStats_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__UIRVEShaderInfoAllocator_def.hpp"
+#include "UnityEngine/UIElements/UIR/Implementation/zzzz__UIRStylePainter_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/Implementation/zzzz__UIRTextUpdatePainter_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VectorImageManager_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TextureEntry_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__BasicNodePool_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextureRegistry_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__UIRenderDevice_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
-#include "UnityEngine/UIElements/UIR/Implementation/zzzz__UIRStylePainter_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__BasicNodePool_1_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderDataDirtyTypes_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderDataDirtyTypeClasses_def.hpp"
-#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderDataDirtyTypes_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Transform3x4_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain__DepthOrderedDirtyTracking.EnsureFits
 template<>
 
@@ -402,8 +403,10 @@ return ::cordl_internals::getStaticField<System::Func_1<UnityEngine::UIElements:
  System::Action_1<UnityEngine::UIElements::UIR::RenderChainCommand> UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain____c::__get___9__37_1()  {
 return ::cordl_internals::getStaticField<System::Action_1<UnityEngine::UIElements::UIR::RenderChainCommand>, "<>9__37_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain____c::UnityEngine__UIElements__UIR__RenderChain____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIR__RenderChain____c>())) {}
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain____c UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain____c::New_ctor()  {
+UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain____c>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain____c>::get(),
@@ -1650,8 +1653,10 @@ constexpr void UnityEngine::UIElements::UIR::RenderChain::__set__drawInCameras_k
 constexpr bool UnityEngine::UIElements::UIR::RenderChain::__get__drawInCameras_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x221>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "panel", ty: "UnityEngine::UIElements::BaseVisualElementPanel", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UIR::RenderChain::RenderChain(UnityEngine::UIElements::BaseVisualElementPanel panel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RenderChain>(panel))) {}
+ UnityEngine::UIElements::UIR::RenderChain UnityEngine::UIElements::UIR::RenderChain::New_ctor(UnityEngine::UIElements::BaseVisualElementPanel panel)  {
+UnityEngine::UIElements::UIR::RenderChain o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::RenderChain>(panel))};
+return o;
+}
  void UnityEngine::UIElements::UIR::RenderChain::_ctor(UnityEngine::UIElements::BaseVisualElementPanel panel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::RenderChain>::get(),

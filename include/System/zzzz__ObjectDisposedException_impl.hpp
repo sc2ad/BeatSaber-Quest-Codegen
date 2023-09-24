@@ -128,8 +128,10 @@ constexpr void System::ObjectDisposedException::__set__objectName(::StringW valu
 constexpr ::StringW System::ObjectDisposedException::__get__objectName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::ObjectDisposedException::ObjectDisposedException()  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<ObjectDisposedException>())) {}
+ System::ObjectDisposedException System::ObjectDisposedException::New_ctor()  {
+System::ObjectDisposedException o{THROW_UNLESS(::il2cpp_utils::New<System::ObjectDisposedException>())};
+return o;
+}
  void System::ObjectDisposedException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ObjectDisposedException>::get(),
@@ -139,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "objectName", ty: "::StringW", modifiers: "", def_value: None }]
- System::ObjectDisposedException::ObjectDisposedException(::StringW objectName)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<ObjectDisposedException>(objectName))) {}
+ System::ObjectDisposedException System::ObjectDisposedException::New_ctor(::StringW objectName)  {
+System::ObjectDisposedException o{THROW_UNLESS(::il2cpp_utils::New<System::ObjectDisposedException>(objectName))};
+return o;
+}
  void System::ObjectDisposedException::_ctor(::StringW objectName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ObjectDisposedException>::get(),
@@ -150,8 +154,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, objectName);
 }
-// Ctor Parameters [CppParam { name: "objectName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::ObjectDisposedException::ObjectDisposedException(::StringW objectName, ::StringW message)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<ObjectDisposedException>(objectName, message))) {}
+ System::ObjectDisposedException System::ObjectDisposedException::New_ctor(::StringW objectName, ::StringW message)  {
+System::ObjectDisposedException o{THROW_UNLESS(::il2cpp_utils::New<System::ObjectDisposedException>(objectName, message))};
+return o;
+}
  void System::ObjectDisposedException::_ctor(::StringW objectName, ::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ObjectDisposedException>::get(),
@@ -161,8 +167,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, objectName, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::ObjectDisposedException::ObjectDisposedException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::InvalidOperationException(THROW_UNLESS(::il2cpp_utils::New<ObjectDisposedException>(info, context))) {}
+ System::ObjectDisposedException System::ObjectDisposedException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::ObjectDisposedException o{THROW_UNLESS(::il2cpp_utils::New<System::ObjectDisposedException>(info, context))};
+return o;
+}
  void System::ObjectDisposedException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ObjectDisposedException>::get(),

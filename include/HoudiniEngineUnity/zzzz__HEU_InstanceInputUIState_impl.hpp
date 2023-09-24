@@ -93,8 +93,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InstanceInputUIState::HEU_InstanceInputUIState()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<HEU_InstanceInputUIState>())) {}
+ HoudiniEngineUnity::HEU_InstanceInputUIState HoudiniEngineUnity::HEU_InstanceInputUIState::New_ctor()  {
+HoudiniEngineUnity::HEU_InstanceInputUIState o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InstanceInputUIState>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InstanceInputUIState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InstanceInputUIState>::get(),

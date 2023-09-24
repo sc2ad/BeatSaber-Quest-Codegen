@@ -58,8 +58,7 @@ constexpr explicit XmlSchemaGroupBase(void* ptr) noexcept : System::Xml::Schema:
 /// @brief Method get_Items addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Xml::Schema::XmlSchemaObjectCollection get_Items() ;
 
-// Ctor Parameters []
-explicit XmlSchemaGroupBase() ;
+static System::Xml::Schema::XmlSchemaGroupBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x273519c size 0x54 virtual false final false
  void _ctor() ;

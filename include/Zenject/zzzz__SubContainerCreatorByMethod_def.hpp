@@ -6,20 +6,20 @@ template<typename T>
 class Action_1;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-struct TypeValuePair;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -76,8 +76,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get__installMethod() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "containerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }, CppParam { name: "installMethod", ty: "System::Action_1<Zenject::DiContainer>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByMethod(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Action_1<Zenject::DiContainer> installMethod) ;
+static Zenject::SubContainerCreatorByMethod New_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Action_1<Zenject::DiContainer> installMethod) ;
 
 /// @brief Method .ctor addr 0x2d92288 size 0x3c virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Action_1<Zenject::DiContainer> installMethod) ;

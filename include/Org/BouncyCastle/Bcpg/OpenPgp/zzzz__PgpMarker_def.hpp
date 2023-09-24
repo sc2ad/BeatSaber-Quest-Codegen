@@ -62,8 +62,7 @@ constexpr Org::BouncyCastle::Bcpg::MarkerPacket __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PgpMarker(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method .ctor addr 0x1024560 size 0x120 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;

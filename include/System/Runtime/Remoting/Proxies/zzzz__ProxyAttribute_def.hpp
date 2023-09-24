@@ -2,26 +2,26 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class MarshalByRefObject;
-}
-namespace System::Runtime::Remoting {
-class ObjRef;
-}
-namespace System::Runtime::Remoting::Contexts {
-class IContextAttribute;
-}
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
+namespace System::Runtime::Remoting::Proxies {
+class RealProxy;
 }
 namespace System {
 class Type;
 }
+namespace System {
+class MarshalByRefObject;
+}
 namespace System::Runtime::Remoting::Contexts {
 class Context;
 }
-namespace System::Runtime::Remoting::Proxies {
-class RealProxy;
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Contexts {
+class IContextAttribute;
+}
+namespace System::Runtime::Remoting {
+class ObjRef;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {

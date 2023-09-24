@@ -49,8 +49,7 @@ constexpr explicit UserCapabilityList(void* ptr) noexcept : Oculus::Platform::Mo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UserCapabilityList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::UserCapabilityList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x25a3994 size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

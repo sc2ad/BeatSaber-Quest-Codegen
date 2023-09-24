@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+class MockNoteData;
+}
 namespace System {
 class Random;
 }
 namespace GlobalNamespace {
 class IMockPlayerScoreCalculator;
-}
-namespace GlobalNamespace {
-class MockNoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,8 +88,7 @@ constexpr System::Random __get__random() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hitFrequency", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "minScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxScore", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BasicMockPlayerScoreCalculator(float_t hitFrequency, int32_t minScore, int32_t maxScore) ;
+static GlobalNamespace::BasicMockPlayerScoreCalculator New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore) ;
 
 /// @brief Method .ctor addr 0x2279034 size 0xbc virtual false final false
  void _ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore) ;

@@ -6,6 +6,15 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::Networking {
+class DownloadHandlerAssetBundle;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType;
+}
+namespace UnityEngine {
+class AsyncOperation;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
@@ -13,20 +22,26 @@ namespace System {
 template<typename T>
 class Action_1;
 }
-namespace UnityEngine {
-class AssetBundleRequest;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IAssetBundleResource;
 }
 namespace UnityEngine {
 class AssetBundle;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 namespace UnityEngine {
-class AsyncOperation;
+class AssetBundleRequest;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IAssetBundleResource;
+class AssetBundleRequestOptions;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
@@ -34,23 +49,11 @@ struct ProvideHandle;
 namespace UnityEngine::ResourceManagement {
 class WebRequestQueueOperation;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class AssetBundleRequestOptions;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
-}
-namespace UnityEngine::Networking {
-class DownloadHandlerAssetBundle;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -109,6 +112,8 @@ __Web = 2,
 constexpr operator __UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ResourceManagement__ResourceProviders__AssetBundleResource__LoadType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -357,8 +362,7 @@ static void GetLoadInfo(UnityEngine::ResourceManagement::ResourceLocations::IRes
 /// @brief Method Unload addr 0x2a3de7c size 0xa0 virtual false final false
  void Unload() ;
 
-// Ctor Parameters []
-explicit AssetBundleResource() ;
+static UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3df1c size 0x8 virtual false final false
  void _ctor() ;

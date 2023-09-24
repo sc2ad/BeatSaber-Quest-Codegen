@@ -4,9 +4,10 @@
 #include "GlobalNamespace/zzzz__TimelineArrayReference_def.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "TMPro/zzzz__TextMeshPro_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__TimelineArrayReference_def.hpp"
+#include "TMPro/zzzz__TextMeshPro_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__TimelineArrayReference__ArrayTypes::GlobalNamespace__TimelineArrayReference__ArrayTypes(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -74,8 +75,10 @@ constexpr void GlobalNamespace::TimelineArrayReference::__set__directionalLights
 constexpr ::ArrayW<GlobalNamespace::DirectionalLight> GlobalNamespace::TimelineArrayReference::__get__directionalLights() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::DirectionalLight>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::TimelineArrayReference::TimelineArrayReference()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TimelineArrayReference>())) {}
+ GlobalNamespace::TimelineArrayReference GlobalNamespace::TimelineArrayReference::New_ctor()  {
+GlobalNamespace::TimelineArrayReference o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TimelineArrayReference>())};
+return o;
+}
  void GlobalNamespace::TimelineArrayReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TimelineArrayReference>::get(),

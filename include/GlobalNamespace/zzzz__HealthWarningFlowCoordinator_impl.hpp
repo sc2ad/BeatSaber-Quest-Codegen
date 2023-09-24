@@ -2,24 +2,21 @@
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PrivacyPolicyViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__HealthWarningFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__EulaViewController_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__SelectRegionViewController_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "GlobalNamespace/zzzz__PrivacyPolicyViewController_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
+#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
+#include "GlobalNamespace/zzzz__SelectLanguageViewController_def.hpp"
+#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
+#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
 #include "GlobalNamespace/zzzz__DlcPromoPanelModel_def.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningViewController_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__SelectLanguageViewController_def.hpp"
-#include "GlobalNamespace/zzzz__SelectRegionViewController_def.hpp"
-#include "GlobalNamespace/zzzz__EulaViewController_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__EulaViewController_def.hpp"
-#include "GlobalNamespace/zzzz__SelectRegionViewController_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__PrivacyPolicyViewController_def.hpp"
-#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
-#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__InitData._ctor
 template<>
 
@@ -43,8 +40,10 @@ constexpr void GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__I
 constexpr GlobalNamespace::ScenesTransitionSetupDataSO GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__InitData::__get_nextScenesTransitionSetupData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ScenesTransitionSetupDataSO, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__InitData::GlobalNamespace__HealthWarningFlowCoordinator__InitData(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__HealthWarningFlowCoordinator__InitData>(nextScenesTransitionSetupData))) {}
+ GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__InitData GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__InitData::New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData)  {
+GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__InitData>(nextScenesTransitionSetupData))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__InitData::_ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__InitData>::get(),
@@ -499,8 +498,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::HealthWarningFlowCoordinator::HealthWarningFlowCoordinator()  : HMUI::FlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<HealthWarningFlowCoordinator>())) {}
+ GlobalNamespace::HealthWarningFlowCoordinator GlobalNamespace::HealthWarningFlowCoordinator::New_ctor()  {
+GlobalNamespace::HealthWarningFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HealthWarningFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::HealthWarningFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HealthWarningFlowCoordinator>::get(),

@@ -1,15 +1,15 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderSpawnInfoNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
-#include "GlobalNamespace/zzzz__SliderData_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "GlobalNamespace/zzzz__SliderMidAnchorMode_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "GlobalNamespace/zzzz__SliderData_def.hpp"
+#include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SliderSpawnInfoNetSerializable.Obtain
 template<>
 
@@ -305,8 +305,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::SliderSpawnInfoNetSerializable, false>(const_cast<void*>(instance), ___internal_method, colorType, sliderType, hasHeadNote, headTime, headLineIndex, headLineLayer, headBeforeJumpLineLayer, headControlPointLengthMultiplier, headCutDirection, headCutDirectionAngleOffset, hasTailNote, tailTime, tailLineIndex, tailLineLayer, tailBeforeJumpLineLayer, tailControlPointLengthMultiplier, tailCutDirection, tailCutDirectionAngleOffset, midAnchorMode, sliceCount, squishAmount, headMoveStartPos, headJumpStartPos, headJumpEndPos, headJumpGravity, tailMoveStartPos, tailJumpStartPos, tailJumpEndPos, tailJumpGravity, moveDuration, jumpDuration, rotation);
 }
-// Ctor Parameters []
- GlobalNamespace::SliderSpawnInfoNetSerializable::SliderSpawnInfoNetSerializable()  : GlobalNamespace::PoolableSerializable(THROW_UNLESS(::il2cpp_utils::New<SliderSpawnInfoNetSerializable>())) {}
+ GlobalNamespace::SliderSpawnInfoNetSerializable GlobalNamespace::SliderSpawnInfoNetSerializable::New_ctor()  {
+GlobalNamespace::SliderSpawnInfoNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SliderSpawnInfoNetSerializable>())};
+return o;
+}
  void GlobalNamespace::SliderSpawnInfoNetSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SliderSpawnInfoNetSerializable>::get(),

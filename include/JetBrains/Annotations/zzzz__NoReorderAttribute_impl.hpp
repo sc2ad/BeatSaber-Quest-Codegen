@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- JetBrains::Annotations::NoReorderAttribute::NoReorderAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NoReorderAttribute>())) {}
+ JetBrains::Annotations::NoReorderAttribute JetBrains::Annotations::NoReorderAttribute::New_ctor()  {
+JetBrains::Annotations::NoReorderAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::NoReorderAttribute>())};
+return o;
+}
  void JetBrains::Annotations::NoReorderAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::NoReorderAttribute>::get(),

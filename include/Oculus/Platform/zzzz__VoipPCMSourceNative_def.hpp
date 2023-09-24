@@ -77,8 +77,7 @@ constexpr uint64_t __get_senderID() const;
 /// @brief Method Update addr 0x259b720 size 0x4 virtual true final true
  void Update() ;
 
-// Ctor Parameters []
-explicit VoipPCMSourceNative() ;
+static Oculus::Platform::VoipPCMSourceNative New_ctor() ;
 
 /// @brief Method .ctor addr 0x259aa74 size 0x8 virtual false final false
  void _ctor() ;

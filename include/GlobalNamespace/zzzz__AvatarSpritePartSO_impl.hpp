@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Sprite, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarSpritePartSO::AvatarSpritePartSO()  : GlobalNamespace::AvatarPartSO_1<UnityEngine::Sprite>(THROW_UNLESS(::il2cpp_utils::New<AvatarSpritePartSO>())) {}
+ GlobalNamespace::AvatarSpritePartSO GlobalNamespace::AvatarSpritePartSO::New_ctor()  {
+GlobalNamespace::AvatarSpritePartSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarSpritePartSO>())};
+return o;
+}
  void GlobalNamespace::AvatarSpritePartSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarSpritePartSO>::get(),

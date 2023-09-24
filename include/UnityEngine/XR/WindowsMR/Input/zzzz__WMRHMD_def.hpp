@@ -73,8 +73,7 @@ constexpr UnityEngine::InputSystem::Controls::ButtonControl __get__userPresence_
 /// @brief Method FinishSetup addr 0x28a34e4 size 0x7c virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit WMRHMD() ;
+static UnityEngine::XR::WindowsMR::Input::WMRHMD New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a3560 size 0x8 virtual false final false
  void _ctor() ;

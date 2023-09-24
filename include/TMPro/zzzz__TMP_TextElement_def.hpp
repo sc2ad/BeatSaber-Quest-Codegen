@@ -6,11 +6,11 @@
 namespace TMPro {
 class TMP_Asset;
 }
-namespace TMPro {
-struct TextElementType;
-}
 namespace UnityEngine::TextCore {
 class Glyph;
+}
+namespace TMPro {
+struct TextElementType;
 }
 // Forward declare root types
 namespace TMPro {
@@ -145,8 +145,7 @@ constexpr float_t __get_m_Scale() const;
 /// @brief Method set_scale addr 0x2ab04c4 size 0x8 virtual false final false
  void set_scale(float_t value) ;
 
-// Ctor Parameters []
-explicit TMP_TextElement() ;
+static TMPro::TMP_TextElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aacf38 size 0x8 virtual false final false
  void _ctor() ;

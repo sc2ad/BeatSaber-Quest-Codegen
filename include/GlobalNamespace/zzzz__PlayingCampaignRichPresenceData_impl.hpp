@@ -106,8 +106,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayingCampaignRichPresenceData::PlayingCampaignRichPresenceData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayingCampaignRichPresenceData>())) {}
+ GlobalNamespace::PlayingCampaignRichPresenceData GlobalNamespace::PlayingCampaignRichPresenceData::New_ctor()  {
+GlobalNamespace::PlayingCampaignRichPresenceData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayingCampaignRichPresenceData>())};
+return o;
+}
  void GlobalNamespace::PlayingCampaignRichPresenceData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayingCampaignRichPresenceData>::get(),

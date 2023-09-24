@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__WrapperUtilities_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__WrapperUtilities_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Org::BouncyCastle::Security::Org__BouncyCastle__Security__WrapperUtilities__WrapAlgorithm::Org__BouncyCastle__Security__WrapperUtilities__WrapAlgorithm(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -124,8 +125,10 @@ constexpr void Org::BouncyCastle::Security::Org__BouncyCastle__Security__Wrapper
 constexpr bool Org::BouncyCastle::Security::Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper::__get_forWrapping() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBufferedCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Security::Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper::Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper(Org::BouncyCastle::Crypto::IBufferedCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper>(cipher))) {}
+ Org::BouncyCastle::Security::Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper Org::BouncyCastle::Security::Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper::New_ctor(Org::BouncyCastle::Crypto::IBufferedCipher cipher)  {
+Org::BouncyCastle::Security::Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Security::Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper::_ctor(Org::BouncyCastle::Crypto::IBufferedCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper>::get(),
@@ -245,8 +248,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
  System::Collections::IDictionary Org::BouncyCastle::Security::WrapperUtilities::__get_algorithms()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "algorithms", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::WrapperUtilities>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Security::WrapperUtilities::WrapperUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WrapperUtilities>())) {}
+ Org::BouncyCastle::Security::WrapperUtilities Org::BouncyCastle::Security::WrapperUtilities::New_ctor()  {
+Org::BouncyCastle::Security::WrapperUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::WrapperUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Security::WrapperUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::WrapperUtilities>::get(),

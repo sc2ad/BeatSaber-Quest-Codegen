@@ -6,14 +6,14 @@ namespace UnityEngine::Events {
 class InvokableCallList;
 }
 namespace UnityEngine::Events {
-class PersistentCall;
+class UnityEventBase;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::Events {
-class UnityEventBase;
+class PersistentCall;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -75,8 +75,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Events::PersistentCa
 
 // Methods
 
-// Ctor Parameters []
-explicit PersistentCallGroup() ;
+static UnityEngine::Events::PersistentCallGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b8020c size 0x80 virtual false final false
  void _ctor() ;

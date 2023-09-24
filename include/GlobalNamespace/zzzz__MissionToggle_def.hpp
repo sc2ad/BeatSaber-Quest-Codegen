@@ -2,23 +2,36 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class Signal;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace UnityEngine::EventSystems {
 class ISubmitHandler;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
-}
-namespace UnityEngine::UI {
-class Image;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
@@ -26,21 +39,8 @@ class IPointerExitHandler;
 namespace HMUI {
 class Interactable;
 }
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace GlobalNamespace {
-class Signal;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -267,8 +267,7 @@ constexpr bool __get__missionCleared() const;
 /// @brief Method OnPointerExit addr 0x214b2cc size 0x1c virtual true final false
  void OnPointerExit(UnityEngine::EventSystems::PointerEventData eventData) ;
 
-// Ctor Parameters []
-explicit MissionToggle() ;
+static GlobalNamespace::MissionToggle New_ctor() ;
 
 /// @brief Method .ctor addr 0x214b2e8 size 0x2c virtual false final false
  void _ctor() ;

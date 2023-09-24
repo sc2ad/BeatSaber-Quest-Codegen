@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 namespace System {
+class IConsoleDriver;
+}
+namespace System {
 struct InputRecord;
+}
+namespace System {
+struct ConsoleKeyInfo;
 }
 namespace System {
 struct Handles;
 }
 namespace System {
 struct ConsoleScreenBufferInfo;
-}
-namespace System {
-struct ConsoleKeyInfo;
-}
-namespace System {
-class IConsoleDriver;
 }
 // Forward declare root types
 namespace System {
@@ -88,8 +88,7 @@ constexpr int16_t __get_defaultAttribute() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit WindowsConsoleDriver() ;
+static System::WindowsConsoleDriver New_ctor() ;
 
 /// @brief Method .ctor addr 0x249c0f4 size 0x54 virtual false final false
  void _ctor() ;

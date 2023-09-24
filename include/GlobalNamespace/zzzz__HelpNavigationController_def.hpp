@@ -47,8 +47,7 @@ constexpr explicit HelpNavigationController(void* ptr) noexcept : HMUI::Navigati
 
 // Methods
 
-// Ctor Parameters []
-explicit HelpNavigationController() ;
+static GlobalNamespace::HelpNavigationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215fd38 size 0x8 virtual false final false
  void _ctor() ;

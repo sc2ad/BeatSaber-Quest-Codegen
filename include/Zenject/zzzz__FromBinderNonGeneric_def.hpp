@@ -3,29 +3,21 @@
 #include "Zenject/zzzz__FromBinder_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
 namespace Zenject {
-class BindStatement;
-}
-namespace Zenject {
-struct InjectSources;
+template<typename TConcrete,typename TFactory>
+class Zenject__FromBinderNonGeneric____c__1_2;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
 template<typename TContract>
 class ConcreteBinderGeneric_1;
 }
-namespace Zenject {
-class DiContainer;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace Zenject {
 template<typename TValue>
@@ -35,14 +27,26 @@ namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
-class InjectContext;
+class BindStatement;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace Zenject {
+struct InjectSources;
+}
+namespace Zenject {
+class BindInfo;
 }
 namespace UnityEngine {
 class Component;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -105,8 +109,7 @@ constexpr explicit FromBinderNonGeneric(void* ptr) noexcept : Zenject::FromBinde
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }]
-explicit FromBinderNonGeneric(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
+static Zenject::FromBinderNonGeneric New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
 
 /// @brief Method .ctor addr 0x2d4d7a8 size 0x30 virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
@@ -226,8 +229,7 @@ static System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TCo
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FromBinderNonGeneric____c__1_2() ;
+static Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

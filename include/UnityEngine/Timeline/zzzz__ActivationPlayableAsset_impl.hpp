@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationPlayableAsset_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::ActivationPlayableAsset.get_clipCaps
 template<>
 
@@ -79,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Playables::Playable, false>(const_cast<void*>(instance), ___internal_method, graph, go);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::ActivationPlayableAsset::ActivationPlayableAsset()  : UnityEngine::Playables::PlayableAsset(THROW_UNLESS(::il2cpp_utils::New<ActivationPlayableAsset>())) {}
+ UnityEngine::Timeline::ActivationPlayableAsset UnityEngine::Timeline::ActivationPlayableAsset::New_ctor()  {
+UnityEngine::Timeline::ActivationPlayableAsset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::ActivationPlayableAsset>())};
+return o;
+}
  void UnityEngine::Timeline::ActivationPlayableAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::ActivationPlayableAsset>::get(),

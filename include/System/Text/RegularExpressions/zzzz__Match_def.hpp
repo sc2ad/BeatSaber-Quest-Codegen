@@ -4,12 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Text::RegularExpressions {
+class GroupCollection;
+}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
-}
-namespace System::Text::RegularExpressions {
-class GroupCollection;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
@@ -130,8 +130,7 @@ static System::Text::RegularExpressions::Match __declspec(property(get=get_Empty
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "regex", ty: "System::Text::RegularExpressions::Regex", modifiers: "", def_value: None }, CppParam { name: "capcount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "begpos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startpos", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Match(System::Text::RegularExpressions::Regex regex, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos) ;
+static System::Text::RegularExpressions::Match New_ctor(System::Text::RegularExpressions::Regex regex, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos) ;
 
 /// @brief Method .ctor addr 0x27bdeb0 size 0x170 virtual false final false
  void _ctor(System::Text::RegularExpressions::Regex regex, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos) ;
@@ -175,8 +174,7 @@ static System::Text::RegularExpressions::Match get_Empty() ;
 /// @brief Method Tidy addr 0x27beaa8 size 0x164 virtual true final false
  void Tidy(int32_t textpos) ;
 
-// Ctor Parameters []
-explicit Match() ;
+static System::Text::RegularExpressions::Match New_ctor() ;
 
 /// @brief Method .ctor addr 0x27beca4 size 0x38 virtual false final false
  void _ctor() ;

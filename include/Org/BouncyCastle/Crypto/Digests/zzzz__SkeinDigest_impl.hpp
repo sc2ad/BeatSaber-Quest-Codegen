@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinEngine_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Digests::SkeinDigest._ctor
 template<>
 
@@ -222,8 +222,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::SkeinDigest::__set_engine(Org
 constexpr Org::BouncyCastle::Crypto::Digests::SkeinEngine Org::BouncyCastle::Crypto::Digests::SkeinDigest::__get_engine() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Digests::SkeinEngine, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stateSizeBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "digestSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::SkeinDigest::SkeinDigest(int32_t stateSizeBits, int32_t digestSizeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SkeinDigest>(stateSizeBits, digestSizeBits))) {}
+ Org::BouncyCastle::Crypto::Digests::SkeinDigest Org::BouncyCastle::Crypto::Digests::SkeinDigest::New_ctor(int32_t stateSizeBits, int32_t digestSizeBits)  {
+Org::BouncyCastle::Crypto::Digests::SkeinDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::SkeinDigest>(stateSizeBits, digestSizeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::SkeinDigest::_ctor(int32_t stateSizeBits, int32_t digestSizeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::SkeinDigest>::get(),
@@ -233,8 +235,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stateSizeBits, digestSizeBits);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::Digests::SkeinDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::SkeinDigest::SkeinDigest(Org::BouncyCastle::Crypto::Digests::SkeinDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SkeinDigest>(digest))) {}
+ Org::BouncyCastle::Crypto::Digests::SkeinDigest Org::BouncyCastle::Crypto::Digests::SkeinDigest::New_ctor(Org::BouncyCastle::Crypto::Digests::SkeinDigest digest)  {
+Org::BouncyCastle::Crypto::Digests::SkeinDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::SkeinDigest>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::SkeinDigest::_ctor(Org::BouncyCastle::Crypto::Digests::SkeinDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::SkeinDigest>::get(),

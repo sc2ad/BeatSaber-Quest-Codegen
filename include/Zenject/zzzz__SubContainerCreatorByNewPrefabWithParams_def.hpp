@@ -4,35 +4,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Zenject {
-class GameObjectCreationParameters;
+class Zenject__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0;
 }
 namespace Zenject {
-class ISubContainerCreator;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
-class IPrefabProvider;
+class InjectContext;
 }
 namespace Zenject {
 class DiContainer;
 }
-namespace Zenject {
-class InjectContext;
-}
 namespace System {
 class Type;
+}
+namespace Zenject {
+class IPrefabProvider;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class ISubContainerCreator;
 }
 namespace Zenject {
 class InjectableInfo;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -92,8 +95,7 @@ constexpr Zenject::TypeValuePair __get_argPair() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0() ;
+static Zenject::Zenject__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d93a48 size 0x8 virtual false final false
  void _ctor() ;
@@ -193,8 +195,7 @@ constexpr Zenject::GameObjectCreationParameters __get__gameObjectBindInfo() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "installerType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewPrefabWithParams(System::Type installerType, Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
+static Zenject::SubContainerCreatorByNewPrefabWithParams New_ctor(System::Type installerType, Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d934e0 size 0x40 virtual false final false
  void _ctor(System::Type installerType, Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;

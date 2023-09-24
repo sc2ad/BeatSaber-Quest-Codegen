@@ -4,29 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateList;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509ExtensionsGenerator;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -34,20 +22,32 @@ class AlgorithmIdentifier;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class V2TbsCertListGenerator;
+class X509ExtensionsGenerator;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Crl;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateList;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class V2TbsCertListGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -133,8 +133,7 @@ constexpr ::StringW __get_signatureAlgorithm() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509V2CrlGenerator() ;
+static Org::BouncyCastle::X509::X509V2CrlGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x10fae28 size 0x9c virtual false final false
  void _ctor() ;

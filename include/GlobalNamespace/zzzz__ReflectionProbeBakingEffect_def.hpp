@@ -65,8 +65,7 @@ constexpr UnityEngine::Material __get__material() const;
 /// @brief Method OnRenderImage addr 0x1f99f44 size 0x74 virtual false final false
  void OnRenderImage(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest) ;
 
-// Ctor Parameters []
-explicit ReflectionProbeBakingEffect() ;
+static GlobalNamespace::ReflectionProbeBakingEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f99fb8 size 0x8 virtual false final false
  void _ctor() ;

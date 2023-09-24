@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml {
-class XmlRawWriter;
+struct XmlStandalone;
 }
 namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::IO {
-class Stream;
+class OnRemoveWriter;
 }
 namespace System::IO {
 class TextWriter;
 }
+namespace System::IO {
+class Stream;
+}
 namespace System::Xml {
-struct XmlStandalone;
+class XmlWriterSettings;
 }
 namespace System::Xml {
 class XmlEventCache;
@@ -26,10 +26,10 @@ namespace System::Xml {
 struct XmlOutputMethod;
 }
 namespace System::Xml {
-class OnRemoveWriter;
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
-class XmlWriterSettings;
+class XmlRawWriter;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -123,20 +123,17 @@ constexpr System::IO::Stream __get_strm() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writerSettings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlAutoDetectWriter(System::Xml::XmlWriterSettings writerSettings) ;
+static System::Xml::XmlAutoDetectWriter New_ctor(System::Xml::XmlWriterSettings writerSettings) ;
 
 /// @brief Method .ctor addr 0x26c2a8c size 0xc0 virtual false final false
  void _ctor(System::Xml::XmlWriterSettings writerSettings) ;
 
-// Ctor Parameters [CppParam { name: "textWriter", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "writerSettings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlAutoDetectWriter(System::IO::TextWriter textWriter, System::Xml::XmlWriterSettings writerSettings) ;
+static System::Xml::XmlAutoDetectWriter New_ctor(System::IO::TextWriter textWriter, System::Xml::XmlWriterSettings writerSettings) ;
 
 /// @brief Method .ctor addr 0x26c2b7c size 0x28 virtual false final false
  void _ctor(System::IO::TextWriter textWriter, System::Xml::XmlWriterSettings writerSettings) ;
 
-// Ctor Parameters [CppParam { name: "strm", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "writerSettings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlAutoDetectWriter(System::IO::Stream strm, System::Xml::XmlWriterSettings writerSettings) ;
+static System::Xml::XmlAutoDetectWriter New_ctor(System::IO::Stream strm, System::Xml::XmlWriterSettings writerSettings) ;
 
 /// @brief Method .ctor addr 0x26c2ba4 size 0x28 virtual false final false
  void _ctor(System::IO::Stream strm, System::Xml::XmlWriterSettings writerSettings) ;

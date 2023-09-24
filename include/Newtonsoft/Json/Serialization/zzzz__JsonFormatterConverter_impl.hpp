@@ -1,13 +1,13 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__JsonFormatterConverter_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalReader_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IFormatterConverter_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonISerializableContract_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalReader_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IFormatterConverter_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::JsonFormatterConverter._ctor
 template<>
 
@@ -336,8 +336,10 @@ constexpr void Newtonsoft::Json::Serialization::JsonFormatterConverter::__set__m
 constexpr Newtonsoft::Json::Serialization::JsonProperty Newtonsoft::Json::Serialization::JsonFormatterConverter::__get__member() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Serialization::JsonProperty, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "reader", ty: "Newtonsoft::Json::Serialization::JsonSerializerInternalReader", modifiers: "", def_value: None }, CppParam { name: "contract", ty: "Newtonsoft::Json::Serialization::JsonISerializableContract", modifiers: "", def_value: None }, CppParam { name: "member", ty: "Newtonsoft::Json::Serialization::JsonProperty", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::JsonFormatterConverter::JsonFormatterConverter(Newtonsoft::Json::Serialization::JsonSerializerInternalReader reader, Newtonsoft::Json::Serialization::JsonISerializableContract contract, Newtonsoft::Json::Serialization::JsonProperty member)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JsonFormatterConverter>(reader, contract, member))) {}
+ Newtonsoft::Json::Serialization::JsonFormatterConverter Newtonsoft::Json::Serialization::JsonFormatterConverter::New_ctor(Newtonsoft::Json::Serialization::JsonSerializerInternalReader reader, Newtonsoft::Json::Serialization::JsonISerializableContract contract, Newtonsoft::Json::Serialization::JsonProperty member)  {
+Newtonsoft::Json::Serialization::JsonFormatterConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::JsonFormatterConverter>(reader, contract, member))};
+return o;
+}
  void Newtonsoft::Json::Serialization::JsonFormatterConverter::_ctor(Newtonsoft::Json::Serialization::JsonSerializerInternalReader reader, Newtonsoft::Json::Serialization::JsonISerializableContract contract, Newtonsoft::Json::Serialization::JsonProperty member)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::JsonFormatterConverter>::get(),

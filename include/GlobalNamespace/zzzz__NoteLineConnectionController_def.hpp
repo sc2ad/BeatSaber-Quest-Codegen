@@ -4,26 +4,29 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class ColorManager;
+class GlobalNamespace__NoteLineConnectionController__Pool;
 }
 namespace UnityEngine {
 class LineRenderer;
 }
 namespace GlobalNamespace {
-class NoteController;
+class AudioTimeSyncController;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class NoteController;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -172,8 +175,7 @@ constexpr bool __get__didFinish() const;
 /// @brief Method UpdatePositionsAndColors addr 0x2242840 size 0x1bc virtual false final false
  void UpdatePositionsAndColors() ;
 
-// Ctor Parameters []
-explicit NoteLineConnectionController() ;
+static GlobalNamespace::NoteLineConnectionController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2242a60 size 0x8 virtual false final false
  void _ctor() ;
@@ -224,8 +226,7 @@ constexpr explicit GlobalNamespace__NoteLineConnectionController__Pool(void* ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__NoteLineConnectionController__Pool() ;
+static GlobalNamespace::GlobalNamespace__NoteLineConnectionController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2242a68 size 0x48 virtual false final false
  void _ctor() ;

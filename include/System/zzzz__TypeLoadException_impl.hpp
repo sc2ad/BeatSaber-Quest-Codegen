@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__TypeLoadException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::TypeLoadException._ctor
 template<>
@@ -168,8 +168,10 @@ constexpr void System::TypeLoadException::__set_ResourceId(int32_t value)  {
 constexpr int32_t System::TypeLoadException::__get_ResourceId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::TypeLoadException::TypeLoadException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<TypeLoadException>())) {}
+ System::TypeLoadException System::TypeLoadException::New_ctor()  {
+System::TypeLoadException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeLoadException>())};
+return o;
+}
  void System::TypeLoadException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeLoadException>::get(),
@@ -179,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::TypeLoadException::TypeLoadException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<TypeLoadException>(message))) {}
+ System::TypeLoadException System::TypeLoadException::New_ctor(::StringW message)  {
+System::TypeLoadException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeLoadException>(message))};
+return o;
+}
  void System::TypeLoadException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeLoadException>::get(),
@@ -208,8 +212,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }]
- System::TypeLoadException::TypeLoadException(::StringW className, ::StringW assemblyName)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<TypeLoadException>(className, assemblyName))) {}
+ System::TypeLoadException System::TypeLoadException::New_ctor(::StringW className, ::StringW assemblyName)  {
+System::TypeLoadException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeLoadException>(className, assemblyName))};
+return o;
+}
  void System::TypeLoadException::_ctor(::StringW className, ::StringW assemblyName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeLoadException>::get(),
@@ -219,8 +225,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, className, assemblyName);
 }
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "messageArg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "resourceId", ty: "int32_t", modifiers: "", def_value: None }]
- System::TypeLoadException::TypeLoadException(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<TypeLoadException>(className, assemblyName, messageArg, resourceId))) {}
+ System::TypeLoadException System::TypeLoadException::New_ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId)  {
+System::TypeLoadException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeLoadException>(className, assemblyName, messageArg, resourceId))};
+return o;
+}
  void System::TypeLoadException::_ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeLoadException>::get(),
@@ -230,8 +238,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, className, assemblyName, messageArg, resourceId);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::TypeLoadException::TypeLoadException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<TypeLoadException>(info, context))) {}
+ System::TypeLoadException System::TypeLoadException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::TypeLoadException o{THROW_UNLESS(::il2cpp_utils::New<System::TypeLoadException>(info, context))};
+return o;
+}
  void System::TypeLoadException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TypeLoadException>::get(),

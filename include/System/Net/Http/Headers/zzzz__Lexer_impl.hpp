@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::Lexer._ctor
 template<>
@@ -374,8 +374,10 @@ constexpr void System::Net::Http::Headers::Lexer::__set_pos(int32_t value)  {
 constexpr int32_t System::Net::Http::Headers::Lexer::__get_pos() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Http::Headers::Lexer::Lexer(::StringW stream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Lexer>(stream))) {}
+ System::Net::Http::Headers::Lexer System::Net::Http::Headers::Lexer::New_ctor(::StringW stream)  {
+System::Net::Http::Headers::Lexer o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::Lexer>(stream))};
+return o;
+}
  void System::Net::Http::Headers::Lexer::_ctor(::StringW stream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::Lexer>::get(),

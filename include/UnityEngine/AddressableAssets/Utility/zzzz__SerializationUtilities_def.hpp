@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::AddressableAssets::Utility {
+struct UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -70,6 +73,8 @@ __JsonObject = 7,
 constexpr operator __UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__AddressableAssets__Utility__SerializationUtilities__ObjectType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

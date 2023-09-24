@@ -64,8 +64,7 @@ constexpr T __get__component() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BaseStateTransition_1() ;
+static GlobalNamespace::BaseStateTransition_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

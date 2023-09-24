@@ -5,15 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine {
 class GUILayoutEntry;
 }
 namespace UnityEngine {
 class GUILayoutOption;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 class GUIStyle;
@@ -216,8 +216,7 @@ static UnityEngine::GUILayoutEntry __get_none() ;
 /// @brief Method get_marginBottom addr 0x2b91bac size 0x8 virtual true final false
  int32_t get_marginBottom() ;
 
-// Ctor Parameters []
-explicit GUILayoutGroup() ;
+static UnityEngine::GUILayoutGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b89dd8 size 0x118 virtual false final false
  void _ctor() ;

@@ -2,11 +2,12 @@
 #include "HMUI/zzzz__SegmentedControl_impl.hpp"
 #include "HMUI/zzzz__IconSegmentedControl_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "HMUI/zzzz__IconSegmentedControlCell_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "HMUI/zzzz__SegmentedControlCell_def.hpp"
+#include "HMUI/zzzz__IconSegmentedControl_def.hpp"
+#include "HMUI/zzzz__IconSegmentedControlCell_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__IconSegmentedControl__DataItem.get_icon
 template<>
 
@@ -140,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "icon", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "hintText", ty: "::StringW", modifiers: "", def_value: None }]
- HMUI::HMUI__IconSegmentedControl__DataItem::HMUI__IconSegmentedControl__DataItem(UnityEngine::Sprite icon, ::StringW hintText)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__IconSegmentedControl__DataItem>(icon, hintText))) {}
+ HMUI::HMUI__IconSegmentedControl__DataItem HMUI::HMUI__IconSegmentedControl__DataItem::New_ctor(UnityEngine::Sprite icon, ::StringW hintText)  {
+HMUI::HMUI__IconSegmentedControl__DataItem o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__IconSegmentedControl__DataItem>(icon, hintText))};
+return o;
+}
  void HMUI::HMUI__IconSegmentedControl__DataItem::_ctor(UnityEngine::Sprite icon, ::StringW hintText)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__IconSegmentedControl__DataItem>::get(),
@@ -368,8 +371,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<HMUI::IconSegmentedControlCell, false>(const_cast<void*>(instance), ___internal_method, prefab);
 }
-// Ctor Parameters []
- HMUI::IconSegmentedControl::IconSegmentedControl()  : HMUI::SegmentedControl(THROW_UNLESS(::il2cpp_utils::New<IconSegmentedControl>())) {}
+ HMUI::IconSegmentedControl HMUI::IconSegmentedControl::New_ctor()  {
+HMUI::IconSegmentedControl o{THROW_UNLESS(::il2cpp_utils::New<HMUI::IconSegmentedControl>())};
+return o;
+}
  void HMUI::IconSegmentedControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::IconSegmentedControl>::get(),

@@ -58,8 +58,7 @@ constexpr explicit IPAddressInformation(void* ptr) noexcept : ::bs_hook::Il2CppW
 /// @brief Method get_Address addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Net::IPAddress get_Address() ;
 
-// Ctor Parameters []
-explicit IPAddressInformation() ;
+static System::Net::NetworkInformation::IPAddressInformation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2858fc4 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,16 +1,16 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeConverter_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlDocument_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlElement_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlDocument_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::XmlNodeConverter.get_DeserializeRootElementName
 template<>
 
@@ -852,8 +852,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, valueType);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::XmlNodeConverter::XmlNodeConverter()  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<XmlNodeConverter>())) {}
+ Newtonsoft::Json::Converters::XmlNodeConverter Newtonsoft::Json::Converters::XmlNodeConverter::New_ctor()  {
+Newtonsoft::Json::Converters::XmlNodeConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::XmlNodeConverter>())};
+return o;
+}
  void Newtonsoft::Json::Converters::XmlNodeConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::XmlNodeConverter>::get(),

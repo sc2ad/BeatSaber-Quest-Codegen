@@ -68,20 +68,17 @@ constexpr bool __get__error() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ObsoleteAttribute() ;
+static System::ObsoleteAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x244faa0 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ObsoleteAttribute(::StringW message) ;
+static System::ObsoleteAttribute New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x244fac0 size 0x2c virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "error", ty: "bool", modifiers: "", def_value: None }]
-explicit ObsoleteAttribute(::StringW message, bool error) ;
+static System::ObsoleteAttribute New_ctor(::StringW message, bool error) ;
 
 /// @brief Method .ctor addr 0x244faec size 0x30 virtual false final false
  void _ctor(::StringW message, bool error) ;

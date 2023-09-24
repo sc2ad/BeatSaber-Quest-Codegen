@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+struct AsyncOperationStatus;
 }
 namespace Mono::Net::Security {
-struct AsyncOperationStatus;
+class MobileAuthenticatedStream;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -55,8 +55,7 @@ constexpr explicit AsyncWriteRequest(void* ptr) noexcept : Mono::Net::Security::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "sync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit AsyncWriteRequest(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size) ;
+static Mono::Net::Security::AsyncWriteRequest New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size) ;
 
 /// @brief Method .ctor addr 0x268e3ec size 0x8 virtual false final false
  void _ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size) ;

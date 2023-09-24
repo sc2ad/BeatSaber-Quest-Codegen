@@ -47,8 +47,7 @@ constexpr explicit RegexPatternAttribute(void* ptr) noexcept : System::Attribute
 
 // Methods
 
-// Ctor Parameters []
-explicit RegexPatternAttribute() ;
+static JetBrains::Annotations::RegexPatternAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41278 size 0x8 virtual false final false
  void _ctor() ;

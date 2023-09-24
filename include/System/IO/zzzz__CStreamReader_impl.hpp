@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__StreamReader_impl.hpp"
 #include "System/IO/zzzz__CStreamReader_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__TermInfoDriver_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 //  Writing Method size for method: System::IO::CStreamReader._ctor
 template<>
 
@@ -112,8 +112,10 @@ constexpr void System::IO::CStreamReader::__set_driver(System::TermInfoDriver va
 constexpr System::TermInfoDriver System::IO::CStreamReader::__get_driver() const {
 return ::cordl_internals::getInstanceField<System::TermInfoDriver, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::IO::CStreamReader::CStreamReader(System::IO::Stream stream, System::Text::Encoding encoding)  : System::IO::StreamReader(THROW_UNLESS(::il2cpp_utils::New<CStreamReader>(stream, encoding))) {}
+ System::IO::CStreamReader System::IO::CStreamReader::New_ctor(System::IO::Stream stream, System::Text::Encoding encoding)  {
+System::IO::CStreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::CStreamReader>(stream, encoding))};
+return o;
+}
  void System::IO::CStreamReader::_ctor(System::IO::Stream stream, System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::CStreamReader>::get(),

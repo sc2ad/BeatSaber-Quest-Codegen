@@ -3,19 +3,13 @@
 #include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-struct EnvironmentColorType;
+class ColorManager;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 class LightWithIdManager;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__LightColorGroupEffect__InitData;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
 }
 namespace GlobalNamespace {
 class IBpmController;
@@ -23,8 +17,14 @@ class IBpmController;
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+struct EnvironmentColorType;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LightColorGroupEffect__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,8 +81,7 @@ constexpr UnityEngine::Color __get__defaultColor() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "defaultColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "lightManager", ty: "GlobalNamespace::LightWithIdManager", modifiers: "", def_value: None }, CppParam { name: "tweeningManager", ty: "Tweening::SongTimeTweeningManager", modifiers: "", def_value: None }, CppParam { name: "colorManager", ty: "GlobalNamespace::ColorManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }, CppParam { name: "bpmController", ty: "GlobalNamespace::IBpmController", modifiers: "", def_value: None }]
-explicit WhiteColorOrAlphaGroupEffect(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, UnityEngine::Color defaultColor, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController) ;
+static GlobalNamespace::WhiteColorOrAlphaGroupEffect New_ctor(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, UnityEngine::Color defaultColor, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController) ;
 
 /// @brief Method .ctor addr 0x225e048 size 0xc8 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, UnityEngine::Color defaultColor, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController) ;

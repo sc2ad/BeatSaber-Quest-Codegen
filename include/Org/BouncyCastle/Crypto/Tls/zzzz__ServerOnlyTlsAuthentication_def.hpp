@@ -5,13 +5,13 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -68,8 +68,7 @@ constexpr explicit ServerOnlyTlsAuthentication(void* ptr) noexcept : ::bs_hook::
 /// @brief Method GetClientCredentials addr 0xf08910 size 0x8 virtual true final true
  Org::BouncyCastle::Crypto::Tls::TlsCredentials GetClientCredentials(Org::BouncyCastle::Crypto::Tls::CertificateRequest certificateRequest) ;
 
-// Ctor Parameters []
-explicit ServerOnlyTlsAuthentication() ;
+static Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication New_ctor() ;
 
 /// @brief Method .ctor addr 0xf08918 size 0x8 virtual false final false
  void _ctor() ;

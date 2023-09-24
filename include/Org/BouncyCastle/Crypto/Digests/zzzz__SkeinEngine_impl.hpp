@@ -1,9 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinEngine_def.hpp"
-#include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Crypto/Engines/zzzz__ThreefishEngine_def.hpp"
+#include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
+#include "Org/BouncyCastle/Crypto/Engines/zzzz__ThreefishEngine_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration._ctor
 template<>
 
@@ -44,8 +45,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Di
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration::__get_bytes() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outputSizeBits", ty: "int64_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration(int64_t outputSizeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration>(outputSizeBits))) {}
+ Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration::New_ctor(int64_t outputSizeBits)  {
+Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration>(outputSizeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration::_ctor(int64_t outputSizeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration>::get(),
@@ -127,8 +130,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Di
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter::__get_value() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter(int32_t type, ::ArrayW<uint8_t> value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter>(type, value))) {}
+ Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter::New_ctor(int32_t type, ::ArrayW<uint8_t> value)  {
+Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter>(type, value))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter::_ctor(int32_t type, ::ArrayW<uint8_t> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter>::get(),
@@ -372,8 +377,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Di
 constexpr bool Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak::__get_extendedPosition() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak>())) {}
+ Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak>::get(),
@@ -614,8 +621,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Di
 constexpr ::ArrayW<uint64_t> Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI::__get_message() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint64_t>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::Digests::SkeinEngine", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine, int32_t blockSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI>(engine, blockSize))) {}
+ Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI::New_ctor(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine, int32_t blockSize)  {
+Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI>(engine, blockSize))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI::_ctor(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine, int32_t blockSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI>::get(),
@@ -1126,8 +1135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, blockSizeBytes, outputSizeBytes);
 }
-// Ctor Parameters [CppParam { name: "blockSizeBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "outputSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::SkeinEngine::SkeinEngine(int32_t blockSizeBits, int32_t outputSizeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SkeinEngine>(blockSizeBits, outputSizeBits))) {}
+ Org::BouncyCastle::Crypto::Digests::SkeinEngine Org::BouncyCastle::Crypto::Digests::SkeinEngine::New_ctor(int32_t blockSizeBits, int32_t outputSizeBits)  {
+Org::BouncyCastle::Crypto::Digests::SkeinEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::SkeinEngine>(blockSizeBits, outputSizeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::SkeinEngine::_ctor(int32_t blockSizeBits, int32_t outputSizeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::SkeinEngine>::get(),
@@ -1137,8 +1148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, blockSizeBits, outputSizeBits);
 }
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::Digests::SkeinEngine", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::SkeinEngine::SkeinEngine(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SkeinEngine>(engine))) {}
+ Org::BouncyCastle::Crypto::Digests::SkeinEngine Org::BouncyCastle::Crypto::Digests::SkeinEngine::New_ctor(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine)  {
+Org::BouncyCastle::Crypto::Digests::SkeinEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::SkeinEngine>(engine))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::SkeinEngine::_ctor(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::SkeinEngine>::get(),

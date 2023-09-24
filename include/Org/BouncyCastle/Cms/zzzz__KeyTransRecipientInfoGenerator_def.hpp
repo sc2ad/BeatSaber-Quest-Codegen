@@ -3,32 +3,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class IssuerAndSerialNumber;
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedHelper;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateStructure;
+class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedHelper;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class TbsCertificateStructure;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
@@ -36,8 +33,11 @@ class Asn1OctetString;
 namespace Org::BouncyCastle::Cms {
 class RecipientInfoGenerator;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class IssuerAndSerialNumber;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -144,20 +144,17 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit KeyTransRecipientInfoGenerator() ;
+static Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x117987c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "issuerAndSerialNumber", ty: "Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber", modifiers: "", def_value: None }]
-explicit KeyTransRecipientInfoGenerator(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issuerAndSerialNumber) ;
+static Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator New_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issuerAndSerialNumber) ;
 
 /// @brief Method .ctor addr 0x1179884 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issuerAndSerialNumber) ;
 
-// Ctor Parameters [CppParam { name: "subjectKeyIdentifier", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit KeyTransRecipientInfoGenerator(::ArrayW<uint8_t> subjectKeyIdentifier) ;
+static Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator New_ctor(::ArrayW<uint8_t> subjectKeyIdentifier) ;
 
 /// @brief Method .ctor addr 0x11798ac size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> subjectKeyIdentifier) ;

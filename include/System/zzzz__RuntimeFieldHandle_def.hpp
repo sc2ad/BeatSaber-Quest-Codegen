@@ -5,25 +5,25 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class RuntimeType;
-}
-namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Reflection {
 class FieldInfo;
 }
+namespace System::Reflection {
+class RuntimeFieldInfo;
+}
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System {
+class RuntimeType;
 }
 namespace System::Reflection {
 struct FieldAttributes;
 }
-namespace System::Reflection {
-class RuntimeFieldInfo;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {

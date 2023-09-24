@@ -6,28 +6,31 @@
 namespace UnityEngine::ProBuilder {
 class SharedVertex;
 }
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__InternalMeshUtility____c;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
 namespace UnityEngine {
 class Mesh;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -132,8 +135,7 @@ static System::Func_2<bool,bool> __get___9__3_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__InternalMeshUtility____c() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__InternalMeshUtility____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a21dbc size 0x8 virtual false final false
  void _ctor() ;

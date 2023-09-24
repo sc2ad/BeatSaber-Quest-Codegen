@@ -7,11 +7,11 @@
 namespace System {
 class TermInfoDriver;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System::Text {
 class Encoding;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::IO {
@@ -68,8 +68,7 @@ constexpr System::TermInfoDriver __get_driver() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit CStreamWriter(System::IO::Stream stream, System::Text::Encoding encoding, bool leaveOpen) ;
+static System::IO::CStreamWriter New_ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool leaveOpen) ;
 
 /// @brief Method .ctor addr 0x23d4d1c size 0x128 virtual false final false
  void _ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool leaveOpen) ;

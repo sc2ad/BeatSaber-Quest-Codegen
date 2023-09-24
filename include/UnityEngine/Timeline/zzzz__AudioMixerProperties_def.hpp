@@ -3,10 +3,10 @@
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine::Playables {
-struct FrameData;
+struct Playable;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct FrameData;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -78,8 +78,7 @@ constexpr float_t __get_spatialBlend() const;
 /// @brief Method PrepareFrame addr 0x2ac9154 size 0x234 virtual true final false
  void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info) ;
 
-// Ctor Parameters []
-explicit AudioMixerProperties() ;
+static UnityEngine::Timeline::AudioMixerProperties New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ac9388 size 0x10 virtual false final false
  void _ctor() ;

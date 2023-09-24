@@ -171,8 +171,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector3Control __get__centerEyeAng
 /// @brief Method FinishSetup addr 0x28a24a0 size 0x1ac virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit OpenVRHMD() ;
+static Unity::XR::OpenVR::OpenVRHMD New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a264c size 0x8 virtual false final false
  void _ctor() ;

@@ -82,8 +82,7 @@ constexpr Org::BouncyCastle::Crypto::IKeyWrapper __get_wrapper() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
-explicit Asn1KeyWrapper(::StringW algorithm, Org::BouncyCastle::X509::X509Certificate cert) ;
+static Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper New_ctor(::StringW algorithm, Org::BouncyCastle::X509::X509Certificate cert) ;
 
 /// @brief Method .ctor addr 0xe9b690 size 0xa4 virtual false final false
  void _ctor(::StringW algorithm, Org::BouncyCastle::X509::X509Certificate cert) ;

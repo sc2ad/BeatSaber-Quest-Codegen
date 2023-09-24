@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class FloatSO;
+class Vector3SO;
 }
 namespace GlobalNamespace {
 class ISaveData;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class FloatSO;
 }
 namespace GlobalNamespace {
-class Vector3SO;
+class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -110,8 +110,7 @@ constexpr GlobalNamespace::ISaveData __get__savedata() const;
 /// @brief Method ResetRoom addr 0x21b1198 size 0x84 virtual false final false
  void ResetRoom() ;
 
-// Ctor Parameters []
-explicit VRCenterAdjust() ;
+static GlobalNamespace::VRCenterAdjust New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1544 size 0x8 virtual false final false
  void _ctor() ;

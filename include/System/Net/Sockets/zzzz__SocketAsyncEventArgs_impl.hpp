@@ -1,22 +1,22 @@
 #pragma once
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketAsyncEventArgs_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketAsyncOperation_def.hpp"
-#include "System/Net/Sockets/zzzz__SendPacketsElement_def.hpp"
-#include "System/Net/Sockets/zzzz__TransmitFileOptions_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Net/Sockets/zzzz__IPPacketInformation_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "System/zzzz__ArraySegment_1_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketFlags_def.hpp"
-#include "System/zzzz__EventHandler_1_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketAsyncResult_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Net/zzzz__EndPoint_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketFlags_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/Sockets/zzzz__TransmitFileOptions_def.hpp"
+#include "System/zzzz__ArraySegment_1_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Net/Sockets/zzzz__IPPacketInformation_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncOperation_def.hpp"
+#include "System/zzzz__EventHandler_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Memory_1_def.hpp"
+#include "System/Net/Sockets/zzzz__SendPacketsElement_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncResult_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::Net::Sockets::SocketAsyncEventArgs.get_AcceptSocket
 template<>
 
@@ -801,8 +801,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::Net::Sockets::SocketAsyncEventArgs::SocketAsyncEventArgs()  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<SocketAsyncEventArgs>())) {}
+ System::Net::Sockets::SocketAsyncEventArgs System::Net::Sockets::SocketAsyncEventArgs::New_ctor()  {
+System::Net::Sockets::SocketAsyncEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::SocketAsyncEventArgs>())};
+return o;
+}
  void System::Net::Sockets::SocketAsyncEventArgs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SocketAsyncEventArgs>::get(),
@@ -812,8 +814,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "flowExecutionContext", ty: "bool", modifiers: "", def_value: None }]
- System::Net::Sockets::SocketAsyncEventArgs::SocketAsyncEventArgs(bool flowExecutionContext)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<SocketAsyncEventArgs>(flowExecutionContext))) {}
+ System::Net::Sockets::SocketAsyncEventArgs System::Net::Sockets::SocketAsyncEventArgs::New_ctor(bool flowExecutionContext)  {
+System::Net::Sockets::SocketAsyncEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::SocketAsyncEventArgs>(flowExecutionContext))};
+return o;
+}
  void System::Net::Sockets::SocketAsyncEventArgs::_ctor(bool flowExecutionContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SocketAsyncEventArgs>::get(),

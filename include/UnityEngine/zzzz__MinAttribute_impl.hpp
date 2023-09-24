@@ -24,8 +24,10 @@ constexpr void UnityEngine::MinAttribute::__set_min(float_t value)  {
 constexpr float_t UnityEngine::MinAttribute::__get_min() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "min", ty: "float_t", modifiers: "", def_value: None }]
- UnityEngine::MinAttribute::MinAttribute(float_t min)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<MinAttribute>(min))) {}
+ UnityEngine::MinAttribute UnityEngine::MinAttribute::New_ctor(float_t min)  {
+UnityEngine::MinAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::MinAttribute>(min))};
+return o;
+}
  void UnityEngine::MinAttribute::_ctor(float_t min)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::MinAttribute>::get(),

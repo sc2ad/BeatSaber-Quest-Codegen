@@ -156,8 +156,7 @@ constexpr int32_t __get_m_width() const;
 /// @brief Method set_Width addr 0xfaae24 size 0x8 virtual true final false
  void set_Width(int32_t value) ;
 
-// Ctor Parameters []
-explicit WNafPreCompInfo() ;
+static Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0xfaae2c size 0x38 virtual false final false
  void _ctor() ;

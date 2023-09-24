@@ -4,24 +4,24 @@
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace GlobalNamespace {
-class IPollable;
+namespace BGNet::Core::GameLift {
+class PlayerSessionInfo;
 }
 namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace BGNet::Core::GameLift {
-class PlayerSessionInfo;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+class IPollable;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {

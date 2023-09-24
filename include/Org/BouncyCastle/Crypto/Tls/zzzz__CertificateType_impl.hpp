@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::CertificateType::CertificateType()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertificateType>())) {}
+ Org::BouncyCastle::Crypto::Tls::CertificateType Org::BouncyCastle::Crypto::Tls::CertificateType::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::CertificateType o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::CertificateType>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::CertificateType::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::CertificateType>::get(),

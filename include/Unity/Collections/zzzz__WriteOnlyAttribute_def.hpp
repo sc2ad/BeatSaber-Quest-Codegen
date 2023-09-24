@@ -47,8 +47,7 @@ constexpr explicit WriteOnlyAttribute(void* ptr) noexcept : System::Attribute(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit WriteOnlyAttribute() ;
+static Unity::Collections::WriteOnlyAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b28584 size 0x8 virtual false final false
  void _ctor() ;

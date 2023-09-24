@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__EventSystemListener_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: HMUI::EventSystemListener.add_pointerDidEnterEvent
 template<>
 
@@ -203,8 +203,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, eventData);
 }
-// Ctor Parameters []
- HMUI::EventSystemListener::EventSystemListener()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EventSystemListener>())) {}
+ HMUI::EventSystemListener HMUI::EventSystemListener::New_ctor()  {
+HMUI::EventSystemListener o{THROW_UNLESS(::il2cpp_utils::New<HMUI::EventSystemListener>())};
+return o;
+}
  void HMUI::EventSystemListener::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::EventSystemListener>::get(),

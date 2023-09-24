@@ -4,7 +4,7 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct GlobalNamespace__BeatmapDataCache___GetBeatmapData_d__4;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
@@ -12,23 +12,26 @@ class IDifficultyBeatmap;
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class PlayerSpecificSettings;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -212,8 +215,7 @@ constexpr GlobalNamespace::IReadonlyBeatmapData __get_cachedMap() const;
 /// @brief Method GetBeatmapData addr 0x2190cd0 size 0x110 virtual false final false
  System::Threading::Tasks::Task_1<GlobalNamespace::IReadonlyBeatmapData> GetBeatmapData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
 
-// Ctor Parameters []
-explicit BeatmapDataCache() ;
+static GlobalNamespace::BeatmapDataCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x2190de0 size 0x8 virtual false final false
  void _ctor() ;

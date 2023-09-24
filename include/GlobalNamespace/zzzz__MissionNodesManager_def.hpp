@@ -6,23 +6,23 @@ namespace GlobalNamespace {
 class CampaignProgressModel;
 }
 namespace GlobalNamespace {
-class MissionNodeConnection;
+class MissionNodeVisualController;
+}
+namespace GlobalNamespace {
+class MissionStagesManager;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
 namespace GlobalNamespace {
-class MissionStagesManager;
-}
-namespace GlobalNamespace {
-class MissionNodeVisualController;
-}
-namespace UnityEngine {
-class GameObject;
+class MissionNodeConnection;
 }
 namespace GlobalNamespace {
 class MissionNode;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -208,8 +208,7 @@ constexpr bool __get__isInitialized() const;
 /// @brief Method SetupNodeConnections addr 0x214a25c size 0xc0 virtual false final false
  void SetupNodeConnections() ;
 
-// Ctor Parameters []
-explicit MissionNodesManager() ;
+static GlobalNamespace::MissionNodesManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x214a62c size 0x8 virtual false final false
  void _ctor() ;

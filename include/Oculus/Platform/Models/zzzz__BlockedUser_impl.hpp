@@ -23,8 +23,10 @@ constexpr void Oculus::Platform::Models::BlockedUser::__set_Id(uint64_t value)  
 constexpr uint64_t Oculus::Platform::Models::BlockedUser::__get_Id() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::BlockedUser::BlockedUser(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BlockedUser>(o))) {}
+ Oculus::Platform::Models::BlockedUser Oculus::Platform::Models::BlockedUser::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::BlockedUser o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::BlockedUser>(o))};
+return o;
+}
  void Oculus::Platform::Models::BlockedUser::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::BlockedUser>::get(),

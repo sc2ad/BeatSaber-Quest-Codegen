@@ -23,8 +23,10 @@ constexpr void System::Net::Cache::RequestCachingSectionInternal::__set_DisableA
 constexpr bool System::Net::Cache::RequestCachingSectionInternal::__get_DisableAllCaching() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Cache::RequestCachingSectionInternal::RequestCachingSectionInternal()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RequestCachingSectionInternal>())) {}
+ System::Net::Cache::RequestCachingSectionInternal System::Net::Cache::RequestCachingSectionInternal::New_ctor()  {
+System::Net::Cache::RequestCachingSectionInternal o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Cache::RequestCachingSectionInternal>())};
+return o;
+}
  void System::Net::Cache::RequestCachingSectionInternal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Cache::RequestCachingSectionInternal>::get(),

@@ -13,6 +13,9 @@ class IAsyncResult;
 namespace UnityEngine {
 class Transform;
 }
+namespace RootMotion {
+class RootMotion__Warning__Logger;
+}
 // Forward declare root types
 namespace RootMotion {
 class RootMotion__Warning__Logger;
@@ -62,8 +65,7 @@ constexpr explicit RootMotion__Warning__Logger(void* ptr) noexcept : System::Mul
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit RootMotion__Warning__Logger(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static RootMotion::RootMotion__Warning__Logger New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x11b6710 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

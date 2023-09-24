@@ -48,8 +48,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EnvironmentCommandLineArgsProvider::EnvironmentCommandLineArgsProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EnvironmentCommandLineArgsProvider>())) {}
+ GlobalNamespace::EnvironmentCommandLineArgsProvider GlobalNamespace::EnvironmentCommandLineArgsProvider::New_ctor()  {
+GlobalNamespace::EnvironmentCommandLineArgsProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnvironmentCommandLineArgsProvider>())};
+return o;
+}
  void GlobalNamespace::EnvironmentCommandLineArgsProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnvironmentCommandLineArgsProvider>::get(),

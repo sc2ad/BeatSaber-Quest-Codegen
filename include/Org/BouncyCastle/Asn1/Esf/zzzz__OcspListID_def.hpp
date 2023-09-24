@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1::Esf {
-class OcspResponsesID;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -12,8 +12,8 @@ class IEnumerable;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Esf {
+class OcspResponsesID;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -73,20 +73,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_ocspResponses() const;
 /// @brief Method GetInstance addr 0xe04838 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::OcspListID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OcspListID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::OcspListID New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0587c size 0x480 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "ocspResponses", ty: "::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID>", modifiers: "", def_value: None }]
-explicit OcspListID(::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID> ocspResponses) ;
+static Org::BouncyCastle::Asn1::Esf::OcspListID New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID> ocspResponses) ;
 
 /// @brief Method .ctor addr 0xe05e84 size 0xc4 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID> ocspResponses) ;
 
-// Ctor Parameters [CppParam { name: "ocspResponses", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit OcspListID(System::Collections::IEnumerable ocspResponses) ;
+static Org::BouncyCastle::Asn1::Esf::OcspListID New_ctor(System::Collections::IEnumerable ocspResponses) ;
 
 /// @brief Method .ctor addr 0xe05f48 size 0x1a4 virtual false final false
  void _ctor(System::Collections::IEnumerable ocspResponses) ;

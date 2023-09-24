@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::CamelCasePropertyNamesContractResolver()  : Newtonsoft::Json::Serialization::DefaultContractResolver(THROW_UNLESS(::il2cpp_utils::New<CamelCasePropertyNamesContractResolver>())) {}
+ Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::New_ctor()  {
+Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver>::get(),

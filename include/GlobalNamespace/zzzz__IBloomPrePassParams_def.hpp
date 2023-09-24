@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+struct Vector2;
+}
 namespace GlobalNamespace {
 class TextureEffectSO;
 }
 namespace GlobalNamespace {
 struct ToneMapping;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

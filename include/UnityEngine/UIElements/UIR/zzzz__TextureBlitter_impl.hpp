@@ -1,17 +1,18 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TextureBlitter_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/zzzz__Vector2Int_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__TextureBlitter_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 // Ctor Parameters [CppParam { name: "src", ty: "UnityEngine::Texture", modifiers: "", def_value: Some("csnull") }, CppParam { name: "srcRect", ty: "UnityEngine::RectInt", modifiers: "", def_value: Some("{}") }, CppParam { name: "dstPos", ty: "UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "border", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "tint", ty: "UnityEngine::Color", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo::UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo(UnityEngine::Texture src, UnityEngine::RectInt srcRect, UnityEngine::Vector2Int dstPos, int32_t border, UnityEngine::Color tint) noexcept : ::bs_hook::ValueTypeWrapper() {this->src = src;
 this->srcRect = srcRect;
@@ -330,8 +331,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, disposing);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: Some("512") }]
- UnityEngine::UIElements::UIR::TextureBlitter::TextureBlitter(int32_t capacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TextureBlitter>(capacity))) {}
+/// @param capacity: int32_t (default: 512)
+ UnityEngine::UIElements::UIR::TextureBlitter UnityEngine::UIElements::UIR::TextureBlitter::New_ctor(int32_t capacity)  {
+UnityEngine::UIElements::UIR::TextureBlitter o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::TextureBlitter>(capacity))};
+return o;
+}
 /// @param capacity: int32_t (default: 512)
  void UnityEngine::UIElements::UIR::TextureBlitter::_ctor(int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

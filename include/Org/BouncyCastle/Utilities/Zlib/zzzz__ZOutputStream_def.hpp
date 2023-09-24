@@ -7,10 +7,10 @@ namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 namespace System::IO {
-struct SeekOrigin;
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -128,32 +128,27 @@ constexpr bool __get_closed() const;
 /// @brief Method GetDefaultZStream addr 0xf16078 size 0x70 virtual false final false
 static Org::BouncyCastle::Utilities::Zlib::ZStream GetDefaultZStream(bool nowrap) ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit ZOutputStream(System::IO::Stream output) ;
+static Org::BouncyCastle::Utilities::Zlib::ZOutputStream New_ctor(System::IO::Stream output) ;
 
 /// @brief Method .ctor addr 0xf160e8 size 0x30 virtual false final false
  void _ctor(System::IO::Stream output) ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
-explicit ZOutputStream(System::IO::Stream output, bool nowrap) ;
+static Org::BouncyCastle::Utilities::Zlib::ZOutputStream New_ctor(System::IO::Stream output, bool nowrap) ;
 
 /// @brief Method .ctor addr 0xf16118 size 0x30 virtual false final false
  void _ctor(System::IO::Stream output, bool nowrap) ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "z", ty: "Org::BouncyCastle::Utilities::Zlib::ZStream", modifiers: "", def_value: None }]
-explicit ZOutputStream(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
+static Org::BouncyCastle::Utilities::Zlib::ZOutputStream New_ctor(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
 /// @brief Method .ctor addr 0xf15f60 size 0x114 virtual false final false
  void _ctor(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ZOutputStream(System::IO::Stream output, int32_t level) ;
+static Org::BouncyCastle::Utilities::Zlib::ZOutputStream New_ctor(System::IO::Stream output, int32_t level) ;
 
 /// @brief Method .ctor addr 0xf16148 size 0x8 virtual false final false
  void _ctor(System::IO::Stream output, int32_t level) ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
-explicit ZOutputStream(System::IO::Stream output, int32_t level, bool nowrap) ;
+static Org::BouncyCastle::Utilities::Zlib::ZOutputStream New_ctor(System::IO::Stream output, int32_t level, bool nowrap) ;
 
 /// @brief Method .ctor addr 0xf16150 size 0x100 virtual false final false
  void _ctor(System::IO::Stream output, int32_t level, bool nowrap) ;

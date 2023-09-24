@@ -79,8 +79,7 @@ static int64_t __get_kIntervalEnd() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "playable", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: None }]
-explicit InfiniteRuntimeClip(UnityEngine::Playables::Playable playable) ;
+static UnityEngine::Timeline::InfiniteRuntimeClip New_ctor(UnityEngine::Playables::Playable playable) ;
 
 /// @brief Method .ctor addr 0x2abb62c size 0x2c virtual false final false
  void _ctor(UnityEngine::Playables::Playable playable) ;

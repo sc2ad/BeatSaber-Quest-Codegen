@@ -3,9 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
@@ -13,6 +10,9 @@ class AudioSource;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -129,8 +129,7 @@ constexpr float_t __get__speed() const;
 /// @brief Method Update addr 0x210c7f8 size 0x1cc virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit SaberSound() ;
+static GlobalNamespace::SaberSound New_ctor() ;
 
 /// @brief Method .ctor addr 0x210c9c4 size 0x14 virtual false final false
  void _ctor() ;

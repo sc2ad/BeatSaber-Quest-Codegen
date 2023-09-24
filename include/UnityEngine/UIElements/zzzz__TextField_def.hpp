@@ -5,19 +5,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__TextField__TextInput;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__TextField__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__TextField__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class UxmlBoolAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -86,8 +95,7 @@ constexpr UnityEngine::UIElements::UxmlBoolAttributeDescription __get_m_Multilin
 /// @brief Method Init addr 0x2cb28b0 size 0x114 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TextField__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb29c4 size 0xa0 virtual false final false
  void _ctor() ;
@@ -99,7 +107,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.UIElements::TextField
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7196), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(7196))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7196)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7196), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7156))
 // CS Name: UnityEngine.UIElements.TextField
 class CORDL_TYPE TextField : public UnityEngine::UIElements::TextInputBaseField_1<::StringW> {
@@ -180,20 +188,17 @@ static ::StringW __get_inputUssClassName() ;
 /// @brief Method set_multiline addr 0x2cb2218 size 0x20 virtual false final false
  void set_multiline(bool value) ;
 
-// Ctor Parameters []
-explicit TextField() ;
+static UnityEngine::UIElements::TextField New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb2304 size 0x18 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TextField(::StringW label) ;
+static UnityEngine::UIElements::TextField New_ctor(::StringW label) ;
 
 /// @brief Method .ctor addr 0x2cb231c size 0x14 virtual false final false
  void _ctor(::StringW label) ;
 
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "maxLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "multiline", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPasswordField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "maskChar", ty: "char16_t", modifiers: "", def_value: None }]
-explicit TextField(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar) ;
+static UnityEngine::UIElements::TextField New_ctor(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar) ;
 
 /// @brief Method .ctor addr 0x2cb2330 size 0x1dc virtual false final false
  void _ctor(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar) ;
@@ -217,7 +222,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7156)), TypeDefinitionIndex(TypeDefinitionIndex(7154)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5108 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5108 }), TypeDefinitionIndex(TypeDefinitionIndex(7154)), TypeDefinitionIndex(TypeDefinitionIndex(7156))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7153))
 // CS Name: UnityEngine.UIElements.TextField::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__TextField__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::TextField,UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits> {
@@ -256,8 +261,7 @@ constexpr explicit UnityEngine__UIElements__TextField__UxmlFactory(void* ptr) no
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TextField__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb2868 size 0x48 virtual false final false
  void _ctor() ;
@@ -269,7 +273,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::TextInput
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7195)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7195), inst: 380 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7195), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(7195))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7155))
 // CS Name: UnityEngine.UIElements.TextField::TextInput
 class CORDL_TYPE UnityEngine__UIElements__TextField__TextInput : public UnityEngine::UIElements::UnityEngine__UIElements__TextInputBaseField_1__TextInputBase<::StringW> {
@@ -353,8 +357,7 @@ constexpr bool __get_m_Multiline() const;
 /// @brief Method ExecuteDefaultAction addr 0x2cb33b0 size 0x18c virtual true final false
  void ExecuteDefaultAction(UnityEngine::UIElements::EventBase evt) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TextField__TextInput() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TextField__TextInput New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb250c size 0x48 virtual false final false
  void _ctor() ;

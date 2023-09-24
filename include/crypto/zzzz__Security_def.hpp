@@ -67,8 +67,7 @@ static ::StringW GenerateText(int32_t size) ;
 /// @brief Method CreateCipher addr 0xf38a78 size 0x220 virtual false final false
 static Org::BouncyCastle::Crypto::IBufferedCipher CreateCipher(bool isEncryption, ::StringW key, ::StringW iv) ;
 
-// Ctor Parameters []
-explicit Security() ;
+static crypto::Security New_ctor() ;
 
 /// @brief Method .ctor addr 0xf38e50 size 0x8 virtual false final false
  void _ctor() ;

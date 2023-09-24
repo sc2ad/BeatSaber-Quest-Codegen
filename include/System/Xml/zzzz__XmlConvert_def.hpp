@@ -6,41 +6,41 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace System {
-struct DateTime;
-}
 namespace System::Text::RegularExpressions {
 class Regex;
 }
 namespace System {
-struct Decimal;
+class Exception;
 }
 namespace System {
-class Uri;
+struct Guid;
 }
 namespace System::Xml {
 struct XmlCharType;
 }
-namespace System::Xml {
-struct ExceptionType;
+namespace System {
+struct DateTime;
 }
 namespace System::Xml {
 struct XmlDateTimeSerializationMode;
 }
 namespace System {
-struct Guid;
+class Uri;
+}
+namespace System::Xml {
+struct ExceptionType;
+}
+namespace System {
+struct DateTimeOffset;
 }
 namespace System {
 class ArgumentException;
 }
 namespace System {
-class Exception;
+struct Decimal;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Xml {

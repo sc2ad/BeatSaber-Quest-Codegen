@@ -1,7 +1,7 @@
 #pragma once
 #include "RootMotion/zzzz__Interp_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/zzzz__InterpolationMode_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::Interp.Float
 template<>
 
@@ -799,8 +799,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, t, b, c);
 }
-// Ctor Parameters []
- RootMotion::Interp::Interp()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Interp>())) {}
+ RootMotion::Interp RootMotion::Interp::New_ctor()  {
+RootMotion::Interp o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::Interp>())};
+return o;
+}
  void RootMotion::Interp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::Interp>::get(),

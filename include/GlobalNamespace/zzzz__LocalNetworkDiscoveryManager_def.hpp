@@ -8,12 +8,6 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace LiteNetLib::Utils {
@@ -22,48 +16,87 @@ class NetDataWriter;
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
 namespace System {
 class AsyncCallback;
-}
-namespace System::Net {
-class IPAddress;
 }
 namespace System {
 class IAsyncResult;
 }
-namespace LiteNetLib {
-class NetPacketReader;
-}
-namespace LiteNetLib {
-class NetManager;
-}
-namespace LiteNetLib {
-struct UnconnectedMessageType;
-}
-namespace GlobalNamespace {
-template<typename TType,typename TData>
-class NetworkPacketSerializer_2;
-}
 namespace System::Net {
-class IPEndPoint;
+class IPAddress;
 }
 namespace LiteNetLib {
 class NetPeer;
 }
 namespace LiteNetLib {
-class INetEventListener;
+struct DisconnectInfo;
 }
-namespace System::Net::Sockets {
-struct SocketError;
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate;
 }
 namespace LiteNetLib {
 struct DeliveryMethod;
 }
 namespace LiteNetLib {
-class ConnectionRequest;
+class INetEventListener;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket;
 }
 namespace LiteNetLib {
-struct DisconnectInfo;
+class NetManager;
+}
+namespace GlobalNamespace {
+template<typename TType,typename TData>
+class NetworkPacketSerializer_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket;
+}
+namespace LiteNetLib {
+struct UnconnectedMessageType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket;
+}
+namespace LiteNetLib {
+class ConnectionRequest;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LocalNetworkDiscoveryManager__PacketType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate;
+}
+namespace LiteNetLib {
+class NetPacketReader;
+}
+namespace System::Net::Sockets {
+struct SocketError;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -154,6 +187,8 @@ __InviteResponse = 4u,
 constexpr operator __GlobalNamespace__LocalNetworkDiscoveryManager__PacketType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LocalNetworkDiscoveryManager__PacketType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields
@@ -279,8 +314,7 @@ constexpr GlobalNamespace::GameplayServerConfiguration __get_configuration() con
 /// @brief Method Deserialize addr 0x2204278 size 0xd4 virtual true final true
  void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket() ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x2203f5c size 0x8 virtual false final false
  void _ctor() ;
@@ -355,8 +389,7 @@ constexpr ::StringW __get_userName() const;
 /// @brief Method Deserialize addr 0x220438c size 0x44 virtual true final true
  void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket() ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x2203924 size 0x8 virtual false final false
  void _ctor() ;
@@ -461,8 +494,7 @@ constexpr GlobalNamespace::GameplayServerConfiguration __get_configuration() con
 /// @brief Method Deserialize addr 0x2204464 size 0xd8 virtual true final true
  void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket() ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x2203a7c size 0x8 virtual false final false
  void _ctor() ;
@@ -567,8 +599,7 @@ constexpr GlobalNamespace::GameplayServerConfiguration __get_configuration() con
 /// @brief Method Deserialize addr 0x22045d0 size 0xd4 virtual true final true
  void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket() ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x2203bcc size 0x8 virtual false final false
  void _ctor() ;
@@ -649,8 +680,7 @@ constexpr bool __get_blocked() const;
 /// @brief Method Deserialize addr 0x22046f4 size 0x5c virtual true final true
  void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket() ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x2203ce0 size 0x8 virtual false final false
  void _ctor() ;
@@ -701,8 +731,7 @@ constexpr explicit GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDel
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2204750 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -762,8 +791,7 @@ constexpr explicit GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedD
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x22049c0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -823,8 +851,7 @@ constexpr explicit GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedD
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2204ae4 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -884,8 +911,7 @@ constexpr explicit GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequeste
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2204d6c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -945,8 +971,7 @@ constexpr explicit GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponde
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2204fe4 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1250,8 +1275,7 @@ template<typename T>
 /// @brief Method LiteNetLib.INetEventListener.OnNetworkReceive addr 0x2203e74 size 0x4 virtual true final true
  void LiteNetLib_INetEventListener_OnNetworkReceive(LiteNetLib::NetPeer peer, LiteNetLib::NetPacketReader reader, LiteNetLib::DeliveryMethod deliveryMethod) ;
 
-// Ctor Parameters []
-explicit LocalNetworkDiscoveryManager() ;
+static GlobalNamespace::LocalNetworkDiscoveryManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2203e78 size 0xe4 virtual false final false
  void _ctor() ;

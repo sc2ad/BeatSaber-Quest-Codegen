@@ -2,23 +2,29 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine::ProBuilder {
+template<typename T1,typename T2>
+struct SimpleTuple_2;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
 class Face;
 }
-namespace UnityEngine::ProBuilder {
-template<typename T1,typename T2>
-struct SimpleTuple_2;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__MergeElements____c;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -89,8 +95,7 @@ constexpr System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face>
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a22510 size 0x8 virtual false final false
  void _ctor() ;
@@ -159,8 +164,7 @@ static System::Func_2<UnityEngine::ProBuilder::Face,System::Collections::Generic
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__MergeElements____c() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a2319c size 0x8 virtual false final false
  void _ctor() ;

@@ -3,9 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class ILightWithId;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -14,11 +11,14 @@ namespace UnityEngine {
 struct Color;
 }
 namespace System {
-class Action;
-}
-namespace System {
 template<typename T>
 struct Nullable_1;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class ILightWithId;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -123,8 +123,7 @@ constexpr bool __get__didChangeSomeColorsThisFrame() const;
 /// @brief Method GetColorForId addr 0x1f9e540 size 0xe4 virtual false final false
  UnityEngine::Color GetColorForId(int32_t lightId, bool initializeIfNull) ;
 
-// Ctor Parameters []
-explicit LightWithIdManager() ;
+static GlobalNamespace::LightWithIdManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9e624 size 0xd0 virtual false final false
  void _ctor() ;

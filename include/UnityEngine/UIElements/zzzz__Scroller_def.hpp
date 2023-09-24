@@ -6,36 +6,42 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace UnityEngine::UIElements {
-class UxmlChildElementDescription;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
-template<typename T>
-class ChangeEvent_1;
+class UxmlChildElementDescription;
 }
-namespace UnityEngine::UIElements {
-class RepeatButton;
+namespace System {
+class IDisposable;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__Scroller__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class RepeatButton;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__Scroller__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 class Slider;
@@ -44,7 +50,11 @@ namespace UnityEngine::UIElements {
 struct SliderDirection;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class UxmlFloatAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -52,12 +62,11 @@ class IUxmlAttributes;
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
-namespace UnityEngine::UIElements {
-template<typename T>
-class UxmlEnumAttributeDescription_1;
+namespace GlobalNamespace {
+class UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5;
 }
 namespace UnityEngine::UIElements {
-class UxmlFloatAttributeDescription;
+class VisualElement;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -154,8 +163,7 @@ constexpr UnityEngine::UIElements::UxmlFloatAttributeDescription __get_m_Value()
 /// @brief Method Init addr 0x2cb43a8 size 0x1ec virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Scroller__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb4594 size 0x25c virtual false final false
  void _ctor() ;
@@ -335,14 +343,12 @@ static ::StringW __get_highButtonUssClassName() ;
 /// @brief Method set_direction addr 0x2cb387c size 0x1fc virtual false final false
  void set_direction(UnityEngine::UIElements::SliderDirection value) ;
 
-// Ctor Parameters []
-explicit Scroller() ;
+static UnityEngine::UIElements::Scroller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb3a78 size 0x14 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "lowValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "highValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "valueChanged", ty: "System::Action_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "direction", ty: "UnityEngine::UIElements::SliderDirection", modifiers: "", def_value: None }]
-explicit Scroller(float_t lowValue, float_t highValue, System::Action_1<float_t> valueChanged, UnityEngine::UIElements::SliderDirection direction) ;
+static UnityEngine::UIElements::Scroller New_ctor(float_t lowValue, float_t highValue, System::Action_1<float_t> valueChanged, UnityEngine::UIElements::SliderDirection direction) ;
 
 /// @brief Method .ctor addr 0x2cb3a8c size 0x3a8 virtual false final false
  void _ctor(float_t lowValue, float_t highValue, System::Action_1<float_t> valueChanged, UnityEngine::UIElements::SliderDirection direction) ;
@@ -372,7 +378,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5102 }), TypeDefinitionIndex(TypeDefinitionIndex(7159)), TypeDefinitionIndex(TypeDefinitionIndex(7160))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5102 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7160)), TypeDefinitionIndex(TypeDefinitionIndex(7159))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7157))
 // CS Name: UnityEngine.UIElements.Scroller::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__Scroller__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Scroller,UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits> {
@@ -411,8 +417,7 @@ constexpr explicit UnityEngine__UIElements__Scroller__UxmlFactory(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Scroller__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb42b8 size 0x48 virtual false final false
  void _ctor() ;
@@ -512,8 +517,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2cb4364 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;

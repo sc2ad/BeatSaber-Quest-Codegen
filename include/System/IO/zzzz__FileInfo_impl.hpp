@@ -1,10 +1,10 @@
 #pragma once
 #include "System/IO/zzzz__FileSystemInfo_impl.hpp"
 #include "System/IO/zzzz__FileInfo_def.hpp"
-#include "System/IO/zzzz__StreamWriter_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/IO/zzzz__FileStream_def.hpp"
+#include "System/IO/zzzz__StreamWriter_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::IO::FileInfo._ctor
 template<>
 
@@ -175,8 +175,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::IO::FileInfo::FileInfo()  : System::IO::FileSystemInfo(THROW_UNLESS(::il2cpp_utils::New<FileInfo>())) {}
+ System::IO::FileInfo System::IO::FileInfo::New_ctor()  {
+System::IO::FileInfo o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileInfo>())};
+return o;
+}
  void System::IO::FileInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileInfo>::get(),
@@ -186,8 +188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
- System::IO::FileInfo::FileInfo(::StringW fileName)  : System::IO::FileSystemInfo(THROW_UNLESS(::il2cpp_utils::New<FileInfo>(fileName))) {}
+ System::IO::FileInfo System::IO::FileInfo::New_ctor(::StringW fileName)  {
+System::IO::FileInfo o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileInfo>(fileName))};
+return o;
+}
  void System::IO::FileInfo::_ctor(::StringW fileName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileInfo>::get(),
@@ -197,8 +201,13 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fileName);
 }
-// Ctor Parameters [CppParam { name: "originalPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fullPath", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "isNormalized", ty: "bool", modifiers: "", def_value: Some("false") }]
- System::IO::FileInfo::FileInfo(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized)  : System::IO::FileSystemInfo(THROW_UNLESS(::il2cpp_utils::New<FileInfo>(originalPath, fullPath, fileName, isNormalized))) {}
+/// @param fullPath: ::StringW (default: csnull)
+/// @param fileName: ::StringW (default: csnull)
+/// @param isNormalized: bool (default: false)
+ System::IO::FileInfo System::IO::FileInfo::New_ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized)  {
+System::IO::FileInfo o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileInfo>(originalPath, fullPath, fileName, isNormalized))};
+return o;
+}
 /// @param fullPath: ::StringW (default: csnull)
 /// @param fileName: ::StringW (default: csnull)
 /// @param isNormalized: bool (default: false)
@@ -256,8 +265,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IO::FileStream, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::IO::FileInfo::FileInfo(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::IO::FileSystemInfo(THROW_UNLESS(::il2cpp_utils::New<FileInfo>(info, context))) {}
+ System::IO::FileInfo System::IO::FileInfo::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::IO::FileInfo o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileInfo>(info, context))};
+return o;
+}
  void System::IO::FileInfo::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileInfo>::get(),

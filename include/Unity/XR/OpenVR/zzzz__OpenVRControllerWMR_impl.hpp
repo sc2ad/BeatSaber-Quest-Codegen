@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_impl.hpp"
 #include "Unity/XR/OpenVR/zzzz__OpenVRControllerWMR_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
 //  Writing Method size for method: Unity::XR::OpenVR::OpenVRControllerWMR.get_deviceVelocity
 template<>
 
@@ -686,8 +686,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::OpenVR::OpenVRControllerWMR::OpenVRControllerWMR()  : UnityEngine::InputSystem::XR::XRController(THROW_UNLESS(::il2cpp_utils::New<OpenVRControllerWMR>())) {}
+ Unity::XR::OpenVR::OpenVRControllerWMR Unity::XR::OpenVR::OpenVRControllerWMR::New_ctor()  {
+Unity::XR::OpenVR::OpenVRControllerWMR o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::OpenVR::OpenVRControllerWMR>())};
+return o;
+}
  void Unity::XR::OpenVR::OpenVRControllerWMR::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::OpenVR::OpenVRControllerWMR>::get(),

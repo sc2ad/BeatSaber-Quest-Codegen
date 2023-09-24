@@ -49,8 +49,10 @@ constexpr void HoudiniEngineUnity::HEU_LoadBufferInstancer::__set__collisionAsse
 constexpr ::ArrayW<::StringW> HoudiniEngineUnity::HEU_LoadBufferInstancer::__get__collisionAssetPaths() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::StringW>, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_LoadBufferInstancer::HEU_LoadBufferInstancer()  : HoudiniEngineUnity::HEU_LoadBufferBase(THROW_UNLESS(::il2cpp_utils::New<HEU_LoadBufferInstancer>())) {}
+ HoudiniEngineUnity::HEU_LoadBufferInstancer HoudiniEngineUnity::HEU_LoadBufferInstancer::New_ctor()  {
+HoudiniEngineUnity::HEU_LoadBufferInstancer o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_LoadBufferInstancer>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_LoadBufferInstancer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_LoadBufferInstancer>::get(),

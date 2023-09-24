@@ -1,33 +1,33 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class GhostEffectBehaviour;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__GhostEffectBehaviour__GhostEffectType;
+struct Playable;
 }
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
 }
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableGraph;
+}
+namespace GlobalNamespace {
+class TimelineArrayReference;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GhostEffectBehaviour__GhostEffectType;
 }
 namespace UnityEngine {
 template<typename T>
 struct ExposedReference_1;
 }
 namespace GlobalNamespace {
-class TimelineArrayReference;
+class GhostEffectBehaviour;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -110,8 +110,7 @@ constexpr GlobalNamespace::GhostEffectBehaviour __get_template() const;
 /// @brief Method CreatePlayable addr 0x21b2744 size 0x13c virtual true final false
  UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
-// Ctor Parameters []
-explicit GhostEffectAsset() ;
+static GlobalNamespace::GhostEffectAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b2880 size 0x8 virtual false final false
  void _ctor() ;

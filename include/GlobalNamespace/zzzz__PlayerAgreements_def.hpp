@@ -84,14 +84,12 @@ constexpr int32_t __get_healthAndSafetyVersion() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PlayerAgreements() ;
+static GlobalNamespace::PlayerAgreements New_ctor() ;
 
 /// @brief Method .ctor addr 0x2220348 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "eulaVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "privacyPolicyVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "healthAndSafetyVersion", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PlayerAgreements(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion) ;
+static GlobalNamespace::PlayerAgreements New_ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion) ;
 
 /// @brief Method .ctor addr 0x2220368 size 0x3c virtual false final false
  void _ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion) ;

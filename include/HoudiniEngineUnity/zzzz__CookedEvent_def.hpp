@@ -11,7 +11,7 @@ class CookedEvent;
 // Type: HoudiniEngineUnity::CookedEvent
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10403), inst: 5059 }), TypeDefinitionIndex(TypeDefinitionIndex(10403)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 298 }), TypeDefinitionIndex(TypeDefinitionIndex(3828)), TypeDefinitionIndex(TypeDefinitionIndex(9580)), TypeDefinitionIndex(TypeDefinitionIndex(10138))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3828)), TypeDefinitionIndex(TypeDefinitionIndex(10403)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10403), inst: 5059 }), TypeDefinitionIndex(TypeDefinitionIndex(9580)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 298 }), TypeDefinitionIndex(TypeDefinitionIndex(10138))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9543))
 // CS Name: HoudiniEngineUnity.CookedEvent
 class CORDL_TYPE CookedEvent : public UnityEngine::Events::UnityEvent_3<HoudiniEngineUnity::HEU_HoudiniAsset,bool,System::Collections::Generic::List_1<UnityEngine::GameObject>> {
@@ -50,8 +50,7 @@ constexpr explicit CookedEvent(void* ptr) noexcept : UnityEngine::Events::UnityE
 
 // Methods
 
-// Ctor Parameters []
-explicit CookedEvent() ;
+static HoudiniEngineUnity::CookedEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdabc4 size 0x48 virtual false final false
  void _ctor() ;

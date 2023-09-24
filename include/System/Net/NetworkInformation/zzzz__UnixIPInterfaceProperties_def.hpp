@@ -1,21 +1,21 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
-namespace System::Net {
-class IPAddress;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Net {
+class IPAddress;
+}
+namespace System::Net::NetworkInformation {
+class UnicastIPAddressInformationCollection;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
 }
 namespace System::Net::NetworkInformation {
 class UnixNetworkInterface;
-}
-namespace System::Net::NetworkInformation {
-class UnicastIPAddressInformationCollection;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -95,8 +95,7 @@ static System::Text::RegularExpressions::Regex __get_search() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "iface", ty: "System::Net::NetworkInformation::UnixNetworkInterface", modifiers: "", def_value: None }, CppParam { name: "addresses", ty: "System::Collections::Generic::List_1<System::Net::IPAddress>", modifiers: "", def_value: None }]
-explicit UnixIPInterfaceProperties(System::Net::NetworkInformation::UnixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses) ;
+static System::Net::NetworkInformation::UnixIPInterfaceProperties New_ctor(System::Net::NetworkInformation::UnixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses) ;
 
 /// @brief Method .ctor addr 0x2859a04 size 0x2c virtual false final false
  void _ctor(System::Net::NetworkInformation::UnixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses) ;

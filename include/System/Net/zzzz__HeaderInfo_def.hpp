@@ -84,8 +84,7 @@ constexpr bool __get_AllowMultiValues() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "requestRestricted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "responseRestricted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "multi", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "p", ty: "System::Net::HeaderParser", modifiers: "", def_value: None }]
-explicit HeaderInfo(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser p) ;
+static System::Net::HeaderInfo New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser p) ;
 
 /// @brief Method .ctor addr 0x281483c size 0x54 virtual false final false
  void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser p) ;

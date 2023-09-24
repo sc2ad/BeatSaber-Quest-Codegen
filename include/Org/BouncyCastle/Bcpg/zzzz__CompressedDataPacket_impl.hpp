@@ -43,8 +43,10 @@ constexpr void Org::BouncyCastle::Bcpg::CompressedDataPacket::__set_algorithm(Or
 constexpr Org::BouncyCastle::Bcpg::CompressionAlgorithmTag Org::BouncyCastle::Bcpg::CompressedDataPacket::__get_algorithm() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::CompressionAlgorithmTag, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::CompressedDataPacket::CompressedDataPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::InputStreamPacket(THROW_UNLESS(::il2cpp_utils::New<CompressedDataPacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::CompressedDataPacket Org::BouncyCastle::Bcpg::CompressedDataPacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::CompressedDataPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::CompressedDataPacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::CompressedDataPacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::CompressedDataPacket>::get(),

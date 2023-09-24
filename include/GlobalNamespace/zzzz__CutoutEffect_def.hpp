@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class BoolSO;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
@@ -120,8 +120,7 @@ static int32_t __get__cutoutTexOffsetPropertyID() ;
 /// @brief Method SetCutout addr 0x224df98 size 0xe4 virtual false final false
  void SetCutout(float_t cutout, UnityEngine::Vector3 cutoutOffset) ;
 
-// Ctor Parameters []
-explicit CutoutEffect() ;
+static GlobalNamespace::CutoutEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x224e07c size 0x8 virtual false final false
  void _ctor() ;

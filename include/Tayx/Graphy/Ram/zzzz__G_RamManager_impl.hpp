@@ -1,17 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamManager_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "Tayx/Graphy/Ram/zzzz__G_RamText_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "Tayx/Graphy/Ram/zzzz__G_RamGraph_def.hpp"
 #include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Tayx/Graphy/Ram/zzzz__G_RamGraph_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "Tayx/Graphy/Ram/zzzz__G_RamText_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 //  Writing Method size for method: Tayx::Graphy::Ram::G_RamManager.Awake
 template<>
 
@@ -326,8 +324,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, active);
 }
-// Ctor Parameters []
- Tayx::Graphy::Ram::G_RamManager::G_RamManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<G_RamManager>())) {}
+ Tayx::Graphy::Ram::G_RamManager Tayx::Graphy::Ram::G_RamManager::New_ctor()  {
+Tayx::Graphy::Ram::G_RamManager o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Ram::G_RamManager>())};
+return o;
+}
  void Tayx::Graphy::Ram::G_RamManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Ram::G_RamManager>::get(),

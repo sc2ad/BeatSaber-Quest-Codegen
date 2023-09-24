@@ -50,8 +50,7 @@ constexpr explicit Installer(void* ptr) noexcept : Zenject::InstallerBase(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit Installer() ;
+static Zenject::Installer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7b504 size 0x8 virtual false final false
  void _ctor() ;

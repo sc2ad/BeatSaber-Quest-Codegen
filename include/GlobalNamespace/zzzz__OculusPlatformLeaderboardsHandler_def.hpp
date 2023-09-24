@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Oculus::Platform {
-template<typename T>
-class Message_1;
+namespace Oculus::Platform::Models {
+class LeaderboardEntryList;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Oculus__Platform__Message_1__Callback;
 }
-namespace Oculus::Platform::Models {
-class LeaderboardEntryList;
-}
-namespace GlobalNamespace {
-class HMAsyncRequest;
+namespace Oculus::Platform {
+template<typename T>
+class Message_1;
 }
 namespace Oculus::Platform {
 class Request;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler;
@@ -27,27 +27,39 @@ class GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler;
 namespace GlobalNamespace {
 class GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
-namespace Oculus::Platform {
-class Message;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__PlatformLeaderboardsModel__ScoresScope;
-}
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class LeaderboardIdsModelSO;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__LeaderboardScoreUploader__ScoreData;
+class GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformLeaderboardsModel__ScoresScope;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LeaderboardScoreUploader__ScoreData;
+}
+namespace GlobalNamespace {
+class LeaderboardIdsModelSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformLeaderboardsHandler____c;
+}
+namespace Oculus::Platform {
+class Message;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +134,7 @@ static Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform:
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformLeaderboardsHandler____c() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c71e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -192,8 +203,7 @@ constexpr Oculus::Platform::Request __get_oculusRequest() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c6c5c size 0x8 virtual false final false
  void _ctor() ;
@@ -268,8 +278,7 @@ constexpr ::StringW __get_referencePlayerId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c6f64 size 0x8 virtual false final false
  void _ctor() ;
@@ -338,8 +347,7 @@ constexpr GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadSco
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c7178 size 0x8 virtual false final false
  void _ctor() ;
@@ -422,8 +430,7 @@ constexpr GlobalNamespace::LeaderboardIdsModelSO __get__leaderboardIdsModel() co
 
 // Methods
 
-// Ctor Parameters []
-explicit OculusPlatformLeaderboardsHandler() ;
+static GlobalNamespace::OculusPlatformLeaderboardsHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c6a48 size 0x120 virtual false final false
  void _ctor() ;

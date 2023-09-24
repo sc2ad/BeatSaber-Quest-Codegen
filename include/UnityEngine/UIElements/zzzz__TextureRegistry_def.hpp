@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 namespace UnityEngine {
 class Texture;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__TextureRegistry__TextureInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -18,8 +20,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::UIElements {
-struct TextureId;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -193,8 +196,7 @@ static UnityEngine::UIElements::TextureRegistry get_instance() ;
 /// @brief Method Release addr 0x2d068a4 size 0x1f0 virtual false final false
  void Release(UnityEngine::UIElements::TextureId id) ;
 
-// Ctor Parameters []
-explicit TextureRegistry() ;
+static UnityEngine::UIElements::TextureRegistry New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d06a94 size 0x10c virtual false final false
  void _ctor() ;

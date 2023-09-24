@@ -1,21 +1,22 @@
 #pragma once
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionUtils_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
 #include "System/Reflection/zzzz__ParameterInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ReflectionUtils_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c._ctor
 template<>
 
@@ -131,8 +132,10 @@ return ::cordl_internals::getStaticField<System::Func_2<System::Reflection::Para
  System::Func_2<System::Reflection::FieldInfo,bool> Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c::__get___9__39_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Reflection::FieldInfo,bool>, "<>9__39_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c>::get>();
 }
-// Ctor Parameters []
- Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c::Newtonsoft__Json__Utilities__ReflectionUtils____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Utilities__ReflectionUtils____c>())) {}
+ Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c::New_ctor()  {
+Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c>())};
+return o;
+}
  void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c>::get(),
@@ -252,8 +255,10 @@ constexpr void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__Reflect
 constexpr System::Reflection::PropertyInfo Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0::__get_subTypeProperty() const {
 return ::cordl_internals::getInstanceField<System::Reflection::PropertyInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0>())) {}
+ Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0 Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0::New_ctor()  {
+Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0>())};
+return o;
+}
  void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0>::get(),
@@ -336,8 +341,10 @@ constexpr void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__Reflect
 constexpr System::Type Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0::__get_methodDeclaringType() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0>())) {}
+ Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0 Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0::New_ctor()  {
+Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0>())};
+return o;
+}
  void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0>::get(),

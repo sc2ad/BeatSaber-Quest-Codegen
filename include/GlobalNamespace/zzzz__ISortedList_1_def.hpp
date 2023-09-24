@@ -3,11 +3,11 @@
 #include <cstdint>
 namespace System::Collections::Generic {
 template<typename T>
-class LinkedListNode_1;
+class LinkedList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class LinkedList_1;
+class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

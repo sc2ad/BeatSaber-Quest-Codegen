@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PhysicsRaycaster_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PhysicsRaycaster_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Ray_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 //  Writing Method size for method: UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer.Compare
 template<>
@@ -62,8 +63,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, x, y);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer>())) {}
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer::New_ctor()  {
+UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer>())};
+return o;
+}
  void UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer>::get(),
@@ -273,8 +276,10 @@ constexpr void UnityEngine::EventSystems::PhysicsRaycaster::__set_m_Hits(::Array
 constexpr ::ArrayW<UnityEngine::RaycastHit> UnityEngine::EventSystems::PhysicsRaycaster::__get_m_Hits() const {
 return ::cordl_internals::getInstanceField<::ArrayW<UnityEngine::RaycastHit>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::PhysicsRaycaster::PhysicsRaycaster()  : UnityEngine::EventSystems::BaseRaycaster(THROW_UNLESS(::il2cpp_utils::New<PhysicsRaycaster>())) {}
+ UnityEngine::EventSystems::PhysicsRaycaster UnityEngine::EventSystems::PhysicsRaycaster::New_ctor()  {
+UnityEngine::EventSystems::PhysicsRaycaster o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::PhysicsRaycaster>())};
+return o;
+}
  void UnityEngine::EventSystems::PhysicsRaycaster::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::PhysicsRaycaster>::get(),

@@ -6,16 +6,16 @@ namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
 class Shader;
 }
 namespace UnityEngine {
-class MeshFilter;
+class Mesh;
 }
 namespace UnityEngine {
 class MeshRenderer;
+}
+namespace UnityEngine {
+class MeshFilter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +108,7 @@ constexpr UnityEngine::MeshRenderer __get__meshRenderer() const;
 /// @brief Method OnDisable addr 0x1fa332c size 0x30 virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit OnWillRenderObjectTrigger() ;
+static GlobalNamespace::OnWillRenderObjectTrigger New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa335c size 0x8 virtual false final false
  void _ctor() ;

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__EnvironmentShaderWarmup___Start_d__6;
+}
+namespace GlobalNamespace {
 class MainCamera;
 }
 namespace UnityEngine {
@@ -112,8 +115,7 @@ constexpr GlobalNamespace::EnvironmentShaderWarmup __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__EnvironmentShaderWarmup___Start_d__6(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__EnvironmentShaderWarmup___Start_d__6 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20a442c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -217,8 +219,7 @@ static constexpr int32_t  kNumberOfRows{4};
 /// @brief Method Start addr 0x20a43c4 size 0x68 virtual false final false
  System::Collections::IEnumerator Start() ;
 
-// Ctor Parameters []
-explicit EnvironmentShaderWarmup() ;
+static GlobalNamespace::EnvironmentShaderWarmup New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a4454 size 0x8 virtual false final false
  void _ctor() ;

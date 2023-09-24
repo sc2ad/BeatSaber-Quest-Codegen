@@ -60,8 +60,7 @@ constexpr explicit XPathNavigatorKeyComparer(void* ptr) noexcept : ::bs_hook::Il
 /// @brief Method System.Collections.IEqualityComparer.GetHashCode addr 0x2718364 size 0x1d0 virtual true final true
  int32_t System_Collections_IEqualityComparer_GetHashCode(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit XPathNavigatorKeyComparer() ;
+static System::Xml::XPath::XPathNavigatorKeyComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2718280 size 0x8 virtual false final false
  void _ctor() ;

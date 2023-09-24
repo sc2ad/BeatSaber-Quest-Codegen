@@ -1,15 +1,15 @@
 #pragma once
 #include "Zenject/zzzz__Kernel_def.hpp"
-#include "Zenject/zzzz__TickableManager_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "Zenject/zzzz__IFixedTickable_def.hpp"
-#include "Zenject/zzzz__ILateDisposable_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
+#include "Zenject/zzzz__TickableManager_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "Zenject/zzzz__InitializableManager_def.hpp"
 #include "Zenject/zzzz__ILateTickable_def.hpp"
 #include "Zenject/zzzz__DisposableManager_def.hpp"
+#include "Zenject/zzzz__IFixedTickable_def.hpp"
+#include "Zenject/zzzz__ILateDisposable_def.hpp"
 //  Writing Method size for method: Zenject::Kernel.Initialize
 template<>
 
@@ -310,8 +310,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::Kernel::Kernel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Kernel>())) {}
+ Zenject::Kernel Zenject::Kernel::New_ctor()  {
+Zenject::Kernel o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Kernel>())};
+return o;
+}
  void Zenject::Kernel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Kernel>::get(),

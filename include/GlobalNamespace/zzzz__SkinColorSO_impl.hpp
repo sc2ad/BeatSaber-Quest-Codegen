@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SkinColorSO::SkinColorSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<SkinColorSO>())) {}
+ GlobalNamespace::SkinColorSO GlobalNamespace::SkinColorSO::New_ctor()  {
+GlobalNamespace::SkinColorSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SkinColorSO>())};
+return o;
+}
  void GlobalNamespace::SkinColorSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SkinColorSO>::get(),

@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
@@ -64,8 +64,7 @@ static ::ArrayW<uint8_t> GenerateEncryptedPreMasterSecret(Org::BouncyCastle::Cry
 /// @brief Method SafeDecryptPreMasterSecret addr 0xf251fc size 0x428 virtual false final false
 static ::ArrayW<uint8_t> SafeDecryptPreMasterSecret(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters rsaServerPrivateKey, ::ArrayW<uint8_t> encryptedPreMasterSecret) ;
 
-// Ctor Parameters []
-explicit TlsRsaUtilities() ;
+static Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xf25624 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,19 +2,20 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DragEventsProcessor_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewDragger_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ListDragAndDropArgs_def.hpp"
-#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ListViewDragger_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ICollectionDragAndDropController_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ListDragAndDropArgs_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DragAndDropPosition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DragAndDropPosition_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__ListViewDragger__DragPosition.Equals
 template<>
 
@@ -497,8 +498,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "listView", ty: "UnityEngine::UIElements::BaseVerticalCollectionView", modifiers: "", def_value: None }]
- UnityEngine::UIElements::ListViewDragger::ListViewDragger(UnityEngine::UIElements::BaseVerticalCollectionView listView)  : UnityEngine::UIElements::DragEventsProcessor(THROW_UNLESS(::il2cpp_utils::New<ListViewDragger>(listView))) {}
+ UnityEngine::UIElements::ListViewDragger UnityEngine::UIElements::ListViewDragger::New_ctor(UnityEngine::UIElements::BaseVerticalCollectionView listView)  {
+UnityEngine::UIElements::ListViewDragger o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ListViewDragger>(listView))};
+return o;
+}
  void UnityEngine::UIElements::ListViewDragger::_ctor(UnityEngine::UIElements::BaseVerticalCollectionView listView)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ListViewDragger>::get(),

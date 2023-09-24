@@ -59,8 +59,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
  ::ArrayW<::StringW> System::Runtime::Remoting::Messaging::ConstructionCallDictionary::__get_InternalKeys()  {
 return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "InternalKeys", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ConstructionCallDictionary>::get>();
 }
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Remoting::Activation::IConstructionCallMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::ConstructionCallDictionary::ConstructionCallDictionary(System::Runtime::Remoting::Activation::IConstructionCallMessage message)  : System::Runtime::Remoting::Messaging::MessageDictionary(THROW_UNLESS(::il2cpp_utils::New<ConstructionCallDictionary>(message))) {}
+ System::Runtime::Remoting::Messaging::ConstructionCallDictionary System::Runtime::Remoting::Messaging::ConstructionCallDictionary::New_ctor(System::Runtime::Remoting::Activation::IConstructionCallMessage message)  {
+System::Runtime::Remoting::Messaging::ConstructionCallDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ConstructionCallDictionary>(message))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ConstructionCallDictionary::_ctor(System::Runtime::Remoting::Activation::IConstructionCallMessage message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ConstructionCallDictionary>::get(),

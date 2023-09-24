@@ -2,28 +2,29 @@
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedGenerator_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedDataStreamGenerator_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__SignerInformation_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsSignedHelper_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsSignedDataStreamGenerator_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsSignedHelper_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__SignerInformation_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerSequenceGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Generator_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__ISignerInfoGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder._ctor
@@ -72,8 +73,10 @@ constexpr void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStre
 constexpr ::StringW Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder::__get_digestOID() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signerInf", ty: "Org::BouncyCastle::Cms::ISignerInfoGenerator", modifiers: "", def_value: None }, CppParam { name: "digestOID", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder(Org::BouncyCastle::Cms::ISignerInfoGenerator signerInf, ::StringW digestOID)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder>(signerInf, digestOID))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder::New_ctor(Org::BouncyCastle::Cms::ISignerInfoGenerator signerInf, ::StringW digestOID)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder>(signerInf, digestOID))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder::_ctor(Org::BouncyCastle::Cms::ISignerInfoGenerator signerInf, ::StringW digestOID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder>::get(),
@@ -178,8 +181,10 @@ constexpr void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStre
 constexpr Org::BouncyCastle::Crypto::ISigner Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl::__get__sig() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::ISigner, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator", modifiers: "", def_value: None }, CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "signerIdentifier", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "digestOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sAttr", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "unsAttr", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl(Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator outer, Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, ::StringW digestOID, ::StringW encOID, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl>(outer, key, signerIdentifier, digestOID, encOID, sAttr, unsAttr))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl::New_ctor(Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator outer, Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, ::StringW digestOID, ::StringW encOID, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl>(outer, key, signerIdentifier, digestOID, encOID, sAttr, unsAttr))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl::_ctor(Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator outer, Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, ::StringW digestOID, ::StringW encOID, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl>::get(),
@@ -336,8 +341,10 @@ constexpr void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStre
 constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream::__get__eiGen() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::BerSequenceGenerator, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator", modifiers: "", def_value: None }, CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "contentOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "sigGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream(Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator outer, System::IO::Stream outStream, ::StringW contentOID, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator sigGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream>(outer, outStream, contentOID, sGen, sigGen, eiGen))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream::New_ctor(Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator outer, System::IO::Stream outStream, ::StringW contentOID, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator sigGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream>(outer, outStream, contentOID, sGen, sigGen, eiGen))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream::_ctor(Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator outer, System::IO::Stream outStream, ::StringW contentOID, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator sigGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream>::get(),
@@ -961,8 +968,10 @@ constexpr void Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::__set__buff
 constexpr int32_t Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::__get__bufferSize() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x64>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::CmsSignedDataStreamGenerator()  : Org::BouncyCastle::Cms::CmsSignedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsSignedDataStreamGenerator>())) {}
+ Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator>::get(),
@@ -972,8 +981,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::CmsSignedDataStreamGenerator(Org::BouncyCastle::Security::SecureRandom rand)  : Org::BouncyCastle::Cms::CmsSignedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsSignedDataStreamGenerator>(rand))) {}
+ Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::New_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
+Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator>(rand))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator>::get(),

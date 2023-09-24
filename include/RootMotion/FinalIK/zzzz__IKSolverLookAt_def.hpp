@@ -6,17 +6,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolverLookAt__LookAtBone;
+}
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__IKSolver__Point;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class Transform;
 }
 namespace UnityEngine {
-struct Vector3;
+class AnimationCurve;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -81,14 +84,12 @@ constexpr UnityEngine::Vector3 __get_baseForwardOffsetEuler() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKSolverLookAt__LookAtBone() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone New_ctor() ;
 
 /// @brief Method .ctor addr 0x11e3f8c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__IKSolverLookAt__LookAtBone(UnityEngine::Transform transform) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone New_ctor(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x11e2a94 size 0x28 virtual false final false
  void _ctor(UnityEngine::Transform transform) ;
@@ -339,8 +340,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get_eyeForward() const;
 /// @brief Method SetBones addr 0x11e2928 size 0x16c virtual false final false
  void SetBones(::ArrayW<UnityEngine::Transform> array, ByRef<::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone>> bones) ;
 
-// Ctor Parameters []
-explicit IKSolverLookAt() ;
+static RootMotion::FinalIK::IKSolverLookAt New_ctor() ;
 
 /// @brief Method .ctor addr 0x11e3d84 size 0x208 virtual false final false
  void _ctor() ;

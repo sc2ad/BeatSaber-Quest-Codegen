@@ -120,8 +120,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Sig::NotationData::NotationData(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<NotationData>(critical, isLongLength, data))) {}
+ Org::BouncyCastle::Bcpg::Sig::NotationData Org::BouncyCastle::Bcpg::Sig::NotationData::New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::Sig::NotationData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Sig::NotationData>(critical, isLongLength, data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Sig::NotationData::_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Sig::NotationData>::get(),
@@ -131,8 +133,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, critical, isLongLength, data);
 }
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "humanReadable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "notationName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "notationValue", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Sig::NotationData::NotationData(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<NotationData>(critical, humanReadable, notationName, notationValue))) {}
+ Org::BouncyCastle::Bcpg::Sig::NotationData Org::BouncyCastle::Bcpg::Sig::NotationData::New_ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue)  {
+Org::BouncyCastle::Bcpg::Sig::NotationData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Sig::NotationData>(critical, humanReadable, notationName, notationValue))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Sig::NotationData::_ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Sig::NotationData>::get(),

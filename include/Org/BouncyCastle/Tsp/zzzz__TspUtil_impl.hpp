@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Tsp/zzzz__TspUtil_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__SignerInformation_def.hpp"
@@ -257,8 +257,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IList, false>(nullptr, ___internal_method, extensions);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Tsp::TspUtil::TspUtil()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TspUtil>())) {}
+ Org::BouncyCastle::Tsp::TspUtil Org::BouncyCastle::Tsp::TspUtil::New_ctor()  {
+Org::BouncyCastle::Tsp::TspUtil o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TspUtil>())};
+return o;
+}
  void Org::BouncyCastle::Tsp::TspUtil::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TspUtil>::get(),

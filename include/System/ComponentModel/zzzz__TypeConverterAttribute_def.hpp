@@ -73,20 +73,17 @@ constexpr ::StringW __get__ConverterTypeName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TypeConverterAttribute() ;
+static System::ComponentModel::TypeConverterAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x278645c size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit TypeConverterAttribute(System::Type type) ;
+static System::ComponentModel::TypeConverterAttribute New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x27864b8 size 0x44 virtual false final false
  void _ctor(System::Type type) ;
 
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TypeConverterAttribute(::StringW typeName) ;
+static System::ComponentModel::TypeConverterAttribute New_ctor(::StringW typeName) ;
 
 /// @brief Method .ctor addr 0x27864fc size 0x28 virtual false final false
  void _ctor(::StringW typeName) ;

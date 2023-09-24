@@ -2,16 +2,17 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__LightmappingSceneSetup_def.hpp"
+#include "GlobalNamespace/zzzz__LightmappingSceneSetup_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelNoTransitionInstallerData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelNoTransitionInstallerData_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d.MoveNext
 template<>
 
@@ -144,8 +145,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__Di
 constexpr GlobalNamespace::IReadonlyBeatmapData GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0::__get_beatmapData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IReadonlyBeatmapData, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0>())) {}
+ GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0 GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0>::get(),
@@ -289,8 +292,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LightmappingSceneSetup::LightmappingSceneSetup()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<LightmappingSceneSetup>())) {}
+ GlobalNamespace::LightmappingSceneSetup GlobalNamespace::LightmappingSceneSetup::New_ctor()  {
+GlobalNamespace::LightmappingSceneSetup o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightmappingSceneSetup>())};
+return o;
+}
  void GlobalNamespace::LightmappingSceneSetup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightmappingSceneSetup>::get(),

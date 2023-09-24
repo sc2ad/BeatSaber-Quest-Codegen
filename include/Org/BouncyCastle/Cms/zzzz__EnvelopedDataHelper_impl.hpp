@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__EnvelopedDataHelper_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::EnvelopedDataHelper.CreateContentCipher
 template<>
@@ -114,8 +114,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::CipherKeyGenerator, false>(const_cast<void*>(instance), ___internal_method, algorithm, random);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::EnvelopedDataHelper::EnvelopedDataHelper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EnvelopedDataHelper>())) {}
+ Org::BouncyCastle::Cms::EnvelopedDataHelper Org::BouncyCastle::Cms::EnvelopedDataHelper::New_ctor()  {
+Org::BouncyCastle::Cms::EnvelopedDataHelper o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::EnvelopedDataHelper>())};
+return o;
+}
  void Org::BouncyCastle::Cms::EnvelopedDataHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::EnvelopedDataHelper>::get(),

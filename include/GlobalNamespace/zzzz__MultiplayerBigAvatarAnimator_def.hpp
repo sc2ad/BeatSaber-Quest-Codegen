@@ -3,22 +3,22 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-class Transform;
+struct Vector3;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace GlobalNamespace {
 class HologramRays;
 }
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace GlobalNamespace {
-struct EaseType;
+namespace UnityEngine {
+class Transform;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace Tweening {
 template<typename T>
@@ -130,8 +130,7 @@ constexpr bool __get__initialized() const;
 /// @brief Method Animate addr 0x20f02e4 size 0x1d4 virtual false final false
  void Animate(bool show, float_t duration, GlobalNamespace::EaseType easeType) ;
 
-// Ctor Parameters []
-explicit MultiplayerBigAvatarAnimator() ;
+static GlobalNamespace::MultiplayerBigAvatarAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f04b8 size 0x10 virtual false final false
  void _ctor() ;

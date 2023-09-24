@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsMac;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsMac __get_readMac() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }]
-explicit TlsNullCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
+static Org::BouncyCastle::Crypto::Tls::TlsNullCipher New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
 
 /// @brief Method .ctor addr 0xf21ba4 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
 
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "serverWriteDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit TlsNullCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest) ;
+static Org::BouncyCastle::Crypto::Tls::TlsNullCipher New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest) ;
 
 /// @brief Method .ctor addr 0xf21bd0 size 0x458 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest) ;

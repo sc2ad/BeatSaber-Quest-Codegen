@@ -81,8 +81,7 @@ static ::StringW __get_extended_master_secret() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit ExporterLabel() ;
+static Org::BouncyCastle::Crypto::Tls::ExporterLabel New_ctor() ;
 
 /// @brief Method .ctor addr 0xf0427c size 0x8 virtual false final false
  void _ctor() ;

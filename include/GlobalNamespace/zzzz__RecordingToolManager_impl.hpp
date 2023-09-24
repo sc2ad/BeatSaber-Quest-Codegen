@@ -1,14 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolSettings_def.hpp"
-#include "GlobalNamespace/zzzz__ObjectsMovementRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
-#include "GlobalNamespace/zzzz__ListLogger_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
-#include "GlobalNamespace/zzzz__ProgramArguments_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolResourceContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
+#include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolSettings_def.hpp"
+#include "GlobalNamespace/zzzz__ListLogger_def.hpp"
+#include "GlobalNamespace/zzzz__ProgramArguments_def.hpp"
+#include "GlobalNamespace/zzzz__ObjectsMovementRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RecordingToolManager.get_recordingToolEnabled
 template<>
 
@@ -308,8 +308,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::IPosesSerializer, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "programArguments", ty: "GlobalNamespace::ProgramArguments", modifiers: "", def_value: None }, CppParam { name: "resourceContainer", ty: "GlobalNamespace::RecordingToolResourceContainerSO", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicCollection", ty: "GlobalNamespace::BeatmapCharacteristicCollection", modifiers: "", def_value: None }]
- GlobalNamespace::RecordingToolManager::RecordingToolManager(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RecordingToolManager>(programArguments, resourceContainer, beatmapCharacteristicCollection))) {}
+ GlobalNamespace::RecordingToolManager GlobalNamespace::RecordingToolManager::New_ctor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection)  {
+GlobalNamespace::RecordingToolManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingToolManager>(programArguments, resourceContainer, beatmapCharacteristicCollection))};
+return o;
+}
  void GlobalNamespace::RecordingToolManager::_ctor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingToolManager>::get(),

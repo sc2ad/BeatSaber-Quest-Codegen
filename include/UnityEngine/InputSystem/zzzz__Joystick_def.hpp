@@ -3,21 +3,21 @@
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class StickControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class AxisControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -170,8 +170,7 @@ static UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSy
 /// @brief Method OnRemoved addr 0x28d85f4 size 0x118 virtual true final false
  void OnRemoved() ;
 
-// Ctor Parameters []
-explicit Joystick() ;
+static UnityEngine::InputSystem::Joystick New_ctor() ;
 
 /// @brief Method .ctor addr 0x28d870c size 0x2c virtual false final false
  void _ctor() ;

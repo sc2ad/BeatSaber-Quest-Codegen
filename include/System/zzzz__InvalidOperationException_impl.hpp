@@ -2,8 +2,8 @@
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__InvalidOperationException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::InvalidOperationException._ctor
 template<>
 
@@ -72,8 +72,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::InvalidOperationException::InvalidOperationException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<InvalidOperationException>())) {}
+ System::InvalidOperationException System::InvalidOperationException::New_ctor()  {
+System::InvalidOperationException o{THROW_UNLESS(::il2cpp_utils::New<System::InvalidOperationException>())};
+return o;
+}
  void System::InvalidOperationException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::InvalidOperationException>::get(),
@@ -83,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::InvalidOperationException::InvalidOperationException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<InvalidOperationException>(message))) {}
+ System::InvalidOperationException System::InvalidOperationException::New_ctor(::StringW message)  {
+System::InvalidOperationException o{THROW_UNLESS(::il2cpp_utils::New<System::InvalidOperationException>(message))};
+return o;
+}
  void System::InvalidOperationException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::InvalidOperationException>::get(),
@@ -94,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- System::InvalidOperationException::InvalidOperationException(::StringW message, System::Exception innerException)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<InvalidOperationException>(message, innerException))) {}
+ System::InvalidOperationException System::InvalidOperationException::New_ctor(::StringW message, System::Exception innerException)  {
+System::InvalidOperationException o{THROW_UNLESS(::il2cpp_utils::New<System::InvalidOperationException>(message, innerException))};
+return o;
+}
  void System::InvalidOperationException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::InvalidOperationException>::get(),
@@ -105,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::InvalidOperationException::InvalidOperationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<InvalidOperationException>(info, context))) {}
+ System::InvalidOperationException System::InvalidOperationException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::InvalidOperationException o{THROW_UNLESS(::il2cpp_utils::New<System::InvalidOperationException>(info, context))};
+return o;
+}
  void System::InvalidOperationException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::InvalidOperationException>::get(),

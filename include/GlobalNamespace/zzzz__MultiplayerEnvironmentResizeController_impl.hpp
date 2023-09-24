@@ -2,11 +2,12 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerEnvironmentResizeController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerEnvironmentResizeController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerCenterResizeController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeType::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -164,8 +165,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<UnityEngine::Transform>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData GlobalNamespace::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData>::get(),
@@ -474,8 +477,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerEnvironmentResizeController::MultiplayerEnvironmentResizeController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerEnvironmentResizeController>())) {}
+ GlobalNamespace::MultiplayerEnvironmentResizeController GlobalNamespace::MultiplayerEnvironmentResizeController::New_ctor()  {
+GlobalNamespace::MultiplayerEnvironmentResizeController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerEnvironmentResizeController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerEnvironmentResizeController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerEnvironmentResizeController>::get(),

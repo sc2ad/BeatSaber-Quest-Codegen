@@ -3,10 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace System {
 class Action;
 }
 namespace Zenject {
 class InjectContext;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 struct TypeValuePair;
@@ -14,19 +27,6 @@ struct TypeValuePair;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -105,8 +105,7 @@ constexpr bool __get__matchSingle() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "gameObjectGetter", ty: "System::Func_2<Zenject::InjectContext,UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "matchSingle", ty: "bool", modifiers: "", def_value: None }]
-explicit GetFromGameObjectGetterComponentProvider(System::Type componentType, System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, bool matchSingle) ;
+static Zenject::GetFromGameObjectGetterComponentProvider New_ctor(System::Type componentType, System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, bool matchSingle) ;
 
 /// @brief Method .ctor addr 0x2d8d918 size 0x3c virtual false final false
  void _ctor(System::Type componentType, System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, bool matchSingle) ;

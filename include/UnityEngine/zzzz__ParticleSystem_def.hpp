@@ -7,13 +7,37 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector3;
+struct UnityEngine__ParticleSystem__EmissionModule;
 }
 namespace UnityEngine {
 struct ParticleSystemStopBehavior;
 }
 namespace UnityEngine {
+struct UnityEngine__ParticleSystem__Particle;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__ShapeModule;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__MinMaxCurve;
+}
+namespace UnityEngine {
 struct Color32;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__MainModule;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__SubEmittersModule;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__EmitParams;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__MinMaxGradient;
 }
 namespace UnityEngine {
 struct ParticleSystemCurveMode;
@@ -1160,8 +1184,7 @@ constexpr explicit ParticleSystem(void* ptr) noexcept : UnityEngine::Component(p
 /// @brief Method Emit addr 0x2b98d70 size 0x44 virtual false final false
  void Emit(UnityEngine::UnityEngine__ParticleSystem__Particle particle) ;
 
-// Ctor Parameters []
-explicit ParticleSystem() ;
+static UnityEngine::ParticleSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b98db4 size 0x8 virtual false final false
  void _ctor() ;

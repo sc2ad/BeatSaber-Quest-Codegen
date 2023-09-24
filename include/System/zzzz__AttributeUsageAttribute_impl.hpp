@@ -111,8 +111,10 @@ return ::cordl_internals::getInstanceField<bool, 0x15>(this->::bs_hook::Il2CppWr
  System::AttributeUsageAttribute System::AttributeUsageAttribute::__get_Default()  {
 return ::cordl_internals::getStaticField<System::AttributeUsageAttribute, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::AttributeUsageAttribute>::get>();
 }
-// Ctor Parameters [CppParam { name: "validOn", ty: "System::AttributeTargets", modifiers: "", def_value: None }]
- System::AttributeUsageAttribute::AttributeUsageAttribute(System::AttributeTargets validOn)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AttributeUsageAttribute>(validOn))) {}
+ System::AttributeUsageAttribute System::AttributeUsageAttribute::New_ctor(System::AttributeTargets validOn)  {
+System::AttributeUsageAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::AttributeUsageAttribute>(validOn))};
+return o;
+}
  void System::AttributeUsageAttribute::_ctor(System::AttributeTargets validOn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::AttributeUsageAttribute>::get(),

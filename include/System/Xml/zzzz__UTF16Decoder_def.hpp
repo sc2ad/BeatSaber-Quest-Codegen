@@ -65,8 +65,7 @@ constexpr int32_t __get_lastByte() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bigEndian", ty: "bool", modifiers: "", def_value: None }]
-explicit UTF16Decoder(bool bigEndian) ;
+static System::Xml::UTF16Decoder New_ctor(bool bigEndian) ;
 
 /// @brief Method .ctor addr 0x2711b58 size 0x30 virtual false final false
  void _ctor(bool bigEndian) ;

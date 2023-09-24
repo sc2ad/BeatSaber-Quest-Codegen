@@ -49,8 +49,7 @@ constexpr explicit AchievementDefinitionList(void* ptr) noexcept : Oculus::Platf
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit AchievementDefinitionList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::AchievementDefinitionList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259bd20 size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

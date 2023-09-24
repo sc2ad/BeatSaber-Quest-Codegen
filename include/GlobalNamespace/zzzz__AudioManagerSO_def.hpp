@@ -167,8 +167,7 @@ constexpr bool __get__sfxEnabled() const;
 /// @brief Method set_musicSpeed addr 0x20b8cbc size 0x64 virtual false final false
  void set_musicSpeed(float_t value) ;
 
-// Ctor Parameters []
-explicit AudioManagerSO() ;
+static GlobalNamespace::AudioManagerSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b8d20 size 0x24 virtual false final false
  void _ctor() ;

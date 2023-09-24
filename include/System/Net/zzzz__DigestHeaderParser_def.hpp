@@ -97,8 +97,7 @@ constexpr ::ArrayW<::StringW> __get_values() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "header", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DigestHeaderParser(::StringW header) ;
+static System::Net::DigestHeaderParser New_ctor(::StringW header) ;
 
 /// @brief Method .ctor addr 0x282ae84 size 0xb4 virtual false final false
  void _ctor(::StringW header) ;

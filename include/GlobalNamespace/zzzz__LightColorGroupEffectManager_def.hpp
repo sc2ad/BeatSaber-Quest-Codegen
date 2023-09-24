@@ -2,11 +2,24 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class LightColorGroupEffect;
+}
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class LightColorGroupEffect;
+class ColorBoostBeatmapEventData;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
 }
 namespace GlobalNamespace {
 class LightGroup;
@@ -14,19 +27,6 @@ class LightGroup;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyCollection_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -124,8 +124,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::LightColorGroupE
 /// @brief Method HandleColorBoostBeatmapEvent addr 0x225dd90 size 0x15c virtual false final false
  void HandleColorBoostBeatmapEvent(GlobalNamespace::ColorBoostBeatmapEventData eventData) ;
 
-// Ctor Parameters []
-explicit LightColorGroupEffectManager() ;
+static GlobalNamespace::LightColorGroupEffectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x225deec size 0x7c virtual false final false
  void _ctor() ;

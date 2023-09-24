@@ -3,29 +3,32 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace HMUI {
-class SegmentedControl;
-}
-namespace HMUI {
-class IconSegmentedControl;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c;
+}
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
+}
+namespace HMUI {
+class IconSegmentedControl;
+}
+namespace HMUI {
+class SegmentedControl;
 }
 namespace System {
 template<typename T>
@@ -95,8 +98,7 @@ static System::Comparison_1<GlobalNamespace::IDifficultyBeatmapSet> __get___9__1
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c() ;
+static GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2156154 size 0x8 virtual false final false
  void _ctor() ;
@@ -205,8 +207,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacter
 /// @brief Method HandleDifficultySegmentedControlDidSelectCell addr 0x2155fe8 size 0x88 virtual false final false
  void HandleDifficultySegmentedControlDidSelectCell(HMUI::SegmentedControl segmentedControl, int32_t cellIdx) ;
 
-// Ctor Parameters []
-explicit BeatmapCharacteristicSegmentedControlController() ;
+static GlobalNamespace::BeatmapCharacteristicSegmentedControlController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2156070 size 0x80 virtual false final false
  void _ctor() ;

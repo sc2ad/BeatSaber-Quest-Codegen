@@ -10,12 +10,15 @@ template<typename T>
 struct Span_1;
 }
 namespace System {
-template<typename T1,typename T2,typename T3>
-struct ValueTuple_3;
+class System__BitConverter____c;
 }
 namespace System::Buffers {
 template<typename T,typename TArg>
 class SpanAction_2;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+struct ValueTuple_3;
 }
 // Forward declare root types
 namespace System {
@@ -81,8 +84,7 @@ static System::Buffers::SpanAction_2<char16_t,System::ValueTuple_3<::ArrayW<uint
 
 // Methods
 
-// Ctor Parameters []
-explicit System__BitConverter____c() ;
+static System::System__BitConverter____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x23b5978 size 0x8 virtual false final false
  void _ctor() ;

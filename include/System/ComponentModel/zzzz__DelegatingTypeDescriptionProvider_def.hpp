@@ -3,14 +3,14 @@
 #include "System/ComponentModel/zzzz__TypeDescriptionProvider_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::ComponentModel {
-class TypeDescriptionProvider;
-}
 namespace System::Collections {
 class IDictionary;
 }
 namespace System {
 class Type;
+}
+namespace System::ComponentModel {
+class TypeDescriptionProvider;
 }
 namespace System::ComponentModel {
 class ICustomTypeDescriptor;
@@ -78,8 +78,7 @@ constexpr System::Type __get__type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit DelegatingTypeDescriptionProvider(System::Type type) ;
+static System::ComponentModel::DelegatingTypeDescriptionProvider New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x277bd30 size 0x28 virtual false final false
  void _ctor(System::Type type) ;

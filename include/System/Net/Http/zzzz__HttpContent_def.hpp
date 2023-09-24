@@ -7,12 +7,34 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Net::Http {
+class System__Net__Http__HttpContent__FixedMemoryStream;
+}
+namespace System::Net::Http {
+struct System__Net__Http__HttpContent___ReadAsStringAsync_d__20;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System::IO {
 class Stream;
+}
+namespace System::Net {
+class TransportContext;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
+}
+namespace System::Net::Http {
+struct System__Net__Http__HttpContent___LoadIntoBufferAsync_d__17;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System {
 class IDisposable;
@@ -20,27 +42,14 @@ class IDisposable;
 namespace System::Net::Http::Headers {
 class HttpContentHeaders;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::Net {
-class TransportContext;
+namespace System::Runtime::CompilerServices {
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -110,8 +119,7 @@ constexpr int64_t __get_maxSize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "maxSize", ty: "int64_t", modifiers: "", def_value: None }]
-explicit System__Net__Http__HttpContent__FixedMemoryStream(int64_t maxSize) ;
+static System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStream New_ctor(int64_t maxSize) ;
 
 /// @brief Method .ctor addr 0x26a0f34 size 0x28 virtual false final false
  void _ctor(int64_t maxSize) ;
@@ -422,8 +430,7 @@ static int32_t StartsWith(::ArrayW<uint8_t> array, int32_t length, ::ArrayW<uint
 /// @brief Method TryComputeLength addr 0x0 size 0xffffffffffffffff virtual true final false
  bool TryComputeLength(ByRef<int64_t> length) ;
 
-// Ctor Parameters []
-explicit HttpContent() ;
+static System::Net::Http::HttpContent New_ctor() ;
 
 /// @brief Method .ctor addr 0x269f244 size 0x8 virtual false final false
  void _ctor() ;

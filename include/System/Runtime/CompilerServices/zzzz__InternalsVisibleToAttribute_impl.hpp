@@ -47,8 +47,10 @@ constexpr void System::Runtime::CompilerServices::InternalsVisibleToAttribute::_
 constexpr bool System::Runtime::CompilerServices::InternalsVisibleToAttribute::__get__allInternalsVisible() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::InternalsVisibleToAttribute::InternalsVisibleToAttribute(::StringW assemblyName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<InternalsVisibleToAttribute>(assemblyName))) {}
+ System::Runtime::CompilerServices::InternalsVisibleToAttribute System::Runtime::CompilerServices::InternalsVisibleToAttribute::New_ctor(::StringW assemblyName)  {
+System::Runtime::CompilerServices::InternalsVisibleToAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::InternalsVisibleToAttribute>(assemblyName))};
+return o;
+}
  void System::Runtime::CompilerServices::InternalsVisibleToAttribute::_ctor(::StringW assemblyName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::InternalsVisibleToAttribute>::get(),

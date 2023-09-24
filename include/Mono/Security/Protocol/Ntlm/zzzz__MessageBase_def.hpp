@@ -80,8 +80,7 @@ constexpr Mono::Security::Protocol::Ntlm::NtlmFlags __get__flags() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "messageType", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MessageBase(int32_t messageType) ;
+static Mono::Security::Protocol::Ntlm::MessageBase New_ctor(int32_t messageType) ;
 
 /// @brief Method .ctor addr 0x22938c0 size 0x28 virtual false final false
  void _ctor(int32_t messageType) ;

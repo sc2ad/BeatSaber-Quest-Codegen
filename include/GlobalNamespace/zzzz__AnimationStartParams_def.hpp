@@ -75,8 +75,7 @@ constexpr UnityEngine::Animation __get__animation() const;
 /// @brief Method Start addr 0x1f74a70 size 0x2d8 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit AnimationStartParams() ;
+static GlobalNamespace::AnimationStartParams New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f74d48 size 0x10 virtual false final false
  void _ctor() ;

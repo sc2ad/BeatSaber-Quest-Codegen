@@ -88,8 +88,7 @@ static ::ArrayW<uint32_t> __get_K() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit MD5CryptoServiceProvider() ;
+static System::Security::Cryptography::MD5CryptoServiceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x23031dc size 0xa8 virtual false final false
  void _ctor() ;

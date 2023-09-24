@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AvatarEditHistory_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarData_def.hpp"
 #include "Menu/ViewControllers/zzzz__EditAvatarHistorySnapshot_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AvatarEditHistory.get_undoAvailable
 template<>
@@ -247,8 +247,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, avatarData, avatarEditPart);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarEditHistory::AvatarEditHistory()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AvatarEditHistory>())) {}
+ GlobalNamespace::AvatarEditHistory GlobalNamespace::AvatarEditHistory::New_ctor()  {
+GlobalNamespace::AvatarEditHistory o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarEditHistory>())};
+return o;
+}
  void GlobalNamespace::AvatarEditHistory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarEditHistory>::get(),

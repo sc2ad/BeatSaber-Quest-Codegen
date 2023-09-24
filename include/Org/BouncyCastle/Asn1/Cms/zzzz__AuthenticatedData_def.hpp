@@ -4,31 +4,31 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorInfo;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -154,14 +154,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_unauthAttrs() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "originatorInfo", ty: "Org::BouncyCastle::Asn1::Cms::OriginatorInfo", modifiers: "", def_value: None }, CppParam { name: "recipientInfos", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "macAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "encapsulatedContent", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }, CppParam { name: "authAttrs", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "unauthAttrs", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit AuthenticatedData(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo, Org::BouncyCastle::Asn1::Asn1Set recipientInfos, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, Org::BouncyCastle::Asn1::Cms::ContentInfo encapsulatedContent, Org::BouncyCastle::Asn1::Asn1Set authAttrs, Org::BouncyCastle::Asn1::Asn1OctetString mac, Org::BouncyCastle::Asn1::Asn1Set unauthAttrs) ;
+static Org::BouncyCastle::Asn1::Cms::AuthenticatedData New_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo, Org::BouncyCastle::Asn1::Asn1Set recipientInfos, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, Org::BouncyCastle::Asn1::Cms::ContentInfo encapsulatedContent, Org::BouncyCastle::Asn1::Asn1Set authAttrs, Org::BouncyCastle::Asn1::Asn1OctetString mac, Org::BouncyCastle::Asn1::Asn1Set unauthAttrs) ;
 
 /// @brief Method .ctor addr 0xde4d94 size 0x134 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo, Org::BouncyCastle::Asn1::Asn1Set recipientInfos, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, Org::BouncyCastle::Asn1::Cms::ContentInfo encapsulatedContent, Org::BouncyCastle::Asn1::Asn1Set authAttrs, Org::BouncyCastle::Asn1::Asn1OctetString mac, Org::BouncyCastle::Asn1::Asn1Set unauthAttrs) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit AuthenticatedData(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::AuthenticatedData New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xde5430 size 0x304 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

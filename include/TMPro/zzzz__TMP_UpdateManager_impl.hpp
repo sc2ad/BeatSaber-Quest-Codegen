@@ -1,9 +1,9 @@
 #pragma once
 #include "TMPro/zzzz__TMP_UpdateManager_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 //  Writing Method size for method: TMPro::TMP_UpdateManager.get_instance
 template<>
 
@@ -386,8 +386,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<TMPro::TMP_UpdateManager, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TMP_UpdateManager::TMP_UpdateManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_UpdateManager>())) {}
+ TMPro::TMP_UpdateManager TMPro::TMP_UpdateManager::New_ctor()  {
+TMPro::TMP_UpdateManager o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_UpdateManager>())};
+return o;
+}
  void TMPro::TMP_UpdateManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_UpdateManager>::get(),

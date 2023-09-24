@@ -144,8 +144,7 @@ constexpr explicit ECFieldElement(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 /// @brief Method GetEncoded addr 0xf41670 size 0x58 virtual true final false
  ::ArrayW<uint8_t> GetEncoded() ;
 
-// Ctor Parameters []
-explicit ECFieldElement() ;
+static Org::BouncyCastle::Math::EC::ECFieldElement New_ctor() ;
 
 /// @brief Method .ctor addr 0xf416c8 size 0x8 virtual false final false
  void _ctor() ;

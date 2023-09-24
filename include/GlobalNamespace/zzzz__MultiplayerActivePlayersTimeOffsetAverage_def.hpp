@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IMultiplayerObservable;
 }
 namespace GlobalNamespace {
-class IMultiplayerObservable;
+class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,8 +91,7 @@ constexpr float_t __get__timeOfLastValidReturnedTime() const;
 /// @brief Method get_isFailed addr 0x20efe14 size 0x148 virtual true final true
  bool get_isFailed() ;
 
-// Ctor Parameters []
-explicit MultiplayerActivePlayersTimeOffsetAverage() ;
+static GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage New_ctor() ;
 
 /// @brief Method .ctor addr 0x20eff5c size 0x8 virtual false final false
  void _ctor() ;

@@ -14,6 +14,9 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed448PublicKeyParameters;
 }
+namespace Org::BouncyCastle::Crypto::Signers {
+class Org__BouncyCastle__Crypto__Signers__Ed448Signer__Buffer;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed448PrivateKeyParameters;
 }
@@ -75,8 +78,7 @@ constexpr explicit Org__BouncyCastle__Crypto__Signers__Ed448Signer__Buffer(void*
 /// @brief Method Reset addr 0xebe128 size 0xf0 virtual false final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__Signers__Ed448Signer__Buffer() ;
+static Org::BouncyCastle::Crypto::Signers::Org__BouncyCastle__Crypto__Signers__Ed448Signer__Buffer New_ctor() ;
 
 /// @brief Method .ctor addr 0xebdb54 size 0x8 virtual false final false
  void _ctor() ;
@@ -170,8 +172,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters __get_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Ed448Signer(::ArrayW<uint8_t> context) ;
+static Org::BouncyCastle::Crypto::Signers::Ed448Signer New_ctor(::ArrayW<uint8_t> context) ;
 
 /// @brief Method .ctor addr 0xebdaa8 size 0xac virtual false final false
  void _ctor(::ArrayW<uint8_t> context) ;

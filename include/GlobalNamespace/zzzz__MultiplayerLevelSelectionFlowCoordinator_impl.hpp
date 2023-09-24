@@ -1,16 +1,15 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelSelectionFlowCoordinator_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator.add_didSelectLevelEvent
 template<>
 
@@ -634,8 +633,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator::MultiplayerLevelSelectionFlowCoordinator()  : GlobalNamespace::LevelSelectionFlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLevelSelectionFlowCoordinator>())) {}
+ GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator::New_ctor()  {
+GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator>::get(),

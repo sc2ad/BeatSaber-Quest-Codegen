@@ -51,8 +51,7 @@ constexpr explicit BerApplicationSpecific(void* ptr) noexcept : Org::BouncyCastl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vec", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit BerApplicationSpecific(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector vec) ;
+static Org::BouncyCastle::Asn1::BerApplicationSpecific New_ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector vec) ;
 
 /// @brief Method .ctor addr 0x11309e0 size 0x4 virtual false final false
  void _ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector vec) ;

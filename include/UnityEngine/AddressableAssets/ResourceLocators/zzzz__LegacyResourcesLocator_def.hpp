@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -85,8 +85,7 @@ constexpr explicit LegacyResourcesLocator(void* ptr) noexcept : ::bs_hook::Il2Cp
 /// @brief Method get_LocatorId addr 0x289cfa0 size 0x40 virtual true final true
  ::StringW get_LocatorId() ;
 
-// Ctor Parameters []
-explicit LegacyResourcesLocator() ;
+static UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator New_ctor() ;
 
 /// @brief Method .ctor addr 0x289cfe0 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition.Awake
 template<>
 
@@ -155,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::MultiplayerOffsetPositionByLocalPlayerPosition()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerOffsetPositionByLocalPlayerPosition>())) {}
+ GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor()  {
+GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition>())};
+return o;
+}
  void GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition>::get(),

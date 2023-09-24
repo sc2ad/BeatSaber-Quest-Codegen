@@ -91,8 +91,7 @@ constexpr System::Action_1<::StringW> __get_PermissionDeniedAndDontAskAgain() co
 /// @brief Method remove_PermissionDeniedAndDontAskAgain addr 0x2b17c0c size 0xb0 virtual false final false
  void remove_PermissionDeniedAndDontAskAgain(System::Action_1<::StringW> value) ;
 
-// Ctor Parameters []
-explicit PermissionCallbacks() ;
+static UnityEngine::Android::PermissionCallbacks New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b17cbc size 0x6c virtual false final false
  void _ctor() ;

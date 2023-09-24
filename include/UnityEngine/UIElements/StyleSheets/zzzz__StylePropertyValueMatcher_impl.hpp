@@ -2,9 +2,9 @@
 #include "UnityEngine/UIElements/StyleSheets/zzzz__BaseStyleMatcher_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValueMatcher_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__Expression_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValue_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResult_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__Expression_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher.get_current
 template<>
 
@@ -444,8 +444,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::StylePropertyValueMatcher()  : UnityEngine::UIElements::StyleSheets::BaseStyleMatcher(THROW_UNLESS(::il2cpp_utils::New<StylePropertyValueMatcher>())) {}
+ UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::New_ctor()  {
+UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher>())};
+return o;
+}
  void UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher>::get(),

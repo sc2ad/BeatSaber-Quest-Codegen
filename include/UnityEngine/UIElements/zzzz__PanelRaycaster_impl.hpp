@@ -2,14 +2,15 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelRaycaster_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PanelRaycaster_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IRuntimePanelComponent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 // Ctor Parameters [CppParam { name: "f", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__PanelRaycaster__FloatIntBits::UnityEngine__UIElements__PanelRaycaster__FloatIntBits(float_t f, int32_t i) noexcept : ::bs_hook::ValueTypeWrapper() {this->f = f;
 this->i = i;
@@ -339,8 +340,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, f);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::PanelRaycaster::PanelRaycaster()  : UnityEngine::EventSystems::BaseRaycaster(THROW_UNLESS(::il2cpp_utils::New<PanelRaycaster>())) {}
+ UnityEngine::UIElements::PanelRaycaster UnityEngine::UIElements::PanelRaycaster::New_ctor()  {
+UnityEngine::UIElements::PanelRaycaster o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PanelRaycaster>())};
+return o;
+}
  void UnityEngine::UIElements::PanelRaycaster::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PanelRaycaster>::get(),

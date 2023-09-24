@@ -83,8 +83,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_Ed448() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit EdECObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xe00990 size 0x8 virtual false final false
  void _ctor() ;

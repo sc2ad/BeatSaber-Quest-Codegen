@@ -509,8 +509,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::OpenVR::OpenVRHMD::OpenVRHMD()  : UnityEngine::InputSystem::XR::XRHMD(THROW_UNLESS(::il2cpp_utils::New<OpenVRHMD>())) {}
+ Unity::XR::OpenVR::OpenVRHMD Unity::XR::OpenVR::OpenVRHMD::New_ctor()  {
+Unity::XR::OpenVR::OpenVRHMD o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::OpenVR::OpenVRHMD>())};
+return o;
+}
  void Unity::XR::OpenVR::OpenVRHMD::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::OpenVR::OpenVRHMD>::get(),

@@ -5,11 +5,11 @@
 namespace GlobalNamespace {
 class ObstacleSaberSparkleEffectManager;
 }
-namespace UnityEngine {
-class AudioSource;
-}
 namespace GlobalNamespace {
 struct SaberType;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +108,7 @@ constexpr float_t __get__targetVolume() const;
 /// @brief Method HandleSparkleEffecDidEnd addr 0x20bd62c size 0x14 virtual false final false
  void HandleSparkleEffecDidEnd(GlobalNamespace::SaberType saberType) ;
 
-// Ctor Parameters []
-explicit ObstacleSaberSoundEffect() ;
+static GlobalNamespace::ObstacleSaberSoundEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bd640 size 0x8 virtual false final false
  void _ctor() ;

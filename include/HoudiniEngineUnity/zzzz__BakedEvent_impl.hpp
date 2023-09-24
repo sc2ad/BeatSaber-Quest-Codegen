@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HoudiniEngineUnity::BakedEvent::BakedEvent()  : UnityEngine::Events::UnityEvent_3<HoudiniEngineUnity::HEU_HoudiniAsset,bool,System::Collections::Generic::List_1<UnityEngine::GameObject>>(THROW_UNLESS(::il2cpp_utils::New<BakedEvent>())) {}
+ HoudiniEngineUnity::BakedEvent HoudiniEngineUnity::BakedEvent::New_ctor()  {
+HoudiniEngineUnity::BakedEvent o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::BakedEvent>())};
+return o;
+}
  void HoudiniEngineUnity::BakedEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::BakedEvent>::get(),

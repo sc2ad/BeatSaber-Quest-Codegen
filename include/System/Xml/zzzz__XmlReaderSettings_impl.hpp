@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Xml/zzzz__ValidationType_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaValidationFlags_def.hpp"
 #include "System/Xml/zzzz__XmlResolver_def.hpp"
 #include "System/Xml/zzzz__DtdProcessing_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSet_def.hpp"
+#include "System/Xml/zzzz__ValidationType_def.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaValidationFlags_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 //  Writing Method size for method: System::Xml::XmlReaderSettings._ctor
 template<>
 
@@ -519,8 +519,10 @@ return ::cordl_internals::getInstanceField<bool, 0x62>(this->::bs_hook::Il2CppWr
  System::Nullable_1<bool> System::Xml::XmlReaderSettings::__get_s_enableLegacyXmlSettings()  {
 return ::cordl_internals::getStaticField<System::Nullable_1<bool>, "s_enableLegacyXmlSettings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlReaderSettings>::get>();
 }
-// Ctor Parameters []
- System::Xml::XmlReaderSettings::XmlReaderSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlReaderSettings>())) {}
+ System::Xml::XmlReaderSettings System::Xml::XmlReaderSettings::New_ctor()  {
+System::Xml::XmlReaderSettings o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlReaderSettings>())};
+return o;
+}
  void System::Xml::XmlReaderSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlReaderSettings>::get(),

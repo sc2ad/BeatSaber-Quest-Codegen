@@ -3,19 +3,19 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Cms {
+class TimeStampTokenEvidence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class TimeStampTokenEvidence;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -86,14 +86,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_otherEvidence() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tstEvidence", ty: "Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence", modifiers: "", def_value: None }]
-explicit Evidence(Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence tstEvidence) ;
+static Org::BouncyCastle::Asn1::Cms::Evidence New_ctor(Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence tstEvidence) ;
 
 /// @brief Method .ctor addr 0xdeafec size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence tstEvidence) ;
 
-// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit Evidence(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
+static Org::BouncyCastle::Asn1::Cms::Evidence New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
 /// @brief Method .ctor addr 0xdeb014 size 0xc8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;

@@ -6,14 +6,14 @@
 namespace System::Runtime::InteropServices {
 class SafeHandle;
 }
+namespace Microsoft::Win32::SafeHandles {
+class SafeProcessHandle;
+}
 namespace System::Runtime::InteropServices {
 struct HandleRef;
 }
 namespace Microsoft::Win32::SafeHandles {
 class SafeWaitHandle;
-}
-namespace Microsoft::Win32::SafeHandles {
-class SafeProcessHandle;
 }
 // Forward declare root types
 namespace Microsoft::Win32 {

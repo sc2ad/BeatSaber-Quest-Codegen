@@ -64,8 +64,7 @@ constexpr ::cordl_internals::intptr_t __get_Handle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RichPresenceOptions() ;
+static Oculus::Platform::RichPresenceOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x259930c size 0x68 virtual false final false
  void _ctor() ;

@@ -42,8 +42,10 @@ constexpr void GlobalNamespace::AppStaticSettingsSO::__set_disableMultiplayer(bo
 constexpr bool GlobalNamespace::AppStaticSettingsSO::__get_disableMultiplayer() const {
 return ::cordl_internals::getInstanceField<bool, 0x1b>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::AppStaticSettingsSO::AppStaticSettingsSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<AppStaticSettingsSO>())) {}
+ GlobalNamespace::AppStaticSettingsSO GlobalNamespace::AppStaticSettingsSO::New_ctor()  {
+GlobalNamespace::AppStaticSettingsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AppStaticSettingsSO>())};
+return o;
+}
  void GlobalNamespace::AppStaticSettingsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AppStaticSettingsSO>::get(),

@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Mono::Security::Interface {
-struct AlertLevel;
+struct AlertDescription;
 }
 namespace Mono::Security::Interface {
-struct AlertDescription;
+struct AlertLevel;
 }
 // Forward declare root types
 namespace Mono::Security::Interface {
@@ -82,8 +82,7 @@ constexpr Mono::Security::Interface::AlertDescription __get_description() const;
 /// @brief Method get_Description addr 0x22952d0 size 0x8 virtual false final false
  Mono::Security::Interface::AlertDescription get_Description() ;
 
-// Ctor Parameters [CppParam { name: "description", ty: "Mono::Security::Interface::AlertDescription", modifiers: "", def_value: None }]
-explicit Alert(Mono::Security::Interface::AlertDescription description) ;
+static Mono::Security::Interface::Alert New_ctor(Mono::Security::Interface::AlertDescription description) ;
 
 /// @brief Method .ctor addr 0x22952d8 size 0x6c virtual false final false
  void _ctor(Mono::Security::Interface::AlertDescription description) ;

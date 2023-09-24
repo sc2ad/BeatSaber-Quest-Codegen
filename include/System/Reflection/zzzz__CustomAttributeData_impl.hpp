@@ -1,15 +1,16 @@
 #pragma once
 #include "System/Reflection/zzzz__CustomAttributeData_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/Reflection/zzzz__CustomAttributeNamedArgument_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/Reflection/zzzz__CustomAttributeTypedArgument_def.hpp"
-#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
 #include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Reflection/zzzz__CustomAttributeNamedArgument_def.hpp"
+#include "System/Reflection/zzzz__CustomAttributeData_def.hpp"
+#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData._ctor
 template<>
 
@@ -45,8 +46,10 @@ constexpr void System::Reflection::System__Reflection__CustomAttributeData__Lazy
 constexpr uint32_t System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData::__get_data_length() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData::System__Reflection__CustomAttributeData__LazyCAttrData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Reflection__CustomAttributeData__LazyCAttrData>())) {}
+ System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData::New_ctor()  {
+System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData>())};
+return o;
+}
  void System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData>::get(),
@@ -386,8 +389,10 @@ constexpr void System::Reflection::CustomAttributeData::__set_lazyData(System::R
 constexpr System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData System::Reflection::CustomAttributeData::__get_lazyData() const {
 return ::cordl_internals::getInstanceField<System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Reflection::CustomAttributeData::CustomAttributeData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomAttributeData>())) {}
+ System::Reflection::CustomAttributeData System::Reflection::CustomAttributeData::New_ctor()  {
+System::Reflection::CustomAttributeData o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::CustomAttributeData>())};
+return o;
+}
  void System::Reflection::CustomAttributeData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::CustomAttributeData>::get(),
@@ -397,8 +402,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "ctorInfo", ty: "System::Reflection::ConstructorInfo", modifiers: "", def_value: None }, CppParam { name: "assembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "data_length", ty: "uint32_t", modifiers: "", def_value: None }]
- System::Reflection::CustomAttributeData::CustomAttributeData(System::Reflection::ConstructorInfo ctorInfo, System::Reflection::Assembly assembly, ::cordl_internals::intptr_t data, uint32_t data_length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomAttributeData>(ctorInfo, assembly, data, data_length))) {}
+ System::Reflection::CustomAttributeData System::Reflection::CustomAttributeData::New_ctor(System::Reflection::ConstructorInfo ctorInfo, System::Reflection::Assembly assembly, ::cordl_internals::intptr_t data, uint32_t data_length)  {
+System::Reflection::CustomAttributeData o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::CustomAttributeData>(ctorInfo, assembly, data, data_length))};
+return o;
+}
  void System::Reflection::CustomAttributeData::_ctor(System::Reflection::ConstructorInfo ctorInfo, System::Reflection::Assembly assembly, ::cordl_internals::intptr_t data, uint32_t data_length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::CustomAttributeData>::get(),
@@ -408,8 +415,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ctorInfo, assembly, data, data_length);
 }
-// Ctor Parameters [CppParam { name: "ctorInfo", ty: "System::Reflection::ConstructorInfo", modifiers: "", def_value: None }]
- System::Reflection::CustomAttributeData::CustomAttributeData(System::Reflection::ConstructorInfo ctorInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomAttributeData>(ctorInfo))) {}
+ System::Reflection::CustomAttributeData System::Reflection::CustomAttributeData::New_ctor(System::Reflection::ConstructorInfo ctorInfo)  {
+System::Reflection::CustomAttributeData o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::CustomAttributeData>(ctorInfo))};
+return o;
+}
  void System::Reflection::CustomAttributeData::_ctor(System::Reflection::ConstructorInfo ctorInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::CustomAttributeData>::get(),
@@ -419,8 +428,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ctorInfo);
 }
-// Ctor Parameters [CppParam { name: "ctorInfo", ty: "System::Reflection::ConstructorInfo", modifiers: "", def_value: None }, CppParam { name: "ctorArgs", ty: "System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument>", modifiers: "", def_value: None }, CppParam { name: "namedArgs", ty: "System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument>", modifiers: "", def_value: None }]
- System::Reflection::CustomAttributeData::CustomAttributeData(System::Reflection::ConstructorInfo ctorInfo, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument> ctorArgs, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument> namedArgs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomAttributeData>(ctorInfo, ctorArgs, namedArgs))) {}
+ System::Reflection::CustomAttributeData System::Reflection::CustomAttributeData::New_ctor(System::Reflection::ConstructorInfo ctorInfo, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument> ctorArgs, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument> namedArgs)  {
+System::Reflection::CustomAttributeData o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::CustomAttributeData>(ctorInfo, ctorArgs, namedArgs))};
+return o;
+}
  void System::Reflection::CustomAttributeData::_ctor(System::Reflection::ConstructorInfo ctorInfo, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument> ctorArgs, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument> namedArgs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::CustomAttributeData>::get(),

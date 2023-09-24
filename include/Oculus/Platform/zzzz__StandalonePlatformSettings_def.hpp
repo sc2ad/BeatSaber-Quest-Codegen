@@ -75,8 +75,7 @@ static ::StringW get_OculusPlatformTestUserAccessToken() ;
 /// @brief Method set_OculusPlatformTestUserAccessToken addr 0x259a450 size 0x4 virtual false final false
 static void set_OculusPlatformTestUserAccessToken(::StringW value) ;
 
-// Ctor Parameters []
-explicit StandalonePlatformSettings() ;
+static Oculus::Platform::StandalonePlatformSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x259a454 size 0x8 virtual false final false
  void _ctor() ;

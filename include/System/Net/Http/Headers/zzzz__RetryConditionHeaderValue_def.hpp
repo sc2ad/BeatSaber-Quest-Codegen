@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-struct DateTimeOffset;
+class ICloneable;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace System {
-class ICloneable;
+struct DateTimeOffset;
 }
 namespace System {
 struct TimeSpan;
@@ -88,14 +88,12 @@ constexpr System::Nullable_1<System::TimeSpan> __get__Delta_k__BackingField() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "date", ty: "System::DateTimeOffset", modifiers: "", def_value: None }]
-explicit RetryConditionHeaderValue(System::DateTimeOffset date) ;
+static System::Net::Http::Headers::RetryConditionHeaderValue New_ctor(System::DateTimeOffset date) ;
 
 /// @brief Method .ctor addr 0x26af6fc size 0x90 virtual false final false
  void _ctor(System::DateTimeOffset date) ;
 
-// Ctor Parameters [CppParam { name: "delta", ty: "System::TimeSpan", modifiers: "", def_value: None }]
-explicit RetryConditionHeaderValue(System::TimeSpan delta) ;
+static System::Net::Http::Headers::RetryConditionHeaderValue New_ctor(System::TimeSpan delta) ;
 
 /// @brief Method .ctor addr 0x26af78c size 0xd8 virtual false final false
  void _ctor(System::TimeSpan delta) ;

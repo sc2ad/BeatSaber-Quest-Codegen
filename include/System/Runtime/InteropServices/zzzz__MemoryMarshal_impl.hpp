@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/InteropServices/zzzz__MemoryMarshal_def.hpp"
-#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
 #include "System/zzzz__ArraySegment_1_def.hpp"
 #include "System/zzzz__Memory_1_def.hpp"
 template<typename T>

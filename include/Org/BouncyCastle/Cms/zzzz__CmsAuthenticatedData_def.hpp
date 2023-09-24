@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Cms {
-class RecipientInformationStore;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInformationStore;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -116,20 +116,17 @@ constexpr ::ArrayW<uint8_t> __get_mac() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "authData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsAuthenticatedData(::ArrayW<uint8_t> authData) ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedData New_ctor(::ArrayW<uint8_t> authData) ;
 
 /// @brief Method .ctor addr 0x114e1b8 size 0x24 virtual false final false
  void _ctor(::ArrayW<uint8_t> authData) ;
 
-// Ctor Parameters [CppParam { name: "authData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsAuthenticatedData(System::IO::Stream authData) ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedData New_ctor(System::IO::Stream authData) ;
 
 /// @brief Method .ctor addr 0x114e344 size 0x24 virtual false final false
  void _ctor(System::IO::Stream authData) ;
 
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit CmsAuthenticatedData(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedData New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
 
 /// @brief Method .ctor addr 0x114e1dc size 0x168 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;

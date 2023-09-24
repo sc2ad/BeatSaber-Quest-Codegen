@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PreviewDifficultyBeatmapSetExtensions_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmapSet_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmapSet_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PreviewDifficultyBeatmapSetExtensions.GetBeatmapCharacteristics
 template<>
 

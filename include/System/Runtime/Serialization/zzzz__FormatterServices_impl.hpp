@@ -1,13 +1,14 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__FormatterServices_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/Runtime/Serialization/zzzz__MemberHolder_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Runtime/Serialization/zzzz__FormatterServices_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__MemberHolder_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0._ctor
 template<>
 
@@ -48,8 +49,10 @@ constexpr void System::Runtime::Serialization::System__Runtime__Serialization__F
 constexpr System::Type System::Runtime::Serialization::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0::__get_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0>())) {}
+ System::Runtime::Serialization::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0 System::Runtime::Serialization::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0::New_ctor()  {
+System::Runtime::Serialization::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0 o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0>())};
+return o;
+}
  void System::Runtime::Serialization::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0>::get(),

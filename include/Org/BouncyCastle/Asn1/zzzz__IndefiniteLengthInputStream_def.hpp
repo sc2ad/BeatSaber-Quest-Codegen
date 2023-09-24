@@ -67,8 +67,7 @@ constexpr bool __get__eofOn00() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
-explicit IndefiniteLengthInputStream(System::IO::Stream inStream, int32_t limit) ;
+static Org::BouncyCastle::Asn1::IndefiniteLengthInputStream New_ctor(System::IO::Stream inStream, int32_t limit) ;
 
 /// @brief Method .ctor addr 0x112b134 size 0x44 virtual false final false
  void _ctor(System::IO::Stream inStream, int32_t limit) ;

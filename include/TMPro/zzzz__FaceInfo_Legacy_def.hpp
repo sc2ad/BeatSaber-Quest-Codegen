@@ -179,8 +179,7 @@ constexpr float_t __get_AtlasHeight() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit FaceInfo_Legacy() ;
+static TMPro::FaceInfo_Legacy New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a7880c size 0x8 virtual false final false
  void _ctor() ;

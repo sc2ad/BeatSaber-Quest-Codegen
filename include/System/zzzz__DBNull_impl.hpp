@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__DBNull_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
 //  Writing Method size for method: System::DBNull._ctor
 template<>
 
@@ -380,8 +380,10 @@ return System::IConvertible(::bs_hook::Il2CppWrapperType::instance);
  System::DBNull System::DBNull::__get_Value()  {
 return ::cordl_internals::getStaticField<System::DBNull, "Value", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::DBNull>::get>();
 }
-// Ctor Parameters []
- System::DBNull::DBNull()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DBNull>())) {}
+ System::DBNull System::DBNull::New_ctor()  {
+System::DBNull o{THROW_UNLESS(::il2cpp_utils::New<System::DBNull>())};
+return o;
+}
  void System::DBNull::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::DBNull>::get(),
@@ -391,8 +393,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::DBNull::DBNull(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DBNull>(info, context))) {}
+ System::DBNull System::DBNull::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::DBNull o{THROW_UNLESS(::il2cpp_utils::New<System::DBNull>(info, context))};
+return o;
+}
  void System::DBNull::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::DBNull>::get(),

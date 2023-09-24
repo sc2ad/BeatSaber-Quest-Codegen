@@ -74,8 +74,7 @@ constexpr UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSyst
 /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes addr 0x2b7b46c size 0xb4 virtual false final false
  void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(ByRef<bool> result) ;
 
-// Ctor Parameters []
-explicit ScriptableRuntimeReflectionSystemWrapper() ;
+static UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b7b454 size 0x8 virtual false final false
  void _ctor() ;

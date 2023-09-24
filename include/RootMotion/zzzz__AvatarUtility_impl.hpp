@@ -1,10 +1,10 @@
 #pragma once
 #include "RootMotion/zzzz__AvatarUtility_def.hpp"
-#include "UnityEngine/zzzz__Avatar_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__HumanBodyBones_def.hpp"
 #include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
+#include "UnityEngine/zzzz__HumanBodyBones_def.hpp"
 #include "RootMotion/zzzz__TQ_def.hpp"
+#include "UnityEngine/zzzz__Avatar_def.hpp"
 //  Writing Method size for method: RootMotion::AvatarUtility.GetPostRotation
 template<>
 
@@ -100,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::HumanBodyBones, false>(nullptr, ___internal_method, avatarIKGoal);
 }
-// Ctor Parameters []
- RootMotion::AvatarUtility::AvatarUtility()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AvatarUtility>())) {}
+ RootMotion::AvatarUtility RootMotion::AvatarUtility::New_ctor()  {
+RootMotion::AvatarUtility o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::AvatarUtility>())};
+return o;
+}
  void RootMotion::AvatarUtility::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::AvatarUtility>::get(),

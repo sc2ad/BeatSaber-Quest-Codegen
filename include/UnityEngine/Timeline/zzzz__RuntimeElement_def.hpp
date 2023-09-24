@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::Playables {
-struct FrameData;
-}
 namespace UnityEngine::Timeline {
 class IInterval;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -99,8 +99,7 @@ constexpr int32_t __get__intervalBit_k__BackingField() const;
 /// @brief Method DisableAt addr 0x0 size 0xffffffffffffffff virtual true final false
  void DisableAt(double_t localTime, double_t rootDuration, UnityEngine::Playables::FrameData frameData) ;
 
-// Ctor Parameters []
-explicit RuntimeElement() ;
+static UnityEngine::Timeline::RuntimeElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2acedc0 size 0x8 virtual false final false
  void _ctor() ;

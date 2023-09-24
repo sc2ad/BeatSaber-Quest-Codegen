@@ -4,8 +4,8 @@
 #include "RootMotion/zzzz__Warning_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap.Initiate
 template<>
@@ -807,8 +807,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Quaternion, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap::RootMotion__FinalIK__IKMapping__BoneMap()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKMapping__BoneMap>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap>::get(),
@@ -940,8 +942,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method, pos1, pos2, length);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKMapping::IKMapping()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IKMapping>())) {}
+ RootMotion::FinalIK::IKMapping RootMotion::FinalIK::IKMapping::New_ctor()  {
+RootMotion::FinalIK::IKMapping o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKMapping>())};
+return o;
+}
  void RootMotion::FinalIK::IKMapping::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKMapping>::get(),

@@ -31,8 +31,10 @@ return ::cordl_internals::getStaticField<::ArrayW<System::Security::Cryptography
  ::ArrayW<System::Security::Cryptography::KeySizes> System::Security::Cryptography::Aes::__get_s_legalKeySizes()  {
 return ::cordl_internals::getStaticField<::ArrayW<System::Security::Cryptography::KeySizes>, "s_legalKeySizes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::Aes>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::Aes::Aes()  : System::Security::Cryptography::SymmetricAlgorithm(THROW_UNLESS(::il2cpp_utils::New<Aes>())) {}
+ System::Security::Cryptography::Aes System::Security::Cryptography::Aes::New_ctor()  {
+System::Security::Cryptography::Aes o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::Aes>())};
+return o;
+}
  void System::Security::Cryptography::Aes::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::Aes>::get(),

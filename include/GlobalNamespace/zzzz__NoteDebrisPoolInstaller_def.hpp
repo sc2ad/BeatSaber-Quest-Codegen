@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
 namespace GlobalNamespace {
-class BoolSO;
+class NoteDebris;
 }
 namespace GlobalNamespace {
-class NoteDebris;
+class BoolSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +101,7 @@ constexpr GlobalNamespace::BoolSO __get__noteDebrisHDConditionVariable() const;
 /// @brief Method InstallBindings addr 0x211afac size 0x234 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit NoteDebrisPoolInstaller() ;
+static GlobalNamespace::NoteDebrisPoolInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211b1e0 size 0x8 virtual false final false
  void _ctor() ;

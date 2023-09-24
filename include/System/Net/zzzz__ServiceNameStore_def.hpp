@@ -2,12 +2,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Security::Authentication::ExtendedProtection {
-class ServiceNameCollection;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Security::Authentication::ExtendedProtection {
+class ServiceNameCollection;
 }
 // Forward declare root types
 namespace System::Net {
@@ -70,8 +70,7 @@ constexpr System::Security::Authentication::ExtendedProtection::ServiceNameColle
 
 // Methods
 
-// Ctor Parameters []
-explicit ServiceNameStore() ;
+static System::Net::ServiceNameStore New_ctor() ;
 
 /// @brief Method .ctor addr 0x28171e8 size 0x80 virtual false final false
  void _ctor() ;

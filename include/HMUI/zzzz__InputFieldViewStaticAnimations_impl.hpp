@@ -3,7 +3,6 @@
 #include "HMUI/zzzz__InputFieldViewStaticAnimations_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "HMUI/zzzz__InputFieldView_def.hpp"
-#include "HMUI/zzzz__InputFieldView_def.hpp"
 //  Writing Method size for method: HMUI::InputFieldViewStaticAnimations.Awake
 template<>
 
@@ -193,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters []
- HMUI::InputFieldViewStaticAnimations::InputFieldViewStaticAnimations()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<InputFieldViewStaticAnimations>())) {}
+ HMUI::InputFieldViewStaticAnimations HMUI::InputFieldViewStaticAnimations::New_ctor()  {
+HMUI::InputFieldViewStaticAnimations o{THROW_UNLESS(::il2cpp_utils::New<HMUI::InputFieldViewStaticAnimations>())};
+return o;
+}
  void HMUI::InputFieldViewStaticAnimations::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::InputFieldViewStaticAnimations>::get(),

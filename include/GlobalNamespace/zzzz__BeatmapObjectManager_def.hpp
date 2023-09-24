@@ -6,67 +6,66 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class INoteControllerNoteDidDissolveEvent;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Action_3;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+class NoteController;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
+class INoteControllerNoteWasCutEvent;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidFinishJumpEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteWasMissedEvent;
+class ObstacleController;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidStartJumpEvent;
 }
 namespace GlobalNamespace {
-class SliderData;
+class INoteControllerNoteDidDissolveEvent;
 }
 namespace GlobalNamespace {
 class ObstacleData;
-}
-namespace GlobalNamespace {
-class SliderController;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class IBeatmapObjectController;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
 class ISliderDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteWasMissedEvent;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapObjectManager__NoteWasCutDelegate;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteWasCutEvent;
+class NoteData;
 }
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
+namespace GlobalNamespace {
+class INoteControllerNoteDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectController;
 }
 namespace GlobalNamespace {
 class ISliderDidDissolveEvent;
@@ -75,10 +74,14 @@ namespace GlobalNamespace {
 class IBeatmapObjectSpawner;
 }
 namespace System {
-class AsyncCallback;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -129,8 +132,7 @@ constexpr explicit GlobalNamespace__BeatmapObjectManager__NoteWasCutDelegate(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapObjectManager__NoteWasCutDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__BeatmapObjectManager__NoteWasCutDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x22357b8 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -523,8 +525,7 @@ constexpr bool __get__spawnHidden_k__BackingField() const;
 /// @brief Method PauseAllBeatmapObjects addr 0x22355fc size 0x1b8 virtual false final false
  void PauseAllBeatmapObjects(bool pause) ;
 
-// Ctor Parameters []
-explicit BeatmapObjectManager() ;
+static GlobalNamespace::BeatmapObjectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x222fcec size 0x7c virtual false final false
  void _ctor() ;

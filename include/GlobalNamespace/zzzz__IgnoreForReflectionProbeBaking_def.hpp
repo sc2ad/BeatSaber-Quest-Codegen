@@ -47,8 +47,7 @@ constexpr explicit IgnoreForReflectionProbeBaking(void* ptr) noexcept : UnityEng
 
 // Methods
 
-// Ctor Parameters []
-explicit IgnoreForReflectionProbeBaking() ;
+static GlobalNamespace::IgnoreForReflectionProbeBaking New_ctor() ;
 
 /// @brief Method .ctor addr 0x219c434 size 0x8 virtual false final false
  void _ctor() ;

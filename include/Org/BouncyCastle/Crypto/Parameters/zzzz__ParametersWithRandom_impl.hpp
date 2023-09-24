@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ParametersWithRandom_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom._ctor
 template<>
 
@@ -103,8 +103,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::__se
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::__get_random() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::ParametersWithRandom(Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Security::SecureRandom random)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ParametersWithRandom>(parameters, random))) {}
+ Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Security::SecureRandom random)  {
+Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom>(parameters, random))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Security::SecureRandom random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom>::get(),
@@ -114,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parameters, random);
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::ParametersWithRandom(Org::BouncyCastle::Crypto::ICipherParameters parameters)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ParametersWithRandom>(parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom>(parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom>::get(),

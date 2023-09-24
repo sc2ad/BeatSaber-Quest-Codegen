@@ -7,27 +7,27 @@
 namespace UnityEngine::Events {
 class BaseInvokableCall;
 }
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
 namespace UnityEngine::Events {
-struct PersistentListenerMode;
+class InvokableCallList;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::Events {
-class InvokableCallList;
+class PersistentCallGroup;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 namespace UnityEngine::Events {
 class PersistentCall;
 }
 namespace UnityEngine::Events {
-class PersistentCallGroup;
+struct PersistentListenerMode;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace System {
 class Type;
@@ -102,8 +102,7 @@ constexpr bool __get_m_CallsDirty() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEventBase() ;
+static UnityEngine::Events::UnityEventBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b80a60 size 0x9c virtual false final false
  void _ctor() ;

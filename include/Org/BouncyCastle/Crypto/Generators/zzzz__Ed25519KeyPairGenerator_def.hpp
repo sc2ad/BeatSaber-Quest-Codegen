@@ -1,17 +1,17 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+class AsymmetricCipherKeyPair;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -77,8 +77,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 /// @brief Method GenerateKeyPair addr 0xe6e09c size 0xb0 virtual true final false
  Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair GenerateKeyPair() ;
 
-// Ctor Parameters []
-explicit Ed25519KeyPairGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::Ed25519KeyPairGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe6e14c size 0x8 virtual false final false
  void _ctor() ;

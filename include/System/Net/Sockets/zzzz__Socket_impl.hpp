@@ -3,57 +3,58 @@
 #include "System/Net/Sockets/zzzz__Socket_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
-#include "System/zzzz__IOAsyncCallback_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketAsyncOperation_def.hpp"
-#include "System/zzzz__ArraySegment_1_def.hpp"
-#include "System/Net/Sockets/zzzz__IOControlCode_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__NetworkInterfaceComponent_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketShutdown_def.hpp"
+#include "System/Threading/zzzz__ContextCallback_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketOptionLevel_def.hpp"
-#include "System/Net/Sockets/zzzz__SelectMode_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/Sockets/zzzz__IPProtectionLevel_def.hpp"
-#include "System/Net/zzzz__EndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketAsyncEventArgs_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketOperation_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/zzzz__IOSelectorJob_def.hpp"
-#include "System/Net/Sockets/zzzz__SafeSocketHandle_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketFlags_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
-#include "System/Net/zzzz__SocketAddress_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketType_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketOptionName_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketAsyncResult_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketOperation_def.hpp"
+#include "System/zzzz__IOSelectorJob_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__EventHandler_1_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
+#include "System/zzzz__IOAsyncCallback_def.hpp"
+#include "System/Net/zzzz__SocketAddress_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Net/Sockets/zzzz__SafeSocketHandle_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/Net/Sockets/zzzz__IOControlCode_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketOptionLevel_def.hpp"
+#include "System/zzzz__ArraySegment_1_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketFlags_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncEventArgs_def.hpp"
+#include "System/Net/zzzz__EndPoint_def.hpp"
+#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketType_def.hpp"
+#include "System/Net/Sockets/zzzz__IPProtectionLevel_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketShutdown_def.hpp"
+#include "System/Net/Sockets/zzzz__SelectMode_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__NetworkInterfaceComponent_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncResult_def.hpp"
 #include "System/Net/Sockets/zzzz__ProtocolType_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketOptionName_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncOperation_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceOnCompletedFlags_def.hpp"
-#include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceStatus_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/zzzz__IOAsyncResult_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__IOAsyncResult_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: System::Net::Sockets::System__Net__Sockets__Socket__CachedEventArgs._ctor
 template<>
@@ -102,8 +103,10 @@ constexpr void System::Net::Sockets::System__Net__Sockets__Socket__CachedEventAr
 constexpr System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs System::Net::Sockets::System__Net__Sockets__Socket__CachedEventArgs::__get_ValueTaskSend() const {
 return ::cordl_internals::getInstanceField<System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Sockets::System__Net__Sockets__Socket__CachedEventArgs::System__Net__Sockets__Socket__CachedEventArgs()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__Socket__CachedEventArgs>())) {}
+ System::Net::Sockets::System__Net__Sockets__Socket__CachedEventArgs System::Net::Sockets::System__Net__Sockets__Socket__CachedEventArgs::New_ctor()  {
+System::Net::Sockets::System__Net__Sockets__Socket__CachedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::System__Net__Sockets__Socket__CachedEventArgs>())};
+return o;
+}
  void System::Net::Sockets::System__Net__Sockets__Socket__CachedEventArgs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__CachedEventArgs>::get(),
@@ -113,71 +116,73 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::*)()>(&System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>.GetCompletionResponsibility
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> (System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::*)(ByRef<bool>)>(&System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::GetCompletionResponsibility)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>>::get(),
-                            "GetCompletionResponsibility",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::__set__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> value)  {
-::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>, 0xd0>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>>(value));
+constexpr void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::__set__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value)  {
+::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>, 0xd0>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>>(value));
 }
-constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::__get__builder() const {
-return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>, 0xd0>(this->::bs_hook::Il2CppWrapperType::instance);
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::__get__builder() const {
+return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>, 0xd0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::__set__accessed(bool value)  {
+constexpr void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::__set__accessed(bool value)  {
 ::cordl_internals::setInstanceField<bool, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
 }
-constexpr bool System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::__get__accessed() const {
+constexpr bool System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::__get__accessed() const {
 return ::cordl_internals::getInstanceField<bool, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1()  : System::Net::Sockets::SocketAsyncEventArgs(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1>())) {}
- void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::_ctor()  {
+ System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult> System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::New_ctor()  {
+System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult> o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>>())};
+return o;
+}
+ void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>::GetCompletionResponsibility(ByRef<bool> responsibleForReturningToPool)  {
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::GetCompletionResponsibility(ByRef<bool> responsibleForReturningToPool)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>>::get(),
                             "GetCompletionResponsibility",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>, false>(const_cast<void*>(instance), ___internal_method, responsibleForReturningToPool);
+return ::cordl_internals::RunMethodRethrow<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>, false>(const_cast<void*>(instance), ___internal_method, responsibleForReturningToPool);
+}
+constexpr void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::__set__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value)  {
+::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>, 0xd0>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>>(value));
+}
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::__get__builder() const {
+return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>, 0xd0>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::__set__accessed(bool value)  {
+::cordl_internals::setInstanceField<bool, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
+}
+constexpr bool System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::__get__accessed() const {
+return ::cordl_internals::getInstanceField<bool, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+ System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult> System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::New_ctor()  {
+System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult> o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>>())};
+return o;
+}
+ void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>::GetCompletionResponsibility(ByRef<bool> responsibleForReturningToPool)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<TResult>>::get(),
+                            "GetCompletionResponsibility",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>, false>(const_cast<void*>(instance), ___internal_method, responsibleForReturningToPool);
 }
 //  Writing Method size for method: System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs._ctor
 template<>
@@ -202,8 +207,10 @@ constexpr void System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSock
 constexpr bool System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs::__get__wrapExceptionsInIOExceptions() const {
 return ::cordl_internals::getInstanceField<bool, 0xd1>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs()  : System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1<int32_t>(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs>())) {}
+ System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs::New_ctor()  {
+System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs>())};
+return o;
+}
  void System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__Int32TaskSocketAsyncEventArgs>::get(),
@@ -316,8 +323,10 @@ return ::cordl_internals::getStaticField<System::Threading::ContextCallback, "<>
  System::Threading::SendOrPostCallback GlobalNamespace::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c::__get___9__20_0()  {
 return ::cordl_internals::getStaticField<System::Threading::SendOrPostCallback, "<>9__20_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c>())) {}
+ GlobalNamespace::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c GlobalNamespace::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c::New_ctor()  {
+GlobalNamespace::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c>())};
+return o;
+}
  void GlobalNamespace::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs____c>::get(),
@@ -708,8 +717,10 @@ constexpr void System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSock
 constexpr bool System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs::__get__WrapExceptionsInIOExceptions_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0xd2>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs()  : System::Net::Sockets::SocketAsyncEventArgs(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs>())) {}
+ System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs::New_ctor()  {
+System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs>())};
+return o;
+}
  void System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__AwaitableSocketAsyncEventArgs>::get(),
@@ -1438,8 +1449,10 @@ return ::cordl_internals::getStaticField<System::IOAsyncCallback, "<>9__295_0", 
  System::IOAsyncCallback System::Net::Sockets::System__Net__Sockets__Socket____c::__get___9__297_0()  {
 return ::cordl_internals::getStaticField<System::IOAsyncCallback, "<>9__297_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket____c>::get>();
 }
-// Ctor Parameters []
- System::Net::Sockets::System__Net__Sockets__Socket____c::System__Net__Sockets__Socket____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__Socket____c>())) {}
+ System::Net::Sockets::System__Net__Sockets__Socket____c System::Net::Sockets::System__Net__Sockets__Socket____c::New_ctor()  {
+System::Net::Sockets::System__Net__Sockets__Socket____c o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::System__Net__Sockets__Socket____c>())};
+return o;
+}
  void System::Net::Sockets::System__Net__Sockets__Socket____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket____c>::get(),
@@ -1741,8 +1754,10 @@ constexpr void System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayC
 constexpr System::Net::Sockets::SocketAsyncResult System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass240_0::__get_sockares() const {
 return ::cordl_internals::getInstanceField<System::Net::Sockets::SocketAsyncResult, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass240_0::System__Net__Sockets__Socket____c__DisplayClass240_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__Socket____c__DisplayClass240_0>())) {}
+ System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass240_0 System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass240_0::New_ctor()  {
+System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass240_0 o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass240_0>())};
+return o;
+}
  void System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass240_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass240_0>::get(),
@@ -1801,8 +1816,10 @@ constexpr void System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayC
 constexpr int32_t System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass298_0::__get_sent_so_far() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass298_0::System__Net__Sockets__Socket____c__DisplayClass298_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__Socket____c__DisplayClass298_0>())) {}
+ System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass298_0 System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass298_0::New_ctor()  {
+System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass298_0 o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass298_0>())};
+return o;
+}
  void System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass298_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass298_0>::get(),
@@ -1873,8 +1890,10 @@ constexpr void System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayC
 constexpr ::cordl_internals::intptr_t System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass355_0::__get_handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass355_0::System__Net__Sockets__Socket____c__DisplayClass355_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__Socket____c__DisplayClass355_0>())) {}
+ System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass355_0 System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass355_0::New_ctor()  {
+System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass355_0 o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass355_0>())};
+return o;
+}
  void System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass355_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket____c__DisplayClass355_0>::get(),
@@ -4941,8 +4960,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, saea);
 }
-// Ctor Parameters [CppParam { name: "addressFamily", ty: "System::Net::Sockets::AddressFamily", modifiers: "", def_value: None }, CppParam { name: "socketType", ty: "System::Net::Sockets::SocketType", modifiers: "", def_value: None }, CppParam { name: "protocolType", ty: "System::Net::Sockets::ProtocolType", modifiers: "", def_value: None }]
- System::Net::Sockets::Socket::Socket(System::Net::Sockets::AddressFamily addressFamily, System::Net::Sockets::SocketType socketType, System::Net::Sockets::ProtocolType protocolType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Socket>(addressFamily, socketType, protocolType))) {}
+ System::Net::Sockets::Socket System::Net::Sockets::Socket::New_ctor(System::Net::Sockets::AddressFamily addressFamily, System::Net::Sockets::SocketType socketType, System::Net::Sockets::ProtocolType protocolType)  {
+System::Net::Sockets::Socket o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::Socket>(addressFamily, socketType, protocolType))};
+return o;
+}
  void System::Net::Sockets::Socket::_ctor(System::Net::Sockets::AddressFamily addressFamily, System::Net::Sockets::SocketType socketType, System::Net::Sockets::ProtocolType protocolType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::Socket>::get(),
@@ -5267,8 +5288,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, optionLevel, optionName, optionValue, silent);
 }
-// Ctor Parameters [CppParam { name: "family", ty: "System::Net::Sockets::AddressFamily", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Net::Sockets::SocketType", modifiers: "", def_value: None }, CppParam { name: "proto", ty: "System::Net::Sockets::ProtocolType", modifiers: "", def_value: None }, CppParam { name: "safe_handle", ty: "System::Net::Sockets::SafeSocketHandle", modifiers: "", def_value: None }]
- System::Net::Sockets::Socket::Socket(System::Net::Sockets::AddressFamily family, System::Net::Sockets::SocketType type, System::Net::Sockets::ProtocolType proto, System::Net::Sockets::SafeSocketHandle safe_handle)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Socket>(family, type, proto, safe_handle))) {}
+ System::Net::Sockets::Socket System::Net::Sockets::Socket::New_ctor(System::Net::Sockets::AddressFamily family, System::Net::Sockets::SocketType type, System::Net::Sockets::ProtocolType proto, System::Net::Sockets::SafeSocketHandle safe_handle)  {
+System::Net::Sockets::Socket o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::Socket>(family, type, proto, safe_handle))};
+return o;
+}
  void System::Net::Sockets::Socket::_ctor(System::Net::Sockets::AddressFamily family, System::Net::Sockets::SocketType type, System::Net::Sockets::ProtocolType proto, System::Net::Sockets::SafeSocketHandle safe_handle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::Socket>::get(),
@@ -6285,70 +6308,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Net::NetworkInformation::NetworkInterfaceComponent>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, networkInterface);
-}
-//  Writing Method size for method: System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::*)()>(&System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1.GetCompletionResponsibility
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> (System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::*)(ByRef<bool>)>(&System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::GetCompletionResponsibility)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1>::get(),
-                            "GetCompletionResponsibility",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::__set__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value)  {
-::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>, 0xd0>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>>(value));
-}
-constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::__get__builder() const {
-return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>, 0xd0>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::__set__accessed(bool value)  {
-::cordl_internals::setInstanceField<bool, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
-}
-constexpr bool System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::__get__accessed() const {
-return ::cordl_internals::getInstanceField<bool, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters []
- System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1()  : System::Net::Sockets::SocketAsyncEventArgs(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1>())) {}
- void System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1::GetCompletionResponsibility(ByRef<bool> responsibleForReturningToPool)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__Socket__TaskSocketAsyncEventArgs_1>::get(),
-                            "GetCompletionResponsibility",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>, false>(const_cast<void*>(instance), ___internal_method, responsibleForReturningToPool);
 }

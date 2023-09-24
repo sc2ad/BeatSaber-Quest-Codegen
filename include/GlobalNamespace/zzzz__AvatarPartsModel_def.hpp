@@ -5,23 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class SkinColorSetSO;
+class AvatarPartsModelSO;
 }
 namespace GlobalNamespace {
 class AvatarMeshPartSO;
 }
 namespace GlobalNamespace {
-class SkinColorSO;
+class AvatarSpritePartSO;
 }
 namespace GlobalNamespace {
-class AvatarSpritePartSO;
+class SkinColorSetSO;
 }
 namespace GlobalNamespace {
 template<typename T>
 class AvatarPartCollection_1;
 }
 namespace GlobalNamespace {
-class AvatarPartsModelSO;
+class SkinColorSO;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -173,8 +173,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,int32_t> __get__i
 /// @brief Method get_skinColors addr 0x2229614 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::SkinColorSO> get_skinColors() ;
 
-// Ctor Parameters [CppParam { name: "avatarPartData", ty: "GlobalNamespace::AvatarPartsModelSO", modifiers: "", def_value: None }, CppParam { name: "skinColorSet", ty: "GlobalNamespace::SkinColorSetSO", modifiers: "", def_value: None }]
-explicit AvatarPartsModel(GlobalNamespace::AvatarPartsModelSO avatarPartData, GlobalNamespace::SkinColorSetSO skinColorSet) ;
+static GlobalNamespace::AvatarPartsModel New_ctor(GlobalNamespace::AvatarPartsModelSO avatarPartData, GlobalNamespace::SkinColorSetSO skinColorSet) ;
 
 /// @brief Method .ctor addr 0x222961c size 0x260 virtual false final false
  void _ctor(GlobalNamespace::AvatarPartsModelSO avatarPartData, GlobalNamespace::SkinColorSetSO skinColorSet) ;

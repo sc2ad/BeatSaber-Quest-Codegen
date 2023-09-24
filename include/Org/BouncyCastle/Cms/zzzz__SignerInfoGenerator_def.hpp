@@ -98,20 +98,17 @@ constexpr bool __get_isDirectSignature() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sigId", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "signerFactory", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }]
-explicit SignerInfoGenerator(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory) ;
+static Org::BouncyCastle::Cms::SignerInfoGenerator New_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory) ;
 
 /// @brief Method .ctor addr 0x117da30 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory) ;
 
-// Ctor Parameters [CppParam { name: "sigId", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "signerFactory", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }, CppParam { name: "isDirectSignature", ty: "bool", modifiers: "", def_value: None }]
-explicit SignerInfoGenerator(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory, bool isDirectSignature) ;
+static Org::BouncyCastle::Cms::SignerInfoGenerator New_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory, bool isDirectSignature) ;
 
 /// @brief Method .ctor addr 0x117da38 size 0xa0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory, bool isDirectSignature) ;
 
-// Ctor Parameters [CppParam { name: "sigId", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "contentSigner", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }, CppParam { name: "signedGen", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "unsignedGen", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }]
-explicit SignerInfoGenerator(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory contentSigner, Org::BouncyCastle::Cms::CmsAttributeTableGenerator signedGen, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsignedGen) ;
+static Org::BouncyCastle::Cms::SignerInfoGenerator New_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory contentSigner, Org::BouncyCastle::Cms::CmsAttributeTableGenerator signedGen, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsignedGen) ;
 
 /// @brief Method .ctor addr 0x117dad8 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory contentSigner, Org::BouncyCastle::Cms::CmsAttributeTableGenerator signedGen, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsignedGen) ;

@@ -81,8 +81,7 @@ constexpr ::ArrayW<UnityEngine::Vector2Int> __get__windowResolutions() const;
 /// @brief Method TextForValue addr 0x2154dfc size 0xcc virtual true final false
  ::StringW TextForValue(int32_t idx) ;
 
-// Ctor Parameters []
-explicit WindowResolutionSettingsController() ;
+static GlobalNamespace::WindowResolutionSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2154ec8 size 0x8 virtual false final false
  void _ctor() ;

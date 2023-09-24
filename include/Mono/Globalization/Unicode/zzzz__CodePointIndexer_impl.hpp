@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
+#include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
 //  Writing Method size for method: Mono::Globalization::Unicode::Mono__Globalization__Unicode__CodePointIndexer__TableRange._ctor
 template<>
 
@@ -122,8 +123,10 @@ constexpr void Mono::Globalization::Unicode::CodePointIndexer::__set_defaultCP(i
 constexpr int32_t Mono::Globalization::Unicode::CodePointIndexer::__get_defaultCP() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "starts", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "ends", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "defaultIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "defaultCP", ty: "int32_t", modifiers: "", def_value: None }]
- Mono::Globalization::Unicode::CodePointIndexer::CodePointIndexer(::ArrayW<int32_t> starts, ::ArrayW<int32_t> ends, int32_t defaultIndex, int32_t defaultCP)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CodePointIndexer>(starts, ends, defaultIndex, defaultCP))) {}
+ Mono::Globalization::Unicode::CodePointIndexer Mono::Globalization::Unicode::CodePointIndexer::New_ctor(::ArrayW<int32_t> starts, ::ArrayW<int32_t> ends, int32_t defaultIndex, int32_t defaultCP)  {
+Mono::Globalization::Unicode::CodePointIndexer o{THROW_UNLESS(::il2cpp_utils::New<Mono::Globalization::Unicode::CodePointIndexer>(starts, ends, defaultIndex, defaultCP))};
+return o;
+}
  void Mono::Globalization::Unicode::CodePointIndexer::_ctor(::ArrayW<int32_t> starts, ::ArrayW<int32_t> ends, int32_t defaultIndex, int32_t defaultCP)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Globalization::Unicode::CodePointIndexer>::get(),

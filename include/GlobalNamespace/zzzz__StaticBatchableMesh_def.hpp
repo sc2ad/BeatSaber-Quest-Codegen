@@ -47,8 +47,7 @@ constexpr explicit StaticBatchableMesh(void* ptr) noexcept : UnityEngine::MonoBe
 
 // Methods
 
-// Ctor Parameters []
-explicit StaticBatchableMesh() ;
+static GlobalNamespace::StaticBatchableMesh New_ctor() ;
 
 /// @brief Method .ctor addr 0x267b3a8 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__GraphicRegistry_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/UI/Collections/zzzz__IndexedSet_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/UI/Collections/zzzz__IndexedSet_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::GraphicRegistry._ctor
 template<>
 
@@ -200,8 +200,10 @@ return ::cordl_internals::getInstanceField<System::Collections::Generic::Diction
  System::Collections::Generic::List_1<UnityEngine::UI::Graphic> UnityEngine::UI::GraphicRegistry::__get_s_EmptyList()  {
 return ::cordl_internals::getStaticField<System::Collections::Generic::List_1<UnityEngine::UI::Graphic>, "s_EmptyList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::GraphicRegistry>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UI::GraphicRegistry::GraphicRegistry()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GraphicRegistry>())) {}
+ UnityEngine::UI::GraphicRegistry UnityEngine::UI::GraphicRegistry::New_ctor()  {
+UnityEngine::UI::GraphicRegistry o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::GraphicRegistry>())};
+return o;
+}
  void UnityEngine::UI::GraphicRegistry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::GraphicRegistry>::get(),

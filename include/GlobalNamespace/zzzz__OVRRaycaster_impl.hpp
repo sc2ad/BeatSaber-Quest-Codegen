@@ -3,18 +3,19 @@
 #include "UnityEngine/UI/zzzz__GraphicRaycaster_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRRaycaster_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
+#include "GlobalNamespace/zzzz__OVRRaycaster_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Ray_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 // Ctor Parameters [CppParam { name: "graphic", ty: "UnityEngine::UI::Graphic", modifiers: "", def_value: Some("csnull") }, CppParam { name: "worldPos", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "fromMouse", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRRaycaster__RaycastHit::GlobalNamespace__OVRRaycaster__RaycastHit(UnityEngine::UI::Graphic graphic, UnityEngine::Vector3 worldPos, bool fromMouse) noexcept : ::bs_hook::ValueTypeWrapper() {this->graphic = graphic;
@@ -85,8 +86,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__OVRRa
  System::Comparison_1<GlobalNamespace::GlobalNamespace__OVRRaycaster__RaycastHit> GlobalNamespace::GlobalNamespace__OVRRaycaster____c::__get___9__16_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<GlobalNamespace::GlobalNamespace__OVRRaycaster__RaycastHit>, "<>9__16_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRRaycaster____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRRaycaster____c::GlobalNamespace__OVRRaycaster____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRRaycaster____c>())) {}
+ GlobalNamespace::GlobalNamespace__OVRRaycaster____c GlobalNamespace::GlobalNamespace__OVRRaycaster____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRRaycaster____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRRaycaster____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRRaycaster____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRRaycaster____c>::get(),
@@ -364,8 +367,10 @@ return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<
  System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__OVRRaycaster__RaycastHit> GlobalNamespace::OVRRaycaster::__get_s_SortedGraphics()  {
 return ::cordl_internals::getStaticField<System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__OVRRaycaster__RaycastHit>, "s_SortedGraphics", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRRaycaster>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::OVRRaycaster::OVRRaycaster()  : UnityEngine::UI::GraphicRaycaster(THROW_UNLESS(::il2cpp_utils::New<OVRRaycaster>())) {}
+ GlobalNamespace::OVRRaycaster GlobalNamespace::OVRRaycaster::New_ctor()  {
+GlobalNamespace::OVRRaycaster o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRRaycaster>())};
+return o;
+}
  void GlobalNamespace::OVRRaycaster::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRRaycaster>::get(),

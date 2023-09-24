@@ -2,13 +2,14 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__HelpBox_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Label_def.hpp"
 #include "UnityEngine/UIElements/zzzz__HelpBoxMessageType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__HelpBox_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Label_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits.Init
 template<>
 
@@ -64,8 +65,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits::UnityEngine__UIElements__HelpBox__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__HelpBox__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits>::get(),
@@ -255,8 +258,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::HelpBox::HelpBox()  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<HelpBox>())) {}
+ UnityEngine::UIElements::HelpBox UnityEngine::UIElements::HelpBox::New_ctor()  {
+UnityEngine::UIElements::HelpBox o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::HelpBox>())};
+return o;
+}
  void UnityEngine::UIElements::HelpBox::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::HelpBox>::get(),
@@ -266,8 +271,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "messageType", ty: "UnityEngine::UIElements::HelpBoxMessageType", modifiers: "", def_value: None }]
- UnityEngine::UIElements::HelpBox::HelpBox(::StringW text, UnityEngine::UIElements::HelpBoxMessageType messageType)  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<HelpBox>(text, messageType))) {}
+ UnityEngine::UIElements::HelpBox UnityEngine::UIElements::HelpBox::New_ctor(::StringW text, UnityEngine::UIElements::HelpBoxMessageType messageType)  {
+UnityEngine::UIElements::HelpBox o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::HelpBox>(text, messageType))};
+return o;
+}
  void UnityEngine::UIElements::HelpBox::_ctor(::StringW text, UnityEngine::UIElements::HelpBoxMessageType messageType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::HelpBox>::get(),
@@ -312,8 +319,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlFactory::UnityEngine__UIElements__HelpBox__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::HelpBox,UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__HelpBox__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlFactory>::get(),

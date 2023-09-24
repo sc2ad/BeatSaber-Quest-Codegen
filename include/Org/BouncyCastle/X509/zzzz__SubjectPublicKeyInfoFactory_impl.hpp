@@ -71,8 +71,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory::SubjectPublicKeyInfoFactory()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubjectPublicKeyInfoFactory>())) {}
+ Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory::New_ctor()  {
+Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory>())};
+return o;
+}
  void Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory>::get(),

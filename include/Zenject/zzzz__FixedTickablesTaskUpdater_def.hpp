@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class IFixedTickable;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IFixedTickable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -17,7 +17,7 @@ class FixedTickablesTaskUpdater;
 // Type: Zenject::FixedTickablesTaskUpdater
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11279), inst: 4056 }), TypeDefinitionIndex(TypeDefinitionIndex(15675))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11279), inst: 4056 }), TypeDefinitionIndex(TypeDefinitionIndex(15675)), TypeDefinitionIndex(TypeDefinitionIndex(11279))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11282))
 // CS Name: Zenject.FixedTickablesTaskUpdater
 class CORDL_TYPE FixedTickablesTaskUpdater : public Zenject::TaskUpdater_1<Zenject::IFixedTickable> {
@@ -59,8 +59,7 @@ constexpr explicit FixedTickablesTaskUpdater(void* ptr) noexcept : Zenject::Task
 /// @brief Method UpdateItem addr 0x2d9fed8 size 0x9c virtual true final false
  void UpdateItem(Zenject::IFixedTickable task) ;
 
-// Ctor Parameters []
-explicit FixedTickablesTaskUpdater() ;
+static Zenject::FixedTickablesTaskUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9ff74 size 0x48 virtual false final false
  void _ctor() ;

@@ -49,14 +49,12 @@ constexpr explicit HMACSHA256(void* ptr) noexcept : System::Security::Cryptograp
 
 // Methods
 
-// Ctor Parameters []
-explicit HMACSHA256() ;
+static System::Security::Cryptography::HMACSHA256 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f3c34 size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HMACSHA256(::ArrayW<uint8_t> key) ;
+static System::Security::Cryptography::HMACSHA256 New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0x22f3c58 size 0xc0 virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;

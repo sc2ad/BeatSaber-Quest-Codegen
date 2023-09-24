@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__SaberManager__InitData;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class PlayersSpecificSettingsAtGameStartModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::PlayersSpecificSettingsAtGameStartModel __get__player
 /// @brief Method InstallBindings addr 0x20f05e4 size 0x224 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MultiplayerBigAvatarInstaller() ;
+static GlobalNamespace::MultiplayerBigAvatarInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f0808 size 0x8 virtual false final false
  void _ctor() ;

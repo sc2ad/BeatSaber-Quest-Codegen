@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ServerSrpParams_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::ServerSrpParams._ctor
 template<>
 
@@ -145,8 +145,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::ServerSrpParams::__set_m_s(::Arra
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::ServerSrpParams::__get_m_s() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "N", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "s", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "B", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::ServerSrpParams::ServerSrpParams(Org::BouncyCastle::Math::BigInteger N, Org::BouncyCastle::Math::BigInteger g, ::ArrayW<uint8_t> s, Org::BouncyCastle::Math::BigInteger B)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServerSrpParams>(N, g, s, B))) {}
+ Org::BouncyCastle::Crypto::Tls::ServerSrpParams Org::BouncyCastle::Crypto::Tls::ServerSrpParams::New_ctor(Org::BouncyCastle::Math::BigInteger N, Org::BouncyCastle::Math::BigInteger g, ::ArrayW<uint8_t> s, Org::BouncyCastle::Math::BigInteger B)  {
+Org::BouncyCastle::Crypto::Tls::ServerSrpParams o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ServerSrpParams>(N, g, s, B))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ServerSrpParams::_ctor(Org::BouncyCastle::Math::BigInteger N, Org::BouncyCastle::Math::BigInteger g, ::ArrayW<uint8_t> s, Org::BouncyCastle::Math::BigInteger B)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ServerSrpParams>::get(),

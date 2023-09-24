@@ -9,134 +9,62 @@
 #include <cstddef>
 #include <cstdint>
 namespace Oculus::Platform {
-struct RichPresenceExtraContext;
-}
-namespace Oculus::Platform {
-struct AbuseReportVideoMode;
-}
-namespace Oculus::Platform {
-struct LogEventName;
-}
-namespace Oculus::Platform {
-struct LaunchResult;
-}
-namespace Oculus::Platform {
-struct SystemVoipStatus;
-}
-namespace Oculus::Platform {
-struct MediaContentType;
-}
-namespace Oculus::Platform {
-struct VoipBitrate;
-}
-namespace Oculus::Platform {
-struct NetSyncVoipMicSource;
+struct MultiplayerErrorErrorKey;
 }
 namespace Oculus::Platform {
 struct LeaderboardFilterType;
 }
 namespace Oculus::Platform {
-struct RoomJoinPolicy;
+struct ChallengeVisibility;
+}
+namespace Oculus::Platform {
+struct ReportRequestResponse;
 }
 namespace Oculus::Platform {
 struct LivestreamingAudience;
 }
 namespace Oculus::Platform {
-struct CloudStorageDataStatus;
+struct Oculus__Platform__CAPI__ovrKeyValuePair;
 }
 namespace Oculus::Platform {
-struct ChallengeVisibility;
-}
-namespace Oculus::Platform {
-struct Oculus__Platform__Message__MessageType;
-}
-namespace Oculus::Platform {
-struct NetSyncConnectionStatus;
-}
-namespace System {
-class Array;
+struct VoipMuteState;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace Oculus::Platform {
-struct SendPolicy;
+struct SystemVoipStatus;
 }
 namespace Oculus::Platform {
 struct RoomType;
 }
 namespace Oculus::Platform {
-struct SdkAccountType;
+struct Oculus__Platform__CAPI__ovrMatchmakingCriterion;
 }
 namespace Oculus::Platform {
-struct UserPresenceStatus;
+struct VoipDtxState;
 }
 namespace Oculus::Platform {
 struct VoipSampleRate;
 }
 namespace Oculus::Platform {
-struct LeaderboardStartAt;
+struct ServiceProvider;
 }
 namespace Oculus::Platform {
-struct PartyUpdateAction;
-}
-namespace Oculus::Platform {
-struct UserOrdering;
-}
-namespace Oculus::Platform {
-struct TimeWindow;
-}
-namespace Oculus::Platform {
-struct CloudStorageUpdateStatus;
-}
-namespace Oculus::Platform {
-struct RoomMembershipLockStatus;
-}
-namespace Oculus::Platform {
-struct InitConfigOptions;
-}
-namespace Oculus::Platform {
-struct AbuseReportType;
-}
-namespace System {
-struct DateTime;
-}
-namespace Oculus::Platform {
-struct NetSyncVoipStreamMode;
-}
-namespace Oculus::Platform {
-struct ReportRequestResponse;
+struct Oculus__Platform__Message__MessageType;
 }
 namespace Oculus::Platform {
 struct MatchmakingStatApproach;
 }
 namespace Oculus::Platform {
-struct ChallengeViewerFilter;
+struct RichPresenceExtraContext;
 }
 namespace Oculus::Platform {
-struct MultiplayerErrorErrorKey;
+struct LeaderboardStartAt;
 }
 namespace Oculus::Platform {
-struct LivestreamingStartStatus;
-}
-namespace Oculus::Platform {
-struct RoomJoinability;
-}
-namespace Oculus::Platform {
-struct LivestreamingMicrophoneStatus;
-}
-namespace Oculus::Platform {
-struct ChallengeCreationType;
-}
-namespace Oculus::Platform {
-struct ServiceProvider;
-}
-namespace Oculus::Platform {
-struct NetSyncDisconnectReason;
-}
-namespace Oculus::Platform {
-struct VoipMuteState;
+struct RoomMembershipLockStatus;
 }
 namespace Oculus::Platform {
 struct PeerConnectionState;
@@ -145,19 +73,109 @@ namespace Oculus::Platform {
 struct ShareMediaStatus;
 }
 namespace Oculus::Platform {
-struct AchievementType;
+struct Oculus__Platform__CAPI__ovrNetSyncVec3;
+}
+namespace Oculus::Platform {
+struct LogEventName;
+}
+namespace Oculus::Platform {
+struct ChallengeViewerFilter;
+}
+namespace Oculus::Platform {
+struct UserPresenceStatus;
+}
+namespace Oculus::Platform {
+struct LaunchResult;
+}
+namespace Oculus::Platform {
+struct Oculus__Platform__CAPI__OculusInitParams;
+}
+namespace Oculus::Platform {
+struct NetSyncVoipMicSource;
+}
+namespace Oculus::Platform {
+struct UserOrdering;
+}
+namespace Oculus::Platform {
+struct CloudStorageDataStatus;
+}
+namespace Oculus::Platform {
+struct TimeWindow;
+}
+namespace Oculus::Platform {
+struct AbuseReportVideoMode;
+}
+namespace Oculus::Platform {
+struct SendPolicy;
 }
 namespace System::Text {
 class UTF8Encoding;
 }
 namespace Oculus::Platform {
+struct PartyUpdateAction;
+}
+namespace Oculus::Platform {
+struct InitConfigOptions;
+}
+namespace System {
+struct DateTime;
+}
+namespace Oculus::Platform {
+struct RoomJoinPolicy;
+}
+namespace Oculus::Platform {
+struct RoomJoinability;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__CAPI__FilterCallback;
+}
+namespace Oculus::Platform {
 struct LaunchType;
+}
+namespace Oculus::Platform {
+struct NetSyncDisconnectReason;
+}
+namespace Oculus::Platform {
+struct SdkAccountType;
+}
+namespace Oculus::Platform {
+struct NetSyncVoipStreamMode;
+}
+namespace System {
+class Array;
+}
+namespace Oculus::Platform {
+struct Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData;
+}
+namespace Oculus::Platform {
+struct CloudStorageUpdateStatus;
+}
+namespace Oculus::Platform {
+struct LivestreamingStartStatus;
+}
+namespace Oculus::Platform {
+struct MediaContentType;
+}
+namespace Oculus::Platform {
+struct ChallengeCreationType;
+}
+namespace Oculus::Platform {
+struct AchievementType;
 }
 namespace Oculus::Platform {
 struct PlatformInitializeResult;
 }
 namespace Oculus::Platform {
-struct VoipDtxState;
+struct VoipBitrate;
+}
+namespace Oculus::Platform {
+struct NetSyncConnectionStatus;
+}
+namespace Oculus::Platform {
+struct AbuseReportType;
+}
+namespace Oculus::Platform {
+struct LivestreamingMicrophoneStatus;
 }
 namespace System {
 class AsyncCallback;
@@ -614,8 +632,7 @@ constexpr explicit Oculus__Platform__CAPI__FilterCallback(void* ptr) noexcept : 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Oculus__Platform__CAPI__FilterCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Oculus::Platform::Oculus__Platform__CAPI__FilterCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x257a3fc size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4287,8 +4304,7 @@ static void ovr_VoipOptions_SetBitrateForNewConnections(::cordl_internals::intpt
 /// @brief Method ovr_VoipOptions_SetCreateNewConnectionUseDtx addr 0x257a288 size 0x84 virtual false final false
 static void ovr_VoipOptions_SetCreateNewConnectionUseDtx(::cordl_internals::intptr_t handle, Oculus::Platform::VoipDtxState value) ;
 
-// Ctor Parameters []
-explicit CAPI() ;
+static Oculus::Platform::CAPI New_ctor() ;
 
 /// @brief Method .ctor addr 0x257a30c size 0x8 virtual false final false
  void _ctor() ;

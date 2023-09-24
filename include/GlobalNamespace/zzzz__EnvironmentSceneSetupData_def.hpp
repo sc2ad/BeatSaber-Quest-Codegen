@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +74,7 @@ constexpr GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "environmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "hideBranding", ty: "bool", modifiers: "", def_value: None }]
-explicit EnvironmentSceneSetupData(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, bool hideBranding) ;
+static GlobalNamespace::EnvironmentSceneSetupData New_ctor(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, bool hideBranding) ;
 
 /// @brief Method .ctor addr 0x21b6ab0 size 0x3c virtual false final false
  void _ctor(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, bool hideBranding) ;

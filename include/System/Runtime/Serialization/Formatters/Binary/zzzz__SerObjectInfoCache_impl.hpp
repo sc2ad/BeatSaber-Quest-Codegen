@@ -72,8 +72,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::SerObjectInfo
 constexpr ::ArrayW<System::Type> System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::__get_memberTypes() const {
 return ::cordl_internals::getInstanceField<::ArrayW<System::Type>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hasTypeForwardedFrom", ty: "bool", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::SerObjectInfoCache(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerObjectInfoCache>(typeName, assemblyName, hasTypeForwardedFrom))) {}
+ System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::New_ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom)  {
+System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache>(typeName, assemblyName, hasTypeForwardedFrom))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::_ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache>::get(),
@@ -83,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, typeName, assemblyName, hasTypeForwardedFrom);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::SerObjectInfoCache(System::Type type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerObjectInfoCache>(type))) {}
+ System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::New_ctor(System::Type type)  {
+System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache>(type))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache>::get(),

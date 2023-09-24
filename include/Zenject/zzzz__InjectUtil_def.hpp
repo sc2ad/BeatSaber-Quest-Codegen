@@ -3,10 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace System {
 class Type;
 }
@@ -14,15 +10,22 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace Zenject {
+class Zenject__InjectUtil____c;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -88,8 +91,7 @@ static System::Func_2<::bs_hook::Il2CppWrapperType,Zenject::TypeValuePair> __get
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__InjectUtil____c() ;
+static Zenject::Zenject__InjectUtil____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d72648 size 0x8 virtual false final false
  void _ctor() ;

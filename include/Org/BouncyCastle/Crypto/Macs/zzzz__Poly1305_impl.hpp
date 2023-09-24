@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__Poly1305_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Macs::Poly1305._ctor
 template<>
 
@@ -343,8 +343,10 @@ constexpr void Org::BouncyCastle::Crypto::Macs::Poly1305::__set_h4(uint32_t valu
 constexpr uint32_t Org::BouncyCastle::Crypto::Macs::Poly1305::__get_h4() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x74>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Macs::Poly1305::Poly1305()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Poly1305>())) {}
+ Org::BouncyCastle::Crypto::Macs::Poly1305 Org::BouncyCastle::Crypto::Macs::Poly1305::New_ctor()  {
+Org::BouncyCastle::Crypto::Macs::Poly1305 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::Poly1305>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::Poly1305::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::Poly1305>::get(),
@@ -354,8 +356,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Macs::Poly1305::Poly1305(Org::BouncyCastle::Crypto::IBlockCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Poly1305>(cipher))) {}
+ Org::BouncyCastle::Crypto::Macs::Poly1305 Org::BouncyCastle::Crypto::Macs::Poly1305::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::Macs::Poly1305 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::Poly1305>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::Poly1305::_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::Poly1305>::get(),

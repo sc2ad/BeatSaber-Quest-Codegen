@@ -2,22 +2,21 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AttributesStore_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AttributeData_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PartType_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AttributeData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AttributesStore_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AttributeData_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_PartType_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 #include "UnityEngine/zzzz__MeshCollider_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -90,8 +89,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc::HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc>(object, method))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc>(object, method))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc>::get(),
@@ -1557,8 +1558,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_AttributesStore::HEU_AttributesStore()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<HEU_AttributesStore>())) {}
+ HoudiniEngineUnity::HEU_AttributesStore HoudiniEngineUnity::HEU_AttributesStore::New_ctor()  {
+HoudiniEngineUnity::HEU_AttributesStore o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_AttributesStore>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_AttributesStore::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_AttributesStore>::get(),

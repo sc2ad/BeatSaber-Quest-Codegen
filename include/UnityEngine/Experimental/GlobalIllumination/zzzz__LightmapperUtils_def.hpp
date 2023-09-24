@@ -4,37 +4,37 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct DirectionalLight;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct RectangleLight;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct DiscLight;
+struct LightMode;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct Cookie;
 }
 namespace UnityEngine {
-class Light;
+struct Color;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LinearColor;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct DiscLight;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct PointLight;
 }
+namespace UnityEngine {
+struct LightmapBakeType;
+}
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
+struct RectangleLight;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct DirectionalLight;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct SpotLight;
 }
 namespace UnityEngine {
-struct LightmapBakeType;
+class Light;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {

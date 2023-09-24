@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::XboxOneGamepadAndroid::XboxOneGamepadAndroid()  : UnityEngine::InputSystem::XInput::XInputController(THROW_UNLESS(::il2cpp_utils::New<XboxOneGamepadAndroid>())) {}
+ UnityEngine::InputSystem::Android::XboxOneGamepadAndroid UnityEngine::InputSystem::Android::XboxOneGamepadAndroid::New_ctor()  {
+UnityEngine::InputSystem::Android::XboxOneGamepadAndroid o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::XboxOneGamepadAndroid>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::XboxOneGamepadAndroid::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::XboxOneGamepadAndroid>::get(),

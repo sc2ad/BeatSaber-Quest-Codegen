@@ -1,10 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorArrayLightWithIds_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__ColorArrayLightWithIds_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId.add_didSetColorEvent
@@ -105,8 +106,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId::GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId(int32_t index, int32_t lightId)  : GlobalNamespace::GlobalNamespace__LightWithIds__LightWithId(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId>(index, lightId))) {}
+ GlobalNamespace::GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId GlobalNamespace::GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId::New_ctor(int32_t index, int32_t lightId)  {
+GlobalNamespace::GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId>(index, lightId))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId::_ctor(int32_t index, int32_t lightId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId>::get(),
@@ -380,8 +383,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorArrayLightWithIds::ColorArrayLightWithIds()  : GlobalNamespace::LightWithIds(THROW_UNLESS(::il2cpp_utils::New<ColorArrayLightWithIds>())) {}
+ GlobalNamespace::ColorArrayLightWithIds GlobalNamespace::ColorArrayLightWithIds::New_ctor()  {
+GlobalNamespace::ColorArrayLightWithIds o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorArrayLightWithIds>())};
+return o;
+}
  void GlobalNamespace::ColorArrayLightWithIds::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorArrayLightWithIds>::get(),

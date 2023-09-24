@@ -64,8 +64,7 @@ constexpr int32_t __get_column() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "line", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "column", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SmallXmlParserException(::StringW msg, int32_t line, int32_t column) ;
+static Mono::Xml::SmallXmlParserException New_ctor(::StringW msg, int32_t line, int32_t column) ;
 
 /// @brief Method .ctor addr 0x22a6208 size 0xcc virtual false final false
  void _ctor(::StringW msg, int32_t line, int32_t column) ;

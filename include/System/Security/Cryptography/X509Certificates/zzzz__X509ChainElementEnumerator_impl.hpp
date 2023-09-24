@@ -98,8 +98,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509ChainElemen
 constexpr System::Collections::IEnumerator System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator::__get_enumerator() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "enumerable", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator::X509ChainElementEnumerator(System::Collections::IEnumerable enumerable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509ChainElementEnumerator>(enumerable))) {}
+ System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator::New_ctor(System::Collections::IEnumerable enumerable)  {
+System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator>(enumerable))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator::_ctor(System::Collections::IEnumerable enumerable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator>::get(),

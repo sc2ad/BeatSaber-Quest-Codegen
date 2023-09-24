@@ -63,8 +63,7 @@ constexpr GlobalNamespace::IBeatSaberLogger __get__logger() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "logger", ty: "GlobalNamespace::IBeatSaberLogger", modifiers: "", def_value: None }]
-explicit RecordingConverter(GlobalNamespace::IBeatSaberLogger logger) ;
+static GlobalNamespace::RecordingConverter New_ctor(GlobalNamespace::IBeatSaberLogger logger) ;
 
 /// @brief Method .ctor addr 0x21a7078 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::IBeatSaberLogger logger) ;

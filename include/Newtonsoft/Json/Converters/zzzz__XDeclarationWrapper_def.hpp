@@ -2,17 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml {
-struct XmlNodeType;
-}
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlDeclaration;
 }
 namespace System::Xml::Linq {
 class XDeclaration;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlDeclaration;
+namespace System::Xml {
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -94,8 +94,7 @@ constexpr System::Xml::Linq::XDeclaration __get__Declaration_k__BackingField() c
 /// @brief Method set_Declaration addr 0x2542e14 size 0x8 virtual false final false
  void set_Declaration(System::Xml::Linq::XDeclaration value) ;
 
-// Ctor Parameters [CppParam { name: "declaration", ty: "System::Xml::Linq::XDeclaration", modifiers: "", def_value: None }]
-explicit XDeclarationWrapper(System::Xml::Linq::XDeclaration declaration) ;
+static Newtonsoft::Json::Converters::XDeclarationWrapper New_ctor(System::Xml::Linq::XDeclaration declaration) ;
 
 /// @brief Method .ctor addr 0x2542e1c size 0x6c virtual false final false
  void _ctor(System::Xml::Linq::XDeclaration declaration) ;

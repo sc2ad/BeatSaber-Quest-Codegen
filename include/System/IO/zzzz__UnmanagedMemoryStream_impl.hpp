@@ -1,17 +1,17 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/IO/zzzz__UnmanagedMemoryStream_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__SafeBuffer_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/IO/zzzz__FileAccess_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__Memory_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__SafeBuffer_def.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
 //  Writing Method size for method: System::IO::UnmanagedMemoryStream._ctor
 template<>
@@ -577,8 +577,10 @@ constexpr void System::IO::UnmanagedMemoryStream::__set__lastReadTask(System::Th
 constexpr System::Threading::Tasks::Task_1<int32_t> System::IO::UnmanagedMemoryStream::__get__lastReadTask() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task_1<int32_t>, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::UnmanagedMemoryStream::UnmanagedMemoryStream()  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<UnmanagedMemoryStream>())) {}
+ System::IO::UnmanagedMemoryStream System::IO::UnmanagedMemoryStream::New_ctor()  {
+System::IO::UnmanagedMemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::UnmanagedMemoryStream>())};
+return o;
+}
  void System::IO::UnmanagedMemoryStream::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::UnmanagedMemoryStream>::get(),
@@ -588,8 +590,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "pointer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }]
- System::IO::UnmanagedMemoryStream::UnmanagedMemoryStream(void* pointer, int64_t length, int64_t capacity, System::IO::FileAccess access)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<UnmanagedMemoryStream>(pointer, length, capacity, access))) {}
+ System::IO::UnmanagedMemoryStream System::IO::UnmanagedMemoryStream::New_ctor(void* pointer, int64_t length, int64_t capacity, System::IO::FileAccess access)  {
+System::IO::UnmanagedMemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::UnmanagedMemoryStream>(pointer, length, capacity, access))};
+return o;
+}
  void System::IO::UnmanagedMemoryStream::_ctor(void* pointer, int64_t length, int64_t capacity, System::IO::FileAccess access)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::UnmanagedMemoryStream>::get(),

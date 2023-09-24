@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace UnityEngine {
-struct PropertyName;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+struct PropertyName;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -65,8 +65,7 @@ constexpr GlobalNamespace::PS4Helper __get__ps4Helper() const;
 /// @brief Method Unsubscribe addr 0x221a650 size 0x94 virtual true final false
  void Unsubscribe() ;
 
-// Ctor Parameters []
-explicit PS4OnGoingToBackgroundSaveHandler() ;
+static GlobalNamespace::PS4OnGoingToBackgroundSaveHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a6e4 size 0x8 virtual false final false
  void _ctor() ;

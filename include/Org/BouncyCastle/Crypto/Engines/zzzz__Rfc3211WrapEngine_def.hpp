@@ -7,20 +7,20 @@
 namespace Org::BouncyCastle::Crypto {
 class IWrapper;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ParametersWithIV;
+namespace Org::BouncyCastle::Crypto::Modes {
+class CbcBlockCipher;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class CbcBlockCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ParametersWithIV;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -103,8 +103,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_rand() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit Rfc3211WrapEngine(Org::BouncyCastle::Crypto::IBlockCipher engine) ;
+static Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine) ;
 
 /// @brief Method .ctor addr 0xe50d64 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher engine) ;

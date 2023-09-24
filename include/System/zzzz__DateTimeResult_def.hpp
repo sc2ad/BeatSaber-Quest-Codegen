@@ -5,24 +5,24 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
 namespace System::Globalization {
 class Calendar;
+}
+namespace System {
+struct ParseFlags;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
 struct ParseFailureKind;
-}
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
-}
-namespace System {
-struct ParseFlags;
-}
-namespace System {
-struct TimeSpan;
 }
 // Forward declare root types
 namespace System {

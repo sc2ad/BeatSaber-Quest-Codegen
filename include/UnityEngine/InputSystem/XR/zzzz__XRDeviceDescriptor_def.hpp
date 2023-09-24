@@ -104,8 +104,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::InputSystem::XR::XRF
 /// @brief Method FromJson addr 0x2933278 size 0x48 virtual false final false
 static UnityEngine::InputSystem::XR::XRDeviceDescriptor FromJson(::StringW json) ;
 
-// Ctor Parameters []
-explicit XRDeviceDescriptor() ;
+static UnityEngine::InputSystem::XR::XRDeviceDescriptor New_ctor() ;
 
 /// @brief Method .ctor addr 0x29359c0 size 0x8 virtual false final false
  void _ctor() ;

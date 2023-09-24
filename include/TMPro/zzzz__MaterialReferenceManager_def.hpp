@@ -9,12 +9,12 @@ class Material;
 namespace TMPro {
 class TMP_SpriteAsset;
 }
-namespace TMPro {
-class TMP_ColorGradient;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace TMPro {
+class TMP_ColorGradient;
 }
 namespace TMPro {
 class TMP_FontAsset;
@@ -166,8 +166,7 @@ static bool TryGetMaterial(int32_t hashCode, ByRef<UnityEngine::Material> materi
 /// @brief Method TryGetMaterialInternal addr 0x2a582f4 size 0x6c virtual false final false
  bool TryGetMaterialInternal(int32_t hashCode, ByRef<UnityEngine::Material> material) ;
 
-// Ctor Parameters []
-explicit MaterialReferenceManager() ;
+static TMPro::MaterialReferenceManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a57ab8 size 0x148 virtual false final false
  void _ctor() ;

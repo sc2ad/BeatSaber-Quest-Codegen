@@ -2,10 +2,10 @@
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/ComponentModel/zzzz__Component_def.hpp"
 #include "System/ComponentModel/zzzz__EventHandlerList_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/ComponentModel/zzzz__IComponent_def.hpp"
 #include "System/ComponentModel/zzzz__ISite_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/ComponentModel/zzzz__IComponent_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::ComponentModel::Component.Finalize
 template<>
 
@@ -283,8 +283,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::ComponentModel::Component::Component()  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<Component>())) {}
+ System::ComponentModel::Component System::ComponentModel::Component::New_ctor()  {
+System::ComponentModel::Component o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Component>())};
+return o;
+}
  void System::ComponentModel::Component::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Component>::get(),

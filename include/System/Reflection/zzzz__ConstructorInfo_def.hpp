@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Reflection {
+class Binder;
+}
 namespace System::Globalization {
 class CultureInfo;
 }
@@ -13,9 +16,6 @@ struct BindingFlags;
 }
 namespace System::Reflection {
 struct MemberTypes;
-}
-namespace System::Reflection {
-class Binder;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -83,8 +83,7 @@ static ::StringW __get_TypeConstructorName() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit ConstructorInfo() ;
+static System::Reflection::ConstructorInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2378eb8 size 0x8 virtual false final false
  void _ctor() ;

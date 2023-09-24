@@ -3,8 +3,14 @@
 #include "Newtonsoft/Json/Converters/zzzz__DateTimeConverterBase_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
 namespace System::Globalization {
-class CultureInfo;
+struct DateTimeStyles;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
@@ -13,13 +19,7 @@ namespace System {
 class Type;
 }
 namespace System::Globalization {
-struct DateTimeStyles;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
+class CultureInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -124,8 +124,7 @@ constexpr System::Globalization::CultureInfo __get__culture() const;
 /// @brief Method ReadJson addr 0x2540c94 size 0x4c0 virtual true final false
  ::bs_hook::Il2CppWrapperType ReadJson(Newtonsoft::Json::JsonReader reader, System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, Newtonsoft::Json::JsonSerializer serializer) ;
 
-// Ctor Parameters []
-explicit IsoDateTimeConverter() ;
+static Newtonsoft::Json::Converters::IsoDateTimeConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2541154 size 0x10 virtual false final false
  void _ctor() ;

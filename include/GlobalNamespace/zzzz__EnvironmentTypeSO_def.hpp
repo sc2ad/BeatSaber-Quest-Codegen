@@ -65,8 +65,7 @@ constexpr ::StringW __get__typeNameLocalizationKey() const;
 /// @brief Method get_typeNameLocalizationKey addr 0x21bf7a8 size 0x8 virtual false final false
  ::StringW get_typeNameLocalizationKey() ;
 
-// Ctor Parameters []
-explicit EnvironmentTypeSO() ;
+static GlobalNamespace::EnvironmentTypeSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bf7b0 size 0x8 virtual false final false
  void _ctor() ;

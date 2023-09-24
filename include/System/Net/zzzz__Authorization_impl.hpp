@@ -86,8 +86,10 @@ constexpr void System::Net::Authorization::__set_ModuleAuthenticationType(::Stri
 constexpr ::StringW System::Net::Authorization::__get_ModuleAuthenticationType() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Authorization::Authorization(::StringW token)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Authorization>(token))) {}
+ System::Net::Authorization System::Net::Authorization::New_ctor(::StringW token)  {
+System::Net::Authorization o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Authorization>(token))};
+return o;
+}
  void System::Net::Authorization::_ctor(::StringW token)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Authorization>::get(),
@@ -97,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, token);
 }
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "finished", ty: "bool", modifiers: "", def_value: None }]
- System::Net::Authorization::Authorization(::StringW token, bool finished)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Authorization>(token, finished))) {}
+ System::Net::Authorization System::Net::Authorization::New_ctor(::StringW token, bool finished)  {
+System::Net::Authorization o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Authorization>(token, finished))};
+return o;
+}
  void System::Net::Authorization::_ctor(::StringW token, bool finished)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Authorization>::get(),

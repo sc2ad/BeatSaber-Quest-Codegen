@@ -6,28 +6,18 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-class BeatmapLevelDataSO;
-}
-namespace GlobalNamespace {
-template<typename TKey,typename TValue>
-class AsyncCache_2;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace System {
-class IDisposable;
+class BeatmapLevelDataSO;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+class GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelDataLoader___LoadBeatmapLevelFormAssetBundleAsync_d__5;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
@@ -36,56 +26,96 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelDataLoader___LoadBeatmapLevelAsync_d__7;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelDataLoader__AssetBundleLevelInfo;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+template<typename TKey,typename TValue>
+class AsyncCache_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelDataLoader___LoadBeatmapLevelDataAsync_d__8;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview___GetCoverImageAsync_d__39;
 }
 namespace UnityEngine {
 class Sprite;
-}
-namespace UnityEngine {
-class AudioClip;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace GlobalNamespace {
-class IFilePathSongPreviewAudioClipProvider;
+class GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class IAssetSongPreviewAudioClipProvider;
+class IFilePathSongPreviewAudioClipProvider;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
+class IBeatmapLevelData;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace GlobalNamespace {
+class IAssetSongPreviewAudioClipProvider;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class TaskCompletionSource_1;
 }
 namespace UnityEngine {
-class AssetBundleCreateRequest;
+class AsyncOperation;
 }
 namespace UnityEngine {
-class AsyncOperation;
+class AssetBundleCreateRequest;
 }
 namespace UnityEngine {
 class AssetBundle;
@@ -98,11 +128,11 @@ class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct TaskAwaiter_1;
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -282,8 +312,7 @@ constexpr GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatma
 /// @brief Method get_difficultyBeatmaps addr 0x21e06b4 size 0x1c virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> get_difficultyBeatmaps() ;
 
-// Ctor Parameters [CppParam { name: "difficultyBeatmapSet", ty: "GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicSerializedName", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "parentLevel", ty: "GlobalNamespace::IBeatmapLevel", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet(GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet difficultyBeatmapSet, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristicSerializedName, GlobalNamespace::IBeatmapLevel parentLevel) ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet New_ctor(GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet difficultyBeatmapSet, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristicSerializedName, GlobalNamespace::IBeatmapLevel parentLevel) ;
 
 /// @brief Method .ctor addr 0x21e0638 size 0x74 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet difficultyBeatmapSet, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristicSerializedName, GlobalNamespace::IBeatmapLevel parentLevel) ;
@@ -367,8 +396,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 /// @brief Method get_difficultyBeatmapSets addr 0x21e0630 size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> get_difficultyBeatmapSets() ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevelData", ty: "GlobalNamespace::BeatmapLevelDataSO", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicCollection", ty: "GlobalNamespace::BeatmapCharacteristicCollection", modifiers: "", def_value: None }, CppParam { name: "parentLevel", ty: "GlobalNamespace::IBeatmapLevel", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData(GlobalNamespace::BeatmapLevelDataSO beatmapLevelData, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection, GlobalNamespace::IBeatmapLevel parentLevel) ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData New_ctor(GlobalNamespace::BeatmapLevelDataSO beatmapLevelData, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection, GlobalNamespace::IBeatmapLevel parentLevel) ;
 
 /// @brief Method .ctor addr 0x21e0464 size 0x1c4 virtual false final false
  void _ctor(GlobalNamespace::BeatmapLevelDataSO beatmapLevelData, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection, GlobalNamespace::IBeatmapLevel parentLevel) ;
@@ -640,8 +668,7 @@ constexpr GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevel
 /// @brief Method GetCoverImageAsync addr 0x21e02c8 size 0xfc virtual true final true
  System::Threading::Tasks::Task_1<UnityEngine::Sprite> GetCoverImageAsync(System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters [CppParam { name: "previewLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview(GlobalNamespace::IPreviewBeatmapLevel previewLevel) ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader__BeatmapLevelFromPreview New_ctor(GlobalNamespace::IPreviewBeatmapLevel previewLevel) ;
 
 /// @brief Method .ctor addr 0x21e03c4 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::IPreviewBeatmapLevel previewLevel) ;
@@ -918,8 +945,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::Beat
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e1140 size 0x8 virtual false final false
  void _ctor() ;
@@ -994,8 +1020,7 @@ constexpr GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__Display
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1() ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelDataLoader____c__DisplayClass8_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e1300 size 0x8 virtual false final false
  void _ctor() ;
@@ -1176,8 +1201,7 @@ constexpr GlobalNamespace::BeatmapCharacteristicCollection __get__allBeatmapChar
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "allBeatmapCharacteristicCollection", ty: "GlobalNamespace::BeatmapCharacteristicCollection", modifiers: "", def_value: None }]
-explicit BeatmapLevelDataLoader(GlobalNamespace::BeatmapCharacteristicCollection allBeatmapCharacteristicCollection) ;
+static GlobalNamespace::BeatmapLevelDataLoader New_ctor(GlobalNamespace::BeatmapCharacteristicCollection allBeatmapCharacteristicCollection) ;
 
 /// @brief Method .ctor addr 0x21df2ac size 0x120 virtual false final false
  void _ctor(GlobalNamespace::BeatmapCharacteristicCollection allBeatmapCharacteristicCollection) ;

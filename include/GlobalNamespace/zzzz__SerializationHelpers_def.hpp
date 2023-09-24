@@ -74,8 +74,7 @@ static T DeserializeDataFromFile(::StringW filePath) ;
 template<typename T>
 static void SerializeObjectToFile(::StringW filePath, T serializableObject) ;
 
-// Ctor Parameters []
-explicit SerializationHelpers() ;
+static GlobalNamespace::SerializationHelpers New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7ac68 size 0x8 virtual false final false
  void _ctor() ;

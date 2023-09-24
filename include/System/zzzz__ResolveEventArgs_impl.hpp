@@ -48,8 +48,10 @@ constexpr void System::ResolveEventArgs::__set__RequestingAssembly_k__BackingFie
 constexpr System::Reflection::Assembly System::ResolveEventArgs::__get__RequestingAssembly_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Reflection::Assembly, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::ResolveEventArgs::ResolveEventArgs(::StringW name)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<ResolveEventArgs>(name))) {}
+ System::ResolveEventArgs System::ResolveEventArgs::New_ctor(::StringW name)  {
+System::ResolveEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ResolveEventArgs>(name))};
+return o;
+}
  void System::ResolveEventArgs::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ResolveEventArgs>::get(),
@@ -59,8 +61,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "requestingAssembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }]
- System::ResolveEventArgs::ResolveEventArgs(::StringW name, System::Reflection::Assembly requestingAssembly)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<ResolveEventArgs>(name, requestingAssembly))) {}
+ System::ResolveEventArgs System::ResolveEventArgs::New_ctor(::StringW name, System::Reflection::Assembly requestingAssembly)  {
+System::ResolveEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ResolveEventArgs>(name, requestingAssembly))};
+return o;
+}
  void System::ResolveEventArgs::_ctor(::StringW name, System::Reflection::Assembly requestingAssembly)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ResolveEventArgs>::get(),

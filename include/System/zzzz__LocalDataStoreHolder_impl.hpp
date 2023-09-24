@@ -58,8 +58,10 @@ constexpr void System::LocalDataStoreHolder::__set_m_Store(System::LocalDataStor
 constexpr System::LocalDataStore System::LocalDataStoreHolder::__get_m_Store() const {
 return ::cordl_internals::getInstanceField<System::LocalDataStore, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "store", ty: "System::LocalDataStore", modifiers: "", def_value: None }]
- System::LocalDataStoreHolder::LocalDataStoreHolder(System::LocalDataStore store)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LocalDataStoreHolder>(store))) {}
+ System::LocalDataStoreHolder System::LocalDataStoreHolder::New_ctor(System::LocalDataStore store)  {
+System::LocalDataStoreHolder o{THROW_UNLESS(::il2cpp_utils::New<System::LocalDataStoreHolder>(store))};
+return o;
+}
  void System::LocalDataStoreHolder::_ctor(System::LocalDataStore store)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::LocalDataStoreHolder>::get(),

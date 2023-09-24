@@ -7,14 +7,17 @@
 namespace System::Runtime::Remoting {
 class IChannelInfo;
 }
+namespace System::Runtime::Remoting {
+class IRemotingTypeInfo;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System::Runtime::Remoting {
+class IEnvoyInfo;
+}
 namespace System::Runtime::Serialization {
 class IObjectReference;
-}
-namespace System::Runtime::Remoting {
-class IRemotingTypeInfo;
 }
 namespace System {
 class Type;
@@ -24,9 +27,6 @@ class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System::Runtime::Remoting {
-class IEnvoyInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -146,14 +146,12 @@ static int32_t __get_WellKnowObjectRef() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit ObjRef() ;
+static System::Runtime::Remoting::ObjRef New_ctor() ;
 
 /// @brief Method .ctor addr 0x231a7f8 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cinfo", ty: "System::Runtime::Remoting::IChannelInfo", modifiers: "", def_value: None }]
-explicit ObjRef(::StringW uri, System::Runtime::Remoting::IChannelInfo cinfo) ;
+static System::Runtime::Remoting::ObjRef New_ctor(::StringW uri, System::Runtime::Remoting::IChannelInfo cinfo) ;
 
 /// @brief Method .ctor addr 0x231a870 size 0x2c virtual false final false
  void _ctor(::StringW uri, System::Runtime::Remoting::IChannelInfo cinfo) ;
@@ -164,14 +162,12 @@ explicit ObjRef(::StringW uri, System::Runtime::Remoting::IChannelInfo cinfo) ;
 /// @brief Method SerializeType addr 0x231a9c8 size 0x7c virtual false final false
  ::ArrayW<uint8_t> SerializeType() ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "remoteChannelData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit ObjRef(System::Type type, ::StringW url, ::bs_hook::Il2CppWrapperType remoteChannelData) ;
+static System::Runtime::Remoting::ObjRef New_ctor(System::Type type, ::StringW url, ::bs_hook::Il2CppWrapperType remoteChannelData) ;
 
 /// @brief Method .ctor addr 0x231aa44 size 0x100 virtual false final false
  void _ctor(System::Type type, ::StringW url, ::bs_hook::Il2CppWrapperType remoteChannelData) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ObjRef(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::Remoting::ObjRef New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x231ab44 size 0x534 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

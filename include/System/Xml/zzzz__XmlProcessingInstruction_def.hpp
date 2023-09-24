@@ -3,10 +3,10 @@
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-struct XmlNodeType;
+class XmlDocument;
 }
 namespace System::Xml {
-class XmlDocument;
+struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlNode;
@@ -87,8 +87,7 @@ constexpr ::StringW __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "target", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlProcessingInstruction(::StringW target, ::StringW data, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlProcessingInstruction New_ctor(::StringW target, ::StringW data, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f95fc size 0x30 virtual false final false
  void _ctor(::StringW target, ::StringW data, System::Xml::XmlDocument doc) ;

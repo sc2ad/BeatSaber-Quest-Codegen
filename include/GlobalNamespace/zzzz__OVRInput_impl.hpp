@@ -4,14 +4,14 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "GlobalNamespace/zzzz__OVRInput_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Version_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "OVR/OpenVR/zzzz__ETrackedDeviceProperty_def.hpp"
+#include "System/zzzz__Version_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRInput__Button::GlobalNamespace__OVRInput__Button(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -479,8 +479,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRInput__HapticInfo::__set_nod
 constexpr UnityEngine::XR::XRNode GlobalNamespace::GlobalNamespace__OVRInput__HapticInfo::__get_node() const {
 return ::cordl_internals::getInstanceField<UnityEngine::XR::XRNode, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__HapticInfo::GlobalNamespace__OVRInput__HapticInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__HapticInfo>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__HapticInfo GlobalNamespace::GlobalNamespace__OVRInput__HapticInfo::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__HapticInfo o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__HapticInfo>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__HapticInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__HapticInfo>::get(),
@@ -731,8 +733,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__OVRInput__RawButton, false>(const_cast<void*>(instance), ___internal_method, virtualMask);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap::GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap>::get(),
@@ -863,8 +867,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__OVRInput__RawTouch, false>(const_cast<void*>(instance), ___internal_method, virtualMask);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap::GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap>::get(),
@@ -947,8 +953,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__OVRInput__RawNearTouch, false>(const_cast<void*>(instance), ___internal_method, virtualMask);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap::GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap>::get(),
@@ -1079,8 +1087,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__OVRInput__RawAxis1D, false>(const_cast<void*>(instance), ___internal_method, virtualMask);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap>::get(),
@@ -1163,8 +1173,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__OVRInput__RawAxis2D, false>(const_cast<void*>(instance), ___internal_method, virtualMask);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap>::get(),
@@ -1557,8 +1569,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase::__
 constexpr ::ArrayW<uint32_t> GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase::__get_HapticsPcmSamplesConsumedCache() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x110>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase::GlobalNamespace__OVRInput__OVRControllerBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerBase>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase>::get(),
@@ -1849,8 +1863,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Gl
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerTouch::GlobalNamespace__OVRInput__OVRControllerTouch()  : GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerTouch>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerTouch GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerTouch::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerTouch o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerTouch>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerTouch::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerTouch>::get(),
@@ -2033,8 +2049,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Gl
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLTouch::GlobalNamespace__OVRInput__OVRControllerLTouch()  : GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerLTouch>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLTouch GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLTouch::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLTouch o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLTouch>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLTouch::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLTouch>::get(),
@@ -2217,8 +2235,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Gl
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRTouch::GlobalNamespace__OVRInput__OVRControllerRTouch()  : GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerRTouch>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRTouch GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRTouch::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRTouch o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRTouch>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRTouch::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRTouch>::get(),
@@ -2401,8 +2421,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Gl
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerHands::GlobalNamespace__OVRInput__OVRControllerHands()  : GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerHands>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerHands GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerHands::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerHands o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerHands>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerHands::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerHands>::get(),
@@ -2585,8 +2607,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Gl
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLHand::GlobalNamespace__OVRInput__OVRControllerLHand()  : GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerLHand>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLHand GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLHand::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLHand o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLHand>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLHand::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLHand>::get(),
@@ -2769,8 +2793,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Gl
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRHand::GlobalNamespace__OVRInput__OVRControllerRHand()  : GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerRHand>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRHand GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRHand::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRHand o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRHand>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRHand::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRHand>::get(),
@@ -2936,8 +2962,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRemote::GlobalNamespace__OVRInput__OVRControllerRemote()  : GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerRemote>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRemote GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRemote::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRemote o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRemote>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRemote::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRemote>::get(),
@@ -3094,8 +3122,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadPC::GlobalNamespace__OVRInput__OVRControllerGamepadPC()  : GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerGamepadPC>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadPC GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadPC::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadPC o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadPC>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadPC::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadPC>::get(),
@@ -3252,8 +3282,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadAndroid::GlobalNamespace__OVRInput__OVRControllerGamepadAndroid()  : GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRInput__OVRControllerGamepadAndroid>())) {}
+ GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadAndroid GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadAndroid::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadAndroid o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadAndroid>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadAndroid::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadAndroid>::get(),

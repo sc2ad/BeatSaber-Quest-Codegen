@@ -1,9 +1,9 @@
 #pragma once
 #include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/Net/zzzz__SocketAddress_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 //  Writing Method size for method: LiteNetLib::NetConnectRequestPacket._ctor
 template<>
 
@@ -96,8 +96,10 @@ constexpr void LiteNetLib::NetConnectRequestPacket::__set_Data(LiteNetLib::Utils
 constexpr LiteNetLib::Utils::NetDataReader LiteNetLib::NetConnectRequestPacket::__get_Data() const {
 return ::cordl_internals::getInstanceField<LiteNetLib::Utils::NetDataReader, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "connectionTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "connectionNumber", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "targetAddress", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "data", ty: "LiteNetLib::Utils::NetDataReader", modifiers: "", def_value: None }]
- LiteNetLib::NetConnectRequestPacket::NetConnectRequestPacket(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetConnectRequestPacket>(connectionTime, connectionNumber, targetAddress, data))) {}
+ LiteNetLib::NetConnectRequestPacket LiteNetLib::NetConnectRequestPacket::New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader data)  {
+LiteNetLib::NetConnectRequestPacket o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetConnectRequestPacket>(connectionTime, connectionNumber, targetAddress, data))};
+return o;
+}
  void LiteNetLib::NetConnectRequestPacket::_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetConnectRequestPacket>::get(),

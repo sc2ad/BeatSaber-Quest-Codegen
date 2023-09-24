@@ -85,8 +85,7 @@ constexpr int32_t __get_m_WebRequestTimeout() const;
 /// @brief Method set_WebRequestTimeout addr 0x2a40adc size 0x8 virtual false final false
  void set_WebRequestTimeout(int32_t value) ;
 
-// Ctor Parameters []
-explicit ProviderLoadRequestOptions() ;
+static UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a40ae4 size 0x8 virtual false final false
  void _ctor() ;

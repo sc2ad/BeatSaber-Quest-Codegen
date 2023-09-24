@@ -4,39 +4,39 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections {
-class ArrayList;
-}
 namespace System::Net {
-class AutoWebProxyScriptEngine;
-}
-namespace System {
-class Uri;
+class IWebProxy;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Net {
 class ICredentials;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Net {
-class IWebProxy;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net {
+class AutoWebProxyScriptEngine;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Net {
@@ -156,14 +156,12 @@ constexpr System::Net::AutoWebProxyScriptEngine __get_m_ScriptEngine() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit WebProxy() ;
+static System::Net::WebProxy New_ctor() ;
 
 /// @brief Method .ctor addr 0x2825510 size 0x14 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "Address", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "BypassOnLocal", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "BypassList", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "Credentials", ty: "System::Net::ICredentials", modifiers: "", def_value: None }]
-explicit WebProxy(System::Uri Address, bool BypassOnLocal, ::ArrayW<::StringW> BypassList, System::Net::ICredentials Credentials) ;
+static System::Net::WebProxy New_ctor(System::Uri Address, bool BypassOnLocal, ::ArrayW<::StringW> BypassList, System::Net::ICredentials Credentials) ;
 
 /// @brief Method .ctor addr 0x2825524 size 0xb4 virtual false final false
  void _ctor(System::Uri Address, bool BypassOnLocal, ::ArrayW<::StringW> BypassList, System::Net::ICredentials Credentials) ;
@@ -198,8 +196,7 @@ explicit WebProxy(System::Uri Address, bool BypassOnLocal, ::ArrayW<::StringW> B
 /// @brief Method IsBypassedManual addr 0x2825c24 size 0xc8 virtual false final false
  bool IsBypassedManual(System::Uri host) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit WebProxy(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::WebProxy New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x28262d0 size 0x360 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
@@ -216,8 +213,7 @@ explicit WebProxy(System::Runtime::Serialization::SerializationInfo serializatio
 /// @brief Method CreateDefaultProxy addr 0x2826774 size 0x68 virtual false final false
 static System::Net::IWebProxy CreateDefaultProxy() ;
 
-// Ctor Parameters [CppParam { name: "enableAutoproxy", ty: "bool", modifiers: "", def_value: None }]
-explicit WebProxy(bool enableAutoproxy) ;
+static System::Net::WebProxy New_ctor(bool enableAutoproxy) ;
 
 /// @brief Method .ctor addr 0x28267dc size 0x30 virtual false final false
  void _ctor(bool enableAutoproxy) ;

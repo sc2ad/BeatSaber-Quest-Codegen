@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, panel);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::BlurEvent::BlurEvent()  : UnityEngine::UIElements::FocusEventBase_1<UnityEngine::UIElements::BlurEvent>(THROW_UNLESS(::il2cpp_utils::New<BlurEvent>())) {}
+ UnityEngine::UIElements::BlurEvent UnityEngine::UIElements::BlurEvent::New_ctor()  {
+UnityEngine::UIElements::BlurEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::BlurEvent>())};
+return o;
+}
  void UnityEngine::UIElements::BlurEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::BlurEvent>::get(),

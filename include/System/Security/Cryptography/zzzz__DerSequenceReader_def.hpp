@@ -6,14 +6,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-struct DateTime;
-}
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
 namespace System::Text {
 class Encoding;
+}
+namespace System::Security::Cryptography {
+class System__Security__Cryptography__DerSequenceReader____c;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Security::Cryptography {
+struct System__Security__Cryptography__DerSequenceReader__DerTag;
 }
 namespace System {
 template<typename TResult>
@@ -91,6 +97,8 @@ __BMPString = 30u,
 constexpr operator __System__Security__Cryptography__DerSequenceReader__DerTag_Unwrapped () const noexcept {
 return std::bit_cast<__System__Security__Cryptography__DerSequenceReader__DerTag_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields
@@ -219,8 +227,7 @@ static System::Func_1<System::Globalization::DateTimeFormatInfo> __get___9__51_0
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Security__Cryptography__DerSequenceReader____c() ;
+static System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x27e3304 size 0x8 virtual false final false
  void _ctor() ;
@@ -339,20 +346,17 @@ constexpr int32_t __get__ContentLength_k__BackingField() const;
 /// @brief Method set_ContentLength addr 0x27e1d44 size 0x8 virtual false final false
  void set_ContentLength(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerSequenceReader(::ArrayW<uint8_t> data) ;
+static System::Security::Cryptography::DerSequenceReader New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x27e1d4c size 0x24 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DerSequenceReader(::ArrayW<uint8_t> data, int32_t offset, int32_t length) ;
+static System::Security::Cryptography::DerSequenceReader New_ctor(::ArrayW<uint8_t> data, int32_t offset, int32_t length) ;
 
 /// @brief Method .ctor addr 0x27e1d70 size 0x14 virtual false final false
  void _ctor(::ArrayW<uint8_t> data, int32_t offset, int32_t length) ;
 
-// Ctor Parameters [CppParam { name: "tagToEat", ty: "System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader__DerTag", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DerSequenceReader(System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader__DerTag tagToEat, ::ArrayW<uint8_t> data, int32_t offset, int32_t length) ;
+static System::Security::Cryptography::DerSequenceReader New_ctor(System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader__DerTag tagToEat, ::ArrayW<uint8_t> data, int32_t offset, int32_t length) ;
 
 /// @brief Method .ctor addr 0x27e1d84 size 0xf4 virtual false final false
  void _ctor(System::Security::Cryptography::System__Security__Cryptography__DerSequenceReader__DerTag tagToEat, ::ArrayW<uint8_t> data, int32_t offset, int32_t length) ;

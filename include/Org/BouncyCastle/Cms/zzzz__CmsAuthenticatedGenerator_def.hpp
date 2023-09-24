@@ -50,14 +50,12 @@ constexpr explicit CmsAuthenticatedGenerator(void* ptr) noexcept : Org::BouncyCa
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsAuthenticatedGenerator() ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x114f5e0 size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit CmsAuthenticatedGenerator(Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedGenerator New_ctor(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x114f634 size 0x64 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom rand) ;

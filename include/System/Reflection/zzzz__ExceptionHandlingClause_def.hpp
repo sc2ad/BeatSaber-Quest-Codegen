@@ -100,8 +100,7 @@ constexpr int32_t __get_handler_length() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ExceptionHandlingClause() ;
+static System::Reflection::ExceptionHandlingClause New_ctor() ;
 
 /// @brief Method .ctor addr 0x2384804 size 0x8 virtual false final false
  void _ctor() ;

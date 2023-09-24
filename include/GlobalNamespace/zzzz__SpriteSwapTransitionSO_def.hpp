@@ -122,8 +122,7 @@ constexpr UnityEngine::Sprite __get__selectedAndHighlightedSprite() const;
 /// @brief Method get_selectedAndHighlightedSprite addr 0x212c284 size 0x8 virtual false final false
  UnityEngine::Sprite get_selectedAndHighlightedSprite() ;
 
-// Ctor Parameters []
-explicit SpriteSwapTransitionSO() ;
+static GlobalNamespace::SpriteSwapTransitionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x212c28c size 0x8 virtual false final false
  void _ctor() ;

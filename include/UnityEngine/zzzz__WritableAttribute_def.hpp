@@ -47,8 +47,7 @@ constexpr explicit WritableAttribute(void* ptr) noexcept : System::Attribute(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit WritableAttribute() ;
+static UnityEngine::WritableAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba0e90 size 0x8 virtual false final false
  void _ctor() ;

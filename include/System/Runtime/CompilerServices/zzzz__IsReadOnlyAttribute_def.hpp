@@ -47,8 +47,7 @@ constexpr explicit IsReadOnlyAttribute(void* ptr) noexcept : System::Attribute(p
 
 // Methods
 
-// Ctor Parameters []
-explicit IsReadOnlyAttribute() ;
+static System::Runtime::CompilerServices::IsReadOnlyAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236e0d8 size 0x8 virtual false final false
  void _ctor() ;

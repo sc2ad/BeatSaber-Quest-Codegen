@@ -150,8 +150,10 @@ constexpr void System::Reflection::SignatureArrayType::__set__isMultiDim(bool va
 constexpr bool System::Reflection::SignatureArrayType::__get__isMultiDim() const {
 return ::cordl_internals::getInstanceField<bool, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "elementType", ty: "System::Reflection::SignatureType", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isMultiDim", ty: "bool", modifiers: "", def_value: None }]
- System::Reflection::SignatureArrayType::SignatureArrayType(System::Reflection::SignatureType elementType, int32_t rank, bool isMultiDim)  : System::Reflection::SignatureHasElementType(THROW_UNLESS(::il2cpp_utils::New<SignatureArrayType>(elementType, rank, isMultiDim))) {}
+ System::Reflection::SignatureArrayType System::Reflection::SignatureArrayType::New_ctor(System::Reflection::SignatureType elementType, int32_t rank, bool isMultiDim)  {
+System::Reflection::SignatureArrayType o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::SignatureArrayType>(elementType, rank, isMultiDim))};
+return o;
+}
  void System::Reflection::SignatureArrayType::_ctor(System::Reflection::SignatureType elementType, int32_t rank, bool isMultiDim)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::SignatureArrayType>::get(),

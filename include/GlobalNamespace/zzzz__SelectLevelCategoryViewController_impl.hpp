@@ -5,10 +5,10 @@
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "HMUI/zzzz__IconSegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__SelectLevelCategoryViewController_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "HMUI/zzzz__IconSegmentedControl_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -58,8 +58,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewControll
 constexpr UnityEngine::Sprite GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo::__get_categoryIcon() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Sprite, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo>())) {}
+ GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo>::get(),
@@ -109,8 +111,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewControll
 constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory> GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0::__get_enabledLevelCategories() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0::GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0>())) {}
+ GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0 GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0>::get(),
@@ -198,8 +202,10 @@ return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::GlobalN
  System::Func_2<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo,GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory> GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c::__get___9__12_2()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo,GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory>, "<>9__12_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c::GlobalNamespace__SelectLevelCategoryViewController____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SelectLevelCategoryViewController____c>())) {}
+ GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c>::get(),
@@ -462,8 +468,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, segmentedControl, index);
 }
-// Ctor Parameters []
- GlobalNamespace::SelectLevelCategoryViewController::SelectLevelCategoryViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<SelectLevelCategoryViewController>())) {}
+ GlobalNamespace::SelectLevelCategoryViewController GlobalNamespace::SelectLevelCategoryViewController::New_ctor()  {
+GlobalNamespace::SelectLevelCategoryViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectLevelCategoryViewController>())};
+return o;
+}
  void GlobalNamespace::SelectLevelCategoryViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectLevelCategoryViewController>::get(),

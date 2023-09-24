@@ -62,8 +62,7 @@ constexpr float_t __get_m_Timeout() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "timeout", ty: "float_t", modifiers: "", def_value: None }]
-explicit WaitForRestartFinish(float_t timeout) ;
+static UnityEngine::XR::OpenXR::WaitForRestartFinish New_ctor(float_t timeout) ;
 
 /// @brief Method .ctor addr 0x2aeb974 size 0x34 virtual false final false
  void _ctor(float_t timeout) ;

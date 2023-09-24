@@ -1,24 +1,24 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace System::Net::Http {
-class HttpMessageHandler;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Net::Http {
-class HttpRequestMessage;
+class HttpMessageHandler;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Net::Http {
+class HttpRequestMessage;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -84,8 +84,7 @@ constexpr bool __get_disposeHandler() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "handler", ty: "System::Net::Http::HttpMessageHandler", modifiers: "", def_value: None }, CppParam { name: "disposeHandler", ty: "bool", modifiers: "", def_value: None }]
-explicit HttpMessageInvoker(System::Net::Http::HttpMessageHandler handler, bool disposeHandler) ;
+static System::Net::Http::HttpMessageInvoker New_ctor(System::Net::Http::HttpMessageHandler handler, bool disposeHandler) ;
 
 /// @brief Method .ctor addr 0x269f3a4 size 0x84 virtual false final false
  void _ctor(System::Net::Http::HttpMessageHandler handler, bool disposeHandler) ;

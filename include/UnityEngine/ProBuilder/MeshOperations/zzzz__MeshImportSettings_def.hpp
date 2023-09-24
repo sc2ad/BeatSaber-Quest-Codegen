@@ -100,8 +100,7 @@ constexpr float_t __get_m_SmoothingThreshold() const;
 /// @brief Method ToString addr 0x2a231f4 size 0xd8 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit MeshImportSettings() ;
+static UnityEngine::ProBuilder::MeshOperations::MeshImportSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a232cc size 0x18 virtual false final false
  void _ctor() ;

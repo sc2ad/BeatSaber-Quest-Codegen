@@ -51,14 +51,12 @@ constexpr explicit PkcsException(void* ptr) noexcept : System::Exception(ptr) {
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PkcsException(::StringW message) ;
+static Org::BouncyCastle::Pkcs::PkcsException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x105b084 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "underlying", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit PkcsException(::StringW message, System::Exception underlying) ;
+static Org::BouncyCastle::Pkcs::PkcsException New_ctor(::StringW message, System::Exception underlying) ;
 
 /// @brief Method .ctor addr 0x105abb4 size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception underlying) ;

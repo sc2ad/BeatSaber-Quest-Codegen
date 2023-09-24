@@ -2,17 +2,18 @@
 #include "System/Security/AccessControl/zzzz__GenericAcl_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAcl_def.hpp"
+#include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
 #include "System/Security/AccessControl/zzzz__RawAcl_def.hpp"
+#include "System/Security/AccessControl/zzzz__AceQualifier_def.hpp"
 #include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
-#include "System/Security/AccessControl/zzzz__AuditFlags_def.hpp"
+#include "System/Security/AccessControl/zzzz__CommonAcl_def.hpp"
+#include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
+#include "System/Security/AccessControl/zzzz__ObjectAce_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "System/Security/AccessControl/zzzz__QualifiedAce_def.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
-#include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/Security/AccessControl/zzzz__ObjectAce_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
-#include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
-#include "System/Security/AccessControl/zzzz__AceQualifier_def.hpp"
+#include "System/Security/AccessControl/zzzz__AuditFlags_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::CommonAcl._ctor
 template<>
 
@@ -502,8 +503,10 @@ constexpr void System::Security::AccessControl::CommonAcl::__set_raw_acl(System:
 constexpr System::Security::AccessControl::RawAcl System::Security::AccessControl::CommonAcl::__get_raw_acl() const {
 return ::cordl_internals::getInstanceField<System::Security::AccessControl::RawAcl, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDS", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::CommonAcl::CommonAcl(bool isContainer, bool isDS, uint8_t revision, int32_t capacity)  : System::Security::AccessControl::GenericAcl(THROW_UNLESS(::il2cpp_utils::New<CommonAcl>(isContainer, isDS, revision, capacity))) {}
+ System::Security::AccessControl::CommonAcl System::Security::AccessControl::CommonAcl::New_ctor(bool isContainer, bool isDS, uint8_t revision, int32_t capacity)  {
+System::Security::AccessControl::CommonAcl o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::CommonAcl>(isContainer, isDS, revision, capacity))};
+return o;
+}
  void System::Security::AccessControl::CommonAcl::_ctor(bool isContainer, bool isDS, uint8_t revision, int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::CommonAcl>::get(),
@@ -513,8 +516,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isContainer, isDS, revision, capacity);
 }
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDS", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::CommonAcl::CommonAcl(bool isContainer, bool isDS, int32_t capacity)  : System::Security::AccessControl::GenericAcl(THROW_UNLESS(::il2cpp_utils::New<CommonAcl>(isContainer, isDS, capacity))) {}
+ System::Security::AccessControl::CommonAcl System::Security::AccessControl::CommonAcl::New_ctor(bool isContainer, bool isDS, int32_t capacity)  {
+System::Security::AccessControl::CommonAcl o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::CommonAcl>(isContainer, isDS, capacity))};
+return o;
+}
  void System::Security::AccessControl::CommonAcl::_ctor(bool isContainer, bool isDS, int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::CommonAcl>::get(),
@@ -763,54 +768,22 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Security::AccessControl::AceFlags, false>(const_cast<void*>(instance), ___internal_method, inheritanceFlags, propagationFlags, auditFlags);
 }
-//  Writing Method size for method: System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1::*)(T)>(&System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1>(object, method))) {}
- void System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1<T> System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1<T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1<T> o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1<T>>(object, method))};
+return o;
+}
+ void System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1<T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1::Invoke(T ace)  {
+ bool System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1<T>::Invoke(T ace)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::System__Security__AccessControl__CommonAcl__RemoveAcesCallback_1<T>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}

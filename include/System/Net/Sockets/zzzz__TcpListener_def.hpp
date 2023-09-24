@@ -5,20 +5,20 @@
 namespace System::Net {
 class IPEndPoint;
 }
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
+namespace System::Net::Sockets {
+class Socket;
 }
 namespace System::Net {
 class IPAddress;
 }
+namespace System {
+class IAsyncResult;
+}
 namespace System::Net::Sockets {
 class TcpClient;
 }
-namespace System::Net::Sockets {
-class Socket;
+namespace System {
+class AsyncCallback;
 }
 namespace System::Net {
 class EndPoint;
@@ -101,8 +101,7 @@ constexpr bool __get_m_ExclusiveAddressUse() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "localaddr", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TcpListener(System::Net::IPAddress localaddr, int32_t port) ;
+static System::Net::Sockets::TcpListener New_ctor(System::Net::IPAddress localaddr, int32_t port) ;
 
 /// @brief Method .ctor addr 0x276ad50 size 0x1a0 virtual false final false
  void _ctor(System::Net::IPAddress localaddr, int32_t port) ;

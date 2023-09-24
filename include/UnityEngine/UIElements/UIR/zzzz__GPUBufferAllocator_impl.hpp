@@ -99,8 +99,10 @@ constexpr void UnityEngine::UIElements::UIR::GPUBufferAllocator::__set_m_High(Un
 constexpr UnityEngine::UIElements::UIR::BestFitAllocator UnityEngine::UIElements::UIR::GPUBufferAllocator::__get_m_High() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UIR::BestFitAllocator, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "maxSize", ty: "uint32_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UIR::GPUBufferAllocator::GPUBufferAllocator(uint32_t maxSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GPUBufferAllocator>(maxSize))) {}
+ UnityEngine::UIElements::UIR::GPUBufferAllocator UnityEngine::UIElements::UIR::GPUBufferAllocator::New_ctor(uint32_t maxSize)  {
+UnityEngine::UIElements::UIR::GPUBufferAllocator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::GPUBufferAllocator>(maxSize))};
+return o;
+}
  void UnityEngine::UIElements::UIR::GPUBufferAllocator::_ctor(uint32_t maxSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::GPUBufferAllocator>::get(),

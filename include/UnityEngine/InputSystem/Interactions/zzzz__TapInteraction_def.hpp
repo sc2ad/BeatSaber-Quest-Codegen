@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
+struct InputInteractionContext;
 }
 namespace UnityEngine::InputSystem {
-struct InputInteractionContext;
+class IInputInteraction;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Interactions {
@@ -103,8 +103,7 @@ constexpr double_t __get_m_TapStartTime() const;
 /// @brief Method Reset addr 0x297ab68 size 0x8 virtual true final true
  void Reset() ;
 
-// Ctor Parameters []
-explicit TapInteraction() ;
+static UnityEngine::InputSystem::Interactions::TapInteraction New_ctor() ;
 
 /// @brief Method .ctor addr 0x297ab70 size 0x8 virtual false final false
  void _ctor() ;

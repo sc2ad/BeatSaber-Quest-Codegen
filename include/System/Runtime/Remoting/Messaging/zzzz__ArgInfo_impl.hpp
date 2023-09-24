@@ -54,8 +54,10 @@ constexpr void System::Runtime::Remoting::Messaging::ArgInfo::__set__method(Syst
 constexpr System::Reflection::MethodBase System::Runtime::Remoting::Messaging::ArgInfo::__get__method() const {
 return ::cordl_internals::getInstanceField<System::Reflection::MethodBase, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "method", ty: "System::Reflection::MethodBase", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Runtime::Remoting::Messaging::ArgInfoType", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::ArgInfo::ArgInfo(System::Reflection::MethodBase method, System::Runtime::Remoting::Messaging::ArgInfoType type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ArgInfo>(method, type))) {}
+ System::Runtime::Remoting::Messaging::ArgInfo System::Runtime::Remoting::Messaging::ArgInfo::New_ctor(System::Reflection::MethodBase method, System::Runtime::Remoting::Messaging::ArgInfoType type)  {
+System::Runtime::Remoting::Messaging::ArgInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ArgInfo>(method, type))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ArgInfo::_ctor(System::Reflection::MethodBase method, System::Runtime::Remoting::Messaging::ArgInfoType type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ArgInfo>::get(),

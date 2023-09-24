@@ -47,8 +47,7 @@ constexpr explicit NonVersionableAttribute(void* ptr) noexcept : System::Attribu
 
 // Methods
 
-// Ctor Parameters []
-explicit NonVersionableAttribute() ;
+static System::Runtime::Versioning::NonVersionableAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x234814c size 0x8 virtual false final false
  void _ctor() ;

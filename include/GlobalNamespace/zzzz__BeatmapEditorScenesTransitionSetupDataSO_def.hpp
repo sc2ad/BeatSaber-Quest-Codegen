@@ -89,8 +89,7 @@ constexpr bool __get__goStraightToEditor_k__BackingField() const;
 /// @brief Method Finish addr 0x21cfeb4 size 0x20 virtual false final false
  void Finish() ;
 
-// Ctor Parameters []
-explicit BeatmapEditorScenesTransitionSetupDataSO() ;
+static GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21cfed4 size 0x8 virtual false final false
  void _ctor() ;

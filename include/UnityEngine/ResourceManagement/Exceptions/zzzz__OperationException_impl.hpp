@@ -36,8 +36,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::ResourceManagement::Exceptions::OperationException::OperationException(::StringW message, System::Exception innerException)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<OperationException>(message, innerException))) {}
+/// @param innerException: System::Exception (default: csnull)
+ UnityEngine::ResourceManagement::Exceptions::OperationException UnityEngine::ResourceManagement::Exceptions::OperationException::New_ctor(::StringW message, System::Exception innerException)  {
+UnityEngine::ResourceManagement::Exceptions::OperationException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Exceptions::OperationException>(message, innerException))};
+return o;
+}
 /// @param innerException: System::Exception (default: csnull)
  void UnityEngine::ResourceManagement::Exceptions::OperationException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

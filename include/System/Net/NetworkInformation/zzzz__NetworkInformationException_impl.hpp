@@ -1,8 +1,8 @@
 #pragma once
 #include "System/ComponentModel/zzzz__Win32Exception_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInformationException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::NetworkInformationException._ctor
 template<>
 
@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::NetworkInformation::NetworkInformationException::NetworkInformationException()  : System::ComponentModel::Win32Exception(THROW_UNLESS(::il2cpp_utils::New<NetworkInformationException>())) {}
+ System::Net::NetworkInformation::NetworkInformationException System::Net::NetworkInformation::NetworkInformationException::New_ctor()  {
+System::Net::NetworkInformation::NetworkInformationException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::NetworkInformationException>())};
+return o;
+}
  void System::Net::NetworkInformation::NetworkInformationException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::NetworkInformationException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::NetworkInformation::NetworkInformationException::NetworkInformationException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::ComponentModel::Win32Exception(THROW_UNLESS(::il2cpp_utils::New<NetworkInformationException>(serializationInfo, streamingContext))) {}
+ System::Net::NetworkInformation::NetworkInformationException System::Net::NetworkInformation::NetworkInformationException::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::NetworkInformation::NetworkInformationException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::NetworkInformationException>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::NetworkInformation::NetworkInformationException::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::NetworkInformationException>::get(),

@@ -4,7 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine::ProBuilder {
-class Vertex;
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -14,15 +17,12 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -115,8 +115,7 @@ static void Apply(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBu
 /// @brief Method Apply addr 0x29ae538 size 0x590 virtual false final false
 static void Apply(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::FaceRebuildData> newFaces, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex> vertices, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face> faces, System::Collections::Generic::Dictionary_2<int32_t,int32_t> sharedVertexLookup, System::Collections::Generic::Dictionary_2<int32_t,int32_t> sharedTextureLookup) ;
 
-// Ctor Parameters []
-explicit FaceRebuildData() ;
+static UnityEngine::ProBuilder::FaceRebuildData New_ctor() ;
 
 /// @brief Method .ctor addr 0x29aeac8 size 0x8 virtual false final false
  void _ctor() ;

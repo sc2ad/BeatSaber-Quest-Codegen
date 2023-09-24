@@ -63,8 +63,7 @@ constexpr explicit ListFacetsChecker(void* ptr) noexcept : System::Xml::Schema::
 /// @brief Method MatchEnumeration addr 0x272fef0 size 0xb4 virtual true final false
  bool MatchEnumeration(::bs_hook::Il2CppWrapperType value, System::Collections::ArrayList enumeration, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
-// Ctor Parameters []
-explicit ListFacetsChecker() ;
+static System::Xml::Schema::ListFacetsChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x272ffa4 size 0x8 virtual false final false
  void _ctor() ;

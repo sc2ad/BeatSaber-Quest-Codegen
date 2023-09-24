@@ -51,20 +51,17 @@ constexpr explicit CmsException(void* ptr) noexcept : System::Exception(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsException() ;
+static Org::BouncyCastle::Cms::CmsException New_ctor() ;
 
 /// @brief Method .ctor addr 0x114e07c size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CmsException(::StringW msg) ;
+static Org::BouncyCastle::Cms::CmsException New_ctor(::StringW msg) ;
 
 /// @brief Method .ctor addr 0x114e0d4 size 0x68 virtual false final false
  void _ctor(::StringW msg) ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit CmsException(::StringW msg, System::Exception e) ;
+static Org::BouncyCastle::Cms::CmsException New_ctor(::StringW msg, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x114e13c size 0x70 virtual false final false
  void _ctor(::StringW msg, System::Exception e) ;

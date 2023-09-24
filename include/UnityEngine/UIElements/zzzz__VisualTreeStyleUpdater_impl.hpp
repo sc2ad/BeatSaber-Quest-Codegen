@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeStyleUpdater_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualTreeStyleUpdaterTraversal_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualTreeStyleUpdaterTraversal_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::VisualTreeStyleUpdater.get_profilerMarker
 template<>
 
@@ -175,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::VisualTreeStyleUpdater::VisualTreeStyleUpdater()  : UnityEngine::UIElements::BaseVisualTreeUpdater(THROW_UNLESS(::il2cpp_utils::New<VisualTreeStyleUpdater>())) {}
+ UnityEngine::UIElements::VisualTreeStyleUpdater UnityEngine::UIElements::VisualTreeStyleUpdater::New_ctor()  {
+UnityEngine::UIElements::VisualTreeStyleUpdater o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualTreeStyleUpdater>())};
+return o;
+}
  void UnityEngine::UIElements::VisualTreeStyleUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualTreeStyleUpdater>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5ActivityIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__CompetetiveActivitySO_def.hpp"
 #include "GlobalNamespace/zzzz__ProgressActivitySO_def.hpp"
+#include "GlobalNamespace/zzzz__CompetetiveActivitySO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PS5ActivityIdsModelSO.get_progressActivities
 template<>
 
@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::CompetetiveActivitySO>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PS5ActivityIdsModelSO::PS5ActivityIdsModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<PS5ActivityIdsModelSO>())) {}
+ GlobalNamespace::PS5ActivityIdsModelSO GlobalNamespace::PS5ActivityIdsModelSO::New_ctor()  {
+GlobalNamespace::PS5ActivityIdsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS5ActivityIdsModelSO>())};
+return o;
+}
  void GlobalNamespace::PS5ActivityIdsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS5ActivityIdsModelSO>::get(),

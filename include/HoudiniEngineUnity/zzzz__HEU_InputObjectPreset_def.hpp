@@ -90,8 +90,7 @@ constexpr UnityEngine::Vector3 __get__scaleOffset() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_InputObjectPreset() ;
+static HoudiniEngineUnity::HEU_InputObjectPreset New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdaf34 size 0xa8 virtual false final false
  void _ctor() ;

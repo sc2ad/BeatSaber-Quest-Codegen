@@ -3,11 +3,11 @@
 #include "HMUI/zzzz__HoverHint_def.hpp"
 #include "Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Polyglot {
-struct LanguageDirection;
-}
 namespace HMUI {
 class HoverHint;
+}
+namespace Polyglot {
+struct LanguageDirection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -16,7 +16,7 @@ class LocalizedHoverHint;
 // Type: ::LocalizedHoverHint
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15541), inst: 4316 }), TypeDefinitionIndex(TypeDefinitionIndex(13585)), TypeDefinitionIndex(TypeDefinitionIndex(15541))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15541), inst: 4316 }), TypeDefinitionIndex(TypeDefinitionIndex(15541)), TypeDefinitionIndex(TypeDefinitionIndex(13585))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5623))
 // CS Name: LocalizedHoverHint
 class CORDL_TYPE LocalizedHoverHint : public Polyglot::LocalizedTextComponent_1<HMUI::HoverHint> {
@@ -61,8 +61,7 @@ constexpr explicit LocalizedHoverHint(void* ptr) noexcept : Polyglot::LocalizedT
 /// @brief Method UpdateAlignment addr 0x21470dc size 0x4 virtual true final false
  void UpdateAlignment(HMUI::HoverHint hoverHint, Polyglot::LanguageDirection direction) ;
 
-// Ctor Parameters []
-explicit LocalizedHoverHint() ;
+static GlobalNamespace::LocalizedHoverHint New_ctor() ;
 
 /// @brief Method .ctor addr 0x21470e0 size 0x48 virtual false final false
  void _ctor() ;

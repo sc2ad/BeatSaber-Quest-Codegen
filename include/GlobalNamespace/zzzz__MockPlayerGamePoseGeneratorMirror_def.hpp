@@ -4,37 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteMissInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class MockBeatmapData;
-}
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class StandardScoreSyncStateNetSerializable;
+class NodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class NodePoseSyncStateManager;
+class StandardScoreSyncStateNetSerializable;
+}
+namespace GlobalNamespace {
+class ObstacleSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class NoteCutInfoNetSerializable;
 }
 namespace System {
 class Action;
@@ -43,7 +28,22 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
+class NoteSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
+class NoteMissInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class MockBeatmapData;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -112,8 +112,7 @@ constexpr System::Action __get__onSongFinished() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nodePoseSyncStateManager", ty: "GlobalNamespace::NodePoseSyncStateManager", modifiers: "", def_value: None }]
-explicit MockPlayerGamePoseGeneratorMirror(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
+static GlobalNamespace::MockPlayerGamePoseGeneratorMirror New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
 
 /// @brief Method .ctor addr 0x20ed980 size 0x5a4 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;

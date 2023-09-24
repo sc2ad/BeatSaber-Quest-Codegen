@@ -2,8 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ShowHideAnimationController_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__ShowHideAnimationController_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9._ctor
 template<>
@@ -143,8 +144,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ShowHideAnimationController___D
 constexpr GlobalNamespace::ShowHideAnimationController GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ShowHideAnimationController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9 GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ShowHideAnimationController___DeactivateSelfAfterDelayCoroutine_d__9>::get(),
@@ -350,8 +353,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, delay);
 }
-// Ctor Parameters []
- GlobalNamespace::ShowHideAnimationController::ShowHideAnimationController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ShowHideAnimationController>())) {}
+ GlobalNamespace::ShowHideAnimationController GlobalNamespace::ShowHideAnimationController::New_ctor()  {
+GlobalNamespace::ShowHideAnimationController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ShowHideAnimationController>())};
+return o;
+}
  void GlobalNamespace::ShowHideAnimationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ShowHideAnimationController>::get(),

@@ -4,7 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-struct TypeValuePair;
+class BindInfo;
+}
+namespace Zenject {
+template<typename TContract>
+class FactoryToChoiceBinder_1;
 }
 namespace Zenject {
 class DiContainer;
@@ -17,11 +21,7 @@ template<typename T>
 class IEnumerable_1;
 }
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-template<typename TContract>
-class FactoryToChoiceBinder_1;
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,7 +38,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10790), inst: 1823 }), TypeDefinitionIndex(TypeDefinitionIndex(10645)), TypeDefinitionIndex(TypeDefinitionIndex(10790))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10645)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10790), inst: 1823 }), TypeDefinitionIndex(TypeDefinitionIndex(10790))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10645), inst: 2 })
 // CS Name: Zenject.FactoryArgumentsToChoiceBinder`1
 class CORDL_TYPE FactoryArgumentsToChoiceBinder_1<TContract> : public Zenject::FactoryToChoiceBinder_1<TContract> {
@@ -77,8 +77,7 @@ constexpr explicit FactoryArgumentsToChoiceBinder_1(void* ptr) noexcept : Zenjec
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryArgumentsToChoiceBinder_1(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::FactoryArgumentsToChoiceBinder_1<TContract> New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

@@ -4,12 +4,12 @@
 namespace System::Threading {
 struct CancellationToken;
 }
+namespace GlobalNamespace {
+class IQuickPlaySetupModel;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
-}
-namespace GlobalNamespace {
-class IQuickPlaySetupModel;
 }
 namespace GlobalNamespace {
 class QuickPlaySetupData;
@@ -75,8 +75,7 @@ constexpr GlobalNamespace::QuickPlaySetupData __get__quickPlaySetupData() const;
 /// @brief Method GetQuickPlaySetupAsync addr 0x20efa0c size 0x70 virtual true final true
  System::Threading::Tasks::Task_1<GlobalNamespace::QuickPlaySetupData> GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters []
-explicit MockQuickPlaySetupModel() ;
+static GlobalNamespace::MockQuickPlaySetupModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20efa7c size 0x8 virtual false final false
  void _ctor() ;

@@ -8,12 +8,12 @@
 namespace Zenject {
 class InjectTypeInfo;
 }
+namespace System {
+class Type;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -22,7 +22,7 @@ class ExecutionOrderInstaller;
 // Type: Zenject::ExecutionOrderInstaller
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 1612 }), TypeDefinitionIndex(TypeDefinitionIndex(3828)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11074), inst: 3769 }), TypeDefinitionIndex(TypeDefinitionIndex(11074)), TypeDefinitionIndex(TypeDefinitionIndex(2493))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2493)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11074), inst: 3769 }), TypeDefinitionIndex(TypeDefinitionIndex(11074)), TypeDefinitionIndex(TypeDefinitionIndex(3828)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 1612 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11293))
 // CS Name: Zenject.ExecutionOrderInstaller
 class CORDL_TYPE ExecutionOrderInstaller : public Zenject::Installer_2<System::Collections::Generic::List_1<System::Type>,Zenject::ExecutionOrderInstaller> {
@@ -70,8 +70,7 @@ constexpr System::Collections::Generic::List_1<System::Type> __get__typeOrder() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeOrder", ty: "System::Collections::Generic::List_1<System::Type>", modifiers: "", def_value: None }]
-explicit ExecutionOrderInstaller(System::Collections::Generic::List_1<System::Type> typeOrder) ;
+static Zenject::ExecutionOrderInstaller New_ctor(System::Collections::Generic::List_1<System::Type> typeOrder) ;
 
 /// @brief Method .ctor addr 0x2da4b6c size 0x5c virtual false final false
  void _ctor(System::Collections::Generic::List_1<System::Type> typeOrder) ;

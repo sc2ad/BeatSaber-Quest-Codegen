@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
+#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/XR/zzzz__InputDeviceCharacteristics_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -54,8 +55,10 @@ constexpr void UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Featu
 constexpr System::Collections::Generic::List_1<::StringW> UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding::__get_userPaths() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<::StringW>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding>())) {}
+ UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding>::get(),
@@ -112,8 +115,10 @@ constexpr void UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Featu
 constexpr System::Collections::Generic::List_1<::StringW> UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig::__get_usages() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<::StringW>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig>())) {}
+ UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig>::get(),
@@ -152,8 +157,10 @@ constexpr void UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Featu
 constexpr ::StringW UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig::__get_userPath() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig>())) {}
+ UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig>::get(),
@@ -222,8 +229,10 @@ constexpr void UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Featu
 constexpr ::StringW UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig::__get_serialNumber() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig>())) {}
+ UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig>::get(),
@@ -464,8 +473,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature::OpenXRInteractionFeature()  : UnityEngine::XR::OpenXR::Features::OpenXRFeature(THROW_UNLESS(::il2cpp_utils::New<OpenXRInteractionFeature>())) {}
+ UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature>::get(),

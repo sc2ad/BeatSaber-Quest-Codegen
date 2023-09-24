@@ -7,56 +7,59 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine::TextCore {
-struct FaceInfo;
-}
-namespace UnityEngine::TextCore {
-class Glyph;
+namespace UnityEngine::TextCore::Text {
+class Character;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphRenderMode;
 }
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontAssetCreationEditorSettings;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontWeightPair;
-}
-namespace UnityEngine::TextCore::Text {
-class Character;
+namespace UnityEngine::TextCore::LowLevel {
+struct FontEngineError;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class HashSet_1;
+class List_1;
 }
-namespace Unity::Profiling {
-struct ProfilerMarker;
+namespace UnityEngine::TextCore {
+class Glyph;
 }
 namespace UnityEngine::TextCore::Text {
-struct AtlasPopulationMode;
+class UnityEngine__TextCore__Text__FontAsset____c;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::TextCore::Text {
-class FontFeatureTable;
+struct AtlasPopulationMode;
 }
-namespace UnityEngine::TextCore::LowLevel {
-struct FontEngineError;
+namespace UnityEngine::TextCore::Text {
+class FontFeatureTable;
 }
 namespace UnityEngine::TextCore {
 struct GlyphRect;
+}
+namespace UnityEngine::TextCore {
+struct FaceInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct FontWeightPair;
+}
+namespace UnityEngine::TextCore::Text {
+struct FontAssetCreationEditorSettings;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -132,8 +135,7 @@ static System::Func_2<UnityEngine::TextCore::Glyph,uint32_t> __get___9__145_0() 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__TextCore__Text__FontAsset____c() ;
+static UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontAsset____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bc8668 size 0x8 virtual false final false
  void _ctor() ;
@@ -937,8 +939,7 @@ template<typename T>
 /// @brief Method DestroyAtlasTextures addr 0x2bc1b04 size 0xc4 virtual false final false
  void DestroyAtlasTextures() ;
 
-// Ctor Parameters []
-explicit FontAsset() ;
+static UnityEngine::TextCore::Text::FontAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bc8054 size 0x2a8 virtual false final false
  void _ctor() ;

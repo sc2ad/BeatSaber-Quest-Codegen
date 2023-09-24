@@ -4,8 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading {
-struct CancellationToken;
+namespace UnityEngine {
+class AudioClip;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MediaAsyncLoader___LoadWebpage_d__0;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 class IMediaAsyncLoader;
@@ -14,30 +20,36 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+struct GlobalNamespace__MediaAsyncLoader___LoadTextureAsync_d__2;
 }
 namespace UnityEngine {
 class Texture2D;
 }
-namespace UnityEngine {
-class Sprite;
+namespace GlobalNamespace {
+struct GlobalNamespace__MediaAsyncLoader___LoadSpriteAsync_d__3;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct TaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 namespace UnityEngine {
 class AsyncOperation;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -521,8 +533,7 @@ static System::Threading::Tasks::Task_1<UnityEngine::Sprite> LoadSpriteAsync(::S
 /// @brief Method Log addr 0x21a215c size 0x58 virtual false final false
 static void Log(::StringW message) ;
 
-// Ctor Parameters []
-explicit MediaAsyncLoader() ;
+static GlobalNamespace::MediaAsyncLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a21b4 size 0x8 virtual false final false
  void _ctor() ;

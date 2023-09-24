@@ -9,7 +9,7 @@ class HEU_ReloadDataEvent;
 // Type: HoudiniEngineUnity::HEU_ReloadDataEvent
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5065 }), TypeDefinitionIndex(TypeDefinitionIndex(9537))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5065 }), TypeDefinitionIndex(TypeDefinitionIndex(10401)), TypeDefinitionIndex(TypeDefinitionIndex(9537))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9542))
 // CS Name: HoudiniEngineUnity.HEU_ReloadDataEvent
 class CORDL_TYPE HEU_ReloadDataEvent : public UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_ReloadEventData> {
@@ -48,8 +48,7 @@ constexpr explicit HEU_ReloadDataEvent(void* ptr) noexcept : UnityEngine::Events
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_ReloadDataEvent() ;
+static HoudiniEngineUnity::HEU_ReloadDataEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdab7c size 0x48 virtual false final false
  void _ctor() ;

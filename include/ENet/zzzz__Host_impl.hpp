@@ -1,13 +1,13 @@
 #pragma once
 #include "ENet/zzzz__Host_def.hpp"
+#include "ENet/zzzz__Packet_def.hpp"
+#include "ENet/zzzz__Address_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "ENet/zzzz__ChecksumCallback_def.hpp"
 #include "ENet/zzzz__InterceptCallback_def.hpp"
-#include "ENet/zzzz__Packet_def.hpp"
-#include "ENet/zzzz__SslConfiguration_def.hpp"
 #include "ENet/zzzz__Event_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "ENet/zzzz__Address_def.hpp"
 #include "ENet/zzzz__Peer_def.hpp"
+#include "ENet/zzzz__SslConfiguration_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ENet::Host.get_NativeData
 template<>
@@ -849,8 +849,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- ENet::Host::Host()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Host>())) {}
+ ENet::Host ENet::Host::New_ctor()  {
+ENet::Host o{THROW_UNLESS(::il2cpp_utils::New<ENet::Host>())};
+return o;
+}
  void ENet::Host::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ENet::Host>::get(),

@@ -3,18 +3,18 @@
 #include "UnityEngine/XR/Management/zzzz__XRLoader_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 class ISubsystem;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace System {
 class Type;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::XR::Management {
@@ -102,8 +102,7 @@ template<typename TDescriptor,typename TSubsystem>
 /// @brief Method Deinitialize addr 0x2addb98 size 0x58 virtual true final false
  bool Deinitialize() ;
 
-// Ctor Parameters []
-explicit XRLoaderHelper() ;
+static UnityEngine::XR::Management::XRLoaderHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x2addbf0 size 0x7c virtual false final false
  void _ctor() ;

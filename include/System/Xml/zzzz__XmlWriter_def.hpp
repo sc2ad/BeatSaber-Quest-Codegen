@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::IO {
 class Stream;
 }
 namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System::Xml {
 struct WriteState;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::IO {
 class TextWriter;
+}
+namespace System::Xml {
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -169,8 +169,7 @@ static System::Xml::XmlWriter Create(System::IO::Stream output, System::Xml::Xml
 /// @brief Method Create addr 0x26ed168 size 0x68 virtual false final false
 static System::Xml::XmlWriter Create(System::IO::TextWriter output, System::Xml::XmlWriterSettings settings) ;
 
-// Ctor Parameters []
-explicit XmlWriter() ;
+static System::Xml::XmlWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x26e5550 size 0x8 virtual false final false
  void _ctor() ;

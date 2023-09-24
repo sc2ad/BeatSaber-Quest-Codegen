@@ -3,15 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class LowLevelDictionary_2;
+}
 namespace System::Threading::Tasks {
 struct CausalityRelation;
 }
 namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class LowLevelDictionary_2;
+struct CausalitySynchronousWork;
 }
 namespace System::Threading::Tasks {
 struct CausalityTraceLevel;
@@ -20,7 +20,7 @@ namespace Internal::Runtime::Augments {
 struct AsyncStatus;
 }
 namespace System::Threading::Tasks {
-struct CausalitySynchronousWork;
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

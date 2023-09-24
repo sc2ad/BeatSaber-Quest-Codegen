@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::ComponentModel {
-class IExtenderProvider;
+class PropertyDescriptor;
 }
 namespace System::ComponentModel {
-class PropertyDescriptor;
+class IExtenderProvider;
 }
 namespace System {
 class Type;
@@ -91,8 +91,7 @@ constexpr System::Type __get__ReceiverType_k__BackingField() const;
 /// @brief Method Create addr 0x277d964 size 0x78 virtual false final false
 static System::ComponentModel::ExtenderProvidedPropertyAttribute Create(System::ComponentModel::PropertyDescriptor extenderProperty, System::Type receiverType, System::ComponentModel::IExtenderProvider provider) ;
 
-// Ctor Parameters []
-explicit ExtenderProvidedPropertyAttribute() ;
+static System::ComponentModel::ExtenderProvidedPropertyAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x277ddc4 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,41 +1,42 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolver_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonISerializableContract_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonStringContract_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonObjectContract_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
-#include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
-#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonArrayContract_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonPropertyCollection_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonLinqContract_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonPrimitiveContract_def.hpp"
+#include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolver_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__SerializationCallback_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IContractResolver_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonISerializableContract_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonLinqContract_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__SerializationErrorCallback_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolverState_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IContractResolver_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__SerializationCallback_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonDictionaryContract_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolverState_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonArrayContract_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonStringContract_def.hpp"
+#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonPropertyCollection_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonObjectContract_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__MethodCall_2_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c._ctor
 template<>
@@ -198,8 +199,10 @@ return ::cordl_internals::getStaticField<System::Func_2<System::Reflection::Cons
  System::Func_2<Newtonsoft::Json::Serialization::JsonProperty,int32_t> Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c::__get___9__60_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<Newtonsoft::Json::Serialization::JsonProperty,int32_t>, "<>9__60_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c>::get>();
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c::Newtonsoft__Json__Serialization__DefaultContractResolver____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__DefaultContractResolver____c>())) {}
+ Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c::New_ctor()  {
+Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c>::get(),
@@ -292,8 +295,10 @@ constexpr void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization_
 constexpr System::Reflection::MemberInfo Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0::__get_member() const {
 return ::cordl_internals::getInstanceField<System::Reflection::MemberInfo, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0>())) {}
+ Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0 Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0::New_ctor()  {
+Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0>::get(),
@@ -361,8 +366,10 @@ constexpr void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization_
 constexpr Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0 Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1::__get_CS$__8__locals1() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1>())) {}
+ Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1 Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1::New_ctor()  {
+Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1>::get(),
@@ -427,8 +434,10 @@ constexpr void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization_
 constexpr Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0 Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2::__get_CS$__8__locals2() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2>())) {}
+ Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2 Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2::New_ctor()  {
+Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2>::get(),
@@ -487,8 +496,10 @@ constexpr void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization_
 constexpr Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0::__get_shouldSerializeCall() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0>())) {}
+ Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0 Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0::New_ctor()  {
+Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0>::get(),
@@ -547,8 +558,10 @@ constexpr void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization_
 constexpr System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0::__get_specifiedPropertyGet() const {
 return ::cordl_internals::getInstanceField<System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0>())) {}
+ Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0 Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0::New_ctor()  {
+Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0>::get(),
@@ -1605,8 +1618,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::DefaultContractResolver::DefaultContractResolver()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultContractResolver>())) {}
+ Newtonsoft::Json::Serialization::DefaultContractResolver Newtonsoft::Json::Serialization::DefaultContractResolver::New_ctor()  {
+Newtonsoft::Json::Serialization::DefaultContractResolver o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::DefaultContractResolver>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::DefaultContractResolver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::DefaultContractResolver>::get(),
@@ -1616,8 +1631,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "shareCache", ty: "bool", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::DefaultContractResolver::DefaultContractResolver(bool shareCache)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultContractResolver>(shareCache))) {}
+ Newtonsoft::Json::Serialization::DefaultContractResolver Newtonsoft::Json::Serialization::DefaultContractResolver::New_ctor(bool shareCache)  {
+Newtonsoft::Json::Serialization::DefaultContractResolver o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::DefaultContractResolver>(shareCache))};
+return o;
+}
  void Newtonsoft::Json::Serialization::DefaultContractResolver::_ctor(bool shareCache)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::DefaultContractResolver>::get(),
@@ -1987,314 +2004,148 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, propertyName);
 }
-//  Writing Method size for method: GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::*)(int32_t)>(&GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2.System_IDisposable_Dispose
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::*)()>(&GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
-                            "System.IDisposable.Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2.MoveNext
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::*)()>(&GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::MoveNext)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
-                            "MoveNext",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2.__m__Finally1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::*)()>(&GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::__m__Finally1)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
-                            "<>m__Finally1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2.System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_Object,System_Object___get_Current
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> (GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::*)()>(&GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_Object,System_Object___get_Current)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
-                            "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>.get_Current",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2.System_Collections_IEnumerator_Reset
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::*)()>(&GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::System_Collections_IEnumerator_Reset)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
-                            "System.Collections.IEnumerator.Reset",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2.System_Collections_IEnumerator_get_Current
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::Il2CppWrapperType (GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::*)()>(&GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
-                            "System.Collections.IEnumerator.get_Current",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
 /// @brief Convert operator to System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>>
-constexpr  GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>>() const noexcept {
+constexpr  GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>>() const noexcept {
 return System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>>(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to System::IDisposable
-constexpr  GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::operator System::IDisposable() const noexcept {
+constexpr  GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::operator System::IDisposable() const noexcept {
 return System::IDisposable(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to System::Collections::IEnumerator
-constexpr  GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::operator System::Collections::IEnumerator() const noexcept {
+constexpr  GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::operator System::Collections::IEnumerator() const noexcept {
 return System::Collections::IEnumerator(::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::__set___1__state(int32_t value)  {
+constexpr void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::__set___1__state(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }
-constexpr int32_t GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::__get___1__state() const {
+constexpr int32_t GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::__get___1__state() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::__set___2__current(System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> value)  {
+constexpr void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::__set___2__current(System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> value)  {
 ::cordl_internals::setInstanceField<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>>(value));
 }
-constexpr System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::__get___2__current() const {
+constexpr System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::__get___2__current() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::__set___4__this(Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue> value)  {
+constexpr void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::__set___4__this(Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue> value)  {
 ::cordl_internals::setInstanceField<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>>(value));
 }
-constexpr Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue> GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::__get___4__this() const {
+constexpr Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue> GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::__set___7__wrap1(System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> value)  {
+constexpr void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::__set___7__wrap1(System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> value)  {
 ::cordl_internals::setInstanceField<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>>(value));
 }
-constexpr System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::__get___7__wrap1() const {
+constexpr System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>(__1__state))) {}
- void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::_ctor(int32_t __1__state)  {
+ GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue> GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::New_ctor(int32_t __1__state)  {
+GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue> o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>>(__1__state))};
+return o;
+}
+ void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, __1__state);
 }
- void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::System_IDisposable_Dispose()  {
+ void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::System_IDisposable_Dispose()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>>::get(),
                             "System.IDisposable.Dispose",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- bool GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::MoveNext()  {
+ bool GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::MoveNext()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>>::get(),
                             "MoveNext",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::__m__Finally1()  {
+ void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::__m__Finally1()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>>::get(),
                             "<>m__Finally1",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_Object,System_Object___get_Current()  {
+ System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_Object,System_Object___get_Current()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>>::get(),
                             "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.Object,System.Object>>.get_Current",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::System_Collections_IEnumerator_Reset()  {
+ void GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::System_Collections_IEnumerator_Reset()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>>::get(),
                             "System.Collections.IEnumerator.Reset",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- ::bs_hook::Il2CppWrapperType GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2::System_Collections_IEnumerator_get_Current()  {
+ ::bs_hook::Il2CppWrapperType GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>::System_Collections_IEnumerator_get_Current()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue>>::get(),
                             "System.Collections.IEnumerator.get_Current",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::*)(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>)>(&Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2.GetEnumerator
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>> (Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::*)()>(&Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::GetEnumerator)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2>::get(),
-                            "GetEnumerator",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2.System_Collections_IEnumerable_GetEnumerator
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator (Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::*)()>(&Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::System_Collections_IEnumerable_GetEnumerator)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2>::get(),
-                            "System.Collections.IEnumerable.GetEnumerator",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
 /// @brief Convert operator to System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>>
-constexpr  Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>>() const noexcept {
+constexpr  Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>::operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>>() const noexcept {
 return System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>>(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to System::Collections::IEnumerable
-constexpr  Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::operator System::Collections::IEnumerable() const noexcept {
+constexpr  Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>::operator System::Collections::IEnumerable() const noexcept {
 return System::Collections::IEnumerable(::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::__set__e(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> value)  {
+constexpr void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>::__set__e(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> value)  {
 ::cordl_internals::setInstanceField<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>>(value));
 }
-constexpr System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::__get__e() const {
+constexpr System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>::__get__e() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "e", ty: "System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> e)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2>(e))) {}
- void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::_ctor(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> e)  {
+ Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue> Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>::New_ctor(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> e)  {
+Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue> o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>>(e))};
+return o;
+}
+ void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>::_ctor(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, e);
 }
- System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>> Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::GetEnumerator()  {
+ System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>> Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>::GetEnumerator()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>>::get(),
                             "GetEnumerator",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>>, false>(const_cast<void*>(instance), ___internal_method);
 }
- System::Collections::IEnumerator Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2::System_Collections_IEnumerable_GetEnumerator()  {
+ System::Collections::IEnumerator Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>::System_Collections_IEnumerable_GetEnumerator()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue>>::get(),
                             "System.Collections.IEnumerable.GetEnumerator",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

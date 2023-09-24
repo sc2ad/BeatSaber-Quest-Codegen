@@ -6,29 +6,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-class Type;
+class RuntimeType;
 }
-namespace System::Collections::Concurrent {
-template<typename TKey,typename TValue>
-class ConcurrentDictionary_2;
+namespace System::Runtime::Serialization {
+class System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Reflection {
-class Binder;
-}
-namespace System::Reflection {
-class Assembly;
 }
 namespace System::Runtime::Serialization {
 class MemberHolder;
 }
 namespace System::Reflection {
+class Assembly;
+}
+namespace System::Reflection {
 class MemberInfo;
 }
-namespace System {
-class RuntimeType;
+namespace System::Collections::Concurrent {
+template<typename TKey,typename TValue>
+class ConcurrentDictionary_2;
+}
+namespace System::Reflection {
+class Binder;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -88,8 +91,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0() ;
+static System::Runtime::Serialization::System__Runtime__Serialization__FormatterServices____c__DisplayClass9_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x234ac34 size 0x8 virtual false final false
  void _ctor() ;

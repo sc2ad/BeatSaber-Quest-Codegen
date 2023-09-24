@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Polyglot {
-class ILocalize;
-}
-namespace UnityEngine {
-class TextMesh;
-}
 namespace UnityEngine {
 struct TextAlignment;
 }
 namespace Polyglot {
+class ILocalize;
+}
+namespace Polyglot {
 struct LanguageDirection;
+}
+namespace UnityEngine {
+class TextMesh;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -104,8 +104,7 @@ constexpr ::StringW __get_key() const;
 /// @brief Method IsAlignmentLeft addr 0x2674794 size 0xc virtual false final false
  bool IsAlignmentLeft(UnityEngine::TextAlignment alignment) ;
 
-// Ctor Parameters []
-explicit LocalizedTextMesh() ;
+static Polyglot::LocalizedTextMesh New_ctor() ;
 
 /// @brief Method .ctor addr 0x26747a0 size 0x8 virtual false final false
  void _ctor() ;

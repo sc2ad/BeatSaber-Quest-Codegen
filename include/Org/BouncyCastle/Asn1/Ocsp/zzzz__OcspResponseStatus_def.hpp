@@ -72,14 +72,12 @@ static constexpr int32_t  Unauthorized{6};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OcspResponseStatus(int32_t value) ;
+static Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus New_ctor(int32_t value) ;
 
 /// @brief Method .ctor addr 0xef3eec size 0x64 virtual false final false
  void _ctor(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::DerEnumerated", modifiers: "", def_value: None }]
-explicit OcspResponseStatus(Org::BouncyCastle::Asn1::DerEnumerated value) ;
+static Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus New_ctor(Org::BouncyCastle::Asn1::DerEnumerated value) ;
 
 /// @brief Method .ctor addr 0xef3398 size 0x6c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerEnumerated value) ;

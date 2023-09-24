@@ -1,5 +1,6 @@
 #pragma once
 #include "System/Security/zzzz__SecurityElement_def.hpp"
+#include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Security::System__Security__SecurityElement__SecurityAttribute._ctor
@@ -65,8 +66,10 @@ constexpr void System::Security::System__Security__SecurityElement__SecurityAttr
 constexpr ::StringW System::Security::System__Security__SecurityElement__SecurityAttribute::__get__value() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::System__Security__SecurityElement__SecurityAttribute::System__Security__SecurityElement__SecurityAttribute(::StringW name, ::StringW value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Security__SecurityElement__SecurityAttribute>(name, value))) {}
+ System::Security::System__Security__SecurityElement__SecurityAttribute System::Security::System__Security__SecurityElement__SecurityAttribute::New_ctor(::StringW name, ::StringW value)  {
+System::Security::System__Security__SecurityElement__SecurityAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Security::System__Security__SecurityElement__SecurityAttribute>(name, value))};
+return o;
+}
  void System::Security::System__Security__SecurityElement__SecurityAttribute::_ctor(::StringW name, ::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::System__Security__SecurityElement__SecurityAttribute>::get(),
@@ -471,8 +474,10 @@ return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "invalid_attr_value
  ::ArrayW<char16_t> System::Security::SecurityElement::__get_invalid_chars()  {
 return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "invalid_chars", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::SecurityElement>::get>();
 }
-// Ctor Parameters [CppParam { name: "tag", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::SecurityElement::SecurityElement(::StringW tag)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SecurityElement>(tag))) {}
+ System::Security::SecurityElement System::Security::SecurityElement::New_ctor(::StringW tag)  {
+System::Security::SecurityElement o{THROW_UNLESS(::il2cpp_utils::New<System::Security::SecurityElement>(tag))};
+return o;
+}
  void System::Security::SecurityElement::_ctor(::StringW tag)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::SecurityElement>::get(),
@@ -482,8 +487,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tag);
 }
-// Ctor Parameters [CppParam { name: "tag", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::SecurityElement::SecurityElement(::StringW tag, ::StringW text)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SecurityElement>(tag, text))) {}
+ System::Security::SecurityElement System::Security::SecurityElement::New_ctor(::StringW tag, ::StringW text)  {
+System::Security::SecurityElement o{THROW_UNLESS(::il2cpp_utils::New<System::Security::SecurityElement>(tag, text))};
+return o;
+}
  void System::Security::SecurityElement::_ctor(::StringW tag, ::StringW text)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::SecurityElement>::get(),

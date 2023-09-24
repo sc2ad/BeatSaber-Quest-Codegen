@@ -69,8 +69,7 @@ constexpr System::Runtime::Serialization::StreamingContext __get_m_context() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit SurrogateKey(System::Type type, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::Serialization::SurrogateKey New_ctor(System::Type type, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2353958 size 0x3c virtual false final false
  void _ctor(System::Type type, System::Runtime::Serialization::StreamingContext context) ;

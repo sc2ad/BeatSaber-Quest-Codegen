@@ -5,17 +5,17 @@ namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
-class NoteData;
+class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 namespace GlobalNamespace {
 template<typename T>
 class ILazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr explicit NoteControllerBase(void* ptr) noexcept : UnityEngine::MonoBeh
 /// @brief Method get_noteData addr 0x0 size 0xffffffffffffffff virtual true final false
  GlobalNamespace::NoteData get_noteData() ;
 
-// Ctor Parameters []
-explicit NoteControllerBase() ;
+static GlobalNamespace::NoteControllerBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x223f7a8 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignatureSubpacketVector;
-}
 namespace Org::BouncyCastle::Bcpg {
-struct RevocationReasonTag;
-}
-namespace System::Collections {
-class IList;
+struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignature;
 }
+namespace Org::BouncyCastle::Bcpg {
+struct RevocationReasonTag;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignatureSubpacketVector;
+}
+namespace System::Collections {
+class IList;
+}
 namespace System {
 struct DateTime;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -137,8 +137,7 @@ constexpr System::Collections::IList __get_list() const;
 /// @brief Method Generate addr 0x10404b4 size 0x2c8 virtual false final false
  Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector Generate() ;
 
-// Ctor Parameters []
-explicit PgpSignatureSubpacketGenerator() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x104077c size 0x64 virtual false final false
  void _ctor() ;

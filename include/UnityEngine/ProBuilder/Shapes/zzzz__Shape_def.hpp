@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -68,8 +68,7 @@ constexpr explicit Shape(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr)
 /// @brief Method CopyShape addr 0x0 size 0xffffffffffffffff virtual true final false
  void CopyShape(UnityEngine::ProBuilder::Shapes::Shape shape) ;
 
-// Ctor Parameters []
-explicit Shape() ;
+static UnityEngine::ProBuilder::Shapes::Shape New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f2168 size 0x8 virtual false final false
  void _ctor() ;

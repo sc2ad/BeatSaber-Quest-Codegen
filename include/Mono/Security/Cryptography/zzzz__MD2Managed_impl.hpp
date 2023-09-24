@@ -6,7 +6,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Cryptography::MD2Managed::*)(int32_t)>(&Mono::Security::Cryptography::MD2Managed::Padding)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2297314;
+  constexpr static std::size_t addrs = 0x22b3320;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD2Managed::*)()>(&Mono::Security::Cryptography::MD2Managed::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2297270;
+  constexpr static std::size_t addrs = 0x22b327c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD2Managed::*)()>(&Mono::Security::Cryptography::MD2Managed::Initialize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22973b0;
+  constexpr static std::size_t addrs = 0x22b33bc;
 
   inline static const ::MethodInfo* methodInfo() {
     
@@ -57,7 +57,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD2Managed::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&Mono::Security::Cryptography::MD2Managed::HashCore)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2297410;
+  constexpr static std::size_t addrs = 0x22b341c;
 
   inline static const ::MethodInfo* methodInfo() {
     
@@ -74,7 +74,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Cryptography::MD2Managed::*)()>(&Mono::Security::Cryptography::MD2Managed::HashFinal)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2297744;
+  constexpr static std::size_t addrs = 0x22b3750;
 
   inline static const ::MethodInfo* methodInfo() {
     
@@ -91,7 +91,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD2Managed::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t)>(&Mono::Security::Cryptography::MD2Managed::MD2Transform)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x22974ec;
+  constexpr static std::size_t addrs = 0x22b34f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,8 +148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method, nLength);
 }
-// Ctor Parameters []
- Mono::Security::Cryptography::MD2Managed::MD2Managed()  : Mono::Security::Cryptography::MD2(THROW_UNLESS(::il2cpp_utils::New<MD2Managed>())) {}
+ Mono::Security::Cryptography::MD2Managed Mono::Security::Cryptography::MD2Managed::New_ctor()  {
+Mono::Security::Cryptography::MD2Managed o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::MD2Managed>())};
+return o;
+}
  void Mono::Security::Cryptography::MD2Managed::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::MD2Managed>::get(),

@@ -5,10 +5,10 @@ namespace System::Threading::Tasks {
 struct TaskContinuationOptions;
 }
 namespace System::Threading::Tasks {
-class Task;
+class TaskScheduler;
 }
 namespace System::Threading::Tasks {
-class TaskScheduler;
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -77,8 +77,7 @@ constexpr System::Threading::Tasks::TaskScheduler __get_m_taskScheduler() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "task", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Threading::Tasks::TaskContinuationOptions", modifiers: "", def_value: None }, CppParam { name: "scheduler", ty: "System::Threading::Tasks::TaskScheduler", modifiers: "", def_value: None }]
-explicit StandardTaskContinuation(System::Threading::Tasks::Task task, System::Threading::Tasks::TaskContinuationOptions options, System::Threading::Tasks::TaskScheduler scheduler) ;
+static System::Threading::Tasks::StandardTaskContinuation New_ctor(System::Threading::Tasks::Task task, System::Threading::Tasks::TaskContinuationOptions options, System::Threading::Tasks::TaskScheduler scheduler) ;
 
 /// @brief Method .ctor addr 0x24bad90 size 0x120 virtual false final false
  void _ctor(System::Threading::Tasks::Task task, System::Threading::Tasks::TaskContinuationOptions options, System::Threading::Tasks::TaskScheduler scheduler) ;

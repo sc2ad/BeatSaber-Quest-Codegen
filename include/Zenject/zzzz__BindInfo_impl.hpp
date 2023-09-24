@@ -1,16 +1,16 @@
 #pragma once
 #include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__ScopeTypes_def.hpp"
-#include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
-#include "Zenject/zzzz__BindingCondition_def.hpp"
-#include "Zenject/zzzz__ToChoices_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "Zenject/zzzz__InvalidBindResponses_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__BindingCondition_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__ScopeTypes_def.hpp"
+#include "Zenject/zzzz__ToChoices_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: Zenject::BindInfo._ctor
 template<>
 
@@ -191,8 +191,10 @@ constexpr void Zenject::BindInfo::__set_InstantiatedCallback(System::Action_2<Ze
 constexpr System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> Zenject::BindInfo::__get_InstantiatedCallback() const {
 return ::cordl_internals::getInstanceField<System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::BindInfo::BindInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BindInfo>())) {}
+ Zenject::BindInfo Zenject::BindInfo::New_ctor()  {
+Zenject::BindInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::BindInfo>())};
+return o;
+}
  void Zenject::BindInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::BindInfo>::get(),

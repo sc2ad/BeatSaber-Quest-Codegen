@@ -1,12 +1,13 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__EaxBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__SicBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__EaxBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__SicBlockCipher_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr Org::BouncyCastle::Crypto::Modes::Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag::Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag(uint8_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -422,8 +423,10 @@ constexpr void Org::BouncyCastle::Crypto::Modes::EaxBlockCipher::__set_initialAs
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Modes::EaxBlockCipher::__get_initialAssociatedText() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Modes::EaxBlockCipher::EaxBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EaxBlockCipher>(cipher))) {}
+ Org::BouncyCastle::Crypto::Modes::EaxBlockCipher Org::BouncyCastle::Crypto::Modes::EaxBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::Modes::EaxBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::EaxBlockCipher>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::EaxBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::EaxBlockCipher>::get(),

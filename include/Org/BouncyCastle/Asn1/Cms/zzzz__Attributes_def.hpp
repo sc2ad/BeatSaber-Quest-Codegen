@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class Attribute;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -70,14 +70,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_attributes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit Attributes(Org::BouncyCastle::Asn1::Asn1Set attributes) ;
+static Org::BouncyCastle::Asn1::Cms::Attributes New_ctor(Org::BouncyCastle::Asn1::Asn1Set attributes) ;
 
 /// @brief Method .ctor addr 0xde2e28 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Set attributes) ;
 
-// Ctor Parameters [CppParam { name: "v", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit Attributes(Org::BouncyCastle::Asn1::Asn1EncodableVector v) ;
+static Org::BouncyCastle::Asn1::Cms::Attributes New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector v) ;
 
 /// @brief Method .ctor addr 0xde2e50 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector v) ;

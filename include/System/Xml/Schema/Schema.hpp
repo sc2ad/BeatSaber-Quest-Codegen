@@ -138,6 +138,7 @@
 #include "System/Xml/Schema/XmlSchemaObject.hpp"
 #include "System/Xml/Schema/XmlSchemaObjectCollection.hpp"
 #include "System/Xml/Schema/XmlSchemaParticle.hpp"
+#include "System/Xml/Schema/XmlSchemaParticle_EmptyParticle.hpp"
 #include "System/Xml/Schema/XmlSchemaSequence.hpp"
 #include "System/Xml/Schema/XmlSchemaSet.hpp"
 #include "System/Xml/Schema/XmlSchemaSimpleType.hpp"

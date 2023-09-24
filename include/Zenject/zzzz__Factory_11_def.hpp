@@ -21,7 +21,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TParam6,::cordl_internals::il2cpp_reference_type TParam7,::cordl_internals::il2cpp_reference_type TParam8,::cordl_internals::il2cpp_reference_type TParam9,::cordl_internals::il2cpp_reference_type TParam10,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10965), inst: 3356 }), TypeDefinitionIndex(TypeDefinitionIndex(10965)), TypeDefinitionIndex(TypeDefinitionIndex(10966))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10965)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10965), inst: 3356 }), TypeDefinitionIndex(TypeDefinitionIndex(10966))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10966), inst: 5955 })
 // CS Name: Zenject.Factory`11
 class CORDL_TYPE Factory_11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue> : public Zenject::PlaceholderFactory_11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue> {
@@ -60,8 +60,7 @@ constexpr explicit Factory_11(void* ptr) noexcept : Zenject::PlaceholderFactory_
 
 // Methods
 
-// Ctor Parameters []
-explicit Factory_11() ;
+static Zenject::Factory_11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

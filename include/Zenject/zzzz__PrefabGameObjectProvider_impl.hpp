@@ -1,12 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__PrefabGameObjectProvider_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: Zenject::PrefabGameObjectProvider._ctor
 template<>
 
@@ -102,8 +102,10 @@ constexpr void Zenject::PrefabGameObjectProvider::__set__prefabCreator(Zenject::
 constexpr Zenject::IPrefabInstantiator Zenject::PrefabGameObjectProvider::__get__prefabCreator() const {
 return ::cordl_internals::getInstanceField<Zenject::IPrefabInstantiator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "prefabCreator", ty: "Zenject::IPrefabInstantiator", modifiers: "", def_value: None }]
- Zenject::PrefabGameObjectProvider::PrefabGameObjectProvider(Zenject::IPrefabInstantiator prefabCreator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PrefabGameObjectProvider>(prefabCreator))) {}
+ Zenject::PrefabGameObjectProvider Zenject::PrefabGameObjectProvider::New_ctor(Zenject::IPrefabInstantiator prefabCreator)  {
+Zenject::PrefabGameObjectProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::PrefabGameObjectProvider>(prefabCreator))};
+return o;
+}
  void Zenject::PrefabGameObjectProvider::_ctor(Zenject::IPrefabInstantiator prefabCreator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::PrefabGameObjectProvider>::get(),

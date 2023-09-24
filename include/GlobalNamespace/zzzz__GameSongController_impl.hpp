@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SongController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameSongController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksUpdater_def.hpp"
-#include "UnityEngine/zzzz__WaitUntil_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
 #include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
+#include "UnityEngine/zzzz__WaitUntil_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameSongController.get_songLength
 template<>
 
@@ -310,8 +310,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, songTime);
 }
-// Ctor Parameters []
- GlobalNamespace::GameSongController::GameSongController()  : GlobalNamespace::SongController(THROW_UNLESS(::il2cpp_utils::New<GameSongController>())) {}
+ GlobalNamespace::GameSongController GlobalNamespace::GameSongController::New_ctor()  {
+GlobalNamespace::GameSongController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameSongController>())};
+return o;
+}
  void GlobalNamespace::GameSongController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameSongController>::get(),

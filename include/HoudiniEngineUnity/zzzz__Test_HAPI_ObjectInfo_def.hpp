@@ -66,8 +66,7 @@ constexpr HoudiniEngineUnity::HAPI_ObjectInfo __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "HoudiniEngineUnity::HAPI_ObjectInfo", modifiers: "", def_value: None }]
-explicit Test_HAPI_ObjectInfo(HoudiniEngineUnity::HAPI_ObjectInfo self) ;
+static HoudiniEngineUnity::Test_HAPI_ObjectInfo New_ctor(HoudiniEngineUnity::HAPI_ObjectInfo self) ;
 
 /// @brief Method .ctor addr 0x20703b4 size 0x3c virtual false final false
  void _ctor(HoudiniEngineUnity::HAPI_ObjectInfo self) ;

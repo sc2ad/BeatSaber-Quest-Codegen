@@ -68,8 +68,7 @@ constexpr explicit SceneLoadedCallbacksOrderDebug(void* ptr) noexcept : UnityEng
 /// @brief Method OnDisable addr 0x1f7a4f4 size 0xe8 virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit SceneLoadedCallbacksOrderDebug() ;
+static GlobalNamespace::SceneLoadedCallbacksOrderDebug New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7a5dc size 0x8 virtual false final false
  void _ctor() ;

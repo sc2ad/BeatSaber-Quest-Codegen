@@ -3,6 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::SceneManagement {
@@ -11,13 +18,6 @@ struct Scene;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

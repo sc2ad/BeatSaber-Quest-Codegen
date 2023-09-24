@@ -2,16 +2,16 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_def.hpp"
 namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
+class XmlValueConverter;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -75,8 +75,7 @@ constexpr explicit Datatype_anyAtomicType(void* ptr) noexcept : System::Xml::Sch
 /// @brief Method get_TypeCode addr 0x2723f3c size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_anyAtomicType() ;
+static System::Xml::Schema::Datatype_anyAtomicType New_ctor() ;
 
 /// @brief Method .ctor addr 0x2723f44 size 0x54 virtual false final false
  void _ctor() ;

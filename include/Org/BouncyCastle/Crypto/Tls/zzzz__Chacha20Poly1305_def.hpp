@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Crypto {
 class IMac;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Engines {
 class ChaCha7539Engine;
 }
+namespace Org::BouncyCastle::Crypto {
+class IStreamCipher;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -109,8 +109,7 @@ constexpr ::ArrayW<uint8_t> __get_decryptIV() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }]
-explicit Chacha20Poly1305(Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
+static Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305 New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context) ;
 
 /// @brief Method .ctor addr 0xed1d18 size 0x324 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context) ;

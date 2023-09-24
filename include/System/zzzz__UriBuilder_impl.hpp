@@ -305,8 +305,10 @@ constexpr void System::UriBuilder::__set__username(::StringW value)  {
 constexpr ::StringW System::UriBuilder::__get__username() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::UriBuilder::UriBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UriBuilder>())) {}
+ System::UriBuilder System::UriBuilder::New_ctor()  {
+System::UriBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::UriBuilder>())};
+return o;
+}
  void System::UriBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UriBuilder>::get(),
@@ -316,8 +318,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }]
- System::UriBuilder::UriBuilder(::StringW uri)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UriBuilder>(uri))) {}
+ System::UriBuilder System::UriBuilder::New_ctor(::StringW uri)  {
+System::UriBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::UriBuilder>(uri))};
+return o;
+}
  void System::UriBuilder::_ctor(::StringW uri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UriBuilder>::get(),
@@ -327,8 +331,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, uri);
 }
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }]
- System::UriBuilder::UriBuilder(System::Uri uri)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UriBuilder>(uri))) {}
+ System::UriBuilder System::UriBuilder::New_ctor(System::Uri uri)  {
+System::UriBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::UriBuilder>(uri))};
+return o;
+}
  void System::UriBuilder::_ctor(System::Uri uri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UriBuilder>::get(),

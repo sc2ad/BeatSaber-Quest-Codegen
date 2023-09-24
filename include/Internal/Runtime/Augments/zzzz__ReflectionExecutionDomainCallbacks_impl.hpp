@@ -1,7 +1,7 @@
 #pragma once
 #include "Internal/Runtime/Augments/zzzz__ReflectionExecutionDomainCallbacks_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks.CreateMissingMetadataException
 template<>
 
@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Exception, false>(const_cast<void*>(instance), ___internal_method, attributeType);
 }
-// Ctor Parameters []
- Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::ReflectionExecutionDomainCallbacks()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReflectionExecutionDomainCallbacks>())) {}
+ Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::New_ctor()  {
+Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks o{THROW_UNLESS(::il2cpp_utils::New<Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks>())};
+return o;
+}
  void Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks>::get(),

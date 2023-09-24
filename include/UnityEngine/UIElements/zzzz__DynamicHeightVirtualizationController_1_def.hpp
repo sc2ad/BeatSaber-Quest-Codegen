@@ -3,42 +3,42 @@
 #include "UnityEngine/UIElements/zzzz__VerticalVirtualizationController_1_def.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
+}
 namespace System {
+class Action;
+}
+namespace System::Collections::Generic {
 template<typename T>
-class Predicate_1;
+class HashSet_1;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace System {
+template<typename T>
+class Predicate_1;
+}
+namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -55,7 +55,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7466)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7470), inst: 5173 }), TypeDefinitionIndex(TypeDefinitionIndex(7470))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7466)), TypeDefinitionIndex(TypeDefinitionIndex(7470)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7470), inst: 5173 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7466), inst: 2 })
 // CS Name: UnityEngine.UIElements.DynamicHeightVirtualizationController`1
 class CORDL_TYPE DynamicHeightVirtualizationController_1<T> : public UnityEngine::UIElements::VerticalVirtualizationController_1<T> {
@@ -175,8 +175,7 @@ constexpr System::Predicate_1<int32_t> __get_m_IndexOutOfBoundsPredicate() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collectionView", ty: "UnityEngine::UIElements::BaseVerticalCollectionView", modifiers: "", def_value: None }]
-explicit DynamicHeightVirtualizationController_1(UnityEngine::UIElements::BaseVerticalCollectionView collectionView) ;
+static UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T> New_ctor(UnityEngine::UIElements::BaseVerticalCollectionView collectionView) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(UnityEngine::UIElements::BaseVerticalCollectionView collectionView) ;

@@ -7,36 +7,63 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements::UIR {
-template<typename T>
-class LinkedPool_1;
+class UIRenderDevice;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__RenderChain__DepthOrderedDirtyTracking;
+}
+namespace UnityEngine::UIElements {
+class TextureRegistry;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements::UIR {
+struct ChainBuilderStats;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UIRVEShaderInfoAllocator;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+class UIRStylePainter;
+}
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
 }
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+class UIRTextUpdatePainter;
+}
 namespace UnityEngine {
-class Texture;
+struct Vector2;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::UIElements::UIR {
-struct UIRVEShaderInfoAllocator;
-}
-namespace UnityEngine::UIElements::UIR {
-struct ChainBuilderStats;
+struct UnityEngine__UIElements__UIR__RenderChain__RenderChainStaticIndexAllocator;
 }
 namespace UnityEngine::UIElements {
 struct TextureId;
 }
-namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-class UIRTextUpdatePainter;
+namespace UnityEngine::UIElements {
+class AtlasBase;
 }
 namespace UnityEngine::UIElements::UIR {
 class VectorImageManager;
@@ -44,79 +71,64 @@ class VectorImageManager;
 namespace UnityEngine::UIElements::UIR {
 struct TextureEntry;
 }
+namespace UnityEngine {
+class Material;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChainCommand;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements::UIR {
 template<typename T>
-class BasicNodePool_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class TextureRegistry;
+class LinkedPool_1;
 }
 namespace UnityEngine::UIElements::UIR {
-class UIRenderDevice;
+class UnityEngine__UIElements__UIR__RenderChain____c;
+}
+namespace UnityEngine::UIElements::UIR {
+template<typename T>
+class BasicNodePool_1;
 }
 namespace UnityEngine {
 class Font;
 }
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-class UIRStylePainter;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements {
-class AtlasBase;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
-}
-namespace System {
-template<typename T>
-class Action_1;
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__RenderChain__RenderNodeData;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
-namespace UnityEngine::UIElements::UIR {
-struct RenderDataDirtyTypes;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct RenderDataDirtyTypeClasses;
+}
+namespace UnityEngine::UIElements::UIR {
+struct RenderDataDirtyTypes;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeSlice_1;
 }
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-struct Vector4;
-}
 namespace UnityEngine::UIElements::UIR {
 struct Transform3x4;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -458,8 +470,7 @@ static System::Action_1<UnityEngine::UIElements::UIR::RenderChainCommand> __get_
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIR__RenderChain____c() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__RenderChain____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d1abb0 size 0x8 virtual false final false
  void _ctor() ;
@@ -799,8 +810,7 @@ constexpr bool __get__drawInCameras_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "panel", ty: "UnityEngine::UIElements::BaseVisualElementPanel", modifiers: "", def_value: None }]
-explicit RenderChain(UnityEngine::UIElements::BaseVisualElementPanel panel) ;
+static UnityEngine::UIElements::UIR::RenderChain New_ctor(UnityEngine::UIElements::BaseVisualElementPanel panel) ;
 
 /// @brief Method .ctor addr 0x2d16344 size 0x3b8 virtual false final false
  void _ctor(UnityEngine::UIElements::BaseVisualElementPanel panel) ;

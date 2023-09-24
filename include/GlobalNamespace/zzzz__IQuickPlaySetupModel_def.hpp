@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace GlobalNamespace {
 class QuickPlaySetupData;

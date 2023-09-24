@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MainEffectContainerSO.get_mainEffect
 template<>
 
@@ -110,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mainEffect);
 }
-// Ctor Parameters []
- GlobalNamespace::MainEffectContainerSO::MainEffectContainerSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<MainEffectContainerSO>())) {}
+ GlobalNamespace::MainEffectContainerSO GlobalNamespace::MainEffectContainerSO::New_ctor()  {
+GlobalNamespace::MainEffectContainerSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainEffectContainerSO>())};
+return o;
+}
  void GlobalNamespace::MainEffectContainerSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainEffectContainerSO>::get(),

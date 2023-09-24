@@ -8,23 +8,26 @@ namespace UnityEngine {
 class AudioSource;
 }
 namespace UnityEngine {
-class AnimationCurve;
-}
-namespace System::Collections {
-class IEnumerator;
+class Coroutine;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine {
-class Coroutine;
+namespace System::Collections {
+class IEnumerator;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -136,8 +139,7 @@ constexpr float_t __get__time_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20b8df4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -265,8 +267,7 @@ constexpr float_t __get__startVolume() const;
 /// @brief Method SetAudioSource addr 0x20b8e84 size 0x8 virtual false final false
  void SetAudioSource(UnityEngine::AudioSource audioSource) ;
 
-// Ctor Parameters []
-explicit AudioPitchGainEffect() ;
+static GlobalNamespace::AudioPitchGainEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b8e8c size 0x14 virtual false final false
  void _ctor() ;

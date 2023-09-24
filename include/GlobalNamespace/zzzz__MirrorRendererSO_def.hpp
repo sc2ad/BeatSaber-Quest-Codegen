@@ -9,41 +9,44 @@ namespace UnityEngine {
 struct LayerMask;
 }
 namespace UnityEngine {
-struct Vector4;
+class Shader;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+class BloomPrePassEffectSO;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MirrorRendererSO__CameraTransformData;
 }
 namespace GlobalNamespace {
 class BloomPrePassRendererSO;
 }
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
-class Shader;
-}
-namespace GlobalNamespace {
-class BloomPrePassEffectSO;
-}
-namespace UnityEngine {
 class Camera;
-}
-namespace UnityEngine {
-class Texture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -329,8 +332,7 @@ static UnityEngine::Vector4 CameraSpacePlane(UnityEngine::Matrix4x4 worldToCamer
 /// @brief Method CalculateReflectionMatrix addr 0x2678dbc size 0xe8 virtual false final false
 static UnityEngine::Matrix4x4 CalculateReflectionMatrix(UnityEngine::Vector4 plane) ;
 
-// Ctor Parameters []
-explicit MirrorRendererSO() ;
+static GlobalNamespace::MirrorRendererSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2679464 size 0x13c virtual false final false
  void _ctor() ;

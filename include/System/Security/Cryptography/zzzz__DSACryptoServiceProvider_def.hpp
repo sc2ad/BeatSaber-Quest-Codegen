@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Mono::Security::Cryptography {
-class DSAManaged;
-}
 namespace System::Security::Cryptography {
 struct DSAParameters;
+}
+namespace Mono::Security::Cryptography {
+class KeyPairPersistence;
 }
 namespace System {
 class EventArgs;
 }
 namespace Mono::Security::Cryptography {
-class KeyPairPersistence;
+class DSAManaged;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -114,14 +114,12 @@ static bool __get_useMachineKeyStore() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit DSACryptoServiceProvider() ;
+static System::Security::Cryptography::DSACryptoServiceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x23031b0 size 0x2c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DSACryptoServiceProvider(int32_t dwKeySize) ;
+static System::Security::Cryptography::DSACryptoServiceProvider New_ctor(int32_t dwKeySize) ;
 
 /// @brief Method .ctor addr 0x2305348 size 0x38 virtual false final false
  void _ctor(int32_t dwKeySize) ;

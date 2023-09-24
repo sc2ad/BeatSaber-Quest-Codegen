@@ -12,15 +12,18 @@ class AsyncCallback;
 namespace System::Net {
 class IPAddress;
 }
-namespace System {
-class IAsyncResult;
-}
 namespace System::Net {
 class IPHostEntry;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
+}
+namespace System::Net {
+class System__Net__Dns__GetHostAddressesCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace System::Net {
@@ -71,8 +74,7 @@ constexpr explicit System__Net__Dns__GetHostAddressesCallback(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Net__Dns__GetHostAddressesCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Net::System__Net__Dns__GetHostAddressesCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x282d424 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

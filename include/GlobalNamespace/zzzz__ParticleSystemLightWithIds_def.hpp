@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Color;
+struct UnityEngine__ParticleSystem__Particle;
 }
 namespace UnityEngine {
-struct UnityEngine__ParticleSystem__Particle;
+struct Color;
 }
 namespace UnityEngine {
 struct UnityEngine__ParticleSystem__MainModule;
@@ -106,8 +106,7 @@ constexpr ::ArrayW<UnityEngine::UnityEngine__ParticleSystem__Particle> __get__pa
 /// @brief Method ColorWasSet addr 0x1f9fb38 size 0x460 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit ParticleSystemLightWithIds() ;
+static GlobalNamespace::ParticleSystemLightWithIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9ff98 size 0x18 virtual false final false
  void _ctor() ;

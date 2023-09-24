@@ -24,8 +24,10 @@ constexpr void GlobalNamespace::NumberTag::__set_number(int32_t value)  {
 constexpr int32_t GlobalNamespace::NumberTag::__get_number() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::NumberTag::NumberTag()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NumberTag>())) {}
+ GlobalNamespace::NumberTag GlobalNamespace::NumberTag::New_ctor()  {
+GlobalNamespace::NumberTag o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NumberTag>())};
+return o;
+}
  void GlobalNamespace::NumberTag::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NumberTag>::get(),

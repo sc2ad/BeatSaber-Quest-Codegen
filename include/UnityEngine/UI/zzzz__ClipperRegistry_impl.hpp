@@ -116,8 +116,10 @@ constexpr void UnityEngine::UI::ClipperRegistry::__set_m_Clippers(UnityEngine::U
 constexpr UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper> UnityEngine::UI::ClipperRegistry::__get_m_Clippers() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UI::ClipperRegistry::ClipperRegistry()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClipperRegistry>())) {}
+ UnityEngine::UI::ClipperRegistry UnityEngine::UI::ClipperRegistry::New_ctor()  {
+UnityEngine::UI::ClipperRegistry o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::ClipperRegistry>())};
+return o;
+}
  void UnityEngine::UI::ClipperRegistry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::ClipperRegistry>::get(),

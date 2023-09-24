@@ -70,8 +70,7 @@ constexpr GlobalNamespace::BloomPrePassEffectSO __get__bloomPrePassEffect() cons
 /// @brief Method Init addr 0x1f94610 size 0x8 virtual false final false
  void Init(GlobalNamespace::BloomPrePassEffectSO bloomPrePassEffect) ;
 
-// Ctor Parameters []
-explicit BloomPrePassEffectContainerSO() ;
+static GlobalNamespace::BloomPrePassEffectContainerSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f94618 size 0x8 virtual false final false
  void _ctor() ;

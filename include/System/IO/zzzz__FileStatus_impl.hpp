@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/IO/zzzz__FileStatus_def.hpp"
-#include "System/IO/zzzz__FileAttributes_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "GlobalNamespace/zzzz__Interop_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
+#include "GlobalNamespace/zzzz__Interop_def.hpp"
+#include "System/IO/zzzz__FileAttributes_def.hpp"
 //  Writing Method size for method: System::IO::FileStatus.get_InitiallyDirectory
 template<>
 

@@ -2,10 +2,10 @@
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__SingleResp_def.hpp"
 #include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__CertificateID_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__SingleResponse_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__CertificateID_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::SingleResp._ctor
 template<>
 
@@ -131,8 +131,10 @@ constexpr void Org::BouncyCastle::Ocsp::SingleResp::__set_resp(Org::BouncyCastle
 constexpr Org::BouncyCastle::Asn1::Ocsp::SingleResponse Org::BouncyCastle::Ocsp::SingleResp::__get_resp() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Ocsp::SingleResponse, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "resp", ty: "Org::BouncyCastle::Asn1::Ocsp::SingleResponse", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::SingleResp::SingleResp(Org::BouncyCastle::Asn1::Ocsp::SingleResponse resp)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<SingleResp>(resp))) {}
+ Org::BouncyCastle::Ocsp::SingleResp Org::BouncyCastle::Ocsp::SingleResp::New_ctor(Org::BouncyCastle::Asn1::Ocsp::SingleResponse resp)  {
+Org::BouncyCastle::Ocsp::SingleResp o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::SingleResp>(resp))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::SingleResp::_ctor(Org::BouncyCastle::Asn1::Ocsp::SingleResponse resp)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::SingleResp>::get(),

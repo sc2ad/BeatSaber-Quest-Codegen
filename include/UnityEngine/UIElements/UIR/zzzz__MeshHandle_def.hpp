@@ -3,10 +3,10 @@
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_def.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements::UIR {
-struct Alloc;
+class Page;
 }
 namespace UnityEngine::UIElements::UIR {
-class Page;
+struct Alloc;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -93,8 +93,7 @@ constexpr uint32_t __get_updateAllocID() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MeshHandle() ;
+static UnityEngine::UIElements::UIR::MeshHandle New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c55048 size 0x48 virtual false final false
  void _ctor() ;

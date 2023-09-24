@@ -4,6 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::ProBuilder::Poly2Tri {
+template<typename T>
+struct FixedArray3_1;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -13,13 +20,6 @@ struct FixedBitArray3;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepConstraint;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-template<typename T>
-struct FixedArray3_1;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -111,8 +111,7 @@ constexpr bool __get__IsInterior_k__BackingField() const;
 /// @brief Method set_IsInterior addr 0x299babc size 0xc virtual false final false
  void set_IsInterior(bool value) ;
 
-// Ctor Parameters [CppParam { name: "p1", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }, CppParam { name: "p2", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }, CppParam { name: "p3", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
-explicit DelaunayTriangle(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p3) ;
+static UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p3) ;
 
 /// @brief Method .ctor addr 0x299bac8 size 0xa4 virtual false final false
  void _ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p3) ;

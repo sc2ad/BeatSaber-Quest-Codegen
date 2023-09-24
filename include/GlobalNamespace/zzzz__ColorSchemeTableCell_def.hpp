@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace GlobalNamespace {
-class ColorSchemeView;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 struct Color;
 }
+namespace GlobalNamespace {
+class ColorSchemeView;
+}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -100,8 +100,7 @@ constexpr UnityEngine::UI::Image __get__editIcon() const;
 /// @brief Method SetColors addr 0x211e348 size 0x78 virtual false final false
  void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstacleColor) ;
 
-// Ctor Parameters []
-explicit ColorSchemeTableCell() ;
+static GlobalNamespace::ColorSchemeTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x211e7f0 size 0x8 virtual false final false
  void _ctor() ;

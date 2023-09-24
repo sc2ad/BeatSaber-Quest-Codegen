@@ -5,14 +5,17 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class VisualElement;
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__FocusController__FocusedElement;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class IFocusRing;
@@ -24,7 +27,7 @@ namespace UnityEngine::UIElements {
 struct DispatchMode;
 }
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -184,8 +187,7 @@ constexpr int32_t __get__imguiKeyboardControl_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "focusRing", ty: "UnityEngine::UIElements::IFocusRing", modifiers: "", def_value: None }]
-explicit FocusController(UnityEngine::UIElements::IFocusRing focusRing) ;
+static UnityEngine::UIElements::FocusController New_ctor(UnityEngine::UIElements::IFocusRing focusRing) ;
 
 /// @brief Method .ctor addr 0x2c81d8c size 0x98 virtual false final false
  void _ctor(UnityEngine::UIElements::IFocusRing focusRing) ;

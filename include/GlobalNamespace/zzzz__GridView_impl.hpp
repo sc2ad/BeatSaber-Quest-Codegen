@@ -1,13 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GridView_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__GridView_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -295,8 +294,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerat
 constexpr System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<UnityEngine::MonoBehaviour> GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::__get___7__wrap2() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<UnityEngine::MonoBehaviour>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1 GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1>::get(),
@@ -452,8 +453,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "gridView", ty: "GlobalNamespace::GridView", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator::GlobalNamespace__GridView__GridViewCellsEnumerator(GlobalNamespace::GridView gridView)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GridView__GridViewCellsEnumerator>(gridView))) {}
+ GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator::New_ctor(GlobalNamespace::GridView gridView)  {
+GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator>(gridView))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator::_ctor(GlobalNamespace::GridView gridView)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator>::get(),
@@ -744,8 +747,10 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<T, false>(const_cast<void*>(instance), ___internal_method, prefab);
 }
-// Ctor Parameters []
- GlobalNamespace::GridView::GridView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GridView>())) {}
+ GlobalNamespace::GridView GlobalNamespace::GridView::New_ctor()  {
+GlobalNamespace::GridView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GridView>())};
+return o;
+}
  void GlobalNamespace::GridView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GridView>::get(),

@@ -2,6 +2,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"
+#include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ParticleSystemEventController.get_startTime
 template<>
@@ -272,8 +273,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, time, deltaTime);
 }
-// Ctor Parameters []
- GlobalNamespace::ParticleSystemEventController::ParticleSystemEventController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ParticleSystemEventController>())) {}
+ GlobalNamespace::ParticleSystemEventController GlobalNamespace::ParticleSystemEventController::New_ctor()  {
+GlobalNamespace::ParticleSystemEventController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ParticleSystemEventController>())};
+return o;
+}
  void GlobalNamespace::ParticleSystemEventController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ParticleSystemEventController>::get(),
@@ -300,8 +303,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool::GlobalNamespace__ParticleSystemEventController__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::ParticleSystemEventController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ParticleSystemEventController__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool>::get(),

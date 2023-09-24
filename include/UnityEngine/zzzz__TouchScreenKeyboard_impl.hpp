@@ -1,8 +1,9 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
-#include "UnityEngine/zzzz__RangeInt_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboardType_def.hpp"
+#include "UnityEngine/zzzz__RangeInt_def.hpp"
+#include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_InternalConstructorHelperArguments_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UnityEngine__TouchScreenKeyboard__Status::UnityEngine__TouchScreenKeyboard__Status(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -464,8 +465,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyboardType", ty: "UnityEngine::TouchScreenKeyboardType", modifiers: "", def_value: None }, CppParam { name: "autocorrection", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "multiline", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "secure", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "alert", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "textPlaceholder", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "characterLimit", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::TouchScreenKeyboard::TouchScreenKeyboard(::StringW text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::StringW textPlaceholder, int32_t characterLimit)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TouchScreenKeyboard>(text, keyboardType, autocorrection, multiline, secure, alert, textPlaceholder, characterLimit))) {}
+ UnityEngine::TouchScreenKeyboard UnityEngine::TouchScreenKeyboard::New_ctor(::StringW text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::StringW textPlaceholder, int32_t characterLimit)  {
+UnityEngine::TouchScreenKeyboard o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TouchScreenKeyboard>(text, keyboardType, autocorrection, multiline, secure, alert, textPlaceholder, characterLimit))};
+return o;
+}
  void UnityEngine::TouchScreenKeyboard::_ctor(::StringW text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::StringW textPlaceholder, int32_t characterLimit)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TouchScreenKeyboard>::get(),

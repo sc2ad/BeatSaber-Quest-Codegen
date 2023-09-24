@@ -6,18 +6,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Xml::Xsl::Runtime {
-struct StringConcat;
+namespace System::Xml {
+class XmlWriter;
 }
 namespace System::Xml {
 struct XmlStandalone;
+}
+namespace System::Xml {
+struct System__Xml__XmlEventCache__XmlEventType;
+}
+namespace System::Xml {
+struct System__Xml__XmlEventCache__XmlEvent;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Xml {
-class XmlWriter;
+namespace System::Xml::Xsl::Runtime {
+struct StringConcat;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -102,6 +108,8 @@ __Dispose = 25,
 constexpr operator __System__Xml__XmlEventCache__XmlEventType_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__XmlEventCache__XmlEventType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -405,8 +413,7 @@ constexpr ::StringW __get_baseUri() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "baseUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hasRootNode", ty: "bool", modifiers: "", def_value: None }]
-explicit XmlEventCache(::StringW baseUri, bool hasRootNode) ;
+static System::Xml::XmlEventCache New_ctor(::StringW baseUri, bool hasRootNode) ;
 
 /// @brief Method .ctor addr 0x26c2b4c size 0x30 virtual false final false
  void _ctor(::StringW baseUri, bool hasRootNode) ;

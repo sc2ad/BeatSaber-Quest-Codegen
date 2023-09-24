@@ -7,11 +7,11 @@
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Runtime::Serialization {
-struct SerializationEntry;
-}
 namespace System {
 class Type;
+}
+namespace System::Runtime::Serialization {
+struct SerializationEntry;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -114,8 +114,7 @@ constexpr bool __get__current() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "members", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "info", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "types", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }, CppParam { name: "numItems", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SerializationInfoEnumerator(::ArrayW<::StringW> members, ::ArrayW<::bs_hook::Il2CppWrapperType> info, ::ArrayW<System::Type> types, int32_t numItems) ;
+static System::Runtime::Serialization::SerializationInfoEnumerator New_ctor(::ArrayW<::StringW> members, ::ArrayW<::bs_hook::Il2CppWrapperType> info, ::ArrayW<System::Type> types, int32_t numItems) ;
 
 /// @brief Method .ctor addr 0x23482e0 size 0x50 virtual false final false
  void _ctor(::ArrayW<::StringW> members, ::ArrayW<::bs_hook::Il2CppWrapperType> info, ::ArrayW<System::Type> types, int32_t numItems) ;

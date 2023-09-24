@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IMultiplayerSpectatingSpot.add_hasBeenRemovedEvent
 template<>
 

@@ -12,6 +12,9 @@ namespace System {
 template<typename TInput,typename TOutput>
 class Converter_2;
 }
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__Test_TerrainData_Extensions____c;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -86,8 +89,7 @@ static System::Converter_2<UnityEngine::TerrainData,HoudiniEngineUnity::Test_Ter
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__Test_TerrainData_Extensions____c() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__Test_TerrainData_Extensions____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2076834 size 0x8 virtual false final false
  void _ctor() ;

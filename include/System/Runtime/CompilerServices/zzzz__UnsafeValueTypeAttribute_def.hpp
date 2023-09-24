@@ -47,8 +47,7 @@ constexpr explicit UnsafeValueTypeAttribute(void* ptr) noexcept : System::Attrib
 
 // Methods
 
-// Ctor Parameters []
-explicit UnsafeValueTypeAttribute() ;
+static System::Runtime::CompilerServices::UnsafeValueTypeAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236e4dc size 0x8 virtual false final false
  void _ctor() ;

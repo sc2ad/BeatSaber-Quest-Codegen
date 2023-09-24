@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsReadable;
 }
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -87,14 +87,12 @@ constexpr ::ArrayW<uint8_t> __get_bytes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsProcessableByteArray(::ArrayW<uint8_t> bytes) ;
+static Org::BouncyCastle::Cms::CmsProcessableByteArray New_ctor(::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0x1159e70 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsProcessableByteArray(Org::BouncyCastle::Asn1::DerObjectIdentifier type, ::ArrayW<uint8_t> bytes) ;
+static Org::BouncyCastle::Cms::CmsProcessableByteArray New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier type, ::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0x1159ee8 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier type, ::ArrayW<uint8_t> bytes) ;

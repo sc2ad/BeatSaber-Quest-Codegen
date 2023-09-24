@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/UIElements/UIR/zzzz__BaseShaderInfoStorage_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::BaseShaderInfoStorage.get_texture
 template<>
 
@@ -264,8 +264,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, disposing);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::BaseShaderInfoStorage::BaseShaderInfoStorage()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BaseShaderInfoStorage>())) {}
+ UnityEngine::UIElements::UIR::BaseShaderInfoStorage UnityEngine::UIElements::UIR::BaseShaderInfoStorage::New_ctor()  {
+UnityEngine::UIElements::UIR::BaseShaderInfoStorage o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::BaseShaderInfoStorage>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::BaseShaderInfoStorage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::BaseShaderInfoStorage>::get(),

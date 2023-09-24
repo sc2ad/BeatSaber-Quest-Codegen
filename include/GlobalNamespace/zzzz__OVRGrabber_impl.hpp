@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGrabber_def.hpp"
-#include "UnityEngine/zzzz__Collider_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__OVRInput_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 #include "GlobalNamespace/zzzz__OVRGrabbable_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__OVRInput_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRGrabber.get_grabbedObject
 template<>
 
@@ -607,8 +607,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, grabbable, ignore);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRGrabber::OVRGrabber()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRGrabber>())) {}
+ GlobalNamespace::OVRGrabber GlobalNamespace::OVRGrabber::New_ctor()  {
+GlobalNamespace::OVRGrabber o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRGrabber>())};
+return o;
+}
  void GlobalNamespace::OVRGrabber::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRGrabber>::get(),

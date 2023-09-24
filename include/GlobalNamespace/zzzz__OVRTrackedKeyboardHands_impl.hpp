@@ -2,20 +2,18 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTrackedKeyboardHands_def.hpp"
-#include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
-#include "GlobalNamespace/zzzz__OVRHand_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "GlobalNamespace/zzzz__OVRTrackedKeyboard_def.hpp"
-#include "GlobalNamespace/zzzz__OVRTrackedKeyboard_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 #include "GlobalNamespace/zzzz__OVRTrackedKeyboard_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTrackedKeyboardHands_def.hpp"
+#include "GlobalNamespace/zzzz__OVRHand_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
 // Ctor Parameters [CppParam { name: "LeftHandTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: Some("csnull") }, CppParam { name: "LeftPresenceTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: Some("csnull") }, CppParam { name: "RightHandTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: Some("csnull") }, CppParam { name: "RightPresenceTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: Some("csnull") }, CppParam { name: "BoneName", ty: "GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId", modifiers: "", def_value: Some("{}") }, CppParam { name: "HandPresenceLeftBoneName", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "HandPresenceRightBoneName", ty: "::StringW", modifiers: "", def_value: Some("csnull") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardHands__HandBoneMapping::GlobalNamespace__OVRTrackedKeyboardHands__HandBoneMapping(UnityEngine::Transform LeftHandTransform, UnityEngine::Transform LeftPresenceTransform, UnityEngine::Transform RightHandTransform, UnityEngine::Transform RightPresenceTransform, GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId BoneName, ::StringW HandPresenceLeftBoneName, ::StringW HandPresenceRightBoneName) noexcept : ::bs_hook::ValueTypeWrapper() {this->LeftHandTransform = LeftHandTransform;
 this->LeftPresenceTransform = LeftPresenceTransform;
@@ -754,8 +752,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, e);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRTrackedKeyboardHands::OVRTrackedKeyboardHands()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRTrackedKeyboardHands>())) {}
+ GlobalNamespace::OVRTrackedKeyboardHands GlobalNamespace::OVRTrackedKeyboardHands::New_ctor()  {
+GlobalNamespace::OVRTrackedKeyboardHands o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRTrackedKeyboardHands>())};
+return o;
+}
  void GlobalNamespace::OVRTrackedKeyboardHands::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRTrackedKeyboardHands>::get(),

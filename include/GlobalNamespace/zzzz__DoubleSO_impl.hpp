@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::DoubleSO::DoubleSO()  : GlobalNamespace::ObservableVariableSO_1<double_t>(THROW_UNLESS(::il2cpp_utils::New<DoubleSO>())) {}
+ GlobalNamespace::DoubleSO GlobalNamespace::DoubleSO::New_ctor()  {
+GlobalNamespace::DoubleSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DoubleSO>())};
+return o;
+}
  void GlobalNamespace::DoubleSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DoubleSO>::get(),

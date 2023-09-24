@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Resources/zzzz__ManifestBasedResourceGroveler_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Resources/zzzz__IResourceGroveler_def.hpp"
+#include "System/Resources/zzzz__ResourceManager_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Resources/zzzz__UltimateResourceFallbackLocation_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Resources/zzzz__ResourceManager_def.hpp"
 //  Writing Method size for method: System::Resources::ManifestBasedResourceGroveler._ctor
 template<>
 
@@ -66,8 +66,10 @@ constexpr void System::Resources::ManifestBasedResourceGroveler::__set__mediator
 constexpr System::Resources::System__Resources__ResourceManager__ResourceManagerMediator System::Resources::ManifestBasedResourceGroveler::__get__mediator() const {
 return ::cordl_internals::getInstanceField<System::Resources::System__Resources__ResourceManager__ResourceManagerMediator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mediator", ty: "System::Resources::System__Resources__ResourceManager__ResourceManagerMediator", modifiers: "", def_value: None }]
- System::Resources::ManifestBasedResourceGroveler::ManifestBasedResourceGroveler(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ManifestBasedResourceGroveler>(mediator))) {}
+ System::Resources::ManifestBasedResourceGroveler System::Resources::ManifestBasedResourceGroveler::New_ctor(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator)  {
+System::Resources::ManifestBasedResourceGroveler o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::ManifestBasedResourceGroveler>(mediator))};
+return o;
+}
  void System::Resources::ManifestBasedResourceGroveler::_ctor(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::ManifestBasedResourceGroveler>::get(),

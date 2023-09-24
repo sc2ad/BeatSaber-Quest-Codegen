@@ -68,8 +68,7 @@ constexpr explicit AudioPlayerBase(void* ptr) noexcept : UnityEngine::MonoBehavi
 /// @brief Method UnPauseCurrentChannel addr 0x0 size 0xffffffffffffffff virtual true final false
  void UnPauseCurrentChannel() ;
 
-// Ctor Parameters []
-explicit AudioPlayerBase() ;
+static GlobalNamespace::AudioPlayerBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b9078 size 0x8 virtual false final false
  void _ctor() ;

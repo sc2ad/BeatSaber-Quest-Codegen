@@ -78,14 +78,12 @@ constexpr bool __get__GenerateProxy_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RequiredByNativeCodeAttribute() ;
+static UnityEngine::Scripting::RequiredByNativeCodeAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba100c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RequiredByNativeCodeAttribute(::StringW name) ;
+static UnityEngine::Scripting::RequiredByNativeCodeAttribute New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2ba1014 size 0x28 virtual false final false
  void _ctor(::StringW name) ;

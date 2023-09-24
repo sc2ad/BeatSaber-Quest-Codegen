@@ -2,14 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+struct UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -68,6 +71,8 @@ __ErrorAlreadyInProgress = -2,
 constexpr operator __UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__LowLevel__InitiateUserAccountPairingCommand__Result_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

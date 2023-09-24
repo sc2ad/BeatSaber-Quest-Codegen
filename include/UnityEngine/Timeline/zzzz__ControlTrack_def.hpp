@@ -47,8 +47,7 @@ constexpr explicit ControlTrack(void* ptr) noexcept : UnityEngine::Timeline::Tra
 
 // Methods
 
-// Ctor Parameters []
-explicit ControlTrack() ;
+static UnityEngine::Timeline::ControlTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ace5a0 size 0x54 virtual false final false
  void _ctor() ;

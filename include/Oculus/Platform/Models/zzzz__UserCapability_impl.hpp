@@ -41,8 +41,10 @@ constexpr void Oculus::Platform::Models::UserCapability::__set_ReasonCode(::Stri
 constexpr ::StringW Oculus::Platform::Models::UserCapability::__get_ReasonCode() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::UserCapability::UserCapability(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserCapability>(o))) {}
+ Oculus::Platform::Models::UserCapability Oculus::Platform::Models::UserCapability::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::UserCapability o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::UserCapability>(o))};
+return o;
+}
  void Oculus::Platform::Models::UserCapability::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::UserCapability>::get(),

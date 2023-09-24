@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crmf::CrmfException::CrmfException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<CrmfException>())) {}
+ Org::BouncyCastle::Crmf::CrmfException Org::BouncyCastle::Crmf::CrmfException::New_ctor()  {
+Org::BouncyCastle::Crmf::CrmfException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::CrmfException>())};
+return o;
+}
  void Org::BouncyCastle::Crmf::CrmfException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::CrmfException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::CrmfException::CrmfException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<CrmfException>(message))) {}
+ Org::BouncyCastle::Crmf::CrmfException Org::BouncyCastle::Crmf::CrmfException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Crmf::CrmfException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::CrmfException>(message))};
+return o;
+}
  void Org::BouncyCastle::Crmf::CrmfException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::CrmfException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::CrmfException::CrmfException(::StringW message, System::Exception innerException)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<CrmfException>(message, innerException))) {}
+ Org::BouncyCastle::Crmf::CrmfException Org::BouncyCastle::Crmf::CrmfException::New_ctor(::StringW message, System::Exception innerException)  {
+Org::BouncyCastle::Crmf::CrmfException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::CrmfException>(message, innerException))};
+return o;
+}
  void Org::BouncyCastle::Crmf::CrmfException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::CrmfException>::get(),

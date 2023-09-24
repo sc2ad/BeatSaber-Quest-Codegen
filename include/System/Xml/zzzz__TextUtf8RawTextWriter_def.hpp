@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml {
+class XmlWriterSettings;
+}
+namespace System::Xml {
 struct XmlStandalone;
 }
 namespace System::IO {
 class Stream;
-}
-namespace System::Xml {
-class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -64,8 +64,7 @@ constexpr explicit TextUtf8RawTextWriter(void* ptr) noexcept : System::Xml::XmlU
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit TextUtf8RawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::TextUtf8RawTextWriter New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26c2230 size 0x8 virtual false final false
  void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;

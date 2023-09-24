@@ -70,8 +70,7 @@ static ::ArrayW<int32_t> __get_RootNegOne() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit X25519Field() ;
+static Org::BouncyCastle::Math::EC::Rfc7748::X25519Field New_ctor() ;
 
 /// @brief Method .ctor addr 0xfafe68 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/ComponentModel/zzzz__BaseNumberConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__ByteConverter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::ComponentModel::ByteConverter.get_TargetType
 template<>
 
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, value, formatInfo);
 }
-// Ctor Parameters []
- System::ComponentModel::ByteConverter::ByteConverter()  : System::ComponentModel::BaseNumberConverter(THROW_UNLESS(::il2cpp_utils::New<ByteConverter>())) {}
+ System::ComponentModel::ByteConverter System::ComponentModel::ByteConverter::New_ctor()  {
+System::ComponentModel::ByteConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ByteConverter>())};
+return o;
+}
  void System::ComponentModel::ByteConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ByteConverter>::get(),

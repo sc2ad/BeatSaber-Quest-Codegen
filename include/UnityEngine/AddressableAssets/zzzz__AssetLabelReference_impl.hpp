@@ -158,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::AssetLabelReference::AssetLabelReference()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssetLabelReference>())) {}
+ UnityEngine::AddressableAssets::AssetLabelReference UnityEngine::AddressableAssets::AssetLabelReference::New_ctor()  {
+UnityEngine::AddressableAssets::AssetLabelReference o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::AssetLabelReference>())};
+return o;
+}
  void UnityEngine::AddressableAssets::AssetLabelReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::AssetLabelReference>::get(),

@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObjectParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -103,14 +103,12 @@ static Org::BouncyCastle::Asn1::Asn1TaggedObject GetInstance(Org::BouncyCastle::
 /// @brief Method GetInstance addr 0x112fc50 size 0x100 virtual false final false
 static Org::BouncyCastle::Asn1::Asn1TaggedObject GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit Asn1TaggedObject(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+static Org::BouncyCastle::Asn1::Asn1TaggedObject New_ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method .ctor addr 0x112fd50 size 0x44 virtual false final false
  void _ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
-// Ctor Parameters [CppParam { name: "explicitly", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit Asn1TaggedObject(bool explicitly, int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+static Org::BouncyCastle::Asn1::Asn1TaggedObject New_ctor(bool explicitly, int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method .ctor addr 0x112fd94 size 0x8c virtual false final false
  void _ctor(bool explicitly, int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;

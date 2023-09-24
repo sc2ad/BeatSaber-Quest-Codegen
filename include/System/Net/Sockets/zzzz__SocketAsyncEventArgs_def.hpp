@@ -4,58 +4,58 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System {
-class IDisposable;
+namespace System::Net {
+class EndPoint;
 }
 namespace System::Net::Sockets {
-struct SocketAsyncOperation;
-}
-namespace System::Net::Sockets {
-class SendPacketsElement;
-}
-namespace System::Net::Sockets {
-struct TransmitFileOptions;
+struct SocketFlags;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
+class List_1;
 }
 namespace System::Net::Sockets {
-struct IPPacketInformation;
-}
-namespace System::Net::Sockets {
-struct SocketError;
+struct TransmitFileOptions;
 }
 namespace System {
 template<typename T>
 struct ArraySegment_1;
 }
 namespace System::Net::Sockets {
+struct SocketError;
+}
+namespace System::Net::Sockets {
 class Socket;
 }
 namespace System::Net::Sockets {
-struct SocketFlags;
+struct IPPacketInformation;
+}
+namespace System::Net::Sockets {
+struct SocketAsyncOperation;
 }
 namespace System {
 template<typename TEventArgs>
 class EventHandler_1;
 }
-namespace System::Net::Sockets {
-class SocketAsyncResult;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace System {
 class Exception;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Net {
-class EndPoint;
-}
 namespace System {
 template<typename T>
 struct Memory_1;
+}
+namespace System::Net::Sockets {
+class SendPacketsElement;
+}
+namespace System::Net::Sockets {
+class SocketAsyncResult;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Net::Sockets {
@@ -324,14 +324,12 @@ constexpr System::Collections::Generic::List_1<System::ArraySegment_1<uint8_t>> 
 /// @brief Method remove_Completed addr 0x276bf04 size 0xb0 virtual false final false
  void remove_Completed(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs> value) ;
 
-// Ctor Parameters []
-explicit SocketAsyncEventArgs() ;
+static System::Net::Sockets::SocketAsyncEventArgs New_ctor() ;
 
 /// @brief Method .ctor addr 0x276bfb4 size 0x98 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "flowExecutionContext", ty: "bool", modifiers: "", def_value: None }]
-explicit SocketAsyncEventArgs(bool flowExecutionContext) ;
+static System::Net::Sockets::SocketAsyncEventArgs New_ctor(bool flowExecutionContext) ;
 
 /// @brief Method .ctor addr 0x276c054 size 0x8c virtual false final false
  void _ctor(bool flowExecutionContext) ;

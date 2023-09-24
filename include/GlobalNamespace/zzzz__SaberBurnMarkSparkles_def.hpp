@@ -4,28 +4,28 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace UnityEngine {
-class ParticleSystem;
-}
-namespace UnityEngine {
-struct UnityEngine__ParticleSystem__EmitParams;
-}
-namespace GlobalNamespace {
-class SaberManager;
+struct Vector3;
 }
 namespace GlobalNamespace {
 class Saber;
 }
 namespace UnityEngine {
-class BoxCollider;
+struct Plane;
 }
 namespace GlobalNamespace {
 class ColorManager;
 }
-namespace UnityEngine {
-struct Plane;
+namespace GlobalNamespace {
+class SaberManager;
 }
 namespace UnityEngine {
-struct Vector3;
+class ParticleSystem;
+}
+namespace UnityEngine {
+class BoxCollider;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__EmitParams;
 }
 namespace UnityEngine {
 struct UnityEngine__ParticleSystem__EmissionModule;
@@ -169,8 +169,7 @@ constexpr UnityEngine::UnityEngine__ParticleSystem__EmitParams __get__sparklesEm
 /// @brief Method LateUpdate addr 0x2254ff0 size 0x6a0 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit SaberBurnMarkSparkles() ;
+static GlobalNamespace::SaberBurnMarkSparkles New_ctor() ;
 
 /// @brief Method .ctor addr 0x2255690 size 0x8 virtual false final false
  void _ctor() ;

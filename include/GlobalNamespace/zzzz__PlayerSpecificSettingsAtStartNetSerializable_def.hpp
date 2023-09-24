@@ -7,6 +7,9 @@ class NetDataWriter;
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
+namespace GlobalNamespace {
+class PlayerSpecificSettingsNetSerializable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
@@ -14,15 +17,12 @@ class IReadOnlyList_1;
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
-namespace GlobalNamespace {
-class PlayerSpecificSettingsNetSerializable;
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,14 +104,12 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer
 /// @brief Method set_activePlayerSpecificSettingsAtGameStart addr 0xdc4ee8 size 0x8 virtual false final false
  void set_activePlayerSpecificSettingsAtGameStart(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable> value) ;
 
-// Ctor Parameters []
-explicit PlayerSpecificSettingsAtStartNetSerializable() ;
+static GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc4ef0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "activePlayerSpecificSettingsAtGameStart", ty: "System::Collections::Generic::List_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable>", modifiers: "", def_value: None }]
-explicit PlayerSpecificSettingsAtStartNetSerializable(System::Collections::Generic::List_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable> activePlayerSpecificSettingsAtGameStart) ;
+static GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable New_ctor(System::Collections::Generic::List_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable> activePlayerSpecificSettingsAtGameStart) ;
 
 /// @brief Method .ctor addr 0xdc4ef8 size 0x28 virtual false final false
  void _ctor(System::Collections::Generic::List_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable> activePlayerSpecificSettingsAtGameStart) ;

@@ -116,8 +116,7 @@ static System::Net::Http::HttpMethod __declspec(property(get=get_Post))  Post;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HttpMethod(::StringW method) ;
+static System::Net::Http::HttpMethod New_ctor(::StringW method) ;
 
 /// @brief Method .ctor addr 0x26a1af0 size 0x8c virtual false final false
  void _ctor(::StringW method) ;

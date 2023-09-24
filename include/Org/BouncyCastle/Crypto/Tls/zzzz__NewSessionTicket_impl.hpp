@@ -98,8 +98,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::NewSessionTicket::__set_mTicket(:
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::NewSessionTicket::__get_mTicket() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ticketLifetimeHint", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "ticket", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::NewSessionTicket::NewSessionTicket(int64_t ticketLifetimeHint, ::ArrayW<uint8_t> ticket)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NewSessionTicket>(ticketLifetimeHint, ticket))) {}
+ Org::BouncyCastle::Crypto::Tls::NewSessionTicket Org::BouncyCastle::Crypto::Tls::NewSessionTicket::New_ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t> ticket)  {
+Org::BouncyCastle::Crypto::Tls::NewSessionTicket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::NewSessionTicket>(ticketLifetimeHint, ticket))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::NewSessionTicket::_ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t> ticket)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::NewSessionTicket>::get(),

@@ -62,8 +62,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRManager__ColorSpace __get_colorSp
 /// @brief Method GetRuntimeSettings addr 0x26027c4 size 0x114 virtual false final false
 static GlobalNamespace::OVRRuntimeSettings GetRuntimeSettings() ;
 
-// Ctor Parameters []
-explicit OVRRuntimeSettings() ;
+static GlobalNamespace::OVRRuntimeSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x26028d8 size 0x10 virtual false final false
  void _ctor() ;

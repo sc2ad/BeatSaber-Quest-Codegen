@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "BGNet/Core/GameLift/zzzz__GetMultiplayerInstanceRequest_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 //  Writing Method size for method: BGNet::Core::GameLift::GetMultiplayerInstanceRequest._ctor
 template<>
 

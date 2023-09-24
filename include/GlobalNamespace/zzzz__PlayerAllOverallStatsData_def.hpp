@@ -9,15 +9,18 @@ class LevelCompletionResults;
 namespace GlobalNamespace {
 class MissionCompletionResults;
 }
-namespace GlobalNamespace {
-class MissionNode;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
+class MissionNode;
+}
+namespace GlobalNamespace {
 class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -228,14 +231,12 @@ constexpr int64_t __get__totalCutScore_k__BackingField() const;
 /// @brief Method set_totalCutScore addr 0x2220dd8 size 0x8 virtual false final false
  void set_totalCutScore(int64_t value) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2220ab4 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "goodCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "badCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "missedCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalScore", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "playedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "clearedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "failedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullComboCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timePlayed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "handDistanceTravelled", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalCutScore", ty: "int64_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore) ;
+static GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore) ;
 
 /// @brief Method .ctor addr 0x2220de0 size 0x94 virtual false final false
  void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore) ;
@@ -397,14 +398,12 @@ constexpr System::Action_2<GlobalNamespace::MissionCompletionResults,GlobalNames
 /// @brief Method remove_didUpdateCampaignOverallStatsDataEvent addr 0x2220944 size 0xb0 virtual false final false
  void remove_didUpdateCampaignOverallStatsDataEvent(System::Action_2<GlobalNamespace::MissionCompletionResults,GlobalNamespace::MissionNode> value) ;
 
-// Ctor Parameters []
-explicit PlayerAllOverallStatsData() ;
+static GlobalNamespace::PlayerAllOverallStatsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x22209f4 size 0xc0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "campaignOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "soloFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "partyFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "onlinePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData", modifiers: "", def_value: None }]
-explicit PlayerAllOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData onlinePlayOverallStatsData) ;
+static GlobalNamespace::PlayerAllOverallStatsData New_ctor(GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData onlinePlayOverallStatsData) ;
 
 /// @brief Method .ctor addr 0x2220abc size 0x40 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData onlinePlayOverallStatsData) ;

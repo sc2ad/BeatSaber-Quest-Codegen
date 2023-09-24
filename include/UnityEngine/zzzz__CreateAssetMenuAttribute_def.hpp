@@ -76,8 +76,7 @@ constexpr ::StringW __get__fileName_k__BackingField() const;
 /// @brief Method set_fileName addr 0x2b5b294 size 0x8 virtual false final false
  void set_fileName(::StringW value) ;
 
-// Ctor Parameters []
-explicit CreateAssetMenuAttribute() ;
+static UnityEngine::CreateAssetMenuAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5b29c size 0x8 virtual false final false
  void _ctor() ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspListID_def.hpp"
-#include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspResponsesID_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspResponsesID_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Esf::OcspListID.GetInstance
 template<>
 
@@ -122,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Esf::OcspListID, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OcspListID::OcspListID(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OcspListID>(seq))) {}
+ Org::BouncyCastle::Asn1::Esf::OcspListID Org::BouncyCastle::Asn1::Esf::OcspListID::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Esf::OcspListID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OcspListID>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OcspListID::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OcspListID>::get(),
@@ -133,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "ocspResponses", ty: "::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OcspListID::OcspListID(::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID> ocspResponses)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OcspListID>(ocspResponses))) {}
+ Org::BouncyCastle::Asn1::Esf::OcspListID Org::BouncyCastle::Asn1::Esf::OcspListID::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID> ocspResponses)  {
+Org::BouncyCastle::Asn1::Esf::OcspListID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OcspListID>(ocspResponses))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OcspListID::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID> ocspResponses)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OcspListID>::get(),
@@ -144,8 +148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ocspResponses);
 }
-// Ctor Parameters [CppParam { name: "ocspResponses", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OcspListID::OcspListID(System::Collections::IEnumerable ocspResponses)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OcspListID>(ocspResponses))) {}
+ Org::BouncyCastle::Asn1::Esf::OcspListID Org::BouncyCastle::Asn1::Esf::OcspListID::New_ctor(System::Collections::IEnumerable ocspResponses)  {
+Org::BouncyCastle::Asn1::Esf::OcspListID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OcspListID>(ocspResponses))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OcspListID::_ctor(System::Collections::IEnumerable ocspResponses)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OcspListID>::get(),

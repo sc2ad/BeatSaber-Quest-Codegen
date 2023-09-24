@@ -1,23 +1,23 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class GameServersFilter;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
+namespace HMUI {
+class CurvedTextMeshPro;
 }
 namespace GlobalNamespace {
 class SongPackMasksModel;
 }
-namespace HMUI {
-class CurvedTextMeshPro;
+namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+class GameServersFilter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -92,8 +92,7 @@ constexpr System::Text::StringBuilder __get__stringBuilder() const;
 /// @brief Method Setup addr 0x2187888 size 0x1f8 virtual false final false
  void Setup(GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, GlobalNamespace::SongPackMask songPackMask, bool visible) ;
 
-// Ctor Parameters []
-explicit GameServersFilterText() ;
+static GlobalNamespace::GameServersFilterText New_ctor() ;
 
 /// @brief Method .ctor addr 0x2187a80 size 0x68 virtual false final false
  void _ctor() ;

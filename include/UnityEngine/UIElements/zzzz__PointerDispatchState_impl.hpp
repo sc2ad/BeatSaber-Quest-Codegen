@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__PointerDispatchState_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::PointerDispatchState._ctor
 template<>
 
@@ -207,8 +207,10 @@ constexpr void UnityEngine::UIElements::PointerDispatchState::__set_m_ShouldSend
 constexpr ::ArrayW<bool> UnityEngine::UIElements::PointerDispatchState::__get_m_ShouldSendCompatibilityMouseEvents() const {
 return ::cordl_internals::getInstanceField<::ArrayW<bool>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::PointerDispatchState::PointerDispatchState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PointerDispatchState>())) {}
+ UnityEngine::UIElements::PointerDispatchState UnityEngine::UIElements::PointerDispatchState::New_ctor()  {
+UnityEngine::UIElements::PointerDispatchState o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PointerDispatchState>())};
+return o;
+}
  void UnityEngine::UIElements::PointerDispatchState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PointerDispatchState>::get(),

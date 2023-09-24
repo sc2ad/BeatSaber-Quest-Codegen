@@ -8,23 +8,23 @@ namespace HMUI {
 class DropdownWithTableView;
 }
 namespace HMUI {
-class TableView;
+class HMUI__TableView__IDataSource;
 }
 namespace GlobalNamespace {
 class SimpleTextTableCell;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
 namespace HMUI {
-class HMUI__TableView__IDataSource;
+class TableView;
 }
 namespace HMUI {
 class TableCell;
 }
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -138,8 +138,7 @@ constexpr bool __get__initialized() const;
 /// @brief Method HandleDidSelectCellWithIdx addr 0x1fd309c size 0x14c virtual false final false
  void HandleDidSelectCellWithIdx(HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
 
-// Ctor Parameters []
-explicit SimpleTextDropdown() ;
+static HMUI::SimpleTextDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd31e8 size 0x10 virtual false final false
  void _ctor() ;

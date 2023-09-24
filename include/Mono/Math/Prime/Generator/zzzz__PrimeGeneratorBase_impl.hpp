@@ -1,8 +1,8 @@
 #pragma once
 #include "Mono/Math/Prime/Generator/zzzz__PrimeGeneratorBase_def.hpp"
+#include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"
 #include "Mono/Math/zzzz__BigInteger_def.hpp"
 #include "Mono/Math/Prime/zzzz__PrimalityTest_def.hpp"
-#include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"
 //  Writing Method size for method: Mono::Math::Prime::Generator::PrimeGeneratorBase.get_Confidence
 template<>
 
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Mono::Math::BigInteger, false>(const_cast<void*>(instance), ___internal_method, bits);
 }
-// Ctor Parameters []
- Mono::Math::Prime::Generator::PrimeGeneratorBase::PrimeGeneratorBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PrimeGeneratorBase>())) {}
+ Mono::Math::Prime::Generator::PrimeGeneratorBase Mono::Math::Prime::Generator::PrimeGeneratorBase::New_ctor()  {
+Mono::Math::Prime::Generator::PrimeGeneratorBase o{THROW_UNLESS(::il2cpp_utils::New<Mono::Math::Prime::Generator::PrimeGeneratorBase>())};
+return o;
+}
  void Mono::Math::Prime::Generator::PrimeGeneratorBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Math::Prime::Generator::PrimeGeneratorBase>::get(),

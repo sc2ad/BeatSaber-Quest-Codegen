@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_AssetPreset_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputPreset_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeCachePreset_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_AssetPreset._ctor
 template<>
 
@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::HEU_AssetPreset::__set_volumeCachePresets(Sys
 constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset> HoudiniEngineUnity::HEU_AssetPreset::__get_volumeCachePresets() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset>, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_AssetPreset::HEU_AssetPreset()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_AssetPreset>())) {}
+ HoudiniEngineUnity::HEU_AssetPreset HoudiniEngineUnity::HEU_AssetPreset::New_ctor()  {
+HoudiniEngineUnity::HEU_AssetPreset o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_AssetPreset>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_AssetPreset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_AssetPreset>::get(),

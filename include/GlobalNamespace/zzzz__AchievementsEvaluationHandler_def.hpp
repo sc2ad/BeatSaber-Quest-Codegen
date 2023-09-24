@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class MissionNodesManager;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class MissionCompletionResults;
@@ -17,13 +17,13 @@ namespace GlobalNamespace {
 class AchievementsModelSO;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
 class AchievementSO;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MissionNodesManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -266,8 +266,7 @@ constexpr GlobalNamespace::MissionNodesManager __get__missionNodesManager() cons
 /// @brief Method ProcessLevelFinishData addr 0x20c5e9c size 0x654 virtual false final false
  void ProcessLevelFinishData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
-// Ctor Parameters []
-explicit AchievementsEvaluationHandler() ;
+static GlobalNamespace::AchievementsEvaluationHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c6d2c size 0x8 virtual false final false
  void _ctor() ;

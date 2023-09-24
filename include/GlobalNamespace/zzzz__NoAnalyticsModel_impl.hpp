@@ -205,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, exposureType, exposureData);
 }
-// Ctor Parameters []
- GlobalNamespace::NoAnalyticsModel::NoAnalyticsModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NoAnalyticsModel>())) {}
+ GlobalNamespace::NoAnalyticsModel GlobalNamespace::NoAnalyticsModel::New_ctor()  {
+GlobalNamespace::NoAnalyticsModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoAnalyticsModel>())};
+return o;
+}
  void GlobalNamespace::NoAnalyticsModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoAnalyticsModel>::get(),

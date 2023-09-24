@@ -9,7 +9,7 @@ class StringSO;
 // Type: ::StringSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13904)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 380 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(13904))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13907))
 // CS Name: StringSO
 class CORDL_TYPE StringSO : public GlobalNamespace::ObservableVariableSO_1<::StringW> {
@@ -48,8 +48,7 @@ constexpr explicit StringSO(void* ptr) noexcept : GlobalNamespace::ObservableVar
 
 // Methods
 
-// Ctor Parameters []
-explicit StringSO() ;
+static GlobalNamespace::StringSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83e0c size 0x48 virtual false final false
  void _ctor() ;

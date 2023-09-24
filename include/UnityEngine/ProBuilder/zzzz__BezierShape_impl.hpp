@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__BezierShape_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__BezierPoint_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::BezierShape.get_isEditing
 template<>
 
@@ -225,8 +225,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::BezierShape::BezierShape()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BezierShape>())) {}
+ UnityEngine::ProBuilder::BezierShape UnityEngine::ProBuilder::BezierShape::New_ctor()  {
+UnityEngine::ProBuilder::BezierShape o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::BezierShape>())};
+return o;
+}
  void UnityEngine::ProBuilder::BezierShape::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::BezierShape>::get(),

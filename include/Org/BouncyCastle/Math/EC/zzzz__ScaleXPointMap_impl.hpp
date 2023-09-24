@@ -47,8 +47,10 @@ constexpr void Org::BouncyCastle::Math::EC::ScaleXPointMap::__set_scale(Org::Bou
 constexpr Org::BouncyCastle::Math::EC::ECFieldElement Org::BouncyCastle::Math::EC::ScaleXPointMap::__get_scale() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::ECFieldElement, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "scale", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::ScaleXPointMap::ScaleXPointMap(Org::BouncyCastle::Math::EC::ECFieldElement scale)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ScaleXPointMap>(scale))) {}
+ Org::BouncyCastle::Math::EC::ScaleXPointMap Org::BouncyCastle::Math::EC::ScaleXPointMap::New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement scale)  {
+Org::BouncyCastle::Math::EC::ScaleXPointMap o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::ScaleXPointMap>(scale))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::ScaleXPointMap::_ctor(Org::BouncyCastle::Math::EC::ECFieldElement scale)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::ScaleXPointMap>::get(),

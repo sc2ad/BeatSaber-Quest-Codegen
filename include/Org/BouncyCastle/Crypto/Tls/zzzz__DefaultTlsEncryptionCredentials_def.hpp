@@ -6,11 +6,11 @@
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -84,8 +84,7 @@ constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_mPrivateKey() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "certificate", ty: "Org::BouncyCastle::Crypto::Tls::Certificate", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit DefaultTlsEncryptionCredentials(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;
 
 /// @brief Method .ctor addr 0xed5ee0 size 0x234 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;

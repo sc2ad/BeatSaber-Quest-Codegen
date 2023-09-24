@@ -42,8 +42,10 @@ constexpr void GlobalNamespace::LightTranslationBaseData::__set_translation(floa
 constexpr float_t GlobalNamespace::LightTranslationBaseData::__get_translation() const {
 return ::cordl_internals::getInstanceField<float_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventTranslationValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "translation", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::LightTranslationBaseData::LightTranslationBaseData(float_t beat, bool usePreviousEventTranslationValue, GlobalNamespace::EaseType easeType, float_t translation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LightTranslationBaseData>(beat, usePreviousEventTranslationValue, easeType, translation))) {}
+ GlobalNamespace::LightTranslationBaseData GlobalNamespace::LightTranslationBaseData::New_ctor(float_t beat, bool usePreviousEventTranslationValue, GlobalNamespace::EaseType easeType, float_t translation)  {
+GlobalNamespace::LightTranslationBaseData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightTranslationBaseData>(beat, usePreviousEventTranslationValue, easeType, translation))};
+return o;
+}
  void GlobalNamespace::LightTranslationBaseData::_ctor(float_t beat, bool usePreviousEventTranslationValue, GlobalNamespace::EaseType easeType, float_t translation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightTranslationBaseData>::get(),

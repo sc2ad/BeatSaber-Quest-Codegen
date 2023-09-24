@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
@@ -77,8 +77,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 /// @brief Method GenerateKeyPair addr 0xe7af14 size 0xb0 virtual true final false
  Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair GenerateKeyPair() ;
 
-// Ctor Parameters []
-explicit X448KeyPairGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe7afc4 size 0x8 virtual false final false
  void _ctor() ;

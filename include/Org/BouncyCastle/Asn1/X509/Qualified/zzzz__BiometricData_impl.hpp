@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__BiometricData_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerIA5String_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__TypeOfBiometricData_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerIA5String_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__TypeOfBiometricData_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::Qualified::BiometricData.GetInstance
 template<>
 
@@ -193,8 +193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::Qualified::BiometricData, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::BiometricData::BiometricData(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<BiometricData>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::BiometricData Org::BouncyCastle::Asn1::X509::Qualified::BiometricData::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::Qualified::BiometricData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::BiometricData>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::BiometricData::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::BiometricData>::get(),
@@ -204,8 +206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "typeOfBiometricData", ty: "Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "biometricDataHash", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "sourceDataUri", ty: "Org::BouncyCastle::Asn1::DerIA5String", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::BiometricData::BiometricData(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash, Org::BouncyCastle::Asn1::DerIA5String sourceDataUri)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<BiometricData>(typeOfBiometricData, hashAlgorithm, biometricDataHash, sourceDataUri))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::BiometricData Org::BouncyCastle::Asn1::X509::Qualified::BiometricData::New_ctor(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash, Org::BouncyCastle::Asn1::DerIA5String sourceDataUri)  {
+Org::BouncyCastle::Asn1::X509::Qualified::BiometricData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::BiometricData>(typeOfBiometricData, hashAlgorithm, biometricDataHash, sourceDataUri))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::BiometricData::_ctor(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash, Org::BouncyCastle::Asn1::DerIA5String sourceDataUri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::BiometricData>::get(),
@@ -215,8 +219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, typeOfBiometricData, hashAlgorithm, biometricDataHash, sourceDataUri);
 }
-// Ctor Parameters [CppParam { name: "typeOfBiometricData", ty: "Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "biometricDataHash", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::BiometricData::BiometricData(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<BiometricData>(typeOfBiometricData, hashAlgorithm, biometricDataHash))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::BiometricData Org::BouncyCastle::Asn1::X509::Qualified::BiometricData::New_ctor(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash)  {
+Org::BouncyCastle::Asn1::X509::Qualified::BiometricData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::BiometricData>(typeOfBiometricData, hashAlgorithm, biometricDataHash))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::BiometricData::_ctor(Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData typeOfBiometricData, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString biometricDataHash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::BiometricData>::get(),

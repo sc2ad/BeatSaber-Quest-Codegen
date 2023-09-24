@@ -5,13 +5,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct LightmapBakeType;
-}
-namespace UnityEngine {
 struct MixedLightingMode;
 }
 namespace UnityEngine {
 struct LightmapsMode;
+}
+namespace UnityEngine::Rendering {
+struct UnityEngine__Rendering__SupportedRenderingFeatures__ReflectionProbeModes;
+}
+namespace UnityEngine {
+struct LightmapBakeType;
+}
+namespace UnityEngine::Rendering {
+struct UnityEngine__Rendering__SupportedRenderingFeatures__LightmapMixedBakeModes;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -72,6 +78,8 @@ __Rotation = 1,
 constexpr operator __UnityEngine__Rendering__SupportedRenderingFeatures__ReflectionProbeModes_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Rendering__SupportedRenderingFeatures__ReflectionProbeModes_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -143,6 +151,8 @@ __Shadowmask = 4,
 constexpr operator __UnityEngine__Rendering__SupportedRenderingFeatures__LightmapMixedBakeModes_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Rendering__SupportedRenderingFeatures__LightmapMixedBakeModes_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -475,8 +485,7 @@ static void IsAutoDefaultReflectionProbeBakingSupported(::cordl_internals::intpt
 /// @brief Method FallbackLightmapperByRef addr 0x2b769dc size 0x1c virtual false final false
 static void FallbackLightmapperByRef(::cordl_internals::intptr_t lightmapperPtr) ;
 
-// Ctor Parameters []
-explicit SupportedRenderingFeatures() ;
+static UnityEngine::Rendering::SupportedRenderingFeatures New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b74e50 size 0x90 virtual false final false
  void _ctor() ;

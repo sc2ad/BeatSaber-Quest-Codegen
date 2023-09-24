@@ -47,8 +47,7 @@ constexpr explicit OptionalAttribute(void* ptr) noexcept : System::Attribute(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit OptionalAttribute() ;
+static System::Runtime::InteropServices::OptionalAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236acb0 size 0x8 virtual false final false
  void _ctor() ;

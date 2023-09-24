@@ -1,6 +1,99 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__ExecuteMainThreadJobs;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__ProcessMouseInWindow;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__DeliverIosPlatformEvents;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__PresentBeforeUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__UpdatePreloading;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__UpdateInputManager;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__ARCoreUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__PlayerCleanupCachedData;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__DispatchEventQueueEvents;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__UpdateKinect;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__UpdateTextureStreamingManager;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__ResetFrameStatsAfterPresent;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__PerformanceAnalyticsUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__ProcessRemoteInput;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__UpdateCanvasRectTransform;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__UpdateMainGameViewRect;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__ScriptRunDelayedStartupFrame;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__UnityWebRequestUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__XRUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__PhysicsResetInterpolatedTransformPosition;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__TangoUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__ClearIntermediateRenderers;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__AnalyticsCoreStatsUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__UpdateAsyncReadbackManager;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__GpuTimestamp;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__UpdateStreamingManager;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__PollPlayerConnection;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__ClearLines;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__PollHtcsPlayerConnection;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__SpriteAtlasManagerUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__EarlyUpdate__RendererNotifyInvisible;
+}
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct EarlyUpdate;

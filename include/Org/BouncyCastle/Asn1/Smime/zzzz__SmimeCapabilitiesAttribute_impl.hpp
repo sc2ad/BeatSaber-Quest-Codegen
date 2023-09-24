@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "capabilities", ty: "Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::SmimeCapabilitiesAttribute(Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector capabilities)  : Org::BouncyCastle::Asn1::X509::AttributeX509(THROW_UNLESS(::il2cpp_utils::New<SmimeCapabilitiesAttribute>(capabilities))) {}
+ Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::New_ctor(Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector capabilities)  {
+Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute>(capabilities))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::_ctor(Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector capabilities)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute>::get(),

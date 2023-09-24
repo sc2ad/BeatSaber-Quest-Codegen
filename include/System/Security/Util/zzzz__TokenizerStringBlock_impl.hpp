@@ -29,8 +29,10 @@ constexpr void System::Security::Util::TokenizerStringBlock::__set_m_next(System
 constexpr System::Security::Util::TokenizerStringBlock System::Security::Util::TokenizerStringBlock::__get_m_next() const {
 return ::cordl_internals::getInstanceField<System::Security::Util::TokenizerStringBlock, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Util::TokenizerStringBlock::TokenizerStringBlock()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TokenizerStringBlock>())) {}
+ System::Security::Util::TokenizerStringBlock System::Security::Util::TokenizerStringBlock::New_ctor()  {
+System::Security::Util::TokenizerStringBlock o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Util::TokenizerStringBlock>())};
+return o;
+}
  void System::Security::Util::TokenizerStringBlock::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Util::TokenizerStringBlock>::get(),

@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, id);
 }
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Sig::SignerUserId::SignerUserId(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<SignerUserId>(critical, isLongLength, data))) {}
+ Org::BouncyCastle::Bcpg::Sig::SignerUserId Org::BouncyCastle::Bcpg::Sig::SignerUserId::New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::Sig::SignerUserId o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Sig::SignerUserId>(critical, isLongLength, data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Sig::SignerUserId::_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Sig::SignerUserId>::get(),
@@ -89,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, critical, isLongLength, data);
 }
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Sig::SignerUserId::SignerUserId(bool critical, ::StringW userId)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<SignerUserId>(critical, userId))) {}
+ Org::BouncyCastle::Bcpg::Sig::SignerUserId Org::BouncyCastle::Bcpg::Sig::SignerUserId::New_ctor(bool critical, ::StringW userId)  {
+Org::BouncyCastle::Bcpg::Sig::SignerUserId o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Sig::SignerUserId>(critical, userId))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Sig::SignerUserId::_ctor(bool critical, ::StringW userId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Sig::SignerUserId>::get(),

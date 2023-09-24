@@ -2,6 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Mono {
+struct Mono__MonoAssemblyName___public_key_token_e__FixedBuffer;
+}
 // Forward declare root types
 namespace Mono {
 struct MonoAssemblyName;

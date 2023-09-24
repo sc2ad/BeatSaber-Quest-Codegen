@@ -1,11 +1,12 @@
 #pragma once
 #include "System/IO/zzzz__Path_def.hpp"
+#include "System/IO/zzzz__Path_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__ValueTuple_1_def.hpp"
 #include "System/zzzz__ValueTuple_8_def.hpp"
 #include "System/zzzz__ValueTuple_5_def.hpp"
 #include "System/Buffers/zzzz__SpanAction_2_def.hpp"
-#include "System/zzzz__ValueTuple_1_def.hpp"
 //  Writing Method size for method: System::IO::System__IO__Path____c._ctor
 template<>
 
@@ -75,8 +76,10 @@ return ::cordl_internals::getStaticField<System::Buffers::SpanAction_2<char16_t,
  System::Buffers::SpanAction_2<char16_t,System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,System::ValueTuple_1<bool>>> System::IO::System__IO__Path____c::__get___9__57_0()  {
 return ::cordl_internals::getStaticField<System::Buffers::SpanAction_2<char16_t,System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,System::ValueTuple_1<bool>>>, "<>9__57_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Path____c>::get>();
 }
-// Ctor Parameters []
- System::IO::System__IO__Path____c::System__IO__Path____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Path____c>())) {}
+ System::IO::System__IO__Path____c System::IO::System__IO__Path____c::New_ctor()  {
+System::IO::System__IO__Path____c o{THROW_UNLESS(::il2cpp_utils::New<System::IO::System__IO__Path____c>())};
+return o;
+}
  void System::IO::System__IO__Path____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Path____c>::get(),

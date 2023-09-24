@@ -69,8 +69,7 @@ constexpr UnityEngine::Rendering::IndexFormat __get__indexFormat() const;
 /// @brief Method SetFormatForMesh addr 0x205e99c size 0x24 virtual false final false
  void SetFormatForMesh(UnityEngine::Mesh mesh) ;
 
-// Ctor Parameters []
-explicit HEU_MeshIndexFormat() ;
+static HoudiniEngineUnity::HEU_MeshIndexFormat New_ctor() ;
 
 /// @brief Method .ctor addr 0x205e9c0 size 0x8 virtual false final false
  void _ctor() ;

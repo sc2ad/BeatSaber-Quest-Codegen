@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Security::InvalidKeyException::InvalidKeyException()  : Org::BouncyCastle::Security::KeyException(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>())) {}
+ Org::BouncyCastle::Security::InvalidKeyException Org::BouncyCastle::Security::InvalidKeyException::New_ctor()  {
+Org::BouncyCastle::Security::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::InvalidKeyException>())};
+return o;
+}
  void Org::BouncyCastle::Security::InvalidKeyException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::InvalidKeyException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Security::InvalidKeyException::InvalidKeyException(::StringW message)  : Org::BouncyCastle::Security::KeyException(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>(message))) {}
+ Org::BouncyCastle::Security::InvalidKeyException Org::BouncyCastle::Security::InvalidKeyException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Security::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::InvalidKeyException>(message))};
+return o;
+}
  void Org::BouncyCastle::Security::InvalidKeyException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::InvalidKeyException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Security::InvalidKeyException::InvalidKeyException(::StringW message, System::Exception exception)  : Org::BouncyCastle::Security::KeyException(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>(message, exception))) {}
+ Org::BouncyCastle::Security::InvalidKeyException Org::BouncyCastle::Security::InvalidKeyException::New_ctor(::StringW message, System::Exception exception)  {
+Org::BouncyCastle::Security::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::InvalidKeyException>(message, exception))};
+return o;
+}
  void Org::BouncyCastle::Security::InvalidKeyException::_ctor(::StringW message, System::Exception exception)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::InvalidKeyException>::get(),

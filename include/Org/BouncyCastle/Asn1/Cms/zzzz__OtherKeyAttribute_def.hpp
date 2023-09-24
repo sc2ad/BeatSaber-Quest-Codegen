@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_keyAttr() const;
 /// @brief Method GetInstance addr 0xdeb990 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OtherKeyAttribute(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdee62c size 0xe0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "keyAttrId", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keyAttr", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit OtherKeyAttribute(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAttrId, Org::BouncyCastle::Asn1::Asn1Encodable keyAttr) ;
+static Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAttrId, Org::BouncyCastle::Asn1::Asn1Encodable keyAttr) ;
 
 /// @brief Method .ctor addr 0xdee70c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAttrId, Org::BouncyCastle::Asn1::Asn1Encodable keyAttr) ;

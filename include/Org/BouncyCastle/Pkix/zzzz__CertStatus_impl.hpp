@@ -134,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::CertStatus::CertStatus()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertStatus>())) {}
+ Org::BouncyCastle::Pkix::CertStatus Org::BouncyCastle::Pkix::CertStatus::New_ctor()  {
+Org::BouncyCastle::Pkix::CertStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::CertStatus>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::CertStatus::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::CertStatus>::get(),

@@ -3,15 +3,18 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Xml::Schema {
+class System__Xml__Schema__XmlSchemaParticle__EmptyParticle;
+}
+namespace System::Xml::Schema {
+struct System__Xml__Schema__XmlSchemaParticle__Occurs;
+}
 namespace System {
 struct Decimal;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
 struct System__Xml__Schema__XmlSchemaParticle__Occurs;
-}
-namespace System::Xml::Schema {
-class System__Xml__Schema__XmlSchemaParticle__EmptyParticle;
 }
 namespace System::Xml::Schema {
 class XmlSchemaParticle;
@@ -66,6 +69,8 @@ __Max = 2,
 constexpr operator __System__Xml__Schema__XmlSchemaParticle__Occurs_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__Schema__XmlSchemaParticle__Occurs_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -175,8 +180,7 @@ static System::Xml::Schema::XmlSchemaParticle __get_Empty() ;
 /// @brief Method set_MaxOccurs addr 0x2734090 size 0x164 virtual false final false
  void set_MaxOccurs(System::Decimal value) ;
 
-// Ctor Parameters []
-explicit XmlSchemaParticle() ;
+static System::Xml::Schema::XmlSchemaParticle New_ctor() ;
 
 /// @brief Method .ctor addr 0x273385c size 0x74 virtual false final false
  void _ctor() ;
@@ -185,60 +189,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-// Type: ::EmptyParticle
-namespace System::Xml::Schema {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11676))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11675))
-// CS Name: System.Xml.Schema.XmlSchemaParticle::EmptyParticle
-class CORDL_TYPE System__Xml__Schema__XmlSchemaParticle__EmptyParticle : public System::Xml::Schema::XmlSchemaParticle {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
-
-virtual ~System__Xml__Schema__XmlSchemaParticle__EmptyParticle() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Xml__Schema__XmlSchemaParticle__EmptyParticle", modifiers: " const&", def_value: None }]
-constexpr System__Xml__Schema__XmlSchemaParticle__EmptyParticle(System__Xml__Schema__XmlSchemaParticle__EmptyParticle const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Xml__Schema__XmlSchemaParticle__EmptyParticle", modifiers: "&&", def_value: None }]
-constexpr System__Xml__Schema__XmlSchemaParticle__EmptyParticle(System__Xml__Schema__XmlSchemaParticle__EmptyParticle&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Xml__Schema__XmlSchemaParticle__EmptyParticle(void* ptr) noexcept : System::Xml::Schema::XmlSchemaParticle(ptr) {
-}
-
-
-  constexpr System__Xml__Schema__XmlSchemaParticle__EmptyParticle& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Xml__Schema__XmlSchemaParticle__EmptyParticle& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Xml__Schema__XmlSchemaParticle__EmptyParticle& operator=(System__Xml__Schema__XmlSchemaParticle__EmptyParticle&& o) noexcept = default;
-  constexpr System__Xml__Schema__XmlSchemaParticle__EmptyParticle& operator=(System__Xml__Schema__XmlSchemaParticle__EmptyParticle const& o) noexcept = default;
-                
-
-
-// Methods
-
-// Ctor Parameters []
-explicit System__Xml__Schema__XmlSchemaParticle__EmptyParticle() ;
-
-/// @brief Method .ctor addr 0x27353e8 size 0x54 virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::System__Xml__Schema__XmlSchemaParticle__Occurs, "System.Xml.Schema", "XmlSchemaParticle/Occurs");
-NEED_NO_BOX(System::Xml::Schema::System__Xml__Schema__XmlSchemaParticle__EmptyParticle);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::System__Xml__Schema__XmlSchemaParticle__EmptyParticle, "System.Xml.Schema", "XmlSchemaParticle/EmptyParticle");
 NEED_NO_BOX(System::Xml::Schema::XmlSchemaParticle);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaParticle, "System.Xml.Schema", "XmlSchemaParticle");

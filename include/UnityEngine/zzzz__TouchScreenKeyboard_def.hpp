@@ -6,10 +6,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
+struct TouchScreenKeyboardType;
+}
+namespace UnityEngine {
 struct RangeInt;
 }
 namespace UnityEngine {
-struct TouchScreenKeyboardType;
+struct UnityEngine__TouchScreenKeyboard__Status;
 }
 namespace UnityEngine {
 struct TouchScreenKeyboard_InternalConstructorHelperArguments;
@@ -72,6 +75,8 @@ __LostFocus = 3,
 constexpr operator __UnityEngine__TouchScreenKeyboard__Status_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__TouchScreenKeyboard__Status_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -191,8 +196,7 @@ static void Internal_Destroy(::cordl_internals::intptr_t ptr) ;
 /// @brief Method Finalize addr 0x2b554b4 size 0x94 virtual true final false
  void Finalize() ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyboardType", ty: "UnityEngine::TouchScreenKeyboardType", modifiers: "", def_value: None }, CppParam { name: "autocorrection", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "multiline", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "secure", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "alert", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "textPlaceholder", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "characterLimit", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TouchScreenKeyboard(::StringW text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::StringW textPlaceholder, int32_t characterLimit) ;
+static UnityEngine::TouchScreenKeyboard New_ctor(::StringW text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::StringW textPlaceholder, int32_t characterLimit) ;
 
 /// @brief Method .ctor addr 0x2b55548 size 0x15c virtual false final false
  void _ctor(::StringW text, UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, ::StringW textPlaceholder, int32_t characterLimit) ;

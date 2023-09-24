@@ -15,10 +15,70 @@ template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__RankModel__Rank;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PracticeSettings;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__MultiplayerModeSettings;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerLevelStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__ColorScheme;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerOverallStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerAgreementsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__GameplayModifiers;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__LocalPlayer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__ColorSchemesSettings;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__GuestPlayer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveData__PlayerMissionStatsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -135,6 +195,8 @@ constexpr operator __GlobalNamespace__PlayerSaveData__GameplayModifiers__Enabled
 return std::bit_cast<__GlobalNamespace__PlayerSaveData__GameplayModifiers__EnabledObstacleType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -207,6 +269,8 @@ constexpr operator __GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyT
 return std::bit_cast<__GlobalNamespace__PlayerSaveData__GameplayModifiers__EnergyType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -276,6 +340,8 @@ __Slower = 2,
 constexpr operator __GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__PlayerSaveData__GameplayModifiers__SongSpeed_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -440,8 +506,7 @@ constexpr bool __get_smallCubes() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__GameplayModifiers() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__GameplayModifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0x22236fc size 0x8 virtual false final false
  void _ctor() ;
@@ -500,6 +565,8 @@ __NoEffects = 10,
 constexpr operator __GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -575,6 +642,8 @@ constexpr operator __GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__Ar
 return std::bit_cast<__GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -649,6 +718,8 @@ __Static = 1,
 constexpr operator __GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -840,8 +911,7 @@ constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettin
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__PlayerSpecificSettings() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerSpecificSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2223704 size 0x34 virtual false final false
  void _ctor() ;
@@ -919,14 +989,12 @@ constexpr GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsDa
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2226bc0 size 0xc0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "campaignOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "soloFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "partyFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "onlinePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData onlinePlayOverallStatsData) ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAllOverallStatsData New_ctor(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData onlinePlayOverallStatsData) ;
 
 /// @brief Method .ctor addr 0x2226d6c size 0x40 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData onlinePlayOverallStatsData) ;
@@ -1046,14 +1114,12 @@ constexpr int64_t __get_cummulativeCutScoreWithoutMultiplier() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__PlayerOverallStatsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2226dac size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "goodCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "badCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "missedCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalScore", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "playedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cleardLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "failedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullComboCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timePlayed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "handDistanceTravelled", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cummulativeCutScoreWithoutMultiplier", ty: "int64_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlayerSaveData__PlayerOverallStatsData(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerOverallStatsData New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) ;
 
 /// @brief Method .ctor addr 0x2226db4 size 0xb0 virtual false final false
  void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) ;
@@ -1161,8 +1227,7 @@ constexpr int32_t __get_playCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__PlayerLevelStatsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerLevelStatsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2223844 size 0x8 virtual false final false
  void _ctor() ;
@@ -1228,8 +1293,7 @@ constexpr bool __get_cleared() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__PlayerMissionStatsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerMissionStatsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x222384c size 0x8 virtual false final false
  void _ctor() ;
@@ -1295,8 +1359,7 @@ constexpr float_t __get_songSpeedMul() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__PracticeSettings() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PracticeSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2223770 size 0x8 virtual false final false
  void _ctor() ;
@@ -1398,8 +1461,7 @@ constexpr UnityEngine::Color __get_environmentColor1Boost() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "colorSchemeId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "saberAColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlayerSaveData__ColorScheme(::StringW colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme New_ctor(::StringW colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) ;
 
 /// @brief Method .ctor addr 0x222385c size 0xd0 virtual false final false
  void _ctor(::StringW colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost) ;
@@ -1471,8 +1533,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "overrideDefaultColors", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "selectedColorSchemeId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "colorSchemes", ty: "System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlayerSaveData__ColorSchemesSettings(bool overrideDefaultColors, ::StringW selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> colorSchemes) ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorSchemesSettings New_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> colorSchemes) ;
 
 /// @brief Method .ctor addr 0x222392c size 0x3c virtual false final false
  void _ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PlayerSaveData__ColorScheme> colorSchemes) ;
@@ -1544,8 +1605,7 @@ constexpr ::StringW __get_override360EnvironmentName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__OverrideEnvironmentSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2223968 size 0x8 virtual false final false
  void _ctor() ;
@@ -1605,8 +1665,7 @@ constexpr ::StringW __get_playerName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__GuestPlayer() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__GuestPlayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2223854 size 0x8 virtual false final false
  void _ctor() ;
@@ -1690,8 +1749,7 @@ constexpr bool __get_quickPlayEnableLevelSelection() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__MultiplayerModeSettings() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__MultiplayerModeSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2223970 size 0x74 virtual false final false
  void _ctor() ;
@@ -1763,8 +1821,7 @@ constexpr int32_t __get_healthAndSafetyVersion() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__PlayerAgreementsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__PlayerAgreementsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x22239e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1968,8 +2025,7 @@ constexpr ::StringW __get_currentDlcPromoId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveData__LocalPlayer() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveData__LocalPlayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x22236e4 size 0x18 virtual false final false
  void _ctor() ;
@@ -2066,8 +2122,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 
 // Methods
 
-// Ctor Parameters []
-explicit PlayerSaveData() ;
+static GlobalNamespace::PlayerSaveData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2223690 size 0x54 virtual false final false
  void _ctor() ;

@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class ColorManager;
+class SaberTypeObject;
 }
 namespace GlobalNamespace {
-class SaberTypeObject;
+class ColorManager;
 }
 namespace GlobalNamespace {
 class BlocksBlade;
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::BlocksBlade __get__blocksBlade() const;
 /// @brief Method Start addr 0x210c9e8 size 0x40 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit SetBlocksBladeSaberGlowColor() ;
+static GlobalNamespace::SetBlocksBladeSaberGlowColor New_ctor() ;
 
 /// @brief Method .ctor addr 0x210ca28 size 0x8 virtual false final false
  void _ctor() ;

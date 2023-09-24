@@ -4,6 +4,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace HMUI {
+struct HMUI__ViewController__AnimationType;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -15,10 +21,7 @@ namespace HMUI {
 class ViewController;
 }
 namespace HMUI {
-struct HMUI__ViewController__AnimationType;
-}
-namespace System {
-class IDisposable;
+class HMUI__Screen___TransitionCoroutine_d__5;
 }
 // Forward declare root types
 namespace HMUI {
@@ -136,8 +139,7 @@ constexpr float_t __get__elapsedTime_5__4() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__Screen___TransitionCoroutine_d__5(int32_t __1__state) ;
+static HMUI::HMUI__Screen___TransitionCoroutine_d__5 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fb8334 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -237,8 +239,7 @@ constexpr bool __get__isBeingDestroyed() const;
 /// @brief Method OnDestroy addr 0x1fb835c size 0xc virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit Screen() ;
+static HMUI::Screen New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb8368 size 0x8 virtual false final false
  void _ctor() ;

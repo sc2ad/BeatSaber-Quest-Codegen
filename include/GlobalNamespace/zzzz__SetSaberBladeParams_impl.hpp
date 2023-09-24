@@ -3,8 +3,9 @@
 #include "GlobalNamespace/zzzz__SetSaberBladeParams_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__SetSaberBladeParams_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair._ctor
 template<>
 
@@ -34,8 +35,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTi
 constexpr ::StringW GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair::__get_property() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair>())) {}
+ GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair>::get(),
@@ -112,8 +115,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SetSaberBladeParams::SetSaberBladeParams()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SetSaberBladeParams>())) {}
+ GlobalNamespace::SetSaberBladeParams GlobalNamespace::SetSaberBladeParams::New_ctor()  {
+GlobalNamespace::SetSaberBladeParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SetSaberBladeParams>())};
+return o;
+}
  void GlobalNamespace::SetSaberBladeParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SetSaberBladeParams>::get(),

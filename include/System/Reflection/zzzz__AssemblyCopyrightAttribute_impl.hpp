@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyCopyrightAttribute::__set__Copyright_
 constexpr ::StringW System::Reflection::AssemblyCopyrightAttribute::__get__Copyright_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "copyright", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyCopyrightAttribute::AssemblyCopyrightAttribute(::StringW copyright)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyCopyrightAttribute>(copyright))) {}
+ System::Reflection::AssemblyCopyrightAttribute System::Reflection::AssemblyCopyrightAttribute::New_ctor(::StringW copyright)  {
+System::Reflection::AssemblyCopyrightAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyCopyrightAttribute>(copyright))};
+return o;
+}
  void System::Reflection::AssemblyCopyrightAttribute::_ctor(::StringW copyright)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyCopyrightAttribute>::get(),

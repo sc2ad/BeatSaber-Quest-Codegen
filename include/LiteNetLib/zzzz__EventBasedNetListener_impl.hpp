@@ -1,18 +1,19 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "LiteNetLib/zzzz__EventBasedNetListener_def.hpp"
-#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
 #include "LiteNetLib/zzzz__IDeliveryEventListener_def.hpp"
-#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
-#include "LiteNetLib/zzzz__INetEventListener_def.hpp"
-#include "LiteNetLib/zzzz__UnconnectedMessageType_def.hpp"
-#include "LiteNetLib/zzzz__DisconnectInfo_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
+#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
+#include "LiteNetLib/zzzz__EventBasedNetListener_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
+#include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
+#include "LiteNetLib/zzzz__DisconnectInfo_def.hpp"
+#include "LiteNetLib/zzzz__UnconnectedMessageType_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
+#include "LiteNetLib/zzzz__INetEventListener_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerConnected._ctor
 template<>
 
@@ -81,8 +82,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerConnected::LiteNetLib__EventBasedNetListener__OnPeerConnected(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__EventBasedNetListener__OnPeerConnected>(object, method))) {}
+ LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerConnected LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerConnected::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerConnected o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerConnected>(object, method))};
+return o;
+}
  void LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerConnected::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerConnected>::get(),
@@ -187,8 +190,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerDisconnected::LiteNetLib__EventBasedNetListener__OnPeerDisconnected(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__EventBasedNetListener__OnPeerDisconnected>(object, method))) {}
+ LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerDisconnected LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerDisconnected::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerDisconnected o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerDisconnected>(object, method))};
+return o;
+}
  void LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerDisconnected::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerDisconnected>::get(),
@@ -293,8 +298,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkError::LiteNetLib__EventBasedNetListener__OnNetworkError(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__EventBasedNetListener__OnNetworkError>(object, method))) {}
+ LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkError LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkError::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkError o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkError>(object, method))};
+return o;
+}
  void LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkError::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkError>::get(),
@@ -399,8 +406,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceive::LiteNetLib__EventBasedNetListener__OnNetworkReceive(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__EventBasedNetListener__OnNetworkReceive>(object, method))) {}
+ LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceive LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceive::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceive o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceive>(object, method))};
+return o;
+}
  void LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceive::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceive>::get(),
@@ -505,8 +514,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected::LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected>(object, method))) {}
+ LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected>(object, method))};
+return o;
+}
  void LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected>::get(),
@@ -611,8 +622,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate::LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate>(object, method))) {}
+ LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate>(object, method))};
+return o;
+}
  void LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate>::get(),
@@ -717,8 +730,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::LiteNetLib__EventBasedNetListener__OnConnectionRequest::LiteNetLib__EventBasedNetListener__OnConnectionRequest(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__EventBasedNetListener__OnConnectionRequest>(object, method))) {}
+ LiteNetLib::LiteNetLib__EventBasedNetListener__OnConnectionRequest LiteNetLib::LiteNetLib__EventBasedNetListener__OnConnectionRequest::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::LiteNetLib__EventBasedNetListener__OnConnectionRequest o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__EventBasedNetListener__OnConnectionRequest>(object, method))};
+return o;
+}
  void LiteNetLib::LiteNetLib__EventBasedNetListener__OnConnectionRequest::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__EventBasedNetListener__OnConnectionRequest>::get(),
@@ -823,8 +838,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::LiteNetLib__EventBasedNetListener__OnDeliveryEvent::LiteNetLib__EventBasedNetListener__OnDeliveryEvent(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__EventBasedNetListener__OnDeliveryEvent>(object, method))) {}
+ LiteNetLib::LiteNetLib__EventBasedNetListener__OnDeliveryEvent LiteNetLib::LiteNetLib__EventBasedNetListener__OnDeliveryEvent::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::LiteNetLib__EventBasedNetListener__OnDeliveryEvent o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__EventBasedNetListener__OnDeliveryEvent>(object, method))};
+return o;
+}
  void LiteNetLib::LiteNetLib__EventBasedNetListener__OnDeliveryEvent::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__EventBasedNetListener__OnDeliveryEvent>::get(),
@@ -1766,8 +1783,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, peer, userData);
 }
-// Ctor Parameters []
- LiteNetLib::EventBasedNetListener::EventBasedNetListener()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventBasedNetListener>())) {}
+ LiteNetLib::EventBasedNetListener LiteNetLib::EventBasedNetListener::New_ctor()  {
+LiteNetLib::EventBasedNetListener o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::EventBasedNetListener>())};
+return o;
+}
  void LiteNetLib::EventBasedNetListener::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::EventBasedNetListener>::get(),

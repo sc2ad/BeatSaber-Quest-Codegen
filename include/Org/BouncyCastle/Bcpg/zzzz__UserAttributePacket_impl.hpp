@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributePacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::UserAttributePacket._ctor
 template<>
@@ -78,8 +78,10 @@ constexpr void Org::BouncyCastle::Bcpg::UserAttributePacket::__set_subpackets(::
 constexpr ::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> Org::BouncyCastle::Bcpg::UserAttributePacket::__get_subpackets() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::UserAttributePacket::UserAttributePacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<UserAttributePacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::UserAttributePacket Org::BouncyCastle::Bcpg::UserAttributePacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::UserAttributePacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::UserAttributePacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::UserAttributePacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::UserAttributePacket>::get(),
@@ -89,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgIn);
 }
-// Ctor Parameters [CppParam { name: "subpackets", ty: "::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::UserAttributePacket::UserAttributePacket(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> subpackets)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<UserAttributePacket>(subpackets))) {}
+ Org::BouncyCastle::Bcpg::UserAttributePacket Org::BouncyCastle::Bcpg::UserAttributePacket::New_ctor(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> subpackets)  {
+Org::BouncyCastle::Bcpg::UserAttributePacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::UserAttributePacket>(subpackets))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::UserAttributePacket::_ctor(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> subpackets)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::UserAttributePacket>::get(),

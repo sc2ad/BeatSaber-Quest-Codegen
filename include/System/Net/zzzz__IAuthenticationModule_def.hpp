@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Net {
-class WebRequest;
+class ICredentials;
 }
 namespace System::Net {
-class ICredentials;
+class WebRequest;
 }
 namespace System::Net {
 class Authorization;

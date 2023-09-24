@@ -1,9 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SelectableStateController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectableCellSelectableStateController_def.hpp"
+#include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "HMUI/zzzz__Interactable_def.hpp"
-#include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "HMUI/zzzz__SelectableCell_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SelectableCellSelectableStateController.OnEnable
 template<>
 
@@ -177,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, selectableCell, transitionType);
 }
-// Ctor Parameters []
- GlobalNamespace::SelectableCellSelectableStateController::SelectableCellSelectableStateController()  : GlobalNamespace::SelectableStateController_1<HMUI::SelectableCell>(THROW_UNLESS(::il2cpp_utils::New<SelectableCellSelectableStateController>())) {}
+ GlobalNamespace::SelectableCellSelectableStateController GlobalNamespace::SelectableCellSelectableStateController::New_ctor()  {
+GlobalNamespace::SelectableCellSelectableStateController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectableCellSelectableStateController>())};
+return o;
+}
  void GlobalNamespace::SelectableCellSelectableStateController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectableCellSelectableStateController>::get(),

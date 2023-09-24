@@ -72,14 +72,12 @@ constexpr Org::BouncyCastle::Asn1::X500::DirectoryString __get_information() con
 /// @brief Method GetInstance addr 0xee8638 size 0x158 virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "information", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }]
-explicit AdditionalInformationSyntax(Org::BouncyCastle::Asn1::X500::DirectoryString information) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax New_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString information) ;
 
 /// @brief Method .ctor addr 0xee8790 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X500::DirectoryString information) ;
 
-// Ctor Parameters [CppParam { name: "information", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AdditionalInformationSyntax(::StringW information) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax New_ctor(::StringW information) ;
 
 /// @brief Method .ctor addr 0xee87b8 size 0x7c virtual false final false
  void _ctor(::StringW information) ;

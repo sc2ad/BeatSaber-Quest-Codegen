@@ -7,23 +7,29 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRSpace__StorageLocation;
+struct GlobalNamespace__OVRSpaceQuery__ComponentType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSpaceQuery__Options;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceQueryType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceQueryActionType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceComponentType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__SpaceComponentType;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__SpaceQueryType;
+struct GlobalNamespace__OVRSpace__StorageLocation;
 }
 namespace System {
 struct Guid;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__SpaceQueryActionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,6 +97,8 @@ __SpaceContainer = 128u,
 constexpr operator __GlobalNamespace__OVRSpaceQuery__ComponentType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRSpaceQuery__ComponentType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
 
 
 // Fields

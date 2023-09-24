@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class GUIStyle;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+class GUIStyle;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -84,14 +84,12 @@ static ::cordl_internals::intptr_t Init() ;
 /// @brief Method Cleanup addr 0x2b94524 size 0x3c virtual false final false
  void Cleanup() ;
 
-// Ctor Parameters []
-explicit GUIStyleState() ;
+static UnityEngine::GUIStyleState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b94560 size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "sourceStyle", ty: "UnityEngine::GUIStyle", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GUIStyleState(UnityEngine::GUIStyle sourceStyle, ::cordl_internals::intptr_t source) ;
+static UnityEngine::GUIStyleState New_ctor(UnityEngine::GUIStyle sourceStyle, ::cordl_internals::intptr_t source) ;
 
 /// @brief Method .ctor addr 0x2b945a8 size 0x2c virtual false final false
  void _ctor(UnityEngine::GUIStyle sourceStyle, ::cordl_internals::intptr_t source) ;

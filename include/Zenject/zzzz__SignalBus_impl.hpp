@@ -1,23 +1,21 @@
 #pragma once
 #include "Zenject/zzzz__SignalBus_def.hpp"
-#include "Zenject/zzzz__SignalSubscription_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__SignalSubscriptionId_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "Zenject/zzzz__ILateDisposable_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Zenject/zzzz__ZenjectSettings_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__SignalBus_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__ZenjectSettings_def.hpp"
-#include "Zenject/zzzz__SignalSubscription_def.hpp"
+#include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__SignalSubscriptionId_def.hpp"
 #include "Zenject/zzzz__SignalDeclaration_def.hpp"
-#include "Zenject/zzzz__BindingId_def.hpp"
-#include "Zenject/zzzz__SignalDeclaration_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__BindingId_def.hpp"
+#include "Zenject/zzzz__SignalSubscription_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__ZenjectSettings_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__SignalBus____c._ctor
 template<>
@@ -145,8 +143,10 @@ return ::cordl_internals::getStaticField<System::Func_2<Zenject::SignalDeclarati
  System::Func_2<Zenject::SignalSubscription,::StringW> Zenject::Zenject__SignalBus____c::__get___9__12_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<Zenject::SignalSubscription,::StringW>, "<>9__12_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__SignalBus____c::Zenject__SignalBus____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SignalBus____c>())) {}
+ Zenject::Zenject__SignalBus____c Zenject::Zenject__SignalBus____c::New_ctor()  {
+Zenject::Zenject__SignalBus____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SignalBus____c>())};
+return o;
+}
  void Zenject::Zenject__SignalBus____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c>::get(),
@@ -740,8 +740,10 @@ constexpr void Zenject::SignalBus::__set__container(Zenject::DiContainer value) 
 constexpr Zenject::DiContainer Zenject::SignalBus::__get__container() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signalDeclarations", ty: "System::Collections::Generic::List_1<Zenject::SignalDeclaration>", modifiers: "", def_value: None }, CppParam { name: "parentBus", ty: "Zenject::SignalBus", modifiers: "", def_value: None }, CppParam { name: "zenjectSettings", ty: "Zenject::ZenjectSettings", modifiers: "", def_value: None }, CppParam { name: "subscriptionPool", ty: "Zenject::Zenject__SignalSubscription__Pool", modifiers: "", def_value: None }, CppParam { name: "signalDeclarationFactory", ty: "Zenject::Zenject__SignalDeclaration__Factory", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
- Zenject::SignalBus::SignalBus(System::Collections::Generic::List_1<Zenject::SignalDeclaration> signalDeclarations, Zenject::SignalBus parentBus, Zenject::ZenjectSettings zenjectSettings, Zenject::Zenject__SignalSubscription__Pool subscriptionPool, Zenject::Zenject__SignalDeclaration__Factory signalDeclarationFactory, Zenject::DiContainer container)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignalBus>(signalDeclarations, parentBus, zenjectSettings, subscriptionPool, signalDeclarationFactory, container))) {}
+ Zenject::SignalBus Zenject::SignalBus::New_ctor(System::Collections::Generic::List_1<Zenject::SignalDeclaration> signalDeclarations, Zenject::SignalBus parentBus, Zenject::ZenjectSettings zenjectSettings, Zenject::Zenject__SignalSubscription__Pool subscriptionPool, Zenject::Zenject__SignalDeclaration__Factory signalDeclarationFactory, Zenject::DiContainer container)  {
+Zenject::SignalBus o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalBus>(signalDeclarations, parentBus, zenjectSettings, subscriptionPool, signalDeclarationFactory, container))};
+return o;
+}
  void Zenject::SignalBus::_ctor(System::Collections::Generic::List_1<Zenject::SignalDeclaration> signalDeclarations, Zenject::SignalBus parentBus, Zenject::ZenjectSettings zenjectSettings, Zenject::Zenject__SignalSubscription__Pool subscriptionPool, Zenject::Zenject__SignalDeclaration__Factory signalDeclarationFactory, Zenject::DiContainer container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalBus>::get(),
@@ -1305,224 +1307,92 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Zenject::InjectTypeInfo, false>(nullptr, ___internal_method);
 }
-//  Writing Method size for method: Zenject::Zenject__SignalBus____c__DisplayClass25_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::*)()>(&Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::Zenject__SignalBus____c__DisplayClass25_0_1._SubscribeId_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::*)(::bs_hook::Il2CppWrapperType)>(&Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::_SubscribeId_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1>::get(),
-                            "<SubscribeId>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::Zenject__SignalBus____c__DisplayClass25_0_1.__zenCreate
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::Il2CppWrapperType (*)(::ArrayW<::bs_hook::Il2CppWrapperType>)>(&Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::__zenCreate)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1>::get(),
-                            "__zenCreate",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::bs_hook::Il2CppWrapperType>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::Zenject__SignalBus____c__DisplayClass25_0_1.__zenCreateInjectTypeInfo
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo (*)()>(&Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1>::get(),
-                            "__zenCreateInjectTypeInfo",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::__set_callback(System::Action value)  {
+constexpr void Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>::__set_callback(System::Action value)  {
 ::cordl_internals::setInstanceField<System::Action, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action>(value));
 }
-constexpr System::Action Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::__get_callback() const {
+constexpr System::Action Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>::__get_callback() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::Zenject__SignalBus____c__DisplayClass25_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SignalBus____c__DisplayClass25_0_1>())) {}
- void Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::_ctor()  {
+ Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal> Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>::New_ctor()  {
+Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal> o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>>())};
+return o;
+}
+ void Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::_SubscribeId_b__0(::bs_hook::Il2CppWrapperType args)  {
+ void Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>::_SubscribeId_b__0(::bs_hook::Il2CppWrapperType args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>>::get(),
                             "<SubscribeId>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, args);
 }
- ::bs_hook::Il2CppWrapperType Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::__zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0)  {
+ ::bs_hook::Il2CppWrapperType Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>::__zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>>::get(),
                             "__zenCreate",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::bs_hook::Il2CppWrapperType>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(nullptr, ___internal_method, P_0);
 }
- Zenject::InjectTypeInfo Zenject::Zenject__SignalBus____c__DisplayClass25_0_1::__zenCreateInjectTypeInfo()  {
+ Zenject::InjectTypeInfo Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>::__zenCreateInjectTypeInfo()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass25_0_1<TSignal>>::get(),
                             "__zenCreateInjectTypeInfo",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<Zenject::InjectTypeInfo, false>(nullptr, ___internal_method);
 }
-//  Writing Method size for method: Zenject::Zenject__SignalBus____c__DisplayClass27_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::*)()>(&Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::Zenject__SignalBus____c__DisplayClass27_0_1._SubscribeId_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::*)(::bs_hook::Il2CppWrapperType)>(&Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::_SubscribeId_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1>::get(),
-                            "<SubscribeId>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::Zenject__SignalBus____c__DisplayClass27_0_1.__zenCreate
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::Il2CppWrapperType (*)(::ArrayW<::bs_hook::Il2CppWrapperType>)>(&Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::__zenCreate)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1>::get(),
-                            "__zenCreate",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::bs_hook::Il2CppWrapperType>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::Zenject__SignalBus____c__DisplayClass27_0_1.__zenCreateInjectTypeInfo
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo (*)()>(&Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1>::get(),
-                            "__zenCreateInjectTypeInfo",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::__set_callback(System::Action_1<TSignal> value)  {
+constexpr void Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>::__set_callback(System::Action_1<TSignal> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<TSignal>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<TSignal>>(value));
 }
-constexpr System::Action_1<TSignal> Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::__get_callback() const {
+constexpr System::Action_1<TSignal> Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>::__get_callback() const {
 return ::cordl_internals::getInstanceField<System::Action_1<TSignal>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::Zenject__SignalBus____c__DisplayClass27_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SignalBus____c__DisplayClass27_0_1>())) {}
- void Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::_ctor()  {
+ Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal> Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>::New_ctor()  {
+Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal> o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>>())};
+return o;
+}
+ void Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::_SubscribeId_b__0(::bs_hook::Il2CppWrapperType args)  {
+ void Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>::_SubscribeId_b__0(::bs_hook::Il2CppWrapperType args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>>::get(),
                             "<SubscribeId>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, args);
 }
- ::bs_hook::Il2CppWrapperType Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::__zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0)  {
+ ::bs_hook::Il2CppWrapperType Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>::__zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>>::get(),
                             "__zenCreate",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::bs_hook::Il2CppWrapperType>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(nullptr, ___internal_method, P_0);
 }
- Zenject::InjectTypeInfo Zenject::Zenject__SignalBus____c__DisplayClass27_0_1::__zenCreateInjectTypeInfo()  {
+ Zenject::InjectTypeInfo Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>::__zenCreateInjectTypeInfo()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalBus____c__DisplayClass27_0_1<TSignal>>::get(),
                             "__zenCreateInjectTypeInfo",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

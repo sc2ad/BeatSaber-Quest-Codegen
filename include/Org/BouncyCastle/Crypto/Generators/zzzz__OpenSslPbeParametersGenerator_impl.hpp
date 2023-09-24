@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__PbeParametersGenerator_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__OpenSslPbeParametersGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator._ctor
 template<>
 
@@ -162,8 +162,10 @@ constexpr void Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenera
 constexpr Org::BouncyCastle::Crypto::IDigest Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::__get_digest() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IDigest, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::OpenSslPbeParametersGenerator()  : Org::BouncyCastle::Crypto::PbeParametersGenerator(THROW_UNLESS(::il2cpp_utils::New<OpenSslPbeParametersGenerator>())) {}
+ Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator>::get(),

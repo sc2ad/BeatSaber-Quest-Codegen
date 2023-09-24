@@ -303,8 +303,10 @@ return ::cordl_internals::getInstanceField<::ArrayW<uint64_t>, 0x40>(this->::bs_
  ::ArrayW<uint64_t> System::Security::Cryptography::SHA512Managed::__get__K()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint64_t>, "_K", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::SHA512Managed>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::SHA512Managed::SHA512Managed()  : System::Security::Cryptography::SHA512(THROW_UNLESS(::il2cpp_utils::New<SHA512Managed>())) {}
+ System::Security::Cryptography::SHA512Managed System::Security::Cryptography::SHA512Managed::New_ctor()  {
+System::Security::Cryptography::SHA512Managed o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::SHA512Managed>())};
+return o;
+}
  void System::Security::Cryptography::SHA512Managed::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::SHA512Managed>::get(),

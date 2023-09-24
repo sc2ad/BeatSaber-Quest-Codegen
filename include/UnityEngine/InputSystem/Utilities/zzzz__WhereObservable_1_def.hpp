@@ -8,6 +8,10 @@ class IObserver_1;
 namespace System {
 class Exception;
 }
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+class UnityEngine__InputSystem__Utilities__WhereObservable_1__Where;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
@@ -100,8 +104,7 @@ constexpr System::IObserver_1<TValue> __get_m_Observer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "observable", ty: "UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "observer", ty: "System::IObserver_1<TValue>", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Utilities__WhereObservable_1__Where(UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue> observable, System::IObserver_1<TValue> observer) ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__WhereObservable_1__Where<TValue> New_ctor(UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue> observable, System::IObserver_1<TValue> observer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue> observable, System::IObserver_1<TValue> observer) ;
@@ -183,8 +186,7 @@ constexpr System::Func_2<TValue,bool> __get_m_Predicate() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::IObservable_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "predicate", ty: "System::Func_2<TValue,bool>", modifiers: "", def_value: None }]
-explicit WhereObservable_1(System::IObservable_1<TValue> source, System::Func_2<TValue,bool> predicate) ;
+static UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue> New_ctor(System::IObservable_1<TValue> source, System::Func_2<TValue,bool> predicate) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::IObservable_1<TValue> source, System::Func_2<TValue,bool> predicate) ;

@@ -52,8 +52,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::MessageWithString::MessageWithString(::cordl_internals::intptr_t c_message)  : Oculus::Platform::Message_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<MessageWithString>(c_message))) {}
+ Oculus::Platform::MessageWithString Oculus::Platform::MessageWithString::New_ctor(::cordl_internals::intptr_t c_message)  {
+Oculus::Platform::MessageWithString o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::MessageWithString>(c_message))};
+return o;
+}
  void Oculus::Platform::MessageWithString::_ctor(::cordl_internals::intptr_t c_message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithString>::get(),

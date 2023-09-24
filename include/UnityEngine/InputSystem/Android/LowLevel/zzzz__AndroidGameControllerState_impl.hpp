@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidGameControllerState_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
+#include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidGameControllerState_def.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidAxis_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidKeyCode_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants._ctor
 template<>
 
@@ -22,8 +23,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants::UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants>())) {}
+ UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants::New_ctor()  {
+UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants>::get(),

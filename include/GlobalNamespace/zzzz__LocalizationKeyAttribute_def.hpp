@@ -47,8 +47,7 @@ constexpr explicit LocalizationKeyAttribute(void* ptr) noexcept : UnityEngine::P
 
 // Methods
 
-// Ctor Parameters []
-explicit LocalizationKeyAttribute() ;
+static GlobalNamespace::LocalizationKeyAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x266f38c size 0x8 virtual false final false
  void _ctor() ;

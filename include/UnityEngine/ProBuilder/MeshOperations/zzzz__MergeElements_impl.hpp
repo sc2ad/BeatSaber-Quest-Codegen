@@ -1,10 +1,11 @@
 #pragma once
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__MergeElements_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/zzzz__MergeElements_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0._ctor
@@ -47,8 +48,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder_
 constexpr System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face> UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0::__get_remove() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0 UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c__DisplayClass0_0>::get(),
@@ -113,8 +116,10 @@ return ::cordl_internals::getStaticField<UnityEngine::ProBuilder::MeshOperations
  System::Func_2<UnityEngine::ProBuilder::Face,System::Collections::Generic::IEnumerable_1<int32_t>> UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c::__get___9__1_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ProBuilder::Face,System::Collections::Generic::IEnumerable_1<int32_t>>, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c::UnityEngine__ProBuilder__MeshOperations__MergeElements____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__MergeElements____c>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MergeElements____c>::get(),

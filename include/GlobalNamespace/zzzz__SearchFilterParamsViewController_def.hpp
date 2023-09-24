@@ -2,17 +2,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace GlobalNamespace {
+class BeatmapDifficultyDropdown;
+}
+namespace UnityEngine::UI {
+class Button;
+}
 namespace GlobalNamespace {
 class BeatmapCharacteristicsDropdown;
 }
 namespace GlobalNamespace {
-class SongPacksDropdown;
-}
-namespace GlobalNamespace {
 class LevelFilterParams;
-}
-namespace GlobalNamespace {
-class BeatmapDifficultyDropdown;
 }
 namespace UnityEngine::UI {
 class Toggle;
@@ -20,12 +24,8 @@ class Toggle;
 namespace GlobalNamespace {
 class FormattedFloatListSettingsController;
 }
-namespace UnityEngine::UI {
-class Button;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace GlobalNamespace {
+class SongPacksDropdown;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -205,8 +205,7 @@ constexpr System::Action_2<GlobalNamespace::SearchFilterParamsViewController,Glo
 /// @brief Method Refresh addr 0x216bdb0 size 0x1a8 virtual false final false
  void Refresh(GlobalNamespace::LevelFilterParams levelFilterParams) ;
 
-// Ctor Parameters []
-explicit SearchFilterParamsViewController() ;
+static GlobalNamespace::SearchFilterParamsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x216c70c size 0x8 virtual false final false
  void _ctor() ;

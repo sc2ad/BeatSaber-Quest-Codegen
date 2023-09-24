@@ -1,9 +1,9 @@
 #pragma once
 #include "Oculus/Platform/zzzz__RichPresence_def.hpp"
-#include "Oculus/Platform/zzzz__Request_def.hpp"
+#include "Oculus/Platform/zzzz__Request_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"
 #include "Oculus/Platform/zzzz__RichPresenceOptions_def.hpp"
-#include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/zzzz__Request_def.hpp"
 //  Writing Method size for method: Oculus::Platform::RichPresence.Clear
 template<>
 

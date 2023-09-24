@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
 class TutorialScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +74,7 @@ constexpr GlobalNamespace::PlayerSpecificSettings __get__playerSpecificSettings(
 /// @brief Method InstallBindings addr 0x21b691c size 0x44 virtual true final false
  void InstallBindings(Zenject::DiContainer container) ;
 
-// Ctor Parameters []
-explicit TutorialNoTransitionInstaller() ;
+static GlobalNamespace::TutorialNoTransitionInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b6960 size 0x8 virtual false final false
  void _ctor() ;

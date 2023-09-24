@@ -3,34 +3,34 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Threading {
-class ThreadAbortException;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class WaitHandle;
 }
 namespace System::Threading {
 class ExecutionContext;
 }
 namespace System::Runtime::Remoting::Messaging {
-class MonoMethodMessage;
+class IMessageCtrl;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Threading {
+class WaitCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System::Threading {
-class IThreadPoolWorkItem;
+class ThreadAbortException;
 }
-namespace System::Threading {
-class WaitCallback;
+namespace System::Runtime::Remoting::Messaging {
+class MonoMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
-}
 namespace System::Threading {
-class WaitHandle;
+class IThreadPoolWorkItem;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -205,8 +205,7 @@ constexpr System::Threading::WaitCallback __get_orig_cb() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AsyncResult() ;
+static System::Runtime::Remoting::Messaging::AsyncResult New_ctor() ;
 
 /// @brief Method .ctor addr 0x233b60c size 0x8 virtual false final false
  void _ctor() ;

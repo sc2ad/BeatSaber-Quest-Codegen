@@ -53,14 +53,12 @@ constexpr explicit RevocationReason(void* ptr) noexcept : Org::BouncyCastle::Bcp
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isCritical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit RevocationReason(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::RevocationReason New_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113e854 size 0x48 virtual false final false
  void _ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "isCritical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "reason", ty: "Org::BouncyCastle::Bcpg::RevocationReasonTag", modifiers: "", def_value: None }, CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RevocationReason(bool isCritical, Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description) ;
+static Org::BouncyCastle::Bcpg::RevocationReason New_ctor(bool isCritical, Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description) ;
 
 /// @brief Method .ctor addr 0x113e89c size 0x50 virtual false final false
  void _ctor(bool isCritical, Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description) ;

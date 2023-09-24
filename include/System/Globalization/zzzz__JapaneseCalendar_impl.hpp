@@ -3,9 +3,9 @@
 #include "System/Globalization/zzzz__JapaneseCalendar_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/Globalization/zzzz__EraInfo_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
 #include "System/Globalization/zzzz__GregorianCalendarHelper_def.hpp"
+#include "System/Globalization/zzzz__EraInfo_def.hpp"
 //  Writing Method size for method: System::Globalization::JapaneseCalendar.get_MinSupportedDateTime
 template<>
 
@@ -483,8 +483,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Globalization::Calendar, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Globalization::JapaneseCalendar::JapaneseCalendar()  : System::Globalization::Calendar(THROW_UNLESS(::il2cpp_utils::New<JapaneseCalendar>())) {}
+ System::Globalization::JapaneseCalendar System::Globalization::JapaneseCalendar::New_ctor()  {
+System::Globalization::JapaneseCalendar o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::JapaneseCalendar>())};
+return o;
+}
  void System::Globalization::JapaneseCalendar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::JapaneseCalendar>::get(),

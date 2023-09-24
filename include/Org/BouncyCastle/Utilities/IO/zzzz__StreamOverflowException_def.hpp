@@ -51,20 +51,17 @@ constexpr explicit StreamOverflowException(void* ptr) noexcept : System::IO::IOE
 
 // Methods
 
-// Ctor Parameters []
-explicit StreamOverflowException() ;
+static Org::BouncyCastle::Utilities::IO::StreamOverflowException New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d3b04 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StreamOverflowException(::StringW message) ;
+static Org::BouncyCastle::Utilities::IO::StreamOverflowException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x10d3b0c size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit StreamOverflowException(::StringW message, System::Exception exception) ;
+static Org::BouncyCastle::Utilities::IO::StreamOverflowException New_ctor(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x10d3b14 size 0x8 virtual false final false
  void _ctor(::StringW message, System::Exception exception) ;

@@ -3,12 +3,13 @@
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mCurve_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecT571R1Curve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecT571R1Point_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecT571FieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecT571FieldElement_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecT571R1Point_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Custom/Sec/zzzz__SecT571R1Curve_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable._ctor
 template<>
 
@@ -112,8 +113,10 @@ constexpr void Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math
 constexpr int32_t Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable::__get_m_size() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve", modifiers: "", def_value: None }, CppParam { name: "table", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve outer, ::ArrayW<uint64_t> table, int32_t size)  : Org::BouncyCastle::Math::EC::AbstractECLookupTable(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable>(outer, table, size))) {}
+ Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable::New_ctor(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve outer, ::ArrayW<uint64_t> table, int32_t size)  {
+Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable>(outer, table, size))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable::_ctor(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve outer, ::ArrayW<uint64_t> table, int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable>::get(),
@@ -438,8 +441,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Math::EC::Custom::Se
  Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve::__get_SecT571R1_B_SQRT()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement, "SecT571R1_B_SQRT", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve::SecT571R1Curve()  : Org::BouncyCastle::Math::EC::AbstractF2mCurve(THROW_UNLESS(::il2cpp_utils::New<SecT571R1Curve>())) {}
+ Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve::New_ctor()  {
+Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve>::get(),

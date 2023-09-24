@@ -52,14 +52,12 @@ constexpr explicit PrimaryUserId(void* ptr) noexcept : Org::BouncyCastle::Bcpg::
 /// @brief Method BooleanToByteArray addr 0x113e3cc size 0x6c virtual false final false
 static ::ArrayW<uint8_t> BooleanToByteArray(bool val) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PrimaryUserId(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::PrimaryUserId New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113e438 size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPrimaryUserId", ty: "bool", modifiers: "", def_value: None }]
-explicit PrimaryUserId(bool critical, bool isPrimaryUserId) ;
+static Org::BouncyCastle::Bcpg::Sig::PrimaryUserId New_ctor(bool critical, bool isPrimaryUserId) ;
 
 /// @brief Method .ctor addr 0x113e480 size 0x4c virtual false final false
  void _ctor(bool critical, bool isPrimaryUserId) ;

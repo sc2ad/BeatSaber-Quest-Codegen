@@ -4,18 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-class IFormatProvider;
-}
 namespace System {
 class IFormattable;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine {

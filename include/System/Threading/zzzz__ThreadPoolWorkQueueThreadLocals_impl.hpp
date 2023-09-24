@@ -2,7 +2,6 @@
 #include "System/Threading/zzzz__ThreadPoolWorkQueueThreadLocals_def.hpp"
 #include "System/Threading/zzzz__ThreadPoolWorkQueue_def.hpp"
 #include "System/zzzz__Random_def.hpp"
-#include "System/Threading/zzzz__ThreadPoolWorkQueue_def.hpp"
 //  Writing Method size for method: System::Threading::ThreadPoolWorkQueueThreadLocals._ctor
 template<>
 
@@ -78,8 +77,10 @@ constexpr void System::Threading::ThreadPoolWorkQueueThreadLocals::__set_random(
 constexpr System::Random System::Threading::ThreadPoolWorkQueueThreadLocals::__get_random() const {
 return ::cordl_internals::getInstanceField<System::Random, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tpq", ty: "System::Threading::ThreadPoolWorkQueue", modifiers: "", def_value: None }]
- System::Threading::ThreadPoolWorkQueueThreadLocals::ThreadPoolWorkQueueThreadLocals(System::Threading::ThreadPoolWorkQueue tpq)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ThreadPoolWorkQueueThreadLocals>(tpq))) {}
+ System::Threading::ThreadPoolWorkQueueThreadLocals System::Threading::ThreadPoolWorkQueueThreadLocals::New_ctor(System::Threading::ThreadPoolWorkQueue tpq)  {
+System::Threading::ThreadPoolWorkQueueThreadLocals o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ThreadPoolWorkQueueThreadLocals>(tpq))};
+return o;
+}
  void System::Threading::ThreadPoolWorkQueueThreadLocals::_ctor(System::Threading::ThreadPoolWorkQueue tpq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ThreadPoolWorkQueueThreadLocals>::get(),

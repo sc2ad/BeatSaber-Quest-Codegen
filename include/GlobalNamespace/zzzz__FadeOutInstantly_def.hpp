@@ -62,8 +62,7 @@ constexpr GlobalNamespace::FadeInOutController __get__fadeInOut() const;
 /// @brief Method Start addr 0x2676318 size 0x1c virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit FadeOutInstantly() ;
+static GlobalNamespace::FadeOutInstantly New_ctor() ;
 
 /// @brief Method .ctor addr 0x2676334 size 0x8 virtual false final false
  void _ctor() ;

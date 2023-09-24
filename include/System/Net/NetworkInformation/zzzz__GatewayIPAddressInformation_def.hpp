@@ -47,8 +47,7 @@ constexpr explicit GatewayIPAddressInformation(void* ptr) noexcept : ::bs_hook::
 
 // Methods
 
-// Ctor Parameters []
-explicit GatewayIPAddressInformation() ;
+static System::Net::NetworkInformation::GatewayIPAddressInformation New_ctor() ;
 
 /// @brief Method .ctor addr 0x28588e4 size 0x8 virtual false final false
  void _ctor() ;

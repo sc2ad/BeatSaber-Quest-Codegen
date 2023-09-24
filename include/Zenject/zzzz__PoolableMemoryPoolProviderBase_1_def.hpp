@@ -2,33 +2,33 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-class IProvider;
-}
 namespace System {
 struct Guid;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Type;
 }
 namespace System {
 class Action;
 }
 namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -113,8 +113,7 @@ constexpr Zenject::DiContainer __get__Container_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "poolId", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit PoolableMemoryPoolProviderBase_1(Zenject::DiContainer container, System::Guid poolId) ;
+static Zenject::PoolableMemoryPoolProviderBase_1<TContract> New_ctor(Zenject::DiContainer container, System::Guid poolId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, System::Guid poolId) ;

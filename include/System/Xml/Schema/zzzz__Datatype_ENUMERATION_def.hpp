@@ -58,8 +58,7 @@ constexpr explicit Datatype_ENUMERATION(void* ptr) noexcept : System::Xml::Schem
 /// @brief Method get_TokenizedType addr 0x272ba50 size 0x8 virtual true final false
  System::Xml::XmlTokenizedType get_TokenizedType() ;
 
-// Ctor Parameters []
-explicit Datatype_ENUMERATION() ;
+static System::Xml::Schema::Datatype_ENUMERATION New_ctor() ;
 
 /// @brief Method .ctor addr 0x272ba58 size 0x4 virtual false final false
  void _ctor() ;

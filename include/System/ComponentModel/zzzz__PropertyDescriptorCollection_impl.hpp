@@ -1,14 +1,15 @@
 #pragma once
 #include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 //  Writing Method size for method: System::ComponentModel::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator._ctor
 template<>
@@ -149,8 +150,10 @@ constexpr void System::ComponentModel::System__ComponentModel__PropertyDescripto
 constexpr int32_t System::ComponentModel::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator::__get__index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "owner", ty: "System::ComponentModel::PropertyDescriptorCollection", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator(System::ComponentModel::PropertyDescriptorCollection owner)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator>(owner))) {}
+ System::ComponentModel::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator System::ComponentModel::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator::New_ctor(System::ComponentModel::PropertyDescriptorCollection owner)  {
+System::ComponentModel::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator>(owner))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator::_ctor(System::ComponentModel::PropertyDescriptorCollection owner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator>::get(),
@@ -1112,8 +1115,10 @@ constexpr void System::ComponentModel::PropertyDescriptorCollection::__set__Coun
 constexpr int32_t System::ComponentModel::PropertyDescriptorCollection::__get__Count_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "properties", ty: "::ArrayW<System::ComponentModel::PropertyDescriptor>", modifiers: "", def_value: None }]
- System::ComponentModel::PropertyDescriptorCollection::PropertyDescriptorCollection(::ArrayW<System::ComponentModel::PropertyDescriptor> properties)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PropertyDescriptorCollection>(properties))) {}
+ System::ComponentModel::PropertyDescriptorCollection System::ComponentModel::PropertyDescriptorCollection::New_ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties)  {
+System::ComponentModel::PropertyDescriptorCollection o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::PropertyDescriptorCollection>(properties))};
+return o;
+}
  void System::ComponentModel::PropertyDescriptorCollection::_ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::PropertyDescriptorCollection>::get(),
@@ -1123,8 +1128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, properties);
 }
-// Ctor Parameters [CppParam { name: "properties", ty: "::ArrayW<System::ComponentModel::PropertyDescriptor>", modifiers: "", def_value: None }, CppParam { name: "readOnly", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::PropertyDescriptorCollection::PropertyDescriptorCollection(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, bool readOnly)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PropertyDescriptorCollection>(properties, readOnly))) {}
+ System::ComponentModel::PropertyDescriptorCollection System::ComponentModel::PropertyDescriptorCollection::New_ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, bool readOnly)  {
+System::ComponentModel::PropertyDescriptorCollection o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::PropertyDescriptorCollection>(properties, readOnly))};
+return o;
+}
  void System::ComponentModel::PropertyDescriptorCollection::_ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, bool readOnly)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::PropertyDescriptorCollection>::get(),
@@ -1134,8 +1141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, properties, readOnly);
 }
-// Ctor Parameters [CppParam { name: "properties", ty: "::ArrayW<System::ComponentModel::PropertyDescriptor>", modifiers: "", def_value: None }, CppParam { name: "propCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "namedSort", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::IComparer", modifiers: "", def_value: None }]
- System::ComponentModel::PropertyDescriptorCollection::PropertyDescriptorCollection(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, int32_t propCount, ::ArrayW<::StringW> namedSort, System::Collections::IComparer comparer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PropertyDescriptorCollection>(properties, propCount, namedSort, comparer))) {}
+ System::ComponentModel::PropertyDescriptorCollection System::ComponentModel::PropertyDescriptorCollection::New_ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, int32_t propCount, ::ArrayW<::StringW> namedSort, System::Collections::IComparer comparer)  {
+System::ComponentModel::PropertyDescriptorCollection o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::PropertyDescriptorCollection>(properties, propCount, namedSort, comparer))};
+return o;
+}
  void System::ComponentModel::PropertyDescriptorCollection::_ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, int32_t propCount, ::ArrayW<::StringW> namedSort, System::Collections::IComparer comparer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::PropertyDescriptorCollection>::get(),

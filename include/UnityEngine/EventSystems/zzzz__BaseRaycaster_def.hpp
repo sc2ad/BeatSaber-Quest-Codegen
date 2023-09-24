@@ -117,8 +117,7 @@ constexpr UnityEngine::EventSystems::BaseRaycaster __get_m_RootRaycaster() const
 /// @brief Method OnTransformParentChanged addr 0x2c2725c size 0x8 virtual true final false
  void OnTransformParentChanged() ;
 
-// Ctor Parameters []
-explicit BaseRaycaster() ;
+static UnityEngine::EventSystems::BaseRaycaster New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1c1b0 size 0x8 virtual false final false
  void _ctor() ;

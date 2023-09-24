@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__ProductInfoHeaderValue_def.hpp"
+#include "System/Net/Http/Headers/zzzz__ProductHeaderValue_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__ProductHeaderValue_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::ProductInfoHeaderValue._ctor
 template<>
 
@@ -224,8 +224,10 @@ constexpr void System::Net::Http::Headers::ProductInfoHeaderValue::__set__Produc
 constexpr System::Net::Http::Headers::ProductHeaderValue System::Net::Http::Headers::ProductInfoHeaderValue::__get__Product_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Net::Http::Headers::ProductHeaderValue, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "product", ty: "System::Net::Http::Headers::ProductHeaderValue", modifiers: "", def_value: None }]
- System::Net::Http::Headers::ProductInfoHeaderValue::ProductInfoHeaderValue(System::Net::Http::Headers::ProductHeaderValue product)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProductInfoHeaderValue>(product))) {}
+ System::Net::Http::Headers::ProductInfoHeaderValue System::Net::Http::Headers::ProductInfoHeaderValue::New_ctor(System::Net::Http::Headers::ProductHeaderValue product)  {
+System::Net::Http::Headers::ProductInfoHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::ProductInfoHeaderValue>(product))};
+return o;
+}
  void System::Net::Http::Headers::ProductInfoHeaderValue::_ctor(System::Net::Http::Headers::ProductHeaderValue product)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::ProductInfoHeaderValue>::get(),
@@ -235,8 +237,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, product);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::ProductInfoHeaderValue::ProductInfoHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProductInfoHeaderValue>())) {}
+ System::Net::Http::Headers::ProductInfoHeaderValue System::Net::Http::Headers::ProductInfoHeaderValue::New_ctor()  {
+System::Net::Http::Headers::ProductInfoHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::ProductInfoHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::ProductInfoHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::ProductInfoHeaderValue>::get(),

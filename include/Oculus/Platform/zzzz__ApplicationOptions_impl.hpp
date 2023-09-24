@@ -142,8 +142,10 @@ constexpr void Oculus::Platform::ApplicationOptions::__set_Handle(::cordl_intern
 constexpr ::cordl_internals::intptr_t Oculus::Platform::ApplicationOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::ApplicationOptions::ApplicationOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ApplicationOptions>())) {}
+ Oculus::Platform::ApplicationOptions Oculus::Platform::ApplicationOptions::New_ctor()  {
+Oculus::Platform::ApplicationOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::ApplicationOptions>())};
+return o;
+}
  void Oculus::Platform::ApplicationOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::ApplicationOptions>::get(),

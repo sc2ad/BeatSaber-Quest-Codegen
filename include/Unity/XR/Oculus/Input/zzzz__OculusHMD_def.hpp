@@ -2,16 +2,16 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRHMD_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
+class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
+class ButtonControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus::Input {
@@ -390,8 +390,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector3Control __get__centerEyeAng
 /// @brief Method FinishSetup addr 0x2ae3594 size 0x440 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit OculusHMD() ;
+static Unity::XR::Oculus::Input::OculusHMD New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae39d4 size 0x8 virtual false final false
  void _ctor() ;

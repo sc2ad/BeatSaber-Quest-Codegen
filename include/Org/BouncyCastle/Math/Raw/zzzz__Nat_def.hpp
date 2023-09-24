@@ -379,8 +379,7 @@ static Org::BouncyCastle::Math::BigInteger ToBigInteger(int32_t len, ::ArrayW<ui
 /// @brief Method Zero addr 0xfd2cb4 size 0x48 virtual false final false
 static void Zero(int32_t len, ::ArrayW<uint32_t> z) ;
 
-// Ctor Parameters []
-explicit Nat() ;
+static Org::BouncyCastle::Math::Raw::Nat New_ctor() ;
 
 /// @brief Method .ctor addr 0xfd2cfc size 0x8 virtual false final false
  void _ctor() ;

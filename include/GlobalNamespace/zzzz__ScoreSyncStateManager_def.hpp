@@ -7,16 +7,17 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class IScoreSyncStateManager;
-}
-namespace GlobalNamespace {
-class StandardScoreSyncStateNetSerializable;
-}
-namespace GlobalNamespace {
 struct StandardScoreSyncState;
 }
 namespace GlobalNamespace {
+template<typename T>
+class IPacketPool_1;
+}
+namespace GlobalNamespace {
 class StandardScoreSyncStateDeltaNetSerializable;
+}
+namespace GlobalNamespace {
+class IScoreSyncStateManager;
 }
 namespace GlobalNamespace {
 template<typename TStateTable,typename TType,typename TState,typename TSerializable,typename TDeltaSerializable>
@@ -26,11 +27,10 @@ namespace GlobalNamespace {
 struct GlobalNamespace__StandardScoreSyncState__Score;
 }
 namespace GlobalNamespace {
-template<typename T>
-class IPacketPool_1;
+struct GlobalNamespace__MultiplayerSessionManager__MessageType;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__MultiplayerSessionManager__MessageType;
+class StandardScoreSyncStateNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,7 +39,7 @@ class ScoreSyncStateManager;
 // Type: ::ScoreSyncStateManager
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4562)), TypeDefinitionIndex(TypeDefinitionIndex(12917)), TypeDefinitionIndex(TypeDefinitionIndex(12919)), TypeDefinitionIndex(TypeDefinitionIndex(12916)), TypeDefinitionIndex(TypeDefinitionIndex(12918)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4562), inst: 3689 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4562), inst: 3689 }), TypeDefinitionIndex(TypeDefinitionIndex(4562)), TypeDefinitionIndex(TypeDefinitionIndex(12919)), TypeDefinitionIndex(TypeDefinitionIndex(12918)), TypeDefinitionIndex(TypeDefinitionIndex(12917)), TypeDefinitionIndex(TypeDefinitionIndex(12916))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4601))
 // CS Name: ScoreSyncStateManager
 class CORDL_TYPE ScoreSyncStateManager : public GlobalNamespace::MultiplayerSyncStateManager_5<GlobalNamespace::StandardScoreSyncState,GlobalNamespace::GlobalNamespace__StandardScoreSyncState__Score,int32_t,GlobalNamespace::StandardScoreSyncStateNetSerializable,GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable> {
@@ -130,8 +130,7 @@ constexpr explicit ScoreSyncStateManager(void* ptr) noexcept : GlobalNamespace::
 /// @brief Method Interpolate addr 0x2211f2c size 0xf8 virtual true final false
  int32_t Interpolate(int32_t prev, float_t prevTime, int32_t curr, float_t currTime, float_t time) ;
 
-// Ctor Parameters []
-explicit ScoreSyncStateManager() ;
+static GlobalNamespace::ScoreSyncStateManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2212024 size 0x48 virtual false final false
  void _ctor() ;

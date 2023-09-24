@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/zzzz__Cookie_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Net/zzzz__Comparer_def.hpp"
 #include "System/Net/zzzz__CookieVariant_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: System::Net::Cookie._ctor
 template<>
@@ -801,8 +801,10 @@ constexpr void System::Net::Cookie::__set_IsQuotedDomain(bool value)  {
 constexpr bool System::Net::Cookie::__get_IsQuotedDomain() const {
 return ::cordl_internals::getInstanceField<bool, 0x99>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Cookie::Cookie()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Cookie>())) {}
+ System::Net::Cookie System::Net::Cookie::New_ctor()  {
+System::Net::Cookie o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Cookie>())};
+return o;
+}
  void System::Net::Cookie::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Cookie>::get(),

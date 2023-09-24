@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__OVRPhysicsRaycaster_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__OVRPhysicsRaycaster_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
@@ -79,8 +80,10 @@ return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::Rayca
  System::Comparison_1<UnityEngine::RaycastHit> UnityEngine::EventSystems::UnityEngine__EventSystems__OVRPhysicsRaycaster____c::__get___9__16_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::RaycastHit>, "<>9__16_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__OVRPhysicsRaycaster____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::UnityEngine__EventSystems__OVRPhysicsRaycaster____c::UnityEngine__EventSystems__OVRPhysicsRaycaster____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__EventSystems__OVRPhysicsRaycaster____c>())) {}
+ UnityEngine::EventSystems::UnityEngine__EventSystems__OVRPhysicsRaycaster____c UnityEngine::EventSystems::UnityEngine__EventSystems__OVRPhysicsRaycaster____c::New_ctor()  {
+UnityEngine::EventSystems::UnityEngine__EventSystems__OVRPhysicsRaycaster____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::UnityEngine__EventSystems__OVRPhysicsRaycaster____c>())};
+return o;
+}
  void UnityEngine::EventSystems::UnityEngine__EventSystems__OVRPhysicsRaycaster____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__OVRPhysicsRaycaster____c>::get(),
@@ -290,8 +293,10 @@ constexpr void UnityEngine::EventSystems::OVRPhysicsRaycaster::__set_sortOrder(i
 constexpr int32_t UnityEngine::EventSystems::OVRPhysicsRaycaster::__get_sortOrder() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::OVRPhysicsRaycaster::OVRPhysicsRaycaster()  : UnityEngine::EventSystems::BaseRaycaster(THROW_UNLESS(::il2cpp_utils::New<OVRPhysicsRaycaster>())) {}
+ UnityEngine::EventSystems::OVRPhysicsRaycaster UnityEngine::EventSystems::OVRPhysicsRaycaster::New_ctor()  {
+UnityEngine::EventSystems::OVRPhysicsRaycaster o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::OVRPhysicsRaycaster>())};
+return o;
+}
  void UnityEngine::EventSystems::OVRPhysicsRaycaster::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::OVRPhysicsRaycaster>::get(),

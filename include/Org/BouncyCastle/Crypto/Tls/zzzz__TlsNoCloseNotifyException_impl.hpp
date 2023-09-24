@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException::TlsNoCloseNotifyException()  : System::IO::EndOfStreamException(THROW_UNLESS(::il2cpp_utils::New<TlsNoCloseNotifyException>())) {}
+ Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException>::get(),

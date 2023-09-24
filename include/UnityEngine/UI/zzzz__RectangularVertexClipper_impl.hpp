@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__RectangularVertexClipper_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::RectangularVertexClipper.GetCanvasRect
@@ -59,8 +59,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Rect, false>(const_cast<void*>(instance), ___internal_method, t, c);
 }
-// Ctor Parameters []
- UnityEngine::UI::RectangularVertexClipper::RectangularVertexClipper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RectangularVertexClipper>())) {}
+ UnityEngine::UI::RectangularVertexClipper UnityEngine::UI::RectangularVertexClipper::New_ctor()  {
+UnityEngine::UI::RectangularVertexClipper o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::RectangularVertexClipper>())};
+return o;
+}
  void UnityEngine::UI::RectangularVertexClipper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::RectangularVertexClipper>::get(),

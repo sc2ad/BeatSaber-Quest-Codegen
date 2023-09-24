@@ -8,13 +8,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Misc {
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_iv() const;
 /// @brief Method GetInstance addr 0xeedb9c size 0x148 virtual false final false
 static Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters GetInstance(::bs_hook::Il2CppWrapperType o) ;
 
-// Ctor Parameters [CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Cast5CbcParameters(::ArrayW<uint8_t> iv, int32_t keyLength) ;
+static Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters New_ctor(::ArrayW<uint8_t> iv, int32_t keyLength) ;
 
 /// @brief Method .ctor addr 0xeedeac size 0xb4 virtual false final false
  void _ctor(::ArrayW<uint8_t> iv, int32_t keyLength) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Cast5CbcParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xeedce4 size 0x1c8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

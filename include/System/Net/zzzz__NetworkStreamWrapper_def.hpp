@@ -4,36 +4,36 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System::Net {
+class IPAddress;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Net::Sockets {
+class NetworkStream;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::Net::Sockets {
 class Socket;
 }
 namespace System::Net::Sockets {
 class TcpClient;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Net::Sockets {
-class NetworkStream;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Net {
@@ -123,8 +123,7 @@ constexpr System::Net::Sockets::NetworkStream __get__networkStream() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "client", ty: "System::Net::Sockets::TcpClient", modifiers: "", def_value: None }]
-explicit NetworkStreamWrapper(System::Net::Sockets::TcpClient client) ;
+static System::Net::NetworkStreamWrapper New_ctor(System::Net::Sockets::TcpClient client) ;
 
 /// @brief Method .ctor addr 0x27fb5d8 size 0x84 virtual false final false
  void _ctor(System::Net::Sockets::TcpClient client) ;

@@ -5,6 +5,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::InputSystem::Utilities {
+struct UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 class MemoryHelpers;

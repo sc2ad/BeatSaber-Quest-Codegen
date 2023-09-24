@@ -275,8 +275,7 @@ constexpr bool __get_showVRVars() const;
 /// @brief Method UpdateFPS addr 0x261fea8 size 0xe0 virtual false final false
  void UpdateFPS() ;
 
-// Ctor Parameters []
-explicit OVRDebugInfo() ;
+static GlobalNamespace::OVRDebugInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2620444 size 0x18 virtual false final false
  void _ctor() ;

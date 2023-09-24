@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__AudioPlayerBase_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-class AudioSource;
+class AudioClip;
 }
 namespace UnityEngine {
-class AudioClip;
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +119,7 @@ constexpr bool __get__fadingIn() const;
 /// @brief Method UnPauseCurrentChannel addr 0x20bdd48 size 0x1c virtual true final false
  void UnPauseCurrentChannel() ;
 
-// Ctor Parameters []
-explicit SimpleAudioPlayer() ;
+static GlobalNamespace::SimpleAudioPlayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bdd64 size 0x10 virtual false final false
  void _ctor() ;

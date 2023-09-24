@@ -21,11 +21,27 @@ namespace System::Collections::Concurrent {
 template<typename T>
 class ConcurrentQueue_1;
 }
-namespace Zenject {
-class ITickable;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+template<typename A,typename B>
+class GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2;
+}
+namespace GlobalNamespace {
+template<typename A,typename B,typename C,typename D>
+class GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4;
+}
+namespace GlobalNamespace {
+template<typename A>
+class GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1;
+}
+namespace GlobalNamespace {
+template<typename A,typename B,typename C>
+class GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3;
+}
+namespace Zenject {
+class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -155,8 +171,7 @@ template<typename A,typename B,typename C,typename D>
 /// @brief Method Tick addr 0x2115fe8 size 0x104 virtual true final true
  void Tick() ;
 
-// Ctor Parameters []
-explicit MainThreadDispatcher() ;
+static GlobalNamespace::MainThreadDispatcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x21160ec size 0x7c virtual false final false
  void _ctor() ;
@@ -224,8 +239,7 @@ constexpr A __get_firstParameter() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1() ;
+static GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass2_0_1<A> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -302,8 +316,7 @@ constexpr B __get_secondParameter() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2() ;
+static GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass3_0_2<A,B> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -386,8 +399,7 @@ constexpr C __get_thirdParameter() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3() ;
+static GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass4_0_3<A,B,C> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -476,8 +488,7 @@ constexpr D __get_fourthParameter() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4() ;
+static GlobalNamespace::GlobalNamespace__MainThreadDispatcher____c__DisplayClass5_0_4<A,B,C,D> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StretchableObstacle_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__ParametricBoxFrameController_def.hpp"
-#include "GlobalNamespace/zzzz__ParametricBoxFakeGlowController_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "GlobalNamespace/zzzz__ParametricBoxFakeGlowController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
+#include "GlobalNamespace/zzzz__ParametricBoxFrameController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StretchableObstacle.get_bounds
 template<>
 
@@ -181,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::StretchableObstacle::StretchableObstacle()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StretchableObstacle>())) {}
+ GlobalNamespace::StretchableObstacle GlobalNamespace::StretchableObstacle::New_ctor()  {
+GlobalNamespace::StretchableObstacle o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StretchableObstacle>())};
+return o;
+}
  void GlobalNamespace::StretchableObstacle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StretchableObstacle>::get(),

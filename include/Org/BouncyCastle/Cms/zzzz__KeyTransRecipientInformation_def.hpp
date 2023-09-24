@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class KeyTransRecipientInfo;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsTypedStream;
@@ -17,8 +17,8 @@ class CmsTypedStream;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Cms {
+class CmsSecureReadable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -75,8 +75,7 @@ constexpr Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo __get_info() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo", modifiers: "", def_value: None }, CppParam { name: "secureReadable", ty: "Org::BouncyCastle::Cms::CmsSecureReadable", modifiers: "", def_value: None }]
-explicit KeyTransRecipientInformation(Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
+static Org::BouncyCastle::Cms::KeyTransRecipientInformation New_ctor(Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
 
 /// @brief Method .ctor addr 0x115854c size 0x21c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;

@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+class IReturnToMenuController;
 }
 namespace GlobalNamespace {
-class IReturnToMenuController;
+class TutorialScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,8 +68,7 @@ constexpr GlobalNamespace::TutorialScenesTransitionSetupDataSO __get__tutorialSc
 /// @brief Method ReturnToMenu addr 0x20d5a18 size 0x20 virtual true final true
  void ReturnToMenu() ;
 
-// Ctor Parameters []
-explicit TutorialReturnToMenuController() ;
+static GlobalNamespace::TutorialReturnToMenuController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d5a38 size 0x8 virtual false final false
  void _ctor() ;

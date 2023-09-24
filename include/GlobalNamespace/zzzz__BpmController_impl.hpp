@@ -1,10 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BpmController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BPMChangeBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__IBpmController_def.hpp"
+#include "GlobalNamespace/zzzz__BpmController_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BpmController__InitData._ctor
 template<>
 
@@ -28,8 +29,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BpmController__InitData::__set_
 constexpr float_t GlobalNamespace::GlobalNamespace__BpmController__InitData::__get_startBpm() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "startBpm", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BpmController__InitData::GlobalNamespace__BpmController__InitData(float_t startBpm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BpmController__InitData>(startBpm))) {}
+ GlobalNamespace::GlobalNamespace__BpmController__InitData GlobalNamespace::GlobalNamespace__BpmController__InitData::New_ctor(float_t startBpm)  {
+GlobalNamespace::GlobalNamespace__BpmController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BpmController__InitData>(startBpm))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BpmController__InitData::_ctor(float_t startBpm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BpmController__InitData>::get(),
@@ -142,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__BpmController__InitData", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }]
- GlobalNamespace::BpmController::BpmController(GlobalNamespace::GlobalNamespace__BpmController__InitData initData, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BpmController>(initData, beatmapCallbacksController))) {}
+ GlobalNamespace::BpmController GlobalNamespace::BpmController::New_ctor(GlobalNamespace::GlobalNamespace__BpmController__InitData initData, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  {
+GlobalNamespace::BpmController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BpmController>(initData, beatmapCallbacksController))};
+return o;
+}
  void GlobalNamespace::BpmController::_ctor(GlobalNamespace::GlobalNamespace__BpmController__InitData initData, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BpmController>::get(),

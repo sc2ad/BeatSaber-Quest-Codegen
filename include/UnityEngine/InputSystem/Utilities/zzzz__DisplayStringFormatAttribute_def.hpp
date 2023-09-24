@@ -68,8 +68,7 @@ constexpr ::StringW __get__formatString_k__BackingField() const;
 /// @brief Method set_formatString addr 0x297d058 size 0x8 virtual false final false
  void set_formatString(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "formatString", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DisplayStringFormatAttribute(::StringW formatString) ;
+static UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute New_ctor(::StringW formatString) ;
 
 /// @brief Method .ctor addr 0x297d060 size 0x28 virtual false final false
  void _ctor(::StringW formatString) ;

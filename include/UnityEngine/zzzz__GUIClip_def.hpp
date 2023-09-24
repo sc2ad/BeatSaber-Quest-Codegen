@@ -5,6 +5,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
+struct UnityEngine__GUIClip__ParentClipScope;
+}
+namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {

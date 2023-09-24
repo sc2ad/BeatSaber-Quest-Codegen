@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -15,9 +18,6 @@ class MPInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -84,14 +84,12 @@ constexpr Org::BouncyCastle::Bcpg::MPInteger __get_x() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit DsaSecretBcpgKey(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::DsaSecretBcpgKey New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1146948 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit DsaSecretBcpgKey(Org::BouncyCastle::Math::BigInteger x) ;
+static Org::BouncyCastle::Bcpg::DsaSecretBcpgKey New_ctor(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method .ctor addr 0x11469c0 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger x) ;

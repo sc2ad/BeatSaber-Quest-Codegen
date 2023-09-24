@@ -7,90 +7,38 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace GlobalNamespace {
+template<typename T>
+class DelegateList_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IInstanceProvider;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class GroupOperation;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4>
-class Action_4;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IAllocationStrategy;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-class AsyncOperationBase_1;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
-}
-namespace GlobalNamespace {
-template<typename T>
-class ListWithEvents_1;
-}
 namespace UnityEngine::Networking {
 class CertificateHandler;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
-namespace GlobalNamespace {
-template<typename T>
-class DelegateList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class IAsyncOperation;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class GroupOperation;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -99,21 +47,93 @@ class List_1;
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace UnityEngine::ResourceManagement {
+template<typename TObject>
+class UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IResourceProvider;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
+}
+namespace UnityEngine::ResourceManagement {
+struct UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventContext;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct InstantiationParameters;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider;
+}
+namespace UnityEngine::ResourceManagement {
+struct UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventType;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IAllocationStrategy;
+}
+namespace UnityEngine::ResourceManagement {
+class UnityEngine__ResourceManagement__ResourceManager__InstanceOperation;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::ResourceManagement {
+struct UnityEngine__ResourceManagement__ResourceManager__DeferredCallbackRegisterRequest;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
+}
+namespace GlobalNamespace {
+template<typename T>
+class ListWithEvents_1;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+class AsyncOperationBase_1;
+}
+namespace System {
+class Exception;
+}
+namespace UnityEngine::ResourceManagement {
+template<typename TObject>
+class UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename T4>
+class Action_4;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
@@ -138,16 +158,16 @@ template<::cordl_internals::il2cpp_reference_type TObject>
 class UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>;
 }
 namespace UnityEngine::ResourceManagement {
+template<::cordl_internals::is_or_is_backed_by<int64_t> TObject>
+class UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>;
+}
+namespace UnityEngine::ResourceManagement {
 template<>
 class UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>;
 }
 namespace UnityEngine::ResourceManagement {
 template<>
 class UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>;
-}
-namespace UnityEngine::ResourceManagement {
-template<>
-class UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>;
 }
 namespace UnityEngine::ResourceManagement {
 class UnityEngine__ResourceManagement__ResourceManager__InstanceOperation;
@@ -215,6 +235,8 @@ __AsyncOperationDestroy = 5,
 constexpr operator __UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -432,7 +454,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: ::InstanceOperation
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10138)), TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 298 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 298 }), TypeDefinitionIndex(TypeDefinitionIndex(14313)), TypeDefinitionIndex(TypeDefinitionIndex(10138))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14236))
 // CS Name: UnityEngine.ResourceManagement.ResourceManager::InstanceOperation
 class CORDL_TYPE UnityEngine__ResourceManagement__ResourceManager__InstanceOperation : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<UnityEngine::GameObject> {
@@ -538,8 +560,7 @@ constexpr UnityEngine::SceneManagement::Scene __get_m_scene() const;
 /// @brief Method Execute addr 0x2a3732c size 0x240 virtual true final false
  void Execute() ;
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceManager__InstanceOperation() ;
+static UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__InstanceOperation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3756c size 0x48 virtual false final false
  void _ctor() ;
@@ -846,8 +867,7 @@ static void set_ExceptionHandler(System::Action_2<UnityEngine::ResourceManagemen
 /// @brief Method set_CertificateHandlerInstance addr 0x2a325bc size 0x8 virtual false final false
  void set_CertificateHandlerInstance(UnityEngine::Networking::CertificateHandler value) ;
 
-// Ctor Parameters [CppParam { name: "alloc", ty: "UnityEngine::ResourceManagement::Util::IAllocationStrategy", modifiers: "", def_value: None }]
-explicit ResourceManager(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc) ;
+static UnityEngine::ResourceManagement::ResourceManager New_ctor(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc) ;
 
 /// @brief Method .ctor addr 0x2a325c4 size 0x48c virtual false final false
  void _ctor(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc) ;
@@ -1020,10 +1040,10 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::CompletedOperation`1
 namespace UnityEngine::ResourceManagement {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TObject>
+template<::cordl_internals::is_or_is_backed_by<int64_t> TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14235)), TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 766 })}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14235), inst: 2 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 766 }), TypeDefinitionIndex(TypeDefinitionIndex(14235))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14235), inst: 830 })
 // CS Name: UnityEngine.ResourceManagement.ResourceManager::CompletedOperation`1
 class CORDL_TYPE UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject> : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
@@ -1087,8 +1107,7 @@ constexpr bool __get_m_ReleaseDependenciesOnFailure() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1() ;
+static UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1117,102 +1136,7 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 766 }), TypeDefinitionIndex(TypeDefinitionIndex(14235)), TypeDefinitionIndex(TypeDefinitionIndex(14313))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14235), inst: 99 })
-// CS Name: UnityEngine.ResourceManagement.ResourceManager::CompletedOperation`1
-class CORDL_TYPE UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool> : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb0};
-
-virtual ~UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1", modifiers: " const&", def_value: None }]
-constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1(UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1", modifiers: "&&", def_value: None }]
-constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1(UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1(void* ptr) noexcept : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool>(ptr) {
-}
-
-
-  constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1& operator=(UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1&& o) noexcept = default;
-  constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1& operator=(UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- bool __declspec(property(get=__get_m_Success, put=__set_m_Success))  m_Success;
-
-constexpr void __set_m_Success(bool value) ;
-
-constexpr bool __get_m_Success() const;
-
- System::Exception __declspec(property(get=__get_m_Exception, put=__set_m_Exception))  m_Exception;
-
-constexpr void __set_m_Exception(System::Exception value) ;
-
-constexpr System::Exception __get_m_Exception() const;
-
- bool __declspec(property(get=__get_m_ReleaseDependenciesOnFailure, put=__set_m_ReleaseDependenciesOnFailure))  m_ReleaseDependenciesOnFailure;
-
-constexpr void __set_m_ReleaseDependenciesOnFailure(bool value) ;
-
-constexpr bool __get_m_ReleaseDependenciesOnFailure() const;
-
-
-// Properties
-
- ::StringW __declspec(property(get=get_DebugName))  DebugName;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
- void Init(bool result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) ;
-
-/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
- void Init(bool result, bool success, System::Exception exception, bool releaseDependenciesOnFailure) ;
-
-/// @brief Method get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final false
- ::StringW get_DebugName() ;
-
-/// @brief Method InvokeWaitForCompletion addr 0x0 size 0xffffffffffffffff virtual true final false
- bool InvokeWaitForCompletion() ;
-
-/// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
- void Execute() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def UnityEngine::ResourceManagement
-// Type: ::CompletedOperation`1
-namespace UnityEngine::ResourceManagement {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14235)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 766 }), TypeDefinitionIndex(TypeDefinitionIndex(14313))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14235)), TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 766 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14235), inst: 772 })
 // CS Name: UnityEngine.ResourceManagement.ResourceManager::CompletedOperation`1
 class CORDL_TYPE UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> {
@@ -1277,8 +1201,7 @@ constexpr bool __get_m_ReleaseDependenciesOnFailure() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1() ;
+static UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1307,10 +1230,10 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313)), TypeDefinitionIndex(TypeDefinitionIndex(14235)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 766 })}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14235), inst: 830 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 766 }), TypeDefinitionIndex(TypeDefinitionIndex(14235))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14235), inst: 99 })
 // CS Name: UnityEngine.ResourceManagement.ResourceManager::CompletedOperation`1
-class CORDL_TYPE UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t> : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<int64_t> {
+class CORDL_TYPE UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool> : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -1325,7 +1248,7 @@ constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1
 constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1(UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1(void* ptr) noexcept : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<int64_t>(ptr) {
+constexpr explicit UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1(void* ptr) noexcept : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool>(ptr) {
 }
 
 
@@ -1372,17 +1295,110 @@ constexpr bool __get_m_ReleaseDependenciesOnFailure() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1() ;
+static UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
- void Init(int64_t result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) ;
+ void Init(bool result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
- void Init(int64_t result, bool success, System::Exception exception, bool releaseDependenciesOnFailure) ;
+ void Init(bool result, bool success, System::Exception exception, bool releaseDependenciesOnFailure) ;
+
+/// @brief Method get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final false
+ ::StringW get_DebugName() ;
+
+/// @brief Method InvokeWaitForCompletion addr 0x0 size 0xffffffffffffffff virtual true final false
+ bool InvokeWaitForCompletion() ;
+
+/// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
+ void Execute() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::ResourceManagement
+// Type: ::CompletedOperation`1
+namespace UnityEngine::ResourceManagement {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TObject>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14235)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 766 }), TypeDefinitionIndex(TypeDefinitionIndex(14313))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14235), inst: 2 })
+// CS Name: UnityEngine.ResourceManagement.ResourceManager::CompletedOperation`1
+class CORDL_TYPE UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject> : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb0};
+
+virtual ~UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1(UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1(UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1(void* ptr) noexcept : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>(ptr) {
+}
+
+
+  constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1& operator=(UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1&& o) noexcept = default;
+  constexpr UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1& operator=(UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ bool __declspec(property(get=__get_m_Success, put=__set_m_Success))  m_Success;
+
+constexpr void __set_m_Success(bool value) ;
+
+constexpr bool __get_m_Success() const;
+
+ System::Exception __declspec(property(get=__get_m_Exception, put=__set_m_Exception))  m_Exception;
+
+constexpr void __set_m_Exception(System::Exception value) ;
+
+constexpr System::Exception __get_m_Exception() const;
+
+ bool __declspec(property(get=__get_m_ReleaseDependenciesOnFailure, put=__set_m_ReleaseDependenciesOnFailure))  m_ReleaseDependenciesOnFailure;
+
+constexpr void __set_m_ReleaseDependenciesOnFailure(bool value) ;
+
+constexpr bool __get_m_ReleaseDependenciesOnFailure() const;
+
+
+// Properties
+
+ ::StringW __declspec(property(get=get_DebugName))  DebugName;
+
+
+// Methods
+
+static UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Init(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) ;
+
+/// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
+ void Init(TObject result, bool success, System::Exception exception, bool releaseDependenciesOnFailure) ;
 
 /// @brief Method get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_DebugName() ;
@@ -1462,8 +1478,7 @@ constexpr UnityEngine::ResourceManagement::ResourceManager __get___4__this() con
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1() ;
+static UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

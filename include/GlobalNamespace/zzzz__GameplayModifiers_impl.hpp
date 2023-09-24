@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__GameplayModifiers__EnabledObstacleType::GlobalNamespace__GameplayModifiers__EnabledObstacleType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -728,8 +729,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GameplayModifiers::GameplayModifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameplayModifiers>())) {}
+ GlobalNamespace::GameplayModifiers GlobalNamespace::GameplayModifiers::New_ctor()  {
+GlobalNamespace::GameplayModifiers o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayModifiers>())};
+return o;
+}
  void GlobalNamespace::GameplayModifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplayModifiers>::get(),
@@ -739,8 +742,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "energyType", ty: "GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType", modifiers: "", def_value: None }, CppParam { name: "noFailOn0Energy", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instaFail", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "failOnSaberClash", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enabledObstacleType", ty: "GlobalNamespace::GlobalNamespace__GameplayModifiers__EnabledObstacleType", modifiers: "", def_value: None }, CppParam { name: "noBombs", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fastNotes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "strictAngles", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "disappearingArrows", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "songSpeed", ty: "GlobalNamespace::GlobalNamespace__GameplayModifiers__SongSpeed", modifiers: "", def_value: None }, CppParam { name: "noArrows", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ghostNotes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "proMode", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "zenMode", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "smallCubes", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GameplayModifiers::GameplayModifiers(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash, GlobalNamespace::GlobalNamespace__GameplayModifiers__EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, GlobalNamespace::GlobalNamespace__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameplayModifiers>(energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes, strictAngles, disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes))) {}
+ GlobalNamespace::GameplayModifiers GlobalNamespace::GameplayModifiers::New_ctor(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash, GlobalNamespace::GlobalNamespace__GameplayModifiers__EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, GlobalNamespace::GlobalNamespace__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes)  {
+GlobalNamespace::GameplayModifiers o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayModifiers>(energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes, strictAngles, disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes))};
+return o;
+}
  void GlobalNamespace::GameplayModifiers::_ctor(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash, GlobalNamespace::GlobalNamespace__GameplayModifiers__EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, GlobalNamespace::GlobalNamespace__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplayModifiers>::get(),

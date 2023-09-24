@@ -47,8 +47,7 @@ constexpr explicit GenericStack(void* ptr) noexcept : System::Collections::Stack
 
 // Methods
 
-// Ctor Parameters []
-explicit GenericStack() ;
+static UnityEngineInternal::GenericStack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b27a80 size 0x8 virtual false final false
  void _ctor() ;

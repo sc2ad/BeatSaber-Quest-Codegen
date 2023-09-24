@@ -4,12 +4,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct Vector2;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine {
 struct Color;

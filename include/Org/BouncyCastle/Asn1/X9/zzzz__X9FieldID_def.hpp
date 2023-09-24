@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -83,26 +83,22 @@ constexpr Org::BouncyCastle::Asn1::Asn1Object __get_parameters() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "primeP", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit X9FieldID(Org::BouncyCastle::Math::BigInteger primeP) ;
+static Org::BouncyCastle::Asn1::X9::X9FieldID New_ctor(Org::BouncyCastle::Math::BigInteger primeP) ;
 
 /// @brief Method .ctor addr 0x112650c size 0xb0 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger primeP) ;
 
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }]
-explicit X9FieldID(int32_t m, int32_t k1) ;
+static Org::BouncyCastle::Asn1::X9::X9FieldID New_ctor(int32_t m, int32_t k1) ;
 
 /// @brief Method .ctor addr 0x11265bc size 0xc virtual false final false
  void _ctor(int32_t m, int32_t k1) ;
 
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k3", ty: "int32_t", modifiers: "", def_value: None }]
-explicit X9FieldID(int32_t m, int32_t k1, int32_t k2, int32_t k3) ;
+static Org::BouncyCastle::Asn1::X9::X9FieldID New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3) ;
 
 /// @brief Method .ctor addr 0x11265c8 size 0x3e4 virtual false final false
  void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit X9FieldID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X9::X9FieldID New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1127278 size 0xbc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

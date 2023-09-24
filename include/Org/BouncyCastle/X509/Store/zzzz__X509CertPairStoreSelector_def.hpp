@@ -1,6 +1,9 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::X509 {
+class X509CertificatePair;
+}
 namespace System {
 class ICloneable;
 }
@@ -9,9 +12,6 @@ class X509CertStoreSelector;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
-}
-namespace Org::BouncyCastle::X509 {
-class X509CertificatePair;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -98,14 +98,12 @@ constexpr Org::BouncyCastle::X509::Store::X509CertStoreSelector __get_reverseSel
 /// @brief Method CloneSelector addr 0x10e61e0 size 0x8c virtual false final false
 static Org::BouncyCastle::X509::Store::X509CertStoreSelector CloneSelector(Org::BouncyCastle::X509::Store::X509CertStoreSelector s) ;
 
-// Ctor Parameters []
-explicit X509CertPairStoreSelector() ;
+static Org::BouncyCastle::X509::Store::X509CertPairStoreSelector New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e626c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "o", ty: "Org::BouncyCastle::X509::Store::X509CertPairStoreSelector", modifiers: "", def_value: None }]
-explicit X509CertPairStoreSelector(Org::BouncyCastle::X509::Store::X509CertPairStoreSelector o) ;
+static Org::BouncyCastle::X509::Store::X509CertPairStoreSelector New_ctor(Org::BouncyCastle::X509::Store::X509CertPairStoreSelector o) ;
 
 /// @brief Method .ctor addr 0x10e6274 size 0x4c virtual false final false
  void _ctor(Org::BouncyCastle::X509::Store::X509CertPairStoreSelector o) ;

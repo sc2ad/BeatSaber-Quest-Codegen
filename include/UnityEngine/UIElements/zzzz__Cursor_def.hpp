@@ -7,12 +7,12 @@
 namespace UnityEngine {
 class Texture2D;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

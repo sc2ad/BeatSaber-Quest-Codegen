@@ -66,14 +66,12 @@ constexpr System::Reflection::Assembly __get_assembly() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "assemblyString", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BinaryAssemblyInfo(::StringW assemblyString) ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo New_ctor(::StringW assemblyString) ;
 
 /// @brief Method .ctor addr 0x2355728 size 0x28 virtual false final false
  void _ctor(::StringW assemblyString) ;
 
-// Ctor Parameters [CppParam { name: "assemblyString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }]
-explicit BinaryAssemblyInfo(::StringW assemblyString, System::Reflection::Assembly assembly) ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo New_ctor(::StringW assemblyString, System::Reflection::Assembly assembly) ;
 
 /// @brief Method .ctor addr 0x2355750 size 0x2c virtual false final false
  void _ctor(::StringW assemblyString, System::Reflection::Assembly assembly) ;

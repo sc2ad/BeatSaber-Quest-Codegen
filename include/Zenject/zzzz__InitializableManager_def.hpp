@@ -3,22 +3,31 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+class Type;
 }
 namespace Zenject {
-class IInitializable;
+class Zenject__InitializableManager____c__DisplayClass2_0;
 }
 namespace ModestTree::Util {
 template<typename T1,typename T2>
 class ValuePair_2;
 }
 namespace Zenject {
+class Zenject__InitializableManager____c;
+}
+namespace Zenject {
+class Zenject__InitializableManager__InitializableInfo;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class IInitializable;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -94,8 +103,7 @@ constexpr int32_t __get_Priority() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initializable", ty: "Zenject::IInitializable", modifiers: "", def_value: None }, CppParam { name: "priority", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__InitializableManager__InitializableInfo(Zenject::IInitializable initializable, int32_t priority) ;
+static Zenject::Zenject__InitializableManager__InitializableInfo New_ctor(Zenject::IInitializable initializable, int32_t priority) ;
 
 /// @brief Method .ctor addr 0x2d9a1e0 size 0x30 virtual false final false
  void _ctor(Zenject::IInitializable initializable, int32_t priority) ;
@@ -161,8 +169,7 @@ constexpr Zenject::IInitializable __get_initializable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__InitializableManager____c__DisplayClass2_0() ;
+static Zenject::Zenject__InitializableManager____c__DisplayClass2_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9a1d8 size 0x8 virtual false final false
  void _ctor() ;
@@ -243,8 +250,7 @@ static System::Func_2<Zenject::Zenject__InitializableManager__InitializableInfo,
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__InitializableManager____c() ;
+static Zenject::Zenject__InitializableManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9b27c size 0x8 virtual false final false
  void _ctor() ;
@@ -328,8 +334,7 @@ constexpr bool __get__hasInitialized() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initializables", ty: "System::Collections::Generic::List_1<Zenject::IInitializable>", modifiers: "", def_value: None }, CppParam { name: "priorities", ty: "System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>>", modifiers: "", def_value: None }]
-explicit InitializableManager(System::Collections::Generic::List_1<Zenject::IInitializable> initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities) ;
+static Zenject::InitializableManager New_ctor(System::Collections::Generic::List_1<Zenject::IInitializable> initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities) ;
 
 /// @brief Method .ctor addr 0x2d99e3c size 0x39c virtual false final false
  void _ctor(System::Collections::Generic::List_1<Zenject::IInitializable> initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities) ;

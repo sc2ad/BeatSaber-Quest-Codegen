@@ -3,55 +3,56 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
-#include "TMPro/zzzz__VertexGradient_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "TMPro/zzzz__TMP_Style_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "TMPro/zzzz__WordWrapState_def.hpp"
-#include "TMPro/zzzz__TMP_FontStyleStack_def.hpp"
-#include "TMPro/zzzz__ITextPreprocessor_def.hpp"
+#include "UnityEngine/UI/zzzz__LayoutElement_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "TMPro/zzzz__FontWeight_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "TMPro/zzzz__TextOverflowModes_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "TMPro/zzzz__TMP_VertexDataUpdateFlags_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "TMPro/zzzz__ColorMode_def.hpp"
-#include "TMPro/zzzz__TMP_StyleSheet_def.hpp"
-#include "TMPro/zzzz__TextRenderFlags_def.hpp"
-#include "UnityEngine/UI/zzzz__LayoutElement_def.hpp"
-#include "TMPro/zzzz__VerticalAlignmentOptions_def.hpp"
-#include "TMPro/zzzz__MaterialReference_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
-#include "TMPro/zzzz__HorizontalAlignmentOptions_def.hpp"
-#include "TMPro/zzzz__Extents_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "TMPro/zzzz__TextAlignmentOptions_def.hpp"
-#include "TMPro/zzzz__RichTextTagAttribute_def.hpp"
-#include "TMPro/zzzz__HighlightState_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "TMPro/zzzz__TMP_TextElementType_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "TMPro/zzzz__FontStyles_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "TMPro/zzzz__TMP_ColorGradient_def.hpp"
 #include "TMPro/zzzz__TMP_TextProcessingStack_1_def.hpp"
-#include "TMPro/zzzz__VertexSortingOrder_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "TMPro/zzzz__TMP_CharacterInfo_def.hpp"
-#include "TMPro/zzzz__TMP_TextInfo_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "TMPro/zzzz__FontWeight_def.hpp"
-#include "TMPro/zzzz__TextureMappingOptions_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
+#include "TMPro/zzzz__TextAlignmentOptions_def.hpp"
+#include "TMPro/zzzz__MaterialReference_def.hpp"
+#include "TMPro/zzzz__VerticalAlignmentOptions_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "TMPro/zzzz__TMP_TextElement_def.hpp"
+#include "TMPro/zzzz__RichTextTagAttribute_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "TMPro/zzzz__TMP_Style_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "TMPro/zzzz__Extents_def.hpp"
 #include "TMPro/zzzz__TMP_SpriteAnimator_def.hpp"
+#include "TMPro/zzzz__HorizontalAlignmentOptions_def.hpp"
+#include "TMPro/zzzz__TextureMappingOptions_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "TMPro/zzzz__ITextPreprocessor_def.hpp"
+#include "TMPro/zzzz__WordWrapState_def.hpp"
+#include "TMPro/zzzz__VertexGradient_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "TMPro/zzzz__HighlightState_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "TMPro/zzzz__TextRenderFlags_def.hpp"
+#include "TMPro/zzzz__VertexSortingOrder_def.hpp"
+#include "TMPro/zzzz__FontStyles_def.hpp"
+#include "TMPro/zzzz__ColorMode_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
+#include "TMPro/zzzz__TMP_TextInfo_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "TMPro/zzzz__TMP_TextElementType_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "TMPro/zzzz__TMP_CharacterInfo_def.hpp"
+#include "TMPro/zzzz__TMP_VertexDataUpdateFlags_def.hpp"
+#include "TMPro/zzzz__TMP_FontStyleStack_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "TMPro/zzzz__TMP_StyleSheet_def.hpp"
 #include "TMPro/zzzz__TMP_Character_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__TMP_Text__CharacterSubstitution._ctor
 template<>
@@ -431,8 +432,10 @@ return ::cordl_internals::getStaticField<TMPro::TMPro__TMP_Text____c, "<>9", ::i
  System::Action_1<TMPro::TMP_TextInfo> TMPro::TMPro__TMP_Text____c::__get___9__622_0()  {
 return ::cordl_internals::getStaticField<System::Action_1<TMPro::TMP_TextInfo>, "<>9__622_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Text____c>::get>();
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_Text____c::TMPro__TMP_Text____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Text____c>())) {}
+ TMPro::TMPro__TMP_Text____c TMPro::TMPro__TMP_Text____c::New_ctor()  {
+TMPro::TMPro__TMP_Text____c o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Text____c>())};
+return o;
+}
  void TMPro::TMPro__TMP_Text____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Text____c>::get(),
@@ -9569,8 +9572,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, chars, startIndex, endIndex);
 }
-// Ctor Parameters []
- TMPro::TMP_Text::TMP_Text()  : UnityEngine::UI::MaskableGraphic(THROW_UNLESS(::il2cpp_utils::New<TMP_Text>())) {}
+ TMPro::TMP_Text TMPro::TMP_Text::New_ctor()  {
+TMPro::TMP_Text o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Text>())};
+return o;
+}
  void TMPro::TMP_Text::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Text>::get(),

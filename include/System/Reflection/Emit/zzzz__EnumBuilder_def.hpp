@@ -4,47 +4,47 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-struct Guid;
-}
-namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System::Reflection {
-class EventInfo;
-}
 namespace System::Reflection {
 struct ParameterModifier;
 }
 namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Reflection {
-class Assembly;
+class PropertyInfo;
 }
 namespace System::Reflection {
 struct BindingFlags;
-}
-namespace System::Reflection {
-struct TypeAttributes;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Reflection {
-class Binder;
-}
-namespace System::Reflection {
-struct CallingConventions;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace System::Reflection {
-class PropertyInfo;
+class EventInfo;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct Guid;
+}
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
+struct TypeAttributes;
+}
+namespace System::Reflection {
+class FieldInfo;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace System::Reflection {
+class Binder;
 }
 namespace System::Reflection {
 class Module;

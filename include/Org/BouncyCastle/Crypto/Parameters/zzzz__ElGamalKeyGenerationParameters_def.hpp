@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ElGamalParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -68,8 +68,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::ElGamalParameters __get_paramet
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ElGamalParameters", modifiers: "", def_value: None }]
-explicit ElGamalKeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters New_ctor(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea8498 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;

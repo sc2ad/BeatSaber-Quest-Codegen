@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::DisableOnNonQuest::DisableOnNonQuest()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DisableOnNonQuest>())) {}
+ GlobalNamespace::DisableOnNonQuest GlobalNamespace::DisableOnNonQuest::New_ctor()  {
+GlobalNamespace::DisableOnNonQuest o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DisableOnNonQuest>())};
+return o;
+}
  void GlobalNamespace::DisableOnNonQuest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DisableOnNonQuest>::get(),

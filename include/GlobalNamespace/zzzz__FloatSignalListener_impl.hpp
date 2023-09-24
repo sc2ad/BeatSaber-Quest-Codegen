@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatSignalListener_def.hpp"
-#include "GlobalNamespace/zzzz__FloatUnityEvent_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSignal_def.hpp"
+#include "GlobalNamespace/zzzz__FloatUnityEvent_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FloatSignalListener.OnEnable
 template<>
 
@@ -110,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, f);
 }
-// Ctor Parameters []
- GlobalNamespace::FloatSignalListener::FloatSignalListener()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FloatSignalListener>())) {}
+ GlobalNamespace::FloatSignalListener GlobalNamespace::FloatSignalListener::New_ctor()  {
+GlobalNamespace::FloatSignalListener o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FloatSignalListener>())};
+return o;
+}
  void GlobalNamespace::FloatSignalListener::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FloatSignalListener>::get(),

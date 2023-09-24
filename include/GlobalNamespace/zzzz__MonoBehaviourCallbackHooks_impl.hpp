@@ -129,8 +129,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MonoBehaviourCallbackHooks::MonoBehaviourCallbackHooks()  : UnityEngine::ResourceManagement::Util::ComponentSingleton_1<GlobalNamespace::MonoBehaviourCallbackHooks>(THROW_UNLESS(::il2cpp_utils::New<MonoBehaviourCallbackHooks>())) {}
+ GlobalNamespace::MonoBehaviourCallbackHooks GlobalNamespace::MonoBehaviourCallbackHooks::New_ctor()  {
+GlobalNamespace::MonoBehaviourCallbackHooks o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MonoBehaviourCallbackHooks>())};
+return o;
+}
  void GlobalNamespace::MonoBehaviourCallbackHooks::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MonoBehaviourCallbackHooks>::get(),

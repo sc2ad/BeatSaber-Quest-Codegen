@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_def.hpp"
 #include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
-#include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreSyncStateManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer.get_offsetSyncTime
 template<>
 
@@ -321,8 +321,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSyncState", ty: "GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState,GlobalNamespace::GlobalNamespace__StandardScoreSyncState__Score,int32_t>", modifiers: "", def_value: None }, CppParam { name: "scoreSyncManager", ty: "GlobalNamespace::MultiplayerScoreProvider", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState,GlobalNamespace::GlobalNamespace__StandardScoreSyncState__Score,int32_t> multiplayerSyncState, GlobalNamespace::MultiplayerScoreProvider scoreSyncManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerScoreProvider__RankedPlayer>(multiplayerSyncState, scoreSyncManager))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer::New_ctor(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState,GlobalNamespace::GlobalNamespace__StandardScoreSyncState__Score,int32_t> multiplayerSyncState, GlobalNamespace::MultiplayerScoreProvider scoreSyncManager)  {
+GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer>(multiplayerSyncState, scoreSyncManager))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer::_ctor(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState,GlobalNamespace::GlobalNamespace__StandardScoreSyncState__Score,int32_t> multiplayerSyncState, GlobalNamespace::MultiplayerScoreProvider scoreSyncManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer>::get(),
@@ -387,8 +389,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Multi
  System::Func_2<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer,bool> GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c::__get___9__16_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer,bool>, "<>9__16_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c::GlobalNamespace__MultiplayerScoreProvider____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerScoreProvider____c>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c>::get(),
@@ -447,8 +451,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c__
 constexpr ::StringW GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0::__get_userId() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0::GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0 GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0>::get(),
@@ -754,8 +760,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, userId);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerScoreProvider::MultiplayerScoreProvider()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerScoreProvider>())) {}
+ GlobalNamespace::MultiplayerScoreProvider GlobalNamespace::MultiplayerScoreProvider::New_ctor()  {
+GlobalNamespace::MultiplayerScoreProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerScoreProvider>())};
+return o;
+}
  void GlobalNamespace::MultiplayerScoreProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerScoreProvider>::get(),

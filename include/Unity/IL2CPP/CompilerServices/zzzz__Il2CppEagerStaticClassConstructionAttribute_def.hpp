@@ -47,8 +47,7 @@ constexpr explicit Il2CppEagerStaticClassConstructionAttribute(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters []
-explicit Il2CppEagerStaticClassConstructionAttribute() ;
+static Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b2845c size 0x8 virtual false final false
  void _ctor() ;

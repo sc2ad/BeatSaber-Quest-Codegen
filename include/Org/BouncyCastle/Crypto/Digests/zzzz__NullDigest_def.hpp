@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace System::IO {
 class MemoryStream;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -94,8 +94,7 @@ constexpr System::IO::MemoryStream __get_bOut() const;
 /// @brief Method Reset addr 0x119ed30 size 0x28 virtual true final true
  void Reset() ;
 
-// Ctor Parameters []
-explicit NullDigest() ;
+static Org::BouncyCastle::Crypto::Digests::NullDigest New_ctor() ;
 
 /// @brief Method .ctor addr 0x119ed58 size 0x68 virtual false final false
  void _ctor() ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "System/ComponentModel/zzzz__NotifyCollectionChangedEventArgs_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/ComponentModel/zzzz__NotifyCollectionChangedAction_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: System::ComponentModel::NotifyCollectionChangedEventArgs.get_Action
 template<>
 
@@ -479,8 +479,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),
@@ -490,8 +492,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItems", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action, changedItems))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action, changedItems))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),
@@ -501,8 +505,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action, changedItems);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action, changedItem))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action, changedItem))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),
@@ -512,8 +518,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action, changedItem);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "newItems", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "oldItems", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action, newItems, oldItems))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action, newItems, oldItems))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),
@@ -523,8 +531,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action, newItems, oldItems);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItems", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "startingIndex", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t startingIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action, changedItems, startingIndex))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t startingIndex)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action, changedItems, startingIndex))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t startingIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),
@@ -534,8 +544,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action, changedItems, startingIndex);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action, changedItem, index))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action, changedItem, index))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),
@@ -545,8 +557,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action, changedItem, index);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "newItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "oldItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action, newItem, oldItem))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action, newItem, oldItem))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),
@@ -556,8 +570,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action, newItem, oldItem);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "newItems", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "oldItems", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "startingIndex", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems, int32_t startingIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action, newItems, oldItems, startingIndex))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems, int32_t startingIndex)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action, newItems, oldItems, startingIndex))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems, int32_t startingIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),
@@ -567,8 +583,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action, newItems, oldItems, startingIndex);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItems", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "oldIndex", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t index, int32_t oldIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action, changedItems, index, oldIndex))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t index, int32_t oldIndex)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action, changedItems, index, oldIndex))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t index, int32_t oldIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),
@@ -578,8 +596,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action, changedItems, index, oldIndex);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "oldIndex", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index, int32_t oldIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action, changedItem, index, oldIndex))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index, int32_t oldIndex)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action, changedItem, index, oldIndex))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index, int32_t oldIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),
@@ -589,8 +609,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, action, changedItem, index, oldIndex);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "newItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "oldItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem, int32_t index)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NotifyCollectionChangedEventArgs>(action, newItem, oldItem, index))) {}
+ System::ComponentModel::NotifyCollectionChangedEventArgs System::ComponentModel::NotifyCollectionChangedEventArgs::New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem, int32_t index)  {
+System::ComponentModel::NotifyCollectionChangedEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NotifyCollectionChangedEventArgs>(action, newItem, oldItem, index))};
+return o;
+}
  void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem, int32_t index)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NotifyCollectionChangedEventArgs>::get(),

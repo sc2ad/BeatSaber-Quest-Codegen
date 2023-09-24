@@ -5,11 +5,14 @@
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__JoystickState__Button;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -70,6 +73,8 @@ __Trigger = 4,
 constexpr operator __UnityEngine__InputSystem__LowLevel__JoystickState__Button_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__LowLevel__JoystickState__Button_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

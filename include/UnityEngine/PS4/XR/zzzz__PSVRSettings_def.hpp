@@ -47,8 +47,7 @@ constexpr explicit PSVRSettings(void* ptr) noexcept : UnityEngine::ScriptableObj
 
 // Methods
 
-// Ctor Parameters []
-explicit PSVRSettings() ;
+static UnityEngine::PS4::XR::PSVRSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b077e8 size 0x8 virtual false final false
  void _ctor() ;

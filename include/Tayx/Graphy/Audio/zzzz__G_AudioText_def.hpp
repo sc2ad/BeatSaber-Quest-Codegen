@@ -6,11 +6,11 @@
 namespace Tayx::Graphy {
 class GraphyManager;
 }
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
-}
 namespace UnityEngine::UI {
 class Text;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -103,8 +103,7 @@ constexpr float_t __get_m_deltaTimeOffset() const;
 /// @brief Method Init addr 0x2877d78 size 0xd0 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit G_AudioText() ;
+static Tayx::Graphy::Audio::G_AudioText New_ctor() ;
 
 /// @brief Method .ctor addr 0x2877f48 size 0x10 virtual false final false
  void _ctor() ;

@@ -72,8 +72,7 @@ constexpr int32_t __get__length() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "s", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StringReader(::StringW s) ;
+static System::IO::StringReader New_ctor(::StringW s) ;
 
 /// @brief Method .ctor addr 0x23caf88 size 0xcc virtual false final false
  void _ctor(::StringW s) ;

@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalKeyParameters_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ElGamalParameters;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ElGamalParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -69,8 +69,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_y() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "y", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ElGamalParameters", modifiers: "", def_value: None }]
-explicit ElGamalPublicKeyParameters(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea8a84 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;

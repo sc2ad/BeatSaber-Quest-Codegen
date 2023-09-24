@@ -4,25 +4,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class IFactory;
+class InjectTypeInfo;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TValue>
 class IMemoryPool_8;
 }
 namespace Zenject {
+class IMemoryPool;
+}
+namespace Zenject {
 template<typename TValue>
 class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
+class IFactory;
+}
+namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TValue>
 class IFactory_8;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
@@ -102,8 +102,7 @@ constexpr explicit MemoryPool_8(void* ptr) noexcept : Zenject::MemoryPoolBase_1<
 /// @brief Method Zenject.IFactory<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>.Create addr 0x0 size 0xffffffffffffffff virtual true final true
  TValue Zenject_IFactory_TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue__Create(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7) ;
 
-// Ctor Parameters []
-explicit MemoryPool_8() ;
+static Zenject::MemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

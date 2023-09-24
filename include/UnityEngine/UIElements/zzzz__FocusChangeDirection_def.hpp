@@ -105,8 +105,7 @@ static UnityEngine::UIElements::FocusChangeDirection get_none() ;
 /// @brief Method get_lastValue addr 0x2c81964 size 0x58 virtual false final false
 static UnityEngine::UIElements::FocusChangeDirection get_lastValue() ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-explicit FocusChangeDirection(int32_t value) ;
+static UnityEngine::UIElements::FocusChangeDirection New_ctor(int32_t value) ;
 
 /// @brief Method .ctor addr 0x2c819bc size 0x28 virtual false final false
  void _ctor(int32_t value) ;

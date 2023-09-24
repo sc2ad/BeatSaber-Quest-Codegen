@@ -54,20 +54,17 @@ constexpr explicit StackOverflowException(void* ptr) noexcept : System::SystemEx
 
 // Methods
 
-// Ctor Parameters []
-explicit StackOverflowException() ;
+static System::StackOverflowException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2456940 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StackOverflowException(::StringW message) ;
+static System::StackOverflowException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2456998 size 0x20 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit StackOverflowException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::StackOverflowException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24569b8 size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

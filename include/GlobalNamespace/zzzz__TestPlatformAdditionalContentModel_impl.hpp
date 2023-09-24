@@ -3,13 +3,12 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__TestPlatformAdditionalContentModel_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "GlobalNamespace/zzzz__TestPlatformAdditionalContentModel_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement._ctor
 template<>
 
@@ -39,8 +38,10 @@ constexpr void GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentMo
 constexpr GlobalNamespace::GlobalNamespace__AdditionalContentModel__EntitlementStatus GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement::__get_status() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__AdditionalContentModel__EntitlementStatus, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement>())) {}
+ GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement::New_ctor()  {
+GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement>::get(),
@@ -753,8 +754,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<GlobalNamespace::GlobalNamespace__AdditionalContentModel__OpenProductStoreResult>, false>(const_cast<void*>(instance), ___internal_method, levelPackId, token);
 }
-// Ctor Parameters []
- GlobalNamespace::TestPlatformAdditionalContentModel::TestPlatformAdditionalContentModel()  : GlobalNamespace::AdditionalContentModel(THROW_UNLESS(::il2cpp_utils::New<TestPlatformAdditionalContentModel>())) {}
+ GlobalNamespace::TestPlatformAdditionalContentModel GlobalNamespace::TestPlatformAdditionalContentModel::New_ctor()  {
+GlobalNamespace::TestPlatformAdditionalContentModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TestPlatformAdditionalContentModel>())};
+return o;
+}
  void GlobalNamespace::TestPlatformAdditionalContentModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TestPlatformAdditionalContentModel>::get(),

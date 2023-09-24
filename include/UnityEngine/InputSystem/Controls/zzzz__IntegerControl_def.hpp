@@ -48,8 +48,7 @@ constexpr explicit IntegerControl(void* ptr) noexcept : UnityEngine::InputSystem
 
 // Methods
 
-// Ctor Parameters []
-explicit IntegerControl() ;
+static UnityEngine::InputSystem::Controls::IntegerControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x297868c size 0x88 virtual false final false
  void _ctor() ;

@@ -69,8 +69,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<::StringW> __get__argume
 /// @brief Method get_arguments addr 0x21a8ec4 size 0x8 virtual false final false
  System::Collections::Generic::IReadOnlyList_1<::StringW> get_arguments() ;
 
-// Ctor Parameters [CppParam { name: "arguments", ty: "System::Collections::Generic::IReadOnlyList_1<::StringW>", modifiers: "", def_value: None }]
-explicit ProgramArguments(System::Collections::Generic::IReadOnlyList_1<::StringW> arguments) ;
+static GlobalNamespace::ProgramArguments New_ctor(System::Collections::Generic::IReadOnlyList_1<::StringW> arguments) ;
 
 /// @brief Method .ctor addr 0x21a8ecc size 0x28 virtual false final false
  void _ctor(System::Collections::Generic::IReadOnlyList_1<::StringW> arguments) ;

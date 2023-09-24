@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__IResolvedStyle_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/UIElements/zzzz__WhiteSpace_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DisplayStyle_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Visibility_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/UIElements/zzzz__WhiteSpace_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DisplayStyle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::IResolvedStyle.get_backgroundColor
 template<>
 

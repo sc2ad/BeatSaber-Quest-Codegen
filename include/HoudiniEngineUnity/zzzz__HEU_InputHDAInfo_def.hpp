@@ -85,8 +85,7 @@ constexpr int32_t __get__connectedInputNodeID() const;
 /// @brief Method IsEquivalentTo addr 0x1ffe9e8 size 0x130 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_InputHDAInfo other) ;
 
-// Ctor Parameters []
-explicit HEU_InputHDAInfo() ;
+static HoudiniEngineUnity::HEU_InputHDAInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ffc810 size 0x10 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/OpenSsl/zzzz__Pkcs8Generator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
-#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::OpenSsl::Pkcs8Generator._ctor
 template<>
 
@@ -176,8 +176,10 @@ constexpr void Org::BouncyCastle::OpenSsl::Pkcs8Generator::__set_random(Org::Bou
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::OpenSsl::Pkcs8Generator::__get_random() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "privKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::OpenSsl::Pkcs8Generator::Pkcs8Generator(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs8Generator>(privKey))) {}
+ Org::BouncyCastle::OpenSsl::Pkcs8Generator Org::BouncyCastle::OpenSsl::Pkcs8Generator::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey)  {
+Org::BouncyCastle::OpenSsl::Pkcs8Generator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::OpenSsl::Pkcs8Generator>(privKey))};
+return o;
+}
  void Org::BouncyCastle::OpenSsl::Pkcs8Generator::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::OpenSsl::Pkcs8Generator>::get(),
@@ -187,8 +189,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, privKey);
 }
-// Ctor Parameters [CppParam { name: "privKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::OpenSsl::Pkcs8Generator::Pkcs8Generator(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, ::StringW algorithm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs8Generator>(privKey, algorithm))) {}
+ Org::BouncyCastle::OpenSsl::Pkcs8Generator Org::BouncyCastle::OpenSsl::Pkcs8Generator::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, ::StringW algorithm)  {
+Org::BouncyCastle::OpenSsl::Pkcs8Generator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::OpenSsl::Pkcs8Generator>(privKey, algorithm))};
+return o;
+}
  void Org::BouncyCastle::OpenSsl::Pkcs8Generator::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, ::StringW algorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::OpenSsl::Pkcs8Generator>::get(),

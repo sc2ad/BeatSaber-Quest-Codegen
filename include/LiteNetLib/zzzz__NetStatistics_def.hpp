@@ -139,8 +139,7 @@ constexpr int64_t __get__packetLoss() const;
 /// @brief Method ToString addr 0x2092578 size 0x270 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit NetStatistics() ;
+static LiteNetLib::NetStatistics New_ctor() ;
 
 /// @brief Method .ctor addr 0x2089b04 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,11 +1,12 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__Grounder_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__GrounderFBBIK_def.hpp"
-#include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
+#include "RootMotion/FinalIK/zzzz__GrounderFBBIK_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedIK_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector._ctor
 template<>
@@ -59,8 +60,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEff
 constexpr float_t RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector::__get_verticalWeight() const {
 return ::cordl_internals::getInstanceField<float_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector::RootMotion__FinalIK__GrounderFBBIK__SpineEffector()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__GrounderFBBIK__SpineEffector>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector>::get(),
@@ -70,8 +73,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "effectorType", ty: "RootMotion::FinalIK::FullBodyBipedEffector", modifiers: "", def_value: None }, CppParam { name: "horizontalWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "verticalWeight", ty: "float_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector::RootMotion__FinalIK__GrounderFBBIK__SpineEffector(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__GrounderFBBIK__SpineEffector>(effectorType, horizontalWeight, verticalWeight))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector::New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight)  {
+RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector>(effectorType, horizontalWeight, verticalWeight))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector::_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector>::get(),
@@ -478,8 +483,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::GrounderFBBIK::GrounderFBBIK()  : RootMotion::FinalIK::Grounder(THROW_UNLESS(::il2cpp_utils::New<GrounderFBBIK>())) {}
+ RootMotion::FinalIK::GrounderFBBIK RootMotion::FinalIK::GrounderFBBIK::New_ctor()  {
+RootMotion::FinalIK::GrounderFBBIK o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::GrounderFBBIK>())};
+return o;
+}
  void RootMotion::FinalIK::GrounderFBBIK::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::GrounderFBBIK>::get(),

@@ -5,10 +5,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct StyleValueHandle;
+class StyleSheet;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
+struct StyleValueHandle;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -5,8 +5,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__DynamicBoneColliderBase__Bound;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__DynamicBoneColliderBase__Direction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,6 +74,8 @@ __Z = 2,
 constexpr operator __GlobalNamespace__DynamicBoneColliderBase__Direction_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__DynamicBoneColliderBase__Direction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -140,6 +148,8 @@ __Inside = 1,
 constexpr operator __GlobalNamespace__DynamicBoneColliderBase__Bound_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__DynamicBoneColliderBase__Bound_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -230,8 +240,7 @@ constexpr GlobalNamespace::GlobalNamespace__DynamicBoneColliderBase__Bound __get
 /// @brief Method Collide addr 0x11a6654 size 0x4 virtual true final false
  void Collide(ByRef<UnityEngine::Vector3> particlePosition, float_t particleRadius) ;
 
-// Ctor Parameters []
-explicit DynamicBoneColliderBase() ;
+static GlobalNamespace::DynamicBoneColliderBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a65f0 size 0x64 virtual false final false
  void _ctor() ;

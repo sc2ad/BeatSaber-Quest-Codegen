@@ -1,16 +1,17 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelLoader_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelDataLoader_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelLoader_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelDataLoader_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapLevelLoader__LoadBeatmapLevelResult._ctor
 template<>
 
@@ -220,8 +221,10 @@ constexpr void GlobalNamespace::BeatmapLevelLoader::__set__beatmapDataAssetFileM
 constexpr GlobalNamespace::IBeatmapDataAssetFileModel GlobalNamespace::BeatmapLevelLoader::__get__beatmapDataAssetFileModel() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IBeatmapDataAssetFileModel, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelDataLoader", ty: "GlobalNamespace::BeatmapLevelDataLoader", modifiers: "", def_value: None }, CppParam { name: "beatmapDataAssetFileModel", ty: "GlobalNamespace::IBeatmapDataAssetFileModel", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapLevelLoader::BeatmapLevelLoader(GlobalNamespace::BeatmapLevelDataLoader beatmapLevelDataLoader, GlobalNamespace::IBeatmapDataAssetFileModel beatmapDataAssetFileModel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelLoader>(beatmapLevelDataLoader, beatmapDataAssetFileModel))) {}
+ GlobalNamespace::BeatmapLevelLoader GlobalNamespace::BeatmapLevelLoader::New_ctor(GlobalNamespace::BeatmapLevelDataLoader beatmapLevelDataLoader, GlobalNamespace::IBeatmapDataAssetFileModel beatmapDataAssetFileModel)  {
+GlobalNamespace::BeatmapLevelLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelLoader>(beatmapLevelDataLoader, beatmapDataAssetFileModel))};
+return o;
+}
  void GlobalNamespace::BeatmapLevelLoader::_ctor(GlobalNamespace::BeatmapLevelDataLoader beatmapLevelDataLoader, GlobalNamespace::IBeatmapDataAssetFileModel beatmapDataAssetFileModel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelLoader>::get(),

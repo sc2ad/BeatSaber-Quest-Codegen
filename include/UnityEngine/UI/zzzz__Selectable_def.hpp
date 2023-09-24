@@ -5,81 +5,87 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Selectable__SelectionState;
 }
 namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class ISelectHandler;
+class IDeselectHandler;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Selectable__Transition;
+}
+namespace UnityEngine::UI {
+struct Navigation;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine::EventSystems {
-class IDeselectHandler;
-}
-namespace UnityEngine::UI {
-struct Navigation;
-}
-namespace UnityEngine::UI {
-struct ColorBlock;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine {
 class Animator;
 }
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
 }
-namespace UnityEngine::UI {
-class AnimationTriggers;
-}
 namespace UnityEngine::EventSystems {
-class IMoveHandler;
+class ISelectHandler;
 }
-namespace UnityEngine::EventSystems {
-class AxisEventData;
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
-}
-namespace UnityEngine::UI {
-struct SpriteState;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::UI {
+struct SpriteState;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine::UI {
+class AnimationTriggers;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine::EventSystems {
+class IMoveHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::UI {
+struct ColorBlock;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -142,6 +148,8 @@ __Animation = 3,
 constexpr operator __UnityEngine__UI__Selectable__Transition_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__Selectable__Transition_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -220,6 +228,8 @@ __Disabled = 4,
 constexpr operator __UnityEngine__UI__Selectable__SelectionState_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__Selectable__SelectionState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -525,8 +535,7 @@ static int32_t AllSelectablesNoAlloc(::ArrayW<UnityEngine::UI::Selectable> selec
 /// @brief Method set_hasSelection addr 0x2c0ddac size 0xc virtual false final false
  void set_hasSelection(bool value) ;
 
-// Ctor Parameters []
-explicit Selectable() ;
+static UnityEngine::UI::Selectable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c07f38 size 0x118 virtual false final false
  void _ctor() ;

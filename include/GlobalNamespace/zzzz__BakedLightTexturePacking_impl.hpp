@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BakedLightTexturePacking_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BakedLightTexturePacking.PackTextures
 template<>
 

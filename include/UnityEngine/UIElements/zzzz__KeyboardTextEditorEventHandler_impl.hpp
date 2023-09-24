@@ -1,19 +1,19 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardTextEditorEventHandler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ITextInputField_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MouseDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ValidateCommandEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ExecuteCommandEvent_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MouseUpEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BlurEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ValidateCommandEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ExecuteCommandEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BlurEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MouseDownEvent_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ITextInputField_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MouseUpEvent_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::KeyboardTextEditorEventHandler.get_isClicking
 template<>
 
@@ -352,8 +352,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "editorEngine", ty: "UnityEngine::UIElements::TextEditorEngine", modifiers: "", def_value: None }, CppParam { name: "textInputField", ty: "UnityEngine::UIElements::ITextInputField", modifiers: "", def_value: None }]
- UnityEngine::UIElements::KeyboardTextEditorEventHandler::KeyboardTextEditorEventHandler(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField)  : UnityEngine::UIElements::TextEditorEventHandler(THROW_UNLESS(::il2cpp_utils::New<KeyboardTextEditorEventHandler>(editorEngine, textInputField))) {}
+ UnityEngine::UIElements::KeyboardTextEditorEventHandler UnityEngine::UIElements::KeyboardTextEditorEventHandler::New_ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField)  {
+UnityEngine::UIElements::KeyboardTextEditorEventHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::KeyboardTextEditorEventHandler>(editorEngine, textInputField))};
+return o;
+}
  void UnityEngine::UIElements::KeyboardTextEditorEventHandler::_ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::KeyboardTextEditorEventHandler>::get(),

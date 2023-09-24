@@ -6,16 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Reflection {
-class Binder;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
 class RuntimeFieldInfo;
 }
 namespace System::Reflection {
-struct FieldAttributes;
+class Module;
+}
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 struct BindingFlags;
@@ -24,7 +21,10 @@ namespace System {
 struct RuntimeFieldHandle;
 }
 namespace System::Reflection {
-class Module;
+class Binder;
+}
+namespace System::Reflection {
+struct FieldAttributes;
 }
 namespace System::Globalization {
 class CultureInfo;
@@ -117,8 +117,7 @@ constexpr ::StringW __get_m_serializationName() const;
 /// @brief Method get_MetadataToken addr 0x2351cd4 size 0x24 virtual true final false
  int32_t get_MetadataToken() ;
 
-// Ctor Parameters [CppParam { name: "field", ty: "System::Reflection::RuntimeFieldInfo", modifiers: "", def_value: None }, CppParam { name: "namePrefix", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SerializationFieldInfo(System::Reflection::RuntimeFieldInfo field, ::StringW namePrefix) ;
+static System::Runtime::Serialization::SerializationFieldInfo New_ctor(System::Reflection::RuntimeFieldInfo field, ::StringW namePrefix) ;
 
 /// @brief Method .ctor addr 0x234a90c size 0x90 virtual false final false
  void _ctor(System::Reflection::RuntimeFieldInfo field, ::StringW namePrefix) ;

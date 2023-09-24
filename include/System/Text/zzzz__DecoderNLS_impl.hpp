@@ -247,8 +247,10 @@ constexpr void System::Text::DecoderNLS::__set__bytesUsed(int32_t value)  {
 constexpr int32_t System::Text::DecoderNLS::__get__bytesUsed() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::Text::DecoderNLS::DecoderNLS(System::Text::Encoding encoding)  : System::Text::Decoder(THROW_UNLESS(::il2cpp_utils::New<DecoderNLS>(encoding))) {}
+ System::Text::DecoderNLS System::Text::DecoderNLS::New_ctor(System::Text::Encoding encoding)  {
+System::Text::DecoderNLS o{THROW_UNLESS(::il2cpp_utils::New<System::Text::DecoderNLS>(encoding))};
+return o;
+}
  void System::Text::DecoderNLS::_ctor(System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::DecoderNLS>::get(),

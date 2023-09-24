@@ -6,9 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class IDisposable;
 }
@@ -17,6 +14,9 @@ class UxmlChildElementDescription;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -27,22 +27,19 @@ template<typename T>
 class IEnumerator_1;
 }
 namespace UnityEngine::UIElements {
-class ITextElement;
+class ITextHandle;
 }
 namespace UnityEngine::UIElements {
-class ITextHandle;
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflowPosition;
 }
 namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__VisualElement__MeasureMode;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
+class UnityEngine__UIElements__TextElement__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
@@ -54,14 +51,23 @@ namespace UnityEngine::UIElements {
 template<typename T>
 class INotifyValueChanged_1;
 }
-namespace UnityEngine::UIElements {
-class EventBase;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+class UnityEngine__UIElements__TextElement__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class ITextElement;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__TextElement__UxmlTraits___get_uxmlChildElementsDescription_d__4;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -70,7 +76,10 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class UxmlBoolAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -161,8 +170,7 @@ constexpr UnityEngine::UIElements::UxmlBoolAttributeDescription __get_m_DisplayT
 /// @brief Method Init addr 0x2c47b70 size 0x18c virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TextElement__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TextElement__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c47cfc size 0x120 virtual false final false
  void _ctor() ;
@@ -313,8 +321,7 @@ constexpr int32_t __get_m_PreviousTextParamsHashCode() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TextElement() ;
+static UnityEngine::UIElements::TextElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c467c8 size 0x1b8 virtual false final false
  void _ctor() ;
@@ -395,7 +402,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(6899)), TypeDefinitionIndex(TypeDefinitionIndex(6900)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5107 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(6900)), TypeDefinitionIndex(TypeDefinitionIndex(6899)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5107 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6897))
 // CS Name: UnityEngine.UIElements.TextElement::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__TextElement__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::TextElement,UnityEngine::UIElements::UnityEngine__UIElements__TextElement__UxmlTraits> {
@@ -434,8 +441,7 @@ constexpr explicit UnityEngine__UIElements__TextElement__UxmlFactory(void* ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TextElement__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TextElement__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c47a80 size 0x48 virtual false final false
  void _ctor() ;
@@ -535,8 +541,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__TextElement__UxmlTra
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__TextElement__UxmlTraits___get_uxmlChildElementsDescription_d__4(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__UIElements__TextElement__UxmlTraits___get_uxmlChildElementsDescription_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2c47b2c size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;

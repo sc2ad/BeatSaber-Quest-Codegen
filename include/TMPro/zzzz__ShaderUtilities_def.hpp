@@ -6,10 +6,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Shader;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class Shader;
 }
 namespace UnityEngine {
 struct Vector4;

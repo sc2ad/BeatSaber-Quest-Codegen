@@ -1,8 +1,8 @@
 #pragma once
 #include "Oculus/Platform/zzzz__LanguagePack_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetDetails_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"
 //  Writing Method size for method: Oculus::Platform::LanguagePack.GetCurrent
 template<>
 

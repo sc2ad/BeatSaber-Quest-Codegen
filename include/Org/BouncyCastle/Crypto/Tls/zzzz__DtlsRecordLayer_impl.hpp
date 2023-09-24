@@ -1,16 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsRecordLayer_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__Timeout_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsEpoch_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ProtocolVersion_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ByteQueue_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__DatagramTransport_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCloseable_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsHandshakeRetransmit_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__Timeout_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsHandshakeRetransmit_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsEpoch_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__DatagramTransport_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCloseable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer.SendDatagram
 template<>
 
@@ -572,8 +572,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sender, buf, off, len);
 }
-// Ctor Parameters [CppParam { name: "transport", ty: "Org::BouncyCastle::Crypto::Tls::DatagramTransport", modifiers: "", def_value: None }, CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "Org::BouncyCastle::Crypto::Tls::TlsPeer", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "uint8_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::DtlsRecordLayer(Org::BouncyCastle::Crypto::Tls::DatagramTransport transport, Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::TlsPeer peer, uint8_t contentType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DtlsRecordLayer>(transport, context, peer, contentType))) {}
+ Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::New_ctor(Org::BouncyCastle::Crypto::Tls::DatagramTransport transport, Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::TlsPeer peer, uint8_t contentType)  {
+Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer>(transport, context, peer, contentType))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::_ctor(Org::BouncyCastle::Crypto::Tls::DatagramTransport transport, Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::TlsPeer peer, uint8_t contentType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer>::get(),

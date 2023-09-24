@@ -5,80 +5,80 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryMethodReturn;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMap;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveUnTyped;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveTyped;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class WriteObjectInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryMethodCall;
-}
-namespace System::Collections {
-class Hashtable;
+namespace System {
+struct DateTime;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMapTyped;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberReference;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class NameInfo;
-}
-namespace System {
-class Type;
-}
-namespace System::IO {
-class BinaryWriter;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssembly;
+class BinaryObjectWithMap;
 }
 namespace System::Runtime::Serialization::Formatters {
 struct FormatterTypeStyle;
-}
-namespace System {
-class Array;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectWriter;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObject;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectString;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryArray;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObject;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryAssembly;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberPrimitiveTyped;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::IO {
+class BinaryWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberReference;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMapTyped;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class WriteObjectInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalPrimitiveTypeE;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryMethodCall;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryMethodReturn;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectNull;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class NameInfo;
+}
+namespace System {
+class Array;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectString;
+}
+namespace System {
+struct Decimal;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberPrimitiveUnTyped;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -255,8 +255,7 @@ constexpr System::Runtime::Serialization::Formatters::Binary::BinaryAssembly __g
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sout", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "objectWriter", ty: "System::Runtime::Serialization::Formatters::Binary::ObjectWriter", modifiers: "", def_value: None }, CppParam { name: "formatterTypeStyle", ty: "System::Runtime::Serialization::Formatters::FormatterTypeStyle", modifiers: "", def_value: None }]
-explicit __BinaryWriter(System::IO::Stream sout, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle) ;
+static System::Runtime::Serialization::Formatters::Binary::__BinaryWriter New_ctor(System::IO::Stream sout, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle) ;
 
 /// @brief Method .ctor addr 0x235a098 size 0xb8 virtual false final false
  void _ctor(System::IO::Stream sout, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle) ;

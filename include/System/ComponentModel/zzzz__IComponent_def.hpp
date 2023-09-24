@@ -1,10 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace System {
-class IDisposable;
-}
 namespace System::ComponentModel {
 class ISite;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::ComponentModel {

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__CallbackEventHandler_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::Focusable._ctor
 template<>
 
@@ -357,8 +357,10 @@ constexpr void UnityEngine::UIElements::Focusable::__set_isIMGUIContainer(bool v
 constexpr bool UnityEngine::UIElements::Focusable::__get_isIMGUIContainer() const {
 return ::cordl_internals::getInstanceField<bool, 0x22>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::Focusable::Focusable()  : UnityEngine::UIElements::CallbackEventHandler(THROW_UNLESS(::il2cpp_utils::New<Focusable>())) {}
+ UnityEngine::UIElements::Focusable UnityEngine::UIElements::Focusable::New_ctor()  {
+UnityEngine::UIElements::Focusable o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Focusable>())};
+return o;
+}
  void UnityEngine::UIElements::Focusable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Focusable>::get(),

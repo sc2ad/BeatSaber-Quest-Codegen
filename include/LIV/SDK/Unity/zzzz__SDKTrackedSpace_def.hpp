@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 namespace LIV::SDK::Unity {
-struct SDKMatrix4x4;
-}
-namespace LIV::SDK::Unity {
 struct SDKQuaternion;
 }
 namespace LIV::SDK::Unity {
 struct SDKVector3;
+}
+namespace LIV::SDK::Unity {
+struct SDKMatrix4x4;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

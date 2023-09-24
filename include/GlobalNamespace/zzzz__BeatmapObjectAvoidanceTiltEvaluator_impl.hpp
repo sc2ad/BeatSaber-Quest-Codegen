@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceTiltEvaluator_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator._ctor
 template<>
 
@@ -67,8 +67,10 @@ constexpr void GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__set__curr
 constexpr float_t GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::__get__currentAcceleration() const {
 return ::cordl_internals::getInstanceField<float_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "bezierSplineEvaluator", ty: "GlobalNamespace::BezierSplineEvaluator", modifiers: "", def_value: None }, CppParam { name: "gravity", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::BeatmapObjectAvoidanceTiltEvaluator(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BezierSplineEvaluator bezierSplineEvaluator, UnityEngine::Vector2 gravity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapObjectAvoidanceTiltEvaluator>(audioTimeSource, bezierSplineEvaluator, gravity))) {}
+ GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::New_ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BezierSplineEvaluator bezierSplineEvaluator, UnityEngine::Vector2 gravity)  {
+GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator>(audioTimeSource, bezierSplineEvaluator, gravity))};
+return o;
+}
  void GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::_ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BezierSplineEvaluator bezierSplineEvaluator, UnityEngine::Vector2 gravity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator>::get(),

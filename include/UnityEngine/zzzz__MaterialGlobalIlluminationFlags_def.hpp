@@ -59,6 +59,8 @@ constexpr operator __MaterialGlobalIlluminationFlags_Unwrapped () const noexcept
 return std::bit_cast<__MaterialGlobalIlluminationFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

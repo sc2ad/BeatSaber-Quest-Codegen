@@ -3,9 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace System::Reflection {
+class AssemblyName;
 }
 namespace System::Reflection {
 class Assembly;
@@ -18,10 +17,11 @@ namespace System::Threading {
 struct StackCrawlMark;
 }
 namespace System {
-class Type;
+template<typename T,typename TResult>
+class Func_2;
 }
-namespace System::Reflection {
-class AssemblyName;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {

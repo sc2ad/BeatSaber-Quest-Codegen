@@ -59,8 +59,7 @@ constexpr explicit BaseResultsEnvironmentController(void* ptr) noexcept : UnityE
 /// @brief Method Setup addr 0x0 size 0xffffffffffffffff virtual true final false
  void Setup(GlobalNamespace::IReadonlyBeatmapData beatmapData) ;
 
-// Ctor Parameters []
-explicit BaseResultsEnvironmentController() ;
+static GlobalNamespace::BaseResultsEnvironmentController New_ctor() ;
 
 /// @brief Method .ctor addr 0x222c9ac size 0x8 virtual false final false
  void _ctor() ;

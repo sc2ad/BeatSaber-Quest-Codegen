@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRCompositionUtil_def.hpp"
-#include "GlobalNamespace/zzzz__OVRBoundary_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__OVRBoundary_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRCompositionUtil.SafeDestroy
 template<>
 
@@ -178,8 +178,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Mesh, false>(nullptr, ___internal_method, boundaryType, topY, bottomY);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRCompositionUtil::OVRCompositionUtil()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRCompositionUtil>())) {}
+ GlobalNamespace::OVRCompositionUtil GlobalNamespace::OVRCompositionUtil::New_ctor()  {
+GlobalNamespace::OVRCompositionUtil o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRCompositionUtil>())};
+return o;
+}
  void GlobalNamespace::OVRCompositionUtil::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRCompositionUtil>::get(),

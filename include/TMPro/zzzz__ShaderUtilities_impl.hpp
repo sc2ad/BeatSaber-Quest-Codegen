@@ -1,7 +1,7 @@
 #pragma once
 #include "TMPro/zzzz__ShaderUtilities_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 //  Writing Method size for method: TMPro::ShaderUtilities.get_ShaderRef_MobileSDF
 template<>

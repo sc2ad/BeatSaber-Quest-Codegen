@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class Hashtable;
-}
 namespace System {
 struct DateTime;
 }
 namespace System {
 struct TimeSpan;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Globalization {
 class DaylightTime;
@@ -90,8 +90,7 @@ constexpr System::Collections::Hashtable __get_m_CachedDaylightChanges() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CurrentSystemTimeZone() ;
+static System::CurrentSystemTimeZone New_ctor() ;
 
 /// @brief Method .ctor addr 0x241fac4 size 0xc4 virtual false final false
  void _ctor() ;

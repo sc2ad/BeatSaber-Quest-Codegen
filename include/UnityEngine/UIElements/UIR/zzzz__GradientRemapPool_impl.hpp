@@ -1,8 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemapPool_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GradientRemapPool_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c._ctor
 template<>
@@ -73,8 +74,10 @@ return ::cordl_internals::getStaticField<System::Func_1<UnityEngine::UIElements:
  System::Action_1<UnityEngine::UIElements::UIR::GradientRemap> UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c::__get___9__0_1()  {
 return ::cordl_internals::getStaticField<System::Action_1<UnityEngine::UIElements::UIR::GradientRemap>, "<>9__0_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c::UnityEngine__UIElements__UIR__GradientRemapPool____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIR__GradientRemapPool____c>())) {}
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c::New_ctor()  {
+UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c>::get(),
@@ -119,8 +122,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::GradientRemapPool::GradientRemapPool()  : UnityEngine::UIElements::UIR::LinkedPool_1<UnityEngine::UIElements::UIR::GradientRemap>(THROW_UNLESS(::il2cpp_utils::New<GradientRemapPool>())) {}
+ UnityEngine::UIElements::UIR::GradientRemapPool UnityEngine::UIElements::UIR::GradientRemapPool::New_ctor()  {
+UnityEngine::UIElements::UIR::GradientRemapPool o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::GradientRemapPool>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::GradientRemapPool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::GradientRemapPool>::get(),

@@ -6,28 +6,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System {
 struct TimeSpan;
+}
+namespace System::Text::RegularExpressions {
+class Match;
+}
+namespace System::Text::RegularExpressions {
+class RegexReplacement;
+}
+namespace System::Text::RegularExpressions {
+struct System__Text__RegularExpressions__Regex__CachedCodeEntryKey;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Text::RegularExpressions {
+class System__Text__RegularExpressions__Regex__CachedCodeEntry;
 }
 namespace System::Text::RegularExpressions {
-class RegexRunnerFactory;
-}
-namespace System::Text::RegularExpressions {
-struct RegexOptions;
-}
-namespace System {
-template<typename T>
-class WeakReference_1;
-}
-namespace System::Text::RegularExpressions {
-class Match;
+class RegexCode;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
@@ -36,19 +38,23 @@ namespace System::Collections {
 class Hashtable;
 }
 namespace System::Text::RegularExpressions {
-class MatchCollection;
+class RegexRunnerFactory;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Text::RegularExpressions {
+struct RegexOptions;
 }
 namespace System::Text::RegularExpressions {
 class ExclusiveReference;
 }
 namespace System::Text::RegularExpressions {
-class RegexCode;
+class MatchCollection;
 }
-namespace System::Text::RegularExpressions {
-class RegexReplacement;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+template<typename T>
+class WeakReference_1;
 }
 namespace System {
 template<typename T>
@@ -255,8 +261,7 @@ constexpr System::WeakReference_1<System::Text::RegularExpressions::RegexReplace
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntryKey", modifiers: "", def_value: None }, CppParam { name: "capnames", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capslist", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "code", ty: "System::Text::RegularExpressions::RegexCode", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capsize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "runner", ty: "System::Text::RegularExpressions::ExclusiveReference", modifiers: "", def_value: None }, CppParam { name: "replref", ty: "System::WeakReference_1<System::Text::RegularExpressions::RegexReplacement>", modifiers: "", def_value: None }]
-explicit System__Text__RegularExpressions__Regex__CachedCodeEntry(System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntryKey key, System::Collections::Hashtable capnames, ::ArrayW<::StringW> capslist, System::Text::RegularExpressions::RegexCode code, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::ExclusiveReference runner, System::WeakReference_1<System::Text::RegularExpressions::RegexReplacement> replref) ;
+static System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntry New_ctor(System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntryKey key, System::Collections::Hashtable capnames, ::ArrayW<::StringW> capslist, System::Text::RegularExpressions::RegexCode code, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::ExclusiveReference runner, System::WeakReference_1<System::Text::RegularExpressions::RegexReplacement> replref) ;
 
 /// @brief Method .ctor addr 0x27c051c size 0x78 virtual false final false
  void _ctor(System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntryKey key, System::Collections::Hashtable capnames, ::ArrayW<::StringW> capslist, System::Text::RegularExpressions::RegexCode code, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::ExclusiveReference runner, System::WeakReference_1<System::Text::RegularExpressions::RegexReplacement> replref) ;
@@ -516,14 +521,12 @@ static void ValidateMatchTimeout(System::TimeSpan matchTimeout) ;
 /// @brief Method InitDefaultMatchTimeout addr 0x27c1450 size 0x240 virtual false final false
 static System::TimeSpan InitDefaultMatchTimeout() ;
 
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Regex(::StringW pattern) ;
+static System::Text::RegularExpressions::Regex New_ctor(::StringW pattern) ;
 
 /// @brief Method .ctor addr 0x27c17ec size 0x78 virtual false final false
  void _ctor(::StringW pattern) ;
 
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }]
-explicit Regex(::StringW pattern, System::Text::RegularExpressions::RegexOptions options) ;
+static System::Text::RegularExpressions::Regex New_ctor(::StringW pattern, System::Text::RegularExpressions::RegexOptions options) ;
 
 /// @brief Method .ctor addr 0x27c1864 size 0x7c virtual false final false
  void _ctor(::StringW pattern, System::Text::RegularExpressions::RegexOptions options) ;
@@ -531,8 +534,7 @@ explicit Regex(::StringW pattern, System::Text::RegularExpressions::RegexOptions
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x27c18e0 size 0x40 virtual true final true
  void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo si, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "matchTimeout", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "addToCache", ty: "bool", modifiers: "", def_value: None }]
-explicit Regex(::StringW pattern, System::Text::RegularExpressions::RegexOptions options, System::TimeSpan matchTimeout, bool addToCache) ;
+static System::Text::RegularExpressions::Regex New_ctor(::StringW pattern, System::Text::RegularExpressions::RegexOptions options, System::TimeSpan matchTimeout, bool addToCache) ;
 
 /// @brief Method .ctor addr 0x27c0988 size 0x378 virtual false final false
  void _ctor(::StringW pattern, System::Text::RegularExpressions::RegexOptions options, System::TimeSpan matchTimeout, bool addToCache) ;

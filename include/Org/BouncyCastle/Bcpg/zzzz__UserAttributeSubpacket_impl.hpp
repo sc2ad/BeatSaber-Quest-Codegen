@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacketTag_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacketTag_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::UserAttributeSubpacket._ctor
 template<>
 
@@ -139,8 +139,10 @@ constexpr void Org::BouncyCastle::Bcpg::UserAttributeSubpacket::__set_data(::Arr
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Bcpg::UserAttributeSubpacket::__get_data() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::UserAttributeSubpacket::UserAttributeSubpacket(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserAttributeSubpacket>(type, data))) {}
+ Org::BouncyCastle::Bcpg::UserAttributeSubpacket Org::BouncyCastle::Bcpg::UserAttributeSubpacket::New_ctor(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::UserAttributeSubpacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>(type, data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::UserAttributeSubpacket::_ctor(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>::get(),
@@ -150,8 +152,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, data);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag", modifiers: "", def_value: None }, CppParam { name: "forceLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::UserAttributeSubpacket::UserAttributeSubpacket(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserAttributeSubpacket>(type, forceLongLength, data))) {}
+ Org::BouncyCastle::Bcpg::UserAttributeSubpacket Org::BouncyCastle::Bcpg::UserAttributeSubpacket::New_ctor(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::UserAttributeSubpacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>(type, forceLongLength, data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::UserAttributeSubpacket::_ctor(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>::get(),

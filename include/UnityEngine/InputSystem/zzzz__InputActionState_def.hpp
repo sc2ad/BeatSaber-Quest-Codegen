@@ -8,71 +8,11 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TDelegate>
-struct CallbackArray_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::InputSystem {
-class InputBindingComposite;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::InputSystem {
 template<typename TControl>
 struct InputControlList_1;
 }
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
-struct InputBindingResolver;
-}
-namespace UnityEngine::InputSystem {
-class InputProcessor;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionPhase;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace System {
-class ICloneable;
-}
-namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputAction__CallbackContext;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace System {
 class Type;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class ISavedState;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionChange;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem {
 class IInputInteraction;
@@ -81,26 +21,116 @@ namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace UnityEngine::InputSystem {
-template<typename TValue>
-class InputControl_1;
+class InputActionMap;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionState__InteractionState;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateChangeMonitor;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionState__TriggerState;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TDelegate>
+struct CallbackArray_1;
+}
+namespace System {
+class ICloneable;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::InputSystem {
+class InputBindingComposite;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionState__GlobalState;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionState__BindingState;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputActionState____c;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionChange;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+class InputProcessor;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionState__ActionMapIndices;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class ISavedState;
+}
+namespace UnityEngine::InputSystem {
+struct InputBindingResolver;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionState__UnmanagedMemory;
+}
+namespace UnityEngine::InputSystem {
+template<typename TValue>
+class InputControl_1;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename T>
 class UnityEngine__InputSystem__Utilities__SavedStructState_1__TypedRestore;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct InlinedArray_1;
-}
-namespace System::Runtime::InteropServices {
-struct GCHandle;
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputActionState__BindingState__Flags;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
+}
+namespace System::Runtime::InteropServices {
+struct GCHandle;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct InlinedArray_1;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputActionState__InteractionState__Flags;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputActionState__TriggerState__Flags;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -184,6 +214,8 @@ __TimerRunning = 1,
 constexpr operator __UnityEngine__InputSystem__InputActionState__InteractionState__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputActionState__InteractionState__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -449,6 +481,8 @@ __WantsInitialStateCheck = 32,
 constexpr operator __UnityEngine__InputSystem__InputActionState__BindingState__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputActionState__BindingState__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -831,6 +865,8 @@ __Pressed = 64,
 constexpr operator __UnityEngine__InputSystem__InputActionState__TriggerState__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputActionState__TriggerState__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1629,8 +1665,7 @@ static System::Action __get___9__135_1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputActionState____c() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionState____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28c260c size 0x8 virtual false final false
  void _ctor() ;
@@ -2169,8 +2204,7 @@ static void DisableAllActions() ;
 /// @brief Method DestroyAllActionMapStates addr 0x28c0f80 size 0x170 virtual false final false
 static void DestroyAllActionMapStates() ;
 
-// Ctor Parameters []
-explicit InputActionState() ;
+static UnityEngine::InputSystem::InputActionState New_ctor() ;
 
 /// @brief Method .ctor addr 0x28bb504 size 0x8 virtual false final false
  void _ctor() ;

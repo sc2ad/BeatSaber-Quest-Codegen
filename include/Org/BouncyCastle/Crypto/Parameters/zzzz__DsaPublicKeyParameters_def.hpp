@@ -72,8 +72,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_y() const;
 /// @brief Method Validate addr 0xea4e58 size 0x168 virtual false final false
 static Org::BouncyCastle::Math::BigInteger Validate(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "y", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DsaParameters", modifiers: "", def_value: None }]
-explicit DsaPublicKeyParameters(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea4fc0 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters) ;

@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib {
-class NetPeer;
-}
-namespace System::Net {
-class IPEndPoint;
-}
 namespace LiteNetLib {
 class NetManager;
 }
 namespace LiteNetLib {
 struct ConnectionRequestResult;
+}
+namespace LiteNetLib {
+class NetPeer;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 namespace LiteNetLib {
 class NetConnectRequestPacket;
@@ -133,8 +133,7 @@ constexpr System::Net::IPEndPoint __get_RemoteEndPoint() const;
 /// @brief Method UpdateRequest addr 0x2084a6c size 0x30 virtual false final false
  void UpdateRequest(LiteNetLib::NetConnectRequestPacket connRequest) ;
 
-// Ctor Parameters [CppParam { name: "connectionId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "connectionNumber", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "netDataReader", ty: "LiteNetLib::Utils::NetDataReader", modifiers: "", def_value: None }, CppParam { name: "endPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }, CppParam { name: "listener", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }]
-explicit ConnectionRequest(int64_t connectionId, uint8_t connectionNumber, LiteNetLib::Utils::NetDataReader netDataReader, System::Net::IPEndPoint endPoint, LiteNetLib::NetManager listener) ;
+static LiteNetLib::ConnectionRequest New_ctor(int64_t connectionId, uint8_t connectionNumber, LiteNetLib::Utils::NetDataReader netDataReader, System::Net::IPEndPoint endPoint, LiteNetLib::NetManager listener) ;
 
 /// @brief Method .ctor addr 0x2084a9c size 0x58 virtual false final false
  void _ctor(int64_t connectionId, uint8_t connectionNumber, LiteNetLib::Utils::NetDataReader netDataReader, System::Net::IPEndPoint endPoint, LiteNetLib::NetManager listener) ;

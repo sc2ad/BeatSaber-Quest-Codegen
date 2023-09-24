@@ -47,8 +47,7 @@ constexpr explicit XamlItemsControlAttribute(void* ptr) noexcept : System::Attri
 
 // Methods
 
-// Ctor Parameters []
-explicit XamlItemsControlAttribute() ;
+static JetBrains::Annotations::XamlItemsControlAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41288 size 0x8 virtual false final false
  void _ctor() ;

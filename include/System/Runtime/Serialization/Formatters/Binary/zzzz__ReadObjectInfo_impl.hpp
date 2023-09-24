@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ReadObjectInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ObjectManager_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerObjectInfoCache_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ObjectManager_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IFormatterConverter_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerObjectInfoCache_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerObjectInfoInit_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo._ctor
 template<>
 
@@ -476,8 +476,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::ReadObjectInf
 constexpr System::Runtime::Serialization::IFormatterConverter System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo::__get_formatterConverter() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::IFormatterConverter, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo::ReadObjectInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReadObjectInfo>())) {}
+ System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo>::get(),

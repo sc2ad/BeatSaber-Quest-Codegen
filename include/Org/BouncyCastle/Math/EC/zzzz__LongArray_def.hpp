@@ -106,26 +106,22 @@ constexpr ::ArrayW<int64_t> __get_m_ints() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "intLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LongArray(int32_t intLen) ;
+static Org::BouncyCastle::Math::EC::LongArray New_ctor(int32_t intLen) ;
 
 /// @brief Method .ctor addr 0xfcaa20 size 0x68 virtual false final false
  void _ctor(int32_t intLen) ;
 
-// Ctor Parameters [CppParam { name: "ints", ty: "::ArrayW<int64_t>", modifiers: "", def_value: None }]
-explicit LongArray(::ArrayW<int64_t> ints) ;
+static Org::BouncyCastle::Math::EC::LongArray New_ctor(::ArrayW<int64_t> ints) ;
 
 /// @brief Method .ctor addr 0xfc1488 size 0x28 virtual false final false
  void _ctor(::ArrayW<int64_t> ints) ;
 
-// Ctor Parameters [CppParam { name: "ints", ty: "::ArrayW<int64_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LongArray(::ArrayW<int64_t> ints, int32_t off, int32_t len) ;
+static Org::BouncyCastle::Math::EC::LongArray New_ctor(::ArrayW<int64_t> ints, int32_t off, int32_t len) ;
 
 /// @brief Method .ctor addr 0xfcaa88 size 0xb4 virtual false final false
  void _ctor(::ArrayW<int64_t> ints, int32_t off, int32_t len) ;
 
-// Ctor Parameters [CppParam { name: "bigInt", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit LongArray(Org::BouncyCastle::Math::BigInteger bigInt) ;
+static Org::BouncyCastle::Math::EC::LongArray New_ctor(Org::BouncyCastle::Math::BigInteger bigInt) ;
 
 /// @brief Method .ctor addr 0xfc3384 size 0x224 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger bigInt) ;

@@ -69,8 +69,7 @@ constexpr int32_t __get_mapId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BinaryObject() ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x2355ca8 size 0x8 virtual false final false
  void _ctor() ;

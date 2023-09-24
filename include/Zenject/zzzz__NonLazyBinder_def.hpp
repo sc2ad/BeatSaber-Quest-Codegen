@@ -53,8 +53,7 @@ constexpr explicit NonLazyBinder(void* ptr) noexcept : Zenject::IfNotBoundBinder
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit NonLazyBinder(Zenject::BindInfo bindInfo) ;
+static Zenject::NonLazyBinder New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d61d20 size 0x28 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;

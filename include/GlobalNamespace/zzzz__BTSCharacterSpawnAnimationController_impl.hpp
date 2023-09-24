@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterSpawnAnimationController_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockFloatAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationTrack_def.hpp"
+#include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__SongSpeedData_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
-#include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockFloatAnimator_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BTSCharacterSpawnAnimationController.get_isCharacterVisible
 template<>
 
@@ -363,8 +363,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BTSCharacterSpawnAnimationController::BTSCharacterSpawnAnimationController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BTSCharacterSpawnAnimationController>())) {}
+ GlobalNamespace::BTSCharacterSpawnAnimationController GlobalNamespace::BTSCharacterSpawnAnimationController::New_ctor()  {
+GlobalNamespace::BTSCharacterSpawnAnimationController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BTSCharacterSpawnAnimationController>())};
+return o;
+}
  void GlobalNamespace::BTSCharacterSpawnAnimationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BTSCharacterSpawnAnimationController>::get(),

@@ -41,8 +41,10 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::__s
 constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationContext UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::__get__tcx() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::Poly2Tri::TriangulationContext, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tcx", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationContext", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::TriangulationDebugContext(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext tcx)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TriangulationDebugContext>(tcx))) {}
+ UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext tcx)  {
+UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext>(tcx))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext tcx)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext>::get(),

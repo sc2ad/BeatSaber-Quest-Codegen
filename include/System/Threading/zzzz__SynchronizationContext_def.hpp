@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Threading {
-class SendOrPostCallback;
-}
-namespace System::Threading {
 struct SynchronizationContextProperties;
 }
 namespace System {
 class Type;
+}
+namespace System::Threading {
+class SendOrPostCallback;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -106,8 +106,7 @@ static System::Threading::SynchronizationContext __declspec(property(get=get_Cur
 
 // Methods
 
-// Ctor Parameters []
-explicit SynchronizationContext() ;
+static System::Threading::SynchronizationContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x24ab240 size 0x8 virtual false final false
  void _ctor() ;

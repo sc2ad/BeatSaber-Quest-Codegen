@@ -53,14 +53,12 @@ constexpr explicit StringContent(void* ptr) noexcept : System::Net::Http::ByteAr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "content", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StringContent(::StringW content) ;
+static System::Net::Http::StringContent New_ctor(::StringW content) ;
 
 /// @brief Method .ctor addr 0x26a2d10 size 0xc virtual false final false
  void _ctor(::StringW content) ;
 
-// Ctor Parameters [CppParam { name: "content", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "mediaType", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StringContent(::StringW content, System::Text::Encoding encoding, ::StringW mediaType) ;
+static System::Net::Http::StringContent New_ctor(::StringW content, System::Text::Encoding encoding, ::StringW mediaType) ;
 
 /// @brief Method .ctor addr 0x26a2d1c size 0x108 virtual false final false
  void _ctor(::StringW content, System::Text::Encoding encoding, ::StringW mediaType) ;

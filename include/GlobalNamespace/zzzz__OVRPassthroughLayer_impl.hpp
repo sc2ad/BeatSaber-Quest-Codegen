@@ -4,17 +4,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPassthroughLayer_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Gradient_def.hpp"
-#include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPassthroughLayer_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Gradient_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -145,8 +144,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__Displ
 constexpr UnityEngine::GameObject GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0::__get_obj() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GameObject, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0>())) {}
+ GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0 GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0>::get(),
@@ -205,8 +206,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__Displ
 constexpr UnityEngine::GameObject GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0::__get_obj() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GameObject, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0>())) {}
+ GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0 GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0>::get(),
@@ -1497,8 +1500,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRPassthroughLayer::OVRPassthroughLayer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRPassthroughLayer>())) {}
+ GlobalNamespace::OVRPassthroughLayer GlobalNamespace::OVRPassthroughLayer::New_ctor()  {
+GlobalNamespace::OVRPassthroughLayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRPassthroughLayer>())};
+return o;
+}
  void GlobalNamespace::OVRPassthroughLayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRPassthroughLayer>::get(),

@@ -9,7 +9,7 @@ class HEU_BakedDataEvent;
 // Type: HoudiniEngineUnity::HEU_BakedDataEvent
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), TypeDefinitionIndex(TypeDefinitionIndex(9539)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5062 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5062 }), TypeDefinitionIndex(TypeDefinitionIndex(9539)), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9546))
 // CS Name: HoudiniEngineUnity.HEU_BakedDataEvent
 class CORDL_TYPE HEU_BakedDataEvent : public UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_BakedEventData> {
@@ -48,8 +48,7 @@ constexpr explicit HEU_BakedDataEvent(void* ptr) noexcept : UnityEngine::Events:
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_BakedDataEvent() ;
+static HoudiniEngineUnity::HEU_BakedDataEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdac9c size 0x48 virtual false final false
  void _ctor() ;

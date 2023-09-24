@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__PanelAnimation_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "HMUI/zzzz__PanelAnimation_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1._ctor
 template<>
 
@@ -200,8 +201,10 @@ constexpr void HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1::__set__elap
 constexpr float_t HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1::__get__elapsedTime_5__3() const {
 return ::cordl_internals::getInstanceField<float_t, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1::HMUI__PanelAnimation___AnimationCoroutine_d__1(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__PanelAnimation___AnimationCoroutine_d__1>(__1__state))) {}
+ HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1 HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1>(__1__state))};
+return o;
+}
  void HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__PanelAnimation___AnimationCoroutine_d__1>::get(),
@@ -325,8 +328,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, duration, canvasGroup, parentCanvasGroup, scaleXAnimationCurve, scaleYAnimationCurve, alphaAnimationCurve, parentAlphaAnimationCurve, finishedCallback);
 }
-// Ctor Parameters []
- HMUI::PanelAnimation::PanelAnimation()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PanelAnimation>())) {}
+ HMUI::PanelAnimation HMUI::PanelAnimation::New_ctor()  {
+HMUI::PanelAnimation o{THROW_UNLESS(::il2cpp_utils::New<HMUI::PanelAnimation>())};
+return o;
+}
  void HMUI::PanelAnimation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::PanelAnimation>::get(),

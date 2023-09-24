@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Ocsp::OcspRespStatus::OcspRespStatus()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OcspRespStatus>())) {}
+ Org::BouncyCastle::Ocsp::OcspRespStatus Org::BouncyCastle::Ocsp::OcspRespStatus::New_ctor()  {
+Org::BouncyCastle::Ocsp::OcspRespStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspRespStatus>())};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspRespStatus::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspRespStatus>::get(),

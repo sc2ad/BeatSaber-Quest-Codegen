@@ -91,8 +91,10 @@ constexpr void Oculus::Platform::InviteOptions::__set_Handle(::cordl_internals::
 constexpr ::cordl_internals::intptr_t Oculus::Platform::InviteOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::InviteOptions::InviteOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InviteOptions>())) {}
+ Oculus::Platform::InviteOptions Oculus::Platform::InviteOptions::New_ctor()  {
+Oculus::Platform::InviteOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::InviteOptions>())};
+return o;
+}
  void Oculus::Platform::InviteOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::InviteOptions>::get(),

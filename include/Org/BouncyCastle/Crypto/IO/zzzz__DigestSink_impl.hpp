@@ -76,8 +76,10 @@ constexpr void Org::BouncyCastle::Crypto::IO::DigestSink::__set_mDigest(Org::Bou
 constexpr Org::BouncyCastle::Crypto::IDigest Org::BouncyCastle::Crypto::IO::DigestSink::__get_mDigest() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IDigest, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::IO::DigestSink::DigestSink(Org::BouncyCastle::Crypto::IDigest digest)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<DigestSink>(digest))) {}
+ Org::BouncyCastle::Crypto::IO::DigestSink Org::BouncyCastle::Crypto::IO::DigestSink::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::IO::DigestSink o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::IO::DigestSink>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::IO::DigestSink::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::IO::DigestSink>::get(),

@@ -1,6 +1,48 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__UNetUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__ConstraintManagerUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__AIUpdatePostScript;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__DirectorUpdateAnimationBegin;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__DirectorUpdateAnimationEnd;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__LegacyAnimationUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__Physics2DLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__UIElementsUpdatePanels;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__UpdateNetworkManager;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__UpdateMasterServerInterface;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__EndGraphicsJobsAfterScriptUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__DirectorDeferredEvaluate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__ParticleSystemBeginUpdateAll;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreLateUpdate__ScriptRunBehaviourLateUpdate;
+}
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct PreLateUpdate;

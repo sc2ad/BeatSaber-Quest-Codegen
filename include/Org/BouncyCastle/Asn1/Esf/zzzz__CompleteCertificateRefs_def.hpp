@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace Org::BouncyCastle::Asn1::Esf {
+class OtherCertID;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::Esf {
-class OtherCertID;
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -73,20 +73,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_otherCertIDs() const;
 /// @brief Method GetInstance addr 0xe01e88 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CompleteCertificateRefs(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe02010 size 0x34c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "otherCertIDs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID>", modifiers: "", def_value: None }]
-explicit CompleteCertificateRefs(::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID> otherCertIDs) ;
+static Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID> otherCertIDs) ;
 
 /// @brief Method .ctor addr 0xe024e4 size 0xc4 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID> otherCertIDs) ;
 
-// Ctor Parameters [CppParam { name: "otherCertIDs", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit CompleteCertificateRefs(System::Collections::IEnumerable otherCertIDs) ;
+static Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs New_ctor(System::Collections::IEnumerable otherCertIDs) ;
 
 /// @brief Method .ctor addr 0xe025a8 size 0x1a4 virtual false final false
  void _ctor(System::Collections::IEnumerable otherCertIDs) ;

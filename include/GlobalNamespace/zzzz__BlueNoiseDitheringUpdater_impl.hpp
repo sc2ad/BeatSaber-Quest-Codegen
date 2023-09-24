@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BlueNoiseDitheringUpdater_def.hpp"
-#include "GlobalNamespace/zzzz__BlueNoiseDithering_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__BlueNoiseDithering_def.hpp"
 #include "GlobalNamespace/zzzz__RandomValueToShader_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BlueNoiseDitheringUpdater.OnEnable
 template<>
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, camera);
 }
-// Ctor Parameters []
- GlobalNamespace::BlueNoiseDitheringUpdater::BlueNoiseDitheringUpdater()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BlueNoiseDitheringUpdater>())) {}
+ GlobalNamespace::BlueNoiseDitheringUpdater GlobalNamespace::BlueNoiseDitheringUpdater::New_ctor()  {
+GlobalNamespace::BlueNoiseDitheringUpdater o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BlueNoiseDitheringUpdater>())};
+return o;
+}
  void GlobalNamespace::BlueNoiseDitheringUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BlueNoiseDitheringUpdater>::get(),

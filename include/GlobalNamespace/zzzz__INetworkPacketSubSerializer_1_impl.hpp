@@ -1,60 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-//  Writing Method size for method: GlobalNamespace::INetworkPacketSubSerializer_1.Deserialize
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPacketSubSerializer_1::*)(LiteNetLib::Utils::NetDataReader, int32_t, TData)>(&GlobalNamespace::INetworkPacketSubSerializer_1::Deserialize)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(GlobalNamespace::INetworkPacketSubSerializer_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::INetworkPacketSubSerializer_1>::get(),
-                                  0
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::INetworkPacketSubSerializer_1.Serialize
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPacketSubSerializer_1::*)(LiteNetLib::Utils::NetDataWriter, LiteNetLib::Utils::INetSerializable)>(&GlobalNamespace::INetworkPacketSubSerializer_1::Serialize)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(GlobalNamespace::INetworkPacketSubSerializer_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::INetworkPacketSubSerializer_1>::get(),
-                                  1
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::INetworkPacketSubSerializer_1.HandlesType
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPacketSubSerializer_1::*)(System::Type)>(&GlobalNamespace::INetworkPacketSubSerializer_1::HandlesType)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(GlobalNamespace::INetworkPacketSubSerializer_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::INetworkPacketSubSerializer_1>::get(),
-                                  2
-                                ));
-    return ___internal_method;
-  }
-};
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
  void GlobalNamespace::INetworkPacketSubSerializer_1::Deserialize(LiteNetLib::Utils::NetDataReader reader, int32_t length, TData data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::INetworkPacketSubSerializer_1>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECKeyGenerationParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::ECKeyParameters._ctor
 template<>
 
@@ -216,8 +216,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::__set_pub
 constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::__get_publicKeyParamSet() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerObjectIdentifier, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::ECKeyParameters(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<ECKeyParameters>(algorithm, isPrivate, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECKeyParameters Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::New_ctor(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::ECKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECKeyParameters>(algorithm, isPrivate, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::_ctor(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECKeyParameters>::get(),
@@ -227,8 +229,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithm, isPrivate, parameters);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::ECKeyParameters(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<ECKeyParameters>(algorithm, isPrivate, publicKeyParamSet))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECKeyParameters Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::New_ctor(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  {
+Org::BouncyCastle::Crypto::Parameters::ECKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECKeyParameters>(algorithm, isPrivate, publicKeyParamSet))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::_ctor(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECKeyParameters>::get(),

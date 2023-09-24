@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessableInputStream_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsProcessableInputStream._ctor
 template<>
 
@@ -108,8 +108,10 @@ constexpr void Org::BouncyCastle::Cms::CmsProcessableInputStream::__set_used(boo
 constexpr bool Org::BouncyCastle::Cms::CmsProcessableInputStream::__get_used() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsProcessableInputStream::CmsProcessableInputStream(System::IO::Stream input)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsProcessableInputStream>(input))) {}
+ Org::BouncyCastle::Cms::CmsProcessableInputStream Org::BouncyCastle::Cms::CmsProcessableInputStream::New_ctor(System::IO::Stream input)  {
+Org::BouncyCastle::Cms::CmsProcessableInputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsProcessableInputStream>(input))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsProcessableInputStream::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsProcessableInputStream>::get(),

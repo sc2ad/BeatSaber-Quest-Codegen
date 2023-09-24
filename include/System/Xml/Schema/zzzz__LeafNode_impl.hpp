@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__LeafNode_def.hpp"
-#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
-#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::LeafNode._ctor
 template<>
 
@@ -113,8 +113,10 @@ constexpr void System::Xml::Schema::LeafNode::__set_pos(int32_t value)  {
 constexpr int32_t System::Xml::Schema::LeafNode::__get_pos() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pos", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::Schema::LeafNode::LeafNode(int32_t pos)  : System::Xml::Schema::SyntaxTreeNode(THROW_UNLESS(::il2cpp_utils::New<LeafNode>(pos))) {}
+ System::Xml::Schema::LeafNode System::Xml::Schema::LeafNode::New_ctor(int32_t pos)  {
+System::Xml::Schema::LeafNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::LeafNode>(pos))};
+return o;
+}
  void System::Xml::Schema::LeafNode::_ctor(int32_t pos)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::LeafNode>::get(),

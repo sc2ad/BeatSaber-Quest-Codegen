@@ -6,6 +6,9 @@
 namespace UnityEngine {
 class Transform;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__Billboard__RotationMode;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__Billboard__RotationMode;
@@ -64,6 +67,8 @@ __ZAxis = 3,
 constexpr operator __GlobalNamespace__Billboard__RotationMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__Billboard__RotationMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -161,8 +166,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method OnWillRenderObject addr 0x1f750e4 size 0xd0 virtual false final false
  void OnWillRenderObject() ;
 
-// Ctor Parameters []
-explicit Billboard() ;
+static GlobalNamespace::Billboard New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f751b4 size 0x8 virtual false final false
  void _ctor() ;

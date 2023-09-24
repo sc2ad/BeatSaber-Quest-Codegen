@@ -8,14 +8,14 @@ class EventBase;
 namespace UnityEngine::UIElements {
 struct PropagationPhase;
 }
-namespace UnityEngine::UIElements {
-struct CallbackPhase;
+namespace System {
+class Delegate;
 }
 namespace UnityEngine::UIElements {
 struct InvokePolicy;
 }
-namespace System {
-class Delegate;
+namespace UnityEngine::UIElements {
+struct CallbackPhase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -91,8 +91,7 @@ constexpr UnityEngine::UIElements::InvokePolicy __get__invokePolicy_k__BackingFi
 /// @brief Method get_invokePolicy addr 0x2cd6cd0 size 0x8 virtual false final false
  UnityEngine::UIElements::InvokePolicy get_invokePolicy() ;
 
-// Ctor Parameters [CppParam { name: "phase", ty: "UnityEngine::UIElements::CallbackPhase", modifiers: "", def_value: None }, CppParam { name: "invokePolicy", ty: "UnityEngine::UIElements::InvokePolicy", modifiers: "", def_value: None }]
-explicit EventCallbackFunctorBase(UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy) ;
+static UnityEngine::UIElements::EventCallbackFunctorBase New_ctor(UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy) ;
 
 /// @brief Method .ctor addr 0x2cd6cd8 size 0x2c virtual false final false
  void _ctor(UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy) ;

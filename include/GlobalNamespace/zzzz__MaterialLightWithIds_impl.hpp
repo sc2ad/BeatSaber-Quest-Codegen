@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialLightWithIds_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MaterialLightWithIds.Awake
 template<>
 
@@ -127,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- GlobalNamespace::MaterialLightWithIds::MaterialLightWithIds()  : GlobalNamespace::RuntimeLightWithIds(THROW_UNLESS(::il2cpp_utils::New<MaterialLightWithIds>())) {}
+ GlobalNamespace::MaterialLightWithIds GlobalNamespace::MaterialLightWithIds::New_ctor()  {
+GlobalNamespace::MaterialLightWithIds o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MaterialLightWithIds>())};
+return o;
+}
  void GlobalNamespace::MaterialLightWithIds::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MaterialLightWithIds>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__FaceRebuildData_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::FaceRebuildData.Offset
 template<>
 
@@ -160,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, newFaces, vertices, faces, sharedVertexLookup, sharedTextureLookup);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::FaceRebuildData::FaceRebuildData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FaceRebuildData>())) {}
+ UnityEngine::ProBuilder::FaceRebuildData UnityEngine::ProBuilder::FaceRebuildData::New_ctor()  {
+UnityEngine::ProBuilder::FaceRebuildData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::FaceRebuildData>())};
+return o;
+}
  void UnityEngine::ProBuilder::FaceRebuildData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::FaceRebuildData>::get(),

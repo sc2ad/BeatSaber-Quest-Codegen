@@ -71,8 +71,7 @@ constexpr int32_t __get_lockCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rwlock", ty: "System::Threading::ReaderWriterLock", modifiers: "", def_value: None }]
-explicit LockQueue(System::Threading::ReaderWriterLock rwlock) ;
+static System::Threading::LockQueue New_ctor(System::Threading::ReaderWriterLock rwlock) ;
 
 /// @brief Method .ctor addr 0x24b0a88 size 0x28 virtual false final false
  void _ctor(System::Threading::ReaderWriterLock rwlock) ;

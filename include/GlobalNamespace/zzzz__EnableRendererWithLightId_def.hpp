@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Color;
+class Renderer;
 }
 namespace UnityEngine {
-class Renderer;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,8 +78,7 @@ constexpr float_t __get__hideAlphaRangeMax() const;
 /// @brief Method ColorWasSet addr 0x1f9ccf8 size 0x44 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit EnableRendererWithLightId() ;
+static GlobalNamespace::EnableRendererWithLightId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9cd3c size 0x1c virtual false final false
  void _ctor() ;

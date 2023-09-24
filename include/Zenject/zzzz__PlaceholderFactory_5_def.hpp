@@ -15,24 +15,28 @@ class IFactory_5;
 namespace Zenject {
 class IFactory;
 }
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 class Type;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TValue>
+class Zenject__PlaceholderFactory_5___get_ParamTypes_d__2;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -140,8 +144,7 @@ constexpr int32_t __get___l__initialThreadId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__PlaceholderFactory_5___get_ParamTypes_d__2(int32_t __1__state) ;
+static Zenject::Zenject__PlaceholderFactory_5___get_ParamTypes_d__2<TParam1,TParam2,TParam3,TParam4,TValue> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -182,7 +185,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10956)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10968), inst: 4671 }), TypeDefinitionIndex(TypeDefinitionIndex(10968))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10968), inst: 4671 }), TypeDefinitionIndex(TypeDefinitionIndex(10956)), TypeDefinitionIndex(TypeDefinitionIndex(10968))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10956), inst: 5938 })
 // CS Name: Zenject.PlaceholderFactory`5
 class CORDL_TYPE PlaceholderFactory_5<TParam1,TParam2,TParam3,TParam4,TValue> : public Zenject::PlaceholderFactoryBase_1<TValue> {
@@ -240,8 +243,7 @@ constexpr explicit PlaceholderFactory_5(void* ptr) noexcept : Zenject::Placehold
 /// @brief Method get_ParamTypes addr 0x0 size 0xffffffffffffffff virtual true final true
  System::Collections::Generic::IEnumerable_1<System::Type> get_ParamTypes() ;
 
-// Ctor Parameters []
-explicit PlaceholderFactory_5() ;
+static Zenject::PlaceholderFactory_5<TParam1,TParam2,TParam3,TParam4,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -1,8 +1,9 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__CultureInfoConverter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/ComponentModel/zzzz__CultureInfoConverter_def.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
@@ -51,8 +52,10 @@ constexpr void System::ComponentModel::System__ComponentModel__CultureInfoConver
 constexpr System::ComponentModel::CultureInfoConverter System::ComponentModel::System__ComponentModel__CultureInfoConverter__CultureComparer::__get__converter() const {
 return ::cordl_internals::getInstanceField<System::ComponentModel::CultureInfoConverter, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cultureConverter", ty: "System::ComponentModel::CultureInfoConverter", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__CultureInfoConverter__CultureComparer::System__ComponentModel__CultureInfoConverter__CultureComparer(System::ComponentModel::CultureInfoConverter cultureConverter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__CultureInfoConverter__CultureComparer>(cultureConverter))) {}
+ System::ComponentModel::System__ComponentModel__CultureInfoConverter__CultureComparer System::ComponentModel::System__ComponentModel__CultureInfoConverter__CultureComparer::New_ctor(System::ComponentModel::CultureInfoConverter cultureConverter)  {
+System::ComponentModel::System__ComponentModel__CultureInfoConverter__CultureComparer o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__CultureInfoConverter__CultureComparer>(cultureConverter))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__CultureInfoConverter__CultureComparer::_ctor(System::ComponentModel::CultureInfoConverter cultureConverter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__CultureInfoConverter__CultureComparer>::get(),
@@ -386,8 +389,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, context);
 }
-// Ctor Parameters []
- System::ComponentModel::CultureInfoConverter::CultureInfoConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<CultureInfoConverter>())) {}
+ System::ComponentModel::CultureInfoConverter System::ComponentModel::CultureInfoConverter::New_ctor()  {
+System::ComponentModel::CultureInfoConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::CultureInfoConverter>())};
+return o;
+}
  void System::ComponentModel::CultureInfoConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::CultureInfoConverter>::get(),

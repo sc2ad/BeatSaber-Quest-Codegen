@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapLineData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapLineData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapLineData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapLineData.get_beatmapObjectsData
 template<>
 
@@ -91,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "initialCapacity", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapLineData::BeatmapLineData(int32_t initialCapacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLineData>(initialCapacity))) {}
+ GlobalNamespace::BeatmapLineData GlobalNamespace::BeatmapLineData::New_ctor(int32_t initialCapacity)  {
+GlobalNamespace::BeatmapLineData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLineData>(initialCapacity))};
+return o;
+}
  void GlobalNamespace::BeatmapLineData::_ctor(int32_t initialCapacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLineData>::get(),
@@ -102,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, initialCapacity);
 }
-// Ctor Parameters [CppParam { name: "beatmapObjectData", ty: "System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData>", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapLineData::BeatmapLineData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData> beatmapObjectData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLineData>(beatmapObjectData))) {}
+ GlobalNamespace::BeatmapLineData GlobalNamespace::BeatmapLineData::New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData> beatmapObjectData)  {
+GlobalNamespace::BeatmapLineData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLineData>(beatmapObjectData))};
+return o;
+}
  void GlobalNamespace::BeatmapLineData::_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData> beatmapObjectData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLineData>::get(),

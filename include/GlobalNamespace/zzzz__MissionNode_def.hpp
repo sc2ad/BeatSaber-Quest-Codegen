@@ -150,8 +150,7 @@ constexpr ::ArrayW<GlobalNamespace::MissionNode> __get__childNodes() const;
 /// @brief Method get_radius addr 0x2148e2c size 0x40 virtual false final false
  float_t get_radius() ;
 
-// Ctor Parameters []
-explicit MissionNode() ;
+static GlobalNamespace::MissionNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x2148e6c size 0x8 virtual false final false
  void _ctor() ;

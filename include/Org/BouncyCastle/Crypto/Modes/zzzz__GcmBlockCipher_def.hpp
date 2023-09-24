@@ -5,22 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadCipher;
+class IAeadBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes::Gcm {
+class IGcmExponentiator;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
+class IAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class IGcmMultiplier;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Modes::Gcm {
-class IGcmExponentiator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -229,14 +229,12 @@ constexpr uint64_t __get_atLengthPre() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit GcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher c) ;
+static Org::BouncyCastle::Crypto::Modes::GcmBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher c) ;
 
 /// @brief Method .ctor addr 0xe91300 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher c) ;
 
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "m", ty: "Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier", modifiers: "", def_value: None }]
-explicit GcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher c, Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier m) ;
+static Org::BouncyCastle::Crypto::Modes::GcmBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher c, Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier m) ;
 
 /// @brief Method .ctor addr 0xe91308 size 0x190 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher c, Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier m) ;

@@ -21,7 +21,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10984)), TypeDefinitionIndex(TypeDefinitionIndex(11011)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10984), inst: 3401 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10984), inst: 3401 }), TypeDefinitionIndex(TypeDefinitionIndex(10984)), TypeDefinitionIndex(TypeDefinitionIndex(11011))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11011), inst: 5938 })
 // CS Name: Zenject.PoolableMemoryPool`5
 class CORDL_TYPE PoolableMemoryPool_5<TParam1,TParam2,TParam3,TParam4,TValue> : public Zenject::MemoryPool_5<TParam1,TParam2,TParam3,TParam4,TValue> {
@@ -66,8 +66,7 @@ constexpr explicit PoolableMemoryPool_5(void* ptr) noexcept : Zenject::MemoryPoo
 /// @brief Method Reinitialize addr 0x0 size 0xffffffffffffffff virtual true final false
  void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TValue item) ;
 
-// Ctor Parameters []
-explicit PoolableMemoryPool_5() ;
+static Zenject::PoolableMemoryPool_5<TParam1,TParam2,TParam3,TParam4,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

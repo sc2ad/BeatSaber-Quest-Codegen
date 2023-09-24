@@ -79,8 +79,7 @@ constexpr int32_t __get__fallbackIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::DecoderReplacementFallback", modifiers: "", def_value: None }]
-explicit DecoderReplacementFallbackBuffer(System::Text::DecoderReplacementFallback fallback) ;
+static System::Text::DecoderReplacementFallbackBuffer New_ctor(System::Text::DecoderReplacementFallback fallback) ;
 
 /// @brief Method .ctor addr 0x24c430c size 0x3c virtual false final false
  void _ctor(System::Text::DecoderReplacementFallback fallback) ;

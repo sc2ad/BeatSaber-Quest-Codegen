@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::AttributeX509.GetInstance
 template<>
 
@@ -146,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::AttributeX509, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AttributeX509::AttributeX509(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AttributeX509>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::AttributeX509 Org::BouncyCastle::Asn1::X509::AttributeX509::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::AttributeX509 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AttributeX509>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AttributeX509::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AttributeX509>::get(),
@@ -157,8 +159,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "attrType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "attrValues", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AttributeX509::AttributeX509(Org::BouncyCastle::Asn1::DerObjectIdentifier attrType, Org::BouncyCastle::Asn1::Asn1Set attrValues)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AttributeX509>(attrType, attrValues))) {}
+ Org::BouncyCastle::Asn1::X509::AttributeX509 Org::BouncyCastle::Asn1::X509::AttributeX509::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier attrType, Org::BouncyCastle::Asn1::Asn1Set attrValues)  {
+Org::BouncyCastle::Asn1::X509::AttributeX509 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AttributeX509>(attrType, attrValues))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AttributeX509::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier attrType, Org::BouncyCastle::Asn1::Asn1Set attrValues)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AttributeX509>::get(),

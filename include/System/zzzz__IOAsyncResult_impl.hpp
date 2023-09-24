@@ -1,7 +1,7 @@
 #pragma once
 #include "System/zzzz__IOAsyncResult_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 //  Writing Method size for method: System::IOAsyncResult._ctor
@@ -225,8 +225,10 @@ constexpr void System::IOAsyncResult::__set_completed(bool value)  {
 constexpr bool System::IOAsyncResult::__get_completed() const {
 return ::cordl_internals::getInstanceField<bool, 0x29>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IOAsyncResult::IOAsyncResult()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IOAsyncResult>())) {}
+ System::IOAsyncResult System::IOAsyncResult::New_ctor()  {
+System::IOAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::IOAsyncResult>())};
+return o;
+}
  void System::IOAsyncResult::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IOAsyncResult>::get(),
@@ -245,8 +247,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, async_callback, async_state);
 }
-// Ctor Parameters [CppParam { name: "async_callback", ty: "System::AsyncCallback", modifiers: "", def_value: None }, CppParam { name: "async_state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::IOAsyncResult::IOAsyncResult(System::AsyncCallback async_callback, ::bs_hook::Il2CppWrapperType async_state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IOAsyncResult>(async_callback, async_state))) {}
+ System::IOAsyncResult System::IOAsyncResult::New_ctor(System::AsyncCallback async_callback, ::bs_hook::Il2CppWrapperType async_state)  {
+System::IOAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::IOAsyncResult>(async_callback, async_state))};
+return o;
+}
  void System::IOAsyncResult::_ctor(System::AsyncCallback async_callback, ::bs_hook::Il2CppWrapperType async_state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IOAsyncResult>::get(),

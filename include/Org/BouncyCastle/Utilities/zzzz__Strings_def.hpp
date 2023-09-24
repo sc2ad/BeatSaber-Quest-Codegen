@@ -83,8 +83,7 @@ static ::ArrayW<uint8_t> ToUtf8ByteArray(::ArrayW<char16_t> cs) ;
 /// @brief Method ToUtf8ByteArray addr 0x10e3a04 size 0x30 virtual false final false
 static ::ArrayW<uint8_t> ToUtf8ByteArray(::StringW s) ;
 
-// Ctor Parameters []
-explicit Strings() ;
+static Org::BouncyCastle::Utilities::Strings New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e3a34 size 0x8 virtual false final false
  void _ctor() ;

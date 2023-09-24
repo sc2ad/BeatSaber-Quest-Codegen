@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/XPath/zzzz__XPathNavigator_impl.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathDocumentNavigator_def.hpp"
-#include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigator_def.hpp"
+#include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNamespaceScope_def.hpp"
-#include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
 //  Writing Method size for method: MS::Internal::Xml::Cache::XPathDocumentNavigator._ctor
 template<>
 
@@ -268,8 +268,10 @@ constexpr void MS::Internal::Xml::Cache::XPathDocumentNavigator::__set__idxParen
 constexpr int32_t MS::Internal::Xml::Cache::XPathDocumentNavigator::__get__idxParent() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pageCurrent", ty: "::ArrayW<MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "idxCurrent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageParent", ty: "::ArrayW<MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "idxParent", ty: "int32_t", modifiers: "", def_value: None }]
- MS::Internal::Xml::Cache::XPathDocumentNavigator::XPathDocumentNavigator(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageCurrent, int32_t idxCurrent, ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageParent, int32_t idxParent)  : System::Xml::XPath::XPathNavigator(THROW_UNLESS(::il2cpp_utils::New<XPathDocumentNavigator>(pageCurrent, idxCurrent, pageParent, idxParent))) {}
+ MS::Internal::Xml::Cache::XPathDocumentNavigator MS::Internal::Xml::Cache::XPathDocumentNavigator::New_ctor(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageCurrent, int32_t idxCurrent, ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageParent, int32_t idxParent)  {
+MS::Internal::Xml::Cache::XPathDocumentNavigator o{THROW_UNLESS(::il2cpp_utils::New<MS::Internal::Xml::Cache::XPathDocumentNavigator>(pageCurrent, idxCurrent, pageParent, idxParent))};
+return o;
+}
  void MS::Internal::Xml::Cache::XPathDocumentNavigator::_ctor(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageCurrent, int32_t idxCurrent, ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageParent, int32_t idxParent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MS::Internal::Xml::Cache::XPathDocumentNavigator>::get(),

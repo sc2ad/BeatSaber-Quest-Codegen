@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class IServerBeatmapProvider;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
+class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
+class IServerBeatmapProvider;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ constexpr explicit MockBeatmapProvider(void* ptr) noexcept : ::bs_hook::Il2CppWr
 /// @brief Method Dispose addr 0x20eb4b8 size 0x4 virtual false final false
  void Dispose() ;
 
-// Ctor Parameters []
-explicit MockBeatmapProvider() ;
+static GlobalNamespace::MockBeatmapProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x20eb4bc size 0x8 virtual false final false
  void _ctor() ;

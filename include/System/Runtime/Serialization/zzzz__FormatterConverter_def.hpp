@@ -80,8 +80,7 @@ constexpr explicit FormatterConverter(void* ptr) noexcept : ::bs_hook::Il2CppWra
 /// @brief Method ThrowValueNullException addr 0x23488f4 size 0x50 virtual false final false
 static void ThrowValueNullException() ;
 
-// Ctor Parameters []
-explicit FormatterConverter() ;
+static System::Runtime::Serialization::FormatterConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2348c3c size 0x8 virtual false final false
  void _ctor() ;

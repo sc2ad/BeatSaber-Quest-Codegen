@@ -76,8 +76,7 @@ constexpr bool __get_password() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "serverName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occupied", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "password", ty: "bool", modifiers: "", def_value: None }]
-explicit GameServerListItem(::StringW serverName, int32_t capacity, int32_t occupied, bool password) ;
+static GlobalNamespace::GameServerListItem New_ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password) ;
 
 /// @brief Method .ctor addr 0x21f2f98 size 0x44 virtual false final false
  void _ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password) ;

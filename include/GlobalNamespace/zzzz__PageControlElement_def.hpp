@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
 struct Color;
 }
 namespace HMUI {
 class ImageView;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +94,7 @@ constexpr UnityEngine::Color __get__unselectedColor() const;
 /// @brief Method SetSelected addr 0x218ea1c size 0x64 virtual false final false
  void SetSelected(bool isSelected) ;
 
-// Ctor Parameters []
-explicit PageControlElement() ;
+static GlobalNamespace::PageControlElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x218ec50 size 0x20 virtual false final false
  void _ctor() ;

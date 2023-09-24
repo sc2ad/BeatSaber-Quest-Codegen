@@ -7,20 +7,20 @@
 namespace Org::BouncyCastle::Tsp {
 class TimeStampToken;
 }
-namespace Org::BouncyCastle::Asn1::Tsp {
-class TimeStampResp;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1InputStream;
 }
+namespace Org::BouncyCastle::Tsp {
+class TimeStampRequest;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFailureInfo;
 }
-namespace Org::BouncyCastle::Tsp {
-class TimeStampRequest;
+namespace Org::BouncyCastle::Asn1::Tsp {
+class TimeStampResp;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -90,20 +90,17 @@ constexpr Org::BouncyCastle::Tsp::TimeStampToken __get_timeStampToken() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resp", ty: "Org::BouncyCastle::Asn1::Tsp::TimeStampResp", modifiers: "", def_value: None }]
-explicit TimeStampResponse(Org::BouncyCastle::Asn1::Tsp::TimeStampResp resp) ;
+static Org::BouncyCastle::Tsp::TimeStampResponse New_ctor(Org::BouncyCastle::Asn1::Tsp::TimeStampResp resp) ;
 
 /// @brief Method .ctor addr 0x10c45a4 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Tsp::TimeStampResp resp) ;
 
-// Ctor Parameters [CppParam { name: "resp", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TimeStampResponse(::ArrayW<uint8_t> resp) ;
+static Org::BouncyCastle::Tsp::TimeStampResponse New_ctor(::ArrayW<uint8_t> resp) ;
 
 /// @brief Method .ctor addr 0x10c4698 size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> resp) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit TimeStampResponse(System::IO::Stream input) ;
+static Org::BouncyCastle::Tsp::TimeStampResponse New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x10c4830 size 0x7c virtual false final false
  void _ctor(System::IO::Stream input) ;

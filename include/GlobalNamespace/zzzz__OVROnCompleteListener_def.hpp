@@ -47,8 +47,7 @@ constexpr explicit OVROnCompleteListener(void* ptr) noexcept : UnityEngine::Andr
 
 // Methods
 
-// Ctor Parameters []
-explicit OVROnCompleteListener() ;
+static GlobalNamespace::OVROnCompleteListener New_ctor() ;
 
 /// @brief Method .ctor addr 0x25d01e0 size 0x70 virtual false final false
  void _ctor() ;

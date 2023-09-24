@@ -190,8 +190,10 @@ return ::cordl_internals::getInstanceField<int32_t, 0x48>(this->::bs_hook::Il2Cp
  ::ArrayW<uint32_t> System::Security::Cryptography::MD5CryptoServiceProvider::__get_K()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "K", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::MD5CryptoServiceProvider>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::MD5CryptoServiceProvider::MD5CryptoServiceProvider()  : System::Security::Cryptography::MD5(THROW_UNLESS(::il2cpp_utils::New<MD5CryptoServiceProvider>())) {}
+ System::Security::Cryptography::MD5CryptoServiceProvider System::Security::Cryptography::MD5CryptoServiceProvider::New_ctor()  {
+System::Security::Cryptography::MD5CryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::MD5CryptoServiceProvider>())};
+return o;
+}
  void System::Security::Cryptography::MD5CryptoServiceProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::MD5CryptoServiceProvider>::get(),

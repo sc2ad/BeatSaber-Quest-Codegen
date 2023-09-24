@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buffer, offset, count);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::IO::NullOutputStream::NullOutputStream()  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<NullOutputStream>())) {}
+ Org::BouncyCastle::Utilities::IO::NullOutputStream Org::BouncyCastle::Utilities::IO::NullOutputStream::New_ctor()  {
+Org::BouncyCastle::Utilities::IO::NullOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::NullOutputStream>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::NullOutputStream::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::NullOutputStream>::get(),

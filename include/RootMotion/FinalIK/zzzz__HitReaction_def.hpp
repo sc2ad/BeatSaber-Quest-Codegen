@@ -14,20 +14,35 @@ struct Quaternion;
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__HitReaction__HitPointBone;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__HitReaction__HitPoint;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__HitReaction__HitPointEffector;
 }
 namespace UnityEngine {
 class Collider;
 }
 namespace UnityEngine {
-class Rigidbody;
+class AnimationCurve;
+}
+namespace GlobalNamespace {
+class RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class Rigidbody;
+}
+namespace GlobalNamespace {
+class RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -208,8 +223,7 @@ constexpr float_t __get_lastTime() const;
 /// @brief Method OnApply addr 0x0 size 0xffffffffffffffff virtual true final false
  void OnApply(RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__HitReaction__HitPoint() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoint New_ctor() ;
 
 /// @brief Method .ctor addr 0x1208200 size 0x14 virtual false final false
  void _ctor() ;
@@ -293,8 +307,7 @@ constexpr UnityEngine::Vector3 __get_current() const;
 /// @brief Method CrossFadeStart addr 0x1208390 size 0x14 virtual false final false
  void CrossFadeStart() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink() ;
+static GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointEffector__EffectorLink New_ctor() ;
 
 /// @brief Method .ctor addr 0x12085e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -377,8 +390,7 @@ constexpr ::ArrayW<GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointEf
 /// @brief Method OnApply addr 0x12083a4 size 0x190 virtual true final false
  void OnApply(RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__HitReaction__HitPointEffector() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointEffector New_ctor() ;
 
 /// @brief Method .ctor addr 0x12085d0 size 0x14 virtual false final false
  void _ctor() ;
@@ -462,8 +474,7 @@ constexpr UnityEngine::Quaternion __get_current() const;
 /// @brief Method CrossFadeStart addr 0x12086d0 size 0xc virtual false final false
  void CrossFadeStart() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink() ;
+static GlobalNamespace::RootMotion__FinalIK__HitReaction__HitPointBone__BoneLink New_ctor() ;
 
 /// @brief Method .ctor addr 0x1208a44 size 0x64 virtual false final false
  void _ctor() ;
@@ -546,8 +557,7 @@ constexpr UnityEngine::Rigidbody __get_rigidbody() const;
 /// @brief Method OnApply addr 0x12086dc size 0x1c8 virtual true final false
  void OnApply(RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__HitReaction__HitPointBone() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPointBone New_ctor() ;
 
 /// @brief Method .ctor addr 0x1208a30 size 0x14 virtual false final false
  void _ctor() ;
@@ -633,8 +643,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__HitReaction__HitPoi
 /// @brief Method Hit addr 0x1207e5c size 0x21c virtual false final false
  void Hit(UnityEngine::Collider collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point) ;
 
-// Ctor Parameters []
-explicit HitReaction() ;
+static RootMotion::FinalIK::HitReaction New_ctor() ;
 
 /// @brief Method .ctor addr 0x12081a0 size 0x10 virtual false final false
  void _ctor() ;

@@ -15,10 +15,10 @@ template<typename TResult>
 class Task_1;
 }
 namespace System::Net {
-struct HttpStatusCode;
+struct System__Net__WebResponseStream___ReadAllAsyncInner_d__47;
 }
-namespace System::Net {
-class WebException;
+namespace System {
+class Exception;
 }
 namespace System::Net {
 struct ReadState;
@@ -26,39 +26,54 @@ struct ReadState;
 namespace System::Net {
 class WebHeaderCollection;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Net {
-class WebReadStream;
+class BufferOffsetSize;
 }
 namespace System {
 class Version;
 }
 namespace System::Net {
+struct System__Net__WebResponseStream___ReadAsync_d__40;
+}
+namespace System::Net {
+class System__Net__WebResponseStream____c__DisplayClass41_0;
+}
+namespace System::Net {
+struct System__Net__WebResponseStream___ReadAllAsync_d__48;
+}
+namespace System::Net {
+struct WebExceptionStatus;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Net {
 class WebRequestStream;
+}
+namespace System::Net {
+class WebException;
+}
+namespace System::Net {
+struct HttpStatusCode;
 }
 namespace System::Net {
 class WebCompletionSource;
 }
 namespace System::Net {
-class BufferOffsetSize;
-}
-namespace System {
-class Exception;
+class WebReadStream;
 }
 namespace System::Net {
-struct WebExceptionStatus;
+struct System__Net__WebResponseStream___InitReadAsync_d__52;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -289,8 +304,7 @@ constexpr int32_t __get_size() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__WebResponseStream____c__DisplayClass41_0() ;
+static System::Net::System__Net__WebResponseStream____c__DisplayClass41_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x285543c size 0x8 virtual false final false
  void _ctor() ;
@@ -836,8 +850,7 @@ constexpr bool __get__ChunkedRead_k__BackingField() const;
 /// @brief Method set_KeepAlive addr 0x2854fd4 size 0xc virtual false final false
  void set_KeepAlive(bool value) ;
 
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::WebRequestStream", modifiers: "", def_value: None }]
-explicit WebResponseStream(System::Net::WebRequestStream request) ;
+static System::Net::WebResponseStream New_ctor(System::Net::WebRequestStream request) ;
 
 /// @brief Method .ctor addr 0x2854fe0 size 0x84 virtual false final false
  void _ctor(System::Net::WebRequestStream request) ;

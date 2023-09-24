@@ -104,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_OutputAttributesStore::HEU_OutputAttributesStore()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HEU_OutputAttributesStore>())) {}
+ HoudiniEngineUnity::HEU_OutputAttributesStore HoudiniEngineUnity::HEU_OutputAttributesStore::New_ctor()  {
+HoudiniEngineUnity::HEU_OutputAttributesStore o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_OutputAttributesStore>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_OutputAttributesStore::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_OutputAttributesStore>::get(),

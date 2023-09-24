@@ -4,16 +4,16 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 class TextAsset;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -199,8 +199,7 @@ constexpr UnityEngine::TextAsset __get__creditsContentTextAsset() const;
 /// @brief Method get_creditsContentTextAsset addr 0x212ebec size 0x8 virtual false final false
  UnityEngine::TextAsset get_creditsContentTextAsset() ;
 
-// Ctor Parameters []
-explicit CreditsContent() ;
+static GlobalNamespace::CreditsContent New_ctor() ;
 
 /// @brief Method .ctor addr 0x212ebf4 size 0x1c virtual false final false
  void _ctor() ;

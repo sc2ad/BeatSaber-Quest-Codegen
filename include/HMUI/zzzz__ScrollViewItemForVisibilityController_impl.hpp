@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fourCornersArray);
 }
-// Ctor Parameters []
- HMUI::ScrollViewItemForVisibilityController::ScrollViewItemForVisibilityController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScrollViewItemForVisibilityController>())) {}
+ HMUI::ScrollViewItemForVisibilityController HMUI::ScrollViewItemForVisibilityController::New_ctor()  {
+HMUI::ScrollViewItemForVisibilityController o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ScrollViewItemForVisibilityController>())};
+return o;
+}
  void HMUI::ScrollViewItemForVisibilityController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ScrollViewItemForVisibilityController>::get(),

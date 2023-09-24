@@ -8,6 +8,9 @@
 namespace MidiParser {
 class MidiTrack;
 }
+namespace MidiParser {
+class MidiParser__MidiFile__Reader;
+}
 namespace System::IO {
 class Stream;
 }
@@ -153,14 +156,12 @@ constexpr int32_t __get_tracksCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MidiFile(::StringW path) ;
+static MidiParser::MidiFile New_ctor(::StringW path) ;
 
 /// @brief Method .ctor addr 0x2278430 size 0x24 virtual false final false
  void _ctor(::StringW path) ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit MidiFile(::ArrayW<uint8_t> data) ;
+static MidiParser::MidiFile New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x2278454 size 0x2f4 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;

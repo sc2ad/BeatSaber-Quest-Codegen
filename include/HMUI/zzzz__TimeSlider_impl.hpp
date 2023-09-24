@@ -2,6 +2,7 @@
 #include "HMUI/zzzz__RangeValuesTextSlider_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "HMUI/zzzz__TimeSlider_def.hpp"
+#include "HMUI/zzzz__TimeSlider_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__TimeSlider__TimeType::HMUI__TimeSlider__TimeType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -62,8 +63,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- HMUI::TimeSlider::TimeSlider()  : HMUI::RangeValuesTextSlider(THROW_UNLESS(::il2cpp_utils::New<TimeSlider>())) {}
+ HMUI::TimeSlider HMUI::TimeSlider::New_ctor()  {
+HMUI::TimeSlider o{THROW_UNLESS(::il2cpp_utils::New<HMUI::TimeSlider>())};
+return o;
+}
  void HMUI::TimeSlider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::TimeSlider>::get(),

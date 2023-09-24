@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::FieldAccessException::FieldAccessException()  : System::MemberAccessException(THROW_UNLESS(::il2cpp_utils::New<FieldAccessException>())) {}
+ System::FieldAccessException System::FieldAccessException::New_ctor()  {
+System::FieldAccessException o{THROW_UNLESS(::il2cpp_utils::New<System::FieldAccessException>())};
+return o;
+}
  void System::FieldAccessException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::FieldAccessException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::FieldAccessException::FieldAccessException(::StringW message)  : System::MemberAccessException(THROW_UNLESS(::il2cpp_utils::New<FieldAccessException>(message))) {}
+ System::FieldAccessException System::FieldAccessException::New_ctor(::StringW message)  {
+System::FieldAccessException o{THROW_UNLESS(::il2cpp_utils::New<System::FieldAccessException>(message))};
+return o;
+}
  void System::FieldAccessException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::FieldAccessException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::FieldAccessException::FieldAccessException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::MemberAccessException(THROW_UNLESS(::il2cpp_utils::New<FieldAccessException>(info, context))) {}
+ System::FieldAccessException System::FieldAccessException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::FieldAccessException o{THROW_UNLESS(::il2cpp_utils::New<System::FieldAccessException>(info, context))};
+return o;
+}
  void System::FieldAccessException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::FieldAccessException>::get(),

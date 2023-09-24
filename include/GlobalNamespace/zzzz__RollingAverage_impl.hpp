@@ -133,8 +133,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "window", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::RollingAverage::RollingAverage(int32_t window)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RollingAverage>(window))) {}
+ GlobalNamespace::RollingAverage GlobalNamespace::RollingAverage::New_ctor(int32_t window)  {
+GlobalNamespace::RollingAverage o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RollingAverage>(window))};
+return o;
+}
  void GlobalNamespace::RollingAverage::_ctor(int32_t window)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RollingAverage>::get(),

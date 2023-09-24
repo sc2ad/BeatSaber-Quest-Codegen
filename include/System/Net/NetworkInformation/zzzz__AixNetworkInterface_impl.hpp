@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__AixNetworkInterface_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__OperationalStatus_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::AixNetworkInterface._ctor
 template<>
 
@@ -66,8 +66,10 @@ constexpr void System::Net::NetworkInformation::AixNetworkInterface::__set__ifru
 constexpr int32_t System::Net::NetworkInformation::AixNetworkInterface::__get__ifru_mtu() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ifa_flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ifru_mtu", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::NetworkInformation::AixNetworkInterface::AixNetworkInterface(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu)  : System::Net::NetworkInformation::UnixNetworkInterface(THROW_UNLESS(::il2cpp_utils::New<AixNetworkInterface>(name, ifa_flags, ifru_mtu))) {}
+ System::Net::NetworkInformation::AixNetworkInterface System::Net::NetworkInformation::AixNetworkInterface::New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu)  {
+System::Net::NetworkInformation::AixNetworkInterface o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::AixNetworkInterface>(name, ifa_flags, ifru_mtu))};
+return o;
+}
  void System::Net::NetworkInformation::AixNetworkInterface::_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::AixNetworkInterface>::get(),

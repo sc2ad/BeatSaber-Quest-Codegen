@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Polyglot/zzzz__Localization_def.hpp"
-#include "Polyglot/zzzz__Language_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 #include "Polyglot/zzzz__LocalizationDocument_def.hpp"
-#include "Polyglot/zzzz__LanguageDirection_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "Polyglot/zzzz__Language_def.hpp"
+#include "UnityEngine/zzzz__SystemLanguage_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Polyglot/zzzz__LocalizationAsset_def.hpp"
 #include "Polyglot/zzzz__ILocalize_def.hpp"
-#include "UnityEngine/zzzz__SystemLanguage_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
+#include "Polyglot/zzzz__LanguageDirection_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 //  Writing Method size for method: Polyglot::Localization.get_CustomDocument
 template<>
 
@@ -855,8 +855,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, doc);
 }
-// Ctor Parameters []
- Polyglot::Localization::Localization()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<Localization>())) {}
+ Polyglot::Localization Polyglot::Localization::New_ctor()  {
+Polyglot::Localization o{THROW_UNLESS(::il2cpp_utils::New<Polyglot::Localization>())};
+return o;
+}
  void Polyglot::Localization::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Polyglot::Localization>::get(),

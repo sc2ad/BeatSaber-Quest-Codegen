@@ -4,28 +4,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct Vector2;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Vector2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
-}
-namespace UnityEngine {
-struct Rect;
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -115,38 +115,32 @@ constexpr UnityEngine::Vector2 __get_m_Extents() const;
 /// @brief Method get_corners addr 0x29a4c40 size 0xc8 virtual false final false
  ::ArrayW<UnityEngine::Vector2> get_corners() ;
 
-// Ctor Parameters []
-explicit Bounds2D() ;
+static UnityEngine::ProBuilder::Bounds2D New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a4d08 size 0x70 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "center", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "size", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
-explicit Bounds2D(UnityEngine::Vector2 center, UnityEngine::Vector2 size) ;
+static UnityEngine::ProBuilder::Bounds2D New_ctor(UnityEngine::Vector2 center, UnityEngine::Vector2 size) ;
 
 /// @brief Method .ctor addr 0x29a4d78 size 0xac virtual false final false
  void _ctor(UnityEngine::Vector2 center, UnityEngine::Vector2 size) ;
 
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::IList_1<UnityEngine::Vector2>", modifiers: "", def_value: None }]
-explicit Bounds2D(System::Collections::Generic::IList_1<UnityEngine::Vector2> points) ;
+static UnityEngine::ProBuilder::Bounds2D New_ctor(System::Collections::Generic::IList_1<UnityEngine::Vector2> points) ;
 
 /// @brief Method .ctor addr 0x29a4e24 size 0x80 virtual false final false
  void _ctor(System::Collections::Generic::IList_1<UnityEngine::Vector2> points) ;
 
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::IList_1<UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "indexes", ty: "System::Collections::Generic::IList_1<int32_t>", modifiers: "", def_value: None }]
-explicit Bounds2D(System::Collections::Generic::IList_1<UnityEngine::Vector2> points, System::Collections::Generic::IList_1<int32_t> indexes) ;
+static UnityEngine::ProBuilder::Bounds2D New_ctor(System::Collections::Generic::IList_1<UnityEngine::Vector2> points, System::Collections::Generic::IList_1<int32_t> indexes) ;
 
 /// @brief Method .ctor addr 0x29a5194 size 0x90 virtual false final false
  void _ctor(System::Collections::Generic::IList_1<UnityEngine::Vector2> points, System::Collections::Generic::IList_1<int32_t> indexes) ;
 
-// Ctor Parameters [CppParam { name: "points", ty: "::ArrayW<UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "edges", ty: "::ArrayW<UnityEngine::ProBuilder::Edge>", modifiers: "", def_value: None }]
-explicit Bounds2D(::ArrayW<UnityEngine::Vector3> points, ::ArrayW<UnityEngine::ProBuilder::Edge> edges) ;
+static UnityEngine::ProBuilder::Bounds2D New_ctor(::ArrayW<UnityEngine::Vector3> points, ::ArrayW<UnityEngine::ProBuilder::Edge> edges) ;
 
 /// @brief Method .ctor addr 0x29a5784 size 0x1c4 virtual false final false
  void _ctor(::ArrayW<UnityEngine::Vector3> points, ::ArrayW<UnityEngine::ProBuilder::Edge> edges) ;
 
-// Ctor Parameters [CppParam { name: "points", ty: "::ArrayW<UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Bounds2D(::ArrayW<UnityEngine::Vector2> points, int32_t length) ;
+static UnityEngine::ProBuilder::Bounds2D New_ctor(::ArrayW<UnityEngine::Vector2> points, int32_t length) ;
 
 /// @brief Method .ctor addr 0x29a5948 size 0x14c virtual false final false
  void _ctor(::ArrayW<UnityEngine::Vector2> points, int32_t length) ;

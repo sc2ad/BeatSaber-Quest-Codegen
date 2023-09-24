@@ -111,8 +111,7 @@ constexpr bool __get__fullComboLost() const;
 /// @brief Method HandleComboBreakingEventHappened addr 0x2274a20 size 0x3c virtual false final false
  void HandleComboBreakingEventHappened() ;
 
-// Ctor Parameters []
-explicit ComboUIController() ;
+static GlobalNamespace::ComboUIController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2274a5c size 0x8 virtual false final false
  void _ctor() ;

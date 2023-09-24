@@ -3,29 +3,29 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections::Generic {
+namespace System::Collections::ObjectModel {
 template<typename T>
-class IList_1;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ReadOnlyCollection_1;
 }
 namespace System {
 class Exception;
 }
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IList_1;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Collections::ObjectModel {
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
+namespace System::Collections::Generic {
 template<typename T>
-class ReadOnlyCollection_1;
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace System {
@@ -89,62 +89,52 @@ constexpr System::Collections::ObjectModel::ReadOnlyCollection_1<System::Excepti
 
 // Methods
 
-// Ctor Parameters []
-explicit AggregateException() ;
+static System::AggregateException New_ctor() ;
 
 /// @brief Method .ctor addr 0x23b2658 size 0x114 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "innerExceptions", ty: "System::Collections::Generic::IEnumerable_1<System::Exception>", modifiers: "", def_value: None }]
-explicit AggregateException(System::Collections::Generic::IEnumerable_1<System::Exception> innerExceptions) ;
+static System::AggregateException New_ctor(System::Collections::Generic::IEnumerable_1<System::Exception> innerExceptions) ;
 
 /// @brief Method .ctor addr 0x23b276c size 0x58 virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<System::Exception> innerExceptions) ;
 
-// Ctor Parameters [CppParam { name: "innerExceptions", ty: "::ArrayW<System::Exception>", modifiers: "", def_value: None }]
-explicit AggregateException(::ArrayW<System::Exception> innerExceptions) ;
+static System::AggregateException New_ctor(::ArrayW<System::Exception> innerExceptions) ;
 
 /// @brief Method .ctor addr 0x23b2888 size 0x58 virtual false final false
  void _ctor(::ArrayW<System::Exception> innerExceptions) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerExceptions", ty: "System::Collections::Generic::IEnumerable_1<System::Exception>", modifiers: "", def_value: None }]
-explicit AggregateException(::StringW message, System::Collections::Generic::IEnumerable_1<System::Exception> innerExceptions) ;
+static System::AggregateException New_ctor(::StringW message, System::Collections::Generic::IEnumerable_1<System::Exception> innerExceptions) ;
 
 /// @brief Method .ctor addr 0x23b27c4 size 0xc4 virtual false final false
  void _ctor(::StringW message, System::Collections::Generic::IEnumerable_1<System::Exception> innerExceptions) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerExceptions", ty: "::ArrayW<System::Exception>", modifiers: "", def_value: None }]
-explicit AggregateException(::StringW message, ::ArrayW<System::Exception> innerExceptions) ;
+static System::AggregateException New_ctor(::StringW message, ::ArrayW<System::Exception> innerExceptions) ;
 
 /// @brief Method .ctor addr 0x23b28e0 size 0x4 virtual false final false
  void _ctor(::StringW message, ::ArrayW<System::Exception> innerExceptions) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerExceptions", ty: "System::Collections::Generic::IList_1<System::Exception>", modifiers: "", def_value: None }]
-explicit AggregateException(::StringW message, System::Collections::Generic::IList_1<System::Exception> innerExceptions) ;
+static System::AggregateException New_ctor(::StringW message, System::Collections::Generic::IList_1<System::Exception> innerExceptions) ;
 
 /// @brief Method .ctor addr 0x23b28e4 size 0x3c0 virtual false final false
  void _ctor(::StringW message, System::Collections::Generic::IList_1<System::Exception> innerExceptions) ;
 
-// Ctor Parameters [CppParam { name: "innerExceptionInfos", ty: "System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo>", modifiers: "", def_value: None }]
-explicit AggregateException(System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo> innerExceptionInfos) ;
+static System::AggregateException New_ctor(System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo> innerExceptionInfos) ;
 
 /// @brief Method .ctor addr 0x23b2cc8 size 0x58 virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo> innerExceptionInfos) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerExceptionInfos", ty: "System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo>", modifiers: "", def_value: None }]
-explicit AggregateException(::StringW message, System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo> innerExceptionInfos) ;
+static System::AggregateException New_ctor(::StringW message, System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo> innerExceptionInfos) ;
 
 /// @brief Method .ctor addr 0x23b2d20 size 0xc4 virtual false final false
  void _ctor(::StringW message, System::Collections::Generic::IEnumerable_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo> innerExceptionInfos) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerExceptionInfos", ty: "System::Collections::Generic::IList_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo>", modifiers: "", def_value: None }]
-explicit AggregateException(::StringW message, System::Collections::Generic::IList_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo> innerExceptionInfos) ;
+static System::AggregateException New_ctor(::StringW message, System::Collections::Generic::IList_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo> innerExceptionInfos) ;
 
 /// @brief Method .ctor addr 0x23b2de4 size 0x43c virtual false final false
  void _ctor(::StringW message, System::Collections::Generic::IList_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo> innerExceptionInfos) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit AggregateException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::AggregateException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23b3220 size 0x1e8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

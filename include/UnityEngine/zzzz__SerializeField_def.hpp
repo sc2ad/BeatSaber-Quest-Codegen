@@ -47,8 +47,7 @@ constexpr explicit SerializeField(void* ptr) noexcept : System::Attribute(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit SerializeField() ;
+static UnityEngine::SerializeField New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b2b63c size 0x8 virtual false final false
  void _ctor() ;

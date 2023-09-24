@@ -5,30 +5,42 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Zenject {
-class IPrefabInstantiator;
-}
-namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class DiContainer;
+class Zenject__PrefabResourceBindingFinalizer____c__DisplayClass6_0;
 }
 namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
 }
-namespace Zenject {
-class BindInfo;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class Zenject__PrefabResourceBindingFinalizer____c__DisplayClass5_1;
+}
+namespace Zenject {
+class Zenject__PrefabResourceBindingFinalizer____c__DisplayClass5_0;
+}
+namespace Zenject {
+class Zenject__PrefabResourceBindingFinalizer____c__DisplayClass6_1;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class IPrefabInstantiator;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -115,8 +127,7 @@ constexpr System::Collections::Generic::List_1<System::Type> __get_concreteTypes
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__PrefabResourceBindingFinalizer____c__DisplayClass5_0() ;
+static Zenject::Zenject__PrefabResourceBindingFinalizer____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6ade0 size 0x8 virtual false final false
  void _ctor() ;
@@ -191,8 +202,7 @@ constexpr Zenject::Zenject__PrefabResourceBindingFinalizer____c__DisplayClass5_0
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__PrefabResourceBindingFinalizer____c__DisplayClass5_1() ;
+static Zenject::Zenject__PrefabResourceBindingFinalizer____c__DisplayClass5_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6ade8 size 0x8 virtual false final false
  void _ctor() ;
@@ -267,8 +277,7 @@ constexpr Zenject::DiContainer __get_container() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__PrefabResourceBindingFinalizer____c__DisplayClass6_0() ;
+static Zenject::Zenject__PrefabResourceBindingFinalizer____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6adf0 size 0x8 virtual false final false
  void _ctor() ;
@@ -343,8 +352,7 @@ constexpr Zenject::Zenject__PrefabResourceBindingFinalizer____c__DisplayClass6_0
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__PrefabResourceBindingFinalizer____c__DisplayClass6_1() ;
+static Zenject::Zenject__PrefabResourceBindingFinalizer____c__DisplayClass6_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6adf8 size 0x8 virtual false final false
  void _ctor() ;
@@ -433,8 +441,7 @@ constexpr System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IPro
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "resourcePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "providerFactory", ty: "System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IProvider>", modifiers: "", def_value: None }]
-explicit PrefabResourceBindingFinalizer(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectBindInfo, ::StringW resourcePath, System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IProvider> providerFactory) ;
+static Zenject::PrefabResourceBindingFinalizer New_ctor(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectBindInfo, ::StringW resourcePath, System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IProvider> providerFactory) ;
 
 /// @brief Method .ctor addr 0x2d6a6b8 size 0x40 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectBindInfo, ::StringW resourcePath, System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IProvider> providerFactory) ;

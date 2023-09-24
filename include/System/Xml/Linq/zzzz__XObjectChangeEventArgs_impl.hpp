@@ -49,8 +49,10 @@ return ::cordl_internals::getStaticField<System::Xml::Linq::XObjectChangeEventAr
  System::Xml::Linq::XObjectChangeEventArgs System::Xml::Linq::XObjectChangeEventArgs::__get_Value()  {
 return ::cordl_internals::getStaticField<System::Xml::Linq::XObjectChangeEventArgs, "Value", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XObjectChangeEventArgs>::get>();
 }
-// Ctor Parameters [CppParam { name: "objectChange", ty: "System::Xml::Linq::XObjectChange", modifiers: "", def_value: None }]
- System::Xml::Linq::XObjectChangeEventArgs::XObjectChangeEventArgs(System::Xml::Linq::XObjectChange objectChange)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<XObjectChangeEventArgs>(objectChange))) {}
+ System::Xml::Linq::XObjectChangeEventArgs System::Xml::Linq::XObjectChangeEventArgs::New_ctor(System::Xml::Linq::XObjectChange objectChange)  {
+System::Xml::Linq::XObjectChangeEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XObjectChangeEventArgs>(objectChange))};
+return o;
+}
  void System::Xml::Linq::XObjectChangeEventArgs::_ctor(System::Xml::Linq::XObjectChange objectChange)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XObjectChangeEventArgs>::get(),

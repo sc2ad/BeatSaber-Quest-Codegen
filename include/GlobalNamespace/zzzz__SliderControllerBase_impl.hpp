@@ -64,8 +64,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cutoutStart, cutoutEnd, duration);
 }
-// Ctor Parameters []
- GlobalNamespace::SliderControllerBase::SliderControllerBase()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SliderControllerBase>())) {}
+ GlobalNamespace::SliderControllerBase GlobalNamespace::SliderControllerBase::New_ctor()  {
+GlobalNamespace::SliderControllerBase o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SliderControllerBase>())};
+return o;
+}
  void GlobalNamespace::SliderControllerBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SliderControllerBase>::get(),

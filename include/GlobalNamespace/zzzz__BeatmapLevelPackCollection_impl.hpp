@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapLevelPackCollection_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPackCollection_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapLevelPackCollection.get_beatmapLevelPacks
 template<>
 
@@ -55,8 +55,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::IBeatmapLevelPack>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelPacks", ty: "::ArrayW<GlobalNamespace::IBeatmapLevelPack>", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapLevelPackCollection::BeatmapLevelPackCollection(::ArrayW<GlobalNamespace::IBeatmapLevelPack> beatmapLevelPacks)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelPackCollection>(beatmapLevelPacks))) {}
+ GlobalNamespace::BeatmapLevelPackCollection GlobalNamespace::BeatmapLevelPackCollection::New_ctor(::ArrayW<GlobalNamespace::IBeatmapLevelPack> beatmapLevelPacks)  {
+GlobalNamespace::BeatmapLevelPackCollection o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelPackCollection>(beatmapLevelPacks))};
+return o;
+}
  void GlobalNamespace::BeatmapLevelPackCollection::_ctor(::ArrayW<GlobalNamespace::IBeatmapLevelPack> beatmapLevelPacks)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelPackCollection>::get(),

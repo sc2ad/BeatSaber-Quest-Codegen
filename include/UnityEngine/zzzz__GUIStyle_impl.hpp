@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
-#include "UnityEngine/zzzz__TextAnchor_def.hpp"
-#include "UnityEngine/zzzz__GUIContent_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/zzzz__TextClipping_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__GUIStyleState_def.hpp"
+#include "UnityEngine/zzzz__GUIContent_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__TextClipping_def.hpp"
+#include "UnityEngine/zzzz__FontStyle_def.hpp"
+#include "UnityEngine/zzzz__TextAnchor_def.hpp"
 #include "UnityEngine/zzzz__ImagePosition_def.hpp"
 #include "UnityEngine/zzzz__RectOffset_def.hpp"
-#include "UnityEngine/zzzz__FontStyle_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
 //  Writing Method size for method: UnityEngine::GUIStyle.get_rawName
 template<>
 
@@ -1543,8 +1543,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, font);
 }
-// Ctor Parameters []
- UnityEngine::GUIStyle::GUIStyle()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUIStyle>())) {}
+ UnityEngine::GUIStyle UnityEngine::GUIStyle::New_ctor()  {
+UnityEngine::GUIStyle o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUIStyle>())};
+return o;
+}
  void UnityEngine::GUIStyle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUIStyle>::get(),
@@ -1554,8 +1556,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "UnityEngine::GUIStyle", modifiers: "", def_value: None }]
- UnityEngine::GUIStyle::GUIStyle(UnityEngine::GUIStyle other)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUIStyle>(other))) {}
+ UnityEngine::GUIStyle UnityEngine::GUIStyle::New_ctor(UnityEngine::GUIStyle other)  {
+UnityEngine::GUIStyle o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUIStyle>(other))};
+return o;
+}
  void UnityEngine::GUIStyle::_ctor(UnityEngine::GUIStyle other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUIStyle>::get(),

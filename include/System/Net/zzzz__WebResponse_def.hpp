@@ -4,23 +4,23 @@
 namespace System {
 class IDisposable;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Net {
+class WebHeaderCollection;
 }
 namespace System {
 class Uri;
-}
-namespace System::Net {
-class WebHeaderCollection;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Net {
@@ -92,14 +92,12 @@ constexpr bool __get_m_IsFromCache() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit WebResponse() ;
+static System::Net::WebResponse New_ctor() ;
 
 /// @brief Method .ctor addr 0x281375c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit WebResponse(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::WebResponse New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x2813764 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

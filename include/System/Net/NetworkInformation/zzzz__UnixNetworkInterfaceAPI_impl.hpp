@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, ifap);
 }
-// Ctor Parameters []
- System::Net::NetworkInformation::UnixNetworkInterfaceAPI::UnixNetworkInterfaceAPI()  : System::Net::NetworkInformation::NetworkInterfaceFactory(THROW_UNLESS(::il2cpp_utils::New<UnixNetworkInterfaceAPI>())) {}
+ System::Net::NetworkInformation::UnixNetworkInterfaceAPI System::Net::NetworkInformation::UnixNetworkInterfaceAPI::New_ctor()  {
+System::Net::NetworkInformation::UnixNetworkInterfaceAPI o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::UnixNetworkInterfaceAPI>())};
+return o;
+}
  void System::Net::NetworkInformation::UnixNetworkInterfaceAPI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::UnixNetworkInterfaceAPI>::get(),

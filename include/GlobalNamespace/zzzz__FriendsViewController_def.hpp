@@ -3,13 +3,13 @@
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class PlatformNetworkPlayerModel;
+class INetworkPlayerModel;
 }
 namespace GlobalNamespace {
 class INetworkConfig;
 }
 namespace GlobalNamespace {
-class INetworkPlayerModel;
+class PlatformNetworkPlayerModel;
 }
 namespace UnityEngine::UI {
 class Toggle;
@@ -129,8 +129,7 @@ constexpr bool __get__allowAnyoneToJoin() const;
 /// @brief Method RefreshParty addr 0x215b804 size 0x180 virtual false final false
  void RefreshParty(bool overrideHide) ;
 
-// Ctor Parameters []
-explicit FriendsViewController() ;
+static GlobalNamespace::FriendsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215ba00 size 0x8 virtual false final false
  void _ctor() ;

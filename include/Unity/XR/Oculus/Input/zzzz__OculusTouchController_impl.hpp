@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_impl.hpp"
 #include "Unity/XR/Oculus/Input/zzzz__OculusTouchController_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
 //  Writing Method size for method: Unity::XR::Oculus::Input::OculusTouchController.get_thumbstick
 template<>
 
@@ -1268,8 +1268,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::Oculus::Input::OculusTouchController::OculusTouchController()  : UnityEngine::InputSystem::XR::XRControllerWithRumble(THROW_UNLESS(::il2cpp_utils::New<OculusTouchController>())) {}
+ Unity::XR::Oculus::Input::OculusTouchController Unity::XR::Oculus::Input::OculusTouchController::New_ctor()  {
+Unity::XR::Oculus::Input::OculusTouchController o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::Input::OculusTouchController>())};
+return o;
+}
  void Unity::XR::Oculus::Input::OculusTouchController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::Input::OculusTouchController>::get(),

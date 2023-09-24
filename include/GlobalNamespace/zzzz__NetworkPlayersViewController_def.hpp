@@ -2,15 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace GlobalNamespace {
 class NetworkPlayersTableView;
 }
 namespace GlobalNamespace {
 class INetworkPlayerModel;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
@@ -145,8 +145,7 @@ constexpr System::Action_1<GlobalNamespace::INetworkPlayer> __get_onInviteReques
 /// @brief Method Refresh addr 0x217b6e0 size 0x190 virtual false final false
  void Refresh() ;
 
-// Ctor Parameters []
-explicit NetworkPlayersViewController() ;
+static GlobalNamespace::NetworkPlayersViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2171d9c size 0x8 virtual false final false
  void _ctor() ;

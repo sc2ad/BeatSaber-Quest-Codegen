@@ -9,23 +9,26 @@ namespace UnityEngine::InputSystem::Layouts {
 class InputControlLayout;
 }
 namespace UnityEngine::InputSystem::XR {
-class XRDeviceDescriptor;
+struct FeatureType;
+}
+namespace UnityEngine::InputSystem::XR {
+class UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0;
+}
+namespace UnityEngine::InputSystem::XR {
+struct XRFeatureDescriptor;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
-namespace UnityEngine::InputSystem::XR {
-struct XRFeatureDescriptor;
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceExecuteCommandDelegate;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceExecuteCommandDelegate;
-}
 namespace UnityEngine::InputSystem::XR {
-struct FeatureType;
+class XRDeviceDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -85,8 +88,7 @@ constexpr UnityEngine::InputSystem::XR::XRLayoutBuilder __get_layout() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0() ;
+static UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2934918 size 0x8 virtual false final false
  void _ctor() ;
@@ -199,8 +201,7 @@ static ::StringW ConvertPotentialAliasToName(UnityEngine::InputSystem::Layouts::
 /// @brief Method Build addr 0x2934c4c size 0xb04 virtual false final false
  UnityEngine::InputSystem::Layouts::InputControlLayout Build() ;
 
-// Ctor Parameters []
-explicit XRLayoutBuilder() ;
+static UnityEngine::InputSystem::XR::XRLayoutBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2934920 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,9 +2,9 @@
 #include "HMUI/zzzz__TableView_impl.hpp"
 #include "GlobalNamespace/zzzz__TableViewWithDetailCell_def.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
+#include "GlobalNamespace/zzzz__TableViewWithDetailCell_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__TableViewWithDetailCell__IDataSource.CellSize
 template<>
 
@@ -466,8 +466,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::TableViewWithDetailCell::TableViewWithDetailCell()  : HMUI::TableView(THROW_UNLESS(::il2cpp_utils::New<TableViewWithDetailCell>())) {}
+ GlobalNamespace::TableViewWithDetailCell GlobalNamespace::TableViewWithDetailCell::New_ctor()  {
+GlobalNamespace::TableViewWithDetailCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TableViewWithDetailCell>())};
+return o;
+}
  void GlobalNamespace::TableViewWithDetailCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TableViewWithDetailCell>::get(),

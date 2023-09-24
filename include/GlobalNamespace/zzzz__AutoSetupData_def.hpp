@@ -74,8 +74,7 @@ constexpr bool __get_randomSongIfNoneSuggested() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AutoSetupData() ;
+static GlobalNamespace::AutoSetupData New_ctor() ;
 
 /// @brief Method .ctor addr 0x214b760 size 0x8 virtual false final false
  void _ctor() ;

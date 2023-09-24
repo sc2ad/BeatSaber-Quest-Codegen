@@ -3,10 +3,11 @@
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectInstaller_def.hpp"
 #include "Zenject/zzzz__GameObjectContext_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__SubContainerCreatorByNewGameObjectInstaller_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0._ctor
 template<>
@@ -88,8 +89,10 @@ constexpr void Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____
 constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0::__get_args() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<Zenject::TypeValuePair>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0>())) {}
+ Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0 Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0::New_ctor()  {
+Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0>::get(),
@@ -172,8 +175,10 @@ constexpr void Zenject::SubContainerCreatorByNewGameObjectInstaller::__set__extr
 constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> Zenject::SubContainerCreatorByNewGameObjectInstaller::__get__extraArgs() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<Zenject::TypeValuePair>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "installerType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArgs", ty: "System::Collections::Generic::List_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorByNewGameObjectInstaller::SubContainerCreatorByNewGameObjectInstaller(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type installerType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArgs)  : Zenject::SubContainerCreatorByNewGameObjectDynamicContext(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorByNewGameObjectInstaller>(container, gameObjectBindInfo, installerType, extraArgs))) {}
+ Zenject::SubContainerCreatorByNewGameObjectInstaller Zenject::SubContainerCreatorByNewGameObjectInstaller::New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type installerType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArgs)  {
+Zenject::SubContainerCreatorByNewGameObjectInstaller o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorByNewGameObjectInstaller>(container, gameObjectBindInfo, installerType, extraArgs))};
+return o;
+}
  void Zenject::SubContainerCreatorByNewGameObjectInstaller::_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type installerType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArgs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorByNewGameObjectInstaller>::get(),

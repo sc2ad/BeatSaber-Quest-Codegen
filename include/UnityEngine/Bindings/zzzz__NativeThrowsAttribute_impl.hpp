@@ -50,8 +50,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::Bindings::NativeThrowsAttribute::NativeThrowsAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeThrowsAttribute>())) {}
+ UnityEngine::Bindings::NativeThrowsAttribute UnityEngine::Bindings::NativeThrowsAttribute::New_ctor()  {
+UnityEngine::Bindings::NativeThrowsAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativeThrowsAttribute>())};
+return o;
+}
  void UnityEngine::Bindings::NativeThrowsAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativeThrowsAttribute>::get(),

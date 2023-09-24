@@ -2,36 +2,45 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Oculus::Platform::Models {
-class AchievementUpdate;
+namespace GlobalNamespace {
+class GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Message_1;
 }
-namespace GlobalNamespace {
-class GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
+namespace Oculus::Platform::Models {
+class AchievementUpdate;
+}
+namespace Oculus::Platform::Models {
+class AchievementProgressList;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
 }
-namespace Oculus::Platform::Models {
-class AchievementProgressList;
+namespace GlobalNamespace {
+class AchievementSO;
 }
 namespace Oculus::Platform::Models {
 class AchievementProgress;
 }
 namespace GlobalNamespace {
-class AchievementSO;
-}
-namespace GlobalNamespace {
 class IPlatformAchievementsHandler;
 }
 namespace GlobalNamespace {
-class HMAsyncRequest;
+class AchievementIdsModelSO;
 }
 namespace GlobalNamespace {
-class AchievementIdsModelSO;
+class GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,8 +106,7 @@ constexpr GlobalNamespace::GlobalNamespace__IPlatformAchievementsHandler__Unlock
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass2_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22196f4 size 0x8 virtual false final false
  void _ctor() ;
@@ -167,8 +175,7 @@ constexpr GlobalNamespace::OculusPlatformAchievementHandler __get___4__this() co
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22197ec size 0x8 virtual false final false
  void _ctor() ;
@@ -231,8 +238,7 @@ constexpr Oculus::Platform::Models::AchievementProgress __get_achievement() cons
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformAchievementHandler____c__DisplayClass3_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2219d64 size 0x8 virtual false final false
  void _ctor() ;
@@ -313,8 +319,7 @@ constexpr GlobalNamespace::AchievementIdsModelSO __get__achievementIdsModel() co
 /// @brief Method GetUnlockedAchievements addr 0x22196fc size 0xf0 virtual true final true
  GlobalNamespace::HMAsyncRequest GetUnlockedAchievements(GlobalNamespace::GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler completionHandler) ;
 
-// Ctor Parameters []
-explicit OculusPlatformAchievementHandler() ;
+static GlobalNamespace::OculusPlatformAchievementHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x22197f4 size 0x8 virtual false final false
  void _ctor() ;

@@ -117,8 +117,10 @@ constexpr void System::ComponentModel::DesignerSerializationVisibilityAttribute:
 constexpr System::ComponentModel::DesignerSerializationVisibility System::ComponentModel::DesignerSerializationVisibilityAttribute::__get__Visibility_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::ComponentModel::DesignerSerializationVisibility, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "visibility", ty: "System::ComponentModel::DesignerSerializationVisibility", modifiers: "", def_value: None }]
- System::ComponentModel::DesignerSerializationVisibilityAttribute::DesignerSerializationVisibilityAttribute(System::ComponentModel::DesignerSerializationVisibility visibility)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DesignerSerializationVisibilityAttribute>(visibility))) {}
+ System::ComponentModel::DesignerSerializationVisibilityAttribute System::ComponentModel::DesignerSerializationVisibilityAttribute::New_ctor(System::ComponentModel::DesignerSerializationVisibility visibility)  {
+System::ComponentModel::DesignerSerializationVisibilityAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DesignerSerializationVisibilityAttribute>(visibility))};
+return o;
+}
  void System::ComponentModel::DesignerSerializationVisibilityAttribute::_ctor(System::ComponentModel::DesignerSerializationVisibility visibility)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DesignerSerializationVisibilityAttribute>::get(),

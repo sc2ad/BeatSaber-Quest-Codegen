@@ -7,17 +7,17 @@ namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct FrameData;
 }
 namespace UnityEngine::Playables {
-template<typename T>
-struct ScriptPlayable_1;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+template<typename T>
+struct ScriptPlayable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -122,8 +122,7 @@ static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::DirectorC
 /// @brief Method UpdateTime addr 0x2ad28d8 size 0x190 virtual false final false
  void UpdateTime(UnityEngine::Playables::Playable playable) ;
 
-// Ctor Parameters []
-explicit DirectorControlPlayable() ;
+static UnityEngine::Timeline::DirectorControlPlayable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad2aec size 0x1010 virtual false final false
  void _ctor() ;

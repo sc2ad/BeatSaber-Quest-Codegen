@@ -2,23 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class DigestInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
+class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
+class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class DigestInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::BC {
@@ -104,20 +104,17 @@ constexpr Org::BouncyCastle::Asn1::X509::GeneralNames __get_mCACerts() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Asn1::X509::DigestInfo", modifiers: "", def_value: None }, CppParam { name: "certLocation", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit LinkedCertificate(Org::BouncyCastle::Asn1::X509::DigestInfo digest, Org::BouncyCastle::Asn1::X509::GeneralName certLocation) ;
+static Org::BouncyCastle::Asn1::BC::LinkedCertificate New_ctor(Org::BouncyCastle::Asn1::X509::DigestInfo digest, Org::BouncyCastle::Asn1::X509::GeneralName certLocation) ;
 
 /// @brief Method .ctor addr 0xdd645c size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::DigestInfo digest, Org::BouncyCastle::Asn1::X509::GeneralName certLocation) ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Asn1::X509::DigestInfo", modifiers: "", def_value: None }, CppParam { name: "certLocation", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }, CppParam { name: "certIssuer", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "caCerts", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }]
-explicit LinkedCertificate(Org::BouncyCastle::Asn1::X509::DigestInfo digest, Org::BouncyCastle::Asn1::X509::GeneralName certLocation, Org::BouncyCastle::Asn1::X509::X509Name certIssuer, Org::BouncyCastle::Asn1::X509::GeneralNames caCerts) ;
+static Org::BouncyCastle::Asn1::BC::LinkedCertificate New_ctor(Org::BouncyCastle::Asn1::X509::DigestInfo digest, Org::BouncyCastle::Asn1::X509::GeneralName certLocation, Org::BouncyCastle::Asn1::X509::X509Name certIssuer, Org::BouncyCastle::Asn1::X509::GeneralNames caCerts) ;
 
 /// @brief Method .ctor addr 0xdd648c size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::DigestInfo digest, Org::BouncyCastle::Asn1::X509::GeneralName certLocation, Org::BouncyCastle::Asn1::X509::X509Name certIssuer, Org::BouncyCastle::Asn1::X509::GeneralNames caCerts) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit LinkedCertificate(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::BC::LinkedCertificate New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdd64cc size 0x1c8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

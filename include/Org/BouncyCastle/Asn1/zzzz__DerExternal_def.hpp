@@ -3,28 +3,28 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace System::IO {
-class MemoryStream;
+class DerTaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
+}
+namespace System::IO {
+class MemoryStream;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerTaggedObject;
+class DerOutputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -118,20 +118,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Object __get_externalContent() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "vector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit DerExternal(Org::BouncyCastle::Asn1::Asn1EncodableVector vector) ;
+static Org::BouncyCastle::Asn1::DerExternal New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector vector) ;
 
 /// @brief Method .ctor addr 0x1129cf8 size 0x2f4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector vector) ;
 
-// Ctor Parameters [CppParam { name: "directReference", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "indirectReference", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "dataValueDescriptor", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }, CppParam { name: "externalData", ty: "Org::BouncyCastle::Asn1::DerTaggedObject", modifiers: "", def_value: None }]
-explicit DerExternal(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, Org::BouncyCastle::Asn1::DerTaggedObject externalData) ;
+static Org::BouncyCastle::Asn1::DerExternal New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, Org::BouncyCastle::Asn1::DerTaggedObject externalData) ;
 
 /// @brief Method .ctor addr 0x1136100 size 0x60 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, Org::BouncyCastle::Asn1::DerTaggedObject externalData) ;
 
-// Ctor Parameters [CppParam { name: "directReference", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "indirectReference", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "dataValueDescriptor", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "externalData", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
-explicit DerExternal(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, int32_t encoding, Org::BouncyCastle::Asn1::Asn1Object externalData) ;
+static Org::BouncyCastle::Asn1::DerExternal New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, int32_t encoding, Org::BouncyCastle::Asn1::Asn1Object externalData) ;
 
 /// @brief Method .ctor addr 0x1136160 size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, int32_t encoding, Org::BouncyCastle::Asn1::Asn1Object externalData) ;

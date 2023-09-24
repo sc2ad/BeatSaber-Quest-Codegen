@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__TrailElementCollection_def.hpp"
+#include "GlobalNamespace/zzzz__TrailElementCollection_def.hpp"
 #include "GlobalNamespace/zzzz__TrailElement_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "segmentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "segmentLerp", ty: "float_t", modifiers: "", def_value: Some("{}") }]
@@ -179,8 +180,10 @@ constexpr void GlobalNamespace::TrailElementCollection::__set__totalDistance(flo
 constexpr float_t GlobalNamespace::TrailElementCollection::__get__totalDistance() const {
 return ::cordl_internals::getInstanceField<float_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "defaultStartPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "defaultEndPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::TrailElementCollection::TrailElementCollection(int32_t capacity, UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float_t time)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TrailElementCollection>(capacity, defaultStartPosition, defaultEndPosition, time))) {}
+ GlobalNamespace::TrailElementCollection GlobalNamespace::TrailElementCollection::New_ctor(int32_t capacity, UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float_t time)  {
+GlobalNamespace::TrailElementCollection o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TrailElementCollection>(capacity, defaultStartPosition, defaultEndPosition, time))};
+return o;
+}
  void GlobalNamespace::TrailElementCollection::_ctor(int32_t capacity, UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float_t time)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TrailElementCollection>::get(),

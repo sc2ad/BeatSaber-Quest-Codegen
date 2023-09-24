@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionsGridViewAnimator_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "Tweening/zzzz__Vector2Tween_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "Tweening/zzzz__Vector2Tween_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator.Init
 template<>
 
@@ -401,8 +401,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::AnnotatedBeatmapLevelCollectionsGridViewAnimator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionsGridViewAnimator>())) {}
+ GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::New_ctor()  {
+GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator>())};
+return o;
+}
  void GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator>::get(),

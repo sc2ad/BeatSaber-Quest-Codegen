@@ -3,12 +3,14 @@
 #include "GlobalNamespace/zzzz__GameLiftConnectionManager_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerModel_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
-class GameLiftConnectionManager;
+struct PublicServerInfo;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams;
 }
 namespace BGNet::Core::GameLift {
 class IGameLiftPlayerSessionProvider;
@@ -17,23 +19,21 @@ namespace GlobalNamespace {
 class GlobalNamespace__GameLiftConnectionManager__StartClientParams;
 }
 namespace GlobalNamespace {
-template<typename T>
-class IConnectionInitParams_1;
-}
-namespace GlobalNamespace {
-struct PublicServerInfo;
-}
-namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
+template<typename T>
+class IConnectionInitParams_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class GameLiftConnectionManager;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams;
 }
 namespace System {
 template<typename T>
@@ -46,7 +46,7 @@ class GameLiftNetworkPlayerModel;
 // Type: ::GameLiftNetworkPlayerModel
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4573), inst: 2641 }), TypeDefinitionIndex(TypeDefinitionIndex(4573)), TypeDefinitionIndex(TypeDefinitionIndex(12679))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12679)), TypeDefinitionIndex(TypeDefinitionIndex(4573)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4573), inst: 2641 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4536))
 // CS Name: GameLiftNetworkPlayerModel
 class CORDL_TYPE GameLiftNetworkPlayerModel : public GlobalNamespace::NetworkPlayerModel_1<GlobalNamespace::GameLiftConnectionManager> {
@@ -146,8 +146,7 @@ constexpr GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__StartClie
 /// @brief Method GetStartClientParams addr 0x2202a30 size 0xd0 virtual true final false
  GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::GameLiftConnectionManager> GetStartClientParams(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration) ;
 
-// Ctor Parameters []
-explicit GameLiftNetworkPlayerModel() ;
+static GlobalNamespace::GameLiftNetworkPlayerModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2202b00 size 0xac virtual false final false
  void _ctor() ;

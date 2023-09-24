@@ -69,8 +69,7 @@ constexpr ::ArrayW<int32_t> __get_exponents() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "exponents", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit GF2Polynomial(::ArrayW<int32_t> exponents) ;
+static Org::BouncyCastle::Math::Field::GF2Polynomial New_ctor(::ArrayW<int32_t> exponents) ;
 
 /// @brief Method .ctor addr 0xfce0b4 size 0x78 virtual false final false
  void _ctor(::ArrayW<int32_t> exponents) ;

@@ -9,14 +9,17 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettingsAtStartNetSerializable;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettingsNetSerializable;
+class GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsNetSerializable;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsAtStartNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,8 +79,7 @@ constexpr GlobalNamespace::IConnectedPlayer __get_player() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0() ;
+static GlobalNamespace::GlobalNamespace__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc5ea4 size 0x8 virtual false final false
  void _ctor() ;
@@ -178,8 +180,7 @@ constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionM
 /// @brief Method set_playersAtGameStartNetSerializable addr 0xdc5684 size 0x8 virtual false final false
  void set_playersAtGameStartNetSerializable(GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable value) ;
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "localPlayerSpecificSettings", ty: "GlobalNamespace::PlayerSpecificSettingsNetSerializable", modifiers: "", def_value: None }]
-explicit PlayersSpecificSettingsAtGameStartModel(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::PlayerSpecificSettingsNetSerializable localPlayerSpecificSettings) ;
+static GlobalNamespace::PlayersSpecificSettingsAtGameStartModel New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::PlayerSpecificSettingsNetSerializable localPlayerSpecificSettings) ;
 
 /// @brief Method .ctor addr 0xdc568c size 0x84 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::PlayerSpecificSettingsNetSerializable localPlayerSpecificSettings) ;

@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace RootMotion {
-class BakerTransform;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 class AnimationClip;
 }
-namespace UnityEngine {
-class Transform;
+namespace RootMotion {
+class BakerTransform;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -135,8 +135,7 @@ constexpr int32_t __get_rootChildIndex() const;
 /// @brief Method BakePosition addr 0x11a6e60 size 0xb8 virtual false final false
  bool BakePosition(UnityEngine::Transform t) ;
 
-// Ctor Parameters []
-explicit GenericBaker() ;
+static RootMotion::GenericBaker New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a797c size 0x5c virtual false final false
  void _ctor() ;

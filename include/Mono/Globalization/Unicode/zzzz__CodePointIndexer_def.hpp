@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Mono::Globalization::Unicode {
+struct Mono__Globalization__Unicode__CodePointIndexer__TableRange;
+}
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
 class CodePointIndexer;
@@ -165,8 +168,7 @@ constexpr int32_t __get_defaultCP() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "starts", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "ends", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "defaultIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "defaultCP", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CodePointIndexer(::ArrayW<int32_t> starts, ::ArrayW<int32_t> ends, int32_t defaultIndex, int32_t defaultCP) ;
+static Mono::Globalization::Unicode::CodePointIndexer New_ctor(::ArrayW<int32_t> starts, ::ArrayW<int32_t> ends, int32_t defaultIndex, int32_t defaultCP) ;
 
 /// @brief Method .ctor addr 0x22a7d24 size 0x154 virtual false final false
  void _ctor(::ArrayW<int32_t> starts, ::ArrayW<int32_t> ends, int32_t defaultIndex, int32_t defaultCP) ;

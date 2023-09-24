@@ -6,13 +6,13 @@ template<typename T>
 class List_1;
 }
 namespace System::Xml::Linq {
+class XContainer;
+}
+namespace System::Xml::Linq {
 class XObject;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
-}
-namespace System::Xml::Linq {
-class XContainer;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -81,8 +81,7 @@ constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXm
 /// @brief Method get_Container addr 0x2544940 size 0x78 virtual false final false
  System::Xml::Linq::XContainer get_Container() ;
 
-// Ctor Parameters [CppParam { name: "container", ty: "System::Xml::Linq::XContainer", modifiers: "", def_value: None }]
-explicit XContainerWrapper(System::Xml::Linq::XContainer container) ;
+static Newtonsoft::Json::Converters::XContainerWrapper New_ctor(System::Xml::Linq::XContainer container) ;
 
 /// @brief Method .ctor addr 0x25430dc size 0x6c virtual false final false
  void _ctor(System::Xml::Linq::XContainer container) ;

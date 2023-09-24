@@ -7,10 +7,13 @@ namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
+class IEntropySourceProvider;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class Org__BouncyCastle__Crypto__Prng__BasicEntropySourceProvider__BasicEntropySource;
 }
 namespace Org::BouncyCastle::Crypto {
-class IEntropySourceProvider;
+class IEntropySource;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -92,8 +95,7 @@ constexpr int32_t __get_mEntropySize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "entropySize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Prng__BasicEntropySourceProvider__BasicEntropySource(Org::BouncyCastle::Security::SecureRandom secureRandom, bool predictionResistant, int32_t entropySize) ;
+static Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__BasicEntropySourceProvider__BasicEntropySource New_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom, bool predictionResistant, int32_t entropySize) ;
 
 /// @brief Method .ctor addr 0xeb39c0 size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom secureRandom, bool predictionResistant, int32_t entropySize) ;
@@ -173,8 +175,7 @@ constexpr bool __get_mPredictionResistant() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "isPredictionResistant", ty: "bool", modifiers: "", def_value: None }]
-explicit BasicEntropySourceProvider(Org::BouncyCastle::Security::SecureRandom secureRandom, bool isPredictionResistant) ;
+static Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider New_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom, bool isPredictionResistant) ;
 
 /// @brief Method .ctor addr 0xeb3910 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom secureRandom, bool isPredictionResistant) ;

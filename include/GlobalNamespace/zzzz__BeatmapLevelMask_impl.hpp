@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapLevelMask_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapLevelMask._ctor
 template<>
 
@@ -207,8 +207,10 @@ constexpr void GlobalNamespace::BeatmapLevelMask::__set__bloomFilter(GlobalNames
 constexpr GlobalNamespace::BitMaskSparse GlobalNamespace::BeatmapLevelMask::__get__bloomFilter() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BitMaskSparse, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapLevelMask::BeatmapLevelMask()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelMask>())) {}
+ GlobalNamespace::BeatmapLevelMask GlobalNamespace::BeatmapLevelMask::New_ctor()  {
+GlobalNamespace::BeatmapLevelMask o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelMask>())};
+return o;
+}
  void GlobalNamespace::BeatmapLevelMask::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelMask>::get(),
@@ -218,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "level", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapLevelMask::BeatmapLevelMask(::StringW level)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelMask>(level))) {}
+ GlobalNamespace::BeatmapLevelMask GlobalNamespace::BeatmapLevelMask::New_ctor(::StringW level)  {
+GlobalNamespace::BeatmapLevelMask o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelMask>(level))};
+return o;
+}
  void GlobalNamespace::BeatmapLevelMask::_ctor(::StringW level)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelMask>::get(),
@@ -229,8 +233,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, level);
 }
-// Ctor Parameters [CppParam { name: "levelSet", ty: "System::Collections::Generic::HashSet_1<::StringW>", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapLevelMask::BeatmapLevelMask(System::Collections::Generic::HashSet_1<::StringW> levelSet)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelMask>(levelSet))) {}
+ GlobalNamespace::BeatmapLevelMask GlobalNamespace::BeatmapLevelMask::New_ctor(System::Collections::Generic::HashSet_1<::StringW> levelSet)  {
+GlobalNamespace::BeatmapLevelMask o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelMask>(levelSet))};
+return o;
+}
  void GlobalNamespace::BeatmapLevelMask::_ctor(System::Collections::Generic::HashSet_1<::StringW> levelSet)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelMask>::get(),

@@ -88,8 +88,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "padBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerBitString::BerBitString(::ArrayW<uint8_t> data, int32_t padBits)  : Org::BouncyCastle::Asn1::DerBitString(THROW_UNLESS(::il2cpp_utils::New<BerBitString>(data, padBits))) {}
+ Org::BouncyCastle::Asn1::BerBitString Org::BouncyCastle::Asn1::BerBitString::New_ctor(::ArrayW<uint8_t> data, int32_t padBits)  {
+Org::BouncyCastle::Asn1::BerBitString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerBitString>(data, padBits))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerBitString::_ctor(::ArrayW<uint8_t> data, int32_t padBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerBitString>::get(),
@@ -99,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data, padBits);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerBitString::BerBitString(::ArrayW<uint8_t> data)  : Org::BouncyCastle::Asn1::DerBitString(THROW_UNLESS(::il2cpp_utils::New<BerBitString>(data))) {}
+ Org::BouncyCastle::Asn1::BerBitString Org::BouncyCastle::Asn1::BerBitString::New_ctor(::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Asn1::BerBitString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerBitString>(data))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerBitString::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerBitString>::get(),
@@ -110,8 +114,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data);
 }
-// Ctor Parameters [CppParam { name: "namedBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerBitString::BerBitString(int32_t namedBits)  : Org::BouncyCastle::Asn1::DerBitString(THROW_UNLESS(::il2cpp_utils::New<BerBitString>(namedBits))) {}
+ Org::BouncyCastle::Asn1::BerBitString Org::BouncyCastle::Asn1::BerBitString::New_ctor(int32_t namedBits)  {
+Org::BouncyCastle::Asn1::BerBitString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerBitString>(namedBits))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerBitString::_ctor(int32_t namedBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerBitString>::get(),
@@ -121,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, namedBits);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerBitString::BerBitString(Org::BouncyCastle::Asn1::Asn1Encodable obj)  : Org::BouncyCastle::Asn1::DerBitString(THROW_UNLESS(::il2cpp_utils::New<BerBitString>(obj))) {}
+ Org::BouncyCastle::Asn1::BerBitString Org::BouncyCastle::Asn1::BerBitString::New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj)  {
+Org::BouncyCastle::Asn1::BerBitString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerBitString>(obj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerBitString::_ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerBitString>::get(),

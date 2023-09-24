@@ -5,10 +5,10 @@ namespace GlobalNamespace {
 class ILevelRestartController;
 }
 namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
+class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+class PrepareLevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ constexpr GlobalNamespace::PrepareLevelCompletionResults __get__prepareLevelComp
 /// @brief Method RestartLevel addr 0x20d5960 size 0x40 virtual true final true
  void RestartLevel() ;
 
-// Ctor Parameters []
-explicit StandardLevelRestartController() ;
+static GlobalNamespace::StandardLevelRestartController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d59a0 size 0x8 virtual false final false
  void _ctor() ;

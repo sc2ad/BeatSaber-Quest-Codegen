@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__StencilState_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CompareFunction_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CompareFunction_def.hpp"
 #include "UnityEngine/Rendering/zzzz__StencilOp_def.hpp"
 //  Writing Method size for method: UnityEngine::Rendering::StencilState.set_enabled
 template<>

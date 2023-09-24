@@ -1,38 +1,37 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__LobbyPlayersDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__LobbyPlayerData_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "GlobalNamespace/zzzz__LobbyPlayerData_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyPlayersDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
+#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyPlayersDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__LobbyPlayersDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c._ctor
 template<>
@@ -80,8 +79,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Lobby
  System::Func_2<GlobalNamespace::IBeatmapLevelPack,::StringW> GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c::__get___9__43_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::IBeatmapLevelPack,::StringW>, "<>9__43_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c::GlobalNamespace__LobbyPlayersDataModel____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LobbyPlayersDataModel____c>())) {}
+ GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel____c>::get(),
@@ -369,8 +370,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel___GetEnum
 constexpr System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<::StringW,GlobalNamespace::LobbyPlayerData> GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<::StringW,GlobalNamespace::LobbyPlayerData>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60::GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60 GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LobbyPlayersDataModel___GetEnumerator_d__60>::get(),
@@ -1923,8 +1926,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<GlobalNamespace::ILobbyPlayerData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LobbyPlayersDataModel::LobbyPlayersDataModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LobbyPlayersDataModel>())) {}
+ GlobalNamespace::LobbyPlayersDataModel GlobalNamespace::LobbyPlayersDataModel::New_ctor()  {
+GlobalNamespace::LobbyPlayersDataModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LobbyPlayersDataModel>())};
+return o;
+}
  void GlobalNamespace::LobbyPlayersDataModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LobbyPlayersDataModel>::get(),

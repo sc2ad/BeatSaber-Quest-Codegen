@@ -59,8 +59,7 @@ constexpr GlobalNamespace::AppInitScenesTransitionSetupDataSO __get_appInitScene
 
 // Methods
 
-// Ctor Parameters []
-explicit AppInitScenesTransitionSetupDataContainerSO() ;
+static GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21cfaf4 size 0x8 virtual false final false
  void _ctor() ;

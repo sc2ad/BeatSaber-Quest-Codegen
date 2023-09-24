@@ -7,10 +7,10 @@ namespace GlobalNamespace {
 class DnsEndPoint;
 }
 namespace GlobalNamespace {
-class INetworkConfig;
+struct ServiceEnvironment;
 }
 namespace GlobalNamespace {
-struct ServiceEnvironment;
+class INetworkConfig;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -182,8 +182,7 @@ constexpr GlobalNamespace::ServiceEnvironment __get__serviceEnvironment_k__Backi
 /// @brief Method get_serviceEnvironment addr 0xda5650 size 0x8 virtual true final true
  GlobalNamespace::ServiceEnvironment get_serviceEnvironment() ;
 
-// Ctor Parameters [CppParam { name: "fromNetworkConfig", ty: "GlobalNamespace::INetworkConfig", modifiers: "", def_value: None }, CppParam { name: "customServerHostName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "forceGameLift", ty: "bool", modifiers: "", def_value: None }]
-explicit CustomNetworkConfig(GlobalNamespace::INetworkConfig fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift) ;
+static GlobalNamespace::CustomNetworkConfig New_ctor(GlobalNamespace::INetworkConfig fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift) ;
 
 /// @brief Method .ctor addr 0xda5658 size 0x4a0 virtual false final false
  void _ctor(GlobalNamespace::INetworkConfig fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift) ;

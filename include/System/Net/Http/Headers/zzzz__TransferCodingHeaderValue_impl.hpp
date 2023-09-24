@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::TransferCodingHeaderValue._ctor
 template<>
 
@@ -192,8 +192,10 @@ constexpr void System::Net::Http::Headers::TransferCodingHeaderValue::__set_para
 constexpr System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue> System::Net::Http::Headers::TransferCodingHeaderValue::__get_parameters() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::TransferCodingHeaderValue", modifiers: "", def_value: None }]
- System::Net::Http::Headers::TransferCodingHeaderValue::TransferCodingHeaderValue(System::Net::Http::Headers::TransferCodingHeaderValue source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TransferCodingHeaderValue>(source))) {}
+ System::Net::Http::Headers::TransferCodingHeaderValue System::Net::Http::Headers::TransferCodingHeaderValue::New_ctor(System::Net::Http::Headers::TransferCodingHeaderValue source)  {
+System::Net::Http::Headers::TransferCodingHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::TransferCodingHeaderValue>(source))};
+return o;
+}
  void System::Net::Http::Headers::TransferCodingHeaderValue::_ctor(System::Net::Http::Headers::TransferCodingHeaderValue source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::TransferCodingHeaderValue>::get(),
@@ -203,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, source);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::TransferCodingHeaderValue::TransferCodingHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TransferCodingHeaderValue>())) {}
+ System::Net::Http::Headers::TransferCodingHeaderValue System::Net::Http::Headers::TransferCodingHeaderValue::New_ctor()  {
+System::Net::Http::Headers::TransferCodingHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::TransferCodingHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::TransferCodingHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::TransferCodingHeaderValue>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSemanticClassification_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRSemanticClassification.get_Labels
 template<>
 
@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRSemanticClassification::OVRSemanticClassification()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRSemanticClassification>())) {}
+ GlobalNamespace::OVRSemanticClassification GlobalNamespace::OVRSemanticClassification::New_ctor()  {
+GlobalNamespace::OVRSemanticClassification o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRSemanticClassification>())};
+return o;
+}
  void GlobalNamespace::OVRSemanticClassification::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRSemanticClassification>::get(),

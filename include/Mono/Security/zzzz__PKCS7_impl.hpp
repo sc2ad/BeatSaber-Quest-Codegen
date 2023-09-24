@@ -1,8 +1,9 @@
 #pragma once
 #include "Mono/Security/zzzz__PKCS7_def.hpp"
 #include "Mono/Security/zzzz__ASN1_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "Mono/Security/zzzz__PKCS7_def.hpp"
 //  Writing Method size for method: Mono::Security::Mono__Security__PKCS7__ContentInfo._ctor
 template<>
 
@@ -185,8 +186,10 @@ constexpr void Mono::Security::Mono__Security__PKCS7__ContentInfo::__set_content
 constexpr Mono::Security::ASN1 Mono::Security::Mono__Security__PKCS7__ContentInfo::__get_content() const {
 return ::cordl_internals::getInstanceField<Mono::Security::ASN1, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::Mono__Security__PKCS7__ContentInfo::Mono__Security__PKCS7__ContentInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__PKCS7__ContentInfo>())) {}
+ Mono::Security::Mono__Security__PKCS7__ContentInfo Mono::Security::Mono__Security__PKCS7__ContentInfo::New_ctor()  {
+Mono::Security::Mono__Security__PKCS7__ContentInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Mono__Security__PKCS7__ContentInfo>())};
+return o;
+}
  void Mono::Security::Mono__Security__PKCS7__ContentInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Mono__Security__PKCS7__ContentInfo>::get(),
@@ -196,8 +199,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }]
- Mono::Security::Mono__Security__PKCS7__ContentInfo::Mono__Security__PKCS7__ContentInfo(::StringW oid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__PKCS7__ContentInfo>(oid))) {}
+ Mono::Security::Mono__Security__PKCS7__ContentInfo Mono::Security::Mono__Security__PKCS7__ContentInfo::New_ctor(::StringW oid)  {
+Mono::Security::Mono__Security__PKCS7__ContentInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Mono__Security__PKCS7__ContentInfo>(oid))};
+return o;
+}
  void Mono::Security::Mono__Security__PKCS7__ContentInfo::_ctor(::StringW oid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Mono__Security__PKCS7__ContentInfo>::get(),
@@ -207,8 +212,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oid);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::Mono__Security__PKCS7__ContentInfo::Mono__Security__PKCS7__ContentInfo(::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__PKCS7__ContentInfo>(data))) {}
+ Mono::Security::Mono__Security__PKCS7__ContentInfo Mono::Security::Mono__Security__PKCS7__ContentInfo::New_ctor(::ArrayW<uint8_t> data)  {
+Mono::Security::Mono__Security__PKCS7__ContentInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Mono__Security__PKCS7__ContentInfo>(data))};
+return o;
+}
  void Mono::Security::Mono__Security__PKCS7__ContentInfo::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Mono__Security__PKCS7__ContentInfo>::get(),
@@ -218,8 +225,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data);
 }
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
- Mono::Security::Mono__Security__PKCS7__ContentInfo::Mono__Security__PKCS7__ContentInfo(Mono::Security::ASN1 asn1)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__PKCS7__ContentInfo>(asn1))) {}
+ Mono::Security::Mono__Security__PKCS7__ContentInfo Mono::Security::Mono__Security__PKCS7__ContentInfo::New_ctor(Mono::Security::ASN1 asn1)  {
+Mono::Security::Mono__Security__PKCS7__ContentInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Mono__Security__PKCS7__ContentInfo>(asn1))};
+return o;
+}
  void Mono::Security::Mono__Security__PKCS7__ContentInfo::_ctor(Mono::Security::ASN1 asn1)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Mono__Security__PKCS7__ContentInfo>::get(),
@@ -375,8 +384,10 @@ constexpr void Mono::Security::Mono__Security__PKCS7__EncryptedData::__set__encr
 constexpr ::ArrayW<uint8_t> Mono::Security::Mono__Security__PKCS7__EncryptedData::__get__encrypted() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::Mono__Security__PKCS7__EncryptedData::Mono__Security__PKCS7__EncryptedData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__PKCS7__EncryptedData>())) {}
+ Mono::Security::Mono__Security__PKCS7__EncryptedData Mono::Security::Mono__Security__PKCS7__EncryptedData::New_ctor()  {
+Mono::Security::Mono__Security__PKCS7__EncryptedData o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Mono__Security__PKCS7__EncryptedData>())};
+return o;
+}
  void Mono::Security::Mono__Security__PKCS7__EncryptedData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Mono__Security__PKCS7__EncryptedData>::get(),
@@ -386,8 +397,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
- Mono::Security::Mono__Security__PKCS7__EncryptedData::Mono__Security__PKCS7__EncryptedData(Mono::Security::ASN1 asn1)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__PKCS7__EncryptedData>(asn1))) {}
+ Mono::Security::Mono__Security__PKCS7__EncryptedData Mono::Security::Mono__Security__PKCS7__EncryptedData::New_ctor(Mono::Security::ASN1 asn1)  {
+Mono::Security::Mono__Security__PKCS7__EncryptedData o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Mono__Security__PKCS7__EncryptedData>(asn1))};
+return o;
+}
  void Mono::Security::Mono__Security__PKCS7__EncryptedData::_ctor(Mono::Security::ASN1 asn1)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Mono__Security__PKCS7__EncryptedData>::get(),
@@ -559,8 +572,10 @@ constexpr void Mono::Security::Mono__Security__PKCS7__SignedData::__set_mda(bool
 constexpr bool Mono::Security::Mono__Security__PKCS7__SignedData::__get_mda() const {
 return ::cordl_internals::getInstanceField<bool, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
- Mono::Security::Mono__Security__PKCS7__SignedData::Mono__Security__PKCS7__SignedData(Mono::Security::ASN1 asn1)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__PKCS7__SignedData>(asn1))) {}
+ Mono::Security::Mono__Security__PKCS7__SignedData Mono::Security::Mono__Security__PKCS7__SignedData::New_ctor(Mono::Security::ASN1 asn1)  {
+Mono::Security::Mono__Security__PKCS7__SignedData o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Mono__Security__PKCS7__SignedData>(asn1))};
+return o;
+}
  void Mono::Security::Mono__Security__PKCS7__SignedData::_ctor(Mono::Security::ASN1 asn1)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Mono__Security__PKCS7__SignedData>::get(),
@@ -833,8 +848,10 @@ constexpr void Mono::Security::Mono__Security__PKCS7__SignerInfo::__set_ski(::Ar
 constexpr ::ArrayW<uint8_t> Mono::Security::Mono__Security__PKCS7__SignerInfo::__get_ski() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::Mono__Security__PKCS7__SignerInfo::Mono__Security__PKCS7__SignerInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__PKCS7__SignerInfo>())) {}
+ Mono::Security::Mono__Security__PKCS7__SignerInfo Mono::Security::Mono__Security__PKCS7__SignerInfo::New_ctor()  {
+Mono::Security::Mono__Security__PKCS7__SignerInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Mono__Security__PKCS7__SignerInfo>())};
+return o;
+}
  void Mono::Security::Mono__Security__PKCS7__SignerInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Mono__Security__PKCS7__SignerInfo>::get(),
@@ -844,8 +861,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
- Mono::Security::Mono__Security__PKCS7__SignerInfo::Mono__Security__PKCS7__SignerInfo(Mono::Security::ASN1 asn1)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__PKCS7__SignerInfo>(asn1))) {}
+ Mono::Security::Mono__Security__PKCS7__SignerInfo Mono::Security::Mono__Security__PKCS7__SignerInfo::New_ctor(Mono::Security::ASN1 asn1)  {
+Mono::Security::Mono__Security__PKCS7__SignerInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Mono__Security__PKCS7__SignerInfo>(asn1))};
+return o;
+}
  void Mono::Security::Mono__Security__PKCS7__SignerInfo::_ctor(Mono::Security::ASN1 asn1)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Mono__Security__PKCS7__SignerInfo>::get(),

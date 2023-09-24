@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct Playable;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

@@ -2,11 +2,12 @@
 #include "System/Net/zzzz__WebReadStream_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Net/zzzz__ContentDecodeStream_def.hpp"
+#include "System/Net/zzzz__ContentDecodeStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/zzzz__WebOperation_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__ContentDecodeStream__Mode::System__Net__ContentDecodeStream__Mode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -127,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IO::Stream, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "decodeStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "originalInnerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- System::Net::ContentDecodeStream::ContentDecodeStream(System::Net::WebOperation operation, System::IO::Stream decodeStream, System::IO::Stream originalInnerStream)  : System::Net::WebReadStream(THROW_UNLESS(::il2cpp_utils::New<ContentDecodeStream>(operation, decodeStream, originalInnerStream))) {}
+ System::Net::ContentDecodeStream System::Net::ContentDecodeStream::New_ctor(System::Net::WebOperation operation, System::IO::Stream decodeStream, System::IO::Stream originalInnerStream)  {
+System::Net::ContentDecodeStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ContentDecodeStream>(operation, decodeStream, originalInnerStream))};
+return o;
+}
  void System::Net::ContentDecodeStream::_ctor(System::Net::WebOperation operation, System::IO::Stream decodeStream, System::IO::Stream originalInnerStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ContentDecodeStream>::get(),

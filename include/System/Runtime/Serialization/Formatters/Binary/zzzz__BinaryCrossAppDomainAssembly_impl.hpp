@@ -64,8 +64,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryCrossAp
 constexpr int32_t System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::__get_assemblyIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::BinaryCrossAppDomainAssembly()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryCrossAppDomainAssembly>())) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly>::get(),

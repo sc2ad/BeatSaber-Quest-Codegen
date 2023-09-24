@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__XmlLinkedNode_impl.hpp"
 #include "System/Xml/zzzz__XmlDeclaration_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 //  Writing Method size for method: System::Xml::XmlDeclaration._ctor
 template<>
 
@@ -294,8 +294,10 @@ constexpr void System::Xml::XmlDeclaration::__set_standalone(::StringW value)  {
 constexpr ::StringW System::Xml::XmlDeclaration::__get_standalone() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "standalone", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlDeclaration::XmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone, System::Xml::XmlDocument doc)  : System::Xml::XmlLinkedNode(THROW_UNLESS(::il2cpp_utils::New<XmlDeclaration>(version, encoding, standalone, doc))) {}
+ System::Xml::XmlDeclaration System::Xml::XmlDeclaration::New_ctor(::StringW version, ::StringW encoding, ::StringW standalone, System::Xml::XmlDocument doc)  {
+System::Xml::XmlDeclaration o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlDeclaration>(version, encoding, standalone, doc))};
+return o;
+}
  void System::Xml::XmlDeclaration::_ctor(::StringW version, ::StringW encoding, ::StringW standalone, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlDeclaration>::get(),

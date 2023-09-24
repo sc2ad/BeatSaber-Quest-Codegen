@@ -2,20 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__FireEffect_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class LightColorBeatmapEventData;
+namespace Tweening {
+class FloatTween;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
-namespace Tweening {
-class FloatTween;
-}
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class LightColorBeatmapEventData;
 }
 namespace Tweening {
 class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -126,8 +126,7 @@ constexpr Tweening::FloatTween __get__fadeOutTween() const;
 /// @brief Method UpdateFadeOutProgress addr 0x20ae754 size 0x194 virtual false final false
  void UpdateFadeOutProgress(float_t fadeOutProgress) ;
 
-// Ctor Parameters []
-explicit BurstFireEffect() ;
+static GlobalNamespace::BurstFireEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ae958 size 0x84 virtual false final false
  void _ctor() ;

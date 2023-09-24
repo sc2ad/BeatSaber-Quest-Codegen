@@ -4,12 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -19,6 +13,12 @@ class VectorImage;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

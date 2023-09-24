@@ -24,8 +24,10 @@ constexpr void System::Diagnostics::ConditionalAttribute::__set__ConditionString
 constexpr ::StringW System::Diagnostics::ConditionalAttribute::__get__ConditionString_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "conditionString", ty: "::StringW", modifiers: "", def_value: None }]
- System::Diagnostics::ConditionalAttribute::ConditionalAttribute(::StringW conditionString)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ConditionalAttribute>(conditionString))) {}
+ System::Diagnostics::ConditionalAttribute System::Diagnostics::ConditionalAttribute::New_ctor(::StringW conditionString)  {
+System::Diagnostics::ConditionalAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::ConditionalAttribute>(conditionString))};
+return o;
+}
  void System::Diagnostics::ConditionalAttribute::_ctor(::StringW conditionString)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::ConditionalAttribute>::get(),

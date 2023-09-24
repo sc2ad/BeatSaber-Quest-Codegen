@@ -78,8 +78,7 @@ constexpr float_t __get_translation() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventTranslationValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "translation", ty: "float_t", modifiers: "", def_value: None }]
-explicit LightTranslationBaseData(float_t beat, bool usePreviousEventTranslationValue, GlobalNamespace::EaseType easeType, float_t translation) ;
+static GlobalNamespace::LightTranslationBaseData New_ctor(float_t beat, bool usePreviousEventTranslationValue, GlobalNamespace::EaseType easeType, float_t translation) ;
 
 /// @brief Method .ctor addr 0x21d8cbc size 0x48 virtual false final false
  void _ctor(float_t beat, bool usePreviousEventTranslationValue, GlobalNamespace::EaseType easeType, float_t translation) ;

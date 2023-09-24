@@ -1,23 +1,22 @@
 #pragma once
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_impl.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
-#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
-#include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
-#include "System/Threading/zzzz__ThreadPriority_def.hpp"
-#include "System/zzzz__LocalDataStoreHolder_def.hpp"
-#include "System/Threading/zzzz__InternalThread_def.hpp"
-#include "System/Threading/zzzz__AsyncLocal_1_def.hpp"
 #include "System/Threading/zzzz__AsyncLocalValueChangedArgs_1_def.hpp"
-#include "System/Threading/zzzz__ThreadState_def.hpp"
-#include "System/Threading/zzzz__ParameterizedThreadStart_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Threading/zzzz__ThreadStart_def.hpp"
-#include "System/zzzz__LocalDataStoreMgr_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
+#include "System/Threading/zzzz__AsyncLocal_1_def.hpp"
+#include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
+#include "System/zzzz__LocalDataStoreMgr_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/Threading/zzzz__InternalThread_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Threading/zzzz__ParameterizedThreadStart_def.hpp"
+#include "System/Threading/zzzz__ThreadState_def.hpp"
+#include "System/zzzz__LocalDataStoreHolder_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
+#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
-#include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Threading/zzzz__ThreadStart_def.hpp"
+#include "System/Threading/zzzz__ThreadPriority_def.hpp"
 //  Writing Method size for method: System::Threading::Thread.AsyncLocalSetCurrentCulture
 template<>
 
@@ -1205,8 +1204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, args);
 }
-// Ctor Parameters [CppParam { name: "start", ty: "System::Threading::ThreadStart", modifiers: "", def_value: None }]
- System::Threading::Thread::Thread(System::Threading::ThreadStart start)  : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(THROW_UNLESS(::il2cpp_utils::New<Thread>(start))) {}
+ System::Threading::Thread System::Threading::Thread::New_ctor(System::Threading::ThreadStart start)  {
+System::Threading::Thread o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Thread>(start))};
+return o;
+}
  void System::Threading::Thread::_ctor(System::Threading::ThreadStart start)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Thread>::get(),
@@ -1216,8 +1217,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, start);
 }
-// Ctor Parameters [CppParam { name: "start", ty: "System::Threading::ParameterizedThreadStart", modifiers: "", def_value: None }]
- System::Threading::Thread::Thread(System::Threading::ParameterizedThreadStart start)  : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(THROW_UNLESS(::il2cpp_utils::New<Thread>(start))) {}
+ System::Threading::Thread System::Threading::Thread::New_ctor(System::Threading::ParameterizedThreadStart start)  {
+System::Threading::Thread o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Thread>(start))};
+return o;
+}
  void System::Threading::Thread::_ctor(System::Threading::ParameterizedThreadStart start)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Thread>::get(),
@@ -1227,8 +1230,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, start);
 }
-// Ctor Parameters [CppParam { name: "start", ty: "System::Threading::ParameterizedThreadStart", modifiers: "", def_value: None }, CppParam { name: "maxStackSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Threading::Thread::Thread(System::Threading::ParameterizedThreadStart start, int32_t maxStackSize)  : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(THROW_UNLESS(::il2cpp_utils::New<Thread>(start, maxStackSize))) {}
+ System::Threading::Thread System::Threading::Thread::New_ctor(System::Threading::ParameterizedThreadStart start, int32_t maxStackSize)  {
+System::Threading::Thread o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Thread>(start, maxStackSize))};
+return o;
+}
  void System::Threading::Thread::_ctor(System::Threading::ParameterizedThreadStart start, int32_t maxStackSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Thread>::get(),

@@ -55,8 +55,7 @@ constexpr explicit WebProxyScriptElement(void* ptr) noexcept : System::Configura
 
 // Methods
 
-// Ctor Parameters []
-explicit WebProxyScriptElement() ;
+static System::Net::Configuration::WebProxyScriptElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b26dc size 0x38 virtual false final false
  void _ctor() ;

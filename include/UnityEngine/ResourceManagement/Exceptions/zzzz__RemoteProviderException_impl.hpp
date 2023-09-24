@@ -78,8 +78,13 @@ constexpr void UnityEngine::ResourceManagement::Exceptions::RemoteProviderExcept
 constexpr UnityEngine::ResourceManagement::Util::UnityWebRequestResult UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::__get__WebRequestResult_k__BackingField() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::Util::UnityWebRequestResult, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: Some("csnull") }, CppParam { name: "uwrResult", ty: "UnityEngine::ResourceManagement::Util::UnityWebRequestResult", modifiers: "", def_value: Some("csnull") }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::RemoteProviderException(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, UnityEngine::ResourceManagement::Util::UnityWebRequestResult uwrResult, System::Exception innerException)  : UnityEngine::ResourceManagement::Exceptions::ProviderException(THROW_UNLESS(::il2cpp_utils::New<RemoteProviderException>(message, location, uwrResult, innerException))) {}
+/// @param location: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation (default: csnull)
+/// @param uwrResult: UnityEngine::ResourceManagement::Util::UnityWebRequestResult (default: csnull)
+/// @param innerException: System::Exception (default: csnull)
+ UnityEngine::ResourceManagement::Exceptions::RemoteProviderException UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::New_ctor(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, UnityEngine::ResourceManagement::Util::UnityWebRequestResult uwrResult, System::Exception innerException)  {
+UnityEngine::ResourceManagement::Exceptions::RemoteProviderException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Exceptions::RemoteProviderException>(message, location, uwrResult, innerException))};
+return o;
+}
 /// @param location: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation (default: csnull)
 /// @param uwrResult: UnityEngine::ResourceManagement::Util::UnityWebRequestResult (default: csnull)
 /// @param innerException: System::Exception (default: csnull)

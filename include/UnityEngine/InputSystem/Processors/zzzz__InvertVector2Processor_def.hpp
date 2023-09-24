@@ -3,11 +3,11 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {
@@ -16,7 +16,7 @@ class InvertVector2Processor;
 // Type: UnityEngine.InputSystem.Processors::InvertVector2Processor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(10184))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6668))
 // CS Name: UnityEngine.InputSystem.Processors.InvertVector2Processor
 class CORDL_TYPE InvertVector2Processor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector2> {
@@ -76,8 +76,7 @@ constexpr bool __get_invertY() const;
 /// @brief Method ToString addr 0x2966a8c size 0xa0 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit InvertVector2Processor() ;
+static UnityEngine::InputSystem::Processors::InvertVector2Processor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2966b2c size 0x50 virtual false final false
  void _ctor() ;

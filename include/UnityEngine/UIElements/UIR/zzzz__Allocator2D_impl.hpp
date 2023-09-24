@@ -2,10 +2,11 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Allocator2D_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__Allocator2D_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area._ctor
@@ -37,8 +38,10 @@ constexpr void UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Alloc
 constexpr UnityEngine::UIElements::UIR::BestFitAllocator UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area::__get_allocator() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UIR::BestFitAllocator, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rect", ty: "UnityEngine::RectInt", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area::UnityEngine__UIElements__UIR__Allocator2D__Area(UnityEngine::RectInt rect)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIR__Allocator2D__Area>(rect))) {}
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area::New_ctor(UnityEngine::RectInt rect)  {
+UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area>(rect))};
+return o;
+}
  void UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area::_ctor(UnityEngine::RectInt rect)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area>::get(),
@@ -153,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, row);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Row::UnityEngine__UIElements__UIR__Allocator2D__Row()  : UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Row>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIR__Allocator2D__Row>())) {}
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Row UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Row::New_ctor()  {
+UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Row o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Row>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Row::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Row>::get(),
@@ -351,8 +356,10 @@ constexpr void UnityEngine::UIElements::UIR::Allocator2D::__set_m_Areas(System::
 constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area> UnityEngine::UIElements::UIR::Allocator2D::__get_m_Areas() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "minSize", ty: "UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "rowHeightBias", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UIR::Allocator2D::Allocator2D(UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize, int32_t rowHeightBias)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Allocator2D>(minSize, maxSize, rowHeightBias))) {}
+ UnityEngine::UIElements::UIR::Allocator2D UnityEngine::UIElements::UIR::Allocator2D::New_ctor(UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize, int32_t rowHeightBias)  {
+UnityEngine::UIElements::UIR::Allocator2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::Allocator2D>(minSize, maxSize, rowHeightBias))};
+return o;
+}
  void UnityEngine::UIElements::UIR::Allocator2D::_ctor(UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize, int32_t rowHeightBias)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Allocator2D>::get(),

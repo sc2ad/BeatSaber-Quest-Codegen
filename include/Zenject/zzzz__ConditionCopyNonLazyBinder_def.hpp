@@ -4,16 +4,33 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class CopyNonLazyBinder;
+class Zenject__ConditionCopyNonLazyBinder____c__DisplayClass3_1;
 }
 namespace Zenject {
-class BindInfo;
+class Zenject__ConditionCopyNonLazyBinder____c__DisplayClass3_0;
+}
+namespace Zenject {
+class CopyNonLazyBinder;
 }
 namespace Zenject {
 class BindingCondition;
 }
+namespace Zenject {
+template<typename T>
+class Zenject__ConditionCopyNonLazyBinder____c__4_1;
+}
+namespace Zenject {
+class BindInfo;
+}
 namespace System {
 class Type;
+}
+namespace Zenject {
+class Zenject__ConditionCopyNonLazyBinder____c__DisplayClass2_0;
+}
+namespace Zenject {
+template<typename T>
+class Zenject__ConditionCopyNonLazyBinder____c__5_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -101,8 +118,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_instance() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConditionCopyNonLazyBinder____c__DisplayClass2_0() ;
+static Zenject::Zenject__ConditionCopyNonLazyBinder____c__DisplayClass2_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4e00c size 0x8 virtual false final false
  void _ctor() ;
@@ -171,8 +187,7 @@ constexpr ::ArrayW<System::Type> __get_targets() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConditionCopyNonLazyBinder____c__DisplayClass3_0() ;
+static Zenject::Zenject__ConditionCopyNonLazyBinder____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4e0d8 size 0x8 virtual false final false
  void _ctor() ;
@@ -241,8 +256,7 @@ constexpr Zenject::InjectContext __get_r() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConditionCopyNonLazyBinder____c__DisplayClass3_1() ;
+static Zenject::Zenject__ConditionCopyNonLazyBinder____c__DisplayClass3_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4e414 size 0x8 virtual false final false
  void _ctor() ;
@@ -316,8 +330,7 @@ constexpr explicit ConditionCopyNonLazyBinder(void* ptr) noexcept : Zenject::Cop
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit ConditionCopyNonLazyBinder(Zenject::BindInfo bindInfo) ;
+static Zenject::ConditionCopyNonLazyBinder New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d4df1c size 0x8 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;
@@ -402,8 +415,7 @@ static Zenject::BindingCondition __get___9__4_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConditionCopyNonLazyBinder____c__4_1() ;
+static Zenject::Zenject__ConditionCopyNonLazyBinder____c__4_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -480,8 +492,7 @@ static Zenject::BindingCondition __get___9__5_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConditionCopyNonLazyBinder____c__5_1() ;
+static Zenject::Zenject__ConditionCopyNonLazyBinder____c__5_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -75,8 +75,7 @@ static System::Xml::Schema::FacetsChecker __get_numeric10FacetsChecker() ;
 /// @brief Method get_TypeCode addr 0x2728670 size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_negativeInteger() ;
+static System::Xml::Schema::Datatype_negativeInteger New_ctor() ;
 
 /// @brief Method .ctor addr 0x2728678 size 0x54 virtual false final false
  void _ctor() ;

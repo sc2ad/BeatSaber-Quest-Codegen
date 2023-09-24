@@ -47,8 +47,7 @@ constexpr explicit MockPlayersModel(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Methods
 
-// Ctor Parameters []
-explicit MockPlayersModel() ;
+static GlobalNamespace::MockPlayersModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20efa04 size 0x8 virtual false final false
  void _ctor() ;

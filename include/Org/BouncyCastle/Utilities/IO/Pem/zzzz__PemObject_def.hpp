@@ -89,14 +89,12 @@ constexpr ::ArrayW<uint8_t> __get_content() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PemObject(::StringW type, ::ArrayW<uint8_t> content) ;
+static Org::BouncyCastle::Utilities::IO::Pem::PemObject New_ctor(::StringW type, ::ArrayW<uint8_t> content) ;
 
 /// @brief Method .ctor addr 0x10d38b0 size 0x78 virtual false final false
  void _ctor(::StringW type, ::ArrayW<uint8_t> content) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "headers", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PemObject(::StringW type, System::Collections::IList headers, ::ArrayW<uint8_t> content) ;
+static Org::BouncyCastle::Utilities::IO::Pem::PemObject New_ctor(::StringW type, System::Collections::IList headers, ::ArrayW<uint8_t> content) ;
 
 /// @brief Method .ctor addr 0x10d3928 size 0x8c virtual false final false
  void _ctor(::StringW type, System::Collections::IList headers, ::ArrayW<uint8_t> content) ;

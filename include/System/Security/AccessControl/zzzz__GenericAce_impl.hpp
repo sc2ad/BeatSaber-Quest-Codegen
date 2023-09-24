@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
-#include "System/Security/AccessControl/zzzz__AuditFlags_def.hpp"
-#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
-#include "System/Security/AccessControl/zzzz__AceType_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
+#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
+#include "System/Security/AccessControl/zzzz__AuditFlags_def.hpp"
+#include "System/Security/AccessControl/zzzz__AceType_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::GenericAce._ctor
 template<>
 
@@ -357,8 +357,10 @@ constexpr void System::Security::AccessControl::GenericAce::__set_ace_type(Syste
 constexpr System::Security::AccessControl::AceType System::Security::AccessControl::GenericAce::__get_ace_type() const {
 return ::cordl_internals::getInstanceField<System::Security::AccessControl::AceType, 0x11>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Security::AccessControl::AceType", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }]
- System::Security::AccessControl::GenericAce::GenericAce(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericAce>(type, flags))) {}
+ System::Security::AccessControl::GenericAce System::Security::AccessControl::GenericAce::New_ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags)  {
+System::Security::AccessControl::GenericAce o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::GenericAce>(type, flags))};
+return o;
+}
  void System::Security::AccessControl::GenericAce::_ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::GenericAce>::get(),
@@ -368,8 +370,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, flags);
 }
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::GenericAce::GenericAce(::ArrayW<uint8_t> binaryForm, int32_t offset)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericAce>(binaryForm, offset))) {}
+ System::Security::AccessControl::GenericAce System::Security::AccessControl::GenericAce::New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
+System::Security::AccessControl::GenericAce o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::GenericAce>(binaryForm, offset))};
+return o;
+}
  void System::Security::AccessControl::GenericAce::_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::GenericAce>::get(),

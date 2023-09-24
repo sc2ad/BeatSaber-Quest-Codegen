@@ -62,8 +62,7 @@ constexpr UnityEngine::MonoBehaviour __get__component() const;
 /// @brief Method Awake addr 0x2115aec size 0x20 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit DisableComponentOnNonSteam() ;
+static GlobalNamespace::DisableComponentOnNonSteam New_ctor() ;
 
 /// @brief Method .ctor addr 0x2115b0c size 0x8 virtual false final false
  void _ctor() ;

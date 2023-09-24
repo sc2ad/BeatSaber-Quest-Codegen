@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureTest_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureTest_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -161,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRMixedRealityCaptureTest::OVRMixedRealityCaptureTest()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRMixedRealityCaptureTest>())) {}
+ GlobalNamespace::OVRMixedRealityCaptureTest GlobalNamespace::OVRMixedRealityCaptureTest::New_ctor()  {
+GlobalNamespace::OVRMixedRealityCaptureTest o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRMixedRealityCaptureTest>())};
+return o;
+}
  void GlobalNamespace::OVRMixedRealityCaptureTest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRMixedRealityCaptureTest>::get(),

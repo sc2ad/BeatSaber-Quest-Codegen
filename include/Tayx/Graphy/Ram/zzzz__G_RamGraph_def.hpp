@@ -7,17 +7,17 @@
 namespace UnityEngine {
 class Shader;
 }
-namespace Tayx::Graphy::Ram {
-class G_RamMonitor;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace Tayx::Graphy {
 class G_GraphShader;
 }
+namespace Tayx::Graphy::Ram {
+class G_RamMonitor;
+}
 namespace Tayx::Graphy {
 class GraphyManager;
-}
-namespace UnityEngine::UI {
-class Image;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Ram {
@@ -179,8 +179,7 @@ constexpr float_t __get_m_highestMemory() const;
 /// @brief Method Init addr 0x28744e0 size 0x124 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit G_RamGraph() ;
+static Tayx::Graphy::Ram::G_RamGraph New_ctor() ;
 
 /// @brief Method .ctor addr 0x28748f0 size 0x10 virtual false final false
  void _ctor() ;

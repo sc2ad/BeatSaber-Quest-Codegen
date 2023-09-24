@@ -5,15 +5,21 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UI::CoroutineTween {
+struct UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenMode;
+}
+namespace UnityEngine::UI::CoroutineTween {
+class UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback;
+}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::UI::CoroutineTween {
+class ITweenValue;
 }
 namespace UnityEngine::Events {
 template<typename T0>
 class UnityAction_1;
-}
-namespace UnityEngine::UI::CoroutineTween {
-class ITweenValue;
 }
 // Forward declare root types
 namespace UnityEngine::UI::CoroutineTween {
@@ -75,6 +81,8 @@ __Alpha = 2,
 constexpr operator __UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -140,8 +148,7 @@ constexpr explicit UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallba
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback() ;
+static UnityEngine::UI::CoroutineTween::UnityEngine__UI__CoroutineTween__ColorTween__ColorTweenCallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c19030 size 0x48 virtual false final false
  void _ctor() ;

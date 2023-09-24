@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Attribute;
+namespace System::ComponentModel {
+class ISite;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System {
-class Type;
+class Attribute;
 }
 namespace System::ComponentModel {
 class AttributeCollection;
@@ -19,8 +19,8 @@ class AttributeCollection;
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System::ComponentModel {
-class ISite;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -156,14 +156,12 @@ constexpr ::bs_hook::Il2CppWrapperType __get_lockCookie() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit MemberDescriptor(::StringW name, ::ArrayW<System::Attribute> attributes) ;
+static System::ComponentModel::MemberDescriptor New_ctor(::StringW name, ::ArrayW<System::Attribute> attributes) ;
 
 /// @brief Method .ctor addr 0x278a6fc size 0x1a4 virtual false final false
  void _ctor(::StringW name, ::ArrayW<System::Attribute> attributes) ;
 
-// Ctor Parameters [CppParam { name: "oldMemberDescriptor", ty: "System::ComponentModel::MemberDescriptor", modifiers: "", def_value: None }, CppParam { name: "newAttributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit MemberDescriptor(System::ComponentModel::MemberDescriptor oldMemberDescriptor, ::ArrayW<System::Attribute> newAttributes) ;
+static System::ComponentModel::MemberDescriptor New_ctor(System::ComponentModel::MemberDescriptor oldMemberDescriptor, ::ArrayW<System::Attribute> newAttributes) ;
 
 /// @brief Method .ctor addr 0x278a8a0 size 0x428 virtual false final false
  void _ctor(System::ComponentModel::MemberDescriptor oldMemberDescriptor, ::ArrayW<System::Attribute> newAttributes) ;

@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImageVertex_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GradientSettings_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/UIElements/zzzz__GradientSettings_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::VectorImage._ctor
 template<>
 
@@ -52,8 +52,10 @@ constexpr void UnityEngine::UIElements::VectorImage::__set_size(UnityEngine::Vec
 constexpr UnityEngine::Vector2 UnityEngine::UIElements::VectorImage::__get_size() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector2, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::VectorImage::VectorImage()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<VectorImage>())) {}
+ UnityEngine::UIElements::VectorImage UnityEngine::UIElements::VectorImage::New_ctor()  {
+UnityEngine::UIElements::VectorImage o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VectorImage>())};
+return o;
+}
  void UnityEngine::UIElements::VectorImage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VectorImage>::get(),

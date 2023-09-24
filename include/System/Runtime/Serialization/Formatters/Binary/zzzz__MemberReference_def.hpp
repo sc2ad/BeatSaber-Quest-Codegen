@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+class __BinaryWriter;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -63,8 +63,7 @@ constexpr int32_t __get_idRef() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MemberReference() ;
+static System::Runtime::Serialization::Formatters::Binary::MemberReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x2357130 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,8 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace MS::Internal::Xml::Cache {
-struct XPathNode;
+namespace System::Xml::XPath {
+struct XPathNodeType;
 }
 namespace System::Xml {
 class XmlNameTable;
@@ -14,11 +14,11 @@ class XmlNameTable;
 namespace System::Xml::XPath {
 class XPathNavigator;
 }
-namespace System::Xml::XPath {
-struct XPathNamespaceScope;
+namespace MS::Internal::Xml::Cache {
+struct XPathNode;
 }
 namespace System::Xml::XPath {
-struct XPathNodeType;
+struct XPathNamespaceScope;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::Cache {
@@ -110,8 +110,7 @@ constexpr int32_t __get__idxParent() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pageCurrent", ty: "::ArrayW<MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "idxCurrent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageParent", ty: "::ArrayW<MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "idxParent", ty: "int32_t", modifiers: "", def_value: None }]
-explicit XPathDocumentNavigator(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageCurrent, int32_t idxCurrent, ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageParent, int32_t idxParent) ;
+static MS::Internal::Xml::Cache::XPathDocumentNavigator New_ctor(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageCurrent, int32_t idxCurrent, ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageParent, int32_t idxParent) ;
 
 /// @brief Method .ctor addr 0x27571d0 size 0x84 virtual false final false
  void _ctor(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageCurrent, int32_t idxCurrent, ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageParent, int32_t idxParent) ;

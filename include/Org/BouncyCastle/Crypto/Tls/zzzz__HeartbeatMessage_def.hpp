@@ -7,6 +7,9 @@
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
+namespace Org::BouncyCastle::Crypto::Tls {
+class Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer;
+}
 namespace System::IO {
 class Stream;
 }
@@ -62,8 +65,7 @@ constexpr explicit Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuff
 /// @brief Method ToTruncatedByteArray addr 0xf04c70 size 0xa8 virtual false final false
  ::ArrayW<uint8_t> ToTruncatedByteArray(int32_t payloadLength) ;
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer() ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__HeartbeatMessage__PayloadBuffer New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04c68 size 0x8 virtual false final false
  void _ctor() ;
@@ -137,8 +139,7 @@ constexpr int32_t __get_mPaddingLength() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "payload", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "paddingLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HeartbeatMessage(uint8_t type, ::ArrayW<uint8_t> payload, int32_t paddingLength) ;
+static Org::BouncyCastle::Crypto::Tls::HeartbeatMessage New_ctor(uint8_t type, ::ArrayW<uint8_t> payload, int32_t paddingLength) ;
 
 /// @brief Method .ctor addr 0xf04760 size 0x130 virtual false final false
  void _ctor(uint8_t type, ::ArrayW<uint8_t> payload, int32_t paddingLength) ;

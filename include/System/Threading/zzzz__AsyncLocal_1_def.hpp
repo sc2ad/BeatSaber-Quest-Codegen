@@ -4,13 +4,13 @@
 namespace System::Threading {
 class IAsyncLocal;
 }
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace System::Threading {
 template<typename T>
 struct AsyncLocalValueChangedArgs_1;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -83,8 +83,7 @@ constexpr System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>> _
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "valueChangedHandler", ty: "System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>", modifiers: "", def_value: None }]
-explicit AsyncLocal_1(System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>> valueChangedHandler) ;
+static System::Threading::AsyncLocal_1<T> New_ctor(System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>> valueChangedHandler) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>> valueChangedHandler) ;

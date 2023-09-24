@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
-#include "System/Xml/Schema/zzzz__Position_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Xml/Schema/zzzz__Position_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::Positions.Add
 template<>
 
@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::Positions::Positions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Positions>())) {}
+ System::Xml::Schema::Positions System::Xml::Schema::Positions::New_ctor()  {
+System::Xml::Schema::Positions o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Positions>())};
+return o;
+}
  void System::Xml::Schema::Positions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Positions>::get(),

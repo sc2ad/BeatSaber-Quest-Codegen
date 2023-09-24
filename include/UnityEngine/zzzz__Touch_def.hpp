@@ -4,10 +4,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct TouchType;
+struct TouchPhase;
 }
 namespace UnityEngine {
-struct TouchPhase;
+struct TouchType;
 }
 namespace UnityEngine {
 struct Vector2;

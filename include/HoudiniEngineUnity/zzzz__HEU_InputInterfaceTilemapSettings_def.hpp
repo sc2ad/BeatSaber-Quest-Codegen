@@ -74,8 +74,7 @@ constexpr bool __get__applyTilemapOrientation() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_InputInterfaceTilemapSettings() ;
+static HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2059cf0 size 0x10 virtual false final false
  void _ctor() ;

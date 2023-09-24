@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class MissionNode;
-}
-namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
 class CampaignProgressModel;
+}
+namespace GlobalNamespace {
+class MissionNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ constexpr GlobalNamespace::CampaignProgressModel __get__missionProgressModel() c
 
 // Methods
 
-// Ctor Parameters []
-explicit MissionNodeGizmos() ;
+static GlobalNamespace::MissionNodeGizmos New_ctor() ;
 
 /// @brief Method .ctor addr 0x2149138 size 0x8 virtual false final false
  void _ctor() ;

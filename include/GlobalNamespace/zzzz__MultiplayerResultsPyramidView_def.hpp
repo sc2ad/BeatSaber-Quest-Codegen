@@ -4,24 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsPyramidViewAvatar;
+class GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
@@ -29,9 +27,11 @@ class MultiplayerPlayerResultsData;
 namespace GlobalNamespace {
 class MultiplayerOffsetPositionByLocalPlayerPosition;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+namespace GlobalNamespace {
+class MultiplayerResultsPyramidViewAvatar;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -155,8 +155,7 @@ constexpr GlobalNamespace::MultiplayerResultsPyramidViewAvatar __get__anyResults
 /// @brief Method SetupResults addr 0x20fe17c size 0x614 virtual false final false
  void SetupResults(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> resultsData, UnityEngine::Transform badgeStartTransform, UnityEngine::Transform badgeMidTransform) ;
 
-// Ctor Parameters []
-explicit MultiplayerResultsPyramidView() ;
+static GlobalNamespace::MultiplayerResultsPyramidView New_ctor() ;
 
 /// @brief Method .ctor addr 0x21013c0 size 0x84 virtual false final false
  void _ctor() ;

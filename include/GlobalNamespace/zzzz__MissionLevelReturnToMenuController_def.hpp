@@ -5,13 +5,13 @@ namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
 }
 namespace GlobalNamespace {
+class IReturnToMenuController;
+}
+namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class IReturnToMenuController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr GlobalNamespace::MissionObjectiveCheckersManager __get__missionObjecti
 /// @brief Method ReturnToMenu addr 0x20d44ec size 0xb0 virtual true final true
  void ReturnToMenu() ;
 
-// Ctor Parameters []
-explicit MissionLevelReturnToMenuController() ;
+static GlobalNamespace::MissionLevelReturnToMenuController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d459c size 0x8 virtual false final false
  void _ctor() ;

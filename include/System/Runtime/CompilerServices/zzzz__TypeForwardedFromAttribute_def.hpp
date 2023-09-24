@@ -62,8 +62,7 @@ constexpr ::StringW __get__AssemblyFullName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "assemblyFullName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TypeForwardedFromAttribute(::StringW assemblyFullName) ;
+static System::Runtime::CompilerServices::TypeForwardedFromAttribute New_ctor(::StringW assemblyFullName) ;
 
 /// @brief Method .ctor addr 0x236e450 size 0x84 virtual false final false
  void _ctor(::StringW assemblyFullName) ;

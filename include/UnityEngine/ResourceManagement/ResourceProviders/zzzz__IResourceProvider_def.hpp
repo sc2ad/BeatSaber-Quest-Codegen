@@ -5,14 +5,14 @@
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProviderBehaviourFlags;
 }
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
 }
 namespace System {
 class Type;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

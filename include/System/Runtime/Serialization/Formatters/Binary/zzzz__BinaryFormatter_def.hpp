@@ -2,42 +2,42 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::Runtime::Serialization::Formatters {
-struct TypeFilterLevel;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class IFormatter;
-}
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterAssemblyStyle;
 }
 namespace System::Runtime::Remoting::Messaging {
 class HeaderHandler;
 }
-namespace System::Runtime::Serialization {
-class SerializationBinder;
-}
 namespace System::Runtime::Serialization::Formatters {
-struct FormatterTypeStyle;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class TypeInformation;
-}
-namespace System::Runtime::Remoting::Messaging {
-class Header;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System {
-class Type;
+struct FormatterAssemblyStyle;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace System::Runtime::Remoting::Messaging {
+class Header;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct TypeFilterLevel;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class TypeInformation;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
+}
+namespace System::Runtime::Serialization {
+class IFormatter;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterTypeStyle;
+}
+namespace System::Runtime::Serialization {
+class SerializationBinder;
 }
 namespace System::IO {
 class Stream;
@@ -160,14 +160,12 @@ static System::Collections::Generic::Dictionary_2<System::Type,System::Runtime::
 /// @brief Method set_Binder addr 0x2359ba4 size 0x8 virtual true final true
  void set_Binder(System::Runtime::Serialization::SerializationBinder value) ;
 
-// Ctor Parameters []
-explicit BinaryFormatter() ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryFormatter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2359bac size 0x34 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "selector", ty: "System::Runtime::Serialization::ISurrogateSelector", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit BinaryFormatter(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryFormatter New_ctor(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2359be0 size 0x4c virtual false final false
  void _ctor(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context) ;

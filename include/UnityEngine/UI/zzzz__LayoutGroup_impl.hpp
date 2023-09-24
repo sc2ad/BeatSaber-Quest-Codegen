@@ -1,18 +1,19 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/UI/zzzz__LayoutGroup_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
-#include "UnityEngine/zzzz__TextAnchor_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__RectOffset_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/UI/zzzz__LayoutGroup_def.hpp"
+#include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutController_def.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_def.hpp"
 #include "UnityEngine/UI/zzzz__ILayoutGroup_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutController_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56._ctor
 template<>
 
@@ -145,8 +146,10 @@ constexpr void UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d
 constexpr UnityEngine::RectTransform UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56::__get_rectTransform() const {
 return ::cordl_internals::getInstanceField<UnityEngine::RectTransform, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56>(__1__state))) {}
+ UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56 UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56::New_ctor(int32_t __1__state)  {
+UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56>(__1__state))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56>::get(),
@@ -1026,8 +1029,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UI::LayoutGroup::LayoutGroup()  : UnityEngine::EventSystems::UIBehaviour(THROW_UNLESS(::il2cpp_utils::New<LayoutGroup>())) {}
+ UnityEngine::UI::LayoutGroup UnityEngine::UI::LayoutGroup::New_ctor()  {
+UnityEngine::UI::LayoutGroup o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::LayoutGroup>())};
+return o;
+}
  void UnityEngine::UI::LayoutGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::LayoutGroup>::get(),

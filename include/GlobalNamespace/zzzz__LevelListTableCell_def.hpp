@@ -5,48 +5,54 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-class AdditionalContentModel;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace HMUI {
 struct HMUI__SelectableCell__TransitionType;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class AdditionalContentModel;
 }
-namespace System::Threading {
-class CancellationTokenSource;
+namespace GlobalNamespace {
+struct GlobalNamespace__LevelListTableCell___RefreshAvailabilityAsync_d__24;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace UnityEngine {
+class GameObject;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LevelListTableCell___SetDataFromLevelAsync_d__19;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace UnityEngine {
 class Sprite;
@@ -459,8 +465,7 @@ constexpr ::StringW __get__settingDataFromLevelId() const;
 /// @brief Method CancelAsyncOperations addr 0x21254bc size 0x38 virtual false final false
  void CancelAsyncOperations() ;
 
-// Ctor Parameters []
-explicit LevelListTableCell() ;
+static GlobalNamespace::LevelListTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x212559c size 0x10 virtual false final false
  void _ctor() ;

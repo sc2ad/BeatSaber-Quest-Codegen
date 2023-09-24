@@ -107,8 +107,7 @@ constexpr int32_t __get_Index() const;
 /// @brief Method set_Edges addr 0x29a1d64 size 0x8 virtual false final false
  void set_Edges(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint> value) ;
 
-// Ctor Parameters [CppParam { name: "x", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TriangulationPoint(double_t x, double_t y, int32_t index) ;
+static UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint New_ctor(double_t x, double_t y, int32_t index) ;
 
 /// @brief Method .ctor addr 0x299b828 size 0x3c virtual false final false
  void _ctor(double_t x, double_t y, int32_t index) ;

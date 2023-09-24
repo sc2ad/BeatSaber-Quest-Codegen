@@ -75,14 +75,12 @@ constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_publicKeyParamSet()
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters", modifiers: "", def_value: None }]
-explicit Gost3410KeyParameters(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters parameters) ;
 
 /// @brief Method .ctor addr 0xea8e5c size 0x30 virtual false final false
  void _ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit Gost3410KeyParameters(bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+static Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters New_ctor(bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
 /// @brief Method .ctor addr 0xea8e8c size 0x38 virtual false final false
  void _ctor(bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;

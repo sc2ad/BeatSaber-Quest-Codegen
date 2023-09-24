@@ -105,8 +105,7 @@ constexpr UnityEngine::SubsystemsImplementation::SubsystemProvider __get__provid
 /// @brief Method get_providerBase addr 0x2ba43f8 size 0x8 virtual false final false
  UnityEngine::SubsystemsImplementation::SubsystemProvider get_providerBase() ;
 
-// Ctor Parameters []
-explicit SubsystemWithProvider() ;
+static UnityEngine::SubsystemsImplementation::SubsystemWithProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba4400 size 0x8 virtual false final false
  void _ctor() ;

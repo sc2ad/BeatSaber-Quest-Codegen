@@ -2,52 +2,49 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventStream_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputSettings_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__TypeTable_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateBuffers_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceFindControlLayoutDelegate_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputMetrics_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlLayoutChange_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputMetrics_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceExecuteCommandDelegate_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventBuffer_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateBlock_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateBuffers_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommandDelegate_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputRuntime_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateBuffers_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__TypeTable_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceFindControlLayoutDelegate_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommandDelegate_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateBlock_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputRuntime_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputSettings_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__DynamicBitfield_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__MemoryHelpers_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__DynamicBitfield_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager__DeviceDisableScope::UnityEngine__InputSystem__InputManager__DeviceDisableScope(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -694,8 +691,10 @@ constexpr void UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager_
 constexpr System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<UnityEngine::InputSystem::Utilities::InternedString,System::Func_1<UnityEngine::InputSystem::Layouts::InputControlLayout>> UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75::__get___7__wrap4() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<UnityEngine::InputSystem::Utilities::InternedString,System::Func_1<UnityEngine::InputSystem::Layouts::InputControlLayout>>, 0xb0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75::UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75>(__1__state))) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75 UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75::New_ctor(int32_t __1__state)  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75>(__1__state))};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75>::get(),
@@ -868,8 +867,10 @@ return ::cordl_internals::getStaticField<UnityEngine::InputSystem::UnityEngine__
  System::Func_2<UnityEngine::InputSystem::InputDevice,::StringW> UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c::__get___9__144_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::InputDevice,::StringW>, "<>9__144_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c::UnityEngine__InputSystem__InputManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputManager____c>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c>::get(),
@@ -4262,8 +4263,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::InputManager::InputManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputManager>())) {}
+ UnityEngine::InputSystem::InputManager UnityEngine::InputSystem::InputManager::New_ctor()  {
+UnityEngine::InputSystem::InputManager o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::InputManager>())};
+return o;
+}
  void UnityEngine::InputSystem::InputManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::InputManager>::get(),
@@ -4282,66 +4285,34 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method, commandRef);
 }
-//  Writing Method size for method: UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::*)()>(&UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1._RegisterPrecompiledLayout_b__60_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::InputSystem::InputDevice (UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::*)()>(&UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::_RegisterPrecompiledLayout_b__60_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1>::get(),
-                            "<RegisterPrecompiledLayout>b__60_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
- void UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::__set___9(UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice> value)  {
-::cordl_internals::setStaticField<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1>::get>(std::forward<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>>(value));
+ void UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>::__set___9(UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice> value)  {
+::cordl_internals::setStaticField<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>>::get>(std::forward<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>>(value));
 }
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice> UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::__get___9()  {
-return ::cordl_internals::getStaticField<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1>::get>();
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice> UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>::__get___9()  {
+return ::cordl_internals::getStaticField<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>>::get>();
 }
- void UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::__set___9__60_0(System::Func_1<UnityEngine::InputSystem::InputDevice> value)  {
-::cordl_internals::setStaticField<System::Func_1<UnityEngine::InputSystem::InputDevice>, "<>9__60_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1>::get>(std::forward<System::Func_1<UnityEngine::InputSystem::InputDevice>>(value));
+ void UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>::__set___9__60_0(System::Func_1<UnityEngine::InputSystem::InputDevice> value)  {
+::cordl_internals::setStaticField<System::Func_1<UnityEngine::InputSystem::InputDevice>, "<>9__60_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>>::get>(std::forward<System::Func_1<UnityEngine::InputSystem::InputDevice>>(value));
 }
- System::Func_1<UnityEngine::InputSystem::InputDevice> UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::__get___9__60_0()  {
-return ::cordl_internals::getStaticField<System::Func_1<UnityEngine::InputSystem::InputDevice>, "<>9__60_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1>::get>();
+ System::Func_1<UnityEngine::InputSystem::InputDevice> UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>::__get___9__60_0()  {
+return ::cordl_internals::getStaticField<System::Func_1<UnityEngine::InputSystem::InputDevice>, "<>9__60_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::UnityEngine__InputSystem__InputManager____c__60_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputManager____c__60_1>())) {}
- void UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::_ctor()  {
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice> UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>>())};
+return o;
+}
+ void UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- UnityEngine::InputSystem::InputDevice UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1::_RegisterPrecompiledLayout_b__60_0()  {
+ UnityEngine::InputSystem::InputDevice UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>::_RegisterPrecompiledLayout_b__60_0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice>>::get(),
                             "<RegisterPrecompiledLayout>b__60_0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

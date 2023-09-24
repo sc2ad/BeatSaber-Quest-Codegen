@@ -75,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-// Ctor Parameters []
- GlobalNamespace::TestFlowCoordinator::TestFlowCoordinator()  : HMUI::FlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<TestFlowCoordinator>())) {}
+ GlobalNamespace::TestFlowCoordinator GlobalNamespace::TestFlowCoordinator::New_ctor()  {
+GlobalNamespace::TestFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TestFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::TestFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TestFlowCoordinator>::get(),

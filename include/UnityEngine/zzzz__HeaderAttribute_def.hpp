@@ -57,8 +57,7 @@ constexpr ::StringW __get_header() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "header", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HeaderAttribute(::StringW header) ;
+static UnityEngine::HeaderAttribute New_ctor(::StringW header) ;
 
 /// @brief Method .ctor addr 0x2b54e7c size 0x28 virtual false final false
  void _ctor(::StringW header) ;

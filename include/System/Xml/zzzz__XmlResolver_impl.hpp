@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/zzzz__XmlResolver_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 //  Writing Method size for method: System::Xml::XmlResolver.GetEntity
 template<>
 
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType>, false>(const_cast<void*>(instance), ___internal_method, absoluteUri, role, ofObjectToReturn);
 }
-// Ctor Parameters []
- System::Xml::XmlResolver::XmlResolver()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlResolver>())) {}
+ System::Xml::XmlResolver System::Xml::XmlResolver::New_ctor()  {
+System::Xml::XmlResolver o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlResolver>())};
+return o;
+}
  void System::Xml::XmlResolver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlResolver>::get(),

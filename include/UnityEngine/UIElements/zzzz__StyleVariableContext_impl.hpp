@@ -172,8 +172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleVariableContext::StyleVariableContext()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StyleVariableContext>())) {}
+ UnityEngine::UIElements::StyleVariableContext UnityEngine::UIElements::StyleVariableContext::New_ctor()  {
+UnityEngine::UIElements::StyleVariableContext o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleVariableContext>())};
+return o;
+}
  void UnityEngine::UIElements::StyleVariableContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleVariableContext>::get(),
@@ -183,8 +185,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "UnityEngine::UIElements::StyleVariableContext", modifiers: "", def_value: None }]
- UnityEngine::UIElements::StyleVariableContext::StyleVariableContext(UnityEngine::UIElements::StyleVariableContext other)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StyleVariableContext>(other))) {}
+ UnityEngine::UIElements::StyleVariableContext UnityEngine::UIElements::StyleVariableContext::New_ctor(UnityEngine::UIElements::StyleVariableContext other)  {
+UnityEngine::UIElements::StyleVariableContext o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleVariableContext>(other))};
+return o;
+}
  void UnityEngine::UIElements::StyleVariableContext::_ctor(UnityEngine::UIElements::StyleVariableContext other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleVariableContext>::get(),

@@ -6,21 +6,21 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
 namespace UnityEngine {
 struct Ray;
 }
 namespace System {
-class IFormattable;
+template<typename T>
+class IEquatable_1;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace System {
 class IFormatProvider;
+}
+namespace System {
+class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {

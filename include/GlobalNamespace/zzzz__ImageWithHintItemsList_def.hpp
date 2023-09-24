@@ -48,8 +48,7 @@ constexpr explicit ImageWithHintItemsList(void* ptr) noexcept : HMUI::UIItemsLis
 
 // Methods
 
-// Ctor Parameters []
-explicit ImageWithHintItemsList() ;
+static GlobalNamespace::ImageWithHintItemsList New_ctor() ;
 
 /// @brief Method .ctor addr 0x2124e58 size 0x48 virtual false final false
  void _ctor() ;

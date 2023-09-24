@@ -10,7 +10,7 @@ class MatchmakingEnqueuedUserList;
 // Type: Oculus.Platform.Models::MatchmakingEnqueuedUserList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13441)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1142 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1142 }), TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13441))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13442))
 // CS Name: Oculus.Platform.Models.MatchmakingEnqueuedUserList
 class CORDL_TYPE MatchmakingEnqueuedUserList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::MatchmakingEnqueuedUser> {
@@ -49,8 +49,7 @@ constexpr explicit MatchmakingEnqueuedUserList(void* ptr) noexcept : Oculus::Pla
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MatchmakingEnqueuedUserList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::MatchmakingEnqueuedUserList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x25a0b4c size 0x23c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

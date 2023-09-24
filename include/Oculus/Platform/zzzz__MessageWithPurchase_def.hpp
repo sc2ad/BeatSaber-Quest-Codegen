@@ -13,7 +13,7 @@ class MessageWithPurchase;
 // Type: Oculus.Platform::MessageWithPurchase
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 1147 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13465))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 1147 }), TypeDefinitionIndex(TypeDefinitionIndex(13465))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13269))
 // CS Name: Oculus.Platform.MessageWithPurchase
 class CORDL_TYPE MessageWithPurchase : public Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithPurchase(void* ptr) noexcept : Oculus::Platform::M
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithPurchase(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithPurchase New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257eed0 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

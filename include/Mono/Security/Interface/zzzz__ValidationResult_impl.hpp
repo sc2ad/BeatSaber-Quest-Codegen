@@ -77,8 +77,10 @@ constexpr void Mono::Security::Interface::ValidationResult::__set_policy_errors(
 constexpr System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> Mono::Security::Interface::ValidationResult::__get_policy_errors() const {
 return ::cordl_internals::getInstanceField<System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "trusted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "user_denied", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "error_code", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "policy_errors", ty: "System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>", modifiers: "", def_value: None }]
- Mono::Security::Interface::ValidationResult::ValidationResult(bool trusted, bool user_denied, int32_t error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ValidationResult>(trusted, user_denied, error_code, policy_errors))) {}
+ Mono::Security::Interface::ValidationResult Mono::Security::Interface::ValidationResult::New_ctor(bool trusted, bool user_denied, int32_t error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors)  {
+Mono::Security::Interface::ValidationResult o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Interface::ValidationResult>(trusted, user_denied, error_code, policy_errors))};
+return o;
+}
  void Mono::Security::Interface::ValidationResult::_ctor(bool trusted, bool user_denied, int32_t error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Interface::ValidationResult>::get(),

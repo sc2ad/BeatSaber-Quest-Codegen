@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__GenericAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__KnownAce_def.hpp"
-#include "System/Security/AccessControl/zzzz__AceType_def.hpp"
-#include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
+#include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
+#include "System/Security/AccessControl/zzzz__AceType_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::KnownAce._ctor
 template<>
 
@@ -118,8 +118,10 @@ constexpr void System::Security::AccessControl::KnownAce::__set_identifier(Syste
 constexpr System::Security::Principal::SecurityIdentifier System::Security::AccessControl::KnownAce::__get_identifier() const {
 return ::cordl_internals::getInstanceField<System::Security::Principal::SecurityIdentifier, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Security::AccessControl::AceType", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }]
- System::Security::AccessControl::KnownAce::KnownAce(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags)  : System::Security::AccessControl::GenericAce(THROW_UNLESS(::il2cpp_utils::New<KnownAce>(type, flags))) {}
+ System::Security::AccessControl::KnownAce System::Security::AccessControl::KnownAce::New_ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags)  {
+System::Security::AccessControl::KnownAce o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::KnownAce>(type, flags))};
+return o;
+}
  void System::Security::AccessControl::KnownAce::_ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::KnownAce>::get(),
@@ -129,8 +131,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, flags);
 }
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::KnownAce::KnownAce(::ArrayW<uint8_t> binaryForm, int32_t offset)  : System::Security::AccessControl::GenericAce(THROW_UNLESS(::il2cpp_utils::New<KnownAce>(binaryForm, offset))) {}
+ System::Security::AccessControl::KnownAce System::Security::AccessControl::KnownAce::New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
+System::Security::AccessControl::KnownAce o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::KnownAce>(binaryForm, offset))};
+return o;
+}
  void System::Security::AccessControl::KnownAce::_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::KnownAce>::get(),

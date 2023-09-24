@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Mirror_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: GlobalNamespace::Mirror.get_mirrorMaterial
 template<>
 
@@ -298,8 +298,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newIsEnabled);
 }
-// Ctor Parameters []
- GlobalNamespace::Mirror::Mirror()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Mirror>())) {}
+ GlobalNamespace::Mirror GlobalNamespace::Mirror::New_ctor()  {
+GlobalNamespace::Mirror o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Mirror>())};
+return o;
+}
  void GlobalNamespace::Mirror::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Mirror>::get(),

@@ -125,8 +125,7 @@ constexpr int64_t __get_m_MaximumCacheSize() const;
 /// @brief Method set_MaximumCacheSize addr 0x289efe0 size 0x8 virtual false final false
  void set_MaximumCacheSize(int64_t value) ;
 
-// Ctor Parameters []
-explicit CacheInitializationData() ;
+static UnityEngine::AddressableAssets::Initialization::CacheInitializationData New_ctor() ;
 
 /// @brief Method .ctor addr 0x289efe8 size 0x6c virtual false final false
  void _ctor() ;

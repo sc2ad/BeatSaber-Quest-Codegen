@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__DeclareSignalAsyncTickPriorityCopyBinder_def.hpp"
 namespace Zenject {
-class SignalDeclarationBindInfo;
+class DeclareSignalAsyncTickPriorityCopyBinder;
 }
 namespace Zenject {
-class DeclareSignalAsyncTickPriorityCopyBinder;
+class SignalDeclarationBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -53,8 +53,7 @@ constexpr explicit DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "Zenject::SignalDeclarationBindInfo", modifiers: "", def_value: None }]
-explicit DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder(Zenject::SignalDeclarationBindInfo signalBindInfo) ;
+static Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder New_ctor(Zenject::SignalDeclarationBindInfo signalBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d48e74 size 0x24 virtual false final false
  void _ctor(Zenject::SignalDeclarationBindInfo signalBindInfo) ;

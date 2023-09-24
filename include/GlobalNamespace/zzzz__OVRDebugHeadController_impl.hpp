@@ -151,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRDebugHeadController::OVRDebugHeadController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRDebugHeadController>())) {}
+ GlobalNamespace::OVRDebugHeadController GlobalNamespace::OVRDebugHeadController::New_ctor()  {
+GlobalNamespace::OVRDebugHeadController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRDebugHeadController>())};
+return o;
+}
  void GlobalNamespace::OVRDebugHeadController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRDebugHeadController>::get(),

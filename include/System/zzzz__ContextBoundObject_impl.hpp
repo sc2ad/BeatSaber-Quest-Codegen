@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::ContextBoundObject::ContextBoundObject()  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<ContextBoundObject>())) {}
+ System::ContextBoundObject System::ContextBoundObject::New_ctor()  {
+System::ContextBoundObject o{THROW_UNLESS(::il2cpp_utils::New<System::ContextBoundObject>())};
+return o;
+}
  void System::ContextBoundObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ContextBoundObject>::get(),

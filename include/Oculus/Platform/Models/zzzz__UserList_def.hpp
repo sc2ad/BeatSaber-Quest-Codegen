@@ -10,7 +10,7 @@ class UserList;
 // Type: Oculus.Platform.Models::UserList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1150 }), TypeDefinitionIndex(TypeDefinitionIndex(13480))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13480)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1150 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13481))
 // CS Name: Oculus.Platform.Models.UserList
 class CORDL_TYPE UserList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::User> {
@@ -49,8 +49,7 @@ constexpr explicit UserList(void* ptr) noexcept : Oculus::Platform::Models::Dese
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UserList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::UserList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259d9c4 size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

@@ -48,8 +48,10 @@ constexpr void Oculus::Platform::Models::AchievementProgress::__set_UnlockTime(S
 constexpr System::DateTime Oculus::Platform::Models::AchievementProgress::__get_UnlockTime() const {
 return ::cordl_internals::getInstanceField<System::DateTime, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::AchievementProgress::AchievementProgress(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AchievementProgress>(o))) {}
+ Oculus::Platform::Models::AchievementProgress Oculus::Platform::Models::AchievementProgress::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::AchievementProgress o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::AchievementProgress>(o))};
+return o;
+}
  void Oculus::Platform::Models::AchievementProgress::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::AchievementProgress>::get(),

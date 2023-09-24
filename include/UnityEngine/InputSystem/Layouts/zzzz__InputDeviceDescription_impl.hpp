@@ -2,6 +2,7 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 // Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "serial", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "capabilities", ty: "::StringW", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson::UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson(::StringW interface, ::StringW type, ::StringW product, ::StringW serial, ::StringW version, ::StringW manufacturer, ::StringW capabilities) noexcept : ::bs_hook::ValueTypeWrapper() {this->interface = interface;
 this->type = type;

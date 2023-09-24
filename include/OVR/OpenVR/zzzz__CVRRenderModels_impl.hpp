@@ -2,16 +2,16 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRRenderModels_def.hpp"
-#include "OVR/OpenVR/zzzz__RenderModel_ComponentState_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRRenderModelError_def.hpp"
-#include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
 #include "OVR/OpenVR/zzzz__RenderModel_ControllerMode_State_t_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRRenderModelError_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRRenderModels_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRRenderModels_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__RenderModel_ComponentState_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerState_t_Packed_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRRenderModels_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__CVRRenderModels___GetComponentStatePacked._ctor
 template<>
 
@@ -80,8 +80,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__CVRRenderModels___GetComponentStatePacked::OVR__OpenVR__CVRRenderModels___GetComponentStatePacked(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__CVRRenderModels___GetComponentStatePacked>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__CVRRenderModels___GetComponentStatePacked OVR::OpenVR::OVR__OpenVR__CVRRenderModels___GetComponentStatePacked::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__CVRRenderModels___GetComponentStatePacked o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__CVRRenderModels___GetComponentStatePacked>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__CVRRenderModels___GetComponentStatePacked::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__CVRRenderModels___GetComponentStatePacked>::get(),
@@ -480,8 +482,10 @@ constexpr void OVR::OpenVR::CVRRenderModels::__set_FnTable(OVR::OpenVR::IVRRende
 constexpr OVR::OpenVR::IVRRenderModels OVR::OpenVR::CVRRenderModels::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRRenderModels, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRRenderModels::CVRRenderModels(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRRenderModels>(pInterface))) {}
+ OVR::OpenVR::CVRRenderModels OVR::OpenVR::CVRRenderModels::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRRenderModels o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRRenderModels>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRRenderModels::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRRenderModels>::get(),

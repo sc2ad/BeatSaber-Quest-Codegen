@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityLightWithId_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Light_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::UnityLightWithId.get_color
 template<>
 
@@ -90,8 +90,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- GlobalNamespace::UnityLightWithId::UnityLightWithId()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<UnityLightWithId>())) {}
+ GlobalNamespace::UnityLightWithId GlobalNamespace::UnityLightWithId::New_ctor()  {
+GlobalNamespace::UnityLightWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityLightWithId>())};
+return o;
+}
  void GlobalNamespace::UnityLightWithId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityLightWithId>::get(),

@@ -146,8 +146,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method SetPosition addr 0x226c8dc size 0x8 virtual false final false
  void SetPosition(float_t destPosZ, float_t moveSpeed) ;
 
-// Ctor Parameters []
-explicit TrackLaneRing() ;
+static GlobalNamespace::TrackLaneRing New_ctor() ;
 
 /// @brief Method .ctor addr 0x226c8e4 size 0x8 virtual false final false
  void _ctor() ;

@@ -6,14 +6,14 @@
 namespace UnityEngine {
 struct Rect;
 }
-namespace UnityEngine {
-class Transform;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -123,8 +123,7 @@ constexpr bool __get__isShown_k__BackingField() const;
 /// @brief Method CalculatePanelPosition addr 0x1faa738 size 0x10c virtual false final false
  UnityEngine::Vector2 CalculatePanelPosition(UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect, UnityEngine::Vector2 panelSize) ;
 
-// Ctor Parameters []
-explicit HoverHintPanel() ;
+static HMUI::HoverHintPanel New_ctor() ;
 
 /// @brief Method .ctor addr 0x1faa844 size 0x20 virtual false final false
  void _ctor() ;

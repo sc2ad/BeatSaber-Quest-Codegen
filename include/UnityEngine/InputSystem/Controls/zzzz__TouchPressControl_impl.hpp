@@ -96,8 +96,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value, statePtr);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::TouchPressControl::TouchPressControl()  : UnityEngine::InputSystem::Controls::ButtonControl(THROW_UNLESS(::il2cpp_utils::New<TouchPressControl>())) {}
+ UnityEngine::InputSystem::Controls::TouchPressControl UnityEngine::InputSystem::Controls::TouchPressControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::TouchPressControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::TouchPressControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::TouchPressControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::TouchPressControl>::get(),

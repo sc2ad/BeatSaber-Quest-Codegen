@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpLoginParameters_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters._ctor
 template<>
 
@@ -88,8 +88,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::__set_mSal
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::__get_mSalt() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters", modifiers: "", def_value: None }, CppParam { name: "verifier", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::TlsSrpLoginParameters(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Math::BigInteger verifier, ::ArrayW<uint8_t> salt)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsSrpLoginParameters>(group, verifier, salt))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Math::BigInteger verifier, ::ArrayW<uint8_t> salt)  {
+Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters>(group, verifier, salt))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::_ctor(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Math::BigInteger verifier, ::ArrayW<uint8_t> salt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters>::get(),

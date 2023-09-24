@@ -57,8 +57,7 @@ constexpr float_t __get_speedMul() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "speedMul", ty: "float_t", modifiers: "", def_value: None }]
-explicit SongSpeedData(float_t speedMul) ;
+static GlobalNamespace::SongSpeedData New_ctor(float_t speedMul) ;
 
 /// @brief Method .ctor addr 0x21bf7b8 size 0x28 virtual false final false
  void _ctor(float_t speedMul) ;

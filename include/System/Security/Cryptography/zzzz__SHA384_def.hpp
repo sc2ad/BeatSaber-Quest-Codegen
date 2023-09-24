@@ -47,8 +47,7 @@ constexpr explicit SHA384(void* ptr) noexcept : System::Security::Cryptography::
 
 // Methods
 
-// Ctor Parameters []
-explicit SHA384() ;
+static System::Security::Cryptography::SHA384 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22fcf48 size 0x20 virtual false final false
  void _ctor() ;

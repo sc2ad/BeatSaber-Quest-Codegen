@@ -6,10 +6,10 @@ namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
+class JsonSerializer;
 }
 namespace Newtonsoft::Json {
-class JsonSerializer;
+class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
@@ -69,8 +69,7 @@ constexpr explicit BsonObjectIdConverter(void* ptr) noexcept : Newtonsoft::Json:
 /// @brief Method CanConvert addr 0x253cd2c size 0x84 virtual true final false
  bool CanConvert(System::Type objectType) ;
 
-// Ctor Parameters []
-explicit BsonObjectIdConverter() ;
+static Newtonsoft::Json::Converters::BsonObjectIdConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x253cdb0 size 0x8 virtual false final false
  void _ctor() ;

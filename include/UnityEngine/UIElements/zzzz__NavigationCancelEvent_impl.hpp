@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::NavigationCancelEvent::NavigationCancelEvent()  : UnityEngine::UIElements::NavigationEventBase_1<UnityEngine::UIElements::NavigationCancelEvent>(THROW_UNLESS(::il2cpp_utils::New<NavigationCancelEvent>())) {}
+ UnityEngine::UIElements::NavigationCancelEvent UnityEngine::UIElements::NavigationCancelEvent::New_ctor()  {
+UnityEngine::UIElements::NavigationCancelEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::NavigationCancelEvent>())};
+return o;
+}
  void UnityEngine::UIElements::NavigationCancelEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::NavigationCancelEvent>::get(),

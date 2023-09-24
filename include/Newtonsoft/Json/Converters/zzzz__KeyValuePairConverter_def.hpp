@@ -3,23 +3,23 @@
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Newtonsoft::Json::Utilities {
-template<typename TKey,typename TValue>
-class ThreadSafeStore_2;
+class ReflectionObject;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace Newtonsoft::Json {
 class JsonSerializer;
 }
-namespace Newtonsoft::Json::Utilities {
-class ReflectionObject;
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json::Utilities {
+template<typename TKey,typename TValue>
+class ThreadSafeStore_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -94,8 +94,7 @@ static Newtonsoft::Json::Utilities::ReflectionObject InitializeReflectionObject(
 /// @brief Method CanConvert addr 0x253c8b0 size 0x10c virtual true final false
  bool CanConvert(System::Type objectType) ;
 
-// Ctor Parameters []
-explicit KeyValuePairConverter() ;
+static Newtonsoft::Json::Converters::KeyValuePairConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x253c9bc size 0x8 virtual false final false
  void _ctor() ;

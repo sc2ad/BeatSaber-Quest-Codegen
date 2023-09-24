@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::ValidateCommandEvent::ValidateCommandEvent()  : UnityEngine::UIElements::CommandEventBase_1<UnityEngine::UIElements::ValidateCommandEvent>(THROW_UNLESS(::il2cpp_utils::New<ValidateCommandEvent>())) {}
+ UnityEngine::UIElements::ValidateCommandEvent UnityEngine::UIElements::ValidateCommandEvent::New_ctor()  {
+UnityEngine::UIElements::ValidateCommandEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ValidateCommandEvent>())};
+return o;
+}
  void UnityEngine::UIElements::ValidateCommandEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ValidateCommandEvent>::get(),

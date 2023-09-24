@@ -2,15 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace GlobalNamespace {
 class AvatarData;
 }
 namespace Menu::ViewControllers {
 class EditAvatarHistorySnapshot;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__EditAvatarViewController__AvatarEditPart;
@@ -117,8 +117,7 @@ constexpr int32_t __get__currentDataId() const;
 /// @brief Method UpdateEditHistory addr 0x21555a4 size 0x1c4 virtual false final false
  void UpdateEditHistory(GlobalNamespace::AvatarData avatarData, GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart avatarEditPart) ;
 
-// Ctor Parameters []
-explicit AvatarEditHistory() ;
+static GlobalNamespace::AvatarEditHistory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2155768 size 0x7c virtual false final false
  void _ctor() ;

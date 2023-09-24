@@ -55,14 +55,12 @@ constexpr explicit CmsCompressedDataParser(void* ptr) noexcept : Org::BouncyCast
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "compressedData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsCompressedDataParser(::ArrayW<uint8_t> compressedData) ;
+static Org::BouncyCastle::Cms::CmsCompressedDataParser New_ctor(::ArrayW<uint8_t> compressedData) ;
 
 /// @brief Method .ctor addr 0x1152d84 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> compressedData) ;
 
-// Ctor Parameters [CppParam { name: "compressedData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsCompressedDataParser(System::IO::Stream compressedData) ;
+static Org::BouncyCastle::Cms::CmsCompressedDataParser New_ctor(System::IO::Stream compressedData) ;
 
 /// @brief Method .ctor addr 0x1152dfc size 0x4 virtual false final false
  void _ctor(System::IO::Stream compressedData) ;

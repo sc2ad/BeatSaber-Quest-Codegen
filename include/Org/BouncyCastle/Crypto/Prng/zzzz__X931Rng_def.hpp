@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class IEntropySource;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -117,8 +117,7 @@ constexpr int64_t __get_mReseedCounter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "dateTimeVector", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }]
-explicit X931Rng(Org::BouncyCastle::Crypto::IBlockCipher engine, ::ArrayW<uint8_t> dateTimeVector, Org::BouncyCastle::Crypto::IEntropySource entropySource) ;
+static Org::BouncyCastle::Crypto::Prng::X931Rng New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, ::ArrayW<uint8_t> dateTimeVector, Org::BouncyCastle::Crypto::IEntropySource entropySource) ;
 
 /// @brief Method .ctor addr 0xeb724c size 0x1f8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, ::ArrayW<uint8_t> dateTimeVector, Org::BouncyCastle::Crypto::IEntropySource entropySource) ;

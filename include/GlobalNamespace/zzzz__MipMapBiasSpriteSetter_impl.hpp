@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MipMapBiasSpriteSetter::MipMapBiasSpriteSetter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MipMapBiasSpriteSetter>())) {}
+ GlobalNamespace::MipMapBiasSpriteSetter GlobalNamespace::MipMapBiasSpriteSetter::New_ctor()  {
+GlobalNamespace::MipMapBiasSpriteSetter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MipMapBiasSpriteSetter>())};
+return o;
+}
  void GlobalNamespace::MipMapBiasSpriteSetter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MipMapBiasSpriteSetter>::get(),

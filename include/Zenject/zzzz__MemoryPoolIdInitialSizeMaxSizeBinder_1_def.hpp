@@ -3,20 +3,20 @@
 #include "Zenject/zzzz__MemoryPoolInitialSizeMaxSizeBinder_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class MemoryPoolBindInfo;
+class FactoryBindInfo;
 }
 namespace Zenject {
 template<typename TContract>
 class MemoryPoolInitialSizeMaxSizeBinder_1;
 }
 namespace Zenject {
+class MemoryPoolBindInfo;
+}
+namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -33,7 +33,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10811)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10810), inst: 4326 }), TypeDefinitionIndex(TypeDefinitionIndex(10810))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10810), inst: 4326 }), TypeDefinitionIndex(TypeDefinitionIndex(10810)), TypeDefinitionIndex(TypeDefinitionIndex(10811))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10811), inst: 2 })
 // CS Name: Zenject.MemoryPoolIdInitialSizeMaxSizeBinder`1
 class CORDL_TYPE MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract> : public Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract> {
@@ -72,8 +72,7 @@ constexpr explicit MemoryPoolIdInitialSizeMaxSizeBinder_1(void* ptr) noexcept : 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }, CppParam { name: "poolBindInfo", ty: "Zenject::MemoryPoolBindInfo", modifiers: "", def_value: None }]
-explicit MemoryPoolIdInitialSizeMaxSizeBinder_1(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, Zenject::MemoryPoolBindInfo poolBindInfo) ;
+static Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract> New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, Zenject::MemoryPoolBindInfo poolBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, Zenject::MemoryPoolBindInfo poolBindInfo) ;

@@ -2,17 +2,18 @@
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
+#include "System/Net/Http/zzzz__HttpContent_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__TransportContext_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpContentHeaders_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Net/zzzz__TransportContext_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStream._ctor
 template<>
@@ -88,8 +89,10 @@ constexpr void System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStr
 constexpr int64_t System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStream::__get_maxSize() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "maxSize", ty: "int64_t", modifiers: "", def_value: None }]
- System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStream::System__Net__Http__HttpContent__FixedMemoryStream(int64_t maxSize)  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<System__Net__Http__HttpContent__FixedMemoryStream>(maxSize))) {}
+ System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStream System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStream::New_ctor(int64_t maxSize)  {
+System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStream>(maxSize))};
+return o;
+}
  void System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStream::_ctor(int64_t maxSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::System__Net__Http__HttpContent__FixedMemoryStream>::get(),
@@ -708,8 +711,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, length);
 }
-// Ctor Parameters []
- System::Net::Http::HttpContent::HttpContent()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpContent>())) {}
+ System::Net::Http::HttpContent System::Net::Http::HttpContent::New_ctor()  {
+System::Net::Http::HttpContent o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpContent>())};
+return o;
+}
  void System::Net::Http::HttpContent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpContent>::get(),

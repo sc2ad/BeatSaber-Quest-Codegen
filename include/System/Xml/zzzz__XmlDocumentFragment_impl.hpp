@@ -2,9 +2,9 @@
 #include "System/Xml/zzzz__XmlNode_impl.hpp"
 #include "System/Xml/zzzz__XmlDocumentFragment_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 //  Writing Method size for method: System::Xml::XmlDocumentFragment._ctor
 template<>
 
@@ -232,8 +232,10 @@ constexpr void System::Xml::XmlDocumentFragment::__set_lastChild(System::Xml::Xm
 constexpr System::Xml::XmlLinkedNode System::Xml::XmlDocumentFragment::__get_lastChild() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlLinkedNode, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ownerDocument", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlDocumentFragment::XmlDocumentFragment(System::Xml::XmlDocument ownerDocument)  : System::Xml::XmlNode(THROW_UNLESS(::il2cpp_utils::New<XmlDocumentFragment>(ownerDocument))) {}
+ System::Xml::XmlDocumentFragment System::Xml::XmlDocumentFragment::New_ctor(System::Xml::XmlDocument ownerDocument)  {
+System::Xml::XmlDocumentFragment o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlDocumentFragment>(ownerDocument))};
+return o;
+}
  void System::Xml::XmlDocumentFragment::_ctor(System::Xml::XmlDocument ownerDocument)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlDocumentFragment>::get(),

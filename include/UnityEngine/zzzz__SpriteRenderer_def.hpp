@@ -2,15 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace UnityEngine {
-class Sprite;
+namespace UnityEngine::Events {
+template<typename T0>
+class UnityEvent_1;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::Events {
-template<typename T0>
-class UnityEvent_1;
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace UnityEngine {

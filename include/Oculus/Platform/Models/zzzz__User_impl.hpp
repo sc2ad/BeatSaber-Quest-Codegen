@@ -90,8 +90,10 @@ constexpr void Oculus::Platform::Models::User::__set_SmallImageUrl(::StringW val
 constexpr ::StringW Oculus::Platform::Models::User::__get_SmallImageUrl() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::User::User(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<User>(o))) {}
+ Oculus::Platform::Models::User Oculus::Platform::Models::User::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::User o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::User>(o))};
+return o;
+}
  void Oculus::Platform::Models::User::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::User>::get(),

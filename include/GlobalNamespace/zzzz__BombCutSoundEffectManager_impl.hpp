@@ -1,14 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BombCutSoundEffectManager_def.hpp"
-#include "GlobalNamespace/zzzz__BombCutSoundEffect_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__BombCutSoundEffect_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BombCutSoundEffectManager.Start
 template<>
 
@@ -166,8 +165,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bombCutSoundEffect);
 }
-// Ctor Parameters []
- GlobalNamespace::BombCutSoundEffectManager::BombCutSoundEffectManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BombCutSoundEffectManager>())) {}
+ GlobalNamespace::BombCutSoundEffectManager GlobalNamespace::BombCutSoundEffectManager::New_ctor()  {
+GlobalNamespace::BombCutSoundEffectManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BombCutSoundEffectManager>())};
+return o;
+}
  void GlobalNamespace::BombCutSoundEffectManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BombCutSoundEffectManager>::get(),

@@ -3,37 +3,37 @@
 #include "LiteNetLib/zzzz__NetManager_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "LiteNetLib/zzzz__NatPunchModule_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "LiteNetLib/zzzz__INetSocketListener_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
-#include "LiteNetLib/zzzz__NetStatistics_def.hpp"
-#include "LiteNetLib/zzzz__NetPeer_def.hpp"
-#include "System/Threading/zzzz__ThreadPriority_def.hpp"
-#include "LiteNetLib/zzzz__ConnectionState_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
-#include "LiteNetLib/zzzz__INetEventListener_def.hpp"
-#include "LiteNetLib/zzzz__NetEvent_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "LiteNetLib/zzzz__DisconnectReason_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
-#include "LiteNetLib/zzzz__NetSocket_def.hpp"
-#include "LiteNetLib/zzzz__NetEvent_def.hpp"
-#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
-#include "LiteNetLib/zzzz__IDeliveryEventListener_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
-#include "System/Threading/zzzz__ReaderWriterLockSlim_def.hpp"
+#include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
+#include "LiteNetLib/zzzz__NetManager_def.hpp"
 #include "LiteNetLib/Layers/zzzz__PacketLayerBase_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "LiteNetLib/zzzz__ConnectionState_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "LiteNetLib/zzzz__IDeliveryEventListener_def.hpp"
+#include "LiteNetLib/zzzz__NetSocket_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "LiteNetLib/zzzz__NetEvent_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "LiteNetLib/zzzz__INetEventListener_def.hpp"
+#include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
+#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
+#include "LiteNetLib/zzzz__DisconnectReason_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
 #include "LiteNetLib/zzzz__NetPacketPool_def.hpp"
+#include "LiteNetLib/zzzz__NetStatistics_def.hpp"
+#include "LiteNetLib/zzzz__NatPunchModule_def.hpp"
+#include "System/Threading/zzzz__ThreadPriority_def.hpp"
+#include "System/Threading/zzzz__ReaderWriterLockSlim_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: LiteNetLib::LiteNetLib__NetManager__IPEndPointComparer.Equals
 template<>
@@ -108,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters []
- LiteNetLib::LiteNetLib__NetManager__IPEndPointComparer::LiteNetLib__NetManager__IPEndPointComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__NetManager__IPEndPointComparer>())) {}
+ LiteNetLib::LiteNetLib__NetManager__IPEndPointComparer LiteNetLib::LiteNetLib__NetManager__IPEndPointComparer::New_ctor()  {
+LiteNetLib::LiteNetLib__NetManager__IPEndPointComparer o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__NetManager__IPEndPointComparer>())};
+return o;
+}
  void LiteNetLib::LiteNetLib__NetManager__IPEndPointComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__NetManager__IPEndPointComparer>::get(),
@@ -1887,8 +1889,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, peer);
 }
-// Ctor Parameters [CppParam { name: "listener", ty: "LiteNetLib::INetEventListener", modifiers: "", def_value: None }, CppParam { name: "extraPacketLayer", ty: "LiteNetLib::Layers::PacketLayerBase", modifiers: "", def_value: Some("csnull") }]
- LiteNetLib::NetManager::NetManager(LiteNetLib::INetEventListener listener, LiteNetLib::Layers::PacketLayerBase extraPacketLayer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetManager>(listener, extraPacketLayer))) {}
+/// @param extraPacketLayer: LiteNetLib::Layers::PacketLayerBase (default: csnull)
+ LiteNetLib::NetManager LiteNetLib::NetManager::New_ctor(LiteNetLib::INetEventListener listener, LiteNetLib::Layers::PacketLayerBase extraPacketLayer)  {
+LiteNetLib::NetManager o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetManager>(listener, extraPacketLayer))};
+return o;
+}
 /// @param extraPacketLayer: LiteNetLib::Layers::PacketLayerBase (default: csnull)
  void LiteNetLib::NetManager::_ctor(LiteNetLib::INetEventListener listener, LiteNetLib::Layers::PacketLayerBase extraPacketLayer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

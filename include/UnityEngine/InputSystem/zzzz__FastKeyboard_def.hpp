@@ -4,20 +4,20 @@
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
 namespace UnityEngine::InputSystem::Controls {
 class AnyKeyControl;
 }
-namespace UnityEngine::InputSystem::Controls {
-class DiscreteButtonControl;
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class KeyControl;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine::InputSystem::Controls {
+class DiscreteButtonControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -71,8 +71,7 @@ static constexpr ::ConstString  metadata{u";AnyKey;Button;Axis;Key;DiscreteButto
 
 // Methods
 
-// Ctor Parameters []
-explicit FastKeyboard() ;
+static UnityEngine::InputSystem::FastKeyboard New_ctor() ;
 
 /// @brief Method .ctor addr 0x28dc178 size 0x2b1c virtual false final false
  void _ctor() ;

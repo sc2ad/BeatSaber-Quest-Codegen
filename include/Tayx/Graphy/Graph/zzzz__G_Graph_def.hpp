@@ -53,8 +53,7 @@ constexpr explicit G_Graph(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr)
 /// @brief Method CreatePoints addr 0x0 size 0xffffffffffffffff virtual true final false
  void CreatePoints() ;
 
-// Ctor Parameters []
-explicit G_Graph() ;
+static Tayx::Graphy::Graph::G_Graph New_ctor() ;
 
 /// @brief Method .ctor addr 0x2874900 size 0x8 virtual false final false
  void _ctor() ;

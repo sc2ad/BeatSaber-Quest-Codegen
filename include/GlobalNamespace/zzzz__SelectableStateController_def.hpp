@@ -3,12 +3,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace GlobalNamespace {
+struct GlobalNamespace__SelectableStateController__ViewState;
 }
 namespace Tweening {
 class TimeTweeningManager;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -70,6 +73,8 @@ __SelectedAndHighlighted = 5,
 constexpr operator __GlobalNamespace__SelectableStateController__ViewState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SelectableStateController__ViewState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -197,8 +202,7 @@ constexpr GlobalNamespace::GlobalNamespace__SelectableStateController__ViewState
 /// @brief Method SetState addr 0x212b7f8 size 0x24 virtual false final false
  void SetState(GlobalNamespace::GlobalNamespace__SelectableStateController__ViewState state, bool animated) ;
 
-// Ctor Parameters []
-explicit SelectableStateController() ;
+static GlobalNamespace::SelectableStateController New_ctor() ;
 
 /// @brief Method .ctor addr 0x212b81c size 0x8 virtual false final false
  void _ctor() ;

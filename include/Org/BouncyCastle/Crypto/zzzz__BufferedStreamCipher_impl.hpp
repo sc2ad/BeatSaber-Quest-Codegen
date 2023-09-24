@@ -230,8 +230,10 @@ constexpr void Org::BouncyCastle::Crypto::BufferedStreamCipher::__set_cipher(Org
 constexpr Org::BouncyCastle::Crypto::IStreamCipher Org::BouncyCastle::Crypto::BufferedStreamCipher::__get_cipher() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IStreamCipher, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IStreamCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::BufferedStreamCipher::BufferedStreamCipher(Org::BouncyCastle::Crypto::IStreamCipher cipher)  : Org::BouncyCastle::Crypto::BufferedCipherBase(THROW_UNLESS(::il2cpp_utils::New<BufferedStreamCipher>(cipher))) {}
+ Org::BouncyCastle::Crypto::BufferedStreamCipher Org::BouncyCastle::Crypto::BufferedStreamCipher::New_ctor(Org::BouncyCastle::Crypto::IStreamCipher cipher)  {
+Org::BouncyCastle::Crypto::BufferedStreamCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::BufferedStreamCipher>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::BufferedStreamCipher::_ctor(Org::BouncyCastle::Crypto::IStreamCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::BufferedStreamCipher>::get(),

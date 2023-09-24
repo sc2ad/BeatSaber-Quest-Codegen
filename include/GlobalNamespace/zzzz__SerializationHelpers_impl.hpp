@@ -101,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, filePath, serializableObject);
 }
-// Ctor Parameters []
- GlobalNamespace::SerializationHelpers::SerializationHelpers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerializationHelpers>())) {}
+ GlobalNamespace::SerializationHelpers GlobalNamespace::SerializationHelpers::New_ctor()  {
+GlobalNamespace::SerializationHelpers o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SerializationHelpers>())};
+return o;
+}
  void GlobalNamespace::SerializationHelpers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SerializationHelpers>::get(),

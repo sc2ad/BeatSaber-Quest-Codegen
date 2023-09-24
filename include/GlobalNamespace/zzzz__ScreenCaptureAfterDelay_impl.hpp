@@ -2,13 +2,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScreenCaptureAfterDelay_def.hpp"
 #include "GlobalNamespace/zzzz__ScreenCaptureCache_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "GlobalNamespace/zzzz__ScreenCaptureCache_def.hpp"
+#include "GlobalNamespace/zzzz__ScreenCaptureAfterDelay_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectController_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData._ctor
 template<>
 
@@ -50,8 +50,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitDa
 constexpr int32_t GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData::__get_pixelsHeight() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "screenshotType", ty: "GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType", modifiers: "", def_value: None }, CppParam { name: "screenCaptureTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "pixelsWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pixelsHeight", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData::GlobalNamespace__ScreenCaptureAfterDelay__InitData(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ScreenCaptureAfterDelay__InitData>(screenshotType, screenCaptureTime, pixelsWidth, pixelsHeight))) {}
+ GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData::New_ctor(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight)  {
+GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData>(screenshotType, screenCaptureTime, pixelsWidth, pixelsHeight))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData::_ctor(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay__InitData>::get(),
@@ -193,8 +195,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start
 constexpr GlobalNamespace::ScreenCaptureAfterDelay GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ScreenCaptureAfterDelay, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6 GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ScreenCaptureAfterDelay___Start_d__6>::get(),
@@ -374,8 +378,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, renderTexture);
 }
-// Ctor Parameters []
- GlobalNamespace::ScreenCaptureAfterDelay::ScreenCaptureAfterDelay()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScreenCaptureAfterDelay>())) {}
+ GlobalNamespace::ScreenCaptureAfterDelay GlobalNamespace::ScreenCaptureAfterDelay::New_ctor()  {
+GlobalNamespace::ScreenCaptureAfterDelay o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ScreenCaptureAfterDelay>())};
+return o;
+}
  void GlobalNamespace::ScreenCaptureAfterDelay::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ScreenCaptureAfterDelay>::get(),

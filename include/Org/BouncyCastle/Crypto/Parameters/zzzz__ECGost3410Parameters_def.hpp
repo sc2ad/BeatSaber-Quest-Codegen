@@ -2,13 +2,13 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECNamedDomainParameters_def.hpp"
 namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
 class ECNamedDomainParameters;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -95,14 +95,12 @@ constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get__encryptionParamSet
 /// @brief Method get_EncryptionParamSet addr 0xea5da4 size 0x8 virtual false final false
  Org::BouncyCastle::Asn1::DerObjectIdentifier get_EncryptionParamSet() ;
 
-// Ctor Parameters [CppParam { name: "dp", ty: "Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "digestParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptionParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit ECGost3410Parameters(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet) ;
+static Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters New_ctor(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet) ;
 
 /// @brief Method .ctor addr 0xea5dac size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet) ;
 
-// Ctor Parameters [CppParam { name: "dp", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "digestParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptionParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit ECGost3410Parameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet) ;
+static Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters New_ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet) ;
 
 /// @brief Method .ctor addr 0xea5e2c size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet) ;

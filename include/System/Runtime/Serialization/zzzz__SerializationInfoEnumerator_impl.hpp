@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__SerializationInfoEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationEntry_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationEntry_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::SerializationInfoEnumerator._ctor
 template<>
 
@@ -179,8 +179,10 @@ constexpr void System::Runtime::Serialization::SerializationInfoEnumerator::__se
 constexpr bool System::Runtime::Serialization::SerializationInfoEnumerator::__get__current() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "members", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "info", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "types", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }, CppParam { name: "numItems", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SerializationInfoEnumerator::SerializationInfoEnumerator(::ArrayW<::StringW> members, ::ArrayW<::bs_hook::Il2CppWrapperType> info, ::ArrayW<System::Type> types, int32_t numItems)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerializationInfoEnumerator>(members, info, types, numItems))) {}
+ System::Runtime::Serialization::SerializationInfoEnumerator System::Runtime::Serialization::SerializationInfoEnumerator::New_ctor(::ArrayW<::StringW> members, ::ArrayW<::bs_hook::Il2CppWrapperType> info, ::ArrayW<System::Type> types, int32_t numItems)  {
+System::Runtime::Serialization::SerializationInfoEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationInfoEnumerator>(members, info, types, numItems))};
+return o;
+}
  void System::Runtime::Serialization::SerializationInfoEnumerator::_ctor(::ArrayW<::StringW> members, ::ArrayW<::bs_hook::Il2CppWrapperType> info, ::ArrayW<System::Type> types, int32_t numItems)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationInfoEnumerator>::get(),

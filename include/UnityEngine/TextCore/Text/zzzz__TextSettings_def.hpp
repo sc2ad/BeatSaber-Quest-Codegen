@@ -4,19 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::TextCore::Text {
+class SpriteAsset;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::TextCore::Text {
-class UnicodeLineBreakingRules;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace UnityEngine::TextCore::Text {
 class TextStyleSheet;
@@ -25,7 +18,17 @@ namespace UnityEngine::TextCore::Text {
 class FontAsset;
 }
 namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
+class UnicodeLineBreakingRules;
+}
+namespace UnityEngine::TextCore::Text {
+struct UnityEngine__TextCore__Text__TextSettings__FontReferenceMap;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -391,8 +394,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::TextCore::Text::Unit
 /// @brief Method GetCachedFontAssetInternal addr 0x2bc8a14 size 0x308 virtual false final false
  UnityEngine::TextCore::Text::FontAsset GetCachedFontAssetInternal(UnityEngine::Font font) ;
 
-// Ctor Parameters []
-explicit TextSettings() ;
+static UnityEngine::TextCore::Text::TextSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bc8d24 size 0x108 virtual false final false
  void _ctor() ;

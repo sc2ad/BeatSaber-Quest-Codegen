@@ -8,10 +8,10 @@ namespace UnityEngine {
 struct Touch;
 }
 namespace UnityEngine {
-struct Vector2;
+struct IMECompositionMode;
 }
 namespace UnityEngine {
-struct IMECompositionMode;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -126,8 +126,7 @@ constexpr explicit BaseInput(void* ptr) noexcept : UnityEngine::EventSystems::UI
 /// @brief Method GetButtonDown addr 0x2c21688 size 0xc virtual true final false
  bool GetButtonDown(::StringW buttonName) ;
 
-// Ctor Parameters []
-explicit BaseInput() ;
+static UnityEngine::EventSystems::BaseInput New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c21694 size 0x8 virtual false final false
  void _ctor() ;

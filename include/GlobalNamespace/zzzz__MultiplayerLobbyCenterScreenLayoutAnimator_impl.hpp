@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyCenterScreenLayoutAnimator_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator.StartCountdown
 template<>
 
@@ -146,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, from, to, duration);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::MultiplayerLobbyCenterScreenLayoutAnimator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLobbyCenterScreenLayoutAnimator>())) {}
+ GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::New_ctor()  {
+GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator>::get(),

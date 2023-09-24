@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Pkix/zzzz__PkixAttrCertPathBuilder_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixBuilderParameters_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathBuilderResult_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder.Build
 template<>
 
@@ -81,8 +81,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Pkix::PkixCertPathBuilderResult, false>(const_cast<void*>(instance), ___internal_method, attrCert, tbvCert, pkixParams, tbvPath);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::PkixAttrCertPathBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixAttrCertPathBuilder>())) {}
+ Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::New_ctor()  {
+Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder>::get(),

@@ -4,41 +4,41 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-struct Rect;
-}
 namespace UnityEngine::UIElements::UIR {
-struct CommandType;
+class DrawParams;
 }
 namespace UnityEngine::UIElements::UIR {
 class MeshHandle;
 }
 namespace System {
-class Action;
-}
-namespace System {
 class Exception;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine {
-struct RectInt;
-}
-namespace UnityEngine::UIElements::UIR {
-class DrawParams;
+class Texture;
 }
 namespace UnityEngine::UIElements::UIR {
 struct State;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine {
-class Texture;
+struct Rect;
+}
+namespace UnityEngine {
+struct RectInt;
+}
+namespace UnityEngine::UIElements::UIR {
+struct CommandType;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -47,7 +47,7 @@ class RenderChainCommand;
 // Type: UnityEngine.UIElements.UIR::RenderChainCommand
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7499)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7499), inst: 366 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7499), inst: 366 }), TypeDefinitionIndex(TypeDefinitionIndex(7499))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7544))
 // CS Name: UnityEngine.UIElements.UIR.RenderChainCommand
 class CORDL_TYPE RenderChainCommand : public UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::RenderChainCommand> {
@@ -176,8 +176,7 @@ static UnityEngine::Rect CombineScissorRects(UnityEngine::Rect r0, UnityEngine::
 /// @brief Method RectPointsToPixelsAndFlipYAxis addr 0x2c5c9c4 size 0x404 virtual false final false
 static UnityEngine::RectInt RectPointsToPixelsAndFlipYAxis(UnityEngine::Rect rect, float_t pixelsPerPoint) ;
 
-// Ctor Parameters []
-explicit RenderChainCommand() ;
+static UnityEngine::UIElements::UIR::RenderChainCommand New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c5d0f0 size 0x48 virtual false final false
  void _ctor() ;

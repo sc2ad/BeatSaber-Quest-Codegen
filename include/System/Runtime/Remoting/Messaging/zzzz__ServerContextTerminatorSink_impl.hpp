@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Runtime::Remoting::Messaging::IMessageCtrl, false>(const_cast<void*>(instance), ___internal_method, msg, replySink);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Messaging::ServerContextTerminatorSink::ServerContextTerminatorSink()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServerContextTerminatorSink>())) {}
+ System::Runtime::Remoting::Messaging::ServerContextTerminatorSink System::Runtime::Remoting::Messaging::ServerContextTerminatorSink::New_ctor()  {
+System::Runtime::Remoting::Messaging::ServerContextTerminatorSink o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ServerContextTerminatorSink>())};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ServerContextTerminatorSink::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ServerContextTerminatorSink>::get(),

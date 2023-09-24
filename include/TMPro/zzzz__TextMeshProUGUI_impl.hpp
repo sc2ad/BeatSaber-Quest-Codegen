@@ -1,29 +1,30 @@
 #pragma once
 #include "TMPro/zzzz__TMP_Text_impl.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "TMPro/zzzz__TMP_TextInfo_def.hpp"
-#include "TMPro/zzzz__TMP_SubMeshUI_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "TMPro/zzzz__TMP_VertexDataUpdateFlags_def.hpp"
-#include "UnityEngine/zzzz__CanvasRenderer_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "TMPro/zzzz__TMP_TextInfo_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/zzzz__CanvasRenderer_def.hpp"
+#include "TMPro/zzzz__TMP_SubMeshUI_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18._ctor
 template<>
 
@@ -156,8 +157,10 @@ constexpr void TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__se
 constexpr TMPro::TextMeshProUGUI TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18::__get___4__this() const {
 return ::cordl_internals::getInstanceField<TMPro::TextMeshProUGUI, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18>(__1__state))) {}
+ TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18 TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18::New_ctor(int32_t __1__state)  {
+TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18>(__1__state))};
+return o;
+}
  void TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TextMeshProUGUI___DelayedGraphicRebuild_d__18>::get(),
@@ -344,8 +347,10 @@ constexpr void TMPro::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__s
 constexpr TMPro::TextMeshProUGUI TMPro::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19::__get___4__this() const {
 return ::cordl_internals::getInstanceField<TMPro::TextMeshProUGUI, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- TMPro::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19>(__1__state))) {}
+ TMPro::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19 TMPro::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19::New_ctor(int32_t __1__state)  {
+TMPro::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19>(__1__state))};
+return o;
+}
  void TMPro::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TextMeshProUGUI___DelayedMaterialRebuild_d__19>::get(),
@@ -2509,8 +2514,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, scaleDelta);
 }
-// Ctor Parameters []
- TMPro::TextMeshProUGUI::TextMeshProUGUI()  : TMPro::TMP_Text(THROW_UNLESS(::il2cpp_utils::New<TextMeshProUGUI>())) {}
+ TMPro::TextMeshProUGUI TMPro::TextMeshProUGUI::New_ctor()  {
+TMPro::TextMeshProUGUI o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TextMeshProUGUI>())};
+return o;
+}
  void TMPro::TextMeshProUGUI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TextMeshProUGUI>::get(),

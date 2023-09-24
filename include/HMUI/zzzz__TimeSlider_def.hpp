@@ -5,6 +5,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace HMUI {
+struct HMUI__TimeSlider__TimeType;
+}
 // Forward declare root types
 namespace HMUI {
 struct HMUI__TimeSlider__TimeType;
@@ -61,6 +64,8 @@ __Miliseconds = 1,
 constexpr operator __HMUI__TimeSlider__TimeType_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__TimeSlider__TimeType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -137,8 +142,7 @@ constexpr HMUI::HMUI__TimeSlider__TimeType __get__timeType() const;
 /// @brief Method TextForValue addr 0x1fb103c size 0x254 virtual true final false
  ::StringW TextForValue(float_t value) ;
 
-// Ctor Parameters []
-explicit TimeSlider() ;
+static HMUI::TimeSlider New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb1290 size 0xc virtual false final false
  void _ctor() ;

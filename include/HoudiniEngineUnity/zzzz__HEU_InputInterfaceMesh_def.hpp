@@ -8,6 +8,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace HoudiniEngineUnity {
+class HEU_InputData;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class Mesh;
+}
 namespace UnityEngine {
 class GameObject;
 }
@@ -15,26 +33,14 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputData;
-}
-namespace UnityEngine {
-class Transform;
+class HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -103,8 +109,7 @@ constexpr bool __get__hasLOD() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes New_ctor() ;
 
 /// @brief Method .ctor addr 0x2057688 size 0x7c virtual false final false
  void _ctor() ;
@@ -218,8 +223,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh New_ctor() ;
 
 /// @brief Method .ctor addr 0x2057704 size 0x8 virtual false final false
  void _ctor() ;
@@ -274,8 +278,7 @@ constexpr explicit HEU_InputInterfaceMesh(void* ptr) noexcept : HoudiniEngineUni
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_InputInterfaceMesh() ;
+static HoudiniEngineUnity::HEU_InputInterfaceMesh New_ctor() ;
 
 /// @brief Method .ctor addr 0x2054a80 size 0x20 virtual false final false
  void _ctor() ;

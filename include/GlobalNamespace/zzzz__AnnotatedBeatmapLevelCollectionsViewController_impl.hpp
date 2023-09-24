@@ -1,13 +1,13 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionsViewController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionsGridView_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
+#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController.add_didOpenBeatmapLevelCollectionsEvent
 template<>
 
@@ -515,8 +515,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapLevelCollection);
 }
-// Ctor Parameters []
- GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::AnnotatedBeatmapLevelCollectionsViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionsViewController>())) {}
+ GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::New_ctor()  {
+GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController>())};
+return o;
+}
  void GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController>::get(),

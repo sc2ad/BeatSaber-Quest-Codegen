@@ -2,19 +2,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCollectionTableView_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsPromoDataSO_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
-#include "HMUI/zzzz__TableCell_def.hpp"
-#include "GlobalNamespace/zzzz__LevelPackHeaderTableCell_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__LevelListTableCell_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "HMUI/zzzz__AlphabetScrollbar_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "HMUI/zzzz__TableCell_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__LevelPackHeaderTableCell_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "HMUI/zzzz__AlphabetScrollbar_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__LevelListTableCell_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LevelCollectionTableView.add_didSelectLevelEvent
 template<>
 
@@ -702,8 +701,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapLevel);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelCollectionTableView::LevelCollectionTableView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LevelCollectionTableView>())) {}
+ GlobalNamespace::LevelCollectionTableView GlobalNamespace::LevelCollectionTableView::New_ctor()  {
+GlobalNamespace::LevelCollectionTableView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelCollectionTableView>())};
+return o;
+}
  void GlobalNamespace::LevelCollectionTableView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelCollectionTableView>::get(),

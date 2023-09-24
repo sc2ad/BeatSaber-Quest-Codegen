@@ -12,7 +12,7 @@ class AvatarMeshPartSO;
 // Type: ::AvatarMeshPartSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10012)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4773), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(4773))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4773)), TypeDefinitionIndex(TypeDefinitionIndex(10012)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4773), inst: 883 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4769))
 // CS Name: AvatarMeshPartSO
 class CORDL_TYPE AvatarMeshPartSO : public GlobalNamespace::AvatarPartSO_1<UnityEngine::Mesh> {
@@ -59,8 +59,7 @@ constexpr explicit AvatarMeshPartSO(void* ptr) noexcept : GlobalNamespace::Avata
 /// @brief Method get_mesh addr 0x2229558 size 0x3c virtual false final false
  UnityEngine::Mesh get_mesh() ;
 
-// Ctor Parameters []
-explicit AvatarMeshPartSO() ;
+static GlobalNamespace::AvatarMeshPartSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2229594 size 0x48 virtual false final false
  void _ctor() ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__Manipulator_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IManipulator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IManipulator_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::Manipulator.RegisterCallbacksOnTarget
 template<>
 
@@ -133,8 +133,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::Manipulator::Manipulator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Manipulator>())) {}
+ UnityEngine::UIElements::Manipulator UnityEngine::UIElements::Manipulator::New_ctor()  {
+UnityEngine::UIElements::Manipulator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Manipulator>())};
+return o;
+}
  void UnityEngine::UIElements::Manipulator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Manipulator>::get(),

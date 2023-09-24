@@ -2,24 +2,24 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_def.hpp"
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-template<typename T>
-class Action_1;
+class DiContainer;
 }
 namespace Zenject {
 class GameObjectContext;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
+struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -76,8 +76,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get__installerMethod() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "installerMethod", ty: "System::Action_1<Zenject::DiContainer>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewGameObjectMethod(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod) ;
+static Zenject::SubContainerCreatorByNewGameObjectMethod New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod) ;
 
 /// @brief Method .ctor addr 0x2d929b8 size 0x3c virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod) ;

@@ -48,14 +48,12 @@ constexpr explicit JsonDictionaryAttribute(void* ptr) noexcept : Newtonsoft::Jso
 
 // Methods
 
-// Ctor Parameters []
-explicit JsonDictionaryAttribute() ;
+static Newtonsoft::Json::JsonDictionaryAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c7384 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JsonDictionaryAttribute(::StringW id) ;
+static Newtonsoft::Json::JsonDictionaryAttribute New_ctor(::StringW id) ;
 
 /// @brief Method .ctor addr 0x24c7394 size 0x28 virtual false final false
  void _ctor(::StringW id) ;

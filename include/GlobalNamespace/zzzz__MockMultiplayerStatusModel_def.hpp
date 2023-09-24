@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class IMultiplayerStatusModel;
-}
-namespace GlobalNamespace {
 class MultiplayerStatusData;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+class IMultiplayerStatusModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,7 @@ constexpr GlobalNamespace::MultiplayerStatusData __get__multiplayerStatusData() 
 /// @brief Method GetMultiplayerStatusAsync addr 0x20eb4c4 size 0x70 virtual true final true
  System::Threading::Tasks::Task_1<GlobalNamespace::MultiplayerStatusData> GetMultiplayerStatusAsync(System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters []
-explicit MockMultiplayerStatusModel() ;
+static GlobalNamespace::MockMultiplayerStatusModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20eb534 size 0x8 virtual false final false
  void _ctor() ;

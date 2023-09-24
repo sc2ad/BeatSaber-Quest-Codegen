@@ -4,17 +4,17 @@
 #include "UnityEngine/InputSystem/zzzz__InputControlPath_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControlPath_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath__HumanReadableStringOptions::UnityEngine__InputSystem__InputControlPath__HumanReadableStringOptions(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -87,8 +87,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::UnityEngine__InputSyst
  System::Func_2<UnityEngine::InputSystem::Utilities::Substring,::StringW> GlobalNamespace::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c::__get___9__7_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::Utilities::Substring,::StringW>, "<>9__7_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c>())) {}
+ GlobalNamespace::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c GlobalNamespace::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c::New_ctor()  {
+GlobalNamespace::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c>())};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c>::get(),
@@ -584,8 +586,10 @@ return ::cordl_internals::getStaticField<UnityEngine::InputSystem::UnityEngine__
  System::Func_2<UnityEngine::InputSystem::Utilities::Substring,::StringW> UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath____c::__get___9__9_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::Utilities::Substring,::StringW>, "<>9__9_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath____c::UnityEngine__InputSystem__InputControlPath____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputControlPath____c>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath____c UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath____c::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath____c>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath____c>::get(),
@@ -796,8 +800,10 @@ constexpr void UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlP
 constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath__PathParser UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath___Parse_d__33::__get__parser_5__2() const {
 return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath__PathParser, 0x80>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath___Parse_d__33::UnityEngine__InputSystem__InputControlPath___Parse_d__33(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputControlPath___Parse_d__33>(__1__state))) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath___Parse_d__33 UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath___Parse_d__33::New_ctor(int32_t __1__state)  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath___Parse_d__33 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath___Parse_d__33>(__1__state))};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath___Parse_d__33::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath___Parse_d__33>::get(),

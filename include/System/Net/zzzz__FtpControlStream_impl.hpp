@@ -2,27 +2,27 @@
 #include "System/Net/zzzz__CommandStream_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Net/zzzz__FtpControlStream_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
-#include "System/Net/zzzz__ResponseDescription_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Net/zzzz__FtpStatusCode_def.hpp"
+#include "System/zzzz__WeakReference_def.hpp"
 #include "System/Net/zzzz__FtpLoginState_def.hpp"
 #include "System/Net/zzzz__CommandStream_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/zzzz__WeakReference_def.hpp"
+#include "System/Net/zzzz__FtpControlStream_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__NetworkCredential_def.hpp"
-#include "System/Net/zzzz__CommandStream_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Net/zzzz__FtpWebRequest_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Net/zzzz__FtpStatusCode_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/Net/zzzz__ResponseDescription_def.hpp"
+#include "System/Net/zzzz__NetworkCredential_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__TriState_def.hpp"
-#include "System/Net/zzzz__TlsStream_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
 #include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
+#include "System/Net/zzzz__TlsStream_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__FtpControlStream__GetPathOption::System__Net__FtpControlStream__GetPathOption(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -81,8 +81,10 @@ constexpr void System::Net::System__Net__FtpControlStream____c__DisplayClass31_0
 constexpr System::Net::TlsStream System::Net::System__Net__FtpControlStream____c__DisplayClass31_0::__get_tlsStream() const {
 return ::cordl_internals::getInstanceField<System::Net::TlsStream, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::System__Net__FtpControlStream____c__DisplayClass31_0::System__Net__FtpControlStream____c__DisplayClass31_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__FtpControlStream____c__DisplayClass31_0>())) {}
+ System::Net::System__Net__FtpControlStream____c__DisplayClass31_0 System::Net::System__Net__FtpControlStream____c__DisplayClass31_0::New_ctor()  {
+System::Net::System__Net__FtpControlStream____c__DisplayClass31_0 o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__FtpControlStream____c__DisplayClass31_0>())};
+return o;
+}
  void System::Net::System__Net__FtpControlStream____c__DisplayClass31_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__FtpControlStream____c__DisplayClass31_0>::get(),
@@ -823,8 +825,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "client", ty: "System::Net::Sockets::TcpClient", modifiers: "", def_value: None }]
- System::Net::FtpControlStream::FtpControlStream(System::Net::Sockets::TcpClient client)  : System::Net::CommandStream(THROW_UNLESS(::il2cpp_utils::New<FtpControlStream>(client))) {}
+ System::Net::FtpControlStream System::Net::FtpControlStream::New_ctor(System::Net::Sockets::TcpClient client)  {
+System::Net::FtpControlStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::FtpControlStream>(client))};
+return o;
+}
  void System::Net::FtpControlStream::_ctor(System::Net::Sockets::TcpClient client)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FtpControlStream>::get(),

@@ -6,15 +6,6 @@ namespace UnityEngine::UIElements {
 struct Length;
 }
 namespace UnityEngine::UIElements {
-struct Rotate;
-}
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
-namespace UnityEngine::Yoga {
-struct YogaValue;
-}
-namespace UnityEngine::UIElements {
 struct Scale;
 }
 namespace UnityEngine::UIElements {
@@ -22,14 +13,23 @@ template<typename T>
 class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
+struct StyleKeyword;
+}
+namespace UnityEngine::UIElements {
 struct StyleLength;
+}
+namespace UnityEngine::UIElements {
+struct Rotate;
+}
+namespace UnityEngine::UIElements {
+struct Translate;
+}
+namespace UnityEngine::Yoga {
+struct YogaValue;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

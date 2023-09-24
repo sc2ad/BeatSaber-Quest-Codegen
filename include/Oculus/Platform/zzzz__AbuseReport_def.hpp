@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Oculus::Platform {
-struct ReportRequestResponse;
+class Request;
 }
 namespace Oculus::Platform {
-class Request;
+struct ReportRequestResponse;
 }
 namespace Oculus::Platform {
 template<typename T>

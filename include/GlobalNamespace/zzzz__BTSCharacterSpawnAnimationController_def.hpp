@@ -2,26 +2,26 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockFloatAnimator;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockColorSetter;
+}
 namespace UnityEngine::Timeline {
 class ActivationTrack;
+}
+namespace GlobalNamespace {
+class JumpReceiver;
 }
 namespace GlobalNamespace {
 class SongSpeedData;
 }
 namespace GlobalNamespace {
 class BTSCharacter;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockColorSetter;
-}
-namespace GlobalNamespace {
-class JumpReceiver;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockFloatAnimator;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -192,8 +192,7 @@ constexpr float_t __get__animatorNormalizedTimeBeforePause() const;
 /// @brief Method PauseAnimation addr 0x20a7ad4 size 0x9c virtual false final false
  void PauseAnimation() ;
 
-// Ctor Parameters []
-explicit BTSCharacterSpawnAnimationController() ;
+static GlobalNamespace::BTSCharacterSpawnAnimationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a7b70 size 0x8 virtual false final false
  void _ctor() ;

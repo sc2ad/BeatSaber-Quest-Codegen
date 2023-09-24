@@ -5,19 +5,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct UnityEngine__GraphicsBuffer__Target;
-}
-namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct SkinQuality;
+class GraphicsBuffer;
+}
+namespace UnityEngine {
+struct UnityEngine__GraphicsBuffer__Target;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-class GraphicsBuffer;
+struct SkinQuality;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -156,8 +156,7 @@ constexpr explicit SkinnedMeshRenderer(void* ptr) noexcept : UnityEngine::Render
 /// @brief Method set_vertexBufferTarget addr 0x2b2e504 size 0x44 virtual false final false
  void set_vertexBufferTarget(UnityEngine::UnityEngine__GraphicsBuffer__Target value) ;
 
-// Ctor Parameters []
-explicit SkinnedMeshRenderer() ;
+static UnityEngine::SkinnedMeshRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b2e548 size 0x8 virtual false final false
  void _ctor() ;

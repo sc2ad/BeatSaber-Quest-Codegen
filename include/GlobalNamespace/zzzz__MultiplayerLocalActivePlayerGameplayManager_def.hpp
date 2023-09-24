@@ -3,31 +3,34 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class GameEnergyCounter;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalPlayerDisconnectHelper;
-}
-namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
-}
-namespace GlobalNamespace {
-class SaberManager;
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class GameSongController;
 }
 namespace GlobalNamespace {
-class GameEnergyCounter;
+class MultiplayerLocalPlayerDisconnectHelper;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerInGameMenuController;
+class GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData;
 }
 namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsListener;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class PrepareLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalActivePlayerInGameMenuController;
+}
+namespace GlobalNamespace {
+class SaberManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,8 +90,7 @@ constexpr bool __get_failOn0Energy() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "failOn0Energy", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData(bool failOn0Energy) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerGameplayManager__InitData New_ctor(bool failOn0Energy) ;
 
 /// @brief Method .ctor addr 0x20e801c size 0x28 virtual false final false
  void _ctor(bool failOn0Energy) ;
@@ -249,8 +251,7 @@ constexpr bool __get__levelFinishedOrFailed() const;
 /// @brief Method OnApplicationFocus addr 0x20e8008 size 0xc virtual false final false
  void OnApplicationFocus(bool hasFocus) ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalActivePlayerGameplayManager() ;
+static GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e8014 size 0x8 virtual false final false
  void _ctor() ;

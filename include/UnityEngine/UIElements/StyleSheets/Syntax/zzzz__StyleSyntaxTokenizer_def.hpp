@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+struct StyleSyntaxToken;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-struct StyleSyntaxToken;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
@@ -100,8 +100,7 @@ static bool IsNextNumber(::StringW s, int32_t index) ;
 /// @brief Method GlobCharacter addr 0x2c7d1f4 size 0x3c virtual false final false
 static int32_t GlobCharacter(::StringW s, int32_t index, char16_t c) ;
 
-// Ctor Parameters []
-explicit StyleSyntaxTokenizer() ;
+static UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c7d3cc size 0x84 virtual false final false
  void _ctor() ;

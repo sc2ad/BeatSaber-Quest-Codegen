@@ -10,7 +10,7 @@ class AchievementProgressList;
 // Type: Oculus.Platform.Models::AchievementProgressList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13382)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1128 }), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1128 }), TypeDefinitionIndex(TypeDefinitionIndex(13382))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13383))
 // CS Name: Oculus.Platform.Models.AchievementProgressList
 class CORDL_TYPE AchievementProgressList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::AchievementProgress> {
@@ -49,8 +49,7 @@ constexpr explicit AchievementProgressList(void* ptr) noexcept : Oculus::Platfor
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit AchievementProgressList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::AchievementProgressList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259c038 size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

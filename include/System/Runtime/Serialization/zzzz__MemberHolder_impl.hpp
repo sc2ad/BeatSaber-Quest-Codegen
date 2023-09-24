@@ -65,8 +65,10 @@ constexpr void System::Runtime::Serialization::MemberHolder::__set__context(Syst
 constexpr System::Runtime::Serialization::StreamingContext System::Runtime::Serialization::MemberHolder::__get__context() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::StreamingContext, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "ctx", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::Serialization::MemberHolder::MemberHolder(System::Type type, System::Runtime::Serialization::StreamingContext ctx)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MemberHolder>(type, ctx))) {}
+ System::Runtime::Serialization::MemberHolder System::Runtime::Serialization::MemberHolder::New_ctor(System::Type type, System::Runtime::Serialization::StreamingContext ctx)  {
+System::Runtime::Serialization::MemberHolder o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::MemberHolder>(type, ctx))};
+return o;
+}
  void System::Runtime::Serialization::MemberHolder::_ctor(System::Type type, System::Runtime::Serialization::StreamingContext ctx)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::MemberHolder>::get(),

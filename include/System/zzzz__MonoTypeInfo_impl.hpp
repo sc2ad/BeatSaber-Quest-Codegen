@@ -30,8 +30,10 @@ constexpr void System::MonoTypeInfo::__set_default_ctor(System::Reflection::Runt
 constexpr System::Reflection::RuntimeConstructorInfo System::MonoTypeInfo::__get_default_ctor() const {
 return ::cordl_internals::getInstanceField<System::Reflection::RuntimeConstructorInfo, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::MonoTypeInfo::MonoTypeInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoTypeInfo>())) {}
+ System::MonoTypeInfo System::MonoTypeInfo::New_ctor()  {
+System::MonoTypeInfo o{THROW_UNLESS(::il2cpp_utils::New<System::MonoTypeInfo>())};
+return o;
+}
  void System::MonoTypeInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::MonoTypeInfo>::get(),

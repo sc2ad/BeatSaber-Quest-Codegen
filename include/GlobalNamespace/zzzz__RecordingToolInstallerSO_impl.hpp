@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolInstallerSO_def.hpp"
-#include "GlobalNamespace/zzzz__ProgramArguments_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolResourceContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolResourceContainerSO_def.hpp"
+#include "GlobalNamespace/zzzz__ProgramArguments_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RecordingToolInstallerSO.InstallDependencies
 template<>
 
@@ -54,8 +54,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container, programArguments, beatmapCharacteristicCollection);
 }
-// Ctor Parameters []
- GlobalNamespace::RecordingToolInstallerSO::RecordingToolInstallerSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<RecordingToolInstallerSO>())) {}
+ GlobalNamespace::RecordingToolInstallerSO GlobalNamespace::RecordingToolInstallerSO::New_ctor()  {
+GlobalNamespace::RecordingToolInstallerSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingToolInstallerSO>())};
+return o;
+}
  void GlobalNamespace::RecordingToolInstallerSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingToolInstallerSO>::get(),

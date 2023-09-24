@@ -5,10 +5,10 @@ namespace UnityEngine::TextCore::LowLevel {
 struct GlyphPairAdjustmentRecord;
 }
 namespace TMPro {
-struct TMP_GlyphAdjustmentRecord;
+struct FontFeatureLookupFlags;
 }
 namespace TMPro {
-struct FontFeatureLookupFlags;
+struct TMP_GlyphAdjustmentRecord;
 }
 // Forward declare root types
 namespace TMPro {
@@ -104,14 +104,12 @@ constexpr TMPro::FontFeatureLookupFlags __get_m_FeatureLookupFlags() const;
 /// @brief Method set_featureLookupFlags addr 0x2a7a91c size 0x8 virtual false final false
  void set_featureLookupFlags(TMPro::FontFeatureLookupFlags value) ;
 
-// Ctor Parameters [CppParam { name: "firstAdjustmentRecord", ty: "TMPro::TMP_GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name: "secondAdjustmentRecord", ty: "TMPro::TMP_GlyphAdjustmentRecord", modifiers: "", def_value: None }]
-explicit TMP_GlyphPairAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) ;
+static TMPro::TMP_GlyphPairAdjustmentRecord New_ctor(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) ;
 
 /// @brief Method .ctor addr 0x2a780b4 size 0x48 virtual false final false
  void _ctor(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) ;
 
-// Ctor Parameters [CppParam { name: "glyphPairAdjustmentRecord", ty: "UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord", modifiers: "", def_value: None }]
-explicit TMP_GlyphPairAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) ;
+static TMPro::TMP_GlyphPairAdjustmentRecord New_ctor(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) ;
 
 /// @brief Method .ctor addr 0x2a775a4 size 0xb4 virtual false final false
  void _ctor(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) ;

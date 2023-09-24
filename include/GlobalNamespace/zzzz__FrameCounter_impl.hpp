@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FrameCounter::FrameCounter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FrameCounter>())) {}
+ GlobalNamespace::FrameCounter GlobalNamespace::FrameCounter::New_ctor()  {
+GlobalNamespace::FrameCounter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FrameCounter>())};
+return o;
+}
  void GlobalNamespace::FrameCounter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FrameCounter>::get(),

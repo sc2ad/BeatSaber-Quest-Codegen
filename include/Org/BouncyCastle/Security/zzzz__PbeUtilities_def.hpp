@@ -4,8 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ICollection;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class PbeParametersGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -13,23 +16,20 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace System::Collections {
 class IDictionary;
 }
+namespace System::Collections {
+class ICollection;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto {
-class PbeParametersGenerator;
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -115,8 +115,7 @@ static System::Collections::ICollection __declspec(property(get=get_Algorithms))
 
 // Methods
 
-// Ctor Parameters []
-explicit PbeUtilities() ;
+static Org::BouncyCastle::Security::PbeUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10a8640 size 0x8 virtual false final false
  void _ctor() ;

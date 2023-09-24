@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PresentHiddenSettingsAfterNClicks_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsFlowCoordinator_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PresentHiddenSettingsAfterNClicks.OnEnable
 template<>
 
@@ -127,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PresentHiddenSettingsAfterNClicks::PresentHiddenSettingsAfterNClicks()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PresentHiddenSettingsAfterNClicks>())) {}
+ GlobalNamespace::PresentHiddenSettingsAfterNClicks GlobalNamespace::PresentHiddenSettingsAfterNClicks::New_ctor()  {
+GlobalNamespace::PresentHiddenSettingsAfterNClicks o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PresentHiddenSettingsAfterNClicks>())};
+return o;
+}
  void GlobalNamespace::PresentHiddenSettingsAfterNClicks::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PresentHiddenSettingsAfterNClicks>::get(),

@@ -5,13 +5,13 @@ namespace GlobalNamespace {
 class ILevelRestartController;
 }
 namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
-}
-namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
+}
+namespace GlobalNamespace {
+class PrepareLevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr GlobalNamespace::MissionObjectiveCheckersManager __get__missionObjecti
 /// @brief Method RestartLevel addr 0x20d4434 size 0xb0 virtual true final true
  void RestartLevel() ;
 
-// Ctor Parameters []
-explicit MissionLevelRestartController() ;
+static GlobalNamespace::MissionLevelRestartController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d44e4 size 0x8 virtual false final false
  void _ctor() ;

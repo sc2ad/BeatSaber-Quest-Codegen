@@ -8,13 +8,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace Unity::XR::Oculus {
+struct SystemHeadset;
+}
+namespace Unity::XR::Oculus {
 struct Unity__XR__Oculus__Boundary__BoundaryType;
+}
+namespace Unity::XR::Oculus {
+struct Unity__XR__Oculus__NativeMethods__UserDefinedSettings;
+}
+namespace Unity::XR::Oculus {
+class Unity__XR__Oculus__NativeMethods__Internal;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace Unity::XR::Oculus {
-struct SystemHeadset;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {

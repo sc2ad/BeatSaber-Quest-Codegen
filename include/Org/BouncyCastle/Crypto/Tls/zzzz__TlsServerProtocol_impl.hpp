@@ -1,21 +1,21 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsProtocol_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsServerProtocol_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__NewSessionTicket_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsServerContextImpl_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsServer_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateRequest_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateStatus_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__NewSessionTicket_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsServer_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsServerContextImpl_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsServerProtocol._ctor
 template<>
 
@@ -432,8 +432,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::__set_mPrepare
 constexpr Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::__get_mPrepareFinishHash() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::TlsServerProtocol(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom)  : Org::BouncyCastle::Crypto::Tls::TlsProtocol(THROW_UNLESS(::il2cpp_utils::New<TlsServerProtocol>(stream, secureRandom))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsServerProtocol Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::New_ctor(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom)  {
+Org::BouncyCastle::Crypto::Tls::TlsServerProtocol o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsServerProtocol>(stream, secureRandom))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::_ctor(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsServerProtocol>::get(),
@@ -443,8 +445,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, secureRandom);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::TlsServerProtocol(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom)  : Org::BouncyCastle::Crypto::Tls::TlsProtocol(THROW_UNLESS(::il2cpp_utils::New<TlsServerProtocol>(input, output, secureRandom))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsServerProtocol Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::New_ctor(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom)  {
+Org::BouncyCastle::Crypto::Tls::TlsServerProtocol o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsServerProtocol>(input, output, secureRandom))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::_ctor(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsServerProtocol>::get(),
@@ -454,8 +458,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, input, output, secureRandom);
 }
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::TlsServerProtocol(Org::BouncyCastle::Security::SecureRandom secureRandom)  : Org::BouncyCastle::Crypto::Tls::TlsProtocol(THROW_UNLESS(::il2cpp_utils::New<TlsServerProtocol>(secureRandom))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsServerProtocol Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::New_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom)  {
+Org::BouncyCastle::Crypto::Tls::TlsServerProtocol o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsServerProtocol>(secureRandom))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsServerProtocol>::get(),

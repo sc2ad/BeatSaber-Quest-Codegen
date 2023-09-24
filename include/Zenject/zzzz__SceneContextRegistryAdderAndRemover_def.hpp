@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class IInitializable;
-}
-namespace Zenject {
 class SceneContext;
-}
-namespace System {
-class IDisposable;
 }
 namespace Zenject {
 class SceneContextRegistry;
+}
+namespace Zenject {
+class IInitializable;
+}
+namespace System {
+class IDisposable;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -84,8 +84,7 @@ constexpr Zenject::SceneContext __get__sceneContext() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sceneContext", ty: "Zenject::SceneContext", modifiers: "", def_value: None }, CppParam { name: "registry", ty: "Zenject::SceneContextRegistry", modifiers: "", def_value: None }]
-explicit SceneContextRegistryAdderAndRemover(Zenject::SceneContext sceneContext, Zenject::SceneContextRegistry registry) ;
+static Zenject::SceneContextRegistryAdderAndRemover New_ctor(Zenject::SceneContext sceneContext, Zenject::SceneContextRegistry registry) ;
 
 /// @brief Method .ctor addr 0x2d9f454 size 0x2c virtual false final false
  void _ctor(Zenject::SceneContext sceneContext, Zenject::SceneContextRegistry registry) ;

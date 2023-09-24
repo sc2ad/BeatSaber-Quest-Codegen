@@ -16,7 +16,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7249), inst: 4498 }), TypeDefinitionIndex(TypeDefinitionIndex(7249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7252)), TypeDefinitionIndex(TypeDefinitionIndex(7249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7249), inst: 4498 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7252), inst: 2 })
 // CS Name: UnityEngine.UIElements.MouseCaptureEventBase`1
 class CORDL_TYPE MouseCaptureEventBase_1<T> : public UnityEngine::UIElements::PointerCaptureEventBase_1<T> {
@@ -58,8 +58,7 @@ constexpr explicit MouseCaptureEventBase_1(void* ptr) noexcept : UnityEngine::UI
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
  void Init() ;
 
-// Ctor Parameters []
-explicit MouseCaptureEventBase_1() ;
+static UnityEngine::UIElements::MouseCaptureEventBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -142,14 +142,12 @@ constexpr int32_t __get_xOff() const;
 /// @brief Method GetDigestSize addr 0xe13408 size 0x8 virtual true final false
  int32_t GetDigestSize() ;
 
-// Ctor Parameters []
-explicit RipeMD320Digest() ;
+static Org::BouncyCastle::Crypto::Digests::RipeMD320Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0xe13410 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::RipeMD320Digest", modifiers: "", def_value: None }]
-explicit RipeMD320Digest(Org::BouncyCastle::Crypto::Digests::RipeMD320Digest t) ;
+static Org::BouncyCastle::Crypto::Digests::RipeMD320Digest New_ctor(Org::BouncyCastle::Crypto::Digests::RipeMD320Digest t) ;
 
 /// @brief Method .ctor addr 0xe1347c size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::RipeMD320Digest t) ;

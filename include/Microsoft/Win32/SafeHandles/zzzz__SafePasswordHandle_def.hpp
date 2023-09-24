@@ -60,8 +60,7 @@ constexpr explicit SafePasswordHandle(void* ptr) noexcept : System::Runtime::Int
 /// @brief Method FreeHandle addr 0x22be8b0 size 0x5c virtual false final false
  void FreeHandle() ;
 
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SafePasswordHandle(::StringW password) ;
+static Microsoft::Win32::SafeHandles::SafePasswordHandle New_ctor(::StringW password) ;
 
 /// @brief Method .ctor addr 0x22be90c size 0x78 virtual false final false
  void _ctor(::StringW password) ;

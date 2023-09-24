@@ -76,8 +76,7 @@ constexpr uint8_t __get_s() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit VmpcRandomGenerator() ;
+static Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb6e8c size 0x90 virtual false final false
  void _ctor() ;

@@ -2,13 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__GameplayModifiers__EnabledObstacleType;
 }
 namespace GlobalNamespace {
 class BeatmapDataItem;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +77,7 @@ constexpr bool __get_noBombs() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b9ec8 size 0x8 virtual false final false
  void _ctor() ;

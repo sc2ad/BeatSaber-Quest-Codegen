@@ -2,13 +2,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisSpawner_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__INoteDebrisDidFinishEvent_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__NoteDebris_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteDebris_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteDebrisSpawner.Start
 template<>
 
@@ -214,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteDebris);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteDebrisSpawner::NoteDebrisSpawner()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteDebrisSpawner>())) {}
+ GlobalNamespace::NoteDebrisSpawner GlobalNamespace::NoteDebrisSpawner::New_ctor()  {
+GlobalNamespace::NoteDebrisSpawner o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteDebrisSpawner>())};
+return o;
+}
  void GlobalNamespace::NoteDebrisSpawner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteDebrisSpawner>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__BooleanConverter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 //  Writing Method size for method: System::ComponentModel::BooleanConverter.CanConvertFrom
 template<>
 
@@ -158,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, context);
 }
-// Ctor Parameters []
- System::ComponentModel::BooleanConverter::BooleanConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<BooleanConverter>())) {}
+ System::ComponentModel::BooleanConverter System::ComponentModel::BooleanConverter::New_ctor()  {
+System::ComponentModel::BooleanConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::BooleanConverter>())};
+return o;
+}
  void System::ComponentModel::BooleanConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::BooleanConverter>::get(),

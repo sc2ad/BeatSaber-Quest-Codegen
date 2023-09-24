@@ -1,23 +1,8 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace Tayx::Graphy {
-class GraphyManager;
-}
-namespace Tayx::Graphy::Ram {
-class G_RamText;
-}
 namespace UnityEngine::UI {
 class Image;
-}
-namespace Tayx::Graphy::UI {
-class IMovable;
-}
-namespace Tayx::Graphy {
-struct Tayx__Graphy__GraphyManager__ModuleState;
-}
-namespace Tayx::Graphy::Ram {
-class G_RamGraph;
 }
 namespace Tayx::Graphy::UI {
 class IModifiableState;
@@ -25,15 +10,30 @@ class IModifiableState;
 namespace Tayx::Graphy {
 struct Tayx__Graphy__GraphyManager__ModulePosition;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__ModuleState;
 }
-namespace UnityEngine {
-class GameObject;
+namespace Tayx::Graphy {
+class GraphyManager;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Tayx::Graphy::Ram {
+class G_RamGraph;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace Tayx::Graphy::Ram {
+class G_RamText;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Tayx::Graphy::UI {
+class IMovable;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Ram {
@@ -171,8 +171,7 @@ constexpr Tayx::Graphy::Tayx__Graphy__GraphyManager__ModuleState __get_m_current
 /// @brief Method SetGraphActive addr 0x2874d90 size 0x44 virtual false final false
  void SetGraphActive(bool active) ;
 
-// Ctor Parameters []
-explicit G_RamManager() ;
+static Tayx::Graphy::Ram::G_RamManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2874e74 size 0xc0 virtual false final false
  void _ctor() ;

@@ -24,8 +24,10 @@ constexpr void System::Net::HttpListenerBasicIdentity::__set_password(::StringW 
 constexpr ::StringW System::Net::HttpListenerBasicIdentity::__get_password() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x88>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "username", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::HttpListenerBasicIdentity::HttpListenerBasicIdentity(::StringW username, ::StringW password)  : System::Security::Principal::GenericIdentity(THROW_UNLESS(::il2cpp_utils::New<HttpListenerBasicIdentity>(username, password))) {}
+ System::Net::HttpListenerBasicIdentity System::Net::HttpListenerBasicIdentity::New_ctor(::StringW username, ::StringW password)  {
+System::Net::HttpListenerBasicIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpListenerBasicIdentity>(username, password))};
+return o;
+}
  void System::Net::HttpListenerBasicIdentity::_ctor(::StringW username, ::StringW password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerBasicIdentity>::get(),

@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__EnvelopedData_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__Attributes_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__EncryptedContentInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__Attributes_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::EnvelopedData._ctor
 template<>
 
@@ -243,8 +243,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::EnvelopedData::__set_unprotectedAtt
 constexpr Org::BouncyCastle::Asn1::Asn1Set Org::BouncyCastle::Asn1::Cms::EnvelopedData::__get_unprotectedAttrs() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Set, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "originatorInfo", ty: "Org::BouncyCastle::Asn1::Cms::OriginatorInfo", modifiers: "", def_value: None }, CppParam { name: "recipientInfos", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "encryptedContentInfo", ty: "Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo", modifiers: "", def_value: None }, CppParam { name: "unprotectedAttrs", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::EnvelopedData::EnvelopedData(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo, Org::BouncyCastle::Asn1::Asn1Set recipientInfos, Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encryptedContentInfo, Org::BouncyCastle::Asn1::Asn1Set unprotectedAttrs)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<EnvelopedData>(originatorInfo, recipientInfos, encryptedContentInfo, unprotectedAttrs))) {}
+ Org::BouncyCastle::Asn1::Cms::EnvelopedData Org::BouncyCastle::Asn1::Cms::EnvelopedData::New_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo, Org::BouncyCastle::Asn1::Asn1Set recipientInfos, Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encryptedContentInfo, Org::BouncyCastle::Asn1::Asn1Set unprotectedAttrs)  {
+Org::BouncyCastle::Asn1::Cms::EnvelopedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::EnvelopedData>(originatorInfo, recipientInfos, encryptedContentInfo, unprotectedAttrs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::EnvelopedData::_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo, Org::BouncyCastle::Asn1::Asn1Set recipientInfos, Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encryptedContentInfo, Org::BouncyCastle::Asn1::Asn1Set unprotectedAttrs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::EnvelopedData>::get(),
@@ -254,8 +256,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, originatorInfo, recipientInfos, encryptedContentInfo, unprotectedAttrs);
 }
-// Ctor Parameters [CppParam { name: "originatorInfo", ty: "Org::BouncyCastle::Asn1::Cms::OriginatorInfo", modifiers: "", def_value: None }, CppParam { name: "recipientInfos", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "encryptedContentInfo", ty: "Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo", modifiers: "", def_value: None }, CppParam { name: "unprotectedAttrs", ty: "Org::BouncyCastle::Asn1::Cms::Attributes", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::EnvelopedData::EnvelopedData(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo, Org::BouncyCastle::Asn1::Asn1Set recipientInfos, Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encryptedContentInfo, Org::BouncyCastle::Asn1::Cms::Attributes unprotectedAttrs)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<EnvelopedData>(originatorInfo, recipientInfos, encryptedContentInfo, unprotectedAttrs))) {}
+ Org::BouncyCastle::Asn1::Cms::EnvelopedData Org::BouncyCastle::Asn1::Cms::EnvelopedData::New_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo, Org::BouncyCastle::Asn1::Asn1Set recipientInfos, Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encryptedContentInfo, Org::BouncyCastle::Asn1::Cms::Attributes unprotectedAttrs)  {
+Org::BouncyCastle::Asn1::Cms::EnvelopedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::EnvelopedData>(originatorInfo, recipientInfos, encryptedContentInfo, unprotectedAttrs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::EnvelopedData::_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo, Org::BouncyCastle::Asn1::Asn1Set recipientInfos, Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encryptedContentInfo, Org::BouncyCastle::Asn1::Cms::Attributes unprotectedAttrs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::EnvelopedData>::get(),
@@ -265,8 +269,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, originatorInfo, recipientInfos, encryptedContentInfo, unprotectedAttrs);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::EnvelopedData::EnvelopedData(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<EnvelopedData>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::EnvelopedData Org::BouncyCastle::Asn1::Cms::EnvelopedData::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cms::EnvelopedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::EnvelopedData>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::EnvelopedData::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::EnvelopedData>::get(),

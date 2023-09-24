@@ -6,16 +6,19 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
+namespace Internal::Cryptography {
+class Internal__Cryptography__OidLookup____c;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System::Security::Cryptography {
-struct OidGroup;
-}
 namespace System::Collections::Concurrent {
 template<typename TKey,typename TValue>
 class ConcurrentDictionary_2;
+}
+namespace System::Security::Cryptography {
+struct OidGroup;
 }
 // Forward declare root types
 namespace Internal::Cryptography {
@@ -75,8 +78,7 @@ static Internal::Cryptography::Internal__Cryptography__OidLookup____c __get___9(
 
 // Methods
 
-// Ctor Parameters []
-explicit Internal__Cryptography__OidLookup____c() ;
+static Internal::Cryptography::Internal__Cryptography__OidLookup____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2697674 size 0x8 virtual false final false
  void _ctor() ;

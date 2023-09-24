@@ -4,10 +4,10 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-struct BeatmapEventTransitionType;
+struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
-struct EnvironmentColorType;
+struct BeatmapEventTransitionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,8 +88,7 @@ constexpr int32_t __get_strobeBeatFrequency() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transitionType", ty: "GlobalNamespace::BeatmapEventTransitionType", modifiers: "", def_value: None }, CppParam { name: "colorType", ty: "GlobalNamespace::EnvironmentColorType", modifiers: "", def_value: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "strobeBeatFrequency", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LightColorBaseData(float_t beat, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency) ;
+static GlobalNamespace::LightColorBaseData New_ctor(float_t beat, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency) ;
 
 /// @brief Method .ctor addr 0x21d7b94 size 0x54 virtual false final false
  void _ctor(float_t beat, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency) ;

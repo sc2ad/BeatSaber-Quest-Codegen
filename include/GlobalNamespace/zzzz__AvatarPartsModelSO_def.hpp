@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class AvatarSpritePartSO;
+class AvatarMeshPartSO;
 }
 namespace GlobalNamespace {
-class AvatarMeshPartSO;
+class AvatarSpritePartSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -137,8 +137,7 @@ constexpr ::ArrayW<GlobalNamespace::AvatarMeshPartSO> __get__clothes() const;
 /// @brief Method get_Clothes addr 0x2229964 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::AvatarMeshPartSO> get_Clothes() ;
 
-// Ctor Parameters []
-explicit AvatarPartsModelSO() ;
+static GlobalNamespace::AvatarPartsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x222996c size 0x8 virtual false final false
  void _ctor() ;

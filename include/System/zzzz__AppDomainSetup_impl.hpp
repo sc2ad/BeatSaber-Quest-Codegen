@@ -173,8 +173,10 @@ constexpr void System::AppDomainSetup::__set__TargetFrameworkName_k__BackingFiel
 constexpr ::StringW System::AppDomainSetup::__get__TargetFrameworkName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0xc0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::AppDomainSetup::AppDomainSetup()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AppDomainSetup>())) {}
+ System::AppDomainSetup System::AppDomainSetup::New_ctor()  {
+System::AppDomainSetup o{THROW_UNLESS(::il2cpp_utils::New<System::AppDomainSetup>())};
+return o;
+}
  void System::AppDomainSetup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::AppDomainSetup>::get(),

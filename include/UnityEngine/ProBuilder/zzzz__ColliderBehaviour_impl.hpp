@@ -98,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, scene, mode);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::ColliderBehaviour::ColliderBehaviour()  : UnityEngine::ProBuilder::EntityBehaviour(THROW_UNLESS(::il2cpp_utils::New<ColliderBehaviour>())) {}
+ UnityEngine::ProBuilder::ColliderBehaviour UnityEngine::ProBuilder::ColliderBehaviour::New_ctor()  {
+UnityEngine::ProBuilder::ColliderBehaviour o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::ColliderBehaviour>())};
+return o;
+}
  void UnityEngine::ProBuilder::ColliderBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::ColliderBehaviour>::get(),

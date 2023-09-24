@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: System::Xml::System__Xml__XmlNamespaceManager__NamespaceDeclaration.Set
 template<>
 
@@ -322,8 +323,10 @@ constexpr void System::Xml::XmlNamespaceManager::__set_xmlNs(::StringW value)  {
 constexpr ::StringW System::Xml::XmlNamespaceManager::__get_xmlNs() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::XmlNamespaceManager::XmlNamespaceManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlNamespaceManager>())) {}
+ System::Xml::XmlNamespaceManager System::Xml::XmlNamespaceManager::New_ctor()  {
+System::Xml::XmlNamespaceManager o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlNamespaceManager>())};
+return o;
+}
  void System::Xml::XmlNamespaceManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlNamespaceManager>::get(),
@@ -333,8 +336,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "nameTable", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
- System::Xml::XmlNamespaceManager::XmlNamespaceManager(System::Xml::XmlNameTable nameTable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlNamespaceManager>(nameTable))) {}
+ System::Xml::XmlNamespaceManager System::Xml::XmlNamespaceManager::New_ctor(System::Xml::XmlNameTable nameTable)  {
+System::Xml::XmlNamespaceManager o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlNamespaceManager>(nameTable))};
+return o;
+}
  void System::Xml::XmlNamespaceManager::_ctor(System::Xml::XmlNameTable nameTable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlNamespaceManager>::get(),

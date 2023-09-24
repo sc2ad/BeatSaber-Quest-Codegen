@@ -67,8 +67,7 @@ constexpr System::IO::Stream __get__out() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit Asn1Generator(System::IO::Stream outStream) ;
+static Org::BouncyCastle::Asn1::Asn1Generator New_ctor(System::IO::Stream outStream) ;
 
 /// @brief Method .ctor addr 0x1128bc8 size 0x28 virtual false final false
  void _ctor(System::IO::Stream outStream) ;

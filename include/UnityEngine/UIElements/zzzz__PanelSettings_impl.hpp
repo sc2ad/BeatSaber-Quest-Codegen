@@ -1,23 +1,24 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PanelScreenMatchMode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DynamicAtlasSettings_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PanelScaleMode_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PanelTextSettings_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PanelTextSettings_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
-#include "UnityEngine/zzzz__Vector2Int_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PanelScreenMatchMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PanelScaleMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ThemeStyleSheet_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector2Int_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DynamicAtlasSettings_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UIDocumentList_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess._ctor
 template<>
 
@@ -200,8 +201,10 @@ constexpr void UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__
 constexpr UnityEngine::UIElements::BaseRuntimePanel UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess::__get_m_RuntimePanel() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::BaseRuntimePanel, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "settings", ty: "UnityEngine::UIElements::PanelSettings", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess(UnityEngine::UIElements::PanelSettings settings)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__PanelSettings__RuntimePanelAccess>(settings))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess::New_ctor(UnityEngine::UIElements::PanelSettings settings)  {
+UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess>(settings))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess::_ctor(UnityEngine::UIElements::PanelSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess>::get(),
@@ -1610,8 +1613,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::PanelSettings::PanelSettings()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<PanelSettings>())) {}
+ UnityEngine::UIElements::PanelSettings UnityEngine::UIElements::PanelSettings::New_ctor()  {
+UnityEngine::UIElements::PanelSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PanelSettings>())};
+return o;
+}
  void UnityEngine::UIElements::PanelSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PanelSettings>::get(),

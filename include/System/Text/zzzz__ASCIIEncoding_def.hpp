@@ -8,20 +8,20 @@ namespace System::Text {
 class Decoder;
 }
 namespace System::Text {
+class Encoder;
+}
+namespace System::Text {
 class EncoderNLS;
+}
+namespace System::Text {
+class System__Text__ASCIIEncoding__ASCIIEncodingSealed;
 }
 namespace System::Text {
 class DecoderNLS;
 }
-namespace System::Text {
-class Encoder;
-}
 // Forward declare root types
 namespace System::Text {
 class ASCIIEncoding;
-}
-namespace System::Text {
-class System__Text__ASCIIEncoding__ASCIIEncodingSealed;
 }
 // Type: System.Text::ASCIIEncoding
 namespace System::Text {
@@ -76,8 +76,7 @@ static System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed __get_s_de
 
 // Methods
 
-// Ctor Parameters []
-explicit ASCIIEncoding() ;
+static System::Text::ASCIIEncoding New_ctor() ;
 
 /// @brief Method .ctor addr 0x24bf960 size 0xc virtual false final false
  void _ctor() ;
@@ -146,59 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-// Type: ::ASCIIEncodingSealed
-namespace System::Text {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2822))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2821))
-// CS Name: System.Text.ASCIIEncoding::ASCIIEncodingSealed
-class CORDL_TYPE System__Text__ASCIIEncoding__ASCIIEncodingSealed : public System::Text::ASCIIEncoding {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
-
-virtual ~System__Text__ASCIIEncoding__ASCIIEncodingSealed() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Text__ASCIIEncoding__ASCIIEncodingSealed", modifiers: " const&", def_value: None }]
-constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed(System__Text__ASCIIEncoding__ASCIIEncodingSealed const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Text__ASCIIEncoding__ASCIIEncodingSealed", modifiers: "&&", def_value: None }]
-constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed(System__Text__ASCIIEncoding__ASCIIEncodingSealed&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Text__ASCIIEncoding__ASCIIEncodingSealed(void* ptr) noexcept : System::Text::ASCIIEncoding(ptr) {
-}
-
-
-  constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(System__Text__ASCIIEncoding__ASCIIEncodingSealed&& o) noexcept = default;
-  constexpr System__Text__ASCIIEncoding__ASCIIEncodingSealed& operator=(System__Text__ASCIIEncoding__ASCIIEncodingSealed const& o) noexcept = default;
-                
-
-
-// Methods
-
-// Ctor Parameters []
-explicit System__Text__ASCIIEncoding__ASCIIEncodingSealed() ;
-
-/// @brief Method .ctor addr 0x24c1ae0 size 0x5c virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Text
 NEED_NO_BOX(System::Text::ASCIIEncoding);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::ASCIIEncoding, "System.Text", "ASCIIEncoding");
-NEED_NO_BOX(System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__ASCIIEncoding__ASCIIEncodingSealed, "System.Text", "ASCIIEncoding/ASCIIEncodingSealed");

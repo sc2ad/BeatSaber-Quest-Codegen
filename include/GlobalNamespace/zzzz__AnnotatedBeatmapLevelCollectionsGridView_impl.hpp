@@ -1,25 +1,23 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionsGridView_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
-#include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "GlobalNamespace/zzzz__PageControl_def.hpp"
+#include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "GlobalNamespace/zzzz__GridView_def.hpp"
 #include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionsGridViewAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionCell_def.hpp"
-#include "GlobalNamespace/zzzz__GridView_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsPromoDataSO_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
+#include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionCell_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView.add_didOpenAnnotatedBeatmapLevelCollectionEvent
 template<>
 
@@ -747,8 +745,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::MonoBehaviour, false>(const_cast<void*>(instance), ___internal_method, gridView, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::AnnotatedBeatmapLevelCollectionsGridView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionsGridView>())) {}
+ GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::New_ctor()  {
+GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView>())};
+return o;
+}
  void GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView>::get(),

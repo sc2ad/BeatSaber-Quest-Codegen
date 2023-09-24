@@ -6,10 +6,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
@@ -81,8 +81,7 @@ static Org::BouncyCastle::Asn1::DerUniversalString GetInstance(::bs_hook::Il2Cpp
 /// @brief Method GetInstance addr 0x1139478 size 0xfc virtual false final false
 static Org::BouncyCastle::Asn1::DerUniversalString GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerUniversalString(::ArrayW<uint8_t> str) ;
+static Org::BouncyCastle::Asn1::DerUniversalString New_ctor(::ArrayW<uint8_t> str) ;
 
 /// @brief Method .ctor addr 0x112c1d4 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> str) ;

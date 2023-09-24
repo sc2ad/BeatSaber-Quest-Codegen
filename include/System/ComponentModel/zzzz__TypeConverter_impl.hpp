@@ -1,17 +1,18 @@
 #pragma once
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
 //  Writing Method size for method: System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor._ctor
 template<>
 
@@ -143,8 +144,10 @@ constexpr void System::ComponentModel::System__ComponentModel__TypeConverter__Si
 constexpr System::Type System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor::__get_propertyType() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "propertyType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor::System__ComponentModel__TypeConverter__SimplePropertyDescriptor(System::Type componentType, ::StringW name, System::Type propertyType, ::ArrayW<System::Attribute> attributes)  : System::ComponentModel::PropertyDescriptor(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__TypeConverter__SimplePropertyDescriptor>(componentType, name, propertyType, attributes))) {}
+ System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor::New_ctor(System::Type componentType, ::StringW name, System::Type propertyType, ::ArrayW<System::Attribute> attributes)  {
+System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor>(componentType, name, propertyType, attributes))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor::_ctor(System::Type componentType, ::StringW name, System::Type propertyType, ::ArrayW<System::Attribute> attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor>::get(),
@@ -381,8 +384,10 @@ constexpr void System::ComponentModel::System__ComponentModel__TypeConverter__St
 constexpr System::Array System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection::__get_valueArray() const {
 return ::cordl_internals::getInstanceField<System::Array, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "values", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection::System__ComponentModel__TypeConverter__StandardValuesCollection(System::Collections::ICollection values)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__TypeConverter__StandardValuesCollection>(values))) {}
+ System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection::New_ctor(System::Collections::ICollection values)  {
+System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection>(values))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection::_ctor(System::Collections::ICollection values)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection>::get(),
@@ -1501,8 +1506,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::ComponentModel::PropertyDescriptorCollection, false>(const_cast<void*>(instance), ___internal_method, props, names);
 }
-// Ctor Parameters []
- System::ComponentModel::TypeConverter::TypeConverter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TypeConverter>())) {}
+ System::ComponentModel::TypeConverter System::ComponentModel::TypeConverter::New_ctor()  {
+System::ComponentModel::TypeConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::TypeConverter>())};
+return o;
+}
  void System::ComponentModel::TypeConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::TypeConverter>::get(),

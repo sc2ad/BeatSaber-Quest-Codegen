@@ -2,11 +2,12 @@
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__BundledAssetProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
-#include "UnityEngine/zzzz__AssetBundle_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__BundledAssetProvider_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__AssetBundleRequest_def.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "UnityEngine/zzzz__AssetBundle_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp.Start
 template<>
 
@@ -351,8 +352,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp::UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp>::get(),
@@ -414,8 +417,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, provideHandle);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::BundledAssetProvider()  : UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase(THROW_UNLESS(::il2cpp_utils::New<BundledAssetProvider>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider>::get(),

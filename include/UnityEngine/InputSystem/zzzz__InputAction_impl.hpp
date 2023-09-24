@@ -2,22 +2,22 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionType_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionPhase_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__ActionFlags::UnityEngine__InputSystem__InputAction__ActionFlags(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1829,8 +1829,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::InputAction::InputAction()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputAction>())) {}
+ UnityEngine::InputSystem::InputAction UnityEngine::InputSystem::InputAction::New_ctor()  {
+UnityEngine::InputSystem::InputAction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::InputAction>())};
+return o;
+}
  void UnityEngine::InputSystem::InputAction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::InputAction>::get(),
@@ -1840,8 +1842,16 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "type", ty: "UnityEngine::InputSystem::InputActionType", modifiers: "", def_value: Some("0") }, CppParam { name: "binding", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::InputSystem::InputAction::InputAction(::StringW name, UnityEngine::InputSystem::InputActionType type, ::StringW binding, ::StringW interactions, ::StringW processors, ::StringW expectedControlType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputAction>(name, type, binding, interactions, processors, expectedControlType))) {}
+/// @param name: ::StringW (default: csnull)
+/// @param type: UnityEngine::InputSystem::InputActionType (default: 0)
+/// @param binding: ::StringW (default: csnull)
+/// @param interactions: ::StringW (default: csnull)
+/// @param processors: ::StringW (default: csnull)
+/// @param expectedControlType: ::StringW (default: csnull)
+ UnityEngine::InputSystem::InputAction UnityEngine::InputSystem::InputAction::New_ctor(::StringW name, UnityEngine::InputSystem::InputActionType type, ::StringW binding, ::StringW interactions, ::StringW processors, ::StringW expectedControlType)  {
+UnityEngine::InputSystem::InputAction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::InputAction>(name, type, binding, interactions, processors, expectedControlType))};
+return o;
+}
 /// @param name: ::StringW (default: csnull)
 /// @param type: UnityEngine::InputSystem::InputActionType (default: 0)
 /// @param binding: ::StringW (default: csnull)

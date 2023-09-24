@@ -63,8 +63,7 @@ constexpr int32_t __get_cipherKeySize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "derivation", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "macKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit IesWithCipherParameters(::ArrayW<uint8_t> derivation, ::ArrayW<uint8_t> encoding, int32_t macKeySize, int32_t cipherKeySize) ;
+static Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters New_ctor(::ArrayW<uint8_t> derivation, ::ArrayW<uint8_t> encoding, int32_t macKeySize, int32_t cipherKeySize) ;
 
 /// @brief Method .ctor addr 0xea9b9c size 0x40 virtual false final false
  void _ctor(::ArrayW<uint8_t> derivation, ::ArrayW<uint8_t> encoding, int32_t macKeySize, int32_t cipherKeySize) ;

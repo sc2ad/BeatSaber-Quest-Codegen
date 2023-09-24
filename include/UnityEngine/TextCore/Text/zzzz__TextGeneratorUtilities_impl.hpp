@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__TextGeneratorUtilities_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextStyle_def.hpp"
-#include "UnityEngine/zzzz__TextAnchor_def.hpp"
-#include "UnityEngine/zzzz__FontStyle_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextGenerationSettings_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextStyle_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
+#include "UnityEngine/zzzz__FontStyle_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Text::TextGeneratorUtilities.Approximately
 template<>
 

@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Newtonsoft::Json::Serialization {
-class IReferenceResolver;
-}
 namespace Newtonsoft::Json::Utilities {
 template<typename TFirst,typename TSecond>
 class BidirectionalDictionary_2;
+}
+namespace Newtonsoft::Json::Serialization {
+class IReferenceResolver;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -83,8 +83,7 @@ constexpr int32_t __get__referenceCount() const;
 /// @brief Method IsReferenced addr 0x24f6b78 size 0x74 virtual true final true
  bool IsReferenced(::bs_hook::Il2CppWrapperType context, ::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters []
-explicit DefaultReferenceResolver() ;
+static Newtonsoft::Json::Serialization::DefaultReferenceResolver New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f6bec size 0x8 virtual false final false
  void _ctor() ;

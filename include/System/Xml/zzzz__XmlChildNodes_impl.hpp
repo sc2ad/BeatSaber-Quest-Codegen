@@ -60,8 +60,10 @@ constexpr void System::Xml::XmlChildNodes::__set_container(System::Xml::XmlNode 
 constexpr System::Xml::XmlNode System::Xml::XmlChildNodes::__get_container() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlNode, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }]
- System::Xml::XmlChildNodes::XmlChildNodes(System::Xml::XmlNode container)  : System::Xml::XmlNodeList(THROW_UNLESS(::il2cpp_utils::New<XmlChildNodes>(container))) {}
+ System::Xml::XmlChildNodes System::Xml::XmlChildNodes::New_ctor(System::Xml::XmlNode container)  {
+System::Xml::XmlChildNodes o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlChildNodes>(container))};
+return o;
+}
  void System::Xml::XmlChildNodes::_ctor(System::Xml::XmlNode container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlChildNodes>::get(),

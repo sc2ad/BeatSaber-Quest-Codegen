@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::UnixNoLibCIPGlobalProperties()  : System::Net::NetworkInformation::UnixIPGlobalProperties(THROW_UNLESS(::il2cpp_utils::New<UnixNoLibCIPGlobalProperties>())) {}
+ System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::New_ctor()  {
+System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties>())};
+return o;
+}
  void System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties>::get(),

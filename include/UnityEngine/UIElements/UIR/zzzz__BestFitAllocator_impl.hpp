@@ -2,6 +2,7 @@
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block.get_size
 template<>
@@ -88,8 +89,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block::UnityEngine__UIElements__UIR__BestFitAllocator__Block()  : UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIR__BestFitAllocator__Block>())) {}
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block::New_ctor()  {
+UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block>::get(),
@@ -168,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, block);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool()  : UnityEngine::UIElements::UIR::LinkedPool_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool>())) {}
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool::New_ctor()  {
+UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool>::get(),
@@ -345,8 +350,10 @@ constexpr void UnityEngine::UIElements::UIR::BestFitAllocator::__set_m_HighWater
 constexpr uint32_t UnityEngine::UIElements::UIR::BestFitAllocator::__get_m_HighWatermark() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UIR::BestFitAllocator::BestFitAllocator(uint32_t size)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BestFitAllocator>(size))) {}
+ UnityEngine::UIElements::UIR::BestFitAllocator UnityEngine::UIElements::UIR::BestFitAllocator::New_ctor(uint32_t size)  {
+UnityEngine::UIElements::UIR::BestFitAllocator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::BestFitAllocator>(size))};
+return o;
+}
  void UnityEngine::UIElements::UIR::BestFitAllocator::_ctor(uint32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::BestFitAllocator>::get(),

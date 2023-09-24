@@ -5,49 +5,52 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace OVR::OpenVR {
-class CVRChaperoneSetup;
-}
-namespace OVR::OpenVR {
-class CVRSettings;
-}
-namespace OVR::OpenVR {
-class CVRSpatialAnchors;
-}
-namespace OVR::OpenVR {
-class CVRApplications;
-}
-namespace OVR::OpenVR {
-class CVRInput;
-}
-namespace OVR::OpenVR {
-class CVRRenderModels;
-}
-namespace OVR::OpenVR {
-class CVRScreenshots;
-}
-namespace OVR::OpenVR {
 class CVRTrackedCamera;
-}
-namespace OVR::OpenVR {
-class CVRExtendedDisplay;
 }
 namespace OVR::OpenVR {
 class CVRCompositor;
 }
 namespace OVR::OpenVR {
+class CVRInput;
+}
+namespace OVR::OpenVR {
+class CVRSettings;
+}
+namespace OVR::OpenVR {
 class CVRChaperone;
 }
 namespace OVR::OpenVR {
-class CVROverlay;
+class CVRApplications;
+}
+namespace OVR::OpenVR {
+class CVRScreenshots;
+}
+namespace OVR::OpenVR {
+class CVRSpatialAnchors;
 }
 namespace OVR::OpenVR {
 class CVRSystem;
 }
 namespace OVR::OpenVR {
-struct EVRApplicationType;
+class CVRExtendedDisplay;
+}
+namespace OVR::OpenVR {
+class CVROverlay;
+}
+namespace OVR::OpenVR {
+class CVRRenderModels;
+}
+namespace OVR::OpenVR {
+class CVRChaperoneSetup;
 }
 namespace OVR::OpenVR {
 struct EVRInitError;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__OpenVR__COpenVRContext;
+}
+namespace OVR::OpenVR {
+struct EVRApplicationType;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -179,8 +182,7 @@ constexpr OVR::OpenVR::CVRSpatialAnchors __get_m_pVRSpatialAnchors() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit OVR__OpenVR__OpenVR__COpenVRContext() ;
+static OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x26699b4 size 0x2c virtual false final false
  void _ctor() ;
@@ -1067,8 +1069,7 @@ static OVR::OpenVR::CVRSystem Init(ByRef<OVR::OpenVR::EVRInitError> peError, OVR
 /// @brief Method Shutdown addr 0x266a850 size 0x4 virtual false final false
 static void Shutdown() ;
 
-// Ctor Parameters []
-explicit OpenVR() ;
+static OVR::OpenVR::OpenVR New_ctor() ;
 
 /// @brief Method .ctor addr 0x266a854 size 0x8 virtual false final false
  void _ctor() ;

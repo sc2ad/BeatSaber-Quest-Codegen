@@ -7,59 +7,59 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::Rendering {
-struct TextureDimension;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::Rendering {
-struct GlobalKeyword;
-}
-namespace UnityEngine::Rendering {
-struct ShaderHardwareTier;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::Rendering {
-struct RenderTextureSubElement;
-}
-namespace UnityEngine {
-class GraphicsBuffer;
-}
-namespace UnityEngine::Rendering {
-struct ShaderTagId;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-class ComputeBuffer;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::Rendering {
 struct ShaderPropertyType;
 }
 namespace UnityEngine {
 struct Vector4;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::Rendering {
+struct LocalKeywordSpace;
+}
+namespace UnityEngine::Rendering {
+struct GlobalKeyword;
 }
 namespace UnityEngine {
 struct DisableBatchingType;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class GraphicsBuffer;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine::Rendering {
+struct ShaderTagId;
+}
+namespace UnityEngine::Rendering {
+struct RenderTextureSubElement;
+}
+namespace UnityEngine::Rendering {
+struct ShaderHardwareTier;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class ComputeBuffer;
 }
 namespace UnityEngine::Rendering {
 struct ShaderPropertyFlags;
 }
 namespace UnityEngine::Rendering {
-struct LocalKeywordSpace;
+struct TextureDimension;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -556,8 +556,7 @@ static void GetGlobalMatrixArray(::StringW name, System::Collections::Generic::L
 /// @brief Method GetGlobalMatrixArray addr 0x2b45608 size 0x4 virtual false final false
 static void GetGlobalMatrixArray(int32_t nameID, System::Collections::Generic::List_1<UnityEngine::Matrix4x4> values) ;
 
-// Ctor Parameters []
-explicit Shader() ;
+static UnityEngine::Shader New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b4560c size 0x58 virtual false final false
  void _ctor() ;

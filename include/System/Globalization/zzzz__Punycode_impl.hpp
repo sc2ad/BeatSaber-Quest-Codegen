@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Globalization::Punycode::Punycode()  : System::Globalization::Bootstring(THROW_UNLESS(::il2cpp_utils::New<Punycode>())) {}
+ System::Globalization::Punycode System::Globalization::Punycode::New_ctor()  {
+System::Globalization::Punycode o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::Punycode>())};
+return o;
+}
  void System::Globalization::Punycode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::Punycode>::get(),

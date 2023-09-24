@@ -2,15 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Newtonsoft::Json::Linq {
+class JProperty;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace Newtonsoft::Json::Linq {
-class JProperty;
+namespace Newtonsoft::Json::Converters {
+class Newtonsoft__Json__Converters__QuaternionConverter____c;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
+class JsonWriter;
 }
 namespace System {
 class Type;
@@ -19,7 +22,7 @@ namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -109,8 +112,7 @@ static System::Func_2<Newtonsoft::Json::Linq::JProperty,bool> __get___9__2_4() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Converters__QuaternionConverter____c() ;
+static Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x253e174 size 0x8 virtual false final false
  void _ctor() ;
@@ -195,8 +197,7 @@ constexpr explicit QuaternionConverter(void* ptr) noexcept : Newtonsoft::Json::J
 /// @brief Method get_CanRead addr 0x253e100 size 0x8 virtual true final false
  bool get_CanRead() ;
 
-// Ctor Parameters []
-explicit QuaternionConverter() ;
+static Newtonsoft::Json::Converters::QuaternionConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x253e108 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

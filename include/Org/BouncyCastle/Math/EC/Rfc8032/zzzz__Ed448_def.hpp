@@ -4,11 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+class Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+struct Org__BouncyCastle__Math__EC__Rfc8032__Ed448__Algorithm;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+class Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp;
 }
 namespace Org::BouncyCastle::Crypto {
 class IXof;
@@ -75,6 +84,8 @@ __Ed448ph = 1,
 constexpr operator __Org__BouncyCastle__Math__EC__Rfc8032__Ed448__Algorithm_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Math__EC__Rfc8032__Ed448__Algorithm_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -158,8 +169,7 @@ constexpr ::ArrayW<uint32_t> __get_z() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt() ;
+static Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt New_ctor() ;
 
 /// @brief Method .ctor addr 0xfbabfc size 0x3c virtual false final false
  void _ctor() ;
@@ -225,8 +235,7 @@ constexpr ::ArrayW<uint32_t> __get_y() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp() ;
+static Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp New_ctor() ;
 
 /// @brief Method .ctor addr 0xfbbecc size 0x30 virtual false final false
  void _ctor() ;
@@ -598,8 +607,7 @@ static bool VerifyPrehash(::ArrayW<uint8_t> sig, int32_t sigOff, ::ArrayW<uint8_
 /// @brief Method VerifyPrehash addr 0xfbc898 size 0x1d4 virtual false final false
 static bool VerifyPrehash(::ArrayW<uint8_t> sig, int32_t sigOff, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, Org::BouncyCastle::Crypto::IXof ph) ;
 
-// Ctor Parameters []
-explicit Ed448() ;
+static Org::BouncyCastle::Math::EC::Rfc8032::Ed448 New_ctor() ;
 
 /// @brief Method .ctor addr 0xfbcc5c size 0x8 virtual false final false
  void _ctor() ;

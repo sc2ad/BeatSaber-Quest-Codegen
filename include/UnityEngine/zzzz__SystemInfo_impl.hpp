@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__SystemInfo_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GraphicsDeviceType_def.hpp"
+#include "UnityEngine/zzzz__DeviceType_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__FormatUsage_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__FormatUsage_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__DefaultFormat_def.hpp"
-#include "UnityEngine/zzzz__OperatingSystemFamily_def.hpp"
-#include "UnityEngine/zzzz__DeviceType_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
-#include "UnityEngine/Rendering/zzzz__GraphicsDeviceType_def.hpp"
+#include "UnityEngine/zzzz__OperatingSystemFamily_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__DefaultFormat_def.hpp"
 //  Writing Method size for method: UnityEngine::SystemInfo.get_operatingSystem
 template<>
 

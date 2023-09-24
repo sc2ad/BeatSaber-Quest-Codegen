@@ -10,7 +10,7 @@ class SR;
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14528))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15407))
 // CS Name: SR
 class CORDL_TYPE SR : public ::bs_hook::Il2CppWrapperType {
 public:
@@ -48,10 +48,7 @@ constexpr explicit SR(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 
 // Methods
 
-/// @brief Method GetString addr 0x267b744 size 0x4 virtual false final false
-static ::StringW GetString(::StringW name) ;
-
-/// @brief Method Format addr 0x267b748 size 0x70 virtual false final false
+/// @brief Method Format addr 0x26c8014 size 0x70 virtual false final false
 static ::StringW Format(::StringW resourceFormat, ::bs_hook::Il2CppWrapperType p1) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;

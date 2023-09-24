@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCrlUtilities_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CrlStoreSelector_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::PkixCrlUtilities.FindCrls
 template<>
 
@@ -101,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::ICollection, false>(const_cast<void*>(instance), ___internal_method, crlSelect, crlStores);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::PkixCrlUtilities::PkixCrlUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixCrlUtilities>())) {}
+ Org::BouncyCastle::Pkix::PkixCrlUtilities Org::BouncyCastle::Pkix::PkixCrlUtilities::New_ctor()  {
+Org::BouncyCastle::Pkix::PkixCrlUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixCrlUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixCrlUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixCrlUtilities>::get(),

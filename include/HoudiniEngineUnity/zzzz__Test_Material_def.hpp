@@ -1,12 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace UnityEngine {
+class Material;
+}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivableWrapperClass_1;
-}
-namespace UnityEngine {
-class Material;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
@@ -73,8 +73,7 @@ constexpr UnityEngine::Material __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Material", modifiers: "", def_value: None }]
-explicit Test_Material(UnityEngine::Material self) ;
+static HoudiniEngineUnity::Test_Material New_ctor(UnityEngine::Material self) ;
 
 /// @brief Method .ctor addr 0x2072560 size 0x28 virtual false final false
  void _ctor(UnityEngine::Material self) ;

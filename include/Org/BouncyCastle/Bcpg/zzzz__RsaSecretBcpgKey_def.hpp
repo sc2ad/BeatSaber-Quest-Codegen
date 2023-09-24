@@ -8,10 +8,10 @@ namespace Org::BouncyCastle::Bcpg {
 class MPInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -132,14 +132,12 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_crt() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit RsaSecretBcpgKey(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::RsaSecretBcpgKey New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1148954 size 0x1ac virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "d", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit RsaSecretBcpgKey(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q) ;
+static Org::BouncyCastle::Bcpg::RsaSecretBcpgKey New_ctor(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q) ;
 
 /// @brief Method .ctor addr 0x1148b00 size 0x204 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q) ;

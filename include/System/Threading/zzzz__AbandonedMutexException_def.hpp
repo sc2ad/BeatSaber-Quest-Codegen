@@ -2,17 +2,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__SystemException_def.hpp"
 #include <cstdint>
-namespace System::Threading {
-class Mutex;
-}
-namespace System::Threading {
-class WaitHandle;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Threading {
+class Mutex;
+}
+namespace System::Threading {
+class WaitHandle;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -75,20 +75,17 @@ constexpr System::Threading::Mutex __get__mutex() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AbandonedMutexException() ;
+static System::Threading::AbandonedMutexException New_ctor() ;
 
 /// @brief Method .ctor addr 0x24a25fc size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "location", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "handle", ty: "System::Threading::WaitHandle", modifiers: "", def_value: None }]
-explicit AbandonedMutexException(int32_t location, System::Threading::WaitHandle handle) ;
+static System::Threading::AbandonedMutexException New_ctor(int32_t location, System::Threading::WaitHandle handle) ;
 
 /// @brief Method .ctor addr 0x24a2660 size 0xb8 virtual false final false
  void _ctor(int32_t location, System::Threading::WaitHandle handle) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit AbandonedMutexException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Threading::AbandonedMutexException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24a2784 size 0x10 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

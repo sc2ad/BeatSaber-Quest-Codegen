@@ -3,11 +3,10 @@
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPose_def.hpp"
-#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRComposition._ctor
 template<>
 
@@ -168,8 +167,10 @@ constexpr void GlobalNamespace::OVRComposition::__set_lastAttachedNodePose(Globa
 constexpr GlobalNamespace::OVRPose GlobalNamespace::OVRComposition::__get_lastAttachedNodePose() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OVRPose, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parentObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "mainCamera", ty: "UnityEngine::Camera", modifiers: "", def_value: None }, CppParam { name: "configuration", ty: "GlobalNamespace::OVRMixedRealityCaptureConfiguration", modifiers: "", def_value: None }]
- GlobalNamespace::OVRComposition::OVRComposition(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRComposition>(parentObject, mainCamera, configuration))) {}
+ GlobalNamespace::OVRComposition GlobalNamespace::OVRComposition::New_ctor(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration)  {
+GlobalNamespace::OVRComposition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRComposition>(parentObject, mainCamera, configuration))};
+return o;
+}
  void GlobalNamespace::OVRComposition::_ctor(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRComposition>::get(),

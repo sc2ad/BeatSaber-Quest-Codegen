@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
+class PublicKeyPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class PublicKeyPacket;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -74,8 +74,7 @@ static ::ArrayW<uint8_t> __get_ANONYMOUS_SENDER() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Rfc6637Utilities() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x1043134 size 0x8 virtual false final false
  void _ctor() ;

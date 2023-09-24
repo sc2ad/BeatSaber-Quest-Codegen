@@ -8,14 +8,14 @@ class RectTransform;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class Queue_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
 class PageControlElement;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,8 +117,7 @@ constexpr int32_t __get__pagesCount() const;
 /// @brief Method SetVisible addr 0x218eb48 size 0x30 virtual false final false
  void SetVisible(bool isVisible) ;
 
-// Ctor Parameters []
-explicit PageControl() ;
+static GlobalNamespace::PageControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x218eb78 size 0xd0 virtual false final false
  void _ctor() ;

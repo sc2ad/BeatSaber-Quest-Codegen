@@ -3,11 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::AddressableAssets {
-class IKeyEvaluator;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
 }
 namespace System {
 class Type;
@@ -16,23 +23,16 @@ namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
-namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::AddressableAssets {
+class IKeyEvaluator;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
@@ -157,20 +157,17 @@ constexpr UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle
 /// @brief Method get_IsDone addr 0x2892580 size 0xc virtual false final false
  bool get_IsDone() ;
 
-// Ctor Parameters []
-explicit AssetReference() ;
+static UnityEngine::AddressableAssets::AssetReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x289258c size 0x50 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssetReference(::StringW guid) ;
+static UnityEngine::AddressableAssets::AssetReference New_ctor(::StringW guid) ;
 
 /// @brief Method .ctor addr 0x28925dc size 0x64 virtual false final false
  void _ctor(::StringW guid) ;
 
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit AssetReference(::StringW guid, System::Type type) ;
+static UnityEngine::AddressableAssets::AssetReference New_ctor(::StringW guid, System::Type type) ;
 
 /// @brief Method .ctor addr 0x2892640 size 0x64 virtual false final false
  void _ctor(::StringW guid, System::Type type) ;

@@ -4,28 +4,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace System::Net::Sockets {
+class NetworkStream;
+}
+namespace System::Net::Sockets {
 struct AddressFamily;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Net::Sockets {
 class Socket;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System {
+class IAsyncResult;
 }
-namespace System::Net::Sockets {
-class NetworkStream;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Net::Sockets {
@@ -116,20 +116,17 @@ constexpr bool __get_m_CleanedUp() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TcpClient() ;
+static System::Net::Sockets::TcpClient New_ctor() ;
 
 /// @brief Method .ctor addr 0x2769d0c size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "family", ty: "System::Net::Sockets::AddressFamily", modifiers: "", def_value: None }]
-explicit TcpClient(System::Net::Sockets::AddressFamily family) ;
+static System::Net::Sockets::TcpClient New_ctor(System::Net::Sockets::AddressFamily family) ;
 
 /// @brief Method .ctor addr 0x2769d2c size 0x110 virtual false final false
  void _ctor(System::Net::Sockets::AddressFamily family) ;
 
-// Ctor Parameters [CppParam { name: "acceptedSocket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }]
-explicit TcpClient(System::Net::Sockets::Socket acceptedSocket) ;
+static System::Net::Sockets::TcpClient New_ctor(System::Net::Sockets::Socket acceptedSocket) ;
 
 /// @brief Method .ctor addr 0x2769eb0 size 0x44 virtual false final false
  void _ctor(System::Net::Sockets::Socket acceptedSocket) ;

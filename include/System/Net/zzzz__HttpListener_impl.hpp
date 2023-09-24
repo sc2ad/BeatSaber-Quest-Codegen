@@ -1,24 +1,24 @@
 #pragma once
 #include "System/Net/zzzz__HttpListener_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsProvider_def.hpp"
-#include "System/Net/zzzz__HttpListenerPrefixCollection_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/zzzz__AuthenticationSchemes_def.hpp"
-#include "System/Security/Authentication/ExtendedProtection/zzzz__ExtendedProtectionPolicy_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Net/Security/zzzz__SslStream_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
-#include "System/Net/zzzz__ServiceNameStore_def.hpp"
-#include "System/Net/zzzz__AuthenticationSchemeSelector_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__HttpConnection_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Net/zzzz__HttpListenerContext_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsProvider_def.hpp"
+#include "System/Net/zzzz__AuthenticationSchemes_def.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "System/Net/zzzz__HttpListenerContext_def.hpp"
+#include "System/Net/zzzz__HttpConnection_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Net/zzzz__HttpListenerPrefixCollection_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Security/Authentication/ExtendedProtection/zzzz__ExtendedProtectionPolicy_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Net/zzzz__AuthenticationSchemeSelector_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Net/zzzz__ServiceNameStore_def.hpp"
 //  Writing Method size for method: System::Net::HttpListener.LoadCertificateAndKey
 template<>
 
@@ -568,8 +568,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::Security::SslStream, false>(const_cast<void*>(instance), ___internal_method, innerStream, ownsStream, callback);
 }
-// Ctor Parameters []
- System::Net::HttpListener::HttpListener()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpListener>())) {}
+ System::Net::HttpListener System::Net::HttpListener::New_ctor()  {
+System::Net::HttpListener o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpListener>())};
+return o;
+}
  void System::Net::HttpListener::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListener>::get(),

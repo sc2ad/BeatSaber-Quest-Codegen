@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace Mono {
 struct RuntimeGPtrArrayHandle;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Mono {

@@ -4,14 +4,14 @@
 namespace UnityEngine::UIElements {
 class EventBase;
 }
+namespace UnityEngine::UIElements {
+class TextEditorEngine;
+}
 namespace UnityEngine {
 class TouchScreenKeyboard;
 }
 namespace UnityEngine::UIElements {
 class ITextInputField;
-}
-namespace UnityEngine::UIElements {
-class TextEditorEngine;
 }
 namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
@@ -86,8 +86,7 @@ static UnityEngine::TouchScreenKeyboard __get_s_KeyboardOnScreen() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "editorEngine", ty: "UnityEngine::UIElements::TextEditorEngine", modifiers: "", def_value: None }, CppParam { name: "textInputField", ty: "UnityEngine::UIElements::ITextInputField", modifiers: "", def_value: None }]
-explicit TouchScreenTextEditorEventHandler(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;
+static UnityEngine::UIElements::TouchScreenTextEditorEventHandler New_ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;
 
 /// @brief Method .ctor addr 0x2cc45f0 size 0x8 virtual false final false
  void _ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;

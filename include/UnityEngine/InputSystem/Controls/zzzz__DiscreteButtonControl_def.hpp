@@ -4,6 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::InputSystem::Controls {
+struct UnityEngine__InputSystem__Controls__DiscreteButtonControl__WriteMode;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
 struct UnityEngine__InputSystem__Controls__DiscreteButtonControl__WriteMode;
@@ -60,6 +63,8 @@ __WriteNullAndMaxValue = 1,
 constexpr operator __UnityEngine__InputSystem__Controls__DiscreteButtonControl__WriteMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__Controls__DiscreteButtonControl__WriteMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -166,8 +171,7 @@ constexpr UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls
 /// @brief Method WriteValueIntoState addr 0x2977d58 size 0xe8 virtual true final false
  void WriteValueIntoState(float_t value, void* statePtr) ;
 
-// Ctor Parameters []
-explicit DiscreteButtonControl() ;
+static UnityEngine::InputSystem::Controls::DiscreteButtonControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2977e44 size 0x4 virtual false final false
  void _ctor() ;

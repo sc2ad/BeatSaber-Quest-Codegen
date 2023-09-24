@@ -1,20 +1,21 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Zenject/zzzz__DisposeBlock_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_6_def.hpp"
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
-#include "Zenject/zzzz__StaticMemoryPool_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_8_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__StaticMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_6_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_5_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_3_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_2_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__DisposeBlock_def.hpp"
+#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_4_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_5_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_7_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_2_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_8_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_def.hpp"
 // Ctor Parameters [CppParam { name: "Pool", ty: "Zenject::IMemoryPool", modifiers: "", def_value: Some("csnull") }, CppParam { name: "Object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: Some("csnull") }]
 constexpr Zenject::Zenject__DisposeBlock__SpawnedObjectPoolPair::Zenject__DisposeBlock__SpawnedObjectPoolPair(Zenject::IMemoryPool Pool, ::bs_hook::Il2CppWrapperType Object) noexcept : ::bs_hook::ValueTypeWrapper() {this->Pool = Pool;
@@ -421,8 +422,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::DisposeBlock::DisposeBlock()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DisposeBlock>())) {}
+ Zenject::DisposeBlock Zenject::DisposeBlock::New_ctor()  {
+Zenject::DisposeBlock o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DisposeBlock>())};
+return o;
+}
  void Zenject::DisposeBlock::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DisposeBlock>::get(),

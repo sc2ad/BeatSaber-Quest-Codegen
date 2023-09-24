@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ByteQueue_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::ByteQueue.NextTwoPow
 template<>
 
@@ -256,8 +256,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, i);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::ByteQueue::ByteQueue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ByteQueue>())) {}
+ Org::BouncyCastle::Crypto::Tls::ByteQueue Org::BouncyCastle::Crypto::Tls::ByteQueue::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::ByteQueue o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ByteQueue>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ByteQueue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ByteQueue>::get(),
@@ -267,8 +269,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::ByteQueue::ByteQueue(int32_t capacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ByteQueue>(capacity))) {}
+ Org::BouncyCastle::Crypto::Tls::ByteQueue Org::BouncyCastle::Crypto::Tls::ByteQueue::New_ctor(int32_t capacity)  {
+Org::BouncyCastle::Crypto::Tls::ByteQueue o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ByteQueue>(capacity))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ByteQueue::_ctor(int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ByteQueue>::get(),
@@ -278,8 +282,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity);
 }
-// Ctor Parameters [CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::ByteQueue::ByteQueue(::ArrayW<uint8_t> buf, int32_t off, int32_t len)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ByteQueue>(buf, off, len))) {}
+ Org::BouncyCastle::Crypto::Tls::ByteQueue Org::BouncyCastle::Crypto::Tls::ByteQueue::New_ctor(::ArrayW<uint8_t> buf, int32_t off, int32_t len)  {
+Org::BouncyCastle::Crypto::Tls::ByteQueue o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ByteQueue>(buf, off, len))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ByteQueue::_ctor(::ArrayW<uint8_t> buf, int32_t off, int32_t len)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ByteQueue>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__FacetsChecker_impl.hpp"
 #include "System/Xml/Schema/zzzz__StringFacetsChecker_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::StringFacetsChecker.get_LanguagePattern
@@ -211,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Exception, false>(const_cast<void*>(instance), ___internal_method, s, typeCode, verifyUri);
 }
-// Ctor Parameters []
- System::Xml::Schema::StringFacetsChecker::StringFacetsChecker()  : System::Xml::Schema::FacetsChecker(THROW_UNLESS(::il2cpp_utils::New<StringFacetsChecker>())) {}
+ System::Xml::Schema::StringFacetsChecker System::Xml::Schema::StringFacetsChecker::New_ctor()  {
+System::Xml::Schema::StringFacetsChecker o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::StringFacetsChecker>())};
+return o;
+}
  void System::Xml::Schema::StringFacetsChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::StringFacetsChecker>::get(),

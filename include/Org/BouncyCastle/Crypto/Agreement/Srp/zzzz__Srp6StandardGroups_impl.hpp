@@ -113,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters, false>(nullptr, ___internal_method, hexN, hexG);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::Srp6StandardGroups()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Srp6StandardGroups>())) {}
+ Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::New_ctor()  {
+Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups>::get(),

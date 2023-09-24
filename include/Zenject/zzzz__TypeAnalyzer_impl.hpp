@@ -1,12 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__TypeAnalyzer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__ReflectionBakingCoverageModes_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Zenject/zzzz__TypeAnalyzer_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__ReflectionBakingCoverageModes_def.hpp"
 #include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
-#include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0._ctor
 template<>
 
@@ -98,8 +97,10 @@ constexpr void Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0::__set_type
 constexpr System::Type Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0::__get_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0::Zenject__TypeAnalyzer____c__DisplayClass23_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__TypeAnalyzer____c__DisplayClass23_0>())) {}
+ Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0 Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0::New_ctor()  {
+Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0>())};
+return o;
+}
  void Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__TypeAnalyzer____c__DisplayClass23_0>::get(),

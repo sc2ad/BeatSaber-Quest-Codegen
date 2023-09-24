@@ -17,6 +17,9 @@ class IDisposable;
 namespace GlobalNamespace {
 class PlatformLeaderboardsModel;
 }
+namespace GlobalNamespace {
+class HMAsyncRequest;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -25,40 +28,40 @@ namespace HMUI {
 class IconSegmentedControl;
 }
 namespace GlobalNamespace {
-class LeaderboardTableView;
+struct GlobalNamespace__PlatformLeaderboardsModel__ScoresScope;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__PlatformLeaderboardsModel__ScoresScope;
-}
-namespace GlobalNamespace {
-class HMAsyncRequest;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__PlatformLeaderboardsModel__GetScoresResult;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
 class GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore;
-}
-namespace GlobalNamespace {
-class LevelStatsView;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__LeaderboardTableView__ScoreData;
-}
-namespace HMUI {
-class SegmentedControl;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace GlobalNamespace {
+class LeaderboardTableView;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformLeaderboardsModel__GetScoresResult;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31;
+}
+namespace GlobalNamespace {
 class LoadingControl;
+}
+namespace HMUI {
+class SegmentedControl;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LeaderboardTableView__ScoreData;
+}
+namespace GlobalNamespace {
+class LevelStatsView;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -158,8 +161,7 @@ constexpr bool __get_showLoadingIndicator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__PlatformLeaderboardViewController___RefreshDelayed_d__31 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x217ce68 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -382,8 +384,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__
 /// @brief Method ClearContent addr 0x217cd24 size 0xbc virtual false final false
  void ClearContent() ;
 
-// Ctor Parameters []
-explicit PlatformLeaderboardViewController() ;
+static GlobalNamespace::PlatformLeaderboardViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217ce90 size 0x80 virtual false final false
  void _ctor() ;

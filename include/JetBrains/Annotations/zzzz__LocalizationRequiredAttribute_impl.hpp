@@ -75,8 +75,10 @@ constexpr void JetBrains::Annotations::LocalizationRequiredAttribute::__set__Req
 constexpr bool JetBrains::Annotations::LocalizationRequiredAttribute::__get__Required_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- JetBrains::Annotations::LocalizationRequiredAttribute::LocalizationRequiredAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<LocalizationRequiredAttribute>())) {}
+ JetBrains::Annotations::LocalizationRequiredAttribute JetBrains::Annotations::LocalizationRequiredAttribute::New_ctor()  {
+JetBrains::Annotations::LocalizationRequiredAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::LocalizationRequiredAttribute>())};
+return o;
+}
  void JetBrains::Annotations::LocalizationRequiredAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::LocalizationRequiredAttribute>::get(),
@@ -86,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "required", ty: "bool", modifiers: "", def_value: None }]
- JetBrains::Annotations::LocalizationRequiredAttribute::LocalizationRequiredAttribute(bool required)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<LocalizationRequiredAttribute>(required))) {}
+ JetBrains::Annotations::LocalizationRequiredAttribute JetBrains::Annotations::LocalizationRequiredAttribute::New_ctor(bool required)  {
+JetBrains::Annotations::LocalizationRequiredAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::LocalizationRequiredAttribute>(required))};
+return o;
+}
  void JetBrains::Annotations::LocalizationRequiredAttribute::_ctor(bool required)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::LocalizationRequiredAttribute>::get(),

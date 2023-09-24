@@ -3,33 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyCollection_1;
@@ -40,7 +13,34 @@ class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class IList_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class ICollection_1;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections::ObjectModel {
@@ -150,14 +150,12 @@ constexpr System::Collections::Generic::IList_1<T> __get_items() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Collection_1() ;
+static System::Collections::ObjectModel::Collection_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::Generic::IList_1<T>", modifiers: "", def_value: None }]
-explicit Collection_1(System::Collections::Generic::IList_1<T> list) ;
+static System::Collections::ObjectModel::Collection_1<T> New_ctor(System::Collections::Generic::IList_1<T> list) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IList_1<T> list) ;

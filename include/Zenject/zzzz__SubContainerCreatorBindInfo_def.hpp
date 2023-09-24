@@ -99,8 +99,7 @@ constexpr System::Type __get__KernelType_k__BackingField() const;
 /// @brief Method set_KernelType addr 0x2d91a98 size 0x8 virtual false final false
  void set_KernelType(System::Type value) ;
 
-// Ctor Parameters []
-explicit SubContainerCreatorBindInfo() ;
+static Zenject::SubContainerCreatorBindInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d91aa0 size 0x8 virtual false final false
  void _ctor() ;

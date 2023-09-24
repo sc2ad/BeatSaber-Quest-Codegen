@@ -121,8 +121,10 @@ constexpr void System::ComponentModel::EditorAttribute::__set__EditorTypeName_k_
 constexpr ::StringW System::ComponentModel::EditorAttribute::__get__EditorTypeName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "baseTypeName", ty: "::StringW", modifiers: "", def_value: None }]
- System::ComponentModel::EditorAttribute::EditorAttribute(::StringW typeName, ::StringW baseTypeName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<EditorAttribute>(typeName, baseTypeName))) {}
+ System::ComponentModel::EditorAttribute System::ComponentModel::EditorAttribute::New_ctor(::StringW typeName, ::StringW baseTypeName)  {
+System::ComponentModel::EditorAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::EditorAttribute>(typeName, baseTypeName))};
+return o;
+}
  void System::ComponentModel::EditorAttribute::_ctor(::StringW typeName, ::StringW baseTypeName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::EditorAttribute>::get(),

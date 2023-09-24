@@ -90,8 +90,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 constexpr  System::Security::Cryptography::RandomNumberGenerator::operator System::IDisposable() const noexcept {
 return System::IDisposable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::RandomNumberGenerator::RandomNumberGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RandomNumberGenerator>())) {}
+ System::Security::Cryptography::RandomNumberGenerator System::Security::Cryptography::RandomNumberGenerator::New_ctor()  {
+System::Security::Cryptography::RandomNumberGenerator o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RandomNumberGenerator>())};
+return o;
+}
  void System::Security::Cryptography::RandomNumberGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RandomNumberGenerator>::get(),

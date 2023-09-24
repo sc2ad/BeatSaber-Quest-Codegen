@@ -2,6 +2,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstddef>
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
@@ -10,12 +16,6 @@ struct Color;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
-}
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
-namespace UnityEngine::UIElements {
-struct Length;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

@@ -2,10 +2,11 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationControlPlayable_def.hpp"
-#include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ActivationControlPlayable_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::Timeline::UnityEngine__Timeline__ActivationControlPlayable__PostPlaybackState::UnityEngine__Timeline__ActivationControlPlayable__PostPlaybackState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -222,8 +223,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playable);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::ActivationControlPlayable::ActivationControlPlayable()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<ActivationControlPlayable>())) {}
+ UnityEngine::Timeline::ActivationControlPlayable UnityEngine::Timeline::ActivationControlPlayable::New_ctor()  {
+UnityEngine::Timeline::ActivationControlPlayable o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::ActivationControlPlayable>())};
+return o;
+}
  void UnityEngine::Timeline::ActivationControlPlayable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::ActivationControlPlayable>::get(),

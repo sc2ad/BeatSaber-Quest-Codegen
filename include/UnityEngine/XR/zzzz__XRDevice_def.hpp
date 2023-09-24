@@ -2,15 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace UnityEngine::XR {
 struct TrackingSpaceType;
 }
 namespace UnityEngine {
 class Camera;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::XR {

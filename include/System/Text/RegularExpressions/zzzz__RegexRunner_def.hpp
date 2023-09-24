@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-struct TimeSpan;
-}
 namespace System::Text::RegularExpressions {
 class Match;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -173,8 +173,7 @@ constexpr int32_t __get__timeoutChecksToSkip() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RegexRunner() ;
+static System::Text::RegularExpressions::RegexRunner New_ctor() ;
 
 /// @brief Method .ctor addr 0x27cce14 size 0x8 virtual false final false
  void _ctor() ;

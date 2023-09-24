@@ -3,15 +3,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UIElements::UIR {
+class BaseShaderInfoStorage;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements::UIR {
-class BaseShaderInfoStorage;
+struct BMPAlloc;
 }
 namespace UnityEngine::UIElements::UIR {
-struct BMPAlloc;
+struct UnityEngine__UIElements__UIR__BitmapAllocator32__Page;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

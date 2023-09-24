@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-struct BladeMovementDataElement;
+class ISaberMovementDataProcessor;
 }
 namespace GlobalNamespace {
-class ISaberMovementDataProcessor;
+struct BladeMovementDataElement;
 }
 // Forward declare root types
 namespace GlobalNamespace {

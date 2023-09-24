@@ -385,8 +385,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, animator, stateMachinePathHash, controller);
 }
-// Ctor Parameters []
- UnityEngine::StateMachineBehaviour::StateMachineBehaviour()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<StateMachineBehaviour>())) {}
+ UnityEngine::StateMachineBehaviour UnityEngine::StateMachineBehaviour::New_ctor()  {
+UnityEngine::StateMachineBehaviour o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::StateMachineBehaviour>())};
+return o;
+}
  void UnityEngine::StateMachineBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::StateMachineBehaviour>::get(),

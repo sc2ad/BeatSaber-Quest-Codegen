@@ -56,8 +56,7 @@ static System::Net::SystemNetworkCredential __get_defaultCredential() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit SystemNetworkCredential() ;
+static System::Net::SystemNetworkCredential New_ctor() ;
 
 /// @brief Method .ctor addr 0x2809f50 size 0x5c virtual false final false
  void _ctor() ;

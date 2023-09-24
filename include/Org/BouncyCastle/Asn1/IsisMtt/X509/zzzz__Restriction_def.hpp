@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X500 {
 class DirectoryString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -72,14 +72,12 @@ constexpr Org::BouncyCastle::Asn1::X500::DirectoryString __get_restriction() con
 /// @brief Method GetInstance addr 0xeed008 size 0x158 virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "restriction", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }]
-explicit Restriction(Org::BouncyCastle::Asn1::X500::DirectoryString restriction) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction New_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString restriction) ;
 
 /// @brief Method .ctor addr 0xeed160 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X500::DirectoryString restriction) ;
 
-// Ctor Parameters [CppParam { name: "restriction", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Restriction(::StringW restriction) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction New_ctor(::StringW restriction) ;
 
 /// @brief Method .ctor addr 0xeed188 size 0x7c virtual false final false
  void _ctor(::StringW restriction) ;

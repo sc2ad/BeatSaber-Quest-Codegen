@@ -1,7 +1,7 @@
 #pragma once
 #include "Mono/Globalization/Unicode/zzzz__SortKeyBuffer_def.hpp"
-#include "System/Globalization/zzzz__CompareOptions_def.hpp"
 #include "System/Globalization/zzzz__SortKey_def.hpp"
+#include "System/Globalization/zzzz__CompareOptions_def.hpp"
 //  Writing Method size for method: Mono::Globalization::Unicode::SortKeyBuffer._ctor
 template<>
 
@@ -321,8 +321,10 @@ constexpr void Mono::Globalization::Unicode::SortKeyBuffer::__set_frenchSorted(b
 constexpr bool Mono::Globalization::Unicode::SortKeyBuffer::__get_frenchSorted() const {
 return ::cordl_internals::getInstanceField<bool, 0x82>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "lcid", ty: "int32_t", modifiers: "", def_value: None }]
- Mono::Globalization::Unicode::SortKeyBuffer::SortKeyBuffer(int32_t lcid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SortKeyBuffer>(lcid))) {}
+ Mono::Globalization::Unicode::SortKeyBuffer Mono::Globalization::Unicode::SortKeyBuffer::New_ctor(int32_t lcid)  {
+Mono::Globalization::Unicode::SortKeyBuffer o{THROW_UNLESS(::il2cpp_utils::New<Mono::Globalization::Unicode::SortKeyBuffer>(lcid))};
+return o;
+}
  void Mono::Globalization::Unicode::SortKeyBuffer::_ctor(int32_t lcid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Globalization::Unicode::SortKeyBuffer>::get(),

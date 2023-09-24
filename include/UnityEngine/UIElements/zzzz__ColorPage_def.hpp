@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace UnityEngine::UIElements::UIR {
-class RenderChain;
+struct BMPAlloc;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine::UIElements::UIR {
-struct BMPAlloc;
+class RenderChain;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

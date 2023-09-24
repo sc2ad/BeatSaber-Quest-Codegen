@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Net::Http::Headers {
+class ProductHeaderValue;
+}
+namespace System::Net::Http::Headers {
 class Lexer;
 }
 namespace System {
@@ -13,9 +16,6 @@ class ICloneable;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Net::Http::Headers {
-class ProductHeaderValue;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -88,14 +88,12 @@ constexpr System::Net::Http::Headers::ProductHeaderValue __get__Product_k__Backi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "product", ty: "System::Net::Http::Headers::ProductHeaderValue", modifiers: "", def_value: None }]
-explicit ProductInfoHeaderValue(System::Net::Http::Headers::ProductHeaderValue product) ;
+static System::Net::Http::Headers::ProductInfoHeaderValue New_ctor(System::Net::Http::Headers::ProductHeaderValue product) ;
 
 /// @brief Method .ctor addr 0x26adc00 size 0x68 virtual false final false
  void _ctor(System::Net::Http::Headers::ProductHeaderValue product) ;
 
-// Ctor Parameters []
-explicit ProductInfoHeaderValue() ;
+static System::Net::Http::Headers::ProductInfoHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26adc68 size 0x8 virtual false final false
  void _ctor() ;

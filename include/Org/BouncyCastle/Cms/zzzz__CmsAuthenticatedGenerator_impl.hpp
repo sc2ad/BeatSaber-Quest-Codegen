@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsAuthenticatedGenerator::CmsAuthenticatedGenerator()  : Org::BouncyCastle::Cms::CmsEnvelopedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsAuthenticatedGenerator>())) {}
+ Org::BouncyCastle::Cms::CmsAuthenticatedGenerator Org::BouncyCastle::Cms::CmsAuthenticatedGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::CmsAuthenticatedGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthenticatedGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthenticatedGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthenticatedGenerator>::get(),
@@ -47,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsAuthenticatedGenerator::CmsAuthenticatedGenerator(Org::BouncyCastle::Security::SecureRandom rand)  : Org::BouncyCastle::Cms::CmsEnvelopedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsAuthenticatedGenerator>(rand))) {}
+ Org::BouncyCastle::Cms::CmsAuthenticatedGenerator Org::BouncyCastle::Cms::CmsAuthenticatedGenerator::New_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
+Org::BouncyCastle::Cms::CmsAuthenticatedGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthenticatedGenerator>(rand))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthenticatedGenerator::_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthenticatedGenerator>::get(),

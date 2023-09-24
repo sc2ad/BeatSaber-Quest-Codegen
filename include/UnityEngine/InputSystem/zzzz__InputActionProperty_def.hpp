@@ -3,15 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem {
-class InputAction;
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 namespace UnityEngine::InputSystem {
 class InputActionReference;
 }
-namespace System {
-template<typename T>
-class IEquatable_1;
+namespace UnityEngine::InputSystem {
+class InputAction;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

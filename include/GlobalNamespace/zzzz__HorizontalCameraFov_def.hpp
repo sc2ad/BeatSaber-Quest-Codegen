@@ -60,8 +60,7 @@ constexpr float_t __get__horizontalFOV() const;
 /// @brief Method Awake addr 0x1f78984 size 0xb8 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit HorizontalCameraFov() ;
+static GlobalNamespace::HorizontalCameraFov New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f78a3c size 0x8 virtual false final false
  void _ctor() ;

@@ -55,8 +55,7 @@ constexpr explicit JsonAssetProvider(void* ptr) noexcept : UnityEngine::Resource
 /// @brief Method Convert addr 0x2a3fdb8 size 0xc virtual true final false
  ::bs_hook::Il2CppWrapperType Convert(System::Type type, ::StringW text) ;
 
-// Ctor Parameters []
-explicit JsonAssetProvider() ;
+static UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3fdc4 size 0x8 virtual false final false
  void _ctor() ;

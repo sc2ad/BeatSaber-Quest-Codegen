@@ -58,6 +58,8 @@ constexpr operator __VideoAudioOutputMode_Unwrapped () const noexcept {
 return std::bit_cast<__VideoAudioOutputMode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

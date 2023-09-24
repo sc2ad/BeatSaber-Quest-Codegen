@@ -56,8 +56,7 @@ constexpr explicit UnexceptionalStreamWriter(void* ptr) noexcept : System::IO::S
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit UnexceptionalStreamWriter(System::IO::Stream stream, System::Text::Encoding encoding) ;
+static System::IO::UnexceptionalStreamWriter New_ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x23d44c4 size 0x78 virtual false final false
  void _ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;

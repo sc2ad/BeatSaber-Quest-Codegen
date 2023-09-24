@@ -53,8 +53,7 @@ constexpr explicit Crc32cLayer(void* ptr) noexcept : LiteNetLib::Layers::PacketL
 
 // Methods
 
-// Ctor Parameters []
-explicit Crc32cLayer() ;
+static LiteNetLib::Layers::Crc32cLayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x209a96c size 0x20 virtual false final false
  void _ctor() ;

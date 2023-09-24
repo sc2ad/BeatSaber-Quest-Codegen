@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml {
+struct XmlStandalone;
+}
+namespace System::Xml {
 struct ConformanceLevel;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml {
-struct WriteState;
-}
-namespace System::Xml {
-struct XmlStandalone;
-}
-namespace System::Xml {
 class XmlRawWriterBase64Encoder;
+}
+namespace System::Xml {
+struct WriteState;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -179,8 +179,7 @@ constexpr System::Xml::IXmlNamespaceResolver __get_resolver() const;
 /// @brief Method Close addr 0x26c74a0 size 0x10 virtual true final false
  void Close(System::Xml::WriteState currentState) ;
 
-// Ctor Parameters []
-explicit XmlRawWriter() ;
+static System::Xml::XmlRawWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x26c1444 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_impl.hpp"
 #include "GlobalNamespace/zzzz__EditableBeatmapSelectionView_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EditableBeatmapSelectionView.get_editButton
 template<>
 
@@ -285,8 +285,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapLevel);
 }
-// Ctor Parameters []
- GlobalNamespace::EditableBeatmapSelectionView::EditableBeatmapSelectionView()  : GlobalNamespace::BeatmapSelectionView(THROW_UNLESS(::il2cpp_utils::New<EditableBeatmapSelectionView>())) {}
+ GlobalNamespace::EditableBeatmapSelectionView GlobalNamespace::EditableBeatmapSelectionView::New_ctor()  {
+GlobalNamespace::EditableBeatmapSelectionView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EditableBeatmapSelectionView>())};
+return o;
+}
  void GlobalNamespace::EditableBeatmapSelectionView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EditableBeatmapSelectionView>::get(),

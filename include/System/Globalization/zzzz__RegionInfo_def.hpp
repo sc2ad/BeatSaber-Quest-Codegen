@@ -155,20 +155,17 @@ static System::Globalization::RegionInfo __declspec(property(get=get_CurrentRegi
 /// @brief Method get_CurrentRegion addr 0x240b76c size 0xcc virtual false final false
 static System::Globalization::RegionInfo get_CurrentRegion() ;
 
-// Ctor Parameters [CppParam { name: "culture", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RegionInfo(int32_t culture) ;
+static System::Globalization::RegionInfo New_ctor(int32_t culture) ;
 
 /// @brief Method .ctor addr 0x240b9d0 size 0x10c virtual false final false
  void _ctor(int32_t culture) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RegionInfo(::StringW name) ;
+static System::Globalization::RegionInfo New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x240bb88 size 0x144 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "ci", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit RegionInfo(System::Globalization::CultureInfo ci) ;
+static System::Globalization::RegionInfo New_ctor(System::Globalization::CultureInfo ci) ;
 
 /// @brief Method .ctor addr 0x240b838 size 0x198 virtual false final false
  void _ctor(System::Globalization::CultureInfo ci) ;

@@ -3,7 +3,7 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
@@ -12,7 +12,7 @@ namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::CryptoPro {
@@ -96,20 +96,17 @@ static Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters GetIns
 /// @brief Method GetInstance addr 0xdffd04 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "digestParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit Gost3410PublicKeyAlgParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet) ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet) ;
 
 /// @brief Method .ctor addr 0xdfff6c size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet) ;
 
-// Ctor Parameters [CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "digestParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptionParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit Gost3410PublicKeyAlgParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet) ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet) ;
 
 /// @brief Method .ctor addr 0xdfff74 size 0xb4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Gost3410PublicKeyAlgParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdffda8 size 0x1c4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

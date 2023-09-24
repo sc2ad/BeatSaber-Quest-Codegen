@@ -1,25 +1,25 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
 struct TypeValuePair;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -97,8 +97,7 @@ constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> __get__Ar
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "factoryType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit FactoryBindInfo(System::Type factoryType) ;
+static Zenject::FactoryBindInfo New_ctor(System::Type factoryType) ;
 
 /// @brief Method .ctor addr 0x2d65bac size 0x90 virtual false final false
  void _ctor(System::Type factoryType) ;

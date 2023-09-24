@@ -3,6 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightmapLightWithIdsGroupEntry_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
+#include "GlobalNamespace/zzzz__LightmapLightWithIdsGroupEntry_def.hpp"
 #include "GlobalNamespace/zzzz__LightmapLightWithIds_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightsWeighting::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightsWeighting(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -128,8 +129,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "lightGroup", ty: "GlobalNamespace::LightGroupSO", modifiers: "", def_value: None }, CppParam { name: "groupIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupProbeHighlightsIntensityMultiplier", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData(GlobalNamespace::LightGroupSO lightGroup, float_t groupIntensity, float_t groupProbeHighlightsIntensityMultiplier)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData>(lightGroup, groupIntensity, groupProbeHighlightsIntensityMultiplier))) {}
+ GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData::New_ctor(GlobalNamespace::LightGroupSO lightGroup, float_t groupIntensity, float_t groupProbeHighlightsIntensityMultiplier)  {
+GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData>(lightGroup, groupIntensity, groupProbeHighlightsIntensityMultiplier))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData::_ctor(GlobalNamespace::LightGroupSO lightGroup, float_t groupIntensity, float_t groupProbeHighlightsIntensityMultiplier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData>::get(),
@@ -252,8 +255,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "intensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "probeHighlightsIntensityMultiplier", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId>(lightId, intensity, probeHighlightsIntensityMultiplier))) {}
+ GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::New_ctor(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier)  {
+GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId>(lightId, intensity, probeHighlightsIntensityMultiplier))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::_ctor(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId>::get(),
@@ -336,8 +341,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::LightmapLightWithIds, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LightmapLightWithIdsGroupEntry::LightmapLightWithIdsGroupEntry()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightmapLightWithIdsGroupEntry>())) {}
+ GlobalNamespace::LightmapLightWithIdsGroupEntry GlobalNamespace::LightmapLightWithIdsGroupEntry::New_ctor()  {
+GlobalNamespace::LightmapLightWithIdsGroupEntry o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightmapLightWithIdsGroupEntry>())};
+return o;
+}
  void GlobalNamespace::LightmapLightWithIdsGroupEntry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightmapLightWithIdsGroupEntry>::get(),

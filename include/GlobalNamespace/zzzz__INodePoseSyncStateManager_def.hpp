@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 namespace GlobalNamespace {
-template<typename TStateTable,typename TType,typename TState,typename TSerializable,typename TDeltaSerializable>
-class INodePoseSyncStateManager_5;
-}
-namespace GlobalNamespace {
 class NodePoseSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
-struct PoseSerializable;
+class NodePoseSyncStateDeltaNetSerializable;
+}
+namespace GlobalNamespace {
+template<typename TStateTable,typename TType,typename TState,typename TSerializable,typename TDeltaSerializable>
+class INodePoseSyncStateManager_5;
 }
 namespace GlobalNamespace {
 struct NodePoseSyncState;
@@ -17,7 +17,7 @@ namespace GlobalNamespace {
 struct GlobalNamespace__NodePoseSyncState__NodePose;
 }
 namespace GlobalNamespace {
-class NodePoseSyncStateDeltaNetSerializable;
+struct PoseSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,6 +2,9 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine::TextCore::Text {
+class UnityEngine__TextCore__Text__FontFeatureTable____c;
+}
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphPairAdjustmentRecord;
 }
@@ -87,8 +90,7 @@ static System::Func_2<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__TextCore__Text__FontFeatureTable____c() ;
+static UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bcc4ac size 0x8 virtual false final false
  void _ctor() ;
@@ -170,8 +172,7 @@ constexpr System::Collections::Generic::Dictionary_2<uint32_t,UnityEngine::TextC
 /// @brief Method get_glyphPairAdjustmentRecords addr 0x2bc804c size 0x8 virtual false final false
  System::Collections::Generic::List_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> get_glyphPairAdjustmentRecords() ;
 
-// Ctor Parameters []
-explicit FontFeatureTable() ;
+static UnityEngine::TextCore::Text::FontFeatureTable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bc76f4 size 0xc4 virtual false final false
  void _ctor() ;

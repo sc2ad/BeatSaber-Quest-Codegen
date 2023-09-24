@@ -4,9 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -14,6 +11,9 @@ class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
@@ -84,26 +84,22 @@ constexpr ::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> __get_nameRegistr
 /// @brief Method GetInstance addr 0xff4908 size 0x168 virtual false final false
 static Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SemanticsInformation(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff4a70 size 0x3a8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "semanticsIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "generalNames", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName>", modifiers: "", def_value: None }]
-explicit SemanticsInformation(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames) ;
 
 /// @brief Method .ctor addr 0xff4e18 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames) ;
 
-// Ctor Parameters [CppParam { name: "semanticsIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit SemanticsInformation(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier) ;
 
 /// @brief Method .ctor addr 0xff4e44 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier) ;
 
-// Ctor Parameters [CppParam { name: "generalNames", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName>", modifiers: "", def_value: None }]
-explicit SemanticsInformation(::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames) ;
 
 /// @brief Method .ctor addr 0xff4e6c size 0x28 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames) ;

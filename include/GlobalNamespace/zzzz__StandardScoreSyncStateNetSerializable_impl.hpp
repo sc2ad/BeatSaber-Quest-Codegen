@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__StandardScoreSyncStateNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
-#include "GlobalNamespace/zzzz__ISyncStateSerializable_1_def.hpp"
-#include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
+#include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "GlobalNamespace/zzzz__ISyncStateSerializable_1_def.hpp"
+#include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
+#include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StandardScoreSyncStateNetSerializable.get_pool
 template<>
 
@@ -315,8 +315,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::StandardScoreSyncStateNetSerializable::StandardScoreSyncStateNetSerializable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StandardScoreSyncStateNetSerializable>())) {}
+ GlobalNamespace::StandardScoreSyncStateNetSerializable GlobalNamespace::StandardScoreSyncStateNetSerializable::New_ctor()  {
+GlobalNamespace::StandardScoreSyncStateNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardScoreSyncStateNetSerializable>())};
+return o;
+}
  void GlobalNamespace::StandardScoreSyncStateNetSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardScoreSyncStateNetSerializable>::get(),

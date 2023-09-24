@@ -52,8 +52,7 @@ constexpr explicit TripleDESCryptoServiceProvider(void* ptr) noexcept : System::
 
 // Methods
 
-// Ctor Parameters []
-explicit TripleDESCryptoServiceProvider() ;
+static System::Security::Cryptography::TripleDESCryptoServiceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2300088 size 0x60 virtual false final false
  void _ctor() ;

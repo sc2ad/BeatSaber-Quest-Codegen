@@ -81,8 +81,7 @@ constexpr System::Collections::Generic::Dictionary_2<System::Type,GlobalNamespac
 /// @brief Method AddConvertor addr 0x0 size 0xffffffffffffffff virtual false final false
  void AddConvertor(GlobalNamespace::DataItemConvertor_2<T,TParam> dataItemConvertor) ;
 
-// Ctor Parameters []
-explicit DataConvertor_2() ;
+static GlobalNamespace::DataConvertor_2<T,TParam> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

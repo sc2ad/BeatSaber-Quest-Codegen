@@ -6,19 +6,22 @@
 #include <cmath>
 #include <cstdint>
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace UnityEngine {
-class AnimationClip;
+class UnityEngine__Animation__Enumerator;
 }
 namespace UnityEngine {
 class AnimationState;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
 struct PlayMode;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -92,8 +95,7 @@ constexpr int32_t __get_m_CurrentIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "UnityEngine::Animation", modifiers: "", def_value: None }]
-explicit UnityEngine__Animation__Enumerator(UnityEngine::Animation outer) ;
+static UnityEngine::UnityEngine__Animation__Enumerator New_ctor(UnityEngine::Animation outer) ;
 
 /// @brief Method .ctor addr 0x2b1a7c4 size 0x30 virtual false final false
  void _ctor(UnityEngine::Animation outer) ;

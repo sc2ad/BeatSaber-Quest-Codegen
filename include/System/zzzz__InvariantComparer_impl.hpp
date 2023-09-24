@@ -52,8 +52,10 @@ return ::cordl_internals::getInstanceField<System::Globalization::CompareInfo, 0
  System::InvariantComparer System::InvariantComparer::__get_Default()  {
 return ::cordl_internals::getStaticField<System::InvariantComparer, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::InvariantComparer>::get>();
 }
-// Ctor Parameters []
- System::InvariantComparer::InvariantComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InvariantComparer>())) {}
+ System::InvariantComparer System::InvariantComparer::New_ctor()  {
+System::InvariantComparer o{THROW_UNLESS(::il2cpp_utils::New<System::InvariantComparer>())};
+return o;
+}
  void System::InvariantComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::InvariantComparer>::get(),

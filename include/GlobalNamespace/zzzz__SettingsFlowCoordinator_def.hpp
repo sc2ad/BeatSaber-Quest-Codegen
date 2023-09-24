@@ -3,30 +3,33 @@
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
 namespace HMUI {
 class ViewController;
 }
 namespace GlobalNamespace {
-class MainSettingsMenuViewController;
+class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
 class SettingsNavigationController;
-}
-namespace GlobalNamespace {
-class ISaveData;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__SettingsNavigationController__FinishAction;
+class ISaveData;
 }
 namespace GlobalNamespace {
 class SettingsSubMenuInfo;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SettingsFlowCoordinator__FinishAction;
+}
+namespace GlobalNamespace {
+class MainSettingsMenuViewController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SettingsNavigationController__FinishAction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,6 +88,8 @@ __Apply = 2,
 constexpr operator __GlobalNamespace__SettingsFlowCoordinator__FinishAction_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SettingsFlowCoordinator__FinishAction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -221,8 +226,7 @@ static int32_t __get__selectedSettingsSubMenuInfoIdx() ;
 /// @brief Method CancelSettings addr 0x21450dc size 0x28 virtual false final false
  void CancelSettings() ;
 
-// Ctor Parameters []
-explicit SettingsFlowCoordinator() ;
+static GlobalNamespace::SettingsFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2145104 size 0x8 virtual false final false
  void _ctor() ;

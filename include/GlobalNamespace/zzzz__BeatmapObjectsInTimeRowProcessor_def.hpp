@@ -6,7 +6,11 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class NoteData;
+template<typename T>
+class GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -14,6 +18,12 @@ class Dictionary_2;
 }
 namespace GlobalNamespace {
 class SliderData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 namespace GlobalNamespace {
 class BeatmapDataItem;
@@ -25,17 +35,20 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0;
+}
+namespace System::Collections::Generic {
 template<typename T>
-class Action_1;
+class IReadOnlyList_1;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace System::Collections::Generic {
+namespace System {
 template<typename T>
-class IReadOnlyList_1;
+class Action_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -114,8 +127,7 @@ constexpr GlobalNamespace::SliderData __get_slider() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "slider", ty: "GlobalNamespace::SliderData", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData(GlobalNamespace::SliderData slider) ;
+static GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData New_ctor(GlobalNamespace::SliderData slider) ;
 
 /// @brief Method .ctor addr 0xd95f1c size 0x50 virtual false final false
  void _ctor(GlobalNamespace::SliderData slider) ;
@@ -178,8 +190,7 @@ constexpr float_t __get_currentTimeSliceTime() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0xd9802c size 0x8 virtual false final false
  void _ctor() ;
@@ -248,8 +259,7 @@ static System::Func_2<GlobalNamespace::BeatmapDataItem,bool> __get___9__17_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c() ;
+static GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c New_ctor() ;
 
 /// @brief Method .ctor addr 0xd984b8 size 0x8 virtual false final false
  void _ctor() ;
@@ -357,8 +367,7 @@ static constexpr float_t  kMaxNotesAlignmentAngle{40};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "numberOfLines", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BeatmapObjectsInTimeRowProcessor(int32_t numberOfLines) ;
+static GlobalNamespace::BeatmapObjectsInTimeRowProcessor New_ctor(int32_t numberOfLines) ;
 
 /// @brief Method .ctor addr 0xd952f4 size 0x5bc virtual false final false
  void _ctor(int32_t numberOfLines) ;
@@ -525,8 +534,7 @@ constexpr System::Collections::Generic::List_1<T> __get__items() const;
 /// @brief Method remove_didAddItemEvent addr 0x0 size 0xffffffffffffffff virtual false final false
  void remove_didAddItemEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T> value) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1(int32_t capacity) ;
+static GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T> New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t capacity) ;

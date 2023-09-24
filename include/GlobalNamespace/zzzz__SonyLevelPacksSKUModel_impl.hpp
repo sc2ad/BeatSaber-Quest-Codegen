@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__SonyLevelPacksSKUModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
+#include "GlobalNamespace/zzzz__SonyLevelPacksSKUModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair.get_pricePerBundle
 template<>
 
@@ -84,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair>())) {}
+ GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair>::get(),
@@ -176,8 +179,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::BeatmapLevelSO, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData>())) {}
+ GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData>::get(),
@@ -300,8 +305,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData::GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData>())) {}
+ GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData>::get(),
@@ -476,8 +483,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair, false>(const_cast<void*>(instance), ___internal_method, levelsCount);
 }
-// Ctor Parameters []
- GlobalNamespace::SonyLevelPacksSKUModel::SonyLevelPacksSKUModel()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<SonyLevelPacksSKUModel>())) {}
+ GlobalNamespace::SonyLevelPacksSKUModel GlobalNamespace::SonyLevelPacksSKUModel::New_ctor()  {
+GlobalNamespace::SonyLevelPacksSKUModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SonyLevelPacksSKUModel>())};
+return o;
+}
  void GlobalNamespace::SonyLevelPacksSKUModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SonyLevelPacksSKUModel>::get(),

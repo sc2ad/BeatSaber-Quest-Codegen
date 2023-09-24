@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__FastBitConverter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__FastBitConverter_def.hpp"
 // Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: Some("{}") }]
 constexpr LiteNetLib::Utils::LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble::LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept : ::bs_hook::ValueTypeWrapper() {this->Along = Along;
 this->Adouble = Adouble;

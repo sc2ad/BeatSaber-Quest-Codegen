@@ -64,8 +64,7 @@ constexpr System::Xml::Schema::XmlSchemaSimpleTypeContent __get_content() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlSchemaSimpleType() ;
+static System::Xml::Schema::XmlSchemaSimpleType New_ctor() ;
 
 /// @brief Method .ctor addr 0x2735774 size 0x4 virtual false final false
  void _ctor() ;

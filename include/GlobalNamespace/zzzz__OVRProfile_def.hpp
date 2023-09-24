@@ -5,6 +5,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRProfile__State;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRProfile__State;
@@ -63,6 +66,8 @@ __ERROR = 3,
 constexpr operator __GlobalNamespace__OVRProfile__State_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRProfile__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -176,8 +181,7 @@ constexpr explicit OVRProfile(void* ptr) noexcept : UnityEngine::Object(ptr) {
 /// @brief Method get_state addr 0x2602468 size 0x8 virtual false final false
  GlobalNamespace::GlobalNamespace__OVRProfile__State get_state() ;
 
-// Ctor Parameters []
-explicit OVRProfile() ;
+static GlobalNamespace::OVRProfile New_ctor() ;
 
 /// @brief Method .ctor addr 0x2602470 size 0x58 virtual false final false
  void _ctor() ;

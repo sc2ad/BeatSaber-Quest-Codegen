@@ -66,8 +66,7 @@ constexpr Org::BouncyCastle::Crypto::IMac __get_mMac() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit MacSink(Org::BouncyCastle::Crypto::IMac mac) ;
+static Org::BouncyCastle::Crypto::IO::MacSink New_ctor(Org::BouncyCastle::Crypto::IMac mac) ;
 
 /// @brief Method .ctor addr 0xe7c140 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IMac mac) ;

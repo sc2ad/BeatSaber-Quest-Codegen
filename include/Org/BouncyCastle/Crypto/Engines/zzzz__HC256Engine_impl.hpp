@@ -305,8 +305,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, x, bits);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::HC256Engine::HC256Engine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HC256Engine>())) {}
+ Org::BouncyCastle::Crypto::Engines::HC256Engine Org::BouncyCastle::Crypto::Engines::HC256Engine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::HC256Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::HC256Engine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::HC256Engine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::HC256Engine>::get(),

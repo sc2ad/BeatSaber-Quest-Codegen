@@ -213,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::MagneticFieldSensor::MagneticFieldSensor()  : UnityEngine::InputSystem::Sensor(THROW_UNLESS(::il2cpp_utils::New<MagneticFieldSensor>())) {}
+ UnityEngine::InputSystem::MagneticFieldSensor UnityEngine::InputSystem::MagneticFieldSensor::New_ctor()  {
+UnityEngine::InputSystem::MagneticFieldSensor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::MagneticFieldSensor>())};
+return o;
+}
  void UnityEngine::InputSystem::MagneticFieldSensor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::MagneticFieldSensor>::get(),

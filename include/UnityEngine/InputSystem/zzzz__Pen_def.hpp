@@ -2,16 +2,16 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Pointer_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
-}
-namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem {
 struct PenButton;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::Controls {
+class AxisControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -219,8 +219,7 @@ static void set_current(UnityEngine::InputSystem::Pen value) ;
 /// @brief Method FinishSetup addr 0x28dbe64 size 0x1f4 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit Pen() ;
+static UnityEngine::InputSystem::Pen New_ctor() ;
 
 /// @brief Method .ctor addr 0x28dc058 size 0x2c virtual false final false
  void _ctor() ;

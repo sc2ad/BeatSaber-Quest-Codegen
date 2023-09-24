@@ -2,8 +2,8 @@
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__StringEnumConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::StringEnumConverter.get_CamelCaseText
 template<>
@@ -206,8 +206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::StringEnumConverter::StringEnumConverter()  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<StringEnumConverter>())) {}
+ Newtonsoft::Json::Converters::StringEnumConverter Newtonsoft::Json::Converters::StringEnumConverter::New_ctor()  {
+Newtonsoft::Json::Converters::StringEnumConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::StringEnumConverter>())};
+return o;
+}
  void Newtonsoft::Json::Converters::StringEnumConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::StringEnumConverter>::get(),
@@ -217,8 +219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "camelCaseText", ty: "bool", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::StringEnumConverter::StringEnumConverter(bool camelCaseText)  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<StringEnumConverter>(camelCaseText))) {}
+ Newtonsoft::Json::Converters::StringEnumConverter Newtonsoft::Json::Converters::StringEnumConverter::New_ctor(bool camelCaseText)  {
+Newtonsoft::Json::Converters::StringEnumConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::StringEnumConverter>(camelCaseText))};
+return o;
+}
  void Newtonsoft::Json::Converters::StringEnumConverter::_ctor(bool camelCaseText)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::StringEnumConverter>::get(),

@@ -2,29 +2,29 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
+class IGroupManager;
 }
 namespace UnityEngine::UIElements {
 class IGroupBox;
+}
+namespace UnityEngine::UIElements {
+class AttachToPanelEvent;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
-class IGroupManager;
+class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
 class IGroupBoxOption;
 }
 namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
-}
-namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

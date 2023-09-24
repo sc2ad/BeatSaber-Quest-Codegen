@@ -7,76 +7,100 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class UxmlChildElementDescription;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace UnityEngine::UIElements {
-class UxmlChildElementDescription;
-}
-namespace UnityEngine::UIElements {
-class MouseUpEvent;
-}
-namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
-}
-namespace UnityEngine::UIElements {
-class KeyDownEvent;
-}
-namespace UnityEngine::UIElements {
-struct AlternatingRowBackground;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine::UIElements {
-class ITreeViewItem;
-}
-namespace UnityEngine::UIElements {
-class ListView;
-}
-namespace UnityEngine::UIElements {
-template<typename T>
-class ChangeEvent_1;
+struct UnityEngine__UIElements__InternalTreeView__TreeViewItemWrapper;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
+}
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+class ChangeEvent_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
+class ListView;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__InternalTreeView__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+struct AlternatingRowBackground;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::UIElements {
+class KeyDownEvent;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__InternalTreeView__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
 struct SelectionType;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
+}
+namespace UnityEngine::UIElements {
+class ITreeViewItem;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__InternalTreeView___GetAllItems_d__64;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::UIElements {
+class MouseUpEvent;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__InternalTreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class UxmlIntAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
@@ -84,15 +108,6 @@ class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
-}
-namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -199,8 +214,7 @@ constexpr UnityEngine::UIElements::UxmlEnumAttributeDescription_1<UnityEngine::U
 /// @brief Method Init addr 0x2d0c88c size 0x260 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__InternalTreeView__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__InternalTreeView__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d0caec size 0x20c virtual false final false
  void _ctor() ;
@@ -392,8 +406,7 @@ constexpr UnityEngine::UIElements::ScrollView __get_m_ScrollView() const;
 /// @brief Method set_showAlternatingRowBackgrounds addr 0x2d0959c size 0x1c virtual false final false
  void set_showAlternatingRowBackgrounds(UnityEngine::UIElements::AlternatingRowBackground value) ;
 
-// Ctor Parameters []
-explicit InternalTreeView() ;
+static UnityEngine::UIElements::InternalTreeView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d095b8 size 0x554 virtual false final false
  void _ctor() ;
@@ -468,7 +481,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5092 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7450)), TypeDefinitionIndex(TypeDefinitionIndex(7447))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7450)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5092 }), TypeDefinitionIndex(TypeDefinitionIndex(7447))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7445))
 // CS Name: UnityEngine.UIElements.InternalTreeView::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__InternalTreeView__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::InternalTreeView,UnityEngine::UIElements::UnityEngine__UIElements__InternalTreeView__UxmlTraits> {
@@ -507,8 +520,7 @@ constexpr explicit UnityEngine__UIElements__InternalTreeView__UxmlFactory(void* 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__InternalTreeView__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__InternalTreeView__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d0c79c size 0x48 virtual false final false
  void _ctor() ;
@@ -608,8 +620,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__InternalTreeView__Ux
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__InternalTreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__UIElements__InternalTreeView__UxmlTraits___get_uxmlChildElementsDescription_d__5 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d0c848 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -830,8 +841,7 @@ constexpr UnityEngine::UIElements::ITreeViewItem __get__currentItem_5__4() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__InternalTreeView___GetAllItems_d__64(int32_t __1__state) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__InternalTreeView___GetAllItems_d__64 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d09c98 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;

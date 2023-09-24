@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlayerHeadAndObstacleInteraction.add_headDidEnterObstaclesEvent
 template<>
@@ -249,8 +249,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerHeadAndObstacleInteraction::PlayerHeadAndObstacleInteraction()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlayerHeadAndObstacleInteraction>())) {}
+ GlobalNamespace::PlayerHeadAndObstacleInteraction GlobalNamespace::PlayerHeadAndObstacleInteraction::New_ctor()  {
+GlobalNamespace::PlayerHeadAndObstacleInteraction o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerHeadAndObstacleInteraction>())};
+return o;
+}
  void GlobalNamespace::PlayerHeadAndObstacleInteraction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerHeadAndObstacleInteraction>::get(),

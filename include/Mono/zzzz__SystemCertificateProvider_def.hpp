@@ -4,28 +4,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyStorageFlags;
+}
+namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
 namespace Mono {
 struct CertificateImportFlags;
 }
+namespace Mono {
+class ISystemCertificateProvider;
+}
 namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
+class X509CertificateImpl;
 }
 namespace Microsoft::Win32::SafeHandles {
 class SafePasswordHandle;
 }
 namespace Mono {
-class ISystemCertificateProvider;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Impl;
-}
-namespace Mono {
 class X509PalImpl;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
+class X509Certificate2Impl;
 }
 // Forward declare root types
 namespace Mono {
@@ -126,8 +126,7 @@ static void EnsureInitialized() ;
 /// @brief Method Import addr 0x26850a8 size 0x114 virtual false final false
  System::Security::Cryptography::X509Certificates::X509Certificate2Impl Import(System::Security::Cryptography::X509Certificates::X509Certificate cert, Mono::CertificateImportFlags importFlags) ;
 
-// Ctor Parameters []
-explicit SystemCertificateProvider() ;
+static Mono::SystemCertificateProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x26851bc size 0x8 virtual false final false
  void _ctor() ;

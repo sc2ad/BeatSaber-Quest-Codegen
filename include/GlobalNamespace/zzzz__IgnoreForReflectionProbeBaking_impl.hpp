@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::IgnoreForReflectionProbeBaking::IgnoreForReflectionProbeBaking()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<IgnoreForReflectionProbeBaking>())) {}
+ GlobalNamespace::IgnoreForReflectionProbeBaking GlobalNamespace::IgnoreForReflectionProbeBaking::New_ctor()  {
+GlobalNamespace::IgnoreForReflectionProbeBaking o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::IgnoreForReflectionProbeBaking>())};
+return o;
+}
  void GlobalNamespace::IgnoreForReflectionProbeBaking::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IgnoreForReflectionProbeBaking>::get(),

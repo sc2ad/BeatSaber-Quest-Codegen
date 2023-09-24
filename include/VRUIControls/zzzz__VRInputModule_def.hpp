@@ -5,21 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace VRUIControls {
-class MouseState;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace GlobalNamespace {
-class HapticFeedbackManager;
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -27,32 +17,42 @@ class PointerEventData;
 namespace VRUIControls {
 class VRPointer;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
+namespace VRUIControls {
+class MouseButtonEventData;
+}
+namespace GlobalNamespace {
+class HapticFeedbackManager;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace VRUIControls {
-class MouseButtonEventData;
-}
 namespace UnityEngine {
-struct Vector2;
+class Component;
 }
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace VRUIControls {
+class MouseState;
 }
 namespace System {
 template<typename T>
 class Comparison_1;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -211,8 +211,7 @@ static System::Comparison_1<UnityEngine::EventSystems::RaycastResult> __get__ray
 /// @brief Method RaycastComparer addr 0x2d3edec size 0x3e4 virtual false final false
 static int32_t RaycastComparer(UnityEngine::EventSystems::RaycastResult lhs, UnityEngine::EventSystems::RaycastResult rhs) ;
 
-// Ctor Parameters []
-explicit VRInputModule() ;
+static VRUIControls::VRInputModule New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3f1d0 size 0xf0 virtual false final false
  void _ctor() ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__FBIKChain_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKConstraintBend_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FBIKChain_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__FBIKChain__ChildConstraint.get_nominalDistance
 template<>
 
@@ -239,8 +239,12 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "bone1", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone2", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "pushElasticity", ty: "float_t", modifiers: "", def_value: Some("0") }, CppParam { name: "pullElasticity", ty: "float_t", modifiers: "", def_value: Some("0") }]
- RootMotion::FinalIK::RootMotion__FinalIK__FBIKChain__ChildConstraint::RootMotion__FinalIK__FBIKChain__ChildConstraint(UnityEngine::Transform bone1, UnityEngine::Transform bone2, float_t pushElasticity, float_t pullElasticity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__FBIKChain__ChildConstraint>(bone1, bone2, pushElasticity, pullElasticity))) {}
+/// @param pushElasticity: float_t (default: 0)
+/// @param pullElasticity: float_t (default: 0)
+ RootMotion::FinalIK::RootMotion__FinalIK__FBIKChain__ChildConstraint RootMotion::FinalIK::RootMotion__FinalIK__FBIKChain__ChildConstraint::New_ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, float_t pushElasticity, float_t pullElasticity)  {
+RootMotion::FinalIK::RootMotion__FinalIK__FBIKChain__ChildConstraint o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__FBIKChain__ChildConstraint>(bone1, bone2, pushElasticity, pullElasticity))};
+return o;
+}
 /// @param pushElasticity: float_t (default: 0)
 /// @param pullElasticity: float_t (default: 0)
  void RootMotion::FinalIK::RootMotion__FinalIK__FBIKChain__ChildConstraint::_ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, float_t pushElasticity, float_t pullElasticity)  {
@@ -763,8 +767,10 @@ constexpr void RootMotion::FinalIK::FBIKChain::__set_sqrMagDif(float_t value)  {
 constexpr float_t RootMotion::FinalIK::FBIKChain::__get_sqrMagDif() const {
 return ::cordl_internals::getInstanceField<float_t, 0x80>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::FBIKChain::FBIKChain()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FBIKChain>())) {}
+ RootMotion::FinalIK::FBIKChain RootMotion::FinalIK::FBIKChain::New_ctor()  {
+RootMotion::FinalIK::FBIKChain o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::FBIKChain>())};
+return o;
+}
  void RootMotion::FinalIK::FBIKChain::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::FBIKChain>::get(),
@@ -774,8 +780,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "pin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "pull", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nodeTransforms", ty: "::ArrayW<UnityEngine::Transform>", modifiers: "", def_value: None }]
- RootMotion::FinalIK::FBIKChain::FBIKChain(float_t pin, float_t pull, ::ArrayW<UnityEngine::Transform> nodeTransforms)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FBIKChain>(pin, pull, nodeTransforms))) {}
+ RootMotion::FinalIK::FBIKChain RootMotion::FinalIK::FBIKChain::New_ctor(float_t pin, float_t pull, ::ArrayW<UnityEngine::Transform> nodeTransforms)  {
+RootMotion::FinalIK::FBIKChain o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::FBIKChain>(pin, pull, nodeTransforms))};
+return o;
+}
  void RootMotion::FinalIK::FBIKChain::_ctor(float_t pin, float_t pull, ::ArrayW<UnityEngine::Transform> nodeTransforms)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::FBIKChain>::get(),

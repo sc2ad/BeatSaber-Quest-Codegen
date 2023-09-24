@@ -87,8 +87,7 @@ constexpr float_t __get_noteSpawnIntensity() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BloomFogEnvironmentParams() ;
+static GlobalNamespace::BloomFogEnvironmentParams New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9021c size 0x20 virtual false final false
  void _ctor() ;

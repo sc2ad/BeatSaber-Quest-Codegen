@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Net {
-class NetworkCredential;
+class ICredentials;
 }
 namespace System::Net {
-class ICredentials;
+class NetworkCredential;
 }
 // Forward declare root types
 namespace System::Net {

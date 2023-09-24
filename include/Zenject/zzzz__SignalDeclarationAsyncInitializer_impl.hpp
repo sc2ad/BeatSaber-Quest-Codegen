@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__SignalDeclarationAsyncInitializer_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__TickableManager_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "Zenject/zzzz__LazyInject_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__SignalDeclaration_def.hpp"
@@ -90,8 +90,10 @@ constexpr void Zenject::SignalDeclarationAsyncInitializer::__set__declarations(S
 constexpr System::Collections::Generic::List_1<Zenject::SignalDeclaration> Zenject::SignalDeclarationAsyncInitializer::__get__declarations() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<Zenject::SignalDeclaration>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "declarations", ty: "System::Collections::Generic::List_1<Zenject::SignalDeclaration>", modifiers: "", def_value: None }, CppParam { name: "tickManager", ty: "Zenject::LazyInject_1<Zenject::TickableManager>", modifiers: "", def_value: None }]
- Zenject::SignalDeclarationAsyncInitializer::SignalDeclarationAsyncInitializer(System::Collections::Generic::List_1<Zenject::SignalDeclaration> declarations, Zenject::LazyInject_1<Zenject::TickableManager> tickManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignalDeclarationAsyncInitializer>(declarations, tickManager))) {}
+ Zenject::SignalDeclarationAsyncInitializer Zenject::SignalDeclarationAsyncInitializer::New_ctor(System::Collections::Generic::List_1<Zenject::SignalDeclaration> declarations, Zenject::LazyInject_1<Zenject::TickableManager> tickManager)  {
+Zenject::SignalDeclarationAsyncInitializer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalDeclarationAsyncInitializer>(declarations, tickManager))};
+return o;
+}
  void Zenject::SignalDeclarationAsyncInitializer::_ctor(System::Collections::Generic::List_1<Zenject::SignalDeclaration> declarations, Zenject::LazyInject_1<Zenject::TickableManager> tickManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalDeclarationAsyncInitializer>::get(),

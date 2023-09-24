@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class ColorArrayLightWithIds;
+class LightGroupSO;
 }
 namespace GlobalNamespace {
-class LightGroupSO;
+class ColorArrayLightWithIds;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,8 +84,7 @@ constexpr ::ArrayW<int32_t> __get__excludedLightIds() const;
 /// @brief Method get_lightGroups addr 0x1f9cb7c size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::LightGroupSO> get_lightGroups() ;
 
-// Ctor Parameters []
-explicit ColorArrayLightWithIdsGroupEntry() ;
+static GlobalNamespace::ColorArrayLightWithIdsGroupEntry New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9cb84 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,6 +5,7 @@
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParams._ctor
 template<>
 
@@ -40,8 +41,10 @@ constexpr void GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSort
 constexpr UnityEngine::Vector3 GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParams::__get_pos() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParams::GlobalNamespace__NoteCutter__CuttableBySaberSortParams()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__NoteCutter__CuttableBySaberSortParams>())) {}
+ GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParams GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParams>::get(),
@@ -98,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, p0, p1);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer>())) {}
+ GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer::New_ctor()  {
+GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer>::get(),
@@ -161,8 +166,10 @@ constexpr void GlobalNamespace::NoteCutter::__set__comparer(GlobalNamespace::Glo
 constexpr GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer GlobalNamespace::NoteCutter::__get__comparer() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteCutter::NoteCutter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NoteCutter>())) {}
+ GlobalNamespace::NoteCutter GlobalNamespace::NoteCutter::New_ctor()  {
+GlobalNamespace::NoteCutter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteCutter>())};
+return o;
+}
  void GlobalNamespace::NoteCutter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteCutter>::get(),

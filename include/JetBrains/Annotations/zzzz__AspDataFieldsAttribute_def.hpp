@@ -47,8 +47,7 @@ constexpr explicit AspDataFieldsAttribute(void* ptr) noexcept : System::Attribut
 
 // Methods
 
-// Ctor Parameters []
-explicit AspDataFieldsAttribute() ;
+static JetBrains::Annotations::AspDataFieldsAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d412ec size 0x8 virtual false final false
  void _ctor() ;

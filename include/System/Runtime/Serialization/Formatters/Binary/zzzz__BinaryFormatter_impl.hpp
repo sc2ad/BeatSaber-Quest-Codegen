@@ -1,17 +1,17 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
-#include "System/Runtime/Serialization/Formatters/zzzz__TypeFilterLevel_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IFormatter_def.hpp"
-#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__HeaderHandler_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
-#include "System/Runtime/Serialization/Formatters/zzzz__FormatterTypeStyle_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__TypeInformation_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__TypeFilterLevel_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__TypeInformation_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IFormatter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterTypeStyle_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter.set_AssemblyFormat
 template<>
@@ -296,8 +296,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::BinaryFormatter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryFormatter>())) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryFormatter System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::BinaryFormatter o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryFormatter>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryFormatter>::get(),
@@ -307,8 +309,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "selector", ty: "System::Runtime::Serialization::ISurrogateSelector", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::BinaryFormatter(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryFormatter>(selector, context))) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryFormatter System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::New_ctor(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::Serialization::Formatters::Binary::BinaryFormatter o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryFormatter>(selector, context))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::_ctor(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryFormatter>::get(),

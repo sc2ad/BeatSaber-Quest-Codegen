@@ -2,19 +2,20 @@
 #include "ModestTree/zzzz__TypeExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "ModestTree/zzzz__TypeExtensions_def.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28._ctor
 template<>
 
@@ -224,8 +225,10 @@ constexpr void ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28::__
 constexpr System::Collections::Generic::IEnumerator_1<System::Type> ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<System::Type>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28::ModestTree__TypeExtensions___GetParentTypes_d__28(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__TypeExtensions___GetParentTypes_d__28>(__1__state))) {}
+ ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28 ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28::New_ctor(int32_t __1__state)  {
+ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28 o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28>(__1__state))};
+return o;
+}
  void ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28>::get(),
@@ -347,8 +350,10 @@ constexpr void ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_0::__
 constexpr ::ArrayW<System::Type> ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_0::__get_attributeTypes() const {
 return ::cordl_internals::getInstanceField<::ArrayW<System::Type>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_0::ModestTree__TypeExtensions____c__DisplayClass35_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__TypeExtensions____c__DisplayClass35_0>())) {}
+ ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_0 ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_0::New_ctor()  {
+ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_0 o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_0>())};
+return o;
+}
  void ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_0>::get(),
@@ -407,8 +412,10 @@ constexpr void ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_1::__
 constexpr System::Attribute ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_1::__get_a() const {
 return ::cordl_internals::getInstanceField<System::Attribute, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_1::ModestTree__TypeExtensions____c__DisplayClass35_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__TypeExtensions____c__DisplayClass35_1>())) {}
+ ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_1 ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_1::New_ctor()  {
+ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_1 o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_1>())};
+return o;
+}
  void ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_1>::get(),
@@ -467,8 +474,10 @@ constexpr void ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_0::__
 constexpr ::ArrayW<System::Type> ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_0::__get_attributeTypes() const {
 return ::cordl_internals::getInstanceField<::ArrayW<System::Type>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_0::ModestTree__TypeExtensions____c__DisplayClass39_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__TypeExtensions____c__DisplayClass39_0>())) {}
+ ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_0 ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_0::New_ctor()  {
+ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_0 o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_0>())};
+return o;
+}
  void ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_0>::get(),
@@ -527,8 +536,10 @@ constexpr void ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_1::__
 constexpr System::Attribute ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_1::__get_a() const {
 return ::cordl_internals::getInstanceField<System::Attribute, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_1::ModestTree__TypeExtensions____c__DisplayClass39_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__TypeExtensions____c__DisplayClass39_1>())) {}
+ ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_1 ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_1::New_ctor()  {
+ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_1 o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_1>())};
+return o;
+}
  void ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_1>::get(),

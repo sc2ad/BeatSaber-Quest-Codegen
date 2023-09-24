@@ -6,63 +6,57 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TContract>
-class FactoryToChoiceIdBinder_7;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace Zenject {
-template<typename TParam1,typename TContract>
-class FactoryToChoiceIdBinder_2;
-}
-namespace System::Collections {
-class IList;
+class LazyInstanceInjector;
 }
 namespace Zenject {
 template<typename TContract>
 class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
-class ConcreteBinderNonGeneric;
+class IdScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+struct InjectSources;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TContract>
+class FactoryToChoiceIdBinder_7;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-class IValidatable;
+class IInstantiator;
 }
 namespace Zenject {
-class BindingCondition;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace Zenject {
-class ZenjectSettings;
+class ConcreteIdBinderNonGeneric;
 }
 namespace Zenject::Internal {
-class SingletonMarkRegistry;
+class IDecoratorProvider;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 namespace Zenject {
-struct BindingId;
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TContract>
+class FactoryToChoiceIdBinder_5;
+}
+namespace Zenject {
+template<typename TParam1,typename TContract>
+class FactoryToChoiceIdBinder_2;
+}
+namespace Zenject {
+template<typename TContract>
+class MemoryPoolIdInitialSizeMaxSizeBinder_1;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TContract>
@@ -71,111 +65,136 @@ class FactoryToChoiceIdBinder_3;
 namespace Zenject {
 class ConventionSelectTypesBinder;
 }
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
-class IdScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TContract>
-class FactoryToChoiceIdBinder_6;
-}
-namespace System {
 template<typename T>
-struct Nullable_1;
-}
-namespace System {
-class Type;
+class HashSet_1;
 }
 namespace Zenject {
-class IInstantiator;
+class IValidatable;
 }
 namespace Zenject {
-class ConcreteIdBinderNonGeneric;
-}
-namespace Zenject {
-template<typename TContract>
-class ConcreteIdBinderGeneric_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Zenject {
-template<typename TContract>
-class MemoryPoolIdInitialSizeMaxSizeBinder_1;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TParam8,typename TParam9,typename TParam10,typename TContract>
-class FactoryToChoiceIdBinder_11;
+class ConcreteBinderNonGeneric;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace Zenject {
-class FromBinderNonGeneric;
+class ZenjectSettings;
 }
 namespace Zenject {
-class CopyNonLazyBinder;
+template<typename TContract>
+class ConcreteIdBinderGeneric_1;
 }
 namespace Zenject {
-class LazyInstanceInjector;
+struct TypeValuePair;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class Zenject__DiContainer____c__DisplayClass86_0;
+}
+namespace Zenject {
+class Zenject__DiContainer____c;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace Zenject {
 class InjectContext;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace Zenject {
+class BindingCondition;
+}
+namespace Zenject {
+class Zenject__DiContainer__ProviderInfo;
 }
 namespace Zenject::Internal {
-class IDecoratorProvider;
+class SingletonMarkRegistry;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class Queue_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject::Internal {
+class LookupId;
 }
 namespace Zenject {
-template<typename TContract>
-class FactoryToChoiceIdBinder_1;
+class BindStatement;
+}
+namespace UnityEngine {
+class Component;
 }
 namespace Zenject {
-struct InjectSources;
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TParam8,typename TParam9,typename TParam10,typename TContract>
+class FactoryToChoiceIdBinder_11;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TContract>
+class FactoryToChoiceIdBinder_6;
+}
+namespace Zenject {
+class Zenject__DiContainer___GetDependencyContracts_d__96;
+}
+namespace Zenject {
+class FromBinderNonGeneric;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TContract>
 class FactoryToChoiceIdBinder_4;
-}
-namespace Zenject::Internal {
-class LookupId;
 }
 namespace Zenject {
 template<typename TContract>
 class DecoratorToChoiceFromBinder_1;
 }
 namespace Zenject {
-class BindStatement;
+template<typename TContract>
+class Zenject__DiContainer____c__DisplayClass203_0_1;
 }
 namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TContract>
-class FactoryToChoiceIdBinder_5;
+class CopyNonLazyBinder;
 }
 namespace Zenject {
-class InjectableInfo;
+class Zenject__DiContainer____c__DisplayClass178_0;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+struct BindingId;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace Zenject {
+template<typename TContract>
+class FactoryToChoiceIdBinder_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -184,11 +203,11 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace Zenject {
+class InjectableInfo;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -290,8 +309,7 @@ constexpr Zenject::BindingCondition __get_Condition() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "provider", ty: "Zenject::IProvider", modifiers: "", def_value: None }, CppParam { name: "condition", ty: "Zenject::BindingCondition", modifiers: "", def_value: None }, CppParam { name: "nonLazy", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit Zenject__DiContainer__ProviderInfo(Zenject::IProvider provider, Zenject::BindingCondition condition, bool nonLazy, Zenject::DiContainer container) ;
+static Zenject::Zenject__DiContainer__ProviderInfo New_ctor(Zenject::IProvider provider, Zenject::BindingCondition condition, bool nonLazy, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x2d89884 size 0x44 virtual false final false
  void _ctor(Zenject::IProvider provider, Zenject::BindingCondition condition, bool nonLazy, Zenject::DiContainer container) ;
@@ -399,8 +417,7 @@ static System::Func_2<System::Type,bool> __get___9__198_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__DiContainer____c() ;
+static Zenject::Zenject__DiContainer____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d89f00 size 0x8 virtual false final false
  void _ctor() ;
@@ -487,8 +504,7 @@ constexpr Zenject::InjectContext __get_context() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__DiContainer____c__DisplayClass86_0() ;
+static Zenject::Zenject__DiContainer____c__DisplayClass86_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d8a340 size 0x8 virtual false final false
  void _ctor() ;
@@ -609,8 +625,7 @@ constexpr System::Collections::Generic::IEnumerator_1<Zenject::InjectableInfo> _
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__DiContainer___GetDependencyContracts_d__96(int32_t __1__state) ;
+static Zenject::Zenject__DiContainer___GetDependencyContracts_d__96 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d8a3fc size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -712,8 +727,7 @@ constexpr System::Type __get_concreteType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__DiContainer____c__DisplayClass178_0() ;
+static Zenject::Zenject__DiContainer____c__DisplayClass178_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d8aacc size 0x8 virtual false final false
  void _ctor() ;
@@ -948,38 +962,32 @@ constexpr bool __get__AssertOnNewGameObjects_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parentContainersEnumerable", ty: "System::Collections::Generic::IEnumerable_1<Zenject::DiContainer>", modifiers: "", def_value: None }, CppParam { name: "isValidating", ty: "bool", modifiers: "", def_value: None }]
-explicit DiContainer(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainersEnumerable, bool isValidating) ;
+static Zenject::DiContainer New_ctor(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainersEnumerable, bool isValidating) ;
 
 /// @brief Method .ctor addr 0x2d76ee0 size 0xa10 virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainersEnumerable, bool isValidating) ;
 
-// Ctor Parameters [CppParam { name: "isValidating", ty: "bool", modifiers: "", def_value: None }]
-explicit DiContainer(bool isValidating) ;
+static Zenject::DiContainer New_ctor(bool isValidating) ;
 
 /// @brief Method .ctor addr 0x2d7d840 size 0x94 virtual false final false
  void _ctor(bool isValidating) ;
 
-// Ctor Parameters []
-explicit DiContainer() ;
+static Zenject::DiContainer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7b47c size 0x88 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "parentContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "isValidating", ty: "bool", modifiers: "", def_value: None }]
-explicit DiContainer(Zenject::DiContainer parentContainer, bool isValidating) ;
+static Zenject::DiContainer New_ctor(Zenject::DiContainer parentContainer, bool isValidating) ;
 
 /// @brief Method .ctor addr 0x2d7d8d4 size 0xa8 virtual false final false
  void _ctor(Zenject::DiContainer parentContainer, bool isValidating) ;
 
-// Ctor Parameters [CppParam { name: "parentContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit DiContainer(Zenject::DiContainer parentContainer) ;
+static Zenject::DiContainer New_ctor(Zenject::DiContainer parentContainer) ;
 
 /// @brief Method .ctor addr 0x2d7d97c size 0xa4 virtual false final false
  void _ctor(Zenject::DiContainer parentContainer) ;
 
-// Ctor Parameters [CppParam { name: "parentContainers", ty: "System::Collections::Generic::IEnumerable_1<Zenject::DiContainer>", modifiers: "", def_value: None }]
-explicit DiContainer(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainers) ;
+static Zenject::DiContainer New_ctor(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainers) ;
 
 /// @brief Method .ctor addr 0x2d7da20 size 0x8 virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainers) ;
@@ -1819,8 +1827,7 @@ constexpr TContract __get_instance() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__DiContainer____c__DisplayClass203_0_1() ;
+static Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

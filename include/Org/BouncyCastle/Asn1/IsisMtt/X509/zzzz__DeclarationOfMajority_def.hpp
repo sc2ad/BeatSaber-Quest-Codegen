@@ -6,19 +6,22 @@
 #include <cstddef>
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
+struct Org__BouncyCastle__Asn1__IsisMtt__X509__DeclarationOfMajority__Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -77,6 +80,8 @@ __DateOfBirth = 2,
 constexpr operator __Org__BouncyCastle__Asn1__IsisMtt__X509__DeclarationOfMajority__Choice_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Asn1__IsisMtt__X509__DeclarationOfMajority__Choice_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -167,20 +172,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1TaggedObject __get_declaration() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "notYoungerThan", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DeclarationOfMajority(int32_t notYoungerThan) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority New_ctor(int32_t notYoungerThan) ;
 
 /// @brief Method .ctor addr 0xee9d08 size 0xb4 virtual false final false
  void _ctor(int32_t notYoungerThan) ;
 
-// Ctor Parameters [CppParam { name: "fullAge", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "country", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DeclarationOfMajority(bool fullAge, ::StringW country) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority New_ctor(bool fullAge, ::StringW country) ;
 
 /// @brief Method .ctor addr 0xee9dbc size 0x220 virtual false final false
  void _ctor(bool fullAge, ::StringW country) ;
 
-// Ctor Parameters [CppParam { name: "dateOfBirth", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }]
-explicit DeclarationOfMajority(Org::BouncyCastle::Asn1::DerGeneralizedTime dateOfBirth) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority New_ctor(Org::BouncyCastle::Asn1::DerGeneralizedTime dateOfBirth) ;
 
 /// @brief Method .ctor addr 0xee9fdc size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerGeneralizedTime dateOfBirth) ;
@@ -188,8 +190,7 @@ explicit DeclarationOfMajority(Org::BouncyCastle::Asn1::DerGeneralizedTime dateO
 /// @brief Method GetInstance addr 0xeea060 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "o", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit DeclarationOfMajority(Org::BouncyCastle::Asn1::Asn1TaggedObject o) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject o) ;
 
 /// @brief Method .ctor addr 0xeea1e8 size 0xc0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject o) ;

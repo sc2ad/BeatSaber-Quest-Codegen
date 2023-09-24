@@ -2,10 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace System::Xml {
 struct XmlNodeType;
 }
@@ -14,6 +10,10 @@ class IXmlNode;
 }
 namespace System::Xml {
 class XmlNode;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -104,8 +104,7 @@ constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXm
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "node", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }]
-explicit XmlNodeWrapper(System::Xml::XmlNode node) ;
+static Newtonsoft::Json::Converters::XmlNodeWrapper New_ctor(System::Xml::XmlNode node) ;
 
 /// @brief Method .ctor addr 0x25417c0 size 0x28 virtual false final false
  void _ctor(System::Xml::XmlNode node) ;

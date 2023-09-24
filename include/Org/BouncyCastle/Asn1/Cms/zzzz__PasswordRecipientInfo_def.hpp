@@ -2,23 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -104,20 +104,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_encryptedKey() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyEncryptionAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptedKey", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit PasswordRecipientInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey) ;
+static Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey) ;
 
 /// @brief Method .ctor addr 0xdeed60 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey) ;
 
-// Ctor Parameters [CppParam { name: "keyDerivationAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "keyEncryptionAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptedKey", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit PasswordRecipientInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey) ;
+static Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey) ;
 
 /// @brief Method .ctor addr 0xdeede4 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PasswordRecipientInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdeee74 size 0x244 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

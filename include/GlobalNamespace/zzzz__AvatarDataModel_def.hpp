@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class AvatarData;
-}
-namespace GlobalNamespace {
 class AvatarSaveData;
 }
 namespace GlobalNamespace {
 class AvatarPartsModel;
+}
+namespace GlobalNamespace {
+class AvatarData;
 }
 namespace GlobalNamespace {
 class ISaveData;
@@ -121,8 +121,7 @@ static GlobalNamespace::AvatarData LoadFromCurrentVersion(GlobalNamespace::Avata
 /// @brief Method CreateDefaultAvatarData addr 0x2227538 size 0x100 virtual false final false
  GlobalNamespace::AvatarData CreateDefaultAvatarData() ;
 
-// Ctor Parameters []
-explicit AvatarDataModel() ;
+static GlobalNamespace::AvatarDataModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2227b40 size 0x8 virtual false final false
  void _ctor() ;

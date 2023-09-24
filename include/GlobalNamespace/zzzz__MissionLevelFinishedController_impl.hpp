@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelFinishedController_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
-#include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
+#include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissionLevelFinishedController.Start
 template<>
 
@@ -150,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionLevelFinishedController::MissionLevelFinishedController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionLevelFinishedController>())) {}
+ GlobalNamespace::MissionLevelFinishedController GlobalNamespace::MissionLevelFinishedController::New_ctor()  {
+GlobalNamespace::MissionLevelFinishedController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionLevelFinishedController>())};
+return o;
+}
  void GlobalNamespace::MissionLevelFinishedController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionLevelFinishedController>::get(),

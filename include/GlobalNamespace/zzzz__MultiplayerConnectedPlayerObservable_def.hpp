@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IMultiplayerObservable;
 }
 namespace GlobalNamespace {
-class IMultiplayerObservable;
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -73,8 +73,7 @@ constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connectedPlayer", ty: "GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }]
-explicit MultiplayerConnectedPlayerObservable(GlobalNamespace::IConnectedPlayer connectedPlayer) ;
+static GlobalNamespace::MultiplayerConnectedPlayerObservable New_ctor(GlobalNamespace::IConnectedPlayer connectedPlayer) ;
 
 /// @brief Method .ctor addr 0x20f1690 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::IConnectedPlayer connectedPlayer) ;

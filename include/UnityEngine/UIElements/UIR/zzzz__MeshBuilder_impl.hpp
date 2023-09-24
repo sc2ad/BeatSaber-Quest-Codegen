@@ -4,29 +4,29 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__MeshBuilder_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshWriteData_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContextUtils_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "UnityEngine/zzzz__ScaleMode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ColorPage_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContextUtils_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__MeshBuilder_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__VertexFlags_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__VertexFlags_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__ScaleMode_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MeshInfo_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ColorPage_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextVertex_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshGenerationContextUtils_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 //  Writing Method size for method: GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator._ctor
 template<>
 
@@ -61,8 +61,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator>(object, method))) {}
+ GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator>(object, method))};
+return o;
+}
  void GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator>::get(),

@@ -5,11 +5,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-struct Length;
+namespace UnityEngine::UIElements::StyleSheets {
+struct UnityEngine__UIElements__StyleSheets__Dimension__Unit;
 }
 namespace UnityEngine::UIElements {
 struct TimeValue;
+}
+namespace UnityEngine::UIElements {
+struct Length;
 }
 namespace System {
 template<typename T>
@@ -81,6 +84,8 @@ __Turn = 8,
 constexpr operator __UnityEngine__UIElements__StyleSheets__Dimension__Unit_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__StyleSheets__Dimension__Unit_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

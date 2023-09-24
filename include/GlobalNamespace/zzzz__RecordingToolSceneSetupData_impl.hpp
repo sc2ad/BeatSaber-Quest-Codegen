@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::ScenesTransitionSetupDataSO, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
- GlobalNamespace::RecordingToolSceneSetupData::RecordingToolSceneSetupData(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData)  : GlobalNamespace::SceneSetupData(THROW_UNLESS(::il2cpp_utils::New<RecordingToolSceneSetupData>(nextScenesTransitionSetupData))) {}
+ GlobalNamespace::RecordingToolSceneSetupData GlobalNamespace::RecordingToolSceneSetupData::New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData)  {
+GlobalNamespace::RecordingToolSceneSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingToolSceneSetupData>(nextScenesTransitionSetupData))};
+return o;
+}
  void GlobalNamespace::RecordingToolSceneSetupData::_ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingToolSceneSetupData>::get(),

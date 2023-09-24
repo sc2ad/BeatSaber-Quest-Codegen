@@ -1,20 +1,20 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JArray_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenType_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JsonLoadSettings_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JsonMergeSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JsonLoadSettings_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JsonMergeSettings_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JArray.get_ChildrenTokens
 template<>
 
@@ -599,8 +599,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Newtonsoft::Json::Linq::JTokenType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JArray::JArray()  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JArray>())) {}
+ Newtonsoft::Json::Linq::JArray Newtonsoft::Json::Linq::JArray::New_ctor()  {
+Newtonsoft::Json::Linq::JArray o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JArray>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JArray::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JArray>::get(),
@@ -610,8 +612,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JArray", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JArray::JArray(Newtonsoft::Json::Linq::JArray other)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JArray>(other))) {}
+ Newtonsoft::Json::Linq::JArray Newtonsoft::Json::Linq::JArray::New_ctor(Newtonsoft::Json::Linq::JArray other)  {
+Newtonsoft::Json::Linq::JArray o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JArray>(other))};
+return o;
+}
  void Newtonsoft::Json::Linq::JArray::_ctor(Newtonsoft::Json::Linq::JArray other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JArray>::get(),
@@ -621,8 +625,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "content", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JArray::JArray(::ArrayW<::bs_hook::Il2CppWrapperType> content)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JArray>(content))) {}
+ Newtonsoft::Json::Linq::JArray Newtonsoft::Json::Linq::JArray::New_ctor(::ArrayW<::bs_hook::Il2CppWrapperType> content)  {
+Newtonsoft::Json::Linq::JArray o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JArray>(content))};
+return o;
+}
  void Newtonsoft::Json::Linq::JArray::_ctor(::ArrayW<::bs_hook::Il2CppWrapperType> content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JArray>::get(),
@@ -632,8 +638,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, content);
 }
-// Ctor Parameters [CppParam { name: "content", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JArray::JArray(::bs_hook::Il2CppWrapperType content)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JArray>(content))) {}
+ Newtonsoft::Json::Linq::JArray Newtonsoft::Json::Linq::JArray::New_ctor(::bs_hook::Il2CppWrapperType content)  {
+Newtonsoft::Json::Linq::JArray o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JArray>(content))};
+return o;
+}
  void Newtonsoft::Json::Linq::JArray::_ctor(::bs_hook::Il2CppWrapperType content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JArray>::get(),

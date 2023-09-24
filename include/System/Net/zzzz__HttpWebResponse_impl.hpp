@@ -1,18 +1,18 @@
 #pragma once
 #include "System/Net/zzzz__WebResponse_impl.hpp"
 #include "System/Net/zzzz__HttpWebResponse_def.hpp"
-#include "System/Net/zzzz__HttpStatusCode_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__CookieContainer_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Net/zzzz__WebResponseStream_def.hpp"
-#include "System/zzzz__Version_def.hpp"
 #include "System/Net/zzzz__CookieCollection_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__Version_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Net/zzzz__WebResponseStream_def.hpp"
+#include "System/Net/zzzz__HttpStatusCode_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 //  Writing Method size for method: System::Net::HttpWebResponse._ctor
 template<>
 
@@ -365,8 +365,10 @@ constexpr void System::Net::HttpWebResponse::__set_stream(System::IO::Stream val
 constexpr System::IO::Stream System::Net::HttpWebResponse::__get_stream() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::HttpWebResponse::HttpWebResponse()  : System::Net::WebResponse(THROW_UNLESS(::il2cpp_utils::New<HttpWebResponse>())) {}
+ System::Net::HttpWebResponse System::Net::HttpWebResponse::New_ctor()  {
+System::Net::HttpWebResponse o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpWebResponse>())};
+return o;
+}
  void System::Net::HttpWebResponse::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpWebResponse>::get(),
@@ -376,8 +378,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "System::Net::HttpStatusCode", modifiers: "", def_value: None }, CppParam { name: "headers", ty: "System::Net::WebHeaderCollection", modifiers: "", def_value: None }]
- System::Net::HttpWebResponse::HttpWebResponse(System::Uri uri, ::StringW method, System::Net::HttpStatusCode status, System::Net::WebHeaderCollection headers)  : System::Net::WebResponse(THROW_UNLESS(::il2cpp_utils::New<HttpWebResponse>(uri, method, status, headers))) {}
+ System::Net::HttpWebResponse System::Net::HttpWebResponse::New_ctor(System::Uri uri, ::StringW method, System::Net::HttpStatusCode status, System::Net::WebHeaderCollection headers)  {
+System::Net::HttpWebResponse o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpWebResponse>(uri, method, status, headers))};
+return o;
+}
  void System::Net::HttpWebResponse::_ctor(System::Uri uri, ::StringW method, System::Net::HttpStatusCode status, System::Net::WebHeaderCollection headers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpWebResponse>::get(),
@@ -387,8 +391,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, uri, method, status, headers);
 }
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::Net::WebResponseStream", modifiers: "", def_value: None }, CppParam { name: "container", ty: "System::Net::CookieContainer", modifiers: "", def_value: None }]
- System::Net::HttpWebResponse::HttpWebResponse(System::Uri uri, ::StringW method, System::Net::WebResponseStream stream, System::Net::CookieContainer container)  : System::Net::WebResponse(THROW_UNLESS(::il2cpp_utils::New<HttpWebResponse>(uri, method, stream, container))) {}
+ System::Net::HttpWebResponse System::Net::HttpWebResponse::New_ctor(System::Uri uri, ::StringW method, System::Net::WebResponseStream stream, System::Net::CookieContainer container)  {
+System::Net::HttpWebResponse o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpWebResponse>(uri, method, stream, container))};
+return o;
+}
  void System::Net::HttpWebResponse::_ctor(System::Uri uri, ::StringW method, System::Net::WebResponseStream stream, System::Net::CookieContainer container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpWebResponse>::get(),
@@ -398,8 +404,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, uri, method, stream, container);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::HttpWebResponse::HttpWebResponse(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::Net::WebResponse(THROW_UNLESS(::il2cpp_utils::New<HttpWebResponse>(serializationInfo, streamingContext))) {}
+ System::Net::HttpWebResponse System::Net::HttpWebResponse::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::HttpWebResponse o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpWebResponse>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::HttpWebResponse::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpWebResponse>::get(),

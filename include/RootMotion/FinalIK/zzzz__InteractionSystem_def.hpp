@@ -9,50 +9,56 @@
 #include <cmath>
 #include <cstdint>
 namespace RootMotion::FinalIK {
-class InteractionTrigger;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
-}
-namespace UnityEngine {
-struct RaycastHit;
-}
-namespace RootMotion::FinalIK {
 class InteractionTarget;
 }
-namespace UnityEngine {
-class Collider;
-}
 namespace RootMotion::FinalIK {
-class InteractionEffector;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
+class InteractionEffector;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace RootMotion::FinalIK {
-class InteractionLookAt;
+class FullBodyBipedIK;
+}
+namespace UnityEngine {
+struct RaycastHit;
+}
+namespace UnityEngine {
+class Collider;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__InteractionTrigger__Range;
+}
+namespace RootMotion::FinalIK {
+class InteractionTrigger;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedEffector;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__InteractionSystem__InteractionDelegate;
 }
 namespace RootMotion::FinalIK {
 class InteractionObject;
 }
 namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__InteractionTrigger__Range;
-}
-namespace System {
-class AsyncCallback;
+class InteractionLookAt;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__InteractionObject__InteractionEvent;
@@ -109,8 +115,7 @@ constexpr explicit RootMotion__FinalIK__InteractionSystem__InteractionDelegate(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__InteractionSystem__InteractionDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x11fd7f8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -170,8 +175,7 @@ constexpr explicit RootMotion__FinalIK__InteractionSystem__InteractionEventDeleg
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x11ff114 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -562,8 +566,7 @@ constexpr UnityEngine::Collider __get_c() const;
 /// @brief Method TriggerIndexIsValid addr 0x11fc3c0 size 0x114 virtual false final false
  bool TriggerIndexIsValid(int32_t index) ;
 
-// Ctor Parameters []
-explicit InteractionSystem() ;
+static RootMotion::FinalIK::InteractionSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x11fecc0 size 0x3a4 virtual false final false
  void _ctor() ;

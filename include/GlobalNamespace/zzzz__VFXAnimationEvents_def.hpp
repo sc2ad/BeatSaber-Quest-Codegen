@@ -7,6 +7,9 @@
 namespace UnityEngine {
 class ParticleSystem;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent;
+}
 namespace UnityEngine {
 class Animation;
 }
@@ -90,8 +93,7 @@ constexpr ::ArrayW<UnityEngine::ParticleSystem> __get__particleSystems() const;
 /// @brief Method get_particleSystems addr 0x1f7d454 size 0x8 virtual false final false
  ::ArrayW<UnityEngine::ParticleSystem> get_particleSystems() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent() ;
+static GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7d45c size 0x8 virtual false final false
  void _ctor() ;
@@ -210,8 +212,7 @@ constexpr System::Action __get_despawnCharacterEvent() const;
 /// @brief Method ResumeAnimation addr 0x1f7d188 size 0x2bc virtual false final false
  void ResumeAnimation() ;
 
-// Ctor Parameters []
-explicit VFXAnimationEvents() ;
+static GlobalNamespace::VFXAnimationEvents New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7d444 size 0x8 virtual false final false
  void _ctor() ;

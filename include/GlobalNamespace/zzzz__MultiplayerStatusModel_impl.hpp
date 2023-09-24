@@ -2,15 +2,16 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusModel_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerStatusModel_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
 #include "System/zzzz__UriBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB._ctor
 template<>
 
@@ -34,8 +35,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__Multipl
 constexpr ::ArrayW<GlobalNamespace::MultiplayerStatusData> GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB::__get_data() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::MultiplayerStatusData>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB>::get(),
@@ -307,8 +310,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<GlobalNamespace::MultiplayerStatusData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerStatusModel>())) {}
+ GlobalNamespace::MultiplayerStatusModel GlobalNamespace::MultiplayerStatusModel::New_ctor()  {
+GlobalNamespace::MultiplayerStatusModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerStatusModel>())};
+return o;
+}
  void GlobalNamespace::MultiplayerStatusModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerStatusModel>::get(),

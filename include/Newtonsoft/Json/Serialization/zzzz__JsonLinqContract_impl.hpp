@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::JsonLinqContract::JsonLinqContract(System::Type underlyingType)  : Newtonsoft::Json::Serialization::JsonContract(THROW_UNLESS(::il2cpp_utils::New<JsonLinqContract>(underlyingType))) {}
+ Newtonsoft::Json::Serialization::JsonLinqContract Newtonsoft::Json::Serialization::JsonLinqContract::New_ctor(System::Type underlyingType)  {
+Newtonsoft::Json::Serialization::JsonLinqContract o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::JsonLinqContract>(underlyingType))};
+return o;
+}
  void Newtonsoft::Json::Serialization::JsonLinqContract::_ctor(System::Type underlyingType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::JsonLinqContract>::get(),

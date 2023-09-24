@@ -5,11 +5,11 @@
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECLookupTable;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -108,8 +108,7 @@ constexpr int32_t __get_m_width() const;
 /// @brief Method set_Width addr 0xfa90f4 size 0x8 virtual true final false
  void set_Width(int32_t value) ;
 
-// Ctor Parameters []
-explicit FixedPointPreCompInfo() ;
+static Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0xfa90fc size 0x14 virtual false final false
  void _ctor() ;

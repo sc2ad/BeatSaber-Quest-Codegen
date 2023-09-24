@@ -11,16 +11,16 @@ namespace UnityEngine {
 struct TextAnchor;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine {
-class Font;
+struct TextNativeSettings;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine::UIElements {
-struct TextNativeSettings;
+class VisualElement;
+}
+namespace UnityEngine {
+class Font;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

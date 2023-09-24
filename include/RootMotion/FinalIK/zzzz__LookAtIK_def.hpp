@@ -77,8 +77,7 @@ constexpr RootMotion::FinalIK::IKSolverLookAt __get_solver() const;
 /// @brief Method GetIKSolver addr 0x11c5614 size 0x8 virtual true final false
  RootMotion::FinalIK::IKSolver GetIKSolver() ;
 
-// Ctor Parameters []
-explicit LookAtIK() ;
+static RootMotion::FinalIK::LookAtIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c561c size 0x68 virtual false final false
  void _ctor() ;

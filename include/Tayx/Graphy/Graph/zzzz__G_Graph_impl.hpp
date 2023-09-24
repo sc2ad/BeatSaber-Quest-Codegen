@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tayx::Graphy::Graph::G_Graph::G_Graph()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<G_Graph>())) {}
+ Tayx::Graphy::Graph::G_Graph Tayx::Graphy::Graph::G_Graph::New_ctor()  {
+Tayx::Graphy::Graph::G_Graph o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Graph::G_Graph>())};
+return o;
+}
  void Tayx::Graphy::Graph::G_Graph::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Graph::G_Graph>::get(),

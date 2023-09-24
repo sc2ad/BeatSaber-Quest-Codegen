@@ -78,8 +78,10 @@ return ::cordl_internals::getInstanceField<int32_t, 0x68>(this->::bs_hook::Il2Cp
  ::ArrayW<uint8_t> System::Security::Cryptography::RC2Transform::__get_pitable()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "pitable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RC2Transform>::get>();
 }
-// Ctor Parameters [CppParam { name: "rc2Algo", ty: "System::Security::Cryptography::RC2", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::RC2Transform::RC2Transform(System::Security::Cryptography::RC2 rc2Algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  : Mono::Security::Cryptography::SymmetricTransform(THROW_UNLESS(::il2cpp_utils::New<RC2Transform>(rc2Algo, encryption, key, iv))) {}
+ System::Security::Cryptography::RC2Transform System::Security::Cryptography::RC2Transform::New_ctor(System::Security::Cryptography::RC2 rc2Algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  {
+System::Security::Cryptography::RC2Transform o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RC2Transform>(rc2Algo, encryption, key, iv))};
+return o;
+}
  void System::Security::Cryptography::RC2Transform::_ctor(System::Security::Cryptography::RC2 rc2Algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RC2Transform>::get(),

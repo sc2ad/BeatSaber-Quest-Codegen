@@ -5,18 +5,18 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Material;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
 }
+namespace UnityEngine {
+class Material;
+}
 namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

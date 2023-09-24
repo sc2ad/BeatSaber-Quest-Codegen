@@ -2,25 +2,25 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
 namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataContainerSO;
-}
-namespace GlobalNamespace {
-class MainSystemInit;
-}
-namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class DefaultScenesTransitionsFromInit;
-}
-namespace GlobalNamespace {
-class PS5SharedPackageSKUsSO;
+class MainSystemInit;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
 class ISaveData;
+}
+namespace GlobalNamespace {
+class PS5SharedPackageSKUsSO;
+}
+namespace GlobalNamespace {
+class DefaultScenesTransitionsFromInit;
+}
+namespace GlobalNamespace {
+class AppInitScenesTransitionSetupDataContainerSO;
 }
 namespace GlobalNamespace {
 class SonyOnGoingToBackgroundSaveHandler;
@@ -137,8 +137,7 @@ constexpr GlobalNamespace::ISaveData __get__saveData() const;
 /// @brief Method InstallBindings addr 0x20b7ef0 size 0x2a8 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit PS5AppInit() ;
+static GlobalNamespace::PS5AppInit New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b8198 size 0x4 virtual false final false
  void _ctor() ;

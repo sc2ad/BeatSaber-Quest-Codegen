@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -78,8 +78,7 @@ constexpr ::ArrayW<uint8_t> __get_mSha1Hash() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sha1Hash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit UrlAndHash(::StringW url, ::ArrayW<uint8_t> sha1Hash) ;
+static Org::BouncyCastle::Crypto::Tls::UrlAndHash New_ctor(::StringW url, ::ArrayW<uint8_t> sha1Hash) ;
 
 /// @brief Method .ctor addr 0xf32bcc size 0xe8 virtual false final false
  void _ctor(::StringW url, ::ArrayW<uint8_t> sha1Hash) ;

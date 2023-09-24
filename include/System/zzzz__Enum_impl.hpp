@@ -1,32 +1,19 @@
 #pragma once
-#include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__Enum_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/zzzz__Enum_def.hpp"
 #include "System/zzzz__IFormattable_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
+#include "System/zzzz__Enum_ParseFailureKind_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr System::System__Enum__ParseFailureKind::System__Enum__ParseFailureKind(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
-}
-constexpr void System::System__Enum__ParseFailureKind::__set_value__(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::System__Enum__ParseFailureKind::__get_value__() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
-}
-constexpr System::System__Enum__ParseFailureKind  System::System__Enum__ParseFailureKind::None{0};
-constexpr System::System__Enum__ParseFailureKind  System::System__Enum__ParseFailureKind::Argument{1};
-constexpr System::System__Enum__ParseFailureKind  System::System__Enum__ParseFailureKind::ArgumentNull{2};
-constexpr System::System__Enum__ParseFailureKind  System::System__Enum__ParseFailureKind::ArgumentWithParameter{3};
-constexpr System::System__Enum__ParseFailureKind  System::System__Enum__ParseFailureKind::UnhandledException{4};
 //  Writing Method size for method: System::System__Enum__EnumResult.Init
 template<>
 
@@ -237,8 +224,10 @@ constexpr void System::System__Enum__ValuesAndNames::__set_Names(::ArrayW<::Stri
 constexpr ::ArrayW<::StringW> System::System__Enum__ValuesAndNames::__get_Names() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::StringW>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "values", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "names", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
- System::System__Enum__ValuesAndNames::System__Enum__ValuesAndNames(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Enum__ValuesAndNames>(values, names))) {}
+ System::System__Enum__ValuesAndNames System::System__Enum__ValuesAndNames::New_ctor(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names)  {
+System::System__Enum__ValuesAndNames o{THROW_UNLESS(::il2cpp_utils::New<System::System__Enum__ValuesAndNames>(values, names))};
+return o;
+}
  void System::System__Enum__ValuesAndNames::_ctor(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__Enum__ValuesAndNames>::get(),

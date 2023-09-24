@@ -2,16 +2,17 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFAnimatinonNode_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
-#include "GlobalNamespace/zzzz__OVRGLTFInputNode_def.hpp"
-#include "GlobalNamespace/zzzz__OVRBinaryChunk_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGLTFAnimatinonNode_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGLTFInputNode_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
+#include "GlobalNamespace/zzzz__OVRBinaryChunk_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRGLTFAnimatinonNode__ThumbstickDirection::GlobalNamespace__OVRGLTFAnimatinonNode__ThumbstickDirection(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -349,8 +350,10 @@ return ::cordl_internals::getStaticField<System::Collections::Generic::List_1<in
  ::ArrayW<UnityEngine::Vector2> GlobalNamespace::OVRGLTFAnimatinonNode::__get_CardDirections()  {
 return ::cordl_internals::getStaticField<::ArrayW<UnityEngine::Vector2>, "CardDirections", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRGLTFAnimatinonNode>::get>();
 }
-// Ctor Parameters [CppParam { name: "jsonData", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }, CppParam { name: "binaryChunk", ty: "GlobalNamespace::OVRBinaryChunk", modifiers: "", def_value: None }, CppParam { name: "inputNodeType", ty: "GlobalNamespace::OVRGLTFInputNode", modifiers: "", def_value: None }, CppParam { name: "gameObj", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }]
- GlobalNamespace::OVRGLTFAnimatinonNode::OVRGLTFAnimatinonNode(OVRSimpleJSON::JSONNode jsonData, GlobalNamespace::OVRBinaryChunk binaryChunk, GlobalNamespace::OVRGLTFInputNode inputNodeType, UnityEngine::GameObject gameObj)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRGLTFAnimatinonNode>(jsonData, binaryChunk, inputNodeType, gameObj))) {}
+ GlobalNamespace::OVRGLTFAnimatinonNode GlobalNamespace::OVRGLTFAnimatinonNode::New_ctor(OVRSimpleJSON::JSONNode jsonData, GlobalNamespace::OVRBinaryChunk binaryChunk, GlobalNamespace::OVRGLTFInputNode inputNodeType, UnityEngine::GameObject gameObj)  {
+GlobalNamespace::OVRGLTFAnimatinonNode o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRGLTFAnimatinonNode>(jsonData, binaryChunk, inputNodeType, gameObj))};
+return o;
+}
  void GlobalNamespace::OVRGLTFAnimatinonNode::_ctor(OVRSimpleJSON::JSONNode jsonData, GlobalNamespace::OVRBinaryChunk binaryChunk, GlobalNamespace::OVRGLTFInputNode inputNodeType, UnityEngine::GameObject gameObj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRGLTFAnimatinonNode>::get(),

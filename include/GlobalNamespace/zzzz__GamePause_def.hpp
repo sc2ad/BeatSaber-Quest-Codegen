@@ -5,28 +5,28 @@ namespace GlobalNamespace {
 class IGamePause;
 }
 namespace GlobalNamespace {
-class BeatmapObjectExecutionRatingsRecorder;
-}
-namespace GlobalNamespace {
 class SaberManager;
 }
 namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
+class GameEnergyCounter;
 }
 namespace GlobalNamespace {
-class GameEnergyCounter;
+class IScoreController;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class IScoreController;
+class BeatmapObjectExecutionRatingsRecorder;
+}
+namespace GlobalNamespace {
+class SongController;
 }
 namespace GlobalNamespace {
 class AudioListenerController;
 }
 namespace GlobalNamespace {
-class SongController;
+class PlayerHeadAndObstacleInteraction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -181,8 +181,7 @@ constexpr bool __get__pause() const;
 /// @brief Method Resume addr 0x20ce2f8 size 0x14c virtual true final true
  void Resume() ;
 
-// Ctor Parameters []
-explicit GamePause() ;
+static GlobalNamespace::GamePause New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ce444 size 0x8 virtual false final false
  void _ctor() ;

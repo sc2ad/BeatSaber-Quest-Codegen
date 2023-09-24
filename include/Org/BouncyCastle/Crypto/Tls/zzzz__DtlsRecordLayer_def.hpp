@@ -4,14 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Tls {
-class Timeout;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsEpoch;
+namespace System {
+class Exception;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
@@ -20,22 +14,28 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class ByteQueue;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class Timeout;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPeer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
-}
-namespace System {
-class Exception;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsHandshakeRetransmit;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class DtlsEpoch;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class DatagramTransport;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCloseable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -218,8 +218,7 @@ constexpr Org::BouncyCastle::Crypto::Tls::Timeout __get_mRetransmitTimeout() con
 /// @brief Method SendDatagram addr 0xedee60 size 0xc0 virtual false final false
 static void SendDatagram(Org::BouncyCastle::Crypto::Tls::DatagramTransport sender, ::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
 
-// Ctor Parameters [CppParam { name: "transport", ty: "Org::BouncyCastle::Crypto::Tls::DatagramTransport", modifiers: "", def_value: None }, CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "Org::BouncyCastle::Crypto::Tls::TlsPeer", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit DtlsRecordLayer(Org::BouncyCastle::Crypto::Tls::DatagramTransport transport, Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::TlsPeer peer, uint8_t contentType) ;
+static Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer New_ctor(Org::BouncyCastle::Crypto::Tls::DatagramTransport transport, Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::TlsPeer peer, uint8_t contentType) ;
 
 /// @brief Method .ctor addr 0xeda454 size 0x13c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::DatagramTransport transport, Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::TlsPeer peer, uint8_t contentType) ;

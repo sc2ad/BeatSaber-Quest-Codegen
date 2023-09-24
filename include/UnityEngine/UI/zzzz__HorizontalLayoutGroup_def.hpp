@@ -47,8 +47,7 @@ constexpr explicit HorizontalLayoutGroup(void* ptr) noexcept : UnityEngine::UI::
 
 // Methods
 
-// Ctor Parameters []
-explicit HorizontalLayoutGroup() ;
+static UnityEngine::UI::HorizontalLayoutGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bfce00 size 0xc virtual false final false
  void _ctor() ;

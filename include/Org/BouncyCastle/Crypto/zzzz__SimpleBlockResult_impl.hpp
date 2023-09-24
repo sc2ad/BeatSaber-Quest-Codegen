@@ -79,8 +79,10 @@ constexpr void Org::BouncyCastle::Crypto::SimpleBlockResult::__set_result(::Arra
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::SimpleBlockResult::__get_result() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "result", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::SimpleBlockResult::SimpleBlockResult(::ArrayW<uint8_t> result)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimpleBlockResult>(result))) {}
+ Org::BouncyCastle::Crypto::SimpleBlockResult Org::BouncyCastle::Crypto::SimpleBlockResult::New_ctor(::ArrayW<uint8_t> result)  {
+Org::BouncyCastle::Crypto::SimpleBlockResult o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::SimpleBlockResult>(result))};
+return o;
+}
  void Org::BouncyCastle::Crypto::SimpleBlockResult::_ctor(::ArrayW<uint8_t> result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::SimpleBlockResult>::get(),

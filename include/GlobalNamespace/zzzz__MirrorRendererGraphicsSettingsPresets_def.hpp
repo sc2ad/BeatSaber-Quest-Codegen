@@ -5,11 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType;
+}
 namespace UnityEngine {
 struct LayerMask;
 }
 namespace GlobalNamespace {
 class NamedPreset;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MirrorRendererGraphicsSettingsPresets__Preset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,6 +77,8 @@ __RenderedMirror = 2,
 constexpr operator __GlobalNamespace__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -189,8 +197,7 @@ constexpr bool __get_enableBloomPrePassFog() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MirrorRendererGraphicsSettingsPresets__Preset() ;
+static GlobalNamespace::GlobalNamespace__MirrorRendererGraphicsSettingsPresets__Preset New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f084c size 0x44 virtual false final false
  void _ctor() ;
@@ -265,8 +272,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__MirrorRendererGraphicsSetti
 /// @brief Method get_namedPresets addr 0x21f0834 size 0x8 virtual true final false
  ::ArrayW<GlobalNamespace::NamedPreset> get_namedPresets() ;
 
-// Ctor Parameters []
-explicit MirrorRendererGraphicsSettingsPresets() ;
+static GlobalNamespace::MirrorRendererGraphicsSettingsPresets New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f083c size 0x8 virtual false final false
  void _ctor() ;

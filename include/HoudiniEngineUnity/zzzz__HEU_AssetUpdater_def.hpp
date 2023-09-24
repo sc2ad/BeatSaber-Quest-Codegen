@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace HoudiniEngineUnity {
-class HEU_BaseSync;
-}
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_BaseSync;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -77,8 +77,7 @@ static void RemoveNodeSync(HoudiniEngineUnity::HEU_BaseSync nodeSync) ;
 /// @brief Method OnPrefabInstanceUpdate addr 0x1fdd250 size 0x4 virtual false final false
 static void OnPrefabInstanceUpdate(UnityEngine::GameObject instance) ;
 
-// Ctor Parameters []
-explicit HEU_AssetUpdater() ;
+static HoudiniEngineUnity::HEU_AssetUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdd254 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class IAnalyticsModel;
+class MissionCompletionResults;
 }
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class MissionCompletionResults;
+class IAnalyticsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
 /// @brief Method HandleMissionLevelDidFinishEvent addr 0x20b1b54 size 0x21c virtual false final false
  void HandleMissionLevelDidFinishEvent(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, GlobalNamespace::MissionCompletionResults missionCompletionResults) ;
 
-// Ctor Parameters []
-explicit MissionLevelAnalytics() ;
+static GlobalNamespace::MissionLevelAnalytics New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b1d70 size 0x8 virtual false final false
  void _ctor() ;

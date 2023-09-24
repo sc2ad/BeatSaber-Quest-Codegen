@@ -4,15 +4,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__AlphabetScrollInfo__Data;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+namespace GlobalNamespace {
+class GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -82,8 +85,7 @@ static System::Func_2<GlobalNamespace::IPreviewBeatmapLevel,::StringW> __get___9
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c() ;
+static GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ed92c size 0x8 virtual false final false
  void _ctor() ;

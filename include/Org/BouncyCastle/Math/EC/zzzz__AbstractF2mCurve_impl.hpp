@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mCurve_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve.Inverse
 template<>
 
@@ -234,8 +234,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::Field::IFiniteField, false>(nullptr, ___internal_method, m, k1, k2, k3);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k3", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::AbstractF2mCurve::AbstractF2mCurve(int32_t m, int32_t k1, int32_t k2, int32_t k3)  : Org::BouncyCastle::Math::EC::ECCurve(THROW_UNLESS(::il2cpp_utils::New<AbstractF2mCurve>(m, k1, k2, k3))) {}
+ Org::BouncyCastle::Math::EC::AbstractF2mCurve Org::BouncyCastle::Math::EC::AbstractF2mCurve::New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3)  {
+Org::BouncyCastle::Math::EC::AbstractF2mCurve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::AbstractF2mCurve>(m, k1, k2, k3))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::AbstractF2mCurve::_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::AbstractF2mCurve>::get(),

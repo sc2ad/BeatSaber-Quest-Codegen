@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIRRepaintUpdater_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/UIElements/zzzz__HierarchyChangeType_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__HierarchyChangeType_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChain_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIRRepaintUpdater._ctor
 template<>
 
@@ -406,8 +406,10 @@ constexpr void UnityEngine::UIElements::UIRRepaintUpdater::__set__disposed_k__Ba
 constexpr bool UnityEngine::UIElements::UIRRepaintUpdater::__get__disposed_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x32>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIRRepaintUpdater::UIRRepaintUpdater()  : UnityEngine::UIElements::BaseVisualTreeUpdater(THROW_UNLESS(::il2cpp_utils::New<UIRRepaintUpdater>())) {}
+ UnityEngine::UIElements::UIRRepaintUpdater UnityEngine::UIElements::UIRRepaintUpdater::New_ctor()  {
+UnityEngine::UIElements::UIRRepaintUpdater o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIRRepaintUpdater>())};
+return o;
+}
  void UnityEngine::UIElements::UIRRepaintUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIRRepaintUpdater>::get(),

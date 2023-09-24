@@ -6,29 +6,35 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Playables {
-struct FrameData;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace TMPro {
-class TextMeshPro;
-}
 namespace UnityEngine {
 class CanvasGroup;
 }
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace TMPro {
+class TextMeshPro;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GhostEffectBehaviour__EndBehavior;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GhostEffectBehaviour__GhostEffectType;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -90,6 +96,8 @@ __Nothing = 2,
 constexpr operator __GlobalNamespace__GhostEffectBehaviour__EndBehavior_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__GhostEffectBehaviour__EndBehavior_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -162,6 +170,8 @@ __Canvas = 1,
 constexpr operator __GlobalNamespace__GhostEffectBehaviour__GhostEffectType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__GhostEffectBehaviour__GhostEffectType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -354,8 +364,7 @@ constexpr bool __get__finished() const;
 /// @brief Method EnableObjects addr 0x21b2a18 size 0x114 virtual false final false
  void EnableObjects(bool on) ;
 
-// Ctor Parameters []
-explicit GhostEffectBehaviour() ;
+static GlobalNamespace::GhostEffectBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b2f64 size 0xd0 virtual false final false
  void _ctor() ;

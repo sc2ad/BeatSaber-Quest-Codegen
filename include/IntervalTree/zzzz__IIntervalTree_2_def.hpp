@@ -1,20 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace IntervalTree {
-template<typename TKey,typename TValue>
-struct RangeValuePair_2;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace IntervalTree {
+template<typename TKey,typename TValue>
+struct RangeValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace IntervalTree {

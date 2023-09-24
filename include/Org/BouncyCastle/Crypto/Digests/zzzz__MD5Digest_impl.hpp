@@ -423,8 +423,10 @@ return ::cordl_internals::getStaticField<int32_t, "S43", ::il2cpp_utils::il2cpp_
  int32_t Org::BouncyCastle::Crypto::Digests::MD5Digest::__get_S44()  {
 return ::cordl_internals::getStaticField<int32_t, "S44", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::MD5Digest>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::MD5Digest::MD5Digest()  : Org::BouncyCastle::Crypto::Digests::GeneralDigest(THROW_UNLESS(::il2cpp_utils::New<MD5Digest>())) {}
+ Org::BouncyCastle::Crypto::Digests::MD5Digest Org::BouncyCastle::Crypto::Digests::MD5Digest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::MD5Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::MD5Digest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::MD5Digest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::MD5Digest>::get(),
@@ -434,8 +436,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::MD5Digest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::MD5Digest::MD5Digest(Org::BouncyCastle::Crypto::Digests::MD5Digest t)  : Org::BouncyCastle::Crypto::Digests::GeneralDigest(THROW_UNLESS(::il2cpp_utils::New<MD5Digest>(t))) {}
+ Org::BouncyCastle::Crypto::Digests::MD5Digest Org::BouncyCastle::Crypto::Digests::MD5Digest::New_ctor(Org::BouncyCastle::Crypto::Digests::MD5Digest t)  {
+Org::BouncyCastle::Crypto::Digests::MD5Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::MD5Digest>(t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::MD5Digest::_ctor(Org::BouncyCastle::Crypto::Digests::MD5Digest t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::MD5Digest>::get(),

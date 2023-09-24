@@ -50,8 +50,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, score);
 }
-// Ctor Parameters []
- GlobalNamespace::ScoreFormatter::ScoreFormatter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ScoreFormatter>())) {}
+ GlobalNamespace::ScoreFormatter GlobalNamespace::ScoreFormatter::New_ctor()  {
+GlobalNamespace::ScoreFormatter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ScoreFormatter>())};
+return o;
+}
  void GlobalNamespace::ScoreFormatter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ScoreFormatter>::get(),

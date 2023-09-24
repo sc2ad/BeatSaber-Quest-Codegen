@@ -14,71 +14,80 @@ namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__SelectLevelCategoryViewController__LevelCategory;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
-class LevelSearchViewController;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-class SelectLevelCategoryViewController;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class AnnotatedBeatmapLevelCollectionsViewController;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4>
-class Action_4;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace UnityEngine {
+class GameObject;
 }
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+namespace GlobalNamespace {
+class GlobalNamespace__LevelFilteringNavigationController____c;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SelectLevelCategoryViewController__LevelCategory;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename T4>
+class Action_4;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LevelFilteringNavigationController___UpdateCustomSongs_d__54;
+}
+namespace GlobalNamespace {
+class AnnotatedBeatmapLevelCollectionsViewController;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0;
+}
+namespace GlobalNamespace {
+class SelectLevelCategoryViewController;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+class LevelSearchViewController;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPackCollection;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -144,8 +153,7 @@ constexpr GlobalNamespace::IBeatmapLevelPack __get_levelPack() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0() ;
+static GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2169124 size 0x8 virtual false final false
  void _ctor() ;
@@ -214,8 +222,7 @@ static System::Func_2<GlobalNamespace::IBeatmapLevelPack,::StringW> __get___9__5
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LevelFilteringNavigationController____c() ;
+static GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21693dc size 0x8 virtual false final false
  void _ctor() ;
@@ -605,8 +612,7 @@ constexpr ::ArrayW<GlobalNamespace::IBeatmapLevelPack> __get__allBeatmapLevelPac
 /// @brief Method UpdateCustomSongs addr 0x2168d30 size 0x90 virtual false final false
  void UpdateCustomSongs() ;
 
-// Ctor Parameters []
-explicit LevelFilteringNavigationController() ;
+static GlobalNamespace::LevelFilteringNavigationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x216912c size 0x8 virtual false final false
  void _ctor() ;

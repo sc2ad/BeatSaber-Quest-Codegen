@@ -1,18 +1,19 @@
 #pragma once
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__AppendElements_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ActionResult_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/zzzz__AppendElements_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__PolyShape_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__FaceRebuildData_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ActionResult_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__PolyShape_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__FaceRebuildData_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EdgeLookup_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c._ctor
@@ -130,8 +131,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ProBuilder:
  System::Func_2<UnityEngine::ProBuilder::FaceRebuildData,UnityEngine::ProBuilder::Face> UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c::__get___9__18_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ProBuilder::FaceRebuildData,UnityEngine::ProBuilder::Face>, "<>9__18_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c::UnityEngine__ProBuilder__MeshOperations__AppendElements____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__AppendElements____c>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c>::get(),
@@ -217,8 +220,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder_
 constexpr int32_t UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0::__get_delCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0::UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0 UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__AppendElements____c__DisplayClass17_0>::get(),

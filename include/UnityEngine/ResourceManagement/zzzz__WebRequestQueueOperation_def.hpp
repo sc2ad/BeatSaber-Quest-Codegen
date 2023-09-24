@@ -92,8 +92,7 @@ constexpr UnityEngine::Networking::UnityWebRequest __get_m_WebRequest() const;
 /// @brief Method get_IsDone addr 0x2a375b4 size 0x20 virtual false final false
  bool get_IsDone() ;
 
-// Ctor Parameters [CppParam { name: "request", ty: "UnityEngine::Networking::UnityWebRequest", modifiers: "", def_value: None }]
-explicit WebRequestQueueOperation(UnityEngine::Networking::UnityWebRequest request) ;
+static UnityEngine::ResourceManagement::WebRequestQueueOperation New_ctor(UnityEngine::Networking::UnityWebRequest request) ;
 
 /// @brief Method .ctor addr 0x2a375d4 size 0x28 virtual false final false
  void _ctor(UnityEngine::Networking::UnityWebRequest request) ;

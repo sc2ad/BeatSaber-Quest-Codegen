@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ResourceManagerException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Exception;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
+}
+namespace System {
+class Exception;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -82,32 +82,27 @@ constexpr UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation 
 /// @brief Method set_Location addr 0x2a384e4 size 0x8 virtual false final false
  void set_Location(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation value) ;
 
-// Ctor Parameters [CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
-explicit UnknownResourceProviderException(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
+static UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException New_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
 
 /// @brief Method .ctor addr 0x2a34260 size 0x24 virtual false final false
  void _ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
 
-// Ctor Parameters []
-explicit UnknownResourceProviderException() ;
+static UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a384ec size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UnknownResourceProviderException(::StringW message) ;
+static UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2a384f0 size 0x4 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit UnknownResourceProviderException(::StringW message, System::Exception innerException) ;
+static UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x2a384f4 size 0x4 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit UnknownResourceProviderException(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context) ;
+static UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException New_ctor(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2a384f8 size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context) ;

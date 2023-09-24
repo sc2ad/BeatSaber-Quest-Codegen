@@ -1,14 +1,14 @@
 #pragma once
 #include "System/IO/zzzz__FileStream_impl.hpp"
 #include "System/Net/zzzz__FileWebStream_def.hpp"
-#include "System/IO/zzzz__FileAccess_def.hpp"
-#include "System/IO/zzzz__FileShare_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Net/zzzz__CloseExState_def.hpp"
 #include "System/Net/zzzz__FileWebRequest_def.hpp"
-#include "System/Net/zzzz__ICloseEx_def.hpp"
+#include "System/IO/zzzz__FileShare_def.hpp"
 #include "System/IO/zzzz__FileMode_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/IO/zzzz__FileAccess_def.hpp"
+#include "System/Net/zzzz__CloseExState_def.hpp"
+#include "System/Net/zzzz__ICloseEx_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: System::Net::FileWebStream._ctor
 template<>
 
@@ -206,8 +206,10 @@ constexpr void System::Net::FileWebStream::__set_m_request(System::Net::FileWebR
 constexpr System::Net::FileWebRequest System::Net::FileWebStream::__get_m_request() const {
 return ::cordl_internals::getInstanceField<System::Net::FileWebRequest, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::FileWebRequest", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "sharing", ty: "System::IO::FileShare", modifiers: "", def_value: None }]
- System::Net::FileWebStream::FileWebStream(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing)  : System::IO::FileStream(THROW_UNLESS(::il2cpp_utils::New<FileWebStream>(request, path, mode, access, sharing))) {}
+ System::Net::FileWebStream System::Net::FileWebStream::New_ctor(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing)  {
+System::Net::FileWebStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::FileWebStream>(request, path, mode, access, sharing))};
+return o;
+}
  void System::Net::FileWebStream::_ctor(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FileWebStream>::get(),
@@ -217,8 +219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, request, path, mode, access, sharing);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::FileWebRequest", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "sharing", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "async", ty: "bool", modifiers: "", def_value: None }]
- System::Net::FileWebStream::FileWebStream(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing, int32_t length, bool async)  : System::IO::FileStream(THROW_UNLESS(::il2cpp_utils::New<FileWebStream>(request, path, mode, access, sharing, length, async))) {}
+ System::Net::FileWebStream System::Net::FileWebStream::New_ctor(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing, int32_t length, bool async)  {
+System::Net::FileWebStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::FileWebStream>(request, path, mode, access, sharing, length, async))};
+return o;
+}
  void System::Net::FileWebStream::_ctor(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing, int32_t length, bool async)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FileWebStream>::get(),

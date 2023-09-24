@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
+class ICanvasRaycastFilter;
+}
+namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 class Camera;
-}
-namespace UnityEngine {
-class ICanvasRaycastFilter;
 }
 // Forward declare root types
 namespace UnityEngine {

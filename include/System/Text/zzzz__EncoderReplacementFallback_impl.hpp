@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Text/zzzz__EncoderFallback_impl.hpp"
 #include "System/Text/zzzz__EncoderReplacementFallback_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::Text::EncoderReplacementFallback._ctor
 template<>
 
@@ -168,8 +168,10 @@ constexpr void System::Text::EncoderReplacementFallback::__set__strDefault(::Str
 constexpr ::StringW System::Text::EncoderReplacementFallback::__get__strDefault() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::EncoderReplacementFallback::EncoderReplacementFallback()  : System::Text::EncoderFallback(THROW_UNLESS(::il2cpp_utils::New<EncoderReplacementFallback>())) {}
+ System::Text::EncoderReplacementFallback System::Text::EncoderReplacementFallback::New_ctor()  {
+System::Text::EncoderReplacementFallback o{THROW_UNLESS(::il2cpp_utils::New<System::Text::EncoderReplacementFallback>())};
+return o;
+}
  void System::Text::EncoderReplacementFallback::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::EncoderReplacementFallback>::get(),
@@ -179,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Text::EncoderReplacementFallback::EncoderReplacementFallback(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Text::EncoderFallback(THROW_UNLESS(::il2cpp_utils::New<EncoderReplacementFallback>(info, context))) {}
+ System::Text::EncoderReplacementFallback System::Text::EncoderReplacementFallback::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Text::EncoderReplacementFallback o{THROW_UNLESS(::il2cpp_utils::New<System::Text::EncoderReplacementFallback>(info, context))};
+return o;
+}
  void System::Text::EncoderReplacementFallback::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::EncoderReplacementFallback>::get(),
@@ -199,8 +203,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters [CppParam { name: "replacement", ty: "::StringW", modifiers: "", def_value: None }]
- System::Text::EncoderReplacementFallback::EncoderReplacementFallback(::StringW replacement)  : System::Text::EncoderFallback(THROW_UNLESS(::il2cpp_utils::New<EncoderReplacementFallback>(replacement))) {}
+ System::Text::EncoderReplacementFallback System::Text::EncoderReplacementFallback::New_ctor(::StringW replacement)  {
+System::Text::EncoderReplacementFallback o{THROW_UNLESS(::il2cpp_utils::New<System::Text::EncoderReplacementFallback>(replacement))};
+return o;
+}
  void System::Text::EncoderReplacementFallback::_ctor(::StringW replacement)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::EncoderReplacementFallback>::get(),

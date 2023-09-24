@@ -7,47 +7,74 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Reflection {
-class MethodBase;
-}
 namespace System {
 class Array;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Reflection {
+class RuntimePropertyInfo;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+struct System__RuntimeType__MemberListType;
+}
+namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System::Reflection {
+class RuntimeConstructorInfo;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System::Reflection {
+class MemberInfo;
 }
 namespace System::Reflection {
 class EventInfo;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System {
 struct Guid;
 }
 namespace System::Reflection {
-class RuntimeMethodInfo;
-}
-namespace System {
-struct RuntimeTypeHandle;
-}
-namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct BindingFlags;
 }
 namespace System::Reflection {
-struct BindingFlags;
+class FieldInfo;
 }
 namespace System::Reflection {
 class RuntimeAssembly;
 }
 namespace System::Reflection {
+class RuntimeEventInfo;
+}
+namespace System::Reflection {
 struct MemberTypes;
+}
+namespace System {
+class Type;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System::Reflection {
+class RuntimeMethodInfo;
+}
+namespace System::Reflection {
+struct ParameterModifier;
+}
+namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System::Reflection {
+class Module;
+}
+namespace System::Reflection {
+class RuntimeFieldInfo;
 }
 namespace System {
 class MonoTypeInfo;
@@ -55,17 +82,27 @@ class MonoTypeInfo;
 namespace System::Reflection {
 class ConstructorInfo;
 }
-namespace System::Reflection {
-class RuntimeEventInfo;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+struct TypeNameKind;
 }
 namespace System::Reflection {
-class Assembly;
+struct GenericParameterAttributes;
 }
 namespace System::Reflection {
-class Module;
+struct TypeAttributes;
+}
+namespace System {
+template<typename T>
+struct System__RuntimeType__ListBuilder_1;
 }
 namespace System::Reflection {
-class RuntimeConstructorInfo;
+class RuntimeModule;
+}
+namespace System::Reflection {
+struct CallingConventions;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
@@ -73,51 +110,21 @@ class ISerializable;
 namespace System {
 class ICloneable;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+class MethodBase;
 }
 namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Reflection {
-struct ParameterModifier;
-}
-namespace System::Reflection {
-class RuntimeModule;
-}
-namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System::Reflection {
-class Binder;
-}
-namespace System::Reflection {
-class RuntimeFieldInfo;
-}
-namespace System::Reflection {
-struct GenericParameterAttributes;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System {
-struct TypeNameKind;
+class MethodInfo;
 }
 namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
 namespace System::Reflection {
-struct CallingConventions;
+class Binder;
 }
-namespace System::Reflection {
-class RuntimePropertyInfo;
-}
-namespace System::Reflection {
-struct TypeAttributes;
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System {
@@ -185,6 +192,8 @@ __HandleToInfo = 3,
 constexpr operator __System__RuntimeType__MemberListType_Unwrapped () const noexcept {
 return std::bit_cast<__System__RuntimeType__MemberListType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -456,8 +465,7 @@ static bool FilterApplyConstructorInfo(System::Reflection::RuntimeConstructorInf
 /// @brief Method FilterApplyMethodBase addr 0x247a614 size 0x258 virtual false final false
 static bool FilterApplyMethodBase(System::Reflection::MethodBase methodBase, System::Reflection::BindingFlags methodFlags, System::Reflection::BindingFlags bindingFlags, System::Reflection::CallingConventions callConv, ::ArrayW<System::Type> argumentTypes) ;
 
-// Ctor Parameters []
-explicit RuntimeType() ;
+static System::RuntimeType New_ctor() ;
 
 /// @brief Method .ctor addr 0x247a8f4 size 0x48 virtual false final false
  void _ctor() ;
@@ -858,7 +866,7 @@ namespace System {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2565)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2565))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2565), inst: 2 })
 // CS Name: System.RuntimeType::ListBuilder`1
 struct CORDL_TYPE System__RuntimeType__ListBuilder_1<T> : public ::bs_hook::ValueTypeWrapper {

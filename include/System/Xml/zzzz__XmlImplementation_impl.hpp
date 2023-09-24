@@ -76,8 +76,10 @@ constexpr void System::Xml::XmlImplementation::__set_nameTable(System::Xml::XmlN
 constexpr System::Xml::XmlNameTable System::Xml::XmlImplementation::__get_nameTable() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlNameTable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::XmlImplementation::XmlImplementation()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlImplementation>())) {}
+ System::Xml::XmlImplementation System::Xml::XmlImplementation::New_ctor()  {
+System::Xml::XmlImplementation o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlImplementation>())};
+return o;
+}
  void System::Xml::XmlImplementation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlImplementation>::get(),
@@ -87,8 +89,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
- System::Xml::XmlImplementation::XmlImplementation(System::Xml::XmlNameTable nt)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlImplementation>(nt))) {}
+ System::Xml::XmlImplementation System::Xml::XmlImplementation::New_ctor(System::Xml::XmlNameTable nt)  {
+System::Xml::XmlImplementation o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlImplementation>(nt))};
+return o;
+}
  void System::Xml::XmlImplementation::_ctor(System::Xml::XmlNameTable nt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlImplementation>::get(),

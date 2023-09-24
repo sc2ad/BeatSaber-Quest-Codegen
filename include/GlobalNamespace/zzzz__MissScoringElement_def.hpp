@@ -3,10 +3,13 @@
 #include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-struct GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
+class NoteData;
 }
 namespace GlobalNamespace {
-class NoteData;
+class GlobalNamespace__MissScoringElement__Pool;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -100,8 +103,7 @@ constexpr GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEv
 /// @brief Method Init addr 0x210fe30 size 0x4c virtual false final false
  void Init(GlobalNamespace::NoteData noteData) ;
 
-// Ctor Parameters []
-explicit MissScoringElement() ;
+static GlobalNamespace::MissScoringElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2110384 size 0x8 virtual false final false
  void _ctor() ;
@@ -113,7 +115,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5412), inst: 2714 }), TypeDefinitionIndex(TypeDefinitionIndex(5412)), TypeDefinitionIndex(TypeDefinitionIndex(5419))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5419)), TypeDefinitionIndex(TypeDefinitionIndex(5412)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5412), inst: 2714 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5418))
 // CS Name: MissScoringElement::Pool
 class CORDL_TYPE GlobalNamespace__MissScoringElement__Pool : public GlobalNamespace::GlobalNamespace__ScoringElement__Pool_1<GlobalNamespace::MissScoringElement> {
@@ -152,8 +154,7 @@ constexpr explicit GlobalNamespace__MissScoringElement__Pool(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MissScoringElement__Pool() ;
+static GlobalNamespace::GlobalNamespace__MissScoringElement__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x211038c size 0x48 virtual false final false
  void _ctor() ;

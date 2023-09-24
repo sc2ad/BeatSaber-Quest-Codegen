@@ -9,29 +9,29 @@
 namespace GlobalNamespace {
 struct OVRGLTFComponentType;
 }
+namespace GlobalNamespace {
+struct OVRGLTFType;
+}
+namespace GlobalNamespace {
+struct OVRBinaryChunk;
+}
 namespace UnityEngine {
-struct Vector4;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+struct Vector4;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct OVRBinaryChunk;
-}
-namespace GlobalNamespace {
-struct OVRGLTFType;
+struct Matrix4x4;
 }
 namespace OVRSimpleJSON {
 class JSONNode;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -136,8 +136,7 @@ constexpr int32_t __get_dataCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "node", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }, CppParam { name: "root", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }, CppParam { name: "bufferViewOnly", ty: "bool", modifiers: "", def_value: None }]
-explicit OVRGLTFAccessor(OVRSimpleJSON::JSONNode node, OVRSimpleJSON::JSONNode root, bool bufferViewOnly) ;
+static GlobalNamespace::OVRGLTFAccessor New_ctor(OVRSimpleJSON::JSONNode node, OVRSimpleJSON::JSONNode root, bool bufferViewOnly) ;
 
 /// @brief Method .ctor addr 0x25b0888 size 0x340 virtual false final false
  void _ctor(OVRSimpleJSON::JSONNode node, OVRSimpleJSON::JSONNode root, bool bufferViewOnly) ;

@@ -5,40 +5,40 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct DirectionalLight;
+struct LinearColor;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct FalloffType;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct SpotLight;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct PointLight;
+struct RectangleLight;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct Cookie;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
+struct DirectionalLight;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightMode;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct RectangleLight;
+struct PointLight;
 }
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightType;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct DiscLight;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {

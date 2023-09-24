@@ -1,12 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorByInstaller_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__SubContainerCreatorBindInfo_def.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 //  Writing Method size for method: Zenject::SubContainerCreatorByInstaller._ctor
 template<>
@@ -87,8 +87,10 @@ constexpr void Zenject::SubContainerCreatorByInstaller::__set__containerBindInfo
 constexpr Zenject::SubContainerCreatorBindInfo Zenject::SubContainerCreatorByInstaller::__get__containerBindInfo() const {
 return ::cordl_internals::getInstanceField<Zenject::SubContainerCreatorBindInfo, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "containerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }, CppParam { name: "installerType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArgs", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorByInstaller::SubContainerCreatorByInstaller(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArgs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorByInstaller>(container, containerBindInfo, installerType, extraArgs))) {}
+ Zenject::SubContainerCreatorByInstaller Zenject::SubContainerCreatorByInstaller::New_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArgs)  {
+Zenject::SubContainerCreatorByInstaller o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorByInstaller>(container, containerBindInfo, installerType, extraArgs))};
+return o;
+}
  void Zenject::SubContainerCreatorByInstaller::_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArgs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorByInstaller>::get(),
@@ -98,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container, containerBindInfo, installerType, extraArgs);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "containerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }, CppParam { name: "installerType", ty: "System::Type", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorByInstaller::SubContainerCreatorByInstaller(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorByInstaller>(container, containerBindInfo, installerType))) {}
+ Zenject::SubContainerCreatorByInstaller Zenject::SubContainerCreatorByInstaller::New_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType)  {
+Zenject::SubContainerCreatorByInstaller o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorByInstaller>(container, containerBindInfo, installerType))};
+return o;
+}
  void Zenject::SubContainerCreatorByInstaller::_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorByInstaller>::get(),

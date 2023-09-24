@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
-// Ctor Parameters []
- GlobalNamespace::GameServerBrowserStackedController::GameServerBrowserStackedController()  : HMUI::StackedController(THROW_UNLESS(::il2cpp_utils::New<GameServerBrowserStackedController>())) {}
+ GlobalNamespace::GameServerBrowserStackedController GlobalNamespace::GameServerBrowserStackedController::New_ctor()  {
+GlobalNamespace::GameServerBrowserStackedController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameServerBrowserStackedController>())};
+return o;
+}
  void GlobalNamespace::GameServerBrowserStackedController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameServerBrowserStackedController>::get(),

@@ -7,23 +7,17 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAssetRoot;
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_EditorUtility__HEU_ReplacePrefabOptions;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 namespace UnityEngine {
 class Component;
@@ -31,8 +25,17 @@ class Component;
 namespace UnityEngine {
 class Object;
 }
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAssetRoot;
+}
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -91,6 +94,8 @@ __ReplaceNameBased = 2,
 constexpr operator __HoudiniEngineUnity__HEU_EditorUtility__HEU_ReplacePrefabOptions_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_EditorUtility__HEU_ReplacePrefabOptions_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleScaleUp_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ObstacleScaleUp.Awake
 template<>
 
@@ -169,8 +169,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, obstacleController);
 }
-// Ctor Parameters []
- GlobalNamespace::ObstacleScaleUp::ObstacleScaleUp()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ObstacleScaleUp>())) {}
+ GlobalNamespace::ObstacleScaleUp GlobalNamespace::ObstacleScaleUp::New_ctor()  {
+GlobalNamespace::ObstacleScaleUp o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObstacleScaleUp>())};
+return o;
+}
  void GlobalNamespace::ObstacleScaleUp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObstacleScaleUp>::get(),

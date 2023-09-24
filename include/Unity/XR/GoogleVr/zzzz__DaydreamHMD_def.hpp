@@ -47,8 +47,7 @@ constexpr explicit DaydreamHMD(void* ptr) noexcept : UnityEngine::InputSystem::X
 
 // Methods
 
-// Ctor Parameters []
-explicit DaydreamHMD() ;
+static Unity::XR::GoogleVr::DaydreamHMD New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a31c8 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,10 +2,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Multiplier._ctor
 template<>
 
@@ -35,8 +36,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Mult
 constexpr float_t RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Multiplier::__get_multiplier() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Multiplier::RootMotion__FinalIK__InteractionTarget__Multiplier()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionTarget__Multiplier>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Multiplier RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Multiplier::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Multiplier o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Multiplier>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Multiplier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Multiplier>::get(),
@@ -409,8 +412,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, position);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::InteractionTarget::InteractionTarget()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<InteractionTarget>())) {}
+ RootMotion::FinalIK::InteractionTarget RootMotion::FinalIK::InteractionTarget::New_ctor()  {
+RootMotion::FinalIK::InteractionTarget o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::InteractionTarget>())};
+return o;
+}
  void RootMotion::FinalIK::InteractionTarget::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::InteractionTarget>::get(),

@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "information", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax::AdditionalInformationSyntax(Org::BouncyCastle::Asn1::X500::DirectoryString information)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AdditionalInformationSyntax>(information))) {}
+ Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax::New_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString information)  {
+Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax>(information))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax::_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString information)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax>::get(),
@@ -114,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, information);
 }
-// Ctor Parameters [CppParam { name: "information", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax::AdditionalInformationSyntax(::StringW information)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AdditionalInformationSyntax>(information))) {}
+ Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax::New_ctor(::StringW information)  {
+Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax>(information))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax::_ctor(::StringW information)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax>::get(),

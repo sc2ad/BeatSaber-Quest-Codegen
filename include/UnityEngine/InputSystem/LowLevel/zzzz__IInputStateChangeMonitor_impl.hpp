@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor.NotifyControlStateChanged
 template<>
 

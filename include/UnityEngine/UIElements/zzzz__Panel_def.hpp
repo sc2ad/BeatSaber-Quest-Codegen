@@ -4,45 +4,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
-}
 namespace UnityEngine {
 class ScriptableObject;
-}
-namespace UnityEngine::UIElements {
-class IVisualTreeUpdater;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine::UIElements {
-class AtlasBase;
-}
-namespace UnityEngine::UIElements {
-class IMGUIContainer;
-}
-namespace UnityEngine::UIElements {
-class TimeMsFunction;
 }
 namespace UnityEngine::UIElements {
 class VisualTreeUpdater;
 }
 namespace UnityEngine::UIElements {
-class TimerEventScheduler;
+struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
-struct ContextType;
+class IStylePropertyAnimationSystem;
 }
 namespace UnityEngine::UIElements {
-class LoadResourceFunction;
+class IVisualTreeUpdater;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace UnityEngine {
+struct Vector2Int;
+}
+namespace UnityEngine::UIElements {
+class AtlasBase;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -50,45 +31,64 @@ struct Vector2;
 namespace UnityEngine::UIElements {
 class SavePersistentViewData;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::UIElements {
+class LoadResourceFunction;
 }
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
+class VisualElement;
+}
+namespace UnityEngine {
+class Event;
 }
 namespace UnityEngine::UIElements {
 class EventDispatcher;
 }
-namespace UnityEngine {
-struct Vector2Int;
+namespace UnityEngine::UIElements {
+class IMGUIContainer;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::UIElements {
-class IScheduler;
+class TimerEventScheduler;
 }
 namespace UnityEngine::UIElements {
-class IStylePropertyAnimationSystem;
+class FocusController;
 }
-namespace UnityEngine::UIElements {
-struct VisualTreeUpdatePhase;
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace UnityEngine {
 struct EventInterests;
 }
 namespace UnityEngine::UIElements {
-class GetViewDataDictionary;
+class TimeMsFunction;
+}
+namespace UnityEngine::UIElements {
+class IScheduler;
 }
 namespace UnityEngine {
 class Shader;
 }
-namespace UnityEngine {
-class Event;
+namespace UnityEngine::UIElements {
+class GetViewDataDictionary;
 }
 namespace System {
-class Type;
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::UIElements {
+struct VisualTreeUpdatePhase;
+}
+namespace UnityEngine::UIElements {
+struct ContextType;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -455,8 +455,7 @@ static UnityEngine::UIElements::TimeMsFunction get_TimeSinceStartup() ;
 /// @brief Method set_atlas addr 0x2c51660 size 0x74 virtual true final false
  void set_atlas(UnityEngine::UIElements::AtlasBase value) ;
 
-// Ctor Parameters [CppParam { name: "ownerObject", ty: "UnityEngine::ScriptableObject", modifiers: "", def_value: None }, CppParam { name: "contextType", ty: "UnityEngine::UIElements::ContextType", modifiers: "", def_value: None }, CppParam { name: "dispatcher", ty: "UnityEngine::UIElements::EventDispatcher", modifiers: "", def_value: None }]
-explicit Panel(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::ContextType contextType, UnityEngine::UIElements::EventDispatcher dispatcher) ;
+static UnityEngine::UIElements::Panel New_ctor(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::ContextType contextType, UnityEngine::UIElements::EventDispatcher dispatcher) ;
 
 /// @brief Method .ctor addr 0x2c516d4 size 0x38c virtual false final false
  void _ctor(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::ContextType contextType, UnityEngine::UIElements::EventDispatcher dispatcher) ;

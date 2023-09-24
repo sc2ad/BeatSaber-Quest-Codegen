@@ -126,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::CustomYieldInstruction::CustomYieldInstruction()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomYieldInstruction>())) {}
+ UnityEngine::CustomYieldInstruction UnityEngine::CustomYieldInstruction::New_ctor()  {
+UnityEngine::CustomYieldInstruction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::CustomYieldInstruction>())};
+return o;
+}
  void UnityEngine::CustomYieldInstruction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::CustomYieldInstruction>::get(),

@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformationCollection;
+class MacOsNetworkInterface;
 }
 namespace System::Net {
 class IPAddress;
 }
-namespace System::Net::NetworkInformation {
-class MacOsNetworkInterface;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Net::NetworkInformation {
+class GatewayIPAddressInformationCollection;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -68,8 +68,7 @@ constexpr explicit MacOsIPInterfaceProperties(void* ptr) noexcept : System::Net:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "iface", ty: "System::Net::NetworkInformation::MacOsNetworkInterface", modifiers: "", def_value: None }, CppParam { name: "addresses", ty: "System::Collections::Generic::List_1<System::Net::IPAddress>", modifiers: "", def_value: None }]
-explicit MacOsIPInterfaceProperties(System::Net::NetworkInformation::MacOsNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses) ;
+static System::Net::NetworkInformation::MacOsIPInterfaceProperties New_ctor(System::Net::NetworkInformation::MacOsNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses) ;
 
 /// @brief Method .ctor addr 0x285cbfc size 0x70 virtual false final false
  void _ctor(System::Net::NetworkInformation::MacOsNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses) ;

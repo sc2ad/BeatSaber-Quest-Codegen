@@ -4,27 +4,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace IgnoranceThirdparty {
+template<typename T>
+class RingBuffer_1;
+}
 namespace System::Threading {
 class Thread;
 }
 namespace IgnoranceCore {
-struct IgnoranceIncomingPacket;
+struct IgnoranceOutgoingPacket;
+}
+namespace IgnoranceCore {
+struct IgnoranceCore__IgnoranceServer__ThreadParamInfo;
+}
+namespace IgnoranceCore {
+struct IgnoranceServerStats;
 }
 namespace IgnoranceCore {
 struct IgnoranceConnectionEvent;
 }
 namespace IgnoranceCore {
-struct IgnoranceOutgoingPacket;
-}
-namespace IgnoranceThirdparty {
-template<typename T>
-class RingBuffer_1;
+struct IgnoranceIncomingPacket;
 }
 namespace IgnoranceCore {
 struct IgnoranceCommandPacket;
-}
-namespace IgnoranceCore {
-struct IgnoranceServerStats;
 }
 // Forward declare root types
 namespace IgnoranceCore {
@@ -381,8 +384,7 @@ constexpr System::Threading::Thread __get_WorkerThread() const;
 /// @brief Method SetupRingBuffersIfNull addr 0x2083338 size 0x244 virtual false final false
  void SetupRingBuffersIfNull() ;
 
-// Ctor Parameters []
-explicit IgnoranceServer() ;
+static IgnoranceCore::IgnoranceServer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2084798 size 0xbc virtual false final false
  void _ctor() ;

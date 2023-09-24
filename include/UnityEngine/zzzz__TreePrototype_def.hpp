@@ -97,8 +97,7 @@ constexpr int32_t __get_m_NavMeshLod() const;
 /// @brief Method get_navMeshLod addr 0x2ba510c size 0x8 virtual false final false
  int32_t get_navMeshLod() ;
 
-// Ctor Parameters []
-explicit TreePrototype() ;
+static UnityEngine::TreePrototype New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba5114 size 0x8 virtual false final false
  void _ctor() ;

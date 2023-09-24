@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__Converter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::Converter.ToCode
 template<>
 

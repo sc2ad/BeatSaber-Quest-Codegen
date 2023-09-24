@@ -64,14 +64,12 @@ constexpr ::ArrayW<uint8_t> __get_levelAndTrustAmount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit TrustPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::TrustPacket New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1144ba4 size 0xdc virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "trustCode", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TrustPacket(int32_t trustCode) ;
+static Org::BouncyCastle::Bcpg::TrustPacket New_ctor(int32_t trustCode) ;
 
 /// @brief Method .ctor addr 0x114ac10 size 0x80 virtual false final false
  void _ctor(int32_t trustCode) ;

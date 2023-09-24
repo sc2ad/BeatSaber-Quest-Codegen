@@ -2,26 +2,26 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class IssuerAndSerialNumber;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class IssuerAndSerialNumber;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -134,14 +134,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_unauthenticatedAttributes() con
 /// @brief Method GetInstance addr 0xf01f80 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::SignerInfo GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "version", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "issuerAndSerialNumber", ty: "Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber", modifiers: "", def_value: None }, CppParam { name: "digAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "authenticatedAttributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "digEncryptionAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptedDigest", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "unauthenticatedAttributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit SignerInfo(Org::BouncyCastle::Asn1::DerInteger version, Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber issuerAndSerialNumber, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgorithm, Org::BouncyCastle::Asn1::Asn1Set authenticatedAttributes, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedDigest, Org::BouncyCastle::Asn1::Asn1Set unauthenticatedAttributes) ;
+static Org::BouncyCastle::Asn1::Pkcs::SignerInfo New_ctor(Org::BouncyCastle::Asn1::DerInteger version, Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber issuerAndSerialNumber, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgorithm, Org::BouncyCastle::Asn1::Asn1Set authenticatedAttributes, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedDigest, Org::BouncyCastle::Asn1::Asn1Set unauthenticatedAttributes) ;
 
 /// @brief Method .ctor addr 0xf027ac size 0x64 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerInteger version, Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber issuerAndSerialNumber, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgorithm, Org::BouncyCastle::Asn1::Asn1Set authenticatedAttributes, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedDigest, Org::BouncyCastle::Asn1::Asn1Set unauthenticatedAttributes) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SignerInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::SignerInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xf02108 size 0x6a4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

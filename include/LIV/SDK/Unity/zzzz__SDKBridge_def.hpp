@@ -6,13 +6,14 @@
 #include <cstddef>
 #include <cstdint>
 namespace LIV::SDK::Unity {
+template<typename T>
+struct LIV__SDK__Unity__SDKBridge__SDKInjection_1;
+}
+namespace LIV::SDK::Unity {
 struct SDKInputFrame;
 }
 namespace LIV::SDK::Unity {
-struct SDKApplicationOutput;
-}
-namespace LIV::SDK::Unity {
-struct SDKResolution;
+struct SDKPlane;
 }
 namespace LIV::SDK::Unity {
 struct SDKOutputFrame;
@@ -21,7 +22,10 @@ namespace LIV::SDK::Unity {
 struct SDKTexture;
 }
 namespace LIV::SDK::Unity {
-struct SDKPlane;
+struct SDKApplicationOutput;
+}
+namespace LIV::SDK::Unity {
+struct SDKResolution;
 }
 namespace System {
 class Action;

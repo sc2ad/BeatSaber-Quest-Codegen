@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicsViewController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicsTableView_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapCharacteristicsViewController.add_didSelectBeatmapCharacteristicEvent
 template<>
 
@@ -254,8 +254,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapCharacteristic);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapCharacteristicsViewController::BeatmapCharacteristicsViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<BeatmapCharacteristicsViewController>())) {}
+ GlobalNamespace::BeatmapCharacteristicsViewController GlobalNamespace::BeatmapCharacteristicsViewController::New_ctor()  {
+GlobalNamespace::BeatmapCharacteristicsViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapCharacteristicsViewController>())};
+return o;
+}
  void GlobalNamespace::BeatmapCharacteristicsViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapCharacteristicsViewController>::get(),

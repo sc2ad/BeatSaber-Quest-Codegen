@@ -75,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonObjectId::BsonObjectId(::ArrayW<uint8_t> value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BsonObjectId>(value))) {}
+ Newtonsoft::Json::Bson::BsonObjectId Newtonsoft::Json::Bson::BsonObjectId::New_ctor(::ArrayW<uint8_t> value)  {
+Newtonsoft::Json::Bson::BsonObjectId o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonObjectId>(value))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonObjectId::_ctor(::ArrayW<uint8_t> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonObjectId>::get(),

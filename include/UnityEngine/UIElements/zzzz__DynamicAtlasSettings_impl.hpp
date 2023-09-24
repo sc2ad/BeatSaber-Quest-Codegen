@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasSettings_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DynamicAtlasFilters_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasFiltersInternal_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasCustomFilter_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DynamicAtlasFilters_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::DynamicAtlasSettings.get_minAtlasSize
 template<>
 
@@ -362,8 +362,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::DynamicAtlasSettings, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::DynamicAtlasSettings::DynamicAtlasSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DynamicAtlasSettings>())) {}
+ UnityEngine::UIElements::DynamicAtlasSettings UnityEngine::UIElements::DynamicAtlasSettings::New_ctor()  {
+UnityEngine::UIElements::DynamicAtlasSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::DynamicAtlasSettings>())};
+return o;
+}
  void UnityEngine::UIElements::DynamicAtlasSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::DynamicAtlasSettings>::get(),

@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsTransport_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__DatagramTransport_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCloseable_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__DatagramTransport_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsRecordLayer_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::DtlsTransport._ctor
 template<>
@@ -119,8 +119,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::DtlsTransport::__set_mRecordLayer
 constexpr Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer Org::BouncyCastle::Crypto::Tls::DtlsTransport::__get_mRecordLayer() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "recordLayer", ty: "Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DtlsTransport::DtlsTransport(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer recordLayer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DtlsTransport>(recordLayer))) {}
+ Org::BouncyCastle::Crypto::Tls::DtlsTransport Org::BouncyCastle::Crypto::Tls::DtlsTransport::New_ctor(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer recordLayer)  {
+Org::BouncyCastle::Crypto::Tls::DtlsTransport o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DtlsTransport>(recordLayer))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DtlsTransport::_ctor(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer recordLayer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DtlsTransport>::get(),

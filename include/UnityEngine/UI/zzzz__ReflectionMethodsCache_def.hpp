@@ -6,17 +6,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct RaycastHit2D;
+namespace UnityEngine::UI {
+class UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace UnityEngine {
 struct Ray;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
+}
+namespace UnityEngine {
+struct RaycastHit2D;
 }
 namespace UnityEngine {
 struct RaycastHit;
@@ -88,8 +106,7 @@ constexpr explicit UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback(vo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2c1541c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -149,8 +166,7 @@ constexpr explicit UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2c1566c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -210,8 +226,7 @@ constexpr explicit UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2c15864 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -271,8 +286,7 @@ constexpr explicit UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback(vo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2c15a7c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -332,8 +346,7 @@ constexpr explicit UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2c15c88 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -393,8 +406,7 @@ constexpr explicit UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2c15e80 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -516,8 +528,7 @@ static UnityEngine::UI::ReflectionMethodsCache __declspec(property(get=get_Singl
 
 // Methods
 
-// Ctor Parameters []
-explicit ReflectionMethodsCache() ;
+static UnityEngine::UI::ReflectionMethodsCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1478c size 0xc14 virtual false final false
  void _ctor() ;

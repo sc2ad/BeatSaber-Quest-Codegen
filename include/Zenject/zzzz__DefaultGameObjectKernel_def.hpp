@@ -50,8 +50,7 @@ constexpr explicit DefaultGameObjectKernel(void* ptr) noexcept : Zenject::MonoKe
 
 // Methods
 
-// Ctor Parameters []
-explicit DefaultGameObjectKernel() ;
+static Zenject::DefaultGameObjectKernel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9b4d0 size 0x8 virtual false final false
  void _ctor() ;

@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::HMACSHA256::HMACSHA256()  : System::Security::Cryptography::HMAC(THROW_UNLESS(::il2cpp_utils::New<HMACSHA256>())) {}
+ System::Security::Cryptography::HMACSHA256 System::Security::Cryptography::HMACSHA256::New_ctor()  {
+System::Security::Cryptography::HMACSHA256 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::HMACSHA256>())};
+return o;
+}
  void System::Security::Cryptography::HMACSHA256::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::HMACSHA256>::get(),
@@ -46,8 +48,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::HMACSHA256::HMACSHA256(::ArrayW<uint8_t> key)  : System::Security::Cryptography::HMAC(THROW_UNLESS(::il2cpp_utils::New<HMACSHA256>(key))) {}
+ System::Security::Cryptography::HMACSHA256 System::Security::Cryptography::HMACSHA256::New_ctor(::ArrayW<uint8_t> key)  {
+System::Security::Cryptography::HMACSHA256 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::HMACSHA256>(key))};
+return o;
+}
  void System::Security::Cryptography::HMACSHA256::_ctor(::ArrayW<uint8_t> key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::HMACSHA256>::get(),

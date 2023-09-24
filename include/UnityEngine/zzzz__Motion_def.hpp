@@ -61,8 +61,7 @@ constexpr bool __get__isAnimatorMotion_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Motion() ;
+static UnityEngine::Motion New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b1aafc size 0x58 virtual false final false
  void _ctor() ;

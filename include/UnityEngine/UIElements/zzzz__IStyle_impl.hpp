@@ -1,20 +1,20 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__IStyle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleTextShadow_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleRotate_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Justify_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FlexDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleEnum_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Position_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DisplayStyle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleScale_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleLength_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleRotate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Justify_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Visibility_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleTransformOrigin_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FlexDirection_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleColor_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleCursor_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleColor_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleScale_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleTranslate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleTextShadow_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleTransformOrigin_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::IStyle.set_backgroundColor
 template<>
 

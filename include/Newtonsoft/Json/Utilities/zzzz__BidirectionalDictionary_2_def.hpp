@@ -92,20 +92,17 @@ constexpr ::StringW __get__duplicateSecondErrorMessage() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BidirectionalDictionary_2() ;
+static Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst,TSecond> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "firstEqualityComparer", ty: "System::Collections::Generic::IEqualityComparer_1<TFirst>", modifiers: "", def_value: None }, CppParam { name: "secondEqualityComparer", ty: "System::Collections::Generic::IEqualityComparer_1<TSecond>", modifiers: "", def_value: None }]
-explicit BidirectionalDictionary_2(System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer) ;
+static Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst,TSecond> New_ctor(System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer) ;
 
-// Ctor Parameters [CppParam { name: "firstEqualityComparer", ty: "System::Collections::Generic::IEqualityComparer_1<TFirst>", modifiers: "", def_value: None }, CppParam { name: "secondEqualityComparer", ty: "System::Collections::Generic::IEqualityComparer_1<TSecond>", modifiers: "", def_value: None }, CppParam { name: "duplicateFirstErrorMessage", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "duplicateSecondErrorMessage", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BidirectionalDictionary_2(System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer, ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage) ;
+static Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst,TSecond> New_ctor(System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer, ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IEqualityComparer_1<TFirst> firstEqualityComparer, System::Collections::Generic::IEqualityComparer_1<TSecond> secondEqualityComparer, ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage) ;

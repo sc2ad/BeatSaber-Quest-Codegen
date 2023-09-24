@@ -1,12 +1,13 @@
 #pragma once
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
 #include "Zenject/zzzz__IBindingFinalizer_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__ScopeTypes_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
@@ -114,8 +115,10 @@ return ::cordl_internals::getStaticField<System::Func_2<System::Type,::StringW>,
  System::Func_2<System::Type,::StringW> Zenject::Zenject__ProviderBindingFinalizer____c::__get___9__8_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Type,::StringW>, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ProviderBindingFinalizer____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__ProviderBindingFinalizer____c::Zenject__ProviderBindingFinalizer____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ProviderBindingFinalizer____c>())) {}
+ Zenject::Zenject__ProviderBindingFinalizer____c Zenject::Zenject__ProviderBindingFinalizer____c::New_ctor()  {
+Zenject::Zenject__ProviderBindingFinalizer____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ProviderBindingFinalizer____c>())};
+return o;
+}
  void Zenject::Zenject__ProviderBindingFinalizer____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ProviderBindingFinalizer____c>::get(),
@@ -392,8 +395,10 @@ constexpr void Zenject::ProviderBindingFinalizer::__set__BindInfo_k__BackingFiel
 constexpr Zenject::BindInfo Zenject::ProviderBindingFinalizer::__get__BindInfo_k__BackingField() const {
 return ::cordl_internals::getInstanceField<Zenject::BindInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
- Zenject::ProviderBindingFinalizer::ProviderBindingFinalizer(Zenject::BindInfo bindInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProviderBindingFinalizer>(bindInfo))) {}
+ Zenject::ProviderBindingFinalizer Zenject::ProviderBindingFinalizer::New_ctor(Zenject::BindInfo bindInfo)  {
+Zenject::ProviderBindingFinalizer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ProviderBindingFinalizer>(bindInfo))};
+return o;
+}
  void Zenject::ProviderBindingFinalizer::_ctor(Zenject::BindInfo bindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ProviderBindingFinalizer>::get(),

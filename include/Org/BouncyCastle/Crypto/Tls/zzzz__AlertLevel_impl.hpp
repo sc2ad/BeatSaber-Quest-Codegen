@@ -69,8 +69,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, alertDescription);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::AlertLevel::AlertLevel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AlertLevel>())) {}
+ Org::BouncyCastle::Crypto::Tls::AlertLevel Org::BouncyCastle::Crypto::Tls::AlertLevel::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::AlertLevel o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::AlertLevel>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::AlertLevel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::AlertLevel>::get(),

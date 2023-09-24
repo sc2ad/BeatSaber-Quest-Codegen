@@ -8,8 +8,11 @@ class IEnumerator;
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Specialized {
+class System__Collections__Specialized__ListDictionary__NodeEnumerator;
+}
+namespace System::Collections::Specialized {
+class System__Collections__Specialized__ListDictionary__DictionaryNode;
 }
 namespace System::Collections {
 class IComparer;
@@ -18,13 +21,22 @@ namespace System {
 class Array;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class IDictionary;
 }
+namespace System::Collections::Specialized {
+class System__Collections__Specialized__ListDictionary__NodeKeyValueCollection;
+}
 namespace System::Collections {
 struct DictionaryEntry;
+}
+namespace GlobalNamespace {
+class System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -128,8 +140,7 @@ constexpr bool __get__start() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::Specialized::ListDictionary", modifiers: "", def_value: None }]
-explicit System__Collections__Specialized__ListDictionary__NodeEnumerator(System::Collections::Specialized::ListDictionary list) ;
+static System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeEnumerator New_ctor(System::Collections::Specialized::ListDictionary list) ;
 
 /// @brief Method .ctor addr 0x27a9874 size 0x44 virtual false final false
  void _ctor(System::Collections::Specialized::ListDictionary list) ;
@@ -239,8 +250,7 @@ constexpr bool __get__start() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::Specialized::ListDictionary", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
-explicit System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator(System::Collections::Specialized::ListDictionary list, bool isKeys) ;
+static GlobalNamespace::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection__NodeKeyValueEnumerator New_ctor(System::Collections::Specialized::ListDictionary list, bool isKeys) ;
 
 /// @brief Method .ctor addr 0x27a9f98 size 0x4c virtual false final false
  void _ctor(System::Collections::Specialized::ListDictionary list, bool isKeys) ;
@@ -332,8 +342,7 @@ constexpr bool __get__isKeys() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::Specialized::ListDictionary", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
-explicit System__Collections__Specialized__ListDictionary__NodeKeyValueCollection(System::Collections::Specialized::ListDictionary list, bool isKeys) ;
+static System::Collections::Specialized::System__Collections__Specialized__ListDictionary__NodeKeyValueCollection New_ctor(System::Collections::Specialized::ListDictionary list, bool isKeys) ;
 
 /// @brief Method .ctor addr 0x27a9198 size 0x30 virtual false final false
  void _ctor(System::Collections::Specialized::ListDictionary list, bool isKeys) ;
@@ -420,8 +429,7 @@ constexpr System::Collections::Specialized::System__Collections__Specialized__Li
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Collections__Specialized__ListDictionary__DictionaryNode() ;
+static System::Collections::Specialized::System__Collections__Specialized__ListDictionary__DictionaryNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x27a911c size 0x8 virtual false final false
  void _ctor() ;
@@ -539,14 +547,12 @@ constexpr ::bs_hook::Il2CppWrapperType __get__syncRoot() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ListDictionary() ;
+static System::Collections::Specialized::ListDictionary New_ctor() ;
 
 /// @brief Method .ctor addr 0x27a8dc4 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::IComparer", modifiers: "", def_value: None }]
-explicit ListDictionary(System::Collections::IComparer comparer) ;
+static System::Collections::Specialized::ListDictionary New_ctor(System::Collections::IComparer comparer) ;
 
 /// @brief Method .ctor addr 0x27a8dcc size 0x28 virtual false final false
  void _ctor(System::Collections::IComparer comparer) ;

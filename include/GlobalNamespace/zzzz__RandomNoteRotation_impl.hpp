@@ -115,8 +115,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteController);
 }
-// Ctor Parameters []
- GlobalNamespace::RandomNoteRotation::RandomNoteRotation()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RandomNoteRotation>())) {}
+ GlobalNamespace::RandomNoteRotation GlobalNamespace::RandomNoteRotation::New_ctor()  {
+GlobalNamespace::RandomNoteRotation o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RandomNoteRotation>())};
+return o;
+}
  void GlobalNamespace::RandomNoteRotation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RandomNoteRotation>::get(),

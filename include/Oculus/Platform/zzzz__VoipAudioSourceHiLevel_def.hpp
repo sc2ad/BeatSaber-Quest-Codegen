@@ -7,11 +7,14 @@
 namespace Oculus::Platform {
 class IVoipPCMSource;
 }
-namespace UnityEngine {
-class AudioSource;
-}
 namespace Oculus::Platform {
 struct VoipSampleRate;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -83,8 +86,7 @@ constexpr ::ArrayW<float_t> __get_scratchBuffer() const;
 /// @brief Method OnAudioFilterRead addr 0x259ae8c size 0x4cc virtual false final false
  void OnAudioFilterRead(::ArrayW<float_t> data, int32_t channels) ;
 
-// Ctor Parameters []
-explicit Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate() ;
+static Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate New_ctor() ;
 
 /// @brief Method .ctor addr 0x259b358 size 0x8 virtual false final false
  void _ctor() ;
@@ -205,8 +207,7 @@ static int32_t MSToElements(int32_t ms) ;
 /// @brief Method Update addr 0x259aae4 size 0x2e8 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit VoipAudioSourceHiLevel() ;
+static Oculus::Platform::VoipAudioSourceHiLevel New_ctor() ;
 
 /// @brief Method .ctor addr 0x259adcc size 0x8 virtual false final false
  void _ctor() ;

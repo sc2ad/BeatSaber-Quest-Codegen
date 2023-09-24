@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__EntityBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__TriggerBehaviour_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::TriggerBehaviour.Initialize
 template<>
 
@@ -98,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, scene, mode);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::TriggerBehaviour::TriggerBehaviour()  : UnityEngine::ProBuilder::EntityBehaviour(THROW_UNLESS(::il2cpp_utils::New<TriggerBehaviour>())) {}
+ UnityEngine::ProBuilder::TriggerBehaviour UnityEngine::ProBuilder::TriggerBehaviour::New_ctor()  {
+UnityEngine::ProBuilder::TriggerBehaviour o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::TriggerBehaviour>())};
+return o;
+}
  void UnityEngine::ProBuilder::TriggerBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::TriggerBehaviour>::get(),

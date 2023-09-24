@@ -2,11 +2,11 @@
 #include "UnityEngine/InputSystem/zzzz__Keyboard_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__FastKeyboard_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AnyKeyControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__DiscreteButtonControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__DiscreteButtonControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::FastKeyboard._ctor
 template<>
 
@@ -1979,8 +1979,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::FastKeyboard::FastKeyboard()  : UnityEngine::InputSystem::Keyboard(THROW_UNLESS(::il2cpp_utils::New<FastKeyboard>())) {}
+ UnityEngine::InputSystem::FastKeyboard UnityEngine::InputSystem::FastKeyboard::New_ctor()  {
+UnityEngine::InputSystem::FastKeyboard o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::FastKeyboard>())};
+return o;
+}
  void UnityEngine::InputSystem::FastKeyboard::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::FastKeyboard>::get(),

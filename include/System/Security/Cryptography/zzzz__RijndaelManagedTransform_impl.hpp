@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__RijndaelManagedTransform_def.hpp"
-#include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_def.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManagedTransformMode_def.hpp"
@@ -480,8 +480,10 @@ return ::cordl_internals::getStaticField<::ArrayW<int32_t>, "s_iT", ::il2cpp_uti
  ::ArrayW<int32_t> System::Security::Cryptography::RijndaelManagedTransform::__get_s_iTF()  {
 return ::cordl_internals::getStaticField<::ArrayW<int32_t>, "s_iTF", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RijndaelManagedTransform>::get>();
 }
-// Ctor Parameters [CppParam { name: "rgbKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Security::Cryptography::CipherMode", modifiers: "", def_value: None }, CppParam { name: "rgbIV", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "feedbackSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PaddingValue", ty: "System::Security::Cryptography::PaddingMode", modifiers: "", def_value: None }, CppParam { name: "transformMode", ty: "System::Security::Cryptography::RijndaelManagedTransformMode", modifiers: "", def_value: None }]
- System::Security::Cryptography::RijndaelManagedTransform::RijndaelManagedTransform(::ArrayW<uint8_t> rgbKey, System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t blockSize, int32_t feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RijndaelManagedTransform>(rgbKey, mode, rgbIV, blockSize, feedbackSize, PaddingValue, transformMode))) {}
+ System::Security::Cryptography::RijndaelManagedTransform System::Security::Cryptography::RijndaelManagedTransform::New_ctor(::ArrayW<uint8_t> rgbKey, System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t blockSize, int32_t feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode)  {
+System::Security::Cryptography::RijndaelManagedTransform o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RijndaelManagedTransform>(rgbKey, mode, rgbIV, blockSize, feedbackSize, PaddingValue, transformMode))};
+return o;
+}
  void System::Security::Cryptography::RijndaelManagedTransform::_ctor(::ArrayW<uint8_t> rgbKey, System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t blockSize, int32_t feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RijndaelManagedTransform>::get(),

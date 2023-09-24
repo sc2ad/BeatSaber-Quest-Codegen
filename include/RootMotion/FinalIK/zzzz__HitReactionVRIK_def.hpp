@@ -10,10 +10,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
-class VRIK;
+struct RootMotion__FinalIK__IKSolverVR__PositionOffset;
 }
 namespace RootMotion::FinalIK {
-struct RootMotion__FinalIK__IKSolverVR__PositionOffset;
+class VRIK;
 }
 namespace RootMotion::FinalIK {
 struct RootMotion__FinalIK__IKSolverVR__RotationOffset;
@@ -21,14 +21,29 @@ struct RootMotion__FinalIK__IKSolverVR__RotationOffset;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-class Collider;
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__HitReactionVRIK__PositionOffset;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
+class Collider;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__HitReactionVRIK__Offset;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__HitReactionVRIK__RotationOffset;
+}
+namespace GlobalNamespace {
+class RootMotion__FinalIK__HitReactionVRIK__PositionOffset__PositionOffsetLink;
+}
+namespace UnityEngine {
 class Rigidbody;
+}
+namespace GlobalNamespace {
+class RootMotion__FinalIK__HitReactionVRIK__RotationOffset__RotationOffsetLink;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -204,8 +219,7 @@ constexpr float_t __get_lastTime() const;
 /// @brief Method OnApply addr 0x0 size 0xffffffffffffffff virtual true final false
  void OnApply(RootMotion::FinalIK::VRIK ik, ::ArrayW<UnityEngine::AnimationCurve> curves, float_t weight) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__HitReactionVRIK__Offset() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__HitReactionVRIK__Offset New_ctor() ;
 
 /// @brief Method .ctor addr 0x1209004 size 0x14 virtual false final false
  void _ctor() ;
@@ -289,8 +303,7 @@ constexpr UnityEngine::Vector3 __get_current() const;
 /// @brief Method CrossFadeStart addr 0x120920c size 0x14 virtual false final false
  void CrossFadeStart() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__HitReactionVRIK__PositionOffset__PositionOffsetLink() ;
+static GlobalNamespace::RootMotion__FinalIK__HitReactionVRIK__PositionOffset__PositionOffsetLink New_ctor() ;
 
 /// @brief Method .ctor addr 0x120947c size 0x8 virtual false final false
  void _ctor() ;
@@ -373,8 +386,7 @@ constexpr ::ArrayW<GlobalNamespace::RootMotion__FinalIK__HitReactionVRIK__Positi
 /// @brief Method OnApply addr 0x1209220 size 0x1c8 virtual true final false
  void OnApply(RootMotion::FinalIK::VRIK ik, ::ArrayW<UnityEngine::AnimationCurve> curves, float_t weight) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__HitReactionVRIK__PositionOffset() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__HitReactionVRIK__PositionOffset New_ctor() ;
 
 /// @brief Method .ctor addr 0x1209460 size 0x1c virtual false final false
  void _ctor() ;
@@ -458,8 +470,7 @@ constexpr UnityEngine::Quaternion __get_current() const;
 /// @brief Method CrossFadeStart addr 0x12095b4 size 0xc virtual false final false
  void CrossFadeStart() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__HitReactionVRIK__RotationOffset__RotationOffsetLink() ;
+static GlobalNamespace::RootMotion__FinalIK__HitReactionVRIK__RotationOffset__RotationOffsetLink New_ctor() ;
 
 /// @brief Method .ctor addr 0x1209958 size 0x64 virtual false final false
  void _ctor() ;
@@ -542,8 +553,7 @@ constexpr UnityEngine::Rigidbody __get_rigidbody() const;
 /// @brief Method OnApply addr 0x12095c0 size 0x27c virtual true final false
  void OnApply(RootMotion::FinalIK::VRIK ik, ::ArrayW<UnityEngine::AnimationCurve> curves, float_t weight) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__HitReactionVRIK__RotationOffset() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__HitReactionVRIK__RotationOffset New_ctor() ;
 
 /// @brief Method .ctor addr 0x1209944 size 0x14 virtual false final false
  void _ctor() ;
@@ -627,8 +637,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__HitReactionVRIK__Ro
 /// @brief Method Hit addr 0x1208c40 size 0x224 virtual false final false
  void Hit(UnityEngine::Collider collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point) ;
 
-// Ctor Parameters []
-explicit HitReactionVRIK() ;
+static RootMotion::FinalIK::HitReactionVRIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x1208f94 size 0x10 virtual false final false
  void _ctor() ;

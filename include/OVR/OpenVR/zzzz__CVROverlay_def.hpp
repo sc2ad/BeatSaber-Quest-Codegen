@@ -8,79 +8,85 @@
 #include <cstddef>
 #include <cstdint>
 namespace OVR::OpenVR {
-struct VROverlayTransformType;
-}
-namespace OVR::OpenVR {
-struct EDualAnalogWhich;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace OVR::OpenVR {
 struct HmdColor_t;
-}
-namespace OVR::OpenVR {
-struct EVROverlayError;
 }
 namespace OVR::OpenVR {
 struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
-struct EOverlayDirection;
-}
-namespace OVR::OpenVR {
-struct VROverlayFlags;
-}
-namespace OVR::OpenVR {
-struct HmdRect2_t;
-}
-namespace OVR::OpenVR {
-struct IVROverlay;
-}
-namespace OVR::OpenVR {
-struct EColorSpace;
-}
-namespace OVR::OpenVR {
-struct VROverlayInputMethod;
-}
-namespace OVR::OpenVR {
-struct VRMessageOverlayResponse;
-}
-namespace OVR::OpenVR {
-struct VREvent_t;
-}
-namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
-}
-namespace OVR::OpenVR {
-struct Texture_t;
-}
-namespace OVR::OpenVR {
-struct VRTextureBounds_t;
-}
-namespace OVR::OpenVR {
-struct ETextureType;
-}
-namespace OVR::OpenVR {
-struct VROverlayIntersectionParams_t;
-}
-namespace OVR::OpenVR {
-struct VROverlayIntersectionResults_t;
+struct OVR__OpenVR__CVROverlay__PollNextOverlayEventUnion;
 }
 namespace OVR::OpenVR {
 struct HmdVector2_t;
 }
 namespace OVR::OpenVR {
+struct VROverlayIntersectionResults_t;
+}
+namespace OVR::OpenVR {
+struct EDualAnalogWhich;
+}
+namespace OVR::OpenVR {
+struct ETextureType;
+}
+namespace OVR::OpenVR {
+struct VRMessageOverlayResponse;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace OVR::OpenVR {
+struct Texture_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_t;
+}
+namespace OVR::OpenVR {
+struct VROverlayFlags;
+}
+namespace OVR::OpenVR {
+struct VROverlayIntersectionParams_t;
+}
+namespace OVR::OpenVR {
+struct HmdRect2_t;
+}
+namespace OVR::OpenVR {
+struct EOverlayDirection;
+}
+namespace OVR::OpenVR {
+struct EVROverlayError;
+}
+namespace OVR::OpenVR {
+struct VROverlayTransformType;
+}
+namespace OVR::OpenVR {
+struct ETrackingUniverseOrigin;
+}
+namespace OVR::OpenVR {
+struct VROverlayInputMethod;
+}
+namespace OVR::OpenVR {
 struct VROverlayIntersectionMaskPrimitive_t;
+}
+namespace OVR::OpenVR {
+struct VRTextureBounds_t;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked;
+}
+namespace OVR::OpenVR {
+struct EColorSpace;
+}
+namespace OVR::OpenVR {
+struct IVROverlay;
+}
+namespace OVR::OpenVR {
+struct VREvent_t_Packed;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace OVR::OpenVR {
-struct VREvent_t_Packed;
 }
 namespace OVR::OpenVR {
 class OVR__OpenVR__IVROverlay___PollNextOverlayEvent;
@@ -137,8 +143,7 @@ constexpr explicit OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2666f34 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -270,8 +275,7 @@ constexpr OVR::OpenVR::IVROverlay __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVROverlay(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVROverlay New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x266604c size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

@@ -93,8 +93,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_m_HostContext() const;
 /// @brief Method CreateCopy addr 0x233a1b8 size 0x254 virtual false final false
  System::Runtime::Remoting::Messaging::IllogicalCallContext CreateCopy() ;
 
-// Ctor Parameters []
-explicit IllogicalCallContext() ;
+static System::Runtime::Remoting::Messaging::IllogicalCallContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x233a40c size 0x8 virtual false final false
  void _ctor() ;

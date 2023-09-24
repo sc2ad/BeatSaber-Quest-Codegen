@@ -7,23 +7,29 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class IKConstraintBend;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Node;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class IKSolverFullBody;
-}
-namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__IKSolver__Point;
 }
 namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__Node;
+class RootMotion__FinalIK__FBIKChain__ChildConstraint;
+}
+namespace RootMotion::FinalIK {
+struct RootMotion__FinalIK__FBIKChain__Smoothing;
+}
+namespace RootMotion::FinalIK {
+class IKSolverFullBody;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -159,8 +165,7 @@ constexpr int32_t __get_chain2Index() const;
 /// @brief Method set_isRigid addr 0x11cd7e0 size 0xc virtual false final false
  void set_isRigid(bool value) ;
 
-// Ctor Parameters [CppParam { name: "bone1", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone2", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "pushElasticity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "pullElasticity", ty: "float_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__FBIKChain__ChildConstraint(UnityEngine::Transform bone1, UnityEngine::Transform bone2, float_t pushElasticity, float_t pullElasticity) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__FBIKChain__ChildConstraint New_ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, float_t pushElasticity, float_t pullElasticity) ;
 
 /// @brief Method .ctor addr 0x11cd7ec size 0x40 virtual false final false
  void _ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, float_t pushElasticity, float_t pullElasticity) ;
@@ -228,6 +233,8 @@ __Cubic = 2,
 constexpr operator __RootMotion__FinalIK__FBIKChain__Smoothing_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__FinalIK__FBIKChain__Smoothing_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -435,14 +442,12 @@ static constexpr float_t  maxLimbLength{0.99999};
 
 // Methods
 
-// Ctor Parameters []
-explicit FBIKChain() ;
+static RootMotion::FinalIK::FBIKChain New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ca890 size 0xfc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "pin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "pull", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nodeTransforms", ty: "::ArrayW<UnityEngine::Transform>", modifiers: "", def_value: None }]
-explicit FBIKChain(float_t pin, float_t pull, ::ArrayW<UnityEngine::Transform> nodeTransforms) ;
+static RootMotion::FinalIK::FBIKChain New_ctor(float_t pin, float_t pull, ::ArrayW<UnityEngine::Transform> nodeTransforms) ;
 
 /// @brief Method .ctor addr 0x11ca9f8 size 0x134 virtual false final false
  void _ctor(float_t pin, float_t pull, ::ArrayW<UnityEngine::Transform> nodeTransforms) ;

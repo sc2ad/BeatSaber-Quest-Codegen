@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Rendering {
-struct CompareFunction;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::Rendering {
+struct CompareFunction;
 }
 namespace UnityEngine::Rendering {
 struct StencilOp;

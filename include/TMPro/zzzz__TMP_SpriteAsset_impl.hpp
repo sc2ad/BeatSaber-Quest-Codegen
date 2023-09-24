@@ -1,15 +1,16 @@
 #pragma once
 #include "TMPro/zzzz__TMP_Asset_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
-#include "UnityEngine/TextCore/zzzz__FaceInfo_def.hpp"
-#include "TMPro/zzzz__TMP_Sprite_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__TMP_SpriteCharacter_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__TMP_SpriteGlyph_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/TextCore/zzzz__FaceInfo_def.hpp"
+#include "TMPro/zzzz__TMP_Sprite_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__TMP_SpriteAsset____c._ctor
 template<>
@@ -80,8 +81,10 @@ return ::cordl_internals::getStaticField<System::Func_2<TMPro::TMP_SpriteGlyph,u
  System::Func_2<TMPro::TMP_SpriteCharacter,uint32_t> TMPro::TMPro__TMP_SpriteAsset____c::__get___9__41_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<TMPro::TMP_SpriteCharacter,uint32_t>, "<>9__41_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_SpriteAsset____c>::get>();
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_SpriteAsset____c::TMPro__TMP_SpriteAsset____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_SpriteAsset____c>())) {}
+ TMPro::TMPro__TMP_SpriteAsset____c TMPro::TMPro__TMP_SpriteAsset____c::New_ctor()  {
+TMPro::TMPro__TMP_SpriteAsset____c o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_SpriteAsset____c>())};
+return o;
+}
  void TMPro::TMPro__TMP_SpriteAsset____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_SpriteAsset____c>::get(),
@@ -880,8 +883,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TMP_SpriteAsset::TMP_SpriteAsset()  : TMPro::TMP_Asset(THROW_UNLESS(::il2cpp_utils::New<TMP_SpriteAsset>())) {}
+ TMPro::TMP_SpriteAsset TMPro::TMP_SpriteAsset::New_ctor()  {
+TMPro::TMP_SpriteAsset o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SpriteAsset>())};
+return o;
+}
  void TMPro::TMP_SpriteAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SpriteAsset>::get(),

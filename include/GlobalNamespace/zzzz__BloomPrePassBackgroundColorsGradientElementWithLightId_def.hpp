@@ -6,6 +6,9 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements;
+}
+namespace GlobalNamespace {
 class BloomPrePassBackgroundColorsGradient;
 }
 namespace UnityEngine {
@@ -81,8 +84,7 @@ constexpr float_t __get_minIntensity() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements() ;
+static GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9c4dc size 0x10 virtual false final false
  void _ctor() ;
@@ -153,8 +155,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColor
 /// @brief Method ColorWasSet addr 0x1f9c410 size 0xac virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundColorsGradientElementWithLightId() ;
+static GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9c4bc size 0x10 virtual false final false
  void _ctor() ;

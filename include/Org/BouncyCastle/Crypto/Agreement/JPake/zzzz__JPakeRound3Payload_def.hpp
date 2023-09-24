@@ -73,8 +73,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_macTag() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "magTag", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit JPakeRound3Payload(::StringW participantId, Org::BouncyCastle::Math::BigInteger magTag) ;
+static Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload New_ctor(::StringW participantId, Org::BouncyCastle::Math::BigInteger magTag) ;
 
 /// @brief Method .ctor addr 0x1189ed8 size 0x2c virtual false final false
  void _ctor(::StringW participantId, Org::BouncyCastle::Math::BigInteger magTag) ;

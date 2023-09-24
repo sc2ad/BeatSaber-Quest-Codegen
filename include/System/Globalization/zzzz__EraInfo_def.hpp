@@ -100,14 +100,12 @@ constexpr ::StringW __get_englishEraName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startYear", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startMonth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startDay", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "yearOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minEraYear", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxEraYear", ty: "int32_t", modifiers: "", def_value: None }]
-explicit EraInfo(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear) ;
+static System::Globalization::EraInfo New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear) ;
 
 /// @brief Method .ctor addr 0x23f286c size 0x9c virtual false final false
  void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear) ;
 
-// Ctor Parameters [CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startYear", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startMonth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startDay", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "yearOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minEraYear", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxEraYear", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "eraName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "abbrevEraName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "englishEraName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit EraInfo(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName, ::StringW englishEraName) ;
+static System::Globalization::EraInfo New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName, ::StringW englishEraName) ;
 
 /// @brief Method .ctor addr 0x23f2908 size 0xb4 virtual false final false
  void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName, ::StringW englishEraName) ;

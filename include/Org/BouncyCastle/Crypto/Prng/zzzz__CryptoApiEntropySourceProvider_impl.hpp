@@ -1,7 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__CryptoApiEntropySourceProvider_def.hpp"
-#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySourceProvider_def.hpp"
+#include "Org/BouncyCastle/Crypto/Prng/zzzz__CryptoApiEntropySourceProvider_def.hpp"
+#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource._ctor
 template<>
@@ -93,8 +94,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng_
 constexpr int32_t Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource::__get_mEntropySize() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rng", ty: "System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "entropySize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource(System::Security::Cryptography::RandomNumberGenerator rng, bool predictionResistant, int32_t entropySize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource>(rng, predictionResistant, entropySize))) {}
+ Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource::New_ctor(System::Security::Cryptography::RandomNumberGenerator rng, bool predictionResistant, int32_t entropySize)  {
+Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource>(rng, predictionResistant, entropySize))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource::_ctor(System::Security::Cryptography::RandomNumberGenerator rng, bool predictionResistant, int32_t entropySize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource>::get(),
@@ -198,8 +201,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::
 constexpr bool Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::__get_mPredictionResistant() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::CryptoApiEntropySourceProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CryptoApiEntropySourceProvider>())) {}
+ Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::New_ctor()  {
+Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider>::get(),
@@ -209,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rng", ty: "System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }, CppParam { name: "isPredictionResistant", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::CryptoApiEntropySourceProvider(System::Security::Cryptography::RandomNumberGenerator rng, bool isPredictionResistant)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CryptoApiEntropySourceProvider>(rng, isPredictionResistant))) {}
+ Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::New_ctor(System::Security::Cryptography::RandomNumberGenerator rng, bool isPredictionResistant)  {
+Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider>(rng, isPredictionResistant))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider::_ctor(System::Security::Cryptography::RandomNumberGenerator rng, bool isPredictionResistant)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider>::get(),

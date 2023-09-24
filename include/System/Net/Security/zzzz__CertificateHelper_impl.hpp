@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/Security/zzzz__CertificateHelper_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 //  Writing Method size for method: System::Net::Security::CertificateHelper.GetEligibleClientCertificate
 template<>
 

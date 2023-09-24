@@ -1,12 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__SignalReceiver_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__SignalAsset_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
+#include "UnityEngine/Timeline/zzzz__SignalReceiver_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::UnityEngine__Timeline__SignalReceiver__EventKeyValue.TryGetValue
 template<>
@@ -193,8 +194,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::UnityEngine__Timeline__SignalReceiver__EventKeyValue::UnityEngine__Timeline__SignalReceiver__EventKeyValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__SignalReceiver__EventKeyValue>())) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__SignalReceiver__EventKeyValue UnityEngine::Timeline::UnityEngine__Timeline__SignalReceiver__EventKeyValue::New_ctor()  {
+UnityEngine::Timeline::UnityEngine__Timeline__SignalReceiver__EventKeyValue o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__SignalReceiver__EventKeyValue>())};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__SignalReceiver__EventKeyValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__SignalReceiver__EventKeyValue>::get(),
@@ -569,8 +572,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::SignalReceiver::SignalReceiver()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SignalReceiver>())) {}
+ UnityEngine::Timeline::SignalReceiver UnityEngine::Timeline::SignalReceiver::New_ctor()  {
+UnityEngine::Timeline::SignalReceiver o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::SignalReceiver>())};
+return o;
+}
  void UnityEngine::Timeline::SignalReceiver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::SignalReceiver>::get(),

@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 namespace GlobalNamespace {
-class MultiplayerLobbyAvatarController;
+class MultiplayerLobbyAvatarPlace;
 }
 namespace GlobalNamespace {
-class MultiplayerLobbyAvatarPlace;
+class MultiplayerLobbyAvatarController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,7 @@ constexpr GlobalNamespace::MultiplayerLobbyAvatarPlace __get__multiplayerAvatarP
 /// @brief Method InstallBindings addr 0x211abe4 size 0xec virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MultiplayerLobbyInstaller() ;
+static GlobalNamespace::MultiplayerLobbyInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211acd0 size 0x8 virtual false final false
  void _ctor() ;

@@ -47,8 +47,7 @@ constexpr explicit AvatarColorTrack(void* ptr) noexcept : UnityEngine::Timeline:
 
 // Methods
 
-// Ctor Parameters []
-explicit AvatarColorTrack() ;
+static GlobalNamespace::AvatarColorTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1a60 size 0x58 virtual false final false
  void _ctor() ;

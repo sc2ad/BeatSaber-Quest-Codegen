@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,7 @@ constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 /// @brief Method Start addr 0x20c2ea0 size 0xc4 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit ConnectedPlayerName() ;
+static GlobalNamespace::ConnectedPlayerName New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c2f64 size 0x8 virtual false final false
  void _ctor() ;

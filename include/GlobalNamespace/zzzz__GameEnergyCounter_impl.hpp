@@ -1,15 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IGameEnergyCounter_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__SaberClashChecker_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__SaberClashChecker_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__IGameEnergyCounter_def.hpp"
+#include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData._ctor
 template<>
 
@@ -51,8 +52,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData::__
 constexpr bool GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData::__get_failOnSaberClash() const {
 return ::cordl_internals::getInstanceField<bool, 0x16>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "energyType", ty: "GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType", modifiers: "", def_value: None }, CppParam { name: "noFail", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instaFail", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "failOnSaberClash", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData::GlobalNamespace__GameEnergyCounter__InitData(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameEnergyCounter__InitData>(energyType, noFail, instaFail, failOnSaberClash))) {}
+ GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData::New_ctor(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash)  {
+GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData>(energyType, noFail, instaFail, failOnSaberClash))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData::_ctor(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameEnergyCounter__InitData>::get(),
@@ -829,8 +832,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, energyChange);
 }
-// Ctor Parameters []
- GlobalNamespace::GameEnergyCounter::GameEnergyCounter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GameEnergyCounter>())) {}
+ GlobalNamespace::GameEnergyCounter GlobalNamespace::GameEnergyCounter::New_ctor()  {
+GlobalNamespace::GameEnergyCounter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameEnergyCounter>())};
+return o;
+}
  void GlobalNamespace::GameEnergyCounter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameEnergyCounter>::get(),

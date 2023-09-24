@@ -1,10 +1,11 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKSolver_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverLookAt_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverLookAt_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone._ctor
 template<>
 
@@ -96,8 +97,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtB
 constexpr UnityEngine::Vector3 RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone::__get_baseForwardOffsetEuler() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x74>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone::RootMotion__FinalIK__IKSolverLookAt__LookAtBone()  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolverLookAt__LookAtBone>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone>::get(),
@@ -107,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone::RootMotion__FinalIK__IKSolverLookAt__LookAtBone(UnityEngine::Transform transform)  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolverLookAt__LookAtBone>(transform))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone::New_ctor(UnityEngine::Transform transform)  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone>(transform))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone::_ctor(UnityEngine::Transform transform)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLookAt__LookAtBone>::get(),
@@ -914,8 +919,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, array, bones);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKSolverLookAt::IKSolverLookAt()  : RootMotion::FinalIK::IKSolver(THROW_UNLESS(::il2cpp_utils::New<IKSolverLookAt>())) {}
+ RootMotion::FinalIK::IKSolverLookAt RootMotion::FinalIK::IKSolverLookAt::New_ctor()  {
+RootMotion::FinalIK::IKSolverLookAt o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolverLookAt>())};
+return o;
+}
  void RootMotion::FinalIK::IKSolverLookAt::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolverLookAt>::get(),

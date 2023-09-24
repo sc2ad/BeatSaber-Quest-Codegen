@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class DigestInfo;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -93,14 +93,12 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_iterationCount() const;
 /// @brief Method GetInstance addr 0xefad64 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::MacData GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit MacData(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::MacData New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xefaeec size 0x1ac virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "digInfo", ty: "Org::BouncyCastle::Asn1::X509::DigestInfo", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MacData(Org::BouncyCastle::Asn1::X509::DigestInfo digInfo, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
+static Org::BouncyCastle::Asn1::Pkcs::MacData New_ctor(Org::BouncyCastle::Asn1::X509::DigestInfo digInfo, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
 /// @brief Method .ctor addr 0xefb098 size 0xec virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::DigestInfo digInfo, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;

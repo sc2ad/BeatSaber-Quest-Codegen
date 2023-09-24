@@ -88,8 +88,10 @@ constexpr void Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::__se
 constexpr Org::BouncyCastle::Crypto::IO::CipherStream Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::__get_stream() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IO::CipherStream, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bufferedCipher", ty: "Org::BouncyCastle::Crypto::IBufferedCipher", modifiers: "", def_value: None }, CppParam { name: "source", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::BufferedCipherWrapper(Org::BouncyCastle::Crypto::IBufferedCipher bufferedCipher, System::IO::Stream source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BufferedCipherWrapper>(bufferedCipher, source))) {}
+ Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::New_ctor(Org::BouncyCastle::Crypto::IBufferedCipher bufferedCipher, System::IO::Stream source)  {
+Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper>(bufferedCipher, source))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::_ctor(Org::BouncyCastle::Crypto::IBufferedCipher bufferedCipher, System::IO::Stream source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper>::get(),

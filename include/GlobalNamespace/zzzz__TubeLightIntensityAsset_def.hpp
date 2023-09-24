@@ -1,23 +1,23 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace GlobalNamespace {
 class TubeLightIntensityBehaviour;
-}
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,8 +88,7 @@ constexpr GlobalNamespace::TubeLightIntensityBehaviour __get__template() const;
 /// @brief Method CreatePlayable addr 0x21b37ac size 0xa8 virtual true final false
  UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
-// Ctor Parameters []
-explicit TubeLightIntensityAsset() ;
+static GlobalNamespace::TubeLightIntensityAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b3854 size 0x8 virtual false final false
  void _ctor() ;

@@ -8,10 +8,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -100,8 +100,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method Awake addr 0x219ef34 size 0x60 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit MainCamera() ;
+static GlobalNamespace::MainCamera New_ctor() ;
 
 /// @brief Method .ctor addr 0x219ef94 size 0x8 virtual false final false
  void _ctor() ;

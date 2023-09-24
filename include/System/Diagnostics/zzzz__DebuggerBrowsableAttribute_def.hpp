@@ -59,8 +59,7 @@ constexpr System::Diagnostics::DebuggerBrowsableState __get_state() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "state", ty: "System::Diagnostics::DebuggerBrowsableState", modifiers: "", def_value: None }]
-explicit DebuggerBrowsableAttribute(System::Diagnostics::DebuggerBrowsableState state) ;
+static System::Diagnostics::DebuggerBrowsableAttribute New_ctor(System::Diagnostics::DebuggerBrowsableState state) ;
 
 /// @brief Method .ctor addr 0x240bf78 size 0x7c virtual false final false
  void _ctor(System::Diagnostics::DebuggerBrowsableState state) ;

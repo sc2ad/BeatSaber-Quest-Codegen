@@ -6,20 +6,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+struct HAPI_ParmInfo;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ParmInfo;
+class HEU_HoudiniAsset;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

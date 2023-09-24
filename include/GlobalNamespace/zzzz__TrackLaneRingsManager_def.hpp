@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class TrackLaneRing;
-}
 namespace Zenject {
 class DiContainer;
+}
+namespace GlobalNamespace {
+class TrackLaneRing;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -120,8 +120,7 @@ constexpr ::ArrayW<GlobalNamespace::TrackLaneRing> __get__rings() const;
 /// @brief Method OnDrawGizmosSelected addr 0x226cce4 size 0x284 virtual false final false
  void OnDrawGizmosSelected() ;
 
-// Ctor Parameters []
-explicit TrackLaneRingsManager() ;
+static GlobalNamespace::TrackLaneRingsManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x226cf68 size 0x14 virtual false final false
  void _ctor() ;

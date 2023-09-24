@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/zzzz__XmlLinkedNode_impl.hpp"
 #include "System/Xml/zzzz__XmlDocumentType_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
+#include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
 //  Writing Method size for method: System::Xml::XmlDocumentType._ctor
 template<>
 
@@ -292,8 +292,10 @@ constexpr void System::Xml::XmlDocumentType::__set_schemaInfo(System::Xml::Schem
 constexpr System::Xml::Schema::SchemaInfo System::Xml::XmlDocumentType::__get_schemaInfo() const {
 return ::cordl_internals::getInstanceField<System::Xml::Schema::SchemaInfo, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "internalSubset", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlDocumentType::XmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, System::Xml::XmlDocument doc)  : System::Xml::XmlLinkedNode(THROW_UNLESS(::il2cpp_utils::New<XmlDocumentType>(name, publicId, systemId, internalSubset, doc))) {}
+ System::Xml::XmlDocumentType System::Xml::XmlDocumentType::New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, System::Xml::XmlDocument doc)  {
+System::Xml::XmlDocumentType o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlDocumentType>(name, publicId, systemId, internalSubset, doc))};
+return o;
+}
  void System::Xml::XmlDocumentType::_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlDocumentType>::get(),

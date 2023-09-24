@@ -108,8 +108,7 @@ constexpr ::ArrayW<::StringW> __get__stringValues() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_OutputAttribute() ;
+static HoudiniEngineUnity::HEU_OutputAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2011154 size 0x8 virtual false final false
  void _ctor() ;

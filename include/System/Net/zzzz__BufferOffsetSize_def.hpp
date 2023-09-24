@@ -70,14 +70,12 @@ constexpr int32_t __get_Size() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "copyBuffer", ty: "bool", modifiers: "", def_value: None }]
-explicit BufferOffsetSize(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, bool copyBuffer) ;
+static System::Net::BufferOffsetSize New_ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, bool copyBuffer) ;
 
 /// @brief Method .ctor addr 0x2814688 size 0xac virtual false final false
  void _ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, bool copyBuffer) ;
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "copyBuffer", ty: "bool", modifiers: "", def_value: None }]
-explicit BufferOffsetSize(::ArrayW<uint8_t> buffer, bool copyBuffer) ;
+static System::Net::BufferOffsetSize New_ctor(::ArrayW<uint8_t> buffer, bool copyBuffer) ;
 
 /// @brief Method .ctor addr 0x2814734 size 0x20 virtual false final false
  void _ctor(::ArrayW<uint8_t> buffer, bool copyBuffer) ;

@@ -4,17 +4,17 @@
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
+namespace System::Runtime::Remoting::Proxies {
+class RealProxy;
+}
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageCtrl;
 }
 namespace System {
 class MarshalByRefObject;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
-}
-namespace System::Runtime::Remoting::Proxies {
-class RealProxy;
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -80,8 +80,7 @@ constexpr System::Runtime::Remoting::Proxies::RealProxy __get__rp() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "obj", ty: "System::MarshalByRefObject", modifiers: "", def_value: None }, CppParam { name: "forceInternalExecute", ty: "bool", modifiers: "", def_value: None }]
-explicit StackBuilderSink(System::MarshalByRefObject obj, bool forceInternalExecute) ;
+static System::Runtime::Remoting::Messaging::StackBuilderSink New_ctor(System::MarshalByRefObject obj, bool forceInternalExecute) ;
 
 /// @brief Method .ctor addr 0x23477ec size 0xa4 virtual false final false
  void _ctor(System::MarshalByRefObject obj, bool forceInternalExecute) ;

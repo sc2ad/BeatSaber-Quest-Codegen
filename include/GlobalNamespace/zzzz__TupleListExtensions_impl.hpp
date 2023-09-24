@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__TupleListExtensions_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Tuple_3_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Tuple_4_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 template<typename T1,typename T2>
  void GlobalNamespace::TupleListExtensions::Add(System::Collections::Generic::IList_1<System::Tuple_2<T1,T2>> list, T1 item1, T2 item2)  {
 static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentTypeSO_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OverrideEnvironmentSettings.SetEnvironmentInfoForType
 template<>
 
@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::EnvironmentInfoSO, false>(const_cast<void*>(instance), ___internal_method, environmentType);
 }
-// Ctor Parameters []
- GlobalNamespace::OverrideEnvironmentSettings::OverrideEnvironmentSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OverrideEnvironmentSettings>())) {}
+ GlobalNamespace::OverrideEnvironmentSettings GlobalNamespace::OverrideEnvironmentSettings::New_ctor()  {
+GlobalNamespace::OverrideEnvironmentSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OverrideEnvironmentSettings>())};
+return o;
+}
  void GlobalNamespace::OverrideEnvironmentSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OverrideEnvironmentSettings>::get(),

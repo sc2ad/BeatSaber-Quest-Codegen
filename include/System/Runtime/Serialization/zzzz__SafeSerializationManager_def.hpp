@@ -1,15 +1,15 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::Runtime::Serialization {
+class IObjectReference;
+}
+namespace System {
+class RuntimeType;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-class SafeSerializationEventArgs;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -17,15 +17,15 @@ class SerializationInfo;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class RuntimeType;
+namespace System::Runtime::Serialization {
+class SafeSerializationEventArgs;
 }
 namespace System {
 template<typename TEventArgs>
 class EventHandler_1;
 }
 namespace System::Runtime::Serialization {
-class IObjectReference;
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -120,14 +120,12 @@ static constexpr ::ConstString  RealTypeSerializationName{u"CLR_SafeSerializatio
 
 // Methods
 
-// Ctor Parameters []
-explicit SafeSerializationManager() ;
+static System::Runtime::Serialization::SafeSerializationManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2350c18 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit SafeSerializationManager(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::Serialization::SafeSerializationManager New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2350c20 size 0x1e4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

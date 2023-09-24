@@ -95,8 +95,7 @@ constexpr int32_t __get_startOffset() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CharEntityEncoderFallback() ;
+static System::Xml::CharEntityEncoderFallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x26bc060 size 0x8 virtual false final false
  void _ctor() ;

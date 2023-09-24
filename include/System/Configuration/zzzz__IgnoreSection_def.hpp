@@ -2,17 +2,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Configuration {
-class ConfigurationPropertyCollection;
+namespace System::Xml {
+class XmlReader;
 }
 namespace System::Configuration {
 class ConfigurationElement;
 }
 namespace System::Configuration {
-struct ConfigurationSaveMode;
+class ConfigurationPropertyCollection;
 }
-namespace System::Xml {
-class XmlReader;
+namespace System::Configuration {
+struct ConfigurationSaveMode;
 }
 // Forward declare root types
 namespace System::Configuration {
@@ -65,8 +65,7 @@ constexpr explicit IgnoreSection(void* ptr) noexcept : System::Configuration::Co
 
 // Methods
 
-// Ctor Parameters []
-explicit IgnoreSection() ;
+static System::Configuration::IgnoreSection New_ctor() ;
 
 /// @brief Method .ctor addr 0x267b57c size 0x38 virtual false final false
  void _ctor() ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIKRootController_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__VRIKCalibrator_def.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
+#include "RootMotion/FinalIK/zzzz__VRIKCalibrator_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::VRIKRootController.get_pelvisTargetRight
 template<>
 
@@ -234,8 +234,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::VRIKRootController::VRIKRootController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VRIKRootController>())) {}
+ RootMotion::FinalIK::VRIKRootController RootMotion::FinalIK::VRIKRootController::New_ctor()  {
+RootMotion::FinalIK::VRIKRootController o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::VRIKRootController>())};
+return o;
+}
  void RootMotion::FinalIK::VRIKRootController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::VRIKRootController>::get(),

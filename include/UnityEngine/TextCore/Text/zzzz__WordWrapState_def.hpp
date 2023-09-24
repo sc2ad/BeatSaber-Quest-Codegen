@@ -4,47 +4,47 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::TextCore::Text {
-class FontAsset;
+struct MaterialReference;
 }
 namespace UnityEngine::TextCore::Text {
 struct FontStyles;
 }
 namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::TextCore::Text {
-struct Extents;
-}
-namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine::TextCore::Text {
-struct LineInfo;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontStyleStack;
-}
-namespace UnityEngine::TextCore::Text {
-class TextInfo;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextFontWeight;
 }
 namespace UnityEngine::TextCore::Text {
 template<typename T>
 struct TextProcessingStack_1;
 }
 namespace UnityEngine::TextCore::Text {
-struct MaterialReference;
+struct Extents;
+}
+namespace UnityEngine::TextCore::Text {
+struct FontStyleStack;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextAlignment;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextFontWeight;
+}
+namespace UnityEngine::TextCore::Text {
+class SpriteAsset;
+}
+namespace UnityEngine::TextCore::Text {
+class TextInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct LineInfo;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

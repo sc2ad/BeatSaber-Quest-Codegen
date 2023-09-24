@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "LiteNetLib/zzzz__BaseChannel_def.hpp"
 namespace LiteNetLib {
-class NetPacket;
+class NetPeer;
 }
 namespace LiteNetLib {
-class NetPeer;
+class NetPacket;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -53,8 +53,7 @@ constexpr explicit SimpleChannel(void* ptr) noexcept : LiteNetLib::BaseChannel(p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }]
-explicit SimpleChannel(LiteNetLib::NetPeer peer) ;
+static LiteNetLib::SimpleChannel New_ctor(LiteNetLib::NetPeer peer) ;
 
 /// @brief Method .ctor addr 0x2094924 size 0x4 virtual false final false
  void _ctor(LiteNetLib::NetPeer peer) ;

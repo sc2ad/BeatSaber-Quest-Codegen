@@ -1,23 +1,24 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GenerateGeoCache_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_UnityMaterialInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_MeshData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_MeshIndexFormat_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeoGroup_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GenerateGeoCache_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_UnityMaterialInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_MeshData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutputData_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeoGroup_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_MeshIndexFormat_def.hpp"
 #include "UnityEngine/zzzz__MeshTopology_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutputData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
@@ -114,8 +115,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU
 constexpr bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo::__get__isTrigger() const {
 return ::cordl_internals::getInstanceField<bool, 0x54>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache__HEU_ColliderInfo>::get(),
@@ -194,8 +197,10 @@ return ::cordl_internals::getStaticField<System::Predicate_1<UnityEngine::Materi
  System::Comparison_1<float_t> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache____c::__get___9__65_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<float_t>, "<>9__65_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache____c>::get>();
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache____c::HoudiniEngineUnity__HEU_GenerateGeoCache____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GenerateGeoCache____c>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache____c HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache____c::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache____c o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache____c>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GenerateGeoCache____c>::get(),
@@ -1120,8 +1125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::MeshTopology, false>(nullptr, ___internal_method, groupFaces, allFaceCounts);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_GenerateGeoCache()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_GenerateGeoCache>())) {}
+ HoudiniEngineUnity::HEU_GenerateGeoCache HoudiniEngineUnity::HEU_GenerateGeoCache::New_ctor()  {
+HoudiniEngineUnity::HEU_GenerateGeoCache o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_GenerateGeoCache>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_GenerateGeoCache::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_GenerateGeoCache>::get(),

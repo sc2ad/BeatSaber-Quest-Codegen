@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::PointerCaptureOutEvent::PointerCaptureOutEvent()  : UnityEngine::UIElements::PointerCaptureEventBase_1<UnityEngine::UIElements::PointerCaptureOutEvent>(THROW_UNLESS(::il2cpp_utils::New<PointerCaptureOutEvent>())) {}
+ UnityEngine::UIElements::PointerCaptureOutEvent UnityEngine::UIElements::PointerCaptureOutEvent::New_ctor()  {
+UnityEngine::UIElements::PointerCaptureOutEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PointerCaptureOutEvent>())};
+return o;
+}
  void UnityEngine::UIElements::PointerCaptureOutEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PointerCaptureOutEvent>::get(),

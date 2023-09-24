@@ -3,7 +3,7 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Null;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -12,10 +12,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Null;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -87,26 +87,22 @@ constexpr Org::BouncyCastle::Asn1::Asn1Object __get__params() const;
 /// @brief Method GetInstance addr 0x1124888 size 0x2bc virtual false final false
 static Org::BouncyCastle::Asn1::X9::X962Parameters GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "ecParameters", ty: "Org::BouncyCastle::Asn1::X9::X9ECParameters", modifiers: "", def_value: None }]
-explicit X962Parameters(Org::BouncyCastle::Asn1::X9::X9ECParameters ecParameters) ;
+static Org::BouncyCastle::Asn1::X9::X962Parameters New_ctor(Org::BouncyCastle::Asn1::X9::X9ECParameters ecParameters) ;
 
 /// @brief Method .ctor addr 0x1124b6c size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X9::X9ECParameters ecParameters) ;
 
-// Ctor Parameters [CppParam { name: "namedCurve", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit X962Parameters(Org::BouncyCastle::Asn1::DerObjectIdentifier namedCurve) ;
+static Org::BouncyCastle::Asn1::X9::X962Parameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier namedCurve) ;
 
 /// @brief Method .ctor addr 0x1124bac size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier namedCurve) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Null", modifiers: "", def_value: None }]
-explicit X962Parameters(Org::BouncyCastle::Asn1::Asn1Null obj) ;
+static Org::BouncyCastle::Asn1::X9::X962Parameters New_ctor(Org::BouncyCastle::Asn1::Asn1Null obj) ;
 
 /// @brief Method .ctor addr 0x1124bd4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Null obj) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
-explicit X962Parameters(Org::BouncyCastle::Asn1::Asn1Object obj) ;
+static Org::BouncyCastle::Asn1::X9::X962Parameters New_ctor(Org::BouncyCastle::Asn1::Asn1Object obj) ;
 
 /// @brief Method .ctor addr 0x1124b44 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Object obj) ;

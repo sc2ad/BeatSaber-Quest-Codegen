@@ -65,8 +65,10 @@ constexpr void System::ConsoleCancelEventArgs::__set__Cancel_k__BackingField(boo
 constexpr bool System::ConsoleCancelEventArgs::__get__Cancel_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::ConsoleSpecialKey", modifiers: "", def_value: None }]
- System::ConsoleCancelEventArgs::ConsoleCancelEventArgs(System::ConsoleSpecialKey type)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<ConsoleCancelEventArgs>(type))) {}
+ System::ConsoleCancelEventArgs System::ConsoleCancelEventArgs::New_ctor(System::ConsoleSpecialKey type)  {
+System::ConsoleCancelEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ConsoleCancelEventArgs>(type))};
+return o;
+}
  void System::ConsoleCancelEventArgs::_ctor(System::ConsoleSpecialKey type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ConsoleCancelEventArgs>::get(),
@@ -85,8 +87,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::ConsoleCancelEventArgs::ConsoleCancelEventArgs()  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<ConsoleCancelEventArgs>())) {}
+ System::ConsoleCancelEventArgs System::ConsoleCancelEventArgs::New_ctor()  {
+System::ConsoleCancelEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ConsoleCancelEventArgs>())};
+return o;
+}
  void System::ConsoleCancelEventArgs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ConsoleCancelEventArgs>::get(),

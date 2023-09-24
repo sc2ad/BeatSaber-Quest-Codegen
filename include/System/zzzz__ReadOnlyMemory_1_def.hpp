@@ -20,21 +20,21 @@ template<typename T>
 struct ReadOnlyMemory_1;
 }
 namespace System {
-template<::cordl_internals::il2cpp_reference_type T>
+template<::cordl_internals::is_or_is_backed_by<uint8_t> T>
 struct ReadOnlyMemory_1<T>;
 }
 namespace System {
-template<>
-struct ReadOnlyMemory_1<uint8_t>;
+template<::cordl_internals::il2cpp_reference_type T>
+struct ReadOnlyMemory_1<T>;
 }
 // Type: System::ReadOnlyMemory`1
 // Type: System::ReadOnlyMemory`1
 namespace System {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T>
+template<::cordl_internals::is_or_is_backed_by<uint8_t> T>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2462))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2462), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2462), inst: 717 })
 // CS Name: System.ReadOnlyMemory`1
 struct CORDL_TYPE ReadOnlyMemory_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
@@ -147,16 +147,16 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: System::ReadOnlyMemory`1
 namespace System {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2462)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2462), inst: 717 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2462), inst: 2 })
 // CS Name: System.ReadOnlyMemory`1
-struct CORDL_TYPE ReadOnlyMemory_1<uint8_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE ReadOnlyMemory_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to System::IEquatable_1<System::ReadOnlyMemory_1<uint8_t>>
-constexpr operator  System::IEquatable_1<System::ReadOnlyMemory_1<uint8_t>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::ReadOnlyMemory_1<T>>
+constexpr operator  System::IEquatable_1<System::ReadOnlyMemory_1<T>>() const;
 
 // Ctor Parameters [CppParam { name: "_object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
 constexpr ReadOnlyMemory_1(::bs_hook::Il2CppWrapperType _object, int32_t _index, int32_t _length) noexcept;
@@ -215,13 +215,13 @@ constexpr int32_t __get__length() const;
 
  int32_t __declspec(property(get=get_Length))  Length;
 
- System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_Span))  Span;
+ System::ReadOnlySpan_1<T> __declspec(property(get=get_Span))  Span;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<uint8_t> array, int32_t start, int32_t length) ;
+ void _ctor(::ArrayW<T> array, int32_t start, int32_t length) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType obj, int32_t start, int32_t length) ;
@@ -233,16 +233,16 @@ constexpr int32_t __get__length() const;
  ::StringW ToString() ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlyMemory_1<uint8_t> Slice(int32_t start) ;
+ System::ReadOnlyMemory_1<T> Slice(int32_t start) ;
 
 /// @brief Method get_Span addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlySpan_1<uint8_t> get_Span() ;
+ System::ReadOnlySpan_1<T> get_Span() ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(System::ReadOnlyMemory_1<uint8_t> other) ;
+ bool Equals(System::ReadOnlyMemory_1<T> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;

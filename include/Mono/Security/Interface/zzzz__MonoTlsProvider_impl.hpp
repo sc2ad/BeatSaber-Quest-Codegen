@@ -138,8 +138,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Mono::Security::Interface::MonoTlsProvider::MonoTlsProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoTlsProvider>())) {}
+ Mono::Security::Interface::MonoTlsProvider Mono::Security::Interface::MonoTlsProvider::New_ctor()  {
+Mono::Security::Interface::MonoTlsProvider o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Interface::MonoTlsProvider>())};
+return o;
+}
  void Mono::Security::Interface::MonoTlsProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Interface::MonoTlsProvider>::get(),

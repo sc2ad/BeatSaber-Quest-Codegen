@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::MouseOverEvent::MouseOverEvent()  : UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseOverEvent>(THROW_UNLESS(::il2cpp_utils::New<MouseOverEvent>())) {}
+ UnityEngine::UIElements::MouseOverEvent UnityEngine::UIElements::MouseOverEvent::New_ctor()  {
+UnityEngine::UIElements::MouseOverEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::MouseOverEvent>())};
+return o;
+}
  void UnityEngine::UIElements::MouseOverEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::MouseOverEvent>::get(),

@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class CrlValidatedID;
@@ -73,20 +73,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_crls() const;
 /// @brief Method GetInstance addr 0xe038d4 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::CrlListID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CrlListID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::CrlListID New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe03a5c size 0x480 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "crls", ty: "::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlValidatedID>", modifiers: "", def_value: None }]
-explicit CrlListID(::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlValidatedID> crls) ;
+static Org::BouncyCastle::Asn1::Esf::CrlListID New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlValidatedID> crls) ;
 
 /// @brief Method .ctor addr 0xe04064 size 0xc4 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlValidatedID> crls) ;
 
-// Ctor Parameters [CppParam { name: "crls", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit CrlListID(System::Collections::IEnumerable crls) ;
+static Org::BouncyCastle::Asn1::Esf::CrlListID New_ctor(System::Collections::IEnumerable crls) ;
 
 /// @brief Method .ctor addr 0xe04128 size 0x1a4 virtual false final false
  void _ctor(System::Collections::IEnumerable crls) ;

@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Text {
-class EncoderFallbackBuffer;
+class Encoding;
 }
 namespace System::Text {
-class Encoding;
+class EncoderFallbackBuffer;
 }
 // Forward declare root types
 namespace System::Text {
@@ -76,8 +76,7 @@ constexpr ::ArrayW<char16_t> __get__arrayBestFit() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit InternalEncoderBestFitFallback(System::Text::Encoding encoding) ;
+static System::Text::InternalEncoderBestFitFallback New_ctor(System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x24c4e6c size 0x28 virtual false final false
  void _ctor(System::Text::Encoding encoding) ;

@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class SpawnRotationBeatmapEventData;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class SpawnRotationBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,8 +117,7 @@ constexpr float_t __get__targetRotation() const;
 /// @brief Method LateUpdate addr 0x226a520 size 0xc0 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit RotateBySpawnRotation() ;
+static GlobalNamespace::RotateBySpawnRotation New_ctor() ;
 
 /// @brief Method .ctor addr 0x226a5e0 size 0x8 virtual false final false
  void _ctor() ;

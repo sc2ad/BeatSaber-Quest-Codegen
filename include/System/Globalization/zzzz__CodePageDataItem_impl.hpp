@@ -81,8 +81,10 @@ return ::cordl_internals::getInstanceField<uint32_t, 0x20>(this->::bs_hook::Il2C
  ::ArrayW<char16_t> System::Globalization::CodePageDataItem::__get_sep()  {
 return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "sep", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CodePageDataItem>::get>();
 }
-// Ctor Parameters [CppParam { name: "dataIndex", ty: "int32_t", modifiers: "", def_value: None }]
- System::Globalization::CodePageDataItem::CodePageDataItem(int32_t dataIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CodePageDataItem>(dataIndex))) {}
+ System::Globalization::CodePageDataItem System::Globalization::CodePageDataItem::New_ctor(int32_t dataIndex)  {
+System::Globalization::CodePageDataItem o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CodePageDataItem>(dataIndex))};
+return o;
+}
  void System::Globalization::CodePageDataItem::_ctor(int32_t dataIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CodePageDataItem>::get(),

@@ -69,8 +69,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::AsymmetricSignatureDeformatter::AsymmetricSignatureDeformatter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsymmetricSignatureDeformatter>())) {}
+ System::Security::Cryptography::AsymmetricSignatureDeformatter System::Security::Cryptography::AsymmetricSignatureDeformatter::New_ctor()  {
+System::Security::Cryptography::AsymmetricSignatureDeformatter o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::AsymmetricSignatureDeformatter>())};
+return o;
+}
  void System::Security::Cryptography::AsymmetricSignatureDeformatter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::AsymmetricSignatureDeformatter>::get(),

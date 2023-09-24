@@ -31,8 +31,10 @@ constexpr void System::Threading::Tasks::UnobservedTaskExceptionEventArgs::__set
 constexpr bool System::Threading::Tasks::UnobservedTaskExceptionEventArgs::__get_m_observed() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "exception", ty: "System::AggregateException", modifiers: "", def_value: None }]
- System::Threading::Tasks::UnobservedTaskExceptionEventArgs::UnobservedTaskExceptionEventArgs(System::AggregateException exception)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<UnobservedTaskExceptionEventArgs>(exception))) {}
+ System::Threading::Tasks::UnobservedTaskExceptionEventArgs System::Threading::Tasks::UnobservedTaskExceptionEventArgs::New_ctor(System::AggregateException exception)  {
+System::Threading::Tasks::UnobservedTaskExceptionEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::UnobservedTaskExceptionEventArgs>(exception))};
+return o;
+}
  void System::Threading::Tasks::UnobservedTaskExceptionEventArgs::_ctor(System::AggregateException exception)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::UnobservedTaskExceptionEventArgs>::get(),

@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/zzzz__AssetReference_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__IKeyEvaluator_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__IKeyEvaluator_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::AssetReference.get_OperationHandle
 template<>
@@ -562,8 +562,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::AssetReference::AssetReference()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssetReference>())) {}
+ UnityEngine::AddressableAssets::AssetReference UnityEngine::AddressableAssets::AssetReference::New_ctor()  {
+UnityEngine::AddressableAssets::AssetReference o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::AssetReference>())};
+return o;
+}
  void UnityEngine::AddressableAssets::AssetReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::AssetReference>::get(),
@@ -573,8 +575,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::AssetReference::AssetReference(::StringW guid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssetReference>(guid))) {}
+ UnityEngine::AddressableAssets::AssetReference UnityEngine::AddressableAssets::AssetReference::New_ctor(::StringW guid)  {
+UnityEngine::AddressableAssets::AssetReference o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::AssetReference>(guid))};
+return o;
+}
  void UnityEngine::AddressableAssets::AssetReference::_ctor(::StringW guid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::AssetReference>::get(),
@@ -584,8 +588,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, guid);
 }
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::AssetReference::AssetReference(::StringW guid, System::Type type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssetReference>(guid, type))) {}
+ UnityEngine::AddressableAssets::AssetReference UnityEngine::AddressableAssets::AssetReference::New_ctor(::StringW guid, System::Type type)  {
+UnityEngine::AddressableAssets::AssetReference o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::AssetReference>(guid, type))};
+return o;
+}
  void UnityEngine::AddressableAssets::AssetReference::_ctor(::StringW guid, System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::AssetReference>::get(),

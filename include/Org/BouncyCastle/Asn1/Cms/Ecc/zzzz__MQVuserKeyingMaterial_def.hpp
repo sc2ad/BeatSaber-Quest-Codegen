@@ -2,20 +2,20 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorPublicKey;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorPublicKey;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms::Ecc {
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_addedukm() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ephemeralPublicKey", ty: "Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey", modifiers: "", def_value: None }, CppParam { name: "addedukm", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit MQVuserKeyingMaterial(Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey ephemeralPublicKey, Org::BouncyCastle::Asn1::Asn1OctetString addedukm) ;
+static Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial New_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey ephemeralPublicKey, Org::BouncyCastle::Asn1::Asn1OctetString addedukm) ;
 
 /// @brief Method .ctor addr 0xde2508 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey ephemeralPublicKey, Org::BouncyCastle::Asn1::Asn1OctetString addedukm) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit MQVuserKeyingMaterial(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xde2534 size 0xe8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

@@ -5,6 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System {
+template<typename TResult>
+class Func_1;
+}
 namespace UnityEngine {
 class Camera;
 }
@@ -13,11 +17,10 @@ template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
 namespace UnityEngine {
-struct Vector2;
+struct UnityEngine__SendMouseEvents__HitInfo;
 }
-namespace System {
-template<typename TResult>
-class Func_1;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 class GameObject;

@@ -91,8 +91,7 @@ constexpr float_t __get__targetFrequency() const;
 /// @brief Method TriggerLowPass addr 0x20bbb2c size 0x3c virtual false final false
  void TriggerLowPass() ;
 
-// Ctor Parameters []
-explicit MainAudioEffects() ;
+static GlobalNamespace::MainAudioEffects New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bbb68 size 0x10 virtual false final false
  void _ctor() ;

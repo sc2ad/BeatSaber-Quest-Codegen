@@ -2,9 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::XR::Haptics {
-struct HapticCapabilities;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
@@ -13,6 +10,9 @@ struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::XR::Haptics {
+struct HapticCapabilities;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR::Haptics {

@@ -76,8 +76,7 @@ constexpr ::ArrayW<uint8_t> __get_keyIdentifier() const;
 /// @brief Method Equals addr 0x117d32c size 0x160 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit RecipientID() ;
+static Org::BouncyCastle::Cms::RecipientID New_ctor() ;
 
 /// @brief Method .ctor addr 0x1176f44 size 0x10 virtual false final false
  void _ctor() ;

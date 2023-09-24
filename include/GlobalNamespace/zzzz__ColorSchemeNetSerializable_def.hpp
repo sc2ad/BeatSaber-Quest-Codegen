@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace UnityEngine {
-struct Color;
+class INetSerializable;
 }
 namespace GlobalNamespace {
 struct ColorNoAlphaSerializable;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace UnityEngine {
+struct Color;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {

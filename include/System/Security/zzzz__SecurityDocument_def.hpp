@@ -63,8 +63,7 @@ constexpr ::ArrayW<uint8_t> __get_m_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "numData", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SecurityDocument(int32_t numData) ;
+static System::Security::SecurityDocument New_ctor(int32_t numData) ;
 
 /// @brief Method .ctor addr 0x22e413c size 0x68 virtual false final false
  void _ctor(int32_t numData) ;

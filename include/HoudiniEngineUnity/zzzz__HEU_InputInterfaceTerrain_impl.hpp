@@ -2,13 +2,14 @@
 #include "HoudiniEngineUnity/zzzz__HEU_InputData_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputInterface_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputInterfaceTerrain_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_InputInterfaceTerrain_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_VolumeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "UnityEngine/zzzz__TerrainData_def.hpp"
 #include "UnityEngine/zzzz__TerrainLayer_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "UnityEngine/zzzz__TerrainData_def.hpp"
 #include "UnityEngine/zzzz__Terrain_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain._ctor
 template<>
 
@@ -104,8 +105,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain
 constexpr int32_t HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::__get__mergeNodeID() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain()  : HoudiniEngineUnity::HEU_InputData(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain>::get(),
@@ -336,8 +339,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputInterfaceTerrain()  : HoudiniEngineUnity::HEU_InputInterface(THROW_UNLESS(::il2cpp_utils::New<HEU_InputInterfaceTerrain>())) {}
+ HoudiniEngineUnity::HEU_InputInterfaceTerrain HoudiniEngineUnity::HEU_InputInterfaceTerrain::New_ctor()  {
+HoudiniEngineUnity::HEU_InputInterfaceTerrain o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InputInterfaceTerrain>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InputInterfaceTerrain::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InputInterfaceTerrain>::get(),

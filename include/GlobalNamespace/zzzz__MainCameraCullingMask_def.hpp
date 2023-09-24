@@ -5,6 +5,9 @@
 namespace UnityEngine {
 class Camera;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__MainCameraCullingMask__InitData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__MainCameraCullingMask__InitData;
@@ -63,8 +66,7 @@ constexpr bool __get_showDebris() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "showDebris", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MainCameraCullingMask__InitData(bool showDebris) ;
+static GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData New_ctor(bool showDebris) ;
 
 /// @brief Method .ctor addr 0x2676864 size 0x28 virtual false final false
  void _ctor(bool showDebris) ;
@@ -135,8 +137,7 @@ constexpr GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData __ge
 /// @brief Method Start addr 0x2676744 size 0xb0 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit MainCameraCullingMask() ;
+static GlobalNamespace::MainCameraCullingMask New_ctor() ;
 
 /// @brief Method .ctor addr 0x26767f4 size 0x70 virtual false final false
  void _ctor() ;

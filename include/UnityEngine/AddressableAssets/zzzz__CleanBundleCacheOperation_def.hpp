@@ -4,23 +4,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
-}
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
+class HashSet_1;
 }
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
@@ -30,7 +19,18 @@ class Thread;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class HashSet_1;
+class List_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -39,7 +39,7 @@ class CleanBundleCacheOperation;
 // Type: UnityEngine.AddressableAssets::CleanBundleCacheOperation
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 99 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(14313))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14374))
 // CS Name: UnityEngine.AddressableAssets.CleanBundleCacheOperation
 class CORDL_TYPE CleanBundleCacheOperation : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
@@ -120,8 +120,7 @@ constexpr bool __get_m_UseMultiThreading() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "aa", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }, CppParam { name: "forceSingleThreading", ty: "bool", modifiers: "", def_value: None }]
-explicit CleanBundleCacheOperation(UnityEngine::AddressableAssets::AddressablesImpl aa, bool forceSingleThreading) ;
+static UnityEngine::AddressableAssets::CleanBundleCacheOperation New_ctor(UnityEngine::AddressableAssets::AddressablesImpl aa, bool forceSingleThreading) ;
 
 /// @brief Method .ctor addr 0x2890ed8 size 0x84 virtual false final false
  void _ctor(UnityEngine::AddressableAssets::AddressablesImpl aa, bool forceSingleThreading) ;

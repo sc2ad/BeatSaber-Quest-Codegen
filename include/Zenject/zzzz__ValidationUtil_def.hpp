@@ -7,17 +7,20 @@ template<typename T>
 class List_1;
 }
 namespace Zenject {
+class Zenject__ValidationUtil____c;
+}
+namespace Zenject {
 struct TypeValuePair;
 }
 namespace System {
 class Type;
 }
+namespace Zenject {
+class InjectTypeInfo;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -83,8 +86,7 @@ static System::Func_2<System::Type,Zenject::TypeValuePair> __get___9__0_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ValidationUtil____c() ;
+static Zenject::Zenject__ValidationUtil____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da6484 size 0x8 virtual false final false
  void _ctor() ;

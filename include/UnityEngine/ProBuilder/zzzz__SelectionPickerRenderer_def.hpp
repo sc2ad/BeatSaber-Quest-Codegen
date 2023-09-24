@@ -6,56 +6,71 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine::ProBuilder {
 template<typename T1,typename T2>
 struct SimpleTuple_2;
 }
 namespace UnityEngine {
 struct Color32;
 }
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__SelectionPickerRenderer__SelectionPickerRendererStandard;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+class Camera;
+}
 namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine {
-struct TextureFormat;
-}
-namespace UnityEngine {
-class Mesh;
+class Face;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-struct Rect;
+struct RenderTextureFormat;
 }
 namespace UnityEngine {
-class Camera;
+struct TextureFormat;
+}
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__SelectionPickerRenderer__ISelectionPickerRenderer;
 }
 namespace UnityEngine {
-class Texture2D;
+class Mesh;
+}
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__SelectionPickerRenderer____c__DisplayClass19_0;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
-struct Color;
+struct Rect;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine {
-struct RenderTextureFormat;
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__SelectionPickerRenderer__SelectionPickerRendererHDRP;
+}
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__SelectionPickerRenderer____c;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace UnityEngine {
 class Shader;
@@ -166,8 +181,7 @@ constexpr explicit UnityEngine__ProBuilder__SelectionPickerRenderer__SelectionPi
 /// @brief Method RenderLookupTexture addr 0x29d4fa0 size 0x8 virtual true final true
  UnityEngine::Texture2D RenderLookupTexture(UnityEngine::Camera camera, UnityEngine::Shader shader, ::StringW tag, int32_t width, int32_t height) ;
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__SelectionPickerRenderer__SelectionPickerRendererHDRP() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__SelectionPickerRenderer__SelectionPickerRendererHDRP New_ctor() ;
 
 /// @brief Method .ctor addr 0x29d4fa8 size 0x8 virtual false final false
  void _ctor() ;
@@ -224,8 +238,7 @@ constexpr explicit UnityEngine__ProBuilder__SelectionPickerRenderer__SelectionPi
 /// @brief Method RenderLookupTexture addr 0x29d4fb0 size 0x414 virtual true final true
  UnityEngine::Texture2D RenderLookupTexture(UnityEngine::Camera camera, UnityEngine::Shader shader, ::StringW tag, int32_t width, int32_t height) ;
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__SelectionPickerRenderer__SelectionPickerRendererStandard() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__SelectionPickerRenderer__SelectionPickerRendererStandard New_ctor() ;
 
 /// @brief Method .ctor addr 0x29d53c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -291,8 +304,7 @@ constexpr ::ArrayW<UnityEngine::ProBuilder::SharedVertex> __get_sharedVertices()
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__SelectionPickerRenderer____c__DisplayClass19_0() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__SelectionPickerRenderer____c__DisplayClass19_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x29d53cc size 0x8 virtual false final false
  void _ctor() ;
@@ -361,8 +373,7 @@ static System::Func_2<UnityEngine::ProBuilder::Face,System::Collections::Generic
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__SelectionPickerRenderer____c() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__SelectionPickerRenderer____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x29d5580 size 0x8 virtual false final false
  void _ctor() ;

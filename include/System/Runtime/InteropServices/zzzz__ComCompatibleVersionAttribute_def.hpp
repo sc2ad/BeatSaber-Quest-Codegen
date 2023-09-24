@@ -75,8 +75,7 @@ constexpr int32_t __get__revision() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "major", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ComCompatibleVersionAttribute(int32_t major, int32_t minor, int32_t build, int32_t revision) ;
+static System::Runtime::InteropServices::ComCompatibleVersionAttribute New_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision) ;
 
 /// @brief Method .ctor addr 0x236afa4 size 0x40 virtual false final false
  void _ctor(int32_t major, int32_t minor, int32_t build, int32_t revision) ;

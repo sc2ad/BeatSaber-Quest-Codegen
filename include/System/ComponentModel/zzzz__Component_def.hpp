@@ -6,17 +6,17 @@
 namespace System::ComponentModel {
 class EventHandlerList;
 }
+namespace System {
+class IDisposable;
+}
+namespace System::ComponentModel {
+class IComponent;
+}
 namespace System::ComponentModel {
 class ISite;
 }
 namespace System {
 class Type;
-}
-namespace System::ComponentModel {
-class IComponent;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -129,8 +129,7 @@ constexpr System::ComponentModel::EventHandlerList __get_events() const;
 /// @brief Method ToString addr 0x2787910 size 0x130 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit Component() ;
+static System::ComponentModel::Component New_ctor() ;
 
 /// @brief Method .ctor addr 0x2787a40 size 0x8 virtual false final false
  void _ctor() ;

@@ -113,8 +113,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdIcaoExtensionsNamech
 
 // Methods
 
-// Ctor Parameters []
-explicit IcaoObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xee6c20 size 0x8 virtual false final false
  void _ctor() ;

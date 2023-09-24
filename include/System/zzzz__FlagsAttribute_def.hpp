@@ -47,8 +47,7 @@ constexpr explicit FlagsAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit FlagsAttribute() ;
+static System::FlagsAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2429398 size 0x8 virtual false final false
  void _ctor() ;

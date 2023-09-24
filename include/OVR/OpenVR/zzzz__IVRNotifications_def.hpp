@@ -6,23 +6,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System {
+class IAsyncResult;
+}
+namespace OVR::OpenVR {
+struct EVRNotificationType;
+}
 namespace OVR::OpenVR {
 struct EVRNotificationStyle;
+}
+namespace OVR::OpenVR {
+struct NotificationBitmap_t;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace OVR::OpenVR {
 struct EVRNotificationError;
 }
 namespace OVR::OpenVR {
-struct NotificationBitmap_t;
+class OVR__OpenVR__IVRNotifications___CreateNotification;
 }
 namespace OVR::OpenVR {
-struct EVRNotificationType;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-class IAsyncResult;
+class OVR__OpenVR__IVRNotifications___RemoveNotification;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -76,8 +82,7 @@ constexpr explicit OVR__OpenVR__IVRNotifications___CreateNotification(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRNotifications___CreateNotification(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRNotifications___CreateNotification New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265d134 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -137,8 +142,7 @@ constexpr explicit OVR__OpenVR__IVRNotifications___RemoveNotification(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRNotifications___RemoveNotification(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRNotifications___RemoveNotification New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265d3a0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

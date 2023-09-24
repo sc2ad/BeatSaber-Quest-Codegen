@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IDictionary;
+}
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class CipherKeyGenerator;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -83,8 +83,7 @@ static System::Collections::IDictionary __get_defaultKeySizes() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GeneratorUtilities() ;
+static Org::BouncyCastle::Security::GeneratorUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x109e004 size 0x8 virtual false final false
  void _ctor() ;

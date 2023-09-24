@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacketsParser_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser._ctor
 template<>
 
@@ -42,8 +42,10 @@ constexpr void Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::__set_inp
 constexpr System::IO::Stream Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::__get_input() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::UserAttributeSubpacketsParser(System::IO::Stream input)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserAttributeSubpacketsParser>(input))) {}
+ Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::New_ctor(System::IO::Stream input)  {
+Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser>(input))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser>::get(),

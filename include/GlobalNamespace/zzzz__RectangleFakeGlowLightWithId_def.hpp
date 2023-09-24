@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class RectangleFakeGlow;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class RectangleFakeGlow;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr GlobalNamespace::RectangleFakeGlow __get__rectangleFakeGlow() const;
 /// @brief Method ColorWasSet addr 0x226a264 size 0x2c virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit RectangleFakeGlowLightWithId() ;
+static GlobalNamespace::RectangleFakeGlowLightWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x226a290 size 0x10 virtual false final false
  void _ctor() ;

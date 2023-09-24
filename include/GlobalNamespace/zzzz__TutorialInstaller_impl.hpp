@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TutorialInstaller.InstallBindings
 template<>
 
@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::TutorialInstaller::TutorialInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<TutorialInstaller>())) {}
+ GlobalNamespace::TutorialInstaller GlobalNamespace::TutorialInstaller::New_ctor()  {
+GlobalNamespace::TutorialInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TutorialInstaller>())};
+return o;
+}
  void GlobalNamespace::TutorialInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TutorialInstaller>::get(),

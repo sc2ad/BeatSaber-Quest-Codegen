@@ -83,8 +83,10 @@ constexpr void System::Text::RegularExpressions::Group::__set__Name_k__BackingFi
 constexpr ::StringW System::Text::RegularExpressions::Group::__get__Name_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "capcount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::Group::Group(::StringW text, ::ArrayW<int32_t> caps, int32_t capcount, ::StringW name)  : System::Text::RegularExpressions::Capture(THROW_UNLESS(::il2cpp_utils::New<Group>(text, caps, capcount, name))) {}
+ System::Text::RegularExpressions::Group System::Text::RegularExpressions::Group::New_ctor(::StringW text, ::ArrayW<int32_t> caps, int32_t capcount, ::StringW name)  {
+System::Text::RegularExpressions::Group o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::Group>(text, caps, capcount, name))};
+return o;
+}
  void System::Text::RegularExpressions::Group::_ctor(::StringW text, ::ArrayW<int32_t> caps, int32_t capcount, ::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::Group>::get(),
@@ -103,8 +105,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Text::RegularExpressions::Group::Group()  : System::Text::RegularExpressions::Capture(THROW_UNLESS(::il2cpp_utils::New<Group>())) {}
+ System::Text::RegularExpressions::Group System::Text::RegularExpressions::Group::New_ctor()  {
+System::Text::RegularExpressions::Group o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::Group>())};
+return o;
+}
  void System::Text::RegularExpressions::Group::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::Group>::get(),

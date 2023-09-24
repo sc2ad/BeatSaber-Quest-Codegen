@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet;
+}
 namespace UnityEngine {
 class AudioClip;
 }
@@ -87,8 +90,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyB
 /// @brief Method get_difficultyBeatmaps addr 0x21e3388 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap> get_difficultyBeatmaps() ;
 
-// Ctor Parameters [CppParam { name: "beatmapCharacteristicSerializedName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmaps", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet(::StringW beatmapCharacteristicSerializedName, ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap> difficultyBeatmaps) ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet New_ctor(::StringW beatmapCharacteristicSerializedName, ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap> difficultyBeatmaps) ;
 
 /// @brief Method .ctor addr 0x21e3390 size 0x2c virtual false final false
  void _ctor(::StringW beatmapCharacteristicSerializedName, ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap> difficultyBeatmaps) ;
@@ -175,8 +177,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__Difficu
 /// @brief Method get_difficultyBeatmapSets addr 0x21e3370 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet> get_difficultyBeatmapSets() ;
 
-// Ctor Parameters []
-explicit BeatmapLevelDataSO() ;
+static GlobalNamespace::BeatmapLevelDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e3378 size 0x8 virtual false final false
  void _ctor() ;

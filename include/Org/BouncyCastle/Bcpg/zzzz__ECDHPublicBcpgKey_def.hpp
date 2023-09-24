@@ -6,19 +6,19 @@ namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -96,14 +96,12 @@ constexpr Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag __get_symAlgorithmId
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit ECDHPublicBcpgKey(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1146fbc size 0x128 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "point", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "symmetricKeyAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }]
-explicit ECDHPublicBcpgKey(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag symmetricKeyAlgorithm) ;
+static Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag symmetricKeyAlgorithm) ;
 
 /// @brief Method .ctor addr 0x11471b4 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag symmetricKeyAlgorithm) ;

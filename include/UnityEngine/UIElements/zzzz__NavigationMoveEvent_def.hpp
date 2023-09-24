@@ -4,6 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__NavigationMoveEvent__Direction;
+}
 namespace UnityEngine {
 struct Vector2;
 }
@@ -66,6 +69,8 @@ __Down = 4,
 constexpr operator __UnityEngine__UIElements__NavigationMoveEvent__Direction_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__NavigationMoveEvent__Direction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -179,8 +184,7 @@ static UnityEngine::UIElements::NavigationMoveEvent GetPooled(UnityEngine::Vecto
 /// @brief Method Init addr 0x2cdbc78 size 0x88 virtual true final false
  void Init() ;
 
-// Ctor Parameters []
-explicit NavigationMoveEvent() ;
+static UnityEngine::UIElements::NavigationMoveEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdbd00 size 0x58 virtual false final false
  void _ctor() ;

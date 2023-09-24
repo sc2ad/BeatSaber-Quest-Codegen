@@ -3,14 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+class ILevelEndActions;
 }
 namespace GlobalNamespace {
 class IGamePause;
-}
-namespace GlobalNamespace {
-class ILevelEndActions;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
@@ -20,6 +17,9 @@ class EnvironmentAudioEffectsPlayer;
 }
 namespace GlobalNamespace {
 struct EnvironmentContext;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -184,8 +184,7 @@ constexpr bool __get__isWaitingToPlayStartAudio() const;
 /// @brief Method HandleGamePauseDidPause addr 0x20bb83c size 0x24 virtual false final false
  void HandleGamePauseDidPause() ;
 
-// Ctor Parameters []
-explicit EnvironmentStartEndSongAudioEffect() ;
+static GlobalNamespace::EnvironmentStartEndSongAudioEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bb860 size 0x14 virtual false final false
  void _ctor() ;

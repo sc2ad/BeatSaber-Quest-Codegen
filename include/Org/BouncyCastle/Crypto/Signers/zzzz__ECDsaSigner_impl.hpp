@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__ECDsaSigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
-#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaKCalculator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDsaExt_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDsa_def.hpp"
+#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaKCalculator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDsa_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDsaExt_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::ECDsaSigner._ctor
 template<>
@@ -229,8 +229,10 @@ constexpr void Org::BouncyCastle::Crypto::Signers::ECDsaSigner::__set_random(Org
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Crypto::Signers::ECDsaSigner::__get_random() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Signers::ECDsaSigner::ECDsaSigner()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECDsaSigner>())) {}
+ Org::BouncyCastle::Crypto::Signers::ECDsaSigner Org::BouncyCastle::Crypto::Signers::ECDsaSigner::New_ctor()  {
+Org::BouncyCastle::Crypto::Signers::ECDsaSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::ECDsaSigner>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::ECDsaSigner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::ECDsaSigner>::get(),
@@ -240,8 +242,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "kCalculator", ty: "Org::BouncyCastle::Crypto::Signers::IDsaKCalculator", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::ECDsaSigner::ECDsaSigner(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator kCalculator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECDsaSigner>(kCalculator))) {}
+ Org::BouncyCastle::Crypto::Signers::ECDsaSigner Org::BouncyCastle::Crypto::Signers::ECDsaSigner::New_ctor(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator kCalculator)  {
+Org::BouncyCastle::Crypto::Signers::ECDsaSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::ECDsaSigner>(kCalculator))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::ECDsaSigner::_ctor(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator kCalculator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::ECDsaSigner>::get(),

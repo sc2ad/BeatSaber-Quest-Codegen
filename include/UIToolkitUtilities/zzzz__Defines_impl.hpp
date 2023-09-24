@@ -35,8 +35,10 @@ return ::cordl_internals::getStaticField<::StringW, "styleSheetDirectory", ::il2
  ::StringW UIToolkitUtilities::Defines::__get_globalStyleSheet()  {
 return ::cordl_internals::getStaticField<::StringW, "globalStyleSheet", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIToolkitUtilities::Defines>::get>();
 }
-// Ctor Parameters []
- UIToolkitUtilities::Defines::Defines()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Defines>())) {}
+ UIToolkitUtilities::Defines UIToolkitUtilities::Defines::New_ctor()  {
+UIToolkitUtilities::Defines o{THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities::Defines>())};
+return o;
+}
  void UIToolkitUtilities::Defines::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIToolkitUtilities::Defines>::get(),

@@ -2,16 +2,17 @@
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongTimeSyncedVideoPlayer_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "UnityEngine/Video/zzzz__VideoPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentContext_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "UnityEngine/Video/zzzz__VideoClip_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
+#include "GlobalNamespace/zzzz__SongTimeSyncedVideoPlayer_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17._ctor
 template<>
 
@@ -144,8 +145,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SongTimeSyncedVideoPlayer___Wai
 constexpr GlobalNamespace::SongTimeSyncedVideoPlayer GlobalNamespace::GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::SongTimeSyncedVideoPlayer, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17::GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17 GlobalNamespace::GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17>::get(),
@@ -522,8 +525,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SongTimeSyncedVideoPlayer::SongTimeSyncedVideoPlayer()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SongTimeSyncedVideoPlayer>())) {}
+ GlobalNamespace::SongTimeSyncedVideoPlayer GlobalNamespace::SongTimeSyncedVideoPlayer::New_ctor()  {
+GlobalNamespace::SongTimeSyncedVideoPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SongTimeSyncedVideoPlayer>())};
+return o;
+}
  void GlobalNamespace::SongTimeSyncedVideoPlayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SongTimeSyncedVideoPlayer>::get(),

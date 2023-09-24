@@ -42,8 +42,10 @@ constexpr void UnityEngine::ProBuilder::RaycastHit::__set_face(int32_t value)  {
 constexpr int32_t UnityEngine::ProBuilder::RaycastHit::__get_face() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "point", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "face", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::RaycastHit::RaycastHit(float_t distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int32_t face)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RaycastHit>(distance, point, normal, face))) {}
+ UnityEngine::ProBuilder::RaycastHit UnityEngine::ProBuilder::RaycastHit::New_ctor(float_t distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int32_t face)  {
+UnityEngine::ProBuilder::RaycastHit o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::RaycastHit>(distance, point, normal, face))};
+return o;
+}
  void UnityEngine::ProBuilder::RaycastHit::_ctor(float_t distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int32_t face)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::RaycastHit>::get(),

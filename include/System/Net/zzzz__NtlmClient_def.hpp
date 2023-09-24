@@ -6,13 +6,13 @@ namespace System::Net {
 class ICredentials;
 }
 namespace System::Net {
-class WebRequest;
+class Authorization;
 }
 namespace System::Net {
 class IAuthenticationModule;
 }
 namespace System::Net {
-class Authorization;
+class WebRequest;
 }
 // Forward declare root types
 namespace System::Net {
@@ -77,8 +77,7 @@ constexpr System::Net::IAuthenticationModule __get_authObject() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NtlmClient() ;
+static System::Net::NtlmClient New_ctor() ;
 
 /// @brief Method .ctor addr 0x2842ecc size 0x6c virtual false final false
  void _ctor() ;

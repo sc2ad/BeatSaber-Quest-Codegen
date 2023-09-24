@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__LazyAsn1InputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerSet_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerSequence_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DefiniteLengthInputStream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerSet_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::LazyAsn1InputStream._ctor
 template<>
 
@@ -73,8 +73,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "input", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::LazyAsn1InputStream::LazyAsn1InputStream(::ArrayW<uint8_t> input)  : Org::BouncyCastle::Asn1::Asn1InputStream(THROW_UNLESS(::il2cpp_utils::New<LazyAsn1InputStream>(input))) {}
+ Org::BouncyCastle::Asn1::LazyAsn1InputStream Org::BouncyCastle::Asn1::LazyAsn1InputStream::New_ctor(::ArrayW<uint8_t> input)  {
+Org::BouncyCastle::Asn1::LazyAsn1InputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::LazyAsn1InputStream>(input))};
+return o;
+}
  void Org::BouncyCastle::Asn1::LazyAsn1InputStream::_ctor(::ArrayW<uint8_t> input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::LazyAsn1InputStream>::get(),
@@ -84,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, input);
 }
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::LazyAsn1InputStream::LazyAsn1InputStream(System::IO::Stream inputStream)  : Org::BouncyCastle::Asn1::Asn1InputStream(THROW_UNLESS(::il2cpp_utils::New<LazyAsn1InputStream>(inputStream))) {}
+ Org::BouncyCastle::Asn1::LazyAsn1InputStream Org::BouncyCastle::Asn1::LazyAsn1InputStream::New_ctor(System::IO::Stream inputStream)  {
+Org::BouncyCastle::Asn1::LazyAsn1InputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::LazyAsn1InputStream>(inputStream))};
+return o;
+}
  void Org::BouncyCastle::Asn1::LazyAsn1InputStream::_ctor(System::IO::Stream inputStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::LazyAsn1InputStream>::get(),

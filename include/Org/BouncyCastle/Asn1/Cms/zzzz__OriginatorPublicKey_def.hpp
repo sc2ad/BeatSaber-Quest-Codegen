@@ -10,14 +10,14 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -87,14 +87,12 @@ constexpr Org::BouncyCastle::Asn1::DerBitString __get_mPublicKey() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit OriginatorPublicKey(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, ::ArrayW<uint8_t> publicKey) ;
+static Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, ::ArrayW<uint8_t> publicKey) ;
 
 /// @brief Method .ctor addr 0xdee3f8 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, ::ArrayW<uint8_t> publicKey) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OriginatorPublicKey(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdee47c size 0xb0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

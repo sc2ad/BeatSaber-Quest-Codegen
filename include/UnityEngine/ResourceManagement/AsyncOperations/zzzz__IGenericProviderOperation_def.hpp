@@ -6,6 +6,20 @@
 namespace System {
 class Type;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IResourceProvider;
 }
@@ -16,25 +30,11 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
 namespace System {
 class Exception;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {

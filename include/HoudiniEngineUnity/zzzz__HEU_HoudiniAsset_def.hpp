@@ -10,97 +10,135 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_GeoNode;
 }
 namespace HoudiniEngineUnity {
-class HEU_InstanceInputUIState;
-}
-namespace HoudiniEngineUnity {
-class BakedEvent;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_RecookPreset;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::Events {
-template<typename T0,typename T1,typename T2>
-class UnityAction_3;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace UnityEngine {
-class Collider;
+class HoudiniEngineUnity__HEU_HoudiniAsset____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_PreAssetEvent;
+class CookedEvent;
 }
 namespace HoudiniEngineUnity {
-class HEU_AssetSerializedMetaData;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectNode;
-}
-namespace HoudiniEngineUnity {
-class HEU_CookedDataEvent;
+class HEU_SessionBase;
 }
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace HoudiniEngineUnity {
-class HEU_BakedDataEvent;
-}
-namespace HoudiniEngineUnity {
-class HEU_Handle;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputNode;
+class Object;
 }
 namespace HoudiniEngineUnity {
 class HEU_ObjectInstanceInfo;
 }
 namespace HoudiniEngineUnity {
-class CookedEvent;
+class HEU_InputPreset;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeCache;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_Parameters;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AssetInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_AssetSerializedMetaData;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
+}
+namespace HoudiniEngineUnity {
+class HEU_AssetPreset;
+}
+namespace HoudiniEngineUnity {
+class HEU_CookedDataEvent;
+}
+namespace HoudiniEngineUnity {
+class HEU_Curve;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeCachePreset;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
 struct HoudiniEngineUnity__HEU_Curve__CurveDrawCollision;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AssetInfo;
+struct HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus;
 }
 namespace HoudiniEngineUnity {
-class HEU_PartData;
+class HEU_ObjectNode;
 }
 namespace HoudiniEngineUnity {
-class HEU_Parameters;
+struct HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction;
 }
 namespace HoudiniEngineUnity {
-class HEU_ReloadDataEvent;
+struct HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0;
+}
+namespace HoudiniEngineUnity {
+class HEU_RecookPreset;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate;
+}
+namespace HoudiniEngineUnity {
+class HEU_PreAssetEvent;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace HoudiniEngineUnity {
+class HEU_InstanceInputUIState;
+}
+namespace UnityEngine {
+class Collider;
+}
+namespace HoudiniEngineUnity {
+class HEU_Handle;
+}
+namespace HoudiniEngineUnity {
+class HEU_AttributesStore;
 }
 namespace HoudiniEngineUnity {
 class HEU_ToolsInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
+class HEU_BakedDataEvent;
+}
+namespace HoudiniEngineUnity {
+class BakedEvent;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType;
+}
+namespace HoudiniEngineUnity {
+class ReloadEvent;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_ObjectInfo;
@@ -108,35 +146,24 @@ struct HAPI_ObjectInfo;
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
 }
-namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
-}
-namespace HoudiniEngineUnity {
-class HEU_Curve;
+namespace UnityEngine::Events {
+template<typename T0,typename T1,typename T2>
+class UnityAction_3;
 }
 namespace UnityEngine {
-class Object;
+class Material;
 }
 namespace HoudiniEngineUnity {
-class HEU_VolumeCache;
+class HEU_ReloadDataEvent;
+}
+namespace UnityEngine {
+struct LayerMask;
 }
 namespace HoudiniEngineUnity {
-class HEU_VolumeCachePreset;
+class HEU_PartData;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeoNode;
-}
-namespace HoudiniEngineUnity {
-class HEU_AssetPreset;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputPreset;
-}
-namespace HoudiniEngineUnity {
-class ReloadEvent;
-}
-namespace HoudiniEngineUnity {
-class HEU_AttributesStore;
+class HEU_GeneratedOutput;
 }
 namespace System {
 class IAsyncResult;
@@ -241,6 +268,8 @@ constexpr operator __HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType_Unwrapp
 return std::bit_cast<__HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -320,6 +349,8 @@ __RESET_PARAMS = 6,
 constexpr operator __HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_HoudiniAsset__AssetBuildAction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -410,6 +441,8 @@ constexpr operator __HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus_Unwra
 return std::bit_cast<__HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookStatus_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -495,6 +528,8 @@ constexpr operator __HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult_Unwra
 return std::bit_cast<__HoudiniEngineUnity__HEU_HoudiniAsset__AssetCookResult_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -559,8 +594,7 @@ constexpr explicit HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x1ff9794 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -628,6 +662,8 @@ __UNDO = 2,
 constexpr operator __HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -702,8 +738,7 @@ constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ff9890 size 0x8 virtual false final false
  void _ctor() ;
@@ -790,8 +825,7 @@ static System::Func_2<HoudiniEngineUnity::HEU_MaterialData,bool> __get___9__364_
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_HoudiniAsset____c() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ff9a08 size 0x8 virtual false final false
  void _ctor() ;
@@ -875,8 +909,7 @@ constexpr System::Predicate_1<HoudiniEngineUnity::HEU_Curve> __get___9__0() cons
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ff9b80 size 0x8 virtual false final false
  void _ctor() ;
@@ -2259,8 +2292,7 @@ static void SetCurvesVisibilityInScene(bool bShow) ;
 /// @brief Method IsEquivalentTo addr 0x1ff742c size 0x10c4 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_HoudiniAsset asset) ;
 
-// Ctor Parameters []
-explicit HEU_HoudiniAsset() ;
+static HoudiniEngineUnity::HEU_HoudiniAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ff84f0 size 0x12a4 virtual false final false
  void _ctor() ;

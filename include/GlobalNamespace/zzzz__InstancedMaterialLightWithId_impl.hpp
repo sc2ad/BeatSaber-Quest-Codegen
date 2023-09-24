@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__InstancedMaterialLightWithId_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::InstancedMaterialLightWithId.ColorWasSet
 template<>
 
@@ -88,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newColor);
 }
-// Ctor Parameters []
- GlobalNamespace::InstancedMaterialLightWithId::InstancedMaterialLightWithId()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<InstancedMaterialLightWithId>())) {}
+ GlobalNamespace::InstancedMaterialLightWithId GlobalNamespace::InstancedMaterialLightWithId::New_ctor()  {
+GlobalNamespace::InstancedMaterialLightWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::InstancedMaterialLightWithId>())};
+return o;
+}
  void GlobalNamespace::InstancedMaterialLightWithId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::InstancedMaterialLightWithId>::get(),

@@ -72,8 +72,7 @@ constexpr bool __get__LeaveStreamOpen() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit AuthenticatedStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen) ;
+static System::Net::Security::AuthenticatedStream New_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen) ;
 
 /// @brief Method .ctor addr 0x276cdf4 size 0x198 virtual false final false
  void _ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen) ;

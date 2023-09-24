@@ -4,30 +4,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Sprite;
-}
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace GlobalNamespace {
-class ISpriteAsyncLoader;
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
-template<typename TKey,typename TValue>
-class AsyncCachedLoader_2;
+struct GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3;
+}
+namespace GlobalNamespace {
+class ISpriteAsyncLoader;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+namespace GlobalNamespace {
+template<typename TKey,typename TValue>
+class AsyncCachedLoader_2;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -202,8 +205,7 @@ constexpr GlobalNamespace::AsyncCachedLoader_2<::StringW,UnityEngine::Sprite> __
 /// @brief Method LoadSpriteAsync addr 0x21a3648 size 0x104 virtual true final true
  System::Threading::Tasks::Task_1<UnityEngine::Sprite> LoadSpriteAsync(::StringW path, System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters []
-explicit CachedMediaAsyncLoader() ;
+static GlobalNamespace::CachedMediaAsyncLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a374c size 0x10 virtual false final false
  void _ctor() ;

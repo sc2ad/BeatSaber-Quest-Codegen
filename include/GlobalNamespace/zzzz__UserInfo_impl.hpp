@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
+#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__UserInfo__Platform::GlobalNamespace__UserInfo__Platform(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -50,8 +51,10 @@ constexpr void GlobalNamespace::UserInfo::__set_userName(::StringW value)  {
 constexpr ::StringW GlobalNamespace::UserInfo::__get_userName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "platform", ty: "GlobalNamespace::GlobalNamespace__UserInfo__Platform", modifiers: "", def_value: None }, CppParam { name: "platformUserId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::UserInfo::UserInfo(GlobalNamespace::GlobalNamespace__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserInfo>(platform, platformUserId, userName))) {}
+ GlobalNamespace::UserInfo GlobalNamespace::UserInfo::New_ctor(GlobalNamespace::GlobalNamespace__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName)  {
+GlobalNamespace::UserInfo o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UserInfo>(platform, platformUserId, userName))};
+return o;
+}
  void GlobalNamespace::UserInfo::_ctor(GlobalNamespace::GlobalNamespace__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UserInfo>::get(),

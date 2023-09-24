@@ -78,8 +78,7 @@ constexpr GlobalNamespace::LightWithIdManager __get__lightManager() const;
 /// @brief Method LateUpdate addr 0x22520c0 size 0x2c virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit EnvironmentLightSimpleController() ;
+static GlobalNamespace::EnvironmentLightSimpleController New_ctor() ;
 
 /// @brief Method .ctor addr 0x22520ec size 0x8 virtual false final false
  void _ctor() ;

@@ -2,17 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilderWithKey;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class EnvelopedDataHelper;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Operators {
@@ -90,14 +90,12 @@ constexpr Org::BouncyCastle::Cms::EnvelopedDataHelper __get_helper() const;
 /// @brief Method GetKeySize addr 0xea04e4 size 0x1a4 virtual false final false
 static int32_t GetKeySize(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
-// Ctor Parameters [CppParam { name: "encryptionOID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit CmsContentEncryptorBuilder(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID) ;
+static Org::BouncyCastle::Operators::CmsContentEncryptorBuilder New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID) ;
 
 /// @brief Method .ctor addr 0xea0688 size 0x70 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID) ;
 
-// Ctor Parameters [CppParam { name: "encryptionOID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CmsContentEncryptorBuilder(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize) ;
+static Org::BouncyCastle::Operators::CmsContentEncryptorBuilder New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize) ;
 
 /// @brief Method .ctor addr 0xea06f8 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize) ;

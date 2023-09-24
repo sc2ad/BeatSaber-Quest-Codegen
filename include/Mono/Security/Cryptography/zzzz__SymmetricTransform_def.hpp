@@ -6,11 +6,11 @@
 namespace System::Security::Cryptography {
 class ICryptoTransform;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography {
 class SymmetricAlgorithm;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Security::Cryptography {
 class RandomNumberGenerator;
@@ -156,8 +156,7 @@ constexpr System::Security::Cryptography::RandomNumberGenerator __get__rng() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "symmAlgo", ty: "System::Security::Cryptography::SymmetricAlgorithm", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rgbIV", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SymmetricTransform(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV) ;
+static Mono::Security::Cryptography::SymmetricTransform New_ctor(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV) ;
 
 /// @brief Method .ctor addr 0x22b79b8 size 0x2c8 virtual false final false
  void _ctor(System::Security::Cryptography::SymmetricAlgorithm symmAlgo, bool encryption, ::ArrayW<uint8_t> rgbIV) ;

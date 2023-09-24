@@ -79,26 +79,22 @@ constexpr System::Security::Cryptography::OidGroup __get__group() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Oid() ;
+static System::Security::Cryptography::Oid New_ctor() ;
 
 /// @brief Method .ctor addr 0x27e3480 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Oid(::StringW oid) ;
+static System::Security::Cryptography::Oid New_ctor(::StringW oid) ;
 
 /// @brief Method .ctor addr 0x27e3488 size 0x8c virtual false final false
  void _ctor(::StringW oid) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "friendlyName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Oid(::StringW value, ::StringW friendlyName) ;
+static System::Security::Cryptography::Oid New_ctor(::StringW value, ::StringW friendlyName) ;
 
 /// @brief Method .ctor addr 0x27e3514 size 0x2c virtual false final false
  void _ctor(::StringW value, ::StringW friendlyName) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "System::Security::Cryptography::Oid", modifiers: "", def_value: None }]
-explicit Oid(System::Security::Cryptography::Oid oid) ;
+static System::Security::Cryptography::Oid New_ctor(System::Security::Cryptography::Oid oid) ;
 
 /// @brief Method .ctor addr 0x27e3540 size 0x84 virtual false final false
  void _ctor(System::Security::Cryptography::Oid oid) ;
@@ -115,8 +111,7 @@ static System::Security::Cryptography::Oid FromOidValue(::StringW oidValue, Syst
 /// @brief Method get_FriendlyName addr 0x27e374c size 0x84 virtual false final false
  ::StringW get_FriendlyName() ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "friendlyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "group", ty: "System::Security::Cryptography::OidGroup", modifiers: "", def_value: None }]
-explicit Oid(::StringW value, ::StringW friendlyName, System::Security::Cryptography::OidGroup group) ;
+static System::Security::Cryptography::Oid New_ctor(::StringW value, ::StringW friendlyName, System::Security::Cryptography::OidGroup group) ;
 
 /// @brief Method .ctor addr 0x27e3700 size 0x3c virtual false final false
  void _ctor(::StringW value, ::StringW friendlyName, System::Security::Cryptography::OidGroup group) ;

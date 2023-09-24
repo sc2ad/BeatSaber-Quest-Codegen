@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Xml/XPath/zzzz__XPathItem_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigator_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNamespaceScope_def.hpp"
-#include "System/Xml/XPath/zzzz__XPathNavigatorKeyComparer_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathNavigatorKeyComparer_def.hpp"
 //  Writing Method size for method: System::Xml::XPath::XPathNavigator.ToString
 template<>
 
@@ -762,8 +762,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
 }
-// Ctor Parameters []
- System::Xml::XPath::XPathNavigator::XPathNavigator()  : System::Xml::XPath::XPathItem(THROW_UNLESS(::il2cpp_utils::New<XPathNavigator>())) {}
+ System::Xml::XPath::XPathNavigator System::Xml::XPath::XPathNavigator::New_ctor()  {
+System::Xml::XPath::XPathNavigator o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XPath::XPathNavigator>())};
+return o;
+}
  void System::Xml::XPath::XPathNavigator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XPath::XPathNavigator>::get(),

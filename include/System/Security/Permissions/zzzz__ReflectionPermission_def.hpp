@@ -2,13 +2,13 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_def.hpp"
 namespace System::Security {
+class IPermission;
+}
+namespace System::Security {
 class SecurityElement;
 }
 namespace System::Security::Permissions {
 struct ReflectionPermissionFlag;
-}
-namespace System::Security {
-class IPermission;
 }
 // Forward declare root types
 namespace System::Security::Permissions {
@@ -70,8 +70,7 @@ constexpr System::Security::Permissions::ReflectionPermissionFlag __get_flags() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "flag", ty: "System::Security::Permissions::ReflectionPermissionFlag", modifiers: "", def_value: None }]
-explicit ReflectionPermission(System::Security::Permissions::ReflectionPermissionFlag flag) ;
+static System::Security::Permissions::ReflectionPermission New_ctor(System::Security::Permissions::ReflectionPermissionFlag flag) ;
 
 /// @brief Method .ctor addr 0x22ea878 size 0x2c virtual false final false
  void _ctor(System::Security::Permissions::ReflectionPermissionFlag flag) ;

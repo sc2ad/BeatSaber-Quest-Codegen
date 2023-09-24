@@ -1,8 +1,9 @@
 #pragma once
 #include "System/Net/zzzz__PathList_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Net/zzzz__PathList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__SortedList_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__PathList__PathListComparer.System_Collections_IComparer_Compare
 template<>
@@ -57,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, ol, or);
 }
-// Ctor Parameters []
- System::Net::System__Net__PathList__PathListComparer::System__Net__PathList__PathListComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__PathList__PathListComparer>())) {}
+ System::Net::System__Net__PathList__PathListComparer System::Net::System__Net__PathList__PathListComparer::New_ctor()  {
+System::Net::System__Net__PathList__PathListComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__PathList__PathListComparer>())};
+return o;
+}
  void System::Net::System__Net__PathList__PathListComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__PathList__PathListComparer>::get(),
@@ -210,8 +213,10 @@ constexpr void System::Net::PathList::__set_m_list(System::Collections::SortedLi
 constexpr System::Collections::SortedList System::Net::PathList::__get_m_list() const {
 return ::cordl_internals::getInstanceField<System::Collections::SortedList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::PathList::PathList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PathList>())) {}
+ System::Net::PathList System::Net::PathList::New_ctor()  {
+System::Net::PathList o{THROW_UNLESS(::il2cpp_utils::New<System::Net::PathList>())};
+return o;
+}
  void System::Net::PathList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::PathList>::get(),

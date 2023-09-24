@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__Gost28147Mac_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Macs::Gost28147Mac._ctor
 template<>
 
@@ -286,8 +286,10 @@ constexpr void Org::BouncyCastle::Crypto::Macs::Gost28147Mac::__set_S(::ArrayW<u
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Macs::Gost28147Mac::__get_S() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Macs::Gost28147Mac::Gost28147Mac()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost28147Mac>())) {}
+ Org::BouncyCastle::Crypto::Macs::Gost28147Mac Org::BouncyCastle::Crypto::Macs::Gost28147Mac::New_ctor()  {
+Org::BouncyCastle::Crypto::Macs::Gost28147Mac o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::Gost28147Mac>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::Gost28147Mac::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::Gost28147Mac>::get(),

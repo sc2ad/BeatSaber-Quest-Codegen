@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System {
-class IAsyncResult;
-}
 namespace System::Threading {
 class ManualResetEvent;
 }
 namespace System {
-class Exception;
+class IAsyncResult;
 }
 namespace System::Threading {
 class WaitHandle;
+}
+namespace System {
+class Exception;
 }
 namespace System {
 class AsyncCallback;
@@ -159,8 +159,7 @@ constexpr System::Exception __get_Error() const;
 /// @brief Method get_IsCompleted addr 0x2839458 size 0xc8 virtual true final true
  bool get_IsCompleted() ;
 
-// Ctor Parameters []
-explicit HttpStreamAsyncResult() ;
+static System::Net::HttpStreamAsyncResult New_ctor() ;
 
 /// @brief Method .ctor addr 0x282a264 size 0x68 virtual false final false
  void _ctor() ;

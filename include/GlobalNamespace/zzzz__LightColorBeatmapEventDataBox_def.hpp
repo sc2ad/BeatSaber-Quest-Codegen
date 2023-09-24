@@ -9,9 +9,8 @@ struct GlobalNamespace__BeatmapEventDataBox__DistributionParamType;
 namespace GlobalNamespace {
 class LightColorBaseData;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+class BeatmapEventData;
 }
 namespace GlobalNamespace {
 class IndexFilter;
@@ -19,12 +18,13 @@ class IndexFilter;
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
 }
-namespace GlobalNamespace {
-class BeatmapEventData;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace GlobalNamespace {
 struct EaseType;
@@ -115,8 +115,7 @@ constexpr bool __get__brightnessDistributionShouldAffectFirstBaseEvent() const;
 /// @brief Method get_beatStep addr 0x21de188 size 0x8 virtual true final false
  float_t get_beatStep() ;
 
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "GlobalNamespace::IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionEaseType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "lightColorBaseDataList", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightColorBaseData>", modifiers: "", def_value: None }]
-explicit LightColorBeatmapEventDataBox(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType brightnessDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightColorBaseData> lightColorBaseDataList) ;
+static GlobalNamespace::LightColorBeatmapEventDataBox New_ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType brightnessDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightColorBaseData> lightColorBaseDataList) ;
 
 /// @brief Method .ctor addr 0x21d794c size 0x200 virtual false final false
  void _ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType brightnessDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightColorBaseData> lightColorBaseDataList) ;

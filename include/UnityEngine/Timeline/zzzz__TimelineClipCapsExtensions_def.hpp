@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::Timeline {
-struct ClipCaps;
+class TimelineClip;
 }
 namespace UnityEngine::Timeline {
-class TimelineClip;
+struct ClipCaps;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

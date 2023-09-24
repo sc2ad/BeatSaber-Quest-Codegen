@@ -55,8 +55,7 @@ constexpr explicit ServicePointManagerElement(void* ptr) noexcept : System::Conf
 
 // Methods
 
-// Ctor Parameters []
-explicit ServicePointManagerElement() ;
+static System::Net::Configuration::ServicePointManagerElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b25fc size 0x38 virtual false final false
  void _ctor() ;

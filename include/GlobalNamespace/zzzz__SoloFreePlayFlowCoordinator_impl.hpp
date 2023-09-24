@@ -2,17 +2,18 @@
 #include "GlobalNamespace/zzzz__SinglePlayerLevelSelectionFlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__SoloFreePlayFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__ResultsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
+#include "GlobalNamespace/zzzz__RunLevelMenuDestination_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__SoloFreePlayFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformLeaderboardViewController_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerLevelStatsData_def.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__RunLevelMenuDestination_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0._ctor
 template<>
 
@@ -59,8 +60,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____
 constexpr GlobalNamespace::ResultsViewController GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::__get_resultsViewController() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ResultsViewController, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0>())) {}
+ GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0 GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0>::get(),
@@ -450,8 +453,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, runLevelMenuDestination);
 }
-// Ctor Parameters []
- GlobalNamespace::SoloFreePlayFlowCoordinator::SoloFreePlayFlowCoordinator()  : GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<SoloFreePlayFlowCoordinator>())) {}
+ GlobalNamespace::SoloFreePlayFlowCoordinator GlobalNamespace::SoloFreePlayFlowCoordinator::New_ctor()  {
+GlobalNamespace::SoloFreePlayFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SoloFreePlayFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::SoloFreePlayFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SoloFreePlayFlowCoordinator>::get(),

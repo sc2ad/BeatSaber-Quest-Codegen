@@ -77,8 +77,7 @@ constexpr ::ArrayW<int32_t> __get_subtypeIdentifiers() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "aheadTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "BasicBeatmapEventType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifiers", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit BeatmapDataCallbackWrapper(float_t aheadTime, System::Type BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers) ;
+static GlobalNamespace::BeatmapDataCallbackWrapper New_ctor(float_t aheadTime, System::Type BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers) ;
 
 /// @brief Method .ctor addr 0x2231ffc size 0x40 virtual false final false
  void _ctor(float_t aheadTime, System::Type BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers) ;

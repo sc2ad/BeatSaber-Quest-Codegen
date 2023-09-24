@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__RevRepContentBuilder_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertId_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__CertificateList_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertId_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__RevRepContent_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatusInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder.Add
 template<>
@@ -144,8 +144,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cmp::RevRepContent, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::RevRepContentBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RevRepContentBuilder>())) {}
+ Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::New_ctor()  {
+Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder>::get(),

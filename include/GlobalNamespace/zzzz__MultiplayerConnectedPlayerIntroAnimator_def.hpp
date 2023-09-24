@@ -62,8 +62,7 @@ constexpr UnityEngine::Playables::PlayableDirector __get__introPlayableDirector(
 /// @brief Method SetBeforeIntroValues addr 0x20e0e84 size 0x1c virtual false final false
  void SetBeforeIntroValues() ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerIntroAnimator() ;
+static GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e0ea0 size 0x8 virtual false final false
  void _ctor() ;

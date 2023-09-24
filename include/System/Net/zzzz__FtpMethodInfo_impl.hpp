@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/zzzz__FtpMethodInfo_def.hpp"
-#include "System/Net/zzzz__FtpOperation_def.hpp"
 #include "System/Net/zzzz__FtpMethodFlags_def.hpp"
+#include "System/Net/zzzz__FtpOperation_def.hpp"
 //  Writing Method size for method: System::Net::FtpMethodInfo._ctor
 template<>
 
@@ -151,8 +151,10 @@ return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2
  ::ArrayW<System::Net::FtpMethodInfo> System::Net::FtpMethodInfo::__get_s_knownMethodInfo()  {
 return ::cordl_internals::getStaticField<::ArrayW<System::Net::FtpMethodInfo>, "s_knownMethodInfo", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FtpMethodInfo>::get>();
 }
-// Ctor Parameters [CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "System::Net::FtpOperation", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Net::FtpMethodFlags", modifiers: "", def_value: None }, CppParam { name: "httpCommand", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::FtpMethodInfo::FtpMethodInfo(::StringW method, System::Net::FtpOperation operation, System::Net::FtpMethodFlags flags, ::StringW httpCommand)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FtpMethodInfo>(method, operation, flags, httpCommand))) {}
+ System::Net::FtpMethodInfo System::Net::FtpMethodInfo::New_ctor(::StringW method, System::Net::FtpOperation operation, System::Net::FtpMethodFlags flags, ::StringW httpCommand)  {
+System::Net::FtpMethodInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Net::FtpMethodInfo>(method, operation, flags, httpCommand))};
+return o;
+}
  void System::Net::FtpMethodInfo::_ctor(::StringW method, System::Net::FtpOperation operation, System::Net::FtpMethodFlags flags, ::StringW httpCommand)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FtpMethodInfo>::get(),

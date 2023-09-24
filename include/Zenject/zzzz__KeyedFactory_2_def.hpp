@@ -3,15 +3,15 @@
 #include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System {
 class Type;
 }
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -28,7 +28,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TBase,::cordl_internals::il2cpp_reference_type TKey>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10937), inst: 3805 }), TypeDefinitionIndex(TypeDefinitionIndex(10938)), TypeDefinitionIndex(TypeDefinitionIndex(10937))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10938)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10937), inst: 3805 }), TypeDefinitionIndex(TypeDefinitionIndex(10937))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10938), inst: 80 })
 // CS Name: Zenject.KeyedFactory`2
 class CORDL_TYPE KeyedFactory_2<TBase,TKey> : public Zenject::KeyedFactoryBase_2<TBase,TKey> {
@@ -78,8 +78,7 @@ constexpr explicit KeyedFactory_2(void* ptr) noexcept : Zenject::KeyedFactoryBas
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
  TBase Create(TKey key) ;
 
-// Ctor Parameters []
-explicit KeyedFactory_2() ;
+static Zenject::KeyedFactory_2<TBase,TKey> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

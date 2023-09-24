@@ -101,8 +101,7 @@ constexpr int32_t __get_currentVertex() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MeshWriteData() ;
+static UnityEngine::UIElements::MeshWriteData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d02308 size 0x8 virtual false final false
  void _ctor() ;

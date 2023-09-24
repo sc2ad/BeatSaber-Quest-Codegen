@@ -168,8 +168,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers::__get_Ed25519()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "Ed25519", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers::GnuObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GnuObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers>::get(),

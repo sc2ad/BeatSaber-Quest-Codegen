@@ -75,8 +75,7 @@ static int32_t __get__globalNoiseTextureID() ;
 /// @brief Method SetBlueNoiseShaderParams addr 0x1f9897c size 0xec virtual false final false
  void SetBlueNoiseShaderParams(int32_t cameraPixelWidth, int32_t cameraPixelHeight) ;
 
-// Ctor Parameters []
-explicit BlueNoiseDithering() ;
+static GlobalNamespace::BlueNoiseDithering New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f98a68 size 0x8 virtual false final false
  void _ctor() ;

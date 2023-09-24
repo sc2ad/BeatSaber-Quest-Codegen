@@ -2,6 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__Context_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace Zenject {
+class ScriptableObjectInstaller;
+}
+namespace Zenject {
+class DiContainer;
+}
 namespace UnityEngine {
 class MonoBehaviour;
 }
@@ -9,21 +15,15 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
-class ScriptableObjectInstaller;
-}
-namespace Zenject {
 class InjectTypeInfo;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace Zenject {
-class DiContainer;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Zenject {
 class MonoInstaller;
@@ -168,8 +168,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::MonoBehaviour> __get
 /// @brief Method InstallLateDecoratorInstallers addr 0x2d7a0f0 size 0xc4 virtual false final false
  void InstallLateDecoratorInstallers() ;
 
-// Ctor Parameters []
-explicit SceneDecoratorContext() ;
+static Zenject::SceneDecoratorContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7b148 size 0x124 virtual false final false
  void _ctor() ;

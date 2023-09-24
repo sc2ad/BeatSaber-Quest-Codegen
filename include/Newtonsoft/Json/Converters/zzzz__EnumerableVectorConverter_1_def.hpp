@@ -2,12 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
 namespace Newtonsoft::Json::Converters {
 class VectorConverter;
 }
@@ -15,7 +9,13 @@ namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json {
 class JsonReader;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -32,7 +32,7 @@ namespace Newtonsoft::Json::Converters {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11772)), TypeDefinitionIndex(TypeDefinitionIndex(11975))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11975)), TypeDefinitionIndex(TypeDefinitionIndex(11772))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11975), inst: 2 })
 // CS Name: Newtonsoft.Json.Converters.EnumerableVectorConverter`1
 class CORDL_TYPE EnumerableVectorConverter_1<T> : public Newtonsoft::Json::JsonConverter {
@@ -97,8 +97,7 @@ static Newtonsoft::Json::Converters::VectorConverter __get_VectorConverter() ;
 /// @brief Method get_CanRead addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_CanRead() ;
 
-// Ctor Parameters []
-explicit EnumerableVectorConverter_1() ;
+static Newtonsoft::Json::Converters::EnumerableVectorConverter_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

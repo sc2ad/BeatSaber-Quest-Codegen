@@ -1,9 +1,9 @@
 #pragma once
 #include "Mono/Security/X509/zzzz__X509Store_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Crl_def.hpp"
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: Mono::Security::X509::X509Store._ctor
 template<>
 
@@ -187,8 +187,10 @@ constexpr void Mono::Security::X509::X509Store::__set__newFormat(bool value)  {
 constexpr bool Mono::Security::X509::X509Store::__get__newFormat() const {
 return ::cordl_internals::getInstanceField<bool, 0x29>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "crl", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "newFormat", ty: "bool", modifiers: "", def_value: None }]
- Mono::Security::X509::X509Store::X509Store(::StringW path, bool crl, bool newFormat)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Store>(path, crl, newFormat))) {}
+ Mono::Security::X509::X509Store Mono::Security::X509::X509Store::New_ctor(::StringW path, bool crl, bool newFormat)  {
+Mono::Security::X509::X509Store o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::X509Store>(path, crl, newFormat))};
+return o;
+}
  void Mono::Security::X509::X509Store::_ctor(::StringW path, bool crl, bool newFormat)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::X509Store>::get(),

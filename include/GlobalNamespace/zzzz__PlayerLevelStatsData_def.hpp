@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__RankModel__Rank;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__RankModel__Rank;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -163,14 +163,12 @@ constexpr GlobalNamespace::BeatmapCharacteristicSO __get__beatmapCharacteristic(
 /// @brief Method get_playCount addr 0x2226ea4 size 0x8 virtual false final false
  int32_t get_playCount() ;
 
-// Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }]
-explicit PlayerLevelStatsData(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
+static GlobalNamespace::PlayerLevelStatsData New_ctor(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
 
 /// @brief Method .ctor addr 0x2226eac size 0x40 virtual false final false
  void _ctor(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
 
-// Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "highScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCombo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullCombo", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "maxRank", ty: "GlobalNamespace::GlobalNamespace__RankModel__Rank", modifiers: "", def_value: None }, CppParam { name: "validScore", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PlayerLevelStatsData(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, int32_t highScore, int32_t maxCombo, bool fullCombo, GlobalNamespace::GlobalNamespace__RankModel__Rank maxRank, bool validScore, int32_t playCount) ;
+static GlobalNamespace::PlayerLevelStatsData New_ctor(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, int32_t highScore, int32_t maxCombo, bool fullCombo, GlobalNamespace::GlobalNamespace__RankModel__Rank maxRank, bool validScore, int32_t playCount) ;
 
 /// @brief Method .ctor addr 0x2225c24 size 0x88 virtual false final false
  void _ctor(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, int32_t highScore, int32_t maxCombo, bool fullCombo, GlobalNamespace::GlobalNamespace__RankModel__Rank maxRank, bool validScore, int32_t playCount) ;

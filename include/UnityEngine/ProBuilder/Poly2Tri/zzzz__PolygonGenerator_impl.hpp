@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::ProBuilder::Poly2Tri::Polygon, false>(nullptr, ___internal_method, scale, vertexCount);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator::PolygonGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PolygonGenerator>())) {}
+ UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator::New_ctor()  {
+UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator>())};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator>::get(),

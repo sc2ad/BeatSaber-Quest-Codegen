@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__InstantiateCallbackConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__ArgConditionCopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__InstantiateCallbackConditionCopyNonLazyBinder_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
 //  Writing Method size for method: Zenject::ArgConditionCopyNonLazyBinder._ctor
 template<>
 
@@ -56,8 +56,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
- Zenject::ArgConditionCopyNonLazyBinder::ArgConditionCopyNonLazyBinder(Zenject::BindInfo bindInfo)  : Zenject::InstantiateCallbackConditionCopyNonLazyBinder(THROW_UNLESS(::il2cpp_utils::New<ArgConditionCopyNonLazyBinder>(bindInfo))) {}
+ Zenject::ArgConditionCopyNonLazyBinder Zenject::ArgConditionCopyNonLazyBinder::New_ctor(Zenject::BindInfo bindInfo)  {
+Zenject::ArgConditionCopyNonLazyBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ArgConditionCopyNonLazyBinder>(bindInfo))};
+return o;
+}
  void Zenject::ArgConditionCopyNonLazyBinder::_ctor(Zenject::BindInfo bindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ArgConditionCopyNonLazyBinder>::get(),

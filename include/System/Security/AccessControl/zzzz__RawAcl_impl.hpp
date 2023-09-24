@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__GenericAcl_impl.hpp"
 #include "System/Security/AccessControl/zzzz__RawAcl_def.hpp"
-#include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::RawAcl._ctor
 template<>
 
@@ -117,8 +117,10 @@ constexpr void System::Security::AccessControl::RawAcl::__set_list(System::Colle
 constexpr System::Collections::Generic::List_1<System::Security::AccessControl::GenericAce> System::Security::AccessControl::RawAcl::__get_list() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<System::Security::AccessControl::GenericAce>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "revision", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::RawAcl::RawAcl(uint8_t revision, int32_t capacity)  : System::Security::AccessControl::GenericAcl(THROW_UNLESS(::il2cpp_utils::New<RawAcl>(revision, capacity))) {}
+ System::Security::AccessControl::RawAcl System::Security::AccessControl::RawAcl::New_ctor(uint8_t revision, int32_t capacity)  {
+System::Security::AccessControl::RawAcl o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::RawAcl>(revision, capacity))};
+return o;
+}
  void System::Security::AccessControl::RawAcl::_ctor(uint8_t revision, int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::RawAcl>::get(),

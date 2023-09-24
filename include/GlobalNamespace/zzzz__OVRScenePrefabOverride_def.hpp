@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
 }
 namespace GlobalNamespace {
 class OVRSceneAnchor;
@@ -89,8 +89,7 @@ constexpr int32_t __get__editorClassificationIndex() const;
 /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize addr 0x260c00c size 0x154 virtual true final true
  void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize() ;
 
-// Ctor Parameters []
-explicit OVRScenePrefabOverride() ;
+static GlobalNamespace::OVRScenePrefabOverride New_ctor() ;
 
 /// @brief Method .ctor addr 0x260c474 size 0x50 virtual false final false
  void _ctor() ;

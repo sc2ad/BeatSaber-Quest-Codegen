@@ -1,14 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EventsTestGameplayManager_def.hpp"
+#include "GlobalNamespace/zzzz__EventsTestGameplayManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupList_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroup_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor._ctor
@@ -55,8 +56,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__Mock
 constexpr float_t GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor::__get__bpm() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor(float_t bpm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor>(bpm))) {}
+ GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor::New_ctor(float_t bpm)  {
+GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor>(bpm))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor::_ctor(float_t bpm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor>::get(),
@@ -115,8 +118,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c_
 constexpr int32_t GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0::__get_lightGroupId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0>())) {}
+ GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0 GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0>::get(),
@@ -175,8 +180,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c_
 constexpr int32_t GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0::__get_lightGroupId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0>())) {}
+ GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0 GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0>::get(),
@@ -235,8 +242,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c_
 constexpr int32_t GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0::__get_lightGroupId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0>())) {}
+ GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0 GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0>::get(),
@@ -512,8 +521,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EventsTestGameplayManager::EventsTestGameplayManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EventsTestGameplayManager>())) {}
+ GlobalNamespace::EventsTestGameplayManager GlobalNamespace::EventsTestGameplayManager::New_ctor()  {
+GlobalNamespace::EventsTestGameplayManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EventsTestGameplayManager>())};
+return o;
+}
  void GlobalNamespace::EventsTestGameplayManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EventsTestGameplayManager>::get(),

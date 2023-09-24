@@ -1,17 +1,17 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchSimulation_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__TouchPhase_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__Pointer_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__TouchPhase_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__Pointer_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::EnhancedTouch::TouchSimulation.get_simulatedTouchscreen
 template<>
 
@@ -564,8 +564,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, startIndex);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::TouchSimulation()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TouchSimulation>())) {}
+ UnityEngine::InputSystem::EnhancedTouch::TouchSimulation UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::New_ctor()  {
+UnityEngine::InputSystem::EnhancedTouch::TouchSimulation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::EnhancedTouch::TouchSimulation>())};
+return o;
+}
  void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::EnhancedTouch::TouchSimulation>::get(),

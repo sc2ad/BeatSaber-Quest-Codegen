@@ -3,23 +3,23 @@
 #include "Org/BouncyCastle/Utilities/IO/zzzz__FilterStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class DerSet;
+}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerSequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerSequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DefiniteLengthInputStream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerSet;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -90,20 +90,17 @@ constexpr ::ArrayW<::ArrayW<uint8_t>> __get_tmpBuffers() const;
 /// @brief Method FindLimit addr 0x1128e8c size 0x130 virtual false final false
 static int32_t FindLimit(System::IO::Stream input) ;
 
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit Asn1InputStream(System::IO::Stream inputStream) ;
+static Org::BouncyCastle::Asn1::Asn1InputStream New_ctor(System::IO::Stream inputStream) ;
 
 /// @brief Method .ctor addr 0x1128fbc size 0x30 virtual false final false
  void _ctor(System::IO::Stream inputStream) ;
 
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Asn1InputStream(System::IO::Stream inputStream, int32_t limit) ;
+static Org::BouncyCastle::Asn1::Asn1InputStream New_ctor(System::IO::Stream inputStream, int32_t limit) ;
 
 /// @brief Method .ctor addr 0x1128fec size 0x70 virtual false final false
  void _ctor(System::IO::Stream inputStream, int32_t limit) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Asn1InputStream(::ArrayW<uint8_t> input) ;
+static Org::BouncyCastle::Asn1::Asn1InputStream New_ctor(::ArrayW<uint8_t> input) ;
 
 /// @brief Method .ctor addr 0x112905c size 0x80 virtual false final false
  void _ctor(::ArrayW<uint8_t> input) ;

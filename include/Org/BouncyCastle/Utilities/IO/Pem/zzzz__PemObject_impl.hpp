@@ -126,8 +126,10 @@ constexpr void Org::BouncyCastle::Utilities::IO::Pem::PemObject::__set_content(:
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Utilities::IO::Pem::PemObject::__get_content() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::IO::Pem::PemObject::PemObject(::StringW type, ::ArrayW<uint8_t> content)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PemObject>(type, content))) {}
+ Org::BouncyCastle::Utilities::IO::Pem::PemObject Org::BouncyCastle::Utilities::IO::Pem::PemObject::New_ctor(::StringW type, ::ArrayW<uint8_t> content)  {
+Org::BouncyCastle::Utilities::IO::Pem::PemObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::Pem::PemObject>(type, content))};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::Pem::PemObject::_ctor(::StringW type, ::ArrayW<uint8_t> content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::Pem::PemObject>::get(),
@@ -137,8 +139,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, content);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "headers", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::IO::Pem::PemObject::PemObject(::StringW type, System::Collections::IList headers, ::ArrayW<uint8_t> content)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PemObject>(type, headers, content))) {}
+ Org::BouncyCastle::Utilities::IO::Pem::PemObject Org::BouncyCastle::Utilities::IO::Pem::PemObject::New_ctor(::StringW type, System::Collections::IList headers, ::ArrayW<uint8_t> content)  {
+Org::BouncyCastle::Utilities::IO::Pem::PemObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::Pem::PemObject>(type, headers, content))};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::Pem::PemObject::_ctor(::StringW type, System::Collections::IList headers, ::ArrayW<uint8_t> content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::Pem::PemObject>::get(),

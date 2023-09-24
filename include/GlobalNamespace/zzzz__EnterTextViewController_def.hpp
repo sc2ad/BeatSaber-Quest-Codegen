@@ -2,18 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine::UI {
+class Button;
+}
 namespace GlobalNamespace {
 class VRTextEntryController;
 }
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +103,7 @@ constexpr System::Action_2<GlobalNamespace::EnterTextViewController,::StringW> _
 /// @brief Method OkButtonPressed addr 0x215a8cc size 0x98 virtual false final false
  void OkButtonPressed() ;
 
-// Ctor Parameters []
-explicit EnterTextViewController() ;
+static GlobalNamespace::EnterTextViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215a964 size 0x8 virtual false final false
  void _ctor() ;

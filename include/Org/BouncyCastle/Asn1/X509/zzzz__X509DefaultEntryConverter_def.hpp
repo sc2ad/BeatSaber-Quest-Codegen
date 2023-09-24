@@ -57,8 +57,7 @@ constexpr explicit X509DefaultEntryConverter(void* ptr) noexcept : Org::BouncyCa
 /// @brief Method GetConvertedValue addr 0x1113710 size 0x398 virtual true final false
  Org::BouncyCastle::Asn1::Asn1Object GetConvertedValue(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, ::StringW value) ;
 
-// Ctor Parameters []
-explicit X509DefaultEntryConverter() ;
+static Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1113aa8 size 0x8 virtual false final false
  void _ctor() ;

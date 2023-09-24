@@ -70,8 +70,7 @@ constexpr uint32_t __get_curr() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BitStack() ;
+static System::Xml::BitStack New_ctor() ;
 
 /// @brief Method .ctor addr 0x26bbbdc size 0x20 virtual false final false
  void _ctor() ;

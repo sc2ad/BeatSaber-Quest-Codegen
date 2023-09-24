@@ -147,8 +147,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AudioFading::AudioFading()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AudioFading>())) {}
+ GlobalNamespace::AudioFading GlobalNamespace::AudioFading::New_ctor()  {
+GlobalNamespace::AudioFading o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AudioFading>())};
+return o;
+}
  void GlobalNamespace::AudioFading::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AudioFading>::get(),

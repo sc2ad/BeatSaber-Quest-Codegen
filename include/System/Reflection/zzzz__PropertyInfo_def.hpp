@@ -4,14 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System::Reflection {
+struct MemberTypes;
+}
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System::Reflection {
-class Binder;
-}
-namespace System::Reflection {
-class ParameterInfo;
 }
 namespace System {
 class Type;
@@ -20,10 +17,13 @@ namespace System::Reflection {
 class MethodInfo;
 }
 namespace System::Reflection {
-struct BindingFlags;
+class ParameterInfo;
 }
 namespace System::Reflection {
-struct MemberTypes;
+class Binder;
+}
+namespace System::Reflection {
+struct BindingFlags;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -82,8 +82,7 @@ constexpr explicit PropertyInfo(void* ptr) noexcept : System::Reflection::Member
 
 // Methods
 
-// Ctor Parameters []
-explicit PropertyInfo() ;
+static System::Reflection::PropertyInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x237c7fc size 0x8 virtual false final false
  void _ctor() ;

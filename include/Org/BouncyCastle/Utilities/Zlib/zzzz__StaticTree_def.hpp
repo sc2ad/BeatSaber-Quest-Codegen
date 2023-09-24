@@ -133,8 +133,7 @@ constexpr int32_t __get_max_length() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "static_tree", ty: "::ArrayW<int16_t>", modifiers: "", def_value: None }, CppParam { name: "extra_bits", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "extra_base", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elems", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max_length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StaticTree(::ArrayW<int16_t> static_tree, ::ArrayW<int32_t> extra_bits, int32_t extra_base, int32_t elems, int32_t max_length) ;
+static Org::BouncyCastle::Utilities::Zlib::StaticTree New_ctor(::ArrayW<int16_t> static_tree, ::ArrayW<int32_t> extra_bits, int32_t extra_base, int32_t elems, int32_t max_length) ;
 
 /// @brief Method .ctor addr 0x10dd70c size 0x50 virtual false final false
  void _ctor(::ArrayW<int16_t> static_tree, ::ArrayW<int32_t> extra_bits, int32_t extra_base, int32_t elems, int32_t max_length) ;

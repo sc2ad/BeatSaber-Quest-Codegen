@@ -48,20 +48,17 @@ constexpr explicit FreeFunctionAttribute(void* ptr) noexcept : UnityEngine::Bind
 
 // Methods
 
-// Ctor Parameters []
-explicit FreeFunctionAttribute() ;
+static UnityEngine::Bindings::FreeFunctionAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba16f0 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit FreeFunctionAttribute(::StringW name) ;
+static UnityEngine::Bindings::FreeFunctionAttribute New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2ba1710 size 0x1c virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isThreadSafe", ty: "bool", modifiers: "", def_value: None }]
-explicit FreeFunctionAttribute(::StringW name, bool isThreadSafe) ;
+static UnityEngine::Bindings::FreeFunctionAttribute New_ctor(::StringW name, bool isThreadSafe) ;
 
 /// @brief Method .ctor addr 0x2ba172c size 0x30 virtual false final false
  void _ctor(::StringW name, bool isThreadSafe) ;

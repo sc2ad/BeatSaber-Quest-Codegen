@@ -97,8 +97,7 @@ constexpr ::StringW __get__Target_k__BackingField() const;
 /// @brief Method set_Target addr 0x2d40ef0 size 0x8 virtual false final false
  void set_Target(::StringW value) ;
 
-// Ctor Parameters []
-explicit MacroAttribute() ;
+static JetBrains::Annotations::MacroAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40ef8 size 0x8 virtual false final false
  void _ctor() ;

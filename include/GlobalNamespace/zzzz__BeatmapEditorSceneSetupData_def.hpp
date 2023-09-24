@@ -76,8 +76,7 @@ constexpr ::StringW __get__levelAssetPath() const;
 /// @brief Method get_levelAssetPath addr 0x21b6a7c size 0x8 virtual false final false
  ::StringW get_levelAssetPath() ;
 
-// Ctor Parameters [CppParam { name: "levelDirPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelAssetPath", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BeatmapEditorSceneSetupData(::StringW levelDirPath, ::StringW levelAssetPath) ;
+static GlobalNamespace::BeatmapEditorSceneSetupData New_ctor(::StringW levelDirPath, ::StringW levelAssetPath) ;
 
 /// @brief Method .ctor addr 0x21b6a84 size 0x2c virtual false final false
  void _ctor(::StringW levelDirPath, ::StringW levelAssetPath) ;

@@ -19,6 +19,12 @@ class Collider;
 namespace GlobalNamespace {
 class Saber;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__NoteCutter__CuttableBySaberSortParams;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__NoteCutter__CuttableBySaberSortParams;
@@ -92,8 +98,7 @@ constexpr UnityEngine::Vector3 __get_pos() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__NoteCutter__CuttableBySaberSortParams() ;
+static GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParams New_ctor() ;
 
 /// @brief Method .ctor addr 0x210b40c size 0x8 virtual false final false
  void _ctor() ;
@@ -150,8 +155,7 @@ constexpr explicit GlobalNamespace__NoteCutter__CuttableBySaberSortParamsCompare
 /// @brief Method Compare addr 0x210b414 size 0x124 virtual true final true
  int32_t Compare(::bs_hook::Il2CppWrapperType p0, ::bs_hook::Il2CppWrapperType p1) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer() ;
+static GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParamsComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x210b404 size 0x8 virtual false final false
  void _ctor() ;
@@ -230,8 +234,7 @@ constexpr GlobalNamespace::GlobalNamespace__NoteCutter__CuttableBySaberSortParam
 
 // Methods
 
-// Ctor Parameters []
-explicit NoteCutter() ;
+static GlobalNamespace::NoteCutter New_ctor() ;
 
 /// @brief Method .ctor addr 0x210b2cc size 0x138 virtual false final false
  void _ctor() ;

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::OpenXRLoader::OpenXRLoader()  : UnityEngine::XR::OpenXR::OpenXRLoaderBase(THROW_UNLESS(::il2cpp_utils::New<OpenXRLoader>())) {}
+ UnityEngine::XR::OpenXR::OpenXRLoader UnityEngine::XR::OpenXR::OpenXRLoader::New_ctor()  {
+UnityEngine::XR::OpenXR::OpenXRLoader o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::OpenXRLoader>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::OpenXRLoader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::OpenXRLoader>::get(),

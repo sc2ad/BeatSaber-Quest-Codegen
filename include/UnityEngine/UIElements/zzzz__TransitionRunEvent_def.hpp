@@ -47,8 +47,7 @@ constexpr explicit TransitionRunEvent(void* ptr) noexcept : UnityEngine::UIEleme
 
 // Methods
 
-// Ctor Parameters []
-explicit TransitionRunEvent() ;
+static UnityEngine::UIElements::TransitionRunEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd7580 size 0x48 virtual false final false
  void _ctor() ;

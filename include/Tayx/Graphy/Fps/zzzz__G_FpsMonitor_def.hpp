@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace Tayx::Graphy::Fps {
+class Tayx__Graphy__Fps__G_FpsMonitor____c;
+}
 namespace System {
 template<typename T>
 class Comparison_1;
@@ -73,8 +76,7 @@ static System::Comparison_1<int16_t> __get___9__25_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Tayx__Graphy__Fps__G_FpsMonitor____c() ;
+static Tayx::Graphy::Fps::Tayx__Graphy__Fps__G_FpsMonitor____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28762a4 size 0x8 virtual false final false
  void _ctor() ;
@@ -252,8 +254,7 @@ constexpr int16_t __get__Zero1PercentFps_k__BackingField() const;
 /// @brief Method Init addr 0x2875df8 size 0x9c virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit G_FpsMonitor() ;
+static Tayx::Graphy::Fps::G_FpsMonitor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2876224 size 0x1c virtual false final false
  void _ctor() ;

@@ -1,13 +1,13 @@
 #pragma once
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsTableCell_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerResultsAvatarController_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerResultsAvatarController_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerResultsTableCell.set_alpha
 template<>
@@ -162,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, connectedPlayer, position, playerName, levelCompletionResults, isLocalPlayer, numberOfPlayers);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerResultsTableCell::MultiplayerResultsTableCell()  : HMUI::TableCell(THROW_UNLESS(::il2cpp_utils::New<MultiplayerResultsTableCell>())) {}
+ GlobalNamespace::MultiplayerResultsTableCell GlobalNamespace::MultiplayerResultsTableCell::New_ctor()  {
+GlobalNamespace::MultiplayerResultsTableCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerResultsTableCell>())};
+return o;
+}
  void GlobalNamespace::MultiplayerResultsTableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerResultsTableCell>::get(),

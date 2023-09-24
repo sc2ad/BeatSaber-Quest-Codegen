@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "p1", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }, CppParam { name: "p2", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint::DTSweepConstraint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2)  : UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint(THROW_UNLESS(::il2cpp_utils::New<DTSweepConstraint>(p1, p2))) {}
+ UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint::New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2)  {
+UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint>(p1, p2))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint::_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint>::get(),

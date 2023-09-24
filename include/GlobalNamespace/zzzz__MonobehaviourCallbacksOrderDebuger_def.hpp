@@ -56,8 +56,7 @@ constexpr explicit MonobehaviourCallbacksOrderDebuger(void* ptr) noexcept : Unit
 /// @brief Method Start addr 0x1f78fb0 size 0xa4 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit MonobehaviourCallbacksOrderDebuger() ;
+static GlobalNamespace::MonobehaviourCallbacksOrderDebuger New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f79054 size 0x8 virtual false final false
  void _ctor() ;

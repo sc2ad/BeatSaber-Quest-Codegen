@@ -5,31 +5,34 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Collections {
-class IComparer;
+class ICollection;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator;
+}
+namespace System::Collections {
+class IList;
 }
 namespace System::ComponentModel {
 class PropertyDescriptor;
 }
-namespace System {
-class Array;
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class IComparer;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -115,8 +118,7 @@ constexpr int32_t __get__index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "owner", ty: "System::ComponentModel::PropertyDescriptorCollection", modifiers: "", def_value: None }]
-explicit System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator(System::ComponentModel::PropertyDescriptorCollection owner) ;
+static System::ComponentModel::System__ComponentModel__PropertyDescriptorCollection__PropertyDescriptorEnumerator New_ctor(System::ComponentModel::PropertyDescriptorCollection owner) ;
 
 /// @brief Method .ctor addr 0x2782a74 size 0x30 virtual false final false
  void _ctor(System::ComponentModel::PropertyDescriptorCollection owner) ;
@@ -299,20 +301,17 @@ constexpr int32_t __get__Count_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "properties", ty: "::ArrayW<System::ComponentModel::PropertyDescriptor>", modifiers: "", def_value: None }]
-explicit PropertyDescriptorCollection(::ArrayW<System::ComponentModel::PropertyDescriptor> properties) ;
+static System::ComponentModel::PropertyDescriptorCollection New_ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties) ;
 
 /// @brief Method .ctor addr 0x2772c54 size 0xf0 virtual false final false
  void _ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties) ;
 
-// Ctor Parameters [CppParam { name: "properties", ty: "::ArrayW<System::ComponentModel::PropertyDescriptor>", modifiers: "", def_value: None }, CppParam { name: "readOnly", ty: "bool", modifiers: "", def_value: None }]
-explicit PropertyDescriptorCollection(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, bool readOnly) ;
+static System::ComponentModel::PropertyDescriptorCollection New_ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, bool readOnly) ;
 
 /// @brief Method .ctor addr 0x277fbec size 0x24 virtual false final false
  void _ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, bool readOnly) ;
 
-// Ctor Parameters [CppParam { name: "properties", ty: "::ArrayW<System::ComponentModel::PropertyDescriptor>", modifiers: "", def_value: None }, CppParam { name: "propCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "namedSort", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::IComparer", modifiers: "", def_value: None }]
-explicit PropertyDescriptorCollection(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, int32_t propCount, ::ArrayW<::StringW> namedSort, System::Collections::IComparer comparer) ;
+static System::ComponentModel::PropertyDescriptorCollection New_ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, int32_t propCount, ::ArrayW<::StringW> namedSort, System::Collections::IComparer comparer) ;
 
 /// @brief Method .ctor addr 0x277fc10 size 0x108 virtual false final false
  void _ctor(::ArrayW<System::ComponentModel::PropertyDescriptor> properties, int32_t propCount, ::ArrayW<::StringW> namedSort, System::Collections::IComparer comparer) ;

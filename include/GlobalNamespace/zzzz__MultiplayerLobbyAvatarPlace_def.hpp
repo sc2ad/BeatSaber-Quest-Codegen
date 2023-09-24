@@ -2,11 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,8 +65,7 @@ constexpr explicit MultiplayerLobbyAvatarPlace(void* ptr) noexcept : UnityEngine
 /// @brief Method SetPositionAndRotation addr 0x20c512c size 0x78 virtual false final false
  void SetPositionAndRotation(UnityEngine::Vector3 worldPos, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit MultiplayerLobbyAvatarPlace() ;
+static GlobalNamespace::MultiplayerLobbyAvatarPlace New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c51a4 size 0x8 virtual false final false
  void _ctor() ;
@@ -75,7 +77,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4104)), TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2717 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2717 }), TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4104))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4103))
 // CS Name: MultiplayerLobbyAvatarPlace::Pool
 class CORDL_TYPE GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MultiplayerLobbyAvatarPlace> {
@@ -114,8 +116,7 @@ constexpr explicit GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool(void* ptr)
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarPlace__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c51ac size 0x48 virtual false final false
  void _ctor() ;

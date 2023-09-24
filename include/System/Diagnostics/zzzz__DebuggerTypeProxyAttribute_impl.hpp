@@ -25,8 +25,10 @@ constexpr void System::Diagnostics::DebuggerTypeProxyAttribute::__set_typeName(:
 constexpr ::StringW System::Diagnostics::DebuggerTypeProxyAttribute::__get_typeName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::Diagnostics::DebuggerTypeProxyAttribute::DebuggerTypeProxyAttribute(System::Type type)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DebuggerTypeProxyAttribute>(type))) {}
+ System::Diagnostics::DebuggerTypeProxyAttribute System::Diagnostics::DebuggerTypeProxyAttribute::New_ctor(System::Type type)  {
+System::Diagnostics::DebuggerTypeProxyAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::DebuggerTypeProxyAttribute>(type))};
+return o;
+}
  void System::Diagnostics::DebuggerTypeProxyAttribute::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::DebuggerTypeProxyAttribute>::get(),

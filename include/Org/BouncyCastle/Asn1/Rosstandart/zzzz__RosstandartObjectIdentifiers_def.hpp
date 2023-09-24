@@ -173,8 +173,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_tc26_gost_28147_par
 
 // Methods
 
-// Ctor Parameters []
-explicit RosstandartObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xfdda10 size 0x8 virtual false final false
  void _ctor() ;

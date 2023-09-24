@@ -69,8 +69,7 @@ static constexpr int32_t  SRTP_AEAD_AES_256_GCM{8};
 
 // Methods
 
-// Ctor Parameters []
-explicit SrtpProtectionProfile() ;
+static Org::BouncyCastle::Crypto::Tls::SrtpProtectionProfile New_ctor() ;
 
 /// @brief Method .ctor addr 0xf0abcc size 0x8 virtual false final false
  void _ctor() ;

@@ -1,13 +1,14 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalBase_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerProxy_def.hpp"
-#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__BidirectionalDictionary_2_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalBase_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__BidirectionalDictionary_2_def.hpp"
+#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerProxy_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ErrorContext_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer.System_Collections_Generic_IEqualityComparer_System_Object__Equals
 template<>
@@ -82,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer>())) {}
+ Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer::New_ctor()  {
+Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer>::get(),
@@ -208,8 +211,10 @@ constexpr void Newtonsoft::Json::Serialization::JsonSerializerInternalBase::__se
 constexpr Newtonsoft::Json::Serialization::JsonSerializerProxy Newtonsoft::Json::Serialization::JsonSerializerInternalBase::__get_InternalSerializer() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Serialization::JsonSerializerProxy, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "serializer", ty: "Newtonsoft::Json::JsonSerializer", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::JsonSerializerInternalBase::JsonSerializerInternalBase(Newtonsoft::Json::JsonSerializer serializer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JsonSerializerInternalBase>(serializer))) {}
+ Newtonsoft::Json::Serialization::JsonSerializerInternalBase Newtonsoft::Json::Serialization::JsonSerializerInternalBase::New_ctor(Newtonsoft::Json::JsonSerializer serializer)  {
+Newtonsoft::Json::Serialization::JsonSerializerInternalBase o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::JsonSerializerInternalBase>(serializer))};
+return o;
+}
  void Newtonsoft::Json::Serialization::JsonSerializerInternalBase::_ctor(Newtonsoft::Json::JsonSerializer serializer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::JsonSerializerInternalBase>::get(),

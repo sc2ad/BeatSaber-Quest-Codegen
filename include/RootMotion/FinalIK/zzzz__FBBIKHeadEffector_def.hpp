@@ -7,22 +7,25 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
-class IKEffector;
+class FullBodyBipedIK;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__FBBIKHeadEffector__BendBone;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__IKSolver__UpdateDelegate;
 }
 namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
+class IKEffector;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -94,14 +97,12 @@ constexpr UnityEngine::Quaternion __get_defaultLocalRotation() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__FBBIKHeadEffector__BendBone() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ca7b4 size 0x60 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__FBBIKHeadEffector__BendBone(UnityEngine::Transform transform, float_t weight) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone New_ctor(UnityEngine::Transform transform, float_t weight) ;
 
 /// @brief Method .ctor addr 0x11ca814 size 0x7c virtual false final false
  void _ctor(UnityEngine::Transform transform, float_t weight) ;
@@ -478,8 +479,7 @@ constexpr int32_t __get_chestBonesCount() const;
 /// @brief Method OnDestroy addr 0x11ca2d4 size 0x338 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit FBBIKHeadEffector() ;
+static RootMotion::FinalIK::FBBIKHeadEffector New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ca60c size 0x1a8 virtual false final false
  void _ctor() ;

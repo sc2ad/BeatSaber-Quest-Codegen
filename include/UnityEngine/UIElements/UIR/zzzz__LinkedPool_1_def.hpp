@@ -102,8 +102,7 @@ constexpr int32_t __get__Count_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "createFunc", ty: "System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "resetAction", ty: "System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LinkedPool_1(System::Func_1<T> createFunc, System::Action_1<T> resetAction, int32_t limit) ;
+static UnityEngine::UIElements::UIR::LinkedPool_1<T> New_ctor(System::Func_1<T> createFunc, System::Action_1<T> resetAction, int32_t limit) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Func_1<T> createFunc, System::Action_1<T> resetAction, int32_t limit) ;

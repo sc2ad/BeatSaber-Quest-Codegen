@@ -8,16 +8,16 @@ namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
-struct LightShadows;
+struct LightType;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct LightType;
+struct LightBakingOutput;
 }
 namespace UnityEngine {
-struct LightBakingOutput;
+struct LightShadows;
 }
 // Forward declare root types
 namespace UnityEngine {

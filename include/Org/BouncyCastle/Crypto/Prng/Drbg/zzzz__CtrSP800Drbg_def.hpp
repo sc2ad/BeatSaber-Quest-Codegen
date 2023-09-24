@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class IEntropySource;
 }
 namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
@@ -153,8 +153,7 @@ static ::ArrayW<uint8_t> __get_K_BITS() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "keySizeInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CtrSP800Drbg(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t keySizeInBits, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
+static Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t keySizeInBits, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
 
 /// @brief Method .ctor addr 0xeae824 size 0x254 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t keySizeInBits, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;

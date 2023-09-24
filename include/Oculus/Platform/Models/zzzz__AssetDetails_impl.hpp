@@ -66,8 +66,10 @@ constexpr void Oculus::Platform::Models::AssetDetails::__set_Metadata(::StringW 
 constexpr ::StringW Oculus::Platform::Models::AssetDetails::__get_Metadata() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::AssetDetails::AssetDetails(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssetDetails>(o))) {}
+ Oculus::Platform::Models::AssetDetails Oculus::Platform::Models::AssetDetails::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::AssetDetails o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::AssetDetails>(o))};
+return o;
+}
  void Oculus::Platform::Models::AssetDetails::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::AssetDetails>::get(),

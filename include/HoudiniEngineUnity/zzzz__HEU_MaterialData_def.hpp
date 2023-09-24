@@ -8,26 +8,29 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_MaterialData__Source;
+}
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivable_1;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_NodeInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_ParmInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ImageInfo;
-}
-namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_MaterialInfo;
 }
-namespace UnityEngine {
-class Material;
-}
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+struct HAPI_ImageInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -87,6 +90,8 @@ __SUBSTANCE = 3,
 constexpr operator __HoudiniEngineUnity__HEU_MaterialData__Source_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_MaterialData__Source_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -205,8 +210,7 @@ static ::StringW GetSupportedFileFormat(HoudiniEngineUnity::HEU_SessionBase sess
 /// @brief Method IsEquivalentTo addr 0x202dc78 size 0x1c8 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_MaterialData other) ;
 
-// Ctor Parameters []
-explicit HEU_MaterialData() ;
+static HoudiniEngineUnity::HEU_MaterialData New_ctor() ;
 
 /// @brief Method .ctor addr 0x202de40 size 0x10 virtual false final false
  void _ctor() ;

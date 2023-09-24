@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::NetworkInformation::UnicastIPAddressInformation::UnicastIPAddressInformation()  : System::Net::NetworkInformation::IPAddressInformation(THROW_UNLESS(::il2cpp_utils::New<UnicastIPAddressInformation>())) {}
+ System::Net::NetworkInformation::UnicastIPAddressInformation System::Net::NetworkInformation::UnicastIPAddressInformation::New_ctor()  {
+System::Net::NetworkInformation::UnicastIPAddressInformation o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::UnicastIPAddressInformation>())};
+return o;
+}
  void System::Net::NetworkInformation::UnicastIPAddressInformation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::UnicastIPAddressInformation>::get(),

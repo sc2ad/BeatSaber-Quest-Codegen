@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Timeline::HideInMenuAttribute::HideInMenuAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<HideInMenuAttribute>())) {}
+ UnityEngine::Timeline::HideInMenuAttribute UnityEngine::Timeline::HideInMenuAttribute::New_ctor()  {
+UnityEngine::Timeline::HideInMenuAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::HideInMenuAttribute>())};
+return o;
+}
  void UnityEngine::Timeline::HideInMenuAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::HideInMenuAttribute>::get(),

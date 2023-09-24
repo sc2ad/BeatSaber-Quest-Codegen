@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Action;
-}
 namespace Zenject {
 class ITickable;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -92,8 +92,7 @@ constexpr bool __get__backgroundExecution() const;
 /// @brief Method Tick addr 0x221a3dc size 0x28 virtual true final true
  void Tick() ;
 
-// Ctor Parameters []
-explicit PS4Helper() ;
+static GlobalNamespace::PS4Helper New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a404 size 0x8 virtual false final false
  void _ctor() ;

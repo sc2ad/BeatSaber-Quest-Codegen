@@ -1,8 +1,15 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
+}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -13,13 +20,6 @@ class IInstanceProvider;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -85,8 +85,7 @@ constexpr System::Collections::Generic::Dictionary_2<UnityEngine::GameObject,Uni
 /// @brief Method ReleaseInstance addr 0x2a3f584 size 0x218 virtual true final true
  void ReleaseInstance(UnityEngine::ResourceManagement::ResourceManager resourceManager, UnityEngine::GameObject instance) ;
 
-// Ctor Parameters []
-explicit InstanceProvider() ;
+static UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3f79c size 0x7c virtual false final false
  void _ctor() ;

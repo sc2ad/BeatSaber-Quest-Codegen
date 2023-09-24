@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace HoudiniEngineUnity {
-struct HAPI_Transform;
+class HEU_Curve;
 }
 namespace HoudiniEngineUnity {
-class HEU_Curve;
+class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeoNode;
@@ -15,37 +15,37 @@ class HEU_GeoNode;
 namespace HoudiniEngineUnity {
 class HEU_PartData;
 }
-namespace HoudiniEngineUnity {
-class HEU_ObjectInstanceInfo;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace HoudiniEngineUnity {
+class HEU_ObjectInstanceInfo;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine {
+class GameObject;
+}
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_GeoInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_ObjectInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeneratedOutput;
@@ -156,8 +156,7 @@ constexpr HoudiniEngineUnity::HAPI_Transform __get__objectTransform() const;
 /// @brief Method IsVisible addr 0x1fff26c size 0x8 virtual false final false
  bool IsVisible() ;
 
-// Ctor Parameters []
-explicit HEU_ObjectNode() ;
+static HoudiniEngineUnity::HEU_ObjectNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fff274 size 0x1c virtual false final false
  void _ctor() ;

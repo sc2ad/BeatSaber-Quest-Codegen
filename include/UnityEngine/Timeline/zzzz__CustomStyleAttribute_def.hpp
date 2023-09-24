@@ -57,8 +57,7 @@ constexpr ::StringW __get_ussStyle() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ussStyle", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CustomStyleAttribute(::StringW ussStyle) ;
+static UnityEngine::Timeline::CustomStyleAttribute New_ctor(::StringW ussStyle) ;
 
 /// @brief Method .ctor addr 0x2ad5e24 size 0x28 virtual false final false
  void _ctor(::StringW ussStyle) ;

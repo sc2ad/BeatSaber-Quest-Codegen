@@ -1,26 +1,27 @@
 #pragma once
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsProtocol_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__SessionParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__RecordStream_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
-#include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__SecurityParameters_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__ByteQueue_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCloseable_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ByteQueueStream_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__ByteQueue_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCloseable_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__SessionParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__SecurityParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__RecordStream_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsProtocol_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage._ctor
 template<>
@@ -90,8 +91,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "handshakeType", ty: "uint8_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(uint8_t handshakeType)  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage>(handshakeType))) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage::New_ctor(uint8_t handshakeType)  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage>(handshakeType))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage::_ctor(uint8_t handshakeType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage>::get(),
@@ -101,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, handshakeType);
 }
-// Ctor Parameters [CppParam { name: "handshakeType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage(uint8_t handshakeType, int32_t length)  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage>(handshakeType, length))) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage::New_ctor(uint8_t handshakeType, int32_t length)  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage>(handshakeType, length))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage::_ctor(uint8_t handshakeType, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsProtocol__HandshakeMessage>::get(),
@@ -1413,8 +1418,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsProtocol::__set_mOutputBuffer(
 constexpr Org::BouncyCastle::Crypto::Tls::ByteQueueStream Org::BouncyCastle::Crypto::Tls::TlsProtocol::__get_mOutputBuffer() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::ByteQueueStream, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsProtocol::TlsProtocol(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsProtocol>(stream, secureRandom))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsProtocol Org::BouncyCastle::Crypto::Tls::TlsProtocol::New_ctor(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom)  {
+Org::BouncyCastle::Crypto::Tls::TlsProtocol o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsProtocol>(stream, secureRandom))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsProtocol::_ctor(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsProtocol>::get(),
@@ -1424,8 +1431,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, secureRandom);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsProtocol::TlsProtocol(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsProtocol>(input, output, secureRandom))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsProtocol Org::BouncyCastle::Crypto::Tls::TlsProtocol::New_ctor(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom)  {
+Org::BouncyCastle::Crypto::Tls::TlsProtocol o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsProtocol>(input, output, secureRandom))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsProtocol::_ctor(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsProtocol>::get(),
@@ -1435,8 +1444,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, input, output, secureRandom);
 }
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsProtocol::TlsProtocol(Org::BouncyCastle::Security::SecureRandom secureRandom)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsProtocol>(secureRandom))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsProtocol Org::BouncyCastle::Crypto::Tls::TlsProtocol::New_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom)  {
+Org::BouncyCastle::Crypto::Tls::TlsProtocol o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsProtocol>(secureRandom))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsProtocol::_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsProtocol>::get(),

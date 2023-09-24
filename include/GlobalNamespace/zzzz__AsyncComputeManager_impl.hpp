@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AsyncComputeManager_def.hpp"
-#include "GlobalNamespace/zzzz__IAsyncComputeManager_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
-#include "GlobalNamespace/zzzz__AsyncComputeOperation_1_def.hpp"
-#include "GlobalNamespace/zzzz__AsyncComputeOperation_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Concurrent/zzzz__BlockingCollection_1_def.hpp"
+#include "GlobalNamespace/zzzz__AsyncComputeOperation_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__IAsyncComputeManager_def.hpp"
+#include "GlobalNamespace/zzzz__AsyncComputeOperation_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AsyncComputeManager._ctor
 template<>
@@ -101,8 +101,10 @@ constexpr void GlobalNamespace::AsyncComputeManager::__set__disposed(bool value)
 constexpr bool GlobalNamespace::AsyncComputeManager::__get__disposed() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::AsyncComputeManager::AsyncComputeManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsyncComputeManager>())) {}
+ GlobalNamespace::AsyncComputeManager GlobalNamespace::AsyncComputeManager::New_ctor()  {
+GlobalNamespace::AsyncComputeManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AsyncComputeManager>())};
+return o;
+}
  void GlobalNamespace::AsyncComputeManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AsyncComputeManager>::get(),

@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Reflection::Emit::UnmanagedMarshal::UnmanagedMarshal()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnmanagedMarshal>())) {}
+ System::Reflection::Emit::UnmanagedMarshal System::Reflection::Emit::UnmanagedMarshal::New_ctor()  {
+System::Reflection::Emit::UnmanagedMarshal o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::Emit::UnmanagedMarshal>())};
+return o;
+}
  void System::Reflection::Emit::UnmanagedMarshal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::Emit::UnmanagedMarshal>::get(),

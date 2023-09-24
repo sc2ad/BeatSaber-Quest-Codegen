@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSrpGroupVerifier;
-}
-namespace System::Collections {
-class IDictionary;
+class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
+class TlsSrpGroupVerifier;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipherFactory;
@@ -90,20 +90,17 @@ constexpr ::ArrayW<uint8_t> __get_mPassword() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SrpTlsClient(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
+static Org::BouncyCastle::Crypto::Tls::SrpTlsClient New_ctor(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
 
 /// @brief Method .ctor addr 0xf0a1b0 size 0xac virtual false final false
  void _ctor(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
 
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SrpTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
+static Org::BouncyCastle::Crypto::Tls::SrpTlsClient New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
 
 /// @brief Method .ctor addr 0xf0a300 size 0x8c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
 
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "groupVerifier", ty: "Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SrpTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier groupVerifier, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
+static Org::BouncyCastle::Crypto::Tls::SrpTlsClient New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier groupVerifier, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
 
 /// @brief Method .ctor addr 0xf0a25c size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier groupVerifier, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;

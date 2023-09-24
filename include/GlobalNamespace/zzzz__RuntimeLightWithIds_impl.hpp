@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
@@ -91,8 +92,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightIntensity", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId::GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId(int32_t lightId, float_t lightIntensity)  : GlobalNamespace::GlobalNamespace__LightWithIds__LightWithId(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId>(lightId, lightIntensity))) {}
+ GlobalNamespace::GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId GlobalNamespace::GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId::New_ctor(int32_t lightId, float_t lightIntensity)  {
+GlobalNamespace::GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId>(lightId, lightIntensity))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId::_ctor(int32_t lightId, float_t lightIntensity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId>::get(),
@@ -253,8 +256,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method, color, intensity);
 }
-// Ctor Parameters []
- GlobalNamespace::RuntimeLightWithIds::RuntimeLightWithIds()  : GlobalNamespace::LightWithIds(THROW_UNLESS(::il2cpp_utils::New<RuntimeLightWithIds>())) {}
+ GlobalNamespace::RuntimeLightWithIds GlobalNamespace::RuntimeLightWithIds::New_ctor()  {
+GlobalNamespace::RuntimeLightWithIds o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RuntimeLightWithIds>())};
+return o;
+}
  void GlobalNamespace::RuntimeLightWithIds::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RuntimeLightWithIds>::get(),

@@ -10,6 +10,9 @@ template<typename T>
 class Action_1;
 }
 namespace UnityEngine {
+class UnityEngine__Font__FontTextureRebuildCallback;
+}
+namespace UnityEngine {
 class Material;
 }
 // Forward declare root types
@@ -61,8 +64,7 @@ constexpr explicit UnityEngine__Font__FontTextureRebuildCallback(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Font__FontTextureRebuildCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__Font__FontTextureRebuildCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2bd6644 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -157,8 +159,7 @@ static void remove_textureRebuilt(System::Action_1<UnityEngine::Font> value) ;
 /// @brief Method get_fontSize addr 0x2bd642c size 0x3c virtual false final false
  int32_t get_fontSize() ;
 
-// Ctor Parameters []
-explicit Font() ;
+static UnityEngine::Font New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd6468 size 0x84 virtual false final false
  void _ctor() ;

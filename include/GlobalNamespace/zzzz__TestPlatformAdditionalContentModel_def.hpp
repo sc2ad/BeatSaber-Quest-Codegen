@@ -9,28 +9,46 @@
 namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__OpenProductStoreResult;
+struct GlobalNamespace__TestPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__6;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__TestPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__OpenProductStoreResult;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__TestPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__10;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__IsPackBetterBuyThanLevelResult;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+class GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__TestPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__5;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__TestPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__7;
 }
 namespace System::Runtime::CompilerServices {
-struct System__Runtime__CompilerServices__YieldAwaitable__YieldAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct System__Runtime__CompilerServices__YieldAwaitable__YieldAwaiter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -111,8 +129,7 @@ constexpr GlobalNamespace::GlobalNamespace__AdditionalContentModel__EntitlementS
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement() ;
+static GlobalNamespace::GlobalNamespace__TestPlatformAdditionalContentModel__Entitlement New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b8378 size 0x8 virtual false final false
  void _ctor() ;
@@ -680,8 +697,7 @@ constexpr bool __get__packBetterBuyThanLevel() const;
 /// @brief Method OpenLevelPackProductStoreAsync addr 0x20cd1a8 size 0xfc virtual true final false
  System::Threading::Tasks::Task_1<GlobalNamespace::GlobalNamespace__AdditionalContentModel__OpenProductStoreResult> OpenLevelPackProductStoreAsync(::StringW levelPackId, System::Threading::CancellationToken token) ;
 
-// Ctor Parameters []
-explicit TestPlatformAdditionalContentModel() ;
+static GlobalNamespace::TestPlatformAdditionalContentModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20cd2a4 size 0x10 virtual false final false
  void _ctor() ;

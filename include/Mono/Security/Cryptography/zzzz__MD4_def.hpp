@@ -47,8 +47,7 @@ constexpr explicit MD4(void* ptr) noexcept : System::Security::Cryptography::Has
 
 // Methods
 
-// Ctor Parameters []
-explicit MD4() ;
+static Mono::Security::Cryptography::MD4 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22b38d4 size 0x20 virtual false final false
  void _ctor() ;

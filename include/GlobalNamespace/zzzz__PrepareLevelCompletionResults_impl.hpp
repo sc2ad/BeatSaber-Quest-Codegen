@@ -1,17 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectExecutionRatingsRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__ComboController_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectExecutionRatingsRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__SaberActivityCounter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PrepareLevelCompletionResults.FillLevelCompletionResults
 template<>
@@ -110,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::LevelCompletionResults, false>(const_cast<void*>(instance), ___internal_method, levelEndStateType, levelEndAction);
 }
-// Ctor Parameters []
- GlobalNamespace::PrepareLevelCompletionResults::PrepareLevelCompletionResults()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PrepareLevelCompletionResults>())) {}
+ GlobalNamespace::PrepareLevelCompletionResults GlobalNamespace::PrepareLevelCompletionResults::New_ctor()  {
+GlobalNamespace::PrepareLevelCompletionResults o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PrepareLevelCompletionResults>())};
+return o;
+}
  void GlobalNamespace::PrepareLevelCompletionResults::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PrepareLevelCompletionResults>::get(),

@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixParameters;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -82,8 +82,7 @@ constexpr Org::BouncyCastle::Utilities::Collections::ISet __get_excludedCerts() 
 /// @brief Method GetInstance addr 0x106372c size 0xec virtual false final false
 static Org::BouncyCastle::Pkix::PkixBuilderParameters GetInstance(Org::BouncyCastle::Pkix::PkixParameters pkixParams) ;
 
-// Ctor Parameters [CppParam { name: "trustAnchors", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "targetConstraints", ty: "Org::BouncyCastle::X509::Store::IX509Selector", modifiers: "", def_value: None }]
-explicit PkixBuilderParameters(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors, Org::BouncyCastle::X509::Store::IX509Selector targetConstraints) ;
+static Org::BouncyCastle::Pkix::PkixBuilderParameters New_ctor(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors, Org::BouncyCastle::X509::Store::IX509Selector targetConstraints) ;
 
 /// @brief Method .ctor addr 0x1063818 size 0x98 virtual false final false
  void _ctor(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors, Org::BouncyCastle::X509::Store::IX509Selector targetConstraints) ;

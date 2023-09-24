@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__SubContainerCreatorBindInfo_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__SubContainerCreatorBindInfo_def.hpp"
+#include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 //  Writing Method size for method: Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder._ctor
 template<>
 
@@ -44,8 +44,10 @@ constexpr void Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::
 constexpr Zenject::SubContainerCreatorBindInfo Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::__get__subContainerBindInfo() const {
 return ::cordl_internals::getInstanceField<Zenject::SubContainerCreatorBindInfo, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "subContainerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
- Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::SubContainerCreatorBindInfo subContainerBindInfo, Zenject::BindInfo bindInfo)  : Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder(THROW_UNLESS(::il2cpp_utils::New<WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder>(subContainerBindInfo, bindInfo))) {}
+ Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor(Zenject::SubContainerCreatorBindInfo subContainerBindInfo, Zenject::BindInfo bindInfo)  {
+Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder>(subContainerBindInfo, bindInfo))};
+return o;
+}
  void Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor(Zenject::SubContainerCreatorBindInfo subContainerBindInfo, Zenject::BindInfo bindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder>::get(),

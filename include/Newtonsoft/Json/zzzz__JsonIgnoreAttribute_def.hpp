@@ -47,8 +47,7 @@ constexpr explicit JsonIgnoreAttribute(void* ptr) noexcept : System::Attribute(p
 
 // Methods
 
-// Ctor Parameters []
-explicit JsonIgnoreAttribute() ;
+static Newtonsoft::Json::JsonIgnoreAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24d129c size 0x8 virtual false final false
  void _ctor() ;

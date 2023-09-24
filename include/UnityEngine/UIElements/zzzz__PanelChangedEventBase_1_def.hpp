@@ -19,7 +19,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7342)), TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1633 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), TypeDefinitionIndex(TypeDefinitionIndex(7342)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1633 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7342), inst: 2 })
 // CS Name: UnityEngine.UIElements.PanelChangedEventBase`1
 class CORDL_TYPE PanelChangedEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
@@ -101,8 +101,7 @@ constexpr UnityEngine::UIElements::IPanel __get__destinationPanel_k__BackingFiel
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
 static T GetPooled(UnityEngine::UIElements::IPanel originPanel, UnityEngine::UIElements::IPanel destinationPanel) ;
 
-// Ctor Parameters []
-explicit PanelChangedEventBase_1() ;
+static UnityEngine::UIElements::PanelChangedEventBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

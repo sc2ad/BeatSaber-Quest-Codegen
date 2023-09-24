@@ -9,48 +9,54 @@ namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace GlobalNamespace {
+class MissionNodeSelectionManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MissionSelectionMapViewController____c__DisplayClass15_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15;
+}
+namespace HMUI {
+class ScrollView;
+}
+namespace GlobalNamespace {
+class AudioClipAsyncLoader;
+}
+namespace GlobalNamespace {
+class MissionMapAnimationController;
+}
+namespace GlobalNamespace {
 class MissionNode;
 }
 namespace GlobalNamespace {
-class MissionNodeVisualController;
+class PerceivedLoudnessPerLevelModel;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
-}
-namespace GlobalNamespace {
-class MissionMapAnimationController;
-}
-namespace GlobalNamespace {
-class AudioClipAsyncLoader;
-}
-namespace GlobalNamespace {
-class MissionNodeSelectionManager;
+class MissionNodeVisualController;
 }
 namespace System {
 class Action;
-}
-namespace HMUI {
-class ScrollView;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
 namespace UnityEngine {
 class AudioClip;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +125,7 @@ constexpr GlobalNamespace::IPreviewBeatmapLevel __get_level() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MissionSelectionMapViewController____c__DisplayClass15_0() ;
+static GlobalNamespace::GlobalNamespace__MissionSelectionMapViewController____c__DisplayClass15_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2174ac8 size 0x8 virtual false final false
  void _ctor() ;
@@ -362,8 +367,7 @@ constexpr GlobalNamespace::MissionNode __get__selectedMissionNode() const;
 /// @brief Method DeselectSelectedNode addr 0x2174aa4 size 0x1c virtual false final false
  void DeselectSelectedNode() ;
 
-// Ctor Parameters []
-explicit MissionSelectionMapViewController() ;
+static GlobalNamespace::MissionSelectionMapViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2174ac0 size 0x8 virtual false final false
  void _ctor() ;

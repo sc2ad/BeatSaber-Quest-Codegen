@@ -1,7 +1,7 @@
 #pragma once
 #include "BeatSaberAPI/DataTransferObjects/zzzz__UserAuthenticationResult_def.hpp"
-#include "BeatSaberAPI/DataTransferObjects/zzzz__UserInfo_def.hpp"
 #include "BeatSaberAPI/DataTransferObjects/zzzz__AccessToken_def.hpp"
+#include "BeatSaberAPI/DataTransferObjects/zzzz__UserInfo_def.hpp"
 //  Writing Method size for method: BeatSaberAPI::DataTransferObjects::UserAuthenticationResult._ctor
 template<>
 
@@ -31,8 +31,10 @@ constexpr void BeatSaberAPI::DataTransferObjects::UserAuthenticationResult::__se
 constexpr BeatSaberAPI::DataTransferObjects::AccessToken BeatSaberAPI::DataTransferObjects::UserAuthenticationResult::__get_accessToken() const {
 return ::cordl_internals::getInstanceField<BeatSaberAPI::DataTransferObjects::AccessToken, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- BeatSaberAPI::DataTransferObjects::UserAuthenticationResult::UserAuthenticationResult()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserAuthenticationResult>())) {}
+ BeatSaberAPI::DataTransferObjects::UserAuthenticationResult BeatSaberAPI::DataTransferObjects::UserAuthenticationResult::New_ctor()  {
+BeatSaberAPI::DataTransferObjects::UserAuthenticationResult o{THROW_UNLESS(::il2cpp_utils::New<BeatSaberAPI::DataTransferObjects::UserAuthenticationResult>())};
+return o;
+}
  void BeatSaberAPI::DataTransferObjects::UserAuthenticationResult::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatSaberAPI::DataTransferObjects::UserAuthenticationResult>::get(),

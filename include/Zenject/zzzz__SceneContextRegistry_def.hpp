@@ -3,25 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace Zenject {
+class SceneContext;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace Zenject {
-class SceneContext;
-}
-namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
 }
 // Forward declare root types
 namespace Zenject {
@@ -110,8 +110,7 @@ constexpr System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagemen
 /// @brief Method Remove addr 0x2d9f0c4 size 0xfc virtual false final false
  void Remove(Zenject::SceneContext context) ;
 
-// Ctor Parameters []
-explicit SceneContextRegistry() ;
+static Zenject::SceneContextRegistry New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9f1c0 size 0x7c virtual false final false
  void _ctor() ;

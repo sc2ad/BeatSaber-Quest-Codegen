@@ -106,8 +106,10 @@ constexpr void HoudiniEngineUnity::HEU_DetailPrototype::__set__renderMode(int32_
 constexpr int32_t HoudiniEngineUnity::HEU_DetailPrototype::__get__renderMode() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_DetailPrototype::HEU_DetailPrototype()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_DetailPrototype>())) {}
+ HoudiniEngineUnity::HEU_DetailPrototype HoudiniEngineUnity::HEU_DetailPrototype::New_ctor()  {
+HoudiniEngineUnity::HEU_DetailPrototype o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_DetailPrototype>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_DetailPrototype::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_DetailPrototype>::get(),

@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__BloomPrePassDoubleKawaseBlurTextureEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO.Render
 template<>
 
@@ -95,8 +94,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, src, dest);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::BloomPrePassDoubleKawaseBlurTextureEffectSO()  : GlobalNamespace::BloomPrePassEffectSO(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassDoubleKawaseBlurTextureEffectSO>())) {}
+ GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::New_ctor()  {
+GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO>::get(),

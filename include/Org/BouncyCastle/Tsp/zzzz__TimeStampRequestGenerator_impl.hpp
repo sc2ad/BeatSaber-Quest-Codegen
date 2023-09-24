@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequestGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerBoolean_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerBoolean_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Tsp::TimeStampRequestGenerator.SetReqPolicy
 template<>
 
@@ -308,8 +308,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Tsp::TimeStampRequest, false>(const_cast<void*>(instance), ___internal_method, digestAlgorithm, digest, nonce);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Tsp::TimeStampRequestGenerator::TimeStampRequestGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampRequestGenerator>())) {}
+ Org::BouncyCastle::Tsp::TimeStampRequestGenerator Org::BouncyCastle::Tsp::TimeStampRequestGenerator::New_ctor()  {
+Org::BouncyCastle::Tsp::TimeStampRequestGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampRequestGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampRequestGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampRequestGenerator>::get(),

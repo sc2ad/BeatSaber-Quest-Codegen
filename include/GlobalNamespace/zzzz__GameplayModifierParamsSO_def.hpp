@@ -158,8 +158,7 @@ constexpr bool __get__isInBeta() const;
 /// @brief Method get_isInBeta addr 0x21c21b0 size 0x8 virtual false final false
  bool get_isInBeta() ;
 
-// Ctor Parameters []
-explicit GameplayModifierParamsSO() ;
+static GlobalNamespace::GameplayModifierParamsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c21b8 size 0x8 virtual false final false
  void _ctor() ;

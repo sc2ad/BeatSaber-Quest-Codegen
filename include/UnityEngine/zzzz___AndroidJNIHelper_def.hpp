@@ -8,13 +8,13 @@ namespace UnityEngine {
 class AndroidJavaRunnable;
 }
 namespace UnityEngine {
-class AndroidJavaObject;
-}
-namespace UnityEngine {
 struct jvalue;
 }
 namespace UnityEngine {
 class AndroidJavaProxy;
+}
+namespace UnityEngine {
+class AndroidJavaObject;
 }
 namespace System {
 class Array;
@@ -132,8 +132,7 @@ static ::StringW GetSignature(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 template<typename ReturnType>
 static ::StringW GetSignature(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
-// Ctor Parameters []
-explicit _AndroidJNIHelper() ;
+static UnityEngine::_AndroidJNIHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b15c9c size 0x8 virtual false final false
  void _ctor() ;

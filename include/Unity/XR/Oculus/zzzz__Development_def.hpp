@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Unity::XR::Oculus {
+struct Unity__XR__Oculus__Development__UserDeveloperModeSettingCache;
+}
 // Forward declare root types
 namespace Unity::XR::Oculus {
 struct Unity__XR__Oculus__Development__UserDeveloperModeSettingCache;
@@ -60,6 +63,8 @@ __UserSettingTrue = 2,
 constexpr operator __Unity__XR__Oculus__Development__UserDeveloperModeSettingCache_Unwrapped () const noexcept {
 return std::bit_cast<__Unity__XR__Oculus__Development__UserDeveloperModeSettingCache_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

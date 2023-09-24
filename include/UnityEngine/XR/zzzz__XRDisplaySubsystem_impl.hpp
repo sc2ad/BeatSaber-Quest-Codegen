@@ -3,10 +3,11 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::XR::UnityEngine__XR__XRDisplaySubsystem__LateLatchNode::UnityEngine__XR__XRDisplaySubsystem__LateLatchNode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -293,8 +294,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, motionToPhoton);
 }
-// Ctor Parameters []
- UnityEngine::XR::XRDisplaySubsystem::XRDisplaySubsystem()  : UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRDisplaySubsystemDescriptor>(THROW_UNLESS(::il2cpp_utils::New<XRDisplaySubsystem>())) {}
+ UnityEngine::XR::XRDisplaySubsystem UnityEngine::XR::XRDisplaySubsystem::New_ctor()  {
+UnityEngine::XR::XRDisplaySubsystem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::XRDisplaySubsystem>())};
+return o;
+}
  void UnityEngine::XR::XRDisplaySubsystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::XRDisplaySubsystem>::get(),

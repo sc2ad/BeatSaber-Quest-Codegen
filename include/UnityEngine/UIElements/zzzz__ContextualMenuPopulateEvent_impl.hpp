@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextualMenuPopulateEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DropdownMenu_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextualMenuManager_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DropdownMenu_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::ContextualMenuPopulateEvent.get_menu
 template<>
 
@@ -213,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::ContextualMenuPopulateEvent::ContextualMenuPopulateEvent()  : UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::ContextualMenuPopulateEvent>(THROW_UNLESS(::il2cpp_utils::New<ContextualMenuPopulateEvent>())) {}
+ UnityEngine::UIElements::ContextualMenuPopulateEvent UnityEngine::UIElements::ContextualMenuPopulateEvent::New_ctor()  {
+UnityEngine::UIElements::ContextualMenuPopulateEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ContextualMenuPopulateEvent>())};
+return o;
+}
  void UnityEngine::UIElements::ContextualMenuPopulateEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ContextualMenuPopulateEvent>::get(),

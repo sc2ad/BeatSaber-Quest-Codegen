@@ -69,8 +69,7 @@ constexpr ::StringW __get__stateName() const;
 /// @brief Method Start addr 0x1f79ce0 size 0x40 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit RandomAnimatorStartTime() ;
+static GlobalNamespace::RandomAnimatorStartTime New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f79d20 size 0x50 virtual false final false
  void _ctor() ;

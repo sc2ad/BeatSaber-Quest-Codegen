@@ -4,6 +4,9 @@
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream;
+}
 namespace System::IO {
 class Stream;
 }
@@ -86,8 +89,7 @@ constexpr Org::BouncyCastle::Asn1::DerOutputStream __get__derOut() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gen", ty: "Org::BouncyCastle::Asn1::BerOctetStringGenerator", modifiers: "", def_value: None }, CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream(Org::BouncyCastle::Asn1::BerOctetStringGenerator gen, ::ArrayW<uint8_t> buf) ;
+static Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream New_ctor(Org::BouncyCastle::Asn1::BerOctetStringGenerator gen, ::ArrayW<uint8_t> buf) ;
 
 /// @brief Method .ctor addr 0x11320bc size 0x8c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::BerOctetStringGenerator gen, ::ArrayW<uint8_t> buf) ;
@@ -149,14 +151,12 @@ constexpr explicit BerOctetStringGenerator(void* ptr) noexcept : Org::BouncyCast
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BerOctetStringGenerator(System::IO::Stream outStream) ;
+static Org::BouncyCastle::Asn1::BerOctetStringGenerator New_ctor(System::IO::Stream outStream) ;
 
 /// @brief Method .ctor addr 0x1131f00 size 0x34 virtual false final false
  void _ctor(System::IO::Stream outStream) ;
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
-explicit BerOctetStringGenerator(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::BerOctetStringGenerator New_ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
 
 /// @brief Method .ctor addr 0x1131f34 size 0x54 virtual false final false
  void _ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;

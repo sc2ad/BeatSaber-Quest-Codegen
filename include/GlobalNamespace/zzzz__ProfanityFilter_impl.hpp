@@ -1,11 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ProfanityFilter_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "GlobalNamespace/zzzz__ProfanityFilter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode.AddWord
 template<>
 
@@ -87,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, word, index);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode::GlobalNamespace__ProfanityFilter__TrieNode()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ProfanityFilter__TrieNode>())) {}
+ GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode>::get(),
@@ -284,8 +287,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeL
 constexpr char16_t GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4::__get___3__c() const {
 return ::cordl_internals::getInstanceField<char16_t, 0x1e>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4 GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ProfanityFilter___GetLookalikeLetters_d__4>::get(),
@@ -432,8 +437,10 @@ constexpr void GlobalNamespace::ProfanityFilter::__set__trie(GlobalNamespace::Gl
 constexpr GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode GlobalNamespace::ProfanityFilter::__get__trie() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__ProfanityFilter__TrieNode, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "wordList", ty: "System::Collections::Generic::IEnumerable_1<::StringW>", modifiers: "", def_value: None }]
- GlobalNamespace::ProfanityFilter::ProfanityFilter(System::Collections::Generic::IEnumerable_1<::StringW> wordList)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProfanityFilter>(wordList))) {}
+ GlobalNamespace::ProfanityFilter GlobalNamespace::ProfanityFilter::New_ctor(System::Collections::Generic::IEnumerable_1<::StringW> wordList)  {
+GlobalNamespace::ProfanityFilter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ProfanityFilter>(wordList))};
+return o;
+}
  void GlobalNamespace::ProfanityFilter::_ctor(System::Collections::Generic::IEnumerable_1<::StringW> wordList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ProfanityFilter>::get(),

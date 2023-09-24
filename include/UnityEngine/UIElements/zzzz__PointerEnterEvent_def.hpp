@@ -8,7 +8,7 @@ class PointerEnterEvent;
 // Type: UnityEngine.UIElements::PointerEnterEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4682 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4682 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7304))
 // CS Name: UnityEngine.UIElements.PointerEnterEvent
 class CORDL_TYPE PointerEnterEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerEnterEvent> {
@@ -53,8 +53,7 @@ constexpr explicit PointerEnterEvent(void* ptr) noexcept : UnityEngine::UIElemen
 /// @brief Method LocalInit addr 0x2cd93cc size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit PointerEnterEvent() ;
+static UnityEngine::UIElements::PointerEnterEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd93d8 size 0x54 virtual false final false
  void _ctor() ;

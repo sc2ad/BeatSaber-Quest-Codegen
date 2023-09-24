@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class ICloneable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
 }
 namespace System::Net::Http::Headers {
 class RangeItemHeaderValue;
+}
+namespace System {
+class ICloneable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -89,14 +89,12 @@ constexpr ::StringW __get_unit() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RangeHeaderValue() ;
+static System::Net::Http::Headers::RangeHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26ae778 size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::RangeHeaderValue", modifiers: "", def_value: None }]
-explicit RangeHeaderValue(System::Net::Http::Headers::RangeHeaderValue source) ;
+static System::Net::Http::Headers::RangeHeaderValue New_ctor(System::Net::Http::Headers::RangeHeaderValue source) ;
 
 /// @brief Method .ctor addr 0x26ae7cc size 0x1e8 virtual false final false
  void _ctor(System::Net::Http::Headers::RangeHeaderValue source) ;

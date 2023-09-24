@@ -31,8 +31,10 @@ constexpr void System::Security::Principal::GenericPrincipal::__set_m_roles(::Ar
 constexpr ::ArrayW<::StringW> System::Security::Principal::GenericPrincipal::__get_m_roles() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::StringW>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IIdentity", modifiers: "", def_value: None }, CppParam { name: "roles", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
- System::Security::Principal::GenericPrincipal::GenericPrincipal(System::Security::Principal::IIdentity identity, ::ArrayW<::StringW> roles)  : System::Security::Claims::ClaimsPrincipal(THROW_UNLESS(::il2cpp_utils::New<GenericPrincipal>(identity, roles))) {}
+ System::Security::Principal::GenericPrincipal System::Security::Principal::GenericPrincipal::New_ctor(System::Security::Principal::IIdentity identity, ::ArrayW<::StringW> roles)  {
+System::Security::Principal::GenericPrincipal o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::GenericPrincipal>(identity, roles))};
+return o;
+}
  void System::Security::Principal::GenericPrincipal::_ctor(System::Security::Principal::IIdentity identity, ::ArrayW<::StringW> roles)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::GenericPrincipal>::get(),

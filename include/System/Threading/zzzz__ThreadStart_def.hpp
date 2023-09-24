@@ -49,8 +49,7 @@ constexpr explicit ThreadStart(void* ptr) noexcept : System::MulticastDelegate(p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ThreadStart(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Threading::ThreadStart New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x24a2cdc size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

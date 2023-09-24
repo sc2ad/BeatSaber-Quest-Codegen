@@ -8,26 +8,26 @@
 #include <cstdint>
 namespace System {
 template<typename T>
-struct Span_1;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+struct ReadOnlySpan_1;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
 template<typename T>
-struct ReadOnlySpan_1;
+struct Span_1;
+}
+namespace System {
+struct ParamsArray;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
-namespace System {
-struct ParamsArray;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Text {
@@ -148,44 +148,37 @@ static constexpr int32_t  WidthLimit{1000000};
 
 // Methods
 
-// Ctor Parameters []
-explicit StringBuilder() ;
+static System::Text::StringBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x22cc008 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StringBuilder(int32_t capacity) ;
+static System::Text::StringBuilder New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x22cc06c size 0x8 virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StringBuilder(::StringW value) ;
+static System::Text::StringBuilder New_ctor(::StringW value) ;
 
 /// @brief Method .ctor addr 0x22cc248 size 0x1c virtual false final false
  void _ctor(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StringBuilder(::StringW value, int32_t capacity) ;
+static System::Text::StringBuilder New_ctor(::StringW value, int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x22cc264 size 0x1c virtual false final false
  void _ctor(::StringW value, int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StringBuilder(::StringW value, int32_t startIndex, int32_t length, int32_t capacity) ;
+static System::Text::StringBuilder New_ctor(::StringW value, int32_t startIndex, int32_t length, int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x22cc280 size 0x25c virtual false final false
  void _ctor(::StringW value, int32_t startIndex, int32_t length, int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCapacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StringBuilder(int32_t capacity, int32_t maxCapacity) ;
+static System::Text::StringBuilder New_ctor(int32_t capacity, int32_t maxCapacity) ;
 
 /// @brief Method .ctor addr 0x22cc074 size 0x1d4 virtual false final false
  void _ctor(int32_t capacity, int32_t maxCapacity) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit StringBuilder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Text::StringBuilder New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x22cc5a8 size 0x2fc virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
@@ -362,8 +355,7 @@ static void ThreadSafeCopy(::ArrayW<char16_t> source, int32_t sourceIndex, Syste
 /// @brief Method ExpandByABlock addr 0x22cd668 size 0x1a0 virtual false final false
  void ExpandByABlock(int32_t minBlockCharCount) ;
 
-// Ctor Parameters [CppParam { name: "from", ty: "System::Text::StringBuilder", modifiers: "", def_value: None }]
-explicit StringBuilder(System::Text::StringBuilder from) ;
+static System::Text::StringBuilder New_ctor(System::Text::StringBuilder from) ;
 
 /// @brief Method .ctor addr 0x22d0120 size 0x44 virtual false final false
  void _ctor(System::Text::StringBuilder from) ;
@@ -371,8 +363,7 @@ explicit StringBuilder(System::Text::StringBuilder from) ;
 /// @brief Method MakeRoom addr 0x22cfc7c size 0x2b0 virtual false final false
  void MakeRoom(int32_t index, int32_t count, ByRef<System::Text::StringBuilder> chunk, ByRef<int32_t> indexInChunk, bool doNotMoveFollowingChars) ;
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "previousBlock", ty: "System::Text::StringBuilder", modifiers: "", def_value: None }]
-explicit StringBuilder(int32_t size, int32_t maxCapacity, System::Text::StringBuilder previousBlock) ;
+static System::Text::StringBuilder New_ctor(int32_t size, int32_t maxCapacity, System::Text::StringBuilder previousBlock) ;
 
 /// @brief Method .ctor addr 0x22d0164 size 0x8c virtual false final false
  void _ctor(int32_t size, int32_t maxCapacity, System::Text::StringBuilder previousBlock) ;

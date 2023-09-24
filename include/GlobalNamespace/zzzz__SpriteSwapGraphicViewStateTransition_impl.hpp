@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_impl.hpp"
 #include "GlobalNamespace/zzzz__SpriteSwapGraphicViewStateTransition_def.hpp"
-#include "GlobalNamespace/zzzz__SpriteSwapTransitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
+#include "GlobalNamespace/zzzz__SpriteSwapTransitionSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SpriteSwapGraphicViewStateTransition.get_transition
 template<>
 
@@ -364,8 +364,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SpriteSwapGraphicViewStateTransition::SpriteSwapGraphicViewStateTransition()  : GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Image>(THROW_UNLESS(::il2cpp_utils::New<SpriteSwapGraphicViewStateTransition>())) {}
+ GlobalNamespace::SpriteSwapGraphicViewStateTransition GlobalNamespace::SpriteSwapGraphicViewStateTransition::New_ctor()  {
+GlobalNamespace::SpriteSwapGraphicViewStateTransition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SpriteSwapGraphicViewStateTransition>())};
+return o;
+}
  void GlobalNamespace::SpriteSwapGraphicViewStateTransition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SpriteSwapGraphicViewStateTransition>::get(),

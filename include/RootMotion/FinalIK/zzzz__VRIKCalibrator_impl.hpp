@@ -1,8 +1,9 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__VRIKCalibrator_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__VRIKCalibrator_def.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Settings._ctor
@@ -118,8 +119,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Setting
 constexpr float_t RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Settings::__get_pelvisRotationWeight() const {
 return ::cordl_internals::getInstanceField<float_t, 0x9c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Settings::RootMotion__FinalIK__VRIKCalibrator__Settings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__VRIKCalibrator__Settings>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Settings RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Settings::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Settings o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Settings>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Settings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Settings>::get(),
@@ -181,8 +184,10 @@ constexpr void GlobalNamespace::RootMotion__FinalIK__VRIKCalibrator__Calibration
 constexpr UnityEngine::Quaternion GlobalNamespace::RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target::__get_localRotation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Quaternion, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- GlobalNamespace::RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target::RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target(UnityEngine::Transform t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target>(t))) {}
+ GlobalNamespace::RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target GlobalNamespace::RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target::New_ctor(UnityEngine::Transform t)  {
+GlobalNamespace::RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target>(t))};
+return o;
+}
  void GlobalNamespace::RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target::_ctor(UnityEngine::Transform t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RootMotion__FinalIK__VRIKCalibrator__CalibrationData__Target>::get(),
@@ -290,8 +295,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__Calibra
 constexpr float_t RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__CalibrationData::__get_pelvisRotationWeight() const {
 return ::cordl_internals::getInstanceField<float_t, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__CalibrationData::RootMotion__FinalIK__VRIKCalibrator__CalibrationData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__VRIKCalibrator__CalibrationData>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__CalibrationData RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__CalibrationData::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__CalibrationData o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__CalibrationData>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__CalibrationData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__VRIKCalibrator__CalibrationData>::get(),

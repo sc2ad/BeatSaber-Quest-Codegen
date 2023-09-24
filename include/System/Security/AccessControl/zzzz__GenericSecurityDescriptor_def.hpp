@@ -57,8 +57,7 @@ constexpr explicit GenericSecurityDescriptor(void* ptr) noexcept : ::bs_hook::Il
 
 // Methods
 
-// Ctor Parameters []
-explicit GenericSecurityDescriptor() ;
+static System::Security::AccessControl::GenericSecurityDescriptor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2317e44 size 0x8 virtual false final false
  void _ctor() ;

@@ -11,11 +11,11 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo;
@@ -25,56 +25,86 @@ template<typename T>
 class Action_1;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Coroutine;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles;
 }
 namespace GlobalNamespace {
-class OVRPassthroughLayer;
+struct GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardState;
 }
 namespace UnityEngine {
-class BoxCollider;
+class MeshFilter;
 }
 namespace UnityEngine {
-class GameObject;
+struct Quaternion;
 }
-namespace UnityEngine {
-class Shader;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__TrackedKeyboardQueryFlags;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__OVRTrackedKeyboard____c;
+}
+namespace GlobalNamespace {
+class OVRPassthroughLayer;
+}
+namespace GlobalNamespace {
 class OVROverlay;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
 }
 namespace GlobalNamespace {
 class OVRCameraRig;
 }
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class BoxCollider;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRTrackedKeyboard___Start_d__88;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRTrackedKeyboard__KeyboardPresentation;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+class MeshRenderer;
+}
 namespace GlobalNamespace {
 struct OVRTextureQualityFiltering;
 }
-namespace UnityEngine {
-class MeshFilter;
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -166,6 +196,8 @@ constexpr operator __GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardState_U
 return std::bit_cast<__GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardState_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -252,6 +284,8 @@ __PreferKeyLabels = 1,
 constexpr operator __GlobalNamespace__OVRTrackedKeyboard__KeyboardPresentation_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRTrackedKeyboard__KeyboardPresentation_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -481,8 +515,7 @@ constexpr GlobalNamespace::OVRTrackedKeyboard __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRTrackedKeyboard___Start_d__88(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Start_d__88 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2614a88 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -585,8 +618,7 @@ constexpr GlobalNamespace::OVRTrackedKeyboard __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2614c10 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -695,8 +727,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo __g
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2614dfc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -799,8 +830,7 @@ constexpr GlobalNamespace::OVRTrackedKeyboard __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2615350 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -903,8 +933,7 @@ constexpr GlobalNamespace::OVRTrackedKeyboard __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x261566c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -991,8 +1020,7 @@ static System::Action_1<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard__Tr
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRTrackedKeyboard____c() ;
+static GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x26160d8 size 0x8 virtual false final false
  void _ctor() ;
@@ -1544,8 +1572,7 @@ constexpr bool __get_UseHeuristicRollback() const;
 /// @brief Method DispatchVisibilityEvent addr 0x26146fc size 0x50 virtual false final false
  void DispatchVisibilityEvent(bool timeOut) ;
 
-// Ctor Parameters []
-explicit OVRTrackedKeyboard() ;
+static GlobalNamespace::OVRTrackedKeyboard New_ctor() ;
 
 /// @brief Method .ctor addr 0x2614860 size 0x190 virtual false final false
  void _ctor() ;

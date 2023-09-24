@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__VideoProjectionDataModelSO_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReference_def.hpp"
+#include "GlobalNamespace/zzzz__VideoProjectionDataModelSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId.get_id
 template<>
 
@@ -83,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::AddressableAssets::AssetReference, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId>())) {}
+ GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId::New_ctor()  {
+GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId>::get(),
@@ -143,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::VideoProjectionDataModelSO::VideoProjectionDataModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<VideoProjectionDataModelSO>())) {}
+ GlobalNamespace::VideoProjectionDataModelSO GlobalNamespace::VideoProjectionDataModelSO::New_ctor()  {
+GlobalNamespace::VideoProjectionDataModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VideoProjectionDataModelSO>())};
+return o;
+}
  void GlobalNamespace::VideoProjectionDataModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VideoProjectionDataModelSO>::get(),

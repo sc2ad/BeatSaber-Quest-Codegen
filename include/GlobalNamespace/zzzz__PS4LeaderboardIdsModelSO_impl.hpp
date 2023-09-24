@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PS4LeaderboardIdsModelSO::PS4LeaderboardIdsModelSO()  : GlobalNamespace::SonyLeaderboardIdsModelSO(THROW_UNLESS(::il2cpp_utils::New<PS4LeaderboardIdsModelSO>())) {}
+ GlobalNamespace::PS4LeaderboardIdsModelSO GlobalNamespace::PS4LeaderboardIdsModelSO::New_ctor()  {
+GlobalNamespace::PS4LeaderboardIdsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS4LeaderboardIdsModelSO>())};
+return o;
+}
  void GlobalNamespace::PS4LeaderboardIdsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS4LeaderboardIdsModelSO>::get(),

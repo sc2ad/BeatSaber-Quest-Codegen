@@ -2,31 +2,32 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueCollection_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__InlineStyleAccess_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Justify_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleTextShadow_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleTranslate_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleRule_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Position_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StyleValue_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ComputedStyle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleColor_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleScale_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FlexDirection_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleEnum_1_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StyleValueManaged_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleTransformOrigin_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleLength_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleRotate_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleCursor_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Visibility_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DisplayStyle_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StyleValueManaged_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleTranslate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleColor_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FlexDirection_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleRotate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Justify_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleEnum_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleTextShadow_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Visibility_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ComputedStyle_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleRule_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StyleValue_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Position_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleScale_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyReader_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleCursor_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleTransformOrigin_def.hpp"
+#include "UnityEngine/UIElements/zzzz__InlineStyleAccess_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleLength_def.hpp"
 // Ctor Parameters [CppParam { name: "sheet", ty: "UnityEngine::UIElements::StyleSheet", modifiers: "", def_value: Some("csnull") }, CppParam { name: "rule", ty: "UnityEngine::UIElements::StyleRule", modifiers: "", def_value: Some("csnull") }, CppParam { name: "propertyIds", ty: "::ArrayW<UnityEngine::UIElements::StyleSheets::StylePropertyId>", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__InlineStyleAccess__InlineRule::UnityEngine__UIElements__InlineStyleAccess__InlineRule(UnityEngine::UIElements::StyleSheet sheet, UnityEngine::UIElements::StyleRule rule, ::ArrayW<UnityEngine::UIElements::StyleSheets::StylePropertyId> propertyIds) noexcept : ::bs_hook::ValueTypeWrapper() {this->sheet = sheet;
 this->rule = rule;
@@ -1409,8 +1410,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "ve", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }]
- UnityEngine::UIElements::InlineStyleAccess::InlineStyleAccess(UnityEngine::UIElements::VisualElement ve)  : UnityEngine::UIElements::StyleValueCollection(THROW_UNLESS(::il2cpp_utils::New<InlineStyleAccess>(ve))) {}
+ UnityEngine::UIElements::InlineStyleAccess UnityEngine::UIElements::InlineStyleAccess::New_ctor(UnityEngine::UIElements::VisualElement ve)  {
+UnityEngine::UIElements::InlineStyleAccess o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::InlineStyleAccess>(ve))};
+return o;
+}
  void UnityEngine::UIElements::InlineStyleAccess::_ctor(UnityEngine::UIElements::VisualElement ve)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::InlineStyleAccess>::get(),

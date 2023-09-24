@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__QCStatement_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::Qualified::QCStatement.GetInstance
 template<>
 
@@ -145,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::Qualified::QCStatement, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::QCStatement::QCStatement(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<QCStatement>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::QCStatement Org::BouncyCastle::Asn1::X509::Qualified::QCStatement::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::Qualified::QCStatement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::QCStatement>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::QCStatement::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::QCStatement>::get(),
@@ -156,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "qcStatementId", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::QCStatement::QCStatement(Org::BouncyCastle::Asn1::DerObjectIdentifier qcStatementId)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<QCStatement>(qcStatementId))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::QCStatement Org::BouncyCastle::Asn1::X509::Qualified::QCStatement::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier qcStatementId)  {
+Org::BouncyCastle::Asn1::X509::Qualified::QCStatement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::QCStatement>(qcStatementId))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::QCStatement::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier qcStatementId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::QCStatement>::get(),
@@ -167,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, qcStatementId);
 }
-// Ctor Parameters [CppParam { name: "qcStatementId", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "qcStatementInfo", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::QCStatement::QCStatement(Org::BouncyCastle::Asn1::DerObjectIdentifier qcStatementId, Org::BouncyCastle::Asn1::Asn1Encodable qcStatementInfo)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<QCStatement>(qcStatementId, qcStatementInfo))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::QCStatement Org::BouncyCastle::Asn1::X509::Qualified::QCStatement::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier qcStatementId, Org::BouncyCastle::Asn1::Asn1Encodable qcStatementInfo)  {
+Org::BouncyCastle::Asn1::X509::Qualified::QCStatement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::QCStatement>(qcStatementId, qcStatementInfo))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::QCStatement::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier qcStatementId, Org::BouncyCastle::Asn1::Asn1Encodable qcStatementInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::QCStatement>::get(),

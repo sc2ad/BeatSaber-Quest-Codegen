@@ -4,10 +4,10 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class BeatmapDataItem;
+struct NoteLineLayer;
 }
 namespace GlobalNamespace {
-struct NoteLineLayer;
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -131,8 +131,7 @@ constexpr int32_t __get__height_k__BackingField() const;
 /// @brief Method set_height addr 0xd94954 size 0x8 virtual false final false
  void set_height(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ObstacleData(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height) ;
+static GlobalNamespace::ObstacleData New_ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height) ;
 
 /// @brief Method .ctor addr 0xd9495c size 0x68 virtual false final false
  void _ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height) ;

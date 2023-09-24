@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsKeyExchange_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsRsaKeyExchange_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateRequest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsEncryptionCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateRequest_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaKeyParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange._ctor
 template<>
 
@@ -203,8 +203,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange::__set_mPremast
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange::__get_mPremasterSecret() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange::TlsRsaKeyExchange(System::Collections::IList supportedSignatureAlgorithms)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange(THROW_UNLESS(::il2cpp_utils::New<TlsRsaKeyExchange>(supportedSignatureAlgorithms))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange::New_ctor(System::Collections::IList supportedSignatureAlgorithms)  {
+Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange>(supportedSignatureAlgorithms))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange::_ctor(System::Collections::IList supportedSignatureAlgorithms)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange>::get(),

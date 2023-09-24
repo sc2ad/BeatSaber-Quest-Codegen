@@ -1199,8 +1199,10 @@ constexpr void Org::BouncyCastle::Math::EC::LongArray::__set_m_ints(::ArrayW<int
 constexpr ::ArrayW<int64_t> Org::BouncyCastle::Math::EC::LongArray::__get_m_ints() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int64_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "intLen", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::LongArray::LongArray(int32_t intLen)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LongArray>(intLen))) {}
+ Org::BouncyCastle::Math::EC::LongArray Org::BouncyCastle::Math::EC::LongArray::New_ctor(int32_t intLen)  {
+Org::BouncyCastle::Math::EC::LongArray o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::LongArray>(intLen))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::LongArray::_ctor(int32_t intLen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::LongArray>::get(),
@@ -1210,8 +1212,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, intLen);
 }
-// Ctor Parameters [CppParam { name: "ints", ty: "::ArrayW<int64_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::LongArray::LongArray(::ArrayW<int64_t> ints)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LongArray>(ints))) {}
+ Org::BouncyCastle::Math::EC::LongArray Org::BouncyCastle::Math::EC::LongArray::New_ctor(::ArrayW<int64_t> ints)  {
+Org::BouncyCastle::Math::EC::LongArray o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::LongArray>(ints))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::LongArray::_ctor(::ArrayW<int64_t> ints)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::LongArray>::get(),
@@ -1221,8 +1225,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ints);
 }
-// Ctor Parameters [CppParam { name: "ints", ty: "::ArrayW<int64_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::LongArray::LongArray(::ArrayW<int64_t> ints, int32_t off, int32_t len)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LongArray>(ints, off, len))) {}
+ Org::BouncyCastle::Math::EC::LongArray Org::BouncyCastle::Math::EC::LongArray::New_ctor(::ArrayW<int64_t> ints, int32_t off, int32_t len)  {
+Org::BouncyCastle::Math::EC::LongArray o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::LongArray>(ints, off, len))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::LongArray::_ctor(::ArrayW<int64_t> ints, int32_t off, int32_t len)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::LongArray>::get(),
@@ -1232,8 +1238,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ints, off, len);
 }
-// Ctor Parameters [CppParam { name: "bigInt", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::LongArray::LongArray(Org::BouncyCastle::Math::BigInteger bigInt)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LongArray>(bigInt))) {}
+ Org::BouncyCastle::Math::EC::LongArray Org::BouncyCastle::Math::EC::LongArray::New_ctor(Org::BouncyCastle::Math::BigInteger bigInt)  {
+Org::BouncyCastle::Math::EC::LongArray o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::LongArray>(bigInt))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::LongArray::_ctor(Org::BouncyCastle::Math::BigInteger bigInt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::LongArray>::get(),

@@ -97,8 +97,7 @@ constexpr void* __get_charEnd() const;
 /// @brief Method ThrowLastBytesRecursive addr 0x24c324c size 0x1fc virtual false final false
  void ThrowLastBytesRecursive(::ArrayW<uint8_t> bytesUnknown) ;
 
-// Ctor Parameters []
-explicit DecoderFallbackBuffer() ;
+static System::Text::DecoderFallbackBuffer New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c28f4 size 0x8 virtual false final false
  void _ctor() ;

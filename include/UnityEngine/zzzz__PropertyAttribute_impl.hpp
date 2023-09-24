@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::PropertyAttribute::PropertyAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PropertyAttribute>())) {}
+ UnityEngine::PropertyAttribute UnityEngine::PropertyAttribute::New_ctor()  {
+UnityEngine::PropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::PropertyAttribute>())};
+return o;
+}
  void UnityEngine::PropertyAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::PropertyAttribute>::get(),

@@ -6,19 +6,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Mono::Globalization::Unicode {
-class CodePointIndexer;
-}
-namespace System::Globalization {
-class CultureInfo;
+class Mono__Globalization__Unicode__MSCompatUnicodeTable____c;
 }
 namespace Mono::Globalization::Unicode {
 class TailoringInfo;
 }
 namespace Mono::Globalization::Unicode {
-class Contraction;
+class Level2Map;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace Mono::Globalization::Unicode {
-class Level2Map;
+class CodePointIndexer;
+}
+namespace Mono::Globalization::Unicode {
+class Contraction;
 }
 namespace System {
 template<typename T>
@@ -88,8 +91,7 @@ static System::Comparison_1<Mono::Globalization::Unicode::Level2Map> __get___9__
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Globalization__Unicode__MSCompatUnicodeTable____c() ;
+static Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x22a9f14 size 0x8 virtual false final false
  void _ctor() ;

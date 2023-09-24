@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__RsaOaepWrapper_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IKeyUnwrapper_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IKeyUnwrapper_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockResult_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper._ctor
 template<>
 
@@ -95,8 +95,10 @@ constexpr void Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::__set_engin
 constexpr Org::BouncyCastle::Crypto::IAsymmetricBlockCipher Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::__get_engine() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "forWrapping", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "digestOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::RsaOaepWrapper(bool forWrapping, Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaOaepWrapper>(forWrapping, parameters, digestOid))) {}
+ Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::New_ctor(bool forWrapping, Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  {
+Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper>(forWrapping, parameters, digestOid))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::_ctor(bool forWrapping, Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper>::get(),

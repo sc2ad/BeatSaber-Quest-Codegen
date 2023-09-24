@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System::Resources {
 class IResourceGroveler;
+}
+namespace System::Resources {
+class System__Resources__ResourceManager__ResourceManagerMediator;
 }
 namespace System::Reflection {
 class Assembly;
 }
 namespace System::Resources {
 struct UltimateResourceFallbackLocation;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Resources {
-class System__Resources__ResourceManager__ResourceManagerMediator;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -77,8 +77,7 @@ constexpr System::Resources::System__Resources__ResourceManager__ResourceManager
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mediator", ty: "System::Resources::System__Resources__ResourceManager__ResourceManagerMediator", modifiers: "", def_value: None }]
-explicit ManifestBasedResourceGroveler(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator) ;
+static System::Resources::ManifestBasedResourceGroveler New_ctor(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator) ;
 
 /// @brief Method .ctor addr 0x2373314 size 0x28 virtual false final false
  void _ctor(System::Resources::System__Resources__ResourceManager__ResourceManagerMediator mediator) ;

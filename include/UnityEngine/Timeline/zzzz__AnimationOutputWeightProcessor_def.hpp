@@ -3,21 +3,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Animations {
-struct AnimationPlayableOutput;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+class ITimelineEvaluateCallback;
+}
+namespace UnityEngine::Animations {
+struct AnimationPlayableOutput;
 }
 namespace UnityEngine::Animations {
 struct AnimationMotionXToDeltaPlayable;
 }
 namespace UnityEngine::Timeline {
-class ITimelineEvaluateCallback;
+struct UnityEngine__Timeline__AnimationOutputWeightProcessor__WeightInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -159,8 +162,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Timeline::UnityEngin
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "output", ty: "UnityEngine::Animations::AnimationPlayableOutput", modifiers: "", def_value: None }]
-explicit AnimationOutputWeightProcessor(UnityEngine::Animations::AnimationPlayableOutput output) ;
+static UnityEngine::Timeline::AnimationOutputWeightProcessor New_ctor(UnityEngine::Animations::AnimationPlayableOutput output) ;
 
 /// @brief Method .ctor addr 0x2ab69dc size 0xc0 virtual false final false
  void _ctor(UnityEngine::Animations::AnimationPlayableOutput output) ;

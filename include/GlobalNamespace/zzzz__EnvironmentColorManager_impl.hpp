@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorManager_def.hpp"
-#include "GlobalNamespace/zzzz__SimpleColorSO_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
-#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__SimpleColorSO_def.hpp"
+#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EnvironmentColorManager.get_environmentColor0
 template<>
 
@@ -266,8 +266,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EnvironmentColorManager::EnvironmentColorManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EnvironmentColorManager>())) {}
+ GlobalNamespace::EnvironmentColorManager GlobalNamespace::EnvironmentColorManager::New_ctor()  {
+GlobalNamespace::EnvironmentColorManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnvironmentColorManager>())};
+return o;
+}
  void GlobalNamespace::EnvironmentColorManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnvironmentColorManager>::get(),

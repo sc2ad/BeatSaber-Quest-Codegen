@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "BeatSaberAPI/DataTransferObjects/zzzz__LevelScoreResult_def.hpp"
+#include "BeatSaberAPI/DataTransferObjects/zzzz__LevelScoreResult_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers(uint32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -112,8 +113,10 @@ constexpr void BeatSaberAPI::DataTransferObjects::LevelScoreResult::__set_extraD
 constexpr ::StringW BeatSaberAPI::DataTransferObjects::LevelScoreResult::__get_extraDataBase64() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- BeatSaberAPI::DataTransferObjects::LevelScoreResult::LevelScoreResult()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LevelScoreResult>())) {}
+ BeatSaberAPI::DataTransferObjects::LevelScoreResult BeatSaberAPI::DataTransferObjects::LevelScoreResult::New_ctor()  {
+BeatSaberAPI::DataTransferObjects::LevelScoreResult o{THROW_UNLESS(::il2cpp_utils::New<BeatSaberAPI::DataTransferObjects::LevelScoreResult>())};
+return o;
+}
  void BeatSaberAPI::DataTransferObjects::LevelScoreResult::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatSaberAPI::DataTransferObjects::LevelScoreResult>::get(),

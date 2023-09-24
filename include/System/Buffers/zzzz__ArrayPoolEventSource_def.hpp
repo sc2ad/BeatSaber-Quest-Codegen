@@ -3,6 +3,9 @@
 #include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Buffers {
+struct System__Buffers__ArrayPoolEventSource__BufferAllocatedReason;
+}
 // Forward declare root types
 namespace System::Buffers {
 struct System__Buffers__ArrayPoolEventSource__BufferAllocatedReason;
@@ -60,6 +63,8 @@ __PoolExhausted = 2,
 constexpr operator __System__Buffers__ArrayPoolEventSource__BufferAllocatedReason_Unwrapped () const noexcept {
 return std::bit_cast<__System__Buffers__ArrayPoolEventSource__BufferAllocatedReason_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -136,8 +141,7 @@ static System::Buffers::ArrayPoolEventSource __get_Log() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit ArrayPoolEventSource() ;
+static System::Buffers::ArrayPoolEventSource New_ctor() ;
 
 /// @brief Method .ctor addr 0x241e440 size 0xac virtual false final false
  void _ctor() ;

@@ -1,10 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__PoolCleanupChecker_def.hpp"
-#include "Zenject/zzzz__ILateDisposable_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
+#include "Zenject/zzzz__PoolCleanupChecker_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
+#include "Zenject/zzzz__ILateDisposable_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__PoolCleanupChecker____c._ctor
 template<>
@@ -86,8 +87,10 @@ return ::cordl_internals::getStaticField<Zenject::Zenject__PoolCleanupChecker___
  System::Func_2<System::Type,bool> Zenject::Zenject__PoolCleanupChecker____c::__get___9__2_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Type,bool>, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__PoolCleanupChecker____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__PoolCleanupChecker____c::Zenject__PoolCleanupChecker____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__PoolCleanupChecker____c>())) {}
+ Zenject::Zenject__PoolCleanupChecker____c Zenject::Zenject__PoolCleanupChecker____c::New_ctor()  {
+Zenject::Zenject__PoolCleanupChecker____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__PoolCleanupChecker____c>())};
+return o;
+}
  void Zenject::Zenject__PoolCleanupChecker____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__PoolCleanupChecker____c>::get(),
@@ -208,8 +211,10 @@ constexpr void Zenject::PoolCleanupChecker::__set__ignoredPools(System::Collecti
 constexpr System::Collections::Generic::List_1<System::Type> Zenject::PoolCleanupChecker::__get__ignoredPools() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<System::Type>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "poolFactories", ty: "System::Collections::Generic::List_1<Zenject::IMemoryPool>", modifiers: "", def_value: None }, CppParam { name: "ignoredPools", ty: "System::Collections::Generic::List_1<System::Type>", modifiers: "", def_value: None }]
- Zenject::PoolCleanupChecker::PoolCleanupChecker(System::Collections::Generic::List_1<Zenject::IMemoryPool> poolFactories, System::Collections::Generic::List_1<System::Type> ignoredPools)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PoolCleanupChecker>(poolFactories, ignoredPools))) {}
+ Zenject::PoolCleanupChecker Zenject::PoolCleanupChecker::New_ctor(System::Collections::Generic::List_1<Zenject::IMemoryPool> poolFactories, System::Collections::Generic::List_1<System::Type> ignoredPools)  {
+Zenject::PoolCleanupChecker o{THROW_UNLESS(::il2cpp_utils::New<Zenject::PoolCleanupChecker>(poolFactories, ignoredPools))};
+return o;
+}
  void Zenject::PoolCleanupChecker::_ctor(System::Collections::Generic::List_1<Zenject::IMemoryPool> poolFactories, System::Collections::Generic::List_1<System::Type> ignoredPools)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::PoolCleanupChecker>::get(),

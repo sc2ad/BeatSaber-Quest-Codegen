@@ -5,6 +5,9 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__Extrapolation____c;
+}
+namespace UnityEngine::Timeline {
 class TrackAsset;
 }
 namespace UnityEngine::Timeline {
@@ -78,8 +81,7 @@ static System::Comparison_1<UnityEngine::Timeline::TimelineClip> __get___9__2_0(
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Timeline__Extrapolation____c() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__Extrapolation____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad8234 size 0x8 virtual false final false
  void _ctor() ;

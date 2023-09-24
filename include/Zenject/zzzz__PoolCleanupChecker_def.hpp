@@ -3,7 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class ILateDisposable;
+class IMemoryPool;
+}
+namespace Zenject {
+class Zenject__PoolCleanupChecker____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -16,7 +19,7 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class IMemoryPool;
+class ILateDisposable;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -86,8 +89,7 @@ static System::Func_2<System::Type,bool> __get___9__2_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__PoolCleanupChecker____c() ;
+static Zenject::Zenject__PoolCleanupChecker____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6ff30 size 0x8 virtual false final false
  void _ctor() ;
@@ -167,8 +169,7 @@ constexpr System::Collections::Generic::List_1<System::Type> __get__ignoredPools
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "poolFactories", ty: "System::Collections::Generic::List_1<Zenject::IMemoryPool>", modifiers: "", def_value: None }, CppParam { name: "ignoredPools", ty: "System::Collections::Generic::List_1<System::Type>", modifiers: "", def_value: None }]
-explicit PoolCleanupChecker(System::Collections::Generic::List_1<Zenject::IMemoryPool> poolFactories, System::Collections::Generic::List_1<System::Type> ignoredPools) ;
+static Zenject::PoolCleanupChecker New_ctor(System::Collections::Generic::List_1<Zenject::IMemoryPool> poolFactories, System::Collections::Generic::List_1<System::Type> ignoredPools) ;
 
 /// @brief Method .ctor addr 0x2d6f5bc size 0x11c virtual false final false
  void _ctor(System::Collections::Generic::List_1<Zenject::IMemoryPool> poolFactories, System::Collections::Generic::List_1<System::Type> ignoredPools) ;

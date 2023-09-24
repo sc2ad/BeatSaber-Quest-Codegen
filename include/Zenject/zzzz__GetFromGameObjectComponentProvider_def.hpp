@@ -9,16 +9,16 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class InjectContext;
+struct TypeValuePair;
 }
 namespace System {
 class Action;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -101,8 +101,7 @@ constexpr bool __get__matchSingle() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "matchSingle", ty: "bool", modifiers: "", def_value: None }]
-explicit GetFromGameObjectComponentProvider(System::Type componentType, UnityEngine::GameObject gameObject, bool matchSingle) ;
+static Zenject::GetFromGameObjectComponentProvider New_ctor(System::Type componentType, UnityEngine::GameObject gameObject, bool matchSingle) ;
 
 /// @brief Method .ctor addr 0x2d8d710 size 0x3c virtual false final false
  void _ctor(System::Type componentType, UnityEngine::GameObject gameObject, bool matchSingle) ;

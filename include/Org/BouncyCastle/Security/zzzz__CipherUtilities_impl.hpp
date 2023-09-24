@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__CipherUtilities_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__CipherUtilities_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Org::BouncyCastle::Security::Org__BouncyCastle__Security__CipherUtilities__CipherAlgorithm::Org__BouncyCastle__Security__CipherUtilities__CipherAlgorithm(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -266,8 +267,10 @@ return ::cordl_internals::getStaticField<System::Collections::IDictionary, "algo
  System::Collections::IDictionary Org::BouncyCastle::Security::CipherUtilities::__get_oids()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "oids", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::CipherUtilities>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Security::CipherUtilities::CipherUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CipherUtilities>())) {}
+ Org::BouncyCastle::Security::CipherUtilities Org::BouncyCastle::Security::CipherUtilities::New_ctor()  {
+Org::BouncyCastle::Security::CipherUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::CipherUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Security::CipherUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::CipherUtilities>::get(),

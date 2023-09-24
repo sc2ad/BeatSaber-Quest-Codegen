@@ -3,37 +3,38 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__GameLiftConnectionManager_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
-#include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__GameLiftConnectionManager_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
-#include "GlobalNamespace/zzzz__GameLiftClientConnectionRequestHandler_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
+#include "GlobalNamespace/zzzz__ICertificateValidator_def.hpp"
+#include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "BGNet/Core/GameLift/zzzz__IGameLiftPlayerSessionProvider_def.hpp"
+#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IConnection_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
+#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
+#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__IConnection_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
-#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__ICertificateValidator_def.hpp"
+#include "BGNet/Core/GameLift/zzzz__IGameLiftPlayerSessionProvider_def.hpp"
+#include "GlobalNamespace/zzzz__GameLiftClientConnectionRequestHandler_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "BGNet/Core/GameLift/zzzz__PlayerSessionInfo_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__ConnectionState::GlobalNamespace__GameLiftConnectionManager__ConnectionState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -93,8 +94,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__Game
 constexpr GlobalNamespace::GameplayServerConfiguration GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase::__get_configuration() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GameplayServerConfiguration, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase>())) {}
+ GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase>::get(),
@@ -133,8 +136,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__Conn
 constexpr ::StringW GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams::__get_code() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams::GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams()  : GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams>())) {}
+ GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__ConnectToServerParams>::get(),
@@ -161,8 +166,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__StartClientParams::GlobalNamespace__GameLiftConnectionManager__StartClientParams()  : GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameLiftConnectionManager__StartClientParams>())) {}
+ GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__StartClientParams GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__StartClientParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__StartClientParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__StartClientParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__StartClientParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameLiftConnectionManager__StartClientParams>::get(),
@@ -1470,8 +1477,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GameLiftConnectionManager::GameLiftConnectionManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameLiftConnectionManager>())) {}
+ GlobalNamespace::GameLiftConnectionManager GlobalNamespace::GameLiftConnectionManager::New_ctor()  {
+GlobalNamespace::GameLiftConnectionManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameLiftConnectionManager>())};
+return o;
+}
  void GlobalNamespace::GameLiftConnectionManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameLiftConnectionManager>::get(),
@@ -1481,8 +1490,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }, CppParam { name: "connectionManager", ty: "GlobalNamespace::IConnectionManager", modifiers: "", def_value: None }, CppParam { name: "certificateValidator", ty: "GlobalNamespace::ICertificateValidator", modifiers: "", def_value: None }]
- GlobalNamespace::GameLiftConnectionManager::GameLiftConnectionManager(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager, GlobalNamespace::ICertificateValidator certificateValidator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameLiftConnectionManager>(timeProvider, taskUtility, connectionManager, certificateValidator))) {}
+ GlobalNamespace::GameLiftConnectionManager GlobalNamespace::GameLiftConnectionManager::New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager, GlobalNamespace::ICertificateValidator certificateValidator)  {
+GlobalNamespace::GameLiftConnectionManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameLiftConnectionManager>(timeProvider, taskUtility, connectionManager, certificateValidator))};
+return o;
+}
  void GlobalNamespace::GameLiftConnectionManager::_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager, GlobalNamespace::ICertificateValidator certificateValidator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameLiftConnectionManager>::get(),

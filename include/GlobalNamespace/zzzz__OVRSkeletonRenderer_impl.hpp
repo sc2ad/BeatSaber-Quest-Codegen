@@ -4,14 +4,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__LineRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__OVRBoneCapsule_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__OVRBoneCapsule_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider.GetSkeletonRendererData
 template<>
@@ -369,8 +370,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__BoneVisual
 constexpr UnityEngine::Material GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__BoneVisualization::__get_SystemGestureMaterial() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Material, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rootGO", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "renderMat", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "systemGestureMat", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "begin", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "end", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__BoneVisualization::GlobalNamespace__OVRSkeletonRenderer__BoneVisualization(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, UnityEngine::Transform begin, UnityEngine::Transform end)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRSkeletonRenderer__BoneVisualization>(rootGO, renderMat, systemGestureMat, scale, begin, end))) {}
+ GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__BoneVisualization GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__BoneVisualization::New_ctor(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, UnityEngine::Transform begin, UnityEngine::Transform end)  {
+GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__BoneVisualization o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__BoneVisualization>(rootGO, renderMat, systemGestureMat, scale, begin, end))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__BoneVisualization::_ctor(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, UnityEngine::Transform begin, UnityEngine::Transform end)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__BoneVisualization>::get(),
@@ -459,8 +462,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__CapsuleVis
 constexpr UnityEngine::Material GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization::__get_SystemGestureMaterial() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Material, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rootGO", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "renderMat", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "systemGestureMat", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "boneCapsule", ty: "GlobalNamespace::OVRBoneCapsule", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization::GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, GlobalNamespace::OVRBoneCapsule boneCapsule)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization>(rootGO, renderMat, systemGestureMat, scale, boneCapsule))) {}
+ GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization::New_ctor(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, GlobalNamespace::OVRBoneCapsule boneCapsule)  {
+GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization>(rootGO, renderMat, systemGestureMat, scale, boneCapsule))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization::_ctor(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, GlobalNamespace::OVRBoneCapsule boneCapsule)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization>::get(),
@@ -980,8 +985,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRSkeletonRenderer::OVRSkeletonRenderer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRSkeletonRenderer>())) {}
+ GlobalNamespace::OVRSkeletonRenderer GlobalNamespace::OVRSkeletonRenderer::New_ctor()  {
+GlobalNamespace::OVRSkeletonRenderer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRSkeletonRenderer>())};
+return o;
+}
  void GlobalNamespace::OVRSkeletonRenderer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRSkeletonRenderer>::get(),

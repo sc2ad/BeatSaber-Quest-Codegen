@@ -2,14 +2,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__UIKeyboard_def.hpp"
 #include "HMUI/zzzz__UIKeyboardKey_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
 #include "TMPro/zzzz__FontStyles_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HMUI/zzzz__UIKeyboard_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__UIKeyboard____c__DisplayClass13_0._ctor
 template<>
 
@@ -56,8 +57,10 @@ constexpr void HMUI::HMUI__UIKeyboard____c__DisplayClass13_0::__set___4__this(HM
 constexpr HMUI::UIKeyboard HMUI::HMUI__UIKeyboard____c__DisplayClass13_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<HMUI::UIKeyboard, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__UIKeyboard____c__DisplayClass13_0::HMUI__UIKeyboard____c__DisplayClass13_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__UIKeyboard____c__DisplayClass13_0>())) {}
+ HMUI::HMUI__UIKeyboard____c__DisplayClass13_0 HMUI::HMUI__UIKeyboard____c__DisplayClass13_0::New_ctor()  {
+HMUI::HMUI__UIKeyboard____c__DisplayClass13_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__UIKeyboard____c__DisplayClass13_0>())};
+return o;
+}
  void HMUI::HMUI__UIKeyboard____c__DisplayClass13_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__UIKeyboard____c__DisplayClass13_0>::get(),
@@ -481,8 +484,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::UIKeyboard::UIKeyboard()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<UIKeyboard>())) {}
+ HMUI::UIKeyboard HMUI::UIKeyboard::New_ctor()  {
+HMUI::UIKeyboard o{THROW_UNLESS(::il2cpp_utils::New<HMUI::UIKeyboard>())};
+return o;
+}
  void HMUI::UIKeyboard::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::UIKeyboard>::get(),

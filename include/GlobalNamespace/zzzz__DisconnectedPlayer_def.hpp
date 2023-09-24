@@ -5,13 +5,13 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
+struct MultiplayerAvatarData;
+}
+namespace GlobalNamespace {
 struct DisconnectedReason;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -166,8 +166,7 @@ constexpr GlobalNamespace::MultiplayerAvatarData __get__multiplayerAvatarData_k_
 /// @brief Method HasState addr 0xda6c04 size 0x8 virtual true final true
  bool HasState(::StringW state) ;
 
-// Ctor Parameters [CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sortIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DisconnectedPlayer(::StringW userId, ::StringW userName, int32_t sortIndex) ;
+static GlobalNamespace::DisconnectedPlayer New_ctor(::StringW userId, ::StringW userName, int32_t sortIndex) ;
 
 /// @brief Method .ctor addr 0xda6c0c size 0x5c virtual false final false
  void _ctor(::StringW userId, ::StringW userName, int32_t sortIndex) ;

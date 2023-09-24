@@ -1,19 +1,20 @@
 #pragma once
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__ElementSelection_def.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/zzzz__ElementSelection_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EdgeLookup_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
-#include "System/zzzz__Comparison_1_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c._ctor
 template<>
 
@@ -359,8 +360,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ProBuilder:
  System::Comparison_1<UnityEngine::ProBuilder::SimpleTuple_2<int32_t,int32_t>> UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c::__get___9__27_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::ProBuilder::SimpleTuple_2<int32_t,int32_t>>, "<>9__27_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__ElementSelection____c>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c>::get(),
@@ -536,8 +539,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder_
 constexpr UnityEngine::ProBuilder::Face UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0::__get_face() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::Face, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0 UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0>::get(),
@@ -625,8 +630,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder_
 constexpr System::Func_2<UnityEngine::ProBuilder::WingedEdge,bool> UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0::__get___9__2() const {
 return ::cordl_internals::getInstanceField<System::Func_2<UnityEngine::ProBuilder::WingedEdge,bool>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0 UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0>::get(),

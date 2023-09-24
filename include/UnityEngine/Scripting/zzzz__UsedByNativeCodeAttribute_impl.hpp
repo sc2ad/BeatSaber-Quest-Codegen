@@ -58,8 +58,10 @@ constexpr void UnityEngine::Scripting::UsedByNativeCodeAttribute::__set__Name_k_
 constexpr ::StringW UnityEngine::Scripting::UsedByNativeCodeAttribute::__get__Name_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Scripting::UsedByNativeCodeAttribute::UsedByNativeCodeAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<UsedByNativeCodeAttribute>())) {}
+ UnityEngine::Scripting::UsedByNativeCodeAttribute UnityEngine::Scripting::UsedByNativeCodeAttribute::New_ctor()  {
+UnityEngine::Scripting::UsedByNativeCodeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Scripting::UsedByNativeCodeAttribute>())};
+return o;
+}
  void UnityEngine::Scripting::UsedByNativeCodeAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Scripting::UsedByNativeCodeAttribute>::get(),
@@ -69,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Scripting::UsedByNativeCodeAttribute::UsedByNativeCodeAttribute(::StringW name)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<UsedByNativeCodeAttribute>(name))) {}
+ UnityEngine::Scripting::UsedByNativeCodeAttribute UnityEngine::Scripting::UsedByNativeCodeAttribute::New_ctor(::StringW name)  {
+UnityEngine::Scripting::UsedByNativeCodeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Scripting::UsedByNativeCodeAttribute>(name))};
+return o;
+}
  void UnityEngine::Scripting::UsedByNativeCodeAttribute::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Scripting::UsedByNativeCodeAttribute>::get(),

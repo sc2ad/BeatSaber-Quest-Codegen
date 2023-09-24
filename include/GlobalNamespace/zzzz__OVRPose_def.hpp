@@ -6,11 +6,11 @@
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Posef;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {

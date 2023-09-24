@@ -68,8 +68,7 @@ constexpr GlobalNamespace::ComboController __get__comboController() const;
 /// @brief Method HandleComboBreakingEventHappened addr 0x20d65d4 size 0x3c virtual false final false
  void HandleComboBreakingEventHappened() ;
 
-// Ctor Parameters []
-explicit FullComboMissionObjectiveChecker() ;
+static GlobalNamespace::FullComboMissionObjectiveChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d6610 size 0x8 virtual false final false
  void _ctor() ;

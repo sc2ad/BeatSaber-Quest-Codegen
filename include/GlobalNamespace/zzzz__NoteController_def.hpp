@@ -5,15 +5,65 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidDissolveEvent;
+}
+namespace GlobalNamespace {
+class INoteMirrorable;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__NoteController___DissolveCoroutine_d__73;
+}
+namespace GlobalNamespace {
+template<typename T>
+class ILazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteWasCutEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteWasMissedEvent;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectController;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartJumpEvent;
+}
+namespace GlobalNamespace {
+class NoteMovement;
+}
+namespace GlobalNamespace {
+template<typename T>
+class LazyCopyHashSet_1;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
@@ -22,54 +72,7 @@ namespace GlobalNamespace {
 class INoteControllerNoteDidFinishJumpEvent;
 }
 namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartJumpEvent;
-}
-namespace GlobalNamespace {
-class INoteMirrorable;
-}
-namespace GlobalNamespace {
-class NoteMovement;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteWasMissedEvent;
-}
-namespace GlobalNamespace {
-template<typename T>
-class LazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidDissolveEvent;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
-template<typename T>
-class ILazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
-}
-namespace GlobalNamespace {
-class IBeatmapObjectController;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteWasCutEvent;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -163,8 +166,7 @@ constexpr float_t __get_duration() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__NoteController___DissolveCoroutine_d__73(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__NoteController___DissolveCoroutine_d__73 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x223f708 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -499,8 +501,7 @@ constexpr float_t __get__uniformScale() const;
 /// @brief Method Pause addr 0x0 size 0xffffffffffffffff virtual true final false
  void Pause(bool pause) ;
 
-// Ctor Parameters []
-explicit NoteController() ;
+static GlobalNamespace::NoteController New_ctor() ;
 
 /// @brief Method .ctor addr 0x223d214 size 0x258 virtual false final false
  void _ctor() ;

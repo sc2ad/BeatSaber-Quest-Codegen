@@ -63,8 +63,7 @@ constexpr float_t __get_max() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "min", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "float_t", modifiers: "", def_value: None }]
-explicit RangeAttribute(float_t min, float_t max) ;
+static UnityEngine::RangeAttribute New_ctor(float_t min, float_t max) ;
 
 /// @brief Method .ctor addr 0x2b54ea4 size 0x2c virtual false final false
  void _ctor(float_t min, float_t max) ;

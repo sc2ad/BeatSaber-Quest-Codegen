@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Xml::XPath {
-class XPathDocument;
-}
 namespace MS::Internal::Xml::Cache {
 class XPathNodeInfoAtom;
 }
 namespace System::Xml::XPath {
 struct XPathNodeType;
+}
+namespace System::Xml::XPath {
+class XPathDocument;
 }
 namespace MS::Internal::Xml::Cache {
 class XPathNodePageInfo;

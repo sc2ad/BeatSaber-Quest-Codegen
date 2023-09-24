@@ -109,8 +109,10 @@ constexpr void System::OrdinalComparer::__set__ignoreCase(bool value)  {
 constexpr bool System::OrdinalComparer::__get__ignoreCase() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ignoreCase", ty: "bool", modifiers: "", def_value: None }]
- System::OrdinalComparer::OrdinalComparer(bool ignoreCase)  : System::StringComparer(THROW_UNLESS(::il2cpp_utils::New<OrdinalComparer>(ignoreCase))) {}
+ System::OrdinalComparer System::OrdinalComparer::New_ctor(bool ignoreCase)  {
+System::OrdinalComparer o{THROW_UNLESS(::il2cpp_utils::New<System::OrdinalComparer>(ignoreCase))};
+return o;
+}
  void System::OrdinalComparer::_ctor(bool ignoreCase)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OrdinalComparer>::get(),

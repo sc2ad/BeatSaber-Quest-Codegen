@@ -3,15 +3,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+struct GlobalNamespace__MissionObjectiveChecker__Status;
 }
 namespace GlobalNamespace {
 class MissionObjectiveTypeSO;
 }
 namespace GlobalNamespace {
 class MissionObjective;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -72,6 +75,8 @@ __Failed = 4,
 constexpr operator __GlobalNamespace__MissionObjectiveChecker__Status_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MissionObjectiveChecker__Status_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -245,8 +250,7 @@ constexpr bool __get__disableChecking() const;
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
  void Init() ;
 
-// Ctor Parameters []
-explicit MissionObjectiveChecker() ;
+static GlobalNamespace::MissionObjectiveChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d63f4 size 0x8 virtual false final false
  void _ctor() ;

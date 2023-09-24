@@ -25,8 +25,10 @@ constexpr void System::Runtime::InteropServices::UnmanagedFunctionPointerAttribu
 constexpr System::Runtime::InteropServices::CallingConvention System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::__get_m_callingConvention() const {
 return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::CallingConvention, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "callingConvention", ty: "System::Runtime::InteropServices::CallingConvention", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::UnmanagedFunctionPointerAttribute(System::Runtime::InteropServices::CallingConvention callingConvention)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<UnmanagedFunctionPointerAttribute>(callingConvention))) {}
+ System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::New_ctor(System::Runtime::InteropServices::CallingConvention callingConvention)  {
+System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute>(callingConvention))};
+return o;
+}
  void System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::_ctor(System::Runtime::InteropServices::CallingConvention callingConvention)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute>::get(),

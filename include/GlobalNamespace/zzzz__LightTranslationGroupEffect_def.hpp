@@ -4,10 +4,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Transform;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+class Transform;
 }
 namespace Tweening {
 class FloatTween;
@@ -15,32 +15,38 @@ class FloatTween;
 namespace GlobalNamespace {
 class LightTranslationBeatmapEventData;
 }
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace GlobalNamespace {
+template<typename T>
+class BeatmapDataCallback_1;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-struct EaseType;
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LightTranslationGroupEffect__InitData;
 }
 namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-template<typename T>
-class BeatmapDataCallback_1;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
+class GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -181,8 +187,7 @@ constexpr UnityEngine::Vector2 __get_zDistributionLimits() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "xMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "yMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "zMirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "xTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "yTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "zTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "xTranslationLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "xDistributionLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "yTranslationLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "yDistributionLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "zTranslationLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "zDistributionLimits", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LightTranslationGroupEffect__InitData(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, UnityEngine::Transform xTransform, UnityEngine::Transform yTransform, UnityEngine::Transform zTransform, UnityEngine::Vector2 xTranslationLimits, UnityEngine::Vector2 xDistributionLimits, UnityEngine::Vector2 yTranslationLimits, UnityEngine::Vector2 yDistributionLimits, UnityEngine::Vector2 zTranslationLimits, UnityEngine::Vector2 zDistributionLimits) ;
+static GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData New_ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, UnityEngine::Transform xTransform, UnityEngine::Transform yTransform, UnityEngine::Transform zTransform, UnityEngine::Vector2 xTranslationLimits, UnityEngine::Vector2 xDistributionLimits, UnityEngine::Vector2 yTranslationLimits, UnityEngine::Vector2 yDistributionLimits, UnityEngine::Vector2 zTranslationLimits, UnityEngine::Vector2 zDistributionLimits) ;
 
 /// @brief Method .ctor addr 0x22606e0 size 0xd8 virtual false final false
  void _ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, UnityEngine::Transform xTransform, UnityEngine::Transform yTransform, UnityEngine::Transform zTransform, UnityEngine::Vector2 xTranslationLimits, UnityEngine::Vector2 xDistributionLimits, UnityEngine::Vector2 yTranslationLimits, UnityEngine::Vector2 yDistributionLimits, UnityEngine::Vector2 zTranslationLimits, UnityEngine::Vector2 zDistributionLimits) ;
@@ -266,8 +271,7 @@ constexpr GlobalNamespace::LightTranslationGroupEffect __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0() ;
+static GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect____c__DisplayClass12_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2260488 size 0x8 virtual false final false
  void _ctor() ;
@@ -382,8 +386,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__lightTranslationZBe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "tweeningManager", ty: "Tweening::SongTimeTweeningManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }]
-explicit LightTranslationGroupEffect(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
+static GlobalNamespace::LightTranslationGroupEffect New_ctor(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
 
 /// @brief Method .ctor addr 0x225f870 size 0xac0 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__LightTranslationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;

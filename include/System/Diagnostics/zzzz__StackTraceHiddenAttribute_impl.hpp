@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Diagnostics::StackTraceHiddenAttribute::StackTraceHiddenAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<StackTraceHiddenAttribute>())) {}
+ System::Diagnostics::StackTraceHiddenAttribute System::Diagnostics::StackTraceHiddenAttribute::New_ctor()  {
+System::Diagnostics::StackTraceHiddenAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::StackTraceHiddenAttribute>())};
+return o;
+}
  void System::Diagnostics::StackTraceHiddenAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::StackTraceHiddenAttribute>::get(),

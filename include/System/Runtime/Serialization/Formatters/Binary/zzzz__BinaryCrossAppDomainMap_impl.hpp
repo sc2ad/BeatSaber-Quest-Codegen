@@ -58,8 +58,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryCrossAp
 constexpr int32_t System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::__get_crossAppDomainArrayIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::BinaryCrossAppDomainMap()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryCrossAppDomainMap>())) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap>::get(),

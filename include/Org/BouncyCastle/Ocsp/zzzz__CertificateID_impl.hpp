@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Ocsp/zzzz__CertificateID_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__CertID_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::CertificateID._ctor
 template<>
 
@@ -215,8 +215,10 @@ constexpr void Org::BouncyCastle::Ocsp::CertificateID::__set_id(Org::BouncyCastl
 constexpr Org::BouncyCastle::Asn1::Ocsp::CertID Org::BouncyCastle::Ocsp::CertificateID::__get_id() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Ocsp::CertID, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Ocsp::CertID", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::CertificateID::CertificateID(Org::BouncyCastle::Asn1::Ocsp::CertID id)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertificateID>(id))) {}
+ Org::BouncyCastle::Ocsp::CertificateID Org::BouncyCastle::Ocsp::CertificateID::New_ctor(Org::BouncyCastle::Asn1::Ocsp::CertID id)  {
+Org::BouncyCastle::Ocsp::CertificateID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::CertificateID>(id))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::CertificateID::_ctor(Org::BouncyCastle::Asn1::Ocsp::CertID id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::CertificateID>::get(),
@@ -226,8 +228,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, id);
 }
-// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "issuerCert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::CertificateID::CertificateID(::StringW hashAlgorithm, Org::BouncyCastle::X509::X509Certificate issuerCert, Org::BouncyCastle::Math::BigInteger serialNumber)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertificateID>(hashAlgorithm, issuerCert, serialNumber))) {}
+ Org::BouncyCastle::Ocsp::CertificateID Org::BouncyCastle::Ocsp::CertificateID::New_ctor(::StringW hashAlgorithm, Org::BouncyCastle::X509::X509Certificate issuerCert, Org::BouncyCastle::Math::BigInteger serialNumber)  {
+Org::BouncyCastle::Ocsp::CertificateID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::CertificateID>(hashAlgorithm, issuerCert, serialNumber))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::CertificateID::_ctor(::StringW hashAlgorithm, Org::BouncyCastle::X509::X509Certificate issuerCert, Org::BouncyCastle::Math::BigInteger serialNumber)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::CertificateID>::get(),

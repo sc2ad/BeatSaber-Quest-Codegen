@@ -41,7 +41,13 @@ namespace cordl_internals {
 
   static_assert(il2cpp_reference_type<::bs_hook::Il2CppWrapperType>, "Il2CppWrapperType did not match the il2cpp_reference_type concept!"); // wrappertype should match reference type always
 
-    template<typename T>
+  template <class T, class U>
+  concept is_or_is_backed_by =
+      std::is_same_v<T, U> || (requires {
+        typename T::__CORDL_BACKING_ENUM_TYPE;
+      } && std::is_same_v<typename T::__CORDL_BACKING_ENUM_TYPE, U>);
+
+    template <typename T>
     concept il2cpp_convertible = requires(T const& t) {
         {t.convert()} -> convertible_to<void*>;
     };

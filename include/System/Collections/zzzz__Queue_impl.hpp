@@ -1,10 +1,11 @@
 #pragma once
 #include "System/Collections/zzzz__Queue_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__Queue_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: System::Collections::System__Collections__Queue__QueueEnumerator._ctor
 template<>
 
@@ -122,8 +123,10 @@ constexpr void System::Collections::System__Collections__Queue__QueueEnumerator:
 constexpr ::bs_hook::Il2CppWrapperType System::Collections::System__Collections__Queue__QueueEnumerator::__get__currentElement() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "q", ty: "System::Collections::Queue", modifiers: "", def_value: None }]
- System::Collections::System__Collections__Queue__QueueEnumerator::System__Collections__Queue__QueueEnumerator(System::Collections::Queue q)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__Queue__QueueEnumerator>(q))) {}
+ System::Collections::System__Collections__Queue__QueueEnumerator System::Collections::System__Collections__Queue__QueueEnumerator::New_ctor(System::Collections::Queue q)  {
+System::Collections::System__Collections__Queue__QueueEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::System__Collections__Queue__QueueEnumerator>(q))};
+return o;
+}
  void System::Collections::System__Collections__Queue__QueueEnumerator::_ctor(System::Collections::Queue q)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::System__Collections__Queue__QueueEnumerator>::get(),
@@ -478,8 +481,10 @@ constexpr void System::Collections::Queue::__set__syncRoot(::bs_hook::Il2CppWrap
 constexpr ::bs_hook::Il2CppWrapperType System::Collections::Queue::__get__syncRoot() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::Queue::Queue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Queue>())) {}
+ System::Collections::Queue System::Collections::Queue::New_ctor()  {
+System::Collections::Queue o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Queue>())};
+return o;
+}
  void System::Collections::Queue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Queue>::get(),
@@ -489,8 +494,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Collections::Queue::Queue(int32_t capacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Queue>(capacity))) {}
+ System::Collections::Queue System::Collections::Queue::New_ctor(int32_t capacity)  {
+System::Collections::Queue o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Queue>(capacity))};
+return o;
+}
  void System::Collections::Queue::_ctor(int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Queue>::get(),
@@ -500,8 +507,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "growFactor", ty: "float_t", modifiers: "", def_value: None }]
- System::Collections::Queue::Queue(int32_t capacity, float_t growFactor)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Queue>(capacity, growFactor))) {}
+ System::Collections::Queue System::Collections::Queue::New_ctor(int32_t capacity, float_t growFactor)  {
+System::Collections::Queue o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Queue>(capacity, growFactor))};
+return o;
+}
  void System::Collections::Queue::_ctor(int32_t capacity, float_t growFactor)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Queue>::get(),
@@ -511,8 +520,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity, growFactor);
 }
-// Ctor Parameters [CppParam { name: "col", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
- System::Collections::Queue::Queue(System::Collections::ICollection col)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Queue>(col))) {}
+ System::Collections::Queue System::Collections::Queue::New_ctor(System::Collections::ICollection col)  {
+System::Collections::Queue o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Queue>(col))};
+return o;
+}
  void System::Collections::Queue::_ctor(System::Collections::ICollection col)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Queue>::get(),

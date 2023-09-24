@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Net::NetworkInformation {
-class IPInterfaceProperties;
+struct OperationalStatus;
 }
 namespace System::Net::NetworkInformation {
-struct OperationalStatus;
+class IPInterfaceProperties;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -75,8 +75,7 @@ constexpr int32_t __get__ifru_mtu() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ifa_flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ifru_mtu", ty: "int32_t", modifiers: "", def_value: None }]
-explicit AixNetworkInterface(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu) ;
+static System::Net::NetworkInformation::AixNetworkInterface New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu) ;
 
 /// @brief Method .ctor addr 0x285b098 size 0x28 virtual false final false
  void _ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu) ;

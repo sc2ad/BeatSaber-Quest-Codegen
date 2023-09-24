@@ -3,8 +3,11 @@
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System {
-class Type;
+class Exception;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -12,11 +15,8 @@ class SerializationInfo;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System {
-class Exception;
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -89,14 +89,12 @@ constexpr ::ArrayW<System::Exception> __get__LoaderExceptions_k__BackingField() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "classes", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }, CppParam { name: "exceptions", ty: "::ArrayW<System::Exception>", modifiers: "", def_value: None }]
-explicit ReflectionTypeLoadException(::ArrayW<System::Type> classes, ::ArrayW<System::Exception> exceptions) ;
+static System::Reflection::ReflectionTypeLoadException New_ctor(::ArrayW<System::Type> classes, ::ArrayW<System::Exception> exceptions) ;
 
 /// @brief Method .ctor addr 0x237c898 size 0x3c virtual false final false
  void _ctor(::ArrayW<System::Type> classes, ::ArrayW<System::Exception> exceptions) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ReflectionTypeLoadException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Reflection::ReflectionTypeLoadException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x237c8d4 size 0x138 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

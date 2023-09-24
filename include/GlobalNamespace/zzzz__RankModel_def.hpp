@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__RankModel__Rank;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__RankModel__Rank;
@@ -66,6 +69,8 @@ __SSS = 7,
 constexpr operator __GlobalNamespace__RankModel__Rank_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__RankModel__Rank_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

@@ -105,8 +105,7 @@ constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "bitBlockSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CfbBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t bitBlockSize) ;
+static Org::BouncyCastle::Crypto::Modes::CfbBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t bitBlockSize) ;
 
 /// @brief Method .ctor addr 0xe8afec size 0x284 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t bitBlockSize) ;

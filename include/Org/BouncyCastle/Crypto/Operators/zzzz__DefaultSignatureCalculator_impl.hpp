@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__DefaultSignatureCalculator_def.hpp"
-#include "Org/BouncyCastle/Crypto/IO/zzzz__SignerSink_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
+#include "Org/BouncyCastle/Crypto/IO/zzzz__SignerSink_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator._ctor
 template<>
 
@@ -65,8 +65,10 @@ constexpr void Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator:
 constexpr Org::BouncyCastle::Crypto::IO::SignerSink Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::__get_mSignerSink() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IO::SignerSink, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::DefaultSignatureCalculator(Org::BouncyCastle::Crypto::ISigner signer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultSignatureCalculator>(signer))) {}
+ Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::New_ctor(Org::BouncyCastle::Crypto::ISigner signer)  {
+Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator>(signer))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::_ctor(Org::BouncyCastle::Crypto::ISigner signer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator>::get(),

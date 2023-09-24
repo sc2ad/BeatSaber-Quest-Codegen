@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 // Forward declare root types
 namespace System {
@@ -61,8 +61,7 @@ constexpr explicit OrdinalIgnoreCaseComparer(void* ptr) noexcept : System::Ordin
 
 // Methods
 
-// Ctor Parameters []
-explicit OrdinalIgnoreCaseComparer() ;
+static System::OrdinalIgnoreCaseComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2456f98 size 0x8 virtual false final false
  void _ctor() ;

@@ -120,8 +120,7 @@ constexpr UnityEngine::Vector3 __get__randomizedMultiplier() const;
 /// @brief Method Randomize addr 0x1f7a0bc size 0x68 virtual false final false
  void Randomize() ;
 
-// Ctor Parameters []
-explicit Rotate() ;
+static GlobalNamespace::Rotate New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7a1ec size 0x80 virtual false final false
  void _ctor() ;

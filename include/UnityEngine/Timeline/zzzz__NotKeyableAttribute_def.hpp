@@ -47,8 +47,7 @@ constexpr explicit NotKeyableAttribute(void* ptr) noexcept : System::Attribute(p
 
 // Methods
 
-// Ctor Parameters []
-explicit NotKeyableAttribute() ;
+static UnityEngine::Timeline::NotKeyableAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad5d44 size 0x8 virtual false final false
  void _ctor() ;

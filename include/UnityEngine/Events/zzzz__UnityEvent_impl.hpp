@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__UnityEventBase_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 //  Writing Method size for method: UnityEngine::Events::UnityEvent._ctor
@@ -130,8 +130,10 @@ constexpr void UnityEngine::Events::UnityEvent::__set_m_InvokeArray(::ArrayW<::b
 constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> UnityEngine::Events::UnityEvent::__get_m_InvokeArray() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Events::UnityEvent::UnityEvent()  : UnityEngine::Events::UnityEventBase(THROW_UNLESS(::il2cpp_utils::New<UnityEvent>())) {}
+ UnityEngine::Events::UnityEvent UnityEngine::Events::UnityEvent::New_ctor()  {
+UnityEngine::Events::UnityEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Events::UnityEvent>())};
+return o;
+}
  void UnityEngine::Events::UnityEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::UnityEvent>::get(),

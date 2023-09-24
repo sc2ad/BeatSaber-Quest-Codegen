@@ -3,14 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+class KeyNotFoundException;
+}
 namespace System {
 class InvalidOperationException;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-class ArgumentException;
 }
 namespace System {
 class Array;
@@ -19,19 +16,22 @@ namespace System {
 class Type;
 }
 namespace System {
-class ArgumentOutOfRangeException;
-}
-namespace System::Collections::Generic {
-class KeyNotFoundException;
-}
-namespace System {
-struct ExceptionArgument;
+struct ExceptionResource;
 }
 namespace System {
 class ArgumentNullException;
 }
 namespace System {
-struct ExceptionResource;
+struct ExceptionArgument;
+}
+namespace System {
+class ArgumentException;
+}
+namespace System {
+class ArgumentOutOfRangeException;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System {

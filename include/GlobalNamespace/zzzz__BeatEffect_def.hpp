@@ -3,31 +3,34 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class SpriteRenderer;
-}
 namespace GlobalNamespace {
 class IBeatEffectDidFinishEvent;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 namespace GlobalNamespace {
 template<typename T>
 class ILazyCopyHashSet_1;
 }
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+class SpriteRenderer;
 }
 namespace GlobalNamespace {
 template<typename T>
 class LazyCopyHashSet_1;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatEffect__Pool;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -166,8 +169,7 @@ constexpr UnityEngine::Color __get__color() const;
 /// @brief Method ManualUpdate addr 0x224d6f8 size 0x2dc virtual false final false
  void ManualUpdate(float_t deltaTime) ;
 
-// Ctor Parameters []
-explicit BeatEffect() ;
+static GlobalNamespace::BeatEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x224d9d4 size 0x7c virtual false final false
  void _ctor() ;
@@ -179,7 +181,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2704 }), TypeDefinitionIndex(TypeDefinitionIndex(4952)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4952)), TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2704 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4951))
 // CS Name: BeatEffect::Pool
 class CORDL_TYPE GlobalNamespace__BeatEffect__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::BeatEffect> {
@@ -218,8 +220,7 @@ constexpr explicit GlobalNamespace__BeatEffect__Pool(void* ptr) noexcept : Zenje
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatEffect__Pool() ;
+static GlobalNamespace::GlobalNamespace__BeatEffect__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x224da50 size 0x48 virtual false final false
  void _ctor() ;

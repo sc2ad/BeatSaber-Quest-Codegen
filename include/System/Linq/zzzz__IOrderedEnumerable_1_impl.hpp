@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Linq/zzzz__IOrderedEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 /// @brief Convert operator to System::Collections::Generic::IEnumerable_1<TElement>
 constexpr  System::Linq::IOrderedEnumerable_1::operator System::Collections::Generic::IEnumerable_1<TElement>() const noexcept {
 return System::Collections::Generic::IEnumerable_1<TElement>(::bs_hook::Il2CppWrapperType::instance);

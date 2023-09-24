@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::SelectionBaseAttribute::SelectionBaseAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<SelectionBaseAttribute>())) {}
+ UnityEngine::SelectionBaseAttribute UnityEngine::SelectionBaseAttribute::New_ctor()  {
+UnityEngine::SelectionBaseAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::SelectionBaseAttribute>())};
+return o;
+}
  void UnityEngine::SelectionBaseAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SelectionBaseAttribute>::get(),

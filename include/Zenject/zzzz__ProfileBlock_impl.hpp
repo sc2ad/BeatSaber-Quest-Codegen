@@ -165,8 +165,10 @@ return System::IDisposable(::bs_hook::Il2CppWrapperType::instance);
  System::Text::RegularExpressions::Regex Zenject::ProfileBlock::__get__ProfilePattern_k__BackingField()  {
 return ::cordl_internals::getStaticField<System::Text::RegularExpressions::Regex, "<ProfilePattern>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ProfileBlock>::get>();
 }
-// Ctor Parameters [CppParam { name: "sampleName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rootBlock", ty: "bool", modifiers: "", def_value: None }]
- Zenject::ProfileBlock::ProfileBlock(::StringW sampleName, bool rootBlock)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProfileBlock>(sampleName, rootBlock))) {}
+ Zenject::ProfileBlock Zenject::ProfileBlock::New_ctor(::StringW sampleName, bool rootBlock)  {
+Zenject::ProfileBlock o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ProfileBlock>(sampleName, rootBlock))};
+return o;
+}
  void Zenject::ProfileBlock::_ctor(::StringW sampleName, bool rootBlock)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ProfileBlock>::get(),
@@ -176,8 +178,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sampleName, rootBlock);
 }
-// Ctor Parameters [CppParam { name: "sampleName", ty: "::StringW", modifiers: "", def_value: None }]
- Zenject::ProfileBlock::ProfileBlock(::StringW sampleName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProfileBlock>(sampleName))) {}
+ Zenject::ProfileBlock Zenject::ProfileBlock::New_ctor(::StringW sampleName)  {
+Zenject::ProfileBlock o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ProfileBlock>(sampleName))};
+return o;
+}
  void Zenject::ProfileBlock::_ctor(::StringW sampleName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ProfileBlock>::get(),

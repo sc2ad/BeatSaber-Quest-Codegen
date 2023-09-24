@@ -2,14 +2,15 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__EulaViewController_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "HMUI/zzzz__TextPageScrollView_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__EulaViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "HMUI/zzzz__TextPageScrollView_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -46,8 +47,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EulaViewController__InitData::_
 constexpr bool GlobalNamespace::GlobalNamespace__EulaViewController__InitData::__get_showDoNotAgreeButton() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "showDoNotAgreeButton", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__EulaViewController__InitData::GlobalNamespace__EulaViewController__InitData(bool showDoNotAgreeButton)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EulaViewController__InitData>(showDoNotAgreeButton))) {}
+ GlobalNamespace::GlobalNamespace__EulaViewController__InitData GlobalNamespace::GlobalNamespace__EulaViewController__InitData::New_ctor(bool showDoNotAgreeButton)  {
+GlobalNamespace::GlobalNamespace__EulaViewController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EulaViewController__InitData>(showDoNotAgreeButton))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EulaViewController__InitData::_ctor(bool showDoNotAgreeButton)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EulaViewController__InitData>::get(),
@@ -207,8 +210,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EulaViewController___EnableButt
 constexpr float_t GlobalNamespace::GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22::__get__elapsedTime_5__3() const {
 return ::cordl_internals::getInstanceField<float_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22::GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22 GlobalNamespace::GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EulaViewController___EnableButtonsCoroutine_d__22>::get(),
@@ -577,8 +582,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, delay);
 }
-// Ctor Parameters []
- GlobalNamespace::EulaViewController::EulaViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<EulaViewController>())) {}
+ GlobalNamespace::EulaViewController GlobalNamespace::EulaViewController::New_ctor()  {
+GlobalNamespace::EulaViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EulaViewController>())};
+return o;
+}
  void GlobalNamespace::EulaViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EulaViewController>::get(),

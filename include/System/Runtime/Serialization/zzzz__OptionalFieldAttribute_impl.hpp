@@ -41,8 +41,10 @@ constexpr void System::Runtime::Serialization::OptionalFieldAttribute::__set_ver
 constexpr int32_t System::Runtime::Serialization::OptionalFieldAttribute::__get_versionAdded() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::OptionalFieldAttribute::OptionalFieldAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<OptionalFieldAttribute>())) {}
+ System::Runtime::Serialization::OptionalFieldAttribute System::Runtime::Serialization::OptionalFieldAttribute::New_ctor()  {
+System::Runtime::Serialization::OptionalFieldAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::OptionalFieldAttribute>())};
+return o;
+}
  void System::Runtime::Serialization::OptionalFieldAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::OptionalFieldAttribute>::get(),

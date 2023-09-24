@@ -2,14 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class IHealthCheckService;
-}
 namespace System::Threading {
 class Thread;
-}
-namespace System {
-class IDisposable;
 }
 namespace GlobalNamespace {
 class IPollable;
@@ -17,8 +11,14 @@ class IPollable;
 namespace System::Threading {
 class ManualResetEvent;
 }
+namespace GlobalNamespace {
+class IHealthCheckService;
+}
 namespace System::Net {
 class HttpListener;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -111,8 +111,7 @@ constexpr System::Net::HttpListener __get__listener() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HealthCheckService(int32_t port) ;
+static GlobalNamespace::HealthCheckService New_ctor(int32_t port) ;
 
 /// @brief Method .ctor addr 0xdaf44c size 0x104 virtual false final false
  void _ctor(int32_t port) ;

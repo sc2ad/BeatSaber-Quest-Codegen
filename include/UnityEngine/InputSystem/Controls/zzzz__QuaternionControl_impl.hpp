@@ -303,8 +303,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::QuaternionControl::QuaternionControl()  : UnityEngine::InputSystem::InputControl_1<UnityEngine::Quaternion>(THROW_UNLESS(::il2cpp_utils::New<QuaternionControl>())) {}
+ UnityEngine::InputSystem::Controls::QuaternionControl UnityEngine::InputSystem::Controls::QuaternionControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::QuaternionControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::QuaternionControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::QuaternionControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::QuaternionControl>::get(),

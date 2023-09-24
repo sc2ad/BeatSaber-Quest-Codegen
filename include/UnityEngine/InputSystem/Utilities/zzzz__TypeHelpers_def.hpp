@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System {
+struct TypeCode;
+}
 namespace System::Reflection {
 class MemberInfo;
 }
 namespace System {
 class Type;
-}
-namespace System {
-struct TypeCode;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

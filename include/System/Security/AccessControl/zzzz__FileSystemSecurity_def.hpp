@@ -6,8 +6,8 @@
 namespace System::Security::AccessControl {
 struct AccessControlSections;
 }
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
+namespace System::Security::Principal {
+class IdentityReference;
 }
 namespace System::Security::AccessControl {
 struct PropagationFlags;
@@ -16,10 +16,10 @@ namespace System::Security::AccessControl {
 struct AccessControlType;
 }
 namespace System::Security::AccessControl {
-class AccessRule;
+struct InheritanceFlags;
 }
-namespace System::Security::Principal {
-class IdentityReference;
+namespace System::Security::AccessControl {
+class AccessRule;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -67,8 +67,7 @@ constexpr explicit FileSystemSecurity(void* ptr) noexcept : System::Security::Ac
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }]
-explicit FileSystemSecurity(bool isContainer, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;
+static System::Security::AccessControl::FileSystemSecurity New_ctor(bool isContainer, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;
 
 /// @brief Method .ctor addr 0x2318174 size 0x18 virtual false final false
  void _ctor(bool isContainer, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections) ;

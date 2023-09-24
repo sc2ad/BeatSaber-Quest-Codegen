@@ -5,25 +5,31 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class IFocusRing;
+class VisualElementFocusRing;
 }
 namespace UnityEngine::UIElements {
 class Focusable;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
-}
-namespace UnityEngine::UIElements {
-class VisualElementFocusRing;
+class UnityEngine__UIElements__NavigateFocusRing__ChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
 class FocusChangeDirection;
+}
+namespace UnityEngine::UIElements {
+class FocusController;
+}
+namespace UnityEngine::UIElements {
+class IFocusRing;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__NavigateFocusRing__FocusableHierarchyTraversal;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine {
 struct Rect;
@@ -80,8 +86,7 @@ constexpr explicit UnityEngine__UIElements__NavigateFocusRing__ChangeDirection(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__NavigateFocusRing__ChangeDirection(int32_t i) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__NavigateFocusRing__ChangeDirection New_ctor(int32_t i) ;
 
 /// @brief Method .ctor addr 0x2ca1794 size 0x68 virtual false final false
  void _ctor(int32_t i) ;
@@ -293,8 +298,7 @@ constexpr UnityEngine::UIElements::VisualElementFocusRing __get_m_Ring() const;
 /// @brief Method get_focusController addr 0x2ca0490 size 0x24 virtual false final false
  UnityEngine::UIElements::FocusController get_focusController() ;
 
-// Ctor Parameters [CppParam { name: "root", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }]
-explicit NavigateFocusRing(UnityEngine::UIElements::VisualElement root) ;
+static UnityEngine::UIElements::NavigateFocusRing New_ctor(UnityEngine::UIElements::VisualElement root) ;
 
 /// @brief Method .ctor addr 0x2c9f978 size 0x84 virtual false final false
  void _ctor(UnityEngine::UIElements::VisualElement root) ;

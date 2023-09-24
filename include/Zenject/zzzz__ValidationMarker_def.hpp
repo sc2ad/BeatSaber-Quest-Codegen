@@ -72,14 +72,12 @@ constexpr System::Type __get__MarkedType_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "markedType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "instantiateFailed", ty: "bool", modifiers: "", def_value: None }]
-explicit ValidationMarker(System::Type markedType, bool instantiateFailed) ;
+static Zenject::ValidationMarker New_ctor(System::Type markedType, bool instantiateFailed) ;
 
 /// @brief Method .ctor addr 0x2da7e20 size 0x34 virtual false final false
  void _ctor(System::Type markedType, bool instantiateFailed) ;
 
-// Ctor Parameters [CppParam { name: "markedType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit ValidationMarker(System::Type markedType) ;
+static Zenject::ValidationMarker New_ctor(System::Type markedType) ;
 
 /// @brief Method .ctor addr 0x2d8c9a4 size 0x2c virtual false final false
  void _ctor(System::Type markedType) ;

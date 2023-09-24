@@ -136,14 +136,12 @@ static constexpr int32_t  DuplicateCertReq{536870912};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PkiFailureInfo(int32_t info) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo New_ctor(int32_t info) ;
 
 /// @brief Method .ctor addr 0xdde154 size 0x64 virtual false final false
  void _ctor(int32_t info) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit PkiFailureInfo(Org::BouncyCastle::Asn1::DerBitString info) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo New_ctor(Org::BouncyCastle::Asn1::DerBitString info) ;
 
 /// @brief Method .ctor addr 0xdde1b8 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerBitString info) ;

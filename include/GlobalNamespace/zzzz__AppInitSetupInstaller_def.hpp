@@ -50,8 +50,7 @@ constexpr explicit AppInitSetupInstaller(void* ptr) noexcept : Zenject::MonoInst
 /// @brief Method InstallBindings addr 0x20b46d4 size 0x68 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit AppInitSetupInstaller() ;
+static GlobalNamespace::AppInitSetupInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b473c size 0x8 virtual false final false
  void _ctor() ;

@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__UISystemProfilerApi_def.hpp"
+#include "UnityEngine/zzzz__UISystemProfilerApi_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UnityEngine__UISystemProfilerApi__SampleType::UnityEngine__UISystemProfilerApi__SampleType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;

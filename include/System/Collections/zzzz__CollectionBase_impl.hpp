@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Collections/zzzz__CollectionBase_def.hpp"
-#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Collections::CollectionBase._ctor
 template<>
 
@@ -500,8 +500,10 @@ constexpr void System::Collections::CollectionBase::__set__list(System::Collecti
 constexpr System::Collections::ArrayList System::Collections::CollectionBase::__get__list() const {
 return ::cordl_internals::getInstanceField<System::Collections::ArrayList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::CollectionBase::CollectionBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CollectionBase>())) {}
+ System::Collections::CollectionBase System::Collections::CollectionBase::New_ctor()  {
+System::Collections::CollectionBase o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::CollectionBase>())};
+return o;
+}
  void System::Collections::CollectionBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::CollectionBase>::get(),

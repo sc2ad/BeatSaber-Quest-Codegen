@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapIdentifierNetSerializable.get_levelID
 template<>
 
@@ -323,8 +323,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapIdentifierNetSerializable::BeatmapIdentifierNetSerializable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapIdentifierNetSerializable>())) {}
+ GlobalNamespace::BeatmapIdentifierNetSerializable GlobalNamespace::BeatmapIdentifierNetSerializable::New_ctor()  {
+GlobalNamespace::BeatmapIdentifierNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapIdentifierNetSerializable>())};
+return o;
+}
  void GlobalNamespace::BeatmapIdentifierNetSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapIdentifierNetSerializable>::get(),
@@ -334,8 +336,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicSerializedName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapIdentifierNetSerializable::BeatmapIdentifierNetSerializable(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, GlobalNamespace::BeatmapDifficulty difficulty)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapIdentifierNetSerializable>(levelID, beatmapCharacteristicSerializedName, difficulty))) {}
+ GlobalNamespace::BeatmapIdentifierNetSerializable GlobalNamespace::BeatmapIdentifierNetSerializable::New_ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, GlobalNamespace::BeatmapDifficulty difficulty)  {
+GlobalNamespace::BeatmapIdentifierNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapIdentifierNetSerializable>(levelID, beatmapCharacteristicSerializedName, difficulty))};
+return o;
+}
  void GlobalNamespace::BeatmapIdentifierNetSerializable::_ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, GlobalNamespace::BeatmapDifficulty difficulty)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapIdentifierNetSerializable>::get(),

@@ -10,7 +10,7 @@ class DestinationList;
 // Type: Oculus.Platform.Models::DestinationList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1136 }), TypeDefinitionIndex(TypeDefinitionIndex(13411))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13411)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1136 }), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13412))
 // CS Name: Oculus.Platform.Models.DestinationList
 class CORDL_TYPE DestinationList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Destination> {
@@ -49,8 +49,7 @@ constexpr explicit DestinationList(void* ptr) noexcept : Oculus::Platform::Model
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit DestinationList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::DestinationList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259e8c4 size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

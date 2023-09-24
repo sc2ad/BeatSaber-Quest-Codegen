@@ -7,13 +7,16 @@ namespace System::Xml::Schema {
 class Positions;
 }
 namespace System::Xml::Schema {
-class BitSet;
-}
-namespace System::Xml::Schema {
 class InteriorNode;
 }
 namespace System::Xml::Schema {
 class SymbolsDictionary;
+}
+namespace System::Xml::Schema {
+class BitSet;
+}
+namespace System::Xml::Schema {
+struct System__Xml__Schema__SequenceNode__SequenceConstructPosContext;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -163,8 +166,7 @@ constexpr explicit SequenceNode(void* ptr) noexcept : System::Xml::Schema::Inter
 /// @brief Method ExpandTree addr 0x271af60 size 0x4 virtual true final false
  void ExpandTree(System::Xml::Schema::InteriorNode parent, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions) ;
 
-// Ctor Parameters []
-explicit SequenceNode() ;
+static System::Xml::Schema::SequenceNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x271af64 size 0x8 virtual false final false
  void _ctor() ;

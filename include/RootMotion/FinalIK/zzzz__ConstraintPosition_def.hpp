@@ -65,14 +65,12 @@ constexpr UnityEngine::Vector3 __get_position() const;
 /// @brief Method UpdateConstraint addr 0x11b8464 size 0x98 virtual true final false
  void UpdateConstraint() ;
 
-// Ctor Parameters []
-explicit ConstraintPosition() ;
+static RootMotion::FinalIK::ConstraintPosition New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b84fc size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit ConstraintPosition(UnityEngine::Transform transform) ;
+static RootMotion::FinalIK::ConstraintPosition New_ctor(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x11b8504 size 0x28 virtual false final false
  void _ctor(UnityEngine::Transform transform) ;

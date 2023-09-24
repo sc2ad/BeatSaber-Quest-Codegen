@@ -47,8 +47,7 @@ constexpr explicit ThreadAndSerializationSafeAttribute(void* ptr) noexcept : Sys
 
 // Methods
 
-// Ctor Parameters []
-explicit ThreadAndSerializationSafeAttribute() ;
+static UnityEngine::ThreadAndSerializationSafeAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba0e88 size 0x8 virtual false final false
  void _ctor() ;

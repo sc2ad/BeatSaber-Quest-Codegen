@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DisplayText_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1String_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::DisplayText._ctor
 template<>
 
@@ -122,8 +122,10 @@ constexpr void Org::BouncyCastle::Asn1::X509::DisplayText::__set_contents(Org::B
 constexpr Org::BouncyCastle::Asn1::IAsn1String Org::BouncyCastle::Asn1::X509::DisplayText::__get_contents() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::IAsn1String, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::DisplayText::DisplayText(int32_t type, ::StringW text)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DisplayText>(type, text))) {}
+ Org::BouncyCastle::Asn1::X509::DisplayText Org::BouncyCastle::Asn1::X509::DisplayText::New_ctor(int32_t type, ::StringW text)  {
+Org::BouncyCastle::Asn1::X509::DisplayText o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::DisplayText>(type, text))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::DisplayText::_ctor(int32_t type, ::StringW text)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::DisplayText>::get(),
@@ -133,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, text);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::DisplayText::DisplayText(::StringW text)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DisplayText>(text))) {}
+ Org::BouncyCastle::Asn1::X509::DisplayText Org::BouncyCastle::Asn1::X509::DisplayText::New_ctor(::StringW text)  {
+Org::BouncyCastle::Asn1::X509::DisplayText o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::DisplayText>(text))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::DisplayText::_ctor(::StringW text)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::DisplayText>::get(),
@@ -144,8 +148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, text);
 }
-// Ctor Parameters [CppParam { name: "contents", ty: "Org::BouncyCastle::Asn1::IAsn1String", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::DisplayText::DisplayText(Org::BouncyCastle::Asn1::IAsn1String contents)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DisplayText>(contents))) {}
+ Org::BouncyCastle::Asn1::X509::DisplayText Org::BouncyCastle::Asn1::X509::DisplayText::New_ctor(Org::BouncyCastle::Asn1::IAsn1String contents)  {
+Org::BouncyCastle::Asn1::X509::DisplayText o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::DisplayText>(contents))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::DisplayText::_ctor(Org::BouncyCastle::Asn1::IAsn1String contents)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::DisplayText>::get(),

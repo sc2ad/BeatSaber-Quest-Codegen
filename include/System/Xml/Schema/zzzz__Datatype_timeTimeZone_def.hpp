@@ -47,8 +47,7 @@ constexpr explicit Datatype_timeTimeZone(void* ptr) noexcept : System::Xml::Sche
 
 // Methods
 
-// Ctor Parameters []
-explicit Datatype_timeTimeZone() ;
+static System::Xml::Schema::Datatype_timeTimeZone New_ctor() ;
 
 /// @brief Method .ctor addr 0x27265c8 size 0x58 virtual false final false
  void _ctor() ;

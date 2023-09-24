@@ -3,6 +3,9 @@
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace GlobalNamespace {
+struct ArcVisibilityType;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
@@ -10,9 +13,6 @@ class IReadOnlyList_1;
 namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
-}
-namespace GlobalNamespace {
-struct ArcVisibilityType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,8 +63,7 @@ constexpr explicit ArcVisibilityTypeSettingsDropdown(void* ptr) noexcept : Globa
 /// @brief Method GetNamedValues addr 0x215220c size 0x164 virtual true final false
  System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::ArcVisibilityType,::StringW>> GetNamedValues() ;
 
-// Ctor Parameters []
-explicit ArcVisibilityTypeSettingsDropdown() ;
+static GlobalNamespace::ArcVisibilityTypeSettingsDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x2152370 size 0x48 virtual false final false
  void _ctor() ;

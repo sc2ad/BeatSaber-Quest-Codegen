@@ -3,11 +3,11 @@
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {
@@ -16,7 +16,7 @@ class CompensateRotationProcessor;
 // Type: UnityEngine.InputSystem.Processors::CompensateRotationProcessor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 3222 }), TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(10193))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 3222 }), TypeDefinitionIndex(TypeDefinitionIndex(10193))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6666))
 // CS Name: UnityEngine.InputSystem.Processors.CompensateRotationProcessor
 class CORDL_TYPE CompensateRotationProcessor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Quaternion> {
@@ -61,8 +61,7 @@ constexpr explicit CompensateRotationProcessor(void* ptr) noexcept : UnityEngine
 /// @brief Method ToString addr 0x2966950 size 0x40 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit CompensateRotationProcessor() ;
+static UnityEngine::InputSystem::Processors::CompensateRotationProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2966990 size 0x48 virtual false final false
  void _ctor() ;

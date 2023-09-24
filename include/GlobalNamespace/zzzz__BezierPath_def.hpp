@@ -6,8 +6,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Action;
+namespace GlobalNamespace {
+struct GlobalNamespace__BezierPath__ControlMode;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -17,8 +20,8 @@ namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,6 +81,8 @@ __Automatic = 3,
 constexpr operator __GlobalNamespace__BezierPath__ControlMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__BezierPath__ControlMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -218,8 +223,7 @@ constexpr ::ArrayW<float_t> __get__neighbourDistances() const;
 /// @brief Method get_segmentsCount addr 0x21ad15c size 0x60 virtual false final false
  int32_t get_segmentsCount() ;
 
-// Ctor Parameters [CppParam { name: "centre", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "initTwoSegments", ty: "bool", modifiers: "", def_value: None }]
-explicit BezierPath(UnityEngine::Vector3 centre, bool initTwoSegments) ;
+static GlobalNamespace::BezierPath New_ctor(UnityEngine::Vector3 centre, bool initTwoSegments) ;
 
 /// @brief Method .ctor addr 0x21ad1bc size 0x544 virtual false final false
  void _ctor(UnityEngine::Vector3 centre, bool initTwoSegments) ;

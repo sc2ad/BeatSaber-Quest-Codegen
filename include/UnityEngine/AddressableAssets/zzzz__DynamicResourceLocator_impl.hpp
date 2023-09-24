@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/zzzz__DynamicResourceLocator_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::DynamicResourceLocator.get_LocatorId
 template<>
@@ -151,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "addr", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::DynamicResourceLocator::DynamicResourceLocator(UnityEngine::AddressableAssets::AddressablesImpl addr)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DynamicResourceLocator>(addr))) {}
+ UnityEngine::AddressableAssets::DynamicResourceLocator UnityEngine::AddressableAssets::DynamicResourceLocator::New_ctor(UnityEngine::AddressableAssets::AddressablesImpl addr)  {
+UnityEngine::AddressableAssets::DynamicResourceLocator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::DynamicResourceLocator>(addr))};
+return o;
+}
  void UnityEngine::AddressableAssets::DynamicResourceLocator::_ctor(UnityEngine::AddressableAssets::AddressablesImpl addr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::DynamicResourceLocator>::get(),

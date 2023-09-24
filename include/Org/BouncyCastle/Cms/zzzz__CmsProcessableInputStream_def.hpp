@@ -2,13 +2,13 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
+class CmsReadable;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+class CmsProcessable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -77,8 +77,7 @@ constexpr bool __get_used() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsProcessableInputStream(System::IO::Stream input) ;
+static Org::BouncyCastle::Cms::CmsProcessableInputStream New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x1159298 size 0x2c virtual false final false
  void _ctor(System::IO::Stream input) ;

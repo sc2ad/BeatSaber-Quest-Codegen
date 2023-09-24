@@ -23,7 +23,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11083)), TypeDefinitionIndex(TypeDefinitionIndex(11088))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11088)), TypeDefinitionIndex(TypeDefinitionIndex(11083))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11083), inst: 5155 })
 // CS Name: Zenject.MonoInstaller`3
 class CORDL_TYPE MonoInstaller_3<TParam1,TParam2,TDerived> : public Zenject::MonoInstallerBase {
@@ -68,8 +68,7 @@ static TDerived InstallFromResource(Zenject::DiContainer container, TParam1 p1, 
 /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
 static TDerived InstallFromResource(::StringW resourcePath, Zenject::DiContainer container, TParam1 p1, TParam2 p2) ;
 
-// Ctor Parameters []
-explicit MonoInstaller_3() ;
+static Zenject::MonoInstaller_3<TParam1,TParam2,TDerived> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

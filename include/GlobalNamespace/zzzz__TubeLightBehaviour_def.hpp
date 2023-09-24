@@ -18,11 +18,14 @@ class DirectionalLight;
 namespace GlobalNamespace {
 class ColorSO;
 }
+namespace UnityEngine::Playables {
+struct Playable;
+}
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::Playables {
-struct Playable;
+namespace GlobalNamespace {
+struct GlobalNamespace__TubeLightBehaviour__ParameterType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,6 +83,8 @@ __References = 1,
 constexpr operator __GlobalNamespace__TubeLightBehaviour__ParameterType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__TubeLightBehaviour__ParameterType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -213,8 +218,7 @@ constexpr UnityEngine::Color __get__firstFrameColor() const;
 /// @brief Method OnPlayableDestroy addr 0x21b36d0 size 0xcc virtual true final false
  void OnPlayableDestroy(UnityEngine::Playables::Playable playable) ;
 
-// Ctor Parameters []
-explicit TubeLightBehaviour() ;
+static GlobalNamespace::TubeLightBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b379c size 0x8 virtual false final false
  void _ctor() ;

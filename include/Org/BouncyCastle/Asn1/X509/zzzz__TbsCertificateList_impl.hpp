@@ -3,15 +3,16 @@
 #include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateList_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateList_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__CrlEntry_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__Time_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__Time_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__CrlEntry_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 //  Writing Method size for method: GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator._ctor
 template<>
 
@@ -90,8 +91,10 @@ constexpr void GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateLis
 constexpr System::Collections::IEnumerator GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator::__get_e() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "e", ty: "System::Collections::IEnumerator", modifiers: "", def_value: None }]
- GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator(System::Collections::IEnumerator e)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator>(e))) {}
+ GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator::New_ctor(System::Collections::IEnumerator e)  {
+GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator>(e))};
+return o;
+}
  void GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator::_ctor(System::Collections::IEnumerator e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator>::get(),
@@ -172,8 +175,10 @@ constexpr void Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__Tbs
 constexpr System::Collections::IEnumerable Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration::__get_en() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "en", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration(System::Collections::IEnumerable en)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration>(en))) {}
+ Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration::New_ctor(System::Collections::IEnumerable en)  {
+Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration>(en))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration::_ctor(System::Collections::IEnumerable en)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration>::get(),
@@ -479,8 +484,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::TbsCertificateList, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::TbsCertificateList::TbsCertificateList(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<TbsCertificateList>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::TbsCertificateList Org::BouncyCastle::Asn1::X509::TbsCertificateList::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::TbsCertificateList o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::TbsCertificateList>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::TbsCertificateList::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::TbsCertificateList>::get(),

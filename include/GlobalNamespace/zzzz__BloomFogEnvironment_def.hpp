@@ -82,8 +82,7 @@ constexpr GlobalNamespace::BloomFogEnvironmentParams __get__fogParams() const;
 /// @brief Method OnValidate addr 0x1f8ffbc size 0x48 virtual false final false
  void OnValidate() ;
 
-// Ctor Parameters []
-explicit BloomFogEnvironment() ;
+static GlobalNamespace::BloomFogEnvironment New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f90214 size 0x8 virtual false final false
  void _ctor() ;

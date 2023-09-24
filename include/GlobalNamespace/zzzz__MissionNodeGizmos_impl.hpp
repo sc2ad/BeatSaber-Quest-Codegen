@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeGizmos_def.hpp"
-#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__CampaignProgressModel_def.hpp"
+#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissionNodeGizmos._ctor
 template<>
 
@@ -39,8 +39,10 @@ constexpr void GlobalNamespace::MissionNodeGizmos::__set__missionProgressModel(G
 constexpr GlobalNamespace::CampaignProgressModel GlobalNamespace::MissionNodeGizmos::__get__missionProgressModel() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::CampaignProgressModel, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionNodeGizmos::MissionNodeGizmos()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionNodeGizmos>())) {}
+ GlobalNamespace::MissionNodeGizmos GlobalNamespace::MissionNodeGizmos::New_ctor()  {
+GlobalNamespace::MissionNodeGizmos o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionNodeGizmos>())};
+return o;
+}
  void GlobalNamespace::MissionNodeGizmos::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionNodeGizmos>::get(),

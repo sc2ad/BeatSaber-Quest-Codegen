@@ -7,25 +7,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Bounds;
+class AnimationEvent;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-class AnimationCurve;
+struct WrapMode;
+}
+namespace System {
+class Array;
 }
 namespace System {
 class Type;
 }
 namespace UnityEngine {
-struct WrapMode;
+struct Bounds;
 }
 namespace UnityEngine {
-class AnimationEvent;
-}
-namespace System {
-class Array;
+class AnimationCurve;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -106,8 +106,7 @@ constexpr explicit AnimationClip(void* ptr) noexcept : UnityEngine::Motion(ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit AnimationClip() ;
+static UnityEngine::AnimationClip New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b1fe74 size 0x40 virtual false final false
  void _ctor() ;

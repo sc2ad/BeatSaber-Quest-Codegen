@@ -9,16 +9,16 @@ class IList_1;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
 namespace UnityEngine::ResourceManagement::Util {
 class IOperationCacheKey;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -81,8 +81,7 @@ constexpr System::Collections::Generic::HashSet_1<UnityEngine::ResourceManagemen
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "handles", ty: "System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>", modifiers: "", def_value: None }]
-explicit AsyncOpHandlesCacheKey(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> handles) ;
+static UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey New_ctor(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> handles) ;
 
 /// @brief Method .ctor addr 0x2a35748 size 0x90 virtual false final false
  void _ctor(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> handles) ;

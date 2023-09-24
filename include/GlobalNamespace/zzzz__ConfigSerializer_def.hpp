@@ -54,8 +54,7 @@ static void SaveConfig(::bs_hook::Il2CppWrapperType config, ::StringW filePath) 
 /// @brief Method LoadConfig addr 0x1f758fc size 0x560 virtual false final false
 static bool LoadConfig(::bs_hook::Il2CppWrapperType config, ::StringW filePath) ;
 
-// Ctor Parameters []
-explicit ConfigSerializer() ;
+static GlobalNamespace::ConfigSerializer New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f75e5c size 0x8 virtual false final false
  void _ctor() ;

@@ -47,8 +47,7 @@ constexpr explicit ZenjectAllowDuringValidationAttribute(void* ptr) noexcept : S
 
 // Methods
 
-// Ctor Parameters []
-explicit ZenjectAllowDuringValidationAttribute() ;
+static Zenject::ZenjectAllowDuringValidationAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d414d4 size 0x8 virtual false final false
  void _ctor() ;

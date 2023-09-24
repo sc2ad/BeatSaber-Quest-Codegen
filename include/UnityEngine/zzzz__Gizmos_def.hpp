@@ -7,10 +7,10 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine {

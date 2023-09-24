@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedGenerator_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedDataGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedData_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedData_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator._ctor
 template<>
 
@@ -108,8 +108,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::CmsEnvelopedDataGenerator()  : Org::BouncyCastle::Cms::CmsEnvelopedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsEnvelopedDataGenerator>())) {}
+ Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator>::get(),
@@ -119,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::CmsEnvelopedDataGenerator(Org::BouncyCastle::Security::SecureRandom rand)  : Org::BouncyCastle::Cms::CmsEnvelopedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsEnvelopedDataGenerator>(rand))) {}
+ Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::New_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
+Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator>(rand))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator>::get(),

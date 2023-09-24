@@ -4,28 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-class Mesh;
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__MeshUtility____c;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace System::Text {
-class StringBuilder;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace UnityEngine {
 struct MeshTopology;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 namespace UnityEngine::ProBuilder {
 class Vertex;
@@ -33,12 +26,22 @@ class Vertex;
 namespace UnityEngine {
 struct Vector3;
 }
+namespace System::Text {
+class StringBuilder;
+}
+namespace UnityEngine {
+class Mesh;
+}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -108,8 +111,7 @@ static System::Func_2<System::Collections::Generic::Dictionary_2<UnityEngine::Pr
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshUtility____c() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__MeshUtility____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x29c00c8 size 0x8 virtual false final false
  void _ctor() ;

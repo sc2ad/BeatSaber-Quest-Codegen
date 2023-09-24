@@ -6,32 +6,38 @@ namespace GlobalNamespace {
 class ILevelRestartController;
 }
 namespace GlobalNamespace {
+class IMenuButtonTrigger;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PauseController__InitData;
+}
+namespace GlobalNamespace {
 class PauseMenuManager;
 }
 namespace GlobalNamespace {
-class ILevelStartController;
-}
-namespace GlobalNamespace {
-class IReturnToMenuController;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IMenuButtonTrigger;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class IGamePause;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class IReturnToMenuController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PauseController____c__DisplayClass25_0;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class ILevelStartController;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +100,7 @@ constexpr bool __get_startPaused() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "startPaused", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PauseController__InitData(bool startPaused) ;
+static GlobalNamespace::GlobalNamespace__PauseController__InitData New_ctor(bool startPaused) ;
 
 /// @brief Method .ctor addr 0x20d34e0 size 0x28 virtual false final false
  void _ctor(bool startPaused) ;
@@ -155,8 +160,7 @@ constexpr bool __get_value() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PauseController____c__DisplayClass25_0() ;
+static GlobalNamespace::GlobalNamespace__PauseController____c__DisplayClass25_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d205c size 0x8 virtual false final false
  void _ctor() ;
@@ -389,8 +393,7 @@ constexpr bool __get__paused() const;
 /// @brief Method GetDefaultPausedState addr 0x20d27a4 size 0xb0 virtual false final false
  bool GetDefaultPausedState() ;
 
-// Ctor Parameters []
-explicit PauseController() ;
+static GlobalNamespace::PauseController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d34d8 size 0x8 virtual false final false
  void _ctor() ;

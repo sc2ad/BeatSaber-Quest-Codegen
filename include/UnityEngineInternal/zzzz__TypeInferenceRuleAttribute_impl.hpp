@@ -59,8 +59,10 @@ constexpr void UnityEngineInternal::TypeInferenceRuleAttribute::__set__rule(::St
 constexpr ::StringW UnityEngineInternal::TypeInferenceRuleAttribute::__get__rule() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rule", ty: "UnityEngineInternal::TypeInferenceRules", modifiers: "", def_value: None }]
- UnityEngineInternal::TypeInferenceRuleAttribute::TypeInferenceRuleAttribute(UnityEngineInternal::TypeInferenceRules rule)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TypeInferenceRuleAttribute>(rule))) {}
+ UnityEngineInternal::TypeInferenceRuleAttribute UnityEngineInternal::TypeInferenceRuleAttribute::New_ctor(UnityEngineInternal::TypeInferenceRules rule)  {
+UnityEngineInternal::TypeInferenceRuleAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngineInternal::TypeInferenceRuleAttribute>(rule))};
+return o;
+}
  void UnityEngineInternal::TypeInferenceRuleAttribute::_ctor(UnityEngineInternal::TypeInferenceRules rule)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngineInternal::TypeInferenceRuleAttribute>::get(),
@@ -70,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, rule);
 }
-// Ctor Parameters [CppParam { name: "rule", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngineInternal::TypeInferenceRuleAttribute::TypeInferenceRuleAttribute(::StringW rule)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TypeInferenceRuleAttribute>(rule))) {}
+ UnityEngineInternal::TypeInferenceRuleAttribute UnityEngineInternal::TypeInferenceRuleAttribute::New_ctor(::StringW rule)  {
+UnityEngineInternal::TypeInferenceRuleAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngineInternal::TypeInferenceRuleAttribute>(rule))};
+return o;
+}
  void UnityEngineInternal::TypeInferenceRuleAttribute::_ctor(::StringW rule)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngineInternal::TypeInferenceRuleAttribute>::get(),

@@ -1,17 +1,17 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Crypto::IO {
-class SignerSink;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IStreamCalculator;
+}
+namespace Org::BouncyCastle::Crypto::IO {
+class SignerSink;
 }
 namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -76,8 +76,7 @@ constexpr Org::BouncyCastle::Crypto::IO::SignerSink __get_mSignerSink() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
-explicit DefaultSignatureCalculator(Org::BouncyCastle::Crypto::ISigner signer) ;
+static Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator New_ctor(Org::BouncyCastle::Crypto::ISigner signer) ;
 
 /// @brief Method .ctor addr 0xe9fb6c size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ISigner signer) ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PlayerLevelStatsData_def.hpp"
+#include "GlobalNamespace/zzzz__RankModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__RankModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlayerLevelStatsData.get_levelID
 template<>
 
@@ -359,8 +359,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }]
- GlobalNamespace::PlayerLevelStatsData::PlayerLevelStatsData(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerLevelStatsData>(levelID, difficulty, beatmapCharacteristic))) {}
+ GlobalNamespace::PlayerLevelStatsData GlobalNamespace::PlayerLevelStatsData::New_ctor(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  {
+GlobalNamespace::PlayerLevelStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerLevelStatsData>(levelID, difficulty, beatmapCharacteristic))};
+return o;
+}
  void GlobalNamespace::PlayerLevelStatsData::_ctor(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerLevelStatsData>::get(),
@@ -370,8 +372,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, levelID, difficulty, beatmapCharacteristic);
 }
-// Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "highScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCombo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullCombo", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "maxRank", ty: "GlobalNamespace::GlobalNamespace__RankModel__Rank", modifiers: "", def_value: None }, CppParam { name: "validScore", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playCount", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::PlayerLevelStatsData::PlayerLevelStatsData(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, int32_t highScore, int32_t maxCombo, bool fullCombo, GlobalNamespace::GlobalNamespace__RankModel__Rank maxRank, bool validScore, int32_t playCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerLevelStatsData>(levelID, difficulty, beatmapCharacteristic, highScore, maxCombo, fullCombo, maxRank, validScore, playCount))) {}
+ GlobalNamespace::PlayerLevelStatsData GlobalNamespace::PlayerLevelStatsData::New_ctor(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, int32_t highScore, int32_t maxCombo, bool fullCombo, GlobalNamespace::GlobalNamespace__RankModel__Rank maxRank, bool validScore, int32_t playCount)  {
+GlobalNamespace::PlayerLevelStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerLevelStatsData>(levelID, difficulty, beatmapCharacteristic, highScore, maxCombo, fullCombo, maxRank, validScore, playCount))};
+return o;
+}
  void GlobalNamespace::PlayerLevelStatsData::_ctor(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, int32_t highScore, int32_t maxCombo, bool fullCombo, GlobalNamespace::GlobalNamespace__RankModel__Rank maxRank, bool validScore, int32_t playCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerLevelStatsData>::get(),

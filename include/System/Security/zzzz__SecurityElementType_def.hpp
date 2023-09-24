@@ -57,6 +57,8 @@ constexpr operator __SecurityElementType_Unwrapped () const noexcept {
 return std::bit_cast<__SecurityElementType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

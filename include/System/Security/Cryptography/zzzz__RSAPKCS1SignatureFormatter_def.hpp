@@ -47,8 +47,7 @@ constexpr explicit RSAPKCS1SignatureFormatter(void* ptr) noexcept : System::Secu
 
 // Methods
 
-// Ctor Parameters []
-explicit RSAPKCS1SignatureFormatter() ;
+static System::Security::Cryptography::RSAPKCS1SignatureFormatter New_ctor() ;
 
 /// @brief Method .ctor addr 0x230328c size 0x8 virtual false final false
  void _ctor() ;

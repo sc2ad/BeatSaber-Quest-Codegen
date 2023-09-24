@@ -7,19 +7,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Object;
 }
 namespace System {
 class Exception;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 class ILogger;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

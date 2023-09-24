@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Net/zzzz__HttpListenerRequestUriBuilder_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Net/zzzz__HttpListenerRequestUriBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__HttpListenerRequestUriBuilder__ParsingResult::System__Net__HttpListenerRequestUriBuilder__ParsingResult(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -373,8 +374,10 @@ constexpr void System::Net::HttpListenerRequestUriBuilder::__set_requestUri(Syst
 constexpr System::Uri System::Net::HttpListenerRequestUriBuilder::__get_requestUri() const {
 return ::cordl_internals::getInstanceField<System::Uri, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rawUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cookedUriScheme", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cookedUriHost", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cookedUriPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cookedUriQuery", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::HttpListenerRequestUriBuilder::HttpListenerRequestUriBuilder(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpListenerRequestUriBuilder>(rawUri, cookedUriScheme, cookedUriHost, cookedUriPath, cookedUriQuery))) {}
+ System::Net::HttpListenerRequestUriBuilder System::Net::HttpListenerRequestUriBuilder::New_ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery)  {
+System::Net::HttpListenerRequestUriBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpListenerRequestUriBuilder>(rawUri, cookedUriScheme, cookedUriHost, cookedUriPath, cookedUriQuery))};
+return o;
+}
  void System::Net::HttpListenerRequestUriBuilder::_ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerRequestUriBuilder>::get(),

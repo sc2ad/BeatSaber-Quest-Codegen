@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__CbcBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Modes::CbcBlockCipher._ctor
 template<>
 
@@ -212,8 +212,10 @@ constexpr void Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::__set_encryptin
 constexpr bool Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::__get_encrypting() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::CbcBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CbcBlockCipher>(cipher))) {}
+ Org::BouncyCastle::Crypto::Modes::CbcBlockCipher Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::Modes::CbcBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::CbcBlockCipher>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::CbcBlockCipher>::get(),

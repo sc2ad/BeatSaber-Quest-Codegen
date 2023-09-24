@@ -2,10 +2,11 @@
 #include "HoudiniEngineUnity/zzzz__HEU_InputData_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputInterface_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputInterfaceTilemap_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputInterfaceTilemapSettings_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_InputInterfaceTilemap_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/Tilemaps/zzzz__Tilemap_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap._ctor
@@ -37,8 +38,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap
 constexpr UnityEngine::Transform HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap::__get__transform() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Transform, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap()  : HoudiniEngineUnity::HEU_InputData(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap>::get(),
@@ -156,8 +159,10 @@ constexpr void HoudiniEngineUnity::HEU_InputInterfaceTilemap::__set_settings(Hou
 constexpr HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings HoudiniEngineUnity::HEU_InputInterfaceTilemap::__get_settings() const {
 return ::cordl_internals::getInstanceField<HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InputInterfaceTilemap::HEU_InputInterfaceTilemap()  : HoudiniEngineUnity::HEU_InputInterface(THROW_UNLESS(::il2cpp_utils::New<HEU_InputInterfaceTilemap>())) {}
+ HoudiniEngineUnity::HEU_InputInterfaceTilemap HoudiniEngineUnity::HEU_InputInterfaceTilemap::New_ctor()  {
+HoudiniEngineUnity::HEU_InputInterfaceTilemap o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InputInterfaceTilemap>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InputInterfaceTilemap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InputInterfaceTilemap>::get(),

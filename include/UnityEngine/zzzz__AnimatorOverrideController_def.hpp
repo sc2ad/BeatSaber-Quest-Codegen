@@ -5,18 +5,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class AnimationClip;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+class RuntimeAnimatorController;
 }
 namespace UnityEngine {
-class RuntimeAnimatorController;
+class UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -67,8 +70,7 @@ constexpr explicit UnityEngine__AnimatorOverrideController__OnOverrideController
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b19764 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -133,8 +135,7 @@ constexpr UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideContro
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "controller", ty: "UnityEngine::RuntimeAnimatorController", modifiers: "", def_value: None }]
-explicit AnimatorOverrideController(UnityEngine::RuntimeAnimatorController controller) ;
+static UnityEngine::AnimatorOverrideController New_ctor(UnityEngine::RuntimeAnimatorController controller) ;
 
 /// @brief Method .ctor addr 0x2b19350 size 0x50 virtual false final false
  void _ctor(UnityEngine::RuntimeAnimatorController controller) ;

@@ -2,8 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/zzzz__VoipAudioSourceHiLevel_def.hpp"
 #include "Oculus/Platform/zzzz__IVoipPCMSource_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "Oculus/Platform/zzzz__VoipSampleRate_def.hpp"
+#include "Oculus/Platform/zzzz__VoipAudioSourceHiLevel_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate.Awake
 template<>
 
@@ -85,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data, channels);
 }
-// Ctor Parameters []
- Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate>())) {}
+ Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate::New_ctor()  {
+Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate>())};
+return o;
+}
  void Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__VoipAudioSourceHiLevel__FilterReadDelegate>::get(),
@@ -357,8 +360,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Oculus::Platform::VoipAudioSourceHiLevel::VoipAudioSourceHiLevel()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VoipAudioSourceHiLevel>())) {}
+ Oculus::Platform::VoipAudioSourceHiLevel Oculus::Platform::VoipAudioSourceHiLevel::New_ctor()  {
+Oculus::Platform::VoipAudioSourceHiLevel o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::VoipAudioSourceHiLevel>())};
+return o;
+}
  void Oculus::Platform::VoipAudioSourceHiLevel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::VoipAudioSourceHiLevel>::get(),

@@ -3,19 +3,19 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerSequence;
 }
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerSequence;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -88,20 +88,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_excluded() const;
 /// @brief Method GetInstance addr 0x1108454 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::X509::NameConstraints GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit NameConstraints(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::NameConstraints New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x11085dc size 0x338 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "permitted", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "excluded", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }]
-explicit NameConstraints(System::Collections::ArrayList permitted, System::Collections::ArrayList excluded) ;
+static Org::BouncyCastle::Asn1::X509::NameConstraints New_ctor(System::Collections::ArrayList permitted, System::Collections::ArrayList excluded) ;
 
 /// @brief Method .ctor addr 0x1108914 size 0x4 virtual false final false
  void _ctor(System::Collections::ArrayList permitted, System::Collections::ArrayList excluded) ;
 
-// Ctor Parameters [CppParam { name: "permitted", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "excluded", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit NameConstraints(System::Collections::IList permitted, System::Collections::IList excluded) ;
+static Org::BouncyCastle::Asn1::X509::NameConstraints New_ctor(System::Collections::IList permitted, System::Collections::IList excluded) ;
 
 /// @brief Method .ctor addr 0x1108918 size 0x48 virtual false final false
  void _ctor(System::Collections::IList permitted, System::Collections::IList excluded) ;

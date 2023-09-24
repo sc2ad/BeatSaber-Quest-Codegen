@@ -105,8 +105,10 @@ constexpr void System::ComponentModel::Design::Serialization::InstanceDescriptor
 constexpr System::Reflection::MemberInfo System::ComponentModel::Design::Serialization::InstanceDescriptor::__get__MemberInfo_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Reflection::MemberInfo, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
- System::ComponentModel::Design::Serialization::InstanceDescriptor::InstanceDescriptor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InstanceDescriptor>(member, arguments))) {}
+ System::ComponentModel::Design::Serialization::InstanceDescriptor System::ComponentModel::Design::Serialization::InstanceDescriptor::New_ctor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments)  {
+System::ComponentModel::Design::Serialization::InstanceDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Design::Serialization::InstanceDescriptor>(member, arguments))};
+return o;
+}
  void System::ComponentModel::Design::Serialization::InstanceDescriptor::_ctor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Design::Serialization::InstanceDescriptor>::get(),
@@ -116,8 +118,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, member, arguments);
 }
-// Ctor Parameters [CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "System::Collections::ICollection", modifiers: "", def_value: None }, CppParam { name: "isComplete", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::Design::Serialization::InstanceDescriptor::InstanceDescriptor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments, bool isComplete)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InstanceDescriptor>(member, arguments, isComplete))) {}
+ System::ComponentModel::Design::Serialization::InstanceDescriptor System::ComponentModel::Design::Serialization::InstanceDescriptor::New_ctor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments, bool isComplete)  {
+System::ComponentModel::Design::Serialization::InstanceDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Design::Serialization::InstanceDescriptor>(member, arguments, isComplete))};
+return o;
+}
  void System::ComponentModel::Design::Serialization::InstanceDescriptor::_ctor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments, bool isComplete)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Design::Serialization::InstanceDescriptor>::get(),

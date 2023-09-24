@@ -1,6 +1,7 @@
 #pragma once
 #include "System/Xml/zzzz__XmlNameTable_impl.hpp"
 #include "System/Xml/zzzz__NameTable_def.hpp"
+#include "System/Xml/zzzz__NameTable_def.hpp"
 //  Writing Method size for method: System::Xml::System__Xml__NameTable__Entry._ctor
 template<>
 
@@ -36,8 +37,10 @@ constexpr void System::Xml::System__Xml__NameTable__Entry::__set_next(System::Xm
 constexpr System::Xml::System__Xml__NameTable__Entry System::Xml::System__Xml__NameTable__Entry::__get_next() const {
 return ::cordl_internals::getInstanceField<System::Xml::System__Xml__NameTable__Entry, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Xml::System__Xml__NameTable__Entry", modifiers: "", def_value: None }]
- System::Xml::System__Xml__NameTable__Entry::System__Xml__NameTable__Entry(::StringW str, int32_t hashCode, System::Xml::System__Xml__NameTable__Entry next)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__NameTable__Entry>(str, hashCode, next))) {}
+ System::Xml::System__Xml__NameTable__Entry System::Xml::System__Xml__NameTable__Entry::New_ctor(::StringW str, int32_t hashCode, System::Xml::System__Xml__NameTable__Entry next)  {
+System::Xml::System__Xml__NameTable__Entry o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__NameTable__Entry>(str, hashCode, next))};
+return o;
+}
  void System::Xml::System__Xml__NameTable__Entry::_ctor(::StringW str, int32_t hashCode, System::Xml::System__Xml__NameTable__Entry next)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__NameTable__Entry>::get(),
@@ -190,8 +193,10 @@ constexpr void System::Xml::NameTable::__set_hashCodeRandomizer(int32_t value)  
 constexpr int32_t System::Xml::NameTable::__get_hashCodeRandomizer() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::NameTable::NameTable()  : System::Xml::XmlNameTable(THROW_UNLESS(::il2cpp_utils::New<NameTable>())) {}
+ System::Xml::NameTable System::Xml::NameTable::New_ctor()  {
+System::Xml::NameTable o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::NameTable>())};
+return o;
+}
  void System::Xml::NameTable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::NameTable>::get(),

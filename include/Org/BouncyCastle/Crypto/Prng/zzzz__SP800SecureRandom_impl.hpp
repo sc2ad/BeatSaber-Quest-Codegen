@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__SP800SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__ISP80090Drbg_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__IDrbgProvider_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
-#include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__ISP80090Drbg_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Prng::SP800SecureRandom._ctor
 template<>
 
@@ -154,8 +154,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__set_mDrbg(O
 constexpr Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__get_mDrbg() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "randomSource", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "drbgProvider", ty: "Org::BouncyCastle::Crypto::Prng::IDrbgProvider", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::SP800SecureRandom(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::IEntropySource entropySource, Org::BouncyCastle::Crypto::Prng::IDrbgProvider drbgProvider, bool predictionResistant)  : Org::BouncyCastle::Security::SecureRandom(THROW_UNLESS(::il2cpp_utils::New<SP800SecureRandom>(randomSource, entropySource, drbgProvider, predictionResistant))) {}
+ Org::BouncyCastle::Crypto::Prng::SP800SecureRandom Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::New_ctor(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::IEntropySource entropySource, Org::BouncyCastle::Crypto::Prng::IDrbgProvider drbgProvider, bool predictionResistant)  {
+Org::BouncyCastle::Crypto::Prng::SP800SecureRandom o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::SP800SecureRandom>(randomSource, entropySource, drbgProvider, predictionResistant))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::_ctor(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::IEntropySource entropySource, Org::BouncyCastle::Crypto::Prng::IDrbgProvider drbgProvider, bool predictionResistant)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::SP800SecureRandom>::get(),

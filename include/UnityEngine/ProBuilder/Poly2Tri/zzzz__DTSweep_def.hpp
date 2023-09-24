@@ -3,22 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DTSweepConstraint;
+class DTSweepContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class AdvancingFrontNode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
+class UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
 class DelaunayTriangle;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-struct Orientation;
+class DTSweepConstraint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DTSweepContext;
+struct Orientation;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -78,8 +81,7 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __get_ep() const
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0() ;
+static UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x299ff74 size 0x8 virtual false final false
  void _ctor() ;

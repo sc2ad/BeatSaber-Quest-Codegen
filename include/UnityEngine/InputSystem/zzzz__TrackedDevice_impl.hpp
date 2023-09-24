@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__TrackedDevice_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::TrackedDevice.get_trackingState
 template<>
 
@@ -280,8 +280,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::TrackedDevice::TrackedDevice()  : UnityEngine::InputSystem::InputDevice(THROW_UNLESS(::il2cpp_utils::New<TrackedDevice>())) {}
+ UnityEngine::InputSystem::TrackedDevice UnityEngine::InputSystem::TrackedDevice::New_ctor()  {
+UnityEngine::InputSystem::TrackedDevice o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::TrackedDevice>())};
+return o;
+}
  void UnityEngine::InputSystem::TrackedDevice::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::TrackedDevice>::get(),

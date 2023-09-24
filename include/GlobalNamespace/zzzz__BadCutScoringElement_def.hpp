@@ -3,6 +3,9 @@
 #include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__BadCutScoringElement__Pool;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
 }
 namespace GlobalNamespace {
@@ -100,8 +103,7 @@ constexpr GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEv
 /// @brief Method Init addr 0x210fcb0 size 0x4c virtual false final false
  void Init(GlobalNamespace::NoteData noteData) ;
 
-// Ctor Parameters []
-explicit BadCutScoringElement() ;
+static GlobalNamespace::BadCutScoringElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2110310 size 0x8 virtual false final false
  void _ctor() ;
@@ -152,8 +154,7 @@ constexpr explicit GlobalNamespace__BadCutScoringElement__Pool(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BadCutScoringElement__Pool() ;
+static GlobalNamespace::GlobalNamespace__BadCutScoringElement__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2110318 size 0x48 virtual false final false
  void _ctor() ;

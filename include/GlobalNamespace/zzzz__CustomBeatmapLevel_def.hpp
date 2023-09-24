@@ -4,16 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
 class BeatmapLevelData;
 }
 namespace GlobalNamespace {
 class IFilePathSongAudioClipProvider;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace GlobalNamespace {
-class ColorScheme;
 }
 namespace GlobalNamespace {
 class CustomPreviewBeatmapLevel;
@@ -22,7 +19,10 @@ namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IBeatmapLevelData;
+}
+namespace GlobalNamespace {
+class ColorScheme;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +101,7 @@ constexpr GlobalNamespace::BeatmapLevelData __get__beatmapLevelData() const;
 /// @brief Method get_songAudioClipPath addr 0x21e9fe4 size 0x4 virtual true final true
  ::StringW get_songAudioClipPath() ;
 
-// Ctor Parameters [CppParam { name: "customPreviewBeatmapLevel", ty: "GlobalNamespace::CustomPreviewBeatmapLevel", modifiers: "", def_value: None }]
-explicit CustomBeatmapLevel(GlobalNamespace::CustomPreviewBeatmapLevel customPreviewBeatmapLevel) ;
+static GlobalNamespace::CustomBeatmapLevel New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel customPreviewBeatmapLevel) ;
 
 /// @brief Method .ctor addr 0x21ea058 size 0xc0 virtual false final false
  void _ctor(GlobalNamespace::CustomPreviewBeatmapLevel customPreviewBeatmapLevel) ;

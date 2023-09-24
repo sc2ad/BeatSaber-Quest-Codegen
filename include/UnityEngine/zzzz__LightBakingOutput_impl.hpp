@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__LightBakingOutput_def.hpp"
-#include "UnityEngine/zzzz__LightmapBakeType_def.hpp"
 #include "UnityEngine/zzzz__MixedLightingMode_def.hpp"
+#include "UnityEngine/zzzz__LightmapBakeType_def.hpp"
 // Ctor Parameters [CppParam { name: "probeOcclusionLightIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "occlusionMaskChannel", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightmapBakeType", ty: "UnityEngine::LightmapBakeType", modifiers: "", def_value: Some("{}") }, CppParam { name: "mixedLightingMode", ty: "UnityEngine::MixedLightingMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "isBaked", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::LightBakingOutput::LightBakingOutput(int32_t probeOcclusionLightIndex, int32_t occlusionMaskChannel, UnityEngine::LightmapBakeType lightmapBakeType, UnityEngine::MixedLightingMode mixedLightingMode, bool isBaked) noexcept : ::bs_hook::ValueTypeWrapper() {this->probeOcclusionLightIndex = probeOcclusionLightIndex;
 this->occlusionMaskChannel = occlusionMaskChannel;

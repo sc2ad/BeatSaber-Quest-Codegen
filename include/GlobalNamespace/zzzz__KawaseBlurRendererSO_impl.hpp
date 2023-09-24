@@ -2,12 +2,13 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__KernelSize::GlobalNamespace__KawaseBlurRendererSO__KernelSize(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -66,8 +67,10 @@ constexpr void GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__BloomKern
 constexpr int32_t GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__BloomKernel::__get_sharedPartWithNext() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__BloomKernel::GlobalNamespace__KawaseBlurRendererSO__BloomKernel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__KawaseBlurRendererSO__BloomKernel>())) {}
+ GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__BloomKernel GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__BloomKernel::New_ctor()  {
+GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__BloomKernel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__BloomKernel>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__BloomKernel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__KawaseBlurRendererSO__BloomKernel>::get(),
@@ -485,8 +488,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Rendering::CommandBuffer, false>(const_cast<void*>(instance), ___internal_method, width, height, globalTextureName, kernelSize, boost);
 }
-// Ctor Parameters []
- GlobalNamespace::KawaseBlurRendererSO::KawaseBlurRendererSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<KawaseBlurRendererSO>())) {}
+ GlobalNamespace::KawaseBlurRendererSO GlobalNamespace::KawaseBlurRendererSO::New_ctor()  {
+GlobalNamespace::KawaseBlurRendererSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::KawaseBlurRendererSO>())};
+return o;
+}
  void GlobalNamespace::KawaseBlurRendererSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::KawaseBlurRendererSO>::get(),

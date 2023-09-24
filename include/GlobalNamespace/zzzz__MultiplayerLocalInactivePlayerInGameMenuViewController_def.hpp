@@ -2,50 +2,50 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace HMUI {
-class ButtonBinder;
-}
-namespace HMUI {
-class ToggleBinder;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace Polyglot {
-class LocalizedTextMeshProUGUI;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
 namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__MultiplayerController__State;
+class MultiplayerLocalPlayerDisconnectHelper;
 }
 namespace GlobalNamespace {
 class LocalPlayerInGameMenuInitData;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalPlayerDisconnectHelper;
-}
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Tweening {
-class Tween;
+class LevelBar;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
-namespace GlobalNamespace {
-class LevelBar;
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class DisconnectPromptView;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace Polyglot {
+class LocalizedTextMeshProUGUI;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace Tweening {
+class Tween;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -216,8 +216,7 @@ constexpr Tweening::Tween __get__fadeOutTween() const;
 /// @brief Method HandleStateChanged addr 0x20d0c70 size 0x1c4 virtual false final false
  void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalInactivePlayerInGameMenuViewController() ;
+static GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d0e34 size 0x98 virtual false final false
  void _ctor() ;

@@ -41,8 +41,11 @@ constexpr void UnityEngine::XR::OpenXR::WaitForRestartFinish::__set_m_Timeout(fl
 constexpr float_t UnityEngine::XR::OpenXR::WaitForRestartFinish::__get_m_Timeout() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "timeout", ty: "float_t", modifiers: "", def_value: Some("5") }]
- UnityEngine::XR::OpenXR::WaitForRestartFinish::WaitForRestartFinish(float_t timeout)  : UnityEngine::CustomYieldInstruction(THROW_UNLESS(::il2cpp_utils::New<WaitForRestartFinish>(timeout))) {}
+/// @param timeout: float_t (default: 5)
+ UnityEngine::XR::OpenXR::WaitForRestartFinish UnityEngine::XR::OpenXR::WaitForRestartFinish::New_ctor(float_t timeout)  {
+UnityEngine::XR::OpenXR::WaitForRestartFinish o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::WaitForRestartFinish>(timeout))};
+return o;
+}
 /// @param timeout: float_t (default: 5)
  void UnityEngine::XR::OpenXR::WaitForRestartFinish::_ctor(float_t timeout)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

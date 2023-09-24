@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapDataNoArrowsTransform_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapDataNoArrowsTransform.CreateTransformedData
 template<>
 

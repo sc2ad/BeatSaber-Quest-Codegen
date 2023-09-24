@@ -8,19 +8,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace OVR::OpenVR {
 struct EVROverlayError;
 }
 namespace System {
-class IAsyncResult;
-}
-namespace OVR::OpenVR {
-struct VROverlayIntersectionParams_t;
+class AsyncCallback;
 }
 namespace OVR::OpenVR {
 struct VROverlayIntersectionResults_t;
+}
+namespace OVR::OpenVR {
+struct VROverlayIntersectionParams_t;
 }
 namespace System::Text {
 class StringBuilder;
@@ -50,10 +50,10 @@ namespace OVR::OpenVR {
 struct VRTextureBounds_t;
 }
 namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
+struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
-struct HmdMatrix34_t;
+struct ETrackingUniverseOrigin;
 }
 namespace OVR::OpenVR {
 struct VROverlayTransformType;
@@ -75,6 +75,252 @@ struct Texture_t;
 }
 namespace OVR::OpenVR {
 struct VRMessageOverlayResponse;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___CreateDashboardOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayTexelAspect;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayTransformAbsolute;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayTransformTrackedDeviceComponent;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetKeyboardPositionForOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayTransformTrackedDeviceRelative;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayRenderingPid;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayColor;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlaySortOrder;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayTransformOverlayRelative;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___IsOverlayVisible;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___ShowDashboard;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___ShowMessageOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayInputMethod;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayTextureBounds;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___IsActiveDashboardOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___ShowOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayWidthInMeters;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___HideOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayRenderingPid;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayAlpha;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayTextureSize;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayErrorNameFromEnum;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___CreateOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetTransformForOverlayCoordinates;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___IsHoverTargetOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayRaw;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayFromFile;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayDualAnalogTransform;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayName;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___ComputeOverlayIntersection;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetDashboardOverlaySceneProcess;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayDualAnalogTransform;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetHighQualityOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___MoveGamepadFocusToNeighbor;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayTextureBounds;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetDashboardOverlaySceneProcess;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayTexture;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetKeyboardTransformAbsolute;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlaySortOrder;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayFlags;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayTransformAbsolute;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetKeyboardText;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetPrimaryDashboardDevice;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___HideKeyboard;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayImageData;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayTexelAspect;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayAlpha;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayTexture;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___ClearOverlayTexture;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetGamepadFocusOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayMouseScale;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayNeighbor;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___DestroyOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayRenderModel;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___PollNextOverlayEvent;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayTransformOverlayRelative;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetGamepadFocusOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayTransformTrackedDeviceComponent;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayTextureColorSpace;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayAutoCurveDistanceRangeInMeters;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayAutoCurveDistanceRangeInMeters;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___ShowKeyboard;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayFlag;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___FindOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayKey;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayColor;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayMouseScale;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayRenderModel;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayWidthInMeters;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___IsDashboardVisible;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayFlag;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayInputMethod;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___ShowKeyboardForOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayTransformType;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetHighQualityOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayName;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___SetOverlayIntersectionMask;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayTextureColorSpace;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___GetOverlayTransformTrackedDeviceRelative;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___CloseMessageOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVROverlay___ReleaseNativeOverlayHandle;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -368,8 +614,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___FindOverlay(void* ptr) noexcept : S
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___FindOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___FindOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26514e0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -429,8 +674,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___CreateOverlay(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___CreateOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___CreateOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265168c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -490,8 +734,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___DestroyOverlay(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___DestroyOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___DestroyOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2651844 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -551,8 +794,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetHighQualityOverlay(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetHighQualityOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetHighQualityOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26519c8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -612,8 +854,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetHighQualityOverlay(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetHighQualityOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetHighQualityOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2651b4c size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -673,8 +914,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayKey(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayKey(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayKey New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2651c64 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -734,8 +974,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayName(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayName(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayName New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2651e58 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -795,8 +1034,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayName(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayName(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayName New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265204c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -856,8 +1094,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayImageData(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayImageData(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayImageData New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26521d8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -917,8 +1154,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayErrorNameFromEnum(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayErrorNameFromEnum(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayErrorNameFromEnum New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26523fc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -978,8 +1214,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayRenderingPid(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayRenderingPid(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayRenderingPid New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2652580 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1039,8 +1274,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayRenderingPid(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayRenderingPid(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayRenderingPid New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2652734 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1100,8 +1334,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayFlag(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayFlag(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayFlag New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26528b8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1161,8 +1394,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayFlag(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayFlag(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayFlag New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2652aa4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1222,8 +1454,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayColor(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayColor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayColor New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2652c90 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1283,8 +1514,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayColor(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayColor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayColor New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2652e70 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1344,8 +1574,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayAlpha(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayAlpha(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayAlpha New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265306c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1405,8 +1634,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayAlpha(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayAlpha(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayAlpha New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2653220 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1466,8 +1694,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayTexelAspect(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayTexelAspect(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayTexelAspect New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26533dc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1527,8 +1754,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayTexelAspect(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayTexelAspect(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayTexelAspect New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2653590 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1588,8 +1814,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlaySortOrder(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlaySortOrder(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlaySortOrder New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265374c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1649,8 +1874,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlaySortOrder(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlaySortOrder(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlaySortOrder New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2653900 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1710,8 +1934,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayWidthInMeters(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayWidthInMeters(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayWidthInMeters New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2653abc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1771,8 +1994,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayWidthInMeters(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayWidthInMeters(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayWidthInMeters New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2653c70 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1832,8 +2054,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayAutoCurveDistanceRangeInM
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayAutoCurveDistanceRangeInMeters(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayAutoCurveDistanceRangeInMeters New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2653e2c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1893,8 +2114,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayAutoCurveDistanceRangeInM
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayAutoCurveDistanceRangeInMeters(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayAutoCurveDistanceRangeInMeters New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2653ff4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1954,8 +2174,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayTextureColorSpace(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayTextureColorSpace(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayTextureColorSpace New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26541d4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2015,8 +2234,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayTextureColorSpace(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayTextureColorSpace(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayTextureColorSpace New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2654388 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2076,8 +2294,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayTextureBounds(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayTextureBounds(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayTextureBounds New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2654544 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2137,8 +2354,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayTextureBounds(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayTextureBounds(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayTextureBounds New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2654700 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2198,8 +2414,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayRenderModel(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayRenderModel(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayRenderModel New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26548bc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2259,8 +2474,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayRenderModel(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayRenderModel(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayRenderModel New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2654aec size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2320,8 +2534,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayTransformType(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayTransformType(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayTransformType New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2654cb0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2381,8 +2594,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayTransformAbsolute(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayTransformAbsolute(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayTransformAbsolute New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2654e6c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2442,8 +2654,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayTransformAbsolute(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayTransformAbsolute(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayTransformAbsolute New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2655058 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2503,8 +2714,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayTransformTrackedDeviceRel
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayTransformTrackedDeviceRelative(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayTransformTrackedDeviceRelative New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2655250 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2564,8 +2774,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayTransformTrackedDeviceRel
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayTransformTrackedDeviceRelative(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayTransformTrackedDeviceRelative New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265543c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2625,8 +2834,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayTransformTrackedDeviceCom
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayTransformTrackedDeviceComponent(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayTransformTrackedDeviceComponent New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2655634 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2686,8 +2894,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayTransformTrackedDeviceCom
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayTransformTrackedDeviceComponent(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayTransformTrackedDeviceComponent New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26557f0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2747,8 +2954,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayTransformOverlayRelative(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayTransformOverlayRelative(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayTransformOverlayRelative New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26559cc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2808,8 +3014,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayTransformOverlayRelative(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayTransformOverlayRelative(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayTransformOverlayRelative New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2655bac size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2869,8 +3074,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___ShowOverlay(void* ptr) noexcept : S
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___ShowOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___ShowOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2655d7c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2930,8 +3134,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___HideOverlay(void* ptr) noexcept : S
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___HideOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___HideOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2655f00 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2991,8 +3194,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___IsOverlayVisible(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___IsOverlayVisible(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___IsOverlayVisible New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2656084 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3052,8 +3254,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetTransformForOverlayCoordinates(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetTransformForOverlayCoordinates(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetTransformForOverlayCoordinates New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2656208 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3113,8 +3314,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___PollNextOverlayEvent(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___PollNextOverlayEvent(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___PollNextOverlayEvent New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2656424 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3174,8 +3374,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayInputMethod(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayInputMethod(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayInputMethod New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2656610 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3235,8 +3434,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayInputMethod(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayInputMethod(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayInputMethod New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26567cc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3296,8 +3494,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayMouseScale(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayMouseScale(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayMouseScale New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2656980 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3357,8 +3554,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayMouseScale(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayMouseScale(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayMouseScale New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2656b3c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3418,8 +3614,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___ComputeOverlayIntersection(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___ComputeOverlayIntersection(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___ComputeOverlayIntersection New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2656cf8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3479,8 +3674,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___IsHoverTargetOverlay(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___IsHoverTargetOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___IsHoverTargetOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2656ef0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3540,8 +3734,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetGamepadFocusOverlay(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetGamepadFocusOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetGamepadFocusOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2657074 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3601,8 +3794,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetGamepadFocusOverlay(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetGamepadFocusOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetGamepadFocusOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265718c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3662,8 +3854,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayNeighbor(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayNeighbor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayNeighbor New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2657310 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3723,8 +3914,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___MoveGamepadFocusToNeighbor(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___MoveGamepadFocusToNeighbor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___MoveGamepadFocusToNeighbor New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26574dc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3784,8 +3974,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayDualAnalogTransform(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayDualAnalogTransform(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayDualAnalogTransform New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2657690 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3845,8 +4034,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayDualAnalogTransform(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayDualAnalogTransform(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayDualAnalogTransform New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26578a4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3906,8 +4094,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayTexture(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayTexture(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayTexture New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2657acc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3967,8 +4154,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___ClearOverlayTexture(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___ClearOverlayTexture(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___ClearOverlayTexture New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2657c88 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4028,8 +4214,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayRaw(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayRaw(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayRaw New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2657e0c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4089,8 +4274,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayFromFile(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayFromFile(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayFromFile New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2658018 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4150,8 +4334,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayTexture(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayTexture(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayTexture New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26581a4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4211,8 +4394,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___ReleaseNativeOverlayHandle(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___ReleaseNativeOverlayHandle(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___ReleaseNativeOverlayHandle New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2658478 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4272,8 +4454,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayTextureSize(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayTextureSize(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayTextureSize New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265862c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4333,8 +4514,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___CreateDashboardOverlay(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___CreateDashboardOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___CreateDashboardOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265880c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4394,8 +4574,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___IsDashboardVisible(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___IsDashboardVisible(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___IsDashboardVisible New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26589e4 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4455,8 +4634,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___IsActiveDashboardOverlay(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___IsActiveDashboardOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___IsActiveDashboardOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2659afc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4516,8 +4694,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetDashboardOverlaySceneProcess(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetDashboardOverlaySceneProcess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetDashboardOverlaySceneProcess New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2659c80 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4577,8 +4754,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetDashboardOverlaySceneProcess(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetDashboardOverlaySceneProcess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetDashboardOverlaySceneProcess New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2659e34 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4638,8 +4814,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___ShowDashboard(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___ShowDashboard(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___ShowDashboard New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2659ff0 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4699,8 +4874,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetPrimaryDashboardDevice(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetPrimaryDashboardDevice(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetPrimaryDashboardDevice New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265a104 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4760,8 +4934,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___ShowKeyboard(void* ptr) noexcept : 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___ShowKeyboard(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___ShowKeyboard New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265a21c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4821,8 +4994,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___ShowKeyboardForOverlay(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___ShowKeyboardForOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___ShowKeyboardForOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265a460 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4882,8 +5054,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetKeyboardText(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetKeyboardText(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetKeyboardText New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265a6b4 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -4943,8 +5114,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___HideKeyboard(void* ptr) noexcept : 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___HideKeyboard(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___HideKeyboard New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265a85c size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -5004,8 +5174,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetKeyboardTransformAbsolute(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetKeyboardTransformAbsolute(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetKeyboardTransformAbsolute New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265a958 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -5065,8 +5234,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetKeyboardPositionForOverlay(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetKeyboardPositionForOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetKeyboardPositionForOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265ab04 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -5126,8 +5294,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___SetOverlayIntersectionMask(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___SetOverlayIntersectionMask(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___SetOverlayIntersectionMask New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265aca0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -5187,8 +5354,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___GetOverlayFlags(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___GetOverlayFlags(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___GetOverlayFlags New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265aea0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -5248,8 +5414,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___ShowMessageOverlay(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___ShowMessageOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___ShowMessageOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265b05c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -5309,8 +5474,7 @@ constexpr explicit OVR__OpenVR__IVROverlay___CloseMessageOverlay(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVROverlay___CloseMessageOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVROverlay___CloseMessageOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265b1a4 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

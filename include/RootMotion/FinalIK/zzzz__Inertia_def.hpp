@@ -10,8 +10,14 @@ struct FullBodyBipedEffector;
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__OffsetModifier__OffsetLimits;
 }
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__Inertia__Body;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class RootMotion__FinalIK__Inertia__Body__EffectorLink;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
@@ -86,8 +92,7 @@ constexpr float_t __get_weight() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__Inertia__Body__EffectorLink() ;
+static GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink New_ctor() ;
 
 /// @brief Method .ctor addr 0x1209f20 size 0x8 virtual false final false
  void _ctor() ;
@@ -215,8 +220,7 @@ constexpr bool __get_firstUpdate() const;
 /// @brief Method Update addr 0x1209ba8 size 0x2a4 virtual false final false
  void Update(RootMotion::FinalIK::IKSolverFullBodyBiped solver, float_t weight, float_t deltaTime) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__Inertia__Body() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body New_ctor() ;
 
 /// @brief Method .ctor addr 0x1209f04 size 0x1c virtual false final false
  void _ctor() ;
@@ -290,8 +294,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__Off
 /// @brief Method OnModifyOffset addr 0x1209b04 size 0xa4 virtual true final false
  void OnModifyOffset() ;
 
-// Ctor Parameters []
-explicit Inertia() ;
+static RootMotion::FinalIK::Inertia New_ctor() ;
 
 /// @brief Method .ctor addr 0x1209ef4 size 0x10 virtual false final false
  void _ctor() ;

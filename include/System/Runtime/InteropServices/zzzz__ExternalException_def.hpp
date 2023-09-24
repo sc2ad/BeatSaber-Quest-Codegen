@@ -60,26 +60,22 @@ constexpr explicit ExternalException(void* ptr) noexcept : System::SystemExcepti
 
 // Methods
 
-// Ctor Parameters []
-explicit ExternalException() ;
+static System::Runtime::InteropServices::ExternalException New_ctor() ;
 
 /// @brief Method .ctor addr 0x236a29c size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ExternalException(::StringW message) ;
+static System::Runtime::InteropServices::ExternalException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x236a2f8 size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "errorCode", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ExternalException(::StringW message, int32_t errorCode) ;
+static System::Runtime::InteropServices::ExternalException New_ctor(::StringW message, int32_t errorCode) ;
 
 /// @brief Method .ctor addr 0x236a31c size 0x28 virtual false final false
  void _ctor(::StringW message, int32_t errorCode) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ExternalException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::InteropServices::ExternalException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x236a344 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

@@ -61,8 +61,7 @@ constexpr explicit OrdinalCaseSensitiveComparer(void* ptr) noexcept : System::Or
 
 // Methods
 
-// Ctor Parameters []
-explicit OrdinalCaseSensitiveComparer() ;
+static System::OrdinalCaseSensitiveComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2456f90 size 0x8 virtual false final false
  void _ctor() ;

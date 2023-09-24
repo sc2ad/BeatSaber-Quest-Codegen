@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorByInstance_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: Zenject::SubContainerCreatorByInstance._ctor
 template<>
 
@@ -49,8 +49,10 @@ constexpr void Zenject::SubContainerCreatorByInstance::__set__subcontainer(Zenje
 constexpr Zenject::DiContainer Zenject::SubContainerCreatorByInstance::__get__subcontainer() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "subcontainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorByInstance::SubContainerCreatorByInstance(Zenject::DiContainer subcontainer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorByInstance>(subcontainer))) {}
+ Zenject::SubContainerCreatorByInstance Zenject::SubContainerCreatorByInstance::New_ctor(Zenject::DiContainer subcontainer)  {
+Zenject::SubContainerCreatorByInstance o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorByInstance>(subcontainer))};
+return o;
+}
  void Zenject::SubContainerCreatorByInstance::_ctor(Zenject::DiContainer subcontainer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorByInstance>::get(),

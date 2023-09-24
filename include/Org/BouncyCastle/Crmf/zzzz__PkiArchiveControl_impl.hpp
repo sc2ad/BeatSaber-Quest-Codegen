@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crmf/zzzz__PkiArchiveControl_def.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__IControl_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedData_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__PkiArchiveOptions_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedData_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crmf::PkiArchiveControl._ctor
 template<>
 
@@ -141,8 +141,10 @@ constexpr void Org::BouncyCastle::Crmf::PkiArchiveControl::__set_pkiArchiveOptio
 constexpr Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions Org::BouncyCastle::Crmf::PkiArchiveControl::__get_pkiArchiveOptions() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pkiArchiveOptions", ty: "Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::PkiArchiveControl::PkiArchiveControl(Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions pkiArchiveOptions)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkiArchiveControl>(pkiArchiveOptions))) {}
+ Org::BouncyCastle::Crmf::PkiArchiveControl Org::BouncyCastle::Crmf::PkiArchiveControl::New_ctor(Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions pkiArchiveOptions)  {
+Org::BouncyCastle::Crmf::PkiArchiveControl o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::PkiArchiveControl>(pkiArchiveOptions))};
+return o;
+}
  void Org::BouncyCastle::Crmf::PkiArchiveControl::_ctor(Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions pkiArchiveOptions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::PkiArchiveControl>::get(),

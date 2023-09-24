@@ -2,6 +2,7 @@
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__OpenXRDevice_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/zzzz__EyeGazeInteraction_def.hpp"
+#include "UnityEngine/XR/OpenXR/Features/Interactions/zzzz__EyeGazeInteraction_def.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__PoseControl_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice.get_pose
 template<>
@@ -104,8 +105,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice::UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice()  : UnityEngine::XR::OpenXR::Input::OpenXRDevice(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice>())) {}
+ UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice>::get(),
@@ -236,8 +239,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::EyeGazeInteraction()  : UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature(THROW_UNLESS(::il2cpp_utils::New<EyeGazeInteraction>())) {}
+ UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction>::get(),

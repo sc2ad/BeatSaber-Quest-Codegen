@@ -53,8 +53,7 @@ constexpr explicit AsymmetricSignatureDeformatter(void* ptr) noexcept : ::bs_hoo
 
 // Methods
 
-// Ctor Parameters []
-explicit AsymmetricSignatureDeformatter() ;
+static System::Security::Cryptography::AsymmetricSignatureDeformatter New_ctor() ;
 
 /// @brief Method .ctor addr 0x22efdb4 size 0x8 virtual false final false
  void _ctor() ;

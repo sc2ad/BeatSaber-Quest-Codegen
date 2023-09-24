@@ -2,10 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuShockwave_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "VRUIControls/zzzz__VRPointer_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "VRUIControls/zzzz__VRPointer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MenuShockwave.Awake
 template<>
 
@@ -177,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pos);
 }
-// Ctor Parameters []
- GlobalNamespace::MenuShockwave::MenuShockwave()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MenuShockwave>())) {}
+ GlobalNamespace::MenuShockwave GlobalNamespace::MenuShockwave::New_ctor()  {
+GlobalNamespace::MenuShockwave o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MenuShockwave>())};
+return o;
+}
  void GlobalNamespace::MenuShockwave::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MenuShockwave>::get(),

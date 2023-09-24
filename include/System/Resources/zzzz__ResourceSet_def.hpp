@@ -2,23 +2,23 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class Hashtable;
+}
+namespace System::Resources {
+class IResourceReader;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Resources {
-class IResourceReader;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -93,14 +93,12 @@ constexpr System::Collections::Hashtable __get__caseInsensitiveTable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ResourceSet() ;
+static System::Resources::ResourceSet New_ctor() ;
 
 /// @brief Method .ctor addr 0x23782d0 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "junk", ty: "bool", modifiers: "", def_value: None }]
-explicit ResourceSet(bool junk) ;
+static System::Resources::ResourceSet New_ctor(bool junk) ;
 
 /// @brief Method .ctor addr 0x237834c size 0x8 virtual false final false
  void _ctor(bool junk) ;

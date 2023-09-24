@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementAnimationSystem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__IValueAnimationUpdate_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
@@ -286,8 +286,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, versionChangeType);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::VisualElementAnimationSystem::VisualElementAnimationSystem()  : UnityEngine::UIElements::BaseVisualTreeUpdater(THROW_UNLESS(::il2cpp_utils::New<VisualElementAnimationSystem>())) {}
+ UnityEngine::UIElements::VisualElementAnimationSystem UnityEngine::UIElements::VisualElementAnimationSystem::New_ctor()  {
+UnityEngine::UIElements::VisualElementAnimationSystem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualElementAnimationSystem>())};
+return o;
+}
  void UnityEngine::UIElements::VisualElementAnimationSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualElementAnimationSystem>::get(),

@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/zzzz__ReceiveState_def.hpp"
-#include "System/Net/zzzz__CommandStream_def.hpp"
 #include "System/Net/zzzz__ResponseDescription_def.hpp"
+#include "System/Net/zzzz__CommandStream_def.hpp"
 //  Writing Method size for method: System::Net::ReceiveState._ctor
 template<>
 
@@ -43,8 +43,10 @@ constexpr void System::Net::ReceiveState::__set_Connection(System::Net::CommandS
 constexpr System::Net::CommandStream System::Net::ReceiveState::__get_Connection() const {
 return ::cordl_internals::getInstanceField<System::Net::CommandStream, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "connection", ty: "System::Net::CommandStream", modifiers: "", def_value: None }]
- System::Net::ReceiveState::ReceiveState(System::Net::CommandStream connection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReceiveState>(connection))) {}
+ System::Net::ReceiveState System::Net::ReceiveState::New_ctor(System::Net::CommandStream connection)  {
+System::Net::ReceiveState o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ReceiveState>(connection))};
+return o;
+}
  void System::Net::ReceiveState::_ctor(System::Net::CommandStream connection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ReceiveState>::get(),

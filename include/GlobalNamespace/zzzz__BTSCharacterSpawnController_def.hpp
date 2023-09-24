@@ -11,19 +11,22 @@ namespace UnityEngine {
 class Coroutine;
 }
 namespace GlobalNamespace {
-class IGamePause;
-}
-namespace GlobalNamespace {
-class BTSCharacter;
+class BTSCharacterSpawnEventEffect;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class BTSCharacterSpawnEventEffect;
+class BTSCharacterSpawnAnimationController;
 }
 namespace GlobalNamespace {
-class BTSCharacterSpawnAnimationController;
+class GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
+}
+namespace GlobalNamespace {
+class BTSCharacter;
+}
+namespace GlobalNamespace {
+class IGamePause;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -118,8 +121,7 @@ constexpr GlobalNamespace::BTSCharacterSpawnController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20a85d4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -275,8 +277,7 @@ constexpr UnityEngine::Coroutine __get__despawnCharacterCoroutine() const;
 /// @brief Method TimelineStoppedDelayed addr 0x20a8498 size 0x68 virtual false final false
  System::Collections::IEnumerator TimelineStoppedDelayed() ;
 
-// Ctor Parameters []
-explicit BTSCharacterSpawnController() ;
+static GlobalNamespace::BTSCharacterSpawnController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a85fc size 0x8 virtual false final false
  void _ctor() ;

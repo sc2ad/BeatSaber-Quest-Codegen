@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLevelSceneSetupData._ctor
 template<>
 
@@ -45,8 +45,10 @@ constexpr void GlobalNamespace::MultiplayerLevelSceneSetupData::__set_hasSong(bo
 constexpr bool GlobalNamespace::MultiplayerLevelSceneSetupData::__get_hasSong() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "hasSong", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::MultiplayerLevelSceneSetupData::MultiplayerLevelSceneSetupData(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool hasSong)  : GlobalNamespace::SceneSetupData(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLevelSceneSetupData>(previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, hasSong))) {}
+ GlobalNamespace::MultiplayerLevelSceneSetupData GlobalNamespace::MultiplayerLevelSceneSetupData::New_ctor(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool hasSong)  {
+GlobalNamespace::MultiplayerLevelSceneSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLevelSceneSetupData>(previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, hasSong))};
+return o;
+}
  void GlobalNamespace::MultiplayerLevelSceneSetupData::_ctor(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool hasSong)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLevelSceneSetupData>::get(),

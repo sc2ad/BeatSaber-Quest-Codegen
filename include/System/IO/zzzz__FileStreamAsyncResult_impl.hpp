@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__FileStreamAsyncResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Threading/zzzz__WaitHandle_def.hpp"
-#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
+#include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: System::IO::FileStreamAsyncResult._ctor
 template<>
 
@@ -164,8 +164,10 @@ constexpr void System::IO::FileStreamAsyncResult::__set_realcb(System::AsyncCall
 constexpr System::AsyncCallback System::IO::FileStreamAsyncResult::__get_realcb() const {
 return ::cordl_internals::getInstanceField<System::AsyncCallback, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cb", ty: "System::AsyncCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::IO::FileStreamAsyncResult::FileStreamAsyncResult(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FileStreamAsyncResult>(cb, state))) {}
+ System::IO::FileStreamAsyncResult System::IO::FileStreamAsyncResult::New_ctor(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state)  {
+System::IO::FileStreamAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStreamAsyncResult>(cb, state))};
+return o;
+}
  void System::IO::FileStreamAsyncResult::_ctor(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStreamAsyncResult>::get(),

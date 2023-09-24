@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, selectedNumberOfPlayers, netDiscoverable);
 }
-// Ctor Parameters []
- GlobalNamespace::CreateServerFormController::CreateServerFormController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CreateServerFormController>())) {}
+ GlobalNamespace::CreateServerFormController GlobalNamespace::CreateServerFormController::New_ctor()  {
+GlobalNamespace::CreateServerFormController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CreateServerFormController>())};
+return o;
+}
  void GlobalNamespace::CreateServerFormController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CreateServerFormController>::get(),

@@ -4,11 +4,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-template<typename TStateTable,typename TType,typename TState>
-class IStateTable_3;
+struct GlobalNamespace__StandardScoreSyncState__Score;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataWriter;
 }
 namespace GlobalNamespace {
 template<typename T>
@@ -17,8 +16,12 @@ class IEquatableByReference_1;
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
+namespace GlobalNamespace {
+template<typename TStateTable,typename TType,typename TState>
+class IStateTable_3;
+}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,6 +83,8 @@ __Count = 5,
 constexpr operator __GlobalNamespace__StandardScoreSyncState__Score_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__StandardScoreSyncState__Score_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

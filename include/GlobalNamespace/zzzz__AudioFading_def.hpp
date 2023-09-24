@@ -90,8 +90,7 @@ constexpr float_t __get__targetVolume() const;
 /// @brief Method FadeIn addr 0x20b88b8 size 0x24 virtual false final false
  void FadeIn() ;
 
-// Ctor Parameters []
-explicit AudioFading() ;
+static GlobalNamespace::AudioFading New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b89cc size 0x10 virtual false final false
  void _ctor() ;

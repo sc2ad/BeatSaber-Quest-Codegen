@@ -68,8 +68,7 @@ constexpr int32_t __get_crc() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Crc24() ;
+static Org::BouncyCastle::Bcpg::Crc24 New_ctor() ;
 
 /// @brief Method .ctor addr 0x113f60c size 0x14 virtual false final false
  void _ctor() ;

@@ -2,9 +2,9 @@
 #include "System/Collections/Specialized/zzzz__StringCollection_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 //  Writing Method size for method: System::Collections::Specialized::StringCollection.get_Item
 template<>
@@ -665,8 +665,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Collections::Specialized::StringCollection::StringCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringCollection>())) {}
+ System::Collections::Specialized::StringCollection System::Collections::Specialized::StringCollection::New_ctor()  {
+System::Collections::Specialized::StringCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::StringCollection>())};
+return o;
+}
  void System::Collections::Specialized::StringCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::StringCollection>::get(),

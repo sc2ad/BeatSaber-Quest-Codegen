@@ -3,14 +3,14 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
 namespace System::IO {
 struct SeekOrigin;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -107,20 +107,17 @@ constexpr System::IO::Stream __get_outp() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outp", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit ZDeflaterOutputStream(System::IO::Stream outp) ;
+static Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream New_ctor(System::IO::Stream outp) ;
 
 /// @brief Method .ctor addr 0x10de51c size 0xc virtual false final false
  void _ctor(System::IO::Stream outp) ;
 
-// Ctor Parameters [CppParam { name: "outp", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ZDeflaterOutputStream(System::IO::Stream outp, int32_t level) ;
+static Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream New_ctor(System::IO::Stream outp, int32_t level) ;
 
 /// @brief Method .ctor addr 0x10de620 size 0x8 virtual false final false
  void _ctor(System::IO::Stream outp, int32_t level) ;
 
-// Ctor Parameters [CppParam { name: "outp", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
-explicit ZDeflaterOutputStream(System::IO::Stream outp, int32_t level, bool nowrap) ;
+static Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream New_ctor(System::IO::Stream outp, int32_t level, bool nowrap) ;
 
 /// @brief Method .ctor addr 0x10de528 size 0xf8 virtual false final false
  void _ctor(System::IO::Stream outp, int32_t level, bool nowrap) ;

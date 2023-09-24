@@ -24,8 +24,10 @@ constexpr void System::Security::Cryptography::DSASignatureFormatter::__set__oid
 constexpr ::StringW System::Security::Cryptography::DSASignatureFormatter::__get__oid() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::DSASignatureFormatter::DSASignatureFormatter()  : System::Security::Cryptography::AsymmetricSignatureFormatter(THROW_UNLESS(::il2cpp_utils::New<DSASignatureFormatter>())) {}
+ System::Security::Cryptography::DSASignatureFormatter System::Security::Cryptography::DSASignatureFormatter::New_ctor()  {
+System::Security::Cryptography::DSASignatureFormatter o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DSASignatureFormatter>())};
+return o;
+}
  void System::Security::Cryptography::DSASignatureFormatter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DSASignatureFormatter>::get(),

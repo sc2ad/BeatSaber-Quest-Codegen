@@ -11,11 +11,27 @@ template<typename T>
 class List_1;
 }
 namespace System {
+class IDisposable;
+}
+namespace System::Threading {
+template<typename T>
+struct System__Threading__ThreadLocal_1__LinkedSlotVolatile;
+}
+namespace System::Threading {
+template<typename T>
+class System__Threading__ThreadLocal_1__IdManager;
+}
+namespace System {
 template<typename TResult>
 class Func_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading {
+template<typename T>
+class System__Threading__ThreadLocal_1__FinalizationHelper;
+}
+namespace System::Threading {
+template<typename T>
+class System__Threading__ThreadLocal_1__LinkedSlot;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -184,8 +200,7 @@ constexpr T __get_Value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "slotArray", ty: "::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>>", modifiers: "", def_value: None }]
-explicit System__Threading__ThreadLocal_1__LinkedSlot(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray) ;
+static System::Threading::System__Threading__ThreadLocal_1__LinkedSlot<T> New_ctor(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray) ;
@@ -259,8 +274,7 @@ constexpr System::Collections::Generic::List_1<bool> __get_m_freeIds() const;
 /// @brief Method ReturnId addr 0x0 size 0xffffffffffffffff virtual false final false
  void ReturnId(int32_t id) ;
 
-// Ctor Parameters []
-explicit System__Threading__ThreadLocal_1__IdManager() ;
+static System::Threading::System__Threading__ThreadLocal_1__IdManager<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -328,8 +342,7 @@ constexpr bool __get_m_trackAllValues() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "slotArray", ty: "::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>>", modifiers: "", def_value: None }, CppParam { name: "trackAllValues", ty: "bool", modifiers: "", def_value: None }]
-explicit System__Threading__ThreadLocal_1__FinalizationHelper(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray, bool trackAllValues) ;
+static System::Threading::System__Threading__ThreadLocal_1__FinalizationHelper<T> New_ctor(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray, bool trackAllValues) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::ArrayW<System::Threading::System__Threading__ThreadLocal_1__LinkedSlotVolatile<T>> slotArray, bool trackAllValues) ;
@@ -454,8 +467,7 @@ constexpr bool __get_m_trackAllValues() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ThreadLocal_1() ;
+static System::Threading::ThreadLocal_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

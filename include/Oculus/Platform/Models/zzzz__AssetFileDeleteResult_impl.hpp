@@ -41,8 +41,10 @@ constexpr void Oculus::Platform::Models::AssetFileDeleteResult::__set_Success(bo
 constexpr bool Oculus::Platform::Models::AssetFileDeleteResult::__get_Success() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::AssetFileDeleteResult::AssetFileDeleteResult(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssetFileDeleteResult>(o))) {}
+ Oculus::Platform::Models::AssetFileDeleteResult Oculus::Platform::Models::AssetFileDeleteResult::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::AssetFileDeleteResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::AssetFileDeleteResult>(o))};
+return o;
+}
  void Oculus::Platform::Models::AssetFileDeleteResult::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::AssetFileDeleteResult>::get(),

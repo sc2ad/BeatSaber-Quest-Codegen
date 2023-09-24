@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__GuiRenderer_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__GuiRenderableManager_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::GuiRenderer.Construct
 template<>
 
@@ -112,8 +112,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::GuiRenderer::GuiRenderer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GuiRenderer>())) {}
+ Zenject::GuiRenderer Zenject::GuiRenderer::New_ctor()  {
+Zenject::GuiRenderer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::GuiRenderer>())};
+return o;
+}
  void Zenject::GuiRenderer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::GuiRenderer>::get(),

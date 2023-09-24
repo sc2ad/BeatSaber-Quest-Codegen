@@ -2,15 +2,15 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
 #include <cstdint>
-namespace System::Net::Http::Headers {
-class MediaTypeHeaderValue;
-}
 namespace System::Net::Http {
 class HttpContent;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
+}
+namespace System::Net::Http::Headers {
+class MediaTypeHeaderValue;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -74,8 +74,7 @@ constexpr System::Net::Http::HttpContent __get_content() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "content", ty: "System::Net::Http::HttpContent", modifiers: "", def_value: None }]
-explicit HttpContentHeaders(System::Net::Http::HttpContent content) ;
+static System::Net::Http::Headers::HttpContentHeaders New_ctor(System::Net::Http::HttpContent content) ;
 
 /// @brief Method .ctor addr 0x26a0d68 size 0x70 virtual false final false
  void _ctor(System::Net::Http::HttpContent content) ;

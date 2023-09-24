@@ -3,27 +3,27 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class PlayerTransforms;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class PlayerSpaceConvertor;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
 class IAudioTimeSource;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class PlayerSpaceConvertor;
 }
 namespace System {
 class Action;
@@ -336,8 +336,7 @@ constexpr bool __get__rotateTowardsPlayer() const;
 /// @brief Method ManualUpdate addr 0x22419bc size 0x640 virtual false final false
  UnityEngine::Vector3 ManualUpdate() ;
 
-// Ctor Parameters []
-explicit NoteJump() ;
+static GlobalNamespace::NoteJump New_ctor() ;
 
 /// @brief Method .ctor addr 0x2241ffc size 0x1b8 virtual false final false
  void _ctor() ;

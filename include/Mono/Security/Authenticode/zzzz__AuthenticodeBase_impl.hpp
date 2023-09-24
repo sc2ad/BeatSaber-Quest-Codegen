@@ -1,7 +1,7 @@
 #pragma once
 #include "Mono/Security/Authenticode/zzzz__AuthenticodeBase_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Mono::Security::Authenticode::AuthenticodeBase._ctor
 template<>
 
@@ -209,8 +209,10 @@ constexpr void Mono::Security::Authenticode::AuthenticodeBase::__set_pe64(bool v
 constexpr bool Mono::Security::Authenticode::AuthenticodeBase::__get_pe64() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::Authenticode::AuthenticodeBase::AuthenticodeBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AuthenticodeBase>())) {}
+ Mono::Security::Authenticode::AuthenticodeBase Mono::Security::Authenticode::AuthenticodeBase::New_ctor()  {
+Mono::Security::Authenticode::AuthenticodeBase o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Authenticode::AuthenticodeBase>())};
+return o;
+}
  void Mono::Security::Authenticode::AuthenticodeBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Authenticode::AuthenticodeBase>::get(),

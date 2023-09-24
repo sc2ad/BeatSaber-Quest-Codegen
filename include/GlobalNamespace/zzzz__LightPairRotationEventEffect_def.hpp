@@ -10,14 +10,14 @@ class Transform;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
@@ -26,7 +26,10 @@ namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LightPairRotationEventEffect__RotationData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -116,8 +119,7 @@ constexpr float_t __get_rotationAngle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LightPairRotationEventEffect__RotationData() ;
+static GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData New_ctor() ;
 
 /// @brief Method .ctor addr 0x22612f8 size 0x8 virtual false final false
  void _ctor() ;
@@ -299,8 +301,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method UpdateRotationData addr 0x2261940 size 0x21c virtual false final false
  void UpdateRotationData(int32_t beatmapEventDataValue, GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData rotationData, float_t startRotationOffset, float_t direction) ;
 
-// Ctor Parameters []
-explicit LightPairRotationEventEffect() ;
+static GlobalNamespace::LightPairRotationEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2261b5c size 0x74 virtual false final false
  void _ctor() ;

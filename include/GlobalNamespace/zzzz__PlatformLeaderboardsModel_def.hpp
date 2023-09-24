@@ -26,37 +26,58 @@ template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace GlobalNamespace {
 class HMAsyncRequest;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class PlatformLeaderboardsHandler;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__LeaderboardScoreUploader__ScoreData;
 }
 namespace GlobalNamespace {
-class LeaderboardScoreUploader;
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformLeaderboardsModel__ScoresScope;
+}
+namespace GlobalNamespace {
+class IPlatformUserModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformLeaderboardsModel___Initialize_d__19;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler;
 }
 namespace GlobalNamespace {
 class UserInfo;
 }
-namespace GlobalNamespace {
-class PlatformLeaderboardsHandler;
+namespace System {
+class Action;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformLeaderboardsModel__GetScoresResult;
+}
+namespace GlobalNamespace {
+class LeaderboardScoreUploader;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformLeaderboardsModel__UploadScoreResult;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformLeaderboardsModel__State;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -64,6 +85,9 @@ struct AsyncVoidMethodBuilder;
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -144,6 +168,8 @@ constexpr operator __GlobalNamespace__PlatformLeaderboardsModel__State_Unwrapped
 return std::bit_cast<__GlobalNamespace__PlatformLeaderboardsModel__State_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -216,6 +242,8 @@ constexpr operator __GlobalNamespace__PlatformLeaderboardsModel__GetScoresResult
 return std::bit_cast<__GlobalNamespace__PlatformLeaderboardsModel__GetScoresResult_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -285,6 +313,8 @@ __FailedTooManyRequests = 2,
 constexpr operator __GlobalNamespace__PlatformLeaderboardsModel__UploadScoreResult_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__PlatformLeaderboardsModel__UploadScoreResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -359,6 +389,8 @@ constexpr operator __GlobalNamespace__PlatformLeaderboardsModel__ScoresScope_Unw
 return std::bit_cast<__GlobalNamespace__PlatformLeaderboardsModel__ScoresScope_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -423,8 +455,7 @@ constexpr explicit GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompleti
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x21c7f08 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -484,8 +515,7 @@ constexpr explicit GlobalNamespace__PlatformLeaderboardsModel__UploadScoreComple
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x21c4fac size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -575,8 +605,7 @@ constexpr ::StringW __get_playerId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "score", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "playerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO> gameplayModifiers) ;
+static GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__LeaderboardScore New_ctor(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO> gameplayModifiers) ;
 
 /// @brief Method .ctor addr 0x21c754c size 0x40 virtual false final false
  void _ctor(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO> gameplayModifiers) ;
@@ -821,8 +850,7 @@ constexpr ::StringW __get__playerId() const;
 /// @brief Method UploadScore addr 0x21c7da4 size 0x15c virtual false final false
  void UploadScore(GlobalNamespace::IDifficultyBeatmap beatmap, int32_t multipliedScore, int32_t modifiedScore, int32_t maxPossibleMultipliedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, float_t energy, GlobalNamespace::GameplayModifiers gameplayModifiers) ;
 
-// Ctor Parameters []
-explicit PlatformLeaderboardsModel() ;
+static GlobalNamespace::PlatformLeaderboardsModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c7f00 size 0x8 virtual false final false
  void _ctor() ;

@@ -57,8 +57,7 @@ constexpr ::StringW __get__Configuration_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "configuration", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyConfigurationAttribute(::StringW configuration) ;
+static System::Reflection::AssemblyConfigurationAttribute New_ctor(::StringW configuration) ;
 
 /// @brief Method .ctor addr 0x2378ca8 size 0x28 virtual false final false
  void _ctor(::StringW configuration) ;

@@ -47,8 +47,10 @@ constexpr void UnityEngine::AddComponentMenu::__set_m_Ordering(int32_t value)  {
 constexpr int32_t UnityEngine::AddComponentMenu::__get_m_Ordering() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "menuName", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::AddComponentMenu::AddComponentMenu(::StringW menuName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AddComponentMenu>(menuName))) {}
+ UnityEngine::AddComponentMenu UnityEngine::AddComponentMenu::New_ctor(::StringW menuName)  {
+UnityEngine::AddComponentMenu o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddComponentMenu>(menuName))};
+return o;
+}
  void UnityEngine::AddComponentMenu::_ctor(::StringW menuName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddComponentMenu>::get(),
@@ -58,8 +60,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, menuName);
 }
-// Ctor Parameters [CppParam { name: "menuName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::AddComponentMenu::AddComponentMenu(::StringW menuName, int32_t order)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AddComponentMenu>(menuName, order))) {}
+ UnityEngine::AddComponentMenu UnityEngine::AddComponentMenu::New_ctor(::StringW menuName, int32_t order)  {
+UnityEngine::AddComponentMenu o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddComponentMenu>(menuName, order))};
+return o;
+}
  void UnityEngine::AddComponentMenu::_ctor(::StringW menuName, int32_t order)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddComponentMenu>::get(),

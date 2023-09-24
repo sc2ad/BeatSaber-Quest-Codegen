@@ -177,8 +177,10 @@ constexpr void System::Runtime::Serialization::LongList::__set_m_currentItem(int
 constexpr int32_t System::Runtime::Serialization::LongList::__get_m_currentItem() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::LongList::LongList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LongList>())) {}
+ System::Runtime::Serialization::LongList System::Runtime::Serialization::LongList::New_ctor()  {
+System::Runtime::Serialization::LongList o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::LongList>())};
+return o;
+}
  void System::Runtime::Serialization::LongList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::LongList>::get(),
@@ -188,8 +190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "startingSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Serialization::LongList::LongList(int32_t startingSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LongList>(startingSize))) {}
+ System::Runtime::Serialization::LongList System::Runtime::Serialization::LongList::New_ctor(int32_t startingSize)  {
+System::Runtime::Serialization::LongList o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::LongList>(startingSize))};
+return o;
+}
  void System::Runtime::Serialization::LongList::_ctor(int32_t startingSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::LongList>::get(),

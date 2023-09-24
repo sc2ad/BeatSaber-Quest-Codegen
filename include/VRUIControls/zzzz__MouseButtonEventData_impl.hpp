@@ -1,7 +1,6 @@
 #pragma once
 #include "VRUIControls/zzzz__MouseButtonEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 //  Writing Method size for method: VRUIControls::MouseButtonEventData.PressedThisFrame
 template<>
 
@@ -83,8 +82,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- VRUIControls::MouseButtonEventData::MouseButtonEventData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MouseButtonEventData>())) {}
+ VRUIControls::MouseButtonEventData VRUIControls::MouseButtonEventData::New_ctor()  {
+VRUIControls::MouseButtonEventData o{THROW_UNLESS(::il2cpp_utils::New<VRUIControls::MouseButtonEventData>())};
+return o;
+}
  void VRUIControls::MouseButtonEventData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<VRUIControls::MouseButtonEventData>::get(),

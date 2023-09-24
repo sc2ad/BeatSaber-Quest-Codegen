@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__MPInteger_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::MPInteger._ctor
 template<>
 
@@ -95,8 +95,10 @@ constexpr void Org::BouncyCastle::Bcpg::MPInteger::__set_val(Org::BouncyCastle::
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Bcpg::MPInteger::__get_val() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::MPInteger::MPInteger(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::BcpgObject(THROW_UNLESS(::il2cpp_utils::New<MPInteger>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::MPInteger Org::BouncyCastle::Bcpg::MPInteger::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::MPInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::MPInteger>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::MPInteger::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::MPInteger>::get(),
@@ -106,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgIn);
 }
-// Ctor Parameters [CppParam { name: "val", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::MPInteger::MPInteger(Org::BouncyCastle::Math::BigInteger val)  : Org::BouncyCastle::Bcpg::BcpgObject(THROW_UNLESS(::il2cpp_utils::New<MPInteger>(val))) {}
+ Org::BouncyCastle::Bcpg::MPInteger Org::BouncyCastle::Bcpg::MPInteger::New_ctor(Org::BouncyCastle::Math::BigInteger val)  {
+Org::BouncyCastle::Bcpg::MPInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::MPInteger>(val))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::MPInteger::_ctor(Org::BouncyCastle::Math::BigInteger val)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::MPInteger>::get(),

@@ -1,14 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine::UIElements {
-class IMouseEvent;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class IMouseEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

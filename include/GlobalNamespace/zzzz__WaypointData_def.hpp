@@ -4,13 +4,13 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-struct OffsetDirection;
-}
-namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+struct OffsetDirection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +109,7 @@ constexpr GlobalNamespace::NoteLineLayer __get__lineLayer_k__BackingField() cons
 /// @brief Method GetCopy addr 0xd951d4 size 0x90 virtual true final false
  GlobalNamespace::BeatmapDataItem GetCopy() ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "offsetDirection", ty: "GlobalNamespace::OffsetDirection", modifiers: "", def_value: None }]
-explicit WaypointData(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection) ;
+static GlobalNamespace::WaypointData New_ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection) ;
 
 /// @brief Method .ctor addr 0xd95264 size 0x58 virtual false final false
  void _ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection) ;

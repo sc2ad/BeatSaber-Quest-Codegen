@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__Gamepad_impl.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__DualShockGamepad_def.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__IDualShockHaptics_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::DualShock::DualShockGamepad.get_touchpadButton
 template<>
 
@@ -719,8 +719,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::DualShock::DualShockGamepad::DualShockGamepad()  : UnityEngine::InputSystem::Gamepad(THROW_UNLESS(::il2cpp_utils::New<DualShockGamepad>())) {}
+ UnityEngine::InputSystem::DualShock::DualShockGamepad UnityEngine::InputSystem::DualShock::DualShockGamepad::New_ctor()  {
+UnityEngine::InputSystem::DualShock::DualShockGamepad o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::DualShock::DualShockGamepad>())};
+return o;
+}
  void UnityEngine::InputSystem::DualShock::DualShockGamepad::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::DualShock::DualShockGamepad>::get(),

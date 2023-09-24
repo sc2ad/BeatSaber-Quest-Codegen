@@ -69,8 +69,7 @@ constexpr GlobalNamespace::IScoreController __get__scoreController() const;
 /// @brief Method Init addr 0x20d7f18 size 0x208 virtual true final false
  void Init() ;
 
-// Ctor Parameters []
-explicit ScoreMissionObjectiveChecker() ;
+static GlobalNamespace::ScoreMissionObjectiveChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d8120 size 0x8 virtual false final false
  void _ctor() ;

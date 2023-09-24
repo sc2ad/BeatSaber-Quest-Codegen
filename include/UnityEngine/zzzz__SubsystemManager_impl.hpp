@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__SubsystemManager_def.hpp"
-#include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemWithProvider_def.hpp"
 #include "UnityEngine/zzzz__Subsystem_def.hpp"
 #include "System/zzzz__Action_def.hpp"

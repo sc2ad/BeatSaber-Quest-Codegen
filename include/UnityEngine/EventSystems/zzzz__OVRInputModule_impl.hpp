@@ -2,20 +2,19 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__OVRInputModule_def.hpp"
-#include "GlobalNamespace/zzzz__OVRInput_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__KeyCode_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCursor_def.hpp"
-#include "GlobalNamespace/zzzz__OVRRaycaster_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__OVRInputModule_def.hpp"
+#include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__OVRPointerEventData_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__OVRPointerEventData_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "GlobalNamespace/zzzz__OVRInput_def.hpp"
+#include "GlobalNamespace/zzzz__OVRRaycaster_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__OVRInputModule__InputMode::UnityEngine__EventSystems__OVRInputModule__InputMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -874,8 +873,10 @@ constexpr void UnityEngine::EventSystems::OVRInputModule::__set_m_MouseState(Uni
 constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState UnityEngine::EventSystems::OVRInputModule::__get_m_MouseState() const {
 return ::cordl_internals::getInstanceField<UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState, 0xe8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::OVRInputModule::OVRInputModule()  : UnityEngine::EventSystems::PointerInputModule(THROW_UNLESS(::il2cpp_utils::New<OVRInputModule>())) {}
+ UnityEngine::EventSystems::OVRInputModule UnityEngine::EventSystems::OVRInputModule::New_ctor()  {
+UnityEngine::EventSystems::OVRInputModule o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::OVRInputModule>())};
+return o;
+}
  void UnityEngine::EventSystems::OVRInputModule::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::OVRInputModule>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "ENet/zzzz__Callbacks_def.hpp"
 #include "ENet/zzzz__NoMemoryCallback_def.hpp"
-#include "ENet/zzzz__ENetCallbacks_def.hpp"
-#include "ENet/zzzz__FreeCallback_def.hpp"
 #include "ENet/zzzz__AllocCallback_def.hpp"
+#include "ENet/zzzz__FreeCallback_def.hpp"
+#include "ENet/zzzz__ENetCallbacks_def.hpp"
 //  Writing Method size for method: ENet::Callbacks.get_NativeData
 template<>
 
@@ -79,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "allocCallback", ty: "ENet::AllocCallback", modifiers: "", def_value: None }, CppParam { name: "freeCallback", ty: "ENet::FreeCallback", modifiers: "", def_value: None }, CppParam { name: "noMemoryCallback", ty: "ENet::NoMemoryCallback", modifiers: "", def_value: None }]
- ENet::Callbacks::Callbacks(ENet::AllocCallback allocCallback, ENet::FreeCallback freeCallback, ENet::NoMemoryCallback noMemoryCallback)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Callbacks>(allocCallback, freeCallback, noMemoryCallback))) {}
+ ENet::Callbacks ENet::Callbacks::New_ctor(ENet::AllocCallback allocCallback, ENet::FreeCallback freeCallback, ENet::NoMemoryCallback noMemoryCallback)  {
+ENet::Callbacks o{THROW_UNLESS(::il2cpp_utils::New<ENet::Callbacks>(allocCallback, freeCallback, noMemoryCallback))};
+return o;
+}
  void ENet::Callbacks::_ctor(ENet::AllocCallback allocCallback, ENet::FreeCallback freeCallback, ENet::NoMemoryCallback noMemoryCallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ENet::Callbacks>::get(),

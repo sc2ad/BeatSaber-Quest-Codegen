@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentsListSO_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentTypeSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EnvironmentsListSO.get_environmentInfos
 template<>
@@ -157,8 +157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::EnvironmentInfoSO, false>(const_cast<void*>(instance), ___internal_method, environmentType);
 }
-// Ctor Parameters []
- GlobalNamespace::EnvironmentsListSO::EnvironmentsListSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<EnvironmentsListSO>())) {}
+ GlobalNamespace::EnvironmentsListSO GlobalNamespace::EnvironmentsListSO::New_ctor()  {
+GlobalNamespace::EnvironmentsListSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnvironmentsListSO>())};
+return o;
+}
  void GlobalNamespace::EnvironmentsListSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnvironmentsListSO>::get(),

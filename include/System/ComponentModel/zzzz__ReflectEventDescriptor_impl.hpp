@@ -3,8 +3,8 @@
 #include "System/ComponentModel/zzzz__ReflectEventDescriptor_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__EventInfo_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: System::ComponentModel::ReflectEventDescriptor._ctor
 template<>
 
@@ -126,8 +126,10 @@ constexpr void System::ComponentModel::ReflectEventDescriptor::__set__filledMeth
 constexpr bool System::ComponentModel::ReflectEventDescriptor::__get__filledMethods() const {
 return ::cordl_internals::getInstanceField<bool, 0x88>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "componentClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "eventInfo", ty: "System::Reflection::EventInfo", modifiers: "", def_value: None }]
- System::ComponentModel::ReflectEventDescriptor::ReflectEventDescriptor(System::Type componentClass, System::Reflection::EventInfo eventInfo)  : System::ComponentModel::EventDescriptor(THROW_UNLESS(::il2cpp_utils::New<ReflectEventDescriptor>(componentClass, eventInfo))) {}
+ System::ComponentModel::ReflectEventDescriptor System::ComponentModel::ReflectEventDescriptor::New_ctor(System::Type componentClass, System::Reflection::EventInfo eventInfo)  {
+System::ComponentModel::ReflectEventDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ReflectEventDescriptor>(componentClass, eventInfo))};
+return o;
+}
  void System::ComponentModel::ReflectEventDescriptor::_ctor(System::Type componentClass, System::Reflection::EventInfo eventInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ReflectEventDescriptor>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Reflection/zzzz__MethodBase_impl.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
 //  Writing Method size for method: System::Reflection::ConstructorInfo._ctor
 template<>
 
@@ -153,8 +153,10 @@ return ::cordl_internals::getStaticField<::StringW, "ConstructorName", ::il2cpp_
  ::StringW System::Reflection::ConstructorInfo::__get_TypeConstructorName()  {
 return ::cordl_internals::getStaticField<::StringW, "TypeConstructorName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::ConstructorInfo>::get>();
 }
-// Ctor Parameters []
- System::Reflection::ConstructorInfo::ConstructorInfo()  : System::Reflection::MethodBase(THROW_UNLESS(::il2cpp_utils::New<ConstructorInfo>())) {}
+ System::Reflection::ConstructorInfo System::Reflection::ConstructorInfo::New_ctor()  {
+System::Reflection::ConstructorInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::ConstructorInfo>())};
+return o;
+}
  void System::Reflection::ConstructorInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::ConstructorInfo>::get(),

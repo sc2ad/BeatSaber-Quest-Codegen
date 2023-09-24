@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__LeafNode_def.hpp"
-namespace System {
-struct Decimal;
-}
 namespace System::Xml::Schema {
 class BitSet;
+}
+namespace System {
+struct Decimal;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

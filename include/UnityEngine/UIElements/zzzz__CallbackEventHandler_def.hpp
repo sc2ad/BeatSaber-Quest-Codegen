@@ -2,26 +2,26 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::UIElements {
+struct TrickleDown;
+}
+namespace UnityEngine::UIElements {
 class IEventHandler;
 }
 namespace UnityEngine::UIElements {
-class EventCallbackRegistry;
-}
-namespace UnityEngine::UIElements {
-template<typename TEventType>
-class EventCallback_1;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-struct TrickleDown;
+struct DispatchMode;
 }
 namespace UnityEngine::UIElements {
 struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
-struct DispatchMode;
+class EventCallbackRegistry;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+template<typename TEventType>
+class EventCallback_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -123,8 +123,7 @@ template<typename TEventType>
 /// @brief Method ExecuteDefaultActionDisabled addr 0x2cd98a8 size 0x4 virtual true final false
  void ExecuteDefaultActionDisabled(UnityEngine::UIElements::EventBase evt) ;
 
-// Ctor Parameters []
-explicit CallbackEventHandler() ;
+static UnityEngine::UIElements::CallbackEventHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd98ac size 0x8 virtual false final false
  void _ctor() ;

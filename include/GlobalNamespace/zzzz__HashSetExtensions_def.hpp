@@ -3,14 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Reflection {
-class MethodInfo;
+struct BindingFlags;
 }
 namespace System::Reflection {
-struct BindingFlags;
+class MethodInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__HashSetExtensions__HashSetDelegateHolder_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

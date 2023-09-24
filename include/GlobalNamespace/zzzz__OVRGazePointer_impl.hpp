@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRCursor_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGazePointer_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__OVRProgressIndicator_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRGazePointer.get_hidden
 template<>
 
@@ -565,8 +565,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRGazePointer::OVRGazePointer()  : GlobalNamespace::OVRCursor(THROW_UNLESS(::il2cpp_utils::New<OVRGazePointer>())) {}
+ GlobalNamespace::OVRGazePointer GlobalNamespace::OVRGazePointer::New_ctor()  {
+GlobalNamespace::OVRGazePointer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRGazePointer>())};
+return o;
+}
  void GlobalNamespace::OVRGazePointer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRGazePointer>::get(),

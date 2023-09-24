@@ -56,8 +56,7 @@ constexpr bool __get_DisableAllCaching() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RequestCachingSectionInternal() ;
+static System::Net::Cache::RequestCachingSectionInternal New_ctor() ;
 
 /// @brief Method .ctor addr 0x285ebd0 size 0x10 virtual false final false
  void _ctor() ;

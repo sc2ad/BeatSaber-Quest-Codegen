@@ -2,9 +2,10 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Threading/zzzz__ReaderWriterLockSlim_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__EventWaitHandle_def.hpp"
 #include "System/Threading/zzzz__ReaderWriterCount_def.hpp"
 #include "System/Threading/zzzz__LockRecursionPolicy_def.hpp"
+#include "System/Threading/zzzz__ReaderWriterLockSlim_def.hpp"
+#include "System/Threading/zzzz__EventWaitHandle_def.hpp"
 //  Writing Method size for method: System::Threading::System__Threading__ReaderWriterLockSlim__TimeoutTracker._ctor
 template<>
 
@@ -1042,8 +1043,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "recursionPolicy", ty: "System::Threading::LockRecursionPolicy", modifiers: "", def_value: None }]
- System::Threading::ReaderWriterLockSlim::ReaderWriterLockSlim(System::Threading::LockRecursionPolicy recursionPolicy)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReaderWriterLockSlim>(recursionPolicy))) {}
+ System::Threading::ReaderWriterLockSlim System::Threading::ReaderWriterLockSlim::New_ctor(System::Threading::LockRecursionPolicy recursionPolicy)  {
+System::Threading::ReaderWriterLockSlim o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ReaderWriterLockSlim>(recursionPolicy))};
+return o;
+}
  void System::Threading::ReaderWriterLockSlim::_ctor(System::Threading::LockRecursionPolicy recursionPolicy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ReaderWriterLockSlim>::get(),

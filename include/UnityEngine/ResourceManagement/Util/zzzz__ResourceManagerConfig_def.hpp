@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Array;
-}
 namespace UnityEngine {
 class Object;
 }
-namespace System::Collections {
-class IList;
-}
 namespace System {
 class Type;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

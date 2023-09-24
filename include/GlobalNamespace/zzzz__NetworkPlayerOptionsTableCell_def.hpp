@@ -2,9 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace GlobalNamespace {
-class INetworkPlayer;
-}
 namespace HMUI {
 class ButtonBinder;
 }
@@ -13,6 +10,9 @@ class Button;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class INetworkPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +119,7 @@ constexpr GlobalNamespace::INetworkPlayer __get__player() const;
 /// @brief Method Leave addr 0x2150bf0 size 0xac virtual false final false
  void Leave() ;
 
-// Ctor Parameters []
-explicit NetworkPlayerOptionsTableCell() ;
+static GlobalNamespace::NetworkPlayerOptionsTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x2150c9c size 0x8 virtual false final false
  void _ctor() ;

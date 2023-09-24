@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorByMethodBase_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
-#include "Zenject/zzzz__SubContainerCreatorBindInfo_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__SubContainerCreatorBindInfo_def.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: Zenject::SubContainerCreatorByMethodBase._ctor
 template<>
 
@@ -73,8 +73,10 @@ constexpr void Zenject::SubContainerCreatorByMethodBase::__set__containerBindInf
 constexpr Zenject::SubContainerCreatorBindInfo Zenject::SubContainerCreatorByMethodBase::__get__containerBindInfo() const {
 return ::cordl_internals::getInstanceField<Zenject::SubContainerCreatorBindInfo, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "containerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorByMethodBase::SubContainerCreatorByMethodBase(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorByMethodBase>(container, containerBindInfo))) {}
+ Zenject::SubContainerCreatorByMethodBase Zenject::SubContainerCreatorByMethodBase::New_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo)  {
+Zenject::SubContainerCreatorByMethodBase o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorByMethodBase>(container, containerBindInfo))};
+return o;
+}
  void Zenject::SubContainerCreatorByMethodBase::_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorByMethodBase>::get(),

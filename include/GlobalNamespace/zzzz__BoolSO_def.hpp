@@ -8,7 +8,7 @@ class BoolSO;
 // Type: ::BoolSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13904)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 99 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(13904))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13896))
 // CS Name: BoolSO
 class CORDL_TYPE BoolSO : public GlobalNamespace::ObservableVariableSO_1<bool> {
@@ -47,8 +47,7 @@ constexpr explicit BoolSO(void* ptr) noexcept : GlobalNamespace::ObservableVaria
 
 // Methods
 
-// Ctor Parameters []
-explicit BoolSO() ;
+static GlobalNamespace::BoolSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83c68 size 0x48 virtual false final false
  void _ctor() ;

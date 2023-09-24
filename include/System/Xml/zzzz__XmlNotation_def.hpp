@@ -3,13 +3,13 @@
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -91,8 +91,7 @@ constexpr ::StringW __get_name() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlNotation(::StringW name, ::StringW publicId, ::StringW systemId, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlNotation New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f9954 size 0x68 virtual false final false
  void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, System::Xml::XmlDocument doc) ;

@@ -3,23 +3,23 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::Crmf {
-class EncryptedKey;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class EncryptedKey;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -98,26 +98,22 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_value() const;
 /// @brief Method GetInstance addr 0xdf8958 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit PkiArchiveOptions(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
+static Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
 /// @brief Method .ctor addr 0xdf8ae0 size 0x158 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
-// Ctor Parameters [CppParam { name: "encKey", ty: "Org::BouncyCastle::Asn1::Crmf::EncryptedKey", modifiers: "", def_value: None }]
-explicit PkiArchiveOptions(Org::BouncyCastle::Asn1::Crmf::EncryptedKey encKey) ;
+static Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions New_ctor(Org::BouncyCastle::Asn1::Crmf::EncryptedKey encKey) ;
 
 /// @brief Method .ctor addr 0xdf8c38 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::EncryptedKey encKey) ;
 
-// Ctor Parameters [CppParam { name: "keyGenParameters", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit PkiArchiveOptions(Org::BouncyCastle::Asn1::Asn1OctetString keyGenParameters) ;
+static Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString keyGenParameters) ;
 
 /// @brief Method .ctor addr 0xdf8c60 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString keyGenParameters) ;
 
-// Ctor Parameters [CppParam { name: "archiveRemGenPrivKey", ty: "bool", modifiers: "", def_value: None }]
-explicit PkiArchiveOptions(bool archiveRemGenPrivKey) ;
+static Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions New_ctor(bool archiveRemGenPrivKey) ;
 
 /// @brief Method .ctor addr 0xdf8c88 size 0x78 virtual false final false
  void _ctor(bool archiveRemGenPrivKey) ;

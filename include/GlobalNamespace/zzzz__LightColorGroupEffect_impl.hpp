@@ -1,15 +1,16 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
-#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
-#include "Tweening/zzzz__FloatTween_def.hpp"
-#include "GlobalNamespace/zzzz__IBpmController_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "Tweening/zzzz__FloatTween_def.hpp"
+#include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__IBpmController_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
+#include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData._ctor
 template<>
 
@@ -45,8 +46,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData
 constexpr int32_t GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData::__get_lightId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData::GlobalNamespace__LightColorGroupEffect__InitData(int32_t groupId, int32_t elementId, int32_t lightId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightColorGroupEffect__InitData>(groupId, elementId, lightId))) {}
+ GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData::New_ctor(int32_t groupId, int32_t elementId, int32_t lightId)  {
+GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData>(groupId, elementId, lightId))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData::_ctor(int32_t groupId, int32_t elementId, int32_t lightId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData>::get(),
@@ -271,8 +274,10 @@ return ::cordl_internals::getInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWr
  UnityEngine::Color GlobalNamespace::LightColorGroupEffect::__get_offColor()  {
 return ::cordl_internals::getStaticField<UnityEngine::Color, "offColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightColorGroupEffect>::get>();
 }
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "lightManager", ty: "GlobalNamespace::LightWithIdManager", modifiers: "", def_value: None }, CppParam { name: "tweeningManager", ty: "Tweening::SongTimeTweeningManager", modifiers: "", def_value: None }, CppParam { name: "colorManager", ty: "GlobalNamespace::ColorManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }, CppParam { name: "bpmController", ty: "GlobalNamespace::IBpmController", modifiers: "", def_value: None }]
- GlobalNamespace::LightColorGroupEffect::LightColorGroupEffect(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LightColorGroupEffect>(initData, lightManager, tweeningManager, colorManager, beatmapCallbacksController, bpmController))) {}
+ GlobalNamespace::LightColorGroupEffect GlobalNamespace::LightColorGroupEffect::New_ctor(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController)  {
+GlobalNamespace::LightColorGroupEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightColorGroupEffect>(initData, lightManager, tweeningManager, colorManager, beatmapCallbacksController, bpmController))};
+return o;
+}
  void GlobalNamespace::LightColorGroupEffect::_ctor(GlobalNamespace::GlobalNamespace__LightColorGroupEffect__InitData initData, GlobalNamespace::LightWithIdManager lightManager, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IBpmController bpmController)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightColorGroupEffect>::get(),

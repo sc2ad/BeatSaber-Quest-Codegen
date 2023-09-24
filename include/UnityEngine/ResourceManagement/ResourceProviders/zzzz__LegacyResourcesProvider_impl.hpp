@@ -1,8 +1,9 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__LegacyResourcesProvider_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__LegacyResourcesProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 #include "UnityEngine/zzzz__ResourceRequest_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp.Start
@@ -138,8 +139,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp::UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp>::get(),
@@ -218,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, location, asset);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::LegacyResourcesProvider()  : UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase(THROW_UNLESS(::il2cpp_utils::New<LegacyResourcesProvider>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider>::get(),

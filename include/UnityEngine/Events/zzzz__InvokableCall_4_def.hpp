@@ -25,7 +25,7 @@ namespace UnityEngine::Events {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10391)), TypeDefinitionIndex(TypeDefinitionIndex(10386))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10386)), TypeDefinitionIndex(TypeDefinitionIndex(10391))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10391), inst: 5937 })
 // CS Name: UnityEngine.Events.InvokableCall`4
 class CORDL_TYPE InvokableCall_4<T1,T2,T3,T4> : public UnityEngine::Events::BaseInvokableCall {
@@ -73,8 +73,7 @@ constexpr UnityEngine::Events::UnityAction_4<T1,T2,T3,T4> __get_Delegate() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }]
-explicit InvokableCall_4(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
+static UnityEngine::Events::InvokableCall_4<T1,T2,T3,T4> New_ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;

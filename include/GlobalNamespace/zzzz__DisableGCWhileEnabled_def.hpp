@@ -53,8 +53,7 @@ constexpr explicit DisableGCWhileEnabled(void* ptr) noexcept : UnityEngine::Mono
 /// @brief Method OnDisable addr 0x1f7684c size 0xc virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit DisableGCWhileEnabled() ;
+static GlobalNamespace::DisableGCWhileEnabled New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f76858 size 0x8 virtual false final false
  void _ctor() ;

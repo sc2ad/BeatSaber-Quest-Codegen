@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Text {
-class Encoder;
+class Decoder;
 }
 namespace System::Text {
-class Decoder;
+class Encoder;
 }
 // Forward declare root types
 namespace System::Text {
@@ -56,8 +56,7 @@ constexpr explicit EncodingNLS(void* ptr) noexcept : System::Text::Encoding(ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "codePage", ty: "int32_t", modifiers: "", def_value: None }]
-explicit EncodingNLS(int32_t codePage) ;
+static System::Text::EncodingNLS New_ctor(int32_t codePage) ;
 
 /// @brief Method .ctor addr 0x22ca080 size 0x8 virtual false final false
  void _ctor(int32_t codePage) ;

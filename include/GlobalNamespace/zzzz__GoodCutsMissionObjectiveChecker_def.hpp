@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace GlobalNamespace {
-struct NoteCutInfo;
+class NoteController;
 }
 namespace GlobalNamespace {
-class NoteController;
+struct NoteCutInfo;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
@@ -75,8 +75,7 @@ constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() co
 /// @brief Method HandleNoteWasCut addr 0x20d67fc size 0x8c virtual false final false
  void HandleNoteWasCut(GlobalNamespace::NoteController noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
-// Ctor Parameters []
-explicit GoodCutsMissionObjectiveChecker() ;
+static GlobalNamespace::GoodCutsMissionObjectiveChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d6888 size 0x8 virtual false final false
  void _ctor() ;

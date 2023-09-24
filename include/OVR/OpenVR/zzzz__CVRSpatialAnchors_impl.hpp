@@ -1,10 +1,10 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRSpatialAnchors_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRSpatialAnchorError_def.hpp"
 #include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
-#include "OVR/OpenVR/zzzz__SpatialAnchorPose_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRSpatialAnchorError_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRSpatialAnchors_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__SpatialAnchorPose_t_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRSpatialAnchors._ctor
 template<>
 
@@ -96,8 +96,10 @@ constexpr void OVR::OpenVR::CVRSpatialAnchors::__set_FnTable(OVR::OpenVR::IVRSpa
 constexpr OVR::OpenVR::IVRSpatialAnchors OVR::OpenVR::CVRSpatialAnchors::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRSpatialAnchors, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRSpatialAnchors::CVRSpatialAnchors(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRSpatialAnchors>(pInterface))) {}
+ OVR::OpenVR::CVRSpatialAnchors OVR::OpenVR::CVRSpatialAnchors::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRSpatialAnchors o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRSpatialAnchors>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRSpatialAnchors::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRSpatialAnchors>::get(),

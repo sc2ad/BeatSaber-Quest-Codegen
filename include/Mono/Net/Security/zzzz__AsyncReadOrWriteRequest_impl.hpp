@@ -1,8 +1,8 @@
 #pragma once
 #include "Mono/Net/Security/zzzz__AsyncProtocolRequest_impl.hpp"
 #include "Mono/Net/Security/zzzz__AsyncReadOrWriteRequest_def.hpp"
-#include "Mono/Net/Security/zzzz__BufferOffsetSize_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "Mono/Net/Security/zzzz__BufferOffsetSize_def.hpp"
 //  Writing Method size for method: Mono::Net::Security::AsyncReadOrWriteRequest.get_UserBuffer
 template<>
 
@@ -127,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "sync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- Mono::Net::Security::AsyncReadOrWriteRequest::AsyncReadOrWriteRequest(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size)  : Mono::Net::Security::AsyncProtocolRequest(THROW_UNLESS(::il2cpp_utils::New<AsyncReadOrWriteRequest>(parent, sync, buffer, offset, size))) {}
+ Mono::Net::Security::AsyncReadOrWriteRequest Mono::Net::Security::AsyncReadOrWriteRequest::New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size)  {
+Mono::Net::Security::AsyncReadOrWriteRequest o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::AsyncReadOrWriteRequest>(parent, sync, buffer, offset, size))};
+return o;
+}
  void Mono::Net::Security::AsyncReadOrWriteRequest::_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::AsyncReadOrWriteRequest>::get(),

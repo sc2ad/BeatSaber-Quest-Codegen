@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RotateBySpawnRotation_def.hpp"
-#include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RotateBySpawnRotation.Start
 template<>
 
@@ -193,8 +193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::RotateBySpawnRotation::RotateBySpawnRotation()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RotateBySpawnRotation>())) {}
+ GlobalNamespace::RotateBySpawnRotation GlobalNamespace::RotateBySpawnRotation::New_ctor()  {
+GlobalNamespace::RotateBySpawnRotation o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RotateBySpawnRotation>())};
+return o;
+}
  void GlobalNamespace::RotateBySpawnRotation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RotateBySpawnRotation>::get(),

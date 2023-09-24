@@ -1,18 +1,19 @@
 #pragma once
 #include "Zenject/zzzz__PrefabInstantiator_def.hpp"
+#include "Zenject/zzzz__IPrefabProvider_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
+#include "Zenject/zzzz__PrefabInstantiator_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "Zenject/zzzz__IPrefabProvider_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0._ctor
 template<>
@@ -112,8 +113,10 @@ constexpr void Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0::__se
 constexpr bool Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0::__get_shouldMakeActive() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0::Zenject__PrefabInstantiator____c__DisplayClass15_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__PrefabInstantiator____c__DisplayClass15_0>())) {}
+ Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0 Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0::New_ctor()  {
+Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0>())};
+return o;
+}
  void Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__PrefabInstantiator____c__DisplayClass15_0>::get(),
@@ -298,8 +301,10 @@ constexpr void Zenject::PrefabInstantiator::__set__instantiateCallback(System::A
 constexpr System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> Zenject::PrefabInstantiator::__get__instantiateCallback() const {
 return ::cordl_internals::getInstanceField<System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "argumentTarget", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "instantiateCallbackTypes", ty: "System::Collections::Generic::IEnumerable_1<System::Type>", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- Zenject::PrefabInstantiator::PrefabInstantiator(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type argumentTarget, System::Collections::Generic::IEnumerable_1<System::Type> instantiateCallbackTypes, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, Zenject::IPrefabProvider prefabProvider, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PrefabInstantiator>(container, gameObjectBindInfo, argumentTarget, instantiateCallbackTypes, extraArguments, prefabProvider, instantiateCallback))) {}
+ Zenject::PrefabInstantiator Zenject::PrefabInstantiator::New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type argumentTarget, System::Collections::Generic::IEnumerable_1<System::Type> instantiateCallbackTypes, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, Zenject::IPrefabProvider prefabProvider, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  {
+Zenject::PrefabInstantiator o{THROW_UNLESS(::il2cpp_utils::New<Zenject::PrefabInstantiator>(container, gameObjectBindInfo, argumentTarget, instantiateCallbackTypes, extraArguments, prefabProvider, instantiateCallback))};
+return o;
+}
  void Zenject::PrefabInstantiator::_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Type argumentTarget, System::Collections::Generic::IEnumerable_1<System::Type> instantiateCallbackTypes, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, Zenject::IPrefabProvider prefabProvider, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::PrefabInstantiator>::get(),

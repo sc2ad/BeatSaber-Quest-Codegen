@@ -79,8 +79,7 @@ constexpr int32_t __get_face() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "point", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "face", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RaycastHit(float_t distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int32_t face) ;
+static UnityEngine::ProBuilder::RaycastHit New_ctor(float_t distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int32_t face) ;
 
 /// @brief Method .ctor addr 0x29cf058 size 0x74 virtual false final false
  void _ctor(float_t distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int32_t face) ;

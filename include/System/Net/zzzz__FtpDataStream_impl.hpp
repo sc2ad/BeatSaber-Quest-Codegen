@@ -1,14 +1,14 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__FtpDataStream_def.hpp"
-#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
-#include "System/Net/zzzz__TriState_def.hpp"
-#include "System/Net/zzzz__ICloseEx_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Net/zzzz__CloseExState_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Net/zzzz__FtpWebRequest_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Net/zzzz__TriState_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/Net/zzzz__ICloseEx_def.hpp"
+#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: System::Net::FtpDataStream._ctor
 template<>
 
@@ -491,8 +491,10 @@ constexpr void System::Net::FtpDataStream::__set__closing(bool value)  {
 constexpr bool System::Net::FtpDataStream::__get__closing() const {
 return ::cordl_internals::getInstanceField<bool, 0x3b>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "networkStream", ty: "System::Net::Sockets::NetworkStream", modifiers: "", def_value: None }, CppParam { name: "request", ty: "System::Net::FtpWebRequest", modifiers: "", def_value: None }, CppParam { name: "writeOnly", ty: "System::Net::TriState", modifiers: "", def_value: None }]
- System::Net::FtpDataStream::FtpDataStream(System::Net::Sockets::NetworkStream networkStream, System::Net::FtpWebRequest request, System::Net::TriState writeOnly)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FtpDataStream>(networkStream, request, writeOnly))) {}
+ System::Net::FtpDataStream System::Net::FtpDataStream::New_ctor(System::Net::Sockets::NetworkStream networkStream, System::Net::FtpWebRequest request, System::Net::TriState writeOnly)  {
+System::Net::FtpDataStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::FtpDataStream>(networkStream, request, writeOnly))};
+return o;
+}
  void System::Net::FtpDataStream::_ctor(System::Net::Sockets::NetworkStream networkStream, System::Net::FtpWebRequest request, System::Net::TriState writeOnly)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FtpDataStream>::get(),

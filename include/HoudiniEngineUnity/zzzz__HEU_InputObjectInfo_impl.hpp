@@ -1,13 +1,13 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_InputObjectInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/Tilemaps/zzzz__Tilemap_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "GlobalNamespace/zzzz__HEU_BoundingVolume_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__HEU_BoundingVolume_def.hpp"
 #include "UnityEngine/zzzz__Terrain_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/Tilemaps/zzzz__Tilemap_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_InputObjectInfo.CopyTo
 template<>
 
@@ -167,8 +167,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InputObjectInfo::HEU_InputObjectInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_InputObjectInfo>())) {}
+ HoudiniEngineUnity::HEU_InputObjectInfo HoudiniEngineUnity::HEU_InputObjectInfo::New_ctor()  {
+HoudiniEngineUnity::HEU_InputObjectInfo o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InputObjectInfo>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InputObjectInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InputObjectInfo>::get(),

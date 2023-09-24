@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class NamedPresetsSO;
+class IntSO;
 }
 namespace GlobalNamespace {
-class IntSO;
+class NamedPresetsSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -92,8 +92,7 @@ constexpr int32_t __get__numberOfElementsLimit() const;
 /// @brief Method TextForValue addr 0x2153a90 size 0x50 virtual true final false
  ::StringW TextForValue(int32_t idx) ;
 
-// Ctor Parameters []
-explicit PresetsSettingsController() ;
+static GlobalNamespace::PresetsSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2153ae0 size 0x8 virtual false final false
  void _ctor() ;

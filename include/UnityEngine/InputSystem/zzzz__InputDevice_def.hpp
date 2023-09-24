@@ -8,21 +8,24 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace System {
+class Type;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputDevice__DeviceFlags;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -92,6 +95,8 @@ __CanRunInBackgroundHasBeenQueried = 4096,
 constexpr operator __UnityEngine__InputSystem__InputDevice__DeviceFlags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputDevice__DeviceFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -374,8 +379,7 @@ static UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSy
 /// @brief Method get_all addr 0x28d79c4 size 0x4c virtual false final false
 static UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSystem::InputDevice> get_all() ;
 
-// Ctor Parameters []
-explicit InputDevice() ;
+static UnityEngine::InputSystem::InputDevice New_ctor() ;
 
 /// @brief Method .ctor addr 0x28d7648 size 0x2c virtual false final false
  void _ctor() ;

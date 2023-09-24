@@ -1,16 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCipherFactory_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DefaultTlsCipherFactory_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsNullCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsNullCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsStreamCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAeadCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAeadCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsStreamCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory.CreateCipher
 template<>
 
@@ -652,8 +652,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::IDigest, false>(const_cast<void*>(instance), ___internal_method, macAlgorithm);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::DefaultTlsCipherFactory()  : Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsCipherFactory>())) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory>::get(),

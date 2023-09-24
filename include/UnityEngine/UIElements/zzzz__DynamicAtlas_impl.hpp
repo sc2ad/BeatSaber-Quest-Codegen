@@ -2,20 +2,21 @@
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__AtlasBase_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlas_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DynamicAtlasPage_def.hpp"
-#include "UnityEngine/zzzz__FilterMode_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DynamicAtlasCustomFilter_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DynamicAtlasFilters_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/zzzz__ColorSpace_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DynamicAtlasCustomFilter_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DynamicAtlasPage_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DynamicAtlas_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DynamicAtlasFilters_def.hpp"
+#include "UnityEngine/zzzz__FilterMode_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Allocator2D_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo.Create
@@ -117,8 +118,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, info);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo::UnityEngine__UIElements__DynamicAtlas__TextureInfo()  : UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__DynamicAtlas__TextureInfo>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo>::get(),
@@ -673,8 +676,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::DynamicAtlas::DynamicAtlas()  : UnityEngine::UIElements::AtlasBase(THROW_UNLESS(::il2cpp_utils::New<DynamicAtlas>())) {}
+ UnityEngine::UIElements::DynamicAtlas UnityEngine::UIElements::DynamicAtlas::New_ctor()  {
+UnityEngine::UIElements::DynamicAtlas o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::DynamicAtlas>())};
+return o;
+}
  void UnityEngine::UIElements::DynamicAtlas::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::DynamicAtlas>::get(),

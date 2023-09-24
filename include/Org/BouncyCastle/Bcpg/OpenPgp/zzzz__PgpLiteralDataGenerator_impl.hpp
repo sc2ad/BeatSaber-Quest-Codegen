@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpLiteralDataGenerator_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__IStreamGenerator_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/IO/zzzz__FileInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator._ctor
@@ -140,8 +140,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::__set_
 constexpr bool Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::__get_oldFormat() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::PgpLiteralDataGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpLiteralDataGenerator>())) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::New_ctor()  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator>::get(),
@@ -151,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "oldFormat", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::PgpLiteralDataGenerator(bool oldFormat)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpLiteralDataGenerator>(oldFormat))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::New_ctor(bool oldFormat)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator>(oldFormat))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::_ctor(bool oldFormat)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator>::get(),

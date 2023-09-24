@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__SM2KeyExchangePublicParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPublicKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPublicKeyParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters._ctor
 template<>
 
@@ -69,8 +69,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParame
 constexpr Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters::__get_mEphemeralPublicKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "staticPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters::SM2KeyExchangePublicParameters(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM2KeyExchangePublicParameters>(staticPublicKey, ephemeralPublicKey))) {}
+ Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey)  {
+Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters>(staticPublicKey, ephemeralPublicKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters::_ctor(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters>::get(),

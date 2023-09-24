@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Priority_Queue::StablePriorityQueueNode::StablePriorityQueueNode()  : Priority_Queue::FastPriorityQueueNode(THROW_UNLESS(::il2cpp_utils::New<StablePriorityQueueNode>())) {}
+ Priority_Queue::StablePriorityQueueNode Priority_Queue::StablePriorityQueueNode::New_ctor()  {
+Priority_Queue::StablePriorityQueueNode o{THROW_UNLESS(::il2cpp_utils::New<Priority_Queue::StablePriorityQueueNode>())};
+return o;
+}
  void Priority_Queue::StablePriorityQueueNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Priority_Queue::StablePriorityQueueNode>::get(),

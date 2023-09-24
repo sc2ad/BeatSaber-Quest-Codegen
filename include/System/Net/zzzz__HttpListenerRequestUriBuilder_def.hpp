@@ -5,9 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Uri;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -18,9 +15,18 @@ class Encoding;
 namespace System::Text {
 class StringBuilder;
 }
+namespace System::Net {
+struct System__Net__HttpListenerRequestUriBuilder__ParsingResult;
+}
+namespace System::Net {
+struct System__Net__HttpListenerRequestUriBuilder__EncodingType;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -82,6 +88,8 @@ __EncodingError = 2,
 constexpr operator __System__Net__HttpListenerRequestUriBuilder__ParsingResult_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__HttpListenerRequestUriBuilder__ParsingResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -154,6 +162,8 @@ __Secondary = 1,
 constexpr operator __System__Net__HttpListenerRequestUriBuilder__EncodingType_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__HttpListenerRequestUriBuilder__EncodingType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -295,8 +305,7 @@ constexpr System::Uri __get_requestUri() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rawUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cookedUriScheme", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cookedUriHost", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cookedUriPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cookedUriQuery", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HttpListenerRequestUriBuilder(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery) ;
+static System::Net::HttpListenerRequestUriBuilder New_ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery) ;
 
 /// @brief Method .ctor addr 0x280a26c size 0xcc virtual false final false
  void _ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery) ;

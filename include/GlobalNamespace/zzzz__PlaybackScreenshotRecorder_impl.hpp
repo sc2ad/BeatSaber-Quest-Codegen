@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlaybackScreenshotRecorder_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "GlobalNamespace/zzzz__PlaybackRenderer_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlaybackScreenshotRecorder.get_directory
 template<>
 
@@ -221,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Texture2D, false>(nullptr, ___internal_method, renderTexture);
 }
-// Ctor Parameters []
- GlobalNamespace::PlaybackScreenshotRecorder::PlaybackScreenshotRecorder()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlaybackScreenshotRecorder>())) {}
+ GlobalNamespace::PlaybackScreenshotRecorder GlobalNamespace::PlaybackScreenshotRecorder::New_ctor()  {
+GlobalNamespace::PlaybackScreenshotRecorder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlaybackScreenshotRecorder>())};
+return o;
+}
  void GlobalNamespace::PlaybackScreenshotRecorder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlaybackScreenshotRecorder>::get(),

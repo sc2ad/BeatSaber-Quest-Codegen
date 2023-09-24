@@ -69,8 +69,7 @@ constexpr int32_t __get__particleSystemEventControllerInitialSize() const;
 /// @brief Method InstallBindings addr 0x2266238 size 0xa8 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit ParticleSystemEmitEventEffectInstaller() ;
+static GlobalNamespace::ParticleSystemEmitEventEffectInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x22662e0 size 0x8 virtual false final false
  void _ctor() ;

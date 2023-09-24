@@ -47,8 +47,7 @@ constexpr explicit NonEventAttribute(void* ptr) noexcept : System::Attribute(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit NonEventAttribute() ;
+static System::Diagnostics::Tracing::NonEventAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x240e264 size 0x8 virtual false final false
  void _ctor() ;

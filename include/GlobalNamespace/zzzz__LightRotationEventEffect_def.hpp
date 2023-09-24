@@ -3,28 +3,28 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BasicBeatmapEventData;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -144,8 +144,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method HandleBeatmapEvent addr 0x22635f0 size 0x124 virtual false final false
  void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
-// Ctor Parameters []
-explicit LightRotationEventEffect() ;
+static GlobalNamespace::LightRotationEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2263714 size 0x64 virtual false final false
  void _ctor() ;

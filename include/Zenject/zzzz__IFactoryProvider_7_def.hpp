@@ -3,24 +3,24 @@
 #include "Zenject/zzzz__IFactoryProviderBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 struct Guid;
 }
 namespace Zenject {
-class InjectContext;
+class DiContainer;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace System {
 class Action;
+}
+namespace Zenject {
+class InjectContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -37,7 +37,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TParam6,::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11136)), TypeDefinitionIndex(TypeDefinitionIndex(11143)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11136), inst: 3344 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11136), inst: 3344 }), TypeDefinitionIndex(TypeDefinitionIndex(11143)), TypeDefinitionIndex(TypeDefinitionIndex(11136))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11143), inst: 5940 })
 // CS Name: Zenject.IFactoryProvider`7
 class CORDL_TYPE IFactoryProvider_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> : public Zenject::IFactoryProviderBase_1<TContract> {
@@ -76,8 +76,7 @@ constexpr explicit IFactoryProvider_7(void* ptr) noexcept : Zenject::IFactoryPro
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "factoryId", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit IFactoryProvider_7(Zenject::DiContainer container, System::Guid factoryId) ;
+static Zenject::IFactoryProvider_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> New_ctor(Zenject::DiContainer container, System::Guid factoryId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, System::Guid factoryId) ;

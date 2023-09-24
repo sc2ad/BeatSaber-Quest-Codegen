@@ -79,14 +79,12 @@ constexpr Org::BouncyCastle::Asn1::Cmp::PkiMessage __get_pkiMessage() const;
 /// @brief Method ParseBytes addr 0x114be64 size 0x18 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::PkiMessage ParseBytes(::ArrayW<uint8_t> encoding) ;
 
-// Ctor Parameters [CppParam { name: "pkiMessage", ty: "Org::BouncyCastle::Asn1::Cmp::PkiMessage", modifiers: "", def_value: None }]
-explicit GeneralPkiMessage(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage) ;
+static Org::BouncyCastle::Cmp::GeneralPkiMessage New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage) ;
 
 /// @brief Method .ctor addr 0x114be7c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage) ;
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit GeneralPkiMessage(::ArrayW<uint8_t> encoding) ;
+static Org::BouncyCastle::Cmp::GeneralPkiMessage New_ctor(::ArrayW<uint8_t> encoding) ;
 
 /// @brief Method .ctor addr 0x114bea4 size 0x40 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoding) ;

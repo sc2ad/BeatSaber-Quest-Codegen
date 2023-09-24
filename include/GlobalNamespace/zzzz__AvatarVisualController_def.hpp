@@ -4,33 +4,36 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
 namespace UnityEngine {
 class SpriteRenderer;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__AvatarVisualController__HighlighterDelegate;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace GlobalNamespace {
+class AvatarPropertyBlockColorSetter;
+}
+namespace GlobalNamespace {
 class MulticolorAvatarPartPropertyBlockSetter;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__EditAvatarViewController__AvatarEditPart;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 class AvatarData;
 }
 namespace GlobalNamespace {
 class AvatarPartsModel;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__EditAvatarViewController__AvatarEditPart;
-}
-namespace UnityEngine {
-class MeshFilter;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace GlobalNamespace {
-class AvatarPropertyBlockColorSetter;
 }
 namespace System {
 class IAsyncResult;
@@ -87,8 +90,7 @@ constexpr explicit GlobalNamespace__AvatarVisualController__HighlighterDelegate(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AvatarVisualController__HighlighterDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__AvatarVisualController__HighlighterDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x20c23fc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -302,8 +304,7 @@ constexpr GlobalNamespace::GlobalNamespace__AvatarVisualController__HighlighterD
 /// @brief Method SetHandsHighlight addr 0x20c2d58 size 0x48 virtual false final false
  void SetHandsHighlight(bool highlighted, int32_t uvSegment) ;
 
-// Ctor Parameters []
-explicit AvatarVisualController() ;
+static GlobalNamespace::AvatarVisualController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c2db0 size 0x10 virtual false final false
  void _ctor() ;

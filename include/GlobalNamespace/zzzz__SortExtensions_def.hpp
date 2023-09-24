@@ -6,6 +6,10 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__SortExtensions____c__DisplayClass1_0_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -133,8 +137,7 @@ constexpr System::Func_2<T,int32_t> __get_getSortIndex() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SortExtensions____c__DisplayClass1_0_1() ;
+static GlobalNamespace::GlobalNamespace__SortExtensions____c__DisplayClass1_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

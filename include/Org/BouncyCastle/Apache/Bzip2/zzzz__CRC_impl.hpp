@@ -114,8 +114,10 @@ constexpr void Org::BouncyCastle::Apache::Bzip2::CRC::__set_globalCrc(int32_t va
 constexpr int32_t Org::BouncyCastle::Apache::Bzip2::CRC::__get_globalCrc() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Apache::Bzip2::CRC::CRC()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CRC>())) {}
+ Org::BouncyCastle::Apache::Bzip2::CRC Org::BouncyCastle::Apache::Bzip2::CRC::New_ctor()  {
+Org::BouncyCastle::Apache::Bzip2::CRC o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Apache::Bzip2::CRC>())};
+return o;
+}
  void Org::BouncyCastle::Apache::Bzip2::CRC::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Apache::Bzip2::CRC>::get(),

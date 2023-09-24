@@ -4,18 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class GlobalNamespace__ClickButtonWithCommandArgument___Start_d__2;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +106,7 @@ constexpr GlobalNamespace::ClickButtonWithCommandArgument __get___4__this() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ClickButtonWithCommandArgument___Start_d__2(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__ClickButtonWithCommandArgument___Start_d__2 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f75288 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -190,8 +192,7 @@ constexpr UnityEngine::UI::Button __get__button() const;
 /// @brief Method Start addr 0x1f75220 size 0x68 virtual false final false
  System::Collections::IEnumerator Start() ;
 
-// Ctor Parameters []
-explicit ClickButtonWithCommandArgument() ;
+static GlobalNamespace::ClickButtonWithCommandArgument New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f752b0 size 0x8 virtual false final false
  void _ctor() ;

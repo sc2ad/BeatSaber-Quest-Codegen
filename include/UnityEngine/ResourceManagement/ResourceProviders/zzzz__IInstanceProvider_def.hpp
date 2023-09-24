@@ -1,17 +1,17 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct InstantiationParameters;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

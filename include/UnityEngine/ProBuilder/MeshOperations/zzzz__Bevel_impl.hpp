@@ -1,15 +1,16 @@
 #pragma once
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__Bevel_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__FaceRebuildData_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/zzzz__Bevel_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__FaceRebuildData_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SharedVertex_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EdgeLookup_def.hpp"
@@ -88,8 +89,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder_
 constexpr System::Func_2<int32_t,int32_t> UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0::__get___9__8() const {
 return ::cordl_internals::getInstanceField<System::Func_2<int32_t,int32_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0 UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0>::get(),
@@ -157,8 +160,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder_
 constexpr UnityEngine::ProBuilder::EdgeLookup UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1::__get_lup() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::EdgeLookup, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1 UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_1>::get(),
@@ -223,8 +228,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder_
 constexpr UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0 UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2::__get_CS$__8__locals1() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_0, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2 UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c__DisplayClass0_2>::get(),
@@ -381,8 +388,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ProBuilder:
  System::Func_2<UnityEngine::ProBuilder::FaceRebuildData,UnityEngine::ProBuilder::Face> UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c::__get___9__0_3()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ProBuilder::FaceRebuildData,UnityEngine::ProBuilder::Face>, "<>9__0_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c::UnityEngine__ProBuilder__MeshOperations__Bevel____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__Bevel____c>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Bevel____c>::get(),

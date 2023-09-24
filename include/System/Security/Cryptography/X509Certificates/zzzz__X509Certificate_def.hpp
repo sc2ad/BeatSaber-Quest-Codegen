@@ -5,19 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-struct DateTime;
+class ISerializable;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509KeyStorageFlags;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System {
+class IDisposable;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
@@ -25,8 +19,14 @@ class X509CertificateImpl;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System {
+struct DateTime;
+}
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -160,44 +160,37 @@ constexpr System::DateTime __get_lazyNotAfter() const;
 /// @brief Method Reset addr 0x23098a8 size 0xb8 virtual true final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit X509Certificate() ;
+static System::Security::Cryptography::X509Certificates::X509Certificate New_ctor() ;
 
 /// @brief Method .ctor addr 0x2309960 size 0x74 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit X509Certificate(::ArrayW<uint8_t> data) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x23099d4 size 0xa0 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "impl", ty: "System::Security::Cryptography::X509Certificates::X509CertificateImpl", modifiers: "", def_value: None }]
-explicit X509Certificate(System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
 
 /// @brief Method .ctor addr 0x2309a74 size 0x94 virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
 
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit X509Certificate(::StringW fileName) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate New_ctor(::StringW fileName) ;
 
 /// @brief Method .ctor addr 0x2309b08 size 0xc virtual false final false
  void _ctor(::StringW fileName) ;
 
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyStorageFlags", ty: "System::Security::Cryptography::X509Certificates::X509KeyStorageFlags", modifiers: "", def_value: None }]
-explicit X509Certificate(::StringW fileName, ::StringW password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate New_ctor(::StringW fileName, ::StringW password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
 
 /// @brief Method .ctor addr 0x2309b14 size 0x264 virtual false final false
  void _ctor(::StringW fileName, ::StringW password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
 
-// Ctor Parameters [CppParam { name: "cert", ty: "System::Security::Cryptography::X509Certificates::X509Certificate", modifiers: "", def_value: None }]
-explicit X509Certificate(System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
 
 /// @brief Method .ctor addr 0x2309e8c size 0xe4 virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit X509Certificate(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Security::Cryptography::X509Certificates::X509Certificate New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2309f70 size 0x44 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

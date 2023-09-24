@@ -30,8 +30,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::__get_IdNpkiAppCmsSeedWrap()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "IdNpkiAppCmsSeedWrap", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::KisaObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KisaObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers>::get(),

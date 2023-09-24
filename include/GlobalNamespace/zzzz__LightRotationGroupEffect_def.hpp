@@ -3,26 +3,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-struct LightAxis;
-}
 namespace UnityEngine {
 class Transform;
 }
-namespace Tweening {
-class SongTimeTweeningManager;
+namespace GlobalNamespace {
+struct LightAxis;
 }
 namespace Tweening {
-class FloatTween;
+class SongTimeTweeningManager;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+struct LightRotationDirection;
 }
 namespace GlobalNamespace {
-struct LightRotationDirection;
+class GlobalNamespace__LightRotationGroupEffect__InitData;
+}
+namespace Tweening {
+class FloatTween;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class LightRotationBeatmapEventData;
@@ -109,8 +112,7 @@ constexpr UnityEngine::Transform __get_transform() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "mirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LightRotationGroupEffect__InitData(int32_t groupId, int32_t elementId, GlobalNamespace::LightAxis axis, bool mirrored, UnityEngine::Transform transform) ;
+static GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData New_ctor(int32_t groupId, int32_t elementId, GlobalNamespace::LightAxis axis, bool mirrored, UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x225ee60 size 0x54 virtual false final false
  void _ctor(int32_t groupId, int32_t elementId, GlobalNamespace::LightAxis axis, bool mirrored, UnityEngine::Transform transform) ;
@@ -208,8 +210,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__lightRotationBeatma
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "tweeningManager", ty: "Tweening::SongTimeTweeningManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }]
-explicit LightRotationGroupEffect(GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
+static GlobalNamespace::LightRotationGroupEffect New_ctor(GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
 
 /// @brief Method .ctor addr 0x225e864 size 0x220 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__ProfessionInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__NamingAuthority_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/X500/zzzz__DirectoryString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/X500/zzzz__DirectoryString_def.hpp"
+#include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__NamingAuthority_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo.GetInstance
 template<>
 
@@ -313,8 +313,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::ProfessionInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ProfessionInfo>(seq))) {}
+ Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo>::get(),
@@ -324,8 +326,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "namingAuthority", ty: "Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority", modifiers: "", def_value: None }, CppParam { name: "professionItems", ty: "::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString>", modifiers: "", def_value: None }, CppParam { name: "professionOids", ty: "::ArrayW<Org::BouncyCastle::Asn1::DerObjectIdentifier>", modifiers: "", def_value: None }, CppParam { name: "registrationNumber", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "addProfessionInfo", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::ProfessionInfo(Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority namingAuthority, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> professionItems, ::ArrayW<Org::BouncyCastle::Asn1::DerObjectIdentifier> professionOids, ::StringW registrationNumber, Org::BouncyCastle::Asn1::Asn1OctetString addProfessionInfo)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ProfessionInfo>(namingAuthority, professionItems, professionOids, registrationNumber, addProfessionInfo))) {}
+ Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::New_ctor(Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority namingAuthority, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> professionItems, ::ArrayW<Org::BouncyCastle::Asn1::DerObjectIdentifier> professionOids, ::StringW registrationNumber, Org::BouncyCastle::Asn1::Asn1OctetString addProfessionInfo)  {
+Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo>(namingAuthority, professionItems, professionOids, registrationNumber, addProfessionInfo))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::_ctor(Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority namingAuthority, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> professionItems, ::ArrayW<Org::BouncyCastle::Asn1::DerObjectIdentifier> professionOids, ::StringW registrationNumber, Org::BouncyCastle::Asn1::Asn1OctetString addProfessionInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo>::get(),

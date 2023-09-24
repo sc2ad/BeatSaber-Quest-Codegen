@@ -3,19 +3,19 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class IssuerAndSerialNumber;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -82,20 +82,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_id() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber", modifiers: "", def_value: None }]
-explicit RecipientIdentifier(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber id) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientIdentifier New_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber id) ;
 
 /// @brief Method .ctor addr 0xdef7a4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber id) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit RecipientIdentifier(Org::BouncyCastle::Asn1::Asn1OctetString id) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString id) ;
 
 /// @brief Method .ctor addr 0xdef7cc size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString id) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
-explicit RecipientIdentifier(Org::BouncyCastle::Asn1::Asn1Object id) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1Object id) ;
 
 /// @brief Method .ctor addr 0xdef850 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Object id) ;

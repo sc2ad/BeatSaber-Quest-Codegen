@@ -6,10 +6,10 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
-class BezierSplineEvaluator;
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class BezierSplineEvaluator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -93,8 +93,7 @@ static constexpr float_t  kLookAheadTime{0.2};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "bezierSplineEvaluator", ty: "GlobalNamespace::BezierSplineEvaluator", modifiers: "", def_value: None }, CppParam { name: "gravity", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
-explicit BeatmapObjectAvoidanceTiltEvaluator(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BezierSplineEvaluator bezierSplineEvaluator, UnityEngine::Vector2 gravity) ;
+static GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator New_ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BezierSplineEvaluator bezierSplineEvaluator, UnityEngine::Vector2 gravity) ;
 
 /// @brief Method .ctor addr 0x20a4a88 size 0xe0 virtual false final false
  void _ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BezierSplineEvaluator bezierSplineEvaluator, UnityEngine::Vector2 gravity) ;

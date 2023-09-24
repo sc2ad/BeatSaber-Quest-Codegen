@@ -104,8 +104,7 @@ constexpr int32_t __get_macLength() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TlsMac(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
+static Org::BouncyCastle::Crypto::Tls::TlsMac New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
 
 /// @brief Method .ctor addr 0xf20eb4 size 0x404 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;

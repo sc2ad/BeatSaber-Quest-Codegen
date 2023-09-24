@@ -5,14 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Security::Cryptography {
+struct System__Security__Cryptography__CryptoStream___ReadAsyncInternal_d__37;
+}
 namespace System::Threading {
-class SemaphoreSlim;
+struct CancellationToken;
 }
 namespace System::IO {
 class Stream;
 }
+namespace System {
+class IAsyncResult;
+}
 namespace System::Security::Cryptography {
-class ICryptoTransform;
+struct System__Security__Cryptography__CryptoStream___ReadAsyncCore_d__42;
+}
+namespace System::Security::Cryptography {
+struct System__Security__Cryptography__CryptoStream___WriteAsyncInternal_d__46;
 }
 namespace System {
 class AsyncCallback;
@@ -20,35 +29,34 @@ class AsyncCallback;
 namespace System::Security::Cryptography {
 struct CryptoStreamMode;
 }
+namespace System::Security::Cryptography {
+class ICryptoTransform;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace System::Security::Cryptography {
+class System__Security__Cryptography__CryptoStream____c;
+}
+namespace System::Security::Cryptography {
+struct System__Security__Cryptography__CryptoStream___WriteAsyncCore_d__49;
+}
 namespace System::IO {
 struct SeekOrigin;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System {
-class IAsyncResult;
+class IDisposable;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class IDisposable;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct ValueTaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -56,10 +64,17 @@ struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct TaskAwaiter_1;
+struct ValueTaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Threading::Tasks {
 struct ForceAsyncAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -670,8 +685,7 @@ static System::Func_1<System::Threading::SemaphoreSlim> __get___9__54_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Security__Cryptography__CryptoStream____c() ;
+static System::Security::Cryptography::System__Security__Cryptography__CryptoStream____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x22ef044 size 0x8 virtual false final false
  void _ctor() ;
@@ -842,14 +856,12 @@ constexpr bool __get__leaveOpen() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "System::Security::Cryptography::ICryptoTransform", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Security::Cryptography::CryptoStreamMode", modifiers: "", def_value: None }]
-explicit CryptoStream(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode) ;
+static System::Security::Cryptography::CryptoStream New_ctor(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode) ;
 
 /// @brief Method .ctor addr 0x22eaf80 size 0x8 virtual false final false
  void _ctor(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "System::Security::Cryptography::ICryptoTransform", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Security::Cryptography::CryptoStreamMode", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit CryptoStream(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen) ;
+static System::Security::Cryptography::CryptoStream New_ctor(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen) ;
 
 /// @brief Method .ctor addr 0x22eaf88 size 0x1c8 virtual false final false
  void _ctor(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen) ;

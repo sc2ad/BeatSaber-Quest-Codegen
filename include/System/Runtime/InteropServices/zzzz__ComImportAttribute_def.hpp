@@ -47,8 +47,7 @@ constexpr explicit ComImportAttribute(void* ptr) noexcept : System::Attribute(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit ComImportAttribute() ;
+static System::Runtime::InteropServices::ComImportAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236ac68 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,6 +3,14 @@
 #include "UnityEngine/UIElements/zzzz__UxmlTraits_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace UnityEngine::UIElements {
 class UxmlChildElementDescription;
 }
@@ -12,16 +20,11 @@ class IEnumerable;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UxmlTemplateTraits___get_uxmlChildElementsDescription_d__4;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -124,8 +127,7 @@ constexpr UnityEngine::UIElements::UxmlTemplateTraits __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__UxmlTemplateTraits___get_uxmlChildElementsDescription_d__4(int32_t __1__state) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlTemplateTraits___get_uxmlChildElementsDescription_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2c95f18 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -228,8 +230,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Src() 
 /// @brief Method get_uxmlChildElementsDescription addr 0x2c95eb4 size 0x64 virtual true final false
  System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::UxmlChildElementDescription> get_uxmlChildElementsDescription() ;
 
-// Ctor Parameters []
-explicit UxmlTemplateTraits() ;
+static UnityEngine::UIElements::UxmlTemplateTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c95f5c size 0x104 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "Mono/Security/X509/zzzz__X509Chain_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 #include "Mono/Security/X509/zzzz__X509ChainStatusFlags_def.hpp"
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 //  Writing Method size for method: Mono::Security::X509::X509Chain._ctor
 template<>
 
@@ -203,8 +203,10 @@ constexpr void Mono::Security::X509::X509Chain::__set__status(Mono::Security::X5
 constexpr Mono::Security::X509::X509ChainStatusFlags Mono::Security::X509::X509Chain::__get__status() const {
 return ::cordl_internals::getInstanceField<Mono::Security::X509::X509ChainStatusFlags, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::X509::X509Chain::X509Chain()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Chain>())) {}
+ Mono::Security::X509::X509Chain Mono::Security::X509::X509Chain::New_ctor()  {
+Mono::Security::X509::X509Chain o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::X509Chain>())};
+return o;
+}
  void Mono::Security::X509::X509Chain::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::X509Chain>::get(),

@@ -4,26 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::EC::Endo {
-class ScalarSplitParameters;
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
-class EndoPreCompInfo;
+class ScalarSplitParameters;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ECEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class IPreCompCallback;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class EndoPreCompInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {
@@ -92,8 +95,7 @@ constexpr Org::BouncyCastle::Math::EC::ECPoint __get_m_point() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "endomorphism", ty: "Org::BouncyCastle::Math::EC::Endo::ECEndomorphism", modifiers: "", def_value: None }, CppParam { name: "point", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::ECPoint point) ;
+static Org::BouncyCastle::Math::EC::Endo::Org__BouncyCastle__Math__EC__Endo__EndoUtilities__MapPointCallback New_ctor(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::ECPoint point) ;
 
 /// @brief Method .ctor addr 0xfa7f40 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::ECPoint point) ;
@@ -170,8 +172,7 @@ static Org::BouncyCastle::Math::EC::ECPoint MapPoint(Org::BouncyCastle::Math::EC
 /// @brief Method CalculateB addr 0xfa7d18 size 0x100 virtual false final false
 static Org::BouncyCastle::Math::BigInteger CalculateB(Org::BouncyCastle::Math::BigInteger k, Org::BouncyCastle::Math::BigInteger g, int32_t t) ;
 
-// Ctor Parameters []
-explicit EndoUtilities() ;
+static Org::BouncyCastle::Math::EC::Endo::EndoUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xfa7fcc size 0x8 virtual false final false
  void _ctor() ;

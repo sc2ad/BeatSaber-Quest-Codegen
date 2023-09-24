@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ResultObjectiveListItem_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ResultObjectiveListItem.set_iconColor
 template<>
 
@@ -260,8 +260,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::ResultObjectiveListItem::ResultObjectiveListItem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ResultObjectiveListItem>())) {}
+ GlobalNamespace::ResultObjectiveListItem GlobalNamespace::ResultObjectiveListItem::New_ctor()  {
+GlobalNamespace::ResultObjectiveListItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ResultObjectiveListItem>())};
+return o;
+}
  void GlobalNamespace::ResultObjectiveListItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ResultObjectiveListItem>::get(),

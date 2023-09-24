@@ -85,8 +85,7 @@ constexpr Newtonsoft::Json::Serialization::ErrorContext __get__ErrorContext_k__B
 /// @brief Method set_ErrorContext addr 0x24f670c size 0x8 virtual false final false
  void set_ErrorContext(Newtonsoft::Json::Serialization::ErrorContext value) ;
 
-// Ctor Parameters [CppParam { name: "currentObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "errorContext", ty: "Newtonsoft::Json::Serialization::ErrorContext", modifiers: "", def_value: None }]
-explicit ErrorEventArgs(::bs_hook::Il2CppWrapperType currentObject, Newtonsoft::Json::Serialization::ErrorContext errorContext) ;
+static Newtonsoft::Json::Serialization::ErrorEventArgs New_ctor(::bs_hook::Il2CppWrapperType currentObject, Newtonsoft::Json::Serialization::ErrorContext errorContext) ;
 
 /// @brief Method .ctor addr 0x24f6714 size 0x70 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType currentObject, Newtonsoft::Json::Serialization::ErrorContext errorContext) ;

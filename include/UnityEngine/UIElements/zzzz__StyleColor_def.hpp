@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
-namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleValue_1;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

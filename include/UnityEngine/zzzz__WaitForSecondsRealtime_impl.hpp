@@ -125,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
- UnityEngine::WaitForSecondsRealtime::WaitForSecondsRealtime(float_t time)  : UnityEngine::CustomYieldInstruction(THROW_UNLESS(::il2cpp_utils::New<WaitForSecondsRealtime>(time))) {}
+ UnityEngine::WaitForSecondsRealtime UnityEngine::WaitForSecondsRealtime::New_ctor(float_t time)  {
+UnityEngine::WaitForSecondsRealtime o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::WaitForSecondsRealtime>(time))};
+return o;
+}
  void UnityEngine::WaitForSecondsRealtime::_ctor(float_t time)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::WaitForSecondsRealtime>::get(),

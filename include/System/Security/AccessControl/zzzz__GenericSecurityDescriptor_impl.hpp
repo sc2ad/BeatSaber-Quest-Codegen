@@ -52,8 +52,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::AccessControl::GenericSecurityDescriptor::GenericSecurityDescriptor()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericSecurityDescriptor>())) {}
+ System::Security::AccessControl::GenericSecurityDescriptor System::Security::AccessControl::GenericSecurityDescriptor::New_ctor()  {
+System::Security::AccessControl::GenericSecurityDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::GenericSecurityDescriptor>())};
+return o;
+}
  void System::Security::AccessControl::GenericSecurityDescriptor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::GenericSecurityDescriptor>::get(),

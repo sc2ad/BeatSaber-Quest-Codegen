@@ -69,6 +69,8 @@ constexpr operator __FontEngineError_Unwrapped () const noexcept {
 return std::bit_cast<__FontEngineError_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

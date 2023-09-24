@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/zzzz__PlatformMappingService_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AddressablesPlatform_def.hpp"
 #include "UnityEngine/zzzz__RuntimePlatform_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AddressablesPlatform_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::PlatformMappingService.GetAddressablesPlatformInternal
 template<>
@@ -130,8 +130,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::PlatformMappingService::PlatformMappingService()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlatformMappingService>())) {}
+ UnityEngine::AddressableAssets::PlatformMappingService UnityEngine::AddressableAssets::PlatformMappingService::New_ctor()  {
+UnityEngine::AddressableAssets::PlatformMappingService o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::PlatformMappingService>())};
+return o;
+}
  void UnityEngine::AddressableAssets::PlatformMappingService::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::PlatformMappingService>::get(),

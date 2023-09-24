@@ -3,30 +3,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Oculus::Platform {
-struct RoomJoinPolicy;
-}
-namespace Oculus::Platform::Models {
-class MatchmakingEnqueuedUserList;
-}
-namespace Oculus::Platform {
-struct RoomJoinability;
-}
 namespace Oculus::Platform::Models {
 class UserList;
 }
 namespace Oculus::Platform::Models {
 class User;
 }
+namespace Oculus::Platform::Models {
+class TeamList;
+}
+namespace Oculus::Platform {
+struct RoomJoinability;
+}
 namespace Oculus::Platform {
 struct RoomType;
+}
+namespace Oculus::Platform::Models {
+class MatchmakingEnqueuedUserList;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace Oculus::Platform::Models {
-class TeamList;
+namespace Oculus::Platform {
+struct RoomJoinPolicy;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -203,8 +203,7 @@ constexpr uint32_t __get_Version() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Room(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::Room New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x25a0e7c size 0x3b0 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

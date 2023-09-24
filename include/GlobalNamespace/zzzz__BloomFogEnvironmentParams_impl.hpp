@@ -54,8 +54,10 @@ constexpr void GlobalNamespace::BloomFogEnvironmentParams::__set_noteSpawnIntens
 constexpr float_t GlobalNamespace::BloomFogEnvironmentParams::__get_noteSpawnIntensity() const {
 return ::cordl_internals::getInstanceField<float_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomFogEnvironmentParams::BloomFogEnvironmentParams()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BloomFogEnvironmentParams>())) {}
+ GlobalNamespace::BloomFogEnvironmentParams GlobalNamespace::BloomFogEnvironmentParams::New_ctor()  {
+GlobalNamespace::BloomFogEnvironmentParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomFogEnvironmentParams>())};
+return o;
+}
  void GlobalNamespace::BloomFogEnvironmentParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomFogEnvironmentParams>::get(),

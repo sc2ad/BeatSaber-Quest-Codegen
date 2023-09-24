@@ -1,35 +1,35 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
-}
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerUtcTime;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerTaggedObject;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class TbsCertificateStructure;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
+}
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class DerUtcTime;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerTaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -152,8 +152,7 @@ constexpr Org::BouncyCastle::Asn1::DerBitString __get_subjectUniqueID() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit V3TbsCertificateGenerator() ;
+static Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x11129d0 size 0xa0 virtual false final false
  void _ctor() ;

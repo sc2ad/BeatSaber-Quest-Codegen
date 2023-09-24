@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__WhiteColorOrAlphaGroupEffectManager_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__LightGroup_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__WhiteColorOrAlphaGroupEffect_def.hpp"
+#include "GlobalNamespace/zzzz__LightGroup_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::WhiteColorOrAlphaGroupEffectManager.Start
 template<>
 
@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::WhiteColorOrAlphaGroupEffectManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<WhiteColorOrAlphaGroupEffectManager>())) {}
+ GlobalNamespace::WhiteColorOrAlphaGroupEffectManager GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::New_ctor()  {
+GlobalNamespace::WhiteColorOrAlphaGroupEffectManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::WhiteColorOrAlphaGroupEffectManager>())};
+return o;
+}
  void GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::WhiteColorOrAlphaGroupEffectManager>::get(),

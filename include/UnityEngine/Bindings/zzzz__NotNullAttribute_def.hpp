@@ -65,8 +65,7 @@ constexpr ::StringW __get__Exception_k__BackingField() const;
 /// @brief Method set_Exception addr 0x2ba16b8 size 0x8 virtual false final false
  void set_Exception(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "exception", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NotNullAttribute(::StringW exception) ;
+static UnityEngine::Bindings::NotNullAttribute New_ctor(::StringW exception) ;
 
 /// @brief Method .ctor addr 0x2ba16c0 size 0x28 virtual false final false
  void _ctor(::StringW exception) ;

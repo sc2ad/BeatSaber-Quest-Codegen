@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__LazyInstanceInjector_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: Zenject::LazyInstanceInjector._ctor
 template<>
 
@@ -117,8 +117,10 @@ constexpr void Zenject::LazyInstanceInjector::__set__instancesToInject(System::C
 constexpr System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> Zenject::LazyInstanceInjector::__get__instancesToInject() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
- Zenject::LazyInstanceInjector::LazyInstanceInjector(Zenject::DiContainer container)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LazyInstanceInjector>(container))) {}
+ Zenject::LazyInstanceInjector Zenject::LazyInstanceInjector::New_ctor(Zenject::DiContainer container)  {
+Zenject::LazyInstanceInjector o{THROW_UNLESS(::il2cpp_utils::New<Zenject::LazyInstanceInjector>(container))};
+return o;
+}
  void Zenject::LazyInstanceInjector::_ctor(Zenject::DiContainer container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::LazyInstanceInjector>::get(),

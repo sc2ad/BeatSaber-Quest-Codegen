@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/InteropServices/zzzz__ExternalException_impl.hpp"
 #include "System/ComponentModel/zzzz__Win32Exception_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 //  Writing Method size for method: System::ComponentModel::Win32Exception._ctor
 template<>
 
@@ -133,8 +133,10 @@ constexpr void System::ComponentModel::Win32Exception::__set_nativeErrorCode(int
 constexpr int32_t System::ComponentModel::Win32Exception::__get_nativeErrorCode() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x8c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::ComponentModel::Win32Exception::Win32Exception()  : System::Runtime::InteropServices::ExternalException(THROW_UNLESS(::il2cpp_utils::New<Win32Exception>())) {}
+ System::ComponentModel::Win32Exception System::ComponentModel::Win32Exception::New_ctor()  {
+System::ComponentModel::Win32Exception o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Win32Exception>())};
+return o;
+}
  void System::ComponentModel::Win32Exception::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Win32Exception>::get(),
@@ -144,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "error", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::Win32Exception::Win32Exception(int32_t error)  : System::Runtime::InteropServices::ExternalException(THROW_UNLESS(::il2cpp_utils::New<Win32Exception>(error))) {}
+ System::ComponentModel::Win32Exception System::ComponentModel::Win32Exception::New_ctor(int32_t error)  {
+System::ComponentModel::Win32Exception o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Win32Exception>(error))};
+return o;
+}
  void System::ComponentModel::Win32Exception::_ctor(int32_t error)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Win32Exception>::get(),
@@ -155,8 +159,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, error);
 }
-// Ctor Parameters [CppParam { name: "error", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::ComponentModel::Win32Exception::Win32Exception(int32_t error, ::StringW message)  : System::Runtime::InteropServices::ExternalException(THROW_UNLESS(::il2cpp_utils::New<Win32Exception>(error, message))) {}
+ System::ComponentModel::Win32Exception System::ComponentModel::Win32Exception::New_ctor(int32_t error, ::StringW message)  {
+System::ComponentModel::Win32Exception o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Win32Exception>(error, message))};
+return o;
+}
  void System::ComponentModel::Win32Exception::_ctor(int32_t error, ::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Win32Exception>::get(),
@@ -166,8 +172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, error, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::ComponentModel::Win32Exception::Win32Exception(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Runtime::InteropServices::ExternalException(THROW_UNLESS(::il2cpp_utils::New<Win32Exception>(info, context))) {}
+ System::ComponentModel::Win32Exception System::ComponentModel::Win32Exception::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::ComponentModel::Win32Exception o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Win32Exception>(info, context))};
+return o;
+}
  void System::ComponentModel::Win32Exception::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Win32Exception>::get(),

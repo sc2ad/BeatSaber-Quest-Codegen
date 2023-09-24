@@ -2,6 +2,9 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+class MarshalByRefObject;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
@@ -13,9 +16,6 @@ class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
-}
-namespace System {
-class MarshalByRefObject;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -72,8 +72,7 @@ constexpr System::MarshalByRefObject __get__targetThis() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit ClientActivatedIdentity(::StringW objectUri, System::Type objectType) ;
+static System::Runtime::Remoting::ClientActivatedIdentity New_ctor(::StringW objectUri, System::Type objectType) ;
 
 /// @brief Method .ctor addr 0x2327524 size 0x2c virtual false final false
  void _ctor(::StringW objectUri, System::Type objectType) ;

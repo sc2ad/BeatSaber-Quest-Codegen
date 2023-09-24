@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__IOSelectorJob_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/zzzz__IOOperation_def.hpp"
 #include "System/zzzz__IOAsyncCallback_def.hpp"
-#include "System/zzzz__IOAsyncResult_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
+#include "System/zzzz__IOAsyncResult_def.hpp"
 //  Writing Method size for method: System::IOSelectorJob._ctor
 template<>
 
@@ -95,8 +95,10 @@ constexpr void System::IOSelectorJob::__set_state(System::IOAsyncResult value)  
 constexpr System::IOAsyncResult System::IOSelectorJob::__get_state() const {
 return ::cordl_internals::getInstanceField<System::IOAsyncResult, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "operation", ty: "System::IOOperation", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "System::IOAsyncCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "System::IOAsyncResult", modifiers: "", def_value: None }]
- System::IOSelectorJob::IOSelectorJob(System::IOOperation operation, System::IOAsyncCallback callback, System::IOAsyncResult state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IOSelectorJob>(operation, callback, state))) {}
+ System::IOSelectorJob System::IOSelectorJob::New_ctor(System::IOOperation operation, System::IOAsyncCallback callback, System::IOAsyncResult state)  {
+System::IOSelectorJob o{THROW_UNLESS(::il2cpp_utils::New<System::IOSelectorJob>(operation, callback, state))};
+return o;
+}
  void System::IOSelectorJob::_ctor(System::IOOperation operation, System::IOAsyncCallback callback, System::IOAsyncResult state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IOSelectorJob>::get(),

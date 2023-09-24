@@ -3,12 +3,15 @@
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-template<typename T>
-class Action_1;
+namespace UnityEngine::UIElements::UIR {
+class UnityEngine__UIElements__UIR__GradientRemapPool____c;
 }
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace System {
 template<typename TResult>
@@ -84,8 +87,7 @@ static System::Action_1<UnityEngine::UIElements::UIR::GradientRemap> __get___9__
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIR__GradientRemapPool____c() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientRemapPool____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c5454c size 0x8 virtual false final false
  void _ctor() ;
@@ -103,7 +105,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.UIElements.UIR::GradientRemapPool
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7500)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7500), inst: 300 }), TypeDefinitionIndex(TypeDefinitionIndex(7522))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7522)), TypeDefinitionIndex(TypeDefinitionIndex(7500)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7500), inst: 300 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7521))
 // CS Name: UnityEngine.UIElements.UIR.GradientRemapPool
 class CORDL_TYPE GradientRemapPool : public UnityEngine::UIElements::UIR::LinkedPool_1<UnityEngine::UIElements::UIR::GradientRemap> {
@@ -144,8 +146,7 @@ constexpr explicit GradientRemapPool(void* ptr) noexcept : UnityEngine::UIElemen
 
 // Methods
 
-// Ctor Parameters []
-explicit GradientRemapPool() ;
+static UnityEngine::UIElements::UIR::GradientRemapPool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c54360 size 0x188 virtual false final false
  void _ctor() ;

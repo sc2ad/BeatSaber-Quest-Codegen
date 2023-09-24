@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__Iso9796d2PssSigner_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISignerWithRecovery_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISignerWithRecovery_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner.GetRecoveredMessage
 template<>
 
@@ -414,8 +414,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isImplicit", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner::Iso9796d2PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength, bool isImplicit)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Iso9796d2PssSigner>(cipher, digest, saltLength, isImplicit))) {}
+ Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength, bool isImplicit)  {
+Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner>(cipher, digest, saltLength, isImplicit))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength, bool isImplicit)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner>::get(),
@@ -425,8 +427,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, digest, saltLength, isImplicit);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner::Iso9796d2PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Iso9796d2PssSigner>(cipher, digest, saltLength))) {}
+ Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength)  {
+Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner>(cipher, digest, saltLength))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner>::get(),

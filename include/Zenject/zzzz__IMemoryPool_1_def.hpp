@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
 template<typename TValue>
 class IDespawnableMemoryPool_1;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {

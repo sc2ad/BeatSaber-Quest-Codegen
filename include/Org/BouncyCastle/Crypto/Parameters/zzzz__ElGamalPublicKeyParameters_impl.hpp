@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalKeyParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalPublicKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters._ctor
 template<>
 
@@ -94,8 +94,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters::__get_y() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "y", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ElGamalParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters::ElGamalPublicKeyParameters(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  : Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters(THROW_UNLESS(::il2cpp_utils::New<ElGamalPublicKeyParameters>(y, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters::New_ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters>(y, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters::_ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters>::get(),

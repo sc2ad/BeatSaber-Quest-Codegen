@@ -66,8 +66,7 @@ static constexpr uint8_t  heartbeat{24u};
 
 // Methods
 
-// Ctor Parameters []
-explicit ContentType() ;
+static Org::BouncyCastle::Crypto::Tls::ContentType New_ctor() ;
 
 /// @brief Method .ctor addr 0xed3b98 size 0x8 virtual false final false
  void _ctor() ;

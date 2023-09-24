@@ -1,9 +1,10 @@
 #pragma once
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateUrl_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateUrl_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16._ctor
 template<>
 
@@ -38,8 +39,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16::Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16()  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16>())) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16 Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16>::get(),
@@ -155,8 +158,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::CertificateUrl::__set_mUrlAndHash
 constexpr System::Collections::IList Org::BouncyCastle::Crypto::Tls::CertificateUrl::__get_mUrlAndHashList() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "urlAndHashList", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::CertificateUrl::CertificateUrl(uint8_t type, System::Collections::IList urlAndHashList)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertificateUrl>(type, urlAndHashList))) {}
+ Org::BouncyCastle::Crypto::Tls::CertificateUrl Org::BouncyCastle::Crypto::Tls::CertificateUrl::New_ctor(uint8_t type, System::Collections::IList urlAndHashList)  {
+Org::BouncyCastle::Crypto::Tls::CertificateUrl o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::CertificateUrl>(type, urlAndHashList))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::CertificateUrl::_ctor(uint8_t type, System::Collections::IList urlAndHashList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::CertificateUrl>::get(),

@@ -62,14 +62,12 @@ constexpr ::StringW __get__AnonymousProperty_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AspMvcActionAttribute() ;
+static JetBrains::Annotations::AspMvcActionAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41050 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "anonymousProperty", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AspMvcActionAttribute(::StringW anonymousProperty) ;
+static JetBrains::Annotations::AspMvcActionAttribute New_ctor(::StringW anonymousProperty) ;
 
 /// @brief Method .ctor addr 0x2d41058 size 0x28 virtual false final false
  void _ctor(::StringW anonymousProperty) ;

@@ -5,23 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace OVR::OpenVR {
-struct EVRApplicationTransitionState;
-}
-namespace OVR::OpenVR {
-struct EVRApplicationProperty;
-}
 namespace System::Text {
 class StringBuilder;
-}
-namespace OVR::OpenVR {
-struct EVRApplicationError;
 }
 namespace OVR::OpenVR {
 struct IVRApplications;
 }
 namespace OVR::OpenVR {
 struct AppOverrideKeys_t;
+}
+namespace OVR::OpenVR {
+struct EVRApplicationError;
+}
+namespace OVR::OpenVR {
+struct EVRApplicationProperty;
+}
+namespace OVR::OpenVR {
+struct EVRApplicationTransitionState;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -78,8 +78,7 @@ constexpr OVR::OpenVR::IVRApplications __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRApplications(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRApplications New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x2664a4c size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

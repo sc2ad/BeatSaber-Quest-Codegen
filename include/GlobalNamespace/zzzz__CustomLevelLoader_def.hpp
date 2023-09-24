@@ -89,8 +89,7 @@ constexpr UnityEngine::Sprite __get__smallDefaultPackCover() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CustomLevelLoader() ;
+static GlobalNamespace::CustomLevelLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bbbf4 size 0x8 virtual false final false
  void _ctor() ;

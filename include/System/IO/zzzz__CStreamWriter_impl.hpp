@@ -2,8 +2,8 @@
 #include "System/IO/zzzz__StreamWriter_impl.hpp"
 #include "System/IO/zzzz__CStreamWriter_def.hpp"
 #include "System/zzzz__TermInfoDriver_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: System::IO::CStreamWriter._ctor
 template<>
 
@@ -163,8 +163,10 @@ constexpr void System::IO::CStreamWriter::__set_driver(System::TermInfoDriver va
 constexpr System::TermInfoDriver System::IO::CStreamWriter::__get_driver() const {
 return ::cordl_internals::getInstanceField<System::TermInfoDriver, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
- System::IO::CStreamWriter::CStreamWriter(System::IO::Stream stream, System::Text::Encoding encoding, bool leaveOpen)  : System::IO::StreamWriter(THROW_UNLESS(::il2cpp_utils::New<CStreamWriter>(stream, encoding, leaveOpen))) {}
+ System::IO::CStreamWriter System::IO::CStreamWriter::New_ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool leaveOpen)  {
+System::IO::CStreamWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::CStreamWriter>(stream, encoding, leaveOpen))};
+return o;
+}
  void System::IO::CStreamWriter::_ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool leaveOpen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::CStreamWriter>::get(),

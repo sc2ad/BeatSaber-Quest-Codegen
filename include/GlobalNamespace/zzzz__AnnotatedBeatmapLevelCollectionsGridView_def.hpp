@@ -4,64 +4,64 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
 namespace GlobalNamespace {
 class AdditionalContentModel;
-}
-namespace HMUI {
-class SelectableCell;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
-namespace HMUI {
-struct HMUI__SelectableCell__TransitionType;
 }
 namespace GlobalNamespace {
 class PageControl;
 }
+namespace HMUI {
+class SelectableCell;
+}
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
-namespace UnityEngine {
-class MonoBehaviour;
+namespace GlobalNamespace {
+class GlobalNamespace__GridView__IDataSource;
+}
+namespace GlobalNamespace {
+class AnnotatedBeatmapLevelCollectionsGridViewAnimator;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsPromoDataSO;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace GlobalNamespace {
+class GridView;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
+}
+namespace UnityEngine {
+class MonoBehaviour;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace GlobalNamespace {
-class GridView;
-}
-namespace GlobalNamespace {
-class AnnotatedBeatmapLevelCollectionsGridViewAnimator;
+class IPointerExitHandler;
 }
 namespace GlobalNamespace {
 class AnnotatedBeatmapLevelCollectionCell;
 }
-namespace GlobalNamespace {
-class GlobalNamespace__GridView__IDataSource;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsPromoDataSO;
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -289,8 +289,7 @@ constexpr int32_t __get__selectedCellIndex() const;
 /// @brief Method CellForIdx addr 0x218432c size 0x294 virtual true final true
  UnityEngine::MonoBehaviour CellForIdx(GlobalNamespace::GridView gridView, int32_t idx) ;
 
-// Ctor Parameters []
-explicit AnnotatedBeatmapLevelCollectionsGridView() ;
+static GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView New_ctor() ;
 
 /// @brief Method .ctor addr 0x21845c0 size 0x8 virtual false final false
  void _ctor() ;

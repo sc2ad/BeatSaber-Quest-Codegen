@@ -7,6 +7,9 @@
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__InputStateBuffers__DoubleBuffers;
+}
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }

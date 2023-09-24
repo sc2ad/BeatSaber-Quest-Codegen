@@ -11,9 +11,6 @@ namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
 }
@@ -22,11 +19,22 @@ template<typename T>
 class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace GlobalNamespace {
 template<typename T>
 class BinaryHeap_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__MultipleSortedListsEnumerator_1__HeapItem;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__MultipleSortedListsEnumerator_1___GetEnumerator_d__4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +140,7 @@ constexpr T __get__currentValue() const;
 /// @brief Method get_currentValue addr 0x0 size 0xffffffffffffffff virtual false final false
  T get_currentValue() ;
 
-// Ctor Parameters [CppParam { name: "dataList", ty: "System::Collections::Generic::IReadOnlyList_1<T>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultipleSortedListsEnumerator_1__HeapItem(System::Collections::Generic::IReadOnlyList_1<T> dataList) ;
+static GlobalNamespace::GlobalNamespace__MultipleSortedListsEnumerator_1__HeapItem<T> New_ctor(System::Collections::Generic::IReadOnlyList_1<T> dataList) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IReadOnlyList_1<T> dataList) ;
@@ -235,8 +242,7 @@ constexpr GlobalNamespace::GlobalNamespace__MultipleSortedListsEnumerator_1__Hea
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultipleSortedListsEnumerator_1___GetEnumerator_d__4(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -320,8 +326,7 @@ constexpr GlobalNamespace::BinaryHeap_1<GlobalNamespace::GlobalNamespace__Multip
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dataList", ty: "::ArrayW<System::Collections::Generic::IReadOnlyList_1<T>>", modifiers: "", def_value: None }]
-explicit MultipleSortedListsEnumerator_1(::ArrayW<System::Collections::Generic::IReadOnlyList_1<T>> dataList) ;
+static GlobalNamespace::MultipleSortedListsEnumerator_1<T> New_ctor(::ArrayW<System::Collections::Generic::IReadOnlyList_1<T>> dataList) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::ArrayW<System::Collections::Generic::IReadOnlyList_1<T>> dataList) ;

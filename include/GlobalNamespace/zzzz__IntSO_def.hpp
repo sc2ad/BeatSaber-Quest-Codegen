@@ -9,7 +9,7 @@ class IntSO;
 // Type: ::IntSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 92 }), TypeDefinitionIndex(TypeDefinitionIndex(13904))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13904)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 92 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13900))
 // CS Name: IntSO
 class CORDL_TYPE IntSO : public GlobalNamespace::ObservableVariableSO_1<int32_t> {
@@ -48,8 +48,7 @@ constexpr explicit IntSO(void* ptr) noexcept : GlobalNamespace::ObservableVariab
 
 // Methods
 
-// Ctor Parameters []
-explicit IntSO() ;
+static GlobalNamespace::IntSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83dac size 0x48 virtual false final false
  void _ctor() ;

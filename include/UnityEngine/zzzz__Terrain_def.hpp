@@ -5,10 +5,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class TerrainData;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class TerrainData;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -114,8 +114,7 @@ static ::ArrayW<UnityEngine::Terrain> __declspec(property(get=get_activeTerrains
 /// @brief Method get_activeTerrains addr 0x2ba50bc size 0x28 virtual false final false
 static ::ArrayW<UnityEngine::Terrain> get_activeTerrains() ;
 
-// Ctor Parameters []
-explicit Terrain() ;
+static UnityEngine::Terrain New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba50e4 size 0x8 virtual false final false
  void _ctor() ;

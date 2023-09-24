@@ -3,17 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace Zenject {
-class IProvider;
+class InjectContext;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace System {
 class Type;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace Zenject {
 class IPrefabInstantiator;
@@ -22,7 +18,11 @@ namespace System {
 class Action;
 }
 namespace Zenject {
-struct TypeValuePair;
+class IProvider;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -89,8 +89,7 @@ constexpr Zenject::IPrefabInstantiator __get__prefabCreator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prefabCreator", ty: "Zenject::IPrefabInstantiator", modifiers: "", def_value: None }]
-explicit PrefabGameObjectProvider(Zenject::IPrefabInstantiator prefabCreator) ;
+static Zenject::PrefabGameObjectProvider New_ctor(Zenject::IPrefabInstantiator prefabCreator) ;
 
 /// @brief Method .ctor addr 0x2d8e258 size 0x28 virtual false final false
  void _ctor(Zenject::IPrefabInstantiator prefabCreator) ;

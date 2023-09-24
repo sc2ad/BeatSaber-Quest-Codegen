@@ -6,53 +6,53 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Runtime::ExceptionServices {
-class FirstChanceExceptionEventArgs;
-}
 namespace System {
-class AssemblyLoadEventHandler;
-}
-namespace System::Runtime::Remoting::Messaging {
-class CADMethodReturnMessage;
-}
-namespace System::Security::Policy {
-class Evidence;
+class ResolveEventHandler;
 }
 namespace System {
 class UnhandledExceptionEventHandler;
 }
-namespace System {
-class EventHandler;
+namespace System::Runtime::ExceptionServices {
+class FirstChanceExceptionEventArgs;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace System::Runtime::Remoting::Messaging {
+class CADMethodReturnMessage;
 }
 namespace System::Reflection {
 class Assembly;
 }
-namespace System::Reflection {
-class MethodInfo;
-}
 namespace System::Threading {
 struct StackCrawlMark;
 }
-namespace System {
-class ResolveEventHandler;
+namespace System::Runtime::Remoting::Contexts {
+class Context;
 }
-namespace System::Runtime::Remoting::Messaging {
-class CADMethodCallMessage;
+namespace System {
+class EventHandler;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace System {
 template<typename TEventArgs>
 class EventHandler_1;
 }
-namespace System::Runtime::Remoting::Contexts {
-class Context;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Runtime::Remoting::Messaging {
+class CADMethodCallMessage;
+}
+namespace System {
+class AssemblyLoadEventHandler;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Security::Policy {
+class Evidence;
 }
 // Forward declare root types
 namespace System {
@@ -237,8 +237,7 @@ static System::AppDomain __declspec(property(get=get_CurrentDomain))  CurrentDom
 /// @brief Method IsAppXModel addr 0x2485904 size 0x8 virtual false final false
 static bool IsAppXModel() ;
 
-// Ctor Parameters []
-explicit AppDomain() ;
+static System::AppDomain New_ctor() ;
 
 /// @brief Method .ctor addr 0x248590c size 0x4 virtual false final false
  void _ctor() ;

@@ -41,8 +41,10 @@ constexpr void Mono::Globalization::Unicode::TailoringInfo::__set_FrenchSort(boo
 constexpr bool Mono::Globalization::Unicode::TailoringInfo::__get_FrenchSort() const {
 return ::cordl_internals::getInstanceField<bool, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "lcid", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailoringIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailoringCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "frenchSort", ty: "bool", modifiers: "", def_value: None }]
- Mono::Globalization::Unicode::TailoringInfo::TailoringInfo(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TailoringInfo>(lcid, tailoringIndex, tailoringCount, frenchSort))) {}
+ Mono::Globalization::Unicode::TailoringInfo Mono::Globalization::Unicode::TailoringInfo::New_ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort)  {
+Mono::Globalization::Unicode::TailoringInfo o{THROW_UNLESS(::il2cpp_utils::New<Mono::Globalization::Unicode::TailoringInfo>(lcid, tailoringIndex, tailoringCount, frenchSort))};
+return o;
+}
  void Mono::Globalization::Unicode::TailoringInfo::_ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Globalization::Unicode::TailoringInfo>::get(),

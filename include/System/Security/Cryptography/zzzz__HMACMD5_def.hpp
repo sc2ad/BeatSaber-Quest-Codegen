@@ -49,14 +49,12 @@ constexpr explicit HMACMD5(void* ptr) noexcept : System::Security::Cryptography:
 
 // Methods
 
-// Ctor Parameters []
-explicit HMACMD5() ;
+static System::Security::Cryptography::HMACMD5 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f3754 size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HMACMD5(::ArrayW<uint8_t> key) ;
+static System::Security::Cryptography::HMACMD5 New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0x22f3778 size 0xc8 virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;

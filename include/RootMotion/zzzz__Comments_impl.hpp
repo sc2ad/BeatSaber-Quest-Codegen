@@ -24,8 +24,10 @@ constexpr void RootMotion::Comments::__set_text(::StringW value)  {
 constexpr ::StringW RootMotion::Comments::__get_text() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- RootMotion::Comments::Comments()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Comments>())) {}
+ RootMotion::Comments RootMotion::Comments::New_ctor()  {
+RootMotion::Comments o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::Comments>())};
+return o;
+}
  void RootMotion::Comments::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::Comments>::get(),

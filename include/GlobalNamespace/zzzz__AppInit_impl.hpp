@@ -2,15 +2,16 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "GlobalNamespace/zzzz__AppInit_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayersModel_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerMockSettings_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataSO_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__AppInit__AppStartType::GlobalNamespace__AppInit__AppStartType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -70,8 +71,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__AppIn
  System::Func_1<bool> GlobalNamespace::GlobalNamespace__AppInit____c::__get___9__11_0()  {
 return ::cordl_internals::getStaticField<System::Func_1<bool>, "<>9__11_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AppInit____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__AppInit____c::GlobalNamespace__AppInit____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AppInit____c>())) {}
+ GlobalNamespace::GlobalNamespace__AppInit____c GlobalNamespace::GlobalNamespace__AppInit____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__AppInit____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AppInit____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AppInit____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AppInit____c>::get(),
@@ -228,8 +231,10 @@ constexpr void GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11:
 constexpr GlobalNamespace::GlobalNamespace__AppInit__AppStartType GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11::__get__startType_5__2() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__AppInit__AppStartType, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11::GlobalNamespace__AppInit___StartCoroutine_d__11(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AppInit___StartCoroutine_d__11>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11 GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11>::get(),
@@ -617,8 +622,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AppInit::AppInit()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<AppInit>())) {}
+ GlobalNamespace::AppInit GlobalNamespace::AppInit::New_ctor()  {
+GlobalNamespace::AppInit o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AppInit>())};
+return o;
+}
  void GlobalNamespace::AppInit::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AppInit>::get(),

@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRating_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleExecutionRating_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleExecutionRating_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating::GlobalNamespace__ObstacleExecutionRating__Rating(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -62,8 +63,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rating", ty: "GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating", modifiers: "", def_value: None }]
- GlobalNamespace::ObstacleExecutionRating::ObstacleExecutionRating(float_t time, GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating rating)  : GlobalNamespace::BeatmapObjectExecutionRating(THROW_UNLESS(::il2cpp_utils::New<ObstacleExecutionRating>(time, rating))) {}
+ GlobalNamespace::ObstacleExecutionRating GlobalNamespace::ObstacleExecutionRating::New_ctor(float_t time, GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating rating)  {
+GlobalNamespace::ObstacleExecutionRating o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObstacleExecutionRating>(time, rating))};
+return o;
+}
  void GlobalNamespace::ObstacleExecutionRating::_ctor(float_t time, GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating rating)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObstacleExecutionRating>::get(),

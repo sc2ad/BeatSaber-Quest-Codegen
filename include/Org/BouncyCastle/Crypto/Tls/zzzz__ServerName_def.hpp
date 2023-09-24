@@ -74,8 +74,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_mName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nameType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit ServerName(uint8_t nameType, ::bs_hook::Il2CppWrapperType name) ;
+static Org::BouncyCastle::Crypto::Tls::ServerName New_ctor(uint8_t nameType, ::bs_hook::Il2CppWrapperType name) ;
 
 /// @brief Method .ctor addr 0xf07c0c size 0xa0 virtual false final false
  void _ctor(uint8_t nameType, ::bs_hook::Il2CppWrapperType name) ;

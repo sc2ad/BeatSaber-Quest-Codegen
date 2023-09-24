@@ -3,28 +3,31 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class Zenject__ProviderBindingFinalizer____c;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-struct BindingInheritanceMethods;
+class IBindingFinalizer;
 }
 namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace Zenject {
-class IBindingFinalizer;
+struct BindingInheritanceMethods;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class BindInfo;
@@ -109,8 +112,7 @@ static System::Func_2<System::Type,::StringW> __get___9__8_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ProviderBindingFinalizer____c() ;
+static Zenject::Zenject__ProviderBindingFinalizer____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6c7d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -194,8 +196,7 @@ constexpr Zenject::BindInfo __get__BindInfo_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit ProviderBindingFinalizer(Zenject::BindInfo bindInfo) ;
+static Zenject::ProviderBindingFinalizer New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d68a68 size 0x28 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;

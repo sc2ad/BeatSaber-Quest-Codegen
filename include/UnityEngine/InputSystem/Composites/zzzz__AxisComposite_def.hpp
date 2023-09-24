@@ -5,6 +5,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::InputSystem::Composites {
+struct UnityEngine__InputSystem__Composites__AxisComposite__WhichSideWins;
+}
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
 }
@@ -65,6 +68,8 @@ __Negative = 2,
 constexpr operator __UnityEngine__InputSystem__Composites__AxisComposite__WhichSideWins_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__Composites__AxisComposite__WhichSideWins_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -179,8 +184,7 @@ constexpr UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Compos
 /// @brief Method EvaluateMagnitude addr 0x28c8280 size 0x4c virtual true final false
  float_t EvaluateMagnitude(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
-// Ctor Parameters []
-explicit AxisComposite() ;
+static UnityEngine::InputSystem::Composites::AxisComposite New_ctor() ;
 
 /// @brief Method .ctor addr 0x28c82cc size 0x54 virtual false final false
  void _ctor() ;

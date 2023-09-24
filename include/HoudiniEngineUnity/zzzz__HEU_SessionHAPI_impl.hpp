@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_SessionHAPI::HEU_SessionHAPI()  : HoudiniEngineUnity::HEU_SessionBase(THROW_UNLESS(::il2cpp_utils::New<HEU_SessionHAPI>())) {}
+ HoudiniEngineUnity::HEU_SessionHAPI HoudiniEngineUnity::HEU_SessionHAPI::New_ctor()  {
+HoudiniEngineUnity::HEU_SessionHAPI o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_SessionHAPI>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_SessionHAPI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_SessionHAPI>::get(),

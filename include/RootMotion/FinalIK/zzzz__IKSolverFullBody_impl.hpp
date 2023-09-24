@@ -1,16 +1,13 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKSolver_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMappingLimb_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FBIKChain_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMappingBone_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMappingSpine_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMappingBone_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMappingLimb_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::IKSolverFullBody.GetEffector
 template<>
 
@@ -534,8 +531,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKSolverFullBody::IKSolverFullBody()  : RootMotion::FinalIK::IKSolver(THROW_UNLESS(::il2cpp_utils::New<IKSolverFullBody>())) {}
+ RootMotion::FinalIK::IKSolverFullBody RootMotion::FinalIK::IKSolverFullBody::New_ctor()  {
+RootMotion::FinalIK::IKSolverFullBody o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolverFullBody>())};
+return o;
+}
  void RootMotion::FinalIK::IKSolverFullBody::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolverFullBody>::get(),

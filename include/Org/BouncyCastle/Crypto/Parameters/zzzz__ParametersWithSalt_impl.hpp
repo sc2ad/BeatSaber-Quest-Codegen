@@ -85,8 +85,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt::__set_
 constexpr Org::BouncyCastle::Crypto::ICipherParameters Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt::__get_parameters() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::ICipherParameters, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt::ParametersWithSalt(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ParametersWithSalt>(parameters, salt))) {}
+ Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt::New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt)  {
+Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt>(parameters, salt))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt::_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt>::get(),
@@ -96,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parameters, salt);
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "saltOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt::ParametersWithSalt(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt, int32_t saltOff, int32_t saltLen)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ParametersWithSalt>(parameters, salt, saltOff, saltLen))) {}
+ Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt::New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt, int32_t saltOff, int32_t saltLen)  {
+Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt>(parameters, salt, saltOff, saltLen))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt::_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> salt, int32_t saltOff, int32_t saltLen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt>::get(),

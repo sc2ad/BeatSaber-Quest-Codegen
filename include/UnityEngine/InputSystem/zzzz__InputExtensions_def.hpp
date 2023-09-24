@@ -5,10 +5,10 @@ namespace UnityEngine::InputSystem {
 struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem {
-struct TouchPhase;
+struct Key;
 }
 namespace UnityEngine::InputSystem {
-struct Key;
+struct TouchPhase;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

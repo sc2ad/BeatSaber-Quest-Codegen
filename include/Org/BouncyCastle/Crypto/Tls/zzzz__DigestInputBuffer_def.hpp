@@ -4,6 +4,9 @@
 #include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto::Tls {
+class Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream;
+}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
@@ -65,8 +68,7 @@ constexpr Org::BouncyCastle::Crypto::IDigest __get_d() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "d", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream(Org::BouncyCastle::Crypto::IDigest d) ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream New_ctor(Org::BouncyCastle::Crypto::IDigest d) ;
 
 /// @brief Method .ctor addr 0xed95e8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest d) ;
@@ -128,8 +130,7 @@ constexpr explicit DigestInputBuffer(void* ptr) noexcept : System::IO::MemoryStr
 /// @brief Method UpdateDigest addr 0xed7b64 size 0x78 virtual false final false
  void UpdateDigest(Org::BouncyCastle::Crypto::IDigest d) ;
 
-// Ctor Parameters []
-explicit DigestInputBuffer() ;
+static Org::BouncyCastle::Crypto::Tls::DigestInputBuffer New_ctor() ;
 
 /// @brief Method .ctor addr 0xed789c size 0x8 virtual false final false
  void _ctor() ;

@@ -6,13 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::IO {
-struct FileAttributes;
-}
-namespace System::IO {
 class DirectoryInfo;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__Interop__ErrorInfo;
+}
+namespace System::IO {
+struct FileAttributes;
 }
 namespace System {
 template<typename T>

@@ -1,10 +1,10 @@
 #pragma once
 #include "Oculus/Platform/Models/zzzz__Challenge_def.hpp"
 #include "Oculus/Platform/zzzz__ChallengeVisibility_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "Oculus/Platform/Models/zzzz__Leaderboard_def.hpp"
 #include "Oculus/Platform/zzzz__ChallengeCreationType_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__Leaderboard_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Models::Challenge._ctor
 template<>
 
@@ -94,8 +94,10 @@ constexpr void Oculus::Platform::Models::Challenge::__set_Visibility(Oculus::Pla
 constexpr Oculus::Platform::ChallengeVisibility Oculus::Platform::Models::Challenge::__get_Visibility() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::ChallengeVisibility, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::Challenge::Challenge(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Challenge>(o))) {}
+ Oculus::Platform::Models::Challenge Oculus::Platform::Models::Challenge::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::Challenge o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::Challenge>(o))};
+return o;
+}
  void Oculus::Platform::Models::Challenge::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::Challenge>::get(),

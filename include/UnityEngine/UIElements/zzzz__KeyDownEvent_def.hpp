@@ -53,8 +53,7 @@ constexpr explicit KeyDownEvent(void* ptr) noexcept : UnityEngine::UIElements::K
 /// @brief Method GetEquivalentImguiEvent addr 0x2cdb7d4 size 0xc0 virtual false final false
  void GetEquivalentImguiEvent(UnityEngine::Event outImguiEvent) ;
 
-// Ctor Parameters []
-explicit KeyDownEvent() ;
+static UnityEngine::UIElements::KeyDownEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdb894 size 0x48 virtual false final false
  void _ctor() ;

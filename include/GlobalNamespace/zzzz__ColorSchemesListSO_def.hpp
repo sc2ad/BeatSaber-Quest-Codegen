@@ -68,8 +68,7 @@ constexpr ::ArrayW<GlobalNamespace::ColorSchemeSO> __get__colorSchemes() const;
 /// @brief Method get_colorSchemes addr 0x11a32f0 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::ColorSchemeSO> get_colorSchemes() ;
 
-// Ctor Parameters []
-explicit ColorSchemesListSO() ;
+static GlobalNamespace::ColorSchemesListSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a32f8 size 0x8 virtual false final false
  void _ctor() ;

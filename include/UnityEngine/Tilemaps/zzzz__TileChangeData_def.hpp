@@ -2,16 +2,16 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace UnityEngine {
-struct Matrix4x4;
+struct Vector3Int;
 }
 namespace UnityEngine {
-struct Color;
+struct Matrix4x4;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
-struct Vector3Int;
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {

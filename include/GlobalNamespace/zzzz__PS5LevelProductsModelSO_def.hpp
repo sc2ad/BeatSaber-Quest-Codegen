@@ -47,8 +47,7 @@ constexpr explicit PS5LevelProductsModelSO(void* ptr) noexcept : GlobalNamespace
 
 // Methods
 
-// Ctor Parameters []
-explicit PS5LevelProductsModelSO() ;
+static GlobalNamespace::PS5LevelProductsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a7f0 size 0x4 virtual false final false
  void _ctor() ;

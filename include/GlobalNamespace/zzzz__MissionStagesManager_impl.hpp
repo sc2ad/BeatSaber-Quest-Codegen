@@ -4,6 +4,7 @@
 #include "GlobalNamespace/zzzz__MissionStage_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "GlobalNamespace/zzzz__MissionStageLockView_def.hpp"
+#include "GlobalNamespace/zzzz__MissionStagesManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MissionStagesManager____c._ctor
 template<>
 
@@ -50,8 +51,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Missi
  System::Func_2<GlobalNamespace::MissionStage,int32_t> GlobalNamespace::GlobalNamespace__MissionStagesManager____c::__get___9__6_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::MissionStage,int32_t>, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionStagesManager____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MissionStagesManager____c::GlobalNamespace__MissionStagesManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionStagesManager____c>())) {}
+ GlobalNamespace::GlobalNamespace__MissionStagesManager____c GlobalNamespace::GlobalNamespace__MissionStagesManager____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MissionStagesManager____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionStagesManager____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionStagesManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionStagesManager____c>::get(),
@@ -261,8 +264,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, numberOfClearedMissions);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionStagesManager::MissionStagesManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionStagesManager>())) {}
+ GlobalNamespace::MissionStagesManager GlobalNamespace::MissionStagesManager::New_ctor()  {
+GlobalNamespace::MissionStagesManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionStagesManager>())};
+return o;
+}
  void GlobalNamespace::MissionStagesManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionStagesManager>::get(),

@@ -93,8 +93,7 @@ constexpr UnityEngine::AudioClip __get__ps5HapticsClip() const;
 /// @brief Method CopyFrom addr 0x1f8f268 size 0x3c virtual false final false
  void CopyFrom(Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
 
-// Ctor Parameters []
-explicit HapticPresetSO() ;
+static Libraries::HM::HMLib::VR::HapticPresetSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8f2a4 size 0x24 virtual false final false
  void _ctor() ;

@@ -76,8 +76,7 @@ constexpr int32_t __get_size() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "growthRate", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ByteStack(int32_t growthRate) ;
+static System::Xml::ByteStack New_ctor(int32_t growthRate) ;
 
 /// @brief Method .ctor addr 0x26bbed4 size 0x70 virtual false final false
  void _ctor(int32_t growthRate) ;

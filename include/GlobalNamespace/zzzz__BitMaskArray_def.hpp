@@ -4,15 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-template<typename T>
-class IBitMask_1;
-}
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+template<typename T>
+class IBitMask_1;
 }
 namespace System {
 template<typename T>
@@ -20,6 +17,9 @@ class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,8 +99,7 @@ constexpr ::ArrayW<uint64_t> __get__data() const;
 /// @brief Method get_bitCount addr 0x12144b0 size 0x8 virtual true final true
  int32_t get_bitCount() ;
 
-// Ctor Parameters [CppParam { name: "bitCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BitMaskArray(int32_t bitCount) ;
+static GlobalNamespace::BitMaskArray New_ctor(int32_t bitCount) ;
 
 /// @brief Method .ctor addr 0x12144b8 size 0x7c virtual false final false
  void _ctor(int32_t bitCount) ;

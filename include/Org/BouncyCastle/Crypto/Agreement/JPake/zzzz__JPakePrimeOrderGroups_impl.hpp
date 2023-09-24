@@ -36,8 +36,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Crypto::Agreement::J
  Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups::__get_NIST_3072()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup, "NIST_3072", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups::JPakePrimeOrderGroups()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JPakePrimeOrderGroups>())) {}
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups::New_ctor()  {
+Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups>::get(),

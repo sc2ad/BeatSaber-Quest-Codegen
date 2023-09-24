@@ -2,8 +2,8 @@
 #include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "Zenject/zzzz__ExecutionOrderInstaller_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: Zenject::ExecutionOrderInstaller._ctor
 template<>
 
@@ -78,8 +78,10 @@ constexpr void Zenject::ExecutionOrderInstaller::__set__typeOrder(System::Collec
 constexpr System::Collections::Generic::List_1<System::Type> Zenject::ExecutionOrderInstaller::__get__typeOrder() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<System::Type>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "typeOrder", ty: "System::Collections::Generic::List_1<System::Type>", modifiers: "", def_value: None }]
- Zenject::ExecutionOrderInstaller::ExecutionOrderInstaller(System::Collections::Generic::List_1<System::Type> typeOrder)  : Zenject::Installer_2<System::Collections::Generic::List_1<System::Type>,Zenject::ExecutionOrderInstaller>(THROW_UNLESS(::il2cpp_utils::New<ExecutionOrderInstaller>(typeOrder))) {}
+ Zenject::ExecutionOrderInstaller Zenject::ExecutionOrderInstaller::New_ctor(System::Collections::Generic::List_1<System::Type> typeOrder)  {
+Zenject::ExecutionOrderInstaller o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ExecutionOrderInstaller>(typeOrder))};
+return o;
+}
  void Zenject::ExecutionOrderInstaller::_ctor(System::Collections::Generic::List_1<System::Type> typeOrder)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ExecutionOrderInstaller>::get(),

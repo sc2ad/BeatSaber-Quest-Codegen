@@ -47,8 +47,7 @@ constexpr explicit __ComObject(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Methods
 
-// Ctor Parameters []
-explicit __ComObject() ;
+static System::__ComObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x249c4dc size 0x48 virtual false final false
  void _ctor() ;

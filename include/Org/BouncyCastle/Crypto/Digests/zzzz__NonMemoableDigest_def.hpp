@@ -70,8 +70,7 @@ constexpr Org::BouncyCastle::Crypto::IDigest __get_mBaseDigest() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "baseDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit NonMemoableDigest(Org::BouncyCastle::Crypto::IDigest baseDigest) ;
+static Org::BouncyCastle::Crypto::Digests::NonMemoableDigest New_ctor(Org::BouncyCastle::Crypto::IDigest baseDigest) ;
 
 /// @brief Method .ctor addr 0x119e688 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest baseDigest) ;

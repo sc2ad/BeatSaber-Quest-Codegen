@@ -1,14 +1,15 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "LiteNetLib/zzzz__NetEvent_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/zzzz__DisconnectReason_def.hpp"
+#include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
+#include "LiteNetLib/zzzz__NetEvent_def.hpp"
 #include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
 #include "LiteNetLib/zzzz__NetManager_def.hpp"
-#include "LiteNetLib/zzzz__NetPeer_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "LiteNetLib/zzzz__DisconnectReason_def.hpp"
 #include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
-#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr LiteNetLib::LiteNetLib__NetEvent__EType::LiteNetLib__NetEvent__EType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -104,8 +105,10 @@ constexpr void LiteNetLib::NetEvent::__set_DataReader(LiteNetLib::NetPacketReade
 constexpr LiteNetLib::NetPacketReader LiteNetLib::NetEvent::__get_DataReader() const {
 return ::cordl_internals::getInstanceField<LiteNetLib::NetPacketReader, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "manager", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }]
- LiteNetLib::NetEvent::NetEvent(LiteNetLib::NetManager manager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetEvent>(manager))) {}
+ LiteNetLib::NetEvent LiteNetLib::NetEvent::New_ctor(LiteNetLib::NetManager manager)  {
+LiteNetLib::NetEvent o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetEvent>(manager))};
+return o;
+}
  void LiteNetLib::NetEvent::_ctor(LiteNetLib::NetManager manager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetEvent>::get(),

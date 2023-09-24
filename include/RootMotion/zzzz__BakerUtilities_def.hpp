@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
 struct Keyframe;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion {

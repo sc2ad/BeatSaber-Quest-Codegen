@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/zzzz__ScaleYNegateXPointMap_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap._ctor
 template<>
 
@@ -47,8 +47,10 @@ constexpr void Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap::__set_scale(O
 constexpr Org::BouncyCastle::Math::EC::ECFieldElement Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap::__get_scale() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::ECFieldElement, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "scale", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap::ScaleYNegateXPointMap(Org::BouncyCastle::Math::EC::ECFieldElement scale)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ScaleYNegateXPointMap>(scale))) {}
+ Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap::New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement scale)  {
+Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap>(scale))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap::_ctor(Org::BouncyCastle::Math::EC::ECFieldElement scale)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap>::get(),

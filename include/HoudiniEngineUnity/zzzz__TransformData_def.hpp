@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
 struct Quaternion;

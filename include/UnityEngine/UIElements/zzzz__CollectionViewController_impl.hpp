@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__CollectionViewController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::CollectionViewController.add_itemsSourceChanged
 template<>
@@ -593,8 +593,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, srcIndex, dstIndex);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::CollectionViewController::CollectionViewController()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CollectionViewController>())) {}
+ UnityEngine::UIElements::CollectionViewController UnityEngine::UIElements::CollectionViewController::New_ctor()  {
+UnityEngine::UIElements::CollectionViewController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::CollectionViewController>())};
+return o;
+}
  void UnityEngine::UIElements::CollectionViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::CollectionViewController>::get(),

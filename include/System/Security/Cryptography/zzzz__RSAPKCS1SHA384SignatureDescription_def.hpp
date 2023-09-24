@@ -47,8 +47,7 @@ constexpr explicit RSAPKCS1SHA384SignatureDescription(void* ptr) noexcept : Syst
 
 // Methods
 
-// Ctor Parameters []
-explicit RSAPKCS1SHA384SignatureDescription() ;
+static System::Security::Cryptography::RSAPKCS1SHA384SignatureDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x22fef98 size 0x68 virtual false final false
  void _ctor() ;

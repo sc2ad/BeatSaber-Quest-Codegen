@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::TextCore::Text {
+struct TextElementType;
+}
 namespace UnityEngine::TextCore {
 class Glyph;
 }
 namespace UnityEngine::TextCore::Text {
 class TextAsset;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextElementType;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -145,8 +145,7 @@ constexpr float_t __get_m_Scale() const;
 /// @brief Method set_scale addr 0x2bcc348 size 0x8 virtual false final false
  void set_scale(float_t value) ;
 
-// Ctor Parameters []
-explicit TextElement() ;
+static UnityEngine::TextCore::Text::TextElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bcc340 size 0x8 virtual false final false
  void _ctor() ;

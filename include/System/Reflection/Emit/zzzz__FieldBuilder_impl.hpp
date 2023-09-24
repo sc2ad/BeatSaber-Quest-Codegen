@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Reflection/zzzz__FieldInfo_impl.hpp"
 #include "System/Reflection/Emit/zzzz__FieldBuilder_def.hpp"
-#include "System/Reflection/zzzz__FieldAttributes_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "System/zzzz__RuntimeFieldHandle_def.hpp"
+#include "System/Reflection/zzzz__FieldAttributes_def.hpp"
 #include "System/Reflection/zzzz__Binder_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__RuntimeFieldHandle_def.hpp"
 //  Writing Method size for method: System::Reflection::Emit::FieldBuilder.get_Attributes
 template<>
 

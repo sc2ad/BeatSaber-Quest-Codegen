@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace HMUI {
-class NoTransitionsButton;
-}
 namespace UnityEngine {
 class AnimationClip;
 }
 namespace HMUI {
 struct HMUI__NoTransitionsButton__SelectionState;
+}
+namespace HMUI {
+class NoTransitionsButton;
 }
 // Forward declare root types
 namespace HMUI {
@@ -110,8 +110,7 @@ constexpr bool __get__didStart() const;
 /// @brief Method HandleButtonSelectionStateDidChange addr 0x1fbd070 size 0xf8 virtual false final false
  void HandleButtonSelectionStateDidChange(HMUI::HMUI__NoTransitionsButton__SelectionState state) ;
 
-// Ctor Parameters []
-explicit ButtonStaticAnimations() ;
+static HMUI::ButtonStaticAnimations New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbd254 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__Spectrogram_def.hpp"
 #include "GlobalNamespace/zzzz__BasicSpectrogramData_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::Spectrogram.get_materialPropertyBlock
 template<>
 
@@ -130,8 +130,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::Spectrogram::Spectrogram()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Spectrogram>())) {}
+ GlobalNamespace::Spectrogram GlobalNamespace::Spectrogram::New_ctor()  {
+GlobalNamespace::Spectrogram o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Spectrogram>())};
+return o;
+}
  void GlobalNamespace::Spectrogram::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Spectrogram>::get(),

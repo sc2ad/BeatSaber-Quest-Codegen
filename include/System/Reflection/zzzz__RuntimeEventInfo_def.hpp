@@ -6,8 +6,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Reflection {
-struct BindingFlags;
+namespace System {
+class RuntimeType;
 }
 namespace System::Reflection {
 class RuntimeModule;
@@ -15,8 +15,17 @@ class RuntimeModule;
 namespace System::Reflection {
 class MethodInfo;
 }
+namespace System::Reflection {
+struct MonoEventInfo;
+}
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Reflection {
 class Module;
@@ -24,17 +33,8 @@ class Module;
 namespace System {
 class Type;
 }
-namespace System {
-class RuntimeType;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Reflection {
-struct MonoEventInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -180,8 +180,7 @@ static System::Reflection::MonoEventInfo GetEventInfo(System::Reflection::Runtim
 /// @brief Method get_metadata_token addr 0x2385a74 size 0x4 virtual false final false
 static int32_t get_metadata_token(System::Reflection::RuntimeEventInfo monoEvent) ;
 
-// Ctor Parameters []
-explicit RuntimeEventInfo() ;
+static System::Reflection::RuntimeEventInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2385a78 size 0x8 virtual false final false
  void _ctor() ;

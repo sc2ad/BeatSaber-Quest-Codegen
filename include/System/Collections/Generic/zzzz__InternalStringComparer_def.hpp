@@ -11,7 +11,7 @@ class InternalStringComparer;
 // Type: System.Collections.Generic::InternalStringComparer
 namespace System::Collections::Generic {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 380 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3854), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(3854))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3863))
 // CS Name: System.Collections.Generic.InternalStringComparer
 class CORDL_TYPE InternalStringComparer : public System::Collections::Generic::EqualityComparer_1<::StringW> {
@@ -59,8 +59,7 @@ constexpr explicit InternalStringComparer(void* ptr) noexcept : System::Collecti
 /// @brief Method IndexOf addr 0x241e38c size 0x6c virtual true final false
  int32_t IndexOf(::ArrayW<::StringW> array, ::StringW value, int32_t startIndex, int32_t count) ;
 
-// Ctor Parameters []
-explicit InternalStringComparer() ;
+static System::Collections::Generic::InternalStringComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x241e3f8 size 0x48 virtual false final false
  void _ctor() ;

@@ -2,13 +2,14 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Manipulator_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardNavigationManipulator_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyboardNavigationManipulator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__NavigationCancelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardNavigationOperation_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationCancelEvent_def.hpp"
 // Ctor Parameters [CppParam { name: "evt", ty: "UnityEngine::UIElements::KeyDownEvent", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__KeyboardNavigationManipulator____c__DisplayClass5_0::UnityEngine__UIElements__KeyboardNavigationManipulator____c__DisplayClass5_0(UnityEngine::UIElements::KeyDownEvent evt) noexcept : ::bs_hook::ValueTypeWrapper() {this->evt = evt;
 }
@@ -237,8 +238,10 @@ constexpr void UnityEngine::UIElements::KeyboardNavigationManipulator::__set_m_A
 constexpr System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,UnityEngine::UIElements::EventBase> UnityEngine::UIElements::KeyboardNavigationManipulator::__get_m_Action() const {
 return ::cordl_internals::getInstanceField<System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,UnityEngine::UIElements::EventBase>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,UnityEngine::UIElements::EventBase>", modifiers: "", def_value: None }]
- UnityEngine::UIElements::KeyboardNavigationManipulator::KeyboardNavigationManipulator(System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,UnityEngine::UIElements::EventBase> action)  : UnityEngine::UIElements::Manipulator(THROW_UNLESS(::il2cpp_utils::New<KeyboardNavigationManipulator>(action))) {}
+ UnityEngine::UIElements::KeyboardNavigationManipulator UnityEngine::UIElements::KeyboardNavigationManipulator::New_ctor(System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,UnityEngine::UIElements::EventBase> action)  {
+UnityEngine::UIElements::KeyboardNavigationManipulator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::KeyboardNavigationManipulator>(action))};
+return o;
+}
  void UnityEngine::UIElements::KeyboardNavigationManipulator::_ctor(System::Action_2<UnityEngine::UIElements::KeyboardNavigationOperation,UnityEngine::UIElements::EventBase> action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::KeyboardNavigationManipulator>::get(),

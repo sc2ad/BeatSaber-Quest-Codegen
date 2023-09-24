@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class XmlQualifiedName;
+class IDtdEntityInfo;
 }
 namespace System::Xml {
-class IDtdEntityInfo;
+class XmlQualifiedName;
 }
 namespace System::Xml {
 class IDtdAttributeListInfo;

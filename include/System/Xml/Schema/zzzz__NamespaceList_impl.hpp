@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
+#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Xml::Schema::System__Xml__Schema__NamespaceList__ListType::System__Xml__Schema__NamespaceList__ListType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -170,8 +171,10 @@ constexpr void System::Xml::Schema::NamespaceList::__set_targetNamespace(::Strin
 constexpr ::StringW System::Xml::Schema::NamespaceList::__get_targetNamespace() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Schema::NamespaceList::NamespaceList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NamespaceList>())) {}
+ System::Xml::Schema::NamespaceList System::Xml::Schema::NamespaceList::New_ctor()  {
+System::Xml::Schema::NamespaceList o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::NamespaceList>())};
+return o;
+}
  void System::Xml::Schema::NamespaceList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::NamespaceList>::get(),
@@ -181,8 +184,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "namespaces", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "targetNamespace", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Schema::NamespaceList::NamespaceList(::StringW namespaces, ::StringW targetNamespace)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NamespaceList>(namespaces, targetNamespace))) {}
+ System::Xml::Schema::NamespaceList System::Xml::Schema::NamespaceList::New_ctor(::StringW namespaces, ::StringW targetNamespace)  {
+System::Xml::Schema::NamespaceList o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::NamespaceList>(namespaces, targetNamespace))};
+return o;
+}
  void System::Xml::Schema::NamespaceList::_ctor(::StringW namespaces, ::StringW targetNamespace)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::NamespaceList>::get(),

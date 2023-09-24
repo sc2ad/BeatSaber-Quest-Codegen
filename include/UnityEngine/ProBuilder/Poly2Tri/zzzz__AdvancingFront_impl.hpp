@@ -156,8 +156,10 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::__set_Search(U
 constexpr UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::__get_Search() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "head", ty: "UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode", modifiers: "", def_value: None }, CppParam { name: "tail", ty: "UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::AdvancingFront(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode tail)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AdvancingFront>(head, tail))) {}
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFront UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::New_ctor(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode tail)  {
+UnityEngine::ProBuilder::Poly2Tri::AdvancingFront o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::AdvancingFront>(head, tail))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::_ctor(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode tail)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::AdvancingFront>::get(),

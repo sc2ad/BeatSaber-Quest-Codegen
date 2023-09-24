@@ -8,13 +8,16 @@ namespace System {
 class IDisposable;
 }
 namespace System::Threading {
-class EventWaitHandle;
-}
-namespace System::Threading {
 class ReaderWriterCount;
 }
 namespace System::Threading {
 struct LockRecursionPolicy;
+}
+namespace System::Threading {
+struct System__Threading__ReaderWriterLockSlim__TimeoutTracker;
+}
+namespace System::Threading {
+class EventWaitHandle;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -316,8 +319,7 @@ constexpr bool __get_fDisposed() const;
 /// @brief Method InitializeThreadCounts addr 0x2682650 size 0xc virtual false final false
  void InitializeThreadCounts() ;
 
-// Ctor Parameters [CppParam { name: "recursionPolicy", ty: "System::Threading::LockRecursionPolicy", modifiers: "", def_value: None }]
-explicit ReaderWriterLockSlim(System::Threading::LockRecursionPolicy recursionPolicy) ;
+static System::Threading::ReaderWriterLockSlim New_ctor(System::Threading::LockRecursionPolicy recursionPolicy) ;
 
 /// @brief Method .ctor addr 0x268265c size 0x84 virtual false final false
  void _ctor(System::Threading::LockRecursionPolicy recursionPolicy) ;

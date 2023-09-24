@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_impl.hpp"
 #include "UnityEngine/XR/WindowsMR/Input/zzzz__WMRSpatialController_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::WindowsMR::Input::WMRSpatialController.get_joystick
 template<>
 
@@ -1035,8 +1035,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::WindowsMR::Input::WMRSpatialController::WMRSpatialController()  : UnityEngine::InputSystem::XR::XRControllerWithRumble(THROW_UNLESS(::il2cpp_utils::New<WMRSpatialController>())) {}
+ UnityEngine::XR::WindowsMR::Input::WMRSpatialController UnityEngine::XR::WindowsMR::Input::WMRSpatialController::New_ctor()  {
+UnityEngine::XR::WindowsMR::Input::WMRSpatialController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::WindowsMR::Input::WMRSpatialController>())};
+return o;
+}
  void UnityEngine::XR::WindowsMR::Input::WMRSpatialController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::WindowsMR::Input::WMRSpatialController>::get(),

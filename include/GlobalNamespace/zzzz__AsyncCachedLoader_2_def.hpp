@@ -7,6 +7,14 @@ namespace GlobalNamespace {
 template<typename K,typename V>
 class HMCache_2;
 }
+namespace GlobalNamespace {
+template<typename TKey,typename TValue>
+struct GlobalNamespace__AsyncCachedLoader_2__ScheduledTask;
+}
+namespace GlobalNamespace {
+template<typename TKey,typename TValue>
+struct GlobalNamespace__AsyncCachedLoader_2___LoadAsync_d__7;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
@@ -17,6 +25,10 @@ class Task_1;
 namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
+}
+namespace GlobalNamespace {
+template<typename TKey,typename TValue>
+struct GlobalNamespace__AsyncCachedLoader_2___LoadAllAsync_d__8;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -82,7 +94,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5995)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(5995))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5995), inst: 80 })
 // CS Name: AsyncCachedLoader`2::ScheduledTask
 struct CORDL_TYPE GlobalNamespace__AsyncCachedLoader_2__ScheduledTask<TKey,TValue> : public ::bs_hook::ValueTypeWrapper {
@@ -155,7 +167,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(5996))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5996)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5996), inst: 80 })
 // CS Name: AsyncCachedLoader`2::<LoadAsync>d__7
 struct CORDL_TYPE GlobalNamespace__AsyncCachedLoader_2___LoadAsync_d__7<TKey,TValue> : public ::bs_hook::ValueTypeWrapper {
@@ -252,7 +264,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(5997))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5997)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5997), inst: 80 })
 // CS Name: AsyncCachedLoader`2::<LoadAllAsync>d__8
 struct CORDL_TYPE GlobalNamespace__AsyncCachedLoader_2___LoadAllAsync_d__8<TKey,TValue> : public ::bs_hook::ValueTypeWrapper {
@@ -418,8 +430,7 @@ constexpr bool __get__isLoading() const;
 /// @brief Method ClearCache addr 0x0 size 0xffffffffffffffff virtual false final false
  void ClearCache() ;
 
-// Ctor Parameters [CppParam { name: "maxNumberCachedElements", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "resultValueFunc", ty: "System::Func_3<TKey,System::Threading::CancellationToken,System::Threading::Tasks::Task_1<TValue>>", modifiers: "", def_value: None }]
-explicit AsyncCachedLoader_2(int32_t maxNumberCachedElements, System::Func_3<TKey,System::Threading::CancellationToken,System::Threading::Tasks::Task_1<TValue>> resultValueFunc) ;
+static GlobalNamespace::AsyncCachedLoader_2<TKey,TValue> New_ctor(int32_t maxNumberCachedElements, System::Func_3<TKey,System::Threading::CancellationToken,System::Threading::Tasks::Task_1<TValue>> resultValueFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t maxNumberCachedElements, System::Func_3<TKey,System::Threading::CancellationToken,System::Threading::Tasks::Task_1<TValue>> resultValueFunc) ;

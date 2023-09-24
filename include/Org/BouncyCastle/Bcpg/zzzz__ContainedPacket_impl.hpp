@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgOut);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Bcpg::ContainedPacket::ContainedPacket()  : Org::BouncyCastle::Bcpg::Packet(THROW_UNLESS(::il2cpp_utils::New<ContainedPacket>())) {}
+ Org::BouncyCastle::Bcpg::ContainedPacket Org::BouncyCastle::Bcpg::ContainedPacket::New_ctor()  {
+Org::BouncyCastle::Bcpg::ContainedPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::ContainedPacket>())};
+return o;
+}
  void Org::BouncyCastle::Bcpg::ContainedPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::ContainedPacket>::get(),

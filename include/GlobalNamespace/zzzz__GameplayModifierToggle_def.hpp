@@ -1,20 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace UnityEngine::UI {
-class Image;
-}
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace HMUI {
 class HoverTextSetter;
+}
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine::UI {
 class Toggle;
@@ -126,8 +126,7 @@ constexpr UnityEngine::Color __get__positiveColor() const;
 /// @brief Method Start addr 0x2146a70 size 0x37c virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit GameplayModifierToggle() ;
+static GlobalNamespace::GameplayModifierToggle New_ctor() ;
 
 /// @brief Method .ctor addr 0x2146dec size 0x8 virtual false final false
  void _ctor() ;

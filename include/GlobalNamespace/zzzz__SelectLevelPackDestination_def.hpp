@@ -59,8 +59,7 @@ constexpr GlobalNamespace::IBeatmapLevelPack __get_beatmapLevelPack() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }]
-explicit SelectLevelPackDestination(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack) ;
+static GlobalNamespace::SelectLevelPackDestination New_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack) ;
 
 /// @brief Method .ctor addr 0x21bc5f0 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack) ;

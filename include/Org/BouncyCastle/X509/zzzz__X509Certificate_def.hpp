@@ -5,35 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace System::Collections {
-class IList;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509CertificateStructure;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class BasicConstraints;
-}
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactory;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
 }
 namespace System::Collections {
 class ICollection;
@@ -41,8 +23,26 @@ class ICollection;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactoryProvider;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class BasicConstraints;
+}
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactory;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -174,14 +174,12 @@ constexpr int32_t __get_hashValue() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509Certificate() ;
+static Org::BouncyCastle::X509::X509Certificate New_ctor() ;
 
 /// @brief Method .ctor addr 0x10ece20 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Asn1::X509::X509CertificateStructure", modifiers: "", def_value: None }]
-explicit X509Certificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure c) ;
+static Org::BouncyCastle::X509::X509Certificate New_ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure c) ;
 
 /// @brief Method .ctor addr 0x10ece88 size 0x530 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure c) ;

@@ -76,8 +76,7 @@ constexpr bool __get__Enabled_k__BackingField() const;
 /// @brief Method set_Enabled addr 0x2ba1074 size 0xc virtual false final false
  void set_Enabled(bool value) ;
 
-// Ctor Parameters [CppParam { name: "condition", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NativeConditionalAttribute(::StringW condition) ;
+static UnityEngine::Bindings::NativeConditionalAttribute New_ctor(::StringW condition) ;
 
 /// @brief Method .ctor addr 0x2ba1080 size 0x30 virtual false final false
  void _ctor(::StringW condition) ;

@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Schema::XmlTypeCode, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_negativeInteger::Datatype_negativeInteger()  : System::Xml::Schema::Datatype_nonPositiveInteger(THROW_UNLESS(::il2cpp_utils::New<Datatype_negativeInteger>())) {}
+ System::Xml::Schema::Datatype_negativeInteger System::Xml::Schema::Datatype_negativeInteger::New_ctor()  {
+System::Xml::Schema::Datatype_negativeInteger o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_negativeInteger>())};
+return o;
+}
  void System::Xml::Schema::Datatype_negativeInteger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_negativeInteger>::get(),

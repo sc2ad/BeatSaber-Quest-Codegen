@@ -7,15 +7,15 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace TMPro {
+class TMP_FontAsset;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace TMPro {
 class TMP_Settings;
-}
-namespace TMPro {
-class TMP_FontAsset;
 }
 // Forward declare root types
 namespace TMPro {
@@ -102,8 +102,7 @@ static bool TryGetFontAsset(int32_t hashcode, ByRef<TMPro::TMP_FontAsset> fontAs
 /// @brief Method RebuildFontAssetCache addr 0x2aa7f04 size 0x118 virtual false final false
 static void RebuildFontAssetCache(int32_t instanceID) ;
 
-// Ctor Parameters []
-explicit TMP_ResourceManager() ;
+static TMPro::TMP_ResourceManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa7c04 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,6 +5,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
+struct UnityEngine__UISystemProfilerApi__SampleType;
+}
+namespace UnityEngine {
 class Object;
 }
 // Forward declare root types
@@ -63,6 +66,8 @@ __Render = 1,
 constexpr operator __UnityEngine__UISystemProfilerApi__SampleType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UISystemProfilerApi__SampleType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

@@ -2,12 +2,12 @@
 #include "System/Resources/zzzz__ResourceSet_impl.hpp"
 #include "System/Resources/zzzz__RuntimeResourceSet_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Resources/zzzz__ResourceReader_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Resources/zzzz__ResourceLocator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Resources/zzzz__ResourceLocator_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: System::Resources::RuntimeResourceSet._ctor
 template<>
 
@@ -240,8 +240,10 @@ constexpr void System::Resources::RuntimeResourceSet::__set__haveReadFromReader(
 constexpr bool System::Resources::RuntimeResourceSet::__get__haveReadFromReader() const {
 return ::cordl_internals::getInstanceField<bool, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Resources::RuntimeResourceSet::RuntimeResourceSet(::StringW fileName)  : System::Resources::ResourceSet(THROW_UNLESS(::il2cpp_utils::New<RuntimeResourceSet>(fileName))) {}
+ System::Resources::RuntimeResourceSet System::Resources::RuntimeResourceSet::New_ctor(::StringW fileName)  {
+System::Resources::RuntimeResourceSet o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::RuntimeResourceSet>(fileName))};
+return o;
+}
  void System::Resources::RuntimeResourceSet::_ctor(::StringW fileName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::RuntimeResourceSet>::get(),
@@ -251,8 +253,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fileName);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- System::Resources::RuntimeResourceSet::RuntimeResourceSet(System::IO::Stream stream)  : System::Resources::ResourceSet(THROW_UNLESS(::il2cpp_utils::New<RuntimeResourceSet>(stream))) {}
+ System::Resources::RuntimeResourceSet System::Resources::RuntimeResourceSet::New_ctor(System::IO::Stream stream)  {
+System::Resources::RuntimeResourceSet o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::RuntimeResourceSet>(stream))};
+return o;
+}
  void System::Resources::RuntimeResourceSet::_ctor(System::IO::Stream stream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::RuntimeResourceSet>::get(),

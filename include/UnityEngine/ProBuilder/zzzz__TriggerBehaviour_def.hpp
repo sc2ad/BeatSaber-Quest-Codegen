@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EntityBehaviour_def.hpp"
 namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
+struct Scene;
 }
 namespace UnityEngine::SceneManagement {
-struct Scene;
+struct LoadSceneMode;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -62,8 +62,7 @@ constexpr explicit TriggerBehaviour(void* ptr) noexcept : UnityEngine::ProBuilde
 /// @brief Method OnSceneLoaded addr 0x29e85ac size 0xb8 virtual true final false
  void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode) ;
 
-// Ctor Parameters []
-explicit TriggerBehaviour() ;
+static UnityEngine::ProBuilder::TriggerBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x29e8664 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,10 +4,10 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class NoteMovement;
+class NoteTrailParticleSystem;
 }
 namespace GlobalNamespace {
-class NoteTrailParticleSystem;
+class NoteMovement;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,8 +97,7 @@ constexpr GlobalNamespace::NoteTrailParticleSystem __get__noteTrailParticleSyste
 /// @brief Method HandleNoteDidStartJump addr 0x22649f0 size 0xc virtual false final false
  void HandleNoteDidStartJump() ;
 
-// Ctor Parameters []
-explicit NoteTrailEffect() ;
+static GlobalNamespace::NoteTrailEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x22649fc size 0x14 virtual false final false
  void _ctor() ;

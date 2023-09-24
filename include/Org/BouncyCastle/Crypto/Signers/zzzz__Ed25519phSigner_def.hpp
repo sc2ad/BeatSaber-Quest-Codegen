@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Parameters {
-class Ed25519PrivateKeyParameters;
+class Ed25519PublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class Ed25519PublicKeyParameters;
+class Ed25519PrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -106,8 +106,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters __ge
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Ed25519phSigner(::ArrayW<uint8_t> context) ;
+static Org::BouncyCastle::Crypto::Signers::Ed25519phSigner New_ctor(::ArrayW<uint8_t> context) ;
 
 /// @brief Method .ctor addr 0xebc438 size 0xa8 virtual false final false
  void _ctor(::ArrayW<uint8_t> context) ;

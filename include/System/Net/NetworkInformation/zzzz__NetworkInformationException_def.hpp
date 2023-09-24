@@ -3,10 +3,10 @@
 #include "System/ComponentModel/zzzz__Win32Exception_def.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -59,14 +59,12 @@ constexpr explicit NetworkInformationException(void* ptr) noexcept : System::Com
 
 // Methods
 
-// Ctor Parameters []
-explicit NetworkInformationException() ;
+static System::Net::NetworkInformation::NetworkInformationException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2859034 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit NetworkInformationException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::NetworkInformation::NetworkInformationException New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x2859098 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

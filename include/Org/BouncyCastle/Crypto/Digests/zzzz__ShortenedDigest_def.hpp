@@ -76,8 +76,7 @@ constexpr int32_t __get_length() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "baseDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ShortenedDigest(Org::BouncyCastle::Crypto::IDigest baseDigest, int32_t length) ;
+static Org::BouncyCastle::Crypto::Digests::ShortenedDigest New_ctor(Org::BouncyCastle::Crypto::IDigest baseDigest, int32_t length) ;
 
 /// @brief Method .ctor addr 0xe187d0 size 0x150 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest baseDigest, int32_t length) ;

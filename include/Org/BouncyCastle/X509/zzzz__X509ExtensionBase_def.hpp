@@ -2,20 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
 namespace Org::BouncyCastle::X509 {
 class IX509Extension;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -84,8 +84,7 @@ constexpr explicit X509ExtensionBase(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 /// @brief Method GetExtensionValue addr 0x100fad8 size 0x38 virtual true final false
  Org::BouncyCastle::Asn1::Asn1OctetString GetExtensionValue(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
-// Ctor Parameters []
-explicit X509ExtensionBase() ;
+static Org::BouncyCastle::X509::X509ExtensionBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x100fb10 size 0x8 virtual false final false
  void _ctor() ;

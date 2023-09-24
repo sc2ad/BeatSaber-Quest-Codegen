@@ -1,15 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberBurnMarkSparkles_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "UnityEngine/zzzz__BoxCollider_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "UnityEngine/zzzz__Plane_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "UnityEngine/zzzz__Plane_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "UnityEngine/zzzz__BoxCollider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SaberBurnMarkSparkles.Start
 template<>
 
@@ -255,8 +253,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SaberBurnMarkSparkles::SaberBurnMarkSparkles()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SaberBurnMarkSparkles>())) {}
+ GlobalNamespace::SaberBurnMarkSparkles GlobalNamespace::SaberBurnMarkSparkles::New_ctor()  {
+GlobalNamespace::SaberBurnMarkSparkles o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SaberBurnMarkSparkles>())};
+return o;
+}
  void GlobalNamespace::SaberBurnMarkSparkles::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SaberBurnMarkSparkles>::get(),

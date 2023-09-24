@@ -7,28 +7,16 @@ namespace System::Xml {
 class XmlEntityReference;
 }
 namespace System::Xml {
-class XmlNamespaceManager;
+class XmlDocumentType;
 }
 namespace System::Xml {
 class XmlElement;
 }
 namespace System::Xml {
-class XmlAttribute;
-}
-namespace System::Xml {
-class XmlParserContext;
+class XmlNode;
 }
 namespace System::Xml {
 struct XmlNodeType;
-}
-namespace System::Xml {
-class XmlEntity;
-}
-namespace System::Xml {
-class XmlDocumentType;
-}
-namespace System::Xml {
-class XmlDeclaration;
 }
 namespace System {
 class Exception;
@@ -37,16 +25,28 @@ namespace System::Xml {
 class XmlResolver;
 }
 namespace System::Xml {
-class IDtdInfo;
+class XmlReader;
 }
 namespace System::Xml {
-class XmlNode;
+class XmlDeclaration;
+}
+namespace System::Xml {
+class XmlNamespaceManager;
+}
+namespace System::Xml {
+class XmlEntity;
 }
 namespace System::Xml {
 class XmlDocument;
 }
 namespace System::Xml {
-class XmlReader;
+class XmlParserContext;
+}
+namespace System::Xml {
+class IDtdInfo;
+}
+namespace System::Xml {
+class XmlAttribute;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -115,8 +115,7 @@ constexpr bool __get_preserveWhitespace() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlLoader() ;
+static System::Xml::XmlLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x26f4258 size 0x8 virtual false final false
  void _ctor() ;

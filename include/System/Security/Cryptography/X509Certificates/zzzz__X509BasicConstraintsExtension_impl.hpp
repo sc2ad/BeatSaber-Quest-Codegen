@@ -197,8 +197,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509BasicConstr
 constexpr System::Security::Cryptography::AsnDecodeStatus System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::__get__status() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::AsnDecodeStatus, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::X509BasicConstraintsExtension()  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509BasicConstraintsExtension>())) {}
+ System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension>::get(),
@@ -208,8 +210,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "encodedBasicConstraints", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::X509BasicConstraintsExtension(System::Security::Cryptography::AsnEncodedData encodedBasicConstraints, bool critical)  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509BasicConstraintsExtension>(encodedBasicConstraints, critical))) {}
+ System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::New_ctor(System::Security::Cryptography::AsnEncodedData encodedBasicConstraints, bool critical)  {
+System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension>(encodedBasicConstraints, critical))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::_ctor(System::Security::Cryptography::AsnEncodedData encodedBasicConstraints, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension>::get(),
@@ -219,8 +223,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encodedBasicConstraints, critical);
 }
-// Ctor Parameters [CppParam { name: "certificateAuthority", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasPathLengthConstraint", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pathLengthConstraint", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::X509BasicConstraintsExtension(bool certificateAuthority, bool hasPathLengthConstraint, int32_t pathLengthConstraint, bool critical)  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509BasicConstraintsExtension>(certificateAuthority, hasPathLengthConstraint, pathLengthConstraint, critical))) {}
+ System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::New_ctor(bool certificateAuthority, bool hasPathLengthConstraint, int32_t pathLengthConstraint, bool critical)  {
+System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension>(certificateAuthority, hasPathLengthConstraint, pathLengthConstraint, critical))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::_ctor(bool certificateAuthority, bool hasPathLengthConstraint, int32_t pathLengthConstraint, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension>::get(),

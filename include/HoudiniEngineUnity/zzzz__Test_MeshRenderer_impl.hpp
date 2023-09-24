@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__Test_MeshRenderer_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::Test_MeshRenderer._ctor
 template<>
 
@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::Test_MeshRenderer::__set_self(UnityEngine::Me
 constexpr UnityEngine::MeshRenderer HoudiniEngineUnity::Test_MeshRenderer::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::MeshRenderer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::MeshRenderer", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_MeshRenderer::Test_MeshRenderer(UnityEngine::MeshRenderer self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_MeshRenderer>(self))) {}
+ HoudiniEngineUnity::Test_MeshRenderer HoudiniEngineUnity::Test_MeshRenderer::New_ctor(UnityEngine::MeshRenderer self)  {
+HoudiniEngineUnity::Test_MeshRenderer o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_MeshRenderer>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_MeshRenderer::_ctor(UnityEngine::MeshRenderer self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_MeshRenderer>::get(),

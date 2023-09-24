@@ -48,8 +48,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, x, y);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::ReverseCompare::ReverseCompare()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReverseCompare>())) {}
+ HoudiniEngineUnity::ReverseCompare HoudiniEngineUnity::ReverseCompare::New_ctor()  {
+HoudiniEngineUnity::ReverseCompare o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::ReverseCompare>())};
+return o;
+}
  void HoudiniEngineUnity::ReverseCompare::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::ReverseCompare>::get(),

@@ -2,6 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace System::Text::RegularExpressions {
+struct RegexOptions;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
+}
 namespace Newtonsoft::Json {
 class JsonReader;
 }
@@ -9,19 +21,7 @@ namespace Newtonsoft::Json::Bson {
 class BsonWriter;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System {
-class Type;
-}
-namespace System::Text::RegularExpressions {
-struct RegexOptions;
-}
-namespace Newtonsoft::Json {
 class JsonSerializer;
-}
-namespace System::Text::RegularExpressions {
-class Regex;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -102,8 +102,7 @@ static constexpr ::ConstString  OptionsName{u"Options"};
 /// @brief Method CanConvert addr 0x253ebc0 size 0x84 virtual true final false
  bool CanConvert(System::Type objectType) ;
 
-// Ctor Parameters []
-explicit RegexConverter() ;
+static Newtonsoft::Json::Converters::RegexConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x253ec44 size 0x8 virtual false final false
  void _ctor() ;

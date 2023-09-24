@@ -10,11 +10,11 @@ class Shape;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -68,8 +68,7 @@ constexpr explicit Sprite(void* ptr) noexcept : UnityEngine::ProBuilder::Shapes:
 /// @brief Method RebuildMesh addr 0x29f9504 size 0x32c virtual true final false
  UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit Sprite() ;
+static UnityEngine::ProBuilder::Shapes::Sprite New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f9830 size 0x8 virtual false final false
  void _ctor() ;

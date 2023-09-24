@@ -2,8 +2,9 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPermissionsRequester_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/Android/zzzz__PermissionCallbacks_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPermissionsRequester_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/Android/zzzz__PermissionCallbacks_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRPermissionsRequester__Permission::GlobalNamespace__OVRPermissionsRequester__Permission(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -108,8 +109,10 @@ return ::cordl_internals::getStaticField<System::Action_1<::StringW>, "<>9__12_1
  System::Action_1<::StringW> GlobalNamespace::GlobalNamespace__OVRPermissionsRequester____c::__get___9__12_2()  {
 return ::cordl_internals::getStaticField<System::Action_1<::StringW>, "<>9__12_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRPermissionsRequester____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRPermissionsRequester____c::GlobalNamespace__OVRPermissionsRequester____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRPermissionsRequester____c>())) {}
+ GlobalNamespace::GlobalNamespace__OVRPermissionsRequester____c GlobalNamespace::GlobalNamespace__OVRPermissionsRequester____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRPermissionsRequester____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRPermissionsRequester____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRPermissionsRequester____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRPermissionsRequester____c>::get(),

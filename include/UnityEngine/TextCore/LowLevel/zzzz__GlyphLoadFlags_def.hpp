@@ -65,6 +65,8 @@ constexpr operator __GlyphLoadFlags_Unwrapped () const noexcept {
 return std::bit_cast<__GlyphLoadFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

@@ -5,15 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -79,8 +82,7 @@ constexpr GlobalNamespace::SimpleDialogPromptViewController __get___4__this() co
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0() ;
+static GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2181bd8 size 0x8 virtual false final false
  void _ctor() ;
@@ -184,8 +186,7 @@ constexpr System::Action_1<int32_t> __get__didFinishAction() const;
 /// @brief Method Init addr 0x2181bfc size 0x1d4 virtual false final false
  void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::StringW thirdButtonText, System::Action_1<int32_t> didFinishAction) ;
 
-// Ctor Parameters []
-explicit SimpleDialogPromptViewController() ;
+static GlobalNamespace::SimpleDialogPromptViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2180d3c size 0x8 virtual false final false
  void _ctor() ;

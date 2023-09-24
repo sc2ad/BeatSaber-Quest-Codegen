@@ -3,20 +3,21 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UIToolkitUtilities/Controls/zzzz__TextInputFoldout_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
+#include "UIToolkitUtilities/Controls/zzzz__TextInputFoldout_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextField_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 //  Writing Method size for method: UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits.get_uxmlChildElementsDescription
 template<>
 
@@ -104,8 +105,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits>())) {}
+ UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits::New_ctor()  {
+UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits>())};
+return o;
+}
  void UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits>::get(),
@@ -276,8 +279,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UIToolkitUtilities::Controls::TextInputFoldout::TextInputFoldout()  : UnityEngine::UIElements::Foldout(THROW_UNLESS(::il2cpp_utils::New<TextInputFoldout>())) {}
+ UIToolkitUtilities::Controls::TextInputFoldout UIToolkitUtilities::Controls::TextInputFoldout::New_ctor()  {
+UIToolkitUtilities::Controls::TextInputFoldout o{THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities::Controls::TextInputFoldout>())};
+return o;
+}
  void UIToolkitUtilities::Controls::TextInputFoldout::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIToolkitUtilities::Controls::TextInputFoldout>::get(),
@@ -322,8 +327,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIToo
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UIToolkitUtilities::Controls::TextInputFoldout,UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory>())) {}
+ UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory::New_ctor()  {
+UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory>())};
+return o;
+}
  void UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory>::get(),
@@ -507,8 +514,10 @@ constexpr void GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__
 constexpr int32_t GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4::__get___l__initialThreadId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4>(__1__state))) {}
+ GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4 GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4::New_ctor(int32_t __1__state)  {
+GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4>(__1__state))};
+return o;
+}
  void GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4>::get(),

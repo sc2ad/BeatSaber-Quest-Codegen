@@ -176,8 +176,10 @@ constexpr void GlobalNamespace::OVRNativeBuffer::__set_m_ptr(::cordl_internals::
 constexpr ::cordl_internals::intptr_t GlobalNamespace::OVRNativeBuffer::__get_m_ptr() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "numBytes", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::OVRNativeBuffer::OVRNativeBuffer(int32_t numBytes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRNativeBuffer>(numBytes))) {}
+ GlobalNamespace::OVRNativeBuffer GlobalNamespace::OVRNativeBuffer::New_ctor(int32_t numBytes)  {
+GlobalNamespace::OVRNativeBuffer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRNativeBuffer>(numBytes))};
+return o;
+}
  void GlobalNamespace::OVRNativeBuffer::_ctor(int32_t numBytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRNativeBuffer>::get(),

@@ -209,8 +209,7 @@ constexpr ::StringW __get__TargetFrameworkName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AppDomainSetup() ;
+static System::AppDomainSetup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2487e8c size 0x4 virtual false final false
  void _ctor() ;

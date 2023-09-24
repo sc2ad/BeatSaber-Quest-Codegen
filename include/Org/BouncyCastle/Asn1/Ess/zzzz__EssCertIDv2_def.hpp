@@ -7,14 +7,14 @@
 namespace Org::BouncyCastle::Asn1::X509 {
 class IssuerSerial;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ess {
@@ -99,32 +99,27 @@ static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_DefaultAlgID() ;
 /// @brief Method GetInstance addr 0xe0c2c4 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Ess::EssCertIDv2 GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit EssCertIDv2(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ess::EssCertIDv2 New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0c368 size 0x260 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "certHash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit EssCertIDv2(::ArrayW<uint8_t> certHash) ;
+static Org::BouncyCastle::Asn1::Ess::EssCertIDv2 New_ctor(::ArrayW<uint8_t> certHash) ;
 
 /// @brief Method .ctor addr 0xe0c5c8 size 0x10 virtual false final false
  void _ctor(::ArrayW<uint8_t> certHash) ;
 
-// Ctor Parameters [CppParam { name: "algId", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "certHash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit EssCertIDv2(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId, ::ArrayW<uint8_t> certHash) ;
+static Org::BouncyCastle::Asn1::Ess::EssCertIDv2 New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId, ::ArrayW<uint8_t> certHash) ;
 
 /// @brief Method .ctor addr 0xe0c668 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId, ::ArrayW<uint8_t> certHash) ;
 
-// Ctor Parameters [CppParam { name: "certHash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "issuerSerial", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }]
-explicit EssCertIDv2(::ArrayW<uint8_t> certHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
+static Org::BouncyCastle::Asn1::Ess::EssCertIDv2 New_ctor(::ArrayW<uint8_t> certHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
 
 /// @brief Method .ctor addr 0xe0c670 size 0x10 virtual false final false
  void _ctor(::ArrayW<uint8_t> certHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
 
-// Ctor Parameters [CppParam { name: "algId", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "certHash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "issuerSerial", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }]
-explicit EssCertIDv2(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId, ::ArrayW<uint8_t> certHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
+static Org::BouncyCastle::Asn1::Ess::EssCertIDv2 New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId, ::ArrayW<uint8_t> certHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;
 
 /// @brief Method .ctor addr 0xe0c5d8 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId, ::ArrayW<uint8_t> certHash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial) ;

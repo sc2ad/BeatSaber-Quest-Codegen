@@ -83,8 +83,7 @@ static ::ArrayW<uint8_t> Decode(::StringW data) ;
 /// @brief Method Decode addr 0x10d344c size 0xe4 virtual false final false
 static int32_t Decode(::StringW data, System::IO::Stream outStr) ;
 
-// Ctor Parameters []
-explicit UrlBase64() ;
+static Org::BouncyCastle::Utilities::Encoders::UrlBase64 New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d3618 size 0x8 virtual false final false
  void _ctor() ;

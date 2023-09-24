@@ -4,12 +4,12 @@
 namespace UnityEngine::Events {
 class BaseInvokableCall;
 }
+namespace System::Reflection {
+class MethodInfo;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -99,8 +99,7 @@ constexpr bool __get_m_NeedsUpdate() const;
 /// @brief Method PrepareInvoke addr 0x2b808e8 size 0xb4 virtual false final false
  System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall> PrepareInvoke() ;
 
-// Ctor Parameters []
-explicit InvokableCallList() ;
+static UnityEngine::Events::InvokableCallList New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b8099c size 0xc4 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Apache/Bzip2/zzzz__CBZip2InputStream_def.hpp"
-#include "Org/BouncyCastle/Apache/Bzip2/zzzz__CRC_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Apache/Bzip2/zzzz__CRC_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream.Cadvise
 template<>
@@ -990,8 +990,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "zStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::CBZip2InputStream(System::IO::Stream zStream)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<CBZip2InputStream>(zStream))) {}
+ Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::New_ctor(System::IO::Stream zStream)  {
+Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream>(zStream))};
+return o;
+}
  void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::_ctor(System::IO::Stream zStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream>::get(),

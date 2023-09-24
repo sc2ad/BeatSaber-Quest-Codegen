@@ -3,9 +3,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
@@ -14,10 +11,13 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::ProBuilder {
-struct BezierTangentDirection;
+struct BezierTangentMode;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
-struct BezierTangentMode;
+struct BezierTangentDirection;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

@@ -6,16 +6,16 @@ namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class StringSignal;
+class ScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class VRsenalScoreLogger;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class VRsenalScoreLogger;
+class StringSignal;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +108,7 @@ constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 /// @brief Method HandlePlayerNameWasEntered addr 0x20aff84 size 0x8c virtual false final false
  void HandlePlayerNameWasEntered(::StringW playerName) ;
 
-// Ctor Parameters []
-explicit VRsenalLogger() ;
+static GlobalNamespace::VRsenalLogger New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b0010 size 0x8 virtual false final false
  void _ctor() ;

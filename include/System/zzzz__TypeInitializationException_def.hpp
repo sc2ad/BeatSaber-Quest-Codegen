@@ -6,10 +6,10 @@ namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -71,26 +71,22 @@ constexpr ::StringW __get__typeName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TypeInitializationException() ;
+static System::TypeInitializationException New_ctor() ;
 
 /// @brief Method .ctor addr 0x245cdb0 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "fullTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit TypeInitializationException(::StringW fullTypeName, System::Exception innerException) ;
+static System::TypeInitializationException New_ctor(::StringW fullTypeName, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x245ce08 size 0x80 virtual false final false
  void _ctor(::StringW fullTypeName, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "fullTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit TypeInitializationException(::StringW fullTypeName, ::StringW message, System::Exception innerException) ;
+static System::TypeInitializationException New_ctor(::StringW fullTypeName, ::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x245ce88 size 0x38 virtual false final false
  void _ctor(::StringW fullTypeName, ::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit TypeInitializationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::TypeInitializationException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x245cec0 size 0x84 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

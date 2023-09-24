@@ -6,10 +6,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace System {
 template<typename T>

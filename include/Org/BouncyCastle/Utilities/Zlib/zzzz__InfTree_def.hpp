@@ -181,8 +181,7 @@ static int32_t inflate_trees_fixed(::ArrayW<int32_t> bl, ::ArrayW<int32_t> bd, :
 /// @brief Method initWorkArea addr 0x10dd360 size 0x194 virtual false final false
  void initWorkArea(int32_t vsize) ;
 
-// Ctor Parameters []
-explicit InfTree() ;
+static Org::BouncyCastle::Utilities::Zlib::InfTree New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d94fc size 0x14 virtual false final false
  void _ctor() ;

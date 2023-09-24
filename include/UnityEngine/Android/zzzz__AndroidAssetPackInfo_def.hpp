@@ -5,10 +5,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::Android {
-struct AndroidAssetPackError;
+struct AndroidAssetPackStatus;
 }
 namespace UnityEngine::Android {
-struct AndroidAssetPackStatus;
+struct AndroidAssetPackError;
 }
 // Forward declare root types
 namespace UnityEngine::Android {
@@ -95,8 +95,7 @@ constexpr UnityEngine::Android::AndroidAssetPackError __get__error_k__BackingFie
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "UnityEngine::Android::AndroidAssetPackStatus", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "bytesDownloaded", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "transferProgress", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "error", ty: "UnityEngine::Android::AndroidAssetPackError", modifiers: "", def_value: None }]
-explicit AndroidAssetPackInfo(::StringW name, UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress, UnityEngine::Android::AndroidAssetPackError error) ;
+static UnityEngine::Android::AndroidAssetPackInfo New_ctor(::StringW name, UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress, UnityEngine::Android::AndroidAssetPackError error) ;
 
 /// @brief Method .ctor addr 0x2b16da4 size 0x64 virtual false final false
  void _ctor(::StringW name, UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress, UnityEngine::Android::AndroidAssetPackError error) ;

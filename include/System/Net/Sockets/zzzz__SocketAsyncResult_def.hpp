@@ -4,31 +4,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Net::Sockets {
-struct SocketFlags;
-}
-namespace System {
-template<typename T>
-struct ArraySegment_1;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Net::Sockets {
-struct SocketError;
-}
-namespace System::Net::Sockets {
-struct SocketOperation;
-}
 namespace System::Net {
 class EndPoint;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System {
-template<typename T>
-struct Memory_1;
 }
 namespace System::Net {
 class IPAddress;
@@ -38,7 +15,33 @@ template<typename T>
 class IList_1;
 }
 namespace System {
+template<typename T>
+struct ArraySegment_1;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+template<typename T>
+struct Memory_1;
+}
+namespace System::Net::Sockets {
+struct SocketOperation;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System::Net::Sockets {
+struct SocketFlags;
+}
+namespace System::Net::Sockets {
+struct SocketError;
+}
+namespace System {
 class Exception;
+}
+namespace System::Net::Sockets {
+class System__Net__Sockets__SocketAsyncResult____c;
 }
 namespace System::Threading {
 class WaitCallback;
@@ -107,8 +110,7 @@ static System::Threading::WaitCallback __get___9__27_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Sockets__SocketAsyncResult____c() ;
+static System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x276c6a4 size 0x8 virtual false final false
  void _ctor() ;
@@ -285,8 +287,7 @@ constexpr int32_t __get_EndCalled() const;
 /// @brief Method get_Handle addr 0x276c3a8 size 0x64 virtual false final false
  ::cordl_internals::intptr_t get_Handle() ;
 
-// Ctor Parameters []
-explicit SocketAsyncResult() ;
+static System::Net::Sockets::SocketAsyncResult New_ctor() ;
 
 /// @brief Method .ctor addr 0x276c04c size 0x8 virtual false final false
  void _ctor() ;
@@ -294,8 +295,7 @@ explicit SocketAsyncResult() ;
 /// @brief Method Init addr 0x276c40c size 0xb4 virtual false final false
  void Init(System::Net::Sockets::Socket socket, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state, System::Net::Sockets::SocketOperation operation) ;
 
-// Ctor Parameters [CppParam { name: "socket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "System::AsyncCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "System::Net::Sockets::SocketOperation", modifiers: "", def_value: None }]
-explicit SocketAsyncResult(System::Net::Sockets::Socket socket, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state, System::Net::Sockets::SocketOperation operation) ;
+static System::Net::Sockets::SocketAsyncResult New_ctor(System::Net::Sockets::Socket socket, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state, System::Net::Sockets::SocketOperation operation) ;
 
 /// @brief Method .ctor addr 0x276c4c0 size 0x38 virtual false final false
  void _ctor(System::Net::Sockets::Socket socket, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state, System::Net::Sockets::SocketOperation operation) ;

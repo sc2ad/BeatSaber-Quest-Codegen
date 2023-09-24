@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Dstu7624WrapEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Dstu7624Engine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine._ctor
 template<>
 
@@ -117,8 +117,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::__set_blo
 constexpr int32_t Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::__get_blockSize() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "blockSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::Dstu7624WrapEngine(int32_t blockSizeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Dstu7624WrapEngine>(blockSizeBits))) {}
+ Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::New_ctor(int32_t blockSizeBits)  {
+Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine>(blockSizeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::_ctor(int32_t blockSizeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine>::get(),

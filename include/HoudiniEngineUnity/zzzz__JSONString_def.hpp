@@ -8,10 +8,10 @@ namespace HoudiniEngineUnity {
 struct HoudiniEngineUnity__JSONNode__Enumerator;
 }
 namespace HoudiniEngineUnity {
-struct JSONTextMode;
+struct JSONNodeType;
 }
 namespace HoudiniEngineUnity {
-struct JSONNodeType;
+struct JSONTextMode;
 }
 namespace System::Text {
 class StringBuilder;
@@ -95,8 +95,7 @@ constexpr ::StringW __get_m_Data() const;
 /// @brief Method set_Value addr 0x2068ffc size 0x8 virtual true final false
  void set_Value(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "aData", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JSONString(::StringW aData) ;
+static HoudiniEngineUnity::JSONString New_ctor(::StringW aData) ;
 
 /// @brief Method .ctor addr 0x20630d4 size 0x28 virtual false final false
  void _ctor(::StringW aData) ;

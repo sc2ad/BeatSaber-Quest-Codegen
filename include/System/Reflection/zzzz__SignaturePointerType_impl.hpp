@@ -138,8 +138,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "elementType", ty: "System::Reflection::SignatureType", modifiers: "", def_value: None }]
- System::Reflection::SignaturePointerType::SignaturePointerType(System::Reflection::SignatureType elementType)  : System::Reflection::SignatureHasElementType(THROW_UNLESS(::il2cpp_utils::New<SignaturePointerType>(elementType))) {}
+ System::Reflection::SignaturePointerType System::Reflection::SignaturePointerType::New_ctor(System::Reflection::SignatureType elementType)  {
+System::Reflection::SignaturePointerType o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::SignaturePointerType>(elementType))};
+return o;
+}
  void System::Reflection::SignaturePointerType::_ctor(System::Reflection::SignatureType elementType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::SignaturePointerType>::get(),

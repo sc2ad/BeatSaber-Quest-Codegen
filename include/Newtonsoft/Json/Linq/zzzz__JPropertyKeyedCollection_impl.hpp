@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Collections/ObjectModel/zzzz__Collection_1_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JPropertyKeyedCollection_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JPropertyKeyedCollection._ctor
@@ -340,8 +340,10 @@ constexpr void Newtonsoft::Json::Linq::JPropertyKeyedCollection::__set__dictiona
 constexpr System::Collections::Generic::Dictionary_2<::StringW,Newtonsoft::Json::Linq::JToken> Newtonsoft::Json::Linq::JPropertyKeyedCollection::__get__dictionary() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<::StringW,Newtonsoft::Json::Linq::JToken>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JPropertyKeyedCollection::JPropertyKeyedCollection()  : System::Collections::ObjectModel::Collection_1<Newtonsoft::Json::Linq::JToken>(THROW_UNLESS(::il2cpp_utils::New<JPropertyKeyedCollection>())) {}
+ Newtonsoft::Json::Linq::JPropertyKeyedCollection Newtonsoft::Json::Linq::JPropertyKeyedCollection::New_ctor()  {
+Newtonsoft::Json::Linq::JPropertyKeyedCollection o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JPropertyKeyedCollection>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JPropertyKeyedCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JPropertyKeyedCollection>::get(),

@@ -4,37 +4,37 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 namespace UnityEngine {
-struct RenderTextureFormat;
-}
-namespace UnityEngine {
-struct Vector2Int;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine::UIElements::UIR {
-struct UnityEngine__UIElements__UIR__Allocator2D__Alloc2D;
-}
-namespace UnityEngine {
 struct RectInt;
 }
 namespace UnityEngine::UIElements::UIR {
 class Allocator2D;
 }
-namespace UnityEngine::UIElements::UIR {
-class TextureBlitter;
+namespace UnityEngine {
+struct FilterMode;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Texture2D;
 }
 namespace UnityEngine::UIElements {
 struct TextureId;
 }
 namespace UnityEngine {
-struct FilterMode;
+class RenderTexture;
+}
+namespace UnityEngine {
+struct RenderTextureFormat;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__Allocator2D__Alloc2D;
+}
+namespace UnityEngine {
+struct Vector2Int;
+}
+namespace UnityEngine::UIElements::UIR {
+class TextureBlitter;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -197,8 +197,7 @@ constexpr bool __get__disposed_k__BackingField() const;
 /// @brief Method get_filterMode addr 0x2d06c28 size 0x8 virtual false final false
  UnityEngine::FilterMode get_filterMode() ;
 
-// Ctor Parameters [CppParam { name: "format", ty: "UnityEngine::RenderTextureFormat", modifiers: "", def_value: None }, CppParam { name: "filterMode", ty: "UnityEngine::FilterMode", modifiers: "", def_value: None }, CppParam { name: "minSize", ty: "UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "UnityEngine::Vector2Int", modifiers: "", def_value: None }]
-explicit DynamicAtlasPage(UnityEngine::RenderTextureFormat format, UnityEngine::FilterMode filterMode, UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize) ;
+static UnityEngine::UIElements::DynamicAtlasPage New_ctor(UnityEngine::RenderTextureFormat format, UnityEngine::FilterMode filterMode, UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize) ;
 
 /// @brief Method .ctor addr 0x2d06c30 size 0x154 virtual false final false
  void _ctor(UnityEngine::RenderTextureFormat format, UnityEngine::FilterMode filterMode, UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize) ;

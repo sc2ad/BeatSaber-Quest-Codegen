@@ -1,11 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class UnhandledExceptionEventArgs;
+namespace UnityEngine {
+class UnityEngine__UnhandledExceptionHandler____c;
 }
 namespace System {
 class UnhandledExceptionEventHandler;
+}
+namespace System {
+class UnhandledExceptionEventArgs;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -71,8 +74,7 @@ static System::UnhandledExceptionEventHandler __get___9__0_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UnhandledExceptionHandler____c() ;
+static UnityEngine::UnityEngine__UnhandledExceptionHandler____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5bfd0 size 0x8 virtual false final false
  void _ctor() ;

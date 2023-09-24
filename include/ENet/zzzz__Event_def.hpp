@@ -3,10 +3,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace ENet {
-struct EventType;
+struct ENetEvent;
 }
 namespace ENet {
-struct ENetEvent;
+struct EventType;
 }
 namespace ENet {
 struct Peer;

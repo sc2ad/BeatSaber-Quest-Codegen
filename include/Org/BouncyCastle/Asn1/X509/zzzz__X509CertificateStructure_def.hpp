@@ -4,35 +4,35 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class TbsCertificateStructure;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -130,14 +130,12 @@ static Org::BouncyCastle::Asn1::X509::X509CertificateStructure GetInstance(Org::
 /// @brief Method GetInstance addr 0x11131a4 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::X509::X509CertificateStructure GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "tbsCert", ty: "Org::BouncyCastle::Asn1::X509::TbsCertificateStructure", modifiers: "", def_value: None }, CppParam { name: "sigAlgID", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "sig", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit X509CertificateStructure(Org::BouncyCastle::Asn1::X509::TbsCertificateStructure tbsCert, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier sigAlgID, Org::BouncyCastle::Asn1::DerBitString sig) ;
+static Org::BouncyCastle::Asn1::X509::X509CertificateStructure New_ctor(Org::BouncyCastle::Asn1::X509::TbsCertificateStructure tbsCert, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier sigAlgID, Org::BouncyCastle::Asn1::DerBitString sig) ;
 
 /// @brief Method .ctor addr 0x1113394 size 0xdc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::TbsCertificateStructure tbsCert, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier sigAlgID, Org::BouncyCastle::Asn1::DerBitString sig) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit X509CertificateStructure(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::X509CertificateStructure New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1113248 size 0x14c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

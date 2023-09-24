@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_ShelfToolData__ToolType;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HoudiniEngineUnity__HEU_ShelfToolData__ToolType;
@@ -63,6 +66,8 @@ __BATCH = 3,
 constexpr operator __HoudiniEngineUnity__HEU_ShelfToolData__ToolType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_ShelfToolData__ToolType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -184,8 +189,7 @@ constexpr ::StringW __get__jsonPath() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_ShelfToolData() ;
+static HoudiniEngineUnity::HEU_ShelfToolData New_ctor() ;
 
 /// @brief Method .ctor addr 0x205ee18 size 0x5c virtual false final false
  void _ctor() ;

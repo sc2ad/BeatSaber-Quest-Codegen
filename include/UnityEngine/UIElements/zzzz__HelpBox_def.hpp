@@ -4,19 +4,19 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
-class Label;
+struct HelpBoxMessageType;
 }
 namespace UnityEngine::UIElements {
-struct HelpBoxMessageType;
+class UnityEngine__UIElements__HelpBox__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class Label;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class UnityEngine__UIElements__HelpBox__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
@@ -24,6 +24,12 @@ class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -95,8 +101,7 @@ constexpr UnityEngine::UIElements::UxmlEnumAttributeDescription_1<UnityEngine::U
 /// @brief Method Init addr 0x2cc0f9c size 0x154 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__HelpBox__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc10f0 size 0xfc virtual false final false
  void _ctor() ;
@@ -227,14 +232,12 @@ constexpr UnityEngine::UIElements::Label __get_m_Label() const;
 /// @brief Method set_messageType addr 0x2cc0ac0 size 0x18 virtual false final false
  void set_messageType(UnityEngine::UIElements::HelpBoxMessageType value) ;
 
-// Ctor Parameters []
-explicit HelpBox() ;
+static UnityEngine::UIElements::HelpBox New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc0b8c size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "messageType", ty: "UnityEngine::UIElements::HelpBoxMessageType", modifiers: "", def_value: None }]
-explicit HelpBox(::StringW text, UnityEngine::UIElements::HelpBoxMessageType messageType) ;
+static UnityEngine::UIElements::HelpBox New_ctor(::StringW text, UnityEngine::UIElements::HelpBoxMessageType messageType) ;
 
 /// @brief Method .ctor addr 0x2cc0be0 size 0x150 virtual false final false
  void _ctor(::StringW text, UnityEngine::UIElements::HelpBoxMessageType messageType) ;
@@ -252,7 +255,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7210)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5089 }), TypeDefinitionIndex(TypeDefinitionIndex(7209))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5089 }), TypeDefinitionIndex(TypeDefinitionIndex(7210)), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7208))
 // CS Name: UnityEngine.UIElements.HelpBox::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__HelpBox__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::HelpBox,UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlTraits> {
@@ -291,8 +294,7 @@ constexpr explicit UnityEngine__UIElements__HelpBox__UxmlFactory(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__HelpBox__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__HelpBox__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc0f54 size 0x48 virtual false final false
  void _ctor() ;

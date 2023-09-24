@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
-#include "System/Net/Http/zzzz__HttpMethod_def.hpp"
 #include "System/zzzz__Version_def.hpp"
+#include "System/Net/Http/zzzz__HttpMethod_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
 //  Writing Method size for method: System::Net::Http::HttpRequestMessage._ctor
 template<>
 
@@ -324,8 +324,10 @@ constexpr void System::Net::Http::HttpRequestMessage::__set__Content_k__BackingF
 constexpr System::Net::Http::HttpContent System::Net::Http::HttpRequestMessage::__get__Content_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Net::Http::HttpContent, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Http::HttpRequestMessage::HttpRequestMessage()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpRequestMessage>())) {}
+ System::Net::Http::HttpRequestMessage System::Net::Http::HttpRequestMessage::New_ctor()  {
+System::Net::Http::HttpRequestMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpRequestMessage>())};
+return o;
+}
  void System::Net::Http::HttpRequestMessage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpRequestMessage>::get(),
@@ -335,8 +337,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "method", ty: "System::Net::Http::HttpMethod", modifiers: "", def_value: None }, CppParam { name: "requestUri", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Http::HttpRequestMessage::HttpRequestMessage(System::Net::Http::HttpMethod method, ::StringW requestUri)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpRequestMessage>(method, requestUri))) {}
+ System::Net::Http::HttpRequestMessage System::Net::Http::HttpRequestMessage::New_ctor(System::Net::Http::HttpMethod method, ::StringW requestUri)  {
+System::Net::Http::HttpRequestMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpRequestMessage>(method, requestUri))};
+return o;
+}
  void System::Net::Http::HttpRequestMessage::_ctor(System::Net::Http::HttpMethod method, ::StringW requestUri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpRequestMessage>::get(),
@@ -346,8 +350,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, method, requestUri);
 }
-// Ctor Parameters [CppParam { name: "method", ty: "System::Net::Http::HttpMethod", modifiers: "", def_value: None }, CppParam { name: "requestUri", ty: "System::Uri", modifiers: "", def_value: None }]
- System::Net::Http::HttpRequestMessage::HttpRequestMessage(System::Net::Http::HttpMethod method, System::Uri requestUri)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpRequestMessage>(method, requestUri))) {}
+ System::Net::Http::HttpRequestMessage System::Net::Http::HttpRequestMessage::New_ctor(System::Net::Http::HttpMethod method, System::Uri requestUri)  {
+System::Net::Http::HttpRequestMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpRequestMessage>(method, requestUri))};
+return o;
+}
  void System::Net::Http::HttpRequestMessage::_ctor(System::Net::Http::HttpMethod method, System::Uri requestUri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpRequestMessage>::get(),

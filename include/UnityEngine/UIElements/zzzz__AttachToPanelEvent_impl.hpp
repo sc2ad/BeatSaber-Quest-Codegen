@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::AttachToPanelEvent::AttachToPanelEvent()  : UnityEngine::UIElements::PanelChangedEventBase_1<UnityEngine::UIElements::AttachToPanelEvent>(THROW_UNLESS(::il2cpp_utils::New<AttachToPanelEvent>())) {}
+ UnityEngine::UIElements::AttachToPanelEvent UnityEngine::UIElements::AttachToPanelEvent::New_ctor()  {
+UnityEngine::UIElements::AttachToPanelEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::AttachToPanelEvent>())};
+return o;
+}
  void UnityEngine::UIElements::AttachToPanelEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::AttachToPanelEvent>::get(),

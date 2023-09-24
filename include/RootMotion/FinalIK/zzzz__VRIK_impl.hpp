@@ -2,8 +2,9 @@
 #include "RootMotion/FinalIK/zzzz__IK_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References.GetTransforms
 template<>
 
@@ -257,8 +258,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, root, references);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References::RootMotion__FinalIK__VRIK__References()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__VRIK__References>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__VRIK__References>::get(),
@@ -505,8 +508,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::VRIK::VRIK()  : RootMotion::FinalIK::IK(THROW_UNLESS(::il2cpp_utils::New<VRIK>())) {}
+ RootMotion::FinalIK::VRIK RootMotion::FinalIK::VRIK::New_ctor()  {
+RootMotion::FinalIK::VRIK o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::VRIK>())};
+return o;
+}
  void RootMotion::FinalIK::VRIK::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::VRIK>::get(),

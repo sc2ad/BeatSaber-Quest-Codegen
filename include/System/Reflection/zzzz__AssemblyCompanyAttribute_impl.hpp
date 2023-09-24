@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyCompanyAttribute::__set__Company_k__B
 constexpr ::StringW System::Reflection::AssemblyCompanyAttribute::__get__Company_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "company", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyCompanyAttribute::AssemblyCompanyAttribute(::StringW company)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyCompanyAttribute>(company))) {}
+ System::Reflection::AssemblyCompanyAttribute System::Reflection::AssemblyCompanyAttribute::New_ctor(::StringW company)  {
+System::Reflection::AssemblyCompanyAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyCompanyAttribute>(company))};
+return o;
+}
  void System::Reflection::AssemblyCompanyAttribute::_ctor(::StringW company)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyCompanyAttribute>::get(),

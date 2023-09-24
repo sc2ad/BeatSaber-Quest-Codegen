@@ -2,10 +2,10 @@
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ParticleControlPlayable_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::ParticleControlPlayable.Create
 template<>
 
@@ -281,8 +281,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, time, restart);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::ParticleControlPlayable::ParticleControlPlayable()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<ParticleControlPlayable>())) {}
+ UnityEngine::Timeline::ParticleControlPlayable UnityEngine::Timeline::ParticleControlPlayable::New_ctor()  {
+UnityEngine::Timeline::ParticleControlPlayable o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::ParticleControlPlayable>())};
+return o;
+}
  void UnityEngine::Timeline::ParticleControlPlayable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::ParticleControlPlayable>::get(),

@@ -2,22 +2,23 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Scroller_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__RepeatButton_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Scroller_def.hpp"
+#include "UnityEngine/UIElements/zzzz__RepeatButton_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Slider_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlFloatAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlFloatAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits.get_uxmlChildElementsDescription
 template<>
 
@@ -111,8 +112,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits::UnityEngine__UIElements__Scroller__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Scroller__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits>::get(),
@@ -708,8 +711,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::Scroller::Scroller()  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<Scroller>())) {}
+ UnityEngine::UIElements::Scroller UnityEngine::UIElements::Scroller::New_ctor()  {
+UnityEngine::UIElements::Scroller o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Scroller>())};
+return o;
+}
  void UnityEngine::UIElements::Scroller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Scroller>::get(),
@@ -719,8 +724,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "lowValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "highValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "valueChanged", ty: "System::Action_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "direction", ty: "UnityEngine::UIElements::SliderDirection", modifiers: "", def_value: Some("1") }]
- UnityEngine::UIElements::Scroller::Scroller(float_t lowValue, float_t highValue, System::Action_1<float_t> valueChanged, UnityEngine::UIElements::SliderDirection direction)  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<Scroller>(lowValue, highValue, valueChanged, direction))) {}
+/// @param direction: UnityEngine::UIElements::SliderDirection (default: 1)
+ UnityEngine::UIElements::Scroller UnityEngine::UIElements::Scroller::New_ctor(float_t lowValue, float_t highValue, System::Action_1<float_t> valueChanged, UnityEngine::UIElements::SliderDirection direction)  {
+UnityEngine::UIElements::Scroller o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Scroller>(lowValue, highValue, valueChanged, direction))};
+return o;
+}
 /// @param direction: UnityEngine::UIElements::SliderDirection (default: 1)
  void UnityEngine::UIElements::Scroller::_ctor(float_t lowValue, float_t highValue, System::Action_1<float_t> valueChanged, UnityEngine::UIElements::SliderDirection direction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -802,8 +810,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlFactory::UnityEngine__UIElements__Scroller__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Scroller,UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Scroller__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlFactory>::get(),
@@ -993,8 +1003,10 @@ constexpr void GlobalNamespace::UnityEngine__UIElements__Scroller__UxmlTraits___
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits GlobalNamespace::UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UnityEngine__UIElements__Scroller__UxmlTraits, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5::UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5>(__1__state))) {}
+ GlobalNamespace::UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5 GlobalNamespace::UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5::New_ctor(int32_t __1__state)  {
+GlobalNamespace::UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5>(__1__state))};
+return o;
+}
  void GlobalNamespace::UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__UIElements__Scroller__UxmlTraits___get_uxmlChildElementsDescription_d__5>::get(),

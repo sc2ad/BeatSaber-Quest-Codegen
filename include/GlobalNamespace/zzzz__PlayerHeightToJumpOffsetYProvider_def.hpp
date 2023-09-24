@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class IJumpOffsetYProvider;
-}
 namespace Zenject {
 class IInitializable;
 }
-namespace GlobalNamespace {
-class PlayerHeightDetector;
-}
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class IJumpOffsetYProvider;
+}
+namespace GlobalNamespace {
+class PlayerHeightDetector;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,8 +104,7 @@ constexpr float_t __get__jumpOffsetY() const;
 /// @brief Method JumpOffsetYForPlayerHeight addr 0x2109968 size 0x34 virtual false final false
 static float_t JumpOffsetYForPlayerHeight(float_t playerHeight) ;
 
-// Ctor Parameters []
-explicit PlayerHeightToJumpOffsetYProvider() ;
+static GlobalNamespace::PlayerHeightToJumpOffsetYProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2109aa4 size 0x8 virtual false final false
  void _ctor() ;

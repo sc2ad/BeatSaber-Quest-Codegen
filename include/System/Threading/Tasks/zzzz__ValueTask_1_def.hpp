@@ -5,6 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+template<typename TResult>
+class System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c;
+}
 namespace System::Threading::Tasks::Sources {
 template<typename TResult>
 class IValueTaskSource_1;
@@ -13,13 +17,9 @@ namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace System::Runtime::CompilerServices {
+namespace System::Threading::Tasks {
 template<typename TResult>
-struct ConfiguredValueTaskAwaitable_1;
+class System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
@@ -28,6 +28,14 @@ class Task_1;
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct ValueTaskAwaiter_1;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct ConfiguredValueTaskAwaitable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,36 +47,101 @@ template<typename TResult>
 class System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask;
 }
 namespace GlobalNamespace {
-template<::cordl_internals::il2cpp_reference_type TResult>
+template<::cordl_internals::is_or_is_backed_by<int32_t> TResult>
 class System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<TResult>;
 }
 namespace GlobalNamespace {
-template<>
-class System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<int32_t>;
+template<::cordl_internals::il2cpp_reference_type TResult>
+class System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<TResult>;
 }
 namespace System::Threading::Tasks {
 template<::cordl_internals::il2cpp_reference_type TResult>
 class System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask<TResult>;
 }
 namespace System::Threading::Tasks {
-template<>
-class System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask<int32_t>;
+template<::cordl_internals::is_or_is_backed_by<int32_t> TResult>
+class System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask<TResult>;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 struct ValueTask_1;
 }
 namespace System::Threading::Tasks {
-template<::cordl_internals::il2cpp_reference_type TResult>
+template<::cordl_internals::is_or_is_backed_by<int32_t> TResult>
 struct ValueTask_1<TResult>;
 }
 namespace System::Threading::Tasks {
-template<>
-struct ValueTask_1<int32_t>;
+template<::cordl_internals::il2cpp_reference_type TResult>
+struct ValueTask_1<TResult>;
 }
 // Type: ::<>c
 // Type: ::ValueTaskSourceAsTask
 // Type: System.Threading.Tasks::ValueTask`1
+// Type: ::<>c
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<int32_t> TResult>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2764))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2764), inst: 92 })
+// CS Name: System.Threading.Tasks.ValueTask`1::ValueTaskSourceAsTask::<>c
+class CORDL_TYPE System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<TResult> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c", modifiers: " const&", def_value: None }]
+constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c", modifiers: "&&", def_value: None }]
+constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c& operator=(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c&& o) noexcept = default;
+  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c& operator=(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c const& o) noexcept = default;
+                
+
+
+// Fields
+
+static GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<TResult> __declspec(property(get=__get___9, put=__set___9))  __9;
+
+static void __set___9(GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<TResult> value) ;
+
+static GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<TResult> __get___9() ;
+
+
+// Methods
+
+static GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<TResult> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <.cctor>b__4_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ void __cctor_b__4_0(::bs_hook::Il2CppWrapperType state) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
 // Type: ::<>c
 namespace GlobalNamespace {
 // cpp template
@@ -122,74 +195,7 @@ static GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAs
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <.cctor>b__4_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void __cctor_b__4_0(::bs_hook::Il2CppWrapperType state) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::<>c
-namespace GlobalNamespace {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2764))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2764), inst: 92 })
-// CS Name: System.Threading.Tasks.ValueTask`1::ValueTaskSourceAsTask::<>c
-class CORDL_TYPE System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<int32_t> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c", modifiers: " const&", def_value: None }]
-constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c", modifiers: "&&", def_value: None }]
-constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c& operator=(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c&& o) noexcept = default;
-  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c& operator=(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c const& o) noexcept = default;
-                
-
-
-// Fields
-
-static GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<int32_t> __declspec(property(get=__get___9, put=__set___9))  __9;
-
-static void __set___9(GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<int32_t> value) ;
-
-static GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<int32_t> __get___9() ;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c() ;
+static GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<TResult> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -204,9 +210,85 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::ValueTaskSourceAsTask
 namespace System::Threading::Tasks {
 // cpp template
+template<::cordl_internals::is_or_is_backed_by<int32_t> TResult>
+// Is value type: false
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 3712 }), TypeDefinitionIndex(TypeDefinitionIndex(2765)), TypeDefinitionIndex(TypeDefinitionIndex(2770))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2765), inst: 92 })
+// CS Name: System.Threading.Tasks.ValueTask`1::ValueTaskSourceAsTask
+class CORDL_TYPE System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask<TResult> : public System::Threading::Tasks::Task_1<TResult> {
+public:
+// Declarations
+using __c = GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<TResult>;
+
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
+
+virtual ~System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask", modifiers: " const&", def_value: None }]
+constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask", modifiers: "&&", def_value: None }]
+constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask(void* ptr) noexcept : System::Threading::Tasks::Task_1<TResult>(ptr) {
+}
+
+
+  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask& operator=(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask&& o) noexcept = default;
+  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask& operator=(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask const& o) noexcept = default;
+                
+
+
+// Fields
+
+static System::Action_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_completionAction, put=__set_s_completionAction))  s_completionAction;
+
+static void __set_s_completionAction(System::Action_1<::bs_hook::Il2CppWrapperType> value) ;
+
+static System::Action_1<::bs_hook::Il2CppWrapperType> __get_s_completionAction() ;
+
+ System::Threading::Tasks::Sources::IValueTaskSource_1<TResult> __declspec(property(get=__get__source, put=__set__source))  _source;
+
+constexpr void __set__source(System::Threading::Tasks::Sources::IValueTaskSource_1<TResult> value) ;
+
+constexpr System::Threading::Tasks::Sources::IValueTaskSource_1<TResult> __get__source() const;
+
+ int16_t __declspec(property(get=__get__token, put=__set__token))  _token;
+
+constexpr void __set__token(int16_t value) ;
+
+constexpr int16_t __get__token() const;
+
+
+// Methods
+
+static System::Threading::Tasks::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask<TResult> New_ctor(System::Threading::Tasks::Sources::IValueTaskSource_1<TResult> source, int16_t token) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(System::Threading::Tasks::Sources::IValueTaskSource_1<TResult> source, int16_t token) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System::Threading::Tasks
+// Type: ::ValueTaskSourceAsTask
+namespace System::Threading::Tasks {
+// cpp template
 template<::cordl_internals::il2cpp_reference_type TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2765)), TypeDefinitionIndex(TypeDefinitionIndex(2770)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 3712 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2770)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 3712 }), TypeDefinitionIndex(TypeDefinitionIndex(2765))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2765), inst: 2 })
 // CS Name: System.Threading.Tasks.ValueTask`1::ValueTaskSourceAsTask
 class CORDL_TYPE System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask<TResult> : public System::Threading::Tasks::Task_1<TResult> {
@@ -268,8 +350,7 @@ constexpr int16_t __get__token() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>", modifiers: "", def_value: None }, CppParam { name: "token", ty: "int16_t", modifiers: "", def_value: None }]
-explicit System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask(System::Threading::Tasks::Sources::IValueTaskSource_1<TResult> source, int16_t token) ;
+static System::Threading::Tasks::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask<TResult> New_ctor(System::Threading::Tasks::Sources::IValueTaskSource_1<TResult> source, int16_t token) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Threading::Tasks::Sources::IValueTaskSource_1<TResult> source, int16_t token) ;
@@ -278,90 +359,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-// Type: ::ValueTaskSourceAsTask
-namespace System::Threading::Tasks {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2765)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 3712 }), TypeDefinitionIndex(TypeDefinitionIndex(2770))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2765), inst: 92 })
-// CS Name: System.Threading.Tasks.ValueTask`1::ValueTaskSourceAsTask
-class CORDL_TYPE System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask<int32_t> : public System::Threading::Tasks::Task_1<int32_t> {
-public:
-// Declarations
-using __c = GlobalNamespace::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask____c<int32_t>;
-
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
-
-virtual ~System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask", modifiers: " const&", def_value: None }]
-constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask", modifiers: "&&", def_value: None }]
-constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask(void* ptr) noexcept : System::Threading::Tasks::Task_1<int32_t>(ptr) {
-}
-
-
-  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask& operator=(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask&& o) noexcept = default;
-  constexpr System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask& operator=(System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask const& o) noexcept = default;
-                
-
-
-// Fields
-
-static System::Action_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_completionAction, put=__set_s_completionAction))  s_completionAction;
-
-static void __set_s_completionAction(System::Action_1<::bs_hook::Il2CppWrapperType> value) ;
-
-static System::Action_1<::bs_hook::Il2CppWrapperType> __get_s_completionAction() ;
-
- System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t> __declspec(property(get=__get__source, put=__set__source))  _source;
-
-constexpr void __set__source(System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t> value) ;
-
-constexpr System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t> __get__source() const;
-
- int16_t __declspec(property(get=__get__token, put=__set__token))  _token;
-
-constexpr void __set__token(int16_t value) ;
-
-constexpr int16_t __get__token() const;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "source", ty: "System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "token", ty: "int16_t", modifiers: "", def_value: None }]
-explicit System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask(System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t> source, int16_t token) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t> source, int16_t token) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Threading::Tasks
 // Type: System.Threading.Tasks::ValueTask`1
 namespace System::Threading::Tasks {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TResult>
+template<::cordl_internals::is_or_is_backed_by<int32_t> TResult>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2766)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2766), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2766), inst: 92 })
 // CS Name: System.Threading.Tasks.ValueTask`1
 struct CORDL_TYPE ValueTask_1<TResult> : public ::bs_hook::ValueTypeWrapper {
 public:
@@ -499,21 +503,21 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: System.Threading.Tasks::ValueTask`1
 namespace System::Threading::Tasks {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type TResult>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2766))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2766), inst: 92 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2766), inst: 2 })
 // CS Name: System.Threading.Tasks.ValueTask`1
-struct CORDL_TYPE ValueTask_1<int32_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE ValueTask_1<TResult> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using ValueTaskSourceAsTask = System::Threading::Tasks::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask<int32_t>;
+using ValueTaskSourceAsTask = System::Threading::Tasks::System__Threading__Tasks__ValueTask_1__ValueTaskSourceAsTask<TResult>;
 
-/// @brief Convert operator to System::IEquatable_1<System::Threading::Tasks::ValueTask_1<int32_t>>
-constexpr operator  System::IEquatable_1<System::Threading::Tasks::ValueTask_1<int32_t>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::Threading::Tasks::ValueTask_1<TResult>>
+constexpr operator  System::IEquatable_1<System::Threading::Tasks::ValueTask_1<TResult>>() const;
 
-// Ctor Parameters [CppParam { name: "_obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_token", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "_continueOnCapturedContext", ty: "bool", modifiers: "", def_value: None }]
-constexpr ValueTask_1(::bs_hook::Il2CppWrapperType _obj, int32_t _result, int16_t _token, bool _continueOnCapturedContext) noexcept;
+// Ctor Parameters [CppParam { name: "_obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "_result", ty: "TResult", modifiers: "", def_value: None }, CppParam { name: "_token", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "_continueOnCapturedContext", ty: "bool", modifiers: "", def_value: None }]
+constexpr ValueTask_1(::bs_hook::Il2CppWrapperType _obj, TResult _result, int16_t _token, bool _continueOnCapturedContext) noexcept;
 
 
                     constexpr ValueTask_1(ValueTask_1 const&) = default;
@@ -546,11 +550,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
-static System::Threading::Tasks::Task_1<int32_t> __declspec(property(get=__get_s_canceledTask, put=__set_s_canceledTask))  s_canceledTask;
+static System::Threading::Tasks::Task_1<TResult> __declspec(property(get=__get_s_canceledTask, put=__set_s_canceledTask))  s_canceledTask;
 
-static void __set_s_canceledTask(System::Threading::Tasks::Task_1<int32_t> value) ;
+static void __set_s_canceledTask(System::Threading::Tasks::Task_1<TResult> value) ;
 
-static System::Threading::Tasks::Task_1<int32_t> __get_s_canceledTask() ;
+static System::Threading::Tasks::Task_1<TResult> __get_s_canceledTask() ;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get__obj, put=__set__obj))  _obj;
 
@@ -558,11 +562,11 @@ constexpr void __set__obj(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get__obj() const;
 
- int32_t __declspec(property(get=__get__result, put=__set__result))  _result;
+ TResult __declspec(property(get=__get__result, put=__set__result))  _result;
 
-constexpr void __set__result(int32_t value) ;
+constexpr void __set__result(TResult value) ;
 
-constexpr int32_t __get__result() const;
+constexpr TResult __get__result() const;
 
  int16_t __declspec(property(get=__get__token, put=__set__token))  _token;
 
@@ -583,22 +587,22 @@ constexpr bool __get__continueOnCapturedContext() const;
 
  bool __declspec(property(get=get_IsCompletedSuccessfully))  IsCompletedSuccessfully;
 
- int32_t __declspec(property(get=get_Result))  Result;
+ TResult __declspec(property(get=get_Result))  Result;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t result) ;
+ void _ctor(TResult result) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(System::Threading::Tasks::Task_1<int32_t> task) ;
+ void _ctor(System::Threading::Tasks::Task_1<TResult> task) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t> source, int16_t token) ;
+ void _ctor(System::Threading::Tasks::Sources::IValueTaskSource_1<TResult> source, int16_t token) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType obj, int32_t result, int16_t token, bool continueOnCapturedContext) ;
+ void _ctor(::bs_hook::Il2CppWrapperType obj, TResult result, int16_t token, bool continueOnCapturedContext) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -607,13 +611,13 @@ constexpr bool __get__continueOnCapturedContext() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(System::Threading::Tasks::ValueTask_1<int32_t> other) ;
+ bool Equals(System::Threading::Tasks::ValueTask_1<TResult> other) ;
 
 /// @brief Method AsTask addr 0x0 size 0xffffffffffffffff virtual false final false
- System::Threading::Tasks::Task_1<int32_t> AsTask() ;
+ System::Threading::Tasks::Task_1<TResult> AsTask() ;
 
 /// @brief Method GetTaskForValueTaskSource addr 0x0 size 0xffffffffffffffff virtual false final false
- System::Threading::Tasks::Task_1<int32_t> GetTaskForValueTaskSource(System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t> t) ;
+ System::Threading::Tasks::Task_1<TResult> GetTaskForValueTaskSource(System::Threading::Tasks::Sources::IValueTaskSource_1<TResult> t) ;
 
 /// @brief Method get_IsCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_IsCompleted() ;
@@ -622,13 +626,13 @@ constexpr bool __get__continueOnCapturedContext() const;
  bool get_IsCompletedSuccessfully() ;
 
 /// @brief Method get_Result addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t get_Result() ;
+ TResult get_Result() ;
 
 /// @brief Method GetAwaiter addr 0x0 size 0xffffffffffffffff virtual false final false
- System::Runtime::CompilerServices::ValueTaskAwaiter_1<int32_t> GetAwaiter() ;
+ System::Runtime::CompilerServices::ValueTaskAwaiter_1<TResult> GetAwaiter() ;
 
 /// @brief Method ConfigureAwait addr 0x0 size 0xffffffffffffffff virtual false final false
- System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1<int32_t> ConfigureAwait(bool continueOnCapturedContext) ;
+ System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1<TResult> ConfigureAwait(bool continueOnCapturedContext) ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;

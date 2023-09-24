@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AchievementsEvaluationHandler_def.hpp"
-#include "GlobalNamespace/zzzz__MissionNodesManager_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__MissionNodesManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AchievementsEvaluationHandler.Start
 template<>
 
@@ -402,8 +402,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, difficultyBeatmap, levelCompletionResults);
 }
-// Ctor Parameters []
- GlobalNamespace::AchievementsEvaluationHandler::AchievementsEvaluationHandler()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AchievementsEvaluationHandler>())) {}
+ GlobalNamespace::AchievementsEvaluationHandler GlobalNamespace::AchievementsEvaluationHandler::New_ctor()  {
+GlobalNamespace::AchievementsEvaluationHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AchievementsEvaluationHandler>())};
+return o;
+}
  void GlobalNamespace::AchievementsEvaluationHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AchievementsEvaluationHandler>::get(),

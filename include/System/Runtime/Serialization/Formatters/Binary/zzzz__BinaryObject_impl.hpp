@@ -99,8 +99,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryObject:
 constexpr int32_t System::Runtime::Serialization::Formatters::Binary::BinaryObject::__get_mapId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::BinaryObject::BinaryObject()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryObject>())) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryObject System::Runtime::Serialization::Formatters::Binary::BinaryObject::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::BinaryObject o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryObject>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryObject>::get(),

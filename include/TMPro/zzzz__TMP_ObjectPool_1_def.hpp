@@ -112,8 +112,7 @@ constexpr int32_t __get__countAll_k__BackingField() const;
 /// @brief Method get_countInactive addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_countInactive() ;
 
-// Ctor Parameters [CppParam { name: "actionOnGet", ty: "UnityEngine::Events::UnityAction_1<T>", modifiers: "", def_value: None }, CppParam { name: "actionOnRelease", ty: "UnityEngine::Events::UnityAction_1<T>", modifiers: "", def_value: None }]
-explicit TMP_ObjectPool_1(UnityEngine::Events::UnityAction_1<T> actionOnGet, UnityEngine::Events::UnityAction_1<T> actionOnRelease) ;
+static TMPro::TMP_ObjectPool_1<T> New_ctor(UnityEngine::Events::UnityAction_1<T> actionOnGet, UnityEngine::Events::UnityAction_1<T> actionOnRelease) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(UnityEngine::Events::UnityAction_1<T> actionOnGet, UnityEngine::Events::UnityAction_1<T> actionOnRelease) ;

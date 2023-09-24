@@ -1,14 +1,14 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SearchFilterParamsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicsDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__SongPacksDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__LevelFilterParams_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyDropdown_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicsDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__LevelFilterParams_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__SongPacksDropdown_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SearchFilterParamsViewController.add_didFinishEvent
 template<>
 
@@ -408,8 +408,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, levelFilterParams);
 }
-// Ctor Parameters []
- GlobalNamespace::SearchFilterParamsViewController::SearchFilterParamsViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<SearchFilterParamsViewController>())) {}
+ GlobalNamespace::SearchFilterParamsViewController GlobalNamespace::SearchFilterParamsViewController::New_ctor()  {
+GlobalNamespace::SearchFilterParamsViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SearchFilterParamsViewController>())};
+return o;
+}
  void GlobalNamespace::SearchFilterParamsViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SearchFilterParamsViewController>::get(),

@@ -3,26 +3,26 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-struct VRPlatformSDK;
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+struct Pose;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
 struct Vector3;
-}
-namespace System {
-class Action;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct Pose;
+struct Quaternion;
+}
+namespace GlobalNamespace {
+struct VRPlatformSDK;
 }
 // Forward declare root types
 namespace GlobalNamespace {

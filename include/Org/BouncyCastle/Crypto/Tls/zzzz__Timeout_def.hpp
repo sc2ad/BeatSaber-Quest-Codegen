@@ -63,14 +63,12 @@ constexpr int64_t __get_startMillis() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "durationMillis", ty: "int64_t", modifiers: "", def_value: None }]
-explicit Timeout(int64_t durationMillis) ;
+static Org::BouncyCastle::Crypto::Tls::Timeout New_ctor(int64_t durationMillis) ;
 
 /// @brief Method .ctor addr 0xf0b6e8 size 0x70 virtual false final false
  void _ctor(int64_t durationMillis) ;
 
-// Ctor Parameters [CppParam { name: "durationMillis", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "currentTimeMillis", ty: "int64_t", modifiers: "", def_value: None }]
-explicit Timeout(int64_t durationMillis, int64_t currentTimeMillis) ;
+static Org::BouncyCastle::Crypto::Tls::Timeout New_ctor(int64_t durationMillis, int64_t currentTimeMillis) ;
 
 /// @brief Method .ctor addr 0xf0b758 size 0x94 virtual false final false
  void _ctor(int64_t durationMillis, int64_t currentTimeMillis) ;

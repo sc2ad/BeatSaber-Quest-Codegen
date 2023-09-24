@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__HumanPoseHandler_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Avatar_def.hpp"
-#include "UnityEngine/zzzz__HumanPose_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__HumanPose_def.hpp"
+#include "UnityEngine/zzzz__Avatar_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: UnityEngine::HumanPoseHandler.Internal_CreateFromRoot
 template<>
 
@@ -154,8 +154,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "avatar", ty: "UnityEngine::Avatar", modifiers: "", def_value: None }, CppParam { name: "root", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- UnityEngine::HumanPoseHandler::HumanPoseHandler(UnityEngine::Avatar avatar, UnityEngine::Transform root)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HumanPoseHandler>(avatar, root))) {}
+ UnityEngine::HumanPoseHandler UnityEngine::HumanPoseHandler::New_ctor(UnityEngine::Avatar avatar, UnityEngine::Transform root)  {
+UnityEngine::HumanPoseHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::HumanPoseHandler>(avatar, root))};
+return o;
+}
  void UnityEngine::HumanPoseHandler::_ctor(UnityEngine::Avatar avatar, UnityEngine::Transform root)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::HumanPoseHandler>::get(),

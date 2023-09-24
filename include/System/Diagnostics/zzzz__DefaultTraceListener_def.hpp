@@ -83,8 +83,7 @@ constexpr ::StringW __get_logFileName() const;
 /// @brief Method GetPrefix addr 0x27e1010 size 0x7c virtual false final false
 static ::StringW GetPrefix(::StringW var, ::StringW target) ;
 
-// Ctor Parameters []
-explicit DefaultTraceListener() ;
+static System::Diagnostics::DefaultTraceListener New_ctor() ;
 
 /// @brief Method .ctor addr 0x27daee4 size 0x64 virtual false final false
  void _ctor() ;

@@ -4,8 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerBoolean;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
@@ -15,15 +24,6 @@ class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -100,20 +100,17 @@ static Org::BouncyCastle::Asn1::X509::BasicConstraints GetInstance(::bs_hook::Il
 /// @brief Method FromExtensions addr 0xff9640 size 0x68 virtual false final false
 static Org::BouncyCastle::Asn1::X509::BasicConstraints FromExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit BasicConstraints(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::BasicConstraints New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff9484 size 0x1bc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "cA", ty: "bool", modifiers: "", def_value: None }]
-explicit BasicConstraints(bool cA) ;
+static Org::BouncyCastle::Asn1::X509::BasicConstraints New_ctor(bool cA) ;
 
 /// @brief Method .ctor addr 0xff96a8 size 0x74 virtual false final false
  void _ctor(bool cA) ;
 
-// Ctor Parameters [CppParam { name: "pathLenConstraint", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BasicConstraints(int32_t pathLenConstraint) ;
+static Org::BouncyCastle::Asn1::X509::BasicConstraints New_ctor(int32_t pathLenConstraint) ;
 
 /// @brief Method .ctor addr 0xff971c size 0xb0 virtual false final false
  void _ctor(int32_t pathLenConstraint) ;

@@ -47,8 +47,7 @@ constexpr explicit FreeBSDNetworkInterfaceAPI(void* ptr) noexcept : System::Net:
 
 // Methods
 
-// Ctor Parameters []
-explicit FreeBSDNetworkInterfaceAPI() ;
+static System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI New_ctor() ;
 
 /// @brief Method .ctor addr 0x285b2ac size 0x20 virtual false final false
  void _ctor() ;

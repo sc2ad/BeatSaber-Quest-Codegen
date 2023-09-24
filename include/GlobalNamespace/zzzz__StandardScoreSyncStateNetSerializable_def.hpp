@@ -6,27 +6,27 @@ namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
 }
 namespace GlobalNamespace {
-template<typename T>
-class PacketPool_1;
+struct SyncStateId;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace GlobalNamespace {
 template<typename T>
 class ISyncStateSerializable_1;
 }
 namespace GlobalNamespace {
-struct SyncStateId;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
+template<typename T>
+class PacketPool_1;
 }
 namespace GlobalNamespace {
 struct StandardScoreSyncState;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -145,8 +145,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetS
 /// @brief Method Release addr 0xdcdab4 size 0x54 virtual true final true
  void Release() ;
 
-// Ctor Parameters []
-explicit StandardScoreSyncStateNetSerializable() ;
+static GlobalNamespace::StandardScoreSyncStateNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0xdcdb08 size 0x8 virtual false final false
  void _ctor() ;

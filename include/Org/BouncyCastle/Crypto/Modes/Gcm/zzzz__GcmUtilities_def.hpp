@@ -163,8 +163,7 @@ static void Xor(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y) ;
 /// @brief Method Xor addr 0xe87328 size 0x78 virtual false final false
 static void Xor(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y, ::ArrayW<uint64_t> z) ;
 
-// Ctor Parameters []
-explicit GcmUtilities() ;
+static Org::BouncyCastle::Crypto::Modes::Gcm::GcmUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xe873ec size 0x8 virtual false final false
  void _ctor() ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewController_def.hpp"
-#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsSubMenuInfo_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MainSettingsMenuViewController.add_didSelectSettingsSubMenuEvent
 template<>
 
@@ -234,8 +234,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, segmentedControl, cellIdx);
 }
-// Ctor Parameters []
- GlobalNamespace::MainSettingsMenuViewController::MainSettingsMenuViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<MainSettingsMenuViewController>())) {}
+ GlobalNamespace::MainSettingsMenuViewController GlobalNamespace::MainSettingsMenuViewController::New_ctor()  {
+GlobalNamespace::MainSettingsMenuViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainSettingsMenuViewController>())};
+return o;
+}
  void GlobalNamespace::MainSettingsMenuViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainSettingsMenuViewController>::get(),

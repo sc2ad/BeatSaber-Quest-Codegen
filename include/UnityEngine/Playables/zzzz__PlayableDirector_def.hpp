@@ -4,35 +4,35 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace UnityEngine::Playables {
-struct FrameRate;
+struct DirectorWrapMode;
+}
+namespace UnityEngine {
+class IExposedPropertyTable;
 }
 namespace UnityEngine::Playables {
 class PlayableAsset;
 }
-namespace UnityEngine {
-class Object;
+namespace UnityEngine::Playables {
+struct PlayState;
 }
 namespace UnityEngine::Playables {
-struct DirectorWrapMode;
+struct PlayableGraph;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine {
+class Object;
 }
 namespace UnityEngine {
 struct PropertyName;
 }
+namespace UnityEngine::Playables {
+struct FrameRate;
+}
 namespace UnityEngine {
 class ScriptableObject;
-}
-namespace UnityEngine::Playables {
-struct PlayState;
-}
-namespace UnityEngine {
-class IExposedPropertyTable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

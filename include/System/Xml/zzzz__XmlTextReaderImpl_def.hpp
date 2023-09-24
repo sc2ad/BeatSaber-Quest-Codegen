@@ -14,49 +14,49 @@ template<typename T>
 class IComparer_1;
 }
 namespace System::Xml {
-struct LineInfo;
-}
-namespace System::Xml {
-class IDtdParserAdapter;
-}
-namespace System::Xml {
-class IDtdEntityInfo;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System {
-class Uri;
-}
-namespace System::Xml {
-class IDtdParserAdapterV1;
-}
-namespace System::Xml {
-class IDtdParserAdapterWithValidation;
+class XmlNameTable;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml {
-class XmlNameTable;
+class IDtdEntityInfo;
+}
+namespace System::Xml {
+class IDtdParserAdapter;
+}
+namespace System::Xml {
+class IDtdParserAdapterWithValidation;
+}
+namespace System {
+class Uri;
 }
 namespace System::Xml {
 class IValidationEventHandling;
 }
+namespace System::Xml {
+class IDtdParserAdapterV1;
+}
+namespace System::Text {
+class StringBuilder;
+}
 namespace System {
 class Exception;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System::Xml {
-class XmlResolver;
+struct LineInfo;
 }
 namespace System::Xml {
 class XmlParserContext;
 }
 namespace System::IO {
+class Stream;
+}
+namespace System::IO {
 class TextReader;
+}
+namespace System::Xml {
+class XmlResolver;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -74,55 +74,97 @@ namespace System::Xml {
 struct XmlSpace;
 }
 namespace System::Xml {
-struct DtdProcessing;
+class System__Xml__XmlTextReaderImpl__NodeData;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Xml {
-class XmlReaderSettings;
+class System__Xml__XmlTextReaderImpl__NoNamespaceManager;
 }
 namespace System::Xml {
-class XmlNamespaceManager;
+class System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate;
 }
 namespace System::Xml {
-struct ReadState;
-}
-namespace System::Xml {
-struct WhitespaceHandling;
+class XmlReader;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4>
 class Tuple_4;
 }
 namespace System::Xml {
-class IncrementalReadDecoder;
+class System__Xml__XmlTextReaderImpl__DtdParserProxy;
 }
 namespace System::Xml {
-class XmlReader;
+struct System__Xml__XmlTextReaderImpl__IncrementalReadState;
+}
+namespace System::Xml {
+class System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer;
+}
+namespace System::Xml {
+struct WhitespaceHandling;
+}
+namespace System::Xml {
+struct System__Xml__XmlTextReaderImpl__ParsingMode;
+}
+namespace System::Xml {
+struct System__Xml__XmlTextReaderImpl__EntityExpandType;
+}
+namespace System::Xml {
+struct System__Xml__XmlTextReaderImpl__InitInputType;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace System::Xml {
+struct DtdProcessing;
+}
+namespace System::Xml {
+struct ReadState;
+}
+namespace System::Xml {
+class System__Xml__XmlTextReaderImpl__LaterInitParam;
+}
+namespace System::Xml {
+class XmlNamespaceManager;
 }
 namespace System::Xml::Schema {
 struct XmlSeverityType;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 namespace System::Xml::Schema {
 class XmlSchemaException;
 }
 namespace System::Xml {
+struct System__Xml__XmlTextReaderImpl__ParsingFunction;
+}
+namespace System::Xml {
+class XmlReaderSettings;
+}
+namespace System::Xml {
+struct System__Xml__XmlTextReaderImpl__ParsingState;
+}
+namespace System::Xml {
 struct XmlCharType;
+}
+namespace System::Xml {
+struct EntityHandling;
+}
+namespace System::Xml {
+struct System__Xml__XmlTextReaderImpl__EntityType;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System::Xml {
 class IDtdInfo;
 }
 namespace System::Xml {
-struct EntityHandling;
+class System__Xml__XmlTextReaderImpl__XmlContext;
 }
-namespace System::Text {
-class Encoding;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace System::Xml {
+class IncrementalReadDecoder;
 }
 namespace System::Text {
 class Decoder;
@@ -246,6 +288,8 @@ __InReadElementContentAsBinary = 25,
 constexpr operator __System__Xml__XmlTextReaderImpl__ParsingFunction_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__XmlTextReaderImpl__ParsingFunction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -389,6 +433,8 @@ constexpr operator __System__Xml__XmlTextReaderImpl__ParsingMode_Unwrapped () co
 return std::bit_cast<__System__Xml__XmlTextReaderImpl__ParsingMode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -466,6 +512,8 @@ __ExpandedInAttribute = 7,
 constexpr operator __System__Xml__XmlTextReaderImpl__EntityType_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__XmlTextReaderImpl__EntityType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -555,6 +603,8 @@ constexpr operator __System__Xml__XmlTextReaderImpl__EntityExpandType_Unwrapped 
 return std::bit_cast<__System__Xml__XmlTextReaderImpl__EntityExpandType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -639,6 +689,8 @@ __ReadContentAsBinary_End = 14,
 constexpr operator __System__Xml__XmlTextReaderImpl__IncrementalReadState_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__XmlTextReaderImpl__IncrementalReadState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -855,6 +907,8 @@ __Invalid = 3,
 constexpr operator __System__Xml__XmlTextReaderImpl__InitInputType_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__XmlTextReaderImpl__InitInputType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1145,14 +1199,12 @@ constexpr System::Xml::System__Xml__XmlTextReaderImpl__XmlContext __get_previous
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Xml__XmlTextReaderImpl__XmlContext() ;
+static System::Xml::System__Xml__XmlTextReaderImpl__XmlContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x26e0950 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "previousContext", ty: "System::Xml::System__Xml__XmlTextReaderImpl__XmlContext", modifiers: "", def_value: None }]
-explicit System__Xml__XmlTextReaderImpl__XmlContext(System::Xml::System__Xml__XmlTextReaderImpl__XmlContext previousContext) ;
+static System::Xml::System__Xml__XmlTextReaderImpl__XmlContext New_ctor(System::Xml::System__Xml__XmlTextReaderImpl__XmlContext previousContext) ;
 
 /// @brief Method .ctor addr 0x26e09b4 size 0x40 virtual false final false
  void _ctor(System::Xml::System__Xml__XmlTextReaderImpl__XmlContext previousContext) ;
@@ -1208,8 +1260,7 @@ constexpr explicit System__Xml__XmlTextReaderImpl__NoNamespaceManager(void* ptr)
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Xml__XmlTextReaderImpl__NoNamespaceManager() ;
+static System::Xml::System__Xml__XmlTextReaderImpl__NoNamespaceManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x26e09f4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1337,8 +1388,7 @@ constexpr System::Xml::XmlTextReaderImpl __get_reader() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reader", ty: "System::Xml::XmlTextReaderImpl", modifiers: "", def_value: None }]
-explicit System__Xml__XmlTextReaderImpl__DtdParserProxy(System::Xml::XmlTextReaderImpl reader) ;
+static System::Xml::System__Xml__XmlTextReaderImpl__DtdParserProxy New_ctor(System::Xml::XmlTextReaderImpl reader) ;
 
 /// @brief Method .ctor addr 0x26e0ab0 size 0x28 virtual false final false
  void _ctor(System::Xml::XmlTextReaderImpl reader) ;
@@ -1625,8 +1675,7 @@ static System::Xml::System__Xml__XmlTextReaderImpl__NodeData __declspec(property
 /// @brief Method get_None addr 0x26e0e24 size 0xa0 virtual false final false
 static System::Xml::System__Xml__XmlTextReaderImpl__NodeData get_None() ;
 
-// Ctor Parameters []
-explicit System__Xml__XmlTextReaderImpl__NodeData() ;
+static System::Xml::System__Xml__XmlTextReaderImpl__NodeData New_ctor() ;
 
 /// @brief Method .ctor addr 0x26e0ec4 size 0x28 virtual false final false
  void _ctor() ;
@@ -1772,8 +1821,7 @@ static System::Collections::Generic::IComparer_1<::bs_hook::Il2CppWrapperType> g
 /// @brief Method Compare addr 0x26e158c size 0x348 virtual true final true
  int32_t Compare(::bs_hook::Il2CppWrapperType x, ::bs_hook::Il2CppWrapperType y) ;
 
-// Ctor Parameters []
-explicit System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer() ;
+static System::Xml::System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x26e18d4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1824,8 +1872,7 @@ constexpr explicit System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Xml::System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26e1940 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2452,32 +2499,27 @@ constexpr System::Threading::Tasks::Task_1<System::Tuple_4<int32_t,int32_t,int32
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
-explicit XmlTextReaderImpl(System::Xml::XmlNameTable nt) ;
+static System::Xml::XmlTextReaderImpl New_ctor(System::Xml::XmlNameTable nt) ;
 
 /// @brief Method .ctor addr 0x26cf144 size 0x374 virtual false final false
  void _ctor(System::Xml::XmlNameTable nt) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::TextReader", modifiers: "", def_value: None }, CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
-explicit XmlTextReaderImpl(System::IO::TextReader input, System::Xml::XmlNameTable nt) ;
+static System::Xml::XmlTextReaderImpl New_ctor(System::IO::TextReader input, System::Xml::XmlNameTable nt) ;
 
 /// @brief Method .ctor addr 0x26cf4b8 size 0x68 virtual false final false
  void _ctor(System::IO::TextReader input, System::Xml::XmlNameTable nt) ;
 
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "input", ty: "System::IO::TextReader", modifiers: "", def_value: None }, CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
-explicit XmlTextReaderImpl(::StringW url, System::IO::TextReader input, System::Xml::XmlNameTable nt) ;
+static System::Xml::XmlTextReaderImpl New_ctor(::StringW url, System::IO::TextReader input, System::Xml::XmlNameTable nt) ;
 
 /// @brief Method .ctor addr 0x26cf520 size 0xd0 virtual false final false
  void _ctor(::StringW url, System::IO::TextReader input, System::Xml::XmlNameTable nt) ;
 
-// Ctor Parameters [CppParam { name: "xmlFragment", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fragType", ty: "System::Xml::XmlNodeType", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Xml::XmlParserContext", modifiers: "", def_value: None }]
-explicit XmlTextReaderImpl(::StringW xmlFragment, System::Xml::XmlNodeType fragType, System::Xml::XmlParserContext context) ;
+static System::Xml::XmlTextReaderImpl New_ctor(::StringW xmlFragment, System::Xml::XmlNodeType fragType, System::Xml::XmlParserContext context) ;
 
 /// @brief Method .ctor addr 0x26cf5fc size 0x10c virtual false final false
  void _ctor(::StringW xmlFragment, System::Xml::XmlNodeType fragType, System::Xml::XmlParserContext context) ;
 
-// Ctor Parameters [CppParam { name: "xmlFragment", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Xml::XmlParserContext", modifiers: "", def_value: None }]
-explicit XmlTextReaderImpl(::StringW xmlFragment, System::Xml::XmlParserContext context) ;
+static System::Xml::XmlTextReaderImpl New_ctor(::StringW xmlFragment, System::Xml::XmlParserContext context) ;
 
 /// @brief Method .ctor addr 0x26cf9c0 size 0x138 virtual false final false
  void _ctor(::StringW xmlFragment, System::Xml::XmlParserContext context) ;

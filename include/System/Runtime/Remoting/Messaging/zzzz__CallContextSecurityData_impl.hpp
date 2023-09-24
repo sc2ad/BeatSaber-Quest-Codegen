@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__CallContextSecurityData_def.hpp"
-#include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::CallContextSecurityData.get_HasInfo
 template<>
 
@@ -81,8 +81,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Messaging::CallContextSecurityData::CallContextSecurityData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CallContextSecurityData>())) {}
+ System::Runtime::Remoting::Messaging::CallContextSecurityData System::Runtime::Remoting::Messaging::CallContextSecurityData::New_ctor()  {
+System::Runtime::Remoting::Messaging::CallContextSecurityData o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::CallContextSecurityData>())};
+return o;
+}
  void System::Runtime::Remoting::Messaging::CallContextSecurityData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::CallContextSecurityData>::get(),

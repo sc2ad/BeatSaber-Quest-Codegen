@@ -4,49 +4,52 @@
 #include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class DynamicAtlasPage;
+namespace UnityEngine {
+struct ColorSpace;
 }
 namespace UnityEngine {
-struct FilterMode;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
-namespace UnityEngine::UIElements {
-class DynamicAtlasCustomFilter;
-}
-namespace UnityEngine::UIElements {
-struct DynamicAtlasFilters;
+struct RectInt;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine {
-struct ColorSpace;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine::UIElements {
+class DynamicAtlasCustomFilter;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
+}
+namespace UnityEngine {
+struct TextureFormat;
+}
 namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine {
-struct RectInt;
+class Texture;
+}
+namespace UnityEngine::UIElements {
+class DynamicAtlasPage;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__DynamicAtlas__TextureInfo;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
+struct DynamicAtlasFilters;
 }
 namespace UnityEngine {
-struct TextureFormat;
+struct FilterMode;
 }
 namespace UnityEngine::UIElements::UIR {
 template<typename T>
@@ -143,8 +146,7 @@ static UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureIn
 /// @brief Method Reset addr 0x2c3c070 size 0x30 virtual false final false
 static void Reset(UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo info) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__DynamicAtlas__TextureInfo() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__DynamicAtlas__TextureInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3c028 size 0x48 virtual false final false
  void _ctor() ;
@@ -331,8 +333,7 @@ static UnityEngine::UIElements::DynamicAtlasFilters get_defaultFilters() ;
 /// @brief Method set_customFilter addr 0x2c3bebc size 0x48 virtual false final false
  void set_customFilter(UnityEngine::UIElements::DynamicAtlasCustomFilter value) ;
 
-// Ctor Parameters []
-explicit DynamicAtlas() ;
+static UnityEngine::UIElements::DynamicAtlas New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3bf04 size 0xcc virtual false final false
  void _ctor() ;

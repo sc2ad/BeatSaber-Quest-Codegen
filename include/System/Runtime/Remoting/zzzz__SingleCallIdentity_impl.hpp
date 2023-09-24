@@ -2,8 +2,8 @@
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__SingleCallIdentity_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::SingleCallIdentity._ctor
@@ -57,8 +57,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Remoting::Contexts::Context", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::Remoting::SingleCallIdentity::SingleCallIdentity(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType)  : System::Runtime::Remoting::ServerIdentity(THROW_UNLESS(::il2cpp_utils::New<SingleCallIdentity>(objectUri, context, objectType))) {}
+ System::Runtime::Remoting::SingleCallIdentity System::Runtime::Remoting::SingleCallIdentity::New_ctor(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType)  {
+System::Runtime::Remoting::SingleCallIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::SingleCallIdentity>(objectUri, context, objectType))};
+return o;
+}
  void System::Runtime::Remoting::SingleCallIdentity::_ctor(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::SingleCallIdentity>::get(),

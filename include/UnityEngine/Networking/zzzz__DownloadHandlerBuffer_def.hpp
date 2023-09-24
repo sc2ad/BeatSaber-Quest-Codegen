@@ -67,8 +67,7 @@ static ::cordl_internals::intptr_t Create(UnityEngine::Networking::DownloadHandl
 /// @brief Method InternalCreateBuffer addr 0x2d37688 size 0x44 virtual false final false
  void InternalCreateBuffer() ;
 
-// Ctor Parameters []
-explicit DownloadHandlerBuffer() ;
+static UnityEngine::Networking::DownloadHandlerBuffer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d36cfc size 0x4c virtual false final false
  void _ctor() ;

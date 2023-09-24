@@ -51,8 +51,7 @@ constexpr explicit OperationException(void* ptr) noexcept : System::Exception(pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit OperationException(::StringW message, System::Exception innerException) ;
+static UnityEngine::ResourceManagement::Exceptions::OperationException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x2a3871c size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;

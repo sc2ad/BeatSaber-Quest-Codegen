@@ -1,7 +1,7 @@
 #pragma once
 #include "Oculus/Platform/zzzz__UserOptions_def.hpp"
-#include "Oculus/Platform/zzzz__TimeWindow_def.hpp"
 #include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
+#include "Oculus/Platform/zzzz__TimeWindow_def.hpp"
 //  Writing Method size for method: Oculus::Platform::UserOptions._ctor
 template<>
 
@@ -127,8 +127,10 @@ constexpr void Oculus::Platform::UserOptions::__set_Handle(::cordl_internals::in
 constexpr ::cordl_internals::intptr_t Oculus::Platform::UserOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::UserOptions::UserOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserOptions>())) {}
+ Oculus::Platform::UserOptions Oculus::Platform::UserOptions::New_ctor()  {
+Oculus::Platform::UserOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::UserOptions>())};
+return o;
+}
  void Oculus::Platform::UserOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::UserOptions>::get(),

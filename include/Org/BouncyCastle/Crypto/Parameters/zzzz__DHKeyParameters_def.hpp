@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -77,14 +77,12 @@ constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_algorithmOid() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }]
-explicit DHKeyParameters(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::DHKeyParameters New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea3360 size 0x84 virtual false final false
  void _ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }, CppParam { name: "algorithmOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit DHKeyParameters(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid) ;
+static Org::BouncyCastle::Crypto::Parameters::DHKeyParameters New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid) ;
 
 /// @brief Method .ctor addr 0xea33e4 size 0x3c virtual false final false
  void _ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid) ;

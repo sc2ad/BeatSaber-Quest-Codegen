@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
- Org::BouncyCastle::OpenSsl::PemWriter::PemWriter(System::IO::TextWriter writer)  : Org::BouncyCastle::Utilities::IO::Pem::PemWriter(THROW_UNLESS(::il2cpp_utils::New<PemWriter>(writer))) {}
+ Org::BouncyCastle::OpenSsl::PemWriter Org::BouncyCastle::OpenSsl::PemWriter::New_ctor(System::IO::TextWriter writer)  {
+Org::BouncyCastle::OpenSsl::PemWriter o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::OpenSsl::PemWriter>(writer))};
+return o;
+}
  void Org::BouncyCastle::OpenSsl::PemWriter::_ctor(System::IO::TextWriter writer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::OpenSsl::PemWriter>::get(),

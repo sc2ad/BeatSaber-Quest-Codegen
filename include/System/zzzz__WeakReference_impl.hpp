@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__WeakReference_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::WeakReference.AllocateHandle
 template<>
 
@@ -216,8 +216,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, target);
 }
-// Ctor Parameters []
- System::WeakReference::WeakReference()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WeakReference>())) {}
+ System::WeakReference System::WeakReference::New_ctor()  {
+System::WeakReference o{THROW_UNLESS(::il2cpp_utils::New<System::WeakReference>())};
+return o;
+}
  void System::WeakReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::WeakReference>::get(),
@@ -227,8 +229,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::WeakReference::WeakReference(::bs_hook::Il2CppWrapperType target)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WeakReference>(target))) {}
+ System::WeakReference System::WeakReference::New_ctor(::bs_hook::Il2CppWrapperType target)  {
+System::WeakReference o{THROW_UNLESS(::il2cpp_utils::New<System::WeakReference>(target))};
+return o;
+}
  void System::WeakReference::_ctor(::bs_hook::Il2CppWrapperType target)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::WeakReference>::get(),
@@ -238,8 +242,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, target);
 }
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "trackResurrection", ty: "bool", modifiers: "", def_value: None }]
- System::WeakReference::WeakReference(::bs_hook::Il2CppWrapperType target, bool trackResurrection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WeakReference>(target, trackResurrection))) {}
+ System::WeakReference System::WeakReference::New_ctor(::bs_hook::Il2CppWrapperType target, bool trackResurrection)  {
+System::WeakReference o{THROW_UNLESS(::il2cpp_utils::New<System::WeakReference>(target, trackResurrection))};
+return o;
+}
  void System::WeakReference::_ctor(::bs_hook::Il2CppWrapperType target, bool trackResurrection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::WeakReference>::get(),
@@ -249,8 +255,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, target, trackResurrection);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::WeakReference::WeakReference(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WeakReference>(info, context))) {}
+ System::WeakReference System::WeakReference::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::WeakReference o{THROW_UNLESS(::il2cpp_utils::New<System::WeakReference>(info, context))};
+return o;
+}
  void System::WeakReference::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::WeakReference>::get(),

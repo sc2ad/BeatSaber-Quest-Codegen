@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 class IInstaller;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -86,8 +86,7 @@ constexpr Zenject::DiContainer __get__container() const;
 /// @brief Method InstallBindings addr 0x2d7c220 size 0x40 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit ScriptableObjectInstallerBase() ;
+static Zenject::ScriptableObjectInstallerBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7bfec size 0x8 virtual false final false
  void _ctor() ;

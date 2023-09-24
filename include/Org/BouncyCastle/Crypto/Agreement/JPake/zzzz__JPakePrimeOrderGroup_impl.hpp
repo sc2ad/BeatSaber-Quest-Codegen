@@ -104,8 +104,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::__get_g() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::JPakePrimeOrderGroup(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JPakePrimeOrderGroup>(p, q, g))) {}
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g)  {
+Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup>(p, q, g))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup>::get(),
@@ -115,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, p, q, g);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "skipChecks", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::JPakePrimeOrderGroup(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, bool skipChecks)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JPakePrimeOrderGroup>(p, q, g, skipChecks))) {}
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, bool skipChecks)  {
+Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup>(p, q, g, skipChecks))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger g, bool skipChecks)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup>::get(),

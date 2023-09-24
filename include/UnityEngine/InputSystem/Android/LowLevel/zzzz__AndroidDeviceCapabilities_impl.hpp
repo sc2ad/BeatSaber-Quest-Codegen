@@ -4,6 +4,7 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidAxis_def.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidInputSource_def.hpp"
+#include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidDeviceCapabilities_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c._ctor
 template<>
 
@@ -50,8 +51,10 @@ return ::cordl_internals::getStaticField<UnityEngine::InputSystem::Android::LowL
  System::Func_2<UnityEngine::InputSystem::Android::LowLevel::AndroidAxis,::StringW> UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c::__get___9__8_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::Android::LowLevel::AndroidAxis,::StringW>, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c>())) {}
+ UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c::New_ctor()  {
+UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c>::get(),

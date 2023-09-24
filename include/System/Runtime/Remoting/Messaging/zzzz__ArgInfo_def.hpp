@@ -76,8 +76,7 @@ constexpr System::Reflection::MethodBase __get__method() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "method", ty: "System::Reflection::MethodBase", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Runtime::Remoting::Messaging::ArgInfoType", modifiers: "", def_value: None }]
-explicit ArgInfo(System::Reflection::MethodBase method, System::Runtime::Remoting::Messaging::ArgInfoType type) ;
+static System::Runtime::Remoting::Messaging::ArgInfo New_ctor(System::Reflection::MethodBase method, System::Runtime::Remoting::Messaging::ArgInfoType type) ;
 
 /// @brief Method .ctor addr 0x233b358 size 0x1b4 virtual false final false
  void _ctor(System::Reflection::MethodBase method, System::Runtime::Remoting::Messaging::ArgInfoType type) ;

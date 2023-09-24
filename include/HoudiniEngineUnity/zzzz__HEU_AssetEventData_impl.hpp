@@ -2,8 +2,8 @@
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AssetEventType_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AssetEventType_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_AssetEventData._ctor
 template<>
 
@@ -45,8 +45,10 @@ constexpr void HoudiniEngineUnity::HEU_AssetEventData::__set_EventType(HoudiniEn
 constexpr HoudiniEngineUnity::HEU_AssetEventType HoudiniEngineUnity::HEU_AssetEventData::__get_EventType() const {
 return ::cordl_internals::getInstanceField<HoudiniEngineUnity::HEU_AssetEventType, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "asset", ty: "HoudiniEngineUnity::HEU_HoudiniAsset", modifiers: "", def_value: None }, CppParam { name: "successful", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "outputObjects", ty: "System::Collections::Generic::List_1<UnityEngine::GameObject>", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HEU_AssetEventData::HEU_AssetEventData(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_AssetEventData>(asset, successful, outputObjects))) {}
+ HoudiniEngineUnity::HEU_AssetEventData HoudiniEngineUnity::HEU_AssetEventData::New_ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects)  {
+HoudiniEngineUnity::HEU_AssetEventData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_AssetEventData>(asset, successful, outputObjects))};
+return o;
+}
  void HoudiniEngineUnity::HEU_AssetEventData::_ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_AssetEventData>::get(),

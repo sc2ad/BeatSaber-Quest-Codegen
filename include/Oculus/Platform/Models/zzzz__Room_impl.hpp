@@ -1,13 +1,13 @@
 #pragma once
 #include "Oculus/Platform/Models/zzzz__Room_def.hpp"
-#include "Oculus/Platform/zzzz__RoomJoinPolicy_def.hpp"
-#include "Oculus/Platform/Models/zzzz__MatchmakingEnqueuedUserList_def.hpp"
-#include "Oculus/Platform/zzzz__RoomJoinability_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__User_def.hpp"
-#include "Oculus/Platform/zzzz__RoomType_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Oculus/Platform/Models/zzzz__TeamList_def.hpp"
+#include "Oculus/Platform/zzzz__RoomJoinability_def.hpp"
+#include "Oculus/Platform/zzzz__RoomType_def.hpp"
+#include "Oculus/Platform/Models/zzzz__MatchmakingEnqueuedUserList_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Oculus/Platform/zzzz__RoomJoinPolicy_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Models::Room._ctor
 template<>
 
@@ -151,8 +151,10 @@ constexpr void Oculus::Platform::Models::Room::__set_Version(uint32_t value)  {
 constexpr uint32_t Oculus::Platform::Models::Room::__get_Version() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::Room::Room(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Room>(o))) {}
+ Oculus::Platform::Models::Room Oculus::Platform::Models::Room::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::Room o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::Room>(o))};
+return o;
+}
  void Oculus::Platform::Models::Room::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::Room>::get(),

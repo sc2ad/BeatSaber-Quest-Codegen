@@ -10,19 +10,22 @@ namespace UnityEngine {
 class Sprite;
 }
 namespace HMUI {
-class IconSegmentedControlCell;
+class HMUI__SegmentedControl__IDataSource;
 }
 namespace HMUI {
 class SegmentedControlCell;
+}
+namespace HMUI {
+class HMUI__IconSegmentedControl__DataItem;
+}
+namespace HMUI {
+class IconSegmentedControlCell;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace HMUI {
-class HMUI__SegmentedControl__IDataSource;
 }
 // Forward declare root types
 namespace HMUI {
@@ -107,8 +110,7 @@ constexpr ::StringW __get__hintText_k__BackingField() const;
 /// @brief Method set_hintText addr 0x1fac824 size 0x8 virtual false final false
  void set_hintText(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "icon", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "hintText", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HMUI__IconSegmentedControl__DataItem(UnityEngine::Sprite icon, ::StringW hintText) ;
+static HMUI::HMUI__IconSegmentedControl__DataItem New_ctor(UnityEngine::Sprite icon, ::StringW hintText) ;
 
 /// @brief Method .ctor addr 0x1fac82c size 0x2c virtual false final false
  void _ctor(UnityEngine::Sprite icon, ::StringW hintText) ;
@@ -248,8 +250,7 @@ constexpr bool __get__isInitialized() const;
 /// @brief Method InstantiateCell addr 0x1fac460 size 0x180 virtual false final false
  HMUI::IconSegmentedControlCell InstantiateCell(UnityEngine::Object prefab) ;
 
-// Ctor Parameters []
-explicit IconSegmentedControl() ;
+static HMUI::IconSegmentedControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fac6f0 size 0x10 virtual false final false
  void _ctor() ;

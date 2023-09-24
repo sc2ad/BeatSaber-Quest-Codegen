@@ -1,5 +1,6 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__Extrapolation_def.hpp"
+#include "UnityEngine/Timeline/zzzz__Extrapolation_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
@@ -49,8 +50,10 @@ return ::cordl_internals::getStaticField<UnityEngine::Timeline::UnityEngine__Tim
  System::Comparison_1<UnityEngine::Timeline::TimelineClip> UnityEngine::Timeline::UnityEngine__Timeline__Extrapolation____c::__get___9__2_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::Timeline::TimelineClip>, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__Extrapolation____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Timeline::UnityEngine__Timeline__Extrapolation____c::UnityEngine__Timeline__Extrapolation____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__Extrapolation____c>())) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__Extrapolation____c UnityEngine::Timeline::UnityEngine__Timeline__Extrapolation____c::New_ctor()  {
+UnityEngine::Timeline::UnityEngine__Timeline__Extrapolation____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__Extrapolation____c>())};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__Extrapolation____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__Extrapolation____c>::get(),

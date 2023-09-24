@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/zzzz__CaseInsensitiveAscii_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 //  Writing Method size for method: System::Net::CaseInsensitiveAscii.GetHashCode
 template<>
 
@@ -143,8 +143,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, firstObject, secondObject);
 }
-// Ctor Parameters []
- System::Net::CaseInsensitiveAscii::CaseInsensitiveAscii()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CaseInsensitiveAscii>())) {}
+ System::Net::CaseInsensitiveAscii System::Net::CaseInsensitiveAscii::New_ctor()  {
+System::Net::CaseInsensitiveAscii o{THROW_UNLESS(::il2cpp_utils::New<System::Net::CaseInsensitiveAscii>())};
+return o;
+}
  void System::Net::CaseInsensitiveAscii::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CaseInsensitiveAscii>::get(),

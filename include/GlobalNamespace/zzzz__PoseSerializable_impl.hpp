@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__PoseSerializable_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
 #include "GlobalNamespace/zzzz__QuaternionSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PoseSerializable._ctor
 template<>

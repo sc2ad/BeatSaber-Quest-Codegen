@@ -110,8 +110,7 @@ static Oculus::Platform::PlatformSettings get_Instance() ;
 /// @brief Method set_Instance addr 0x259910c size 0x4c virtual false final false
 static void set_Instance(Oculus::Platform::PlatformSettings value) ;
 
-// Ctor Parameters []
-explicit PlatformSettings() ;
+static Oculus::Platform::PlatformSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2599158 size 0x58 virtual false final false
  void _ctor() ;

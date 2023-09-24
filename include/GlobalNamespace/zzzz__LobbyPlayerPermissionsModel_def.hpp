@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
+class PlayersLobbyPermissionConfigurationNetSerializable;
+}
+namespace GlobalNamespace {
 class IMenuRpcManager;
 }
 namespace GlobalNamespace {
@@ -10,9 +13,6 @@ class IMultiplayerSessionManager;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class PlayersLobbyPermissionConfigurationNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -172,8 +172,7 @@ constexpr System::Action __get_permissionsChangedEvent() const;
 /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration addr 0x21f8e4c size 0x2ac virtual false final false
  void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration) ;
 
-// Ctor Parameters []
-explicit LobbyPlayerPermissionsModel() ;
+static GlobalNamespace::LobbyPlayerPermissionsModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f90f8 size 0x8 virtual false final false
  void _ctor() ;

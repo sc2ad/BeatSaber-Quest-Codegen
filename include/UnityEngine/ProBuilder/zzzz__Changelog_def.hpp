@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections::ObjectModel {
-template<typename T>
-class ReadOnlyCollection_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Collections::ObjectModel {
+template<typename T>
+class ReadOnlyCollection_1;
 }
 namespace UnityEngine::ProBuilder {
 class ChangelogEntry;
@@ -85,8 +85,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::ProBuilder::Changelo
 /// @brief Method get_entries addr 0x29a83a0 size 0x7c virtual false final false
  System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry> get_entries() ;
 
-// Ctor Parameters [CppParam { name: "log", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Changelog(::StringW log) ;
+static UnityEngine::ProBuilder::Changelog New_ctor(::StringW log) ;
 
 /// @brief Method .ctor addr 0x29a841c size 0x30c virtual false final false
  void _ctor(::StringW log) ;

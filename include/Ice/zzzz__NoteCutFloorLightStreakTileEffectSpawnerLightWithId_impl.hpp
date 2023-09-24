@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawnerLightWithId_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawner_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId.ColorWasSet
 template<>
 
@@ -52,8 +52,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::NoteCutFloorLightStreakTileEffectSpawnerLightWithId()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteCutFloorLightStreakTileEffectSpawnerLightWithId>())) {}
+ Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::New_ctor()  {
+Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId o{THROW_UNLESS(::il2cpp_utils::New<Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId>())};
+return o;
+}
  void Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId>::get(),

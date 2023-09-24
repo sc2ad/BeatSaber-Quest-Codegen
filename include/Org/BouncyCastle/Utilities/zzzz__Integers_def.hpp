@@ -66,8 +66,7 @@ static int32_t RotateRight(int32_t i, int32_t distance) ;
 /// @brief Method RotateRight addr 0x10e2a74 size 0x14 virtual false final false
 static uint32_t RotateRight(uint32_t i, int32_t distance) ;
 
-// Ctor Parameters []
-explicit Integers() ;
+static Org::BouncyCastle::Utilities::Integers New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e2a88 size 0x8 virtual false final false
  void _ctor() ;

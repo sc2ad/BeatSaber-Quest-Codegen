@@ -10,20 +10,23 @@ class ECPoint;
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
+namespace Org::BouncyCastle::Math::EC::Custom::Sec {
+class Org__BouncyCastle__Math__EC__Custom__Sec__SecP384R1Curve__SecP384R1LookupTable;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
+class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 class SecP384R1Point;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
@@ -100,8 +103,7 @@ constexpr int32_t __get_m_size() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::Custom::Sec::SecP384R1Curve", modifiers: "", def_value: None }, CppParam { name: "table", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__Custom__Sec__SecP384R1Curve__SecP384R1LookupTable(Org::BouncyCastle::Math::EC::Custom::Sec::SecP384R1Curve outer, ::ArrayW<uint32_t> table, int32_t size) ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecP384R1Curve__SecP384R1LookupTable New_ctor(Org::BouncyCastle::Math::EC::Custom::Sec::SecP384R1Curve outer, ::ArrayW<uint32_t> table, int32_t size) ;
 
 /// @brief Method .ctor addr 0xf6d23c size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::Custom::Sec::SecP384R1Curve outer, ::ArrayW<uint32_t> table, int32_t size) ;
@@ -202,8 +204,7 @@ constexpr Org::BouncyCastle::Math::EC::Custom::Sec::SecP384R1Point __get_m_infin
 
 // Methods
 
-// Ctor Parameters []
-explicit SecP384R1Curve() ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecP384R1Curve New_ctor() ;
 
 /// @brief Method .ctor addr 0xf6ca10 size 0x220 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__DateTimeConverter_def.hpp"
+#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 //  Writing Method size for method: System::ComponentModel::DateTimeConverter.CanConvertFrom
 template<>
 
@@ -125,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, context, culture, value, destinationType);
 }
-// Ctor Parameters []
- System::ComponentModel::DateTimeConverter::DateTimeConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<DateTimeConverter>())) {}
+ System::ComponentModel::DateTimeConverter System::ComponentModel::DateTimeConverter::New_ctor()  {
+System::ComponentModel::DateTimeConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DateTimeConverter>())};
+return o;
+}
  void System::ComponentModel::DateTimeConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DateTimeConverter>::get(),

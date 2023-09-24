@@ -1,15 +1,16 @@
 #pragma once
 #include "ModestTree/Util/zzzz__UnityUtil_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "ModestTree/Util/zzzz__UnityUtil_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__1._ctor
 template<>
@@ -191,8 +192,10 @@ constexpr void ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__
 constexpr int32_t ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__1::__get__i_5__2() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__1::ModestTree__Util__UnityUtil___get_AllScenes_d__1(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__Util__UnityUtil___get_AllScenes_d__1>(__1__state))) {}
+ ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__1 ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__1::New_ctor(int32_t __1__state)  {
+ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__1 o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__1>(__1__state))};
+return o;
+}
  void ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__1::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__1>::get(),
@@ -426,8 +429,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::Transform,U
  System::Func_2<UnityEngine::GameObject,bool> ModestTree::Util::ModestTree__Util__UnityUtil____c::__get___9__23_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::GameObject,bool>, "<>9__23_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::Util::ModestTree__Util__UnityUtil____c>::get>();
 }
-// Ctor Parameters []
- ModestTree::Util::ModestTree__Util__UnityUtil____c::ModestTree__Util__UnityUtil____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__Util__UnityUtil____c>())) {}
+ ModestTree::Util::ModestTree__Util__UnityUtil____c ModestTree::Util::ModestTree__Util__UnityUtil____c::New_ctor()  {
+ModestTree::Util::ModestTree__Util__UnityUtil____c o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::Util::ModestTree__Util__UnityUtil____c>())};
+return o;
+}
  void ModestTree::Util::ModestTree__Util__UnityUtil____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::Util::ModestTree__Util__UnityUtil____c>::get(),
@@ -700,8 +705,10 @@ constexpr void ModestTree::Util::ModestTree__Util__UnityUtil___GetParents_d__16:
 constexpr System::Collections::Generic::IEnumerator_1<UnityEngine::Transform> ModestTree::Util::ModestTree__Util__UnityUtil___GetParents_d__16::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<UnityEngine::Transform>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- ModestTree::Util::ModestTree__Util__UnityUtil___GetParents_d__16::ModestTree__Util__UnityUtil___GetParents_d__16(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__Util__UnityUtil___GetParents_d__16>(__1__state))) {}
+ ModestTree::Util::ModestTree__Util__UnityUtil___GetParents_d__16 ModestTree::Util::ModestTree__Util__UnityUtil___GetParents_d__16::New_ctor(int32_t __1__state)  {
+ModestTree::Util::ModestTree__Util__UnityUtil___GetParents_d__16 o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::Util::ModestTree__Util__UnityUtil___GetParents_d__16>(__1__state))};
+return o;
+}
  void ModestTree::Util::ModestTree__Util__UnityUtil___GetParents_d__16::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::Util::ModestTree__Util__UnityUtil___GetParents_d__16>::get(),
@@ -992,8 +999,10 @@ constexpr void ModestTree::Util::ModestTree__Util__UnityUtil___GetParentsAndSelf
 constexpr System::Collections::Generic::IEnumerator_1<UnityEngine::Transform> ModestTree::Util::ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<UnityEngine::Transform>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- ModestTree::Util::ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17::ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17>(__1__state))) {}
+ ModestTree::Util::ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17 ModestTree::Util::ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17::New_ctor(int32_t __1__state)  {
+ModestTree::Util::ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17 o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::Util::ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17>(__1__state))};
+return o;
+}
  void ModestTree::Util::ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::Util::ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17>::get(),
@@ -1284,8 +1293,10 @@ constexpr void ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren
 constexpr System::Collections::IEnumerator ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerator, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20::ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20>(__1__state))) {}
+ ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20 ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20::New_ctor(int32_t __1__state)  {
+ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20 o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20>(__1__state))};
+return o;
+}
  void ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20>::get(),
@@ -1576,8 +1587,10 @@ constexpr void ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren
 constexpr System::Collections::IEnumerator ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren_d__21::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerator, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren_d__21::ModestTree__Util__UnityUtil___GetDirectChildren_d__21(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__Util__UnityUtil___GetDirectChildren_d__21>(__1__state))) {}
+ ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren_d__21 ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren_d__21::New_ctor(int32_t __1__state)  {
+ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren_d__21 o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren_d__21>(__1__state))};
+return o;
+}
  void ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren_d__21::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren_d__21>::get(),

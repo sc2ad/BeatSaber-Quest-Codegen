@@ -176,8 +176,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_CrlAccessMethod() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509ObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::X509::X509ObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0x111db50 size 0x8 virtual false final false
  void _ctor() ;

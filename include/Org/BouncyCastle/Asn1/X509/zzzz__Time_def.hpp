@@ -3,14 +3,14 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
 namespace System {
 struct DateTime;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -76,14 +76,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Object __get_time() const;
 /// @brief Method GetInstance addr 0x110fd1c size 0x1c virtual false final false
 static Org::BouncyCastle::Asn1::X509::Time GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
-explicit Time(Org::BouncyCastle::Asn1::Asn1Object time) ;
+static Org::BouncyCastle::Asn1::X509::Time New_ctor(Org::BouncyCastle::Asn1::Asn1Object time) ;
 
 /// @brief Method .ctor addr 0x110fd38 size 0x140 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Object time) ;
 
-// Ctor Parameters [CppParam { name: "date", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit Time(System::DateTime date) ;
+static Org::BouncyCastle::Asn1::X509::Time New_ctor(System::DateTime date) ;
 
 /// @brief Method .ctor addr 0x110fe78 size 0x168 virtual false final false
  void _ctor(System::DateTime date) ;

@@ -2,8 +2,8 @@
 #include "System/Runtime/Remoting/Channels/zzzz__SinkProviderData_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Channels::SinkProviderData._ctor
 template<>
 
@@ -73,8 +73,10 @@ constexpr void System::Runtime::Remoting::Channels::SinkProviderData::__set_prop
 constexpr System::Collections::Hashtable System::Runtime::Remoting::Channels::SinkProviderData::__get_properties() const {
 return ::cordl_internals::getInstanceField<System::Collections::Hashtable, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Channels::SinkProviderData::SinkProviderData(::StringW name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SinkProviderData>(name))) {}
+ System::Runtime::Remoting::Channels::SinkProviderData System::Runtime::Remoting::Channels::SinkProviderData::New_ctor(::StringW name)  {
+System::Runtime::Remoting::Channels::SinkProviderData o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Channels::SinkProviderData>(name))};
+return o;
+}
  void System::Runtime::Remoting::Channels::SinkProviderData::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Channels::SinkProviderData>::get(),

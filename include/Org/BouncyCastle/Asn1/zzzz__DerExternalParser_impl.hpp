@@ -61,8 +61,10 @@ constexpr void Org::BouncyCastle::Asn1::DerExternalParser::__set__parser(Org::Bo
 constexpr Org::BouncyCastle::Asn1::Asn1StreamParser Org::BouncyCastle::Asn1::DerExternalParser::__get__parser() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1StreamParser, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parser", ty: "Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerExternalParser::DerExternalParser(Org::BouncyCastle::Asn1::Asn1StreamParser parser)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DerExternalParser>(parser))) {}
+ Org::BouncyCastle::Asn1::DerExternalParser Org::BouncyCastle::Asn1::DerExternalParser::New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser parser)  {
+Org::BouncyCastle::Asn1::DerExternalParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerExternalParser>(parser))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerExternalParser::_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser parser)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerExternalParser>::get(),

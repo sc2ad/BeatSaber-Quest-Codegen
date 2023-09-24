@@ -2,17 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Threading/Tasks/zzzz__AwaitTaskContinuation_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Threading {
-class SynchronizationContext;
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c;
 }
 namespace System::Threading {
 class SendOrPostCallback;
 }
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System {
 class Action;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Threading {
+class SynchronizationContext;
 }
 namespace System::Threading {
 class ContextCallback;
@@ -75,8 +78,7 @@ static System::Threading::Tasks::System__Threading__Tasks__SynchronizationContex
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c() ;
+static System::Threading::Tasks::System__Threading__Tasks__SynchronizationContextAwaitTaskContinuation____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24bd88c size 0x8 virtual false final false
  void _ctor() ;
@@ -153,8 +155,7 @@ constexpr System::Threading::SynchronizationContext __get_m_syncContext() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "System::Threading::SynchronizationContext", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "flowExecutionContext", ty: "bool", modifiers: "", def_value: None }]
-explicit SynchronizationContextAwaitTaskContinuation(System::Threading::SynchronizationContext context, System::Action action, bool flowExecutionContext) ;
+static System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation New_ctor(System::Threading::SynchronizationContext context, System::Action action, bool flowExecutionContext) ;
 
 /// @brief Method .ctor addr 0x24b92b8 size 0x30 virtual false final false
  void _ctor(System::Threading::SynchronizationContext context, System::Action action, bool flowExecutionContext) ;

@@ -5,16 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml {
-class ByteStack;
-}
-namespace System::Xml {
-class XmlWriterSettings;
-}
-namespace System::Xml {
-struct AttributeProperties;
-}
-namespace System::Xml {
-class TernaryTreeReadOnly;
+struct ElementProperties;
 }
 namespace System::IO {
 class Stream;
@@ -23,7 +14,16 @@ namespace System::Xml {
 struct XmlStandalone;
 }
 namespace System::Xml {
-struct ElementProperties;
+class ByteStack;
+}
+namespace System::Xml {
+class TernaryTreeReadOnly;
+}
+namespace System::Xml {
+class XmlWriterSettings;
+}
+namespace System::Xml {
+struct AttributeProperties;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -128,8 +128,7 @@ static System::Xml::TernaryTreeReadOnly __get_attributePropertySearch() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit HtmlUtf8RawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::HtmlUtf8RawTextWriter New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26bf834 size 0x2c virtual false final false
  void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;

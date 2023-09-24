@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierUIController_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
-#include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "GlobalNamespace/zzzz__IScoreController_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ScoreMultiplierUIController.Start
 template<>
 
@@ -246,8 +246,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, multiplier, progress);
 }
-// Ctor Parameters []
- GlobalNamespace::ScoreMultiplierUIController::ScoreMultiplierUIController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScoreMultiplierUIController>())) {}
+ GlobalNamespace::ScoreMultiplierUIController GlobalNamespace::ScoreMultiplierUIController::New_ctor()  {
+GlobalNamespace::ScoreMultiplierUIController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ScoreMultiplierUIController>())};
+return o;
+}
  void GlobalNamespace::ScoreMultiplierUIController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ScoreMultiplierUIController>::get(),

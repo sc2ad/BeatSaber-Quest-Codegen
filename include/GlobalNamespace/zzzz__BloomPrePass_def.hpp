@@ -4,16 +4,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class GlobalNamespace__BloomPrePassRenderDataSO__Data;
-}
-namespace GlobalNamespace {
-class BloomPrePassRendererSO;
+class BloomPrePassEffectContainerSO;
 }
 namespace GlobalNamespace {
 class BloomPrePassRenderDataSO;
 }
 namespace GlobalNamespace {
-class BloomPrePassEffectContainerSO;
+class BloomPrePassRendererSO;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BloomPrePass__Mode;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BloomPrePassRenderDataSO__Data;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,6 +74,8 @@ __SetDataOnly = 1,
 constexpr operator __GlobalNamespace__BloomPrePass__Mode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__BloomPrePass__Mode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -186,8 +191,7 @@ constexpr GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data __get
 /// @brief Method SetMode addr 0x1f91d48 size 0x8 virtual false final false
  void SetMode(GlobalNamespace::GlobalNamespace__BloomPrePass__Mode mode) ;
 
-// Ctor Parameters []
-explicit BloomPrePass() ;
+static GlobalNamespace::BloomPrePass New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f91d50 size 0x8 virtual false final false
  void _ctor() ;

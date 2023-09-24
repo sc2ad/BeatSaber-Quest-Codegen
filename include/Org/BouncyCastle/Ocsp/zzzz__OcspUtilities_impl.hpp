@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Ocsp/zzzz__OcspUtilities_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::OcspUtilities.GetAlgorithmOid
 template<>
 
@@ -144,8 +144,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerable, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Ocsp::OcspUtilities::OcspUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OcspUtilities>())) {}
+ Org::BouncyCastle::Ocsp::OcspUtilities Org::BouncyCastle::Ocsp::OcspUtilities::New_ctor()  {
+Org::BouncyCastle::Ocsp::OcspUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspUtilities>::get(),

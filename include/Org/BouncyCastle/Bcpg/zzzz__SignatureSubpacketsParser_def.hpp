@@ -65,8 +65,7 @@ constexpr System::IO::Stream __get_input() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit SignatureSubpacketsParser(System::IO::Stream input) ;
+static Org::BouncyCastle::Bcpg::SignatureSubpacketsParser New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x1149720 size 0x28 virtual false final false
  void _ctor(System::IO::Stream input) ;

@@ -72,8 +72,7 @@ constexpr System::Type __get__SignalType_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit SignalBindingBindInfo(System::Type signalType) ;
+static Zenject::SignalBindingBindInfo New_ctor(System::Type signalType) ;
 
 /// @brief Method .ctor addr 0x2d48f10 size 0x28 virtual false final false
  void _ctor(System::Type signalType) ;

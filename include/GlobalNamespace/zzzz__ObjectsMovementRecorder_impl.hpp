@@ -2,17 +2,17 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObjectsMovementRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__PlaybackRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
-#include "GlobalNamespace/zzzz__PosesPlayback_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "GlobalNamespace/zzzz__PoseObjectIdSO_def.hpp"
-#include "GlobalNamespace/zzzz__PlaybackScreenshotRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__PoseObject_def.hpp"
-#include "GlobalNamespace/zzzz__PosesRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__PlaybackRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
+#include "GlobalNamespace/zzzz__ObjectsMovementRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__PosesRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__PlaybackScreenshotRecorder_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__PosesPlayback_def.hpp"
+#include "GlobalNamespace/zzzz__PoseObject_def.hpp"
+#include "GlobalNamespace/zzzz__PoseObjectIdSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode::GlobalNamespace__ObjectsMovementRecorder__Mode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -125,8 +125,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitDa
 constexpr GlobalNamespace::IBeatSaberLogger GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData::__get_logger() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IBeatSaberLogger, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mode", ty: "GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode", modifiers: "", def_value: None }, CppParam { name: "recordingPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cameraView", ty: "GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView", modifiers: "", def_value: None }, CppParam { name: "addDateTimeSuffixToRecordingName", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "screenshotRecording", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "screenshotWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "screenshotHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "framerate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "playbackScreenshots", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot>", modifiers: "", def_value: None }, CppParam { name: "saveToOldFormat", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "logger", ty: "GlobalNamespace::IBeatSaberLogger", modifiers: "", def_value: None }, CppParam { name: "posesSerializer", ty: "GlobalNamespace::IPosesSerializer", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData::GlobalNamespace__ObjectsMovementRecorder__InitData(GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate, ::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot> playbackScreenshots, bool saveToOldFormat, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ObjectsMovementRecorder__InitData>(mode, recordingPath, cameraView, addDateTimeSuffixToRecordingName, screenshotRecording, screenshotWidth, screenshotHeight, framerate, playbackScreenshots, saveToOldFormat, logger, posesSerializer))) {}
+ GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData::New_ctor(GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate, ::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot> playbackScreenshots, bool saveToOldFormat, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer)  {
+GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData>(mode, recordingPath, cameraView, addDateTimeSuffixToRecordingName, screenshotRecording, screenshotWidth, screenshotHeight, framerate, playbackScreenshots, saveToOldFormat, logger, posesSerializer))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData::_ctor(GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate, ::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot> playbackScreenshots, bool saveToOldFormat, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ObjectsMovementRecorder__InitData>::get(),
@@ -333,8 +335,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ObjectsMovementRecorder::ObjectsMovementRecorder()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ObjectsMovementRecorder>())) {}
+ GlobalNamespace::ObjectsMovementRecorder GlobalNamespace::ObjectsMovementRecorder::New_ctor()  {
+GlobalNamespace::ObjectsMovementRecorder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObjectsMovementRecorder>())};
+return o;
+}
  void GlobalNamespace::ObjectsMovementRecorder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObjectsMovementRecorder>::get(),

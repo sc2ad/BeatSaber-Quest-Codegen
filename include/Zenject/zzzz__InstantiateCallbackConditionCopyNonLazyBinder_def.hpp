@@ -4,17 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class InjectContext;
+class ConditionCopyNonLazyBinder;
 }
 namespace Zenject {
-class ConditionCopyNonLazyBinder;
+template<typename T>
+class Zenject__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1;
+}
+namespace Zenject {
+class BindInfo;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace Zenject {
-class BindInfo;
+class InjectContext;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -77,8 +81,7 @@ constexpr explicit InstantiateCallbackConditionCopyNonLazyBinder(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit InstantiateCallbackConditionCopyNonLazyBinder(Zenject::BindInfo bindInfo) ;
+static Zenject::InstantiateCallbackConditionCopyNonLazyBinder New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d61cfc size 0x8 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;
@@ -147,8 +150,7 @@ constexpr System::Action_2<Zenject::InjectContext,T> __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1() ;
+static Zenject::Zenject__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

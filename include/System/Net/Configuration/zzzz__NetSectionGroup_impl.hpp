@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::Configuration::NetSectionGroup::NetSectionGroup()  : System::Configuration::ConfigurationSectionGroup(THROW_UNLESS(::il2cpp_utils::New<NetSectionGroup>())) {}
+ System::Net::Configuration::NetSectionGroup System::Net::Configuration::NetSectionGroup::New_ctor()  {
+System::Net::Configuration::NetSectionGroup o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Configuration::NetSectionGroup>())};
+return o;
+}
  void System::Net::Configuration::NetSectionGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Configuration::NetSectionGroup>::get(),

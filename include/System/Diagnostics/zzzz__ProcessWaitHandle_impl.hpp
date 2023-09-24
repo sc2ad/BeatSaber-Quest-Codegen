@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "processHandle", ty: "Microsoft::Win32::SafeHandles::SafeProcessHandle", modifiers: "", def_value: None }]
- System::Diagnostics::ProcessWaitHandle::ProcessWaitHandle(Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle)  : System::Threading::WaitHandle(THROW_UNLESS(::il2cpp_utils::New<ProcessWaitHandle>(processHandle))) {}
+ System::Diagnostics::ProcessWaitHandle System::Diagnostics::ProcessWaitHandle::New_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle)  {
+System::Diagnostics::ProcessWaitHandle o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::ProcessWaitHandle>(processHandle))};
+return o;
+}
  void System::Diagnostics::ProcessWaitHandle::_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::ProcessWaitHandle>::get(),

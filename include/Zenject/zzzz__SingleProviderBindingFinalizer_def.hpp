@@ -1,21 +1,21 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
-namespace Zenject {
-class IProvider;
-}
-namespace System {
-class Type;
-}
 namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
 namespace Zenject {
-class BindInfo;
+class IProvider;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -72,8 +72,7 @@ constexpr System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> _
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "providerFactory", ty: "System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider>", modifiers: "", def_value: None }]
-explicit SingleProviderBindingFinalizer(Zenject::BindInfo bindInfo, System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> providerFactory) ;
+static Zenject::SingleProviderBindingFinalizer New_ctor(Zenject::BindInfo bindInfo, System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> providerFactory) ;
 
 /// @brief Method .ctor addr 0x2d6d258 size 0x2c virtual false final false
  void _ctor(Zenject::BindInfo bindInfo, System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> providerFactory) ;

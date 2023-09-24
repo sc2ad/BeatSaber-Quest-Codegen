@@ -7,12 +7,12 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace Oculus::Platform::Models {
+class UserDataStoreUpdateResponse;
+}
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
-}
-namespace Oculus::Platform::Models {
-class UserDataStoreUpdateResponse;
 }
 // Forward declare root types
 namespace Oculus::Platform {

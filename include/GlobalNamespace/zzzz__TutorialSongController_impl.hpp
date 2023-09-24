@@ -4,16 +4,17 @@
 #include "GlobalNamespace/zzzz__TutorialSongController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__TutorialSongController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__TutorialSongController__InitData._ctor
 template<>
 
@@ -43,8 +44,10 @@ constexpr void GlobalNamespace::GlobalNamespace__TutorialSongController__InitDat
 constexpr GlobalNamespace::BeatmapData GlobalNamespace::GlobalNamespace__TutorialSongController__InitData::__get_beatmapData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BeatmapData, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "songBpm", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapData", ty: "GlobalNamespace::BeatmapData", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__TutorialSongController__InitData::GlobalNamespace__TutorialSongController__InitData(float_t songBpm, GlobalNamespace::BeatmapData beatmapData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TutorialSongController__InitData>(songBpm, beatmapData))) {}
+ GlobalNamespace::GlobalNamespace__TutorialSongController__InitData GlobalNamespace::GlobalNamespace__TutorialSongController__InitData::New_ctor(float_t songBpm, GlobalNamespace::BeatmapData beatmapData)  {
+GlobalNamespace::GlobalNamespace__TutorialSongController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TutorialSongController__InitData>(songBpm, beatmapData))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TutorialSongController__InitData::_ctor(float_t songBpm, GlobalNamespace::BeatmapData beatmapData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TutorialSongController__InitData>::get(),
@@ -95,8 +98,10 @@ constexpr void GlobalNamespace::GlobalNamespace__TutorialSongController__Tutoria
 constexpr int32_t GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData::__get_lineIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signal", ty: "GlobalNamespace::Signal", modifiers: "", def_value: None }, CppParam { name: "firstTimeBeatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TutorialSongController__TutorialObjectSpawnData>(signal, firstTimeBeatOffset, beatOffset, lineIndex))) {}
+ GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData::New_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex)  {
+GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData>(signal, firstTimeBeatOffset, beatOffset, lineIndex))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData::_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData>::get(),
@@ -129,8 +134,10 @@ constexpr void GlobalNamespace::GlobalNamespace__TutorialSongController__Tutoria
 constexpr GlobalNamespace::NoteLineLayer GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData::__get_noteLineLayer() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::NoteLineLayer, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signal", ty: "GlobalNamespace::Signal", modifiers: "", def_value: None }, CppParam { name: "firstTimeBeatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer)  : GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData>(signal, firstTimeBeatOffset, beatOffset, lineIndex, noteLineLayer))) {}
+ GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData::New_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer)  {
+GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData>(signal, firstTimeBeatOffset, beatOffset, lineIndex, noteLineLayer))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData::_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData>::get(),
@@ -169,8 +176,10 @@ constexpr void GlobalNamespace::GlobalNamespace__TutorialSongController__Tutoria
 constexpr GlobalNamespace::ColorType GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData::__get_colorType() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ColorType, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signal", ty: "GlobalNamespace::Signal", modifiers: "", def_value: None }, CppParam { name: "firstTimeBeatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "cutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "colorType", ty: "GlobalNamespace::ColorType", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData::GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::ColorType colorType)  : GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData>(signal, firstTimeBeatOffset, beatOffset, lineIndex, noteLineLayer, cutDirection, colorType))) {}
+ GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData::New_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::ColorType colorType)  {
+GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData>(signal, firstTimeBeatOffset, beatOffset, lineIndex, noteLineLayer, cutDirection, colorType))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData::_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::ColorType colorType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData>::get(),
@@ -197,8 +206,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "signal", ty: "GlobalNamespace::Signal", modifiers: "", def_value: None }, CppParam { name: "firstTimeBeatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData::GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer)  : GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData>(signal, firstTimeBeatOffset, beatOffset, lineIndex, noteLineLayer))) {}
+ GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData::New_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer)  {
+GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData>(signal, firstTimeBeatOffset, beatOffset, lineIndex, noteLineLayer))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData::_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData>::get(),
@@ -243,8 +254,10 @@ constexpr void GlobalNamespace::GlobalNamespace__TutorialSongController__Tutoria
 constexpr int32_t GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData::__get_height() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signal", ty: "GlobalNamespace::Signal", modifiers: "", def_value: None }, CppParam { name: "firstTimeBeatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData::GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, int32_t width, int32_t height, GlobalNamespace::NoteLineLayer noteLineLayer)  : GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData>(signal, firstTimeBeatOffset, beatOffset, lineIndex, width, height, noteLineLayer))) {}
+ GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData::New_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, int32_t width, int32_t height, GlobalNamespace::NoteLineLayer noteLineLayer)  {
+GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData>(signal, firstTimeBeatOffset, beatOffset, lineIndex, width, height, noteLineLayer))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData::_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, int32_t width, int32_t height, GlobalNamespace::NoteLineLayer noteLineLayer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData>::get(),
@@ -800,8 +813,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::NoteData, false>(const_cast<void*>(instance), ___internal_method, time, tutorialBombNoteSpawnData);
 }
-// Ctor Parameters []
- GlobalNamespace::TutorialSongController::TutorialSongController()  : GlobalNamespace::SongController(THROW_UNLESS(::il2cpp_utils::New<TutorialSongController>())) {}
+ GlobalNamespace::TutorialSongController GlobalNamespace::TutorialSongController::New_ctor()  {
+GlobalNamespace::TutorialSongController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TutorialSongController>())};
+return o;
+}
  void GlobalNamespace::TutorialSongController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TutorialSongController>::get(),

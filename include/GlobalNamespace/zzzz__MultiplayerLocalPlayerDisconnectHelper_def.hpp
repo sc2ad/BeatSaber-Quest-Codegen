@@ -3,7 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class IMultiplayerLevelEndActionsListener;
+}
+namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
 }
 namespace GlobalNamespace {
 class IGameplayRpcManager;
@@ -12,10 +15,7 @@ namespace GlobalNamespace {
 struct GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
 }
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsListener;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -96,8 +96,7 @@ static constexpr ::ConstString  kEndGameLabel{u"BUTTON_END_GAME"};
 /// @brief Method ResolveDisconnectButtonString addr 0x20e9b00 size 0x70 virtual false final false
  ::StringW ResolveDisconnectButtonString() ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalPlayerDisconnectHelper() ;
+static GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e9b70 size 0x8 virtual false final false
  void _ctor() ;

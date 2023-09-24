@@ -2,14 +2,15 @@
 #include "HoudiniEngineUnity/zzzz__HEU_Task_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetTask_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ReloadEventData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_CookedEventData_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AssetTask_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ReloadEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_CookedEventData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetTask__BuildType::HoudiniEngineUnity__HEU_AssetTask__BuildType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -258,8 +259,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reloadEventData);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_AssetTask::HEU_AssetTask()  : HoudiniEngineUnity::HEU_Task(THROW_UNLESS(::il2cpp_utils::New<HEU_AssetTask>())) {}
+ HoudiniEngineUnity::HEU_AssetTask HoudiniEngineUnity::HEU_AssetTask::New_ctor()  {
+HoudiniEngineUnity::HEU_AssetTask o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_AssetTask>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_AssetTask::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_AssetTask>::get(),

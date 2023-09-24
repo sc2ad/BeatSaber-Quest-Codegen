@@ -2,32 +2,32 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilderWithKey;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipher;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilder;
 }
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class ICipherBuilderWithKey;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -103,8 +103,7 @@ constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_algorithmIden
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encryptionOID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit Asn1CipherBuilderWithKey(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize, Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0xe9b09c size 0x120 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize, Org::BouncyCastle::Security::SecureRandom random) ;

@@ -117,8 +117,10 @@ return ::cordl_internals::getInstanceField<UnityEngine::Playables::Playable, 0x1
  int64_t UnityEngine::Timeline::InfiniteRuntimeClip::__get_kIntervalEnd()  {
 return ::cordl_internals::getStaticField<int64_t, "kIntervalEnd", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::InfiniteRuntimeClip>::get>();
 }
-// Ctor Parameters [CppParam { name: "playable", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: None }]
- UnityEngine::Timeline::InfiniteRuntimeClip::InfiniteRuntimeClip(UnityEngine::Playables::Playable playable)  : UnityEngine::Timeline::RuntimeElement(THROW_UNLESS(::il2cpp_utils::New<InfiniteRuntimeClip>(playable))) {}
+ UnityEngine::Timeline::InfiniteRuntimeClip UnityEngine::Timeline::InfiniteRuntimeClip::New_ctor(UnityEngine::Playables::Playable playable)  {
+UnityEngine::Timeline::InfiniteRuntimeClip o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::InfiniteRuntimeClip>(playable))};
+return o;
+}
  void UnityEngine::Timeline::InfiniteRuntimeClip::_ctor(UnityEngine::Playables::Playable playable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::InfiniteRuntimeClip>::get(),

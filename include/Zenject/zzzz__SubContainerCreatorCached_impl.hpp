@@ -1,7 +1,7 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorCached_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__ISubContainerCreator_def.hpp"
@@ -61,8 +61,10 @@ constexpr void Zenject::SubContainerCreatorCached::__set__subContainer(Zenject::
 constexpr Zenject::DiContainer Zenject::SubContainerCreatorCached::__get__subContainer() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "subCreator", ty: "Zenject::ISubContainerCreator", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorCached::SubContainerCreatorCached(Zenject::ISubContainerCreator subCreator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorCached>(subCreator))) {}
+ Zenject::SubContainerCreatorCached Zenject::SubContainerCreatorCached::New_ctor(Zenject::ISubContainerCreator subCreator)  {
+Zenject::SubContainerCreatorCached o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorCached>(subCreator))};
+return o;
+}
  void Zenject::SubContainerCreatorCached::_ctor(Zenject::ISubContainerCreator subCreator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorCached>::get(),

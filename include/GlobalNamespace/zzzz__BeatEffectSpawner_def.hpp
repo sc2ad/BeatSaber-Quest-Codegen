@@ -4,38 +4,41 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
 class NoteController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatEffect__Pool;
 }
 namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class BloomFogSO;
-}
-namespace GlobalNamespace {
 template<typename T>
 class MemoryPoolContainer_1;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class GlobalNamespace__BeatEffectSpawner__InitData;
 }
 namespace GlobalNamespace {
 class IBeatEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
-class SongController;
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class BloomFogSO;
 }
 namespace GlobalNamespace {
 class BeatEffect;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class SongController;
 }
-namespace GlobalNamespace {
-class GlobalNamespace__BeatEffect__Pool;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +98,7 @@ constexpr bool __get_hideNoteSpawnEffect() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hideNoteSpawnEffect", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatEffectSpawner__InitData(bool hideNoteSpawnEffect) ;
+static GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData New_ctor(bool hideNoteSpawnEffect) ;
 
 /// @brief Method .ctor addr 0x2258828 size 0x28 virtual false final false
  void _ctor(bool hideNoteSpawnEffect) ;
@@ -227,8 +229,7 @@ constexpr GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BeatEffect> __
 /// @brief Method HandleBeatEffectDidFinish addr 0x2258734 size 0xd8 virtual true final true
  void HandleBeatEffectDidFinish(GlobalNamespace::BeatEffect beatEffect) ;
 
-// Ctor Parameters []
-explicit BeatEffectSpawner() ;
+static GlobalNamespace::BeatEffectSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x225880c size 0x1c virtual false final false
  void _ctor() ;

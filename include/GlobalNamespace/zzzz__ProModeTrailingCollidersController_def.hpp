@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace GlobalNamespace {
-class NoteMovement;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class NoteMovement;
 }
 namespace GlobalNamespace {
 class BoxCuttableBySaber;
@@ -93,8 +93,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method HandleNoteDidMoveInJumpPhase addr 0x2243510 size 0x170 virtual false final false
  void HandleNoteDidMoveInJumpPhase() ;
 
-// Ctor Parameters []
-explicit ProModeTrailingCollidersController() ;
+static GlobalNamespace::ProModeTrailingCollidersController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2243680 size 0x8 virtual false final false
  void _ctor() ;

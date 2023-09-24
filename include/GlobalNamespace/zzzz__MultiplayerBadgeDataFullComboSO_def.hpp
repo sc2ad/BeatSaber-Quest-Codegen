@@ -3,20 +3,20 @@
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class MultiplayerPlayerResultsData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,8 +76,7 @@ constexpr float_t __get__weight() const;
 /// @brief Method CalculateBadgeData addr 0x20d8170 size 0x464 virtual true final false
  GlobalNamespace::MultiplayerBadgeAwardData CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> resultsData, GlobalNamespace::PlayerDataModel playerDataModel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, float_t randomMultiplier) ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgeDataFullComboSO() ;
+static GlobalNamespace::MultiplayerBadgeDataFullComboSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d8634 size 0x10 virtual false final false
  void _ctor() ;

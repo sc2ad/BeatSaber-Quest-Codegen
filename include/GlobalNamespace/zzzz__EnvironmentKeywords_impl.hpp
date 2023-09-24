@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__EnvironmentKeywords_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EnvironmentKeywords.get_environmentKeywords
 template<>
 
@@ -74,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<::StringW>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "environmentKeywords", ty: "System::Collections::Generic::IReadOnlyList_1<::StringW>", modifiers: "", def_value: None }]
- GlobalNamespace::EnvironmentKeywords::EnvironmentKeywords(System::Collections::Generic::IReadOnlyList_1<::StringW> environmentKeywords)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EnvironmentKeywords>(environmentKeywords))) {}
+ GlobalNamespace::EnvironmentKeywords GlobalNamespace::EnvironmentKeywords::New_ctor(System::Collections::Generic::IReadOnlyList_1<::StringW> environmentKeywords)  {
+GlobalNamespace::EnvironmentKeywords o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnvironmentKeywords>(environmentKeywords))};
+return o;
+}
  void GlobalNamespace::EnvironmentKeywords::_ctor(System::Collections::Generic::IReadOnlyList_1<::StringW> environmentKeywords)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnvironmentKeywords>::get(),

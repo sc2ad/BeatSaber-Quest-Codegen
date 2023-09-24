@@ -64,8 +64,7 @@ constexpr Zenject::BindInfo __get__BindInfo_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit IfNotBoundBinder(Zenject::BindInfo bindInfo) ;
+static Zenject::IfNotBoundBinder New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d61ca4 size 0x28 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;

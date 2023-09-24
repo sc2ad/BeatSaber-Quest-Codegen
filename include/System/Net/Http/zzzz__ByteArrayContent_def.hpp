@@ -7,11 +7,11 @@
 namespace System::Net {
 class TransportContext;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -80,8 +80,7 @@ constexpr int32_t __get_count() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "content", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ByteArrayContent(::ArrayW<uint8_t> content) ;
+static System::Net::Http::ByteArrayContent New_ctor(::ArrayW<uint8_t> content) ;
 
 /// @brief Method .ctor addr 0x269f1c4 size 0x80 virtual false final false
  void _ctor(::ArrayW<uint8_t> content) ;

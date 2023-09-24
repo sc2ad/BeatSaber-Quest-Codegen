@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1InputStream;
+class Asn1Set;
 }
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1InputStream;
 }
 namespace Org::BouncyCastle::X509 {
 class PemParser;
@@ -115,8 +115,7 @@ constexpr System::IO::Stream __get_currentStream() const;
 /// @brief Method ReadAttrCerts addr 0x10ec928 size 0x110 virtual false final false
  System::Collections::ICollection ReadAttrCerts(System::IO::Stream inStream) ;
 
-// Ctor Parameters []
-explicit X509AttrCertParser() ;
+static Org::BouncyCastle::X509::X509AttrCertParser New_ctor() ;
 
 /// @brief Method .ctor addr 0x10ecac8 size 0x8 virtual false final false
  void _ctor() ;

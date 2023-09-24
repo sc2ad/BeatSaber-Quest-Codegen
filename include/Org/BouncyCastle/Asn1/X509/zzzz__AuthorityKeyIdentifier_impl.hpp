@@ -1,15 +1,15 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AuthorityKeyIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier.GetInstance
 template<>
 
@@ -293,8 +293,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier, false>(nullptr, ___internal_method, extensions);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::AuthorityKeyIdentifier(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AuthorityKeyIdentifier>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>::get(),
@@ -304,8 +306,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "spki", ty: "Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::AuthorityKeyIdentifier(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AuthorityKeyIdentifier>(spki))) {}
+ Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::New_ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki)  {
+Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>(spki))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::_ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>::get(),
@@ -315,8 +319,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, spki);
 }
-// Ctor Parameters [CppParam { name: "spki", ty: "Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo", modifiers: "", def_value: None }, CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::AuthorityKeyIdentifier(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AuthorityKeyIdentifier>(spki, name, serialNumber))) {}
+ Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::New_ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber)  {
+Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>(spki, name, serialNumber))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::_ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>::get(),
@@ -326,8 +332,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, spki, name, serialNumber);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::AuthorityKeyIdentifier(Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AuthorityKeyIdentifier>(name, serialNumber))) {}
+ Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber)  {
+Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>(name, serialNumber))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>::get(),
@@ -337,8 +345,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, serialNumber);
 }
-// Ctor Parameters [CppParam { name: "keyIdentifier", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::AuthorityKeyIdentifier(::ArrayW<uint8_t> keyIdentifier)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AuthorityKeyIdentifier>(keyIdentifier))) {}
+ Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::New_ctor(::ArrayW<uint8_t> keyIdentifier)  {
+Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>(keyIdentifier))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::_ctor(::ArrayW<uint8_t> keyIdentifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>::get(),
@@ -348,8 +358,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyIdentifier);
 }
-// Ctor Parameters [CppParam { name: "keyIdentifier", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::AuthorityKeyIdentifier(::ArrayW<uint8_t> keyIdentifier, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AuthorityKeyIdentifier>(keyIdentifier, name, serialNumber))) {}
+ Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::New_ctor(::ArrayW<uint8_t> keyIdentifier, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber)  {
+Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>(keyIdentifier, name, serialNumber))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::_ctor(::ArrayW<uint8_t> keyIdentifier, Org::BouncyCastle::Asn1::X509::GeneralNames name, Org::BouncyCastle::Math::BigInteger serialNumber)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier>::get(),

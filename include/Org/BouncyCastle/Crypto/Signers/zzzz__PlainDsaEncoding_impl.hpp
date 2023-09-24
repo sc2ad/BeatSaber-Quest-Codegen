@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__PlainDsaEncoding_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding.Decode
 template<>
 
@@ -159,8 +159,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, n, x, buf, off, len);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::PlainDsaEncoding()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlainDsaEncoding>())) {}
+ Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::New_ctor()  {
+Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding>::get(),

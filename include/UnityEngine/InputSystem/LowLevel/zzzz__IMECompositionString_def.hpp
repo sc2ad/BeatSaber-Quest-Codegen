@@ -4,15 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__IMECompositionString___buffer_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__IMECompositionString__Enumerator;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>

@@ -104,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::ConstraintPositionOffset::ConstraintPositionOffset()  : RootMotion::FinalIK::Constraint(THROW_UNLESS(::il2cpp_utils::New<ConstraintPositionOffset>())) {}
+ RootMotion::FinalIK::ConstraintPositionOffset RootMotion::FinalIK::ConstraintPositionOffset::New_ctor()  {
+RootMotion::FinalIK::ConstraintPositionOffset o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::ConstraintPositionOffset>())};
+return o;
+}
  void RootMotion::FinalIK::ConstraintPositionOffset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::ConstraintPositionOffset>::get(),
@@ -115,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::ConstraintPositionOffset::ConstraintPositionOffset(UnityEngine::Transform transform)  : RootMotion::FinalIK::Constraint(THROW_UNLESS(::il2cpp_utils::New<ConstraintPositionOffset>(transform))) {}
+ RootMotion::FinalIK::ConstraintPositionOffset RootMotion::FinalIK::ConstraintPositionOffset::New_ctor(UnityEngine::Transform transform)  {
+RootMotion::FinalIK::ConstraintPositionOffset o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::ConstraintPositionOffset>(transform))};
+return o;
+}
  void RootMotion::FinalIK::ConstraintPositionOffset::_ctor(UnityEngine::Transform transform)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::ConstraintPositionOffset>::get(),

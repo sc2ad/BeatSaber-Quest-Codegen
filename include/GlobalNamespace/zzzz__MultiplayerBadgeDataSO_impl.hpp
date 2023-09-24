@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerBadgeDataSO.get_icon
 template<>
 
@@ -146,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::MultiplayerBadgeAwardData, false>(const_cast<void*>(instance), ___internal_method, resultsData, playerDataModel, difficultyBeatmap, randomMultiplier);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerBadgeDataSO::MultiplayerBadgeDataSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<MultiplayerBadgeDataSO>())) {}
+ GlobalNamespace::MultiplayerBadgeDataSO GlobalNamespace::MultiplayerBadgeDataSO::New_ctor()  {
+GlobalNamespace::MultiplayerBadgeDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerBadgeDataSO>())};
+return o;
+}
  void GlobalNamespace::MultiplayerBadgeDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerBadgeDataSO>::get(),

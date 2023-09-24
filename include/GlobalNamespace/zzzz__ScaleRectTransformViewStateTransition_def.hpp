@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class Vector3TransitionSO;
-}
 namespace Tweening {
 class Vector3Tween;
 }
 namespace GlobalNamespace {
 class BaseTransitionSO;
+}
+namespace GlobalNamespace {
+class Vector3TransitionSO;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +122,7 @@ constexpr Tweening::Vector3Tween __get__vectorTween() const;
 /// @brief Method StartTween addr 0x212b1bc size 0x228 virtual false final false
  void StartTween(UnityEngine::Vector3 endScale) ;
 
-// Ctor Parameters []
-explicit ScaleRectTransformViewStateTransition() ;
+static GlobalNamespace::ScaleRectTransformViewStateTransition New_ctor() ;
 
 /// @brief Method .ctor addr 0x212b58c size 0x48 virtual false final false
  void _ctor() ;

@@ -2,10 +2,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Newtonsoft::Json::Linq {
-struct MergeNullValueHandling;
+struct MergeArrayHandling;
 }
 namespace Newtonsoft::Json::Linq {
-struct MergeArrayHandling;
+struct MergeNullValueHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -87,8 +87,7 @@ constexpr Newtonsoft::Json::Linq::MergeNullValueHandling __get__mergeNullValueHa
 /// @brief Method set_MergeNullValueHandling addr 0x2518f7c size 0x64 virtual false final false
  void set_MergeNullValueHandling(Newtonsoft::Json::Linq::MergeNullValueHandling value) ;
 
-// Ctor Parameters []
-explicit JsonMergeSettings() ;
+static Newtonsoft::Json::Linq::JsonMergeSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2518fe0 size 0x8 virtual false final false
  void _ctor() ;

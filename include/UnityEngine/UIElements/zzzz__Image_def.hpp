@@ -6,8 +6,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -16,27 +17,17 @@ class IEnumerator_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace UnityEngine::UIElements {
 class UxmlChildElementDescription;
 }
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__VisualElement__MeasureMode;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class MeshGenerationContext;
-}
-namespace UnityEngine {
-struct Rect;
+struct Color;
 }
 namespace UnityEngine {
 class Sprite;
@@ -45,23 +36,41 @@ namespace UnityEngine::UIElements {
 template<typename T>
 struct CustomStyleProperty_1;
 }
-namespace UnityEngine {
-struct ScaleMode;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Texture;
-}
 namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
+struct UnityEngine__UIElements__VisualElement__MeasureMode;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine::UIElements {
 class VectorImage;
 }
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
+}
 namespace UnityEngine {
-class Texture2D;
+struct ScaleMode;
+}
+namespace UnityEngine::UIElements {
+class MeshGenerationContext;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__Image__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__Image__UxmlTraits;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -128,8 +137,7 @@ constexpr explicit UnityEngine__UIElements__Image__UxmlTraits(void* ptr) noexcep
 /// @brief Method get_uxmlChildElementsDescription addr 0x2cbc270 size 0x64 virtual true final false
  System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::UxmlChildElementDescription> get_uxmlChildElementsDescription() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Image__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbc318 size 0x8 virtual false final false
  void _ctor() ;
@@ -315,8 +323,7 @@ static UnityEngine::UIElements::CustomStyleProperty_1<UnityEngine::Color> __get_
 /// @brief Method get_tintColor addr 0x2cbb140 size 0x14 virtual false final false
  UnityEngine::Color get_tintColor() ;
 
-// Ctor Parameters []
-explicit Image() ;
+static UnityEngine::UIElements::Image New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbb154 size 0x1e8 virtual false final false
  void _ctor() ;
@@ -349,7 +356,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7179)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5091 }), TypeDefinitionIndex(TypeDefinitionIndex(7178)), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5091 }), TypeDefinitionIndex(TypeDefinitionIndex(7179)), TypeDefinitionIndex(TypeDefinitionIndex(7178))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7176))
 // CS Name: UnityEngine.UIElements.Image::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__Image__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Image,UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits> {
@@ -388,8 +395,7 @@ constexpr explicit UnityEngine__UIElements__Image__UxmlFactory(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Image__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbc228 size 0x48 virtual false final false
  void _ctor() ;
@@ -489,8 +495,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits __
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2cbc2d4 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;

@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography {
-struct CipherMode;
+struct PaddingMode;
 }
 namespace System::Security::Cryptography {
-struct PaddingMode;
+struct CipherMode;
 }
 namespace System::Security::Cryptography {
 class RijndaelManaged;
@@ -85,8 +85,7 @@ constexpr System::Security::Cryptography::RijndaelManaged __get_m_rijndael() con
 
 // Methods
 
-// Ctor Parameters []
-explicit AesManaged() ;
+static System::Security::Cryptography::AesManaged New_ctor() ;
 
 /// @brief Method .ctor addr 0x267b7b8 size 0x164 virtual false final false
  void _ctor() ;

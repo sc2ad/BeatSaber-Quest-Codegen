@@ -11,7 +11,7 @@ class PointerDownEvent;
 // Type: UnityEngine.UIElements::PointerDownEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4681 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4681 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7298))
 // CS Name: UnityEngine.UIElements.PointerDownEvent
 class CORDL_TYPE PointerDownEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerDownEvent> {
@@ -56,8 +56,7 @@ constexpr explicit PointerDownEvent(void* ptr) noexcept : UnityEngine::UIElement
 /// @brief Method LocalInit addr 0x2cd7b30 size 0x104 virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit PointerDownEvent() ;
+static UnityEngine::UIElements::PointerDownEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd7c34 size 0x50 virtual false final false
  void _ctor() ;

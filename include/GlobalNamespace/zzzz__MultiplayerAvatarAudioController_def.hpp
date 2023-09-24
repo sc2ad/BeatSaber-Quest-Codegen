@@ -3,21 +3,24 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4;
 }
 namespace UnityEngine {
 class AudioSource;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +108,7 @@ constexpr GlobalNamespace::MultiplayerAvatarAudioController __get___4__this() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerAvatarAudioController___Start_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c3490 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -200,8 +202,7 @@ constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 /// @brief Method Start addr 0x20c3428 size 0x68 virtual false final false
  System::Collections::IEnumerator Start() ;
 
-// Ctor Parameters []
-explicit MultiplayerAvatarAudioController() ;
+static GlobalNamespace::MultiplayerAvatarAudioController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c34b8 size 0x8 virtual false final false
  void _ctor() ;

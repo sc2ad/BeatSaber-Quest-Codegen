@@ -1,19 +1,20 @@
 #pragma once
 #include "Zenject/Internal/zzzz__ZenUtilInternal_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "Zenject/zzzz__SceneContext_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "Zenject/Internal/zzzz__ZenUtilInternal_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__SceneContext_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Internal::Zenject__Internal__ZenUtilInternal____c._ctor
 template<>
 
@@ -117,8 +118,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::GameObject,
  System::Func_2<UnityEngine::GameObject,bool> Zenject::Internal::Zenject__Internal__ZenUtilInternal____c::__get___9__10_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::GameObject,bool>, "<>9__10_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ZenUtilInternal____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Internal::Zenject__Internal__ZenUtilInternal____c::Zenject__Internal__ZenUtilInternal____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__Internal__ZenUtilInternal____c>())) {}
+ Zenject::Internal::Zenject__Internal__ZenUtilInternal____c Zenject::Internal::Zenject__Internal__ZenUtilInternal____c::New_ctor()  {
+Zenject::Internal::Zenject__Internal__ZenUtilInternal____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::Zenject__Internal__ZenUtilInternal____c>())};
+return o;
+}
  void Zenject::Internal::Zenject__Internal__ZenUtilInternal____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ZenUtilInternal____c>::get(),
@@ -361,8 +364,10 @@ constexpr void Zenject::Internal::Zenject__Internal__ZenUtilInternal___GetAllSce
 constexpr System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene> Zenject::Internal::Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Zenject::Internal::Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3::Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3>(__1__state))) {}
+ Zenject::Internal::Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3 Zenject::Internal::Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3::New_ctor(int32_t __1__state)  {
+Zenject::Internal::Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3>(__1__state))};
+return o;
+}
  void Zenject::Internal::Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3>::get(),
@@ -484,8 +489,10 @@ constexpr void Zenject::Internal::Zenject__Internal__ZenUtilInternal____c__Displ
 constexpr UnityEngine::SceneManagement::Scene Zenject::Internal::Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0::__get_scene() const {
 return ::cordl_internals::getInstanceField<UnityEngine::SceneManagement::Scene, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Internal::Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0::Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0>())) {}
+ Zenject::Internal::Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0 Zenject::Internal::Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0::New_ctor()  {
+Zenject::Internal::Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0>())};
+return o;
+}
  void Zenject::Internal::Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0>::get(),

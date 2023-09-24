@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdate_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdate_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputUpdate__UpdateStepCount.get_value
 template<>

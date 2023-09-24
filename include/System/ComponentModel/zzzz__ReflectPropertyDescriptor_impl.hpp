@@ -1,17 +1,17 @@
 #pragma once
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "System/ComponentModel/zzzz__ReflectPropertyDescriptor_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
-#include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
-#include "System/Collections/Specialized/zzzz__BitVector32_def.hpp"
+#include "System/zzzz__EventArgs_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
-#include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
-#include "System/Diagnostics/zzzz__TraceSwitch_def.hpp"
-#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__EventArgs_def.hpp"
+#include "System/Collections/Specialized/zzzz__BitVector32_def.hpp"
+#include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
+#include "System/Diagnostics/zzzz__TraceSwitch_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
+#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 //  Writing Method size for method: System::ComponentModel::ReflectPropertyDescriptor._ctor
 template<>
 
@@ -627,8 +627,10 @@ constexpr void System::ComponentModel::ReflectPropertyDescriptor::__set_receiver
 constexpr System::Type System::ComponentModel::ReflectPropertyDescriptor::__get_receiverType() const {
 return ::cordl_internals::getInstanceField<System::Type, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "componentClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
- System::ComponentModel::ReflectPropertyDescriptor::ReflectPropertyDescriptor(System::Type componentClass, ::StringW name, System::Type type, ::ArrayW<System::Attribute> attributes)  : System::ComponentModel::PropertyDescriptor(THROW_UNLESS(::il2cpp_utils::New<ReflectPropertyDescriptor>(componentClass, name, type, attributes))) {}
+ System::ComponentModel::ReflectPropertyDescriptor System::ComponentModel::ReflectPropertyDescriptor::New_ctor(System::Type componentClass, ::StringW name, System::Type type, ::ArrayW<System::Attribute> attributes)  {
+System::ComponentModel::ReflectPropertyDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ReflectPropertyDescriptor>(componentClass, name, type, attributes))};
+return o;
+}
  void System::ComponentModel::ReflectPropertyDescriptor::_ctor(System::Type componentClass, ::StringW name, System::Type type, ::ArrayW<System::Attribute> attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ReflectPropertyDescriptor>::get(),
@@ -638,8 +640,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, componentClass, name, type, attributes);
 }
-// Ctor Parameters [CppParam { name: "componentClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "propInfo", ty: "System::Reflection::PropertyInfo", modifiers: "", def_value: None }, CppParam { name: "getMethod", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "setMethod", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
- System::ComponentModel::ReflectPropertyDescriptor::ReflectPropertyDescriptor(System::Type componentClass, ::StringW name, System::Type type, System::Reflection::PropertyInfo propInfo, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs)  : System::ComponentModel::PropertyDescriptor(THROW_UNLESS(::il2cpp_utils::New<ReflectPropertyDescriptor>(componentClass, name, type, propInfo, getMethod, setMethod, attrs))) {}
+ System::ComponentModel::ReflectPropertyDescriptor System::ComponentModel::ReflectPropertyDescriptor::New_ctor(System::Type componentClass, ::StringW name, System::Type type, System::Reflection::PropertyInfo propInfo, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs)  {
+System::ComponentModel::ReflectPropertyDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ReflectPropertyDescriptor>(componentClass, name, type, propInfo, getMethod, setMethod, attrs))};
+return o;
+}
  void System::ComponentModel::ReflectPropertyDescriptor::_ctor(System::Type componentClass, ::StringW name, System::Type type, System::Reflection::PropertyInfo propInfo, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ReflectPropertyDescriptor>::get(),
@@ -649,8 +653,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, componentClass, name, type, propInfo, getMethod, setMethod, attrs);
 }
-// Ctor Parameters [CppParam { name: "componentClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "receiverType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "getMethod", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "setMethod", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
- System::ComponentModel::ReflectPropertyDescriptor::ReflectPropertyDescriptor(System::Type componentClass, ::StringW name, System::Type type, System::Type receiverType, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs)  : System::ComponentModel::PropertyDescriptor(THROW_UNLESS(::il2cpp_utils::New<ReflectPropertyDescriptor>(componentClass, name, type, receiverType, getMethod, setMethod, attrs))) {}
+ System::ComponentModel::ReflectPropertyDescriptor System::ComponentModel::ReflectPropertyDescriptor::New_ctor(System::Type componentClass, ::StringW name, System::Type type, System::Type receiverType, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs)  {
+System::ComponentModel::ReflectPropertyDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ReflectPropertyDescriptor>(componentClass, name, type, receiverType, getMethod, setMethod, attrs))};
+return o;
+}
  void System::ComponentModel::ReflectPropertyDescriptor::_ctor(System::Type componentClass, ::StringW name, System::Type type, System::Type receiverType, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ReflectPropertyDescriptor>::get(),

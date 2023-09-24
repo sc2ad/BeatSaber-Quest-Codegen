@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::AssetReferenceGameObject::AssetReferenceGameObject(::StringW guid)  : UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::GameObject>(THROW_UNLESS(::il2cpp_utils::New<AssetReferenceGameObject>(guid))) {}
+ UnityEngine::AddressableAssets::AssetReferenceGameObject UnityEngine::AddressableAssets::AssetReferenceGameObject::New_ctor(::StringW guid)  {
+UnityEngine::AddressableAssets::AssetReferenceGameObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::AssetReferenceGameObject>(guid))};
+return o;
+}
  void UnityEngine::AddressableAssets::AssetReferenceGameObject::_ctor(::StringW guid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::AssetReferenceGameObject>::get(),

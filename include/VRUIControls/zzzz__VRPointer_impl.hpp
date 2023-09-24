@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "VRUIControls/zzzz__VRPointer_def.hpp"
-#include "VRUIControls/zzzz__VRLaserPointer_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
+#include "VRUIControls/zzzz__VRLaserPointer_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: VRUIControls::VRPointer.get_lastSelectedVrController
 template<>
@@ -664,8 +664,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pointerEventData);
 }
-// Ctor Parameters []
- VRUIControls::VRPointer::VRPointer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VRPointer>())) {}
+ VRUIControls::VRPointer VRUIControls::VRPointer::New_ctor()  {
+VRUIControls::VRPointer o{THROW_UNLESS(::il2cpp_utils::New<VRUIControls::VRPointer>())};
+return o;
+}
  void VRUIControls::VRPointer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<VRUIControls::VRPointer>::get(),

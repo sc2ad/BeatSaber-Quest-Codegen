@@ -7,10 +7,10 @@ namespace System {
 class Type;
 }
 namespace UnityEngine {
-class Shader;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+class Shader;
 }
 namespace UnityEngine {
 class ResourceRequest;
@@ -89,8 +89,7 @@ static UnityEngine::ResourcesAPI get_ActiveAPI() ;
 /// @brief Method get_overrideAPI addr 0x2b67c44 size 0x58 virtual false final false
 static UnityEngine::ResourcesAPI get_overrideAPI() ;
 
-// Ctor Parameters []
-explicit ResourcesAPI() ;
+static UnityEngine::ResourcesAPI New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b67c9c size 0x8 virtual false final false
  void _ctor() ;

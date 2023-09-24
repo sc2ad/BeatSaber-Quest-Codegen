@@ -76,8 +76,7 @@ constexpr GlobalNamespace::GameplayModifiersPanelController __get__gameplayModif
 /// @brief Method DidActivate addr 0x217915c size 0xa0 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit SelectModifiersViewController() ;
+static GlobalNamespace::SelectModifiersViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21791fc size 0x8 virtual false final false
  void _ctor() ;

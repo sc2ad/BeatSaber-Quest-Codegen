@@ -2,21 +2,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace HMUI {
+class InputFieldView;
+}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace HMUI {
-class InputFieldViewChangeBinder;
+class UIKeyboard;
 }
 namespace HMUI {
-class InputFieldView;
+class InputFieldViewChangeBinder;
 }
 namespace UnityEngine::UI {
 class Button;
-}
-namespace HMUI {
-class UIKeyboard;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -127,8 +127,7 @@ constexpr HMUI::InputFieldViewChangeBinder __get__inputFieldViewChangeBinder() c
 /// @brief Method HandleCancelButtonPressed addr 0x21795e0 size 0x24 virtual false final false
  void HandleCancelButtonPressed() ;
 
-// Ctor Parameters []
-explicit ServerCodeEntryViewController() ;
+static GlobalNamespace::ServerCodeEntryViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2179604 size 0x68 virtual false final false
  void _ctor() ;

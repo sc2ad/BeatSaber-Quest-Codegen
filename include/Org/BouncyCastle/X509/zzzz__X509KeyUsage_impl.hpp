@@ -42,8 +42,10 @@ constexpr void Org::BouncyCastle::X509::X509KeyUsage::__set_usage(int32_t value)
 constexpr int32_t Org::BouncyCastle::X509::X509KeyUsage::__get_usage() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::X509KeyUsage::X509KeyUsage(int32_t usage)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509KeyUsage>(usage))) {}
+ Org::BouncyCastle::X509::X509KeyUsage Org::BouncyCastle::X509::X509KeyUsage::New_ctor(int32_t usage)  {
+Org::BouncyCastle::X509::X509KeyUsage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509KeyUsage>(usage))};
+return o;
+}
  void Org::BouncyCastle::X509::X509KeyUsage::_ctor(int32_t usage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509KeyUsage>::get(),

@@ -58,8 +58,7 @@ constexpr ::StringW __get_Value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UserProof(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::UserProof New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x25a3c6c size 0x78 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

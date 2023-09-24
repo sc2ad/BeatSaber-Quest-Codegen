@@ -6,13 +6,31 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
 class ScriptableObject;
 }
 namespace UnityEngine::UIElements {
 class EventDispatcher;
 }
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__BaseRuntimePanel____c;
+}
 namespace UnityEngine {
 class GameObject;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -20,21 +38,6 @@ class Func_2;
 }
 namespace UnityEngine {
 class Shader;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Event;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -94,8 +97,7 @@ static UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c _
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__BaseRuntimePanel____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c80e30 size 0x8 virtual false final false
  void _ctor() ;
@@ -263,8 +265,7 @@ constexpr System::Func_2<UnityEngine::Vector2,UnityEngine::Vector2> __get_m_Scre
 /// @brief Method remove_destroyed addr 0x2c80364 size 0xa0 virtual false final false
  void remove_destroyed(System::Action value) ;
 
-// Ctor Parameters [CppParam { name: "ownerObject", ty: "UnityEngine::ScriptableObject", modifiers: "", def_value: None }, CppParam { name: "dispatcher", ty: "UnityEngine::UIElements::EventDispatcher", modifiers: "", def_value: None }]
-explicit BaseRuntimePanel(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::EventDispatcher dispatcher) ;
+static UnityEngine::UIElements::BaseRuntimePanel New_ctor(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::EventDispatcher dispatcher) ;
 
 /// @brief Method .ctor addr 0x2c80404 size 0x110 virtual false final false
  void _ctor(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::EventDispatcher dispatcher) ;

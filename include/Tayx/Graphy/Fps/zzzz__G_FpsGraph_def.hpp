@@ -3,17 +3,17 @@
 #include "Tayx/Graphy/Graph/zzzz__G_Graph_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class Shader;
+namespace Tayx::Graphy {
+class G_GraphShader;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
 }
-namespace Tayx::Graphy {
-class G_GraphShader;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace UnityEngine {
+class Shader;
 }
 namespace Tayx::Graphy::Fps {
 class G_FpsMonitor;
@@ -142,8 +142,7 @@ constexpr int32_t __get_m_highestFps() const;
 /// @brief Method Init addr 0x2875550 size 0xd4 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit G_FpsGraph() ;
+static Tayx::Graphy::Fps::G_FpsGraph New_ctor() ;
 
 /// @brief Method .ctor addr 0x2875770 size 0x10 virtual false final false
  void _ctor() ;

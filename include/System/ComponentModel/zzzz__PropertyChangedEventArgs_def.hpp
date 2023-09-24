@@ -57,8 +57,7 @@ constexpr ::StringW __get__propertyName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "propertyName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PropertyChangedEventArgs(::StringW propertyName) ;
+static System::ComponentModel::PropertyChangedEventArgs New_ctor(::StringW propertyName) ;
 
 /// @brief Method .ctor addr 0x2787040 size 0x6c virtual false final false
  void _ctor(::StringW propertyName) ;

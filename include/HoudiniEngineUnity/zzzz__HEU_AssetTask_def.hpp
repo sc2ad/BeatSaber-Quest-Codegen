@@ -5,29 +5,32 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-class HEU_ReloadEventData;
+struct HoudiniEngineUnity__HEU_AssetTask__BuildType;
 }
 namespace HoudiniEngineUnity {
-struct HoudiniEngineUnity__HEU_Task__TaskResult;
-}
-namespace HoudiniEngineUnity {
-class HEU_CookedEventData;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+class HEU_SessionBase;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_ReloadEventData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_Task__TaskResult;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_CookedEventData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -87,6 +90,8 @@ __RELOAD = 3,
 constexpr operator __HoudiniEngineUnity__HEU_AssetTask__BuildType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_AssetTask__BuildType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -217,8 +222,7 @@ constexpr int64_t __get__forceSessionID() const;
 /// @brief Method CookCompletedCallback addr 0x2039b60 size 0x10 virtual false final false
  void CookCompletedCallback(HoudiniEngineUnity::HEU_ReloadEventData reloadEventData) ;
 
-// Ctor Parameters []
-explicit HEU_AssetTask() ;
+static HoudiniEngineUnity::HEU_AssetTask New_ctor() ;
 
 /// @brief Method .ctor addr 0x2039b70 size 0xb8 virtual false final false
  void _ctor() ;

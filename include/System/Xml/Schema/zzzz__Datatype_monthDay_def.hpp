@@ -58,8 +58,7 @@ constexpr explicit Datatype_monthDay(void* ptr) noexcept : System::Xml::Schema::
 /// @brief Method get_TypeCode addr 0x27267a0 size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_monthDay() ;
+static System::Xml::Schema::Datatype_monthDay New_ctor() ;
 
 /// @brief Method .ctor addr 0x27267a8 size 0x58 virtual false final false
  void _ctor() ;

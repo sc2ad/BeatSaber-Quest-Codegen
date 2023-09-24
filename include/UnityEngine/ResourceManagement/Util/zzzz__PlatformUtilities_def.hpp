@@ -53,8 +53,7 @@ constexpr explicit PlatformUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 /// @brief Method PlatformUsesMultiThreading addr 0x2a3a684 size 0xc virtual false final false
 static bool PlatformUsesMultiThreading(UnityEngine::RuntimePlatform platform) ;
 
-// Ctor Parameters []
-explicit PlatformUtilities() ;
+static UnityEngine::ResourceManagement::Util::PlatformUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3a690 size 0x8 virtual false final false
  void _ctor() ;

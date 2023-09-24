@@ -71,8 +71,7 @@ constexpr ::ArrayW<uint8_t> __get_mMki() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "protectionProfiles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "mki", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit UseSrtpData(::ArrayW<int32_t> protectionProfiles, ::ArrayW<uint8_t> mki) ;
+static Org::BouncyCastle::Crypto::Tls::UseSrtpData New_ctor(::ArrayW<int32_t> protectionProfiles, ::ArrayW<uint8_t> mki) ;
 
 /// @brief Method .ctor addr 0xf2c0ec size 0x138 virtual false final false
  void _ctor(::ArrayW<int32_t> protectionProfiles, ::ArrayW<uint8_t> mki) ;

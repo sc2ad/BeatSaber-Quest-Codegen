@@ -50,8 +50,7 @@ constexpr explicit ScriptableObject(void* ptr) noexcept : UnityEngine::Object(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit ScriptableObject() ;
+static UnityEngine::ScriptableObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5a2e4 size 0x80 virtual false final false
  void _ctor() ;

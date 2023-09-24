@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine::ResourceManagement::Util {
-class IAllocationStrategy;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IAllocationStrategy;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -63,8 +63,7 @@ constexpr explicit DefaultAllocationStrategy(void* ptr) noexcept : ::bs_hook::Il
 /// @brief Method Release addr 0x2a3a6a4 size 0x4 virtual true final true
  void Release(int32_t typeHash, ::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit DefaultAllocationStrategy() ;
+static UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3a6a8 size 0x8 virtual false final false
  void _ctor() ;

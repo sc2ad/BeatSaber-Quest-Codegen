@@ -3,9 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreSpawner_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingScoreSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
 #include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition::GlobalNamespace__FlyingScoreSpawner__SpawnPosition(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -41,8 +42,10 @@ constexpr void GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData::_
 constexpr GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData::__get_spawnPosition() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "spawnPosition", ty: "GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData::GlobalNamespace__FlyingScoreSpawner__InitData(GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition spawnPosition)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FlyingScoreSpawner__InitData>(spawnPosition))) {}
+ GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData::New_ctor(GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition spawnPosition)  {
+GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData>(spawnPosition))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData::_ctor(GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition spawnPosition)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData>::get(),
@@ -137,8 +140,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, flyingObjectEffect);
 }
-// Ctor Parameters []
- GlobalNamespace::FlyingScoreSpawner::FlyingScoreSpawner()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FlyingScoreSpawner>())) {}
+ GlobalNamespace::FlyingScoreSpawner GlobalNamespace::FlyingScoreSpawner::New_ctor()  {
+GlobalNamespace::FlyingScoreSpawner o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FlyingScoreSpawner>())};
+return o;
+}
  void GlobalNamespace::FlyingScoreSpawner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FlyingScoreSpawner>::get(),

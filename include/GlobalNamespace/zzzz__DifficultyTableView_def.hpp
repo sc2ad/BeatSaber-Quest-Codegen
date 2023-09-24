@@ -7,9 +7,6 @@
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace HMUI {
-class TableView;
-}
 namespace GlobalNamespace {
 class DifficultyTableCell;
 }
@@ -18,10 +15,13 @@ template<typename T1,typename T2>
 class Action_2;
 }
 namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
 class HMUI__TableView__IDataSource;
 }
 namespace HMUI {
-class TableCell;
+class TableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -150,8 +150,7 @@ constexpr ::ArrayW<GlobalNamespace::IDifficultyBeatmap> __get__difficultyBeatmap
 /// @brief Method ClearSelection addr 0x2186284 size 0x1c virtual false final false
  void ClearSelection() ;
 
-// Ctor Parameters []
-explicit DifficultyTableView() ;
+static GlobalNamespace::DifficultyTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x21862a0 size 0x10 virtual false final false
  void _ctor() ;

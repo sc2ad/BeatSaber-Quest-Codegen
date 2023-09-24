@@ -58,8 +58,7 @@ constexpr explicit ContainedPacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg
 /// @brief Method Encode addr 0x0 size 0xffffffffffffffff virtual true final false
  void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
-// Ctor Parameters []
-explicit ContainedPacket() ;
+static Org::BouncyCastle::Bcpg::ContainedPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x1146318 size 0x8 virtual false final false
  void _ctor() ;

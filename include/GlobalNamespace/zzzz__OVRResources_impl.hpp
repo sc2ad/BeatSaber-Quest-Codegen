@@ -1,9 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRResources_def.hpp"
+#include "GlobalNamespace/zzzz__OVRResources_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass2_0._ctor
 template<>
 
@@ -44,8 +45,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass
 constexpr ::StringW GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass2_0::__get_path() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass2_0::GlobalNamespace__OVRResources____c__DisplayClass2_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRResources____c__DisplayClass2_0>())) {}
+ GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass2_0 GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass2_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass2_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass2_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass2_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass2_0>::get(),
@@ -159,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, bundle);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRResources::OVRResources()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRResources>())) {}
+ GlobalNamespace::OVRResources GlobalNamespace::OVRResources::New_ctor()  {
+GlobalNamespace::OVRResources o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRResources>())};
+return o;
+}
  void GlobalNamespace::OVRResources::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRResources>::get(),
@@ -170,60 +175,28 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1::*)()>(&GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1._Load_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1::*)(::StringW)>(&GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1::_Load_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1>::get(),
-                            "<Load>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1::__set_path(::StringW value)  {
+constexpr void GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T>::__set_path(::StringW value)  {
 ::cordl_internals::setInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::StringW>(value));
 }
-constexpr ::StringW GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1::__get_path() const {
+constexpr ::StringW GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T>::__get_path() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1::GlobalNamespace__OVRResources____c__DisplayClass3_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRResources____c__DisplayClass3_0_1>())) {}
- void GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1::_ctor()  {
+ GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T> GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T>::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T> o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T>>())};
+return o;
+}
+ void GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- bool GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1::_Load_b__0(::StringW s)  {
+ bool GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T>::_Load_b__0(::StringW s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T>>::get(),
                             "<Load>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}

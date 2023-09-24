@@ -4,13 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Net {
+class System__Net__PathList__PathListComparer;
+}
+namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
 class SortedList;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections {
 class IComparer;
@@ -79,8 +82,7 @@ static System::Net::System__Net__PathList__PathListComparer __get_StaticInstance
 /// @brief Method System.Collections.IComparer.Compare addr 0x2821c58 size 0x168 virtual true final true
  int32_t System_Collections_IComparer_Compare(::bs_hook::Il2CppWrapperType ol, ::bs_hook::Il2CppWrapperType or) ;
 
-// Ctor Parameters []
-explicit System__Net__PathList__PathListComparer() ;
+static System::Net::System__Net__PathList__PathListComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2821dc0 size 0x8 virtual false final false
  void _ctor() ;
@@ -153,8 +155,7 @@ constexpr System::Collections::SortedList __get_m_list() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PathList() ;
+static System::Net::PathList New_ctor() ;
 
 /// @brief Method .ctor addr 0x281e1b0 size 0xa8 virtual false final false
  void _ctor() ;

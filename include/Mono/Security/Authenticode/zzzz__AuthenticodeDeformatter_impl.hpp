@@ -1,14 +1,13 @@
 #pragma once
 #include "Mono/Security/Authenticode/zzzz__AuthenticodeBase_impl.hpp"
 #include "Mono/Security/Authenticode/zzzz__AuthenticodeDeformatter_def.hpp"
-#include "Mono/Security/zzzz__ASN1_def.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
+#include "Mono/Security/zzzz__PKCS7_def.hpp"
+#include "Mono/Security/zzzz__ASN1_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Chain_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "Mono/Security/zzzz__PKCS7_def.hpp"
-#include "Mono/Security/zzzz__PKCS7_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Chain_def.hpp"
 //  Writing Method size for method: Mono::Security::Authenticode::AuthenticodeDeformatter._ctor
 template<>
 
@@ -240,8 +239,10 @@ constexpr void Mono::Security::Authenticode::AuthenticodeDeformatter::__set_time
 constexpr Mono::Security::X509::X509Chain Mono::Security::Authenticode::AuthenticodeDeformatter::__get_timestampChain() const {
 return ::cordl_internals::getInstanceField<Mono::Security::X509::X509Chain, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::Authenticode::AuthenticodeDeformatter::AuthenticodeDeformatter()  : Mono::Security::Authenticode::AuthenticodeBase(THROW_UNLESS(::il2cpp_utils::New<AuthenticodeDeformatter>())) {}
+ Mono::Security::Authenticode::AuthenticodeDeformatter Mono::Security::Authenticode::AuthenticodeDeformatter::New_ctor()  {
+Mono::Security::Authenticode::AuthenticodeDeformatter o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Authenticode::AuthenticodeDeformatter>())};
+return o;
+}
  void Mono::Security::Authenticode::AuthenticodeDeformatter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Authenticode::AuthenticodeDeformatter>::get(),
@@ -251,8 +252,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::Authenticode::AuthenticodeDeformatter::AuthenticodeDeformatter(::ArrayW<uint8_t> rawData)  : Mono::Security::Authenticode::AuthenticodeBase(THROW_UNLESS(::il2cpp_utils::New<AuthenticodeDeformatter>(rawData))) {}
+ Mono::Security::Authenticode::AuthenticodeDeformatter Mono::Security::Authenticode::AuthenticodeDeformatter::New_ctor(::ArrayW<uint8_t> rawData)  {
+Mono::Security::Authenticode::AuthenticodeDeformatter o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Authenticode::AuthenticodeDeformatter>(rawData))};
+return o;
+}
  void Mono::Security::Authenticode::AuthenticodeDeformatter::_ctor(::ArrayW<uint8_t> rawData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Authenticode::AuthenticodeDeformatter>::get(),

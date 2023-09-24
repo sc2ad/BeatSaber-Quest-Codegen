@@ -7,17 +7,17 @@
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct ValueFixupEnum;
 }
-namespace System::Reflection {
-class MemberInfo;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ReadObjectInfo;
+}
+namespace System {
+class Array;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ParseRecord;
 }
-namespace System {
-class Array;
+namespace System::Reflection {
+class MemberInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -116,14 +116,12 @@ constexpr ::StringW __get_memberName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "arrayObj", ty: "System::Array", modifiers: "", def_value: None }, CppParam { name: "indexMap", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit ValueFixup(System::Array arrayObj, ::ArrayW<int32_t> indexMap) ;
+static System::Runtime::Serialization::Formatters::Binary::ValueFixup New_ctor(System::Array arrayObj, ::ArrayW<int32_t> indexMap) ;
 
 /// @brief Method .ctor addr 0x23622d4 size 0x34 virtual false final false
  void _ctor(System::Array arrayObj, ::ArrayW<int32_t> indexMap) ;
 
-// Ctor Parameters [CppParam { name: "memberObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "memberName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectInfo", ty: "System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo", modifiers: "", def_value: None }]
-explicit ValueFixup(::bs_hook::Il2CppWrapperType memberObject, ::StringW memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo objectInfo) ;
+static System::Runtime::Serialization::Formatters::Binary::ValueFixup New_ctor(::bs_hook::Il2CppWrapperType memberObject, ::StringW memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo objectInfo) ;
 
 /// @brief Method .ctor addr 0x236272c size 0x44 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType memberObject, ::StringW memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo objectInfo) ;

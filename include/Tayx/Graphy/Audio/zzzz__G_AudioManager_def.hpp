@@ -1,42 +1,42 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+namespace UnityEngine {
+class RectTransform;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioText;
+}
+namespace UnityEngine::UI {
+class Text;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Tayx::Graphy::UI {
+class IMovable;
+}
 namespace Tayx::Graphy::Audio {
 class G_AudioGraph;
 }
 namespace UnityEngine::UI {
 class Image;
 }
-namespace UnityEngine::UI {
-class Text;
-}
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
-}
-namespace UnityEngine {
-class RectTransform;
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__ModuleState;
 }
 namespace Tayx::Graphy::UI {
 class IModifiableState;
 }
-namespace Tayx::Graphy {
-class GraphyManager;
-}
-namespace Tayx::Graphy::UI {
-class IMovable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Tayx::Graphy::Audio {
-class G_AudioText;
-}
-namespace Tayx::Graphy {
-struct Tayx__Graphy__GraphyManager__ModuleState;
 }
 namespace Tayx::Graphy {
 struct Tayx__Graphy__GraphyManager__ModulePosition;
@@ -189,8 +189,7 @@ constexpr Tayx::Graphy::Tayx__Graphy__GraphyManager__ModuleState __get_m_current
 /// @brief Method SetGraphActive addr 0x28776e0 size 0x44 virtual false final false
  void SetGraphActive(bool active) ;
 
-// Ctor Parameters []
-explicit G_AudioManager() ;
+static Tayx::Graphy::Audio::G_AudioManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2877814 size 0xc0 virtual false final false
  void _ctor() ;

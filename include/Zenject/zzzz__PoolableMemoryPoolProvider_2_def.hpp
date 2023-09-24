@@ -3,8 +3,9 @@
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace Zenject {
-class DiContainer;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Zenject {
 class IValidatable;
@@ -13,17 +14,16 @@ namespace System {
 struct Guid;
 }
 namespace Zenject {
-class InjectContext;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class DiContainer;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
 }
 namespace System {
 class Action;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -40,7 +40,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TContract,::cordl_internals::il2cpp_reference_type TMemoryPool>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11162)), TypeDefinitionIndex(TypeDefinitionIndex(11161)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11161), inst: 4687 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11161), inst: 4687 }), TypeDefinitionIndex(TypeDefinitionIndex(11162)), TypeDefinitionIndex(TypeDefinitionIndex(11161))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11162), inst: 80 })
 // CS Name: Zenject.PoolableMemoryPoolProvider`2
 class CORDL_TYPE PoolableMemoryPoolProvider_2<TContract,TMemoryPool> : public Zenject::PoolableMemoryPoolProviderBase_1<TContract> {
@@ -91,8 +91,7 @@ constexpr TMemoryPool __get__pool() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "poolId", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit PoolableMemoryPoolProvider_2(Zenject::DiContainer container, System::Guid poolId) ;
+static Zenject::PoolableMemoryPoolProvider_2<TContract,TMemoryPool> New_ctor(Zenject::DiContainer container, System::Guid poolId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, System::Guid poolId) ;

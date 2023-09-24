@@ -7,6 +7,9 @@
 namespace UnityEngine {
 struct Rect;
 }
+namespace UnityEngine::ProBuilder {
+struct UnityEngine__ProBuilder__Clipping__OutCode;
+}
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct UnityEngine__ProBuilder__Clipping__OutCode;
@@ -66,6 +69,8 @@ __Top = 8,
 constexpr operator __UnityEngine__ProBuilder__Clipping__OutCode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ProBuilder__Clipping__OutCode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

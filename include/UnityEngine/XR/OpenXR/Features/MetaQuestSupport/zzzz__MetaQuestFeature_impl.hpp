@@ -2,6 +2,7 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/MetaQuestSupport/zzzz__MetaQuestFeature_def.hpp"
+#include "UnityEngine/XR/OpenXR/Features/MetaQuestSupport/zzzz__MetaQuestFeature_def.hpp"
 // Ctor Parameters [CppParam { name: "visibleName", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "manifestName", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "active", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::XR::OpenXR::Features::MetaQuestSupport::UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice::UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice(::StringW visibleName, ::StringW manifestName, bool enabled, bool active) noexcept : ::bs_hook::ValueTypeWrapper() {this->visibleName = visibleName;
 this->manifestName = manifestName;
@@ -49,8 +50,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature::MetaQuestFeature()  : UnityEngine::XR::OpenXR::Features::OpenXRFeature(THROW_UNLESS(::il2cpp_utils::New<MetaQuestFeature>())) {}
+ UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature>::get(),

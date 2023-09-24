@@ -5,27 +5,36 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace GlobalNamespace {
-class ResultObjectiveListItem;
+namespace System {
+class IDisposable;
 }
-namespace GlobalNamespace {
-class MissionObjectiveResult;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class MissionObjective;
 }
 namespace GlobalNamespace {
-class SongPreviewPlayer;
+class MissionObjectiveResult;
+}
+namespace GlobalNamespace {
+class ResultObjectiveListItem;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class ResultObjectiveListItemsList;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -33,36 +42,33 @@ class AudioClip;
 namespace GlobalNamespace {
 class MissionNode;
 }
+namespace UnityEngine {
+class GameObject;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28;
 }
 namespace GlobalNamespace {
 class FireworksController;
 }
 namespace UnityEngine {
-class GameObject;
+struct Color;
 }
 namespace GlobalNamespace {
 class MissionCompletionResults;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 namespace UnityEngine {
 class Coroutine;
 }
 namespace GlobalNamespace {
-class ResultObjectiveListItemsList;
+class GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -159,8 +165,7 @@ constexpr GlobalNamespace::MissionResultsViewController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2173fec size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -253,8 +258,7 @@ constexpr ::ArrayW<GlobalNamespace::MissionObjectiveResult> __get_missionObjecti
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0() ;
+static GlobalNamespace::GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2174014 size 0x8 virtual false final false
  void _ctor() ;
@@ -474,8 +478,7 @@ constexpr UnityEngine::Coroutine __get__startFireworksAfterDelayCoroutine() cons
 /// @brief Method RetryButtonPressed addr 0x217403c size 0x20 virtual false final false
  void RetryButtonPressed() ;
 
-// Ctor Parameters []
-explicit MissionResultsViewController() ;
+static GlobalNamespace::MissionResultsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217405c size 0x8 virtual false final false
  void _ctor() ;

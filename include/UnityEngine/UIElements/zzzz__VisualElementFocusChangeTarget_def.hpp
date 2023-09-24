@@ -2,14 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusChangeDirection_def.hpp"
 namespace UnityEngine::UIElements {
+template<typename T>
+class ObjectPool_1;
+}
+namespace UnityEngine::UIElements {
 class FocusController;
 }
 namespace UnityEngine::UIElements {
 class Focusable;
-}
-namespace UnityEngine::UIElements {
-template<typename T>
-class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -86,8 +86,7 @@ static UnityEngine::UIElements::VisualElementFocusChangeTarget GetPooled(UnityEn
 /// @brief Method ApplyTo addr 0x2c42858 size 0x24 virtual true final false
  void ApplyTo(UnityEngine::UIElements::FocusController focusController, UnityEngine::UIElements::Focusable f) ;
 
-// Ctor Parameters []
-explicit VisualElementFocusChangeTarget() ;
+static UnityEngine::UIElements::VisualElementFocusChangeTarget New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c4287c size 0xa0 virtual false final false
  void _ctor() ;

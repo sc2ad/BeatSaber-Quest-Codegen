@@ -4,11 +4,11 @@
 namespace UnityEngine::UI {
 class Image;
 }
-namespace UnityEngine {
-class Material;
-}
 namespace GlobalNamespace {
 class BoolSO;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr UnityEngine::UI::Image __get__image() const;
 /// @brief Method Awake addr 0x2115644 size 0x80 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit ConditionalImageMaterialSwitcher() ;
+static GlobalNamespace::ConditionalImageMaterialSwitcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x21156c4 size 0x8 virtual false final false
  void _ctor() ;

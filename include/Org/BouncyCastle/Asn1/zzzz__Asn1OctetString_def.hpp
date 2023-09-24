@@ -6,19 +6,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetStringParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class IAsn1Convertible;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetStringParser;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -92,8 +92,7 @@ static Org::BouncyCastle::Asn1::Asn1OctetString GetInstance(Org::BouncyCastle::A
 /// @brief Method GetInstance addr 0x11255f4 size 0x2b8 virtual false final false
 static Org::BouncyCastle::Asn1::Asn1OctetString GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Asn1OctetString(::ArrayW<uint8_t> str) ;
+static Org::BouncyCastle::Asn1::Asn1OctetString New_ctor(::ArrayW<uint8_t> str) ;
 
 /// @brief Method .ctor addr 0x112c5b8 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> str) ;

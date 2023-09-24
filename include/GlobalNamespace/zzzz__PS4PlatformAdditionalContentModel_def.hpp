@@ -12,7 +12,7 @@ class PS4PlatformAdditionalContentModel;
 // Type: ::PS4PlatformAdditionalContentModel
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4638)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4688), inst: 4826 }), TypeDefinitionIndex(TypeDefinitionIndex(4688))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4688), inst: 4826 }), TypeDefinitionIndex(TypeDefinitionIndex(4688)), TypeDefinitionIndex(TypeDefinitionIndex(4638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4640))
 // CS Name: PS4PlatformAdditionalContentModel
 class CORDL_TYPE PS4PlatformAdditionalContentModel : public GlobalNamespace::SonyPlatformAdditionalContentModel_1<GlobalNamespace::PS4LevelProductsModelSO> {
@@ -63,8 +63,7 @@ constexpr GlobalNamespace::PS4LevelProductsModelSO __get__ps4LevelProductsModel(
 /// @brief Method GetLevelProductsModel addr 0x221a6f4 size 0x8 virtual true final false
  GlobalNamespace::PS4LevelProductsModelSO GetLevelProductsModel() ;
 
-// Ctor Parameters []
-explicit PS4PlatformAdditionalContentModel() ;
+static GlobalNamespace::PS4PlatformAdditionalContentModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a6fc size 0x48 virtual false final false
  void _ctor() ;

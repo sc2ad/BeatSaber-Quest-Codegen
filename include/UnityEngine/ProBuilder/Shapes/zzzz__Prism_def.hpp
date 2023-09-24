@@ -1,20 +1,20 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Bounds;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
-}
-namespace UnityEngine {
-struct Bounds;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -68,8 +68,7 @@ constexpr explicit Prism(void* ptr) noexcept : UnityEngine::ProBuilder::Shapes::
 /// @brief Method RebuildMesh addr 0x29f6a2c size 0x814 virtual true final false
  UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit Prism() ;
+static UnityEngine::ProBuilder::Shapes::Prism New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f7240 size 0x8 virtual false final false
  void _ctor() ;

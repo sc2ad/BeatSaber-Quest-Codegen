@@ -3,21 +3,24 @@
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSkeleton__BoneId;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRSkeleton__BoneId;
+struct GlobalNamespace__OVRSkeleton__SkeletonType;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRSkeleton__SkeletonType;
+struct GlobalNamespace__OVRCustomSkeleton__RetargetingType;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,6 +77,8 @@ __OculusSkeleton = 0,
 constexpr operator __GlobalNamespace__OVRCustomSkeleton__RetargetingType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRCustomSkeleton__RetargetingType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -176,8 +181,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRCustomSkeleton__RetargetingType _
 /// @brief Method SetSkeletonType addr 0x261ee5c size 0x88 virtual false final false
  void SetSkeletonType(GlobalNamespace::GlobalNamespace__OVRSkeleton__SkeletonType skeletonType) ;
 
-// Ctor Parameters []
-explicit OVRCustomSkeleton() ;
+static GlobalNamespace::OVRCustomSkeleton New_ctor() ;
 
 /// @brief Method .ctor addr 0x261eee4 size 0x8 virtual false final false
  void _ctor() ;

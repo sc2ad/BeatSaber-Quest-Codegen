@@ -13,7 +13,7 @@ class MessageWithLaunchReportFlowResult;
 // Type: Oculus.Platform::MessageWithLaunchReportFlowResult
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13425)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4449 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4449 }), TypeDefinitionIndex(TypeDefinitionIndex(13425))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13243))
 // CS Name: Oculus.Platform.MessageWithLaunchReportFlowResult
 class CORDL_TYPE MessageWithLaunchReportFlowResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::LaunchReportFlowResult> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithLaunchReportFlowResult(void* ptr) noexcept : Oculu
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithLaunchReportFlowResult(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithLaunchReportFlowResult New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x2581910 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

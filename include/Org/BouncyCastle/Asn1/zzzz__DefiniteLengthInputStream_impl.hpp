@@ -122,8 +122,10 @@ constexpr void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__set__remain
 constexpr int32_t Org::BouncyCastle::Asn1::DefiniteLengthInputStream::__get__remaining() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DefiniteLengthInputStream::DefiniteLengthInputStream(System::IO::Stream inStream, int32_t length, int32_t limit)  : Org::BouncyCastle::Asn1::LimitedInputStream(THROW_UNLESS(::il2cpp_utils::New<DefiniteLengthInputStream>(inStream, length, limit))) {}
+ Org::BouncyCastle::Asn1::DefiniteLengthInputStream Org::BouncyCastle::Asn1::DefiniteLengthInputStream::New_ctor(System::IO::Stream inStream, int32_t length, int32_t limit)  {
+Org::BouncyCastle::Asn1::DefiniteLengthInputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DefiniteLengthInputStream>(inStream, length, limit))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DefiniteLengthInputStream::_ctor(System::IO::Stream inStream, int32_t length, int32_t limit)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DefiniteLengthInputStream>::get(),

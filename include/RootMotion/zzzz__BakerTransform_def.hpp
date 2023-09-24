@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace UnityEngine {
-class AnimationCurve;
+class AnimationClip;
 }
 namespace UnityEngine {
-struct Quaternion;
+class AnimationCurve;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class AnimationClip;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -146,8 +146,7 @@ constexpr UnityEngine::Quaternion __get_relativeRotation() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "root", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "recordPosition", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRootNode", ty: "bool", modifiers: "", def_value: None }]
-explicit BakerTransform(UnityEngine::Transform transform, UnityEngine::Transform root, bool recordPosition, bool isRootNode) ;
+static RootMotion::BakerTransform New_ctor(UnityEngine::Transform transform, UnityEngine::Transform root, bool recordPosition, bool isRootNode) ;
 
 /// @brief Method .ctor addr 0x11a6f18 size 0x94 virtual false final false
  void _ctor(UnityEngine::Transform transform, UnityEngine::Transform root, bool recordPosition, bool isRootNode) ;

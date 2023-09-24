@@ -7,11 +7,11 @@ class ITickable;
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
-namespace GlobalNamespace {
-class IMenuButtonTrigger;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class IMenuButtonTrigger;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +89,7 @@ constexpr System::Action __get_menuButtonTriggeredEvent() const;
 /// @brief Method Tick addr 0x20ce828 size 0xcc virtual true final true
  void Tick() ;
 
-// Ctor Parameters []
-explicit InstantMenuButtonTrigger() ;
+static GlobalNamespace::InstantMenuButtonTrigger New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ce8f4 size 0x8 virtual false final false
  void _ctor() ;

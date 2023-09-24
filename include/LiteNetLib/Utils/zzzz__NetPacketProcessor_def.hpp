@@ -14,39 +14,78 @@ namespace System {
 class AsyncCallback;
 }
 namespace System {
-template<typename TResult>
-class Func_1;
-}
-namespace System {
 template<typename T>
 class Action_1;
 }
 namespace System {
+template<typename TResult>
+class Func_1;
+}
+namespace System {
 template<typename T1,typename T2>
 class Action_2;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetPacketProcessor__HashCache_1;
+}
+namespace LiteNetLib {
+class NetManager;
+}
+namespace LiteNetLib::Utils {
+template<typename T,typename TUserData>
+class LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2;
+}
+namespace LiteNetLib::Utils {
+template<typename T,typename TUserData>
+class LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2;
+}
+namespace LiteNetLib {
+struct DeliveryMethod;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1;
+}
+namespace LiteNetLib::Utils {
+class LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+template<typename T,typename TUserData>
+class LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2;
 }
-namespace LiteNetLib {
-class NetManager;
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1;
 }
 namespace LiteNetLib::Utils {
 class NetSerializer;
 }
 namespace LiteNetLib {
-struct DeliveryMethod;
-}
-namespace LiteNetLib {
 class NetPeer;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace LiteNetLib::Utils {
+template<typename T,typename TUserData>
+class LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
@@ -225,8 +264,7 @@ constexpr explicit LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate(void
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x20992cc size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -344,14 +382,12 @@ constexpr LiteNetLib::Utils::NetDataWriter __get__netDataWriter() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NetPacketProcessor() ;
+static LiteNetLib::Utils::NetPacketProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2098e44 size 0xe0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "maxStringLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NetPacketProcessor(int32_t maxStringLength) ;
+static LiteNetLib::Utils::NetPacketProcessor New_ctor(int32_t maxStringLength) ;
 
 /// @brief Method .ctor addr 0x2098f2c size 0xec virtual false final false
  void _ctor(int32_t maxStringLength) ;
@@ -528,8 +564,7 @@ constexpr System::Action_1<T> __get_onReceive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -606,8 +641,7 @@ constexpr System::Action_2<T,TUserData> __get_onReceive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -684,8 +718,7 @@ constexpr System::Action_1<T> __get_onReceive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -762,8 +795,7 @@ constexpr System::Action_2<T,TUserData> __get_onReceive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -834,8 +866,7 @@ constexpr System::Action_2<T,TUserData> __get_onReceive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -906,8 +937,7 @@ constexpr System::Action_1<T> __get_onReceive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -978,8 +1008,7 @@ constexpr System::Action_2<T,TUserData> __get_onReceive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1050,8 +1079,7 @@ constexpr System::Action_1<T> __get_onReceive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1() ;
+static LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

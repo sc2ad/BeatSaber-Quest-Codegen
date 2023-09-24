@@ -1,18 +1,18 @@
 #pragma once
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__CommandType_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/zzzz__RectInt_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__DrawParams_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__State_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__State_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__CommandType_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::RenderChainCommand.Reset
 template<>
 
@@ -232,8 +232,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::RectInt, false>(nullptr, ___internal_method, rect, pixelsPerPoint);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::RenderChainCommand::RenderChainCommand()  : UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::RenderChainCommand>(THROW_UNLESS(::il2cpp_utils::New<RenderChainCommand>())) {}
+ UnityEngine::UIElements::UIR::RenderChainCommand UnityEngine::UIElements::UIR::RenderChainCommand::New_ctor()  {
+UnityEngine::UIElements::UIR::RenderChainCommand o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::RenderChainCommand>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::RenderChainCommand::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::RenderChainCommand>::get(),

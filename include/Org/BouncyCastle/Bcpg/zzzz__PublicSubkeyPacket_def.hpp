@@ -2,19 +2,19 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyPacket_def.hpp"
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-class IBcpgKey;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 namespace System {
 struct DateTime;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class IBcpgKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -62,14 +62,12 @@ constexpr explicit PublicSubkeyPacket(void* ptr) noexcept : Org::BouncyCastle::B
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PublicSubkeyPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::PublicSubkeyPacket New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1144fe0 size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "key", ty: "Org::BouncyCastle::Bcpg::IBcpgKey", modifiers: "", def_value: None }]
-explicit PublicSubkeyPacket(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, System::DateTime time, Org::BouncyCastle::Bcpg::IBcpgKey key) ;
+static Org::BouncyCastle::Bcpg::PublicSubkeyPacket New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, System::DateTime time, Org::BouncyCastle::Bcpg::IBcpgKey key) ;
 
 /// @brief Method .ctor addr 0x11486b0 size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, System::DateTime time, Org::BouncyCastle::Bcpg::IBcpgKey key) ;

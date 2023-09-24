@@ -151,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::Security::Cryptography::CspParameters::CspParameters()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CspParameters>())) {}
+ System::Security::Cryptography::CspParameters System::Security::Cryptography::CspParameters::New_ctor()  {
+System::Security::Cryptography::CspParameters o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CspParameters>())};
+return o;
+}
  void System::Security::Cryptography::CspParameters::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CspParameters>::get(),
@@ -162,8 +164,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "dwTypeIn", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::Cryptography::CspParameters::CspParameters(int32_t dwTypeIn)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CspParameters>(dwTypeIn))) {}
+ System::Security::Cryptography::CspParameters System::Security::Cryptography::CspParameters::New_ctor(int32_t dwTypeIn)  {
+System::Security::Cryptography::CspParameters o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CspParameters>(dwTypeIn))};
+return o;
+}
  void System::Security::Cryptography::CspParameters::_ctor(int32_t dwTypeIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CspParameters>::get(),
@@ -173,8 +177,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dwTypeIn);
 }
-// Ctor Parameters [CppParam { name: "dwTypeIn", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "strProviderNameIn", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "strContainerNameIn", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Cryptography::CspParameters::CspParameters(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CspParameters>(dwTypeIn, strProviderNameIn, strContainerNameIn))) {}
+ System::Security::Cryptography::CspParameters System::Security::Cryptography::CspParameters::New_ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn)  {
+System::Security::Cryptography::CspParameters o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CspParameters>(dwTypeIn, strProviderNameIn, strContainerNameIn))};
+return o;
+}
  void System::Security::Cryptography::CspParameters::_ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CspParameters>::get(),
@@ -184,8 +190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dwTypeIn, strProviderNameIn, strContainerNameIn);
 }
-// Ctor Parameters [CppParam { name: "providerType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "providerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyContainerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::Cryptography::CspProviderFlags", modifiers: "", def_value: None }]
- System::Security::Cryptography::CspParameters::CspParameters(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, System::Security::Cryptography::CspProviderFlags flags)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CspParameters>(providerType, providerName, keyContainerName, flags))) {}
+ System::Security::Cryptography::CspParameters System::Security::Cryptography::CspParameters::New_ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, System::Security::Cryptography::CspProviderFlags flags)  {
+System::Security::Cryptography::CspParameters o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CspParameters>(providerType, providerName, keyContainerName, flags))};
+return o;
+}
  void System::Security::Cryptography::CspParameters::_ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, System::Security::Cryptography::CspProviderFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CspParameters>::get(),

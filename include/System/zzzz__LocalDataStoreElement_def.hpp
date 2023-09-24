@@ -70,8 +70,7 @@ constexpr int64_t __get_m_cookie() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cookie", ty: "int64_t", modifiers: "", def_value: None }]
-explicit LocalDataStoreElement(int64_t cookie) ;
+static System::LocalDataStoreElement New_ctor(int64_t cookie) ;
 
 /// @brief Method .ctor addr 0x2469804 size 0x28 virtual false final false
  void _ctor(int64_t cookie) ;

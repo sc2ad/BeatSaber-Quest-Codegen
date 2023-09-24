@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockScoreSyncStateSender_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__StandardScoreSyncStateNetSerializable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockScoreSyncStateSender._ctor
 template<>
@@ -82,8 +82,10 @@ constexpr void GlobalNamespace::MockScoreSyncStateSender::__set__multiplayerSess
 constexpr GlobalNamespace::IMultiplayerSessionManager GlobalNamespace::MockScoreSyncStateSender::__get__multiplayerSessionManager() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IMultiplayerSessionManager, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "msm", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
- GlobalNamespace::MockScoreSyncStateSender::MockScoreSyncStateSender(GlobalNamespace::IMultiplayerSessionManager msm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockScoreSyncStateSender>(msm))) {}
+ GlobalNamespace::MockScoreSyncStateSender GlobalNamespace::MockScoreSyncStateSender::New_ctor(GlobalNamespace::IMultiplayerSessionManager msm)  {
+GlobalNamespace::MockScoreSyncStateSender o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockScoreSyncStateSender>(msm))};
+return o;
+}
  void GlobalNamespace::MockScoreSyncStateSender::_ctor(GlobalNamespace::IMultiplayerSessionManager msm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockScoreSyncStateSender>::get(),

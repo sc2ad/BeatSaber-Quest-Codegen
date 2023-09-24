@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__HashSet_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Collections::HashSet._ctor
 template<>
 
@@ -296,8 +296,10 @@ constexpr void Org::BouncyCastle::Utilities::Collections::HashSet::__set_impl(Sy
 constexpr System::Collections::IDictionary Org::BouncyCastle::Utilities::Collections::HashSet::__get_impl() const {
 return ::cordl_internals::getInstanceField<System::Collections::IDictionary, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Collections::HashSet::HashSet()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HashSet>())) {}
+ Org::BouncyCastle::Utilities::Collections::HashSet Org::BouncyCastle::Utilities::Collections::HashSet::New_ctor()  {
+Org::BouncyCastle::Utilities::Collections::HashSet o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::HashSet>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::HashSet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::HashSet>::get(),
@@ -307,8 +309,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "s", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Collections::HashSet::HashSet(System::Collections::IEnumerable s)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HashSet>(s))) {}
+ Org::BouncyCastle::Utilities::Collections::HashSet Org::BouncyCastle::Utilities::Collections::HashSet::New_ctor(System::Collections::IEnumerable s)  {
+Org::BouncyCastle::Utilities::Collections::HashSet o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::HashSet>(s))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::HashSet::_ctor(System::Collections::IEnumerable s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::HashSet>::get(),

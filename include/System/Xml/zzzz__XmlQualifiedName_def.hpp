@@ -8,6 +8,9 @@
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
+namespace System::Xml {
+class System__Xml__XmlQualifiedName__HashCodeOfStringDelegate;
+}
 // Forward declare root types
 namespace System::Xml {
 class System__Xml__XmlQualifiedName__HashCodeOfStringDelegate;
@@ -57,8 +60,7 @@ constexpr explicit System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2715608 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -156,20 +158,17 @@ static System::Xml::XmlQualifiedName __get_Empty() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlQualifiedName() ;
+static System::Xml::XmlQualifiedName New_ctor() ;
 
 /// @brief Method .ctor addr 0x2715004 size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlQualifiedName(::StringW name) ;
+static System::Xml::XmlQualifiedName New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x27150e4 size 0x60 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlQualifiedName(::StringW name, ::StringW ns) ;
+static System::Xml::XmlQualifiedName New_ctor(::StringW name, ::StringW ns) ;
 
 /// @brief Method .ctor addr 0x2715058 size 0x8c virtual false final false
  void _ctor(::StringW name, ::StringW ns) ;

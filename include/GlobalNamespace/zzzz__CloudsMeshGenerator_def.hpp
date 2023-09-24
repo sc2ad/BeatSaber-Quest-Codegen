@@ -6,14 +6,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Mesh;
+namespace GlobalNamespace {
+struct GlobalNamespace__CloudsMeshGenerator__RadiusChunk;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class Gradient;
+namespace GlobalNamespace {
+struct GlobalNamespace__CloudsMeshGenerator__Cloud;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -22,7 +19,22 @@ namespace UnityEngine {
 struct Bounds;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__CloudsMeshGenerator__Ring;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius;
+}
+namespace UnityEngine {
 class MeshFilter;
+}
+namespace UnityEngine {
+class Gradient;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 class Transform;
@@ -602,8 +614,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Prohib
 
 // Methods
 
-// Ctor Parameters []
-explicit CloudsMeshGenerator() ;
+static GlobalNamespace::CloudsMeshGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ab4a8 size 0xbc virtual false final false
  void _ctor() ;

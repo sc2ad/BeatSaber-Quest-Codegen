@@ -52,8 +52,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaClass::AndroidJavaClass(::StringW className)  : UnityEngine::AndroidJavaObject(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaClass>(className))) {}
+ UnityEngine::AndroidJavaClass UnityEngine::AndroidJavaClass::New_ctor(::StringW className)  {
+UnityEngine::AndroidJavaClass o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaClass>(className))};
+return o;
+}
  void UnityEngine::AndroidJavaClass::_ctor(::StringW className)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaClass>::get(),
@@ -72,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, className);
 }
-// Ctor Parameters [CppParam { name: "jclass", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaClass::AndroidJavaClass(::cordl_internals::intptr_t jclass)  : UnityEngine::AndroidJavaObject(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaClass>(jclass))) {}
+ UnityEngine::AndroidJavaClass UnityEngine::AndroidJavaClass::New_ctor(::cordl_internals::intptr_t jclass)  {
+UnityEngine::AndroidJavaClass o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaClass>(jclass))};
+return o;
+}
  void UnityEngine::AndroidJavaClass::_ctor(::cordl_internals::intptr_t jclass)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaClass>::get(),

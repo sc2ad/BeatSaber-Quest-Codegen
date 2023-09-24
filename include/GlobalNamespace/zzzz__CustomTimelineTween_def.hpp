@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -72,8 +72,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get_startPositions() const;
 /// @brief Method OnValidate addr 0x21b1dc8 size 0xd4 virtual false final false
  void OnValidate() ;
 
-// Ctor Parameters []
-explicit CustomTimelineTween() ;
+static GlobalNamespace::CustomTimelineTween New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1e9c size 0x8 virtual false final false
  void _ctor() ;

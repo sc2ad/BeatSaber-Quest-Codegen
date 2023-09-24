@@ -67,8 +67,7 @@ constexpr ::ArrayW<::StringW> __get_m_roles() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IIdentity", modifiers: "", def_value: None }, CppParam { name: "roles", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit GenericPrincipal(System::Security::Principal::IIdentity identity, ::ArrayW<::StringW> roles) ;
+static System::Security::Principal::GenericPrincipal New_ctor(System::Security::Principal::IIdentity identity, ::ArrayW<::StringW> roles) ;
 
 /// @brief Method .ctor addr 0x230b97c size 0x168 virtual false final false
  void _ctor(System::Security::Principal::IIdentity identity, ::ArrayW<::StringW> roles) ;

@@ -52,8 +52,7 @@ constexpr explicit MessageWithSdkAccountList(void* ptr) noexcept : Oculus::Platf
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithSdkAccountList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithSdkAccountList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f1e8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

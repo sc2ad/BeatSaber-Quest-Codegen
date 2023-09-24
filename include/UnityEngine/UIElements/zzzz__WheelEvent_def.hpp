@@ -1,14 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
+namespace UnityEngine {
+class Event;
+}
 namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Event;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -88,8 +88,7 @@ static UnityEngine::UIElements::WheelEvent GetPooled(UnityEngine::Vector3 delta,
 /// @brief Method LocalInit addr 0x2cda184 size 0x60 virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit WheelEvent() ;
+static UnityEngine::UIElements::WheelEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cda1e4 size 0x50 virtual false final false
  void _ctor() ;

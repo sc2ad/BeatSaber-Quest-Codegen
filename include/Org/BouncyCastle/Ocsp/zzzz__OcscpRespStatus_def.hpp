@@ -47,8 +47,7 @@ constexpr explicit OcscpRespStatus(void* ptr) noexcept : Org::BouncyCastle::Ocsp
 
 // Methods
 
-// Ctor Parameters []
-explicit OcscpRespStatus() ;
+static Org::BouncyCastle::Ocsp::OcscpRespStatus New_ctor() ;
 
 /// @brief Method .ctor addr 0x10163c8 size 0x8 virtual false final false
  void _ctor() ;

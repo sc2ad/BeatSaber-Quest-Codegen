@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Xml/Linq/zzzz__ElementWriter_def.hpp"
+#include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"
 #include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
-#include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"
 #include "System/Xml/Linq/zzzz__XElement_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::ElementWriter._ctor
 template<>

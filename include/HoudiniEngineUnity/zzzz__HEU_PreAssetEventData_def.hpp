@@ -68,8 +68,7 @@ constexpr HoudiniEngineUnity::HEU_AssetEventType __get_AssetType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "asset", ty: "HoudiniEngineUnity::HEU_HoudiniAsset", modifiers: "", def_value: None }, CppParam { name: "assetType", ty: "HoudiniEngineUnity::HEU_AssetEventType", modifiers: "", def_value: None }]
-explicit HEU_PreAssetEventData(HoudiniEngineUnity::HEU_HoudiniAsset asset, HoudiniEngineUnity::HEU_AssetEventType assetType) ;
+static HoudiniEngineUnity::HEU_PreAssetEventData New_ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, HoudiniEngineUnity::HEU_AssetEventType assetType) ;
 
 /// @brief Method .ctor addr 0x1fdab04 size 0x30 virtual false final false
  void _ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, HoudiniEngineUnity::HEU_AssetEventType assetType) ;

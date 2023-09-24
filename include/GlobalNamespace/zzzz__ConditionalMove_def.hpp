@@ -77,8 +77,7 @@ constexpr bool __get__activateOnFalse() const;
 /// @brief Method Awake addr 0x211574c size 0xb8 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit ConditionalMove() ;
+static GlobalNamespace::ConditionalMove New_ctor() ;
 
 /// @brief Method .ctor addr 0x2115804 size 0x8 virtual false final false
  void _ctor() ;

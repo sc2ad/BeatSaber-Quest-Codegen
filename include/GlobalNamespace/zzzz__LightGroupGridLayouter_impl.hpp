@@ -67,8 +67,10 @@ constexpr void GlobalNamespace::LightGroupGridLayouter::__set__defaultRotation(U
 constexpr UnityEngine::Vector3 GlobalNamespace::LightGroupGridLayouter::__get__defaultRotation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x44>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::LightGroupGridLayouter::LightGroupGridLayouter()  : GlobalNamespace::LightGroupSubsystem(THROW_UNLESS(::il2cpp_utils::New<LightGroupGridLayouter>())) {}
+ GlobalNamespace::LightGroupGridLayouter GlobalNamespace::LightGroupGridLayouter::New_ctor()  {
+GlobalNamespace::LightGroupGridLayouter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightGroupGridLayouter>())};
+return o;
+}
  void GlobalNamespace::LightGroupGridLayouter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightGroupGridLayouter>::get(),

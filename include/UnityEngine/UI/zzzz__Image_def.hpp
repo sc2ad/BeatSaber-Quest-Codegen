@@ -6,15 +6,47 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::U2D {
+class SpriteAtlas;
 }
 namespace UnityEngine::UI {
-class VertexHelper;
+struct UnityEngine__UI__Image__OriginHorizontal;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Image__FillMethod;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Image__Origin180;
+}
+namespace UnityEngine {
+class ICanvasRaycastFilter;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Image__OriginVertical;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Image__Type;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Image__Origin90;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Image__Origin360;
 }
 namespace UnityEngine {
 class Texture;
@@ -23,34 +55,23 @@ namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class ICanvasRaycastFilter;
-}
-namespace UnityEngine {
 struct Rect;
 }
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine {
-class Camera;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine::U2D {
-class SpriteAtlas;
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
+}
+namespace UnityEngine {
+struct Color32;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -128,6 +149,8 @@ __Filled = 3,
 constexpr operator __UnityEngine__UI__Image__Type_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__Image__Type_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -207,6 +230,8 @@ constexpr operator __UnityEngine__UI__Image__FillMethod_Unwrapped () const noexc
 return std::bit_cast<__UnityEngine__UI__Image__FillMethod_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -285,6 +310,8 @@ constexpr operator __UnityEngine__UI__Image__OriginHorizontal_Unwrapped () const
 return std::bit_cast<__UnityEngine__UI__Image__OriginHorizontal_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -353,6 +380,8 @@ __Top = 1,
 constexpr operator __UnityEngine__UI__Image__OriginVertical_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__Image__OriginVertical_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -424,6 +453,8 @@ __BottomRight = 3,
 constexpr operator __UnityEngine__UI__Image__Origin90_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__Image__Origin90_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -502,6 +533,8 @@ constexpr operator __UnityEngine__UI__Image__Origin180_Unwrapped () const noexce
 return std::bit_cast<__UnityEngine__UI__Image__Origin180_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -578,6 +611,8 @@ __Left = 3,
 constexpr operator __UnityEngine__UI__Image__Origin360_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__Image__Origin360_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -933,8 +968,7 @@ static UnityEngine::Material __declspec(property(get=get_defaultETC1GraphicMater
 /// @brief Method set_useSpriteMesh addr 0x2be825c size 0x80 virtual false final false
  void set_useSpriteMesh(bool value) ;
 
-// Ctor Parameters []
-explicit Image() ;
+static UnityEngine::UI::Image New_ctor() ;
 
 /// @brief Method .ctor addr 0x2be82dc size 0x40 virtual false final false
  void _ctor() ;

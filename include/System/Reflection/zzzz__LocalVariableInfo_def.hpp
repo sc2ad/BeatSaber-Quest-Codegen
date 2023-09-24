@@ -73,8 +73,7 @@ constexpr uint16_t __get_position() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LocalVariableInfo() ;
+static System::Reflection::LocalVariableInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2384ad0 size 0x8 virtual false final false
  void _ctor() ;

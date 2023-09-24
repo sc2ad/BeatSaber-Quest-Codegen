@@ -60,8 +60,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_TreePrototypeInfo::HEU_TreePrototypeInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_TreePrototypeInfo>())) {}
+ HoudiniEngineUnity::HEU_TreePrototypeInfo HoudiniEngineUnity::HEU_TreePrototypeInfo::New_ctor()  {
+HoudiniEngineUnity::HEU_TreePrototypeInfo o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_TreePrototypeInfo>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_TreePrototypeInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_TreePrototypeInfo>::get(),

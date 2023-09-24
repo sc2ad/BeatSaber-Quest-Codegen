@@ -4,15 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Runtime::Remoting::Contexts {
+class DynamicPropertyCollection;
+}
+namespace System {
+class LocalDataStoreSlot;
+}
 namespace System {
 class LocalDataStoreHolder;
 }
 namespace System::Runtime::Remoting::Contexts {
-class CrossContextDelegate;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class IContextProperty;
 }
 namespace System {
 class LocalDataStore;
@@ -20,35 +22,33 @@ class LocalDataStore;
 namespace System {
 class ContextBoundObject;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
 }
-namespace System::Runtime::Remoting::Contexts {
-class IContextProperty;
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 namespace System {
 class LocalDataStoreMgr;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Runtime::Remoting::Contexts {
+class ContextCallbackObject;
 }
 namespace System {
 class MarshalByRefObject;
 }
 namespace System::Runtime::Remoting::Contexts {
-class ContextCallbackObject;
-}
-namespace System::Runtime::Remoting::Contexts {
-class DynamicPropertyCollection;
-}
-namespace System {
-class LocalDataStoreSlot;
+class CrossContextDelegate;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Contexts {
 class IDynamicProperty;
-}
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {
@@ -216,8 +216,7 @@ static void RegisterContext(System::Runtime::Remoting::Contexts::Context ctx) ;
 /// @brief Method ReleaseContext addr 0x23302ac size 0x4 virtual false final false
 static void ReleaseContext(System::Runtime::Remoting::Contexts::Context ctx) ;
 
-// Ctor Parameters []
-explicit Context() ;
+static System::Runtime::Remoting::Contexts::Context New_ctor() ;
 
 /// @brief Method .ctor addr 0x23302b0 size 0x84 virtual false final false
  void _ctor() ;

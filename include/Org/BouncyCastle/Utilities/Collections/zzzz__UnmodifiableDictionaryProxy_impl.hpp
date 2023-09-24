@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableDictionary_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableDictionaryProxy_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy._ctor
 template<>
 
@@ -198,8 +198,10 @@ constexpr void Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary
 constexpr System::Collections::IDictionary Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::__get_d() const {
 return ::cordl_internals::getInstanceField<System::Collections::IDictionary, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "d", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::UnmodifiableDictionaryProxy(System::Collections::IDictionary d)  : Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary(THROW_UNLESS(::il2cpp_utils::New<UnmodifiableDictionaryProxy>(d))) {}
+ Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::New_ctor(System::Collections::IDictionary d)  {
+Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy>(d))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::_ctor(System::Collections::IDictionary d)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy>::get(),

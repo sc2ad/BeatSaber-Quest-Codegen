@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsSigner_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IDsa;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class SignatureAndHashAlgorithm;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IDsa;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
@@ -93,8 +93,7 @@ constexpr explicit TlsDsaSigner(void* ptr) noexcept : Org::BouncyCastle::Crypto:
 /// @brief Method CreateDsaImpl addr 0x0 size 0xffffffffffffffff virtual true final false
  Org::BouncyCastle::Crypto::IDsa CreateDsaImpl(uint8_t hashAlgorithm) ;
 
-// Ctor Parameters []
-explicit TlsDsaSigner() ;
+static Org::BouncyCastle::Crypto::Tls::TlsDsaSigner New_ctor() ;
 
 /// @brief Method .ctor addr 0xf19d84 size 0x8 virtual false final false
  void _ctor() ;

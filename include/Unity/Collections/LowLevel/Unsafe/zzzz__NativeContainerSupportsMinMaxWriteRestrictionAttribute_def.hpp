@@ -47,8 +47,7 @@ constexpr explicit NativeContainerSupportsMinMaxWriteRestrictionAttribute(void* 
 
 // Methods
 
-// Ctor Parameters []
-explicit NativeContainerSupportsMinMaxWriteRestrictionAttribute() ;
+static Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b28ac8 size 0x8 virtual false final false
  void _ctor() ;

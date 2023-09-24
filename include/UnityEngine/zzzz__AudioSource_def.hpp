@@ -6,10 +6,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct FFTWindow;
+class AudioClip;
 }
 namespace UnityEngine {
-class AudioClip;
+struct FFTWindow;
 }
 // Forward declare root types
 namespace UnityEngine {

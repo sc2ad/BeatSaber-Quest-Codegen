@@ -5,13 +5,13 @@ namespace Org::BouncyCastle::Math::EC::Endo {
 class GlvEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -74,8 +74,7 @@ constexpr Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism __get_glvEndomorphi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "glvEndomorphism", ty: "Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism", modifiers: "", def_value: None }]
-explicit GlvMultiplier(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism glvEndomorphism) ;
+static Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism glvEndomorphism) ;
 
 /// @brief Method .ctor addr 0xfa9734 size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism glvEndomorphism) ;

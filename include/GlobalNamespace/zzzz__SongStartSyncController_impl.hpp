@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongStartSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__SongStartHandler_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SongStartSyncController.get_isSongStarted
 template<>
@@ -448,8 +448,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, songStartSyncTime);
 }
-// Ctor Parameters []
- GlobalNamespace::SongStartSyncController::SongStartSyncController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SongStartSyncController>())) {}
+ GlobalNamespace::SongStartSyncController GlobalNamespace::SongStartSyncController::New_ctor()  {
+GlobalNamespace::SongStartSyncController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SongStartSyncController>())};
+return o;
+}
  void GlobalNamespace::SongStartSyncController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SongStartSyncController>::get(),

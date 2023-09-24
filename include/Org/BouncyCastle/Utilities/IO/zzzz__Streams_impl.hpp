@@ -189,8 +189,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::IO::Streams::Streams()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Streams>())) {}
+ Org::BouncyCastle::Utilities::IO::Streams Org::BouncyCastle::Utilities::IO::Streams::New_ctor()  {
+Org::BouncyCastle::Utilities::IO::Streams o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::Streams>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::Streams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::Streams>::get(),

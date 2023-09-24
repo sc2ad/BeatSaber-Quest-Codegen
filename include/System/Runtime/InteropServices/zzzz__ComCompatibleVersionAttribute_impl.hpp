@@ -42,8 +42,10 @@ constexpr void System::Runtime::InteropServices::ComCompatibleVersionAttribute::
 constexpr int32_t System::Runtime::InteropServices::ComCompatibleVersionAttribute::__get__revision() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "major", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::ComCompatibleVersionAttribute::ComCompatibleVersionAttribute(int32_t major, int32_t minor, int32_t build, int32_t revision)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ComCompatibleVersionAttribute>(major, minor, build, revision))) {}
+ System::Runtime::InteropServices::ComCompatibleVersionAttribute System::Runtime::InteropServices::ComCompatibleVersionAttribute::New_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision)  {
+System::Runtime::InteropServices::ComCompatibleVersionAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::ComCompatibleVersionAttribute>(major, minor, build, revision))};
+return o;
+}
  void System::Runtime::InteropServices::ComCompatibleVersionAttribute::_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::ComCompatibleVersionAttribute>::get(),

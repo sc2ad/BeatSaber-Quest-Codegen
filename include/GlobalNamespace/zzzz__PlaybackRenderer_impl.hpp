@@ -2,15 +2,16 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlaybackRenderer_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "GlobalNamespace/zzzz__PlaybackRenderer_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -275,8 +276,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "layerMask", ty: "UnityEngine::LayerMask", modifiers: "", def_value: None }, CppParam { name: "type", ty: "GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type", modifiers: "", def_value: None }, CppParam { name: "backgroundColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot(::StringW name, UnityEngine::LayerMask layerMask, GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type type, UnityEngine::Color backgroundColor)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlaybackRenderer__PlaybackScreenshot>(name, layerMask, type, backgroundColor))) {}
+ GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot::New_ctor(::StringW name, UnityEngine::LayerMask layerMask, GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type type, UnityEngine::Color backgroundColor)  {
+GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot>(name, layerMask, type, backgroundColor))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot::_ctor(::StringW name, UnityEngine::LayerMask layerMask, GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type type, UnityEngine::Color backgroundColor)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot>::get(),
@@ -678,8 +681,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PlaybackRenderer::PlaybackRenderer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlaybackRenderer>())) {}
+ GlobalNamespace::PlaybackRenderer GlobalNamespace::PlaybackRenderer::New_ctor()  {
+GlobalNamespace::PlaybackRenderer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlaybackRenderer>())};
+return o;
+}
  void GlobalNamespace::PlaybackRenderer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlaybackRenderer>::get(),

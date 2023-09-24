@@ -65,8 +65,7 @@ constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "address", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Ping(::StringW address) ;
+static UnityEngine::Ping New_ctor(::StringW address) ;
 
 /// @brief Method .ctor addr 0x2b2c800 size 0x50 virtual false final false
  void _ctor(::StringW address) ;

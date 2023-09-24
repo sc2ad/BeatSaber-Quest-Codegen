@@ -98,8 +98,10 @@ constexpr void Zenject::SignalBindingBindInfo::__set__SignalType_k__BackingField
 constexpr System::Type Zenject::SignalBindingBindInfo::__get__SignalType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signalType", ty: "System::Type", modifiers: "", def_value: None }]
- Zenject::SignalBindingBindInfo::SignalBindingBindInfo(System::Type signalType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignalBindingBindInfo>(signalType))) {}
+ Zenject::SignalBindingBindInfo Zenject::SignalBindingBindInfo::New_ctor(System::Type signalType)  {
+Zenject::SignalBindingBindInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalBindingBindInfo>(signalType))};
+return o;
+}
  void Zenject::SignalBindingBindInfo::_ctor(System::Type signalType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalBindingBindInfo>::get(),

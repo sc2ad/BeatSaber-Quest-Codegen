@@ -121,8 +121,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::DSA::DSA()  : System::Security::Cryptography::AsymmetricAlgorithm(THROW_UNLESS(::il2cpp_utils::New<DSA>())) {}
+ System::Security::Cryptography::DSA System::Security::Cryptography::DSA::New_ctor()  {
+System::Security::Cryptography::DSA o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DSA>())};
+return o;
+}
  void System::Security::Cryptography::DSA::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DSA>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/Util/zzzz__LocationCacheKey_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::Util::LocationCacheKey._ctor
 template<>
 
@@ -109,8 +109,10 @@ constexpr void UnityEngine::ResourceManagement::Util::LocationCacheKey::__set_m_
 constexpr System::Type UnityEngine::ResourceManagement::Util::LocationCacheKey::__get_m_DesiredType() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }, CppParam { name: "desiredType", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::Util::LocationCacheKey::LocationCacheKey(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Type desiredType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LocationCacheKey>(location, desiredType))) {}
+ UnityEngine::ResourceManagement::Util::LocationCacheKey UnityEngine::ResourceManagement::Util::LocationCacheKey::New_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Type desiredType)  {
+UnityEngine::ResourceManagement::Util::LocationCacheKey o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Util::LocationCacheKey>(location, desiredType))};
+return o;
+}
  void UnityEngine::ResourceManagement::Util::LocationCacheKey::_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Type desiredType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Util::LocationCacheKey>::get(),

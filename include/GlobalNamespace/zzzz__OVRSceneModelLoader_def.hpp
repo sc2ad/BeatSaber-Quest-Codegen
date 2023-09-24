@@ -3,15 +3,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6;
 }
 namespace GlobalNamespace {
 class OVRSceneManager;
@@ -102,8 +105,7 @@ constexpr GlobalNamespace::OVRSceneModelLoader __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRSceneModelLoader___AttemptToLoadSceneModel_d__6 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2609780 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -218,8 +220,7 @@ constexpr bool __get__sceneCaptureRequested() const;
 /// @brief Method OnUnexpectedErrorWithSceneCapture addr 0x2609a80 size 0x98 virtual true final false
  void OnUnexpectedErrorWithSceneCapture() ;
 
-// Ctor Parameters []
-explicit OVRSceneModelLoader() ;
+static GlobalNamespace::OVRSceneModelLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x2609b18 size 0x8 virtual false final false
  void _ctor() ;

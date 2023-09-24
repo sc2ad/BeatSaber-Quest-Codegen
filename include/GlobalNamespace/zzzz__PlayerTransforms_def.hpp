@@ -6,10 +6,10 @@ namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -220,8 +220,7 @@ constexpr bool __get__useOriginParentTransformForPseudoLocalCalculations() const
 /// @brief Method HeadOffsetZ addr 0x21092f0 size 0x20 virtual false final false
  float_t HeadOffsetZ(UnityEngine::Quaternion noteInverseWorldRotation) ;
 
-// Ctor Parameters []
-explicit PlayerTransforms() ;
+static GlobalNamespace::PlayerTransforms New_ctor() ;
 
 /// @brief Method .ctor addr 0x2109364 size 0x8 virtual false final false
  void _ctor() ;

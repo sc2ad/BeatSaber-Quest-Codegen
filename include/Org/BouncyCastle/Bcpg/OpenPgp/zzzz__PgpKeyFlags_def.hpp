@@ -69,8 +69,7 @@ static constexpr int32_t  MaybeShared{128};
 
 // Methods
 
-// Ctor Parameters []
-explicit PgpKeyFlags() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags New_ctor() ;
 
 /// @brief Method .ctor addr 0x102165c size 0x8 virtual false final false
  void _ctor() ;

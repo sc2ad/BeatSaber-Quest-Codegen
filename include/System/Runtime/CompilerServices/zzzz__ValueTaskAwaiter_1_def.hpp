@@ -2,9 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Action;
-}
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
@@ -12,27 +9,30 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 struct ValueTask_1;
 }
+namespace System {
+class Action;
+}
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct ValueTaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-template<::cordl_internals::il2cpp_reference_type TResult>
+template<::cordl_internals::is_or_is_backed_by<int32_t> TResult>
 struct ValueTaskAwaiter_1<TResult>;
 }
 namespace System::Runtime::CompilerServices {
-template<>
-struct ValueTaskAwaiter_1<int32_t>;
+template<::cordl_internals::il2cpp_reference_type TResult>
+struct ValueTaskAwaiter_1<TResult>;
 }
 // Type: System.Runtime.CompilerServices::ValueTaskAwaiter`1
 // Type: System.Runtime.CompilerServices::ValueTaskAwaiter`1
 namespace System::Runtime::CompilerServices {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TResult>
+template<::cordl_internals::is_or_is_backed_by<int32_t> TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3383)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3383), inst: 2 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(3383))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3383), inst: 92 })
 // CS Name: System.Runtime.CompilerServices.ValueTaskAwaiter`1
 struct CORDL_TYPE ValueTaskAwaiter_1<TResult> : public ::bs_hook::ValueTypeWrapper {
 public:
@@ -107,19 +107,19 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: System.Runtime.CompilerServices::ValueTaskAwaiter`1
 namespace System::Runtime::CompilerServices {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type TResult>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3383)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3383), inst: 92 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3383), inst: 2 })
 // CS Name: System.Runtime.CompilerServices.ValueTaskAwaiter`1
-struct CORDL_TYPE ValueTaskAwaiter_1<int32_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE ValueTaskAwaiter_1<TResult> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 /// @brief Convert operator to System::Runtime::CompilerServices::ICriticalNotifyCompletion
 constexpr operator  System::Runtime::CompilerServices::ICriticalNotifyCompletion() const;
 
-// Ctor Parameters [CppParam { name: "_value", ty: "System::Threading::Tasks::ValueTask_1<int32_t>", modifiers: "", def_value: None }]
-constexpr ValueTaskAwaiter_1(System::Threading::Tasks::ValueTask_1<int32_t> _value) noexcept;
+// Ctor Parameters [CppParam { name: "_value", ty: "System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None }]
+constexpr ValueTaskAwaiter_1(System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept;
 
 
                     constexpr ValueTaskAwaiter_1(ValueTaskAwaiter_1 const&) = default;
@@ -152,11 +152,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- System::Threading::Tasks::ValueTask_1<int32_t> __declspec(property(get=__get__value, put=__set__value))  _value;
+ System::Threading::Tasks::ValueTask_1<TResult> __declspec(property(get=__get__value, put=__set__value))  _value;
 
-constexpr void __set__value(System::Threading::Tasks::ValueTask_1<int32_t> value) ;
+constexpr void __set__value(System::Threading::Tasks::ValueTask_1<TResult> value) ;
 
-constexpr System::Threading::Tasks::ValueTask_1<int32_t> __get__value() const;
+constexpr System::Threading::Tasks::ValueTask_1<TResult> __get__value() const;
 
 
 // Properties
@@ -167,13 +167,13 @@ constexpr System::Threading::Tasks::ValueTask_1<int32_t> __get__value() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(System::Threading::Tasks::ValueTask_1<int32_t> value) ;
+ void _ctor(System::Threading::Tasks::ValueTask_1<TResult> value) ;
 
 /// @brief Method get_IsCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
  bool get_IsCompleted() ;
 
 /// @brief Method GetResult addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t GetResult() ;
+ TResult GetResult() ;
 
 /// @brief Method UnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
  void UnsafeOnCompleted(System::Action continuation) ;

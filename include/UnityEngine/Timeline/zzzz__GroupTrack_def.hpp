@@ -1,12 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -65,8 +65,7 @@ constexpr explicit GroupTrack(void* ptr) noexcept : UnityEngine::Timeline::Track
 /// @brief Method get_outputs addr 0x2ad18f4 size 0x58 virtual true final false
  System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding> get_outputs() ;
 
-// Ctor Parameters []
-explicit GroupTrack() ;
+static UnityEngine::Timeline::GroupTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad194c size 0x54 virtual false final false
  void _ctor() ;

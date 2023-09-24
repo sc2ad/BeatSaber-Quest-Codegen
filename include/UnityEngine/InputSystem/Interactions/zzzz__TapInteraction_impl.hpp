@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/InputSystem/Interactions/zzzz__TapInteraction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Interactions::TapInteraction.get_durationOrDefault
 template<>
 
@@ -171,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Interactions::TapInteraction::TapInteraction()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TapInteraction>())) {}
+ UnityEngine::InputSystem::Interactions::TapInteraction UnityEngine::InputSystem::Interactions::TapInteraction::New_ctor()  {
+UnityEngine::InputSystem::Interactions::TapInteraction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Interactions::TapInteraction>())};
+return o;
+}
  void UnityEngine::InputSystem::Interactions::TapInteraction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Interactions::TapInteraction>::get(),

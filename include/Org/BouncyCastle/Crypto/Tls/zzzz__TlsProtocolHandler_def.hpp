@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClientProtocol_def.hpp"
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -53,14 +53,12 @@ constexpr explicit TlsProtocolHandler(void* ptr) noexcept : Org::BouncyCastle::C
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit TlsProtocolHandler(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+static Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler New_ctor(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method .ctor addr 0xf224d0 size 0x10 virtual false final false
  void _ctor(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit TlsProtocolHandler(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+static Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler New_ctor(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method .ctor addr 0xf224e0 size 0x8 virtual false final false
  void _ctor(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom) ;

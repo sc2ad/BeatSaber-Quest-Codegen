@@ -112,8 +112,7 @@ static void Native_StartDataAccess() ;
 /// @brief Method Native_EndDataAccess addr 0x2b0666c size 0x64 virtual false final false
 static void Native_EndDataAccess() ;
 
-// Ctor Parameters []
-explicit RuntimeDebuggerOpenXRFeature() ;
+static UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b06a94 size 0x14 virtual false final false
  void _ctor() ;

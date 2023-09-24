@@ -109,8 +109,10 @@ constexpr void Oculus::Platform::NetSyncOptions::__set_Handle(::cordl_internals:
 constexpr ::cordl_internals::intptr_t Oculus::Platform::NetSyncOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::NetSyncOptions::NetSyncOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetSyncOptions>())) {}
+ Oculus::Platform::NetSyncOptions Oculus::Platform::NetSyncOptions::New_ctor()  {
+Oculus::Platform::NetSyncOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::NetSyncOptions>())};
+return o;
+}
  void Oculus::Platform::NetSyncOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::NetSyncOptions>::get(),

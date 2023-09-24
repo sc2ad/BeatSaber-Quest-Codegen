@@ -194,8 +194,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::InternalEncoderBestFitFallback", modifiers: "", def_value: None }]
- System::Text::InternalEncoderBestFitFallbackBuffer::InternalEncoderBestFitFallbackBuffer(System::Text::InternalEncoderBestFitFallback fallback)  : System::Text::EncoderFallbackBuffer(THROW_UNLESS(::il2cpp_utils::New<InternalEncoderBestFitFallbackBuffer>(fallback))) {}
+ System::Text::InternalEncoderBestFitFallbackBuffer System::Text::InternalEncoderBestFitFallbackBuffer::New_ctor(System::Text::InternalEncoderBestFitFallback fallback)  {
+System::Text::InternalEncoderBestFitFallbackBuffer o{THROW_UNLESS(::il2cpp_utils::New<System::Text::InternalEncoderBestFitFallbackBuffer>(fallback))};
+return o;
+}
  void System::Text::InternalEncoderBestFitFallbackBuffer::_ctor(System::Text::InternalEncoderBestFitFallback fallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::InternalEncoderBestFitFallbackBuffer>::get(),

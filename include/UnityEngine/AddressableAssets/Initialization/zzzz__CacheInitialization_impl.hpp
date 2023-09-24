@@ -1,8 +1,9 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__CacheInitialization_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IInitializableObject_def.hpp"
+#include "UnityEngine/AddressableAssets/Initialization/zzzz__CacheInitialization_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
@@ -143,8 +144,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp()  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp>())) {}
+ UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp::New_ctor()  {
+UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp>())};
+return o;
+}
  void UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp>::get(),
@@ -206,8 +209,10 @@ constexpr void UnityEngine::AddressableAssets::Initialization::UnityEngine__Addr
 constexpr ::StringW UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0::__get_data() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0>())) {}
+ UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0 UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0::New_ctor()  {
+UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0>::get(),
@@ -325,8 +330,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitialization()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CacheInitialization>())) {}
+ UnityEngine::AddressableAssets::Initialization::CacheInitialization UnityEngine::AddressableAssets::Initialization::CacheInitialization::New_ctor()  {
+UnityEngine::AddressableAssets::Initialization::CacheInitialization o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Initialization::CacheInitialization>())};
+return o;
+}
  void UnityEngine::AddressableAssets::Initialization::CacheInitialization::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Initialization::CacheInitialization>::get(),

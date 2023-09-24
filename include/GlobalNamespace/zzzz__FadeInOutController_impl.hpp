@@ -2,8 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -181,8 +182,10 @@ constexpr void GlobalNamespace::GlobalNamespace__FadeInOutController___Fade_d__1
 constexpr float_t GlobalNamespace::GlobalNamespace__FadeInOutController___Fade_d__15::__get__elapsedTime_5__2() const {
 return ::cordl_internals::getInstanceField<float_t, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__FadeInOutController___Fade_d__15::GlobalNamespace__FadeInOutController___Fade_d__15(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FadeInOutController___Fade_d__15>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__FadeInOutController___Fade_d__15 GlobalNamespace::GlobalNamespace__FadeInOutController___Fade_d__15::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__FadeInOutController___Fade_d__15 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FadeInOutController___Fade_d__15>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FadeInOutController___Fade_d__15::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FadeInOutController___Fade_d__15>::get(),
@@ -550,8 +553,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, fromValue, toValue, duration, startDelay, curve, fadeFinishedCallback);
 }
-// Ctor Parameters []
- GlobalNamespace::FadeInOutController::FadeInOutController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FadeInOutController>())) {}
+ GlobalNamespace::FadeInOutController GlobalNamespace::FadeInOutController::New_ctor()  {
+GlobalNamespace::FadeInOutController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FadeInOutController>())};
+return o;
+}
  void GlobalNamespace::FadeInOutController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FadeInOutController>::get(),

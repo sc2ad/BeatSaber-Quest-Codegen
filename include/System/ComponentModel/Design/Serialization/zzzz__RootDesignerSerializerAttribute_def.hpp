@@ -83,8 +83,7 @@ constexpr ::StringW __get__SerializerBaseTypeName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "serializerTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "baseSerializerTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "reloadable", ty: "bool", modifiers: "", def_value: None }]
-explicit RootDesignerSerializerAttribute(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable) ;
+static System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute New_ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable) ;
 
 /// @brief Method .ctor addr 0x27a8a94 size 0x3c virtual false final false
  void _ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable) ;

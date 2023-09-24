@@ -7,20 +7,11 @@
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct EaseType;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
-}
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 namespace UnityEngine {
 class Transform;
@@ -29,7 +20,16 @@ namespace Tweening {
 class Vector3Tween;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BasicBeatmapEventData;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -188,8 +188,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method SetPosition addr 0x2267d28 size 0x8c virtual false final false
  void SetPosition(UnityEngine::Vector3 position) ;
 
-// Ctor Parameters []
-explicit SmoothStepPositionGroupEventEffect() ;
+static GlobalNamespace::SmoothStepPositionGroupEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2267db4 size 0xac virtual false final false
  void _ctor() ;

@@ -1,6 +1,45 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__ScriptRunBehaviourFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__PhysicsFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__DirectorFixedUpdatePostPhysics;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__DirectorFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__Physics2DFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__ScriptRunDelayedFixedFrameRate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__NewInputFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__DirectorFixedSampleTime;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__LegacyFixedAnimationUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__PhysicsClothFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__XRFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__AudioFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__FixedUpdate__ClearLines;
+}
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct FixedUpdate;

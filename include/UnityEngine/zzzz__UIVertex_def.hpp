@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace UnityEngine {
-struct Vector3;
+struct Color32;
 }
 namespace UnityEngine {
-struct Color32;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector4;

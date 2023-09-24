@@ -2,13 +2,13 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
-}
-namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
+}
+namespace UnityEngine::InputSystem::Controls {
+class AxisControl;
 }
 // Forward declare root types
 namespace UnityEngine::XR::WindowsMR::Input {
@@ -121,8 +121,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector3Control __get__sourceLossMi
 /// @brief Method FinishSetup addr 0x28a35a8 size 0x12c virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit HololensHand() ;
+static UnityEngine::XR::WindowsMR::Input::HololensHand New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a36d4 size 0x8 virtual false final false
  void _ctor() ;

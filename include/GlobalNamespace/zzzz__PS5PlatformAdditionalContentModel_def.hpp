@@ -12,7 +12,7 @@ class PS5PlatformAdditionalContentModel;
 // Type: ::PS5PlatformAdditionalContentModel
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4688)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4688), inst: 4827 }), TypeDefinitionIndex(TypeDefinitionIndex(4650))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4688), inst: 4827 }), TypeDefinitionIndex(TypeDefinitionIndex(4688)), TypeDefinitionIndex(TypeDefinitionIndex(4650))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4652))
 // CS Name: PS5PlatformAdditionalContentModel
 class CORDL_TYPE PS5PlatformAdditionalContentModel : public GlobalNamespace::SonyPlatformAdditionalContentModel_1<GlobalNamespace::PS5LevelProductsModelSO> {
@@ -63,8 +63,7 @@ constexpr GlobalNamespace::PS5LevelProductsModelSO __get__ps5LevelProductsModel(
 /// @brief Method GetLevelProductsModel addr 0x221a804 size 0x8 virtual true final false
  GlobalNamespace::PS5LevelProductsModelSO GetLevelProductsModel() ;
 
-// Ctor Parameters []
-explicit PS5PlatformAdditionalContentModel() ;
+static GlobalNamespace::PS5PlatformAdditionalContentModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a80c size 0x48 virtual false final false
  void _ctor() ;

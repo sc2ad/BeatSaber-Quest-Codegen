@@ -4,8 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class CertID;
@@ -13,11 +16,8 @@ class CertID;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -84,14 +84,12 @@ constexpr Org::BouncyCastle::Asn1::Ocsp::CertID __get_id() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Ocsp::CertID", modifiers: "", def_value: None }]
-explicit CertificateID(Org::BouncyCastle::Asn1::Ocsp::CertID id) ;
+static Org::BouncyCastle::Ocsp::CertificateID New_ctor(Org::BouncyCastle::Asn1::Ocsp::CertID id) ;
 
 /// @brief Method .ctor addr 0x1012c40 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::CertID id) ;
 
-// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "issuerCert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit CertificateID(::StringW hashAlgorithm, Org::BouncyCastle::X509::X509Certificate issuerCert, Org::BouncyCastle::Math::BigInteger serialNumber) ;
+static Org::BouncyCastle::Ocsp::CertificateID New_ctor(::StringW hashAlgorithm, Org::BouncyCastle::X509::X509Certificate issuerCert, Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
 /// @brief Method .ctor addr 0x1012cb8 size 0x130 virtual false final false
  void _ctor(::StringW hashAlgorithm, Org::BouncyCastle::X509::X509Certificate issuerCert, Org::BouncyCastle::Math::BigInteger serialNumber) ;

@@ -5,10 +5,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Color;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
+struct Color;
 }
 namespace UnityEngine {
 class MeshRenderer;
@@ -154,8 +154,7 @@ constexpr int32_t __get__propertyId() const;
 /// @brief Method ColorWasSet addr 0x1f9f158 size 0x188 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit MaterialLightWithId() ;
+static GlobalNamespace::MaterialLightWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9f2e0 size 0x64 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__NameInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalArrayTypeE_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::NameInfo._ctor
 template<>
 
@@ -166,8 +166,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::NameInfo::__s
 constexpr bool System::Runtime::Serialization::Formatters::Binary::NameInfo::__get_NIsealedStatusChecked() const {
 return ::cordl_internals::getInstanceField<bool, 0x44>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::NameInfo::NameInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NameInfo>())) {}
+ System::Runtime::Serialization::Formatters::Binary::NameInfo System::Runtime::Serialization::Formatters::Binary::NameInfo::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::NameInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::NameInfo>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::NameInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::NameInfo>::get(),

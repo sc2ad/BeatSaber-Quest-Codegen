@@ -8,7 +8,7 @@ class ValidateCommandEvent;
 // Type: UnityEngine.UIElements::ValidateCommandEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7328)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7328), inst: 995 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7328), inst: 995 }), TypeDefinitionIndex(TypeDefinitionIndex(7328))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7329))
 // CS Name: UnityEngine.UIElements.ValidateCommandEvent
 class CORDL_TYPE ValidateCommandEvent : public UnityEngine::UIElements::CommandEventBase_1<UnityEngine::UIElements::ValidateCommandEvent> {
@@ -47,8 +47,7 @@ constexpr explicit ValidateCommandEvent(void* ptr) noexcept : UnityEngine::UIEle
 
 // Methods
 
-// Ctor Parameters []
-explicit ValidateCommandEvent() ;
+static UnityEngine::UIElements::ValidateCommandEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdab54 size 0x48 virtual false final false
  void _ctor() ;

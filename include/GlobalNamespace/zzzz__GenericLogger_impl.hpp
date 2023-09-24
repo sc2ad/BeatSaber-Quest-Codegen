@@ -1,8 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__GenericLogger_def.hpp"
 #include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__GenericLogger_def.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch._ctor
 template<>
 
@@ -53,8 +54,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch:
 constexpr System::Diagnostics::Stopwatch GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch::__get__stopwatch() const {
 return ::cordl_internals::getInstanceField<System::Diagnostics::Stopwatch, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "processName", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch::GlobalNamespace__GenericLogger__ScopedStopwatch(::StringW processName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GenericLogger__ScopedStopwatch>(processName))) {}
+ GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch::New_ctor(::StringW processName)  {
+GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch>(processName))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch::_ctor(::StringW processName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch>::get(),

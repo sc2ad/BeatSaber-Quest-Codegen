@@ -1,6 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__AimPoser_def.hpp"
+#include "RootMotion/FinalIK/zzzz__AimPoser_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose.IsInDirection
 template<>
@@ -107,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose::RootMotion__FinalIK__AimPoser__Pose()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__AimPoser__Pose>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose>::get(),
@@ -199,8 +202,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pose);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::AimPoser::AimPoser()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AimPoser>())) {}
+ RootMotion::FinalIK::AimPoser RootMotion::FinalIK::AimPoser::New_ctor()  {
+RootMotion::FinalIK::AimPoser o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::AimPoser>())};
+return o;
+}
  void RootMotion::FinalIK::AimPoser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::AimPoser>::get(),

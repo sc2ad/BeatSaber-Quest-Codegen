@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -73,26 +73,22 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_d() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "d", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
-explicit ECPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea67ac size 0x60 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "d", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit ECPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+static Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
 /// @brief Method .ctor addr 0xea68a4 size 0xa0 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "d", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
-explicit ECPrivateKeyParameters(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters New_ctor(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea680c size 0x98 virtual false final false
  void _ctor(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "d", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit ECPrivateKeyParameters(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+static Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters New_ctor(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
 /// @brief Method .ctor addr 0xea6944 size 0x98 virtual false final false
  void _ctor(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;

@@ -3,38 +3,38 @@
 #include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace HMUI {
-class SegmentedControl;
+namespace UnityEngine {
+class Sprite;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace HMUI {
+class NoTransitionsButton;
+}
+namespace HMUI {
+class SegmentedControl;
 }
 namespace HMUI {
 class IconSegmentedControl;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class ISaveData;
 }
 namespace GlobalNamespace {
 class LocalLeaderboardTableView;
-}
-namespace HMUI {
-class NoTransitionsButton;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class ISaveData;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class LocalLeaderboardsModel;
+struct GlobalNamespace__LocalLeaderboardsModel__LeaderboardType;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__LocalLeaderboardsModel__LeaderboardType;
+class LocalLeaderboardsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -222,8 +222,7 @@ constexpr bool __get__enableClear() const;
 /// @brief Method Refresh addr 0x2170fd8 size 0x64 virtual false final false
  void Refresh() ;
 
-// Ctor Parameters []
-explicit LocalLeaderboardViewController() ;
+static GlobalNamespace::LocalLeaderboardViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2171944 size 0x10 virtual false final false
  void _ctor() ;

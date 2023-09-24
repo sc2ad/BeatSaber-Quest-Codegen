@@ -4,38 +4,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaKCalculator;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class ISigner;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECKeyParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaEncoding;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaKCalculator;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaEncoding;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -136,26 +136,22 @@ constexpr ::ArrayW<uint8_t> __get_z() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SM2Signer() ;
+static Org::BouncyCastle::Crypto::Signers::SM2Signer New_ctor() ;
 
 /// @brief Method .ctor addr 0xec8678 size 0x98 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit SM2Signer(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Signers::SM2Signer New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xec8790 size 0x70 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "Org::BouncyCastle::Crypto::Signers::IDsaEncoding", modifiers: "", def_value: None }]
-explicit SM2Signer(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding) ;
+static Org::BouncyCastle::Crypto::Signers::SM2Signer New_ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding) ;
 
 /// @brief Method .ctor addr 0xec8800 size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding) ;
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "Org::BouncyCastle::Crypto::Signers::IDsaEncoding", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit SM2Signer(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding, Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Signers::SM2Signer New_ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xec8710 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding, Org::BouncyCastle::Crypto::IDigest digest) ;

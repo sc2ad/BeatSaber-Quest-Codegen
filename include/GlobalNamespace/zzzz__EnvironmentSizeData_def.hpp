@@ -3,6 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__EnvironmentSizeData__CeilingType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__EnvironmentSizeData__TrackLaneType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__EnvironmentSizeData__FloorType;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__EnvironmentSizeData__CeilingType;
@@ -65,6 +74,8 @@ __CloseTo0 = 1,
 constexpr operator __GlobalNamespace__EnvironmentSizeData__FloorType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__EnvironmentSizeData__FloorType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -135,6 +146,8 @@ constexpr operator __GlobalNamespace__EnvironmentSizeData__CeilingType_Unwrapped
 return std::bit_cast<__GlobalNamespace__EnvironmentSizeData__CeilingType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -203,6 +216,8 @@ __Normal = 1,
 constexpr operator __GlobalNamespace__EnvironmentSizeData__TrackLaneType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__EnvironmentSizeData__TrackLaneType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -310,8 +325,7 @@ constexpr GlobalNamespace::GlobalNamespace__EnvironmentSizeData__TrackLaneType _
 /// @brief Method get_trackLaneType addr 0x21bf48c size 0x8 virtual false final false
  GlobalNamespace::GlobalNamespace__EnvironmentSizeData__TrackLaneType get_trackLaneType() ;
 
-// Ctor Parameters []
-explicit EnvironmentSizeData() ;
+static GlobalNamespace::EnvironmentSizeData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bf494 size 0x8 virtual false final false
  void _ctor() ;

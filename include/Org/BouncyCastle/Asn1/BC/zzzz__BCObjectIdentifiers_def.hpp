@@ -269,8 +269,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_linkedCertificate() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit BCObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::BC::BCObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd609c size 0x8 virtual false final false
  void _ctor() ;

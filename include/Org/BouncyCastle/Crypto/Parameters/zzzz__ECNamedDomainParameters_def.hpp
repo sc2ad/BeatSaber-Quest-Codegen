@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
@@ -84,32 +84,27 @@ constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_name() const;
 /// @brief Method get_Name addr 0xea5c5c size 0x8 virtual false final false
  Org::BouncyCastle::Asn1::DerObjectIdentifier get_Name() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "dp", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
-explicit ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp) ;
+static Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp) ;
 
 /// @brief Method .ctor addr 0xea5c64 size 0x68 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "x9", ty: "Org::BouncyCastle::Asn1::X9::X9ECParameters", modifiers: "", def_value: None }]
-explicit ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Asn1::X9::X9ECParameters x9) ;
+static Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Asn1::X9::X9ECParameters x9) ;
 
 /// @brief Method .ctor addr 0xea5d04 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Asn1::X9::X9ECParameters x9) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n) ;
+static Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n) ;
 
 /// @brief Method .ctor addr 0xea5d2c size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "h", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h) ;
+static Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h) ;
 
 /// @brief Method .ctor addr 0xea5d5c size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "h", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed) ;
+static Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed) ;
 
 /// @brief Method .ctor addr 0xea5ccc size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed) ;

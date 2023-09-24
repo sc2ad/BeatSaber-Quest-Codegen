@@ -1,14 +1,14 @@
 #pragma once
 #include "TMPro/zzzz__TMP_TextInfo_def.hpp"
-#include "TMPro/zzzz__TMP_LineInfo_def.hpp"
-#include "TMPro/zzzz__MaterialReference_def.hpp"
-#include "TMPro/zzzz__TMP_CharacterInfo_def.hpp"
-#include "TMPro/zzzz__TMP_PageInfo_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "TMPro/zzzz__TMP_MeshInfo_def.hpp"
 #include "TMPro/zzzz__TMP_WordInfo_def.hpp"
-#include "TMPro/zzzz__TMP_LinkInfo_def.hpp"
+#include "TMPro/zzzz__TMP_MeshInfo_def.hpp"
+#include "TMPro/zzzz__MaterialReference_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "TMPro/zzzz__TMP_CharacterInfo_def.hpp"
+#include "TMPro/zzzz__TMP_LineInfo_def.hpp"
+#include "TMPro/zzzz__TMP_PageInfo_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "TMPro/zzzz__TMP_LinkInfo_def.hpp"
 //  Writing Method size for method: TMPro::TMP_TextInfo._ctor
 template<>
 
@@ -321,8 +321,10 @@ constexpr void TMPro::TMP_TextInfo::__set_m_CachedMeshInfo(::ArrayW<TMPro::TMP_M
 constexpr ::ArrayW<TMPro::TMP_MeshInfo> TMPro::TMP_TextInfo::__get_m_CachedMeshInfo() const {
 return ::cordl_internals::getInstanceField<::ArrayW<TMPro::TMP_MeshInfo>, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMP_TextInfo::TMP_TextInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_TextInfo>())) {}
+ TMPro::TMP_TextInfo TMPro::TMP_TextInfo::New_ctor()  {
+TMPro::TMP_TextInfo o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_TextInfo>())};
+return o;
+}
  void TMPro::TMP_TextInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_TextInfo>::get(),
@@ -332,8 +334,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }]
- TMPro::TMP_TextInfo::TMP_TextInfo(int32_t characterCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_TextInfo>(characterCount))) {}
+ TMPro::TMP_TextInfo TMPro::TMP_TextInfo::New_ctor(int32_t characterCount)  {
+TMPro::TMP_TextInfo o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_TextInfo>(characterCount))};
+return o;
+}
  void TMPro::TMP_TextInfo::_ctor(int32_t characterCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_TextInfo>::get(),
@@ -343,8 +347,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, characterCount);
 }
-// Ctor Parameters [CppParam { name: "textComponent", ty: "TMPro::TMP_Text", modifiers: "", def_value: None }]
- TMPro::TMP_TextInfo::TMP_TextInfo(TMPro::TMP_Text textComponent)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_TextInfo>(textComponent))) {}
+ TMPro::TMP_TextInfo TMPro::TMP_TextInfo::New_ctor(TMPro::TMP_Text textComponent)  {
+TMPro::TMP_TextInfo o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_TextInfo>(textComponent))};
+return o;
+}
  void TMPro::TMP_TextInfo::_ctor(TMPro::TMP_Text textComponent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_TextInfo>::get(),

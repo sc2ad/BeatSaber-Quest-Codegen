@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__SonyContentVersion__VersionFormat;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__SonyContentVersion__VersionFormat;
@@ -60,6 +63,8 @@ __Short = 1,
 constexpr operator __GlobalNamespace__SonyContentVersion__VersionFormat_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SonyContentVersion__VersionFormat_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -163,8 +168,7 @@ constexpr uint32_t __get__revision() const;
 /// @brief Method get_revision addr 0x221a8d8 size 0x8 virtual false final false
  uint32_t get_revision() ;
 
-// Ctor Parameters [CppParam { name: "majorVersion", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "minorVersion", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit SonyContentVersion(uint32_t majorVersion, uint32_t minorVersion, uint32_t revision) ;
+static GlobalNamespace::SonyContentVersion New_ctor(uint32_t majorVersion, uint32_t minorVersion, uint32_t revision) ;
 
 /// @brief Method .ctor addr 0x221a8e0 size 0x3c virtual false final false
  void _ctor(uint32_t majorVersion, uint32_t minorVersion, uint32_t revision) ;

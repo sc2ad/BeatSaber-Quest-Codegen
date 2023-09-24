@@ -4,45 +4,54 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Threading {
-class ManualResetEvent;
+template<typename T>
+class SparselyPopulatedArray_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Threading {
-class Timer;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Threading {
-class CancellationCallbackInfo;
-}
-namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Threading {
-template<typename T>
-class SparselyPopulatedArray_1;
-}
-namespace System::Threading {
-struct CancellationTokenRegistration;
-}
-namespace System::Threading {
-class TimerCallback;
-}
-namespace System::Threading {
-class SynchronizationContext;
+struct CancellationCallbackCoreWorkArguments;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace System::Threading {
-struct CancellationCallbackCoreWorkArguments;
+struct CancellationTokenRegistration;
+}
+namespace System::Threading {
+class CancellationCallbackInfo;
 }
 namespace System::Threading {
 class ExecutionContext;
+}
+namespace System::Threading {
+class TimerCallback;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Threading {
+class System__Threading__CancellationTokenSource__Linked2CancellationTokenSource;
+}
+namespace System::Threading {
+class SynchronizationContext;
+}
+namespace System::Threading {
+class Timer;
+}
+namespace System::Threading {
+class System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource;
+}
+namespace System::Threading {
+class System__Threading__CancellationTokenSource__Linked1CancellationTokenSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,15 +60,69 @@ class System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource
 namespace System::Threading {
 class CancellationTokenSource;
 }
-namespace System::Threading {
-class System__Threading__CancellationTokenSource__Linked1CancellationTokenSource;
+// Type: ::<>c
+namespace GlobalNamespace {
+// Is value type: false
+// Dependencies: {}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2685))
+// CS Name: System.Threading.CancellationTokenSource::LinkedNCancellationTokenSource::<>c
+class CORDL_TYPE System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c", modifiers: " const&", def_value: None }]
+constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c", modifiers: "&&", def_value: None }]
+constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
-namespace System::Threading {
-class System__Threading__CancellationTokenSource__Linked2CancellationTokenSource;
-}
-namespace System::Threading {
-class System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource;
-}
+
+
+  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c& operator=(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c&& o) noexcept = default;
+  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c& operator=(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c const& o) noexcept = default;
+                
+
+
+// Fields
+
+static GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c __declspec(property(get=__get___9, put=__set___9))  __9;
+
+static void __set___9(GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c value) ;
+
+static GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c __get___9() ;
+
+
+// Methods
+
+static GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c New_ctor() ;
+
+/// @brief Method .ctor addr 0x24a6938 size 0x8 virtual false final false
+ void _ctor() ;
+
+/// @brief Method <.cctor>b__4_0 addr 0x24a6940 size 0x84 virtual false final false
+ void __cctor_b__4_0(::bs_hook::Il2CppWrapperType s) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
 // Type: System.Threading::CancellationTokenSource
 namespace System::Threading {
 // Is value type: false
@@ -228,14 +291,12 @@ static System::Threading::TimerCallback __get_s_timerCallback() ;
 /// @brief Method get_ExecutingCallback addr 0x24a5368 size 0x18 virtual false final false
  System::Threading::CancellationCallbackInfo get_ExecutingCallback() ;
 
-// Ctor Parameters []
-explicit CancellationTokenSource() ;
+static System::Threading::CancellationTokenSource New_ctor() ;
 
 /// @brief Method .ctor addr 0x24a5380 size 0x34 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "delay", ty: "System::TimeSpan", modifiers: "", def_value: None }]
-explicit CancellationTokenSource(System::TimeSpan delay) ;
+static System::Threading::CancellationTokenSource New_ctor(System::TimeSpan delay) ;
 
 /// @brief Method .ctor addr 0x24a53b4 size 0xbc virtual false final false
  void _ctor(System::TimeSpan delay) ;
@@ -298,268 +359,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-// Type: ::Linked1CancellationTokenSource
-namespace System::Threading {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2687))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2683))
-// CS Name: System.Threading.CancellationTokenSource::Linked1CancellationTokenSource
-class CORDL_TYPE System__Threading__CancellationTokenSource__Linked1CancellationTokenSource : public System::Threading::CancellationTokenSource {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
-
-virtual ~System__Threading__CancellationTokenSource__Linked1CancellationTokenSource() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationTokenSource__Linked1CancellationTokenSource", modifiers: " const&", def_value: None }]
-constexpr System__Threading__CancellationTokenSource__Linked1CancellationTokenSource(System__Threading__CancellationTokenSource__Linked1CancellationTokenSource const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationTokenSource__Linked1CancellationTokenSource", modifiers: "&&", def_value: None }]
-constexpr System__Threading__CancellationTokenSource__Linked1CancellationTokenSource(System__Threading__CancellationTokenSource__Linked1CancellationTokenSource&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__CancellationTokenSource__Linked1CancellationTokenSource(void* ptr) noexcept : System::Threading::CancellationTokenSource(ptr) {
-}
-
-
-  constexpr System__Threading__CancellationTokenSource__Linked1CancellationTokenSource& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__CancellationTokenSource__Linked1CancellationTokenSource& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__CancellationTokenSource__Linked1CancellationTokenSource& operator=(System__Threading__CancellationTokenSource__Linked1CancellationTokenSource&& o) noexcept = default;
-  constexpr System__Threading__CancellationTokenSource__Linked1CancellationTokenSource& operator=(System__Threading__CancellationTokenSource__Linked1CancellationTokenSource const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Threading::CancellationTokenRegistration __declspec(property(get=__get__reg1, put=__set__reg1))  _reg1;
-
-constexpr void __set__reg1(System::Threading::CancellationTokenRegistration value) ;
-
-constexpr System::Threading::CancellationTokenRegistration __get__reg1() const;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "token1", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
-explicit System__Threading__CancellationTokenSource__Linked1CancellationTokenSource(System::Threading::CancellationToken token1) ;
-
-/// @brief Method .ctor addr 0x24a638c size 0xd8 virtual false final false
- void _ctor(System::Threading::CancellationToken token1) ;
-
-/// @brief Method Dispose addr 0x24a67a0 size 0x34 virtual true final false
- void Dispose(bool disposing) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Threading
-// Type: ::Linked2CancellationTokenSource
-namespace System::Threading {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2687))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2684))
-// CS Name: System.Threading.CancellationTokenSource::Linked2CancellationTokenSource
-class CORDL_TYPE System__Threading__CancellationTokenSource__Linked2CancellationTokenSource : public System::Threading::CancellationTokenSource {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
-
-virtual ~System__Threading__CancellationTokenSource__Linked2CancellationTokenSource() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationTokenSource__Linked2CancellationTokenSource", modifiers: " const&", def_value: None }]
-constexpr System__Threading__CancellationTokenSource__Linked2CancellationTokenSource(System__Threading__CancellationTokenSource__Linked2CancellationTokenSource const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationTokenSource__Linked2CancellationTokenSource", modifiers: "&&", def_value: None }]
-constexpr System__Threading__CancellationTokenSource__Linked2CancellationTokenSource(System__Threading__CancellationTokenSource__Linked2CancellationTokenSource&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__CancellationTokenSource__Linked2CancellationTokenSource(void* ptr) noexcept : System::Threading::CancellationTokenSource(ptr) {
-}
-
-
-  constexpr System__Threading__CancellationTokenSource__Linked2CancellationTokenSource& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__CancellationTokenSource__Linked2CancellationTokenSource& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__CancellationTokenSource__Linked2CancellationTokenSource& operator=(System__Threading__CancellationTokenSource__Linked2CancellationTokenSource&& o) noexcept = default;
-  constexpr System__Threading__CancellationTokenSource__Linked2CancellationTokenSource& operator=(System__Threading__CancellationTokenSource__Linked2CancellationTokenSource const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Threading::CancellationTokenRegistration __declspec(property(get=__get__reg1, put=__set__reg1))  _reg1;
-
-constexpr void __set__reg1(System::Threading::CancellationTokenRegistration value) ;
-
-constexpr System::Threading::CancellationTokenRegistration __get__reg1() const;
-
- System::Threading::CancellationTokenRegistration __declspec(property(get=__get__reg2, put=__set__reg2))  _reg2;
-
-constexpr void __set__reg2(System::Threading::CancellationTokenRegistration value) ;
-
-constexpr System::Threading::CancellationTokenRegistration __get__reg2() const;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "token1", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "token2", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
-explicit System__Threading__CancellationTokenSource__Linked2CancellationTokenSource(System::Threading::CancellationToken token1, System::Threading::CancellationToken token2) ;
-
-/// @brief Method .ctor addr 0x24a6464 size 0x10c virtual false final false
- void _ctor(System::Threading::CancellationToken token1, System::Threading::CancellationToken token2) ;
-
-/// @brief Method Dispose addr 0x24a67d4 size 0x3c virtual true final false
- void Dispose(bool disposing) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Threading
-// Type: ::<>c
-namespace GlobalNamespace {
-// Is value type: false
-// Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2685))
-// CS Name: System.Threading.CancellationTokenSource::LinkedNCancellationTokenSource::<>c
-class CORDL_TYPE System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c", modifiers: " const&", def_value: None }]
-constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c", modifiers: "&&", def_value: None }]
-constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c& operator=(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c&& o) noexcept = default;
-  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c& operator=(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c const& o) noexcept = default;
-                
-
-
-// Fields
-
-static GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c __declspec(property(get=__get___9, put=__set___9))  __9;
-
-static void __set___9(GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c value) ;
-
-static GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c __get___9() ;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c() ;
-
-/// @brief Method .ctor addr 0x24a6938 size 0x8 virtual false final false
- void _ctor() ;
-
-/// @brief Method <.cctor>b__4_0 addr 0x24a6940 size 0x84 virtual false final false
- void __cctor_b__4_0(::bs_hook::Il2CppWrapperType s) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::LinkedNCancellationTokenSource
-namespace System::Threading {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2687))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2686))
-// CS Name: System.Threading.CancellationTokenSource::LinkedNCancellationTokenSource
-class CORDL_TYPE System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource : public System::Threading::CancellationTokenSource {
-public:
-// Declarations
-using __c = GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c;
-
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource", modifiers: " const&", def_value: None }]
-constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource", modifiers: "&&", def_value: None }]
-constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource(void* ptr) noexcept : System::Threading::CancellationTokenSource(ptr) {
-}
-
-
-  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource& operator=(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource&& o) noexcept = default;
-  constexpr System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource& operator=(System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource const& o) noexcept = default;
-                
-
-
-// Fields
-
-static System::Action_1<::bs_hook::Il2CppWrapperType> __declspec(property(get=__get_s_linkedTokenCancelDelegate, put=__set_s_linkedTokenCancelDelegate))  s_linkedTokenCancelDelegate;
-
-static void __set_s_linkedTokenCancelDelegate(System::Action_1<::bs_hook::Il2CppWrapperType> value) ;
-
-static System::Action_1<::bs_hook::Il2CppWrapperType> __get_s_linkedTokenCancelDelegate() ;
-
-
-// Methods
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Threading
 NEED_NO_BOX(GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c, "System.Threading", "CancellationTokenSource/LinkedNCancellationTokenSource/<>c");
 NEED_NO_BOX(System::Threading::CancellationTokenSource);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenSource, "System.Threading", "CancellationTokenSource");
-NEED_NO_BOX(System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource, "System.Threading", "CancellationTokenSource/Linked1CancellationTokenSource");
-NEED_NO_BOX(System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource, "System.Threading", "CancellationTokenSource/Linked2CancellationTokenSource");
-NEED_NO_BOX(System::Threading::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource, "System.Threading", "CancellationTokenSource/LinkedNCancellationTokenSource");

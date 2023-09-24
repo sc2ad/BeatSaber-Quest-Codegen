@@ -11,23 +11,38 @@ template<typename T>
 class List_1;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+template<typename T>
+class Predicate_1;
 }
 namespace System {
 template<typename T>
 class Comparison_1;
 }
 namespace System {
-template<typename T>
-class Predicate_1;
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalLeaderboardsModel__ScoreData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LocalLeaderboardsModel__LeaderboardType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalLeaderboardsModel____c;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalLeaderboardsModel__LeaderboardData;
+}
+namespace GlobalNamespace {
+class ISaveData;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace GlobalNamespace {
-class ISaveData;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -101,6 +116,8 @@ __Daily = 1,
 constexpr operator __GlobalNamespace__LocalLeaderboardsModel__LeaderboardType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LocalLeaderboardsModel__LeaderboardType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -190,8 +207,7 @@ constexpr int64_t __get__timestamp() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalLeaderboardsModel__ScoreData() ;
+static GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c60c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -257,8 +273,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalLeaderboardsModel__LeaderboardData() ;
+static GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__LeaderboardData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c60bc size 0x8 virtual false final false
  void _ctor() ;
@@ -318,8 +333,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData() ;
+static GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__SavedLeaderboardsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c5598 size 0x8 virtual false final false
  void _ctor() ;
@@ -397,8 +411,7 @@ static System::Predicate_1<GlobalNamespace::GlobalNamespace__LocalLeaderboardsMo
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalLeaderboardsModel____c() ;
+static GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c69b8 size 0x8 virtual false final false
  void _ctor() ;
@@ -582,8 +595,7 @@ static void MigrateQuestLeaderboards(System::Collections::Generic::List_1<Global
 /// @brief Method Load addr 0x21c67d4 size 0xfc virtual false final false
  void Load(GlobalNamespace::ISaveData saveData) ;
 
-// Ctor Parameters []
-explicit LocalLeaderboardsModel() ;
+static GlobalNamespace::LocalLeaderboardsModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c68d0 size 0x84 virtual false final false
  void _ctor() ;

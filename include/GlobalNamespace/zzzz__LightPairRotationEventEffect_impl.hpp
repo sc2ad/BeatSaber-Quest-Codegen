@@ -3,12 +3,13 @@
 #include "GlobalNamespace/zzzz__LightPairRotationEventEffect_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__LightPairRotationEventEffect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData._ctor
 template<>
 
@@ -62,8 +63,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__R
 constexpr float_t GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData::__get_rotationAngle() const {
 return ::cordl_internals::getInstanceField<float_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData::GlobalNamespace__LightPairRotationEventEffect__RotationData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightPairRotationEventEffect__RotationData>())) {}
+ GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightPairRotationEventEffect__RotationData>::get(),
@@ -328,8 +331,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapEventDataValue, rotationData, startRotationOffset, direction);
 }
-// Ctor Parameters []
- GlobalNamespace::LightPairRotationEventEffect::LightPairRotationEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightPairRotationEventEffect>())) {}
+ GlobalNamespace::LightPairRotationEventEffect GlobalNamespace::LightPairRotationEventEffect::New_ctor()  {
+GlobalNamespace::LightPairRotationEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightPairRotationEventEffect>())};
+return o;
+}
  void GlobalNamespace::LightPairRotationEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightPairRotationEventEffect>::get(),

@@ -86,8 +86,7 @@ constexpr GlobalNamespace::AchievementSO __get__finishTutorialAchievement() cons
 /// @brief Method HandleTutorialFinished addr 0x20c7198 size 0x20 virtual false final false
  void HandleTutorialFinished() ;
 
-// Ctor Parameters []
-explicit FinishTutorialAchievementHandler() ;
+static GlobalNamespace::FinishTutorialAchievementHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c71b8 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::InteropServices {
@@ -10,9 +13,6 @@ struct GCHandle;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -86,20 +86,17 @@ constexpr bool __get_trackResurrection() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "target", ty: "T", modifiers: "", def_value: None }]
-explicit WeakReference_1(T target) ;
+static System::WeakReference_1<T> New_ctor(T target) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(T target) ;
 
-// Ctor Parameters [CppParam { name: "target", ty: "T", modifiers: "", def_value: None }, CppParam { name: "trackResurrection", ty: "bool", modifiers: "", def_value: None }]
-explicit WeakReference_1(T target, bool trackResurrection) ;
+static System::WeakReference_1<T> New_ctor(T target, bool trackResurrection) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(T target, bool trackResurrection) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit WeakReference_1(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::WeakReference_1<T> New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

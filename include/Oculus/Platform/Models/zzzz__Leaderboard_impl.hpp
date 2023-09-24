@@ -42,8 +42,10 @@ constexpr void Oculus::Platform::Models::Leaderboard::__set_ID(uint64_t value)  
 constexpr uint64_t Oculus::Platform::Models::Leaderboard::__get_ID() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::Leaderboard::Leaderboard(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Leaderboard>(o))) {}
+ Oculus::Platform::Models::Leaderboard Oculus::Platform::Models::Leaderboard::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::Leaderboard o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::Leaderboard>(o))};
+return o;
+}
  void Oculus::Platform::Models::Leaderboard::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::Leaderboard>::get(),

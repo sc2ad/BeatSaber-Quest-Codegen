@@ -185,8 +185,10 @@ constexpr void System::IO::FileNotFoundException::__set__FusionLog_k__BackingFie
 constexpr ::StringW System::IO::FileNotFoundException::__get__FusionLog_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::FileNotFoundException::FileNotFoundException()  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<FileNotFoundException>())) {}
+ System::IO::FileNotFoundException System::IO::FileNotFoundException::New_ctor()  {
+System::IO::FileNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileNotFoundException>())};
+return o;
+}
  void System::IO::FileNotFoundException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileNotFoundException>::get(),
@@ -196,8 +198,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::IO::FileNotFoundException::FileNotFoundException(::StringW message)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<FileNotFoundException>(message))) {}
+ System::IO::FileNotFoundException System::IO::FileNotFoundException::New_ctor(::StringW message)  {
+System::IO::FileNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileNotFoundException>(message))};
+return o;
+}
  void System::IO::FileNotFoundException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileNotFoundException>::get(),
@@ -207,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
- System::IO::FileNotFoundException::FileNotFoundException(::StringW message, ::StringW fileName)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<FileNotFoundException>(message, fileName))) {}
+ System::IO::FileNotFoundException System::IO::FileNotFoundException::New_ctor(::StringW message, ::StringW fileName)  {
+System::IO::FileNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileNotFoundException>(message, fileName))};
+return o;
+}
  void System::IO::FileNotFoundException::_ctor(::StringW message, ::StringW fileName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileNotFoundException>::get(),
@@ -263,8 +269,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::IO::FileNotFoundException::FileNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<FileNotFoundException>(info, context))) {}
+ System::IO::FileNotFoundException System::IO::FileNotFoundException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::IO::FileNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileNotFoundException>(info, context))};
+return o;
+}
  void System::IO::FileNotFoundException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileNotFoundException>::get(),

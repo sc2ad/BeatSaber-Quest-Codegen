@@ -4,28 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DigitallySigned;
+class TlsClient;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsClientContextImpl;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class AbstractTlsContext;
-}
-namespace System::IO {
-class MemoryStream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
@@ -34,16 +16,34 @@ namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClient;
+class CertificateRequest;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateStatus;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsKeyExchange;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class AbstractTlsContext;
+}
+namespace System::IO {
+class MemoryStream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class DigitallySigned;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -145,20 +145,17 @@ constexpr Org::BouncyCastle::Crypto::Tls::CertificateRequest __get_mCertificateR
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit TlsClientProtocol(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+static Org::BouncyCastle::Crypto::Tls::TlsClientProtocol New_ctor(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method .ctor addr 0xf12cc8 size 0x20 virtual false final false
  void _ctor(System::IO::Stream stream, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit TlsClientProtocol(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+static Org::BouncyCastle::Crypto::Tls::TlsClientProtocol New_ctor(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method .ctor addr 0xf12ce8 size 0x18 virtual false final false
  void _ctor(System::IO::Stream input, System::IO::Stream output, Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit TlsClientProtocol(Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+static Org::BouncyCastle::Crypto::Tls::TlsClientProtocol New_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method .ctor addr 0xf12d00 size 0x18 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom secureRandom) ;

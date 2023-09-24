@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PauseAnimationController_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PauseAnimationController.add_resumeFromPauseAnimationDidFinishEvent
 template<>
 
@@ -214,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PauseAnimationController::PauseAnimationController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PauseAnimationController>())) {}
+ GlobalNamespace::PauseAnimationController GlobalNamespace::PauseAnimationController::New_ctor()  {
+GlobalNamespace::PauseAnimationController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PauseAnimationController>())};
+return o;
+}
  void GlobalNamespace::PauseAnimationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PauseAnimationController>::get(),

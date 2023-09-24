@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__SecurityUtils_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::SecurityUtils.DemandReflectionAccess
 template<>

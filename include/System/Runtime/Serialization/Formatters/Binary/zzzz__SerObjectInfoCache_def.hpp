@@ -94,14 +94,12 @@ constexpr ::ArrayW<System::Type> __get_memberTypes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hasTypeForwardedFrom", ty: "bool", modifiers: "", def_value: None }]
-explicit SerObjectInfoCache(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom) ;
+static System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache New_ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom) ;
 
 /// @brief Method .ctor addr 0x235f0bc size 0x3c virtual false final false
  void _ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit SerObjectInfoCache(System::Type type) ;
+static System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x235f0f8 size 0x8c virtual false final false
  void _ctor(System::Type type) ;

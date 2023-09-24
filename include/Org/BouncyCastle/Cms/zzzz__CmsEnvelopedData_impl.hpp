@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedData_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformationStore_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsEnvelopedData._ctor
 template<>
 
@@ -183,8 +183,10 @@ constexpr void Org::BouncyCastle::Cms::CmsEnvelopedData::__set_unprotectedAttrib
 constexpr Org::BouncyCastle::Asn1::Asn1Set Org::BouncyCastle::Cms::CmsEnvelopedData::__get_unprotectedAttributes() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Set, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "envelopedData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsEnvelopedData::CmsEnvelopedData(::ArrayW<uint8_t> envelopedData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsEnvelopedData>(envelopedData))) {}
+ Org::BouncyCastle::Cms::CmsEnvelopedData Org::BouncyCastle::Cms::CmsEnvelopedData::New_ctor(::ArrayW<uint8_t> envelopedData)  {
+Org::BouncyCastle::Cms::CmsEnvelopedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsEnvelopedData>(envelopedData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsEnvelopedData::_ctor(::ArrayW<uint8_t> envelopedData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsEnvelopedData>::get(),
@@ -194,8 +196,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, envelopedData);
 }
-// Ctor Parameters [CppParam { name: "envelopedData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsEnvelopedData::CmsEnvelopedData(System::IO::Stream envelopedData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsEnvelopedData>(envelopedData))) {}
+ Org::BouncyCastle::Cms::CmsEnvelopedData Org::BouncyCastle::Cms::CmsEnvelopedData::New_ctor(System::IO::Stream envelopedData)  {
+Org::BouncyCastle::Cms::CmsEnvelopedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsEnvelopedData>(envelopedData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsEnvelopedData::_ctor(System::IO::Stream envelopedData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsEnvelopedData>::get(),
@@ -205,8 +209,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, envelopedData);
 }
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsEnvelopedData::CmsEnvelopedData(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsEnvelopedData>(contentInfo))) {}
+ Org::BouncyCastle::Cms::CmsEnvelopedData Org::BouncyCastle::Cms::CmsEnvelopedData::New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  {
+Org::BouncyCastle::Cms::CmsEnvelopedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsEnvelopedData>(contentInfo))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsEnvelopedData::_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsEnvelopedData>::get(),

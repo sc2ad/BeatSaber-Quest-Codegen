@@ -4,13 +4,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 class Collider;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

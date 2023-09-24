@@ -1,16 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-template<typename TResult>
-class Func_1;
-}
 namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+class Task;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System {
+class Action;
 }
 namespace System {
 struct TimeSpan;
@@ -18,15 +16,17 @@ struct TimeSpan;
 namespace BGNet::Core {
 class ITaskUtility;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-class Action;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 // Forward declare root types
 namespace BGNet::Core {
@@ -113,8 +113,7 @@ template<typename T1,typename T2>
 template<typename T>
  System::Threading::Tasks::Task_1<T> Run(System::Func_1<T> func, System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters []
-explicit DefaultTaskUtility() ;
+static BGNet::Core::DefaultTaskUtility New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd0fcc size 0x8 virtual false final false
  void _ctor() ;

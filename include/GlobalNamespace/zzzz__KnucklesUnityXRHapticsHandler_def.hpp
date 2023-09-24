@@ -3,12 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::XR {
-struct InputDevice;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -20,6 +14,18 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::XR {
+struct InputDevice;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9;
+}
+namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace UnityEngine {
@@ -27,9 +33,6 @@ class Coroutine;
 }
 namespace GlobalNamespace {
 class IUnityXRHapticsHandler;
-}
-namespace UnityEngine {
-class MonoBehaviour;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -129,8 +132,7 @@ constexpr UnityEngine::WaitForSecondsRealtime __get__waiter_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f85078 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -240,8 +242,7 @@ constexpr float_t __get__amplitude() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "node", ty: "UnityEngine::XR::XRNode", modifiers: "", def_value: None }, CppParam { name: "coroutineRunner", ty: "UnityEngine::MonoBehaviour", modifiers: "", def_value: None }]
-explicit KnucklesUnityXRHapticsHandler(UnityEngine::XR::XRNode node, UnityEngine::MonoBehaviour coroutineRunner) ;
+static GlobalNamespace::KnucklesUnityXRHapticsHandler New_ctor(UnityEngine::XR::XRNode node, UnityEngine::MonoBehaviour coroutineRunner) ;
 
 /// @brief Method .ctor addr 0x1f84f80 size 0x58 virtual false final false
  void _ctor(UnityEngine::XR::XRNode node, UnityEngine::MonoBehaviour coroutineRunner) ;

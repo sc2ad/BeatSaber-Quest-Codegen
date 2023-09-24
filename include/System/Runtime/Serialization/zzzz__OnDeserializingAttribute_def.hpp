@@ -47,8 +47,7 @@ constexpr explicit OnDeserializingAttribute(void* ptr) noexcept : System::Attrib
 
 // Methods
 
-// Ctor Parameters []
-explicit OnDeserializingAttribute() ;
+static System::Runtime::Serialization::OnDeserializingAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2351ca4 size 0x8 virtual false final false
  void _ctor() ;

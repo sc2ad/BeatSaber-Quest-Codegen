@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class OVRCameraRig;
 }
 namespace UnityEngine {
 struct KeyCode;
 }
-namespace GlobalNamespace {
-class OVRCameraRig;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -143,8 +143,7 @@ constexpr GlobalNamespace::OVRCameraRig __get_CameraController() const;
 /// @brief Method CubeGridSwitchColor addr 0x26233ec size 0x188 virtual false final false
  void CubeGridSwitchColor(bool CubeSwitchColor) ;
 
-// Ctor Parameters []
-explicit OVRGridCube() ;
+static GlobalNamespace::OVRGridCube New_ctor() ;
 
 /// @brief Method .ctor addr 0x2623574 size 0x30 virtual false final false
  void _ctor() ;

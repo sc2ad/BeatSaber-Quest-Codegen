@@ -6,10 +6,44 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData;
+}
+namespace GlobalNamespace {
+class MenuDestination;
+}
+namespace GlobalNamespace {
 class RecordingToolSettings;
 }
 namespace GlobalNamespace {
+class ProgramArguments;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot;
+}
+namespace GlobalNamespace {
+class RecordingToolResourceContainerSO;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
 class IBeatSaberLogger;
+}
+namespace GlobalNamespace {
+class IPosesSerializer;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -19,32 +53,7 @@ namespace GlobalNamespace {
 class GlobalNamespace__ObjectsMovementRecorder__InitData;
 }
 namespace GlobalNamespace {
-class IPosesSerializer;
-}
-namespace GlobalNamespace {
-class ProgramArguments;
-}
-namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class RecordingToolResourceContainerSO;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +131,7 @@ constexpr float_t __get_b() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData() ;
+static GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ab87c size 0x8 virtual false final false
  void _ctor() ;
@@ -207,8 +215,7 @@ constexpr GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor_
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot() ;
+static GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ab884 size 0x8 virtual false final false
  void _ctor() ;
@@ -394,8 +401,7 @@ constexpr bool __get_saveToOldFormat() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration() ;
+static GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ab88c size 0x9c virtual false final false
  void _ctor() ;
@@ -500,8 +506,7 @@ static constexpr ::ConstString  kDefaultMrcLayersMask{u"DefaultMrcLayers"};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "programArguments", ty: "GlobalNamespace::ProgramArguments", modifiers: "", def_value: None }, CppParam { name: "logger", ty: "GlobalNamespace::IBeatSaberLogger", modifiers: "", def_value: None }, CppParam { name: "posesSerializer", ty: "GlobalNamespace::IPosesSerializer", modifiers: "", def_value: None }, CppParam { name: "resourceContainer", ty: "GlobalNamespace::RecordingToolResourceContainerSO", modifiers: "", def_value: None }]
-explicit RecordingToolConfigurationProcessor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer) ;
+static GlobalNamespace::RecordingToolConfigurationProcessor New_ctor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer) ;
 
 /// @brief Method .ctor addr 0x21a8fa8 size 0x40 virtual false final false
  void _ctor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer) ;

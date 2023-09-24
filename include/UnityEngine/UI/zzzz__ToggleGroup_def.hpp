@@ -6,6 +6,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace UnityEngine::UI {
+class UnityEngine__UI__ToggleGroup____c;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -14,12 +17,12 @@ namespace UnityEngine::UI {
 class Toggle;
 }
 namespace System {
-template<typename T>
-class Predicate_1;
-}
-namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System {
+template<typename T>
+class Predicate_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -91,8 +94,7 @@ static System::Func_2<UnityEngine::UI::Toggle,bool> __get___9__14_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__ToggleGroup____c() ;
+static UnityEngine::UI::UnityEngine__UI__ToggleGroup____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c14754 size 0x8 virtual false final false
  void _ctor() ;
@@ -177,8 +179,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::UI::Toggle> __get_m_
 /// @brief Method set_allowSwitchOff addr 0x2c14264 size 0xc virtual false final false
  void set_allowSwitchOff(bool value) ;
 
-// Ctor Parameters []
-explicit ToggleGroup() ;
+static UnityEngine::UI::ToggleGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c14270 size 0x7c virtual false final false
  void _ctor() ;

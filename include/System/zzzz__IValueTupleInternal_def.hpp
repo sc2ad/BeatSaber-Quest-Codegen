@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System::Runtime::CompilerServices {
 class ITuple;
+}
+namespace System::Collections {
+class IEqualityComparer;
 }
 // Forward declare root types
 namespace System {

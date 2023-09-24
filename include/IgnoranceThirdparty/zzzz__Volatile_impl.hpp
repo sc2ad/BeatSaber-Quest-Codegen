@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "IgnoranceThirdparty/zzzz__Volatile_def.hpp"
+#include "IgnoranceThirdparty/zzzz__Volatile_def.hpp"
 //  Writing Method size for method: IgnoranceThirdparty::IgnoranceThirdparty__Volatile__PaddedLong._ctor
 template<>
 

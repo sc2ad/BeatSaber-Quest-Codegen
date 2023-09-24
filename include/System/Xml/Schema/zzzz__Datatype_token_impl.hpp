@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Schema::XmlSchemaWhiteSpace, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_token::Datatype_token()  : System::Xml::Schema::Datatype_normalizedString(THROW_UNLESS(::il2cpp_utils::New<Datatype_token>())) {}
+ System::Xml::Schema::Datatype_token System::Xml::Schema::Datatype_token::New_ctor()  {
+System::Xml::Schema::Datatype_token o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_token>())};
+return o;
+}
  void System::Xml::Schema::Datatype_token::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_token>::get(),

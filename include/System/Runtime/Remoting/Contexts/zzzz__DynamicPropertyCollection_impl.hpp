@@ -1,8 +1,9 @@
 #pragma once
 #include "System/Runtime/Remoting/Contexts/zzzz__DynamicPropertyCollection_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IDynamicProperty_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__DynamicPropertyCollection_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IDynamicMessageSink_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg._ctor
 template<>
@@ -33,8 +34,10 @@ constexpr void System::Runtime::Remoting::Contexts::System__Runtime__Remoting__C
 constexpr System::Runtime::Remoting::Contexts::IDynamicMessageSink System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg::__get_Sink() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Contexts::IDynamicMessageSink, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg>())) {}
+ System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg::New_ctor()  {
+System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg>())};
+return o;
+}
  void System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg>::get(),
@@ -197,8 +200,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DynamicPropertyCollection>())) {}
+ System::Runtime::Remoting::Contexts::DynamicPropertyCollection System::Runtime::Remoting::Contexts::DynamicPropertyCollection::New_ctor()  {
+System::Runtime::Remoting::Contexts::DynamicPropertyCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Contexts::DynamicPropertyCollection>())};
+return o;
+}
  void System::Runtime::Remoting::Contexts::DynamicPropertyCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Contexts::DynamicPropertyCollection>::get(),

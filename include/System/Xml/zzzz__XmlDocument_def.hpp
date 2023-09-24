@@ -5,46 +5,43 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class XmlNodeChangedEventHandler;
-}
-namespace System::Xml {
-class XmlDocumentFragment;
-}
-namespace System::Xml {
-class XmlDocumentType;
-}
-namespace System::Xml {
-class XmlText;
-}
-namespace System::Xml {
-class XmlElement;
-}
-namespace System::Xml::Schema {
-class XmlSchemaSet;
-}
-namespace System::Xml {
 class XmlProcessingInstruction;
 }
 namespace System::Xml {
-class XmlReader;
-}
-namespace System::Xml {
-class XmlEntityReference;
-}
-namespace System::Xml {
-class XmlNameTable;
+struct XmlNodeChangedAction;
 }
 namespace System::Xml::Schema {
 class SchemaInfo;
 }
 namespace System::Xml {
-struct XmlNodeType;
+class XmlDeclaration;
 }
 namespace System::Xml {
-class XmlName;
+class XmlLinkedNode;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSet;
+}
+namespace System::Xml::Schema {
+class IXmlSchemaInfo;
 }
 namespace System::Xml {
-class XmlSignificantWhitespace;
+class XmlNodeChangedEventHandler;
+}
+namespace System::Xml {
+class XmlResolver;
+}
+namespace System::Xml {
+class DomNameTable;
+}
+namespace System::Xml {
+class EmptyEnumerator;
+}
+namespace System::Xml {
+class XmlNode;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Xml {
 class XmlAttribute;
@@ -52,65 +49,68 @@ class XmlAttribute;
 namespace System::Xml {
 class XmlCDataSection;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Xml {
+class XmlSignificantWhitespace;
 }
 namespace System::Xml {
-class XmlNode;
+class XmlNamedNodeMap;
 }
 namespace System::Xml {
-class EmptyEnumerator;
-}
-namespace System::Xml {
-class XmlImplementation;
-}
-namespace System::Xml::Schema {
-class SchemaAttDef;
-}
-namespace System::Xml {
-class XmlTextReader;
+class XmlEntity;
 }
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Xml {
-class XmlLinkedNode;
+class XmlNameTable;
 }
 namespace System::Xml {
-class XmlComment;
+class XmlDocumentFragment;
 }
 namespace System::Xml {
-class DomNameTable;
+class XmlText;
 }
 namespace System::Xml {
-struct XmlNodeChangedAction;
+class XmlName;
 }
 namespace System::Xml {
-class XmlEntity;
+class XmlEntityReference;
 }
 namespace System::Xml {
-class XmlResolver;
+class XmlDocumentType;
 }
 namespace System::Xml {
-class XmlWhitespace;
-}
-namespace System::Xml::Schema {
-class IXmlSchemaInfo;
+struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlNodeChangedEventArgs;
 }
 namespace System::Xml {
-class XmlDeclaration;
+class XmlReader;
+}
+namespace System::Xml {
+class XmlWhitespace;
 }
 namespace System {
 class WeakReference;
 }
+namespace System::Xml::Schema {
+class SchemaAttDef;
+}
 namespace System::Xml {
-class XmlNamedNodeMap;
+class XmlElement;
 }
 namespace System::Xml::Schema {
 class SchemaElementDecl;
+}
+namespace System::Xml {
+class XmlComment;
+}
+namespace System::Xml {
+class XmlTextReader;
+}
+namespace System::Xml {
+class XmlImplementation;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -476,14 +476,12 @@ static System::Xml::Schema::IXmlSchemaInfo __get_InvalidSchemaInfo() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlDocument() ;
+static System::Xml::XmlDocument New_ctor() ;
 
 /// @brief Method .ctor addr 0x26f0f04 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "imp", ty: "System::Xml::XmlImplementation", modifiers: "", def_value: None }]
-explicit XmlDocument(System::Xml::XmlImplementation imp) ;
+static System::Xml::XmlDocument New_ctor(System::Xml::XmlImplementation imp) ;
 
 /// @brief Method .ctor addr 0x26f0f68 size 0x3c8 virtual false final false
  void _ctor(System::Xml::XmlImplementation imp) ;

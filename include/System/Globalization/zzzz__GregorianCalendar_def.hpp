@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System {
-struct DayOfWeek;
-}
 namespace System::Globalization {
 class Calendar;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Globalization {
 struct GregorianCalendarTypes;
 }
 namespace System {
-struct DateTime;
+struct DayOfWeek;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -117,14 +117,12 @@ static System::Globalization::Calendar __get_s_defaultInstance() ;
 /// @brief Method GetDefaultInstance addr 0x23de6e4 size 0xd0 virtual false final false
 static System::Globalization::Calendar GetDefaultInstance() ;
 
-// Ctor Parameters []
-explicit GregorianCalendar() ;
+static System::Globalization::GregorianCalendar New_ctor() ;
 
 /// @brief Method .ctor addr 0x23f1550 size 0x2c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Globalization::GregorianCalendarTypes", modifiers: "", def_value: None }]
-explicit GregorianCalendar(System::Globalization::GregorianCalendarTypes type) ;
+static System::Globalization::GregorianCalendar New_ctor(System::Globalization::GregorianCalendarTypes type) ;
 
 /// @brief Method .ctor addr 0x23f157c size 0x154 virtual false final false
  void _ctor(System::Globalization::GregorianCalendarTypes type) ;

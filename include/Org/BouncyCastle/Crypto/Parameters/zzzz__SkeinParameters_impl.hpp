@@ -1,8 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder._ctor
 template<>
 
@@ -196,8 +197,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto_
 constexpr System::Collections::IDictionary Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder::__get_parameters() const {
 return ::cordl_internals::getInstanceField<System::Collections::IDictionary, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder>())) {}
+ Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder::New_ctor()  {
+Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder>::get(),
@@ -207,8 +210,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "paramsMap", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder(System::Collections::IDictionary paramsMap)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder>(paramsMap))) {}
+ Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder::New_ctor(System::Collections::IDictionary paramsMap)  {
+Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder>(paramsMap))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder::_ctor(System::Collections::IDictionary paramsMap)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder>::get(),
@@ -218,8 +223,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, paramsMap);
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::SkeinParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder(Org::BouncyCastle::Crypto::Parameters::SkeinParameters parameters)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder>(parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder::New_ctor(Org::BouncyCastle::Crypto::Parameters::SkeinParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder>(parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder::_ctor(Org::BouncyCastle::Crypto::Parameters::SkeinParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Org__BouncyCastle__Crypto__Parameters__SkeinParameters__Builder>::get(),
@@ -447,8 +454,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::SkeinParameters::__set_par
 constexpr System::Collections::IDictionary Org::BouncyCastle::Crypto::Parameters::SkeinParameters::__get_parameters() const {
 return ::cordl_internals::getInstanceField<System::Collections::IDictionary, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Parameters::SkeinParameters::SkeinParameters()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SkeinParameters>())) {}
+ Org::BouncyCastle::Crypto::Parameters::SkeinParameters Org::BouncyCastle::Crypto::Parameters::SkeinParameters::New_ctor()  {
+Org::BouncyCastle::Crypto::Parameters::SkeinParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::SkeinParameters>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::SkeinParameters::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::SkeinParameters>::get(),
@@ -458,8 +467,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::SkeinParameters::SkeinParameters(System::Collections::IDictionary parameters)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SkeinParameters>(parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::SkeinParameters Org::BouncyCastle::Crypto::Parameters::SkeinParameters::New_ctor(System::Collections::IDictionary parameters)  {
+Org::BouncyCastle::Crypto::Parameters::SkeinParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::SkeinParameters>(parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::SkeinParameters::_ctor(System::Collections::IDictionary parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::SkeinParameters>::get(),

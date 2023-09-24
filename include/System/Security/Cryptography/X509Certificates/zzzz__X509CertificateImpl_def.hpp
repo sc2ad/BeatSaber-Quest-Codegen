@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography {
-class DSA;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Security::Cryptography {
 class RSA;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Security::Cryptography {
+class DSA;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -158,8 +158,7 @@ constexpr explicit X509CertificateImpl(void* ptr) noexcept : ::bs_hook::Il2CppWr
 /// @brief Method Finalize addr 0x230af0c size 0xa4 virtual true final false
  void Finalize() ;
 
-// Ctor Parameters []
-explicit X509CertificateImpl() ;
+static System::Security::Cryptography::X509Certificates::X509CertificateImpl New_ctor() ;
 
 /// @brief Method .ctor addr 0x230afb0 size 0x8 virtual false final false
  void _ctor() ;

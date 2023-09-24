@@ -186,8 +186,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers::__get_BrainpoolP512T1()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "BrainpoolP512T1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers::TeleTrusTObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TeleTrusTObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__LevelBar_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapSelectionView.SetBeatmap
 template<>
 
@@ -59,8 +59,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapLevel);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapSelectionView::BeatmapSelectionView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatmapSelectionView>())) {}
+ GlobalNamespace::BeatmapSelectionView GlobalNamespace::BeatmapSelectionView::New_ctor()  {
+GlobalNamespace::BeatmapSelectionView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapSelectionView>())};
+return o;
+}
  void GlobalNamespace::BeatmapSelectionView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapSelectionView>::get(),

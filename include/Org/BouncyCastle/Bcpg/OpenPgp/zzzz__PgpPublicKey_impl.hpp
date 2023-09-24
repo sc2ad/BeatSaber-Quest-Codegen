@@ -1,18 +1,18 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPublicKey_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyPacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpUserAttributeSubpacketVector_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPublicKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__TrustPacket_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignature_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__TrustPacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyPacket_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpUserAttributeSubpacketVector_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignature_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPublicKeyParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey.CalculateFingerprint
 template<>
 
@@ -888,8 +888,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::PgpPublicKey(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, System::DateTime time)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpPublicKey>(algorithm, pubKey, time))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, System::DateTime time)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>(algorithm, pubKey, time))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, System::DateTime time)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>::get(),
@@ -899,8 +901,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithm, pubKey, time);
 }
-// Ctor Parameters [CppParam { name: "publicPk", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::PgpPublicKey(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpPublicKey>(publicPk))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>(publicPk))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>::get(),
@@ -910,8 +914,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, publicPk);
 }
-// Ctor Parameters [CppParam { name: "publicPk", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "trustPk", ty: "Org::BouncyCastle::Bcpg::TrustPacket", modifiers: "", def_value: None }, CppParam { name: "sigs", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::PgpPublicKey(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList sigs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpPublicKey>(publicPk, trustPk, sigs))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList sigs)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>(publicPk, trustPk, sigs))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList sigs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>::get(),
@@ -921,8 +927,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, publicPk, trustPk, sigs);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey", modifiers: "", def_value: None }, CppParam { name: "trust", ty: "Org::BouncyCastle::Bcpg::TrustPacket", modifiers: "", def_value: None }, CppParam { name: "subSigs", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::PgpPublicKey(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key, Org::BouncyCastle::Bcpg::TrustPacket trust, System::Collections::IList subSigs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpPublicKey>(key, trust, subSigs))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key, Org::BouncyCastle::Bcpg::TrustPacket trust, System::Collections::IList subSigs)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>(key, trust, subSigs))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey key, Org::BouncyCastle::Bcpg::TrustPacket trust, System::Collections::IList subSigs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>::get(),
@@ -932,8 +940,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key, trust, subSigs);
 }
-// Ctor Parameters [CppParam { name: "pubKey", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::PgpPublicKey(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpPublicKey>(pubKey))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>(pubKey))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>::get(),
@@ -943,8 +953,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pubKey);
 }
-// Ctor Parameters [CppParam { name: "publicPk", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "trustPk", ty: "Org::BouncyCastle::Bcpg::TrustPacket", modifiers: "", def_value: None }, CppParam { name: "keySigs", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "ids", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "idTrusts", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "idSigs", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::PgpPublicKey(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList keySigs, System::Collections::IList ids, System::Collections::IList idTrusts, System::Collections::IList idSigs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpPublicKey>(publicPk, trustPk, keySigs, ids, idTrusts, idSigs))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList keySigs, System::Collections::IList ids, System::Collections::IList idTrusts, System::Collections::IList idSigs)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>(publicPk, trustPk, keySigs, ids, idTrusts, idSigs))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, Org::BouncyCastle::Bcpg::TrustPacket trustPk, System::Collections::IList keySigs, System::Collections::IList ids, System::Collections::IList idTrusts, System::Collections::IList idSigs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>::get(),
@@ -954,8 +966,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, publicPk, trustPk, keySigs, ids, idTrusts, idSigs);
 }
-// Ctor Parameters [CppParam { name: "publicPk", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "ids", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "idSigs", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::PgpPublicKey(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, System::Collections::IList ids, System::Collections::IList idSigs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpPublicKey>(publicPk, ids, idSigs))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, System::Collections::IList ids, System::Collections::IList idSigs)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>(publicPk, ids, idSigs))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::_ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket publicPk, System::Collections::IList ids, System::Collections::IList idSigs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey>::get(),

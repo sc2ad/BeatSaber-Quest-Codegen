@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObjectParser;
+class Asn1SequenceParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1SequenceParser;
+class Asn1TaggedObjectParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
@@ -80,8 +80,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1TaggedObjectParser __get_content() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1SequenceParser", modifiers: "", def_value: None }]
-explicit ContentInfoParser(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
+static Org::BouncyCastle::Asn1::Cms::ContentInfoParser New_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
 
 /// @brief Method .ctor addr 0xde6738 size 0x1e0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;

@@ -2,6 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
+class Parametric3SliceSpriteController;
+}
+namespace GlobalNamespace {
+struct SaberType;
+}
+namespace GlobalNamespace {
 class SaberTypeObject;
 }
 namespace GlobalNamespace {
@@ -9,12 +15,6 @@ class ColorManager;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-struct SaberType;
-}
-namespace GlobalNamespace {
-class Parametric3SliceSpriteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +109,7 @@ constexpr GlobalNamespace::SaberType __get__saberType() const;
 /// @brief Method SetColors addr 0x210cbd0 size 0x5c virtual false final false
  void SetColors() ;
 
-// Ctor Parameters []
-explicit SetSaberFakeGlowColor() ;
+static GlobalNamespace::SetSaberFakeGlowColor New_ctor() ;
 
 /// @brief Method .ctor addr 0x210ccac size 0x8 virtual false final false
  void _ctor() ;

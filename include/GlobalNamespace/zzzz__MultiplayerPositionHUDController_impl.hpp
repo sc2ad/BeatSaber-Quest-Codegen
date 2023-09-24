@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPositionHUDController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerPositionHUDController.set_alpha
 template<>
 
@@ -150,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerPositionHUDController::MultiplayerPositionHUDController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerPositionHUDController>())) {}
+ GlobalNamespace::MultiplayerPositionHUDController GlobalNamespace::MultiplayerPositionHUDController::New_ctor()  {
+GlobalNamespace::MultiplayerPositionHUDController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerPositionHUDController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerPositionHUDController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerPositionHUDController>::get(),

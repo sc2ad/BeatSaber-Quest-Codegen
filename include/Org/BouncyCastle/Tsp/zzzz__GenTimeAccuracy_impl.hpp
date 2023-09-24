@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Tsp/zzzz__GenTimeAccuracy_def.hpp"
-#include "Org/BouncyCastle/Asn1/Tsp/zzzz__Accuracy_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/Tsp/zzzz__Accuracy_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Tsp::GenTimeAccuracy._ctor
 template<>
 
@@ -110,8 +110,10 @@ constexpr void Org::BouncyCastle::Tsp::GenTimeAccuracy::__set_accuracy(Org::Boun
 constexpr Org::BouncyCastle::Asn1::Tsp::Accuracy Org::BouncyCastle::Tsp::GenTimeAccuracy::__get_accuracy() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Tsp::Accuracy, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "accuracy", ty: "Org::BouncyCastle::Asn1::Tsp::Accuracy", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::GenTimeAccuracy::GenTimeAccuracy(Org::BouncyCastle::Asn1::Tsp::Accuracy accuracy)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenTimeAccuracy>(accuracy))) {}
+ Org::BouncyCastle::Tsp::GenTimeAccuracy Org::BouncyCastle::Tsp::GenTimeAccuracy::New_ctor(Org::BouncyCastle::Asn1::Tsp::Accuracy accuracy)  {
+Org::BouncyCastle::Tsp::GenTimeAccuracy o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::GenTimeAccuracy>(accuracy))};
+return o;
+}
  void Org::BouncyCastle::Tsp::GenTimeAccuracy::_ctor(Org::BouncyCastle::Asn1::Tsp::Accuracy accuracy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::GenTimeAccuracy>::get(),

@@ -1,12 +1,13 @@
 #pragma once
 #include "TMPro/zzzz__TMP_MaterialManager_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "TMPro/zzzz__TMP_MaterialManager_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__TMP_MaterialManager__FallbackMaterial._ctor
 template<>
 
@@ -54,8 +55,10 @@ constexpr void TMPro::TMPro__TMP_MaterialManager__FallbackMaterial::__set_count(
 constexpr int32_t TMPro::TMPro__TMP_MaterialManager__FallbackMaterial::__get_count() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_MaterialManager__FallbackMaterial::TMPro__TMP_MaterialManager__FallbackMaterial()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_MaterialManager__FallbackMaterial>())) {}
+ TMPro::TMPro__TMP_MaterialManager__FallbackMaterial TMPro::TMPro__TMP_MaterialManager__FallbackMaterial::New_ctor()  {
+TMPro::TMPro__TMP_MaterialManager__FallbackMaterial o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_MaterialManager__FallbackMaterial>())};
+return o;
+}
  void TMPro::TMPro__TMP_MaterialManager__FallbackMaterial::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_MaterialManager__FallbackMaterial>::get(),
@@ -106,8 +109,10 @@ constexpr void TMPro::TMPro__TMP_MaterialManager__MaskingMaterial::__set_stencil
 constexpr int32_t TMPro::TMPro__TMP_MaterialManager__MaskingMaterial::__get_stencilID() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_MaterialManager__MaskingMaterial::TMPro__TMP_MaterialManager__MaskingMaterial()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_MaterialManager__MaskingMaterial>())) {}
+ TMPro::TMPro__TMP_MaterialManager__MaskingMaterial TMPro::TMPro__TMP_MaterialManager__MaskingMaterial::New_ctor()  {
+TMPro::TMPro__TMP_MaterialManager__MaskingMaterial o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_MaterialManager__MaskingMaterial>())};
+return o;
+}
  void TMPro::TMPro__TMP_MaterialManager__MaskingMaterial::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_MaterialManager__MaskingMaterial>::get(),
@@ -157,8 +162,10 @@ constexpr void TMPro::TMPro__TMP_MaterialManager____c__DisplayClass9_0::__set_st
 constexpr UnityEngine::Material TMPro::TMPro__TMP_MaterialManager____c__DisplayClass9_0::__get_stencilMaterial() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Material, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_MaterialManager____c__DisplayClass9_0::TMPro__TMP_MaterialManager____c__DisplayClass9_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_MaterialManager____c__DisplayClass9_0>())) {}
+ TMPro::TMPro__TMP_MaterialManager____c__DisplayClass9_0 TMPro::TMPro__TMP_MaterialManager____c__DisplayClass9_0::New_ctor()  {
+TMPro::TMPro__TMP_MaterialManager____c__DisplayClass9_0 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_MaterialManager____c__DisplayClass9_0>())};
+return o;
+}
  void TMPro::TMPro__TMP_MaterialManager____c__DisplayClass9_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_MaterialManager____c__DisplayClass9_0>::get(),
@@ -217,8 +224,10 @@ constexpr void TMPro::TMPro__TMP_MaterialManager____c__DisplayClass11_0::__set_s
 constexpr UnityEngine::Material TMPro::TMPro__TMP_MaterialManager____c__DisplayClass11_0::__get_stencilMaterial() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Material, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_MaterialManager____c__DisplayClass11_0::TMPro__TMP_MaterialManager____c__DisplayClass11_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_MaterialManager____c__DisplayClass11_0>())) {}
+ TMPro::TMPro__TMP_MaterialManager____c__DisplayClass11_0 TMPro::TMPro__TMP_MaterialManager____c__DisplayClass11_0::New_ctor()  {
+TMPro::TMPro__TMP_MaterialManager____c__DisplayClass11_0 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_MaterialManager____c__DisplayClass11_0>())};
+return o;
+}
  void TMPro::TMPro__TMP_MaterialManager____c__DisplayClass11_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_MaterialManager____c__DisplayClass11_0>::get(),
@@ -277,8 +286,10 @@ constexpr void TMPro::TMPro__TMP_MaterialManager____c__DisplayClass12_0::__set_s
 constexpr UnityEngine::Material TMPro::TMPro__TMP_MaterialManager____c__DisplayClass12_0::__get_stencilMaterial() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Material, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_MaterialManager____c__DisplayClass12_0::TMPro__TMP_MaterialManager____c__DisplayClass12_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_MaterialManager____c__DisplayClass12_0>())) {}
+ TMPro::TMPro__TMP_MaterialManager____c__DisplayClass12_0 TMPro::TMPro__TMP_MaterialManager____c__DisplayClass12_0::New_ctor()  {
+TMPro::TMPro__TMP_MaterialManager____c__DisplayClass12_0 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_MaterialManager____c__DisplayClass12_0>())};
+return o;
+}
  void TMPro::TMPro__TMP_MaterialManager____c__DisplayClass12_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_MaterialManager____c__DisplayClass12_0>::get(),
@@ -337,8 +348,10 @@ constexpr void TMPro::TMPro__TMP_MaterialManager____c__DisplayClass13_0::__set_b
 constexpr UnityEngine::Material TMPro::TMPro__TMP_MaterialManager____c__DisplayClass13_0::__get_baseMaterial() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Material, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_MaterialManager____c__DisplayClass13_0::TMPro__TMP_MaterialManager____c__DisplayClass13_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_MaterialManager____c__DisplayClass13_0>())) {}
+ TMPro::TMPro__TMP_MaterialManager____c__DisplayClass13_0 TMPro::TMPro__TMP_MaterialManager____c__DisplayClass13_0::New_ctor()  {
+TMPro::TMPro__TMP_MaterialManager____c__DisplayClass13_0 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_MaterialManager____c__DisplayClass13_0>())};
+return o;
+}
  void TMPro::TMPro__TMP_MaterialManager____c__DisplayClass13_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_MaterialManager____c__DisplayClass13_0>::get(),

@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine {
-class RenderTexture;
+class Camera;
 }
 namespace UnityEngine {
-class Camera;
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,8 +82,7 @@ constexpr UnityEngine::Camera __get__camera() const;
 /// @brief Method OnRenderImage addr 0x2679818 size 0x1f8 virtual false final false
  void OnRenderImage(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dst) ;
 
-// Ctor Parameters []
-explicit RenderTextureFromPostEffect() ;
+static GlobalNamespace::RenderTextureFromPostEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2679a10 size 0x8 virtual false final false
  void _ctor() ;

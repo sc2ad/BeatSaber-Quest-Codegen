@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__AddressablesRuntimeProperties_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties.GetAssemblies
 template<>
 

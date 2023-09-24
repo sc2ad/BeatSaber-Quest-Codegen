@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
-class StyleSheet;
+struct StyleValueHandle;
 }
 namespace UnityEngine::UIElements {
-struct StyleValueHandle;
+class StyleSheet;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

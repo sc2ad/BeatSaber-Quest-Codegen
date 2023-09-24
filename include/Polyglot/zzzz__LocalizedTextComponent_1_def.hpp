@@ -5,15 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace Polyglot {
 class ILocalize;
 }
 namespace Polyglot {
 struct LanguageDirection;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -150,8 +150,7 @@ constexpr System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __g
 /// @brief Method AddParameter addr 0x0 size 0xffffffffffffffff virtual false final false
  void AddParameter(::StringW parameter) ;
 
-// Ctor Parameters []
-explicit LocalizedTextComponent_1() ;
+static Polyglot::LocalizedTextComponent_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

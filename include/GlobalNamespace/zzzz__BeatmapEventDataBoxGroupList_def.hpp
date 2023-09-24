@@ -3,10 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-template<typename T,typename TBase>
-class SortedList_2;
-}
-namespace GlobalNamespace {
 class BeatmapData;
 }
 namespace GlobalNamespace {
@@ -17,14 +13,18 @@ class IBeatToTimeConvertor;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class HashSet_1;
+}
+namespace GlobalNamespace {
+template<typename T,typename TBase>
+class SortedList_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class LinkedListNode_1;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroupProcessor;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -126,8 +126,7 @@ static System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventData
 /// @brief Method NoDomainReloadInit addr 0x21dbe10 size 0x78 virtual false final false
 static void NoDomainReloadInit() ;
 
-// Ctor Parameters [CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatmapData", ty: "GlobalNamespace::BeatmapData", modifiers: "", def_value: None }, CppParam { name: "beatToTimeConvertor", ty: "GlobalNamespace::IBeatToTimeConvertor", modifiers: "", def_value: None }]
-explicit BeatmapEventDataBoxGroupList(int32_t groupId, GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor) ;
+static GlobalNamespace::BeatmapEventDataBoxGroupList New_ctor(int32_t groupId, GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor) ;
 
 /// @brief Method .ctor addr 0x21dbe88 size 0xd8 virtual false final false
  void _ctor(int32_t groupId, GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor) ;

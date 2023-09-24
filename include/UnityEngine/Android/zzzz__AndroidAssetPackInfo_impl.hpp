@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Android/zzzz__AndroidAssetPackInfo_def.hpp"
-#include "UnityEngine/Android/zzzz__AndroidAssetPackError_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackStatus_def.hpp"
+#include "UnityEngine/Android/zzzz__AndroidAssetPackError_def.hpp"
 //  Writing Method size for method: UnityEngine::Android::AndroidAssetPackInfo._ctor
 template<>
 
@@ -55,8 +55,10 @@ constexpr void UnityEngine::Android::AndroidAssetPackInfo::__set__error_k__Backi
 constexpr UnityEngine::Android::AndroidAssetPackError UnityEngine::Android::AndroidAssetPackInfo::__get__error_k__BackingField() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Android::AndroidAssetPackError, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "status", ty: "UnityEngine::Android::AndroidAssetPackStatus", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "bytesDownloaded", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "transferProgress", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "error", ty: "UnityEngine::Android::AndroidAssetPackError", modifiers: "", def_value: None }]
- UnityEngine::Android::AndroidAssetPackInfo::AndroidAssetPackInfo(::StringW name, UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress, UnityEngine::Android::AndroidAssetPackError error)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidAssetPackInfo>(name, status, size, bytesDownloaded, transferProgress, error))) {}
+ UnityEngine::Android::AndroidAssetPackInfo UnityEngine::Android::AndroidAssetPackInfo::New_ctor(::StringW name, UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress, UnityEngine::Android::AndroidAssetPackError error)  {
+UnityEngine::Android::AndroidAssetPackInfo o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Android::AndroidAssetPackInfo>(name, status, size, bytesDownloaded, transferProgress, error))};
+return o;
+}
  void UnityEngine::Android::AndroidAssetPackInfo::_ctor(::StringW name, UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress, UnityEngine::Android::AndroidAssetPackError error)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Android::AndroidAssetPackInfo>::get(),

@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnControllerHelpers_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapObjectSpawnControllerHelpers.GetNoteJumpValues
 template<>
 

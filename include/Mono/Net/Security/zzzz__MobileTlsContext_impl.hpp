@@ -1,16 +1,16 @@
 #pragma once
 #include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"
-#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
 #include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
 //  Writing Method size for method: Mono::Net::Security::MobileTlsContext._ctor
 template<>
 
@@ -517,8 +517,10 @@ constexpr void Mono::Net::Security::MobileTlsContext::__set__LocalServerCertific
 constexpr System::Security::Cryptography::X509Certificates::X509Certificate Mono::Net::Security::MobileTlsContext::__get__LocalServerCertificate_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::X509Certificates::X509Certificate, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "options", ty: "Mono::Net::Security::MonoSslAuthenticationOptions", modifiers: "", def_value: None }]
- Mono::Net::Security::MobileTlsContext::MobileTlsContext(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MobileTlsContext>(parent, options))) {}
+ Mono::Net::Security::MobileTlsContext Mono::Net::Security::MobileTlsContext::New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options)  {
+Mono::Net::Security::MobileTlsContext o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::MobileTlsContext>(parent, options))};
+return o;
+}
  void Mono::Net::Security::MobileTlsContext::_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::MobileTlsContext>::get(),

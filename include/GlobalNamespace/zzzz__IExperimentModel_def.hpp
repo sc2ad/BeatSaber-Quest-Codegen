@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
+namespace GlobalNamespace {
+class IExperimentData;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
-}
-namespace GlobalNamespace {
-class IExperimentData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

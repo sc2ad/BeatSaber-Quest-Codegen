@@ -70,14 +70,12 @@ constexpr bool __get__ForceFullStates_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "contract", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ContractAnnotationAttribute(::StringW contract) ;
+static JetBrains::Annotations::ContractAnnotationAttribute New_ctor(::StringW contract) ;
 
 /// @brief Method .ctor addr 0x2d40b34 size 0x2c virtual false final false
  void _ctor(::StringW contract) ;
 
-// Ctor Parameters [CppParam { name: "contract", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "forceFullStates", ty: "bool", modifiers: "", def_value: None }]
-explicit ContractAnnotationAttribute(::StringW contract, bool forceFullStates) ;
+static JetBrains::Annotations::ContractAnnotationAttribute New_ctor(::StringW contract, bool forceFullStates) ;
 
 /// @brief Method .ctor addr 0x2d40b60 size 0x34 virtual false final false
  void _ctor(::StringW contract, bool forceFullStates) ;

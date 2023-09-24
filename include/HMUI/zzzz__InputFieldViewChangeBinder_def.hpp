@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace UnityEngine::Events {
 template<typename T0>
@@ -16,9 +16,9 @@ class UnityAction_1;
 namespace HMUI {
 class InputFieldView;
 }
-namespace System {
+namespace System::Collections::Generic {
 template<typename T>
-class Action_1;
+class List_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -81,8 +81,7 @@ constexpr bool __get__enabled() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit InputFieldViewChangeBinder() ;
+static HMUI::InputFieldViewChangeBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa61a8 size 0x24 virtual false final false
  void _ctor() ;

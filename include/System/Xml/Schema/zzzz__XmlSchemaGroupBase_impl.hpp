@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Schema::XmlSchemaObjectCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaGroupBase::XmlSchemaGroupBase()  : System::Xml::Schema::XmlSchemaParticle(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaGroupBase>())) {}
+ System::Xml::Schema::XmlSchemaGroupBase System::Xml::Schema::XmlSchemaGroupBase::New_ctor()  {
+System::Xml::Schema::XmlSchemaGroupBase o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaGroupBase>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaGroupBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaGroupBase>::get(),

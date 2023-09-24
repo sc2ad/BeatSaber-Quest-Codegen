@@ -2,8 +2,8 @@
 #include "UnityEngine/Timeline/zzzz__RuntimeClipBase_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ScheduleRuntimeClip_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::ScheduleRuntimeClip.get_start
 template<>
 
@@ -281,8 +281,12 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Playables::Playable, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "clip", ty: "UnityEngine::Timeline::TimelineClip", modifiers: "", def_value: None }, CppParam { name: "clipPlayable", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: None }, CppParam { name: "parentMixer", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: None }, CppParam { name: "startDelay", ty: "double_t", modifiers: "", def_value: Some("0.2") }, CppParam { name: "finishTail", ty: "double_t", modifiers: "", def_value: Some("0.1") }]
- UnityEngine::Timeline::ScheduleRuntimeClip::ScheduleRuntimeClip(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail)  : UnityEngine::Timeline::RuntimeClipBase(THROW_UNLESS(::il2cpp_utils::New<ScheduleRuntimeClip>(clip, clipPlayable, parentMixer, startDelay, finishTail))) {}
+/// @param startDelay: double_t (default: 0.2)
+/// @param finishTail: double_t (default: 0.1)
+ UnityEngine::Timeline::ScheduleRuntimeClip UnityEngine::Timeline::ScheduleRuntimeClip::New_ctor(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail)  {
+UnityEngine::Timeline::ScheduleRuntimeClip o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::ScheduleRuntimeClip>(clip, clipPlayable, parentMixer, startDelay, finishTail))};
+return o;
+}
 /// @param startDelay: double_t (default: 0.2)
 /// @param finishTail: double_t (default: 0.1)
  void UnityEngine::Timeline::ScheduleRuntimeClip::_ctor(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail)  {

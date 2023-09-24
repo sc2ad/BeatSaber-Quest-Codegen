@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/InputSystem/XR/zzzz__XRHMD_impl.hpp"
 #include "Unity/XR/Oculus/Input/zzzz__OculusHMD_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
 //  Writing Method size for method: Unity::XR::Oculus::Input::OculusHMD.get_userPresence
 template<>
 
@@ -1382,8 +1382,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::Oculus::Input::OculusHMD::OculusHMD()  : UnityEngine::InputSystem::XR::XRHMD(THROW_UNLESS(::il2cpp_utils::New<OculusHMD>())) {}
+ Unity::XR::Oculus::Input::OculusHMD Unity::XR::Oculus::Input::OculusHMD::New_ctor()  {
+Unity::XR::Oculus::Input::OculusHMD o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::Input::OculusHMD>())};
+return o;
+}
  void Unity::XR::Oculus::Input::OculusHMD::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::Input::OculusHMD>::get(),

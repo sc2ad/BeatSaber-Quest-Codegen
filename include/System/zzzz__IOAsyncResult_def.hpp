@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System::Threading {
 class ManualResetEvent;
@@ -108,8 +108,7 @@ constexpr bool __get_completed() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit IOAsyncResult() ;
+static System::IOAsyncResult New_ctor() ;
 
 /// @brief Method .ctor addr 0x27bbb90 size 0x8 virtual false final false
  void _ctor() ;
@@ -117,8 +116,7 @@ explicit IOAsyncResult() ;
 /// @brief Method Init addr 0x27bbb98 size 0x20 virtual false final false
  void Init(System::AsyncCallback async_callback, ::bs_hook::Il2CppWrapperType async_state) ;
 
-// Ctor Parameters [CppParam { name: "async_callback", ty: "System::AsyncCallback", modifiers: "", def_value: None }, CppParam { name: "async_state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit IOAsyncResult(System::AsyncCallback async_callback, ::bs_hook::Il2CppWrapperType async_state) ;
+static System::IOAsyncResult New_ctor(System::AsyncCallback async_callback, ::bs_hook::Il2CppWrapperType async_state) ;
 
 /// @brief Method .ctor addr 0x27bbbb8 size 0x2c virtual false final false
  void _ctor(System::AsyncCallback async_callback, ::bs_hook::Il2CppWrapperType async_state) ;

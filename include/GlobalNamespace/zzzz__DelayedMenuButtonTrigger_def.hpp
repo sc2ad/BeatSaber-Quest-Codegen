@@ -108,8 +108,7 @@ constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 /// @brief Method Tick addr 0x20ce5cc size 0x110 virtual true final true
  void Tick() ;
 
-// Ctor Parameters []
-explicit DelayedMenuButtonTrigger() ;
+static GlobalNamespace::DelayedMenuButtonTrigger New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ce6dc size 0x14 virtual false final false
  void _ctor() ;

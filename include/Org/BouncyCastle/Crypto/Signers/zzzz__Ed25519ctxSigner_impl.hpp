@@ -1,10 +1,11 @@
 #pragma once
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__Ed25519ctxSigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__Ed25519PrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__Ed25519PublicKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__Ed25519PrivateKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__Ed25519PublicKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Signers/zzzz__Ed25519ctxSigner_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::Org__BouncyCastle__Crypto__Signers__Ed25519ctxSigner__Buffer.GenerateSignature
 template<>
 
@@ -100,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Signers::Org__BouncyCastle__Crypto__Signers__Ed25519ctxSigner__Buffer::Org__BouncyCastle__Crypto__Signers__Ed25519ctxSigner__Buffer()  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Signers__Ed25519ctxSigner__Buffer>())) {}
+ Org::BouncyCastle::Crypto::Signers::Org__BouncyCastle__Crypto__Signers__Ed25519ctxSigner__Buffer Org::BouncyCastle::Crypto::Signers::Org__BouncyCastle__Crypto__Signers__Ed25519ctxSigner__Buffer::New_ctor()  {
+Org::BouncyCastle::Crypto::Signers::Org__BouncyCastle__Crypto__Signers__Ed25519ctxSigner__Buffer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::Org__BouncyCastle__Crypto__Signers__Ed25519ctxSigner__Buffer>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::Org__BouncyCastle__Crypto__Signers__Ed25519ctxSigner__Buffer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::Org__BouncyCastle__Crypto__Signers__Ed25519ctxSigner__Buffer>::get(),
@@ -281,8 +284,10 @@ constexpr void Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner::__set_publi
 constexpr Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner::__get_publicKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner::Ed25519ctxSigner(::ArrayW<uint8_t> context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Ed25519ctxSigner>(context))) {}
+ Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner::New_ctor(::ArrayW<uint8_t> context)  {
+Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner>(context))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner::_ctor(::ArrayW<uint8_t> context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner>::get(),

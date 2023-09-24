@@ -4,10 +4,10 @@
 #include <cmath>
 #include <cstddef>
 namespace HoudiniEngineUnity {
-struct HAPI_XYZOrder;
+struct HAPI_RSTOrder;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_RSTOrder;
+struct HAPI_XYZOrder;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

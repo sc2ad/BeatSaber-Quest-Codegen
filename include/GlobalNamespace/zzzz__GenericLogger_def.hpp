@@ -5,11 +5,14 @@
 namespace GlobalNamespace {
 class IVerboseLogger;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GlobalNamespace__GenericLogger__ScopedStopwatch;
 }
 namespace System::Diagnostics {
 class Stopwatch;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,8 +81,7 @@ constexpr System::Diagnostics::Stopwatch __get__stopwatch() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "processName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GlobalNamespace__GenericLogger__ScopedStopwatch(::StringW processName) ;
+static GlobalNamespace::GlobalNamespace__GenericLogger__ScopedStopwatch New_ctor(::StringW processName) ;
 
 /// @brief Method .ctor addr 0x1f7226c size 0xb8 virtual false final false
  void _ctor(::StringW processName) ;

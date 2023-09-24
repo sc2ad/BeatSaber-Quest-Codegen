@@ -47,8 +47,7 @@ constexpr explicit ThreadStaticAttribute(void* ptr) noexcept : System::Attribute
 
 // Methods
 
-// Ctor Parameters []
-explicit ThreadStaticAttribute() ;
+static System::ThreadStaticAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2457b6c size 0x8 virtual false final false
  void _ctor() ;

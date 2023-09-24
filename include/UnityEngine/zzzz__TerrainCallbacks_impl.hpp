@@ -1,8 +1,9 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__TerrainCallbacks_def.hpp"
-#include "UnityEngine/zzzz__TerrainData_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "UnityEngine/zzzz__TerrainCallbacks_def.hpp"
+#include "UnityEngine/zzzz__TerrainData_def.hpp"
 #include "UnityEngine/zzzz__Terrain_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__TerrainCallbacks__HeightmapChangedCallback._ctor
 template<>
@@ -38,8 +39,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__TerrainCallbacks__HeightmapChangedCallback::UnityEngine__TerrainCallbacks__HeightmapChangedCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__TerrainCallbacks__HeightmapChangedCallback>(object, method))) {}
+ UnityEngine::UnityEngine__TerrainCallbacks__HeightmapChangedCallback UnityEngine::UnityEngine__TerrainCallbacks__HeightmapChangedCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__TerrainCallbacks__HeightmapChangedCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__TerrainCallbacks__HeightmapChangedCallback>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__TerrainCallbacks__HeightmapChangedCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__TerrainCallbacks__HeightmapChangedCallback>::get(),
@@ -92,8 +95,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__TerrainCallbacks__TextureChangedCallback::UnityEngine__TerrainCallbacks__TextureChangedCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__TerrainCallbacks__TextureChangedCallback>(object, method))) {}
+ UnityEngine::UnityEngine__TerrainCallbacks__TextureChangedCallback UnityEngine::UnityEngine__TerrainCallbacks__TextureChangedCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__TerrainCallbacks__TextureChangedCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__TerrainCallbacks__TextureChangedCallback>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__TerrainCallbacks__TextureChangedCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__TerrainCallbacks__TextureChangedCallback>::get(),

@@ -7,14 +7,14 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class ICloneable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace System {
@@ -102,8 +102,7 @@ constexpr char16_t __get__currentElement() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CharEnumerator(::StringW str) ;
+static System::CharEnumerator New_ctor(::StringW str) ;
 
 /// @brief Method .ctor addr 0x23ba75c size 0x30 virtual false final false
  void _ctor(::StringW str) ;
@@ -126,8 +125,7 @@ explicit CharEnumerator(::StringW str) ;
 /// @brief Method Reset addr 0x23ba908 size 0x10 virtual true final true
  void Reset() ;
 
-// Ctor Parameters []
-explicit CharEnumerator() ;
+static System::CharEnumerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x23ba918 size 0x38 virtual false final false
  void _ctor() ;

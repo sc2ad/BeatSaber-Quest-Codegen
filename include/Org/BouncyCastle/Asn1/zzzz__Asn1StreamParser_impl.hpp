@@ -175,8 +175,10 @@ constexpr void Org::BouncyCastle::Asn1::Asn1StreamParser::__set_tmpBuffers(::Arr
 constexpr ::ArrayW<::ArrayW<uint8_t>> Org::BouncyCastle::Asn1::Asn1StreamParser::__get_tmpBuffers() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::ArrayW<uint8_t>>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1StreamParser::Asn1StreamParser(System::IO::Stream inStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1StreamParser>(inStream))) {}
+ Org::BouncyCastle::Asn1::Asn1StreamParser Org::BouncyCastle::Asn1::Asn1StreamParser::New_ctor(System::IO::Stream inStream)  {
+Org::BouncyCastle::Asn1::Asn1StreamParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1StreamParser>(inStream))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1StreamParser::_ctor(System::IO::Stream inStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1StreamParser>::get(),
@@ -186,8 +188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inStream);
 }
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1StreamParser::Asn1StreamParser(System::IO::Stream inStream, int32_t limit)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1StreamParser>(inStream, limit))) {}
+ Org::BouncyCastle::Asn1::Asn1StreamParser Org::BouncyCastle::Asn1::Asn1StreamParser::New_ctor(System::IO::Stream inStream, int32_t limit)  {
+Org::BouncyCastle::Asn1::Asn1StreamParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1StreamParser>(inStream, limit))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1StreamParser::_ctor(System::IO::Stream inStream, int32_t limit)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1StreamParser>::get(),
@@ -197,8 +201,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inStream, limit);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1StreamParser::Asn1StreamParser(::ArrayW<uint8_t> encoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1StreamParser>(encoding))) {}
+ Org::BouncyCastle::Asn1::Asn1StreamParser Org::BouncyCastle::Asn1::Asn1StreamParser::New_ctor(::ArrayW<uint8_t> encoding)  {
+Org::BouncyCastle::Asn1::Asn1StreamParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1StreamParser>(encoding))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1StreamParser::_ctor(::ArrayW<uint8_t> encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1StreamParser>::get(),

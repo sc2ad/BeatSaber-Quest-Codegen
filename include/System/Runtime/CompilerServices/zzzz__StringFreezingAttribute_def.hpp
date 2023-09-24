@@ -47,8 +47,7 @@ constexpr explicit StringFreezingAttribute(void* ptr) noexcept : System::Attribu
 
 // Methods
 
-// Ctor Parameters []
-explicit StringFreezingAttribute() ;
+static System::Runtime::CompilerServices::StringFreezingAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236e3d0 size 0x8 virtual false final false
  void _ctor() ;

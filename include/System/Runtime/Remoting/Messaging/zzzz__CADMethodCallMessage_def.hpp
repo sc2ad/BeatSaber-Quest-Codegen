@@ -6,13 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
+class IMessage;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMethodCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -82,8 +82,7 @@ constexpr ::StringW __get__uri() const;
 /// @brief Method Create addr 0x23376e4 size 0x90 virtual false final false
 static System::Runtime::Remoting::Messaging::CADMethodCallMessage Create(System::Runtime::Remoting::Messaging::IMessage callMsg) ;
 
-// Ctor Parameters [CppParam { name: "callMsg", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
-explicit CADMethodCallMessage(System::Runtime::Remoting::Messaging::IMethodCallMessage callMsg) ;
+static System::Runtime::Remoting::Messaging::CADMethodCallMessage New_ctor(System::Runtime::Remoting::Messaging::IMethodCallMessage callMsg) ;
 
 /// @brief Method .ctor addr 0x233df80 size 0x1f0 virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMethodCallMessage callMsg) ;

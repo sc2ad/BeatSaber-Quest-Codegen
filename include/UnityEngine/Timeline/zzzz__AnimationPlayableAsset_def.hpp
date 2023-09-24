@@ -6,13 +6,14 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Timeline {
-class IPropertyPreview;
+struct UnityEngine__Timeline__AnimationPlayableAsset__LoopMode;
 }
-namespace UnityEngine::Playables {
-struct Playable;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
-namespace UnityEngine::Playables {
-struct PlayableBinding;
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__AnimationPlayableAsset___get_outputs_d__45;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
@@ -21,38 +22,53 @@ namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
 namespace UnityEngine::Timeline {
-struct ClipCaps;
+class IPropertyPreview;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace UnityEngine::Timeline {
-struct MatchTargetFields;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine::Timeline {
-struct AppliedOffsetMode;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace UnityEngine {
-struct Vector3;
+struct UnityEngine__Timeline__AnimationPlayableAsset__Versions;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace UnityEngine::Playables {
+struct PlayableBinding;
+}
+namespace UnityEngine::Timeline {
+struct MatchTargetFields;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__AnimationPlayableAsset__AnimationPlayableAssetUpgrade;
 }
 namespace UnityEngine::Timeline {
 class IPropertyCollector;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::Timeline {
+struct AppliedOffsetMode;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -62,10 +78,6 @@ class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -133,6 +145,8 @@ __Off = 2,
 constexpr operator __UnityEngine__Timeline__AnimationPlayableAsset__LoopMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Timeline__AnimationPlayableAsset__LoopMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -205,6 +219,8 @@ __RotationAsEuler = 1,
 constexpr operator __UnityEngine__Timeline__AnimationPlayableAsset__Versions_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Timeline__AnimationPlayableAsset__Versions_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -365,8 +381,7 @@ constexpr UnityEngine::Timeline::AnimationPlayableAsset __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Timeline__AnimationPlayableAsset___get_outputs_d__45(int32_t __1__state) ;
+static UnityEngine::Timeline::UnityEngine__Timeline__AnimationPlayableAsset___get_outputs_d__45 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2ab73b8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -663,8 +678,7 @@ static bool HasRootTransforms(UnityEngine::AnimationClip clip) ;
 /// @brief Method OnUpgradeFromVersion addr 0x2ab7c04 size 0x10 virtual false final false
  void OnUpgradeFromVersion(int32_t oldVersion) ;
 
-// Ctor Parameters []
-explicit AnimationPlayableAsset() ;
+static UnityEngine::Timeline::AnimationPlayableAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab7c60 size 0x104 virtual false final false
  void _ctor() ;

@@ -2,20 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class ColorSchemeColorToggleController;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace System {
-template<typename T>
-class Action_1;
+class ColorScheme;
 }
 namespace HMUI {
 class ToggleBinder;
 }
 namespace GlobalNamespace {
-class ColorScheme;
+class ColorSchemeColorToggleController;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -164,8 +164,7 @@ constexpr GlobalNamespace::ColorScheme __get__colorScheme() const;
 /// @brief Method CreateColorSchemeFromEditedColors addr 0x211d998 size 0x1d0 virtual false final false
  GlobalNamespace::ColorScheme CreateColorSchemeFromEditedColors() ;
 
-// Ctor Parameters []
-explicit ColorSchemeColorsToggleGroup() ;
+static GlobalNamespace::ColorSchemeColorsToggleGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x211db68 size 0x8 virtual false final false
  void _ctor() ;

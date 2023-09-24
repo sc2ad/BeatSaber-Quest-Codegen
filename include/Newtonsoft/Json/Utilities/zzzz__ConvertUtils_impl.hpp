@@ -2,19 +2,20 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ConvertUtils_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__ParseResult_def.hpp"
-#include "System/zzzz__Version_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__TypeInformation_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ConvertUtils_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__ParseResult_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Version_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__MethodCall_2_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey.get_InitialType
 template<>
@@ -241,8 +242,10 @@ constexpr void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__Convert
 constexpr Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0::__get_call() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0>())) {}
+ Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0 Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0::New_ctor()  {
+Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0>())};
+return o;
+}
  void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0>::get(),

@@ -99,8 +99,7 @@ constexpr T __get__value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "context", ty: "Zenject::InjectContext", modifiers: "", def_value: None }]
-explicit LazyInject_1(Zenject::DiContainer container, Zenject::InjectContext context) ;
+static Zenject::LazyInject_1<T> New_ctor(Zenject::DiContainer container, Zenject::InjectContext context) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::InjectContext context) ;

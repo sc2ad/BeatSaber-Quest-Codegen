@@ -47,8 +47,7 @@ constexpr explicit HideInMenuAttribute(void* ptr) noexcept : System::Attribute(p
 
 // Methods
 
-// Ctor Parameters []
-explicit HideInMenuAttribute() ;
+static UnityEngine::Timeline::HideInMenuAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad5e1c size 0x8 virtual false final false
  void _ctor() ;

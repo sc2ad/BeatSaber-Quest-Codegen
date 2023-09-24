@@ -5,15 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine {
-class Material;
+struct AutoUnwrapSettings;
 }
 namespace System::Collections::ObjectModel {
 template<typename T>
@@ -23,8 +16,15 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace UnityEngine::ProBuilder {
-struct AutoUnwrapSettings;
+struct Edge;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -227,32 +227,27 @@ constexpr ::ArrayW<UnityEngine::ProBuilder::Edge> __get_m_Edges() const;
 /// @brief Method get_Item addr 0x29ace80 size 0x30 virtual false final false
  int32_t get_Item(int32_t i) ;
 
-// Ctor Parameters []
-explicit Face() ;
+static UnityEngine::ProBuilder::Face New_ctor() ;
 
 /// @brief Method .ctor addr 0x29aceb0 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "indices", ty: "System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }]
-explicit Face(System::Collections::Generic::IEnumerable_1<int32_t> indices) ;
+static UnityEngine::ProBuilder::Face New_ctor(System::Collections::Generic::IEnumerable_1<int32_t> indices) ;
 
 /// @brief Method .ctor addr 0x29acecc size 0xa4 virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<int32_t> indices) ;
 
-// Ctor Parameters [CppParam { name: "triangles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "u", ty: "UnityEngine::ProBuilder::AutoUnwrapSettings", modifiers: "", def_value: None }, CppParam { name: "smoothing", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "element", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "manualUVs", ty: "bool", modifiers: "", def_value: None }]
-explicit Face(::ArrayW<int32_t> triangles, UnityEngine::Material m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
+static UnityEngine::ProBuilder::Face New_ctor(::ArrayW<int32_t> triangles, UnityEngine::Material m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
 
 /// @brief Method .ctor addr 0x29acf70 size 0xc0 virtual false final false
  void _ctor(::ArrayW<int32_t> triangles, UnityEngine::Material m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
 
-// Ctor Parameters [CppParam { name: "triangles", ty: "System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "submeshIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "u", ty: "UnityEngine::ProBuilder::AutoUnwrapSettings", modifiers: "", def_value: None }, CppParam { name: "smoothing", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "element", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "manualUVs", ty: "bool", modifiers: "", def_value: None }]
-explicit Face(System::Collections::Generic::IEnumerable_1<int32_t> triangles, int32_t submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
+static UnityEngine::ProBuilder::Face New_ctor(System::Collections::Generic::IEnumerable_1<int32_t> triangles, int32_t submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
 
 /// @brief Method .ctor addr 0x29ad030 size 0xbc virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<int32_t> triangles, int32_t submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "UnityEngine::ProBuilder::Face", modifiers: "", def_value: None }]
-explicit Face(UnityEngine::ProBuilder::Face other) ;
+static UnityEngine::ProBuilder::Face New_ctor(UnityEngine::ProBuilder::Face other) ;
 
 /// @brief Method .ctor addr 0x29ad0ec size 0x2c virtual false final false
  void _ctor(UnityEngine::ProBuilder::Face other) ;

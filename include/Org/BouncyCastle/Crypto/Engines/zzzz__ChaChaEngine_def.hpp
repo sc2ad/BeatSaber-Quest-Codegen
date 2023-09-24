@@ -55,14 +55,12 @@ constexpr explicit ChaChaEngine(void* ptr) noexcept : Org::BouncyCastle::Crypto:
 
 // Methods
 
-// Ctor Parameters []
-explicit ChaChaEngine() ;
+static Org::BouncyCastle::Crypto::Engines::ChaChaEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe3e0dc size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rounds", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ChaChaEngine(int32_t rounds) ;
+static Org::BouncyCastle::Crypto::Engines::ChaChaEngine New_ctor(int32_t rounds) ;
 
 /// @brief Method .ctor addr 0xe3e130 size 0x64 virtual false final false
  void _ctor(int32_t rounds) ;

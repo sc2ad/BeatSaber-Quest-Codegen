@@ -2,12 +2,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
-}
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
+}
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -61,8 +61,7 @@ constexpr explicit AndroidPlatform(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 /// @brief Method AsyncInitialize addr 0x2552ec4 size 0x108 virtual false final false
  Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize> AsyncInitialize(::StringW appId) ;
 
-// Ctor Parameters []
-explicit AndroidPlatform() ;
+static Oculus::Platform::AndroidPlatform New_ctor() ;
 
 /// @brief Method .ctor addr 0x2553060 size 0x8 virtual false final false
  void _ctor() ;

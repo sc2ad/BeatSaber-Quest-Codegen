@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, p0, p1, p2, center, halfSize, orientation);
 }
-// Ctor Parameters []
- GlobalNamespace::GeometryTools::GeometryTools()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GeometryTools>())) {}
+ GlobalNamespace::GeometryTools GlobalNamespace::GeometryTools::New_ctor()  {
+GlobalNamespace::GeometryTools o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GeometryTools>())};
+return o;
+}
  void GlobalNamespace::GeometryTools::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GeometryTools>::get(),

@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extension_def.hpp"
 #include "Org/BouncyCastle/Asn1/Tsp/zzzz__TimeStampReq_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extension_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Tsp::TimeStampRequest._ctor
@@ -310,8 +310,10 @@ constexpr void Org::BouncyCastle::Tsp::TimeStampRequest::__set_extensions(Org::B
 constexpr Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Tsp::TimeStampRequest::__get_extensions() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::X509Extensions, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "req", ty: "Org::BouncyCastle::Asn1::Tsp::TimeStampReq", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampRequest::TimeStampRequest(Org::BouncyCastle::Asn1::Tsp::TimeStampReq req)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<TimeStampRequest>(req))) {}
+ Org::BouncyCastle::Tsp::TimeStampRequest Org::BouncyCastle::Tsp::TimeStampRequest::New_ctor(Org::BouncyCastle::Asn1::Tsp::TimeStampReq req)  {
+Org::BouncyCastle::Tsp::TimeStampRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampRequest>(req))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampRequest::_ctor(Org::BouncyCastle::Asn1::Tsp::TimeStampReq req)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampRequest>::get(),
@@ -321,8 +323,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, req);
 }
-// Ctor Parameters [CppParam { name: "req", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampRequest::TimeStampRequest(::ArrayW<uint8_t> req)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<TimeStampRequest>(req))) {}
+ Org::BouncyCastle::Tsp::TimeStampRequest Org::BouncyCastle::Tsp::TimeStampRequest::New_ctor(::ArrayW<uint8_t> req)  {
+Org::BouncyCastle::Tsp::TimeStampRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampRequest>(req))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampRequest::_ctor(::ArrayW<uint8_t> req)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampRequest>::get(),
@@ -332,8 +336,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, req);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampRequest::TimeStampRequest(System::IO::Stream input)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<TimeStampRequest>(input))) {}
+ Org::BouncyCastle::Tsp::TimeStampRequest Org::BouncyCastle::Tsp::TimeStampRequest::New_ctor(System::IO::Stream input)  {
+Org::BouncyCastle::Tsp::TimeStampRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampRequest>(input))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampRequest::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampRequest>::get(),
@@ -343,8 +349,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, input);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "Org::BouncyCastle::Asn1::Asn1InputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampRequest::TimeStampRequest(Org::BouncyCastle::Asn1::Asn1InputStream str)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<TimeStampRequest>(str))) {}
+ Org::BouncyCastle::Tsp::TimeStampRequest Org::BouncyCastle::Tsp::TimeStampRequest::New_ctor(Org::BouncyCastle::Asn1::Asn1InputStream str)  {
+Org::BouncyCastle::Tsp::TimeStampRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampRequest>(str))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampRequest::_ctor(Org::BouncyCastle::Asn1::Asn1InputStream str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampRequest>::get(),

@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -67,8 +67,7 @@ static int32_t GetByteLength(Org::BouncyCastle::Math::EC::ECCurve c) ;
 /// @brief Method IntegerToBytes addr 0x1127130 size 0xdc virtual false final false
 static ::ArrayW<uint8_t> IntegerToBytes(Org::BouncyCastle::Math::BigInteger s, int32_t qLength) ;
 
-// Ctor Parameters []
-explicit X9IntegerConverter() ;
+static Org::BouncyCastle::Asn1::X9::X9IntegerConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1127464 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,7 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace UnityEngine::TerrainUtils {
+class UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1;
+}
+namespace UnityEngine::TerrainUtils {
 class TerrainMap;
+}
+namespace UnityEngine::TerrainUtils {
+class UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -73,8 +79,7 @@ constexpr bool __get_onlyAutoConnectedTerrains() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0() ;
+static UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba8e10 size 0x8 virtual false final false
  void _ctor() ;
@@ -140,8 +145,7 @@ constexpr UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility__
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1() ;
+static UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba8e18 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,6 +4,12 @@
 namespace GlobalNamespace {
 class MockObstacleData;
 }
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
@@ -12,16 +18,13 @@ namespace GlobalNamespace {
 class MockNoteData;
 }
 namespace GlobalNamespace {
-class ObstacleData;
+class MockBeatmapData;
 }
 namespace GlobalNamespace {
-class NoteData;
+class GlobalNamespace__MockBeatmapDataConverter____c;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class MockBeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -123,8 +126,7 @@ static System::Func_2<GlobalNamespace::ObstacleData,GlobalNamespace::MockObstacl
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MockBeatmapDataConverter____c() ;
+static GlobalNamespace::GlobalNamespace__MockBeatmapDataConverter____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ea628 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,8 +2,9 @@
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSettingsFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigViewController_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolSettingsFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolLoggingViewController_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSettingsViewController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData._ctor
@@ -29,8 +30,10 @@ constexpr void GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordi
 constexpr GlobalNamespace::ScenesTransitionSetupDataSO GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData::__get_nextScenesTransitionSetupData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ScenesTransitionSetupDataSO, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData>(nextScenesTransitionSetupData))) {}
+ GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData::New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData)  {
+GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData>(nextScenesTransitionSetupData))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData::_ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData>::get(),
@@ -217,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::RecordingToolSettingsFlowCoordinator::RecordingToolSettingsFlowCoordinator()  : HMUI::FlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<RecordingToolSettingsFlowCoordinator>())) {}
+ GlobalNamespace::RecordingToolSettingsFlowCoordinator GlobalNamespace::RecordingToolSettingsFlowCoordinator::New_ctor()  {
+GlobalNamespace::RecordingToolSettingsFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingToolSettingsFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::RecordingToolSettingsFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingToolSettingsFlowCoordinator>::get(),

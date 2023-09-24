@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9FieldID_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9Curve_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9FieldID_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECPoint_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9Curve_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X9::X9ECParameters.GetInstance
 template<>
@@ -326,8 +326,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X9::X9ECParameters, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9ECParameters::X9ECParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9ECParameters>(seq))) {}
+ Org::BouncyCastle::Asn1::X9::X9ECParameters Org::BouncyCastle::Asn1::X9::X9ECParameters::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X9::X9ECParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECParameters>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECParameters::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECParameters>::get(),
@@ -337,8 +339,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9ECParameters::X9ECParameters(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9ECParameters>(curve, g, n))) {}
+ Org::BouncyCastle::Asn1::X9::X9ECParameters Org::BouncyCastle::Asn1::X9::X9ECParameters::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n)  {
+Org::BouncyCastle::Asn1::X9::X9ECParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECParameters>(curve, g, n))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECParameters::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECParameters>::get(),
@@ -348,8 +352,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, curve, g, n);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Asn1::X9::X9ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "h", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9ECParameters::X9ECParameters(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Asn1::X9::X9ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9ECParameters>(curve, g, n, h))) {}
+ Org::BouncyCastle::Asn1::X9::X9ECParameters Org::BouncyCastle::Asn1::X9::X9ECParameters::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Asn1::X9::X9ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h)  {
+Org::BouncyCastle::Asn1::X9::X9ECParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECParameters>(curve, g, n, h))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECParameters::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Asn1::X9::X9ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECParameters>::get(),
@@ -359,8 +365,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, curve, g, n, h);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "h", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9ECParameters::X9ECParameters(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9ECParameters>(curve, g, n, h))) {}
+ Org::BouncyCastle::Asn1::X9::X9ECParameters Org::BouncyCastle::Asn1::X9::X9ECParameters::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h)  {
+Org::BouncyCastle::Asn1::X9::X9ECParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECParameters>(curve, g, n, h))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECParameters::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECParameters>::get(),
@@ -370,8 +378,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, curve, g, n, h);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "h", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9ECParameters::X9ECParameters(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9ECParameters>(curve, g, n, h, seed))) {}
+ Org::BouncyCastle::Asn1::X9::X9ECParameters Org::BouncyCastle::Asn1::X9::X9ECParameters::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed)  {
+Org::BouncyCastle::Asn1::X9::X9ECParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECParameters>(curve, g, n, h, seed))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECParameters::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECParameters>::get(),
@@ -381,8 +391,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, curve, g, n, h, seed);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Asn1::X9::X9ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "h", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9ECParameters::X9ECParameters(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Asn1::X9::X9ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9ECParameters>(curve, g, n, h, seed))) {}
+ Org::BouncyCastle::Asn1::X9::X9ECParameters Org::BouncyCastle::Asn1::X9::X9ECParameters::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Asn1::X9::X9ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed)  {
+Org::BouncyCastle::Asn1::X9::X9ECParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECParameters>(curve, g, n, h, seed))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECParameters::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Asn1::X9::X9ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECParameters>::get(),

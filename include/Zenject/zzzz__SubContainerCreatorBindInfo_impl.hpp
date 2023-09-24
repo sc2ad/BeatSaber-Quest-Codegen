@@ -192,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Zenject::SubContainerCreatorBindInfo::SubContainerCreatorBindInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorBindInfo>())) {}
+ Zenject::SubContainerCreatorBindInfo Zenject::SubContainerCreatorBindInfo::New_ctor()  {
+Zenject::SubContainerCreatorBindInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorBindInfo>())};
+return o;
+}
  void Zenject::SubContainerCreatorBindInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorBindInfo>::get(),

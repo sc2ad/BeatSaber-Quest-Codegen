@@ -6,56 +6,74 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::IO {
+struct System__IO__BufferedStream___WriteToUnderlyingStreamAsync_d__63;
+}
 namespace System {
-template<typename T>
-struct ReadOnlyMemory_1;
+class IAsyncResult;
 }
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-struct ValueTask_1;
-}
-namespace System::Threading {
-struct CancellationToken;
+namespace System::IO {
+struct System__IO__BufferedStream___FlushWriteAsync_d__42;
 }
 namespace System {
 template<typename T>
 struct Span_1;
 }
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System {
+template<typename T>
+struct ReadOnlyMemory_1;
+}
+namespace System::IO {
+struct System__IO__BufferedStream___FlushAsyncInternal_d__38;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::IO {
+class System__IO__BufferedStream____c;
+}
+namespace System {
+class Exception;
+}
+namespace System::IO {
+struct System__IO__BufferedStream___CopyToAsyncCore_d__71;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
 namespace System::Threading {
 class SemaphoreSlim;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+struct ValueTask_1;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 template<typename T>
 struct Memory_1;
 }
 namespace System {
-class AsyncCallback;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class Exception;
-}
-namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
+namespace System::IO {
+struct System__IO__BufferedStream___ReadFromUnderlyingStreamAsync_d__51;
+}
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System {
 template<typename TResult>
@@ -160,8 +178,7 @@ static System::Func_1<System::Threading::SemaphoreSlim> __get___9__10_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__IO__BufferedStream____c() ;
+static System::IO::System__IO__BufferedStream____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x23a2f58 size 0x8 virtual false final false
  void _ctor() ;
@@ -817,14 +834,12 @@ constexpr System::Threading::SemaphoreSlim __get__asyncActiveSemaphore() const;
 /// @brief Method LazyEnsureAsyncActiveSemaphoreInitialized addr 0x23a0010 size 0xf8 virtual false final false
  System::Threading::SemaphoreSlim LazyEnsureAsyncActiveSemaphoreInitialized() ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BufferedStream(System::IO::Stream stream) ;
+static System::IO::BufferedStream New_ctor(System::IO::Stream stream) ;
 
 /// @brief Method .ctor addr 0x23a0108 size 0x8 virtual false final false
  void _ctor(System::IO::Stream stream) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BufferedStream(System::IO::Stream stream, int32_t bufferSize) ;
+static System::IO::BufferedStream New_ctor(System::IO::Stream stream, int32_t bufferSize) ;
 
 /// @brief Method .ctor addr 0x23a0110 size 0x1dc virtual false final false
  void _ctor(System::IO::Stream stream, int32_t bufferSize) ;

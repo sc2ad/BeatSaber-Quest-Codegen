@@ -2,8 +2,8 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -12,13 +12,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -122,14 +122,12 @@ static Org::BouncyCastle::Asn1::Ocsp::TbsRequest GetInstance(Org::BouncyCastle::
 /// @brief Method GetInstance addr 0xef2c70 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Ocsp::TbsRequest GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "requestorName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }, CppParam { name: "requestList", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }, CppParam { name: "requestExtensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
-explicit TbsRequest(Org::BouncyCastle::Asn1::X509::GeneralName requestorName, Org::BouncyCastle::Asn1::Asn1Sequence requestList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions) ;
+static Org::BouncyCastle::Asn1::Ocsp::TbsRequest New_ctor(Org::BouncyCastle::Asn1::X509::GeneralName requestorName, Org::BouncyCastle::Asn1::Asn1Sequence requestList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions) ;
 
 /// @brief Method .ctor addr 0xef6c00 size 0x8c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralName requestorName, Org::BouncyCastle::Asn1::Asn1Sequence requestList, Org::BouncyCastle::Asn1::X509::X509Extensions requestExtensions) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit TbsRequest(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ocsp::TbsRequest New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef692c size 0x2d4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

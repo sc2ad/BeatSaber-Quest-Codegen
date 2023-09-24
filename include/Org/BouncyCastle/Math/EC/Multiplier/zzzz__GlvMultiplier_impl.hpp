@@ -2,9 +2,9 @@
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__GlvMultiplier_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvEndomorphism_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier._ctor
 template<>
 
@@ -51,8 +51,10 @@ constexpr void Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::__set_glv
 constexpr Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::__get_glvEndomorphism() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "glvEndomorphism", ty: "Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::GlvMultiplier(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism glvEndomorphism)  : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(THROW_UNLESS(::il2cpp_utils::New<GlvMultiplier>(curve, glvEndomorphism))) {}
+ Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism glvEndomorphism)  {
+Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier>(curve, glvEndomorphism))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism glvEndomorphism)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier>::get(),

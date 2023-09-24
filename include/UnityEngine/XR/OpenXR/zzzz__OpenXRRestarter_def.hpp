@@ -4,21 +4,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class Coroutine;
+namespace UnityEngine::XR::OpenXR {
+class UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24;
 }
-namespace System {
-class Action;
+namespace UnityEngine::XR::OpenXR {
+class UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace UnityEngine::XR::OpenXR {
+class UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR {
@@ -118,8 +127,7 @@ constexpr UnityEngine::XR::OpenXR::OpenXRRestarter __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24(int32_t __1__state) ;
+static UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2aeb6a8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -231,8 +239,7 @@ constexpr UnityEngine::XR::OpenXR::OpenXRRestarter __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25(int32_t __1__state) ;
+static UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2aeb6d0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -350,8 +357,7 @@ constexpr bool __get_shouldRestart() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26(int32_t __1__state) ;
+static UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2aeb6f8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -533,8 +539,7 @@ static UnityEngine::XR::OpenXR::OpenXRRestarter get_Instance() ;
 /// @brief Method RestartCoroutine addr 0x2aeb530 size 0x88 virtual false final false
  System::Collections::IEnumerator RestartCoroutine(bool shouldRestart, bool shouldShutdown) ;
 
-// Ctor Parameters []
-explicit OpenXRRestarter() ;
+static UnityEngine::XR::OpenXR::OpenXRRestarter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aeb720 size 0x8 virtual false final false
  void _ctor() ;

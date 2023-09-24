@@ -3,16 +3,16 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class BeatmapLevelPackSO;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPackCollection;
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelPackSO;
 }
 namespace GlobalNamespace {
-class BeatmapLevelPackSO;
+class IBeatmapLevelPackCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -106,8 +106,7 @@ constexpr ::ArrayW<GlobalNamespace::IBeatmapLevelPack> __get__allBeatmapLevelPac
 /// @brief Method LoadAllBeatmapLevelPacks addr 0x21e51e4 size 0x1e4 virtual false final false
  void LoadAllBeatmapLevelPacks() ;
 
-// Ctor Parameters []
-explicit BeatmapLevelPackCollectionSO() ;
+static GlobalNamespace::BeatmapLevelPackCollectionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e53d0 size 0x8 virtual false final false
  void _ctor() ;

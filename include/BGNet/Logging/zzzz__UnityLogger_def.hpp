@@ -69,8 +69,7 @@ constexpr explicit UnityLogger(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 /// @brief Method LogWarning addr 0xdd4c1c size 0x58 virtual true final true
  void LogWarning(::StringW message) ;
 
-// Ctor Parameters []
-explicit UnityLogger() ;
+static BGNet::Logging::UnityLogger New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd42e8 size 0x8 virtual false final false
  void _ctor() ;

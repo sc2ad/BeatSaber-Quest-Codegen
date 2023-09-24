@@ -2,8 +2,8 @@
 #include "Zenject/zzzz__SubContainerCreatorDynamicContext_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: Zenject::SubContainerCreatorByNewGameObjectDynamicContext._ctor
 template<>
 
@@ -44,8 +44,10 @@ constexpr void Zenject::SubContainerCreatorByNewGameObjectDynamicContext::__set_
 constexpr Zenject::GameObjectCreationParameters Zenject::SubContainerCreatorByNewGameObjectDynamicContext::__get__gameObjectBindInfo() const {
 return ::cordl_internals::getInstanceField<Zenject::GameObjectCreationParameters, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorByNewGameObjectDynamicContext::SubContainerCreatorByNewGameObjectDynamicContext(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo)  : Zenject::SubContainerCreatorDynamicContext(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorByNewGameObjectDynamicContext>(container, gameObjectBindInfo))) {}
+ Zenject::SubContainerCreatorByNewGameObjectDynamicContext Zenject::SubContainerCreatorByNewGameObjectDynamicContext::New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo)  {
+Zenject::SubContainerCreatorByNewGameObjectDynamicContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorByNewGameObjectDynamicContext>(container, gameObjectBindInfo))};
+return o;
+}
  void Zenject::SubContainerCreatorByNewGameObjectDynamicContext::_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorByNewGameObjectDynamicContext>::get(),

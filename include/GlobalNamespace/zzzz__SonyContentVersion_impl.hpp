@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyContentVersion_def.hpp"
+#include "GlobalNamespace/zzzz__SonyContentVersion_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__SonyContentVersion__VersionFormat::GlobalNamespace__SonyContentVersion__VersionFormat(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -176,8 +177,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "majorVersion", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "minorVersion", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "uint32_t", modifiers: "", def_value: None }]
- GlobalNamespace::SonyContentVersion::SonyContentVersion(uint32_t majorVersion, uint32_t minorVersion, uint32_t revision)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SonyContentVersion>(majorVersion, minorVersion, revision))) {}
+ GlobalNamespace::SonyContentVersion GlobalNamespace::SonyContentVersion::New_ctor(uint32_t majorVersion, uint32_t minorVersion, uint32_t revision)  {
+GlobalNamespace::SonyContentVersion o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SonyContentVersion>(majorVersion, minorVersion, revision))};
+return o;
+}
  void GlobalNamespace::SonyContentVersion::_ctor(uint32_t majorVersion, uint32_t minorVersion, uint32_t revision)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SonyContentVersion>::get(),

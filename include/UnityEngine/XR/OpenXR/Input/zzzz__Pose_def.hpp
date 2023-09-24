@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace UnityEngine::XR {
-struct InputTrackingState;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::XR {
+struct InputTrackingState;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Input {

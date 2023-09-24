@@ -73,8 +73,7 @@ constexpr UnityEngine::LODGroup __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::LODGroup", modifiers: "", def_value: None }]
-explicit Test_LODGroup(UnityEngine::LODGroup self) ;
+static HoudiniEngineUnity::Test_LODGroup New_ctor(UnityEngine::LODGroup self) ;
 
 /// @brief Method .ctor addr 0x20719a8 size 0x28 virtual false final false
  void _ctor(UnityEngine::LODGroup self) ;

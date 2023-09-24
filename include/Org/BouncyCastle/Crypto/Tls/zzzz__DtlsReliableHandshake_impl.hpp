@@ -1,12 +1,13 @@
 #pragma once
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsReliableHandshake_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsRecordLayer_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsReliableHandshake_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsRecordLayer_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Timeout_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsHandshakeRetransmit_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message._ctor
 template<>
@@ -94,8 +95,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__D
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message::__get_mBody() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "message_seq", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "msg_type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "body", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message(int32_t message_seq, uint8_t msg_type, ::ArrayW<uint8_t> body)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message>(message_seq, msg_type, body))) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message::New_ctor(int32_t message_seq, uint8_t msg_type, ::ArrayW<uint8_t> body)  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message>(message_seq, msg_type, body))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message::_ctor(int32_t message_seq, uint8_t msg_type, ::ArrayW<uint8_t> body)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message>::get(),
@@ -166,8 +169,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer(int32_t size)  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer>(size))) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer::New_ctor(int32_t size)  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer>(size))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer::_ctor(int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer>::get(),
@@ -230,8 +235,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__D
 constexpr Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit::__get_mOuter() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit(Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake outer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit>(outer))) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit::New_ctor(Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake outer)  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit>(outer))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit::_ctor(Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake outer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit>::get(),
@@ -650,8 +657,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::__set_mNex
 constexpr int32_t Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::__get_mNextReceiveSeq() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x54>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "transport", ty: "Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer", modifiers: "", def_value: None }, CppParam { name: "timeoutMillis", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::DtlsReliableHandshake(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer transport, int32_t timeoutMillis)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DtlsReliableHandshake>(context, transport, timeoutMillis))) {}
+ Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer transport, int32_t timeoutMillis)  {
+Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake>(context, transport, timeoutMillis))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer transport, int32_t timeoutMillis)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake>::get(),

@@ -3,11 +3,11 @@
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
@@ -105,8 +105,7 @@ static void DirtyBoundingBoxHierarchy(UnityEngine::UIElements::VisualElement ve)
 /// @brief Method Update addr 0x2c416b0 size 0x64 virtual true final false
  void Update() ;
 
-// Ctor Parameters []
-explicit VisualTreeTransformClipUpdater() ;
+static UnityEngine::UIElements::VisualTreeTransformClipUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c41914 size 0xc virtual false final false
  void _ctor() ;

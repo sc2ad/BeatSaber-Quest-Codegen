@@ -6,7 +6,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::NotNullAttribute::*)()>(&JetBrains::Annotations::NotNullAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d40a64;
+  constexpr static std::size_t addrs = 0x2b28af0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- JetBrains::Annotations::NotNullAttribute::NotNullAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NotNullAttribute>())) {}
+ JetBrains::Annotations::NotNullAttribute JetBrains::Annotations::NotNullAttribute::New_ctor()  {
+JetBrains::Annotations::NotNullAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::NotNullAttribute>())};
+return o;
+}
  void JetBrains::Annotations::NotNullAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::NotNullAttribute>::get(),

@@ -174,8 +174,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Collections::Generic::ByteEqualityComparer::ByteEqualityComparer()  : System::Collections::Generic::EqualityComparer_1<uint8_t>(THROW_UNLESS(::il2cpp_utils::New<ByteEqualityComparer>())) {}
+ System::Collections::Generic::ByteEqualityComparer System::Collections::Generic::ByteEqualityComparer::New_ctor()  {
+System::Collections::Generic::ByteEqualityComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Generic::ByteEqualityComparer>())};
+return o;
+}
  void System::Collections::Generic::ByteEqualityComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Generic::ByteEqualityComparer>::get(),

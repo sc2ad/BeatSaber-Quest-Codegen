@@ -2,35 +2,35 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCipherFactory_def.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsNullCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsStreamCipher;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAeadCipher;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class TlsStreamCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class IStreamCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -150,8 +150,7 @@ constexpr explicit DefaultTlsCipherFactory(void* ptr) noexcept : Org::BouncyCast
 /// @brief Method CreateHMacDigest addr 0xed5088 size 0x12c virtual true final false
  Org::BouncyCastle::Crypto::IDigest CreateHMacDigest(int32_t macAlgorithm) ;
 
-// Ctor Parameters []
-explicit DefaultTlsCipherFactory() ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0xecb3a8 size 0x8 virtual false final false
  void _ctor() ;

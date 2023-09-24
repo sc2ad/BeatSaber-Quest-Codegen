@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/zzzz__PlatformHelper_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/Http/zzzz__StreamContent_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: System::Net::Http::PlatformHelper.IsContentHeader
 template<>
 

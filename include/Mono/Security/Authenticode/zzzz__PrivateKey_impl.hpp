@@ -127,8 +127,10 @@ constexpr void Mono::Security::Authenticode::PrivateKey::__set_keyType(int32_t v
 constexpr int32_t Mono::Security::Authenticode::PrivateKey::__get_keyType() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
- Mono::Security::Authenticode::PrivateKey::PrivateKey(::ArrayW<uint8_t> data, ::StringW password)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PrivateKey>(data, password))) {}
+ Mono::Security::Authenticode::PrivateKey Mono::Security::Authenticode::PrivateKey::New_ctor(::ArrayW<uint8_t> data, ::StringW password)  {
+Mono::Security::Authenticode::PrivateKey o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Authenticode::PrivateKey>(data, password))};
+return o;
+}
  void Mono::Security::Authenticode::PrivateKey::_ctor(::ArrayW<uint8_t> data, ::StringW password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Authenticode::PrivateKey>::get(),

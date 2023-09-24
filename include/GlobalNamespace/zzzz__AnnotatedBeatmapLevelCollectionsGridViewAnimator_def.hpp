@@ -4,19 +4,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
-}
-namespace Tweening {
-class Vector2Tween;
+class RectTransform;
 }
 namespace Tweening {
 class TimeTweeningManager;
 }
-namespace UnityEngine {
-class RectTransform;
-}
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace Tweening {
+class Vector2Tween;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -148,8 +148,7 @@ constexpr Tweening::Vector2Tween __get__contentPositionTween() const;
 /// @brief Method GetContentYOffset addr 0x21845c8 size 0x2c virtual false final false
  float_t GetContentYOffset() ;
 
-// Ctor Parameters []
-explicit AnnotatedBeatmapLevelCollectionsGridViewAnimator() ;
+static GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x21846c0 size 0x18 virtual false final false
  void _ctor() ;

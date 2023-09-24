@@ -3,24 +3,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Type;
-}
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class InjectContext;
-}
 namespace System {
-class Action;
+class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -99,8 +99,7 @@ constexpr bool __get__matchSingle() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resourcePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "matchSingle", ty: "bool", modifiers: "", def_value: None }]
-explicit ResourceProvider(::StringW resourcePath, System::Type resourceType, bool matchSingle) ;
+static Zenject::ResourceProvider New_ctor(::StringW resourcePath, System::Type resourceType, bool matchSingle) ;
 
 /// @brief Method .ctor addr 0x2d90b08 size 0x3c virtual false final false
  void _ctor(::StringW resourcePath, System::Type resourceType, bool matchSingle) ;

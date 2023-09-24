@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vec", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerApplicationSpecific::BerApplicationSpecific(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector vec)  : Org::BouncyCastle::Asn1::DerApplicationSpecific(THROW_UNLESS(::il2cpp_utils::New<BerApplicationSpecific>(tagNo, vec))) {}
+ Org::BouncyCastle::Asn1::BerApplicationSpecific Org::BouncyCastle::Asn1::BerApplicationSpecific::New_ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector vec)  {
+Org::BouncyCastle::Asn1::BerApplicationSpecific o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerApplicationSpecific>(tagNo, vec))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerApplicationSpecific::_ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector vec)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerApplicationSpecific>::get(),

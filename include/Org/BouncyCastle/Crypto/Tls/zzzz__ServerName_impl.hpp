@@ -132,8 +132,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::ServerName::__set_mName(::bs_hook
 constexpr ::bs_hook::Il2CppWrapperType Org::BouncyCastle::Crypto::Tls::ServerName::__get_mName() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "nameType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::ServerName::ServerName(uint8_t nameType, ::bs_hook::Il2CppWrapperType name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServerName>(nameType, name))) {}
+ Org::BouncyCastle::Crypto::Tls::ServerName Org::BouncyCastle::Crypto::Tls::ServerName::New_ctor(uint8_t nameType, ::bs_hook::Il2CppWrapperType name)  {
+Org::BouncyCastle::Crypto::Tls::ServerName o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ServerName>(nameType, name))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ServerName::_ctor(uint8_t nameType, ::bs_hook::Il2CppWrapperType name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ServerName>::get(),

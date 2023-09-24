@@ -1,14 +1,14 @@
 #pragma once
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Globalization/zzzz__SortKey_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Globalization/zzzz__ISimpleCollator_def.hpp"
-#include "System/Globalization/zzzz__CompareOptions_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Globalization/zzzz__SortVersion_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Globalization/zzzz__CompareOptions_def.hpp"
+#include "System/Globalization/zzzz__SortVersion_def.hpp"
+#include "System/Globalization/zzzz__SortKey_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
 //  Writing Method size for method: System::Globalization::CompareInfo.InvariantIndexOf
 template<>
 
@@ -1153,8 +1153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Globalization::SortKey, false>(const_cast<void*>(instance), ___internal_method, source, options);
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
- System::Globalization::CompareInfo::CompareInfo(System::Globalization::CultureInfo culture)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CompareInfo>(culture))) {}
+ System::Globalization::CompareInfo System::Globalization::CompareInfo::New_ctor(System::Globalization::CultureInfo culture)  {
+System::Globalization::CompareInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CompareInfo>(culture))};
+return o;
+}
  void System::Globalization::CompareInfo::_ctor(System::Globalization::CultureInfo culture)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CompareInfo>::get(),
@@ -1650,8 +1652,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, source, options);
 }
-// Ctor Parameters []
- System::Globalization::CompareInfo::CompareInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CompareInfo>())) {}
+ System::Globalization::CompareInfo System::Globalization::CompareInfo::New_ctor()  {
+System::Globalization::CompareInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CompareInfo>())};
+return o;
+}
  void System::Globalization::CompareInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CompareInfo>::get(),

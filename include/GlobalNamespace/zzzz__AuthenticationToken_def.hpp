@@ -5,14 +5,17 @@
 #include <cstddef>
 #include <cstdint>
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
 template<typename T>
 class INetImmutableSerializable_1;
 }
 namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AuthenticationToken__Platform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -79,6 +82,8 @@ __Oculus = 2u,
 constexpr operator __GlobalNamespace__AuthenticationToken__Platform_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__AuthenticationToken__Platform_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields

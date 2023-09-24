@@ -5,10 +5,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Pose;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Pose;
 }
 namespace UnityEngine {
 struct Vector3;

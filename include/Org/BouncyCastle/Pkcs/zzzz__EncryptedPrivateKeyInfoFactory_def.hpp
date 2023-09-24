@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class PrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class EncryptedPrivateKeyInfo;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -65,8 +65,7 @@ constexpr explicit EncryptedPrivateKeyInfoFactory(void* ptr) noexcept : ::bs_hoo
 
 // Methods
 
-// Ctor Parameters []
-explicit EncryptedPrivateKeyInfoFactory() ;
+static Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x1049ee4 size 0x8 virtual false final false
  void _ctor() ;

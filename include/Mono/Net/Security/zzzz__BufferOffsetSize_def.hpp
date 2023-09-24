@@ -96,8 +96,7 @@ constexpr bool __get_Complete() const;
 /// @brief Method get_Remaining addr 0x268c460 size 0x28 virtual false final false
  int32_t get_Remaining() ;
 
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BufferOffsetSize(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size) ;
+static Mono::Net::Security::BufferOffsetSize New_ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size) ;
 
 /// @brief Method .ctor addr 0x268c488 size 0x104 virtual false final false
  void _ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size) ;

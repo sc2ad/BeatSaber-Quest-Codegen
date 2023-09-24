@@ -55,8 +55,7 @@ constexpr explicit Ipv6Element(void* ptr) noexcept : System::Configuration::Conf
 
 // Methods
 
-// Ctor Parameters []
-explicit Ipv6Element() ;
+static System::Net::Configuration::Ipv6Element New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b2474 size 0x38 virtual false final false
  void _ctor() ;

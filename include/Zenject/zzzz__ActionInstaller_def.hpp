@@ -3,15 +3,15 @@
 #include "Zenject/zzzz__Installer_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace Zenject {
+class InjectTypeInfo;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -68,8 +68,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get__installMethod() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "installMethod", ty: "System::Action_1<Zenject::DiContainer>", modifiers: "", def_value: None }]
-explicit ActionInstaller(System::Action_1<Zenject::DiContainer> installMethod) ;
+static Zenject::ActionInstaller New_ctor(System::Action_1<Zenject::DiContainer> installMethod) ;
 
 /// @brief Method .ctor addr 0x2d925c8 size 0x5c virtual false final false
  void _ctor(System::Action_1<Zenject::DiContainer> installMethod) ;

@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<char16_t, false>(const_cast<void*>(instance), ___internal_method, text, pos, ch);
 }
-// Ctor Parameters []
- TMPro::TMP_InputValidator::TMP_InputValidator()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TMP_InputValidator>())) {}
+ TMPro::TMP_InputValidator TMPro::TMP_InputValidator::New_ctor()  {
+TMPro::TMP_InputValidator o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_InputValidator>())};
+return o;
+}
  void TMPro::TMP_InputValidator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_InputValidator>::get(),

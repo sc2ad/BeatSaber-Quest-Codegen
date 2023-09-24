@@ -23,8 +23,10 @@ constexpr void GlobalNamespace::GetXPlatformAccessTokenResponse::__set_accessTok
 constexpr ::StringW GlobalNamespace::GetXPlatformAccessTokenResponse::__get_accessToken() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "accessToken", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GetXPlatformAccessTokenResponse::GetXPlatformAccessTokenResponse(::StringW accessToken)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GetXPlatformAccessTokenResponse>(accessToken))) {}
+ GlobalNamespace::GetXPlatformAccessTokenResponse GlobalNamespace::GetXPlatformAccessTokenResponse::New_ctor(::StringW accessToken)  {
+GlobalNamespace::GetXPlatformAccessTokenResponse o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GetXPlatformAccessTokenResponse>(accessToken))};
+return o;
+}
  void GlobalNamespace::GetXPlatformAccessTokenResponse::_ctor(::StringW accessToken)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GetXPlatformAccessTokenResponse>::get(),

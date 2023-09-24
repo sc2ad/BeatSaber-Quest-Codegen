@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/SceneManagement/zzzz__SceneManagerAPI_def.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__LoadSceneParameters_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__UnloadSceneOptions_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__LoadSceneParameters_def.hpp"
 //  Writing Method size for method: UnityEngine::SceneManagement::SceneManagerAPI.get_ActiveAPI
 template<>
 
@@ -152,8 +152,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::SceneManagement::SceneManagerAPI, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::SceneManagement::SceneManagerAPI::SceneManagerAPI()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneManagerAPI>())) {}
+ UnityEngine::SceneManagement::SceneManagerAPI UnityEngine::SceneManagement::SceneManagerAPI::New_ctor()  {
+UnityEngine::SceneManagement::SceneManagerAPI o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::SceneManagement::SceneManagerAPI>())};
+return o;
+}
  void UnityEngine::SceneManagement::SceneManagerAPI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SceneManagement::SceneManagerAPI>::get(),

@@ -16,7 +16,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5558)), TypeDefinitionIndex(TypeDefinitionIndex(5559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5559)), TypeDefinitionIndex(TypeDefinitionIndex(5558))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5559), inst: 2 })
 // CS Name: SelectableStateController`1
 class CORDL_TYPE SelectableStateController_1<T> : public GlobalNamespace::SelectableStateController {
@@ -64,8 +64,7 @@ constexpr T __get__component() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SelectableStateController_1() ;
+static GlobalNamespace::SelectableStateController_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

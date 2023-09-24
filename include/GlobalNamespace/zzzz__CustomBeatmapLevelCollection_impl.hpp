@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CustomBeatmapLevelCollection_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
-#include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CustomBeatmapLevelCollection.get_beatmapLevels
 template<>
@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "customPreviewBeatmapLevels", ty: "::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel>", modifiers: "", def_value: None }]
- GlobalNamespace::CustomBeatmapLevelCollection::CustomBeatmapLevelCollection(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel> customPreviewBeatmapLevels)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomBeatmapLevelCollection>(customPreviewBeatmapLevels))) {}
+ GlobalNamespace::CustomBeatmapLevelCollection GlobalNamespace::CustomBeatmapLevelCollection::New_ctor(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel> customPreviewBeatmapLevels)  {
+GlobalNamespace::CustomBeatmapLevelCollection o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CustomBeatmapLevelCollection>(customPreviewBeatmapLevels))};
+return o;
+}
  void GlobalNamespace::CustomBeatmapLevelCollection::_ctor(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel> customPreviewBeatmapLevels)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CustomBeatmapLevelCollection>::get(),

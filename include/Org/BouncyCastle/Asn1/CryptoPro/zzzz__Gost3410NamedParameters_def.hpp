@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IDictionary;
@@ -98,8 +98,7 @@ static System::Collections::IEnumerable __declspec(property(get=get_Names))  Nam
 
 // Methods
 
-// Ctor Parameters []
-explicit Gost3410NamedParameters() ;
+static Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters New_ctor() ;
 
 /// @brief Method .ctor addr 0xdfebe4 size 0x8 virtual false final false
  void _ctor() ;

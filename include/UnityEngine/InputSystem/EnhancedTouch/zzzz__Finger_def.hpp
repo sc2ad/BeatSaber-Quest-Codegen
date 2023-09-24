@@ -3,36 +3,36 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template<typename TValue>
 class InputStateHistory_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__Record;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct TouchState;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct Touch;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct UnityEngine__InputSystem__LowLevel__InputStateHistory__Record;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-struct Touch;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-struct TouchHistory;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
+struct InputUpdateType;
 }
 namespace UnityEngine::InputSystem {
 class Touchscreen;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct TouchHistory;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {
@@ -139,8 +139,7 @@ constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::I
 /// @brief Method get_touchHistory addr 0x294e46c size 0x34 virtual false final false
  UnityEngine::InputSystem::EnhancedTouch::TouchHistory get_touchHistory() ;
 
-// Ctor Parameters [CppParam { name: "screen", ty: "UnityEngine::InputSystem::Touchscreen", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "updateMask", ty: "UnityEngine::InputSystem::LowLevel::InputUpdateType", modifiers: "", def_value: None }]
-explicit Finger(UnityEngine::InputSystem::Touchscreen screen, int32_t index, UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask) ;
+static UnityEngine::InputSystem::EnhancedTouch::Finger New_ctor(UnityEngine::InputSystem::Touchscreen screen, int32_t index, UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask) ;
 
 /// @brief Method .ctor addr 0x294e4dc size 0x31c virtual false final false
  void _ctor(UnityEngine::InputSystem::Touchscreen screen, int32_t index, UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask) ;

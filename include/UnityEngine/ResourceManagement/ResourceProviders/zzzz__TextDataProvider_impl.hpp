@@ -1,12 +1,13 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__TextDataProvider_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__TextDataProvider_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__WebRequestQueueOperation_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp.GetPercentComplete
 template<>
 
@@ -265,8 +266,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp::UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp>::get(),
@@ -412,8 +415,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, provideHandle);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::TextDataProvider()  : UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase(THROW_UNLESS(::il2cpp_utils::New<TextDataProvider>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider>::get(),

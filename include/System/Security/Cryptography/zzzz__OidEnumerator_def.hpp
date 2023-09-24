@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Security::Cryptography {
-class Oid;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Security::Cryptography {
 class OidCollection;
+}
+namespace System::Security::Cryptography {
+class Oid;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -82,8 +82,7 @@ constexpr int32_t __get__current() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "oids", ty: "System::Security::Cryptography::OidCollection", modifiers: "", def_value: None }]
-explicit OidEnumerator(System::Security::Cryptography::OidCollection oids) ;
+static System::Security::Cryptography::OidEnumerator New_ctor(System::Security::Cryptography::OidCollection oids) ;
 
 /// @brief Method .ctor addr 0x27e3a10 size 0x30 virtual false final false
  void _ctor(System::Security::Cryptography::OidCollection oids) ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ExperimentalPacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PacketTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::ExperimentalPacket._ctor
 template<>
 
@@ -84,8 +84,10 @@ constexpr void Org::BouncyCastle::Bcpg::ExperimentalPacket::__set_contents(::Arr
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Bcpg::ExperimentalPacket::__get_contents() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::ExperimentalPacket::ExperimentalPacket(Org::BouncyCastle::Bcpg::PacketTag tag, Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<ExperimentalPacket>(tag, bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::ExperimentalPacket Org::BouncyCastle::Bcpg::ExperimentalPacket::New_ctor(Org::BouncyCastle::Bcpg::PacketTag tag, Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::ExperimentalPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::ExperimentalPacket>(tag, bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::ExperimentalPacket::_ctor(Org::BouncyCastle::Bcpg::PacketTag tag, Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::ExperimentalPacket>::get(),

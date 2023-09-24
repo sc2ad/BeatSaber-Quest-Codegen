@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelAnalytics_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLevelAnalytics.Start
 template<>
 
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, multiplayerLevelScenesTransitionSetupData, multiplayerResultsData);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLevelAnalytics::MultiplayerLevelAnalytics()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLevelAnalytics>())) {}
+ GlobalNamespace::MultiplayerLevelAnalytics GlobalNamespace::MultiplayerLevelAnalytics::New_ctor()  {
+GlobalNamespace::MultiplayerLevelAnalytics o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLevelAnalytics>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLevelAnalytics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLevelAnalytics>::get(),

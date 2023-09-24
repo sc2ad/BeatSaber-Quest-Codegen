@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Array;
+namespace System::Xml {
+class XmlAttribute;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Xml {
-class XmlAttribute;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Xml {
 class XmlNode;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -82,8 +82,7 @@ constexpr explicit XmlAttributeCollection(void* ptr) noexcept : System::Xml::Xml
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }]
-explicit XmlAttributeCollection(System::Xml::XmlNode parent) ;
+static System::Xml::XmlAttributeCollection New_ctor(System::Xml::XmlNode parent) ;
 
 /// @brief Method .ctor addr 0x26eed48 size 0x8 virtual false final false
  void _ctor(System::Xml::XmlNode parent) ;

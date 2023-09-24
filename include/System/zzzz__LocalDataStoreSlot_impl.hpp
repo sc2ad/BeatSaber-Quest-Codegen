@@ -104,8 +104,10 @@ constexpr void System::LocalDataStoreSlot::__set_m_cookie(int64_t value)  {
 constexpr int64_t System::LocalDataStoreSlot::__get_m_cookie() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mgr", ty: "System::LocalDataStoreMgr", modifiers: "", def_value: None }, CppParam { name: "slot", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cookie", ty: "int64_t", modifiers: "", def_value: None }]
- System::LocalDataStoreSlot::LocalDataStoreSlot(System::LocalDataStoreMgr mgr, int32_t slot, int64_t cookie)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LocalDataStoreSlot>(mgr, slot, cookie))) {}
+ System::LocalDataStoreSlot System::LocalDataStoreSlot::New_ctor(System::LocalDataStoreMgr mgr, int32_t slot, int64_t cookie)  {
+System::LocalDataStoreSlot o{THROW_UNLESS(::il2cpp_utils::New<System::LocalDataStoreSlot>(mgr, slot, cookie))};
+return o;
+}
  void System::LocalDataStoreSlot::_ctor(System::LocalDataStoreMgr mgr, int32_t slot, int64_t cookie)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::LocalDataStoreSlot>::get(),

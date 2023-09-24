@@ -103,14 +103,12 @@ constexpr int32_t __get_usageIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "L", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "N", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit DsaParameterGenerationParameters(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters New_ctor(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0xea4938 size 0x4c virtual false final false
  void _ctor(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random) ;
 
-// Ctor Parameters [CppParam { name: "L", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "N", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "usageIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DsaParameterGenerationParameters(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random, int32_t usageIndex) ;
+static Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters New_ctor(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random, int32_t usageIndex) ;
 
 /// @brief Method .ctor addr 0xea4984 size 0x54 virtual false final false
  void _ctor(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random, int32_t usageIndex) ;

@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
-namespace UnityEngine {
-class CanvasGroup;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace UnityEngine {
+class CanvasGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -127,8 +127,7 @@ constexpr bool __get__showClearButton_k__BackingField() const;
 /// @brief Method SetBeatmap addr 0x2186740 size 0x68 virtual true final false
  void SetBeatmap(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel) ;
 
-// Ctor Parameters []
-explicit EditableBeatmapSelectionView() ;
+static GlobalNamespace::EditableBeatmapSelectionView New_ctor() ;
 
 /// @brief Method .ctor addr 0x21867a8 size 0x10 virtual false final false
  void _ctor() ;

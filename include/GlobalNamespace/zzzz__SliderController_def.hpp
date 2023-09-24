@@ -10,12 +10,21 @@
 namespace GlobalNamespace {
 class SliderData;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__SliderController__Pool__Long;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SliderController__Pool__Medium;
+}
 namespace Zenject {
 template<typename TValue>
 class MonoMemoryPool_1;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SliderController__Pool__Short;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -28,10 +37,46 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class IBeatmapObjectController;
+class SliderMeshController;
 }
 namespace GlobalNamespace {
-class Saber;
+class NoteController;
+}
+namespace GlobalNamespace {
+class ISliderDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+class FixedUpdateVector3SmoothValue;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SliderController__LengthType;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+class ISliderHeadDidMovePastCutMarkEvent;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SliderController__Pool;
+}
+namespace GlobalNamespace {
+class ISliderTailDidMovePastCutMarkEvent;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class ISliderDidFinishJumpEvent;
 }
 namespace GlobalNamespace {
 template<typename T>
@@ -41,20 +86,23 @@ namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class SliderMeshController;
+class SliderMovement;
 }
 namespace GlobalNamespace {
 class ISliderDidDissolveEvent;
 }
 namespace GlobalNamespace {
-class ISliderTailDidMovePastCutMarkEvent;
+class Saber;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SliderController___DissolveCoroutine_d__70;
 }
 namespace GlobalNamespace {
 template<typename T>
 class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-class ISliderDidFinishJumpEvent;
+class IBeatmapObjectController;
 }
 namespace GlobalNamespace {
 class SaberManager;
@@ -63,37 +111,7 @@ namespace GlobalNamespace {
 class SliderIntensityEffect;
 }
 namespace GlobalNamespace {
-class ISliderDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-class FixedUpdateVector3SmoothValue;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class SliderMovement;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class ISliderHeadDidMovePastCutMarkEvent;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -167,6 +185,8 @@ __Long = 2,
 constexpr operator __GlobalNamespace__SliderController__LengthType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SliderController__LengthType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -547,8 +567,7 @@ constexpr GlobalNamespace::FixedUpdateVector3SmoothValue __get__closeSmoothedSab
 /// @brief Method GetSaberInteractionPoint addr 0x2248018 size 0x54 virtual false final false
 static UnityEngine::Vector3 GetSaberInteractionPoint(GlobalNamespace::Saber saber) ;
 
-// Ctor Parameters []
-explicit SliderController() ;
+static GlobalNamespace::SliderController New_ctor() ;
 
 /// @brief Method .ctor addr 0x22497f8 size 0x194 virtual false final false
  void _ctor() ;
@@ -560,7 +579,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Short
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 376 }), TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4926))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4926)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 376 }), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4921))
 // CS Name: SliderController::Pool::Short
 class CORDL_TYPE GlobalNamespace__SliderController__Pool__Short : public Zenject::MonoMemoryPool_1<GlobalNamespace::SliderController> {
@@ -599,8 +618,7 @@ constexpr explicit GlobalNamespace__SliderController__Pool__Short(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SliderController__Pool__Short() ;
+static GlobalNamespace::GlobalNamespace__SliderController__Pool__Short New_ctor() ;
 
 /// @brief Method .ctor addr 0x2249ac0 size 0x48 virtual false final false
  void _ctor() ;
@@ -612,7 +630,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Medium
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 376 }), TypeDefinitionIndex(TypeDefinitionIndex(4926))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 376 }), TypeDefinitionIndex(TypeDefinitionIndex(4926)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4922))
 // CS Name: SliderController::Pool::Medium
 class CORDL_TYPE GlobalNamespace__SliderController__Pool__Medium : public Zenject::MonoMemoryPool_1<GlobalNamespace::SliderController> {
@@ -651,8 +669,7 @@ constexpr explicit GlobalNamespace__SliderController__Pool__Medium(void* ptr) no
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SliderController__Pool__Medium() ;
+static GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium New_ctor() ;
 
 /// @brief Method .ctor addr 0x2249b08 size 0x48 virtual false final false
  void _ctor() ;
@@ -664,7 +681,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Long
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4926)), TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 376 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4926)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 376 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4923))
 // CS Name: SliderController::Pool::Long
 class CORDL_TYPE GlobalNamespace__SliderController__Pool__Long : public Zenject::MonoMemoryPool_1<GlobalNamespace::SliderController> {
@@ -703,8 +720,7 @@ constexpr explicit GlobalNamespace__SliderController__Pool__Long(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SliderController__Pool__Long() ;
+static GlobalNamespace::GlobalNamespace__SliderController__Pool__Long New_ctor() ;
 
 /// @brief Method .ctor addr 0x2249b50 size 0x48 virtual false final false
  void _ctor() ;
@@ -788,8 +804,7 @@ constexpr GlobalNamespace::GlobalNamespace__SliderController__Pool__Long __get__
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "shortPool", ty: "GlobalNamespace::GlobalNamespace__SliderController__Pool__Short", modifiers: "", def_value: None }, CppParam { name: "mediumPool", ty: "GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium", modifiers: "", def_value: None }, CppParam { name: "longPool", ty: "GlobalNamespace::GlobalNamespace__SliderController__Pool__Long", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SliderController__Pool(GlobalNamespace::GlobalNamespace__SliderController__Pool__Short shortPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium mediumPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Long longPool) ;
+static GlobalNamespace::GlobalNamespace__SliderController__Pool New_ctor(GlobalNamespace::GlobalNamespace__SliderController__Pool__Short shortPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium mediumPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Long longPool) ;
 
 /// @brief Method .ctor addr 0x224998c size 0x3c virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__SliderController__Pool__Short shortPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium mediumPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Long longPool) ;
@@ -889,8 +904,7 @@ constexpr float_t __get_duration() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SliderController___DissolveCoroutine_d__70(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__SliderController___DissolveCoroutine_d__70 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2248f74 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;

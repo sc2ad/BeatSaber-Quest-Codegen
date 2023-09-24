@@ -88,8 +88,7 @@ constexpr bool __get__isToggled() const;
 /// @brief Method HandleButtonSelectionStateDidChange addr 0x1fbce68 size 0x14c virtual true final false
  void HandleButtonSelectionStateDidChange(HMUI::HMUI__NoTransitionsButton__SelectionState state) ;
 
-// Ctor Parameters []
-explicit ButtonSpriteSwapToggle() ;
+static HMUI::ButtonSpriteSwapToggle New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbcfb4 size 0x10 virtual false final false
  void _ctor() ;

@@ -2,22 +2,22 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Exception;
-}
 namespace Newtonsoft::Json::Serialization {
 class ITraceWriter;
 }
-namespace System::Diagnostics {
-struct TraceLevel;
+namespace System::Collections::Generic {
+template<typename T>
+class Queue_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
+namespace System::Diagnostics {
+struct TraceLevel;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -94,8 +94,7 @@ constexpr System::Diagnostics::TraceLevel __get__LevelFilter_k__BackingField() c
 /// @brief Method set_LevelFilter addr 0x24f299c size 0x8 virtual false final false
  void set_LevelFilter(System::Diagnostics::TraceLevel value) ;
 
-// Ctor Parameters []
-explicit MemoryTraceWriter() ;
+static Newtonsoft::Json::Serialization::MemoryTraceWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f29a4 size 0x88 virtual false final false
  void _ctor() ;

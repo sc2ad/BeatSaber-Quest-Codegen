@@ -6,23 +6,23 @@
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
 }
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class InputStreamPacket;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-class PublicKeyEncSessionPacket;
-}
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPrivateKey;
+}
+namespace Org::BouncyCastle::Bcpg {
+class InputStreamPacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+class PublicKeyEncSessionPacket;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct SymmetricKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -84,8 +84,7 @@ constexpr Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket __get_keyData() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyData", ty: "Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket", modifiers: "", def_value: None }, CppParam { name: "encData", ty: "Org::BouncyCastle::Bcpg::InputStreamPacket", modifiers: "", def_value: None }]
-explicit PgpPublicKeyEncryptedData(Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket keyData, Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyEncryptedData New_ctor(Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket keyData, Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;
 
 /// @brief Method .ctor addr 0x102c410 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket keyData, Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;

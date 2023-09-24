@@ -396,8 +396,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::X9::X9ObjectIdentifiers::__get_Mqv1()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "Mqv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::X9::X9ObjectIdentifiers::X9ObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X9ObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::X9::X9ObjectIdentifiers Org::BouncyCastle::Asn1::X9::X9ObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::X9::X9ObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ObjectIdentifiers>::get(),

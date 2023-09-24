@@ -87,8 +87,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_out_args() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoAsyncCall() ;
+static System::MonoAsyncCall New_ctor() ;
 
 /// @brief Method .ctor addr 0x248c0f4 size 0x4 virtual false final false
  void _ctor() ;

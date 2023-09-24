@@ -72,8 +72,7 @@ static System::InvariantComparer __get_Default() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit InvariantComparer() ;
+static System::InvariantComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b6748 size 0x7c virtual false final false
  void _ctor() ;

@@ -70,8 +70,7 @@ constexpr UnityEngine::Networking::UnityWebRequest __get__webRequest_k__BackingF
 /// @brief Method set_webRequest addr 0x2d3549c size 0x8 virtual false final false
  void set_webRequest(UnityEngine::Networking::UnityWebRequest value) ;
 
-// Ctor Parameters []
-explicit UnityWebRequestAsyncOperation() ;
+static UnityEngine::Networking::UnityWebRequestAsyncOperation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d354a4 size 0x8 virtual false final false
  void _ctor() ;

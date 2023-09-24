@@ -297,8 +297,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, input, inOff, len);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Macs::VmpcMac::VmpcMac()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VmpcMac>())) {}
+ Org::BouncyCastle::Crypto::Macs::VmpcMac Org::BouncyCastle::Crypto::Macs::VmpcMac::New_ctor()  {
+Org::BouncyCastle::Crypto::Macs::VmpcMac o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::VmpcMac>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::VmpcMac::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::VmpcMac>::get(),

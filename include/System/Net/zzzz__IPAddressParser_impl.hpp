@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/zzzz__IPAddressParser_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: System::Net::IPAddressParser.Parse
 template<>
 

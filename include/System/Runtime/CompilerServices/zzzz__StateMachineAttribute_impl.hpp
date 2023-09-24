@@ -42,8 +42,10 @@ constexpr void System::Runtime::CompilerServices::StateMachineAttribute::__set__
 constexpr System::Type System::Runtime::CompilerServices::StateMachineAttribute::__get__StateMachineType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stateMachineType", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::StateMachineAttribute::StateMachineAttribute(System::Type stateMachineType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<StateMachineAttribute>(stateMachineType))) {}
+ System::Runtime::CompilerServices::StateMachineAttribute System::Runtime::CompilerServices::StateMachineAttribute::New_ctor(System::Type stateMachineType)  {
+System::Runtime::CompilerServices::StateMachineAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::StateMachineAttribute>(stateMachineType))};
+return o;
+}
  void System::Runtime::CompilerServices::StateMachineAttribute::_ctor(System::Type stateMachineType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::StateMachineAttribute>::get(),

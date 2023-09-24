@@ -88,8 +88,7 @@ constexpr HoudiniEngineUnity::HEU_GeneratedOutput __get__generatedOutput() const
 /// @brief Method InitializeBuffer addr 0x203a364 size 0x1c virtual false final false
  void InitializeBuffer(int32_t id, ::StringW name, bool bInstanced, bool bInstancer) ;
 
-// Ctor Parameters []
-explicit HEU_LoadBufferBase() ;
+static HoudiniEngineUnity::HEU_LoadBufferBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x203a380 size 0x8 virtual false final false
  void _ctor() ;

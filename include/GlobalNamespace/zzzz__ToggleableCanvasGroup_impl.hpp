@@ -142,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isOn);
 }
-// Ctor Parameters []
- GlobalNamespace::ToggleableCanvasGroup::ToggleableCanvasGroup()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ToggleableCanvasGroup>())) {}
+ GlobalNamespace::ToggleableCanvasGroup GlobalNamespace::ToggleableCanvasGroup::New_ctor()  {
+GlobalNamespace::ToggleableCanvasGroup o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ToggleableCanvasGroup>())};
+return o;
+}
  void GlobalNamespace::ToggleableCanvasGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ToggleableCanvasGroup>::get(),

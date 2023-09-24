@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__CurveNodeData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::CurveNodeData._ctor
 template<>
 
@@ -144,8 +144,10 @@ constexpr void HoudiniEngineUnity::CurveNodeData::__set_scale(UnityEngine::Vecto
 constexpr UnityEngine::Vector3 HoudiniEngineUnity::CurveNodeData::__get_scale() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::CurveNodeData::CurveNodeData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CurveNodeData>())) {}
+ HoudiniEngineUnity::CurveNodeData HoudiniEngineUnity::CurveNodeData::New_ctor()  {
+HoudiniEngineUnity::CurveNodeData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::CurveNodeData>())};
+return o;
+}
  void HoudiniEngineUnity::CurveNodeData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::CurveNodeData>::get(),
@@ -155,8 +157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
- HoudiniEngineUnity::CurveNodeData::CurveNodeData(UnityEngine::Vector3 position)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CurveNodeData>(position))) {}
+ HoudiniEngineUnity::CurveNodeData HoudiniEngineUnity::CurveNodeData::New_ctor(UnityEngine::Vector3 position)  {
+HoudiniEngineUnity::CurveNodeData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::CurveNodeData>(position))};
+return o;
+}
  void HoudiniEngineUnity::CurveNodeData::_ctor(UnityEngine::Vector3 position)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::CurveNodeData>::get(),
@@ -166,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, position);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
- HoudiniEngineUnity::CurveNodeData::CurveNodeData(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CurveNodeData>(position, rotation))) {}
+ HoudiniEngineUnity::CurveNodeData HoudiniEngineUnity::CurveNodeData::New_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation)  {
+HoudiniEngineUnity::CurveNodeData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::CurveNodeData>(position, rotation))};
+return o;
+}
  void HoudiniEngineUnity::CurveNodeData::_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::CurveNodeData>::get(),
@@ -177,8 +183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, position, rotation);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
- HoudiniEngineUnity::CurveNodeData::CurveNodeData(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CurveNodeData>(position, rotation, scale))) {}
+ HoudiniEngineUnity::CurveNodeData HoudiniEngineUnity::CurveNodeData::New_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale)  {
+HoudiniEngineUnity::CurveNodeData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::CurveNodeData>(position, rotation, scale))};
+return o;
+}
  void HoudiniEngineUnity::CurveNodeData::_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::CurveNodeData>::get(),
@@ -188,8 +196,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, position, rotation, scale);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "HoudiniEngineUnity::CurveNodeData", modifiers: "", def_value: None }]
- HoudiniEngineUnity::CurveNodeData::CurveNodeData(HoudiniEngineUnity::CurveNodeData other)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CurveNodeData>(other))) {}
+ HoudiniEngineUnity::CurveNodeData HoudiniEngineUnity::CurveNodeData::New_ctor(HoudiniEngineUnity::CurveNodeData other)  {
+HoudiniEngineUnity::CurveNodeData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::CurveNodeData>(other))};
+return o;
+}
  void HoudiniEngineUnity::CurveNodeData::_ctor(HoudiniEngineUnity::CurveNodeData other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::CurveNodeData>::get(),

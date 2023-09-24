@@ -2,20 +2,21 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__TrackedDeviceRaycaster_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__TrackedDeviceRaycaster_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/zzzz__Ray_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__ExtendedPointerEventData_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster__RaycastHitData._ctor
 template<>
 
@@ -222,8 +223,10 @@ return ::cordl_internals::getStaticField<UnityEngine::InputSystem::UI::UnityEngi
  System::Comparison_1<UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster__RaycastHitData> UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c::__get___9__25_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster__RaycastHitData>, "<>9__25_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c>())) {}
+ UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c::New_ctor()  {
+UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c>())};
+return o;
+}
  void UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c>::get(),
@@ -781,8 +784,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Canvas, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::TrackedDeviceRaycaster()  : UnityEngine::EventSystems::BaseRaycaster(THROW_UNLESS(::il2cpp_utils::New<TrackedDeviceRaycaster>())) {}
+ UnityEngine::InputSystem::UI::TrackedDeviceRaycaster UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::New_ctor()  {
+UnityEngine::InputSystem::UI::TrackedDeviceRaycaster o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>())};
+return o;
+}
  void UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>::get(),

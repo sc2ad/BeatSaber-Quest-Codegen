@@ -6,10 +6,11 @@
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__UTF7Encoding_def.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
-#include "System/Text/zzzz__Decoder_def.hpp"
-#include "System/Text/zzzz__EncoderNLS_def.hpp"
-#include "System/Text/zzzz__Encoder_def.hpp"
 #include "System/Text/zzzz__DecoderNLS_def.hpp"
+#include "System/Text/zzzz__EncoderNLS_def.hpp"
+#include "System/Text/zzzz__UTF7Encoding_def.hpp"
+#include "System/Text/zzzz__Encoder_def.hpp"
+#include "System/Text/zzzz__Decoder_def.hpp"
 //  Writing Method size for method: System::Text::System__Text__UTF7Encoding__Decoder._ctor
 template<>
 
@@ -79,8 +80,10 @@ constexpr void System::Text::System__Text__UTF7Encoding__Decoder::__set_firstByt
 constexpr bool System::Text::System__Text__UTF7Encoding__Decoder::__get_firstByte() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF7Encoding", modifiers: "", def_value: None }]
- System::Text::System__Text__UTF7Encoding__Decoder::System__Text__UTF7Encoding__Decoder(System::Text::UTF7Encoding encoding)  : System::Text::DecoderNLS(THROW_UNLESS(::il2cpp_utils::New<System__Text__UTF7Encoding__Decoder>(encoding))) {}
+ System::Text::System__Text__UTF7Encoding__Decoder System::Text::System__Text__UTF7Encoding__Decoder::New_ctor(System::Text::UTF7Encoding encoding)  {
+System::Text::System__Text__UTF7Encoding__Decoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__UTF7Encoding__Decoder>(encoding))};
+return o;
+}
  void System::Text::System__Text__UTF7Encoding__Decoder::_ctor(System::Text::UTF7Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF7Encoding__Decoder>::get(),
@@ -171,8 +174,10 @@ constexpr void System::Text::System__Text__UTF7Encoding__Encoder::__set_bitCount
 constexpr int32_t System::Text::System__Text__UTF7Encoding__Encoder::__get_bitCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x3c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF7Encoding", modifiers: "", def_value: None }]
- System::Text::System__Text__UTF7Encoding__Encoder::System__Text__UTF7Encoding__Encoder(System::Text::UTF7Encoding encoding)  : System::Text::EncoderNLS(THROW_UNLESS(::il2cpp_utils::New<System__Text__UTF7Encoding__Encoder>(encoding))) {}
+ System::Text::System__Text__UTF7Encoding__Encoder System::Text::System__Text__UTF7Encoding__Encoder::New_ctor(System::Text::UTF7Encoding encoding)  {
+System::Text::System__Text__UTF7Encoding__Encoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__UTF7Encoding__Encoder>(encoding))};
+return o;
+}
  void System::Text::System__Text__UTF7Encoding__Encoder::_ctor(System::Text::UTF7Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF7Encoding__Encoder>::get(),
@@ -285,8 +290,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback::System__Text__UTF7Encoding__DecoderUTF7Fallback()  : System::Text::DecoderFallback(THROW_UNLESS(::il2cpp_utils::New<System__Text__UTF7Encoding__DecoderUTF7Fallback>())) {}
+ System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback::New_ctor()  {
+System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback>())};
+return o;
+}
  void System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback>::get(),
@@ -452,8 +459,10 @@ constexpr void System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuff
 constexpr int32_t System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer::__get_iSize() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback", modifiers: "", def_value: None }]
- System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer(System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback fallback)  : System::Text::DecoderFallbackBuffer(THROW_UNLESS(::il2cpp_utils::New<System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer>(fallback))) {}
+ System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer::New_ctor(System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback fallback)  {
+System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer>(fallback))};
+return o;
+}
  void System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer::_ctor(System::Text::System__Text__UTF7Encoding__DecoderUTF7Fallback fallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF7Encoding__DecoderUTF7FallbackBuffer>::get(),
@@ -963,8 +972,10 @@ constexpr void System::Text::UTF7Encoding::__set__allowOptionals(bool value)  {
 constexpr bool System::Text::UTF7Encoding::__get__allowOptionals() const {
 return ::cordl_internals::getInstanceField<bool, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::UTF7Encoding::UTF7Encoding()  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UTF7Encoding>())) {}
+ System::Text::UTF7Encoding System::Text::UTF7Encoding::New_ctor()  {
+System::Text::UTF7Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UTF7Encoding>())};
+return o;
+}
  void System::Text::UTF7Encoding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UTF7Encoding>::get(),
@@ -974,8 +985,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "allowOptionals", ty: "bool", modifiers: "", def_value: None }]
- System::Text::UTF7Encoding::UTF7Encoding(bool allowOptionals)  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UTF7Encoding>(allowOptionals))) {}
+ System::Text::UTF7Encoding System::Text::UTF7Encoding::New_ctor(bool allowOptionals)  {
+System::Text::UTF7Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UTF7Encoding>(allowOptionals))};
+return o;
+}
  void System::Text::UTF7Encoding::_ctor(bool allowOptionals)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UTF7Encoding>::get(),

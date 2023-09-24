@@ -5,16 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace UnityEngine {
-class GameObject;
+class RectTransform;
 }
 namespace GlobalNamespace {
 class MainCamera;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class GlobalNamespace__SafeAreaRectChecker__InitData;
 }
 namespace UnityEngine {
-class RectTransform;
+class GameObject;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +77,7 @@ constexpr bool __get_checkingEnabled() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "checkingEnabled", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SafeAreaRectChecker__InitData(bool checkingEnabled) ;
+static GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData New_ctor(bool checkingEnabled) ;
 
 /// @brief Method .ctor addr 0x2127360 size 0x28 virtual false final false
  void _ctor(bool checkingEnabled) ;
@@ -197,8 +199,7 @@ constexpr GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData __get_
 /// @brief Method Update addr 0x2127110 size 0x1ec virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit SafeAreaRectChecker() ;
+static GlobalNamespace::SafeAreaRectChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x21272fc size 0x64 virtual false final false
  void _ctor() ;

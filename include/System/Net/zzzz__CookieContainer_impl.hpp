@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Net/zzzz__CookieContainer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Net/zzzz__HeaderVariantInfo_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__Cookie_def.hpp"
-#include "System/Net/zzzz__CookieCollection_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__PathList_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/zzzz__CookieCollection_def.hpp"
+#include "System/Net/zzzz__HeaderVariantInfo_def.hpp"
 //  Writing Method size for method: System::Net::CookieContainer._ctor
 template<>
 
@@ -253,8 +253,10 @@ constexpr void System::Net::CookieContainer::__set_m_fqdnMyDomain(::StringW valu
 constexpr ::StringW System::Net::CookieContainer::__get_m_fqdnMyDomain() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::CookieContainer::CookieContainer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CookieContainer>())) {}
+ System::Net::CookieContainer System::Net::CookieContainer::New_ctor()  {
+System::Net::CookieContainer o{THROW_UNLESS(::il2cpp_utils::New<System::Net::CookieContainer>())};
+return o;
+}
  void System::Net::CookieContainer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CookieContainer>::get(),

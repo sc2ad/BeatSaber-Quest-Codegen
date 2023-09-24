@@ -300,8 +300,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::BlowfishEngine::__set_working
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Engines::BlowfishEngine::__get_workingKey() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::BlowfishEngine::BlowfishEngine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BlowfishEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::BlowfishEngine Org::BouncyCastle::Crypto::Engines::BlowfishEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::BlowfishEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::BlowfishEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::BlowfishEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::BlowfishEngine>::get(),

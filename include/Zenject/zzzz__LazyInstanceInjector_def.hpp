@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class HashSet_1;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class HashSet_1;
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -78,8 +78,7 @@ constexpr System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit LazyInstanceInjector(Zenject::DiContainer container) ;
+static Zenject::LazyInstanceInjector New_ctor(Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x2d8ac14 size 0x90 virtual false final false
  void _ctor(Zenject::DiContainer container) ;

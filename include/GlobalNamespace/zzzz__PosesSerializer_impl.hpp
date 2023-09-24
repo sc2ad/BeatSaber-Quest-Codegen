@@ -3,10 +3,9 @@
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingInfoSaveData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingConverter_def.hpp"
-#include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
 #include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingConverter_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PosesSerializer._ctor
 template<>
 
@@ -227,8 +226,10 @@ constexpr void GlobalNamespace::PosesSerializer::__set__recordingConverter(Globa
 constexpr GlobalNamespace::RecordingConverter GlobalNamespace::PosesSerializer::__get__recordingConverter() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::RecordingConverter, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "logger", ty: "GlobalNamespace::IBeatSaberLogger", modifiers: "", def_value: None }]
- GlobalNamespace::PosesSerializer::PosesSerializer(GlobalNamespace::IBeatSaberLogger logger)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PosesSerializer>(logger))) {}
+ GlobalNamespace::PosesSerializer GlobalNamespace::PosesSerializer::New_ctor(GlobalNamespace::IBeatSaberLogger logger)  {
+GlobalNamespace::PosesSerializer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PosesSerializer>(logger))};
+return o;
+}
  void GlobalNamespace::PosesSerializer::_ctor(GlobalNamespace::IBeatSaberLogger logger)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PosesSerializer>::get(),

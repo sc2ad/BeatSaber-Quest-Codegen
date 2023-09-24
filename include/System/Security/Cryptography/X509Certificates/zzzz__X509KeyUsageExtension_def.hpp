@@ -88,20 +88,17 @@ constexpr System::Security::Cryptography::AsnDecodeStatus __get__status() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509KeyUsageExtension() ;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageExtension New_ctor() ;
 
 /// @brief Method .ctor addr 0x27f3db4 size 0x9c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "encodedKeyUsage", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509KeyUsageExtension(System::Security::Cryptography::AsnEncodedData encodedKeyUsage, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageExtension New_ctor(System::Security::Cryptography::AsnEncodedData encodedKeyUsage, bool critical) ;
 
 /// @brief Method .ctor addr 0x27f3e50 size 0xcc virtual false final false
  void _ctor(System::Security::Cryptography::AsnEncodedData encodedKeyUsage, bool critical) ;
 
-// Ctor Parameters [CppParam { name: "keyUsages", ty: "System::Security::Cryptography::X509Certificates::X509KeyUsageFlags", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509KeyUsageExtension(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509KeyUsageExtension New_ctor(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical) ;
 
 /// @brief Method .ctor addr 0x27f40d0 size 0xd8 virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical) ;

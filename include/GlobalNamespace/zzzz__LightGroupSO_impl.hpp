@@ -216,8 +216,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LightGroupSO::LightGroupSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<LightGroupSO>())) {}
+ GlobalNamespace::LightGroupSO GlobalNamespace::LightGroupSO::New_ctor()  {
+GlobalNamespace::LightGroupSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightGroupSO>())};
+return o;
+}
  void GlobalNamespace::LightGroupSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightGroupSO>::get(),

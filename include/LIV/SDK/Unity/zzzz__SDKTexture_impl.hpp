@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKTexture_def.hpp"
-#include "LIV/SDK/Unity/zzzz__TEXTURE_FORMAT_def.hpp"
-#include "LIV/SDK/Unity/zzzz__TEXTURE_ID_def.hpp"
 #include "LIV/SDK/Unity/zzzz__TEXTURE_DEVICE_def.hpp"
 #include "LIV/SDK/Unity/zzzz__TEXTURE_TYPE_def.hpp"
+#include "LIV/SDK/Unity/zzzz__TEXTURE_FORMAT_def.hpp"
 #include "LIV/SDK/Unity/zzzz__TEXTURE_COLOR_SPACE_def.hpp"
+#include "LIV/SDK/Unity/zzzz__TEXTURE_ID_def.hpp"
 //  Writing Method size for method: LIV::SDK::Unity::SDKTexture.get_empty
 template<>
 

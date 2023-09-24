@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__VerticalScrollIndicator_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 //  Writing Method size for method: HMUI::VerticalScrollIndicator.set_progress
 template<>
 
@@ -238,8 +238,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::VerticalScrollIndicator::VerticalScrollIndicator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VerticalScrollIndicator>())) {}
+ HMUI::VerticalScrollIndicator HMUI::VerticalScrollIndicator::New_ctor()  {
+HMUI::VerticalScrollIndicator o{THROW_UNLESS(::il2cpp_utils::New<HMUI::VerticalScrollIndicator>())};
+return o;
+}
  void HMUI::VerticalScrollIndicator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::VerticalScrollIndicator>::get(),

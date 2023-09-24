@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Mono::Net::Security {
-class BufferOffsetSize;
+class MobileAuthenticatedStream;
 }
 namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+class BufferOffsetSize;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -87,8 +87,7 @@ constexpr int32_t __get__CurrentSize_k__BackingField() const;
 /// @brief Method set_CurrentSize addr 0x268e114 size 0x8 virtual false final false
  void set_CurrentSize(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "sync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit AsyncReadOrWriteRequest(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size) ;
+static Mono::Net::Security::AsyncReadOrWriteRequest New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size) ;
 
 /// @brief Method .ctor addr 0x268e11c size 0xa4 virtual false final false
  void _ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size) ;

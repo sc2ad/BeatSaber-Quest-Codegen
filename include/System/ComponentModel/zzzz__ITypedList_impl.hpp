@@ -1,7 +1,7 @@
 #pragma once
 #include "System/ComponentModel/zzzz__ITypedList_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
 //  Writing Method size for method: System::ComponentModel::ITypedList.GetListName
 template<>
 

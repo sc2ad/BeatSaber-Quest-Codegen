@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__Gradient_def.hpp"
-#include "UnityEngine/zzzz__GradientColorKey_def.hpp"
-#include "UnityEngine/zzzz__GradientAlphaKey_def.hpp"
-#include "UnityEngine/zzzz__GradientMode_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__GradientColorKey_def.hpp"
+#include "UnityEngine/zzzz__GradientMode_def.hpp"
+#include "UnityEngine/zzzz__GradientAlphaKey_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::Gradient.Init
 template<>
 
@@ -314,8 +314,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- UnityEngine::Gradient::Gradient()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gradient>())) {}
+ UnityEngine::Gradient UnityEngine::Gradient::New_ctor()  {
+UnityEngine::Gradient o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Gradient>())};
+return o;
+}
  void UnityEngine::Gradient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Gradient>::get(),

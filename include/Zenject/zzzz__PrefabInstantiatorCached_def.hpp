@@ -2,14 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace Zenject {
-class IPrefabInstantiator;
+namespace UnityEngine {
+class Object;
 }
 namespace Zenject {
-struct TypeValuePair;
+class GameObjectCreationParameters;
 }
 namespace System {
 class Action;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace UnityEngine {
 class GameObject;
@@ -18,17 +21,14 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class Object;
-}
-namespace System {
-class Type;
+namespace Zenject {
+class IPrefabInstantiator;
 }
 namespace Zenject {
 class InjectContext;
 }
-namespace Zenject {
-class GameObjectCreationParameters;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -103,8 +103,7 @@ constexpr UnityEngine::GameObject __get__gameObject() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "subInstantiator", ty: "Zenject::IPrefabInstantiator", modifiers: "", def_value: None }]
-explicit PrefabInstantiatorCached(Zenject::IPrefabInstantiator subInstantiator) ;
+static Zenject::PrefabInstantiatorCached New_ctor(Zenject::IPrefabInstantiator subInstantiator) ;
 
 /// @brief Method .ctor addr 0x2d9028c size 0x28 virtual false final false
  void _ctor(Zenject::IPrefabInstantiator subInstantiator) ;

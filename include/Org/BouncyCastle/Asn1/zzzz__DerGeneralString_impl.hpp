@@ -164,8 +164,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerGeneralString, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerGeneralString::DerGeneralString(::ArrayW<uint8_t> str)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerGeneralString>(str))) {}
+ Org::BouncyCastle::Asn1::DerGeneralString Org::BouncyCastle::Asn1::DerGeneralString::New_ctor(::ArrayW<uint8_t> str)  {
+Org::BouncyCastle::Asn1::DerGeneralString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerGeneralString>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerGeneralString::_ctor(::ArrayW<uint8_t> str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerGeneralString>::get(),
@@ -175,8 +177,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerGeneralString::DerGeneralString(::StringW str)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerGeneralString>(str))) {}
+ Org::BouncyCastle::Asn1::DerGeneralString Org::BouncyCastle::Asn1::DerGeneralString::New_ctor(::StringW str)  {
+Org::BouncyCastle::Asn1::DerGeneralString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerGeneralString>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerGeneralString::_ctor(::StringW str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerGeneralString>::get(),

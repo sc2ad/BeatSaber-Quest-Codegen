@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__SceneContextRegistryAdderAndRemover_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "Zenject/zzzz__SceneContext_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__SceneContextRegistry_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::SceneContextRegistryAdderAndRemover._ctor
 template<>
@@ -110,8 +110,10 @@ constexpr void Zenject::SceneContextRegistryAdderAndRemover::__set__sceneContext
 constexpr Zenject::SceneContext Zenject::SceneContextRegistryAdderAndRemover::__get__sceneContext() const {
 return ::cordl_internals::getInstanceField<Zenject::SceneContext, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "sceneContext", ty: "Zenject::SceneContext", modifiers: "", def_value: None }, CppParam { name: "registry", ty: "Zenject::SceneContextRegistry", modifiers: "", def_value: None }]
- Zenject::SceneContextRegistryAdderAndRemover::SceneContextRegistryAdderAndRemover(Zenject::SceneContext sceneContext, Zenject::SceneContextRegistry registry)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneContextRegistryAdderAndRemover>(sceneContext, registry))) {}
+ Zenject::SceneContextRegistryAdderAndRemover Zenject::SceneContextRegistryAdderAndRemover::New_ctor(Zenject::SceneContext sceneContext, Zenject::SceneContextRegistry registry)  {
+Zenject::SceneContextRegistryAdderAndRemover o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SceneContextRegistryAdderAndRemover>(sceneContext, registry))};
+return o;
+}
  void Zenject::SceneContextRegistryAdderAndRemover::_ctor(Zenject::SceneContext sceneContext, Zenject::SceneContextRegistry registry)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SceneContextRegistryAdderAndRemover>::get(),

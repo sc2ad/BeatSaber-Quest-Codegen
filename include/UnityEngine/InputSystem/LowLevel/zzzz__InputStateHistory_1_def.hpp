@@ -6,12 +6,38 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct TouchState;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template<typename TValue>
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template<typename TValue>
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IReadOnlyList_1;
 }
 namespace UnityEngine::InputSystem {
 template<typename TValue>
@@ -20,24 +46,6 @@ class InputControl_1;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyCollection_1;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System {
 class IDisposable;
@@ -79,7 +87,7 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6658)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(6658))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6658), inst: 3759 })
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory`1::Enumerator
 struct CORDL_TYPE UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator<UnityEngine::InputSystem::LowLevel::TouchState> : public ::bs_hook::ValueTypeWrapper {
@@ -397,20 +405,17 @@ constexpr explicit InputStateHistory_1(void* ptr) noexcept : UnityEngine::InputS
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "maxStateSizeInBytes", ty: "System::Nullable_1<int32_t>", modifiers: "", def_value: None }]
-explicit InputStateHistory_1(System::Nullable_1<int32_t> maxStateSizeInBytes) ;
+static UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> New_ctor(System::Nullable_1<int32_t> maxStateSizeInBytes) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Nullable_1<int32_t> maxStateSizeInBytes) ;
 
-// Ctor Parameters [CppParam { name: "control", ty: "UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState>", modifiers: "", def_value: None }]
-explicit InputStateHistory_1(UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> control) ;
+static UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> New_ctor(UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> control) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> control) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InputStateHistory_1(::StringW path) ;
+static UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> New_ctor(::StringW path) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::StringW path) ;

@@ -67,8 +67,7 @@ constexpr HMUI::ScreenModeData __get__data() const;
 /// @brief Method get_data addr 0x1fb8d5c size 0x8 virtual false final false
  HMUI::ScreenModeData get_data() ;
 
-// Ctor Parameters []
-explicit ScreenModeSO() ;
+static HMUI::ScreenModeSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb8d64 size 0x8 virtual false final false
  void _ctor() ;

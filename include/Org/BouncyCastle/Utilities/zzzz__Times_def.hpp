@@ -60,8 +60,7 @@ static int64_t __get_NanosecondsPerTick() ;
 /// @brief Method NanoTime addr 0x10e3a3c size 0xa4 virtual false final false
 static int64_t NanoTime() ;
 
-// Ctor Parameters []
-explicit Times() ;
+static Org::BouncyCastle::Utilities::Times New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e3b2c size 0x8 virtual false final false
  void _ctor() ;

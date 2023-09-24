@@ -239,8 +239,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Video::VideoClip::VideoClip()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<VideoClip>())) {}
+ UnityEngine::Video::VideoClip UnityEngine::Video::VideoClip::New_ctor()  {
+UnityEngine::Video::VideoClip o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Video::VideoClip>())};
+return o;
+}
  void UnityEngine::Video::VideoClip::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Video::VideoClip>::get(),

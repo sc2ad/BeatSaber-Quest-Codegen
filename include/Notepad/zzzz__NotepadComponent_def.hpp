@@ -47,8 +47,7 @@ constexpr explicit NotepadComponent(void* ptr) noexcept : UnityEngine::MonoBehav
 
 // Methods
 
-// Ctor Parameters []
-explicit NotepadComponent() ;
+static Notepad::NotepadComponent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2551ba0 size 0x8 virtual false final false
  void _ctor() ;

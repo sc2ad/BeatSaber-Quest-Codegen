@@ -24,7 +24,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TParam6,::cordl_internals::il2cpp_reference_type TParam7,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10987)), TypeDefinitionIndex(TypeDefinitionIndex(11005)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10987), inst: 3421 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10987), inst: 3421 }), TypeDefinitionIndex(TypeDefinitionIndex(10987)), TypeDefinitionIndex(TypeDefinitionIndex(11005))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 5941 })
 // CS Name: Zenject.MonoPoolableMemoryPool`8
 class CORDL_TYPE MonoPoolableMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> : public Zenject::MemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> {
@@ -72,8 +72,7 @@ constexpr UnityEngine::Transform __get__originalParent() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoPoolableMemoryPool_8() ;
+static Zenject::MonoPoolableMemoryPool_8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

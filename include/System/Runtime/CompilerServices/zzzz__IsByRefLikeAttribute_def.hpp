@@ -47,8 +47,7 @@ constexpr explicit IsByRefLikeAttribute(void* ptr) noexcept : System::Attribute(
 
 // Methods
 
-// Ctor Parameters []
-explicit IsByRefLikeAttribute() ;
+static System::Runtime::CompilerServices::IsByRefLikeAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236e0d0 size 0x8 virtual false final false
  void _ctor() ;

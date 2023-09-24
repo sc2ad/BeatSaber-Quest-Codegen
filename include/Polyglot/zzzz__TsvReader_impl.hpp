@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<System::Collections::Generic::List_1<::StringW>>, false>(nullptr, ___internal_method, src);
 }
-// Ctor Parameters []
- Polyglot::TsvReader::TsvReader()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TsvReader>())) {}
+ Polyglot::TsvReader Polyglot::TsvReader::New_ctor()  {
+Polyglot::TsvReader o{THROW_UNLESS(::il2cpp_utils::New<Polyglot::TsvReader>())};
+return o;
+}
  void Polyglot::TsvReader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Polyglot::TsvReader>::get(),

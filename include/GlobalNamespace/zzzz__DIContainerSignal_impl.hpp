@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::DIContainerSignal::DIContainerSignal()  : GlobalNamespace::GenericSignal_1<Zenject::DiContainer>(THROW_UNLESS(::il2cpp_utils::New<DIContainerSignal>())) {}
+ GlobalNamespace::DIContainerSignal GlobalNamespace::DIContainerSignal::New_ctor()  {
+GlobalNamespace::DIContainerSignal o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DIContainerSignal>())};
+return o;
+}
  void GlobalNamespace::DIContainerSignal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DIContainerSignal>::get(),

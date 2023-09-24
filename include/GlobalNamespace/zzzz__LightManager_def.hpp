@@ -5,10 +5,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector4;
+class Camera;
 }
 namespace UnityEngine {
-class Camera;
+struct Vector4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -152,8 +152,7 @@ constexpr int32_t __get_lastRefreshFrameNum() const;
 /// @brief Method ResetColors addr 0x1f9984c size 0xe4 virtual false final false
  void ResetColors() ;
 
-// Ctor Parameters []
-explicit LightManager() ;
+static GlobalNamespace::LightManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f99930 size 0xcc virtual false final false
  void _ctor() ;

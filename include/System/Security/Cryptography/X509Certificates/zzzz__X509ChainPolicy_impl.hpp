@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainPolicy_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
-#include "System/Security/Cryptography/zzzz__OidCollection_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationFlag_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509VerificationFlags_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
+#include "System/Security/Cryptography/zzzz__OidCollection_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509ChainPolicy._ctor
 template<>
 
@@ -266,8 +266,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509ChainPolicy
 constexpr System::DateTime System::Security::Cryptography::X509Certificates::X509ChainPolicy::__get_vtime() const {
 return ::cordl_internals::getInstanceField<System::DateTime, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509ChainPolicy::X509ChainPolicy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509ChainPolicy>())) {}
+ System::Security::Cryptography::X509Certificates::X509ChainPolicy System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509ChainPolicy o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509ChainPolicy>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509ChainPolicy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509ChainPolicy>::get(),

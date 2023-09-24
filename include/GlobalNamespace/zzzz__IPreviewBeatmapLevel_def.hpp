@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace UnityEngine {
-class Sprite;
-}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
@@ -13,15 +10,18 @@ class Task_1;
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
 }
+namespace UnityEngine {
+class Sprite;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

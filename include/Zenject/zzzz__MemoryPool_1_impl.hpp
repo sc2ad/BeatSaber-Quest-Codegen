@@ -1,184 +1,84 @@
 #pragma once
 #include "Zenject/zzzz__MemoryPoolBase_1_impl.hpp"
 #include "Zenject/zzzz__MemoryPool_1_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__IFactory_1_def.hpp"
-//  Writing Method size for method: Zenject::MemoryPool_1.Spawn
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TValue (Zenject::MemoryPool_1::*)()>(&Zenject::MemoryPool_1::Spawn)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
-                            "Spawn",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::MemoryPool_1.Reinitialize
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPool_1::*)(TValue)>(&Zenject::MemoryPool_1::Reinitialize)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(Zenject::MemoryPool_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
-                                  23
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::MemoryPool_1.Zenject_IFactory_TValue__Create
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TValue (Zenject::MemoryPool_1::*)()>(&Zenject::MemoryPool_1::Zenject_IFactory_TValue__Create)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
-                            "Zenject.IFactory<TValue>.Create",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::MemoryPool_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPool_1::*)()>(&Zenject::MemoryPool_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::MemoryPool_1.__zenCreate
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::Il2CppWrapperType (*)(::ArrayW<::bs_hook::Il2CppWrapperType>)>(&Zenject::MemoryPool_1::__zenCreate)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
-                            "__zenCreate",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::bs_hook::Il2CppWrapperType>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::MemoryPool_1.__zenCreateInjectTypeInfo
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo (*)()>(&Zenject::MemoryPool_1::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
-                            "__zenCreateInjectTypeInfo",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
+#include "Zenject/zzzz__IMemoryPool_1_def.hpp"
 /// @brief Convert operator to Zenject::IMemoryPool_1<TValue>
-constexpr  Zenject::MemoryPool_1::operator Zenject::IMemoryPool_1<TValue>() const noexcept {
+constexpr  Zenject::MemoryPool_1<TValue>::operator Zenject::IMemoryPool_1<TValue>() const noexcept {
 return Zenject::IMemoryPool_1<TValue>(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to Zenject::IDespawnableMemoryPool_1<TValue>
-constexpr  Zenject::MemoryPool_1::operator Zenject::IDespawnableMemoryPool_1<TValue>() const noexcept {
+constexpr  Zenject::MemoryPool_1<TValue>::operator Zenject::IDespawnableMemoryPool_1<TValue>() const noexcept {
 return Zenject::IDespawnableMemoryPool_1<TValue>(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to Zenject::IMemoryPool
-constexpr  Zenject::MemoryPool_1::operator Zenject::IMemoryPool() const noexcept {
+constexpr  Zenject::MemoryPool_1<TValue>::operator Zenject::IMemoryPool() const noexcept {
 return Zenject::IMemoryPool(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to Zenject::IFactory_1<TValue>
-constexpr  Zenject::MemoryPool_1::operator Zenject::IFactory_1<TValue>() const noexcept {
+constexpr  Zenject::MemoryPool_1<TValue>::operator Zenject::IFactory_1<TValue>() const noexcept {
 return Zenject::IFactory_1<TValue>(::bs_hook::Il2CppWrapperType::instance);
 }
 /// @brief Convert operator to Zenject::IFactory
-constexpr  Zenject::MemoryPool_1::operator Zenject::IFactory() const noexcept {
+constexpr  Zenject::MemoryPool_1<TValue>::operator Zenject::IFactory() const noexcept {
 return Zenject::IFactory(::bs_hook::Il2CppWrapperType::instance);
 }
- TValue Zenject::MemoryPool_1::Spawn()  {
+ TValue Zenject::MemoryPool_1<TValue>::Spawn()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1<TValue>>::get(),
                             "Spawn",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TValue, false>(const_cast<void*>(instance), ___internal_method);
 }
- void Zenject::MemoryPool_1::Reinitialize(TValue item)  {
+ void Zenject::MemoryPool_1<TValue>::Reinitialize(TValue item)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1<TValue>>::get(),
                             "Reinitialize",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, item);
 }
- TValue Zenject::MemoryPool_1::Zenject_IFactory_TValue__Create()  {
+ TValue Zenject::MemoryPool_1<TValue>::Zenject_IFactory_TValue__Create()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1<TValue>>::get(),
                             "Zenject.IFactory<TValue>.Create",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<TValue, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::MemoryPool_1::MemoryPool_1()  : Zenject::MemoryPoolBase_1<TValue>(THROW_UNLESS(::il2cpp_utils::New<MemoryPool_1>())) {}
- void Zenject::MemoryPool_1::_ctor()  {
+ Zenject::MemoryPool_1<TValue> Zenject::MemoryPool_1<TValue>::New_ctor()  {
+Zenject::MemoryPool_1<TValue> o{THROW_UNLESS(::il2cpp_utils::New<Zenject::MemoryPool_1<TValue>>())};
+return o;
+}
+ void Zenject::MemoryPool_1<TValue>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1<TValue>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- ::bs_hook::Il2CppWrapperType Zenject::MemoryPool_1::__zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0)  {
+ ::bs_hook::Il2CppWrapperType Zenject::MemoryPool_1<TValue>::__zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1<TValue>>::get(),
                             "__zenCreate",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::bs_hook::Il2CppWrapperType>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(nullptr, ___internal_method, P_0);
 }
- Zenject::InjectTypeInfo Zenject::MemoryPool_1::__zenCreateInjectTypeInfo()  {
+ Zenject::InjectTypeInfo Zenject::MemoryPool_1<TValue>::__zenCreateInjectTypeInfo()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPool_1<TValue>>::get(),
                             "__zenCreateInjectTypeInfo",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

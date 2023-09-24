@@ -18,7 +18,7 @@ namespace System::Collections::Generic {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(3830))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3830)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3830), inst: 2 })
 // CS Name: System.Collections.Generic.ArrayBuilder`1
 struct CORDL_TYPE ArrayBuilder_1<T> : public ::bs_hook::ValueTypeWrapper {

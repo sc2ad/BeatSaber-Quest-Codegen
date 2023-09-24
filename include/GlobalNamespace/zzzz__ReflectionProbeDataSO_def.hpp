@@ -84,8 +84,7 @@ constexpr UnityEngine::Cubemap __get__reflectionProbeCubemap2() const;
 /// @brief Method set_reflectionProbeCubemap2 addr 0x219d030 size 0x8 virtual false final false
  void set_reflectionProbeCubemap2(UnityEngine::Cubemap value) ;
 
-// Ctor Parameters []
-explicit ReflectionProbeDataSO() ;
+static GlobalNamespace::ReflectionProbeDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x219d038 size 0x8 virtual false final false
  void _ctor() ;

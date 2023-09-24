@@ -64,8 +64,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryAssembl
 constexpr System::Reflection::Assembly System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::__get_assembly() const {
 return ::cordl_internals::getInstanceField<System::Reflection::Assembly, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "assemblyString", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::BinaryAssemblyInfo(::StringW assemblyString)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryAssemblyInfo>(assemblyString))) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::New_ctor(::StringW assemblyString)  {
+System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo>(assemblyString))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::_ctor(::StringW assemblyString)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo>::get(),
@@ -75,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, assemblyString);
 }
-// Ctor Parameters [CppParam { name: "assemblyString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::BinaryAssemblyInfo(::StringW assemblyString, System::Reflection::Assembly assembly)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryAssemblyInfo>(assemblyString, assembly))) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::New_ctor(::StringW assemblyString, System::Reflection::Assembly assembly)  {
+System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo>(assemblyString, assembly))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::_ctor(::StringW assemblyString, System::Reflection::Assembly assembly)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo>::get(),

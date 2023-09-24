@@ -156,8 +156,10 @@ constexpr void System::Xml::CharEntityEncoderFallbackBuffer::__set_charEntityInd
 constexpr int32_t System::Xml::CharEntityEncoderFallbackBuffer::__get_charEntityIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "System::Xml::CharEntityEncoderFallback", modifiers: "", def_value: None }]
- System::Xml::CharEntityEncoderFallbackBuffer::CharEntityEncoderFallbackBuffer(System::Xml::CharEntityEncoderFallback parent)  : System::Text::EncoderFallbackBuffer(THROW_UNLESS(::il2cpp_utils::New<CharEntityEncoderFallbackBuffer>(parent))) {}
+ System::Xml::CharEntityEncoderFallbackBuffer System::Xml::CharEntityEncoderFallbackBuffer::New_ctor(System::Xml::CharEntityEncoderFallback parent)  {
+System::Xml::CharEntityEncoderFallbackBuffer o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::CharEntityEncoderFallbackBuffer>(parent))};
+return o;
+}
  void System::Xml::CharEntityEncoderFallbackBuffer::_ctor(System::Xml::CharEntityEncoderFallback parent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::CharEntityEncoderFallbackBuffer>::get(),

@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SleepRigidbody2DWhenInvisible::SleepRigidbody2DWhenInvisible()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SleepRigidbody2DWhenInvisible>())) {}
+ GlobalNamespace::SleepRigidbody2DWhenInvisible GlobalNamespace::SleepRigidbody2DWhenInvisible::New_ctor()  {
+GlobalNamespace::SleepRigidbody2DWhenInvisible o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SleepRigidbody2DWhenInvisible>())};
+return o;
+}
  void GlobalNamespace::SleepRigidbody2DWhenInvisible::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SleepRigidbody2DWhenInvisible>::get(),

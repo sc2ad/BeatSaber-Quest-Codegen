@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Icao/zzzz__DataGroupHash_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Icao::DataGroupHash.GetInstance
 template<>
 
@@ -128,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Icao::DataGroupHash, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Icao::DataGroupHash::DataGroupHash(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DataGroupHash>(seq))) {}
+ Org::BouncyCastle::Asn1::Icao::DataGroupHash Org::BouncyCastle::Asn1::Icao::DataGroupHash::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Icao::DataGroupHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Icao::DataGroupHash>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Icao::DataGroupHash::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Icao::DataGroupHash>::get(),
@@ -139,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "dataGroupNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dataGroupHashValue", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Icao::DataGroupHash::DataGroupHash(int32_t dataGroupNumber, Org::BouncyCastle::Asn1::Asn1OctetString dataGroupHashValue)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DataGroupHash>(dataGroupNumber, dataGroupHashValue))) {}
+ Org::BouncyCastle::Asn1::Icao::DataGroupHash Org::BouncyCastle::Asn1::Icao::DataGroupHash::New_ctor(int32_t dataGroupNumber, Org::BouncyCastle::Asn1::Asn1OctetString dataGroupHashValue)  {
+Org::BouncyCastle::Asn1::Icao::DataGroupHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Icao::DataGroupHash>(dataGroupNumber, dataGroupHashValue))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Icao::DataGroupHash::_ctor(int32_t dataGroupNumber, Org::BouncyCastle::Asn1::Asn1OctetString dataGroupHashValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Icao::DataGroupHash>::get(),

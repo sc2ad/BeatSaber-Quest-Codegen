@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsStreamCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsMac_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsStreamCipher._ctor
 template<>
 
@@ -147,8 +147,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::__set_usesNonce(
 constexpr bool Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::__get_usesNonce() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteCipher", ty: "Org::BouncyCastle::Crypto::IStreamCipher", modifiers: "", def_value: None }, CppParam { name: "serverWriteCipher", ty: "Org::BouncyCastle::Crypto::IStreamCipher", modifiers: "", def_value: None }, CppParam { name: "clientWriteDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "serverWriteDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usesNonce", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::TlsStreamCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IStreamCipher clientWriteCipher, Org::BouncyCastle::Crypto::IStreamCipher serverWriteCipher, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest, int32_t cipherKeySize, bool usesNonce)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsStreamCipher>(context, clientWriteCipher, serverWriteCipher, clientWriteDigest, serverWriteDigest, cipherKeySize, usesNonce))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsStreamCipher Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IStreamCipher clientWriteCipher, Org::BouncyCastle::Crypto::IStreamCipher serverWriteCipher, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest, int32_t cipherKeySize, bool usesNonce)  {
+Org::BouncyCastle::Crypto::Tls::TlsStreamCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsStreamCipher>(context, clientWriteCipher, serverWriteCipher, clientWriteDigest, serverWriteDigest, cipherKeySize, usesNonce))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IStreamCipher clientWriteCipher, Org::BouncyCastle::Crypto::IStreamCipher serverWriteCipher, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest, int32_t cipherKeySize, bool usesNonce)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsStreamCipher>::get(),

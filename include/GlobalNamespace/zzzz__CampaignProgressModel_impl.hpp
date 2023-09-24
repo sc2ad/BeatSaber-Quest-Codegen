@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CampaignProgressModel_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CampaignProgressModel.get_numberOfClearedMissions
 template<>
 
@@ -336,8 +336,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CampaignProgressModel::CampaignProgressModel()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CampaignProgressModel>())) {}
+ GlobalNamespace::CampaignProgressModel GlobalNamespace::CampaignProgressModel::New_ctor()  {
+GlobalNamespace::CampaignProgressModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CampaignProgressModel>())};
+return o;
+}
  void GlobalNamespace::CampaignProgressModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CampaignProgressModel>::get(),

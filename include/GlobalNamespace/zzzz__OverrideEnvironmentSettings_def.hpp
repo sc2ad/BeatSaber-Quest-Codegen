@@ -6,10 +6,10 @@ template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class EnvironmentTypeSO;
 }
 namespace GlobalNamespace {
-class EnvironmentTypeSO;
+class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,8 +78,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::Environmen
 /// @brief Method GetOverrideEnvironmentInfoForType addr 0x2220254 size 0x78 virtual false final false
  GlobalNamespace::EnvironmentInfoSO GetOverrideEnvironmentInfoForType(GlobalNamespace::EnvironmentTypeSO environmentType) ;
 
-// Ctor Parameters []
-explicit OverrideEnvironmentSettings() ;
+static GlobalNamespace::OverrideEnvironmentSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x22202cc size 0x7c virtual false final false
  void _ctor() ;

@@ -1,9 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogEnvironmentParams_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogEnvironmentParams_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogParamsAnimator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2._ctor
@@ -156,8 +157,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BloomFogParamsAnimator___Animat
 constexpr float_t GlobalNamespace::GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2::__get__elapsedTime_5__2() const {
 return ::cordl_internals::getInstanceField<float_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2::GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2 GlobalNamespace::GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomFogParamsAnimator___AnimationCoroutine_d__2>::get(),
@@ -365,8 +368,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newDefaultBloomFogParams);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomFogParamsAnimator::BloomFogParamsAnimator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BloomFogParamsAnimator>())) {}
+ GlobalNamespace::BloomFogParamsAnimator GlobalNamespace::BloomFogParamsAnimator::New_ctor()  {
+GlobalNamespace::BloomFogParamsAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomFogParamsAnimator>())};
+return o;
+}
  void GlobalNamespace::BloomFogParamsAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomFogParamsAnimator>::get(),

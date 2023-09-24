@@ -1,8 +1,8 @@
 #pragma once
 #include "TMPro/zzzz__TMP_TextElement_Legacy_impl.hpp"
 #include "TMPro/zzzz__TMP_Sprite_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: TMPro::TMP_Sprite._ctor
 template<>
 
@@ -50,8 +50,10 @@ constexpr void TMPro::TMP_Sprite::__set_sprite(UnityEngine::Sprite value)  {
 constexpr UnityEngine::Sprite TMPro::TMP_Sprite::__get_sprite() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Sprite, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMP_Sprite::TMP_Sprite()  : TMPro::TMP_TextElement_Legacy(THROW_UNLESS(::il2cpp_utils::New<TMP_Sprite>())) {}
+ TMPro::TMP_Sprite TMPro::TMP_Sprite::New_ctor()  {
+TMPro::TMP_Sprite o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Sprite>())};
+return o;
+}
  void TMPro::TMP_Sprite::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Sprite>::get(),

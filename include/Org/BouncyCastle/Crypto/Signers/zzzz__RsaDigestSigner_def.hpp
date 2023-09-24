@@ -4,17 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class IRsa;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
@@ -22,11 +13,20 @@ class ISigner;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Crypto {
+class IRsa;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -115,38 +115,32 @@ static System::Collections::IDictionary __get_oidMap() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit RsaDigestSigner(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Signers::RsaDigestSigner New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xec75e8 size 0x1ac virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "digestOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit RsaDigestSigner(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;
+static Org::BouncyCastle::Crypto::Signers::RsaDigestSigner New_ctor(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;
 
 /// @brief Method .ctor addr 0xec7794 size 0xb0 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "algId", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit RsaDigestSigner(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId) ;
+static Org::BouncyCastle::Crypto::Signers::RsaDigestSigner New_ctor(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId) ;
 
 /// @brief Method .ctor addr 0xec7844 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId) ;
 
-// Ctor Parameters [CppParam { name: "rsa", ty: "Org::BouncyCastle::Crypto::IRsa", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "digestOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit RsaDigestSigner(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;
+static Org::BouncyCastle::Crypto::Signers::RsaDigestSigner New_ctor(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;
 
 /// @brief Method .ctor addr 0xec794c size 0xc0 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;
 
-// Ctor Parameters [CppParam { name: "rsa", ty: "Org::BouncyCastle::Crypto::IRsa", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "algId", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit RsaDigestSigner(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId) ;
+static Org::BouncyCastle::Crypto::Signers::RsaDigestSigner New_ctor(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId) ;
 
 /// @brief Method .ctor addr 0xec78c0 size 0x8c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId) ;
 
-// Ctor Parameters [CppParam { name: "rsaEngine", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "algId", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit RsaDigestSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher rsaEngine, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId) ;
+static Org::BouncyCastle::Crypto::Signers::RsaDigestSigner New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher rsaEngine, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId) ;
 
 /// @brief Method .ctor addr 0xec7a0c size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher rsaEngine, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId) ;

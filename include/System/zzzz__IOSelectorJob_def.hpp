@@ -1,20 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Threading {
-class IThreadPoolWorkItem;
-}
 namespace System {
 struct IOOperation;
 }
 namespace System {
 class IOAsyncCallback;
 }
-namespace System {
-class IOAsyncResult;
-}
 namespace System::Threading {
 class ThreadAbortException;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
+}
+namespace System {
+class IOAsyncResult;
 }
 // Forward declare root types
 namespace System {
@@ -86,8 +86,7 @@ constexpr System::IOAsyncResult __get_state() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "operation", ty: "System::IOOperation", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "System::IOAsyncCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "System::IOAsyncResult", modifiers: "", def_value: None }]
-explicit IOSelectorJob(System::IOOperation operation, System::IOAsyncCallback callback, System::IOAsyncResult state) ;
+static System::IOSelectorJob New_ctor(System::IOOperation operation, System::IOAsyncCallback callback, System::IOAsyncResult state) ;
 
 /// @brief Method .ctor addr 0x27bbe0c size 0x3c virtual false final false
  void _ctor(System::IOOperation operation, System::IOAsyncCallback callback, System::IOAsyncResult state) ;

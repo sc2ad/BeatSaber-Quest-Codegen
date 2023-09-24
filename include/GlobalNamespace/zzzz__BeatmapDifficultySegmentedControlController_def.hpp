@@ -2,19 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace HMUI {
-class SegmentedControl;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace HMUI {
+class SegmentedControl;
+}
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 namespace HMUI {
 class TextSegmentedControl;
@@ -25,6 +21,10 @@ class IDifficultyBeatmap;
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -128,8 +128,7 @@ constexpr GlobalNamespace::BeatmapDifficulty __get__selectedDifficulty() const;
 /// @brief Method SetData addr 0x2156ddc size 0x5e8 virtual false final false
  void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> difficultyBeatmaps, GlobalNamespace::BeatmapDifficulty selectedDifficulty) ;
 
-// Ctor Parameters []
-explicit BeatmapDifficultySegmentedControlController() ;
+static GlobalNamespace::BeatmapDifficultySegmentedControlController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21573c4 size 0x80 virtual false final false
  void _ctor() ;

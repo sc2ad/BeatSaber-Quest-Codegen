@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__RuntimeClipBase_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeClip_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::RuntimeClip.get_start
 template<>
@@ -244,8 +244,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<double_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "clip", ty: "UnityEngine::Timeline::TimelineClip", modifiers: "", def_value: None }, CppParam { name: "clipPlayable", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: None }, CppParam { name: "parentMixer", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: None }]
- UnityEngine::Timeline::RuntimeClip::RuntimeClip(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer)  : UnityEngine::Timeline::RuntimeClipBase(THROW_UNLESS(::il2cpp_utils::New<RuntimeClip>(clip, clipPlayable, parentMixer))) {}
+ UnityEngine::Timeline::RuntimeClip UnityEngine::Timeline::RuntimeClip::New_ctor(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer)  {
+UnityEngine::Timeline::RuntimeClip o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::RuntimeClip>(clip, clipPlayable, parentMixer))};
+return o;
+}
  void UnityEngine::Timeline::RuntimeClip::_ctor(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::RuntimeClip>::get(),

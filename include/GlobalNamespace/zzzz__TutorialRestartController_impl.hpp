@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialRestartController_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TutorialRestartController.RestartLevel
 template<>
 
@@ -56,8 +56,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::TutorialRestartController::TutorialRestartController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TutorialRestartController>())) {}
+ GlobalNamespace::TutorialRestartController GlobalNamespace::TutorialRestartController::New_ctor()  {
+GlobalNamespace::TutorialRestartController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TutorialRestartController>())};
+return o;
+}
  void GlobalNamespace::TutorialRestartController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TutorialRestartController>::get(),

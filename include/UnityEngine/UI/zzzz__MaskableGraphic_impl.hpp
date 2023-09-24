@@ -2,15 +2,16 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_impl.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/UI/zzzz__IClippable_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/UI/zzzz__IMaskable_def.hpp"
+#include "UnityEngine/UI/zzzz__IMaterialModifier_def.hpp"
 #include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/UI/zzzz__IClippable_def.hpp"
-#include "UnityEngine/UI/zzzz__IMaterialModifier_def.hpp"
-#include "UnityEngine/UI/zzzz__IMaskable_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::UnityEngine__UI__MaskableGraphic__CullStateChangedEvent._ctor
 template<>
 
@@ -28,8 +29,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__MaskableGraphic__CullStateChangedEvent::UnityEngine__UI__MaskableGraphic__CullStateChangedEvent()  : UnityEngine::Events::UnityEvent_1<bool>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__MaskableGraphic__CullStateChangedEvent>())) {}
+ UnityEngine::UI::UnityEngine__UI__MaskableGraphic__CullStateChangedEvent UnityEngine::UI::UnityEngine__UI__MaskableGraphic__CullStateChangedEvent::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__MaskableGraphic__CullStateChangedEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__MaskableGraphic__CullStateChangedEvent>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__MaskableGraphic__CullStateChangedEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__MaskableGraphic__CullStateChangedEvent>::get(),
@@ -665,8 +668,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UI::MaskableGraphic::MaskableGraphic()  : UnityEngine::UI::Graphic(THROW_UNLESS(::il2cpp_utils::New<MaskableGraphic>())) {}
+ UnityEngine::UI::MaskableGraphic UnityEngine::UI::MaskableGraphic::New_ctor()  {
+UnityEngine::UI::MaskableGraphic o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::MaskableGraphic>())};
+return o;
+}
  void UnityEngine::UI::MaskableGraphic::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::MaskableGraphic>::get(),

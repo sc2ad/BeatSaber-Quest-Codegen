@@ -69,26 +69,22 @@ static Org::BouncyCastle::Asn1::DerSequence __get_Empty() ;
 /// @brief Method FromVector addr 0x112ab98 size 0x8c virtual false final false
 static Org::BouncyCastle::Asn1::DerSequence FromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
 
-// Ctor Parameters []
-explicit DerSequence() ;
+static Org::BouncyCastle::Asn1::DerSequence New_ctor() ;
 
 /// @brief Method .ctor addr 0x113284c size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "element", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit DerSequence(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
+static Org::BouncyCastle::Asn1::DerSequence New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
 
 /// @brief Method .ctor addr 0x112d278 size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
 
-// Ctor Parameters [CppParam { name: "elements", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable>", modifiers: "", def_value: None }]
-explicit DerSequence(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
+static Org::BouncyCastle::Asn1::DerSequence New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
 
 /// @brief Method .ctor addr 0x111f61c size 0x4 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
 
-// Ctor Parameters [CppParam { name: "elementVector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit DerSequence(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
+static Org::BouncyCastle::Asn1::DerSequence New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
 
 /// @brief Method .ctor addr 0x111fd94 size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;

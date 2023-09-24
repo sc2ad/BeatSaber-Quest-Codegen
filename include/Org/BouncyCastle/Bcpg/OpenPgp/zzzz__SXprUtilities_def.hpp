@@ -11,6 +11,9 @@ struct HashAlgorithmTag;
 namespace System::IO {
 class Stream;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k;
+}
 namespace Org::BouncyCastle::Bcpg {
 class S2k;
 }
@@ -77,8 +80,7 @@ constexpr int64_t __get_mIterationCount64() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount64", ty: "int64_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int64_t iterationCount64) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k New_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int64_t iterationCount64) ;
 
 /// @brief Method .ctor addr 0x1043b5c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int64_t iterationCount64) ;
@@ -134,8 +136,7 @@ constexpr explicit SXprUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Methods
 
-// Ctor Parameters []
-explicit SXprUtilities() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x1043ae0 size 0x8 virtual false final false
  void _ctor() ;

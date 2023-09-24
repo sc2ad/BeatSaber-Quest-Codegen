@@ -4,14 +4,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UIRAtlasAllocator__AreaNode;
+}
 namespace System {
 class IDisposable;
 }
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
 namespace UnityEngine {
 struct RectInt;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UIRAtlasAllocator__Row;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
@@ -146,8 +152,7 @@ static UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row 
 /// @brief Method Release addr 0x2cff32c size 0x90 virtual false final false
  void Release() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIRAtlasAllocator__Row() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d00100 size 0x8 virtual false final false
  void _ctor() ;
@@ -237,8 +242,7 @@ static UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Area
 /// @brief Method AddAfter addr 0x2cfffa8 size 0xac virtual false final false
  void AddAfter(UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode previous) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIRAtlasAllocator__AreaNode() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d00198 size 0x8 virtual false final false
  void _ctor() ;
@@ -444,8 +448,7 @@ constexpr bool __get__disposed_k__BackingField() const;
 /// @brief Method GetLog2OfNextPower addr 0x2cff43c size 0x130 virtual false final false
 static int32_t GetLog2OfNextPower(int32_t n) ;
 
-// Ctor Parameters [CppParam { name: "initialAtlasSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxAtlasSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sidePadding", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UIRAtlasAllocator(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding) ;
+static UnityEngine::UIElements::UIRAtlasAllocator New_ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding) ;
 
 /// @brief Method .ctor addr 0x2cff56c size 0x1cc virtual false final false
  void _ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding) ;

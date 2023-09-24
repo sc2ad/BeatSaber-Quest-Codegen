@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::YieldInstruction::YieldInstruction()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<YieldInstruction>())) {}
+ UnityEngine::YieldInstruction UnityEngine::YieldInstruction::New_ctor()  {
+UnityEngine::YieldInstruction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::YieldInstruction>())};
+return o;
+}
  void UnityEngine::YieldInstruction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::YieldInstruction>::get(),

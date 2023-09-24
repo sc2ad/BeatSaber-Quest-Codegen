@@ -5,8 +5,8 @@
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObjectParser;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1StreamParser;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
@@ -14,8 +14,8 @@ class IAsn1Convertible;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1StreamParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -97,14 +97,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1StreamParser __get__parser() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "baseTag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tagNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contentStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BerTaggedObjectParser(int32_t baseTag, int32_t tagNumber, System::IO::Stream contentStream) ;
+static Org::BouncyCastle::Asn1::BerTaggedObjectParser New_ctor(int32_t baseTag, int32_t tagNumber, System::IO::Stream contentStream) ;
 
 /// @brief Method .ctor addr 0x113466c size 0xa4 virtual false final false
  void _ctor(int32_t baseTag, int32_t tagNumber, System::IO::Stream contentStream) ;
 
-// Ctor Parameters [CppParam { name: "constructed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "tagNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parser", ty: "Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
-explicit BerTaggedObjectParser(bool constructed, int32_t tagNumber, Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
+static Org::BouncyCastle::Asn1::BerTaggedObjectParser New_ctor(bool constructed, int32_t tagNumber, Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
 
 /// @brief Method .ctor addr 0x112b314 size 0x40 virtual false final false
  void _ctor(bool constructed, int32_t tagNumber, Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;

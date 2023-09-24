@@ -83,8 +83,7 @@ static float_t Fade(float_t t) ;
 /// @brief Method Lerp addr 0x1f7982c size 0x10 virtual false final false
 static float_t Lerp(float_t a, float_t b, float_t x) ;
 
-// Ctor Parameters []
-explicit PerlinNoise() ;
+static GlobalNamespace::PerlinNoise New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7983c size 0x8 virtual false final false
  void _ctor() ;

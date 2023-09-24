@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 namespace GlobalNamespace {
-class FireworkItemController;
+class FireworksController;
 }
 namespace GlobalNamespace {
-class FireworksController;
+class FireworkItemController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,7 @@ constexpr GlobalNamespace::FireworkItemController __get__fireworkItemControllerP
 /// @brief Method InstallBindings addr 0x2250164 size 0x94 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit FireworksItemPoolInstaller() ;
+static GlobalNamespace::FireworksItemPoolInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x22501f8 size 0x8 virtual false final false
  void _ctor() ;

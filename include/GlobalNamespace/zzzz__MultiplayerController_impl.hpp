@@ -2,34 +2,35 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerStartState_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerOutroAnimationController_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
+#include "GlobalNamespace/zzzz__SongStartSyncController_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerGameState_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelFinishedController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerGameState_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerOutroAnimationController_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
-#include "GlobalNamespace/zzzz__SongStartSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "GlobalNamespace/zzzz__SceneStartSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelFinishedController_def.hpp"
+#include "GlobalNamespace/zzzz__SceneStartSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerIntroAnimationController_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgesProvider_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__MultiplayerController__State::GlobalNamespace__MultiplayerController__State(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -185,8 +186,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerController___Perform
 constexpr GlobalNamespace::MultiplayerPlayerStartState GlobalNamespace::GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37::__get_localPlayerSyncState() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerPlayerStartState, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37::GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37 GlobalNamespace::GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerController___PerformSongStartSync_d__37>::get(),
@@ -287,8 +290,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerController____c__Dis
 constexpr float_t GlobalNamespace::GlobalNamespace__MultiplayerController____c__DisplayClass42_0::__get_introAnimationStartSyncTime() const {
 return ::cordl_internals::getInstanceField<float_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerController____c__DisplayClass42_0::GlobalNamespace__MultiplayerController____c__DisplayClass42_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerController____c__DisplayClass42_0>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerController____c__DisplayClass42_0 GlobalNamespace::GlobalNamespace__MultiplayerController____c__DisplayClass42_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerController____c__DisplayClass42_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerController____c__DisplayClass42_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerController____c__DisplayClass42_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerController____c__DisplayClass42_0>::get(),
@@ -353,8 +358,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Multi
  System::Func_2<GlobalNamespace::MultiplayerLevelCompletionResults,bool> GlobalNamespace::GlobalNamespace__MultiplayerController____c::__get___9__47_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::MultiplayerLevelCompletionResults,bool>, "<>9__47_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerController____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerController____c::GlobalNamespace__MultiplayerController____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerController____c>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerController____c GlobalNamespace::GlobalNamespace__MultiplayerController____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerController____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerController____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerController____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerController____c>::get(),
@@ -1184,8 +1191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method, introAnimationStartSyncTime);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerController::MultiplayerController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerController>())) {}
+ GlobalNamespace::MultiplayerController GlobalNamespace::MultiplayerController::New_ctor()  {
+GlobalNamespace::MultiplayerController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerController>::get(),

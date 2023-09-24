@@ -4,41 +4,41 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Mono::Net::Security {
-class ChainValidationHelper;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
+}
+namespace System::Net::Security {
+class SslStream;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_x509verify_result;
 }
 namespace System::Net::Security {
 struct SslPolicyErrors;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+class X509CertificateCollection;
 }
 namespace Mono::Security::Interface {
 class MonoTlsSettings;
 }
-namespace Mono::Unity {
-struct Mono__Unity__UnityTls__unitytls_x509_ref;
-}
-namespace System::Net::Security {
-class SslStream;
-}
-namespace Mono::Unity {
-struct Mono__Unity__UnityTls__unitytls_x509verify_result;
+namespace Mono::Net::Security {
+class ChainValidationHelper;
 }
 namespace System {
 struct Guid;
 }
-namespace System::Security::Authentication {
-struct SslProtocols;
+namespace Mono::Net::Security {
+class MobileAuthenticatedStream;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace System::IO {
-class Stream;
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_x509_ref;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -133,8 +133,7 @@ static Mono::Unity::Mono__Unity__UnityTls__unitytls_x509verify_result x509verify
 /// @brief Method ValidateCertificate addr 0x268b40c size 0x978 virtual true final false
  bool ValidateCertificate(Mono::Net::Security::ChainValidationHelper validator, ::StringW targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection certificates, bool wantsChain, ByRef<System::Security::Cryptography::X509Certificates::X509Chain> chain, ByRef<System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11) ;
 
-// Ctor Parameters []
-explicit UnityTlsProvider() ;
+static Mono::Unity::UnityTlsProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x268bd84 size 0x8 virtual false final false
  void _ctor() ;

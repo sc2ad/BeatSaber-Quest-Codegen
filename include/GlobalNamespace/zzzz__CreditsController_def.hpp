@@ -10,27 +10,30 @@ class RectTransform;
 namespace System::Collections {
 class IEnumerator;
 }
+namespace HMUI {
+class ButtonBinder;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__CreditsController___ScrollCoroutine_d__13;
+}
 namespace GlobalNamespace {
 class AudioPlayerBase;
 }
 namespace GlobalNamespace {
-class CreditsScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
 class IVRPlatformHelper;
-}
-namespace HMUI {
-class ButtonBinder;
 }
 namespace UnityEngine::UI {
 class Button;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class CreditsScenesTransitionSetupDataSO;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -142,8 +145,7 @@ constexpr float_t __get__scrollingSpeed_5__5() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__CreditsController___ScrollCoroutine_d__13(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__CreditsController___ScrollCoroutine_d__13 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x212f2bc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -292,8 +294,7 @@ constexpr bool __get__isPaused() const;
 /// @brief Method HandleInputFocusReleased addr 0x212f2e4 size 0x2c virtual false final false
  void HandleInputFocusReleased() ;
 
-// Ctor Parameters []
-explicit CreditsController() ;
+static GlobalNamespace::CreditsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x212f310 size 0x10 virtual false final false
  void _ctor() ;

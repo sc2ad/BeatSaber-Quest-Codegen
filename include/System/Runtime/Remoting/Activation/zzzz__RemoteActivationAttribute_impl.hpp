@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__RemoteActivationAttribute_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Activation::RemoteActivationAttribute._ctor
 template<>
 
@@ -66,8 +66,10 @@ constexpr void System::Runtime::Remoting::Activation::RemoteActivationAttribute:
 constexpr System::Collections::IList System::Runtime::Remoting::Activation::RemoteActivationAttribute::__get__contextProperties() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "contextProperties", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Activation::RemoteActivationAttribute::RemoteActivationAttribute(System::Collections::IList contextProperties)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RemoteActivationAttribute>(contextProperties))) {}
+ System::Runtime::Remoting::Activation::RemoteActivationAttribute System::Runtime::Remoting::Activation::RemoteActivationAttribute::New_ctor(System::Collections::IList contextProperties)  {
+System::Runtime::Remoting::Activation::RemoteActivationAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Activation::RemoteActivationAttribute>(contextProperties))};
+return o;
+}
  void System::Runtime::Remoting::Activation::RemoteActivationAttribute::_ctor(System::Collections::IList contextProperties)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Activation::RemoteActivationAttribute>::get(),

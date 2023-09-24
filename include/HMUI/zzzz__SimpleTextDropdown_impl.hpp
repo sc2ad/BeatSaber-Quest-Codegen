@@ -4,10 +4,9 @@
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
 #include "GlobalNamespace/zzzz__SimpleTextTableCell_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: HMUI::SimpleTextDropdown.LazyInit
 template<>
 
@@ -293,8 +292,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dropdownWithTableView, idx);
 }
-// Ctor Parameters []
- HMUI::SimpleTextDropdown::SimpleTextDropdown()  : HMUI::DropdownWithTableView(THROW_UNLESS(::il2cpp_utils::New<SimpleTextDropdown>())) {}
+ HMUI::SimpleTextDropdown HMUI::SimpleTextDropdown::New_ctor()  {
+HMUI::SimpleTextDropdown o{THROW_UNLESS(::il2cpp_utils::New<HMUI::SimpleTextDropdown>())};
+return o;
+}
  void HMUI::SimpleTextDropdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::SimpleTextDropdown>::get(),

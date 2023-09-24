@@ -47,8 +47,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::Crmf::Subseque
  Org::BouncyCastle::Asn1::Crmf::SubsequentMessage Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::__get_challengeResp()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::Crmf::SubsequentMessage, "challengeResp", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::SubsequentMessage>::get>();
 }
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::SubsequentMessage(int32_t value)  : Org::BouncyCastle::Asn1::DerInteger(THROW_UNLESS(::il2cpp_utils::New<SubsequentMessage>(value))) {}
+ Org::BouncyCastle::Asn1::Crmf::SubsequentMessage Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::New_ctor(int32_t value)  {
+Org::BouncyCastle::Asn1::Crmf::SubsequentMessage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::SubsequentMessage>(value))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::_ctor(int32_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::SubsequentMessage>::get(),

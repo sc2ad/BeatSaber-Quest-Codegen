@@ -3,16 +3,16 @@
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class BloomFogSO;
-}
-namespace GlobalNamespace {
-struct ToneMapping;
+struct GlobalNamespace__PyramidBloomRendererSO__Pass;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__PyramidBloomRendererSO__Pass;
+class BloomFogSO;
+}
+namespace GlobalNamespace {
+struct ToneMapping;
 }
 namespace GlobalNamespace {
 class PyramidBloomRendererSO;
@@ -155,8 +155,7 @@ constexpr GlobalNamespace::BloomFogSO __get__bloomFog() const;
 /// @brief Method Render addr 0x267ac98 size 0x64 virtual true final false
  void Render(UnityEngine::RenderTexture src, UnityEngine::RenderTexture dest) ;
 
-// Ctor Parameters []
-explicit BloomPrePassBloomTextureEffectSO() ;
+static GlobalNamespace::BloomPrePassBloomTextureEffectSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x267acfc size 0x3c virtual false final false
  void _ctor() ;

@@ -1,15 +1,15 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
 #include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__SaberSwingRatingCounter_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__ScoreModel_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__SaberSwingRatingCounter_def.hpp"
 #include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__ScoreModel_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CutScoreBuffer.get_executionOrder
 template<>
 
@@ -593,8 +593,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, swingRatingCounter);
 }
-// Ctor Parameters []
- GlobalNamespace::CutScoreBuffer::CutScoreBuffer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CutScoreBuffer>())) {}
+ GlobalNamespace::CutScoreBuffer GlobalNamespace::CutScoreBuffer::New_ctor()  {
+GlobalNamespace::CutScoreBuffer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CutScoreBuffer>())};
+return o;
+}
  void GlobalNamespace::CutScoreBuffer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CutScoreBuffer>::get(),

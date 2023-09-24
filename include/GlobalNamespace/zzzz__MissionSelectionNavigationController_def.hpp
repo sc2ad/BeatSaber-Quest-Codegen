@@ -10,10 +10,13 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class MissionSelectionMapViewController;
+class GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0;
 }
 namespace GlobalNamespace {
 class MissionLevelDetailViewController;
+}
+namespace GlobalNamespace {
+class MissionSelectionMapViewController;
 }
 namespace GlobalNamespace {
 class MissionNode;
@@ -88,8 +91,7 @@ constexpr System::Action __get___9__1() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0() ;
+static GlobalNamespace::GlobalNamespace__MissionSelectionNavigationController____c__DisplayClass11_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2175544 size 0x8 virtual false final false
  void _ctor() ;
@@ -198,8 +200,7 @@ constexpr System::Action_1<GlobalNamespace::MissionSelectionNavigationController
 /// @brief Method PresentMissionClearedIfNeeded addr 0x217542c size 0x118 virtual false final false
  void PresentMissionClearedIfNeeded(System::Action_1<bool> finishedCallback) ;
 
-// Ctor Parameters []
-explicit MissionSelectionNavigationController() ;
+static GlobalNamespace::MissionSelectionNavigationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217554c size 0x8 virtual false final false
  void _ctor() ;

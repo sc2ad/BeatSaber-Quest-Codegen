@@ -51,20 +51,17 @@ constexpr explicit CmsAttributeTableGenerationException(void* ptr) noexcept : Or
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsAttributeTableGenerationException() ;
+static Org::BouncyCastle::Cms::CmsAttributeTableGenerationException New_ctor() ;
 
 /// @brief Method .ctor addr 0x114e1ac size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CmsAttributeTableGenerationException(::StringW name) ;
+static Org::BouncyCastle::Cms::CmsAttributeTableGenerationException New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x114e1b0 size 0x4 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit CmsAttributeTableGenerationException(::StringW name, System::Exception e) ;
+static Org::BouncyCastle::Cms::CmsAttributeTableGenerationException New_ctor(::StringW name, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x114e1b4 size 0x4 virtual false final false
  void _ctor(::StringW name, System::Exception e) ;

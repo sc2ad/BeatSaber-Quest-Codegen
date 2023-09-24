@@ -3,50 +3,50 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeaderBuilder;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeader;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFreeText;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiHeader;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiHeaderBuilder;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMacFactory;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiBody;
+}
 namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
+class DerBitString;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Cmp {
+class ProtectedPkiMessage;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
 }
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiBody;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
 class InfoTypeAndValue;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMacFactory;
-}
-namespace Org::BouncyCastle::Cmp {
-class ProtectedPkiMessage;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {
@@ -121,14 +121,12 @@ constexpr System::Collections::IList __get_extraCerts() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sender", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }, CppParam { name: "recipient", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit ProtectedPkiMessageBuilder(Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient) ;
+static Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder New_ctor(Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient) ;
 
 /// @brief Method .ctor addr 0x114ca28 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient) ;
 
-// Ctor Parameters [CppParam { name: "pvno", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sender", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }, CppParam { name: "recipient", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit ProtectedPkiMessageBuilder(int32_t pvno, Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient) ;
+static Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder New_ctor(int32_t pvno, Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient) ;
 
 /// @brief Method .ctor addr 0x114caa0 size 0xd0 virtual false final false
  void _ctor(int32_t pvno, Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::GeneralName recipient) ;

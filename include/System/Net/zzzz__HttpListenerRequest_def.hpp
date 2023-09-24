@@ -4,29 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Net {
-class HttpListenerContext;
-}
-namespace System::IO {
-class Stream;
-}
 namespace System::Collections::Specialized {
 class NameValueCollection;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Net {
-class CookieCollection;
-}
-namespace System {
-class Uri;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace System {
 class Version;
+}
+namespace System::Net {
+class CookieCollection;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net {
+class HttpListenerContext;
+}
+namespace System::Net {
+class WebHeaderCollection;
 }
 // Forward declare root types
 namespace System::Net {
@@ -214,8 +214,7 @@ static ::ArrayW<char16_t> __get_separators() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "System::Net::HttpListenerContext", modifiers: "", def_value: None }]
-explicit HttpListenerRequest(System::Net::HttpListenerContext context) ;
+static System::Net::HttpListenerRequest New_ctor(System::Net::HttpListenerContext context) ;
 
 /// @brief Method .ctor addr 0x2836e78 size 0xb0 virtual false final false
  void _ctor(System::Net::HttpListenerContext context) ;

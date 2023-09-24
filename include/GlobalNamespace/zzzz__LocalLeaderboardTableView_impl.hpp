@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LeaderboardTableView_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardTableView_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LocalLeaderboardTableView.SetScores
 template<>
 
@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, scores, specialScorePos, maxNumberOfCells);
 }
-// Ctor Parameters []
- GlobalNamespace::LocalLeaderboardTableView::LocalLeaderboardTableView()  : GlobalNamespace::LeaderboardTableView(THROW_UNLESS(::il2cpp_utils::New<LocalLeaderboardTableView>())) {}
+ GlobalNamespace::LocalLeaderboardTableView GlobalNamespace::LocalLeaderboardTableView::New_ctor()  {
+GlobalNamespace::LocalLeaderboardTableView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LocalLeaderboardTableView>())};
+return o;
+}
  void GlobalNamespace::LocalLeaderboardTableView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LocalLeaderboardTableView>::get(),

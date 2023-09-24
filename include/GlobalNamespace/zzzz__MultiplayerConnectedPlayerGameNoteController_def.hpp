@@ -4,20 +4,11 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-struct GlobalNamespace__NoteData__GameplayType;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class NoteMovement;
+class NoteData;
 }
 namespace GlobalNamespace {
 template<typename T>
 class ICubeNoteControllerInitializable_1;
-}
-namespace GlobalNamespace {
-class NoteData;
 }
 namespace System {
 template<typename T>
@@ -27,10 +18,22 @@ namespace GlobalNamespace {
 struct NoteVisualModifierType;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__NoteData__GameplayType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
 class INoteMovementProvider;
 }
 namespace GlobalNamespace {
 class INoteVisualModifierTypeProvider;
+}
+namespace GlobalNamespace {
+class NoteMovement;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -140,8 +143,7 @@ constexpr GlobalNamespace::GlobalNamespace__NoteData__GameplayType __get__gamepl
 /// @brief Method Init addr 0x20de224 size 0x118 virtual false final false
  void Init(GlobalNamespace::NoteData noteData, float_t worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float_t moveDuration, float_t jumpDuration, float_t jumpGravity, GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float_t uniformScale) ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerGameNoteController() ;
+static GlobalNamespace::MultiplayerConnectedPlayerGameNoteController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e2348 size 0x8 virtual false final false
  void _ctor() ;
@@ -153,7 +155,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 340 }), TypeDefinitionIndex(TypeDefinitionIndex(5237))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 340 }), TypeDefinitionIndex(TypeDefinitionIndex(5237)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5236))
 // CS Name: MultiplayerConnectedPlayerGameNoteController::Pool
 class CORDL_TYPE GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> {
@@ -192,8 +194,7 @@ constexpr explicit GlobalNamespace__MultiplayerConnectedPlayerGameNoteController
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e2350 size 0x48 virtual false final false
  void _ctor() ;

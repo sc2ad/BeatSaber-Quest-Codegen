@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightmapperUtils_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__DirectionalLight_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__RectangleLight_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__DiscLight_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__Cookie_def.hpp"
-#include "UnityEngine/zzzz__Light_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__PointLight_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__SpotLight_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__Cookie_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__DiscLight_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__PointLight_def.hpp"
 #include "UnityEngine/zzzz__LightmapBakeType_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__RectangleLight_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__DirectionalLight_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__SpotLight_def.hpp"
+#include "UnityEngine/zzzz__Light_def.hpp"
 //  Writing Method size for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils.Extract
 template<>
 

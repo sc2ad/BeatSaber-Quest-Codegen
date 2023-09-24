@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseBoolField_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Label_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Label_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Clickable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::BaseBoolField._ctor
 template<>
 
@@ -201,8 +201,10 @@ constexpr void UnityEngine::UIElements::BaseBoolField::__set_m_OriginalText(::St
 constexpr ::StringW UnityEngine::UIElements::BaseBoolField::__get_m_OriginalText() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x420>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::UIElements::BaseBoolField::BaseBoolField(::StringW label)  : UnityEngine::UIElements::BaseField_1<bool>(THROW_UNLESS(::il2cpp_utils::New<BaseBoolField>(label))) {}
+ UnityEngine::UIElements::BaseBoolField UnityEngine::UIElements::BaseBoolField::New_ctor(::StringW label)  {
+UnityEngine::UIElements::BaseBoolField o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::BaseBoolField>(label))};
+return o;
+}
  void UnityEngine::UIElements::BaseBoolField::_ctor(::StringW label)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::BaseBoolField>::get(),

@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1String;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerStringBase;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1String;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerStringBase;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X500 {
@@ -85,14 +85,12 @@ static Org::BouncyCastle::Asn1::X500::DirectoryString GetInstance(::bs_hook::Il2
 /// @brief Method GetInstance addr 0xff2a6c size 0x6c virtual false final false
 static Org::BouncyCastle::Asn1::X500::DirectoryString GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "Org::BouncyCastle::Asn1::DerStringBase", modifiers: "", def_value: None }]
-explicit DirectoryString(Org::BouncyCastle::Asn1::DerStringBase str) ;
+static Org::BouncyCastle::Asn1::X500::DirectoryString New_ctor(Org::BouncyCastle::Asn1::DerStringBase str) ;
 
 /// @brief Method .ctor addr 0xff2a44 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerStringBase str) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DirectoryString(::StringW str) ;
+static Org::BouncyCastle::Asn1::X500::DirectoryString New_ctor(::StringW str) ;
 
 /// @brief Method .ctor addr 0xff2ad8 size 0x7c virtual false final false
  void _ctor(::StringW str) ;

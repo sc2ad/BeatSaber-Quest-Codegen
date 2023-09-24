@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace HMUI {
-class ImageView;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
 namespace System::Threading {
 class CancellationTokenSource;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace HMUI {
+class ImageView;
 }
 namespace GlobalNamespace {
 class KawaseBlurRendererSO;
 }
 namespace UnityEngine {
-class Sprite;
+class Texture2D;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BlurredCoverImageView___SetTextureAsync_d__6;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -28,12 +28,15 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -220,8 +223,7 @@ constexpr UnityEngine::Texture2D __get__blurredCoverTexture() const;
 /// @brief Method SetTextureAsync addr 0x21852e0 size 0xa0 virtual false final false
  void SetTextureAsync(GlobalNamespace::IPreviewBeatmapLevel level) ;
 
-// Ctor Parameters []
-explicit BlurredCoverImageView() ;
+static GlobalNamespace::BlurredCoverImageView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2185380 size 0x8 virtual false final false
  void _ctor() ;

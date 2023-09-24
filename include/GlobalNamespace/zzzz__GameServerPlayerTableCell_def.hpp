@@ -4,8 +4,45 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace HMUI {
+class ImageView;
+}
+namespace UnityEngine {
+class Sprite;
+}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace HMUI {
+class CurvedTextMeshPro;
+}
+namespace HMUI {
+class HoverHint;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class GameplayModifierInfoListItemsList;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class ILobbyPlayerData;
@@ -15,47 +52,19 @@ template<typename TResult>
 class Task_1;
 }
 namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace HMUI {
-class HoverHint;
-}
-namespace HMUI {
 class ButtonSpriteSwapToggle;
 }
-namespace HMUI {
-class ImageView;
-}
-namespace HMUI {
-class CurvedTextMeshPro;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
 namespace GlobalNamespace {
-class GameplayModifierInfoListItemsList;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
+class GameplayModifierInfoListItem;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -64,21 +73,18 @@ class List_1;
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
 }
-namespace GlobalNamespace {
-class GameplayModifierInfoListItem;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Threading {
-struct CancellationToken;
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -141,8 +147,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GameplayModifier
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0() ;
+static GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21246e8 size 0x8 virtual false final false
  void _ctor() ;
@@ -478,8 +483,7 @@ constexpr System::Threading::CancellationTokenSource __get__getLevelEntitlementC
 /// @brief Method SetBeatmapUseButtonEnabledAsync addr 0x21246f0 size 0xa0 virtual false final false
  void SetBeatmapUseButtonEnabledAsync(System::Threading::Tasks::Task_1<GlobalNamespace::GlobalNamespace__AdditionalContentModel__EntitlementStatus> getLevelEntitlementTask) ;
 
-// Ctor Parameters []
-explicit GameServerPlayerTableCell() ;
+static GlobalNamespace::GameServerPlayerTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x2124934 size 0x68 virtual false final false
  void _ctor() ;

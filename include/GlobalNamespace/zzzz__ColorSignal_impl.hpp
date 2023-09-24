@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::ColorSignal::ColorSignal()  : GlobalNamespace::GenericSignal_1<UnityEngine::Color>(THROW_UNLESS(::il2cpp_utils::New<ColorSignal>())) {}
+ GlobalNamespace::ColorSignal GlobalNamespace::ColorSignal::New_ctor()  {
+GlobalNamespace::ColorSignal o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorSignal>())};
+return o;
+}
  void GlobalNamespace::ColorSignal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorSignal>::get(),

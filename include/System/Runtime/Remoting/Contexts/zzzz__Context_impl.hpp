@@ -1,20 +1,20 @@
 #pragma once
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
-#include "System/zzzz__LocalDataStoreHolder_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__CrossContextDelegate_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__LocalDataStore_def.hpp"
-#include "System/zzzz__ContextBoundObject_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__IContextProperty_def.hpp"
-#include "System/zzzz__LocalDataStoreMgr_def.hpp"
-#include "System/zzzz__MarshalByRefObject_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__ContextCallbackObject_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__DynamicPropertyCollection_def.hpp"
 #include "System/zzzz__LocalDataStoreSlot_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__IDynamicProperty_def.hpp"
+#include "System/zzzz__LocalDataStoreHolder_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__IContextProperty_def.hpp"
+#include "System/zzzz__LocalDataStore_def.hpp"
+#include "System/zzzz__ContextBoundObject_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/zzzz__LocalDataStoreMgr_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__ContextCallbackObject_def.hpp"
+#include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__CrossContextDelegate_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__IDynamicProperty_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Contexts::Context.RegisterContext
 template<>
 
@@ -718,8 +718,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, ctx);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Contexts::Context::Context()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Context>())) {}
+ System::Runtime::Remoting::Contexts::Context System::Runtime::Remoting::Contexts::Context::New_ctor()  {
+System::Runtime::Remoting::Contexts::Context o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Contexts::Context>())};
+return o;
+}
  void System::Runtime::Remoting::Contexts::Context::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Contexts::Context>::get(),

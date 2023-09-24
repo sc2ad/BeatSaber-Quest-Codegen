@@ -1,7 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__UnhandledExceptionHandler_def.hpp"
-#include "System/zzzz__UnhandledExceptionEventArgs_def.hpp"
+#include "UnityEngine/zzzz__UnhandledExceptionHandler_def.hpp"
 #include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
+#include "System/zzzz__UnhandledExceptionEventArgs_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__UnhandledExceptionHandler____c._ctor
 template<>
 
@@ -48,8 +49,10 @@ return ::cordl_internals::getStaticField<UnityEngine::UnityEngine__UnhandledExce
  System::UnhandledExceptionEventHandler UnityEngine::UnityEngine__UnhandledExceptionHandler____c::__get___9__0_0()  {
 return ::cordl_internals::getStaticField<System::UnhandledExceptionEventHandler, "<>9__0_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__UnhandledExceptionHandler____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UnityEngine__UnhandledExceptionHandler____c::UnityEngine__UnhandledExceptionHandler____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UnhandledExceptionHandler____c>())) {}
+ UnityEngine::UnityEngine__UnhandledExceptionHandler____c UnityEngine::UnityEngine__UnhandledExceptionHandler____c::New_ctor()  {
+UnityEngine::UnityEngine__UnhandledExceptionHandler____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__UnhandledExceptionHandler____c>())};
+return o;
+}
  void UnityEngine::UnityEngine__UnhandledExceptionHandler____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__UnhandledExceptionHandler____c>::get(),

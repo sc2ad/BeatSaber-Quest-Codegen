@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__RemotingConfiguration_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ActivatedServiceTypeEntry_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ActivatedClientTypeEntry_def.hpp"
-#include "System/Runtime/Remoting/zzzz__WellKnownServiceTypeEntry_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
-#include "System/Runtime/Remoting/zzzz__WellKnownClientTypeEntry_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Runtime/Remoting/zzzz__CustomErrorsModes_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ProviderData_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/zzzz__CustomErrorsModes_def.hpp"
+#include "System/Runtime/Remoting/zzzz__WellKnownServiceTypeEntry_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ActivatedClientTypeEntry_def.hpp"
+#include "System/Runtime/Remoting/zzzz__WellKnownClientTypeEntry_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::RemotingConfiguration.get_ApplicationName
 template<>
 

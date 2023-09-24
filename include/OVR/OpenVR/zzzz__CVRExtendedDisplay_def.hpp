@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 namespace OVR::OpenVR {
-struct IVRExtendedDisplay;
+struct EVREye;
 }
 namespace OVR::OpenVR {
-struct EVREye;
+struct IVRExtendedDisplay;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -64,8 +64,7 @@ constexpr OVR::OpenVR::IVRExtendedDisplay __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRExtendedDisplay(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRExtendedDisplay New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x2664560 size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

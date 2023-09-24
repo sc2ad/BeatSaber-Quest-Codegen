@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+class Coroutine;
 }
 namespace UnityEngine {
 class Object;
 }
-namespace UnityEngine {
-class Coroutine;
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -148,8 +148,7 @@ static bool IsObjectMonoBehaviour(UnityEngine::Object obj) ;
 /// @brief Method GetScriptClassName addr 0x2b5be34 size 0x3c virtual false final false
  ::StringW GetScriptClassName() ;
 
-// Ctor Parameters []
-explicit MonoBehaviour() ;
+static UnityEngine::MonoBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5be70 size 0x4 virtual false final false
  void _ctor() ;

@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -193,20 +193,17 @@ static ::ArrayW<uint8_t> __get_C2() ;
 /// @brief Method MakeC addr 0x1196780 size 0xd0 virtual false final false
 static ::ArrayW<::ArrayW<uint8_t>> MakeC() ;
 
-// Ctor Parameters []
-explicit Gost3411Digest() ;
+static Org::BouncyCastle::Crypto::Digests::Gost3411Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0x1196850 size 0x290 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "sBoxParam", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Gost3411Digest(::ArrayW<uint8_t> sBoxParam) ;
+static Org::BouncyCastle::Crypto::Digests::Gost3411Digest New_ctor(::ArrayW<uint8_t> sBoxParam) ;
 
 /// @brief Method .ctor addr 0x1196c40 size 0x294 virtual false final false
  void _ctor(::ArrayW<uint8_t> sBoxParam) ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::Gost3411Digest", modifiers: "", def_value: None }]
-explicit Gost3411Digest(Org::BouncyCastle::Crypto::Digests::Gost3411Digest t) ;
+static Org::BouncyCastle::Crypto::Digests::Gost3411Digest New_ctor(Org::BouncyCastle::Crypto::Digests::Gost3411Digest t) ;
 
 /// @brief Method .ctor addr 0x1196ed4 size 0x1a4 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::Gost3411Digest t) ;

@@ -3,19 +3,19 @@
 #include "Tweening/zzzz__Tween_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-struct EaseType;
-}
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TValue>
 class StaticMemoryPool_7;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 // Forward declare root types
 namespace Tweening {
@@ -24,7 +24,7 @@ class Vector3Tween;
 // Type: Tweening::Vector3Tween
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), TypeDefinitionIndex(TypeDefinitionIndex(15937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15937), inst: 394 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15937), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(15937))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15933))
 // CS Name: Tweening.Vector3Tween
 class CORDL_TYPE Vector3Tween : public Tweening::Tween_1<UnityEngine::Vector3> {
@@ -72,14 +72,12 @@ static Zenject::StaticMemoryPool_7<UnityEngine::Vector3,UnityEngine::Vector3,Sys
 
 // Methods
 
-// Ctor Parameters []
-explicit Vector3Tween() ;
+static Tweening::Vector3Tween New_ctor() ;
 
 /// @brief Method .ctor addr 0x287a314 size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "fromValue", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "toValue", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "onUpdate", ty: "System::Action_1<UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: None }]
-explicit Vector3Tween(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;
+static Tweening::Vector3Tween New_ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;
 
 /// @brief Method .ctor addr 0x287a35c size 0xc0 virtual false final false
  void _ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;

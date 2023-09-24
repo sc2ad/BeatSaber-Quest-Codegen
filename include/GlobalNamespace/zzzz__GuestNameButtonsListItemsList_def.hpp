@@ -9,7 +9,7 @@ class GuestNameButtonsListItemsList;
 // Type: ::GuestNameButtonsListItemsList
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5044 }), TypeDefinitionIndex(TypeDefinitionIndex(13725)), TypeDefinitionIndex(TypeDefinitionIndex(5620))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13725)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5044 }), TypeDefinitionIndex(TypeDefinitionIndex(5620))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5621))
 // CS Name: GuestNameButtonsListItemsList
 class CORDL_TYPE GuestNameButtonsListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::GuestNameButtonsListItem> {
@@ -48,8 +48,7 @@ constexpr explicit GuestNameButtonsListItemsList(void* ptr) noexcept : HMUI::UII
 
 // Methods
 
-// Ctor Parameters []
-explicit GuestNameButtonsListItemsList() ;
+static GlobalNamespace::GuestNameButtonsListItemsList New_ctor() ;
 
 /// @brief Method .ctor addr 0x2146ed8 size 0x48 virtual false final false
  void _ctor() ;

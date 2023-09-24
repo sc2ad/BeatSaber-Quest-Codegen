@@ -196,8 +196,7 @@ static Org::BouncyCastle::Math::BigInteger ToBigInteger64(::ArrayW<uint64_t> x) 
 /// @brief Method Zero addr 0xfd4f80 size 0x48 virtual false final false
 static void Zero(::ArrayW<uint32_t> z) ;
 
-// Ctor Parameters []
-explicit Nat128() ;
+static Org::BouncyCastle::Math::Raw::Nat128 New_ctor() ;
 
 /// @brief Method .ctor addr 0xfd4fc8 size 0x8 virtual false final false
  void _ctor() ;

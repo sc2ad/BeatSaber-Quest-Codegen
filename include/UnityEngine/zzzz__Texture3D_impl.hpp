@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__Texture_impl.hpp"
 #include "UnityEngine/zzzz__Texture3D_def.hpp"
-#include "UnityEngine/zzzz__TextureFormat_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__TextureCreationFlags_def.hpp"
+#include "UnityEngine/zzzz__TextureFormat_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__DefaultFormat_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
 //  Writing Method size for method: UnityEngine::Texture3D.get_isReadable
 template<>
 
@@ -332,8 +332,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, colors);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::DefaultFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
- UnityEngine::Texture3D::Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture3D>(width, height, depth, format, flags))) {}
+ UnityEngine::Texture3D UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  {
+UnityEngine::Texture3D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture3D>(width, height, depth, format, flags))};
+return o;
+}
  void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture3D>::get(),
@@ -343,8 +345,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, format, flags);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
- UnityEngine::Texture3D::Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture3D>(width, height, depth, format, flags))) {}
+ UnityEngine::Texture3D UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  {
+UnityEngine::Texture3D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture3D>(width, height, depth, format, flags))};
+return o;
+}
  void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture3D>::get(),
@@ -354,8 +358,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, format, flags);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::Texture3D::Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture3D>(width, height, depth, format, flags, mipCount))) {}
+ UnityEngine::Texture3D UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount)  {
+UnityEngine::Texture3D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture3D>(width, height, depth, format, flags, mipCount))};
+return o;
+}
  void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture3D>::get(),
@@ -365,8 +371,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, format, flags, mipCount);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::Texture3D::Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture3D>(width, height, depth, textureFormat, mipCount))) {}
+ UnityEngine::Texture3D UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount)  {
+UnityEngine::Texture3D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture3D>(width, height, depth, textureFormat, mipCount))};
+return o;
+}
  void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture3D>::get(),
@@ -376,8 +384,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, textureFormat, mipCount);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nativeTex", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Texture3D::Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::cordl_internals::intptr_t nativeTex)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture3D>(width, height, depth, textureFormat, mipCount, nativeTex))) {}
+ UnityEngine::Texture3D UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::cordl_internals::intptr_t nativeTex)  {
+UnityEngine::Texture3D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture3D>(width, height, depth, textureFormat, mipCount, nativeTex))};
+return o;
+}
  void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::cordl_internals::intptr_t nativeTex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture3D>::get(),
@@ -387,8 +397,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, textureFormat, mipCount, nativeTex);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipChain", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::Texture3D::Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture3D>(width, height, depth, textureFormat, mipChain))) {}
+ UnityEngine::Texture3D UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain)  {
+UnityEngine::Texture3D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture3D>(width, height, depth, textureFormat, mipChain))};
+return o;
+}
  void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture3D>::get(),
@@ -398,8 +410,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, depth, textureFormat, mipChain);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipChain", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nativeTex", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Texture3D::Texture3D(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain, ::cordl_internals::intptr_t nativeTex)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture3D>(width, height, depth, textureFormat, mipChain, nativeTex))) {}
+ UnityEngine::Texture3D UnityEngine::Texture3D::New_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain, ::cordl_internals::intptr_t nativeTex)  {
+UnityEngine::Texture3D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture3D>(width, height, depth, textureFormat, mipChain, nativeTex))};
+return o;
+}
  void UnityEngine::Texture3D::_ctor(int32_t width, int32_t height, int32_t depth, UnityEngine::TextureFormat textureFormat, bool mipChain, ::cordl_internals::intptr_t nativeTex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture3D>::get(),

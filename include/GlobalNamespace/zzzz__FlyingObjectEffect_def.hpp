@@ -2,8 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+template<typename T>
+class ILazyCopyHashSet_1;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -11,16 +12,15 @@ struct Vector3;
 namespace UnityEngine {
 class AnimationCurve;
 }
-namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 template<typename T>
 class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-template<typename T>
-class ILazyCopyHashSet_1;
+class IFlyingObjectEffectDidFinishEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -166,8 +166,7 @@ constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::IFlyingObjectEffec
 /// @brief Method ManualUpdate addr 0x0 size 0xffffffffffffffff virtual true final false
  void ManualUpdate(float_t t) ;
 
-// Ctor Parameters []
-explicit FlyingObjectEffect() ;
+static GlobalNamespace::FlyingObjectEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2250a3c size 0xcc virtual false final false
  void _ctor() ;

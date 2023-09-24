@@ -2,19 +2,20 @@
 #include "System/Net/Http/zzzz__HttpMessageInvoker_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Net/Http/zzzz__HttpCompletionOption_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Net/Http/zzzz__HttpCompletionOption_def.hpp"
+#include "System/Net/Http/zzzz__HttpClient_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 //  Writing Method size for method: System::Net::Http::System__Net__Http__HttpClient___SendAsyncWorker_d__47.MoveNext
 template<>
@@ -514,8 +515,10 @@ constexpr void System::Net::Http::HttpClient::__set_timeout(System::TimeSpan val
 constexpr System::TimeSpan System::Net::Http::HttpClient::__get_timeout() const {
 return ::cordl_internals::getInstanceField<System::TimeSpan, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Http::HttpClient::HttpClient()  : System::Net::Http::HttpMessageInvoker(THROW_UNLESS(::il2cpp_utils::New<HttpClient>())) {}
+ System::Net::Http::HttpClient System::Net::Http::HttpClient::New_ctor()  {
+System::Net::Http::HttpClient o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpClient>())};
+return o;
+}
  void System::Net::Http::HttpClient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpClient>::get(),
@@ -525,8 +528,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "handler", ty: "System::Net::Http::HttpMessageHandler", modifiers: "", def_value: None }, CppParam { name: "disposeHandler", ty: "bool", modifiers: "", def_value: None }]
- System::Net::Http::HttpClient::HttpClient(System::Net::Http::HttpMessageHandler handler, bool disposeHandler)  : System::Net::Http::HttpMessageInvoker(THROW_UNLESS(::il2cpp_utils::New<HttpClient>(handler, disposeHandler))) {}
+ System::Net::Http::HttpClient System::Net::Http::HttpClient::New_ctor(System::Net::Http::HttpMessageHandler handler, bool disposeHandler)  {
+System::Net::Http::HttpClient o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpClient>(handler, disposeHandler))};
+return o;
+}
  void System::Net::Http::HttpClient::_ctor(System::Net::Http::HttpMessageHandler handler, bool disposeHandler)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpClient>::get(),

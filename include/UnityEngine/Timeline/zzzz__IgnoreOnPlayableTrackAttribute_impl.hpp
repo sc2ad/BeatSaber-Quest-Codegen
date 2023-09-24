@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute::IgnoreOnPlayableTrackAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<IgnoreOnPlayableTrackAttribute>())) {}
+ UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute::New_ctor()  {
+UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute>())};
+return o;
+}
  void UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute>::get(),

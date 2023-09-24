@@ -1,8 +1,8 @@
 #pragma once
 #include "Oculus/Platform/zzzz__Application_def.hpp"
-#include "Oculus/Platform/zzzz__ApplicationOptions_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__ApplicationVersion_def.hpp"
+#include "Oculus/Platform/zzzz__ApplicationOptions_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Application.GetVersion
 template<>
 

@@ -7,24 +7,24 @@ class Type;
 namespace System {
 class Action;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

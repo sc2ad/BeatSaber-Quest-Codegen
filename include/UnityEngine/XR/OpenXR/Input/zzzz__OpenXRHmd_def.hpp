@@ -73,8 +73,7 @@ constexpr UnityEngine::InputSystem::Controls::ButtonControl __get__userPresence_
 /// @brief Method FinishSetup addr 0x2aed8a0 size 0x7c virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit OpenXRHmd() ;
+static UnityEngine::XR::OpenXR::Input::OpenXRHmd New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aed91c size 0x8 virtual false final false
  void _ctor() ;

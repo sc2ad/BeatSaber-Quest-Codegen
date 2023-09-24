@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__GcmBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__IGcmExponentiator_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__IGcmMultiplier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__IGcmExponentiator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Modes::GcmBlockCipher._ctor
 template<>
 
@@ -583,8 +583,10 @@ constexpr void Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::__set_atLengthP
 constexpr uint64_t Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::__get_atLengthPre() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0xb0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::GcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher c)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GcmBlockCipher>(c))) {}
+ Org::BouncyCastle::Crypto::Modes::GcmBlockCipher Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher c)  {
+Org::BouncyCastle::Crypto::Modes::GcmBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::GcmBlockCipher>(c))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher c)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::GcmBlockCipher>::get(),
@@ -594,8 +596,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, c);
 }
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "m", ty: "Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::GcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher c, Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier m)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GcmBlockCipher>(c, m))) {}
+ Org::BouncyCastle::Crypto::Modes::GcmBlockCipher Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher c, Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier m)  {
+Org::BouncyCastle::Crypto::Modes::GcmBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::GcmBlockCipher>(c, m))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher c, Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier m)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::GcmBlockCipher>::get(),

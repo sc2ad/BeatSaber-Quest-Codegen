@@ -3,20 +3,20 @@
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpCurve_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math::EC {
-class FpPoint;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Math::EC {
+class FpPoint;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {
@@ -97,26 +97,22 @@ constexpr Org::BouncyCastle::Math::EC::FpPoint __get_m_infinity() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit FpCurve(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b) ;
+static Org::BouncyCastle::Math::EC::FpCurve New_ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b) ;
 
 /// @brief Method .ctor addr 0xfbfb90 size 0xc virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b) ;
 
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "order", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit FpCurve(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor) ;
+static Org::BouncyCastle::Math::EC::FpCurve New_ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor) ;
 
 /// @brief Method .ctor addr 0xfbfb9c size 0xf8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor) ;
 
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "r", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }]
-explicit FpCurve(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b) ;
+static Org::BouncyCastle::Math::EC::FpCurve New_ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
 /// @brief Method .ctor addr 0xfbfe44 size 0xc virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b) ;
 
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "r", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "order", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit FpCurve(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor) ;
+static Org::BouncyCastle::Math::EC::FpCurve New_ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor) ;
 
 /// @brief Method .ctor addr 0xfbfe50 size 0xc4 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor) ;

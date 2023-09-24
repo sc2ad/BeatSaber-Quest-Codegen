@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "RootMotion/zzzz__BipedReferences_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
+#include "RootMotion/zzzz__BipedReferences_def.hpp"
+#include "RootMotion/zzzz__BipedNaming_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/zzzz__BipedNaming_def.hpp"
-#include "RootMotion/zzzz__BipedNaming_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
 //  Writing Method size for method: RootMotion::RootMotion__BipedReferences__AutoDetectParams._ctor
 template<>
 
@@ -793,8 +793,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, p1, p2, rotation);
 }
-// Ctor Parameters []
- RootMotion::BipedReferences::BipedReferences()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BipedReferences>())) {}
+ RootMotion::BipedReferences RootMotion::BipedReferences::New_ctor()  {
+RootMotion::BipedReferences o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::BipedReferences>())};
+return o;
+}
  void RootMotion::BipedReferences::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::BipedReferences>::get(),

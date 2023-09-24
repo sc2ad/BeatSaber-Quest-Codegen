@@ -4,32 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
+}
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
+}
 namespace System {
 class ICloneable;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -213,14 +213,12 @@ constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_subjectPublicKeyAlg
 
 // Methods
 
-// Ctor Parameters []
-explicit X509CertStoreSelector() ;
+static Org::BouncyCastle::X509::Store::X509CertStoreSelector New_ctor() ;
 
 /// @brief Method .ctor addr 0x117a3fc size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "o", ty: "Org::BouncyCastle::X509::Store::X509CertStoreSelector", modifiers: "", def_value: None }]
-explicit X509CertStoreSelector(Org::BouncyCastle::X509::Store::X509CertStoreSelector o) ;
+static Org::BouncyCastle::X509::Store::X509CertStoreSelector New_ctor(Org::BouncyCastle::X509::Store::X509CertStoreSelector o) ;
 
 /// @brief Method .ctor addr 0x117a40c size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::X509::Store::X509CertStoreSelector o) ;

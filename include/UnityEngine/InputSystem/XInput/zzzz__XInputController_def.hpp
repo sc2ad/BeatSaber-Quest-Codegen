@@ -3,6 +3,18 @@
 #include "UnityEngine/InputSystem/zzzz__Gamepad_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::InputSystem::XInput {
+struct UnityEngine__InputSystem__XInput__XInputController__DeviceSubType;
+}
+namespace UnityEngine::InputSystem::XInput {
+struct UnityEngine__InputSystem__XInput__XInputController__Capabilities;
+}
+namespace UnityEngine::InputSystem::XInput {
+struct UnityEngine__InputSystem__XInput__XInputController__DeviceType;
+}
+namespace UnityEngine::InputSystem::XInput {
+struct UnityEngine__InputSystem__XInput__XInputController__DeviceFlags;
+}
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
@@ -70,6 +82,8 @@ __Gamepad = 0,
 constexpr operator __UnityEngine__InputSystem__XInput__XInputController__DeviceType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__XInput__XInputController__DeviceType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -145,6 +159,8 @@ __ArcadePad = 19,
 constexpr operator __UnityEngine__InputSystem__XInput__XInputController__DeviceSubType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__XInput__XInputController__DeviceSubType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -244,6 +260,8 @@ __NoNavigation = 16,
 constexpr operator __UnityEngine__InputSystem__XInput__XInputController__DeviceFlags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__XInput__XInputController__DeviceFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -456,8 +474,7 @@ constexpr UnityEngine::InputSystem::XInput::UnityEngine__InputSystem__XInput__XI
 /// @brief Method ParseCapabilities addr 0x29370d4 size 0x70 virtual false final false
  void ParseCapabilities() ;
 
-// Ctor Parameters []
-explicit XInputController() ;
+static UnityEngine::InputSystem::XInput::XInputController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2937188 size 0x8 virtual false final false
  void _ctor() ;

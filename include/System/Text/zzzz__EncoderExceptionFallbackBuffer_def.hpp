@@ -53,8 +53,7 @@ constexpr explicit EncoderExceptionFallbackBuffer(void* ptr) noexcept : System::
 
 // Methods
 
-// Ctor Parameters []
-explicit EncoderExceptionFallbackBuffer() ;
+static System::Text::EncoderExceptionFallbackBuffer New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c558c size 0x8 virtual false final false
  void _ctor() ;

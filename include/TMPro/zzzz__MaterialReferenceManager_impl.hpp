@@ -2,8 +2,8 @@
 #include "TMPro/zzzz__MaterialReferenceManager_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
-#include "TMPro/zzzz__TMP_ColorGradient_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "TMPro/zzzz__TMP_ColorGradient_def.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 //  Writing Method size for method: TMPro::MaterialReferenceManager.get_instance
 template<>
@@ -598,8 +598,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, hashCode, material);
 }
-// Ctor Parameters []
- TMPro::MaterialReferenceManager::MaterialReferenceManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MaterialReferenceManager>())) {}
+ TMPro::MaterialReferenceManager TMPro::MaterialReferenceManager::New_ctor()  {
+TMPro::MaterialReferenceManager o{THROW_UNLESS(::il2cpp_utils::New<TMPro::MaterialReferenceManager>())};
+return o;
+}
  void TMPro::MaterialReferenceManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::MaterialReferenceManager>::get(),

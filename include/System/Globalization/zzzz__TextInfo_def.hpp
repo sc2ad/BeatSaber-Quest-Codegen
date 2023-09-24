@@ -4,31 +4,31 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
 namespace System::Globalization {
 class CultureData;
 }
-namespace System {
-class ICloneable;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+namespace System::Globalization {
+struct UnicodeCategory;
 }
 namespace System::Text {
 class StringBuilder;
-}
-namespace System::Globalization {
-struct UnicodeCategory;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 template<typename T>
@@ -170,8 +170,7 @@ static System::Globalization::TextInfo __declspec(property(get=get_Invariant))  
 /// @brief Method get_Invariant addr 0x23f8d0c size 0x9c virtual false final false
 static System::Globalization::TextInfo get_Invariant() ;
 
-// Ctor Parameters [CppParam { name: "cultureData", ty: "System::Globalization::CultureData", modifiers: "", def_value: None }]
-explicit TextInfo(System::Globalization::CultureData cultureData) ;
+static System::Globalization::TextInfo New_ctor(System::Globalization::CultureData cultureData) ;
 
 /// @brief Method .ctor addr 0x23f914c size 0x3c virtual false final false
  void _ctor(System::Globalization::CultureData cultureData) ;
@@ -266,8 +265,7 @@ static bool IsLetterCategory(System::Globalization::UnicodeCategory uc) ;
 /// @brief Method ChangeCase addr 0x23fac34 size 0x140 virtual false final false
  void ChangeCase(System::ReadOnlySpan_1<char16_t> source, System::Span_1<char16_t> destination, bool toUpper) ;
 
-// Ctor Parameters []
-explicit TextInfo() ;
+static System::Globalization::TextInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x23fad74 size 0x38 virtual false final false
  void _ctor() ;

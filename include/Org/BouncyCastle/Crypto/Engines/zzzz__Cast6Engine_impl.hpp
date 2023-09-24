@@ -184,8 +184,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::Cast6Engine::__set__workingKe
 constexpr ::ArrayW<uint32_t> Org::BouncyCastle::Crypto::Engines::Cast6Engine::__get__workingKey() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::Cast6Engine::Cast6Engine()  : Org::BouncyCastle::Crypto::Engines::Cast5Engine(THROW_UNLESS(::il2cpp_utils::New<Cast6Engine>())) {}
+ Org::BouncyCastle::Crypto::Engines::Cast6Engine Org::BouncyCastle::Crypto::Engines::Cast6Engine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::Cast6Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Cast6Engine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Cast6Engine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Cast6Engine>::get(),

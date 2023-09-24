@@ -20,7 +20,7 @@ class UxmlRootElementFactory;
 // Type: UnityEngine.UIElements::UxmlRootElementFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6828)), TypeDefinitionIndex(TypeDefinitionIndex(7059)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5114 }), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7059)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(6828)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5114 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7057))
 // CS Name: UnityEngine.UIElements.UxmlRootElementFactory
 class CORDL_TYPE UxmlRootElementFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UxmlRootElementTraits> {
@@ -75,8 +75,7 @@ constexpr explicit UxmlRootElementFactory(void* ptr) noexcept : UnityEngine::UIE
 /// @brief Method Create addr 0x2c95660 size 0x8 virtual true final false
  UnityEngine::UIElements::VisualElement Create(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UxmlRootElementFactory() ;
+static UnityEngine::UIElements::UxmlRootElementFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c95668 size 0x48 virtual false final false
  void _ctor() ;

@@ -5,32 +5,32 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Collider;
+class Transform;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRInput__Controller;
+class OVRCameraRig;
+}
+namespace GlobalNamespace {
+class OVRGrabbable;
+}
+namespace UnityEngine {
+class Collider;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Controller;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace GlobalNamespace {
-class OVRCameraRig;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class OVRGrabbable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -257,8 +257,7 @@ constexpr bool __get_m_operatingWithoutOVRCameraRig() const;
 /// @brief Method SetPlayerIgnoreCollision addr 0x2621bdc size 0x178 virtual false final false
  void SetPlayerIgnoreCollision(UnityEngine::GameObject grabbable, bool ignore) ;
 
-// Ctor Parameters []
-explicit OVRGrabber() ;
+static GlobalNamespace::OVRGrabber New_ctor() ;
 
 /// @brief Method .ctor addr 0x2622d88 size 0x94 virtual false final false
  void _ctor() ;

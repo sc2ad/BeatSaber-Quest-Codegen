@@ -29,8 +29,10 @@ constexpr void BeatSaberAPI::DataTransferObjects::AccessToken::__set_expiration(
 constexpr ::StringW BeatSaberAPI::DataTransferObjects::AccessToken::__get_expiration() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- BeatSaberAPI::DataTransferObjects::AccessToken::AccessToken()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AccessToken>())) {}
+ BeatSaberAPI::DataTransferObjects::AccessToken BeatSaberAPI::DataTransferObjects::AccessToken::New_ctor()  {
+BeatSaberAPI::DataTransferObjects::AccessToken o{THROW_UNLESS(::il2cpp_utils::New<BeatSaberAPI::DataTransferObjects::AccessToken>())};
+return o;
+}
  void BeatSaberAPI::DataTransferObjects::AccessToken::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatSaberAPI::DataTransferObjects::AccessToken>::get(),

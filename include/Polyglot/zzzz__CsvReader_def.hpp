@@ -8,6 +8,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Polyglot {
+struct Polyglot__CsvReader__ParsingMode;
+}
 // Forward declare root types
 namespace Polyglot {
 struct Polyglot__CsvReader__ParsingMode;
@@ -65,6 +68,8 @@ __InQuote = 2,
 constexpr operator __Polyglot__CsvReader__ParsingMode_Unwrapped () const noexcept {
 return std::bit_cast<__Polyglot__CsvReader__ParsingMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -135,8 +140,7 @@ constexpr explicit CsvReader(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 /// @brief Method Parse addr 0x266f56c size 0x7e8 virtual false final false
 static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::StringW>> Parse(::StringW src) ;
 
-// Ctor Parameters []
-explicit CsvReader() ;
+static Polyglot::CsvReader New_ctor() ;
 
 /// @brief Method .ctor addr 0x266fd54 size 0x8 virtual false final false
  void _ctor() ;

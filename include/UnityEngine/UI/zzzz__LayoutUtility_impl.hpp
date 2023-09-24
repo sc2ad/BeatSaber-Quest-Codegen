@@ -1,8 +1,9 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__LayoutUtility_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
+#include "UnityEngine/UI/zzzz__LayoutUtility_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::UnityEngine__UI__LayoutUtility____c._ctor
 template<>
 
@@ -210,8 +211,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::UI::ILayout
  System::Func_2<UnityEngine::UI::ILayoutElement,float_t> UnityEngine::UI::UnityEngine__UI__LayoutUtility____c::__get___9__8_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::UI::ILayoutElement,float_t>, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__LayoutUtility____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__LayoutUtility____c::UnityEngine__UI__LayoutUtility____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__LayoutUtility____c>())) {}
+ UnityEngine::UI::UnityEngine__UI__LayoutUtility____c UnityEngine::UI::UnityEngine__UI__LayoutUtility____c::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__LayoutUtility____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__LayoutUtility____c>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__LayoutUtility____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__LayoutUtility____c>::get(),

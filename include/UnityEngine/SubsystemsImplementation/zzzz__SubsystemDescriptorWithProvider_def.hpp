@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine {
-class ISubsystem;
+class ISubsystemDescriptor;
 }
 namespace UnityEngine {
-class ISubsystemDescriptor;
+class ISubsystem;
 }
 // Forward declare root types
 namespace UnityEngine::SubsystemsImplementation {
@@ -80,8 +80,7 @@ constexpr ::StringW __get__id_k__BackingField() const;
 /// @brief Method UnityEngine.ISubsystemDescriptor.Create addr 0x2ba42e0 size 0xc virtual true final true
  UnityEngine::ISubsystem UnityEngine_ISubsystemDescriptor_Create() ;
 
-// Ctor Parameters []
-explicit SubsystemDescriptorWithProvider() ;
+static UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba42ec size 0x8 virtual false final false
  void _ctor() ;

@@ -2,9 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
+namespace GlobalNamespace {
 template<typename T>
-class LinkedListNode_1;
+class ISortedListItemProcessor_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -12,11 +12,11 @@ class LinkedList_1;
 }
 namespace GlobalNamespace {
 template<typename T>
-class ISortedListItemProcessor_1;
-}
-namespace GlobalNamespace {
-template<typename T>
 class ISortedList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +109,7 @@ constexpr System::Collections::Generic::LinkedListNode_1<TBase> __get__lastUsedN
 /// @brief Method get_items addr 0x0 size 0xffffffffffffffff virtual true final true
  System::Collections::Generic::LinkedList_1<TBase> get_items() ;
 
-// Ctor Parameters [CppParam { name: "sortedListDataProcessor", ty: "GlobalNamespace::ISortedListItemProcessor_1<TBase>", modifiers: "", def_value: None }]
-explicit SortedList_2(GlobalNamespace::ISortedListItemProcessor_1<TBase> sortedListDataProcessor) ;
+static GlobalNamespace::SortedList_2<T,TBase> New_ctor(GlobalNamespace::ISortedListItemProcessor_1<TBase> sortedListDataProcessor) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(GlobalNamespace::ISortedListItemProcessor_1<TBase> sortedListDataProcessor) ;

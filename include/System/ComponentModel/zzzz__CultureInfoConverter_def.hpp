@@ -4,11 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Type;
+namespace System::ComponentModel {
+class System__ComponentModel__CultureInfoConverter__CultureComparer;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__CultureInfoConverter__CultureInfoMapper;
 }
 namespace System::ComponentModel {
 class System__ComponentModel__TypeConverter__StandardValuesCollection;
+}
+namespace System {
+class Type;
 }
 namespace System::Globalization {
 class CultureInfo;
@@ -87,8 +93,7 @@ constexpr System::ComponentModel::CultureInfoConverter __get__converter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cultureConverter", ty: "System::ComponentModel::CultureInfoConverter", modifiers: "", def_value: None }]
-explicit System__ComponentModel__CultureInfoConverter__CultureComparer(System::ComponentModel::CultureInfoConverter cultureConverter) ;
+static System::ComponentModel::System__ComponentModel__CultureInfoConverter__CultureComparer New_ctor(System::ComponentModel::CultureInfoConverter cultureConverter) ;
 
 /// @brief Method .ctor addr 0x2775fec size 0x28 virtual false final false
  void _ctor(System::ComponentModel::CultureInfoConverter cultureConverter) ;
@@ -248,8 +253,7 @@ constexpr System::ComponentModel::System__ComponentModel__TypeConverter__Standar
 /// @brief Method GetStandardValuesSupported addr 0x277601c size 0x8 virtual true final false
  bool GetStandardValuesSupported(System::ComponentModel::ITypeDescriptorContext context) ;
 
-// Ctor Parameters []
-explicit CultureInfoConverter() ;
+static System::ComponentModel::CultureInfoConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2776024 size 0x8 virtual false final false
  void _ctor() ;

@@ -60,14 +60,12 @@ static Org::BouncyCastle::Asn1::BerNull __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit BerNull() ;
+static Org::BouncyCastle::Asn1::BerNull New_ctor() ;
 
 /// @brief Method .ctor addr 0x1131084 size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "dummy", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BerNull(int32_t dummy) ;
+static Org::BouncyCastle::Asn1::BerNull New_ctor(int32_t dummy) ;
 
 /// @brief Method .ctor addr 0x11310d8 size 0x54 virtual false final false
  void _ctor(int32_t dummy) ;

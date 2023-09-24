@@ -5,52 +5,52 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
-}
-namespace GlobalNamespace {
-class IScoreController;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
 class ComboController;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
 class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
+class IScoreController;
 }
 namespace GlobalNamespace {
 class SliderData;
 }
 namespace GlobalNamespace {
 class IScoreSyncStateManager;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -182,8 +182,7 @@ constexpr GlobalNamespace::ComboController __get__comboController() const;
 /// @brief Method HandleScoreDidChange addr 0x20e49e0 size 0x254 virtual false final false
  void HandleScoreDidChange(int32_t multipliedScore, int32_t modifiedScore) ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalActiveClient() ;
+static GlobalNamespace::MultiplayerLocalActiveClient New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e4c34 size 0x8 virtual false final false
  void _ctor() ;

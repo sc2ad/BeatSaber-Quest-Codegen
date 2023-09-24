@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::PkcsException::PkcsException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<PkcsException>(message))) {}
+ Org::BouncyCastle::Pkcs::PkcsException Org::BouncyCastle::Pkcs::PkcsException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Pkcs::PkcsException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::PkcsException>(message))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::PkcsException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::PkcsException>::get(),
@@ -47,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "underlying", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::PkcsException::PkcsException(::StringW message, System::Exception underlying)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<PkcsException>(message, underlying))) {}
+ Org::BouncyCastle::Pkcs::PkcsException Org::BouncyCastle::Pkcs::PkcsException::New_ctor(::StringW message, System::Exception underlying)  {
+Org::BouncyCastle::Pkcs::PkcsException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::PkcsException>(message, underlying))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::PkcsException::_ctor(::StringW message, System::Exception underlying)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::PkcsException>::get(),

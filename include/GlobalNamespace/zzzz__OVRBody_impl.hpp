@@ -1,18 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRBody_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPermissionsRequester_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRBody.get_BodyState
 template<>
 
@@ -410,8 +404,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRBody::OVRBody()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRBody>())) {}
+ GlobalNamespace::OVRBody GlobalNamespace::OVRBody::New_ctor()  {
+GlobalNamespace::OVRBody o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRBody>())};
+return o;
+}
  void GlobalNamespace::OVRBody::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRBody>::get(),

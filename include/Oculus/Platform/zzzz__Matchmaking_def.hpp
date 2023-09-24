@@ -5,44 +5,50 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace Oculus::Platform::Models {
-class MatchmakingEnqueueResult;
-}
-namespace Oculus::Platform::Models {
-class MatchmakingStats;
-}
 namespace Oculus::Platform {
-class MatchmakingOptions;
+class Request;
 }
 namespace Oculus::Platform::Models {
-class MatchmakingBrowseResult;
+class Room;
 }
 namespace Oculus::Platform::Models {
 class MatchmakingAdminSnapshot;
+}
+namespace Oculus::Platform::Models {
+class MatchmakingEnqueueResult;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Oculus__Platform__Message_1__Callback;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace Oculus::Platform {
-template<typename T>
-class Request_1;
-}
-namespace Oculus::Platform {
-template<typename T>
-class Oculus__Platform__Message_1__Callback;
-}
-namespace Oculus::Platform {
-class Request;
-}
-namespace Oculus::Platform::Models {
-class MatchmakingEnqueueResultAndRoom;
+class Oculus__Platform__Matchmaking__CustomQuery;
 }
 namespace Oculus::Platform {
 struct MatchmakingStatApproach;
 }
 namespace Oculus::Platform::Models {
-class Room;
+class MatchmakingStats;
+}
+namespace Oculus::Platform::Models {
+class MatchmakingBrowseResult;
+}
+namespace Oculus::Platform {
+class MatchmakingOptions;
+}
+namespace Oculus::Platform::Models {
+class MatchmakingEnqueueResultAndRoom;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Request_1;
+}
+namespace GlobalNamespace {
+struct Oculus__Platform__Matchmaking__CustomQuery__Criterion;
 }
 namespace Oculus::Platform {
 struct MatchmakingCriterionImportance;
@@ -190,8 +196,7 @@ constexpr ::ArrayW<GlobalNamespace::Oculus__Platform__Matchmaking__CustomQuery__
 /// @brief Method ToUnmanaged addr 0x25885e0 size 0x31c virtual false final false
  ::cordl_internals::intptr_t ToUnmanaged() ;
 
-// Ctor Parameters []
-explicit Oculus__Platform__Matchmaking__CustomQuery() ;
+static Oculus::Platform::Oculus__Platform__Matchmaking__CustomQuery New_ctor() ;
 
 /// @brief Method .ctor addr 0x2589f10 size 0x8 virtual false final false
  void _ctor() ;

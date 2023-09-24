@@ -2,50 +2,50 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
 namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-struct UnityEngine__UI__Selectable__SelectionState;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace UnityEngine {
 struct DrivenRectTransformTracker;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class Transform;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
 namespace UnityEngine::UI {
-class Graphic;
+struct UnityEngine__UI__Selectable__SelectionState;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
 }
 namespace UnityEngine::EventSystems {
-class IDragHandler;
+class IInitializePotentialDragHandler;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector2;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
 }
 // Forward declare root types
 namespace HMUI {
@@ -231,8 +231,7 @@ constexpr UnityEngine::DrivenRectTransformTracker __get__tracker() const;
 /// @brief Method OnInitializePotentialDrag addr 0x1fb05d4 size 0x18 virtual true final false
  void OnInitializePotentialDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
-// Ctor Parameters []
-explicit Slider2D() ;
+static HMUI::Slider2D New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb05ec size 0x58 virtual false final false
  void _ctor() ;

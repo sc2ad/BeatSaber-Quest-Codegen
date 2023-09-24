@@ -8,16 +8,22 @@ namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
 namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class EncryptedPrivateKeyInfo;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Pkcs {
+class Org__BouncyCastle__Pkcs__Pkcs12Store__CertId;
 }
 namespace System::IO {
 class Stream;
@@ -25,11 +31,14 @@ class Stream;
 namespace Org::BouncyCastle::Pkcs {
 class X509CertificateEntry;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectKeyIdentifier;
+namespace System {
+class Type;
 }
-namespace Org::BouncyCastle::Pkcs {
-class AsymmetricKeyEntry;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -37,23 +46,20 @@ class DerObjectIdentifier;
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
-}
-namespace System {
-class Type;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
+namespace Org::BouncyCastle::Pkcs {
+class AsymmetricKeyEntry;
+}
+namespace Org::BouncyCastle::Pkcs {
+class Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable;
+}
 namespace Org::BouncyCastle::Asn1::Pkcs {
-class EncryptedPrivateKeyInfo;
+class PrivateKeyInfo;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectKeyIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -121,14 +127,12 @@ constexpr ::ArrayW<uint8_t> __get_id() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Pkcs__Pkcs12Store__CertId(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
+static Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
 
 /// @brief Method .ctor addr 0x10593e8 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Pkcs__Pkcs12Store__CertId(::ArrayW<uint8_t> id) ;
+static Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId New_ctor(::ArrayW<uint8_t> id) ;
 
 /// @brief Method .ctor addr 0x105942c size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> id) ;
@@ -241,8 +245,7 @@ constexpr System::Collections::IDictionary __get_keys() const;
 /// @brief Method get_Count addr 0x1059ed4 size 0xa4 virtual false final false
  int32_t get_Count() ;
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable() ;
+static Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1059f78 size 0x70 virtual false final false
  void _ctor() ;
@@ -385,26 +388,22 @@ constexpr Org::BouncyCastle::Pkcs::AsymmetricKeyEntry __get_unmarkedKeyEntry() c
 /// @brief Method CreateSubjectKeyID addr 0x104f41c size 0x78 virtual false final false
 static Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier CreateSubjectKeyID(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey) ;
 
-// Ctor Parameters [CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "certAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "useDerEncoding", ty: "bool", modifiers: "", def_value: None }]
-explicit Pkcs12Store(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, bool useDerEncoding) ;
+static Org::BouncyCastle::Pkcs::Pkcs12Store New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, bool useDerEncoding) ;
 
 /// @brief Method .ctor addr 0x104f494 size 0x100 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, bool useDerEncoding) ;
 
-// Ctor Parameters [CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keyPrfAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "certAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "certPrfAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "useDerEncoding", ty: "bool", modifiers: "", def_value: None }]
-explicit Pkcs12Store(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier keyPrfAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certPrfAlgorithm, bool useDerEncoding) ;
+static Org::BouncyCastle::Pkcs::Pkcs12Store New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier keyPrfAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certPrfAlgorithm, bool useDerEncoding) ;
 
 /// @brief Method .ctor addr 0x104f594 size 0x110 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier keyPrfAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certPrfAlgorithm, bool useDerEncoding) ;
 
-// Ctor Parameters []
-explicit Pkcs12Store() ;
+static Org::BouncyCastle::Pkcs::Pkcs12Store New_ctor() ;
 
 /// @brief Method .ctor addr 0x104f6a4 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }]
-explicit Pkcs12Store(System::IO::Stream input, ::ArrayW<char16_t> password) ;
+static Org::BouncyCastle::Pkcs::Pkcs12Store New_ctor(System::IO::Stream input, ::ArrayW<char16_t> password) ;
 
 /// @brief Method .ctor addr 0x104f70c size 0x30 virtual false final false
  void _ctor(System::IO::Stream input, ::ArrayW<char16_t> password) ;

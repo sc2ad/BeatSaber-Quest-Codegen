@@ -1,9 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseInputStream_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__Packet_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PacketTag_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__Packet_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream._ctor
 template<>
 
@@ -90,8 +91,10 @@ constexpr void Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream
 constexpr int32_t Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream::__get_dataLength() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x3c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }, CppParam { name: "partial", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dataLength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn, bool partial, int32_t dataLength)  : Org::BouncyCastle::Utilities::IO::BaseInputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream>(bcpgIn, partial, dataLength))) {}
+ Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn, bool partial, int32_t dataLength)  {
+Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream>(bcpgIn, partial, dataLength))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn, bool partial, int32_t dataLength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Org__BouncyCastle__Bcpg__BcpgInputStream__PartialInputStream>::get(),
@@ -325,8 +328,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Bcpg::BcpgInputStream, false>(nullptr, ___internal_method, inStr);
 }
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::BcpgInputStream::BcpgInputStream(System::IO::Stream inputStream)  : Org::BouncyCastle::Utilities::IO::BaseInputStream(THROW_UNLESS(::il2cpp_utils::New<BcpgInputStream>(inputStream))) {}
+ Org::BouncyCastle::Bcpg::BcpgInputStream Org::BouncyCastle::Bcpg::BcpgInputStream::New_ctor(System::IO::Stream inputStream)  {
+Org::BouncyCastle::Bcpg::BcpgInputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::BcpgInputStream>(inputStream))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::BcpgInputStream::_ctor(System::IO::Stream inputStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::BcpgInputStream>::get(),

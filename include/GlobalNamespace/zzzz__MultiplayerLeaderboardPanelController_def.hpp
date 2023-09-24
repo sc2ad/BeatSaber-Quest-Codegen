@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+class MultiplayerLeaderboardPanelItem;
 }
 namespace GlobalNamespace {
-class MultiplayerLeaderboardPanelItem;
+class MultiplayerScoreProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,7 @@ constexpr GlobalNamespace::MultiplayerScoreProvider __get__scoreProvider() const
 /// @brief Method Update addr 0x227649c size 0x248 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit MultiplayerLeaderboardPanelController() ;
+static GlobalNamespace::MultiplayerLeaderboardPanelController New_ctor() ;
 
 /// @brief Method .ctor addr 0x22769b4 size 0x8 virtual false final false
  void _ctor() ;

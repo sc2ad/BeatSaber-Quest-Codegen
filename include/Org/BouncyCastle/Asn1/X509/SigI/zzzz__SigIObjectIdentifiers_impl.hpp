@@ -60,8 +60,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers::__get_IdSigICPSigConform()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "IdSigICPSigConform", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers::SigIObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SigIObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers>::get(),

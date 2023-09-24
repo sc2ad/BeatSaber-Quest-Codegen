@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SimpleTextTableCell::SimpleTextTableCell()  : HMUI::TableCell(THROW_UNLESS(::il2cpp_utils::New<SimpleTextTableCell>())) {}
+ GlobalNamespace::SimpleTextTableCell GlobalNamespace::SimpleTextTableCell::New_ctor()  {
+GlobalNamespace::SimpleTextTableCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SimpleTextTableCell>())};
+return o;
+}
  void GlobalNamespace::SimpleTextTableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleTextTableCell>::get(),

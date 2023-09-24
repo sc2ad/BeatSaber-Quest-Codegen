@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, intensityMultiplier);
 }
-// Ctor Parameters []
- GlobalNamespace::BakedLightWithIdBase::BakedLightWithIdBase()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BakedLightWithIdBase>())) {}
+ GlobalNamespace::BakedLightWithIdBase GlobalNamespace::BakedLightWithIdBase::New_ctor()  {
+GlobalNamespace::BakedLightWithIdBase o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BakedLightWithIdBase>())};
+return o;
+}
  void GlobalNamespace::BakedLightWithIdBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BakedLightWithIdBase>::get(),

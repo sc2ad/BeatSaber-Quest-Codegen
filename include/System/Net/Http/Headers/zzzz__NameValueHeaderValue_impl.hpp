@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::NameValueHeaderValue._ctor
 template<>
 
@@ -275,8 +275,10 @@ constexpr void System::Net::Http::Headers::NameValueHeaderValue::__set__Name_k__
 constexpr ::StringW System::Net::Http::Headers::NameValueHeaderValue::__get__Name_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Http::Headers::NameValueHeaderValue::NameValueHeaderValue(::StringW name, ::StringW value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NameValueHeaderValue>(name, value))) {}
+ System::Net::Http::Headers::NameValueHeaderValue System::Net::Http::Headers::NameValueHeaderValue::New_ctor(::StringW name, ::StringW value)  {
+System::Net::Http::Headers::NameValueHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::NameValueHeaderValue>(name, value))};
+return o;
+}
  void System::Net::Http::Headers::NameValueHeaderValue::_ctor(::StringW name, ::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::NameValueHeaderValue>::get(),
@@ -286,8 +288,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, value);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::NameValueHeaderValue", modifiers: "", def_value: None }]
- System::Net::Http::Headers::NameValueHeaderValue::NameValueHeaderValue(System::Net::Http::Headers::NameValueHeaderValue source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NameValueHeaderValue>(source))) {}
+ System::Net::Http::Headers::NameValueHeaderValue System::Net::Http::Headers::NameValueHeaderValue::New_ctor(System::Net::Http::Headers::NameValueHeaderValue source)  {
+System::Net::Http::Headers::NameValueHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::NameValueHeaderValue>(source))};
+return o;
+}
  void System::Net::Http::Headers::NameValueHeaderValue::_ctor(System::Net::Http::Headers::NameValueHeaderValue source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::NameValueHeaderValue>::get(),
@@ -297,8 +301,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, source);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::NameValueHeaderValue::NameValueHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NameValueHeaderValue>())) {}
+ System::Net::Http::Headers::NameValueHeaderValue System::Net::Http::Headers::NameValueHeaderValue::New_ctor()  {
+System::Net::Http::Headers::NameValueHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::NameValueHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::NameValueHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::NameValueHeaderValue>::get(),

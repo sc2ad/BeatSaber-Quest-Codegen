@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__SM2KeyExchangePrivateParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters._ctor
 template<>
 
@@ -139,8 +139,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParam
 constexpr Org::BouncyCastle::Math::EC::ECPoint Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::__get_mEphemeralPublicPoint() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::ECPoint, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "initiator", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "staticPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::SM2KeyExchangePrivateParameters(bool initiator, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM2KeyExchangePrivateParameters>(initiator, staticPrivateKey, ephemeralPrivateKey))) {}
+ Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::New_ctor(bool initiator, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey)  {
+Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters>(initiator, staticPrivateKey, ephemeralPrivateKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::_ctor(bool initiator, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters>::get(),

@@ -57,8 +57,7 @@ constexpr ::StringW __get__hashAlgorithm() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithm", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RSAPKCS1SignatureDescription(::StringW hashAlgorithm, ::StringW digestAlgorithm) ;
+static System::Security::Cryptography::RSAPKCS1SignatureDescription New_ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm) ;
 
 /// @brief Method .ctor addr 0x22fee24 size 0xa4 virtual false final false
  void _ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm) ;

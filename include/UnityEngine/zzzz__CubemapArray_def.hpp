@@ -3,16 +3,16 @@
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include <cstdint>
 namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
+struct DefaultFormat;
 }
 namespace UnityEngine {
 struct TextureFormat;
 }
 namespace UnityEngine::Experimental::Rendering {
-struct TextureCreationFlags;
+struct GraphicsFormat;
 }
 namespace UnityEngine::Experimental::Rendering {
-struct DefaultFormat;
+struct TextureCreationFlags;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -74,38 +74,32 @@ static bool Internal_CreateImpl(UnityEngine::CubemapArray mono, int32_t ext, int
 /// @brief Method Internal_Create addr 0x2b3c454 size 0xc8 virtual false final false
 static void Internal_Create(UnityEngine::CubemapArray mono, int32_t ext, int32_t count, int32_t mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cubemapCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::DefaultFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
-explicit CubemapArray(int32_t width, int32_t cubemapCount, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
+static UnityEngine::CubemapArray New_ctor(int32_t width, int32_t cubemapCount, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
 /// @brief Method .ctor addr 0x2b3c51c size 0x4c virtual false final false
  void _ctor(int32_t width, int32_t cubemapCount, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cubemapCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
-explicit CubemapArray(int32_t width, int32_t cubemapCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
+static UnityEngine::CubemapArray New_ctor(int32_t width, int32_t cubemapCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
 /// @brief Method .ctor addr 0x2b3c568 size 0x90 virtual false final false
  void _ctor(int32_t width, int32_t cubemapCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cubemapCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CubemapArray(int32_t width, int32_t cubemapCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) ;
+static UnityEngine::CubemapArray New_ctor(int32_t width, int32_t cubemapCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) ;
 
 /// @brief Method .ctor addr 0x2b3c5f8 size 0xd0 virtual false final false
  void _ctor(int32_t width, int32_t cubemapCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cubemapCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linear", ty: "bool", modifiers: "", def_value: None }]
-explicit CubemapArray(int32_t width, int32_t cubemapCount, UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear) ;
+static UnityEngine::CubemapArray New_ctor(int32_t width, int32_t cubemapCount, UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear) ;
 
 /// @brief Method .ctor addr 0x2b3c720 size 0x138 virtual false final false
  void _ctor(int32_t width, int32_t cubemapCount, UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cubemapCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipChain", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "linear", ty: "bool", modifiers: "", def_value: None }]
-explicit CubemapArray(int32_t width, int32_t cubemapCount, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) ;
+static UnityEngine::CubemapArray New_ctor(int32_t width, int32_t cubemapCount, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) ;
 
 /// @brief Method .ctor addr 0x2b3c858 size 0x14 virtual false final false
  void _ctor(int32_t width, int32_t cubemapCount, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cubemapCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipChain", ty: "bool", modifiers: "", def_value: None }]
-explicit CubemapArray(int32_t width, int32_t cubemapCount, UnityEngine::TextureFormat textureFormat, bool mipChain) ;
+static UnityEngine::CubemapArray New_ctor(int32_t width, int32_t cubemapCount, UnityEngine::TextureFormat textureFormat, bool mipChain) ;
 
 /// @brief Method .ctor addr 0x2b3c86c size 0x14 virtual false final false
  void _ctor(int32_t width, int32_t cubemapCount, UnityEngine::TextureFormat textureFormat, bool mipChain) ;

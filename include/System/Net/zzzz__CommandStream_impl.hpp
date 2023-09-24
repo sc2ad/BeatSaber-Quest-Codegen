@@ -2,18 +2,19 @@
 #include "System/Net/zzzz__NetworkStreamWrapper_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Net/zzzz__CommandStream_def.hpp"
+#include "System/Net/zzzz__CommandStream_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
-#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/Net/zzzz__ResponseDescription_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/Net/zzzz__WebExceptionStatus_def.hpp"
+#include "System/Net/zzzz__ReceiveState_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Net/zzzz__ResponseDescription_def.hpp"
+#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
 #include "System/Net/zzzz__FtpStatusCode_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__ReceiveState_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__CommandStream__PipelineInstruction::System__Net__CommandStream__PipelineInstruction(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -104,8 +105,10 @@ constexpr void System::Net::System__Net__CommandStream__PipelineEntry::__set_Fla
 constexpr System::Net::System__Net__CommandStream__PipelineEntryFlags System::Net::System__Net__CommandStream__PipelineEntry::__get_Flags() const {
 return ::cordl_internals::getInstanceField<System::Net::System__Net__CommandStream__PipelineEntryFlags, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "command", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::System__Net__CommandStream__PipelineEntry::System__Net__CommandStream__PipelineEntry(::StringW command)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__CommandStream__PipelineEntry>(command))) {}
+ System::Net::System__Net__CommandStream__PipelineEntry System::Net::System__Net__CommandStream__PipelineEntry::New_ctor(::StringW command)  {
+System::Net::System__Net__CommandStream__PipelineEntry o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__CommandStream__PipelineEntry>(command))};
+return o;
+}
  void System::Net::System__Net__CommandStream__PipelineEntry::_ctor(::StringW command)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__CommandStream__PipelineEntry>::get(),
@@ -115,8 +118,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, command);
 }
-// Ctor Parameters [CppParam { name: "command", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Net::System__Net__CommandStream__PipelineEntryFlags", modifiers: "", def_value: None }]
- System::Net::System__Net__CommandStream__PipelineEntry::System__Net__CommandStream__PipelineEntry(::StringW command, System::Net::System__Net__CommandStream__PipelineEntryFlags flags)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__CommandStream__PipelineEntry>(command, flags))) {}
+ System::Net::System__Net__CommandStream__PipelineEntry System::Net::System__Net__CommandStream__PipelineEntry::New_ctor(::StringW command, System::Net::System__Net__CommandStream__PipelineEntryFlags flags)  {
+System::Net::System__Net__CommandStream__PipelineEntry o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__CommandStream__PipelineEntry>(command, flags))};
+return o;
+}
  void System::Net::System__Net__CommandStream__PipelineEntry::_ctor(::StringW command, System::Net::System__Net__CommandStream__PipelineEntryFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__CommandStream__PipelineEntry>::get(),
@@ -633,8 +638,10 @@ constexpr void System::Net::CommandStream::__set__decoder(System::Text::Decoder 
 constexpr System::Text::Decoder System::Net::CommandStream::__get__decoder() const {
 return ::cordl_internals::getInstanceField<System::Text::Decoder, 0x80>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "client", ty: "System::Net::Sockets::TcpClient", modifiers: "", def_value: None }]
- System::Net::CommandStream::CommandStream(System::Net::Sockets::TcpClient client)  : System::Net::NetworkStreamWrapper(THROW_UNLESS(::il2cpp_utils::New<CommandStream>(client))) {}
+ System::Net::CommandStream System::Net::CommandStream::New_ctor(System::Net::Sockets::TcpClient client)  {
+System::Net::CommandStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::CommandStream>(client))};
+return o;
+}
  void System::Net::CommandStream::_ctor(System::Net::Sockets::TcpClient client)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CommandStream>::get(),

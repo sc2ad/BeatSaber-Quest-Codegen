@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::Serialization::OnDeserializingAttribute::OnDeserializingAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<OnDeserializingAttribute>())) {}
+ System::Runtime::Serialization::OnDeserializingAttribute System::Runtime::Serialization::OnDeserializingAttribute::New_ctor()  {
+System::Runtime::Serialization::OnDeserializingAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::OnDeserializingAttribute>())};
+return o;
+}
  void System::Runtime::Serialization::OnDeserializingAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::OnDeserializingAttribute>::get(),

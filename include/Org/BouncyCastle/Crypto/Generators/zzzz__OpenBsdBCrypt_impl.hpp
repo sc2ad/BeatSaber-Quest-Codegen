@@ -144,8 +144,10 @@ return ::cordl_internals::getStaticField<::StringW, "DefaultVersion", ::il2cpp_u
  Org::BouncyCastle::Utilities::Collections::ISet Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::__get_AllowedVersions()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Utilities::Collections::ISet, "AllowedVersions", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::OpenBsdBCrypt()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OpenBsdBCrypt>())) {}
+ Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::New_ctor()  {
+Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt>::get(),

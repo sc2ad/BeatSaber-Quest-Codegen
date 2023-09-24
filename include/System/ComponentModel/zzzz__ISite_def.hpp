@@ -1,11 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class IServiceProvider;
-}
 namespace System::ComponentModel {
 class IContainer;
+}
+namespace System {
+class IServiceProvider;
 }
 // Forward declare root types
 namespace System::ComponentModel {

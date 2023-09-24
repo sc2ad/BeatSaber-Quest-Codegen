@@ -1,15 +1,16 @@
 #pragma once
 #include "Zenject/zzzz__CachedOpenTypeProvider_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__CachedProvider_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Zenject/zzzz__CachedOpenTypeProvider_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__CachedProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__CachedOpenTypeProvider____c._ctor
 template<>
 
@@ -90,8 +91,10 @@ return ::cordl_internals::getStaticField<Zenject::Zenject__CachedOpenTypeProvide
  System::Func_2<Zenject::CachedProvider,int32_t> Zenject::Zenject__CachedOpenTypeProvider____c::__get___9__8_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<Zenject::CachedProvider,int32_t>, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__CachedOpenTypeProvider____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__CachedOpenTypeProvider____c::Zenject__CachedOpenTypeProvider____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__CachedOpenTypeProvider____c>())) {}
+ Zenject::Zenject__CachedOpenTypeProvider____c Zenject::Zenject__CachedOpenTypeProvider____c::New_ctor()  {
+Zenject::Zenject__CachedOpenTypeProvider____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__CachedOpenTypeProvider____c>())};
+return o;
+}
  void Zenject::Zenject__CachedOpenTypeProvider____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__CachedOpenTypeProvider____c>::get(),
@@ -263,8 +266,10 @@ constexpr void Zenject::CachedOpenTypeProvider::__set__providerMap(System::Colle
 constexpr System::Collections::Generic::Dictionary_2<System::Type,Zenject::CachedProvider> Zenject::CachedOpenTypeProvider::__get__providerMap() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<System::Type,Zenject::CachedProvider>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "creator", ty: "Zenject::IProvider", modifiers: "", def_value: None }]
- Zenject::CachedOpenTypeProvider::CachedOpenTypeProvider(Zenject::IProvider creator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CachedOpenTypeProvider>(creator))) {}
+ Zenject::CachedOpenTypeProvider Zenject::CachedOpenTypeProvider::New_ctor(Zenject::IProvider creator)  {
+Zenject::CachedOpenTypeProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::CachedOpenTypeProvider>(creator))};
+return o;
+}
  void Zenject::CachedOpenTypeProvider::_ctor(Zenject::IProvider creator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::CachedOpenTypeProvider>::get(),

@@ -84,8 +84,7 @@ constexpr UnityEngine::Texture2D __get__lightmap2() const;
 /// @brief Method set_lightmap2 addr 0x219cc88 size 0x8 virtual false final false
  void set_lightmap2(UnityEngine::Texture2D value) ;
 
-// Ctor Parameters []
-explicit LightmapDataSO() ;
+static GlobalNamespace::LightmapDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x219cc90 size 0x8 virtual false final false
  void _ctor() ;

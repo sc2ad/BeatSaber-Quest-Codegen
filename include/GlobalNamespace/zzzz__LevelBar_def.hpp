@@ -3,42 +3,45 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace HMUI {
 class ImageView;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
+namespace System::Threading {
+class CancellationTokenSource;
+}
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__LevelBar___Setup_d__17;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -302,8 +305,7 @@ constexpr System::Threading::CancellationTokenSource __get__cancellationTokenSou
 /// @brief Method OnDestroy addr 0x2189618 size 0x14 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit LevelBar() ;
+static GlobalNamespace::LevelBar New_ctor() ;
 
 /// @brief Method .ctor addr 0x218962c size 0x8 virtual false final false
  void _ctor() ;

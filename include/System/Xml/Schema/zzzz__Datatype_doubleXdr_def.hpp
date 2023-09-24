@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlNameTable;
 }
 namespace System::Xml {
-class XmlNameTable;
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -58,8 +58,7 @@ constexpr explicit Datatype_doubleXdr(void* ptr) noexcept : System::Xml::Schema:
 /// @brief Method ParseValue addr 0x272b068 size 0x27c virtual true final false
  ::bs_hook::Il2CppWrapperType ParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr) ;
 
-// Ctor Parameters []
-explicit Datatype_doubleXdr() ;
+static System::Xml::Schema::Datatype_doubleXdr New_ctor() ;
 
 /// @brief Method .ctor addr 0x272b2f0 size 0x54 virtual false final false
  void _ctor() ;

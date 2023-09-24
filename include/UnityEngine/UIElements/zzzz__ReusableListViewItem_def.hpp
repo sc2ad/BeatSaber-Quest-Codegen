@@ -94,8 +94,7 @@ constexpr UnityEngine::UIElements::VisualElement __get_m_ItemContainer() const;
 /// @brief Method DetachElement addr 0x2d1178c size 0x8c virtual true final false
  void DetachElement() ;
 
-// Ctor Parameters []
-explicit ReusableListViewItem() ;
+static UnityEngine::UIElements::ReusableListViewItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d11910 size 0x4 virtual false final false
  void _ctor() ;

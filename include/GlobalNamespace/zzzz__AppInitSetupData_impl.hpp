@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__AppInitSetupData__RunMode::GlobalNamespace__AppInitSetupData__RunMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -35,8 +36,10 @@ constexpr void GlobalNamespace::AppInitSetupData::__set_runMode(GlobalNamespace:
 constexpr GlobalNamespace::GlobalNamespace__AppInitSetupData__RunMode GlobalNamespace::AppInitSetupData::__get_runMode() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__AppInitSetupData__RunMode, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::AppInitSetupData::AppInitSetupData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AppInitSetupData>())) {}
+ GlobalNamespace::AppInitSetupData GlobalNamespace::AppInitSetupData::New_ctor()  {
+GlobalNamespace::AppInitSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AppInitSetupData>())};
+return o;
+}
  void GlobalNamespace::AppInitSetupData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AppInitSetupData>::get(),

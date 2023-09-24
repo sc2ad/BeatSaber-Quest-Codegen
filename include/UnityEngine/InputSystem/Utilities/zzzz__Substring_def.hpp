@@ -4,10 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class IComparable_1;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
 }
@@ -17,6 +13,10 @@ struct StringComparison;
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace System {
+template<typename T>
+class IComparable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

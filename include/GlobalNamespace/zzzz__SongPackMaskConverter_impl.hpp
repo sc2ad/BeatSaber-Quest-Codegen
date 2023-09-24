@@ -1,9 +1,9 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMaskConverter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SongPackMaskConverter.CanConvert
 template<>
@@ -100,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, writer, value, serializer);
 }
-// Ctor Parameters []
- GlobalNamespace::SongPackMaskConverter::SongPackMaskConverter()  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<SongPackMaskConverter>())) {}
+ GlobalNamespace::SongPackMaskConverter GlobalNamespace::SongPackMaskConverter::New_ctor()  {
+GlobalNamespace::SongPackMaskConverter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SongPackMaskConverter>())};
+return o;
+}
  void GlobalNamespace::SongPackMaskConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SongPackMaskConverter>::get(),

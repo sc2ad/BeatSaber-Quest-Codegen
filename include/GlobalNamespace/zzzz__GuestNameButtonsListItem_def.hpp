@@ -5,11 +5,11 @@
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace System {
-class Action;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +94,7 @@ constexpr System::Action __get__buttonPressed() const;
 /// @brief Method Awake addr 0x2146e20 size 0x94 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit GuestNameButtonsListItem() ;
+static GlobalNamespace::GuestNameButtonsListItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2146eb4 size 0x8 virtual false final false
  void _ctor() ;

@@ -54,26 +54,22 @@ constexpr explicit TMP_Character(void* ptr) noexcept : TMPro::TMP_TextElement(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit TMP_Character() ;
+static TMPro::TMP_Character New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a69d68 size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "UnityEngine::TextCore::Glyph", modifiers: "", def_value: None }]
-explicit TMP_Character(uint32_t unicode, UnityEngine::TextCore::Glyph glyph) ;
+static TMPro::TMP_Character New_ctor(uint32_t unicode, UnityEngine::TextCore::Glyph glyph) ;
 
 /// @brief Method .ctor addr 0x2a69d90 size 0x54 virtual false final false
  void _ctor(uint32_t unicode, UnityEngine::TextCore::Glyph glyph) ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "TMPro::TMP_FontAsset", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "UnityEngine::TextCore::Glyph", modifiers: "", def_value: None }]
-explicit TMP_Character(uint32_t unicode, TMPro::TMP_FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph) ;
+static TMPro::TMP_Character New_ctor(uint32_t unicode, TMPro::TMP_FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph) ;
 
 /// @brief Method .ctor addr 0x2a69de4 size 0x60 virtual false final false
  void _ctor(uint32_t unicode, TMPro::TMP_FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph) ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyphIndex", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit TMP_Character(uint32_t unicode, uint32_t glyphIndex) ;
+static TMPro::TMP_Character New_ctor(uint32_t unicode, uint32_t glyphIndex) ;
 
 /// @brief Method .ctor addr 0x2a69e44 size 0x40 virtual false final false
  void _ctor(uint32_t unicode, uint32_t glyphIndex) ;

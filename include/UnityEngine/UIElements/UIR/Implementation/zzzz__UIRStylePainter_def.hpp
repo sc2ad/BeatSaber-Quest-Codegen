@@ -7,44 +7,68 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
+class MeshGenerationContext;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContext__MeshFlags;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 namespace UnityEngine::UIElements {
 class AtlasBase;
 }
 namespace UnityEngine::UIElements {
-class MeshGenerationContext;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+struct UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
 }
 namespace System {
-class Action;
+class IDisposable;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-struct Vertex;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class IStylePainter;
 }
 namespace UnityEngine::UIElements::UIR {
 class VectorImageManager;
 }
+namespace UnityEngine::UIElements::UIR::Implementation {
+template<typename T>
+struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1;
+}
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator;
+}
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
+namespace UnityEngine::UIElements {
+class MeshWriteData;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChain;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine::UIElements {
 class ITextHandle;
@@ -53,23 +77,12 @@ namespace Unity::Collections {
 template<typename T>
 struct NativeSlice_1;
 }
-namespace UnityEngine::UIElements::UIR {
-class RenderChain;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::UIElements {
-class IStylePainter;
-}
-namespace UnityEngine::UIElements::UIR {
-struct UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData;
-}
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__MeshGenerationContext__MeshFlags;
+namespace UnityEngine::UIElements::UIR::Implementation {
+struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__ClosingInfo;
 }
 namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
@@ -77,11 +90,8 @@ struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
 namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
 }
-namespace GlobalNamespace {
-class UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator;
-}
-namespace UnityEngine::UIElements {
-class MeshWriteData;
+namespace UnityEngine::UIElements::UIR {
+class RenderChainCommand;
 }
 namespace UnityEngine::UIElements::UIR {
 struct VertexFlags;
@@ -105,12 +115,12 @@ namespace UnityEngine::UIElements::UIR::Implementation {
 struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__Entry;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
-template<>
-struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<UnityEngine::UIElements::Vertex>;
+template<::cordl_internals::is_or_is_backed_by<uint16_t> T>
+struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
 template<>
-struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>;
+struct UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<UnityEngine::UIElements::Vertex>;
 }
 // Type: ::Entry
 namespace UnityEngine::UIElements::UIR::Implementation {
@@ -578,8 +588,7 @@ constexpr bool __get__disposed_k__BackingField() const;
 /// @brief Method AllocThroughDrawGradients addr 0x2c60ca8 size 0x10 virtual false final false
  UnityEngine::UIElements::MeshWriteData AllocThroughDrawGradients(uint32_t vertexCount, uint32_t indexCount, ByRef<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData> allocatorData) ;
 
-// Ctor Parameters [CppParam { name: "renderChain", ty: "UnityEngine::UIElements::UIR::RenderChain", modifiers: "", def_value: None }]
-explicit UIRStylePainter(UnityEngine::UIElements::UIR::RenderChain renderChain) ;
+static UnityEngine::UIElements::UIR::Implementation::UIRStylePainter New_ctor(UnityEngine::UIElements::UIR::RenderChain renderChain) ;
 
 /// @brief Method .ctor addr 0x2c60fbc size 0x368 virtual false final false
  void _ctor(UnityEngine::UIElements::UIR::RenderChain renderChain) ;
@@ -698,97 +707,6 @@ namespace UnityEngine::UIElements::UIR::Implementation {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7549)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7549), inst: 728 })
-// CS Name: UnityEngine.UIElements.UIR.Implementation.UIRStylePainter::TempDataAlloc`1
-struct CORDL_TYPE UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t> : public ::bs_hook::ValueTypeWrapper {
-public:
-// Declarations
-/// @brief Convert operator to System::IDisposable
-constexpr operator  System::IDisposable() const;
-
-// Ctor Parameters [CppParam { name: "maxPoolElemCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pool", ty: "Unity::Collections::NativeArray_1<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "excess", ty: "System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>>", modifiers: "", def_value: None }, CppParam { name: "takenFromPool", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(int32_t maxPoolElemCount, Unity::Collections::NativeArray_1<uint16_t> pool, System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> excess, uint32_t takenFromPool) noexcept;
-
-
-                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const&) = default;
-                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&&) = default;
-                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-
-// Fields
-
- int32_t __declspec(property(get=__get_maxPoolElemCount, put=__set_maxPoolElemCount))  maxPoolElemCount;
-
-constexpr void __set_maxPoolElemCount(int32_t value) ;
-
-constexpr int32_t __get_maxPoolElemCount() const;
-
- Unity::Collections::NativeArray_1<uint16_t> __declspec(property(get=__get_pool, put=__set_pool))  pool;
-
-constexpr void __set_pool(Unity::Collections::NativeArray_1<uint16_t> value) ;
-
-constexpr Unity::Collections::NativeArray_1<uint16_t> __get_pool() const;
-
- System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> __declspec(property(get=__get_excess, put=__set_excess))  excess;
-
-constexpr void __set_excess(System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> value) ;
-
-constexpr System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> __get_excess() const;
-
- uint32_t __declspec(property(get=__get_takenFromPool, put=__set_takenFromPool))  takenFromPool;
-
-constexpr void __set_takenFromPool(uint32_t value) ;
-
-constexpr uint32_t __get_takenFromPool() const;
-
-
-// Methods
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(int32_t maxPoolElems) ;
-
-/// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
- void Dispose() ;
-
-/// @brief Method Alloc addr 0x0 size 0xffffffffffffffff virtual false final false
- Unity::Collections::NativeSlice_1<uint16_t> Alloc(uint32_t count) ;
-
-/// @brief Method SessionDone addr 0x0 size 0xffffffffffffffff virtual false final false
- void SessionDone() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def UnityEngine::UIElements::UIR::Implementation
-// Type: ::TempDataAlloc`1
-namespace UnityEngine::UIElements::UIR::Implementation {
-// cpp template
-template<>
-// Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(7549))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7549), inst: 732 })
 // CS Name: UnityEngine.UIElements.UIR.Implementation.UIRStylePainter::TempDataAlloc`1
@@ -867,6 +785,97 @@ constexpr uint32_t __get_takenFromPool() const;
 
 /// @brief Method Alloc addr 0x0 size 0xffffffffffffffff virtual false final false
  Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex> Alloc(uint32_t count) ;
+
+/// @brief Method SessionDone addr 0x0 size 0xffffffffffffffff virtual false final false
+ void SessionDone() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::UIElements::UIR::Implementation
+// Type: ::TempDataAlloc`1
+namespace UnityEngine::UIElements::UIR::Implementation {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<uint16_t> T>
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7549)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7549), inst: 728 })
+// CS Name: UnityEngine.UIElements.UIR.Implementation.UIRStylePainter::TempDataAlloc`1
+struct CORDL_TYPE UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T> : public ::bs_hook::ValueTypeWrapper {
+public:
+// Declarations
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
+
+// Ctor Parameters [CppParam { name: "maxPoolElemCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pool", ty: "Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None }, CppParam { name: "excess", ty: "System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>>", modifiers: "", def_value: None }, CppParam { name: "takenFromPool", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(int32_t maxPoolElemCount, Unity::Collections::NativeArray_1<T> pool, System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>> excess, uint32_t takenFromPool) noexcept;
+
+
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1 const& o) {
+                        __instance = o.__instance;
+                        return *this;
+                    };
+                    constexpr UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1& operator=(UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1&& o) noexcept {
+                        __instance = std::move(o.__instance);
+                        return *this;
+                    };
+                
+
+/// @brief The size of the true value type
+static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
+
+/// @brief Holds the value type data
+ std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
+
+// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
+constexpr explicit UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+}
+
+/// @brief conversion method for value type
+constexpr void* convert() const noexcept {
+return const_cast<void*>(static_cast<const void*>(__instance.data()));
+}
+
+
+// Fields
+
+ int32_t __declspec(property(get=__get_maxPoolElemCount, put=__set_maxPoolElemCount))  maxPoolElemCount;
+
+constexpr void __set_maxPoolElemCount(int32_t value) ;
+
+constexpr int32_t __get_maxPoolElemCount() const;
+
+ Unity::Collections::NativeArray_1<T> __declspec(property(get=__get_pool, put=__set_pool))  pool;
+
+constexpr void __set_pool(Unity::Collections::NativeArray_1<T> value) ;
+
+constexpr Unity::Collections::NativeArray_1<T> __get_pool() const;
+
+ System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>> __declspec(property(get=__get_excess, put=__set_excess))  excess;
+
+constexpr void __set_excess(System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>> value) ;
+
+constexpr System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>> __get_excess() const;
+
+ uint32_t __declspec(property(get=__get_takenFromPool, put=__set_takenFromPool))  takenFromPool;
+
+constexpr void __set_takenFromPool(uint32_t value) ;
+
+constexpr uint32_t __get_takenFromPool() const;
+
+
+// Methods
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(int32_t maxPoolElems) ;
+
+/// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+ void Dispose() ;
+
+/// @brief Method Alloc addr 0x0 size 0xffffffffffffffff virtual false final false
+ Unity::Collections::NativeSlice_1<T> Alloc(uint32_t count) ;
 
 /// @brief Method SessionDone addr 0x0 size 0xffffffffffffffff virtual false final false
  void SessionDone() ;

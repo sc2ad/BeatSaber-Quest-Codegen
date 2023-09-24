@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Collections/Specialized/zzzz__CompatibleComparer_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Collections/zzzz__IHashCodeProvider_def.hpp"
 //  Writing Method size for method: System::Collections::Specialized::CompatibleComparer._ctor
 template<>
@@ -150,8 +150,10 @@ return ::cordl_internals::getInstanceField<System::Collections::IHashCodeProvide
  System::Collections::IHashCodeProvider System::Collections::Specialized::CompatibleComparer::__get_defaultHashProvider()  {
 return ::cordl_internals::getStaticField<System::Collections::IHashCodeProvider, "defaultHashProvider", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::CompatibleComparer>::get>();
 }
-// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::IComparer", modifiers: "", def_value: None }, CppParam { name: "hashCodeProvider", ty: "System::Collections::IHashCodeProvider", modifiers: "", def_value: None }]
- System::Collections::Specialized::CompatibleComparer::CompatibleComparer(System::Collections::IComparer comparer, System::Collections::IHashCodeProvider hashCodeProvider)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CompatibleComparer>(comparer, hashCodeProvider))) {}
+ System::Collections::Specialized::CompatibleComparer System::Collections::Specialized::CompatibleComparer::New_ctor(System::Collections::IComparer comparer, System::Collections::IHashCodeProvider hashCodeProvider)  {
+System::Collections::Specialized::CompatibleComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::CompatibleComparer>(comparer, hashCodeProvider))};
+return o;
+}
  void System::Collections::Specialized::CompatibleComparer::_ctor(System::Collections::IComparer comparer, System::Collections::IHashCodeProvider hashCodeProvider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::CompatibleComparer>::get(),

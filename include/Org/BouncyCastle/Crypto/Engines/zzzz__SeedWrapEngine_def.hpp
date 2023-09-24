@@ -47,8 +47,7 @@ constexpr explicit SeedWrapEngine(void* ptr) noexcept : Org::BouncyCastle::Crypt
 
 // Methods
 
-// Ctor Parameters []
-explicit SeedWrapEngine() ;
+static Org::BouncyCastle::Crypto::Engines::SeedWrapEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe56920 size 0x68 virtual false final false
  void _ctor() ;

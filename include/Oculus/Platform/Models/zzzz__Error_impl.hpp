@@ -35,8 +35,10 @@ constexpr void Oculus::Platform::Models::Error::__set_Message(::StringW value)  
 constexpr ::StringW Oculus::Platform::Models::Error::__get_Message() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "code", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "httpCode", ty: "int32_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::Error::Error(int32_t code, ::StringW message, int32_t httpCode)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Error>(code, message, httpCode))) {}
+ Oculus::Platform::Models::Error Oculus::Platform::Models::Error::New_ctor(int32_t code, ::StringW message, int32_t httpCode)  {
+Oculus::Platform::Models::Error o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::Error>(code, message, httpCode))};
+return o;
+}
  void Oculus::Platform::Models::Error::_ctor(int32_t code, ::StringW message, int32_t httpCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::Error>::get(),

@@ -6,10 +6,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Mono {
-struct MonoAssemblyName;
+struct SafeStringMarshal;
 }
 namespace Mono {
-struct SafeStringMarshal;
+struct MonoAssemblyName;
 }
 // Forward declare root types
 namespace Mono {

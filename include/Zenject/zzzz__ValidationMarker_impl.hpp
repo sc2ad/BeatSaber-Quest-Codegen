@@ -115,8 +115,10 @@ constexpr void Zenject::ValidationMarker::__set__MarkedType_k__BackingField(Syst
 constexpr System::Type Zenject::ValidationMarker::__get__MarkedType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "markedType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "instantiateFailed", ty: "bool", modifiers: "", def_value: None }]
- Zenject::ValidationMarker::ValidationMarker(System::Type markedType, bool instantiateFailed)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ValidationMarker>(markedType, instantiateFailed))) {}
+ Zenject::ValidationMarker Zenject::ValidationMarker::New_ctor(System::Type markedType, bool instantiateFailed)  {
+Zenject::ValidationMarker o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ValidationMarker>(markedType, instantiateFailed))};
+return o;
+}
  void Zenject::ValidationMarker::_ctor(System::Type markedType, bool instantiateFailed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ValidationMarker>::get(),
@@ -126,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, markedType, instantiateFailed);
 }
-// Ctor Parameters [CppParam { name: "markedType", ty: "System::Type", modifiers: "", def_value: None }]
- Zenject::ValidationMarker::ValidationMarker(System::Type markedType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ValidationMarker>(markedType))) {}
+ Zenject::ValidationMarker Zenject::ValidationMarker::New_ctor(System::Type markedType)  {
+Zenject::ValidationMarker o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ValidationMarker>(markedType))};
+return o;
+}
  void Zenject::ValidationMarker::_ctor(System::Type markedType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ValidationMarker>::get(),

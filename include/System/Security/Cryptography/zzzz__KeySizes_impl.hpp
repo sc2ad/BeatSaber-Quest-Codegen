@@ -147,8 +147,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "minSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "skipSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::Cryptography::KeySizes::KeySizes(int32_t minSize, int32_t maxSize, int32_t skipSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeySizes>(minSize, maxSize, skipSize))) {}
+ System::Security::Cryptography::KeySizes System::Security::Cryptography::KeySizes::New_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize)  {
+System::Security::Cryptography::KeySizes o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::KeySizes>(minSize, maxSize, skipSize))};
+return o;
+}
  void System::Security::Cryptography::KeySizes::_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::KeySizes>::get(),

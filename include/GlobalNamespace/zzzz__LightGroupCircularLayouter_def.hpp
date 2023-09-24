@@ -7,6 +7,9 @@
 namespace UnityEngine {
 struct Vector3;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__LightGroupCircularLayouter__RotationDirection;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__LightGroupCircularLayouter__RotationDirection;
@@ -63,6 +66,8 @@ __Counterclockwise = 1,
 constexpr operator __GlobalNamespace__LightGroupCircularLayouter__RotationDirection_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LightGroupCircularLayouter__RotationDirection_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -166,8 +171,7 @@ constexpr UnityEngine::Vector3 __get__additionalAngle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LightGroupCircularLayouter() ;
+static GlobalNamespace::LightGroupCircularLayouter New_ctor() ;
 
 /// @brief Method .ctor addr 0x225e5a0 size 0x68 virtual false final false
  void _ctor() ;

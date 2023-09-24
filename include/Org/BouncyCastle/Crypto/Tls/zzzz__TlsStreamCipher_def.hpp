@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class IStreamCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -106,8 +106,7 @@ constexpr bool __get_usesNonce() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteCipher", ty: "Org::BouncyCastle::Crypto::IStreamCipher", modifiers: "", def_value: None }, CppParam { name: "serverWriteCipher", ty: "Org::BouncyCastle::Crypto::IStreamCipher", modifiers: "", def_value: None }, CppParam { name: "clientWriteDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "serverWriteDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usesNonce", ty: "bool", modifiers: "", def_value: None }]
-explicit TlsStreamCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IStreamCipher clientWriteCipher, Org::BouncyCastle::Crypto::IStreamCipher serverWriteCipher, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest, int32_t cipherKeySize, bool usesNonce) ;
+static Org::BouncyCastle::Crypto::Tls::TlsStreamCipher New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IStreamCipher clientWriteCipher, Org::BouncyCastle::Crypto::IStreamCipher serverWriteCipher, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest, int32_t cipherKeySize, bool usesNonce) ;
 
 /// @brief Method .ctor addr 0xf2c60c size 0x6a0 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IStreamCipher clientWriteCipher, Org::BouncyCastle::Crypto::IStreamCipher serverWriteCipher, Org::BouncyCastle::Crypto::IDigest clientWriteDigest, Org::BouncyCastle::Crypto::IDigest serverWriteDigest, int32_t cipherKeySize, bool usesNonce) ;

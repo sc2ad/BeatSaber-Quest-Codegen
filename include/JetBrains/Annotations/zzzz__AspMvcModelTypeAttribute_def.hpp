@@ -47,8 +47,7 @@ constexpr explicit AspMvcModelTypeAttribute(void* ptr) noexcept : System::Attrib
 
 // Methods
 
-// Ctor Parameters []
-explicit AspMvcModelTypeAttribute() ;
+static JetBrains::Annotations::AspMvcModelTypeAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41118 size 0x8 virtual false final false
  void _ctor() ;

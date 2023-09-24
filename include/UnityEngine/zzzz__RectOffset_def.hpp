@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System {
+class IFormattable;
+}
 namespace UnityEngine {
 struct Rect;
 }
 namespace System {
 class IFormatProvider;
-}
-namespace System {
-class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -92,14 +92,12 @@ constexpr ::bs_hook::Il2CppWrapperType __get_m_SourceStyle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RectOffset() ;
+static UnityEngine::RectOffset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b516ac size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "sourceStyle", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit RectOffset(::bs_hook::Il2CppWrapperType sourceStyle, ::cordl_internals::intptr_t source) ;
+static UnityEngine::RectOffset New_ctor(::bs_hook::Il2CppWrapperType sourceStyle, ::cordl_internals::intptr_t source) ;
 
 /// @brief Method .ctor addr 0x2b5171c size 0x2c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType sourceStyle, ::cordl_internals::intptr_t source) ;
@@ -107,8 +105,7 @@ explicit RectOffset(::bs_hook::Il2CppWrapperType sourceStyle, ::cordl_internals:
 /// @brief Method Finalize addr 0x2b51748 size 0xa0 virtual true final false
  void Finalize() ;
 
-// Ctor Parameters [CppParam { name: "left", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "right", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "top", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bottom", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RectOffset(int32_t left, int32_t right, int32_t top, int32_t bottom) ;
+static UnityEngine::RectOffset New_ctor(int32_t left, int32_t right, int32_t top, int32_t bottom) ;
 
 /// @brief Method .ctor addr 0x2b51888 size 0x114 virtual false final false
  void _ctor(int32_t left, int32_t right, int32_t top, int32_t bottom) ;

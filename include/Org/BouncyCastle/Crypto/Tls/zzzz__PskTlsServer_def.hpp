@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsKeyExchange;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsEncryptionCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPskIdentityManager;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipherFactory;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsEncryptionCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -76,14 +76,12 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager __get_mPskIdenti
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pskIdentityManager", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager", modifiers: "", def_value: None }]
-explicit PskTlsServer(Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager) ;
+static Org::BouncyCastle::Crypto::Tls::PskTlsServer New_ctor(Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager) ;
 
 /// @brief Method .ctor addr 0xf0611c size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager) ;
 
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "pskIdentityManager", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager", modifiers: "", def_value: None }]
-explicit PskTlsServer(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager) ;
+static Org::BouncyCastle::Crypto::Tls::PskTlsServer New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager) ;
 
 /// @brief Method .ctor addr 0xf06198 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager) ;

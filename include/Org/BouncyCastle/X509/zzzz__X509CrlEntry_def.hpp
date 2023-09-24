@@ -9,16 +9,16 @@ namespace System {
 struct DateTime;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+class X509Name;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class CrlEntry;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -114,14 +114,12 @@ constexpr int32_t __get_hashValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Asn1::X509::CrlEntry", modifiers: "", def_value: None }]
-explicit X509CrlEntry(Org::BouncyCastle::Asn1::X509::CrlEntry c) ;
+static Org::BouncyCastle::X509::X509CrlEntry New_ctor(Org::BouncyCastle::Asn1::X509::CrlEntry c) ;
 
 /// @brief Method .ctor addr 0x10f368c size 0x34 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::CrlEntry c) ;
 
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Asn1::X509::CrlEntry", modifiers: "", def_value: None }, CppParam { name: "isIndirect", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "previousCertificateIssuer", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
-explicit X509CrlEntry(Org::BouncyCastle::Asn1::X509::CrlEntry c, bool isIndirect, Org::BouncyCastle::Asn1::X509::X509Name previousCertificateIssuer) ;
+static Org::BouncyCastle::X509::X509CrlEntry New_ctor(Org::BouncyCastle::Asn1::X509::CrlEntry c, bool isIndirect, Org::BouncyCastle::Asn1::X509::X509Name previousCertificateIssuer) ;
 
 /// @brief Method .ctor addr 0x10f1c18 size 0x4c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::CrlEntry c, bool isIndirect, Org::BouncyCastle::Asn1::X509::X509Name previousCertificateIssuer) ;

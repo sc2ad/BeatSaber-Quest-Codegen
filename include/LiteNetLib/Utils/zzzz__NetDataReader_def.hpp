@@ -6,15 +6,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Net {
+class IPEndPoint;
+}
 namespace System {
 template<typename T>
 struct ArraySegment_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace System::Net {
-class IPEndPoint;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
@@ -147,26 +147,22 @@ constexpr int32_t __get__offset() const;
 /// @brief Method SetSource addr 0x20875fc size 0x10 virtual false final false
  void SetSource(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize) ;
 
-// Ctor Parameters []
-explicit NetDataReader() ;
+static LiteNetLib::Utils::NetDataReader New_ctor() ;
 
 /// @brief Method .ctor addr 0x20874dc size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit NetDataReader(::ArrayW<uint8_t> source) ;
+static LiteNetLib::Utils::NetDataReader New_ctor(::ArrayW<uint8_t> source) ;
 
 /// @brief Method .ctor addr 0x2095248 size 0x40 virtual false final false
  void _ctor(::ArrayW<uint8_t> source) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NetDataReader(::ArrayW<uint8_t> source, int32_t offset) ;
+static LiteNetLib::Utils::NetDataReader New_ctor(::ArrayW<uint8_t> source, int32_t offset) ;
 
 /// @brief Method .ctor addr 0x2095288 size 0x44 virtual false final false
  void _ctor(::ArrayW<uint8_t> source, int32_t offset) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NetDataReader(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize) ;
+static LiteNetLib::Utils::NetDataReader New_ctor(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize) ;
 
 /// @brief Method .ctor addr 0x208f8c4 size 0x40 virtual false final false
  void _ctor(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize) ;

@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, path);
 }
-// Ctor Parameters []
- UnityEngine::AssetReferenceUIRestriction::AssetReferenceUIRestriction()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssetReferenceUIRestriction>())) {}
+ UnityEngine::AssetReferenceUIRestriction UnityEngine::AssetReferenceUIRestriction::New_ctor()  {
+UnityEngine::AssetReferenceUIRestriction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AssetReferenceUIRestriction>())};
+return o;
+}
  void UnityEngine::AssetReferenceUIRestriction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AssetReferenceUIRestriction>::get(),

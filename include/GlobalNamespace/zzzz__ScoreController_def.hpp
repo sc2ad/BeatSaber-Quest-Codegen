@@ -4,62 +4,62 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class ScoreMultiplierCounter;
+class GameplayModifierParamsSO;
+}
+namespace GlobalNamespace {
+class ScoringElement;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__BadCutScoringElement__Pool;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
 class GlobalNamespace__GoodCutScoringElement__Pool;
 }
 namespace GlobalNamespace {
-class GameplayModifierParamsSO;
+class IScoreController;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class ScoreMultiplierCounter;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class ScoringElement;
+class IGameEnergyCounter;
 }
 namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__MissScoringElement__Pool;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class IScoreController;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class PlayerHeadAndObstacleInteraction;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class GlobalNamespace__MissScoringElement__Pool;
 }
 namespace GlobalNamespace {
-class IGameEnergyCounter;
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -337,8 +337,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::ScoringElement> 
 /// @brief Method DespawnScoringElement addr 0x210f838 size 0x188 virtual false final false
  void DespawnScoringElement(GlobalNamespace::ScoringElement scoringElement) ;
 
-// Ctor Parameters []
-explicit ScoreController() ;
+static GlobalNamespace::ScoreController New_ctor() ;
 
 /// @brief Method .ctor addr 0x210ff04 size 0x174 virtual false final false
  void _ctor() ;

@@ -94,8 +94,7 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle __get_Triangle() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "point", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
-explicit AdvancingFrontNode(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;
+static UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;
 
 /// @brief Method .ctor addr 0x299d378 size 0x38 virtual false final false
  void _ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point) ;

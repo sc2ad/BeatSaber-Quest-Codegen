@@ -5,38 +5,41 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace UnityEngine {
-class AudioSource;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 class Saber;
 }
 namespace GlobalNamespace {
 template<typename T>
-class LazyCopyHashSet_1;
+class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
 class INoteCutSoundEffectDidFinishEvent;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 namespace GlobalNamespace {
 template<typename T>
 class ILazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-class NoteController;
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+template<typename T>
+class LazyCopyHashSet_1;
 }
 namespace UnityEngine {
 class AudioClip;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
+class GlobalNamespace__NoteCutSoundEffect__Pool;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace GlobalNamespace {
-template<typename T>
-class RandomObjectPicker_1;
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -290,8 +293,7 @@ static constexpr float_t  kEndFadeLength{0.01};
 /// @brief Method NoteWasCut addr 0x20bc2ec size 0x20c virtual false final false
  void NoteWasCut(GlobalNamespace::NoteController noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
-// Ctor Parameters []
-explicit NoteCutSoundEffect() ;
+static GlobalNamespace::NoteCutSoundEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bc4f8 size 0x84 virtual false final false
  void _ctor() ;
@@ -303,7 +305,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4055)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2719 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4055)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2719 }), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4054))
 // CS Name: NoteCutSoundEffect::Pool
 class CORDL_TYPE GlobalNamespace__NoteCutSoundEffect__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::NoteCutSoundEffect> {
@@ -342,8 +344,7 @@ constexpr explicit GlobalNamespace__NoteCutSoundEffect__Pool(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__NoteCutSoundEffect__Pool() ;
+static GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bc57c size 0x48 virtual false final false
  void _ctor() ;

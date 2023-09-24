@@ -1352,8 +1352,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Layouts::InputControlAttribute::InputControlAttribute()  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<InputControlAttribute>())) {}
+ UnityEngine::InputSystem::Layouts::InputControlAttribute UnityEngine::InputSystem::Layouts::InputControlAttribute::New_ctor()  {
+UnityEngine::InputSystem::Layouts::InputControlAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::InputControlAttribute>())};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::InputControlAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::InputControlAttribute>::get(),

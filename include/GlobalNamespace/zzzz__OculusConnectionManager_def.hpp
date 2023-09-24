@@ -12,64 +12,79 @@ class IConnectionInitParams_1;
 namespace GlobalNamespace {
 class OculusNetworkPlayerModel;
 }
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
 namespace GlobalNamespace {
 class IConnection;
 }
-namespace BGNet::Core {
-struct DeliveryMethod;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace Oculus::Platform {
-template<typename T>
-class Message_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace Oculus::Platform {
-struct SendPolicy;
-}
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System {
-class Action;
+struct GlobalNamespace__OculusConnectionManager___HandlePeerConnectionRequest_d__61;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace Oculus::Platform::Models {
-class NetworkingPeer;
+namespace GlobalNamespace {
+class IConnectionManager;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
 }
 namespace System {
 class IDisposable;
 }
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
 namespace GlobalNamespace {
-class IConnectionManager;
+struct GlobalNamespace__OculusConnectionManager__NetworkMode;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Action_3;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Message_1;
+}
+namespace Oculus::Platform {
+struct SendPolicy;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusConnectionManager__StartServerParams;
+}
+namespace Oculus::Platform::Models {
+class NetworkingPeer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusConnectionManager__ConnectToServerParams;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IPollable;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusConnectionManager__OculusConnection;
 }
 namespace System {
 template<typename T>
@@ -154,6 +169,8 @@ __Server = 2,
 constexpr operator __GlobalNamespace__OculusConnectionManager__NetworkMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OculusConnectionManager__NetworkMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -275,8 +292,7 @@ constexpr bool __get__isConnectionOwner() const;
 /// @brief Method get_isConnectionOwner addr 0x220bf54 size 0x8 virtual true final true
  bool get_isConnectionOwner() ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OculusConnectionManager__OculusConnection(uint64_t id, ::StringW userName, bool isConnectionOwner) ;
+static GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection New_ctor(uint64_t id, ::StringW userName, bool isConnectionOwner) ;
 
 /// @brief Method .ctor addr 0x220bf5c size 0xac virtual false final false
  void _ctor(uint64_t id, ::StringW userName, bool isConnectionOwner) ;
@@ -357,8 +373,7 @@ constexpr GlobalNamespace::OculusNetworkPlayerModel __get_oculusNetworkPlayerMod
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusConnectionManager__StartServerParams() ;
+static GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams New_ctor() ;
 
 /// @brief Method .ctor addr 0x220c340 size 0x8 virtual false final false
  void _ctor() ;
@@ -427,8 +442,7 @@ constexpr uint64_t __get_serverId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusConnectionManager__ConnectToServerParams() ;
+static GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams New_ctor() ;
 
 /// @brief Method .ctor addr 0x220c348 size 0x8 virtual false final false
  void _ctor() ;
@@ -827,8 +841,7 @@ static BGNet::Core::DeliveryMethod SendPolicyToDeliveryMethod(Oculus::Platform::
 /// @brief Method VoidHandler addr 0x220ae68 size 0x4 virtual false final false
 static void VoidHandler(Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer> message) ;
 
-// Ctor Parameters []
-explicit OculusConnectionManager() ;
+static GlobalNamespace::OculusConnectionManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x220ae6c size 0x10d0 virtual false final false
  void _ctor() ;

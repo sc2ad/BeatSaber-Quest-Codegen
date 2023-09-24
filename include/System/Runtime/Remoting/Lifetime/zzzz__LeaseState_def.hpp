@@ -59,6 +59,8 @@ constexpr operator __LeaseState_Unwrapped () const noexcept {
 return std::bit_cast<__LeaseState_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

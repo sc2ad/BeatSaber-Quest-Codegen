@@ -98,8 +98,7 @@ constexpr ::ArrayW<Org::BouncyCastle::Math::BigInteger> __get_knowledgeProofForX
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "gx1", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "gx2", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "knowledgeProofForX1", ty: "::ArrayW<Org::BouncyCastle::Math::BigInteger>", modifiers: "", def_value: None }, CppParam { name: "knowledgeProofForX2", ty: "::ArrayW<Org::BouncyCastle::Math::BigInteger>", modifiers: "", def_value: None }]
-explicit JPakeRound1Payload(::StringW participantId, Org::BouncyCastle::Math::BigInteger gx1, Org::BouncyCastle::Math::BigInteger gx2, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX2) ;
+static Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload New_ctor(::StringW participantId, Org::BouncyCastle::Math::BigInteger gx1, Org::BouncyCastle::Math::BigInteger gx2, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX2) ;
 
 /// @brief Method .ctor addr 0x1188858 size 0x19c virtual false final false
  void _ctor(::StringW participantId, Org::BouncyCastle::Math::BigInteger gx1, Org::BouncyCastle::Math::BigInteger gx2, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX2) ;

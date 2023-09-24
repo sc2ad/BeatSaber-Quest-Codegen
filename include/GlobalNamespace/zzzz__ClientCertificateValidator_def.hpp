@@ -67,8 +67,7 @@ constexpr explicit ClientCertificateValidator(void* ptr) noexcept : ::bs_hook::I
 /// @brief Method ValidateCertificateChainInternal addr 0xd9d690 size 0x1c8 virtual false final false
  void ValidateCertificateChainInternal(GlobalNamespace::DnsEndPoint endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2 certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain) ;
 
-// Ctor Parameters []
-explicit ClientCertificateValidator() ;
+static GlobalNamespace::ClientCertificateValidator New_ctor() ;
 
 /// @brief Method .ctor addr 0xd9d858 size 0x8 virtual false final false
  void _ctor() ;

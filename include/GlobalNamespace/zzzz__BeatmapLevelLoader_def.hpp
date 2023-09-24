@@ -4,37 +4,43 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class BeatmapLevelDataLoader;
+struct GlobalNamespace__BeatmapLevelLoader___LoadBeatmapLevelAsync_d__4;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class BeatmapLevelDataLoader;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
-class IBeatmapDataAssetFileModel;
+struct GlobalNamespace__BeatmapLevelLoader__LoadBeatmapLevelResult;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+class IBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
-}
-namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace GlobalNamespace {
+struct GetAssetBundleFileResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -285,8 +291,7 @@ constexpr GlobalNamespace::IBeatmapDataAssetFileModel __get__beatmapDataAssetFil
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beatmapLevelDataLoader", ty: "GlobalNamespace::BeatmapLevelDataLoader", modifiers: "", def_value: None }, CppParam { name: "beatmapDataAssetFileModel", ty: "GlobalNamespace::IBeatmapDataAssetFileModel", modifiers: "", def_value: None }]
-explicit BeatmapLevelLoader(GlobalNamespace::BeatmapLevelDataLoader beatmapLevelDataLoader, GlobalNamespace::IBeatmapDataAssetFileModel beatmapDataAssetFileModel) ;
+static GlobalNamespace::BeatmapLevelLoader New_ctor(GlobalNamespace::BeatmapLevelDataLoader beatmapLevelDataLoader, GlobalNamespace::IBeatmapDataAssetFileModel beatmapDataAssetFileModel) ;
 
 /// @brief Method .ctor addr 0x21e1794 size 0x2c virtual false final false
  void _ctor(GlobalNamespace::BeatmapLevelDataLoader beatmapLevelDataLoader, GlobalNamespace::IBeatmapDataAssetFileModel beatmapDataAssetFileModel) ;

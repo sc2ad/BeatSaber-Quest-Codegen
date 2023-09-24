@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System {
+struct DateTime;
+}
+namespace System {
 struct DayOfWeek;
 }
 namespace System {
 class ICloneable;
-}
-namespace System {
-struct DateTime;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -223,8 +223,7 @@ constexpr int32_t __get_twoDigitYearMax() const;
 /// @brief Method get_MaxSupportedDateTime addr 0x23ee5ec size 0x58 virtual true final false
  System::DateTime get_MaxSupportedDateTime() ;
 
-// Ctor Parameters []
-explicit Calendar() ;
+static System::Globalization::Calendar New_ctor() ;
 
 /// @brief Method .ctor addr 0x23ee644 size 0x14 virtual false final false
  void _ctor() ;

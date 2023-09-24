@@ -1,12 +1,12 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
-#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::JsonContainerContract.get_ItemContract
 template<>
 
@@ -346,8 +346,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::JsonContainerContract::JsonContainerContract(System::Type underlyingType)  : Newtonsoft::Json::Serialization::JsonContract(THROW_UNLESS(::il2cpp_utils::New<JsonContainerContract>(underlyingType))) {}
+ Newtonsoft::Json::Serialization::JsonContainerContract Newtonsoft::Json::Serialization::JsonContainerContract::New_ctor(System::Type underlyingType)  {
+Newtonsoft::Json::Serialization::JsonContainerContract o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::JsonContainerContract>(underlyingType))};
+return o;
+}
  void Newtonsoft::Json::Serialization::JsonContainerContract::_ctor(System::Type underlyingType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::JsonContainerContract>::get(),

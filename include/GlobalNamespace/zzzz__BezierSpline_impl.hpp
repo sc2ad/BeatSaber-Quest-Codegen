@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__BezierSpline_def.hpp"
-#include "GlobalNamespace/zzzz__BezierCurve_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BezierCurve_def.hpp"
+#include "GlobalNamespace/zzzz__BezierSpline_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BezierSpline__ComputeControlPointsResults._ctor
@@ -164,8 +165,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::Vector3,flo
  System::Func_2<UnityEngine::Vector3,float_t> GlobalNamespace::GlobalNamespace__BezierSpline____c::__get___9__8_2()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::Vector3,float_t>, "<>9__8_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BezierSpline____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BezierSpline____c::GlobalNamespace__BezierSpline____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BezierSpline____c>())) {}
+ GlobalNamespace::GlobalNamespace__BezierSpline____c GlobalNamespace::GlobalNamespace__BezierSpline____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BezierSpline____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BezierSpline____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BezierSpline____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BezierSpline____c>::get(),
@@ -422,8 +425,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__BezierSpline__ComputeControlPointsResults, false>(const_cast<void*>(instance), ___internal_method, k);
 }
-// Ctor Parameters []
- GlobalNamespace::BezierSpline::BezierSpline()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BezierSpline>())) {}
+ GlobalNamespace::BezierSpline GlobalNamespace::BezierSpline::New_ctor()  {
+GlobalNamespace::BezierSpline o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BezierSpline>())};
+return o;
+}
  void GlobalNamespace::BezierSpline::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BezierSpline>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_GeoGroup_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VertexEntry_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MeshData_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_GeoGroup.CompareTo
@@ -96,8 +96,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, indicesCount);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_GeoGroup::HEU_GeoGroup()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_GeoGroup>())) {}
+ HoudiniEngineUnity::HEU_GeoGroup HoudiniEngineUnity::HEU_GeoGroup::New_ctor()  {
+HoudiniEngineUnity::HEU_GeoGroup o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_GeoGroup>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_GeoGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_GeoGroup>::get(),

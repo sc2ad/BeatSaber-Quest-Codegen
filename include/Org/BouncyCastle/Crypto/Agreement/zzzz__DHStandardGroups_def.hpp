@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -322,8 +322,7 @@ static Org::BouncyCastle::Crypto::Parameters::DHParameters SafePrimeGen2(::Strin
 /// @brief Method SafePrimeGen2 addr 0x118ed48 size 0xd0 virtual false final false
 static Org::BouncyCastle::Crypto::Parameters::DHParameters SafePrimeGen2(::StringW hexP, int32_t l) ;
 
-// Ctor Parameters []
-explicit DHStandardGroups() ;
+static Org::BouncyCastle::Crypto::Agreement::DHStandardGroups New_ctor() ;
 
 /// @brief Method .ctor addr 0x118f2ac size 0x8 virtual false final false
  void _ctor() ;

@@ -3,27 +3,30 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace GlobalNamespace {
 class GameplayModifierInfoListItem;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+class GameplayModifierInfoListItemsList;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class GameplayModifierInfoListItemsList;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+class GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -83,8 +86,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GameplayModifier
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0() ;
+static GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x218c878 size 0x8 virtual false final false
  void _ctor() ;
@@ -164,8 +166,7 @@ constexpr GlobalNamespace::GameplayModifiersModelSO __get__gameplayModifiersMode
 /// @brief Method SetGameplayModifiers addr 0x218c70c size 0x16c virtual true final false
  void SetGameplayModifiers(GlobalNamespace::GameplayModifiers gameplayModifiers) ;
 
-// Ctor Parameters []
-explicit ModifiersSelectionView() ;
+static GlobalNamespace::ModifiersSelectionView New_ctor() ;
 
 /// @brief Method .ctor addr 0x218c880 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,60 +5,81 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class BeatmapLevelPackCollectionSO;
 }
 namespace GlobalNamespace {
-class IBeatmapLevel;
+class AdditionalContentModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelsModel___ReloadCustomLevelPackCollectionAsync_d__33;
+}
+namespace GlobalNamespace {
+class BeatmapLevelDataLoader;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPackCollection;
 }
 namespace GlobalNamespace {
-class IBeatmapDataAssetFileModel;
+class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-template<typename K,typename V>
-class HMCache_2;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class BeatmapLevelLoader;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
 class BeatmapLevelPackCollectionContainerSO;
 }
 namespace GlobalNamespace {
-class BeatmapLevelLoader;
+class IBeatmapLevelPack;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class IBeatmapDataAssetFileModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelsModel___GetBeatmapLevelAsync_d__39;
+}
+namespace GlobalNamespace {
+class AudioClipAsyncLoader;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapLevelsModel____c;
+}
+namespace GlobalNamespace {
+template<typename K,typename V>
+class HMCache_2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult;
 }
 namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
 }
 namespace GlobalNamespace {
-class BeatmapLevelDataLoader;
+struct GlobalNamespace__BeatmapLevelsModel__LevelDownloadingUpdate;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class AudioClipAsyncLoader;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class AdditionalContentModel;
-}
-namespace GlobalNamespace {
-class BeatmapLevelPackCollectionSO;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+class GlobalNamespace__BeatmapLevelsModel__InitData;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -69,24 +90,27 @@ template<typename T,typename TResult>
 class Func_2;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
+struct GlobalNamespace__BeatmapLevelsModel__LevelDownloadingUpdate__DownloadingState;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+namespace UnityEngine {
+class AudioClip;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
 }
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
 namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapLevelLoader__LoadBeatmapLevelResult;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -167,8 +191,7 @@ constexpr int32_t __get_maxCachedBeatmapLevels() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "maxCachedBeatmapLevels", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapLevelsModel__InitData(int32_t maxCachedBeatmapLevels) ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData New_ctor(int32_t maxCachedBeatmapLevels) ;
 
 /// @brief Method .ctor addr 0x21e6c30 size 0x28 virtual false final false
  void _ctor(int32_t maxCachedBeatmapLevels) ;
@@ -292,6 +315,8 @@ __Completed = 2,
 constexpr operator __GlobalNamespace__BeatmapLevelsModel__LevelDownloadingUpdate__DownloadingState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__BeatmapLevelsModel__LevelDownloadingUpdate__DownloadingState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -522,8 +547,7 @@ constexpr ::StringW __get_levelId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e66b4 size 0x8 virtual false final false
  void _ctor() ;
@@ -592,8 +616,7 @@ static System::Func_2<GlobalNamespace::IBeatmapLevelPack,System::Collections::Ge
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapLevelsModel____c() ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e6fdc size 0x8 virtual false final false
  void _ctor() ;
@@ -946,8 +969,7 @@ constexpr GlobalNamespace::BeatmapLevelLoader __get__beatmapLevelLoader() const;
 /// @brief Method UpdateAllLoadedBeatmapLevelPacks addr 0x21e6a38 size 0x174 virtual false final false
  void UpdateAllLoadedBeatmapLevelPacks() ;
 
-// Ctor Parameters []
-explicit BeatmapLevelsModel() ;
+static GlobalNamespace::BeatmapLevelsModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e6bac size 0x84 virtual false final false
  void _ctor() ;

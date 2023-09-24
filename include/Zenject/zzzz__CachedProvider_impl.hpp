@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__CachedProvider_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 //  Writing Method size for method: Zenject::CachedProvider._ctor
 template<>
 
@@ -147,8 +147,10 @@ constexpr void Zenject::CachedProvider::__set__isCreatingInstance(bool value)  {
 constexpr bool Zenject::CachedProvider::__get__isCreatingInstance() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "creator", ty: "Zenject::IProvider", modifiers: "", def_value: None }]
- Zenject::CachedProvider::CachedProvider(Zenject::IProvider creator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CachedProvider>(creator))) {}
+ Zenject::CachedProvider Zenject::CachedProvider::New_ctor(Zenject::IProvider creator)  {
+Zenject::CachedProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::CachedProvider>(creator))};
+return o;
+}
  void Zenject::CachedProvider::_ctor(Zenject::IProvider creator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::CachedProvider>::get(),

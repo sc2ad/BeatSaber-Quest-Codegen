@@ -6,43 +6,43 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace RootMotion::FinalIK {
-class IKMappingLimb;
-}
-namespace RootMotion {
-class BipedLimbOrientations;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedChain;
-}
-namespace RootMotion {
-class BipedReferences;
-}
-namespace RootMotion::FinalIK {
-class IKMappingSpine;
-}
-namespace RootMotion::FinalIK {
-class IKMappingBone;
-}
-namespace RootMotion::FinalIK {
 class IKConstraintBend;
 }
 namespace RootMotion {
-class RootMotion__BipedLimbOrientations__LimbOrientation;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
-}
-namespace UnityEngine {
-class Transform;
+class BipedReferences;
 }
 namespace RootMotion::FinalIK {
 class IKEffector;
 }
 namespace RootMotion::FinalIK {
 class FBIKChain;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class IKMappingLimb;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedEffector;
+}
+namespace RootMotion {
+class BipedLimbOrientations;
+}
+namespace RootMotion {
+class RootMotion__BipedLimbOrientations__LimbOrientation;
+}
+namespace RootMotion::FinalIK {
+class IKMappingBone;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class IKMappingSpine;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedChain;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -305,8 +305,7 @@ static bool Contains(::ArrayW<UnityEngine::Transform> array, UnityEngine::Transf
 /// @brief Method WritePose addr 0x11dea18 size 0x78 virtual true final false
  void WritePose() ;
 
-// Ctor Parameters []
-explicit IKSolverFullBodyBiped() ;
+static RootMotion::FinalIK::IKSolverFullBodyBiped New_ctor() ;
 
 /// @brief Method .ctor addr 0x11dea90 size 0xc virtual false final false
  void _ctor() ;

@@ -2,8 +2,8 @@
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/zzzz__UriTypeConverter_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 //  Writing Method size for method: System::UriTypeConverter._ctor
 template<>
 
@@ -106,8 +106,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::UriTypeConverter::UriTypeConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<UriTypeConverter>())) {}
+ System::UriTypeConverter System::UriTypeConverter::New_ctor()  {
+System::UriTypeConverter o{THROW_UNLESS(::il2cpp_utils::New<System::UriTypeConverter>())};
+return o;
+}
  void System::UriTypeConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UriTypeConverter>::get(),

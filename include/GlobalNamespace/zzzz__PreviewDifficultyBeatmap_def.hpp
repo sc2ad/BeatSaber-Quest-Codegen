@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
@@ -112,8 +112,7 @@ constexpr GlobalNamespace::BeatmapDifficulty __get__beatmapDifficulty_k__Backing
 /// @brief Method set_beatmapDifficulty addr 0x21ecf4c size 0x8 virtual false final false
  void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value) ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }]
-explicit PreviewDifficultyBeatmap(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty) ;
+static GlobalNamespace::PreviewDifficultyBeatmap New_ctor(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty) ;
 
 /// @brief Method .ctor addr 0x21e29ac size 0x3c virtual false final false
  void _ctor(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty) ;

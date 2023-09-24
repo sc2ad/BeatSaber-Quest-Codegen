@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LevelGameplaySetupData_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LevelGameplaySetupData.get_beatmapLevel
 template<>
 
@@ -156,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GameplayModifiers, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelGameplaySetupData::LevelGameplaySetupData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LevelGameplaySetupData>())) {}
+ GlobalNamespace::LevelGameplaySetupData GlobalNamespace::LevelGameplaySetupData::New_ctor()  {
+GlobalNamespace::LevelGameplaySetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelGameplaySetupData>())};
+return o;
+}
  void GlobalNamespace::LevelGameplaySetupData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelGameplaySetupData>::get(),
@@ -167,8 +169,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "GlobalNamespace::PreviewDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }]
- GlobalNamespace::LevelGameplaySetupData::LevelGameplaySetupData(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LevelGameplaySetupData>(beatmapLevel, gameplayModifiers))) {}
+ GlobalNamespace::LevelGameplaySetupData GlobalNamespace::LevelGameplaySetupData::New_ctor(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers)  {
+GlobalNamespace::LevelGameplaySetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelGameplaySetupData>(beatmapLevel, gameplayModifiers))};
+return o;
+}
  void GlobalNamespace::LevelGameplaySetupData::_ctor(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelGameplaySetupData>::get(),

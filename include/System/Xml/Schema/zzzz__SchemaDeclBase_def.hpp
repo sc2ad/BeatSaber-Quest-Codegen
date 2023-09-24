@@ -5,17 +5,20 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Xml::Schema {
-class XmlSchemaDatatype;
+struct System__Xml__Schema__SchemaDeclBase__Use;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System::Xml {
 class XmlQualifiedName;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -76,6 +79,8 @@ __RequiredFixed = 4,
 constexpr operator __System__Xml__Schema__SchemaDeclBase__Use_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__Schema__SchemaDeclBase__Use_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -239,14 +244,12 @@ constexpr System::Collections::Generic::List_1<::StringW> __get_values() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SchemaDeclBase(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
+static System::Xml::Schema::SchemaDeclBase New_ctor(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
 
 /// @brief Method .ctor addr 0x27309f0 size 0x88 virtual false final false
  void _ctor(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
 
-// Ctor Parameters []
-explicit SchemaDeclBase() ;
+static System::Xml::Schema::SchemaDeclBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2730a7c size 0x68 virtual false final false
  void _ctor() ;

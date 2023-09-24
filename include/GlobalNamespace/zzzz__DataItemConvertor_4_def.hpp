@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TBase,::cordl_internals::il2cpp_reference_type TIn,::cordl_internals::il2cpp_reference_type TOut,::cordl_internals::il2cpp_reference_type TParam>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4318)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4318), inst: 1117 }), TypeDefinitionIndex(TypeDefinitionIndex(4319))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4319)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4318), inst: 1117 }), TypeDefinitionIndex(TypeDefinitionIndex(4318))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4319), inst: 5937 })
 // CS Name: DataItemConvertor`4
 class CORDL_TYPE DataItemConvertor_4<TBase,TIn,TOut,TParam> : public GlobalNamespace::DataItemConvertor_2<TBase,TParam> {
@@ -73,8 +73,7 @@ constexpr explicit DataItemConvertor_4(void* ptr) noexcept : GlobalNamespace::Da
 /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
  TOut Convert(TIn item, TParam param) ;
 
-// Ctor Parameters []
-explicit DataItemConvertor_4() ;
+static GlobalNamespace::DataItemConvertor_4<TBase,TIn,TOut,TParam> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

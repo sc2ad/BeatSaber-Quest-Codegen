@@ -24,8 +24,10 @@ constexpr void UnityEngine::Timeline::CustomStyleAttribute::__set_ussStyle(::Str
 constexpr ::StringW UnityEngine::Timeline::CustomStyleAttribute::__get_ussStyle() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ussStyle", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Timeline::CustomStyleAttribute::CustomStyleAttribute(::StringW ussStyle)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<CustomStyleAttribute>(ussStyle))) {}
+ UnityEngine::Timeline::CustomStyleAttribute UnityEngine::Timeline::CustomStyleAttribute::New_ctor(::StringW ussStyle)  {
+UnityEngine::Timeline::CustomStyleAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::CustomStyleAttribute>(ussStyle))};
+return o;
+}
  void UnityEngine::Timeline::CustomStyleAttribute::_ctor(::StringW ussStyle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::CustomStyleAttribute>::get(),

@@ -1,12 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerDuelScoreManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreItem_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerDuelScoreManager.Start
 template<>
 
@@ -222,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newState);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerDuelScoreManager::MultiplayerDuelScoreManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerDuelScoreManager>())) {}
+ GlobalNamespace::MultiplayerDuelScoreManager GlobalNamespace::MultiplayerDuelScoreManager::New_ctor()  {
+GlobalNamespace::MultiplayerDuelScoreManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerDuelScoreManager>())};
+return o;
+}
  void GlobalNamespace::MultiplayerDuelScoreManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerDuelScoreManager>::get(),

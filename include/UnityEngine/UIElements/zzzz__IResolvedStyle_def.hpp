@@ -2,26 +2,26 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::UIElements {
+struct Scale;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::UIElements {
-struct WhiteSpace;
-}
-namespace UnityEngine::UIElements {
-struct Scale;
-}
-namespace UnityEngine::UIElements {
-struct StyleFloat;
-}
-namespace UnityEngine::UIElements {
-struct DisplayStyle;
+struct Visibility;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::UIElements {
-struct Visibility;
+struct WhiteSpace;
+}
+namespace UnityEngine::UIElements {
+struct DisplayStyle;
+}
+namespace UnityEngine::UIElements {
+struct StyleFloat;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

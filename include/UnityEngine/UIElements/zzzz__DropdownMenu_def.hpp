@@ -7,11 +7,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__DropdownMenuAction__Status;
-}
-namespace UnityEngine::UIElements {
-class DropdownMenuAction;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -22,13 +20,15 @@ class DropdownMenuItem;
 namespace UnityEngine::UIElements {
 class DropdownMenuEventInfo;
 }
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__DropdownMenuAction__Status;
+}
+namespace UnityEngine::UIElements {
+class DropdownMenuAction;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

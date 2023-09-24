@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-// Ctor Parameters []
- GlobalNamespace::GameServerBrowserFlowCoordinator::GameServerBrowserFlowCoordinator()  : HMUI::FlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<GameServerBrowserFlowCoordinator>())) {}
+ GlobalNamespace::GameServerBrowserFlowCoordinator GlobalNamespace::GameServerBrowserFlowCoordinator::New_ctor()  {
+GlobalNamespace::GameServerBrowserFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameServerBrowserFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::GameServerBrowserFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameServerBrowserFlowCoordinator>::get(),

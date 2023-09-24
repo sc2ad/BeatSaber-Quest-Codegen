@@ -67,8 +67,7 @@ constexpr bool __get__UseXPlatformAuth_k__BackingField() const;
 /// @brief Method set_UseXPlatformAuth addr 0xdd0e00 size 0xc virtual false final false
  void set_UseXPlatformAuth(bool value) ;
 
-// Ctor Parameters []
-explicit XPlatformAuthFeatureFlag() ;
+static GlobalNamespace::XPlatformAuthFeatureFlag New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd0e0c size 0x8 virtual false final false
  void _ctor() ;

@@ -93,8 +93,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_DefaultValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "optional", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "memberName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "memberType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "defaultValue", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "sourceType", ty: "Zenject::InjectSources", modifiers: "", def_value: None }]
-explicit InjectableInfo(bool optional, ::bs_hook::Il2CppWrapperType identifier, ::StringW memberName, System::Type memberType, ::bs_hook::Il2CppWrapperType defaultValue, Zenject::InjectSources sourceType) ;
+static Zenject::InjectableInfo New_ctor(bool optional, ::bs_hook::Il2CppWrapperType identifier, ::StringW memberName, System::Type memberType, ::bs_hook::Il2CppWrapperType defaultValue, Zenject::InjectSources sourceType) ;
 
 /// @brief Method .ctor addr 0x2d40258 size 0x5c virtual false final false
  void _ctor(bool optional, ::bs_hook::Il2CppWrapperType identifier, ::StringW memberName, System::Type memberType, ::bs_hook::Il2CppWrapperType defaultValue, Zenject::InjectSources sourceType) ;

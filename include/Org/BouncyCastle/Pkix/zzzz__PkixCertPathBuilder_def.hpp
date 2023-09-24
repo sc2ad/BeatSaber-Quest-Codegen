@@ -7,14 +7,14 @@ class IList;
 namespace Org::BouncyCastle::Pkix {
 class PkixBuilderParameters;
 }
-namespace System {
-class Exception;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPathBuilderResult;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -77,8 +77,7 @@ constexpr System::Exception __get_certPathException() const;
 /// @brief Method Build addr 0x1067104 size 0xbb4 virtual true final false
  Org::BouncyCastle::Pkix::PkixCertPathBuilderResult Build(Org::BouncyCastle::X509::X509Certificate tbvCert, Org::BouncyCastle::Pkix::PkixBuilderParameters pkixParams, System::Collections::IList tbvPath) ;
 
-// Ctor Parameters []
-explicit PkixCertPathBuilder() ;
+static Org::BouncyCastle::Pkix::PkixCertPathBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1067cc0 size 0x8 virtual false final false
  void _ctor() ;

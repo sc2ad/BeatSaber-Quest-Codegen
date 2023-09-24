@@ -154,32 +154,27 @@ constexpr uint64_t __get_f0() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Blake2bDigest() ;
+static Org::BouncyCastle::Crypto::Digests::Blake2bDigest New_ctor() ;
 
 /// @brief Method .ctor addr 0x11922fc size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::Digests::Blake2bDigest", modifiers: "", def_value: None }]
-explicit Blake2bDigest(Org::BouncyCastle::Crypto::Digests::Blake2bDigest digest) ;
+static Org::BouncyCastle::Crypto::Digests::Blake2bDigest New_ctor(Org::BouncyCastle::Crypto::Digests::Blake2bDigest digest) ;
 
 /// @brief Method .ctor addr 0x1192420 size 0x134 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::Blake2bDigest digest) ;
 
-// Ctor Parameters [CppParam { name: "digestSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Blake2bDigest(int32_t digestSize) ;
+static Org::BouncyCastle::Crypto::Digests::Blake2bDigest New_ctor(int32_t digestSize) ;
 
 /// @brief Method .ctor addr 0x1192304 size 0x11c virtual false final false
  void _ctor(int32_t digestSize) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Blake2bDigest(::ArrayW<uint8_t> key) ;
+static Org::BouncyCastle::Crypto::Digests::Blake2bDigest New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0x1192800 size 0x164 virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "digestLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "personalization", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Blake2bDigest(::ArrayW<uint8_t> key, int32_t digestLength, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> personalization) ;
+static Org::BouncyCastle::Crypto::Digests::Blake2bDigest New_ctor(::ArrayW<uint8_t> key, int32_t digestLength, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> personalization) ;
 
 /// @brief Method .ctor addr 0x1192964 size 0x268 virtual false final false
  void _ctor(::ArrayW<uint8_t> key, int32_t digestLength, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> personalization) ;

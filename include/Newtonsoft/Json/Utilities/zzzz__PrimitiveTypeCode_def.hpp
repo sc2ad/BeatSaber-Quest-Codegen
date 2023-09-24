@@ -96,6 +96,8 @@ constexpr operator __PrimitiveTypeCode_Unwrapped () const noexcept {
 return std::bit_cast<__PrimitiveTypeCode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

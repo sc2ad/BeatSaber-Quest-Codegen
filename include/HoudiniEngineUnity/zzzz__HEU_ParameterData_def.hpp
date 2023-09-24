@@ -6,33 +6,33 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 class AnimationCurve;
 }
-namespace UnityEngine {
-class GUIContent;
-}
 namespace HoudiniEngineUnity {
-struct HAPI_ParmInfo;
-}
-namespace UnityEngine {
-class Gradient;
+template<typename T>
+class IEquivable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
+struct HAPI_ParmInfo;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class GUIContent;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace HoudiniEngineUnity {
 class HEU_InputNode;
 }
 namespace UnityEngine {
-struct Vector3;
+class Gradient;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -335,8 +335,7 @@ constexpr bool __get__hasAssetPathTag() const;
 /// @brief Method IsEquivalentTo addr 0x201fd24 size 0x71c virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_ParameterData other) ;
 
-// Ctor Parameters []
-explicit HEU_ParameterData() ;
+static HoudiniEngineUnity::HEU_ParameterData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2020440 size 0x7c virtual false final false
  void _ctor() ;

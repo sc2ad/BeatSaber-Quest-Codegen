@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__DifficultyBeatmapSet_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DifficultyBeatmapSet.get_beatmapCharacteristic
 template<>
@@ -89,8 +89,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmaps", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap>", modifiers: "", def_value: None }]
- GlobalNamespace::DifficultyBeatmapSet::DifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> difficultyBeatmaps)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DifficultyBeatmapSet>(beatmapCharacteristic, difficultyBeatmaps))) {}
+ GlobalNamespace::DifficultyBeatmapSet GlobalNamespace::DifficultyBeatmapSet::New_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> difficultyBeatmaps)  {
+GlobalNamespace::DifficultyBeatmapSet o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DifficultyBeatmapSet>(beatmapCharacteristic, difficultyBeatmaps))};
+return o;
+}
  void GlobalNamespace::DifficultyBeatmapSet::_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> difficultyBeatmaps)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DifficultyBeatmapSet>::get(),

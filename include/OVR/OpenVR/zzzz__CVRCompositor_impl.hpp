@@ -1,18 +1,18 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRCompositor_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRCompositor_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRSubmitFlags_def.hpp"
-#include "OVR/OpenVR/zzzz__EVREye_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
-#include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
-#include "OVR/OpenVR/zzzz__TrackedDevicePose_t_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRCompositorTimingMode_def.hpp"
-#include "OVR/OpenVR/zzzz__Compositor_FrameTiming_def.hpp"
 #include "OVR/OpenVR/zzzz__Compositor_CumulativeStats_def.hpp"
-#include "OVR/OpenVR/zzzz__Texture_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRCompositorTimingMode_def.hpp"
+#include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
+#include "OVR/OpenVR/zzzz__Compositor_FrameTiming_def.hpp"
+#include "OVR/OpenVR/zzzz__EVREye_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRCompositorError_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRCompositor_def.hpp"
+#include "OVR/OpenVR/zzzz__TrackedDevicePose_t_def.hpp"
+#include "OVR/OpenVR/zzzz__Texture_t_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRCompositor._ctor
 template<>
 
@@ -767,8 +767,10 @@ constexpr void OVR::OpenVR::CVRCompositor::__set_FnTable(OVR::OpenVR::IVRComposi
 constexpr OVR::OpenVR::IVRCompositor OVR::OpenVR::CVRCompositor::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRCompositor, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRCompositor::CVRCompositor(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRCompositor>(pInterface))) {}
+ OVR::OpenVR::CVRCompositor OVR::OpenVR::CVRCompositor::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRCompositor o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRCompositor>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRCompositor::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRCompositor>::get(),

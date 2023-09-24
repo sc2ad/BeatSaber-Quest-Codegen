@@ -4,11 +4,11 @@
 namespace UnityEngine {
 class Texture2D;
 }
-namespace UnityEngine::UIElements {
-class VectorImage;
-}
 namespace UnityEngine {
 class RenderTexture;
+}
+namespace UnityEngine::UIElements {
+class VectorImage;
 }
 namespace UnityEngine {
 class Sprite;

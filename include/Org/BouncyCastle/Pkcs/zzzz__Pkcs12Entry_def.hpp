@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -81,8 +81,7 @@ constexpr System::Collections::IDictionary __get_attributes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "attributes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit Pkcs12Entry(System::Collections::IDictionary attributes) ;
+static Org::BouncyCastle::Pkcs::Pkcs12Entry New_ctor(System::Collections::IDictionary attributes) ;
 
 /// @brief Method .ctor addr 0x1049224 size 0x54c virtual false final false
  void _ctor(System::Collections::IDictionary attributes) ;

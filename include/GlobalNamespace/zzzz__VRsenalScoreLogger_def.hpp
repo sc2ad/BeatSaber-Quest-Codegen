@@ -3,27 +3,30 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
 class YieldInstruction;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class ILevelEndActions;
 }
 namespace GlobalNamespace {
 class IScoreController;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class GlobalNamespace__VRsenalScoreLogger___Start_d__3;
 }
 namespace GlobalNamespace {
-class ILevelEndActions;
+class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,8 +120,7 @@ constexpr UnityEngine::YieldInstruction __get__yieldInstruction_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VRsenalScoreLogger___Start_d__3(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__VRsenalScoreLogger___Start_d__3 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20b0080 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -219,8 +221,7 @@ constexpr GlobalNamespace::ILevelEndActions __get__levelEndActions() const;
 /// @brief Method LogScore addr 0x20b01b4 size 0x134 virtual false final false
  void LogScore() ;
 
-// Ctor Parameters []
-explicit VRsenalScoreLogger() ;
+static GlobalNamespace::VRsenalScoreLogger New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b02e8 size 0x8 virtual false final false
  void _ctor() ;

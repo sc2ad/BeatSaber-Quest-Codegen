@@ -18,27 +18,33 @@ class HashSet_1;
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
+class UnityEngine__ProBuilder__WingedEdge____c__DisplayClass32_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__WingedEdge____c;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::ProBuilder {
+struct EdgeLookup;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -101,8 +107,7 @@ constexpr System::Collections::Generic::HashSet_1<int32_t> __get_common() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__WingedEdge____c__DisplayClass32_0() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__WingedEdge____c__DisplayClass32_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f0988 size 0x8 virtual false final false
  void _ctor() ;
@@ -177,8 +182,7 @@ static System::Func_2<UnityEngine::ProBuilder::Edge,int32_t> __get___9__32_2() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__WingedEdge____c() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__WingedEdge____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f1340 size 0x8 virtual false final false
  void _ctor() ;
@@ -324,8 +328,7 @@ constexpr UnityEngine::ProBuilder::WingedEdge __get__opposite_k__BackingField() 
 /// @brief Method set_opposite addr 0x29ef804 size 0x8 virtual false final false
  void set_opposite(UnityEngine::ProBuilder::WingedEdge value) ;
 
-// Ctor Parameters []
-explicit WingedEdge() ;
+static UnityEngine::ProBuilder::WingedEdge New_ctor() ;
 
 /// @brief Method .ctor addr 0x29ef80c size 0x8 virtual false final false
  void _ctor() ;

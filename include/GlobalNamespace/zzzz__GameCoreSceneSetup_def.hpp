@@ -3,10 +3,10 @@
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class BloomFogSO;
+class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class BloomFogSO;
 }
 namespace GlobalNamespace {
 class ScreenCaptureAfterDelay;
@@ -84,8 +84,7 @@ static constexpr float_t  kPauseButtonPressDurationMultiplier{0.75};
 /// @brief Method InstallBindings addr 0x21b4d9c size 0x46c virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit GameCoreSceneSetup() ;
+static GlobalNamespace::GameCoreSceneSetup New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b5208 size 0x8 virtual false final false
  void _ctor() ;

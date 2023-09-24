@@ -8,35 +8,35 @@
 namespace System::Runtime::Remoting::Contexts {
 class Context;
 }
-namespace System::Runtime::Remoting {
-class ClientIdentity;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
-}
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Remoting {
-class Identity;
-}
 namespace System::Runtime::Remoting::Messaging {
 class MonoMethodMessage;
 }
 namespace System {
 class Type;
 }
+namespace System::Runtime::Remoting {
+class Identity;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
+namespace System::Runtime::Remoting {
+class ClientIdentity;
+}
 namespace System {
 class MarshalByRefObject;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Exception;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodReturnMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {
@@ -140,26 +140,22 @@ constexpr ::bs_hook::Il2CppWrapperType __get__stubData() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RealProxy() ;
+static System::Runtime::Remoting::Proxies::RealProxy New_ctor() ;
 
 /// @brief Method .ctor addr 0x232b430 size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "classToProxy", ty: "System::Type", modifiers: "", def_value: None }]
-explicit RealProxy(System::Type classToProxy) ;
+static System::Runtime::Remoting::Proxies::RealProxy New_ctor(System::Type classToProxy) ;
 
 /// @brief Method .ctor addr 0x232b440 size 0x60 virtual false final false
  void _ctor(System::Type classToProxy) ;
 
-// Ctor Parameters [CppParam { name: "classToProxy", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "System::Runtime::Remoting::ClientIdentity", modifiers: "", def_value: None }]
-explicit RealProxy(System::Type classToProxy, System::Runtime::Remoting::ClientIdentity identity) ;
+static System::Runtime::Remoting::Proxies::RealProxy New_ctor(System::Type classToProxy, System::Runtime::Remoting::ClientIdentity identity) ;
 
 /// @brief Method .ctor addr 0x232b5d0 size 0x6c virtual false final false
  void _ctor(System::Type classToProxy, System::Runtime::Remoting::ClientIdentity identity) ;
 
-// Ctor Parameters [CppParam { name: "classToProxy", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "stub", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "stubData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit RealProxy(System::Type classToProxy, ::cordl_internals::intptr_t stub, ::bs_hook::Il2CppWrapperType stubData) ;
+static System::Runtime::Remoting::Proxies::RealProxy New_ctor(System::Type classToProxy, ::cordl_internals::intptr_t stub, ::bs_hook::Il2CppWrapperType stubData) ;
 
 /// @brief Method .ctor addr 0x232b4a0 size 0x130 virtual false final false
  void _ctor(System::Type classToProxy, ::cordl_internals::intptr_t stub, ::bs_hook::Il2CppWrapperType stubData) ;

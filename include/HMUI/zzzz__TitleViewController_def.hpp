@@ -63,8 +63,7 @@ constexpr TMPro::TextMeshProUGUI __get__text() const;
 /// @brief Method SetText addr 0x1fb95d8 size 0x24 virtual false final false
  void SetText(::StringW text) ;
 
-// Ctor Parameters []
-explicit TitleViewController() ;
+static HMUI::TitleViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb95fc size 0x8 virtual false final false
  void _ctor() ;

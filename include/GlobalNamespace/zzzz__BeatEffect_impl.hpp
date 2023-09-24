@@ -2,14 +2,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatEffectDidFinishEvent_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatEffect.get_didFinishEvent
 template<>
@@ -172,8 +173,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, deltaTime);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatEffect::BeatEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatEffect>())) {}
+ GlobalNamespace::BeatEffect GlobalNamespace::BeatEffect::New_ctor()  {
+GlobalNamespace::BeatEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatEffect>())};
+return o;
+}
  void GlobalNamespace::BeatEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatEffect>::get(),
@@ -200,8 +203,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatEffect__Pool::GlobalNamespace__BeatEffect__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::BeatEffect>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatEffect__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__BeatEffect__Pool GlobalNamespace::GlobalNamespace__BeatEffect__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatEffect__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatEffect__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatEffect__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatEffect__Pool>::get(),

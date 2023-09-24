@@ -188,14 +188,12 @@ static ::ArrayW<::StringW> __get_HEBREW_LEAP_MONTH_NAMES() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit CalendarData() ;
+static System::Globalization::CalendarData New_ctor() ;
 
 /// @brief Method .ctor addr 0x23eef00 size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "localeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "calendarId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bUseUserOverrides", ty: "bool", modifiers: "", def_value: None }]
-explicit CalendarData(::StringW localeName, int32_t calendarId, bool bUseUserOverrides) ;
+static System::Globalization::CalendarData New_ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides) ;
 
 /// @brief Method .ctor addr 0x23f043c size 0x564 virtual false final false
  void _ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides) ;

@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -66,8 +66,7 @@ constexpr explicit HEU_AssetEventReceiverTest(void* ptr) noexcept : UnityEngine:
 /// @brief Method BakedCallback addr 0x1fda814 size 0x1ac virtual false final false
  void BakedCallback(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject> outputList) ;
 
-// Ctor Parameters []
-explicit HEU_AssetEventReceiverTest() ;
+static GlobalNamespace::HEU_AssetEventReceiverTest New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fda9c0 size 0x8 virtual false final false
  void _ctor() ;

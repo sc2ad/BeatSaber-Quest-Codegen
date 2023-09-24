@@ -131,8 +131,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::BigInteger, false>(nullptr, ___internal_method, modulus);
 }
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "modulus", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "exponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters::RsaKeyParameters(bool isPrivate, Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger exponent)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<RsaKeyParameters>(isPrivate, modulus, exponent))) {}
+ Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters::New_ctor(bool isPrivate, Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger exponent)  {
+Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters>(isPrivate, modulus, exponent))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters::_ctor(bool isPrivate, Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger exponent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters>::get(),

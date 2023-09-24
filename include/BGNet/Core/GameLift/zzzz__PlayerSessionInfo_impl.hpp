@@ -67,8 +67,10 @@ constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__set_privateGameCode(:
 constexpr ::StringW BGNet::Core::GameLift::PlayerSessionInfo::__get_privateGameCode() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- BGNet::Core::GameLift::PlayerSessionInfo::PlayerSessionInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerSessionInfo>())) {}
+ BGNet::Core::GameLift::PlayerSessionInfo BGNet::Core::GameLift::PlayerSessionInfo::New_ctor()  {
+BGNet::Core::GameLift::PlayerSessionInfo o{THROW_UNLESS(::il2cpp_utils::New<BGNet::Core::GameLift::PlayerSessionInfo>())};
+return o;
+}
  void BGNet::Core::GameLift::PlayerSessionInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BGNet::Core::GameLift::PlayerSessionInfo>::get(),

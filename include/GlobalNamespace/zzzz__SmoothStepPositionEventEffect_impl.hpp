@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SmoothStepPositionEventEffect_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "Tweening/zzzz__Vector3Tween_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "Tweening/zzzz__Vector3Tween_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SmoothStepPositionEventEffect.Awake
 template<>
 
@@ -254,8 +254,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, position);
 }
-// Ctor Parameters []
- GlobalNamespace::SmoothStepPositionEventEffect::SmoothStepPositionEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SmoothStepPositionEventEffect>())) {}
+ GlobalNamespace::SmoothStepPositionEventEffect GlobalNamespace::SmoothStepPositionEventEffect::New_ctor()  {
+GlobalNamespace::SmoothStepPositionEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SmoothStepPositionEventEffect>())};
+return o;
+}
  void GlobalNamespace::SmoothStepPositionEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SmoothStepPositionEventEffect>::get(),

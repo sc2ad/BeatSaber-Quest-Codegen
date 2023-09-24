@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__EmptyGameObjectProvider_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: Zenject::EmptyGameObjectProvider._ctor
@@ -109,8 +109,10 @@ constexpr void Zenject::EmptyGameObjectProvider::__set__gameObjectBindInfo(Zenje
 constexpr Zenject::GameObjectCreationParameters Zenject::EmptyGameObjectProvider::__get__gameObjectBindInfo() const {
 return ::cordl_internals::getInstanceField<Zenject::GameObjectCreationParameters, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
- Zenject::EmptyGameObjectProvider::EmptyGameObjectProvider(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EmptyGameObjectProvider>(container, gameObjectBindInfo))) {}
+ Zenject::EmptyGameObjectProvider Zenject::EmptyGameObjectProvider::New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo)  {
+Zenject::EmptyGameObjectProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::EmptyGameObjectProvider>(container, gameObjectBindInfo))};
+return o;
+}
  void Zenject::EmptyGameObjectProvider::_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::EmptyGameObjectProvider>::get(),

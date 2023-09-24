@@ -1,18 +1,18 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignatureGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPublicKey_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpOnePassSignature_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignature_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignature_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPublicKey_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignatureSubpacketVector_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPrivateKey_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpUserAttributeSubpacketVector_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacketTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPrivateKey_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignatureSubpacketVector_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator._ctor
 template<>
 
@@ -447,8 +447,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::__set_ha
 constexpr ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::__get_hashed() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::PgpSignatureGenerator(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpSignatureGenerator>(keyAlgorithm, hashAlgorithm))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator>(keyAlgorithm, hashAlgorithm))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator>::get(),

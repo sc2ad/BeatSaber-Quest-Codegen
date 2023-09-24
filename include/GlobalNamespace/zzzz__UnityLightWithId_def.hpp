@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Color;
+class Light;
 }
 namespace UnityEngine {
-class Light;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr float_t __get__minAlpha() const;
 /// @brief Method ColorWasSet addr 0x1fa1780 size 0x4c virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit UnityLightWithId() ;
+static GlobalNamespace::UnityLightWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa17cc size 0x10 virtual false final false
  void _ctor() ;

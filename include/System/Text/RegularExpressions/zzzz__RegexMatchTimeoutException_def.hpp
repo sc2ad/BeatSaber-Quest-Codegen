@@ -6,13 +6,13 @@ namespace System {
 struct TimeSpan;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -93,20 +93,17 @@ constexpr System::TimeSpan __get__MatchTimeout_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "regexInput", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "regexPattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "matchTimeout", ty: "System::TimeSpan", modifiers: "", def_value: None }]
-explicit RegexMatchTimeoutException(::StringW regexInput, ::StringW regexPattern, System::TimeSpan matchTimeout) ;
+static System::Text::RegularExpressions::RegexMatchTimeoutException New_ctor(::StringW regexInput, ::StringW regexPattern, System::TimeSpan matchTimeout) ;
 
 /// @brief Method .ctor addr 0x27cf30c size 0xcc virtual false final false
  void _ctor(::StringW regexInput, ::StringW regexPattern, System::TimeSpan matchTimeout) ;
 
-// Ctor Parameters []
-explicit RegexMatchTimeoutException() ;
+static System::Text::RegularExpressions::RegexMatchTimeoutException New_ctor() ;
 
 /// @brief Method .ctor addr 0x27cf3d8 size 0x94 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit RegexMatchTimeoutException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Text::RegularExpressions::RegexMatchTimeoutException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27cf46c size 0x138 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

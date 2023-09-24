@@ -77,8 +77,10 @@ constexpr void Org::BouncyCastle::Bcpg::TrustPacket::__set_levelAndTrustAmount(:
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Bcpg::TrustPacket::__get_levelAndTrustAmount() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::TrustPacket::TrustPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<TrustPacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::TrustPacket Org::BouncyCastle::Bcpg::TrustPacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::TrustPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::TrustPacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::TrustPacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::TrustPacket>::get(),
@@ -88,8 +90,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgIn);
 }
-// Ctor Parameters [CppParam { name: "trustCode", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::TrustPacket::TrustPacket(int32_t trustCode)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<TrustPacket>(trustCode))) {}
+ Org::BouncyCastle::Bcpg::TrustPacket Org::BouncyCastle::Bcpg::TrustPacket::New_ctor(int32_t trustCode)  {
+Org::BouncyCastle::Bcpg::TrustPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::TrustPacket>(trustCode))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::TrustPacket::_ctor(int32_t trustCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::TrustPacket>::get(),

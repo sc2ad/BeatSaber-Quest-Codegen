@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__RaycasterManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::EventSystems::RaycasterManager.AddRaycaster
 template<>
 

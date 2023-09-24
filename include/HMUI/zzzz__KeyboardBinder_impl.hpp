@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "HMUI/zzzz__KeyboardBinder_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__KeyboardBinder_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
-#include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Tuple_3_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__KeyCode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__KeyboardBinder__KeyBindingType::HMUI__KeyboardBinder__KeyBindingType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -218,8 +219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- HMUI::KeyboardBinder::KeyboardBinder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyboardBinder>())) {}
+ HMUI::KeyboardBinder HMUI::KeyboardBinder::New_ctor()  {
+HMUI::KeyboardBinder o{THROW_UNLESS(::il2cpp_utils::New<HMUI::KeyboardBinder>())};
+return o;
+}
  void HMUI::KeyboardBinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::KeyboardBinder>::get(),
@@ -229,8 +232,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "keycode", ty: "UnityEngine::KeyCode", modifiers: "", def_value: None }, CppParam { name: "keyBindingType", ty: "HMUI::HMUI__KeyboardBinder__KeyBindingType", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action_1<bool>", modifiers: "", def_value: None }]
- HMUI::KeyboardBinder::KeyboardBinder(UnityEngine::KeyCode keycode, HMUI::HMUI__KeyboardBinder__KeyBindingType keyBindingType, System::Action_1<bool> action)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyboardBinder>(keycode, keyBindingType, action))) {}
+ HMUI::KeyboardBinder HMUI::KeyboardBinder::New_ctor(UnityEngine::KeyCode keycode, HMUI::HMUI__KeyboardBinder__KeyBindingType keyBindingType, System::Action_1<bool> action)  {
+HMUI::KeyboardBinder o{THROW_UNLESS(::il2cpp_utils::New<HMUI::KeyboardBinder>(keycode, keyBindingType, action))};
+return o;
+}
  void HMUI::KeyboardBinder::_ctor(UnityEngine::KeyCode keycode, HMUI::HMUI__KeyboardBinder__KeyBindingType keyBindingType, System::Action_1<bool> action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::KeyboardBinder>::get(),
@@ -240,8 +245,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keycode, keyBindingType, action);
 }
-// Ctor Parameters [CppParam { name: "bindingData", ty: "System::Collections::Generic::List_1<System::Tuple_3<UnityEngine::KeyCode,HMUI::HMUI__KeyboardBinder__KeyBindingType,System::Action_1<bool>>>", modifiers: "", def_value: None }]
- HMUI::KeyboardBinder::KeyboardBinder(System::Collections::Generic::List_1<System::Tuple_3<UnityEngine::KeyCode,HMUI::HMUI__KeyboardBinder__KeyBindingType,System::Action_1<bool>>> bindingData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyboardBinder>(bindingData))) {}
+ HMUI::KeyboardBinder HMUI::KeyboardBinder::New_ctor(System::Collections::Generic::List_1<System::Tuple_3<UnityEngine::KeyCode,HMUI::HMUI__KeyboardBinder__KeyBindingType,System::Action_1<bool>>> bindingData)  {
+HMUI::KeyboardBinder o{THROW_UNLESS(::il2cpp_utils::New<HMUI::KeyboardBinder>(bindingData))};
+return o;
+}
  void HMUI::KeyboardBinder::_ctor(System::Collections::Generic::List_1<System::Tuple_3<UnityEngine::KeyCode,HMUI::HMUI__KeyboardBinder__KeyBindingType,System::Action_1<bool>>> bindingData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::KeyboardBinder>::get(),

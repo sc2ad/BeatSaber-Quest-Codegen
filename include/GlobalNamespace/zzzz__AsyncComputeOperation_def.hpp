@@ -80,8 +80,7 @@ constexpr System::Diagnostics::Stopwatch __get__stopwatch() const;
 /// @brief Method get_hasTimedOut addr 0xd9c4b4 size 0x30 virtual false final false
  bool get_hasTimedOut() ;
 
-// Ctor Parameters [CppParam { name: "timeoutMs", ty: "int32_t", modifiers: "", def_value: None }]
-explicit AsyncComputeOperation(int32_t timeoutMs) ;
+static GlobalNamespace::AsyncComputeOperation New_ctor(int32_t timeoutMs) ;
 
 /// @brief Method .ctor addr 0xd9c4e4 size 0x88 virtual false final false
  void _ctor(int32_t timeoutMs) ;

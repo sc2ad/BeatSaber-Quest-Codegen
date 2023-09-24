@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeTransformClipUpdater_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::VisualTreeTransformClipUpdater.get_profilerMarker
 template<>
@@ -175,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::VisualTreeTransformClipUpdater::VisualTreeTransformClipUpdater()  : UnityEngine::UIElements::BaseVisualTreeUpdater(THROW_UNLESS(::il2cpp_utils::New<VisualTreeTransformClipUpdater>())) {}
+ UnityEngine::UIElements::VisualTreeTransformClipUpdater UnityEngine::UIElements::VisualTreeTransformClipUpdater::New_ctor()  {
+UnityEngine::UIElements::VisualTreeTransformClipUpdater o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualTreeTransformClipUpdater>())};
+return o;
+}
  void UnityEngine::UIElements::VisualTreeTransformClipUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualTreeTransformClipUpdater>::get(),

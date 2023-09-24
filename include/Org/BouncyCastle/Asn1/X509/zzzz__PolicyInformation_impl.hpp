@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__PolicyInformation_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::PolicyInformation._ctor
 template<>
 
@@ -135,8 +135,10 @@ constexpr void Org::BouncyCastle::Asn1::X509::PolicyInformation::__set_policyQua
 constexpr Org::BouncyCastle::Asn1::Asn1Sequence Org::BouncyCastle::Asn1::X509::PolicyInformation::__get_policyQualifiers() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Sequence, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::PolicyInformation::PolicyInformation(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PolicyInformation>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::PolicyInformation Org::BouncyCastle::Asn1::X509::PolicyInformation::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::PolicyInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::PolicyInformation>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::PolicyInformation::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::PolicyInformation>::get(),
@@ -146,8 +148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "policyIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::PolicyInformation::PolicyInformation(Org::BouncyCastle::Asn1::DerObjectIdentifier policyIdentifier)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PolicyInformation>(policyIdentifier))) {}
+ Org::BouncyCastle::Asn1::X509::PolicyInformation Org::BouncyCastle::Asn1::X509::PolicyInformation::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier policyIdentifier)  {
+Org::BouncyCastle::Asn1::X509::PolicyInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::PolicyInformation>(policyIdentifier))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::PolicyInformation::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier policyIdentifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::PolicyInformation>::get(),
@@ -157,8 +161,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, policyIdentifier);
 }
-// Ctor Parameters [CppParam { name: "policyIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "policyQualifiers", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::PolicyInformation::PolicyInformation(Org::BouncyCastle::Asn1::DerObjectIdentifier policyIdentifier, Org::BouncyCastle::Asn1::Asn1Sequence policyQualifiers)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PolicyInformation>(policyIdentifier, policyQualifiers))) {}
+ Org::BouncyCastle::Asn1::X509::PolicyInformation Org::BouncyCastle::Asn1::X509::PolicyInformation::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier policyIdentifier, Org::BouncyCastle::Asn1::Asn1Sequence policyQualifiers)  {
+Org::BouncyCastle::Asn1::X509::PolicyInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::PolicyInformation>(policyIdentifier, policyQualifiers))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::PolicyInformation::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier policyIdentifier, Org::BouncyCastle::Asn1::Asn1Sequence policyQualifiers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::PolicyInformation>::get(),

@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OculusAnalyticsModel_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OculusAnalyticsModel.get_supportsOpenDataPrivacyPage
 template<>
 
@@ -205,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, exposureType, exposureData);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusAnalyticsModel::OculusAnalyticsModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OculusAnalyticsModel>())) {}
+ GlobalNamespace::OculusAnalyticsModel GlobalNamespace::OculusAnalyticsModel::New_ctor()  {
+GlobalNamespace::OculusAnalyticsModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusAnalyticsModel>())};
+return o;
+}
  void GlobalNamespace::OculusAnalyticsModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusAnalyticsModel>::get(),

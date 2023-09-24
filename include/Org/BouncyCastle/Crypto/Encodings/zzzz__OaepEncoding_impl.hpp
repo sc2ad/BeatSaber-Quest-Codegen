@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Encodings/zzzz__OaepEncoding_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Encodings::OaepEncoding._ctor
 template<>
 
@@ -276,8 +276,10 @@ constexpr void Org::BouncyCastle::Crypto::Encodings::OaepEncoding::__set_forEncr
 constexpr bool Org::BouncyCastle::Crypto::Encodings::OaepEncoding::__get_forEncryption() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Encodings::OaepEncoding::OaepEncoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OaepEncoding>(cipher))) {}
+ Org::BouncyCastle::Crypto::Encodings::OaepEncoding Org::BouncyCastle::Crypto::Encodings::OaepEncoding::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::Encodings::OaepEncoding o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Encodings::OaepEncoding>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Encodings::OaepEncoding::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Encodings::OaepEncoding>::get(),
@@ -287,8 +289,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "hash", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Encodings::OaepEncoding::OaepEncoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest hash)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OaepEncoding>(cipher, hash))) {}
+ Org::BouncyCastle::Crypto::Encodings::OaepEncoding Org::BouncyCastle::Crypto::Encodings::OaepEncoding::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest hash)  {
+Org::BouncyCastle::Crypto::Encodings::OaepEncoding o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Encodings::OaepEncoding>(cipher, hash))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Encodings::OaepEncoding::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest hash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Encodings::OaepEncoding>::get(),
@@ -298,8 +302,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, hash);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "hash", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "encodingParams", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Encodings::OaepEncoding::OaepEncoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest hash, ::ArrayW<uint8_t> encodingParams)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OaepEncoding>(cipher, hash, encodingParams))) {}
+ Org::BouncyCastle::Crypto::Encodings::OaepEncoding Org::BouncyCastle::Crypto::Encodings::OaepEncoding::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest hash, ::ArrayW<uint8_t> encodingParams)  {
+Org::BouncyCastle::Crypto::Encodings::OaepEncoding o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Encodings::OaepEncoding>(cipher, hash, encodingParams))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Encodings::OaepEncoding::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest hash, ::ArrayW<uint8_t> encodingParams)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Encodings::OaepEncoding>::get(),
@@ -309,8 +315,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, hash, encodingParams);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "hash", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgf1Hash", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "encodingParams", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Encodings::OaepEncoding::OaepEncoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest hash, Org::BouncyCastle::Crypto::IDigest mgf1Hash, ::ArrayW<uint8_t> encodingParams)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OaepEncoding>(cipher, hash, mgf1Hash, encodingParams))) {}
+ Org::BouncyCastle::Crypto::Encodings::OaepEncoding Org::BouncyCastle::Crypto::Encodings::OaepEncoding::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest hash, Org::BouncyCastle::Crypto::IDigest mgf1Hash, ::ArrayW<uint8_t> encodingParams)  {
+Org::BouncyCastle::Crypto::Encodings::OaepEncoding o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Encodings::OaepEncoding>(cipher, hash, mgf1Hash, encodingParams))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Encodings::OaepEncoding::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest hash, Org::BouncyCastle::Crypto::IDigest mgf1Hash, ::ArrayW<uint8_t> encodingParams)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Encodings::OaepEncoding>::get(),

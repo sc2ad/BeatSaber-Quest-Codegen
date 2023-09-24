@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -11,32 +14,32 @@ class IEnumerator_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class BloomFogEnvironmentParams;
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class IGamePause;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace UnityEngine {
-class GameObject;
+class BloomFogEnvironmentParams;
 }
 namespace GlobalNamespace {
 class BloomFogParamsAnimator;
+}
+namespace UnityEngine {
+class ParticleSystem;
+}
+namespace GlobalNamespace {
+class IGamePause;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
 }
 namespace GlobalNamespace {
 class IntroTutorialRing;
 }
 namespace UnityEngine {
-class ParticleSystem;
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -136,8 +139,7 @@ constexpr float_t __get__duration_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__IntroTutorialController___ShowFinishAnimationCoroutine_d__22(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__IntroTutorialController___ShowFinishAnimationCoroutine_d__22 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2111470 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -319,8 +321,7 @@ constexpr bool __get__blueRingWrapperActive() const;
 /// @brief Method SetFinishAnimationParams addr 0x2111498 size 0x6c virtual false final false
  void SetFinishAnimationParams(float_t progress) ;
 
-// Ctor Parameters []
-explicit IntroTutorialController() ;
+static GlobalNamespace::IntroTutorialController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2111520 size 0x8 virtual false final false
  void _ctor() ;

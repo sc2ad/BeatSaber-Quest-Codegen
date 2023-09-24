@@ -9,12 +9,11 @@
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
-}
 namespace System::Runtime::CompilerServices {
 struct Ephemeron;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -24,8 +23,17 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Runtime::CompilerServices {
+template<typename TKey,typename TValue>
+class System__Runtime__CompilerServices__ConditionalWeakTable_2__CreateValueCallback;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TKey,typename TValue>
+class System__Runtime__CompilerServices__ConditionalWeakTable_2__Enumerator;
 }
 namespace System {
 class IDisposable;
@@ -102,8 +110,7 @@ constexpr explicit System__Runtime__CompilerServices__ConditionalWeakTable_2__Cr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Runtime__CompilerServices__ConditionalWeakTable_2__CreateValueCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConditionalWeakTable_2__CreateValueCallback<TKey,TValue> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -196,8 +203,7 @@ constexpr System::Collections::Generic::KeyValuePair_2<TKey,TValue> __get__curre
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "table", ty: "System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey,TValue>", modifiers: "", def_value: None }]
-explicit System__Runtime__CompilerServices__ConditionalWeakTable_2__Enumerator(System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey,TValue> table) ;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConditionalWeakTable_2__Enumerator<TKey,TValue> New_ctor(System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey,TValue> table) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey,TValue> table) ;
@@ -311,8 +317,7 @@ constexpr int32_t __get_size() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ConditionalWeakTable_2() ;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

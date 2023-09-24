@@ -126,8 +126,7 @@ static Org::BouncyCastle::Asn1::X509::KeyPurposeID __get_IdKPMacAddress() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
-explicit KeyPurposeID(::StringW id) ;
+static Org::BouncyCastle::Asn1::X509::KeyPurposeID New_ctor(::StringW id) ;
 
 /// @brief Method .ctor addr 0x1107d80 size 0x68 virtual false final false
  void _ctor(::StringW id) ;

@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__AppInitSetupData__RunMode;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__AppInitSetupData__RunMode;
@@ -59,6 +62,8 @@ __PlayTest = 1,
 constexpr operator __GlobalNamespace__AppInitSetupData__RunMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__AppInitSetupData__RunMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -132,8 +137,7 @@ constexpr GlobalNamespace::GlobalNamespace__AppInitSetupData__RunMode __get_runM
 
 // Methods
 
-// Ctor Parameters []
-explicit AppInitSetupData() ;
+static GlobalNamespace::AppInitSetupData New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b46cc size 0x8 virtual false final false
  void _ctor() ;

@@ -61,6 +61,8 @@ constexpr operator __VertexFlags_Unwrapped () const noexcept {
 return std::bit_cast<__VertexFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

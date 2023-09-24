@@ -3,24 +3,24 @@
 #include "UnityEngine/UI/zzzz__BaseMeshEffect_def.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::UI {
+class VertexHelper;
+}
 namespace UnityEngine {
-struct Vector2;
+struct Color;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::UI {
-class VertexHelper;
+namespace UnityEngine {
+struct UIVertex;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct UIVertex;
-}
-namespace UnityEngine {
-struct Color;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -101,8 +101,7 @@ static constexpr float_t  kMaxEffectDistance{600};
 
 // Methods
 
-// Ctor Parameters []
-explicit Shadow() ;
+static UnityEngine::UI::Shadow New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c18490 size 0x28 virtual false final false
  void _ctor() ;

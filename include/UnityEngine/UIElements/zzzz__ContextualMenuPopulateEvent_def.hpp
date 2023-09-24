@@ -2,16 +2,16 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
 namespace UnityEngine::UIElements {
-class DropdownMenu;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
 class ContextualMenuManager;
 }
 namespace UnityEngine::UIElements {
+class DropdownMenu;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -105,8 +105,7 @@ constexpr UnityEngine::UIElements::ContextualMenuManager __get_m_ContextualMenuM
 /// @brief Method LocalInit addr 0x2cdaa20 size 0x34 virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit ContextualMenuPopulateEvent() ;
+static UnityEngine::UIElements::ContextualMenuPopulateEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdaa54 size 0x70 virtual false final false
  void _ctor() ;

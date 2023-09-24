@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
+class IPreCompCallback;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
-class IPreCompCallback;
+class PreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class WNafPreCompInfo;
@@ -24,6 +24,18 @@ class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -101,8 +113,7 @@ constexpr int32_t __get_m_confWidth() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "confWidth", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback(Org::BouncyCastle::Math::EC::ECCurve curve, int32_t confWidth) ;
+static Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, int32_t confWidth) ;
 
 /// @brief Method .ctor addr 0xfaafe4 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve curve, int32_t confWidth) ;
@@ -180,8 +191,7 @@ constexpr Org::BouncyCastle::Math::EC::ECPointMap __get_m_pointMap() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "infoP", ty: "Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo", modifiers: "", def_value: None }, CppParam { name: "includeNegated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pointMap", ty: "Org::BouncyCastle::Math::EC::ECPointMap", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo infoP, bool includeNegated, Org::BouncyCastle::Math::EC::ECPointMap pointMap) ;
+static Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback New_ctor(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo infoP, bool includeNegated, Org::BouncyCastle::Math::EC::ECPointMap pointMap) ;
 
 /// @brief Method .ctor addr 0xfabcac size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo infoP, bool includeNegated, Org::BouncyCastle::Math::EC::ECPointMap pointMap) ;
@@ -259,8 +269,7 @@ constexpr bool __get_m_includeNegated() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "minWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "includeNegated", ty: "bool", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback(Org::BouncyCastle::Math::EC::ECPoint p, int32_t minWidth, bool includeNegated) ;
+static Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback New_ctor(Org::BouncyCastle::Math::EC::ECPoint p, int32_t minWidth, bool includeNegated) ;
 
 /// @brief Method .ctor addr 0xfabcec size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECPoint p, int32_t minWidth, bool includeNegated) ;
@@ -350,8 +359,7 @@ constexpr bool __get_m_includeNegated() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "point", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "pointMap", ty: "Org::BouncyCastle::Math::EC::ECPointMap", modifiers: "", def_value: None }, CppParam { name: "fromWNaf", ty: "Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo", modifiers: "", def_value: None }, CppParam { name: "includeNegated", ty: "bool", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback(Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Math::EC::ECPointMap pointMap, Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo fromWNaf, bool includeNegated) ;
+static Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback New_ctor(Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Math::EC::ECPointMap pointMap, Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo fromWNaf, bool includeNegated) ;
 
 /// @brief Method .ctor addr 0xfabe6c size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Math::EC::ECPointMap pointMap, Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo fromWNaf, bool includeNegated) ;
@@ -503,8 +511,7 @@ static ::ArrayW<int32_t> Trim(::ArrayW<int32_t> a, int32_t length) ;
 /// @brief Method ResizeTable addr 0xfabeb0 size 0x84 virtual false final false
 static ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> ResizeTable(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> a, int32_t length) ;
 
-// Ctor Parameters []
-explicit WNafUtilities() ;
+static Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xfac028 size 0x8 virtual false final false
  void _ctor() ;

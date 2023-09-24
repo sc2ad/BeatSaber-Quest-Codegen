@@ -7,10 +7,10 @@ namespace GlobalNamespace {
 class ICPUMonitor;
 }
 namespace GlobalNamespace {
-class IPollable;
+class RollingAverage;
 }
 namespace GlobalNamespace {
-class RollingAverage;
+class IPollable;
 }
 namespace System::Diagnostics {
 class Process;
@@ -111,8 +111,7 @@ constexpr int64_t __get__lastSampleValue() const;
 /// @brief Method get_utilization addr 0xda5514 size 0x28 virtual true final true
  float_t get_utilization() ;
 
-// Ctor Parameters []
-explicit CPUMonitor() ;
+static GlobalNamespace::CPUMonitor New_ctor() ;
 
 /// @brief Method .ctor addr 0xda553c size 0x84 virtual false final false
  void _ctor() ;

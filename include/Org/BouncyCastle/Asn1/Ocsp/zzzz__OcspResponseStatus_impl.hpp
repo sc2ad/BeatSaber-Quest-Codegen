@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::OcspResponseStatus(int32_t value)  : Org::BouncyCastle::Asn1::DerEnumerated(THROW_UNLESS(::il2cpp_utils::New<OcspResponseStatus>(value))) {}
+ Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::New_ctor(int32_t value)  {
+Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus>(value))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::_ctor(int32_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus>::get(),
@@ -47,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::DerEnumerated", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::OcspResponseStatus(Org::BouncyCastle::Asn1::DerEnumerated value)  : Org::BouncyCastle::Asn1::DerEnumerated(THROW_UNLESS(::il2cpp_utils::New<OcspResponseStatus>(value))) {}
+ Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::New_ctor(Org::BouncyCastle::Asn1::DerEnumerated value)  {
+Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus>(value))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::_ctor(Org::BouncyCastle::Asn1::DerEnumerated value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 #include "GlobalNamespace/zzzz__ILightWithId_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightWithIdMonoBehaviour.get_lightId
 template<>
@@ -303,8 +303,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newLightId);
 }
-// Ctor Parameters []
- GlobalNamespace::LightWithIdMonoBehaviour::LightWithIdMonoBehaviour()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightWithIdMonoBehaviour>())) {}
+ GlobalNamespace::LightWithIdMonoBehaviour GlobalNamespace::LightWithIdMonoBehaviour::New_ctor()  {
+GlobalNamespace::LightWithIdMonoBehaviour o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightWithIdMonoBehaviour>())};
+return o;
+}
  void GlobalNamespace::LightWithIdMonoBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightWithIdMonoBehaviour>::get(),

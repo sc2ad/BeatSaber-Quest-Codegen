@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalArrayTypeE;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalPrimitiveTypeE;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -146,8 +146,7 @@ constexpr bool __get_NIsealedStatusChecked() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NameInfo() ;
+static System::Runtime::Serialization::Formatters::Binary::NameInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2365bfc size 0x8 virtual false final false
  void _ctor() ;

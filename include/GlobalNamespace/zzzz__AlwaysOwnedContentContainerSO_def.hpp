@@ -95,8 +95,7 @@ constexpr System::Collections::Generic::HashSet_1<::StringW> __get__alwaysOwnedP
 /// @brief Method InitAlwaysOwnedItems addr 0x20c7c78 size 0x548 virtual false final false
  void InitAlwaysOwnedItems() ;
 
-// Ctor Parameters []
-explicit AlwaysOwnedContentContainerSO() ;
+static GlobalNamespace::AlwaysOwnedContentContainerSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c81dc size 0x8 virtual false final false
  void _ctor() ;

@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__NativeMethods_def.hpp"
-#include "Unity/XR/Oculus/zzzz__Boundary_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "Unity/XR/Oculus/zzzz__SystemHeadset_def.hpp"
+#include "Unity/XR/Oculus/zzzz__Boundary_def.hpp"
+#include "Unity/XR/Oculus/zzzz__NativeMethods_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "sharedDepthBuffer", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "dashSupport", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "stereoRenderingMode", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "colorSpace", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lowOverheadMode", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "optimizeBufferDiscards", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "phaseSync", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "symmetricProjection", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "subsampledLayout", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lateLatching", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lateLatchingDebug", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableTrackingOriginStageMode", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "spaceWarp", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "depthSubmission", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "foveatedRenderingMethod", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
 constexpr Unity::XR::Oculus::Unity__XR__Oculus__NativeMethods__UserDefinedSettings::Unity__XR__Oculus__NativeMethods__UserDefinedSettings(uint16_t sharedDepthBuffer, uint16_t dashSupport, uint16_t stereoRenderingMode, uint16_t colorSpace, uint16_t lowOverheadMode, uint16_t optimizeBufferDiscards, uint16_t phaseSync, uint16_t symmetricProjection, uint16_t subsampledLayout, uint16_t lateLatching, uint16_t lateLatchingDebug, uint16_t enableTrackingOriginStageMode, uint16_t spaceWarp, uint16_t depthSubmission, uint16_t foveatedRenderingMethod) noexcept : ::bs_hook::ValueTypeWrapper() {this->sharedDepthBuffer = sharedDepthBuffer;
 this->dashSupport = dashSupport;

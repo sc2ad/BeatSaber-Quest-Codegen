@@ -51,20 +51,17 @@ constexpr explicit PkixCertPathBuilderException(void* ptr) noexcept : Org::Bounc
 
 // Methods
 
-// Ctor Parameters []
-explicit PkixCertPathBuilderException() ;
+static Org::BouncyCastle::Pkix::PkixCertPathBuilderException New_ctor() ;
 
 /// @brief Method .ctor addr 0x1067df8 size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PkixCertPathBuilderException(::StringW message) ;
+static Org::BouncyCastle::Pkix::PkixCertPathBuilderException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x105d4a0 size 0x4 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit PkixCertPathBuilderException(::StringW message, System::Exception exception) ;
+static Org::BouncyCastle::Pkix::PkixCertPathBuilderException New_ctor(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x105dcac size 0x4 virtual false final false
  void _ctor(::StringW message, System::Exception exception) ;

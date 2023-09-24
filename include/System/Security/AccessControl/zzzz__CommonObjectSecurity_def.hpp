@@ -53,8 +53,7 @@ constexpr explicit CommonObjectSecurity(void* ptr) noexcept : System::Security::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }]
-explicit CommonObjectSecurity(bool isContainer) ;
+static System::Security::AccessControl::CommonObjectSecurity New_ctor(bool isContainer) ;
 
 /// @brief Method .ctor addr 0x2317998 size 0xc virtual false final false
  void _ctor(bool isContainer) ;

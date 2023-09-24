@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__TaskExceptionHolder_def.hpp"
-#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__AggregateException_def.hpp"
-#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelListWithIList_1_def.hpp"
+#include "System/zzzz__AggregateException_def.hpp"
+#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::TaskExceptionHolder._ctor
 template<>
 
@@ -240,8 +240,10 @@ constexpr void System::Threading::Tasks::TaskExceptionHolder::__set_m_isHandled(
 constexpr bool System::Threading::Tasks::TaskExceptionHolder::__get_m_isHandled() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "task", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }]
- System::Threading::Tasks::TaskExceptionHolder::TaskExceptionHolder(System::Threading::Tasks::Task task)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TaskExceptionHolder>(task))) {}
+ System::Threading::Tasks::TaskExceptionHolder System::Threading::Tasks::TaskExceptionHolder::New_ctor(System::Threading::Tasks::Task task)  {
+System::Threading::Tasks::TaskExceptionHolder o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskExceptionHolder>(task))};
+return o;
+}
  void System::Threading::Tasks::TaskExceptionHolder::_ctor(System::Threading::Tasks::Task task)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskExceptionHolder>::get(),

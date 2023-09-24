@@ -4,26 +4,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::Tsp {
-class Accuracy;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Asn1::Tsp {
-class TstInfo;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Tsp {
 class GenTimeAccuracy;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1::Tsp {
+class TstInfo;
+}
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1::Tsp {
+class Accuracy;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -111,8 +111,7 @@ constexpr System::DateTime __get_genTime() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tstInfo", ty: "Org::BouncyCastle::Asn1::Tsp::TstInfo", modifiers: "", def_value: None }]
-explicit TimeStampTokenInfo(Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo) ;
+static Org::BouncyCastle::Tsp::TimeStampTokenInfo New_ctor(Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo) ;
 
 /// @brief Method .ctor addr 0x10c6878 size 0x134 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Tsp::TstInfo tstInfo) ;

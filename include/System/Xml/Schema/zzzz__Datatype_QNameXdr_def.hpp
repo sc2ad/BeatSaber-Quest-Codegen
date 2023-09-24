@@ -97,8 +97,7 @@ static System::Type __get_listValueType() ;
 /// @brief Method get_ListValueType addr 0x272b8e8 size 0x58 virtual true final false
  System::Type get_ListValueType() ;
 
-// Ctor Parameters []
-explicit Datatype_QNameXdr() ;
+static System::Xml::Schema::Datatype_QNameXdr New_ctor() ;
 
 /// @brief Method .ctor addr 0x272b940 size 0x54 virtual false final false
  void _ctor() ;

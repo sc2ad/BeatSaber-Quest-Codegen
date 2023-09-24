@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__SignedData_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__ContentInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__ContentInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Pkcs::SignedData.GetInstance
 template<>
 
@@ -221,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Pkcs::SignedData, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "_version", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "_digestAlgorithms", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "_contentInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::ContentInfo", modifiers: "", def_value: None }, CppParam { name: "_certificates", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "_crls", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "_signerInfos", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::SignedData::SignedData(Org::BouncyCastle::Asn1::DerInteger _version, Org::BouncyCastle::Asn1::Asn1Set _digestAlgorithms, Org::BouncyCastle::Asn1::Pkcs::ContentInfo _contentInfo, Org::BouncyCastle::Asn1::Asn1Set _certificates, Org::BouncyCastle::Asn1::Asn1Set _crls, Org::BouncyCastle::Asn1::Asn1Set _signerInfos)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignedData>(_version, _digestAlgorithms, _contentInfo, _certificates, _crls, _signerInfos))) {}
+ Org::BouncyCastle::Asn1::Pkcs::SignedData Org::BouncyCastle::Asn1::Pkcs::SignedData::New_ctor(Org::BouncyCastle::Asn1::DerInteger _version, Org::BouncyCastle::Asn1::Asn1Set _digestAlgorithms, Org::BouncyCastle::Asn1::Pkcs::ContentInfo _contentInfo, Org::BouncyCastle::Asn1::Asn1Set _certificates, Org::BouncyCastle::Asn1::Asn1Set _crls, Org::BouncyCastle::Asn1::Asn1Set _signerInfos)  {
+Org::BouncyCastle::Asn1::Pkcs::SignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::SignedData>(_version, _digestAlgorithms, _contentInfo, _certificates, _crls, _signerInfos))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::SignedData::_ctor(Org::BouncyCastle::Asn1::DerInteger _version, Org::BouncyCastle::Asn1::Asn1Set _digestAlgorithms, Org::BouncyCastle::Asn1::Pkcs::ContentInfo _contentInfo, Org::BouncyCastle::Asn1::Asn1Set _certificates, Org::BouncyCastle::Asn1::Asn1Set _crls, Org::BouncyCastle::Asn1::Asn1Set _signerInfos)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::SignedData>::get(),
@@ -232,8 +234,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, _version, _digestAlgorithms, _contentInfo, _certificates, _crls, _signerInfos);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::SignedData::SignedData(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignedData>(seq))) {}
+ Org::BouncyCastle::Asn1::Pkcs::SignedData Org::BouncyCastle::Asn1::Pkcs::SignedData::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Pkcs::SignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::SignedData>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::SignedData::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::SignedData>::get(),

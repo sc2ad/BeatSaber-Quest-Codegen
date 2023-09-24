@@ -1,9 +1,9 @@
 #pragma once
 #include "Mono/Http/zzzz__NtlmSession_def.hpp"
+#include "System/Net/zzzz__Authorization_def.hpp"
+#include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
-#include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_def.hpp"
-#include "System/Net/zzzz__Authorization_def.hpp"
 //  Writing Method size for method: Mono::Http::NtlmSession._ctor
 template<>
 
@@ -44,8 +44,10 @@ constexpr void Mono::Http::NtlmSession::__set_message(Mono::Security::Protocol::
 constexpr Mono::Security::Protocol::Ntlm::MessageBase Mono::Http::NtlmSession::__get_message() const {
 return ::cordl_internals::getInstanceField<Mono::Security::Protocol::Ntlm::MessageBase, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Http::NtlmSession::NtlmSession()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NtlmSession>())) {}
+ Mono::Http::NtlmSession Mono::Http::NtlmSession::New_ctor()  {
+Mono::Http::NtlmSession o{THROW_UNLESS(::il2cpp_utils::New<Mono::Http::NtlmSession>())};
+return o;
+}
  void Mono::Http::NtlmSession::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Http::NtlmSession>::get(),

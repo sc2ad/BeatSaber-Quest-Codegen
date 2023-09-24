@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__Identity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__Lease_def.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__Lease_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::ServerIdentity._ctor
 template<>
 
@@ -244,8 +244,10 @@ constexpr void System::Runtime::Remoting::ServerIdentity::__set__lease(System::R
 constexpr System::Runtime::Remoting::Lifetime::Lease System::Runtime::Remoting::ServerIdentity::__get__lease() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Lifetime::Lease, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Remoting::Contexts::Context", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::Remoting::ServerIdentity::ServerIdentity(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType)  : System::Runtime::Remoting::Identity(THROW_UNLESS(::il2cpp_utils::New<ServerIdentity>(objectUri, context, objectType))) {}
+ System::Runtime::Remoting::ServerIdentity System::Runtime::Remoting::ServerIdentity::New_ctor(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType)  {
+System::Runtime::Remoting::ServerIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ServerIdentity>(objectUri, context, objectType))};
+return o;
+}
  void System::Runtime::Remoting::ServerIdentity::_ctor(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ServerIdentity>::get(),

@@ -2,13 +2,13 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 namespace System::Xml::Schema {
-class Positions;
-}
-namespace System::Xml::Schema {
 class SyntaxTreeNode;
 }
 namespace System::Xml::Schema {
 class SymbolsDictionary;
+}
+namespace System::Xml::Schema {
+class Positions;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -96,8 +96,7 @@ constexpr System::Xml::Schema::SyntaxTreeNode __get_rightChild() const;
 /// @brief Method ExpandTree addr 0x271aa40 size 0x64 virtual true final false
  void ExpandTree(System::Xml::Schema::InteriorNode parent, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions) ;
 
-// Ctor Parameters []
-explicit InteriorNode() ;
+static System::Xml::Schema::InteriorNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x271aaa4 size 0x8 virtual false final false
  void _ctor() ;

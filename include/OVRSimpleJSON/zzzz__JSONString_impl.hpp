@@ -1,10 +1,10 @@
 #pragma once
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONString_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 //  Writing Method size for method: OVRSimpleJSON::JSONString.get_Tag
 template<>
 
@@ -209,8 +209,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "aData", ty: "::StringW", modifiers: "", def_value: None }]
- OVRSimpleJSON::JSONString::JSONString(::StringW aData)  : OVRSimpleJSON::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONString>(aData))) {}
+ OVRSimpleJSON::JSONString OVRSimpleJSON::JSONString::New_ctor(::StringW aData)  {
+OVRSimpleJSON::JSONString o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::JSONString>(aData))};
+return o;
+}
  void OVRSimpleJSON::JSONString::_ctor(::StringW aData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::JSONString>::get(),

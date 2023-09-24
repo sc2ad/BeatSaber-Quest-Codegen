@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetStringParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Asn1OctetString.GetInstance
 template<>
 
@@ -191,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Asn1OctetString, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1OctetString::Asn1OctetString(::ArrayW<uint8_t> str)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<Asn1OctetString>(str))) {}
+ Org::BouncyCastle::Asn1::Asn1OctetString Org::BouncyCastle::Asn1::Asn1OctetString::New_ctor(::ArrayW<uint8_t> str)  {
+Org::BouncyCastle::Asn1::Asn1OctetString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1OctetString>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1OctetString::_ctor(::ArrayW<uint8_t> str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1OctetString>::get(),

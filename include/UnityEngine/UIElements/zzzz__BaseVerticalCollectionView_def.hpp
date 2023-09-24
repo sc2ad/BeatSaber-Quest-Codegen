@@ -8,65 +8,95 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct SelectionType;
-}
-namespace UnityEngine::UIElements {
-class PointerCancelEvent;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class KeyboardNavigationManipulator;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine::UIElements {
-struct AlternatingRowBackground;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-struct CollectionVirtualizationMethod;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
-}
-namespace UnityEngine::UIElements {
-class PointerMoveEvent;
-}
-namespace UnityEngine::UIElements {
 class CollectionViewController;
 }
 namespace UnityEngine::UIElements {
 class ListViewDragger;
 }
 namespace UnityEngine::UIElements {
+class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
 template<typename T>
 struct CustomStyleProperty_1;
 }
-namespace System::Collections {
-class IList;
+namespace UnityEngine::UIElements {
+struct AlternatingRowBackground;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
+class IPointerEvent;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
+}
+namespace UnityEngine::UIElements {
+struct SelectionType;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::UIElements {
+class ScrollView;
 }
 namespace UnityEngine::UIElements {
 class PointerUpEvent;
 }
 namespace UnityEngine::UIElements {
+class ICollectionDragAndDropController;
+}
+namespace UnityEngine::UIElements {
 class PointerDownEvent;
+}
+namespace UnityEngine::UIElements {
+class KeyboardNavigationManipulator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class CollectionVirtualizationController;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class PointerCancelEvent;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__BaseVerticalCollectionView____c__DisplayClass164_0;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 namespace UnityEngine::UIElements {
 class DetachFromPanelEvent;
@@ -75,50 +105,23 @@ namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
+struct KeyboardNavigationOperation;
 }
 namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
+class AttachToPanelEvent;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::UIElements {
+struct CollectionVirtualizationMethod;
+}
+namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::UIElements {
-struct KeyboardNavigationOperation;
-}
-namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::UIElements {
-class CollectionVirtualizationController;
-}
-namespace UnityEngine::UIElements {
-class ICollectionDragAndDropController;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -685,8 +688,7 @@ template<typename T>
 /// @brief Method CreateDragAndDropController addr 0x0 size 0xffffffffffffffff virtual true final false
  UnityEngine::UIElements::ICollectionDragAndDropController CreateDragAndDropController() ;
 
-// Ctor Parameters []
-explicit BaseVerticalCollectionView() ;
+static UnityEngine::UIElements::BaseVerticalCollectionView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc958c size 0x5a0 virtual false final false
  void _ctor() ;

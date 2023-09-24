@@ -6,43 +6,36 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+class Sprite;
+}
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelCollection;
 }
-namespace UnityEngine {
-class Sprite;
-}
 namespace GlobalNamespace {
 class SongPackMasksModel;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class LevelFilterParams;
+}
+namespace System::Threading {
+class CancellationTokenSource;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
-class LevelFilterParams;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace HMUI {
-class InputFieldView;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
@@ -51,20 +44,33 @@ namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+struct GlobalNamespace__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30;
+}
+namespace HMUI {
+class InputFieldView;
 }
 namespace GlobalNamespace {
 class AdditionalContentModel;
 }
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection;
+}
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -156,8 +162,7 @@ constexpr GlobalNamespace::IBeatmapLevelCollection __get__beatmapLevelCollection
 /// @brief Method set_beatmapLevelCollection addr 0x216b6c4 size 0x8 virtual false final false
  void set_beatmapLevelCollection(GlobalNamespace::IBeatmapLevelCollection value) ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevelCollection", ty: "GlobalNamespace::IBeatmapLevelCollection", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection(GlobalNamespace::IBeatmapLevelCollection beatmapLevelCollection) ;
+static GlobalNamespace::GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection New_ctor(GlobalNamespace::IBeatmapLevelCollection beatmapLevelCollection) ;
 
 /// @brief Method .ctor addr 0x216b6cc size 0x28 virtual false final false
  void _ctor(GlobalNamespace::IBeatmapLevelCollection beatmapLevelCollection) ;
@@ -454,8 +459,7 @@ constexpr ::ArrayW<GlobalNamespace::IBeatmapLevelPack> __get__beatmapLevelPacks(
 /// @brief Method LocalizedLevelFilterParamsDescription addr 0x216b0bc size 0x5a4 virtual false final false
  ::StringW LocalizedLevelFilterParamsDescription(GlobalNamespace::LevelFilterParams levelFilterParams) ;
 
-// Ctor Parameters []
-explicit LevelSearchViewController() ;
+static GlobalNamespace::LevelSearchViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x216b660 size 0x8 virtual false final false
  void _ctor() ;

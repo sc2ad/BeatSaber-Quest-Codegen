@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::Test_LODGroup::__set_self(UnityEngine::LODGro
 constexpr UnityEngine::LODGroup HoudiniEngineUnity::Test_LODGroup::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::LODGroup, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::LODGroup", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_LODGroup::Test_LODGroup(UnityEngine::LODGroup self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_LODGroup>(self))) {}
+ HoudiniEngineUnity::Test_LODGroup HoudiniEngineUnity::Test_LODGroup::New_ctor(UnityEngine::LODGroup self)  {
+HoudiniEngineUnity::Test_LODGroup o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_LODGroup>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_LODGroup::_ctor(UnityEngine::LODGroup self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_LODGroup>::get(),

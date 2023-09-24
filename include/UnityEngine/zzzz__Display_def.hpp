@@ -8,6 +8,9 @@
 namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine {
+class UnityEngine__Display__DisplaysUpdatedDelegate;
+}
 // Forward declare root types
 namespace UnityEngine {
 class Display;
@@ -57,8 +60,7 @@ constexpr explicit UnityEngine__Display__DisplaysUpdatedDelegate(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Display__DisplaysUpdatedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b4c6bc size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -160,14 +162,12 @@ static UnityEngine::Display __declspec(property(get=get_main))  main;
 
 // Methods
 
-// Ctor Parameters []
-explicit Display() ;
+static UnityEngine::Display New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b4beec size 0x3c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "nativeDisplay", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Display(::cordl_internals::intptr_t nativeDisplay) ;
+static UnityEngine::Display New_ctor(::cordl_internals::intptr_t nativeDisplay) ;
 
 /// @brief Method .ctor addr 0x2b4bf28 size 0x28 virtual false final false
  void _ctor(::cordl_internals::intptr_t nativeDisplay) ;

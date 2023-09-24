@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -74,14 +74,12 @@ constexpr ::ArrayW<uint8_t> __get_state() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Pkcs5S2ParametersGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::Pkcs5S2ParametersGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe78980 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit Pkcs5S2ParametersGenerator(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Generators::Pkcs5S2ParametersGenerator New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe789e4 size 0x114 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

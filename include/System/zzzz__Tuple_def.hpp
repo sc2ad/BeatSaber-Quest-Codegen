@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System {
-template<typename T1,typename T2>
-class Tuple_2;
+template<typename T1,typename T2,typename T3>
+class Tuple_3;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4>
 class Tuple_4;
 }
 namespace System {
-template<typename T1,typename T2,typename T3>
-class Tuple_3;
+template<typename T1,typename T2>
+class Tuple_2;
 }
 // Forward declare root types
 namespace System {

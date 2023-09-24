@@ -2,22 +2,23 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UIToolkitUtilities/Controls/zzzz__Table_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
+#include "UIToolkitUtilities/Controls/zzzz__Table_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ScrollerVisibility_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ScrollerVisibility_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
 //  Writing Method size for method: UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn._ctor
 template<>
@@ -89,8 +90,10 @@ constexpr void UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table
 constexpr int32_t UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn::__get_maxWidth() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cellType", ty: "::bs_hook::EnumTypeWrapper", modifiers: "", def_value: None }]
- UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn::UIToolkitUtilities__Controls__Table__TableColumn(::StringW name, ::bs_hook::EnumTypeWrapper cellType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities__Controls__Table__TableColumn>(name, cellType))) {}
+ UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn::New_ctor(::StringW name, ::bs_hook::EnumTypeWrapper cellType)  {
+UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn o{THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn>(name, cellType))};
+return o;
+}
  void UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn::_ctor(::StringW name, ::bs_hook::EnumTypeWrapper cellType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn>::get(),
@@ -100,8 +103,16 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, cellType);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("u\"\"") }, CppParam { name: "headerTooltip", ty: "::StringW", modifiers: "", def_value: Some("u\"\"") }, CppParam { name: "cellType", ty: "::bs_hook::EnumTypeWrapper", modifiers: "", def_value: Some("csnull") }, CppParam { name: "visible", ty: "bool", modifiers: "", def_value: Some("true") }, CppParam { name: "minWidth", ty: "int32_t", modifiers: "", def_value: Some("-1") }, CppParam { name: "maxWidth", ty: "int32_t", modifiers: "", def_value: Some("-1") }]
- UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn::UIToolkitUtilities__Controls__Table__TableColumn(::StringW name, ::StringW headerTooltip, ::bs_hook::EnumTypeWrapper cellType, bool visible, int32_t minWidth, int32_t maxWidth)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities__Controls__Table__TableColumn>(name, headerTooltip, cellType, visible, minWidth, maxWidth))) {}
+/// @param name: ::StringW (default: u"")
+/// @param headerTooltip: ::StringW (default: u"")
+/// @param cellType: ::bs_hook::EnumTypeWrapper (default: csnull)
+/// @param visible: bool (default: true)
+/// @param minWidth: int32_t (default: -1)
+/// @param maxWidth: int32_t (default: -1)
+ UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn::New_ctor(::StringW name, ::StringW headerTooltip, ::bs_hook::EnumTypeWrapper cellType, bool visible, int32_t minWidth, int32_t maxWidth)  {
+UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn o{THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn>(name, headerTooltip, cellType, visible, minWidth, maxWidth))};
+return o;
+}
 /// @param name: ::StringW (default: u"")
 /// @param headerTooltip: ::StringW (default: u"")
 /// @param cellType: ::bs_hook::EnumTypeWrapper (default: csnull)
@@ -146,8 +157,10 @@ constexpr void UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table
 constexpr bool UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__RuntimeTableColumn::__get_visible() const {
 return ::cordl_internals::getInstanceField<bool, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__RuntimeTableColumn::UIToolkitUtilities__Controls__Table__RuntimeTableColumn()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities__Controls__Table__RuntimeTableColumn>())) {}
+ UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__RuntimeTableColumn UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__RuntimeTableColumn::New_ctor()  {
+UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__RuntimeTableColumn o{THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__RuntimeTableColumn>())};
+return o;
+}
  void UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__RuntimeTableColumn::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__RuntimeTableColumn>::get(),
@@ -250,8 +263,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlTraits::UIToolkitUtilities__Controls__Table__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities__Controls__Table__UxmlTraits>())) {}
+ UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlTraits UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlTraits::New_ctor()  {
+UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlTraits>())};
+return o;
+}
  void UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlTraits>::get(),
@@ -677,8 +692,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UIToolkitUtilities::Controls::Table::Table()  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<Table>())) {}
+ UIToolkitUtilities::Controls::Table UIToolkitUtilities::Controls::Table::New_ctor()  {
+UIToolkitUtilities::Controls::Table o{THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities::Controls::Table>())};
+return o;
+}
  void UIToolkitUtilities::Controls::Table::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIToolkitUtilities::Controls::Table>::get(),
@@ -768,8 +785,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIToo
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlFactory::UIToolkitUtilities__Controls__Table__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UIToolkitUtilities::Controls::Table,UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities__Controls__Table__UxmlFactory>())) {}
+ UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlFactory UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlFactory::New_ctor()  {
+UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlFactory>())};
+return o;
+}
  void UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlFactory>::get(),
@@ -953,8 +972,10 @@ constexpr void GlobalNamespace::UIToolkitUtilities__Controls__Table__UxmlTraits_
 constexpr int32_t GlobalNamespace::UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5::__get___l__initialThreadId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5::UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5>(__1__state))) {}
+ GlobalNamespace::UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5 GlobalNamespace::UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5::New_ctor(int32_t __1__state)  {
+GlobalNamespace::UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5>(__1__state))};
+return o;
+}
  void GlobalNamespace::UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5>::get(),

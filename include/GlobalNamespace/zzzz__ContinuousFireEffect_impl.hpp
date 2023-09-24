@@ -301,8 +301,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, flipBookAlpha, bloomAlpha);
 }
-// Ctor Parameters []
- GlobalNamespace::ContinuousFireEffect::ContinuousFireEffect()  : GlobalNamespace::FireEffect(THROW_UNLESS(::il2cpp_utils::New<ContinuousFireEffect>())) {}
+ GlobalNamespace::ContinuousFireEffect GlobalNamespace::ContinuousFireEffect::New_ctor()  {
+GlobalNamespace::ContinuousFireEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ContinuousFireEffect>())};
+return o;
+}
  void GlobalNamespace::ContinuousFireEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ContinuousFireEffect>::get(),

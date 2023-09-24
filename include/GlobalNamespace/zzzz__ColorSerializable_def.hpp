@@ -5,20 +5,20 @@
 #include <cstddef>
 #include <cstdint>
 namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
+class NetDataWriter;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

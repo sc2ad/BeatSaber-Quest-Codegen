@@ -50,8 +50,7 @@ constexpr explicit ProcessWaitHandle(void* ptr) noexcept : System::Threading::Wa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "processHandle", ty: "Microsoft::Win32::SafeHandles::SafeProcessHandle", modifiers: "", def_value: None }]
-explicit ProcessWaitHandle(Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle) ;
+static System::Diagnostics::ProcessWaitHandle New_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle) ;
 
 /// @brief Method .ctor addr 0x27dd4c4 size 0x154 virtual false final false
  void _ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle processHandle) ;

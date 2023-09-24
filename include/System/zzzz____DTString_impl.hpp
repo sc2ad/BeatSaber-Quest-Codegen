@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz____DTString_def.hpp"
-#include "System/zzzz__DTSubString_def.hpp"
-#include "System/Globalization/zzzz__CompareInfo_def.hpp"
 #include "System/zzzz__TokenType_def.hpp"
-#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
+#include "System/zzzz__DTSubString_def.hpp"
 //  Writing Method size for method: System::__DTString.get_Length
 template<>
 

@@ -1,25 +1,26 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRGLTFLoader_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMaterialData_def.hpp"
-#include "GlobalNamespace/zzzz__OVRChunkType_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMeshData_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__OVRTextureQualityFiltering_def.hpp"
-#include "GlobalNamespace/zzzz__OVRGLTFAnimatinonNode_def.hpp"
-#include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__OVRGLTFScene_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "GlobalNamespace/zzzz__OVRBinaryChunk_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
-#include "GlobalNamespace/zzzz__OVRTextureData_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRGLTFInputNode_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMeshData_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGLTFAnimatinonNode_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGLTFInputNode_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "GlobalNamespace/zzzz__OVRChunkType_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTextureQualityFiltering_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTextureData_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGLTFScene_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
+#include "GlobalNamespace/zzzz__OVRBinaryChunk_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGLTFLoader_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0._ctor
 template<>
 
@@ -66,8 +67,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClas
 constexpr GlobalNamespace::OVRMaterialData GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0::__get_matData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OVRMaterialData, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0>())) {}
+ GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0 GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRGLTFLoader____c__DisplayClass27_0>::get(),
@@ -555,8 +558,10 @@ return ::cordl_internals::getStaticField<UnityEngine::Vector4, "GLTFToUnitySpace
  System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::OVRGLTFInputNode> GlobalNamespace::OVRGLTFLoader::__get_InputNodeNameMap()  {
 return ::cordl_internals::getStaticField<System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::OVRGLTFInputNode>, "InputNodeNameMap", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRGLTFLoader>::get>();
 }
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::OVRGLTFLoader::OVRGLTFLoader(::StringW fileName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRGLTFLoader>(fileName))) {}
+ GlobalNamespace::OVRGLTFLoader GlobalNamespace::OVRGLTFLoader::New_ctor(::StringW fileName)  {
+GlobalNamespace::OVRGLTFLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRGLTFLoader>(fileName))};
+return o;
+}
  void GlobalNamespace::OVRGLTFLoader::_ctor(::StringW fileName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRGLTFLoader>::get(),
@@ -566,8 +571,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fileName);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- GlobalNamespace::OVRGLTFLoader::OVRGLTFLoader(::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRGLTFLoader>(data))) {}
+ GlobalNamespace::OVRGLTFLoader GlobalNamespace::OVRGLTFLoader::New_ctor(::ArrayW<uint8_t> data)  {
+GlobalNamespace::OVRGLTFLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRGLTFLoader>(data))};
+return o;
+}
  void GlobalNamespace::OVRGLTFLoader::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRGLTFLoader>::get(),

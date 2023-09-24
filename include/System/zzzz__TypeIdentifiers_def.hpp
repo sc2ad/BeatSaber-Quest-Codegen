@@ -4,14 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System {
-class TypeIdentifier;
-}
-namespace System {
 class TypeName;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace System {
+class TypeIdentifier;
+}
+namespace System {
+class System__TypeIdentifiers__Display;
 }
 // Forward declare root types
 namespace System {
@@ -93,8 +96,7 @@ constexpr ::StringW __get_internal_name() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit System__TypeIdentifiers__Display(::StringW displayName) ;
+static System::System__TypeIdentifiers__Display New_ctor(::StringW displayName) ;
 
 /// @brief Method .ctor addr 0x2498478 size 0x8 virtual false final false
  void _ctor(::StringW displayName) ;

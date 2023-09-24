@@ -13,7 +13,7 @@ class MessageWithPingResult;
 // Type: Oculus.Platform::MessageWithPingResult
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13461)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 950 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 950 }), TypeDefinitionIndex(TypeDefinitionIndex(13461)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13291))
 // CS Name: Oculus.Platform.MessageWithPingResult
 class CORDL_TYPE MessageWithPingResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithPingResult(void* ptr) noexcept : Oculus::Platform:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithPingResult(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithPingResult New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f608 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

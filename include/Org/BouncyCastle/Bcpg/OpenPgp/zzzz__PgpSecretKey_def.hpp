@@ -5,56 +5,56 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPrivateKey;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Bcpg {
 class S2k;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class SecretKeyPacket;
+struct SymmetricKeyAlgorithmTag;
 }
 namespace System {
 struct DateTime;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
+class PgpPrivateKey;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpKeyPair;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+class PgpPublicKey;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignatureSubpacketVector;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class SecretKeyPacket;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpKeyPair;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -140,68 +140,57 @@ constexpr Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey __get_pub() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "secret", ty: "Org::BouncyCastle::Bcpg::SecretKeyPacket", modifiers: "", def_value: None }, CppParam { name: "pub", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey", modifiers: "", def_value: None }]
-explicit PgpSecretKey(Org::BouncyCastle::Bcpg::SecretKeyPacket secret, Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pub) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(Org::BouncyCastle::Bcpg::SecretKeyPacket secret, Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pub) ;
 
 /// @brief Method .ctor addr 0x10315dc size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SecretKeyPacket secret, Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pub) ;
 
-// Ctor Parameters [CppParam { name: "privKey", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey", modifiers: "", def_value: None }, CppParam { name: "pubKey", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "rawPassPhrase", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "clearPassPhrase", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useSha1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "isMasterKey", ty: "bool", modifiers: "", def_value: None }]
-explicit PgpSecretKey(Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey privKey, Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool clearPassPhrase, bool useSha1, Org::BouncyCastle::Security::SecureRandom rand, bool isMasterKey) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey privKey, Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool clearPassPhrase, bool useSha1, Org::BouncyCastle::Security::SecureRandom rand, bool isMasterKey) ;
 
 /// @brief Method .ctor addr 0x1031608 size 0x728 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey privKey, Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pubKey, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool clearPassPhrase, bool useSha1, Org::BouncyCastle::Security::SecureRandom rand, bool isMasterKey) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "passPhrase", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x10322dc size 0x2c virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "passPhrase", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "useSha1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1032308 size 0x90 virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "utf8PassPhrase", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "passPhrase", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "useSha1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool utf8PassPhrase, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool utf8PassPhrase, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1032398 size 0x80 virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool utf8PassPhrase, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "rawPassPhrase", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "useSha1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x10324f0 size 0x30 virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "rawPassPhrase", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "clearPassPhrase", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useSha1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool clearPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool clearPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1032468 size 0x88 virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool clearPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "passPhrase", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "useSha1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x10327d4 size 0xa4 virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "utf8PassPhrase", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "passPhrase", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "useSha1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, bool utf8PassPhrase, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, bool utf8PassPhrase, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1032878 size 0x94 virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, bool utf8PassPhrase, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "rawPassPhrase", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "useSha1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1032994 size 0x34 virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "rawPassPhrase", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "clearPassPhrase", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useSha1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool clearPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool clearPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x103290c size 0x88 virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<uint8_t> rawPassPhrase, bool clearPassPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
@@ -212,14 +201,12 @@ static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey CertifiedPublicKey(int32_t
 /// @brief Method CertifiedPublicKey addr 0x10329c8 size 0x2c0 virtual false final false
 static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey CertifiedPublicKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair keyPair, ::StringW id, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "privKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "passPhrase", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1032ed0 size 0xe4 virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
-// Ctor Parameters [CppParam { name: "certificationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "privKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "passPhrase", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "useSha1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "unhashedPackets", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector", modifiers: "", def_value: None }, CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit PgpSecretKey(int32_t certificationLevel, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey New_ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1032fb4 size 0xe8 virtual false final false
  void _ctor(int32_t certificationLevel, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time, ::StringW id, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase, bool useSha1, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector hashedPackets, Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector unhashedPackets, Org::BouncyCastle::Security::SecureRandom rand) ;

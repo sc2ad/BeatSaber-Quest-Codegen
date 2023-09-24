@@ -70,8 +70,7 @@ constexpr ::ArrayW<int32_t> __get__triangleMap() const;
 /// @brief Method GetTrianglesCount addr 0x224becc size 0x24 virtual true final false
  int32_t GetTrianglesCount(GlobalNamespace::VertexPath path) ;
 
-// Ctor Parameters []
-explicit SliderMeshConstructorCrossedStrips() ;
+static GlobalNamespace::SliderMeshConstructorCrossedStrips New_ctor() ;
 
 /// @brief Method .ctor addr 0x224bef0 size 0x84 virtual false final false
  void _ctor() ;

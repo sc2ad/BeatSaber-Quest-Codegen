@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace UnityEngine {
 class Sprite;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -72,8 +72,7 @@ constexpr HoudiniEngineUnity::HEU_OutputAttributeDictionary __get__attributes() 
 /// @brief Method Clear addr 0x2011310 size 0x50 virtual false final false
  void Clear() ;
 
-// Ctor Parameters []
-explicit HEU_OutputAttributesStore() ;
+static HoudiniEngineUnity::HEU_OutputAttributesStore New_ctor() ;
 
 /// @brief Method .ctor addr 0x2011360 size 0x64 virtual false final false
  void _ctor() ;

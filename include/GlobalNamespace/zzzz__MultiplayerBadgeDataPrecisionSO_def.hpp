@@ -54,8 +54,7 @@ constexpr explicit MultiplayerBadgeDataPrecisionSO(void* ptr) noexcept : GlobalN
 /// @brief Method GetValue addr 0x20da24c size 0x3c virtual true final false
  float_t GetValue(GlobalNamespace::MultiplayerPlayerResultsData result) ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgeDataPrecisionSO() ;
+static GlobalNamespace::MultiplayerBadgeDataPrecisionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20da288 size 0x10 virtual false final false
  void _ctor() ;

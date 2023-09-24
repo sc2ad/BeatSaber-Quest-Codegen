@@ -10,7 +10,7 @@ class AssetReferenceSprite;
 // Type: UnityEngine.AddressableAssets::AssetReferenceSprite
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(14363)), TypeDefinitionIndex(TypeDefinitionIndex(10227))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(10227)), TypeDefinitionIndex(TypeDefinitionIndex(14363))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14368))
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceSprite
 class CORDL_TYPE AssetReferenceSprite : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Sprite> {
@@ -49,8 +49,7 @@ constexpr explicit AssetReferenceSprite(void* ptr) noexcept : UnityEngine::Addre
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssetReferenceSprite(::StringW guid) ;
+static UnityEngine::AddressableAssets::AssetReferenceSprite New_ctor(::StringW guid) ;
 
 /// @brief Method .ctor addr 0x28922b4 size 0x58 virtual false final false
  void _ctor(::StringW guid) ;

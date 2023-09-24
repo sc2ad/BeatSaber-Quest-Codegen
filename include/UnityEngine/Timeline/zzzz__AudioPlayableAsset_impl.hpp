@@ -1,18 +1,19 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AudioPlayableAsset_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Timeline/zzzz__AudioPlayableAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 #include "UnityEngine/Timeline/zzzz__AudioClipProperties_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16._ctor
 template<>
@@ -194,8 +195,10 @@ constexpr void UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset_
 constexpr UnityEngine::Timeline::AudioPlayableAsset UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Timeline::AudioPlayableAsset, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16>(__1__state))) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16 UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16::New_ctor(int32_t __1__state)  {
+UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16>(__1__state))};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16>::get(),
@@ -573,8 +576,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Timeline::ClipCaps, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::AudioPlayableAsset::AudioPlayableAsset()  : UnityEngine::Playables::PlayableAsset(THROW_UNLESS(::il2cpp_utils::New<AudioPlayableAsset>())) {}
+ UnityEngine::Timeline::AudioPlayableAsset UnityEngine::Timeline::AudioPlayableAsset::New_ctor()  {
+UnityEngine::Timeline::AudioPlayableAsset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::AudioPlayableAsset>())};
+return o;
+}
  void UnityEngine::Timeline::AudioPlayableAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::AudioPlayableAsset>::get(),

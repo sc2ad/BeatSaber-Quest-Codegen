@@ -1,21 +1,21 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__SignerInformation_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedHelper_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerInfo_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__SignerInformationStore_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__SignerID_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__SignerInformationStore_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__Time_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DigestInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__SignerID_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::SignerInformation._ctor
 template<>
 
@@ -599,8 +599,10 @@ constexpr void Org::BouncyCastle::Cms::SignerInformation::__set_isCounterSignatu
 constexpr bool Org::BouncyCastle::Cms::SignerInformation::__get_isCounterSignature() const {
 return ::cordl_internals::getInstanceField<bool, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::SignerInfo", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "content", ty: "Org::BouncyCastle::Cms::CmsProcessable", modifiers: "", def_value: None }, CppParam { name: "digestCalculator", ty: "Org::BouncyCastle::Cms::IDigestCalculator", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::SignerInformation::SignerInformation(Org::BouncyCastle::Asn1::Cms::SignerInfo info, Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Cms::CmsProcessable content, Org::BouncyCastle::Cms::IDigestCalculator digestCalculator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignerInformation>(info, contentType, content, digestCalculator))) {}
+ Org::BouncyCastle::Cms::SignerInformation Org::BouncyCastle::Cms::SignerInformation::New_ctor(Org::BouncyCastle::Asn1::Cms::SignerInfo info, Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Cms::CmsProcessable content, Org::BouncyCastle::Cms::IDigestCalculator digestCalculator)  {
+Org::BouncyCastle::Cms::SignerInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::SignerInformation>(info, contentType, content, digestCalculator))};
+return o;
+}
  void Org::BouncyCastle::Cms::SignerInformation::_ctor(Org::BouncyCastle::Asn1::Cms::SignerInfo info, Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Cms::CmsProcessable content, Org::BouncyCastle::Cms::IDigestCalculator digestCalculator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::SignerInformation>::get(),
@@ -610,8 +612,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, contentType, content, digestCalculator);
 }
-// Ctor Parameters [CppParam { name: "baseInfo", ty: "Org::BouncyCastle::Cms::SignerInformation", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::SignerInformation::SignerInformation(Org::BouncyCastle::Cms::SignerInformation baseInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignerInformation>(baseInfo))) {}
+ Org::BouncyCastle::Cms::SignerInformation Org::BouncyCastle::Cms::SignerInformation::New_ctor(Org::BouncyCastle::Cms::SignerInformation baseInfo)  {
+Org::BouncyCastle::Cms::SignerInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::SignerInformation>(baseInfo))};
+return o;
+}
  void Org::BouncyCastle::Cms::SignerInformation::_ctor(Org::BouncyCastle::Cms::SignerInformation baseInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::SignerInformation>::get(),

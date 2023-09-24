@@ -2,45 +2,45 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
 class PracticeSettings;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class BeatmapDataCache;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class SceneInfo;
+}
+namespace GlobalNamespace {
+class ColorScheme;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -242,8 +242,7 @@ constexpr GlobalNamespace::GameplayModifiers __get__gameplayModifiers_k__Backing
 /// @brief Method Finish addr 0x21d3b64 size 0x28 virtual false final false
  void Finish(GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
-// Ctor Parameters []
-explicit StandardLevelScenesTransitionSetupDataSO() ;
+static GlobalNamespace::StandardLevelScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3b8c size 0x8 virtual false final false
  void _ctor() ;

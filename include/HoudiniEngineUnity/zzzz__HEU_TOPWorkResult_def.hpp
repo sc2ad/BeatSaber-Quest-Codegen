@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine {
+class GameObject;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -76,8 +76,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::GameObject> __get__g
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_TOPWorkResult() ;
+static HoudiniEngineUnity::HEU_TOPWorkResult New_ctor() ;
 
 /// @brief Method .ctor addr 0x202a7e4 size 0x84 virtual false final false
  void _ctor() ;

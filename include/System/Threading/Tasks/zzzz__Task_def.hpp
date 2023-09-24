@@ -1,7 +1,5 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__VoidTaskResult_def.hpp"
 #include "System/Threading/zzzz__ManualResetEventSlim_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
@@ -11,12 +9,6 @@ namespace System::Threading::Tasks {
 class TaskExceptionHolder;
 }
 namespace System::Threading {
-class ManualResetEventSlim;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading {
 class ExecutionContext;
 }
 namespace System::Collections::Generic {
@@ -24,28 +16,83 @@ template<typename T>
 class LowLevelListWithIList_1;
 }
 namespace System::Threading {
-class Timer;
+class ManualResetEventSlim;
 }
 namespace System::Threading {
-struct CancellationTokenRegistration;
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 class ITaskCompletionAction;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System::Threading {
+class TimerCallback;
+}
+namespace System::Runtime::CompilerServices {
+struct YieldAwaitable;
+}
+namespace System::Threading::Tasks {
+struct TaskStatus;
+}
+namespace System {
+class Delegate;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__Task__DelayPromise;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__Task____c;
+}
+namespace System::Threading::Tasks {
+class StackGuard;
+}
+namespace System::Threading::Tasks {
+class TaskContinuation;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System {
-template<typename T1,typename T2>
-struct ValueTuple_2;
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__Task__ContingentProperties;
 }
 namespace System::Threading {
-class TimerCallback;
+class WaitHandle;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 namespace System {
+class Action;
+}
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__Task__SetOnInvokeMres;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace System::Threading {
+class ContextCallback;
+}
+namespace System::Threading::Tasks {
 template<typename T>
-class Action_1;
+class System__Threading__Tasks__Task__WhenAllPromise_1;
+}
+namespace System::Threading::Tasks {
+class TaskFactory;
 }
 namespace System {
 template<typename T>
@@ -55,119 +102,57 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace System::Collections::ObjectModel {
+template<typename T>
+class ReadOnlyCollection_1;
+}
+namespace System {
+class OperationCanceledException;
+}
+namespace System::Threading {
+class ThreadAbortException;
+}
+namespace System {
+class AggregateException;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
+}
+namespace System::Threading::Tasks {
+class TaskScheduler;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
+}
+namespace System {
+class Exception;
+}
 namespace System::Threading::Tasks {
 struct InternalTaskOptions;
 }
 namespace System::Runtime::CompilerServices {
 struct ConfiguredTaskAwaitable;
 }
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
 namespace System::Threading::Tasks {
-struct TaskStatus;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
-}
-namespace System::Threading::Tasks {
-class TaskContinuation;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
-}
-namespace System::Threading::Tasks {
-class TaskFactory;
-}
-namespace System::Threading {
-class ThreadAbortException;
-}
-namespace System::Threading::Tasks {
-class StackGuard;
-}
-namespace System {
-class Exception;
-}
-namespace System::Threading {
-class ContextCallback;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-class OperationCanceledException;
-}
-namespace System::Threading::Tasks {
-class TaskScheduler;
-}
-namespace System {
-class Delegate;
-}
-namespace System {
-class AggregateException;
-}
-namespace System::Threading {
-class WaitHandle;
+struct TaskContinuationOptions;
 }
 namespace System::Threading::Tasks {
 struct TaskCreationOptions;
 }
-namespace System::Collections::ObjectModel {
-template<typename T>
-class ReadOnlyCollection_1;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Threading {
-class IThreadPoolWorkItem;
-}
-namespace System::Runtime::CompilerServices {
-struct YieldAwaitable;
-}
-namespace System::Threading::Tasks {
-struct TaskContinuationOptions;
-}
-namespace System {
-class Action;
-}
 // Forward declare root types
-namespace System::Threading::Tasks {
-template<typename T>
-class System__Threading__Tasks__Task__WhenAllPromise_1;
-}
 namespace System::Threading::Tasks {
 class System__Threading__Tasks__Task__ContingentProperties;
 }
 namespace System::Threading::Tasks {
-class System__Threading__Tasks__Task__DelayPromise;
-}
-namespace System::Threading::Tasks {
 class System__Threading__Tasks__Task__SetOnInvokeMres;
-}
-namespace System::Threading::Tasks {
-template<::cordl_internals::il2cpp_reference_type T>
-class System__Threading__Tasks__Task__WhenAllPromise_1<T>;
-}
-namespace System::Threading::Tasks {
-template<>
-class System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>;
-}
-namespace System::Threading::Tasks {
-template<>
-class System__Threading__Tasks__Task__WhenAllPromise_1<bool>;
 }
 namespace System::Threading::Tasks {
 class System__Threading__Tasks__Task____c;
@@ -274,8 +259,7 @@ constexpr System::Collections::Generic::LowLevelListWithIList_1<System::Threadin
 /// @brief Method UnregisterCancellationCallback addr 0x24b80e8 size 0x108 virtual false final false
  void UnregisterCancellationCallback() ;
 
-// Ctor Parameters []
-explicit System__Threading__Tasks__Task__ContingentProperties() ;
+static System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties New_ctor() ;
 
 /// @brief Method .ctor addr 0x24b52d8 size 0x24 virtual false final false
  void _ctor() ;
@@ -334,8 +318,7 @@ constexpr explicit System__Threading__Tasks__Task__SetOnInvokeMres(void* ptr) no
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__Tasks__Task__SetOnInvokeMres() ;
+static System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres New_ctor() ;
 
 /// @brief Method .ctor addr 0x24ba2b4 size 0x60 virtual false final false
  void _ctor() ;
@@ -350,83 +333,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-// Type: ::DelayPromise
-namespace System::Threading::Tasks {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2770)), TypeDefinitionIndex(TypeDefinitionIndex(2790)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 867 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2780))
-// CS Name: System.Threading.Tasks.Task::DelayPromise
-class CORDL_TYPE System__Threading__Tasks__Task__DelayPromise : public System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult> {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
-
-virtual ~System__Threading__Tasks__Task__DelayPromise() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__Task__DelayPromise", modifiers: " const&", def_value: None }]
-constexpr System__Threading__Tasks__Task__DelayPromise(System__Threading__Tasks__Task__DelayPromise const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__Task__DelayPromise", modifiers: "&&", def_value: None }]
-constexpr System__Threading__Tasks__Task__DelayPromise(System__Threading__Tasks__Task__DelayPromise&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__Tasks__Task__DelayPromise(void* ptr) noexcept : System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult>(ptr) {
-}
-
-
-  constexpr System__Threading__Tasks__Task__DelayPromise& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__Task__DelayPromise& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__Task__DelayPromise& operator=(System__Threading__Tasks__Task__DelayPromise&& o) noexcept = default;
-  constexpr System__Threading__Tasks__Task__DelayPromise& operator=(System__Threading__Tasks__Task__DelayPromise const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Threading::CancellationToken __declspec(property(get=__get_Token, put=__set_Token))  Token;
-
-constexpr void __set_Token(System::Threading::CancellationToken value) ;
-
-constexpr System::Threading::CancellationToken __get_Token() const;
-
- System::Threading::CancellationTokenRegistration __declspec(property(get=__get_Registration, put=__set_Registration))  Registration;
-
-constexpr void __set_Registration(System::Threading::CancellationTokenRegistration value) ;
-
-constexpr System::Threading::CancellationTokenRegistration __get_Registration() const;
-
- System::Threading::Timer __declspec(property(get=__get_Timer, put=__set_Timer))  Timer;
-
-constexpr void __set_Timer(System::Threading::Timer value) ;
-
-constexpr System::Threading::Timer __get_Timer() const;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "token", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
-explicit System__Threading__Tasks__Task__DelayPromise(System::Threading::CancellationToken token) ;
-
-/// @brief Method .ctor addr 0x24bbb34 size 0x114 virtual false final false
- void _ctor(System::Threading::CancellationToken token) ;
-
-/// @brief Method Complete addr 0x24bca70 size 0x138 virtual false final false
- void Complete() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Threading::Tasks
-// Type: ::WhenAllPromise`1
 // Type: ::<>c
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -490,8 +396,7 @@ static System::Threading::TimerCallback __get___9__247_1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__Tasks__Task____c() ;
+static System::Threading::Tasks::System__Threading__Tasks__Task____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24bcc0c size 0x8 virtual false final false
  void _ctor() ;
@@ -819,26 +724,22 @@ static System::Threading::Tasks::Task __declspec(property(get=get_CompletedTask)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "canceled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }, CppParam { name: "ct", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
-explicit Task(bool canceled, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::CancellationToken ct) ;
+static System::Threading::Tasks::Task New_ctor(bool canceled, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::CancellationToken ct) ;
 
 /// @brief Method .ctor addr 0x24b5218 size 0xc0 virtual false final false
  void _ctor(bool canceled, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::CancellationToken ct) ;
 
-// Ctor Parameters []
-explicit Task() ;
+static System::Threading::Tasks::Task New_ctor() ;
 
 /// @brief Method .ctor addr 0x24b52fc size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }, CppParam { name: "promiseStyle", ty: "bool", modifiers: "", def_value: None }]
-explicit Task(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, bool promiseStyle) ;
+static System::Threading::Tasks::Task New_ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, bool promiseStyle) ;
 
 /// @brief Method .ctor addr 0x24b5324 size 0x124 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, bool promiseStyle) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::Delegate", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }, CppParam { name: "internalOptions", ty: "System::Threading::Tasks::InternalTaskOptions", modifiers: "", def_value: None }, CppParam { name: "scheduler", ty: "System::Threading::Tasks::TaskScheduler", modifiers: "", def_value: None }]
-explicit Task(System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::Task parent, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler scheduler) ;
+static System::Threading::Tasks::Task New_ctor(System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::Task parent, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler scheduler) ;
 
 /// @brief Method .ctor addr 0x24b55a0 size 0xc8 virtual false final false
  void _ctor(System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::Task parent, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler scheduler) ;
@@ -1247,275 +1148,8 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-// Type: ::WhenAllPromise`1
-namespace System::Threading::Tasks {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type T>
-// Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 4964 }), TypeDefinitionIndex(TypeDefinitionIndex(2770)), TypeDefinitionIndex(TypeDefinitionIndex(2781))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2781), inst: 2 })
-// CS Name: System.Threading.Tasks.Task::WhenAllPromise`1
-class CORDL_TYPE System__Threading__Tasks__Task__WhenAllPromise_1<T> : public System::Threading::Tasks::Task_1<::ArrayW<T>> {
-public:
-// Declarations
-/// @brief Convert operator to System::Threading::Tasks::ITaskCompletionAction
-constexpr operator  System::Threading::Tasks::ITaskCompletionAction() const noexcept;
-
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
-
-virtual ~System__Threading__Tasks__Task__WhenAllPromise_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__Task__WhenAllPromise_1", modifiers: " const&", def_value: None }]
-constexpr System__Threading__Tasks__Task__WhenAllPromise_1(System__Threading__Tasks__Task__WhenAllPromise_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__Task__WhenAllPromise_1", modifiers: "&&", def_value: None }]
-constexpr System__Threading__Tasks__Task__WhenAllPromise_1(System__Threading__Tasks__Task__WhenAllPromise_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__Tasks__Task__WhenAllPromise_1(void* ptr) noexcept : System::Threading::Tasks::Task_1<::ArrayW<T>>(ptr) {
-}
-
-
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(System__Threading__Tasks__Task__WhenAllPromise_1&& o) noexcept = default;
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(System__Threading__Tasks__Task__WhenAllPromise_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- ::ArrayW<System::Threading::Tasks::Task_1<T>> __declspec(property(get=__get_m_tasks, put=__set_m_tasks))  m_tasks;
-
-constexpr void __set_m_tasks(::ArrayW<System::Threading::Tasks::Task_1<T>> value) ;
-
-constexpr ::ArrayW<System::Threading::Tasks::Task_1<T>> __get_m_tasks() const;
-
- int32_t __declspec(property(get=__get_m_count, put=__set_m_count))  m_count;
-
-constexpr void __set_m_count(int32_t value) ;
-
-constexpr int32_t __get_m_count() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_ShouldNotifyDebuggerOfWaitCompletion))  ShouldNotifyDebuggerOfWaitCompletion;
-
- bool __declspec(property(get=get_InvokeMayRunArbitraryCode))  InvokeMayRunArbitraryCode;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "tasks", ty: "::ArrayW<System::Threading::Tasks::Task_1<T>>", modifiers: "", def_value: None }]
-explicit System__Threading__Tasks__Task__WhenAllPromise_1(::ArrayW<System::Threading::Tasks::Task_1<T>> tasks) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<System::Threading::Tasks::Task_1<T>> tasks) ;
-
-/// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final true
- void Invoke(System::Threading::Tasks::Task ignored) ;
-
-/// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion addr 0x0 size 0xffffffffffffffff virtual true final false
- bool get_ShouldNotifyDebuggerOfWaitCompletion() ;
-
-/// @brief Method get_InvokeMayRunArbitraryCode addr 0x0 size 0xffffffffffffffff virtual true final true
- bool get_InvokeMayRunArbitraryCode() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Threading::Tasks
-// Type: ::WhenAllPromise`1
-namespace System::Threading::Tasks {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 4964 }), TypeDefinitionIndex(TypeDefinitionIndex(2781)), TypeDefinitionIndex(TypeDefinitionIndex(2770))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2781), inst: 99 })
-// CS Name: System.Threading.Tasks.Task::WhenAllPromise`1
-class CORDL_TYPE System__Threading__Tasks__Task__WhenAllPromise_1<bool> : public System::Threading::Tasks::Task_1<::ArrayW<bool>> {
-public:
-// Declarations
-/// @brief Convert operator to System::Threading::Tasks::ITaskCompletionAction
-constexpr operator  System::Threading::Tasks::ITaskCompletionAction() const noexcept;
-
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
-
-virtual ~System__Threading__Tasks__Task__WhenAllPromise_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__Task__WhenAllPromise_1", modifiers: " const&", def_value: None }]
-constexpr System__Threading__Tasks__Task__WhenAllPromise_1(System__Threading__Tasks__Task__WhenAllPromise_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__Task__WhenAllPromise_1", modifiers: "&&", def_value: None }]
-constexpr System__Threading__Tasks__Task__WhenAllPromise_1(System__Threading__Tasks__Task__WhenAllPromise_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__Tasks__Task__WhenAllPromise_1(void* ptr) noexcept : System::Threading::Tasks::Task_1<::ArrayW<bool>>(ptr) {
-}
-
-
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(System__Threading__Tasks__Task__WhenAllPromise_1&& o) noexcept = default;
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(System__Threading__Tasks__Task__WhenAllPromise_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- ::ArrayW<System::Threading::Tasks::Task_1<bool>> __declspec(property(get=__get_m_tasks, put=__set_m_tasks))  m_tasks;
-
-constexpr void __set_m_tasks(::ArrayW<System::Threading::Tasks::Task_1<bool>> value) ;
-
-constexpr ::ArrayW<System::Threading::Tasks::Task_1<bool>> __get_m_tasks() const;
-
- int32_t __declspec(property(get=__get_m_count, put=__set_m_count))  m_count;
-
-constexpr void __set_m_count(int32_t value) ;
-
-constexpr int32_t __get_m_count() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_ShouldNotifyDebuggerOfWaitCompletion))  ShouldNotifyDebuggerOfWaitCompletion;
-
- bool __declspec(property(get=get_InvokeMayRunArbitraryCode))  InvokeMayRunArbitraryCode;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "tasks", ty: "::ArrayW<System::Threading::Tasks::Task_1<bool>>", modifiers: "", def_value: None }]
-explicit System__Threading__Tasks__Task__WhenAllPromise_1(::ArrayW<System::Threading::Tasks::Task_1<bool>> tasks) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<System::Threading::Tasks::Task_1<bool>> tasks) ;
-
-/// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final true
- void Invoke(System::Threading::Tasks::Task ignored) ;
-
-/// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion addr 0x0 size 0xffffffffffffffff virtual true final false
- bool get_ShouldNotifyDebuggerOfWaitCompletion() ;
-
-/// @brief Method get_InvokeMayRunArbitraryCode addr 0x0 size 0xffffffffffffffff virtual true final true
- bool get_InvokeMayRunArbitraryCode() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Threading::Tasks
-// Type: ::WhenAllPromise`1
-namespace System::Threading::Tasks {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2781)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 4964 }), TypeDefinitionIndex(TypeDefinitionIndex(2770))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2781), inst: 5957 })
-// CS Name: System.Threading.Tasks.Task::WhenAllPromise`1
-class CORDL_TYPE System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>> : public System::Threading::Tasks::Task_1<::ArrayW<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>> {
-public:
-// Declarations
-/// @brief Convert operator to System::Threading::Tasks::ITaskCompletionAction
-constexpr operator  System::Threading::Tasks::ITaskCompletionAction() const noexcept;
-
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
-
-virtual ~System__Threading__Tasks__Task__WhenAllPromise_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__Task__WhenAllPromise_1", modifiers: " const&", def_value: None }]
-constexpr System__Threading__Tasks__Task__WhenAllPromise_1(System__Threading__Tasks__Task__WhenAllPromise_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__Task__WhenAllPromise_1", modifiers: "&&", def_value: None }]
-constexpr System__Threading__Tasks__Task__WhenAllPromise_1(System__Threading__Tasks__Task__WhenAllPromise_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__Tasks__Task__WhenAllPromise_1(void* ptr) noexcept : System::Threading::Tasks::Task_1<::ArrayW<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>(ptr) {
-}
-
-
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(System__Threading__Tasks__Task__WhenAllPromise_1&& o) noexcept = default;
-  constexpr System__Threading__Tasks__Task__WhenAllPromise_1& operator=(System__Threading__Tasks__Task__WhenAllPromise_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- ::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>> __declspec(property(get=__get_m_tasks, put=__set_m_tasks))  m_tasks;
-
-constexpr void __set_m_tasks(::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>> value) ;
-
-constexpr ::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>> __get_m_tasks() const;
-
- int32_t __declspec(property(get=__get_m_count, put=__set_m_count))  m_count;
-
-constexpr void __set_m_count(int32_t value) ;
-
-constexpr int32_t __get_m_count() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_ShouldNotifyDebuggerOfWaitCompletion))  ShouldNotifyDebuggerOfWaitCompletion;
-
- bool __declspec(property(get=get_InvokeMayRunArbitraryCode))  InvokeMayRunArbitraryCode;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "tasks", ty: "::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>", modifiers: "", def_value: None }]
-explicit System__Threading__Tasks__Task__WhenAllPromise_1(::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>> tasks) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>> tasks) ;
-
-/// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final true
- void Invoke(System::Threading::Tasks::Task ignored) ;
-
-/// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion addr 0x0 size 0xffffffffffffffff virtual true final false
- bool get_ShouldNotifyDebuggerOfWaitCompletion() ;
-
-/// @brief Method get_InvokeMayRunArbitraryCode addr 0x0 size 0xffffffffffffffff virtual true final true
- bool get_InvokeMayRunArbitraryCode() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Threading::Tasks
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1, "System.Threading.Tasks", "Task/WhenAllPromise`1");
 NEED_NO_BOX(System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties, "System.Threading.Tasks", "Task/ContingentProperties");
-NEED_NO_BOX(System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise, "System.Threading.Tasks", "Task/DelayPromise");
 NEED_NO_BOX(System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres, "System.Threading.Tasks", "Task/SetOnInvokeMres");
 NEED_NO_BOX(System::Threading::Tasks::System__Threading__Tasks__Task____c);

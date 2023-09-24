@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CompleteRevocationRefs_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlOcspRef_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs.GetInstance
 template<>
 
@@ -122,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::CompleteRevocationRefs(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CompleteRevocationRefs>(seq))) {}
+ Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs>::get(),
@@ -133,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "crlOcspRefs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlOcspRef>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::CompleteRevocationRefs(::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlOcspRef> crlOcspRefs)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CompleteRevocationRefs>(crlOcspRefs))) {}
+ Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlOcspRef> crlOcspRefs)  {
+Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs>(crlOcspRefs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlOcspRef> crlOcspRefs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs>::get(),
@@ -144,8 +148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, crlOcspRefs);
 }
-// Ctor Parameters [CppParam { name: "crlOcspRefs", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::CompleteRevocationRefs(System::Collections::IEnumerable crlOcspRefs)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CompleteRevocationRefs>(crlOcspRefs))) {}
+ Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::New_ctor(System::Collections::IEnumerable crlOcspRefs)  {
+Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs>(crlOcspRefs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::_ctor(System::Collections::IEnumerable crlOcspRefs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs>::get(),

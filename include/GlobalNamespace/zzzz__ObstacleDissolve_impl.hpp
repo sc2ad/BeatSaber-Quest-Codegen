@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleDissolve_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__CutoutAnimateEffect_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ObstacleDissolve.Awake
 template<>
 
@@ -136,8 +136,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, obstacleController, duration);
 }
-// Ctor Parameters []
- GlobalNamespace::ObstacleDissolve::ObstacleDissolve()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ObstacleDissolve>())) {}
+ GlobalNamespace::ObstacleDissolve GlobalNamespace::ObstacleDissolve::New_ctor()  {
+GlobalNamespace::ObstacleDissolve o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObstacleDissolve>())};
+return o;
+}
  void GlobalNamespace::ObstacleDissolve::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObstacleDissolve>::get(),

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Net/zzzz__HttpListenerPrefixCollection_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/zzzz__HttpListener_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/zzzz__HttpListener_def.hpp"
 //  Writing Method size for method: System::Net::HttpListenerPrefixCollection._ctor
 template<>
 
@@ -201,8 +201,10 @@ constexpr void System::Net::HttpListenerPrefixCollection::__set_listener(System:
 constexpr System::Net::HttpListener System::Net::HttpListenerPrefixCollection::__get_listener() const {
 return ::cordl_internals::getInstanceField<System::Net::HttpListener, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "listener", ty: "System::Net::HttpListener", modifiers: "", def_value: None }]
- System::Net::HttpListenerPrefixCollection::HttpListenerPrefixCollection(System::Net::HttpListener listener)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpListenerPrefixCollection>(listener))) {}
+ System::Net::HttpListenerPrefixCollection System::Net::HttpListenerPrefixCollection::New_ctor(System::Net::HttpListener listener)  {
+System::Net::HttpListenerPrefixCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpListenerPrefixCollection>(listener))};
+return o;
+}
  void System::Net::HttpListenerPrefixCollection::_ctor(System::Net::HttpListener listener)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerPrefixCollection>::get(),

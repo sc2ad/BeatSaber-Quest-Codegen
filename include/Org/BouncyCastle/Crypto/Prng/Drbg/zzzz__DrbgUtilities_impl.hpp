@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__DrbgUtilities_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities.GetMaxSecurityStrength
 template<>
@@ -130,8 +130,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, bytes, maxBytes);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities::DrbgUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DrbgUtilities>())) {}
+ Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities::New_ctor()  {
+Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities>::get(),

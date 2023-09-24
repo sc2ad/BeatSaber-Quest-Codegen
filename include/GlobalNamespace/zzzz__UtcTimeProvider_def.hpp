@@ -78,8 +78,7 @@ static GlobalNamespace::UtcTimeProvider __get_instance() ;
 /// @brief Method GetTicks addr 0xdbc8b4 size 0xb4 virtual true final true
  int64_t GetTicks() ;
 
-// Ctor Parameters []
-explicit UtcTimeProvider() ;
+static GlobalNamespace::UtcTimeProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0xdcdc8c size 0x8 virtual false final false
  void _ctor() ;

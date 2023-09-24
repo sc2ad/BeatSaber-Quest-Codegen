@@ -4,24 +4,24 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-class Action;
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class InputUpdateDelegate;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-template<typename T>
-class Action_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template<typename T,typename TResult>

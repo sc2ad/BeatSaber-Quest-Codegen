@@ -59,8 +59,7 @@ constexpr System::Runtime::InteropServices::ClassInterfaceType __get__val() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "classInterfaceType", ty: "System::Runtime::InteropServices::ClassInterfaceType", modifiers: "", def_value: None }]
-explicit ClassInterfaceAttribute(System::Runtime::InteropServices::ClassInterfaceType classInterfaceType) ;
+static System::Runtime::InteropServices::ClassInterfaceAttribute New_ctor(System::Runtime::InteropServices::ClassInterfaceType classInterfaceType) ;
 
 /// @brief Method .ctor addr 0x236ac18 size 0x28 virtual false final false
  void _ctor(System::Runtime::InteropServices::ClassInterfaceType classInterfaceType) ;

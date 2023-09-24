@@ -3,21 +3,21 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::Playables {
-class IPlayableAsset;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace UnityEngine::Playables {
 struct PlayableBinding;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace UnityEngine::Playables {
+class IPlayableAsset;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct Playable;
@@ -93,8 +93,7 @@ static void Internal_CreatePlayable(UnityEngine::Playables::PlayableAsset asset,
 /// @brief Method Internal_GetPlayableAssetDuration addr 0x2b7c878 size 0x28 virtual false final false
 static void Internal_GetPlayableAssetDuration(UnityEngine::Playables::PlayableAsset asset, ::cordl_internals::intptr_t ptrToDouble) ;
 
-// Ctor Parameters []
-explicit PlayableAsset() ;
+static UnityEngine::Playables::PlayableAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b7c8a0 size 0x8 virtual false final false
  void _ctor() ;

@@ -24,8 +24,10 @@ constexpr void UnityEngine::TooltipAttribute::__set_tooltip(::StringW value)  {
 constexpr ::StringW UnityEngine::TooltipAttribute::__get_tooltip() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::TooltipAttribute::TooltipAttribute(::StringW tooltip)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<TooltipAttribute>(tooltip))) {}
+ UnityEngine::TooltipAttribute UnityEngine::TooltipAttribute::New_ctor(::StringW tooltip)  {
+UnityEngine::TooltipAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TooltipAttribute>(tooltip))};
+return o;
+}
  void UnityEngine::TooltipAttribute::_ctor(::StringW tooltip)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TooltipAttribute>::get(),

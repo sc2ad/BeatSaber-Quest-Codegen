@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IStylePainter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__MeshGenerationContext__MeshFlags::UnityEngine__UIElements__MeshGenerationContext__MeshFlags(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -37,8 +38,10 @@ constexpr void UnityEngine::UIElements::MeshGenerationContext::__set_painter(Uni
 constexpr UnityEngine::UIElements::IStylePainter UnityEngine::UIElements::MeshGenerationContext::__get_painter() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::IStylePainter, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "painter", ty: "UnityEngine::UIElements::IStylePainter", modifiers: "", def_value: None }]
- UnityEngine::UIElements::MeshGenerationContext::MeshGenerationContext(UnityEngine::UIElements::IStylePainter painter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MeshGenerationContext>(painter))) {}
+ UnityEngine::UIElements::MeshGenerationContext UnityEngine::UIElements::MeshGenerationContext::New_ctor(UnityEngine::UIElements::IStylePainter painter)  {
+UnityEngine::UIElements::MeshGenerationContext o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::MeshGenerationContext>(painter))};
+return o;
+}
  void UnityEngine::UIElements::MeshGenerationContext::_ctor(UnityEngine::UIElements::IStylePainter painter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::MeshGenerationContext>::get(),

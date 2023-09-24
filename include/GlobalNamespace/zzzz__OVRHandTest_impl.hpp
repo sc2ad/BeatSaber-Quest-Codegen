@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRHandTest_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "GlobalNamespace/zzzz__OVRHandTest_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator._ctor
 template<>
@@ -78,8 +77,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator>::get(),
@@ -209,8 +210,11 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor::__set
 constexpr float_t GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor::__get_m_displayTimer() const {
 return ::cordl_internals::getInstanceField<float_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "generator", ty: "GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator", modifiers: "", def_value: None }, CppParam { name: "displayTimeout", ty: "float_t", modifiers: "", def_value: Some("0.5") }]
- GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor::GlobalNamespace__OVRHandTest__BoolMonitor(::StringW name, GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator generator, float_t displayTimeout)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRHandTest__BoolMonitor>(name, generator, displayTimeout))) {}
+/// @param displayTimeout: float_t (default: 0.5)
+ GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor::New_ctor(::StringW name, GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator generator, float_t displayTimeout)  {
+GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor>(name, generator, displayTimeout))};
+return o;
+}
 /// @param displayTimeout: float_t (default: 0.5)
  void GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor::_ctor(::StringW name, GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator generator, float_t displayTimeout)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -302,8 +306,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__OVRHa
  GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator GlobalNamespace::GlobalNamespace__OVRHandTest____c::__get___9__14_0()  {
 return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator, "<>9__14_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRHandTest____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRHandTest____c::GlobalNamespace__OVRHandTest____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRHandTest____c>())) {}
+ GlobalNamespace::GlobalNamespace__OVRHandTest____c GlobalNamespace::GlobalNamespace__OVRHandTest____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRHandTest____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRHandTest____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRHandTest____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRHandTest____c>::get(),
@@ -490,8 +496,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRHandTest::OVRHandTest()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRHandTest>())) {}
+ GlobalNamespace::OVRHandTest GlobalNamespace::OVRHandTest::New_ctor()  {
+GlobalNamespace::OVRHandTest o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRHandTest>())};
+return o;
+}
  void GlobalNamespace::OVRHandTest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRHandTest>::get(),

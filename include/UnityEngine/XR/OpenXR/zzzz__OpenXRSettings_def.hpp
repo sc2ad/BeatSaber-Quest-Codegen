@@ -4,15 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace UnityEngine::XR::OpenXR::Features {
 class OpenXRFeature;
 }
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::XR::OpenXR {
+struct UnityEngine__XR__OpenXR__OpenXRSettings__RenderMode;
+}
+namespace UnityEngine::XR::OpenXR {
+struct UnityEngine__XR__OpenXR__OpenXRSettings__DepthSubmissionMode;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR {
@@ -73,6 +79,8 @@ __SinglePassInstanced = 1,
 constexpr operator __UnityEngine__XR__OpenXR__OpenXRSettings__RenderMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__XR__OpenXR__OpenXRSettings__RenderMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -143,6 +151,8 @@ __Depth24Bit = 2,
 constexpr operator __UnityEngine__XR__OpenXR__OpenXRSettings__DepthSubmissionMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__XR__OpenXR__OpenXRSettings__DepthSubmissionMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -327,8 +337,7 @@ static UnityEngine::XR::OpenXR::OpenXRSettings get_ActiveBuildTargetInstance() ;
 /// @brief Method get_Instance addr 0x2ae51b0 size 0x8 virtual false final false
 static UnityEngine::XR::OpenXR::OpenXRSettings get_Instance() ;
 
-// Ctor Parameters []
-explicit OpenXRSettings() ;
+static UnityEngine::XR::OpenXR::OpenXRSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae51b8 size 0x60 virtual false final false
  void _ctor() ;

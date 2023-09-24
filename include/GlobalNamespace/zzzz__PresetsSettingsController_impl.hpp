@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__PresetsSettingsController_def.hpp"
-#include "GlobalNamespace/zzzz__NamedPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__IntSO_def.hpp"
+#include "GlobalNamespace/zzzz__NamedPresetsSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PresetsSettingsController.GetInitValues
 template<>
 
@@ -122,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::PresetsSettingsController::PresetsSettingsController()  : GlobalNamespace::ListSettingsController(THROW_UNLESS(::il2cpp_utils::New<PresetsSettingsController>())) {}
+ GlobalNamespace::PresetsSettingsController GlobalNamespace::PresetsSettingsController::New_ctor()  {
+GlobalNamespace::PresetsSettingsController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PresetsSettingsController>())};
+return o;
+}
  void GlobalNamespace::PresetsSettingsController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PresetsSettingsController>::get(),

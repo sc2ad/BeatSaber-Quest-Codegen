@@ -13,34 +13,46 @@ class Func_2;
 namespace UnityEngine::InputSystem::Utilities {
 struct Substring;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+struct UnityEngine__InputSystem__InputControlPath__HumanReadableStringOptions;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
 }
 namespace UnityEngine::InputSystem {
 template<typename TControl>
 struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputControlPath____c;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlPath__PathComponentType;
+}
+namespace UnityEngine::InputSystem {
 class InputDevice;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputControlPath___Parse_d__33;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlPath__ParsedPathComponent;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlPath__PathParser;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -48,6 +60,15 @@ class IEnumerable;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
@@ -129,6 +150,8 @@ constexpr operator __UnityEngine__InputSystem__InputControlPath__HumanReadableSt
 return std::bit_cast<__UnityEngine__InputSystem__InputControlPath__HumanReadableStringOptions_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -202,6 +225,8 @@ __Layout = 3,
 constexpr operator __UnityEngine__InputSystem__InputControlPath__PathComponentType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputControlPath__PathComponentType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -285,8 +310,7 @@ static System::Func_2<UnityEngine::InputSystem::Utilities::Substring,::StringW> 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c() ;
+static GlobalNamespace::UnityEngine__InputSystem__InputControlPath__ParsedPathComponent____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28d6818 size 0x8 virtual false final false
  void _ctor() ;
@@ -573,8 +597,7 @@ static System::Func_2<UnityEngine::InputSystem::Utilities::Substring,::StringW> 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputControlPath____c() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28d69ac size 0x8 virtual false final false
  void _ctor() ;
@@ -689,8 +712,7 @@ constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath__
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__InputControlPath___Parse_d__33(int32_t __1__state) ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlPath___Parse_d__33 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x28d6400 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;

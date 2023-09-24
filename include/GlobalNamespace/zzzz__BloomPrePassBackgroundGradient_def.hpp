@@ -3,14 +3,14 @@
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_def.hpp"
 #include <cstdint>
 namespace UnityEngine {
+class Gradient;
+}
+namespace UnityEngine {
 struct Color32;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
-}
-namespace UnityEngine {
-class Gradient;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -70,8 +70,7 @@ constexpr UnityEngine::Gradient __get__gradient() const;
 /// @brief Method UpdatePixels addr 0x1f925e4 size 0x318 virtual true final false
  void UpdatePixels(Unity::Collections::NativeArray_1<UnityEngine::Color32> pixels, int32_t numberOfPixels) ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundGradient() ;
+static GlobalNamespace::BloomPrePassBackgroundGradient New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f928fc size 0x54 virtual false final false
  void _ctor() ;

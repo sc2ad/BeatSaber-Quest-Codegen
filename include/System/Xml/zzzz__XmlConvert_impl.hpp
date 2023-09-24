@@ -1,17 +1,17 @@
 #pragma once
 #include "System/Xml/zzzz__XmlConvert_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Xml/zzzz__XmlCharType_def.hpp"
-#include "System/Xml/zzzz__ExceptionType_def.hpp"
-#include "System/Xml/zzzz__XmlDateTimeSerializationMode_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__ArgumentException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/Xml/zzzz__XmlCharType_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/Xml/zzzz__XmlDateTimeSerializationMode_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Xml/zzzz__ExceptionType_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/zzzz__ArgumentException_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: System::Xml::XmlConvert.EncodeName
 template<>
 

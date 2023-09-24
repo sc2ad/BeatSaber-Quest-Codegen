@@ -2,16 +2,17 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BlurredCoverImageView_def.hpp"
-#include "HMUI/zzzz__ImageView_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "HMUI/zzzz__ImageView_def.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "GlobalNamespace/zzzz__BlurredCoverImageView_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BlurredCoverImageView___SetTextureAsync_d__6.MoveNext
 template<>
 
@@ -211,8 +212,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, level);
 }
-// Ctor Parameters []
- GlobalNamespace::BlurredCoverImageView::BlurredCoverImageView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BlurredCoverImageView>())) {}
+ GlobalNamespace::BlurredCoverImageView GlobalNamespace::BlurredCoverImageView::New_ctor()  {
+GlobalNamespace::BlurredCoverImageView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BlurredCoverImageView>())};
+return o;
+}
  void GlobalNamespace::BlurredCoverImageView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BlurredCoverImageView>::get(),

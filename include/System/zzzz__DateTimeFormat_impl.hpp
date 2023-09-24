@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__DateTimeFormat_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: System::DateTimeFormat.FormatDigits
 template<>
 

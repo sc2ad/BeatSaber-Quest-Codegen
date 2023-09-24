@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HierarchyManager_def.hpp"
 #include "HMUI/zzzz__ScreenSystem_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 //  Writing Method size for method: HMUI::HierarchyManager.Start
 template<>
@@ -171,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, flowCoordinator);
 }
-// Ctor Parameters []
- HMUI::HierarchyManager::HierarchyManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HierarchyManager>())) {}
+ HMUI::HierarchyManager HMUI::HierarchyManager::New_ctor()  {
+HMUI::HierarchyManager o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HierarchyManager>())};
+return o;
+}
  void HMUI::HierarchyManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HierarchyManager>::get(),

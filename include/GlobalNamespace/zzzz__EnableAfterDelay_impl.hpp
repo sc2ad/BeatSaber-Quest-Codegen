@@ -1,10 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnableAfterDelay_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "GlobalNamespace/zzzz__EnableAfterDelay_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1._ctor
 template<>
 
@@ -137,8 +138,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1::
 constexpr GlobalNamespace::EnableAfterDelay GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::EnableAfterDelay, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1::GlobalNamespace__EnableAfterDelay___Start_d__1(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EnableAfterDelay___Start_d__1>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1 GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1>::get(),
@@ -242,8 +245,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EnableAfterDelay::EnableAfterDelay()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EnableAfterDelay>())) {}
+ GlobalNamespace::EnableAfterDelay GlobalNamespace::EnableAfterDelay::New_ctor()  {
+GlobalNamespace::EnableAfterDelay o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnableAfterDelay>())};
+return o;
+}
  void GlobalNamespace::EnableAfterDelay::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnableAfterDelay>::get(),

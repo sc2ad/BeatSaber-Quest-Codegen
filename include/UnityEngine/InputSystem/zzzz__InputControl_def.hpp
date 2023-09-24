@@ -9,17 +9,20 @@ namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
 }
-namespace System {
-class Type;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct PrimitiveValue;
 }
 namespace UnityEngine::InputSystem {
-class InputDevice;
+struct UnityEngine__InputSystem__InputControl__ControlFlags;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputStateBlock;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
@@ -85,6 +88,8 @@ __UsesStateFromOtherControl = 64,
 constexpr operator __UnityEngine__InputSystem__InputControl__ControlFlags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputControl__ControlFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -459,8 +464,7 @@ template<typename TControl>
 template<typename TControl>
  TControl GetChildControl(::StringW path) ;
 
-// Ctor Parameters []
-explicit InputControl() ;
+static UnityEngine::InputSystem::InputControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x28d0528 size 0x20 virtual false final false
  void _ctor() ;

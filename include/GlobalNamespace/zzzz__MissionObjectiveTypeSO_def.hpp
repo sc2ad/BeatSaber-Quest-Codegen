@@ -95,8 +95,7 @@ constexpr GlobalNamespace::ObjectiveValueFormatterSO __get__objectiveValueFormat
 /// @brief Method get_objectiveValueFormater addr 0x21f1268 size 0x8 virtual false final false
  GlobalNamespace::ObjectiveValueFormatterSO get_objectiveValueFormater() ;
 
-// Ctor Parameters []
-explicit MissionObjectiveTypeSO() ;
+static GlobalNamespace::MissionObjectiveTypeSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f1270 size 0x8 virtual false final false
  void _ctor() ;

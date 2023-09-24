@@ -1,14 +1,15 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TypeTable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBindingComposite_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12._ctor
 template<>
 
@@ -207,8 +208,10 @@ constexpr void UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingC
 constexpr int32_t UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12::__get___7__wrap2() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12>(__1__state))) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12 UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12::New_ctor(int32_t __1__state)  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12>(__1__state))};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12>::get(),
@@ -590,8 +593,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, composite);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::InputBindingComposite::InputBindingComposite()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputBindingComposite>())) {}
+ UnityEngine::InputSystem::InputBindingComposite UnityEngine::InputSystem::InputBindingComposite::New_ctor()  {
+UnityEngine::InputSystem::InputBindingComposite o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::InputBindingComposite>())};
+return o;
+}
  void UnityEngine::InputSystem::InputBindingComposite::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::InputBindingComposite>::get(),

@@ -63,14 +63,12 @@ constexpr Mono::Security::Interface::Alert __get_alert() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "alert", ty: "Mono::Security::Interface::Alert", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TlsException(Mono::Security::Interface::Alert alert, ::StringW message) ;
+static Mono::Security::Interface::TlsException New_ctor(Mono::Security::Interface::Alert alert, ::StringW message) ;
 
 /// @brief Method .ctor addr 0x2295b98 size 0x74 virtual false final false
  void _ctor(Mono::Security::Interface::Alert alert, ::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "description", ty: "Mono::Security::Interface::AlertDescription", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TlsException(Mono::Security::Interface::AlertDescription description, ::StringW message) ;
+static Mono::Security::Interface::TlsException New_ctor(Mono::Security::Interface::AlertDescription description, ::StringW message) ;
 
 /// @brief Method .ctor addr 0x2295c0c size 0x7c virtual false final false
  void _ctor(Mono::Security::Interface::AlertDescription description, ::StringW message) ;

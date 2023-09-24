@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Rfc3211WrapEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ParametersWithIV_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__CbcBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ParametersWithIV_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine._ctor
 template<>
 
@@ -119,8 +119,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::__set_rand
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::__get_rand() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::Rfc3211WrapEngine(Org::BouncyCastle::Crypto::IBlockCipher engine)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Rfc3211WrapEngine>(engine))) {}
+ Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine)  {
+Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine>(engine))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine>::get(),

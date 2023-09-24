@@ -3,9 +3,6 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsKeyExchange_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
@@ -13,16 +10,13 @@ namespace Org::BouncyCastle::Crypto::Agreement::Srp {
 class Srp6Client;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSrpGroupVerifier;
+class CertificateRequest;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSignerCredentials;
@@ -30,29 +24,35 @@ class TlsSignerCredentials;
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpLoginParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
-namespace Org::BouncyCastle::Crypto::Agreement::Srp {
-class Srp6Server;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Srp6GroupParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsSigner;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
+class TlsSrpGroupVerifier;
+}
+namespace Org::BouncyCastle::Crypto::Agreement::Srp {
+class Srp6Server;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SignatureAndHashAlgorithm;
@@ -186,20 +186,17 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials __get_mServerCred
 /// @brief Method CreateSigner addr 0xf29e64 size 0xfc virtual false final false
 static Org::BouncyCastle::Crypto::Tls::TlsSigner CreateSigner(int32_t keyExchange) ;
 
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TlsSrpKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
+static Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
 
 /// @brief Method .ctor addr 0xf29f60 size 0x94 virtual false final false
  void _ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
 
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "groupVerifier", ty: "Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TlsSrpKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier groupVerifier, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
+static Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier groupVerifier, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
 
 /// @brief Method .ctor addr 0xf29ff4 size 0xc4 virtual false final false
  void _ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier groupVerifier, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password) ;
 
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "loginParameters", ty: "Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters", modifiers: "", def_value: None }]
-explicit TlsSrpKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, ::ArrayW<uint8_t> identity, Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters loginParameters) ;
+static Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, ::ArrayW<uint8_t> identity, Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters loginParameters) ;
 
 /// @brief Method .ctor addr 0xf2a0b8 size 0xf8 virtual false final false
  void _ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, ::ArrayW<uint8_t> identity, Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters loginParameters) ;

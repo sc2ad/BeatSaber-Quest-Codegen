@@ -2,9 +2,9 @@
 #include "Zenject/zzzz__ConcreteBinderNonGeneric_impl.hpp"
 #include "Zenject/zzzz__ConcreteIdBinderNonGeneric_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__ConcreteBinderNonGeneric_def.hpp"
 #include "Zenject/zzzz__BindStatement_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__ConcreteBinderNonGeneric_def.hpp"
 //  Writing Method size for method: Zenject::ConcreteIdBinderNonGeneric._ctor
 template<>
 
@@ -39,8 +39,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }]
- Zenject::ConcreteIdBinderNonGeneric::ConcreteIdBinderNonGeneric(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement)  : Zenject::ConcreteBinderNonGeneric(THROW_UNLESS(::il2cpp_utils::New<ConcreteIdBinderNonGeneric>(bindContainer, bindInfo, bindStatement))) {}
+ Zenject::ConcreteIdBinderNonGeneric Zenject::ConcreteIdBinderNonGeneric::New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement)  {
+Zenject::ConcreteIdBinderNonGeneric o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ConcreteIdBinderNonGeneric>(bindContainer, bindInfo, bindStatement))};
+return o;
+}
  void Zenject::ConcreteIdBinderNonGeneric::_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ConcreteIdBinderNonGeneric>::get(),

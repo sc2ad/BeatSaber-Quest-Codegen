@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 namespace GlobalNamespace {
-class SpriteSwapTransitionSO;
+class BaseTransitionSO;
 }
 namespace GlobalNamespace {
-class BaseTransitionSO;
+class SpriteSwapTransitionSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -15,7 +15,7 @@ class SpriteSwapGraphicViewStateTransition;
 // Type: ::SpriteSwapGraphicViewStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), TypeDefinitionIndex(TypeDefinitionIndex(12994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 894 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 894 }), TypeDefinitionIndex(TypeDefinitionIndex(5544))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5563))
 // CS Name: SpriteSwapGraphicViewStateTransition
 class CORDL_TYPE SpriteSwapGraphicViewStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Image> {
@@ -107,8 +107,7 @@ constexpr GlobalNamespace::SpriteSwapTransitionSO __get__transition() const;
 /// @brief Method SetSelectedAndHighlightedState addr 0x212c1ec size 0x28 virtual true final false
  void SetSelectedAndHighlightedState() ;
 
-// Ctor Parameters []
-explicit SpriteSwapGraphicViewStateTransition() ;
+static GlobalNamespace::SpriteSwapGraphicViewStateTransition New_ctor() ;
 
 /// @brief Method .ctor addr 0x212c214 size 0x48 virtual false final false
  void _ctor() ;

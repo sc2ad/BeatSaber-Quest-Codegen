@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -123,26 +123,22 @@ constexpr int32_t __get_protectionMode() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit S2k(System::IO::Stream inStr) ;
+static Org::BouncyCastle::Bcpg::S2k New_ctor(System::IO::Stream inStr) ;
 
 /// @brief Method .ctor addr 0x1148f90 size 0x198 virtual false final false
  void _ctor(System::IO::Stream inStr) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }]
-explicit S2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm) ;
+static Org::BouncyCastle::Bcpg::S2k New_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm) ;
 
 /// @brief Method .ctor addr 0x1149128 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit S2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv) ;
+static Org::BouncyCastle::Bcpg::S2k New_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method .ctor addr 0x1149158 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "itCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit S2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount) ;
+static Org::BouncyCastle::Bcpg::S2k New_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount) ;
 
 /// @brief Method .ctor addr 0x1149194 size 0x4c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount) ;

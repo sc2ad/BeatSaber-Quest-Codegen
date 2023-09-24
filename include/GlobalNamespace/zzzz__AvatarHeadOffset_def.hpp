@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class AvatarPoseController;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class AvatarPoseController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ constexpr GlobalNamespace::AvatarPoseController __get__avatarPoseController() co
 /// @brief Method HandleMultiplayerAvatarPoseControllerDidUpdatePose addr 0x20bfa70 size 0x54 virtual false final false
  void HandleMultiplayerAvatarPoseControllerDidUpdatePose(UnityEngine::Vector3 headLocalPosition) ;
 
-// Ctor Parameters []
-explicit AvatarHeadOffset() ;
+static GlobalNamespace::AvatarHeadOffset New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bfac4 size 0x18 virtual false final false
  void _ctor() ;

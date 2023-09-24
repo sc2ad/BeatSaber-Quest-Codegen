@@ -3,25 +3,25 @@
 #include "Zenject/zzzz__FactoryToChoiceBinder_7_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Zenject {
-struct TypeValuePair;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace Zenject {
-class DiContainer;
+struct TypeValuePair;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class FactoryBindInfo;
-}
-namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TContract>
 class FactoryToChoiceBinder_7;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class FactoryBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,7 +38,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TParam6,::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10797)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10797), inst: 1830 }), TypeDefinitionIndex(TypeDefinitionIndex(10652))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10797)), TypeDefinitionIndex(TypeDefinitionIndex(10652)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10797), inst: 1830 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10652), inst: 5940 })
 // CS Name: Zenject.FactoryArgumentsToChoiceBinder`7
 class CORDL_TYPE FactoryArgumentsToChoiceBinder_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> : public Zenject::FactoryToChoiceBinder_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> {
@@ -77,8 +77,7 @@ constexpr explicit FactoryArgumentsToChoiceBinder_7(void* ptr) noexcept : Zenjec
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryArgumentsToChoiceBinder_7(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::FactoryArgumentsToChoiceBinder_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

@@ -1,12 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__UnityXRController_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
-#include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
-#include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "GlobalNamespace/zzzz__UnityXRController_def.hpp"
+#include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__UnityXRController__Configuration.get_positionActionReference
 template<>
 
@@ -224,8 +225,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::UnityXRController, false>(const_cast<void*>(instance), ___internal_method, node);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__UnityXRController__Configuration::GlobalNamespace__UnityXRController__Configuration()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__UnityXRController__Configuration>())) {}
+ GlobalNamespace::GlobalNamespace__UnityXRController__Configuration GlobalNamespace::GlobalNamespace__UnityXRController__Configuration::New_ctor()  {
+GlobalNamespace::GlobalNamespace__UnityXRController__Configuration o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__UnityXRController__Configuration>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__UnityXRController__Configuration::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__UnityXRController__Configuration>::get(),
@@ -434,8 +437,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "node", ty: "UnityEngine::XR::XRNode", modifiers: "", def_value: None }, CppParam { name: "positionAction", ty: "UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }, CppParam { name: "rotationAction", ty: "UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }, CppParam { name: "thumbstickAction", ty: "UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }]
- GlobalNamespace::UnityXRController::UnityXRController(UnityEngine::XR::XRNode node, UnityEngine::InputSystem::InputAction positionAction, UnityEngine::InputSystem::InputAction rotationAction, UnityEngine::InputSystem::InputAction thumbstickAction)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityXRController>(node, positionAction, rotationAction, thumbstickAction))) {}
+ GlobalNamespace::UnityXRController GlobalNamespace::UnityXRController::New_ctor(UnityEngine::XR::XRNode node, UnityEngine::InputSystem::InputAction positionAction, UnityEngine::InputSystem::InputAction rotationAction, UnityEngine::InputSystem::InputAction thumbstickAction)  {
+GlobalNamespace::UnityXRController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityXRController>(node, positionAction, rotationAction, thumbstickAction))};
+return o;
+}
  void GlobalNamespace::UnityXRController::_ctor(UnityEngine::XR::XRNode node, UnityEngine::InputSystem::InputAction positionAction, UnityEngine::InputSystem::InputAction rotationAction, UnityEngine::InputSystem::InputAction thumbstickAction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityXRController>::get(),

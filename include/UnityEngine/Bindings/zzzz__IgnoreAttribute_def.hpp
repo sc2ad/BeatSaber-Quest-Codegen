@@ -64,8 +64,7 @@ constexpr bool __get__DoesNotContributeToSize_k__BackingField() const;
 /// @brief Method set_DoesNotContributeToSize addr 0x2ba1810 size 0xc virtual false final false
  void set_DoesNotContributeToSize(bool value) ;
 
-// Ctor Parameters []
-explicit IgnoreAttribute() ;
+static UnityEngine::Bindings::IgnoreAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba181c size 0x8 virtual false final false
  void _ctor() ;

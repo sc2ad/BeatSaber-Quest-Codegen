@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Processors::ScaleVector2Processor::ScaleVector2Processor()  : UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector2>(THROW_UNLESS(::il2cpp_utils::New<ScaleVector2Processor>())) {}
+ UnityEngine::InputSystem::Processors::ScaleVector2Processor UnityEngine::InputSystem::Processors::ScaleVector2Processor::New_ctor()  {
+UnityEngine::InputSystem::Processors::ScaleVector2Processor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Processors::ScaleVector2Processor>())};
+return o;
+}
  void UnityEngine::InputSystem::Processors::ScaleVector2Processor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Processors::ScaleVector2Processor>::get(),

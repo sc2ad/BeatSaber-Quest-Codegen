@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsAttributeTableGenerator;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -68,14 +68,12 @@ constexpr System::Collections::IDictionary __get_table() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DefaultAuthenticatedAttributeTableGenerator() ;
+static Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x11750e4 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "attributeTable", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
-explicit DefaultAuthenticatedAttributeTableGenerator(Org::BouncyCastle::Asn1::Cms::AttributeTable attributeTable) ;
+static Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator New_ctor(Org::BouncyCastle::Asn1::Cms::AttributeTable attributeTable) ;
 
 /// @brief Method .ctor addr 0x117514c size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::AttributeTable attributeTable) ;

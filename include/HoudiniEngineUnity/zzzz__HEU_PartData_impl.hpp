@@ -2,30 +2,31 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AttributesStore_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_PartType_def.hpp"
+#include "UnityEngine/zzzz__TerrainData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ObjectNode_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__TerrainData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PartType_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ObjectInstanceInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeoNode_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ObjectNode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeoNode_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AttributesStore_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__TransformData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
 #include "UnityEngine/zzzz__LOD_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -88,8 +89,10 @@ return ::cordl_internals::getStaticField<HoudiniEngineUnity::HoudiniEngineUnity_
  System::Comparison_1<UnityEngine::LOD> HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c::__get___9__85_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::LOD>, "<>9__85_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c>::get>();
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c::HoudiniEngineUnity__HEU_PartData____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_PartData____c>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c>::get(),
@@ -148,8 +151,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__Displa
 constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData> HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0::__get_previousTransformValues() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0::HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0 HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0 o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0>::get(),
@@ -208,8 +213,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__Displa
 constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData> HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0::__get_previousTransformValues() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0 HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0 o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0>::get(),
@@ -268,8 +275,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__Displa
 constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData> HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1::__get_previousTransformValues() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1 HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1 o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1>::get(),
@@ -1913,8 +1922,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::GameObject, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_PartData::HEU_PartData()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<HEU_PartData>())) {}
+ HoudiniEngineUnity::HEU_PartData HoudiniEngineUnity::HEU_PartData::New_ctor()  {
+HoudiniEngineUnity::HEU_PartData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_PartData>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_PartData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_PartData>::get(),

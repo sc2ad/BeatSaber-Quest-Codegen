@@ -2,8 +2,8 @@
 #include "System/zzzz__FormatException_impl.hpp"
 #include "System/zzzz__UriFormatException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::UriFormatException._ctor
 template<>
 
@@ -76,8 +76,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 constexpr  System::UriFormatException::operator System::Runtime::Serialization::ISerializable() const noexcept {
 return System::Runtime::Serialization::ISerializable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::UriFormatException::UriFormatException()  : System::FormatException(THROW_UNLESS(::il2cpp_utils::New<UriFormatException>())) {}
+ System::UriFormatException System::UriFormatException::New_ctor()  {
+System::UriFormatException o{THROW_UNLESS(::il2cpp_utils::New<System::UriFormatException>())};
+return o;
+}
  void System::UriFormatException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UriFormatException>::get(),
@@ -87,8 +89,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "textString", ty: "::StringW", modifiers: "", def_value: None }]
- System::UriFormatException::UriFormatException(::StringW textString)  : System::FormatException(THROW_UNLESS(::il2cpp_utils::New<UriFormatException>(textString))) {}
+ System::UriFormatException System::UriFormatException::New_ctor(::StringW textString)  {
+System::UriFormatException o{THROW_UNLESS(::il2cpp_utils::New<System::UriFormatException>(textString))};
+return o;
+}
  void System::UriFormatException::_ctor(::StringW textString)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UriFormatException>::get(),
@@ -98,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, textString);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::UriFormatException::UriFormatException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::FormatException(THROW_UNLESS(::il2cpp_utils::New<UriFormatException>(serializationInfo, streamingContext))) {}
+ System::UriFormatException System::UriFormatException::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::UriFormatException o{THROW_UNLESS(::il2cpp_utils::New<System::UriFormatException>(serializationInfo, streamingContext))};
+return o;
+}
  void System::UriFormatException::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UriFormatException>::get(),

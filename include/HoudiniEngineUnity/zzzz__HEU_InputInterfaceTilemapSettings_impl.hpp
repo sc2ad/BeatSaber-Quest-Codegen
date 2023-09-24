@@ -41,8 +41,10 @@ constexpr void HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__set__app
 constexpr bool HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::__get__applyTilemapOrientation() const {
 return ::cordl_internals::getInstanceField<bool, 0x13>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::HEU_InputInterfaceTilemapSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_InputInterfaceTilemapSettings>())) {}
+ HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::New_ctor()  {
+HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings>::get(),

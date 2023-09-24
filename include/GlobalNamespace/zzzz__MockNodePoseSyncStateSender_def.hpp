@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace GlobalNamespace {
-class NodePoseSyncStateNetSerializable;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class NodePoseSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -74,8 +74,7 @@ constexpr GlobalNamespace::IMultiplayerSessionManager __get__multiplayerSessionM
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "msm", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
-explicit MockNodePoseSyncStateSender(GlobalNamespace::IMultiplayerSessionManager msm) ;
+static GlobalNamespace::MockNodePoseSyncStateSender New_ctor(GlobalNamespace::IMultiplayerSessionManager msm) ;
 
 /// @brief Method .ctor addr 0x22791cc size 0x17c virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager msm) ;

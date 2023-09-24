@@ -1,7 +1,7 @@
 #pragma once
 #include "Mono/Security/Interface/zzzz__Alert_def.hpp"
-#include "Mono/Security/Interface/zzzz__AlertLevel_def.hpp"
 #include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
+#include "Mono/Security/Interface/zzzz__AlertLevel_def.hpp"
 //  Writing Method size for method: Mono::Security::Interface::Alert.get_Level
 template<>
 
@@ -117,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Mono::Security::Interface::AlertDescription, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "description", ty: "Mono::Security::Interface::AlertDescription", modifiers: "", def_value: None }]
- Mono::Security::Interface::Alert::Alert(Mono::Security::Interface::AlertDescription description)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Alert>(description))) {}
+ Mono::Security::Interface::Alert Mono::Security::Interface::Alert::New_ctor(Mono::Security::Interface::AlertDescription description)  {
+Mono::Security::Interface::Alert o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Interface::Alert>(description))};
+return o;
+}
  void Mono::Security::Interface::Alert::_ctor(Mono::Security::Interface::AlertDescription description)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Interface::Alert>::get(),

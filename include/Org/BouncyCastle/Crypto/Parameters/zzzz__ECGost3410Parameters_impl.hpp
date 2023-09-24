@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECNamedDomainParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECGost3410Parameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECNamedDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters.get_PublicKeyParamSet
 template<>
 
@@ -134,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerObjectIdentifier, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "dp", ty: "Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "digestParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptionParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::ECGost3410Parameters(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet)  : Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters(THROW_UNLESS(::il2cpp_utils::New<ECGost3410Parameters>(dp, publicKeyParamSet, digestParamSet, encryptionParamSet))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet)  {
+Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters>(dp, publicKeyParamSet, digestParamSet, encryptionParamSet))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::_ctor(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters>::get(),
@@ -145,8 +147,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dp, publicKeyParamSet, digestParamSet, encryptionParamSet);
 }
-// Ctor Parameters [CppParam { name: "dp", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "digestParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptionParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::ECGost3410Parameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet)  : Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters(THROW_UNLESS(::il2cpp_utils::New<ECGost3410Parameters>(dp, publicKeyParamSet, digestParamSet, encryptionParamSet))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet)  {
+Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters>(dp, publicKeyParamSet, digestParamSet, encryptionParamSet))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::_ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionParamSet)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters>::get(),

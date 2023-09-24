@@ -1,21 +1,21 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class FloatSO;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class MainEffectContainerSO;
+class ImageEffectController;
 }
 namespace GlobalNamespace {
-class ImageEffectController;
+class MainEffectContainerSO;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace GlobalNamespace {
+class FloatSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -120,8 +120,7 @@ static constexpr ::ConstString  kMainEffectEnabledKeyword{u"MAIN_EFFECT_ENABLED"
 /// @brief Method OnPostRender addr 0x2677390 size 0x6c virtual false final false
  void OnPostRender() ;
 
-// Ctor Parameters []
-explicit MainEffectController() ;
+static GlobalNamespace::MainEffectController New_ctor() ;
 
 /// @brief Method .ctor addr 0x26773fc size 0x8 virtual false final false
  void _ctor() ;

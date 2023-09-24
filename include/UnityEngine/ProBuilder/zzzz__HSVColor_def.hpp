@@ -73,14 +73,12 @@ constexpr float_t __get_v() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "h", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "v", ty: "float_t", modifiers: "", def_value: None }]
-explicit HSVColor(float_t h, float_t s, float_t v) ;
+static UnityEngine::ProBuilder::HSVColor New_ctor(float_t h, float_t s, float_t v) ;
 
 /// @brief Method .ctor addr 0x29a98a4 size 0x3c virtual false final false
  void _ctor(float_t h, float_t s, float_t v) ;
 
-// Ctor Parameters [CppParam { name: "h", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "v", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "sv_modifier", ty: "float_t", modifiers: "", def_value: None }]
-explicit HSVColor(float_t h, float_t s, float_t v, float_t sv_modifier) ;
+static UnityEngine::ProBuilder::HSVColor New_ctor(float_t h, float_t s, float_t v, float_t sv_modifier) ;
 
 /// @brief Method .ctor addr 0x29a98e0 size 0x48 virtual false final false
  void _ctor(float_t h, float_t s, float_t v, float_t sv_modifier) ;

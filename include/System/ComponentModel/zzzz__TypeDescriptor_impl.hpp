@@ -6,25 +6,26 @@
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/ComponentModel/Design/zzzz__ITypeDescriptorFilterService_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
-#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
 #include "System/ComponentModel/zzzz__ICustomTypeDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "System/ComponentModel/zzzz__AttributeCollection_def.hpp"
-#include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
-#include "System/ComponentModel/zzzz__TypeDescriptionProvider_def.hpp"
+#include "System/ComponentModel/zzzz__TypeDescriptor_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
-#include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
-#include "System/ComponentModel/zzzz__RefreshEventHandler_def.hpp"
+#include "System/ComponentModel/zzzz__TypeDescriptionProvider_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Diagnostics/zzzz__BooleanSwitch_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/ComponentModel/zzzz__MemberDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__RefreshEventHandler_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Diagnostics/zzzz__BooleanSwitch_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: System::ComponentModel::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem._ctor
 template<>
 
@@ -71,8 +72,10 @@ constexpr void System::ComponentModel::System__ComponentModel__TypeDescriptor__A
 constexpr System::Collections::ICollection System::ComponentModel::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem::__get_FilteredMembers() const {
 return ::cordl_internals::getInstanceField<System::Collections::ICollection, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "filter", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }, CppParam { name: "filteredMembers", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem(::ArrayW<System::Attribute> filter, System::Collections::ICollection filteredMembers)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem>(filter, filteredMembers))) {}
+ System::ComponentModel::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem System::ComponentModel::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem::New_ctor(::ArrayW<System::Attribute> filter, System::Collections::ICollection filteredMembers)  {
+System::ComponentModel::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem>(filter, filteredMembers))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem::_ctor(::ArrayW<System::Attribute> filter, System::Collections::ICollection filteredMembers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__TypeDescriptor__AttributeFilterCacheItem>::get(),
@@ -137,8 +140,10 @@ constexpr void System::ComponentModel::System__ComponentModel__TypeDescriptor__F
 constexpr System::Collections::ICollection System::ComponentModel::System__ComponentModel__TypeDescriptor__FilterCacheItem::__get_FilteredMembers() const {
 return ::cordl_internals::getInstanceField<System::Collections::ICollection, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "filterService", ty: "System::ComponentModel::Design::ITypeDescriptorFilterService", modifiers: "", def_value: None }, CppParam { name: "filteredMembers", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__TypeDescriptor__FilterCacheItem::System__ComponentModel__TypeDescriptor__FilterCacheItem(System::ComponentModel::Design::ITypeDescriptorFilterService filterService, System::Collections::ICollection filteredMembers)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__TypeDescriptor__FilterCacheItem>(filterService, filteredMembers))) {}
+ System::ComponentModel::System__ComponentModel__TypeDescriptor__FilterCacheItem System::ComponentModel::System__ComponentModel__TypeDescriptor__FilterCacheItem::New_ctor(System::ComponentModel::Design::ITypeDescriptorFilterService filterService, System::Collections::ICollection filteredMembers)  {
+System::ComponentModel::System__ComponentModel__TypeDescriptor__FilterCacheItem o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__TypeDescriptor__FilterCacheItem>(filterService, filteredMembers))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__TypeDescriptor__FilterCacheItem::_ctor(System::ComponentModel::Design::ITypeDescriptorFilterService filterService, System::Collections::ICollection filteredMembers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__TypeDescriptor__FilterCacheItem>::get(),
@@ -210,8 +215,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, left, right);
 }
-// Ctor Parameters []
- System::ComponentModel::System__ComponentModel__TypeDescriptor__MemberDescriptorComparer::System__ComponentModel__TypeDescriptor__MemberDescriptorComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__TypeDescriptor__MemberDescriptorComparer>())) {}
+ System::ComponentModel::System__ComponentModel__TypeDescriptor__MemberDescriptorComparer System::ComponentModel::System__ComponentModel__TypeDescriptor__MemberDescriptorComparer::New_ctor()  {
+System::ComponentModel::System__ComponentModel__TypeDescriptor__MemberDescriptorComparer o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__TypeDescriptor__MemberDescriptorComparer>())};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__TypeDescriptor__MemberDescriptorComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__TypeDescriptor__MemberDescriptorComparer>::get(),
@@ -458,8 +465,10 @@ constexpr void System::ComponentModel::System__ComponentModel__TypeDescriptor__M
 constexpr System::ComponentModel::ICustomTypeDescriptor System::ComponentModel::System__ComponentModel__TypeDescriptor__MergedTypeDescriptor::__get__secondary() const {
 return ::cordl_internals::getInstanceField<System::ComponentModel::ICustomTypeDescriptor, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "primary", ty: "System::ComponentModel::ICustomTypeDescriptor", modifiers: "", def_value: None }, CppParam { name: "secondary", ty: "System::ComponentModel::ICustomTypeDescriptor", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__TypeDescriptor__MergedTypeDescriptor::System__ComponentModel__TypeDescriptor__MergedTypeDescriptor(System::ComponentModel::ICustomTypeDescriptor primary, System::ComponentModel::ICustomTypeDescriptor secondary)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__TypeDescriptor__MergedTypeDescriptor>(primary, secondary))) {}
+ System::ComponentModel::System__ComponentModel__TypeDescriptor__MergedTypeDescriptor System::ComponentModel::System__ComponentModel__TypeDescriptor__MergedTypeDescriptor::New_ctor(System::ComponentModel::ICustomTypeDescriptor primary, System::ComponentModel::ICustomTypeDescriptor secondary)  {
+System::ComponentModel::System__ComponentModel__TypeDescriptor__MergedTypeDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__TypeDescriptor__MergedTypeDescriptor>(primary, secondary))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__TypeDescriptor__MergedTypeDescriptor::_ctor(System::ComponentModel::ICustomTypeDescriptor primary, System::ComponentModel::ICustomTypeDescriptor secondary)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__TypeDescriptor__MergedTypeDescriptor>::get(),
@@ -1414,8 +1423,10 @@ constexpr void System::ComponentModel::System__ComponentModel__TypeDescriptor__T
 constexpr System::ComponentModel::TypeDescriptionProvider System::ComponentModel::System__ComponentModel__TypeDescriptor__TypeDescriptionNode::__get_Provider() const {
 return ::cordl_internals::getInstanceField<System::ComponentModel::TypeDescriptionProvider, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "provider", ty: "System::ComponentModel::TypeDescriptionProvider", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__TypeDescriptor__TypeDescriptionNode::System__ComponentModel__TypeDescriptor__TypeDescriptionNode(System::ComponentModel::TypeDescriptionProvider provider)  : System::ComponentModel::TypeDescriptionProvider(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__TypeDescriptor__TypeDescriptionNode>(provider))) {}
+ System::ComponentModel::System__ComponentModel__TypeDescriptor__TypeDescriptionNode System::ComponentModel::System__ComponentModel__TypeDescriptor__TypeDescriptionNode::New_ctor(System::ComponentModel::TypeDescriptionProvider provider)  {
+System::ComponentModel::System__ComponentModel__TypeDescriptor__TypeDescriptionNode o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__TypeDescriptor__TypeDescriptionNode>(provider))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__TypeDescriptor__TypeDescriptionNode::_ctor(System::ComponentModel::TypeDescriptionProvider provider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__TypeDescriptor__TypeDescriptionNode>::get(),

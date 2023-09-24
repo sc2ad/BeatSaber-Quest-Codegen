@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__DateTimeToken_def.hpp"
-#include "System/zzzz__TokenType_def.hpp"
 #include "System/zzzz__DateTimeParse_def.hpp"
+#include "System/zzzz__TokenType_def.hpp"
 // Ctor Parameters [CppParam { name: "dtt", ty: "System::System__DateTimeParse__DTT", modifiers: "", def_value: Some("{}") }, CppParam { name: "suffix", ty: "System::TokenType", modifiers: "", def_value: Some("{}") }, CppParam { name: "num", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::DateTimeToken::DateTimeToken(System::System__DateTimeParse__DTT dtt, System::TokenType suffix, int32_t num) noexcept : ::bs_hook::ValueTypeWrapper() {this->dtt = dtt;
 this->suffix = suffix;

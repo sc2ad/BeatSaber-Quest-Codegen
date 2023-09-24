@@ -5,15 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDsaExt;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
-}
-namespace Org::BouncyCastle::Crypto {
 class IDsa;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -22,8 +13,17 @@ class ECKeyParameters;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
+namespace Org::BouncyCastle::Crypto {
+class IDsaExt;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -123,8 +123,7 @@ constexpr bool __get_forSigning() const;
 /// @brief Method CreateBasePointMultiplier addr 0xebb35c size 0x5c virtual true final false
  Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier CreateBasePointMultiplier() ;
 
-// Ctor Parameters []
-explicit ECGost3410Signer() ;
+static Org::BouncyCastle::Crypto::Signers::ECGost3410Signer New_ctor() ;
 
 /// @brief Method .ctor addr 0xebb3b8 size 0x8 virtual false final false
  void _ctor() ;

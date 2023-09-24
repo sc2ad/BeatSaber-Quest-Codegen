@@ -6,9 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
 }
@@ -16,17 +13,23 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerFacade;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
+class GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalActivePlayerFacade;
 }
 namespace GlobalNamespace {
 class FadeInOutController;
@@ -36,54 +39,54 @@ template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerFacade;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace GlobalNamespace {
 class IStartSeekSongControllerProvider;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-struct MultiplayerPlayerStartState;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory;
-}
-namespace GlobalNamespace {
-struct MultiplayerPlayerLayout;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerFacade;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory;
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51;
+}
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalInactivePlayerFacade;
 }
 namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsPublisher;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerFacade;
+}
+namespace GlobalNamespace {
+struct MultiplayerPlayerStartState;
+}
+namespace GlobalNamespace {
+class BeatmapObjectSpawnCenter;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory;
+}
+namespace GlobalNamespace {
+struct MultiplayerPlayerLayout;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -171,8 +174,7 @@ constexpr GlobalNamespace::MultiplayerPlayersManager __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x21002cc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -483,8 +485,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnec
 /// @brief Method HandlePlayerNetworkDidFailed addr 0x2100310 size 0x1c virtual false final false
  void HandlePlayerNetworkDidFailed(GlobalNamespace::MultiplayerLevelCompletionResults levelCompletionResults) ;
 
-// Ctor Parameters []
-explicit MultiplayerPlayersManager() ;
+static GlobalNamespace::MultiplayerPlayersManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x210032c size 0xc0 virtual false final false
  void _ctor() ;

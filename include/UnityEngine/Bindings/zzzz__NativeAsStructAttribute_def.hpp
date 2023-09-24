@@ -47,8 +47,7 @@ constexpr explicit NativeAsStructAttribute(void* ptr) noexcept : System::Attribu
 
 // Methods
 
-// Ctor Parameters []
-explicit NativeAsStructAttribute() ;
+static UnityEngine::Bindings::NativeAsStructAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba151c size 0x8 virtual false final false
  void _ctor() ;

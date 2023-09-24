@@ -1,15 +1,15 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/X509/zzzz__V2TbsCertListGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__Time_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerUtcTime_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateList_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateList_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__Time_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerUtcTime_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator._ctor
 template<>
 
@@ -290,8 +290,10 @@ constexpr void Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator::__set_crlE
 constexpr System::Collections::IList Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator::__get_crlEntries() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator::V2TbsCertListGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<V2TbsCertListGenerator>())) {}
+ Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator::New_ctor()  {
+Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator>::get(),

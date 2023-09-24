@@ -7,7 +7,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger (Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int32_t, ::bs_hook::Il2CppWrapperType)>(&Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateSearchBase)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x22a2df0;
+  constexpr static std::size_t addrs = 0x22be480;
 
   inline static const ::MethodInfo* methodInfo() {
     
@@ -24,7 +24,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger (Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int32_t)>(&Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateNewPrime)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22a2e64;
+  constexpr static std::size_t addrs = 0x22be4f4;
 
   inline static const ::MethodInfo* methodInfo() {
     
@@ -41,7 +41,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger (Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int32_t, ::bs_hook::Il2CppWrapperType)>(&Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateNewPrime)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x22a2e74;
+  constexpr static std::size_t addrs = 0x22be504;
 
   inline static const ::MethodInfo* methodInfo() {
     
@@ -58,7 +58,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(Mono::Math::BigInteger, ::bs_hook::Il2CppWrapperType)>(&Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::IsPrimeAcceptable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a3158;
+  constexpr static std::size_t addrs = 0x22be7e8;
 
   inline static const ::MethodInfo* methodInfo() {
     
@@ -75,7 +75,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)()>(&Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a1ad8;
+  constexpr static std::size_t addrs = 0x22bcf9c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, bi, context);
 }
-// Ctor Parameters []
- Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::SequentialSearchPrimeGeneratorBase()  : Mono::Math::Prime::Generator::PrimeGeneratorBase(THROW_UNLESS(::il2cpp_utils::New<SequentialSearchPrimeGeneratorBase>())) {}
+ Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::New_ctor()  {
+Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase o{THROW_UNLESS(::il2cpp_utils::New<Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase>())};
+return o;
+}
  void Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase>::get(),

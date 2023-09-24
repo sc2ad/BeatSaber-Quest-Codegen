@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__RetryConditionHeaderValue_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::RetryConditionHeaderValue._ctor
 template<>
@@ -207,8 +207,10 @@ constexpr void System::Net::Http::Headers::RetryConditionHeaderValue::__set__Del
 constexpr System::Nullable_1<System::TimeSpan> System::Net::Http::Headers::RetryConditionHeaderValue::__get__Delta_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Nullable_1<System::TimeSpan>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "date", ty: "System::DateTimeOffset", modifiers: "", def_value: None }]
- System::Net::Http::Headers::RetryConditionHeaderValue::RetryConditionHeaderValue(System::DateTimeOffset date)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RetryConditionHeaderValue>(date))) {}
+ System::Net::Http::Headers::RetryConditionHeaderValue System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor(System::DateTimeOffset date)  {
+System::Net::Http::Headers::RetryConditionHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::RetryConditionHeaderValue>(date))};
+return o;
+}
  void System::Net::Http::Headers::RetryConditionHeaderValue::_ctor(System::DateTimeOffset date)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::RetryConditionHeaderValue>::get(),
@@ -218,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, date);
 }
-// Ctor Parameters [CppParam { name: "delta", ty: "System::TimeSpan", modifiers: "", def_value: None }]
- System::Net::Http::Headers::RetryConditionHeaderValue::RetryConditionHeaderValue(System::TimeSpan delta)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RetryConditionHeaderValue>(delta))) {}
+ System::Net::Http::Headers::RetryConditionHeaderValue System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor(System::TimeSpan delta)  {
+System::Net::Http::Headers::RetryConditionHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::RetryConditionHeaderValue>(delta))};
+return o;
+}
  void System::Net::Http::Headers::RetryConditionHeaderValue::_ctor(System::TimeSpan delta)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::RetryConditionHeaderValue>::get(),

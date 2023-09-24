@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+class Exception;
+}
 namespace UnityEngine {
 struct LogType;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace System {
-class Exception;
 }
 // Forward declare root types
 namespace UnityEngine {

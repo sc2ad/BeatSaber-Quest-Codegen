@@ -1,11 +1,11 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKSolver_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverArm_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::IKSolverArm.IsValid
 template<>
 
@@ -375,8 +375,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKSolverArm::IKSolverArm()  : RootMotion::FinalIK::IKSolver(THROW_UNLESS(::il2cpp_utils::New<IKSolverArm>())) {}
+ RootMotion::FinalIK::IKSolverArm RootMotion::FinalIK::IKSolverArm::New_ctor()  {
+RootMotion::FinalIK::IKSolverArm o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolverArm>())};
+return o;
+}
  void RootMotion::FinalIK::IKSolverArm::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolverArm>::get(),

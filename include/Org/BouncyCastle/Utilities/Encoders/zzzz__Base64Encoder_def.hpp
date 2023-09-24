@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Utilities::Encoders {
 class IEncoder;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Encoders {
@@ -83,8 +83,7 @@ constexpr ::ArrayW<uint8_t> __get_decodingTable() const;
 /// @brief Method InitialiseDecodingTable addr 0x10cfb88 size 0xbc virtual false final false
  void InitialiseDecodingTable() ;
 
-// Ctor Parameters []
-explicit Base64Encoder() ;
+static Org::BouncyCastle::Utilities::Encoders::Base64Encoder New_ctor() ;
 
 /// @brief Method .ctor addr 0x10cfc44 size 0xa4 virtual false final false
  void _ctor() ;

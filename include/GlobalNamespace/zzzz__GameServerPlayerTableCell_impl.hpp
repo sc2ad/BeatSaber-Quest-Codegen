@@ -2,30 +2,31 @@
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerPlayerTableCell_def.hpp"
+#include "HMUI/zzzz__ImageView_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
+#include "HMUI/zzzz__HoverHint_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "GlobalNamespace/zzzz__GameServerPlayerTableCell_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifierInfoListItemsList_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "HMUI/zzzz__HoverHint_def.hpp"
 #include "HMUI/zzzz__ButtonSpriteSwapToggle_def.hpp"
-#include "HMUI/zzzz__ImageView_def.hpp"
-#include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifierInfoListItemsList_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifierInfoListItem_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifierInfoListItem_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0._ctor
 template<>
 
@@ -66,8 +67,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c_
 constexpr System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO> GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0::__get_modifiersList() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0 GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameServerPlayerTableCell____c__DisplayClass29_0>::get(),
@@ -659,8 +662,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, getLevelEntitlementTask);
 }
-// Ctor Parameters []
- GlobalNamespace::GameServerPlayerTableCell::GameServerPlayerTableCell()  : GlobalNamespace::TableCellWithSeparator(THROW_UNLESS(::il2cpp_utils::New<GameServerPlayerTableCell>())) {}
+ GlobalNamespace::GameServerPlayerTableCell GlobalNamespace::GameServerPlayerTableCell::New_ctor()  {
+GlobalNamespace::GameServerPlayerTableCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameServerPlayerTableCell>())};
+return o;
+}
  void GlobalNamespace::GameServerPlayerTableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameServerPlayerTableCell>::get(),

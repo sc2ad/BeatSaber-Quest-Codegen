@@ -63,14 +63,12 @@ constexpr ::StringW __get_color() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit LargeHeader(::StringW name) ;
+static RootMotion::LargeHeader New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x11b3d4c size 0x68 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::StringW", modifiers: "", def_value: None }]
-explicit LargeHeader(::StringW name, ::StringW color) ;
+static RootMotion::LargeHeader New_ctor(::StringW name, ::StringW color) ;
 
 /// @brief Method .ctor addr 0x11b3db4 size 0x68 virtual false final false
  void _ctor(::StringW name, ::StringW color) ;

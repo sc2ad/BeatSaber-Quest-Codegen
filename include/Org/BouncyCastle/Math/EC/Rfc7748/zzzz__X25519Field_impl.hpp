@@ -584,8 +584,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
  ::ArrayW<int32_t> Org::BouncyCastle::Math::EC::Rfc7748::X25519Field::__get_RootNegOne()  {
 return ::cordl_internals::getStaticField<::ArrayW<int32_t>, "RootNegOne", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Rfc7748::X25519Field>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Rfc7748::X25519Field::X25519Field()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X25519Field>())) {}
+ Org::BouncyCastle::Math::EC::Rfc7748::X25519Field Org::BouncyCastle::Math::EC::Rfc7748::X25519Field::New_ctor()  {
+Org::BouncyCastle::Math::EC::Rfc7748::X25519Field o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Rfc7748::X25519Field>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Rfc7748::X25519Field::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Rfc7748::X25519Field>::get(),

@@ -296,8 +296,10 @@ return ::cordl_internals::getStaticField<int32_t, "MASK", ::il2cpp_utils::il2cpp
  int32_t Org::BouncyCastle::Crypto::Engines::IdeaEngine::__get_BASE()  {
 return ::cordl_internals::getStaticField<int32_t, "BASE", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::IdeaEngine>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::IdeaEngine::IdeaEngine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IdeaEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::IdeaEngine Org::BouncyCastle::Crypto::Engines::IdeaEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::IdeaEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::IdeaEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::IdeaEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::IdeaEngine>::get(),

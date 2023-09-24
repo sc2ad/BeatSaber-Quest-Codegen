@@ -1,13 +1,13 @@
 #pragma once
 #include "Zenject/zzzz__ResolveProvider_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__InjectSources_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__InjectSources_def.hpp"
 //  Writing Method size for method: Zenject::ResolveProvider._ctor
 template<>
 
@@ -150,8 +150,10 @@ constexpr void Zenject::ResolveProvider::__set__matchAll(bool value)  {
 constexpr bool Zenject::ResolveProvider::__get__matchAll() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "contractType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "isOptional", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "source", ty: "Zenject::InjectSources", modifiers: "", def_value: None }, CppParam { name: "matchAll", ty: "bool", modifiers: "", def_value: None }]
- Zenject::ResolveProvider::ResolveProvider(System::Type contractType, Zenject::DiContainer container, ::bs_hook::Il2CppWrapperType identifier, bool isOptional, Zenject::InjectSources source, bool matchAll)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResolveProvider>(contractType, container, identifier, isOptional, source, matchAll))) {}
+ Zenject::ResolveProvider Zenject::ResolveProvider::New_ctor(System::Type contractType, Zenject::DiContainer container, ::bs_hook::Il2CppWrapperType identifier, bool isOptional, Zenject::InjectSources source, bool matchAll)  {
+Zenject::ResolveProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ResolveProvider>(contractType, container, identifier, isOptional, source, matchAll))};
+return o;
+}
  void Zenject::ResolveProvider::_ctor(System::Type contractType, Zenject::DiContainer container, ::bs_hook::Il2CppWrapperType identifier, bool isOptional, Zenject::InjectSources source, bool matchAll)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ResolveProvider>::get(),

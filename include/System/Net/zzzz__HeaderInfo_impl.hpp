@@ -48,8 +48,10 @@ constexpr void System::Net::HeaderInfo::__set_AllowMultiValues(bool value)  {
 constexpr bool System::Net::HeaderInfo::__get_AllowMultiValues() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "requestRestricted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "responseRestricted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "multi", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "p", ty: "System::Net::HeaderParser", modifiers: "", def_value: None }]
- System::Net::HeaderInfo::HeaderInfo(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser p)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HeaderInfo>(name, requestRestricted, responseRestricted, multi, p))) {}
+ System::Net::HeaderInfo System::Net::HeaderInfo::New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser p)  {
+System::Net::HeaderInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HeaderInfo>(name, requestRestricted, responseRestricted, multi, p))};
+return o;
+}
  void System::Net::HeaderInfo::_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser p)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HeaderInfo>::get(),

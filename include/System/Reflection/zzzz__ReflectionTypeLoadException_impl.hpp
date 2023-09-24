@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Reflection/zzzz__ReflectionTypeLoadException_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Reflection::ReflectionTypeLoadException._ctor
 template<>
 
@@ -141,8 +141,10 @@ constexpr void System::Reflection::ReflectionTypeLoadException::__set__LoaderExc
 constexpr ::ArrayW<System::Exception> System::Reflection::ReflectionTypeLoadException::__get__LoaderExceptions_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::ArrayW<System::Exception>, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "classes", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }, CppParam { name: "exceptions", ty: "::ArrayW<System::Exception>", modifiers: "", def_value: None }]
- System::Reflection::ReflectionTypeLoadException::ReflectionTypeLoadException(::ArrayW<System::Type> classes, ::ArrayW<System::Exception> exceptions)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ReflectionTypeLoadException>(classes, exceptions))) {}
+ System::Reflection::ReflectionTypeLoadException System::Reflection::ReflectionTypeLoadException::New_ctor(::ArrayW<System::Type> classes, ::ArrayW<System::Exception> exceptions)  {
+System::Reflection::ReflectionTypeLoadException o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::ReflectionTypeLoadException>(classes, exceptions))};
+return o;
+}
  void System::Reflection::ReflectionTypeLoadException::_ctor(::ArrayW<System::Type> classes, ::ArrayW<System::Exception> exceptions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::ReflectionTypeLoadException>::get(),
@@ -152,8 +154,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, classes, exceptions);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Reflection::ReflectionTypeLoadException::ReflectionTypeLoadException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ReflectionTypeLoadException>(info, context))) {}
+ System::Reflection::ReflectionTypeLoadException System::Reflection::ReflectionTypeLoadException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Reflection::ReflectionTypeLoadException o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::ReflectionTypeLoadException>(info, context))};
+return o;
+}
  void System::Reflection::ReflectionTypeLoadException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::ReflectionTypeLoadException>::get(),

@@ -104,8 +104,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector2Control __get__touchpad_k__
 /// @brief Method FinishSetup addr 0x2ae410c size 0xe8 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit OculusRemote() ;
+static Unity::XR::Oculus::Input::OculusRemote New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae41f4 size 0x8 virtual false final false
  void _ctor() ;

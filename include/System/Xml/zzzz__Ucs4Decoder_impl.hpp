@@ -160,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, code, chars, charIndex);
 }
-// Ctor Parameters []
- System::Xml::Ucs4Decoder::Ucs4Decoder()  : System::Text::Decoder(THROW_UNLESS(::il2cpp_utils::New<Ucs4Decoder>())) {}
+ System::Xml::Ucs4Decoder System::Xml::Ucs4Decoder::New_ctor()  {
+System::Xml::Ucs4Decoder o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Ucs4Decoder>())};
+return o;
+}
  void System::Xml::Ucs4Decoder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Ucs4Decoder>::get(),

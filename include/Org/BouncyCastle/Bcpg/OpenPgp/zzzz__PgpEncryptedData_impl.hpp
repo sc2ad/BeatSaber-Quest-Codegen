@@ -3,6 +3,7 @@
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpEncryptedData_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__InputStreamPacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpEncryptedData_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream._ctor
 template<>
 
@@ -112,8 +113,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPg
 constexpr int32_t Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream::__get_bufEnd() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x44>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "inStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream(System::IO::Stream inStr)  : Org::BouncyCastle::Utilities::IO::BaseInputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream>(inStr))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream::New_ctor(System::IO::Stream inStr)  {
+Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream>(inStr))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream::_ctor(System::IO::Stream inStr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream>::get(),
@@ -245,8 +248,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__set_truncSt
 constexpr Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_truncStream() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encData", ty: "Org::BouncyCastle::Bcpg::InputStreamPacket", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::PgpEncryptedData(Org::BouncyCastle::Bcpg::InputStreamPacket encData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpEncryptedData>(encData))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::New_ctor(Org::BouncyCastle::Bcpg::InputStreamPacket encData)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData>(encData))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::_ctor(Org::BouncyCastle::Bcpg::InputStreamPacket encData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData>::get(),

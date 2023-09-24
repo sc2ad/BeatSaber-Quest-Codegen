@@ -1,16 +1,17 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__ValueTuple_3_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData.get_next
 template<>
 
@@ -191,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "boxGroup", ty: "GlobalNamespace::BeatmapEventDataBoxGroup", modifiers: "", def_value: None }, CppParam { name: "eventBox", ty: "GlobalNamespace::BeatmapEventDataBox", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "durationOrderIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "distributionOrderIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startBeat", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData(GlobalNamespace::BeatmapEventDataBoxGroup boxGroup, GlobalNamespace::BeatmapEventDataBox eventBox, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapEventDataBoxGroup__ElementData>(boxGroup, eventBox, elementId, durationOrderIndex, distributionOrderIndex, startBeat))) {}
+ GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData::New_ctor(GlobalNamespace::BeatmapEventDataBoxGroup boxGroup, GlobalNamespace::BeatmapEventDataBox eventBox, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat)  {
+GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData>(boxGroup, eventBox, elementId, durationOrderIndex, distributionOrderIndex, startBeat))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData::_ctor(GlobalNamespace::BeatmapEventDataBoxGroup boxGroup, GlobalNamespace::BeatmapEventDataBox eventBox, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData>::get(),
@@ -368,8 +371,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyDictionary_2<System::ValueTuple_3<int32_t,System::Type,int32_t>,GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroup__ElementData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapEventDataBoxList", ty: "System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox>", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapEventDataBoxGroup::BeatmapEventDataBoxGroup(float_t beat, System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> beatmapEventDataBoxList)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapEventDataBoxGroup>(beat, beatmapEventDataBoxList))) {}
+ GlobalNamespace::BeatmapEventDataBoxGroup GlobalNamespace::BeatmapEventDataBoxGroup::New_ctor(float_t beat, System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> beatmapEventDataBoxList)  {
+GlobalNamespace::BeatmapEventDataBoxGroup o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapEventDataBoxGroup>(beat, beatmapEventDataBoxList))};
+return o;
+}
  void GlobalNamespace::BeatmapEventDataBoxGroup::_ctor(float_t beat, System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapEventDataBox> beatmapEventDataBoxList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapEventDataBoxGroup>::get(),

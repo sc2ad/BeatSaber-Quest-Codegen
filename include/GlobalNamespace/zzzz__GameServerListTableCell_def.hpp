@@ -1,17 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class SongPackMasksModel;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
+namespace UnityEngine {
+class GameObject;
+}
 namespace HMUI {
 class CurvedTextMeshPro;
-}
-namespace GlobalNamespace {
-class SongPackMasksModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +101,7 @@ constexpr GlobalNamespace::SongPackMasksModel __get__songPackMasksModel() const;
 /// @brief Method SetData addr 0x2123404 size 0x388 virtual false final false
  void SetData(GlobalNamespace::INetworkPlayer player) ;
 
-// Ctor Parameters []
-explicit GameServerListTableCell() ;
+static GlobalNamespace::GameServerListTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x212378c size 0x8 virtual false final false
  void _ctor() ;

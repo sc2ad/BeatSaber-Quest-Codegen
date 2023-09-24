@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Null_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerNull_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerNull._ctor
 template<>
 
@@ -100,8 +100,10 @@ constexpr void Org::BouncyCastle::Asn1::DerNull::__set_zeroBytes(::ArrayW<uint8_
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Asn1::DerNull::__get_zeroBytes() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::DerNull::DerNull()  : Org::BouncyCastle::Asn1::Asn1Null(THROW_UNLESS(::il2cpp_utils::New<DerNull>())) {}
+ Org::BouncyCastle::Asn1::DerNull Org::BouncyCastle::Asn1::DerNull::New_ctor()  {
+Org::BouncyCastle::Asn1::DerNull o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerNull>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerNull::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerNull>::get(),
@@ -111,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "dummy", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerNull::DerNull(int32_t dummy)  : Org::BouncyCastle::Asn1::Asn1Null(THROW_UNLESS(::il2cpp_utils::New<DerNull>(dummy))) {}
+ Org::BouncyCastle::Asn1::DerNull Org::BouncyCastle::Asn1::DerNull::New_ctor(int32_t dummy)  {
+Org::BouncyCastle::Asn1::DerNull o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerNull>(dummy))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerNull::_ctor(int32_t dummy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerNull>::get(),

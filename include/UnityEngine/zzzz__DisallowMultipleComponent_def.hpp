@@ -47,8 +47,7 @@ constexpr explicit DisallowMultipleComponent(void* ptr) noexcept : System::Attri
 
 // Methods
 
-// Ctor Parameters []
-explicit DisallowMultipleComponent() ;
+static UnityEngine::DisallowMultipleComponent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5b1d4 size 0x8 virtual false final false
  void _ctor() ;

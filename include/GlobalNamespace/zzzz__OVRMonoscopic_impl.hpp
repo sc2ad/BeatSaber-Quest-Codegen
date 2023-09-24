@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRMonoscopic::OVRMonoscopic()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRMonoscopic>())) {}
+ GlobalNamespace::OVRMonoscopic GlobalNamespace::OVRMonoscopic::New_ctor()  {
+GlobalNamespace::OVRMonoscopic o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRMonoscopic>())};
+return o;
+}
  void GlobalNamespace::OVRMonoscopic::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRMonoscopic>::get(),

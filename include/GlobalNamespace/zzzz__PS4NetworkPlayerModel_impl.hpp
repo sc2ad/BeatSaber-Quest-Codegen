@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::PS4NetworkPlayerModel::PS4NetworkPlayerModel()  : GlobalNamespace::PlatformNetworkPlayerModel(THROW_UNLESS(::il2cpp_utils::New<PS4NetworkPlayerModel>())) {}
+ GlobalNamespace::PS4NetworkPlayerModel GlobalNamespace::PS4NetworkPlayerModel::New_ctor()  {
+GlobalNamespace::PS4NetworkPlayerModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS4NetworkPlayerModel>())};
+return o;
+}
  void GlobalNamespace::PS4NetworkPlayerModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS4NetworkPlayerModel>::get(),

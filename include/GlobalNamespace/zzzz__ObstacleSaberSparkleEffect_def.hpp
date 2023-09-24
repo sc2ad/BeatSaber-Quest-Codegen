@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class ParticleSystem;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
+class ParticleSystem;
+}
+namespace UnityEngine {
 struct UnityEngine__ParticleSystem__EmissionModule;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +109,7 @@ constexpr UnityEngine::UnityEngine__ParticleSystem__EmissionModule __get__burnPa
 /// @brief Method StopEmission addr 0x2264c34 size 0x68 virtual false final false
  void StopEmission() ;
 
-// Ctor Parameters []
-explicit ObstacleSaberSparkleEffect() ;
+static GlobalNamespace::ObstacleSaberSparkleEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2264c9c size 0x8 virtual false final false
  void _ctor() ;

@@ -7,17 +7,17 @@
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ParametersWithIV;
 }
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
+namespace Org::BouncyCastle::Crypto::Modes {
+class CbcBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class CbcBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
@@ -148,8 +148,7 @@ constexpr ::ArrayW<uint8_t> __get_digest() const;
 /// @brief Method reverse addr 0xe401e0 size 0xa8 virtual false final false
 static ::ArrayW<uint8_t> reverse(::ArrayW<uint8_t> bs) ;
 
-// Ctor Parameters []
-explicit DesEdeWrapEngine() ;
+static Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe407cc size 0x8c virtual false final false
  void _ctor() ;

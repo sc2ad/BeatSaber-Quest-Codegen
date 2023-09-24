@@ -5,13 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Mono::Net::Security {
-class MobileTlsProvider;
+class MonoTlsStream;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Net::Security {
-class LocalCertSelectionCallback;
+namespace Mono::Net::Security {
+class Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0;
 }
 namespace Mono::Security::Interface {
 class ValidationResult;
@@ -20,32 +17,38 @@ namespace System::Net::Security {
 class SslStream;
 }
 namespace System::Net {
+class HttpWebRequest;
+}
+namespace System::Net::Security {
+struct SslPolicyErrors;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Net {
 class ServerCertValidationCallback;
 }
 namespace System {
 template<typename T>
 class WeakReference_1;
 }
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
 namespace System::Net::Security {
-struct SslPolicyErrors;
+class LocalCertSelectionCallback;
 }
 namespace Mono::Security::Interface {
 class ICertificateValidator;
 }
-namespace Mono::Net::Security {
-class MonoTlsStream;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
-namespace System::Net {
-class HttpWebRequest;
+namespace Mono::Net::Security {
+class MobileTlsProvider;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Chain;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -105,8 +108,7 @@ constexpr Mono::Security::Interface::MonoTlsSettings __get_settings() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0() ;
+static Mono::Net::Security::Mono__Net__Security__ChainValidationHelper____c__DisplayClass11_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x268ec68 size 0x8 virtual false final false
  void _ctor() ;
@@ -221,8 +223,7 @@ static Mono::Net::Security::ChainValidationHelper GetInternalValidator(System::N
 /// @brief Method Create addr 0x268e920 size 0x8c virtual false final false
 static Mono::Net::Security::ChainValidationHelper Create(Mono::Net::Security::MobileTlsProvider provider, ByRef<Mono::Security::Interface::MonoTlsSettings> settings, Mono::Net::Security::MonoTlsStream stream) ;
 
-// Ctor Parameters [CppParam { name: "owner", ty: "System::Net::Security::SslStream", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Mono::Net::Security::MobileTlsProvider", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }, CppParam { name: "cloneSettings", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "Mono::Net::Security::MonoTlsStream", modifiers: "", def_value: None }]
-explicit ChainValidationHelper(System::Net::Security::SslStream owner, Mono::Net::Security::MobileTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings, bool cloneSettings, Mono::Net::Security::MonoTlsStream stream) ;
+static Mono::Net::Security::ChainValidationHelper New_ctor(System::Net::Security::SslStream owner, Mono::Net::Security::MobileTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings, bool cloneSettings, Mono::Net::Security::MonoTlsStream stream) ;
 
 /// @brief Method .ctor addr 0x268e6ac size 0x274 virtual false final false
  void _ctor(System::Net::Security::SslStream owner, Mono::Net::Security::MobileTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings, bool cloneSettings, Mono::Net::Security::MonoTlsStream stream) ;

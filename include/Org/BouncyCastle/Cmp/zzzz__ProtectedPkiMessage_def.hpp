@@ -2,14 +2,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Cmp {
-class GeneralPkiMessage;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiBody;
-}
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactory;
+class PkiHeader;
 }
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
@@ -17,14 +11,20 @@ class IStreamCalculator;
 namespace Org::BouncyCastle::Crmf {
 class PKMacBuilder;
 }
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiBody;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiMessage;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeader;
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactory;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Cmp {
+class GeneralPkiMessage;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {
@@ -90,14 +90,12 @@ constexpr Org::BouncyCastle::Asn1::Cmp::PkiMessage __get_pkiMessage() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pkiMessage", ty: "Org::BouncyCastle::Cmp::GeneralPkiMessage", modifiers: "", def_value: None }]
-explicit ProtectedPkiMessage(Org::BouncyCastle::Cmp::GeneralPkiMessage pkiMessage) ;
+static Org::BouncyCastle::Cmp::ProtectedPkiMessage New_ctor(Org::BouncyCastle::Cmp::GeneralPkiMessage pkiMessage) ;
 
 /// @brief Method .ctor addr 0x114bf58 size 0x98 virtual false final false
  void _ctor(Org::BouncyCastle::Cmp::GeneralPkiMessage pkiMessage) ;
 
-// Ctor Parameters [CppParam { name: "pkiMessage", ty: "Org::BouncyCastle::Asn1::Cmp::PkiMessage", modifiers: "", def_value: None }]
-explicit ProtectedPkiMessage(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage) ;
+static Org::BouncyCastle::Cmp::ProtectedPkiMessage New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage) ;
 
 /// @brief Method .ctor addr 0x114bff0 size 0xa0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage) ;

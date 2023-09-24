@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSrpLoginParameters;
+class TlsSrpIdentityManager;
 }
-namespace Org::BouncyCastle::Crypto {
-class IMac;
+namespace Org::BouncyCastle::Crypto::Agreement::Srp {
+class Srp6VerifierGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSrpIdentityManager;
+class TlsSrpLoginParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Srp6GroupParameters;
 }
-namespace Org::BouncyCastle::Crypto::Agreement::Srp {
-class Srp6VerifierGenerator;
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -103,8 +103,7 @@ constexpr Org::BouncyCastle::Crypto::IMac __get_mMac() const;
 /// @brief Method GetRfc5054Default addr 0xf09aa0 size 0x17c virtual false final false
 static Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager GetRfc5054Default(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, ::ArrayW<uint8_t> seedKey) ;
 
-// Ctor Parameters [CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters", modifiers: "", def_value: None }, CppParam { name: "verifierGenerator", ty: "Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit SimulatedTlsSrpIdentityManager(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator verifierGenerator, Org::BouncyCastle::Crypto::IMac mac) ;
+static Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager New_ctor(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator verifierGenerator, Org::BouncyCastle::Crypto::IMac mac) ;
 
 /// @brief Method .ctor addr 0xf09c1c size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator verifierGenerator, Org::BouncyCastle::Crypto::IMac mac) ;

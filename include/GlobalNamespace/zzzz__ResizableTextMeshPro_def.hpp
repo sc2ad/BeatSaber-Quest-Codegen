@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace TMPro {
-class TMP_Text;
-}
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace TMPro {
+class TMP_Text;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -90,8 +90,7 @@ constexpr float_t __get__textExtraSpace() const;
 /// @brief Method HandleTextDidChange addr 0x21acde8 size 0x90 virtual false final false
  void HandleTextDidChange(UnityEngine::Object textMeshPro) ;
 
-// Ctor Parameters []
-explicit ResizableTextMeshPro() ;
+static GlobalNamespace::ResizableTextMeshPro New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ace78 size 0x10 virtual false final false
  void _ctor() ;

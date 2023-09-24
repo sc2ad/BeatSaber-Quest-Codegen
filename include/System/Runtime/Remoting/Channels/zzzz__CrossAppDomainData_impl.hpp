@@ -69,8 +69,10 @@ constexpr void System::Runtime::Remoting::Channels::CrossAppDomainData::__set__p
 constexpr ::StringW System::Runtime::Remoting::Channels::CrossAppDomainData::__get__processGuid() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "domainId", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Channels::CrossAppDomainData::CrossAppDomainData(int32_t domainId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CrossAppDomainData>(domainId))) {}
+ System::Runtime::Remoting::Channels::CrossAppDomainData System::Runtime::Remoting::Channels::CrossAppDomainData::New_ctor(int32_t domainId)  {
+System::Runtime::Remoting::Channels::CrossAppDomainData o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Channels::CrossAppDomainData>(domainId))};
+return o;
+}
  void System::Runtime::Remoting::Channels::CrossAppDomainData::_ctor(int32_t domainId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Channels::CrossAppDomainData>::get(),

@@ -16,125 +16,185 @@ class AsyncCallback;
 namespace System {
 class IAsyncResult;
 }
-namespace UnityEngine {
-class Camera;
+namespace System {
+template<typename T>
+class Comparison_1;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System {
-template<typename T>
-class Comparison_1;
-}
 namespace UnityEngine {
-struct DepthTextureMode;
-}
-namespace UnityEngine::XR {
-class XRDisplaySubsystemDescriptor;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-template<typename T>
-class WeakReference_1;
-}
-namespace UnityEngine::XR {
-class XRDisplaySubsystem;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__SpaceComponentType;
-}
-namespace System {
-class Version;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace GlobalNamespace {
-class OVRTracker;
-}
-namespace System {
-struct Guid;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class OVRMixedRealityCaptureConfiguration;
-}
-namespace GlobalNamespace {
-class OVRMixedRealityCaptureSettings;
-}
-namespace GlobalNamespace {
-struct OVRSpace;
-}
-namespace GlobalNamespace {
-class OVRDisplay;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6>
-class Action_6;
-}
-namespace GlobalNamespace {
-class OVRBoundary;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__EventDataBuffer;
+class Camera;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4>
 class Action_4;
 }
 namespace GlobalNamespace {
-struct OVRPose;
+struct GlobalNamespace__OVRPlugin__EventDataBuffer;
+}
+namespace UnityEngine::XR {
+class XRDisplaySubsystemDescriptor;
 }
 namespace GlobalNamespace {
-class OVRProfile;
+struct GlobalNamespace__OVRManager__EyeTextureFormat;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRManager____c;
 }
 namespace System {
 template<typename T>
-class Action_1;
+class WeakReference_1;
+}
+namespace GlobalNamespace {
+struct OVRPose;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6>
+class Action_6;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__XrApi;
 }
 namespace UnityEngine {
-struct LayerMask;
+class Transform;
+}
+namespace UnityEngine::XR {
+class XRInputSubsystem;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__SpaceStorageLocation;
+struct GlobalNamespace__OVRManager__ColorSpace;
+}
+namespace System {
+class Version;
+}
+namespace UnityEngine {
+struct DepthTextureMode;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRSpatialAnchor__OperationResult;
+struct GlobalNamespace__OVRManager__FoveatedRenderingLevel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__TrackingOrigin;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System {
 class Action;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__XRDevice;
+}
+namespace GlobalNamespace {
+class OVRTracker;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace GlobalNamespace {
-class OVRRuntimeSettings;
+class OVRMixedRealityCaptureSettings;
+}
+namespace GlobalNamespace {
+class OVRDisplay;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__ProcessorPerformanceLevel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRManager__PassthroughCapabilities;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__FixedFoveatedRenderingLevel;
 }
 namespace UnityEngine::XR {
-class XRInputSubsystem;
+struct XRNode;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__TiledMultiResLevel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__MrcCameraType;
+}
+namespace GlobalNamespace {
+class OVRMixedRealityCaptureConfiguration;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__MrcActivationMode;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__VirtualGreenScreenType;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__SystemHeadsetType;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace System {
+struct Guid;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSpatialAnchor__OperationResult;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__CompositionMethod;
+}
+namespace GlobalNamespace {
+class OVRRuntimeSettings;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__DepthQuality;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine::XR {
+class XRDisplaySubsystem;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceStorageLocation;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class OVRProfile;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__PassthroughInitializationState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__CameraDevice;
+}
+namespace GlobalNamespace {
+struct OVRSpace;
+}
+namespace GlobalNamespace {
+class OVRBoundary;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -252,6 +312,8 @@ constexpr operator __GlobalNamespace__OVRManager__XrApi_Unwrapped () const noexc
 return std::bit_cast<__GlobalNamespace__OVRManager__XrApi_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -328,6 +390,8 @@ constexpr operator __GlobalNamespace__OVRManager__TrackingOrigin_Unwrapped () co
 return std::bit_cast<__GlobalNamespace__OVRManager__TrackingOrigin_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -400,6 +464,8 @@ __R11G11B10_FP = 3,
 constexpr operator __GlobalNamespace__OVRManager__EyeTextureFormat_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRManager__EyeTextureFormat_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -475,6 +541,8 @@ __HighTop = 4,
 constexpr operator __GlobalNamespace__OVRManager__FoveatedRenderingLevel_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRManager__FoveatedRenderingLevel_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -557,6 +625,8 @@ constexpr operator __GlobalNamespace__OVRManager__FixedFoveatedRenderingLevel_Un
 return std::bit_cast<__GlobalNamespace__OVRManager__FixedFoveatedRenderingLevel_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -637,6 +707,8 @@ __LMSHighTop = 4,
 constexpr operator __GlobalNamespace__OVRManager__TiledMultiResLevel_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRManager__TiledMultiResLevel_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -733,6 +805,8 @@ __PC_Placeholder_4107 = 4107,
 constexpr operator __GlobalNamespace__OVRManager__SystemHeadsetType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRManager__SystemHeadsetType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -858,6 +932,8 @@ constexpr operator __GlobalNamespace__OVRManager__XRDevice_Unwrapped () const no
 return std::bit_cast<__GlobalNamespace__OVRManager__XRDevice_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -936,6 +1012,8 @@ __Adobe_RGB = 8,
 constexpr operator __GlobalNamespace__OVRManager__ColorSpace_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRManager__ColorSpace_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1029,6 +1107,8 @@ constexpr operator __GlobalNamespace__OVRManager__ProcessorPerformanceLevel_Unwr
 return std::bit_cast<__GlobalNamespace__OVRManager__ProcessorPerformanceLevel_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1104,6 +1184,8 @@ constexpr operator __GlobalNamespace__OVRManager__CompositionMethod_Unwrapped ()
 return std::bit_cast<__GlobalNamespace__OVRManager__CompositionMethod_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1173,6 +1255,8 @@ __ZEDCamera = 2,
 constexpr operator __GlobalNamespace__OVRManager__CameraDevice_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRManager__CameraDevice_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1247,6 +1331,8 @@ constexpr operator __GlobalNamespace__OVRManager__DepthQuality_Unwrapped () cons
 return std::bit_cast<__GlobalNamespace__OVRManager__DepthQuality_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1320,6 +1406,8 @@ constexpr operator __GlobalNamespace__OVRManager__VirtualGreenScreenType_Unwrapp
 return std::bit_cast<__GlobalNamespace__OVRManager__VirtualGreenScreenType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1392,6 +1480,8 @@ constexpr operator __GlobalNamespace__OVRManager__MrcActivationMode_Unwrapped ()
 return std::bit_cast<__GlobalNamespace__OVRManager__MrcActivationMode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1462,6 +1552,8 @@ constexpr operator __GlobalNamespace__OVRManager__MrcCameraType_Unwrapped () con
 return std::bit_cast<__GlobalNamespace__OVRManager__MrcCameraType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1526,8 +1618,7 @@ constexpr explicit GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x25cf348 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1596,6 +1687,8 @@ __Failed = 3,
 constexpr operator __GlobalNamespace__OVRManager__PassthroughInitializationState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRManager__PassthroughInitializationState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1692,8 +1785,7 @@ constexpr bool __get__SupportsColorPassthrough_k__BackingField() const;
 /// @brief Method get_SupportsColorPassthrough addr 0x25cf4dc size 0x8 virtual false final false
  bool get_SupportsColorPassthrough() ;
 
-// Ctor Parameters [CppParam { name: "supportsPassthrough", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportsColorPassthrough", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRManager__PassthroughCapabilities(bool supportsPassthrough, bool supportsColorPassthrough) ;
+static GlobalNamespace::GlobalNamespace__OVRManager__PassthroughCapabilities New_ctor(bool supportsPassthrough, bool supportsColorPassthrough) ;
 
 /// @brief Method .ctor addr 0x25cf4e4 size 0x30 virtual false final false
  void _ctor(bool supportsPassthrough, bool supportsColorPassthrough) ;
@@ -1765,8 +1857,7 @@ static System::Comparison_1<UnityEngine::Camera> __get___9__413_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRManager____c() ;
+static GlobalNamespace::GlobalNamespace__OVRManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x25cf578 size 0x8 virtual false final false
  void _ctor() ;
@@ -3432,8 +3523,7 @@ static bool HasInsightPassthroughInitFailed() ;
 /// @brief Method IsInsightPassthroughInitPending addr 0x25cf0e0 size 0x60 virtual false final false
 static bool IsInsightPassthroughInitPending() ;
 
-// Ctor Parameters []
-explicit OVRManager() ;
+static GlobalNamespace::OVRManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x25cf140 size 0xa4 virtual false final false
  void _ctor() ;

@@ -2,22 +2,22 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Oculus::Platform::Models {
-class GroupPresenceJoinIntent;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace GlobalNamespace {
 class IDeeplinkManager;
 }
 namespace GlobalNamespace {
 class Deeplink;
 }
+namespace Oculus::Platform::Models {
+class GroupPresenceJoinIntent;
+}
 namespace Oculus::Platform {
 template<typename T>
 class Message_1;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace Oculus::Platform::Models {
 class LaunchDetails;
@@ -124,8 +124,7 @@ constexpr bool __get__oculusPlatformWasInitialized() const;
 /// @brief Method Log addr 0x21bd7cc size 0x58 virtual false final false
 static void Log(::StringW message) ;
 
-// Ctor Parameters []
-explicit OculusDeeplinkManager() ;
+static GlobalNamespace::OculusDeeplinkManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bdaf8 size 0x8 virtual false final false
  void _ctor() ;

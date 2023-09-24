@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
+}
+namespace System::Net {
+class SocketAddress;
 }
 namespace LiteNetLib {
 class NetPacket;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace System::Net {
-class SocketAddress;
+class NetDataReader;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -91,8 +91,7 @@ constexpr LiteNetLib::Utils::NetDataReader __get_Data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connectionTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "connectionNumber", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "targetAddress", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "data", ty: "LiteNetLib::Utils::NetDataReader", modifiers: "", def_value: None }]
-explicit NetConnectRequestPacket(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader data) ;
+static LiteNetLib::NetConnectRequestPacket New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader data) ;
 
 /// @brief Method .ctor addr 0x208f880 size 0x44 virtual false final false
  void _ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader data) ;

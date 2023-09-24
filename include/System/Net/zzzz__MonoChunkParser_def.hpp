@@ -6,11 +6,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Collections {
+class ArrayList;
+}
 namespace System::Text {
 class StringBuilder;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Net {
+struct System__Net__MonoChunkParser__State;
+}
+namespace System::Net {
+class System__Net__MonoChunkParser__Chunk;
 }
 namespace System::Net {
 class WebHeaderCollection;
@@ -77,6 +83,8 @@ __Trailer = 4,
 constexpr operator __System__Net__MonoChunkParser__State_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__MonoChunkParser__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -163,8 +171,7 @@ constexpr int32_t __get_Offset() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "chunk", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit System__Net__MonoChunkParser__Chunk(::ArrayW<uint8_t> chunk) ;
+static System::Net::System__Net__MonoChunkParser__Chunk New_ctor(::ArrayW<uint8_t> chunk) ;
 
 /// @brief Method .ctor addr 0x28421f4 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> chunk) ;
@@ -294,8 +301,7 @@ constexpr System::Collections::ArrayList __get_chunks() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "headers", ty: "System::Net::WebHeaderCollection", modifiers: "", def_value: None }]
-explicit MonoChunkParser(System::Net::WebHeaderCollection headers) ;
+static System::Net::MonoChunkParser New_ctor(System::Net::WebHeaderCollection headers) ;
 
 /// @brief Method .ctor addr 0x2841324 size 0xb8 virtual false final false
  void _ctor(System::Net::WebHeaderCollection headers) ;

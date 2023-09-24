@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__TimeZone_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/Globalization/zzzz__DaylightTime_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: System::TimeZone.get_InternalSyncObject
 template<>
 
@@ -126,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::TimeZone::TimeZone()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeZone>())) {}
+ System::TimeZone System::TimeZone::New_ctor()  {
+System::TimeZone o{THROW_UNLESS(::il2cpp_utils::New<System::TimeZone>())};
+return o;
+}
  void System::TimeZone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TimeZone>::get(),

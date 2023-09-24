@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ResourceLocationMap_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ResourceLocationData_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap._ctor
 template<>
 
@@ -193,8 +193,11 @@ constexpr void UnityEngine::AddressableAssets::ResourceLocators::ResourceLocatio
 constexpr System::Collections::Generic::Dictionary_2<::bs_hook::Il2CppWrapperType,System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>> UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::__get__Locations_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<::bs_hook::Il2CppWrapperType,System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: Some("0") }]
- UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::ResourceLocationMap(::StringW id, int32_t capacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceLocationMap>(id, capacity))) {}
+/// @param capacity: int32_t (default: 0)
+ UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::New_ctor(::StringW id, int32_t capacity)  {
+UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap>(id, capacity))};
+return o;
+}
 /// @param capacity: int32_t (default: 0)
  void UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::_ctor(::StringW id, int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,8 +226,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "locations", ty: "System::Collections::Generic::IList_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData>", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::ResourceLocationMap(::StringW id, System::Collections::Generic::IList_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> locations)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceLocationMap>(id, locations))) {}
+ UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::New_ctor(::StringW id, System::Collections::Generic::IList_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> locations)  {
+UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap>(id, locations))};
+return o;
+}
  void UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::_ctor(::StringW id, System::Collections::Generic::IList_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> locations)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap>::get(),

@@ -47,8 +47,7 @@ constexpr explicit AndroidGamepadWithDpadButtons(void* ptr) noexcept : UnityEngi
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidGamepadWithDpadButtons() ;
+static UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953038 size 0x8 virtual false final false
  void _ctor() ;

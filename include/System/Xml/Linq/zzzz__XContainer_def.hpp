@@ -4,34 +4,37 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Xml::Linq {
+class XNode;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-class IDisposable;
+namespace System::Xml::Linq {
+class XAttribute;
 }
 namespace System::Xml::Linq {
-class XNode;
+class System__Xml__Linq__XContainer___Nodes_d__18;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace System::Xml {
 class XmlWriter;
-}
-namespace System::Xml::Linq {
-class XAttribute;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -137,8 +140,7 @@ constexpr System::Xml::Linq::XNode __get__n_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Xml__Linq__XContainer___Nodes_d__18(int32_t __1__state) ;
+static System::Xml::Linq::System__Xml__Linq__XContainer___Nodes_d__18 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x26ca834 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -226,14 +228,12 @@ constexpr ::bs_hook::Il2CppWrapperType __get_content() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XContainer() ;
+static System::Xml::Linq::XContainer New_ctor() ;
 
 /// @brief Method .ctor addr 0x26c96fc size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XContainer", modifiers: "", def_value: None }]
-explicit XContainer(System::Xml::Linq::XContainer other) ;
+static System::Xml::Linq::XContainer New_ctor(System::Xml::Linq::XContainer other) ;
 
 /// @brief Method .ctor addr 0x26c9704 size 0x13c virtual false final false
  void _ctor(System::Xml::Linq::XContainer other) ;

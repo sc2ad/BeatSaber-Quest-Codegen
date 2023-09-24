@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct AssetLoadMode;
+}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
 class ILocationSizeData;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct AssetLoadMode;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -241,8 +241,7 @@ constexpr bool __get_m_ClearOtherCachedVersionsWhenLoaded() const;
 /// @brief Method ComputeSize addr 0x2a3bfdc size 0x148 virtual true final false
  int64_t ComputeSize(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, UnityEngine::ResourceManagement::ResourceManager resourceManager) ;
 
-// Ctor Parameters []
-explicit AssetBundleRequestOptions() ;
+static UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3c124 size 0x58 virtual false final false
  void _ctor() ;

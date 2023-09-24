@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
-#include "HMUI/zzzz__TableCell_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardTableCell_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HMUI/zzzz__TableCell_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardTableCell_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData.get_score
 template<>
 
@@ -255,8 +255,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "score", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullCombo", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData::GlobalNamespace__LeaderboardTableView__ScoreData(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LeaderboardTableView__ScoreData>(score, playerName, rank, fullCombo))) {}
+ GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData::New_ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo)  {
+GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData>(score, playerName, rank, fullCombo))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData::_ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData>::get(),
@@ -421,8 +423,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, scores, specialScorePos);
 }
-// Ctor Parameters []
- GlobalNamespace::LeaderboardTableView::LeaderboardTableView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LeaderboardTableView>())) {}
+ GlobalNamespace::LeaderboardTableView GlobalNamespace::LeaderboardTableView::New_ctor()  {
+GlobalNamespace::LeaderboardTableView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LeaderboardTableView>())};
+return o;
+}
  void GlobalNamespace::LeaderboardTableView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LeaderboardTableView>::get(),

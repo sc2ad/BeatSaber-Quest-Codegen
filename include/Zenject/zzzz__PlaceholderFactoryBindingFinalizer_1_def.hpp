@@ -5,10 +5,10 @@ namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class DiContainer;
+class FactoryBindInfo;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -73,8 +73,7 @@ constexpr Zenject::FactoryBindInfo __get__factoryBindInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit PlaceholderFactoryBindingFinalizer_1(Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::PlaceholderFactoryBindingFinalizer_1<TContract> New_ctor(Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

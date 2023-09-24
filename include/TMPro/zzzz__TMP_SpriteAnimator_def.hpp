@@ -5,23 +5,23 @@
 #include <cmath>
 #include <cstdint>
 namespace TMPro {
-class TMP_SpriteAsset;
-}
-namespace TMPro {
 class TMP_Text;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace TMPro {
-struct TMP_MeshInfo;
+class TMP_SpriteAsset;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace TMPro {
+class TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7;
+}
+namespace TMPro {
+struct TMP_MeshInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -29,6 +29,9 @@ class IEnumerator_1;
 }
 namespace TMPro {
 struct TMP_CharacterInfo;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace TMPro {
@@ -194,8 +197,7 @@ constexpr float_t __get__targetTime_5__9() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7(int32_t __1__state) ;
+static TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2aaa804 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -296,8 +298,7 @@ constexpr TMPro::TMP_Text __get_m_TextComponent() const;
 /// @brief Method DoSpriteAnimationInternal addr 0x2aaa764 size 0xa0 virtual false final false
  System::Collections::IEnumerator DoSpriteAnimationInternal(int32_t currentCharacter, TMPro::TMP_SpriteAsset spriteAsset, int32_t start, int32_t end, int32_t framerate) ;
 
-// Ctor Parameters []
-explicit TMP_SpriteAnimator() ;
+static TMPro::TMP_SpriteAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aaa82c size 0x80 virtual false final false
  void _ctor() ;

@@ -31,8 +31,10 @@ return ::cordl_internals::getStaticField<::ArrayW<System::Security::Cryptography
  ::ArrayW<System::Security::Cryptography::KeySizes> System::Security::Cryptography::Rijndael::__get_s_legalKeySizes()  {
 return ::cordl_internals::getStaticField<::ArrayW<System::Security::Cryptography::KeySizes>, "s_legalKeySizes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::Rijndael>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::Rijndael::Rijndael()  : System::Security::Cryptography::SymmetricAlgorithm(THROW_UNLESS(::il2cpp_utils::New<Rijndael>())) {}
+ System::Security::Cryptography::Rijndael System::Security::Cryptography::Rijndael::New_ctor()  {
+System::Security::Cryptography::Rijndael o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::Rijndael>())};
+return o;
+}
  void System::Security::Cryptography::Rijndael::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::Rijndael>::get(),

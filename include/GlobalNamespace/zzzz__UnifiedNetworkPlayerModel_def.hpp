@@ -5,28 +5,14 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+template<typename T>
+class INetworkPlayerModelPartyConfig_1;
+}
+namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-template<typename T>
-class INetworkPlayerModelPartyConfig_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -34,24 +20,44 @@ class IEnumerable;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class LocalNetworkPlayerModel;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
+class INetworkPlayer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
 }
 namespace GlobalNamespace {
 class GameLiftNetworkPlayerModel;
 }
 namespace GlobalNamespace {
-class INetworkPlayerModel;
+class GlobalNamespace__UnifiedNetworkPlayerModel___get_otherPlayers_d__71;
 }
-namespace Zenject {
-class IInitializable;
+namespace GlobalNamespace {
+class GlobalNamespace__UnifiedNetworkPlayerModel__StartClientPartyConfig;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
 }
 namespace GlobalNamespace {
 class PlatformNetworkPlayerModel;
@@ -59,14 +65,20 @@ class PlatformNetworkPlayerModel;
 namespace GlobalNamespace {
 class PartyMessageHandler;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class LocalNetworkPlayerModel;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class ConnectedPlayerManager;
+}
+namespace Zenject {
+class IInitializable;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -134,6 +146,8 @@ __LocalNetwork = 2,
 constexpr operator __GlobalNamespace__UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -229,8 +243,7 @@ constexpr ::StringW __get_code() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig() ;
+static GlobalNamespace::GlobalNamespace__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig New_ctor() ;
 
 /// @brief Method .ctor addr 0x2214df4 size 0x8 virtual false final false
  void _ctor() ;
@@ -299,8 +312,7 @@ constexpr GlobalNamespace::GameplayServerConfiguration __get_configuration() con
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__UnifiedNetworkPlayerModel__StartClientPartyConfig() ;
+static GlobalNamespace::GlobalNamespace__UnifiedNetworkPlayerModel__StartClientPartyConfig New_ctor() ;
 
 /// @brief Method .ctor addr 0x2214b28 size 0x8 virtual false final false
  void _ctor() ;
@@ -406,8 +418,7 @@ constexpr System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkP
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__UnifiedNetworkPlayerModel___get_otherPlayers_d__71(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__UnifiedNetworkPlayerModel___get_otherPlayers_d__71 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x22149ac size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -800,8 +811,7 @@ template<typename T>
 /// @brief Method SetActiveNetworkPlayerModelType addr 0x2215510 size 0x3c virtual true final true
  void SetActiveNetworkPlayerModelType(GlobalNamespace::GlobalNamespace__UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType activeNetworkPlayerModelType) ;
 
-// Ctor Parameters []
-explicit UnifiedNetworkPlayerModel() ;
+static GlobalNamespace::UnifiedNetworkPlayerModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x221554c size 0x8 virtual false final false
  void _ctor() ;

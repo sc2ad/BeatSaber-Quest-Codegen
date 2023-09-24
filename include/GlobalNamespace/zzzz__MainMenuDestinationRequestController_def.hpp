@@ -10,37 +10,43 @@ namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+class GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0;
 }
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-class MenuScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
 class IDestinationRequestManager;
 }
-namespace System::Threading {
-class CancellationTokenSource;
+namespace GlobalNamespace {
+class ScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
 }
 namespace Zenject {
 class IInitializable;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class MenuScenesTransitionSetupDataSO;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +109,7 @@ constexpr GlobalNamespace::MenuDestination __get_menuDestination() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0() ;
+static GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bce20 size 0x8 virtual false final false
  void _ctor() ;
@@ -311,8 +316,7 @@ constexpr System::Threading::CancellationTokenSource __get__cancellationTokenSou
 /// @brief Method ProcessDestinationRequest addr 0x21bc92c size 0xa0 virtual false final false
  void ProcessDestinationRequest(GlobalNamespace::MenuDestination menuDestination) ;
 
-// Ctor Parameters []
-explicit MainMenuDestinationRequestController() ;
+static GlobalNamespace::MainMenuDestinationRequestController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bce18 size 0x8 virtual false final false
  void _ctor() ;

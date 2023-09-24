@@ -86,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::Tables8kGcmMultiplier()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tables8kGcmMultiplier>())) {}
+ Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::New_ctor()  {
+Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier>::get(),

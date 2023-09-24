@@ -160,8 +160,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParamete
 constexpr int64_t Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::__get_cL() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "x0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "c", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::Gost3410ValidationParameters(int32_t x0, int32_t c)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3410ValidationParameters>(x0, c))) {}
+ Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::New_ctor(int32_t x0, int32_t c)  {
+Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters>(x0, c))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::_ctor(int32_t x0, int32_t c)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters>::get(),
@@ -171,8 +173,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x0, c);
 }
-// Ctor Parameters [CppParam { name: "x0L", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "cL", ty: "int64_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::Gost3410ValidationParameters(int64_t x0L, int64_t cL)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3410ValidationParameters>(x0L, cL))) {}
+ Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::New_ctor(int64_t x0L, int64_t cL)  {
+Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters>(x0L, cL))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::_ctor(int64_t x0L, int64_t cL)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters>::get(),

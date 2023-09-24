@@ -71,8 +71,7 @@ constexpr explicit AbstractECLookupTable(void* ptr) noexcept : ::bs_hook::Il2Cpp
 /// @brief Method LookupVar addr 0xf3eaf0 size 0xc virtual true final false
  Org::BouncyCastle::Math::EC::ECPoint LookupVar(int32_t index) ;
 
-// Ctor Parameters []
-explicit AbstractECLookupTable() ;
+static Org::BouncyCastle::Math::EC::AbstractECLookupTable New_ctor() ;
 
 /// @brief Method .ctor addr 0xf3e71c size 0x8 virtual false final false
  void _ctor() ;

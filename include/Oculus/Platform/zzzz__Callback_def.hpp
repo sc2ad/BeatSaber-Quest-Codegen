@@ -3,28 +3,35 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Oculus::Platform {
-class Request;
-}
-namespace Oculus::Platform {
-class Message;
-}
-namespace Oculus::Platform {
-class Oculus__Platform__Message__Callback;
-}
-namespace Oculus::Platform {
 template<typename T>
 class Oculus__Platform__Message_1__Callback;
-}
-namespace Oculus::Platform {
-struct Oculus__Platform__Message__MessageType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Oculus::Platform {
+class Oculus__Platform__Message__Callback;
+}
+namespace Oculus::Platform {
+struct Oculus__Platform__Message__MessageType;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace Oculus::Platform {
+class Request;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Oculus__Platform__Callback__RequestCallback_1;
+}
+namespace Oculus::Platform {
+class Message;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__Callback__RequestCallback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -92,14 +99,12 @@ constexpr Oculus::Platform::Oculus__Platform__Message__Callback __get_messageCal
 
 // Methods
 
-// Ctor Parameters []
-explicit Oculus__Platform__Callback__RequestCallback() ;
+static Oculus::Platform::Oculus__Platform__Callback__RequestCallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x2554670 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "callback", ty: "Oculus::Platform::Oculus__Platform__Message__Callback", modifiers: "", def_value: None }]
-explicit Oculus__Platform__Callback__RequestCallback(Oculus::Platform::Oculus__Platform__Message__Callback callback) ;
+static Oculus::Platform::Oculus__Platform__Callback__RequestCallback New_ctor(Oculus::Platform::Oculus__Platform__Message__Callback callback) ;
 
 /// @brief Method .ctor addr 0x2553c78 size 0x28 virtual false final false
  void _ctor(Oculus::Platform::Oculus__Platform__Message__Callback callback) ;
@@ -283,8 +288,7 @@ constexpr Oculus::Platform::Oculus__Platform__Message_1__Callback<T> __get_callb
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callback", ty: "Oculus::Platform::Oculus__Platform__Message_1__Callback<T>", modifiers: "", def_value: None }]
-explicit Oculus__Platform__Callback__RequestCallback_1(Oculus::Platform::Oculus__Platform__Message_1__Callback<T> callback) ;
+static Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T> New_ctor(Oculus::Platform::Oculus__Platform__Message_1__Callback<T> callback) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Oculus::Platform::Oculus__Platform__Message_1__Callback<T> callback) ;

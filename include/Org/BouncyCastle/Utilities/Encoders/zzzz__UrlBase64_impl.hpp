@@ -181,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, data, outStr);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Encoders::UrlBase64::UrlBase64()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UrlBase64>())) {}
+ Org::BouncyCastle::Utilities::Encoders::UrlBase64 Org::BouncyCastle::Utilities::Encoders::UrlBase64::New_ctor()  {
+Org::BouncyCastle::Utilities::Encoders::UrlBase64 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Encoders::UrlBase64>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Encoders::UrlBase64::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Encoders::UrlBase64>::get(),

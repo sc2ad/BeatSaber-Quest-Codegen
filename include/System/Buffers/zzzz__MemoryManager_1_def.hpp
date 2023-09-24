@@ -24,17 +24,17 @@ template<::cordl_internals::il2cpp_reference_type T>
 class MemoryManager_1<T>;
 }
 namespace System::Buffers {
-template<>
-class MemoryManager_1<uint8_t>;
+template<::cordl_internals::is_or_is_backed_by<uint8_t> T>
+class MemoryManager_1<T>;
 }
 // Type: System.Buffers::MemoryManager`1
 // Type: System.Buffers::MemoryManager`1
 namespace System::Buffers {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T>
+template<::cordl_internals::is_or_is_backed_by<uint8_t> T>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3870))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3870), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3870), inst: 717 })
 // CS Name: System.Buffers.MemoryManager`1
 class CORDL_TYPE MemoryManager_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
@@ -88,12 +88,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: System.Buffers::MemoryManager`1
 namespace System::Buffers {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3870))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3870), inst: 717 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3870), inst: 2 })
 // CS Name: System.Buffers.MemoryManager`1
-class CORDL_TYPE MemoryManager_1<uint8_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE MemoryManager_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -130,13 +130,13 @@ constexpr explicit MemoryManager_1(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method GetSpan addr 0x0 size 0xffffffffffffffff virtual true final false
- System::Span_1<uint8_t> GetSpan() ;
+ System::Span_1<T> GetSpan() ;
 
 /// @brief Method Pin addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Buffers::MemoryHandle Pin(int32_t elementIndex) ;
 
 /// @brief Method TryGetArray addr 0x0 size 0xffffffffffffffff virtual true final false
- bool TryGetArray(ByRef<System::ArraySegment_1<uint8_t>> segment) ;
+ bool TryGetArray(ByRef<System::ArraySegment_1<T>> segment) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

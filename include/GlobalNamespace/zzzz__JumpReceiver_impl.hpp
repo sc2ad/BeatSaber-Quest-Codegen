@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 //  Writing Method size for method: GlobalNamespace::JumpReceiver.get_jumpToDestinationValid
 template<>
 
@@ -109,8 +109,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, origin, notification, context);
 }
-// Ctor Parameters []
- GlobalNamespace::JumpReceiver::JumpReceiver()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<JumpReceiver>())) {}
+ GlobalNamespace::JumpReceiver GlobalNamespace::JumpReceiver::New_ctor()  {
+GlobalNamespace::JumpReceiver o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::JumpReceiver>())};
+return o;
+}
  void GlobalNamespace::JumpReceiver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::JumpReceiver>::get(),

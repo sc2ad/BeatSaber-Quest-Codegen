@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsServer_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__PskTlsServer_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsEncryptionCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPskIdentityManager_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsEncryptionCredentials_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::PskTlsServer._ctor
 template<>
 
@@ -149,8 +149,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::PskTlsServer::__set_mPskIdentityM
 constexpr Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager Org::BouncyCastle::Crypto::Tls::PskTlsServer::__get_mPskIdentityManager() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pskIdentityManager", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::PskTlsServer::PskTlsServer(Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsServer(THROW_UNLESS(::il2cpp_utils::New<PskTlsServer>(pskIdentityManager))) {}
+ Org::BouncyCastle::Crypto::Tls::PskTlsServer Org::BouncyCastle::Crypto::Tls::PskTlsServer::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager)  {
+Org::BouncyCastle::Crypto::Tls::PskTlsServer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::PskTlsServer>(pskIdentityManager))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::PskTlsServer::_ctor(Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::PskTlsServer>::get(),
@@ -160,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pskIdentityManager);
 }
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "pskIdentityManager", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::PskTlsServer::PskTlsServer(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsServer(THROW_UNLESS(::il2cpp_utils::New<PskTlsServer>(cipherFactory, pskIdentityManager))) {}
+ Org::BouncyCastle::Crypto::Tls::PskTlsServer Org::BouncyCastle::Crypto::Tls::PskTlsServer::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager)  {
+Org::BouncyCastle::Crypto::Tls::PskTlsServer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::PskTlsServer>(cipherFactory, pskIdentityManager))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::PskTlsServer::_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::PskTlsServer>::get(),

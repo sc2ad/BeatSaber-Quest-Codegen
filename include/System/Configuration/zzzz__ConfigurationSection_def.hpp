@@ -3,13 +3,13 @@
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Configuration {
-class ConfigurationElement;
-}
-namespace System::Configuration {
 struct ConfigurationSaveMode;
 }
 namespace System::Xml {
 class XmlReader;
+}
+namespace System::Configuration {
+class ConfigurationElement;
 }
 // Forward declare root types
 namespace System::Configuration {

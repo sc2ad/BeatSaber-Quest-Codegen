@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__OperatingSystem_def.hpp"
+#include "System/zzzz__PlatformID_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Version_def.hpp"
-#include "System/zzzz__PlatformID_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::OperatingSystem._ctor
 template<>
 
@@ -157,8 +157,10 @@ constexpr void System::OperatingSystem::__set__versionString(::StringW value)  {
 constexpr ::StringW System::OperatingSystem::__get__versionString() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "platform", ty: "System::PlatformID", modifiers: "", def_value: None }, CppParam { name: "version", ty: "System::Version", modifiers: "", def_value: None }]
- System::OperatingSystem::OperatingSystem(System::PlatformID platform, System::Version version)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OperatingSystem>(platform, version))) {}
+ System::OperatingSystem System::OperatingSystem::New_ctor(System::PlatformID platform, System::Version version)  {
+System::OperatingSystem o{THROW_UNLESS(::il2cpp_utils::New<System::OperatingSystem>(platform, version))};
+return o;
+}
  void System::OperatingSystem::_ctor(System::PlatformID platform, System::Version version)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OperatingSystem>::get(),
@@ -168,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, platform, version);
 }
-// Ctor Parameters [CppParam { name: "platform", ty: "System::PlatformID", modifiers: "", def_value: None }, CppParam { name: "version", ty: "System::Version", modifiers: "", def_value: None }, CppParam { name: "servicePack", ty: "::StringW", modifiers: "", def_value: None }]
- System::OperatingSystem::OperatingSystem(System::PlatformID platform, System::Version version, ::StringW servicePack)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OperatingSystem>(platform, version, servicePack))) {}
+ System::OperatingSystem System::OperatingSystem::New_ctor(System::PlatformID platform, System::Version version, ::StringW servicePack)  {
+System::OperatingSystem o{THROW_UNLESS(::il2cpp_utils::New<System::OperatingSystem>(platform, version, servicePack))};
+return o;
+}
  void System::OperatingSystem::_ctor(System::PlatformID platform, System::Version version, ::StringW servicePack)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OperatingSystem>::get(),

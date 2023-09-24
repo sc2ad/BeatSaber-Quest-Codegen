@@ -7,78 +7,90 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::InputSystem::UI {
-class InputSystemUIInputModule;
-}
 namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
 }
-namespace UnityEngine::InputSystem::Users {
-struct InputUserChange;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::InputSystem {
 class InputActionAsset;
 }
 namespace System {
-template<typename T1,typename T2,typename TResult>
-class Func_3;
-}
-namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace UnityEngine::InputSystem {
+class InputValue;
 }
-namespace UnityEngine {
-class GameObject;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__PlayerInput__ActionEvent;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+struct PlayerNotifications;
 }
 namespace UnityEngine {
 class Camera;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TDelegate>
 struct CallbackArray_1;
 }
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem::Users {
-struct InputUser;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace System {
-template<typename T>
-class Action_1;
+namespace UnityEngine::InputSystem::UI {
+class InputSystemUIInputModule;
 }
 namespace UnityEngine::InputSystem {
 class InputActionMap;
 }
 namespace UnityEngine::InputSystem {
-struct PlayerNotifications;
+class UnityEngine__InputSystem__PlayerInput__DeviceLostEvent;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System {
+template<typename T1,typename T2,typename TResult>
+class Func_3;
 }
 namespace UnityEngine::InputSystem {
-class InputValue;
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::InputSystem::Users {
+struct InputUser;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
+namespace UnityEngine::InputSystem::Users {
+struct InputUserChange;
+}
 namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputAction__CallbackContext;
+class UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
@@ -105,7 +117,7 @@ class UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent;
 // Type: ::ActionEvent
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 408 }), TypeDefinitionIndex(TypeDefinitionIndex(10401)), TypeDefinitionIndex(TypeDefinitionIndex(6216))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 408 }), TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6394))
 // CS Name: UnityEngine.InputSystem.PlayerInput::ActionEvent
 class CORDL_TYPE UnityEngine__InputSystem__PlayerInput__ActionEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> {
@@ -172,20 +184,17 @@ constexpr ::StringW __get_m_ActionName() const;
 /// @brief Method get_actionName addr 0x2930420 size 0x8 virtual false final false
  ::StringW get_actionName() ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__PlayerInput__ActionEvent() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2930428 size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__PlayerInput__ActionEvent(UnityEngine::InputSystem::InputAction action) ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent New_ctor(UnityEngine::InputSystem::InputAction action) ;
 
 /// @brief Method .ctor addr 0x2930470 size 0x1dc virtual false final false
  void _ctor(UnityEngine::InputSystem::InputAction action) ;
 
-// Ctor Parameters [CppParam { name: "actionGUID", ty: "System::Guid", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__PlayerInput__ActionEvent(System::Guid actionGUID, ::StringW name) ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ActionEvent New_ctor(System::Guid actionGUID, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x293064c size 0x74 virtual false final false
  void _ctor(System::Guid actionGUID, ::StringW name) ;
@@ -772,8 +781,7 @@ static bool OnPreFilterUnpairedDeviceUsed(UnityEngine::InputSystem::InputDevice 
 /// @brief Method SwitchControlSchemeInternal addr 0x292bcb4 size 0x3f4 virtual false final false
  void SwitchControlSchemeInternal(ByRef<UnityEngine::InputSystem::InputControlScheme> controlScheme, ::ArrayW<UnityEngine::InputSystem::InputDevice> devices) ;
 
-// Ctor Parameters []
-explicit PlayerInput() ;
+static UnityEngine::InputSystem::PlayerInput New_ctor() ;
 
 /// @brief Method .ctor addr 0x29303b8 size 0x14 virtual false final false
  void _ctor() ;
@@ -785,7 +793,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::DeviceLostEvent
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(6398))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6395))
 // CS Name: UnityEngine.InputSystem.PlayerInput::DeviceLostEvent
 class CORDL_TYPE UnityEngine__InputSystem__PlayerInput__DeviceLostEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput> {
@@ -824,8 +832,7 @@ constexpr explicit UnityEngine__InputSystem__PlayerInput__DeviceLostEvent(void* 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__PlayerInput__DeviceLostEvent() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceLostEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x292adc0 size 0x48 virtual false final false
  void _ctor() ;
@@ -837,7 +844,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::DeviceRegainedEvent
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(6398))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6396))
 // CS Name: UnityEngine.InputSystem.PlayerInput::DeviceRegainedEvent
 class CORDL_TYPE UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput> {
@@ -876,8 +883,7 @@ constexpr explicit UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent(vo
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__DeviceRegainedEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x292ae70 size 0x48 virtual false final false
  void _ctor() ;
@@ -889,7 +895,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::ControlsChangedEvent
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6397))
 // CS Name: UnityEngine.InputSystem.PlayerInput::ControlsChangedEvent
 class CORDL_TYPE UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput> {
@@ -928,8 +934,7 @@ constexpr explicit UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent(v
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInput__ControlsChangedEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x292af20 size 0x48 virtual false final false
  void _ctor() ;

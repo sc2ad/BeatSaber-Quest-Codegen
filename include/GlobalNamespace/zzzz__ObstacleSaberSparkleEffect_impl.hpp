@@ -1,11 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSaberSparkleEffect_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ObstacleSaberSparkleEffect.set_color
 template<>
 
@@ -177,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ObstacleSaberSparkleEffect::ObstacleSaberSparkleEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ObstacleSaberSparkleEffect>())) {}
+ GlobalNamespace::ObstacleSaberSparkleEffect GlobalNamespace::ObstacleSaberSparkleEffect::New_ctor()  {
+GlobalNamespace::ObstacleSaberSparkleEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObstacleSaberSparkleEffect>())};
+return o;
+}
  void GlobalNamespace::ObstacleSaberSparkleEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObstacleSaberSparkleEffect>::get(),

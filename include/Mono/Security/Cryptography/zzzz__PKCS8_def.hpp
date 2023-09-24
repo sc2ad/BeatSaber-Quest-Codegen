@@ -5,19 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
-}
-namespace System::Security::Cryptography {
-class RSA;
-}
-namespace System::Security::Cryptography {
 struct DSAParameters;
 }
 namespace System::Security::Cryptography {
 class DSA;
 }
+namespace System::Security::Cryptography {
+class RSA;
+}
+namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
+}
 namespace System::Collections {
 class ArrayList;
+}
+namespace Mono::Security::Cryptography {
+class Mono__Security__Cryptography__PKCS8__PrivateKeyInfo;
+}
+namespace Mono::Security::Cryptography {
+class Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {
@@ -105,14 +111,12 @@ constexpr System::Collections::ArrayList __get__list() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Security__Cryptography__PKCS8__PrivateKeyInfo() ;
+static Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2299724 size 0x70 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Mono__Security__Cryptography__PKCS8__PrivateKeyInfo(::ArrayW<uint8_t> data) ;
+static Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__PrivateKeyInfo New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x2299794 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
@@ -231,14 +235,12 @@ constexpr ::ArrayW<uint8_t> __get__data() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo() ;
+static Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x229a448 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo(::ArrayW<uint8_t> data) ;
+static Mono::Security::Cryptography::Mono__Security__Cryptography__PKCS8__EncryptedPrivateKeyInfo New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x229a450 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;

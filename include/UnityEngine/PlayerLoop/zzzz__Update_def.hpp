@@ -1,6 +1,18 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Update__ScriptRunBehaviourUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Update__DirectorUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Update__ScriptRunDelayedTasks;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Update__ScriptRunDelayedDynamicFrameRate;
+}
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct UnityEngine__PlayerLoop__Update__DirectorUpdate;

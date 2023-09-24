@@ -1,13 +1,13 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
 class IServerSongPackProvider;
-}
-namespace System::Threading::Tasks {
-class Task;
 }
 // Forward declare root types
 namespace GlobalNamespace {

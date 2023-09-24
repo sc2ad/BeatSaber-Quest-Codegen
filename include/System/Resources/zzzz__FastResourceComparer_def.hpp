@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IComparer_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEqualityComparer_1;
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace System::Collections {
 class IComparer;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -115,8 +115,7 @@ static int32_t CompareOrdinal(::ArrayW<uint8_t> bytes, int32_t aCharLength, ::St
 /// @brief Method CompareOrdinal addr 0x23731ec size 0x94 virtual false final false
 static int32_t CompareOrdinal(void* a, int32_t byteLen, ::StringW b) ;
 
-// Ctor Parameters []
-explicit FastResourceComparer() ;
+static System::Resources::FastResourceComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2373280 size 0x8 virtual false final false
  void _ctor() ;

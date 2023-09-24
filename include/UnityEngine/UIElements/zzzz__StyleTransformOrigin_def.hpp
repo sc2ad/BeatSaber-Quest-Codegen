@@ -5,18 +5,18 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
+struct TransformOrigin;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

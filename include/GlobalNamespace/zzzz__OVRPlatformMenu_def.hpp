@@ -4,16 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class Stack_1;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlatformMenu__eBackButtonAction;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlatformMenu__eHandler;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__RawButton;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRInput__RawButton;
+namespace System::Collections::Generic {
+template<typename T>
+class Stack_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,6 +80,8 @@ __RetreatOneLevel = 1,
 constexpr operator __GlobalNamespace__OVRPlatformMenu__eHandler_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlatformMenu__eHandler_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -143,6 +151,8 @@ __SHORT_PRESS = 1,
 constexpr operator __GlobalNamespace__OVRPlatformMenu__eBackButtonAction_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlatformMenu__eBackButtonAction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -251,8 +261,7 @@ static bool RetreatOneLevel() ;
 /// @brief Method Update addr 0x25dd0b8 size 0x40 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRPlatformMenu() ;
+static GlobalNamespace::OVRPlatformMenu New_ctor() ;
 
 /// @brief Method .ctor addr 0x25dd0f8 size 0x10 virtual false final false
  void _ctor() ;

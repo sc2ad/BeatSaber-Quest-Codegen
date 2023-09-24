@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__KCcmBlockCipher_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher.setNb
 template<>
 
@@ -504,8 +504,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, Nb);
 }
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher::KCcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher engine)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KCcmBlockCipher>(engine))) {}
+ Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine)  {
+Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher>(engine))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher>::get(),
@@ -515,8 +517,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, engine);
 }
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "Nb", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher::KCcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t Nb)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KCcmBlockCipher>(engine, Nb))) {}
+ Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t Nb)  {
+Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher>(engine, Nb))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t Nb)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher>::get(),

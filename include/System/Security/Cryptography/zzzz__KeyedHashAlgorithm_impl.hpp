@@ -75,8 +75,10 @@ constexpr void System::Security::Cryptography::KeyedHashAlgorithm::__set_KeyValu
 constexpr ::ArrayW<uint8_t> System::Security::Cryptography::KeyedHashAlgorithm::__get_KeyValue() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::KeyedHashAlgorithm::KeyedHashAlgorithm()  : System::Security::Cryptography::HashAlgorithm(THROW_UNLESS(::il2cpp_utils::New<KeyedHashAlgorithm>())) {}
+ System::Security::Cryptography::KeyedHashAlgorithm System::Security::Cryptography::KeyedHashAlgorithm::New_ctor()  {
+System::Security::Cryptography::KeyedHashAlgorithm o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::KeyedHashAlgorithm>())};
+return o;
+}
  void System::Security::Cryptography::KeyedHashAlgorithm::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::KeyedHashAlgorithm>::get(),

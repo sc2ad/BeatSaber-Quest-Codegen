@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolResourceContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionSO_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentsListSO_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RecordingToolResourceContainerSO.get_beatmapLevelPacks
 template<>
 
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::RecordingToolResourceContainerSO::RecordingToolResourceContainerSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<RecordingToolResourceContainerSO>())) {}
+ GlobalNamespace::RecordingToolResourceContainerSO GlobalNamespace::RecordingToolResourceContainerSO::New_ctor()  {
+GlobalNamespace::RecordingToolResourceContainerSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingToolResourceContainerSO>())};
+return o;
+}
  void GlobalNamespace::RecordingToolResourceContainerSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingToolResourceContainerSO>::get(),

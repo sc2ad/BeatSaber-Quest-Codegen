@@ -115,8 +115,7 @@ constexpr ::ArrayW<uint8_t> __get_workingKey() const;
 /// @brief Method SetKey addr 0xe4e614 size 0x1a8 virtual false final false
  void SetKey(::ArrayW<uint8_t> keyBytes) ;
 
-// Ctor Parameters []
-explicit RC4Engine() ;
+static Org::BouncyCastle::Crypto::Engines::RC4Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe4eaf8 size 0x8 virtual false final false
  void _ctor() ;

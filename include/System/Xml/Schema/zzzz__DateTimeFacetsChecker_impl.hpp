@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__FacetsChecker_impl.hpp"
 #include "System/Xml/Schema/zzzz__DateTimeFacetsChecker_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::DateTimeFacetsChecker.CheckValueFacets
 template<>
 
@@ -126,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, value, enumeration, datatype);
 }
-// Ctor Parameters []
- System::Xml::Schema::DateTimeFacetsChecker::DateTimeFacetsChecker()  : System::Xml::Schema::FacetsChecker(THROW_UNLESS(::il2cpp_utils::New<DateTimeFacetsChecker>())) {}
+ System::Xml::Schema::DateTimeFacetsChecker System::Xml::Schema::DateTimeFacetsChecker::New_ctor()  {
+System::Xml::Schema::DateTimeFacetsChecker o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::DateTimeFacetsChecker>())};
+return o;
+}
  void System::Xml::Schema::DateTimeFacetsChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::DateTimeFacetsChecker>::get(),

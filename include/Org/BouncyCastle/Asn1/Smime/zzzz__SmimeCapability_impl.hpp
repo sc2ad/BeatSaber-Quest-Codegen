@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Smime/zzzz__SmimeCapability_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Smime::SmimeCapability._ctor
 template<>
 
@@ -155,8 +155,10 @@ constexpr void Org::BouncyCastle::Asn1::Smime::SmimeCapability::__set_parameters
 constexpr Org::BouncyCastle::Asn1::Asn1Object Org::BouncyCastle::Asn1::Smime::SmimeCapability::__get_parameters() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Object, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Smime::SmimeCapability::SmimeCapability(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SmimeCapability>(seq))) {}
+ Org::BouncyCastle::Asn1::Smime::SmimeCapability Org::BouncyCastle::Asn1::Smime::SmimeCapability::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Smime::SmimeCapability o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Smime::SmimeCapability>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Smime::SmimeCapability::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Smime::SmimeCapability>::get(),
@@ -166,8 +168,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "capabilityID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Smime::SmimeCapability::SmimeCapability(Org::BouncyCastle::Asn1::DerObjectIdentifier capabilityID, Org::BouncyCastle::Asn1::Asn1Encodable parameters)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SmimeCapability>(capabilityID, parameters))) {}
+ Org::BouncyCastle::Asn1::Smime::SmimeCapability Org::BouncyCastle::Asn1::Smime::SmimeCapability::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier capabilityID, Org::BouncyCastle::Asn1::Asn1Encodable parameters)  {
+Org::BouncyCastle::Asn1::Smime::SmimeCapability o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Smime::SmimeCapability>(capabilityID, parameters))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Smime::SmimeCapability::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier capabilityID, Org::BouncyCastle::Asn1::Asn1Encodable parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Smime::SmimeCapability>::get(),

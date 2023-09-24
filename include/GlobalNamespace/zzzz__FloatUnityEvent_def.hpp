@@ -9,7 +9,7 @@ class FloatUnityEvent;
 // Type: ::FloatUnityEvent
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13895))
 // CS Name: FloatUnityEvent
 class CORDL_TYPE FloatUnityEvent : public UnityEngine::Events::UnityEvent_1<float_t> {
@@ -48,8 +48,7 @@ constexpr explicit FloatUnityEvent(void* ptr) noexcept : UnityEngine::Events::Un
 
 // Methods
 
-// Ctor Parameters []
-explicit FloatUnityEvent() ;
+static GlobalNamespace::FloatUnityEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83c20 size 0x48 virtual false final false
  void _ctor() ;

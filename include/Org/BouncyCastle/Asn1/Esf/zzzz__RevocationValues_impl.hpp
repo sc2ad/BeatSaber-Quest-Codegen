@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__RevocationValues_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__CertificateList_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__BasicOcspResponse_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherRevVals_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__BasicOcspResponse_def.hpp"
+#include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherRevVals_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__CertificateList_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Esf::RevocationValues.GetInstance
 template<>
 
@@ -170,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Esf::RevocationValues, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::RevocationValues::RevocationValues(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RevocationValues>(seq))) {}
+ Org::BouncyCastle::Asn1::Esf::RevocationValues Org::BouncyCastle::Asn1::Esf::RevocationValues::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Esf::RevocationValues o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::RevocationValues>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::RevocationValues>::get(),
@@ -181,8 +183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "crlVals", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::CertificateList>", modifiers: "", def_value: None }, CppParam { name: "ocspVals", ty: "::ArrayW<Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse>", modifiers: "", def_value: None }, CppParam { name: "otherRevVals", ty: "Org::BouncyCastle::Asn1::Esf::OtherRevVals", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::RevocationValues::RevocationValues(::ArrayW<Org::BouncyCastle::Asn1::X509::CertificateList> crlVals, ::ArrayW<Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse> ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RevocationValues>(crlVals, ocspVals, otherRevVals))) {}
+ Org::BouncyCastle::Asn1::Esf::RevocationValues Org::BouncyCastle::Asn1::Esf::RevocationValues::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::CertificateList> crlVals, ::ArrayW<Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse> ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals)  {
+Org::BouncyCastle::Asn1::Esf::RevocationValues o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::RevocationValues>(crlVals, ocspVals, otherRevVals))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::CertificateList> crlVals, ::ArrayW<Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse> ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::RevocationValues>::get(),
@@ -192,8 +196,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, crlVals, ocspVals, otherRevVals);
 }
-// Ctor Parameters [CppParam { name: "crlVals", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }, CppParam { name: "ocspVals", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }, CppParam { name: "otherRevVals", ty: "Org::BouncyCastle::Asn1::Esf::OtherRevVals", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::RevocationValues::RevocationValues(System::Collections::IEnumerable crlVals, System::Collections::IEnumerable ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RevocationValues>(crlVals, ocspVals, otherRevVals))) {}
+ Org::BouncyCastle::Asn1::Esf::RevocationValues Org::BouncyCastle::Asn1::Esf::RevocationValues::New_ctor(System::Collections::IEnumerable crlVals, System::Collections::IEnumerable ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals)  {
+Org::BouncyCastle::Asn1::Esf::RevocationValues o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::RevocationValues>(crlVals, ocspVals, otherRevVals))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor(System::Collections::IEnumerable crlVals, System::Collections::IEnumerable ocspVals, Org::BouncyCastle::Asn1::Esf::OtherRevVals otherRevVals)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::RevocationValues>::get(),

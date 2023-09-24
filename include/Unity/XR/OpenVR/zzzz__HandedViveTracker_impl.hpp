@@ -336,8 +336,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::OpenVR::HandedViveTracker::HandedViveTracker()  : Unity::XR::OpenVR::ViveTracker(THROW_UNLESS(::il2cpp_utils::New<HandedViveTracker>())) {}
+ Unity::XR::OpenVR::HandedViveTracker Unity::XR::OpenVR::HandedViveTracker::New_ctor()  {
+Unity::XR::OpenVR::HandedViveTracker o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::OpenVR::HandedViveTracker>())};
+return o;
+}
  void Unity::XR::OpenVR::HandedViveTracker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::OpenVR::HandedViveTracker>::get(),

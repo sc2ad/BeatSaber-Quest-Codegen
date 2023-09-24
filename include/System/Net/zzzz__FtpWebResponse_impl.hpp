@@ -2,12 +2,13 @@
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "System/Net/zzzz__WebResponse_impl.hpp"
 #include "System/Net/zzzz__FtpWebResponse_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/Net/zzzz__FtpWebResponse_def.hpp"
 #include "System/Net/zzzz__FtpStatusCode_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__FtpWebResponse__EmptyStream._ctor
 template<>
 
@@ -25,8 +26,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::System__Net__FtpWebResponse__EmptyStream::System__Net__FtpWebResponse__EmptyStream()  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<System__Net__FtpWebResponse__EmptyStream>())) {}
+ System::Net::System__Net__FtpWebResponse__EmptyStream System::Net::System__Net__FtpWebResponse__EmptyStream::New_ctor()  {
+System::Net::System__Net__FtpWebResponse__EmptyStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__FtpWebResponse__EmptyStream>())};
+return o;
+}
  void System::Net::System__Net__FtpWebResponse__EmptyStream::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__FtpWebResponse__EmptyStream>::get(),
@@ -236,8 +239,10 @@ constexpr void System::Net::FtpWebResponse::__set__exitMessage(::StringW value) 
 constexpr ::StringW System::Net::FtpWebResponse::__get__exitMessage() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "responseStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "contentLength", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "responseUri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "statusCode", ty: "System::Net::FtpStatusCode", modifiers: "", def_value: None }, CppParam { name: "statusLine", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lastModified", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "bannerMessage", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "welcomeMessage", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exitMessage", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::FtpWebResponse::FtpWebResponse(System::IO::Stream responseStream, int64_t contentLength, System::Uri responseUri, System::Net::FtpStatusCode statusCode, ::StringW statusLine, System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage)  : System::Net::WebResponse(THROW_UNLESS(::il2cpp_utils::New<FtpWebResponse>(responseStream, contentLength, responseUri, statusCode, statusLine, lastModified, bannerMessage, welcomeMessage, exitMessage))) {}
+ System::Net::FtpWebResponse System::Net::FtpWebResponse::New_ctor(System::IO::Stream responseStream, int64_t contentLength, System::Uri responseUri, System::Net::FtpStatusCode statusCode, ::StringW statusLine, System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage)  {
+System::Net::FtpWebResponse o{THROW_UNLESS(::il2cpp_utils::New<System::Net::FtpWebResponse>(responseStream, contentLength, responseUri, statusCode, statusLine, lastModified, bannerMessage, welcomeMessage, exitMessage))};
+return o;
+}
  void System::Net::FtpWebResponse::_ctor(System::IO::Stream responseStream, int64_t contentLength, System::Uri responseUri, System::Net::FtpStatusCode statusCode, ::StringW statusLine, System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FtpWebResponse>::get(),

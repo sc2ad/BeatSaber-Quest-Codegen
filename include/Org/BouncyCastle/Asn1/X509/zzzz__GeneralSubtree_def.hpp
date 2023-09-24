@@ -3,22 +3,22 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -96,20 +96,17 @@ constexpr Org::BouncyCastle::Asn1::DerInteger __get_maximum() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit GeneralSubtree(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::GeneralSubtree New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x11054c4 size 0x28c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "baseName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }, CppParam { name: "minimum", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "maximum", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit GeneralSubtree(Org::BouncyCastle::Asn1::X509::GeneralName baseName, Org::BouncyCastle::Math::BigInteger minimum, Org::BouncyCastle::Math::BigInteger maximum) ;
+static Org::BouncyCastle::Asn1::X509::GeneralSubtree New_ctor(Org::BouncyCastle::Asn1::X509::GeneralName baseName, Org::BouncyCastle::Math::BigInteger minimum, Org::BouncyCastle::Math::BigInteger maximum) ;
 
 /// @brief Method .ctor addr 0x1105750 size 0xb0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralName baseName, Org::BouncyCastle::Math::BigInteger minimum, Org::BouncyCastle::Math::BigInteger maximum) ;
 
-// Ctor Parameters [CppParam { name: "baseName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit GeneralSubtree(Org::BouncyCastle::Asn1::X509::GeneralName baseName) ;
+static Org::BouncyCastle::Asn1::X509::GeneralSubtree New_ctor(Org::BouncyCastle::Asn1::X509::GeneralName baseName) ;
 
 /// @brief Method .ctor addr 0x1105800 size 0x4c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralName baseName) ;

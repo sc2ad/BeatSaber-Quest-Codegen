@@ -5,9 +5,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::XR::OpenXR::Features {
+class UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig;
+}
+namespace UnityEngine::XR::OpenXR::Features {
+class UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding;
+}
+namespace UnityEngine::XR::OpenXR::Features {
+struct UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionType;
+}
+namespace UnityEngine::XR::OpenXR::Features {
+class UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig;
+}
+namespace UnityEngine::XR::OpenXR::Features {
+class UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::XR::OpenXR::Features {
+class UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__UserPaths;
 }
 namespace UnityEngine::XR {
 struct InputDeviceCharacteristics;
@@ -87,6 +105,8 @@ __Count = 5,
 constexpr operator __UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -182,8 +202,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get_userPaths() cons
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding() ;
+static UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding New_ctor() ;
 
 /// @brief Method .ctor addr 0x2af0b04 size 0x8 virtual false final false
  void _ctor() ;
@@ -267,8 +286,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get_usages() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig() ;
+static UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionConfig New_ctor() ;
 
 /// @brief Method .ctor addr 0x2af0b0c size 0x8 virtual false final false
  void _ctor() ;
@@ -334,8 +352,7 @@ constexpr ::StringW __get_userPath() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig() ;
+static UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__DeviceConfig New_ctor() ;
 
 /// @brief Method .ctor addr 0x2af0b14 size 0x8 virtual false final false
  void _ctor() ;
@@ -431,8 +448,7 @@ constexpr ::StringW __get_serialNumber() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig() ;
+static UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionMapConfig New_ctor() ;
 
 /// @brief Method .ctor addr 0x2af0b1c size 0x8 virtual false final false
  void _ctor() ;
@@ -589,8 +605,7 @@ static System::Collections::Generic::List_1<UnityEngine::XR::OpenXR::Features::U
 /// @brief Method RegisterLayouts addr 0x2aed924 size 0x100 virtual false final false
 static void RegisterLayouts() ;
 
-// Ctor Parameters []
-explicit OpenXRInteractionFeature() ;
+static UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature New_ctor() ;
 
 /// @brief Method .ctor addr 0x2af0afc size 0x8 virtual false final false
  void _ctor() ;

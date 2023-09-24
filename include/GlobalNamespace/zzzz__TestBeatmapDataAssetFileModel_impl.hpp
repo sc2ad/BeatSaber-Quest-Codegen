@@ -1,17 +1,18 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__TestBeatmapDataAssetFileModel_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
+#include "GlobalNamespace/zzzz__TestBeatmapDataAssetFileModel_def.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
+#include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__TestBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__4.MoveNext
 template<>
 
@@ -343,8 +344,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<bool>, false>(const_cast<void*>(instance), ___internal_method, previewBeatmapLevel, cancellationToken);
 }
-// Ctor Parameters []
- GlobalNamespace::TestBeatmapDataAssetFileModel::TestBeatmapDataAssetFileModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TestBeatmapDataAssetFileModel>())) {}
+ GlobalNamespace::TestBeatmapDataAssetFileModel GlobalNamespace::TestBeatmapDataAssetFileModel::New_ctor()  {
+GlobalNamespace::TestBeatmapDataAssetFileModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TestBeatmapDataAssetFileModel>())};
+return o;
+}
  void GlobalNamespace::TestBeatmapDataAssetFileModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TestBeatmapDataAssetFileModel>::get(),

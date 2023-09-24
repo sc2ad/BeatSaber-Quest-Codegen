@@ -3,11 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1InputStream;
 }
 namespace Org::BouncyCastle::X509 {
 class PemParser;
@@ -15,14 +18,11 @@ class PemParser;
 namespace Org::BouncyCastle::Asn1::X509 {
 class CertificateList;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1InputStream;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Crl;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -103,14 +103,12 @@ constexpr System::IO::Stream __get_currentCrlStream() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509CrlParser() ;
+static Org::BouncyCastle::X509::X509CrlParser New_ctor() ;
 
 /// @brief Method .ctor addr 0x10f4338 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "lazyAsn1", ty: "bool", modifiers: "", def_value: None }]
-explicit X509CrlParser(bool lazyAsn1) ;
+static Org::BouncyCastle::X509::X509CrlParser New_ctor(bool lazyAsn1) ;
 
 /// @brief Method .ctor addr 0x10f4354 size 0x28 virtual false final false
  void _ctor(bool lazyAsn1) ;

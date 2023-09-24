@@ -9,6 +9,9 @@ template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UxmlFloatAttributeDescription____c;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
@@ -78,8 +81,7 @@ static System::Func_3<::StringW,float_t,float_t> __get___9__3_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UxmlFloatAttributeDescription____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlFloatAttributeDescription____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c981b0 size 0x8 virtual false final false
  void _ctor() ;
@@ -135,8 +137,7 @@ constexpr explicit UxmlFloatAttributeDescription(void* ptr) noexcept : UnityEngi
 
 // Methods
 
-// Ctor Parameters []
-explicit UxmlFloatAttributeDescription() ;
+static UnityEngine::UIElements::UxmlFloatAttributeDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c97eb0 size 0x9c virtual false final false
  void _ctor() ;

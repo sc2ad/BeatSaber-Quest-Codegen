@@ -2,15 +2,16 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRScenePlaneMeshFilter_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "GlobalNamespace/zzzz__OVRScenePlaneMeshFilter_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
-#include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "Unity/Collections/zzzz__Allocator_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList.get_Count
 template<>
 
@@ -494,8 +495,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRScenePlaneMeshFilter::OVRScenePlaneMeshFilter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRScenePlaneMeshFilter>())) {}
+ GlobalNamespace::OVRScenePlaneMeshFilter GlobalNamespace::OVRScenePlaneMeshFilter::New_ctor()  {
+GlobalNamespace::OVRScenePlaneMeshFilter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRScenePlaneMeshFilter>())};
+return o;
+}
  void GlobalNamespace::OVRScenePlaneMeshFilter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRScenePlaneMeshFilter>::get(),

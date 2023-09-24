@@ -6,6 +6,23 @@
 namespace UnityEngine::UI {
 struct CanvasUpdate;
 }
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__LayoutRebuilder____c;
+}
+namespace UnityEngine::Pool {
+template<typename T>
+class ObjectPool_1;
+}
+namespace UnityEngine {
+class Component;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace UnityEngine::Events {
 template<typename T0>
 class UnityAction_1;
@@ -15,20 +32,6 @@ class RectTransform;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine::Pool {
-template<typename T>
-class ObjectPool_1;
 }
 namespace System {
 template<typename T>
@@ -122,8 +125,7 @@ static UnityEngine::Events::UnityAction_1<UnityEngine::Component> __get___9__12_
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__LayoutRebuilder____c() ;
+static UnityEngine::UI::UnityEngine__UI__LayoutRebuilder____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c00058 size 0x8 virtual false final false
  void _ctor() ;
@@ -280,8 +282,7 @@ static void MarkLayoutRootForRebuild(UnityEngine::RectTransform controller) ;
 /// @brief Method ToString addr 0x2bfff80 size 0x6c virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit LayoutRebuilder() ;
+static UnityEngine::UI::LayoutRebuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bfffec size 0x8 virtual false final false
  void _ctor() ;

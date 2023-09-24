@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
 }
 namespace System {
 template<typename T>

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::StaticBatchedMeshContainer::StaticBatchedMeshContainer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StaticBatchedMeshContainer>())) {}
+ GlobalNamespace::StaticBatchedMeshContainer GlobalNamespace::StaticBatchedMeshContainer::New_ctor()  {
+GlobalNamespace::StaticBatchedMeshContainer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StaticBatchedMeshContainer>())};
+return o;
+}
  void GlobalNamespace::StaticBatchedMeshContainer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StaticBatchedMeshContainer>::get(),

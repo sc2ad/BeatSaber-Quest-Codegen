@@ -2,9 +2,9 @@
 #include "RootMotion/FinalIK/zzzz__Grounder_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__GrounderBipedIK_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverLimb_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__BipedIK_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverLimb_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::GrounderBipedIK.OpenUserManual
 template<>
@@ -363,8 +363,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::GrounderBipedIK::GrounderBipedIK()  : RootMotion::FinalIK::Grounder(THROW_UNLESS(::il2cpp_utils::New<GrounderBipedIK>())) {}
+ RootMotion::FinalIK::GrounderBipedIK RootMotion::FinalIK::GrounderBipedIK::New_ctor()  {
+RootMotion::FinalIK::GrounderBipedIK o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::GrounderBipedIK>())};
+return o;
+}
  void RootMotion::FinalIK::GrounderBipedIK::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::GrounderBipedIK>::get(),

@@ -3,24 +3,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class StyleSheet;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class StyleVariableContext;
 }
 namespace UnityEngine::UIElements {
-class StyleVariableContext;
+class VisualElement;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct MatchResultInfo;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -103,8 +103,7 @@ constexpr System::Action_2<UnityEngine::UIElements::VisualElement,UnityEngine::U
 /// @brief Method get_styleSheetCount addr 0x2c4905c size 0x48 virtual false final false
  int32_t get_styleSheetCount() ;
 
-// Ctor Parameters [CppParam { name: "processResult", ty: "System::Action_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::StyleSheets::MatchResultInfo>", modifiers: "", def_value: None }]
-explicit StyleMatchingContext(System::Action_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::StyleSheets::MatchResultInfo> processResult) ;
+static UnityEngine::UIElements::StyleMatchingContext New_ctor(System::Action_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::StyleSheets::MatchResultInfo> processResult) ;
 
 /// @brief Method .ctor addr 0x2c490a4 size 0xc4 virtual false final false
  void _ctor(System::Action_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::StyleSheets::MatchResultInfo> processResult) ;

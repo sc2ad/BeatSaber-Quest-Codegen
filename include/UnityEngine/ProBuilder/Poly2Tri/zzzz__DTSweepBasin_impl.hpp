@@ -48,8 +48,10 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__set_leftHighes
 constexpr bool UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::__get_leftHighest() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::DTSweepBasin()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DTSweepBasin>())) {}
+ UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::New_ctor()  {
+UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin>())};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__MacOsNetworkInterface_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__OperationalStatus_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__OperationalStatus_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::MacOsNetworkInterface._ctor
 template<>
 
@@ -60,8 +60,10 @@ constexpr void System::Net::NetworkInformation::MacOsNetworkInterface::__set__if
 constexpr uint32_t System::Net::NetworkInformation::MacOsNetworkInterface::__get__ifa_flags() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ifa_flags", ty: "uint32_t", modifiers: "", def_value: None }]
- System::Net::NetworkInformation::MacOsNetworkInterface::MacOsNetworkInterface(::StringW name, uint32_t ifa_flags)  : System::Net::NetworkInformation::UnixNetworkInterface(THROW_UNLESS(::il2cpp_utils::New<MacOsNetworkInterface>(name, ifa_flags))) {}
+ System::Net::NetworkInformation::MacOsNetworkInterface System::Net::NetworkInformation::MacOsNetworkInterface::New_ctor(::StringW name, uint32_t ifa_flags)  {
+System::Net::NetworkInformation::MacOsNetworkInterface o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::MacOsNetworkInterface>(name, ifa_flags))};
+return o;
+}
  void System::Net::NetworkInformation::MacOsNetworkInterface::_ctor(::StringW name, uint32_t ifa_flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::MacOsNetworkInterface>::get(),

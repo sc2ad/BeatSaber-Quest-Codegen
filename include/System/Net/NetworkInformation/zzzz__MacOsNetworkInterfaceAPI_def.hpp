@@ -61,14 +61,12 @@ constexpr int32_t __get_AF_INET6() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MacOsNetworkInterfaceAPI() ;
+static System::Net::NetworkInformation::MacOsNetworkInterfaceAPI New_ctor() ;
 
 /// @brief Method .ctor addr 0x285ce9c size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "AF_INET6", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MacOsNetworkInterfaceAPI(int32_t AF_INET6) ;
+static System::Net::NetworkInformation::MacOsNetworkInterfaceAPI New_ctor(int32_t AF_INET6) ;
 
 /// @brief Method .ctor addr 0x285b2cc size 0x28 virtual false final false
  void _ctor(int32_t AF_INET6) ;

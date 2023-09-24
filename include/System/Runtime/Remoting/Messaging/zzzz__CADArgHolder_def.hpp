@@ -57,8 +57,7 @@ constexpr int32_t __get_index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CADArgHolder(int32_t i) ;
+static System::Runtime::Remoting::Messaging::CADArgHolder New_ctor(int32_t i) ;
 
 /// @brief Method .ctor addr 0x233b97c size 0x28 virtual false final false
  void _ctor(int32_t i) ;

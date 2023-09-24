@@ -1,25 +1,26 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectReader_def.hpp"
-#include "System/Reflection/zzzz__AssemblyName_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerStack_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ParseRecord_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__IntSizedArray_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssemblyInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ObjectManager_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerObjectInfoInit_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__NameCache_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectReader_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__HeaderHandler_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IFormatterConverter_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalFE_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ReadObjectInfo_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ObjectManager_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalFE_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerObjectInfoInit_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssemblyInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ReadObjectInfo_def.hpp"
+#include "System/Reflection/zzzz__AssemblyName_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerStack_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ParseRecord_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IFormatterConverter_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__IntSizedArray_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly._ctor
 template<>
 
@@ -49,8 +50,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::System__Runti
 constexpr ::StringW System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly::__get_assemblyName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly>())) {}
+ System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TypeNAssembly>::get(),
@@ -100,8 +103,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::System__Runti
 constexpr System::Reflection::Assembly System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver::__get_m_topLevelAssembly() const {
 return ::cordl_internals::getInstanceField<System::Reflection::Assembly, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "topLevelAssembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver(System::Reflection::Assembly topLevelAssembly)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver>(topLevelAssembly))) {}
+ System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver::New_ctor(System::Reflection::Assembly topLevelAssembly)  {
+System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver>(topLevelAssembly))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver::_ctor(System::Reflection::Assembly topLevelAssembly)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::System__Runtime__Serialization__Formatters__Binary__ObjectReader__TopLevelAssemblyTypeResolver>::get(),
@@ -852,8 +857,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "selector", ty: "System::Runtime::Serialization::ISurrogateSelector", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }, CppParam { name: "formatterEnums", ty: "System::Runtime::Serialization::Formatters::Binary::InternalFE", modifiers: "", def_value: None }, CppParam { name: "binder", ty: "System::Runtime::Serialization::SerializationBinder", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::ObjectReader::ObjectReader(System::IO::Stream stream, System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE formatterEnums, System::Runtime::Serialization::SerializationBinder binder)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectReader>(stream, selector, context, formatterEnums, binder))) {}
+ System::Runtime::Serialization::Formatters::Binary::ObjectReader System::Runtime::Serialization::Formatters::Binary::ObjectReader::New_ctor(System::IO::Stream stream, System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE formatterEnums, System::Runtime::Serialization::SerializationBinder binder)  {
+System::Runtime::Serialization::Formatters::Binary::ObjectReader o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::ObjectReader>(stream, selector, context, formatterEnums, binder))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::ObjectReader::_ctor(System::IO::Stream stream, System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE formatterEnums, System::Runtime::Serialization::SerializationBinder binder)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::ObjectReader>::get(),

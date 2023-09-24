@@ -3,12 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -17,19 +11,16 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class GameSongController;
+class LevelCompletionResults;
 }
-namespace GlobalNamespace {
-class EnvironmentSpawnRotation;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class LevelFailedTextEffect;
+class GlobalNamespace__StandardLevelFailedController___LevelFailedCoroutine_d__13;
 }
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
@@ -38,7 +29,22 @@ namespace GlobalNamespace {
 class ILevelEndActions;
 }
 namespace GlobalNamespace {
+class EnvironmentSpawnRotation;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class GameSongController;
+}
+namespace GlobalNamespace {
 class BeatmapObjectSpawnController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__StandardLevelFailedController__InitData;
+}
+namespace GlobalNamespace {
+class LevelFailedTextEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +107,7 @@ constexpr bool __get_autoRestart() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__StandardLevelFailedController__InitData(bool autoRestart) ;
+static GlobalNamespace::GlobalNamespace__StandardLevelFailedController__InitData New_ctor(bool autoRestart) ;
 
 /// @brief Method .ctor addr 0x20d5558 size 0x28 virtual false final false
  void _ctor(bool autoRestart) ;
@@ -196,8 +201,7 @@ constexpr GlobalNamespace::LevelCompletionResults __get__levelCompletionResults_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__StandardLevelFailedController___LevelFailedCoroutine_d__13(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__StandardLevelFailedController___LevelFailedCoroutine_d__13 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20d5528 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -336,8 +340,7 @@ constexpr GlobalNamespace::BeatmapObjectManager __get__beatmapObjectManager() co
 /// @brief Method LevelFailedCoroutine addr 0x20d54c0 size 0x68 virtual false final false
  System::Collections::IEnumerator LevelFailedCoroutine() ;
 
-// Ctor Parameters []
-explicit StandardLevelFailedController() ;
+static GlobalNamespace::StandardLevelFailedController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d5550 size 0x8 virtual false final false
  void _ctor() ;

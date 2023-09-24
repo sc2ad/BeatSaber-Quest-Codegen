@@ -7,29 +7,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class Component;
+struct SendMessageOptions;
 }
 namespace UnityEngine {
-class Transform;
+struct PrimitiveType;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class Component;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 namespace System {
 class Array;
 }
 namespace UnityEngine {
-struct PrimitiveType;
+class Transform;
 }
 namespace System {
 class Type;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
-}
-namespace UnityEngine {
-struct SendMessageOptions;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -322,20 +322,17 @@ static ::ArrayW<UnityEngine::GameObject> FindGameObjectsWithTag(::StringW tag) ;
 /// @brief Method BroadcastMessage addr 0x2b57888 size 0x4c virtual false final false
  void BroadcastMessage(::StringW methodName) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GameObject(::StringW name) ;
+static UnityEngine::GameObject New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2b578d4 size 0x90 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters []
-explicit GameObject() ;
+static UnityEngine::GameObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b579b0 size 0x84 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "components", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }]
-explicit GameObject(::StringW name, ::ArrayW<System::Type> components) ;
+static UnityEngine::GameObject New_ctor(::StringW name, ::ArrayW<System::Type> components) ;
 
 /// @brief Method .ctor addr 0x2b57a34 size 0x110 virtual false final false
  void _ctor(::StringW name, ::ArrayW<System::Type> components) ;

@@ -1,19 +1,17 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioManager_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
+#include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
+#include "Tayx/Graphy/Audio/zzzz__G_AudioText_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioGraph_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "UnityEngine/UI/zzzz__Text_def.hpp"
-#include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Tayx/Graphy/Audio/zzzz__G_AudioText_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 //  Writing Method size for method: Tayx::Graphy::Audio::G_AudioManager.Awake
 template<>
 
@@ -340,8 +338,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, active);
 }
-// Ctor Parameters []
- Tayx::Graphy::Audio::G_AudioManager::G_AudioManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<G_AudioManager>())) {}
+ Tayx::Graphy::Audio::G_AudioManager Tayx::Graphy::Audio::G_AudioManager::New_ctor()  {
+Tayx::Graphy::Audio::G_AudioManager o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Audio::G_AudioManager>())};
+return o;
+}
  void Tayx::Graphy::Audio::G_AudioManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Audio::G_AudioManager>::get(),

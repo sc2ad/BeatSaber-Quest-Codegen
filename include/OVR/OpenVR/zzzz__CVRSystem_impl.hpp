@@ -2,35 +2,33 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRSystem_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRSystem_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdMatrix34_t_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdMatrix44_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVREye_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackedDeviceClass_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackedPropertyError_def.hpp"
+#include "OVR/OpenVR/zzzz__TrackedDevicePose_t_def.hpp"
+#include "OVR/OpenVR/zzzz__HiddenAreaMesh_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
+#include "OVR/OpenVR/zzzz__ETextureType_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackedControllerRole_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_t_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRSystem_def.hpp"
+#include "OVR/OpenVR/zzzz__EVREventType_def.hpp"
 #include "OVR/OpenVR/zzzz__EHiddenAreaMeshType_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRControllerAxisType_def.hpp"
-#include "OVR/OpenVR/zzzz__ETextureType_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRButtonId_def.hpp"
-#include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRFirmwareError_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRSystem_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackedPropertyError_def.hpp"
-#include "OVR/OpenVR/zzzz__EVREventType_def.hpp"
+#include "OVR/OpenVR/zzzz__EDeviceActivityLevel_def.hpp"
 #include "OVR/OpenVR/zzzz__ETrackedDeviceProperty_def.hpp"
 #include "OVR/OpenVR/zzzz__DistortionCoordinates_t_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackedControllerRole_def.hpp"
-#include "OVR/OpenVR/zzzz__EDeviceActivityLevel_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackedDeviceClass_def.hpp"
-#include "OVR/OpenVR/zzzz__HiddenAreaMesh_t_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
-#include "OVR/OpenVR/zzzz__TrackedDevicePose_t_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "OVR/OpenVR/zzzz__VRControllerState_t_Packed_def.hpp"
+#include "OVR/OpenVR/zzzz__EVREye_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdMatrix44_t_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "OVR/OpenVR/zzzz__VRControllerState_t_Packed_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_t_Packed_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRSystem_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRSystem_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRSystem_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__CVRSystem___PollNextEventPacked._ctor
 template<>
 
@@ -99,8 +97,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__CVRSystem___PollNextEventPacked::OVR__OpenVR__CVRSystem___PollNextEventPacked(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__CVRSystem___PollNextEventPacked>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__CVRSystem___PollNextEventPacked OVR::OpenVR::OVR__OpenVR__CVRSystem___PollNextEventPacked::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__CVRSystem___PollNextEventPacked o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__CVRSystem___PollNextEventPacked>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__CVRSystem___PollNextEventPacked::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__CVRSystem___PollNextEventPacked>::get(),
@@ -221,8 +221,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStatePacked::OVR__OpenVR__CVRSystem___GetControllerStatePacked(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__CVRSystem___GetControllerStatePacked>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStatePacked OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStatePacked::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStatePacked o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStatePacked>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStatePacked::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStatePacked>::get(),
@@ -343,8 +345,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked::OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked>::get(),
@@ -1219,8 +1223,10 @@ constexpr void OVR::OpenVR::CVRSystem::__set_FnTable(OVR::OpenVR::IVRSystem valu
 constexpr OVR::OpenVR::IVRSystem OVR::OpenVR::CVRSystem::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRSystem, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRSystem::CVRSystem(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRSystem>(pInterface))) {}
+ OVR::OpenVR::CVRSystem OVR::OpenVR::CVRSystem::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRSystem o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRSystem>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRSystem::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRSystem>::get(),

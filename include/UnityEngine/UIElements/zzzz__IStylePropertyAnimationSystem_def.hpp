@@ -2,49 +2,49 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine::UIElements {
+struct Translate;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace UnityEngine::UIElements {
-struct Length;
+struct TextShadow;
 }
-namespace UnityEngine::UIElements {
-struct Scale;
-}
-namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements {
-struct Rotate;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
 }
 namespace UnityEngine::UIElements {
 struct FontDefinition;
 }
 namespace UnityEngine::UIElements {
-struct TextShadow;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct Translate;
+struct Background;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
+}
+namespace UnityEngine::UIElements {
+struct Rotate;
+}
+namespace UnityEngine::UIElements {
+struct TransformOrigin;
+}
+namespace UnityEngine::UIElements {
+struct Length;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -324,8 +324,10 @@ constexpr void System::Collections::Specialized::NameValueCollection::__set__all
 constexpr ::ArrayW<::StringW> System::Collections::Specialized::NameValueCollection::__get__allKeys() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::StringW>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::Specialized::NameValueCollection::NameValueCollection()  : System::Collections::Specialized::NameObjectCollectionBase(THROW_UNLESS(::il2cpp_utils::New<NameValueCollection>())) {}
+ System::Collections::Specialized::NameValueCollection System::Collections::Specialized::NameValueCollection::New_ctor()  {
+System::Collections::Specialized::NameValueCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::NameValueCollection>())};
+return o;
+}
  void System::Collections::Specialized::NameValueCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::NameValueCollection>::get(),
@@ -335,8 +337,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Collections::Specialized::NameValueCollection::NameValueCollection(int32_t capacity)  : System::Collections::Specialized::NameObjectCollectionBase(THROW_UNLESS(::il2cpp_utils::New<NameValueCollection>(capacity))) {}
+ System::Collections::Specialized::NameValueCollection System::Collections::Specialized::NameValueCollection::New_ctor(int32_t capacity)  {
+System::Collections::Specialized::NameValueCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::NameValueCollection>(capacity))};
+return o;
+}
  void System::Collections::Specialized::NameValueCollection::_ctor(int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::NameValueCollection>::get(),
@@ -346,8 +350,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "equalityComparer", ty: "System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
- System::Collections::Specialized::NameValueCollection::NameValueCollection(int32_t capacity, System::Collections::IEqualityComparer equalityComparer)  : System::Collections::Specialized::NameObjectCollectionBase(THROW_UNLESS(::il2cpp_utils::New<NameValueCollection>(capacity, equalityComparer))) {}
+ System::Collections::Specialized::NameValueCollection System::Collections::Specialized::NameValueCollection::New_ctor(int32_t capacity, System::Collections::IEqualityComparer equalityComparer)  {
+System::Collections::Specialized::NameValueCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::NameValueCollection>(capacity, equalityComparer))};
+return o;
+}
  void System::Collections::Specialized::NameValueCollection::_ctor(int32_t capacity, System::Collections::IEqualityComparer equalityComparer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::NameValueCollection>::get(),
@@ -357,8 +363,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity, equalityComparer);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Collections::Specialized::NameValueCollection::NameValueCollection(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Collections::Specialized::NameObjectCollectionBase(THROW_UNLESS(::il2cpp_utils::New<NameValueCollection>(info, context))) {}
+ System::Collections::Specialized::NameValueCollection System::Collections::Specialized::NameValueCollection::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Collections::Specialized::NameValueCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::NameValueCollection>(info, context))};
+return o;
+}
  void System::Collections::Specialized::NameValueCollection::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::NameValueCollection>::get(),
@@ -485,8 +493,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, index);
 }
-// Ctor Parameters [CppParam { name: "dummy", ty: "System::DBNull", modifiers: "", def_value: None }]
- System::Collections::Specialized::NameValueCollection::NameValueCollection(System::DBNull dummy)  : System::Collections::Specialized::NameObjectCollectionBase(THROW_UNLESS(::il2cpp_utils::New<NameValueCollection>(dummy))) {}
+ System::Collections::Specialized::NameValueCollection System::Collections::Specialized::NameValueCollection::New_ctor(System::DBNull dummy)  {
+System::Collections::Specialized::NameValueCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::NameValueCollection>(dummy))};
+return o;
+}
  void System::Collections::Specialized::NameValueCollection::_ctor(System::DBNull dummy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::NameValueCollection>::get(),

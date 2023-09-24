@@ -4,18 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct CubemapFace;
+}
+namespace UnityEngine {
+class Texture;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine::Rendering {
 struct BuiltinRenderTextureType;
-}
-namespace UnityEngine {
-struct CubemapFace;
-}
-namespace UnityEngine {
-class Texture;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

@@ -2,14 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
+}
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace System {
 class Type;
-}
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -69,8 +69,7 @@ constexpr explicit DateTimeConverter(void* ptr) noexcept : System::ComponentMode
 /// @brief Method ConvertTo addr 0x277b0e4 size 0x32c virtual true final false
  ::bs_hook::Il2CppWrapperType ConvertTo(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value, System::Type destinationType) ;
 
-// Ctor Parameters []
-explicit DateTimeConverter() ;
+static System::ComponentModel::DateTimeConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x277b410 size 0x8 virtual false final false
  void _ctor() ;

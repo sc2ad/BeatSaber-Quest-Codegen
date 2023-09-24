@@ -7,24 +7,27 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class IDisposable;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace Newtonsoft::Json::Linq {
-class JToken;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Newtonsoft::Json::Linq::JsonPath {
 class QueryExpression;
+}
+namespace Newtonsoft::Json::Linq::JsonPath {
+class Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -148,8 +151,7 @@ constexpr System::Collections::Generic::IEnumerator_1<Newtonsoft::Json::Linq::JT
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2539ebc size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -252,8 +254,7 @@ constexpr Newtonsoft::Json::Linq::JsonPath::QueryExpression __get__Expression_k_
 /// @brief Method ExecuteFilter addr 0x2539e4c size 0x70 virtual true final false
  System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JToken> ExecuteFilter(System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JToken> current, bool errorWhenNoMatch) ;
 
-// Ctor Parameters []
-explicit QueryFilter() ;
+static Newtonsoft::Json::Linq::JsonPath::QueryFilter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2538770 size 0x8 virtual false final false
  void _ctor() ;

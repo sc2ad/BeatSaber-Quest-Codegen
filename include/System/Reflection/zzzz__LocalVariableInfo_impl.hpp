@@ -53,8 +53,10 @@ constexpr void System::Reflection::LocalVariableInfo::__set_position(uint16_t va
 constexpr uint16_t System::Reflection::LocalVariableInfo::__get_position() const {
 return ::cordl_internals::getInstanceField<uint16_t, 0x1a>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Reflection::LocalVariableInfo::LocalVariableInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LocalVariableInfo>())) {}
+ System::Reflection::LocalVariableInfo System::Reflection::LocalVariableInfo::New_ctor()  {
+System::Reflection::LocalVariableInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::LocalVariableInfo>())};
+return o;
+}
  void System::Reflection::LocalVariableInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::LocalVariableInfo>::get(),

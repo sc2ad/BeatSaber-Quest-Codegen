@@ -5,16 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -23,22 +20,28 @@ namespace GlobalNamespace {
 class PauseAnimationController;
 }
 namespace GlobalNamespace {
-class EnvironmentSpawnRotation;
+class GlobalNamespace__PauseMenuManager__InitData;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class LevelBar;
-}
-namespace System {
-class Action;
+class EnvironmentSpawnRotation;
 }
 namespace HMUI {
 class ButtonBinder;
 }
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class LevelBar;
+}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -128,8 +131,7 @@ constexpr bool __get_showLevelBar() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "backButtonText", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "showRestartButton", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "showLevelBar", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PauseMenuManager__InitData(::StringW backButtonText, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool showRestartButton, bool showLevelBar) ;
+static GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData New_ctor(::StringW backButtonText, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool showRestartButton, bool showLevelBar) ;
 
 /// @brief Method .ctor addr 0x20d3af4 size 0x5c virtual false final false
  void _ctor(::StringW backButtonText, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool showRestartButton, bool showLevelBar) ;
@@ -338,8 +340,7 @@ static constexpr float_t  kDisabledInteractionDuration{0.2};
 /// @brief Method ContinueButtonPressed addr 0x20d3a14 size 0x38 virtual false final false
  void ContinueButtonPressed() ;
 
-// Ctor Parameters []
-explicit PauseMenuManager() ;
+static GlobalNamespace::PauseMenuManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d3aec size 0x8 virtual false final false
  void _ctor() ;

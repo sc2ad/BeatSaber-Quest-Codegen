@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__CtrSP800Drbg_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__ISP80090Drbg_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg._ctor
 template<>
@@ -380,8 +380,10 @@ return ::cordl_internals::getInstanceField<bool, 0x48>(this->::bs_hook::Il2CppWr
  ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg::__get_K_BITS()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "K_BITS", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg>::get>();
 }
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "keySizeInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg::CtrSP800Drbg(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t keySizeInBits, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CtrSP800Drbg>(engine, keySizeInBits, securityStrength, entropySource, personalizationString, nonce))) {}
+ Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t keySizeInBits, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce)  {
+Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg>(engine, keySizeInBits, securityStrength, entropySource, personalizationString, nonce))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg::_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, int32_t keySizeInBits, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg>::get(),

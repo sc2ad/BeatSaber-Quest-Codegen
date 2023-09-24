@@ -81,8 +81,7 @@ static System::ComponentModel::DesignTimeVisibleAttribute __get_Default() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "visible", ty: "bool", modifiers: "", def_value: None }]
-explicit DesignTimeVisibleAttribute(bool visible) ;
+static System::ComponentModel::DesignTimeVisibleAttribute New_ctor(bool visible) ;
 
 /// @brief Method .ctor addr 0x277be9c size 0x28 virtual false final false
  void _ctor(bool visible) ;

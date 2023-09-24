@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SignalOnPointerClick_def.hpp"
-#include "GlobalNamespace/zzzz__Signal_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "GlobalNamespace/zzzz__Signal_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SignalOnPointerClick.OnPointerClick
 template<>
 
@@ -62,8 +62,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, eventData);
 }
-// Ctor Parameters []
- GlobalNamespace::SignalOnPointerClick::SignalOnPointerClick()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SignalOnPointerClick>())) {}
+ GlobalNamespace::SignalOnPointerClick GlobalNamespace::SignalOnPointerClick::New_ctor()  {
+GlobalNamespace::SignalOnPointerClick o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SignalOnPointerClick>())};
+return o;
+}
  void GlobalNamespace::SignalOnPointerClick::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SignalOnPointerClick>::get(),

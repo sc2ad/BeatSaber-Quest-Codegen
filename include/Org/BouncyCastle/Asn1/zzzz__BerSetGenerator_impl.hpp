@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerSetGenerator::BerSetGenerator(System::IO::Stream outStream)  : Org::BouncyCastle::Asn1::BerGenerator(THROW_UNLESS(::il2cpp_utils::New<BerSetGenerator>(outStream))) {}
+ Org::BouncyCastle::Asn1::BerSetGenerator Org::BouncyCastle::Asn1::BerSetGenerator::New_ctor(System::IO::Stream outStream)  {
+Org::BouncyCastle::Asn1::BerSetGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerSetGenerator>(outStream))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerSetGenerator::_ctor(System::IO::Stream outStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerSetGenerator>::get(),
@@ -47,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outStream);
 }
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerSetGenerator::BerSetGenerator(System::IO::Stream outStream, int32_t tagNo, bool isExplicit)  : Org::BouncyCastle::Asn1::BerGenerator(THROW_UNLESS(::il2cpp_utils::New<BerSetGenerator>(outStream, tagNo, isExplicit))) {}
+ Org::BouncyCastle::Asn1::BerSetGenerator Org::BouncyCastle::Asn1::BerSetGenerator::New_ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit)  {
+Org::BouncyCastle::Asn1::BerSetGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerSetGenerator>(outStream, tagNo, isExplicit))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerSetGenerator::_ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerSetGenerator>::get(),

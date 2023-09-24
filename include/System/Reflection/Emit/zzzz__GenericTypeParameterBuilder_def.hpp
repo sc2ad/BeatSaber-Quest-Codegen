@@ -7,35 +7,35 @@
 namespace System::Reflection {
 struct CallingConventions;
 }
-namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System::Reflection {
-struct TypeAttributes;
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class Assembly;
 }
 namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Globalization {
-class CultureInfo;
+class MethodInfo;
 }
 namespace System {
 struct Guid;
 }
 namespace System::Reflection {
-class MethodInfo;
+class FieldInfo;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Reflection {
+class Module;
 }
 namespace System::Reflection {
 class ConstructorInfo;
 }
 namespace System::Reflection {
-class Binder;
+struct ParameterModifier;
 }
 namespace System::Reflection {
-struct ParameterModifier;
+class Binder;
 }
 namespace System::Reflection {
 class EventInfo;
@@ -43,11 +43,11 @@ class EventInfo;
 namespace System::Reflection {
 class PropertyInfo;
 }
-namespace System {
-class Type;
-}
 namespace System::Reflection {
-class Module;
+struct TypeAttributes;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Reflection::Emit {

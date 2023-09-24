@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ClientActivatedIdentity_def.hpp"
+#include "System/zzzz__MarshalByRefObject_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/zzzz__MarshalByRefObject_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::ClientActivatedIdentity._ctor
 template<>
 
@@ -114,8 +114,10 @@ constexpr void System::Runtime::Remoting::ClientActivatedIdentity::__set__target
 constexpr System::MarshalByRefObject System::Runtime::Remoting::ClientActivatedIdentity::__get__targetThis() const {
 return ::cordl_internals::getInstanceField<System::MarshalByRefObject, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::Remoting::ClientActivatedIdentity::ClientActivatedIdentity(::StringW objectUri, System::Type objectType)  : System::Runtime::Remoting::ServerIdentity(THROW_UNLESS(::il2cpp_utils::New<ClientActivatedIdentity>(objectUri, objectType))) {}
+ System::Runtime::Remoting::ClientActivatedIdentity System::Runtime::Remoting::ClientActivatedIdentity::New_ctor(::StringW objectUri, System::Type objectType)  {
+System::Runtime::Remoting::ClientActivatedIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ClientActivatedIdentity>(objectUri, objectType))};
+return o;
+}
  void System::Runtime::Remoting::ClientActivatedIdentity::_ctor(::StringW objectUri, System::Type objectType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ClientActivatedIdentity>::get(),

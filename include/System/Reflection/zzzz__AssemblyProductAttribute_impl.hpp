@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyProductAttribute::__set__Product_k__B
 constexpr ::StringW System::Reflection::AssemblyProductAttribute::__get__Product_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyProductAttribute::AssemblyProductAttribute(::StringW product)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyProductAttribute>(product))) {}
+ System::Reflection::AssemblyProductAttribute System::Reflection::AssemblyProductAttribute::New_ctor(::StringW product)  {
+System::Reflection::AssemblyProductAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyProductAttribute>(product))};
+return o;
+}
  void System::Reflection::AssemblyProductAttribute::_ctor(::StringW product)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyProductAttribute>::get(),

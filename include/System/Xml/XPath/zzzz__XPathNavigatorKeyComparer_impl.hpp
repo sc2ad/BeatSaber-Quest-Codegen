@@ -74,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters []
- System::Xml::XPath::XPathNavigatorKeyComparer::XPathNavigatorKeyComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XPathNavigatorKeyComparer>())) {}
+ System::Xml::XPath::XPathNavigatorKeyComparer System::Xml::XPath::XPathNavigatorKeyComparer::New_ctor()  {
+System::Xml::XPath::XPathNavigatorKeyComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XPath::XPathNavigatorKeyComparer>())};
+return o;
+}
  void System::Xml::XPath::XPathNavigatorKeyComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XPath::XPathNavigatorKeyComparer>::get(),

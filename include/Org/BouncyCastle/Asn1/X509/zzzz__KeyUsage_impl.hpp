@@ -106,8 +106,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::KeyUsage, false>(nullptr, ___internal_method, extensions);
 }
-// Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::KeyUsage::KeyUsage(int32_t usage)  : Org::BouncyCastle::Asn1::DerBitString(THROW_UNLESS(::il2cpp_utils::New<KeyUsage>(usage))) {}
+ Org::BouncyCastle::Asn1::X509::KeyUsage Org::BouncyCastle::Asn1::X509::KeyUsage::New_ctor(int32_t usage)  {
+Org::BouncyCastle::Asn1::X509::KeyUsage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::KeyUsage>(usage))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::KeyUsage::_ctor(int32_t usage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::KeyUsage>::get(),
@@ -117,8 +119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, usage);
 }
-// Ctor Parameters [CppParam { name: "usage", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::KeyUsage::KeyUsage(Org::BouncyCastle::Asn1::DerBitString usage)  : Org::BouncyCastle::Asn1::DerBitString(THROW_UNLESS(::il2cpp_utils::New<KeyUsage>(usage))) {}
+ Org::BouncyCastle::Asn1::X509::KeyUsage Org::BouncyCastle::Asn1::X509::KeyUsage::New_ctor(Org::BouncyCastle::Asn1::DerBitString usage)  {
+Org::BouncyCastle::Asn1::X509::KeyUsage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::KeyUsage>(usage))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::KeyUsage::_ctor(Org::BouncyCastle::Asn1::DerBitString usage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::KeyUsage>::get(),

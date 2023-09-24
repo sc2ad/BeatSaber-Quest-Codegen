@@ -1,9 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine::XR {
-class XRInputSubsystem;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -13,6 +10,9 @@ class XRDisplaySubsystem;
 }
 namespace UnityEngine::XR {
 class XRDisplaySubsystemDescriptor;
+}
+namespace UnityEngine::XR {
+class XRInputSubsystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

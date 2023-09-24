@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelDataSO_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet.get_beatmapCharacteristicSerializedName
@@ -84,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beatmapCharacteristicSerializedName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmaps", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet(::StringW beatmapCharacteristicSerializedName, ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap> difficultyBeatmaps)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet>(beatmapCharacteristicSerializedName, difficultyBeatmaps))) {}
+ GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet::New_ctor(::StringW beatmapCharacteristicSerializedName, ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap> difficultyBeatmaps)  {
+GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet>(beatmapCharacteristicSerializedName, difficultyBeatmaps))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet::_ctor(::StringW beatmapCharacteristicSerializedName, ::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelSO__DifficultyBeatmap> difficultyBeatmaps)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet>::get(),
@@ -182,8 +185,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::GlobalNamespace__BeatmapLevelDataSO__DifficultyBeatmapSet>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapLevelDataSO::BeatmapLevelDataSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelDataSO>())) {}
+ GlobalNamespace::BeatmapLevelDataSO GlobalNamespace::BeatmapLevelDataSO::New_ctor()  {
+GlobalNamespace::BeatmapLevelDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelDataSO>())};
+return o;
+}
  void GlobalNamespace::BeatmapLevelDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelDataSO>::get(),

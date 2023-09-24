@@ -90,8 +90,7 @@ constexpr UnityEngine::UIElements::TextureId __get_atlas() const;
 /// @brief Method Reset addr 0x2c54608 size 0x68 virtual false final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit GradientRemap() ;
+static UnityEngine::UIElements::UIR::GradientRemap New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c545ac size 0x48 virtual false final false
  void _ctor() ;

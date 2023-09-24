@@ -1,9 +1,10 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__TaskToApm_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskToApm_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult._ctor
 template<>
 
@@ -111,8 +112,10 @@ constexpr void System::Threading::Tasks::System__Threading__Tasks__TaskToApm__Ta
 constexpr bool System::Threading::Tasks::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult::__get__completedSynchronously() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "task", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "completedSynchronously", ty: "bool", modifiers: "", def_value: None }]
- System::Threading::Tasks::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult(System::Threading::Tasks::Task task, ::bs_hook::Il2CppWrapperType state, bool completedSynchronously)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult>(task, state, completedSynchronously))) {}
+ System::Threading::Tasks::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult System::Threading::Tasks::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult::New_ctor(System::Threading::Tasks::Task task, ::bs_hook::Il2CppWrapperType state, bool completedSynchronously)  {
+System::Threading::Tasks::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult>(task, state, completedSynchronously))};
+return o;
+}
  void System::Threading::Tasks::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult::_ctor(System::Threading::Tasks::Task task, ::bs_hook::Il2CppWrapperType state, bool completedSynchronously)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__TaskToApm__TaskWrapperAsyncResult>::get(),
@@ -204,8 +207,10 @@ constexpr void System::Threading::Tasks::System__Threading__Tasks__TaskToApm____
 constexpr System::IAsyncResult System::Threading::Tasks::System__Threading__Tasks__TaskToApm____c__DisplayClass3_0::__get_asyncResult() const {
 return ::cordl_internals::getInstanceField<System::IAsyncResult, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Threading::Tasks::System__Threading__Tasks__TaskToApm____c__DisplayClass3_0::System__Threading__Tasks__TaskToApm____c__DisplayClass3_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__TaskToApm____c__DisplayClass3_0>())) {}
+ System::Threading::Tasks::System__Threading__Tasks__TaskToApm____c__DisplayClass3_0 System::Threading::Tasks::System__Threading__Tasks__TaskToApm____c__DisplayClass3_0::New_ctor()  {
+System::Threading::Tasks::System__Threading__Tasks__TaskToApm____c__DisplayClass3_0 o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::System__Threading__Tasks__TaskToApm____c__DisplayClass3_0>())};
+return o;
+}
  void System::Threading::Tasks::System__Threading__Tasks__TaskToApm____c__DisplayClass3_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__TaskToApm____c__DisplayClass3_0>::get(),

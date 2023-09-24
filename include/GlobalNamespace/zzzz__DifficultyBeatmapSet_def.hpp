@@ -4,12 +4,12 @@
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
@@ -91,8 +91,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDiffic
 /// @brief Method get_difficultyBeatmaps addr 0x21ec140 size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> get_difficultyBeatmaps() ;
 
-// Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmaps", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap>", modifiers: "", def_value: None }]
-explicit DifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> difficultyBeatmaps) ;
+static GlobalNamespace::DifficultyBeatmapSet New_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> difficultyBeatmaps) ;
 
 /// @brief Method .ctor addr 0x21ec148 size 0x2c virtual false final false
  void _ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap> difficultyBeatmaps) ;

@@ -10,49 +10,32 @@
 namespace UnityEngine::UIElements {
 class MeshWriteData;
 }
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
-}
-namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
-}
-namespace UnityEngine {
-struct ScaleMode;
-}
-namespace UnityEngine::UIElements {
-struct ColorPage;
-}
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
 namespace UnityEngine::UIElements::UIR {
-struct VertexFlags;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace Unity::Collections {
-template<typename T>
-struct NativeSlice_1;
+struct UnityEngine__UIElements__UIR__MeshBuilder__ClipCounts;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Color;
+struct Rect;
+}
+namespace UnityEngine::UIElements::UIR {
+struct VertexFlags;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData;
+}
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
+namespace UnityEngine {
+struct ScaleMode;
 }
 namespace UnityEngine::TextCore::Text {
 struct MeshInfo;
@@ -60,26 +43,55 @@ struct MeshInfo;
 namespace UnityEngine {
 struct Vector4;
 }
-namespace UnityEngine {
-struct Matrix4x4;
+namespace UnityEngine::UIElements {
+struct ColorPage;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__MeshBuilder__VertexClipEdge;
 }
 namespace UnityEngine::UIElements {
 struct TextVertex;
 }
+namespace UnityEngine {
+struct Matrix4x4;
+}
 namespace UnityEngine::UIElements {
-struct TextureId;
+struct UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeSlice_1;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class Texture;
 }
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator;
 }
 namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__MeshGenerationContext__MeshFlags;
 }
 namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -139,8 +151,7 @@ constexpr explicit UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__All
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData__Allocator New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2d22be0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -378,6 +389,8 @@ __Bottom = 8,
 constexpr operator __UnityEngine__UIElements__UIR__MeshBuilder__VertexClipEdge_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__UIR__MeshBuilder__VertexClipEdge_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

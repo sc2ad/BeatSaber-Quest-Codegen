@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class FloatUnityEvent;
+class FloatSignal;
 }
 namespace GlobalNamespace {
-class FloatSignal;
+class FloatUnityEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,8 +78,7 @@ constexpr GlobalNamespace::FloatUnityEvent __get__unityEvent() const;
 /// @brief Method HandleEvent addr 0x1f832fc size 0x60 virtual false final false
  void HandleEvent(float_t f) ;
 
-// Ctor Parameters []
-explicit FloatSignalListener() ;
+static GlobalNamespace::FloatSignalListener New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8335c size 0x8 virtual false final false
  void _ctor() ;

@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine {
-class Animation;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class Animation;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,7 @@ constexpr UnityEngine::Animation __get__animation() const;
 /// @brief Method StopAndHide addr 0x214bb40 size 0x24 virtual false final false
  void StopAndHide() ;
 
-// Ctor Parameters []
-explicit CountdownElementController() ;
+static GlobalNamespace::CountdownElementController New_ctor() ;
 
 /// @brief Method .ctor addr 0x214bcc8 size 0x8 virtual false final false
  void _ctor() ;

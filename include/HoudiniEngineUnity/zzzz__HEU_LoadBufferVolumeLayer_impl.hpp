@@ -1,9 +1,9 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolumeLayer_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HFLayerType_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_LoadBufferVolumeLayer._ctor
 template<>
 
@@ -195,8 +195,10 @@ constexpr void HoudiniEngineUnity::HEU_LoadBufferVolumeLayer::__set__layerType(H
 constexpr HoudiniEngineUnity::HFLayerType HoudiniEngineUnity::HEU_LoadBufferVolumeLayer::__get__layerType() const {
 return ::cordl_internals::getInstanceField<HoudiniEngineUnity::HFLayerType, 0xd4>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_LoadBufferVolumeLayer::HEU_LoadBufferVolumeLayer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_LoadBufferVolumeLayer>())) {}
+ HoudiniEngineUnity::HEU_LoadBufferVolumeLayer HoudiniEngineUnity::HEU_LoadBufferVolumeLayer::New_ctor()  {
+HoudiniEngineUnity::HEU_LoadBufferVolumeLayer o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_LoadBufferVolumeLayer>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_LoadBufferVolumeLayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_LoadBufferVolumeLayer>::get(),

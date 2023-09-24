@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MemberAccessException_impl.hpp"
 #include "System/zzzz__MissingMemberException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::MissingMemberException._ctor
 template<>
 
@@ -123,8 +123,10 @@ constexpr void System::MissingMemberException::__set_Signature(::ArrayW<uint8_t>
 constexpr ::ArrayW<uint8_t> System::MissingMemberException::__get_Signature() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::MissingMemberException::MissingMemberException()  : System::MemberAccessException(THROW_UNLESS(::il2cpp_utils::New<MissingMemberException>())) {}
+ System::MissingMemberException System::MissingMemberException::New_ctor()  {
+System::MissingMemberException o{THROW_UNLESS(::il2cpp_utils::New<System::MissingMemberException>())};
+return o;
+}
  void System::MissingMemberException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::MissingMemberException>::get(),
@@ -134,8 +136,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::MissingMemberException::MissingMemberException(::StringW message)  : System::MemberAccessException(THROW_UNLESS(::il2cpp_utils::New<MissingMemberException>(message))) {}
+ System::MissingMemberException System::MissingMemberException::New_ctor(::StringW message)  {
+System::MissingMemberException o{THROW_UNLESS(::il2cpp_utils::New<System::MissingMemberException>(message))};
+return o;
+}
  void System::MissingMemberException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::MissingMemberException>::get(),
@@ -145,8 +149,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::MissingMemberException::MissingMemberException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::MemberAccessException(THROW_UNLESS(::il2cpp_utils::New<MissingMemberException>(info, context))) {}
+ System::MissingMemberException System::MissingMemberException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::MissingMemberException o{THROW_UNLESS(::il2cpp_utils::New<System::MissingMemberException>(info, context))};
+return o;
+}
  void System::MissingMemberException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::MissingMemberException>::get(),

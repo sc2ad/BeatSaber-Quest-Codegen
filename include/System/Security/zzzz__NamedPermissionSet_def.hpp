@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Security {
-class SecurityElement;
-}
 namespace System::Security::Permissions {
 struct PermissionState;
+}
+namespace System::Security {
+class SecurityElement;
 }
 // Forward declare root types
 namespace System::Security {
@@ -76,20 +76,17 @@ constexpr ::StringW __get_description() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NamedPermissionSet() ;
+static System::Security::NamedPermissionSet New_ctor() ;
 
 /// @brief Method .ctor addr 0x22e53fc size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "state", ty: "System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
-explicit NamedPermissionSet(::StringW name, System::Security::Permissions::PermissionState state) ;
+static System::Security::NamedPermissionSet New_ctor(::StringW name, System::Security::Permissions::PermissionState state) ;
 
 /// @brief Method .ctor addr 0x22e54bc size 0x80 virtual false final false
  void _ctor(::StringW name, System::Security::Permissions::PermissionState state) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NamedPermissionSet(::StringW name) ;
+static System::Security::NamedPermissionSet New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x22e562c size 0x8 virtual false final false
  void _ctor(::StringW name) ;

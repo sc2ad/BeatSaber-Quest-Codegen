@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -74,8 +74,7 @@ constexpr Org::BouncyCastle::Crypto::IDerivationFunction __get_kdf() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "kdf", ty: "Org::BouncyCastle::Crypto::IDerivationFunction", modifiers: "", def_value: None }]
-explicit ECMqvWithKdfBasicAgreement(::StringW algorithm, Org::BouncyCastle::Crypto::IDerivationFunction kdf) ;
+static Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement New_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::IDerivationFunction kdf) ;
 
 /// @brief Method .ctor addr 0x1190280 size 0xa4 virtual false final false
  void _ctor(::StringW algorithm, Org::BouncyCastle::Crypto::IDerivationFunction kdf) ;

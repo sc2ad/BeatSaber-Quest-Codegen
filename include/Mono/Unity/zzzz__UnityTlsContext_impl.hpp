@@ -1,20 +1,15 @@
 #pragma once
 #include "Mono/Net/Security/zzzz__MobileTlsContext_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsContext_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
-#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "Mono/Unity/zzzz__UnityTls_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoTlsConnectionInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "Mono/Unity/zzzz__UnityTls_def.hpp"
-#include "Mono/Unity/zzzz__UnityTls_def.hpp"
-#include "Mono/Unity/zzzz__UnityTls_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "Mono/Unity/zzzz__UnityTls_def.hpp"
-#include "Mono/Unity/zzzz__UnityTls_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 //  Writing Method size for method: Mono::Unity::UnityTlsContext._ctor
 template<>
 
@@ -491,8 +486,10 @@ constexpr void Mono::Unity::UnityTlsContext::__set_lastException(System::Excepti
 constexpr System::Exception Mono::Unity::UnityTlsContext::__get_lastException() const {
 return ::cordl_internals::getInstanceField<System::Exception, 0xc8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "options", ty: "Mono::Net::Security::MonoSslAuthenticationOptions", modifiers: "", def_value: None }]
- Mono::Unity::UnityTlsContext::UnityTlsContext(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options)  : Mono::Net::Security::MobileTlsContext(THROW_UNLESS(::il2cpp_utils::New<UnityTlsContext>(parent, options))) {}
+ Mono::Unity::UnityTlsContext Mono::Unity::UnityTlsContext::New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options)  {
+Mono::Unity::UnityTlsContext o{THROW_UNLESS(::il2cpp_utils::New<Mono::Unity::UnityTlsContext>(parent, options))};
+return o;
+}
  void Mono::Unity::UnityTlsContext::_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Unity::UnityTlsContext>::get(),

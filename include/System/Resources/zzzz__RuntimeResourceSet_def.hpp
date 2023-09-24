@@ -7,24 +7,24 @@
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Resources {
+class ResourceReader;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Resources {
+struct ResourceLocator;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System::Resources {
-class ResourceReader;
-}
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
-namespace System::Resources {
-struct ResourceLocator;
-}
-namespace System::IO {
-class Stream;
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -105,14 +105,12 @@ constexpr bool __get__haveReadFromReader() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RuntimeResourceSet(::StringW fileName) ;
+static System::Resources::RuntimeResourceSet New_ctor(::StringW fileName) ;
 
 /// @brief Method .ctor addr 0x2370d94 size 0x140 virtual false final false
  void _ctor(::StringW fileName) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit RuntimeResourceSet(System::IO::Stream stream) ;
+static System::Resources::RuntimeResourceSet New_ctor(System::IO::Stream stream) ;
 
 /// @brief Method .ctor addr 0x2370ed4 size 0x100 virtual false final false
  void _ctor(System::IO::Stream stream) ;

@@ -6,10 +6,19 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class IDictionary;
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class System__Collections__ListDictionaryInternal__DictionaryNode;
+}
+namespace System::Collections {
+class System__Collections__ListDictionaryInternal__NodeEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -18,10 +27,13 @@ namespace System {
 class Array;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
+class System__Collections__ListDictionaryInternal__NodeKeyValueCollection;
 }
 namespace System::Collections {
 struct DictionaryEntry;
+}
+namespace GlobalNamespace {
+class System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -125,8 +137,7 @@ constexpr bool __get_start() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::ListDictionaryInternal", modifiers: "", def_value: None }]
-explicit System__Collections__ListDictionaryInternal__NodeEnumerator(System::Collections::ListDictionaryInternal list) ;
+static System::Collections::System__Collections__ListDictionaryInternal__NodeEnumerator New_ctor(System::Collections::ListDictionaryInternal list) ;
 
 /// @brief Method .ctor addr 0x240f49c size 0x44 virtual false final false
  void _ctor(System::Collections::ListDictionaryInternal list) ;
@@ -236,8 +247,7 @@ constexpr bool __get_start() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::ListDictionaryInternal", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
-explicit System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator(System::Collections::ListDictionaryInternal list, bool isKeys) ;
+static GlobalNamespace::System__Collections__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator New_ctor(System::Collections::ListDictionaryInternal list, bool isKeys) ;
 
 /// @brief Method .ctor addr 0x240fb8c size 0x4c virtual false final false
  void _ctor(System::Collections::ListDictionaryInternal list, bool isKeys) ;
@@ -329,8 +339,7 @@ constexpr bool __get_isKeys() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::ListDictionaryInternal", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
-explicit System__Collections__ListDictionaryInternal__NodeKeyValueCollection(System::Collections::ListDictionaryInternal list, bool isKeys) ;
+static System::Collections::System__Collections__ListDictionaryInternal__NodeKeyValueCollection New_ctor(System::Collections::ListDictionaryInternal list, bool isKeys) ;
 
 /// @brief Method .ctor addr 0x240eebc size 0x30 virtual false final false
  void _ctor(System::Collections::ListDictionaryInternal list, bool isKeys) ;
@@ -417,8 +426,7 @@ constexpr System::Collections::System__Collections__ListDictionaryInternal__Dict
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Collections__ListDictionaryInternal__DictionaryNode() ;
+static System::Collections::System__Collections__ListDictionaryInternal__DictionaryNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x240ee40 size 0x8 virtual false final false
  void _ctor() ;
@@ -530,8 +538,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__syncRoot() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ListDictionaryInternal() ;
+static System::Collections::ListDictionaryInternal New_ctor() ;
 
 /// @brief Method .ctor addr 0x240ec38 size 0x8 virtual false final false
  void _ctor() ;

@@ -203,8 +203,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_Ed25519() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GnuObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Gnu::GnuObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xe10ba8 size 0x8 virtual false final false
  void _ctor() ;

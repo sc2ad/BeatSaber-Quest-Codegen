@@ -4,12 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace GlobalNamespace {
+class GlobalNamespace__RuntimeLightWithLightGroupIds__LightIntensitiesWithId;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__LightWithIds__LightWithId;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace UnityEngine {
 struct Color;
@@ -86,8 +89,7 @@ constexpr float_t __get__intensity() const;
 /// @brief Method set_intensity addr 0x1fa0548 size 0x8 virtual false final false
  void set_intensity(float_t value) ;
 
-// Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "intensity", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__RuntimeLightWithLightGroupIds__LightIntensitiesWithId(int32_t lightId, float_t intensity) ;
+static GlobalNamespace::GlobalNamespace__RuntimeLightWithLightGroupIds__LightIntensitiesWithId New_ctor(int32_t lightId, float_t intensity) ;
 
 /// @brief Method .ctor addr 0x1fa03a4 size 0x38 virtual false final false
  void _ctor(int32_t lightId, float_t intensity) ;
@@ -188,8 +190,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__RuntimeLightWithLightGroupI
 /// @brief Method ProcessColor addr 0x1fa0518 size 0x20 virtual false final false
  UnityEngine::Color ProcessColor(UnityEngine::Color color, float_t intensity) ;
 
-// Ctor Parameters []
-explicit RuntimeLightWithLightGroupIds() ;
+static GlobalNamespace::RuntimeLightWithLightGroupIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9cce0 size 0x18 virtual false final false
  void _ctor() ;

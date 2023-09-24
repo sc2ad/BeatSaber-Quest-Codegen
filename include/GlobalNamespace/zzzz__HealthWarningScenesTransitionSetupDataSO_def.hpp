@@ -53,8 +53,7 @@ constexpr explicit HealthWarningScenesTransitionSetupDataSO(void* ptr) noexcept 
 /// @brief Method Init addr 0x21d0b64 size 0x8 virtual false final false
  void Init(GlobalNamespace::HealthWarningSceneSetupData healthWarningSceneSetupData) ;
 
-// Ctor Parameters []
-explicit HealthWarningScenesTransitionSetupDataSO() ;
+static GlobalNamespace::HealthWarningScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d0b6c size 0x8 virtual false final false
  void _ctor() ;

@@ -7,37 +7,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
-}
-namespace System {
-struct DateTimeKind;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace System {
-class IConvertible;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
-struct TimeSpan;
 }
 namespace System::Globalization {
 struct DateTimeStyles;
@@ -46,30 +18,58 @@ namespace System {
 template<typename T>
 struct Span_1;
 }
-namespace System {
-struct Decimal;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
-class Type;
+template<typename T>
+class IComparable_1;
+}
+namespace System {
+struct DateTimeKind;
 }
 namespace System {
 struct TypeCode;
 }
 namespace System {
-struct DayOfWeek;
-}
-namespace System {
 class ISpanFormattable;
 }
 namespace System {
+struct TimeSpan;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
+namespace System {
 class IFormatProvider;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class IConvertible;
+}
+namespace System {
+class IComparable;
 }
 namespace System::Globalization {
 class Calendar;
 }
 namespace System {
-template<typename T>
-class IComparable_1;
+struct DayOfWeek;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class IFormattable;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 // Forward declare root types
 namespace System {

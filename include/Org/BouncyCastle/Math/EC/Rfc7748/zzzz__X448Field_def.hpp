@@ -58,8 +58,7 @@ static constexpr uint32_t  M28{268435455u};
 
 // Methods
 
-// Ctor Parameters []
-explicit X448Field() ;
+static Org::BouncyCastle::Math::EC::Rfc7748::X448Field New_ctor() ;
 
 /// @brief Method .ctor addr 0xfb2a10 size 0x8 virtual false final false
  void _ctor() ;

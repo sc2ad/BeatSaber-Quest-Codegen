@@ -5,37 +5,37 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class NoteDebrisSpawner;
-}
-namespace GlobalNamespace {
-class ShockwaveEffect;
+class ColorManager;
 }
 namespace GlobalNamespace {
 class NoteCutHapticEffect;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__NoteCutHapticEffect__Type;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
 class NoteCutParticlesEffect;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class BombExplosionEffect;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class ShockwaveEffect;
+}
+namespace GlobalNamespace {
+class NoteDebrisSpawner;
+}
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__NoteCutHapticEffect__Type;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -170,8 +170,7 @@ static constexpr int32_t  kBurstSliderElementParticlesCount{20};
 /// @brief Method SpawnBombCutEffect addr 0x2259618 size 0x50 virtual false final false
  void SpawnBombCutEffect(ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo, GlobalNamespace::NoteController noteController) ;
 
-// Ctor Parameters []
-explicit NoteCutCoreEffectsSpawner() ;
+static GlobalNamespace::NoteCutCoreEffectsSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x225a48c size 0x14 virtual false final false
  void _ctor() ;

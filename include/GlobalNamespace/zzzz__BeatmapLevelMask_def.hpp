@@ -4,13 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 namespace System {
 template<typename T>
@@ -18,10 +22,6 @@ class IEquatable_1;
 }
 namespace GlobalNamespace {
 class BitMaskSparse;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,20 +99,17 @@ static constexpr ::ConstString  kToStringSuffix{u"]"};
 
 // Methods
 
-// Ctor Parameters []
-explicit BeatmapLevelMask() ;
+static GlobalNamespace::BeatmapLevelMask New_ctor() ;
 
 /// @brief Method .ctor addr 0x1213184 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "level", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BeatmapLevelMask(::StringW level) ;
+static GlobalNamespace::BeatmapLevelMask New_ctor(::StringW level) ;
 
 /// @brief Method .ctor addr 0x121327c size 0xa0 virtual false final false
  void _ctor(::StringW level) ;
 
-// Ctor Parameters [CppParam { name: "levelSet", ty: "System::Collections::Generic::HashSet_1<::StringW>", modifiers: "", def_value: None }]
-explicit BeatmapLevelMask(System::Collections::Generic::HashSet_1<::StringW> levelSet) ;
+static GlobalNamespace::BeatmapLevelMask New_ctor(System::Collections::Generic::HashSet_1<::StringW> levelSet) ;
 
 /// @brief Method .ctor addr 0x121331c size 0x198 virtual false final false
  void _ctor(System::Collections::Generic::HashSet_1<::StringW> levelSet) ;

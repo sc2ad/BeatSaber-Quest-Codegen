@@ -109,8 +109,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::ObjectiveListItem::ObjectiveListItem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ObjectiveListItem>())) {}
+ GlobalNamespace::ObjectiveListItem GlobalNamespace::ObjectiveListItem::New_ctor()  {
+GlobalNamespace::ObjectiveListItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObjectiveListItem>())};
+return o;
+}
  void GlobalNamespace::ObjectiveListItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObjectiveListItem>::get(),

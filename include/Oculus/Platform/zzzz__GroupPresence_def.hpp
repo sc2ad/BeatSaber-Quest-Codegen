@@ -7,42 +7,14 @@
 namespace Oculus::Platform::Models {
 class GroupPresenceJoinIntent;
 }
+namespace Oculus::Platform::Models {
+class InvitePanelResultInfo;
+}
 namespace Oculus::Platform {
 class Request;
 }
 namespace Oculus::Platform {
-class GroupPresenceOptions;
-}
-namespace Oculus::Platform::Models {
-class GroupPresenceLeaveIntent;
-}
-namespace Oculus::Platform {
-class RosterOptions;
-}
-namespace Oculus::Platform::Models {
-class InvitePanelResultInfo;
-}
-namespace Oculus::Platform::Models {
-class ApplicationInviteList;
-}
-namespace Oculus::Platform::Models {
-class LaunchInvitePanelFlowResult;
-}
-namespace Oculus::Platform {
-class MultiplayerErrorOptions;
-}
-namespace Oculus::Platform {
-template<typename T>
-class Oculus__Platform__Message_1__Callback;
-}
-namespace Oculus::Platform::Models {
-class SendInvitesResult;
-}
-namespace Oculus::Platform {
 class InviteOptions;
-}
-namespace Oculus::Platform::Models {
-class UserList;
 }
 namespace Oculus::Platform::Models {
 class RejoinDialogResult;
@@ -50,6 +22,34 @@ class RejoinDialogResult;
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
+}
+namespace Oculus::Platform::Models {
+class LaunchInvitePanelFlowResult;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Oculus__Platform__Message_1__Callback;
+}
+namespace Oculus::Platform::Models {
+class ApplicationInviteList;
+}
+namespace Oculus::Platform {
+class RosterOptions;
+}
+namespace Oculus::Platform::Models {
+class SendInvitesResult;
+}
+namespace Oculus::Platform {
+class GroupPresenceOptions;
+}
+namespace Oculus::Platform::Models {
+class GroupPresenceLeaveIntent;
+}
+namespace Oculus::Platform::Models {
+class UserList;
+}
+namespace Oculus::Platform {
+class MultiplayerErrorOptions;
 }
 // Forward declare root types
 namespace Oculus::Platform {

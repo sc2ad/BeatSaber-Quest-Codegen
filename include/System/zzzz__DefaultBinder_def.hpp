@@ -7,32 +7,41 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Reflection {
-class PropertyInfo;
+namespace System {
+class System__DefaultBinder__BinderState;
 }
 namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Globalization {
-class CultureInfo;
+class ParameterInfo;
 }
 namespace System {
 class RuntimeType;
 }
 namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System::Reflection {
 class FieldInfo;
+}
+namespace System {
+class System__DefaultBinder____c;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 namespace System::Reflection {
 struct BindingFlags;
 }
 namespace System {
-class Type;
-}
-namespace System::Reflection {
-class ParameterInfo;
+struct System__DefaultBinder__Primitives;
 }
 namespace System::Reflection {
 struct ParameterModifier;
+}
+namespace System {
+class Type;
 }
 namespace System {
 template<typename T>
@@ -114,8 +123,7 @@ constexpr bool __get_m_isParamArray() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "argsMap", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "originalSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isParamArray", ty: "bool", modifiers: "", def_value: None }]
-explicit System__DefaultBinder__BinderState(::ArrayW<int32_t> argsMap, int32_t originalSize, bool isParamArray) ;
+static System::System__DefaultBinder__BinderState New_ctor(::ArrayW<int32_t> argsMap, int32_t originalSize, bool isParamArray) ;
 
 /// @brief Method .ctor addr 0x24703d8 size 0x40 virtual false final false
  void _ctor(::ArrayW<int32_t> argsMap, int32_t originalSize, bool isParamArray) ;
@@ -186,6 +194,8 @@ __String = 262144,
 constexpr operator __System__DefaultBinder__Primitives_Unwrapped () const noexcept {
 return std::bit_cast<__System__DefaultBinder__Primitives_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -302,8 +312,7 @@ static System::Predicate_1<System::Type> __get___9__2_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__DefaultBinder____c() ;
+static System::System__DefaultBinder____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24737e8 size 0x8 virtual false final false
  void _ctor() ;
@@ -441,8 +450,7 @@ static bool CanChangePrimitive(System::Type source, System::Type target) ;
 /// @brief Method CanPrimitiveWiden addr 0x2473610 size 0xd8 virtual false final false
 static bool CanPrimitiveWiden(System::Type source, System::Type target) ;
 
-// Ctor Parameters []
-explicit DefaultBinder() ;
+static System::DefaultBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x24736e8 size 0x8 virtual false final false
  void _ctor() ;

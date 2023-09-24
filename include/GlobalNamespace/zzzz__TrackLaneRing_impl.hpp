@@ -288,8 +288,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, destPosZ, moveSpeed);
 }
-// Ctor Parameters []
- GlobalNamespace::TrackLaneRing::TrackLaneRing()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TrackLaneRing>())) {}
+ GlobalNamespace::TrackLaneRing GlobalNamespace::TrackLaneRing::New_ctor()  {
+GlobalNamespace::TrackLaneRing o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TrackLaneRing>())};
+return o;
+}
  void GlobalNamespace::TrackLaneRing::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TrackLaneRing>::get(),

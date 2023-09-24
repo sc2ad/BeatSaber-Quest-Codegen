@@ -7,6 +7,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
+class IFormatProvider;
+}
+namespace System {
 template<typename T>
 class IEquatable_1;
 }
@@ -15,9 +18,6 @@ class IFormattable;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine {

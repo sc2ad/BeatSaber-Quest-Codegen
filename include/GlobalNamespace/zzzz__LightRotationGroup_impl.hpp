@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::LightRotationGroup::LightRotationGroup()  : GlobalNamespace::LightTransformGroup_3<GlobalNamespace::LightGroupRotationXTransform,GlobalNamespace::LightGroupRotationYTransform,GlobalNamespace::LightGroupRotationZTransform>(THROW_UNLESS(::il2cpp_utils::New<LightRotationGroup>())) {}
+ GlobalNamespace::LightRotationGroup GlobalNamespace::LightRotationGroup::New_ctor()  {
+GlobalNamespace::LightRotationGroup o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightRotationGroup>())};
+return o;
+}
  void GlobalNamespace::LightRotationGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightRotationGroup>::get(),

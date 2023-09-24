@@ -1,17 +1,18 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__InitializationOperation_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ResourceLocationMap_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__InitalizationObjectsOperation_def.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__ResourceManagerRuntimeData_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__ObjectInitializationData_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
-#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ContentCatalogData_def.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__ResourceManagerDiagnostics_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__InitalizationObjectsOperation_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/AddressableAssets/Initialization/zzzz__InitializationOperation_def.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ContentCatalogData_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ResourceLocationMap_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__ObjectInitializationData_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c._ctor
@@ -60,8 +61,10 @@ return ::cordl_internals::getStaticField<UnityEngine::AddressableAssets::Initial
  System::Func_2<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider,bool> UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c::__get___9__13_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider,bool>, "<>9__13_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__Initialization__InitializationOperation____c>())) {}
+ UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c::New_ctor()  {
+UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c>())};
+return o;
+}
  void UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c>::get(),
@@ -132,8 +135,10 @@ constexpr void UnityEngine::AddressableAssets::Initialization::UnityEngine__Addr
 constexpr UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0::__get_remoteHashLocation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0>())) {}
+ UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0 UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0::New_ctor()  {
+UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0>::get(),
@@ -216,8 +221,10 @@ constexpr void UnityEngine::AddressableAssets::Initialization::UnityEngine__Addr
 constexpr UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0::__get_remoteHashLocation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0>())) {}
+ UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0 UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0::New_ctor()  {
+UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0>::get(),
@@ -476,8 +483,10 @@ constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOpe
 constexpr UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation UnityEngine::AddressableAssets::Initialization::InitializationOperation::__get_m_InitGroupOps() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, 0xe0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "aa", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::Initialization::InitializationOperation::InitializationOperation(UnityEngine::AddressableAssets::AddressablesImpl aa)  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator>(THROW_UNLESS(::il2cpp_utils::New<InitializationOperation>(aa))) {}
+ UnityEngine::AddressableAssets::Initialization::InitializationOperation UnityEngine::AddressableAssets::Initialization::InitializationOperation::New_ctor(UnityEngine::AddressableAssets::AddressablesImpl aa)  {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Initialization::InitializationOperation>(aa))};
+return o;
+}
  void UnityEngine::AddressableAssets::Initialization::InitializationOperation::_ctor(UnityEngine::AddressableAssets::AddressablesImpl aa)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Initialization::InitializationOperation>::get(),

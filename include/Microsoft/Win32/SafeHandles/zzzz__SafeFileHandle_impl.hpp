@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Micro
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "preexistingHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
- Microsoft::Win32::SafeHandles::SafeFileHandle::SafeFileHandle(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle)  : Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid(THROW_UNLESS(::il2cpp_utils::New<SafeFileHandle>(preexistingHandle, ownsHandle))) {}
+ Microsoft::Win32::SafeHandles::SafeFileHandle Microsoft::Win32::SafeHandles::SafeFileHandle::New_ctor(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle)  {
+Microsoft::Win32::SafeHandles::SafeFileHandle o{THROW_UNLESS(::il2cpp_utils::New<Microsoft::Win32::SafeHandles::SafeFileHandle>(preexistingHandle, ownsHandle))};
+return o;
+}
  void Microsoft::Win32::SafeHandles::SafeFileHandle::_ctor(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Microsoft::Win32::SafeHandles::SafeFileHandle>::get(),

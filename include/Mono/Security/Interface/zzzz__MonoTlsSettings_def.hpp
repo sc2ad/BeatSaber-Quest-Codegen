@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace Mono::Security::Interface {
+class ICertificateValidator;
+}
 namespace System {
 struct DateTime;
 }
@@ -10,16 +13,7 @@ namespace Mono::Security::Interface {
 struct TlsProtocols;
 }
 namespace Mono::Security::Interface {
-struct CipherSuiteCode;
-}
-namespace Mono::Security::Interface {
 class MonoRemoteCertificateValidationCallback;
-}
-namespace Mono::Security::Interface {
-class ICertificateValidator;
-}
-namespace Mono::Security::Interface {
-class MonoLocalCertificateSelectionCallback;
 }
 namespace System {
 template<typename T>
@@ -27,6 +21,12 @@ struct Nullable_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
+}
+namespace Mono::Security::Interface {
+class MonoLocalCertificateSelectionCallback;
+}
+namespace Mono::Security::Interface {
+struct CipherSuiteCode;
 }
 // Forward declare root types
 namespace Mono::Security::Interface {
@@ -299,8 +299,7 @@ static Mono::Security::Interface::MonoTlsSettings __declspec(property(get=get_De
 /// @brief Method set_EnabledCiphers addr 0x22958a0 size 0x8 virtual false final false
  void set_EnabledCiphers(::ArrayW<Mono::Security::Interface::CipherSuiteCode> value) ;
 
-// Ctor Parameters []
-explicit MonoTlsSettings() ;
+static Mono::Security::Interface::MonoTlsSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x22958a8 size 0x14 virtual false final false
  void _ctor() ;
@@ -320,8 +319,7 @@ static Mono::Security::Interface::MonoTlsSettings CopyDefaultSettings() ;
 /// @brief Method Clone addr 0x2295968 size 0x60 virtual false final false
  Mono::Security::Interface::MonoTlsSettings Clone() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }]
-explicit MonoTlsSettings(Mono::Security::Interface::MonoTlsSettings other) ;
+static Mono::Security::Interface::MonoTlsSettings New_ctor(Mono::Security::Interface::MonoTlsSettings other) ;
 
 /// @brief Method .ctor addr 0x2295a50 size 0x148 virtual false final false
  void _ctor(Mono::Security::Interface::MonoTlsSettings other) ;

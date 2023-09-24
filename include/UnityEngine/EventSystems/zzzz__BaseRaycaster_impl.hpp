@@ -314,8 +314,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::BaseRaycaster::BaseRaycaster()  : UnityEngine::EventSystems::UIBehaviour(THROW_UNLESS(::il2cpp_utils::New<BaseRaycaster>())) {}
+ UnityEngine::EventSystems::BaseRaycaster UnityEngine::EventSystems::BaseRaycaster::New_ctor()  {
+UnityEngine::EventSystems::BaseRaycaster o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::BaseRaycaster>())};
+return o;
+}
  void UnityEngine::EventSystems::BaseRaycaster::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::BaseRaycaster>::get(),

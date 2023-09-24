@@ -65,8 +65,7 @@ constexpr System::DateTime __get_dt() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dt", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit DateTimeObject(System::DateTime dt) ;
+static Org::BouncyCastle::Utilities::Date::DateTimeObject New_ctor(System::DateTime dt) ;
 
 /// @brief Method .ctor addr 0x10c534c size 0x28 virtual false final false
  void _ctor(System::DateTime dt) ;

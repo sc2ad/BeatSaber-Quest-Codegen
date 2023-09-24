@@ -4,40 +4,52 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Zenject {
-class ILateTickable;
+class Zenject__TickableManager____c__DisplayClass18_0;
 }
 namespace Zenject {
-class ITickable;
+class Zenject__TickableManager____c__DisplayClass19_0;
+}
+namespace Zenject {
+class ILateTickable;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class TickablesTaskUpdater;
 }
 namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
 class FixedTickablesTaskUpdater;
-}
-namespace Zenject {
-class IFixedTickable;
-}
-namespace ModestTree::Util {
-template<typename T1,typename T2>
-class ValuePair_2;
-}
-namespace Zenject {
-class LateTickablesTaskUpdater;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class LateTickablesTaskUpdater;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class Zenject__TickableManager____c__DisplayClass17_0;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace ModestTree::Util {
+template<typename T1,typename T2>
+class ValuePair_2;
+}
+namespace Zenject {
+class Zenject__TickableManager____c;
+}
+namespace Zenject {
+class ITickable;
+}
+namespace Zenject {
+class IFixedTickable;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -110,8 +122,7 @@ constexpr Zenject::IFixedTickable __get_tickable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__TickableManager____c__DisplayClass17_0() ;
+static Zenject::Zenject__TickableManager____c__DisplayClass17_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da19d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -216,8 +227,7 @@ static System::Func_2<ModestTree::Util::ValuePair_2<System::Type,int32_t>,int32_
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__TickableManager____c() ;
+static Zenject::Zenject__TickableManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da2fe4 size 0x8 virtual false final false
  void _ctor() ;
@@ -301,8 +311,7 @@ constexpr Zenject::ITickable __get_tickable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__TickableManager____c__DisplayClass18_0() ;
+static Zenject::Zenject__TickableManager____c__DisplayClass18_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da19d8 size 0x8 virtual false final false
  void _ctor() ;
@@ -371,8 +380,7 @@ constexpr Zenject::ILateTickable __get_tickable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__TickableManager____c__DisplayClass19_0() ;
+static Zenject::Zenject__TickableManager____c__DisplayClass19_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da19e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -510,8 +518,7 @@ constexpr bool __get__isPaused() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TickableManager() ;
+static Zenject::TickableManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da01d4 size 0xbc virtual false final false
  void _ctor() ;

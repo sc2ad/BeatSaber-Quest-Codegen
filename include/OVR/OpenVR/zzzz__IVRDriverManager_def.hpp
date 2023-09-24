@@ -14,6 +14,15 @@ class AsyncCallback;
 namespace System::Text {
 class StringBuilder;
 }
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRDriverManager___GetDriverName;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRDriverManager___GetDriverHandle;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRDriverManager___GetDriverCount;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 class OVR__OpenVR__IVRDriverManager___GetDriverCount;
@@ -69,8 +78,7 @@ constexpr explicit OVR__OpenVR__IVRDriverManager___GetDriverCount(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRDriverManager___GetDriverCount(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverCount New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265f9e0 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -130,8 +138,7 @@ constexpr explicit OVR__OpenVR__IVRDriverManager___GetDriverName(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRDriverManager___GetDriverName(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverName New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265faf8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -191,8 +198,7 @@ constexpr explicit OVR__OpenVR__IVRDriverManager___GetDriverHandle(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRDriverManager___GetDriverHandle(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverHandle New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265fc9c size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace HMUI {
-class ViewController;
-}
 namespace GlobalNamespace {
 class SettingsFlowCoordinator;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace HMUI {
 class ButtonBinder;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace HMUI {
+class ViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +105,7 @@ constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 /// @brief Method OnDisable addr 0x2154810 size 0x1c virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit PresentHiddenSettingsAfterNClicks() ;
+static GlobalNamespace::PresentHiddenSettingsAfterNClicks New_ctor() ;
 
 /// @brief Method .ctor addr 0x215482c size 0x70 virtual false final false
  void _ctor() ;

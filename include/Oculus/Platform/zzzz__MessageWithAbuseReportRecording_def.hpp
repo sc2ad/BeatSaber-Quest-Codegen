@@ -13,7 +13,7 @@ class MessageWithAbuseReportRecording;
 // Type: Oculus.Platform::MessageWithAbuseReportRecording
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13379)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4423 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13379)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4423 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13208))
 // CS Name: Oculus.Platform.MessageWithAbuseReportRecording
 class CORDL_TYPE MessageWithAbuseReportRecording : public Oculus::Platform::Message_1<Oculus::Platform::Models::AbuseReportRecording> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithAbuseReportRecording(void* ptr) noexcept : Oculus:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithAbuseReportRecording(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithAbuseReportRecording New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257fb00 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

@@ -213,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::AmbientTemperatureSensor::AmbientTemperatureSensor()  : UnityEngine::InputSystem::Sensor(THROW_UNLESS(::il2cpp_utils::New<AmbientTemperatureSensor>())) {}
+ UnityEngine::InputSystem::AmbientTemperatureSensor UnityEngine::InputSystem::AmbientTemperatureSensor::New_ctor()  {
+UnityEngine::InputSystem::AmbientTemperatureSensor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::AmbientTemperatureSensor>())};
+return o;
+}
  void UnityEngine::InputSystem::AmbientTemperatureSensor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::AmbientTemperatureSensor>::get(),

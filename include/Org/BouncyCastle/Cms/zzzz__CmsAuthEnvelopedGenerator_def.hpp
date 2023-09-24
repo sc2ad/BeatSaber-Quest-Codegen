@@ -87,8 +87,7 @@ static ::StringW __get_Aes256Gcm() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsAuthEnvelopedGenerator() ;
+static Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1152478 size 0x8 virtual false final false
  void _ctor() ;

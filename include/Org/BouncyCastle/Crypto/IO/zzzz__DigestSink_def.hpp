@@ -66,8 +66,7 @@ constexpr Org::BouncyCastle::Crypto::IDigest __get_mDigest() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit DigestSink(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::IO::DigestSink New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe7b9dc size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

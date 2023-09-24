@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithLightGroupIds_def.hpp"
-namespace GlobalNamespace {
-class DirectionalLight;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class DirectionalLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,8 +65,7 @@ constexpr GlobalNamespace::DirectionalLight __get__directionalLight() const;
 /// @brief Method ColorWasSet addr 0x1f9cca8 size 0x20 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit DirectionalLightWithLightGroupIds() ;
+static GlobalNamespace::DirectionalLightWithLightGroupIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9ccc8 size 0x18 virtual false final false
  void _ctor() ;

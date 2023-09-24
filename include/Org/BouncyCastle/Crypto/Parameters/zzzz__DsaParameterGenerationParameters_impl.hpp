@@ -150,8 +150,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationPara
 constexpr int32_t Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::__get_usageIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "L", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "N", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::DsaParameterGenerationParameters(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DsaParameterGenerationParameters>(L, N, certainty, random))) {}
+ Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::New_ctor(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random)  {
+Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters>(L, N, certainty, random))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::_ctor(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters>::get(),
@@ -161,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, L, N, certainty, random);
 }
-// Ctor Parameters [CppParam { name: "L", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "N", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "usageIndex", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::DsaParameterGenerationParameters(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random, int32_t usageIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DsaParameterGenerationParameters>(L, N, certainty, random, usageIndex))) {}
+ Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::New_ctor(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random, int32_t usageIndex)  {
+Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters>(L, N, certainty, random, usageIndex))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::_ctor(int32_t L, int32_t N, int32_t certainty, Org::BouncyCastle::Security::SecureRandom random, int32_t usageIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters>::get(),

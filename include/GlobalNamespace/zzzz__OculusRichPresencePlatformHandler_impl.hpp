@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OculusRichPresencePlatformHandler_def.hpp"
-#include "GlobalNamespace/zzzz__IRichPresencePlatformHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
+#include "GlobalNamespace/zzzz__IRichPresencePlatformHandler_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OculusRichPresencePlatformHandler.SetPresence
 template<>
 
@@ -75,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusRichPresencePlatformHandler::OculusRichPresencePlatformHandler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OculusRichPresencePlatformHandler>())) {}
+ GlobalNamespace::OculusRichPresencePlatformHandler GlobalNamespace::OculusRichPresencePlatformHandler::New_ctor()  {
+GlobalNamespace::OculusRichPresencePlatformHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusRichPresencePlatformHandler>())};
+return o;
+}
  void GlobalNamespace::OculusRichPresencePlatformHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusRichPresencePlatformHandler>::get(),

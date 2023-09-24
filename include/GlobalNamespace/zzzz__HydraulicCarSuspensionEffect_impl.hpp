@@ -2,12 +2,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HydraulicCarSuspensionEffect_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "UnityEngine/zzzz__SpringJoint_def.hpp"
-#include "UnityEngine/zzzz__Rigidbody_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
+#include "UnityEngine/zzzz__Rigidbody_def.hpp"
 //  Writing Method size for method: GlobalNamespace::HydraulicCarSuspensionEffect.Start
 template<>
 
@@ -207,8 +207,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, basicBeatmapEventData);
 }
-// Ctor Parameters []
- GlobalNamespace::HydraulicCarSuspensionEffect::HydraulicCarSuspensionEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HydraulicCarSuspensionEffect>())) {}
+ GlobalNamespace::HydraulicCarSuspensionEffect GlobalNamespace::HydraulicCarSuspensionEffect::New_ctor()  {
+GlobalNamespace::HydraulicCarSuspensionEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HydraulicCarSuspensionEffect>())};
+return o;
+}
  void GlobalNamespace::HydraulicCarSuspensionEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HydraulicCarSuspensionEffect>::get(),

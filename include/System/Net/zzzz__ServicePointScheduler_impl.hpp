@@ -2,20 +2,21 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__ServicePointScheduler_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
-#include "System/Net/zzzz__ServicePoint_def.hpp"
 #include "System/Net/zzzz__WebOperation_def.hpp"
-#include "System/zzzz__ValueTuple_3_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
+#include "System/Net/zzzz__ServicePointScheduler_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Net/zzzz__WebConnection_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/Net/zzzz__ServicePoint_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/zzzz__WebConnection_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
@@ -234,8 +235,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::ServicePointScheduler, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "scheduler", ty: "System::Net::ServicePointScheduler", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::System__Net__ServicePointScheduler__ConnectionGroup::System__Net__ServicePointScheduler__ConnectionGroup(System::Net::ServicePointScheduler scheduler, ::StringW name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__ServicePointScheduler__ConnectionGroup>(scheduler, name))) {}
+ System::Net::System__Net__ServicePointScheduler__ConnectionGroup System::Net::System__Net__ServicePointScheduler__ConnectionGroup::New_ctor(System::Net::ServicePointScheduler scheduler, ::StringW name)  {
+System::Net::System__Net__ServicePointScheduler__ConnectionGroup o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__ServicePointScheduler__ConnectionGroup>(scheduler, name))};
+return o;
+}
  void System::Net::System__Net__ServicePointScheduler__ConnectionGroup::_ctor(System::Net::ServicePointScheduler scheduler, ::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__ServicePointScheduler__ConnectionGroup>::get(),
@@ -363,8 +366,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::System__Net__ServicePo
  System::Func_2<::bs_hook::Il2CppWrapperType,bool> GlobalNamespace::System__Net__ServicePointScheduler__AsyncManualResetEvent____c::__get___9__4_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,bool>, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Net__ServicePointScheduler__AsyncManualResetEvent____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::System__Net__ServicePointScheduler__AsyncManualResetEvent____c::System__Net__ServicePointScheduler__AsyncManualResetEvent____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__ServicePointScheduler__AsyncManualResetEvent____c>())) {}
+ GlobalNamespace::System__Net__ServicePointScheduler__AsyncManualResetEvent____c GlobalNamespace::System__Net__ServicePointScheduler__AsyncManualResetEvent____c::New_ctor()  {
+GlobalNamespace::System__Net__ServicePointScheduler__AsyncManualResetEvent____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__Net__ServicePointScheduler__AsyncManualResetEvent____c>())};
+return o;
+}
  void GlobalNamespace::System__Net__ServicePointScheduler__AsyncManualResetEvent____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Net__ServicePointScheduler__AsyncManualResetEvent____c>::get(),
@@ -484,8 +489,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "state", ty: "bool", modifiers: "", def_value: None }]
- System::Net::System__Net__ServicePointScheduler__AsyncManualResetEvent::System__Net__ServicePointScheduler__AsyncManualResetEvent(bool state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__ServicePointScheduler__AsyncManualResetEvent>(state))) {}
+ System::Net::System__Net__ServicePointScheduler__AsyncManualResetEvent System::Net::System__Net__ServicePointScheduler__AsyncManualResetEvent::New_ctor(bool state)  {
+System::Net::System__Net__ServicePointScheduler__AsyncManualResetEvent o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__ServicePointScheduler__AsyncManualResetEvent>(state))};
+return o;
+}
  void System::Net::System__Net__ServicePointScheduler__AsyncManualResetEvent::_ctor(bool state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__ServicePointScheduler__AsyncManualResetEvent>::get(),
@@ -1185,8 +1192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "servicePoint", ty: "System::Net::ServicePoint", modifiers: "", def_value: None }, CppParam { name: "connectionLimit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxIdleTime", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::ServicePointScheduler::ServicePointScheduler(System::Net::ServicePoint servicePoint, int32_t connectionLimit, int32_t maxIdleTime)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServicePointScheduler>(servicePoint, connectionLimit, maxIdleTime))) {}
+ System::Net::ServicePointScheduler System::Net::ServicePointScheduler::New_ctor(System::Net::ServicePoint servicePoint, int32_t connectionLimit, int32_t maxIdleTime)  {
+System::Net::ServicePointScheduler o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ServicePointScheduler>(servicePoint, connectionLimit, maxIdleTime))};
+return o;
+}
  void System::Net::ServicePointScheduler::_ctor(System::Net::ServicePoint servicePoint, int32_t connectionLimit, int32_t maxIdleTime)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ServicePointScheduler>::get(),

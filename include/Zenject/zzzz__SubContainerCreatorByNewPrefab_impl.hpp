@@ -1,12 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefab_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 //  Writing Method size for method: Zenject::SubContainerCreatorByNewPrefab._ctor
 template<>
 
@@ -63,8 +63,10 @@ constexpr void Zenject::SubContainerCreatorByNewPrefab::__set__container(Zenject
 constexpr Zenject::DiContainer Zenject::SubContainerCreatorByNewPrefab::__get__container() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorByNewPrefab::SubContainerCreatorByNewPrefab(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorByNewPrefab>(container, prefabProvider, gameObjectBindInfo))) {}
+ Zenject::SubContainerCreatorByNewPrefab Zenject::SubContainerCreatorByNewPrefab::New_ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo)  {
+Zenject::SubContainerCreatorByNewPrefab o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorByNewPrefab>(container, prefabProvider, gameObjectBindInfo))};
+return o;
+}
  void Zenject::SubContainerCreatorByNewPrefab::_ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorByNewPrefab>::get(),

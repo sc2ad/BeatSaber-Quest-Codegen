@@ -2,16 +2,17 @@
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JProperty_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JTokenType_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JsonMergeSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JsonLoadSettings_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JTokenType_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JProperty_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JsonMergeSettings_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
@@ -147,8 +148,10 @@ constexpr void GlobalNamespace::Newtonsoft__Json__Linq__JProperty__JPropertyList
 constexpr Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyList GlobalNamespace::Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyList, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1::Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1>(__1__state))) {}
+ GlobalNamespace::Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1 GlobalNamespace::Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1::New_ctor(int32_t __1__state)  {
+GlobalNamespace::Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1>(__1__state))};
+return o;
+}
  void GlobalNamespace::Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1>::get(),
@@ -606,8 +609,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, index, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyList::Newtonsoft__Json__Linq__JProperty__JPropertyList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Linq__JProperty__JPropertyList>())) {}
+ Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyList Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyList::New_ctor()  {
+Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyList o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyList>())};
+return o;
+}
  void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyList>::get(),
@@ -1073,8 +1078,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JProperty", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JProperty::JProperty(Newtonsoft::Json::Linq::JProperty other)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JProperty>(other))) {}
+ Newtonsoft::Json::Linq::JProperty Newtonsoft::Json::Linq::JProperty::New_ctor(Newtonsoft::Json::Linq::JProperty other)  {
+Newtonsoft::Json::Linq::JProperty o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JProperty>(other))};
+return o;
+}
  void Newtonsoft::Json::Linq::JProperty::_ctor(Newtonsoft::Json::Linq::JProperty other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JProperty>::get(),
@@ -1192,8 +1199,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Newtonsoft::Json::Linq::JTokenType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JProperty::JProperty(::StringW name)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JProperty>(name))) {}
+ Newtonsoft::Json::Linq::JProperty Newtonsoft::Json::Linq::JProperty::New_ctor(::StringW name)  {
+Newtonsoft::Json::Linq::JProperty o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JProperty>(name))};
+return o;
+}
  void Newtonsoft::Json::Linq::JProperty::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JProperty>::get(),
@@ -1203,8 +1212,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JProperty::JProperty(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JProperty>(name, content))) {}
+ Newtonsoft::Json::Linq::JProperty Newtonsoft::Json::Linq::JProperty::New_ctor(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content)  {
+Newtonsoft::Json::Linq::JProperty o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JProperty>(name, content))};
+return o;
+}
  void Newtonsoft::Json::Linq::JProperty::_ctor(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JProperty>::get(),
@@ -1214,8 +1225,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, content);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JProperty::JProperty(::StringW name, ::bs_hook::Il2CppWrapperType content)  : Newtonsoft::Json::Linq::JContainer(THROW_UNLESS(::il2cpp_utils::New<JProperty>(name, content))) {}
+ Newtonsoft::Json::Linq::JProperty Newtonsoft::Json::Linq::JProperty::New_ctor(::StringW name, ::bs_hook::Il2CppWrapperType content)  {
+Newtonsoft::Json::Linq::JProperty o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JProperty>(name, content))};
+return o;
+}
  void Newtonsoft::Json::Linq::JProperty::_ctor(::StringW name, ::bs_hook::Il2CppWrapperType content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JProperty>::get(),

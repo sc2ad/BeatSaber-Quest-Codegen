@@ -80,8 +80,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::KeyParameter __get_key() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::Parameters::KeyParameter", modifiers: "", def_value: None }, CppParam { name: "tweak", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TweakableBlockCipherParameters(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, ::ArrayW<uint8_t> tweak) ;
+static Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters New_ctor(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, ::ArrayW<uint8_t> tweak) ;
 
 /// @brief Method .ctor addr 0xead734 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, ::ArrayW<uint8_t> tweak) ;

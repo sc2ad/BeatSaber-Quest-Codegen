@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
-#include "UnityEngine/zzzz__UnityException_def.hpp"
-#include "UnityEngine/zzzz__TextureWrapMode_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
-#include "UnityEngine/zzzz__ColorSpace_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
+#include "UnityEngine/zzzz__ColorSpace_def.hpp"
+#include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
+#include "UnityEngine/zzzz__TextureWrapMode_def.hpp"
+#include "UnityEngine/zzzz__UnityException_def.hpp"
+#include "UnityEngine/zzzz__FilterMode_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__FormatUsage_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__FilterMode_def.hpp"
 //  Writing Method size for method: UnityEngine::Texture._ctor
 template<>
 
@@ -492,8 +492,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
  int32_t UnityEngine::Texture::__get_GenerateAllMips()  {
 return ::cordl_internals::getStaticField<int32_t, "GenerateAllMips", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Texture::Texture()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<Texture>())) {}
+ UnityEngine::Texture UnityEngine::Texture::New_ctor()  {
+UnityEngine::Texture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture>())};
+return o;
+}
  void UnityEngine::Texture::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture>::get(),

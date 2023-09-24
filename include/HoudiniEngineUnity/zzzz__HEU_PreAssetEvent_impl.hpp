@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_PreAssetEvent::HEU_PreAssetEvent()  : UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_PreAssetEventData>(THROW_UNLESS(::il2cpp_utils::New<HEU_PreAssetEvent>())) {}
+ HoudiniEngineUnity::HEU_PreAssetEvent HoudiniEngineUnity::HEU_PreAssetEvent::New_ctor()  {
+HoudiniEngineUnity::HEU_PreAssetEvent o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_PreAssetEvent>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_PreAssetEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_PreAssetEvent>::get(),

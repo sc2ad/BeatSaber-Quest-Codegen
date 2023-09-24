@@ -24,8 +24,10 @@ constexpr void System::Xml::Serialization::XmlAttributeAttribute::__set_attribut
 constexpr ::StringW System::Xml::Serialization::XmlAttributeAttribute::__get_attributeName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "attributeName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Serialization::XmlAttributeAttribute::XmlAttributeAttribute(::StringW attributeName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<XmlAttributeAttribute>(attributeName))) {}
+ System::Xml::Serialization::XmlAttributeAttribute System::Xml::Serialization::XmlAttributeAttribute::New_ctor(::StringW attributeName)  {
+System::Xml::Serialization::XmlAttributeAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Serialization::XmlAttributeAttribute>(attributeName))};
+return o;
+}
  void System::Xml::Serialization::XmlAttributeAttribute::_ctor(::StringW attributeName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Serialization::XmlAttributeAttribute>::get(),

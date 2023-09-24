@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__SignalExtensions_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder_def.hpp"
 #include "Zenject/zzzz__BindSignalIdToBinder_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__SignalDeclarationBindInfo_def.hpp"
 //  Writing Method size for method: Zenject::SignalExtensions.CreateDefaultSignalDeclarationBindInfo
 template<>

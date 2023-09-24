@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AppInit_impl.hpp"
 #include "GlobalNamespace/zzzz__PCAppInit_def.hpp"
-#include "GlobalNamespace/zzzz__FileSaveData_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__SteamInit_def.hpp"
 #include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
 #include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
+#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__OculusInit_def.hpp"
+#include "GlobalNamespace/zzzz__FileSaveData_def.hpp"
+#include "GlobalNamespace/zzzz__SteamInit_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PCAppInit.AppStartAndMultiSceneEditorSetup
 template<>
 
@@ -176,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PCAppInit::PCAppInit()  : GlobalNamespace::AppInit(THROW_UNLESS(::il2cpp_utils::New<PCAppInit>())) {}
+ GlobalNamespace::PCAppInit GlobalNamespace::PCAppInit::New_ctor()  {
+GlobalNamespace::PCAppInit o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PCAppInit>())};
+return o;
+}
  void GlobalNamespace::PCAppInit::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PCAppInit>::get(),

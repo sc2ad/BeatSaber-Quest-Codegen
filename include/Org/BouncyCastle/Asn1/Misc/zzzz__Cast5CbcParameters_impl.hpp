@@ -2,9 +2,9 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Misc/zzzz__Cast5CbcParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters.GetInstance
 template<>
 
@@ -128,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters, false>(nullptr, ___internal_method, o);
 }
-// Ctor Parameters [CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyLength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters::Cast5CbcParameters(::ArrayW<uint8_t> iv, int32_t keyLength)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Cast5CbcParameters>(iv, keyLength))) {}
+ Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters::New_ctor(::ArrayW<uint8_t> iv, int32_t keyLength)  {
+Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters>(iv, keyLength))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters::_ctor(::ArrayW<uint8_t> iv, int32_t keyLength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters>::get(),
@@ -139,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, iv, keyLength);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters::Cast5CbcParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Cast5CbcParameters>(seq))) {}
+ Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters>::get(),

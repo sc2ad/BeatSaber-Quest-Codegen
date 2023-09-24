@@ -47,8 +47,7 @@ constexpr explicit ExcludeFromDocsAttribute(void* ptr) noexcept : System::Attrib
 
 // Methods
 
-// Ctor Parameters []
-explicit ExcludeFromDocsAttribute() ;
+static UnityEngine::Internal::ExcludeFromDocsAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b71c40 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,14 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::Playables {
-struct Playable;
+namespace GlobalNamespace {
+class GlobalNamespace__CustomTweenBehaviour____c;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
@@ -88,8 +91,7 @@ static System::Func_2<int32_t,float_t> __get___9__21_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__CustomTweenBehaviour____c() ;
+static GlobalNamespace::GlobalNamespace__CustomTweenBehaviour____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b272c size 0x8 virtual false final false
  void _ctor() ;
@@ -268,8 +270,7 @@ constexpr ::ArrayW<float_t> __get__randomizedDuration() const;
 /// @brief Method OnBehaviourPlay addr 0x21b24c4 size 0x1ec virtual true final false
  void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info) ;
 
-// Ctor Parameters []
-explicit CustomTweenBehaviour() ;
+static GlobalNamespace::CustomTweenBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b26b0 size 0x18 virtual false final false
  void _ctor() ;

@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
 namespace GlobalNamespace {
 class DnsEndPoint;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

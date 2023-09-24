@@ -9,6 +9,9 @@ class MainEffectSO;
 namespace GlobalNamespace {
 class NamedPreset;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset;
@@ -67,8 +70,7 @@ constexpr GlobalNamespace::MainEffectSO __get_mainEffect() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset() ;
+static GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ef680 size 0x8 virtual false final false
  void _ctor() ;
@@ -143,8 +145,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsP
 /// @brief Method get_namedPresets addr 0x21ef670 size 0x8 virtual true final false
  ::ArrayW<GlobalNamespace::NamedPreset> get_namedPresets() ;
 
-// Ctor Parameters []
-explicit MainEffectGraphicsSettingsPresetsSO() ;
+static GlobalNamespace::MainEffectGraphicsSettingsPresetsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ef678 size 0x8 virtual false final false
  void _ctor() ;

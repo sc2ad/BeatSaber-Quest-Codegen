@@ -2,13 +2,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingSpriteSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingSpriteEffect_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FlyingSpriteSpawner.SpawnFlyingSprite
 template<>
 
@@ -136,8 +136,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, flyingObjectEffect);
 }
-// Ctor Parameters []
- GlobalNamespace::FlyingSpriteSpawner::FlyingSpriteSpawner()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FlyingSpriteSpawner>())) {}
+ GlobalNamespace::FlyingSpriteSpawner GlobalNamespace::FlyingSpriteSpawner::New_ctor()  {
+GlobalNamespace::FlyingSpriteSpawner o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FlyingSpriteSpawner>())};
+return o;
+}
  void GlobalNamespace::FlyingSpriteSpawner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FlyingSpriteSpawner>::get(),

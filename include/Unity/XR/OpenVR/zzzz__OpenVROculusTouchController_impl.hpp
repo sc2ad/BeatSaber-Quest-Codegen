@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_impl.hpp"
 #include "Unity/XR/OpenVR/zzzz__OpenVROculusTouchController_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
 //  Writing Method size for method: Unity::XR::OpenVR::OpenVROculusTouchController.get_thumbstick
 template<>
 
@@ -686,8 +686,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::OpenVR::OpenVROculusTouchController::OpenVROculusTouchController()  : UnityEngine::InputSystem::XR::XRControllerWithRumble(THROW_UNLESS(::il2cpp_utils::New<OpenVROculusTouchController>())) {}
+ Unity::XR::OpenVR::OpenVROculusTouchController Unity::XR::OpenVR::OpenVROculusTouchController::New_ctor()  {
+Unity::XR::OpenVR::OpenVROculusTouchController o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::OpenVR::OpenVROculusTouchController>())};
+return o;
+}
  void Unity::XR::OpenVR::OpenVROculusTouchController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::OpenVR::OpenVROculusTouchController>::get(),

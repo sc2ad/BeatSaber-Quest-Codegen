@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__PoseControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
+#include "UnityEngine/XR/OpenXR/Input/zzzz__Pose_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
-#include "UnityEngine/XR/OpenXR/Input/zzzz__Pose_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::OpenXR::Input::PoseControl.get_isTracked
 template<>
 
@@ -422,8 +422,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Input::PoseControl::PoseControl()  : UnityEngine::InputSystem::InputControl_1<UnityEngine::XR::OpenXR::Input::Pose>(THROW_UNLESS(::il2cpp_utils::New<PoseControl>())) {}
+ UnityEngine::XR::OpenXR::Input::PoseControl UnityEngine::XR::OpenXR::Input::PoseControl::New_ctor()  {
+UnityEngine::XR::OpenXR::Input::PoseControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Input::PoseControl>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Input::PoseControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Input::PoseControl>::get(),

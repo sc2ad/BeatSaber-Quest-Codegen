@@ -2,11 +2,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -14,8 +11,11 @@ struct StreamingContext;
 namespace System::Runtime::Serialization {
 class SurrogateHashtable;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Serialization {
+class ISerializationSurrogate;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -81,8 +81,7 @@ constexpr System::Runtime::Serialization::ISurrogateSelector __get_m_nextSelecto
 
 // Methods
 
-// Ctor Parameters []
-explicit SurrogateSelector() ;
+static System::Runtime::Serialization::SurrogateSelector New_ctor() ;
 
 /// @brief Method .ctor addr 0x2353794 size 0x70 virtual false final false
  void _ctor() ;

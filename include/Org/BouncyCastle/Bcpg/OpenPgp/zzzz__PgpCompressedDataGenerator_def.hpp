@@ -8,11 +8,17 @@
 namespace System::IO {
 class Stream;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class IStreamGenerator;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct CompressionAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class IStreamGenerator;
+class Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
@@ -69,8 +75,7 @@ constexpr explicit Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream(System::IO::Stream output) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream New_ctor(System::IO::Stream output) ;
 
 /// @brief Method .ctor addr 0x101999c size 0x8 virtual false final false
  void _ctor(System::IO::Stream output) ;
@@ -124,8 +129,7 @@ constexpr explicit Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream(System::IO::Stream output, int32_t level, bool nowrap) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream New_ctor(System::IO::Stream output, int32_t level, bool nowrap) ;
 
 /// @brief Method .ctor addr 0x1019990 size 0xc virtual false final false
  void _ctor(System::IO::Stream output, int32_t level, bool nowrap) ;
@@ -213,14 +217,12 @@ constexpr Org::BouncyCastle::Bcpg::BcpgOutputStream __get_pkOut() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::CompressionAlgorithmTag", modifiers: "", def_value: None }]
-explicit PgpCompressedDataGenerator(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator New_ctor(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm) ;
 
 /// @brief Method .ctor addr 0x101943c size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::CompressionAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "compression", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PgpCompressedDataGenerator(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator New_ctor(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression) ;
 
 /// @brief Method .ctor addr 0x1019444 size 0x124 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression) ;

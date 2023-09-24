@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DnsEndPoint.get_endPoint
 template<>
 
@@ -205,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::IPEndPoint, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::DnsEndPoint::DnsEndPoint(::StringW hostName, int32_t port)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DnsEndPoint>(hostName, port))) {}
+ GlobalNamespace::DnsEndPoint GlobalNamespace::DnsEndPoint::New_ctor(::StringW hostName, int32_t port)  {
+GlobalNamespace::DnsEndPoint o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DnsEndPoint>(hostName, port))};
+return o;
+}
  void GlobalNamespace::DnsEndPoint::_ctor(::StringW hostName, int32_t port)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DnsEndPoint>::get(),
@@ -216,8 +218,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, hostName, port);
 }
-// Ctor Parameters [CppParam { name: "endPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }]
- GlobalNamespace::DnsEndPoint::DnsEndPoint(System::Net::IPEndPoint endPoint)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DnsEndPoint>(endPoint))) {}
+ GlobalNamespace::DnsEndPoint GlobalNamespace::DnsEndPoint::New_ctor(System::Net::IPEndPoint endPoint)  {
+GlobalNamespace::DnsEndPoint o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DnsEndPoint>(endPoint))};
+return o;
+}
  void GlobalNamespace::DnsEndPoint::_ctor(System::Net::IPEndPoint endPoint)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DnsEndPoint>::get(),

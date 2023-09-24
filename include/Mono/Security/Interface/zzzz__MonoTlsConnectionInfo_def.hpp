@@ -102,8 +102,7 @@ constexpr ::StringW __get__PeerDomainName_k__BackingField() const;
 /// @brief Method ToString addr 0x22954c0 size 0xbc virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit MonoTlsConnectionInfo() ;
+static Mono::Security::Interface::MonoTlsConnectionInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x229557c size 0x8 virtual false final false
  void _ctor() ;

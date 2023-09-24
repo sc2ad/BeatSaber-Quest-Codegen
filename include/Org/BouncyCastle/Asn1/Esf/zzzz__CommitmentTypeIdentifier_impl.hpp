@@ -54,8 +54,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier::__get_ProofOfCreation()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "ProofOfCreation", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier::CommitmentTypeIdentifier()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CommitmentTypeIdentifier>())) {}
+ Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier::New_ctor()  {
+Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier>::get(),

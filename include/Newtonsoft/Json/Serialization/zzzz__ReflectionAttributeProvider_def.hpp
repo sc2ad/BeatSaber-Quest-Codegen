@@ -9,10 +9,10 @@ namespace Newtonsoft::Json::Serialization {
 class IAttributeProvider;
 }
 namespace System {
-class Attribute;
+class Type;
 }
 namespace System {
-class Type;
+class Attribute;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -72,8 +72,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__attributeProvider() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "attributeProvider", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit ReflectionAttributeProvider(::bs_hook::Il2CppWrapperType attributeProvider) ;
+static Newtonsoft::Json::Serialization::ReflectionAttributeProvider New_ctor(::bs_hook::Il2CppWrapperType attributeProvider) ;
 
 /// @brief Method .ctor addr 0x24f2e1c size 0x68 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType attributeProvider) ;

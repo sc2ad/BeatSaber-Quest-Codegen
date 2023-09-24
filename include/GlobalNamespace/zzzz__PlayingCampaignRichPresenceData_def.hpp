@@ -82,8 +82,7 @@ static constexpr ::ConstString  kPlayingCampaignRichPresenceLocalizationKey{u"PL
 /// @brief Method set_localizedDescription addr 0x222a3d8 size 0x8 virtual false final false
  void set_localizedDescription(::StringW value) ;
 
-// Ctor Parameters []
-explicit PlayingCampaignRichPresenceData() ;
+static GlobalNamespace::PlayingCampaignRichPresenceData New_ctor() ;
 
 /// @brief Method .ctor addr 0x222a3e0 size 0x5c virtual false final false
  void _ctor() ;

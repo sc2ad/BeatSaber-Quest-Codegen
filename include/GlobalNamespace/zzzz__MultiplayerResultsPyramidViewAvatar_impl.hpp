@@ -2,24 +2,24 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_2_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsPyramidViewAvatar_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "Tweening/zzzz__Vector3Tween_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "Tweening/zzzz__FloatTween_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerResultsPyramidViewAvatar_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Tweening/zzzz__ColorTween_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
 #include "GlobalNamespace/zzzz__GhostDuplicationEffect_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__GhostDuplicationEffect_def.hpp"
+#include "Tweening/zzzz__Vector3Tween_def.hpp"
+#include "Tweening/zzzz__FloatTween_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "Tweening/zzzz__ColorTween_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar.get_badgeDirector
 template<>
 
@@ -351,8 +351,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, startTransform, midTransform);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerResultsPyramidViewAvatar::MultiplayerResultsPyramidViewAvatar()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerResultsPyramidViewAvatar>())) {}
+ GlobalNamespace::MultiplayerResultsPyramidViewAvatar GlobalNamespace::MultiplayerResultsPyramidViewAvatar::New_ctor()  {
+GlobalNamespace::MultiplayerResultsPyramidViewAvatar o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerResultsPyramidViewAvatar>())};
+return o;
+}
  void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerResultsPyramidViewAvatar>::get(),
@@ -379,8 +381,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory::GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory()  : Zenject::PlaceholderFactory_2<GlobalNamespace::IConnectedPlayer,GlobalNamespace::MultiplayerResultsPyramidViewAvatar>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory GlobalNamespace::GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory>::get(),

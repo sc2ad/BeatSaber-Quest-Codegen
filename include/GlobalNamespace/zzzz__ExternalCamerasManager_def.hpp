@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class OculusMRCManager;
-}
 namespace UnityEngine {
 class Camera;
+}
+namespace GlobalNamespace {
+class OculusMRCManager;
 }
 namespace UnityEngine {
 class GameObject;
@@ -86,8 +86,7 @@ constexpr UnityEngine::Camera __get__mrcForegroundCameraPrefab() const;
 /// @brief Method InstantiateMixedRealityForegroundCameraGameObject addr 0x26760cc size 0x80 virtual false final false
  UnityEngine::GameObject InstantiateMixedRealityForegroundCameraGameObject(UnityEngine::GameObject mainCameraGameObject) ;
 
-// Ctor Parameters []
-explicit ExternalCamerasManager() ;
+static GlobalNamespace::ExternalCamerasManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x267614c size 0x8 virtual false final false
  void _ctor() ;

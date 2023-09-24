@@ -4,15 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace HoudiniEngineUnity {
+struct SessionMode;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace HoudiniEngineUnity {
-struct SessionMode;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

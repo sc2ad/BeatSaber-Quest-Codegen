@@ -34,8 +34,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::ConstrainedExecution::CriticalFinalizerObject::CriticalFinalizerObject()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CriticalFinalizerObject>())) {}
+ System::Runtime::ConstrainedExecution::CriticalFinalizerObject System::Runtime::ConstrainedExecution::CriticalFinalizerObject::New_ctor()  {
+System::Runtime::ConstrainedExecution::CriticalFinalizerObject o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::ConstrainedExecution::CriticalFinalizerObject>())};
+return o;
+}
  void System::Runtime::ConstrainedExecution::CriticalFinalizerObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::ConstrainedExecution::CriticalFinalizerObject>::get(),

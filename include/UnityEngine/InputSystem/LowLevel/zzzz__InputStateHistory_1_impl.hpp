@@ -2,15 +2,16 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Enumerator<UnityEngine::InputSystem::LowLevel::TouchState>._ctor
@@ -982,8 +983,11 @@ return System::Collections::IEnumerable(::bs_hook::Il2CppWrapperType::instance);
 constexpr  UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>::operator System::Collections::Generic::IReadOnlyCollection_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>() const noexcept {
 return System::Collections::Generic::IReadOnlyCollection_1<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record<UnityEngine::InputSystem::LowLevel::TouchState>>(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "maxStateSizeInBytes", ty: "System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }]
- UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>::InputStateHistory_1(System::Nullable_1<int32_t> maxStateSizeInBytes)  : UnityEngine::InputSystem::LowLevel::InputStateHistory(THROW_UNLESS(::il2cpp_utils::New<InputStateHistory_1>(maxStateSizeInBytes))) {}
+/// @param maxStateSizeInBytes: System::Nullable_1<int32_t> (default: {})
+ UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>::New_ctor(System::Nullable_1<int32_t> maxStateSizeInBytes)  {
+UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>>(maxStateSizeInBytes))};
+return o;
+}
 /// @param maxStateSizeInBytes: System::Nullable_1<int32_t> (default: {})
  void UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>::_ctor(System::Nullable_1<int32_t> maxStateSizeInBytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -994,8 +998,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, maxStateSizeInBytes);
 }
-// Ctor Parameters [CppParam { name: "control", ty: "UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState>", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>::InputStateHistory_1(UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> control)  : UnityEngine::InputSystem::LowLevel::InputStateHistory(THROW_UNLESS(::il2cpp_utils::New<InputStateHistory_1>(control))) {}
+ UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>::New_ctor(UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> control)  {
+UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>>(control))};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>::_ctor(UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> control)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>>::get(),
@@ -1005,8 +1011,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, control);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>::InputStateHistory_1(::StringW path)  : UnityEngine::InputSystem::LowLevel::InputStateHistory(THROW_UNLESS(::il2cpp_utils::New<InputStateHistory_1>(path))) {}
+ UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>::New_ctor(::StringW path)  {
+UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>>(path))};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>::_ctor(::StringW path)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InputStateHistory_1<UnityEngine::InputSystem::LowLevel::TouchState>>::get(),

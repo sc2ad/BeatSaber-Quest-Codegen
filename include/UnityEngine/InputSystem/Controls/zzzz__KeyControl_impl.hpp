@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::KeyControl::KeyControl()  : UnityEngine::InputSystem::Controls::ButtonControl(THROW_UNLESS(::il2cpp_utils::New<KeyControl>())) {}
+ UnityEngine::InputSystem::Controls::KeyControl UnityEngine::InputSystem::Controls::KeyControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::KeyControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::KeyControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::KeyControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::KeyControl>::get(),

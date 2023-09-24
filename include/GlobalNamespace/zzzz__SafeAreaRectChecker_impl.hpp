@@ -1,10 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SafeAreaRectChecker_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__MainCamera_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "GlobalNamespace/zzzz__MainCamera_def.hpp"
+#include "GlobalNamespace/zzzz__SafeAreaRectChecker_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData._ctor
 template<>
 
@@ -28,8 +29,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData::
 constexpr bool GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData::__get_checkingEnabled() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "checkingEnabled", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData::GlobalNamespace__SafeAreaRectChecker__InitData(bool checkingEnabled)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SafeAreaRectChecker__InitData>(checkingEnabled))) {}
+ GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData::New_ctor(bool checkingEnabled)  {
+GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData>(checkingEnabled))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData::_ctor(bool checkingEnabled)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SafeAreaRectChecker__InitData>::get(),
@@ -168,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SafeAreaRectChecker::SafeAreaRectChecker()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SafeAreaRectChecker>())) {}
+ GlobalNamespace::SafeAreaRectChecker GlobalNamespace::SafeAreaRectChecker::New_ctor()  {
+GlobalNamespace::SafeAreaRectChecker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SafeAreaRectChecker>())};
+return o;
+}
  void GlobalNamespace::SafeAreaRectChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SafeAreaRectChecker>::get(),

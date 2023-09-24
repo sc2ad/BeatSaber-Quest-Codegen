@@ -281,8 +281,10 @@ constexpr void System::Security::Cryptography::TailStream::__set__BufferFull(boo
 constexpr bool System::Security::Cryptography::TailStream::__get__BufferFull() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::Cryptography::TailStream::TailStream(int32_t bufferSize)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<TailStream>(bufferSize))) {}
+ System::Security::Cryptography::TailStream System::Security::Cryptography::TailStream::New_ctor(int32_t bufferSize)  {
+System::Security::Cryptography::TailStream o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::TailStream>(bufferSize))};
+return o;
+}
  void System::Security::Cryptography::TailStream::_ctor(int32_t bufferSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::TailStream>::get(),

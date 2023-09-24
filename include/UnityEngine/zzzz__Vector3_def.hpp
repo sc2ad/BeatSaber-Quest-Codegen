@@ -7,14 +7,14 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-template<typename T>
-class IEquatable_1;
+class IFormatProvider;
 }
 namespace System {
 class IFormattable;
 }
 namespace System {
-class IFormatProvider;
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine {

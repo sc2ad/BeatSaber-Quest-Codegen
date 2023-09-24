@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableDictionary_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IDictionary;
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
@@ -12,8 +12,8 @@ class IDictionaryEnumerator;
 namespace System::Collections {
 class ICollection;
 }
-namespace System {
-class Array;
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -85,8 +85,7 @@ constexpr System::Collections::IDictionary __get_d() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "d", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit UnmodifiableDictionaryProxy(System::Collections::IDictionary d) ;
+static Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy New_ctor(System::Collections::IDictionary d) ;
 
 /// @brief Method .ctor addr 0x10cb380 size 0x28 virtual false final false
  void _ctor(System::Collections::IDictionary d) ;

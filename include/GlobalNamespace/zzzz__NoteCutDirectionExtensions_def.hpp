@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;

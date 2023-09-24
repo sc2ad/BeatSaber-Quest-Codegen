@@ -5,22 +5,22 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace Newtonsoft::Json::Bson {
 class BsonToken;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace Newtonsoft::Json::Bson {
 struct BsonType;
@@ -103,8 +103,7 @@ constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Bson::BsonToken
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2550304 size 0x4 virtual true final true
  System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
-// Ctor Parameters []
-explicit BsonArray() ;
+static Newtonsoft::Json::Bson::BsonArray New_ctor() ;
 
 /// @brief Method .ctor addr 0x2550308 size 0x7c virtual false final false
  void _ctor() ;

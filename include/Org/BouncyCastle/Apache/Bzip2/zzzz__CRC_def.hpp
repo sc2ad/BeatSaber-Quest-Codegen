@@ -64,8 +64,7 @@ constexpr int32_t __get_globalCrc() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CRC() ;
+static Org::BouncyCastle::Apache::Bzip2::CRC New_ctor() ;
 
 /// @brief Method .ctor addr 0x10fd750 size 0x20 virtual false final false
  void _ctor() ;

@@ -57,8 +57,7 @@ constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TrackedReference() ;
+static UnityEngine::TrackedReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5a1bc size 0x8 virtual false final false
  void _ctor() ;

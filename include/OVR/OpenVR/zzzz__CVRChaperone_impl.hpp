@@ -1,9 +1,9 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRChaperone_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdQuad_t_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRChaperone_def.hpp"
 #include "OVR/OpenVR/zzzz__ChaperoneCalibrationState_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRChaperone_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdQuad_t_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRChaperone._ctor
 template<>
 
@@ -163,8 +163,10 @@ constexpr void OVR::OpenVR::CVRChaperone::__set_FnTable(OVR::OpenVR::IVRChaperon
 constexpr OVR::OpenVR::IVRChaperone OVR::OpenVR::CVRChaperone::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRChaperone, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRChaperone::CVRChaperone(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRChaperone>(pInterface))) {}
+ OVR::OpenVR::CVRChaperone OVR::OpenVR::CVRChaperone::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRChaperone o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRChaperone>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRChaperone::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRChaperone>::get(),

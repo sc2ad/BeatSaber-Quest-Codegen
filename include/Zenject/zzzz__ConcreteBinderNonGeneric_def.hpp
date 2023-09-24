@@ -2,34 +2,34 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__FromBinderNonGeneric_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class FromBinderNonGeneric;
-}
-namespace Zenject {
-class BindStatement;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace Zenject {
-class ConventionSelectTypesBinder;
-}
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
 class BindInfo;
 }
+namespace Zenject {
+class BindStatement;
+}
+namespace Zenject {
+class FromBinderNonGeneric;
+}
+namespace Zenject {
+class DiContainer;
+}
 namespace System {
 class Type;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace Zenject {
+class ConventionSelectTypesBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -77,8 +77,7 @@ constexpr explicit ConcreteBinderNonGeneric(void* ptr) noexcept : Zenject::FromB
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }]
-explicit ConcreteBinderNonGeneric(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
+static Zenject::ConcreteBinderNonGeneric New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;
 
 /// @brief Method .ctor addr 0x2d4d774 size 0x34 virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement) ;

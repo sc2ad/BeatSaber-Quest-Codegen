@@ -90,8 +90,10 @@ constexpr void System::Security::Cryptography::TripleDESTransform::__set_D3(Syst
 constexpr System::Security::Cryptography::DESTransform System::Security::Cryptography::TripleDESTransform::__get_D3() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::DESTransform, 0x80>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algo", ty: "System::Security::Cryptography::TripleDES", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::TripleDESTransform::TripleDESTransform(System::Security::Cryptography::TripleDES algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  : Mono::Security::Cryptography::SymmetricTransform(THROW_UNLESS(::il2cpp_utils::New<TripleDESTransform>(algo, encryption, key, iv))) {}
+ System::Security::Cryptography::TripleDESTransform System::Security::Cryptography::TripleDESTransform::New_ctor(System::Security::Cryptography::TripleDES algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  {
+System::Security::Cryptography::TripleDESTransform o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::TripleDESTransform>(algo, encryption, key, iv))};
+return o;
+}
  void System::Security::Cryptography::TripleDESTransform::_ctor(System::Security::Cryptography::TripleDES algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::TripleDESTransform>::get(),

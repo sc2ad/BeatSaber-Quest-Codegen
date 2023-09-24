@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+namespace UnityEngine {
+class GameObject;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class GameObject;
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -87,8 +87,7 @@ static void DestroyRootComponent(HoudiniEngineUnity::HEU_HoudiniAssetRoot assetR
 /// @brief Method Reset addr 0x1ff9f2c size 0xe8 virtual false final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit HEU_HoudiniAssetRoot() ;
+static HoudiniEngineUnity::HEU_HoudiniAssetRoot New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ffa014 size 0x7c virtual false final false
  void _ctor() ;

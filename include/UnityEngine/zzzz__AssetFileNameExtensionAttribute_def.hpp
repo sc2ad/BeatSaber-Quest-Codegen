@@ -68,8 +68,7 @@ constexpr System::Collections::Generic::IEnumerable_1<::StringW> __get__otherExt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "preferredExtension", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "otherExtensions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit AssetFileNameExtensionAttribute(::StringW preferredExtension, ::ArrayW<::StringW> otherExtensions) ;
+static UnityEngine::AssetFileNameExtensionAttribute New_ctor(::StringW preferredExtension, ::ArrayW<::StringW> otherExtensions) ;
 
 /// @brief Method .ctor addr 0x2ba0e5c size 0x2c virtual false final false
  void _ctor(::StringW preferredExtension, ::ArrayW<::StringW> otherExtensions) ;

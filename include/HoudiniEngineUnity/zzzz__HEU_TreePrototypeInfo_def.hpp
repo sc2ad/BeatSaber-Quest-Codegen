@@ -74,8 +74,7 @@ constexpr float_t __get__bendfactor() const;
 /// @brief Method IsEquivalentTo addr 0x2077c34 size 0x14c virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_TreePrototypeInfo other) ;
 
-// Ctor Parameters []
-explicit HEU_TreePrototypeInfo() ;
+static HoudiniEngineUnity::HEU_TreePrototypeInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2077d80 size 0x8 virtual false final false
  void _ctor() ;

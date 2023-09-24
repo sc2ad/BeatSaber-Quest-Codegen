@@ -1,18 +1,19 @@
 #pragma once
 #include "System/Collections/Specialized/zzzz__OrderedDictionary_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Specialized/zzzz__OrderedDictionary_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 //  Writing Method size for method: System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator._ctor
 template<>
@@ -153,8 +154,10 @@ constexpr void System::Collections::Specialized::System__Collections__Specialize
 constexpr System::Collections::IEnumerator System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator::__get__arrayEnumerator() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerator, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "array", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "objectReturnType", ty: "int32_t", modifiers: "", def_value: None }]
- System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator(System::Collections::ArrayList array, int32_t objectReturnType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator>(array, objectReturnType))) {}
+ System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator::New_ctor(System::Collections::ArrayList array, int32_t objectReturnType)  {
+System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator>(array, objectReturnType))};
+return o;
+}
  void System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator::_ctor(System::Collections::ArrayList array, int32_t objectReturnType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryEnumerator>::get(),
@@ -340,8 +343,10 @@ constexpr void System::Collections::Specialized::System__Collections__Specialize
 constexpr bool System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection::__get__isKeys() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "array", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "isKeys", ty: "bool", modifiers: "", def_value: None }]
- System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection(System::Collections::ArrayList array, bool isKeys)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection>(array, isKeys))) {}
+ System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection::New_ctor(System::Collections::ArrayList array, bool isKeys)  {
+System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection>(array, isKeys))};
+return o;
+}
  void System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection::_ctor(System::Collections::ArrayList array, bool isKeys)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::System__Collections__Specialized__OrderedDictionary__OrderedDictionaryKeyValueCollection>::get(),
@@ -900,8 +905,10 @@ constexpr void System::Collections::Specialized::OrderedDictionary::__set__siInf
 constexpr System::Runtime::Serialization::SerializationInfo System::Collections::Specialized::OrderedDictionary::__get__siInfo() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::SerializationInfo, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::Specialized::OrderedDictionary::OrderedDictionary()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OrderedDictionary>())) {}
+ System::Collections::Specialized::OrderedDictionary System::Collections::Specialized::OrderedDictionary::New_ctor()  {
+System::Collections::Specialized::OrderedDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::OrderedDictionary>())};
+return o;
+}
  void System::Collections::Specialized::OrderedDictionary::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::OrderedDictionary>::get(),
@@ -911,8 +918,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Collections::Specialized::OrderedDictionary::OrderedDictionary(int32_t capacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OrderedDictionary>(capacity))) {}
+ System::Collections::Specialized::OrderedDictionary System::Collections::Specialized::OrderedDictionary::New_ctor(int32_t capacity)  {
+System::Collections::Specialized::OrderedDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::OrderedDictionary>(capacity))};
+return o;
+}
  void System::Collections::Specialized::OrderedDictionary::_ctor(int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::OrderedDictionary>::get(),
@@ -922,8 +931,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
- System::Collections::Specialized::OrderedDictionary::OrderedDictionary(int32_t capacity, System::Collections::IEqualityComparer comparer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OrderedDictionary>(capacity, comparer))) {}
+ System::Collections::Specialized::OrderedDictionary System::Collections::Specialized::OrderedDictionary::New_ctor(int32_t capacity, System::Collections::IEqualityComparer comparer)  {
+System::Collections::Specialized::OrderedDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::OrderedDictionary>(capacity, comparer))};
+return o;
+}
  void System::Collections::Specialized::OrderedDictionary::_ctor(int32_t capacity, System::Collections::IEqualityComparer comparer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::OrderedDictionary>::get(),
@@ -933,8 +944,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity, comparer);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Collections::Specialized::OrderedDictionary::OrderedDictionary(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OrderedDictionary>(info, context))) {}
+ System::Collections::Specialized::OrderedDictionary System::Collections::Specialized::OrderedDictionary::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Collections::Specialized::OrderedDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::OrderedDictionary>(info, context))};
+return o;
+}
  void System::Collections::Specialized::OrderedDictionary::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::OrderedDictionary>::get(),

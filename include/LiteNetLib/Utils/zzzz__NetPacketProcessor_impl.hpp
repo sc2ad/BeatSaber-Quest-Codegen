@@ -4,16 +4,17 @@
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetPacketProcessor_def.hpp"
 #include "LiteNetLib/zzzz__NetManager_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetSerializer_def.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
-#include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetSerializer_def.hpp"
+#include "LiteNetLib/zzzz__NetPeer_def.hpp"
  void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor__HashCache_1::__set_Initialized(bool value)  {
 ::cordl_internals::setStaticField<bool, "Initialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor__HashCache_1>::get>(std::forward<bool>(value));
 }
@@ -94,8 +95,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate::LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate>(object, method))) {}
+ LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate>(object, method))};
+return o;
+}
  void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor__SubscribeDelegate>::get(),
@@ -269,8 +272,10 @@ constexpr void LiteNetLib::Utils::NetPacketProcessor::__set__netDataWriter(LiteN
 constexpr LiteNetLib::Utils::NetDataWriter LiteNetLib::Utils::NetPacketProcessor::__get__netDataWriter() const {
 return ::cordl_internals::getInstanceField<LiteNetLib::Utils::NetDataWriter, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::NetPacketProcessor::NetPacketProcessor()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetPacketProcessor>())) {}
+ LiteNetLib::Utils::NetPacketProcessor LiteNetLib::Utils::NetPacketProcessor::New_ctor()  {
+LiteNetLib::Utils::NetPacketProcessor o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NetPacketProcessor>())};
+return o;
+}
  void LiteNetLib::Utils::NetPacketProcessor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NetPacketProcessor>::get(),
@@ -280,8 +285,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "maxStringLength", ty: "int32_t", modifiers: "", def_value: None }]
- LiteNetLib::Utils::NetPacketProcessor::NetPacketProcessor(int32_t maxStringLength)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetPacketProcessor>(maxStringLength))) {}
+ LiteNetLib::Utils::NetPacketProcessor LiteNetLib::Utils::NetPacketProcessor::New_ctor(int32_t maxStringLength)  {
+LiteNetLib::Utils::NetPacketProcessor o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NetPacketProcessor>(maxStringLength))};
+return o;
+}
  void LiteNetLib::Utils::NetPacketProcessor::_ctor(int32_t maxStringLength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NetPacketProcessor>::get(),
@@ -644,552 +651,296 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::*)()>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1._Subscribe_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::*)(LiteNetLib::Utils::NetDataReader, ::bs_hook::Il2CppWrapperType)>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::_Subscribe_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1>::get(),
-                            "<Subscribe>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::__set_packetConstructor(System::Func_1<T> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>::__set_packetConstructor(System::Func_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Func_1<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Func_1<T>>(value));
 }
-constexpr System::Func_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::__get_packetConstructor() const {
+constexpr System::Func_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>::__get_packetConstructor() const {
 return ::cordl_internals::getInstanceField<System::Func_1<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::__set___4__this(LiteNetLib::Utils::NetPacketProcessor value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>::__set___4__this(LiteNetLib::Utils::NetPacketProcessor value)  {
 ::cordl_internals::setInstanceField<LiteNetLib::Utils::NetPacketProcessor, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<LiteNetLib::Utils::NetPacketProcessor>(value));
 }
-constexpr LiteNetLib::Utils::NetPacketProcessor LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::__get___4__this() const {
+constexpr LiteNetLib::Utils::NetPacketProcessor LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<LiteNetLib::Utils::NetPacketProcessor, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::__set_onReceive(System::Action_1<T> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>::__set_onReceive(System::Action_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<T>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<T>>(value));
 }
-constexpr System::Action_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::__get_onReceive() const {
+constexpr System::Action_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>::__get_onReceive() const {
 return ::cordl_internals::getInstanceField<System::Action_1<T>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1>())) {}
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::_ctor()  {
+ LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>::New_ctor()  {
+LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T> o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>>())};
+return o;
+}
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1::_Subscribe_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>::_Subscribe_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass25_0_1<T>>::get(),
                             "<Subscribe>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader, userData);
 }
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::*)()>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2._Subscribe_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::*)(LiteNetLib::Utils::NetDataReader, ::bs_hook::Il2CppWrapperType)>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::_Subscribe_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2>::get(),
-                            "<Subscribe>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::__set_packetConstructor(System::Func_1<T> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>::__set_packetConstructor(System::Func_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Func_1<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Func_1<T>>(value));
 }
-constexpr System::Func_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::__get_packetConstructor() const {
+constexpr System::Func_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>::__get_packetConstructor() const {
 return ::cordl_internals::getInstanceField<System::Func_1<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::__set___4__this(LiteNetLib::Utils::NetPacketProcessor value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>::__set___4__this(LiteNetLib::Utils::NetPacketProcessor value)  {
 ::cordl_internals::setInstanceField<LiteNetLib::Utils::NetPacketProcessor, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<LiteNetLib::Utils::NetPacketProcessor>(value));
 }
-constexpr LiteNetLib::Utils::NetPacketProcessor LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::__get___4__this() const {
+constexpr LiteNetLib::Utils::NetPacketProcessor LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<LiteNetLib::Utils::NetPacketProcessor, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::__set_onReceive(System::Action_2<T,TUserData> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>::__set_onReceive(System::Action_2<T,TUserData> value)  {
 ::cordl_internals::setInstanceField<System::Action_2<T,TUserData>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_2<T,TUserData>>(value));
 }
-constexpr System::Action_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::__get_onReceive() const {
+constexpr System::Action_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>::__get_onReceive() const {
 return ::cordl_internals::getInstanceField<System::Action_2<T,TUserData>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2>())) {}
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::_ctor()  {
+ LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>::New_ctor()  {
+LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData> o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>>())};
+return o;
+}
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2::_Subscribe_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>::_Subscribe_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass26_0_2<T,TUserData>>::get(),
                             "<Subscribe>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader, userData);
 }
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::*)()>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1._SubscribeReusable_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::*)(LiteNetLib::Utils::NetDataReader, ::bs_hook::Il2CppWrapperType)>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::_SubscribeReusable_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1>::get(),
-                            "<SubscribeReusable>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::__set___4__this(LiteNetLib::Utils::NetPacketProcessor value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>::__set___4__this(LiteNetLib::Utils::NetPacketProcessor value)  {
 ::cordl_internals::setInstanceField<LiteNetLib::Utils::NetPacketProcessor, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<LiteNetLib::Utils::NetPacketProcessor>(value));
 }
-constexpr LiteNetLib::Utils::NetPacketProcessor LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::__get___4__this() const {
+constexpr LiteNetLib::Utils::NetPacketProcessor LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<LiteNetLib::Utils::NetPacketProcessor, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::__set_reference(T value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>::__set_reference(T value)  {
 ::cordl_internals::setInstanceField<T, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<T>(value));
 }
-constexpr T LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::__get_reference() const {
+constexpr T LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>::__get_reference() const {
 return ::cordl_internals::getInstanceField<T, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::__set_onReceive(System::Action_1<T> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>::__set_onReceive(System::Action_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<T>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<T>>(value));
 }
-constexpr System::Action_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::__get_onReceive() const {
+constexpr System::Action_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>::__get_onReceive() const {
 return ::cordl_internals::getInstanceField<System::Action_1<T>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1>())) {}
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::_ctor()  {
+ LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>::New_ctor()  {
+LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T> o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>>())};
+return o;
+}
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1::_SubscribeReusable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>::_SubscribeReusable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass27_0_1<T>>::get(),
                             "<SubscribeReusable>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader, userData);
 }
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::*)()>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2._SubscribeReusable_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::*)(LiteNetLib::Utils::NetDataReader, ::bs_hook::Il2CppWrapperType)>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::_SubscribeReusable_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2>::get(),
-                            "<SubscribeReusable>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::__set___4__this(LiteNetLib::Utils::NetPacketProcessor value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>::__set___4__this(LiteNetLib::Utils::NetPacketProcessor value)  {
 ::cordl_internals::setInstanceField<LiteNetLib::Utils::NetPacketProcessor, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<LiteNetLib::Utils::NetPacketProcessor>(value));
 }
-constexpr LiteNetLib::Utils::NetPacketProcessor LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::__get___4__this() const {
+constexpr LiteNetLib::Utils::NetPacketProcessor LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<LiteNetLib::Utils::NetPacketProcessor, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::__set_reference(T value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>::__set_reference(T value)  {
 ::cordl_internals::setInstanceField<T, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<T>(value));
 }
-constexpr T LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::__get_reference() const {
+constexpr T LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>::__get_reference() const {
 return ::cordl_internals::getInstanceField<T, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::__set_onReceive(System::Action_2<T,TUserData> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>::__set_onReceive(System::Action_2<T,TUserData> value)  {
 ::cordl_internals::setInstanceField<System::Action_2<T,TUserData>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_2<T,TUserData>>(value));
 }
-constexpr System::Action_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::__get_onReceive() const {
+constexpr System::Action_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>::__get_onReceive() const {
 return ::cordl_internals::getInstanceField<System::Action_2<T,TUserData>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2>())) {}
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::_ctor()  {
+ LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>::New_ctor()  {
+LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData> o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>>())};
+return o;
+}
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2::_SubscribeReusable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>::_SubscribeReusable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass28_0_2<T,TUserData>>::get(),
                             "<SubscribeReusable>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader, userData);
 }
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::*)()>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2._SubscribeNetSerializable_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::*)(LiteNetLib::Utils::NetDataReader, ::bs_hook::Il2CppWrapperType)>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::_SubscribeNetSerializable_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2>::get(),
-                            "<SubscribeNetSerializable>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::__set_packetConstructor(System::Func_1<T> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData>::__set_packetConstructor(System::Func_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Func_1<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Func_1<T>>(value));
 }
-constexpr System::Func_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::__get_packetConstructor() const {
+constexpr System::Func_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData>::__get_packetConstructor() const {
 return ::cordl_internals::getInstanceField<System::Func_1<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::__set_onReceive(System::Action_2<T,TUserData> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData>::__set_onReceive(System::Action_2<T,TUserData> value)  {
 ::cordl_internals::setInstanceField<System::Action_2<T,TUserData>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_2<T,TUserData>>(value));
 }
-constexpr System::Action_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::__get_onReceive() const {
+constexpr System::Action_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData>::__get_onReceive() const {
 return ::cordl_internals::getInstanceField<System::Action_2<T,TUserData>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2>())) {}
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::_ctor()  {
+ LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData>::New_ctor()  {
+LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData> o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData>>())};
+return o;
+}
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2::_SubscribeNetSerializable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData>::_SubscribeNetSerializable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass29_0_2<T,TUserData>>::get(),
                             "<SubscribeNetSerializable>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader, userData);
 }
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::*)()>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1._SubscribeNetSerializable_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::*)(LiteNetLib::Utils::NetDataReader, ::bs_hook::Il2CppWrapperType)>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::_SubscribeNetSerializable_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1>::get(),
-                            "<SubscribeNetSerializable>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::__set_packetConstructor(System::Func_1<T> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T>::__set_packetConstructor(System::Func_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Func_1<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Func_1<T>>(value));
 }
-constexpr System::Func_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::__get_packetConstructor() const {
+constexpr System::Func_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T>::__get_packetConstructor() const {
 return ::cordl_internals::getInstanceField<System::Func_1<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::__set_onReceive(System::Action_1<T> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T>::__set_onReceive(System::Action_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<T>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<T>>(value));
 }
-constexpr System::Action_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::__get_onReceive() const {
+constexpr System::Action_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T>::__get_onReceive() const {
 return ::cordl_internals::getInstanceField<System::Action_1<T>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1>())) {}
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::_ctor()  {
+ LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T>::New_ctor()  {
+LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T> o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T>>())};
+return o;
+}
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1::_SubscribeNetSerializable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T>::_SubscribeNetSerializable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass30_0_1<T>>::get(),
                             "<SubscribeNetSerializable>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader, userData);
 }
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::*)()>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2._SubscribeNetSerializable_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::*)(LiteNetLib::Utils::NetDataReader, ::bs_hook::Il2CppWrapperType)>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::_SubscribeNetSerializable_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2>::get(),
-                            "<SubscribeNetSerializable>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::__set_reference(T value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData>::__set_reference(T value)  {
 ::cordl_internals::setInstanceField<T, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<T>(value));
 }
-constexpr T LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::__get_reference() const {
+constexpr T LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData>::__get_reference() const {
 return ::cordl_internals::getInstanceField<T, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::__set_onReceive(System::Action_2<T,TUserData> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData>::__set_onReceive(System::Action_2<T,TUserData> value)  {
 ::cordl_internals::setInstanceField<System::Action_2<T,TUserData>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_2<T,TUserData>>(value));
 }
-constexpr System::Action_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::__get_onReceive() const {
+constexpr System::Action_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData>::__get_onReceive() const {
 return ::cordl_internals::getInstanceField<System::Action_2<T,TUserData>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2>())) {}
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::_ctor()  {
+ LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData>::New_ctor()  {
+LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData> o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData>>())};
+return o;
+}
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2::_SubscribeNetSerializable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData>::_SubscribeNetSerializable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass31_0_2<T,TUserData>>::get(),
                             "<SubscribeNetSerializable>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader, userData);
 }
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::*)()>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1._SubscribeNetSerializable_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::*)(LiteNetLib::Utils::NetDataReader, ::bs_hook::Il2CppWrapperType)>(&LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::_SubscribeNetSerializable_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1>::get(),
-                            "<SubscribeNetSerializable>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::__set_reference(T value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T>::__set_reference(T value)  {
 ::cordl_internals::setInstanceField<T, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<T>(value));
 }
-constexpr T LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::__get_reference() const {
+constexpr T LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T>::__get_reference() const {
 return ::cordl_internals::getInstanceField<T, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::__set_onReceive(System::Action_1<T> value)  {
+constexpr void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T>::__set_onReceive(System::Action_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<T>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<T>>(value));
 }
-constexpr System::Action_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::__get_onReceive() const {
+constexpr System::Action_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T>::__get_onReceive() const {
 return ::cordl_internals::getInstanceField<System::Action_1<T>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1>())) {}
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::_ctor()  {
+ LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T> LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T>::New_ctor()  {
+LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T> o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T>>())};
+return o;
+}
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1::_SubscribeNetSerializable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
+ void LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T>::_SubscribeNetSerializable_b__0(LiteNetLib::Utils::NetDataReader reader, ::bs_hook::Il2CppWrapperType userData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::LiteNetLib__Utils__NetPacketProcessor____c__DisplayClass32_0_1<T>>::get(),
                             "<SubscribeNetSerializable>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<LiteNetLib::Utils::NetDataReader>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}

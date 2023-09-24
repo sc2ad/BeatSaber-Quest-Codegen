@@ -58,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaSimpleTypeRestriction::XmlSchemaSimpleTypeRestriction()  : System::Xml::Schema::XmlSchemaSimpleTypeContent(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaSimpleTypeRestriction>())) {}
+ System::Xml::Schema::XmlSchemaSimpleTypeRestriction System::Xml::Schema::XmlSchemaSimpleTypeRestriction::New_ctor()  {
+System::Xml::Schema::XmlSchemaSimpleTypeRestriction o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaSimpleTypeRestriction>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaSimpleTypeRestriction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaSimpleTypeRestriction>::get(),

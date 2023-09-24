@@ -100,14 +100,12 @@ constexpr int32_t __get_xOff() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RipeMD128Digest() ;
+static Org::BouncyCastle::Crypto::Digests::RipeMD128Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0x119edc0 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::RipeMD128Digest", modifiers: "", def_value: None }]
-explicit RipeMD128Digest(Org::BouncyCastle::Crypto::Digests::RipeMD128Digest t) ;
+static Org::BouncyCastle::Crypto::Digests::RipeMD128Digest New_ctor(Org::BouncyCastle::Crypto::Digests::RipeMD128Digest t) ;
 
 /// @brief Method .ctor addr 0x119ee2c size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::RipeMD128Digest t) ;

@@ -1,22 +1,22 @@
 #pragma once
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__CampaignFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__MissionResultsViewController_def.hpp"
+#include "GlobalNamespace/zzzz__CampaignFlowCoordinator_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
-#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__MissionSelectionNavigationController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__GameplaySetupViewController_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 #include "GlobalNamespace/zzzz__MissionHelpViewController_def.hpp"
+#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
+#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
+#include "GlobalNamespace/zzzz__GameplaySetupViewController_def.hpp"
 #include "GlobalNamespace/zzzz__CampaignProgressModel_def.hpp"
+#include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
+#include "GlobalNamespace/zzzz__MissionSelectionNavigationController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0._ctor
 template<>
 
@@ -63,8 +63,10 @@ constexpr void GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__D
 constexpr GlobalNamespace::MissionHelpViewController GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0::__get_viewController() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MissionHelpViewController, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0>())) {}
+ GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0 GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0>::get(),
@@ -129,8 +131,10 @@ constexpr void GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__D
 constexpr GlobalNamespace::MissionResultsViewController GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0::__get_viewController() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MissionResultsViewController, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0>())) {}
+ GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0 GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0>::get(),
@@ -648,8 +652,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, topViewController);
 }
-// Ctor Parameters []
- GlobalNamespace::CampaignFlowCoordinator::CampaignFlowCoordinator()  : HMUI::FlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<CampaignFlowCoordinator>())) {}
+ GlobalNamespace::CampaignFlowCoordinator GlobalNamespace::CampaignFlowCoordinator::New_ctor()  {
+GlobalNamespace::CampaignFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CampaignFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::CampaignFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CampaignFlowCoordinator>::get(),

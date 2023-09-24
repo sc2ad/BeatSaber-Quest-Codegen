@@ -11,47 +11,50 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace HoudiniEngineUnity {
-class HEU_InputNode;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_ParameterData;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ParmChoiceInfo;
-}
-namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_Parameters____c__DisplayClass35_0;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ParmChoiceInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_ParameterData;
+}
+namespace HoudiniEngineUnity {
 class HEU_ParameterModifier;
+}
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace System {
-template<typename T>
-class Predicate_1;
+namespace HoudiniEngineUnity {
+struct HAPI_TransformEuler;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_ParmInfo;
+}
+namespace System {
+template<typename T>
+class Predicate_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -117,8 +120,7 @@ constexpr System::Predicate_1<HoudiniEngineUnity::HAPI_ParmInfo> __get___9__0() 
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_Parameters____c__DisplayClass35_0() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_Parameters____c__DisplayClass35_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2022624 size 0x8 virtual false final false
  void _ctor() ;
@@ -412,8 +414,7 @@ constexpr bool __get__recacheUI() const;
 /// @brief Method IsEquivalentTo addr 0x2024d8c size 0x318 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_Parameters other) ;
 
-// Ctor Parameters []
-explicit HEU_Parameters() ;
+static HoudiniEngineUnity::HEU_Parameters New_ctor() ;
 
 /// @brief Method .ctor addr 0x20250a4 size 0x130 virtual false final false
  void _ctor() ;

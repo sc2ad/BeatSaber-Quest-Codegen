@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterfaceAPI_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__AixNetworkInterfaceAPI_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__AixIoctlRequest_def.hpp"
-#include "System/Net/NetworkInformation/AixStructs/zzzz__ifconf_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__AixAddressFamily_def.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_mtu_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"
+#include "System/Net/NetworkInformation/AixStructs/zzzz__ifconf_def.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_flags_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::AixNetworkInterfaceAPI.socket
 template<>
@@ -232,8 +232,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<System::Net::NetworkInformation::NetworkInterface>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::NetworkInformation::AixNetworkInterfaceAPI::AixNetworkInterfaceAPI()  : System::Net::NetworkInformation::UnixNetworkInterfaceAPI(THROW_UNLESS(::il2cpp_utils::New<AixNetworkInterfaceAPI>())) {}
+ System::Net::NetworkInformation::AixNetworkInterfaceAPI System::Net::NetworkInformation::AixNetworkInterfaceAPI::New_ctor()  {
+System::Net::NetworkInformation::AixNetworkInterfaceAPI o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::AixNetworkInterfaceAPI>())};
+return o;
+}
  void System::Net::NetworkInformation::AixNetworkInterfaceAPI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::AixNetworkInterfaceAPI>::get(),

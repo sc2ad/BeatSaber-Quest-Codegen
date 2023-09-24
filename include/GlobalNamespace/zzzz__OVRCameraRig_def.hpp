@@ -2,18 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine {
+class Transform;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace UnityEngine {
-class Transform;
+struct Matrix4x4;
 }
 namespace UnityEngine {
 class Camera;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -368,8 +368,7 @@ constexpr UnityEngine::Matrix4x4 __get__previousTrackingSpaceTransform() const;
 /// @brief Method CheckForAnchorsInParent addr 0x25ac6d4 size 0xe0 virtual false final false
  void CheckForAnchorsInParent() ;
 
-// Ctor Parameters []
-explicit OVRCameraRig() ;
+static GlobalNamespace::OVRCameraRig New_ctor() ;
 
 /// @brief Method .ctor addr 0x25ac7b4 size 0x150 virtual false final false
  void _ctor() ;

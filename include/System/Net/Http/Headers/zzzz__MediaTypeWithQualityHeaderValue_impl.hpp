@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__MediaTypeHeaderValue_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__MediaTypeWithQualityHeaderValue_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::MediaTypeWithQualityHeaderValue._ctor
 template<>
@@ -55,8 +55,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::MediaTypeWithQualityHeaderValue()  : System::Net::Http::Headers::MediaTypeHeaderValue(THROW_UNLESS(::il2cpp_utils::New<MediaTypeWithQualityHeaderValue>())) {}
+ System::Net::Http::Headers::MediaTypeWithQualityHeaderValue System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::New_ctor()  {
+System::Net::Http::Headers::MediaTypeWithQualityHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::MediaTypeWithQualityHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::MediaTypeWithQualityHeaderValue>::get(),

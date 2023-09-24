@@ -2,20 +2,21 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_impl.hpp"
 #include "UnityEngine/AddressableAssets/ResourceProviders/zzzz__ContentCatalogProvider_def.hpp"
+#include "UnityEngine/zzzz__AssetBundleCreateRequest_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__WebRequestQueueOperation_def.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"
 #include "UnityEngine/zzzz__AssetBundleRequest_def.hpp"
-#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ContentCatalogData_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__WebRequestQueueOperation_def.hpp"
-#include "UnityEngine/zzzz__AssetBundleCreateRequest_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ContentCatalogData_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/AddressableAssets/ResourceProviders/zzzz__ContentCatalogProvider_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::AddressableAssets::ResourceProviders::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__DependencyHashIndex::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__DependencyHashIndex(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -345,8 +346,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bundlePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "webRequestTimeout", ty: "int32_t", modifiers: "", def_value: Some("0") }]
- GlobalNamespace::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog(::StringW bundlePath, int32_t webRequestTimeout)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog>(bundlePath, webRequestTimeout))) {}
+/// @param webRequestTimeout: int32_t (default: 0)
+ GlobalNamespace::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog GlobalNamespace::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog::New_ctor(::StringW bundlePath, int32_t webRequestTimeout)  {
+GlobalNamespace::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog>(bundlePath, webRequestTimeout))};
+return o;
+}
 /// @param webRequestTimeout: int32_t (default: 0)
  void GlobalNamespace::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog::_ctor(::StringW bundlePath, int32_t webRequestTimeout)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -758,8 +762,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ccd);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::ResourceProviders::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp>())) {}
+ UnityEngine::AddressableAssets::ResourceProviders::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp UnityEngine::AddressableAssets::ResourceProviders::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp::New_ctor()  {
+UnityEngine::AddressableAssets::ResourceProviders::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::ResourceProviders::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp>())};
+return o;
+}
  void UnityEngine::AddressableAssets::ResourceProviders::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::ResourceProviders::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp>::get(),
@@ -853,8 +859,10 @@ constexpr void UnityEngine::AddressableAssets::ResourceProviders::ContentCatalog
 constexpr UnityEngine::ResourceManagement::ResourceManager UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::__get_m_RM() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::ResourceManager, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "resourceManagerInstance", ty: "UnityEngine::ResourceManagement::ResourceManager", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::ContentCatalogProvider(UnityEngine::ResourceManagement::ResourceManager resourceManagerInstance)  : UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase(THROW_UNLESS(::il2cpp_utils::New<ContentCatalogProvider>(resourceManagerInstance))) {}
+ UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::New_ctor(UnityEngine::ResourceManagement::ResourceManager resourceManagerInstance)  {
+UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider>(resourceManagerInstance))};
+return o;
+}
  void UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::_ctor(UnityEngine::ResourceManagement::ResourceManager resourceManagerInstance)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider>::get(),

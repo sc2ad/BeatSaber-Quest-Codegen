@@ -91,8 +91,7 @@ constexpr GlobalNamespace::IBeatmapObjectSpawnController __get__beatmapObjectSpa
 /// @brief Method Start addr 0x1210b04 size 0xf0 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit BeatmapFloorLightTilesGrid() ;
+static Ice::BeatmapFloorLightTilesGrid New_ctor() ;
 
 /// @brief Method .ctor addr 0x1210d88 size 0x18 virtual false final false
  void _ctor() ;

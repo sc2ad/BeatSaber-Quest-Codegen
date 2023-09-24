@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Threading {
-class WaitHandle;
-}
-namespace System::Threading {
 class WaitOrTimerCallback;
 }
 namespace System {
 struct TimeSpan;
+}
+namespace System::Threading {
+class WaitHandle;
 }
 namespace System::Threading {
 class ManualResetEvent;
@@ -118,8 +118,7 @@ constexpr bool __get__unregistered() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "waitObject", ty: "System::Threading::WaitHandle", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "System::Threading::WaitOrTimerCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "timeout", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "executeOnlyOnce", ty: "bool", modifiers: "", def_value: None }]
-explicit RegisteredWaitHandle(System::Threading::WaitHandle waitObject, System::Threading::WaitOrTimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan timeout, bool executeOnlyOnce) ;
+static System::Threading::RegisteredWaitHandle New_ctor(System::Threading::WaitHandle waitObject, System::Threading::WaitOrTimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan timeout, bool executeOnlyOnce) ;
 
 /// @brief Method .ctor addr 0x24af278 size 0xb4 virtual false final false
  void _ctor(System::Threading::WaitHandle waitObject, System::Threading::WaitOrTimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan timeout, bool executeOnlyOnce) ;

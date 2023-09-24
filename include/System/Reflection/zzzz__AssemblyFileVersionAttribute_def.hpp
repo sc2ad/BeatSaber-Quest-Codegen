@@ -57,8 +57,7 @@ constexpr ::StringW __get__Version_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyFileVersionAttribute(::StringW version) ;
+static System::Reflection::AssemblyFileVersionAttribute New_ctor(::StringW version) ;
 
 /// @brief Method .ctor addr 0x2378d70 size 0x78 virtual false final false
  void _ctor(::StringW version) ;

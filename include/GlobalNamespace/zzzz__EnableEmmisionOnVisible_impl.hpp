@@ -2,7 +2,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnableEmmisionOnVisible_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EnableEmmisionOnVisible.Awake
 template<>
 
@@ -110,8 +109,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EnableEmmisionOnVisible::EnableEmmisionOnVisible()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EnableEmmisionOnVisible>())) {}
+ GlobalNamespace::EnableEmmisionOnVisible GlobalNamespace::EnableEmmisionOnVisible::New_ctor()  {
+GlobalNamespace::EnableEmmisionOnVisible o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnableEmmisionOnVisible>())};
+return o;
+}
  void GlobalNamespace::EnableEmmisionOnVisible::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnableEmmisionOnVisible>::get(),

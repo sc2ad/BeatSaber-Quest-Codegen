@@ -57,8 +57,7 @@ static constexpr uint8_t  DEFLATE{1u};
 
 // Methods
 
-// Ctor Parameters []
-explicit CompressionMethod() ;
+static Org::BouncyCastle::Crypto::Tls::CompressionMethod New_ctor() ;
 
 /// @brief Method .ctor addr 0xed3b88 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,15 +2,15 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>

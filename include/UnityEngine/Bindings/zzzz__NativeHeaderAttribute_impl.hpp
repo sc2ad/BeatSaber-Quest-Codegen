@@ -50,8 +50,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "header", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Bindings::NativeHeaderAttribute::NativeHeaderAttribute(::StringW header)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeHeaderAttribute>(header))) {}
+ UnityEngine::Bindings::NativeHeaderAttribute UnityEngine::Bindings::NativeHeaderAttribute::New_ctor(::StringW header)  {
+UnityEngine::Bindings::NativeHeaderAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativeHeaderAttribute>(header))};
+return o;
+}
  void UnityEngine::Bindings::NativeHeaderAttribute::_ctor(::StringW header)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativeHeaderAttribute>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__CacheControlHeaderValue_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::CacheControlHeaderValue.get_Extensions
 template<>
 
@@ -1007,8 +1007,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::CacheControlHeaderValue::CacheControlHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CacheControlHeaderValue>())) {}
+ System::Net::Http::Headers::CacheControlHeaderValue System::Net::Http::Headers::CacheControlHeaderValue::New_ctor()  {
+System::Net::Http::Headers::CacheControlHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::CacheControlHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::CacheControlHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::CacheControlHeaderValue>::get(),

@@ -4,29 +4,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine::Playables {
-class IPlayableBehaviour;
-}
-namespace UnityEngine::Playables {
 class IPlayableAsset;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+class IPlayableBehaviour;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableBinding;
+struct Playable;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct FrameData;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -120,8 +120,7 @@ constexpr explicit BasicPlayableBehaviour(void* ptr) noexcept : UnityEngine::Scr
 /// @brief Method CreatePlayable addr 0x2ad1d98 size 0xa4 virtual true final false
  UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject owner) ;
 
-// Ctor Parameters []
-explicit BasicPlayableBehaviour() ;
+static UnityEngine::Timeline::BasicPlayableBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad1e3c size 0x8 virtual false final false
  void _ctor() ;

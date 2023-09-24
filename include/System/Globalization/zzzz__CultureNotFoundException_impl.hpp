@@ -169,8 +169,10 @@ constexpr void System::Globalization::CultureNotFoundException::__set__invalidCu
 constexpr System::Nullable_1<int32_t> System::Globalization::CultureNotFoundException::__get__invalidCultureId() const {
 return ::cordl_internals::getInstanceField<System::Nullable_1<int32_t>, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Globalization::CultureNotFoundException::CultureNotFoundException()  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<CultureNotFoundException>())) {}
+ System::Globalization::CultureNotFoundException System::Globalization::CultureNotFoundException::New_ctor()  {
+System::Globalization::CultureNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CultureNotFoundException>())};
+return o;
+}
  void System::Globalization::CultureNotFoundException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CultureNotFoundException>::get(),
@@ -180,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "paramName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Globalization::CultureNotFoundException::CultureNotFoundException(::StringW paramName, ::StringW message)  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<CultureNotFoundException>(paramName, message))) {}
+ System::Globalization::CultureNotFoundException System::Globalization::CultureNotFoundException::New_ctor(::StringW paramName, ::StringW message)  {
+System::Globalization::CultureNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CultureNotFoundException>(paramName, message))};
+return o;
+}
  void System::Globalization::CultureNotFoundException::_ctor(::StringW paramName, ::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CultureNotFoundException>::get(),
@@ -191,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, paramName, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Globalization::CultureNotFoundException::CultureNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<CultureNotFoundException>(info, context))) {}
+ System::Globalization::CultureNotFoundException System::Globalization::CultureNotFoundException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Globalization::CultureNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CultureNotFoundException>(info, context))};
+return o;
+}
  void System::Globalization::CultureNotFoundException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CultureNotFoundException>::get(),

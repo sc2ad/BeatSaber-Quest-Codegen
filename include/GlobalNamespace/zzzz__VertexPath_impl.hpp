@@ -1,8 +1,9 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__VertexPath_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__VertexPath_def.hpp"
 #include "GlobalNamespace/zzzz__BezierPath_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "tangent", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "normal", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__VertexPath__Vertex::GlobalNamespace__VertexPath__Vertex(UnityEngine::Vector3 position, UnityEngine::Vector3 tangent, UnityEngine::Vector3 normal) noexcept : ::bs_hook::ValueTypeWrapper() {this->position = position;
 this->tangent = tangent;
@@ -207,8 +208,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "numberOfPathSegments", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::VertexPath::VertexPath(int32_t numberOfPathSegments)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VertexPath>(numberOfPathSegments))) {}
+ GlobalNamespace::VertexPath GlobalNamespace::VertexPath::New_ctor(int32_t numberOfPathSegments)  {
+GlobalNamespace::VertexPath o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VertexPath>(numberOfPathSegments))};
+return o;
+}
  void GlobalNamespace::VertexPath::_ctor(int32_t numberOfPathSegments)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VertexPath>::get(),

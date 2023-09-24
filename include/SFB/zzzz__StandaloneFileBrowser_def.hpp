@@ -6,12 +6,12 @@
 namespace SFB {
 struct ExtensionFilter;
 }
-namespace SFB {
-class IStandaloneFileBrowser;
-}
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace SFB {
+class IStandaloneFileBrowser;
 }
 // Forward declare root types
 namespace SFB {
@@ -98,8 +98,7 @@ static void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW d
 /// @brief Method SaveFilePanelAsync addr 0x21d60a4 size 0x104 virtual false final false
 static void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<SFB::ExtensionFilter> extensions, System::Action_1<::StringW> cb) ;
 
-// Ctor Parameters []
-explicit StandaloneFileBrowser() ;
+static SFB::StandaloneFileBrowser New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d61a8 size 0x8 virtual false final false
  void _ctor() ;

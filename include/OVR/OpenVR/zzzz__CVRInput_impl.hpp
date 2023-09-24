@@ -1,18 +1,18 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRInput_def.hpp"
-#include "OVR/OpenVR/zzzz__InputSkeletalActionData_t_def.hpp"
-#include "OVR/OpenVR/zzzz__InputAnalogActionData_t_def.hpp"
-#include "OVR/OpenVR/zzzz__VRActiveActionSet_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRSkeletalTransformSpace_def.hpp"
-#include "OVR/OpenVR/zzzz__InputDigitalActionData_t_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRInput_def.hpp"
-#include "OVR/OpenVR/zzzz__VRBoneTransform_t_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRInputError_def.hpp"
-#include "OVR/OpenVR/zzzz__InputOriginInfo_t_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
-#include "OVR/OpenVR/zzzz__InputPoseActionData_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VRBoneTransform_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VRActiveActionSet_t_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRSkeletalMotionRange_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRInput_def.hpp"
+#include "OVR/OpenVR/zzzz__InputAnalogActionData_t_def.hpp"
+#include "OVR/OpenVR/zzzz__InputDigitalActionData_t_def.hpp"
+#include "OVR/OpenVR/zzzz__InputPoseActionData_t_def.hpp"
+#include "OVR/OpenVR/zzzz__InputOriginInfo_t_def.hpp"
+#include "OVR/OpenVR/zzzz__InputSkeletalActionData_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRSkeletalTransformSpace_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRInput._ctor
 template<>
 
@@ -342,8 +342,10 @@ constexpr void OVR::OpenVR::CVRInput::__set_FnTable(OVR::OpenVR::IVRInput value)
 constexpr OVR::OpenVR::IVRInput OVR::OpenVR::CVRInput::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRInput, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRInput::CVRInput(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRInput>(pInterface))) {}
+ OVR::OpenVR::CVRInput OVR::OpenVR::CVRInput::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRInput o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRInput>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRInput::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRInput>::get(),

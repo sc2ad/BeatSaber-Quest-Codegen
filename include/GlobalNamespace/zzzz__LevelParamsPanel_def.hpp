@@ -102,8 +102,7 @@ constexpr TMPro::TextMeshProUGUI __get__bombsCountText() const;
 /// @brief Method set_bombsCount addr 0x218c040 size 0x48 virtual false final false
  void set_bombsCount(int32_t value) ;
 
-// Ctor Parameters []
-explicit LevelParamsPanel() ;
+static GlobalNamespace::LevelParamsPanel New_ctor() ;
 
 /// @brief Method .ctor addr 0x218c088 size 0x8 virtual false final false
  void _ctor() ;

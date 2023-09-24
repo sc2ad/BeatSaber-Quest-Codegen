@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Security::Cryptography {
-struct CipherMode;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Security::Cryptography {
+struct CipherMode;
 }
 namespace System::Security::Cryptography {
 class ICryptoTransform;
@@ -227,8 +227,7 @@ static ::ArrayW<int32_t> __get_s_iTF() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rgbKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Security::Cryptography::CipherMode", modifiers: "", def_value: None }, CppParam { name: "rgbIV", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "feedbackSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PaddingValue", ty: "System::Security::Cryptography::PaddingMode", modifiers: "", def_value: None }, CppParam { name: "transformMode", ty: "System::Security::Cryptography::RijndaelManagedTransformMode", modifiers: "", def_value: None }]
-explicit RijndaelManagedTransform(::ArrayW<uint8_t> rgbKey, System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t blockSize, int32_t feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode) ;
+static System::Security::Cryptography::RijndaelManagedTransform New_ctor(::ArrayW<uint8_t> rgbKey, System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t blockSize, int32_t feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode) ;
 
 /// @brief Method .ctor addr 0x22f597c size 0x610 virtual false final false
  void _ctor(::ArrayW<uint8_t> rgbKey, System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t blockSize, int32_t feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode) ;

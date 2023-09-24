@@ -1,7 +1,7 @@
 #pragma once
 #include "Zenject/zzzz__PrefabProvider_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: Zenject::PrefabProvider._ctor
 template<>
 
@@ -46,8 +46,10 @@ constexpr void Zenject::PrefabProvider::__set__prefab(UnityEngine::Object value)
 constexpr UnityEngine::Object Zenject::PrefabProvider::__get__prefab() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Object, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "prefab", ty: "UnityEngine::Object", modifiers: "", def_value: None }]
- Zenject::PrefabProvider::PrefabProvider(UnityEngine::Object prefab)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PrefabProvider>(prefab))) {}
+ Zenject::PrefabProvider Zenject::PrefabProvider::New_ctor(UnityEngine::Object prefab)  {
+Zenject::PrefabProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::PrefabProvider>(prefab))};
+return o;
+}
  void Zenject::PrefabProvider::_ctor(UnityEngine::Object prefab)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::PrefabProvider>::get(),

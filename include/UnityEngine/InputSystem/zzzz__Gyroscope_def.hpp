@@ -93,8 +93,7 @@ static void set_current(UnityEngine::InputSystem::Gyroscope value) ;
 /// @brief Method FinishSetup addr 0x29155dc size 0x78 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit Gyroscope() ;
+static UnityEngine::InputSystem::Gyroscope New_ctor() ;
 
 /// @brief Method .ctor addr 0x2915654 size 0x8 virtual false final false
  void _ctor() ;

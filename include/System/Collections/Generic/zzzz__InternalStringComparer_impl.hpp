@@ -96,8 +96,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, array, value, startIndex, count);
 }
-// Ctor Parameters []
- System::Collections::Generic::InternalStringComparer::InternalStringComparer()  : System::Collections::Generic::EqualityComparer_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<InternalStringComparer>())) {}
+ System::Collections::Generic::InternalStringComparer System::Collections::Generic::InternalStringComparer::New_ctor()  {
+System::Collections::Generic::InternalStringComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Generic::InternalStringComparer>())};
+return o;
+}
  void System::Collections::Generic::InternalStringComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Generic::InternalStringComparer>::get(),

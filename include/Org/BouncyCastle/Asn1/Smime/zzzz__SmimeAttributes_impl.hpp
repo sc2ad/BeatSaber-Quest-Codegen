@@ -30,8 +30,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Smime::SmimeAttributes::__get_EncrypKeyPref()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "EncrypKeyPref", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Smime::SmimeAttributes>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Smime::SmimeAttributes::SmimeAttributes()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SmimeAttributes>())) {}
+ Org::BouncyCastle::Asn1::Smime::SmimeAttributes Org::BouncyCastle::Asn1::Smime::SmimeAttributes::New_ctor()  {
+Org::BouncyCastle::Asn1::Smime::SmimeAttributes o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Smime::SmimeAttributes>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Smime::SmimeAttributes::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Smime::SmimeAttributes>::get(),

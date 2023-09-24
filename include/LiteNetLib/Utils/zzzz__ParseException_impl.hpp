@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- LiteNetLib::Utils::ParseException::ParseException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<ParseException>(message))) {}
+ LiteNetLib::Utils::ParseException LiteNetLib::Utils::ParseException::New_ctor(::StringW message)  {
+LiteNetLib::Utils::ParseException o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::ParseException>(message))};
+return o;
+}
  void LiteNetLib::Utils::ParseException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::ParseException>::get(),

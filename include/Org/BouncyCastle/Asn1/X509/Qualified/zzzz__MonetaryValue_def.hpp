@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
 class Iso4217CurrencyCode;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -97,14 +97,12 @@ constexpr Org::BouncyCastle::Asn1::DerInteger __get_exponent() const;
 /// @brief Method GetInstance addr 0xff3f3c size 0x168 virtual false final false
 static Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit MonetaryValue(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff40a4 size 0x13c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "currency", ty: "Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode", modifiers: "", def_value: None }, CppParam { name: "amount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "exponent", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MonetaryValue(Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode currency, int32_t amount, int32_t exponent) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue New_ctor(Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode currency, int32_t amount, int32_t exponent) ;
 
 /// @brief Method .ctor addr 0xff41e0 size 0xb0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode currency, int32_t amount, int32_t exponent) ;

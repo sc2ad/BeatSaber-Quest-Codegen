@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceYOffsetEvaluator_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceYOffsetEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData._ctor
 template<>
 
@@ -127,8 +128,10 @@ constexpr void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__set__b
 constexpr GlobalNamespace::IBeatmapObjectSpawnController GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__get__beatmapObjectSpawnController() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IBeatmapObjectSpawnController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "beatmapObjectSpawnController", ty: "GlobalNamespace::IBeatmapObjectSpawnController", modifiers: "", def_value: None }, CppParam { name: "moveToPlayerHeadTParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteSpawnData", ty: "GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BeatmapObjectAvoidanceYOffsetEvaluator(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::IBeatmapObjectSpawnController beatmapObjectSpawnController, float_t moveToPlayerHeadTParam, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapObjectAvoidanceYOffsetEvaluator>(audioTimeSource, beatmapObjectSpawnController, moveToPlayerHeadTParam, noteSpawnData))) {}
+ GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::New_ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::IBeatmapObjectSpawnController beatmapObjectSpawnController, float_t moveToPlayerHeadTParam, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData)  {
+GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator>(audioTimeSource, beatmapObjectSpawnController, moveToPlayerHeadTParam, noteSpawnData))};
+return o;
+}
  void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::_ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::IBeatmapObjectSpawnController beatmapObjectSpawnController, float_t moveToPlayerHeadTParam, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "Polyglot/zzzz__LocalizedTextComponent_1_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalizedHoverHint_def.hpp"
-#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "HMUI/zzzz__HoverHint_def.hpp"
+#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LocalizedHoverHint.SetText
 template<>
 
@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, hoverHint, direction);
 }
-// Ctor Parameters []
- GlobalNamespace::LocalizedHoverHint::LocalizedHoverHint()  : Polyglot::LocalizedTextComponent_1<HMUI::HoverHint>(THROW_UNLESS(::il2cpp_utils::New<LocalizedHoverHint>())) {}
+ GlobalNamespace::LocalizedHoverHint GlobalNamespace::LocalizedHoverHint::New_ctor()  {
+GlobalNamespace::LocalizedHoverHint o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LocalizedHoverHint>())};
+return o;
+}
  void GlobalNamespace::LocalizedHoverHint::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LocalizedHoverHint>::get(),

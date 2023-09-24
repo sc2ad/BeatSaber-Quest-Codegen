@@ -30,8 +30,10 @@ constexpr void Mono::Xml::SmallXmlParserException::__set_column(int32_t value)  
 constexpr int32_t Mono::Xml::SmallXmlParserException::__get_column() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "line", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "column", ty: "int32_t", modifiers: "", def_value: None }]
- Mono::Xml::SmallXmlParserException::SmallXmlParserException(::StringW msg, int32_t line, int32_t column)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<SmallXmlParserException>(msg, line, column))) {}
+ Mono::Xml::SmallXmlParserException Mono::Xml::SmallXmlParserException::New_ctor(::StringW msg, int32_t line, int32_t column)  {
+Mono::Xml::SmallXmlParserException o{THROW_UNLESS(::il2cpp_utils::New<Mono::Xml::SmallXmlParserException>(msg, line, column))};
+return o;
+}
  void Mono::Xml::SmallXmlParserException::_ctor(::StringW msg, int32_t line, int32_t column)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Xml::SmallXmlParserException>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Configuration/zzzz__ConfigurationSection_impl.hpp"
 #include "System/Configuration/zzzz__IgnoreSection_def.hpp"
-#include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"
-#include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
-#include "System/Configuration/zzzz__ConfigurationSaveMode_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
+#include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"
+#include "System/Configuration/zzzz__ConfigurationSaveMode_def.hpp"
 //  Writing Method size for method: System::Configuration::IgnoreSection._ctor
 template<>
 
@@ -124,8 +124,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Configuration::IgnoreSection::IgnoreSection()  : System::Configuration::ConfigurationSection(THROW_UNLESS(::il2cpp_utils::New<IgnoreSection>())) {}
+ System::Configuration::IgnoreSection System::Configuration::IgnoreSection::New_ctor()  {
+System::Configuration::IgnoreSection o{THROW_UNLESS(::il2cpp_utils::New<System::Configuration::IgnoreSection>())};
+return o;
+}
  void System::Configuration::IgnoreSection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Configuration::IgnoreSection>::get(),

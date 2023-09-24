@@ -1,8 +1,9 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__SerializationEventsCache_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationEventsCache_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationEvents_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c._ctor
 template<>
@@ -50,8 +51,10 @@ return ::cordl_internals::getStaticField<System::Runtime::Serialization::System_
  System::Func_2<System::Type,System::Runtime::Serialization::SerializationEvents> System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c::__get___9__1_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Type,System::Runtime::Serialization::SerializationEvents>, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c>::get>();
 }
-// Ctor Parameters []
- System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c::System__Runtime__Serialization__SerializationEventsCache____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__Serialization__SerializationEventsCache____c>())) {}
+ System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c::New_ctor()  {
+System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c>())};
+return o;
+}
  void System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c>::get(),

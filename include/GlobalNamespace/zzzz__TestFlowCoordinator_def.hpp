@@ -86,8 +86,7 @@ constexpr HMUI::ViewController __get__topScreenViewController() const;
 /// @brief Method DidActivate addr 0x2146a3c size 0x1c virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit TestFlowCoordinator() ;
+static GlobalNamespace::TestFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2146a58 size 0x8 virtual false final false
  void _ctor() ;

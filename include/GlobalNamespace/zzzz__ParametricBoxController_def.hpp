@@ -4,13 +4,13 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class MaterialPropertyBlock;
+struct Color;
 }
 namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
-struct Color;
+class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -181,8 +181,7 @@ static int32_t __get__widthEndID() ;
 /// @brief Method Refresh addr 0x1f96cb8 size 0x258 virtual false final false
  void Refresh() ;
 
-// Ctor Parameters []
-explicit ParametricBoxController() ;
+static GlobalNamespace::ParametricBoxController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f96f30 size 0x24 virtual false final false
  void _ctor() ;

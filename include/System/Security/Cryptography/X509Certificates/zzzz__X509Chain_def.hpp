@@ -6,17 +6,17 @@
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainImpl;
-}
 namespace System {
 class IDisposable;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
+class X509ChainPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainPolicy;
+class X509ChainImpl;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatus;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElementCollection;
@@ -93,26 +93,22 @@ constexpr System::Security::Cryptography::X509Certificates::X509ChainImpl __get_
 /// @brief Method get_Impl addr 0x27ed230 size 0x20 virtual false final false
  System::Security::Cryptography::X509Certificates::X509ChainImpl get_Impl() ;
 
-// Ctor Parameters []
-explicit X509Chain() ;
+static System::Security::Cryptography::X509Certificates::X509Chain New_ctor() ;
 
 /// @brief Method .ctor addr 0x27ed250 size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "useMachineContext", ty: "bool", modifiers: "", def_value: None }]
-explicit X509Chain(bool useMachineContext) ;
+static System::Security::Cryptography::X509Certificates::X509Chain New_ctor(bool useMachineContext) ;
 
 /// @brief Method .ctor addr 0x27ed278 size 0x34 virtual false final false
  void _ctor(bool useMachineContext) ;
 
-// Ctor Parameters [CppParam { name: "impl", ty: "System::Security::Cryptography::X509Certificates::X509ChainImpl", modifiers: "", def_value: None }]
-explicit X509Chain(System::Security::Cryptography::X509Certificates::X509ChainImpl impl) ;
+static System::Security::Cryptography::X509Certificates::X509Chain New_ctor(System::Security::Cryptography::X509Certificates::X509ChainImpl impl) ;
 
 /// @brief Method .ctor addr 0x27ed2ac size 0x34 virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509ChainImpl impl) ;
 
-// Ctor Parameters [CppParam { name: "chainContext", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit X509Chain(::cordl_internals::intptr_t chainContext) ;
+static System::Security::Cryptography::X509Certificates::X509Chain New_ctor(::cordl_internals::intptr_t chainContext) ;
 
 /// @brief Method .ctor addr 0x27ed2e0 size 0x48 virtual false final false
  void _ctor(::cordl_internals::intptr_t chainContext) ;

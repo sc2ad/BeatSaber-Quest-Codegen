@@ -9,7 +9,7 @@ class StringSignal;
 // Type: ::StringSignal
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(13881))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13881)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13887))
 // CS Name: StringSignal
 class CORDL_TYPE StringSignal : public GlobalNamespace::GenericSignal_1<::StringW> {
@@ -48,8 +48,7 @@ constexpr explicit StringSignal(void* ptr) noexcept : GlobalNamespace::GenericSi
 
 // Methods
 
-// Ctor Parameters []
-explicit StringSignal() ;
+static GlobalNamespace::StringSignal New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83810 size 0x48 virtual false final false
  void _ctor() ;

@@ -2,18 +2,19 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__WebReadStream_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Net/zzzz__WebReadStream_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__WebReadStream___ReadAsync_d__28.MoveNext
 template<>
@@ -529,8 +530,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IO::Stream, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- System::Net::WebReadStream::WebReadStream(System::Net::WebOperation operation, System::IO::Stream innerStream)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<WebReadStream>(operation, innerStream))) {}
+ System::Net::WebReadStream System::Net::WebReadStream::New_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream)  {
+System::Net::WebReadStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebReadStream>(operation, innerStream))};
+return o;
+}
  void System::Net::WebReadStream::_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebReadStream>::get(),

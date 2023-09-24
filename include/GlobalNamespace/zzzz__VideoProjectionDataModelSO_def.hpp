@@ -7,6 +7,9 @@
 namespace UnityEngine::AddressableAssets {
 class AssetReference;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId;
@@ -84,8 +87,7 @@ constexpr UnityEngine::AddressableAssets::AssetReference __get__videoAssetRefere
 /// @brief Method get_videoAssetReference addr 0x2267e78 size 0x8 virtual false final false
  UnityEngine::AddressableAssets::AssetReference get_videoAssetReference() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId() ;
+static GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x2267e80 size 0x8 virtual false final false
  void _ctor() ;
@@ -155,8 +157,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO_
 /// @brief Method get_videoClipWithIds addr 0x2267e60 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId> get_videoClipWithIds() ;
 
-// Ctor Parameters []
-explicit VideoProjectionDataModelSO() ;
+static GlobalNamespace::VideoProjectionDataModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2267e68 size 0x8 virtual false final false
  void _ctor() ;

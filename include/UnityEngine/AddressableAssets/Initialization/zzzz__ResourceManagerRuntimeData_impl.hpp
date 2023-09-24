@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__ResourceManagerRuntimeData_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__SerializedType_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ResourceLocationData_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ObjectInitializationData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__SerializedType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData.get_BuildTarget
 template<>
@@ -666,8 +666,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::ResourceManagerRuntimeData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceManagerRuntimeData>())) {}
+ UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::New_ctor()  {
+UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData>())};
+return o;
+}
  void UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData>::get(),

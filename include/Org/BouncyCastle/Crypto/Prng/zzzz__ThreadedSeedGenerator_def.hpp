@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto::Prng {
+class Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
 class Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator;
@@ -76,8 +79,7 @@ constexpr bool __get_stop() const;
 /// @brief Method DoGenerateSeed addr 0xeb6c88 size 0x204 virtual false final false
  ::ArrayW<uint8_t> DoGenerateSeed(int32_t numBytes, bool fast) ;
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator() ;
+static Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__ThreadedSeedGenerator__SeedGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb6b0c size 0x28 virtual false final false
  void _ctor() ;
@@ -133,8 +135,7 @@ constexpr explicit ThreadedSeedGenerator(void* ptr) noexcept : ::bs_hook::Il2Cpp
 /// @brief Method GenerateSeed addr 0xeb6a84 size 0x88 virtual false final false
  ::ArrayW<uint8_t> GenerateSeed(int32_t numBytes, bool fast) ;
 
-// Ctor Parameters []
-explicit ThreadedSeedGenerator() ;
+static Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb6c3c size 0x8 virtual false final false
  void _ctor() ;

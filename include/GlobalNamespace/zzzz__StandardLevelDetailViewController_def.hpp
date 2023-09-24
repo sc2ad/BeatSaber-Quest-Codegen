@@ -7,16 +7,36 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__StandardLevelDetailViewController____OpenLevelProductStoreOrShowBuyInfo_b__58_0_d;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__StandardLevelDetailViewController__ContentType;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
+class StandardLevelDetailView;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class StandardLevelBuyInfoView;
 }
-namespace GlobalNamespace {
-class EventBinder;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
@@ -25,68 +45,75 @@ namespace GlobalNamespace {
 class LoadingControl;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+struct GlobalNamespace__StandardLevelDetailViewController___ShowLoadingAndDoSomething_d__62;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace GlobalNamespace {
-class StandardLevelBuyView;
+struct GlobalNamespace__StandardLevelDetailViewController____OpenLevelProductStore_b__59_0_d;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading {
+class CancellationTokenSource;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+struct GlobalNamespace__StandardLevelDetailViewController____BuyPackButtonWasPressed_b__56_0_d;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace GlobalNamespace {
+class EventBinder;
 }
 namespace GlobalNamespace {
 class AdditionalContentModel;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+class BeatmapLevelsModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__StandardLevelDetailViewController____RefreshAvailabilityIfNeeded_b__60_0_d;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
 }
 namespace GlobalNamespace {
 class DlcPromoPanelModel;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelsModel__LevelDownloadingUpdate;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
 namespace GlobalNamespace {
-class StandardLevelBuyInfoView;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapLevelsModel__LevelDownloadingUpdate;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace UnityEngine::UI {
-class Toggle;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace GlobalNamespace {
+class StandardLevelBuyView;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct GlobalNamespace__StandardLevelDetailViewController___LoadBeatmapLevelAsync_d__57;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace GlobalNamespace {
-class StandardLevelDetailView;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
+struct GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -94,12 +121,6 @@ struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapLevelsModel__GetBeatmapLevelResult;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -196,6 +217,8 @@ __Inactive = 7,
 constexpr operator __GlobalNamespace__StandardLevelDetailViewController__ContentType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__StandardLevelDetailViewController__ContentType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1098,8 +1121,7 @@ constexpr bool __get__contentIsOwnedAndReady() const;
 /// @brief Method ShowLoadingAndDoSomething addr 0x216dbac size 0x9c virtual false final false
  void ShowLoadingAndDoSomething(System::Func_2<System::Threading::CancellationToken,System::Threading::Tasks::Task> action) ;
 
-// Ctor Parameters []
-explicit StandardLevelDetailViewController() ;
+static GlobalNamespace::StandardLevelDetailViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x216de7c size 0x84 virtual false final false
  void _ctor() ;

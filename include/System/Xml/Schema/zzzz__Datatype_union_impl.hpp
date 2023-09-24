@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_union_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::Datatype_union.HasAtomicMembers
 template<>
 

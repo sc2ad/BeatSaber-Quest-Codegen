@@ -8,11 +8,20 @@
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDisplay__EyeRenderDesc;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDisplay__EyeFov;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDisplay__LatencyData;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -351,8 +360,7 @@ constexpr System::Action __get_RecenteredPose() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRDisplay() ;
+static GlobalNamespace::OVRDisplay New_ctor() ;
 
 /// @brief Method .ctor addr 0x25ae5d0 size 0x78 virtual false final false
  void _ctor() ;

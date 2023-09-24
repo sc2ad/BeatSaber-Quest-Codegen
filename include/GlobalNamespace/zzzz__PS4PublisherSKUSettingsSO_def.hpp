@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion;
+}
+namespace GlobalNamespace {
 struct PS4ApplicationCategory;
 }
 // Forward declare root types
@@ -84,8 +87,7 @@ constexpr ::StringW __get__applicationVersion() const;
 /// @brief Method get_applicationVersion addr 0x221a78c size 0x8 virtual false final false
  ::StringW get_applicationVersion() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion() ;
+static GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a794 size 0x8 virtual false final false
  void _ctor() ;
@@ -210,8 +212,7 @@ constexpr GlobalNamespace::PS4ApplicationCategory __get__applicationCategory() c
 /// @brief Method get_applicationCategory addr 0x221a76c size 0x8 virtual false final false
  GlobalNamespace::PS4ApplicationCategory get_applicationCategory() ;
 
-// Ctor Parameters []
-explicit PS4PublisherSKUSettingsSO() ;
+static GlobalNamespace::PS4PublisherSKUSettingsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a774 size 0x8 virtual false final false
  void _ctor() ;

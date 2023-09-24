@@ -55,8 +55,7 @@ constexpr explicit RandomNumberGenerator(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Methods
 
-// Ctor Parameters []
-explicit RandomNumberGenerator() ;
+static System::Security::Cryptography::RandomNumberGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f4d20 size 0x8 virtual false final false
  void _ctor() ;

@@ -115,8 +115,7 @@ static UnityEngine::InputSystem::InputActionReference Create(UnityEngine::InputS
 /// @brief Method ToInputAction addr 0x28b5dfc size 0x4 virtual false final false
  UnityEngine::InputSystem::InputAction ToInputAction() ;
 
-// Ctor Parameters []
-explicit InputActionReference() ;
+static UnityEngine::InputSystem::InputActionReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x28b5e00 size 0x8 virtual false final false
  void _ctor() ;

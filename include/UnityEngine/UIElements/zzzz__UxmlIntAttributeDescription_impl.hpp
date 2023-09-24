@@ -3,6 +3,7 @@
 #include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c._ctor
 template<>
@@ -73,8 +74,10 @@ return ::cordl_internals::getStaticField<System::Func_3<::StringW,int32_t,int32_
  System::Func_3<::StringW,int32_t,int32_t> UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c::__get___9__4_0()  {
 return ::cordl_internals::getStaticField<System::Func_3<::StringW,int32_t,int32_t>, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c::UnityEngine__UIElements__UxmlIntAttributeDescription____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UxmlIntAttributeDescription____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c>::get(),
@@ -170,8 +173,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UxmlIntAttributeDescription::UxmlIntAttributeDescription()  : UnityEngine::UIElements::TypedUxmlAttributeDescription_1<int32_t>(THROW_UNLESS(::il2cpp_utils::New<UxmlIntAttributeDescription>())) {}
+ UnityEngine::UIElements::UxmlIntAttributeDescription UnityEngine::UIElements::UxmlIntAttributeDescription::New_ctor()  {
+UnityEngine::UIElements::UxmlIntAttributeDescription o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UxmlIntAttributeDescription>())};
+return o;
+}
  void UnityEngine::UIElements::UxmlIntAttributeDescription::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UxmlIntAttributeDescription>::get(),

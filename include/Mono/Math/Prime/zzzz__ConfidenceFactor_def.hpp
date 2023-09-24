@@ -10,7 +10,7 @@ struct ConfidenceFactor;
 namespace Mono::Math::Prime {
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14019))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2291))
 // CS Name: Mono.Math.Prime.ConfidenceFactor
 struct CORDL_TYPE ConfidenceFactor : public ::bs_hook::EnumTypeWrapper {
 public:
@@ -59,6 +59,8 @@ __Provable = 5,
 constexpr operator __ConfidenceFactor_Unwrapped () const noexcept {
 return std::bit_cast<__ConfidenceFactor_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__AnimatorMoveHandlerManager_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__IAnimatorMoveHandler_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::AnimatorMoveHandlerManager.Construct
 template<>
 
@@ -113,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::AnimatorMoveHandlerManager::AnimatorMoveHandlerManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AnimatorMoveHandlerManager>())) {}
+ Zenject::AnimatorMoveHandlerManager Zenject::AnimatorMoveHandlerManager::New_ctor()  {
+Zenject::AnimatorMoveHandlerManager o{THROW_UNLESS(::il2cpp_utils::New<Zenject::AnimatorMoveHandlerManager>())};
+return o;
+}
  void Zenject::AnimatorMoveHandlerManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::AnimatorMoveHandlerManager>::get(),

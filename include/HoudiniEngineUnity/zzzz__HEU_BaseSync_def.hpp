@@ -5,52 +5,52 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
-}
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferInstancer;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_LoadBufferMesh;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Text {
-class StringBuilder;
+class HEU_LoadBufferInstancer;
 }
 namespace HoudiniEngineUnity {
-class HEU_ThreadedTaskLoadGeo;
+class HEU_LoadBufferVolume;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace HoudiniEngineUnity {
-struct HEU_GenerateOptions;
+class HEU_ThreadedTaskLoadGeo;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferMesh;
+}
+namespace HoudiniEngineUnity {
+struct HEU_GenerateOptions;
 }
 namespace HoudiniEngineUnity {
 class HEU_LoadBufferBase;
 }
 namespace HoudiniEngineUnity {
-class HEU_LoadBufferVolume;
+class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData;
 }
 namespace HoudiniEngineUnity {
-class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData;
+class HEU_GeneratedOutput;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -305,8 +305,7 @@ constexpr bool __get__firstSyncComplete() const;
 /// @brief Method SyncUpdate addr 0x20386e0 size 0x4 virtual true final false
  void SyncUpdate() ;
 
-// Ctor Parameters []
-explicit HEU_BaseSync() ;
+static HoudiniEngineUnity::HEU_BaseSync New_ctor() ;
 
 /// @brief Method .ctor addr 0x2033e80 size 0x170 virtual false final false
  void _ctor() ;

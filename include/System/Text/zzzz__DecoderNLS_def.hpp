@@ -87,8 +87,7 @@ constexpr int32_t __get__bytesUsed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit DecoderNLS(System::Text::Encoding encoding) ;
+static System::Text::DecoderNLS New_ctor(System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x24c1984 size 0x44 virtual false final false
  void _ctor(System::Text::Encoding encoding) ;

@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
+namespace System::Security::AccessControl {
+class GenericAce;
 }
 namespace System::Security::AccessControl {
 class GenericAcl;
 }
-namespace System::Security::AccessControl {
-class GenericAce;
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -82,8 +82,7 @@ constexpr int32_t __get_current() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "owner", ty: "System::Security::AccessControl::GenericAcl", modifiers: "", def_value: None }]
-explicit AceEnumerator(System::Security::AccessControl::GenericAcl owner) ;
+static System::Security::AccessControl::AceEnumerator New_ctor(System::Security::AccessControl::GenericAcl owner) ;
 
 /// @brief Method .ctor addr 0x23156d8 size 0x30 virtual false final false
  void _ctor(System::Security::AccessControl::GenericAcl owner) ;

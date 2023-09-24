@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XAttributeWrapper_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::XAttributeWrapper.get_Attribute
 template<>
 
@@ -131,8 +131,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Linq::XAttribute, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "attribute", ty: "System::Xml::Linq::XAttribute", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::XAttributeWrapper::XAttributeWrapper(System::Xml::Linq::XAttribute attribute)  : Newtonsoft::Json::Converters::XObjectWrapper(THROW_UNLESS(::il2cpp_utils::New<XAttributeWrapper>(attribute))) {}
+ Newtonsoft::Json::Converters::XAttributeWrapper Newtonsoft::Json::Converters::XAttributeWrapper::New_ctor(System::Xml::Linq::XAttribute attribute)  {
+Newtonsoft::Json::Converters::XAttributeWrapper o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::XAttributeWrapper>(attribute))};
+return o;
+}
  void Newtonsoft::Json::Converters::XAttributeWrapper::_ctor(System::Xml::Linq::XAttribute attribute)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::XAttributeWrapper>::get(),

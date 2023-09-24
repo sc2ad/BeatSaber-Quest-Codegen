@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -96,26 +96,22 @@ static Org::BouncyCastle::Asn1::DerEnumerated GetInstance(::bs_hook::Il2CppWrapp
 /// @brief Method GetInstance addr 0xef3540 size 0x140 virtual false final false
 static Org::BouncyCastle::Asn1::DerEnumerated GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "val", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DerEnumerated(int32_t val) ;
+static Org::BouncyCastle::Asn1::DerEnumerated New_ctor(int32_t val) ;
 
 /// @brief Method .ctor addr 0xef382c size 0xe8 virtual false final false
  void _ctor(int32_t val) ;
 
-// Ctor Parameters [CppParam { name: "val", ty: "int64_t", modifiers: "", def_value: None }]
-explicit DerEnumerated(int64_t val) ;
+static Org::BouncyCastle::Asn1::DerEnumerated New_ctor(int64_t val) ;
 
 /// @brief Method .ctor addr 0xef3914 size 0xe8 virtual false final false
  void _ctor(int64_t val) ;
 
-// Ctor Parameters [CppParam { name: "val", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit DerEnumerated(Org::BouncyCastle::Math::BigInteger val) ;
+static Org::BouncyCastle::Asn1::DerEnumerated New_ctor(Org::BouncyCastle::Math::BigInteger val) ;
 
 /// @brief Method .ctor addr 0xef39fc size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger val) ;
 
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerEnumerated(::ArrayW<uint8_t> bytes) ;
+static Org::BouncyCastle::Asn1::DerEnumerated New_ctor(::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0xef3aa4 size 0x130 virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes) ;

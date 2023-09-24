@@ -7,16 +7,16 @@ namespace Org::BouncyCastle::X509 {
 class AttributeCertificateHolder;
 }
 namespace Org::BouncyCastle::X509 {
-class X509Attribute;
+class AttributeCertificateIssuer;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::X509 {
+class X509Attribute;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::X509 {
-class AttributeCertificateIssuer;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::X509 {
 class IX509Extension;

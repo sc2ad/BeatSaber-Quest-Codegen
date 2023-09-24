@@ -1,7 +1,7 @@
 #pragma once
 #include "Zenject/Internal/zzzz__LookupId_def.hpp"
-#include "Zenject/zzzz__BindingId_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__BindingId_def.hpp"
 //  Writing Method size for method: Zenject::Internal::LookupId._ctor
 template<>
 
@@ -65,8 +65,10 @@ constexpr void Zenject::Internal::LookupId::__set_BindingId(Zenject::BindingId v
 constexpr Zenject::BindingId Zenject::Internal::LookupId::__get_BindingId() const {
 return ::cordl_internals::getInstanceField<Zenject::BindingId, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Internal::LookupId::LookupId()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LookupId>())) {}
+ Zenject::Internal::LookupId Zenject::Internal::LookupId::New_ctor()  {
+Zenject::Internal::LookupId o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::LookupId>())};
+return o;
+}
  void Zenject::Internal::LookupId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::LookupId>::get(),
@@ -76,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "provider", ty: "Zenject::IProvider", modifiers: "", def_value: None }, CppParam { name: "bindingId", ty: "Zenject::BindingId", modifiers: "", def_value: None }]
- Zenject::Internal::LookupId::LookupId(Zenject::IProvider provider, Zenject::BindingId bindingId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LookupId>(provider, bindingId))) {}
+ Zenject::Internal::LookupId Zenject::Internal::LookupId::New_ctor(Zenject::IProvider provider, Zenject::BindingId bindingId)  {
+Zenject::Internal::LookupId o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::LookupId>(provider, bindingId))};
+return o;
+}
  void Zenject::Internal::LookupId::_ctor(Zenject::IProvider provider, Zenject::BindingId bindingId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::LookupId>::get(),

@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace UnityEngine {
-class Texture2D;
+struct Vector4;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -90,8 +90,7 @@ constexpr explicit TerrainLayer(void* ptr) noexcept : UnityEngine::Object(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit TerrainLayer() ;
+static UnityEngine::TerrainLayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba4418 size 0x80 virtual false final false
  void _ctor() ;

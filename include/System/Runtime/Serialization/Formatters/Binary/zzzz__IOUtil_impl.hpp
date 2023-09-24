@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__IOUtil_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MessageEnum_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::IOUtil.FlagTest
 template<>
 

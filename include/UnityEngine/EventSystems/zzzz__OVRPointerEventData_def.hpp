@@ -3,10 +3,10 @@
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine {
-struct Vector2;
+struct Ray;
 }
 namespace UnityEngine {
-struct Ray;
+struct Vector2;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
@@ -72,8 +72,7 @@ constexpr UnityEngine::Vector2 __get_swipeStart() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
-explicit OVRPointerEventData(UnityEngine::EventSystems::EventSystem eventSystem) ;
+static UnityEngine::EventSystems::OVRPointerEventData New_ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;
 
 /// @brief Method .ctor addr 0x266c67c size 0x8 virtual false final false
  void _ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;

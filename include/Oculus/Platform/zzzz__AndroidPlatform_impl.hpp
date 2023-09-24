@@ -1,7 +1,7 @@
 #pragma once
 #include "Oculus/Platform/zzzz__AndroidPlatform_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
 //  Writing Method size for method: Oculus::Platform::AndroidPlatform.Initialize
 template<>
 
@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize>, false>(const_cast<void*>(instance), ___internal_method, appId);
 }
-// Ctor Parameters []
- Oculus::Platform::AndroidPlatform::AndroidPlatform()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidPlatform>())) {}
+ Oculus::Platform::AndroidPlatform Oculus::Platform::AndroidPlatform::New_ctor()  {
+Oculus::Platform::AndroidPlatform o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::AndroidPlatform>())};
+return o;
+}
  void Oculus::Platform::AndroidPlatform::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::AndroidPlatform>::get(),

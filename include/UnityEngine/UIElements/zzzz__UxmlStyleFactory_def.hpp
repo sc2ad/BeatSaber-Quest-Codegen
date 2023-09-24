@@ -5,13 +5,13 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -20,7 +20,7 @@ class UxmlStyleFactory;
 // Type: UnityEngine.UIElements::UxmlStyleFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6828)), TypeDefinitionIndex(TypeDefinitionIndex(7062)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5115 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5115 }), TypeDefinitionIndex(TypeDefinitionIndex(6828)), TypeDefinitionIndex(TypeDefinitionIndex(7062))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7060))
 // CS Name: UnityEngine.UIElements.UxmlStyleFactory
 class CORDL_TYPE UxmlStyleFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UxmlStyleTraits> {
@@ -75,8 +75,7 @@ constexpr explicit UxmlStyleFactory(void* ptr) noexcept : UnityEngine::UIElement
 /// @brief Method Create addr 0x2c95aac size 0x8 virtual true final false
  UnityEngine::UIElements::VisualElement Create(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UxmlStyleFactory() ;
+static UnityEngine::UIElements::UxmlStyleFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c95ab4 size 0x48 virtual false final false
  void _ctor() ;

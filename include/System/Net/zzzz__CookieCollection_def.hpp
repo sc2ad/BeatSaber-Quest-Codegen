@@ -4,25 +4,31 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Collections {
-class ArrayList;
+class IEnumerable;
+}
+namespace System::Net {
+class System__Net__CookieCollection__CookieCollectionEnumerator;
 }
 namespace System::Collections {
-class ICollection;
+class ArrayList;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
-class IEnumerable;
+class ICollection;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Net {
 class Cookie;
 }
+namespace System::Net {
+struct System__Net__CookieCollection__Stamp;
+}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-struct DateTime;
 }
 // Forward declare root types
 namespace System::Net {
@@ -85,6 +91,8 @@ __SetToMaxUsed = 3,
 constexpr operator __System__Net__CookieCollection__Stamp_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__CookieCollection__Stamp_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -188,8 +196,7 @@ constexpr int32_t __get_m_version() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cookies", ty: "System::Net::CookieCollection", modifiers: "", def_value: None }]
-explicit System__Net__CookieCollection__CookieCollectionEnumerator(System::Net::CookieCollection cookies) ;
+static System::Net::System__Net__CookieCollection__CookieCollectionEnumerator New_ctor(System::Net::CookieCollection cookies) ;
 
 /// @brief Method .ctor addr 0x281d5a0 size 0x5c virtual false final false
  void _ctor(System::Net::CookieCollection cookies) ;
@@ -305,8 +312,7 @@ constexpr bool __get_m_IsReadOnly() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CookieCollection() ;
+static System::Net::CookieCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x281c62c size 0xa8 virtual false final false
  void _ctor() ;

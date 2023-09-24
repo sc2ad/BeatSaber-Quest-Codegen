@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZDeflaterOutputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream._ctor
 template<>
 
@@ -340,8 +340,10 @@ constexpr void Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::__set_
 constexpr System::IO::Stream Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::__get_outp() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outp", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::ZDeflaterOutputStream(System::IO::Stream outp)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<ZDeflaterOutputStream>(outp))) {}
+ Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::New_ctor(System::IO::Stream outp)  {
+Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream>(outp))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::_ctor(System::IO::Stream outp)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream>::get(),
@@ -351,8 +353,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outp);
 }
-// Ctor Parameters [CppParam { name: "outp", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::ZDeflaterOutputStream(System::IO::Stream outp, int32_t level)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<ZDeflaterOutputStream>(outp, level))) {}
+ Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::New_ctor(System::IO::Stream outp, int32_t level)  {
+Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream>(outp, level))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::_ctor(System::IO::Stream outp, int32_t level)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream>::get(),
@@ -362,8 +366,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outp, level);
 }
-// Ctor Parameters [CppParam { name: "outp", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::ZDeflaterOutputStream(System::IO::Stream outp, int32_t level, bool nowrap)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<ZDeflaterOutputStream>(outp, level, nowrap))) {}
+ Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::New_ctor(System::IO::Stream outp, int32_t level, bool nowrap)  {
+Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream>(outp, level, nowrap))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::_ctor(System::IO::Stream outp, int32_t level, bool nowrap)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream>::get(),

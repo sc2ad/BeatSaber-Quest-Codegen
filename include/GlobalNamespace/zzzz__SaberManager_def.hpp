@@ -12,6 +12,9 @@ namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__SaberManager__InitData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__SaberManager__InitData;
@@ -76,8 +79,7 @@ constexpr GlobalNamespace::SaberType __get_oneSaberType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "oneSaberMode", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "oneSaberType", ty: "GlobalNamespace::SaberType", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SaberManager__InitData(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType) ;
+static GlobalNamespace::GlobalNamespace__SaberManager__InitData New_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType) ;
 
 /// @brief Method .ctor addr 0x210c338 size 0x30 virtual false final false
  void _ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType) ;
@@ -205,8 +207,7 @@ constexpr System::Action_2<GlobalNamespace::Saber,GlobalNamespace::Saber> __get_
 /// @brief Method RefreshSabers addr 0x210c114 size 0x124 virtual false final false
  void RefreshSabers() ;
 
-// Ctor Parameters []
-explicit SaberManager() ;
+static GlobalNamespace::SaberManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x210c330 size 0x8 virtual false final false
  void _ctor() ;

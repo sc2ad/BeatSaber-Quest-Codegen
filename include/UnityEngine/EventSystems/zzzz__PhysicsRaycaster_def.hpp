@@ -6,6 +6,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::EventSystems {
+class UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
 namespace UnityEngine {
 struct Ray;
 }
@@ -13,20 +19,17 @@ namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
 namespace UnityEngine {
+struct RaycastHit;
+}
+namespace UnityEngine {
 struct LayerMask;
 }
 namespace UnityEngine {
-struct RaycastHit;
+class Camera;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class Camera;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -96,8 +99,7 @@ static UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__R
 /// @brief Method Compare addr 0x2c28190 size 0x40 virtual true final true
  int32_t Compare(UnityEngine::RaycastHit x, UnityEngine::RaycastHit y) ;
 
-// Ctor Parameters []
-explicit UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer() ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__PhysicsRaycaster__RaycastHitComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c281d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -199,8 +201,7 @@ constexpr ::ArrayW<UnityEngine::RaycastHit> __get_m_Hits() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PhysicsRaycaster() ;
+static UnityEngine::EventSystems::PhysicsRaycaster New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c27290 size 0x28 virtual false final false
  void _ctor() ;

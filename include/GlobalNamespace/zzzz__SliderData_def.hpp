@@ -11,13 +11,16 @@ namespace GlobalNamespace {
 struct SliderMidAnchorMode;
 }
 namespace GlobalNamespace {
-struct ColorType;
-}
-namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SliderData__Type;
+}
+namespace GlobalNamespace {
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,6 +78,8 @@ __Burst = 1,
 constexpr operator __GlobalNamespace__SliderData__Type_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SliderData__Type_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -433,8 +438,7 @@ constexpr float_t __get__squishAmount_k__BackingField() const;
 /// @brief Method GetCopy addr 0xd94bec size 0x15c virtual true final false
  GlobalNamespace::BeatmapDataItem GetCopy() ;
 
-// Ctor Parameters [CppParam { name: "sliderType", ty: "GlobalNamespace::GlobalNamespace__SliderData__Type", modifiers: "", def_value: None }, CppParam { name: "colorType", ty: "GlobalNamespace::ColorType", modifiers: "", def_value: None }, CppParam { name: "hasHeadNote", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "headTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headLineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "headBeforeJumpLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "headControlPointLengthMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headCutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "headCutDirectionAngleOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "hasTailNote", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "tailTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tailLineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "tailBeforeJumpLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "tailControlPointLengthMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tailCutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "tailCutDirectionAngleOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "midAnchorMode", ty: "GlobalNamespace::SliderMidAnchorMode", modifiers: "", def_value: None }, CppParam { name: "sliceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "squishAmount", ty: "float_t", modifiers: "", def_value: None }]
-explicit SliderData(GlobalNamespace::GlobalNamespace__SliderData__Type sliderType, GlobalNamespace::ColorType colorType, bool hasHeadNote, float_t headTime, int32_t headLineIndex, GlobalNamespace::NoteLineLayer headLineLayer, GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t headCutDirectionAngleOffset, bool hasTailNote, float_t tailTime, int32_t tailLineIndex, GlobalNamespace::NoteLineLayer tailLineLayer, GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailCutDirectionAngleOffset, GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount, float_t squishAmount) ;
+static GlobalNamespace::SliderData New_ctor(GlobalNamespace::GlobalNamespace__SliderData__Type sliderType, GlobalNamespace::ColorType colorType, bool hasHeadNote, float_t headTime, int32_t headLineIndex, GlobalNamespace::NoteLineLayer headLineLayer, GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t headCutDirectionAngleOffset, bool hasTailNote, float_t tailTime, int32_t tailLineIndex, GlobalNamespace::NoteLineLayer tailLineLayer, GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailCutDirectionAngleOffset, GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount, float_t squishAmount) ;
 
 /// @brief Method .ctor addr 0xd94d48 size 0x148 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__SliderData__Type sliderType, GlobalNamespace::ColorType colorType, bool hasHeadNote, float_t headTime, int32_t headLineIndex, GlobalNamespace::NoteLineLayer headLineLayer, GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t headCutDirectionAngleOffset, bool hasTailNote, float_t tailTime, int32_t tailLineIndex, GlobalNamespace::NoteLineLayer tailLineLayer, GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailCutDirectionAngleOffset, GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount, float_t squishAmount) ;

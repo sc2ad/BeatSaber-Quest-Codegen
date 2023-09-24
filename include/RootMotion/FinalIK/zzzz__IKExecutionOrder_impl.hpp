@@ -194,8 +194,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKExecutionOrder::IKExecutionOrder()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<IKExecutionOrder>())) {}
+ RootMotion::FinalIK::IKExecutionOrder RootMotion::FinalIK::IKExecutionOrder::New_ctor()  {
+RootMotion::FinalIK::IKExecutionOrder o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKExecutionOrder>())};
+return o;
+}
  void RootMotion::FinalIK::IKExecutionOrder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKExecutionOrder>::get(),

@@ -3,22 +3,23 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCollectionViewController_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
+#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
+#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCollectionViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCollectionTableView_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0._ctor
 template<>
@@ -66,8 +67,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LevelCollectionViewController__
 constexpr GlobalNamespace::IPreviewBeatmapLevel GlobalNamespace::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0::__get_level() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IPreviewBeatmapLevel, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0>())) {}
+ GlobalNamespace::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0 GlobalNamespace::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0>::get(),
@@ -625,8 +628,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelCollectionViewController::LevelCollectionViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<LevelCollectionViewController>())) {}
+ GlobalNamespace::LevelCollectionViewController GlobalNamespace::LevelCollectionViewController::New_ctor()  {
+GlobalNamespace::LevelCollectionViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelCollectionViewController>())};
+return o;
+}
  void GlobalNamespace::LevelCollectionViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelCollectionViewController>::get(),

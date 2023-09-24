@@ -8,13 +8,19 @@ namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__FlyingScoreSpawner__SpawnPosition;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__FlyingScoreSpawner__InitData;
+}
+namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__FlyingScoreEffect__Pool;
+class IFlyingObjectEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
+class GlobalNamespace__FlyingScoreEffect__Pool;
 }
 namespace GlobalNamespace {
 class IReadonlyCutScoreBuffer;
@@ -78,6 +84,8 @@ __AboveGround = 1,
 constexpr operator __GlobalNamespace__FlyingScoreSpawner__SpawnPosition_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__FlyingScoreSpawner__SpawnPosition_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -149,8 +157,7 @@ constexpr GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition __
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "spawnPosition", ty: "GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition", modifiers: "", def_value: None }]
-explicit GlobalNamespace__FlyingScoreSpawner__InitData(GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition spawnPosition) ;
+static GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData New_ctor(GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition spawnPosition) ;
 
 /// @brief Method .ctor addr 0x2258bf4 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__SpawnPosition spawnPosition) ;
@@ -229,8 +236,7 @@ constexpr GlobalNamespace::GlobalNamespace__FlyingScoreSpawner__InitData __get__
 /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x2258ad0 size 0x11c virtual true final true
  void HandleFlyingObjectEffectDidFinish(GlobalNamespace::FlyingObjectEffect flyingObjectEffect) ;
 
-// Ctor Parameters []
-explicit FlyingScoreSpawner() ;
+static GlobalNamespace::FlyingScoreSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x2258bec size 0x8 virtual false final false
  void _ctor() ;

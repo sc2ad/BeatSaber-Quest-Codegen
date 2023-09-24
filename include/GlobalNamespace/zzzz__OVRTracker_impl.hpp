@@ -2,6 +2,7 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTracker_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPose_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTracker_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fov", ty: "UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRTracker__Frustum::GlobalNamespace__OVRTracker__Frustum(float_t nearZ, float_t farZ, UnityEngine::Vector2 fov) noexcept : ::bs_hook::ValueTypeWrapper() {this->nearZ = nearZ;
@@ -281,8 +282,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, tracker);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRTracker::OVRTracker()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRTracker>())) {}
+ GlobalNamespace::OVRTracker GlobalNamespace::OVRTracker::New_ctor()  {
+GlobalNamespace::OVRTracker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRTracker>())};
+return o;
+}
  void GlobalNamespace::OVRTracker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRTracker>::get(),

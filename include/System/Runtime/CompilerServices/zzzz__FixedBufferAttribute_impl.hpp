@@ -65,8 +65,10 @@ constexpr void System::Runtime::CompilerServices::FixedBufferAttribute::__set__L
 constexpr int32_t System::Runtime::CompilerServices::FixedBufferAttribute::__get__Length_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "elementType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::FixedBufferAttribute::FixedBufferAttribute(System::Type elementType, int32_t length)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<FixedBufferAttribute>(elementType, length))) {}
+ System::Runtime::CompilerServices::FixedBufferAttribute System::Runtime::CompilerServices::FixedBufferAttribute::New_ctor(System::Type elementType, int32_t length)  {
+System::Runtime::CompilerServices::FixedBufferAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::FixedBufferAttribute>(elementType, length))};
+return o;
+}
  void System::Runtime::CompilerServices::FixedBufferAttribute::_ctor(System::Type elementType, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::FixedBufferAttribute>::get(),

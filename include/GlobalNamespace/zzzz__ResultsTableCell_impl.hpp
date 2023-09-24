@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_impl.hpp"
 #include "GlobalNamespace/zzzz__ResultsTableCell_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ResultsTableCell.SetData
 template<>
 
@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, order, connectedPlayer, levelCompletionResults);
 }
-// Ctor Parameters []
- GlobalNamespace::ResultsTableCell::ResultsTableCell()  : GlobalNamespace::TableCellWithSeparator(THROW_UNLESS(::il2cpp_utils::New<ResultsTableCell>())) {}
+ GlobalNamespace::ResultsTableCell GlobalNamespace::ResultsTableCell::New_ctor()  {
+GlobalNamespace::ResultsTableCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ResultsTableCell>())};
+return o;
+}
  void GlobalNamespace::ResultsTableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ResultsTableCell>::get(),

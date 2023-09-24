@@ -3,12 +3,12 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
 class EnvironmentTypeSO;
@@ -88,8 +88,7 @@ constexpr ::ArrayW<GlobalNamespace::EnvironmentInfoSO> __get__environmentInfos()
 /// @brief Method GetLastEnvironmentInfoWithType addr 0x21bf720 size 0x80 virtual false final false
  GlobalNamespace::EnvironmentInfoSO GetLastEnvironmentInfoWithType(GlobalNamespace::EnvironmentTypeSO environmentType) ;
 
-// Ctor Parameters []
-explicit EnvironmentsListSO() ;
+static GlobalNamespace::EnvironmentsListSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bf7a0 size 0x8 virtual false final false
  void _ctor() ;

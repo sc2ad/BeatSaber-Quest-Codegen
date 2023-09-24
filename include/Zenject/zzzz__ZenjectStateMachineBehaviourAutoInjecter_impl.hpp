@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__ZenjectStateMachineBehaviourAutoInjecter_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: Zenject::ZenjectStateMachineBehaviourAutoInjecter.Construct
 template<>
 
@@ -119,8 +119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::ZenjectStateMachineBehaviourAutoInjecter::ZenjectStateMachineBehaviourAutoInjecter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ZenjectStateMachineBehaviourAutoInjecter>())) {}
+ Zenject::ZenjectStateMachineBehaviourAutoInjecter Zenject::ZenjectStateMachineBehaviourAutoInjecter::New_ctor()  {
+Zenject::ZenjectStateMachineBehaviourAutoInjecter o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ZenjectStateMachineBehaviourAutoInjecter>())};
+return o;
+}
  void Zenject::ZenjectStateMachineBehaviourAutoInjecter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ZenjectStateMachineBehaviourAutoInjecter>::get(),

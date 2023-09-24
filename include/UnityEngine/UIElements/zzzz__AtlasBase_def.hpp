@@ -2,23 +2,23 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace UnityEngine {
-struct RectInt;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-class Texture2D;
-}
 namespace UnityEngine::UIElements {
 struct TextureId;
 }
 namespace UnityEngine::UIElements {
 class TextureRegistry;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+struct RectInt;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -111,8 +111,7 @@ static void RepaintTexturedElements(UnityEngine::UIElements::IPanel panel) ;
 /// @brief Method SetDynamicTexture addr 0x2c3b280 size 0x20 virtual false final false
  void SetDynamicTexture(UnityEngine::UIElements::TextureId id, UnityEngine::Texture texture) ;
 
-// Ctor Parameters []
-explicit AtlasBase() ;
+static UnityEngine::UIElements::AtlasBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3b2a0 size 0x98 virtual false final false
  void _ctor() ;

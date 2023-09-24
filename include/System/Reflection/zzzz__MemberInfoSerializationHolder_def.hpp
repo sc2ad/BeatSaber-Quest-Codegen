@@ -4,25 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Runtime::Serialization {
-class IObjectReference;
+struct StreamingContext;
 }
 namespace System {
-class Type;
+class RuntimeType;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class IObjectReference;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System {
-class RuntimeType;
-}
 namespace System::Reflection {
 struct MemberTypes;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -121,8 +121,7 @@ static void GetSerializationInfo(System::Runtime::Serialization::SerializationIn
 /// @brief Method GetSerializationInfo addr 0x2380cfc size 0x314 virtual false final false
 static void GetSerializationInfo(System::Runtime::Serialization::SerializationInfo info, ::StringW name, System::RuntimeType reflectedClass, ::StringW signature, ::StringW signature2, System::Reflection::MemberTypes type, ::ArrayW<System::Type> genericArguments) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit MemberInfoSerializationHolder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Reflection::MemberInfoSerializationHolder New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2381010 size 0x324 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

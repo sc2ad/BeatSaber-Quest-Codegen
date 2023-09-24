@@ -2,9 +2,10 @@
 #include "System/Threading/zzzz__SynchronizationContext_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__UnitySynchronizationContext_def.hpp"
-#include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Threading/zzzz__SynchronizationContext_def.hpp"
+#include "UnityEngine/zzzz__UnitySynchronizationContext_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__UnitySynchronizationContext__WorkRequest._ctor
 template<>
@@ -310,8 +311,10 @@ constexpr void UnityEngine::UnitySynchronizationContext::__set_m_TrackedCount(in
 constexpr int32_t UnityEngine::UnitySynchronizationContext::__get_m_TrackedCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mainThreadID", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UnitySynchronizationContext::UnitySynchronizationContext(int32_t mainThreadID)  : System::Threading::SynchronizationContext(THROW_UNLESS(::il2cpp_utils::New<UnitySynchronizationContext>(mainThreadID))) {}
+ UnityEngine::UnitySynchronizationContext UnityEngine::UnitySynchronizationContext::New_ctor(int32_t mainThreadID)  {
+UnityEngine::UnitySynchronizationContext o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnitySynchronizationContext>(mainThreadID))};
+return o;
+}
  void UnityEngine::UnitySynchronizationContext::_ctor(int32_t mainThreadID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnitySynchronizationContext>::get(),
@@ -321,8 +324,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mainThreadID);
 }
-// Ctor Parameters [CppParam { name: "queue", ty: "System::Collections::Generic::List_1<UnityEngine::UnityEngine__UnitySynchronizationContext__WorkRequest>", modifiers: "", def_value: None }, CppParam { name: "mainThreadID", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UnitySynchronizationContext::UnitySynchronizationContext(System::Collections::Generic::List_1<UnityEngine::UnityEngine__UnitySynchronizationContext__WorkRequest> queue, int32_t mainThreadID)  : System::Threading::SynchronizationContext(THROW_UNLESS(::il2cpp_utils::New<UnitySynchronizationContext>(queue, mainThreadID))) {}
+ UnityEngine::UnitySynchronizationContext UnityEngine::UnitySynchronizationContext::New_ctor(System::Collections::Generic::List_1<UnityEngine::UnityEngine__UnitySynchronizationContext__WorkRequest> queue, int32_t mainThreadID)  {
+UnityEngine::UnitySynchronizationContext o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnitySynchronizationContext>(queue, mainThreadID))};
+return o;
+}
  void UnityEngine::UnitySynchronizationContext::_ctor(System::Collections::Generic::List_1<UnityEngine::UnityEngine__UnitySynchronizationContext__WorkRequest> queue, int32_t mainThreadID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnitySynchronizationContext>::get(),

@@ -2,21 +2,22 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/IO/zzzz__BufferedStream_def.hpp"
-#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/IO/zzzz__BufferedStream_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
@@ -70,8 +71,10 @@ return ::cordl_internals::getStaticField<System::IO::System__IO__BufferedStream_
  System::Func_1<System::Threading::SemaphoreSlim> System::IO::System__IO__BufferedStream____c::__get___9__10_0()  {
 return ::cordl_internals::getStaticField<System::Func_1<System::Threading::SemaphoreSlim>, "<>9__10_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__BufferedStream____c>::get>();
 }
-// Ctor Parameters []
- System::IO::System__IO__BufferedStream____c::System__IO__BufferedStream____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__BufferedStream____c>())) {}
+ System::IO::System__IO__BufferedStream____c System::IO::System__IO__BufferedStream____c::New_ctor()  {
+System::IO::System__IO__BufferedStream____c o{THROW_UNLESS(::il2cpp_utils::New<System::IO::System__IO__BufferedStream____c>())};
+return o;
+}
  void System::IO::System__IO__BufferedStream____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__BufferedStream____c>::get(),
@@ -1553,8 +1556,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::SemaphoreSlim, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- System::IO::BufferedStream::BufferedStream(System::IO::Stream stream)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<BufferedStream>(stream))) {}
+ System::IO::BufferedStream System::IO::BufferedStream::New_ctor(System::IO::Stream stream)  {
+System::IO::BufferedStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::BufferedStream>(stream))};
+return o;
+}
  void System::IO::BufferedStream::_ctor(System::IO::Stream stream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::BufferedStream>::get(),
@@ -1564,8 +1569,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::IO::BufferedStream::BufferedStream(System::IO::Stream stream, int32_t bufferSize)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<BufferedStream>(stream, bufferSize))) {}
+ System::IO::BufferedStream System::IO::BufferedStream::New_ctor(System::IO::Stream stream, int32_t bufferSize)  {
+System::IO::BufferedStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::BufferedStream>(stream, bufferSize))};
+return o;
+}
  void System::IO::BufferedStream::_ctor(System::IO::Stream stream, int32_t bufferSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::BufferedStream>::get(),

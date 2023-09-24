@@ -87,8 +87,7 @@ constexpr UnityEngine::UIElements::StartDragArgs __get_m_StartDragArgs() const;
 /// @brief Method get_data addr 0x2c92d44 size 0x4 virtual true final true
  UnityEngine::UIElements::IDragAndDropData get_data() ;
 
-// Ctor Parameters []
-explicit DefaultDragAndDropClient() ;
+static UnityEngine::UIElements::DefaultDragAndDropClient New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c949ec size 0x8 virtual false final false
  void _ctor() ;

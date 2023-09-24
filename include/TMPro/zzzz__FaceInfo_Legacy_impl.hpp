@@ -143,8 +143,10 @@ constexpr void TMPro::FaceInfo_Legacy::__set_AtlasHeight(float_t value)  {
 constexpr float_t TMPro::FaceInfo_Legacy::__get_AtlasHeight() const {
 return ::cordl_internals::getInstanceField<float_t, 0x64>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::FaceInfo_Legacy::FaceInfo_Legacy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FaceInfo_Legacy>())) {}
+ TMPro::FaceInfo_Legacy TMPro::FaceInfo_Legacy::New_ctor()  {
+TMPro::FaceInfo_Legacy o{THROW_UNLESS(::il2cpp_utils::New<TMPro::FaceInfo_Legacy>())};
+return o;
+}
  void TMPro::FaceInfo_Legacy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::FaceInfo_Legacy>::get(),

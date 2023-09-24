@@ -1,16 +1,15 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LeaderboardViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardViewController_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HMUI/zzzz__IconSegmentedControl_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__LocalLeaderboardTableView_def.hpp"
-#include "HMUI/zzzz__NoTransitionsButton_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "HMUI/zzzz__NoTransitionsButton_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "HMUI/zzzz__IconSegmentedControl_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
+#include "GlobalNamespace/zzzz__LocalLeaderboardTableView_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LocalLeaderboardViewController.get_leaderboardsModel
 template<>
@@ -500,8 +499,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LocalLeaderboardViewController::LocalLeaderboardViewController()  : GlobalNamespace::LeaderboardViewController(THROW_UNLESS(::il2cpp_utils::New<LocalLeaderboardViewController>())) {}
+ GlobalNamespace::LocalLeaderboardViewController GlobalNamespace::LocalLeaderboardViewController::New_ctor()  {
+GlobalNamespace::LocalLeaderboardViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LocalLeaderboardViewController>())};
+return o;
+}
  void GlobalNamespace::LocalLeaderboardViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LocalLeaderboardViewController>::get(),

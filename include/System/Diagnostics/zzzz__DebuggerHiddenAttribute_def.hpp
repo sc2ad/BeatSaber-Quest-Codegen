@@ -47,8 +47,7 @@ constexpr explicit DebuggerHiddenAttribute(void* ptr) noexcept : System::Attribu
 
 // Methods
 
-// Ctor Parameters []
-explicit DebuggerHiddenAttribute() ;
+static System::Diagnostics::DebuggerHiddenAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x240bf40 size 0x8 virtual false final false
  void _ctor() ;

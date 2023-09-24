@@ -130,8 +130,7 @@ constexpr ::ArrayW<uint32_t> __get_P() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BCrypt() ;
+static Org::BouncyCastle::Crypto::Generators::BCrypt New_ctor() ;
 
 /// @brief Method .ctor addr 0xe69970 size 0x6c virtual false final false
  void _ctor() ;

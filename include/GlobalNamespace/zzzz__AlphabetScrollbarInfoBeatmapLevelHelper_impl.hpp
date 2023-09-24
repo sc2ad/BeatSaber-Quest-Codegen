@@ -1,8 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AlphabetScrollbarInfoBeatmapLevelHelper_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__AlphabetScrollInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__AlphabetScrollInfo_def.hpp"
+#include "GlobalNamespace/zzzz__AlphabetScrollbarInfoBeatmapLevelHelper_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c._ctor
 template<>
@@ -50,8 +51,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Alpha
  System::Func_2<GlobalNamespace::IPreviewBeatmapLevel,::StringW> GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c::__get___9__3_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::IPreviewBeatmapLevel,::StringW>, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c>())) {}
+ GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AlphabetScrollbarInfoBeatmapLevelHelper____c>::get(),

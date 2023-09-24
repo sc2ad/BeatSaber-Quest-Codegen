@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName._ctor
 template<>
 
@@ -30,8 +31,10 @@ constexpr void GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySo
 constexpr ::StringW GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName::__get_packName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName>())) {}
+ GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName::New_ctor()  {
+GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName>::get(),
@@ -82,8 +85,10 @@ constexpr void GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySo
 constexpr System::Collections::Generic::List_1<::StringW> GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack::__get_packIds() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<::StringW>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack>())) {}
+ GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack::New_ctor()  {
+GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack>::get(),
@@ -122,8 +127,10 @@ constexpr void GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySo
 constexpr ::StringW GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack::__get_packId() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack>())) {}
+ GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack::New_ctor()  {
+GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack>::get(),
@@ -162,8 +169,10 @@ constexpr void GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySo
 constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack> GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride::__get_localizedCustomPacks() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride>())) {}
+ GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride::New_ctor()  {
+GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride>::get(),
@@ -222,8 +231,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::QuickPlaySetupData::QuickPlaySetupData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<QuickPlaySetupData>())) {}
+ GlobalNamespace::QuickPlaySetupData GlobalNamespace::QuickPlaySetupData::New_ctor()  {
+GlobalNamespace::QuickPlaySetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::QuickPlaySetupData>())};
+return o;
+}
  void GlobalNamespace::QuickPlaySetupData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::QuickPlaySetupData>::get(),

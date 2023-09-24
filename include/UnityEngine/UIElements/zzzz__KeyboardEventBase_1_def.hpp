@@ -4,14 +4,14 @@
 namespace UnityEngine {
 struct EventModifiers;
 }
-namespace UnityEngine::UIElements {
-class IKeyboardEvent;
+namespace UnityEngine {
+class Event;
 }
 namespace UnityEngine {
 struct KeyCode;
 }
-namespace UnityEngine {
-class Event;
+namespace UnityEngine::UIElements {
+class IKeyboardEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -155,8 +155,7 @@ static T GetPooled(char16_t c, UnityEngine::KeyCode keyCode, UnityEngine::EventM
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
 static T GetPooled(UnityEngine::Event systemEvent) ;
 
-// Ctor Parameters []
-explicit KeyboardEventBase_1() ;
+static UnityEngine::UIElements::KeyboardEventBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

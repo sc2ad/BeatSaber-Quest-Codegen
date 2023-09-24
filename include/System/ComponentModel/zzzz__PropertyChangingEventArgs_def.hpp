@@ -62,8 +62,7 @@ constexpr ::StringW __get__PropertyName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "propertyName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PropertyChangingEventArgs(::StringW propertyName) ;
+static System::ComponentModel::PropertyChangingEventArgs New_ctor(::StringW propertyName) ;
 
 /// @brief Method .ctor addr 0x24c717c size 0x78 virtual false final false
  void _ctor(::StringW propertyName) ;

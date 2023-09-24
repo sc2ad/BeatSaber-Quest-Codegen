@@ -4,43 +4,43 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace GlobalNamespace {
-template<typename T>
-class DelegateList_1;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System {
-class Type;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationStatus;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
+struct AsyncOperationHandle;
+}
+namespace System {
+class Exception;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationStatus;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+template<typename T>
+class DelegateList_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {

@@ -2,11 +2,12 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DynamicBone_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__DynamicBone_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__DynamicBoneColliderBase_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__DynamicBone__UpdateMode::GlobalNamespace__DynamicBone__UpdateMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -128,8 +129,10 @@ constexpr void GlobalNamespace::GlobalNamespace__DynamicBone__Particle::__set_m_
 constexpr UnityEngine::Quaternion GlobalNamespace::GlobalNamespace__DynamicBone__Particle::__get_m_InitLocalRotation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Quaternion, 0x64>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DynamicBone__Particle::GlobalNamespace__DynamicBone__Particle()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DynamicBone__Particle>())) {}
+ GlobalNamespace::GlobalNamespace__DynamicBone__Particle GlobalNamespace::GlobalNamespace__DynamicBone__Particle::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DynamicBone__Particle o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DynamicBone__Particle>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DynamicBone__Particle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DynamicBone__Particle>::get(),
@@ -946,8 +949,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DynamicBone::DynamicBone()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DynamicBone>())) {}
+ GlobalNamespace::DynamicBone GlobalNamespace::DynamicBone::New_ctor()  {
+GlobalNamespace::DynamicBone o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DynamicBone>())};
+return o;
+}
  void GlobalNamespace::DynamicBone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DynamicBone>::get(),

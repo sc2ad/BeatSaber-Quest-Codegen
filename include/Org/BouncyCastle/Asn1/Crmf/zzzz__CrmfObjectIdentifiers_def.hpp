@@ -101,8 +101,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_ct_encKeyWithID() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit CrmfObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xdf7a04 size 0x8 virtual false final false
  void _ctor() ;

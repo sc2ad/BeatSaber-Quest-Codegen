@@ -1,10 +1,10 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IDerivationFunction;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

@@ -3,43 +3,46 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-struct Touch;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct Touch;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+class UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct TouchState;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+class Finger;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template<typename TValue>
 class InputStateHistory_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-class Finger;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {
@@ -121,8 +124,7 @@ constexpr int32_t __get_m_Index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "owner", ty: "UnityEngine::InputSystem::EnhancedTouch::TouchHistory", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator(UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner) ;
+static UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator New_ctor(UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner) ;
 
 /// @brief Method .ctor addr 0x2950f2c size 0x34 virtual false final false
  void _ctor(UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner) ;

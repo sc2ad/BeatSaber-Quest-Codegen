@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ModifiersSelectionView_impl.hpp"
 #include "GlobalNamespace/zzzz__EditableModifiersSelectionView_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EditableModifiersSelectionView.get_editButton
 template<>
@@ -285,8 +285,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, gameplayModifiers);
 }
-// Ctor Parameters []
- GlobalNamespace::EditableModifiersSelectionView::EditableModifiersSelectionView()  : GlobalNamespace::ModifiersSelectionView(THROW_UNLESS(::il2cpp_utils::New<EditableModifiersSelectionView>())) {}
+ GlobalNamespace::EditableModifiersSelectionView GlobalNamespace::EditableModifiersSelectionView::New_ctor()  {
+GlobalNamespace::EditableModifiersSelectionView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EditableModifiersSelectionView>())};
+return o;
+}
  void GlobalNamespace::EditableModifiersSelectionView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EditableModifiersSelectionView>::get(),

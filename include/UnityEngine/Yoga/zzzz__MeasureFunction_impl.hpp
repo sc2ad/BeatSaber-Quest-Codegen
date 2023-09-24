@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Yoga/zzzz__MeasureFunction_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaSize_def.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaNode_def.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaMeasureMode_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaSize_def.hpp"
 //  Writing Method size for method: UnityEngine::Yoga::MeasureFunction._ctor
 template<>
 
@@ -38,8 +38,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Yoga::MeasureFunction::MeasureFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<MeasureFunction>(object, method))) {}
+ UnityEngine::Yoga::MeasureFunction UnityEngine::Yoga::MeasureFunction::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::Yoga::MeasureFunction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Yoga::MeasureFunction>(object, method))};
+return o;
+}
  void UnityEngine::Yoga::MeasureFunction::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Yoga::MeasureFunction>::get(),

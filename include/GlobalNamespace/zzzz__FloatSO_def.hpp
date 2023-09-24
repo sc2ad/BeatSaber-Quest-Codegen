@@ -48,8 +48,7 @@ constexpr explicit FloatSO(void* ptr) noexcept : GlobalNamespace::ObservableVari
 
 // Methods
 
-// Ctor Parameters []
-explicit FloatSO() ;
+static GlobalNamespace::FloatSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83d64 size 0x48 virtual false final false
  void _ctor() ;

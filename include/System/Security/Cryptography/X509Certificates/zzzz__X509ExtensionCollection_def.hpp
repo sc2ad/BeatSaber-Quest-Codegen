@@ -5,6 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Extension;
+}
+namespace System::Collections {
 class ICollection;
 }
 namespace System {
@@ -12,18 +24,6 @@ class Array;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ExtensionEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -103,8 +103,7 @@ constexpr System::Collections::ArrayList __get__list() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509ExtensionCollection() ;
+static System::Security::Cryptography::X509Certificates::X509ExtensionCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27f3178 size 0x6c virtual false final false
  void _ctor() ;

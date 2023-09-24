@@ -25,8 +25,10 @@ constexpr void UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionA
 constexpr System::Type UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute::__get_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute::SerializedTypeRestrictionAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<SerializedTypeRestrictionAttribute>())) {}
+ UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute::New_ctor()  {
+UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute>())};
+return o;
+}
  void UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute>::get(),

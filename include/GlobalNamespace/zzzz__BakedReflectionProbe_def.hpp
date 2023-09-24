@@ -5,11 +5,11 @@
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-class Cubemap;
-}
 namespace GlobalNamespace {
 class ReflectionProbeDataSO;
+}
+namespace UnityEngine {
+class Cubemap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -158,8 +158,7 @@ constexpr UnityEngine::Cubemap __get__blackCubemap() const;
 /// @brief Method SendDataToShaders addr 0x219b2cc size 0x22c virtual false final false
  void SendDataToShaders() ;
 
-// Ctor Parameters []
-explicit BakedReflectionProbe() ;
+static GlobalNamespace::BakedReflectionProbe New_ctor() ;
 
 /// @brief Method .ctor addr 0x219b4f8 size 0x14 virtual false final false
  void _ctor() ;

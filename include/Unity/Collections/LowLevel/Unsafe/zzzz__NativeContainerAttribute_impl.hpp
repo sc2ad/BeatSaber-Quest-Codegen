@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute::NativeContainerAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeContainerAttribute>())) {}
+ Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute::New_ctor()  {
+Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute o{THROW_UNLESS(::il2cpp_utils::New<Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute>())};
+return o;
+}
  void Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute>::get(),

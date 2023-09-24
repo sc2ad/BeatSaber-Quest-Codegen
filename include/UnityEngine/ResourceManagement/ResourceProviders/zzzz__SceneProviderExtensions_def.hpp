@@ -1,21 +1,21 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class ISceneProvider;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelRestartController_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
-#include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StandardLevelRestartController.RestartLevel
 template<>
 
@@ -63,8 +63,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::StandardLevelRestartController::StandardLevelRestartController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StandardLevelRestartController>())) {}
+ GlobalNamespace::StandardLevelRestartController GlobalNamespace::StandardLevelRestartController::New_ctor()  {
+GlobalNamespace::StandardLevelRestartController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardLevelRestartController>())};
+return o;
+}
  void GlobalNamespace::StandardLevelRestartController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardLevelRestartController>::get(),

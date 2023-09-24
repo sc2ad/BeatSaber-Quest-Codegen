@@ -3,16 +3,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class NoteControllerBase;
+class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
+class NoteControllerBase;
 }
 namespace GlobalNamespace {
 class CutoutAnimateEffect;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
+class INoteControllerDidInitEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -96,8 +96,7 @@ constexpr GlobalNamespace::CutoutAnimateEffect __get__cutoutAnimateEffect() cons
 /// @brief Method AnimateCutout addr 0x2238d54 size 0x2c virtual false final false
  void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration) ;
 
-// Ctor Parameters []
-explicit BaseNoteVisuals() ;
+static GlobalNamespace::BaseNoteVisuals New_ctor() ;
 
 /// @brief Method .ctor addr 0x2238d80 size 0x8 virtual false final false
  void _ctor() ;

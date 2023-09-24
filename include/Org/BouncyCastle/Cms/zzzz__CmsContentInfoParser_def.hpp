@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfoParser;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -68,8 +68,7 @@ constexpr System::IO::Stream __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "data", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsContentInfoParser(System::IO::Stream data) ;
+static Org::BouncyCastle::Cms::CmsContentInfoParser New_ctor(System::IO::Stream data) ;
 
 /// @brief Method .ctor addr 0x1150394 size 0x248 virtual false final false
  void _ctor(System::IO::Stream data) ;

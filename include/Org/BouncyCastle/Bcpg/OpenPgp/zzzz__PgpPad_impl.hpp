@@ -68,8 +68,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPad::PgpPad()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpPad>())) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPad Org::BouncyCastle::Bcpg::OpenPgp::PgpPad::New_ctor()  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPad o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPad>())};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPad::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPad>::get(),

@@ -1,13 +1,13 @@
 #pragma once
 #include "Zenject/zzzz__ZenjectSceneLoader_def.hpp"
-#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__ProjectKernel_def.hpp"
-#include "Zenject/zzzz__SceneContext_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__SceneContext_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "Zenject/zzzz__LoadSceneRelationship_def.hpp"
+#include "Zenject/zzzz__ProjectKernel_def.hpp"
 //  Writing Method size for method: Zenject::ZenjectSceneLoader._ctor
 template<>
 
@@ -428,8 +428,10 @@ constexpr void Zenject::ZenjectSceneLoader::__set__sceneContainer(Zenject::DiCon
 constexpr Zenject::DiContainer Zenject::ZenjectSceneLoader::__get__sceneContainer() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "sceneRoot", ty: "Zenject::SceneContext", modifiers: "", def_value: None }, CppParam { name: "projectKernel", ty: "Zenject::ProjectKernel", modifiers: "", def_value: None }]
- Zenject::ZenjectSceneLoader::ZenjectSceneLoader(Zenject::SceneContext sceneRoot, Zenject::ProjectKernel projectKernel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ZenjectSceneLoader>(sceneRoot, projectKernel))) {}
+ Zenject::ZenjectSceneLoader Zenject::ZenjectSceneLoader::New_ctor(Zenject::SceneContext sceneRoot, Zenject::ProjectKernel projectKernel)  {
+Zenject::ZenjectSceneLoader o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ZenjectSceneLoader>(sceneRoot, projectKernel))};
+return o;
+}
  void Zenject::ZenjectSceneLoader::_ctor(Zenject::SceneContext sceneRoot, Zenject::ProjectKernel projectKernel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ZenjectSceneLoader>::get(),

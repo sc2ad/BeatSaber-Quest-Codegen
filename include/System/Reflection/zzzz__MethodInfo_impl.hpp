@@ -3,8 +3,8 @@
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Reflection/zzzz__ParameterInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 //  Writing Method size for method: System::Reflection::MethodInfo._ctor
 template<>
 
@@ -243,8 +243,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Reflection::MethodInfo::MethodInfo()  : System::Reflection::MethodBase(THROW_UNLESS(::il2cpp_utils::New<MethodInfo>())) {}
+ System::Reflection::MethodInfo System::Reflection::MethodInfo::New_ctor()  {
+System::Reflection::MethodInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::MethodInfo>())};
+return o;
+}
  void System::Reflection::MethodInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::MethodInfo>::get(),

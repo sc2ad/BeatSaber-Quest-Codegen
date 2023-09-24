@@ -3,18 +3,18 @@
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PointSet_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+struct TriangulationMode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationMode;
+class TriangulationPoint;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -84,8 +84,7 @@ constexpr ::ArrayW<int32_t> __get__EdgeIndex_k__BackingField() const;
 /// @brief Method set_EdgeIndex addr 0x29a1424 size 0x8 virtual false final false
  void set_EdgeIndex(::ArrayW<int32_t> value) ;
 
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit ConstrainedPointSet(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint> points, ::ArrayW<int32_t> index) ;
+static UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet New_ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint> points, ::ArrayW<int32_t> index) ;
 
 /// @brief Method .ctor addr 0x29a142c size 0x24 virtual false final false
  void _ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint> points, ::ArrayW<int32_t> index) ;

@@ -13,34 +13,60 @@ class Func_2;
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
 namespace GlobalNamespace {
-class ConnectedPlayerManager;
+struct UpdateConnectionStateReason;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class Queue_1;
+class List_1;
+}
+namespace GlobalNamespace {
+class ConnectedPlayerManager;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerSessionManager__ConnectionState;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class Queue_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
+struct GlobalNamespace__MultiplayerSessionManager__SessionType;
+}
+namespace GlobalNamespace {
+template<typename TData>
+class INetworkPacketSubSerializer_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerSessionManager____c;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
 namespace GlobalNamespace {
-template<typename TData>
-class INetworkPacketSubSerializer_1;
+struct GlobalNamespace__MultiplayerSessionManager__MessageType;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 struct DisconnectedReason;
@@ -50,22 +76,11 @@ template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-struct UpdateConnectionStateReason;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace GlobalNamespace {
 template<typename TType,typename TData>
 class NetworkPacketSerializer_2;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -139,6 +154,8 @@ __ScoreSyncStateDelta = 5u,
 constexpr operator __GlobalNamespace__MultiplayerSessionManager__MessageType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerSessionManager__MessageType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields
@@ -222,6 +239,8 @@ constexpr operator __GlobalNamespace__MultiplayerSessionManager__SessionType_Unw
 return std::bit_cast<__GlobalNamespace__MultiplayerSessionManager__SessionType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -295,6 +314,8 @@ __Disconnecting = 3,
 constexpr operator __GlobalNamespace__MultiplayerSessionManager__ConnectionState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerSessionManager__ConnectionState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -372,8 +393,7 @@ constexpr ::StringW __get_userId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c__DisplayClass96_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0xdbf7dc size 0x8 virtual false final false
  void _ctor() ;
@@ -442,8 +462,7 @@ static System::Func_2<GlobalNamespace::IConnectedPlayer,int32_t> __get___9__102_
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerSessionManager____c() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerSessionManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0xdbfce4 size 0x8 virtual false final false
  void _ctor() ;
@@ -862,8 +881,7 @@ template<typename T>
 /// @brief Method GetNextAvailableSortIndex addr 0xdbf938 size 0xb4 virtual false final false
  int32_t GetNextAvailableSortIndex() ;
 
-// Ctor Parameters []
-explicit MultiplayerSessionManager() ;
+static GlobalNamespace::MultiplayerSessionManager New_ctor() ;
 
 /// @brief Method .ctor addr 0xdbf9ec size 0x144 virtual false final false
  void _ctor() ;

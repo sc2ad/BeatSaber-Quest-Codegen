@@ -5,11 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace Tayx::Graphy {
@@ -186,8 +186,7 @@ constexpr int32_t __get_m_criticalColorPropertyId() const;
 /// @brief Method UpdatePoints addr 0x2872f04 size 0x3c virtual false final false
  void UpdatePoints() ;
 
-// Ctor Parameters []
-explicit G_GraphShader() ;
+static Tayx::Graphy::G_GraphShader New_ctor() ;
 
 /// @brief Method .ctor addr 0x2872f40 size 0x88 virtual false final false
  void _ctor() ;

@@ -3,31 +3,46 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace System {
+class Delegate;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-class MonoBehaviour;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class SceneContext;
-}
-namespace System {
-class Delegate;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class Type;
+namespace Zenject::Internal {
+class Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3;
 }
-namespace UnityEngine::SceneManagement {
-struct Scene;
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ZenUtilInternal____c;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -36,18 +51,12 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -125,8 +134,7 @@ static System::Func_2<UnityEngine::GameObject,bool> __get___9__10_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ZenUtilInternal____c() ;
+static Zenject::Internal::Zenject__Internal__ZenUtilInternal____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2daf6a8 size 0x8 virtual false final false
  void _ctor() ;
@@ -238,8 +246,7 @@ constexpr System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManageme
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3(int32_t __1__state) ;
+static Zenject::Internal::Zenject__Internal__ZenUtilInternal___GetAllSceneContexts_d__3 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2dae864 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -323,8 +330,7 @@ constexpr UnityEngine::SceneManagement::Scene __get_scene() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0() ;
+static Zenject::Internal::Zenject__Internal__ZenUtilInternal____c__DisplayClass10_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2daf63c size 0x8 virtual false final false
  void _ctor() ;

@@ -52,8 +52,7 @@ constexpr explicit DESCryptoServiceProvider(void* ptr) noexcept : System::Securi
 
 // Methods
 
-// Ctor Parameters []
-explicit DESCryptoServiceProvider() ;
+static System::Security::Cryptography::DESCryptoServiceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f1afc size 0xd0 virtual false final false
  void _ctor() ;

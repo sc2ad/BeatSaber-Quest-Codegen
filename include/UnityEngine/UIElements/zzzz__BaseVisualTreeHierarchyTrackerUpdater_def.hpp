@@ -7,10 +7,13 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
 struct HierarchyChangeType;
 }
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
+struct UnityEngine__UIElements__BaseVisualTreeHierarchyTrackerUpdater__State;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -69,6 +72,8 @@ __TrackingRemove = 2,
 constexpr operator __UnityEngine__UIElements__BaseVisualTreeHierarchyTrackerUpdater__State_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__BaseVisualTreeHierarchyTrackerUpdater__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -175,8 +180,7 @@ constexpr UnityEngine::UIElements::VisualElement __get_m_CurrentChangeParent() c
 /// @brief Method ProcessRemove addr 0x2c41a5c size 0x64 virtual false final false
  void ProcessRemove(UnityEngine::UIElements::VisualElement ve) ;
 
-// Ctor Parameters []
-explicit BaseVisualTreeHierarchyTrackerUpdater() ;
+static UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c41c10 size 0xc virtual false final false
  void _ctor() ;

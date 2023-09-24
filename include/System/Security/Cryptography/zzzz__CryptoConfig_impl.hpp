@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__CryptoConfig_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::CryptoConfig.CreateFromName
 template<>
 

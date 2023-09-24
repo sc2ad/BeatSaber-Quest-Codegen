@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RGBPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "HMUI/zzzz__ColorGradientSlider_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "HMUI/zzzz__ColorGradientSlider_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RGBPanelController.add_colorDidChangeEvent
 template<>
 
@@ -286,8 +286,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::RGBPanelController::RGBPanelController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RGBPanelController>())) {}
+ GlobalNamespace::RGBPanelController GlobalNamespace::RGBPanelController::New_ctor()  {
+GlobalNamespace::RGBPanelController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RGBPanelController>())};
+return o;
+}
  void GlobalNamespace::RGBPanelController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RGBPanelController>::get(),

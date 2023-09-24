@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SpawnChevronObjectPoolsInstaller::SpawnChevronObjectPoolsInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<SpawnChevronObjectPoolsInstaller>())) {}
+ GlobalNamespace::SpawnChevronObjectPoolsInstaller GlobalNamespace::SpawnChevronObjectPoolsInstaller::New_ctor()  {
+GlobalNamespace::SpawnChevronObjectPoolsInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SpawnChevronObjectPoolsInstaller>())};
+return o;
+}
  void GlobalNamespace::SpawnChevronObjectPoolsInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SpawnChevronObjectPoolsInstaller>::get(),

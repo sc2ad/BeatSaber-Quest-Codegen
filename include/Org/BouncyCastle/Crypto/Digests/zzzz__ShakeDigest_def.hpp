@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IXof;
-}
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
+}
+namespace Org::BouncyCastle::Crypto {
+class IXof;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
@@ -73,20 +73,17 @@ constexpr explicit ShakeDigest(void* ptr) noexcept : Org::BouncyCastle::Crypto::
 /// @brief Method CheckBitLength addr 0xe182dc size 0xa8 virtual false final false
 static int32_t CheckBitLength(int32_t bitLength) ;
 
-// Ctor Parameters []
-explicit ShakeDigest() ;
+static Org::BouncyCastle::Crypto::Digests::ShakeDigest New_ctor() ;
 
 /// @brief Method .ctor addr 0xe18384 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bitLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ShakeDigest(int32_t bitLength) ;
+static Org::BouncyCastle::Crypto::Digests::ShakeDigest New_ctor(int32_t bitLength) ;
 
 /// @brief Method .ctor addr 0xe1838c size 0x78 virtual false final false
  void _ctor(int32_t bitLength) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "Org::BouncyCastle::Crypto::Digests::ShakeDigest", modifiers: "", def_value: None }]
-explicit ShakeDigest(Org::BouncyCastle::Crypto::Digests::ShakeDigest source) ;
+static Org::BouncyCastle::Crypto::Digests::ShakeDigest New_ctor(Org::BouncyCastle::Crypto::Digests::ShakeDigest source) ;
 
 /// @brief Method .ctor addr 0xe18404 size 0x68 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::ShakeDigest source) ;

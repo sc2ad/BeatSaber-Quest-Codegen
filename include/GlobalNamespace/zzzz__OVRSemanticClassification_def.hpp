@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Collections::Generic {
 template<typename T>
+class List_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class IOVRSceneComponent;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,8 +88,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get__labels() const;
 /// @brief Method IOVRSceneComponent.Initialize addr 0x260c9c8 size 0x11c virtual true final true
  void IOVRSceneComponent_Initialize() ;
 
-// Ctor Parameters []
-explicit OVRSemanticClassification() ;
+static GlobalNamespace::OVRSemanticClassification New_ctor() ;
 
 /// @brief Method .ctor addr 0x260cae4 size 0x7c virtual false final false
  void _ctor() ;

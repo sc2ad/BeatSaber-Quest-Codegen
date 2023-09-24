@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Security/zzzz__CodeAccessPermission_impl.hpp"
 #include "System/Security/Permissions/zzzz__ReflectionPermission_def.hpp"
+#include "System/Security/zzzz__IPermission_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/Security/Permissions/zzzz__ReflectionPermissionFlag_def.hpp"
-#include "System/Security/zzzz__IPermission_def.hpp"
 //  Writing Method size for method: System::Security::Permissions::ReflectionPermission._ctor
 template<>
 
@@ -129,8 +129,10 @@ constexpr void System::Security::Permissions::ReflectionPermission::__set_flags(
 constexpr System::Security::Permissions::ReflectionPermissionFlag System::Security::Permissions::ReflectionPermission::__get_flags() const {
 return ::cordl_internals::getInstanceField<System::Security::Permissions::ReflectionPermissionFlag, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "flag", ty: "System::Security::Permissions::ReflectionPermissionFlag", modifiers: "", def_value: None }]
- System::Security::Permissions::ReflectionPermission::ReflectionPermission(System::Security::Permissions::ReflectionPermissionFlag flag)  : System::Security::CodeAccessPermission(THROW_UNLESS(::il2cpp_utils::New<ReflectionPermission>(flag))) {}
+ System::Security::Permissions::ReflectionPermission System::Security::Permissions::ReflectionPermission::New_ctor(System::Security::Permissions::ReflectionPermissionFlag flag)  {
+System::Security::Permissions::ReflectionPermission o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Permissions::ReflectionPermission>(flag))};
+return o;
+}
  void System::Security::Permissions::ReflectionPermission::_ctor(System::Security::Permissions::ReflectionPermissionFlag flag)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Permissions::ReflectionPermission>::get(),

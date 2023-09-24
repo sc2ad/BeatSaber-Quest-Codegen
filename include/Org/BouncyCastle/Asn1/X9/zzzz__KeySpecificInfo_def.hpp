@@ -2,16 +2,16 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -81,14 +81,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_counter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "counter", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit KeySpecificInfo(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, Org::BouncyCastle::Asn1::Asn1OctetString counter) ;
+static Org::BouncyCastle::Asn1::X9::KeySpecificInfo New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, Org::BouncyCastle::Asn1::Asn1OctetString counter) ;
 
 /// @brief Method .ctor addr 0x111f23c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, Org::BouncyCastle::Asn1::Asn1OctetString counter) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit KeySpecificInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X9::KeySpecificInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x111f268 size 0x2b8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

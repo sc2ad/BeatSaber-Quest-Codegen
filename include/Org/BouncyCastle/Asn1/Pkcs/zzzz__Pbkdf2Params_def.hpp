@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -115,32 +115,27 @@ constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_prf() const;
 /// @brief Method GetInstance addr 0xefbb9c size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Pbkdf2Params(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xefbe24 size 0x330 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Pbkdf2Params(::ArrayW<uint8_t> salt, int32_t iterationCount) ;
+static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params New_ctor(::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
 /// @brief Method .ctor addr 0xefc154 size 0xb4 virtual false final false
  void _ctor(::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
-// Ctor Parameters [CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Pbkdf2Params(::ArrayW<uint8_t> salt, int32_t iterationCount, int32_t keyLength) ;
+static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params New_ctor(::ArrayW<uint8_t> salt, int32_t iterationCount, int32_t keyLength) ;
 
 /// @brief Method .ctor addr 0xefc208 size 0x90 virtual false final false
  void _ctor(::ArrayW<uint8_t> salt, int32_t iterationCount, int32_t keyLength) ;
 
-// Ctor Parameters [CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prf", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit Pbkdf2Params(::ArrayW<uint8_t> salt, int32_t iterationCount, int32_t keyLength, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier prf) ;
+static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params New_ctor(::ArrayW<uint8_t> salt, int32_t iterationCount, int32_t keyLength, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier prf) ;
 
 /// @brief Method .ctor addr 0xefc298 size 0x24 virtual false final false
  void _ctor(::ArrayW<uint8_t> salt, int32_t iterationCount, int32_t keyLength, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier prf) ;
 
-// Ctor Parameters [CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prf", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit Pbkdf2Params(::ArrayW<uint8_t> salt, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier prf) ;
+static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params New_ctor(::ArrayW<uint8_t> salt, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier prf) ;
 
 /// @brief Method .ctor addr 0xefc2bc size 0x24 virtual false final false
  void _ctor(::ArrayW<uint8_t> salt, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier prf) ;

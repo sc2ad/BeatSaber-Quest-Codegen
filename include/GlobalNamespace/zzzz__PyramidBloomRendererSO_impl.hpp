@@ -3,9 +3,10 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__PyramidBloomRendererSO__Pass::GlobalNamespace__PyramidBloomRendererSO__Pass(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -239,8 +240,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, src, dest, radius, intensity, autoExposureLimit, downIntensityOffset, uniformPyramidWeights, downsampleOnFirstPass, pyramidWeightsParam, alphaWeights, firstUpsampleBrightness, finalUpsampleBrightness, preFilterPass, downsamplePass, upsamplePass, finalUpsamplePass, isScreenspaceEffect);
 }
-// Ctor Parameters []
- GlobalNamespace::PyramidBloomRendererSO::PyramidBloomRendererSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<PyramidBloomRendererSO>())) {}
+ GlobalNamespace::PyramidBloomRendererSO GlobalNamespace::PyramidBloomRendererSO::New_ctor()  {
+GlobalNamespace::PyramidBloomRendererSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PyramidBloomRendererSO>())};
+return o;
+}
  void GlobalNamespace::PyramidBloomRendererSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PyramidBloomRendererSO>::get(),

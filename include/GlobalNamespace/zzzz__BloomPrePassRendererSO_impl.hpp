@@ -1,19 +1,20 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRendererSO_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassRendererSO_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "GlobalNamespace/zzzz__IBloomPrePassParams_def.hpp"
+#include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassLightTypeSO_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "GlobalNamespace/zzzz__IBloomPrePassParams_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassLightTypeSO_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassLight_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SubMeshDescriptor_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
@@ -46,8 +47,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__Preallo
 constexpr int32_t GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__PreallocationData::__get_preallocateCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__PreallocationData::GlobalNamespace__BloomPrePassRendererSO__PreallocationData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BloomPrePassRendererSO__PreallocationData>())) {}
+ GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__PreallocationData GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__PreallocationData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__PreallocationData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__PreallocationData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__PreallocationData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__PreallocationData>::get(),
@@ -92,8 +95,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__LightsR
 constexpr UnityEngine::Rendering::SubMeshDescriptor GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData::__get_subMeshDescriptor() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Rendering::SubMeshDescriptor, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData::GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData>())) {}
+ GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData>::get(),
@@ -576,8 +581,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Matrix4x4, false>(const_cast<void*>(instance), ___internal_method, from, to, t);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassRendererSO::BloomPrePassRendererSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassRendererSO>())) {}
+ GlobalNamespace::BloomPrePassRendererSO GlobalNamespace::BloomPrePassRendererSO::New_ctor()  {
+GlobalNamespace::BloomPrePassRendererSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassRendererSO>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassRendererSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassRendererSO>::get(),

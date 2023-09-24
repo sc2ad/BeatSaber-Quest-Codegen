@@ -5,7 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -101,20 +101,17 @@ static Org::BouncyCastle::Asn1::Ocsp::Signature GetInstance(Org::BouncyCastle::A
 /// @brief Method GetInstance addr 0xef5d38 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Ocsp::Signature GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "signatureAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "signatureValue", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit Signature(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signatureAlgorithm, Org::BouncyCastle::Asn1::DerBitString signatureValue) ;
+static Org::BouncyCastle::Asn1::Ocsp::Signature New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signatureAlgorithm, Org::BouncyCastle::Asn1::DerBitString signatureValue) ;
 
 /// @brief Method .ctor addr 0xef602c size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signatureAlgorithm, Org::BouncyCastle::Asn1::DerBitString signatureValue) ;
 
-// Ctor Parameters [CppParam { name: "signatureAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "signatureValue", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }, CppParam { name: "certs", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Signature(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signatureAlgorithm, Org::BouncyCastle::Asn1::DerBitString signatureValue, Org::BouncyCastle::Asn1::Asn1Sequence certs) ;
+static Org::BouncyCastle::Asn1::Ocsp::Signature New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signatureAlgorithm, Org::BouncyCastle::Asn1::DerBitString signatureValue, Org::BouncyCastle::Asn1::Asn1Sequence certs) ;
 
 /// @brief Method .ctor addr 0xef6034 size 0xb4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier signatureAlgorithm, Org::BouncyCastle::Asn1::DerBitString signatureValue, Org::BouncyCastle::Asn1::Asn1Sequence certs) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Signature(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ocsp::Signature New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef5ec0 size 0x16c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

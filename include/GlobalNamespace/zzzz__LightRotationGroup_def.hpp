@@ -11,7 +11,7 @@ class LightRotationGroup;
 // Type: ::LightRotationGroup
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5043), inst: 3818 }), TypeDefinitionIndex(TypeDefinitionIndex(5043)), TypeDefinitionIndex(TypeDefinitionIndex(5033)), TypeDefinitionIndex(TypeDefinitionIndex(5034))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5033)), TypeDefinitionIndex(TypeDefinitionIndex(5034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5043), inst: 3818 }), TypeDefinitionIndex(TypeDefinitionIndex(5043)), TypeDefinitionIndex(TypeDefinitionIndex(5032))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5039))
 // CS Name: LightRotationGroup
 class CORDL_TYPE LightRotationGroup : public GlobalNamespace::LightTransformGroup_3<GlobalNamespace::LightGroupRotationXTransform,GlobalNamespace::LightGroupRotationYTransform,GlobalNamespace::LightGroupRotationZTransform> {
@@ -50,8 +50,7 @@ constexpr explicit LightRotationGroup(void* ptr) noexcept : GlobalNamespace::Lig
 
 // Methods
 
-// Ctor Parameters []
-explicit LightRotationGroup() ;
+static GlobalNamespace::LightRotationGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x225e81c size 0x48 virtual false final false
  void _ctor() ;

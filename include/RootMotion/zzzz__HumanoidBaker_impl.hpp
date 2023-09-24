@@ -1,14 +1,14 @@
 #pragma once
 #include "RootMotion/zzzz__Baker_impl.hpp"
 #include "RootMotion/zzzz__HumanoidBaker_def.hpp"
-#include "RootMotion/zzzz__BakerHumanoidQT_def.hpp"
-#include "UnityEngine/zzzz__HumanPoseHandler_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__HumanPose_def.hpp"
 #include "RootMotion/zzzz__BakerMuscle_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "RootMotion/zzzz__BakerHumanoidQT_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__HumanPoseHandler_def.hpp"
 //  Writing Method size for method: RootMotion::HumanoidBaker.Awake
 template<>
 
@@ -304,8 +304,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::HumanoidBaker::HumanoidBaker()  : RootMotion::Baker(THROW_UNLESS(::il2cpp_utils::New<HumanoidBaker>())) {}
+ RootMotion::HumanoidBaker RootMotion::HumanoidBaker::New_ctor()  {
+RootMotion::HumanoidBaker o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::HumanoidBaker>())};
+return o;
+}
  void RootMotion::HumanoidBaker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::HumanoidBaker>::get(),

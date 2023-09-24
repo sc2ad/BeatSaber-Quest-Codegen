@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeColorToggleController_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorSchemeColorToggleController.get_toggle
 template<>
 
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorSchemeColorToggleController::ColorSchemeColorToggleController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ColorSchemeColorToggleController>())) {}
+ GlobalNamespace::ColorSchemeColorToggleController GlobalNamespace::ColorSchemeColorToggleController::New_ctor()  {
+GlobalNamespace::ColorSchemeColorToggleController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorSchemeColorToggleController>())};
+return o;
+}
  void GlobalNamespace::ColorSchemeColorToggleController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorSchemeColorToggleController>::get(),

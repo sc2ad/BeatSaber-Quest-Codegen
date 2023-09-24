@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MouseLook_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MouseLook.Init
 template<>
 
@@ -267,8 +267,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Quaternion, false>(const_cast<void*>(instance), ___internal_method, q);
 }
-// Ctor Parameters []
- GlobalNamespace::MouseLook::MouseLook()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MouseLook>())) {}
+ GlobalNamespace::MouseLook GlobalNamespace::MouseLook::New_ctor()  {
+GlobalNamespace::MouseLook o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MouseLook>())};
+return o;
+}
  void GlobalNamespace::MouseLook::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MouseLook>::get(),

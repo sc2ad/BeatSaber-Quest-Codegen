@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace BeatSaberAPI::DataTransferObjects {
-struct BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
-}
 namespace System {
 struct DateTime;
+}
+namespace BeatSaberAPI::DataTransferObjects {
+struct BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
 }
 // Forward declare root types
 namespace BeatSaberAPI::DataTransferObjects {
@@ -107,8 +107,7 @@ constexpr ::ArrayW<BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransfer
 
 // Methods
 
-// Ctor Parameters []
-explicit LeaderboardEntry() ;
+static BeatSaberAPI::DataTransferObjects::LeaderboardEntry New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d7344 size 0x8 virtual false final false
  void _ctor() ;

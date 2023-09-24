@@ -2,6 +2,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include <cmath>
 #include <cstdint>
 // Forward declare root types
 namespace Mono::Security {
@@ -11,7 +12,7 @@ class BitConverterLE;
 namespace Mono::Security {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13950))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2274))
 // CS Name: Mono.Security.BitConverterLE
 class CORDL_TYPE BitConverterLE : public ::bs_hook::Il2CppWrapperType {
 public:
@@ -49,32 +50,29 @@ constexpr explicit BitConverterLE(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Methods
 
-/// @brief Method GetUIntBytes addr 0x22813c8 size 0x110 virtual false final false
+/// @brief Method GetUIntBytes addr 0x22b1210 size 0x110 virtual false final false
 static ::ArrayW<uint8_t> GetUIntBytes(void* bytes) ;
 
-/// @brief Method GetULongBytes addr 0x22814d8 size 0x190 virtual false final false
+/// @brief Method GetULongBytes addr 0x22b1320 size 0x190 virtual false final false
 static ::ArrayW<uint8_t> GetULongBytes(void* bytes) ;
 
-/// @brief Method GetBytes addr 0x22808ac size 0x18 virtual false final false
-static ::ArrayW<uint8_t> GetBytes(int32_t value) ;
+/// @brief Method GetBytes addr 0x22b14b0 size 0x18 virtual false final false
+static ::ArrayW<uint8_t> GetBytes(float_t value) ;
 
-/// @brief Method GetBytes addr 0x2281668 size 0x18 virtual false final false
-static ::ArrayW<uint8_t> GetBytes(int64_t value) ;
+/// @brief Method GetBytes addr 0x22b14c8 size 0x18 virtual false final false
+static ::ArrayW<uint8_t> GetBytes(double_t value) ;
 
-/// @brief Method UShortFromBytes addr 0x2281680 size 0xdc virtual false final false
-static void UShortFromBytes(void* dst, ::ArrayW<uint8_t> src, int32_t startIndex) ;
-
-/// @brief Method UIntFromBytes addr 0x228175c size 0x14c virtual false final false
+/// @brief Method UIntFromBytes addr 0x22b14e0 size 0x14c virtual false final false
 static void UIntFromBytes(void* dst, ::ArrayW<uint8_t> src, int32_t startIndex) ;
 
-/// @brief Method ToInt32 addr 0x22818a8 size 0x24 virtual false final false
-static int32_t ToInt32(::ArrayW<uint8_t> value, int32_t startIndex) ;
+/// @brief Method ULongFromBytes addr 0x22b162c size 0xf0 virtual false final false
+static void ULongFromBytes(void* dst, ::ArrayW<uint8_t> src, int32_t startIndex) ;
 
-/// @brief Method ToUInt16 addr 0x22818cc size 0x24 virtual false final false
-static uint16_t ToUInt16(::ArrayW<uint8_t> value, int32_t startIndex) ;
+/// @brief Method ToSingle addr 0x22b171c size 0x24 virtual false final false
+static float_t ToSingle(::ArrayW<uint8_t> value, int32_t startIndex) ;
 
-/// @brief Method ToUInt32 addr 0x22818f0 size 0x24 virtual false final false
-static uint32_t ToUInt32(::ArrayW<uint8_t> value, int32_t startIndex) ;
+/// @brief Method ToDouble addr 0x22b1740 size 0x24 virtual false final false
+static double_t ToDouble(::ArrayW<uint8_t> value, int32_t startIndex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_impl.hpp"
 #include "UnityEngine/PS4/XR/zzzz__PSVRLoader_def.hpp"
+#include "UnityEngine/XR/zzzz__XRInputSubsystemDescriptor_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
-#include "UnityEngine/XR/zzzz__XRInputSubsystemDescriptor_def.hpp"
 #include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
 //  Writing Method size for method: UnityEngine::PS4::XR::PSVRLoader.get_displaySubsystem
@@ -255,8 +255,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::PS4::XR::PSVRLoader::PSVRLoader()  : UnityEngine::XR::Management::XRLoaderHelper(THROW_UNLESS(::il2cpp_utils::New<PSVRLoader>())) {}
+ UnityEngine::PS4::XR::PSVRLoader UnityEngine::PS4::XR::PSVRLoader::New_ctor()  {
+UnityEngine::PS4::XR::PSVRLoader o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::PS4::XR::PSVRLoader>())};
+return o;
+}
  void UnityEngine::PS4::XR::PSVRLoader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::PS4::XR::PSVRLoader>::get(),

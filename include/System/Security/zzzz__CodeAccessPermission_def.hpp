@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security {
-class IPermission;
-}
-namespace System::Security {
 class SecurityElement;
 }
 namespace System::Security::Permissions {
 struct PermissionState;
 }
-namespace System {
-class Type;
-}
 namespace System::Security {
 class ISecurityEncodable;
+}
+namespace System::Security {
+class IPermission;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Security {
@@ -70,8 +70,7 @@ constexpr explicit CodeAccessPermission(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Methods
 
-// Ctor Parameters []
-explicit CodeAccessPermission() ;
+static System::Security::CodeAccessPermission New_ctor() ;
 
 /// @brief Method .ctor addr 0x22e4ee8 size 0x8 virtual false final false
  void _ctor() ;

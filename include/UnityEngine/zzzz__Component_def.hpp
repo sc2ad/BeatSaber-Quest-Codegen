@@ -7,20 +7,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class GameObject;
+struct SendMessageOptions;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 class Type;
 }
-namespace UnityEngine {
-struct SendMessageOptions;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -187,8 +187,7 @@ template<typename T>
 /// @brief Method BroadcastMessage addr 0x2b5ce10 size 0x5c virtual false final false
  void BroadcastMessage(::StringW methodName, ::bs_hook::Il2CppWrapperType parameter, UnityEngine::SendMessageOptions options) ;
 
-// Ctor Parameters []
-explicit Component() ;
+static UnityEngine::Component New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b55f5c size 0x58 virtual false final false
  void _ctor() ;

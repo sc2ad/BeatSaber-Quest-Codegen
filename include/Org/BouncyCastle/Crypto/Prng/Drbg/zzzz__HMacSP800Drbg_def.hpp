@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
+class IEntropySource;
+}
+namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
-}
-namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
@@ -117,8 +117,7 @@ constexpr int64_t __get_mReseedCounter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hMac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HMacSP800Drbg(Org::BouncyCastle::Crypto::IMac hMac, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
+static Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg New_ctor(Org::BouncyCastle::Crypto::IMac hMac, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
 
 /// @brief Method .ctor addr 0xeb2a1c size 0x354 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IMac hMac, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;

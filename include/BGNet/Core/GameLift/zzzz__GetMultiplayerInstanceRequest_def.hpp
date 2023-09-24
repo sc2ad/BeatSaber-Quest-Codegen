@@ -4,20 +4,20 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
 struct GameplayServerConfiguration;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__AuthenticationToken__Platform;
 }
 namespace GlobalNamespace {
 struct ServiceEnvironment;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {

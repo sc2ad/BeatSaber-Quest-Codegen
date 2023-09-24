@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::UIElements {
-class IVisualElementPanelActivatable;
+class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
+class IVisualElementPanelActivatable;
 }
 namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
@@ -96,8 +96,7 @@ constexpr bool __get__isDetaching_k__BackingField() const;
 /// @brief Method set_isDetaching addr 0x2c39320 size 0xc virtual false final false
  void set_isDetaching(bool value) ;
 
-// Ctor Parameters [CppParam { name: "activatable", ty: "UnityEngine::UIElements::IVisualElementPanelActivatable", modifiers: "", def_value: None }]
-explicit VisualElementPanelActivator(UnityEngine::UIElements::IVisualElementPanelActivatable activatable) ;
+static UnityEngine::UIElements::VisualElementPanelActivator New_ctor(UnityEngine::UIElements::IVisualElementPanelActivatable activatable) ;
 
 /// @brief Method .ctor addr 0x2c374e8 size 0x28 virtual false final false
  void _ctor(UnityEngine::UIElements::IVisualElementPanelActivatable activatable) ;

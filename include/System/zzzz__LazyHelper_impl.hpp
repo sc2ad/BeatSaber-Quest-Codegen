@@ -2,8 +2,8 @@
 #include "System/zzzz__LazyHelper_def.hpp"
 #include "System/zzzz__LazyState_def.hpp"
 #include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Threading/zzzz__LazyThreadSafetyMode_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::LazyHelper.get_State
 template<>
@@ -158,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::LazyState, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "state", ty: "System::LazyState", modifiers: "", def_value: None }]
- System::LazyHelper::LazyHelper(System::LazyState state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LazyHelper>(state))) {}
+ System::LazyHelper System::LazyHelper::New_ctor(System::LazyState state)  {
+System::LazyHelper o{THROW_UNLESS(::il2cpp_utils::New<System::LazyHelper>(state))};
+return o;
+}
  void System::LazyHelper::_ctor(System::LazyState state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::LazyHelper>::get(),
@@ -169,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters [CppParam { name: "mode", ty: "System::Threading::LazyThreadSafetyMode", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
- System::LazyHelper::LazyHelper(System::Threading::LazyThreadSafetyMode mode, System::Exception exception)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LazyHelper>(mode, exception))) {}
+ System::LazyHelper System::LazyHelper::New_ctor(System::Threading::LazyThreadSafetyMode mode, System::Exception exception)  {
+System::LazyHelper o{THROW_UNLESS(::il2cpp_utils::New<System::LazyHelper>(mode, exception))};
+return o;
+}
  void System::LazyHelper::_ctor(System::Threading::LazyThreadSafetyMode mode, System::Exception exception)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::LazyHelper>::get(),

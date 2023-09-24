@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1636 }), TypeDefinitionIndex(TypeDefinitionIndex(7287)), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1636 }), TypeDefinitionIndex(TypeDefinitionIndex(7279)), TypeDefinitionIndex(TypeDefinitionIndex(7287))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7287), inst: 2 })
 // CS Name: UnityEngine.UIElements.TransitionEventBase`1
 class CORDL_TYPE TransitionEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
@@ -90,8 +90,7 @@ constexpr double_t __get__elapsedTime_k__BackingField() const;
 /// @brief Method set_elapsedTime addr 0x0 size 0xffffffffffffffff virtual false final false
  void set_elapsedTime(double_t value) ;
 
-// Ctor Parameters []
-explicit TransitionEventBase_1() ;
+static UnityEngine::UIElements::TransitionEventBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

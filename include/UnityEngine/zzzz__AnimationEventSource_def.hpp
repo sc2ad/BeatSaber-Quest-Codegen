@@ -57,6 +57,8 @@ constexpr operator __AnimationEventSource_Unwrapped () const noexcept {
 return std::bit_cast<__AnimationEventSource_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

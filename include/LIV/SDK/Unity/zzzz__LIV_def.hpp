@@ -5,43 +5,46 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace LIV::SDK::Unity {
-class SDKRender;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
 namespace LIV::SDK::Unity {
 struct INVALIDATION_FLAGS;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 namespace System {
 class Action;
 }
 namespace System {
-class IDisposable;
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace LIV::SDK::Unity {
+class SDKRender;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace LIV::SDK::Unity {
+class LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -129,8 +132,7 @@ constexpr LIV::SDK::Unity::LIV __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68(int32_t __1__state) ;
+static LIV::SDK::Unity::LIV__SDK__Unity__LIV___WaitForUnityEndOfFrame_d__68 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x209b6d4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -507,8 +509,7 @@ constexpr UnityEngine::Coroutine __get__waitForEndOfFrameCoroutine() const;
 /// @brief Method Invalidate addr 0x209b5ec size 0x78 virtual false final false
  void Invalidate() ;
 
-// Ctor Parameters []
-explicit LIV() ;
+static LIV::SDK::Unity::LIV New_ctor() ;
 
 /// @brief Method .ctor addr 0x209bef4 size 0x1c0 virtual false final false
  void _ctor() ;

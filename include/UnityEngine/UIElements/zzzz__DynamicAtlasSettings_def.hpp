@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct DynamicAtlasFilters;
-}
-namespace UnityEngine::UIElements {
 struct DynamicAtlasFiltersInternal;
 }
 namespace UnityEngine::UIElements {
 class DynamicAtlasCustomFilter;
+}
+namespace UnityEngine::UIElements {
+struct DynamicAtlasFilters;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -143,8 +143,7 @@ static UnityEngine::UIElements::DynamicAtlasFilters get_defaultFilters() ;
 /// @brief Method get_defaults addr 0x2c9f690 size 0x80 virtual false final false
 static UnityEngine::UIElements::DynamicAtlasSettings get_defaults() ;
 
-// Ctor Parameters []
-explicit DynamicAtlasSettings() ;
+static UnityEngine::UIElements::DynamicAtlasSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c9f710 size 0x8 virtual false final false
  void _ctor() ;

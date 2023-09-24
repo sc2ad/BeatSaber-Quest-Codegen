@@ -5,22 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
 namespace System::Net::Http::Headers {
 class Lexer;
+}
+namespace System {
+class ICloneable;
 }
 namespace System::Net::Http::Headers {
 struct Token;
 }
 namespace System {
-class ICloneable;
+template<typename T>
+struct Nullable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -93,8 +93,7 @@ constexpr ::StringW __get__Value_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit StringWithQualityHeaderValue() ;
+static System::Net::Http::Headers::StringWithQualityHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26afe08 size 0x8 virtual false final false
  void _ctor() ;

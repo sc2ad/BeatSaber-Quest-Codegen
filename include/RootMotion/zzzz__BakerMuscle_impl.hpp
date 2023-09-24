@@ -139,8 +139,10 @@ constexpr void RootMotion::BakerMuscle::__set_propertyName(::StringW value)  {
 constexpr ::StringW RootMotion::BakerMuscle::__get_propertyName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "muscleIndex", ty: "int32_t", modifiers: "", def_value: None }]
- RootMotion::BakerMuscle::BakerMuscle(int32_t muscleIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BakerMuscle>(muscleIndex))) {}
+ RootMotion::BakerMuscle RootMotion::BakerMuscle::New_ctor(int32_t muscleIndex)  {
+RootMotion::BakerMuscle o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::BakerMuscle>(muscleIndex))};
+return o;
+}
  void RootMotion::BakerMuscle::_ctor(int32_t muscleIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::BakerMuscle>::get(),

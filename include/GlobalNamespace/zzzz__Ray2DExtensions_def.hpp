@@ -5,10 +5,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
+struct Ray2D;
 }
 namespace UnityEngine {
-struct Ray2D;
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

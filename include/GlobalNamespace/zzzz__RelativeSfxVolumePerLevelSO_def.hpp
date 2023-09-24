@@ -8,6 +8,9 @@
 namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair;
@@ -85,8 +88,7 @@ constexpr float_t __get__relativeSfxVolume() const;
 /// @brief Method get_relativeSfxVolume addr 0x2229bb8 size 0x8 virtual false final false
  float_t get_relativeSfxVolume() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair() ;
+static GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair New_ctor() ;
 
 /// @brief Method .ctor addr 0x2229bc0 size 0x8 virtual false final false
  void _ctor() ;
@@ -156,8 +158,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO
 /// @brief Method get_relativeSfxVolumePerLevel addr 0x2229b8c size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair> get_relativeSfxVolumePerLevel() ;
 
-// Ctor Parameters []
-explicit RelativeSfxVolumePerLevelSO() ;
+static GlobalNamespace::RelativeSfxVolumePerLevelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2229b94 size 0x8 virtual false final false
  void _ctor() ;

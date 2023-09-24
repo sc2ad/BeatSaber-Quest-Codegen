@@ -82,8 +82,7 @@ static constexpr ::ConstString  kBrowsingMenusRichPresenceLocalizationKey{u"BROW
 /// @brief Method set_localizedDescription addr 0x222a32c size 0x8 virtual false final false
  void set_localizedDescription(::StringW value) ;
 
-// Ctor Parameters []
-explicit BrowsingMenusRichPresenceData() ;
+static GlobalNamespace::BrowsingMenusRichPresenceData New_ctor() ;
 
 /// @brief Method .ctor addr 0x222a334 size 0x5c virtual false final false
  void _ctor() ;

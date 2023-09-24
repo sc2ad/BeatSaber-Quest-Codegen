@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -93,8 +93,7 @@ constexpr ::ArrayW<uint8_t> __get_m_s() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "N", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "s", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "B", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ServerSrpParams(Org::BouncyCastle::Math::BigInteger N, Org::BouncyCastle::Math::BigInteger g, ::ArrayW<uint8_t> s, Org::BouncyCastle::Math::BigInteger B) ;
+static Org::BouncyCastle::Crypto::Tls::ServerSrpParams New_ctor(Org::BouncyCastle::Math::BigInteger N, Org::BouncyCastle::Math::BigInteger g, ::ArrayW<uint8_t> s, Org::BouncyCastle::Math::BigInteger B) ;
 
 /// @brief Method .ctor addr 0xf08920 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger N, Org::BouncyCastle::Math::BigInteger g, ::ArrayW<uint8_t> s, Org::BouncyCastle::Math::BigInteger B) ;

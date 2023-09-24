@@ -3,24 +3,24 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace UnityEngine {
+class Sprite;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace UnityEngine {
-class Sprite;
-}
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -110,8 +110,7 @@ constexpr UnityEngine::Sprite __get__icon() const;
 /// @brief Method CalculateBadgeData addr 0x0 size 0xffffffffffffffff virtual true final false
  GlobalNamespace::MultiplayerBadgeAwardData CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> resultsData, GlobalNamespace::PlayerDataModel playerDataModel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, float_t randomMultiplier) ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgeDataSO() ;
+static GlobalNamespace::MultiplayerBadgeDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d8644 size 0x8 virtual false final false
  void _ctor() ;

@@ -69,8 +69,7 @@ constexpr GlobalNamespace::SaberActivityCounter __get__saberActivityCounter() co
 /// @brief Method Init addr 0x20d69c4 size 0x108 virtual true final false
  void Init() ;
 
-// Ctor Parameters []
-explicit HandsMovementMissionObjectiveChecker() ;
+static GlobalNamespace::HandsMovementMissionObjectiveChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d6acc size 0x8 virtual false final false
  void _ctor() ;

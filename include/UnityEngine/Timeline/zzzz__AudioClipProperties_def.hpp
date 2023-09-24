@@ -57,8 +57,7 @@ constexpr float_t __get_volume() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AudioClipProperties() ;
+static UnityEngine::Timeline::AudioClipProperties New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ac9144 size 0x10 virtual false final false
  void _ctor() ;

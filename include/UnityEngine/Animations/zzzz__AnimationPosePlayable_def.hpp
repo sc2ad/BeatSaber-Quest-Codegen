@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace UnityEngine::Playables {
-class IPlayable;
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
+class IPlayable;
 }
 namespace System {
 template<typename T>

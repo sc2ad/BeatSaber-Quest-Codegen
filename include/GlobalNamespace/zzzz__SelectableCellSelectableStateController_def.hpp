@@ -4,13 +4,13 @@
 #include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
+}
+namespace HMUI {
 class Interactable;
 }
 namespace HMUI {
 class SelectableCell;
-}
-namespace HMUI {
-struct HMUI__SelectableCell__TransitionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +19,7 @@ class SelectableCellSelectableStateController;
 // Type: ::SelectableCellSelectableStateController
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5559)), TypeDefinitionIndex(TypeDefinitionIndex(13704)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5559), inst: 4810 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5559), inst: 4810 }), TypeDefinitionIndex(TypeDefinitionIndex(5559)), TypeDefinitionIndex(TypeDefinitionIndex(13704))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5562))
 // CS Name: SelectableCellSelectableStateController
 class CORDL_TYPE SelectableCellSelectableStateController : public GlobalNamespace::SelectableStateController_1<HMUI::SelectableCell> {
@@ -76,8 +76,7 @@ constexpr explicit SelectableCellSelectableStateController(void* ptr) noexcept :
 /// @brief Method ResolveState addr 0x212be2c size 0x6c virtual false final false
  void ResolveState(HMUI::SelectableCell selectableCell, HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
-// Ctor Parameters []
-explicit SelectableCellSelectableStateController() ;
+static GlobalNamespace::SelectableCellSelectableStateController New_ctor() ;
 
 /// @brief Method .ctor addr 0x212c07c size 0x48 virtual false final false
  void _ctor() ;

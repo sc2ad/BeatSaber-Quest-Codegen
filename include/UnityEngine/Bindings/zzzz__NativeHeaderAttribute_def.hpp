@@ -65,8 +65,7 @@ constexpr ::StringW __get__Header_k__BackingField() const;
 /// @brief Method set_Header addr 0x2ba10b0 size 0x8 virtual true final true
  void set_Header(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "header", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NativeHeaderAttribute(::StringW header) ;
+static UnityEngine::Bindings::NativeHeaderAttribute New_ctor(::StringW header) ;
 
 /// @brief Method .ctor addr 0x2ba10b8 size 0x104 virtual false final false
  void _ctor(::StringW header) ;

@@ -6,6 +6,9 @@
 #include <cmath>
 #include <cstdint>
 namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__RagdollUtility__Child;
+}
+namespace RootMotion::FinalIK {
 class IK;
 }
 namespace System::Collections {
@@ -14,17 +17,23 @@ class IEnumerator;
 namespace UnityEngine {
 class Animator;
 }
-namespace UnityEngine {
-struct AnimatorUpdateMode;
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__RagdollUtility__Rigidbone;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct AnimatorUpdateMode;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 class Collider;
@@ -35,12 +44,12 @@ class Rigidbody;
 namespace UnityEngine {
 class Joint;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -166,8 +175,7 @@ constexpr UnityEngine::Quaternion __get_lastRotation() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "r", ty: "UnityEngine::Rigidbody", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__RagdollUtility__Rigidbone(UnityEngine::Rigidbody r) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone New_ctor(UnityEngine::Rigidbody r) ;
 
 /// @brief Method .ctor addr 0x1201828 size 0x154 virtual false final false
  void _ctor(UnityEngine::Rigidbody r) ;
@@ -245,8 +253,7 @@ constexpr UnityEngine::Quaternion __get_localRotation() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__RagdollUtility__Child(UnityEngine::Transform transform) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child New_ctor(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x120197c size 0x5c virtual false final false
  void _ctor(UnityEngine::Transform transform) ;
@@ -340,8 +347,7 @@ constexpr RootMotion::FinalIK::RagdollUtility __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21(int32_t __1__state) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x12019d8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -570,8 +576,7 @@ constexpr ::ArrayW<bool> __get_disabledIKComponents() const;
 /// @brief Method OnDestroy addr 0x1202598 size 0x118 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit RagdollUtility() ;
+static RootMotion::FinalIK::RagdollUtility New_ctor() ;
 
 /// @brief Method .ctor addr 0x12026b0 size 0xf8 virtual false final false
  void _ctor() ;

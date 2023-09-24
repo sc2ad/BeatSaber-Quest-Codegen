@@ -155,8 +155,10 @@ constexpr void Mono::Security::Protocol::Ntlm::MessageBase::__set__flags(Mono::S
 constexpr Mono::Security::Protocol::Ntlm::NtlmFlags Mono::Security::Protocol::Ntlm::MessageBase::__get__flags() const {
 return ::cordl_internals::getInstanceField<Mono::Security::Protocol::Ntlm::NtlmFlags, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "messageType", ty: "int32_t", modifiers: "", def_value: None }]
- Mono::Security::Protocol::Ntlm::MessageBase::MessageBase(int32_t messageType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MessageBase>(messageType))) {}
+ Mono::Security::Protocol::Ntlm::MessageBase Mono::Security::Protocol::Ntlm::MessageBase::New_ctor(int32_t messageType)  {
+Mono::Security::Protocol::Ntlm::MessageBase o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Protocol::Ntlm::MessageBase>(messageType))};
+return o;
+}
  void Mono::Security::Protocol::Ntlm::MessageBase::_ctor(int32_t messageType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Protocol::Ntlm::MessageBase>::get(),

@@ -98,20 +98,17 @@ constexpr System::Security::Cryptography::AsnDecodeStatus __get__status() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509BasicConstraintsExtension() ;
+static System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension New_ctor() ;
 
 /// @brief Method .ctor addr 0x27e65bc size 0xa8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "encodedBasicConstraints", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509BasicConstraintsExtension(System::Security::Cryptography::AsnEncodedData encodedBasicConstraints, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension New_ctor(System::Security::Cryptography::AsnEncodedData encodedBasicConstraints, bool critical) ;
 
 /// @brief Method .ctor addr 0x27e4f84 size 0xd8 virtual false final false
  void _ctor(System::Security::Cryptography::AsnEncodedData encodedBasicConstraints, bool critical) ;
 
-// Ctor Parameters [CppParam { name: "certificateAuthority", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasPathLengthConstraint", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pathLengthConstraint", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509BasicConstraintsExtension(bool certificateAuthority, bool hasPathLengthConstraint, int32_t pathLengthConstraint, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension New_ctor(bool certificateAuthority, bool hasPathLengthConstraint, int32_t pathLengthConstraint, bool critical) ;
 
 /// @brief Method .ctor addr 0x27e6828 size 0x140 virtual false final false
  void _ctor(bool certificateAuthority, bool hasPathLengthConstraint, int32_t pathLengthConstraint, bool critical) ;

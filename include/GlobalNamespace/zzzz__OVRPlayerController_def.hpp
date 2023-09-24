@@ -4,18 +4,24 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+class Transform;
+}
 namespace System {
 class Action;
 }
 namespace UnityEngine {
-class CharacterController;
-}
-namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct OVRPose;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine {
+class CharacterController;
 }
 namespace GlobalNamespace {
 class OVRCameraRig;
@@ -23,12 +29,6 @@ class OVRCameraRig;
 namespace System {
 template<typename T>
 struct Nullable_1;
-}
-namespace GlobalNamespace {
-struct OVRPose;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -393,8 +393,7 @@ constexpr bool __get_playerControllerEnabled() const;
 /// @brief Method ResetOrientation addr 0x262d920 size 0xc4 virtual false final false
  void ResetOrientation() ;
 
-// Ctor Parameters []
-explicit OVRPlayerController() ;
+static GlobalNamespace::OVRPlayerController New_ctor() ;
 
 /// @brief Method .ctor addr 0x262d9e4 size 0xb4 virtual false final false
  void _ctor() ;

@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class IAnalyticsModel;
+class LevelCompletionResults;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class IAnalyticsModel;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
 /// @brief Method HandleStandardLevelDidFinishEvent addr 0x20b3368 size 0x644 virtual false final false
  void HandleStandardLevelDidFinishEvent(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
-// Ctor Parameters []
-explicit StandardLevelAnalytics() ;
+static GlobalNamespace::StandardLevelAnalytics New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b39ac size 0x8 virtual false final false
  void _ctor() ;

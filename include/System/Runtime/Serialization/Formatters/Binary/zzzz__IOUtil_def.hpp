@@ -5,11 +5,11 @@
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct MessageEnum;
 }
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

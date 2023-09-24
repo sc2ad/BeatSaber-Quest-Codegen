@@ -10,6 +10,9 @@ class Signal;
 namespace GlobalNamespace {
 class TextFadeTransitions;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__ShowTextOnGameEventController__EventTextBinding;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__ShowTextOnGameEventController__EventTextBinding;
@@ -89,8 +92,7 @@ constexpr GlobalNamespace::TextFadeTransitions __get__textFadeTransitions() cons
 /// @brief Method HandleGameEvent addr 0x2108eb0 size 0x2c virtual false final false
  void HandleGameEvent() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ShowTextOnGameEventController__EventTextBinding() ;
+static GlobalNamespace::GlobalNamespace__ShowTextOnGameEventController__EventTextBinding New_ctor() ;
 
 /// @brief Method .ctor addr 0x2108f50 size 0x8 virtual false final false
  void _ctor() ;
@@ -164,8 +166,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__ShowTextOnGameEventControll
 /// @brief Method OnDestroy addr 0x2108dc0 size 0x5c virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit ShowTextOnGameEventController() ;
+static GlobalNamespace::ShowTextOnGameEventController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2108ea8 size 0x8 virtual false final false
  void _ctor() ;

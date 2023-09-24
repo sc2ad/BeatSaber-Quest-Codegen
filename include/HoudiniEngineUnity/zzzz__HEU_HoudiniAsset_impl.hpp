@@ -3,48 +3,48 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_InstanceInputUIState_def.hpp"
-#include "HoudiniEngineUnity/zzzz__BakedEvent_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_RecookPreset_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_3_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "UnityEngine/zzzz__Collider_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeoNode_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_PreAssetEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AssetSerializedMetaData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ObjectNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_CookedDataEvent_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_BakedDataEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Handle_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_InputNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ObjectInstanceInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__CookedEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AssetInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ObjectInstanceInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_InputPreset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_VolumeCache_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_InputNode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Parameters_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ReloadDataEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AssetInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AssetSerializedMetaData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AssetPreset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_CookedDataEvent_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_VolumeCachePreset_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ObjectNode_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_RecookPreset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_PreAssetEvent_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_InstanceInputUIState_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Handle_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AttributesStore_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_BakedDataEvent_def.hpp"
+#include "HoudiniEngineUnity/zzzz__BakedEvent_def.hpp"
+#include "HoudiniEngineUnity/zzzz__ReloadEvent_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_3_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ReloadDataEvent_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_VolumeCache_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_VolumeCachePreset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GeoNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AssetPreset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_InputPreset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__ReloadEvent_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_AttributesStore_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
@@ -176,8 +176,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate>(object, method))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate>(object, method))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset__UpdateUIDelegate>::get(),
@@ -266,8 +268,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__Di
 constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData> HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0::__get_previousTransformValues() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0 HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0 o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass281_0>::get(),
@@ -401,8 +405,10 @@ return ::cordl_internals::getStaticField<System::Func_2<HoudiniEngineUnity::HEU_
  System::Func_2<HoudiniEngineUnity::HEU_MaterialData,bool> HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c::__get___9__364_2()  {
 return ::cordl_internals::getStaticField<System::Func_2<HoudiniEngineUnity::HEU_MaterialData,bool>, "<>9__364_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c>::get>();
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c::HoudiniEngineUnity__HEU_HoudiniAsset____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_HoudiniAsset____c>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c>::get(),
@@ -500,8 +506,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__Di
 constexpr System::Predicate_1<HoudiniEngineUnity::HEU_Curve> HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0::__get___9__0() const {
 return ::cordl_internals::getInstanceField<System::Predicate_1<HoudiniEngineUnity::HEU_Curve>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0 HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0 o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_HoudiniAsset____c__DisplayClass365_0>::get(),
@@ -7046,8 +7054,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, asset);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_HoudiniAsset::HEU_HoudiniAsset()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HEU_HoudiniAsset>())) {}
+ HoudiniEngineUnity::HEU_HoudiniAsset HoudiniEngineUnity::HEU_HoudiniAsset::New_ctor()  {
+HoudiniEngineUnity::HEU_HoudiniAsset o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_HoudiniAsset>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_HoudiniAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_HoudiniAsset>::get(),

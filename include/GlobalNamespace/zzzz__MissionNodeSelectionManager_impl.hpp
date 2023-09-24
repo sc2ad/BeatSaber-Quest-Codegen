@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeSelectionManager_def.hpp"
+#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeVisualController_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodesManager_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissionNodeSelectionManager.add_didSelectMissionNodeEvent
 template<>
 
@@ -228,8 +228,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, missionNode);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionNodeSelectionManager::MissionNodeSelectionManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionNodeSelectionManager>())) {}
+ GlobalNamespace::MissionNodeSelectionManager GlobalNamespace::MissionNodeSelectionManager::New_ctor()  {
+GlobalNamespace::MissionNodeSelectionManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionNodeSelectionManager>())};
+return o;
+}
  void GlobalNamespace::MissionNodeSelectionManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionNodeSelectionManager>::get(),

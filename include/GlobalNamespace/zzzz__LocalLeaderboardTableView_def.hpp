@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__LocalLeaderboardsModel__ScoreData;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__LocalLeaderboardsModel__ScoreData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,8 +58,7 @@ constexpr explicit LocalLeaderboardTableView(void* ptr) noexcept : GlobalNamespa
 /// @brief Method SetScores addr 0x218c470 size 0x28c virtual false final false
  void SetScores(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LocalLeaderboardsModel__ScoreData> scores, int32_t specialScorePos, int32_t maxNumberOfCells) ;
 
-// Ctor Parameters []
-explicit LocalLeaderboardTableView() ;
+static GlobalNamespace::LocalLeaderboardTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x218c6fc size 0x10 virtual false final false
  void _ctor() ;

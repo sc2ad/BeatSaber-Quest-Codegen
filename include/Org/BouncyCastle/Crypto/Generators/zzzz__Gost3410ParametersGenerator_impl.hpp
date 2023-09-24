@@ -220,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::Gost3410ParametersGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3410ParametersGenerator>())) {}
+ Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator>::get(),

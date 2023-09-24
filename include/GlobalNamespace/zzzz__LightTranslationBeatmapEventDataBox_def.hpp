@@ -9,19 +9,6 @@ struct GlobalNamespace__BeatmapEventDataBox__DistributionParamType;
 namespace GlobalNamespace {
 class LightTranslationBaseData;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
-}
-namespace GlobalNamespace {
-class IndexFilter;
-}
-namespace GlobalNamespace {
-struct EaseType;
-}
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
 }
@@ -31,6 +18,19 @@ class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 struct LightAxis;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace GlobalNamespace {
+class IndexFilter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -118,8 +118,7 @@ constexpr float_t __get__beatStep() const;
 /// @brief Method get_beatStep addr 0x21debfc size 0x8 virtual true final false
  float_t get_beatStep() ;
 
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "GlobalNamespace::IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "flipTranslation", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gapDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gapDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "gapDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gapDistributionEaseType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "lightTranslationBaseDataList", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData>", modifiers: "", def_value: None }]
-explicit LightTranslationBeatmapEventDataBox(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType gapDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> lightTranslationBaseDataList) ;
+static GlobalNamespace::LightTranslationBeatmapEventDataBox New_ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType gapDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> lightTranslationBaseDataList) ;
 
 /// @brief Method .ctor addr 0x21d8a48 size 0x22c virtual false final false
  void _ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType gapDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightTranslationBaseData> lightTranslationBaseDataList) ;

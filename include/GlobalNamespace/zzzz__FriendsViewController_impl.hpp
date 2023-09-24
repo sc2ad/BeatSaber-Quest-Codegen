@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__FriendsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FriendsViewController.get_myPartyTitle
@@ -262,8 +262,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, overrideHide);
 }
-// Ctor Parameters []
- GlobalNamespace::FriendsViewController::FriendsViewController()  : GlobalNamespace::NetworkPlayersViewController(THROW_UNLESS(::il2cpp_utils::New<FriendsViewController>())) {}
+ GlobalNamespace::FriendsViewController GlobalNamespace::FriendsViewController::New_ctor()  {
+GlobalNamespace::FriendsViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FriendsViewController>())};
+return o;
+}
  void GlobalNamespace::FriendsViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FriendsViewController>::get(),

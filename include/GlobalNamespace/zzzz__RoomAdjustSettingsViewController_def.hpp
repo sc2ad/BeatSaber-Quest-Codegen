@@ -11,11 +11,11 @@ class FloatSO;
 namespace GlobalNamespace {
 class StepValuePicker;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
 class Vector3SO;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +132,7 @@ static constexpr float_t  kRotationStep{5};
 /// @brief Method RefreshTexts addr 0x21808e0 size 0x218 virtual false final false
  void RefreshTexts() ;
 
-// Ctor Parameters []
-explicit RoomAdjustSettingsViewController() ;
+static GlobalNamespace::RoomAdjustSettingsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2180ca0 size 0x8 virtual false final false
  void _ctor() ;

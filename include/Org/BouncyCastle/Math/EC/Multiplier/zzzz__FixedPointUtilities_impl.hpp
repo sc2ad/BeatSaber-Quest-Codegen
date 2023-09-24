@@ -1,11 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__FixedPointUtilities_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__FixedPointUtilities_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__FixedPointPreCompInfo_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback._ctor
 template<>
 
@@ -84,8 +85,10 @@ constexpr void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math_
 constexpr Org::BouncyCastle::Math::EC::ECPoint Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback::__get_m_p() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::ECPoint, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback(Org::BouncyCastle::Math::EC::ECPoint p)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback>(p))) {}
+ Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback::New_ctor(Org::BouncyCastle::Math::EC::ECPoint p)  {
+Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback>(p))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback::_ctor(Org::BouncyCastle::Math::EC::ECPoint p)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__FixedPointUtilities__FixedPointCallback>::get(),
@@ -223,8 +226,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo, false>(nullptr, ___internal_method, p);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FixedPointUtilities>())) {}
+ Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::New_ctor()  {
+Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities>::get(),

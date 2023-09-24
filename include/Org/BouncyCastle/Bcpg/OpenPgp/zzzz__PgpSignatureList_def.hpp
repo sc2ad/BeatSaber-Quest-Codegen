@@ -72,14 +72,12 @@ constexpr ::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature> __get_sigs() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sigs", ty: "::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature>", modifiers: "", def_value: None }]
-explicit PgpSignatureList(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature> sigs) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList New_ctor(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature> sigs) ;
 
 /// @brief Method .ctor addr 0x103efd0 size 0xb8 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature> sigs) ;
 
-// Ctor Parameters [CppParam { name: "sig", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature", modifiers: "", def_value: None }]
-explicit PgpSignatureList(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature sig) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature sig) ;
 
 /// @brief Method .ctor addr 0x103f088 size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature sig) ;

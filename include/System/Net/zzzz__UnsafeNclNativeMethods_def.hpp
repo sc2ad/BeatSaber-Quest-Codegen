@@ -4,8 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+class System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID;
+}
 namespace System::Security {
 class SecureString;
+}
+namespace System::Net {
+class System__Net__UnsafeNclNativeMethods__SecureStringHelper;
+}
+namespace System::Net {
+class System__Net__UnsafeNclNativeMethods__HttpApi;
 }
 // Forward declare root types
 namespace GlobalNamespace {

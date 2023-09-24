@@ -4,18 +4,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UIElements {
+class Focusable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
-}
-namespace UnityEngine::UIElements {
 class FocusController;
-}
-namespace UnityEngine::UIElements {
-class IFocusRing;
 }
 namespace UnityEngine::UIElements {
 class FocusChangeDirection;
@@ -25,6 +22,15 @@ class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder;
+}
+namespace UnityEngine::UIElements {
+class IFocusRing;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -86,6 +92,8 @@ __PositionYX = 2,
 constexpr operator __UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -178,8 +186,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEng
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c43660 size 0x8 virtual false final false
  void _ctor() ;
@@ -265,8 +272,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEng
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "root", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }, CppParam { name: "dfo", ty: "UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder", modifiers: "", def_value: None }]
-explicit VisualElementFocusRing(UnityEngine::UIElements::VisualElement root, UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder dfo) ;
+static UnityEngine::UIElements::VisualElementFocusRing New_ctor(UnityEngine::UIElements::VisualElement root, UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder dfo) ;
 
 /// @brief Method .ctor addr 0x2c429bc size 0x98 virtual false final false
  void _ctor(UnityEngine::UIElements::VisualElement root, UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder dfo) ;

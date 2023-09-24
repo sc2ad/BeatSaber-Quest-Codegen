@@ -1,14 +1,14 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__ObjectHolder_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
-#include "System/Runtime/Serialization/zzzz__TypeLoadExceptionHolder_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ObjectManager_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__FixupHolder_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ValueTypeFixupInfo_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__LongList_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__FixupHolder_def.hpp"
+#include "System/Runtime/Serialization/zzzz__TypeLoadExceptionHolder_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ObjectManager_def.hpp"
 #include "System/Runtime/Serialization/zzzz__FixupHolderList_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ValueTypeFixupInfo_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::ObjectHolder._ctor
 template<>
 
@@ -790,8 +790,10 @@ constexpr void System::Runtime::Serialization::ObjectHolder::__set_m_reachable(b
 constexpr bool System::Runtime::Serialization::ObjectHolder::__get_m_reachable() const {
 return ::cordl_internals::getInstanceField<bool, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "objID", ty: "int64_t", modifiers: "", def_value: None }]
- System::Runtime::Serialization::ObjectHolder::ObjectHolder(int64_t objID)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectHolder>(objID))) {}
+ System::Runtime::Serialization::ObjectHolder System::Runtime::Serialization::ObjectHolder::New_ctor(int64_t objID)  {
+System::Runtime::Serialization::ObjectHolder o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::ObjectHolder>(objID))};
+return o;
+}
  void System::Runtime::Serialization::ObjectHolder::_ctor(int64_t objID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::ObjectHolder>::get(),
@@ -801,8 +803,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, objID);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "objID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "surrogate", ty: "System::Runtime::Serialization::ISerializationSurrogate", modifiers: "", def_value: None }, CppParam { name: "idOfContainingObj", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "field", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "arrayIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
- System::Runtime::Serialization::ObjectHolder::ObjectHolder(::bs_hook::Il2CppWrapperType obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectHolder>(obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex))) {}
+ System::Runtime::Serialization::ObjectHolder System::Runtime::Serialization::ObjectHolder::New_ctor(::bs_hook::Il2CppWrapperType obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex)  {
+System::Runtime::Serialization::ObjectHolder o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::ObjectHolder>(obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex))};
+return o;
+}
  void System::Runtime::Serialization::ObjectHolder::_ctor(::bs_hook::Il2CppWrapperType obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::ObjectHolder>::get(),
@@ -812,8 +816,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "surrogate", ty: "System::Runtime::Serialization::ISerializationSurrogate", modifiers: "", def_value: None }, CppParam { name: "idOfContainingObj", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "field", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "arrayIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
- System::Runtime::Serialization::ObjectHolder::ObjectHolder(::StringW obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectHolder>(obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex))) {}
+ System::Runtime::Serialization::ObjectHolder System::Runtime::Serialization::ObjectHolder::New_ctor(::StringW obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex)  {
+System::Runtime::Serialization::ObjectHolder o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::ObjectHolder>(obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex))};
+return o;
+}
  void System::Runtime::Serialization::ObjectHolder::_ctor(::StringW obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::ObjectHolder>::get(),

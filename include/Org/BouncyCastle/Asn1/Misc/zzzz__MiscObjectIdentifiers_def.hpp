@@ -288,8 +288,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_scrypt() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit MiscObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Misc::MiscObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xeeee00 size 0x8 virtual false final false
  void _ctor() ;

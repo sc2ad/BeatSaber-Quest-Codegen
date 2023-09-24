@@ -3,17 +3,20 @@
 #include "System/ComponentModel/zzzz__CustomTypeDescriptor_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace System::ComponentModel {
+class ICustomTypeDescriptor;
+}
 namespace System {
 class Type;
 }
 namespace System::ComponentModel {
-class ICustomTypeDescriptor;
+class IExtenderProvider;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__TypeDescriptionProvider__EmptyCustomTypeDescriptor;
 }
 namespace System::Collections {
 class IDictionary;
-}
-namespace System::ComponentModel {
-class IExtenderProvider;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -64,8 +67,7 @@ constexpr explicit System__ComponentModel__TypeDescriptionProvider__EmptyCustomT
 
 // Methods
 
-// Ctor Parameters []
-explicit System__ComponentModel__TypeDescriptionProvider__EmptyCustomTypeDescriptor() ;
+static System::ComponentModel::System__ComponentModel__TypeDescriptionProvider__EmptyCustomTypeDescriptor New_ctor() ;
 
 /// @brief Method .ctor addr 0x27866dc size 0x8 virtual false final false
  void _ctor() ;
@@ -133,8 +135,7 @@ constexpr System::ComponentModel::System__ComponentModel__TypeDescriptionProvide
 
 // Methods
 
-// Ctor Parameters []
-explicit TypeDescriptionProvider() ;
+static System::ComponentModel::TypeDescriptionProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x278662c size 0x8 virtual false final false
  void _ctor() ;

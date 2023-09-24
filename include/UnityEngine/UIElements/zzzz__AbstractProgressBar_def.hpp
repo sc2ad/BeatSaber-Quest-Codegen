@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace UnityEngine::UIElements {
-template<typename T>
-class INotifyValueChanged_1;
-}
-namespace UnityEngine::UIElements {
 class Label;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+template<typename T>
+class INotifyValueChanged_1;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__AbstractProgressBar__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class UxmlFloatAttributeDescription;
@@ -27,6 +27,9 @@ class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -107,8 +110,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Title(
 /// @brief Method Init addr 0x2cc1f34 size 0x1e4 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__AbstractProgressBar__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__AbstractProgressBar__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc2118 size 0x164 virtual false final false
  void _ctor() ;
@@ -265,8 +267,7 @@ constexpr float_t __get_m_Value() const;
 /// @brief Method set_highValue addr 0x2cc1760 size 0x10 virtual false final false
  void set_highValue(float_t value) ;
 
-// Ctor Parameters []
-explicit AbstractProgressBar() ;
+static UnityEngine::UIElements::AbstractProgressBar New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc1770 size 0x2a0 virtual false final false
  void _ctor() ;

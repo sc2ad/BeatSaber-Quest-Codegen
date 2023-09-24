@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace UnityEngine {
-class AudioSource;
+namespace UnityEngine::Playables {
+struct PlayableOutputHandle;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
@@ -15,8 +15,8 @@ class IPlayableOutput;
 namespace UnityEngine::Playables {
 struct PlayableOutput;
 }
-namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {

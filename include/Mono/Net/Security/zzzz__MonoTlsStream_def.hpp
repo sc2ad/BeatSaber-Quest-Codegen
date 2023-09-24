@@ -3,18 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::IO {
-class Stream;
+namespace System::Net {
+class WebConnectionTunnel;
+}
+namespace System::Net {
+class HttpWebRequest;
+}
+namespace System::Net::Security {
+class SslStream;
 }
 namespace System::Net {
 struct WebExceptionStatus;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace System::IO {
+class Stream;
 }
-namespace System::Net::Security {
-class SslStream;
+namespace System {
+class IDisposable;
 }
 namespace System::Net::Sockets {
 class NetworkStream;
@@ -22,33 +27,31 @@ class NetworkStream;
 namespace Mono::Net::Security {
 class MobileTlsProvider;
 }
-namespace System {
-class IDisposable;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Net {
-class HttpWebRequest;
+namespace Mono::Net::Security {
+struct Mono__Net__Security__MonoTlsStream___CreateStream_d__18;
 }
-namespace System::Net {
-class WebConnectionTunnel;
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
 }
-namespace System::Runtime::CompilerServices {
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
 namespace System::Net::Sockets {
 class Socket;
+}
+namespace System::Runtime::CompilerServices {
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -277,8 +280,7 @@ constexpr bool __get__CertificateValidationFailed_k__BackingField() const;
 /// @brief Method set_CertificateValidationFailed addr 0x2693a20 size 0xc virtual false final false
  void set_CertificateValidationFailed(bool value) ;
 
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::HttpWebRequest", modifiers: "", def_value: None }, CppParam { name: "networkStream", ty: "System::Net::Sockets::NetworkStream", modifiers: "", def_value: None }]
-explicit MonoTlsStream(System::Net::HttpWebRequest request, System::Net::Sockets::NetworkStream networkStream) ;
+static Mono::Net::Security::MonoTlsStream New_ctor(System::Net::HttpWebRequest request, System::Net::Sockets::NetworkStream networkStream) ;
 
 /// @brief Method .ctor addr 0x2693a2c size 0xd4 virtual false final false
  void _ctor(System::Net::HttpWebRequest request, System::Net::Sockets::NetworkStream networkStream) ;

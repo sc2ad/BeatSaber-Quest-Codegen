@@ -83,8 +83,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ContentHint() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsAttributes() ;
+static Org::BouncyCastle::Asn1::Cms::CmsAttributes New_ctor() ;
 
 /// @brief Method .ctor addr 0xde8464 size 0x8 virtual false final false
  void _ctor() ;

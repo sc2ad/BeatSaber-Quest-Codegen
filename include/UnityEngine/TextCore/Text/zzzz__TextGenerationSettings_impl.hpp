@@ -1,20 +1,20 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__TextGenerationSettings_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextStyleSheet_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__SpriteAsset_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextureMapping_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextColorGradient_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextOverflowMode_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__SpriteAsset_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextOverflowMode_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextureMapping_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextStyleSheet_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__VertexSortingOrder_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Text::TextGenerationSettings.Equals
 template<>
 
@@ -380,8 +380,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::TextGenerationSettings::TextGenerationSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TextGenerationSettings>())) {}
+ UnityEngine::TextCore::Text::TextGenerationSettings UnityEngine::TextCore::Text::TextGenerationSettings::New_ctor()  {
+UnityEngine::TextCore::Text::TextGenerationSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::TextGenerationSettings>())};
+return o;
+}
  void UnityEngine::TextCore::Text::TextGenerationSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::TextGenerationSettings>::get(),

@@ -63,26 +63,22 @@ constexpr int32_t __get_bits() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit RC2Parameters(::ArrayW<uint8_t> key) ;
+static Org::BouncyCastle::Crypto::Parameters::RC2Parameters New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0xeab268 size 0x40 virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RC2Parameters(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
+static Org::BouncyCastle::Crypto::Parameters::RC2Parameters New_ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
 
 /// @brief Method .ctor addr 0xeab2d0 size 0x34 virtual false final false
  void _ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "bits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RC2Parameters(::ArrayW<uint8_t> key, int32_t bits) ;
+static Org::BouncyCastle::Crypto::Parameters::RC2Parameters New_ctor(::ArrayW<uint8_t> key, int32_t bits) ;
 
 /// @brief Method .ctor addr 0xeab2a8 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> key, int32_t bits) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RC2Parameters(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen, int32_t bits) ;
+static Org::BouncyCastle::Crypto::Parameters::RC2Parameters New_ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen, int32_t bits) ;
 
 /// @brief Method .ctor addr 0xeab304 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen, int32_t bits) ;

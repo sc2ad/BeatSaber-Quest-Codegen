@@ -7,68 +7,86 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace UnityEngine {
-class Sprite;
+namespace UnityEngine::UI {
+class UnityEngine__UI__Dropdown__OptionData;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__Dropdown__DropdownEvent;
 }
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine::UI {
-class Text;
+class UnityEngine__UI__Dropdown__DropdownItem;
 }
 namespace UnityEngine::UI {
-class Image;
+class Text;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__Dropdown__OptionDataList;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__Dropdown____c__DisplayClass63_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::UI::CoroutineTween {
-template<typename T>
-class TweenRunner_1;
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
 }
 namespace UnityEngine::UI::CoroutineTween {
 struct FloatTween;
 }
-namespace UnityEngine {
-class Canvas;
+namespace UnityEngine::UI {
+class UnityEngine__UI__Dropdown___DelayedDestroyDropdownList_d__75;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::UI::CoroutineTween {
+template<typename T>
+class TweenRunner_1;
+}
 namespace UnityEngine {
-class GameObject;
+class Sprite;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -211,8 +229,7 @@ constexpr UnityEngine::UI::Toggle __get_m_Toggle() const;
 /// @brief Method OnCancel addr 0x2be1ca4 size 0xac virtual true final false
  void OnCancel(UnityEngine::EventSystems::BaseEventData eventData) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UI__Dropdown__DropdownItem() ;
+static UnityEngine::UI::UnityEngine__UI__Dropdown__DropdownItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2be1d50 size 0x8 virtual false final false
  void _ctor() ;
@@ -297,26 +314,22 @@ constexpr UnityEngine::Sprite __get_m_Image() const;
 /// @brief Method set_image addr 0x2be1d70 size 0x8 virtual false final false
  void set_image(UnityEngine::Sprite value) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UI__Dropdown__OptionData() ;
+static UnityEngine::UI::UnityEngine__UI__Dropdown__OptionData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bde2f4 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__Dropdown__OptionData(::StringW text) ;
+static UnityEngine::UI::UnityEngine__UI__Dropdown__OptionData New_ctor(::StringW text) ;
 
 /// @brief Method .ctor addr 0x2bdf838 size 0x28 virtual false final false
  void _ctor(::StringW text) ;
 
-// Ctor Parameters [CppParam { name: "image", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__Dropdown__OptionData(UnityEngine::Sprite image) ;
+static UnityEngine::UI::UnityEngine__UI__Dropdown__OptionData New_ctor(UnityEngine::Sprite image) ;
 
 /// @brief Method .ctor addr 0x2bdf9bc size 0x28 virtual false final false
  void _ctor(UnityEngine::Sprite image) ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "image", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__Dropdown__OptionData(::StringW text, UnityEngine::Sprite image) ;
+static UnityEngine::UI::UnityEngine__UI__Dropdown__OptionData New_ctor(::StringW text, UnityEngine::Sprite image) ;
 
 /// @brief Method .ctor addr 0x2be1d78 size 0x2c virtual false final false
  void _ctor(::StringW text, UnityEngine::Sprite image) ;
@@ -387,8 +400,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::UI::UnityEngine__UI_
 /// @brief Method set_options addr 0x2be1dac size 0x8 virtual false final false
  void set_options(System::Collections::Generic::List_1<UnityEngine::UI::UnityEngine__UI__Dropdown__OptionData> value) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UI__Dropdown__OptionDataList() ;
+static UnityEngine::UI::UnityEngine__UI__Dropdown__OptionDataList New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bdf218 size 0x80 virtual false final false
  void _ctor() ;
@@ -439,8 +451,7 @@ constexpr explicit UnityEngine__UI__Dropdown__DropdownEvent(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__Dropdown__DropdownEvent() ;
+static UnityEngine::UI::UnityEngine__UI__Dropdown__DropdownEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bdf298 size 0x48 virtual false final false
  void _ctor() ;
@@ -506,8 +517,7 @@ constexpr UnityEngine::UI::Dropdown __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__Dropdown____c__DisplayClass63_0() ;
+static UnityEngine::UI::UnityEngine__UI__Dropdown____c__DisplayClass63_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2be0df4 size 0x8 virtual false final false
  void _ctor() ;
@@ -604,8 +614,7 @@ constexpr UnityEngine::UI::Dropdown __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__Dropdown___DelayedDestroyDropdownList_d__75(int32_t __1__state) ;
+static UnityEngine::UI::UnityEngine__UI__Dropdown___DelayedDestroyDropdownList_d__75 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2be1a14 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -872,8 +881,7 @@ static UnityEngine::UI::UnityEngine__UI__Dropdown__OptionData __get_s_NoOptionDa
 /// @brief Method Set addr 0x2bdeffc size 0x110 virtual false final false
  void Set(int32_t value, bool sendCallback) ;
 
-// Ctor Parameters []
-explicit Dropdown() ;
+static UnityEngine::UI::Dropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bdf114 size 0x104 virtual false final false
  void _ctor() ;

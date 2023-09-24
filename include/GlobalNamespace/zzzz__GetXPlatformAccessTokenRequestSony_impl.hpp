@@ -30,8 +30,10 @@ constexpr void GlobalNamespace::GetXPlatformAccessTokenRequestSony::__set_platfo
 constexpr GlobalNamespace::PlatformEnvironment GlobalNamespace::GetXPlatformAccessTokenRequestSony::__get_platformEnvironment() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::PlatformEnvironment, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "platformToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformEnvironment", ty: "GlobalNamespace::PlatformEnvironment", modifiers: "", def_value: None }]
- GlobalNamespace::GetXPlatformAccessTokenRequestSony::GetXPlatformAccessTokenRequestSony(::StringW platformToken, GlobalNamespace::PlatformEnvironment platformEnvironment)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GetXPlatformAccessTokenRequestSony>(platformToken, platformEnvironment))) {}
+ GlobalNamespace::GetXPlatformAccessTokenRequestSony GlobalNamespace::GetXPlatformAccessTokenRequestSony::New_ctor(::StringW platformToken, GlobalNamespace::PlatformEnvironment platformEnvironment)  {
+GlobalNamespace::GetXPlatformAccessTokenRequestSony o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GetXPlatformAccessTokenRequestSony>(platformToken, platformEnvironment))};
+return o;
+}
  void GlobalNamespace::GetXPlatformAccessTokenRequestSony::_ctor(::StringW platformToken, GlobalNamespace::PlatformEnvironment platformEnvironment)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GetXPlatformAccessTokenRequestSony>::get(),

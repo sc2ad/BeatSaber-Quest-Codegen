@@ -2,13 +2,14 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassLight_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassLight_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassLightTypeSO_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassLightTypeSO_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 // Ctor Parameters [CppParam { name: "vertex", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "viewPos", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__BloomPrePassLight__VertexData::GlobalNamespace__BloomPrePassLight__VertexData(UnityEngine::Vector3 vertex, UnityEngine::Vector3 viewPos, UnityEngine::Color color, UnityEngine::Vector3 uv) noexcept : ::bs_hook::ValueTypeWrapper() {this->vertex = vertex;
 this->viewPos = viewPos;
@@ -98,8 +99,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataIt
 constexpr System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem::__get_lights() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "lightType", ty: "GlobalNamespace::BloomPrePassLightTypeSO", modifiers: "", def_value: None }, CppParam { name: "lights", ty: "System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem::GlobalNamespace__BloomPrePassLight__LightsDataItem(GlobalNamespace::BloomPrePassLightTypeSO lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> lights)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BloomPrePassLight__LightsDataItem>(lightType, lights))) {}
+ GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem::New_ctor(GlobalNamespace::BloomPrePassLightTypeSO lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> lights)  {
+GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem>(lightType, lights))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem::_ctor(GlobalNamespace::BloomPrePassLightTypeSO lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> lights)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem>::get(),
@@ -448,8 +451,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassLight::BloomPrePassLight()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassLight>())) {}
+ GlobalNamespace::BloomPrePassLight GlobalNamespace::BloomPrePassLight::New_ctor()  {
+GlobalNamespace::BloomPrePassLight o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassLight>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassLight::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassLight>::get(),

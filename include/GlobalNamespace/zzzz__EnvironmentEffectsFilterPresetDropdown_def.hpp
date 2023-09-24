@@ -3,12 +3,12 @@
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace GlobalNamespace {
-struct EnvironmentEffectsFilterPreset;
-}
 namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
+}
+namespace GlobalNamespace {
+struct EnvironmentEffectsFilterPreset;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -21,7 +21,7 @@ class EnvironmentEffectsFilterPresetDropdown;
 // Type: ::EnvironmentEffectsFilterPresetDropdown
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5694), inst: 4596 }), TypeDefinitionIndex(TypeDefinitionIndex(5694)), TypeDefinitionIndex(TypeDefinitionIndex(4731))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5694)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5694), inst: 4596 }), TypeDefinitionIndex(TypeDefinitionIndex(4731))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5695))
 // CS Name: EnvironmentEffectsFilterPresetDropdown
 class CORDL_TYPE EnvironmentEffectsFilterPresetDropdown : public GlobalNamespace::ValueDropdownController_1<GlobalNamespace::EnvironmentEffectsFilterPreset> {
@@ -63,8 +63,7 @@ constexpr explicit EnvironmentEffectsFilterPresetDropdown(void* ptr) noexcept : 
 /// @brief Method GetNamedValues addr 0x2153d40 size 0x128 virtual true final false
  System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset,::StringW>> GetNamedValues() ;
 
-// Ctor Parameters []
-explicit EnvironmentEffectsFilterPresetDropdown() ;
+static GlobalNamespace::EnvironmentEffectsFilterPresetDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x2153e68 size 0x48 virtual false final false
  void _ctor() ;

@@ -5,11 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+struct Color;
+}
 namespace GlobalNamespace {
 class ColorSO;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class GlobalNamespace__MenuLightsPresetSO__LightIdColorPair;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +92,7 @@ constexpr float_t __get_intensity() const;
 /// @brief Method get_lightColor addr 0x21f08c8 size 0x2c virtual false final false
  UnityEngine::Color get_lightColor() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__MenuLightsPresetSO__LightIdColorPair() ;
+static GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f08f4 size 0x8 virtual false final false
  void _ctor() ;
@@ -182,8 +184,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightId
 /// @brief Method get_lightIdColorPairs addr 0x21f08b0 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__MenuLightsPresetSO__LightIdColorPair> get_lightIdColorPairs() ;
 
-// Ctor Parameters []
-explicit MenuLightsPresetSO() ;
+static GlobalNamespace::MenuLightsPresetSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f08b8 size 0x10 virtual false final false
  void _ctor() ;

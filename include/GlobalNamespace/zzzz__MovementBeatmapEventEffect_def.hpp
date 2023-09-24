@@ -9,19 +9,22 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace UnityEngine {
-class Transform;
+class GlobalNamespace__MovementBeatmapEventEffect__MovementData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +92,7 @@ constexpr UnityEngine::Vector3 __get__localPositionOffset() const;
 /// @brief Method get_localPositionOffset addr 0x2269e40 size 0xc virtual false final false
  UnityEngine::Vector3 get_localPositionOffset() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__MovementBeatmapEventEffect__MovementData() ;
+static GlobalNamespace::GlobalNamespace__MovementBeatmapEventEffect__MovementData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2269e4c size 0x8 virtual false final false
  void _ctor() ;
@@ -224,8 +226,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method SetLocalPositionOffsetsForAllObjects addr 0x2269b8c size 0xbc virtual false final false
  void SetLocalPositionOffsetsForAllObjects(UnityEngine::Vector3 localPositionOffset) ;
 
-// Ctor Parameters []
-explicit MovementBeatmapEventEffect() ;
+static GlobalNamespace::MovementBeatmapEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2269e38 size 0x8 virtual false final false
  void _ctor() ;

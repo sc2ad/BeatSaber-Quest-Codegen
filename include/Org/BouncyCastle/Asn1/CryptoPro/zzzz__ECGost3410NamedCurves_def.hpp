@@ -2,17 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace System::Collections {
 class IDictionary;
@@ -20,11 +20,11 @@ class IDictionary;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::CryptoPro {
@@ -104,8 +104,7 @@ static Org::BouncyCastle::Math::EC::ECPoint ConfigureBasepoint(Org::BouncyCastle
 /// @brief Method ConfigureCurve addr 0xdfb9f0 size 0x4 virtual false final false
 static Org::BouncyCastle::Math::EC::ECCurve ConfigureCurve(Org::BouncyCastle::Math::EC::ECCurve curve) ;
 
-// Ctor Parameters []
-explicit ECGost3410NamedCurves() ;
+static Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves New_ctor() ;
 
 /// @brief Method .ctor addr 0xdfb9f4 size 0x8 virtual false final false
  void _ctor() ;

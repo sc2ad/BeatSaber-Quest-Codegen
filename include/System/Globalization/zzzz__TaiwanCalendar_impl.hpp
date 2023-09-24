@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Globalization/zzzz__Calendar_impl.hpp"
 #include "System/Globalization/zzzz__TaiwanCalendar_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__DayOfWeek_def.hpp"
-#include "System/Globalization/zzzz__GregorianCalendarHelper_def.hpp"
 #include "System/Globalization/zzzz__EraInfo_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
+#include "System/Globalization/zzzz__GregorianCalendarHelper_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__DayOfWeek_def.hpp"
 //  Writing Method size for method: System::Globalization::TaiwanCalendar.GetDefaultInstance
 template<>
 
@@ -380,8 +380,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::DateTime, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Globalization::TaiwanCalendar::TaiwanCalendar()  : System::Globalization::Calendar(THROW_UNLESS(::il2cpp_utils::New<TaiwanCalendar>())) {}
+ System::Globalization::TaiwanCalendar System::Globalization::TaiwanCalendar::New_ctor()  {
+System::Globalization::TaiwanCalendar o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::TaiwanCalendar>())};
+return o;
+}
  void System::Globalization::TaiwanCalendar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::TaiwanCalendar>::get(),

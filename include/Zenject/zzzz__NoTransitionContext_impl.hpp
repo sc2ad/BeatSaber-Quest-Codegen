@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__NoTransitionContext_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::NoTransitionContext.get_installMethod
 template<>
@@ -123,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::NoTransitionContext::NoTransitionContext()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoTransitionContext>())) {}
+ Zenject::NoTransitionContext Zenject::NoTransitionContext::New_ctor()  {
+Zenject::NoTransitionContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::NoTransitionContext>())};
+return o;
+}
  void Zenject::NoTransitionContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::NoTransitionContext>::get(),

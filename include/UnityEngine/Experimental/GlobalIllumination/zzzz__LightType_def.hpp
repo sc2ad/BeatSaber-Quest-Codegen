@@ -61,6 +61,8 @@ constexpr operator __LightType_Unwrapped () const noexcept {
 return std::bit_cast<__LightType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
 
 // Fields
 

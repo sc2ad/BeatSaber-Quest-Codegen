@@ -2,14 +2,15 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "TMPro/zzzz__TextMeshPro_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "TMPro/zzzz__TextMeshPro_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__GhostEffectBehaviour__EndBehavior::GlobalNamespace__GhostEffectBehaviour__EndBehavior(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -242,8 +243,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, on);
 }
-// Ctor Parameters []
- GlobalNamespace::GhostEffectBehaviour::GhostEffectBehaviour()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<GhostEffectBehaviour>())) {}
+ GlobalNamespace::GhostEffectBehaviour GlobalNamespace::GhostEffectBehaviour::New_ctor()  {
+GlobalNamespace::GhostEffectBehaviour o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GhostEffectBehaviour>())};
+return o;
+}
  void GlobalNamespace::GhostEffectBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GhostEffectBehaviour>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ColorSchemesSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorSchemesSettings.set_selectedColorSchemeId
 template<>
@@ -250,8 +250,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "colorSchemes", ty: "::ArrayW<GlobalNamespace::ColorScheme>", modifiers: "", def_value: None }]
- GlobalNamespace::ColorSchemesSettings::ColorSchemesSettings(::ArrayW<GlobalNamespace::ColorScheme> colorSchemes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ColorSchemesSettings>(colorSchemes))) {}
+ GlobalNamespace::ColorSchemesSettings GlobalNamespace::ColorSchemesSettings::New_ctor(::ArrayW<GlobalNamespace::ColorScheme> colorSchemes)  {
+GlobalNamespace::ColorSchemesSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorSchemesSettings>(colorSchemes))};
+return o;
+}
  void GlobalNamespace::ColorSchemesSettings::_ctor(::ArrayW<GlobalNamespace::ColorScheme> colorSchemes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorSchemesSettings>::get(),
@@ -261,8 +263,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, colorSchemes);
 }
-// Ctor Parameters [CppParam { name: "colorSchemeSOs", ty: "::ArrayW<GlobalNamespace::ColorSchemeSO>", modifiers: "", def_value: None }]
- GlobalNamespace::ColorSchemesSettings::ColorSchemesSettings(::ArrayW<GlobalNamespace::ColorSchemeSO> colorSchemeSOs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ColorSchemesSettings>(colorSchemeSOs))) {}
+ GlobalNamespace::ColorSchemesSettings GlobalNamespace::ColorSchemesSettings::New_ctor(::ArrayW<GlobalNamespace::ColorSchemeSO> colorSchemeSOs)  {
+GlobalNamespace::ColorSchemesSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorSchemesSettings>(colorSchemeSOs))};
+return o;
+}
  void GlobalNamespace::ColorSchemesSettings::_ctor(::ArrayW<GlobalNamespace::ColorSchemeSO> colorSchemeSOs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorSchemesSettings>::get(),

@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Collections {
-class IComparer;
+class IEqualityComparer;
 }
 namespace System::Collections {
-class IEqualityComparer;
+class IComparer;
 }
 // Forward declare root types
 namespace System::Net {
@@ -89,8 +89,7 @@ static ::ArrayW<uint8_t> __get_AsciiToLower() ;
 /// @brief Method Equals addr 0x281139c size 0x178 virtual true final true
  bool Equals(::bs_hook::Il2CppWrapperType firstObject, ::bs_hook::Il2CppWrapperType secondObject) ;
 
-// Ctor Parameters []
-explicit CaseInsensitiveAscii() ;
+static System::Net::CaseInsensitiveAscii New_ctor() ;
 
 /// @brief Method .ctor addr 0x2811514 size 0x8 virtual false final false
  void _ctor() ;

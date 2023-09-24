@@ -59,8 +59,7 @@ constexpr explicit OVRCursor(void* ptr) noexcept : UnityEngine::MonoBehaviour(pt
 /// @brief Method SetCursorStartDest addr 0x0 size 0xffffffffffffffff virtual true final false
  void SetCursorStartDest(UnityEngine::Vector3 start, UnityEngine::Vector3 dest, UnityEngine::Vector3 normal) ;
 
-// Ctor Parameters []
-explicit OVRCursor() ;
+static GlobalNamespace::OVRCursor New_ctor() ;
 
 /// @brief Method .ctor addr 0x261ec70 size 0x8 virtual false final false
  void _ctor() ;

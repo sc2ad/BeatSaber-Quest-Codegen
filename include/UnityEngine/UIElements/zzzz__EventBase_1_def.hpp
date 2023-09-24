@@ -89,8 +89,7 @@ constexpr int32_t __get_m_RefCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit EventBase_1() ;
+static UnityEngine::UIElements::EventBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -3,12 +3,11 @@
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
 #include "UnityEngine/zzzz__Touch_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__ButtonState.get_eventData
 template<>
@@ -143,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__ButtonState::UnityEngine__EventSystems__PointerInputModule__ButtonState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__EventSystems__PointerInputModule__ButtonState>())) {}
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__ButtonState UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__ButtonState::New_ctor()  {
+UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__ButtonState o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__ButtonState>())};
+return o;
+}
  void UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__ButtonState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__ButtonState>::get(),
@@ -281,8 +282,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, button, stateForMouseButton, data);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState::UnityEngine__EventSystems__PointerInputModule__MouseState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__EventSystems__PointerInputModule__MouseState>())) {}
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState::New_ctor()  {
+UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState>())};
+return o;
+}
  void UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState>::get(),
@@ -373,8 +376,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData>())) {}
+ UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData::New_ctor()  {
+UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData>())};
+return o;
+}
  void UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData>::get(),
@@ -803,8 +808,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, currentOverGo, pointerEvent);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::PointerInputModule::PointerInputModule()  : UnityEngine::EventSystems::BaseInputModule(THROW_UNLESS(::il2cpp_utils::New<PointerInputModule>())) {}
+ UnityEngine::EventSystems::PointerInputModule UnityEngine::EventSystems::PointerInputModule::New_ctor()  {
+UnityEngine::EventSystems::PointerInputModule o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::PointerInputModule>())};
+return o;
+}
  void UnityEngine::EventSystems::PointerInputModule::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::PointerInputModule>::get(),

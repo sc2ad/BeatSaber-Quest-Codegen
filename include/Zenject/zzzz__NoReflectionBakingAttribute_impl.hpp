@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Zenject::NoReflectionBakingAttribute::NoReflectionBakingAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NoReflectionBakingAttribute>())) {}
+ Zenject::NoReflectionBakingAttribute Zenject::NoReflectionBakingAttribute::New_ctor()  {
+Zenject::NoReflectionBakingAttribute o{THROW_UNLESS(::il2cpp_utils::New<Zenject::NoReflectionBakingAttribute>())};
+return o;
+}
  void Zenject::NoReflectionBakingAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::NoReflectionBakingAttribute>::get(),

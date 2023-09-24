@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
 class EncryptedPrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDecryptorBuilderProvider;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class PrivateKeyInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -70,14 +70,12 @@ constexpr Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo __get_encrypted
 /// @brief Method parseBytes addr 0x105a62c size 0x120 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo parseBytes(::ArrayW<uint8_t> pkcs8Encoding) ;
 
-// Ctor Parameters [CppParam { name: "encryptedPrivateKeyInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo", modifiers: "", def_value: None }]
-explicit Pkcs8EncryptedPrivateKeyInfo(Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo encryptedPrivateKeyInfo) ;
+static Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo New_ctor(Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo encryptedPrivateKeyInfo) ;
 
 /// @brief Method .ctor addr 0x105a754 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo encryptedPrivateKeyInfo) ;
 
-// Ctor Parameters [CppParam { name: "encryptedPrivateKeyInfo", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Pkcs8EncryptedPrivateKeyInfo(::ArrayW<uint8_t> encryptedPrivateKeyInfo) ;
+static Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo New_ctor(::ArrayW<uint8_t> encryptedPrivateKeyInfo) ;
 
 /// @brief Method .ctor addr 0x105a77c size 0x34 virtual false final false
  void _ctor(::ArrayW<uint8_t> encryptedPrivateKeyInfo) ;

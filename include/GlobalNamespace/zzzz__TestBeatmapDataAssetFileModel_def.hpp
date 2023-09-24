@@ -4,31 +4,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__TestBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__4;
+}
+namespace GlobalNamespace {
+struct GetAssetBundleFileResult;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__TestBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__5;
 }
 namespace GlobalNamespace {
 class IBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+struct LevelDataAssetDownloadUpdate;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace GlobalNamespace {
-struct LevelDataAssetDownloadUpdate;
-}
-namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
-}
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -38,8 +45,7 @@ namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -314,8 +320,7 @@ constexpr System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate> __get_
 /// @brief Method TryDeleteAssetBundleFileForPreviewLevelAsync addr 0x21edc74 size 0xec virtual true final true
  System::Threading::Tasks::Task_1<bool> TryDeleteAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters []
-explicit TestBeatmapDataAssetFileModel() ;
+static GlobalNamespace::TestBeatmapDataAssetFileModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21edd60 size 0x8 virtual false final false
  void _ctor() ;

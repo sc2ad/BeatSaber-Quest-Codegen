@@ -2,15 +2,16 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableResolver_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleValueHandle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValueMatcher_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleVariableResolver_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValueMatcher_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValue_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleProperty_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxParser_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleProperty_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleValueHandle_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__StyleVariableResolver__Result::UnityEngine__UIElements__StyleVariableResolver__Result(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -494,8 +495,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sheet, handles, index, argCount, variableName);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleVariableResolver::StyleVariableResolver()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StyleVariableResolver>())) {}
+ UnityEngine::UIElements::StyleVariableResolver UnityEngine::UIElements::StyleVariableResolver::New_ctor()  {
+UnityEngine::UIElements::StyleVariableResolver o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleVariableResolver>())};
+return o;
+}
  void UnityEngine::UIElements::StyleVariableResolver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleVariableResolver>::get(),

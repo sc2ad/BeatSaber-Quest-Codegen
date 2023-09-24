@@ -7,19 +7,19 @@ namespace GlobalNamespace {
 struct SongSelectionMode;
 }
 namespace GlobalNamespace {
-struct GameplayModifierMask;
-}
-namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
-}
-namespace GlobalNamespace {
-struct GameplayServerMode;
 }
 namespace GlobalNamespace {
 struct GameplayServerControlSettings;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
+}
+namespace GlobalNamespace {
+struct GameplayModifierMask;
+}
+namespace GlobalNamespace {
+struct GameplayServerMode;
 }
 // Forward declare root types
 namespace GlobalNamespace {

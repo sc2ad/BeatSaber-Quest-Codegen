@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct UnityEngine__GUILayoutOption__Type;
+}
 // Forward declare root types
 namespace UnityEngine {
 struct UnityEngine__GUILayoutOption__Type;
@@ -71,6 +74,8 @@ __spacing = 13,
 constexpr operator __UnityEngine__GUILayoutOption__Type_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__GUILayoutOption__Type_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -186,8 +191,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "UnityEngine::UnityEngine__GUILayoutOption__Type", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit GUILayoutOption(UnityEngine::UnityEngine__GUILayoutOption__Type type, ::bs_hook::Il2CppWrapperType value) ;
+static UnityEngine::GUILayoutOption New_ctor(UnityEngine::UnityEngine__GUILayoutOption__Type type, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method .ctor addr 0x2b95f04 size 0x30 virtual false final false
  void _ctor(UnityEngine::UnityEngine__GUILayoutOption__Type type, ::bs_hook::Il2CppWrapperType value) ;

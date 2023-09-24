@@ -1,9 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDeflateCompression_def.hpp"
-#include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCompression_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDeflateCompression_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream._ctor
 template<>
 
@@ -38,8 +39,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "z", ty: "Org::BouncyCastle::Utilities::Zlib::ZStream", modifiers: "", def_value: None }, CppParam { name: "compress", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z, bool compress)  : Org::BouncyCastle::Utilities::Zlib::ZOutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream>(output, z, compress))) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream::New_ctor(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z, bool compress)  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream>(output, z, compress))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream::_ctor(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z, bool compress)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream>::get(),
@@ -142,8 +145,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::__set_zOut
 constexpr Org::BouncyCastle::Utilities::Zlib::ZStream Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::__get_zOut() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Utilities::Zlib::ZStream, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::TlsDeflateCompression()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsDeflateCompression>())) {}
+ Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression>::get(),
@@ -153,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::TlsDeflateCompression(int32_t level)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsDeflateCompression>(level))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::New_ctor(int32_t level)  {
+Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression>(level))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::_ctor(int32_t level)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression>::get(),

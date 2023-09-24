@@ -108,8 +108,7 @@ constexpr int32_t __get__propertyId() const;
 /// @brief Method ApplyParams addr 0x1fa27a0 size 0x208 virtual false final false
  void ApplyParams() ;
 
-// Ctor Parameters []
-explicit MaterialPropertyBlockRandomValueSetter() ;
+static GlobalNamespace::MaterialPropertyBlockRandomValueSetter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa29ec size 0x10 virtual false final false
  void _ctor() ;

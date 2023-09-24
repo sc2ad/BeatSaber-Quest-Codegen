@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class StepValuePicker;
-}
-namespace GlobalNamespace {
 class MultiplayerSpectatorController;
 }
 namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
+}
+namespace GlobalNamespace {
+class StepValuePicker;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +89,7 @@ constexpr GlobalNamespace::MultiplayerSpectatorController __get__spectatorContro
 /// @brief Method HandleDecButtonWasPressed addr 0x20d1344 size 0x1c virtual false final false
  void HandleDecButtonWasPressed() ;
 
-// Ctor Parameters []
-explicit MultiplayerSpectatingSpotPickerViewController() ;
+static GlobalNamespace::MultiplayerSpectatingSpotPickerViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d1360 size 0x8 virtual false final false
  void _ctor() ;

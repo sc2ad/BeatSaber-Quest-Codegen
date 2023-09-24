@@ -66,8 +66,7 @@ static constexpr int32_t  MAX_UNCHECKED_INLINING_DEPTH{20};
 /// @brief Method EndInliningScope addr 0x24bce58 size 0x14 virtual false final false
  void EndInliningScope() ;
 
-// Ctor Parameters []
-explicit StackGuard() ;
+static System::Threading::Tasks::StackGuard New_ctor() ;
 
 /// @brief Method .ctor addr 0x24b6ae4 size 0x8 virtual false final false
  void _ctor() ;

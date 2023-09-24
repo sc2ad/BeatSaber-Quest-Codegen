@@ -2,28 +2,28 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/Rendering/zzzz__SubMeshDescriptor_def.hpp"
-#include "UnityEngine/zzzz__BoneWeight_def.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
-#include "UnityEngine/zzzz__CombineInstance_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__BoneWeight1_def.hpp"
-#include "System/zzzz__Array_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IndexFormat_def.hpp"
+#include "UnityEngine/zzzz__CombineInstance_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__MeshTopology_def.hpp"
-#include "UnityEngine/Rendering/zzzz__VertexAttributeFormat_def.hpp"
 #include "UnityEngine/Rendering/zzzz__MeshUpdateFlags_def.hpp"
-#include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__MeshTopology_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttributeDescriptor_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttribute_def.hpp"
+#include "UnityEngine/zzzz__BoneWeight_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/Rendering/zzzz__VertexAttributeFormat_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/zzzz__BoneWeight1_def.hpp"
+#include "UnityEngine/Rendering/zzzz__SubMeshDescriptor_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__Mesh__MeshDataArray.get_Length
 template<>
@@ -5112,8 +5112,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, mono);
 }
-// Ctor Parameters []
- UnityEngine::Mesh::Mesh()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<Mesh>())) {}
+ UnityEngine::Mesh UnityEngine::Mesh::New_ctor()  {
+UnityEngine::Mesh o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Mesh>())};
+return o;
+}
  void UnityEngine::Mesh::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Mesh>::get(),

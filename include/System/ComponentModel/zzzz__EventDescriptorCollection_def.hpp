@@ -7,23 +7,26 @@
 namespace System::Collections {
 class IComparer;
 }
-namespace System::Collections {
-class ICollection;
+namespace System::ComponentModel {
+class EventDescriptor;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
-namespace System::ComponentModel {
-class EventDescriptor;
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections {
 class IList;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -103,8 +106,7 @@ constexpr int32_t __get__current() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "array", ty: "System::Array", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator(System::Array array, int32_t count) ;
+static System::ComponentModel::System__ComponentModel__EventDescriptorCollection__ArraySubsetEnumerator New_ctor(System::Array array, int32_t count) ;
 
 /// @brief Method .ctor addr 0x277d078 size 0x34 virtual false final false
  void _ctor(System::Array array, int32_t count) ;
@@ -247,14 +249,12 @@ constexpr int32_t __get__Count_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "events", ty: "::ArrayW<System::ComponentModel::EventDescriptor>", modifiers: "", def_value: None }]
-explicit EventDescriptorCollection(::ArrayW<System::ComponentModel::EventDescriptor> events) ;
+static System::ComponentModel::EventDescriptorCollection New_ctor(::ArrayW<System::ComponentModel::EventDescriptor> events) ;
 
 /// @brief Method .ctor addr 0x277c554 size 0xb0 virtual false final false
  void _ctor(::ArrayW<System::ComponentModel::EventDescriptor> events) ;
 
-// Ctor Parameters [CppParam { name: "events", ty: "::ArrayW<System::ComponentModel::EventDescriptor>", modifiers: "", def_value: None }, CppParam { name: "readOnly", ty: "bool", modifiers: "", def_value: None }]
-explicit EventDescriptorCollection(::ArrayW<System::ComponentModel::EventDescriptor> events, bool readOnly) ;
+static System::ComponentModel::EventDescriptorCollection New_ctor(::ArrayW<System::ComponentModel::EventDescriptor> events, bool readOnly) ;
 
 /// @brief Method .ctor addr 0x277c604 size 0x24 virtual false final false
  void _ctor(::ArrayW<System::ComponentModel::EventDescriptor> events, bool readOnly) ;

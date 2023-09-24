@@ -1,10 +1,11 @@
 #pragma once
 #include "System/Security/Policy/zzzz__Evidence_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Security/Policy/zzzz__Evidence_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: System::Security::Policy::System__Security__Policy__Evidence__EvidenceEnumerator._ctor
 template<>
 
@@ -95,8 +96,10 @@ constexpr void System::Security::Policy::System__Security__Policy__Evidence__Evi
 constexpr System::Collections::IEnumerator System::Security::Policy::System__Security__Policy__Evidence__EvidenceEnumerator::__get_assemblyEnum() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerator, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hostenum", ty: "System::Collections::IEnumerator", modifiers: "", def_value: None }, CppParam { name: "assemblyenum", ty: "System::Collections::IEnumerator", modifiers: "", def_value: None }]
- System::Security::Policy::System__Security__Policy__Evidence__EvidenceEnumerator::System__Security__Policy__Evidence__EvidenceEnumerator(System::Collections::IEnumerator hostenum, System::Collections::IEnumerator assemblyenum)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Security__Policy__Evidence__EvidenceEnumerator>(hostenum, assemblyenum))) {}
+ System::Security::Policy::System__Security__Policy__Evidence__EvidenceEnumerator System::Security::Policy::System__Security__Policy__Evidence__EvidenceEnumerator::New_ctor(System::Collections::IEnumerator hostenum, System::Collections::IEnumerator assemblyenum)  {
+System::Security::Policy::System__Security__Policy__Evidence__EvidenceEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Policy::System__Security__Policy__Evidence__EvidenceEnumerator>(hostenum, assemblyenum))};
+return o;
+}
  void System::Security::Policy::System__Security__Policy__Evidence__EvidenceEnumerator::_ctor(System::Collections::IEnumerator hostenum, System::Collections::IEnumerator assemblyenum)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Policy::System__Security__Policy__Evidence__EvidenceEnumerator>::get(),
@@ -261,8 +264,10 @@ constexpr void System::Security::Policy::Evidence::__set_assemblyEvidenceList(Sy
 constexpr System::Collections::ArrayList System::Security::Policy::Evidence::__get_assemblyEvidenceList() const {
 return ::cordl_internals::getInstanceField<System::Collections::ArrayList, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Policy::Evidence::Evidence()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Evidence>())) {}
+ System::Security::Policy::Evidence System::Security::Policy::Evidence::New_ctor()  {
+System::Security::Policy::Evidence o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Policy::Evidence>())};
+return o;
+}
  void System::Security::Policy::Evidence::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Policy::Evidence>::get(),

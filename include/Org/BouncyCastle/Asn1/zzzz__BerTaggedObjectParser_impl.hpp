@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__BerTaggedObjectParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObjectParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1StreamParser_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1StreamParser_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::BerTaggedObjectParser._ctor
 template<>
 
@@ -133,8 +133,10 @@ constexpr void Org::BouncyCastle::Asn1::BerTaggedObjectParser::__set__parser(Org
 constexpr Org::BouncyCastle::Asn1::Asn1StreamParser Org::BouncyCastle::Asn1::BerTaggedObjectParser::__get__parser() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1StreamParser, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "baseTag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tagNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contentStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerTaggedObjectParser::BerTaggedObjectParser(int32_t baseTag, int32_t tagNumber, System::IO::Stream contentStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BerTaggedObjectParser>(baseTag, tagNumber, contentStream))) {}
+ Org::BouncyCastle::Asn1::BerTaggedObjectParser Org::BouncyCastle::Asn1::BerTaggedObjectParser::New_ctor(int32_t baseTag, int32_t tagNumber, System::IO::Stream contentStream)  {
+Org::BouncyCastle::Asn1::BerTaggedObjectParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerTaggedObjectParser>(baseTag, tagNumber, contentStream))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerTaggedObjectParser::_ctor(int32_t baseTag, int32_t tagNumber, System::IO::Stream contentStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerTaggedObjectParser>::get(),
@@ -144,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, baseTag, tagNumber, contentStream);
 }
-// Ctor Parameters [CppParam { name: "constructed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "tagNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parser", ty: "Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerTaggedObjectParser::BerTaggedObjectParser(bool constructed, int32_t tagNumber, Org::BouncyCastle::Asn1::Asn1StreamParser parser)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BerTaggedObjectParser>(constructed, tagNumber, parser))) {}
+ Org::BouncyCastle::Asn1::BerTaggedObjectParser Org::BouncyCastle::Asn1::BerTaggedObjectParser::New_ctor(bool constructed, int32_t tagNumber, Org::BouncyCastle::Asn1::Asn1StreamParser parser)  {
+Org::BouncyCastle::Asn1::BerTaggedObjectParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerTaggedObjectParser>(constructed, tagNumber, parser))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerTaggedObjectParser::_ctor(bool constructed, int32_t tagNumber, Org::BouncyCastle::Asn1::Asn1StreamParser parser)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerTaggedObjectParser>::get(),

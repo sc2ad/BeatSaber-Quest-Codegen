@@ -4,14 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct DrivenRectTransformTracker;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine::EventSystems {
 class IDragHandler;
@@ -19,33 +13,39 @@ class IDragHandler;
 namespace UnityEngine::UI {
 class ICanvasElement;
 }
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine {
-class RectTransform;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace UnityEngine::UI {
 class Graphic;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct DrivenRectTransformTracker;
 }
 // Forward declare root types
 namespace HMUI {
@@ -301,8 +301,7 @@ constexpr UnityEngine::DrivenRectTransformTracker __get__tracker() const;
 /// @brief Method TextForNormalizedValue addr 0x1fb1018 size 0x1c virtual true final false
  ::StringW TextForNormalizedValue(float_t normalizedValue) ;
 
-// Ctor Parameters []
-explicit TextSlider() ;
+static HMUI::TextSlider New_ctor() ;
 
 /// @brief Method .ctor addr 0x1faf1a0 size 0x78 virtual false final false
  void _ctor() ;

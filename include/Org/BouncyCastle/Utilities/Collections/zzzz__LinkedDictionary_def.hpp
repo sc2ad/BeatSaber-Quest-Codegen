@@ -3,25 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -112,8 +112,7 @@ constexpr System::Collections::IList __get_keys() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LinkedDictionary() ;
+static Org::BouncyCastle::Utilities::Collections::LinkedDictionary New_ctor() ;
 
 /// @brief Method .ctor addr 0x10cc990 size 0x70 virtual false final false
  void _ctor() ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__IssuerAndSerialNumber_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::SignerIdentifier._ctor
 template<>
 
@@ -135,8 +135,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::SignerIdentifier::__set_id(Org::Bou
 constexpr Org::BouncyCastle::Asn1::Asn1Encodable Org::BouncyCastle::Asn1::Cms::SignerIdentifier::__get_id() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Encodable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::SignerIdentifier::SignerIdentifier(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber id)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignerIdentifier>(id))) {}
+ Org::BouncyCastle::Asn1::Cms::SignerIdentifier Org::BouncyCastle::Asn1::Cms::SignerIdentifier::New_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber id)  {
+Org::BouncyCastle::Asn1::Cms::SignerIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::SignerIdentifier>(id))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::SignerIdentifier::_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::SignerIdentifier>::get(),
@@ -146,8 +148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, id);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::SignerIdentifier::SignerIdentifier(Org::BouncyCastle::Asn1::Asn1OctetString id)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignerIdentifier>(id))) {}
+ Org::BouncyCastle::Asn1::Cms::SignerIdentifier Org::BouncyCastle::Asn1::Cms::SignerIdentifier::New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString id)  {
+Org::BouncyCastle::Asn1::Cms::SignerIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::SignerIdentifier>(id))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::SignerIdentifier::_ctor(Org::BouncyCastle::Asn1::Asn1OctetString id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::SignerIdentifier>::get(),
@@ -157,8 +161,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, id);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::SignerIdentifier::SignerIdentifier(Org::BouncyCastle::Asn1::Asn1Object id)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignerIdentifier>(id))) {}
+ Org::BouncyCastle::Asn1::Cms::SignerIdentifier Org::BouncyCastle::Asn1::Cms::SignerIdentifier::New_ctor(Org::BouncyCastle::Asn1::Asn1Object id)  {
+Org::BouncyCastle::Asn1::Cms::SignerIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::SignerIdentifier>(id))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::SignerIdentifier::_ctor(Org::BouncyCastle::Asn1::Asn1Object id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::SignerIdentifier>::get(),

@@ -3,12 +3,12 @@
 #include "System/IO/zzzz__UnmanagedMemoryStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System::Runtime::InteropServices {
+struct GCHandle;
+}
 namespace System {
 template<typename T>
 struct Span_1;
-}
-namespace System::Runtime::InteropServices {
-struct GCHandle;
 }
 namespace System {
 template<typename T>
@@ -75,8 +75,7 @@ constexpr System::Runtime::InteropServices::GCHandle __get__pinningHandle() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "array", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PinnedBufferMemoryStream(::ArrayW<uint8_t> array) ;
+static System::IO::PinnedBufferMemoryStream New_ctor(::ArrayW<uint8_t> array) ;
 
 /// @brief Method .ctor addr 0x2392e80 size 0xb4 virtual false final false
  void _ctor(::ArrayW<uint8_t> array) ;

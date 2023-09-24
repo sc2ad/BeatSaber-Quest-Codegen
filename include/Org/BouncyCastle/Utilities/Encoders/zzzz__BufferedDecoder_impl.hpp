@@ -70,8 +70,10 @@ constexpr void Org::BouncyCastle::Utilities::Encoders::BufferedDecoder::__set_tr
 constexpr Org::BouncyCastle::Utilities::Encoders::ITranslator Org::BouncyCastle::Utilities::Encoders::BufferedDecoder::__get_translator() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Utilities::Encoders::ITranslator, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "translator", ty: "Org::BouncyCastle::Utilities::Encoders::ITranslator", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Encoders::BufferedDecoder::BufferedDecoder(Org::BouncyCastle::Utilities::Encoders::ITranslator translator, int32_t bufferSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BufferedDecoder>(translator, bufferSize))) {}
+ Org::BouncyCastle::Utilities::Encoders::BufferedDecoder Org::BouncyCastle::Utilities::Encoders::BufferedDecoder::New_ctor(Org::BouncyCastle::Utilities::Encoders::ITranslator translator, int32_t bufferSize)  {
+Org::BouncyCastle::Utilities::Encoders::BufferedDecoder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Encoders::BufferedDecoder>(translator, bufferSize))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Encoders::BufferedDecoder::_ctor(Org::BouncyCastle::Utilities::Encoders::ITranslator translator, int32_t bufferSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Encoders::BufferedDecoder>::get(),

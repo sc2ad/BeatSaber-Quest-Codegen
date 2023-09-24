@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__Context_def.hpp"
-namespace UnityEngine {
-class GameObject;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace Zenject {
@@ -98,8 +98,7 @@ constexpr bool __get__Initialized_k__BackingField() const;
 template<typename T>
 static T CreateComponent(UnityEngine::GameObject gameObject) ;
 
-// Ctor Parameters []
-explicit RunnableContext() ;
+static Zenject::RunnableContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d75a40 size 0xc virtual false final false
  void _ctor() ;

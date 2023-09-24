@@ -3,18 +3,21 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerator;
+}
 namespace UnityEngine {
 class MonoBehaviour;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class GlobalNamespace__EnableAfterDelay___Start_d__1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +105,7 @@ constexpr GlobalNamespace::EnableAfterDelay __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__EnableAfterDelay___Start_d__1(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f768c8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -183,8 +185,7 @@ constexpr UnityEngine::MonoBehaviour __get__component() const;
 /// @brief Method Start addr 0x1f76860 size 0x68 virtual false final false
  System::Collections::IEnumerator Start() ;
 
-// Ctor Parameters []
-explicit EnableAfterDelay() ;
+static GlobalNamespace::EnableAfterDelay New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f768f0 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_impl.hpp"
 #include "GlobalNamespace/zzzz__GradientImageViewStateTransition_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
-#include "GlobalNamespace/zzzz__GradientTransitionSO_def.hpp"
 #include "Tweening/zzzz__ColorTween_def.hpp"
+#include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__GradientTransitionSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GradientImageViewStateTransition.get_transition
 template<>
 
@@ -526,8 +526,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, startColor, endColor);
 }
-// Ctor Parameters []
- GlobalNamespace::GradientImageViewStateTransition::GradientImageViewStateTransition()  : GlobalNamespace::BaseStateTransition_1<HMUI::ImageView>(THROW_UNLESS(::il2cpp_utils::New<GradientImageViewStateTransition>())) {}
+ GlobalNamespace::GradientImageViewStateTransition GlobalNamespace::GradientImageViewStateTransition::New_ctor()  {
+GlobalNamespace::GradientImageViewStateTransition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GradientImageViewStateTransition>())};
+return o;
+}
  void GlobalNamespace::GradientImageViewStateTransition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GradientImageViewStateTransition>::get(),

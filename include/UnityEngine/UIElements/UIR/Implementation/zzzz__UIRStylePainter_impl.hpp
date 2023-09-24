@@ -1,31 +1,28 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/UIR/Implementation/zzzz__UIRStylePainter_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContextUtils_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshGenerationContextUtils_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/Implementation/zzzz__UIRStylePainter_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStylePainter_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VectorImageManager_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__MeshBuilder_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshWriteData_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderChain_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextHandle_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderChain_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStylePainter_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__MeshBuilder_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContextUtils_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContextUtils_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__MeshBuilder_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshWriteData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VertexFlags_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 // Ctor Parameters [CppParam { name: "vertices", ty: "Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex>", modifiers: "", def_value: Some("{}") }, CppParam { name: "indices", ty: "Unity::Collections::NativeSlice_1<uint16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "material", ty: "UnityEngine::Material", modifiers: "", def_value: Some("csnull") }, CppParam { name: "custom", ty: "UnityEngine::Texture", modifiers: "", def_value: Some("csnull") }, CppParam { name: "font", ty: "UnityEngine::Texture", modifiers: "", def_value: Some("csnull") }, CppParam { name: "fontTexSDFScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "texture", ty: "UnityEngine::UIElements::TextureId", modifiers: "", def_value: Some("{}") }, CppParam { name: "customCommand", ty: "UnityEngine::UIElements::UIR::RenderChainCommand", modifiers: "", def_value: Some("csnull") }, CppParam { name: "clipRectID", ty: "UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: Some("{}") }, CppParam { name: "addFlags", ty: "UnityEngine::UIElements::UIR::VertexFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "uvIsDisplacement", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isTextEntry", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isClipRegisterEntry", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maskDepth", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -1063,8 +1060,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::MeshWriteData, false>(const_cast<void*>(instance), ___internal_method, vertexCount, indexCount, allocatorData);
 }
-// Ctor Parameters [CppParam { name: "renderChain", ty: "UnityEngine::UIElements::UIR::RenderChain", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::UIRStylePainter(UnityEngine::UIElements::UIR::RenderChain renderChain)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIRStylePainter>(renderChain))) {}
+ UnityEngine::UIElements::UIR::Implementation::UIRStylePainter UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::New_ctor(UnityEngine::UIElements::UIR::RenderChain renderChain)  {
+UnityEngine::UIElements::UIR::Implementation::UIRStylePainter o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::Implementation::UIRStylePainter>(renderChain))};
+return o;
+}
  void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::_ctor(UnityEngine::UIElements::UIR::RenderChain renderChain)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UIRStylePainter>::get(),
@@ -1389,144 +1388,6 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::*)(int32_t)>(&UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>.Dispose
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::*)()>(&UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::Dispose)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>>::get(),
-                            "Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>.Alloc
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Collections::NativeSlice_1<uint16_t> (UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::*)(uint32_t)>(&UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::Alloc)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>>::get(),
-                            "Alloc",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>.SessionDone
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::*)()>(&UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::SessionDone)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>>::get(),
-                            "SessionDone",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::IDisposable
-constexpr  UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::operator System::IDisposable() const {
-return System::IDisposable(::cordl_internals::Box(this).convert());
-}
-// Ctor Parameters [CppParam { name: "maxPoolElemCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pool", ty: "Unity::Collections::NativeArray_1<uint16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "excess", ty: "System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "takenFromPool", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
-constexpr UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(int32_t maxPoolElemCount, Unity::Collections::NativeArray_1<uint16_t> pool, System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> excess, uint32_t takenFromPool) noexcept : ::bs_hook::ValueTypeWrapper() {this->maxPoolElemCount = maxPoolElemCount;
-this->pool = pool;
-this->excess = excess;
-this->takenFromPool = takenFromPool;
-}
-constexpr void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::__set_maxPoolElemCount(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
-}
-constexpr int32_t UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::__get_maxPoolElemCount() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
-}
-constexpr void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::__set_pool(Unity::Collections::NativeArray_1<uint16_t> value)  {
-::cordl_internals::setInstanceField<Unity::Collections::NativeArray_1<uint16_t>, 0x8>(this->__instance, std::forward<Unity::Collections::NativeArray_1<uint16_t>>(value));
-}
-constexpr Unity::Collections::NativeArray_1<uint16_t> UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::__get_pool() const {
-return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<uint16_t>, 0x8>(this->__instance);
-}
-constexpr void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::__set_excess(System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> value)  {
-::cordl_internals::setInstanceField<System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>>, 0x10>(this->__instance, std::forward<System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>>>(value));
-}
-constexpr System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>> UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::__get_excess() const {
-return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<uint16_t>>, 0x10>(this->__instance);
-}
-constexpr void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::__set_takenFromPool(uint32_t value)  {
-::cordl_internals::setInstanceField<uint32_t, 0x18>(this->__instance, std::forward<uint32_t>(value));
-}
-constexpr uint32_t UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::__get_takenFromPool() const {
-return ::cordl_internals::getInstanceField<uint32_t, 0x18>(this->__instance);
-}
- void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::_ctor(int32_t maxPoolElems)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, maxPoolElems);
-}
- void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::Dispose()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>>::get(),
-                            "Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
-}
- Unity::Collections::NativeSlice_1<uint16_t> UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::Alloc(uint32_t count)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>>::get(),
-                            "Alloc",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<Unity::Collections::NativeSlice_1<uint16_t>, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, count);
-}
- void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>::SessionDone()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<uint16_t>>::get(),
-                            "SessionDone",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
-}
 //  Writing Method size for method: UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<UnityEngine::UIElements::Vertex>._ctor
 template<>
 
@@ -1659,6 +1520,76 @@ return ::cordl_internals::RunMethodRethrow<Unity::Collections::NativeSlice_1<Uni
  void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<UnityEngine::UIElements::Vertex>::SessionDone()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<UnityEngine::UIElements::Vertex>>::get(),
+                            "SessionDone",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
+}
+/// @brief Convert operator to System::IDisposable
+constexpr  UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::operator System::IDisposable() const {
+return System::IDisposable(::cordl_internals::Box(this).convert());
+}
+// Ctor Parameters [CppParam { name: "maxPoolElemCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pool", ty: "Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "excess", ty: "System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "takenFromPool", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+constexpr UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1(int32_t maxPoolElemCount, Unity::Collections::NativeArray_1<T> pool, System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>> excess, uint32_t takenFromPool) noexcept : ::bs_hook::ValueTypeWrapper() {this->maxPoolElemCount = maxPoolElemCount;
+this->pool = pool;
+this->excess = excess;
+this->takenFromPool = takenFromPool;
+}
+constexpr void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::__set_maxPoolElemCount(int32_t value)  {
+::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
+}
+constexpr int32_t UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::__get_maxPoolElemCount() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
+}
+constexpr void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::__set_pool(Unity::Collections::NativeArray_1<T> value)  {
+::cordl_internals::setInstanceField<Unity::Collections::NativeArray_1<T>, 0x8>(this->__instance, std::forward<Unity::Collections::NativeArray_1<T>>(value));
+}
+constexpr Unity::Collections::NativeArray_1<T> UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::__get_pool() const {
+return ::cordl_internals::getInstanceField<Unity::Collections::NativeArray_1<T>, 0x8>(this->__instance);
+}
+constexpr void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::__set_excess(System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>> value)  {
+::cordl_internals::setInstanceField<System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>>, 0x10>(this->__instance, std::forward<System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>>>(value));
+}
+constexpr System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>> UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::__get_excess() const {
+return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<Unity::Collections::NativeArray_1<T>>, 0x10>(this->__instance);
+}
+constexpr void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::__set_takenFromPool(uint32_t value)  {
+::cordl_internals::setInstanceField<uint32_t, 0x18>(this->__instance, std::forward<uint32_t>(value));
+}
+constexpr uint32_t UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::__get_takenFromPool() const {
+return ::cordl_internals::getInstanceField<uint32_t, 0x18>(this->__instance);
+}
+ void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::_ctor(int32_t maxPoolElems)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, maxPoolElems);
+}
+ void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>>::get(),
+                            "Dispose",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
+}
+ Unity::Collections::NativeSlice_1<T> UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::Alloc(uint32_t count)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>>::get(),
+                            "Alloc",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<Unity::Collections::NativeSlice_1<T>, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, count);
+}
+ void UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>::SessionDone()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::Implementation::UnityEngine__UIElements__UIR__Implementation__UIRStylePainter__TempDataAlloc_1<T>>::get(),
                             "SessionDone",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

@@ -8,17 +8,20 @@
 namespace System::Globalization {
 class CultureInfo;
 }
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
 namespace System {
 class Type;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor;
 }
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
 namespace System {
 class Attribute;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -78,8 +81,7 @@ constexpr int32_t __get__index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "arrayType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "elementType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor(System::Type arrayType, System::Type elementType, int32_t index) ;
+static System::ComponentModel::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor New_ctor(System::Type arrayType, System::Type elementType, int32_t index) ;
 
 /// @brief Method .ctor addr 0x2772b9c size 0xb8 virtual false final false
  void _ctor(System::Type arrayType, System::Type elementType, int32_t index) ;
@@ -147,8 +149,7 @@ constexpr explicit ArrayConverter(void* ptr) noexcept : System::ComponentModel::
 /// @brief Method GetPropertiesSupported addr 0x2772d44 size 0x8 virtual true final false
  bool GetPropertiesSupported(System::ComponentModel::ITypeDescriptorContext context) ;
 
-// Ctor Parameters []
-explicit ArrayConverter() ;
+static System::ComponentModel::ArrayConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2772d4c size 0x8 virtual false final false
  void _ctor() ;

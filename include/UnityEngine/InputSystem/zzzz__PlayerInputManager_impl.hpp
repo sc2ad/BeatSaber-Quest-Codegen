@@ -2,19 +2,20 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__PlayerInputManager_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__PlayerJoinBehavior_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionProperty_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__PlayerInput_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__PlayerNotifications_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__PlayerInputManager_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__PlayerNotifications_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__PlayerInput_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__PlayerJoinBehavior_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent._ctor
 template<>
 
@@ -32,8 +33,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent::UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent()  : UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent>::get(),
@@ -60,8 +63,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent::UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent()  : UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent>::get(),
@@ -1276,8 +1281,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, player);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::PlayerInputManager::PlayerInputManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlayerInputManager>())) {}
+ UnityEngine::InputSystem::PlayerInputManager UnityEngine::InputSystem::PlayerInputManager::New_ctor()  {
+UnityEngine::InputSystem::PlayerInputManager o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::PlayerInputManager>())};
+return o;
+}
  void UnityEngine::InputSystem::PlayerInputManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::PlayerInputManager>::get(),

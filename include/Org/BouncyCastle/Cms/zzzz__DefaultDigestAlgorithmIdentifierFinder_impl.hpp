@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier, false>(const_cast<void*>(instance), ___internal_method, digAlgName);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::DefaultDigestAlgorithmIdentifierFinder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultDigestAlgorithmIdentifierFinder>())) {}
+ Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::New_ctor()  {
+Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder>())};
+return o;
+}
  void Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder>::get(),

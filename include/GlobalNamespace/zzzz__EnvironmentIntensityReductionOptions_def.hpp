@@ -3,6 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__EnvironmentIntensityReductionOptions__RotateRingsReductionType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__EnvironmentIntensityReductionOptions__CompressExpandReductionType;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__EnvironmentIntensityReductionOptions__CompressExpandReductionType;
@@ -62,6 +68,8 @@ __RemoveWithStrobeFilter = 1,
 constexpr operator __GlobalNamespace__EnvironmentIntensityReductionOptions__CompressExpandReductionType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__EnvironmentIntensityReductionOptions__CompressExpandReductionType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -131,6 +139,8 @@ __RemoveWithStrobeFilter = 1,
 constexpr operator __GlobalNamespace__EnvironmentIntensityReductionOptions__RotateRingsReductionType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__EnvironmentIntensityReductionOptions__RotateRingsReductionType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -225,8 +235,7 @@ constexpr GlobalNamespace::GlobalNamespace__EnvironmentIntensityReductionOptions
 /// @brief Method get_rotateRings addr 0x21bef08 size 0x8 virtual false final false
  GlobalNamespace::GlobalNamespace__EnvironmentIntensityReductionOptions__RotateRingsReductionType get_rotateRings() ;
 
-// Ctor Parameters []
-explicit EnvironmentIntensityReductionOptions() ;
+static GlobalNamespace::EnvironmentIntensityReductionOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bef10 size 0x8 virtual false final false
  void _ctor() ;

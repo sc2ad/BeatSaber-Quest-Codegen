@@ -257,8 +257,10 @@ constexpr void System::Globalization::IdnMapping::__set_puny(System::Globalizati
 constexpr System::Globalization::Punycode System::Globalization::IdnMapping::__get_puny() const {
 return ::cordl_internals::getInstanceField<System::Globalization::Punycode, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Globalization::IdnMapping::IdnMapping()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IdnMapping>())) {}
+ System::Globalization::IdnMapping System::Globalization::IdnMapping::New_ctor()  {
+System::Globalization::IdnMapping o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::IdnMapping>())};
+return o;
+}
  void System::Globalization::IdnMapping::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::IdnMapping>::get(),

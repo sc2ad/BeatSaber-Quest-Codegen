@@ -96,8 +96,10 @@ constexpr void Org::BouncyCastle::Math::Field::GF2Polynomial::__set_exponents(::
 constexpr ::ArrayW<int32_t> Org::BouncyCastle::Math::Field::GF2Polynomial::__get_exponents() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int32_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "exponents", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::Field::GF2Polynomial::GF2Polynomial(::ArrayW<int32_t> exponents)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GF2Polynomial>(exponents))) {}
+ Org::BouncyCastle::Math::Field::GF2Polynomial Org::BouncyCastle::Math::Field::GF2Polynomial::New_ctor(::ArrayW<int32_t> exponents)  {
+Org::BouncyCastle::Math::Field::GF2Polynomial o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::Field::GF2Polynomial>(exponents))};
+return o;
+}
  void Org::BouncyCastle::Math::Field::GF2Polynomial::_ctor(::ArrayW<int32_t> exponents)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::Field::GF2Polynomial>::get(),

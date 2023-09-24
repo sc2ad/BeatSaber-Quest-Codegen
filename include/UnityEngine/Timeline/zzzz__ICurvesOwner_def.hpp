@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace UnityEngine {
-class Object;
+class AnimationClip;
 }
 namespace UnityEngine {
-class AnimationClip;
+class Object;
 }
 namespace UnityEngine::Timeline {
 class TrackAsset;

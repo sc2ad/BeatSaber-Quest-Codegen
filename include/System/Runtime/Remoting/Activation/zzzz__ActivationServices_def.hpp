@@ -3,23 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System::Runtime::Remoting::Proxies {
-class RemotingProxy;
+namespace System {
+class Type;
+}
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
 }
 namespace System::Runtime::Remoting::Activation {
 class IActivator;
 }
+namespace System::Runtime::Remoting::Proxies {
+class RemotingProxy;
+}
 namespace System::Runtime::Remoting::Messaging {
 class ConstructionCall;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {

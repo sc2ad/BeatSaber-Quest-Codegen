@@ -68,8 +68,7 @@ constexpr UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit ProviderException(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Exception innerException) ;
+static UnityEngine::ResourceManagement::Exceptions::ProviderException New_ctor(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x2a38814 size 0x28 virtual false final false
  void _ctor(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Exception innerException) ;

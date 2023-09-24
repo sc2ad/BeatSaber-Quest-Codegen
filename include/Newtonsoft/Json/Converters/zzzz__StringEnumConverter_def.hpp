@@ -5,11 +5,11 @@
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
-}
 namespace System {
 class Type;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
@@ -94,14 +94,12 @@ constexpr bool __get__AllowIntegerValues_k__BackingField() const;
 /// @brief Method set_AllowIntegerValues addr 0x253f014 size 0xc virtual false final false
  void set_AllowIntegerValues(bool value) ;
 
-// Ctor Parameters []
-explicit StringEnumConverter() ;
+static Newtonsoft::Json::Converters::StringEnumConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x253f020 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "camelCaseText", ty: "bool", modifiers: "", def_value: None }]
-explicit StringEnumConverter(bool camelCaseText) ;
+static Newtonsoft::Json::Converters::StringEnumConverter New_ctor(bool camelCaseText) ;
 
 /// @brief Method .ctor addr 0x253f040 size 0x34 virtual false final false
  void _ctor(bool camelCaseText) ;

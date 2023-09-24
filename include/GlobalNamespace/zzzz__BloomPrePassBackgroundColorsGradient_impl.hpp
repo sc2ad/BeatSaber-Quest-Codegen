@@ -1,9 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundColorsGradient_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundColorsGradient_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element._ctor
 template<>
 
@@ -39,8 +40,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGra
 constexpr float_t GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element::__get_exp() const {
 return ::cordl_internals::getInstanceField<float_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element>())) {}
+ GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element>::get(),
@@ -151,8 +154,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassBackgroundColorsGradient::BloomPrePassBackgroundColorsGradient()  : GlobalNamespace::BloomPrePassBackgroundTextureGradient(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassBackgroundColorsGradient>())) {}
+ GlobalNamespace::BloomPrePassBackgroundColorsGradient GlobalNamespace::BloomPrePassBackgroundColorsGradient::New_ctor()  {
+GlobalNamespace::BloomPrePassBackgroundColorsGradient o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassBackgroundColorsGradient>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassBackgroundColorsGradient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassBackgroundColorsGradient>::get(),

@@ -3,17 +3,20 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
-class LightWithIdManager;
+class LightColorBeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
-class LightColorBeatmapEventData;
+class LightWithIdManager;
 }
 namespace GlobalNamespace {
 class ColorSO;
@@ -22,10 +25,7 @@ namespace GlobalNamespace {
 class BloomPrePassBackgroundNonLightRenderer;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace UnityEngine {
-struct Color;
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -175,8 +175,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__lightColorBeatmapEv
 /// @brief Method NotifyAlphaWasChanged addr 0x20ae8e8 size 0x70 virtual false final false
  void NotifyAlphaWasChanged(float_t currentAlpha) ;
 
-// Ctor Parameters []
-explicit FireEffect() ;
+static GlobalNamespace::FireEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ae9dc size 0x24 virtual false final false
  void _ctor() ;

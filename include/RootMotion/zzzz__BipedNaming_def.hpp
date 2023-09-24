@@ -8,6 +8,12 @@
 namespace UnityEngine {
 class Transform;
 }
+namespace RootMotion {
+struct RootMotion__BipedNaming__BoneSide;
+}
+namespace RootMotion {
+struct RootMotion__BipedNaming__BoneType;
+}
 // Forward declare root types
 namespace RootMotion {
 struct RootMotion__BipedNaming__BoneSide;
@@ -72,6 +78,8 @@ __Eye = 6,
 constexpr operator __RootMotion__BipedNaming__BoneType_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__BipedNaming__BoneType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -157,6 +165,8 @@ __Right = 2,
 constexpr operator __RootMotion__BipedNaming__BoneSide_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__BipedNaming__BoneSide_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

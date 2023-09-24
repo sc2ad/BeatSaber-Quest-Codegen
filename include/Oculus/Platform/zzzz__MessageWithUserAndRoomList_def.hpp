@@ -13,7 +13,7 @@ class MessageWithUserAndRoomList;
 // Type: Oculus.Platform::MessageWithUserAndRoomList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13483)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 955 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 955 }), TypeDefinitionIndex(TypeDefinitionIndex(13483))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13284))
 // CS Name: Oculus.Platform.MessageWithUserAndRoomList
 class CORDL_TYPE MessageWithUserAndRoomList : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithUserAndRoomList(void* ptr) noexcept : Oculus::Plat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithUserAndRoomList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithUserAndRoomList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f3f8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

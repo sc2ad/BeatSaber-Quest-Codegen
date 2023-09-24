@@ -5,13 +5,13 @@ namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
-}
-namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class QuaternionControl;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus::Input {
@@ -124,8 +124,7 @@ constexpr UnityEngine::InputSystem::Controls::QuaternionControl __get__deviceRot
 /// @brief Method FinishSetup addr 0x2ae3f8c size 0x148 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit OculusTrackingReference() ;
+static Unity::XR::Oculus::Input::OculusTrackingReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae40d4 size 0x8 virtual false final false
  void _ctor() ;

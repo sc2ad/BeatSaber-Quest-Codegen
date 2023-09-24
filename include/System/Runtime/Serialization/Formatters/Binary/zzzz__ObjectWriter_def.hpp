@@ -5,35 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Runtime::Serialization {
-class SerializationObjectManager;
-}
-namespace System::Collections {
-class Queue;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
-}
-namespace System::Runtime::Serialization {
-class ObjectIDGenerator;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class WriteObjectInfo;
-}
-namespace System {
-class Array;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
-}
-namespace System::Runtime::Remoting::Messaging {
-class Header;
+class InternalFE;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class SerObjectInfoInit;
@@ -41,26 +14,53 @@ class SerObjectInfoInit;
 namespace System::Runtime::Serialization {
 class IFormatterConverter;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class NameInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Collections {
+class Queue;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SerStack;
+class WriteObjectInfo;
 }
 namespace System::Runtime::Serialization::Formatters {
 struct FormatterTypeStyle;
 }
 namespace System::Runtime::Serialization {
+class SerializationObjectManager;
+}
+namespace System::Runtime::Serialization {
 class SerializationBinder;
 }
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Runtime::Remoting::Messaging {
+class Header;
+}
 namespace System::Runtime::Serialization::Formatters::Binary {
-class InternalFE;
+struct InternalPrimitiveTypeE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryWriter;
 }
 namespace System {
 class Type;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerStack;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class NameInfo;
+}
+namespace System {
+class Array;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
+}
+namespace System::Runtime::Serialization {
+class ObjectIDGenerator;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -242,8 +242,7 @@ constexpr System::Runtime::Serialization::Formatters::Binary::SerStack __get_niP
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "selector", ty: "System::Runtime::Serialization::ISurrogateSelector", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }, CppParam { name: "formatterEnums", ty: "System::Runtime::Serialization::Formatters::Binary::InternalFE", modifiers: "", def_value: None }, CppParam { name: "binder", ty: "System::Runtime::Serialization::SerializationBinder", modifiers: "", def_value: None }]
-explicit ObjectWriter(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE formatterEnums, System::Runtime::Serialization::SerializationBinder binder) ;
+static System::Runtime::Serialization::Formatters::Binary::ObjectWriter New_ctor(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE formatterEnums, System::Runtime::Serialization::SerializationBinder binder) ;
 
 /// @brief Method .ctor addr 0x23635c8 size 0xf8 virtual false final false
  void _ctor(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE formatterEnums, System::Runtime::Serialization::SerializationBinder binder) ;

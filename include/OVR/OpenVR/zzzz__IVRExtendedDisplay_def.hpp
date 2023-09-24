@@ -6,13 +6,22 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace OVR::OpenVR {
 struct EVREye;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -69,8 +78,7 @@ constexpr explicit OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetWindowBounds New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264644c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -130,8 +138,7 @@ constexpr explicit OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetEyeOutputViewport New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2646658 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -191,8 +198,7 @@ constexpr explicit OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRExtendedDisplay___GetDXGIOutputInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2646868 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

@@ -3,15 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace System {
 class Type;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {
@@ -90,8 +90,7 @@ constexpr UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
-explicit LocationWrapper(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
+static UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper New_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;
 
 /// @brief Method .ctor addr 0x2a3bee4 size 0x28 virtual false final false
  void _ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location) ;

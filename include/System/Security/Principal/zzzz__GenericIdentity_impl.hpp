@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Security/Claims/zzzz__ClaimsIdentity_impl.hpp"
 #include "System/Security/Principal/zzzz__GenericIdentity_def.hpp"
-#include "System/Security/Claims/zzzz__Claim_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Security/Claims/zzzz__Claim_def.hpp"
 //  Writing Method size for method: System::Security::Principal::GenericIdentity._ctor
 template<>
 
@@ -152,8 +152,10 @@ constexpr void System::Security::Principal::GenericIdentity::__set_m_type(::Stri
 constexpr ::StringW System::Security::Principal::GenericIdentity::__get_m_type() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x80>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Principal::GenericIdentity::GenericIdentity(::StringW name, ::StringW type)  : System::Security::Claims::ClaimsIdentity(THROW_UNLESS(::il2cpp_utils::New<GenericIdentity>(name, type))) {}
+ System::Security::Principal::GenericIdentity System::Security::Principal::GenericIdentity::New_ctor(::StringW name, ::StringW type)  {
+System::Security::Principal::GenericIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::GenericIdentity>(name, type))};
+return o;
+}
  void System::Security::Principal::GenericIdentity::_ctor(::StringW name, ::StringW type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::GenericIdentity>::get(),
@@ -163,8 +165,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, type);
 }
-// Ctor Parameters []
- System::Security::Principal::GenericIdentity::GenericIdentity()  : System::Security::Claims::ClaimsIdentity(THROW_UNLESS(::il2cpp_utils::New<GenericIdentity>())) {}
+ System::Security::Principal::GenericIdentity System::Security::Principal::GenericIdentity::New_ctor()  {
+System::Security::Principal::GenericIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::GenericIdentity>())};
+return o;
+}
  void System::Security::Principal::GenericIdentity::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::GenericIdentity>::get(),
@@ -174,8 +178,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::GenericIdentity", modifiers: "", def_value: None }]
- System::Security::Principal::GenericIdentity::GenericIdentity(System::Security::Principal::GenericIdentity identity)  : System::Security::Claims::ClaimsIdentity(THROW_UNLESS(::il2cpp_utils::New<GenericIdentity>(identity))) {}
+ System::Security::Principal::GenericIdentity System::Security::Principal::GenericIdentity::New_ctor(System::Security::Principal::GenericIdentity identity)  {
+System::Security::Principal::GenericIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::GenericIdentity>(identity))};
+return o;
+}
  void System::Security::Principal::GenericIdentity::_ctor(System::Security::Principal::GenericIdentity identity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::GenericIdentity>::get(),

@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TMP_SelectionCaret::TMP_SelectionCaret()  : UnityEngine::UI::MaskableGraphic(THROW_UNLESS(::il2cpp_utils::New<TMP_SelectionCaret>())) {}
+ TMPro::TMP_SelectionCaret TMPro::TMP_SelectionCaret::New_ctor()  {
+TMPro::TMP_SelectionCaret o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SelectionCaret>())};
+return o;
+}
  void TMPro::TMP_SelectionCaret::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SelectionCaret>::get(),

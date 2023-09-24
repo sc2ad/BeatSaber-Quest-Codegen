@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SignatureAndHashAlgorithm;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -85,8 +85,7 @@ constexpr explicit TlsRsaSigner(void* ptr) noexcept : Org::BouncyCastle::Crypto:
 /// @brief Method CreateRsaImpl addr 0xf25170 size 0x8c virtual true final false
  Org::BouncyCastle::Crypto::IAsymmetricBlockCipher CreateRsaImpl() ;
 
-// Ctor Parameters []
-explicit TlsRsaSigner() ;
+static Org::BouncyCastle::Crypto::Tls::TlsRsaSigner New_ctor() ;
 
 /// @brief Method .ctor addr 0xf1cebc size 0x8 virtual false final false
  void _ctor() ;

@@ -2,10 +2,11 @@
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/IO/Compression/zzzz__DeflateStreamNative_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/IO/Compression/zzzz__DeflateStreamNative_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
+#include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite._ctor
 template<>
 
@@ -40,8 +41,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite>(object, method))) {}
+ System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite>(object, method))};
+return o;
+}
  void System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite>::get(),
@@ -120,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle()  : System::Runtime::InteropServices::SafeHandle(THROW_UNLESS(::il2cpp_utils::New<System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle>())) {}
+ System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle::New_ctor()  {
+System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle>())};
+return o;
+}
  void System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle>::get(),
@@ -471,8 +476,10 @@ constexpr void System::IO::Compression::DeflateStreamNative::__set_last_error(Sy
 constexpr System::Exception System::IO::Compression::DeflateStreamNative::__get_last_error() const {
 return ::cordl_internals::getInstanceField<System::Exception, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::Compression::DeflateStreamNative::DeflateStreamNative()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DeflateStreamNative>())) {}
+ System::IO::Compression::DeflateStreamNative System::IO::Compression::DeflateStreamNative::New_ctor()  {
+System::IO::Compression::DeflateStreamNative o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Compression::DeflateStreamNative>())};
+return o;
+}
  void System::IO::Compression::DeflateStreamNative::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Compression::DeflateStreamNative>::get(),

@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__ScreenCapture_def.hpp"
+#include "UnityEngine/zzzz__ScreenCapture_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UnityEngine__ScreenCapture__StereoScreenCaptureMode::UnityEngine__ScreenCapture__StereoScreenCaptureMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }

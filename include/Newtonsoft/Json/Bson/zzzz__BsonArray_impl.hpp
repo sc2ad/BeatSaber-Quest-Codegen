@@ -2,11 +2,11 @@
 #include "Newtonsoft/Json/Bson/zzzz__BsonToken_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonArray_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonToken_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonType_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Bson::BsonArray.Add
 template<>
@@ -143,8 +143,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Bson::BsonArray::BsonArray()  : Newtonsoft::Json::Bson::BsonToken(THROW_UNLESS(::il2cpp_utils::New<BsonArray>())) {}
+ Newtonsoft::Json::Bson::BsonArray Newtonsoft::Json::Bson::BsonArray::New_ctor()  {
+Newtonsoft::Json::Bson::BsonArray o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonArray>())};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonArray::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonArray>::get(),

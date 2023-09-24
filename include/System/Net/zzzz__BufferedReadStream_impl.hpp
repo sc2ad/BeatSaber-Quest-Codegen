@@ -7,9 +7,10 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Net/zzzz__BufferOffsetSize_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Net/zzzz__BufferedReadStream_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__BufferedReadStream___ProcessReadAsync_d__2.MoveNext
 template<>
 
@@ -181,8 +182,10 @@ constexpr void System::Net::BufferedReadStream::__set_readBuffer(System::Net::Bu
 constexpr System::Net::BufferOffsetSize System::Net::BufferedReadStream::__get_readBuffer() const {
 return ::cordl_internals::getInstanceField<System::Net::BufferOffsetSize, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readBuffer", ty: "System::Net::BufferOffsetSize", modifiers: "", def_value: None }]
- System::Net::BufferedReadStream::BufferedReadStream(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::BufferOffsetSize readBuffer)  : System::Net::WebReadStream(THROW_UNLESS(::il2cpp_utils::New<BufferedReadStream>(operation, innerStream, readBuffer))) {}
+ System::Net::BufferedReadStream System::Net::BufferedReadStream::New_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::BufferOffsetSize readBuffer)  {
+System::Net::BufferedReadStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::BufferedReadStream>(operation, innerStream, readBuffer))};
+return o;
+}
  void System::Net::BufferedReadStream::_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::BufferOffsetSize readBuffer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::BufferedReadStream>::get(),

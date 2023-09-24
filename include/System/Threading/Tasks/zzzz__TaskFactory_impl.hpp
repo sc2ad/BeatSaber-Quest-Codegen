@@ -4,19 +4,20 @@
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__Func_4_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
-#include "System/zzzz__Func_5_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskFactory_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__Func_4_def.hpp"
+#include "System/zzzz__Func_5_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise._ctor
 template<>
 
@@ -78,8 +79,10 @@ constexpr void System::Threading::Tasks::System__Threading__Tasks__TaskFactory__
 constexpr System::Collections::Generic::IList_1<System::Threading::Tasks::Task> System::Threading::Tasks::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise::__get__tasks() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IList_1<System::Threading::Tasks::Task>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tasks", ty: "System::Collections::Generic::IList_1<System::Threading::Tasks::Task>", modifiers: "", def_value: None }]
- System::Threading::Tasks::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise(System::Collections::Generic::IList_1<System::Threading::Tasks::Task> tasks)  : System::Threading::Tasks::Task_1<System::Threading::Tasks::Task>(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise>(tasks))) {}
+ System::Threading::Tasks::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise System::Threading::Tasks::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise::New_ctor(System::Collections::Generic::IList_1<System::Threading::Tasks::Task> tasks)  {
+System::Threading::Tasks::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise>(tasks))};
+return o;
+}
  void System::Threading::Tasks::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise::_ctor(System::Collections::Generic::IList_1<System::Threading::Tasks::Task> tasks)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__TaskFactory__CompleteOnInvokePromise>::get(),
@@ -267,8 +270,10 @@ constexpr void System::Threading::Tasks::TaskFactory::__set_m_defaultContinuatio
 constexpr System::Threading::Tasks::TaskContinuationOptions System::Threading::Tasks::TaskFactory::__get_m_defaultContinuationOptions() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskContinuationOptions, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Threading::Tasks::TaskFactory::TaskFactory()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TaskFactory>())) {}
+ System::Threading::Tasks::TaskFactory System::Threading::Tasks::TaskFactory::New_ctor()  {
+System::Threading::Tasks::TaskFactory o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskFactory>())};
+return o;
+}
  void System::Threading::Tasks::TaskFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskFactory>::get(),
@@ -278,8 +283,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }, CppParam { name: "continuationOptions", ty: "System::Threading::Tasks::TaskContinuationOptions", modifiers: "", def_value: None }, CppParam { name: "scheduler", ty: "System::Threading::Tasks::TaskScheduler", modifiers: "", def_value: None }]
- System::Threading::Tasks::TaskFactory::TaskFactory(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler scheduler)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TaskFactory>(cancellationToken, creationOptions, continuationOptions, scheduler))) {}
+ System::Threading::Tasks::TaskFactory System::Threading::Tasks::TaskFactory::New_ctor(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler scheduler)  {
+System::Threading::Tasks::TaskFactory o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskFactory>(cancellationToken, creationOptions, continuationOptions, scheduler))};
+return o;
+}
  void System::Threading::Tasks::TaskFactory::_ctor(System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::TaskContinuationOptions continuationOptions, System::Threading::Tasks::TaskScheduler scheduler)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskFactory>::get(),

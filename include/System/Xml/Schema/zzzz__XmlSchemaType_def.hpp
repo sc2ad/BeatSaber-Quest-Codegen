@@ -2,28 +2,28 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_def.hpp"
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaDerivationMethod;
+class SchemaElementDecl;
 }
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaContentType;
+struct XmlSchemaDerivationMethod;
+}
+namespace System::Xml {
+class XmlQualifiedName;
+}
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
 }
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
 namespace System::Xml::Schema {
-class SchemaElementDecl;
+struct XmlSchemaContentType;
 }
 namespace System::Xml::Schema {
-class XmlSchemaDatatype;
-}
-namespace System::Xml {
-class XmlQualifiedName;
+class XmlSchemaSimpleType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -175,8 +175,7 @@ static System::Xml::Schema::XmlSchemaSimpleType GetBuiltInSimpleType(System::Xml
 /// @brief Method SetContentType addr 0x27359e0 size 0x8 virtual false final false
  void SetContentType(System::Xml::Schema::XmlSchemaContentType value) ;
 
-// Ctor Parameters []
-explicit XmlSchemaType() ;
+static System::Xml::Schema::XmlSchemaType New_ctor() ;
 
 /// @brief Method .ctor addr 0x2734310 size 0x74 virtual false final false
  void _ctor() ;

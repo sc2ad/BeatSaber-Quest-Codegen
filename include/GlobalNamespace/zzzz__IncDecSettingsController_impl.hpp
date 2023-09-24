@@ -207,8 +207,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::IncDecSettingsController::IncDecSettingsController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<IncDecSettingsController>())) {}
+ GlobalNamespace::IncDecSettingsController GlobalNamespace::IncDecSettingsController::New_ctor()  {
+GlobalNamespace::IncDecSettingsController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::IncDecSettingsController>())};
+return o;
+}
  void GlobalNamespace::IncDecSettingsController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IncDecSettingsController>::get(),

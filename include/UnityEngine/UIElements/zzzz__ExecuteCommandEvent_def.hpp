@@ -8,7 +8,7 @@ class ExecuteCommandEvent;
 // Type: UnityEngine.UIElements::ExecuteCommandEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7328), inst: 994 }), TypeDefinitionIndex(TypeDefinitionIndex(7328))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7328)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7328), inst: 994 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7330))
 // CS Name: UnityEngine.UIElements.ExecuteCommandEvent
 class CORDL_TYPE ExecuteCommandEvent : public UnityEngine::UIElements::CommandEventBase_1<UnityEngine::UIElements::ExecuteCommandEvent> {
@@ -47,8 +47,7 @@ constexpr explicit ExecuteCommandEvent(void* ptr) noexcept : UnityEngine::UIElem
 
 // Methods
 
-// Ctor Parameters []
-explicit ExecuteCommandEvent() ;
+static UnityEngine::UIElements::ExecuteCommandEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdab9c size 0x48 virtual false final false
  void _ctor() ;

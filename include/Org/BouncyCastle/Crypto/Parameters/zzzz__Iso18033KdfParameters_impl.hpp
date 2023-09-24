@@ -45,8 +45,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::__s
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::__get_seed() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::Iso18033KdfParameters(::ArrayW<uint8_t> seed)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Iso18033KdfParameters>(seed))) {}
+ Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::New_ctor(::ArrayW<uint8_t> seed)  {
+Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters>(seed))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::_ctor(::ArrayW<uint8_t> seed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters>::get(),

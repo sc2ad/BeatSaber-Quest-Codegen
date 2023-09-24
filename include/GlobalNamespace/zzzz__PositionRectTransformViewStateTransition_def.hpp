@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-namespace Tweening {
-class Vector3Tween;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class Vector3TransitionSO;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace Tweening {
+class Vector3Tween;
 }
 namespace GlobalNamespace {
 class BaseTransitionSO;
@@ -21,7 +21,7 @@ class PositionRectTransformViewStateTransition;
 // Type: ::PositionRectTransformViewStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 896 }), TypeDefinitionIndex(TypeDefinitionIndex(10222)), TypeDefinitionIndex(TypeDefinitionIndex(5544))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10222)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 896 }), TypeDefinitionIndex(TypeDefinitionIndex(5544))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5555))
 // CS Name: PositionRectTransformViewStateTransition
 class CORDL_TYPE PositionRectTransformViewStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::RectTransform> {
@@ -122,8 +122,7 @@ constexpr Tweening::Vector3Tween __get__vectorTween() const;
 /// @brief Method StartTween addr 0x2129d10 size 0x208 virtual false final false
  void StartTween(UnityEngine::Vector3 endPosition) ;
 
-// Ctor Parameters []
-explicit PositionRectTransformViewStateTransition() ;
+static GlobalNamespace::PositionRectTransformViewStateTransition New_ctor() ;
 
 /// @brief Method .ctor addr 0x212a0a8 size 0x48 virtual false final false
  void _ctor() ;

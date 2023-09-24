@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MusicPackPromoBanner_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MusicPackPromoBanner.get_currentPromoBeatmapLevel
 template<>
 
@@ -171,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, musicPackPromoData, probablyOwned);
 }
-// Ctor Parameters []
- GlobalNamespace::MusicPackPromoBanner::MusicPackPromoBanner()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MusicPackPromoBanner>())) {}
+ GlobalNamespace::MusicPackPromoBanner GlobalNamespace::MusicPackPromoBanner::New_ctor()  {
+GlobalNamespace::MusicPackPromoBanner o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MusicPackPromoBanner>())};
+return o;
+}
  void GlobalNamespace::MusicPackPromoBanner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MusicPackPromoBanner>::get(),

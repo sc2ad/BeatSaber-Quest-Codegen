@@ -59,8 +59,7 @@ constexpr System::Type __get__ProducerType_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "producerType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JobProducerTypeAttribute(System::Type producerType) ;
+static Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute New_ctor(System::Type producerType) ;
 
 /// @brief Method .ctor addr 0x2b28040 size 0x28 virtual false final false
  void _ctor(System::Type producerType) ;

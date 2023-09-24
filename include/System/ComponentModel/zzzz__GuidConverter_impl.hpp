@@ -125,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, context, culture, value, destinationType);
 }
-// Ctor Parameters []
- System::ComponentModel::GuidConverter::GuidConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<GuidConverter>())) {}
+ System::ComponentModel::GuidConverter System::ComponentModel::GuidConverter::New_ctor()  {
+System::ComponentModel::GuidConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::GuidConverter>())};
+return o;
+}
  void System::ComponentModel::GuidConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::GuidConverter>::get(),

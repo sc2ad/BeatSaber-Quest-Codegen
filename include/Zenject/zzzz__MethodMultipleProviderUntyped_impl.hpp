@@ -1,14 +1,14 @@
 #pragma once
 #include "Zenject/zzzz__MethodMultipleProviderUntyped_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: Zenject::MethodMultipleProviderUntyped._ctor
 template<>
 
@@ -110,8 +110,10 @@ constexpr void Zenject::MethodMultipleProviderUntyped::__set__method(System::Fun
 constexpr System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>> Zenject::MethodMultipleProviderUntyped::__get__method() const {
 return ::cordl_internals::getInstanceField<System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "method", ty: "System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
- Zenject::MethodMultipleProviderUntyped::MethodMultipleProviderUntyped(System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>> method, Zenject::DiContainer container)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MethodMultipleProviderUntyped>(method, container))) {}
+ Zenject::MethodMultipleProviderUntyped Zenject::MethodMultipleProviderUntyped::New_ctor(System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>> method, Zenject::DiContainer container)  {
+Zenject::MethodMultipleProviderUntyped o{THROW_UNLESS(::il2cpp_utils::New<Zenject::MethodMultipleProviderUntyped>(method, container))};
+return o;
+}
  void Zenject::MethodMultipleProviderUntyped::_ctor(System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>> method, Zenject::DiContainer container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MethodMultipleProviderUntyped>::get(),

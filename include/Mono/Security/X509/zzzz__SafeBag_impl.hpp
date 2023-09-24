@@ -64,8 +64,10 @@ constexpr void Mono::Security::X509::SafeBag::__set__asn1(Mono::Security::ASN1 v
 constexpr Mono::Security::ASN1 Mono::Security::X509::SafeBag::__get__asn1() const {
 return ::cordl_internals::getInstanceField<Mono::Security::ASN1, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bagOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
- Mono::Security::X509::SafeBag::SafeBag(::StringW bagOID, Mono::Security::ASN1 asn1)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SafeBag>(bagOID, asn1))) {}
+ Mono::Security::X509::SafeBag Mono::Security::X509::SafeBag::New_ctor(::StringW bagOID, Mono::Security::ASN1 asn1)  {
+Mono::Security::X509::SafeBag o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::SafeBag>(bagOID, asn1))};
+return o;
+}
  void Mono::Security::X509::SafeBag::_ctor(::StringW bagOID, Mono::Security::ASN1 asn1)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::SafeBag>::get(),

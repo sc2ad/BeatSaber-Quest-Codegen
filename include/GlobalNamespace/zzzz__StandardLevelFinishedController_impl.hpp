@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelFinishedController_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StandardLevelFinishedController.Start
 template<>
 
@@ -143,8 +143,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::StandardLevelFinishedController::StandardLevelFinishedController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StandardLevelFinishedController>())) {}
+ GlobalNamespace::StandardLevelFinishedController GlobalNamespace::StandardLevelFinishedController::New_ctor()  {
+GlobalNamespace::StandardLevelFinishedController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardLevelFinishedController>())};
+return o;
+}
  void GlobalNamespace::StandardLevelFinishedController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardLevelFinishedController>::get(),

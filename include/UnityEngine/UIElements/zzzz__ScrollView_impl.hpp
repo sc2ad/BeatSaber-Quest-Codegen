@@ -3,30 +3,31 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerCaptureEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerCaptureOutEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ScrollView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__WheelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Scroller_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ScrollerVisibility_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__WheelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ScrollViewMode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerCaptureEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Scroller_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerCaptureOutEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFloatAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits.Init
 template<>
 
@@ -136,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits::UnityEngine__UIElements__ScrollView__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__ScrollView__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits>::get(),
@@ -1992,8 +1995,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::VisualElement, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::ScrollView::ScrollView()  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<ScrollView>())) {}
+ UnityEngine::UIElements::ScrollView UnityEngine::UIElements::ScrollView::New_ctor()  {
+UnityEngine::UIElements::ScrollView o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ScrollView>())};
+return o;
+}
  void UnityEngine::UIElements::ScrollView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ScrollView>::get(),
@@ -2003,8 +2008,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "scrollViewMode", ty: "UnityEngine::UIElements::ScrollViewMode", modifiers: "", def_value: None }]
- UnityEngine::UIElements::ScrollView::ScrollView(UnityEngine::UIElements::ScrollViewMode scrollViewMode)  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<ScrollView>(scrollViewMode))) {}
+ UnityEngine::UIElements::ScrollView UnityEngine::UIElements::ScrollView::New_ctor(UnityEngine::UIElements::ScrollViewMode scrollViewMode)  {
+UnityEngine::UIElements::ScrollView o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ScrollView>(scrollViewMode))};
+return o;
+}
  void UnityEngine::UIElements::ScrollView::_ctor(UnityEngine::UIElements::ScrollViewMode scrollViewMode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ScrollView>::get(),
@@ -2292,8 +2299,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlFactory::UnityEngine__UIElements__ScrollView__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::ScrollView,UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__ScrollView__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlFactory>::get(),

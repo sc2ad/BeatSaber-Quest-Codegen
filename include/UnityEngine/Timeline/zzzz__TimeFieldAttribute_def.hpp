@@ -3,6 +3,9 @@
 #include "UnityEngine/zzzz__PropertyAttribute_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::Timeline {
+struct UnityEngine__Timeline__TimeFieldAttribute__UseEditMode;
+}
 // Forward declare root types
 namespace UnityEngine::Timeline {
 struct UnityEngine__Timeline__TimeFieldAttribute__UseEditMode;
@@ -59,6 +62,8 @@ __ApplyEditMode = 1,
 constexpr operator __UnityEngine__Timeline__TimeFieldAttribute__UseEditMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Timeline__TimeFieldAttribute__UseEditMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -140,8 +145,7 @@ constexpr UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseE
 /// @brief Method get_useEditMode addr 0x2ad5de4 size 0x8 virtual false final false
  UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode get_useEditMode() ;
 
-// Ctor Parameters [CppParam { name: "useEditMode", ty: "UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode", modifiers: "", def_value: None }]
-explicit TimeFieldAttribute(UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode useEditMode) ;
+static UnityEngine::Timeline::TimeFieldAttribute New_ctor(UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode useEditMode) ;
 
 /// @brief Method .ctor addr 0x2ad5dec size 0x28 virtual false final false
  void _ctor(UnityEngine::Timeline::UnityEngine__Timeline__TimeFieldAttribute__UseEditMode useEditMode) ;

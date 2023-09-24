@@ -5,22 +5,22 @@
 namespace System::Reflection {
 class ConstructorInfo;
 }
-namespace System {
-template<typename TResult>
-class Func_1;
-}
-namespace System {
-class Type;
+namespace Newtonsoft::Json::Utilities {
+class IWrappedCollection;
 }
 namespace System::Collections {
 class IList;
 }
-namespace Newtonsoft::Json::Utilities {
-class IWrappedCollection;
-}
 namespace Newtonsoft::Json::Serialization {
 template<typename T>
 class ObjectConstructor_1;
+}
+namespace System {
+class Type;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -218,8 +218,7 @@ constexpr bool __get__HasParameterizedCreator_k__BackingField() const;
 /// @brief Method get_HasParameterizedCreatorInternal addr 0x24ffa0c size 0x28 virtual false final false
  bool get_HasParameterizedCreatorInternal() ;
 
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JsonArrayContract(System::Type underlyingType) ;
+static Newtonsoft::Json::Serialization::JsonArrayContract New_ctor(System::Type underlyingType) ;
 
 /// @brief Method .ctor addr 0x24fc590 size 0x898 virtual false final false
  void _ctor(System::Type underlyingType) ;

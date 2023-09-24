@@ -7,35 +7,38 @@
 namespace Org::BouncyCastle::Cms {
 class CmsSignedHelper;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerInfo;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class SignerInformationStore;
 }
-namespace Org::BouncyCastle::Cms {
-class SignerID;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerInfo;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class Time;
 }
 namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Cms {
 class IDigestCalculator;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class DigestInfo;
@@ -43,14 +46,11 @@ class DigestInfo;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
-}
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace Org::BouncyCastle::Cms {
+class SignerID;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -218,14 +218,12 @@ constexpr bool __get_isCounterSignature() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::SignerInfo", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "content", ty: "Org::BouncyCastle::Cms::CmsProcessable", modifiers: "", def_value: None }, CppParam { name: "digestCalculator", ty: "Org::BouncyCastle::Cms::IDigestCalculator", modifiers: "", def_value: None }]
-explicit SignerInformation(Org::BouncyCastle::Asn1::Cms::SignerInfo info, Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Cms::CmsProcessable content, Org::BouncyCastle::Cms::IDigestCalculator digestCalculator) ;
+static Org::BouncyCastle::Cms::SignerInformation New_ctor(Org::BouncyCastle::Asn1::Cms::SignerInfo info, Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Cms::CmsProcessable content, Org::BouncyCastle::Cms::IDigestCalculator digestCalculator) ;
 
 /// @brief Method .ctor addr 0x115adfc size 0x274 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::SignerInfo info, Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Cms::CmsProcessable content, Org::BouncyCastle::Cms::IDigestCalculator digestCalculator) ;
 
-// Ctor Parameters [CppParam { name: "baseInfo", ty: "Org::BouncyCastle::Cms::SignerInformation", modifiers: "", def_value: None }]
-explicit SignerInformation(Org::BouncyCastle::Cms::SignerInformation baseInfo) ;
+static Org::BouncyCastle::Cms::SignerInformation New_ctor(Org::BouncyCastle::Cms::SignerInformation baseInfo) ;
 
 /// @brief Method .ctor addr 0x117de30 size 0x9c virtual false final false
  void _ctor(Org::BouncyCastle::Cms::SignerInformation baseInfo) ;

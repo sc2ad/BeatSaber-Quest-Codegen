@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKey;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPrivateKey;
+}
+namespace System {
+struct DateTime;
+}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPrivateKey;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
@@ -90,20 +90,17 @@ constexpr Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey __get_priv() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit PgpKeyPair(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair keyPair, System::DateTime time) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair keyPair, System::DateTime time) ;
 
 /// @brief Method .ctor addr 0x1021664 size 0x20 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair keyPair, System::DateTime time) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "privKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit PgpKeyPair(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time) ;
 
 /// @brief Method .ctor addr 0x1021684 size 0xd4 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time) ;
 
-// Ctor Parameters [CppParam { name: "pub", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey", modifiers: "", def_value: None }, CppParam { name: "priv", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey", modifiers: "", def_value: None }]
-explicit PgpKeyPair(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pub, Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey priv) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pub, Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey priv) ;
 
 /// @brief Method .ctor addr 0x1021cf4 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pub, Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey priv) ;

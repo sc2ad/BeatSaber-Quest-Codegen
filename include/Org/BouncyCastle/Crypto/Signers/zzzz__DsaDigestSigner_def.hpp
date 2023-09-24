@@ -4,11 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDsa;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaEncoding;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsaExt;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -16,14 +22,8 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaEncoding;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDsaExt;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -106,14 +106,12 @@ constexpr bool __get_forSigning() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dsa", ty: "Org::BouncyCastle::Crypto::IDsa", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit DsaDigestSigner(Org::BouncyCastle::Crypto::IDsa dsa, Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Signers::DsaDigestSigner New_ctor(Org::BouncyCastle::Crypto::IDsa dsa, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xeb8380 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDsa dsa, Org::BouncyCastle::Crypto::IDigest digest) ;
 
-// Ctor Parameters [CppParam { name: "dsa", ty: "Org::BouncyCastle::Crypto::IDsaExt", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "Org::BouncyCastle::Crypto::Signers::IDsaEncoding", modifiers: "", def_value: None }]
-explicit DsaDigestSigner(Org::BouncyCastle::Crypto::IDsaExt dsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding) ;
+static Org::BouncyCastle::Crypto::Signers::DsaDigestSigner New_ctor(Org::BouncyCastle::Crypto::IDsaExt dsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding) ;
 
 /// @brief Method .ctor addr 0xeb8400 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDsaExt dsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding) ;

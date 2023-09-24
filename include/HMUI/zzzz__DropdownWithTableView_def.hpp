@@ -3,13 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 namespace HMUI {
-class TableView;
-}
-namespace HMUI {
 class ModalView;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -17,6 +11,12 @@ class Action_2;
 }
 namespace HMUI {
 class HMUI__TableView__IDataSource;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace HMUI {
+class TableView;
 }
 // Forward declare root types
 namespace HMUI {
@@ -161,8 +161,7 @@ constexpr int32_t __get__selectedIndex_k__BackingField() const;
 /// @brief Method HandleModalViewBlockerClicked addr 0x1fbdab0 size 0x8 virtual false final false
  void HandleModalViewBlockerClicked() ;
 
-// Ctor Parameters []
-explicit DropdownWithTableView() ;
+static HMUI::DropdownWithTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbdab8 size 0x10 virtual false final false
  void _ctor() ;

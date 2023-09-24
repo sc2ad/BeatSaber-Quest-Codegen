@@ -7,21 +7,24 @@
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-class AnimationCurve;
+namespace GlobalNamespace {
+class GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -121,8 +124,7 @@ constexpr float_t __get__elapsedTime_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__TweenPosition___AnimateToNewPosCoroutine_d__11 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f7c7e4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -249,8 +251,7 @@ constexpr UnityEngine::Vector3 __get__targetPos() const;
 /// @brief Method AnimateToNewPosCoroutine addr 0x1f7c77c size 0x68 virtual false final false
  System::Collections::IEnumerator AnimateToNewPosCoroutine(UnityEngine::Vector3 pos) ;
 
-// Ctor Parameters []
-explicit TweenPosition() ;
+static GlobalNamespace::TweenPosition New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7c80c size 0x3c virtual false final false
  void _ctor() ;

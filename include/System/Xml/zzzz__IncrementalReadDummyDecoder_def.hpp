@@ -60,8 +60,7 @@ constexpr explicit IncrementalReadDummyDecoder(void* ptr) noexcept : System::Xml
 /// @brief Method Decode addr 0x26c1160 size 0x8 virtual true final false
  int32_t Decode(::ArrayW<char16_t> chars, int32_t startPos, int32_t len) ;
 
-// Ctor Parameters []
-explicit IncrementalReadDummyDecoder() ;
+static System::Xml::IncrementalReadDummyDecoder New_ctor() ;
 
 /// @brief Method .ctor addr 0x26c1168 size 0x8 virtual false final false
  void _ctor() ;

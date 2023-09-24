@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_def.hpp"
 namespace Zenject {
-template<typename TValue>
-class IDespawnableMemoryPool_1;
-}
-namespace Zenject {
 class IMemoryPool;
-}
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace Zenject {
+template<typename TValue>
+class IDespawnableMemoryPool_1;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Action_3;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TValue>
@@ -35,7 +35,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11030)), TypeDefinitionIndex(TypeDefinitionIndex(11027)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11027), inst: 173 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11027), inst: 173 }), TypeDefinitionIndex(TypeDefinitionIndex(11027)), TypeDefinitionIndex(TypeDefinitionIndex(11030))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11030), inst: 5155 })
 // CS Name: Zenject.StaticMemoryPool`3
 class CORDL_TYPE StaticMemoryPool_3<TParam1,TParam2,TValue> : public Zenject::StaticMemoryPoolBase_1<TValue> {
@@ -97,8 +97,7 @@ constexpr System::Action_3<TParam1,TParam2,TValue> __get__onSpawnMethod() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onSpawnMethod", ty: "System::Action_3<TParam1,TParam2,TValue>", modifiers: "", def_value: None }, CppParam { name: "onDespawnedMethod", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }]
-explicit StaticMemoryPool_3(System::Action_3<TParam1,TParam2,TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod) ;
+static Zenject::StaticMemoryPool_3<TParam1,TParam2,TValue> New_ctor(System::Action_3<TParam1,TParam2,TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Action_3<TParam1,TParam2,TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod) ;

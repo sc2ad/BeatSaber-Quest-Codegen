@@ -8,6 +8,9 @@
 namespace UnityEngine {
 class Camera;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__ScreenshotRecorder__RecordingType;
+}
 namespace UnityEngine {
 class RenderTexture;
 }
@@ -74,6 +77,8 @@ __ScreenshotOnPause = 5,
 constexpr operator __GlobalNamespace__ScreenshotRecorder__RecordingType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ScreenshotRecorder__RecordingType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -293,8 +298,7 @@ constexpr UnityEngine::RenderTexture __get__cameraRenderTexture() const;
 /// @brief Method ConvertRenderTexture addr 0x1f7a98c size 0x11c virtual false final false
  UnityEngine::Texture2D ConvertRenderTexture(UnityEngine::RenderTexture renderTexture) ;
 
-// Ctor Parameters []
-explicit ScreenshotRecorder() ;
+static GlobalNamespace::ScreenshotRecorder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7abe8 size 0x80 virtual false final false
  void _ctor() ;

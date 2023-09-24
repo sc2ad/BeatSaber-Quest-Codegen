@@ -136,14 +136,12 @@ constexpr int32_t __get_xOff() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MD4Digest() ;
+static Org::BouncyCastle::Crypto::Digests::MD4Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0x119ca6c size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::MD4Digest", modifiers: "", def_value: None }]
-explicit MD4Digest(Org::BouncyCastle::Crypto::Digests::MD4Digest t) ;
+static Org::BouncyCastle::Crypto::Digests::MD4Digest New_ctor(Org::BouncyCastle::Crypto::Digests::MD4Digest t) ;
 
 /// @brief Method .ctor addr 0x119cad8 size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::MD4Digest t) ;

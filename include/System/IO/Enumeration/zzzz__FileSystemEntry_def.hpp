@@ -3,25 +3,28 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace System::IO {
-struct FileStatus;
-}
 namespace GlobalNamespace {
 struct GlobalNamespace__Interop__Sys__DirectoryEntry;
+}
+namespace System::IO {
+struct FileAttributes;
+}
+namespace System {
+template<typename T>
+struct Span_1;
+}
+namespace System::IO::Enumeration {
+struct System__IO__Enumeration__FileSystemEntry____fileNameBuffer_e__FixedBuffer;
+}
+namespace System::IO {
+struct FileStatus;
 }
 namespace System::IO {
 class FileSystemInfo;
 }
 namespace System {
 template<typename T>
-struct Span_1;
-}
-namespace System {
-template<typename T>
 struct ReadOnlySpan_1;
-}
-namespace System::IO {
-struct FileAttributes;
 }
 // Forward declare root types
 namespace System::IO::Enumeration {

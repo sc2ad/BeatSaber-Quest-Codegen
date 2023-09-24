@@ -3,10 +3,10 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -82,20 +82,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Object __get_qualifier() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "commitmentTypeIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit CommitmentTypeQualifier(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier) ;
+static Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier) ;
 
 /// @brief Method .ctor addr 0xe018c0 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier) ;
 
-// Ctor Parameters [CppParam { name: "commitmentTypeIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "qualifier", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit CommitmentTypeQualifier(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier, Org::BouncyCastle::Asn1::Asn1Encodable qualifier) ;
+static Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier, Org::BouncyCastle::Asn1::Asn1Encodable qualifier) ;
 
 /// @brief Method .ctor addr 0xe018c8 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeIdentifier, Org::BouncyCastle::Asn1::Asn1Encodable qualifier) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CommitmentTypeQualifier(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0195c size 0x24c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

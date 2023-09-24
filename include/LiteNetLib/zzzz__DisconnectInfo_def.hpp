@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace LiteNetLib {
-class NetPacketReader;
+namespace System::Net::Sockets {
+struct SocketError;
 }
 namespace LiteNetLib {
 struct DisconnectReason;
 }
-namespace System::Net::Sockets {
-struct SocketError;
+namespace LiteNetLib {
+class NetPacketReader;
 }
 // Forward declare root types
 namespace LiteNetLib {

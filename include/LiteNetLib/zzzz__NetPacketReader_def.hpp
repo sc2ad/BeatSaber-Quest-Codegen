@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 namespace LiteNetLib {
-class NetPacket;
+class NetManager;
 }
 namespace LiteNetLib {
-class NetManager;
+class NetPacket;
 }
 namespace LiteNetLib {
 class NetEvent;
@@ -77,8 +77,7 @@ constexpr LiteNetLib::NetEvent __get__evt() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "manager", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }, CppParam { name: "evt", ty: "LiteNetLib::NetEvent", modifiers: "", def_value: None }]
-explicit NetPacketReader(LiteNetLib::NetManager manager, LiteNetLib::NetEvent evt) ;
+static LiteNetLib::NetPacketReader New_ctor(LiteNetLib::NetManager manager, LiteNetLib::NetEvent evt) ;
 
 /// @brief Method .ctor addr 0x2088bc4 size 0x2c virtual false final false
  void _ctor(LiteNetLib::NetManager manager, LiteNetLib::NetEvent evt) ;

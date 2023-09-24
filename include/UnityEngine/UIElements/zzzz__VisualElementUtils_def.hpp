@@ -3,15 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
 namespace System {
 class Type;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

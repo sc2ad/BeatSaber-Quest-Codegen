@@ -1,16 +1,17 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FlickeringNeonSign_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "GlobalNamespace/zzzz__FlickeringNeonSign_def.hpp"
+#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16._ctor
 template<>
 
@@ -143,8 +144,10 @@ constexpr void GlobalNamespace::GlobalNamespace__FlickeringNeonSign___Flickering
 constexpr GlobalNamespace::FlickeringNeonSign GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::FlickeringNeonSign, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16 GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FlickeringNeonSign___FlickeringCoroutine_d__16>::get(),
@@ -424,8 +427,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, on);
 }
-// Ctor Parameters []
- GlobalNamespace::FlickeringNeonSign::FlickeringNeonSign()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FlickeringNeonSign>())) {}
+ GlobalNamespace::FlickeringNeonSign GlobalNamespace::FlickeringNeonSign::New_ctor()  {
+GlobalNamespace::FlickeringNeonSign o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FlickeringNeonSign>())};
+return o;
+}
  void GlobalNamespace::FlickeringNeonSign::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FlickeringNeonSign>::get(),

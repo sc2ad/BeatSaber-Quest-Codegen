@@ -3,20 +3,20 @@
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 class Attribute;
+}
+namespace System {
+class Type;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::ComponentModel {
 class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -73,8 +73,7 @@ constexpr explicit CollectionConverter(void* ptr) noexcept : System::ComponentMo
 /// @brief Method GetPropertiesSupported addr 0x2787370 size 0x8 virtual true final false
  bool GetPropertiesSupported(System::ComponentModel::ITypeDescriptorContext context) ;
 
-// Ctor Parameters []
-explicit CollectionConverter() ;
+static System::ComponentModel::CollectionConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2787378 size 0x8 virtual false final false
  void _ctor() ;

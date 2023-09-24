@@ -2,17 +2,18 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelGameplayManager_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelStartController_def.hpp"
-#include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__PauseController_def.hpp"
+#include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "GlobalNamespace/zzzz__PauseController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelStartController_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelGameplayManager_def.hpp"
+#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__InitData._ctor
 template<>
 
@@ -36,8 +37,10 @@ constexpr void GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__I
 constexpr bool GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__InitData::__get_failOn0Energy() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "failOn0Energy", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__InitData::GlobalNamespace__StandardLevelGameplayManager__InitData(bool failOn0Energy)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__StandardLevelGameplayManager__InitData>(failOn0Energy))) {}
+ GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__InitData GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__InitData::New_ctor(bool failOn0Energy)  {
+GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__InitData>(failOn0Energy))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__InitData::_ctor(bool failOn0Energy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__InitData>::get(),
@@ -193,8 +196,10 @@ constexpr void GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager___
 constexpr GlobalNamespace::StandardLevelGameplayManager GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager___Start_d__22::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::StandardLevelGameplayManager, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager___Start_d__22::GlobalNamespace__StandardLevelGameplayManager___Start_d__22(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__StandardLevelGameplayManager___Start_d__22>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager___Start_d__22 GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager___Start_d__22::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager___Start_d__22 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager___Start_d__22>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager___Start_d__22::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager___Start_d__22>::get(),
@@ -782,8 +787,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::StandardLevelGameplayManager::StandardLevelGameplayManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StandardLevelGameplayManager>())) {}
+ GlobalNamespace::StandardLevelGameplayManager GlobalNamespace::StandardLevelGameplayManager::New_ctor()  {
+GlobalNamespace::StandardLevelGameplayManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardLevelGameplayManager>())};
+return o;
+}
  void GlobalNamespace::StandardLevelGameplayManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardLevelGameplayManager>::get(),

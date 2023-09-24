@@ -94,8 +94,7 @@ constexpr bool __get__firstUpdate() const;
 /// @brief Method AddVelocity addr 0x2240790 size 0x60 virtual true final false
  void AddVelocity(UnityEngine::Vector3 force) ;
 
-// Ctor Parameters []
-explicit NoteDebrisRigidbodyPhysics() ;
+static GlobalNamespace::NoteDebrisRigidbodyPhysics New_ctor() ;
 
 /// @brief Method .ctor addr 0x22407f0 size 0x8 virtual false final false
  void _ctor() ;

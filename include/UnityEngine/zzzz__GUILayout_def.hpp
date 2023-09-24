@@ -8,10 +8,10 @@ namespace UnityEngine {
 class GUILayoutOption;
 }
 namespace UnityEngine {
-class GUIStyle;
+class GUIContent;
 }
 namespace UnityEngine {
-class GUIContent;
+class GUIStyle;
 }
 // Forward declare root types
 namespace UnityEngine {

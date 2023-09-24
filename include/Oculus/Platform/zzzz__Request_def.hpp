@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Oculus::Platform {
-class Message;
+class Oculus__Platform__Message__Callback;
 }
 namespace Oculus::Platform {
-class Oculus__Platform__Message__Callback;
+class Message;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -74,8 +74,7 @@ constexpr uint64_t __get__RequestID_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "requestID", ty: "uint64_t", modifiers: "", def_value: None }]
-explicit Request(uint64_t requestID) ;
+static Oculus::Platform::Request New_ctor(uint64_t requestID) ;
 
 /// @brief Method .ctor addr 0x2593dc0 size 0x28 virtual false final false
  void _ctor(uint64_t requestID) ;

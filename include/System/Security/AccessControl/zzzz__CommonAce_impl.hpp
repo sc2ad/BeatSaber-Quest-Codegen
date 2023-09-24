@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__QualifiedAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAce_def.hpp"
-#include "System/Security/AccessControl/zzzz__AceQualifier_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
-#include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
+#include "System/Security/AccessControl/zzzz__AceQualifier_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceType_def.hpp"
+#include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::CommonAce._ctor
 template<>
 
@@ -90,8 +90,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }, CppParam { name: "qualifier", ty: "System::Security::AccessControl::AceQualifier", modifiers: "", def_value: None }, CppParam { name: "accessMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sid", ty: "System::Security::Principal::SecurityIdentifier", modifiers: "", def_value: None }, CppParam { name: "isCallback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "opaque", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::AccessControl::CommonAce::CommonAce(System::Security::AccessControl::AceFlags flags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, bool isCallback, ::ArrayW<uint8_t> opaque)  : System::Security::AccessControl::QualifiedAce(THROW_UNLESS(::il2cpp_utils::New<CommonAce>(flags, qualifier, accessMask, sid, isCallback, opaque))) {}
+ System::Security::AccessControl::CommonAce System::Security::AccessControl::CommonAce::New_ctor(System::Security::AccessControl::AceFlags flags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, bool isCallback, ::ArrayW<uint8_t> opaque)  {
+System::Security::AccessControl::CommonAce o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::CommonAce>(flags, qualifier, accessMask, sid, isCallback, opaque))};
+return o;
+}
  void System::Security::AccessControl::CommonAce::_ctor(System::Security::AccessControl::AceFlags flags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, bool isCallback, ::ArrayW<uint8_t> opaque)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::CommonAce>::get(),
@@ -101,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, flags, qualifier, accessMask, sid, isCallback, opaque);
 }
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::CommonAce::CommonAce(::ArrayW<uint8_t> binaryForm, int32_t offset)  : System::Security::AccessControl::QualifiedAce(THROW_UNLESS(::il2cpp_utils::New<CommonAce>(binaryForm, offset))) {}
+ System::Security::AccessControl::CommonAce System::Security::AccessControl::CommonAce::New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
+System::Security::AccessControl::CommonAce o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::CommonAce>(binaryForm, offset))};
+return o;
+}
  void System::Security::AccessControl::CommonAce::_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::CommonAce>::get(),

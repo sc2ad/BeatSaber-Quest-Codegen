@@ -7,22 +7,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace UnityEngine::UIElements {
-class IGenericMenu;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace UnityEngine::UIElements {
-class TextElement;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
 template<typename TResult>
@@ -32,22 +22,44 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__DropdownField__PopupTextElement;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__DropdownField____c__DisplayClass38_0;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::UIElements {
+class TextElement;
+}
+namespace UnityEngine::UIElements {
+class IGenericMenu;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__DropdownField__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__DropdownField__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__VisualElement__MeasureMode;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class UxmlIntAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -125,8 +137,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Choice
 /// @brief Method Init addr 0x2cb1e5c size 0x17c virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__DropdownField__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb1fd8 size 0xec virtual false final false
  void _ctor() ;
@@ -301,14 +312,12 @@ static ::StringW __get_inputUssClassNamePopupField() ;
 /// @brief Method set_index addr 0x2cb0cd0 size 0x9c virtual false final false
  void set_index(int32_t value) ;
 
-// Ctor Parameters []
-explicit DropdownField() ;
+static UnityEngine::UIElements::DropdownField New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb0d6c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DropdownField(::StringW label) ;
+static UnityEngine::UIElements::DropdownField New_ctor(::StringW label) ;
 
 /// @brief Method .ctor addr 0x2cb0d74 size 0x2b8 virtual false final false
  void _ctor(::StringW label) ;
@@ -347,7 +356,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7149)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7152)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5086 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7152)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5086 }), TypeDefinitionIndex(TypeDefinitionIndex(7149))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7148))
 // CS Name: UnityEngine.UIElements.DropdownField::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__DropdownField__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::DropdownField,UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlTraits> {
@@ -386,8 +395,7 @@ constexpr explicit UnityEngine__UIElements__DropdownField__UxmlFactory(void* ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__DropdownField__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb1e14 size 0x48 virtual false final false
  void _ctor() ;
@@ -441,8 +449,7 @@ constexpr explicit UnityEngine__UIElements__DropdownField__PopupTextElement(void
 /// @brief Method DoMeasure addr 0x2cb20c4 size 0xa4 virtual true final false
  UnityEngine::Vector2 DoMeasure(float_t desiredWidth, UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__MeasureMode widthMode, float_t desiredHeight, UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__MeasureMode heightMode) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__DropdownField__PopupTextElement() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__DropdownField__PopupTextElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb102c size 0x58 virtual false final false
  void _ctor() ;
@@ -508,8 +515,7 @@ constexpr UnityEngine::UIElements::DropdownField __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__DropdownField____c__DisplayClass38_0() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__DropdownField____c__DisplayClass38_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb138c size 0x8 virtual false final false
  void _ctor() ;

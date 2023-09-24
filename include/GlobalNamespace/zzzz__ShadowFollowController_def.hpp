@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine {
-class SpriteRenderer;
+class Transform;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class Transform;
+class SpriteRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +101,7 @@ constexpr UnityEngine::Vector2 __get__shadowAlphaRange() const;
 /// @brief Method Update addr 0x20c584c size 0xe0 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit ShadowFollowController() ;
+static GlobalNamespace::ShadowFollowController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c592c size 0x8 virtual false final false
  void _ctor() ;

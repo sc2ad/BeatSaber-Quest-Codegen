@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierInfoListItem_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierInfoListItemsList_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0._ctor
 template<>
 
@@ -48,8 +49,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__Di
 constexpr System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO> GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0::__get_modifierParams() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0>())) {}
+ GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0 GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ModifiersSelectionView____c__DisplayClass3_0>::get(),
@@ -129,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, gameplayModifiers);
 }
-// Ctor Parameters []
- GlobalNamespace::ModifiersSelectionView::ModifiersSelectionView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ModifiersSelectionView>())) {}
+ GlobalNamespace::ModifiersSelectionView GlobalNamespace::ModifiersSelectionView::New_ctor()  {
+GlobalNamespace::ModifiersSelectionView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ModifiersSelectionView>())};
+return o;
+}
  void GlobalNamespace::ModifiersSelectionView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ModifiersSelectionView>::get(),

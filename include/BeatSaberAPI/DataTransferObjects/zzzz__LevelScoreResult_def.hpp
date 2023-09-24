@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace BeatSaberAPI::DataTransferObjects {
+struct BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
+}
 // Forward declare root types
 namespace BeatSaberAPI::DataTransferObjects {
 struct BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
@@ -78,6 +81,8 @@ __SmallCubes = 262144u,
 constexpr operator __BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers_Unwrapped () const noexcept {
 return std::bit_cast<__BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
 
 
 // Fields
@@ -262,8 +267,7 @@ constexpr ::StringW __get_extraDataBase64() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LevelScoreResult() ;
+static BeatSaberAPI::DataTransferObjects::LevelScoreResult New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d7354 size 0x8 virtual false final false
  void _ctor() ;

@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method, vector, control);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::AndroidCompensateDirectionProcessor()  : UnityEngine::InputSystem::Processors::CompensateDirectionProcessor(THROW_UNLESS(::il2cpp_utils::New<AndroidCompensateDirectionProcessor>())) {}
+ UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::New_ctor()  {
+UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor>::get(),

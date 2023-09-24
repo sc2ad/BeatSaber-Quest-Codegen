@@ -3,7 +3,7 @@
 #include "Newtonsoft/Json/zzzz__JsonException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
@@ -12,7 +12,7 @@ namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -80,32 +80,27 @@ constexpr ::StringW __get__Path_k__BackingField() const;
 /// @brief Method set_Path addr 0x24d3174 size 0x8 virtual false final false
  void set_Path(::StringW value) ;
 
-// Ctor Parameters []
-explicit JsonWriterException() ;
+static Newtonsoft::Json::JsonWriterException New_ctor() ;
 
 /// @brief Method .ctor addr 0x24d317c size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JsonWriterException(::StringW message) ;
+static Newtonsoft::Json::JsonWriterException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x24d3180 size 0x4 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit JsonWriterException(::StringW message, System::Exception innerException) ;
+static Newtonsoft::Json::JsonWriterException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x24d3184 size 0x4 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit JsonWriterException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static Newtonsoft::Json::JsonWriterException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24d3188 size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JsonWriterException(::StringW message, System::Exception innerException, ::StringW path) ;
+static Newtonsoft::Json::JsonWriterException New_ctor(::StringW message, System::Exception innerException, ::StringW path) ;
 
 /// @brief Method .ctor addr 0x24d318c size 0x24 virtual false final false
  void _ctor(::StringW message, System::Exception innerException, ::StringW path) ;

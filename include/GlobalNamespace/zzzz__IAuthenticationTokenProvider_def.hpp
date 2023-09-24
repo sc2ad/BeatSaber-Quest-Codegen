@@ -2,10 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
+class XPlatformAccessTokenData;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
 struct PlatformEnvironment;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct GlobalNamespace__AuthenticationToken__Platform;
 }
 namespace GlobalNamespace {
 struct AuthenticationToken;
@@ -13,12 +19,6 @@ struct AuthenticationToken;
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__AuthenticationToken__Platform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

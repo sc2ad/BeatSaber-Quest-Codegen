@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-struct OVRTextureData;
-}
 namespace UnityEngine {
 class Shader;
+}
+namespace GlobalNamespace {
+struct OVRTextureData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

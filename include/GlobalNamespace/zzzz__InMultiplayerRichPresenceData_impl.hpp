@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__InMultiplayerRichPresenceData_def.hpp"
-#include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerRichPresenceData_def.hpp"
+#include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::InMultiplayerRichPresenceData.get_apiName
 template<>
 
@@ -343,8 +343,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSecret", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "canInvite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "atMaxPartySize", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::InMultiplayerRichPresenceData::InMultiplayerRichPresenceData(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InMultiplayerRichPresenceData>(multiplayerSecret, canInvite, atMaxPartySize))) {}
+ GlobalNamespace::InMultiplayerRichPresenceData GlobalNamespace::InMultiplayerRichPresenceData::New_ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize)  {
+GlobalNamespace::InMultiplayerRichPresenceData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::InMultiplayerRichPresenceData>(multiplayerSecret, canInvite, atMaxPartySize))};
+return o;
+}
  void GlobalNamespace::InMultiplayerRichPresenceData::_ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::InMultiplayerRichPresenceData>::get(),

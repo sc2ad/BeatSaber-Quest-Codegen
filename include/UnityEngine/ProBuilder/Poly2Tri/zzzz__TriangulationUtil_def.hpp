@@ -72,8 +72,7 @@ static bool InScanArea(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint pa,
 /// @brief Method Orient2d addr 0x299e748 size 0xe8 virtual false final false
 static UnityEngine::ProBuilder::Poly2Tri::Orientation Orient2d(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint pa, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint pb, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint pc) ;
 
-// Ctor Parameters []
-explicit TriangulationUtil() ;
+static UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a1f40 size 0x8 virtual false final false
  void _ctor() ;

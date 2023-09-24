@@ -5,8 +5,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Resources {
+class IResourceReader;
+}
+namespace System::Resources {
+class System__Resources__ResourceReader__ResourceEnumerator;
+}
 namespace System::IO {
-class UnmanagedMemoryStream;
+class BinaryReader;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Resources {
+struct ResourceTypeCode;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryFormatter;
@@ -14,36 +36,17 @@ class BinaryFormatter;
 namespace System::IO {
 class Stream;
 }
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::IO {
-class BinaryReader;
-}
 namespace System::Resources {
 struct ResourceLocator;
-}
-namespace System::Resources {
-struct ResourceTypeCode;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Resources {
-class IResourceReader;
-}
-namespace System {
-class RuntimeType;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace System::IO {
+class UnmanagedMemoryStream;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -143,8 +146,7 @@ constexpr int32_t __get__dataPosition() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reader", ty: "System::Resources::ResourceReader", modifiers: "", def_value: None }]
-explicit System__Resources__ResourceReader__ResourceEnumerator(System::Resources::ResourceReader reader) ;
+static System::Resources::System__Resources__ResourceReader__ResourceEnumerator New_ctor(System::Resources::ResourceReader reader) ;
 
 /// @brief Method .ctor addr 0x2374960 size 0x34 virtual false final false
  void _ctor(System::Resources::ResourceReader reader) ;
@@ -314,8 +316,7 @@ constexpr int32_t __get__version() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "resCache", ty: "System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator>", modifiers: "", def_value: None }]
-explicit ResourceReader(System::IO::Stream stream, System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> resCache) ;
+static System::Resources::ResourceReader New_ctor(System::IO::Stream stream, System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> resCache) ;
 
 /// @brief Method .ctor addr 0x2374350 size 0xec virtual false final false
  void _ctor(System::IO::Stream stream, System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> resCache) ;

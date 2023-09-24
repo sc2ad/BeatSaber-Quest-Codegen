@@ -7,21 +7,21 @@ namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IDisposable;
 }
 namespace GlobalNamespace {
 class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace System {
-class IDisposable;
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -134,8 +134,7 @@ constexpr System::Action_1<float_t> __get_setSongStartSyncTimeEvent() const;
 /// @brief Method remove_setSongStartSyncTimeEvent addr 0xdca1ec size 0xb0 virtual false final false
  void remove_setSongStartSyncTimeEvent(System::Action_1<float_t> value) ;
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "playersAtGameStartModel", ty: "GlobalNamespace::PlayersSpecificSettingsAtGameStartModel", modifiers: "", def_value: None }]
-explicit SongStartHandler(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel) ;
+static GlobalNamespace::SongStartHandler New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel) ;
 
 /// @brief Method .ctor addr 0xdca29c size 0xa4 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel) ;

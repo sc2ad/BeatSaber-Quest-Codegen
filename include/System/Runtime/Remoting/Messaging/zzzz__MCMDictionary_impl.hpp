@@ -25,8 +25,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
  ::ArrayW<::StringW> System::Runtime::Remoting::Messaging::MCMDictionary::__get_InternalKeys()  {
 return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "InternalKeys", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::MCMDictionary>::get>();
 }
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::MCMDictionary::MCMDictionary(System::Runtime::Remoting::Messaging::IMethodMessage message)  : System::Runtime::Remoting::Messaging::MessageDictionary(THROW_UNLESS(::il2cpp_utils::New<MCMDictionary>(message))) {}
+ System::Runtime::Remoting::Messaging::MCMDictionary System::Runtime::Remoting::Messaging::MCMDictionary::New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage message)  {
+System::Runtime::Remoting::Messaging::MCMDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::MCMDictionary>(message))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::MCMDictionary::_ctor(System::Runtime::Remoting::Messaging::IMethodMessage message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::MCMDictionary>::get(),

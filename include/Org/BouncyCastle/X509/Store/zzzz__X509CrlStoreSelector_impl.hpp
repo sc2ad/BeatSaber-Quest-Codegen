@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CrlStoreSelector_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::Store::X509CrlStoreSelector._ctor
 template<>
 
@@ -523,8 +523,10 @@ constexpr void Org::BouncyCastle::X509::Store::X509CrlStoreSelector::__set_maxBa
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::X509::Store::X509CrlStoreSelector::__get_maxBaseCrlNumber() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::X509::Store::X509CrlStoreSelector::X509CrlStoreSelector()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CrlStoreSelector>())) {}
+ Org::BouncyCastle::X509::Store::X509CrlStoreSelector Org::BouncyCastle::X509::Store::X509CrlStoreSelector::New_ctor()  {
+Org::BouncyCastle::X509::Store::X509CrlStoreSelector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Store::X509CrlStoreSelector>())};
+return o;
+}
  void Org::BouncyCastle::X509::Store::X509CrlStoreSelector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Store::X509CrlStoreSelector>::get(),
@@ -534,8 +536,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "Org::BouncyCastle::X509::Store::X509CrlStoreSelector", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::Store::X509CrlStoreSelector::X509CrlStoreSelector(Org::BouncyCastle::X509::Store::X509CrlStoreSelector o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CrlStoreSelector>(o))) {}
+ Org::BouncyCastle::X509::Store::X509CrlStoreSelector Org::BouncyCastle::X509::Store::X509CrlStoreSelector::New_ctor(Org::BouncyCastle::X509::Store::X509CrlStoreSelector o)  {
+Org::BouncyCastle::X509::Store::X509CrlStoreSelector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Store::X509CrlStoreSelector>(o))};
+return o;
+}
  void Org::BouncyCastle::X509::Store::X509CrlStoreSelector::_ctor(Org::BouncyCastle::X509::Store::X509CrlStoreSelector o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Store::X509CrlStoreSelector>::get(),

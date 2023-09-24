@@ -1,10 +1,10 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKMapping_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMappingSpine_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::IKMappingSpine.IsValid
 template<>
@@ -320,8 +320,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, solver, message);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKMappingSpine::IKMappingSpine()  : RootMotion::FinalIK::IKMapping(THROW_UNLESS(::il2cpp_utils::New<IKMappingSpine>())) {}
+ RootMotion::FinalIK::IKMappingSpine RootMotion::FinalIK::IKMappingSpine::New_ctor()  {
+RootMotion::FinalIK::IKMappingSpine o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKMappingSpine>())};
+return o;
+}
  void RootMotion::FinalIK::IKMappingSpine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKMappingSpine>::get(),
@@ -331,8 +333,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "spineBones", ty: "::ArrayW<UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "leftUpperArmBone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "rightUpperArmBone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "leftThighBone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "rightThighBone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::IKMappingSpine::IKMappingSpine(::ArrayW<UnityEngine::Transform> spineBones, UnityEngine::Transform leftUpperArmBone, UnityEngine::Transform rightUpperArmBone, UnityEngine::Transform leftThighBone, UnityEngine::Transform rightThighBone)  : RootMotion::FinalIK::IKMapping(THROW_UNLESS(::il2cpp_utils::New<IKMappingSpine>(spineBones, leftUpperArmBone, rightUpperArmBone, leftThighBone, rightThighBone))) {}
+ RootMotion::FinalIK::IKMappingSpine RootMotion::FinalIK::IKMappingSpine::New_ctor(::ArrayW<UnityEngine::Transform> spineBones, UnityEngine::Transform leftUpperArmBone, UnityEngine::Transform rightUpperArmBone, UnityEngine::Transform leftThighBone, UnityEngine::Transform rightThighBone)  {
+RootMotion::FinalIK::IKMappingSpine o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKMappingSpine>(spineBones, leftUpperArmBone, rightUpperArmBone, leftThighBone, rightThighBone))};
+return o;
+}
  void RootMotion::FinalIK::IKMappingSpine::_ctor(::ArrayW<UnityEngine::Transform> spineBones, UnityEngine::Transform leftUpperArmBone, UnityEngine::Transform rightUpperArmBone, UnityEngine::Transform leftThighBone, UnityEngine::Transform rightThighBone)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKMappingSpine>::get(),

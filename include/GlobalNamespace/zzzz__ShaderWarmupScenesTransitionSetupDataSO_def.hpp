@@ -53,8 +53,7 @@ constexpr explicit ShaderWarmupScenesTransitionSetupDataSO(void* ptr) noexcept :
 /// @brief Method Init addr 0x21d3acc size 0x8 virtual false final false
  void Init(GlobalNamespace::ShaderWarmupSceneSetupData shaderWarmupSceneSetupData) ;
 
-// Ctor Parameters []
-explicit ShaderWarmupScenesTransitionSetupDataSO() ;
+static GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3ad4 size 0x8 virtual false final false
  void _ctor() ;

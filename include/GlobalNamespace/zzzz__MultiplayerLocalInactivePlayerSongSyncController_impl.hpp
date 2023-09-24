@@ -2,13 +2,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "UnityEngine/zzzz__WaitUntil_def.hpp"
-#include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
-#include "GlobalNamespace/zzzz__CrossFadeAudioSource_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "UnityEngine/zzzz__WaitUntil_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__CrossFadeAudioSource_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData._ctor
 template<>
 
@@ -50,8 +51,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerS
 constexpr float_t GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData::__get_timeScale() const {
 return ::cordl_internals::getInstanceField<float_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeScale", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData>(audioClip, startSongTime, songTimeOffset, timeScale))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData::New_ctor(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale)  {
+GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData>(audioClip, startSongTime, songTimeOffset, timeScale))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData::_ctor(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData>::get(),
@@ -490,8 +493,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::MultiplayerLocalInactivePlayerSongSyncController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalInactivePlayerSongSyncController>())) {}
+ GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::New_ctor()  {
+GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController>::get(),

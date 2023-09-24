@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1::Cms {
-class TimeStampAndCrl;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class TimeStampAndCrl;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -70,20 +70,17 @@ constexpr ::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> __get_timeStam
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "timeStampAndCrls", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl>", modifiers: "", def_value: None }]
-explicit TimeStampTokenEvidence(::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> timeStampAndCrls) ;
+static Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> timeStampAndCrls) ;
 
 /// @brief Method .ctor addr 0xdf4e88 size 0x28 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl> timeStampAndCrls) ;
 
-// Ctor Parameters [CppParam { name: "timeStampAndCrl", ty: "Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl", modifiers: "", def_value: None }]
-explicit TimeStampTokenEvidence(Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl timeStampAndCrl) ;
+static Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence New_ctor(Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl timeStampAndCrl) ;
 
 /// @brief Method .ctor addr 0xdf4eb0 size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl timeStampAndCrl) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit TimeStampTokenEvidence(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf4f58 size 0x38c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

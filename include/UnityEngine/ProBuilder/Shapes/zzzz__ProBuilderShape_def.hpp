@@ -5,20 +5,20 @@
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
+namespace UnityEngine::ProBuilder {
+struct PivotLocation;
+}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Bounds;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine::ProBuilder {
-struct PivotLocation;
-}
 namespace UnityEngine {
-struct Bounds;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -221,8 +221,7 @@ constexpr UnityEngine::Bounds __get_m_ShapeBox() const;
 /// @brief Method RebuildPivot addr 0x29f7c34 size 0x240 virtual false final false
  void RebuildPivot(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit ProBuilderShape() ;
+static UnityEngine::ProBuilder::Shapes::ProBuilderShape New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f8198 size 0xe0 virtual false final false
  void _ctor() ;

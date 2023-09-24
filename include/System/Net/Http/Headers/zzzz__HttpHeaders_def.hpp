@@ -4,38 +4,29 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace System::Net::Http::Headers {
 struct HttpHeaderKind;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__HttpHeaders__HeaderBucket;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
 namespace System::Net::Http::Headers {
-template<typename T>
-class HttpHeaderValueCollection_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+class System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19;
 }
 namespace System::Net::Http::Headers {
 class HeaderInfo;
@@ -46,7 +37,22 @@ class List_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
-class Dictionary_2;
+struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Net::Http::Headers {
+template<typename T>
+class HttpHeaderValueCollection_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 namespace System {
 class IDisposable;
@@ -135,8 +141,7 @@ constexpr System::Func_2<::bs_hook::Il2CppWrapperType,::StringW> __get_CustomToS
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parsed", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "System::Func_2<::bs_hook::Il2CppWrapperType,::StringW>", modifiers: "", def_value: None }]
-explicit System__Net__Http__Headers__HttpHeaders__HeaderBucket(::bs_hook::Il2CppWrapperType parsed, System::Func_2<::bs_hook::Il2CppWrapperType,::StringW> converter) ;
+static System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket New_ctor(::bs_hook::Il2CppWrapperType parsed, System::Func_2<::bs_hook::Il2CppWrapperType,::StringW> converter) ;
 
 /// @brief Method .ctor addr 0x26a9e3c size 0x30 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType parsed, System::Func_2<::bs_hook::Il2CppWrapperType,::StringW> converter) ;
@@ -242,8 +247,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__Dictionary
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19(int32_t __1__state) ;
+static System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x26aa1a4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -355,14 +359,12 @@ constexpr System::Nullable_1<bool> __get_transferEncodingChunked() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HttpHeaders() ;
+static System::Net::Http::Headers::HttpHeaders New_ctor() ;
 
 /// @brief Method .ctor addr 0x26a96c4 size 0xe4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "headerKind", ty: "System::Net::Http::Headers::HttpHeaderKind", modifiers: "", def_value: None }]
-explicit HttpHeaders(System::Net::Http::Headers::HttpHeaderKind headerKind) ;
+static System::Net::Http::Headers::HttpHeaders New_ctor(System::Net::Http::Headers::HttpHeaderKind headerKind) ;
 
 /// @brief Method .ctor addr 0x26a760c size 0x24 virtual false final false
  void _ctor(System::Net::Http::Headers::HttpHeaderKind headerKind) ;

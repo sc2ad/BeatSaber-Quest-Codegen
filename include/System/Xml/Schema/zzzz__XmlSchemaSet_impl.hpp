@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlSchemaSet_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaCompilationSettings_def.hpp"
 #include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
 #include "System/Xml/Schema/zzzz__ValidationEventArgs_def.hpp"
-#include "System/Collections/zzzz__SortedList_def.hpp"
 #include "System/Xml/Schema/zzzz__ValidationEventHandler_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Collections/zzzz__SortedList_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::XmlSchemaSet._ctor
 template<>
 
@@ -125,8 +125,10 @@ constexpr void System::Xml::Schema::XmlSchemaSet::__set_compilationSettings(Syst
 constexpr System::Xml::Schema::XmlSchemaCompilationSettings System::Xml::Schema::XmlSchemaSet::__get_compilationSettings() const {
 return ::cordl_internals::getInstanceField<System::Xml::Schema::XmlSchemaCompilationSettings, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaSet::XmlSchemaSet()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaSet>())) {}
+ System::Xml::Schema::XmlSchemaSet System::Xml::Schema::XmlSchemaSet::New_ctor()  {
+System::Xml::Schema::XmlSchemaSet o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaSet>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaSet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaSet>::get(),
@@ -136,8 +138,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "nameTable", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlSchemaSet::XmlSchemaSet(System::Xml::XmlNameTable nameTable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaSet>(nameTable))) {}
+ System::Xml::Schema::XmlSchemaSet System::Xml::Schema::XmlSchemaSet::New_ctor(System::Xml::XmlNameTable nameTable)  {
+System::Xml::Schema::XmlSchemaSet o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaSet>(nameTable))};
+return o;
+}
  void System::Xml::Schema::XmlSchemaSet::_ctor(System::Xml::XmlNameTable nameTable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaSet>::get(),

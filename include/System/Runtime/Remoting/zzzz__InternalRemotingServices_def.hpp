@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Runtime::Remoting::Metadata {
-class SoapAttribute;
-}
 namespace System::Collections {
 class Hashtable;
+}
+namespace System::Runtime::Remoting::Metadata {
+class SoapAttribute;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

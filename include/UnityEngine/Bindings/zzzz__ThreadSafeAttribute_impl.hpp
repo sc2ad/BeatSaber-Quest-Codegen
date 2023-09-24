@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Bindings::ThreadSafeAttribute::ThreadSafeAttribute()  : UnityEngine::Bindings::NativeMethodAttribute(THROW_UNLESS(::il2cpp_utils::New<ThreadSafeAttribute>())) {}
+ UnityEngine::Bindings::ThreadSafeAttribute UnityEngine::Bindings::ThreadSafeAttribute::New_ctor()  {
+UnityEngine::Bindings::ThreadSafeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::ThreadSafeAttribute>())};
+return o;
+}
  void UnityEngine::Bindings::ThreadSafeAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::ThreadSafeAttribute>::get(),

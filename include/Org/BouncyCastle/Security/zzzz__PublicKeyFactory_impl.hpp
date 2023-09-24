@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Security/zzzz__PublicKeyFactory_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHPublicKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHPublicKeyParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Security::PublicKeyFactory._ctor
 template<>
 
@@ -126,8 +126,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Security::PublicKeyFactory::PublicKeyFactory()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PublicKeyFactory>())) {}
+ Org::BouncyCastle::Security::PublicKeyFactory Org::BouncyCastle::Security::PublicKeyFactory::New_ctor()  {
+Org::BouncyCastle::Security::PublicKeyFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::PublicKeyFactory>())};
+return o;
+}
  void Org::BouncyCastle::Security::PublicKeyFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::PublicKeyFactory>::get(),

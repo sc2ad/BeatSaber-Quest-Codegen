@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthenticatedData_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__RecipientInformationStore_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__RecipientInformationStore_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsAuthenticatedData._ctor
 template<>
 
@@ -229,8 +229,10 @@ constexpr void Org::BouncyCastle::Cms::CmsAuthenticatedData::__set_mac(::ArrayW<
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Cms::CmsAuthenticatedData::__get_mac() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "authData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsAuthenticatedData::CmsAuthenticatedData(::ArrayW<uint8_t> authData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsAuthenticatedData>(authData))) {}
+ Org::BouncyCastle::Cms::CmsAuthenticatedData Org::BouncyCastle::Cms::CmsAuthenticatedData::New_ctor(::ArrayW<uint8_t> authData)  {
+Org::BouncyCastle::Cms::CmsAuthenticatedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthenticatedData>(authData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthenticatedData::_ctor(::ArrayW<uint8_t> authData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthenticatedData>::get(),
@@ -240,8 +242,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, authData);
 }
-// Ctor Parameters [CppParam { name: "authData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsAuthenticatedData::CmsAuthenticatedData(System::IO::Stream authData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsAuthenticatedData>(authData))) {}
+ Org::BouncyCastle::Cms::CmsAuthenticatedData Org::BouncyCastle::Cms::CmsAuthenticatedData::New_ctor(System::IO::Stream authData)  {
+Org::BouncyCastle::Cms::CmsAuthenticatedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthenticatedData>(authData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthenticatedData::_ctor(System::IO::Stream authData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthenticatedData>::get(),
@@ -251,8 +255,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, authData);
 }
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsAuthenticatedData::CmsAuthenticatedData(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsAuthenticatedData>(contentInfo))) {}
+ Org::BouncyCastle::Cms::CmsAuthenticatedData Org::BouncyCastle::Cms::CmsAuthenticatedData::New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  {
+Org::BouncyCastle::Cms::CmsAuthenticatedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthenticatedData>(contentInfo))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthenticatedData::_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthenticatedData>::get(),

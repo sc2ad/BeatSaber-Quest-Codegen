@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::LightmapDataSO::LightmapDataSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<LightmapDataSO>())) {}
+ GlobalNamespace::LightmapDataSO GlobalNamespace::LightmapDataSO::New_ctor()  {
+GlobalNamespace::LightmapDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightmapDataSO>())};
+return o;
+}
  void GlobalNamespace::LightmapDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightmapDataSO>::get(),

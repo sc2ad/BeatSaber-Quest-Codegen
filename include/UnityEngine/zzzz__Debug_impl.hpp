@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__Debug_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__ILogger_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: UnityEngine::Debug.get_unityLogger
 template<>
 

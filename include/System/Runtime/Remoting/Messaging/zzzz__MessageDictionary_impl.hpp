@@ -1,12 +1,13 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
-#include "System/zzzz__Array_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator._ctor
 template<>
@@ -153,8 +154,10 @@ constexpr void System::Runtime::Remoting::Messaging::System__Runtime__Remoting__
 constexpr int32_t System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator::__get__posMethod() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "methodDictionary", ty: "System::Runtime::Remoting::Messaging::MessageDictionary", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator(System::Runtime::Remoting::Messaging::MessageDictionary methodDictionary)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator>(methodDictionary))) {}
+ System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator::New_ctor(System::Runtime::Remoting::Messaging::MessageDictionary methodDictionary)  {
+System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator>(methodDictionary))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator::_ctor(System::Runtime::Remoting::Messaging::MessageDictionary methodDictionary)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator>::get(),
@@ -679,8 +682,10 @@ constexpr void System::Runtime::Remoting::Messaging::MessageDictionary::__set__o
 constexpr bool System::Runtime::Remoting::Messaging::MessageDictionary::__get__ownProperties() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::MessageDictionary::MessageDictionary(System::Runtime::Remoting::Messaging::IMethodMessage message)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MessageDictionary>(message))) {}
+ System::Runtime::Remoting::Messaging::MessageDictionary System::Runtime::Remoting::Messaging::MessageDictionary::New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage message)  {
+System::Runtime::Remoting::Messaging::MessageDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::MessageDictionary>(message))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::MessageDictionary::_ctor(System::Runtime::Remoting::Messaging::IMethodMessage message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::MessageDictionary>::get(),

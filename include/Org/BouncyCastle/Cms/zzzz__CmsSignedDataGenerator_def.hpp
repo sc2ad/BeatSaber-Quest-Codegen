@@ -5,38 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Cms {
-class CmsAttributeTableGenerator;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsSignedData;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsSignedHelper;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
 }
 namespace Org::BouncyCastle::Cms {
-class SignerInformation;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+class CmsAttributeTableGenerator;
 }
 namespace Org::BouncyCastle::Cms {
-class SignerInformationStore;
+class Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSignedHelper;
 }
 namespace Org::BouncyCastle::Cms {
 class SignerInfoGenerator;
@@ -45,10 +30,28 @@ namespace Org::BouncyCastle::Asn1::Cms {
 class SignerIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsSignedGenerator;
+class CmsProcessable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Cms {
+class CmsSignedData;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerInformation;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerInformationStore;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSignedGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
@@ -56,8 +59,8 @@ class ISignatureFactory;
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerInfo;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -168,14 +171,12 @@ constexpr Org::BouncyCastle::Asn1::Cms::AttributeTable __get_baseSignedTable() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Cms::CmsSignedGenerator", modifiers: "", def_value: None }, CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "signerIdentifier", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "digestOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sAttr", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "unsAttr", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "baseSignedTable", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, ::StringW digestOID, ::StringW encOID, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable) ;
+static Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf New_ctor(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, ::StringW digestOID, ::StringW encOID, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable) ;
 
 /// @brief Method .ctor addr 0x115fde0 size 0x14c virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, ::StringW digestOID, ::StringW encOID, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable) ;
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Cms::CmsSignedGenerator", modifiers: "", def_value: None }, CppParam { name: "sigCalc", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }, CppParam { name: "signerIdentifier", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "sAttr", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "unsAttr", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "baseSignedTable", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::ISignatureFactory sigCalc, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable) ;
+static Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf New_ctor(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::ISignatureFactory sigCalc, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable) ;
 
 /// @brief Method .ctor addr 0x115fba0 size 0x240 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::ISignatureFactory sigCalc, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable) ;
@@ -255,14 +256,12 @@ constexpr System::Collections::IList __get_signerInfs() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsSignedDataGenerator() ;
+static Org::BouncyCastle::Cms::CmsSignedDataGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x115e914 size 0x84 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit CmsSignedDataGenerator(Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Cms::CmsSignedDataGenerator New_ctor(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x115e998 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom rand) ;

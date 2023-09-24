@@ -2,14 +2,191 @@
 #include "System/Text/zzzz__DecoderNLS_impl.hpp"
 #include "System/Text/zzzz__EncoderNLS_impl.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
-#include "System/Text/zzzz__UTF8Encoding_impl.hpp"
 #include "System/Text/zzzz__UTF8Encoding_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Text/zzzz__DecoderNLS_def.hpp"
-#include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 #include "System/Text/zzzz__EncoderNLS_def.hpp"
+#include "System/Text/zzzz__DecoderNLS_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Text/zzzz__UTF8Encoding_UTF8EncodingSealed_def.hpp"
+#include "System/Text/zzzz__UTF8Encoding_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
+#include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
+//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Encoder._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::System__Text__UTF8Encoding__UTF8Encoder::*)(System::Text::UTF8Encoding)>(&System::Text::System__Text__UTF8Encoding__UTF8Encoder::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x22d7ba4;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Text::UTF8Encoding>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Encoder.Reset
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::System__Text__UTF8Encoding__UTF8Encoder::*)()>(&System::Text::System__Text__UTF8Encoding__UTF8Encoder::Reset)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x22d833c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                classof(System::Text::System__Text__UTF8Encoding__UTF8Encoder),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
+                                  4
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Encoder.get_HasState
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::System__Text__UTF8Encoding__UTF8Encoder::*)()>(&System::Text::System__Text__UTF8Encoding__UTF8Encoder::get_HasState)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x22d835c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                classof(System::Text::System__Text__UTF8Encoding__UTF8Encoder),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
+                                  11
+                                ));
+    return ___internal_method;
+  }
+};
+constexpr void System::Text::System__Text__UTF8Encoding__UTF8Encoder::__set_surrogateChar(int32_t value)  {
+::cordl_internals::setInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
+}
+constexpr int32_t System::Text::System__Text__UTF8Encoding__UTF8Encoder::__get_surrogateChar() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+ System::Text::System__Text__UTF8Encoding__UTF8Encoder System::Text::System__Text__UTF8Encoding__UTF8Encoder::New_ctor(System::Text::UTF8Encoding encoding)  {
+System::Text::System__Text__UTF8Encoding__UTF8Encoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__UTF8Encoding__UTF8Encoder>(encoding))};
+return o;
+}
+ void System::Text::System__Text__UTF8Encoding__UTF8Encoder::_ctor(System::Text::UTF8Encoding encoding)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Text::UTF8Encoding>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoding);
+}
+ void System::Text::System__Text__UTF8Encoding__UTF8Encoder::Reset()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
+                            "Reset",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ bool System::Text::System__Text__UTF8Encoding__UTF8Encoder::get_HasState()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
+                            "get_HasState",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
+}
+//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Decoder._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::System__Text__UTF8Encoding__UTF8Decoder::*)(System::Text::UTF8Encoding)>(&System::Text::System__Text__UTF8Encoding__UTF8Decoder::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x22d7b38;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Text::UTF8Encoding>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Decoder.Reset
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::System__Text__UTF8Encoding__UTF8Decoder::*)()>(&System::Text::System__Text__UTF8Encoding__UTF8Decoder::Reset)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x22d836c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                classof(System::Text::System__Text__UTF8Encoding__UTF8Decoder),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
+                                  4
+                                ));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Decoder.get_HasState
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::System__Text__UTF8Encoding__UTF8Decoder::*)()>(&System::Text::System__Text__UTF8Encoding__UTF8Decoder::get_HasState)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x22d838c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                classof(System::Text::System__Text__UTF8Encoding__UTF8Decoder),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
+                                  14
+                                ));
+    return ___internal_method;
+  }
+};
+constexpr void System::Text::System__Text__UTF8Encoding__UTF8Decoder::__set_bits(int32_t value)  {
+::cordl_internals::setInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
+}
+constexpr int32_t System::Text::System__Text__UTF8Encoding__UTF8Decoder::__get_bits() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+ System::Text::System__Text__UTF8Encoding__UTF8Decoder System::Text::System__Text__UTF8Encoding__UTF8Decoder::New_ctor(System::Text::UTF8Encoding encoding)  {
+System::Text::System__Text__UTF8Encoding__UTF8Decoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__UTF8Encoding__UTF8Decoder>(encoding))};
+return o;
+}
+ void System::Text::System__Text__UTF8Encoding__UTF8Decoder::_ctor(System::Text::UTF8Encoding encoding)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Text::UTF8Encoding>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoding);
+}
+ void System::Text::System__Text__UTF8Encoding__UTF8Decoder::Reset()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
+                            "Reset",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ bool System::Text::System__Text__UTF8Encoding__UTF8Decoder::get_HasState()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
+                            "get_HasState",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
+}
 //  Writing Method size for method: System::Text::UTF8Encoding._ctor
 template<>
 
@@ -595,8 +772,10 @@ constexpr void System::Text::UTF8Encoding::__set__isThrowException(bool value)  
 constexpr bool System::Text::UTF8Encoding::__get__isThrowException() const {
 return ::cordl_internals::getInstanceField<bool, 0x39>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::UTF8Encoding::UTF8Encoding()  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UTF8Encoding>())) {}
+ System::Text::UTF8Encoding System::Text::UTF8Encoding::New_ctor()  {
+System::Text::UTF8Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UTF8Encoding>())};
+return o;
+}
  void System::Text::UTF8Encoding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UTF8Encoding>::get(),
@@ -606,8 +785,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "encoderShouldEmitUTF8Identifier", ty: "bool", modifiers: "", def_value: None }]
- System::Text::UTF8Encoding::UTF8Encoding(bool encoderShouldEmitUTF8Identifier)  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UTF8Encoding>(encoderShouldEmitUTF8Identifier))) {}
+ System::Text::UTF8Encoding System::Text::UTF8Encoding::New_ctor(bool encoderShouldEmitUTF8Identifier)  {
+System::Text::UTF8Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UTF8Encoding>(encoderShouldEmitUTF8Identifier))};
+return o;
+}
  void System::Text::UTF8Encoding::_ctor(bool encoderShouldEmitUTF8Identifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UTF8Encoding>::get(),
@@ -617,8 +798,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoderShouldEmitUTF8Identifier);
 }
-// Ctor Parameters [CppParam { name: "encoderShouldEmitUTF8Identifier", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "throwOnInvalidBytes", ty: "bool", modifiers: "", def_value: None }]
- System::Text::UTF8Encoding::UTF8Encoding(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes)  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UTF8Encoding>(encoderShouldEmitUTF8Identifier, throwOnInvalidBytes))) {}
+ System::Text::UTF8Encoding System::Text::UTF8Encoding::New_ctor(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes)  {
+System::Text::UTF8Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UTF8Encoding>(encoderShouldEmitUTF8Identifier, throwOnInvalidBytes))};
+return o;
+}
  void System::Text::UTF8Encoding::_ctor(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UTF8Encoding>::get(),
@@ -897,230 +1080,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed::*)(bool)>(&System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x22d81f0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed.get_Preamble
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ReadOnlySpan_1<uint8_t> (System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed::*)()>(&System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed::get_Preamble)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22d8268;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed>::get(),
-                                  7
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "encoderShouldEmitUTF8Identifier", ty: "bool", modifiers: "", def_value: None }]
- System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed::System__Text__UTF8Encoding__UTF8EncodingSealed(bool encoderShouldEmitUTF8Identifier)  : System::Text::UTF8Encoding(THROW_UNLESS(::il2cpp_utils::New<System__Text__UTF8Encoding__UTF8EncodingSealed>(encoderShouldEmitUTF8Identifier))) {}
- void System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed::_ctor(bool encoderShouldEmitUTF8Identifier)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoderShouldEmitUTF8Identifier);
-}
- System::ReadOnlySpan_1<uint8_t> System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed::get_Preamble()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed>::get(),
-                            "get_Preamble",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::ReadOnlySpan_1<uint8_t>, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Encoder._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::System__Text__UTF8Encoding__UTF8Encoder::*)(System::Text::UTF8Encoding)>(&System::Text::System__Text__UTF8Encoding__UTF8Encoder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d7ba4;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Text::UTF8Encoding>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Encoder.Reset
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::System__Text__UTF8Encoding__UTF8Encoder::*)()>(&System::Text::System__Text__UTF8Encoding__UTF8Encoder::Reset)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22d833c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Text::System__Text__UTF8Encoding__UTF8Encoder),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
-                                  4
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Encoder.get_HasState
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::System__Text__UTF8Encoding__UTF8Encoder::*)()>(&System::Text::System__Text__UTF8Encoding__UTF8Encoder::get_HasState)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22d835c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Text::System__Text__UTF8Encoding__UTF8Encoder),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
-                                  11
-                                ));
-    return ___internal_method;
-  }
-};
-constexpr void System::Text::System__Text__UTF8Encoding__UTF8Encoder::__set_surrogateChar(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::Text::System__Text__UTF8Encoding__UTF8Encoder::__get_surrogateChar() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF8Encoding", modifiers: "", def_value: None }]
- System::Text::System__Text__UTF8Encoding__UTF8Encoder::System__Text__UTF8Encoding__UTF8Encoder(System::Text::UTF8Encoding encoding)  : System::Text::EncoderNLS(THROW_UNLESS(::il2cpp_utils::New<System__Text__UTF8Encoding__UTF8Encoder>(encoding))) {}
- void System::Text::System__Text__UTF8Encoding__UTF8Encoder::_ctor(System::Text::UTF8Encoding encoding)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Text::UTF8Encoding>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoding);
-}
- void System::Text::System__Text__UTF8Encoding__UTF8Encoder::Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
-                            "Reset",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool System::Text::System__Text__UTF8Encoding__UTF8Encoder::get_HasState()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Encoder>::get(),
-                            "get_HasState",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Decoder._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::System__Text__UTF8Encoding__UTF8Decoder::*)(System::Text::UTF8Encoding)>(&System::Text::System__Text__UTF8Encoding__UTF8Decoder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d7b38;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Text::UTF8Encoding>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Decoder.Reset
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::System__Text__UTF8Encoding__UTF8Decoder::*)()>(&System::Text::System__Text__UTF8Encoding__UTF8Decoder::Reset)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22d836c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Text::System__Text__UTF8Encoding__UTF8Decoder),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
-                                  4
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Text::System__Text__UTF8Encoding__UTF8Decoder.get_HasState
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::System__Text__UTF8Encoding__UTF8Decoder::*)()>(&System::Text::System__Text__UTF8Encoding__UTF8Decoder::get_HasState)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22d838c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Text::System__Text__UTF8Encoding__UTF8Decoder),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-constexpr void System::Text::System__Text__UTF8Encoding__UTF8Decoder::__set_bits(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::Text::System__Text__UTF8Encoding__UTF8Decoder::__get_bits() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF8Encoding", modifiers: "", def_value: None }]
- System::Text::System__Text__UTF8Encoding__UTF8Decoder::System__Text__UTF8Encoding__UTF8Decoder(System::Text::UTF8Encoding encoding)  : System::Text::DecoderNLS(THROW_UNLESS(::il2cpp_utils::New<System__Text__UTF8Encoding__UTF8Decoder>(encoding))) {}
- void System::Text::System__Text__UTF8Encoding__UTF8Decoder::_ctor(System::Text::UTF8Encoding encoding)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Text::UTF8Encoding>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoding);
-}
- void System::Text::System__Text__UTF8Encoding__UTF8Decoder::Reset()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
-                            "Reset",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool System::Text::System__Text__UTF8Encoding__UTF8Decoder::get_HasState()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UTF8Encoding__UTF8Decoder>::get(),
-                            "get_HasState",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }

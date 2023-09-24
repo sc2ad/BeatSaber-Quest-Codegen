@@ -2,11 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FileBrowserTableView_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "HMUI/zzzz__TableCell_def.hpp"
 #include "GlobalNamespace/zzzz__FileBrowserItem_def.hpp"
+#include "HMUI/zzzz__TableCell_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__FileBrowserTableCell_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FileBrowserTableView.add_didSelectRow
 template<>
 
@@ -346,8 +345,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, animated, scrollToRow0);
 }
-// Ctor Parameters []
- GlobalNamespace::FileBrowserTableView::FileBrowserTableView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FileBrowserTableView>())) {}
+ GlobalNamespace::FileBrowserTableView GlobalNamespace::FileBrowserTableView::New_ctor()  {
+GlobalNamespace::FileBrowserTableView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FileBrowserTableView>())};
+return o;
+}
  void GlobalNamespace::FileBrowserTableView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FileBrowserTableView>::get(),

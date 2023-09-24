@@ -10,7 +10,7 @@ struct ImplicitUseTargetFlags;
 namespace JetBrains::Annotations {
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9971))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15693))
 // CS Name: JetBrains.Annotations.ImplicitUseTargetFlags
 struct CORDL_TYPE ImplicitUseTargetFlags : public ::bs_hook::EnumTypeWrapper {
 public:
@@ -57,6 +57,8 @@ __WithMembers = 3,
 constexpr operator __ImplicitUseTargetFlags_Unwrapped () const noexcept {
 return std::bit_cast<__ImplicitUseTargetFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

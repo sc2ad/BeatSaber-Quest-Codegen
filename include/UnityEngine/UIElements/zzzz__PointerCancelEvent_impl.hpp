@@ -88,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::PointerCancelEvent::PointerCancelEvent()  : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerCancelEvent>(THROW_UNLESS(::il2cpp_utils::New<PointerCancelEvent>())) {}
+ UnityEngine::UIElements::PointerCancelEvent UnityEngine::UIElements::PointerCancelEvent::New_ctor()  {
+UnityEngine::UIElements::PointerCancelEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PointerCancelEvent>())};
+return o;
+}
  void UnityEngine::UIElements::PointerCancelEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PointerCancelEvent>::get(),

@@ -1,9 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarPlaceManager_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarPlace_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarPlace_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLobbyAvatarPlaceManager.Activate
 template<>
@@ -182,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::MultiplayerLobbyAvatarPlaceManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLobbyAvatarPlaceManager>())) {}
+ GlobalNamespace::MultiplayerLobbyAvatarPlaceManager GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::New_ctor()  {
+GlobalNamespace::MultiplayerLobbyAvatarPlaceManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLobbyAvatarPlaceManager>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLobbyAvatarPlaceManager>::get(),

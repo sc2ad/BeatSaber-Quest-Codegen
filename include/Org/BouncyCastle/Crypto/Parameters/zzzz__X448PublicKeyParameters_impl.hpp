@@ -82,8 +82,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::_
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::__get_data() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::X448PublicKeyParameters(::ArrayW<uint8_t> buf, int32_t off)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<X448PublicKeyParameters>(buf, off))) {}
+ Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::New_ctor(::ArrayW<uint8_t> buf, int32_t off)  {
+Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters>(buf, off))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::_ctor(::ArrayW<uint8_t> buf, int32_t off)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters>::get(),
@@ -93,8 +95,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buf, off);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::X448PublicKeyParameters(System::IO::Stream input)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<X448PublicKeyParameters>(input))) {}
+ Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::New_ctor(System::IO::Stream input)  {
+Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters>(input))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters>::get(),

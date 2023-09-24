@@ -4,28 +4,41 @@
 #include <cstddef>
 #include <cstdint>
 namespace TMPro {
-struct Extents;
-}
-namespace TMPro {
-struct HorizontalAlignmentOptions;
-}
-namespace TMPro {
 class TMP_TextInfo;
 }
 namespace TMPro {
-struct TMP_FontStyleStack;
+template<typename T>
+struct TMP_TextProcessingStack_1;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace TMPro {
-class TMP_SpriteAsset;
+struct Extents;
+}
+namespace TMPro {
+struct FontWeight;
+}
+namespace TMPro {
+class TMP_FontAsset;
+}
+namespace TMPro {
+class TMP_ColorGradient;
 }
 namespace TMPro {
 struct FontStyles;
 }
 namespace TMPro {
-class TMP_FontAsset;
+struct HighlightState;
+}
+namespace TMPro {
+struct HorizontalAlignmentOptions;
+}
+namespace TMPro {
+struct MaterialReference;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
 }
 namespace UnityEngine {
 class Material;
@@ -34,20 +47,7 @@ namespace TMPro {
 struct TMP_LineInfo;
 }
 namespace TMPro {
-struct MaterialReference;
-}
-namespace TMPro {
-struct FontWeight;
-}
-namespace TMPro {
-class TMP_ColorGradient;
-}
-namespace TMPro {
-struct HighlightState;
-}
-namespace TMPro {
-template<typename T>
-struct TMP_TextProcessingStack_1;
+struct TMP_FontStyleStack;
 }
 // Forward declare root types
 namespace TMPro {

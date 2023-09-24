@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpResponseHeaders_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Net/zzzz__HttpStatusCode_def.hpp"
-#include "System/zzzz__Version_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpResponseHeaders_def.hpp"
 //  Writing Method size for method: System::Net::Http::HttpResponseMessage._ctor
 template<>
 
@@ -307,8 +307,10 @@ constexpr void System::Net::Http::HttpResponseMessage::__set__RequestMessage_k__
 constexpr System::Net::Http::HttpRequestMessage System::Net::Http::HttpResponseMessage::__get__RequestMessage_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Net::Http::HttpRequestMessage, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "statusCode", ty: "System::Net::HttpStatusCode", modifiers: "", def_value: None }]
- System::Net::Http::HttpResponseMessage::HttpResponseMessage(System::Net::HttpStatusCode statusCode)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpResponseMessage>(statusCode))) {}
+ System::Net::Http::HttpResponseMessage System::Net::Http::HttpResponseMessage::New_ctor(System::Net::HttpStatusCode statusCode)  {
+System::Net::Http::HttpResponseMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpResponseMessage>(statusCode))};
+return o;
+}
  void System::Net::Http::HttpResponseMessage::_ctor(System::Net::HttpStatusCode statusCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpResponseMessage>::get(),

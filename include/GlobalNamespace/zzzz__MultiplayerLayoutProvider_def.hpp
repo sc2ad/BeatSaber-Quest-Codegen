@@ -104,8 +104,7 @@ constexpr System::Action_2<GlobalNamespace::MultiplayerPlayerLayout,int32_t> __g
 /// @brief Method CalculateLayout addr 0x20fa888 size 0x5c virtual false final false
  GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int32_t activePlayersCount) ;
 
-// Ctor Parameters []
-explicit MultiplayerLayoutProvider() ;
+static GlobalNamespace::MultiplayerLayoutProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x20fa8e4 size 0x8 virtual false final false
  void _ctor() ;

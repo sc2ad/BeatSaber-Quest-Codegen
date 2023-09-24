@@ -53,8 +53,10 @@ return ::cordl_internals::getStaticField<int32_t, "DEFAULT_MATERIAL_KEY", ::il2c
  int32_t HoudiniEngineUnity::HEU_Defines::__get_EDITABLE_MATERIAL_KEY()  {
 return ::cordl_internals::getStaticField<int32_t, "EDITABLE_MATERIAL_KEY", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_Defines>::get>();
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_Defines::HEU_Defines()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_Defines>())) {}
+ HoudiniEngineUnity::HEU_Defines HoudiniEngineUnity::HEU_Defines::New_ctor()  {
+HoudiniEngineUnity::HEU_Defines o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_Defines>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_Defines::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_Defines>::get(),

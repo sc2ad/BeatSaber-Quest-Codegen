@@ -55,8 +55,7 @@ constexpr explicit ReflectionOnlyType(void* ptr) noexcept : System::RuntimeType(
 
 // Methods
 
-// Ctor Parameters []
-explicit ReflectionOnlyType() ;
+static System::ReflectionOnlyType New_ctor() ;
 
 /// @brief Method .ctor addr 0x248340c size 0x58 virtual false final false
  void _ctor() ;

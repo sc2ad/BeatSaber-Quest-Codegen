@@ -5,11 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
 namespace System {
 struct DateTimeOffset;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
+class Type;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System {
 struct Decimal;
@@ -18,16 +24,10 @@ namespace System::Xml::XPath {
 class XPathNavigator;
 }
 namespace System {
-class Type;
+struct DateTime;
 }
 namespace System::Xml::Schema {
 class XmlValueConverter;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System {
-struct DateTime;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -90,8 +90,7 @@ static System::Xml::Schema::XmlValueConverter __get_AnyAtomic() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeCode", ty: "System::Xml::Schema::XmlTypeCode", modifiers: "", def_value: None }]
-explicit XmlAnyConverter(System::Xml::Schema::XmlTypeCode typeCode) ;
+static System::Xml::Schema::XmlAnyConverter New_ctor(System::Xml::Schema::XmlTypeCode typeCode) ;
 
 /// @brief Method .ctor addr 0x274e488 size 0x68 virtual false final false
  void _ctor(System::Xml::Schema::XmlTypeCode typeCode) ;

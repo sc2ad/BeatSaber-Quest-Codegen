@@ -9,6 +9,9 @@ namespace HoudiniEngineUnity {
 struct HAPI_Viewport;
 }
 namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_SessionSyncData__Status;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_SessionSyncInfo;
 }
 // Forward declare root types
@@ -70,6 +73,8 @@ __Connected = 4,
 constexpr operator __HoudiniEngineUnity__HEU_SessionSyncData__Status_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_SessionSyncData__Status_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -217,8 +222,7 @@ constexpr HoudiniEngineUnity::HAPI_SessionSyncInfo __get__syncInfo() const;
 /// @brief Method set_SyncStatus addr 0x2033b60 size 0xc virtual false final false
  void set_SyncStatus(HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionSyncData__Status value) ;
 
-// Ctor Parameters []
-explicit HEU_SessionSyncData() ;
+static HoudiniEngineUnity::HEU_SessionSyncData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2030ee0 size 0xac virtual false final false
  void _ctor() ;

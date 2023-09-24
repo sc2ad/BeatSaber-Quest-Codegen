@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_AssetUpdater_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_BaseSync_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_BaseSync_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_AssetUpdater.OnBeforeAssemblyReload
 template<>
 
@@ -202,8 +202,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_AssetUpdater::HEU_AssetUpdater()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_AssetUpdater>())) {}
+ HoudiniEngineUnity::HEU_AssetUpdater HoudiniEngineUnity::HEU_AssetUpdater::New_ctor()  {
+HoudiniEngineUnity::HEU_AssetUpdater o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_AssetUpdater>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_AssetUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_AssetUpdater>::get(),

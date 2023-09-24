@@ -9,6 +9,9 @@ template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException;
+}
+namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 // Forward declare root types
@@ -94,8 +97,7 @@ constexpr ::ArrayW<::StringW> __get__sceneHierarchies() const;
 /// @brief Method get_sceneHierarchies addr 0x21bff24 size 0x8 virtual false final false
  ::ArrayW<::StringW> get_sceneHierarchies() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException() ;
+static GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bff2c size 0x8 virtual false final false
  void _ctor() ;
@@ -160,8 +162,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO_
 /// @brief Method GetExceptionAsDictionary addr 0x21bfe34 size 0xe0 virtual false final false
 static System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentInfoSO,::ArrayW<::StringW>> GetExceptionAsDictionary(::ArrayW<GlobalNamespace::GlobalNamespace__GameObjectTestExceptionsSO__GameObjectTestException> testExceptionArray) ;
 
-// Ctor Parameters []
-explicit GameObjectTestExceptionsSO() ;
+static GlobalNamespace::GameObjectTestExceptionsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bff14 size 0x8 virtual false final false
  void _ctor() ;

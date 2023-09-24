@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- HMUI::PercentSlider::PercentSlider()  : HMUI::RangeValuesTextSlider(THROW_UNLESS(::il2cpp_utils::New<PercentSlider>())) {}
+ HMUI::PercentSlider HMUI::PercentSlider::New_ctor()  {
+HMUI::PercentSlider o{THROW_UNLESS(::il2cpp_utils::New<HMUI::PercentSlider>())};
+return o;
+}
  void HMUI::PercentSlider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::PercentSlider>::get(),

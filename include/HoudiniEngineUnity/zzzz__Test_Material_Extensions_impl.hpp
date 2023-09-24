@@ -4,6 +4,7 @@
 #include "HoudiniEngineUnity/zzzz__Test_Material_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__Test_Material_Extensions_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c._ctor
 template<>
 
@@ -73,8 +74,10 @@ return ::cordl_internals::getStaticField<System::Converter_2<UnityEngine::Materi
  System::Converter_2<UnityEngine::Material,HoudiniEngineUnity::Test_Material> HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c::__get___9__2_0()  {
 return ::cordl_internals::getStaticField<System::Converter_2<UnityEngine::Material,HoudiniEngineUnity::Test_Material>, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c>::get>();
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c::HoudiniEngineUnity__Test_Material_Extensions____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__Test_Material_Extensions____c>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c>::get(),

@@ -9,7 +9,7 @@ class ObjectiveListItemsList;
 // Type: ::ObjectiveListItemsList
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5046 }), TypeDefinitionIndex(TypeDefinitionIndex(5892)), TypeDefinitionIndex(TypeDefinitionIndex(13725))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5046 }), TypeDefinitionIndex(TypeDefinitionIndex(13725)), TypeDefinitionIndex(TypeDefinitionIndex(5892))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5893))
 // CS Name: ObjectiveListItemsList
 class CORDL_TYPE ObjectiveListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::ObjectiveListItem> {
@@ -48,8 +48,7 @@ constexpr explicit ObjectiveListItemsList(void* ptr) noexcept : HMUI::UIItemsLis
 
 // Methods
 
-// Ctor Parameters []
-explicit ObjectiveListItemsList() ;
+static GlobalNamespace::ObjectiveListItemsList New_ctor() ;
 
 /// @brief Method .ctor addr 0x218e604 size 0x48 virtual false final false
  void _ctor() ;

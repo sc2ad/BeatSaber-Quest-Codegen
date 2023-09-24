@@ -7,12 +7,30 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__Sys__Permissions;
+}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__Sys__DirectoryEntry;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__Sys__NodeType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__Sys__FileStatus;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__Sys__FileStatusFlags;
+}
 namespace Microsoft::Win32::SafeHandles {
 class SafeFileHandle;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__ErrorInfo;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -20,6 +38,12 @@ class Func_2;
 }
 namespace System {
 class Exception;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__Error;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__Interop__Sys;
 }
 namespace System {
 template<typename T>
@@ -181,6 +205,8 @@ __EWOULDBLOCK = 65542,
 constexpr operator __GlobalNamespace__Interop__Error_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__Interop__Error_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -582,6 +608,8 @@ constexpr operator __GlobalNamespace__Interop__Sys__NodeType_Unwrapped () const 
 return std::bit_cast<__GlobalNamespace__Interop__Sys__NodeType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -886,6 +914,8 @@ constexpr operator __GlobalNamespace__Interop__Sys__FileStatusFlags_Unwrapped ()
 return std::bit_cast<__GlobalNamespace__Interop__Sys__FileStatusFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -965,6 +995,8 @@ __S_IXOTH = 1,
 constexpr operator __GlobalNamespace__Interop__Sys__Permissions_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__Interop__Sys__Permissions_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

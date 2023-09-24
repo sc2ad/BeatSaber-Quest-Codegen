@@ -5,58 +5,58 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Runtime::Remoting::Contexts {
-class Context;
-}
-namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System::Security::Principal {
-class IPrincipal;
-}
-namespace System {
-class Delegate;
-}
-namespace System::Threading {
-struct ThreadPriority;
-}
-namespace System {
-class LocalDataStoreHolder;
-}
-namespace System::Threading {
-class InternalThread;
-}
-namespace System::Threading {
-template<typename T>
-class AsyncLocal_1;
-}
 namespace System::Threading {
 template<typename T>
 struct AsyncLocalValueChangedArgs_1;
-}
-namespace System::Threading {
-struct ThreadState;
-}
-namespace System::Threading {
-class ParameterizedThreadStart;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Threading {
-class ThreadStart;
-}
-namespace System {
-class LocalDataStoreMgr;
 }
 namespace System {
 class MulticastDelegate;
 }
 namespace System::Threading {
-class ExecutionContext;
+template<typename T>
+class AsyncLocal_1;
+}
+namespace System::Security::Principal {
+class IPrincipal;
+}
+namespace System {
+class LocalDataStoreMgr;
+}
+namespace System::Runtime::Remoting::Contexts {
+class Context;
+}
+namespace System::Threading {
+class InternalThread;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Threading {
+class ParameterizedThreadStart;
+}
+namespace System::Threading {
+struct ThreadState;
+}
+namespace System {
+class LocalDataStoreHolder;
+}
+namespace System {
+class Delegate;
+}
+namespace System::Threading {
+struct StackCrawlMark;
 }
 namespace System::Threading {
 struct System__Threading__ExecutionContext__Reader;
+}
+namespace System::Threading {
+class ThreadStart;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
+namespace System::Threading {
+struct ThreadPriority;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -231,20 +231,17 @@ static int32_t __declspec(property(get=get_CurrentThreadId))  CurrentThreadId;
 /// @brief Method AsyncLocalSetCurrentCulture addr 0x24ac16c size 0x60 virtual false final false
 static void AsyncLocalSetCurrentCulture(System::Threading::AsyncLocalValueChangedArgs_1<System::Globalization::CultureInfo> args) ;
 
-// Ctor Parameters [CppParam { name: "start", ty: "System::Threading::ThreadStart", modifiers: "", def_value: None }]
-explicit Thread(System::Threading::ThreadStart start) ;
+static System::Threading::Thread New_ctor(System::Threading::ThreadStart start) ;
 
 /// @brief Method .ctor addr 0x24ac1cc size 0x80 virtual false final false
  void _ctor(System::Threading::ThreadStart start) ;
 
-// Ctor Parameters [CppParam { name: "start", ty: "System::Threading::ParameterizedThreadStart", modifiers: "", def_value: None }]
-explicit Thread(System::Threading::ParameterizedThreadStart start) ;
+static System::Threading::Thread New_ctor(System::Threading::ParameterizedThreadStart start) ;
 
 /// @brief Method .ctor addr 0x24ac374 size 0x80 virtual false final false
  void _ctor(System::Threading::ParameterizedThreadStart start) ;
 
-// Ctor Parameters [CppParam { name: "start", ty: "System::Threading::ParameterizedThreadStart", modifiers: "", def_value: None }, CppParam { name: "maxStackSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Thread(System::Threading::ParameterizedThreadStart start, int32_t maxStackSize) ;
+static System::Threading::Thread New_ctor(System::Threading::ParameterizedThreadStart start, int32_t maxStackSize) ;
 
 /// @brief Method .ctor addr 0x24ac3f4 size 0xf0 virtual false final false
  void _ctor(System::Threading::ParameterizedThreadStart start, int32_t maxStackSize) ;

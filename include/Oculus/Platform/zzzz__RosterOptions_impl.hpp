@@ -91,8 +91,10 @@ constexpr void Oculus::Platform::RosterOptions::__set_Handle(::cordl_internals::
 constexpr ::cordl_internals::intptr_t Oculus::Platform::RosterOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::RosterOptions::RosterOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RosterOptions>())) {}
+ Oculus::Platform::RosterOptions Oculus::Platform::RosterOptions::New_ctor()  {
+Oculus::Platform::RosterOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::RosterOptions>())};
+return o;
+}
  void Oculus::Platform::RosterOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::RosterOptions>::get(),

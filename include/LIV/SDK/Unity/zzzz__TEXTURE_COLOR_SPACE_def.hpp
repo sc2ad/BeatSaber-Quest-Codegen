@@ -57,6 +57,8 @@ constexpr operator __TEXTURE_COLOR_SPACE_Unwrapped () const noexcept {
 return std::bit_cast<__TEXTURE_COLOR_SPACE_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
+
 
 // Fields
 

@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "GlobalNamespace/zzzz__SaberMovementData_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
+#include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: GlobalNamespace::Saber.get_saberType
 template<>
 
@@ -312,8 +312,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pos, rot);
 }
-// Ctor Parameters []
- GlobalNamespace::Saber::Saber()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Saber>())) {}
+ GlobalNamespace::Saber GlobalNamespace::Saber::New_ctor()  {
+GlobalNamespace::Saber o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Saber>())};
+return o;
+}
  void GlobalNamespace::Saber::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Saber>::get(),

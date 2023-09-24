@@ -66,26 +66,22 @@ constexpr ::StringW __get_permissionState() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SecurityException() ;
+static System::Security::SecurityException New_ctor() ;
 
 /// @brief Method .ctor addr 0x22e83a8 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SecurityException(::StringW message) ;
+static System::Security::SecurityException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x22e8410 size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit SecurityException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Security::SecurityException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x22e8434 size 0x10c virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit SecurityException(::StringW message, System::Exception inner) ;
+static System::Security::SecurityException New_ctor(::StringW message, System::Exception inner) ;
 
 /// @brief Method .ctor addr 0x22e8540 size 0x24 virtual false final false
  void _ctor(::StringW message, System::Exception inner) ;

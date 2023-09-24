@@ -257,8 +257,7 @@ static bool IsNullOrEmpty(::ArrayW<uint8_t> array) ;
 /// @brief Method IsNullOrEmpty addr 0x10e1fd8 size 0x1c virtual false final false
 static bool IsNullOrEmpty(::ArrayW<::bs_hook::Il2CppWrapperType> array) ;
 
-// Ctor Parameters []
-explicit Arrays() ;
+static Org::BouncyCastle::Utilities::Arrays New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e2090 size 0x8 virtual false final false
  void _ctor() ;

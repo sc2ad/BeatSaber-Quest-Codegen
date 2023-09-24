@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Oculus::Platform {
-struct UserOrdering;
+struct TimeWindow;
 }
 namespace Oculus::Platform {
-struct TimeWindow;
+struct UserOrdering;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -64,8 +64,7 @@ constexpr ::cordl_internals::intptr_t __get_Handle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RoomOptions() ;
+static Oculus::Platform::RoomOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x2599884 size 0x68 virtual false final false
  void _ctor() ;

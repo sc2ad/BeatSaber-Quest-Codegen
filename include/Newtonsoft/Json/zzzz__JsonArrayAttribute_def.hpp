@@ -68,20 +68,17 @@ constexpr bool __get__allowNullItems() const;
 /// @brief Method set_AllowNullItems addr 0x24c7f80 size 0xc virtual false final false
  void set_AllowNullItems(bool value) ;
 
-// Ctor Parameters []
-explicit JsonArrayAttribute() ;
+static Newtonsoft::Json::JsonArrayAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c7f8c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "allowNullItems", ty: "bool", modifiers: "", def_value: None }]
-explicit JsonArrayAttribute(bool allowNullItems) ;
+static Newtonsoft::Json::JsonArrayAttribute New_ctor(bool allowNullItems) ;
 
 /// @brief Method .ctor addr 0x24c7f94 size 0x28 virtual false final false
  void _ctor(bool allowNullItems) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JsonArrayAttribute(::StringW id) ;
+static Newtonsoft::Json::JsonArrayAttribute New_ctor(::StringW id) ;
 
 /// @brief Method .ctor addr 0x24c7fbc size 0x28 virtual false final false
  void _ctor(::StringW id) ;

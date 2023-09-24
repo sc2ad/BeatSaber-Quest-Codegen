@@ -3,16 +3,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
-}
-namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreItem;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
@@ -129,8 +129,7 @@ constexpr float_t __get__timeSinceLastScoreUpdate() const;
 /// @brief Method HandleStateChanged addr 0x20f706c size 0xf4 virtual false final false
  void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State newState) ;
 
-// Ctor Parameters []
-explicit MultiplayerDuelScoreManager() ;
+static GlobalNamespace::MultiplayerDuelScoreManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f7160 size 0x14 virtual false final false
  void _ctor() ;

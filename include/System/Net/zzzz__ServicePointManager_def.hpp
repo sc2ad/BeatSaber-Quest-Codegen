@@ -3,30 +3,33 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Uri;
-}
-namespace System::Net {
-class ServicePoint;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
-}
-namespace System::Net {
-struct SecurityProtocolType;
-}
 namespace System::Collections::Concurrent {
 template<typename TKey,typename TValue>
 class ConcurrentDictionary_2;
 }
 namespace System::Net {
-class ICertificatePolicy;
+class ServerCertValidationCallback;
+}
+namespace System::Net {
+class ServicePoint;
+}
+namespace System::Net {
+class System__Net__ServicePointManager__SPKey;
+}
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
 }
 namespace System::Net {
 class IWebProxy;
 }
 namespace System::Net {
-class ServerCertValidationCallback;
+struct SecurityProtocolType;
+}
+namespace System::Net {
+class ICertificatePolicy;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -103,8 +106,7 @@ constexpr bool __get_use_connect() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "proxy", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "use_connect", ty: "bool", modifiers: "", def_value: None }]
-explicit System__Net__ServicePointManager__SPKey(System::Uri uri, System::Uri proxy, bool use_connect) ;
+static System::Net::System__Net__ServicePointManager__SPKey New_ctor(System::Uri uri, System::Uri proxy, bool use_connect) ;
 
 /// @brief Method .ctor addr 0x2846694 size 0x3c virtual false final false
  void _ctor(System::Uri uri, System::Uri proxy, bool use_connect) ;

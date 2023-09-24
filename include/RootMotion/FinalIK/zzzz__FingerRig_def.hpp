@@ -123,8 +123,7 @@ constexpr bool __get__initiated_k__BackingField() const;
 /// @brief Method FixTransforms addr 0x11b9fdc size 0x14 virtual true final false
  void FixTransforms() ;
 
-// Ctor Parameters []
-explicit FingerRig() ;
+static RootMotion::FinalIK::FingerRig New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b9ff0 size 0x68 virtual false final false
  void _ctor() ;

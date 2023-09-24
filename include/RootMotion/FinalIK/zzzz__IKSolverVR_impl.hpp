@@ -3,16 +3,17 @@
 #include "RootMotion/FinalIK/zzzz__IKSolver_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 #include "UnityEngine/zzzz__Keyframe_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 #include "RootMotion/zzzz__InterpolationMode_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::RootMotion__FinalIK__IKSolverVR__Arm__ShoulderRotationMode::RootMotion__FinalIK__IKSolverVR__Arm__ShoulderRotationMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -559,8 +560,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart::RootMotion__FinalIK__IKSolverVR__BodyPart()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolverVR__BodyPart>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart>::get(),
@@ -1218,8 +1221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bone1, bone2, bone3, color);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Arm::RootMotion__FinalIK__IKSolverVR__Arm()  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolverVR__Arm>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Arm RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Arm::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Arm o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Arm>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Arm::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Arm>::get(),
@@ -1493,8 +1498,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "rootRotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "footPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "footRotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "characterSpaceOffset", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Footstep::RootMotion__FinalIK__IKSolverVR__Footstep(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolverVR__Footstep>(rootRotation, footPosition, footRotation, characterSpaceOffset))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Footstep RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Footstep::New_ctor(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset)  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Footstep o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Footstep>(rootRotation, footPosition, footRotation, characterSpaceOffset))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Footstep::_ctor(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Footstep>::get(),
@@ -2326,8 +2333,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Leg::RootMotion__FinalIK__IKSolverVR__Leg()  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolverVR__Leg>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Leg RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Leg::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Leg o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Leg>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Leg::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Leg>::get(),
@@ -2886,8 +2895,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lineStart, lineEnd, sphereCenter, sphereRadius);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Locomotion::RootMotion__FinalIK__IKSolverVR__Locomotion()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolverVR__Locomotion>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Locomotion RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Locomotion::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Locomotion o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Locomotion>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Locomotion::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Locomotion>::get(),
@@ -3869,8 +3880,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bones, firstIndex, lastIndex, targetRotation, rotationOffset, clampWeight, uniformWeight, w);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Spine::RootMotion__FinalIK__IKSolverVR__Spine()  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__BodyPart(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolverVR__Spine>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Spine RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Spine::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Spine o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Spine>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Spine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__Spine>::get(),
@@ -4173,8 +4186,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone
 constexpr UnityEngine::Vector3 RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone::__get_axis() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone::RootMotion__FinalIK__IKSolverVR__VirtualBone(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolverVR__VirtualBone>(position, rotation))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone::New_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation)  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone>(position, rotation))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone::_ctor(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolverVR__VirtualBone>::get(),
@@ -5280,8 +5295,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKSolverVR::IKSolverVR()  : RootMotion::FinalIK::IKSolver(THROW_UNLESS(::il2cpp_utils::New<IKSolverVR>())) {}
+ RootMotion::FinalIK::IKSolverVR RootMotion::FinalIK::IKSolverVR::New_ctor()  {
+RootMotion::FinalIK::IKSolverVR o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolverVR>())};
+return o;
+}
  void RootMotion::FinalIK::IKSolverVR::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolverVR>::get(),

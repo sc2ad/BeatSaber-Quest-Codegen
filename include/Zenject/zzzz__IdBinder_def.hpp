@@ -59,8 +59,7 @@ constexpr Zenject::BindInfo __get__bindInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit IdBinder(Zenject::BindInfo bindInfo) ;
+static Zenject::IdBinder New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d60c34 size 0x28 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;

@@ -2,18 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class Material;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace GlobalNamespace {
+class MirrorRendererSO;
+}
 namespace UnityEngine {
 class MeshRenderer;
 }
-namespace GlobalNamespace {
-class MirrorRendererSO;
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -142,8 +142,7 @@ constexpr System::Action_1<bool> __get_mirrorDidChangeEnabledStateEvent() const;
 /// @brief Method ChangeMirrorEnabledState addr 0x2678194 size 0x38 virtual false final false
  void ChangeMirrorEnabledState(bool newIsEnabled) ;
 
-// Ctor Parameters []
-explicit Mirror() ;
+static GlobalNamespace::Mirror New_ctor() ;
 
 /// @brief Method .ctor addr 0x26789bc size 0x8 virtual false final false
  void _ctor() ;

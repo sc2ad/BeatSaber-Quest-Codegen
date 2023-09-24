@@ -64,8 +64,7 @@ constexpr bool __get__ThrowsException_k__BackingField() const;
 /// @brief Method set_ThrowsException addr 0x2ba17e4 size 0xc virtual true final true
  void set_ThrowsException(bool value) ;
 
-// Ctor Parameters []
-explicit NativeThrowsAttribute() ;
+static UnityEngine::Bindings::NativeThrowsAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba17f0 size 0x20 virtual false final false
  void _ctor() ;

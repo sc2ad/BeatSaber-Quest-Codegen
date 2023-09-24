@@ -1,10 +1,10 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonException_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriterException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::JsonWriterException.get_Path
 template<>
 
@@ -182,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::JsonWriterException::JsonWriterException()  : Newtonsoft::Json::JsonException(THROW_UNLESS(::il2cpp_utils::New<JsonWriterException>())) {}
+ Newtonsoft::Json::JsonWriterException Newtonsoft::Json::JsonWriterException::New_ctor()  {
+Newtonsoft::Json::JsonWriterException o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonWriterException>())};
+return o;
+}
  void Newtonsoft::Json::JsonWriterException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonWriterException>::get(),
@@ -193,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonWriterException::JsonWriterException(::StringW message)  : Newtonsoft::Json::JsonException(THROW_UNLESS(::il2cpp_utils::New<JsonWriterException>(message))) {}
+ Newtonsoft::Json::JsonWriterException Newtonsoft::Json::JsonWriterException::New_ctor(::StringW message)  {
+Newtonsoft::Json::JsonWriterException o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonWriterException>(message))};
+return o;
+}
  void Newtonsoft::Json::JsonWriterException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonWriterException>::get(),
@@ -204,8 +208,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonWriterException::JsonWriterException(::StringW message, System::Exception innerException)  : Newtonsoft::Json::JsonException(THROW_UNLESS(::il2cpp_utils::New<JsonWriterException>(message, innerException))) {}
+ Newtonsoft::Json::JsonWriterException Newtonsoft::Json::JsonWriterException::New_ctor(::StringW message, System::Exception innerException)  {
+Newtonsoft::Json::JsonWriterException o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonWriterException>(message, innerException))};
+return o;
+}
  void Newtonsoft::Json::JsonWriterException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonWriterException>::get(),
@@ -215,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonWriterException::JsonWriterException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : Newtonsoft::Json::JsonException(THROW_UNLESS(::il2cpp_utils::New<JsonWriterException>(info, context))) {}
+ Newtonsoft::Json::JsonWriterException Newtonsoft::Json::JsonWriterException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+Newtonsoft::Json::JsonWriterException o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonWriterException>(info, context))};
+return o;
+}
  void Newtonsoft::Json::JsonWriterException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonWriterException>::get(),
@@ -226,8 +234,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonWriterException::JsonWriterException(::StringW message, System::Exception innerException, ::StringW path)  : Newtonsoft::Json::JsonException(THROW_UNLESS(::il2cpp_utils::New<JsonWriterException>(message, innerException, path))) {}
+ Newtonsoft::Json::JsonWriterException Newtonsoft::Json::JsonWriterException::New_ctor(::StringW message, System::Exception innerException, ::StringW path)  {
+Newtonsoft::Json::JsonWriterException o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonWriterException>(message, innerException, path))};
+return o;
+}
  void Newtonsoft::Json::JsonWriterException::_ctor(::StringW message, System::Exception innerException, ::StringW path)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonWriterException>::get(),

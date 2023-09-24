@@ -3,10 +3,10 @@
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_def.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements::UIR {
-struct Alloc;
+class GradientRemap;
 }
 namespace UnityEngine::UIElements::UIR {
-class GradientRemap;
+struct Alloc;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -15,7 +15,7 @@ class VectorImageRenderInfo;
 // Type: UnityEngine.UIElements.UIR::VectorImageRenderInfo
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7499), inst: 395 }), TypeDefinitionIndex(TypeDefinitionIndex(7499))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7499)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7499), inst: 395 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7519))
 // CS Name: UnityEngine.UIElements.UIR.VectorImageRenderInfo
 class CORDL_TYPE VectorImageRenderInfo : public UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::VectorImageRenderInfo> {
@@ -78,8 +78,7 @@ constexpr UnityEngine::UIElements::UIR::Alloc __get_gradientSettingsAlloc() cons
 /// @brief Method Reset addr 0x2c54350 size 0x10 virtual false final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit VectorImageRenderInfo() ;
+static UnityEngine::UIElements::UIR::VectorImageRenderInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c542e8 size 0x48 virtual false final false
  void _ctor() ;

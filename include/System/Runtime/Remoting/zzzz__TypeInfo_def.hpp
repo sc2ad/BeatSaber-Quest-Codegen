@@ -84,8 +84,7 @@ constexpr ::ArrayW<::StringW> __get_interfacesImplemented() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit TypeInfo(System::Type type) ;
+static System::Runtime::Remoting::TypeInfo New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2326afc size 0x410 virtual false final false
  void _ctor(System::Type type) ;

@@ -5,23 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Reflection {
-class RuntimeAssembly;
-}
 namespace System {
 struct Guid;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System::Reflection {
 class Assembly;
 }
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System {
 class Type;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Reflection {
+class RuntimeAssembly;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -156,8 +156,7 @@ constexpr int32_t __get_token() const;
 /// @brief Method GetGuidInternal addr 0x23894f4 size 0x4 virtual false final false
 static void GetGuidInternal(::cordl_internals::intptr_t module, ::ArrayW<uint8_t> guid) ;
 
-// Ctor Parameters []
-explicit RuntimeModule() ;
+static System::Reflection::RuntimeModule New_ctor() ;
 
 /// @brief Method .ctor addr 0x23894f8 size 0x58 virtual false final false
  void _ctor() ;

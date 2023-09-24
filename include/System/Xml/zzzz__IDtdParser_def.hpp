@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class IDtdInfo;
+class IDtdParserAdapter;
 }
 namespace System::Xml {
-class IDtdParserAdapter;
+class IDtdInfo;
 }
 // Forward declare root types
 namespace System::Xml {

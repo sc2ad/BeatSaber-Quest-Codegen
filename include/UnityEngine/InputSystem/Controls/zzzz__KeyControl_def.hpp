@@ -85,8 +85,7 @@ constexpr int32_t __get_m_ScanCode() const;
 /// @brief Method RefreshConfiguration addr 0x2978764 size 0x170 virtual true final false
  void RefreshConfiguration() ;
 
-// Ctor Parameters []
-explicit KeyControl() ;
+static UnityEngine::InputSystem::Controls::KeyControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x29788d4 size 0x4 virtual false final false
  void _ctor() ;

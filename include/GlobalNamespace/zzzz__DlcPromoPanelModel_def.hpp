@@ -7,43 +7,46 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class IAnalyticsModel;
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__DlcPromoPanelModel___UpdateNotOwnedPacksAsync_d__17;
 }
 namespace System {
 class Random;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo;
-}
-namespace GlobalNamespace {
-class DlcPromoPanelDataSO;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class AdditionalContentModel;
+class IBeatmapLevelPack;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class AdditionalContentModel;
+}
+namespace GlobalNamespace {
+class DlcPromoPanelDataSO;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
@@ -293,8 +296,7 @@ constexpr System::Random __get__random() const;
 /// @brief Method HandleAdditionalContentModelDidInvalidateData addr 0x21be86c size 0x4 virtual false final false
  void HandleAdditionalContentModelDidInvalidateData() ;
 
-// Ctor Parameters []
-explicit DlcPromoPanelModel() ;
+static GlobalNamespace::DlcPromoPanelModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21be870 size 0x8 virtual false final false
  void _ctor() ;

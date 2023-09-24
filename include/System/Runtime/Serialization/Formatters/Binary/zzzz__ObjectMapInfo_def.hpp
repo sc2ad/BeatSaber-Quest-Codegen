@@ -80,8 +80,7 @@ constexpr ::ArrayW<System::Type> __get_memberTypes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numMembers", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "memberNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "memberTypes", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }]
-explicit ObjectMapInfo(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type> memberTypes) ;
+static System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo New_ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type> memberTypes) ;
 
 /// @brief Method .ctor addr 0x235af98 size 0x40 virtual false final false
  void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type> memberTypes) ;

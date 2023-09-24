@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierInfoListItem_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "HMUI/zzzz__HoverHint_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
+#include "HMUI/zzzz__HoverHint_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameplayModifierInfoListItem.SetModifier
 template<>
 
@@ -60,8 +60,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, modifierParam, showName);
 }
-// Ctor Parameters []
- GlobalNamespace::GameplayModifierInfoListItem::GameplayModifierInfoListItem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GameplayModifierInfoListItem>())) {}
+ GlobalNamespace::GameplayModifierInfoListItem GlobalNamespace::GameplayModifierInfoListItem::New_ctor()  {
+GlobalNamespace::GameplayModifierInfoListItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayModifierInfoListItem>())};
+return o;
+}
  void GlobalNamespace::GameplayModifierInfoListItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplayModifierInfoListItem>::get(),

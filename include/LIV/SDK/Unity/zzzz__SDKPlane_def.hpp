@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
-namespace LIV::SDK::Unity {
-struct SDKVector3;
-}
 namespace UnityEngine {
 struct Plane;
+}
+namespace LIV::SDK::Unity {
+struct SDKVector3;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

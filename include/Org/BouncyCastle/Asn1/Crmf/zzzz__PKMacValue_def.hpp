@@ -2,6 +2,9 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PbmParameter;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
@@ -9,16 +12,13 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PbmParameter;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -88,8 +88,7 @@ constexpr Org::BouncyCastle::Asn1::DerBitString __get_macValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PKMacValue(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Crmf::PKMacValue New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf9454 size 0xb4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -100,14 +99,12 @@ static Org::BouncyCastle::Asn1::Crmf::PKMacValue GetInstance(::bs_hook::Il2CppWr
 /// @brief Method GetInstance addr 0xdf9690 size 0x18 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::PKMacValue GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "pbmParams", ty: "Org::BouncyCastle::Asn1::Cmp::PbmParameter", modifiers: "", def_value: None }, CppParam { name: "macValue", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit PKMacValue(Org::BouncyCastle::Asn1::Cmp::PbmParameter pbmParams, Org::BouncyCastle::Asn1::DerBitString macValue) ;
+static Org::BouncyCastle::Asn1::Crmf::PKMacValue New_ctor(Org::BouncyCastle::Asn1::Cmp::PbmParameter pbmParams, Org::BouncyCastle::Asn1::DerBitString macValue) ;
 
 /// @brief Method .ctor addr 0xdf96a8 size 0xbc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::PbmParameter pbmParams, Org::BouncyCastle::Asn1::DerBitString macValue) ;
 
-// Ctor Parameters [CppParam { name: "algID", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "macValue", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit PKMacValue(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algID, Org::BouncyCastle::Asn1::DerBitString macValue) ;
+static Org::BouncyCastle::Asn1::Crmf::PKMacValue New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algID, Org::BouncyCastle::Asn1::DerBitString macValue) ;
 
 /// @brief Method .ctor addr 0xdf9764 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algID, Org::BouncyCastle::Asn1::DerBitString macValue) ;

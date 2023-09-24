@@ -36,8 +36,10 @@ constexpr void System::Runtime::Remoting::Messaging::CADObjRef::__set_TypeInfo(:
 constexpr ::ArrayW<uint8_t> System::Runtime::Remoting::Messaging::CADObjRef::__get_TypeInfo() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "System::Runtime::Remoting::ObjRef", modifiers: "", def_value: None }, CppParam { name: "sourceDomain", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::CADObjRef::CADObjRef(System::Runtime::Remoting::ObjRef o, int32_t sourceDomain)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CADObjRef>(o, sourceDomain))) {}
+ System::Runtime::Remoting::Messaging::CADObjRef System::Runtime::Remoting::Messaging::CADObjRef::New_ctor(System::Runtime::Remoting::ObjRef o, int32_t sourceDomain)  {
+System::Runtime::Remoting::Messaging::CADObjRef o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::CADObjRef>(o, sourceDomain))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::CADObjRef::_ctor(System::Runtime::Remoting::ObjRef o, int32_t sourceDomain)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::CADObjRef>::get(),

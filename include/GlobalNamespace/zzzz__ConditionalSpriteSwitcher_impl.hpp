@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ConditionalSpriteSwitcher_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ConditionalSpriteSwitcher.get_falseSprite
 template<>
 
@@ -214,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ConditionalSpriteSwitcher::ConditionalSpriteSwitcher()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ConditionalSpriteSwitcher>())) {}
+ GlobalNamespace::ConditionalSpriteSwitcher GlobalNamespace::ConditionalSpriteSwitcher::New_ctor()  {
+GlobalNamespace::ConditionalSpriteSwitcher o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ConditionalSpriteSwitcher>())};
+return o;
+}
  void GlobalNamespace::ConditionalSpriteSwitcher::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ConditionalSpriteSwitcher>::get(),

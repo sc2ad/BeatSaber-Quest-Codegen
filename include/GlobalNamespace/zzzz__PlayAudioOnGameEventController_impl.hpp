@@ -1,10 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayAudioOnGameEventController_def.hpp"
+#include "GlobalNamespace/zzzz__AudioClipQueue_def.hpp"
 #include "GlobalNamespace/zzzz__LocalizedAudioClipSO_def.hpp"
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
-#include "GlobalNamespace/zzzz__AudioClipQueue_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
+#include "GlobalNamespace/zzzz__PlayAudioOnGameEventController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding.Init
 template<>
 
@@ -130,8 +131,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding::GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding>())) {}
+ GlobalNamespace::GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding GlobalNamespace::GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding>::get(),
@@ -222,8 +225,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayAudioOnGameEventController::PlayAudioOnGameEventController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlayAudioOnGameEventController>())) {}
+ GlobalNamespace::PlayAudioOnGameEventController GlobalNamespace::PlayAudioOnGameEventController::New_ctor()  {
+GlobalNamespace::PlayAudioOnGameEventController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayAudioOnGameEventController>())};
+return o;
+}
  void GlobalNamespace::PlayAudioOnGameEventController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayAudioOnGameEventController>::get(),

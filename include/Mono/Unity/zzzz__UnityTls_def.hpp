@@ -4,6 +4,159 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_free_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t;
+}
+namespace GlobalNamespace {
+class Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t;
+}
+namespace Mono::Unity {
+class Mono__Unity__UnityTls__unitytls_tlsctx_trace_callback;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_key_ref;
+}
+namespace Mono::Unity {
+class Mono__Unity__UnityTls__unitytls_tlsctx_write_callback;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_x509list;
+}
+namespace Mono::Unity {
+class Mono__Unity__UnityTls__unitytls_tlsctx_x509verify_callback;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_x509list_ref;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_error_code;
+}
+namespace Mono::Unity {
+class Mono__Unity__UnityTls__unitytls_tlsctx_certificate_callback;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_errorstate;
+}
+namespace Mono::Unity {
+class Mono__Unity__UnityTls__unitytls_x509verify_callback;
+}
+namespace Mono::Unity {
+class Mono__Unity__UnityTls__unitytls_interface_struct;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_x509_ref;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_tlsctx;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_protocol;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_x509name;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_key;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_tlsctx_protocolrange;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_x509verify_result;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_ciphersuite;
+}
+namespace Mono::Unity {
+class Mono__Unity__UnityTls__unitytls_tlsctx_read_callback;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_tlsctx_callbacks;
+}
 // Forward declare root types
 namespace Mono::Unity {
 struct Mono__Unity__UnityTls__unitytls_ciphersuite;
@@ -225,6 +378,8 @@ __UNITYTLS_USER_CUSTOM_ERROR_END = 2097152u,
 constexpr operator __Mono__Unity__UnityTls__unitytls_error_code_Unwrapped () const noexcept {
 return std::bit_cast<__Mono__Unity__UnityTls__unitytls_error_code_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
 
 
 // Fields
@@ -660,6 +815,8 @@ constexpr operator __Mono__Unity__UnityTls__unitytls_x509verify_result_Unwrapped
 return std::bit_cast<__Mono__Unity__UnityTls__unitytls_x509verify_result_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
+
 
 // Fields
 
@@ -763,8 +920,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_x509verify_callback(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_x509verify_callback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Mono::Unity::Mono__Unity__UnityTls__unitytls_x509verify_callback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26862f0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -907,6 +1063,8 @@ constexpr operator __Mono__Unity__UnityTls__unitytls_ciphersuite_Unwrapped () co
 return std::bit_cast<__Mono__Unity__UnityTls__unitytls_ciphersuite_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
+
 
 // Fields
 
@@ -974,6 +1132,8 @@ __UNITYTLS_PROTOCOL_INVALID = 3u,
 constexpr operator __Mono__Unity__UnityTls__unitytls_protocol_Unwrapped () const noexcept {
 return std::bit_cast<__Mono__Unity__UnityTls__unitytls_protocol_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
 
 
 // Fields
@@ -1101,8 +1261,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_tlsctx_write_callback(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_tlsctx_write_callback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Mono::Unity::Mono__Unity__UnityTls__unitytls_tlsctx_write_callback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26863dc size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1156,8 +1315,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_tlsctx_read_callback(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_tlsctx_read_callback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Mono::Unity::Mono__Unity__UnityTls__unitytls_tlsctx_read_callback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26864c8 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1211,8 +1369,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_tlsctx_trace_callback(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_tlsctx_trace_callback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Mono::Unity::Mono__Unity__UnityTls__unitytls_tlsctx_trace_callback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26865b4 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1266,8 +1423,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_tlsctx_certificate_callback(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_tlsctx_certificate_callback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Mono::Unity::Mono__Unity__UnityTls__unitytls_tlsctx_certificate_callback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26866a0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1321,8 +1477,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_tlsctx_x509verify_callback(vo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_tlsctx_x509verify_callback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Mono::Unity::Mono__Unity__UnityTls__unitytls_tlsctx_x509verify_callback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2686794 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1441,8 +1596,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_er
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2686888 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1496,8 +1650,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_er
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2686958 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1551,8 +1704,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_ke
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2686a44 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1606,8 +1758,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_ke
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2686b30 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1661,8 +1812,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_ke
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2686c1c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1716,8 +1866,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_ke
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_free_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_key_free_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2686d08 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1771,8 +1920,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x5
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2686df0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1826,8 +1974,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x5
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2686ec8 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1881,8 +2028,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x5
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2686fb4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1936,8 +2082,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x5
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x268708c size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1991,8 +2136,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x5
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2687174 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2046,8 +2190,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x5
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2687260 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2101,8 +2244,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x5
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x268734c size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2156,8 +2298,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x5
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2687434 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2211,8 +2352,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x5
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x268750c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2266,8 +2406,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26875e8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2321,8 +2460,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26876e8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2376,8 +2514,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26877e8 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2431,8 +2568,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26878d4 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2486,8 +2622,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26879c0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2541,8 +2676,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2687aac size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2596,8 +2730,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2687b98 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2651,8 +2784,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2687c84 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2706,8 +2838,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2687d70 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2761,8 +2892,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2687e5c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2816,8 +2946,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2687f48 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2871,8 +3000,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2688034 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2926,8 +3054,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2688120 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2981,8 +3108,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x268820c size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3036,8 +3162,7 @@ constexpr explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_ra
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26882f4 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3352,8 +3477,7 @@ constexpr GlobalNamespace::Mono__Unity__UnityTls__unitytls_interface_struct__uni
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Unity__UnityTls__unitytls_interface_struct() ;
+static Mono::Unity::Mono__Unity__UnityTls__unitytls_interface_struct New_ctor() ;
 
 /// @brief Method .ctor addr 0x2686880 size 0x8 virtual false final false
  void _ctor() ;

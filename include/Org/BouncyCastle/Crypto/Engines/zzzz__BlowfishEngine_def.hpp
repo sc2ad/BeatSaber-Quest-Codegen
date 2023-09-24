@@ -162,8 +162,7 @@ constexpr ::ArrayW<uint8_t> __get_workingKey() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BlowfishEngine() ;
+static Org::BouncyCastle::Crypto::Engines::BlowfishEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe316cc size 0xe8 virtual false final false
  void _ctor() ;

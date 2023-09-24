@@ -97,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::AbstractF2mFieldElement()  : Org::BouncyCastle::Math::EC::ECFieldElement(THROW_UNLESS(::il2cpp_utils::New<AbstractF2mFieldElement>())) {}
+ Org::BouncyCastle::Math::EC::AbstractF2mFieldElement Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::New_ctor()  {
+Org::BouncyCastle::Math::EC::AbstractF2mFieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::AbstractF2mFieldElement>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::AbstractF2mFieldElement>::get(),

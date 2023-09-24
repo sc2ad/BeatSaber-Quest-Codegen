@@ -1,11 +1,11 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRApplications_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRApplicationTransitionState_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRApplicationProperty_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRApplicationError_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRApplications_def.hpp"
 #include "OVR/OpenVR/zzzz__AppOverrideKeys_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRApplicationError_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRApplicationProperty_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRApplicationTransitionState_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRApplications._ctor
 template<>
 
@@ -556,8 +556,10 @@ constexpr void OVR::OpenVR::CVRApplications::__set_FnTable(OVR::OpenVR::IVRAppli
 constexpr OVR::OpenVR::IVRApplications OVR::OpenVR::CVRApplications::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRApplications, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRApplications::CVRApplications(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRApplications>(pInterface))) {}
+ OVR::OpenVR::CVRApplications OVR::OpenVR::CVRApplications::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRApplications o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRApplications>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRApplications::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRApplications>::get(),

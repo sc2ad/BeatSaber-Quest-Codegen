@@ -2,17 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -74,20 +74,17 @@ constexpr Org::BouncyCastle::Math::EC::ECFieldElement __get_f() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "f", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }]
-explicit X9FieldElement(Org::BouncyCastle::Math::EC::ECFieldElement f) ;
+static Org::BouncyCastle::Asn1::X9::X9FieldElement New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement f) ;
 
 /// @brief Method .ctor addr 0x1125b30 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECFieldElement f) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "s", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit X9FieldElement(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Asn1::Asn1OctetString s) ;
+static Org::BouncyCastle::Asn1::X9::X9FieldElement New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Asn1::Asn1OctetString s) ;
 
 /// @brief Method .ctor addr 0x1126e74 size 0xd4 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Asn1::Asn1OctetString s) ;
 
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "s", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit X9FieldElement(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Asn1::Asn1OctetString s) ;
+static Org::BouncyCastle::Asn1::X9::X9FieldElement New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Asn1::Asn1OctetString s) ;
 
 /// @brief Method .ctor addr 0x1126f48 size 0xfc virtual false final false
  void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Asn1::Asn1OctetString s) ;

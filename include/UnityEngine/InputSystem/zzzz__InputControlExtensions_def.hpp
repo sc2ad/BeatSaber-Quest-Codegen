@@ -8,11 +8,44 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem {
-class InputControl;
+class UnityEngine__InputSystem__InputControlExtensions___GetAllButtonPresses_d__43;
+}
+namespace UnityEngine::InputSystem {
+template<typename TValue>
+class InputControl_1;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlExtensions__InputEventControlEnumerator;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlExtensions__InputEventControlCollection;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlExtensions__ControlBuilder;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlExtensions__Enumerate;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
@@ -20,45 +53,30 @@ struct InputEventPtr;
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::InputSystem {
-template<typename TValue>
-class InputControl_1;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace System {
-class IDisposable;
+struct UnityEngine__InputSystem__InputControlExtensions__DeviceBuilder;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputStateBlock;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct PrimitiveValue;
@@ -137,6 +155,8 @@ __IncludeNonLeafControls = 16,
 constexpr operator __UnityEngine__InputSystem__InputControlExtensions__Enumerate_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputControlExtensions__Enumerate_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -798,8 +818,7 @@ constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlExtens
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__InputControlExtensions___GetAllButtonPresses_d__43(int32_t __1__state) ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlExtensions___GetAllButtonPresses_d__43 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x28d29c0 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;

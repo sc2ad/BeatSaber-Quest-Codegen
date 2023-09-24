@@ -1,12 +1,12 @@
 #pragma once
 #include "LiteNetLib/Utils/zzzz__NtpRequest_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NtpPacket_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "LiteNetLib/zzzz__INetSocketListener_def.hpp"
 #include "LiteNetLib/zzzz__NetSocket_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 //  Writing Method size for method: LiteNetLib::Utils::NtpRequest._ctor
 template<>
 
@@ -165,8 +165,10 @@ constexpr void LiteNetLib::Utils::NtpRequest::__set__ntpEndPoint(System::Net::IP
 constexpr System::Net::IPEndPoint LiteNetLib::Utils::NtpRequest::__get__ntpEndPoint() const {
 return ::cordl_internals::getInstanceField<System::Net::IPEndPoint, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "endPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }, CppParam { name: "onRequestComplete", ty: "System::Action_1<LiteNetLib::Utils::NtpPacket>", modifiers: "", def_value: None }]
- LiteNetLib::Utils::NtpRequest::NtpRequest(System::Net::IPEndPoint endPoint, System::Action_1<LiteNetLib::Utils::NtpPacket> onRequestComplete)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NtpRequest>(endPoint, onRequestComplete))) {}
+ LiteNetLib::Utils::NtpRequest LiteNetLib::Utils::NtpRequest::New_ctor(System::Net::IPEndPoint endPoint, System::Action_1<LiteNetLib::Utils::NtpPacket> onRequestComplete)  {
+LiteNetLib::Utils::NtpRequest o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NtpRequest>(endPoint, onRequestComplete))};
+return o;
+}
  void LiteNetLib::Utils::NtpRequest::_ctor(System::Net::IPEndPoint endPoint, System::Action_1<LiteNetLib::Utils::NtpPacket> onRequestComplete)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NtpRequest>::get(),

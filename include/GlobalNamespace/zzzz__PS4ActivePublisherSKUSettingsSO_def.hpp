@@ -59,8 +59,7 @@ constexpr GlobalNamespace::PS4PublisherSKUSettingsSO __get_activePublisherSKUSet
 
 // Methods
 
-// Ctor Parameters []
-explicit PS4ActivePublisherSKUSettingsSO() ;
+static GlobalNamespace::PS4ActivePublisherSKUSettingsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a164 size 0x8 virtual false final false
  void _ctor() ;

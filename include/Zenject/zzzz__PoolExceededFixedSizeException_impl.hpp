@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "errorMessage", ty: "::StringW", modifiers: "", def_value: None }]
- Zenject::PoolExceededFixedSizeException::PoolExceededFixedSizeException(::StringW errorMessage)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<PoolExceededFixedSizeException>(errorMessage))) {}
+ Zenject::PoolExceededFixedSizeException Zenject::PoolExceededFixedSizeException::New_ctor(::StringW errorMessage)  {
+Zenject::PoolExceededFixedSizeException o{THROW_UNLESS(::il2cpp_utils::New<Zenject::PoolExceededFixedSizeException>(errorMessage))};
+return o;
+}
  void Zenject::PoolExceededFixedSizeException::_ctor(::StringW errorMessage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::PoolExceededFixedSizeException>::get(),

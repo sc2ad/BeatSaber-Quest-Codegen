@@ -52,8 +52,7 @@ constexpr explicit DistanceObjectiveValueFormatterSO(void* ptr) noexcept : Globa
 /// @brief Method FormatValue addr 0x21f0d70 size 0x80 virtual true final false
  ::StringW FormatValue(int32_t value) ;
 
-// Ctor Parameters []
-explicit DistanceObjectiveValueFormatterSO() ;
+static GlobalNamespace::DistanceObjectiveValueFormatterSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f0df0 size 0x8 virtual false final false
  void _ctor() ;

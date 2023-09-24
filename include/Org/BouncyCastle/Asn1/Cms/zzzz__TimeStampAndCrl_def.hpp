@@ -9,10 +9,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class CertificateList;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -82,14 +82,12 @@ constexpr Org::BouncyCastle::Asn1::X509::CertificateList __get_crl() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "timeStamp", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit TimeStampAndCrl(Org::BouncyCastle::Asn1::Cms::ContentInfo timeStamp) ;
+static Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo timeStamp) ;
 
 /// @brief Method .ctor addr 0xdf3f10 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo timeStamp) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit TimeStampAndCrl(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf3f38 size 0x88 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

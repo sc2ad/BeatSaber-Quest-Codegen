@@ -57,14 +57,12 @@ constexpr ::StringW __get__errorMsg() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_HoudiniEngineError() ;
+static HoudiniEngineUnity::HEU_HoudiniEngineError New_ctor() ;
 
 /// @brief Method .ctor addr 0x2016b20 size 0x7c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "errorMsg", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HEU_HoudiniEngineError(::StringW errorMsg) ;
+static HoudiniEngineUnity::HEU_HoudiniEngineError New_ctor(::StringW errorMsg) ;
 
 /// @brief Method .ctor addr 0x2016b9c size 0x88 virtual false final false
  void _ctor(::StringW errorMsg) ;

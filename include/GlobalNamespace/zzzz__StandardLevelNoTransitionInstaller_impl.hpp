@@ -85,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container);
 }
-// Ctor Parameters []
- GlobalNamespace::StandardLevelNoTransitionInstaller::StandardLevelNoTransitionInstaller()  : Zenject::NoTransitionInstaller(THROW_UNLESS(::il2cpp_utils::New<StandardLevelNoTransitionInstaller>())) {}
+ GlobalNamespace::StandardLevelNoTransitionInstaller GlobalNamespace::StandardLevelNoTransitionInstaller::New_ctor()  {
+GlobalNamespace::StandardLevelNoTransitionInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardLevelNoTransitionInstaller>())};
+return o;
+}
  void GlobalNamespace::StandardLevelNoTransitionInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardLevelNoTransitionInstaller>::get(),

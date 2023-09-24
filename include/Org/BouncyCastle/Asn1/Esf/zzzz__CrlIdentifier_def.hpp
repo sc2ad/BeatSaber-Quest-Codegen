@@ -2,9 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerUtcTime;
 }
@@ -14,11 +11,14 @@ class DerInteger;
 namespace System {
 struct DateTime;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -102,20 +102,17 @@ constexpr Org::BouncyCastle::Asn1::DerInteger __get_crlNumber() const;
 /// @brief Method GetInstance addr 0xe03260 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::CrlIdentifier GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CrlIdentifier(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::CrlIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe033e8 size 0x218 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "crlIssuer", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "crlIssuedTime", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit CrlIdentifier(Org::BouncyCastle::Asn1::X509::X509Name crlIssuer, System::DateTime crlIssuedTime) ;
+static Org::BouncyCastle::Asn1::Esf::CrlIdentifier New_ctor(Org::BouncyCastle::Asn1::X509::X509Name crlIssuer, System::DateTime crlIssuedTime) ;
 
 /// @brief Method .ctor addr 0xe03600 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name crlIssuer, System::DateTime crlIssuedTime) ;
 
-// Ctor Parameters [CppParam { name: "crlIssuer", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "crlIssuedTime", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "crlNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit CrlIdentifier(Org::BouncyCastle::Asn1::X509::X509Name crlIssuer, System::DateTime crlIssuedTime, Org::BouncyCastle::Math::BigInteger crlNumber) ;
+static Org::BouncyCastle::Asn1::Esf::CrlIdentifier New_ctor(Org::BouncyCastle::Asn1::X509::X509Name crlIssuer, System::DateTime crlIssuedTime, Org::BouncyCastle::Math::BigInteger crlNumber) ;
 
 /// @brief Method .ctor addr 0xe03608 size 0x10c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name crlIssuer, System::DateTime crlIssuedTime, Org::BouncyCastle::Math::BigInteger crlNumber) ;

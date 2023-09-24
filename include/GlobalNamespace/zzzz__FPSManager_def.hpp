@@ -4,11 +4,11 @@
 namespace GlobalNamespace {
 class BoolSO;
 }
-namespace UnityEngine {
-class Canvas;
-}
 namespace GlobalNamespace {
 class MainCamera;
+}
+namespace UnityEngine {
+class Canvas;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::MainCamera __get__mainCamera() const;
 /// @brief Method Start addr 0x21936c0 size 0xe4 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit FPSManager() ;
+static GlobalNamespace::FPSManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x21937a4 size 0x8 virtual false final false
  void _ctor() ;

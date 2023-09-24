@@ -252,8 +252,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::BigInteger, false>(nullptr, ___internal_method, x);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::Raw::Nat576::Nat576()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Nat576>())) {}
+ Org::BouncyCastle::Math::Raw::Nat576 Org::BouncyCastle::Math::Raw::Nat576::New_ctor()  {
+Org::BouncyCastle::Math::Raw::Nat576 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::Raw::Nat576>())};
+return o;
+}
  void Org::BouncyCastle::Math::Raw::Nat576::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::Raw::Nat576>::get(),

@@ -47,8 +47,10 @@ constexpr void RootMotion::InspectorComment::__set_color(::StringW value)  {
 constexpr ::StringW RootMotion::InspectorComment::__get_color() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- RootMotion::InspectorComment::InspectorComment(::StringW name)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<InspectorComment>(name))) {}
+ RootMotion::InspectorComment RootMotion::InspectorComment::New_ctor(::StringW name)  {
+RootMotion::InspectorComment o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::InspectorComment>(name))};
+return o;
+}
  void RootMotion::InspectorComment::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::InspectorComment>::get(),
@@ -58,8 +60,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::StringW", modifiers: "", def_value: None }]
- RootMotion::InspectorComment::InspectorComment(::StringW name, ::StringW color)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<InspectorComment>(name, color))) {}
+ RootMotion::InspectorComment RootMotion::InspectorComment::New_ctor(::StringW name, ::StringW color)  {
+RootMotion::InspectorComment o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::InspectorComment>(name, color))};
+return o;
+}
  void RootMotion::InspectorComment::_ctor(::StringW name, ::StringW color)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::InspectorComment>::get(),

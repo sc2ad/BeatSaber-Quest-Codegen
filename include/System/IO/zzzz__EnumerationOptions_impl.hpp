@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__EnumerationOptions_def.hpp"
-#include "System/IO/zzzz__FileAttributes_def.hpp"
-#include "System/IO/zzzz__SearchOption_def.hpp"
 #include "System/IO/zzzz__MatchType_def.hpp"
+#include "System/IO/zzzz__SearchOption_def.hpp"
+#include "System/IO/zzzz__FileAttributes_def.hpp"
 #include "System/IO/zzzz__MatchCasing_def.hpp"
 //  Writing Method size for method: System::IO::EnumerationOptions.get_Compatible
 template<>
@@ -340,8 +340,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IO::EnumerationOptions, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::IO::EnumerationOptions::EnumerationOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EnumerationOptions>())) {}
+ System::IO::EnumerationOptions System::IO::EnumerationOptions::New_ctor()  {
+System::IO::EnumerationOptions o{THROW_UNLESS(::il2cpp_utils::New<System::IO::EnumerationOptions>())};
+return o;
+}
  void System::IO::EnumerationOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::EnumerationOptions>::get(),

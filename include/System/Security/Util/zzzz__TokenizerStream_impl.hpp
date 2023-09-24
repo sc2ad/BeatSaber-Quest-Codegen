@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Security/Util/zzzz__TokenizerStream_def.hpp"
-#include "System/Security/Util/zzzz__TokenizerShortBlock_def.hpp"
 #include "System/Security/Util/zzzz__TokenizerStringBlock_def.hpp"
+#include "System/Security/Util/zzzz__TokenizerShortBlock_def.hpp"
 //  Writing Method size for method: System::Security::Util::TokenizerStream._ctor
 template<>
 
@@ -237,8 +237,10 @@ constexpr void System::Security::Util::TokenizerStream::__set_m_indexStrings(int
 constexpr int32_t System::Security::Util::TokenizerStream::__get_m_indexStrings() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Util::TokenizerStream::TokenizerStream()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TokenizerStream>())) {}
+ System::Security::Util::TokenizerStream System::Security::Util::TokenizerStream::New_ctor()  {
+System::Security::Util::TokenizerStream o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Util::TokenizerStream>())};
+return o;
+}
  void System::Security::Util::TokenizerStream::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Util::TokenizerStream>::get(),

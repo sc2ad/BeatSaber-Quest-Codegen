@@ -8,12 +8,18 @@ namespace System {
 template<typename T>
 class Action_1;
 }
-namespace UnityEngine::Android {
-class PermissionCallbacks;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPermissionsRequester__Permission;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace UnityEngine::Android {
+class PermissionCallbacks;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPermissionsRequester____c;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,6 +81,8 @@ __EyeTracking = 2,
 constexpr operator __GlobalNamespace__OVRPermissionsRequester__Permission_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPermissionsRequester__Permission_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -167,8 +175,7 @@ static System::Action_1<::StringW> __get___9__12_2() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRPermissionsRequester____c() ;
+static GlobalNamespace::GlobalNamespace__OVRPermissionsRequester____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x25dcad8 size 0x8 virtual false final false
  void _ctor() ;

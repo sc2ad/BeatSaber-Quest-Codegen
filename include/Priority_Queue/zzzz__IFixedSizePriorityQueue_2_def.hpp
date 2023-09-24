@@ -1,6 +1,9 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerable;
+}
 namespace Priority_Queue {
 template<typename TItem,typename TPriority>
 class IPriorityQueue_2;
@@ -8,9 +11,6 @@ class IPriorityQueue_2;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace Priority_Queue {

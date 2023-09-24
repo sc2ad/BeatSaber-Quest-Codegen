@@ -47,8 +47,7 @@ constexpr explicit LinqTunnelAttribute(void* ptr) noexcept : System::Attribute(p
 
 // Methods
 
-// Ctor Parameters []
-explicit LinqTunnelAttribute() ;
+static JetBrains::Annotations::LinqTunnelAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41268 size 0x8 virtual false final false
  void _ctor() ;

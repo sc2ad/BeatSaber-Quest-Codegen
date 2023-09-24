@@ -1,16 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/X509/zzzz__V2AttributeCertificateInfoGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__Holder_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AttCertIssuer_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeCertificateInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AttCertIssuer_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeCertificateInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator._ctor
 template<>
 
@@ -275,8 +275,10 @@ constexpr void Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerato
 constexpr Org::BouncyCastle::Asn1::DerGeneralizedTime Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator::__get_endDate() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerGeneralizedTime, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator::V2AttributeCertificateInfoGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<V2AttributeCertificateInfoGenerator>())) {}
+ Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator::New_ctor()  {
+Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator>::get(),

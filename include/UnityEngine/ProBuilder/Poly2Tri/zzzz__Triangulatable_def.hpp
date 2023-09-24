@@ -1,11 +1,7 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationContext;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+class DelaunayTriangle;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -15,10 +11,14 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 struct TriangulationMode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+class TriangulationContext;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
+class TriangulationPoint;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

@@ -5,9 +5,13 @@ namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__OVRObjectPool__Storage_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class Stack_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -15,11 +19,11 @@ class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class Stack_1;
+class Queue_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class Queue_1;
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

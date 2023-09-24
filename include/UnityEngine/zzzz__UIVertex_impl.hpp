@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__UIVertex_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 // Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "normal", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "tangent", ty: "UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv0", ty: "UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv1", ty: "UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv2", ty: "UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv3", ty: "UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIVertex::UIVertex(UnityEngine::Vector3 position, UnityEngine::Vector3 normal, UnityEngine::Vector4 tangent, UnityEngine::Color32 color, UnityEngine::Vector4 uv0, UnityEngine::Vector4 uv1, UnityEngine::Vector4 uv2, UnityEngine::Vector4 uv3) noexcept : ::bs_hook::ValueTypeWrapper() {this->position = position;

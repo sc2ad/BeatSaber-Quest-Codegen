@@ -6,6 +6,10 @@
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace UnityEngine::UIElements {
 class ScrollView;
 }
@@ -14,10 +18,6 @@ class VisualElement;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -89,8 +89,7 @@ constexpr UnityEngine::UIElements::ScrollView __get_m_ScrollView() const;
 /// @brief Method get_visibleItemCount addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_visibleItemCount() ;
 
-// Ctor Parameters [CppParam { name: "scrollView", ty: "UnityEngine::UIElements::ScrollView", modifiers: "", def_value: None }]
-explicit CollectionVirtualizationController(UnityEngine::UIElements::ScrollView scrollView) ;
+static UnityEngine::UIElements::CollectionVirtualizationController New_ctor(UnityEngine::UIElements::ScrollView scrollView) ;
 
 /// @brief Method .ctor addr 0x2d119a4 size 0x28 virtual false final false
  void _ctor(UnityEngine::UIElements::ScrollView scrollView) ;

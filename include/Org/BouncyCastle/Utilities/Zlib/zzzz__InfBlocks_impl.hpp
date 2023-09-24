@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__InfBlocks_def.hpp"
-#include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__InfCodes_def.hpp"
+#include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__InfTree_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Zlib::InfBlocks._ctor
 template<>
@@ -248,8 +248,10 @@ constexpr void Org::BouncyCastle::Utilities::Zlib::InfBlocks::__set_inftree(Org:
 constexpr Org::BouncyCastle::Utilities::Zlib::InfTree Org::BouncyCastle::Utilities::Zlib::InfBlocks::__get_inftree() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Utilities::Zlib::InfTree, 0x80>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "z", ty: "Org::BouncyCastle::Utilities::Zlib::ZStream", modifiers: "", def_value: None }, CppParam { name: "checkfn", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Zlib::InfBlocks::InfBlocks(Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::Il2CppWrapperType checkfn, int32_t w)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InfBlocks>(z, checkfn, w))) {}
+ Org::BouncyCastle::Utilities::Zlib::InfBlocks Org::BouncyCastle::Utilities::Zlib::InfBlocks::New_ctor(Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::Il2CppWrapperType checkfn, int32_t w)  {
+Org::BouncyCastle::Utilities::Zlib::InfBlocks o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::InfBlocks>(z, checkfn, w))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::InfBlocks::_ctor(Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::Il2CppWrapperType checkfn, int32_t w)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::InfBlocks>::get(),

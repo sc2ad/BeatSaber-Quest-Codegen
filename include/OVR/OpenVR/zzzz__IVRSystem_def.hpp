@@ -15,25 +15,25 @@ namespace System {
 class IAsyncResult;
 }
 namespace OVR::OpenVR {
-struct HmdMatrix34_t;
-}
-namespace OVR::OpenVR {
 struct TrackedDevicePose_t;
 }
 namespace OVR::OpenVR {
-struct EVREye;
+struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
 struct DistortionCoordinates_t;
+}
+namespace OVR::OpenVR {
+struct EVREye;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-struct ETrackedDeviceProperty;
+struct ETrackedPropertyError;
 }
 namespace OVR::OpenVR {
-struct ETrackedPropertyError;
+struct ETrackedDeviceProperty;
 }
 namespace OVR::OpenVR {
 struct EVRButtonId;
@@ -76,6 +76,147 @@ struct EVRFirmwareError;
 }
 namespace OVR::OpenVR {
 struct VREvent_t;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___ApplyTransform;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetProjectionRaw;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___IsSteamVRDrawingControllers;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetFloatTrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___ShouldApplicationPause;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___ComputeDistortion;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetTimeSinceLastVsync;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___IsDisplayOnDesktop;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetTrackedDeviceActivityLevel;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetEventTypeNameFromEnum;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetDXGIOutputInfo;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetSortedTrackedDeviceIndicesOfClass;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___SetDisplayVisibility;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___ResetSeatedZeroPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___IsInputAvailable;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetRecommendedRenderTargetSize;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___ShouldApplicationReduceRenderingWork;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___PollNextEventWithPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___PerformFirmwareUpdate;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___IsTrackedDeviceConnected;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___PollNextEvent;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetControllerRoleForTrackedDeviceIndex;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetBoolTrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetInt32TrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetMatrix34TrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetArrayTrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetStringTrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetProjectionMatrix;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetOutputDevice;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetTrackedDeviceClass;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___TriggerHapticPulse;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetUint64TrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetControllerState;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetButtonIdNameFromEnum;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetControllerAxisTypeNameFromEnum;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___DriverDebugRequest;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___AcknowledgeQuit_Exiting;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___AcknowledgeQuit_UserPrompt;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetTrackedDeviceIndexForControllerRole;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetPropErrorNameFromEnum;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetHiddenAreaMesh;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetEyeToHeadTransform;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetControllerStateWithPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetDeviceToAbsoluteTrackingPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRSystem___GetD3D9AdapterIndex;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -264,8 +405,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetRecommendedRenderTargetSize(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetRecommendedRenderTargetSize(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetRecommendedRenderTargetSize New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2641878 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -325,8 +465,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetProjectionMatrix(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetProjectionMatrix(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetProjectionMatrix New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2641a2c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -386,8 +525,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetProjectionRaw(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetProjectionRaw(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetProjectionRaw New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2641c0c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -447,8 +585,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___ComputeDistortion(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___ComputeDistortion(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___ComputeDistortion New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2641e1c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -508,8 +645,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetEyeToHeadTransform(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetEyeToHeadTransform(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetEyeToHeadTransform New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2642024 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -569,8 +705,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetTimeSinceLastVsync(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetTimeSinceLastVsync(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetTimeSinceLastVsync New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26421b8 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -630,8 +765,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetD3D9AdapterIndex(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetD3D9AdapterIndex(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetD3D9AdapterIndex New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2642398 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -691,8 +825,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetDXGIOutputInfo(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetDXGIOutputInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetDXGIOutputInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26424b0 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -752,8 +885,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetOutputDevice(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetOutputDevice(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetOutputDevice New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2642640 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -813,8 +945,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___IsDisplayOnDesktop(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___IsDisplayOnDesktop(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___IsDisplayOnDesktop New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2642830 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -874,8 +1005,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___SetDisplayVisibility(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___SetDisplayVisibility(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___SetDisplayVisibility New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2642948 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -935,8 +1065,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetDeviceToAbsoluteTrackingPose(void
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetDeviceToAbsoluteTrackingPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetDeviceToAbsoluteTrackingPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2642ad4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -996,8 +1125,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___ResetSeatedZeroPose(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___ResetSeatedZeroPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___ResetSeatedZeroPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2642ca8 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1057,8 +1185,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteT
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2642da4 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1118,8 +1245,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrac
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2642ecc size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1179,8 +1305,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetSortedTrackedDeviceIndicesOfClass
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetSortedTrackedDeviceIndicesOfClass(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetSortedTrackedDeviceIndicesOfClass New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2642ff4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1240,8 +1365,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetTrackedDeviceActivityLevel(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetTrackedDeviceActivityLevel(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetTrackedDeviceActivityLevel New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26431c4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1301,8 +1425,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___ApplyTransform(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___ApplyTransform(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___ApplyTransform New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2643348 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1362,8 +1485,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetTrackedDeviceIndexForControllerRo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetTrackedDeviceIndexForControllerRole(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetTrackedDeviceIndexForControllerRole New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2643530 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1423,8 +1545,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetControllerRoleForTrackedDeviceInd
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetControllerRoleForTrackedDeviceIndex(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetControllerRoleForTrackedDeviceIndex New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26436b4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1484,8 +1605,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetTrackedDeviceClass(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetTrackedDeviceClass(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetTrackedDeviceClass New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2643838 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1545,8 +1665,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___IsTrackedDeviceConnected(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___IsTrackedDeviceConnected(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___IsTrackedDeviceConnected New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26439bc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1606,8 +1725,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetBoolTrackedDeviceProperty(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetBoolTrackedDeviceProperty(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetBoolTrackedDeviceProperty New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2643b40 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1667,8 +1785,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetFloatTrackedDeviceProperty(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetFloatTrackedDeviceProperty(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetFloatTrackedDeviceProperty New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2643d2c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1728,8 +1845,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetInt32TrackedDeviceProperty(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetInt32TrackedDeviceProperty(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetInt32TrackedDeviceProperty New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2643f18 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1789,8 +1905,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetUint64TrackedDeviceProperty(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetUint64TrackedDeviceProperty(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetUint64TrackedDeviceProperty New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2644104 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1850,8 +1965,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetMatrix34TrackedDeviceProperty(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetMatrix34TrackedDeviceProperty(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetMatrix34TrackedDeviceProperty New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26442f0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1911,8 +2025,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetArrayTrackedDeviceProperty(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetArrayTrackedDeviceProperty(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetArrayTrackedDeviceProperty New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26444f4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1972,8 +2085,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetStringTrackedDeviceProperty(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetStringTrackedDeviceProperty(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetStringTrackedDeviceProperty New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264473c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2033,8 +2145,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetPropErrorNameFromEnum(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetPropErrorNameFromEnum(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetPropErrorNameFromEnum New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2644944 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2094,8 +2205,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___PollNextEvent(void* ptr) noexcept : 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___PollNextEvent(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___PollNextEvent New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2644ac8 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2155,8 +2265,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___PollNextEventWithPose(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___PollNextEventWithPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___PollNextEventWithPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2644c98 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2216,8 +2325,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetEventTypeNameFromEnum(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetEventTypeNameFromEnum(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetEventTypeNameFromEnum New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2644ec0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2277,8 +2385,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetHiddenAreaMesh(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetHiddenAreaMesh(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetHiddenAreaMesh New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2645044 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2338,8 +2445,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetControllerState(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetControllerState(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetControllerState New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26451fc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2399,8 +2505,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetControllerStateWithPose(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetControllerStateWithPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetControllerStateWithPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26453cc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2460,8 +2565,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___TriggerHapticPulse(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___TriggerHapticPulse(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___TriggerHapticPulse New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264560c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2521,8 +2625,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetButtonIdNameFromEnum(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetButtonIdNameFromEnum(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetButtonIdNameFromEnum New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26457bc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2582,8 +2685,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___GetControllerAxisTypeNameFromEnum(vo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___GetControllerAxisTypeNameFromEnum(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___GetControllerAxisTypeNameFromEnum New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2645940 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2643,8 +2745,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___IsInputAvailable(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___IsInputAvailable(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___IsInputAvailable New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2645ac4 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2704,8 +2805,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___IsSteamVRDrawingControllers(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___IsSteamVRDrawingControllers(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___IsSteamVRDrawingControllers New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2645bdc size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2765,8 +2865,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___ShouldApplicationPause(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___ShouldApplicationPause(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___ShouldApplicationPause New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2645cf4 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2826,8 +2925,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___ShouldApplicationReduceRenderingWork
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___ShouldApplicationReduceRenderingWork(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___ShouldApplicationReduceRenderingWork New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2645e0c size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2887,8 +2985,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___DriverDebugRequest(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___DriverDebugRequest(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___DriverDebugRequest New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2645f24 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -2948,8 +3045,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___PerformFirmwareUpdate(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___PerformFirmwareUpdate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___PerformFirmwareUpdate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26460d0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3009,8 +3105,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___AcknowledgeQuit_Exiting(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___AcknowledgeQuit_Exiting(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___AcknowledgeQuit_Exiting New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2646254 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -3070,8 +3165,7 @@ constexpr explicit OVR__OpenVR__IVRSystem___AcknowledgeQuit_UserPrompt(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRSystem___AcknowledgeQuit_UserPrompt(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRSystem___AcknowledgeQuit_UserPrompt New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2646350 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

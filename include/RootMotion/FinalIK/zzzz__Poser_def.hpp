@@ -108,8 +108,7 @@ constexpr bool __get_initiated() const;
 /// @brief Method FixTransforms addr 0x1201268 size 0x18 virtual true final false
  void FixTransforms() ;
 
-// Ctor Parameters []
-explicit Poser() ;
+static RootMotion::FinalIK::Poser New_ctor() ;
 
 /// @brief Method .ctor addr 0x1200b54 size 0x10 virtual false final false
  void _ctor() ;

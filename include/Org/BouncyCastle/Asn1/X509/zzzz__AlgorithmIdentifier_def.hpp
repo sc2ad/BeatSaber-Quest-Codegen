@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -94,26 +94,22 @@ static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier GetInstance(Org::Bounc
 /// @brief Method GetInstance addr 0xee723c size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit AlgorithmIdentifier(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm) ;
+static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm) ;
 
 /// @brief Method .ctor addr 0xefa2c4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AlgorithmIdentifier(::StringW algorithm) ;
+static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier New_ctor(::StringW algorithm) ;
 
 /// @brief Method .ctor addr 0xefa2ec size 0x7c virtual false final false
  void _ctor(::StringW algorithm) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit AlgorithmIdentifier(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
+static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
 /// @brief Method .ctor addr 0xefa368 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit AlgorithmIdentifier(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xefa124 size 0x1a0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

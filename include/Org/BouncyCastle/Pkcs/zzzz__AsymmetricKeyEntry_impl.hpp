@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Entry_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__AsymmetricKeyEntry_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkcs::AsymmetricKeyEntry._ctor
 template<>
 
@@ -112,8 +112,10 @@ constexpr void Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::__set_key(Org::Bounc
 constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::__get_key() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::AsymmetricKeyParameter, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::AsymmetricKeyEntry(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key)  : Org::BouncyCastle::Pkcs::Pkcs12Entry(THROW_UNLESS(::il2cpp_utils::New<AsymmetricKeyEntry>(key))) {}
+ Org::BouncyCastle::Pkcs::AsymmetricKeyEntry Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key)  {
+Org::BouncyCastle::Pkcs::AsymmetricKeyEntry o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::AsymmetricKeyEntry>(key))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::AsymmetricKeyEntry>::get(),
@@ -123,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::AsymmetricKeyEntry(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::Hashtable attributes)  : Org::BouncyCastle::Pkcs::Pkcs12Entry(THROW_UNLESS(::il2cpp_utils::New<AsymmetricKeyEntry>(key, attributes))) {}
+ Org::BouncyCastle::Pkcs::AsymmetricKeyEntry Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::Hashtable attributes)  {
+Org::BouncyCastle::Pkcs::AsymmetricKeyEntry o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::AsymmetricKeyEntry>(key, attributes))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::Hashtable attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::AsymmetricKeyEntry>::get(),
@@ -134,8 +138,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key, attributes);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::AsymmetricKeyEntry(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::IDictionary attributes)  : Org::BouncyCastle::Pkcs::Pkcs12Entry(THROW_UNLESS(::il2cpp_utils::New<AsymmetricKeyEntry>(key, attributes))) {}
+ Org::BouncyCastle::Pkcs::AsymmetricKeyEntry Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::IDictionary attributes)  {
+Org::BouncyCastle::Pkcs::AsymmetricKeyEntry o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::AsymmetricKeyEntry>(key, attributes))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, System::Collections::IDictionary attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::AsymmetricKeyEntry>::get(),

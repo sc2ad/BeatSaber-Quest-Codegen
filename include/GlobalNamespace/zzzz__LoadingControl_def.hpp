@@ -3,20 +3,20 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace UnityEngine {
-class GameObject;
-}
 namespace System {
 class Action;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine::UI {
 class Image;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -162,8 +162,7 @@ constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 /// @brief Method Hide addr 0x2126a58 size 0x24 virtual false final false
  void Hide() ;
 
-// Ctor Parameters []
-explicit LoadingControl() ;
+static GlobalNamespace::LoadingControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2126a7c size 0x8 virtual false final false
  void _ctor() ;

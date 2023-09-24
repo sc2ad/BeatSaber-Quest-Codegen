@@ -2,10 +2,11 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__Target_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__Target_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__Target__Choice::Org__BouncyCastle__Asn1__X509__Target__Choice(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -144,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::Target, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "tagObj", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Target::Target(Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Target>(tagObj))) {}
+ Org::BouncyCastle::Asn1::X509::Target Org::BouncyCastle::Asn1::X509::Target::New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj)  {
+Org::BouncyCastle::Asn1::X509::Target o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Target>(tagObj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Target::_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Target>::get(),
@@ -155,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tagObj);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__Target__Choice", modifiers: "", def_value: None }, CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Target::Target(Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__Target__Choice type, Org::BouncyCastle::Asn1::X509::GeneralName name)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Target>(type, name))) {}
+ Org::BouncyCastle::Asn1::X509::Target Org::BouncyCastle::Asn1::X509::Target::New_ctor(Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__Target__Choice type, Org::BouncyCastle::Asn1::X509::GeneralName name)  {
+Org::BouncyCastle::Asn1::X509::Target o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Target>(type, name))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Target::_ctor(Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__Target__Choice type, Org::BouncyCastle::Asn1::X509::GeneralName name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Target>::get(),

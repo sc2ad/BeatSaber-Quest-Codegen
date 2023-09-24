@@ -10,11 +10,11 @@ class IEnumerable_1;
 namespace System {
 class Type;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -27,29 +27,44 @@ namespace System {
 class Attribute;
 }
 namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace ModestTree {
+class ModestTree__TypeExtensions___GetParentTypes_d__28;
+}
+namespace System::Reflection {
 class FieldInfo;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace ModestTree {
+class ModestTree__TypeExtensions____c__DisplayClass35_1;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System {
+class Delegate;
+}
+namespace ModestTree {
+class ModestTree__TypeExtensions____c__DisplayClass35_0;
 }
 namespace System::Reflection {
 class ParameterInfo;
 }
 namespace System::Reflection {
-class MemberInfo;
+class PropertyInfo;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace ModestTree {
+class ModestTree__TypeExtensions____c__DisplayClass39_0;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System {
-class Delegate;
-}
-namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System::Reflection {
-class PropertyInfo;
+namespace ModestTree {
+class ModestTree__TypeExtensions____c__DisplayClass39_1;
 }
 // Forward declare root types
 namespace ModestTree {
@@ -173,8 +188,7 @@ constexpr System::Collections::Generic::IEnumerator_1<System::Type> __get___7__w
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ModestTree__TypeExtensions___GetParentTypes_d__28(int32_t __1__state) ;
+static ModestTree::ModestTree__TypeExtensions___GetParentTypes_d__28 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d43840 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -258,8 +272,7 @@ constexpr ::ArrayW<System::Type> __get_attributeTypes() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ModestTree__TypeExtensions____c__DisplayClass35_0() ;
+static ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d43bb8 size 0x8 virtual false final false
  void _ctor() ;
@@ -322,8 +335,7 @@ constexpr System::Attribute __get_a() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ModestTree__TypeExtensions____c__DisplayClass35_1() ;
+static ModestTree::ModestTree__TypeExtensions____c__DisplayClass35_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d44640 size 0x8 virtual false final false
  void _ctor() ;
@@ -386,8 +398,7 @@ constexpr ::ArrayW<System::Type> __get_attributeTypes() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ModestTree__TypeExtensions____c__DisplayClass39_0() ;
+static ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d43d98 size 0x8 virtual false final false
  void _ctor() ;
@@ -450,8 +461,7 @@ constexpr System::Attribute __get_a() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ModestTree__TypeExtensions____c__DisplayClass39_1() ;
+static ModestTree::ModestTree__TypeExtensions____c__DisplayClass39_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d44798 size 0x8 virtual false final false
  void _ctor() ;

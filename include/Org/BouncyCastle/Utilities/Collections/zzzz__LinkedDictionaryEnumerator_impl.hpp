@@ -160,8 +160,10 @@ constexpr void Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumer
 constexpr int32_t Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::__get_pos() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "Org::BouncyCastle::Utilities::Collections::LinkedDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::LinkedDictionaryEnumerator(Org::BouncyCastle::Utilities::Collections::LinkedDictionary parent)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LinkedDictionaryEnumerator>(parent))) {}
+ Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::New_ctor(Org::BouncyCastle::Utilities::Collections::LinkedDictionary parent)  {
+Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator>(parent))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::_ctor(Org::BouncyCastle::Utilities::Collections::LinkedDictionary parent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator>::get(),

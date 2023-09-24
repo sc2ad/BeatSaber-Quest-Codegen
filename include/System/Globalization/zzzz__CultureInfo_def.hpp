@@ -7,41 +7,47 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Globalization {
-struct CultureTypes;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+class CompareInfo;
 }
 namespace System {
-class Type;
-}
-namespace System::Globalization {
-class CompareInfo;
+class Exception;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System::Globalization {
-class TextInfo;
-}
-namespace System {
-class Exception;
-}
-namespace System::Globalization {
-class CultureData;
-}
-namespace System::Globalization {
-class DateTimeFormatInfo;
-}
-namespace System {
-class ICloneable;
+struct System__Globalization__CultureInfo__Data;
 }
 namespace System::Globalization {
 class NumberFormatInfo;
 }
 namespace System::Globalization {
+struct CultureTypes;
+}
+namespace System::Globalization {
+class DateTimeFormatInfo;
+}
+namespace System::Globalization {
+class CultureData;
+}
+namespace System {
+class Type;
+}
+namespace System::Globalization {
+class TextInfo;
+}
+namespace System {
+class ICloneable;
+}
+namespace System::Globalization {
+class System__Globalization__CultureInfo__OnCultureInfoChangedDelegate;
+}
+namespace System::Globalization {
 class Calendar;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -178,8 +184,7 @@ constexpr explicit System__Globalization__CultureInfo__OnCultureInfoChangedDeleg
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Globalization__CultureInfo__OnCultureInfoChangedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Globalization::System__Globalization__CultureInfo__OnCultureInfoChangedDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2409ef0 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -631,44 +636,37 @@ static ::ArrayW<System::Globalization::CultureInfo> internal_get_cultures(bool n
 /// @brief Method CreateTextInfo addr 0x2404db8 size 0x78 virtual false final false
  System::Globalization::TextInfo CreateTextInfo(bool readOnly) ;
 
-// Ctor Parameters [CppParam { name: "culture", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CultureInfo(int32_t culture) ;
+static System::Globalization::CultureInfo New_ctor(int32_t culture) ;
 
 /// @brief Method .ctor addr 0x2404c90 size 0xc virtual false final false
  void _ctor(int32_t culture) ;
 
-// Ctor Parameters [CppParam { name: "culture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "useUserOverride", ty: "bool", modifiers: "", def_value: None }]
-explicit CultureInfo(int32_t culture, bool useUserOverride) ;
+static System::Globalization::CultureInfo New_ctor(int32_t culture, bool useUserOverride) ;
 
 /// @brief Method .ctor addr 0x2405b1c size 0xc virtual false final false
  void _ctor(int32_t culture, bool useUserOverride) ;
 
-// Ctor Parameters [CppParam { name: "culture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "useUserOverride", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "read_only", ty: "bool", modifiers: "", def_value: None }]
-explicit CultureInfo(int32_t culture, bool useUserOverride, bool read_only) ;
+static System::Globalization::CultureInfo New_ctor(int32_t culture, bool useUserOverride, bool read_only) ;
 
 /// @brief Method .ctor addr 0x2405b28 size 0x260 virtual false final false
  void _ctor(int32_t culture, bool useUserOverride, bool read_only) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CultureInfo(::StringW name) ;
+static System::Globalization::CultureInfo New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x23f6b98 size 0xc virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "useUserOverride", ty: "bool", modifiers: "", def_value: None }]
-explicit CultureInfo(::StringW name, bool useUserOverride) ;
+static System::Globalization::CultureInfo New_ctor(::StringW name, bool useUserOverride) ;
 
 /// @brief Method .ctor addr 0x23fd114 size 0xc virtual false final false
  void _ctor(::StringW name, bool useUserOverride) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "useUserOverride", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "read_only", ty: "bool", modifiers: "", def_value: None }]
-explicit CultureInfo(::StringW name, bool useUserOverride, bool read_only) ;
+static System::Globalization::CultureInfo New_ctor(::StringW name, bool useUserOverride, bool read_only) ;
 
 /// @brief Method .ctor addr 0x2405d88 size 0x22c virtual false final false
  void _ctor(::StringW name, bool useUserOverride, bool read_only) ;
 
-// Ctor Parameters []
-explicit CultureInfo() ;
+static System::Globalization::CultureInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2406108 size 0x20 virtual false final false
  void _ctor() ;

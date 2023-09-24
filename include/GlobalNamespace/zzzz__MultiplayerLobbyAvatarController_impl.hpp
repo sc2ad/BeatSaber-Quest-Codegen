@@ -5,11 +5,12 @@
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarController_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "GlobalNamespace/zzzz__VFXController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
+#include "GlobalNamespace/zzzz__VFXController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLobbyAvatarController.ShowSpawnAnimation
 template<>
 
@@ -219,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLobbyAvatarController::MultiplayerLobbyAvatarController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLobbyAvatarController>())) {}
+ GlobalNamespace::MultiplayerLobbyAvatarController GlobalNamespace::MultiplayerLobbyAvatarController::New_ctor()  {
+GlobalNamespace::MultiplayerLobbyAvatarController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLobbyAvatarController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLobbyAvatarController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLobbyAvatarController>::get(),
@@ -247,8 +250,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory::GlobalNamespace__MultiplayerLobbyAvatarController__Factory()  : Zenject::PlaceholderFactory_2<GlobalNamespace::IConnectedPlayer,GlobalNamespace::MultiplayerLobbyAvatarController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLobbyAvatarController__Factory>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory>::get(),
@@ -390,8 +395,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarControlle
 constexpr GlobalNamespace::MultiplayerLobbyAvatarController GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerLobbyAvatarController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8 GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8>::get(),
@@ -578,8 +585,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarControlle
 constexpr GlobalNamespace::MultiplayerLobbyAvatarController GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerLobbyAvatarController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10 GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10>::get(),
@@ -766,8 +775,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarControlle
 constexpr GlobalNamespace::MultiplayerLobbyAvatarController GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerLobbyAvatarController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12 GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12>::get(),

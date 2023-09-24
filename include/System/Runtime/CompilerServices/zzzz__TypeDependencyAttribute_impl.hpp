@@ -24,8 +24,10 @@ constexpr void System::Runtime::CompilerServices::TypeDependencyAttribute::__set
 constexpr ::StringW System::Runtime::CompilerServices::TypeDependencyAttribute::__get_typeName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::TypeDependencyAttribute::TypeDependencyAttribute(::StringW typeName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TypeDependencyAttribute>(typeName))) {}
+ System::Runtime::CompilerServices::TypeDependencyAttribute System::Runtime::CompilerServices::TypeDependencyAttribute::New_ctor(::StringW typeName)  {
+System::Runtime::CompilerServices::TypeDependencyAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::TypeDependencyAttribute>(typeName))};
+return o;
+}
  void System::Runtime::CompilerServices::TypeDependencyAttribute::_ctor(::StringW typeName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::TypeDependencyAttribute>::get(),

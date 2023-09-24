@@ -35,8 +35,10 @@ constexpr void HoudiniEngineUnity::HEU_VertexEntry::__set__normalIndex(int32_t v
 constexpr int32_t HoudiniEngineUnity::HEU_VertexEntry::__get__normalIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "meshKey", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "normalIndex", ty: "int32_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HEU_VertexEntry::HEU_VertexEntry(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_VertexEntry>(meshKey, vertexIndex, normalIndex))) {}
+ HoudiniEngineUnity::HEU_VertexEntry HoudiniEngineUnity::HEU_VertexEntry::New_ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex)  {
+HoudiniEngineUnity::HEU_VertexEntry o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_VertexEntry>(meshKey, vertexIndex, normalIndex))};
+return o;
+}
  void HoudiniEngineUnity::HEU_VertexEntry::_ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_VertexEntry>::get(),

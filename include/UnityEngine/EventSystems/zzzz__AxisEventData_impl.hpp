@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__MoveDirection_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 //  Writing Method size for method: UnityEngine::EventSystems::AxisEventData.get_moveVector
 template<>
 
@@ -137,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
- UnityEngine::EventSystems::AxisEventData::AxisEventData(UnityEngine::EventSystems::EventSystem eventSystem)  : UnityEngine::EventSystems::BaseEventData(THROW_UNLESS(::il2cpp_utils::New<AxisEventData>(eventSystem))) {}
+ UnityEngine::EventSystems::AxisEventData UnityEngine::EventSystems::AxisEventData::New_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
+UnityEngine::EventSystems::AxisEventData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::AxisEventData>(eventSystem))};
+return o;
+}
  void UnityEngine::EventSystems::AxisEventData::_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::AxisEventData>::get(),

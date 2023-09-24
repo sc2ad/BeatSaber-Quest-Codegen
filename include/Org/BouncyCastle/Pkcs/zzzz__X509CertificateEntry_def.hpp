@@ -7,10 +7,10 @@ namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
 namespace System::Collections {
-class IDictionary;
+class Hashtable;
 }
 namespace System::Collections {
-class Hashtable;
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -72,20 +72,17 @@ constexpr Org::BouncyCastle::X509::X509Certificate __get_cert() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
-explicit X509CertificateEntry(Org::BouncyCastle::X509::X509Certificate cert) ;
+static Org::BouncyCastle::Pkcs::X509CertificateEntry New_ctor(Org::BouncyCastle::X509::X509Certificate cert) ;
 
 /// @brief Method .ctor addr 0x105c3e0 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::X509::X509Certificate cert) ;
 
-// Ctor Parameters [CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
-explicit X509CertificateEntry(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::Hashtable attributes) ;
+static Org::BouncyCastle::Pkcs::X509CertificateEntry New_ctor(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::Hashtable attributes) ;
 
 /// @brief Method .ctor addr 0x105c458 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::Hashtable attributes) ;
 
-// Ctor Parameters [CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit X509CertificateEntry(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::IDictionary attributes) ;
+static Org::BouncyCastle::Pkcs::X509CertificateEntry New_ctor(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::IDictionary attributes) ;
 
 /// @brief Method .ctor addr 0x105c484 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::IDictionary attributes) ;

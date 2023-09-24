@@ -132,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Oculus::Platform::VoipPCMSourceNative::VoipPCMSourceNative()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VoipPCMSourceNative>())) {}
+ Oculus::Platform::VoipPCMSourceNative Oculus::Platform::VoipPCMSourceNative::New_ctor()  {
+Oculus::Platform::VoipPCMSourceNative o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::VoipPCMSourceNative>())};
+return o;
+}
  void Oculus::Platform::VoipPCMSourceNative::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::VoipPCMSourceNative>::get(),

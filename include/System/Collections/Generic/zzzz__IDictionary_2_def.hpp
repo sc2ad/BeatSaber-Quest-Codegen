@@ -1,9 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
@@ -15,6 +12,9 @@ struct KeyValuePair_2;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections::Generic {

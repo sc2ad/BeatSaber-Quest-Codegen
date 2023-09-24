@@ -2,10 +2,11 @@
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__StretchableObstacle_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__StretchableObstacle_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MirroredObstacleController.set_hide
 template<>
 
@@ -255,8 +256,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, obstacleController, duration);
 }
-// Ctor Parameters []
- GlobalNamespace::MirroredObstacleController::MirroredObstacleController()  : GlobalNamespace::ObstacleControllerBase(THROW_UNLESS(::il2cpp_utils::New<MirroredObstacleController>())) {}
+ GlobalNamespace::MirroredObstacleController GlobalNamespace::MirroredObstacleController::New_ctor()  {
+GlobalNamespace::MirroredObstacleController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MirroredObstacleController>())};
+return o;
+}
  void GlobalNamespace::MirroredObstacleController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MirroredObstacleController>::get(),
@@ -283,8 +286,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool::GlobalNamespace__MirroredObstacleController__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::MirroredObstacleController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MirroredObstacleController__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MirroredObstacleController__Pool>::get(),

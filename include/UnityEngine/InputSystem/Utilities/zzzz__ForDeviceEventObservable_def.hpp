@@ -5,14 +5,11 @@ namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace System {
-template<typename T>
-class IObservable_1;
-}
-namespace System {
 class Type;
 }
 namespace System {
-class IDisposable;
+template<typename T>
+class IObservable_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
@@ -20,6 +17,12 @@ struct InputEventPtr;
 namespace System {
 template<typename T>
 class IObserver_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice;
 }
 namespace System {
 class Exception;
@@ -97,8 +100,7 @@ constexpr System::Type __get_m_DeviceType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "deviceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "device", ty: "UnityEngine::InputSystem::InputDevice", modifiers: "", def_value: None }, CppParam { name: "observer", ty: "System::IObserver_1<UnityEngine::InputSystem::LowLevel::InputEventPtr>", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice(System::Type deviceType, UnityEngine::InputSystem::InputDevice device, System::IObserver_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> observer) ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice New_ctor(System::Type deviceType, UnityEngine::InputSystem::InputDevice device, System::IObserver_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> observer) ;
 
 /// @brief Method .ctor addr 0x2983428 size 0x3c virtual false final false
  void _ctor(System::Type deviceType, UnityEngine::InputSystem::InputDevice device, System::IObserver_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> observer) ;
@@ -184,8 +186,7 @@ constexpr System::Type __get_m_DeviceType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::IObservable_1<UnityEngine::InputSystem::LowLevel::InputEventPtr>", modifiers: "", def_value: None }, CppParam { name: "deviceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "device", ty: "UnityEngine::InputSystem::InputDevice", modifiers: "", def_value: None }]
-explicit ForDeviceEventObservable(System::IObservable_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> source, System::Type deviceType, UnityEngine::InputSystem::InputDevice device) ;
+static UnityEngine::InputSystem::Utilities::ForDeviceEventObservable New_ctor(System::IObservable_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> source, System::Type deviceType, UnityEngine::InputSystem::InputDevice device) ;
 
 /// @brief Method .ctor addr 0x29832fc size 0x3c virtual false final false
  void _ctor(System::IObservable_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> source, System::Type deviceType, UnityEngine::InputSystem::InputDevice device) ;

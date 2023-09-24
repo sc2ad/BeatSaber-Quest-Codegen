@@ -3,20 +3,20 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::X500 {
-class DirectoryString;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::X500 {
+class DirectoryString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -106,8 +106,7 @@ static Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority GetInstance(::bs_
 /// @brief Method GetInstance addr 0xee90c0 size 0x78 virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit NamingAuthority(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xeea9f4 size 0x5c8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -121,8 +120,7 @@ explicit NamingAuthority(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method get_NamingAuthorityUrl addr 0xeeb0bc size 0x8 virtual true final false
  ::StringW get_NamingAuthorityUrl() ;
 
-// Ctor Parameters [CppParam { name: "namingAuthorityID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "namingAuthorityUrl", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "namingAuthorityText", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }]
-explicit NamingAuthority(Org::BouncyCastle::Asn1::DerObjectIdentifier namingAuthorityID, ::StringW namingAuthorityUrl, Org::BouncyCastle::Asn1::X500::DirectoryString namingAuthorityText) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier namingAuthorityID, ::StringW namingAuthorityUrl, Org::BouncyCastle::Asn1::X500::DirectoryString namingAuthorityText) ;
 
 /// @brief Method .ctor addr 0xeeb0c4 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier namingAuthorityID, ::StringW namingAuthorityUrl, Org::BouncyCastle::Asn1::X500::DirectoryString namingAuthorityText) ;

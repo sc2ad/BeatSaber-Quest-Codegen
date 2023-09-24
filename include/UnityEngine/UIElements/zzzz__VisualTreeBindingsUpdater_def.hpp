@@ -4,35 +4,35 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::UIElements {
-struct HierarchyChangeType;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine {
-struct PropertyName;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+struct PropertyName;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
 class IBinding;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+struct HierarchyChangeType;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -222,8 +222,7 @@ static int64_t CurrentTime() ;
 /// @brief Method UpdateBindings addr 0x2d08d08 size 0x534 virtual false final false
  void UpdateBindings() ;
 
-// Ctor Parameters []
-explicit VisualTreeBindingsUpdater() ;
+static UnityEngine::UIElements::VisualTreeBindingsUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d0923c size 0x160 virtual false final false
  void _ctor() ;

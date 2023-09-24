@@ -1,12 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
 }
 namespace UnityEngine {
 class Canvas;
@@ -83,8 +83,7 @@ constexpr UnityEngine::Canvas __get__canvas() const;
 /// @brief Method get_isOnTop addr 0x1fabbd8 size 0x208 virtual false final false
  bool get_isOnTop() ;
 
-// Ctor Parameters []
-explicit RaycastUITopLevelChecker() ;
+static HMUI::RaycastUITopLevelChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fabde0 size 0x7c virtual false final false
  void _ctor() ;

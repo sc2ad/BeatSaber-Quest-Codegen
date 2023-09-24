@@ -2,6 +2,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ResultsEnvironmentManager_def.hpp"
 #include "GlobalNamespace/zzzz__BaseResultsEnvironmentController_def.hpp"
+#include "GlobalNamespace/zzzz__ResultsEnvironmentManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword.get_keyword
 template<>
 
@@ -83,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::BaseResultsEnvironmentController, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword>())) {}
+ GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword>::get(),
@@ -134,8 +137,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager____c_
 constexpr ::StringW GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0::__get_keyword() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0::GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0>())) {}
+ GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0 GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0>::get(),
@@ -263,8 +268,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyword, immediately);
 }
-// Ctor Parameters []
- GlobalNamespace::ResultsEnvironmentManager::ResultsEnvironmentManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ResultsEnvironmentManager>())) {}
+ GlobalNamespace::ResultsEnvironmentManager GlobalNamespace::ResultsEnvironmentManager::New_ctor()  {
+GlobalNamespace::ResultsEnvironmentManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ResultsEnvironmentManager>())};
+return o;
+}
  void GlobalNamespace::ResultsEnvironmentManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ResultsEnvironmentManager>::get(),

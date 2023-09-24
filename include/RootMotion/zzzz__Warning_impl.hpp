@@ -4,6 +4,7 @@
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/zzzz__Warning_def.hpp"
 //  Writing Method size for method: RootMotion::RootMotion__Warning__Logger._ctor
 template<>
 
@@ -72,8 +73,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- RootMotion::RootMotion__Warning__Logger::RootMotion__Warning__Logger(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<RootMotion__Warning__Logger>(object, method))) {}
+ RootMotion::RootMotion__Warning__Logger RootMotion::RootMotion__Warning__Logger::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+RootMotion::RootMotion__Warning__Logger o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::RootMotion__Warning__Logger>(object, method))};
+return o;
+}
  void RootMotion::RootMotion__Warning__Logger::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::RootMotion__Warning__Logger>::get(),

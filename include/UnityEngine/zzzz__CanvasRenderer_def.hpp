@@ -5,38 +5,38 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 namespace UnityEngine {
-struct UIVertex;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Mesh;
+struct Vector4;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-struct Vector4;
+class Mesh;
+}
+namespace UnityEngine {
+struct UIVertex;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine {

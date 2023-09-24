@@ -76,14 +76,12 @@ constexpr ::ArrayW<UnityEngine::Color> __get_Colors() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "TMPro::Compute_DistanceTransform_EventTypes", modifiers: "", def_value: None }, CppParam { name: "progress", ty: "float_t", modifiers: "", def_value: None }]
-explicit Compute_DT_EventArgs(TMPro::Compute_DistanceTransform_EventTypes type, float_t progress) ;
+static TMPro::Compute_DT_EventArgs New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, float_t progress) ;
 
 /// @brief Method .ctor addr 0x2a67a74 size 0x38 virtual false final false
  void _ctor(TMPro::Compute_DistanceTransform_EventTypes type, float_t progress) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "TMPro::Compute_DistanceTransform_EventTypes", modifiers: "", def_value: None }, CppParam { name: "colors", ty: "::ArrayW<UnityEngine::Color>", modifiers: "", def_value: None }]
-explicit Compute_DT_EventArgs(TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<UnityEngine::Color> colors) ;
+static TMPro::Compute_DT_EventArgs New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<UnityEngine::Color> colors) ;
 
 /// @brief Method .ctor addr 0x2a67aac size 0x30 virtual false final false
  void _ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<UnityEngine::Color> colors) ;

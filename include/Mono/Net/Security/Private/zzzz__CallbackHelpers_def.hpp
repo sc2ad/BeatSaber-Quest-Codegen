@@ -7,13 +7,19 @@ namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
 }
 namespace Mono::Security::Interface {
-class MonoLocalCertificateSelectionCallback;
-}
-namespace Mono::Security::Interface {
 class MonoRemoteCertificateValidationCallback;
+}
+namespace Mono::Net::Security::Private {
+class Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0;
+}
+namespace Mono::Net::Security::Private {
+class Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0;
 }
 namespace System::Net::Security {
 class LocalCertSelectionCallback;
+}
+namespace Mono::Security::Interface {
+class MonoLocalCertificateSelectionCallback;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
@@ -88,8 +94,7 @@ constexpr System::Net::Security::RemoteCertificateValidationCallback __get_callb
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0() ;
+static Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2694524 size 0x8 virtual false final false
  void _ctor() ;
@@ -152,8 +157,7 @@ constexpr Mono::Security::Interface::MonoLocalCertificateSelectionCallback __get
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0() ;
+static Mono::Net::Security::Private::Mono__Net__Security__Private__CallbackHelpers____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x269452c size 0x8 virtual false final false
  void _ctor() ;

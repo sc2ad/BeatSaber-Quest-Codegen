@@ -63,8 +63,7 @@ constexpr explicit XProcessingInstructionWrapper(void* ptr) noexcept : Newtonsof
 /// @brief Method get_ProcessingInstruction addr 0x254486c size 0x78 virtual false final false
  System::Xml::Linq::XProcessingInstruction get_ProcessingInstruction() ;
 
-// Ctor Parameters [CppParam { name: "processingInstruction", ty: "System::Xml::Linq::XProcessingInstruction", modifiers: "", def_value: None }]
-explicit XProcessingInstructionWrapper(System::Xml::Linq::XProcessingInstruction processingInstruction) ;
+static Newtonsoft::Json::Converters::XProcessingInstructionWrapper New_ctor(System::Xml::Linq::XProcessingInstruction processingInstruction) ;
 
 /// @brief Method .ctor addr 0x2543b48 size 0x6c virtual false final false
  void _ctor(System::Xml::Linq::XProcessingInstruction processingInstruction) ;

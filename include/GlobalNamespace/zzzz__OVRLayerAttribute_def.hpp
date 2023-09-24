@@ -47,8 +47,7 @@ constexpr explicit OVRLayerAttribute(void* ptr) noexcept : UnityEngine::Property
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRLayerAttribute() ;
+static GlobalNamespace::OVRLayerAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c3f70 size 0x8 virtual false final false
  void _ctor() ;

@@ -69,8 +69,7 @@ constexpr System::Collections::Hashtable __get_contents() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit StringDictionary() ;
+static System::Collections::Specialized::StringDictionary New_ctor() ;
 
 /// @brief Method .ctor addr 0x27ad2cc size 0x68 virtual false final false
  void _ctor() ;

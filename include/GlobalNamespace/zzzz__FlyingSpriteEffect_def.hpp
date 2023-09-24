@@ -7,22 +7,25 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__FlyingSpriteEffect__Pool;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class Material;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace UnityEngine {
-struct Color;
+class AnimationCurve;
 }
 namespace UnityEngine {
 class SpriteRenderer;
 }
 namespace UnityEngine {
-class Material;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +105,7 @@ constexpr UnityEngine::Color __get__color() const;
 /// @brief Method ManualUpdate addr 0x2251404 size 0x5c virtual true final false
  void ManualUpdate(float_t t) ;
 
-// Ctor Parameters []
-explicit FlyingSpriteEffect() ;
+static GlobalNamespace::FlyingSpriteEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2251460 size 0x30 virtual false final false
  void _ctor() ;
@@ -115,7 +117,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4971)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2708 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4971)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2708 }), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4970))
 // CS Name: FlyingSpriteEffect::Pool
 class CORDL_TYPE GlobalNamespace__FlyingSpriteEffect__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::FlyingSpriteEffect> {
@@ -154,8 +156,7 @@ constexpr explicit GlobalNamespace__FlyingSpriteEffect__Pool(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__FlyingSpriteEffect__Pool() ;
+static GlobalNamespace::GlobalNamespace__FlyingSpriteEffect__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2251490 size 0x48 virtual false final false
  void _ctor() ;

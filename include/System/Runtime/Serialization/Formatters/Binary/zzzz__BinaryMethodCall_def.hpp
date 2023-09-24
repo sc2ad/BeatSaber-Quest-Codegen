@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+class Type;
+}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct MessageEnum;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -109,8 +109,7 @@ constexpr System::Runtime::Serialization::Formatters::Binary::MessageEnum __get_
 /// @brief Method Dump addr 0x2355eb8 size 0x4 virtual false final false
  void Dump() ;
 
-// Ctor Parameters []
-explicit BinaryMethodCall() ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall New_ctor() ;
 
 /// @brief Method .ctor addr 0x2355ebc size 0x10 virtual false final false
  void _ctor() ;

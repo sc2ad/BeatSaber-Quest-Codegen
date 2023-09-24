@@ -1,14 +1,14 @@
 #pragma once
 #include "System/Security/zzzz__PermissionSet_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__Array_def.hpp"
+#include "System/Security/zzzz__ISecurityEncodable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
 #include "System/Security/zzzz__IPermission_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Security/zzzz__ISecurityEncodable_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
 //  Writing Method size for method: System::Security::PermissionSet._ctor
 template<>
@@ -351,8 +351,10 @@ return ::cordl_internals::getInstanceField<::ArrayW<bool>, 0x28>(this->::bs_hook
  ::ArrayW<::bs_hook::Il2CppWrapperType> System::Security::PermissionSet::__get_action()  {
 return ::cordl_internals::getStaticField<::ArrayW<::bs_hook::Il2CppWrapperType>, "action", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::PermissionSet>::get>();
 }
-// Ctor Parameters []
- System::Security::PermissionSet::PermissionSet()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PermissionSet>())) {}
+ System::Security::PermissionSet System::Security::PermissionSet::New_ctor()  {
+System::Security::PermissionSet o{THROW_UNLESS(::il2cpp_utils::New<System::Security::PermissionSet>())};
+return o;
+}
  void System::Security::PermissionSet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::PermissionSet>::get(),
@@ -362,8 +364,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "state", ty: "System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
- System::Security::PermissionSet::PermissionSet(System::Security::Permissions::PermissionState state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PermissionSet>(state))) {}
+ System::Security::PermissionSet System::Security::PermissionSet::New_ctor(System::Security::Permissions::PermissionState state)  {
+System::Security::PermissionSet o{THROW_UNLESS(::il2cpp_utils::New<System::Security::PermissionSet>(state))};
+return o;
+}
  void System::Security::PermissionSet::_ctor(System::Security::Permissions::PermissionState state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::PermissionSet>::get(),
@@ -373,8 +377,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters [CppParam { name: "perm", ty: "System::Security::IPermission", modifiers: "", def_value: None }]
- System::Security::PermissionSet::PermissionSet(System::Security::IPermission perm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PermissionSet>(perm))) {}
+ System::Security::PermissionSet System::Security::PermissionSet::New_ctor(System::Security::IPermission perm)  {
+System::Security::PermissionSet o{THROW_UNLESS(::il2cpp_utils::New<System::Security::PermissionSet>(perm))};
+return o;
+}
  void System::Security::PermissionSet::_ctor(System::Security::IPermission perm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::PermissionSet>::get(),

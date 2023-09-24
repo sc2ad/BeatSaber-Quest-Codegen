@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Collections/zzzz__CompatibleComparer_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Collections/zzzz__IHashCodeProvider_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
 //  Writing Method size for method: System::Collections::CompatibleComparer._ctor
 template<>
 
@@ -121,8 +121,10 @@ constexpr void System::Collections::CompatibleComparer::__set__comparer(System::
 constexpr System::Collections::IComparer System::Collections::CompatibleComparer::__get__comparer() const {
 return ::cordl_internals::getInstanceField<System::Collections::IComparer, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hashCodeProvider", ty: "System::Collections::IHashCodeProvider", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::IComparer", modifiers: "", def_value: None }]
- System::Collections::CompatibleComparer::CompatibleComparer(System::Collections::IHashCodeProvider hashCodeProvider, System::Collections::IComparer comparer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CompatibleComparer>(hashCodeProvider, comparer))) {}
+ System::Collections::CompatibleComparer System::Collections::CompatibleComparer::New_ctor(System::Collections::IHashCodeProvider hashCodeProvider, System::Collections::IComparer comparer)  {
+System::Collections::CompatibleComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::CompatibleComparer>(hashCodeProvider, comparer))};
+return o;
+}
  void System::Collections::CompatibleComparer::_ctor(System::Collections::IHashCodeProvider hashCodeProvider, System::Collections::IComparer comparer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::CompatibleComparer>::get(),

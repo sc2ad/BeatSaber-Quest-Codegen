@@ -53,8 +53,10 @@ return ::cordl_internals::getStaticField<::StringW, "Aes192Gcm", ::il2cpp_utils:
  ::StringW Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator::__get_Aes256Gcm()  {
 return ::cordl_internals::getStaticField<::StringW, "Aes256Gcm", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator::CmsAuthEnvelopedGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsAuthEnvelopedGenerator>())) {}
+ Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator>::get(),

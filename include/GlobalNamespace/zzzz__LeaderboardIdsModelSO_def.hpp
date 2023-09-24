@@ -4,12 +4,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -92,8 +95,7 @@ constexpr ::StringW __get__platformLeaderboardId() const;
 /// @brief Method get_difficultyBeatmapId addr 0x21c3ef4 size 0x8 virtual false final false
  ::StringW get_difficultyBeatmapId() ;
 
-// Ctor Parameters [CppParam { name: "difficultyBeatmapId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformLeaderboardId", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId) ;
+static GlobalNamespace::GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData New_ctor(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId) ;
 
 /// @brief Method .ctor addr 0x21c3efc size 0x2c virtual false final false
  void _ctor(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId) ;
@@ -170,8 +172,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_
 /// @brief Method TryGetPlatformLeaderboardId addr 0x21c3d90 size 0x9c virtual false final false
  bool TryGetPlatformLeaderboardId(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, ByRef<::StringW> platformLeaderboardId) ;
 
-// Ctor Parameters []
-explicit LeaderboardIdsModelSO() ;
+static GlobalNamespace::LeaderboardIdsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c3e2c size 0xc0 virtual false final false
  void _ctor() ;

@@ -36,8 +36,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers::__get_IdQcsPkixQCSyntaxV2()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "IdQcsPkixQCSyntaxV2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers::Rfc3739QCObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Rfc3739QCObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers>::get(),

@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersDropdown_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersDropdown_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
-#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
-#include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
+#include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c._ctor
 template<>
@@ -55,8 +56,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Gamep
  System::Func_2<System::Tuple_2<GlobalNamespace::GameplayModifierMask,::StringW>,::StringW> GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c::__get___9__8_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Tuple_2<GlobalNamespace::GameplayModifierMask,::StringW>,::StringW>, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c::GlobalNamespace__GameplayModifiersDropdown____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameplayModifiersDropdown____c>())) {}
+ GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c>::get(),
@@ -367,8 +370,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dropdownWithTableView, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::GameplayModifiersDropdown::GameplayModifiersDropdown()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GameplayModifiersDropdown>())) {}
+ GlobalNamespace::GameplayModifiersDropdown GlobalNamespace::GameplayModifiersDropdown::New_ctor()  {
+GlobalNamespace::GameplayModifiersDropdown o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayModifiersDropdown>())};
+return o;
+}
  void GlobalNamespace::GameplayModifiersDropdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplayModifiersDropdown>::get(),

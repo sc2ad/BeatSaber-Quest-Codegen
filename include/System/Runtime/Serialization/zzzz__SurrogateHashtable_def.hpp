@@ -49,8 +49,7 @@ constexpr explicit SurrogateHashtable(void* ptr) noexcept : System::Collections:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SurrogateHashtable(int32_t size) ;
+static System::Runtime::Serialization::SurrogateHashtable New_ctor(int32_t size) ;
 
 /// @brief Method .ctor addr 0x2353804 size 0x8 virtual false final false
  void _ctor(int32_t size) ;

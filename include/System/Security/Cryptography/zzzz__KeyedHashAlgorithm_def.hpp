@@ -63,8 +63,7 @@ constexpr ::ArrayW<uint8_t> __get_KeyValue() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit KeyedHashAlgorithm() ;
+static System::Security::Cryptography::KeyedHashAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f374c size 0x8 virtual false final false
  void _ctor() ;

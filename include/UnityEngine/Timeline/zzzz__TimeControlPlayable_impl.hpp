@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimeControlPlayable_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimeControl_def.hpp"
-#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::TimeControlPlayable.Create
 template<>
 
@@ -165,8 +165,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playable, info);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::TimeControlPlayable::TimeControlPlayable()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<TimeControlPlayable>())) {}
+ UnityEngine::Timeline::TimeControlPlayable UnityEngine::Timeline::TimeControlPlayable::New_ctor()  {
+UnityEngine::Timeline::TimeControlPlayable o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TimeControlPlayable>())};
+return o;
+}
  void UnityEngine::Timeline::TimeControlPlayable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TimeControlPlayable>::get(),

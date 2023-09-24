@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Threading/zzzz__RegisteredWaitHandle_def.hpp"
-#include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/Threading/zzzz__WaitOrTimerCallback_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 //  Writing Method size for method: System::Threading::RegisteredWaitHandle._ctor
 template<>
@@ -127,8 +127,10 @@ constexpr void System::Threading::RegisteredWaitHandle::__set__unregistered(bool
 constexpr bool System::Threading::RegisteredWaitHandle::__get__unregistered() const {
 return ::cordl_internals::getInstanceField<bool, 0x4d>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "waitObject", ty: "System::Threading::WaitHandle", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "System::Threading::WaitOrTimerCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "timeout", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "executeOnlyOnce", ty: "bool", modifiers: "", def_value: None }]
- System::Threading::RegisteredWaitHandle::RegisteredWaitHandle(System::Threading::WaitHandle waitObject, System::Threading::WaitOrTimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan timeout, bool executeOnlyOnce)  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<RegisteredWaitHandle>(waitObject, callback, state, timeout, executeOnlyOnce))) {}
+ System::Threading::RegisteredWaitHandle System::Threading::RegisteredWaitHandle::New_ctor(System::Threading::WaitHandle waitObject, System::Threading::WaitOrTimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan timeout, bool executeOnlyOnce)  {
+System::Threading::RegisteredWaitHandle o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::RegisteredWaitHandle>(waitObject, callback, state, timeout, executeOnlyOnce))};
+return o;
+}
  void System::Threading::RegisteredWaitHandle::_ctor(System::Threading::WaitHandle waitObject, System::Threading::WaitOrTimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan timeout, bool executeOnlyOnce)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::RegisteredWaitHandle>::get(),

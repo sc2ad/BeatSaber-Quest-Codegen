@@ -81,8 +81,7 @@ constexpr int32_t __get_macKeySize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "derivation", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "macKeySize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit IesParameters(::ArrayW<uint8_t> derivation, ::ArrayW<uint8_t> encoding, int32_t macKeySize) ;
+static Org::BouncyCastle::Crypto::Parameters::IesParameters New_ctor(::ArrayW<uint8_t> derivation, ::ArrayW<uint8_t> encoding, int32_t macKeySize) ;
 
 /// @brief Method .ctor addr 0xea9b48 size 0x3c virtual false final false
  void _ctor(::ArrayW<uint8_t> derivation, ::ArrayW<uint8_t> encoding, int32_t macKeySize) ;

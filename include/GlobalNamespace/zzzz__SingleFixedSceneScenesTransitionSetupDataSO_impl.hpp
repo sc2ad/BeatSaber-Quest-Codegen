@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__SingleFixedSceneScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
+#include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO.get_sceneInfo
 template<>
 
@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sceneSetupData);
 }
-// Ctor Parameters []
- GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::SingleFixedSceneScenesTransitionSetupDataSO()  : GlobalNamespace::ScenesTransitionSetupDataSO(THROW_UNLESS(::il2cpp_utils::New<SingleFixedSceneScenesTransitionSetupDataSO>())) {}
+ GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::New_ctor()  {
+GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO>())};
+return o;
+}
  void GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO>::get(),

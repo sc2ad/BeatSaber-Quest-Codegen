@@ -2,46 +2,46 @@
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerLobbyFlowCoordinator_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerResultsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayersMissingEntitlementsNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__LobbySetupViewController_def.hpp"
-#include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
-#include "GlobalNamespace/zzzz__SelectModifiersViewController_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "GlobalNamespace/zzzz__GameServerLobbyFlowCoordinator_def.hpp"
 #include "HMUI/zzzz__ScreenModeSO_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelSelectionFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyPlayersDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
-#include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
-#include "GlobalNamespace/zzzz__LobbyGameStateModel_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionErrorDialogViewController_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__GameplaySetupViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLobbyController_def.hpp"
-#include "GlobalNamespace/zzzz__IUnifiedNetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerSettingsPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyState_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__ServerPlayerListViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyPlayersDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
+#include "GlobalNamespace/zzzz__IUnifiedNetworkPlayerModel_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "HMUI/zzzz__ScreenModeController_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersMissingEntitlementsNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSettingsPanelController_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__SelectModifiersViewController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerResultsViewController_def.hpp"
+#include "GlobalNamespace/zzzz__LobbySetupViewController_def.hpp"
+#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
+#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionErrorDialogViewController_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
+#include "GlobalNamespace/zzzz__GameplaySetupViewController_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__ServerPlayerListViewController_def.hpp"
+#include "GlobalNamespace/zzzz__LobbyGameStateModel_def.hpp"
+#include "HMUI/zzzz__ScreenModeController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelSelectionFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyController_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType::GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -108,8 +108,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator_
 constexpr UnityEngine::EventSystems::EventSystem GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0::__get_eventSystem() const {
 return ::cordl_internals::getInstanceField<UnityEngine::EventSystems::EventSystem, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0 GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0>::get(),
@@ -174,8 +176,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator_
 constexpr ::StringW GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0::__get_userId() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0 GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0>::get(),
@@ -2225,8 +2229,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GameServerLobbyFlowCoordinator::GameServerLobbyFlowCoordinator()  : HMUI::FlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<GameServerLobbyFlowCoordinator>())) {}
+ GlobalNamespace::GameServerLobbyFlowCoordinator GlobalNamespace::GameServerLobbyFlowCoordinator::New_ctor()  {
+GlobalNamespace::GameServerLobbyFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameServerLobbyFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::GameServerLobbyFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameServerLobbyFlowCoordinator>::get(),

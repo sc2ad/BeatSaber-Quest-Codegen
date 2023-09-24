@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__Test_TerrainLayer_def.hpp"
+#include "UnityEngine/zzzz__TerrainLayer_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
-#include "UnityEngine/zzzz__TerrainLayer_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::Test_TerrainLayer._ctor
 template<>
 
@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::Test_TerrainLayer::__set_self(UnityEngine::Te
 constexpr UnityEngine::TerrainLayer HoudiniEngineUnity::Test_TerrainLayer::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::TerrainLayer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::TerrainLayer", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_TerrainLayer::Test_TerrainLayer(UnityEngine::TerrainLayer self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_TerrainLayer>(self))) {}
+ HoudiniEngineUnity::Test_TerrainLayer HoudiniEngineUnity::Test_TerrainLayer::New_ctor(UnityEngine::TerrainLayer self)  {
+HoudiniEngineUnity::Test_TerrainLayer o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_TerrainLayer>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_TerrainLayer::_ctor(UnityEngine::TerrainLayer self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_TerrainLayer>::get(),

@@ -9,6 +9,9 @@
 namespace GlobalNamespace {
 class AchievementSO;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -94,8 +97,7 @@ constexpr GlobalNamespace::AchievementSO __get__achievement() const;
 /// @brief Method get_achievementId addr 0x221b210 size 0x1c virtual false final false
  ::StringW get_achievementId() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData() ;
+static GlobalNamespace::GlobalNamespace__SonyAchievementIdsModelSO__AchievementIdData New_ctor() ;
 
 /// @brief Method .ctor addr 0x221b474 size 0x8 virtual false final false
  void _ctor() ;
@@ -189,8 +191,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,::StringW> __get__t
 /// @brief Method GetAchievementId addr 0x221b300 size 0x68 virtual false final false
  bool GetAchievementId(int32_t trophyId, ByRef<::StringW> achievementId) ;
 
-// Ctor Parameters []
-explicit SonyAchievementIdsModelSO() ;
+static GlobalNamespace::SonyAchievementIdsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221b368 size 0x104 virtual false final false
  void _ctor() ;

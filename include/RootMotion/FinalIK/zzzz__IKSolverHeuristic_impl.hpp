@@ -1,9 +1,8 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKSolver_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverHeuristic_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::IKSolverHeuristic.SetChain
 template<>
@@ -512,8 +511,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKSolverHeuristic::IKSolverHeuristic()  : RootMotion::FinalIK::IKSolver(THROW_UNLESS(::il2cpp_utils::New<IKSolverHeuristic>())) {}
+ RootMotion::FinalIK::IKSolverHeuristic RootMotion::FinalIK::IKSolverHeuristic::New_ctor()  {
+RootMotion::FinalIK::IKSolverHeuristic o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolverHeuristic>())};
+return o;
+}
  void RootMotion::FinalIK::IKSolverHeuristic::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolverHeuristic>::get(),

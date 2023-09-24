@@ -50,8 +50,7 @@ constexpr explicit ManagedGameplayServerFiniteStateMachine(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initParams", ty: "GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams", modifiers: "", def_value: None }]
-explicit ManagedGameplayServerFiniteStateMachine(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
+static GlobalNamespace::ManagedGameplayServerFiniteStateMachine New_ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
 
 /// @brief Method .ctor addr 0xdaf2b0 size 0x30 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;

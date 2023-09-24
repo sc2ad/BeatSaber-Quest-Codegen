@@ -324,8 +324,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::InputSystem::InputAction, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::InputActionReference::InputActionReference()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<InputActionReference>())) {}
+ UnityEngine::InputSystem::InputActionReference UnityEngine::InputSystem::InputActionReference::New_ctor()  {
+UnityEngine::InputSystem::InputActionReference o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::InputActionReference>())};
+return o;
+}
  void UnityEngine::InputSystem::InputActionReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::InputActionReference>::get(),

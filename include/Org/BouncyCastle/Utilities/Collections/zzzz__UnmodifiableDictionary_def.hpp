@@ -2,23 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IDictionary;
-}
 namespace System {
 class Array;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -94,8 +94,7 @@ constexpr explicit UnmodifiableDictionary(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Methods
 
-// Ctor Parameters []
-explicit UnmodifiableDictionary() ;
+static Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary New_ctor() ;
 
 /// @brief Method .ctor addr 0x10cdfa0 size 0x8 virtual false final false
  void _ctor() ;

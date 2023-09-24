@@ -80,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier::BasicGcmMultiplier()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BasicGcmMultiplier>())) {}
+ Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier::New_ctor()  {
+Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier>::get(),

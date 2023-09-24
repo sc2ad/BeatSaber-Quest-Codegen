@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__EventCallbackList_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CallbackPhase_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::EventCallbackList.get_trickleDownCallbackCount
@@ -296,8 +296,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::EventCallbackList::EventCallbackList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventCallbackList>())) {}
+ UnityEngine::UIElements::EventCallbackList UnityEngine::UIElements::EventCallbackList::New_ctor()  {
+UnityEngine::UIElements::EventCallbackList o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::EventCallbackList>())};
+return o;
+}
  void UnityEngine::UIElements::EventCallbackList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::EventCallbackList>::get(),
@@ -307,8 +309,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "UnityEngine::UIElements::EventCallbackList", modifiers: "", def_value: None }]
- UnityEngine::UIElements::EventCallbackList::EventCallbackList(UnityEngine::UIElements::EventCallbackList source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventCallbackList>(source))) {}
+ UnityEngine::UIElements::EventCallbackList UnityEngine::UIElements::EventCallbackList::New_ctor(UnityEngine::UIElements::EventCallbackList source)  {
+UnityEngine::UIElements::EventCallbackList o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::EventCallbackList>(source))};
+return o;
+}
  void UnityEngine::UIElements::EventCallbackList::_ctor(UnityEngine::UIElements::EventCallbackList source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::EventCallbackList>::get(),

@@ -3,12 +3,12 @@
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace System::Reflection {
+class MethodInfo;
+}
 namespace UnityEngine::Events {
 template<typename T0,typename T1>
 class UnityAction_2;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -25,7 +25,7 @@ namespace UnityEngine::Events {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10389)), TypeDefinitionIndex(TypeDefinitionIndex(10386))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10386)), TypeDefinitionIndex(TypeDefinitionIndex(10389))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10389), inst: 80 })
 // CS Name: UnityEngine.Events.InvokableCall`2
 class CORDL_TYPE InvokableCall_2<T1,T2> : public UnityEngine::Events::BaseInvokableCall {
@@ -73,8 +73,7 @@ constexpr UnityEngine::Events::UnityAction_2<T1,T2> __get_Delegate() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }]
-explicit InvokableCall_2(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
+static UnityEngine::Events::InvokableCall_2<T1,T2> New_ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;

@@ -3,15 +3,15 @@
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine::UIElements::Experimental {
 class IValueAnimationUpdate;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -157,8 +157,7 @@ static Unity::Profiling::ProfilerMarker get_stylePropertyAnimationProfilerMarker
 /// @brief Method OnVersionChanged addr 0x2c3ea60 size 0x4 virtual true final false
  void OnVersionChanged(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::VersionChangeType versionChangeType) ;
 
-// Ctor Parameters []
-explicit VisualElementAnimationSystem() ;
+static UnityEngine::UIElements::VisualElementAnimationSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3ea64 size 0xc4 virtual false final false
  void _ctor() ;

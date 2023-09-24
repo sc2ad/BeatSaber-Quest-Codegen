@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__StickControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__DpadControl_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__GamepadButton_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__DualMotorRumble_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__GamepadButton_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__DpadControl_def.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__DualMotorRumble_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__StickControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Gamepad.get_buttonWest
 template<>
 
@@ -1448,8 +1448,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, lowFrequency, highFrequency);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Gamepad::Gamepad()  : UnityEngine::InputSystem::InputDevice(THROW_UNLESS(::il2cpp_utils::New<Gamepad>())) {}
+ UnityEngine::InputSystem::Gamepad UnityEngine::InputSystem::Gamepad::New_ctor()  {
+UnityEngine::InputSystem::Gamepad o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Gamepad>())};
+return o;
+}
  void UnityEngine::InputSystem::Gamepad::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Gamepad>::get(),

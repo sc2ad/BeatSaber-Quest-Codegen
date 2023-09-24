@@ -105,8 +105,10 @@ constexpr void Org::BouncyCastle::Bcpg::LiteralDataPacket::__set_modDate(int64_t
 constexpr int64_t Org::BouncyCastle::Bcpg::LiteralDataPacket::__get_modDate() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::LiteralDataPacket::LiteralDataPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::InputStreamPacket(THROW_UNLESS(::il2cpp_utils::New<LiteralDataPacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::LiteralDataPacket Org::BouncyCastle::Bcpg::LiteralDataPacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::LiteralDataPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::LiteralDataPacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::LiteralDataPacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::LiteralDataPacket>::get(),

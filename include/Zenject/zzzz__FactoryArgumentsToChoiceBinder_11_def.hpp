@@ -3,8 +3,16 @@
 #include "Zenject/zzzz__FactoryToChoiceBinder_11_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace Zenject {
 class FactoryBindInfo;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TParam8,typename TParam9,typename TParam10,typename TContract>
+class FactoryToChoiceBinder_11;
 }
 namespace Zenject {
 class BindInfo;
@@ -13,15 +21,7 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TParam8,typename TParam9,typename TParam10,typename TContract>
-class FactoryToChoiceBinder_11;
-}
-namespace Zenject {
 struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -77,8 +77,7 @@ constexpr explicit FactoryArgumentsToChoiceBinder_11(void* ptr) noexcept : Zenje
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryArgumentsToChoiceBinder_11(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::FactoryArgumentsToChoiceBinder_11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract> New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

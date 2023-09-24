@@ -70,8 +70,7 @@ constexpr ::ArrayW<char16_t> __get_charsLine() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Base64Encoder() ;
+static System::Xml::Base64Encoder New_ctor() ;
 
 /// @brief Method .ctor addr 0x26bae28 size 0x5c virtual false final false
  void _ctor() ;

@@ -5,13 +5,19 @@ namespace GlobalNamespace {
 struct MultiplayerPlayerStartState;
 }
 namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace GlobalNamespace {
 class MultiplayerConnectedPlayerObstacleController;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerSongTimeSyncController;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+class MultiplayerConnectedPlayerBeatmapObjectEventManager;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -21,12 +27,6 @@ class MultiplayerConnectedPlayerBombNoteController;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerGameNoteController;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerBeatmapObjectEventManager;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSongTimeSyncController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -152,8 +152,7 @@ constexpr GlobalNamespace::PlayersSpecificSettingsAtGameStartModel __get__player
 /// @brief Method InstallBindings addr 0x20e01bc size 0xc84 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerInstaller() ;
+static GlobalNamespace::MultiplayerConnectedPlayerInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e0e7c size 0x8 virtual false final false
  void _ctor() ;

@@ -5,8 +5,21 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class Texture;
+namespace UnityEngine::TextCore {
+struct FaceInfo;
+}
+namespace UnityEngine::TextCore::Text {
+class SpriteGlyph;
+}
+namespace UnityEngine::TextCore::Text {
+class SpriteCharacter;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace UnityEngine::TextCore::Text {
+class UnityEngine__TextCore__Text__SpriteAsset____c;
 }
 namespace UnityEngine::TextCore::Text {
 class TextSettings;
@@ -19,18 +32,8 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::TextCore::Text {
-class SpriteCharacter;
-}
-namespace UnityEngine::TextCore::Text {
-class SpriteGlyph;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace UnityEngine::TextCore {
-struct FaceInfo;
+namespace UnityEngine {
+class Texture;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -106,8 +109,7 @@ static System::Func_2<UnityEngine::TextCore::Text::SpriteCharacter,uint32_t> __g
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__TextCore__Text__SpriteAsset____c() ;
+static UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__SpriteAsset____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bcb618 size 0x8 virtual false final false
  void _ctor() ;
@@ -320,8 +322,7 @@ static UnityEngine::TextCore::Text::SpriteAsset SearchForSpriteByHashCodeInterna
 /// @brief Method SortGlyphAndCharacterTables addr 0x2bcb4d8 size 0x18 virtual false final false
  void SortGlyphAndCharacterTables() ;
 
-// Ctor Parameters []
-explicit SpriteAsset() ;
+static UnityEngine::TextCore::Text::SpriteAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bcb4f0 size 0xc4 virtual false final false
  void _ctor() ;

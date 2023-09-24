@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSpace__StorageLocation;
+}
 namespace System {
 struct Guid;
 }
@@ -68,6 +71,8 @@ __Cloud = 1,
 constexpr operator __GlobalNamespace__OVRSpace__StorageLocation_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRSpace__StorageLocation_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::AddressableAssets {
-struct AddressablesPlatform;
-}
 namespace UnityEngine {
 struct RuntimePlatform;
+}
+namespace UnityEngine::AddressableAssets {
+struct AddressablesPlatform;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -79,8 +79,7 @@ static UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform() ;
 /// @brief Method GetPlatformPathSubFolder addr 0x288a884 size 0x60 virtual false final false
 static ::StringW GetPlatformPathSubFolder() ;
 
-// Ctor Parameters []
-explicit PlatformMappingService() ;
+static UnityEngine::AddressableAssets::PlatformMappingService New_ctor() ;
 
 /// @brief Method .ctor addr 0x2896c2c size 0x8 virtual false final false
  void _ctor() ;

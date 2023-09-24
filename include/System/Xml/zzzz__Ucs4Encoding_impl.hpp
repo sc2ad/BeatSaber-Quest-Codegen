@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Xml/zzzz__Ucs4Encoding_def.hpp"
-#include "System/Xml/zzzz__Ucs4Decoder_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Text/zzzz__Encoder_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Xml/zzzz__Ucs4Decoder_def.hpp"
+#include "System/Text/zzzz__Encoder_def.hpp"
 //  Writing Method size for method: System::Xml::Ucs4Encoding.get_WebName
 template<>
 
@@ -418,8 +418,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Text::Encoding, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Ucs4Encoding::Ucs4Encoding()  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<Ucs4Encoding>())) {}
+ System::Xml::Ucs4Encoding System::Xml::Ucs4Encoding::New_ctor()  {
+System::Xml::Ucs4Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Ucs4Encoding>())};
+return o;
+}
  void System::Xml::Ucs4Encoding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Ucs4Encoding>::get(),

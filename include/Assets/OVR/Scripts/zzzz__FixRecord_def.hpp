@@ -89,8 +89,7 @@ constexpr bool __get_complete() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cat", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fix", ty: "Assets::OVR::Scripts::FixMethodDelegate", modifiers: "", def_value: None }, CppParam { name: "target", ty: "UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "editRequired", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit FixRecord(int32_t order, ::StringW cat, ::StringW msg, Assets::OVR::Scripts::FixMethodDelegate fix, UnityEngine::Object target, bool editRequired, ::ArrayW<::StringW> buttons) ;
+static Assets::OVR::Scripts::FixRecord New_ctor(int32_t order, ::StringW cat, ::StringW msg, Assets::OVR::Scripts::FixMethodDelegate fix, UnityEngine::Object target, bool editRequired, ::ArrayW<::StringW> buttons) ;
 
 /// @brief Method .ctor addr 0x266abb0 size 0x6c virtual false final false
  void _ctor(int32_t order, ::StringW cat, ::StringW msg, Assets::OVR::Scripts::FixMethodDelegate fix, UnityEngine::Object target, bool editRequired, ::ArrayW<::StringW> buttons) ;

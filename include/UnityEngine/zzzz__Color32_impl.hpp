@@ -2,8 +2,8 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
 //  Writing Method size for method: UnityEngine::Color32._ctor
 template<>
 

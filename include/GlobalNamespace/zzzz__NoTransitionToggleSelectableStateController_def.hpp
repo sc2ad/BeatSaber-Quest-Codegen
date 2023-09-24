@@ -12,7 +12,7 @@ class NoTransitionToggleSelectableStateController;
 // Type: ::NoTransitionToggleSelectableStateController
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5559)), TypeDefinitionIndex(TypeDefinitionIndex(13688)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5559), inst: 4809 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5559), inst: 4809 }), TypeDefinitionIndex(TypeDefinitionIndex(13688)), TypeDefinitionIndex(TypeDefinitionIndex(5559))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5561))
 // CS Name: NoTransitionToggleSelectableStateController
 class CORDL_TYPE NoTransitionToggleSelectableStateController : public GlobalNamespace::SelectableStateController_1<HMUI::NoTransitionsToggle> {
@@ -63,8 +63,7 @@ constexpr explicit NoTransitionToggleSelectableStateController(void* ptr) noexce
 /// @brief Method ResolveSelectionState addr 0x212bb00 size 0xec virtual false final false
  void ResolveSelectionState(HMUI::UISelectionState state, bool animated) ;
 
-// Ctor Parameters []
-explicit NoTransitionToggleSelectableStateController() ;
+static GlobalNamespace::NoTransitionToggleSelectableStateController New_ctor() ;
 
 /// @brief Method .ctor addr 0x212bc80 size 0x48 virtual false final false
  void _ctor() ;

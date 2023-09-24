@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerConnection_def.hpp"
+#include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerConnection_def.hpp"
+#include "UnityEngine/Networking/PlayerConnection/zzzz__IEditorPlayerConnection_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__IPlayerEditorConnectionNative_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__MessageEventArgs_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerEditorConnectionEvents_def.hpp"
-#include "UnityEngine/Networking/PlayerConnection/zzzz__IEditorPlayerConnection_def.hpp"
-#include "UnityEngine/zzzz__IPlayerEditorConnectionNative_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__PlayerEditorConnectionEvents_def.hpp"
 //  Writing Method size for method: UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0._ctor
 template<>
@@ -49,8 +49,10 @@ constexpr void UnityEngine::Networking::PlayerConnection::UnityEngine__Networkin
 constexpr System::Guid UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0::__get_messageId() const {
 return ::cordl_internals::getInstanceField<System::Guid, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0>())) {}
+ UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0 UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0::New_ctor()  {
+UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0>())};
+return o;
+}
  void UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0>::get(),
@@ -109,8 +111,10 @@ constexpr void UnityEngine::Networking::PlayerConnection::UnityEngine__Networkin
 constexpr System::Guid UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0::__get_messageId() const {
 return ::cordl_internals::getInstanceField<System::Guid, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0>())) {}
+ UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0 UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0::New_ctor()  {
+UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0>())};
+return o;
+}
  void UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0>::get(),
@@ -169,8 +173,10 @@ constexpr void UnityEngine::Networking::PlayerConnection::UnityEngine__Networkin
 constexpr bool UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0::__get_msgReceived() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0>())) {}
+ UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0 UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0::New_ctor()  {
+UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0>())};
+return o;
+}
  void UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0>::get(),
@@ -708,8 +714,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, playerId);
 }
-// Ctor Parameters []
- UnityEngine::Networking::PlayerConnection::PlayerConnection::PlayerConnection()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<PlayerConnection>())) {}
+ UnityEngine::Networking::PlayerConnection::PlayerConnection UnityEngine::Networking::PlayerConnection::PlayerConnection::New_ctor()  {
+UnityEngine::Networking::PlayerConnection::PlayerConnection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::PlayerConnection::PlayerConnection>())};
+return o;
+}
  void UnityEngine::Networking::PlayerConnection::PlayerConnection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::PlayerConnection::PlayerConnection>::get(),

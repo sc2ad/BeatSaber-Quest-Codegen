@@ -219,8 +219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "executionOrder", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifier", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapEventData::BeatmapEventData(float_t time, int32_t executionOrder, int32_t subtypeIdentifier)  : GlobalNamespace::BeatmapDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapEventData>(time, executionOrder, subtypeIdentifier))) {}
+ GlobalNamespace::BeatmapEventData GlobalNamespace::BeatmapEventData::New_ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier)  {
+GlobalNamespace::BeatmapEventData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapEventData>(time, executionOrder, subtypeIdentifier))};
+return o;
+}
  void GlobalNamespace::BeatmapEventData::_ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapEventData>::get(),

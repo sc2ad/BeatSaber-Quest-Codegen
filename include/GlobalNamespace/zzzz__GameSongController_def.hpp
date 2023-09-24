@@ -3,22 +3,22 @@
 #include "GlobalNamespace/zzzz__SongController_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
 class BeatmapCallbacksUpdater;
-}
-namespace UnityEngine {
-class WaitUntil;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class IStartSeekSongController;
 }
 namespace GlobalNamespace {
 class AudioPitchGainEffect;
+}
+namespace UnityEngine {
+class WaitUntil;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -136,8 +136,7 @@ constexpr bool __get__songDidFinish() const;
 /// @brief Method SeekTo addr 0x2110c3c size 0x1c virtual true final true
  void SeekTo(float_t songTime) ;
 
-// Ctor Parameters []
-explicit GameSongController() ;
+static GlobalNamespace::GameSongController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2110c58 size 0x8 virtual false final false
  void _ctor() ;

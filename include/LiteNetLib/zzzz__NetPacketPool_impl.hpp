@@ -1,8 +1,8 @@
 #pragma once
 #include "LiteNetLib/zzzz__NetPacketPool_def.hpp"
 #include "System/Threading/zzzz__ReaderWriterLockSlim_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/zzzz__PacketProperty_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 //  Writing Method size for method: LiteNetLib::NetPacketPool.GetWithData
 template<>
 
@@ -168,8 +168,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, packet);
 }
-// Ctor Parameters []
- LiteNetLib::NetPacketPool::NetPacketPool()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetPacketPool>())) {}
+ LiteNetLib::NetPacketPool LiteNetLib::NetPacketPool::New_ctor()  {
+LiteNetLib::NetPacketPool o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetPacketPool>())};
+return o;
+}
  void LiteNetLib::NetPacketPool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetPacketPool>::get(),

@@ -3,9 +3,9 @@
 #include "GlobalNamespace/zzzz__MissionGameplaySceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissionGameplaySceneSetupData._ctor
 template<>
 
@@ -65,8 +65,10 @@ constexpr void GlobalNamespace::MissionGameplaySceneSetupData::__set_backButtonT
 constexpr ::StringW GlobalNamespace::MissionGameplaySceneSetupData::__get_backButtonText() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "missionObjectives", ty: "::ArrayW<GlobalNamespace::MissionObjective>", modifiers: "", def_value: None }, CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "backButtonText", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::MissionGameplaySceneSetupData::MissionGameplaySceneSetupData(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::GameplayModifiers gameplayModifiers, ::StringW backButtonText)  : GlobalNamespace::SceneSetupData(THROW_UNLESS(::il2cpp_utils::New<MissionGameplaySceneSetupData>(missionObjectives, autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, gameplayModifiers, backButtonText))) {}
+ GlobalNamespace::MissionGameplaySceneSetupData GlobalNamespace::MissionGameplaySceneSetupData::New_ctor(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::GameplayModifiers gameplayModifiers, ::StringW backButtonText)  {
+GlobalNamespace::MissionGameplaySceneSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionGameplaySceneSetupData>(missionObjectives, autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, gameplayModifiers, backButtonText))};
+return o;
+}
  void GlobalNamespace::MissionGameplaySceneSetupData::_ctor(::ArrayW<GlobalNamespace::MissionObjective> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::GameplayModifiers gameplayModifiers, ::StringW backButtonText)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionGameplaySceneSetupData>::get(),

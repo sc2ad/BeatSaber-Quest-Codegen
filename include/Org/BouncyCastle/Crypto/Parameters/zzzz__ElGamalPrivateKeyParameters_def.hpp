@@ -69,8 +69,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_x() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ElGamalParameters", modifiers: "", def_value: None }]
-explicit ElGamalPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea88c0 size 0x88 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;

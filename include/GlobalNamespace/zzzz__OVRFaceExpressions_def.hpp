@@ -8,33 +8,42 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyCollection_1;
-}
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__FaceState;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPermissionsRequester__Permission;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRFaceExpressions__FaceRegionConfidence;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class IEnumerable_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRFaceExpressions__FaceExpression;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRFaceExpressions__FaceExpressionsEnumerator;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -102,6 +111,8 @@ __Max = 2,
 constexpr operator __GlobalNamespace__OVRFaceExpressions__FaceRegionConfidence_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRFaceExpressions__FaceRegionConfidence_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -236,6 +247,8 @@ __Max = 63,
 constexpr operator __GlobalNamespace__OVRFaceExpressions__FaceExpression_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRFaceExpressions__FaceExpression_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -716,8 +729,7 @@ static int32_t __get__trackingInstanceCount() ;
 /// @brief Method get_Count addr 0x25b07a8 size 0x18 virtual true final true
  int32_t get_Count() ;
 
-// Ctor Parameters []
-explicit OVRFaceExpressions() ;
+static GlobalNamespace::OVRFaceExpressions New_ctor() ;
 
 /// @brief Method .ctor addr 0x25b07c0 size 0x8 virtual false final false
  void _ctor() ;

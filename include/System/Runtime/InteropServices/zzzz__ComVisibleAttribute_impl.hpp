@@ -24,8 +24,10 @@ constexpr void System::Runtime::InteropServices::ComVisibleAttribute::__set__val
 constexpr bool System::Runtime::InteropServices::ComVisibleAttribute::__get__val() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "visibility", ty: "bool", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::ComVisibleAttribute::ComVisibleAttribute(bool visibility)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ComVisibleAttribute>(visibility))) {}
+ System::Runtime::InteropServices::ComVisibleAttribute System::Runtime::InteropServices::ComVisibleAttribute::New_ctor(bool visibility)  {
+System::Runtime::InteropServices::ComVisibleAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::ComVisibleAttribute>(visibility))};
+return o;
+}
  void System::Runtime::InteropServices::ComVisibleAttribute::_ctor(bool visibility)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::ComVisibleAttribute>::get(),

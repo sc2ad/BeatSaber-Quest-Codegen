@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::InputSystem::HID {
+struct UnityEngine__InputSystem__HID__HIDSupport__HIDPageUsage;
+}
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;

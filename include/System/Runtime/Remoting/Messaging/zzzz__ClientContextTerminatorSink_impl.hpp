@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__ClientContextTerminatorSink_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::ClientContextTerminatorSink._ctor
 template<>
 
@@ -65,8 +65,10 @@ constexpr void System::Runtime::Remoting::Messaging::ClientContextTerminatorSink
 constexpr System::Runtime::Remoting::Contexts::Context System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::__get__context() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Contexts::Context, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ctx", ty: "System::Runtime::Remoting::Contexts::Context", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::ClientContextTerminatorSink(System::Runtime::Remoting::Contexts::Context ctx)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClientContextTerminatorSink>(ctx))) {}
+ System::Runtime::Remoting::Messaging::ClientContextTerminatorSink System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::New_ctor(System::Runtime::Remoting::Contexts::Context ctx)  {
+System::Runtime::Remoting::Messaging::ClientContextTerminatorSink o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ClientContextTerminatorSink>(ctx))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::_ctor(System::Runtime::Remoting::Contexts::Context ctx)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ClientContextTerminatorSink>::get(),

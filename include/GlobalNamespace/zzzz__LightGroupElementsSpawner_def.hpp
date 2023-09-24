@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
 class LightGroup;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -83,8 +83,7 @@ constexpr UnityEngine::GameObject __get__alternateLightPrefab() const;
 /// @brief Method OnEnable addr 0x225e608 size 0x60 virtual false final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit LightGroupElementsSpawner() ;
+static GlobalNamespace::LightGroupElementsSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x225e668 size 0x8 virtual false final false
  void _ctor() ;

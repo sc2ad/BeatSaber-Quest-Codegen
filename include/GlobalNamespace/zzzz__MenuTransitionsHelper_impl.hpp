@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
@@ -10,28 +10,28 @@
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
 #include "BeatmapEditor3D/zzzz__BeatmapEditorStandardLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "GlobalNamespace/zzzz__CreditsScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCache_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "GlobalNamespace/zzzz__CreditsScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
+#include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
+#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0._ctor
 template<>
 
@@ -84,8 +84,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__Dis
 constexpr GlobalNamespace::LevelCompletionResults GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0::__get_levelCompletionResults() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::LevelCompletionResults, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0>())) {}
+ GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0 GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass28_0>::get(),
@@ -156,8 +158,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__Dis
 constexpr GlobalNamespace::MultiplayerResultsData GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0::__get_multiplayerResultsData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerResultsData, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0>())) {}
+ GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0 GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass29_0>::get(),
@@ -222,8 +226,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__Dis
 constexpr GlobalNamespace::DisconnectedReason GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0::__get_disconnectedReason() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::DisconnectedReason, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0>())) {}
+ GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0 GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass30_0>::get(),
@@ -294,8 +300,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__Dis
 constexpr GlobalNamespace::MissionCompletionResults GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0::__get_missionCompletionResults() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MissionCompletionResults, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0>())) {}
+ GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0 GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass31_0>::get(),
@@ -366,8 +374,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__Dis
 constexpr GlobalNamespace::TutorialScenesTransitionSetupDataSO GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0::__get_tutorialSceneTransitionSetupData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::TutorialScenesTransitionSetupDataSO, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0>())) {}
+ GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0 GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass32_0>::get(),
@@ -438,8 +448,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__Dis
 constexpr GlobalNamespace::LevelCompletionResults GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0::__get_levelCompletionResults() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::LevelCompletionResults, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0>())) {}
+ GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0 GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuTransitionsHelper____c__DisplayClass35_0>::get(),
@@ -1091,8 +1103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapEditorStandardLevelScenesTransitionSetupData, levelCompletionResults);
 }
-// Ctor Parameters []
- GlobalNamespace::MenuTransitionsHelper::MenuTransitionsHelper()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MenuTransitionsHelper>())) {}
+ GlobalNamespace::MenuTransitionsHelper GlobalNamespace::MenuTransitionsHelper::New_ctor()  {
+GlobalNamespace::MenuTransitionsHelper o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MenuTransitionsHelper>())};
+return o;
+}
  void GlobalNamespace::MenuTransitionsHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MenuTransitionsHelper>::get(),

@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Exception;
-}
 namespace BGNet::Logging {
 class BGNet__Logging__Debug__ILogger;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace BGNet::Logging {
@@ -69,8 +69,7 @@ constexpr explicit ConsoleLogger(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 /// @brief Method LogWarning addr 0xdd4170 size 0xe0 virtual true final true
  void LogWarning(::StringW message) ;
 
-// Ctor Parameters []
-explicit ConsoleLogger() ;
+static BGNet::Logging::ConsoleLogger New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd4250 size 0x8 virtual false final false
  void _ctor() ;

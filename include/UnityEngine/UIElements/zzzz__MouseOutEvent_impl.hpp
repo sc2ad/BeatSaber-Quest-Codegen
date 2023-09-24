@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::MouseOutEvent::MouseOutEvent()  : UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseOutEvent>(THROW_UNLESS(::il2cpp_utils::New<MouseOutEvent>())) {}
+ UnityEngine::UIElements::MouseOutEvent UnityEngine::UIElements::MouseOutEvent::New_ctor()  {
+UnityEngine::UIElements::MouseOutEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::MouseOutEvent>())};
+return o;
+}
  void UnityEngine::UIElements::MouseOutEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::MouseOutEvent>::get(),

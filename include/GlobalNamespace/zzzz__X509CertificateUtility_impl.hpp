@@ -1,18 +1,19 @@
 #pragma once
 #include "GlobalNamespace/zzzz__X509CertificateUtility_def.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__IPasswordFinder_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaPrivateCrtKeyParameters_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "GlobalNamespace/zzzz__ICertificateEncryptionProvider_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaPrivateCrtKeyParameters_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509CertificateParser_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "GlobalNamespace/zzzz__X509CertificateUtility_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder._ctor
 template<>
 
@@ -74,8 +75,10 @@ constexpr void GlobalNamespace::GlobalNamespace__X509CertificateUtility__Passwor
 constexpr ::ArrayW<char16_t> GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder::__get__password() const {
 return ::cordl_internals::getInstanceField<::ArrayW<char16_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder::GlobalNamespace__X509CertificateUtility__PasswordFinder(::ArrayW<uint8_t> password)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__X509CertificateUtility__PasswordFinder>(password))) {}
+ GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder::New_ctor(::ArrayW<uint8_t> password)  {
+GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder>(password))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder::_ctor(::ArrayW<uint8_t> password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder>::get(),
@@ -85,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, password);
 }
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder::GlobalNamespace__X509CertificateUtility__PasswordFinder(::StringW password)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__X509CertificateUtility__PasswordFinder>(password))) {}
+ GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder::New_ctor(::StringW password)  {
+GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder>(password))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder::_ctor(::StringW password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__X509CertificateUtility__PasswordFinder>::get(),
@@ -170,8 +175,10 @@ constexpr void GlobalNamespace::GlobalNamespace__X509CertificateUtility__RSACert
 constexpr Org::BouncyCastle::Crypto::ISigner GlobalNamespace::GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider::__get__signer() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::ISigner, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider::GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters privateKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider>(privateKey))) {}
+ GlobalNamespace::GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider GlobalNamespace::GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider::New_ctor(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters privateKey)  {
+GlobalNamespace::GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider>(privateKey))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider::_ctor(Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters privateKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__X509CertificateUtility__RSACertificateEncryptionProvider>::get(),
@@ -426,8 +433,10 @@ constexpr void GlobalNamespace::GlobalNamespace__X509CertificateUtility___GetCer
 constexpr System::Collections::IEnumerator GlobalNamespace::GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9::__get___7__wrap2() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerator, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9::GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9 GlobalNamespace::GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__X509CertificateUtility___GetCertificateList_d__9>::get(),
@@ -578,8 +587,10 @@ return ::cordl_internals::getStaticField<System::Func_2<System::Security::Crypto
  System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus,::StringW> GlobalNamespace::GlobalNamespace__X509CertificateUtility____c::__get___9__12_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus,::StringW>, "<>9__12_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__X509CertificateUtility____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__X509CertificateUtility____c::GlobalNamespace__X509CertificateUtility____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__X509CertificateUtility____c>())) {}
+ GlobalNamespace::GlobalNamespace__X509CertificateUtility____c GlobalNamespace::GlobalNamespace__X509CertificateUtility____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__X509CertificateUtility____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__X509CertificateUtility____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__X509CertificateUtility____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__X509CertificateUtility____c>::get(),

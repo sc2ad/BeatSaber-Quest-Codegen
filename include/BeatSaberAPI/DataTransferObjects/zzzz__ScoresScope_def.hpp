@@ -57,6 +57,8 @@ constexpr operator __ScoresScope_Unwrapped () const noexcept {
 return std::bit_cast<__ScoresScope_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

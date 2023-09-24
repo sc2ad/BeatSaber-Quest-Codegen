@@ -50,8 +50,7 @@ constexpr explicit SimpleValueMissionObjectiveChecker(void* ptr) noexcept : Glob
 /// @brief Method CheckAndUpdateStatus addr 0x20d5d28 size 0x104 virtual false final false
  void CheckAndUpdateStatus() ;
 
-// Ctor Parameters []
-explicit SimpleValueMissionObjectiveChecker() ;
+static GlobalNamespace::SimpleValueMissionObjectiveChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d5e34 size 0x8 virtual false final false
  void _ctor() ;

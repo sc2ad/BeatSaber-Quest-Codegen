@@ -3,6 +3,12 @@
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Net::NetworkInformation {
+class GatewayIPAddressInformationCollection;
+}
+namespace System::Net::NetworkInformation {
+class IPAddressCollection;
+}
+namespace System::Net::NetworkInformation {
 class LinuxNetworkInterface;
 }
 namespace System::Collections::Generic {
@@ -11,12 +17,6 @@ class List_1;
 }
 namespace System::Net {
 class IPAddress;
-}
-namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformationCollection;
-}
-namespace System::Net::NetworkInformation {
-class IPAddressCollection;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -69,8 +69,7 @@ constexpr explicit LinuxIPInterfaceProperties(void* ptr) noexcept : System::Net:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "iface", ty: "System::Net::NetworkInformation::LinuxNetworkInterface", modifiers: "", def_value: None }, CppParam { name: "addresses", ty: "System::Collections::Generic::List_1<System::Net::IPAddress>", modifiers: "", def_value: None }]
-explicit LinuxIPInterfaceProperties(System::Net::NetworkInformation::LinuxNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses) ;
+static System::Net::NetworkInformation::LinuxIPInterfaceProperties New_ctor(System::Net::NetworkInformation::LinuxNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses) ;
 
 /// @brief Method .ctor addr 0x285b3a0 size 0x70 virtual false final false
  void _ctor(System::Net::NetworkInformation::LinuxNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses) ;

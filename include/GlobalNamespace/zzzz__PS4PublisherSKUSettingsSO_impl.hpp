@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SonyPublisherSKUSettingsSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PS4PublisherSKUSettingsSO_def.hpp"
+#include "GlobalNamespace/zzzz__PS4PublisherSKUSettingsSO_def.hpp"
 #include "GlobalNamespace/zzzz__PS4ApplicationCategory_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion.get_masterVersion
 template<>
@@ -83,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion>())) {}
+ GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PS4PublisherSKUSettingsSO__PS4BuildVersion>::get(),
@@ -303,8 +306,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::PS4ApplicationCategory, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PS4PublisherSKUSettingsSO::PS4PublisherSKUSettingsSO()  : GlobalNamespace::SonyPublisherSKUSettingsSO(THROW_UNLESS(::il2cpp_utils::New<PS4PublisherSKUSettingsSO>())) {}
+ GlobalNamespace::PS4PublisherSKUSettingsSO GlobalNamespace::PS4PublisherSKUSettingsSO::New_ctor()  {
+GlobalNamespace::PS4PublisherSKUSettingsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS4PublisherSKUSettingsSO>())};
+return o;
+}
  void GlobalNamespace::PS4PublisherSKUSettingsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS4PublisherSKUSettingsSO>::get(),

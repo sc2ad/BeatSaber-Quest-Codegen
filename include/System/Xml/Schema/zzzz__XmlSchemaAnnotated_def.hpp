@@ -47,8 +47,7 @@ constexpr explicit XmlSchemaAnnotated(void* ptr) noexcept : System::Xml::Schema:
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlSchemaAnnotated() ;
+static System::Xml::Schema::XmlSchemaAnnotated New_ctor() ;
 
 /// @brief Method .ctor addr 0x2733758 size 0x8 virtual false final false
  void _ctor() ;

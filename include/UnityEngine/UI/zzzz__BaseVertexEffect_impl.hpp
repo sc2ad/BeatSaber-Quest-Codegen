@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, vertices);
 }
-// Ctor Parameters []
- UnityEngine::UI::BaseVertexEffect::BaseVertexEffect()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BaseVertexEffect>())) {}
+ UnityEngine::UI::BaseVertexEffect UnityEngine::UI::BaseVertexEffect::New_ctor()  {
+UnityEngine::UI::BaseVertexEffect o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::BaseVertexEffect>())};
+return o;
+}
  void UnityEngine::UI::BaseVertexEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::BaseVertexEffect>::get(),

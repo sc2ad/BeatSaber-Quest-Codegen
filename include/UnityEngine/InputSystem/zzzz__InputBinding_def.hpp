@@ -10,18 +10,30 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputBinding__DisplayStringOptions;
+}
 namespace System {
 struct Guid;
 }
 namespace UnityEngine::InputSystem {
-class InputAction;
+class InputControl;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
+class UnityEngine__InputSystem__InputBinding____c;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputBinding__MatchOptions;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputBinding__Flags;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -90,6 +102,8 @@ __IgnoreBindingOverrides = 8,
 constexpr operator __UnityEngine__InputSystem__InputBinding__DisplayStringOptions_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputBinding__DisplayStringOptions_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -165,6 +179,8 @@ constexpr operator __UnityEngine__InputSystem__InputBinding__MatchOptions_Unwrap
 return std::bit_cast<__UnityEngine__InputSystem__InputBinding__MatchOptions_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -231,6 +247,8 @@ __PartOfComposite = 8,
 constexpr operator __UnityEngine__InputSystem__InputBinding__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputBinding__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -311,8 +329,7 @@ static System::Func_2<::StringW,bool> __get___9__45_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputBinding____c() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28c3418 size 0x8 virtual false final false
  void _ctor() ;

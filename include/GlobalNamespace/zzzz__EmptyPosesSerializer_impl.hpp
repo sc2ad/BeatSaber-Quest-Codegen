@@ -153,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, path);
 }
-// Ctor Parameters []
- GlobalNamespace::EmptyPosesSerializer::EmptyPosesSerializer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EmptyPosesSerializer>())) {}
+ GlobalNamespace::EmptyPosesSerializer GlobalNamespace::EmptyPosesSerializer::New_ctor()  {
+GlobalNamespace::EmptyPosesSerializer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EmptyPosesSerializer>())};
+return o;
+}
  void GlobalNamespace::EmptyPosesSerializer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EmptyPosesSerializer>::get(),

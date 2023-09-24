@@ -58,8 +58,10 @@ constexpr void System::Net::Cache::RequestCachePolicy::__set_m_Level(System::Net
 constexpr System::Net::Cache::RequestCacheLevel System::Net::Cache::RequestCachePolicy::__get_m_Level() const {
 return ::cordl_internals::getInstanceField<System::Net::Cache::RequestCacheLevel, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "level", ty: "System::Net::Cache::RequestCacheLevel", modifiers: "", def_value: None }]
- System::Net::Cache::RequestCachePolicy::RequestCachePolicy(System::Net::Cache::RequestCacheLevel level)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RequestCachePolicy>(level))) {}
+ System::Net::Cache::RequestCachePolicy System::Net::Cache::RequestCachePolicy::New_ctor(System::Net::Cache::RequestCacheLevel level)  {
+System::Net::Cache::RequestCachePolicy o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Cache::RequestCachePolicy>(level))};
+return o;
+}
  void System::Net::Cache::RequestCachePolicy::_ctor(System::Net::Cache::RequestCacheLevel level)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Cache::RequestCachePolicy>::get(),

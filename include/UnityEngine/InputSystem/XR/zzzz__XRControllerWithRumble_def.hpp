@@ -51,8 +51,7 @@ constexpr explicit XRControllerWithRumble(void* ptr) noexcept : UnityEngine::Inp
 /// @brief Method SendImpulse addr 0x29332c8 size 0xac virtual false final false
  void SendImpulse(float_t amplitude, float_t duration) ;
 
-// Ctor Parameters []
-explicit XRControllerWithRumble() ;
+static UnityEngine::InputSystem::XR::XRControllerWithRumble New_ctor() ;
 
 /// @brief Method .ctor addr 0x29333f0 size 0x8 virtual false final false
  void _ctor() ;

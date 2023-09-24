@@ -3,6 +3,7 @@
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__Font__FontTextureRebuildCallback._ctor
 template<>
@@ -38,8 +39,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__Font__FontTextureRebuildCallback::UnityEngine__Font__FontTextureRebuildCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Font__FontTextureRebuildCallback>(object, method))) {}
+ UnityEngine::UnityEngine__Font__FontTextureRebuildCallback UnityEngine::UnityEngine__Font__FontTextureRebuildCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__Font__FontTextureRebuildCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__Font__FontTextureRebuildCallback>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__Font__FontTextureRebuildCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__Font__FontTextureRebuildCallback>::get(),
@@ -285,8 +288,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Font::Font()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<Font>())) {}
+ UnityEngine::Font UnityEngine::Font::New_ctor()  {
+UnityEngine::Font o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Font>())};
+return o;
+}
  void UnityEngine::Font::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Font>::get(),

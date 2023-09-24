@@ -72,8 +72,7 @@ constexpr explicit AnimationState(void* ptr) noexcept : UnityEngine::TrackedRefe
 /// @brief Method set_layer addr 0x2b1aa4c size 0x44 virtual false final false
  void set_layer(int32_t value) ;
 
-// Ctor Parameters []
-explicit AnimationState() ;
+static UnityEngine::AnimationState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b1aa90 size 0x8 virtual false final false
  void _ctor() ;

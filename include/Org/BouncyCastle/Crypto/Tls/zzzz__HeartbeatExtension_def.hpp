@@ -65,8 +65,7 @@ constexpr uint8_t __get_mMode() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mode", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit HeartbeatExtension(uint8_t mode) ;
+static Org::BouncyCastle::Crypto::Tls::HeartbeatExtension New_ctor(uint8_t mode) ;
 
 /// @brief Method .ctor addr 0xf0455c size 0x98 virtual false final false
  void _ctor(uint8_t mode) ;

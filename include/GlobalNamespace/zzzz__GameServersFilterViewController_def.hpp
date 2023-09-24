@@ -1,26 +1,26 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class GameplayModifiersDropdown;
-}
-namespace GlobalNamespace {
-class GameServersFilter;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
 namespace GlobalNamespace {
 class SongPacksDropdown;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
 class BeatmapDifficultyDropdown;
 }
 namespace HMUI {
 class ToggleBinder;
+}
+namespace GlobalNamespace {
+class GameServersFilter;
+}
+namespace GlobalNamespace {
+class GameplayModifiersDropdown;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -169,8 +169,7 @@ constexpr bool __get__showInternetGames() const;
 /// @brief Method Refresh addr 0x21766c4 size 0x108 virtual false final false
  void Refresh(GlobalNamespace::GameServersFilter currentFilter) ;
 
-// Ctor Parameters []
-explicit GameServersFilterViewController() ;
+static GlobalNamespace::GameServersFilterViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2176950 size 0x68 virtual false final false
  void _ctor() ;

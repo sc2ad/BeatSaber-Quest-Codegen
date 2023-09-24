@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__DisconnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DisconnectedPlayer.get_offsetSyncTime
 template<>
 
@@ -464,8 +464,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters [CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sortIndex", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::DisconnectedPlayer::DisconnectedPlayer(::StringW userId, ::StringW userName, int32_t sortIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DisconnectedPlayer>(userId, userName, sortIndex))) {}
+ GlobalNamespace::DisconnectedPlayer GlobalNamespace::DisconnectedPlayer::New_ctor(::StringW userId, ::StringW userName, int32_t sortIndex)  {
+GlobalNamespace::DisconnectedPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DisconnectedPlayer>(userId, userName, sortIndex))};
+return o;
+}
  void GlobalNamespace::DisconnectedPlayer::_ctor(::StringW userId, ::StringW userName, int32_t sortIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DisconnectedPlayer>::get(),

@@ -5,17 +5,17 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class MemoryPoolBindInfo;
-}
-namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class MemoryPoolBindInfo;
 }
 namespace Zenject {
 template<typename TContract>
 class FactoryArgumentsToChoiceBinder_1;
+}
+namespace Zenject {
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -32,7 +32,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10808)), TypeDefinitionIndex(TypeDefinitionIndex(10645)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10645), inst: 1688 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10808)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10645), inst: 1688 }), TypeDefinitionIndex(TypeDefinitionIndex(10645))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10808), inst: 2 })
 // CS Name: Zenject.MemoryPoolExpandBinder`1
 class CORDL_TYPE MemoryPoolExpandBinder_1<TContract> : public Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
@@ -85,8 +85,7 @@ constexpr Zenject::MemoryPoolBindInfo __get__MemoryPoolBindInfo_k__BackingField(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }, CppParam { name: "poolBindInfo", ty: "Zenject::MemoryPoolBindInfo", modifiers: "", def_value: None }]
-explicit MemoryPoolExpandBinder_1(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, Zenject::MemoryPoolBindInfo poolBindInfo) ;
+static Zenject::MemoryPoolExpandBinder_1<TContract> New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, Zenject::MemoryPoolBindInfo poolBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, Zenject::MemoryPoolBindInfo poolBindInfo) ;

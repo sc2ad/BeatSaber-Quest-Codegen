@@ -3,21 +3,7 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-template<typename T>
-class IPacketPool_1;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace GlobalNamespace {
-template<typename T>
-class ISyncStateDeltaSerializable_1;
-}
-namespace GlobalNamespace {
 class IPoolablePacket;
-}
-namespace GlobalNamespace {
-struct SyncStateId;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -25,8 +11,22 @@ class NetDataReader;
 namespace GlobalNamespace {
 struct StandardScoreSyncState;
 }
+namespace GlobalNamespace {
+template<typename T>
+class ISyncStateDeltaSerializable_1;
+}
+namespace GlobalNamespace {
+struct SyncStateId;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace GlobalNamespace {
+template<typename T>
+class IPacketPool_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -145,8 +145,7 @@ static GlobalNamespace::IPacketPool_1<GlobalNamespace::StandardScoreSyncStateDel
 /// @brief Method Release addr 0xdcd8e0 size 0xac virtual true final true
  void Release() ;
 
-// Ctor Parameters []
-explicit StandardScoreSyncStateDeltaNetSerializable() ;
+static GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0xdcd98c size 0x8 virtual false final false
  void _ctor() ;

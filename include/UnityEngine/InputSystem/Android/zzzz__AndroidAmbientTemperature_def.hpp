@@ -47,8 +47,7 @@ constexpr explicit AndroidAmbientTemperature(void* ptr) noexcept : UnityEngine::
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidAmbientTemperature() ;
+static UnityEngine::InputSystem::Android::AndroidAmbientTemperature New_ctor() ;
 
 /// @brief Method .ctor addr 0x29530a8 size 0x8 virtual false final false
  void _ctor() ;

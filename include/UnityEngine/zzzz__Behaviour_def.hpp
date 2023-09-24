@@ -63,8 +63,7 @@ constexpr explicit Behaviour(void* ptr) noexcept : UnityEngine::Component(ptr) {
 /// @brief Method get_isActiveAndEnabled addr 0x2b55f20 size 0x3c virtual false final false
  bool get_isActiveAndEnabled() ;
 
-// Ctor Parameters []
-explicit Behaviour() ;
+static UnityEngine::Behaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b4f790 size 0x4 virtual false final false
  void _ctor() ;

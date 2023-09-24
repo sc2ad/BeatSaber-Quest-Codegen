@@ -3,31 +3,31 @@
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System {
-class Type;
+template<typename T,typename TResult>
+class Func_2;
 }
-namespace UnityEngine {
-class GameObject;
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace Zenject {
-class DiContainer;
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
 class InjectContext;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -89,8 +89,7 @@ constexpr System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> __get__
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gameObjectGetter", ty: "System::Func_2<Zenject::InjectContext,UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::List_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit AddToExistingGameObjectComponentProviderGetter(System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
+static Zenject::AddToExistingGameObjectComponentProviderGetter New_ctor(System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
 
 /// @brief Method .ctor addr 0x2d8ce6c size 0x38 virtual false final false
  void _ctor(System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> gameObjectGetter, Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::List_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;

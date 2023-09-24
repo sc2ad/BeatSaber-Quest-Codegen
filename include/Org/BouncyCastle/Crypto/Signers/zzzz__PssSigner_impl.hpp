@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__PssSigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::PssSigner.CreateRawSigner
 template<>
@@ -451,8 +451,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::Signers::PssSigner, false>(nullptr, ___internal_method, cipher, contentDigest, mgfDigest, saltLen, trailer);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::PssSigner::PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PssSigner>(cipher, digest))) {}
+ Org::BouncyCastle::Crypto::Signers::PssSigner Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Signers::PssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::PssSigner>(cipher, digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::PssSigner>::get(),
@@ -462,8 +464,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, digest);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::PssSigner::PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PssSigner>(cipher, digest, saltLen))) {}
+ Org::BouncyCastle::Crypto::Signers::PssSigner Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen)  {
+Org::BouncyCastle::Crypto::Signers::PssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::PssSigner>(cipher, digest, saltLen))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::PssSigner>::get(),
@@ -473,8 +477,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, digest, saltLen);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::PssSigner::PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> salt)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PssSigner>(cipher, digest, salt))) {}
+ Org::BouncyCastle::Crypto::Signers::PssSigner Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> salt)  {
+Org::BouncyCastle::Crypto::Signers::PssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::PssSigner>(cipher, digest, salt))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> salt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::PssSigner>::get(),
@@ -484,8 +490,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, digest, salt);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::PssSigner::PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PssSigner>(cipher, contentDigest, mgfDigest, saltLen))) {}
+ Org::BouncyCastle::Crypto::Signers::PssSigner Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen)  {
+Org::BouncyCastle::Crypto::Signers::PssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::PssSigner>(cipher, contentDigest, mgfDigest, saltLen))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::PssSigner>::get(),
@@ -495,8 +503,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, contentDigest, mgfDigest, saltLen);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::PssSigner::PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, ::ArrayW<uint8_t> salt)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PssSigner>(cipher, contentDigest, mgfDigest, salt))) {}
+ Org::BouncyCastle::Crypto::Signers::PssSigner Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, ::ArrayW<uint8_t> salt)  {
+Org::BouncyCastle::Crypto::Signers::PssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::PssSigner>(cipher, contentDigest, mgfDigest, salt))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, ::ArrayW<uint8_t> salt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::PssSigner>::get(),
@@ -506,8 +516,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, contentDigest, mgfDigest, salt);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "trailer", ty: "uint8_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::PssSigner::PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen, uint8_t trailer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PssSigner>(cipher, digest, saltLen, trailer))) {}
+ Org::BouncyCastle::Crypto::Signers::PssSigner Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen, uint8_t trailer)  {
+Org::BouncyCastle::Crypto::Signers::PssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::PssSigner>(cipher, digest, saltLen, trailer))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen, uint8_t trailer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::PssSigner>::get(),
@@ -517,8 +529,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, digest, saltLen, trailer);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "trailer", ty: "uint8_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::PssSigner::PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, uint8_t trailer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PssSigner>(cipher, contentDigest, mgfDigest, saltLen, trailer))) {}
+ Org::BouncyCastle::Crypto::Signers::PssSigner Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, uint8_t trailer)  {
+Org::BouncyCastle::Crypto::Signers::PssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::PssSigner>(cipher, contentDigest, mgfDigest, saltLen, trailer))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, uint8_t trailer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::PssSigner>::get(),
@@ -528,8 +542,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher, contentDigest, mgfDigest, saltLen, trailer);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest1", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "contentDigest2", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "trailer", ty: "uint8_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::PssSigner::PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest1, Org::BouncyCastle::Crypto::IDigest contentDigest2, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, ::ArrayW<uint8_t> salt, uint8_t trailer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PssSigner>(cipher, contentDigest1, contentDigest2, mgfDigest, saltLen, salt, trailer))) {}
+ Org::BouncyCastle::Crypto::Signers::PssSigner Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest1, Org::BouncyCastle::Crypto::IDigest contentDigest2, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, ::ArrayW<uint8_t> salt, uint8_t trailer)  {
+Org::BouncyCastle::Crypto::Signers::PssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::PssSigner>(cipher, contentDigest1, contentDigest2, mgfDigest, saltLen, salt, trailer))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest1, Org::BouncyCastle::Crypto::IDigest contentDigest2, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, ::ArrayW<uint8_t> salt, uint8_t trailer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::PssSigner>::get(),

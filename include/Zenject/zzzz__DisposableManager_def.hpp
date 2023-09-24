@@ -4,33 +4,51 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Type;
-}
-namespace ModestTree::Util {
-template<typename T1,typename T2>
-class ValuePair_2;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Zenject {
+struct Zenject__DisposableManager__DisposableInfo;
 }
 namespace System {
 class IDisposable;
 }
 namespace Zenject {
+class Zenject__DisposableManager____c__DisplayClass4_1;
+}
+namespace Zenject {
 class ILateDisposable;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
+namespace Zenject {
+class Zenject__DisposableManager____c;
+}
+namespace Zenject {
+class Zenject__DisposableManager__LateDisposableInfo;
+}
+namespace Zenject {
+class Zenject__DisposableManager____c__DisplayClass9_0;
+}
+namespace ModestTree::Util {
+template<typename T1,typename T2>
+class ValuePair_2;
+}
+namespace Zenject {
+class Zenject__DisposableManager____c__DisplayClass4_0;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -176,8 +194,7 @@ constexpr int32_t __get_Priority() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "lateDisposable", ty: "Zenject::ILateDisposable", modifiers: "", def_value: None }, CppParam { name: "priority", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__DisposableManager__LateDisposableInfo(Zenject::ILateDisposable lateDisposable, int32_t priority) ;
+static Zenject::Zenject__DisposableManager__LateDisposableInfo New_ctor(Zenject::ILateDisposable lateDisposable, int32_t priority) ;
 
 /// @brief Method .ctor addr 0x2d96338 size 0x30 virtual false final false
  void _ctor(Zenject::ILateDisposable lateDisposable, int32_t priority) ;
@@ -243,8 +260,7 @@ constexpr System::IDisposable __get_disposable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__DisposableManager____c__DisplayClass4_0() ;
+static Zenject::Zenject__DisposableManager____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9631c size 0x8 virtual false final false
  void _ctor() ;
@@ -313,8 +329,7 @@ constexpr Zenject::ILateDisposable __get_lateDisposable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__DisposableManager____c__DisplayClass4_1() ;
+static Zenject::Zenject__DisposableManager____c__DisplayClass4_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d96330 size 0x8 virtual false final false
  void _ctor() ;
@@ -407,8 +422,7 @@ static System::Func_2<Zenject::Zenject__DisposableManager__DisposableInfo,int32_
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__DisposableManager____c() ;
+static Zenject::Zenject__DisposableManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d97e84 size 0x8 virtual false final false
  void _ctor() ;
@@ -486,8 +500,7 @@ constexpr System::IDisposable __get_disposable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__DisposableManager____c__DisplayClass9_0() ;
+static Zenject::Zenject__DisposableManager____c__DisplayClass9_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d96650 size 0x8 virtual false final false
  void _ctor() ;
@@ -589,8 +602,7 @@ constexpr bool __get__lateDisposed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "disposables", ty: "System::Collections::Generic::List_1<System::IDisposable>", modifiers: "", def_value: None }, CppParam { name: "priorities", ty: "System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>>", modifiers: "", def_value: None }, CppParam { name: "lateDisposables", ty: "System::Collections::Generic::List_1<Zenject::ILateDisposable>", modifiers: "", def_value: None }, CppParam { name: "latePriorities", ty: "System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>>", modifiers: "", def_value: None }]
-explicit DisposableManager(System::Collections::Generic::List_1<System::IDisposable> disposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities, System::Collections::Generic::List_1<Zenject::ILateDisposable> lateDisposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> latePriorities) ;
+static Zenject::DisposableManager New_ctor(System::Collections::Generic::List_1<System::IDisposable> disposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities, System::Collections::Generic::List_1<Zenject::ILateDisposable> lateDisposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> latePriorities) ;
 
 /// @brief Method .ctor addr 0x2d95aec size 0x830 virtual false final false
  void _ctor(System::Collections::Generic::List_1<System::IDisposable> disposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities, System::Collections::Generic::List_1<Zenject::ILateDisposable> lateDisposables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> latePriorities) ;

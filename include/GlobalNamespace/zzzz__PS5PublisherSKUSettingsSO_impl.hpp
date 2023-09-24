@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::PS5PublisherSKUSettingsSO::PS5PublisherSKUSettingsSO()  : GlobalNamespace::SonyPublisherSKUSettingsSO(THROW_UNLESS(::il2cpp_utils::New<PS5PublisherSKUSettingsSO>())) {}
+ GlobalNamespace::PS5PublisherSKUSettingsSO GlobalNamespace::PS5PublisherSKUSettingsSO::New_ctor()  {
+GlobalNamespace::PS5PublisherSKUSettingsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS5PublisherSKUSettingsSO>())};
+return o;
+}
  void GlobalNamespace::PS5PublisherSKUSettingsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS5PublisherSKUSettingsSO>::get(),

@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxParser_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxTokenizer_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionMultiplier_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxToken_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__Expression_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionCombinator_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxTokenizer_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__Expression_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionMultiplier_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxToken_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser.Parse
 template<>
 
@@ -439,8 +439,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, token);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser::StyleSyntaxParser()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StyleSyntaxParser>())) {}
+ UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser::New_ctor()  {
+UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser>())};
+return o;
+}
  void UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser>::get(),

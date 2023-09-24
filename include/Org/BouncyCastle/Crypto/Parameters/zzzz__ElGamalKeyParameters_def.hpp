@@ -66,8 +66,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::ElGamalParameters __get_paramet
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ElGamalParameters", modifiers: "", def_value: None }]
-explicit ElGamalKeyParameters(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea8510 size 0x30 virtual false final false
  void _ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters) ;

@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Math::Field {
+class IFiniteField;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
@@ -12,11 +12,11 @@ class ECPoint;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Math::Field {
-class IFiniteField;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {
@@ -84,8 +84,7 @@ static Org::BouncyCastle::Math::BigInteger Inverse(int32_t m, ::ArrayW<int32_t> 
 /// @brief Method BuildField addr 0xf75770 size 0x1e0 virtual false final false
 static Org::BouncyCastle::Math::Field::IFiniteField BuildField(int32_t m, int32_t k1, int32_t k2, int32_t k3) ;
 
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k3", ty: "int32_t", modifiers: "", def_value: None }]
-explicit AbstractF2mCurve(int32_t m, int32_t k1, int32_t k2, int32_t k3) ;
+static Org::BouncyCastle::Math::EC::AbstractF2mCurve New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3) ;
 
 /// @brief Method .ctor addr 0xf75950 size 0x34 virtual false final false
  void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3) ;

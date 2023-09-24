@@ -96,8 +96,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers::__get_id_ri_scvp()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "id_ri_scvp", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers::CmsObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers>::get(),

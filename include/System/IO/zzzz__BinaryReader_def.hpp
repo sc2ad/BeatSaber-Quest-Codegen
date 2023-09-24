@@ -8,6 +8,9 @@
 namespace System::Text {
 class Encoding;
 }
+namespace System::Text {
+class Decoder;
+}
 namespace System::IO {
 class Stream;
 }
@@ -16,9 +19,6 @@ class IDisposable;
 }
 namespace System {
 struct Decimal;
-}
-namespace System::Text {
-class Decoder;
 }
 // Forward declare root types
 namespace System::IO {
@@ -137,20 +137,17 @@ constexpr bool __get_m_leaveOpen() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BinaryReader(System::IO::Stream input) ;
+static System::IO::BinaryReader New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x23c8884 size 0x78 virtual false final false
  void _ctor(System::IO::Stream input) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit BinaryReader(System::IO::Stream input, System::Text::Encoding encoding) ;
+static System::IO::BinaryReader New_ctor(System::IO::Stream input, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x23c8b7c size 0x8 virtual false final false
  void _ctor(System::IO::Stream input, System::Text::Encoding encoding) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit BinaryReader(System::IO::Stream input, System::Text::Encoding encoding, bool leaveOpen) ;
+static System::IO::BinaryReader New_ctor(System::IO::Stream input, System::Text::Encoding encoding, bool leaveOpen) ;
 
 /// @brief Method .ctor addr 0x23c88fc size 0x280 virtual false final false
  void _ctor(System::IO::Stream input, System::Text::Encoding encoding, bool leaveOpen) ;

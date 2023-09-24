@@ -1,10 +1,10 @@
 #pragma once
 #include "System/ComponentModel/zzzz__IBindingList_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/ComponentModel/zzzz__ListSortDirection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 //  Writing Method size for method: System::ComponentModel::IBindingList.get_AllowNew
 template<>
 

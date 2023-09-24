@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAssetRoot_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_HoudiniAssetRoot.OnDestroy
 template<>
 
@@ -163,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_HoudiniAssetRoot::HEU_HoudiniAssetRoot()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HEU_HoudiniAssetRoot>())) {}
+ HoudiniEngineUnity::HEU_HoudiniAssetRoot HoudiniEngineUnity::HEU_HoudiniAssetRoot::New_ctor()  {
+HoudiniEngineUnity::HEU_HoudiniAssetRoot o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_HoudiniAssetRoot>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_HoudiniAssetRoot::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_HoudiniAssetRoot>::get(),

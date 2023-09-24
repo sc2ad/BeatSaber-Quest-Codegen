@@ -58,14 +58,12 @@ static constexpr int32_t  DesEdeKeyLength{24};
 /// @brief Method FixKey addr 0xea2c48 size 0x1ac virtual false final false
 static ::ArrayW<uint8_t> FixKey(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DesEdeParameters(::ArrayW<uint8_t> key) ;
+static Org::BouncyCastle::Crypto::Parameters::DesEdeParameters New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0xea2e10 size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DesEdeParameters(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
+static Org::BouncyCastle::Crypto::Parameters::DesEdeParameters New_ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
 
 /// @brief Method .ctor addr 0xea2e8c size 0x8c virtual false final false
  void _ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;

@@ -41,8 +41,10 @@ constexpr void Zenject::IdBinder::__set__bindInfo(Zenject::BindInfo value)  {
 constexpr Zenject::BindInfo Zenject::IdBinder::__get__bindInfo() const {
 return ::cordl_internals::getInstanceField<Zenject::BindInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
- Zenject::IdBinder::IdBinder(Zenject::BindInfo bindInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IdBinder>(bindInfo))) {}
+ Zenject::IdBinder Zenject::IdBinder::New_ctor(Zenject::BindInfo bindInfo)  {
+Zenject::IdBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::IdBinder>(bindInfo))};
+return o;
+}
  void Zenject::IdBinder::_ctor(Zenject::BindInfo bindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::IdBinder>::get(),

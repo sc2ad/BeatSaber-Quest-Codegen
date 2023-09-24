@@ -2,15 +2,16 @@
 #include "System/Reflection/zzzz__Binder_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__DefaultBinder_def.hpp"
-#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__DefaultBinder_def.hpp"
 #include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/Reflection/zzzz__ParameterModifier_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 //  Writing Method size for method: System::System__DefaultBinder__BinderState._ctor
 template<>
@@ -47,8 +48,10 @@ constexpr void System::System__DefaultBinder__BinderState::__set_m_isParamArray(
 constexpr bool System::System__DefaultBinder__BinderState::__get_m_isParamArray() const {
 return ::cordl_internals::getInstanceField<bool, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "argsMap", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "originalSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isParamArray", ty: "bool", modifiers: "", def_value: None }]
- System::System__DefaultBinder__BinderState::System__DefaultBinder__BinderState(::ArrayW<int32_t> argsMap, int32_t originalSize, bool isParamArray)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__DefaultBinder__BinderState>(argsMap, originalSize, isParamArray))) {}
+ System::System__DefaultBinder__BinderState System::System__DefaultBinder__BinderState::New_ctor(::ArrayW<int32_t> argsMap, int32_t originalSize, bool isParamArray)  {
+System::System__DefaultBinder__BinderState o{THROW_UNLESS(::il2cpp_utils::New<System::System__DefaultBinder__BinderState>(argsMap, originalSize, isParamArray))};
+return o;
+}
  void System::System__DefaultBinder__BinderState::_ctor(::ArrayW<int32_t> argsMap, int32_t originalSize, bool isParamArray)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__DefaultBinder__BinderState>::get(),
@@ -128,8 +131,10 @@ return ::cordl_internals::getStaticField<System::System__DefaultBinder____c, "<>
  System::Predicate_1<System::Type> System::System__DefaultBinder____c::__get___9__2_0()  {
 return ::cordl_internals::getStaticField<System::Predicate_1<System::Type>, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__DefaultBinder____c>::get>();
 }
-// Ctor Parameters []
- System::System__DefaultBinder____c::System__DefaultBinder____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__DefaultBinder____c>())) {}
+ System::System__DefaultBinder____c System::System__DefaultBinder____c::New_ctor()  {
+System::System__DefaultBinder____c o{THROW_UNLESS(::il2cpp_utils::New<System::System__DefaultBinder____c>())};
+return o;
+}
  void System::System__DefaultBinder____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__DefaultBinder____c>::get(),
@@ -769,8 +774,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, source, target);
 }
-// Ctor Parameters []
- System::DefaultBinder::DefaultBinder()  : System::Reflection::Binder(THROW_UNLESS(::il2cpp_utils::New<DefaultBinder>())) {}
+ System::DefaultBinder System::DefaultBinder::New_ctor()  {
+System::DefaultBinder o{THROW_UNLESS(::il2cpp_utils::New<System::DefaultBinder>())};
+return o;
+}
  void System::DefaultBinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::DefaultBinder>::get(),

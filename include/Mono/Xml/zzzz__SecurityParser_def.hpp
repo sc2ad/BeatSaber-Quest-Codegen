@@ -5,11 +5,11 @@
 namespace System::Security {
 class SecurityElement;
 }
-namespace Mono::Xml {
-class Mono__Xml__SmallXmlParser__IContentHandler;
-}
 namespace System::Collections {
 class Stack;
+}
+namespace Mono::Xml {
+class Mono__Xml__SmallXmlParser__IContentHandler;
 }
 namespace Mono::Xml {
 class SmallXmlParser;
@@ -87,8 +87,7 @@ constexpr System::Collections::Stack __get_stack() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SecurityParser() ;
+static Mono::Xml::SecurityParser New_ctor() ;
 
 /// @brief Method .ctor addr 0x22a5980 size 0x68 virtual false final false
  void _ctor() ;

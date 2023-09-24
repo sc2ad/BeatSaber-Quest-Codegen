@@ -149,8 +149,10 @@ constexpr void System::ComponentModel::DescriptionAttribute::__set__DescriptionV
 constexpr ::StringW System::ComponentModel::DescriptionAttribute::__get__DescriptionValue_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::ComponentModel::DescriptionAttribute::DescriptionAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DescriptionAttribute>())) {}
+ System::ComponentModel::DescriptionAttribute System::ComponentModel::DescriptionAttribute::New_ctor()  {
+System::ComponentModel::DescriptionAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DescriptionAttribute>())};
+return o;
+}
  void System::ComponentModel::DescriptionAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DescriptionAttribute>::get(),
@@ -160,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
- System::ComponentModel::DescriptionAttribute::DescriptionAttribute(::StringW description)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DescriptionAttribute>(description))) {}
+ System::ComponentModel::DescriptionAttribute System::ComponentModel::DescriptionAttribute::New_ctor(::StringW description)  {
+System::ComponentModel::DescriptionAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DescriptionAttribute>(description))};
+return o;
+}
  void System::ComponentModel::DescriptionAttribute::_ctor(::StringW description)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DescriptionAttribute>::get(),

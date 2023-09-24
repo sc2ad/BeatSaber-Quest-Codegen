@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ISaberSwingRatingCounter.get_beforeCutRating
 template<>
 

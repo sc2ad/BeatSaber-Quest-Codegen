@@ -6,16 +6,16 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class SubsequentMessage;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -103,8 +103,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_obj() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit PopoPrivKey(Org::BouncyCastle::Asn1::Asn1TaggedObject obj) ;
+static Org::BouncyCastle::Asn1::Crmf::PopoPrivKey New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject obj) ;
 
 /// @brief Method .ctor addr 0xdf9890 size 0x17c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject obj) ;
@@ -112,8 +111,7 @@ explicit PopoPrivKey(Org::BouncyCastle::Asn1::Asn1TaggedObject obj) ;
 /// @brief Method GetInstance addr 0xdf9b1c size 0x80 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::PopoPrivKey GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "Org::BouncyCastle::Asn1::Crmf::SubsequentMessage", modifiers: "", def_value: None }]
-explicit PopoPrivKey(Org::BouncyCastle::Asn1::Crmf::SubsequentMessage msg) ;
+static Org::BouncyCastle::Asn1::Crmf::PopoPrivKey New_ctor(Org::BouncyCastle::Asn1::Crmf::SubsequentMessage msg) ;
 
 /// @brief Method .ctor addr 0xdf9b9c size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::SubsequentMessage msg) ;

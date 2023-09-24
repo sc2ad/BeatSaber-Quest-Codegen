@@ -4,21 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Oculus::Platform::Models {
-class LeaderboardEntryList;
+namespace Oculus::Platform {
+struct LeaderboardStartAt;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
 namespace Oculus::Platform::Models {
-class LeaderboardList;
+class LeaderboardEntryList;
 }
 namespace Oculus::Platform {
 struct LeaderboardFilterType;
 }
-namespace Oculus::Platform {
-struct LeaderboardStartAt;
+namespace Oculus::Platform::Models {
+class LeaderboardList;
 }
 // Forward declare root types
 namespace Oculus::Platform {

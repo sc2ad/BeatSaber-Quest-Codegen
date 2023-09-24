@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::OutOfMemoryException::OutOfMemoryException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<OutOfMemoryException>())) {}
+ System::OutOfMemoryException System::OutOfMemoryException::New_ctor()  {
+System::OutOfMemoryException o{THROW_UNLESS(::il2cpp_utils::New<System::OutOfMemoryException>())};
+return o;
+}
  void System::OutOfMemoryException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OutOfMemoryException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::OutOfMemoryException::OutOfMemoryException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<OutOfMemoryException>(message))) {}
+ System::OutOfMemoryException System::OutOfMemoryException::New_ctor(::StringW message)  {
+System::OutOfMemoryException o{THROW_UNLESS(::il2cpp_utils::New<System::OutOfMemoryException>(message))};
+return o;
+}
  void System::OutOfMemoryException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OutOfMemoryException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::OutOfMemoryException::OutOfMemoryException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<OutOfMemoryException>(info, context))) {}
+ System::OutOfMemoryException System::OutOfMemoryException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::OutOfMemoryException o{THROW_UNLESS(::il2cpp_utils::New<System::OutOfMemoryException>(info, context))};
+return o;
+}
  void System::OutOfMemoryException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OutOfMemoryException>::get(),

@@ -77,26 +77,22 @@ constexpr System::Threading::CancellationToken __get__cancellationToken() const;
 /// @brief Method set_CancellationToken addr 0x244fb2c size 0x8 virtual false final false
  void set_CancellationToken(System::Threading::CancellationToken value) ;
 
-// Ctor Parameters []
-explicit OperationCanceledException() ;
+static System::OperationCanceledException New_ctor() ;
 
 /// @brief Method .ctor addr 0x244fb34 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit OperationCanceledException(::StringW message) ;
+static System::OperationCanceledException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x244fc04 size 0x20 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "token", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
-explicit OperationCanceledException(::StringW message, System::Threading::CancellationToken token) ;
+static System::OperationCanceledException New_ctor(::StringW message, System::Threading::CancellationToken token) ;
 
 /// @brief Method .ctor addr 0x244fc24 size 0x30 virtual false final false
  void _ctor(::StringW message, System::Threading::CancellationToken token) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit OperationCanceledException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::OperationCanceledException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x244fc54 size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

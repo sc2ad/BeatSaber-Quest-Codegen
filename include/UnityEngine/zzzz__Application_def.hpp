@@ -4,25 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-template<typename TResult>
-class Func_1;
-}
 namespace UnityEngine {
 struct ThreadPriority;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace UnityEngine {
+struct SystemLanguage;
 }
 namespace UnityEngine {
-struct NetworkReachability;
+class UnityEngine__Application__LogCallback;
 }
 namespace UnityEngine {
 struct LogType;
-}
-namespace UnityEngine {
-struct SystemLanguage;
 }
 namespace System {
 class Action;
@@ -31,7 +23,21 @@ namespace UnityEngine::Events {
 class UnityAction;
 }
 namespace UnityEngine {
+class UnityEngine__Application__LowMemoryCallback;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
+}
+namespace UnityEngine {
 struct RuntimePlatform;
+}
+namespace UnityEngine {
+struct NetworkReachability;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -85,8 +91,7 @@ constexpr explicit UnityEngine__Application__LowMemoryCallback(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Application__LowMemoryCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__Application__LowMemoryCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b695ac size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -140,8 +145,7 @@ constexpr explicit UnityEngine__Application__LogCallback(void* ptr) noexcept : S
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Application__LogCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__Application__LogCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b6967c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

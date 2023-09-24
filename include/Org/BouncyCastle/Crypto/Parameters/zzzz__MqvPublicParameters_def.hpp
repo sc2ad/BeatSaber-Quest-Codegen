@@ -78,8 +78,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters __get_eph
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "staticPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }]
-explicit MqvPublicParameters(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;
+static Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;
 
 /// @brief Method .ctor addr 0xeaaa24 size 0xfc virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters staticPublicKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey) ;

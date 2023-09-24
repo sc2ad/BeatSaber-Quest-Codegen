@@ -5,29 +5,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class BombCutSoundEffect;
-}
-namespace GlobalNamespace {
 class SaberManager;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
 class GlobalNamespace__BombCutSoundEffect__Pool;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
 }
 namespace UnityEngine {
 class AudioClip;
 }
 namespace GlobalNamespace {
-class NoteController;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 template<typename T>
 class RandomObjectPicker_1;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+class BombCutSoundEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -126,8 +126,7 @@ constexpr GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip> __get__r
 /// @brief Method HandleBombCutSoundEffectDidFinish addr 0x20ba670 size 0xb8 virtual false final false
  void HandleBombCutSoundEffectDidFinish(GlobalNamespace::BombCutSoundEffect bombCutSoundEffect) ;
 
-// Ctor Parameters []
-explicit BombCutSoundEffectManager() ;
+static GlobalNamespace::BombCutSoundEffectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ba728 size 0x14 virtual false final false
  void _ctor() ;

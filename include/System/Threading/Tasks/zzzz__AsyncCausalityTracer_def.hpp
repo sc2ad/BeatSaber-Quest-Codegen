@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Threading::Tasks {
+struct AsyncCausalityStatus;
+}
+namespace System::Threading::Tasks {
 struct CausalitySynchronousWork;
 }
 namespace System::Threading::Tasks {
 struct CausalityTraceLevel;
-}
-namespace System::Threading::Tasks {
-struct AsyncCausalityStatus;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
 struct VersionChangeType;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -90,8 +90,7 @@ static Unity::Profiling::ProfilerMarker __get_s_ProfilerMarker() ;
 /// @brief Method UpdateSubTree addr 0x2d01a64 size 0x810 virtual false final false
  void UpdateSubTree(UnityEngine::UIElements::VisualElement ve, int32_t currentLayoutPass, bool isDisplayed) ;
 
-// Ctor Parameters []
-explicit UIRLayoutUpdater() ;
+static UnityEngine::UIElements::UIRLayoutUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d02274 size 0x8 virtual false final false
  void _ctor() ;

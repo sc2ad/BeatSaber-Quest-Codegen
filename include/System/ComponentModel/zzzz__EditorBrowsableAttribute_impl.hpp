@@ -59,8 +59,10 @@ constexpr void System::ComponentModel::EditorBrowsableAttribute::__set_browsable
 constexpr System::ComponentModel::EditorBrowsableState System::ComponentModel::EditorBrowsableAttribute::__get_browsableState() const {
 return ::cordl_internals::getInstanceField<System::ComponentModel::EditorBrowsableState, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "state", ty: "System::ComponentModel::EditorBrowsableState", modifiers: "", def_value: None }]
- System::ComponentModel::EditorBrowsableAttribute::EditorBrowsableAttribute(System::ComponentModel::EditorBrowsableState state)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<EditorBrowsableAttribute>(state))) {}
+ System::ComponentModel::EditorBrowsableAttribute System::ComponentModel::EditorBrowsableAttribute::New_ctor(System::ComponentModel::EditorBrowsableState state)  {
+System::ComponentModel::EditorBrowsableAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::EditorBrowsableAttribute>(state))};
+return o;
+}
  void System::ComponentModel::EditorBrowsableAttribute::_ctor(System::ComponentModel::EditorBrowsableState state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::EditorBrowsableAttribute>::get(),

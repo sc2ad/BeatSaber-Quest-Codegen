@@ -1,40 +1,36 @@
 #pragma once
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__MainFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "GlobalNamespace/zzzz__MainMenuViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
-#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
-#include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_def.hpp"
-#include "HMUI/zzzz__FlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__SoloFreePlayFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerModeSelectionFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "GlobalNamespace/zzzz__CampaignFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__MainMenuViewController_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerOptionsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__SettingsFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PartyFreePlayFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__OptionsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__EditAvatarFlowCoordinator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "GlobalNamespace/zzzz__HelpFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
+#include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_def.hpp"
+#include "GlobalNamespace/zzzz__PartyFreePlayFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__MainMenuViewController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
+#include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__OptionsViewController_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__CampaignFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__EditAvatarFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerModeSelectionFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerOptionsViewController_def.hpp"
+#include "HMUI/zzzz__FlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
+#include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
+#include "GlobalNamespace/zzzz__SoloFreePlayFlowCoordinator_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41._ctor
 template<>
 
@@ -173,8 +169,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMe
 constexpr GlobalNamespace::MenuDestination GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41::__get_destination() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MenuDestination, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41 GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41>::get(),
@@ -1009,8 +1007,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, topViewController);
 }
-// Ctor Parameters []
- GlobalNamespace::MainFlowCoordinator::MainFlowCoordinator()  : HMUI::FlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<MainFlowCoordinator>())) {}
+ GlobalNamespace::MainFlowCoordinator GlobalNamespace::MainFlowCoordinator::New_ctor()  {
+GlobalNamespace::MainFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::MainFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainFlowCoordinator>::get(),

@@ -4,21 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Newtonsoft::Json {
-struct JsonToken;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
+namespace Newtonsoft::Json {
+struct JsonToken;
 }
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
 }
 namespace Newtonsoft::Json::Linq {
 class JContainer;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -110,14 +110,12 @@ constexpr Newtonsoft::Json::Linq::JToken __get__current() const;
 /// @brief Method get_CurrentToken addr 0x2523c10 size 0x8 virtual false final false
  Newtonsoft::Json::Linq::JToken get_CurrentToken() ;
 
-// Ctor Parameters [CppParam { name: "token", ty: "Newtonsoft::Json::Linq::JToken", modifiers: "", def_value: None }]
-explicit JTokenReader(Newtonsoft::Json::Linq::JToken token) ;
+static Newtonsoft::Json::Linq::JTokenReader New_ctor(Newtonsoft::Json::Linq::JToken token) ;
 
 /// @brief Method .ctor addr 0x2523c18 size 0x6c virtual false final false
  void _ctor(Newtonsoft::Json::Linq::JToken token) ;
 
-// Ctor Parameters [CppParam { name: "token", ty: "Newtonsoft::Json::Linq::JToken", modifiers: "", def_value: None }, CppParam { name: "initialPath", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JTokenReader(Newtonsoft::Json::Linq::JToken token, ::StringW initialPath) ;
+static Newtonsoft::Json::Linq::JTokenReader New_ctor(Newtonsoft::Json::Linq::JToken token, ::StringW initialPath) ;
 
 /// @brief Method .ctor addr 0x2523c84 size 0x24 virtual false final false
  void _ctor(Newtonsoft::Json::Linq::JToken token, ::StringW initialPath) ;

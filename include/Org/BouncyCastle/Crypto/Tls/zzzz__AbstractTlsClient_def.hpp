@@ -7,40 +7,40 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class NewSessionTicket;
+class TlsCompression;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsClient;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCompression;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
+class NewSessionTicket;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClientContext;
+class TlsCipherFactory;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
+class TlsSession;
 }
 namespace System::Collections {
 class IList;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class ProtocolVersion;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsKeyExchange;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsClientContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPeer;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -156,14 +156,12 @@ constexpr int16_t __get_mSelectedCompressionMethod() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AbstractTlsClient() ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsClient New_ctor() ;
 
 /// @brief Method .ctor addr 0xecb33c size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }]
-explicit AbstractTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsClient New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;
 
 /// @brief Method .ctor addr 0xecb3b0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;

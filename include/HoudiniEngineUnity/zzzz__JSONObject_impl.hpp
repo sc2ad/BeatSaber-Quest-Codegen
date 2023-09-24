@@ -1,19 +1,18 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__JSONNode_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__JSONNode_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "HoudiniEngineUnity/zzzz__JSONNode_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "HoudiniEngineUnity/zzzz__JSONNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__JSONTextMode_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "HoudiniEngineUnity/zzzz__JSONTextMode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONNodeType_def.hpp"
+#include "HoudiniEngineUnity/zzzz__JSONObject_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0._ctor
 template<>
 
@@ -54,8 +53,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayC
 constexpr HoudiniEngineUnity::JSONNode HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0::__get_aNode() const {
 return ::cordl_internals::getInstanceField<HoudiniEngineUnity::JSONNode, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__JSONObject____c__DisplayClass21_0>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0 HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0 o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__JSONObject____c__DisplayClass21_0>::get(),
@@ -277,8 +278,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__JSONObject___get_Children
 constexpr System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<::StringW,HoudiniEngineUnity::JSONNode> HoudiniEngineUnity::HoudiniEngineUnity__JSONObject___get_Children_d__23::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<::StringW,HoudiniEngineUnity::JSONNode>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__JSONObject___get_Children_d__23::HoudiniEngineUnity__JSONObject___get_Children_d__23(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__JSONObject___get_Children_d__23>(__1__state))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__JSONObject___get_Children_d__23 HoudiniEngineUnity::HoudiniEngineUnity__JSONObject___get_Children_d__23::New_ctor(int32_t __1__state)  {
+HoudiniEngineUnity::HoudiniEngineUnity__JSONObject___get_Children_d__23 o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__JSONObject___get_Children_d__23>(__1__state))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__JSONObject___get_Children_d__23::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__JSONObject___get_Children_d__23>::get(),
@@ -805,8 +808,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, aSB, aIndent, aIndentInc, aMode);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::JSONObject::JSONObject()  : HoudiniEngineUnity::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONObject>())) {}
+ HoudiniEngineUnity::JSONObject HoudiniEngineUnity::JSONObject::New_ctor()  {
+HoudiniEngineUnity::JSONObject o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::JSONObject>())};
+return o;
+}
  void HoudiniEngineUnity::JSONObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::JSONObject>::get(),

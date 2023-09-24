@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupElementsSpawner_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroup_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightGroupElementsSpawner.OnEnable
 template<>
 
@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LightGroupElementsSpawner::LightGroupElementsSpawner()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightGroupElementsSpawner>())) {}
+ GlobalNamespace::LightGroupElementsSpawner GlobalNamespace::LightGroupElementsSpawner::New_ctor()  {
+GlobalNamespace::LightGroupElementsSpawner o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightGroupElementsSpawner>())};
+return o;
+}
  void GlobalNamespace::LightGroupElementsSpawner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightGroupElementsSpawner>::get(),

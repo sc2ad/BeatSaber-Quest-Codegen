@@ -2,19 +2,20 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/IO/Compression/zzzz__DeflateStream_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
-#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
+#include "System/IO/Compression/zzzz__DeflateStream_def.hpp"
+#include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
 #include "System/IO/Compression/zzzz__DeflateStreamNative_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 //  Writing Method size for method: System::IO::Compression::System__IO__Compression__DeflateStream__ReadMethod._ctor
 template<>
 
@@ -83,8 +84,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::IO::Compression::System__IO__Compression__DeflateStream__ReadMethod::System__IO__Compression__DeflateStream__ReadMethod(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__IO__Compression__DeflateStream__ReadMethod>(object, method))) {}
+ System::IO::Compression::System__IO__Compression__DeflateStream__ReadMethod System::IO::Compression::System__IO__Compression__DeflateStream__ReadMethod::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::IO::Compression::System__IO__Compression__DeflateStream__ReadMethod o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Compression::System__IO__Compression__DeflateStream__ReadMethod>(object, method))};
+return o;
+}
  void System::IO::Compression::System__IO__Compression__DeflateStream__ReadMethod::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Compression::System__IO__Compression__DeflateStream__ReadMethod>::get(),
@@ -189,8 +192,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::IO::Compression::System__IO__Compression__DeflateStream__WriteMethod::System__IO__Compression__DeflateStream__WriteMethod(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__IO__Compression__DeflateStream__WriteMethod>(object, method))) {}
+ System::IO::Compression::System__IO__Compression__DeflateStream__WriteMethod System::IO::Compression::System__IO__Compression__DeflateStream__WriteMethod::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::IO::Compression::System__IO__Compression__DeflateStream__WriteMethod o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Compression::System__IO__Compression__DeflateStream__WriteMethod>(object, method))};
+return o;
+}
  void System::IO::Compression::System__IO__Compression__DeflateStream__WriteMethod::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Compression::System__IO__Compression__DeflateStream__WriteMethod>::get(),
@@ -699,8 +704,10 @@ constexpr void System::IO::Compression::DeflateStream::__set_native(System::IO::
 constexpr System::IO::Compression::DeflateStreamNative System::IO::Compression::DeflateStream::__get_native() const {
 return ::cordl_internals::getInstanceField<System::IO::Compression::DeflateStreamNative, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::Compression::CompressionMode", modifiers: "", def_value: None }]
- System::IO::Compression::DeflateStream::DeflateStream(System::IO::Stream stream, System::IO::Compression::CompressionMode mode)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<DeflateStream>(stream, mode))) {}
+ System::IO::Compression::DeflateStream System::IO::Compression::DeflateStream::New_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode)  {
+System::IO::Compression::DeflateStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Compression::DeflateStream>(stream, mode))};
+return o;
+}
  void System::IO::Compression::DeflateStream::_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Compression::DeflateStream>::get(),
@@ -710,8 +717,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, mode);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::Compression::CompressionMode", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "windowsBits", ty: "int32_t", modifiers: "", def_value: None }]
- System::IO::Compression::DeflateStream::DeflateStream(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen, int32_t windowsBits)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<DeflateStream>(stream, mode, leaveOpen, windowsBits))) {}
+ System::IO::Compression::DeflateStream System::IO::Compression::DeflateStream::New_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen, int32_t windowsBits)  {
+System::IO::Compression::DeflateStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Compression::DeflateStream>(stream, mode, leaveOpen, windowsBits))};
+return o;
+}
  void System::IO::Compression::DeflateStream::_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen, int32_t windowsBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Compression::DeflateStream>::get(),
@@ -721,8 +730,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, mode, leaveOpen, windowsBits);
 }
-// Ctor Parameters [CppParam { name: "compressedStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::Compression::CompressionMode", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gzip", ty: "bool", modifiers: "", def_value: None }]
- System::IO::Compression::DeflateStream::DeflateStream(System::IO::Stream compressedStream, System::IO::Compression::CompressionMode mode, bool leaveOpen, bool gzip)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<DeflateStream>(compressedStream, mode, leaveOpen, gzip))) {}
+ System::IO::Compression::DeflateStream System::IO::Compression::DeflateStream::New_ctor(System::IO::Stream compressedStream, System::IO::Compression::CompressionMode mode, bool leaveOpen, bool gzip)  {
+System::IO::Compression::DeflateStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Compression::DeflateStream>(compressedStream, mode, leaveOpen, gzip))};
+return o;
+}
  void System::IO::Compression::DeflateStream::_ctor(System::IO::Stream compressedStream, System::IO::Compression::CompressionMode mode, bool leaveOpen, bool gzip)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Compression::DeflateStream>::get(),

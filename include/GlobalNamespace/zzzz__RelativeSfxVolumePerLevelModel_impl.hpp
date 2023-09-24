@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelModel_def.hpp"
-#include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RelativeSfxVolumePerLevelModel._ctor
 template<>
 
@@ -42,8 +42,10 @@ constexpr void GlobalNamespace::RelativeSfxVolumePerLevelModel::__set__relativeS
 constexpr System::Collections::Generic::Dictionary_2<::StringW,float_t> GlobalNamespace::RelativeSfxVolumePerLevelModel::__get__relativeSfxVolumePerLevelId() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<::StringW,float_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "relativeSfxVolumePerLevelData", ty: "GlobalNamespace::RelativeSfxVolumePerLevelSO", modifiers: "", def_value: None }]
- GlobalNamespace::RelativeSfxVolumePerLevelModel::RelativeSfxVolumePerLevelModel(GlobalNamespace::RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RelativeSfxVolumePerLevelModel>(relativeSfxVolumePerLevelData))) {}
+ GlobalNamespace::RelativeSfxVolumePerLevelModel GlobalNamespace::RelativeSfxVolumePerLevelModel::New_ctor(GlobalNamespace::RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData)  {
+GlobalNamespace::RelativeSfxVolumePerLevelModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RelativeSfxVolumePerLevelModel>(relativeSfxVolumePerLevelData))};
+return o;
+}
  void GlobalNamespace::RelativeSfxVolumePerLevelModel::_ctor(GlobalNamespace::RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RelativeSfxVolumePerLevelModel>::get(),

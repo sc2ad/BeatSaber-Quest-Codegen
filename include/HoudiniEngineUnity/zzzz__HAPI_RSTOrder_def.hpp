@@ -61,6 +61,8 @@ constexpr operator __HAPI_RSTOrder_Unwrapped () const noexcept {
 return std::bit_cast<__HAPI_RSTOrder_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

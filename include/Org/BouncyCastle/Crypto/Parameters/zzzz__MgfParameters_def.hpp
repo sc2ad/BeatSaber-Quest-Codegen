@@ -64,14 +64,12 @@ constexpr ::ArrayW<uint8_t> __get_seed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit MgfParameters(::ArrayW<uint8_t> seed) ;
+static Org::BouncyCastle::Crypto::Parameters::MgfParameters New_ctor(::ArrayW<uint8_t> seed) ;
 
 /// @brief Method .ctor addr 0xeaa6f0 size 0x1c virtual false final false
  void _ctor(::ArrayW<uint8_t> seed) ;
 
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MgfParameters(::ArrayW<uint8_t> seed, int32_t off, int32_t len) ;
+static Org::BouncyCastle::Crypto::Parameters::MgfParameters New_ctor(::ArrayW<uint8_t> seed, int32_t off, int32_t len) ;
 
 /// @brief Method .ctor addr 0xeaa70c size 0x90 virtual false final false
  void _ctor(::ArrayW<uint8_t> seed, int32_t off, int32_t len) ;

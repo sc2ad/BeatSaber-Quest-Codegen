@@ -2,10 +2,10 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Xml/zzzz__XmlRegisteredNonCachedStream_def.hpp"
 #include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: System::Xml::XmlRegisteredNonCachedStream._ctor
 template<>
 
@@ -364,8 +364,10 @@ constexpr void System::Xml::XmlRegisteredNonCachedStream::__set_host(::StringW v
 constexpr ::StringW System::Xml::XmlRegisteredNonCachedStream::__get_host() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "downloadManager", ty: "System::Xml::XmlDownloadManager", modifiers: "", def_value: None }, CppParam { name: "host", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::XmlRegisteredNonCachedStream::XmlRegisteredNonCachedStream(System::IO::Stream stream, System::Xml::XmlDownloadManager downloadManager, ::StringW host)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<XmlRegisteredNonCachedStream>(stream, downloadManager, host))) {}
+ System::Xml::XmlRegisteredNonCachedStream System::Xml::XmlRegisteredNonCachedStream::New_ctor(System::IO::Stream stream, System::Xml::XmlDownloadManager downloadManager, ::StringW host)  {
+System::Xml::XmlRegisteredNonCachedStream o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlRegisteredNonCachedStream>(stream, downloadManager, host))};
+return o;
+}
  void System::Xml::XmlRegisteredNonCachedStream::_ctor(System::IO::Stream stream, System::Xml::XmlDownloadManager downloadManager, ::StringW host)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlRegisteredNonCachedStream>::get(),

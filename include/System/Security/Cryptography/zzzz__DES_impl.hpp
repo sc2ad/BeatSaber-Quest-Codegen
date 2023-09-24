@@ -150,8 +150,10 @@ return ::cordl_internals::getStaticField<::ArrayW<System::Security::Cryptography
  ::ArrayW<System::Security::Cryptography::KeySizes> System::Security::Cryptography::DES::__get_s_legalKeySizes()  {
 return ::cordl_internals::getStaticField<::ArrayW<System::Security::Cryptography::KeySizes>, "s_legalKeySizes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DES>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::DES::DES()  : System::Security::Cryptography::SymmetricAlgorithm(THROW_UNLESS(::il2cpp_utils::New<DES>())) {}
+ System::Security::Cryptography::DES System::Security::Cryptography::DES::New_ctor()  {
+System::Security::Cryptography::DES o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::DES>())};
+return o;
+}
  void System::Security::Cryptography::DES::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::DES>::get(),

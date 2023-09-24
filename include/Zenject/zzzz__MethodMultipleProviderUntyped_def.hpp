@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace Zenject {
-class IProvider;
+struct TypeValuePair;
 }
 namespace System {
 class Action;
@@ -20,17 +20,17 @@ namespace System {
 class Type;
 }
 namespace Zenject {
-class InjectContext;
+class IProvider;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -103,8 +103,7 @@ constexpr System::Func_2<Zenject::InjectContext,System::Collections::Generic::IE
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "method", ty: "System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit MethodMultipleProviderUntyped(System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>> method, Zenject::DiContainer container) ;
+static Zenject::MethodMultipleProviderUntyped New_ctor(System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>> method, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x2d8ee98 size 0x2c virtual false final false
  void _ctor(System::Func_2<Zenject::InjectContext,System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>> method, Zenject::DiContainer container) ;

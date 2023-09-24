@@ -2,9 +2,7 @@
 #include "Mono/Xml/zzzz__SmallXmlParser_impl.hpp"
 #include "Mono/Xml/zzzz__SecurityParser_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
-#include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
 #include "System/Collections/zzzz__Stack_def.hpp"
-#include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
 #include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
 //  Writing Method size for method: Mono::Xml::SecurityParser._ctor
 template<>
@@ -198,8 +196,10 @@ constexpr void Mono::Xml::SecurityParser::__set_stack(System::Collections::Stack
 constexpr System::Collections::Stack Mono::Xml::SecurityParser::__get_stack() const {
 return ::cordl_internals::getInstanceField<System::Collections::Stack, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Xml::SecurityParser::SecurityParser()  : Mono::Xml::SmallXmlParser(THROW_UNLESS(::il2cpp_utils::New<SecurityParser>())) {}
+ Mono::Xml::SecurityParser Mono::Xml::SecurityParser::New_ctor()  {
+Mono::Xml::SecurityParser o{THROW_UNLESS(::il2cpp_utils::New<Mono::Xml::SecurityParser>())};
+return o;
+}
  void Mono::Xml::SecurityParser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Xml::SecurityParser>::get(),

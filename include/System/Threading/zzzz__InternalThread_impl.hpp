@@ -311,8 +311,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Threading::InternalThread::InternalThread()  : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(THROW_UNLESS(::il2cpp_utils::New<InternalThread>())) {}
+ System::Threading::InternalThread System::Threading::InternalThread::New_ctor()  {
+System::Threading::InternalThread o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::InternalThread>())};
+return o;
+}
  void System::Threading::InternalThread::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::InternalThread>::get(),

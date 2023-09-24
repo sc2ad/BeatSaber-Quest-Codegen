@@ -6,53 +6,65 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-struct Span_1;
-}
-namespace System::Text {
-class EncoderNLS;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 namespace System::Text {
 class Encoder;
 }
 namespace System::Text {
-class Decoder;
+class EncoderNLS;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
-class ICloneable;
+template<typename T>
+struct Span_1;
+}
+namespace System::Text {
+class System__Text__Encoding__EncodingByteBuffer;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Text {
 class EncoderFallback;
-}
-namespace System::Text {
-class DecoderNLS;
-}
-namespace System::Globalization {
-class CodePageDataItem;
-}
-namespace System::Text {
-class DecoderFallback;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Text {
+class System__Text__Encoding__DefaultEncoder;
+}
+namespace System::Text {
+class Decoder;
+}
+namespace System::Text {
+class System__Text__Encoding__DefaultDecoder;
+}
+namespace System::Globalization {
+class CodePageDataItem;
+}
+namespace System {
+class ICloneable;
+}
+namespace System::Text {
+class DecoderFallback;
+}
+namespace System::Text {
+class System__Text__Encoding__EncodingCharBuffer;
+}
+namespace System::Text {
+class DecoderNLS;
 }
 namespace System::Runtime::Serialization {
 class IObjectReference;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Text {
 class EncoderFallbackBuffer;
@@ -145,14 +157,12 @@ constexpr char16_t __get_charLeftOver() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit System__Text__Encoding__DefaultEncoder(System::Text::Encoding encoding) ;
+static System::Text::System__Text__Encoding__DefaultEncoder New_ctor(System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x22e0f40 size 0x30 virtual false final false
  void _ctor(System::Text::Encoding encoding) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit System__Text__Encoding__DefaultEncoder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Text::System__Text__Encoding__DefaultEncoder New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x22e15b0 size 0x358 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
@@ -242,14 +252,12 @@ constexpr bool __get_m_hasInitializedEncoding() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit System__Text__Encoding__DefaultDecoder(System::Text::Encoding encoding) ;
+static System::Text::System__Text__Encoding__DefaultDecoder New_ctor(System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x22e0cbc size 0x30 virtual false final false
  void _ctor(System::Text::Encoding encoding) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit System__Text__Encoding__DefaultDecoder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Text::System__Text__Encoding__DefaultDecoder New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x22e1af0 size 0x2b8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
@@ -396,8 +404,7 @@ constexpr System::Text::DecoderFallbackBuffer __get_fallbackBuffer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "enc", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "decoder", ty: "System::Text::DecoderNLS", modifiers: "", def_value: None }, CppParam { name: "charStart", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "charCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "byteStart", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "byteCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Text__Encoding__EncodingCharBuffer(System::Text::Encoding enc, System::Text::DecoderNLS decoder, void* charStart, int32_t charCount, void* byteStart, int32_t byteCount) ;
+static System::Text::System__Text__Encoding__EncodingCharBuffer New_ctor(System::Text::Encoding enc, System::Text::DecoderNLS decoder, void* charStart, int32_t charCount, void* byteStart, int32_t byteCount) ;
 
 /// @brief Method .ctor addr 0x22e1f48 size 0xa8 virtual false final false
  void _ctor(System::Text::Encoding enc, System::Text::DecoderNLS decoder, void* charStart, int32_t charCount, void* byteStart, int32_t byteCount) ;
@@ -547,8 +554,7 @@ constexpr System::Text::EncoderFallbackBuffer __get_fallbackBuffer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inEncoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "inEncoder", ty: "System::Text::EncoderNLS", modifiers: "", def_value: None }, CppParam { name: "inByteStart", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "inByteCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "inCharStart", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "inCharCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Text__Encoding__EncodingByteBuffer(System::Text::Encoding inEncoding, System::Text::EncoderNLS inEncoder, void* inByteStart, int32_t inByteCount, void* inCharStart, int32_t inCharCount) ;
+static System::Text::System__Text__Encoding__EncodingByteBuffer New_ctor(System::Text::Encoding inEncoding, System::Text::EncoderNLS inEncoder, void* inByteStart, int32_t inByteCount, void* inCharStart, int32_t inCharCount) ;
 
 /// @brief Method .ctor addr 0x22e2218 size 0x204 virtual false final false
  void _ctor(System::Text::Encoding inEncoding, System::Text::EncoderNLS inEncoder, void* inByteStart, int32_t inByteCount, void* inCharStart, int32_t inCharCount) ;
@@ -771,14 +777,12 @@ static System::Text::Encoding __declspec(property(get=get_UTF32))  UTF32;
 
 // Methods
 
-// Ctor Parameters []
-explicit Encoding() ;
+static System::Text::Encoding New_ctor() ;
 
 /// @brief Method .ctor addr 0x22ddbec size 0x30 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "codePage", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Encoding(int32_t codePage) ;
+static System::Text::Encoding New_ctor(int32_t codePage) ;
 
 /// @brief Method .ctor addr 0x22ddc1c size 0x8c virtual false final false
  void _ctor(int32_t codePage) ;

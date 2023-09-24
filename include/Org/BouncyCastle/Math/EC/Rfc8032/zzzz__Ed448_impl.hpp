@@ -1,8 +1,9 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Rfc8032/zzzz__Ed448_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Rfc8032/zzzz__Ed448_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IXof_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__Algorithm::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__Algorithm(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -50,8 +51,10 @@ constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC
 constexpr ::ArrayW<uint32_t> Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt::__get_z() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt>())) {}
+ Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt::New_ctor()  {
+Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointExt>::get(),
@@ -90,8 +93,10 @@ constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC
 constexpr ::ArrayW<uint32_t> Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp::__get_y() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp>())) {}
+ Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp::New_ctor()  {
+Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed448__PointPrecomp>::get(),
@@ -1496,8 +1501,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, sig, sigOff, pk, pkOff, ctx, ph);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Rfc8032::Ed448::Ed448()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Ed448>())) {}
+ Org::BouncyCastle::Math::EC::Rfc8032::Ed448 Org::BouncyCastle::Math::EC::Rfc8032::Ed448::New_ctor()  {
+Org::BouncyCastle::Math::EC::Rfc8032::Ed448 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Rfc8032::Ed448>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Rfc8032::Ed448::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Rfc8032::Ed448>::get(),

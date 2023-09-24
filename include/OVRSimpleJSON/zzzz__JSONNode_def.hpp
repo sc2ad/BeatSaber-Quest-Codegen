@@ -5,73 +5,94 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace OVRSimpleJSON {
 class JSONArray;
-}
-namespace OVRSimpleJSON {
-struct JSONNodeType;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace OVRSimpleJSON {
-struct JSONContainerType;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace OVRSimpleJSON {
-class JSONObject;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
+namespace OVRSimpleJSON {
+struct JSONNodeType;
 }
 namespace OVRSimpleJSON {
-struct JSONTextMode;
+struct OVRSimpleJSON__JSONNode__KeyEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class RectOffset;
+struct Vector4;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace OVRSimpleJSON {
+class OVRSimpleJSON__JSONNode___get_DeepChildren_d__42;
+}
+namespace OVRSimpleJSON {
+class OVRSimpleJSON__JSONNode__LinqEnumerator;
+}
+namespace OVRSimpleJSON {
+struct JSONTextMode;
+}
+namespace OVRSimpleJSON {
+class JSONObject;
+}
+namespace UnityEngine {
+class RectOffset;
+}
+namespace OVRSimpleJSON {
+class OVRSimpleJSON__JSONNode___get_Children_d__40;
+}
+namespace OVRSimpleJSON {
+struct OVRSimpleJSON__JSONNode__ValueEnumerator;
+}
+namespace OVRSimpleJSON {
+struct JSONContainerType;
+}
+namespace OVRSimpleJSON {
+struct OVRSimpleJSON__JSONNode__Enumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template<typename T>
-struct System__Collections__Generic__List_1__Enumerator;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct System__Collections__Generic__Dictionary_2__Enumerator;
+}
+namespace GlobalNamespace {
+struct OVRSimpleJSON__JSONNode__Enumerator__Type;
+}
+namespace System::Collections::Generic {
+template<typename T>
+struct System__Collections__Generic__List_1__Enumerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -148,6 +169,8 @@ __Object = 2,
 constexpr operator __OVRSimpleJSON__JSONNode__Enumerator__Type_Unwrapped () const noexcept {
 return std::bit_cast<__OVRSimpleJSON__JSONNode__Enumerator__Type_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -500,8 +523,7 @@ constexpr OVRSimpleJSON::OVRSimpleJSON__JSONNode__Enumerator __get_m_Enumerator(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "aNode", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }]
-explicit OVRSimpleJSON__JSONNode__LinqEnumerator(OVRSimpleJSON::JSONNode aNode) ;
+static OVRSimpleJSON::OVRSimpleJSON__JSONNode__LinqEnumerator New_ctor(OVRSimpleJSON::JSONNode aNode) ;
 
 /// @brief Method .ctor addr 0x263d978 size 0x84 virtual false final false
  void _ctor(OVRSimpleJSON::JSONNode aNode) ;
@@ -616,8 +638,7 @@ constexpr int32_t __get___l__initialThreadId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OVRSimpleJSON__JSONNode___get_Children_d__40(int32_t __1__state) ;
+static OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_Children_d__40 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x263dbb8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -750,8 +771,7 @@ constexpr System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode> _
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OVRSimpleJSON__JSONNode___get_DeepChildren_d__42(int32_t __1__state) ;
+static OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x263dcf4 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -1227,8 +1247,7 @@ static UnityEngine::RectOffset op_Implicit_UnityEngine__RectOffset(OVRSimpleJSON
 /// @brief Method WriteMatrix addr 0x263c4d4 size 0xac virtual false final false
  OVRSimpleJSON::JSONNode WriteMatrix(UnityEngine::Matrix4x4 aMatrix) ;
 
-// Ctor Parameters []
-explicit JSONNode() ;
+static OVRSimpleJSON::JSONNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x263c580 size 0x1008 virtual false final false
  void _ctor() ;

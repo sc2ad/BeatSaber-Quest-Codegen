@@ -95,8 +95,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdSigICPSigConform() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit SigIObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xff62d4 size 0x8 virtual false final false
  void _ctor() ;

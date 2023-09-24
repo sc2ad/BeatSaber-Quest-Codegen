@@ -9,28 +9,34 @@
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+namespace System::Globalization {
+class Calendar;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
 template<typename T>
-struct ReadOnlySpan_1;
+struct Span_1;
 }
 namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Globalization {
-class Calendar;
+struct DateTime;
 }
 namespace System::Globalization {
 struct DateTimeStyles;
+}
+namespace System {
+class IFormattable;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System {
 class IComparable;
@@ -38,25 +44,19 @@ class IComparable;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System {
-struct DateTime;
+template<typename T>
+class IComparable_1;
 }
 namespace System {
 template<typename T>
-struct Span_1;
-}
-namespace System {
-class IFormattable;
+class IEquatable_1;
 }
 namespace System {
 class ISpanFormattable;
 }
-namespace System {
-template<typename T>
-class IComparable_1;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 // Forward declare root types
 namespace System {

@@ -4,23 +4,22 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelPackDetailViewController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "HMUI/zzzz__ImageView_def.hpp"
-#include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "GlobalNamespace/zzzz__DlcPromoPanelModel_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__LevelPackDetailViewController_def.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__EventBinder_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "HMUI/zzzz__ImageView_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
+#include "GlobalNamespace/zzzz__EventBinder_def.hpp"
+#include "GlobalNamespace/zzzz__DlcPromoPanelModel_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__LevelPackDetailViewController__ContentType::GlobalNamespace__LevelPackDetailViewController__ContentType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -97,8 +96,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LevelPackDetailViewController__
 constexpr GlobalNamespace::LevelPackDetailViewController GlobalNamespace::GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::LevelPackDetailViewController, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0::GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0>())) {}
+ GlobalNamespace::GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0 GlobalNamespace::GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0>::get(),
@@ -651,8 +652,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelPackDetailViewController::LevelPackDetailViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<LevelPackDetailViewController>())) {}
+ GlobalNamespace::LevelPackDetailViewController GlobalNamespace::LevelPackDetailViewController::New_ctor()  {
+GlobalNamespace::LevelPackDetailViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelPackDetailViewController>())};
+return o;
+}
  void GlobalNamespace::LevelPackDetailViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelPackDetailViewController>::get(),

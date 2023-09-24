@@ -119,8 +119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::MouseManipulator::MouseManipulator()  : UnityEngine::UIElements::Manipulator(THROW_UNLESS(::il2cpp_utils::New<MouseManipulator>())) {}
+ UnityEngine::UIElements::MouseManipulator UnityEngine::UIElements::MouseManipulator::New_ctor()  {
+UnityEngine::UIElements::MouseManipulator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::MouseManipulator>())};
+return o;
+}
  void UnityEngine::UIElements::MouseManipulator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::MouseManipulator>::get(),

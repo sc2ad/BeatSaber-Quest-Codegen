@@ -3,10 +3,10 @@
 #include "System/Xml/zzzz__XmlAttribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class XmlNode;
+class XmlDocument;
 }
 namespace System::Xml {
-class XmlDocument;
+class XmlNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -70,8 +70,7 @@ constexpr bool __get_fSpecified() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "namespaceURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlUnspecifiedAttribute(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlUnspecifiedAttribute New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f962c size 0x8 virtual false final false
  void _ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;

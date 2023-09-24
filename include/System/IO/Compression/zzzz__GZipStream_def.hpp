@@ -4,56 +4,56 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace System {
-template<typename T>
-struct Span_1;
+namespace System::IO::Compression {
+class DeflateStream;
 }
 namespace System::IO {
 struct SeekOrigin;
 }
 namespace System {
 template<typename T>
-struct ReadOnlySpan_1;
-}
-namespace System {
-template<typename T>
-struct Memory_1;
-}
-namespace System::IO::Compression {
-class DeflateStream;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::IO::Compression {
-struct CompressionMode;
+struct ReadOnlyMemory_1;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System {
-class IAsyncResult;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading::Tasks {
-template<typename TResult>
-struct ValueTask_1;
+struct ValueTask;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
+class IAsyncResult;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
 template<typename T>
-struct ReadOnlyMemory_1;
+struct Memory_1;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
+namespace System::IO::Compression {
+struct CompressionMode;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+template<typename T>
+struct Span_1;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+struct ValueTask_1;
 }
 // Forward declare root types
 namespace System::IO::Compression {
@@ -123,14 +123,12 @@ constexpr System::IO::Compression::DeflateStream __get__deflateStream() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::Compression::CompressionMode", modifiers: "", def_value: None }]
-explicit GZipStream(System::IO::Stream stream, System::IO::Compression::CompressionMode mode) ;
+static System::IO::Compression::GZipStream New_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode) ;
 
 /// @brief Method .ctor addr 0x27af348 size 0x8 virtual false final false
  void _ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::Compression::CompressionMode", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit GZipStream(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen) ;
+static System::IO::Compression::GZipStream New_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen) ;
 
 /// @brief Method .ctor addr 0x27af350 size 0xb8 virtual false final false
  void _ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen) ;

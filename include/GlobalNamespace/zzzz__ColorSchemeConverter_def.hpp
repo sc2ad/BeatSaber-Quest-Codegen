@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-struct ColorSchemeNetSerializable;
+class ColorScheme;
 }
 namespace GlobalNamespace {
-class ColorScheme;
+struct ColorSchemeNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

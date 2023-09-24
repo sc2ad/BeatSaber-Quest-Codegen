@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1::X500 {
+class AttributeTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X500 {
-class AttributeTypeAndValue;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X500 {
@@ -81,8 +81,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_values() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "values", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit Rdn(Org::BouncyCastle::Asn1::Asn1Set values) ;
+static Org::BouncyCastle::Asn1::X500::Rdn New_ctor(Org::BouncyCastle::Asn1::Asn1Set values) ;
 
 /// @brief Method .ctor addr 0xff2b94 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Set values) ;
@@ -90,20 +89,17 @@ explicit Rdn(Org::BouncyCastle::Asn1::Asn1Set values) ;
 /// @brief Method GetInstance addr 0xff2bbc size 0xa8 virtual false final false
 static Org::BouncyCastle::Asn1::X500::Rdn GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit Rdn(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::Asn1Encodable value) ;
+static Org::BouncyCastle::Asn1::X500::Rdn New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::Asn1Encodable value) ;
 
 /// @brief Method .ctor addr 0xff2c64 size 0x134 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Asn1::Asn1Encodable value) ;
 
-// Ctor Parameters [CppParam { name: "attrTAndV", ty: "Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue", modifiers: "", def_value: None }]
-explicit Rdn(Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue attrTAndV) ;
+static Org::BouncyCastle::Asn1::X500::Rdn New_ctor(Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue attrTAndV) ;
 
 /// @brief Method .ctor addr 0xff2d98 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue attrTAndV) ;
 
-// Ctor Parameters [CppParam { name: "aAndVs", ty: "::ArrayW<Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue>", modifiers: "", def_value: None }]
-explicit Rdn(::ArrayW<Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue> aAndVs) ;
+static Org::BouncyCastle::Asn1::X500::Rdn New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue> aAndVs) ;
 
 /// @brief Method .ctor addr 0xff2e14 size 0x7c virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue> aAndVs) ;

@@ -3,6 +3,9 @@
 #include "Zenject/zzzz__IFactoryProviderBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+namespace Zenject {
+struct TypeValuePair;
+}
 namespace System {
 struct Guid;
 }
@@ -15,9 +18,6 @@ class List_1;
 }
 namespace System {
 class Action;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 namespace Zenject {
 class DiContainer;
@@ -76,8 +76,7 @@ constexpr explicit IFactoryProvider_4(void* ptr) noexcept : Zenject::IFactoryPro
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "factoryId", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit IFactoryProvider_4(Zenject::DiContainer container, System::Guid factoryId) ;
+static Zenject::IFactoryProvider_4<TParam1,TParam2,TParam3,TContract> New_ctor(Zenject::DiContainer container, System::Guid factoryId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, System::Guid factoryId) ;

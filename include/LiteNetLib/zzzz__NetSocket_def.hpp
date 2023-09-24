@@ -4,26 +4,26 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
 namespace LiteNetLib {
 class INetSocketListener;
+}
+namespace System::Net {
+class IPAddress;
 }
 namespace System::Net::Sockets {
 struct SocketError;
 }
 namespace System::Threading {
-struct ThreadPriority;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Threading {
 class Thread;
 }
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System::Net {
-class IPEndPoint;
+namespace System::Threading {
+struct ThreadPriority;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -153,8 +153,7 @@ constexpr bool __get_IsRunning() const;
 /// @brief Method set_Ttl addr 0x2088140 size 0x1c virtual false final false
  void set_Ttl(int16_t value) ;
 
-// Ctor Parameters [CppParam { name: "listener", ty: "LiteNetLib::INetSocketListener", modifiers: "", def_value: None }]
-explicit NetSocket(LiteNetLib::INetSocketListener listener) ;
+static LiteNetLib::NetSocket New_ctor(LiteNetLib::INetSocketListener listener) ;
 
 /// @brief Method .ctor addr 0x2089a44 size 0x28 virtual false final false
  void _ctor(LiteNetLib::INetSocketListener listener) ;

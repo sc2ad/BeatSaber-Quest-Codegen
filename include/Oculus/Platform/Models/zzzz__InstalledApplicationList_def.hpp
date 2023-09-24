@@ -10,7 +10,7 @@ class InstalledApplicationList;
 // Type: Oculus.Platform.Models::InstalledApplicationList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1137 }), TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13417))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1137 }), TypeDefinitionIndex(TypeDefinitionIndex(13417)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13418))
 // CS Name: Oculus.Platform.Models.InstalledApplicationList
 class CORDL_TYPE InstalledApplicationList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::InstalledApplication> {
@@ -49,8 +49,7 @@ constexpr explicit InstalledApplicationList(void* ptr) noexcept : Oculus::Platfo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit InstalledApplicationList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::InstalledApplicationList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259eeac size 0x23c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

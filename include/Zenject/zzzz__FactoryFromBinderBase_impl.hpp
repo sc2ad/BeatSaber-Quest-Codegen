@@ -1,27 +1,28 @@
 #pragma once
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__FactoryFromBinderBase_def.hpp"
+#include "Zenject/zzzz__FactoryFromBinderBase_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__FactoryBindInfo_def.hpp"
-#include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
-#include "Zenject/zzzz__NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "Zenject/zzzz__NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17._ctor
 template<>
 
@@ -259,8 +260,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__1
 constexpr System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<System::Type> Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<System::Type>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17>(__1__state))) {}
+ Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17 Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17::New_ctor(int32_t __1__state)  {
+Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17>(__1__state))};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17>::get(),
@@ -440,8 +443,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass20_0::_
 constexpr ::bs_hook::Il2CppWrapperType Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass20_0::__get_instance() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass20_0::Zenject__FactoryFromBinderBase____c__DisplayClass20_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass20_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass20_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass20_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass20_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass20_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass20_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass20_0>::get(),
@@ -558,8 +563,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass21_0::_
 constexpr ::bs_hook::Il2CppWrapperType Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass21_0::__get_subIdentifier() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass21_0::Zenject__FactoryFromBinderBase____c__DisplayClass21_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass21_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass21_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass21_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass21_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass21_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass21_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass21_0>::get(),
@@ -676,8 +683,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass23_0::_
 constexpr UnityEngine::GameObject Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass23_0::__get_gameObject() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GameObject, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass23_0::Zenject__FactoryFromBinderBase____c__DisplayClass23_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass23_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass23_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass23_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass23_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass23_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass23_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass23_0>::get(),
@@ -794,8 +803,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass24_0::_
 constexpr System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass24_0::__get_gameObjectGetter() const {
 return ::cordl_internals::getInstanceField<System::Func_2<Zenject::InjectContext,UnityEngine::GameObject>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass24_0::Zenject__FactoryFromBinderBase____c__DisplayClass24_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass24_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass24_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass24_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass24_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass24_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass24_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass24_0>::get(),
@@ -912,8 +923,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass26_0::_
 constexpr Zenject::FactoryFromBinderBase Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass26_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Zenject::FactoryFromBinderBase, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass26_0::Zenject__FactoryFromBinderBase____c__DisplayClass26_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass26_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass26_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass26_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass26_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass26_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass26_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass26_0>::get(),
@@ -1030,8 +1043,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass27_0::_
 constexpr Zenject::FactoryFromBinderBase Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass27_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Zenject::FactoryFromBinderBase, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass27_0::Zenject__FactoryFromBinderBase____c__DisplayClass27_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass27_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass27_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass27_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass27_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass27_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass27_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass27_0>::get(),
@@ -1154,8 +1169,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass28_0::_
 constexpr UnityEngine::Object Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass28_0::__get_prefab() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Object, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass28_0::Zenject__FactoryFromBinderBase____c__DisplayClass28_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass28_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass28_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass28_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass28_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass28_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass28_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass28_0>::get(),
@@ -1278,8 +1295,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass29_0::_
 constexpr UnityEngine::Object Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass29_0::__get_prefab() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Object, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass29_0::Zenject__FactoryFromBinderBase____c__DisplayClass29_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass29_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass29_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass29_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass29_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass29_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass29_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass29_0>::get(),
@@ -1402,8 +1421,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass30_0::_
 constexpr ::StringW Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass30_0::__get_resourcePath() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass30_0::Zenject__FactoryFromBinderBase____c__DisplayClass30_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass30_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass30_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass30_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass30_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass30_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass30_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass30_0>::get(),
@@ -1526,8 +1547,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass31_0::_
 constexpr ::StringW Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass31_0::__get_resourcePath() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass31_0::Zenject__FactoryFromBinderBase____c__DisplayClass31_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass31_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass31_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass31_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass31_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass31_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass31_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass31_0>::get(),
@@ -1644,8 +1667,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass32_0::_
 constexpr Zenject::FactoryFromBinderBase Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass32_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Zenject::FactoryFromBinderBase, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass32_0::Zenject__FactoryFromBinderBase____c__DisplayClass32_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass32_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass32_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass32_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass32_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass32_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass32_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass32_0>::get(),
@@ -1762,8 +1787,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass33_0::_
 constexpr Zenject::FactoryFromBinderBase Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass33_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Zenject::FactoryFromBinderBase, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass33_0::Zenject__FactoryFromBinderBase____c__DisplayClass33_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass33_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass33_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass33_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass33_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass33_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass33_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass33_0>::get(),
@@ -1880,8 +1907,10 @@ constexpr void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass34_0::_
 constexpr Zenject::FactoryFromBinderBase Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass34_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Zenject::FactoryFromBinderBase, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass34_0::Zenject__FactoryFromBinderBase____c__DisplayClass34_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FactoryFromBinderBase____c__DisplayClass34_0>())) {}
+ Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass34_0 Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass34_0::New_ctor()  {
+Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass34_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass34_0>())};
+return o;
+}
  void Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass34_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass34_0>::get(),
@@ -2412,8 +2441,10 @@ constexpr void Zenject::FactoryFromBinderBase::__set__ContractType_k__BackingFie
 constexpr System::Type Zenject::FactoryFromBinderBase::__get__ContractType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "contractType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
- Zenject::FactoryFromBinderBase::FactoryFromBinderBase(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo)  : Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder(THROW_UNLESS(::il2cpp_utils::New<FactoryFromBinderBase>(bindContainer, contractType, bindInfo, factoryBindInfo))) {}
+ Zenject::FactoryFromBinderBase Zenject::FactoryFromBinderBase::New_ctor(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo)  {
+Zenject::FactoryFromBinderBase o{THROW_UNLESS(::il2cpp_utils::New<Zenject::FactoryFromBinderBase>(bindContainer, contractType, bindInfo, factoryBindInfo))};
+return o;
+}
  void Zenject::FactoryFromBinderBase::_ctor(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::FactoryFromBinderBase>::get(),

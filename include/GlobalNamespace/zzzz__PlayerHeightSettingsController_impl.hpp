@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightSettingsController_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlayerHeightSettingsController.add_valueDidChangeEvent
 template<>
 
@@ -248,8 +248,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerHeightSettingsController::PlayerHeightSettingsController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlayerHeightSettingsController>())) {}
+ GlobalNamespace::PlayerHeightSettingsController GlobalNamespace::PlayerHeightSettingsController::New_ctor()  {
+GlobalNamespace::PlayerHeightSettingsController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerHeightSettingsController>())};
+return o;
+}
  void GlobalNamespace::PlayerHeightSettingsController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerHeightSettingsController>::get(),

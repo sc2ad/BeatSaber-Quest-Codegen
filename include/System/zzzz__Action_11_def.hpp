@@ -18,7 +18,7 @@ namespace System {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type T5,::cordl_internals::il2cpp_reference_type T6,::cordl_internals::il2cpp_reference_type T7,::cordl_internals::il2cpp_reference_type T8,::cordl_internals::il2cpp_reference_type T9,::cordl_internals::il2cpp_reference_type T10,::cordl_internals::il2cpp_reference_type T11>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14529)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(14529))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14529), inst: 5955 })
 // CS Name: System.Action`11
 class CORDL_TYPE Action_11<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11> : public System::MulticastDelegate {
@@ -57,8 +57,7 @@ constexpr explicit Action_11(void* ptr) noexcept : System::MulticastDelegate(ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Action_11(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Action_11<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

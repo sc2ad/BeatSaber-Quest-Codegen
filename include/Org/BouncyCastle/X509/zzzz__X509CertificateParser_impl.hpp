@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509CertificateParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__PemParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509CertificateStructure_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__PemParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::X509CertificateParser.ReadDerCertificate
 template<>
 
@@ -256,8 +256,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::ICollection, false>(const_cast<void*>(instance), ___internal_method, inStream);
 }
-// Ctor Parameters []
- Org::BouncyCastle::X509::X509CertificateParser::X509CertificateParser()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CertificateParser>())) {}
+ Org::BouncyCastle::X509::X509CertificateParser Org::BouncyCastle::X509::X509CertificateParser::New_ctor()  {
+Org::BouncyCastle::X509::X509CertificateParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509CertificateParser>())};
+return o;
+}
  void Org::BouncyCastle::X509::X509CertificateParser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509CertificateParser>::get(),

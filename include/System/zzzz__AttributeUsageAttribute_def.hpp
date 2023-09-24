@@ -84,8 +84,7 @@ static System::AttributeUsageAttribute __get_Default() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "validOn", ty: "System::AttributeTargets", modifiers: "", def_value: None }]
-explicit AttributeUsageAttribute(System::AttributeTargets validOn) ;
+static System::AttributeUsageAttribute New_ctor(System::AttributeTargets validOn) ;
 
 /// @brief Method .ctor addr 0x23b4958 size 0x38 virtual false final false
  void _ctor(System::AttributeTargets validOn) ;

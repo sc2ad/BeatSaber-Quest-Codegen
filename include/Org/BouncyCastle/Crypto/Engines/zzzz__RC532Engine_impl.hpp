@@ -274,8 +274,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::RC532Engine::__set_forEncrypt
 constexpr bool Org::BouncyCastle::Crypto::Engines::RC532Engine::__get_forEncryption() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::RC532Engine::RC532Engine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RC532Engine>())) {}
+ Org::BouncyCastle::Crypto::Engines::RC532Engine Org::BouncyCastle::Crypto::Engines::RC532Engine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::RC532Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::RC532Engine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::RC532Engine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::RC532Engine>::get(),

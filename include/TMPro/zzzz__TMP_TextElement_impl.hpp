@@ -1,8 +1,8 @@
 #pragma once
 #include "TMPro/zzzz__TMP_TextElement_def.hpp"
 #include "TMPro/zzzz__TMP_Asset_def.hpp"
-#include "TMPro/zzzz__TextElementType_def.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
+#include "TMPro/zzzz__TextElementType_def.hpp"
 //  Writing Method size for method: TMPro::TMP_TextElement.get_elementType
 template<>
 
@@ -342,8 +342,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- TMPro::TMP_TextElement::TMP_TextElement()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_TextElement>())) {}
+ TMPro::TMP_TextElement TMPro::TMP_TextElement::New_ctor()  {
+TMPro::TMP_TextElement o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_TextElement>())};
+return o;
+}
  void TMPro::TMP_TextElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_TextElement>::get(),

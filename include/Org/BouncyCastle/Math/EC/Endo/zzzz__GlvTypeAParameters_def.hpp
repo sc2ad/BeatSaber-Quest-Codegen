@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC::Endo {
 class ScalarSplitParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {
@@ -83,8 +83,7 @@ constexpr Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters __get_m_split
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "i", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "lambda", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "splitParams", ty: "Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters", modifiers: "", def_value: None }]
-explicit GlvTypeAParameters(Org::BouncyCastle::Math::BigInteger i, Org::BouncyCastle::Math::BigInteger lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters splitParams) ;
+static Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters New_ctor(Org::BouncyCastle::Math::BigInteger i, Org::BouncyCastle::Math::BigInteger lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters splitParams) ;
 
 /// @brief Method .ctor addr 0xfa8368 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger i, Org::BouncyCastle::Math::BigInteger lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters splitParams) ;

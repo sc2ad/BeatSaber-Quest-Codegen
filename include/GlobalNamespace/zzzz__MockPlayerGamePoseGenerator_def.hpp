@@ -3,25 +3,7 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class MockScoreSyncStateSender;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__LevelCompletionResults__LevelEndStateType;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 class MockBeatmapData;
@@ -30,7 +12,25 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
 class MockNodePoseSyncStateSender;
+}
+namespace GlobalNamespace {
+class MockScoreSyncStateSender;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LevelCompletionResults__LevelEndStateType;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -114,8 +114,7 @@ constexpr GlobalNamespace::MockScoreSyncStateSender __get_mockScoreSyncStateSend
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }]
-explicit MockPlayerGamePoseGenerator(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded) ;
+static GlobalNamespace::MockPlayerGamePoseGenerator New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded) ;
 
 /// @brief Method .ctor addr 0x22799f4 size 0xc0 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded) ;

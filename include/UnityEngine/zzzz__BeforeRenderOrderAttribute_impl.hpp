@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::BeforeRenderOrderAttribute::BeforeRenderOrderAttribute(int32_t order)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<BeforeRenderOrderAttribute>(order))) {}
+ UnityEngine::BeforeRenderOrderAttribute UnityEngine::BeforeRenderOrderAttribute::New_ctor(int32_t order)  {
+UnityEngine::BeforeRenderOrderAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::BeforeRenderOrderAttribute>(order))};
+return o;
+}
  void UnityEngine::BeforeRenderOrderAttribute::_ctor(int32_t order)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::BeforeRenderOrderAttribute>::get(),

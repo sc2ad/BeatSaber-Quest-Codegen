@@ -47,8 +47,7 @@ constexpr explicit PrePrepareMethodAttribute(void* ptr) noexcept : System::Attri
 
 // Methods
 
-// Ctor Parameters []
-explicit PrePrepareMethodAttribute() ;
+static System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236d97c size 0x8 virtual false final false
  void _ctor() ;

@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
+}
+namespace Microsoft::Win32::SafeHandles {
+class SafePasswordHandle;
 }
 namespace System {
 class Exception;
 }
-namespace Microsoft::Win32::SafeHandles {
-class SafePasswordHandle;
+namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyStorageFlags;
 }
 namespace Mono {
 class ISystemCertificateProvider;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
+class X509CertificateImpl;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

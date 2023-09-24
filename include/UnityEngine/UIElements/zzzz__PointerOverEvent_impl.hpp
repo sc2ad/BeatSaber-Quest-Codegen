@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::PointerOverEvent::PointerOverEvent()  : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerOverEvent>(THROW_UNLESS(::il2cpp_utils::New<PointerOverEvent>())) {}
+ UnityEngine::UIElements::PointerOverEvent UnityEngine::UIElements::PointerOverEvent::New_ctor()  {
+UnityEngine::UIElements::PointerOverEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PointerOverEvent>())};
+return o;
+}
  void UnityEngine::UIElements::PointerOverEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PointerOverEvent>::get(),

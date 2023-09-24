@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__RotationOrder_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__Space_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Space_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__Transform__Enumerator._ctor
 template<>
 
@@ -92,8 +93,10 @@ constexpr void UnityEngine::UnityEngine__Transform__Enumerator::__set_currentInd
 constexpr int32_t UnityEngine::UnityEngine__Transform__Enumerator::__get_currentIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__Transform__Enumerator::UnityEngine__Transform__Enumerator(UnityEngine::Transform outer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Transform__Enumerator>(outer))) {}
+ UnityEngine::UnityEngine__Transform__Enumerator UnityEngine::UnityEngine__Transform__Enumerator::New_ctor(UnityEngine::Transform outer)  {
+UnityEngine::UnityEngine__Transform__Enumerator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__Transform__Enumerator>(outer))};
+return o;
+}
  void UnityEngine::UnityEngine__Transform__Enumerator::_ctor(UnityEngine::Transform outer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__Transform__Enumerator>::get(),
@@ -2361,8 +2364,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 constexpr  UnityEngine::Transform::operator System::Collections::IEnumerable() const noexcept {
 return System::Collections::IEnumerable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Transform::Transform()  : UnityEngine::Component(THROW_UNLESS(::il2cpp_utils::New<Transform>())) {}
+ UnityEngine::Transform UnityEngine::Transform::New_ctor()  {
+UnityEngine::Transform o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Transform>())};
+return o;
+}
  void UnityEngine::Transform::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Transform>::get(),

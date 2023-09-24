@@ -3,26 +3,26 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
+class MultiplayerScoreDiffText;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
+}
+namespace GlobalNamespace {
 class GlobalNamespace__CoreGameHUDController__InitData;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__MultiplayerController__State;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreDiffText;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class MultiplayerController;
+struct GlobalNamespace__MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -130,8 +130,7 @@ constexpr System::Nullable_1<bool> __get__wasLocalPlayerLeader() const;
 /// @brief Method HandleStateChanged addr 0x20fb2b0 size 0x4c virtual false final false
  void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State newState) ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalPlayerScoreDiffTextManager() ;
+static GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20fb2fc size 0x8 virtual false final false
  void _ctor() ;

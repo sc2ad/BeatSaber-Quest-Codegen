@@ -4,14 +4,14 @@
 namespace HMUI {
 class ScreenSystem;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace HMUI {
 class FlowCoordinator;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
@@ -98,8 +98,7 @@ constexpr HMUI::FlowCoordinator __get__rootFlowCoordinator() const;
 /// @brief Method StartWithFlowCoordinator addr 0x1fb6614 size 0x24 virtual false final false
  void StartWithFlowCoordinator(HMUI::FlowCoordinator flowCoordinator) ;
 
-// Ctor Parameters []
-explicit HierarchyManager() ;
+static HMUI::HierarchyManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb6638 size 0x8 virtual false final false
  void _ctor() ;

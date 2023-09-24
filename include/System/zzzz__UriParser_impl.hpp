@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
-#include "System/zzzz__UriParser_impl.hpp"
 #include "System/zzzz__UriParser_def.hpp"
-#include "System/zzzz__UriSyntaxFlags_def.hpp"
-#include "System/zzzz__UriFormatException_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/zzzz__UriComponents_def.hpp"
+#include "System/zzzz__UriFormatException_def.hpp"
+#include "System/zzzz__UriParser_def.hpp"
 #include "System/zzzz__UriFormat_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__UriParser_BuiltInUriParser_def.hpp"
+#include "System/zzzz__UriSyntaxFlags_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::System__UriParser__UriQuirksVersion::System__UriParser__UriQuirksVersion(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -722,8 +723,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, flags, expected);
 }
-// Ctor Parameters [CppParam { name: "flags", ty: "System::UriSyntaxFlags", modifiers: "", def_value: None }]
- System::UriParser::UriParser(System::UriSyntaxFlags flags)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UriParser>(flags))) {}
+ System::UriParser System::UriParser::New_ctor(System::UriSyntaxFlags flags)  {
+System::UriParser o{THROW_UNLESS(::il2cpp_utils::New<System::UriParser>(flags))};
+return o;
+}
  void System::UriParser::_ctor(System::UriSyntaxFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UriParser>::get(),
@@ -813,32 +816,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Uri>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, thisUri);
-}
-//  Writing Method size for method: System::System__UriParser__BuiltInUriParser._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::System__UriParser__BuiltInUriParser::*)(::StringW, int32_t, System::UriSyntaxFlags)>(&System::System__UriParser__BuiltInUriParser::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x27ba21c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__UriParser__BuiltInUriParser>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::UriSyntaxFlags>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "lwrCaseScheme", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "defaultPort", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "syntaxFlags", ty: "System::UriSyntaxFlags", modifiers: "", def_value: None }]
- System::System__UriParser__BuiltInUriParser::System__UriParser__BuiltInUriParser(::StringW lwrCaseScheme, int32_t defaultPort, System::UriSyntaxFlags syntaxFlags)  : System::UriParser(THROW_UNLESS(::il2cpp_utils::New<System__UriParser__BuiltInUriParser>(lwrCaseScheme, defaultPort, syntaxFlags))) {}
- void System::System__UriParser__BuiltInUriParser::_ctor(::StringW lwrCaseScheme, int32_t defaultPort, System::UriSyntaxFlags syntaxFlags)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__UriParser__BuiltInUriParser>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::UriSyntaxFlags>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, lwrCaseScheme, defaultPort, syntaxFlags);
 }

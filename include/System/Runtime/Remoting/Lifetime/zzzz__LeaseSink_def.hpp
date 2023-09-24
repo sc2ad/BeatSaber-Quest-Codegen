@@ -68,8 +68,7 @@ constexpr System::Runtime::Remoting::Messaging::IMessageSink __get__nextSink() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nextSink", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
-explicit LeaseSink(System::Runtime::Remoting::Messaging::IMessageSink nextSink) ;
+static System::Runtime::Remoting::Lifetime::LeaseSink New_ctor(System::Runtime::Remoting::Messaging::IMessageSink nextSink) ;
 
 /// @brief Method .ctor addr 0x232fa90 size 0x28 virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMessageSink nextSink) ;

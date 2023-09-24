@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::RandomAnimatorStartTime::RandomAnimatorStartTime()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RandomAnimatorStartTime>())) {}
+ GlobalNamespace::RandomAnimatorStartTime GlobalNamespace::RandomAnimatorStartTime::New_ctor()  {
+GlobalNamespace::RandomAnimatorStartTime o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RandomAnimatorStartTime>())};
+return o;
+}
  void GlobalNamespace::RandomAnimatorStartTime::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RandomAnimatorStartTime>::get(),

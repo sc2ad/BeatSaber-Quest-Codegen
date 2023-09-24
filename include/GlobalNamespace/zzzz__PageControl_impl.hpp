@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PageControl_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__PageControlElement_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PageControl.SetPagesCount
 template<>
 
@@ -142,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isVisible);
 }
-// Ctor Parameters []
- GlobalNamespace::PageControl::PageControl()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PageControl>())) {}
+ GlobalNamespace::PageControl GlobalNamespace::PageControl::New_ctor()  {
+GlobalNamespace::PageControl o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PageControl>())};
+return o;
+}
  void GlobalNamespace::PageControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PageControl>::get(),

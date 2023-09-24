@@ -5,22 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
-class MPInteger;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Bcpg {
-class S2k;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace System::IO {
-class Stream;
+struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
@@ -28,11 +19,20 @@ struct SymmetricKeyAlgorithmTag;
 namespace System::IO {
 class FileInfo;
 }
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
 namespace Org::BouncyCastle::Crypto {
 class IWrapper;
+}
+namespace Org::BouncyCastle::Bcpg {
+class MPInteger;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Bcpg {
+class S2k;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -86,8 +86,7 @@ static constexpr int32_t  ReadAhead{60};
 
 // Methods
 
-// Ctor Parameters []
-explicit PgpUtilities() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x1041a40 size 0x8 virtual false final false
  void _ctor() ;

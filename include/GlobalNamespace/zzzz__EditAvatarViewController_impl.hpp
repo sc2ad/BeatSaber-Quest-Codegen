@@ -2,26 +2,25 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "GlobalNamespace/zzzz__NamedIntListController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarPartCollection_1_def.hpp"
-#include "GlobalNamespace/zzzz__ColorPickerButtonController_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarEditHistory_def.hpp"
-#include "GlobalNamespace/zzzz__SkinColorSO_def.hpp"
 #include "GlobalNamespace/zzzz__NamedColorListController_def.hpp"
+#include "GlobalNamespace/zzzz__NamedIntListController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__NamedColorListController_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarPartsModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "System/zzzz__Action_4_def.hpp"
-#include "GlobalNamespace/zzzz__NamedIntListController_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
+#include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarEditHistory_def.hpp"
+#include "HMUI/zzzz__ValueChangedBinder_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarPartsModel_def.hpp"
-#include "HMUI/zzzz__ValueChangedBinder_1_def.hpp"
+#include "GlobalNamespace/zzzz__SkinColorSO_def.hpp"
+#include "GlobalNamespace/zzzz__ColorPickerButtonController_def.hpp"
+#include "System/zzzz__Action_4_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarPartCollection_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__EditAvatarViewController__FinishAction::GlobalNamespace__EditAvatarViewController__FinishAction(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -145,8 +144,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__
 constexpr System::Action_1<UnityEngine::Color> GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0::__get___9__1() const {
 return ::cordl_internals::getInstanceField<System::Action_1<UnityEngine::Color>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0::GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0>())) {}
+ GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0 GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0>::get(),
@@ -1371,8 +1372,10 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, partCollection, valuePicker, setIdAction, avatarEditPart);
 }
-// Ctor Parameters []
- GlobalNamespace::EditAvatarViewController::EditAvatarViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<EditAvatarViewController>())) {}
+ GlobalNamespace::EditAvatarViewController GlobalNamespace::EditAvatarViewController::New_ctor()  {
+GlobalNamespace::EditAvatarViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EditAvatarViewController>())};
+return o;
+}
  void GlobalNamespace::EditAvatarViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EditAvatarViewController>::get(),
@@ -1517,78 +1520,46 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, s);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::*)()>(&GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1._SetupValuePicker_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::*)(int32_t)>(&GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::_SetupValuePicker_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1>::get(),
-                            "<SetupValuePicker>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::__set_setIdAction(System::Action_1<::StringW> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::__set_setIdAction(System::Action_1<::StringW> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<::StringW>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<::StringW>>(value));
 }
-constexpr System::Action_1<::StringW> GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::__get_setIdAction() const {
+constexpr System::Action_1<::StringW> GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::__get_setIdAction() const {
 return ::cordl_internals::getInstanceField<System::Action_1<::StringW>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::__set_partCollection(GlobalNamespace::AvatarPartCollection_1<T> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::__set_partCollection(GlobalNamespace::AvatarPartCollection_1<T> value)  {
 ::cordl_internals::setInstanceField<GlobalNamespace::AvatarPartCollection_1<T>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<GlobalNamespace::AvatarPartCollection_1<T>>(value));
 }
-constexpr GlobalNamespace::AvatarPartCollection_1<T> GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::__get_partCollection() const {
+constexpr GlobalNamespace::AvatarPartCollection_1<T> GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::__get_partCollection() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::AvatarPartCollection_1<T>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::__set___4__this(GlobalNamespace::EditAvatarViewController value)  {
+constexpr void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::__set___4__this(GlobalNamespace::EditAvatarViewController value)  {
 ::cordl_internals::setInstanceField<GlobalNamespace::EditAvatarViewController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<GlobalNamespace::EditAvatarViewController>(value));
 }
-constexpr GlobalNamespace::EditAvatarViewController GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::__get___4__this() const {
+constexpr GlobalNamespace::EditAvatarViewController GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::EditAvatarViewController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::__set_avatarEditPart(GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart value)  {
+constexpr void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::__set_avatarEditPart(GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart value)  {
 ::cordl_internals::setInstanceField<GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart>(value));
 }
-constexpr GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::__get_avatarEditPart() const {
+constexpr GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::__get_avatarEditPart() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1>())) {}
- void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::_ctor()  {
+ GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T> GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::New_ctor()  {
+GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T> o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>>())};
+return o;
+}
+ void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1::_SetupValuePicker_b__0(int32_t idx)  {
+ void GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>::_SetupValuePicker_b__0(int32_t idx)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T>>::get(),
                             "<SetupValuePicker>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}

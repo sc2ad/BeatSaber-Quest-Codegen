@@ -6,65 +6,65 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class Panel;
-}
-namespace UnityEngine::UIElements {
-class IMGUIContainer;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine::UIElements {
-class IUIElementsUtility;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class Stack_1;
-}
-namespace UnityEngine {
-class UnityEngine__GUILayoutUtility__LayoutCache;
+class VisualElement;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
 class Event;
 }
-namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
+namespace System::Collections::Generic {
+template<typename T>
+class Stack_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
-struct System__Collections__Generic__Dictionary_2__Enumerator;
+class Dictionary_2;
 }
-namespace UnityEngine::UIElements {
-struct ContextType;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace UnityEngine {
+struct Color;
 }
 namespace System {
 class Exception;
 }
 namespace UnityEngine {
-struct EventType;
+struct Rect;
+}
+namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+struct ContextType;
+}
+namespace UnityEngine::UIElements {
+class Panel;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::UIElements {
+class IMGUIContainer;
+}
+namespace UnityEngine {
+class UnityEngine__GUILayoutUtility__LayoutCache;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
-class Dictionary_2;
+struct System__Collections__Generic__Dictionary_2__Enumerator;
+}
+namespace UnityEngine {
+struct EventType;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class IUIElementsUtility;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -184,8 +184,7 @@ static Unity::Profiling::ProfilerMarker __get_s_EventProfilerMarker() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UIElementsUtility() ;
+static UnityEngine::UIElements::UIElementsUtility New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c843ec size 0x60 virtual false final false
  void _ctor() ;

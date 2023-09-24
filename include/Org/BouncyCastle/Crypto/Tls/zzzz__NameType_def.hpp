@@ -57,8 +57,7 @@ static constexpr uint8_t  host_name{0u};
 /// @brief Method IsValid addr 0xf04d98 size 0xc virtual false final false
 static bool IsValid(uint8_t nameType) ;
 
-// Ctor Parameters []
-explicit NameType() ;
+static Org::BouncyCastle::Crypto::Tls::NameType New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04da4 size 0x8 virtual false final false
  void _ctor() ;

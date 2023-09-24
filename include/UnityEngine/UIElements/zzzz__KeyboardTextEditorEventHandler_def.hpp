@@ -3,43 +3,43 @@
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
-class ITextInputField;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class MouseDownEvent;
-}
-namespace UnityEngine::UIElements {
-class KeyDownEvent;
+class MouseMoveEvent;
 }
 namespace UnityEngine::UIElements {
 class ValidateCommandEvent;
 }
 namespace UnityEngine::UIElements {
+class KeyDownEvent;
+}
+namespace UnityEngine::UIElements {
 class ExecuteCommandEvent;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class MouseUpEvent;
 }
 namespace UnityEngine::UIElements {
 class BlurEvent;
 }
 namespace UnityEngine::UIElements {
-class MouseMoveEvent;
+class MouseDownEvent;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class ITextInputField;
+}
+namespace UnityEngine {
+class Event;
 }
 namespace UnityEngine::UIElements {
 class TextEditorEngine;
 }
 namespace UnityEngine::UIElements {
 class FocusEvent;
+}
+namespace UnityEngine::UIElements {
+class MouseUpEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -149,8 +149,7 @@ constexpr UnityEngine::Event __get_m_ImguiEvent() const;
 /// @brief Method set_isClicking addr 0x2ca7b28 size 0x34 virtual false final false
  void set_isClicking(bool value) ;
 
-// Ctor Parameters [CppParam { name: "editorEngine", ty: "UnityEngine::UIElements::TextEditorEngine", modifiers: "", def_value: None }, CppParam { name: "textInputField", ty: "UnityEngine::UIElements::ITextInputField", modifiers: "", def_value: None }]
-explicit KeyboardTextEditorEventHandler(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;
+static UnityEngine::UIElements::KeyboardTextEditorEventHandler New_ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;
 
 /// @brief Method .ctor addr 0x2ca7b5c size 0x80 virtual false final false
  void _ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;

@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::XmlTokenizedType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_ENUMERATION::Datatype_ENUMERATION()  : System::Xml::Schema::Datatype_NMTOKEN(THROW_UNLESS(::il2cpp_utils::New<Datatype_ENUMERATION>())) {}
+ System::Xml::Schema::Datatype_ENUMERATION System::Xml::Schema::Datatype_ENUMERATION::New_ctor()  {
+System::Xml::Schema::Datatype_ENUMERATION o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_ENUMERATION>())};
+return o;
+}
  void System::Xml::Schema::Datatype_ENUMERATION::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_ENUMERATION>::get(),

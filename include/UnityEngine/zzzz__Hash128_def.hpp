@@ -6,15 +6,15 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-template<typename T>
-class IComparable_1;
+class IComparable;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace System {
-class IComparable;
+template<typename T>
+class IComparable_1;
 }
 // Forward declare root types
 namespace UnityEngine {

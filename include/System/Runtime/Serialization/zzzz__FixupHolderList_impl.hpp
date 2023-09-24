@@ -81,8 +81,10 @@ constexpr void System::Runtime::Serialization::FixupHolderList::__set_m_count(in
 constexpr int32_t System::Runtime::Serialization::FixupHolderList::__get_m_count() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::FixupHolderList::FixupHolderList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FixupHolderList>())) {}
+ System::Runtime::Serialization::FixupHolderList System::Runtime::Serialization::FixupHolderList::New_ctor()  {
+System::Runtime::Serialization::FixupHolderList o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::FixupHolderList>())};
+return o;
+}
  void System::Runtime::Serialization::FixupHolderList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::FixupHolderList>::get(),
@@ -92,8 +94,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "startingSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Serialization::FixupHolderList::FixupHolderList(int32_t startingSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FixupHolderList>(startingSize))) {}
+ System::Runtime::Serialization::FixupHolderList System::Runtime::Serialization::FixupHolderList::New_ctor(int32_t startingSize)  {
+System::Runtime::Serialization::FixupHolderList o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::FixupHolderList>(startingSize))};
+return o;
+}
  void System::Runtime::Serialization::FixupHolderList::_ctor(int32_t startingSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::FixupHolderList>::get(),

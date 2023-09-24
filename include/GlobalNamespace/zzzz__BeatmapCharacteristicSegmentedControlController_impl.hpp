@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSegmentedControlController_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
-#include "HMUI/zzzz__IconSegmentedControl_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSegmentedControlController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "HMUI/zzzz__IconSegmentedControl_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c._ctor
 template<>
@@ -55,8 +56,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Beatm
  System::Comparison_1<GlobalNamespace::IDifficultyBeatmapSet> GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c::__get___9__10_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<GlobalNamespace::IDifficultyBeatmapSet>, "<>9__10_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapCharacteristicSegmentedControlController____c>::get(),
@@ -298,8 +301,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, segmentedControl, cellIdx);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapCharacteristicSegmentedControlController::BeatmapCharacteristicSegmentedControlController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatmapCharacteristicSegmentedControlController>())) {}
+ GlobalNamespace::BeatmapCharacteristicSegmentedControlController GlobalNamespace::BeatmapCharacteristicSegmentedControlController::New_ctor()  {
+GlobalNamespace::BeatmapCharacteristicSegmentedControlController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapCharacteristicSegmentedControlController>())};
+return o;
+}
  void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapCharacteristicSegmentedControlController>::get(),

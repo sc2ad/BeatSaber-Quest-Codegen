@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/InputSystem/Utilities/zzzz__StringHelpers_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__Substring_def.hpp"
 #include "System/zzzz__StringComparison_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__Substring_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__StringHelpers_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8._ctor
 template<>
 
@@ -206,8 +207,10 @@ constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Ut
 constexpr int32_t UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8::__get__endPos_5__3() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x44>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8>(__1__state))) {}
+ UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8 UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8::New_ctor(int32_t __1__state)  {
+UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8>(__1__state))};
+return o;
+}
  void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8>::get(),
@@ -490,8 +493,10 @@ constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Ut
 constexpr int32_t UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9::__get__position_5__3() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x4c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9::UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9>(__1__state))) {}
+ UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9 UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9::New_ctor(int32_t __1__state)  {
+UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9>(__1__state))};
+return o;
+}
  void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9>::get(),

@@ -77,8 +77,7 @@ constexpr UnityEngine::Color __get__defaultColor() const;
 /// @brief Method ColorWasSet addr 0x1f9cbd8 size 0x44 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit DirectionalLightWithIds() ;
+static GlobalNamespace::DirectionalLightWithIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9cc1c size 0x24 virtual false final false
  void _ctor() ;

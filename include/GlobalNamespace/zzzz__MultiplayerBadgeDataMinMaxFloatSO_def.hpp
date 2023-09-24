@@ -2,9 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include <cmath>
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
@@ -12,14 +11,15 @@ class MultiplayerBadgeAwardData;
 namespace GlobalNamespace {
 struct MultiplayerBadgeMinMax;
 }
-namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class MultiplayerPlayerResultsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +94,7 @@ constexpr float_t __get__weightMultiplier() const;
 /// @brief Method CalculateMin addr 0x20d8c54 size 0x57c virtual false final false
  GlobalNamespace::MultiplayerBadgeAwardData CalculateMin(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> resultsData, float_t randomMultiplier) ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgeDataMinMaxFloatSO() ;
+static GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d86c0 size 0x10 virtual false final false
  void _ctor() ;

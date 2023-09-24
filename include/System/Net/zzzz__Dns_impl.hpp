@@ -3,9 +3,10 @@
 #include "System/Net/zzzz__Dns_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Net/zzzz__IPHostEntry_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/zzzz__Dns_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__Dns__GetHostAddressesCallback._ctor
 template<>
 
@@ -74,8 +75,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Net::System__Net__Dns__GetHostAddressesCallback::System__Net__Dns__GetHostAddressesCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Net__Dns__GetHostAddressesCallback>(object, method))) {}
+ System::Net::System__Net__Dns__GetHostAddressesCallback System::Net::System__Net__Dns__GetHostAddressesCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Net::System__Net__Dns__GetHostAddressesCallback o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__Dns__GetHostAddressesCallback>(object, method))};
+return o;
+}
  void System::Net::System__Net__Dns__GetHostAddressesCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__Dns__GetHostAddressesCallback>::get(),

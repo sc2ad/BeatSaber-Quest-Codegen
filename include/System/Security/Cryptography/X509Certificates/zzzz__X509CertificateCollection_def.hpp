@@ -3,11 +3,14 @@
 #include "System/Collections/zzzz__CollectionBase_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+class System__Security__Cryptography__X509Certificates__X509CertificateCollection__X509CertificateEnumerator;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -77,8 +80,7 @@ constexpr System::Collections::IEnumerator __get_enumerator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mappings", ty: "System::Security::Cryptography::X509Certificates::X509CertificateCollection", modifiers: "", def_value: None }]
-explicit System__Security__Cryptography__X509Certificates__X509CertificateCollection__X509CertificateEnumerator(System::Security::Cryptography::X509Certificates::X509CertificateCollection mappings) ;
+static System::Security::Cryptography::X509Certificates::System__Security__Cryptography__X509Certificates__X509CertificateCollection__X509CertificateEnumerator New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection mappings) ;
 
 /// @brief Method .ctor addr 0x27ec7e8 size 0xb4 virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection mappings) ;
@@ -151,14 +153,12 @@ constexpr explicit X509CertificateCollection(void* ptr) noexcept : System::Colle
 
 // Methods
 
-// Ctor Parameters []
-explicit X509CertificateCollection() ;
+static System::Security::Cryptography::X509Certificates::X509CertificateCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27e8e58 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "System::Security::Cryptography::X509Certificates::X509CertificateCollection", modifiers: "", def_value: None }]
-explicit X509CertificateCollection(System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;
+static System::Security::Cryptography::X509Certificates::X509CertificateCollection New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;
 
 /// @brief Method .ctor addr 0x27ec5f0 size 0x2c virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection value) ;

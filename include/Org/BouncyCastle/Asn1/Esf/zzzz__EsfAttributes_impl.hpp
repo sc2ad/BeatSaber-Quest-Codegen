@@ -102,8 +102,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Esf::EsfAttributes::__get_ArchiveTimestampV2()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "ArchiveTimestampV2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::EsfAttributes>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Esf::EsfAttributes::EsfAttributes()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EsfAttributes>())) {}
+ Org::BouncyCastle::Asn1::Esf::EsfAttributes Org::BouncyCastle::Asn1::Esf::EsfAttributes::New_ctor()  {
+Org::BouncyCastle::Asn1::Esf::EsfAttributes o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::EsfAttributes>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::EsfAttributes::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::EsfAttributes>::get(),

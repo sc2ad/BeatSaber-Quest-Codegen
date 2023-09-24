@@ -50,8 +50,7 @@ constexpr explicit OpenXRDevice(void* ptr) noexcept : UnityEngine::InputSystem::
 /// @brief Method FinishSetup addr 0x2aed794 size 0xf4 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit OpenXRDevice() ;
+static UnityEngine::XR::OpenXR::Input::OpenXRDevice New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aed888 size 0x8 virtual false final false
  void _ctor() ;

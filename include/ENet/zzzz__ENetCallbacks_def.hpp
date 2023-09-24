@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace ENet {
-class FreeCallback;
+class NoMemoryCallback;
 }
 namespace ENet {
-class NoMemoryCallback;
+class FreeCallback;
 }
 namespace ENet {
 class AllocCallback;

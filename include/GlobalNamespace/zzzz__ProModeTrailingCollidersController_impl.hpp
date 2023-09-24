@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ProModeTrailingCollidersController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ProModeTrailingCollidersController.Start
 template<>
@@ -123,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ProModeTrailingCollidersController::ProModeTrailingCollidersController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ProModeTrailingCollidersController>())) {}
+ GlobalNamespace::ProModeTrailingCollidersController GlobalNamespace::ProModeTrailingCollidersController::New_ctor()  {
+GlobalNamespace::ProModeTrailingCollidersController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ProModeTrailingCollidersController>())};
+return o;
+}
  void GlobalNamespace::ProModeTrailingCollidersController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ProModeTrailingCollidersController>::get(),

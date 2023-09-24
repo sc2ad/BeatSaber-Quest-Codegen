@@ -8,28 +8,7 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class GameplaySetupViewController;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
 class LeaderboardViewController;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace HMUI {
-class ViewController;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
@@ -38,10 +17,31 @@ namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class SafeAreaFocusedSimpleDialogPromptViewController;
+class GameplaySetupViewController;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MenuTransitionsHelper;
+}
+namespace GlobalNamespace {
+class AppStaticSettingsSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace HMUI {
+class ViewController;
 }
 namespace HMUI {
 struct HMUI__ViewController__AnimationType;
@@ -50,17 +50,20 @@ namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
-class AppStaticSettingsSO;
-}
-namespace System {
-template<typename T>
-class Action_1;
+class SafeAreaFocusedSimpleDialogPromptViewController;
 }
 namespace GlobalNamespace {
 class PracticeViewController;
 }
 namespace GlobalNamespace {
-class MenuTransitionsHelper;
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -138,8 +141,7 @@ constexpr System::Action __get___9__1() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0() ;
+static GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2145de0 size 0x8 virtual false final false
  void _ctor() ;
@@ -354,8 +356,7 @@ constexpr System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordi
 /// @brief Method DismissPracticeViewController addr 0x2145f08 size 0xb4 virtual false final false
  void DismissPracticeViewController(System::Action finishedCallback, bool immediately) ;
 
-// Ctor Parameters []
-explicit SinglePlayerLevelSelectionFlowCoordinator() ;
+static GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2144694 size 0x8 virtual false final false
  void _ctor() ;

@@ -7,19 +7,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class LanguageSO;
+class IntSO;
 }
 namespace GlobalNamespace {
-class Vector3SO;
-}
-namespace GlobalNamespace {
-class BoolSO;
-}
-namespace GlobalNamespace {
-class StringSO;
-}
-namespace GlobalNamespace {
-class Vector2IntSO;
+struct GlobalNamespace__MainSettingsModelSO__WindowMode;
 }
 namespace GlobalNamespace {
 class ISaveData;
@@ -28,7 +19,22 @@ namespace GlobalNamespace {
 class FloatSO;
 }
 namespace GlobalNamespace {
-class IntSO;
+class Vector2IntSO;
+}
+namespace GlobalNamespace {
+class BoolSO;
+}
+namespace GlobalNamespace {
+class StringSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MainSettingsModelSO__Config;
+}
+namespace GlobalNamespace {
+class Vector3SO;
+}
+namespace GlobalNamespace {
+class LanguageSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,6 +95,8 @@ __Fullscreen = 1,
 constexpr operator __GlobalNamespace__MainSettingsModelSO__WindowMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MainSettingsModelSO__WindowMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -460,8 +468,7 @@ constexpr bool __get_enableFPSCounter() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MainSettingsModelSO__Config() ;
+static GlobalNamespace::GlobalNamespace__MainSettingsModelSO__Config New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f0700 size 0x12c virtual false final false
  void _ctor() ;
@@ -832,8 +839,7 @@ constexpr bool __get__isLoaded() const;
 /// @brief Method __DeleteSettingsFiles addr 0x21f05b8 size 0x140 virtual false final false
  void __DeleteSettingsFiles() ;
 
-// Ctor Parameters []
-explicit MainSettingsModelSO() ;
+static GlobalNamespace::MainSettingsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f06f8 size 0x8 virtual false final false
  void _ctor() ;

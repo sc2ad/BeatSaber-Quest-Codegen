@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "Zenject/zzzz__AnimatorInstaller_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::AnimatorInstaller._ctor
 template<>
 
@@ -77,8 +77,10 @@ constexpr void Zenject::AnimatorInstaller::__set__animator(UnityEngine::Animator
 constexpr UnityEngine::Animator Zenject::AnimatorInstaller::__get__animator() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Animator, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "animator", ty: "UnityEngine::Animator", modifiers: "", def_value: None }]
- Zenject::AnimatorInstaller::AnimatorInstaller(UnityEngine::Animator animator)  : Zenject::Installer_2<UnityEngine::Animator,Zenject::AnimatorInstaller>(THROW_UNLESS(::il2cpp_utils::New<AnimatorInstaller>(animator))) {}
+ Zenject::AnimatorInstaller Zenject::AnimatorInstaller::New_ctor(UnityEngine::Animator animator)  {
+Zenject::AnimatorInstaller o{THROW_UNLESS(::il2cpp_utils::New<Zenject::AnimatorInstaller>(animator))};
+return o;
+}
  void Zenject::AnimatorInstaller::_ctor(UnityEngine::Animator animator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::AnimatorInstaller>::get(),

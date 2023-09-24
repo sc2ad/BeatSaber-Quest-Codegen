@@ -3,10 +3,10 @@
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class BindInfo;
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -54,8 +54,7 @@ constexpr explicit IdScopeConcreteIdArgConditionCopyNonLazyBinder(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit IdScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::BindInfo bindInfo) ;
+static Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d61c78 size 0x8 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;

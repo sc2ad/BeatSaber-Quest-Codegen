@@ -57,8 +57,10 @@ constexpr void UnityEngine::UIElements::StyleSheets::Syntax::Expression::__set_k
 constexpr ::StringW UnityEngine::UIElements::StyleSheets::Syntax::Expression::__get_keyword() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType", modifiers: "", def_value: None }]
- UnityEngine::UIElements::StyleSheets::Syntax::Expression::Expression(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Expression>(type))) {}
+ UnityEngine::UIElements::StyleSheets::Syntax::Expression UnityEngine::UIElements::StyleSheets::Syntax::Expression::New_ctor(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type)  {
+UnityEngine::UIElements::StyleSheets::Syntax::Expression o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleSheets::Syntax::Expression>(type))};
+return o;
+}
  void UnityEngine::UIElements::StyleSheets::Syntax::Expression::_ctor(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleSheets::Syntax::Expression>::get(),

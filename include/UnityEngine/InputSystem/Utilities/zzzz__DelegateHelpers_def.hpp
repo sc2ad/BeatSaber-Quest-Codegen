@@ -3,24 +3,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TDelegate>
-struct CallbackArray_1;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
 namespace System {
-class Action;
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TDelegate>
+struct CallbackArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

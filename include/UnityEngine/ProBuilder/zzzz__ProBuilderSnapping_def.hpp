@@ -3,21 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::ProBuilder {
-struct Vector3Mask;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 struct Ray;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+struct Vector3Mask;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

@@ -2,8 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CutoutAnimateEffect_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "GlobalNamespace/zzzz__CutoutEffect_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__CutoutEffect_def.hpp"
+#include "GlobalNamespace/zzzz__CutoutAnimateEffect_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7._ctor
@@ -162,8 +163,10 @@ constexpr void GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateTo
 constexpr float_t GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::__get__elapsedTime_5__2() const {
 return ::cordl_internals::getInstanceField<float_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7 GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7>::get(),
@@ -435,8 +438,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cutoutStart, cutoutEnd, duration);
 }
-// Ctor Parameters []
- GlobalNamespace::CutoutAnimateEffect::CutoutAnimateEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CutoutAnimateEffect>())) {}
+ GlobalNamespace::CutoutAnimateEffect GlobalNamespace::CutoutAnimateEffect::New_ctor()  {
+GlobalNamespace::CutoutAnimateEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CutoutAnimateEffect>())};
+return o;
+}
  void GlobalNamespace::CutoutAnimateEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CutoutAnimateEffect>::get(),

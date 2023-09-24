@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherHash_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherHashAlgAndValue_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Esf::OtherHash.GetInstance
 template<>
@@ -150,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Esf::OtherHash, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "sha1Hash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OtherHash::OtherHash(::ArrayW<uint8_t> sha1Hash)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OtherHash>(sha1Hash))) {}
+ Org::BouncyCastle::Asn1::Esf::OtherHash Org::BouncyCastle::Asn1::Esf::OtherHash::New_ctor(::ArrayW<uint8_t> sha1Hash)  {
+Org::BouncyCastle::Asn1::Esf::OtherHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OtherHash>(sha1Hash))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OtherHash::_ctor(::ArrayW<uint8_t> sha1Hash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OtherHash>::get(),
@@ -161,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sha1Hash);
 }
-// Ctor Parameters [CppParam { name: "sha1Hash", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OtherHash::OtherHash(Org::BouncyCastle::Asn1::Asn1OctetString sha1Hash)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OtherHash>(sha1Hash))) {}
+ Org::BouncyCastle::Asn1::Esf::OtherHash Org::BouncyCastle::Asn1::Esf::OtherHash::New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString sha1Hash)  {
+Org::BouncyCastle::Asn1::Esf::OtherHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OtherHash>(sha1Hash))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OtherHash::_ctor(Org::BouncyCastle::Asn1::Asn1OctetString sha1Hash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OtherHash>::get(),
@@ -172,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sha1Hash);
 }
-// Ctor Parameters [CppParam { name: "otherHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OtherHash::OtherHash(Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue otherHash)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OtherHash>(otherHash))) {}
+ Org::BouncyCastle::Asn1::Esf::OtherHash Org::BouncyCastle::Asn1::Esf::OtherHash::New_ctor(Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue otherHash)  {
+Org::BouncyCastle::Asn1::Esf::OtherHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OtherHash>(otherHash))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OtherHash::_ctor(Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue otherHash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OtherHash>::get(),

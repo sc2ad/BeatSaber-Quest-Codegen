@@ -6,6 +6,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::LowLevel {
+class UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction;
+}
 namespace System {
 class Type;
 }
@@ -58,8 +61,7 @@ constexpr explicit UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::LowLevel::UnityEngine__LowLevel__PlayerLoopSystem__UpdateFunction New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b81478 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

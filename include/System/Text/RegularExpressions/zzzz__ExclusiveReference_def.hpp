@@ -78,8 +78,7 @@ constexpr int32_t __get__locked() const;
 /// @brief Method Release addr 0x27bfbdc size 0xbc virtual false final false
  void Release(System::Text::RegularExpressions::RegexRunner obj) ;
 
-// Ctor Parameters []
-explicit ExclusiveReference() ;
+static System::Text::RegularExpressions::ExclusiveReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x27bfc98 size 0x8 virtual false final false
  void _ctor() ;

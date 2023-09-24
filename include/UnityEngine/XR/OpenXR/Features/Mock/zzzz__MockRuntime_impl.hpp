@@ -3,19 +3,20 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Mock/zzzz__MockRuntime_def.hpp"
-#include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrResult_def.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrViewConfigurationType_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrSpaceLocationFlags_def.hpp"
-#include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrSessionState_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrViewStateFlags_def.hpp"
+#include "UnityEngine/XR/OpenXR/Features/Mock/zzzz__MockRuntime_def.hpp"
+#include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrResult_def.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrReferenceSpaceType_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrSessionState_def.hpp"
+#include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrViewStateFlags_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrSpaceLocationFlags_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEvent::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEvent(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -97,8 +98,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate>(object, method))) {}
+ UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate>(object, method))};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate>::get(),
@@ -203,8 +206,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate>(object, method))) {}
+ UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate>(object, method))};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate>::get(),
@@ -309,8 +314,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate>(object, method))) {}
+ UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate>(object, method))};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate>::get(),
@@ -1168,8 +1175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, xrPathString, value, unit);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::MockRuntime()  : UnityEngine::XR::OpenXR::Features::OpenXRFeature(THROW_UNLESS(::il2cpp_utils::New<MockRuntime>())) {}
+ UnityEngine::XR::OpenXR::Features::Mock::MockRuntime UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::Mock::MockRuntime o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Mock::MockRuntime>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Mock::MockRuntime::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Mock::MockRuntime>::get(),

@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRendererCore_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRenderer_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BloomPrePassBackgroundNonLightRenderer.get_renderer
 template<>
 
@@ -253,8 +253,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::BloomPrePassBackgroundNonLightRenderer()  : GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassBackgroundNonLightRenderer>())) {}
+ GlobalNamespace::BloomPrePassBackgroundNonLightRenderer GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::New_ctor()  {
+GlobalNamespace::BloomPrePassBackgroundNonLightRenderer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>::get(),

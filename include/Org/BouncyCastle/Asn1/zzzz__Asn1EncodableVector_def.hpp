@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -101,20 +101,17 @@ constexpr bool __get_copyOnWrite() const;
 /// @brief Method FromEnumerable addr 0x11280f0 size 0x35c virtual false final false
 static Org::BouncyCastle::Asn1::Asn1EncodableVector FromEnumerable(System::Collections::IEnumerable e) ;
 
-// Ctor Parameters []
-explicit Asn1EncodableVector() ;
+static Org::BouncyCastle::Asn1::Asn1EncodableVector New_ctor() ;
 
 /// @brief Method .ctor addr 0x1125b28 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "initialCapacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Asn1EncodableVector(int32_t initialCapacity) ;
+static Org::BouncyCastle::Asn1::Asn1EncodableVector New_ctor(int32_t initialCapacity) ;
 
 /// @brief Method .ctor addr 0x112844c size 0x10c virtual false final false
  void _ctor(int32_t initialCapacity) ;
 
-// Ctor Parameters [CppParam { name: "v", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable>", modifiers: "", def_value: None }]
-explicit Asn1EncodableVector(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> v) ;
+static Org::BouncyCastle::Asn1::Asn1EncodableVector New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> v) ;
 
 /// @brief Method .ctor addr 0x111fb9c size 0x2c virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> v) ;

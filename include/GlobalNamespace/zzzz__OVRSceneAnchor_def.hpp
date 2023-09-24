@@ -2,32 +2,32 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System {
-struct Guid;
-}
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+struct OVRSpace;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Posef;
 }
-namespace GlobalNamespace {
-struct OVRSpace;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__SpaceComponentType;
 }
 namespace System {
-template<typename T>
-struct Nullable_1;
+struct Guid;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -178,8 +178,7 @@ static void GetSceneAnchors(System::Collections::Generic::List_1<GlobalNamespace
 /// @brief Method OnDestroy addr 0x26031c4 size 0x1e0 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit OVRSceneAnchor() ;
+static GlobalNamespace::OVRSceneAnchor New_ctor() ;
 
 /// @brief Method .ctor addr 0x26033a4 size 0x8 virtual false final false
  void _ctor() ;

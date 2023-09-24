@@ -7,43 +7,43 @@
 #include <cmath>
 #include <cstdint>
 namespace OVR::OpenVR {
-struct InputSkeletalActionData_t;
+struct EVRInputError;
 }
 namespace OVR::OpenVR {
-struct InputAnalogActionData_t;
+struct VRBoneTransform_t;
 }
 namespace OVR::OpenVR {
 struct VRActiveActionSet_t;
 }
 namespace OVR::OpenVR {
-struct EVRSkeletalTransformSpace;
-}
-namespace OVR::OpenVR {
-struct InputDigitalActionData_t;
-}
-namespace OVR::OpenVR {
-struct IVRInput;
-}
-namespace OVR::OpenVR {
-struct VRBoneTransform_t;
+struct EVRSkeletalMotionRange;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-struct EVRInputError;
+struct IVRInput;
 }
 namespace OVR::OpenVR {
-struct InputOriginInfo_t;
+struct InputAnalogActionData_t;
 }
 namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
+struct InputDigitalActionData_t;
 }
 namespace OVR::OpenVR {
 struct InputPoseActionData_t;
 }
 namespace OVR::OpenVR {
-struct EVRSkeletalMotionRange;
+struct InputOriginInfo_t;
+}
+namespace OVR::OpenVR {
+struct InputSkeletalActionData_t;
+}
+namespace OVR::OpenVR {
+struct EVRSkeletalTransformSpace;
+}
+namespace OVR::OpenVR {
+struct ETrackingUniverseOrigin;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -100,8 +100,7 @@ constexpr OVR::OpenVR::IVRInput __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRInput(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRInput New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x26681f8 size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

@@ -2,12 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine::UIElements {
-struct TimerState;
-}
 namespace System {
 template<typename TResult>
 class Func_1;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__ScheduledItem____c;
+}
+namespace UnityEngine::UIElements {
+struct TimerState;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -67,8 +70,7 @@ static UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c __ge
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__ScheduledItem____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c8f0ac size 0x8 virtual false final false
  void _ctor() ;
@@ -204,8 +206,7 @@ constexpr int64_t __get__endTimeMs_k__BackingField() const;
 /// @brief Method get_endTimeMs addr 0x2c8ee34 size 0x8 virtual false final false
  int64_t get_endTimeMs() ;
 
-// Ctor Parameters []
-explicit ScheduledItem() ;
+static UnityEngine::UIElements::ScheduledItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c8ee3c size 0x74 virtual false final false
  void _ctor() ;

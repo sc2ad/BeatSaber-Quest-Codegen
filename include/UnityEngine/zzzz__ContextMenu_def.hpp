@@ -70,20 +70,17 @@ constexpr int32_t __get_priority() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "itemName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ContextMenu(::StringW itemName) ;
+static UnityEngine::ContextMenu New_ctor(::StringW itemName) ;
 
 /// @brief Method .ctor addr 0x2b5b2a4 size 0x38 virtual false final false
  void _ctor(::StringW itemName) ;
 
-// Ctor Parameters [CppParam { name: "itemName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isValidateFunction", ty: "bool", modifiers: "", def_value: None }]
-explicit ContextMenu(::StringW itemName, bool isValidateFunction) ;
+static UnityEngine::ContextMenu New_ctor(::StringW itemName, bool isValidateFunction) ;
 
 /// @brief Method .ctor addr 0x2b5b2dc size 0x3c virtual false final false
  void _ctor(::StringW itemName, bool isValidateFunction) ;
 
-// Ctor Parameters [CppParam { name: "itemName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isValidateFunction", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "priority", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ContextMenu(::StringW itemName, bool isValidateFunction, int32_t priority) ;
+static UnityEngine::ContextMenu New_ctor(::StringW itemName, bool isValidateFunction, int32_t priority) ;
 
 /// @brief Method .ctor addr 0x2b5b318 size 0x40 virtual false final false
  void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority) ;

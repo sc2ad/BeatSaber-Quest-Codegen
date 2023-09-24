@@ -56,6 +56,8 @@ constexpr operator __UltimateResourceFallbackLocation_Unwrapped () const noexcep
 return std::bit_cast<__UltimateResourceFallbackLocation_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

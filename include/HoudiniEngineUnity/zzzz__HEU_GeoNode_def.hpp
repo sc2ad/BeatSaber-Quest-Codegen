@@ -4,61 +4,61 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace HoudiniEngineUnity {
+class HEU_ObjectNode;
 }
 namespace HoudiniEngineUnity {
 class HEU_VolumeCache;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_PartData;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+struct HAPI_GeoType;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_GeoType;
-}
-namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputNode;
+class HEU_Curve;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_GeoInfo;
 }
-namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
-}
-namespace System::Text {
-class StringBuilder;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_MaterialData;
 }
 namespace HoudiniEngineUnity {
-class HEU_ObjectNode;
+class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
-class HEU_Curve;
+class HEU_InputNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_PartData;
+}
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivable_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeneratedOutput;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -221,8 +221,7 @@ constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCac
 /// @brief Method get_VolumeCaches addr 0x1fe3c00 size 0x8 virtual false final false
  System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache> get_VolumeCaches() ;
 
-// Ctor Parameters []
-explicit HEU_GeoNode() ;
+static HoudiniEngineUnity::HEU_GeoNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fe3c08 size 0x1c virtual false final false
  void _ctor() ;

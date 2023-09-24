@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__DefaultUnityXRHapticsHandler_def.hpp"
-#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DefaultUnityXRHapticsHandler._ctor
 template<>
 
@@ -102,8 +102,10 @@ constexpr void GlobalNamespace::DefaultUnityXRHapticsHandler::__set__node(UnityE
 constexpr UnityEngine::XR::XRNode GlobalNamespace::DefaultUnityXRHapticsHandler::__get__node() const {
 return ::cordl_internals::getInstanceField<UnityEngine::XR::XRNode, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "node", ty: "UnityEngine::XR::XRNode", modifiers: "", def_value: None }]
- GlobalNamespace::DefaultUnityXRHapticsHandler::DefaultUnityXRHapticsHandler(UnityEngine::XR::XRNode node)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultUnityXRHapticsHandler>(node))) {}
+ GlobalNamespace::DefaultUnityXRHapticsHandler GlobalNamespace::DefaultUnityXRHapticsHandler::New_ctor(UnityEngine::XR::XRNode node)  {
+GlobalNamespace::DefaultUnityXRHapticsHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DefaultUnityXRHapticsHandler>(node))};
+return o;
+}
  void GlobalNamespace::DefaultUnityXRHapticsHandler::_ctor(UnityEngine::XR::XRNode node)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DefaultUnityXRHapticsHandler>::get(),

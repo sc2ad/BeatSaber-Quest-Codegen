@@ -126,8 +126,7 @@ constexpr ::ArrayW<System::Collections::IList> __get_lookup() const;
 /// @brief Method chineseRemainder addr 0xe4af60 size 0x3e4 virtual false final false
 static Org::BouncyCastle::Math::BigInteger chineseRemainder(System::Collections::IList congruences, System::Collections::IList primes) ;
 
-// Ctor Parameters []
-explicit NaccacheSternEngine() ;
+static Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe4b838 size 0xc virtual false final false
  void _ctor() ;

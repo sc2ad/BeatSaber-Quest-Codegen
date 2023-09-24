@@ -7,6 +7,12 @@
 namespace GlobalNamespace {
 class BaseResultsEnvironmentController;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword;
@@ -87,8 +93,7 @@ constexpr GlobalNamespace::BaseResultsEnvironmentController __get__resultsEnviro
 /// @brief Method get_resultsEnvironmentController addr 0x222d07c size 0x8 virtual false final false
  GlobalNamespace::BaseResultsEnvironmentController get_resultsEnvironmentController() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword() ;
+static GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword New_ctor() ;
 
 /// @brief Method .ctor addr 0x222d084 size 0x8 virtual false final false
  void _ctor() ;
@@ -148,8 +153,7 @@ constexpr ::StringW __get_keyword() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0() ;
+static GlobalNamespace::GlobalNamespace__ResultsEnvironmentManager____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x222cf2c size 0x8 virtual false final false
  void _ctor() ;
@@ -231,8 +235,7 @@ constexpr ::StringW __get__currentShownKeyword() const;
 /// @brief Method HideResultForKeyword addr 0x222cfd8 size 0x94 virtual false final false
  void HideResultForKeyword(::StringW keyword, bool immediately) ;
 
-// Ctor Parameters []
-explicit ResultsEnvironmentManager() ;
+static GlobalNamespace::ResultsEnvironmentManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x222d06c size 0x8 virtual false final false
  void _ctor() ;

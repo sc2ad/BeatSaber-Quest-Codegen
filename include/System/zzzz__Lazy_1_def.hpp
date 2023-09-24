@@ -97,20 +97,17 @@ constexpr T __get__value() const;
 /// @brief Method CreateViaDefaultConstructor addr 0x0 size 0xffffffffffffffff virtual false final false
 static T CreateViaDefaultConstructor() ;
 
-// Ctor Parameters []
-explicit Lazy_1() ;
+static System::Lazy_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "valueFactory", ty: "System::Func_1<T>", modifiers: "", def_value: None }]
-explicit Lazy_1(System::Func_1<T> valueFactory) ;
+static System::Lazy_1<T> New_ctor(System::Func_1<T> valueFactory) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Func_1<T> valueFactory) ;
 
-// Ctor Parameters [CppParam { name: "valueFactory", ty: "System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Threading::LazyThreadSafetyMode", modifiers: "", def_value: None }, CppParam { name: "useDefaultConstructor", ty: "bool", modifiers: "", def_value: None }]
-explicit Lazy_1(System::Func_1<T> valueFactory, System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor) ;
+static System::Lazy_1<T> New_ctor(System::Func_1<T> valueFactory, System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Func_1<T> valueFactory, System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor) ;

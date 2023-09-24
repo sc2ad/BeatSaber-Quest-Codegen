@@ -78,8 +78,7 @@ constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 /// @brief Method HandleGameScenesManagerTransitionDidStart addr 0x20bb9d4 size 0x38 virtual false final false
  void HandleGameScenesManagerTransitionDidStart(float_t duration) ;
 
-// Ctor Parameters []
-explicit FadeOutSongPreviewPlayerOnSceneTransitionStart() ;
+static GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bba0c size 0x8 virtual false final false
  void _ctor() ;

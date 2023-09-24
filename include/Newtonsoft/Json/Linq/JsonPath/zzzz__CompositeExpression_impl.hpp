@@ -1,9 +1,9 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__CompositeExpression_def.hpp"
-#include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JsonPath::CompositeExpression.get_Expressions
 template<>
 
@@ -96,8 +96,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JsonPath::CompositeExpression::CompositeExpression()  : Newtonsoft::Json::Linq::JsonPath::QueryExpression(THROW_UNLESS(::il2cpp_utils::New<CompositeExpression>())) {}
+ Newtonsoft::Json::Linq::JsonPath::CompositeExpression Newtonsoft::Json::Linq::JsonPath::CompositeExpression::New_ctor()  {
+Newtonsoft::Json::Linq::JsonPath::CompositeExpression o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JsonPath::CompositeExpression>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JsonPath::CompositeExpression::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JsonPath::CompositeExpression>::get(),

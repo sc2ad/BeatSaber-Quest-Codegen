@@ -1,6 +1,7 @@
 #pragma once
 #include "MidiParser/zzzz__MidiFile_def.hpp"
 #include "MidiParser/zzzz__MidiTrack_def.hpp"
+#include "MidiParser/zzzz__MidiFile_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: MidiParser::MidiParser__MidiFile__Reader.Read16
 template<>
@@ -250,8 +251,10 @@ constexpr void MidiParser::MidiFile::__set_tracksCount(int32_t value)  {
 constexpr int32_t MidiParser::MidiFile::__get_tracksCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
- MidiParser::MidiFile::MidiFile(::StringW path)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MidiFile>(path))) {}
+ MidiParser::MidiFile MidiParser::MidiFile::New_ctor(::StringW path)  {
+MidiParser::MidiFile o{THROW_UNLESS(::il2cpp_utils::New<MidiParser::MidiFile>(path))};
+return o;
+}
  void MidiParser::MidiFile::_ctor(::StringW path)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MidiParser::MidiFile>::get(),
@@ -261,8 +264,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- MidiParser::MidiFile::MidiFile(::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MidiFile>(data))) {}
+ MidiParser::MidiFile MidiParser::MidiFile::New_ctor(::ArrayW<uint8_t> data)  {
+MidiParser::MidiFile o{THROW_UNLESS(::il2cpp_utils::New<MidiParser::MidiFile>(data))};
+return o;
+}
  void MidiParser::MidiFile::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MidiParser::MidiFile>::get(),

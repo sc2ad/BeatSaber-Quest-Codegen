@@ -95,8 +95,7 @@ constexpr System::Collections::Generic::Dictionary_2<System::Action_3<A,B,C>,Sys
 /// @brief Method Call addr 0x0 size 0xffffffffffffffff virtual false final false
  void Call(A a, B b, C c) ;
 
-// Ctor Parameters []
-explicit FastAction_3() ;
+static TMPro::FastAction_3<A,B,C> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

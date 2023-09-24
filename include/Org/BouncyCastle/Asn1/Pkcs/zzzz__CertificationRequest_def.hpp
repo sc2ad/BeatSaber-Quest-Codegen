@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class CertificationRequestInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class CertificationRequestInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -96,20 +96,17 @@ constexpr Org::BouncyCastle::Asn1::DerBitString __get_sigBits() const;
 /// @brief Method GetInstance addr 0xef7f60 size 0xd8 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::CertificationRequest GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit CertificationRequest() ;
+static Org::BouncyCastle::Asn1::Pkcs::CertificationRequest New_ctor() ;
 
 /// @brief Method .ctor addr 0xef8180 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "requestInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit CertificationRequest(Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo requestInfo, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Asn1::DerBitString signature) ;
+static Org::BouncyCastle::Asn1::Pkcs::CertificationRequest New_ctor(Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo requestInfo, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Asn1::DerBitString signature) ;
 
 /// @brief Method .ctor addr 0xef8188 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo requestInfo, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Asn1::DerBitString signature) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertificationRequest(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::CertificationRequest New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef8038 size 0x148 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

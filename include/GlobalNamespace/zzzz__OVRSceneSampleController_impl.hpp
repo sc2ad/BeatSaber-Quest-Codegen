@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneSampleController_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
-#include "GlobalNamespace/zzzz__OVRGridCube_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlayerController_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGridCube_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRSceneSampleController.Awake
 template<>
@@ -227,8 +227,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRSceneSampleController::OVRSceneSampleController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRSceneSampleController>())) {}
+ GlobalNamespace::OVRSceneSampleController GlobalNamespace::OVRSceneSampleController::New_ctor()  {
+GlobalNamespace::OVRSceneSampleController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRSceneSampleController>())};
+return o;
+}
  void GlobalNamespace::OVRSceneSampleController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRSceneSampleController>::get(),

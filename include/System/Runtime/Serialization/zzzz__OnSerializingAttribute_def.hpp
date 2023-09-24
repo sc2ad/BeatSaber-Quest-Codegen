@@ -47,8 +47,7 @@ constexpr explicit OnSerializingAttribute(void* ptr) noexcept : System::Attribut
 
 // Methods
 
-// Ctor Parameters []
-explicit OnSerializingAttribute() ;
+static System::Runtime::Serialization::OnSerializingAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2351c94 size 0x8 virtual false final false
  void _ctor() ;

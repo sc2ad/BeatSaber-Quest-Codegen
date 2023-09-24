@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ServerOnlyTlsAuthentication_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAuthentication_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateRequest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication.NotifyServerCertificate
 template<>
 
@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::Tls::TlsCredentials, false>(const_cast<void*>(instance), ___internal_method, certificateRequest);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication::ServerOnlyTlsAuthentication()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServerOnlyTlsAuthentication>())) {}
+ Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication>::get(),

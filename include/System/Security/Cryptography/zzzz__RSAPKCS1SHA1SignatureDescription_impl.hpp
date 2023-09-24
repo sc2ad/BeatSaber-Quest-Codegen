@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription::RSAPKCS1SHA1SignatureDescription()  : System::Security::Cryptography::RSAPKCS1SignatureDescription(THROW_UNLESS(::il2cpp_utils::New<RSAPKCS1SHA1SignatureDescription>())) {}
+ System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription::New_ctor()  {
+System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription>())};
+return o;
+}
  void System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription>::get(),

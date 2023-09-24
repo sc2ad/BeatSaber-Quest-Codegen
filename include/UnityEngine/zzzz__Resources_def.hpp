@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine {
+class AsyncOperation;
+}
 namespace System {
 class Type;
 }
 namespace UnityEngine {
 class ResourceRequest;
-}
-namespace UnityEngine {
-class AsyncOperation;
 }
 namespace UnityEngine {
 class Object;

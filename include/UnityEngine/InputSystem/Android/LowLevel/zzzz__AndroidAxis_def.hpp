@@ -96,6 +96,8 @@ constexpr operator __AndroidAxis_Unwrapped () const noexcept {
 return std::bit_cast<__AndroidAxis_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

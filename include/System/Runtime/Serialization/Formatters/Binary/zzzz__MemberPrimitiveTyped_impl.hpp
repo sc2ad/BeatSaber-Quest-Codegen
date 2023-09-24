@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveTyped_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped._ctor
 template<>
 
@@ -100,8 +100,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::MemberPrimiti
 constexpr ::bs_hook::Il2CppWrapperType System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped::__get_value() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped::MemberPrimitiveTyped()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MemberPrimitiveTyped>())) {}
+ System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped>::get(),

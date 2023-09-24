@@ -72,8 +72,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_g() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "N", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit Srp6GroupParameters(Org::BouncyCastle::Math::BigInteger N, Org::BouncyCastle::Math::BigInteger g) ;
+static Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters New_ctor(Org::BouncyCastle::Math::BigInteger N, Org::BouncyCastle::Math::BigInteger g) ;
 
 /// @brief Method .ctor addr 0xead6f8 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger N, Org::BouncyCastle::Math::BigInteger g) ;

@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsECDheKeyExchange_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSignerCredentials_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateRequest_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SecurityParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSignerCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SignatureAndHashAlgorithm_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateRequest_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange._ctor
 template<>
 
@@ -135,8 +135,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange::__set_mServe
 constexpr Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange::__get_mServerCredentials() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "namedCurves", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "clientECPointFormats", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "serverECPointFormats", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange::TlsECDheKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, ::ArrayW<int32_t> namedCurves, ::ArrayW<uint8_t> clientECPointFormats, ::ArrayW<uint8_t> serverECPointFormats)  : Org::BouncyCastle::Crypto::Tls::TlsECDHKeyExchange(THROW_UNLESS(::il2cpp_utils::New<TlsECDheKeyExchange>(keyExchange, supportedSignatureAlgorithms, namedCurves, clientECPointFormats, serverECPointFormats))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange::New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, ::ArrayW<int32_t> namedCurves, ::ArrayW<uint8_t> clientECPointFormats, ::ArrayW<uint8_t> serverECPointFormats)  {
+Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange>(keyExchange, supportedSignatureAlgorithms, namedCurves, clientECPointFormats, serverECPointFormats))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange::_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, ::ArrayW<int32_t> namedCurves, ::ArrayW<uint8_t> clientECPointFormats, ::ArrayW<uint8_t> serverECPointFormats)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsECDheKeyExchange>::get(),

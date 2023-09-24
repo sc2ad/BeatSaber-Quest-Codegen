@@ -47,8 +47,7 @@ constexpr explicit TubeLightIntensityTrack(void* ptr) noexcept : UnityEngine::Ti
 
 // Methods
 
-// Ctor Parameters []
-explicit TubeLightIntensityTrack() ;
+static GlobalNamespace::TubeLightIntensityTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b3d74 size 0x58 virtual false final false
  void _ctor() ;

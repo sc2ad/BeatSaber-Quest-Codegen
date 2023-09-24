@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IDsa;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDsaExt;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Gost3410KeyParameters;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class IDsaExt;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsa;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -111,8 +111,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 /// @brief Method VerifySignature addr 0xec0098 size 0x2a4 virtual true final false
  bool VerifySignature(::ArrayW<uint8_t> message, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::BigInteger s) ;
 
-// Ctor Parameters []
-explicit Gost3410Signer() ;
+static Org::BouncyCastle::Crypto::Signers::Gost3410Signer New_ctor() ;
 
 /// @brief Method .ctor addr 0xec033c size 0x8 virtual false final false
  void _ctor() ;

@@ -2,18 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System::IO {
 class Stream;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Net::Http {
+class StreamContent;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System::Net::Http {
-class StreamContent;
 }
 // Forward declare root types
 namespace System::Net::Http {

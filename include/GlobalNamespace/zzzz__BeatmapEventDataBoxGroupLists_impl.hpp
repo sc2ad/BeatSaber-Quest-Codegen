@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupLists_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupList_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapEventDataBoxGroupLists._ctor
 template<>
 
@@ -115,8 +115,10 @@ constexpr void GlobalNamespace::BeatmapEventDataBoxGroupLists::__set__updateBeat
 constexpr bool GlobalNamespace::BeatmapEventDataBoxGroupLists::__get__updateBeatmapDataOnInsert() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapData", ty: "GlobalNamespace::BeatmapData", modifiers: "", def_value: None }, CppParam { name: "beatToTimeConvertor", ty: "GlobalNamespace::IBeatToTimeConvertor", modifiers: "", def_value: None }, CppParam { name: "updateBeatmapDataOnInsert", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapEventDataBoxGroupLists::BeatmapEventDataBoxGroupLists(GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor, bool updateBeatmapDataOnInsert)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapEventDataBoxGroupLists>(beatmapData, beatToTimeConvertor, updateBeatmapDataOnInsert))) {}
+ GlobalNamespace::BeatmapEventDataBoxGroupLists GlobalNamespace::BeatmapEventDataBoxGroupLists::New_ctor(GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor, bool updateBeatmapDataOnInsert)  {
+GlobalNamespace::BeatmapEventDataBoxGroupLists o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapEventDataBoxGroupLists>(beatmapData, beatToTimeConvertor, updateBeatmapDataOnInsert))};
+return o;
+}
  void GlobalNamespace::BeatmapEventDataBoxGroupLists::_ctor(GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor, bool updateBeatmapDataOnInsert)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapEventDataBoxGroupLists>::get(),

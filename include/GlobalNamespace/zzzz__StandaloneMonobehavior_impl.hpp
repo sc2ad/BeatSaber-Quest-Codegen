@@ -2,21 +2,22 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandaloneMonobehavior_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneThreadRunner_def.hpp"
 #include "UnityEngine/zzzz__FrameTiming_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"
+#include "GlobalNamespace/zzzz__StandaloneMonobehavior_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___Dispatch_d__20.MoveNext
 template<>
@@ -355,8 +356,10 @@ constexpr void GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___RunAsy
 constexpr System::Threading::Tasks::TaskCompletionSource_1<bool> GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25::__get_tcs() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskCompletionSource_1<bool>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25::GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25 GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25>::get(),
@@ -892,8 +895,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::StandaloneMonobehavior::StandaloneMonobehavior()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StandaloneMonobehavior>())) {}
+ GlobalNamespace::StandaloneMonobehavior GlobalNamespace::StandaloneMonobehavior::New_ctor()  {
+GlobalNamespace::StandaloneMonobehavior o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandaloneMonobehavior>())};
+return o;
+}
  void GlobalNamespace::StandaloneMonobehavior::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandaloneMonobehavior>::get(),

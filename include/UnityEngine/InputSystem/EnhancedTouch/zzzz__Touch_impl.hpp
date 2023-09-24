@@ -1,21 +1,21 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Touch_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__SavedStructState_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
-#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
-#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Finger_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ISavedState_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__TouchPhase_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ISavedState_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Touch_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Finger_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
@@ -357,8 +357,10 @@ return ::cordl_internals::getStaticField<UnityEngine::InputSystem::Utilities::Un
  System::Action UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__Touch____c::__get___9__78_1()  {
 return ::cordl_internals::getStaticField<System::Action, "<>9__78_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__Touch____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__Touch____c::UnityEngine__InputSystem__EnhancedTouch__Touch____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__EnhancedTouch__Touch____c>())) {}
+ UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__Touch____c UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__Touch____c::New_ctor()  {
+UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__Touch____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__Touch____c>())};
+return o;
+}
  void UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__Touch____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__Touch____c>::get(),

@@ -4,24 +4,30 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Events {
-template<typename T0>
-class UnityAction_1;
-}
-namespace System {
-template<typename T1,typename T2,typename T3>
-struct ValueTuple_3;
+namespace HMUI {
+struct HMUI__MouseBinder__ButtonType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::Events {
+class UnityAction;
+}
+namespace HMUI {
+struct HMUI__MouseBinder__MouseEventType;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+struct ValueTuple_3;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Tuple_3;
 }
 namespace UnityEngine::Events {
-class UnityAction;
+template<typename T0>
+class UnityAction_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -83,6 +89,8 @@ __ButtonPress = 2,
 constexpr operator __HMUI__MouseBinder__MouseEventType_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__MouseBinder__MouseEventType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -156,6 +164,8 @@ __Middle = 2,
 constexpr operator __HMUI__MouseBinder__ButtonType_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__MouseBinder__ButtonType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -257,8 +267,7 @@ constexpr System::Collections::Generic::List_1<System::ValueTuple_3<HMUI::HMUI__
 /// @brief Method set_enabled addr 0x1fa705c size 0xc virtual false final false
  void set_enabled(bool value) ;
 
-// Ctor Parameters []
-explicit MouseBinder() ;
+static HMUI::MouseBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa7068 size 0x1c virtual false final false
  void _ctor() ;

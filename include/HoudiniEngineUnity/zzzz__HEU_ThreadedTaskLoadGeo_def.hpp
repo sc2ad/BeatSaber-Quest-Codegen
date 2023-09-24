@@ -9,14 +9,29 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-class HEU_LoadBufferMesh;
+struct HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__LoadType;
+}
+namespace HoudiniEngineUnity {
+class HEU_BaseSync;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_BaseSync;
+class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback;
+}
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferInstancer;
+}
+namespace HoudiniEngineUnity {
+struct HEU_GenerateOptions;
+}
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferMesh;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_PartInfo;
@@ -24,29 +39,32 @@ struct HAPI_PartInfo;
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
-namespace UnityEngine {
-struct Color;
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData;
 }
 namespace HoudiniEngineUnity {
-class HEU_LoadBufferInstancer;
-}
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferVolume;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ObjectInfo;
+struct HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallbackType;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace HoudiniEngineUnity {
-struct HEU_GenerateOptions;
+struct HAPI_ObjectInfo;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferVolume;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace System {
-class IAsyncResult;
+namespace GlobalNamespace {
+struct HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -131,6 +149,8 @@ constexpr operator __HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__LoadType_Unwra
 return std::bit_cast<__HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__LoadType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -204,6 +224,8 @@ __ERROR = 3,
 constexpr operator __HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -313,8 +335,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,HoudiniEngineUnity:
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData New_ctor() ;
 
 /// @brief Method .ctor addr 0x204059c size 0x8 virtual false final false
  void _ctor() ;
@@ -398,8 +419,7 @@ constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBuffe
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x20405a4 size 0x8 virtual false final false
  void _ctor() ;
@@ -457,6 +477,8 @@ __POSTCOOK = 1,
 constexpr operator __HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallbackType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallbackType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -519,8 +541,7 @@ constexpr explicit HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x20405ac size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -737,8 +758,7 @@ constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_L
 /// @brief Method GetLoadBufferVolumeFromTileIndex addr 0x203edbc size 0x164 virtual false final false
 static HoudiniEngineUnity::HEU_LoadBufferVolume GetLoadBufferVolumeFromTileIndex(int32_t tileIndex, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferVolume> buffers) ;
 
-// Ctor Parameters []
-explicit HEU_ThreadedTaskLoadGeo() ;
+static HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2033cdc size 0x4 virtual false final false
  void _ctor() ;

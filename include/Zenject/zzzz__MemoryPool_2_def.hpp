@@ -4,15 +4,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-template<typename TParam1,typename TValue>
-class IMemoryPool_2;
+class InjectTypeInfo;
+}
+namespace Zenject {
+class IFactory;
 }
 namespace Zenject {
 template<typename TValue>
 class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template<typename TParam1,typename TValue>
+class IMemoryPool_2;
 }
 namespace Zenject {
 template<typename TParam1,typename TValue>
@@ -20,9 +23,6 @@ class IFactory_2;
 }
 namespace Zenject {
 class IMemoryPool;
-}
-namespace Zenject {
-class IFactory;
 }
 // Forward declare root types
 namespace Zenject {
@@ -102,8 +102,7 @@ constexpr explicit MemoryPool_2(void* ptr) noexcept : Zenject::MemoryPoolBase_1<
 /// @brief Method Zenject.IFactory<TParam1,TValue>.Create addr 0x0 size 0xffffffffffffffff virtual true final true
  TValue Zenject_IFactory_TParam1,TValue__Create(TParam1 p1) ;
 
-// Ctor Parameters []
-explicit MemoryPool_2() ;
+static Zenject::MemoryPool_2<TParam1,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

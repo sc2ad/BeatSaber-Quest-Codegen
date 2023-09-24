@@ -5,6 +5,9 @@
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__CompositionMethod;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__TrackingOrigin;
+}
 namespace UnityEngine {
 class GameObject;
 }
@@ -12,19 +15,16 @@ namespace GlobalNamespace {
 struct OVRPose;
 }
 namespace GlobalNamespace {
-class OVRCameraRig;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__CameraExtrinsics;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRManager__TrackingOrigin;
-}
-namespace GlobalNamespace {
-class OVRMixedRealityCaptureConfiguration;
+class OVRCameraRig;
 }
 namespace UnityEngine {
 class Camera;
+}
+namespace GlobalNamespace {
+class OVRMixedRealityCaptureConfiguration;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,8 +99,7 @@ constexpr GlobalNamespace::OVRPose __get_lastAttachedNodePose() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parentObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "mainCamera", ty: "UnityEngine::Camera", modifiers: "", def_value: None }, CppParam { name: "configuration", ty: "GlobalNamespace::OVRMixedRealityCaptureConfiguration", modifiers: "", def_value: None }]
-explicit OVRComposition(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
+static GlobalNamespace::OVRComposition New_ctor(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
 
 /// @brief Method .ctor addr 0x25a4d88 size 0x34 virtual false final false
  void _ctor(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;

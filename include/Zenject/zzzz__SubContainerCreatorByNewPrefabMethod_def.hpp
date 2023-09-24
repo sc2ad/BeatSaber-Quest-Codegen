@@ -1,28 +1,28 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabDynamicContext_def.hpp"
+namespace Zenject {
+struct TypeValuePair;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class GameObjectContext;
 }
 namespace Zenject {
 class IPrefabProvider;
 }
+namespace Zenject {
+class GameObjectCreationParameters;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace Zenject {
-class GameObjectContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -79,8 +79,7 @@ constexpr System::Action_1<Zenject::DiContainer> __get__installerMethod() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "installerMethod", ty: "System::Action_1<Zenject::DiContainer>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewPrefabMethod(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod) ;
+static Zenject::SubContainerCreatorByNewPrefabMethod New_ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod) ;
 
 /// @brief Method .ctor addr 0x2d933ec size 0x40 virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod) ;

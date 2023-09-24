@@ -1,18 +1,19 @@
 #pragma once
 #include "System/Resources/zzzz__ResourceReader_def.hpp"
-#include "System/IO/zzzz__UnmanagedMemoryStream_def.hpp"
+#include "System/Resources/zzzz__IResourceReader_def.hpp"
+#include "System/Resources/zzzz__ResourceReader_def.hpp"
+#include "System/IO/zzzz__BinaryReader_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Resources/zzzz__ResourceTypeCode_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/IO/zzzz__BinaryReader_def.hpp"
 #include "System/Resources/zzzz__ResourceLocator_def.hpp"
-#include "System/Resources/zzzz__ResourceTypeCode_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Resources/zzzz__IResourceReader_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/IO/zzzz__UnmanagedMemoryStream_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 //  Writing Method size for method: System::Resources::System__Resources__ResourceReader__ResourceEnumerator._ctor
 template<>
@@ -182,8 +183,10 @@ constexpr void System::Resources::System__Resources__ResourceReader__ResourceEnu
 constexpr int32_t System::Resources::System__Resources__ResourceReader__ResourceEnumerator::__get__dataPosition() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "reader", ty: "System::Resources::ResourceReader", modifiers: "", def_value: None }]
- System::Resources::System__Resources__ResourceReader__ResourceEnumerator::System__Resources__ResourceReader__ResourceEnumerator(System::Resources::ResourceReader reader)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Resources__ResourceReader__ResourceEnumerator>(reader))) {}
+ System::Resources::System__Resources__ResourceReader__ResourceEnumerator System::Resources::System__Resources__ResourceReader__ResourceEnumerator::New_ctor(System::Resources::ResourceReader reader)  {
+System::Resources::System__Resources__ResourceReader__ResourceEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::System__Resources__ResourceReader__ResourceEnumerator>(reader))};
+return o;
+}
  void System::Resources::System__Resources__ResourceReader__ResourceEnumerator::_ctor(System::Resources::ResourceReader reader)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::System__Resources__ResourceReader__ResourceEnumerator>::get(),
@@ -794,8 +797,10 @@ constexpr void System::Resources::ResourceReader::__set__version(int32_t value) 
 constexpr int32_t System::Resources::ResourceReader::__get__version() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "resCache", ty: "System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator>", modifiers: "", def_value: None }]
- System::Resources::ResourceReader::ResourceReader(System::IO::Stream stream, System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> resCache)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceReader>(stream, resCache))) {}
+ System::Resources::ResourceReader System::Resources::ResourceReader::New_ctor(System::IO::Stream stream, System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> resCache)  {
+System::Resources::ResourceReader o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::ResourceReader>(stream, resCache))};
+return o;
+}
  void System::Resources::ResourceReader::_ctor(System::IO::Stream stream, System::Collections::Generic::Dictionary_2<::StringW,System::Resources::ResourceLocator> resCache)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::ResourceReader>::get(),

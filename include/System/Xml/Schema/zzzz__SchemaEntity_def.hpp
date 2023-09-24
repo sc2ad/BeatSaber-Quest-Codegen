@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml {
-class XmlQualifiedName;
+class IDtdEntityInfo;
 }
 namespace System::Xml {
-class IDtdEntityInfo;
+class XmlQualifiedName;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -190,8 +190,7 @@ constexpr ::StringW __get_declaredURI() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "qname", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "isParameter", ty: "bool", modifiers: "", def_value: None }]
-explicit SchemaEntity(System::Xml::XmlQualifiedName qname, bool isParameter) ;
+static System::Xml::Schema::SchemaEntity New_ctor(System::Xml::XmlQualifiedName qname, bool isParameter) ;
 
 /// @brief Method .ctor addr 0x2731868 size 0x84 virtual false final false
  void _ctor(System::Xml::XmlQualifiedName qname, bool isParameter) ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IDeeplinkManager_def.hpp"
-#include "GlobalNamespace/zzzz__Deeplink_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__Deeplink_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IDeeplinkManager.add_didReceiveDeeplinkEvent
 template<>
 

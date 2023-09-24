@@ -5,9 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
 }
 namespace System {
 class IDisposable;
@@ -15,12 +14,15 @@ class IDisposable;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template<typename T>
+class IEnumerator_1;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class IGameplayRpcManager;
@@ -29,11 +31,12 @@ namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
+class GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -145,8 +148,7 @@ constexpr float_t __get__resultsTimeoutLength_5__4() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20d4c58 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -310,8 +312,7 @@ static constexpr float_t  kMinSceneDuration{2};
 /// @brief Method HandleRpcLevelFinished addr 0x20d4cd4 size 0x68 virtual false final false
  void HandleRpcLevelFinished(::StringW userId, GlobalNamespace::MultiplayerLevelCompletionResults results) ;
 
-// Ctor Parameters []
-explicit MultiplayerLevelFinishedController() ;
+static GlobalNamespace::MultiplayerLevelFinishedController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d4d3c size 0x7c virtual false final false
  void _ctor() ;

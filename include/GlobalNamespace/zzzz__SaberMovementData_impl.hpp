@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SaberMovementData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_def.hpp"
 #include "GlobalNamespace/zzzz__BladeMovementDataElement_def.hpp"
-#include "GlobalNamespace/zzzz__IBladeMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__IBladeMovementData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SaberMovementData.get_bladeSpeed
 template<>
 
@@ -309,8 +309,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::BladeMovementDataElement, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SaberMovementData::SaberMovementData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SaberMovementData>())) {}
+ GlobalNamespace::SaberMovementData GlobalNamespace::SaberMovementData::New_ctor()  {
+GlobalNamespace::SaberMovementData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SaberMovementData>())};
+return o;
+}
  void GlobalNamespace::SaberMovementData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SaberMovementData>::get(),

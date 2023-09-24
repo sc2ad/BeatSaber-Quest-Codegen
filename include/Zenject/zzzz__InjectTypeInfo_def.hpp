@@ -4,11 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System {
-class Type;
-}
-namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace Zenject {
+class Zenject__InjectTypeInfo__InjectMemberInfo;
+}
+namespace Zenject {
+class Zenject__InjectTypeInfo__InjectConstructorInfo;
+}
+namespace Zenject {
+class Zenject__InjectTypeInfo__InjectMethodInfo;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -96,8 +105,7 @@ constexpr Zenject::InjectableInfo __get_Info() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "setter", ty: "Zenject::ZenMemberSetterMethod", modifiers: "", def_value: None }, CppParam { name: "info", ty: "Zenject::InjectableInfo", modifiers: "", def_value: None }]
-explicit Zenject__InjectTypeInfo__InjectMemberInfo(Zenject::ZenMemberSetterMethod setter, Zenject::InjectableInfo info) ;
+static Zenject::Zenject__InjectTypeInfo__InjectMemberInfo New_ctor(Zenject::ZenMemberSetterMethod setter, Zenject::InjectableInfo info) ;
 
 /// @brief Method .ctor addr 0x2d409c8 size 0x2c virtual false final false
  void _ctor(Zenject::ZenMemberSetterMethod setter, Zenject::InjectableInfo info) ;
@@ -163,8 +171,7 @@ constexpr ::ArrayW<Zenject::InjectableInfo> __get_Parameters() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "factory", ty: "Zenject::ZenFactoryMethod", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "::ArrayW<Zenject::InjectableInfo>", modifiers: "", def_value: None }]
-explicit Zenject__InjectTypeInfo__InjectConstructorInfo(Zenject::ZenFactoryMethod factory, ::ArrayW<Zenject::InjectableInfo> parameters) ;
+static Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo New_ctor(Zenject::ZenFactoryMethod factory, ::ArrayW<Zenject::InjectableInfo> parameters) ;
 
 /// @brief Method .ctor addr 0x2d409f4 size 0x2c virtual false final false
  void _ctor(Zenject::ZenFactoryMethod factory, ::ArrayW<Zenject::InjectableInfo> parameters) ;
@@ -236,8 +243,7 @@ constexpr ::ArrayW<Zenject::InjectableInfo> __get_Parameters() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "action", ty: "Zenject::ZenInjectMethod", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "::ArrayW<Zenject::InjectableInfo>", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Zenject__InjectTypeInfo__InjectMethodInfo(Zenject::ZenInjectMethod action, ::ArrayW<Zenject::InjectableInfo> parameters, ::StringW name) ;
+static Zenject::Zenject__InjectTypeInfo__InjectMethodInfo New_ctor(Zenject::ZenInjectMethod action, ::ArrayW<Zenject::InjectableInfo> parameters, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x2d40a20 size 0x3c virtual false final false
  void _ctor(Zenject::ZenInjectMethod action, ::ArrayW<Zenject::InjectableInfo> parameters, ::StringW name) ;
@@ -346,8 +352,7 @@ static System::Func_2<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo,System:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "injectConstructor", ty: "Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo", modifiers: "", def_value: None }, CppParam { name: "injectMethods", ty: "::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo>", modifiers: "", def_value: None }, CppParam { name: "injectMembers", ty: "::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMemberInfo>", modifiers: "", def_value: None }]
-explicit InjectTypeInfo(System::Type type, Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo injectConstructor, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo> injectMethods, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMemberInfo> injectMembers) ;
+static Zenject::InjectTypeInfo New_ctor(System::Type type, Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo injectConstructor, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo> injectMethods, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMemberInfo> injectMembers) ;
 
 /// @brief Method .ctor addr 0x2d4079c size 0x40 virtual false final false
  void _ctor(System::Type type, Zenject::Zenject__InjectTypeInfo__InjectConstructorInfo injectConstructor, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMethodInfo> injectMethods, ::ArrayW<Zenject::Zenject__InjectTypeInfo__InjectMemberInfo> injectMembers) ;

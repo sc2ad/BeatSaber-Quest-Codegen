@@ -4,7 +4,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine {
-struct CubemapFace;
+class Material;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -14,10 +14,10 @@ namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
-class RenderTexture;
+struct CubemapFace;
 }
 namespace UnityEngine {
-class Material;
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

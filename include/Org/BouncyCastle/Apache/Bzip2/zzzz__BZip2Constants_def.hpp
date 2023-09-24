@@ -88,8 +88,7 @@ static ::ArrayW<int32_t> __get_rNums() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit BZip2Constants() ;
+static Org::BouncyCastle::Apache::Bzip2::BZip2Constants New_ctor() ;
 
 /// @brief Method .ctor addr 0x10fd4f8 size 0x8 virtual false final false
  void _ctor() ;

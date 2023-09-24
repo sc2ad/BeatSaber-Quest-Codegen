@@ -89,8 +89,7 @@ constexpr int32_t __get__MaxSize_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MemoryPoolBindInfo() ;
+static Zenject::MemoryPoolBindInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6618c size 0x2c virtual false final false
  void _ctor() ;

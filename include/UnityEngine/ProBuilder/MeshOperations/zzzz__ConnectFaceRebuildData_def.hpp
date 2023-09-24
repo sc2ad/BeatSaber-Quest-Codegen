@@ -70,8 +70,7 @@ constexpr System::Collections::Generic::List_1<int32_t> __get_newVertexIndexes()
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "faceRebuildData", ty: "UnityEngine::ProBuilder::FaceRebuildData", modifiers: "", def_value: None }, CppParam { name: "newVertexIndexes", ty: "System::Collections::Generic::List_1<int32_t>", modifiers: "", def_value: None }]
-explicit ConnectFaceRebuildData(UnityEngine::ProBuilder::FaceRebuildData faceRebuildData, System::Collections::Generic::List_1<int32_t> newVertexIndexes) ;
+static UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData New_ctor(UnityEngine::ProBuilder::FaceRebuildData faceRebuildData, System::Collections::Generic::List_1<int32_t> newVertexIndexes) ;
 
 /// @brief Method .ctor addr 0x2a0da64 size 0x2c virtual false final false
  void _ctor(UnityEngine::ProBuilder::FaceRebuildData faceRebuildData, System::Collections::Generic::List_1<int32_t> newVertexIndexes) ;

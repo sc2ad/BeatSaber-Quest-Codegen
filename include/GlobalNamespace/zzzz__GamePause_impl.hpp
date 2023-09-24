@@ -1,14 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__GamePause_def.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectExecutionRatingsRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
 #include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"
-#include "GlobalNamespace/zzzz__AudioListenerController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectExecutionRatingsRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__SongController_def.hpp"
+#include "GlobalNamespace/zzzz__AudioListenerController_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GamePause.get_isPaused
 template<>
 
@@ -356,8 +356,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GamePause::GamePause()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GamePause>())) {}
+ GlobalNamespace::GamePause GlobalNamespace::GamePause::New_ctor()  {
+GlobalNamespace::GamePause o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GamePause>())};
+return o;
+}
  void GlobalNamespace::GamePause::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GamePause>::get(),

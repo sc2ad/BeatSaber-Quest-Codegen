@@ -1,9 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Type;
-}
 namespace Zenject {
 class DiContainer;
 }
@@ -13,6 +10,9 @@ class DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder;
 namespace Zenject {
 template<typename TSignal>
 class BindSignalIdToBinder_1;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class SignalDeclarationBindInfo;

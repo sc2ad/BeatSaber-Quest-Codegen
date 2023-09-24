@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__GameState_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerFiniteStateMachine_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameState._ctor
 template<>
 
@@ -63,8 +63,10 @@ constexpr void GlobalNamespace::GameState::__set_fsm(GlobalNamespace::GameplaySe
 constexpr GlobalNamespace::GameplayServerFiniteStateMachine GlobalNamespace::GameState::__get_fsm() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GameplayServerFiniteStateMachine, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "fsm", ty: "GlobalNamespace::GameplayServerFiniteStateMachine", modifiers: "", def_value: None }]
- GlobalNamespace::GameState::GameState(GlobalNamespace::GameplayServerFiniteStateMachine fsm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameState>(fsm))) {}
+ GlobalNamespace::GameState GlobalNamespace::GameState::New_ctor(GlobalNamespace::GameplayServerFiniteStateMachine fsm)  {
+GlobalNamespace::GameState o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameState>(fsm))};
+return o;
+}
  void GlobalNamespace::GameState::_ctor(GlobalNamespace::GameplayServerFiniteStateMachine fsm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameState>::get(),

@@ -23,8 +23,10 @@ constexpr void System::Xml::Schema::XmlSchemaCompilationSettings::__set_enableUp
 constexpr bool System::Xml::Schema::XmlSchemaCompilationSettings::__get_enableUpaCheck() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaCompilationSettings::XmlSchemaCompilationSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaCompilationSettings>())) {}
+ System::Xml::Schema::XmlSchemaCompilationSettings System::Xml::Schema::XmlSchemaCompilationSettings::New_ctor()  {
+System::Xml::Schema::XmlSchemaCompilationSettings o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaCompilationSettings>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaCompilationSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaCompilationSettings>::get(),

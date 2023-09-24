@@ -72,8 +72,7 @@ constexpr explicit CustomYieldInstruction(void* ptr) noexcept : ::bs_hook::Il2Cp
 /// @brief Method Reset addr 0x2b5d958 size 0x4 virtual true final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit CustomYieldInstruction() ;
+static UnityEngine::CustomYieldInstruction New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b57cbc size 0x8 virtual false final false
  void _ctor() ;

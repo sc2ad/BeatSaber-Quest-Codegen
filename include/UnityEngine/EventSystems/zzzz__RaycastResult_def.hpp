@@ -5,16 +5,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-class GameObject;
+struct Vector3;
 }
-namespace UnityEngine::EventSystems {
-class BaseRaycaster;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::EventSystems {
+class BaseRaycaster;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

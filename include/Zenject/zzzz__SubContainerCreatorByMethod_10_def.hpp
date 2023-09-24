@@ -2,24 +2,24 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByMethodBase_def.hpp"
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6,typename T7,typename T8,typename T9,typename T10,typename T11>
-class Action_11;
-}
-namespace Zenject {
 struct TypeValuePair;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
+namespace Zenject {
+class DiContainer;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6,typename T7,typename T8,typename T9,typename T10,typename T11>
+class Action_11;
 }
 // Forward declare root types
 namespace Zenject {
@@ -84,8 +84,7 @@ constexpr System::Action_11<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "containerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }, CppParam { name: "installMethod", ty: "System::Action_11<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByMethod_10(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Action_11<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10> installMethod) ;
+static Zenject::SubContainerCreatorByMethod_10<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10> New_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Action_11<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10> installMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Action_11<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10> installMethod) ;

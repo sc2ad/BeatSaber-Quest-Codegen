@@ -1,26 +1,26 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class NoteCutSoundEffect;
-}
-namespace GlobalNamespace {
-class FlyingSpriteEffect;
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class FlyingScoreEffect;
 }
 namespace GlobalNamespace {
-class BeatEffect;
+class FlyingTextEffect;
 }
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class NoteCutSoundEffect;
 }
 namespace GlobalNamespace {
 class BombCutSoundEffect;
 }
 namespace GlobalNamespace {
-class FlyingTextEffect;
+class BeatEffect;
+}
+namespace GlobalNamespace {
+class FlyingSpriteEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -116,8 +116,7 @@ constexpr GlobalNamespace::FlyingSpriteEffect __get__flyingSpriteEffectPrefab() 
 /// @brief Method ManualInstallBindings addr 0x21177e0 size 0x248 virtual false final false
  void ManualInstallBindings(Zenject::DiContainer container, bool shortBeatEffect) ;
 
-// Ctor Parameters []
-explicit EffectPoolsManualInstaller() ;
+static GlobalNamespace::EffectPoolsManualInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2117a28 size 0x8 virtual false final false
  void _ctor() ;

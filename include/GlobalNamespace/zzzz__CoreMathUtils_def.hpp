@@ -64,8 +64,7 @@ static float_t __CalculateHalfJumpDurationInBeatsV2(float_t startHalfJumpDuratio
 /// @brief Method __CalculateHalfJumpDurationInBeatsV1 addr 0x11a37a4 size 0x48 virtual false final false
 static int32_t __CalculateHalfJumpDurationInBeatsV1(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed, float_t oneBeatDuration, float_t minHalfJumpDistance) ;
 
-// Ctor Parameters []
-explicit CoreMathUtils() ;
+static GlobalNamespace::CoreMathUtils New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a37ec size 0x8 virtual false final false
  void _ctor() ;

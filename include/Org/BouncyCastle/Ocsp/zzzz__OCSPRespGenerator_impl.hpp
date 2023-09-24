@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Ocsp::OcspResp, false>(const_cast<void*>(instance), ___internal_method, status, response);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Ocsp::OCSPRespGenerator::OCSPRespGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OCSPRespGenerator>())) {}
+ Org::BouncyCastle::Ocsp::OCSPRespGenerator Org::BouncyCastle::Ocsp::OCSPRespGenerator::New_ctor()  {
+Org::BouncyCastle::Ocsp::OCSPRespGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OCSPRespGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OCSPRespGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OCSPRespGenerator>::get(),

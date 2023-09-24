@@ -4,23 +4,23 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-struct MultiplayerBadgeMinMax;
-}
-namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
+}
+namespace GlobalNamespace {
+struct MultiplayerBadgeMinMax;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +95,7 @@ constexpr float_t __get__weightMultiplier() const;
 /// @brief Method CalculateMin addr 0x20d9768 size 0x584 virtual false final false
  GlobalNamespace::MultiplayerBadgeAwardData CalculateMin(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> resultsData, float_t randomMultiplier) ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgeDataMinMaxIntSO() ;
+static GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d8160 size 0x10 virtual false final false
  void _ctor() ;

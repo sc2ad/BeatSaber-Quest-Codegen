@@ -83,8 +83,7 @@ constexpr Org::BouncyCastle::Crypto::IO::CipherStream __get_stream() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bufferedCipher", ty: "Org::BouncyCastle::Crypto::IBufferedCipher", modifiers: "", def_value: None }, CppParam { name: "source", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BufferedCipherWrapper(Org::BouncyCastle::Crypto::IBufferedCipher bufferedCipher, System::IO::Stream source) ;
+static Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper New_ctor(Org::BouncyCastle::Crypto::IBufferedCipher bufferedCipher, System::IO::Stream source) ;
 
 /// @brief Method .ctor addr 0xe9b49c size 0x8c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBufferedCipher bufferedCipher, System::IO::Stream source) ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Net/zzzz__DigestClient_def.hpp"
-#include "System/Net/zzzz__Authorization_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Net/zzzz__IAuthenticationModule_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__Authorization_def.hpp"
 //  Writing Method size for method: System::Net::DigestClient.get_Cache
 template<>
 
@@ -162,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::DigestClient::DigestClient()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DigestClient>())) {}
+ System::Net::DigestClient System::Net::DigestClient::New_ctor()  {
+System::Net::DigestClient o{THROW_UNLESS(::il2cpp_utils::New<System::Net::DigestClient>())};
+return o;
+}
  void System::Net::DigestClient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::DigestClient>::get(),

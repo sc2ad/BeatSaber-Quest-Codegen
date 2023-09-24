@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace UnityEngine::UI {
-class Graphic;
+class Toggle;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::UI {
-class Toggle;
+class Graphic;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,8 +88,7 @@ constexpr UnityEngine::UI::Toggle __get__toggle() const;
 /// @brief Method set_color addr 0x211d4b0 size 0x98 virtual false final false
  void set_color(UnityEngine::Color value) ;
 
-// Ctor Parameters []
-explicit ColorSchemeColorToggleController() ;
+static GlobalNamespace::ColorSchemeColorToggleController New_ctor() ;
 
 /// @brief Method .ctor addr 0x211dbe8 size 0x8 virtual false final false
  void _ctor() ;

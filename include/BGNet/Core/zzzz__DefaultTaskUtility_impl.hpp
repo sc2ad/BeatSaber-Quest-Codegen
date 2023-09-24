@@ -1,13 +1,13 @@
 #pragma once
 #include "BGNet/Core/zzzz__DefaultTaskUtility_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: BGNet::Core::DefaultTaskUtility.Delay
 template<>
 
@@ -211,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<T>, false>(const_cast<void*>(instance), ___internal_method, func, cancellationToken);
 }
-// Ctor Parameters []
- BGNet::Core::DefaultTaskUtility::DefaultTaskUtility()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultTaskUtility>())) {}
+ BGNet::Core::DefaultTaskUtility BGNet::Core::DefaultTaskUtility::New_ctor()  {
+BGNet::Core::DefaultTaskUtility o{THROW_UNLESS(::il2cpp_utils::New<BGNet::Core::DefaultTaskUtility>())};
+return o;
+}
  void BGNet::Core::DefaultTaskUtility::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BGNet::Core::DefaultTaskUtility>::get(),

@@ -1,9 +1,10 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_TestHelpers_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_TestHelpers_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
 #include "System/zzzz__Int32Enum_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -479,263 +480,13 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, a, b);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_TestHelpers::HEU_TestHelpers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_TestHelpers>())) {}
+ HoudiniEngineUnity::HEU_TestHelpers HoudiniEngineUnity::HEU_TestHelpers::New_ctor()  {
+HoudiniEngineUnity::HEU_TestHelpers o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_TestHelpers>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_TestHelpers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_TestHelpers>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<int32_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<int32_t>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<int32_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<int32_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<int32_t>::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<int32_t>::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<int32_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -759,8 +510,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<HoudiniEngineUnity::HAPI_AttributeInfo>::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<HoudiniEngineUnity::HAPI_AttributeInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<HoudiniEngineUnity::HAPI_AttributeInfo>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<HoudiniEngineUnity::HAPI_AttributeInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<HoudiniEngineUnity::HAPI_AttributeInfo>>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<HoudiniEngineUnity::HAPI_AttributeInfo>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(),
@@ -770,16 +523,16 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1._ctor
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -787,11 +540,249 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1::_ctor()  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>::_ctor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<T>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<T>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<T>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1<T>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1<T>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1<T>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

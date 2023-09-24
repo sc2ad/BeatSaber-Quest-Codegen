@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScreenBackButtonAnimationController_def.hpp"
+#include "GlobalNamespace/zzzz__ScreenBackButtonAnimationController_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -100,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, animationType);
 }
-// Ctor Parameters []
- GlobalNamespace::ScreenBackButtonAnimationController::ScreenBackButtonAnimationController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScreenBackButtonAnimationController>())) {}
+ GlobalNamespace::ScreenBackButtonAnimationController GlobalNamespace::ScreenBackButtonAnimationController::New_ctor()  {
+GlobalNamespace::ScreenBackButtonAnimationController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ScreenBackButtonAnimationController>())};
+return o;
+}
  void GlobalNamespace::ScreenBackButtonAnimationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ScreenBackButtonAnimationController>::get(),

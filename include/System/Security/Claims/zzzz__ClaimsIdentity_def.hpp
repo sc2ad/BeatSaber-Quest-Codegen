@@ -4,42 +4,45 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Security::Principal {
-class IIdentity;
+namespace System::Collections::ObjectModel {
+template<typename T>
+class Collection_1;
 }
 namespace System::Security::Claims {
 class Claim;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace System::Collections::ObjectModel {
-template<typename T>
-class Collection_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class IEnumerable_1;
+}
+namespace System::Security::Principal {
+class IIdentity;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Security::Claims {
+class System__Security__Claims__ClaimsIdentity___get_Claims_d__51;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Security::Claims {
@@ -151,8 +154,7 @@ constexpr System::Collections::Generic::IEnumerator_1<System::Security::Claims::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Security__Claims__ClaimsIdentity___get_Claims_d__51(int32_t __1__state) ;
+static System::Security::Claims::System__Security__Claims__ClaimsIdentity___get_Claims_d__51 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x231234c size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -326,38 +328,32 @@ constexpr ::StringW __get_m_serializedClaims() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ClaimsIdentity() ;
+static System::Security::Claims::ClaimsIdentity New_ctor() ;
 
 /// @brief Method .ctor addr 0x230b3c8 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "claims", ty: "System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim>", modifiers: "", def_value: None }]
-explicit ClaimsIdentity(System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims) ;
+static System::Security::Claims::ClaimsIdentity New_ctor(System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims) ;
 
 /// @brief Method .ctor addr 0x2310d44 size 0x1c virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims) ;
 
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IIdentity", modifiers: "", def_value: None }, CppParam { name: "claims", ty: "System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim>", modifiers: "", def_value: None }, CppParam { name: "authenticationType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "roleType", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ClaimsIdentity(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType) ;
+static System::Security::Claims::ClaimsIdentity New_ctor(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType) ;
 
 /// @brief Method .ctor addr 0x2310d60 size 0x8 virtual false final false
  void _ctor(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType) ;
 
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IIdentity", modifiers: "", def_value: None }, CppParam { name: "claims", ty: "System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim>", modifiers: "", def_value: None }, CppParam { name: "authenticationType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "roleType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "checkAuthType", ty: "bool", modifiers: "", def_value: None }]
-explicit ClaimsIdentity(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType, bool checkAuthType) ;
+static System::Security::Claims::ClaimsIdentity New_ctor(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType, bool checkAuthType) ;
 
 /// @brief Method .ctor addr 0x2310d68 size 0x67c virtual false final false
  void _ctor(System::Security::Principal::IIdentity identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim> claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType, bool checkAuthType) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }]
-explicit ClaimsIdentity(System::Security::Claims::ClaimsIdentity other) ;
+static System::Security::Claims::ClaimsIdentity New_ctor(System::Security::Claims::ClaimsIdentity other) ;
 
 /// @brief Method .ctor addr 0x230b508 size 0x1f0 virtual false final false
  void _ctor(System::Security::Claims::ClaimsIdentity other) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ClaimsIdentity(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Security::Claims::ClaimsIdentity New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2311934 size 0x19c virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

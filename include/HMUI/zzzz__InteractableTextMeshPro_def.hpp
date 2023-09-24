@@ -6,11 +6,11 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 class CanvasGroup;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace HMUI {
@@ -88,8 +88,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::CanvasGroup> __get__
 /// @brief Method OnCanvasGroupChanged addr 0x1fa924c size 0x194 virtual true final false
  void OnCanvasGroupChanged() ;
 
-// Ctor Parameters []
-explicit InteractableTextMeshPro() ;
+static HMUI::InteractableTextMeshPro New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa93e0 size 0x88 virtual false final false
  void _ctor() ;

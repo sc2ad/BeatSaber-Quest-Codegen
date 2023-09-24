@@ -1,10 +1,11 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
-#include "System/Net/Http/Headers/zzzz__AuthenticationHeaderValue_def.hpp"
-#include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaderValueCollection_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__AuthenticationHeaderValue_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c._ctor
 template<>
@@ -98,8 +99,10 @@ return ::cordl_internals::getStaticField<System::Predicate_1<System::Net::Http::
  System::Predicate_1<System::Net::Http::Headers::TransferCodingHeaderValue> System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c::__get___9__71_0()  {
 return ::cordl_internals::getStaticField<System::Predicate_1<System::Net::Http::Headers::TransferCodingHeaderValue>, "<>9__71_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c>::get>();
 }
-// Ctor Parameters []
- System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c::System__Net__Http__Headers__HttpRequestHeaders____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Http__Headers__HttpRequestHeaders____c>())) {}
+ System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c::New_ctor()  {
+System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c>())};
+return o;
+}
  void System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::System__Net__Http__Headers__HttpRequestHeaders____c>::get(),
@@ -295,8 +298,10 @@ constexpr void System::Net::Http::Headers::HttpRequestHeaders::__set_expectConti
 constexpr System::Nullable_1<bool> System::Net::Http::Headers::HttpRequestHeaders::__get_expectContinue() const {
 return ::cordl_internals::getInstanceField<System::Nullable_1<bool>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::HttpRequestHeaders::HttpRequestHeaders()  : System::Net::Http::Headers::HttpHeaders(THROW_UNLESS(::il2cpp_utils::New<HttpRequestHeaders>())) {}
+ System::Net::Http::Headers::HttpRequestHeaders System::Net::Http::Headers::HttpRequestHeaders::New_ctor()  {
+System::Net::Http::Headers::HttpRequestHeaders o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::HttpRequestHeaders>())};
+return o;
+}
  void System::Net::Http::Headers::HttpRequestHeaders::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::HttpRequestHeaders>::get(),

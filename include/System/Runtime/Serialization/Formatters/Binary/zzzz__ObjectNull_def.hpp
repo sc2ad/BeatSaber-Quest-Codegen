@@ -66,8 +66,7 @@ constexpr int32_t __get_nullCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ObjectNull() ;
+static System::Runtime::Serialization::Formatters::Binary::ObjectNull New_ctor() ;
 
 /// @brief Method .ctor addr 0x23571c0 size 0x8 virtual false final false
  void _ctor() ;

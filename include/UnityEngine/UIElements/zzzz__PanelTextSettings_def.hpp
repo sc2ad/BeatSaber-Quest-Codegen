@@ -2,25 +2,25 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-template<typename TResult>
-class Func_1;
+namespace UnityEngine {
+class Object;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace UnityEngine {
-class Object;
+struct SystemLanguage;
 }
 namespace UnityEngine {
 class Font;
 }
+namespace System {
+template<typename TResult>
+class Func_1;
+}
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
-}
-namespace UnityEngine {
-struct SystemLanguage;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -109,8 +109,7 @@ static void UpdateLocalizationFontAsset() ;
 /// @brief Method GetCachedFontAsset addr 0x2ccfb7c size 0x8 virtual false final false
  UnityEngine::TextCore::Text::FontAsset GetCachedFontAsset(UnityEngine::Font font) ;
 
-// Ctor Parameters []
-explicit PanelTextSettings() ;
+static UnityEngine::UIElements::PanelTextSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd0a2c size 0x8 virtual false final false
  void _ctor() ;

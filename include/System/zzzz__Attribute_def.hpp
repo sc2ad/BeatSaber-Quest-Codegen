@@ -7,22 +7,22 @@ namespace System::Reflection {
 class MemberInfo;
 }
 namespace System::Reflection {
-class Module;
+class ParameterInfo;
+}
+namespace System {
+class Type;
+}
+namespace System::Reflection {
+class EventInfo;
 }
 namespace System::Reflection {
 class Assembly;
 }
 namespace System::Reflection {
-class ParameterInfo;
+class Module;
 }
 namespace System::Reflection {
 class PropertyInfo;
-}
-namespace System::Reflection {
-class EventInfo;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System {
@@ -141,8 +141,7 @@ static System::Attribute GetCustomAttribute(System::Reflection::Assembly element
 /// @brief Method GetCustomAttribute addr 0x246d480 size 0x94 virtual false final false
 static System::Attribute GetCustomAttribute(System::Reflection::Assembly element, System::Type attributeType, bool inherit) ;
 
-// Ctor Parameters []
-explicit Attribute() ;
+static System::Attribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24696c4 size 0x8 virtual false final false
  void _ctor() ;

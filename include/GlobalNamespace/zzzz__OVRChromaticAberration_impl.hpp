@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRChromaticAberration::OVRChromaticAberration()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRChromaticAberration>())) {}
+ GlobalNamespace::OVRChromaticAberration GlobalNamespace::OVRChromaticAberration::New_ctor()  {
+GlobalNamespace::OVRChromaticAberration o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRChromaticAberration>())};
+return o;
+}
  void GlobalNamespace::OVRChromaticAberration::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRChromaticAberration>::get(),

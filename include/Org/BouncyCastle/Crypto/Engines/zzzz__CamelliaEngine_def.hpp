@@ -177,8 +177,7 @@ static void camelliaFLs(::ArrayW<uint32_t> s, ::ArrayW<uint32_t> fkey, int32_t k
 /// @brief Method processBlock192or256 addr 0xe33ff8 size 0x2ec virtual false final false
  int32_t processBlock192or256(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff) ;
 
-// Ctor Parameters []
-explicit CamelliaEngine() ;
+static Org::BouncyCastle::Crypto::Engines::CamelliaEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe342e4 size 0x8c virtual false final false
  void _ctor() ;

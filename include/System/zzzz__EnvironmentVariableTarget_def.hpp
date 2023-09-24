@@ -57,6 +57,8 @@ constexpr operator __EnvironmentVariableTarget_Unwrapped () const noexcept {
 return std::bit_cast<__EnvironmentVariableTarget_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

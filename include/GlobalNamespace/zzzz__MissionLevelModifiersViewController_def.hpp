@@ -6,24 +6,27 @@
 namespace GlobalNamespace {
 class GameplayModifierInfoListItem;
 }
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+class GameplayModifierParamsSO;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
 class GameplayModifierInfoListItemsList;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MissionLevelModifiersViewController____c__DisplayClass7_0;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -86,8 +89,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GameplayModifier
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MissionLevelModifiersViewController____c__DisplayClass7_0() ;
+static GlobalNamespace::GlobalNamespace__MissionLevelModifiersViewController____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21737c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -185,8 +187,7 @@ constexpr GlobalNamespace::GameplayModifiers __get__gameplayModifiers() const;
 /// @brief Method RefreshContent addr 0x2173630 size 0x190 virtual false final false
  void RefreshContent() ;
 
-// Ctor Parameters []
-explicit MissionLevelModifiersViewController() ;
+static GlobalNamespace::MissionLevelModifiersViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21737cc size 0x8 virtual false final false
  void _ctor() ;

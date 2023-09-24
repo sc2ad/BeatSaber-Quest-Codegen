@@ -2,9 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace GlobalNamespace {
 class MissionCompletionResults;
 }
 namespace GlobalNamespace {
@@ -13,14 +10,17 @@ class MultiplayerLevelScenesTransitionSetupDataSO;
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
 }
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
+class LevelCompletionResults;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class MultiplayerResultsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +101,7 @@ constexpr System::Action __get_anyGameplayLevelDidFinishEvent() const;
 /// @brief Method remove_anyGameplayLevelDidFinishEvent addr 0x21d02e8 size 0x9c virtual false final false
  void remove_anyGameplayLevelDidFinishEvent(System::Action value) ;
 
-// Ctor Parameters [CppParam { name: "standardLevelScenesTransitionSetupData", ty: "GlobalNamespace::StandardLevelScenesTransitionSetupDataSO", modifiers: "", def_value: None }, CppParam { name: "missionLevelScenesTransitionSetupData", ty: "GlobalNamespace::MissionLevelScenesTransitionSetupDataSO", modifiers: "", def_value: None }, CppParam { name: "multiplayerLevelScenesTransitionSetupData", ty: "GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
-explicit GameplayLevelSceneTransitionEvents(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData) ;
+static GlobalNamespace::GameplayLevelSceneTransitionEvents New_ctor(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData) ;
 
 /// @brief Method .ctor addr 0x21d0384 size 0x16c virtual false final false
  void _ctor(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData) ;

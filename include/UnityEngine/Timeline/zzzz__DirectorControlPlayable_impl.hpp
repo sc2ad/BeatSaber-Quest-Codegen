@@ -2,10 +2,10 @@
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__DirectorControlPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::DirectorControlPlayable.Create
 template<>
 
@@ -353,8 +353,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playable);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::DirectorControlPlayable::DirectorControlPlayable()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<DirectorControlPlayable>())) {}
+ UnityEngine::Timeline::DirectorControlPlayable UnityEngine::Timeline::DirectorControlPlayable::New_ctor()  {
+UnityEngine::Timeline::DirectorControlPlayable o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::DirectorControlPlayable>())};
+return o;
+}
  void UnityEngine::Timeline::DirectorControlPlayable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::DirectorControlPlayable>::get(),

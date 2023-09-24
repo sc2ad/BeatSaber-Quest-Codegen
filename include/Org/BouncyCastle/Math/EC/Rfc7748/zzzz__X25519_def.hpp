@@ -94,8 +94,7 @@ static void ScalarMult(::ArrayW<uint8_t> k, int32_t kOff, ::ArrayW<uint8_t> u, i
 /// @brief Method ScalarMultBase addr 0xfae3b0 size 0xfc virtual false final false
 static void ScalarMultBase(::ArrayW<uint8_t> k, int32_t kOff, ::ArrayW<uint8_t> r, int32_t rOff) ;
 
-// Ctor Parameters []
-explicit X25519() ;
+static Org::BouncyCastle::Math::EC::Rfc7748::X25519 New_ctor() ;
 
 /// @brief Method .ctor addr 0xfafe60 size 0x8 virtual false final false
  void _ctor() ;

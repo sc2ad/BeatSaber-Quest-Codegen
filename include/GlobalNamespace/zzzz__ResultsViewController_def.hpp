@@ -4,52 +4,55 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System {
+class IDisposable;
+}
 namespace System::Collections {
 class IEnumerator;
 }
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace GlobalNamespace {
+class ResultsEnvironmentManager;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32;
+}
+namespace GlobalNamespace {
+class FireworksController;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace UnityEngine::UI {
 class Button;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class FireworksController;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class ResultsEnvironmentManager;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
 class LevelBar;
@@ -146,8 +149,7 @@ constexpr GlobalNamespace::ResultsViewController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__ResultsViewController___StartFireworksAfterDelay_d__32 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x21800b8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -403,8 +405,7 @@ constexpr bool __get__practice() const;
 /// @brief Method RestartButtonPressed addr 0x2180488 size 0x34 virtual false final false
  void RestartButtonPressed() ;
 
-// Ctor Parameters []
-explicit ResultsViewController() ;
+static GlobalNamespace::ResultsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21804bc size 0x8 virtual false final false
  void _ctor() ;

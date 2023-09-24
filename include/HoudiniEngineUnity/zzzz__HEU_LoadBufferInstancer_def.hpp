@@ -86,8 +86,7 @@ constexpr ::ArrayW<::StringW> __get__collisionAssetPaths() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_LoadBufferInstancer() ;
+static HoudiniEngineUnity::HEU_LoadBufferInstancer New_ctor() ;
 
 /// @brief Method .ctor addr 0x203a514 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,13 +5,13 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class MeshRenderer;
+}
+namespace GlobalNamespace {
+class TrailElementCollection;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct Bounds;
@@ -20,10 +20,10 @@ namespace UnityEngine {
 class MeshFilter;
 }
 namespace UnityEngine {
-struct Color;
+class Mesh;
 }
-namespace GlobalNamespace {
-class TrailElementCollection;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -194,8 +194,7 @@ constexpr float_t __get__whiteSectionMaxDuration() const;
 /// @brief Method UpdateIndices addr 0x2256a38 size 0x158 virtual false final false
  void UpdateIndices() ;
 
-// Ctor Parameters []
-explicit SaberTrailRenderer() ;
+static GlobalNamespace::SaberTrailRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2257488 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,6 +4,7 @@
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBombNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBombNoteController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerConnectedPlayerBombNoteController.Init
 template<>
 
@@ -47,8 +48,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteData, worldRotation, moveStartPos, moveEndPos, jumpEndPos, moveDuration, jumpDuration, jumpGravity);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::MultiplayerConnectedPlayerBombNoteController()  : GlobalNamespace::MultiplayerConnectedPlayerNoteController(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConnectedPlayerBombNoteController>())) {}
+ GlobalNamespace::MultiplayerConnectedPlayerBombNoteController GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::New_ctor()  {
+GlobalNamespace::MultiplayerConnectedPlayerBombNoteController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>::get(),
@@ -75,8 +78,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool>::get(),

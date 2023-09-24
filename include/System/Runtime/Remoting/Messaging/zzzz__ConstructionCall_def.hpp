@@ -4,26 +4,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Collections {
 class IList;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Activation {
-class IActivator;
+class IMethodCallMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Runtime::Remoting::Activation {
+class IActivator;
 }
 namespace System {
 class Type;
@@ -31,11 +28,14 @@ class Type;
 namespace System::Runtime::Remoting::Proxies {
 class RemotingProxy;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -159,14 +159,12 @@ constexpr System::Runtime::Remoting::Proxies::RemotingProxy __get__sourceProxy()
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit ConstructionCall(System::Type type) ;
+static System::Runtime::Remoting::Messaging::ConstructionCall New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x232b9fc size 0x50 virtual false final false
  void _ctor(System::Type type) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ConstructionCall(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::Remoting::Messaging::ConstructionCall New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x233ee58 size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

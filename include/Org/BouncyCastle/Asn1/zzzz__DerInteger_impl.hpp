@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerInteger.AllowUnsafe
 template<>
 
@@ -418,8 +418,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerInteger, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerInteger::DerInteger(int32_t value)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerInteger>(value))) {}
+ Org::BouncyCastle::Asn1::DerInteger Org::BouncyCastle::Asn1::DerInteger::New_ctor(int32_t value)  {
+Org::BouncyCastle::Asn1::DerInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerInteger>(value))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerInteger::_ctor(int32_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerInteger>::get(),
@@ -429,8 +431,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerInteger::DerInteger(int64_t value)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerInteger>(value))) {}
+ Org::BouncyCastle::Asn1::DerInteger Org::BouncyCastle::Asn1::DerInteger::New_ctor(int64_t value)  {
+Org::BouncyCastle::Asn1::DerInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerInteger>(value))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerInteger::_ctor(int64_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerInteger>::get(),
@@ -440,8 +444,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerInteger::DerInteger(Org::BouncyCastle::Math::BigInteger value)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerInteger>(value))) {}
+ Org::BouncyCastle::Asn1::DerInteger Org::BouncyCastle::Asn1::DerInteger::New_ctor(Org::BouncyCastle::Math::BigInteger value)  {
+Org::BouncyCastle::Asn1::DerInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerInteger>(value))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerInteger::_ctor(Org::BouncyCastle::Math::BigInteger value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerInteger>::get(),
@@ -451,8 +457,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerInteger::DerInteger(::ArrayW<uint8_t> bytes)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerInteger>(bytes))) {}
+ Org::BouncyCastle::Asn1::DerInteger Org::BouncyCastle::Asn1::DerInteger::New_ctor(::ArrayW<uint8_t> bytes)  {
+Org::BouncyCastle::Asn1::DerInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerInteger>(bytes))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerInteger::_ctor(::ArrayW<uint8_t> bytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerInteger>::get(),
@@ -462,8 +470,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bytes);
 }
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "clone", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerInteger::DerInteger(::ArrayW<uint8_t> bytes, bool clone)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerInteger>(bytes, clone))) {}
+ Org::BouncyCastle::Asn1::DerInteger Org::BouncyCastle::Asn1::DerInteger::New_ctor(::ArrayW<uint8_t> bytes, bool clone)  {
+Org::BouncyCastle::Asn1::DerInteger o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerInteger>(bytes, clone))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerInteger::_ctor(::ArrayW<uint8_t> bytes, bool clone)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerInteger>::get(),

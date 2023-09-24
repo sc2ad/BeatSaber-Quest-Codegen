@@ -56,8 +56,7 @@ constexpr explicit TMP_SelectionCaret(void* ptr) noexcept : UnityEngine::UI::Mas
 /// @brief Method UpdateGeometry addr 0x2aa8248 size 0x4 virtual true final false
  void UpdateGeometry() ;
 
-// Ctor Parameters []
-explicit TMP_SelectionCaret() ;
+static TMPro::TMP_SelectionCaret New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa824c size 0x8 virtual false final false
  void _ctor() ;

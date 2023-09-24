@@ -208,8 +208,7 @@ constexpr bool __get_extendedMasterSecret() const;
 /// @brief Method get_IsExtendedMasterSecret addr 0xf07bd0 size 0x8 virtual true final false
  bool get_IsExtendedMasterSecret() ;
 
-// Ctor Parameters []
-explicit SecurityParameters() ;
+static Org::BouncyCastle::Crypto::Tls::SecurityParameters New_ctor() ;
 
 /// @brief Method .ctor addr 0xf07bd8 size 0x34 virtual false final false
  void _ctor() ;

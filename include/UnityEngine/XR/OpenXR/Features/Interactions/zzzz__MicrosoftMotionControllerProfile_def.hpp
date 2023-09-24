@@ -2,20 +2,14 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
+namespace UnityEngine::XR::OpenXR::Features::Interactions {
+class UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController;
+}
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
-}
-namespace UnityEngine::XR::OpenXR::Input {
-class PoseControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::XR::OpenXR::Input {
-class HapticControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
@@ -24,7 +18,16 @@ namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class ButtonControl;
+}
+namespace UnityEngine::XR::OpenXR::Input {
+class HapticControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class QuaternionControl;
+}
+namespace UnityEngine::XR::OpenXR::Input {
+class PoseControl;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
@@ -350,8 +353,7 @@ constexpr UnityEngine::XR::OpenXR::Input::HapticControl __get__haptic_k__Backing
 /// @brief Method FinishSetup addr 0x2afc994 size 0x3f4 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController() ;
+static UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2afcd88 size 0x8 virtual false final false
  void _ctor() ;
@@ -458,8 +460,7 @@ static constexpr ::ConstString  kDeviceLocalizedName{u"Windows MR Controller Ope
 /// @brief Method RegisterActionMapsWithRuntime addr 0x2afaa64 size 0x1df8 virtual true final false
  void RegisterActionMapsWithRuntime() ;
 
-// Ctor Parameters []
-explicit MicrosoftMotionControllerProfile() ;
+static UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile New_ctor() ;
 
 /// @brief Method .ctor addr 0x2afc85c size 0x8 virtual false final false
  void _ctor() ;

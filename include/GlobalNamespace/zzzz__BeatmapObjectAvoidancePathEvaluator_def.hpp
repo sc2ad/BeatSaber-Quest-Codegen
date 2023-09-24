@@ -2,6 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
+namespace GlobalNamespace {
+class BezierSplineEvaluator;
+}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -10,9 +13,6 @@ class PlayerTransforms;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
-}
-namespace GlobalNamespace {
-class BezierSplineEvaluator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,8 +117,7 @@ constexpr GlobalNamespace::PlayerTransforms __get__playerTransforms() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "playerTransforms", ty: "GlobalNamespace::PlayerTransforms", modifiers: "", def_value: None }, CppParam { name: "pathBezierCurveEvaluator", ty: "GlobalNamespace::BezierSplineEvaluator", modifiers: "", def_value: None }, CppParam { name: "jumpStartZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "jumpEndZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "zOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpSeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "moveToPlayerHeadTParam", ty: "float_t", modifiers: "", def_value: None }]
-explicit BeatmapObjectAvoidancePathEvaluator(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::PlayerTransforms playerTransforms, GlobalNamespace::BezierSplineEvaluator pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam) ;
+static GlobalNamespace::BeatmapObjectAvoidancePathEvaluator New_ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::PlayerTransforms playerTransforms, GlobalNamespace::BezierSplineEvaluator pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam) ;
 
 /// @brief Method .ctor addr 0x20a48f4 size 0x78 virtual false final false
  void _ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::PlayerTransforms playerTransforms, GlobalNamespace::BezierSplineEvaluator pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam) ;

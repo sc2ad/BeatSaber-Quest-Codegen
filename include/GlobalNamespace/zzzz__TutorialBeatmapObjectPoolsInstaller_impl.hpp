@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialBeatmapObjectPoolsInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineConnectionController_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineConnectionController_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TutorialBeatmapObjectPoolsInstaller.InstallBindings
 template<>
 
@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::TutorialBeatmapObjectPoolsInstaller::TutorialBeatmapObjectPoolsInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<TutorialBeatmapObjectPoolsInstaller>())) {}
+ GlobalNamespace::TutorialBeatmapObjectPoolsInstaller GlobalNamespace::TutorialBeatmapObjectPoolsInstaller::New_ctor()  {
+GlobalNamespace::TutorialBeatmapObjectPoolsInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TutorialBeatmapObjectPoolsInstaller>())};
+return o;
+}
  void GlobalNamespace::TutorialBeatmapObjectPoolsInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TutorialBeatmapObjectPoolsInstaller>::get(),

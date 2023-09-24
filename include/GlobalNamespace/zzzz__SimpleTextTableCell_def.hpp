@@ -71,8 +71,7 @@ constexpr TMPro::TextMeshProUGUI __get__text() const;
 /// @brief Method get_text addr 0x1fa3778 size 0x24 virtual false final false
  ::StringW get_text() ;
 
-// Ctor Parameters []
-explicit SimpleTextTableCell() ;
+static GlobalNamespace::SimpleTextTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa379c size 0x8 virtual false final false
  void _ctor() ;

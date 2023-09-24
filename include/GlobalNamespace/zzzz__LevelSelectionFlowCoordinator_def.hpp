@@ -9,55 +9,58 @@ template<typename T>
 struct Nullable_1;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__SelectLevelCategoryViewController__LevelCategory;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
-}
-namespace System {
-class Action;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__StandardLevelDetailViewController__ContentType;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 class LevelFilterParams;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
+class LevelSelectionNavigationController;
+}
+namespace HMUI {
+class ViewController;
 }
 namespace GlobalNamespace {
 class IBeatmapLevel;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class LevelSearchViewController;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LevelSelectionFlowCoordinator__State;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class LevelSelectionNavigationController;
-}
-namespace HMUI {
-struct HMUI__ViewController__AnimationType;
-}
-namespace GlobalNamespace {
 class SearchFilterParamsViewController;
 }
 namespace GlobalNamespace {
-class LevelSearchViewController;
+struct GlobalNamespace__StandardLevelDetailViewController__ContentType;
+}
+namespace HMUI {
+struct HMUI__ViewController__AnimationType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -135,26 +138,22 @@ constexpr GlobalNamespace::IDifficultyBeatmap __get_difficultyBeatmap() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "levelCategory", ty: "System::Nullable_1<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LevelSelectionFlowCoordinator__State(System::Nullable_1<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory> levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
+static GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State New_ctor(System::Nullable_1<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory> levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
 /// @brief Method .ctor addr 0x2134900 size 0x40 virtual false final false
  void _ctor(System::Nullable_1<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory> levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LevelSelectionFlowCoordinator__State(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack) ;
+static GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State New_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack) ;
 
 /// @brief Method .ctor addr 0x2134940 size 0x2c virtual false final false
  void _ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack) ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LevelSelectionFlowCoordinator__State(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
+static GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State New_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
 
 /// @brief Method .ctor addr 0x213496c size 0x30 virtual false final false
  void _ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
 
-// Ctor Parameters [CppParam { name: "levelCategory", ty: "GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LevelSelectionFlowCoordinator__State(GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
+static GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State New_ctor(GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
 /// @brief Method .ctor addr 0x213499c size 0x100 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
@@ -388,8 +387,7 @@ constexpr GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State
 /// @brief Method PresentMainViewController addr 0x21348dc size 0x1c virtual false final false
  void PresentMainViewController(System::Action finishedCallback, HMUI::HMUI__ViewController__AnimationType animationType) ;
 
-// Ctor Parameters []
-explicit LevelSelectionFlowCoordinator() ;
+static GlobalNamespace::LevelSelectionFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x21348f8 size 0x8 virtual false final false
  void _ctor() ;

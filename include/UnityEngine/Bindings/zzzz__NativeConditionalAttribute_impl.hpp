@@ -82,8 +82,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "condition", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Bindings::NativeConditionalAttribute::NativeConditionalAttribute(::StringW condition)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeConditionalAttribute>(condition))) {}
+ UnityEngine::Bindings::NativeConditionalAttribute UnityEngine::Bindings::NativeConditionalAttribute::New_ctor(::StringW condition)  {
+UnityEngine::Bindings::NativeConditionalAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativeConditionalAttribute>(condition))};
+return o;
+}
  void UnityEngine::Bindings::NativeConditionalAttribute::_ctor(::StringW condition)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativeConditionalAttribute>::get(),

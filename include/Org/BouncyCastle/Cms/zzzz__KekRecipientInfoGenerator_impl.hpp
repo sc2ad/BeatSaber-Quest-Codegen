@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__KekRecipientInfoGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__KekIdentifier_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientInfo_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedHelper_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__KekIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientInfo_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::KekRecipientInfoGenerator._ctor
 template<>
 
@@ -143,8 +143,10 @@ constexpr void Org::BouncyCastle::Cms::KekRecipientInfoGenerator::__set_keyEncry
 constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier Org::BouncyCastle::Cms::KekRecipientInfoGenerator::__get_keyEncryptionAlgorithm() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::KekRecipientInfoGenerator::KekRecipientInfoGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KekRecipientInfoGenerator>())) {}
+ Org::BouncyCastle::Cms::KekRecipientInfoGenerator Org::BouncyCastle::Cms::KekRecipientInfoGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::KekRecipientInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::KekRecipientInfoGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::KekRecipientInfoGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::KekRecipientInfoGenerator>::get(),

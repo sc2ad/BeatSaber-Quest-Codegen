@@ -8,41 +8,57 @@
 namespace System {
 class Action;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace HMUI {
-class ImageView;
-}
 namespace GlobalNamespace {
-class LoadingControl;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-class DlcPromoPanelModel;
-}
-namespace UnityEngine {
-class GameObject;
+struct GlobalNamespace__LevelPackDetailViewController___RefreshAvailabilityAsync_d__19;
 }
 namespace GlobalNamespace {
 class KawaseBlurRendererSO;
 }
 namespace GlobalNamespace {
-class AdditionalContentModel;
+struct GlobalNamespace__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__21;
 }
 namespace GlobalNamespace {
-class EventBinder;
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LevelPackDetailViewController__ContentType;
+}
+namespace GlobalNamespace {
+class AdditionalContentModel;
+}
+namespace HMUI {
+class ImageView;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class LoadingControl;
+}
+namespace GlobalNamespace {
+class EventBinder;
+}
+namespace GlobalNamespace {
+class DlcPromoPanelModel;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -52,10 +68,6 @@ struct GlobalNamespace__AdditionalContentModel__OpenProductStoreResult;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
@@ -127,6 +139,8 @@ __Error = 3,
 constexpr operator __GlobalNamespace__LevelPackDetailViewController__ContentType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LevelPackDetailViewController__ContentType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -210,8 +224,7 @@ constexpr GlobalNamespace::LevelPackDetailViewController __get___4__this() const
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0() ;
+static GlobalNamespace::GlobalNamespace__LevelPackDetailViewController____c__DisplayClass16_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2169bf8 size 0x8 virtual false final false
  void _ctor() ;
@@ -556,8 +569,7 @@ constexpr UnityEngine::Sprite __get__blurredPackArtwork() const;
 /// @brief Method HandleAdditionalContentModelDidInvalidateData addr 0x216a224 size 0x4 virtual false final false
  void HandleAdditionalContentModelDidInvalidateData() ;
 
-// Ctor Parameters []
-explicit LevelPackDetailViewController() ;
+static GlobalNamespace::LevelPackDetailViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x216a228 size 0x68 virtual false final false
  void _ctor() ;

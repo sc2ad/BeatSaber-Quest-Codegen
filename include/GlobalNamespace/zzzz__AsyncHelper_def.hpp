@@ -3,19 +3,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System {
 template<typename TResult>
 class Func_1;
 }
 namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class GlobalNamespace__AsyncHelper____c__DisplayClass1_0;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1;
+}
+namespace GlobalNamespace {
+template<typename T>
+struct GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AsyncHelper____c__DisplayClass1_0____RunSync_b__0_d;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -23,6 +34,9 @@ struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -191,8 +205,7 @@ constexpr System::Func_1<System::Threading::Tasks::Task> __get_asyncTask() const
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__AsyncHelper____c__DisplayClass1_0() ;
+static GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass1_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f74e58 size 0x8 virtual false final false
  void _ctor() ;
@@ -267,7 +280,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(13769))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13769)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13769), inst: 2 })
 // CS Name: AsyncHelper::<>c__DisplayClass0_0`1::<<RunSync>b__0>d
 struct CORDL_TYPE GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1____RunSync_b__0_d<T> : public ::bs_hook::ValueTypeWrapper {
@@ -408,8 +421,7 @@ constexpr T __get_result() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1() ;
+static GlobalNamespace::GlobalNamespace__AsyncHelper____c__DisplayClass0_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

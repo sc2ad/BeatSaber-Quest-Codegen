@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-template<typename TResult>
-class Func_1;
+namespace GlobalNamespace {
+template<typename T>
+class LazyCopyHashSet_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace GlobalNamespace {
-template<typename T>
-class LazyCopyHashSet_1;
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,8 +97,7 @@ constexpr System::Func_1<T> __get__createNewItemFunc() const;
 /// @brief Method get_items addr 0x0 size 0xffffffffffffffff virtual false final false
  System::Collections::Generic::List_1<T> get_items() ;
 
-// Ctor Parameters [CppParam { name: "startCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "createNewItemFunc", ty: "System::Func_1<T>", modifiers: "", def_value: None }]
-explicit SimpleMemoryPool_1(int32_t startCapacity, System::Func_1<T> createNewItemFunc) ;
+static GlobalNamespace::SimpleMemoryPool_1<T> New_ctor(int32_t startCapacity, System::Func_1<T> createNewItemFunc) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t startCapacity, System::Func_1<T> createNewItemFunc) ;

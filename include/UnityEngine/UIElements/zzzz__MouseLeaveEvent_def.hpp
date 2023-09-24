@@ -53,8 +53,7 @@ constexpr explicit MouseLeaveEvent(void* ptr) noexcept : UnityEngine::UIElements
 /// @brief Method LocalInit addr 0x2cda33c size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit MouseLeaveEvent() ;
+static UnityEngine::UIElements::MouseLeaveEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cda348 size 0x54 virtual false final false
  void _ctor() ;

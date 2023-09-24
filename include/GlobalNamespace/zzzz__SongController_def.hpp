@@ -77,8 +77,7 @@ constexpr System::Action __get_songDidFinishEvent() const;
 /// @brief Method ResumeSong addr 0x0 size 0xffffffffffffffff virtual true final false
  void ResumeSong() ;
 
-// Ctor Parameters []
-explicit SongController() ;
+static GlobalNamespace::SongController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2110c60 size 0x8 virtual false final false
  void _ctor() ;

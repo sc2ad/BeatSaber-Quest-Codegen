@@ -3,6 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine {
+struct LogOption;
+}
+namespace UnityEngine {
+class Object;
+}
 namespace System {
 class Exception;
 }
@@ -10,13 +16,7 @@ namespace UnityEngine {
 struct LogType;
 }
 namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
 class ILogHandler;
-}
-namespace UnityEngine {
-struct LogOption;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -79,8 +79,7 @@ static void Internal_LogException(System::Exception ex, UnityEngine::Object obj)
 /// @brief Method LogException addr 0x2b298d0 size 0x94 virtual true final true
  void LogException(System::Exception exception, UnityEngine::Object context) ;
 
-// Ctor Parameters []
-explicit DebugLogHandler() ;
+static UnityEngine::DebugLogHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b29964 size 0x8 virtual false final false
  void _ctor() ;

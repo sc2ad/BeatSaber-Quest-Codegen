@@ -47,8 +47,7 @@ constexpr explicit AndroidGravitySensor(void* ptr) noexcept : UnityEngine::Input
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidGravitySensor() ;
+static UnityEngine::InputSystem::Android::AndroidGravitySensor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953088 size 0x8 virtual false final false
  void _ctor() ;

@@ -47,8 +47,7 @@ constexpr explicit OutAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit OutAttribute() ;
+static System::Runtime::InteropServices::OutAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236aca8 size 0x8 virtual false final false
  void _ctor() ;

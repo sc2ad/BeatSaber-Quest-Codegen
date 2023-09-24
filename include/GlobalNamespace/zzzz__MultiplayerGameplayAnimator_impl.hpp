@@ -1,13 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__LightsAnimator_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLeadPlayerProvider_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__LightsAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLeadPlayerProvider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerGameplayAnimator.Start
 template<>
 
@@ -215,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, userId);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerGameplayAnimator::MultiplayerGameplayAnimator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerGameplayAnimator>())) {}
+ GlobalNamespace::MultiplayerGameplayAnimator GlobalNamespace::MultiplayerGameplayAnimator::New_ctor()  {
+GlobalNamespace::MultiplayerGameplayAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerGameplayAnimator>())};
+return o;
+}
  void GlobalNamespace::MultiplayerGameplayAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerGameplayAnimator>::get(),

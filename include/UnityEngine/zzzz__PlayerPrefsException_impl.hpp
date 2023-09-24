@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "error", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::PlayerPrefsException::PlayerPrefsException(::StringW error)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<PlayerPrefsException>(error))) {}
+ UnityEngine::PlayerPrefsException UnityEngine::PlayerPrefsException::New_ctor(::StringW error)  {
+UnityEngine::PlayerPrefsException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::PlayerPrefsException>(error))};
+return o;
+}
  void UnityEngine::PlayerPrefsException::_ctor(::StringW error)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::PlayerPrefsException>::get(),

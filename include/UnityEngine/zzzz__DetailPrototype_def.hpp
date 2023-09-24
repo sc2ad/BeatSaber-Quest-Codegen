@@ -4,13 +4,13 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine {
 struct DetailRenderMode;
@@ -242,8 +242,7 @@ constexpr int32_t __get_m_UseInstancing() const;
 /// @brief Method set_usePrototypeMesh addr 0x2ba5300 size 0x1c virtual false final false
  void set_usePrototypeMesh(bool value) ;
 
-// Ctor Parameters []
-explicit DetailPrototype() ;
+static UnityEngine::DetailPrototype New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba531c size 0xa0 virtual false final false
  void _ctor() ;

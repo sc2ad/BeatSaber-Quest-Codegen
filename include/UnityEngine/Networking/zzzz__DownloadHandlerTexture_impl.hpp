@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandlerTexture_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 //  Writing Method size for method: UnityEngine::Networking::DownloadHandlerTexture.Create
 template<>
 
@@ -199,8 +199,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, readable);
 }
-// Ctor Parameters [CppParam { name: "readable", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::Networking::DownloadHandlerTexture::DownloadHandlerTexture(bool readable)  : UnityEngine::Networking::DownloadHandler(THROW_UNLESS(::il2cpp_utils::New<DownloadHandlerTexture>(readable))) {}
+ UnityEngine::Networking::DownloadHandlerTexture UnityEngine::Networking::DownloadHandlerTexture::New_ctor(bool readable)  {
+UnityEngine::Networking::DownloadHandlerTexture o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::DownloadHandlerTexture>(readable))};
+return o;
+}
  void UnityEngine::Networking::DownloadHandlerTexture::_ctor(bool readable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::DownloadHandlerTexture>::get(),

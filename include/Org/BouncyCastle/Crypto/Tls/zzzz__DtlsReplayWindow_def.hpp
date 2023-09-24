@@ -78,8 +78,7 @@ constexpr int64_t __get_mBitmap() const;
 /// @brief Method Reset addr 0xee2180 size 0x10 virtual false final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit DtlsReplayWindow() ;
+static Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow New_ctor() ;
 
 /// @brief Method .ctor addr 0xede3b0 size 0x14 virtual false final false
  void _ctor() ;

@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_SubMesh_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
 #include "TMPro/zzzz__TextMeshPro_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
-#include "TMPro/zzzz__MaterialReference_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "TMPro/zzzz__MaterialReference_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
 //  Writing Method size for method: TMPro::TMP_SubMesh.get_fontAsset
 template<>
 
@@ -1015,8 +1015,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TMP_SubMesh::TMP_SubMesh()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TMP_SubMesh>())) {}
+ TMPro::TMP_SubMesh TMPro::TMP_SubMesh::New_ctor()  {
+TMPro::TMP_SubMesh o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SubMesh>())};
+return o;
+}
  void TMPro::TMP_SubMesh::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SubMesh>::get(),

@@ -4,32 +4,44 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
 namespace GlobalNamespace {
 class PlatformUserAuthTokenData;
 }
 namespace GlobalNamespace {
-class UserInfo;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
+struct GlobalNamespace__TestPlatformUserModel___GetUserAuthToken_d__5;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
+class IPlatformUserModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__TestPlatformUserModel___GetUserNamesForUserIds_d__6;
+}
+namespace GlobalNamespace {
 class XPlatformAccessTokenData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__TestPlatformUserModel___GetUserFriendsUserIds_d__4;
+}
+namespace GlobalNamespace {
+class UserInfo;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__TestPlatformUserModel___GetUserInfo_d__3;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -455,8 +467,7 @@ constexpr System::Action_1<GlobalNamespace::UserInfo> __get_platformUserInfoDidC
 /// @brief Method RequestXPlatformAccessToken addr 0x221ee28 size 0xb4 virtual true final true
  System::Threading::Tasks::Task_1<GlobalNamespace::XPlatformAccessTokenData> RequestXPlatformAccessToken(System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters []
-explicit TestPlatformUserModel() ;
+static GlobalNamespace::TestPlatformUserModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x221eedc size 0x8 virtual false final false
  void _ctor() ;

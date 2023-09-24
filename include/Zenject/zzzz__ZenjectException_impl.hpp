@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Zenject::ZenjectException::ZenjectException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<ZenjectException>(message))) {}
+ Zenject::ZenjectException Zenject::ZenjectException::New_ctor(::StringW message)  {
+Zenject::ZenjectException o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ZenjectException>(message))};
+return o;
+}
  void Zenject::ZenjectException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ZenjectException>::get(),
@@ -47,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- Zenject::ZenjectException::ZenjectException(::StringW message, System::Exception innerException)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<ZenjectException>(message, innerException))) {}
+ Zenject::ZenjectException Zenject::ZenjectException::New_ctor(::StringW message, System::Exception innerException)  {
+Zenject::ZenjectException o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ZenjectException>(message, innerException))};
+return o;
+}
  void Zenject::ZenjectException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ZenjectException>::get(),

@@ -2,23 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct LayerMask;
+namespace GlobalNamespace {
+class GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRManager__DepthQuality;
+struct GlobalNamespace__OVRManager__VirtualGreenScreenType;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRManager__VirtualGreenScreenType;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__CameraDevice;
 }
+namespace UnityEngine {
+struct LayerMask;
+}
 namespace GlobalNamespace {
-class GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate;
+struct GlobalNamespace__OVRManager__DepthQuality;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__MrcActivationMode;

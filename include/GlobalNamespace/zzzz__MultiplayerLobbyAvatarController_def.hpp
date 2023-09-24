@@ -17,20 +17,32 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace GlobalNamespace {
-class VFXController;
-}
 namespace UnityEngine {
 struct Vector3;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10;
+}
 namespace UnityEngine::Playables {
 class PlayableDirector;
+}
+namespace GlobalNamespace {
+class VFXController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLobbyAvatarController__Factory;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -155,8 +167,7 @@ constexpr ::ArrayW<UnityEngine::GameObject> __get__visualObjects() const;
 /// @brief Method DespawnAnimationCoroutine addr 0x20c3d58 size 0x68 virtual false final false
  System::Collections::IEnumerator DespawnAnimationCoroutine() ;
 
-// Ctor Parameters []
-explicit MultiplayerLobbyAvatarController() ;
+static GlobalNamespace::MultiplayerLobbyAvatarController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c3de8 size 0x20 virtual false final false
  void _ctor() ;
@@ -168,7 +179,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Factory
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10947)), TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(4100)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3368 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3368 }), TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(4100)), TypeDefinitionIndex(TypeDefinitionIndex(10947))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4096))
 // CS Name: MultiplayerLobbyAvatarController::Factory
 class CORDL_TYPE GlobalNamespace__MultiplayerLobbyAvatarController__Factory : public Zenject::PlaceholderFactory_2<GlobalNamespace::IConnectedPlayer,GlobalNamespace::MultiplayerLobbyAvatarController> {
@@ -207,8 +218,7 @@ constexpr explicit GlobalNamespace__MultiplayerLobbyAvatarController__Factory(vo
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerLobbyAvatarController__Factory() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController__Factory New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c3e08 size 0x48 virtual false final false
  void _ctor() ;
@@ -296,8 +306,7 @@ constexpr GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c3c34 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -400,8 +409,7 @@ constexpr GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c3cc4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -504,8 +512,7 @@ constexpr GlobalNamespace::MultiplayerLobbyAvatarController __get___4__this() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c3dc0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;

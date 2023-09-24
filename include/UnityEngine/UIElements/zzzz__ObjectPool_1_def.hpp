@@ -86,8 +86,7 @@ constexpr int32_t __get_m_MaxSize() const;
 /// @brief Method set_maxSize addr 0x0 size 0xffffffffffffffff virtual false final false
  void set_maxSize(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ObjectPool_1(int32_t maxSize) ;
+static UnityEngine::UIElements::ObjectPool_1<T> New_ctor(int32_t maxSize) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t maxSize) ;

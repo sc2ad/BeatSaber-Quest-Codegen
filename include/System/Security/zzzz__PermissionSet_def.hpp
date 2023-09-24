@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
+namespace System::Security {
+class ISecurityEncodable;
 }
-namespace System {
-class Array;
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 namespace System::Security {
 class IPermission;
@@ -16,20 +16,20 @@ class IPermission;
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Security {
-class ISecurityEncodable;
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Security {
 class SecurityElement;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Security::Permissions {
 struct PermissionState;
@@ -140,20 +140,17 @@ static ::ArrayW<::bs_hook::Il2CppWrapperType> __get_action() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit PermissionSet() ;
+static System::Security::PermissionSet New_ctor() ;
 
 /// @brief Method .ctor addr 0x22e5450 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
-explicit PermissionSet(System::Security::Permissions::PermissionState state) ;
+static System::Security::PermissionSet New_ctor(System::Security::Permissions::PermissionState state) ;
 
 /// @brief Method .ctor addr 0x22e553c size 0x30 virtual false final false
  void _ctor(System::Security::Permissions::PermissionState state) ;
 
-// Ctor Parameters [CppParam { name: "perm", ty: "System::Security::IPermission", modifiers: "", def_value: None }]
-explicit PermissionSet(System::Security::IPermission perm) ;
+static System::Security::PermissionSet New_ctor(System::Security::IPermission perm) ;
 
 /// @brief Method .ctor addr 0x22e4f24 size 0x4c virtual false final false
  void _ctor(System::Security::IPermission perm) ;

@@ -3,33 +3,33 @@
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::EventSystems {
-class EventSystem;
-}
-namespace UnityEngine::EventSystems {
-class BaseInput;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine::EventSystems {
-struct MoveDirection;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::EventSystems {
+struct MoveDirection;
+}
+namespace UnityEngine::EventSystems {
 class AxisEventData;
 }
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class BaseInput;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
+namespace UnityEngine::EventSystems {
+class EventSystem;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -202,8 +202,7 @@ static UnityEngine::GameObject FindCommonRoot(UnityEngine::GameObject g1, UnityE
 /// @brief Method ConvertUIToolkitPointerId addr 0x2c228a4 size 0x7c virtual true final false
  int32_t ConvertUIToolkitPointerId(UnityEngine::EventSystems::PointerEventData sourcePointerData) ;
 
-// Ctor Parameters []
-explicit BaseInputModule() ;
+static UnityEngine::EventSystems::BaseInputModule New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c22920 size 0x84 virtual false final false
  void _ctor() ;

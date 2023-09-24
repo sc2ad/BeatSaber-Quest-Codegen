@@ -3,24 +3,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace GlobalNamespace {
 template<typename T>
 class ISortedListItemProcessor_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedListNode_1;
-}
 namespace System {
 class Type;
+}
+namespace GlobalNamespace {
+template<typename TBase>
+class GlobalNamespace__BeatmapDataSortedListForTypeAndIds_1____c;
 }
 namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace GlobalNamespace {
 template<typename T>
@@ -28,7 +28,11 @@ class ISortedList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class LinkedListNode_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -118,8 +122,7 @@ static System::Func_2<System::Collections::Generic::LinkedListNode_1<TBase>,bool
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapDataSortedListForTypeAndIds_1____c() ;
+static GlobalNamespace::GlobalNamespace__BeatmapDataSortedListForTypeAndIds_1____c<TBase> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -229,8 +232,7 @@ template<typename T>
 /// @brief Method RemoveList addr 0x0 size 0xffffffffffffffff virtual false final false
  void RemoveList(System::Type type, int32_t typeIdentifier) ;
 
-// Ctor Parameters []
-explicit BeatmapDataSortedListForTypeAndIds_1() ;
+static GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

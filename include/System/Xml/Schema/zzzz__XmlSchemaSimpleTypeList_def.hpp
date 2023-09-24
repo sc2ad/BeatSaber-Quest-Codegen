@@ -90,8 +90,7 @@ constexpr System::Xml::Schema::XmlSchemaSimpleType __get_baseItemType() const;
 /// @brief Method set_BaseItemType addr 0x27357a0 size 0x8 virtual false final false
  void set_BaseItemType(System::Xml::Schema::XmlSchemaSimpleType value) ;
 
-// Ctor Parameters []
-explicit XmlSchemaSimpleTypeList() ;
+static System::Xml::Schema::XmlSchemaSimpleTypeList New_ctor() ;
 
 /// @brief Method .ctor addr 0x27357a8 size 0x68 virtual false final false
  void _ctor() ;

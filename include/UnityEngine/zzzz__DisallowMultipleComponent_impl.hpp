@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::DisallowMultipleComponent::DisallowMultipleComponent()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DisallowMultipleComponent>())) {}
+ UnityEngine::DisallowMultipleComponent UnityEngine::DisallowMultipleComponent::New_ctor()  {
+UnityEngine::DisallowMultipleComponent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::DisallowMultipleComponent>())};
+return o;
+}
  void UnityEngine::DisallowMultipleComponent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::DisallowMultipleComponent>::get(),

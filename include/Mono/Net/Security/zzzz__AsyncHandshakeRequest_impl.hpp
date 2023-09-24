@@ -1,8 +1,8 @@
 #pragma once
 #include "Mono/Net/Security/zzzz__AsyncProtocolRequest_impl.hpp"
 #include "Mono/Net/Security/zzzz__AsyncHandshakeRequest_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
 #include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
 //  Writing Method size for method: Mono::Net::Security::AsyncHandshakeRequest._ctor
 template<>
 
@@ -37,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "sync", ty: "bool", modifiers: "", def_value: None }]
- Mono::Net::Security::AsyncHandshakeRequest::AsyncHandshakeRequest(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync)  : Mono::Net::Security::AsyncProtocolRequest(THROW_UNLESS(::il2cpp_utils::New<AsyncHandshakeRequest>(parent, sync))) {}
+ Mono::Net::Security::AsyncHandshakeRequest Mono::Net::Security::AsyncHandshakeRequest::New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync)  {
+Mono::Net::Security::AsyncHandshakeRequest o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::AsyncHandshakeRequest>(parent, sync))};
+return o;
+}
  void Mono::Net::Security::AsyncHandshakeRequest::_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::AsyncHandshakeRequest>::get(),

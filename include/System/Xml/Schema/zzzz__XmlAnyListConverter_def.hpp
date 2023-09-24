@@ -2,17 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__XmlListConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System {
 class Type;
 }
-namespace System::Xml::Schema {
-class XmlBaseConverter;
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Xml::Schema {
 class XmlValueConverter;
+}
+namespace System::Xml::Schema {
+class XmlBaseConverter;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -75,8 +75,7 @@ static System::Xml::Schema::XmlValueConverter __get_AnyAtomicList() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "atomicConverter", ty: "System::Xml::Schema::XmlBaseConverter", modifiers: "", def_value: None }]
-explicit XmlAnyListConverter(System::Xml::Schema::XmlBaseConverter atomicConverter) ;
+static System::Xml::Schema::XmlAnyListConverter New_ctor(System::Xml::Schema::XmlBaseConverter atomicConverter) ;
 
 /// @brief Method .ctor addr 0x2751984 size 0x4 virtual false final false
  void _ctor(System::Xml::Schema::XmlBaseConverter atomicConverter) ;

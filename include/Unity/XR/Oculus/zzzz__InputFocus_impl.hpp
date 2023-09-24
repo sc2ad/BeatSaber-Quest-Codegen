@@ -192,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::Oculus::InputFocus::InputFocus()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputFocus>())) {}
+ Unity::XR::Oculus::InputFocus Unity::XR::Oculus::InputFocus::New_ctor()  {
+Unity::XR::Oculus::InputFocus o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::InputFocus>())};
+return o;
+}
  void Unity::XR::Oculus::InputFocus::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::InputFocus>::get(),

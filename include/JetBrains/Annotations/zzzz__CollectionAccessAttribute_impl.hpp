@@ -59,8 +59,10 @@ constexpr void JetBrains::Annotations::CollectionAccessAttribute::__set__Collect
 constexpr JetBrains::Annotations::CollectionAccessType JetBrains::Annotations::CollectionAccessAttribute::__get__CollectionAccessType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<JetBrains::Annotations::CollectionAccessType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "collectionAccessType", ty: "JetBrains::Annotations::CollectionAccessType", modifiers: "", def_value: None }]
- JetBrains::Annotations::CollectionAccessAttribute::CollectionAccessAttribute(JetBrains::Annotations::CollectionAccessType collectionAccessType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<CollectionAccessAttribute>(collectionAccessType))) {}
+ JetBrains::Annotations::CollectionAccessAttribute JetBrains::Annotations::CollectionAccessAttribute::New_ctor(JetBrains::Annotations::CollectionAccessType collectionAccessType)  {
+JetBrains::Annotations::CollectionAccessAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::CollectionAccessAttribute>(collectionAccessType))};
+return o;
+}
  void JetBrains::Annotations::CollectionAccessAttribute::_ctor(JetBrains::Annotations::CollectionAccessType collectionAccessType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::CollectionAccessAttribute>::get(),

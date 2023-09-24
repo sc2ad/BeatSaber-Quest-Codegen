@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__RecordingToolSettingsViewController_def.hpp"
 #include "HMUI/zzzz__TextPageScrollView_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RecordingToolSettingsViewController.add_didFinishEvent
 template<>
 
@@ -141,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-// Ctor Parameters []
- GlobalNamespace::RecordingToolSettingsViewController::RecordingToolSettingsViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<RecordingToolSettingsViewController>())) {}
+ GlobalNamespace::RecordingToolSettingsViewController GlobalNamespace::RecordingToolSettingsViewController::New_ctor()  {
+GlobalNamespace::RecordingToolSettingsViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingToolSettingsViewController>())};
+return o;
+}
  void GlobalNamespace::RecordingToolSettingsViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingToolSettingsViewController>::get(),

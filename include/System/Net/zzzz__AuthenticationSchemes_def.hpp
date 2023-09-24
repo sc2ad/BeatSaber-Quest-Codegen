@@ -61,6 +61,8 @@ constexpr operator __AuthenticationSchemes_Unwrapped () const noexcept {
 return std::bit_cast<__AuthenticationSchemes_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

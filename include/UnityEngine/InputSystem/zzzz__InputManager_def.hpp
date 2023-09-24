@@ -7,82 +7,74 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventStream;
 }
+namespace UnityEngine::InputSystem {
+template<typename TDevice>
+class UnityEngine__InputSystem__InputManager____c__60_1;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputManager____c;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct InlinedArray_1;
+}
 namespace System {
 class Action;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceMatcher;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
 }
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
+}
 namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
+template<typename TDelegate>
+struct CallbackArray_1;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
+struct UnityEngine__InputSystem__InputManager__StateChangeMonitorListener;
 }
 namespace UnityEngine::InputSystem {
-class InputDevice;
+struct UnityEngine__InputSystem__InputManager__AvailableDevice;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__Collection;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlLayoutChange;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputDevice__DeviceFlags;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputMetrics;
 }
 namespace UnityEngine::InputSystem {
 struct InputDeviceChange;
 }
 namespace UnityEngine::InputSystem {
-class InputSettings;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct TypeTable;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputStateBuffers;
-}
-namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputDevice__DeviceFlags;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct UnityEngine__InputSystem__Layouts__InputControlLayout__Collection;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputDeviceFindControlLayoutDelegate;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateChangeMonitor;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputMetrics;
-}
-namespace System {
-class Type;
+struct UnityEngine__InputSystem__InputManager__StateChangeMonitorsForDevice;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
-}
 namespace UnityEngine::InputSystem {
-struct InputControlLayoutChange;
+class InputControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class InputDeviceExecuteCommandDelegate;
@@ -90,53 +82,82 @@ class InputDeviceExecuteCommandDelegate;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventBuffer;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputStateBlock;
+class IInputStateChangeMonitor;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputStateBuffers;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceMatcher;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputManager__DeviceDisableScope;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template<typename TDelegate>
-struct CallbackArray_1;
+struct TypeTable;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputManager__StateChangeMonitorTimeout;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputDeviceFindControlLayoutDelegate;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceCommandDelegate;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__InputStateBuffers__DoubleBuffers;
 }
 namespace UnityEngine::InputSystem {
 template<typename TControl>
 struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct UnityEngine__InputSystem__LowLevel__InputStateBuffers__DoubleBuffers;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceCommandDelegate;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
-namespace System {
-template<typename TResult>
-class Func_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct InlinedArray_1;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputStateBlock;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputRuntime;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class List_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+class InputSettings;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -145,6 +166,10 @@ struct System__Collections__Generic__Dictionary_2__Enumerator;
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -152,11 +177,11 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace UnityEngine::InputSystem {
-struct DynamicBitfield;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion;
+}
+namespace UnityEngine::InputSystem {
+struct DynamicBitfield;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -241,6 +266,8 @@ __TemporaryWhilePlayerIsInBackground = 2,
 constexpr operator __UnityEngine__InputSystem__InputManager__DeviceDisableScope_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputManager__DeviceDisableScope_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -717,8 +744,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__Dictionary
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75(int32_t __1__state) ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager___ListControlLayouts_d__75 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x292491c size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -823,8 +849,7 @@ static System::Func_2<UnityEngine::InputSystem::InputDevice,::StringW> __get___9
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputManager____c() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x292537c size 0x8 virtual false final false
  void _ctor() ;
@@ -1510,8 +1535,7 @@ static void WriteStateChange(UnityEngine::InputSystem::LowLevel::UnityEngine__In
 /// @brief Method ProcessStateChangeMonitorTimeouts addr 0x2921fd8 size 0x2b4 virtual false final false
  void ProcessStateChangeMonitorTimeouts() ;
 
-// Ctor Parameters []
-explicit InputManager() ;
+static UnityEngine::InputSystem::InputManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x292331c size 0x8 virtual false final false
  void _ctor() ;
@@ -1582,8 +1606,7 @@ static System::Func_1<UnityEngine::InputSystem::InputDevice> __get___9__60_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputManager____c__60_1() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputManager____c__60_1<TDevice> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/Linq/zzzz__XElement_def.hpp"
-#include "System/Xml/Linq/zzzz__XObjectChangeEventArgs_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
+#include "System/Xml/Linq/zzzz__XElement_def.hpp"
 #include "System/Xml/Linq/zzzz__XContainer_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Xml/Linq/zzzz__XObjectChangeEventArgs_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::XObject._ctor
 template<>
 
@@ -154,8 +154,10 @@ constexpr void System::Xml::Linq::XObject::__set_annotations(::bs_hook::Il2CppWr
 constexpr ::bs_hook::Il2CppWrapperType System::Xml::Linq::XObject::__get_annotations() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Linq::XObject::XObject()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XObject>())) {}
+ System::Xml::Linq::XObject System::Xml::Linq::XObject::New_ctor()  {
+System::Xml::Linq::XObject o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XObject>())};
+return o;
+}
  void System::Xml::Linq::XObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XObject>::get(),

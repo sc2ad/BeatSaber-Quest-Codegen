@@ -3,19 +3,19 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class TrackLaneRingsManager;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class TrackLaneRingsManager;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,8 +117,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method HandleBeatmapEvent addr 0x226d0bc size 0x78 virtual false final false
  void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
-// Ctor Parameters []
-explicit TrackLaneRingsPositionStepEffectSpawner() ;
+static GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x226d134 size 0x1c virtual false final false
  void _ctor() ;

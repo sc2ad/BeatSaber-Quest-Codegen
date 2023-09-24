@@ -1,11 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
-namespace System {
-class Uri;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -62,8 +62,7 @@ constexpr System::Uri __get_uri() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit XmlCachedStream(System::Uri uri, System::IO::Stream stream) ;
+static System::Xml::XmlCachedStream New_ctor(System::Uri uri, System::IO::Stream stream) ;
 
 /// @brief Method .ctor addr 0x2710964 size 0x174 virtual false final false
  void _ctor(System::Uri uri, System::IO::Stream stream) ;

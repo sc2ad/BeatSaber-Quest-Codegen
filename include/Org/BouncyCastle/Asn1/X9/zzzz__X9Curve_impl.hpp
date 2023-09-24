@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9Curve_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9FieldID_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9FieldID_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X9::X9Curve._ctor
 template<>
 
@@ -144,8 +144,10 @@ constexpr void Org::BouncyCastle::Asn1::X9::X9Curve::__set_fieldIdentifier(Org::
 constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::X9::X9Curve::__get_fieldIdentifier() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerObjectIdentifier, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9Curve::X9Curve(Org::BouncyCastle::Math::EC::ECCurve curve)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9Curve>(curve))) {}
+ Org::BouncyCastle::Asn1::X9::X9Curve Org::BouncyCastle::Asn1::X9::X9Curve::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve)  {
+Org::BouncyCastle::Asn1::X9::X9Curve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9Curve>(curve))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9Curve::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9Curve>::get(),
@@ -155,8 +157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, curve);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9Curve::X9Curve(Org::BouncyCastle::Math::EC::ECCurve curve, ::ArrayW<uint8_t> seed)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9Curve>(curve, seed))) {}
+ Org::BouncyCastle::Asn1::X9::X9Curve Org::BouncyCastle::Asn1::X9::X9Curve::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, ::ArrayW<uint8_t> seed)  {
+Org::BouncyCastle::Asn1::X9::X9Curve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9Curve>(curve, seed))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9Curve::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, ::ArrayW<uint8_t> seed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9Curve>::get(),
@@ -166,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, curve, seed);
 }
-// Ctor Parameters [CppParam { name: "fieldID", ty: "Org::BouncyCastle::Asn1::X9::X9FieldID", modifiers: "", def_value: None }, CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9Curve::X9Curve(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9Curve>(fieldID, seq))) {}
+ Org::BouncyCastle::Asn1::X9::X9Curve Org::BouncyCastle::Asn1::X9::X9Curve::New_ctor(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X9::X9Curve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9Curve>(fieldID, seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9Curve::_ctor(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9Curve>::get(),
@@ -177,8 +183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fieldID, seq);
 }
-// Ctor Parameters [CppParam { name: "fieldID", ty: "Org::BouncyCastle::Asn1::X9::X9FieldID", modifiers: "", def_value: None }, CppParam { name: "order", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9Curve::X9Curve(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor, Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9Curve>(fieldID, order, cofactor, seq))) {}
+ Org::BouncyCastle::Asn1::X9::X9Curve Org::BouncyCastle::Asn1::X9::X9Curve::New_ctor(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor, Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X9::X9Curve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9Curve>(fieldID, order, cofactor, seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9Curve::_ctor(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor, Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9Curve>::get(),

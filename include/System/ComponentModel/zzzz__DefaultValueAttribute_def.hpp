@@ -64,20 +64,17 @@ constexpr ::bs_hook::Il2CppWrapperType __get__value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "bool", modifiers: "", def_value: None }]
-explicit DefaultValueAttribute(bool value) ;
+static System::ComponentModel::DefaultValueAttribute New_ctor(bool value) ;
 
 /// @brief Method .ctor addr 0x2770dcc size 0x6c virtual false final false
  void _ctor(bool value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DefaultValueAttribute(::StringW value) ;
+static System::ComponentModel::DefaultValueAttribute New_ctor(::StringW value) ;
 
 /// @brief Method .ctor addr 0x2770e38 size 0x28 virtual false final false
  void _ctor(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit DefaultValueAttribute(::bs_hook::Il2CppWrapperType value) ;
+static System::ComponentModel::DefaultValueAttribute New_ctor(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method .ctor addr 0x2770e60 size 0x28 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType value) ;

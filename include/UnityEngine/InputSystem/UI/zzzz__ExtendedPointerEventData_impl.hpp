@@ -5,10 +5,10 @@
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__TouchControl_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Pen_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::UI::ExtendedPointerEventData._ctor
 template<>
 
@@ -408,8 +408,10 @@ constexpr void UnityEngine::InputSystem::UI::ExtendedPointerEventData::__set__tr
 constexpr UnityEngine::Quaternion UnityEngine::InputSystem::UI::ExtendedPointerEventData::__get__trackedDeviceOrientation_k__BackingField() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Quaternion, 0x188>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::UI::ExtendedPointerEventData::ExtendedPointerEventData(UnityEngine::EventSystems::EventSystem eventSystem)  : UnityEngine::EventSystems::PointerEventData(THROW_UNLESS(::il2cpp_utils::New<ExtendedPointerEventData>(eventSystem))) {}
+ UnityEngine::InputSystem::UI::ExtendedPointerEventData UnityEngine::InputSystem::UI::ExtendedPointerEventData::New_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
+UnityEngine::InputSystem::UI::ExtendedPointerEventData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UI::ExtendedPointerEventData>(eventSystem))};
+return o;
+}
  void UnityEngine::InputSystem::UI::ExtendedPointerEventData::_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UI::ExtendedPointerEventData>::get(),

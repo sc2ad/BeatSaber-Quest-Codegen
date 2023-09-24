@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace GlobalNamespace {
-class ColorSchemeSO;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class ColorSchemeSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -225,26 +225,22 @@ constexpr UnityEngine::Color __get__environmentColorWBoost() const;
 /// @brief Method get_obstaclesColor addr 0x11a307c size 0xc virtual false final false
  UnityEngine::Color get_obstaclesColor() ;
 
-// Ctor Parameters [CppParam { name: "colorSchemeId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "colorSchemeNameLocalizationKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "useNonLocalizedName", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nonLocalizedName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isEditable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "saberAColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "supportsEnvironmentColorBoost", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
-explicit ColorScheme(::StringW colorSchemeId, ::StringW colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::StringW nonLocalizedName, bool isEditable, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) ;
+static GlobalNamespace::ColorScheme New_ctor(::StringW colorSchemeId, ::StringW colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::StringW nonLocalizedName, bool isEditable, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) ;
 
 /// @brief Method .ctor addr 0x11a3088 size 0x110 virtual false final false
  void _ctor(::StringW colorSchemeId, ::StringW colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::StringW nonLocalizedName, bool isEditable, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) ;
 
-// Ctor Parameters [CppParam { name: "colorScheme", ty: "GlobalNamespace::ColorScheme", modifiers: "", def_value: None }, CppParam { name: "saberAColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor0", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "supportsEnvironmentColorBoost", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentColor0Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "environmentColor1Boost", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
-explicit ColorScheme(GlobalNamespace::ColorScheme colorScheme, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) ;
+static GlobalNamespace::ColorScheme New_ctor(GlobalNamespace::ColorScheme colorScheme, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) ;
 
 /// @brief Method .ctor addr 0x11a3198 size 0x90 virtual false final false
  void _ctor(GlobalNamespace::ColorScheme colorScheme, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) ;
 
-// Ctor Parameters [CppParam { name: "colorScheme", ty: "GlobalNamespace::ColorScheme", modifiers: "", def_value: None }]
-explicit ColorScheme(GlobalNamespace::ColorScheme colorScheme) ;
+static GlobalNamespace::ColorScheme New_ctor(GlobalNamespace::ColorScheme colorScheme) ;
 
 /// @brief Method .ctor addr 0x11a3228 size 0xb0 virtual false final false
  void _ctor(GlobalNamespace::ColorScheme colorScheme) ;
 
-// Ctor Parameters [CppParam { name: "colorScheme", ty: "GlobalNamespace::ColorSchemeSO", modifiers: "", def_value: None }]
-explicit ColorScheme(GlobalNamespace::ColorSchemeSO colorScheme) ;
+static GlobalNamespace::ColorScheme New_ctor(GlobalNamespace::ColorSchemeSO colorScheme) ;
 
 /// @brief Method .ctor addr 0x11a32d8 size 0x18 virtual false final false
  void _ctor(GlobalNamespace::ColorSchemeSO colorScheme) ;

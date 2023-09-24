@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
+class InfCodes;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class InfCodes;
+class ZStream;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class InfTree;
@@ -247,8 +247,7 @@ constexpr Org::BouncyCastle::Utilities::Zlib::InfTree __get_inftree() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "z", ty: "Org::BouncyCastle::Utilities::Zlib::ZStream", modifiers: "", def_value: None }, CppParam { name: "checkfn", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: None }]
-explicit InfBlocks(Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::Il2CppWrapperType checkfn, int32_t w) ;
+static Org::BouncyCastle::Utilities::Zlib::InfBlocks New_ctor(Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::Il2CppWrapperType checkfn, int32_t w) ;
 
 /// @brief Method .ctor addr 0x10d93a8 size 0x148 virtual false final false
  void _ctor(Org::BouncyCastle::Utilities::Zlib::ZStream z, ::bs_hook::Il2CppWrapperType checkfn, int32_t w) ;

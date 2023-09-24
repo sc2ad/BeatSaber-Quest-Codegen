@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweep_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepConstraint_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__AdvancingFrontNode_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DelaunayTriangle_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Orientation_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepContext_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__AdvancingFrontNode_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweep_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DelaunayTriangle_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepConstraint_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Orientation_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0._ctor
 template<>
 
@@ -46,8 +47,10 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2
 constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0::__get_ep() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0>())) {}
+ UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0 UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0::New_ctor()  {
+UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__DTSweep____c__DisplayClass21_0>::get(),

@@ -1,17 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+namespace UnityEngine {
+struct Color;
+}
 namespace HMUI {
 class CurvedCanvasSettingsHelper;
 }
 namespace GlobalNamespace {
-class IComponentRefresher;
-}
-namespace GlobalNamespace {
 class ColorSO;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class IComponentRefresher;
 }
 // Forward declare root types
 namespace HMUI {
@@ -111,8 +111,7 @@ constexpr HMUI::CurvedCanvasSettingsHelper __get__curvedCanvasSettingsHelper() c
 /// @brief Method __Refresh addr 0x1fa91b0 size 0x10 virtual true final true
  void __Refresh() ;
 
-// Ctor Parameters []
-explicit CurvedTextMeshPro() ;
+static HMUI::CurvedTextMeshPro New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa91c0 size 0x8c virtual false final false
  void _ctor() ;

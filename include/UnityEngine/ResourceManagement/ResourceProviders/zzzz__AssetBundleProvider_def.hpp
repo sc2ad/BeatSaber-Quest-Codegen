@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+namespace System {
+class Type;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
-namespace System {
-class Type;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -69,8 +69,7 @@ static void WaitForAllUnloadingBundlesToComplete() ;
 /// @brief Method Release addr 0x2a3e024 size 0x184 virtual true final false
  void Release(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, ::bs_hook::Il2CppWrapperType asset) ;
 
-// Ctor Parameters []
-explicit AssetBundleProvider() ;
+static UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3e1a8 size 0x8 virtual false final false
  void _ctor() ;

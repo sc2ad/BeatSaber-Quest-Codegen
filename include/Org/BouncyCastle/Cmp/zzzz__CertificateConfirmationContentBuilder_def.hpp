@@ -1,23 +1,23 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Cms {
+class DefaultSignatureAlgorithmIdentifierFinder;
+}
 namespace Org::BouncyCastle::Cmp {
 class CertificateConfirmationContent;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 namespace Org::BouncyCastle::Cms {
 class DefaultDigestAlgorithmIdentifierFinder;
 }
-namespace Org::BouncyCastle::Cms {
-class DefaultSignatureAlgorithmIdentifierFinder;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {
@@ -92,14 +92,12 @@ constexpr System::Collections::IList __get_acceptedReqIds() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CertificateConfirmationContentBuilder() ;
+static Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x114b388 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "digestAlgFinder", ty: "Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder", modifiers: "", def_value: None }]
-explicit CertificateConfirmationContentBuilder(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder) ;
+static Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder New_ctor(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder) ;
 
 /// @brief Method .ctor addr 0x114b3ec size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder) ;

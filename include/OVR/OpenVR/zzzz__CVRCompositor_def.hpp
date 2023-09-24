@@ -6,43 +6,43 @@
 #include <cmath>
 #include <cstdint>
 namespace OVR::OpenVR {
-struct IVRCompositor;
-}
-namespace OVR::OpenVR {
 struct EVRSubmitFlags;
-}
-namespace OVR::OpenVR {
-struct EVREye;
-}
-namespace OVR::OpenVR {
-struct HmdColor_t;
-}
-namespace OVR::OpenVR {
-struct VRTextureBounds_t;
-}
-namespace OVR::OpenVR {
-struct TrackedDevicePose_t;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace OVR::OpenVR {
-struct EVRCompositorTimingMode;
-}
-namespace OVR::OpenVR {
-struct Compositor_FrameTiming;
 }
 namespace OVR::OpenVR {
 struct Compositor_CumulativeStats;
 }
 namespace OVR::OpenVR {
-struct Texture_t;
+struct EVRCompositorTimingMode;
+}
+namespace OVR::OpenVR {
+struct VRTextureBounds_t;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace OVR::OpenVR {
 struct ETrackingUniverseOrigin;
 }
 namespace OVR::OpenVR {
+struct HmdColor_t;
+}
+namespace OVR::OpenVR {
+struct Compositor_FrameTiming;
+}
+namespace OVR::OpenVR {
+struct EVREye;
+}
+namespace OVR::OpenVR {
 struct EVRCompositorError;
+}
+namespace OVR::OpenVR {
+struct IVRCompositor;
+}
+namespace OVR::OpenVR {
+struct TrackedDevicePose_t;
+}
+namespace OVR::OpenVR {
+struct Texture_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -99,8 +99,7 @@ constexpr OVR::OpenVR::IVRCompositor __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRCompositor(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRCompositor New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x26658e4 size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

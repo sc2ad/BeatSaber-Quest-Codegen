@@ -51,8 +51,7 @@ constexpr explicit TlsException(void* ptr) noexcept : System::IO::IOException(pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cause", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit TlsException(::StringW message, System::Exception cause) ;
+static Org::BouncyCastle::Crypto::Tls::TlsException New_ctor(::StringW message, System::Exception cause) ;
 
 /// @brief Method .ctor addr 0xf1edf8 size 0x8 virtual false final false
  void _ctor(::StringW message, System::Exception cause) ;

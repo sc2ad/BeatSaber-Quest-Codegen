@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/zzzz__NtlmClient_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
-#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
+#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
 //  Writing Method size for method: System::Net::NtlmClient._ctor
 template<>
 
@@ -82,8 +82,10 @@ constexpr void System::Net::NtlmClient::__set_authObject(System::Net::IAuthentic
 constexpr System::Net::IAuthenticationModule System::Net::NtlmClient::__get_authObject() const {
 return ::cordl_internals::getInstanceField<System::Net::IAuthenticationModule, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::NtlmClient::NtlmClient()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NtlmClient>())) {}
+ System::Net::NtlmClient System::Net::NtlmClient::New_ctor()  {
+System::Net::NtlmClient o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NtlmClient>())};
+return o;
+}
  void System::Net::NtlmClient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NtlmClient>::get(),

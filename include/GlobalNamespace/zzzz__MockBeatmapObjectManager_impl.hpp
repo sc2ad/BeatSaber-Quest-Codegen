@@ -1,15 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_impl.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapObjectManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__SliderData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockBeatmapObjectManager.get_activeObstacleControllers
 template<>
@@ -210,8 +208,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sliderNoteController);
 }
-// Ctor Parameters []
- GlobalNamespace::MockBeatmapObjectManager::MockBeatmapObjectManager()  : GlobalNamespace::BeatmapObjectManager(THROW_UNLESS(::il2cpp_utils::New<MockBeatmapObjectManager>())) {}
+ GlobalNamespace::MockBeatmapObjectManager GlobalNamespace::MockBeatmapObjectManager::New_ctor()  {
+GlobalNamespace::MockBeatmapObjectManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockBeatmapObjectManager>())};
+return o;
+}
  void GlobalNamespace::MockBeatmapObjectManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockBeatmapObjectManager>::get(),

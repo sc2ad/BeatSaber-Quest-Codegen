@@ -5,8 +5,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+class GlobalNamespace__BurstSliderSpawner__ProcessNoteDataDelegate;
 }
 namespace GlobalNamespace {
 class SliderData;
@@ -14,8 +14,11 @@ class SliderData;
 namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
+namespace UnityEngine {
+struct Vector2;
+}
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+class NoteData;
 }
 namespace System {
 class AsyncCallback;
@@ -24,7 +27,7 @@ namespace System {
 class IAsyncResult;
 }
 namespace GlobalNamespace {
-class NoteData;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +78,7 @@ constexpr explicit GlobalNamespace__BurstSliderSpawner__ProcessNoteDataDelegate(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BurstSliderSpawner__ProcessNoteDataDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__BurstSliderSpawner__ProcessNoteDataDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x222f584 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

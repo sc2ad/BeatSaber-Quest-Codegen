@@ -4,25 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KdfParameters;
-}
-namespace Org::BouncyCastle::Crypto {
 class BufferedBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class IesParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
+class IBasicAgreement;
+}
+namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class IesParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KdfParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -127,14 +127,12 @@ constexpr Org::BouncyCastle::Crypto::Parameters::IesParameters __get_param() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "agree", ty: "Org::BouncyCastle::Crypto::IBasicAgreement", modifiers: "", def_value: None }, CppParam { name: "kdf", ty: "Org::BouncyCastle::Crypto::IDerivationFunction", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit IesEngine(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac) ;
+static Org::BouncyCastle::Crypto::Engines::IesEngine New_ctor(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac) ;
 
 /// @brief Method .ctor addr 0xe481b8 size 0xf4 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac) ;
 
-// Ctor Parameters [CppParam { name: "agree", ty: "Org::BouncyCastle::Crypto::IBasicAgreement", modifiers: "", def_value: None }, CppParam { name: "kdf", ty: "Org::BouncyCastle::Crypto::IDerivationFunction", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::BufferedBlockCipher", modifiers: "", def_value: None }]
-explicit IesEngine(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Crypto::BufferedBlockCipher cipher) ;
+static Org::BouncyCastle::Crypto::Engines::IesEngine New_ctor(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Crypto::BufferedBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe482ac size 0x100 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Crypto::BufferedBlockCipher cipher) ;

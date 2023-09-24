@@ -7,20 +7,20 @@
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Cms {
-class RecipientInformationStore;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class AuthenticatedDataParser;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInformationStore;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -128,14 +128,12 @@ constexpr bool __get_unauthAttrNotRead() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "envelopedData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsAuthenticatedDataParser(::ArrayW<uint8_t> envelopedData) ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedDataParser New_ctor(::ArrayW<uint8_t> envelopedData) ;
 
 /// @brief Method .ctor addr 0x1150638 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> envelopedData) ;
 
-// Ctor Parameters [CppParam { name: "envelopedData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsAuthenticatedDataParser(System::IO::Stream envelopedData) ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedDataParser New_ctor(System::IO::Stream envelopedData) ;
 
 /// @brief Method .ctor addr 0x11506b0 size 0x308 virtual false final false
  void _ctor(System::IO::Stream envelopedData) ;

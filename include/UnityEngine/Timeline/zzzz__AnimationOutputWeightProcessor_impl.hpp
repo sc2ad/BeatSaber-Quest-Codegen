@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AnimationOutputWeightProcessor_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/Animations/zzzz__AnimationMotionXToDeltaPlayable_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_def.hpp"
+#include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_def.hpp"
+#include "UnityEngine/Animations/zzzz__AnimationMotionXToDeltaPlayable_def.hpp"
+#include "UnityEngine/Timeline/zzzz__AnimationOutputWeightProcessor_def.hpp"
 // Ctor Parameters [CppParam { name: "mixer", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: Some("{}") }, CppParam { name: "parentMixer", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: Some("{}") }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::Timeline::UnityEngine__Timeline__AnimationOutputWeightProcessor__WeightInfo::UnityEngine__Timeline__AnimationOutputWeightProcessor__WeightInfo(UnityEngine::Playables::Playable mixer, UnityEngine::Playables::Playable parentMixer, int32_t port) noexcept : ::bs_hook::ValueTypeWrapper() {this->mixer = mixer;
 this->parentMixer = parentMixer;
@@ -119,8 +120,10 @@ constexpr void UnityEngine::Timeline::AnimationOutputWeightProcessor::__set_m_Mi
 constexpr System::Collections::Generic::List_1<UnityEngine::Timeline::UnityEngine__Timeline__AnimationOutputWeightProcessor__WeightInfo> UnityEngine::Timeline::AnimationOutputWeightProcessor::__get_m_Mixers() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<UnityEngine::Timeline::UnityEngine__Timeline__AnimationOutputWeightProcessor__WeightInfo>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "output", ty: "UnityEngine::Animations::AnimationPlayableOutput", modifiers: "", def_value: None }]
- UnityEngine::Timeline::AnimationOutputWeightProcessor::AnimationOutputWeightProcessor(UnityEngine::Animations::AnimationPlayableOutput output)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AnimationOutputWeightProcessor>(output))) {}
+ UnityEngine::Timeline::AnimationOutputWeightProcessor UnityEngine::Timeline::AnimationOutputWeightProcessor::New_ctor(UnityEngine::Animations::AnimationPlayableOutput output)  {
+UnityEngine::Timeline::AnimationOutputWeightProcessor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::AnimationOutputWeightProcessor>(output))};
+return o;
+}
  void UnityEngine::Timeline::AnimationOutputWeightProcessor::_ctor(UnityEngine::Animations::AnimationPlayableOutput output)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::AnimationOutputWeightProcessor>::get(),

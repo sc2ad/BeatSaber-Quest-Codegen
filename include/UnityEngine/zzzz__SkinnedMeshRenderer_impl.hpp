@@ -1,11 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
-#include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__SkinQuality_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__SkinQuality_def.hpp"
 //  Writing Method size for method: UnityEngine::SkinnedMeshRenderer.get_quality
 template<>
 
@@ -647,8 +646,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::SkinnedMeshRenderer::SkinnedMeshRenderer()  : UnityEngine::Renderer(THROW_UNLESS(::il2cpp_utils::New<SkinnedMeshRenderer>())) {}
+ UnityEngine::SkinnedMeshRenderer UnityEngine::SkinnedMeshRenderer::New_ctor()  {
+UnityEngine::SkinnedMeshRenderer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::SkinnedMeshRenderer>())};
+return o;
+}
  void UnityEngine::SkinnedMeshRenderer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SkinnedMeshRenderer>::get(),

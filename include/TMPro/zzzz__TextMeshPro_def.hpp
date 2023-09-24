@@ -5,29 +5,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class MeshFilter;
-}
 namespace TMPro {
-class TMP_SubMesh;
+struct MaskingTypes;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+class Material;
 }
-namespace TMPro {
-class TMP_TextInfo;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine {
 struct Vector4;
 }
+namespace UnityEngine {
+struct Color32;
+}
+namespace TMPro {
+struct TMPro__TMP_Text__UnicodeChar;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
+class Renderer;
+}
 namespace UnityEngine::UI {
-struct CanvasUpdate;
+class ILayoutElement;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 namespace TMPro {
 class TextContainer;
@@ -35,36 +44,27 @@ class TextContainer;
 namespace TMPro {
 struct TMP_VertexDataUpdateFlags;
 }
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace TMPro {
-struct MaskingTypes;
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class Renderer;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-class Material;
+class Transform;
 }
 namespace TMPro {
-struct TMPro__TMP_Text__UnicodeChar;
+class TMP_TextInfo;
+}
+namespace TMPro {
+class TMP_SubMesh;
 }
 // Forward declare root types
 namespace TMPro {
@@ -583,8 +583,7 @@ static Unity::Profiling::ProfilerMarker __get_k_GenerateTextPhaseIIIMarker() ;
 /// @brief Method UpdateSDFScale addr 0x2a5ee60 size 0x184 virtual false final false
  void UpdateSDFScale(float_t scaleDelta) ;
 
-// Ctor Parameters []
-explicit TextMeshPro() ;
+static TMPro::TextMeshPro New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a5f798 size 0xc0 virtual false final false
  void _ctor() ;

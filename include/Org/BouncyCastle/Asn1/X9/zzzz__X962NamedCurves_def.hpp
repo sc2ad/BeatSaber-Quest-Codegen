@@ -13,19 +13,88 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb163v1Holder;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime239v2Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime192v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb191v3Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb163v3Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb272w1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime239v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb208w1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb163v2Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime192v2Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime192v3Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb191v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb239v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb359v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb368w1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb176w1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb431r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb191v2Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb239v2Holder;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime239v3Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb239v3Holder;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb304w1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime256v1Holder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -151,8 +220,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime192v1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime192v1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x112107c size 0x8 virtual false final false
  void _ctor() ;
@@ -215,8 +283,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime192v2Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime192v2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1121660 size 0x8 virtual false final false
  void _ctor() ;
@@ -279,8 +346,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime192v3Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime192v3Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x11218f0 size 0x8 virtual false final false
  void _ctor() ;
@@ -343,8 +409,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime239v1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime239v1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1121b80 size 0x8 virtual false final false
  void _ctor() ;
@@ -407,8 +472,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime239v2Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime239v2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1121e1c size 0x8 virtual false final false
  void _ctor() ;
@@ -471,8 +535,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime239v3Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime239v3Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x11220b8 size 0x8 virtual false final false
  void _ctor() ;
@@ -535,8 +598,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime256v1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__Prime256v1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1122354 size 0x8 virtual false final false
  void _ctor() ;
@@ -599,8 +661,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb163v1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb163v1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x11225f0 size 0x8 virtual false final false
  void _ctor() ;
@@ -663,8 +724,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb163v2Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb163v2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1122864 size 0x8 virtual false final false
  void _ctor() ;
@@ -727,8 +787,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb163v3Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb163v3Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1122a8c size 0x8 virtual false final false
  void _ctor() ;
@@ -791,8 +850,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb176w1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb176w1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1122cac size 0x8 virtual false final false
  void _ctor() ;
@@ -855,8 +913,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb191v1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb191v1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1122ed4 size 0x8 virtual false final false
  void _ctor() ;
@@ -919,8 +976,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb191v2Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb191v2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x112313c size 0x8 virtual false final false
  void _ctor() ;
@@ -983,8 +1039,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb191v3Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb191v3Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1123358 size 0x8 virtual false final false
  void _ctor() ;
@@ -1047,8 +1102,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb208w1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb208w1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1123574 size 0x8 virtual false final false
  void _ctor() ;
@@ -1111,8 +1165,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb239v1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb239v1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1123784 size 0x8 virtual false final false
  void _ctor() ;
@@ -1175,8 +1228,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb239v2Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb239v2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x11239a0 size 0x8 virtual false final false
  void _ctor() ;
@@ -1239,8 +1291,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb239v3Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb239v3Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1123bbc size 0x8 virtual false final false
  void _ctor() ;
@@ -1303,8 +1354,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb272w1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb272w1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1123dd8 size 0x8 virtual false final false
  void _ctor() ;
@@ -1367,8 +1417,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb304w1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb304w1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1124000 size 0x8 virtual false final false
  void _ctor() ;
@@ -1431,8 +1480,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb359v1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb359v1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1124228 size 0x8 virtual false final false
  void _ctor() ;
@@ -1495,8 +1543,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb368w1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2pnb368w1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1124444 size 0x8 virtual false final false
  void _ctor() ;
@@ -1559,8 +1606,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb431r1Holder() ;
+static Org::BouncyCastle::Asn1::X9::Org__BouncyCastle__Asn1__X9__X962NamedCurves__C2tnb431r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0x112466c size 0x8 virtual false final false
  void _ctor() ;
@@ -1686,8 +1732,7 @@ static System::Collections::IEnumerable __declspec(property(get=get_Names))  Nam
 
 // Methods
 
-// Ctor Parameters []
-explicit X962NamedCurves() ;
+static Org::BouncyCastle::Asn1::X9::X962NamedCurves New_ctor() ;
 
 /// @brief Method .ctor addr 0x111fd98 size 0x8 virtual false final false
  void _ctor() ;

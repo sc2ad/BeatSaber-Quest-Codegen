@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class BeatmapDataItem;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class ObstacleControllerBase;
+class CutoutAnimateEffect;
 }
 namespace GlobalNamespace {
-class CutoutAnimateEffect;
+class ObstacleControllerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,8 +81,7 @@ constexpr GlobalNamespace::CutoutAnimateEffect __get__cutoutAnimateEffect() cons
 /// @brief Method HandleObcstacleDidStartDissolvingEvent addr 0x2245e60 size 0x24 virtual false final false
  void HandleObcstacleDidStartDissolvingEvent(GlobalNamespace::ObstacleControllerBase obstacleController, float_t duration) ;
 
-// Ctor Parameters []
-explicit ObstacleDissolve() ;
+static GlobalNamespace::ObstacleDissolve New_ctor() ;
 
 /// @brief Method .ctor addr 0x2245ed8 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace UnityEngine::InputSystem {
-class IInputInteraction;
-}
 namespace UnityEngine::InputSystem::Interactions {
 struct PressBehavior;
+}
+namespace UnityEngine::InputSystem {
+class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
 struct InputInteractionContext;
@@ -101,8 +101,7 @@ constexpr bool __get_m_WaitingForRelease() const;
 /// @brief Method Reset addr 0x297a668 size 0x8 virtual true final true
  void Reset() ;
 
-// Ctor Parameters []
-explicit PressInteraction() ;
+static UnityEngine::InputSystem::Interactions::PressInteraction New_ctor() ;
 
 /// @brief Method .ctor addr 0x297a670 size 0x8 virtual false final false
  void _ctor() ;

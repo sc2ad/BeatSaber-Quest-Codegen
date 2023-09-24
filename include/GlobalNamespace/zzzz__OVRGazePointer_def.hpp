@@ -3,14 +3,14 @@
 #include "GlobalNamespace/zzzz__OVRCursor_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class OVRProgressIndicator;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace GlobalNamespace {
-class OVRProgressIndicator;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -227,8 +227,7 @@ static GlobalNamespace::OVRGazePointer get_instance() ;
 /// @brief Method Show addr 0x2620d48 size 0x118 virtual false final false
  void Show() ;
 
-// Ctor Parameters []
-explicit OVRGazePointer() ;
+static GlobalNamespace::OVRGazePointer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2621208 size 0x2c virtual false final false
  void _ctor() ;

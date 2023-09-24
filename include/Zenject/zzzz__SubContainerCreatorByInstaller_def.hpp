@@ -1,28 +1,28 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Zenject {
+class SubContainerCreatorBindInfo;
+}
+namespace Zenject {
+class ISubContainerCreator;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-class ISubContainerCreator;
-}
-namespace Zenject {
-struct TypeValuePair;
+class DiContainer;
 }
 namespace System {
 class Type;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace Zenject {
-class SubContainerCreatorBindInfo;
+struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
@@ -103,14 +103,12 @@ constexpr Zenject::SubContainerCreatorBindInfo __get__containerBindInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "containerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }, CppParam { name: "installerType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArgs", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByInstaller(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArgs) ;
+static Zenject::SubContainerCreatorByInstaller New_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArgs) ;
 
 /// @brief Method .ctor addr 0x2d91aa8 size 0xf0 virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArgs) ;
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "containerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }, CppParam { name: "installerType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByInstaller(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType) ;
+static Zenject::SubContainerCreatorByInstaller New_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType) ;
 
 /// @brief Method .ctor addr 0x2d91b98 size 0xa0 virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo, System::Type installerType) ;

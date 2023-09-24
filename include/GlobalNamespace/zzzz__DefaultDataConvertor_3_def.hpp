@@ -16,7 +16,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TBase,::cordl_internals::il2cpp_reference_type TIn,::cordl_internals::il2cpp_reference_type TOut>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(4315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4315), inst: 1118 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4315), inst: 1118 }), TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(4315))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4316), inst: 5155 })
 // CS Name: DefaultDataConvertor`3
 class CORDL_TYPE DefaultDataConvertor_3<TBase,TIn,TOut> : public GlobalNamespace::DataItemConvertor_3<TBase,TIn,TOut> {
@@ -58,8 +58,7 @@ constexpr explicit DefaultDataConvertor_3(void* ptr) noexcept : GlobalNamespace:
 /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
  TOut Convert(TIn item) ;
 
-// Ctor Parameters []
-explicit DefaultDataConvertor_3() ;
+static GlobalNamespace::DefaultDataConvertor_3<TBase,TIn,TOut> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

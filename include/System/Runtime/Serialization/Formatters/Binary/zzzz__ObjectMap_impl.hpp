@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectMap_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectReader_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ReadObjectInfo_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryTypeEnum_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssemblyInfo_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SizedArray_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ReadObjectInfo_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssemblyInfo_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectReader_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryTypeEnum_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__SizedArray_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::ObjectMap._ctor
 template<>
@@ -158,8 +158,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::ObjectMap::__
 constexpr System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo System::Runtime::Serialization::Formatters::Binary::ObjectMap::__get_assemblyInfo() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "objectName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "memberNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "objectReader", ty: "System::Runtime::Serialization::Formatters::Binary::ObjectReader", modifiers: "", def_value: None }, CppParam { name: "objectId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "assemblyInfo", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::ObjectMap::ObjectMap(::StringW objectName, System::Type objectType, ::ArrayW<::StringW> memberNames, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectMap>(objectName, objectType, memberNames, objectReader, objectId, assemblyInfo))) {}
+ System::Runtime::Serialization::Formatters::Binary::ObjectMap System::Runtime::Serialization::Formatters::Binary::ObjectMap::New_ctor(::StringW objectName, System::Type objectType, ::ArrayW<::StringW> memberNames, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo)  {
+System::Runtime::Serialization::Formatters::Binary::ObjectMap o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::ObjectMap>(objectName, objectType, memberNames, objectReader, objectId, assemblyInfo))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::ObjectMap::_ctor(::StringW objectName, System::Type objectType, ::ArrayW<::StringW> memberNames, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::ObjectMap>::get(),
@@ -169,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, objectName, objectType, memberNames, objectReader, objectId, assemblyInfo);
 }
-// Ctor Parameters [CppParam { name: "objectName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "memberNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "binaryTypeEnumA", ty: "::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>", modifiers: "", def_value: None }, CppParam { name: "typeInformationA", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "memberAssemIds", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "objectReader", ty: "System::Runtime::Serialization::Formatters::Binary::ObjectReader", modifiers: "", def_value: None }, CppParam { name: "objectId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "assemblyInfo", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo", modifiers: "", def_value: None }, CppParam { name: "assemIdToAssemblyTable", ty: "System::Runtime::Serialization::Formatters::Binary::SizedArray", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::ObjectMap::ObjectMap(::StringW objectName, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayW<::bs_hook::Il2CppWrapperType> typeInformationA, ::ArrayW<int32_t> memberAssemIds, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo, System::Runtime::Serialization::Formatters::Binary::SizedArray assemIdToAssemblyTable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectMap>(objectName, memberNames, binaryTypeEnumA, typeInformationA, memberAssemIds, objectReader, objectId, assemblyInfo, assemIdToAssemblyTable))) {}
+ System::Runtime::Serialization::Formatters::Binary::ObjectMap System::Runtime::Serialization::Formatters::Binary::ObjectMap::New_ctor(::StringW objectName, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayW<::bs_hook::Il2CppWrapperType> typeInformationA, ::ArrayW<int32_t> memberAssemIds, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo, System::Runtime::Serialization::Formatters::Binary::SizedArray assemIdToAssemblyTable)  {
+System::Runtime::Serialization::Formatters::Binary::ObjectMap o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::ObjectMap>(objectName, memberNames, binaryTypeEnumA, typeInformationA, memberAssemIds, objectReader, objectId, assemblyInfo, assemIdToAssemblyTable))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::ObjectMap::_ctor(::StringW objectName, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayW<::bs_hook::Il2CppWrapperType> typeInformationA, ::ArrayW<int32_t> memberAssemIds, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo, System::Runtime::Serialization::Formatters::Binary::SizedArray assemIdToAssemblyTable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::ObjectMap>::get(),

@@ -1,15 +1,15 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Oculus::Platform::Models {
-class AvatarEditorResult;
+namespace Oculus::Platform {
+class AvatarEditorOptions;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
-namespace Oculus::Platform {
-class AvatarEditorOptions;
+namespace Oculus::Platform::Models {
+class AvatarEditorResult;
 }
 // Forward declare root types
 namespace Oculus::Platform {

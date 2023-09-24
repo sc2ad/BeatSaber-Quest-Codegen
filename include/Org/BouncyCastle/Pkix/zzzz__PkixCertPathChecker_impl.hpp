@@ -104,8 +104,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::PkixCertPathChecker::PkixCertPathChecker()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixCertPathChecker>())) {}
+ Org::BouncyCastle::Pkix::PkixCertPathChecker Org::BouncyCastle::Pkix::PkixCertPathChecker::New_ctor()  {
+Org::BouncyCastle::Pkix::PkixCertPathChecker o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixCertPathChecker>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixCertPathChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixCertPathChecker>::get(),

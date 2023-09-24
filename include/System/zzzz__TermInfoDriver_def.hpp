@@ -5,32 +5,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections {
+class Hashtable;
+}
 namespace System {
 class TermInfoReader;
 }
 namespace System {
-class IConsoleDriver;
+struct ConsoleKeyInfo;
 }
-namespace System {
-class ByteMatcher;
+namespace System::IO {
+class StreamReader;
 }
 namespace System::IO {
 class CStreamWriter;
 }
 namespace System {
-struct ConsoleKeyInfo;
-}
-namespace System {
-struct ConsoleColor;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::IO {
-class StreamReader;
+class IConsoleDriver;
 }
 namespace System {
 struct TermInfoStrings;
+}
+namespace System {
+class ByteMatcher;
+}
+namespace System {
+struct ConsoleColor;
 }
 // Forward declare root types
 namespace System {
@@ -366,8 +366,7 @@ static ::StringW SearchTerminfo(::StringW term) ;
 /// @brief Method WriteConsole addr 0x2492108 size 0x28 virtual false final false
  void WriteConsole(::StringW str) ;
 
-// Ctor Parameters [CppParam { name: "term", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TermInfoDriver(::StringW term) ;
+static System::TermInfoDriver New_ctor(::StringW term) ;
 
 /// @brief Method .ctor addr 0x248942c size 0x348 virtual false final false
  void _ctor(::StringW term) ;

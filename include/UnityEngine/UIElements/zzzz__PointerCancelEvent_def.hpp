@@ -11,7 +11,7 @@ class PointerCancelEvent;
 // Type: UnityEngine.UIElements::PointerCancelEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4680 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4680 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7302))
 // CS Name: UnityEngine.UIElements.PointerCancelEvent
 class CORDL_TYPE PointerCancelEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerCancelEvent> {
@@ -56,8 +56,7 @@ constexpr explicit PointerCancelEvent(void* ptr) noexcept : UnityEngine::UIEleme
 /// @brief Method LocalInit addr 0x2cd8dcc size 0x104 virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit PointerCancelEvent() ;
+static UnityEngine::UIElements::PointerCancelEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd8ed0 size 0x50 virtual false final false
  void _ctor() ;

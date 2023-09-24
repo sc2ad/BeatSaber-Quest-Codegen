@@ -48,8 +48,7 @@ constexpr explicit AnyKeyControl(void* ptr) noexcept : UnityEngine::InputSystem:
 
 // Methods
 
-// Ctor Parameters []
-explicit AnyKeyControl() ;
+static UnityEngine::InputSystem::Controls::AnyKeyControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2977018 size 0x70 virtual false final false
  void _ctor() ;

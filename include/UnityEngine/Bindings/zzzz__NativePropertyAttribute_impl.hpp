@@ -102,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::Bindings::NativePropertyAttribute::NativePropertyAttribute()  : UnityEngine::Bindings::NativeMethodAttribute(THROW_UNLESS(::il2cpp_utils::New<NativePropertyAttribute>())) {}
+ UnityEngine::Bindings::NativePropertyAttribute UnityEngine::Bindings::NativePropertyAttribute::New_ctor()  {
+UnityEngine::Bindings::NativePropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativePropertyAttribute>())};
+return o;
+}
  void UnityEngine::Bindings::NativePropertyAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativePropertyAttribute>::get(),
@@ -113,8 +115,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Bindings::NativePropertyAttribute::NativePropertyAttribute(::StringW name)  : UnityEngine::Bindings::NativeMethodAttribute(THROW_UNLESS(::il2cpp_utils::New<NativePropertyAttribute>(name))) {}
+ UnityEngine::Bindings::NativePropertyAttribute UnityEngine::Bindings::NativePropertyAttribute::New_ctor(::StringW name)  {
+UnityEngine::Bindings::NativePropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativePropertyAttribute>(name))};
+return o;
+}
  void UnityEngine::Bindings::NativePropertyAttribute::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativePropertyAttribute>::get(),
@@ -124,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isFree", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "targetType", ty: "UnityEngine::Bindings::TargetType", modifiers: "", def_value: None }]
- UnityEngine::Bindings::NativePropertyAttribute::NativePropertyAttribute(::StringW name, bool isFree, UnityEngine::Bindings::TargetType targetType)  : UnityEngine::Bindings::NativeMethodAttribute(THROW_UNLESS(::il2cpp_utils::New<NativePropertyAttribute>(name, isFree, targetType))) {}
+ UnityEngine::Bindings::NativePropertyAttribute UnityEngine::Bindings::NativePropertyAttribute::New_ctor(::StringW name, bool isFree, UnityEngine::Bindings::TargetType targetType)  {
+UnityEngine::Bindings::NativePropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativePropertyAttribute>(name, isFree, targetType))};
+return o;
+}
  void UnityEngine::Bindings::NativePropertyAttribute::_ctor(::StringW name, bool isFree, UnityEngine::Bindings::TargetType targetType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativePropertyAttribute>::get(),
@@ -135,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, isFree, targetType);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isFree", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "targetType", ty: "UnityEngine::Bindings::TargetType", modifiers: "", def_value: None }, CppParam { name: "isThreadSafe", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::Bindings::NativePropertyAttribute::NativePropertyAttribute(::StringW name, bool isFree, UnityEngine::Bindings::TargetType targetType, bool isThreadSafe)  : UnityEngine::Bindings::NativeMethodAttribute(THROW_UNLESS(::il2cpp_utils::New<NativePropertyAttribute>(name, isFree, targetType, isThreadSafe))) {}
+ UnityEngine::Bindings::NativePropertyAttribute UnityEngine::Bindings::NativePropertyAttribute::New_ctor(::StringW name, bool isFree, UnityEngine::Bindings::TargetType targetType, bool isThreadSafe)  {
+UnityEngine::Bindings::NativePropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativePropertyAttribute>(name, isFree, targetType, isThreadSafe))};
+return o;
+}
  void UnityEngine::Bindings::NativePropertyAttribute::_ctor(::StringW name, bool isFree, UnityEngine::Bindings::TargetType targetType, bool isThreadSafe)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativePropertyAttribute>::get(),

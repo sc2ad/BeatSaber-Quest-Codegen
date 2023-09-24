@@ -13,7 +13,7 @@ class MessageWithCloudStorageConflictMetadata;
 // Type: Oculus.Platform::MessageWithCloudStorageConflictMetadata
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13405)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4440 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13405)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4440 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13228))
 // CS Name: Oculus.Platform.MessageWithCloudStorageConflictMetadata
 class CORDL_TYPE MessageWithCloudStorageConflictMetadata : public Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageConflictMetadata> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithCloudStorageConflictMetadata(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithCloudStorageConflictMetadata(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithCloudStorageConflictMetadata New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e3d0 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

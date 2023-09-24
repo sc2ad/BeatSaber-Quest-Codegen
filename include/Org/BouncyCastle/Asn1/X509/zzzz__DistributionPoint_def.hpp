@@ -6,23 +6,23 @@
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralNames;
+}
+namespace System::Text {
+class StringBuilder;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class DistributionPointName;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class ReasonFlags;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace System::Text {
-class StringBuilder;
+namespace Org::BouncyCastle::Asn1::X509 {
+class ReasonFlags;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -106,14 +106,12 @@ static Org::BouncyCastle::Asn1::X509::DistributionPoint GetInstance(Org::BouncyC
 /// @brief Method GetInstance addr 0x1100b80 size 0x178 virtual false final false
 static Org::BouncyCastle::Asn1::X509::DistributionPoint GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit DistributionPoint(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::DistributionPoint New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1101c80 size 0x170 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "distributionPointName", ty: "Org::BouncyCastle::Asn1::X509::DistributionPointName", modifiers: "", def_value: None }, CppParam { name: "reasons", ty: "Org::BouncyCastle::Asn1::X509::ReasonFlags", modifiers: "", def_value: None }, CppParam { name: "crlIssuer", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }]
-explicit DistributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName distributionPointName, Org::BouncyCastle::Asn1::X509::ReasonFlags reasons, Org::BouncyCastle::Asn1::X509::GeneralNames crlIssuer) ;
+static Org::BouncyCastle::Asn1::X509::DistributionPoint New_ctor(Org::BouncyCastle::Asn1::X509::DistributionPointName distributionPointName, Org::BouncyCastle::Asn1::X509::ReasonFlags reasons, Org::BouncyCastle::Asn1::X509::GeneralNames crlIssuer) ;
 
 /// @brief Method .ctor addr 0x1101eb4 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::DistributionPointName distributionPointName, Org::BouncyCastle::Asn1::X509::ReasonFlags reasons, Org::BouncyCastle::Asn1::X509::GeneralNames crlIssuer) ;

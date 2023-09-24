@@ -4,27 +4,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class Mesh;
-}
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
 class SliderMeshConstructor;
 }
-namespace GlobalNamespace {
-class SliderData;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace GlobalNamespace {
 class PathsHolder;
 }
+namespace GlobalNamespace {
+class SliderData;
+}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -168,8 +168,7 @@ static constexpr float_t  kDefaultGameNoteSize{0.45};
 /// @brief Method CutDirectionToControlPointPosition addr 0x224bfa0 size 0xdc virtual false final false
 static UnityEngine::Vector3 CutDirectionToControlPointPosition(GlobalNamespace::NoteCutDirection noteCutDirection) ;
 
-// Ctor Parameters []
-explicit SliderMeshController() ;
+static GlobalNamespace::SliderMeshController New_ctor() ;
 
 /// @brief Method .ctor addr 0x224c07c size 0xd0 virtual false final false
  void _ctor() ;

@@ -6,14 +6,13 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class AnimationCurve;
+struct Vector3;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
-template<typename T>
-class ILazyCopyHashSet_1;
+class GlobalNamespace__NoteDebris__Pool;
 }
 namespace GlobalNamespace {
 class INoteDebrisDidFinishEvent;
@@ -22,26 +21,30 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace GlobalNamespace {
-class ColorManager;
+template<typename T>
+class LazyCopyHashSet_1;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace GlobalNamespace {
-struct ColorType;
+class ColorManager;
 }
 namespace GlobalNamespace {
 template<typename T>
-class LazyCopyHashSet_1;
+class ILazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+struct ColorType;
 }
 namespace GlobalNamespace {
 class NoteDebrisPhysics;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -204,8 +207,7 @@ constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFini
 /// @brief Method Init addr 0x223ff08 size 0x570 virtual false final false
  void Init(GlobalNamespace::ColorType colorType, UnityEngine::Vector3 notePos, UnityEngine::Quaternion noteRot, UnityEngine::Vector3 noteMoveVec, UnityEngine::Vector3 noteScale, UnityEngine::Vector3 positionOffset, UnityEngine::Quaternion rotationOffset, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, UnityEngine::Vector3 force, UnityEngine::Vector3 torque, float_t lifeTime) ;
 
-// Ctor Parameters []
-explicit NoteDebris() ;
+static GlobalNamespace::NoteDebris New_ctor() ;
 
 /// @brief Method .ctor addr 0x2240478 size 0xa4 virtual false final false
  void _ctor() ;
@@ -217,7 +219,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2720 }), TypeDefinitionIndex(TypeDefinitionIndex(4889))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4889)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2720 }), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4888))
 // CS Name: NoteDebris::Pool
 class CORDL_TYPE GlobalNamespace__NoteDebris__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::NoteDebris> {
@@ -256,8 +258,7 @@ constexpr explicit GlobalNamespace__NoteDebris__Pool(void* ptr) noexcept : Zenje
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__NoteDebris__Pool() ;
+static GlobalNamespace::GlobalNamespace__NoteDebris__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2240618 size 0x48 virtual false final false
  void _ctor() ;

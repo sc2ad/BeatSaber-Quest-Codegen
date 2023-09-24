@@ -12,6 +12,15 @@ class BeatmapLevelPackSO;
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData;
@@ -95,8 +104,7 @@ constexpr int32_t __get__levelsCount() const;
 /// @brief Method get_levelsCount addr 0x221bdc4 size 0x8 virtual false final false
  int32_t get_levelsCount() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair() ;
+static GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair New_ctor() ;
 
 /// @brief Method .ctor addr 0x221bdcc size 0x8 virtual false final false
  void _ctor() ;
@@ -175,8 +183,7 @@ constexpr GlobalNamespace::BeatmapLevelSO __get__level() const;
 /// @brief Method get_level addr 0x221bddc size 0x8 virtual false final false
  GlobalNamespace::BeatmapLevelSO get_level() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData() ;
+static GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData New_ctor() ;
 
 /// @brief Method .ctor addr 0x221bde4 size 0x8 virtual false final false
  void _ctor() ;
@@ -266,8 +273,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__Lev
 /// @brief Method get_levelProductsData addr 0x221bdfc size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelProductData> get_levelProductsData() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData() ;
+static GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__LevelPackProductData New_ctor() ;
 
 /// @brief Method .ctor addr 0x221be04 size 0x58 virtual false final false
  void _ctor() ;
@@ -369,8 +375,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__Lev
 /// @brief Method GetPricePerBundlePair addr 0x221bcdc size 0x50 virtual false final false
  GlobalNamespace::GlobalNamespace__SonyLevelPacksSKUModel__PricePerBundlePair GetPricePerBundlePair(int32_t levelsCount) ;
 
-// Ctor Parameters []
-explicit SonyLevelPacksSKUModel() ;
+static GlobalNamespace::SonyLevelPacksSKUModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x221bd2c size 0x90 virtual false final false
  void _ctor() ;

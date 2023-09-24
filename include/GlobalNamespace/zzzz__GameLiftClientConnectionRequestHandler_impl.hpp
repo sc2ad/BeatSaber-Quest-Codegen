@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__GameLiftClientConnectionRequestHandler_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameLiftClientConnectionRequestHandler.get_playerSessionId
 template<>
 
@@ -134,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, reader, userId, userName, isConnectionOwner);
 }
-// Ctor Parameters []
- GlobalNamespace::GameLiftClientConnectionRequestHandler::GameLiftClientConnectionRequestHandler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameLiftClientConnectionRequestHandler>())) {}
+ GlobalNamespace::GameLiftClientConnectionRequestHandler GlobalNamespace::GameLiftClientConnectionRequestHandler::New_ctor()  {
+GlobalNamespace::GameLiftClientConnectionRequestHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameLiftClientConnectionRequestHandler>())};
+return o;
+}
  void GlobalNamespace::GameLiftClientConnectionRequestHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameLiftClientConnectionRequestHandler>::get(),

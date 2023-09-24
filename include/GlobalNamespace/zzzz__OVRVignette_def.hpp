@@ -8,34 +8,40 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 class MeshFilter;
-}
-namespace UnityEngine {
-struct UnityEngine__Camera__StereoscopicEye;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace UnityEngine {
-struct Vector4;
 }
 namespace UnityEngine::Rendering {
 struct ScriptableRenderContext;
 }
 namespace UnityEngine {
-class Mesh;
+struct UnityEngine__Camera__StereoscopicEye;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRVignette__FalloffType;
 }
 namespace UnityEngine {
 class Shader;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRVignette__MeshComplexityLevel;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,6 +105,8 @@ __VeryDetailed = 4,
 constexpr operator __GlobalNamespace__OVRVignette__MeshComplexityLevel_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRVignette__MeshComplexityLevel_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -177,6 +185,8 @@ __Quadratic = 1,
 constexpr operator __GlobalNamespace__OVRVignette__FalloffType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRVignette__FalloffType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -441,8 +451,7 @@ constexpr bool __get__TransparentVignetteVisible() const;
 /// @brief Method OnBeginCameraRendering addr 0x2638f14 size 0x8c virtual false final false
  void OnBeginCameraRendering(UnityEngine::Rendering::ScriptableRenderContext context, UnityEngine::Camera camera) ;
 
-// Ctor Parameters []
-explicit OVRVignette() ;
+static GlobalNamespace::OVRVignette New_ctor() ;
 
 /// @brief Method .ctor addr 0x2638fa0 size 0xa4 virtual false final false
  void _ctor() ;

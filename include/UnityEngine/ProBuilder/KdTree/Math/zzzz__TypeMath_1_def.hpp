@@ -29,16 +29,16 @@ class TypeMath_1<float_t>;
 // Type: UnityEngine.ProBuilder.KdTree.Math::TypeMath`1
 namespace UnityEngine::ProBuilder::KdTree::Math {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T>
+template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15811))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15811), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15811), inst: 2598 })
 // CS Name: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
-class CORDL_TYPE TypeMath_1<T> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE TypeMath_1<double_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>
-constexpr operator  UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>() const noexcept;
+/// @brief Convert operator to UnityEngine::ProBuilder::KdTree::ITypeMath_1<double_t>
+constexpr operator  UnityEngine::ProBuilder::KdTree::ITypeMath_1<double_t>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -73,63 +73,62 @@ constexpr explicit TypeMath_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Properties
 
- T __declspec(property(get=get_MinValue))  MinValue;
+ double_t __declspec(property(get=get_MinValue))  MinValue;
 
- T __declspec(property(get=get_MaxValue))  MaxValue;
+ double_t __declspec(property(get=get_MaxValue))  MaxValue;
 
- T __declspec(property(get=get_Zero))  Zero;
+ double_t __declspec(property(get=get_Zero))  Zero;
 
- T __declspec(property(get=get_NegativeInfinity))  NegativeInfinity;
+ double_t __declspec(property(get=get_NegativeInfinity))  NegativeInfinity;
 
- T __declspec(property(get=get_PositiveInfinity))  PositiveInfinity;
+ double_t __declspec(property(get=get_PositiveInfinity))  PositiveInfinity;
 
 
 // Methods
 
 /// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t Compare(T a, T b) ;
+ int32_t Compare(double_t a, double_t b) ;
 
 /// @brief Method AreEqual addr 0x0 size 0xffffffffffffffff virtual true final false
- bool AreEqual(T a, T b) ;
+ bool AreEqual(double_t a, double_t b) ;
 
 /// @brief Method AreEqual addr 0x0 size 0xffffffffffffffff virtual true final false
- bool AreEqual(::ArrayW<T> a, ::ArrayW<T> b) ;
+ bool AreEqual(::ArrayW<double_t> a, ::ArrayW<double_t> b) ;
 
 /// @brief Method get_MinValue addr 0x0 size 0xffffffffffffffff virtual true final false
- T get_MinValue() ;
+ double_t get_MinValue() ;
 
 /// @brief Method get_MaxValue addr 0x0 size 0xffffffffffffffff virtual true final false
- T get_MaxValue() ;
+ double_t get_MaxValue() ;
 
 /// @brief Method Min addr 0x0 size 0xffffffffffffffff virtual true final true
- T Min(T a, T b) ;
+ double_t Min(double_t a, double_t b) ;
 
 /// @brief Method Max addr 0x0 size 0xffffffffffffffff virtual true final true
- T Max(T a, T b) ;
+ double_t Max(double_t a, double_t b) ;
 
 /// @brief Method get_Zero addr 0x0 size 0xffffffffffffffff virtual true final false
- T get_Zero() ;
+ double_t get_Zero() ;
 
 /// @brief Method get_NegativeInfinity addr 0x0 size 0xffffffffffffffff virtual true final false
- T get_NegativeInfinity() ;
+ double_t get_NegativeInfinity() ;
 
 /// @brief Method get_PositiveInfinity addr 0x0 size 0xffffffffffffffff virtual true final false
- T get_PositiveInfinity() ;
+ double_t get_PositiveInfinity() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
- T Add(T a, T b) ;
+ double_t Add(double_t a, double_t b) ;
 
 /// @brief Method Subtract addr 0x0 size 0xffffffffffffffff virtual true final false
- T Subtract(T a, T b) ;
+ double_t Subtract(double_t a, double_t b) ;
 
 /// @brief Method Multiply addr 0x0 size 0xffffffffffffffff virtual true final false
- T Multiply(T a, T b) ;
+ double_t Multiply(double_t a, double_t b) ;
 
 /// @brief Method DistanceSquaredBetweenPoints addr 0x0 size 0xffffffffffffffff virtual true final false
- T DistanceSquaredBetweenPoints(::ArrayW<T> a, ::ArrayW<T> b) ;
+ double_t DistanceSquaredBetweenPoints(::ArrayW<double_t> a, ::ArrayW<double_t> b) ;
 
-// Ctor Parameters []
-explicit TypeMath_1() ;
+static UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<double_t> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -240,8 +239,7 @@ constexpr explicit TypeMath_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 /// @brief Method DistanceSquaredBetweenPoints addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t DistanceSquaredBetweenPoints(::ArrayW<float_t> a, ::ArrayW<float_t> b) ;
 
-// Ctor Parameters []
-explicit TypeMath_1() ;
+static UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float_t> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -253,16 +251,16 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.ProBuilder.KdTree.Math::TypeMath`1
 namespace UnityEngine::ProBuilder::KdTree::Math {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15811))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15811), inst: 2598 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15811), inst: 2 })
 // CS Name: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
-class CORDL_TYPE TypeMath_1<double_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE TypeMath_1<T> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to UnityEngine::ProBuilder::KdTree::ITypeMath_1<double_t>
-constexpr operator  UnityEngine::ProBuilder::KdTree::ITypeMath_1<double_t>() const noexcept;
+/// @brief Convert operator to UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>
+constexpr operator  UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -297,63 +295,62 @@ constexpr explicit TypeMath_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Properties
 
- double_t __declspec(property(get=get_MinValue))  MinValue;
+ T __declspec(property(get=get_MinValue))  MinValue;
 
- double_t __declspec(property(get=get_MaxValue))  MaxValue;
+ T __declspec(property(get=get_MaxValue))  MaxValue;
 
- double_t __declspec(property(get=get_Zero))  Zero;
+ T __declspec(property(get=get_Zero))  Zero;
 
- double_t __declspec(property(get=get_NegativeInfinity))  NegativeInfinity;
+ T __declspec(property(get=get_NegativeInfinity))  NegativeInfinity;
 
- double_t __declspec(property(get=get_PositiveInfinity))  PositiveInfinity;
+ T __declspec(property(get=get_PositiveInfinity))  PositiveInfinity;
 
 
 // Methods
 
 /// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t Compare(double_t a, double_t b) ;
+ int32_t Compare(T a, T b) ;
 
 /// @brief Method AreEqual addr 0x0 size 0xffffffffffffffff virtual true final false
- bool AreEqual(double_t a, double_t b) ;
+ bool AreEqual(T a, T b) ;
 
 /// @brief Method AreEqual addr 0x0 size 0xffffffffffffffff virtual true final false
- bool AreEqual(::ArrayW<double_t> a, ::ArrayW<double_t> b) ;
+ bool AreEqual(::ArrayW<T> a, ::ArrayW<T> b) ;
 
 /// @brief Method get_MinValue addr 0x0 size 0xffffffffffffffff virtual true final false
- double_t get_MinValue() ;
+ T get_MinValue() ;
 
 /// @brief Method get_MaxValue addr 0x0 size 0xffffffffffffffff virtual true final false
- double_t get_MaxValue() ;
+ T get_MaxValue() ;
 
 /// @brief Method Min addr 0x0 size 0xffffffffffffffff virtual true final true
- double_t Min(double_t a, double_t b) ;
+ T Min(T a, T b) ;
 
 /// @brief Method Max addr 0x0 size 0xffffffffffffffff virtual true final true
- double_t Max(double_t a, double_t b) ;
+ T Max(T a, T b) ;
 
 /// @brief Method get_Zero addr 0x0 size 0xffffffffffffffff virtual true final false
- double_t get_Zero() ;
+ T get_Zero() ;
 
 /// @brief Method get_NegativeInfinity addr 0x0 size 0xffffffffffffffff virtual true final false
- double_t get_NegativeInfinity() ;
+ T get_NegativeInfinity() ;
 
 /// @brief Method get_PositiveInfinity addr 0x0 size 0xffffffffffffffff virtual true final false
- double_t get_PositiveInfinity() ;
+ T get_PositiveInfinity() ;
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
- double_t Add(double_t a, double_t b) ;
+ T Add(T a, T b) ;
 
 /// @brief Method Subtract addr 0x0 size 0xffffffffffffffff virtual true final false
- double_t Subtract(double_t a, double_t b) ;
+ T Subtract(T a, T b) ;
 
 /// @brief Method Multiply addr 0x0 size 0xffffffffffffffff virtual true final false
- double_t Multiply(double_t a, double_t b) ;
+ T Multiply(T a, T b) ;
 
 /// @brief Method DistanceSquaredBetweenPoints addr 0x0 size 0xffffffffffffffff virtual true final false
- double_t DistanceSquaredBetweenPoints(::ArrayW<double_t> a, ::ArrayW<double_t> b) ;
+ T DistanceSquaredBetweenPoints(::ArrayW<T> a, ::ArrayW<T> b) ;
 
-// Ctor Parameters []
-explicit TypeMath_1() ;
+static UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

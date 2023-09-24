@@ -347,8 +347,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "aData", ty: "double_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::JSONNumber::JSONNumber(double_t aData)  : HoudiniEngineUnity::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONNumber>(aData))) {}
+ HoudiniEngineUnity::JSONNumber HoudiniEngineUnity::JSONNumber::New_ctor(double_t aData)  {
+HoudiniEngineUnity::JSONNumber o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::JSONNumber>(aData))};
+return o;
+}
  void HoudiniEngineUnity::JSONNumber::_ctor(double_t aData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::JSONNumber>::get(),
@@ -358,8 +360,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, aData);
 }
-// Ctor Parameters [CppParam { name: "aData", ty: "::StringW", modifiers: "", def_value: None }]
- HoudiniEngineUnity::JSONNumber::JSONNumber(::StringW aData)  : HoudiniEngineUnity::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONNumber>(aData))) {}
+ HoudiniEngineUnity::JSONNumber HoudiniEngineUnity::JSONNumber::New_ctor(::StringW aData)  {
+HoudiniEngineUnity::JSONNumber o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::JSONNumber>(aData))};
+return o;
+}
  void HoudiniEngineUnity::JSONNumber::_ctor(::StringW aData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::JSONNumber>::get(),

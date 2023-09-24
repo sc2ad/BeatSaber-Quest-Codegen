@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -88,20 +88,17 @@ constexpr Org::BouncyCastle::Asn1::DerInteger __get_serialNumber() const;
 /// @brief Method GetInstance addr 0xdeb2fc size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit IssuerAndSerialNumber(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdeb3a0 size 0x118 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit IssuerAndSerialNumber(Org::BouncyCastle::Asn1::X509::X509Name name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
+static Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber New_ctor(Org::BouncyCastle::Asn1::X509::X509Name name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
 /// @brief Method .ctor addr 0xdeb4b8 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name name, Org::BouncyCastle::Math::BigInteger serialNumber) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
-explicit IssuerAndSerialNumber(Org::BouncyCastle::Asn1::X509::X509Name name, Org::BouncyCastle::Asn1::DerInteger serialNumber) ;
+static Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber New_ctor(Org::BouncyCastle::Asn1::X509::X509Name name, Org::BouncyCastle::Asn1::DerInteger serialNumber) ;
 
 /// @brief Method .ctor addr 0xdeb53c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name name, Org::BouncyCastle::Asn1::DerInteger serialNumber) ;

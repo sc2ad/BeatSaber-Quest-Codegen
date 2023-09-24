@@ -6,34 +6,40 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Timeline {
-struct NotificationFlags;
+namespace UnityEngine::Playables {
+struct DirectorWrapMode;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct DirectorWrapMode;
-}
-namespace UnityEngine::Playables {
-template<typename T>
-struct ScriptPlayable_1;
-}
-namespace UnityEngine::Playables {
-class INotification;
-}
-namespace UnityEngine::Playables {
-struct PlayableOutput;
+struct Playable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::Playables {
-struct Playable;
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__TimeNotificationBehaviour____c;
+}
+namespace UnityEngine::Timeline {
+struct NotificationFlags;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
+}
+namespace UnityEngine::Playables {
+class INotification;
+}
+namespace UnityEngine::Playables {
+template<typename T>
+struct ScriptPlayable_1;
+}
+namespace UnityEngine::Timeline {
+struct UnityEngine__Timeline__TimeNotificationBehaviour__NotificationEntry;
+}
+namespace UnityEngine::Playables {
+struct PlayableOutput;
 }
 namespace System {
 template<typename T>
@@ -198,8 +204,7 @@ static System::Comparison_1<UnityEngine::Timeline::UnityEngine__Timeline__TimeNo
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Timeline__TimeNotificationBehaviour____c() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad5bc0 size 0x8 virtual false final false
  void _ctor() ;
@@ -325,8 +330,7 @@ static void Trigger_internal(UnityEngine::Playables::Playable playable, UnityEng
 /// @brief Method Restore_internal addr 0x2ad5ac0 size 0x8 virtual false final false
 static void Restore_internal(ByRef<UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour__NotificationEntry> e) ;
 
-// Ctor Parameters []
-explicit TimeNotificationBehaviour() ;
+static UnityEngine::Timeline::TimeNotificationBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad5ae0 size 0x7c virtual false final false
  void _ctor() ;

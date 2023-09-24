@@ -1,17 +1,17 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Crl_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactory_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactoryProvider_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509CrlEntry_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509CrlEntry_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactoryProvider_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__CertificateList_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::X509Crl._ctor
 template<>
@@ -440,8 +440,10 @@ constexpr void Org::BouncyCastle::X509::X509Crl::__set_hashValue(int32_t value) 
 constexpr int32_t Org::BouncyCastle::X509::X509Crl::__get_hashValue() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Asn1::X509::CertificateList", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::X509Crl::X509Crl(Org::BouncyCastle::Asn1::X509::CertificateList c)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<X509Crl>(c))) {}
+ Org::BouncyCastle::X509::X509Crl Org::BouncyCastle::X509::X509Crl::New_ctor(Org::BouncyCastle::Asn1::X509::CertificateList c)  {
+Org::BouncyCastle::X509::X509Crl o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509Crl>(c))};
+return o;
+}
  void Org::BouncyCastle::X509::X509Crl::_ctor(Org::BouncyCastle::Asn1::X509::CertificateList c)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509Crl>::get(),

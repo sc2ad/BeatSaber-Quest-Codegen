@@ -160,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::InputEvent, false>(nullptr, ___internal_method, previousData, newData);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::InputEvent::InputEvent()  : UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::InputEvent>(THROW_UNLESS(::il2cpp_utils::New<InputEvent>())) {}
+ UnityEngine::UIElements::InputEvent UnityEngine::UIElements::InputEvent::New_ctor()  {
+UnityEngine::UIElements::InputEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::InputEvent>())};
+return o;
+}
  void UnityEngine::UIElements::InputEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::InputEvent>::get(),

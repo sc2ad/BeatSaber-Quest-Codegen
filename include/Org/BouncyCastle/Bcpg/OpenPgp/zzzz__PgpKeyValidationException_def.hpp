@@ -51,20 +51,17 @@ constexpr explicit PgpKeyValidationException(void* ptr) noexcept : Org::BouncyCa
 
 // Methods
 
-// Ctor Parameters []
-explicit PgpKeyValidationException() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyValidationException New_ctor() ;
 
 /// @brief Method .ctor addr 0x1023d74 size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PgpKeyValidationException(::StringW message) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyValidationException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x1023d78 size 0x4 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit PgpKeyValidationException(::StringW message, System::Exception exception) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyValidationException New_ctor(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x1023d7c size 0x4 virtual false final false
  void _ctor(::StringW message, System::Exception exception) ;

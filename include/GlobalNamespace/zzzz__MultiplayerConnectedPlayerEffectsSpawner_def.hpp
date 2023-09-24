@@ -2,9 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class IConnectedPlayerBeatmapObjectEventManager;
-}
-namespace GlobalNamespace {
 class BombExplosionEffect;
 }
 namespace GlobalNamespace {
@@ -12,6 +9,9 @@ class NoteDebrisSpawner;
 }
 namespace GlobalNamespace {
 class NoteCutInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class IConnectedPlayerBeatmapObjectEventManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +89,7 @@ constexpr GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager __get__beat
 /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut addr 0x20df318 size 0x1f8 virtual false final false
  void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(GlobalNamespace::NoteCutInfoNetSerializable noteCutInfo) ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerEffectsSpawner() ;
+static GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x20df510 size 0x8 virtual false final false
  void _ctor() ;

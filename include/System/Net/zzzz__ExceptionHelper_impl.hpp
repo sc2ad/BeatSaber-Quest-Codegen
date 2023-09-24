@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/zzzz__ExceptionHelper_def.hpp"
 #include "System/zzzz__NotImplementedException_def.hpp"
-#include "System/zzzz__NotSupportedException_def.hpp"
 #include "System/Net/zzzz__WebException_def.hpp"
+#include "System/zzzz__NotSupportedException_def.hpp"
 //  Writing Method size for method: System::Net::ExceptionHelper.get_MethodNotImplementedException
 template<>
 

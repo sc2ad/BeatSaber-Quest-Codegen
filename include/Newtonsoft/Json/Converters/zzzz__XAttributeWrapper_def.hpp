@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
 namespace System::Xml::Linq {
 class XAttribute;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -70,8 +70,7 @@ constexpr explicit XAttributeWrapper(void* ptr) noexcept : Newtonsoft::Json::Con
 /// @brief Method get_Attribute addr 0x2544bb0 size 0x78 virtual false final false
  System::Xml::Linq::XAttribute get_Attribute() ;
 
-// Ctor Parameters [CppParam { name: "attribute", ty: "System::Xml::Linq::XAttribute", modifiers: "", def_value: None }]
-explicit XAttributeWrapper(System::Xml::Linq::XAttribute attribute) ;
+static Newtonsoft::Json::Converters::XAttributeWrapper New_ctor(System::Xml::Linq::XAttribute attribute) ;
 
 /// @brief Method .ctor addr 0x2543dcc size 0x6c virtual false final false
  void _ctor(System::Xml::Linq::XAttribute attribute) ;

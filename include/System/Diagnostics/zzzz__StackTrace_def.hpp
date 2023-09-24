@@ -6,8 +6,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Type;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Diagnostics {
 class StackFrame;
@@ -16,10 +16,13 @@ namespace System::Reflection {
 class MethodBase;
 }
 namespace System {
+class Type;
+}
+namespace System {
 class Exception;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System::Diagnostics {
+struct System__Diagnostics__StackTrace__TraceFormat;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -78,6 +81,8 @@ __NoResourceLookup = 2,
 constexpr operator __System__Diagnostics__StackTrace__TraceFormat_Unwrapped () const noexcept {
 return std::bit_cast<__System__Diagnostics__StackTrace__TraceFormat_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -189,26 +194,22 @@ static ::StringW __get_aotid() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit StackTrace() ;
+static System::Diagnostics::StackTrace New_ctor() ;
 
 /// @brief Method .ctor addr 0x240c62c size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "fNeedFileInfo", ty: "bool", modifiers: "", def_value: None }]
-explicit StackTrace(bool fNeedFileInfo) ;
+static System::Diagnostics::StackTrace New_ctor(bool fNeedFileInfo) ;
 
 /// @brief Method .ctor addr 0x240c84c size 0x30 virtual false final false
  void _ctor(bool fNeedFileInfo) ;
 
-// Ctor Parameters [CppParam { name: "skipFrames", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StackTrace(int32_t skipFrames) ;
+static System::Diagnostics::StackTrace New_ctor(int32_t skipFrames) ;
 
 /// @brief Method .ctor addr 0x240c87c size 0x30 virtual false final false
  void _ctor(int32_t skipFrames) ;
 
-// Ctor Parameters [CppParam { name: "skipFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fNeedFileInfo", ty: "bool", modifiers: "", def_value: None }]
-explicit StackTrace(int32_t skipFrames, bool fNeedFileInfo) ;
+static System::Diagnostics::StackTrace New_ctor(int32_t skipFrames, bool fNeedFileInfo) ;
 
 /// @brief Method .ctor addr 0x240c8ac size 0x34 virtual false final false
  void _ctor(int32_t skipFrames, bool fNeedFileInfo) ;
@@ -219,14 +220,12 @@ explicit StackTrace(int32_t skipFrames, bool fNeedFileInfo) ;
 /// @brief Method get_trace addr 0x240c8e0 size 0x8 virtual false final false
 static ::ArrayW<System::Diagnostics::StackFrame> get_trace(System::Exception e, int32_t skipFrames, bool fNeedFileInfo) ;
 
-// Ctor Parameters [CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "fNeedFileInfo", ty: "bool", modifiers: "", def_value: None }]
-explicit StackTrace(System::Exception e, bool fNeedFileInfo) ;
+static System::Diagnostics::StackTrace New_ctor(System::Exception e, bool fNeedFileInfo) ;
 
 /// @brief Method .ctor addr 0x240c8e8 size 0xc virtual false final false
  void _ctor(System::Exception e, bool fNeedFileInfo) ;
 
-// Ctor Parameters [CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "skipFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fNeedFileInfo", ty: "bool", modifiers: "", def_value: None }]
-explicit StackTrace(System::Exception e, int32_t skipFrames, bool fNeedFileInfo) ;
+static System::Diagnostics::StackTrace New_ctor(System::Exception e, int32_t skipFrames, bool fNeedFileInfo) ;
 
 /// @brief Method .ctor addr 0x240c8f4 size 0xf0 virtual false final false
  void _ctor(System::Exception e, int32_t skipFrames, bool fNeedFileInfo) ;

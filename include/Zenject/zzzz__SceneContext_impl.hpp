@@ -1,18 +1,19 @@
 #pragma once
 #include "Zenject/zzzz__RunnableContext_impl.hpp"
 #include "Zenject/zzzz__SceneContext_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Zenject/zzzz__SceneContext_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__SceneDecoratorContext_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__SceneContext____c__DisplayClass49_0._ctor
 template<>
 
@@ -110,8 +111,10 @@ constexpr void Zenject::Zenject__SceneContext____c__DisplayClass49_0::__set___9_
 constexpr System::Func_2<::StringW,bool> Zenject::Zenject__SceneContext____c__DisplayClass49_0::__get___9__4() const {
 return ::cordl_internals::getInstanceField<System::Func_2<::StringW,bool>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SceneContext____c__DisplayClass49_0::Zenject__SceneContext____c__DisplayClass49_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SceneContext____c__DisplayClass49_0>())) {}
+ Zenject::Zenject__SceneContext____c__DisplayClass49_0 Zenject::Zenject__SceneContext____c__DisplayClass49_0::New_ctor()  {
+Zenject::Zenject__SceneContext____c__DisplayClass49_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SceneContext____c__DisplayClass49_0>())};
+return o;
+}
  void Zenject::Zenject__SceneContext____c__DisplayClass49_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SceneContext____c__DisplayClass49_0>::get(),
@@ -329,8 +332,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::SceneManage
  System::Func_2<UnityEngine::GameObject,System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext>> Zenject::Zenject__SceneContext____c::__get___9__50_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::GameObject,System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext>>, "<>9__50_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SceneContext____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__SceneContext____c::Zenject__SceneContext____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SceneContext____c>())) {}
+ Zenject::Zenject__SceneContext____c Zenject::Zenject__SceneContext____c::New_ctor()  {
+Zenject::Zenject__SceneContext____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SceneContext____c>())};
+return o;
+}
  void Zenject::Zenject__SceneContext____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SceneContext____c>::get(),
@@ -477,8 +482,10 @@ constexpr void Zenject::Zenject__SceneContext____c__DisplayClass51_0::__set_pare
 constexpr System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> Zenject::Zenject__SceneContext____c__DisplayClass51_0::__get_parents() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerable_1<Zenject::DiContainer>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SceneContext____c__DisplayClass51_0::Zenject__SceneContext____c__DisplayClass51_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SceneContext____c__DisplayClass51_0>())) {}
+ Zenject::Zenject__SceneContext____c__DisplayClass51_0 Zenject::Zenject__SceneContext____c__DisplayClass51_0::New_ctor()  {
+Zenject::Zenject__SceneContext____c__DisplayClass51_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SceneContext____c__DisplayClass51_0>())};
+return o;
+}
  void Zenject::Zenject__SceneContext____c__DisplayClass51_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SceneContext____c__DisplayClass51_0>::get(),
@@ -1440,8 +1447,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Zenject::SceneContext, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- Zenject::SceneContext::SceneContext()  : Zenject::RunnableContext(THROW_UNLESS(::il2cpp_utils::New<SceneContext>())) {}
+ Zenject::SceneContext Zenject::SceneContext::New_ctor()  {
+Zenject::SceneContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SceneContext>())};
+return o;
+}
  void Zenject::SceneContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SceneContext>::get(),

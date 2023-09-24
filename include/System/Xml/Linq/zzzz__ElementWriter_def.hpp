@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 namespace System::Xml::Linq {
+struct NamespaceResolver;
+}
+namespace System::Xml::Linq {
 class XNamespace;
 }
 namespace System::Xml {
 class XmlWriter;
-}
-namespace System::Xml::Linq {
-struct NamespaceResolver;
 }
 namespace System::Xml::Linq {
 class XElement;

@@ -47,8 +47,7 @@ constexpr explicit NoReflectionBakingAttribute(void* ptr) noexcept : System::Att
 
 // Methods
 
-// Ctor Parameters []
-explicit NoReflectionBakingAttribute() ;
+static Zenject::NoReflectionBakingAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d414cc size 0x8 virtual false final false
  void _ctor() ;

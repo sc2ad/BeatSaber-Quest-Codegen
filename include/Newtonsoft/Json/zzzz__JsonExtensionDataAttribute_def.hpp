@@ -81,8 +81,7 @@ constexpr bool __get__ReadData_k__BackingField() const;
 /// @brief Method set_ReadData addr 0x24c7988 size 0xc virtual false final false
  void set_ReadData(bool value) ;
 
-// Ctor Parameters []
-explicit JsonExtensionDataAttribute() ;
+static Newtonsoft::Json::JsonExtensionDataAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c7994 size 0x20 virtual false final false
  void _ctor() ;

@@ -4,26 +4,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct TextureFormat;
+namespace UnityEngine::Profiling::Experimental {
+struct DebugScreenCapture;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace UnityEngine::Profiling::Experimental {
-struct DebugScreenCapture;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
+namespace UnityEngine {
+struct TextureFormat;
 }
 namespace UnityEngine::Profiling::Memory::Experimental {
 class MetaData;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Action_3;
 }
 // Forward declare root types
 namespace UnityEngine::Profiling::Memory::Experimental {

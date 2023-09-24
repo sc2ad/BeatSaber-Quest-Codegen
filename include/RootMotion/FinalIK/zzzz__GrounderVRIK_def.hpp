@@ -2,14 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__Grounder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class VRIK;
 }
 namespace RootMotion::FinalIK {
 struct RootMotion__FinalIK__IKSolverVR__PositionOffset;
 }
-namespace RootMotion::FinalIK {
-class VRIK;
+namespace UnityEngine {
+class Transform;
 }
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__Grounding__Leg;
@@ -111,8 +111,7 @@ constexpr ::ArrayW<UnityEngine::Transform> __get_feet() const;
 /// @brief Method OnDestroy addr 0x11c1960 size 0x198 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit GrounderVRIK() ;
+static RootMotion::FinalIK::GrounderVRIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c1af8 size 0x58 virtual false final false
  void _ctor() ;

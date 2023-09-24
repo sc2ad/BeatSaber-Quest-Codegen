@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -293,8 +294,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelCompletionResults()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLevelCompletionResults>())) {}
+ GlobalNamespace::MultiplayerLevelCompletionResults GlobalNamespace::MultiplayerLevelCompletionResults::New_ctor()  {
+GlobalNamespace::MultiplayerLevelCompletionResults o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLevelCompletionResults>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLevelCompletionResults::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLevelCompletionResults>::get(),
@@ -304,8 +307,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "playerLevelEndState", ty: "GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState", modifiers: "", def_value: None }, CppParam { name: "playerLevelEndReason", ty: "GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason", modifiers: "", def_value: None }, CppParam { name: "levelCompletionResults", ty: "GlobalNamespace::LevelCompletionResults", modifiers: "", def_value: None }]
- GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelCompletionResults(GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason, GlobalNamespace::LevelCompletionResults levelCompletionResults)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLevelCompletionResults>(playerLevelEndState, playerLevelEndReason, levelCompletionResults))) {}
+ GlobalNamespace::MultiplayerLevelCompletionResults GlobalNamespace::MultiplayerLevelCompletionResults::New_ctor(GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason, GlobalNamespace::LevelCompletionResults levelCompletionResults)  {
+GlobalNamespace::MultiplayerLevelCompletionResults o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLevelCompletionResults>(playerLevelEndState, playerLevelEndReason, levelCompletionResults))};
+return o;
+}
  void GlobalNamespace::MultiplayerLevelCompletionResults::_ctor(GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason, GlobalNamespace::LevelCompletionResults levelCompletionResults)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLevelCompletionResults>::get(),

@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -77,8 +77,7 @@ constexpr ::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> __ge
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certificateList", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure>", modifiers: "", def_value: None }]
-explicit Certificate(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certificateList) ;
+static Org::BouncyCastle::Crypto::Tls::Certificate New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certificateList) ;
 
 /// @brief Method .ctor addr 0xecf310 size 0x78 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certificateList) ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509SubjectKeyIdentifierExtension_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsnDecodeStatus_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsnEncodedData_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509SubjectKeyIdentifierHashAlgorithm_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsnDecodeStatus_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__PublicKey_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension._ctor
 template<>
@@ -261,8 +261,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509SubjectKeyI
 constexpr System::Security::Cryptography::AsnDecodeStatus System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::__get__status() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::AsnDecodeStatus, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::X509SubjectKeyIdentifierExtension()  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509SubjectKeyIdentifierExtension>())) {}
+ System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>::get(),
@@ -272,8 +274,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "encodedSubjectKeyIdentifier", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::X509SubjectKeyIdentifierExtension(System::Security::Cryptography::AsnEncodedData encodedSubjectKeyIdentifier, bool critical)  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509SubjectKeyIdentifierExtension>(encodedSubjectKeyIdentifier, critical))) {}
+ System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::New_ctor(System::Security::Cryptography::AsnEncodedData encodedSubjectKeyIdentifier, bool critical)  {
+System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>(encodedSubjectKeyIdentifier, critical))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor(System::Security::Cryptography::AsnEncodedData encodedSubjectKeyIdentifier, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>::get(),
@@ -283,8 +287,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encodedSubjectKeyIdentifier, critical);
 }
-// Ctor Parameters [CppParam { name: "subjectKeyIdentifier", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::X509SubjectKeyIdentifierExtension(::ArrayW<uint8_t> subjectKeyIdentifier, bool critical)  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509SubjectKeyIdentifierExtension>(subjectKeyIdentifier, critical))) {}
+ System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::New_ctor(::ArrayW<uint8_t> subjectKeyIdentifier, bool critical)  {
+System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>(subjectKeyIdentifier, critical))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor(::ArrayW<uint8_t> subjectKeyIdentifier, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>::get(),
@@ -294,8 +300,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, subjectKeyIdentifier, critical);
 }
-// Ctor Parameters [CppParam { name: "subjectKeyIdentifier", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::X509SubjectKeyIdentifierExtension(::StringW subjectKeyIdentifier, bool critical)  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509SubjectKeyIdentifierExtension>(subjectKeyIdentifier, critical))) {}
+ System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::New_ctor(::StringW subjectKeyIdentifier, bool critical)  {
+System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>(subjectKeyIdentifier, critical))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor(::StringW subjectKeyIdentifier, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>::get(),
@@ -305,8 +313,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, subjectKeyIdentifier, critical);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "System::Security::Cryptography::X509Certificates::PublicKey", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::X509SubjectKeyIdentifierExtension(System::Security::Cryptography::X509Certificates::PublicKey key, bool critical)  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509SubjectKeyIdentifierExtension>(key, critical))) {}
+ System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::New_ctor(System::Security::Cryptography::X509Certificates::PublicKey key, bool critical)  {
+System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>(key, critical))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor(System::Security::Cryptography::X509Certificates::PublicKey key, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>::get(),
@@ -316,8 +326,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key, critical);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "System::Security::Cryptography::X509Certificates::PublicKey", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::X509SubjectKeyIdentifierExtension(System::Security::Cryptography::X509Certificates::PublicKey key, System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical)  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509SubjectKeyIdentifierExtension>(key, algorithm, critical))) {}
+ System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::New_ctor(System::Security::Cryptography::X509Certificates::PublicKey key, System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical)  {
+System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>(key, algorithm, critical))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor(System::Security::Cryptography::X509Certificates::PublicKey key, System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension>::get(),

@@ -4,23 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine {
-struct Vector2Int;
-}
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
-class Material;
+struct Vector2Int;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__TextureBlitter__BlitInfo;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -29,15 +26,21 @@ class List_1;
 namespace UnityEngine {
 struct RectInt;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Texture;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine {
-class Texture;
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -244,8 +247,7 @@ constexpr bool __get__disposed_k__BackingField() const;
 /// @brief Method Dispose addr 0x2d156f4 size 0x7c virtual true final false
  void Dispose(bool disposing) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TextureBlitter(int32_t capacity) ;
+static UnityEngine::UIElements::UIR::TextureBlitter New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x2d06d84 size 0xb4 virtual false final false
  void _ctor(int32_t capacity) ;

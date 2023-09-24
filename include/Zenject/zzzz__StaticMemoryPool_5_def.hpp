@@ -2,10 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_def.hpp"
 namespace Zenject {
-template<typename TValue>
-class IDespawnableMemoryPool_1;
-}
-namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TValue>
 class IMemoryPool_5;
 }
@@ -13,12 +9,16 @@ namespace System {
 template<typename T1,typename T2,typename T3,typename T4,typename T5>
 class Action_5;
 }
+namespace Zenject {
+class IMemoryPool;
+}
+namespace Zenject {
+template<typename TValue>
+class IDespawnableMemoryPool_1;
+}
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace Zenject {
-class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
@@ -35,7 +35,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11027), inst: 177 }), TypeDefinitionIndex(TypeDefinitionIndex(11027))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11027), inst: 177 }), TypeDefinitionIndex(TypeDefinitionIndex(11032)), TypeDefinitionIndex(TypeDefinitionIndex(11027))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11032), inst: 5938 })
 // CS Name: Zenject.StaticMemoryPool`5
 class CORDL_TYPE StaticMemoryPool_5<TParam1,TParam2,TParam3,TParam4,TValue> : public Zenject::StaticMemoryPoolBase_1<TValue> {
@@ -97,8 +97,7 @@ constexpr System::Action_5<TParam1,TParam2,TParam3,TParam4,TValue> __get__onSpaw
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onSpawnMethod", ty: "System::Action_5<TParam1,TParam2,TParam3,TParam4,TValue>", modifiers: "", def_value: None }, CppParam { name: "onDespawnedMethod", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }]
-explicit StaticMemoryPool_5(System::Action_5<TParam1,TParam2,TParam3,TParam4,TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod) ;
+static Zenject::StaticMemoryPool_5<TParam1,TParam2,TParam3,TParam4,TValue> New_ctor(System::Action_5<TParam1,TParam2,TParam3,TParam4,TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Action_5<TParam1,TParam2,TParam3,TParam4,TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod) ;

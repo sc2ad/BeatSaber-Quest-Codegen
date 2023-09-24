@@ -73,8 +73,7 @@ constexpr float_t __get_z() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None }]
-explicit XYZColor(float_t x, float_t y, float_t z) ;
+static UnityEngine::ProBuilder::XYZColor New_ctor(float_t x, float_t y, float_t z) ;
 
 /// @brief Method .ctor addr 0x29a9cd0 size 0x3c virtual false final false
  void _ctor(float_t x, float_t y, float_t z) ;

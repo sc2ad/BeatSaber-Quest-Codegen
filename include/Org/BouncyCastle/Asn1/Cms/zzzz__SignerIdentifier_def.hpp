@@ -3,19 +3,19 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class IssuerAndSerialNumber;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -82,20 +82,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_id() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber", modifiers: "", def_value: None }]
-explicit SignerIdentifier(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber id) ;
+static Org::BouncyCastle::Asn1::Cms::SignerIdentifier New_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber id) ;
 
 /// @brief Method .ctor addr 0xdf26e8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber id) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit SignerIdentifier(Org::BouncyCastle::Asn1::Asn1OctetString id) ;
+static Org::BouncyCastle::Asn1::Cms::SignerIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString id) ;
 
 /// @brief Method .ctor addr 0xdf2710 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString id) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
-explicit SignerIdentifier(Org::BouncyCastle::Asn1::Asn1Object id) ;
+static Org::BouncyCastle::Asn1::Cms::SignerIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1Object id) ;
 
 /// @brief Method .ctor addr 0xdf2794 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Object id) ;

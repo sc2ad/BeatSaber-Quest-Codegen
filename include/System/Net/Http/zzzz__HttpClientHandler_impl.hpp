@@ -1,15 +1,16 @@
 #pragma once
 #include "System/Net/Http/zzzz__HttpMessageHandler_impl.hpp"
 #include "System/Net/Http/zzzz__HttpClientHandler_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Net/Http/zzzz__IMonoHttpClientHandler_def.hpp"
-#include "System/Net/Http/zzzz__ClientCertificateOption_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/Http/zzzz__HttpClientHandler_def.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Net/Http/zzzz__ClientCertificateOption_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Net/Security/zzzz__LocalCertificateSelectionCallback_def.hpp"
 //  Writing Method size for method: System::Net::Http::System__Net__Http__HttpClientHandler____c._ctor
 template<>
@@ -57,8 +58,10 @@ return ::cordl_internals::getStaticField<System::Net::Http::System__Net__Http__H
  System::Net::Security::LocalCertificateSelectionCallback System::Net::Http::System__Net__Http__HttpClientHandler____c::__get___9__23_1()  {
 return ::cordl_internals::getStaticField<System::Net::Security::LocalCertificateSelectionCallback, "<>9__23_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::System__Net__Http__HttpClientHandler____c>::get>();
 }
-// Ctor Parameters []
- System::Net::Http::System__Net__Http__HttpClientHandler____c::System__Net__Http__HttpClientHandler____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Http__HttpClientHandler____c>())) {}
+ System::Net::Http::System__Net__Http__HttpClientHandler____c System::Net::Http::System__Net__Http__HttpClientHandler____c::New_ctor()  {
+System::Net::Http::System__Net__Http__HttpClientHandler____c o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::System__Net__Http__HttpClientHandler____c>())};
+return o;
+}
  void System::Net::Http::System__Net__Http__HttpClientHandler____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::System__Net__Http__HttpClientHandler____c>::get(),
@@ -285,8 +288,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::Http::IMonoHttpClientHandler, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Net::Http::HttpClientHandler::HttpClientHandler()  : System::Net::Http::HttpMessageHandler(THROW_UNLESS(::il2cpp_utils::New<HttpClientHandler>())) {}
+ System::Net::Http::HttpClientHandler System::Net::Http::HttpClientHandler::New_ctor()  {
+System::Net::Http::HttpClientHandler o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpClientHandler>())};
+return o;
+}
  void System::Net::Http::HttpClientHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpClientHandler>::get(),
@@ -296,8 +301,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "handler", ty: "System::Net::Http::IMonoHttpClientHandler", modifiers: "", def_value: None }]
- System::Net::Http::HttpClientHandler::HttpClientHandler(System::Net::Http::IMonoHttpClientHandler handler)  : System::Net::Http::HttpMessageHandler(THROW_UNLESS(::il2cpp_utils::New<HttpClientHandler>(handler))) {}
+ System::Net::Http::HttpClientHandler System::Net::Http::HttpClientHandler::New_ctor(System::Net::Http::IMonoHttpClientHandler handler)  {
+System::Net::Http::HttpClientHandler o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpClientHandler>(handler))};
+return o;
+}
  void System::Net::Http::HttpClientHandler::_ctor(System::Net::Http::IMonoHttpClientHandler handler)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpClientHandler>::get(),

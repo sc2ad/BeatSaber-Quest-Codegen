@@ -5,21 +5,21 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-struct ByteEnum;
-}
-namespace System {
 template<typename T>
 class Action_1;
+}
+namespace System {
+struct ByteEnum;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
-namespace GlobalNamespace {
-struct SongPackMask;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
 }
 namespace System {
 struct Int32Enum;
@@ -41,14 +41,58 @@ template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6
 class Action_6;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+template<typename TType,typename T>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass10_0_1;
+}
+namespace GlobalNamespace {
+template<typename TType,typename T,typename T0,typename T1,typename T2>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4;
+}
+namespace GlobalNamespace {
+template<typename TType,typename T,typename T0,typename T1>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass17_0_3;
+}
+namespace GlobalNamespace {
+template<typename TType,typename T>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass15_0_1;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__MultiplayerSessionManager__MessageType;
 }
 namespace GlobalNamespace {
+template<typename TType,typename T,typename T0>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass16_0_2;
+}
+namespace GlobalNamespace {
+template<typename TType,typename T,typename T0,typename T1,typename T2,typename T3>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass14_0_5;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+template<typename TType,typename T,typename T0>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2;
+}
+namespace GlobalNamespace {
+template<typename TType,typename T,typename T0,typename T1,typename T2,typename T3>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass19_0_5;
+}
+namespace GlobalNamespace {
+template<typename TType,typename T>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass20_0_1;
+}
+namespace GlobalNamespace {
 template<typename TType,typename TData>
 class NetworkPacketSerializer_2;
+}
+namespace GlobalNamespace {
+template<typename TType,typename T,typename T0,typename T1,typename T2>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass18_0_4;
+}
+namespace GlobalNamespace {
+template<typename TType,typename T,typename T0,typename T1>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -92,10 +136,6 @@ template<::cordl_internals::il2cpp_reference_type T>
 class GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,System::Int32Enum>;
 }
 namespace GlobalNamespace {
-template<::cordl_internals::il2cpp_reference_type T>
-class GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,float_t>;
-}
-namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type T0>
 class GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,T0>;
 }
@@ -104,8 +144,12 @@ template<::cordl_internals::il2cpp_reference_type T>
 class GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,bool>;
 }
 namespace GlobalNamespace {
-template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type T0>
-class GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3<System::ByteEnum,T,T0,int32_t>;
+template<::cordl_internals::il2cpp_reference_type T>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,float_t>;
+}
+namespace GlobalNamespace {
+template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type T0,::cordl_internals::is_or_is_backed_by<int32_t> T1>
+class GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3<System::ByteEnum,T,T0,T1>;
 }
 namespace GlobalNamespace {
 template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1>
@@ -208,8 +252,7 @@ constexpr System::Action_5<::StringW,T0,T1,T2,T3> __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass14_0_5() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass14_0_5 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -274,8 +317,7 @@ constexpr System::Action_2<::StringW,float_t> __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass15_0_1() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass15_0_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -340,8 +382,7 @@ constexpr System::Action_3<::StringW,float_t,T0> __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass16_0_2() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass16_0_2 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -407,8 +448,7 @@ constexpr System::Action_5<::StringW,float_t,T0,T1,T2> __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass18_0_4() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass18_0_4 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -473,8 +513,7 @@ constexpr System::Action_6<::StringW,float_t,T0,T1,T2,T3> __get_callback() const
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass19_0_5() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass19_0_5 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -541,272 +580,7 @@ constexpr System::Action_1<::StringW> __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass10_0_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _RegisterCallback_b__0(GlobalNamespace::IConnectedPlayer player, T rpc) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::<>c__DisplayClass11_0`2
-namespace GlobalNamespace {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type T0>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12882))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12882), inst: 5943 })
-// CS Name: RpcHandler`1::<>c__DisplayClass11_0`2
-class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,T0> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& o) noexcept = default;
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Action_2<::StringW,T0> __declspec(property(get=__get_callback, put=__set_callback))  callback;
-
-constexpr void __set_callback(System::Action_2<::StringW,T0> value) ;
-
-constexpr System::Action_2<::StringW,T0> __get_callback() const;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _RegisterCallback_b__0(GlobalNamespace::IConnectedPlayer player, T rpc) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::<>c__DisplayClass11_0`2
-namespace GlobalNamespace {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type T>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12882))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12882), inst: 5945 })
-// CS Name: RpcHandler`1::<>c__DisplayClass11_0`2
-class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,bool> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& o) noexcept = default;
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Action_2<::StringW,bool> __declspec(property(get=__get_callback, put=__set_callback))  callback;
-
-constexpr void __set_callback(System::Action_2<::StringW,bool> value) ;
-
-constexpr System::Action_2<::StringW,bool> __get_callback() const;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _RegisterCallback_b__0(GlobalNamespace::IConnectedPlayer player, T rpc) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::<>c__DisplayClass11_0`2
-namespace GlobalNamespace {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type T>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12882))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12882), inst: 5946 })
-// CS Name: RpcHandler`1::<>c__DisplayClass11_0`2
-class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& o) noexcept = default;
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Action_2<::StringW,System::Int32Enum> __declspec(property(get=__get_callback, put=__set_callback))  callback;
-
-constexpr void __set_callback(System::Action_2<::StringW,System::Int32Enum> value) ;
-
-constexpr System::Action_2<::StringW,System::Int32Enum> __get_callback() const;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _RegisterCallback_b__0(GlobalNamespace::IConnectedPlayer player, T rpc) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::<>c__DisplayClass11_0`2
-namespace GlobalNamespace {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type T>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12882))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12882), inst: 5947 })
-// CS Name: RpcHandler`1::<>c__DisplayClass11_0`2
-class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,float_t> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& o) noexcept = default;
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Action_2<::StringW,float_t> __declspec(property(get=__get_callback, put=__set_callback))  callback;
-
-constexpr void __set_callback(System::Action_2<::StringW,float_t> value) ;
-
-constexpr System::Action_2<::StringW,float_t> __get_callback() const;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass10_0_1<System::ByteEnum,T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -871,8 +645,7 @@ constexpr System::Action_2<::StringW,GlobalNamespace::SongPackMask> __get_callba
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,GlobalNamespace::SongPackMask> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -884,61 +657,255 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-// Type: ::<>c__DisplayClass12_0`3
+// Type: ::<>c__DisplayClass11_0`2
 namespace GlobalNamespace {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type T0>
+template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12883))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12883), inst: 5949 })
-// CS Name: RpcHandler`1::<>c__DisplayClass12_0`3
-class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3<System::ByteEnum,T,T0,int32_t> : public ::bs_hook::Il2CppWrapperType {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12882))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12882), inst: 5947 })
+// CS Name: RpcHandler`1::<>c__DisplayClass11_0`2
+class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,float_t> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3() = default;
+virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3(GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3(GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3&& o) noexcept = default;
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3 const& o) noexcept = default;
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& o) noexcept = default;
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& o) noexcept = default;
                 
 
 
 // Fields
 
- System::Action_3<::StringW,T0,int32_t> __declspec(property(get=__get_callback, put=__set_callback))  callback;
+ System::Action_2<::StringW,float_t> __declspec(property(get=__get_callback, put=__set_callback))  callback;
 
-constexpr void __set_callback(System::Action_3<::StringW,T0,int32_t> value) ;
+constexpr void __set_callback(System::Action_2<::StringW,float_t> value) ;
 
-constexpr System::Action_3<::StringW,T0,int32_t> __get_callback() const;
+constexpr System::Action_2<::StringW,float_t> __get_callback() const;
 
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,float_t> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _RegisterCallback_b__0(GlobalNamespace::IConnectedPlayer player, T rpc) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::<>c__DisplayClass11_0`2
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12882))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12882), inst: 5946 })
+// CS Name: RpcHandler`1::<>c__DisplayClass11_0`2
+class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,System::Int32Enum> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& o) noexcept = default;
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Action_2<::StringW,System::Int32Enum> __declspec(property(get=__get_callback, put=__set_callback))  callback;
+
+constexpr void __set_callback(System::Action_2<::StringW,System::Int32Enum> value) ;
+
+constexpr System::Action_2<::StringW,System::Int32Enum> __get_callback() const;
+
+
+// Methods
+
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,System::Int32Enum> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _RegisterCallback_b__0(GlobalNamespace::IConnectedPlayer player, T rpc) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::<>c__DisplayClass11_0`2
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12882))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12882), inst: 5945 })
+// CS Name: RpcHandler`1::<>c__DisplayClass11_0`2
+class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,bool> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& o) noexcept = default;
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Action_2<::StringW,bool> __declspec(property(get=__get_callback, put=__set_callback))  callback;
+
+constexpr void __set_callback(System::Action_2<::StringW,bool> value) ;
+
+constexpr System::Action_2<::StringW,bool> __get_callback() const;
+
+
+// Methods
+
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,bool> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _RegisterCallback_b__0(GlobalNamespace::IConnectedPlayer player, T rpc) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::<>c__DisplayClass11_0`2
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type T0>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12882))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12882), inst: 5943 })
+// CS Name: RpcHandler`1::<>c__DisplayClass11_0`2
+class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,T0> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2&& o) noexcept = default;
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Action_2<::StringW,T0> __declspec(property(get=__get_callback, put=__set_callback))  callback;
+
+constexpr void __set_callback(System::Action_2<::StringW,T0> value) ;
+
+constexpr System::Action_2<::StringW,T0> __get_callback() const;
+
+
+// Methods
+
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass11_0_2<System::ByteEnum,T,T0> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1003,8 +970,7 @@ constexpr System::Action_3<::StringW,T0,T1> __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3<System::ByteEnum,T,T0,T1> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1016,61 +982,60 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-// Type: ::<>c__DisplayClass13_0`4
+// Type: ::<>c__DisplayClass12_0`3
 namespace GlobalNamespace {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2>
+template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type T0,::cordl_internals::is_or_is_backed_by<int32_t> T1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12884))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12884), inst: 5951 })
-// CS Name: RpcHandler`1::<>c__DisplayClass13_0`4
-class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4<System::ByteEnum,T,T0,T1,T2> : public ::bs_hook::Il2CppWrapperType {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12883))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12883), inst: 5949 })
+// CS Name: RpcHandler`1::<>c__DisplayClass12_0`3
+class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3<System::ByteEnum,T,T0,T1> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4() = default;
+virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4(GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3(GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4(GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3(GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4&& o) noexcept = default;
-  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4 const& o) noexcept = default;
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3&& o) noexcept = default;
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3 const& o) noexcept = default;
                 
 
 
 // Fields
 
- System::Action_4<::StringW,T0,T1,T2> __declspec(property(get=__get_callback, put=__set_callback))  callback;
+ System::Action_3<::StringW,T0,T1> __declspec(property(get=__get_callback, put=__set_callback))  callback;
 
-constexpr void __set_callback(System::Action_4<::StringW,T0,T1,T2> value) ;
+constexpr void __set_callback(System::Action_3<::StringW,T0,T1> value) ;
 
-constexpr System::Action_4<::StringW,T0,T1,T2> __get_callback() const;
+constexpr System::Action_3<::StringW,T0,T1> __get_callback() const;
 
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass12_0_3<System::ByteEnum,T,T0,T1> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1135,8 +1100,72 @@ constexpr System::Action_4<::StringW,T0,T1,float_t> __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4<System::ByteEnum,T,T0,T1,float_t> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _RegisterCallback_b__0(GlobalNamespace::IConnectedPlayer player, T rpc) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::<>c__DisplayClass13_0`4
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12884))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12884), inst: 5951 })
+// CS Name: RpcHandler`1::<>c__DisplayClass13_0`4
+class CORDL_TYPE GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4<System::ByteEnum,T,T0,T1,T2> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4(GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4(GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4&& o) noexcept = default;
+  constexpr GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4& operator=(GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Action_4<::StringW,T0,T1,T2> __declspec(property(get=__get_callback, put=__set_callback))  callback;
+
+constexpr void __set_callback(System::Action_4<::StringW,T0,T1,T2> value) ;
+
+constexpr System::Action_4<::StringW,T0,T1,T2> __get_callback() const;
+
+
+// Methods
+
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass13_0_4<System::ByteEnum,T,T0,T1,T2> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1201,8 +1230,7 @@ constexpr System::Action_4<::StringW,float_t,float_t,T1> __get_callback() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass17_0_3() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass17_0_3<System::ByteEnum,T,float_t,T1> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1267,8 +1295,7 @@ constexpr System::Action_2<GlobalNamespace::IConnectedPlayer,T> __get_callback()
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__RpcHandler_1____c__DisplayClass20_0_1() ;
+static GlobalNamespace::GlobalNamespace__RpcHandler_1____c__DisplayClass20_0_1<System::ByteEnum,T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1378,8 +1405,7 @@ constexpr GlobalNamespace::NetworkPacketSerializer_2<System::ByteEnum,GlobalName
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "messageType", ty: "GlobalNamespace::GlobalNamespace__MultiplayerSessionManager__MessageType", modifiers: "", def_value: None }]
-explicit RpcHandler_1(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::GlobalNamespace__MultiplayerSessionManager__MessageType messageType) ;
+static GlobalNamespace::RpcHandler_1<System::ByteEnum> New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::GlobalNamespace__MultiplayerSessionManager__MessageType messageType) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::GlobalNamespace__MultiplayerSessionManager__MessageType messageType) ;

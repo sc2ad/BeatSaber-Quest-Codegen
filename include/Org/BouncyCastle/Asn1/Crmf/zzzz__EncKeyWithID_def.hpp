@@ -2,8 +2,8 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class PrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -14,11 +14,11 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Asn1 {
 class DerUtf8String;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -95,26 +95,22 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_identifier() const;
 /// @brief Method GetInstance addr 0xdf7a0c size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::EncKeyWithID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit EncKeyWithID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Crmf::EncKeyWithID New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf7ab0 size 0x10c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "privKeyInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo", modifiers: "", def_value: None }]
-explicit EncKeyWithID(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privKeyInfo) ;
+static Org::BouncyCastle::Asn1::Crmf::EncKeyWithID New_ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privKeyInfo) ;
 
 /// @brief Method .ctor addr 0xdf7bbc size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privKeyInfo) ;
 
-// Ctor Parameters [CppParam { name: "privKeyInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo", modifiers: "", def_value: None }, CppParam { name: "str", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }]
-explicit EncKeyWithID(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privKeyInfo, Org::BouncyCastle::Asn1::DerUtf8String str) ;
+static Org::BouncyCastle::Asn1::Crmf::EncKeyWithID New_ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privKeyInfo, Org::BouncyCastle::Asn1::DerUtf8String str) ;
 
 /// @brief Method .ctor addr 0xdf7be4 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privKeyInfo, Org::BouncyCastle::Asn1::DerUtf8String str) ;
 
-// Ctor Parameters [CppParam { name: "privKeyInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo", modifiers: "", def_value: None }, CppParam { name: "generalName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit EncKeyWithID(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName) ;
+static Org::BouncyCastle::Asn1::Crmf::EncKeyWithID New_ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName) ;
 
 /// @brief Method .ctor addr 0xdf7c10 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName) ;

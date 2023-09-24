@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IList;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
@@ -88,8 +88,7 @@ constexpr System::Collections::IList __get_mCertificateAuthorities() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certificateTypes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "certificateAuthorities", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit CertificateRequest(::ArrayW<uint8_t> certificateTypes, System::Collections::IList supportedSignatureAlgorithms, System::Collections::IList certificateAuthorities) ;
+static Org::BouncyCastle::Crypto::Tls::CertificateRequest New_ctor(::ArrayW<uint8_t> certificateTypes, System::Collections::IList supportedSignatureAlgorithms, System::Collections::IList certificateAuthorities) ;
 
 /// @brief Method .ctor addr 0xecfe28 size 0x3c virtual false final false
  void _ctor(::ArrayW<uint8_t> certificateTypes, System::Collections::IList supportedSignatureAlgorithms, System::Collections::IList certificateAuthorities) ;

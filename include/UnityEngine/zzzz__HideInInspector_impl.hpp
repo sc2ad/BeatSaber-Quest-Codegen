@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::HideInInspector::HideInInspector()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<HideInInspector>())) {}
+ UnityEngine::HideInInspector UnityEngine::HideInInspector::New_ctor()  {
+UnityEngine::HideInInspector o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::HideInInspector>())};
+return o;
+}
  void UnityEngine::HideInInspector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::HideInInspector>::get(),

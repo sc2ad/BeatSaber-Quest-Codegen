@@ -6,11 +6,33 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::InputSystem::UI {
+class UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::InputSystem::UI {
+struct UnityEngine__InputSystem__UI__TrackedDeviceRaycaster__RaycastHitData;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct InlinedArray_1;
+}
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
-struct Ray;
+struct Vector3;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine::InputSystem::UI {
+class ExtendedPointerEventData;
+}
+namespace UnityEngine {
+struct LayerMask;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
@@ -19,37 +41,21 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::InputSystem::UI {
-class ExtendedPointerEventData;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct InlinedArray_1;
-}
-namespace UnityEngine {
-class Camera;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine {
-class Canvas;
+struct Ray;
 }
 namespace System {
 template<typename T>
 class Comparison_1;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UI {
 class Graphic;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -218,8 +224,7 @@ static System::Comparison_1<UnityEngine::InputSystem::UI::UnityEngine__InputSyst
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c() ;
+static UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__TrackedDeviceRaycaster____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2943be8 size 0x8 virtual false final false
  void _ctor() ;
@@ -405,8 +410,7 @@ static bool RayIntersectsRectTransform(UnityEngine::RectTransform transform, Uni
 /// @brief Method get_canvas addr 0x2942ff0 size 0x94 virtual false final false
  UnityEngine::Canvas get_canvas() ;
 
-// Ctor Parameters []
-explicit TrackedDeviceRaycaster() ;
+static UnityEngine::InputSystem::UI::TrackedDeviceRaycaster New_ctor() ;
 
 /// @brief Method .ctor addr 0x2943a50 size 0x84 virtual false final false
  void _ctor() ;

@@ -2,16 +2,17 @@
 #include "System/Xml/zzzz__XmlResolver_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Xml/zzzz__XmlUrlResolver_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Xml/zzzz__XmlUrlResolver_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 //  Writing Method size for method: System::Xml::System__Xml__XmlUrlResolver___GetEntityAsync_d__15.MoveNext
 template<>
@@ -231,8 +232,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::XmlDownloadManager, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::XmlUrlResolver::XmlUrlResolver()  : System::Xml::XmlResolver(THROW_UNLESS(::il2cpp_utils::New<XmlUrlResolver>())) {}
+ System::Xml::XmlUrlResolver System::Xml::XmlUrlResolver::New_ctor()  {
+System::Xml::XmlUrlResolver o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlUrlResolver>())};
+return o;
+}
  void System::Xml::XmlUrlResolver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlUrlResolver>::get(),

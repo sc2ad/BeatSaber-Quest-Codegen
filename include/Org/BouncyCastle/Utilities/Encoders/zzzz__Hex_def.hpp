@@ -65,8 +65,7 @@ static Org::BouncyCastle::Utilities::Encoders::HexEncoder __get_encoder() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Hex() ;
+static Org::BouncyCastle::Utilities::Encoders::Hex New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d1668 size 0x8 virtual false final false
  void _ctor() ;

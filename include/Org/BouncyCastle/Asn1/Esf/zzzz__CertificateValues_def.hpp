@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -12,8 +12,8 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -73,20 +73,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_certificates() const;
 /// @brief Method GetInstance addr 0xe00998 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::CertificateValues GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertificateValues(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::CertificateValues New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe00b20 size 0x350 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "certificates", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure>", modifiers: "", def_value: None }]
-explicit CertificateValues(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certificates) ;
+static Org::BouncyCastle::Asn1::Esf::CertificateValues New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certificates) ;
 
 /// @brief Method .ctor addr 0xe00e70 size 0xc4 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certificates) ;
 
-// Ctor Parameters [CppParam { name: "certificates", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit CertificateValues(System::Collections::IEnumerable certificates) ;
+static Org::BouncyCastle::Asn1::Esf::CertificateValues New_ctor(System::Collections::IEnumerable certificates) ;
 
 /// @brief Method .ctor addr 0xe00f34 size 0x1a4 virtual false final false
  void _ctor(System::Collections::IEnumerable certificates) ;

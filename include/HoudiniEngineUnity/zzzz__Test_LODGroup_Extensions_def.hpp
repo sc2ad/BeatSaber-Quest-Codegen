@@ -12,6 +12,9 @@ class LODGroup;
 namespace HoudiniEngineUnity {
 class Test_LODGroup;
 }
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__Test_LODGroup_Extensions____c;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -86,8 +89,7 @@ static System::Converter_2<UnityEngine::LODGroup,HoudiniEngineUnity::Test_LODGro
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__Test_LODGroup_Extensions____c() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__Test_LODGroup_Extensions____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2071f14 size 0x8 virtual false final false
  void _ctor() ;

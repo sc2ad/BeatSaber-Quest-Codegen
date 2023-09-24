@@ -2,23 +2,24 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Security/Cryptography/zzzz__CryptoStream_def.hpp"
-#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
+#include "System/Security/Cryptography/zzzz__CryptoStream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Security/Cryptography/zzzz__CryptoStreamMode_def.hpp"
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
+#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__ForceAsyncAwaiter_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
@@ -636,8 +637,10 @@ return ::cordl_internals::getStaticField<System::Security::Cryptography::System_
  System::Func_1<System::Threading::SemaphoreSlim> System::Security::Cryptography::System__Security__Cryptography__CryptoStream____c::__get___9__54_0()  {
 return ::cordl_internals::getStaticField<System::Func_1<System::Threading::SemaphoreSlim>, "<>9__54_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::System__Security__Cryptography__CryptoStream____c>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::System__Security__Cryptography__CryptoStream____c::System__Security__Cryptography__CryptoStream____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Security__Cryptography__CryptoStream____c>())) {}
+ System::Security::Cryptography::System__Security__Cryptography__CryptoStream____c System::Security::Cryptography::System__Security__Cryptography__CryptoStream____c::New_ctor()  {
+System::Security::Cryptography::System__Security__Cryptography__CryptoStream____c o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::System__Security__Cryptography__CryptoStream____c>())};
+return o;
+}
  void System::Security::Cryptography::System__Security__Cryptography__CryptoStream____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::System__Security__Cryptography__CryptoStream____c>::get(),
@@ -1322,8 +1325,10 @@ constexpr void System::Security::Cryptography::CryptoStream::__set__leaveOpen(bo
 constexpr bool System::Security::Cryptography::CryptoStream::__get__leaveOpen() const {
 return ::cordl_internals::getInstanceField<bool, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "System::Security::Cryptography::ICryptoTransform", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Security::Cryptography::CryptoStreamMode", modifiers: "", def_value: None }]
- System::Security::Cryptography::CryptoStream::CryptoStream(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<CryptoStream>(stream, transform, mode))) {}
+ System::Security::Cryptography::CryptoStream System::Security::Cryptography::CryptoStream::New_ctor(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode)  {
+System::Security::Cryptography::CryptoStream o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CryptoStream>(stream, transform, mode))};
+return o;
+}
  void System::Security::Cryptography::CryptoStream::_ctor(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CryptoStream>::get(),
@@ -1333,8 +1338,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, transform, mode);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "System::Security::Cryptography::ICryptoTransform", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Security::Cryptography::CryptoStreamMode", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::CryptoStream::CryptoStream(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<CryptoStream>(stream, transform, mode, leaveOpen))) {}
+ System::Security::Cryptography::CryptoStream System::Security::Cryptography::CryptoStream::New_ctor(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen)  {
+System::Security::Cryptography::CryptoStream o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CryptoStream>(stream, transform, mode, leaveOpen))};
+return o;
+}
  void System::Security::Cryptography::CryptoStream::_ctor(System::IO::Stream stream, System::Security::Cryptography::ICryptoTransform transform, System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CryptoStream>::get(),

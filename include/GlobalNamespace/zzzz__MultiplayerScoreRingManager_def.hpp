@@ -6,51 +6,51 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-struct GlobalNamespace__MultiplayerController__State;
+class MultiplayerScoreProvider;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__MultiplayerScoreRingItem__Pool;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayersManager;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreRingItem;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreRingItem;
+class IMultiplayerSessionManager;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+class MultiplayerController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectSpawnCenter;
 }
 namespace GlobalNamespace {
 struct EaseType;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayersManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -245,8 +245,7 @@ constexpr bool __get__playersSpawned() const;
 /// @brief Method HandlePlayerDisconnected addr 0x210449c size 0x4 virtual false final false
  void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer player) ;
 
-// Ctor Parameters []
-explicit MultiplayerScoreRingManager() ;
+static GlobalNamespace::MultiplayerScoreRingManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x21044a0 size 0x88 virtual false final false
  void _ctor() ;

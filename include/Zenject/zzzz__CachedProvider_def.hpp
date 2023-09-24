@@ -3,24 +3,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace Zenject {
-class InjectContext;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
 }
 namespace Zenject {
-class IProvider;
+struct TypeValuePair;
 }
 namespace System {
 class Type;
 }
 namespace System {
 class Action;
+}
+namespace Zenject {
+class IProvider;
 }
 // Forward declare root types
 namespace Zenject {
@@ -101,8 +101,7 @@ constexpr bool __get__isCreatingInstance() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "creator", ty: "Zenject::IProvider", modifiers: "", def_value: None }]
-explicit CachedProvider(Zenject::IProvider creator) ;
+static Zenject::CachedProvider New_ctor(Zenject::IProvider creator) ;
 
 /// @brief Method .ctor addr 0x2d8bd98 size 0x28 virtual false final false
  void _ctor(Zenject::IProvider creator) ;

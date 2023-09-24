@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ArcVisibilityTypeSettingsDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
-#include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ArcVisibilityTypeSettingsDropdown.GetNamedValues
 template<>
 
@@ -47,8 +47,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::ArcVisibilityType,::StringW>>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ArcVisibilityTypeSettingsDropdown::ArcVisibilityTypeSettingsDropdown()  : GlobalNamespace::ValueDropdownController_1<GlobalNamespace::ArcVisibilityType>(THROW_UNLESS(::il2cpp_utils::New<ArcVisibilityTypeSettingsDropdown>())) {}
+ GlobalNamespace::ArcVisibilityTypeSettingsDropdown GlobalNamespace::ArcVisibilityTypeSettingsDropdown::New_ctor()  {
+GlobalNamespace::ArcVisibilityTypeSettingsDropdown o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ArcVisibilityTypeSettingsDropdown>())};
+return o;
+}
  void GlobalNamespace::ArcVisibilityTypeSettingsDropdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ArcVisibilityTypeSettingsDropdown>::get(),

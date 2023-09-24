@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-struct SongPackMask;
+class SongPackMaskModelSO;
 }
 namespace GlobalNamespace {
-class SongPackMaskModelSO;
+struct SongPackMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -70,8 +70,7 @@ constexpr GlobalNamespace::SongPackMask __get__allSongPackMask() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "songPackMasks", ty: "GlobalNamespace::SongPackMaskModelSO", modifiers: "", def_value: None }]
-explicit SongPackMasksModel(GlobalNamespace::SongPackMaskModelSO songPackMasks) ;
+static GlobalNamespace::SongPackMasksModel New_ctor(GlobalNamespace::SongPackMaskModelSO songPackMasks) ;
 
 /// @brief Method .ctor addr 0x22017f8 size 0x78 virtual false final false
  void _ctor(GlobalNamespace::SongPackMaskModelSO songPackMasks) ;

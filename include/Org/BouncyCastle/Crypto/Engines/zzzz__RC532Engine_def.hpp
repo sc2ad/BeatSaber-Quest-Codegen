@@ -99,8 +99,7 @@ constexpr bool __get_forEncryption() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RC532Engine() ;
+static Org::BouncyCastle::Crypto::Engines::RC532Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe4eb00 size 0x20 virtual false final false
  void _ctor() ;

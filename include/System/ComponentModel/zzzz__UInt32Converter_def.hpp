@@ -73,8 +73,7 @@ constexpr explicit UInt32Converter(void* ptr) noexcept : System::ComponentModel:
 /// @brief Method ToString addr 0x2786d64 size 0xb0 virtual true final false
  ::StringW ToString(::bs_hook::Il2CppWrapperType value, System::Globalization::NumberFormatInfo formatInfo) ;
 
-// Ctor Parameters []
-explicit UInt32Converter() ;
+static System::ComponentModel::UInt32Converter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2786e14 size 0x8 virtual false final false
  void _ctor() ;

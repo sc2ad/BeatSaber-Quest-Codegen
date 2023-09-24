@@ -5,37 +5,37 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-struct Vector3Serializable;
+struct GlobalNamespace__NoteData__GameplayType;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
+struct Vector3Serializable;
+}
+namespace GlobalNamespace {
+struct QuaternionSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
-class NoteData;
+struct ColorType;
 }
 namespace GlobalNamespace {
-struct QuaternionSerializable;
+struct NoteCutInfo;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+class NoteData;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace GlobalNamespace {
-struct ColorType;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__NoteData__GameplayType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -185,8 +185,7 @@ static GlobalNamespace::NoteCutInfoNetSerializable Obtain() ;
 /// @brief Method Serialize addr 0x121746c size 0x104 virtual true final false
  void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
-// Ctor Parameters []
-explicit NoteCutInfoNetSerializable() ;
+static GlobalNamespace::NoteCutInfoNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1217618 size 0x58 virtual false final false
  void _ctor() ;

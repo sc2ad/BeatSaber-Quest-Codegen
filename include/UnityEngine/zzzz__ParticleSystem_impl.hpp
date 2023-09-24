@@ -2,8 +2,9 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystemStopBehavior_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystemCurveMode_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
@@ -2761,8 +2762,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, particle);
 }
-// Ctor Parameters []
- UnityEngine::ParticleSystem::ParticleSystem()  : UnityEngine::Component(THROW_UNLESS(::il2cpp_utils::New<ParticleSystem>())) {}
+ UnityEngine::ParticleSystem UnityEngine::ParticleSystem::New_ctor()  {
+UnityEngine::ParticleSystem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ParticleSystem>())};
+return o;
+}
  void UnityEngine::ParticleSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ParticleSystem>::get(),

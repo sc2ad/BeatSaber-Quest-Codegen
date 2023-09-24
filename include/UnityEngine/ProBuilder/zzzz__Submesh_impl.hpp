@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__Submesh_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__MeshTopology_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Submesh.get_indexes
 template<>
 
@@ -281,8 +281,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "submeshIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "topology", ty: "UnityEngine::MeshTopology", modifiers: "", def_value: None }, CppParam { name: "indexes", ty: "System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Submesh::Submesh(int32_t submeshIndex, UnityEngine::MeshTopology topology, System::Collections::Generic::IEnumerable_1<int32_t> indexes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Submesh>(submeshIndex, topology, indexes))) {}
+ UnityEngine::ProBuilder::Submesh UnityEngine::ProBuilder::Submesh::New_ctor(int32_t submeshIndex, UnityEngine::MeshTopology topology, System::Collections::Generic::IEnumerable_1<int32_t> indexes)  {
+UnityEngine::ProBuilder::Submesh o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Submesh>(submeshIndex, topology, indexes))};
+return o;
+}
  void UnityEngine::ProBuilder::Submesh::_ctor(int32_t submeshIndex, UnityEngine::MeshTopology topology, System::Collections::Generic::IEnumerable_1<int32_t> indexes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Submesh>::get(),
@@ -292,8 +294,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, submeshIndex, topology, indexes);
 }
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }, CppParam { name: "subMeshIndex", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Submesh::Submesh(UnityEngine::Mesh mesh, int32_t subMeshIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Submesh>(mesh, subMeshIndex))) {}
+ UnityEngine::ProBuilder::Submesh UnityEngine::ProBuilder::Submesh::New_ctor(UnityEngine::Mesh mesh, int32_t subMeshIndex)  {
+UnityEngine::ProBuilder::Submesh o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Submesh>(mesh, subMeshIndex))};
+return o;
+}
  void UnityEngine::ProBuilder::Submesh::_ctor(UnityEngine::Mesh mesh, int32_t subMeshIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Submesh>::get(),

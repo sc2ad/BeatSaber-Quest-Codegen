@@ -7,99 +7,100 @@
 #include "UnityEngine/UIElements/zzzz__UxmlTraits_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualElementPanelActivatable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementPanelActivator_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValue_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleValueType_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ICustomStyle_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TimerState_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleValueType_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TimerState_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PickingMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UsageHints_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PickingMode_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__StyleValues_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaNode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PseudoStates_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Background_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IExperimentalFeatures_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__RenderChainVEData_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IVisualElementScheduler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TooltipEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Visibility_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IResolvedStyle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__InlineStyleAccess_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Length_def.hpp"
-#include "UnityEngine/UIElements/zzzz__RenderHints_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaMeasureMode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__WhiteSpace_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Translate_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
-#include "UnityEngine/UIElements/Experimental/zzzz__ITransitionAnimations_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElementFlags_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
-#include "UnityEngine/UIElements/Experimental/zzzz__ValueAnimation_1_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaSize_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ComputedStyle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ITransform_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementStyleSheetSet_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStylePropertyAnimations_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PseudoStates_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleRule_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__PropertyName_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStylePropertyAnimations_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ITransform_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Background_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Translate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaMeasureMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElementFlags_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ComputedStyle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__HierarchyChangeType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DisplayStyle_def.hpp"
-#include "UnityEngine/UIElements/Experimental/zzzz__IValueAnimationUpdate_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStylePropertyAnimationSystem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IExperimentalFeatures_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__WhiteSpace_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaNode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__RenderHints_def.hpp"
+#include "UnityEngine/UIElements/zzzz__InlineStyleAccess_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Length_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualElementScheduler_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
+#include "UnityEngine/UIElements/Experimental/zzzz__IValueAnimationUpdate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TooltipEvent_def.hpp"
+#include "UnityEngine/UIElements/Experimental/zzzz__ITransitionAnimations_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IResolvedStyle_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__RenderChainVEData_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__HierarchyChangeType_def.hpp"
-#include "UnityEngine/zzzz__PropertyName_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElementAnimationSystem_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleRule_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaSize_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElementAnimationSystem_def.hpp"
+#include "UnityEngine/UIElements/Experimental/zzzz__ValueAnimation_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem.get_element
 template<>
 
@@ -348,8 +349,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "handler", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem(UnityEngine::UIElements::VisualElement handler)  : UnityEngine::UIElements::ScheduledItem(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem>(handler))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem::New_ctor(UnityEngine::UIElements::VisualElement handler)  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem>(handler))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem::_ctor(UnityEngine::UIElements::VisualElement handler)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem>::get(),
@@ -440,6 +443,25 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
+constexpr void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType>::__set_updateEvent(ActionType value)  {
+::cordl_internals::setInstanceField<ActionType, 0x50>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<ActionType>(value));
+}
+constexpr ActionType UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType>::__get_updateEvent() const {
+return ::cordl_internals::getInstanceField<ActionType, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType> UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType>::New_ctor(UnityEngine::UIElements::VisualElement handler, ActionType upEvent)  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType>>(handler, upEvent))};
+return o;
+}
+ void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType>::_ctor(UnityEngine::UIElements::VisualElement handler, ActionType upEvent)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<ActionType>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::UIElements::VisualElement>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ActionType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, handler, upEvent);
+}
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TimerStateScheduledItem._ctor
 template<>
 
@@ -474,8 +496,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "handler", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }, CppParam { name: "updateEvent", ty: "System::Action_1<UnityEngine::UIElements::TimerState>", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TimerStateScheduledItem::UnityEngine__UIElements__VisualElement__TimerStateScheduledItem(UnityEngine::UIElements::VisualElement handler, System::Action_1<UnityEngine::UIElements::TimerState> updateEvent)  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<System::Action_1<UnityEngine::UIElements::TimerState>>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElement__TimerStateScheduledItem>(handler, updateEvent))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TimerStateScheduledItem UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TimerStateScheduledItem::New_ctor(UnityEngine::UIElements::VisualElement handler, System::Action_1<UnityEngine::UIElements::TimerState> updateEvent)  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TimerStateScheduledItem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TimerStateScheduledItem>(handler, updateEvent))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TimerStateScheduledItem::_ctor(UnityEngine::UIElements::VisualElement handler, System::Action_1<UnityEngine::UIElements::TimerState> updateEvent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TimerStateScheduledItem>::get(),
@@ -528,8 +552,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "handler", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }, CppParam { name: "updateEvent", ty: "System::Action", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__SimpleScheduledItem::UnityEngine__UIElements__VisualElement__SimpleScheduledItem(UnityEngine::UIElements::VisualElement handler, System::Action updateEvent)  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1<System::Action>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElement__SimpleScheduledItem>(handler, updateEvent))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__SimpleScheduledItem UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__SimpleScheduledItem::New_ctor(UnityEngine::UIElements::VisualElement handler, System::Action updateEvent)  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__SimpleScheduledItem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__SimpleScheduledItem>(handler, updateEvent))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__SimpleScheduledItem::_ctor(UnityEngine::UIElements::VisualElement handler, System::Action updateEvent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__SimpleScheduledItem>::get(),
@@ -735,8 +761,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits::UnityEngine__UIElements__VisualElement__UxmlTraits()  : UnityEngine::UIElements::UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElement__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits>::get(),
@@ -7045,8 +7073,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, delta);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::VisualElement::VisualElement()  : UnityEngine::UIElements::Focusable(THROW_UNLESS(::il2cpp_utils::New<VisualElement>())) {}
+ UnityEngine::UIElements::VisualElement UnityEngine::UIElements::VisualElement::New_ctor()  {
+UnityEngine::UIElements::VisualElement o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualElement>())};
+return o;
+}
  void UnityEngine::UIElements::VisualElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualElement>::get(),
@@ -8509,8 +8539,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlFactory::UnityEngine__UIElements__VisualElement__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElement__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlFactory>::get(),
@@ -8700,8 +8732,10 @@ constexpr void GlobalNamespace::UnityEngine__UIElements__VisualElement__UxmlTrai
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits GlobalNamespace::UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18::UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18>(__1__state))) {}
+ GlobalNamespace::UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18 GlobalNamespace::UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18::New_ctor(int32_t __1__state)  {
+GlobalNamespace::UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18>(__1__state))};
+return o;
+}
  void GlobalNamespace::UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__UIElements__VisualElement__UxmlTraits___get_uxmlChildElementsDescription_d__18>::get(),
@@ -8894,8 +8928,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Type, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TypeData::UnityEngine__UIElements__VisualElement__TypeData(System::Type type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElement__TypeData>(type))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TypeData UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TypeData::New_ctor(System::Type type)  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TypeData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TypeData>(type))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TypeData::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__TypeData>::get(),
@@ -9823,8 +9859,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, propertyName, valueType, customProp);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__CustomStyleAccess::UnityEngine__UIElements__VisualElement__CustomStyleAccess()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElement__CustomStyleAccess>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__CustomStyleAccess UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__CustomStyleAccess::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__CustomStyleAccess o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__CustomStyleAccess>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__CustomStyleAccess::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__CustomStyleAccess>::get(),
@@ -9880,8 +9918,10 @@ constexpr void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__
 constexpr UnityEngine::UIElements::Experimental::StyleValues UnityEngine::UIElements::UnityEngine__UIElements__VisualElement____c__DisplayClass435_0::__get_to() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::Experimental::StyleValues, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__VisualElement____c__DisplayClass435_0::UnityEngine__UIElements__VisualElement____c__DisplayClass435_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElement____c__DisplayClass435_0>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualElement____c__DisplayClass435_0 UnityEngine::UIElements::UnityEngine__UIElements__VisualElement____c__DisplayClass435_0::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualElement____c__DisplayClass435_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement____c__DisplayClass435_0>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement____c__DisplayClass435_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement____c__DisplayClass435_0>::get(),
@@ -9899,38 +9939,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::UIElements::VisualElement>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::Experimental::StyleValues, false>(const_cast<void*>(instance), ___internal_method, e);
-}
-//  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1::*)(UnityEngine::UIElements::VisualElement, ActionType)>(&UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::UIElements::VisualElement>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ActionType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1::__set_updateEvent(ActionType value)  {
-::cordl_internals::setInstanceField<ActionType, 0x50>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<ActionType>(value));
-}
-constexpr ActionType UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1::__get_updateEvent() const {
-return ::cordl_internals::getInstanceField<ActionType, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "handler", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }, CppParam { name: "upEvent", ty: "ActionType", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1(UnityEngine::UIElements::VisualElement handler, ActionType upEvent)  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__BaseVisualElementScheduledItem(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1>(handler, upEvent))) {}
- void UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1::_ctor(UnityEngine::UIElements::VisualElement handler, ActionType upEvent)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__VisualElementScheduledItem_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::UIElements::VisualElement>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ActionType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, handler, upEvent);
 }

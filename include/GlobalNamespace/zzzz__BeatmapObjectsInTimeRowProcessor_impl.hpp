@@ -1,15 +1,16 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapDataItem_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectsInTimeRowProcessor_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectsInTimeRowProcessor_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__SliderData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData._ctor
 template<>
@@ -51,8 +52,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcesso
 constexpr GlobalNamespace::SliderData GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData::__get_slider() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::SliderData, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "slider", ty: "GlobalNamespace::SliderData", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData(GlobalNamespace::SliderData slider)  : GlobalNamespace::BeatmapDataItem(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData>(slider))) {}
+ GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData::New_ctor(GlobalNamespace::SliderData slider)  {
+GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData>(slider))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData::_ctor(GlobalNamespace::SliderData slider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__SliderTailData>::get(),
@@ -111,8 +114,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcesso
 constexpr float_t GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0::__get_currentTimeSliceTime() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0 GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0>::get(),
@@ -177,8 +182,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Beatm
  System::Func_2<GlobalNamespace::BeatmapDataItem,bool> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c::__get___9__17_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::BeatmapDataItem,bool>, "<>9__17_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor____c>::get(),
@@ -437,8 +444,10 @@ constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__set__numberO
 constexpr int32_t GlobalNamespace::BeatmapObjectsInTimeRowProcessor::__get__numberOfLines() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "numberOfLines", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapObjectsInTimeRowProcessor::BeatmapObjectsInTimeRowProcessor(int32_t numberOfLines)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor>(numberOfLines))) {}
+ GlobalNamespace::BeatmapObjectsInTimeRowProcessor GlobalNamespace::BeatmapObjectsInTimeRowProcessor::New_ctor(int32_t numberOfLines)  {
+GlobalNamespace::BeatmapObjectsInTimeRowProcessor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapObjectsInTimeRowProcessor>(numberOfLines))};
+return o;
+}
  void GlobalNamespace::BeatmapObjectsInTimeRowProcessor::_ctor(int32_t numberOfLines)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapObjectsInTimeRowProcessor>::get(),
@@ -547,454 +556,184 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, slider, sliderTail);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.get_time
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)()>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::get_time)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "get_time",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.set_time
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(float_t)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::set_time)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "set_time",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.get_previousTimeSliceTime
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)()>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::get_previousTimeSliceTime)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "get_previousTimeSliceTime",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.set_previousTimeSliceTime
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(float_t)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::set_previousTimeSliceTime)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "set_previousTimeSliceTime",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.get_items
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<T> (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)()>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::get_items)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "get_items",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.add_didFinishTimeSliceEvent
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t>)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::add_didFinishTimeSliceEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "add_didFinishTimeSliceEvent",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.remove_didFinishTimeSliceEvent
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t>)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::remove_didFinishTimeSliceEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "remove_didFinishTimeSliceEvent",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.add_didStartNewTimeSliceEvent
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::add_didStartNewTimeSliceEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "add_didStartNewTimeSliceEvent",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.remove_didStartNewTimeSliceEvent
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::remove_didStartNewTimeSliceEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "remove_didStartNewTimeSliceEvent",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.add_didAddItemEvent
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T>)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::add_didAddItemEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "add_didAddItemEvent",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.remove_didAddItemEvent
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T>)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::remove_didAddItemEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "remove_didAddItemEvent",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(int32_t)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.Add
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(T)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::Add)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "Add",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.AddWithoutNotifications
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(T)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::AddWithoutNotifications)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "AddWithoutNotifications",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.FinishTimeSlice
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(float_t)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::FinishTimeSlice)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "FinishTimeSlice",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1.StartNewTimeSlice
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::*)(float_t)>(&GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::StartNewTimeSlice)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
-                            "StartNewTimeSlice",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__set__time_k__BackingField(float_t value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set__time_k__BackingField(float_t value)  {
 ::cordl_internals::setInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<float_t>(value));
 }
-constexpr float_t GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__get__time_k__BackingField() const {
+constexpr float_t GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get__time_k__BackingField() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__set__previousTimeSliceTime_k__BackingField(float_t value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set__previousTimeSliceTime_k__BackingField(float_t value)  {
 ::cordl_internals::setInstanceField<float_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<float_t>(value));
 }
-constexpr float_t GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__get__previousTimeSliceTime_k__BackingField() const {
+constexpr float_t GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get__previousTimeSliceTime_k__BackingField() const {
 return ::cordl_internals::getInstanceField<float_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__set_didFinishTimeSliceEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set_didFinishTimeSliceEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t> value)  {
 ::cordl_internals::setInstanceField<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t>>(value));
 }
-constexpr System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__get_didFinishTimeSliceEvent() const {
+constexpr System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get_didFinishTimeSliceEvent() const {
 return ::cordl_internals::getInstanceField<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__set_didStartNewTimeSliceEvent(System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set_didStartNewTimeSliceEvent(System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>>(value));
 }
-constexpr System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__get_didStartNewTimeSliceEvent() const {
+constexpr System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get_didStartNewTimeSliceEvent() const {
 return ::cordl_internals::getInstanceField<System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__set_didAddItemEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set_didAddItemEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T> value)  {
 ::cordl_internals::setInstanceField<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T>>(value));
 }
-constexpr System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__get_didAddItemEvent() const {
+constexpr System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get_didAddItemEvent() const {
 return ::cordl_internals::getInstanceField<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__set__items(System::Collections::Generic::List_1<T> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__set__items(System::Collections::Generic::List_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Collections::Generic::List_1<T>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Collections::Generic::List_1<T>>(value));
 }
-constexpr System::Collections::Generic::List_1<T> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::__get__items() const {
+constexpr System::Collections::Generic::List_1<T> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::__get__items() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<T>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
- float_t GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::get_time()  {
+ float_t GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::get_time()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "get_time",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::set_time(float_t value)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::set_time(float_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "set_time",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- float_t GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::get_previousTimeSliceTime()  {
+ float_t GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::get_previousTimeSliceTime()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "get_previousTimeSliceTime",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::set_previousTimeSliceTime(float_t value)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::set_previousTimeSliceTime(float_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "set_previousTimeSliceTime",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- System::Collections::Generic::IReadOnlyList_1<T> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::get_items()  {
+ System::Collections::Generic::IReadOnlyList_1<T> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::get_items()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "get_items",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<T>, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::add_didFinishTimeSliceEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t> value)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::add_didFinishTimeSliceEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "add_didFinishTimeSliceEvent",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::remove_didFinishTimeSliceEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t> value)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::remove_didFinishTimeSliceEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "remove_didFinishTimeSliceEvent",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,float_t>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::add_didStartNewTimeSliceEvent(System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>> value)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::add_didStartNewTimeSliceEvent(System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "add_didStartNewTimeSliceEvent",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::remove_didStartNewTimeSliceEvent(System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>> value)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::remove_didStartNewTimeSliceEvent(System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "remove_didStartNewTimeSliceEvent",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_1<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::add_didAddItemEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T> value)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::add_didAddItemEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "add_didAddItemEvent",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::remove_didAddItemEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T> value)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::remove_didAddItemEvent(System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "remove_didAddItemEvent",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Action_2<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>,T>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1(int32_t capacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>(capacity))) {}
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::_ctor(int32_t capacity)  {
+ GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T> GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::New_ctor(int32_t capacity)  {
+GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T> o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>(capacity))};
+return o;
+}
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::_ctor(int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::Add(T item)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::Add(T item)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "Add",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, item);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::AddWithoutNotifications(T item)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::AddWithoutNotifications(T item)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "AddWithoutNotifications",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, item);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::FinishTimeSlice(float_t nextTimeSliceTime)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::FinishTimeSlice(float_t nextTimeSliceTime)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "FinishTimeSlice",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, nextTimeSliceTime);
 }
- void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1::StartNewTimeSlice(float_t newSliceTime)  {
+ void GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>::StartNewTimeSlice(float_t newSliceTime)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>>::get(),
                             "StartNewTimeSlice",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}

@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenGenerator_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampToken_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
-#include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Tsp/zzzz__TimeStampToken_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Tsp::TimeStampTokenGenerator._ctor
 template<>
 
@@ -257,8 +257,10 @@ constexpr void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__set_x509Crls(O
 constexpr Org::BouncyCastle::X509::Store::IX509Store Org::BouncyCastle::Tsp::TimeStampTokenGenerator::__get_x509Crls() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::X509::Store::IX509Store, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "digestOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tsaPolicyOID", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampTokenGenerator::TimeStampTokenGenerator(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampTokenGenerator>(key, cert, digestOID, tsaPolicyOID))) {}
+ Org::BouncyCastle::Tsp::TimeStampTokenGenerator Org::BouncyCastle::Tsp::TimeStampTokenGenerator::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID)  {
+Org::BouncyCastle::Tsp::TimeStampTokenGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampTokenGenerator>(key, cert, digestOID, tsaPolicyOID))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampTokenGenerator>::get(),
@@ -268,8 +270,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key, cert, digestOID, tsaPolicyOID);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "digestOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tsaPolicyOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "signedAttr", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }, CppParam { name: "unsignedAttr", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampTokenGenerator::TimeStampTokenGenerator(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID, Org::BouncyCastle::Asn1::Cms::AttributeTable signedAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable unsignedAttr)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampTokenGenerator>(key, cert, digestOID, tsaPolicyOID, signedAttr, unsignedAttr))) {}
+ Org::BouncyCastle::Tsp::TimeStampTokenGenerator Org::BouncyCastle::Tsp::TimeStampTokenGenerator::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID, Org::BouncyCastle::Asn1::Cms::AttributeTable signedAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable unsignedAttr)  {
+Org::BouncyCastle::Tsp::TimeStampTokenGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampTokenGenerator>(key, cert, digestOID, tsaPolicyOID, signedAttr, unsignedAttr))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampTokenGenerator::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::X509::X509Certificate cert, ::StringW digestOID, ::StringW tsaPolicyOID, Org::BouncyCastle::Asn1::Cms::AttributeTable signedAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable unsignedAttr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampTokenGenerator>::get(),

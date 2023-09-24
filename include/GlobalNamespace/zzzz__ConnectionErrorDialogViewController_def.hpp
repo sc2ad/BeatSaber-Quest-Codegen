@@ -9,6 +9,9 @@ struct DisconnectedReason;
 namespace System {
 class Action;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ConnectionErrorDialogViewController;
@@ -67,8 +70,7 @@ constexpr System::Action __get_buttonAction() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0() ;
+static GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21575dc size 0x8 virtual false final false
  void _ctor() ;
@@ -127,8 +129,7 @@ constexpr explicit ConnectionErrorDialogViewController(void* ptr) noexcept : Glo
 /// @brief Method Init addr 0x2157444 size 0x198 virtual false final false
  void Init(GlobalNamespace::DisconnectedReason reason, System::Action buttonAction) ;
 
-// Ctor Parameters []
-explicit ConnectionErrorDialogViewController() ;
+static GlobalNamespace::ConnectionErrorDialogViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21575e4 size 0x8 virtual false final false
  void _ctor() ;

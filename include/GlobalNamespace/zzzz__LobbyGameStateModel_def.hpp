@@ -1,12 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace GlobalNamespace {
-struct MultiplayerGameState;
-}
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace GlobalNamespace {
+struct MultiplayerGameState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,8 +104,7 @@ constexpr GlobalNamespace::MultiplayerGameState __get__gameState() const;
 /// @brief Method SetGameState addr 0x21f8be4 size 0x70 virtual false final false
  void SetGameState(GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification) ;
 
-// Ctor Parameters []
-explicit LobbyGameStateModel() ;
+static GlobalNamespace::LobbyGameStateModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f8c54 size 0x8 virtual false final false
  void _ctor() ;

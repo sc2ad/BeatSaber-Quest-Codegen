@@ -3,22 +3,22 @@
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class XmlElement;
-}
-namespace System::Xml {
-struct XmlNodeType;
+class XmlDocument;
 }
 namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
-class XmlLinkedNode;
+struct XmlNodeType;
 }
 namespace System::Xml {
-class XmlDocument;
+class XmlElement;
 }
 namespace System::Xml {
 class XmlName;
+}
+namespace System::Xml {
+class XmlLinkedNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -116,14 +116,12 @@ constexpr System::Xml::XmlLinkedNode __get_lastChild() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlName", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlAttribute(System::Xml::XmlName name, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlAttribute New_ctor(System::Xml::XmlName name, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26ee03c size 0x110 virtual false final false
  void _ctor(System::Xml::XmlName name, System::Xml::XmlDocument doc) ;
 
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "namespaceURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlAttribute(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlAttribute New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26ee224 size 0x3c virtual false final false
  void _ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;

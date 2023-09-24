@@ -5,47 +5,47 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::X509 {
-class AttributeCertificate;
-}
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::X509 {
-class IX509Extension;
+class X509Attribute;
+}
+namespace Org::BouncyCastle::X509 {
+class AttributeCertificateIssuer;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactory;
 }
-namespace Org::BouncyCastle::X509 {
-class AttributeCertificateHolder;
-}
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactoryProvider;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+class AttributeCertificate;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::X509 {
-class AttributeCertificateIssuer;
+class IX509Extension;
 }
 namespace System {
 struct DateTime;
 }
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class IVerifierFactoryProvider;
 }
 namespace Org::BouncyCastle::X509 {
-class X509Attribute;
+class AttributeCertificateHolder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -142,20 +142,17 @@ constexpr System::DateTime __get_notAfter() const;
 /// @brief Method GetObject addr 0x10f8cfc size 0x124 virtual false final false
 static Org::BouncyCastle::Asn1::X509::AttributeCertificate GetObject(System::IO::Stream input) ;
 
-// Ctor Parameters [CppParam { name: "encIn", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit X509V2AttributeCertificate(System::IO::Stream encIn) ;
+static Org::BouncyCastle::X509::X509V2AttributeCertificate New_ctor(System::IO::Stream encIn) ;
 
 /// @brief Method .ctor addr 0x10f8e20 size 0x20 virtual false final false
  void _ctor(System::IO::Stream encIn) ;
 
-// Ctor Parameters [CppParam { name: "encoded", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit X509V2AttributeCertificate(::ArrayW<uint8_t> encoded) ;
+static Org::BouncyCastle::X509::X509V2AttributeCertificate New_ctor(::ArrayW<uint8_t> encoded) ;
 
 /// @brief Method .ctor addr 0x10f8e40 size 0x80 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoded) ;
 
-// Ctor Parameters [CppParam { name: "cert", ty: "Org::BouncyCastle::Asn1::X509::AttributeCertificate", modifiers: "", def_value: None }]
-explicit X509V2AttributeCertificate(Org::BouncyCastle::Asn1::X509::AttributeCertificate cert) ;
+static Org::BouncyCastle::X509::X509V2AttributeCertificate New_ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificate cert) ;
 
 /// @brief Method .ctor addr 0x10ec320 size 0x170 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificate cert) ;

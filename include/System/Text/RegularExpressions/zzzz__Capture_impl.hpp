@@ -206,8 +206,10 @@ constexpr void System::Text::RegularExpressions::Capture::__set__Text_k__Backing
 constexpr ::StringW System::Text::RegularExpressions::Capture::__get__Text_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::Capture::Capture(::StringW text, int32_t index, int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Capture>(text, index, length))) {}
+ System::Text::RegularExpressions::Capture System::Text::RegularExpressions::Capture::New_ctor(::StringW text, int32_t index, int32_t length)  {
+System::Text::RegularExpressions::Capture o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::Capture>(text, index, length))};
+return o;
+}
  void System::Text::RegularExpressions::Capture::_ctor(::StringW text, int32_t index, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::Capture>::get(),

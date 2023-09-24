@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+class __BinaryParser;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -70,8 +70,7 @@ constexpr ::StringW __get_assemblyString() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BinaryAssembly() ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryAssembly New_ctor() ;
 
 /// @brief Method .ctor addr 0x2355b8c size 0x8 virtual false final false
  void _ctor() ;

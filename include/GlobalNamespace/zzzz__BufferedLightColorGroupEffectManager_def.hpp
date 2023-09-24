@@ -2,8 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace GlobalNamespace {
-class LightGroup;
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class BufferedLightColorGroupEffect;
@@ -11,8 +11,8 @@ class BufferedLightColorGroupEffect;
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class LightGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -93,8 +93,7 @@ constexpr ::ArrayW<GlobalNamespace::BufferedLightColorGroupEffect> __get__buffer
 /// @brief Method OnDestroy addr 0x225cb80 size 0x5c virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit BufferedLightColorGroupEffectManager() ;
+static GlobalNamespace::BufferedLightColorGroupEffectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x225cbdc size 0x8 virtual false final false
  void _ctor() ;

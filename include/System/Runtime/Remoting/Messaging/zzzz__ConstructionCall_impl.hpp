@@ -1,17 +1,17 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__MethodCall_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ConstructionCall_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RemotingProxy_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::ConstructionCall._ctor
 template<>
 
@@ -359,8 +359,10 @@ constexpr void System::Runtime::Remoting::Messaging::ConstructionCall::__set__so
 constexpr System::Runtime::Remoting::Proxies::RemotingProxy System::Runtime::Remoting::Messaging::ConstructionCall::__get__sourceProxy() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Proxies::RemotingProxy, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::ConstructionCall::ConstructionCall(System::Type type)  : System::Runtime::Remoting::Messaging::MethodCall(THROW_UNLESS(::il2cpp_utils::New<ConstructionCall>(type))) {}
+ System::Runtime::Remoting::Messaging::ConstructionCall System::Runtime::Remoting::Messaging::ConstructionCall::New_ctor(System::Type type)  {
+System::Runtime::Remoting::Messaging::ConstructionCall o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ConstructionCall>(type))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ConstructionCall::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ConstructionCall>::get(),
@@ -370,8 +372,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::ConstructionCall::ConstructionCall(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Runtime::Remoting::Messaging::MethodCall(THROW_UNLESS(::il2cpp_utils::New<ConstructionCall>(info, context))) {}
+ System::Runtime::Remoting::Messaging::ConstructionCall System::Runtime::Remoting::Messaging::ConstructionCall::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::Remoting::Messaging::ConstructionCall o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ConstructionCall>(info, context))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ConstructionCall::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ConstructionCall>::get(),

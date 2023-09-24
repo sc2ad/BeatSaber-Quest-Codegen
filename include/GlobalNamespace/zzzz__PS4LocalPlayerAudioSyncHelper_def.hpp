@@ -47,8 +47,7 @@ constexpr explicit PS4LocalPlayerAudioSyncHelper(void* ptr) noexcept : UnityEngi
 
 // Methods
 
-// Ctor Parameters []
-explicit PS4LocalPlayerAudioSyncHelper() ;
+static GlobalNamespace::PS4LocalPlayerAudioSyncHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e9b78 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferOwners_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CommandBufferGOCore.OnEnable
 template<>
 
@@ -199,8 +199,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalNamespace::CommandBufferOwners>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CommandBufferGOCore::CommandBufferGOCore()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CommandBufferGOCore>())) {}
+ GlobalNamespace::CommandBufferGOCore GlobalNamespace::CommandBufferGOCore::New_ctor()  {
+GlobalNamespace::CommandBufferGOCore o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CommandBufferGOCore>())};
+return o;
+}
  void GlobalNamespace::CommandBufferGOCore::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CommandBufferGOCore>::get(),

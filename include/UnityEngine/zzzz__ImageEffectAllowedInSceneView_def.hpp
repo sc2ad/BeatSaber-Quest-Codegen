@@ -47,8 +47,7 @@ constexpr explicit ImageEffectAllowedInSceneView(void* ptr) noexcept : System::A
 
 // Methods
 
-// Ctor Parameters []
-explicit ImageEffectAllowedInSceneView() ;
+static UnityEngine::ImageEffectAllowedInSceneView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b40698 size 0x8 virtual false final false
  void _ctor() ;

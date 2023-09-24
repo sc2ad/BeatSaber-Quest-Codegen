@@ -7,17 +7,20 @@
 namespace UnityEngine {
 struct Color;
 }
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-class SaberTypeObject;
+namespace UnityEngine {
+class MeshRenderer;
 }
 namespace GlobalNamespace {
 struct SaberType;
 }
-namespace UnityEngine {
-class MeshRenderer;
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair;
+}
+namespace GlobalNamespace {
+class SaberTypeObject;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
@@ -86,8 +89,7 @@ constexpr ::StringW __get_property() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair() ;
+static GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair New_ctor() ;
 
 /// @brief Method .ctor addr 0x210ce54 size 0x8 virtual false final false
  void _ctor() ;
@@ -193,8 +195,7 @@ constexpr GlobalNamespace::SaberType __get__saberType() const;
 /// @brief Method SetColors addr 0x210ccb4 size 0x118 virtual false final false
  void SetColors() ;
 
-// Ctor Parameters []
-explicit SetSaberGlowColor() ;
+static GlobalNamespace::SetSaberGlowColor New_ctor() ;
 
 /// @brief Method .ctor addr 0x210ce4c size 0x8 virtual false final false
  void _ctor() ;

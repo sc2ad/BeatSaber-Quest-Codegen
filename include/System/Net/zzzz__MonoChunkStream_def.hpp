@@ -4,9 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Net {
 class WebHeaderCollection;
 }
@@ -26,18 +23,27 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Net {
+struct System__Net__MonoChunkStream___FinishReading_d__8;
+}
+namespace System::Net {
+struct System__Net__MonoChunkStream___ProcessReadAsync_d__7;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -336,8 +342,7 @@ constexpr System::Net::MonoChunkParser __get__Decoder_k__BackingField() const;
 /// @brief Method get_Decoder addr 0x28422bc size 0x8 virtual false final false
  System::Net::MonoChunkParser get_Decoder() ;
 
-// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "headers", ty: "System::Net::WebHeaderCollection", modifiers: "", def_value: None }]
-explicit MonoChunkStream(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::WebHeaderCollection headers) ;
+static System::Net::MonoChunkStream New_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::WebHeaderCollection headers) ;
 
 /// @brief Method .ctor addr 0x28422c4 size 0x90 virtual false final false
  void _ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::WebHeaderCollection headers) ;

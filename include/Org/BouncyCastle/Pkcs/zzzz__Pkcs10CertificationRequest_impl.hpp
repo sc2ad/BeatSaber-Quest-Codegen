@@ -1,21 +1,21 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__CertificationRequest_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs10CertificationRequest_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__RsassaPssParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactoryProvider_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactory_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__RsassaPssParameters_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactory_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactoryProvider_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest.CreatePssParams
 template<>
 
@@ -344,8 +344,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters, false>(nullptr, ___internal_method, hashAlgId, saltSize);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::Pkcs10CertificationRequest()  : Org::BouncyCastle::Asn1::Pkcs::CertificationRequest(THROW_UNLESS(::il2cpp_utils::New<Pkcs10CertificationRequest>())) {}
+ Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::New_ctor()  {
+Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>())};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>::get(),
@@ -355,8 +357,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "encoded", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::Pkcs10CertificationRequest(::ArrayW<uint8_t> encoded)  : Org::BouncyCastle::Asn1::Pkcs::CertificationRequest(THROW_UNLESS(::il2cpp_utils::New<Pkcs10CertificationRequest>(encoded))) {}
+ Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::New_ctor(::ArrayW<uint8_t> encoded)  {
+Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>(encoded))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::_ctor(::ArrayW<uint8_t> encoded)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>::get(),
@@ -366,8 +370,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoded);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::Pkcs10CertificationRequest(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Pkcs::CertificationRequest(THROW_UNLESS(::il2cpp_utils::New<Pkcs10CertificationRequest>(seq))) {}
+ Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>(seq))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>::get(),
@@ -377,8 +383,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::Pkcs10CertificationRequest(System::IO::Stream input)  : Org::BouncyCastle::Asn1::Pkcs::CertificationRequest(THROW_UNLESS(::il2cpp_utils::New<Pkcs10CertificationRequest>(input))) {}
+ Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::New_ctor(System::IO::Stream input)  {
+Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>(input))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>::get(),
@@ -388,8 +396,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, input);
 }
-// Ctor Parameters [CppParam { name: "signatureAlgorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "signingKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::Pkcs10CertificationRequest(::StringW signatureAlgorithm, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey)  : Org::BouncyCastle::Asn1::Pkcs::CertificationRequest(THROW_UNLESS(::il2cpp_utils::New<Pkcs10CertificationRequest>(signatureAlgorithm, subject, publicKey, attributes, signingKey))) {}
+ Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::New_ctor(::StringW signatureAlgorithm, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey)  {
+Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>(signatureAlgorithm, subject, publicKey, attributes, signingKey))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::_ctor(::StringW signatureAlgorithm, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>::get(),
@@ -399,8 +409,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, signatureAlgorithm, subject, publicKey, attributes, signingKey);
 }
-// Ctor Parameters [CppParam { name: "signatureFactory", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "signingKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::Pkcs10CertificationRequest(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey)  : Org::BouncyCastle::Asn1::Pkcs::CertificationRequest(THROW_UNLESS(::il2cpp_utils::New<Pkcs10CertificationRequest>(signatureFactory, subject, publicKey, attributes, signingKey))) {}
+ Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::New_ctor(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey)  {
+Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>(signatureFactory, subject, publicKey, attributes, signingKey))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::_ctor(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>::get(),
@@ -410,8 +422,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, signatureFactory, subject, publicKey, attributes, signingKey);
 }
-// Ctor Parameters [CppParam { name: "signatureFactory", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::Pkcs10CertificationRequest(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes)  : Org::BouncyCastle::Asn1::Pkcs::CertificationRequest(THROW_UNLESS(::il2cpp_utils::New<Pkcs10CertificationRequest>(signatureFactory, subject, publicKey, attributes))) {}
+ Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::New_ctor(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes)  {
+Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>(signatureFactory, subject, publicKey, attributes))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::_ctor(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest>::get(),

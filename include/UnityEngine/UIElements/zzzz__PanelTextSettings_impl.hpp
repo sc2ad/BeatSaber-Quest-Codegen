@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelTextSettings_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::PanelTextSettings.get_defaultPanelTextSettings
 template<>
 
@@ -126,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::TextCore::Text::FontAsset, false>(const_cast<void*>(instance), ___internal_method, font);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::PanelTextSettings::PanelTextSettings()  : UnityEngine::TextCore::Text::TextSettings(THROW_UNLESS(::il2cpp_utils::New<PanelTextSettings>())) {}
+ UnityEngine::UIElements::PanelTextSettings UnityEngine::UIElements::PanelTextSettings::New_ctor()  {
+UnityEngine::UIElements::PanelTextSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PanelTextSettings>())};
+return o;
+}
  void UnityEngine::UIElements::PanelTextSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PanelTextSettings>::get(),

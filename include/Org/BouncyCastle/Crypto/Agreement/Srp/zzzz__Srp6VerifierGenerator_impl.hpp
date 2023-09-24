@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/Srp/zzzz__Srp6VerifierGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator._ctor
 template<>
 
@@ -89,8 +89,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator:
 constexpr Org::BouncyCastle::Crypto::IDigest Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator::__get_digest() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IDigest, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator::Srp6VerifierGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Srp6VerifierGenerator>())) {}
+ Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator>::get(),

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::AndroidAccelerometer::AndroidAccelerometer()  : UnityEngine::InputSystem::Accelerometer(THROW_UNLESS(::il2cpp_utils::New<AndroidAccelerometer>())) {}
+ UnityEngine::InputSystem::Android::AndroidAccelerometer UnityEngine::InputSystem::Android::AndroidAccelerometer::New_ctor()  {
+UnityEngine::InputSystem::Android::AndroidAccelerometer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::AndroidAccelerometer>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::AndroidAccelerometer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::AndroidAccelerometer>::get(),

@@ -83,8 +83,7 @@ constexpr UnityEngine::UIElements::ManipulatorActivationFilter __get_m_currentAc
 /// @brief Method set_activators addr 0x2c42230 size 0x8 virtual false final false
  void set_activators(System::Collections::Generic::List_1<UnityEngine::UIElements::ManipulatorActivationFilter> value) ;
 
-// Ctor Parameters []
-explicit MouseManipulator() ;
+static UnityEngine::UIElements::MouseManipulator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c42238 size 0x80 virtual false final false
  void _ctor() ;

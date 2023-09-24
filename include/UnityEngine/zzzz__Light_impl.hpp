@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Light_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__LightShadows_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__LightType_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__LightBakingOutput_def.hpp"
+#include "UnityEngine/zzzz__LightShadows_def.hpp"
 //  Writing Method size for method: UnityEngine::Light.get_shadows
 template<>
 

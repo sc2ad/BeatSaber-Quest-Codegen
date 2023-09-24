@@ -69,8 +69,7 @@ static constexpr uint8_t  ffdhe8192{4u};
 /// @brief Method IsValid addr 0xf042dc size 0x10 virtual false final false
 static bool IsValid(uint8_t group) ;
 
-// Ctor Parameters []
-explicit FiniteFieldDheGroup() ;
+static Org::BouncyCastle::Crypto::Tls::FiniteFieldDheGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0xf042ec size 0x8 virtual false final false
  void _ctor() ;

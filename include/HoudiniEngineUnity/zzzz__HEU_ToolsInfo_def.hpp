@@ -6,12 +6,18 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_ToolsInfo__PaintMergeMode;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_ToolsInfo__PaintMeshVisibility;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -74,6 +80,8 @@ __MULTIPLY = 3,
 constexpr operator __HoudiniEngineUnity__HEU_ToolsInfo__PaintMergeMode_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_ToolsInfo__PaintMergeMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -150,6 +158,8 @@ __HIDE = 2,
 constexpr operator __HoudiniEngineUnity__HEU_ToolsInfo__PaintMeshVisibility_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_ToolsInfo__PaintMeshVisibility_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -354,8 +364,7 @@ constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_ToolsInfo__PaintMeshVisibi
 /// @brief Method IsEquivalentTo addr 0x2076e10 size 0x620 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_ToolsInfo other) ;
 
-// Ctor Parameters []
-explicit HEU_ToolsInfo() ;
+static HoudiniEngineUnity::HEU_ToolsInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2077430 size 0x108 virtual false final false
  void _ctor() ;

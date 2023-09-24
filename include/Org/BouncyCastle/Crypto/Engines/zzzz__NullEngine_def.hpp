@@ -78,8 +78,7 @@ constexpr bool __get_initialised() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NullEngine() ;
+static Org::BouncyCastle::Crypto::Engines::NullEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe4c344 size 0x8 virtual false final false
  void _ctor() ;

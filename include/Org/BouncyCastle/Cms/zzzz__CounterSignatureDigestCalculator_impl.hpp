@@ -51,8 +51,10 @@ constexpr void Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::__set_d
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::__get_data() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "alg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::CounterSignatureDigestCalculator(::StringW alg, ::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CounterSignatureDigestCalculator>(alg, data))) {}
+ Org::BouncyCastle::Cms::CounterSignatureDigestCalculator Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::New_ctor(::StringW alg, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Cms::CounterSignatureDigestCalculator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CounterSignatureDigestCalculator>(alg, data))};
+return o;
+}
  void Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::_ctor(::StringW alg, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CounterSignatureDigestCalculator>::get(),

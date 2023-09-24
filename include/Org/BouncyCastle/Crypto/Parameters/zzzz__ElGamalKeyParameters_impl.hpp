@@ -93,8 +93,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters::__se
 constexpr Org::BouncyCastle::Crypto::Parameters::ElGamalParameters Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters::__get_parameters() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::ElGamalParameters, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ElGamalParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters::ElGamalKeyParameters(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<ElGamalKeyParameters>(isPrivate, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters::New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters>(isPrivate, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters::_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters>::get(),

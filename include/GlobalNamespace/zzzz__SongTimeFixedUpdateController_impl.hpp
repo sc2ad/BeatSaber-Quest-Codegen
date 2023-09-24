@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongTimeFixedUpdateController_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SongTimeFixedUpdateController.add_songControllerFixedTimeDidUpdateEvent
 template<>
 
@@ -233,8 +233,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SongTimeFixedUpdateController::SongTimeFixedUpdateController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SongTimeFixedUpdateController>())) {}
+ GlobalNamespace::SongTimeFixedUpdateController GlobalNamespace::SongTimeFixedUpdateController::New_ctor()  {
+GlobalNamespace::SongTimeFixedUpdateController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SongTimeFixedUpdateController>())};
+return o;
+}
  void GlobalNamespace::SongTimeFixedUpdateController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SongTimeFixedUpdateController>::get(),

@@ -65,8 +65,7 @@ constexpr System::Net::Cache::RequestCacheLevel __get_m_Level() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "level", ty: "System::Net::Cache::RequestCacheLevel", modifiers: "", def_value: None }]
-explicit RequestCachePolicy(System::Net::Cache::RequestCacheLevel level) ;
+static System::Net::Cache::RequestCachePolicy New_ctor(System::Net::Cache::RequestCacheLevel level) ;
 
 /// @brief Method .ctor addr 0x285ec94 size 0x7c virtual false final false
  void _ctor(System::Net::Cache::RequestCacheLevel level) ;

@@ -99,8 +99,7 @@ constexpr UnityEngine::GameObject __get__backgroundGameObject() const;
 /// @brief Method get_preferredWidth addr 0x1fad694 size 0x24 virtual false final false
  float_t get_preferredWidth() ;
 
-// Ctor Parameters []
-explicit TextSegmentedControlCell() ;
+static HMUI::TextSegmentedControlCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fad708 size 0x8 virtual false final false
  void _ctor() ;

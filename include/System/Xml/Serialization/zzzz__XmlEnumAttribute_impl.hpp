@@ -24,8 +24,10 @@ constexpr void System::Xml::Serialization::XmlEnumAttribute::__set_name(::String
 constexpr ::StringW System::Xml::Serialization::XmlEnumAttribute::__get_name() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Serialization::XmlEnumAttribute::XmlEnumAttribute(::StringW name)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<XmlEnumAttribute>(name))) {}
+ System::Xml::Serialization::XmlEnumAttribute System::Xml::Serialization::XmlEnumAttribute::New_ctor(::StringW name)  {
+System::Xml::Serialization::XmlEnumAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Serialization::XmlEnumAttribute>(name))};
+return o;
+}
  void System::Xml::Serialization::XmlEnumAttribute::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Serialization::XmlEnumAttribute>::get(),

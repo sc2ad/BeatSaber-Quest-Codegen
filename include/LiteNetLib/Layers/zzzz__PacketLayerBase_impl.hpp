@@ -58,8 +58,10 @@ constexpr void LiteNetLib::Layers::PacketLayerBase::__set_ExtraPacketSizeForLaye
 constexpr int32_t LiteNetLib::Layers::PacketLayerBase::__get_ExtraPacketSizeForLayer() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "extraPacketSizeForLayer", ty: "int32_t", modifiers: "", def_value: None }]
- LiteNetLib::Layers::PacketLayerBase::PacketLayerBase(int32_t extraPacketSizeForLayer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PacketLayerBase>(extraPacketSizeForLayer))) {}
+ LiteNetLib::Layers::PacketLayerBase LiteNetLib::Layers::PacketLayerBase::New_ctor(int32_t extraPacketSizeForLayer)  {
+LiteNetLib::Layers::PacketLayerBase o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Layers::PacketLayerBase>(extraPacketSizeForLayer))};
+return o;
+}
  void LiteNetLib::Layers::PacketLayerBase::_ctor(int32_t extraPacketSizeForLayer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Layers::PacketLayerBase>::get(),

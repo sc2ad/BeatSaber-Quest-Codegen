@@ -90,8 +90,7 @@ constexpr Newtonsoft::Json::Bson::BsonString __get__Options_k__BackingField() co
 /// @brief Method set_Options addr 0x2550448 size 0x8 virtual false final false
  void set_Options(Newtonsoft::Json::Bson::BsonString value) ;
 
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BsonRegex(::StringW pattern, ::StringW options) ;
+static Newtonsoft::Json::Bson::BsonRegex New_ctor(::StringW pattern, ::StringW options) ;
 
 /// @brief Method .ctor addr 0x2550450 size 0xbc virtual false final false
  void _ctor(::StringW pattern, ::StringW options) ;

@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GradientSettings_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__GradientSettingsAtlas__RawTexture.WriteRawInt2Packed
 template<>
@@ -431,8 +432,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, disposing);
 }
-// Ctor Parameters [CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("4096") }]
- UnityEngine::UIElements::UIR::GradientSettingsAtlas::GradientSettingsAtlas(int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GradientSettingsAtlas>(length))) {}
+/// @param length: int32_t (default: 4096)
+ UnityEngine::UIElements::UIR::GradientSettingsAtlas UnityEngine::UIElements::UIR::GradientSettingsAtlas::New_ctor(int32_t length)  {
+UnityEngine::UIElements::UIR::GradientSettingsAtlas o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::GradientSettingsAtlas>(length))};
+return o;
+}
 /// @param length: int32_t (default: 4096)
  void UnityEngine::UIElements::UIR::GradientSettingsAtlas::_ctor(int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

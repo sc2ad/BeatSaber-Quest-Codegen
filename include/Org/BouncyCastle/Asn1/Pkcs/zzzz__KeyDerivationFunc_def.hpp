@@ -2,13 +2,13 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -56,14 +56,12 @@ constexpr explicit KeyDerivationFunc(void* ptr) noexcept : Org::BouncyCastle::As
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit KeyDerivationFunc(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xefad34 size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit KeyDerivationFunc(Org::BouncyCastle::Asn1::DerObjectIdentifier id, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
+static Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier id, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
 /// @brief Method .ctor addr 0xefad38 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier id, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;

@@ -47,8 +47,7 @@ constexpr explicit CallerMemberNameAttribute(void* ptr) noexcept : System::Attri
 
 // Methods
 
-// Ctor Parameters []
-explicit CallerMemberNameAttribute() ;
+static System::Runtime::CompilerServices::CallerMemberNameAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236da04 size 0x8 virtual false final false
  void _ctor() ;

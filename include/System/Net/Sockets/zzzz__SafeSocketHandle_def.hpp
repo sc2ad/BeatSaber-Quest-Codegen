@@ -2,19 +2,19 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleMinusOneIsInvalid_def.hpp"
 #include <cstdint>
-namespace System::Diagnostics {
-class StackTrace;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace System::Threading {
+class Thread;
+}
+namespace System::Diagnostics {
+class StackTrace;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace System::Threading {
-class Thread;
 }
 // Forward declare root types
 namespace System::Net::Sockets {
@@ -95,8 +95,7 @@ static bool __get_THROW_ON_ABORT_RETRIES() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "preexistingHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
-explicit SafeSocketHandle(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle) ;
+static System::Net::Sockets::SafeSocketHandle New_ctor(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle) ;
 
 /// @brief Method .ctor addr 0x276b390 size 0xcc virtual false final false
  void _ctor(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle) ;

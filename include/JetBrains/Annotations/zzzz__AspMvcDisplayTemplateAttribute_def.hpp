@@ -47,8 +47,7 @@ constexpr explicit AspMvcDisplayTemplateAttribute(void* ptr) noexcept : System::
 
 // Methods
 
-// Ctor Parameters []
-explicit AspMvcDisplayTemplateAttribute() ;
+static JetBrains::Annotations::AspMvcDisplayTemplateAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41130 size 0x8 virtual false final false
  void _ctor() ;

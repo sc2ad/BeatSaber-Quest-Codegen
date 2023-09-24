@@ -2,9 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
@@ -12,22 +9,33 @@ class Func_2;
 namespace Zenject {
 class DiContainer;
 }
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace Zenject {
 class SignalCopyBinder;
-}
-namespace Zenject {
-class SignalBindingBindInfo;
 }
 namespace Zenject {
 class BindStatement;
 }
 namespace Zenject {
+template<typename TObject,typename TSignal>
+class Zenject__BindSignalFromBinder_2____c__DisplayClass8_0;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace Zenject {
 template<typename TContract>
 class ConcreteBinderGeneric_1;
+}
+namespace Zenject {
+template<typename TObject,typename TSignal>
+class Zenject__BindSignalFromBinder_2____c;
+}
+namespace Zenject {
+class SignalBindingBindInfo;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -128,8 +136,7 @@ static System::Action_1<Zenject::ConcreteBinderGeneric_1<TObject>> __get___9__7_
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__BindSignalFromBinder_2____c() ;
+static Zenject::Zenject__BindSignalFromBinder_2____c<TObject,TSignal> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -212,8 +219,7 @@ constexpr Zenject::BindSignalFromBinder_2<TObject,TSignal> __get___4__this() con
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__BindSignalFromBinder_2____c__DisplayClass8_0() ;
+static Zenject::Zenject__BindSignalFromBinder_2____c__DisplayClass8_0<TObject,TSignal> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -306,8 +312,7 @@ constexpr Zenject::SignalBindingBindInfo __get__signalBindInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "Zenject::SignalBindingBindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }, CppParam { name: "methodGetter", ty: "System::Func_2<TObject,System::Action_1<TSignal>>", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit BindSignalFromBinder_2(Zenject::SignalBindingBindInfo signalBindInfo, Zenject::BindStatement bindStatement, System::Func_2<TObject,System::Action_1<TSignal>> methodGetter, Zenject::DiContainer container) ;
+static Zenject::BindSignalFromBinder_2<TObject,TSignal> New_ctor(Zenject::SignalBindingBindInfo signalBindInfo, Zenject::BindStatement bindStatement, System::Func_2<TObject,System::Action_1<TSignal>> methodGetter, Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::SignalBindingBindInfo signalBindInfo, Zenject::BindStatement bindStatement, System::Func_2<TObject,System::Action_1<TSignal>> methodGetter, Zenject::DiContainer container) ;

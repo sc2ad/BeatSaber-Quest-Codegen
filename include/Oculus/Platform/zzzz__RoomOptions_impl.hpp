@@ -1,7 +1,7 @@
 #pragma once
 #include "Oculus/Platform/zzzz__RoomOptions_def.hpp"
-#include "Oculus/Platform/zzzz__UserOrdering_def.hpp"
 #include "Oculus/Platform/zzzz__TimeWindow_def.hpp"
+#include "Oculus/Platform/zzzz__UserOrdering_def.hpp"
 //  Writing Method size for method: Oculus::Platform::RoomOptions._ctor
 template<>
 
@@ -195,8 +195,10 @@ constexpr void Oculus::Platform::RoomOptions::__set_Handle(::cordl_internals::in
 constexpr ::cordl_internals::intptr_t Oculus::Platform::RoomOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::RoomOptions::RoomOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RoomOptions>())) {}
+ Oculus::Platform::RoomOptions Oculus::Platform::RoomOptions::New_ctor()  {
+Oculus::Platform::RoomOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::RoomOptions>())};
+return o;
+}
  void Oculus::Platform::RoomOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::RoomOptions>::get(),

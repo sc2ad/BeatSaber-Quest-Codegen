@@ -48,8 +48,7 @@ constexpr explicit SafeWaitHandle(void* ptr) noexcept : Microsoft::Win32::SafeHa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "existingHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
-explicit SafeWaitHandle(::cordl_internals::intptr_t existingHandle, bool ownsHandle) ;
+static Microsoft::Win32::SafeHandles::SafeWaitHandle New_ctor(::cordl_internals::intptr_t existingHandle, bool ownsHandle) ;
 
 /// @brief Method .ctor addr 0x22bebfc size 0x28 virtual false final false
  void _ctor(::cordl_internals::intptr_t existingHandle, bool ownsHandle) ;

@@ -2,6 +2,7 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriverDataDescription_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriverDataDescription_def.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriver_def.hpp"
 // Ctor Parameters [CppParam { name: "PoseNames", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "Poses", ty: "System::Collections::Generic::List_1<UnityEngine::SpatialTracking::UnityEngine__SpatialTracking__TrackedPoseDriver__TrackedPose>", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::SpatialTracking::UnityEngine__SpatialTracking__TrackedPoseDriverDataDescription__PoseData::UnityEngine__SpatialTracking__TrackedPoseDriverDataDescription__PoseData(System::Collections::Generic::List_1<::StringW> PoseNames, System::Collections::Generic::List_1<UnityEngine::SpatialTracking::UnityEngine__SpatialTracking__TrackedPoseDriver__TrackedPose> Poses) noexcept : ::bs_hook::ValueTypeWrapper() {this->PoseNames = PoseNames;
@@ -42,8 +43,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
  System::Collections::Generic::List_1<UnityEngine::SpatialTracking::UnityEngine__SpatialTracking__TrackedPoseDriverDataDescription__PoseData> UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription::__get_DeviceData()  {
 return ::cordl_internals::getStaticField<System::Collections::Generic::List_1<UnityEngine::SpatialTracking::UnityEngine__SpatialTracking__TrackedPoseDriverDataDescription__PoseData>, "DeviceData", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription>::get>();
 }
-// Ctor Parameters []
- UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription::TrackedPoseDriverDataDescription()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TrackedPoseDriverDataDescription>())) {}
+ UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription::New_ctor()  {
+UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription>())};
+return o;
+}
  void UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription>::get(),

@@ -1,20 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class VFXController;
 }
 namespace GlobalNamespace {
-class VFXController;
+class BeatmapObjectManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +122,7 @@ constexpr bool __get__wasActive() const;
 /// @brief Method HandlePlayerStateChanged addr 0x20e13e4 size 0x4 virtual false final false
  void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer player) ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerLevelFailController() ;
+static GlobalNamespace::MultiplayerConnectedPlayerLevelFailController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e13e8 size 0x8 virtual false final false
  void _ctor() ;

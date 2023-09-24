@@ -5,23 +5,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+class RectOffset;
+}
 namespace UnityEngine::UI {
-class ILayoutElement;
+class UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56;
 }
 namespace UnityEngine {
 struct TextAnchor;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class RectOffset;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::UI {
+class ILayoutController;
 }
 namespace UnityEngine {
 struct DrivenRectTransformTracker;
@@ -29,19 +23,28 @@ struct DrivenRectTransformTracker;
 namespace UnityEngine::UI {
 class ILayoutGroup;
 }
-namespace UnityEngine::UI {
-class ILayoutController;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -129,8 +132,7 @@ constexpr UnityEngine::RectTransform __get_rectTransform() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56(int32_t __1__state) ;
+static UnityEngine::UI::UnityEngine__UI__LayoutGroup___DelayedSetDirty_d__56 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2bfec18 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -336,8 +338,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::RectTransform> __get
 /// @brief Method SetLayoutVertical addr 0x0 size 0xffffffffffffffff virtual true final false
  void SetLayoutVertical() ;
 
-// Ctor Parameters []
-explicit LayoutGroup() ;
+static UnityEngine::UI::LayoutGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bfbc10 size 0x12c virtual false final false
  void _ctor() ;

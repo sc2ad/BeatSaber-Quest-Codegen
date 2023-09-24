@@ -5,10 +5,10 @@ namespace System::Security::Cryptography::X509Certificates {
 class X509Extension;
 }
 namespace System::Collections {
-class ArrayList;
+class IEnumerator;
 }
 namespace System::Collections {
-class IEnumerator;
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -75,8 +75,7 @@ constexpr System::Collections::IEnumerator __get_enumerator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }]
-explicit X509ExtensionEnumerator(System::Collections::ArrayList list) ;
+static System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator New_ctor(System::Collections::ArrayList list) ;
 
 /// @brief Method .ctor addr 0x27f37b8 size 0x44 virtual false final false
  void _ctor(System::Collections::ArrayList list) ;

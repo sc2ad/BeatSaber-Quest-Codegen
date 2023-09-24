@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollector_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEvent_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector.get_PlayerConnectionGuid
 template<>
@@ -157,8 +157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, diagnosticEvent);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::DiagnosticEventCollector()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DiagnosticEventCollector>())) {}
+ UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::New_ctor()  {
+UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector>())};
+return o;
+}
  void UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector>::get(),

@@ -8,17 +8,17 @@
 namespace System::Xml {
 class XmlDownloadManager;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class AsyncCallback;
-}
 namespace System {
 class IAsyncResult;
 }
 namespace System::IO {
 struct SeekOrigin;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -100,8 +100,7 @@ constexpr ::StringW __get_host() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "downloadManager", ty: "System::Xml::XmlDownloadManager", modifiers: "", def_value: None }, CppParam { name: "host", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlRegisteredNonCachedStream(System::IO::Stream stream, System::Xml::XmlDownloadManager downloadManager, ::StringW host) ;
+static System::Xml::XmlRegisteredNonCachedStream New_ctor(System::IO::Stream stream, System::Xml::XmlDownloadManager downloadManager, ::StringW host) ;
 
 /// @brief Method .ctor addr 0x27108e4 size 0x80 virtual false final false
  void _ctor(System::IO::Stream stream, System::Xml::XmlDownloadManager downloadManager, ::StringW host) ;

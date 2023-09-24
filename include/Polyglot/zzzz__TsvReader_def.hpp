@@ -55,8 +55,7 @@ constexpr explicit TsvReader(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 /// @brief Method Parse addr 0x2670250 size 0x1ac virtual false final false
 static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::StringW>> Parse(::StringW src) ;
 
-// Ctor Parameters []
-explicit TsvReader() ;
+static Polyglot::TsvReader New_ctor() ;
 
 /// @brief Method .ctor addr 0x26703fc size 0x8 virtual false final false
  void _ctor() ;

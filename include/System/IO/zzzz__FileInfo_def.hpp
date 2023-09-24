@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::IO {
-class StreamWriter;
+class FileStream;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::IO {
+class StreamWriter;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::IO {
-class FileStream;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::IO {
@@ -68,20 +68,17 @@ constexpr explicit FileInfo(void* ptr) noexcept : System::IO::FileSystemInfo(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit FileInfo() ;
+static System::IO::FileInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x239e06c size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit FileInfo(::StringW fileName) ;
+static System::IO::FileInfo New_ctor(::StringW fileName) ;
 
 /// @brief Method .ctor addr 0x239e070 size 0x10 virtual false final false
  void _ctor(::StringW fileName) ;
 
-// Ctor Parameters [CppParam { name: "originalPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fullPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isNormalized", ty: "bool", modifiers: "", def_value: None }]
-explicit FileInfo(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized) ;
+static System::IO::FileInfo New_ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized) ;
 
 /// @brief Method .ctor addr 0x239e080 size 0x128 virtual false final false
  void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized) ;
@@ -101,8 +98,7 @@ explicit FileInfo(::StringW originalPath, ::StringW fullPath, ::StringW fileName
 /// @brief Method OpenRead addr 0x239e458 size 0x7c virtual false final false
  System::IO::FileStream OpenRead() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit FileInfo(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::IO::FileInfo New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x239e4d4 size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

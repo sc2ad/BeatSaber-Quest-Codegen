@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PS5OnGoingToBackgroundSaveHandler::PS5OnGoingToBackgroundSaveHandler()  : GlobalNamespace::SonyOnGoingToBackgroundSaveHandler(THROW_UNLESS(::il2cpp_utils::New<PS5OnGoingToBackgroundSaveHandler>())) {}
+ GlobalNamespace::PS5OnGoingToBackgroundSaveHandler GlobalNamespace::PS5OnGoingToBackgroundSaveHandler::New_ctor()  {
+GlobalNamespace::PS5OnGoingToBackgroundSaveHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS5OnGoingToBackgroundSaveHandler>())};
+return o;
+}
  void GlobalNamespace::PS5OnGoingToBackgroundSaveHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS5OnGoingToBackgroundSaveHandler>::get(),

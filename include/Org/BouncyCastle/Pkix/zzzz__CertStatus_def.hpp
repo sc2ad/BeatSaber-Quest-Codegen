@@ -91,8 +91,7 @@ constexpr Org::BouncyCastle::Utilities::Date::DateTimeObject __get_revocationDat
 /// @brief Method set_Status addr 0x105c59c size 0x8 virtual false final false
  void set_Status(int32_t value) ;
 
-// Ctor Parameters []
-explicit CertStatus() ;
+static Org::BouncyCastle::Pkix::CertStatus New_ctor() ;
 
 /// @brief Method .ctor addr 0x105c5a4 size 0x14 virtual false final false
  void _ctor() ;

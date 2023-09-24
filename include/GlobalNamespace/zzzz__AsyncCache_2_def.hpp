@@ -1,21 +1,25 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-template<typename T>
-class Lazy_1;
+namespace GlobalNamespace {
+template<typename TKey,typename TValue>
+class GlobalNamespace__AsyncCache_2____c__DisplayClass4_0;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
 namespace System::Collections::Concurrent {
 template<typename TKey,typename TValue>
 class ConcurrentDictionary_2;
+}
+namespace System {
+template<typename T>
+class Lazy_1;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +99,7 @@ constexpr GlobalNamespace::AsyncCache_2<TKey,TValue> __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__AsyncCache_2____c__DisplayClass4_0() ;
+static GlobalNamespace::GlobalNamespace__AsyncCache_2____c__DisplayClass4_0<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -174,8 +177,7 @@ constexpr System::Collections::Concurrent::ConcurrentDictionary_2<TKey,System::L
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "valueFactory", ty: "System::Func_2<TKey,System::Threading::Tasks::Task_1<TValue>>", modifiers: "", def_value: None }]
-explicit AsyncCache_2(System::Func_2<TKey,System::Threading::Tasks::Task_1<TValue>> valueFactory) ;
+static GlobalNamespace::AsyncCache_2<TKey,TValue> New_ctor(System::Func_2<TKey,System::Threading::Tasks::Task_1<TValue>> valueFactory) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Func_2<TKey,System::Threading::Tasks::Task_1<TValue>> valueFactory) ;

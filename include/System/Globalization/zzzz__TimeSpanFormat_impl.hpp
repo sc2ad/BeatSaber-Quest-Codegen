@@ -3,11 +3,12 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Globalization/zzzz__TimeSpanFormat_def.hpp"
 #include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/Globalization/zzzz__TimeSpanFormat_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Globalization::System__Globalization__TimeSpanFormat__Pattern::System__Globalization__TimeSpanFormat__Pattern(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }

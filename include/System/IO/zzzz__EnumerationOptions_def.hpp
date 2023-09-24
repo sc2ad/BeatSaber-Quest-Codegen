@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::IO {
-struct FileAttributes;
+struct MatchType;
 }
 namespace System::IO {
 struct SearchOption;
 }
 namespace System::IO {
-struct MatchType;
+struct FileAttributes;
 }
 namespace System::IO {
 struct MatchCasing;
@@ -146,8 +146,7 @@ static System::IO::EnumerationOptions get_CompatibleRecursive() ;
 /// @brief Method get_Default addr 0x239bb4c size 0x58 virtual false final false
 static System::IO::EnumerationOptions get_Default() ;
 
-// Ctor Parameters []
-explicit EnumerationOptions() ;
+static System::IO::EnumerationOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x239bba4 size 0x28 virtual false final false
  void _ctor() ;

@@ -67,8 +67,7 @@ constexpr explicit AssetBundleRequest(void* ptr) noexcept : UnityEngine::Resourc
 /// @brief Method get_allAssets addr 0x2b243a4 size 0x3c virtual false final false
  ::ArrayW<UnityEngine::Object> get_allAssets() ;
 
-// Ctor Parameters []
-explicit AssetBundleRequest() ;
+static UnityEngine::AssetBundleRequest New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b243e0 size 0x8 virtual false final false
  void _ctor() ;

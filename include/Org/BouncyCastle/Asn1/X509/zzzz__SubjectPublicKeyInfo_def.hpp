@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -96,20 +96,17 @@ static Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo GetInstance(Org::Boun
 /// @brief Method GetInstance addr 0x110d4c0 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "algID", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit SubjectPublicKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algID, Org::BouncyCastle::Asn1::Asn1Encodable publicKey) ;
+static Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algID, Org::BouncyCastle::Asn1::Asn1Encodable publicKey) ;
 
 /// @brief Method .ctor addr 0x110d6d4 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algID, Org::BouncyCastle::Asn1::Asn1Encodable publicKey) ;
 
-// Ctor Parameters [CppParam { name: "algID", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SubjectPublicKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algID, ::ArrayW<uint8_t> publicKey) ;
+static Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algID, ::ArrayW<uint8_t> publicKey) ;
 
 /// @brief Method .ctor addr 0x110d754 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algID, ::ArrayW<uint8_t> publicKey) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SubjectPublicKeyInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x110d564 size 0x170 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

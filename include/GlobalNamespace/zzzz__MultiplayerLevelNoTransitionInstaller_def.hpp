@@ -47,8 +47,7 @@ constexpr explicit MultiplayerLevelNoTransitionInstaller(void* ptr) noexcept : Z
 
 // Methods
 
-// Ctor Parameters []
-explicit MultiplayerLevelNoTransitionInstaller() ;
+static GlobalNamespace::MultiplayerLevelNoTransitionInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b66bc size 0x8 virtual false final false
  void _ctor() ;

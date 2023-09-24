@@ -71,14 +71,12 @@ constexpr ::StringW __get_hashName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RSAPKCS1SignatureDeformatter() ;
+static System::Security::Cryptography::RSAPKCS1SignatureDeformatter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2303284 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "System::Security::Cryptography::AsymmetricAlgorithm", modifiers: "", def_value: None }]
-explicit RSAPKCS1SignatureDeformatter(System::Security::Cryptography::AsymmetricAlgorithm key) ;
+static System::Security::Cryptography::RSAPKCS1SignatureDeformatter New_ctor(System::Security::Cryptography::AsymmetricAlgorithm key) ;
 
 /// @brief Method .ctor addr 0x2307f14 size 0x34 virtual false final false
  void _ctor(System::Security::Cryptography::AsymmetricAlgorithm key) ;

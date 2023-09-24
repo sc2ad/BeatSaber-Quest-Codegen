@@ -7,13 +7,13 @@ namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace System::Collections {
-class IList;
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace System::Collections {
-class IDictionary;
+class IList;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
@@ -99,8 +99,7 @@ constexpr System::Collections::IList __get_extOrdering() const;
 /// @brief Method Generate addr 0x11173b4 size 0x68 virtual false final false
  Org::BouncyCastle::Asn1::X509::X509Extensions Generate() ;
 
-// Ctor Parameters []
-explicit X509ExtensionsGenerator() ;
+static Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x111741c size 0x70 virtual false final false
  void _ctor() ;

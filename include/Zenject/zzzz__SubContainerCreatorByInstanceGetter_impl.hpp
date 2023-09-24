@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorByInstanceGetter_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 //  Writing Method size for method: Zenject::SubContainerCreatorByInstanceGetter._ctor
 template<>
@@ -50,8 +50,10 @@ constexpr void Zenject::SubContainerCreatorByInstanceGetter::__set__subcontainer
 constexpr System::Func_2<Zenject::InjectContext,Zenject::DiContainer> Zenject::SubContainerCreatorByInstanceGetter::__get__subcontainerGetter() const {
 return ::cordl_internals::getInstanceField<System::Func_2<Zenject::InjectContext,Zenject::DiContainer>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "subcontainerGetter", ty: "System::Func_2<Zenject::InjectContext,Zenject::DiContainer>", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorByInstanceGetter::SubContainerCreatorByInstanceGetter(System::Func_2<Zenject::InjectContext,Zenject::DiContainer> subcontainerGetter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorByInstanceGetter>(subcontainerGetter))) {}
+ Zenject::SubContainerCreatorByInstanceGetter Zenject::SubContainerCreatorByInstanceGetter::New_ctor(System::Func_2<Zenject::InjectContext,Zenject::DiContainer> subcontainerGetter)  {
+Zenject::SubContainerCreatorByInstanceGetter o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorByInstanceGetter>(subcontainerGetter))};
+return o;
+}
  void Zenject::SubContainerCreatorByInstanceGetter::_ctor(System::Func_2<Zenject::InjectContext,Zenject::DiContainer> subcontainerGetter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorByInstanceGetter>::get(),

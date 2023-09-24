@@ -5,11 +5,11 @@
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AttributeCertificate;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -82,20 +82,17 @@ constexpr Org::BouncyCastle::Asn1::X509::AttributeCertificate __get_certifiedAtt
 /// @brief Method GetInstance addr 0xe0a600 size 0x154 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::SignerAttribute GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit SignerAttribute(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Esf::SignerAttribute New_ctor(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method .ctor addr 0xe0a754 size 0x174 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "claimedAttributes", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SignerAttribute(Org::BouncyCastle::Asn1::Asn1Sequence claimedAttributes) ;
+static Org::BouncyCastle::Asn1::Esf::SignerAttribute New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence claimedAttributes) ;
 
 /// @brief Method .ctor addr 0xe0a8c8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence claimedAttributes) ;
 
-// Ctor Parameters [CppParam { name: "certifiedAttributes", ty: "Org::BouncyCastle::Asn1::X509::AttributeCertificate", modifiers: "", def_value: None }]
-explicit SignerAttribute(Org::BouncyCastle::Asn1::X509::AttributeCertificate certifiedAttributes) ;
+static Org::BouncyCastle::Asn1::Esf::SignerAttribute New_ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificate certifiedAttributes) ;
 
 /// @brief Method .ctor addr 0xe0a8f0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificate certifiedAttributes) ;

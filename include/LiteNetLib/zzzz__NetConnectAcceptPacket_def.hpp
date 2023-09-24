@@ -75,8 +75,7 @@ constexpr bool __get_IsReusedPeer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connectionId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "connectionNumber", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "isReusedPeer", ty: "bool", modifiers: "", def_value: None }]
-explicit NetConnectAcceptPacket(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) ;
+static LiteNetLib::NetConnectAcceptPacket New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) ;
 
 /// @brief Method .ctor addr 0x208fa4c size 0x40 virtual false final false
  void _ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) ;

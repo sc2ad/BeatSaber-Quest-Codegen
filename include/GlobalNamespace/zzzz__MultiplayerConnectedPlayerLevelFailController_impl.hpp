@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerLevelFailController_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__VFXController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerConnectedPlayerLevelFailController.add_playerDidFailEvent
 template<>
 
@@ -241,8 +241,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, player);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::MultiplayerConnectedPlayerLevelFailController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConnectedPlayerLevelFailController>())) {}
+ GlobalNamespace::MultiplayerConnectedPlayerLevelFailController GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::New_ctor()  {
+GlobalNamespace::MultiplayerConnectedPlayerLevelFailController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConnectedPlayerLevelFailController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConnectedPlayerLevelFailController>::get(),

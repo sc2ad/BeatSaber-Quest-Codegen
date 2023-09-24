@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__SingleFixedSceneScenesTransitionSetupDataSO_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayersModel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -150,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "appInitOverrideStartType", ty: "GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType", modifiers: "", def_value: None }, CppParam { name: "overrideMockPlayersModel", ty: "GlobalNamespace::MockPlayersModel", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData(GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel overrideMockPlayersModel)  : GlobalNamespace::SceneSetupData(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData>(appInitOverrideStartType, overrideMockPlayersModel))) {}
+ GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::New_ctor(GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel overrideMockPlayersModel)  {
+GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData>(appInitOverrideStartType, overrideMockPlayersModel))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::_ctor(GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel overrideMockPlayersModel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData>::get(),
@@ -256,8 +259,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, appInitOverrideStartType, mockPlayersModel);
 }
-// Ctor Parameters []
- GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitScenesTransitionSetupDataSO()  : GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO(THROW_UNLESS(::il2cpp_utils::New<AppInitScenesTransitionSetupDataSO>())) {}
+ GlobalNamespace::AppInitScenesTransitionSetupDataSO GlobalNamespace::AppInitScenesTransitionSetupDataSO::New_ctor()  {
+GlobalNamespace::AppInitScenesTransitionSetupDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AppInitScenesTransitionSetupDataSO>())};
+return o;
+}
  void GlobalNamespace::AppInitScenesTransitionSetupDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AppInitScenesTransitionSetupDataSO>::get(),

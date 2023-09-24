@@ -70,8 +70,7 @@ constexpr bool __get__Cancel_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::ConsoleSpecialKey", modifiers: "", def_value: None }]
-explicit ConsoleCancelEventArgs(System::ConsoleSpecialKey type) ;
+static System::ConsoleCancelEventArgs New_ctor(System::ConsoleSpecialKey type) ;
 
 /// @brief Method .ctor addr 0x2461874 size 0x6c virtual false final false
  void _ctor(System::ConsoleSpecialKey type) ;
@@ -79,8 +78,7 @@ explicit ConsoleCancelEventArgs(System::ConsoleSpecialKey type) ;
 /// @brief Method get_Cancel addr 0x24618e0 size 0x8 virtual false final false
  bool get_Cancel() ;
 
-// Ctor Parameters []
-explicit ConsoleCancelEventArgs() ;
+static System::ConsoleCancelEventArgs New_ctor() ;
 
 /// @brief Method .ctor addr 0x24618e8 size 0x38 virtual false final false
  void _ctor() ;

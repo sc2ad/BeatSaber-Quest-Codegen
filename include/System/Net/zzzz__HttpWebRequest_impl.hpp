@@ -3,51 +3,52 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__HttpWebRequest_def.hpp"
-#include "System/zzzz__Version_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
-#include "System/zzzz__ValueTuple_4_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Net/zzzz__WebCompletionSource_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Net/zzzz__HttpStatusCode_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__WebRequestStream_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Net/zzzz__HttpWebResponse_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
-#include "System/Net/zzzz__BufferOffsetSize_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/Net/zzzz__DecompressionMethods_def.hpp"
-#include "System/Net/zzzz__WebException_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
-#include "System/zzzz__ValueTuple_5_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Net/zzzz__HttpContinueDelegate_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
-#include "System/Net/zzzz__CookieContainer_def.hpp"
-#include "System/Net/zzzz__WebResponseStream_def.hpp"
-#include "System/Net/zzzz__ServicePoint_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
+#include "System/Net/zzzz__HttpWebRequest_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Net/zzzz__DecompressionMethods_def.hpp"
+#include "System/Net/zzzz__WebResponse_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/zzzz__HttpContinueDelegate_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Net/zzzz__BufferOffsetSize_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Version_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Net/zzzz__ServicePoint_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__WebCompletionSource_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/zzzz__ValueTuple_5_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/Net/zzzz__WebRequestStream_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
+#include "System/Net/zzzz__WebException_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/Net/zzzz__HttpStatusCode_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
+#include "System/zzzz__ValueTuple_4_def.hpp"
+#include "System/Net/zzzz__HttpWebResponse_def.hpp"
+#include "System/Net/zzzz__WebResponseStream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/zzzz__CookieContainer_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -2521,8 +2522,10 @@ constexpr void System::Net::HttpWebRequest::__set_unsafe_auth_blah(bool value)  
 constexpr bool System::Net::HttpWebRequest::__get_unsafe_auth_blah() const {
 return ::cordl_internals::getInstanceField<bool, 0x191>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }]
- System::Net::HttpWebRequest::HttpWebRequest(System::Uri uri)  : System::Net::WebRequest(THROW_UNLESS(::il2cpp_utils::New<HttpWebRequest>(uri))) {}
+ System::Net::HttpWebRequest System::Net::HttpWebRequest::New_ctor(System::Uri uri)  {
+System::Net::HttpWebRequest o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpWebRequest>(uri))};
+return o;
+}
  void System::Net::HttpWebRequest::_ctor(System::Uri uri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpWebRequest>::get(),
@@ -2532,8 +2535,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, uri);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::HttpWebRequest::HttpWebRequest(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::Net::WebRequest(THROW_UNLESS(::il2cpp_utils::New<HttpWebRequest>(serializationInfo, streamingContext))) {}
+ System::Net::HttpWebRequest System::Net::HttpWebRequest::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::HttpWebRequest o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpWebRequest>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::HttpWebRequest::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpWebRequest>::get(),
@@ -3364,8 +3369,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<System::Net::BufferOffsetSize>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::HttpWebRequest::HttpWebRequest()  : System::Net::WebRequest(THROW_UNLESS(::il2cpp_utils::New<HttpWebRequest>())) {}
+ System::Net::HttpWebRequest System::Net::HttpWebRequest::New_ctor()  {
+System::Net::HttpWebRequest o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpWebRequest>())};
+return o;
+}
  void System::Net::HttpWebRequest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpWebRequest>::get(),
@@ -3375,178 +3382,80 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: System::Net::System__Net__HttpWebRequest____c__241_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::System__Net__HttpWebRequest____c__241_1::*)()>(&System::Net::System__Net__HttpWebRequest____c__241_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Net::System__Net__HttpWebRequest____c__241_1._RunWithTimeoutWorker_b__241_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int32_t> (System::Net::System__Net__HttpWebRequest____c__241_1::*)(System::Threading::Tasks::Task_1<T>)>(&System::Net::System__Net__HttpWebRequest____c__241_1::_RunWithTimeoutWorker_b__241_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1>::get(),
-                            "<RunWithTimeoutWorker>b__241_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task_1<T>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void System::Net::System__Net__HttpWebRequest____c__241_1::__set___9(System::Net::System__Net__HttpWebRequest____c__241_1<T> value)  {
-::cordl_internals::setStaticField<System::Net::System__Net__HttpWebRequest____c__241_1<T>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1>::get>(std::forward<System::Net::System__Net__HttpWebRequest____c__241_1<T>>(value));
+ void System::Net::System__Net__HttpWebRequest____c__241_1<T>::__set___9(System::Net::System__Net__HttpWebRequest____c__241_1<T> value)  {
+::cordl_internals::setStaticField<System::Net::System__Net__HttpWebRequest____c__241_1<T>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get>(std::forward<System::Net::System__Net__HttpWebRequest____c__241_1<T>>(value));
 }
- System::Net::System__Net__HttpWebRequest____c__241_1<T> System::Net::System__Net__HttpWebRequest____c__241_1::__get___9()  {
-return ::cordl_internals::getStaticField<System::Net::System__Net__HttpWebRequest____c__241_1<T>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1>::get>();
+ System::Net::System__Net__HttpWebRequest____c__241_1<T> System::Net::System__Net__HttpWebRequest____c__241_1<T>::__get___9()  {
+return ::cordl_internals::getStaticField<System::Net::System__Net__HttpWebRequest____c__241_1<T>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get>();
 }
- void System::Net::System__Net__HttpWebRequest____c__241_1::__set___9__241_0(System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>> value)  {
-::cordl_internals::setStaticField<System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>>, "<>9__241_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1>::get>(std::forward<System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>>>(value));
+ void System::Net::System__Net__HttpWebRequest____c__241_1<T>::__set___9__241_0(System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>> value)  {
+::cordl_internals::setStaticField<System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>>, "<>9__241_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get>(std::forward<System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>>>(value));
 }
- System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>> System::Net::System__Net__HttpWebRequest____c__241_1::__get___9__241_0()  {
-return ::cordl_internals::getStaticField<System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>>, "<>9__241_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1>::get>();
+ System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>> System::Net::System__Net__HttpWebRequest____c__241_1<T>::__get___9__241_0()  {
+return ::cordl_internals::getStaticField<System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>>, "<>9__241_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get>();
 }
-// Ctor Parameters []
- System::Net::System__Net__HttpWebRequest____c__241_1::System__Net__HttpWebRequest____c__241_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__HttpWebRequest____c__241_1>())) {}
- void System::Net::System__Net__HttpWebRequest____c__241_1::_ctor()  {
+ System::Net::System__Net__HttpWebRequest____c__241_1<T> System::Net::System__Net__HttpWebRequest____c__241_1<T>::New_ctor()  {
+System::Net::System__Net__HttpWebRequest____c__241_1<T> o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__HttpWebRequest____c__241_1<T>>())};
+return o;
+}
+ void System::Net::System__Net__HttpWebRequest____c__241_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- System::Nullable_1<int32_t> System::Net::System__Net__HttpWebRequest____c__241_1::_RunWithTimeoutWorker_b__241_0(System::Threading::Tasks::Task_1<T> t)  {
+ System::Nullable_1<int32_t> System::Net::System__Net__HttpWebRequest____c__241_1<T>::_RunWithTimeoutWorker_b__241_0(System::Threading::Tasks::Task_1<T> t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get(),
                             "<RunWithTimeoutWorker>b__241_0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task_1<T>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Nullable_1<int32_t>, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-//  Writing Method size for method: System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::*)()>(&System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>._RunWithTimeoutWorker_b__241_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int32_t> (System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::*)(System::Threading::Tasks::Task_1<int32_t>)>(&System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::_RunWithTimeoutWorker_b__241_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>>::get(),
-                            "<RunWithTimeoutWorker>b__241_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task_1<int32_t>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::__set___9(System::Net::System__Net__HttpWebRequest____c__241_1<int32_t> value)  {
-::cordl_internals::setStaticField<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>>::get>(std::forward<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>>(value));
+ void System::Net::System__Net__HttpWebRequest____c__241_1<T>::__set___9(System::Net::System__Net__HttpWebRequest____c__241_1<T> value)  {
+::cordl_internals::setStaticField<System::Net::System__Net__HttpWebRequest____c__241_1<T>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get>(std::forward<System::Net::System__Net__HttpWebRequest____c__241_1<T>>(value));
 }
- System::Net::System__Net__HttpWebRequest____c__241_1<int32_t> System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::__get___9()  {
-return ::cordl_internals::getStaticField<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>>::get>();
+ System::Net::System__Net__HttpWebRequest____c__241_1<T> System::Net::System__Net__HttpWebRequest____c__241_1<T>::__get___9()  {
+return ::cordl_internals::getStaticField<System::Net::System__Net__HttpWebRequest____c__241_1<T>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get>();
 }
- void System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::__set___9__241_0(System::Func_2<System::Threading::Tasks::Task_1<int32_t>,System::Nullable_1<int32_t>> value)  {
-::cordl_internals::setStaticField<System::Func_2<System::Threading::Tasks::Task_1<int32_t>,System::Nullable_1<int32_t>>, "<>9__241_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>>::get>(std::forward<System::Func_2<System::Threading::Tasks::Task_1<int32_t>,System::Nullable_1<int32_t>>>(value));
+ void System::Net::System__Net__HttpWebRequest____c__241_1<T>::__set___9__241_0(System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>> value)  {
+::cordl_internals::setStaticField<System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>>, "<>9__241_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get>(std::forward<System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>>>(value));
 }
- System::Func_2<System::Threading::Tasks::Task_1<int32_t>,System::Nullable_1<int32_t>> System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::__get___9__241_0()  {
-return ::cordl_internals::getStaticField<System::Func_2<System::Threading::Tasks::Task_1<int32_t>,System::Nullable_1<int32_t>>, "<>9__241_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>>::get>();
+ System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>> System::Net::System__Net__HttpWebRequest____c__241_1<T>::__get___9__241_0()  {
+return ::cordl_internals::getStaticField<System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>>, "<>9__241_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get>();
 }
-// Ctor Parameters []
- System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::System__Net__HttpWebRequest____c__241_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__HttpWebRequest____c__241_1>())) {}
- void System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::_ctor()  {
+ System::Net::System__Net__HttpWebRequest____c__241_1<T> System::Net::System__Net__HttpWebRequest____c__241_1<T>::New_ctor()  {
+System::Net::System__Net__HttpWebRequest____c__241_1<T> o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__HttpWebRequest____c__241_1<T>>())};
+return o;
+}
+ void System::Net::System__Net__HttpWebRequest____c__241_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- System::Nullable_1<int32_t> System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>::_RunWithTimeoutWorker_b__241_0(System::Threading::Tasks::Task_1<int32_t> t)  {
+ System::Nullable_1<int32_t> System::Net::System__Net__HttpWebRequest____c__241_1<T>::_RunWithTimeoutWorker_b__241_0(System::Threading::Tasks::Task_1<T> t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest____c__241_1<T>>::get(),
                             "<RunWithTimeoutWorker>b__241_0",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task_1<int32_t>>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task_1<T>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Nullable_1<int32_t>, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-//  Writing Method size for method: System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1.MoveNext
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::*)()>(&System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::MoveNext)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1>::get(),
-                            "MoveNext",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1.SetStateMachine
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::*)(System::Runtime::CompilerServices::IAsyncStateMachine)>(&System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::SetStateMachine)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1>::get(),
-                            "SetStateMachine",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
 /// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr  System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::operator System::Runtime::CompilerServices::IAsyncStateMachine() const {
+constexpr  System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::operator System::Runtime::CompilerServices::IAsyncStateMachine() const {
 return System::Runtime::CompilerServices::IAsyncStateMachine(::cordl_internals::Box(this).convert());
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "workerTask", ty: "System::Threading::Tasks::Task_1<T>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "timeout", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cts", ty: "System::Threading::CancellationTokenSource", modifiers: "", def_value: Some("csnull") }, CppParam { name: "abort", ty: "System::Action", modifiers: "", def_value: Some("csnull") }, CppParam { name: "aborted", ty: "System::Func_1<bool>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder, System::Threading::Tasks::Task_1<T> workerTask, int32_t timeout, System::Threading::CancellationTokenSource cts, System::Action abort, System::Func_1<bool> aborted, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1) noexcept : ::bs_hook::ValueTypeWrapper() {this->__1__state = __1__state;
+constexpr System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder, System::Threading::Tasks::Task_1<T> workerTask, int32_t timeout, System::Threading::CancellationTokenSource cts, System::Action abort, System::Func_1<bool> aborted, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1) noexcept : ::bs_hook::ValueTypeWrapper() {this->__1__state = __1__state;
 this->__t__builder = __t__builder;
 this->workerTask = workerTask;
 this->timeout = timeout;
@@ -3555,112 +3464,78 @@ this->abort = abort;
 this->aborted = aborted;
 this->__u__1 = __u__1;
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__set___1__state(int32_t value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set___1__state(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
 }
-constexpr int32_t System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__get___1__state() const {
+constexpr int32_t System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get___1__state() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>, 0x8>(this->__instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>>(value));
 }
-constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__get___t__builder() const {
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get___t__builder() const {
 return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>, 0x8>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__set_workerTask(System::Threading::Tasks::Task_1<T> value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set_workerTask(System::Threading::Tasks::Task_1<T> value)  {
 ::cordl_internals::setInstanceField<System::Threading::Tasks::Task_1<T>, 0x10>(this->__instance, std::forward<System::Threading::Tasks::Task_1<T>>(value));
 }
-constexpr System::Threading::Tasks::Task_1<T> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__get_workerTask() const {
+constexpr System::Threading::Tasks::Task_1<T> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get_workerTask() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task_1<T>, 0x10>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__set_timeout(int32_t value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set_timeout(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x18>(this->__instance, std::forward<int32_t>(value));
 }
-constexpr int32_t System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__get_timeout() const {
+constexpr int32_t System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get_timeout() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__set_cts(System::Threading::CancellationTokenSource value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set_cts(System::Threading::CancellationTokenSource value)  {
 ::cordl_internals::setInstanceField<System::Threading::CancellationTokenSource, 0x20>(this->__instance, std::forward<System::Threading::CancellationTokenSource>(value));
 }
-constexpr System::Threading::CancellationTokenSource System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__get_cts() const {
+constexpr System::Threading::CancellationTokenSource System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get_cts() const {
 return ::cordl_internals::getInstanceField<System::Threading::CancellationTokenSource, 0x20>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__set_abort(System::Action value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set_abort(System::Action value)  {
 ::cordl_internals::setInstanceField<System::Action, 0x28>(this->__instance, std::forward<System::Action>(value));
 }
-constexpr System::Action System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__get_abort() const {
+constexpr System::Action System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get_abort() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x28>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__set_aborted(System::Func_1<bool> value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set_aborted(System::Func_1<bool> value)  {
 ::cordl_internals::setInstanceField<System::Func_1<bool>, 0x30>(this->__instance, std::forward<System::Func_1<bool>>(value));
 }
-constexpr System::Func_1<bool> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__get_aborted() const {
+constexpr System::Func_1<bool> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get_aborted() const {
 return ::cordl_internals::getInstanceField<System::Func_1<bool>, 0x30>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> value)  {
 ::cordl_internals::setInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>, 0x38>(this->__instance, std::forward<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>>(value));
 }
-constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::__get___u__1() const {
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get___u__1() const {
 return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>, 0x38>(this->__instance);
 }
- void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::MoveNext()  {
+ void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::MoveNext()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>>::get(),
                             "MoveNext",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
 }
- void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1::SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine)  {
+ void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>>::get(),
                             "SetStateMachine",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, stateMachine);
 }
-//  Writing Method size for method: System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>.MoveNext
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::*)()>(&System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::MoveNext)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>>::get(),
-                            "MoveNext",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>.SetStateMachine
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::*)(System::Runtime::CompilerServices::IAsyncStateMachine)>(&System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::SetStateMachine)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>>::get(),
-                            "SetStateMachine",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
 /// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr  System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::operator System::Runtime::CompilerServices::IAsyncStateMachine() const {
+constexpr  System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::operator System::Runtime::CompilerServices::IAsyncStateMachine() const {
 return System::Runtime::CompilerServices::IAsyncStateMachine(::cordl_internals::Box(this).convert());
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "workerTask", ty: "System::Threading::Tasks::Task_1<int32_t>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "timeout", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cts", ty: "System::Threading::CancellationTokenSource", modifiers: "", def_value: Some("csnull") }, CppParam { name: "abort", ty: "System::Action", modifiers: "", def_value: Some("csnull") }, CppParam { name: "aborted", ty: "System::Func_1<bool>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, System::Threading::Tasks::Task_1<int32_t> workerTask, int32_t timeout, System::Threading::CancellationTokenSource cts, System::Action abort, System::Func_1<bool> aborted, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1) noexcept : ::bs_hook::ValueTypeWrapper() {this->__1__state = __1__state;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "workerTask", ty: "System::Threading::Tasks::Task_1<T>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "timeout", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cts", ty: "System::Threading::CancellationTokenSource", modifiers: "", def_value: Some("csnull") }, CppParam { name: "abort", ty: "System::Action", modifiers: "", def_value: Some("csnull") }, CppParam { name: "aborted", ty: "System::Func_1<bool>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder, System::Threading::Tasks::Task_1<T> workerTask, int32_t timeout, System::Threading::CancellationTokenSource cts, System::Action abort, System::Func_1<bool> aborted, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1) noexcept : ::bs_hook::ValueTypeWrapper() {this->__1__state = __1__state;
 this->__t__builder = __t__builder;
 this->workerTask = workerTask;
 this->timeout = timeout;
@@ -3669,66 +3544,66 @@ this->abort = abort;
 this->aborted = aborted;
 this->__u__1 = __u__1;
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__set___1__state(int32_t value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set___1__state(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
 }
-constexpr int32_t System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__get___1__state() const {
+constexpr int32_t System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get___1__state() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> value)  {
-::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>, 0x8>(this->__instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>>(value));
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> value)  {
+::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>, 0x8>(this->__instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>>(value));
 }
-constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__get___t__builder() const {
-return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>, 0x8>(this->__instance);
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get___t__builder() const {
+return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>, 0x8>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__set_workerTask(System::Threading::Tasks::Task_1<int32_t> value)  {
-::cordl_internals::setInstanceField<System::Threading::Tasks::Task_1<int32_t>, 0x10>(this->__instance, std::forward<System::Threading::Tasks::Task_1<int32_t>>(value));
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set_workerTask(System::Threading::Tasks::Task_1<T> value)  {
+::cordl_internals::setInstanceField<System::Threading::Tasks::Task_1<T>, 0x10>(this->__instance, std::forward<System::Threading::Tasks::Task_1<T>>(value));
 }
-constexpr System::Threading::Tasks::Task_1<int32_t> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__get_workerTask() const {
-return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task_1<int32_t>, 0x10>(this->__instance);
+constexpr System::Threading::Tasks::Task_1<T> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get_workerTask() const {
+return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task_1<T>, 0x10>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__set_timeout(int32_t value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set_timeout(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x18>(this->__instance, std::forward<int32_t>(value));
 }
-constexpr int32_t System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__get_timeout() const {
+constexpr int32_t System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get_timeout() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__set_cts(System::Threading::CancellationTokenSource value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set_cts(System::Threading::CancellationTokenSource value)  {
 ::cordl_internals::setInstanceField<System::Threading::CancellationTokenSource, 0x20>(this->__instance, std::forward<System::Threading::CancellationTokenSource>(value));
 }
-constexpr System::Threading::CancellationTokenSource System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__get_cts() const {
+constexpr System::Threading::CancellationTokenSource System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get_cts() const {
 return ::cordl_internals::getInstanceField<System::Threading::CancellationTokenSource, 0x20>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__set_abort(System::Action value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set_abort(System::Action value)  {
 ::cordl_internals::setInstanceField<System::Action, 0x28>(this->__instance, std::forward<System::Action>(value));
 }
-constexpr System::Action System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__get_abort() const {
+constexpr System::Action System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get_abort() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x28>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__set_aborted(System::Func_1<bool> value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set_aborted(System::Func_1<bool> value)  {
 ::cordl_internals::setInstanceField<System::Func_1<bool>, 0x30>(this->__instance, std::forward<System::Func_1<bool>>(value));
 }
-constexpr System::Func_1<bool> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__get_aborted() const {
+constexpr System::Func_1<bool> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get_aborted() const {
 return ::cordl_internals::getInstanceField<System::Func_1<bool>, 0x30>(this->__instance);
 }
-constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> value)  {
+constexpr void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> value)  {
 ::cordl_internals::setInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>, 0x38>(this->__instance, std::forward<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>>(value));
 }
-constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::__get___u__1() const {
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::__get___u__1() const {
 return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>, 0x38>(this->__instance);
 }
- void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::MoveNext()  {
+ void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::MoveNext()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>>::get(),
                             "MoveNext",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
 }
- void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>::SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine)  {
+ void System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>::SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>>::get(),
                             "SetStateMachine",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}

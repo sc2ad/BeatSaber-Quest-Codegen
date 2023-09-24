@@ -3,16 +3,17 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TemplateContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TemplateContainer_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits.get_uxmlChildElementsDescription
 template<>
 
@@ -88,8 +89,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits::UnityEngine__UIElements__TemplateContainer__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__TemplateContainer__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits>::get(),
@@ -263,8 +266,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::TemplateContainer::TemplateContainer()  : UnityEngine::UIElements::BindableElement(THROW_UNLESS(::il2cpp_utils::New<TemplateContainer>())) {}
+ UnityEngine::UIElements::TemplateContainer UnityEngine::UIElements::TemplateContainer::New_ctor()  {
+UnityEngine::UIElements::TemplateContainer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TemplateContainer>())};
+return o;
+}
  void UnityEngine::UIElements::TemplateContainer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TemplateContainer>::get(),
@@ -274,8 +279,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "templateId", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::UIElements::TemplateContainer::TemplateContainer(::StringW templateId)  : UnityEngine::UIElements::BindableElement(THROW_UNLESS(::il2cpp_utils::New<TemplateContainer>(templateId))) {}
+ UnityEngine::UIElements::TemplateContainer UnityEngine::UIElements::TemplateContainer::New_ctor(::StringW templateId)  {
+UnityEngine::UIElements::TemplateContainer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TemplateContainer>(templateId))};
+return o;
+}
  void UnityEngine::UIElements::TemplateContainer::_ctor(::StringW templateId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TemplateContainer>::get(),
@@ -372,8 +379,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlFactory::UnityEngine__UIElements__TemplateContainer__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::TemplateContainer,UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__TemplateContainer__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlFactory>::get(),
@@ -563,8 +572,10 @@ constexpr void GlobalNamespace::UnityEngine__UIElements__TemplateContainer__Uxml
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits GlobalNamespace::UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3::UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3>(__1__state))) {}
+ GlobalNamespace::UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3 GlobalNamespace::UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3::New_ctor(int32_t __1__state)  {
+GlobalNamespace::UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3>(__1__state))};
+return o;
+}
  void GlobalNamespace::UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3>::get(),

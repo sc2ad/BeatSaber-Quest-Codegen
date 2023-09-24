@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Security/Authentication/zzzz__AuthenticationException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Security::Authentication::AuthenticationException._ctor
 template<>
 
@@ -72,8 +72,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Authentication::AuthenticationException::AuthenticationException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<AuthenticationException>())) {}
+ System::Security::Authentication::AuthenticationException System::Security::Authentication::AuthenticationException::New_ctor()  {
+System::Security::Authentication::AuthenticationException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Authentication::AuthenticationException>())};
+return o;
+}
  void System::Security::Authentication::AuthenticationException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Authentication::AuthenticationException>::get(),
@@ -83,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Authentication::AuthenticationException::AuthenticationException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<AuthenticationException>(message))) {}
+ System::Security::Authentication::AuthenticationException System::Security::Authentication::AuthenticationException::New_ctor(::StringW message)  {
+System::Security::Authentication::AuthenticationException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Authentication::AuthenticationException>(message))};
+return o;
+}
  void System::Security::Authentication::AuthenticationException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Authentication::AuthenticationException>::get(),
@@ -94,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- System::Security::Authentication::AuthenticationException::AuthenticationException(::StringW message, System::Exception innerException)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<AuthenticationException>(message, innerException))) {}
+ System::Security::Authentication::AuthenticationException System::Security::Authentication::AuthenticationException::New_ctor(::StringW message, System::Exception innerException)  {
+System::Security::Authentication::AuthenticationException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Authentication::AuthenticationException>(message, innerException))};
+return o;
+}
  void System::Security::Authentication::AuthenticationException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Authentication::AuthenticationException>::get(),
@@ -105,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Security::Authentication::AuthenticationException::AuthenticationException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<AuthenticationException>(serializationInfo, streamingContext))) {}
+ System::Security::Authentication::AuthenticationException System::Security::Authentication::AuthenticationException::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Security::Authentication::AuthenticationException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Authentication::AuthenticationException>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Security::Authentication::AuthenticationException::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Authentication::AuthenticationException>::get(),

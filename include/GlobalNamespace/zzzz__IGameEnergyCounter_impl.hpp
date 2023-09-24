@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IGameEnergyCounter_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IGameEnergyCounter.add_didInitEvent
 template<>
 

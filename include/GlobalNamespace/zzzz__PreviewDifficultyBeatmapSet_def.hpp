@@ -82,8 +82,7 @@ constexpr ::ArrayW<GlobalNamespace::BeatmapDifficulty> __get__beatmapDifficultie
 /// @brief Method get_beatmapDifficulties addr 0x21ed210 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::BeatmapDifficulty> get_beatmapDifficulties() ;
 
-// Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulties", ty: "::ArrayW<GlobalNamespace::BeatmapDifficulty>", modifiers: "", def_value: None }]
-explicit PreviewDifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::ArrayW<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties) ;
+static GlobalNamespace::PreviewDifficultyBeatmapSet New_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::ArrayW<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties) ;
 
 /// @brief Method .ctor addr 0x21ed218 size 0x2c virtual false final false
  void _ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::ArrayW<GlobalNamespace::BeatmapDifficulty> beatmapDifficulties) ;

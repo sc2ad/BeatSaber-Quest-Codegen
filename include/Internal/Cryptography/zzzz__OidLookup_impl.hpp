@@ -1,9 +1,10 @@
 #pragma once
 #include "Internal/Cryptography/zzzz__OidLookup_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "Internal/Cryptography/zzzz__OidLookup_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Security/Cryptography/zzzz__OidGroup_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
+#include "System/Security/Cryptography/zzzz__OidGroup_def.hpp"
 //  Writing Method size for method: Internal::Cryptography::Internal__Cryptography__OidLookup____c._ctor
 template<>
 
@@ -61,8 +62,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
  Internal::Cryptography::Internal__Cryptography__OidLookup____c Internal::Cryptography::Internal__Cryptography__OidLookup____c::__get___9()  {
 return ::cordl_internals::getStaticField<Internal::Cryptography::Internal__Cryptography__OidLookup____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Internal::Cryptography::Internal__Cryptography__OidLookup____c>::get>();
 }
-// Ctor Parameters []
- Internal::Cryptography::Internal__Cryptography__OidLookup____c::Internal__Cryptography__OidLookup____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Internal__Cryptography__OidLookup____c>())) {}
+ Internal::Cryptography::Internal__Cryptography__OidLookup____c Internal::Cryptography::Internal__Cryptography__OidLookup____c::New_ctor()  {
+Internal::Cryptography::Internal__Cryptography__OidLookup____c o{THROW_UNLESS(::il2cpp_utils::New<Internal::Cryptography::Internal__Cryptography__OidLookup____c>())};
+return o;
+}
  void Internal::Cryptography::Internal__Cryptography__OidLookup____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Internal::Cryptography::Internal__Cryptography__OidLookup____c>::get(),

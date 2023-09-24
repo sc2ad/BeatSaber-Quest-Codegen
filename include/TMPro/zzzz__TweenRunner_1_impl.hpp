@@ -1,9 +1,10 @@
 #pragma once
 #include "TMPro/zzzz__TweenRunner_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "TMPro/zzzz__FloatTween_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "TMPro/zzzz__TweenRunner_1_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween>._ctor
 template<>
@@ -143,8 +144,10 @@ constexpr void TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween>::__se
 constexpr float_t TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween>::__get__elapsedTime_5__2() const {
 return ::cordl_internals::getInstanceField<float_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween>::TMPro__TweenRunner_1___Start_d__2(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TweenRunner_1___Start_d__2>(__1__state))) {}
+ TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween> TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween>::New_ctor(int32_t __1__state)  {
+TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween> o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween>>(__1__state))};
+return o;
+}
  void TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween>::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween>>::get(),
@@ -332,8 +335,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TweenRunner_1<TMPro::FloatTween>::TweenRunner_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TweenRunner_1>())) {}
+ TMPro::TweenRunner_1<TMPro::FloatTween> TMPro::TweenRunner_1<TMPro::FloatTween>::New_ctor()  {
+TMPro::TweenRunner_1<TMPro::FloatTween> o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TweenRunner_1<TMPro::FloatTween>>())};
+return o;
+}
  void TMPro::TweenRunner_1<TMPro::FloatTween>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TweenRunner_1<TMPro::FloatTween>>::get(),

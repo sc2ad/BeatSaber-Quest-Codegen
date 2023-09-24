@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -11,33 +14,39 @@ class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class ILevelEndActions;
 }
 namespace GlobalNamespace {
-class GameSongController;
+class GameEnergyCounter;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class ILevelStartController;
-}
-namespace GlobalNamespace {
-class GameEnergyCounter;
-}
-namespace GlobalNamespace {
-class ILevelEndActions;
+class PauseController;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class PauseController;
+class ILevelStartController;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class GlobalNamespace__StandardLevelGameplayManager__InitData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__StandardLevelGameplayManager__GameState;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__StandardLevelGameplayManager___Start_d__22;
+}
+namespace GlobalNamespace {
+class GameSongController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +112,7 @@ constexpr bool __get_failOn0Energy() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "failOn0Energy", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__StandardLevelGameplayManager__InitData(bool failOn0Energy) ;
+static GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__InitData New_ctor(bool failOn0Energy) ;
 
 /// @brief Method .ctor addr 0x2272304 size 0x28 virtual false final false
  void _ctor(bool failOn0Energy) ;
@@ -165,6 +173,8 @@ __Failed = 4,
 constexpr operator __GlobalNamespace__StandardLevelGameplayManager__GameState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__StandardLevelGameplayManager__GameState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -273,8 +283,7 @@ constexpr GlobalNamespace::StandardLevelGameplayManager __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__StandardLevelGameplayManager___Start_d__22(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager___Start_d__22 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2271f4c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -472,8 +481,7 @@ constexpr GlobalNamespace::GlobalNamespace__StandardLevelGameplayManager__GameSt
 /// @brief Method HandlePauseControllerDidResume addr 0x22722e4 size 0x18 virtual false final false
  void HandlePauseControllerDidResume() ;
 
-// Ctor Parameters []
-explicit StandardLevelGameplayManager() ;
+static GlobalNamespace::StandardLevelGameplayManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x22722fc size 0x8 virtual false final false
  void _ctor() ;

@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 namespace System::IO {
-struct SeekOrigin;
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Utilities {
@@ -77,8 +77,7 @@ constexpr System::IO::Stream __get_s() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "s", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit FilterStream(System::IO::Stream s) ;
+static Org::BouncyCastle::Asn1::Utilities::FilterStream New_ctor(System::IO::Stream s) ;
 
 /// @brief Method .ctor addr 0xff163c size 0x6c virtual false final false
  void _ctor(System::IO::Stream s) ;

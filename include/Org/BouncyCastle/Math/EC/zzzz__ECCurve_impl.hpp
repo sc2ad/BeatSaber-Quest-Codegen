@@ -1,15 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractECLookupTable_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__Config._ctor
 template<>
@@ -120,8 +121,10 @@ constexpr void Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve
 constexpr Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__Config::__get_multiplier() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "coord", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "endomorphism", ty: "Org::BouncyCastle::Math::EC::Endo::ECEndomorphism", modifiers: "", def_value: None }, CppParam { name: "multiplier", ty: "Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__Config::Org__BouncyCastle__Math__EC__ECCurve__Config(Org::BouncyCastle::Math::EC::ECCurve outer, int32_t coord, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier multiplier)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__ECCurve__Config>(outer, coord, endomorphism, multiplier))) {}
+ Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__Config Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__Config::New_ctor(Org::BouncyCastle::Math::EC::ECCurve outer, int32_t coord, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier multiplier)  {
+Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__Config o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__Config>(outer, coord, endomorphism, multiplier))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__Config::_ctor(Org::BouncyCastle::Math::EC::ECCurve outer, int32_t coord, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier multiplier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__Config>::get(),
@@ -270,8 +273,10 @@ constexpr void Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve
 constexpr int32_t Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable::__get_m_size() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "table", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable::Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable(Org::BouncyCastle::Math::EC::ECCurve outer, ::ArrayW<uint8_t> table, int32_t size)  : Org::BouncyCastle::Math::EC::AbstractECLookupTable(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable>(outer, table, size))) {}
+ Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable::New_ctor(Org::BouncyCastle::Math::EC::ECCurve outer, ::ArrayW<uint8_t> table, int32_t size)  {
+Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable>(outer, table, size))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable::_ctor(Org::BouncyCastle::Math::EC::ECCurve outer, ::ArrayW<uint8_t> table, int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable>::get(),
@@ -1054,8 +1059,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t>, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "field", ty: "Org::BouncyCastle::Math::Field::IFiniteField", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::ECCurve::ECCurve(Org::BouncyCastle::Math::Field::IFiniteField field)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECCurve>(field))) {}
+ Org::BouncyCastle::Math::EC::ECCurve Org::BouncyCastle::Math::EC::ECCurve::New_ctor(Org::BouncyCastle::Math::Field::IFiniteField field)  {
+Org::BouncyCastle::Math::EC::ECCurve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::ECCurve>(field))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::ECCurve::_ctor(Org::BouncyCastle::Math::Field::IFiniteField field)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::ECCurve>::get(),

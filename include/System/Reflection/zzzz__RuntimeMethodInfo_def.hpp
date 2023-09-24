@@ -6,17 +6,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System {
+class RuntimeType;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System::Reflection {
 class CustomAttributeData;
+}
+namespace System {
+class Type;
+}
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System {
+class Delegate;
 }
 namespace System::Reflection {
 struct BindingFlags;
 }
 namespace System::Reflection {
-struct MethodAttributes;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+struct PInvokeAttributes;
 }
 namespace System::Reflection {
 class MethodBase;
@@ -24,53 +39,38 @@ class MethodBase;
 namespace System::Reflection {
 struct MethodImplAttributes;
 }
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Reflection {
-class Binder;
+namespace System {
+class Exception;
 }
 namespace System::Reflection {
 class RuntimeModule;
 }
 namespace System::Reflection {
-struct CallingConventions;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Reflection {
 class Module;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-class Type;
+class SerializationInfo;
 }
 namespace System {
 struct RuntimeMethodHandle;
 }
-namespace System {
-class Delegate;
+namespace System::Reflection {
+struct MethodAttributes;
 }
 namespace System {
 struct RuntimeTypeHandle;
-}
-namespace System {
-class RuntimeType;
 }
 namespace System::Reflection {
 class ParameterInfo;
 }
 namespace System::Reflection {
-struct PInvokeAttributes;
+class MethodInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
+}
+namespace System::Reflection {
+class Binder;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -216,8 +216,7 @@ static System::Reflection::MethodBase GetMethodFromHandleInternalType(::cordl_in
 /// @brief Method GetMethodFromHandleInternalType_native addr 0x2386f7c size 0x8 virtual false final false
 static System::Reflection::MethodBase GetMethodFromHandleInternalType_native(::cordl_internals::intptr_t method_handle, ::cordl_internals::intptr_t type_handle, bool genericCheck) ;
 
-// Ctor Parameters []
-explicit RuntimeMethodInfo() ;
+static System::Reflection::RuntimeMethodInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2386f8c size 0x8 virtual false final false
  void _ctor() ;

@@ -1,6 +1,7 @@
 #pragma once
 #include "BGNet/Logging/zzzz__Debug_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "BGNet/Logging/zzzz__Debug_def.hpp"
 //  Writing Method size for method: BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList._ctor
 template<>
 
@@ -30,8 +31,10 @@ constexpr void BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList::__set_ne
 constexpr BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList::__get_next() const {
 return ::cordl_internals::getInstanceField<BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "logger", ty: "BGNet::Logging::BGNet__Logging__Debug__ILogger", modifiers: "", def_value: None }]
- BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList::BGNet__Logging__Debug__LoggerLinkedList(BGNet::Logging::BGNet__Logging__Debug__ILogger logger)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BGNet__Logging__Debug__LoggerLinkedList>(logger))) {}
+ BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList::New_ctor(BGNet::Logging::BGNet__Logging__Debug__ILogger logger)  {
+BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList o{THROW_UNLESS(::il2cpp_utils::New<BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList>(logger))};
+return o;
+}
  void BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList::_ctor(BGNet::Logging::BGNet__Logging__Debug__ILogger logger)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList>::get(),

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::WritableAttribute::WritableAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<WritableAttribute>())) {}
+ UnityEngine::WritableAttribute UnityEngine::WritableAttribute::New_ctor()  {
+UnityEngine::WritableAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::WritableAttribute>())};
+return o;
+}
  void UnityEngine::WritableAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::WritableAttribute>::get(),

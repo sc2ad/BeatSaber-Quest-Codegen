@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerPrintableString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerPrintableString.GetInstance
 template<>
 
@@ -198,8 +198,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerPrintableString, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerPrintableString::DerPrintableString(::ArrayW<uint8_t> str)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerPrintableString>(str))) {}
+ Org::BouncyCastle::Asn1::DerPrintableString Org::BouncyCastle::Asn1::DerPrintableString::New_ctor(::ArrayW<uint8_t> str)  {
+Org::BouncyCastle::Asn1::DerPrintableString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerPrintableString>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerPrintableString::_ctor(::ArrayW<uint8_t> str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerPrintableString>::get(),
@@ -209,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerPrintableString::DerPrintableString(::StringW str)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerPrintableString>(str))) {}
+ Org::BouncyCastle::Asn1::DerPrintableString Org::BouncyCastle::Asn1::DerPrintableString::New_ctor(::StringW str)  {
+Org::BouncyCastle::Asn1::DerPrintableString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerPrintableString>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerPrintableString::_ctor(::StringW str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerPrintableString>::get(),
@@ -220,8 +224,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "validate", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerPrintableString::DerPrintableString(::StringW str, bool validate)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerPrintableString>(str, validate))) {}
+ Org::BouncyCastle::Asn1::DerPrintableString Org::BouncyCastle::Asn1::DerPrintableString::New_ctor(::StringW str, bool validate)  {
+Org::BouncyCastle::Asn1::DerPrintableString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerPrintableString>(str, validate))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerPrintableString::_ctor(::StringW str, bool validate)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerPrintableString>::get(),

@@ -5,17 +5,23 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System::Net {
+class WebConnection;
+}
 namespace System {
-class Exception;
+class IAsyncResult;
 }
 namespace System::Net {
 class ServicePoint;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Net {
-class HttpWebRequest;
+class WebOperation;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -24,16 +30,10 @@ namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
+class Exception;
 }
 namespace System::Net {
-class WebConnection;
-}
-namespace System::Net {
-class WebOperation;
-}
-namespace System::IO {
-struct SeekOrigin;
+class HttpWebRequest;
 }
 // Forward declare root types
 namespace System::Net {
@@ -155,8 +155,7 @@ constexpr System::Net::WebOperation __get__Operation_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cnc", ty: "System::Net::WebConnection", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }]
-explicit WebConnectionStream(System::Net::WebConnection cnc, System::Net::WebOperation operation) ;
+static System::Net::WebConnectionStream New_ctor(System::Net::WebConnection cnc, System::Net::WebOperation operation) ;
 
 /// @brief Method .ctor addr 0x284cfcc size 0xbc virtual false final false
  void _ctor(System::Net::WebConnection cnc, System::Net::WebOperation operation) ;

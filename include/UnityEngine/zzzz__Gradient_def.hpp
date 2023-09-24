@@ -6,20 +6,20 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct GradientColorKey;
+struct Color;
 }
 namespace UnityEngine {
-struct GradientAlphaKey;
+struct GradientColorKey;
 }
 namespace UnityEngine {
 struct GradientMode;
 }
+namespace UnityEngine {
+struct GradientAlphaKey;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -97,8 +97,7 @@ static ::cordl_internals::intptr_t Init() ;
 /// @brief Method Internal_Equals addr 0x2b67020 size 0x44 virtual false final false
  bool Internal_Equals(::cordl_internals::intptr_t other) ;
 
-// Ctor Parameters []
-explicit Gradient() ;
+static UnityEngine::Gradient New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b67064 size 0x48 virtual false final false
  void _ctor() ;

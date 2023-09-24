@@ -9,14 +9,18 @@ namespace System {
 class IFormattable;
 }
 namespace System {
+class IFormatProvider;
+}
+namespace System::Numerics {
+template<typename T>
+struct System__Numerics__Vector_1__VectorSizeHelper;
+}
+namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace System::Numerics {
 struct Register;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace System::Numerics {
@@ -28,12 +32,12 @@ template<typename T>
 struct System__Numerics__Vector_1__VectorSizeHelper;
 }
 namespace System::Numerics {
-template<>
-struct Vector_1<uint16_t>;
+template<::cordl_internals::is_or_is_backed_by<uint64_t> T>
+struct Vector_1<T>;
 }
 namespace System::Numerics {
-template<>
-struct Vector_1<uint64_t>;
+template<::cordl_internals::is_or_is_backed_by<uint16_t> T>
+struct Vector_1<T>;
 }
 // Type: ::VectorSizeHelper
 namespace System::Numerics {
@@ -100,18 +104,18 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: System.Numerics::Vector`1
 namespace System::Numerics {
 // cpp template
-template<>
+template<::cordl_internals::is_or_is_backed_by<uint16_t> T>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(3545))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3545), inst: 389 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3545), inst: 728 })
 // CS Name: System.Numerics.Vector`1
-struct CORDL_TYPE Vector_1<uint64_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Vector_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using VectorSizeHelper = System::Numerics::System__Numerics__Vector_1__VectorSizeHelper<uint64_t>;
+using VectorSizeHelper = System::Numerics::System__Numerics__Vector_1__VectorSizeHelper<T>;
 
-/// @brief Convert operator to System::IEquatable_1<System::Numerics::Vector_1<uint64_t>>
-constexpr operator  System::IEquatable_1<System::Numerics::Vector_1<uint64_t>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::Numerics::Vector_1<T>>
+constexpr operator  System::IEquatable_1<System::Numerics::Vector_1<T>>() const;
 
 /// @brief Convert operator to System::IFormattable
 constexpr operator  System::IFormattable() const;
@@ -162,32 +166,32 @@ static void __set_s_count(int32_t value) ;
 
 static int32_t __get_s_count() ;
 
-static System::Numerics::Vector_1<uint64_t> __declspec(property(get=__get_s_zero, put=__set_s_zero))  s_zero;
+static System::Numerics::Vector_1<T> __declspec(property(get=__get_s_zero, put=__set_s_zero))  s_zero;
 
-static void __set_s_zero(System::Numerics::Vector_1<uint64_t> value) ;
+static void __set_s_zero(System::Numerics::Vector_1<T> value) ;
 
-static System::Numerics::Vector_1<uint64_t> __get_s_zero() ;
+static System::Numerics::Vector_1<T> __get_s_zero() ;
 
-static System::Numerics::Vector_1<uint64_t> __declspec(property(get=__get_s_one, put=__set_s_one))  s_one;
+static System::Numerics::Vector_1<T> __declspec(property(get=__get_s_one, put=__set_s_one))  s_one;
 
-static void __set_s_one(System::Numerics::Vector_1<uint64_t> value) ;
+static void __set_s_one(System::Numerics::Vector_1<T> value) ;
 
-static System::Numerics::Vector_1<uint64_t> __get_s_one() ;
+static System::Numerics::Vector_1<T> __get_s_one() ;
 
-static System::Numerics::Vector_1<uint64_t> __declspec(property(get=__get_s_allOnes, put=__set_s_allOnes))  s_allOnes;
+static System::Numerics::Vector_1<T> __declspec(property(get=__get_s_allOnes, put=__set_s_allOnes))  s_allOnes;
 
-static void __set_s_allOnes(System::Numerics::Vector_1<uint64_t> value) ;
+static void __set_s_allOnes(System::Numerics::Vector_1<T> value) ;
 
-static System::Numerics::Vector_1<uint64_t> __get_s_allOnes() ;
+static System::Numerics::Vector_1<T> __get_s_allOnes() ;
 
 
 // Properties
 
 static int32_t __declspec(property(get=get_Count))  Count;
 
-static System::Numerics::Vector_1<uint64_t> __declspec(property(get=get_Zero))  Zero;
+static System::Numerics::Vector_1<T> __declspec(property(get=get_Zero))  Zero;
 
- uint64_t __declspec(property(get=get_Item))  Item;
+ T __declspec(property(get=get_Item))  Item;
 
 
 // Methods
@@ -196,13 +200,13 @@ static System::Numerics::Vector_1<uint64_t> __declspec(property(get=get_Zero))  
 static int32_t get_Count() ;
 
 /// @brief Method get_Zero addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::Numerics::Vector_1<uint64_t> get_Zero() ;
+static System::Numerics::Vector_1<T> get_Zero() ;
 
 /// @brief Method InitializeCount addr 0x0 size 0xffffffffffffffff virtual false final false
 static int32_t InitializeCount() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(uint64_t value) ;
+ void _ctor(T value) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(void* dataPointer) ;
@@ -214,13 +218,13 @@ static int32_t InitializeCount() ;
  void _ctor(ByRef<System::Numerics::Register> existingRegister) ;
 
 /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- uint64_t get_Item(int32_t index) ;
+ T get_Item(int32_t index) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(System::Numerics::Vector_1<uint64_t> other) ;
+ bool Equals(System::Numerics::Vector_1<T> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -232,25 +236,25 @@ static int32_t InitializeCount() ;
  ::StringW ToString(::StringW format, System::IFormatProvider formatProvider) ;
 
 /// @brief Method op_Equality addr 0x0 size 0xffffffffffffffff virtual false final false
-static bool op_Equality(System::Numerics::Vector_1<uint64_t> left, System::Numerics::Vector_1<uint64_t> right) ;
+static bool op_Equality(System::Numerics::Vector_1<T> left, System::Numerics::Vector_1<T> right) ;
 
 /// @brief Method op_Inequality addr 0x0 size 0xffffffffffffffff virtual false final false
-static bool op_Inequality(System::Numerics::Vector_1<uint64_t> left, System::Numerics::Vector_1<uint64_t> right) ;
+static bool op_Inequality(System::Numerics::Vector_1<T> left, System::Numerics::Vector_1<T> right) ;
 
 /// @brief Method op_Explicit addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::Numerics::Vector_1<uint64_t> op_Explicit_System__Numerics__Vector_1_uint64_t_(System::Numerics::Vector_1<uint64_t> value) ;
+static System::Numerics::Vector_1<uint64_t> op_Explicit_System__Numerics__Vector_1_uint64_t_(System::Numerics::Vector_1<T> value) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::Numerics::Vector_1<uint64_t> Equals(System::Numerics::Vector_1<uint64_t> left, System::Numerics::Vector_1<uint64_t> right) ;
+static System::Numerics::Vector_1<T> Equals(System::Numerics::Vector_1<T> left, System::Numerics::Vector_1<T> right) ;
 
 /// @brief Method ScalarEquals addr 0x0 size 0xffffffffffffffff virtual false final false
-static bool ScalarEquals(uint64_t left, uint64_t right) ;
+static bool ScalarEquals(T left, T right) ;
 
 /// @brief Method GetOneValue addr 0x0 size 0xffffffffffffffff virtual false final false
-static uint64_t GetOneValue() ;
+static T GetOneValue() ;
 
 /// @brief Method GetAllBitsSetValue addr 0x0 size 0xffffffffffffffff virtual false final false
-static uint64_t GetAllBitsSetValue() ;
+static T GetAllBitsSetValue() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -259,18 +263,18 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: System.Numerics::Vector`1
 namespace System::Numerics {
 // cpp template
-template<>
+template<::cordl_internals::is_or_is_backed_by<uint64_t> T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3545)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3545), inst: 728 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(3545))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3545), inst: 389 })
 // CS Name: System.Numerics.Vector`1
-struct CORDL_TYPE Vector_1<uint16_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Vector_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using VectorSizeHelper = System::Numerics::System__Numerics__Vector_1__VectorSizeHelper<uint16_t>;
+using VectorSizeHelper = System::Numerics::System__Numerics__Vector_1__VectorSizeHelper<T>;
 
-/// @brief Convert operator to System::IEquatable_1<System::Numerics::Vector_1<uint16_t>>
-constexpr operator  System::IEquatable_1<System::Numerics::Vector_1<uint16_t>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::Numerics::Vector_1<T>>
+constexpr operator  System::IEquatable_1<System::Numerics::Vector_1<T>>() const;
 
 /// @brief Convert operator to System::IFormattable
 constexpr operator  System::IFormattable() const;
@@ -321,32 +325,32 @@ static void __set_s_count(int32_t value) ;
 
 static int32_t __get_s_count() ;
 
-static System::Numerics::Vector_1<uint16_t> __declspec(property(get=__get_s_zero, put=__set_s_zero))  s_zero;
+static System::Numerics::Vector_1<T> __declspec(property(get=__get_s_zero, put=__set_s_zero))  s_zero;
 
-static void __set_s_zero(System::Numerics::Vector_1<uint16_t> value) ;
+static void __set_s_zero(System::Numerics::Vector_1<T> value) ;
 
-static System::Numerics::Vector_1<uint16_t> __get_s_zero() ;
+static System::Numerics::Vector_1<T> __get_s_zero() ;
 
-static System::Numerics::Vector_1<uint16_t> __declspec(property(get=__get_s_one, put=__set_s_one))  s_one;
+static System::Numerics::Vector_1<T> __declspec(property(get=__get_s_one, put=__set_s_one))  s_one;
 
-static void __set_s_one(System::Numerics::Vector_1<uint16_t> value) ;
+static void __set_s_one(System::Numerics::Vector_1<T> value) ;
 
-static System::Numerics::Vector_1<uint16_t> __get_s_one() ;
+static System::Numerics::Vector_1<T> __get_s_one() ;
 
-static System::Numerics::Vector_1<uint16_t> __declspec(property(get=__get_s_allOnes, put=__set_s_allOnes))  s_allOnes;
+static System::Numerics::Vector_1<T> __declspec(property(get=__get_s_allOnes, put=__set_s_allOnes))  s_allOnes;
 
-static void __set_s_allOnes(System::Numerics::Vector_1<uint16_t> value) ;
+static void __set_s_allOnes(System::Numerics::Vector_1<T> value) ;
 
-static System::Numerics::Vector_1<uint16_t> __get_s_allOnes() ;
+static System::Numerics::Vector_1<T> __get_s_allOnes() ;
 
 
 // Properties
 
 static int32_t __declspec(property(get=get_Count))  Count;
 
-static System::Numerics::Vector_1<uint16_t> __declspec(property(get=get_Zero))  Zero;
+static System::Numerics::Vector_1<T> __declspec(property(get=get_Zero))  Zero;
 
- uint16_t __declspec(property(get=get_Item))  Item;
+ T __declspec(property(get=get_Item))  Item;
 
 
 // Methods
@@ -355,13 +359,13 @@ static System::Numerics::Vector_1<uint16_t> __declspec(property(get=get_Zero))  
 static int32_t get_Count() ;
 
 /// @brief Method get_Zero addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::Numerics::Vector_1<uint16_t> get_Zero() ;
+static System::Numerics::Vector_1<T> get_Zero() ;
 
 /// @brief Method InitializeCount addr 0x0 size 0xffffffffffffffff virtual false final false
 static int32_t InitializeCount() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(uint16_t value) ;
+ void _ctor(T value) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(void* dataPointer) ;
@@ -373,13 +377,13 @@ static int32_t InitializeCount() ;
  void _ctor(ByRef<System::Numerics::Register> existingRegister) ;
 
 /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- uint16_t get_Item(int32_t index) ;
+ T get_Item(int32_t index) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(System::Numerics::Vector_1<uint16_t> other) ;
+ bool Equals(System::Numerics::Vector_1<T> other) ;
 
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
@@ -391,25 +395,25 @@ static int32_t InitializeCount() ;
  ::StringW ToString(::StringW format, System::IFormatProvider formatProvider) ;
 
 /// @brief Method op_Equality addr 0x0 size 0xffffffffffffffff virtual false final false
-static bool op_Equality(System::Numerics::Vector_1<uint16_t> left, System::Numerics::Vector_1<uint16_t> right) ;
+static bool op_Equality(System::Numerics::Vector_1<T> left, System::Numerics::Vector_1<T> right) ;
 
 /// @brief Method op_Inequality addr 0x0 size 0xffffffffffffffff virtual false final false
-static bool op_Inequality(System::Numerics::Vector_1<uint16_t> left, System::Numerics::Vector_1<uint16_t> right) ;
+static bool op_Inequality(System::Numerics::Vector_1<T> left, System::Numerics::Vector_1<T> right) ;
 
 /// @brief Method op_Explicit addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::Numerics::Vector_1<uint64_t> op_Explicit_System__Numerics__Vector_1_uint64_t_(System::Numerics::Vector_1<uint16_t> value) ;
+static System::Numerics::Vector_1<uint64_t> op_Explicit_System__Numerics__Vector_1_uint64_t_(System::Numerics::Vector_1<T> value) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::Numerics::Vector_1<uint16_t> Equals(System::Numerics::Vector_1<uint16_t> left, System::Numerics::Vector_1<uint16_t> right) ;
+static System::Numerics::Vector_1<T> Equals(System::Numerics::Vector_1<T> left, System::Numerics::Vector_1<T> right) ;
 
 /// @brief Method ScalarEquals addr 0x0 size 0xffffffffffffffff virtual false final false
-static bool ScalarEquals(uint16_t left, uint16_t right) ;
+static bool ScalarEquals(T left, T right) ;
 
 /// @brief Method GetOneValue addr 0x0 size 0xffffffffffffffff virtual false final false
-static uint16_t GetOneValue() ;
+static T GetOneValue() ;
 
 /// @brief Method GetAllBitsSetValue addr 0x0 size 0xffffffffffffffff virtual false final false
-static uint16_t GetAllBitsSetValue() ;
+static T GetAllBitsSetValue() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };

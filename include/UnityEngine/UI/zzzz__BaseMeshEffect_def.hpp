@@ -94,8 +94,7 @@ constexpr UnityEngine::UI::Graphic __get_m_Graphic() const;
 /// @brief Method ModifyMesh addr 0x0 size 0xffffffffffffffff virtual true final false
  void ModifyMesh(UnityEngine::UI::VertexHelper vh) ;
 
-// Ctor Parameters []
-explicit BaseMeshEffect() ;
+static UnityEngine::UI::BaseMeshEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1777c size 0x8 virtual false final false
  void _ctor() ;

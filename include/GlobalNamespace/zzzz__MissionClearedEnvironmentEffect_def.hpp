@@ -77,8 +77,7 @@ constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksCon
 /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared addr 0x22646d0 size 0x7c virtual false final false
  void HandleMissionObjectiveCheckersManagerObjectiveWasCleared() ;
 
-// Ctor Parameters []
-explicit MissionClearedEnvironmentEffect() ;
+static GlobalNamespace::MissionClearedEnvironmentEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x226474c size 0x8 virtual false final false
  void _ctor() ;

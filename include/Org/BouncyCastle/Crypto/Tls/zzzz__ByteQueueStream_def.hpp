@@ -79,8 +79,7 @@ constexpr Org::BouncyCastle::Crypto::Tls::ByteQueue __get_buffer() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ByteQueueStream() ;
+static Org::BouncyCastle::Crypto::Tls::ByteQueueStream New_ctor() ;
 
 /// @brief Method .ctor addr 0xecedd4 size 0x90 virtual false final false
  void _ctor() ;

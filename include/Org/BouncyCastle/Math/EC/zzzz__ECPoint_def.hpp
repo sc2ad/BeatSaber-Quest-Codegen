@@ -5,19 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
-namespace System::Collections {
-class IDictionary;
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC {
+class Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class IPreCompCallback;
@@ -98,8 +101,7 @@ constexpr bool __get_m_checkOrder() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "decompressed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "checkOrder", ty: "bool", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback(Org::BouncyCastle::Math::EC::ECPoint outer, bool decompressed, bool checkOrder) ;
+static Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECPoint__ValidityCallback New_ctor(Org::BouncyCastle::Math::EC::ECPoint outer, bool decompressed, bool checkOrder) ;
 
 /// @brief Method .ctor addr 0xf42e34 size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECPoint outer, bool decompressed, bool checkOrder) ;
@@ -236,14 +238,12 @@ constexpr System::Collections::IDictionary __get_m_preCompTable() const;
 /// @brief Method GetInitialZCoords addr 0xf423f4 size 0x2a8 virtual false final false
 static ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement> GetInitialZCoords(Org::BouncyCastle::Math::EC::ECCurve curve) ;
 
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "y", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "withCompression", ty: "bool", modifiers: "", def_value: None }]
-explicit ECPoint(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, bool withCompression) ;
+static Org::BouncyCastle::Math::EC::ECPoint New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, bool withCompression) ;
 
 /// @brief Method .ctor addr 0xf4269c size 0x9c virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, bool withCompression) ;
 
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "y", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "zs", ty: "::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement>", modifiers: "", def_value: None }, CppParam { name: "withCompression", ty: "bool", modifiers: "", def_value: None }]
-explicit ECPoint(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement> zs, bool withCompression) ;
+static Org::BouncyCastle::Math::EC::ECPoint New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement> zs, bool withCompression) ;
 
 /// @brief Method .ctor addr 0xf42738 size 0x54 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECFieldElement x, Org::BouncyCastle::Math::EC::ECFieldElement y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement> zs, bool withCompression) ;

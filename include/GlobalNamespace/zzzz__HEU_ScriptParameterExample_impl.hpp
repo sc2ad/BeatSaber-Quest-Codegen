@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HEU_ScriptParameterExample_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 //  Writing Method size for method: GlobalNamespace::HEU_ScriptParameterExample.Start
 template<>
 
@@ -96,8 +96,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::HEU_ScriptParameterExample::HEU_ScriptParameterExample()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HEU_ScriptParameterExample>())) {}
+ GlobalNamespace::HEU_ScriptParameterExample GlobalNamespace::HEU_ScriptParameterExample::New_ctor()  {
+GlobalNamespace::HEU_ScriptParameterExample o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HEU_ScriptParameterExample>())};
+return o;
+}
  void GlobalNamespace::HEU_ScriptParameterExample::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HEU_ScriptParameterExample>::get(),

@@ -7,31 +7,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Reflection {
-class AssemblyName;
+class System__Reflection__Assembly__ResolveEventHolder;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Security::Policy {
-class Evidence;
+namespace System::Threading {
+struct StackCrawlMark;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Reflection {
-class Assembly;
-}
-namespace System::Reflection {
-class System__Reflection__Assembly__ResolveEventHolder;
-}
-namespace System {
-class Type;
-}
-namespace System::Threading {
-struct StackCrawlMark;
+class AssemblyName;
 }
 namespace System::Reflection {
 class Module;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System::Security::Policy {
+class Evidence;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -151,8 +151,7 @@ constexpr ::StringW __get_assemblyName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RuntimeAssembly() ;
+static System::Reflection::RuntimeAssembly New_ctor() ;
 
 /// @brief Method .ctor addr 0x2384b84 size 0x6c virtual false final false
  void _ctor() ;

@@ -3,33 +3,34 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/zzzz__HideFlags_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__MeshArrays_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__MeshTopology_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__AutoUnwrapSettings_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__MeshSyncState_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__UnwrapParameters_def.hpp"
-#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__RefreshMask_def.hpp"
+#include "UnityEngine/zzzz__MeshTopology_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__MeshArrays_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__AutoUnwrapSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SharedVertex_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__MeshSyncState_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__HideFlags_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
@@ -253,8 +254,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ProBuilder:
  System::Func_2<UnityEngine::ProBuilder::Face,UnityEngine::ProBuilder::Face> UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c::__get___9__165_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ProBuilder::Face,UnityEngine::ProBuilder::Face>, "<>9__165_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c::UnityEngine__ProBuilder__ProBuilderMesh____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__ProBuilderMesh____c>())) {}
+ UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c::New_ctor()  {
+UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c>())};
+return o;
+}
  void UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c>::get(),
@@ -349,8 +352,10 @@ constexpr void UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh_
 constexpr int32_t UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0::__get_i() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0>())) {}
+ UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0 UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0::New_ctor()  {
+UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0>::get(),
@@ -409,8 +414,10 @@ constexpr void UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh_
 constexpr int32_t UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0::__get_i() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0>())) {}
+ UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0 UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0::New_ctor()  {
+UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0>::get(),
@@ -4672,8 +4679,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::ProBuilderMesh::ProBuilderMesh()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ProBuilderMesh>())) {}
+ UnityEngine::ProBuilder::ProBuilderMesh UnityEngine::ProBuilder::ProBuilderMesh::New_ctor()  {
+UnityEngine::ProBuilder::ProBuilderMesh o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::ProBuilderMesh>())};
+return o;
+}
  void UnityEngine::ProBuilder::ProBuilderMesh::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::ProBuilderMesh>::get(),

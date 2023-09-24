@@ -72,8 +72,7 @@ constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_privateParamet
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "publicParameter", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "privateParameter", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit AsymmetricCipherKeyPair(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateParameter) ;
+static Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateParameter) ;
 
 /// @brief Method .ctor addr 0xf359c4 size 0xdc virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateParameter) ;

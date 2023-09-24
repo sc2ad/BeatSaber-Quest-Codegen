@@ -2,15 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System {
-class Type;
-}
-namespace Zenject {
-class SignalBindingBindInfo;
-}
-namespace System {
-class IDisposable;
-}
 namespace Zenject {
 class SignalBus;
 }
@@ -18,8 +9,17 @@ namespace System {
 template<typename T>
 class Action_1;
 }
+namespace System {
+class Type;
+}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class SignalBindingBindInfo;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -97,8 +97,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__identifier() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::SignalBindingBindInfo", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "signalBus", ty: "Zenject::SignalBus", modifiers: "", def_value: None }]
-explicit SignalCallbackWrapper(Zenject::SignalBindingBindInfo bindInfo, System::Action_1<::bs_hook::Il2CppWrapperType> action, Zenject::SignalBus signalBus) ;
+static Zenject::SignalCallbackWrapper New_ctor(Zenject::SignalBindingBindInfo bindInfo, System::Action_1<::bs_hook::Il2CppWrapperType> action, Zenject::SignalBus signalBus) ;
 
 /// @brief Method .ctor addr 0x2d48734 size 0xc8 virtual false final false
  void _ctor(Zenject::SignalBindingBindInfo bindInfo, System::Action_1<::bs_hook::Il2CppWrapperType> action, Zenject::SignalBus signalBus) ;

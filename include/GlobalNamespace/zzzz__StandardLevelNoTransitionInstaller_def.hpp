@@ -82,8 +82,7 @@ constexpr GlobalNamespace::StandardLevelNoTransitionInstallerData __get__standar
 /// @brief Method InstallBindings addr 0x21b6718 size 0x150 virtual true final false
  void InstallBindings(Zenject::DiContainer container) ;
 
-// Ctor Parameters []
-explicit StandardLevelNoTransitionInstaller() ;
+static GlobalNamespace::StandardLevelNoTransitionInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b6868 size 0x8 virtual false final false
  void _ctor() ;

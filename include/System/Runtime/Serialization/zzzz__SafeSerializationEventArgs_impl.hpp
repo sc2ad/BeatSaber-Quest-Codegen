@@ -50,8 +50,10 @@ constexpr void System::Runtime::Serialization::SafeSerializationEventArgs::__set
 constexpr System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> System::Runtime::Serialization::SafeSerializationEventArgs::__get_m_serializedStates() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SafeSerializationEventArgs::SafeSerializationEventArgs(System::Runtime::Serialization::StreamingContext streamingContext)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<SafeSerializationEventArgs>(streamingContext))) {}
+ System::Runtime::Serialization::SafeSerializationEventArgs System::Runtime::Serialization::SafeSerializationEventArgs::New_ctor(System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Runtime::Serialization::SafeSerializationEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SafeSerializationEventArgs>(streamingContext))};
+return o;
+}
  void System::Runtime::Serialization::SafeSerializationEventArgs::_ctor(System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SafeSerializationEventArgs>::get(),

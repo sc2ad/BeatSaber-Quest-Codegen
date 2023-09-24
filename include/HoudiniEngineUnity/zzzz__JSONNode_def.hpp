@@ -5,9 +5,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -19,18 +16,33 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
+namespace System {
+class IDisposable;
+}
 namespace HoudiniEngineUnity {
 struct JSONNodeType;
 }
 namespace HoudiniEngineUnity {
-class JSONObject;
+class JSONArray;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__JSONNode__KeyEnumerator;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__JSONNode__ValueEnumerator;
+}
+namespace HoudiniEngineUnity {
+struct JSONTextMode;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -39,39 +51,48 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace HoudiniEngineUnity {
-struct JSONTextMode;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector3;
+struct Matrix4x4;
 }
 namespace HoudiniEngineUnity {
 struct JSONContainerType;
 }
-namespace UnityEngine {
-struct Matrix4x4;
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__JSONNode__Enumerator;
 }
 namespace HoudiniEngineUnity {
-class JSONArray;
-}
-namespace System::Text {
-class StringBuilder;
+class JSONObject;
 }
 namespace UnityEngine {
 class RectOffset;
 }
-namespace System::Collections::Generic {
-template<typename T>
-struct System__Collections__Generic__List_1__Enumerator;
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__JSONNode___get_Children_d__40;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__JSONNode___get_DeepChildren_d__42;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__JSONNode__LinqEnumerator;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace GlobalNamespace {
+struct HoudiniEngineUnity__JSONNode__Enumerator__Type;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct System__Collections__Generic__Dictionary_2__Enumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+struct System__Collections__Generic__List_1__Enumerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -148,6 +169,8 @@ __Object = 2,
 constexpr operator __HoudiniEngineUnity__JSONNode__Enumerator__Type_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__JSONNode__Enumerator__Type_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -500,8 +523,7 @@ constexpr HoudiniEngineUnity::HoudiniEngineUnity__JSONNode__Enumerator __get_m_E
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "aNode", ty: "HoudiniEngineUnity::JSONNode", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__JSONNode__LinqEnumerator(HoudiniEngineUnity::JSONNode aNode) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__JSONNode__LinqEnumerator New_ctor(HoudiniEngineUnity::JSONNode aNode) ;
 
 /// @brief Method .ctor addr 0x2062b3c size 0x80 virtual false final false
  void _ctor(HoudiniEngineUnity::JSONNode aNode) ;
@@ -616,8 +638,7 @@ constexpr int32_t __get___l__initialThreadId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__JSONNode___get_Children_d__40(int32_t __1__state) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__JSONNode___get_Children_d__40 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20628d8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -750,8 +771,7 @@ constexpr System::Collections::Generic::IEnumerator_1<HoudiniEngineUnity::JSONNo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__JSONNode___get_DeepChildren_d__42(int32_t __1__state) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__JSONNode___get_DeepChildren_d__42 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2062984 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -1227,8 +1247,7 @@ static UnityEngine::RectOffset op_Implicit_UnityEngine__RectOffset(HoudiniEngine
 /// @brief Method WriteMatrix addr 0x206655c size 0xac virtual false final false
  HoudiniEngineUnity::JSONNode WriteMatrix(UnityEngine::Matrix4x4 aMatrix) ;
 
-// Ctor Parameters []
-explicit JSONNode() ;
+static HoudiniEngineUnity::JSONNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x2066608 size 0x8 virtual false final false
  void _ctor() ;

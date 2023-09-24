@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,8 +84,7 @@ constexpr explicit OculusAnalyticsModel(void* ptr) noexcept : ::bs_hook::Il2CppW
 /// @brief Method LogExposure addr 0x20b31b8 size 0x90 virtual true final true
  void LogExposure(::StringW exposureType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> exposureData) ;
 
-// Ctor Parameters []
-explicit OculusAnalyticsModel() ;
+static GlobalNamespace::OculusAnalyticsModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b3248 size 0x8 virtual false final false
  void _ctor() ;

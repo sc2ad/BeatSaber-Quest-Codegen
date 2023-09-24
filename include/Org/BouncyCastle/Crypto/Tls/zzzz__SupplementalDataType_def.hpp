@@ -54,8 +54,7 @@ static constexpr int32_t  user_mapping_data{0};
 
 // Methods
 
-// Ctor Parameters []
-explicit SupplementalDataType() ;
+static Org::BouncyCastle::Crypto::Tls::SupplementalDataType New_ctor() ;
 
 /// @brief Method .ctor addr 0xf0b6e0 size 0x8 virtual false final false
  void _ctor() ;

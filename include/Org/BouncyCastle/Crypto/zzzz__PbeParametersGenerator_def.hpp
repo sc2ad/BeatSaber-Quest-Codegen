@@ -83,8 +83,7 @@ constexpr int32_t __get_mIterationCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PbeParametersGenerator() ;
+static Org::BouncyCastle::Crypto::PbeParametersGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe7672c size 0x8 virtual false final false
  void _ctor() ;

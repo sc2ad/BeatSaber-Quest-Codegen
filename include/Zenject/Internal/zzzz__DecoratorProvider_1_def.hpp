@@ -1,32 +1,32 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Zenject {
-template<typename TParam1,typename TValue>
-class IFactory_2;
-}
-namespace Zenject {
-class DiContainer;
+namespace Zenject::Internal {
+class IDecoratorProvider;
 }
 namespace Zenject {
 class IProvider;
 }
-namespace Zenject::Internal {
-class IDecoratorProvider;
+namespace System {
+struct Guid;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Zenject {
+template<typename TParam1,typename TValue>
+class IFactory_2;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-struct Guid;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -112,8 +112,7 @@ constexpr System::Collections::Generic::List_1<Zenject::IFactory_2<TContract,TCo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
-explicit DecoratorProvider_1(Zenject::DiContainer container) ;
+static Zenject::Internal::DecoratorProvider_1<TContract> New_ctor(Zenject::DiContainer container) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container) ;

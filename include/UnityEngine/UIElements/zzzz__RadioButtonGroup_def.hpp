@@ -7,8 +7,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__RadioButtonGroup__UxmlFactory;
+}
+namespace System::Collections::Generic {
 template<typename T>
-class ChangeEvent_1;
+class List_1;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__RadioButtonGroup__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+template<typename TEventType>
+class EventCallback_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -18,12 +28,8 @@ namespace UnityEngine::UIElements {
 class IGroupBox;
 }
 namespace UnityEngine::UIElements {
-template<typename TEventType>
-class EventCallback_1;
-}
-namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 class RadioButton;
@@ -35,10 +41,10 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UxmlStringAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -53,7 +59,7 @@ class UnityEngine__UIElements__RadioButtonGroup__UxmlTraits;
 // Type: ::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 885 }), TypeDefinitionIndex(TypeDefinitionIndex(7229)), TypeDefinitionIndex(TypeDefinitionIndex(7079))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7229)), TypeDefinitionIndex(TypeDefinitionIndex(7079)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 885 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7232))
 // CS Name: UnityEngine.UIElements.RadioButtonGroup::UxmlTraits
 class CORDL_TYPE UnityEngine__UIElements__RadioButtonGroup__UxmlTraits : public UnityEngine::UIElements::BaseFieldTraits_2<int32_t,UnityEngine::UIElements::UxmlIntAttributeDescription> {
@@ -104,8 +110,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Choice
 /// @brief Method Init addr 0x2cc601c size 0x134 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__RadioButtonGroup__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc6150 size 0xa0 virtual false final false
  void _ctor() ;
@@ -198,14 +203,12 @@ constexpr UnityEngine::UIElements::EventCallback_1<UnityEngine::UIElements::Chan
 /// @brief Method set_choices addr 0x2cc54cc size 0x59c virtual false final false
  void set_choices(System::Collections::Generic::IEnumerable_1<::StringW> value) ;
 
-// Ctor Parameters []
-explicit RadioButtonGroup() ;
+static UnityEngine::UIElements::RadioButtonGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc5c54 size 0xc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "radioButtonChoices", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }]
-explicit RadioButtonGroup(::StringW label, System::Collections::Generic::List_1<::StringW> radioButtonChoices) ;
+static UnityEngine::UIElements::RadioButtonGroup New_ctor(::StringW label, System::Collections::Generic::List_1<::StringW> radioButtonChoices) ;
 
 /// @brief Method .ctor addr 0x2cc5c60 size 0x1b8 virtual false final false
  void _ctor(::StringW label, System::Collections::Generic::List_1<::StringW> radioButtonChoices) ;
@@ -226,7 +229,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7233)), TypeDefinitionIndex(TypeDefinitionIndex(7232)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5099 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7233)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7232)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5099 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7231))
 // CS Name: UnityEngine.UIElements.RadioButtonGroup::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__RadioButtonGroup__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::RadioButtonGroup,UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlTraits> {
@@ -265,8 +268,7 @@ constexpr explicit UnityEngine__UIElements__RadioButtonGroup__UxmlFactory(void* 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__RadioButtonGroup__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__RadioButtonGroup__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc5fd4 size 0x48 virtual false final false
  void _ctor() ;

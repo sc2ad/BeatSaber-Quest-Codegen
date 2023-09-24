@@ -104,8 +104,7 @@ constexpr ::StringW __get__ReceivedBy_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ViaHeaderValue() ;
+static System::Net::Http::Headers::ViaHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26b0c88 size 0x8 virtual false final false
  void _ctor() ;

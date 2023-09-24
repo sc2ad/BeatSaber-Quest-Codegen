@@ -59,8 +59,10 @@ constexpr void System::Net::CookieParser::__set_m_tokenizer(System::Net::CookieT
 constexpr System::Net::CookieTokenizer System::Net::CookieParser::__get_m_tokenizer() const {
 return ::cordl_internals::getInstanceField<System::Net::CookieTokenizer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cookieString", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::CookieParser::CookieParser(::StringW cookieString)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CookieParser>(cookieString))) {}
+ System::Net::CookieParser System::Net::CookieParser::New_ctor(::StringW cookieString)  {
+System::Net::CookieParser o{THROW_UNLESS(::il2cpp_utils::New<System::Net::CookieParser>(cookieString))};
+return o;
+}
  void System::Net::CookieParser::_ctor(::StringW cookieString)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CookieParser>::get(),

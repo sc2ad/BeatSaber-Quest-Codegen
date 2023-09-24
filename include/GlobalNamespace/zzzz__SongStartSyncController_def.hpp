@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IGameplayRpcManager;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class SongStartHandler;
@@ -183,8 +183,7 @@ constexpr System::Action_1<float_t> __get_syncResumeEvent() const;
 /// @brief Method HandleSetSongStartSyncTime addr 0x22126a8 size 0x2c virtual false final false
  void HandleSetSongStartSyncTime(float_t songStartSyncTime) ;
 
-// Ctor Parameters []
-explicit SongStartSyncController() ;
+static GlobalNamespace::SongStartSyncController New_ctor() ;
 
 /// @brief Method .ctor addr 0x22126d4 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__HC128Engine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::HC128Engine.F1
 template<>
 
@@ -565,8 +565,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint8_t, false>(const_cast<void*>(instance), ___internal_method, input);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::HC128Engine::HC128Engine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HC128Engine>())) {}
+ Org::BouncyCastle::Crypto::Engines::HC128Engine Org::BouncyCastle::Crypto::Engines::HC128Engine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::HC128Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::HC128Engine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::HC128Engine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::HC128Engine>::get(),

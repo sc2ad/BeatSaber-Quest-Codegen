@@ -1,21 +1,21 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine {
+class GameObject;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Object;
+class Component;
 }
 namespace UnityEngine {
 class AnimationClip;
 }
 namespace UnityEngine {
-class Component;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

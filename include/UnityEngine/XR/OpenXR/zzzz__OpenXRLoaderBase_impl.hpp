@@ -3,18 +3,18 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoaderBase_def.hpp"
-#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
-#include "System/zzzz__UnhandledExceptionEventArgs_def.hpp"
-#include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
 #include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystemDescriptor_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
+#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
+#include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoaderBase_def.hpp"
+#include "System/zzzz__UnhandledExceptionEventArgs_def.hpp"
+#include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase__LoaderState::UnityEngine__XR__OpenXR__OpenXRLoaderBase__LoaderState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -100,8 +100,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate::UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate>(object, method))) {}
+ UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate>(object, method))};
+return o;
+}
  void UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate>::get(),
@@ -230,8 +232,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::XR::OpenXR:
  System::Func_2<UnityEngine::XR::OpenXR::Features::OpenXRFeature,::StringW> UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c::__get___9__31_2()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::XR::OpenXR::Features::OpenXRFeature,::StringW>, "<>9__31_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__OpenXRLoaderBase____c>())) {}
+ UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c::New_ctor()  {
+UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c>::get(),
@@ -1413,8 +1417,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, extensionString);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::OpenXRLoaderBase::OpenXRLoaderBase()  : UnityEngine::XR::Management::XRLoaderHelper(THROW_UNLESS(::il2cpp_utils::New<OpenXRLoaderBase>())) {}
+ UnityEngine::XR::OpenXR::OpenXRLoaderBase UnityEngine::XR::OpenXR::OpenXRLoaderBase::New_ctor()  {
+UnityEngine::XR::OpenXR::OpenXRLoaderBase o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::OpenXRLoaderBase>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::OpenXRLoaderBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::OpenXRLoaderBase>::get(),

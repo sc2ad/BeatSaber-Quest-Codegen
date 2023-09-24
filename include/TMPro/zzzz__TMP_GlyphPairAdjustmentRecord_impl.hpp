@@ -1,8 +1,8 @@
 #pragma once
 #include "TMPro/zzzz__TMP_GlyphPairAdjustmentRecord_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphPairAdjustmentRecord_def.hpp"
-#include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_def.hpp"
 #include "TMPro/zzzz__FontFeatureLookupFlags_def.hpp"
+#include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_def.hpp"
 //  Writing Method size for method: TMPro::TMP_GlyphPairAdjustmentRecord.get_firstAdjustmentRecord
 template<>
 
@@ -211,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "firstAdjustmentRecord", ty: "TMPro::TMP_GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name: "secondAdjustmentRecord", ty: "TMPro::TMP_GlyphAdjustmentRecord", modifiers: "", def_value: None }]
- TMPro::TMP_GlyphPairAdjustmentRecord::TMP_GlyphPairAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_GlyphPairAdjustmentRecord>(firstAdjustmentRecord, secondAdjustmentRecord))) {}
+ TMPro::TMP_GlyphPairAdjustmentRecord TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord)  {
+TMPro::TMP_GlyphPairAdjustmentRecord o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_GlyphPairAdjustmentRecord>(firstAdjustmentRecord, secondAdjustmentRecord))};
+return o;
+}
  void TMPro::TMP_GlyphPairAdjustmentRecord::_ctor(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_GlyphPairAdjustmentRecord>::get(),
@@ -222,8 +224,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstAdjustmentRecord, secondAdjustmentRecord);
 }
-// Ctor Parameters [CppParam { name: "glyphPairAdjustmentRecord", ty: "UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord", modifiers: "", def_value: None }]
- TMPro::TMP_GlyphPairAdjustmentRecord::TMP_GlyphPairAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_GlyphPairAdjustmentRecord>(glyphPairAdjustmentRecord))) {}
+ TMPro::TMP_GlyphPairAdjustmentRecord TMPro::TMP_GlyphPairAdjustmentRecord::New_ctor(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord)  {
+TMPro::TMP_GlyphPairAdjustmentRecord o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_GlyphPairAdjustmentRecord>(glyphPairAdjustmentRecord))};
+return o;
+}
  void TMPro::TMP_GlyphPairAdjustmentRecord::_ctor(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_GlyphPairAdjustmentRecord>::get(),

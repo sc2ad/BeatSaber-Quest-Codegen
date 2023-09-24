@@ -58,8 +58,7 @@ constexpr ::cordl_internals::intptr_t __get_Handle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GroupPresenceOptions() ;
+static Oculus::Platform::GroupPresenceOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x257ab68 size 0x64 virtual false final false
  void _ctor() ;

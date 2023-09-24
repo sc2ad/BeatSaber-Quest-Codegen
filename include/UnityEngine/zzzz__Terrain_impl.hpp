@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Terrain_def.hpp"
-#include "UnityEngine/zzzz__TerrainData_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__TerrainData_def.hpp"
 //  Writing Method size for method: UnityEngine::Terrain.get_terrainData
 template<>
 
@@ -358,8 +358,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<UnityEngine::Terrain>, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Terrain::Terrain()  : UnityEngine::Behaviour(THROW_UNLESS(::il2cpp_utils::New<Terrain>())) {}
+ UnityEngine::Terrain UnityEngine::Terrain::New_ctor()  {
+UnityEngine::Terrain o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Terrain>())};
+return o;
+}
  void UnityEngine::Terrain::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Terrain>::get(),

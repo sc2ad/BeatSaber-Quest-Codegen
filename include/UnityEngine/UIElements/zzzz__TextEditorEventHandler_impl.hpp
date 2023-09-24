@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextInputField_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::TextEditorEventHandler.get_editorEngine
 template<>
 
@@ -170,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "editorEngine", ty: "UnityEngine::UIElements::TextEditorEngine", modifiers: "", def_value: None }, CppParam { name: "textInputField", ty: "UnityEngine::UIElements::ITextInputField", modifiers: "", def_value: None }]
- UnityEngine::UIElements::TextEditorEventHandler::TextEditorEventHandler(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TextEditorEventHandler>(editorEngine, textInputField))) {}
+ UnityEngine::UIElements::TextEditorEventHandler UnityEngine::UIElements::TextEditorEventHandler::New_ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField)  {
+UnityEngine::UIElements::TextEditorEventHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TextEditorEventHandler>(editorEngine, textInputField))};
+return o;
+}
  void UnityEngine::UIElements::TextEditorEventHandler::_ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TextEditorEventHandler>::get(),

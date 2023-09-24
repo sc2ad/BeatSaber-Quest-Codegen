@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IQuickPlaySetupModel.GetQuickPlaySetupAsync
 template<>

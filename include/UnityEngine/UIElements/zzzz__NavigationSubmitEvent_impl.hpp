@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::NavigationSubmitEvent::NavigationSubmitEvent()  : UnityEngine::UIElements::NavigationEventBase_1<UnityEngine::UIElements::NavigationSubmitEvent>(THROW_UNLESS(::il2cpp_utils::New<NavigationSubmitEvent>())) {}
+ UnityEngine::UIElements::NavigationSubmitEvent UnityEngine::UIElements::NavigationSubmitEvent::New_ctor()  {
+UnityEngine::UIElements::NavigationSubmitEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::NavigationSubmitEvent>())};
+return o;
+}
  void UnityEngine::UIElements::NavigationSubmitEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::NavigationSubmitEvent>::get(),

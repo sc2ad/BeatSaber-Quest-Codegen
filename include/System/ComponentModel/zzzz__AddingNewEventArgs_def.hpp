@@ -67,14 +67,12 @@ constexpr ::bs_hook::Il2CppWrapperType __get__NewObject_k__BackingField() const;
 /// @brief Method set_NewObject addr 0x24c6a1c size 0x8 virtual false final false
  void set_NewObject(::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters []
-explicit AddingNewEventArgs() ;
+static System::ComponentModel::AddingNewEventArgs New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c6a24 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "newObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit AddingNewEventArgs(::bs_hook::Il2CppWrapperType newObject) ;
+static System::ComponentModel::AddingNewEventArgs New_ctor(::bs_hook::Il2CppWrapperType newObject) ;
 
 /// @brief Method .ctor addr 0x24c6a2c size 0x28 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType newObject) ;

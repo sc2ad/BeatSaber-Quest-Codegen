@@ -47,8 +47,7 @@ constexpr explicit PgpObject(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Methods
 
-// Ctor Parameters []
-explicit PgpObject() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x10190fc size 0x8 virtual false final false
  void _ctor() ;

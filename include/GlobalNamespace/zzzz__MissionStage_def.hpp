@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class RectTransform;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,8 +82,7 @@ constexpr UnityEngine::RectTransform __get__rectTransform() const;
 /// @brief Method get_position addr 0x21f1280 size 0x1c virtual false final false
  UnityEngine::Vector2 get_position() ;
 
-// Ctor Parameters []
-explicit MissionStage() ;
+static GlobalNamespace::MissionStage New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f129c size 0x8 virtual false final false
  void _ctor() ;

@@ -82,8 +82,7 @@ constexpr ::ArrayW<GlobalNamespace::BeatmapLevelSO> __get__alwaysOwnedBeatmapLev
 /// @brief Method get_alwaysOwnedBeatmapLevels addr 0x20c81ec size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::BeatmapLevelSO> get_alwaysOwnedBeatmapLevels() ;
 
-// Ctor Parameters []
-explicit AlwaysOwnedContentSO() ;
+static GlobalNamespace::AlwaysOwnedContentSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c81f4 size 0x8 virtual false final false
  void _ctor() ;

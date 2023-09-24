@@ -3,30 +3,36 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine::ResourceManagement::Util {
+class IInitializableObject;
+}
 namespace System {
 class Type;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
+struct ProviderBehaviourFlags;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProviderBehaviourFlags;
+class UnityEngine__ResourceManagement__ResourceProviders__ResourceProviderBase__BaseInitAsyncOp;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
 }
-namespace UnityEngine::ResourceManagement::Util {
-class IInitializableObject;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IResourceProvider;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class UnityEngine__ResourceManagement__ResourceProviders__ResourceProviderBase____c__DisplayClass10_0;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 namespace System {
 template<typename TResult>
@@ -102,8 +108,7 @@ constexpr System::Func_1<bool> __get_m_CallBack() const;
 /// @brief Method Execute addr 0x2a4098c size 0x88 virtual true final false
  void Execute() ;
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceProviders__ResourceProviderBase__BaseInitAsyncOp() ;
+static UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__ResourceProviderBase__BaseInitAsyncOp New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a408c4 size 0x48 virtual false final false
  void _ctor() ;
@@ -175,8 +180,7 @@ constexpr ::StringW __get_data() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceProviders__ResourceProviderBase____c__DisplayClass10_0() ;
+static UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__ResourceProviderBase____c__DisplayClass10_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a408bc size 0x8 virtual false final false
  void _ctor() ;
@@ -289,8 +293,7 @@ constexpr UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourF
 /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags addr 0x2a4090c size 0x8 virtual true final true
  UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags UnityEngine_ResourceManagement_ResourceProviders_IResourceProvider_get_BehaviourFlags() ;
 
-// Ctor Parameters []
-explicit ResourceProviderBase() ;
+static UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3e1b0 size 0x8 virtual false final false
  void _ctor() ;

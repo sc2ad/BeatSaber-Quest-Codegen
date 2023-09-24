@@ -2,14 +2,15 @@
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/zzzz__MicrosoftMotionControllerProfile_def.hpp"
+#include "UnityEngine/XR/OpenXR/Features/Interactions/zzzz__MicrosoftMotionControllerProfile_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
-#include "UnityEngine/XR/OpenXR/Input/zzzz__PoseControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
-#include "UnityEngine/XR/OpenXR/Input/zzzz__HapticControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/XR/OpenXR/Input/zzzz__HapticControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
+#include "UnityEngine/XR/OpenXR/Input/zzzz__PoseControl_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController.get_joystick
 template<>
 
@@ -1155,8 +1156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController()  : UnityEngine::InputSystem::XR::XRControllerWithRumble(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController>())) {}
+ UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftMotionControllerProfile__WMRSpatialController>::get(),
@@ -1261,8 +1264,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::MicrosoftMotionControllerProfile()  : UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature(THROW_UNLESS(::il2cpp_utils::New<MicrosoftMotionControllerProfile>())) {}
+ UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile>::get(),

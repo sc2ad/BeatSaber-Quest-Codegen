@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeAParameters_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__ScalarSplitParameters_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters._ctor
 template<>
 
@@ -88,8 +88,10 @@ constexpr void Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::__set_m_sp
 constexpr Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::__get_m_splitParams() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "i", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "lambda", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "splitParams", ty: "Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::GlvTypeAParameters(Org::BouncyCastle::Math::BigInteger i, Org::BouncyCastle::Math::BigInteger lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters splitParams)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlvTypeAParameters>(i, lambda, splitParams))) {}
+ Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::New_ctor(Org::BouncyCastle::Math::BigInteger i, Org::BouncyCastle::Math::BigInteger lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters splitParams)  {
+Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters>(i, lambda, splitParams))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::_ctor(Org::BouncyCastle::Math::BigInteger i, Org::BouncyCastle::Math::BigInteger lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters splitParams)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters>::get(),

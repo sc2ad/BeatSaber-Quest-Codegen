@@ -85,8 +85,7 @@ constexpr GlobalNamespace::PlatformEnvironment __get__platformEnvironment_k__Bac
 /// @brief Method set_platformEnvironment addr 0xdc4c48 size 0x8 virtual false final false
  void set_platformEnvironment(GlobalNamespace::PlatformEnvironment value) ;
 
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformEnvironment", ty: "GlobalNamespace::PlatformEnvironment", modifiers: "", def_value: None }]
-explicit XPlatformAccessTokenData(::StringW token, GlobalNamespace::PlatformEnvironment platformEnvironment) ;
+static GlobalNamespace::XPlatformAccessTokenData New_ctor(::StringW token, GlobalNamespace::PlatformEnvironment platformEnvironment) ;
 
 /// @brief Method .ctor addr 0xdc4c50 size 0x30 virtual false final false
  void _ctor(::StringW token, GlobalNamespace::PlatformEnvironment platformEnvironment) ;

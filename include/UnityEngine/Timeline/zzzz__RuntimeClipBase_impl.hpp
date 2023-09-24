@@ -122,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::RuntimeClipBase::RuntimeClipBase()  : UnityEngine::Timeline::RuntimeElement(THROW_UNLESS(::il2cpp_utils::New<RuntimeClipBase>())) {}
+ UnityEngine::Timeline::RuntimeClipBase UnityEngine::Timeline::RuntimeClipBase::New_ctor()  {
+UnityEngine::Timeline::RuntimeClipBase o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::RuntimeClipBase>())};
+return o;
+}
  void UnityEngine::Timeline::RuntimeClipBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::RuntimeClipBase>::get(),

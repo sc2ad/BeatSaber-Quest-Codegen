@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class SliderMeshController;
+class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class SliderMeshController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,7 @@ constexpr GlobalNamespace::MaterialPropertyBlockController __get__materialProper
 /// @brief Method Start addr 0x224cd50 size 0x1d4 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit SliderShaderWarmup() ;
+static GlobalNamespace::SliderShaderWarmup New_ctor() ;
 
 /// @brief Method .ctor addr 0x224cf24 size 0x8 virtual false final false
  void _ctor() ;

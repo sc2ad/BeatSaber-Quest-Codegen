@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertTemplate;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -82,8 +82,7 @@ constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_crlEntryDetails() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit RevDetails(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::RevDetails New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xde1720 size 0xd4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -91,14 +90,12 @@ explicit RevDetails(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xde17f4 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::RevDetails GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "certDetails", ty: "Org::BouncyCastle::Asn1::Crmf::CertTemplate", modifiers: "", def_value: None }]
-explicit RevDetails(Org::BouncyCastle::Asn1::Crmf::CertTemplate certDetails) ;
+static Org::BouncyCastle::Asn1::Cmp::RevDetails New_ctor(Org::BouncyCastle::Asn1::Crmf::CertTemplate certDetails) ;
 
 /// @brief Method .ctor addr 0xde197c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::CertTemplate certDetails) ;
 
-// Ctor Parameters [CppParam { name: "certDetails", ty: "Org::BouncyCastle::Asn1::Crmf::CertTemplate", modifiers: "", def_value: None }, CppParam { name: "crlEntryDetails", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
-explicit RevDetails(Org::BouncyCastle::Asn1::Crmf::CertTemplate certDetails, Org::BouncyCastle::Asn1::X509::X509Extensions crlEntryDetails) ;
+static Org::BouncyCastle::Asn1::Cmp::RevDetails New_ctor(Org::BouncyCastle::Asn1::Crmf::CertTemplate certDetails, Org::BouncyCastle::Asn1::X509::X509Extensions crlEntryDetails) ;
 
 /// @brief Method .ctor addr 0xde19a4 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::CertTemplate certDetails, Org::BouncyCastle::Asn1::X509::X509Extensions crlEntryDetails) ;

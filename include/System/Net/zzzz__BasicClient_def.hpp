@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Net {
-class Authorization;
+class WebRequest;
 }
 namespace System::Net {
 class IAuthenticationModule;
 }
 namespace System::Net {
-class WebRequest;
+class ICredentials;
 }
 namespace System::Net {
-class ICredentials;
+class Authorization;
 }
 // Forward declare root types
 namespace System::Net {
@@ -85,8 +85,7 @@ static System::Net::Authorization InternalAuthenticate(System::Net::WebRequest w
 /// @brief Method get_AuthenticationType addr 0x28297b0 size 0x40 virtual true final true
  ::StringW get_AuthenticationType() ;
 
-// Ctor Parameters []
-explicit BasicClient() ;
+static System::Net::BasicClient New_ctor() ;
 
 /// @brief Method .ctor addr 0x28286f8 size 0x8 virtual false final false
  void _ctor() ;

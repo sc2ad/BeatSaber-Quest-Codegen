@@ -3,17 +3,17 @@
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
 }
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
 namespace Unity::Profiling {
 struct ProfilerMarker;
-}
-namespace System {
-class IDisposable;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

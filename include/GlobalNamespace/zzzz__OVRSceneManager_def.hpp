@@ -17,58 +17,66 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneManager__RoomLayoutInformation;
 }
 namespace GlobalNamespace {
 class OVRCameraRig;
 }
 namespace System {
-class Action;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
+struct Guid;
 }
 namespace GlobalNamespace {
-class OVRScenePrefabOverride;
-}
-namespace UnityEngine {
-class Transform;
+class GlobalNamespace__OVRSceneManager__Development;
 }
 namespace GlobalNamespace {
-struct OVRSpace;
+class GlobalNamespace__OVRSceneManager__Classification;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__SpaceComponentType;
+class GlobalNamespace__OVRSceneManager____c__DisplayClass47_0;
 }
 namespace GlobalNamespace {
-class OVRSceneAnchor;
+struct GlobalNamespace__OVRSceneManager__QueryMode;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSceneManager__LogForwarder;
 }
 namespace System {
-struct Guid;
+class Action;
+}
+namespace GlobalNamespace {
+struct OVRSpace;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace GlobalNamespace {
+class OVRSceneAnchor;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__SpaceQueryResult;
@@ -76,6 +84,19 @@ struct GlobalNamespace__OVRPlugin__SpaceQueryResult;
 namespace System {
 template<typename T>
 class Comparison_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceComponentType;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class OVRScenePrefabOverride;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -267,8 +288,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::OVRScenePlane> _
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRSceneManager__RoomLayoutInformation() ;
+static GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation New_ctor() ;
 
 /// @brief Method .ctor addr 0x260618c size 0x7c virtual false final false
  void _ctor() ;
@@ -329,6 +349,8 @@ __QueryAllRoomLayoutEnabledForRoomBox = 4,
 constexpr operator __GlobalNamespace__OVRSceneManager__QueryMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRSceneManager__QueryMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -557,8 +579,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2609190 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -659,8 +680,7 @@ constexpr bool __get_roomLayoutEnabled() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRSceneManager____c__DisplayClass47_0() ;
+static GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2608848 size 0x8 virtual false final false
  void _ctor() ;
@@ -923,8 +943,7 @@ static bool IsComponentEnabled(GlobalNamespace::OVRSpace space, GlobalNamespace:
 /// @brief Method ProcessQueryResult addr 0x2607e08 size 0x88c virtual false final false
  void ProcessQueryResult(GlobalNamespace::GlobalNamespace__OVRPlugin__SpaceQueryResult queryResult) ;
 
-// Ctor Parameters []
-explicit OVRSceneManager() ;
+static GlobalNamespace::OVRSceneManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x26088cc size 0x19c virtual false final false
  void _ctor() ;

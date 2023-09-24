@@ -1,7 +1,7 @@
 #pragma once
 #include "System/ComponentModel/zzzz__IComponent_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/ComponentModel/zzzz__ISite_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::ComponentModel::IComponent.get_Site
 template<>
 

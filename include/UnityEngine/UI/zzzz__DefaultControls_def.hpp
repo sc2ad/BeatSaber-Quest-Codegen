@@ -6,14 +6,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UI {
-class Selectable;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__DefaultControls__Resources;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__DefaultControls__DefaultRuntimeFactory;
 }
 namespace UnityEngine {
 struct Color;
@@ -22,7 +22,16 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::UI {
+class UnityEngine__UI__DefaultControls__IFactoryControls;
+}
+namespace UnityEngine::UI {
 class Text;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UI {
+class Selectable;
 }
 namespace UnityEngine {
 class Sprite;
@@ -122,8 +131,7 @@ static UnityEngine::UI::UnityEngine__UI__DefaultControls__IFactoryControls __get
 /// @brief Method CreateGameObject addr 0x2bdee98 size 0x74 virtual true final true
  UnityEngine::GameObject CreateGameObject(::StringW name, ::ArrayW<System::Type> components) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UI__DefaultControls__DefaultRuntimeFactory() ;
+static UnityEngine::UI::UnityEngine__UI__DefaultControls__DefaultRuntimeFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bdef0c size 0x8 virtual false final false
  void _ctor() ;

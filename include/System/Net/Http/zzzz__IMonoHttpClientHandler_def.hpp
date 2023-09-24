@@ -1,26 +1,26 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace System {
-class IDisposable;
+namespace System::Net::Http {
+class HttpResponseMessage;
+}
+namespace System::Net::Http {
+class HttpRequestMessage;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Net::Http {
-class HttpResponseMessage;
+namespace System {
+struct TimeSpan;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System {
+class IDisposable;
 }
 namespace System::Net::Security {
 class SslClientAuthenticationOptions;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
-}
-namespace System {
-struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Net::Http {

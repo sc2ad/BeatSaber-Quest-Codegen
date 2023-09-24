@@ -53,8 +53,7 @@ constexpr explicit Base64(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit Base64() ;
+static Org::BouncyCastle::Utilities::Encoders::Base64 New_ctor() ;
 
 /// @brief Method .ctor addr 0x10cf860 size 0x8 virtual false final false
  void _ctor() ;

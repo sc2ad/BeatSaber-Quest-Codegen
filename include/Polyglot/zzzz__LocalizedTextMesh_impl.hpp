@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Polyglot/zzzz__LocalizedTextMesh_def.hpp"
-#include "Polyglot/zzzz__ILocalize_def.hpp"
-#include "UnityEngine/zzzz__TextMesh_def.hpp"
 #include "UnityEngine/zzzz__TextAlignment_def.hpp"
+#include "Polyglot/zzzz__ILocalize_def.hpp"
 #include "Polyglot/zzzz__LanguageDirection_def.hpp"
+#include "UnityEngine/zzzz__TextMesh_def.hpp"
 //  Writing Method size for method: Polyglot::LocalizedTextMesh.get_Key
 template<>
 
@@ -220,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, alignment);
 }
-// Ctor Parameters []
- Polyglot::LocalizedTextMesh::LocalizedTextMesh()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LocalizedTextMesh>())) {}
+ Polyglot::LocalizedTextMesh Polyglot::LocalizedTextMesh::New_ctor()  {
+Polyglot::LocalizedTextMesh o{THROW_UNLESS(::il2cpp_utils::New<Polyglot::LocalizedTextMesh>())};
+return o;
+}
  void Polyglot::LocalizedTextMesh::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Polyglot::LocalizedTextMesh>::get(),

@@ -3,30 +3,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
-}
-namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformation;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::ObjectModel {
 template<typename T>
 class Collection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Net::NetworkInformation {
+class GatewayIPAddressInformation;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class ICollection_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -99,8 +99,7 @@ constexpr System::Collections::ObjectModel::Collection_1<System::Net::NetworkInf
 
 // Methods
 
-// Ctor Parameters []
-explicit GatewayIPAddressInformationCollection() ;
+static System::Net::NetworkInformation::GatewayIPAddressInformationCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x28588ec size 0x7c virtual false final false
  void _ctor() ;

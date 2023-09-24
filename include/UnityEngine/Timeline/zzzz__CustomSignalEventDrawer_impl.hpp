@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Timeline::CustomSignalEventDrawer::CustomSignalEventDrawer()  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<CustomSignalEventDrawer>())) {}
+ UnityEngine::Timeline::CustomSignalEventDrawer UnityEngine::Timeline::CustomSignalEventDrawer::New_ctor()  {
+UnityEngine::Timeline::CustomSignalEventDrawer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::CustomSignalEventDrawer>())};
+return o;
+}
  void UnityEngine::Timeline::CustomSignalEventDrawer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::CustomSignalEventDrawer>::get(),

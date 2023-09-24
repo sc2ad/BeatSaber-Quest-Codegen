@@ -47,8 +47,7 @@ constexpr explicit XmlSchemaSimpleTypeContent(void* ptr) noexcept : System::Xml:
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlSchemaSimpleTypeContent() ;
+static System::Xml::Schema::XmlSchemaSimpleTypeContent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2735788 size 0x8 virtual false final false
  void _ctor() ;

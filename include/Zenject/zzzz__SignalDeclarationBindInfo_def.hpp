@@ -100,8 +100,7 @@ constexpr Zenject::SignalMissingHandlerResponses __get__MissingHandlerResponse_k
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit SignalDeclarationBindInfo(System::Type signalType) ;
+static Zenject::SignalDeclarationBindInfo New_ctor(System::Type signalType) ;
 
 /// @brief Method .ctor addr 0x2d48f58 size 0x28 virtual false final false
  void _ctor(System::Type signalType) ;

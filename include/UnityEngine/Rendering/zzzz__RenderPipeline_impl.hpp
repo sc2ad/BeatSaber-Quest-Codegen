@@ -1,9 +1,8 @@
 #pragma once
 #include "UnityEngine/Rendering/zzzz__RenderPipeline_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::Rendering::RenderPipeline.Render
 template<>
 

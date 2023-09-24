@@ -1,16 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDHKeyExchange_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDheKeyExchange_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__SignatureAndHashAlgorithm_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSignerCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SecurityParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDHVerifier_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDHVerifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__SignatureAndHashAlgorithm_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange._ctor
 template<>
 
@@ -119,8 +119,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange::__set_mServerC
 constexpr Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange::__get_mServerCredentials() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "dhParameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange::TlsDheKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters)  : Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange(THROW_UNLESS(::il2cpp_utils::New<TlsDheKeyExchange>(keyExchange, supportedSignatureAlgorithms, dhParameters))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange::New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters)  {
+Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange>(keyExchange, supportedSignatureAlgorithms, dhParameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange::_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange>::get(),
@@ -130,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyExchange, supportedSignatureAlgorithms, dhParameters);
 }
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "dhVerifier", ty: "Org::BouncyCastle::Crypto::Tls::TlsDHVerifier", modifiers: "", def_value: None }, CppParam { name: "dhParameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange::TlsDheKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters)  : Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange(THROW_UNLESS(::il2cpp_utils::New<TlsDheKeyExchange>(keyExchange, supportedSignatureAlgorithms, dhVerifier, dhParameters))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange::New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters)  {
+Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange>(keyExchange, supportedSignatureAlgorithms, dhVerifier, dhParameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange::_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange>::get(),

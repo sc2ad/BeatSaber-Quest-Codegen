@@ -7,10 +7,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Text {
-class Decoder;
+class System__Text__UTF32Encoding__UTF32Decoder;
 }
 namespace System::Text {
-class Encoder;
+class EncoderNLS;
 }
 namespace System {
 template<typename T>
@@ -20,7 +20,10 @@ namespace System::Text {
 class DecoderNLS;
 }
 namespace System::Text {
-class EncoderNLS;
+class Decoder;
+}
+namespace System::Text {
+class Encoder;
 }
 // Forward declare root types
 namespace System::Text {
@@ -91,8 +94,7 @@ constexpr int32_t __get_readByteCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF32Encoding", modifiers: "", def_value: None }]
-explicit System__Text__UTF32Encoding__UTF32Decoder(System::Text::UTF32Encoding encoding) ;
+static System::Text::System__Text__UTF32Encoding__UTF32Decoder New_ctor(System::Text::UTF32Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x22d2414 size 0x8 virtual false final false
  void _ctor(System::Text::UTF32Encoding encoding) ;
@@ -201,20 +203,17 @@ constexpr bool __get__bigEndian() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UTF32Encoding() ;
+static System::Text::UTF32Encoding New_ctor() ;
 
 /// @brief Method .ctor addr 0x22d037c size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bigEndian", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "byteOrderMark", ty: "bool", modifiers: "", def_value: None }]
-explicit UTF32Encoding(bool bigEndian, bool byteOrderMark) ;
+static System::Text::UTF32Encoding New_ctor(bool bigEndian, bool byteOrderMark) ;
 
 /// @brief Method .ctor addr 0x22d0414 size 0x40 virtual false final false
  void _ctor(bool bigEndian, bool byteOrderMark) ;
 
-// Ctor Parameters [CppParam { name: "bigEndian", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "byteOrderMark", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "throwOnInvalidCharacters", ty: "bool", modifiers: "", def_value: None }]
-explicit UTF32Encoding(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCharacters) ;
+static System::Text::UTF32Encoding New_ctor(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCharacters) ;
 
 /// @brief Method .ctor addr 0x22d03a4 size 0x70 virtual false final false
  void _ctor(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCharacters) ;

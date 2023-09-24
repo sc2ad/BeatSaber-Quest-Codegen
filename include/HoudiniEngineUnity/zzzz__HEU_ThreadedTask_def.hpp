@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Threading {
-class Thread;
+struct ThreadPriority;
 }
 namespace System::Threading {
-struct ThreadPriority;
+class Thread;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -183,8 +183,7 @@ constexpr ::StringW __get__name() const;
 /// @brief Method set_IsBackground addr 0x203ac90 size 0xc virtual false final false
  void set_IsBackground(bool value) ;
 
-// Ctor Parameters []
-explicit HEU_ThreadedTask() ;
+static HoudiniEngineUnity::HEU_ThreadedTask New_ctor() ;
 
 /// @brief Method .ctor addr 0x203ac9c size 0x70 virtual false final false
  void _ctor() ;

@@ -3,19 +3,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Color;
+class GameObject;
+}
+namespace UnityEngine::Tilemaps {
+struct UnityEngine__Tilemaps__Tile__ColliderType;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine::Tilemaps {
-struct UnityEngine__Tilemaps__Tile__ColliderType;
-}
-namespace UnityEngine::Tilemaps {
 struct TileFlags;
 }
 namespace UnityEngine {
-class GameObject;
+struct Color;
 }
 namespace UnityEngine {
 class Sprite;

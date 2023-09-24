@@ -460,8 +460,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::KeccakDigest::__set_squeezing
 constexpr bool Org::BouncyCastle::Crypto::Digests::KeccakDigest::__get_squeezing() const {
 return ::cordl_internals::getInstanceField<bool, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::KeccakDigest::KeccakDigest()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeccakDigest>())) {}
+ Org::BouncyCastle::Crypto::Digests::KeccakDigest Org::BouncyCastle::Crypto::Digests::KeccakDigest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::KeccakDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::KeccakDigest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::KeccakDigest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::KeccakDigest>::get(),
@@ -471,8 +473,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bitLength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::KeccakDigest::KeccakDigest(int32_t bitLength)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeccakDigest>(bitLength))) {}
+ Org::BouncyCastle::Crypto::Digests::KeccakDigest Org::BouncyCastle::Crypto::Digests::KeccakDigest::New_ctor(int32_t bitLength)  {
+Org::BouncyCastle::Crypto::Digests::KeccakDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::KeccakDigest>(bitLength))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::KeccakDigest::_ctor(int32_t bitLength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::KeccakDigest>::get(),
@@ -482,8 +486,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bitLength);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "Org::BouncyCastle::Crypto::Digests::KeccakDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::KeccakDigest::KeccakDigest(Org::BouncyCastle::Crypto::Digests::KeccakDigest source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeccakDigest>(source))) {}
+ Org::BouncyCastle::Crypto::Digests::KeccakDigest Org::BouncyCastle::Crypto::Digests::KeccakDigest::New_ctor(Org::BouncyCastle::Crypto::Digests::KeccakDigest source)  {
+Org::BouncyCastle::Crypto::Digests::KeccakDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::KeccakDigest>(source))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::KeccakDigest::_ctor(Org::BouncyCastle::Crypto::Digests::KeccakDigest source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::KeccakDigest>::get(),

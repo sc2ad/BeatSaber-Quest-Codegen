@@ -7,14 +7,14 @@
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IWrapper;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -97,8 +97,7 @@ constexpr ::ArrayW<uint8_t> __get_iv() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit Rfc3394WrapEngine(Org::BouncyCastle::Crypto::IBlockCipher engine) ;
+static Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine) ;
 
 /// @brief Method .ctor addr 0xe2fb48 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher engine) ;

@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-struct Span_1;
+namespace System::Globalization {
+class NumberFormatInfo;
 }
 namespace System::Numerics {
 struct BigInteger;
 }
-namespace System::Globalization {
-class NumberFormatInfo;
-}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
+}
+namespace System {
+template<typename T>
+struct Span_1;
 }
 // Forward declare root types
 namespace System::Numerics {

@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml {
-struct XmlStandalone;
-}
-namespace System::Xml {
 class XmlWriterSettings;
 }
 namespace System::IO {
-class TextWriter;
+class Stream;
+}
+namespace System::Xml {
+struct XmlStandalone;
 }
 namespace System::IO {
-class Stream;
+class TextWriter;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -67,14 +67,12 @@ constexpr explicit TextEncodedRawTextWriter(void* ptr) noexcept : System::Xml::X
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit TextEncodedRawTextWriter(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::TextEncodedRawTextWriter New_ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26c20a4 size 0x4 virtual false final false
  void _ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit TextEncodedRawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::TextEncodedRawTextWriter New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26c20a8 size 0x4 virtual false final false
  void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;

@@ -67,8 +67,10 @@ constexpr void Oculus::Platform::Models::LaunchDetails::__set_Users(Oculus::Plat
 constexpr Oculus::Platform::Models::UserList Oculus::Platform::Models::LaunchDetails::__get_Users() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Models::UserList, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::LaunchDetails::LaunchDetails(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LaunchDetails>(o))) {}
+ Oculus::Platform::Models::LaunchDetails Oculus::Platform::Models::LaunchDetails::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::LaunchDetails o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::LaunchDetails>(o))};
+return o;
+}
  void Oculus::Platform::Models::LaunchDetails::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::LaunchDetails>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 namespace System::Xml {
-class IDtdParserAdapterWithValidation;
+class IDtdParserAdapter;
 }
 namespace System::Xml {
-class IDtdParserAdapter;
+class IDtdParserAdapterWithValidation;
 }
 // Forward declare root types
 namespace System::Xml {

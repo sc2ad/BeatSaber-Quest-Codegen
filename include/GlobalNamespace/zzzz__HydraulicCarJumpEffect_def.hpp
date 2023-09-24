@@ -4,27 +4,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace UnityEngine {
-class Rigidbody;
+struct Vector3;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
+}
+namespace UnityEngine {
+class Rigidbody;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -150,8 +150,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method HandleBeatmapEvent addr 0x20adbdc size 0x11c virtual false final false
  void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
-// Ctor Parameters []
-explicit HydraulicCarJumpEffect() ;
+static GlobalNamespace::HydraulicCarJumpEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20adcf8 size 0x1c virtual false final false
  void _ctor() ;

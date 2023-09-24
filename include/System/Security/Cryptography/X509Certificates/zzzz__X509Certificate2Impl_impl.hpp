@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Impl_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509NameType_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X500DistinguishedName_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImplCollection_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImplCollection_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_Extensions
 template<>
 
@@ -340,8 +340,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Security::Cryptography::X509Certificates::X509CertificateImpl, false>(const_cast<void*>(instance), ___internal_method, privateKey);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509Certificate2Impl::X509Certificate2Impl()  : System::Security::Cryptography::X509Certificates::X509CertificateImpl(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2Impl>())) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2Impl System::Security::Cryptography::X509Certificates::X509Certificate2Impl::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509Certificate2Impl o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2Impl>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2Impl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2Impl>::get(),

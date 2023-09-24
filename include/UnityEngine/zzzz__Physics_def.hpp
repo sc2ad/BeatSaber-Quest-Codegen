@@ -5,11 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
+}
 namespace UnityEngine {
 struct ModifiableContactPair;
 }
 namespace UnityEngine {
-struct Vector3;
+class Collider;
 }
 namespace UnityEngine {
 struct RaycastHit;
@@ -17,25 +21,21 @@ struct RaycastHit;
 namespace UnityEngine {
 struct Quaternion;
 }
+namespace UnityEngine {
+struct Ray;
+}
+namespace UnityEngine {
+struct PhysicsScene;
+}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace UnityEngine {
-class Collider;
+struct Vector3;
 }
 namespace UnityEngine {
 struct QueryTriggerInteraction;
-}
-namespace UnityEngine {
-struct Ray;
-}
-namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
-}
-namespace UnityEngine {
-struct PhysicsScene;
 }
 // Forward declare root types
 namespace UnityEngine {

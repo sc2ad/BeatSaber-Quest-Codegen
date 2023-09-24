@@ -7,6 +7,9 @@
 namespace System {
 class FormattableString;
 }
+namespace System::Net {
+class System__Net__NetEventSource__Keywords;
+}
 namespace System::Diagnostics::Tracing {
 struct EventKeywords;
 }
@@ -196,8 +199,7 @@ static ::StringW Format(System::FormattableString s) ;
 /// @brief Method WriteEvent addr 0x27f8908 size 0x20c virtual false final false
  void WriteEvent(int32_t eventId, ::StringW arg1, ::StringW arg2, ::StringW arg3, ::StringW arg4) ;
 
-// Ctor Parameters []
-explicit NetEventSource() ;
+static System::Net::NetEventSource New_ctor() ;
 
 /// @brief Method .ctor addr 0x27f8b28 size 0x8 virtual false final false
  void _ctor() ;

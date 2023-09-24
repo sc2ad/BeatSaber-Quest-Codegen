@@ -60,8 +60,7 @@ static constexpr ::ConstString  ZLib{u"1.2.840.113549.1.9.16.3.8"};
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsCompressedDataGenerator() ;
+static Org::BouncyCastle::Cms::CmsCompressedDataGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1152990 size 0x8 virtual false final false
  void _ctor() ;

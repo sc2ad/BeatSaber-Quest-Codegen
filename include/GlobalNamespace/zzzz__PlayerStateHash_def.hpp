@@ -7,25 +7,25 @@
 #include <cstddef>
 #include <cstdint>
 namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+template<typename T>
+class INetImmutableSerializable_1;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
+namespace GlobalNamespace {
+struct BitMask128;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
-}
-namespace LiteNetLib::Utils {
-template<typename T>
-class INetImmutableSerializable_1;
-}
-namespace GlobalNamespace {
-struct BitMask128;
 }
 // Forward declare root types
 namespace GlobalNamespace {

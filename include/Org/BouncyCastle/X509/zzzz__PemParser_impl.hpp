@@ -77,8 +77,10 @@ constexpr void Org::BouncyCastle::X509::PemParser::__set__footer2(::StringW valu
 constexpr ::StringW Org::BouncyCastle::X509::PemParser::__get__footer2() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::PemParser::PemParser(::StringW type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PemParser>(type))) {}
+ Org::BouncyCastle::X509::PemParser Org::BouncyCastle::X509::PemParser::New_ctor(::StringW type)  {
+Org::BouncyCastle::X509::PemParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::PemParser>(type))};
+return o;
+}
  void Org::BouncyCastle::X509::PemParser::_ctor(::StringW type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::PemParser>::get(),

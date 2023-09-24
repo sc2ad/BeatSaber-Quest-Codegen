@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__NodePoseSyncStateNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__ISyncStateSerializable_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncState_def.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NodePoseSyncStateNetSerializable.get_pool
 template<>
 
@@ -315,8 +315,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::NodePoseSyncStateNetSerializable::NodePoseSyncStateNetSerializable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NodePoseSyncStateNetSerializable>())) {}
+ GlobalNamespace::NodePoseSyncStateNetSerializable GlobalNamespace::NodePoseSyncStateNetSerializable::New_ctor()  {
+GlobalNamespace::NodePoseSyncStateNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NodePoseSyncStateNetSerializable>())};
+return o;
+}
  void GlobalNamespace::NodePoseSyncStateNetSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NodePoseSyncStateNetSerializable>::get(),

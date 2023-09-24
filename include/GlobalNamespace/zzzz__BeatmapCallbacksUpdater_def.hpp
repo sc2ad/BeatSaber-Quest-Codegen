@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class IAudioTimeSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 /// @brief Method Resume addr 0x2231fe8 size 0xc virtual false final false
  void Resume() ;
 
-// Ctor Parameters []
-explicit BeatmapCallbacksUpdater() ;
+static GlobalNamespace::BeatmapCallbacksUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2231ff4 size 0x8 virtual false final false
  void _ctor() ;

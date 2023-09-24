@@ -3,19 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace Polyglot {
+class Polyglot__LocalizationImporter____c__DisplayClass8_0;
 }
 namespace Polyglot {
-class Localization;
+struct GoogleDriveDownloadFormat;
+}
+namespace Polyglot {
+class LocalizationDocument;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace Polyglot {
+class Polyglot__LocalizationImporter____c__DisplayClass5_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -25,17 +27,21 @@ namespace Polyglot {
 class LocalizationAsset;
 }
 namespace Polyglot {
-struct GoogleDriveDownloadFormat;
+class Localization;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Polyglot {
 struct Language;
 }
-namespace Polyglot {
-class LocalizationDocument;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -98,8 +104,7 @@ constexpr Polyglot::Localization __get_settings() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Polyglot__LocalizationImporter____c__DisplayClass5_0() ;
+static Polyglot::Polyglot__LocalizationImporter____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x26730ac size 0x8 virtual false final false
  void _ctor() ;
@@ -162,8 +167,7 @@ constexpr Polyglot::Localization __get_settings() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Polyglot__LocalizationImporter____c__DisplayClass8_0() ;
+static Polyglot::Polyglot__LocalizationImporter____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2673964 size 0x8 virtual false final false
  void _ctor() ;

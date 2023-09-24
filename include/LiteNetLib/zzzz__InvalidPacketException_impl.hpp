@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- LiteNetLib::InvalidPacketException::InvalidPacketException()  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<InvalidPacketException>())) {}
+ LiteNetLib::InvalidPacketException LiteNetLib::InvalidPacketException::New_ctor()  {
+LiteNetLib::InvalidPacketException o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::InvalidPacketException>())};
+return o;
+}
  void LiteNetLib::InvalidPacketException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::InvalidPacketException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- LiteNetLib::InvalidPacketException::InvalidPacketException(::StringW message)  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<InvalidPacketException>(message))) {}
+ LiteNetLib::InvalidPacketException LiteNetLib::InvalidPacketException::New_ctor(::StringW message)  {
+LiteNetLib::InvalidPacketException o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::InvalidPacketException>(message))};
+return o;
+}
  void LiteNetLib::InvalidPacketException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::InvalidPacketException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- LiteNetLib::InvalidPacketException::InvalidPacketException(::StringW message, System::Exception innerException)  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<InvalidPacketException>(message, innerException))) {}
+ LiteNetLib::InvalidPacketException LiteNetLib::InvalidPacketException::New_ctor(::StringW message, System::Exception innerException)  {
+LiteNetLib::InvalidPacketException o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::InvalidPacketException>(message, innerException))};
+return o;
+}
  void LiteNetLib::InvalidPacketException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::InvalidPacketException>::get(),

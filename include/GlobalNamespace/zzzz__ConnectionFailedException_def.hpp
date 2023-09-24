@@ -60,14 +60,12 @@ constexpr GlobalNamespace::ConnectionFailedReason __get_reason() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reason", ty: "GlobalNamespace::ConnectionFailedReason", modifiers: "", def_value: None }]
-explicit ConnectionFailedException(GlobalNamespace::ConnectionFailedReason reason) ;
+static GlobalNamespace::ConnectionFailedException New_ctor(GlobalNamespace::ConnectionFailedReason reason) ;
 
 /// @brief Method .ctor addr 0xda533c size 0x6c virtual false final false
  void _ctor(GlobalNamespace::ConnectionFailedReason reason) ;
 
-// Ctor Parameters [CppParam { name: "reason", ty: "GlobalNamespace::ConnectionFailedReason", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ConnectionFailedException(GlobalNamespace::ConnectionFailedReason reason, ::StringW message) ;
+static GlobalNamespace::ConnectionFailedException New_ctor(GlobalNamespace::ConnectionFailedReason reason, ::StringW message) ;
 
 /// @brief Method .ctor addr 0xda53a8 size 0x74 virtual false final false
  void _ctor(GlobalNamespace::ConnectionFailedReason reason, ::StringW message) ;

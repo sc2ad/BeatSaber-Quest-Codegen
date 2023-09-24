@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -65,8 +65,7 @@ static Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper __get_Instanc
 
 // Methods
 
-// Ctor Parameters []
-explicit DHKeyGeneratorHelper() ;
+static Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0xe6b500 size 0x8 virtual false final false
  void _ctor() ;

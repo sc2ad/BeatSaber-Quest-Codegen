@@ -6,17 +6,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__IKSolver__Point;
 }
-namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__Bone;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Bone;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -179,8 +179,7 @@ constexpr float_t __get_chainLength() const;
 /// @brief Method SingularityDetected addr 0x11df394 size 0x294 virtual false final false
  bool SingularityDetected() ;
 
-// Ctor Parameters []
-explicit IKSolverHeuristic() ;
+static RootMotion::FinalIK::IKSolverHeuristic New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d5ccc size 0x74 virtual false final false
  void _ctor() ;

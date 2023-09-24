@@ -1,21 +1,36 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Type;
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo;
+}
+namespace System {
+class Type;
+}
 namespace System::Reflection {
 class ConstructorInfo;
 }
-namespace System::Reflection {
-class FieldInfo;
-}
 namespace Zenject {
 class InjectableInfo;
+}
+namespace System::Reflection {
+class FieldInfo;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -102,8 +117,7 @@ constexpr Zenject::InjectableInfo __get_InjectableInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fieldInfo", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "injectableInfo", ty: "Zenject::InjectableInfo", modifiers: "", def_value: None }]
-explicit Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo(System::Reflection::FieldInfo fieldInfo, Zenject::InjectableInfo injectableInfo) ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo New_ctor(System::Reflection::FieldInfo fieldInfo, Zenject::InjectableInfo injectableInfo) ;
 
 /// @brief Method .ctor addr 0x2da9cc0 size 0x2c virtual false final false
  void _ctor(System::Reflection::FieldInfo fieldInfo, Zenject::InjectableInfo injectableInfo) ;
@@ -169,8 +183,7 @@ constexpr Zenject::InjectableInfo __get_InjectableInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parameterInfo", ty: "System::Reflection::ParameterInfo", modifiers: "", def_value: None }, CppParam { name: "injectableInfo", ty: "Zenject::InjectableInfo", modifiers: "", def_value: None }]
-explicit Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo(System::Reflection::ParameterInfo parameterInfo, Zenject::InjectableInfo injectableInfo) ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo New_ctor(System::Reflection::ParameterInfo parameterInfo, Zenject::InjectableInfo injectableInfo) ;
 
 /// @brief Method .ctor addr 0x2da9cec size 0x2c virtual false final false
  void _ctor(System::Reflection::ParameterInfo parameterInfo, Zenject::InjectableInfo injectableInfo) ;
@@ -236,8 +249,7 @@ constexpr Zenject::InjectableInfo __get_InjectableInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "propertyInfo", ty: "System::Reflection::PropertyInfo", modifiers: "", def_value: None }, CppParam { name: "injectableInfo", ty: "Zenject::InjectableInfo", modifiers: "", def_value: None }]
-explicit Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo(System::Reflection::PropertyInfo propertyInfo, Zenject::InjectableInfo injectableInfo) ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo New_ctor(System::Reflection::PropertyInfo propertyInfo, Zenject::InjectableInfo injectableInfo) ;
 
 /// @brief Method .ctor addr 0x2da9d18 size 0x2c virtual false final false
  void _ctor(System::Reflection::PropertyInfo propertyInfo, Zenject::InjectableInfo injectableInfo) ;
@@ -303,8 +315,7 @@ constexpr System::Collections::Generic::List_1<Zenject::Internal::Zenject__Inter
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "methodInfo", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo>", modifiers: "", def_value: None }]
-explicit Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo(System::Reflection::MethodInfo methodInfo, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo> parameters) ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo New_ctor(System::Reflection::MethodInfo methodInfo, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo> parameters) ;
 
 /// @brief Method .ctor addr 0x2da9d44 size 0x2c virtual false final false
  void _ctor(System::Reflection::MethodInfo methodInfo, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo> parameters) ;
@@ -370,8 +381,7 @@ constexpr System::Collections::Generic::List_1<Zenject::Internal::Zenject__Inter
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "constructorInfo", ty: "System::Reflection::ConstructorInfo", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo>", modifiers: "", def_value: None }]
-explicit Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo(System::Reflection::ConstructorInfo constructorInfo, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo> parameters) ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo New_ctor(System::Reflection::ConstructorInfo constructorInfo, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo> parameters) ;
 
 /// @brief Method .ctor addr 0x2da9d70 size 0x2c virtual false final false
  void _ctor(System::Reflection::ConstructorInfo constructorInfo, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo> parameters) ;
@@ -471,8 +481,7 @@ constexpr System::Collections::Generic::List_1<Zenject::Internal::Zenject__Inter
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "baseType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "injectConstructor", ty: "Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo", modifiers: "", def_value: None }, CppParam { name: "injectMethods", ty: "System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo>", modifiers: "", def_value: None }, CppParam { name: "injectFields", ty: "System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo>", modifiers: "", def_value: None }, CppParam { name: "injectProperties", ty: "System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo>", modifiers: "", def_value: None }]
-explicit ReflectionTypeInfo(System::Type type, System::Type baseType, Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo injectConstructor, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo> injectMethods, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo> injectFields, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo> injectProperties) ;
+static Zenject::Internal::ReflectionTypeInfo New_ctor(System::Type type, System::Type baseType, Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo injectConstructor, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo> injectMethods, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo> injectFields, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo> injectProperties) ;
 
 /// @brief Method .ctor addr 0x2da9c6c size 0x54 virtual false final false
  void _ctor(System::Type type, System::Type baseType, Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo injectConstructor, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo> injectMethods, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo> injectFields, System::Collections::Generic::List_1<Zenject::Internal::Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo> injectProperties) ;

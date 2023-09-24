@@ -1,22 +1,18 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MirroredBeatmapObjectManager_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredBombNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredBombNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__SliderController_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredBombNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__SliderController_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredObstacleController_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MirroredBeatmapObjectManager.Init
 template<>
 
@@ -340,8 +336,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, hide);
 }
-// Ctor Parameters []
- GlobalNamespace::MirroredBeatmapObjectManager::MirroredBeatmapObjectManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MirroredBeatmapObjectManager>())) {}
+ GlobalNamespace::MirroredBeatmapObjectManager GlobalNamespace::MirroredBeatmapObjectManager::New_ctor()  {
+GlobalNamespace::MirroredBeatmapObjectManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MirroredBeatmapObjectManager>())};
+return o;
+}
  void GlobalNamespace::MirroredBeatmapObjectManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MirroredBeatmapObjectManager>::get(),

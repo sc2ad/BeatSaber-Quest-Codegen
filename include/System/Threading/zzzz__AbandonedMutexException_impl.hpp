@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Threading/zzzz__AbandonedMutexException_def.hpp"
-#include "System/Threading/zzzz__Mutex_def.hpp"
-#include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Threading/zzzz__Mutex_def.hpp"
+#include "System/Threading/zzzz__WaitHandle_def.hpp"
 //  Writing Method size for method: System::Threading::AbandonedMutexException._ctor
 template<>
 
@@ -85,8 +85,10 @@ constexpr void System::Threading::AbandonedMutexException::__set__mutex(System::
 constexpr System::Threading::Mutex System::Threading::AbandonedMutexException::__get__mutex() const {
 return ::cordl_internals::getInstanceField<System::Threading::Mutex, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Threading::AbandonedMutexException::AbandonedMutexException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<AbandonedMutexException>())) {}
+ System::Threading::AbandonedMutexException System::Threading::AbandonedMutexException::New_ctor()  {
+System::Threading::AbandonedMutexException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::AbandonedMutexException>())};
+return o;
+}
  void System::Threading::AbandonedMutexException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::AbandonedMutexException>::get(),
@@ -96,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "location", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "handle", ty: "System::Threading::WaitHandle", modifiers: "", def_value: None }]
- System::Threading::AbandonedMutexException::AbandonedMutexException(int32_t location, System::Threading::WaitHandle handle)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<AbandonedMutexException>(location, handle))) {}
+ System::Threading::AbandonedMutexException System::Threading::AbandonedMutexException::New_ctor(int32_t location, System::Threading::WaitHandle handle)  {
+System::Threading::AbandonedMutexException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::AbandonedMutexException>(location, handle))};
+return o;
+}
  void System::Threading::AbandonedMutexException::_ctor(int32_t location, System::Threading::WaitHandle handle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::AbandonedMutexException>::get(),
@@ -107,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, location, handle);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Threading::AbandonedMutexException::AbandonedMutexException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<AbandonedMutexException>(info, context))) {}
+ System::Threading::AbandonedMutexException System::Threading::AbandonedMutexException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Threading::AbandonedMutexException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::AbandonedMutexException>(info, context))};
+return o;
+}
  void System::Threading::AbandonedMutexException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::AbandonedMutexException>::get(),

@@ -65,8 +65,10 @@ constexpr void GlobalNamespace::ResetPitchOnGameplayFinished::__set__audioManage
 constexpr GlobalNamespace::AudioManagerSO GlobalNamespace::ResetPitchOnGameplayFinished::__get__audioManager() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::AudioManagerSO, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "gameplayLevelSceneTransitionEvents", ty: "GlobalNamespace::GameplayLevelSceneTransitionEvents", modifiers: "", def_value: None }, CppParam { name: "audioManager", ty: "GlobalNamespace::AudioManagerSO", modifiers: "", def_value: None }]
- GlobalNamespace::ResetPitchOnGameplayFinished::ResetPitchOnGameplayFinished(GlobalNamespace::GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO audioManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResetPitchOnGameplayFinished>(gameplayLevelSceneTransitionEvents, audioManager))) {}
+ GlobalNamespace::ResetPitchOnGameplayFinished GlobalNamespace::ResetPitchOnGameplayFinished::New_ctor(GlobalNamespace::GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO audioManager)  {
+GlobalNamespace::ResetPitchOnGameplayFinished o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ResetPitchOnGameplayFinished>(gameplayLevelSceneTransitionEvents, audioManager))};
+return o;
+}
  void GlobalNamespace::ResetPitchOnGameplayFinished::_ctor(GlobalNamespace::GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO audioManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ResetPitchOnGameplayFinished>::get(),

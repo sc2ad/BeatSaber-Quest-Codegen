@@ -97,14 +97,12 @@ static ::ArrayW<uint32_t> __get_T() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit SM3Digest() ;
+static Org::BouncyCastle::Crypto::Digests::SM3Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0xe1b9ac size 0x8c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::SM3Digest", modifiers: "", def_value: None }]
-explicit SM3Digest(Org::BouncyCastle::Crypto::Digests::SM3Digest t) ;
+static Org::BouncyCastle::Crypto::Digests::SM3Digest New_ctor(Org::BouncyCastle::Crypto::Digests::SM3Digest t) ;
 
 /// @brief Method .ctor addr 0xe1ba38 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::SM3Digest t) ;

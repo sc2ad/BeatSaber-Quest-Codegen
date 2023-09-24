@@ -6,14 +6,20 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class StyleSelector;
+struct UnityEngine__UIElements__StyleComplexSelector__PseudoStateData;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
+class StyleSelector;
+}
+namespace UnityEngine::UIElements {
 class StyleRule;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__StyleComplexSelector____c;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -154,8 +160,7 @@ static System::Func_2<UnityEngine::UIElements::StyleSelector,::StringW> __get___
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__StyleComplexSelector____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__StyleComplexSelector____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf248c size 0x8 virtual false final false
  void _ctor() ;
@@ -288,8 +293,7 @@ static System::Collections::Generic::Dictionary_2<::StringW,UnityEngine::UIEleme
 /// @brief Method ToString addr 0x2cf22b0 size 0x170 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit StyleComplexSelector() ;
+static UnityEngine::UIElements::StyleComplexSelector New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf2420 size 0x8 virtual false final false
  void _ctor() ;

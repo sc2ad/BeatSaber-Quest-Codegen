@@ -30,8 +30,10 @@ constexpr void UnityEngine::ContextMenuItemAttribute::__set_function(::StringW v
 constexpr ::StringW UnityEngine::ContextMenuItemAttribute::__get_function() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "function", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::ContextMenuItemAttribute::ContextMenuItemAttribute(::StringW name, ::StringW function)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<ContextMenuItemAttribute>(name, function))) {}
+ UnityEngine::ContextMenuItemAttribute UnityEngine::ContextMenuItemAttribute::New_ctor(::StringW name, ::StringW function)  {
+UnityEngine::ContextMenuItemAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ContextMenuItemAttribute>(name, function))};
+return o;
+}
  void UnityEngine::ContextMenuItemAttribute::_ctor(::StringW name, ::StringW function)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ContextMenuItemAttribute>::get(),

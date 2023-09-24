@@ -47,8 +47,7 @@ constexpr explicit CompilerGeneratedAttribute(void* ptr) noexcept : System::Attr
 
 // Methods
 
-// Ctor Parameters []
-explicit CompilerGeneratedAttribute() ;
+static System::Runtime::CompilerServices::CompilerGeneratedAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236da0c size 0x8 virtual false final false
  void _ctor() ;

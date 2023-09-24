@@ -2,27 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace System {
-class Type;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class InjectContext;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Zenject {
 class IPrefabInstantiator;
 }
+namespace Zenject {
+class InjectContext;
+}
 namespace System {
-class Action;
+class Type;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+class IProvider;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace Zenject {
@@ -101,8 +101,7 @@ constexpr bool __get__matchSingle() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "prefabInstantiator", ty: "Zenject::IPrefabInstantiator", modifiers: "", def_value: None }, CppParam { name: "matchSingle", ty: "bool", modifiers: "", def_value: None }]
-explicit GetFromPrefabComponentProvider(System::Type componentType, Zenject::IPrefabInstantiator prefabInstantiator, bool matchSingle) ;
+static Zenject::GetFromPrefabComponentProvider New_ctor(System::Type componentType, Zenject::IPrefabInstantiator prefabInstantiator, bool matchSingle) ;
 
 /// @brief Method .ctor addr 0x2d8dba0 size 0x3c virtual false final false
  void _ctor(System::Type componentType, Zenject::IPrefabInstantiator prefabInstantiator, bool matchSingle) ;

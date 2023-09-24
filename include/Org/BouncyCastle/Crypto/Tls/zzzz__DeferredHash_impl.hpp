@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DeferredHash_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DigestInputBuffer_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::DeferredHash._ctor
 template<>
 
@@ -343,8 +343,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::DeferredHash::__set_mPrfHashAlgor
 constexpr int32_t Org::BouncyCastle::Crypto::Tls::DeferredHash::__get_mPrfHashAlgorithm() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::DeferredHash::DeferredHash()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DeferredHash>())) {}
+ Org::BouncyCastle::Crypto::Tls::DeferredHash Org::BouncyCastle::Crypto::Tls::DeferredHash::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::DeferredHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DeferredHash>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DeferredHash::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DeferredHash>::get(),
@@ -354,8 +356,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "prfHashAlgorithm", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "prfHash", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DeferredHash::DeferredHash(uint8_t prfHashAlgorithm, Org::BouncyCastle::Crypto::IDigest prfHash)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DeferredHash>(prfHashAlgorithm, prfHash))) {}
+ Org::BouncyCastle::Crypto::Tls::DeferredHash Org::BouncyCastle::Crypto::Tls::DeferredHash::New_ctor(uint8_t prfHashAlgorithm, Org::BouncyCastle::Crypto::IDigest prfHash)  {
+Org::BouncyCastle::Crypto::Tls::DeferredHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DeferredHash>(prfHashAlgorithm, prfHash))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DeferredHash::_ctor(uint8_t prfHashAlgorithm, Org::BouncyCastle::Crypto::IDigest prfHash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DeferredHash>::get(),

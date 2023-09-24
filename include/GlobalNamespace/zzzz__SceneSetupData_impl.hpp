@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::SceneSetupData::SceneSetupData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneSetupData>())) {}
+ GlobalNamespace::SceneSetupData GlobalNamespace::SceneSetupData::New_ctor()  {
+GlobalNamespace::SceneSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SceneSetupData>())};
+return o;
+}
  void GlobalNamespace::SceneSetupData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SceneSetupData>::get(),

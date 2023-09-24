@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignaturePacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__MPInteger_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__MPInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::SignaturePacket._ctor
 template<>
 
@@ -396,8 +396,10 @@ constexpr void Org::BouncyCastle::Bcpg::SignaturePacket::__set_signatureEncoding
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Bcpg::SignaturePacket::__get_signatureEncoding() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::SignaturePacket::SignaturePacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<SignaturePacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::SignaturePacket Org::BouncyCastle::Bcpg::SignaturePacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::SignaturePacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::SignaturePacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::SignaturePacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::SignaturePacket>::get(),
@@ -407,8 +409,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgIn);
 }
-// Ctor Parameters [CppParam { name: "signatureType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashedData", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }, CppParam { name: "unhashedData", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }, CppParam { name: "fingerprint", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "::ArrayW<Org::BouncyCastle::Bcpg::MPInteger>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::SignaturePacket::SignaturePacket(int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<SignaturePacket>(signatureType, keyId, keyAlgorithm, hashAlgorithm, hashedData, unhashedData, fingerprint, signature))) {}
+ Org::BouncyCastle::Bcpg::SignaturePacket Org::BouncyCastle::Bcpg::SignaturePacket::New_ctor(int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature)  {
+Org::BouncyCastle::Bcpg::SignaturePacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::SignaturePacket>(signatureType, keyId, keyAlgorithm, hashAlgorithm, hashedData, unhashedData, fingerprint, signature))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::SignaturePacket::_ctor(int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::SignaturePacket>::get(),
@@ -418,8 +422,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, signatureType, keyId, keyAlgorithm, hashAlgorithm, hashedData, unhashedData, fingerprint, signature);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "signatureType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "creationTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "fingerprint", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "::ArrayW<Org::BouncyCastle::Bcpg::MPInteger>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::SignaturePacket::SignaturePacket(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, int64_t creationTime, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<SignaturePacket>(version, signatureType, keyId, keyAlgorithm, hashAlgorithm, creationTime, fingerprint, signature))) {}
+ Org::BouncyCastle::Bcpg::SignaturePacket Org::BouncyCastle::Bcpg::SignaturePacket::New_ctor(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, int64_t creationTime, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature)  {
+Org::BouncyCastle::Bcpg::SignaturePacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::SignaturePacket>(version, signatureType, keyId, keyAlgorithm, hashAlgorithm, creationTime, fingerprint, signature))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::SignaturePacket::_ctor(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, int64_t creationTime, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::SignaturePacket>::get(),
@@ -429,8 +435,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, version, signatureType, keyId, keyAlgorithm, hashAlgorithm, creationTime, fingerprint, signature);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "signatureType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashedData", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }, CppParam { name: "unhashedData", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }, CppParam { name: "fingerprint", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "::ArrayW<Org::BouncyCastle::Bcpg::MPInteger>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::SignaturePacket::SignaturePacket(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<SignaturePacket>(version, signatureType, keyId, keyAlgorithm, hashAlgorithm, hashedData, unhashedData, fingerprint, signature))) {}
+ Org::BouncyCastle::Bcpg::SignaturePacket Org::BouncyCastle::Bcpg::SignaturePacket::New_ctor(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature)  {
+Org::BouncyCastle::Bcpg::SignaturePacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::SignaturePacket>(version, signatureType, keyId, keyAlgorithm, hashAlgorithm, hashedData, unhashedData, fingerprint, signature))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::SignaturePacket::_ctor(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::SignaturePacket>::get(),

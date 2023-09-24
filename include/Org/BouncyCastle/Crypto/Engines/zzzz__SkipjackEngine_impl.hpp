@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__SkipjackEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::SkipjackEngine.Init
 template<>
 
@@ -319,8 +319,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, input, inOff, outBytes, outOff);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::SkipjackEngine::SkipjackEngine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SkipjackEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::SkipjackEngine Org::BouncyCastle::Crypto::Engines::SkipjackEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::SkipjackEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::SkipjackEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::SkipjackEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::SkipjackEngine>::get(),

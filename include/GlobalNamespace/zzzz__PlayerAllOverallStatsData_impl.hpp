@@ -2,9 +2,10 @@
 #include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData.get_goodCutsCount
 template<>
 
@@ -711,8 +712,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData>())) {}
+ GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData>::get(),
@@ -722,8 +725,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "goodCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "badCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "missedCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalScore", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "playedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "clearedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "failedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullComboCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timePlayed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "handDistanceTravelled", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalCutScore", ty: "int64_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData>(goodCutsCount, badCutsCount, missedCutsCount, totalScore, playedLevelsCount, clearedLevelsCount, failedLevelsCount, fullComboCount, timePlayed, handDistanceTravelled, totalCutScore))) {}
+ GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData::New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore)  {
+GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData>(goodCutsCount, badCutsCount, missedCutsCount, totalScore, playedLevelsCount, clearedLevelsCount, failedLevelsCount, fullComboCount, timePlayed, handDistanceTravelled, totalCutScore))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData::_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData>::get(),
@@ -1285,8 +1290,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerAllOverallStatsData::PlayerAllOverallStatsData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerAllOverallStatsData>())) {}
+ GlobalNamespace::PlayerAllOverallStatsData GlobalNamespace::PlayerAllOverallStatsData::New_ctor()  {
+GlobalNamespace::PlayerAllOverallStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerAllOverallStatsData>())};
+return o;
+}
  void GlobalNamespace::PlayerAllOverallStatsData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerAllOverallStatsData>::get(),
@@ -1296,8 +1303,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "campaignOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "soloFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "partyFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "onlinePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData", modifiers: "", def_value: None }]
- GlobalNamespace::PlayerAllOverallStatsData::PlayerAllOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData onlinePlayOverallStatsData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerAllOverallStatsData>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData, onlinePlayOverallStatsData))) {}
+ GlobalNamespace::PlayerAllOverallStatsData GlobalNamespace::PlayerAllOverallStatsData::New_ctor(GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData onlinePlayOverallStatsData)  {
+GlobalNamespace::PlayerAllOverallStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerAllOverallStatsData>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData, onlinePlayOverallStatsData))};
+return o;
+}
  void GlobalNamespace::PlayerAllOverallStatsData::_ctor(GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData partyFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData onlinePlayOverallStatsData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerAllOverallStatsData>::get(),

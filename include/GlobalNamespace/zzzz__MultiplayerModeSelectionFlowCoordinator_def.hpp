@@ -5,121 +5,127 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class ServerCodeEntryViewController;
-}
-namespace System {
-template<typename T>
-class Action_1;
+struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
-class SelectMultiplayerLobbyDestination;
+struct MultiplayerUnavailableReason;
 }
-namespace System {
-class Exception;
+namespace GlobalNamespace {
+class MultiplayerModeSelectionViewController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51;
+}
+namespace GlobalNamespace {
+class SongPackMaskModelSO;
+}
+namespace GlobalNamespace {
+class MultiplayerLobbyConnectionController;
+}
+namespace GlobalNamespace {
+class SimpleDialogPromptViewController;
+}
+namespace GlobalNamespace {
+class QuickPlaySetupData;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__MultiplayerLobbyConnectionController__LobbyConnectionType;
 }
 namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace HMUI {
-class ViewController;
+class LobbyDataModelsManager;
 }
 namespace GlobalNamespace {
-class FadeInOutController;
+class SongPreviewPlayer;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+struct CreateServerFormData;
+}
+namespace HMUI {
+struct HMUI__ViewController__AnimationType;
+}
+namespace GlobalNamespace {
+class XPlatformAuthFeatureFlag;
+}
+namespace GlobalNamespace {
+class IQuickPlaySetupModel;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class TaskCompletionSource_1;
 }
 namespace GlobalNamespace {
-class MultiplayerModeSelectionViewController;
+struct GlobalNamespace__MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52;
 }
 namespace GlobalNamespace {
-class LobbyDataModelsManager;
-}
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class QuickPlaySetupData;
-}
-namespace GlobalNamespace {
-class ILobbyGameStateController;
+class INetworkPlayerModel;
 }
 namespace GlobalNamespace {
 class IMultiplayerStatusModel;
 }
 namespace GlobalNamespace {
-struct CreateServerFormData;
+class JoiningLobbyViewController;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class ServerCodeEntryViewController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerModeSelectionViewController__MenuButton;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-class MultiplayerLobbyConnectionController;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace GlobalNamespace {
-struct MultiplayerUnavailableReason;
-}
-namespace GlobalNamespace {
-class GameServerBrowserFlowCoordinator;
-}
-namespace GlobalNamespace {
-class SimpleDialogPromptViewController;
-}
-namespace GlobalNamespace {
-class GameServerLobbyFlowCoordinator;
-}
-namespace GlobalNamespace {
-class XPlatformAuthFeatureFlag;
+class FadeInOutController;
 }
 namespace GlobalNamespace {
 class JoinQuickPlayViewController;
 }
-namespace GlobalNamespace {
-class SongPackMaskModelSO;
-}
-namespace GlobalNamespace {
-class CreateServerViewController;
-}
-namespace GlobalNamespace {
-class IQuickPlaySetupModel;
-}
-namespace GlobalNamespace {
-class AvatarDataModel;
-}
-namespace GlobalNamespace {
-class JoiningLobbyViewController;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace HMUI {
-struct HMUI__ViewController__AnimationType;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__MultiplayerModeSelectionViewController__MenuButton;
+namespace System {
+class Exception;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
+namespace UnityEngine {
+class AudioClip;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
 namespace GlobalNamespace {
-class PlayerDataModel;
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+class AvatarDataModel;
+}
+namespace GlobalNamespace {
+class GameServerLobbyFlowCoordinator;
+}
+namespace GlobalNamespace {
+class CreateServerViewController;
+}
+namespace GlobalNamespace {
+class SelectMultiplayerLobbyDestination;
+}
+namespace GlobalNamespace {
+class GameServerBrowserFlowCoordinator;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace HMUI {
+class ViewController;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -130,12 +136,12 @@ struct TaskAwaiter;
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
-namespace GlobalNamespace {
-class MultiplayerStatusData;
-}
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace GlobalNamespace {
+class MultiplayerStatusData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -644,8 +650,7 @@ constexpr GlobalNamespace::SelectMultiplayerLobbyDestination __get__lobbyDestina
 /// @brief Method ProcessDeeplinkingToLobby addr 0x214141c size 0xf4 virtual false final false
  void ProcessDeeplinkingToLobby() ;
 
-// Ctor Parameters []
-explicit MultiplayerModeSelectionFlowCoordinator() ;
+static GlobalNamespace::MultiplayerModeSelectionFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2141510 size 0x8 virtual false final false
  void _ctor() ;

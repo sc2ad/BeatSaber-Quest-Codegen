@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__Test_Texture2D_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::Test_Texture2D._ctor
 template<>
 
@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::Test_Texture2D::__set_self(UnityEngine::Textu
 constexpr UnityEngine::Texture2D HoudiniEngineUnity::Test_Texture2D::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Texture2D, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Texture2D", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_Texture2D::Test_Texture2D(UnityEngine::Texture2D self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_Texture2D>(self))) {}
+ HoudiniEngineUnity::Test_Texture2D HoudiniEngineUnity::Test_Texture2D::New_ctor(UnityEngine::Texture2D self)  {
+HoudiniEngineUnity::Test_Texture2D o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_Texture2D>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_Texture2D::_ctor(UnityEngine::Texture2D self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_Texture2D>::get(),

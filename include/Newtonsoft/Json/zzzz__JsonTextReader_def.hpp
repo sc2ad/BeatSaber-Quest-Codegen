@@ -7,42 +7,42 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-struct Decimal;
-}
-namespace Newtonsoft::Json {
-template<typename T>
-class IArrayPool_1;
-}
-namespace Newtonsoft::Json::Utilities {
-struct StringReference;
+struct DateTimeOffset;
 }
 namespace Newtonsoft::Json::Utilities {
 class PropertyNameTable;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace Newtonsoft::Json {
-struct ReadType;
-}
-namespace Newtonsoft::Json::Utilities {
-struct StringBuffer;
-}
-namespace Newtonsoft::Json {
-class JsonReaderException;
 }
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
 }
 namespace System {
+struct DateTime;
+}
+namespace Newtonsoft::Json::Utilities {
+struct StringBuffer;
+}
+namespace Newtonsoft::Json::Utilities {
+struct StringReference;
+}
+namespace Newtonsoft::Json {
+struct ReadType;
+}
+namespace Newtonsoft::Json {
 template<typename T>
-struct Nullable_1;
+class IArrayPool_1;
+}
+namespace Newtonsoft::Json {
+class JsonReaderException;
 }
 namespace System {
-struct DateTime;
+struct Decimal;
 }
 namespace System::IO {
 class TextReader;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -177,8 +177,7 @@ constexpr Newtonsoft::Json::Utilities::PropertyNameTable __get_NameTable() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::TextReader", modifiers: "", def_value: None }]
-explicit JsonTextReader(System::IO::TextReader reader) ;
+static Newtonsoft::Json::JsonTextReader New_ctor(System::IO::TextReader reader) ;
 
 /// @brief Method .ctor addr 0x24c984c size 0x9c virtual false final false
  void _ctor(System::IO::TextReader reader) ;

@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__Lightmapping_def.hpp"
+#include "UnityEngine/Experimental/GlobalIllumination/zzzz__Lightmapping_def.hpp"
 #include "UnityEngine/zzzz__Light_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightDataGI_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
@@ -38,8 +39,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate::UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate>(object, method))) {}
+ UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate>(object, method))};
+return o;
+}
  void UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate>::get(),
@@ -98,8 +101,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
  UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c::__get___9()  {
 return ::cordl_internals::getStaticField<UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Experimental__GlobalIllumination__Lightmapping____c>())) {}
+ UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c::New_ctor()  {
+UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c>())};
+return o;
+}
  void UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c>::get(),

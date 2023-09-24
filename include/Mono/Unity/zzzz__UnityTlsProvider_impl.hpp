@@ -1,18 +1,17 @@
 #pragma once
 #include "Mono/Net/Security/zzzz__MobileTlsProvider_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsProvider_def.hpp"
-#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
-#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
-#include "Mono/Unity/zzzz__UnityTls_def.hpp"
-#include "System/Net/Security/zzzz__SslStream_def.hpp"
-#include "Mono/Unity/zzzz__UnityTls_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Mono/Unity/zzzz__UnityTls_def.hpp"
+#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
 //  Writing Method size for method: Mono::Unity::UnityTlsProvider.get_Name
 template<>
 
@@ -290,8 +289,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, validator, targetHost, serverMode, certificates, wantsChain, chain, errors, status11);
 }
-// Ctor Parameters []
- Mono::Unity::UnityTlsProvider::UnityTlsProvider()  : Mono::Net::Security::MobileTlsProvider(THROW_UNLESS(::il2cpp_utils::New<UnityTlsProvider>())) {}
+ Mono::Unity::UnityTlsProvider Mono::Unity::UnityTlsProvider::New_ctor()  {
+Mono::Unity::UnityTlsProvider o{THROW_UNLESS(::il2cpp_utils::New<Mono::Unity::UnityTlsProvider>())};
+return o;
+}
  void Mono::Unity::UnityTlsProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Unity::UnityTlsProvider>::get(),

@@ -5,11 +5,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements::UIR {
-class BestFitAllocator;
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
@@ -17,14 +20,14 @@ struct Alloc;
 namespace UnityEngine::UIElements {
 struct GradientSettings;
 }
-namespace Unity::Profiling {
-struct ProfilerMarker;
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__GradientSettingsAtlas__RawTexture;
 }
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace UnityEngine::UIElements::UIR {
+class BestFitAllocator;
 }
 namespace UnityEngine {
 struct Color32;
@@ -246,8 +249,7 @@ constexpr bool __get__MustCommit_k__BackingField() const;
 /// @brief Method Dispose addr 0x2d145cc size 0x78 virtual true final false
  void Dispose(bool disposing) ;
 
-// Ctor Parameters [CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GradientSettingsAtlas(int32_t length) ;
+static UnityEngine::UIElements::UIR::GradientSettingsAtlas New_ctor(int32_t length) ;
 
 /// @brief Method .ctor addr 0x2d14644 size 0x30 virtual false final false
  void _ctor(int32_t length) ;

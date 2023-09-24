@@ -51,20 +51,17 @@ constexpr explicit Asn1ParsingException(void* ptr) noexcept : System::InvalidOpe
 
 // Methods
 
-// Ctor Parameters []
-explicit Asn1ParsingException() ;
+static Org::BouncyCastle::Asn1::Asn1ParsingException New_ctor() ;
 
 /// @brief Method .ctor addr 0x112cf98 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Asn1ParsingException(::StringW message) ;
+static Org::BouncyCastle::Asn1::Asn1ParsingException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x112cfa0 size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit Asn1ParsingException(::StringW message, System::Exception exception) ;
+static Org::BouncyCastle::Asn1::Asn1ParsingException New_ctor(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x112cfa8 size 0x8 virtual false final false
  void _ctor(::StringW message, System::Exception exception) ;

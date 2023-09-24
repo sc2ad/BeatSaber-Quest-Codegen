@@ -57,8 +57,7 @@ constexpr ::StringW __get__oid() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DSASignatureFormatter() ;
+static System::Security::Cryptography::DSASignatureFormatter New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f2f4c size 0x80 virtual false final false
  void _ctor() ;

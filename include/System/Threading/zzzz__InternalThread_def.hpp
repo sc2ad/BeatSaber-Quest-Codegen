@@ -302,8 +302,7 @@ constexpr ::cordl_internals::intptr_t __get_last() const;
 /// @brief Method Finalize addr 0x24b2314 size 0x94 virtual true final false
  void Finalize() ;
 
-// Ctor Parameters []
-explicit InternalThread() ;
+static System::Threading::InternalThread New_ctor() ;
 
 /// @brief Method .ctor addr 0x24b23a8 size 0x10 virtual false final false
  void _ctor() ;

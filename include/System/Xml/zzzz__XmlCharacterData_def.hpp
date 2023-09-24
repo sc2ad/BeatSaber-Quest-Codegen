@@ -69,8 +69,7 @@ constexpr ::StringW __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlCharacterData(::StringW data, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlCharacterData New_ctor(::StringW data, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f0138 size 0x2c virtual false final false
  void _ctor(::StringW data, System::Xml::XmlDocument doc) ;

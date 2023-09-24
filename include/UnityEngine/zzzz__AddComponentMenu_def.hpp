@@ -64,14 +64,12 @@ constexpr int32_t __get_m_Ordering() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "menuName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AddComponentMenu(::StringW menuName) ;
+static UnityEngine::AddComponentMenu New_ctor(::StringW menuName) ;
 
 /// @brief Method .ctor addr 0x2b5b230 size 0x2c virtual false final false
  void _ctor(::StringW menuName) ;
 
-// Ctor Parameters [CppParam { name: "menuName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }]
-explicit AddComponentMenu(::StringW menuName, int32_t order) ;
+static UnityEngine::AddComponentMenu New_ctor(::StringW menuName, int32_t order) ;
 
 /// @brief Method .ctor addr 0x2b5b25c size 0x30 virtual false final false
  void _ctor(::StringW menuName, int32_t order) ;

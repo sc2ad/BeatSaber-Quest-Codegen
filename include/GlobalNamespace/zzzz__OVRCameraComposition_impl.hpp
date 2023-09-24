@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::OVRCameraComposition::OVRCameraComposition()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRCameraComposition>())) {}
+ GlobalNamespace::OVRCameraComposition GlobalNamespace::OVRCameraComposition::New_ctor()  {
+GlobalNamespace::OVRCameraComposition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRCameraComposition>())};
+return o;
+}
  void GlobalNamespace::OVRCameraComposition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRCameraComposition>::get(),

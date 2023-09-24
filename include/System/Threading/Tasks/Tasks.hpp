@@ -35,6 +35,8 @@
 #include "System/Threading/Tasks/TaskStatus.hpp"
 #include "System/Threading/Tasks/TaskToApm.hpp"
 #include "System/Threading/Tasks/Task_1.hpp"
+#include "System/Threading/Tasks/Task_DelayPromise.hpp"
+#include "System/Threading/Tasks/Task_WhenAllPromise_1.hpp"
 #include "System/Threading/Tasks/ThreadPoolTaskScheduler.hpp"
 #include "System/Threading/Tasks/UnobservedTaskExceptionEventArgs.hpp"
 #include "System/Threading/Tasks/UnwrapPromise_1.hpp"

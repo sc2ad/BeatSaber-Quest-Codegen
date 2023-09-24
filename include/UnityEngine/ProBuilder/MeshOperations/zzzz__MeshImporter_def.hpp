@@ -3,22 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine {
-class GameObject;
+class Vertex;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-class Material;
+class GameObject;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class MeshImportSettings;
 }
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__MeshImporter____c;
+}
+namespace UnityEngine {
+class Material;
+}
 namespace UnityEngine::ProBuilder {
-class Vertex;
+class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -91,8 +94,7 @@ static System::Func_2<UnityEngine::ProBuilder::Vertex,UnityEngine::Vector3> __ge
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__MeshImporter____c() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a24b2c size 0x8 virtual false final false
  void _ctor() ;
@@ -181,20 +183,17 @@ constexpr ::ArrayW<UnityEngine::ProBuilder::Vertex> __get_m_Vertices() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }]
-explicit MeshImporter(UnityEngine::GameObject gameObject) ;
+static UnityEngine::ProBuilder::MeshOperations::MeshImporter New_ctor(UnityEngine::GameObject gameObject) ;
 
 /// @brief Method .ctor addr 0x2a232e4 size 0x16c virtual false final false
  void _ctor(UnityEngine::GameObject gameObject) ;
 
-// Ctor Parameters [CppParam { name: "sourceMesh", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }, CppParam { name: "sourceMaterials", ty: "::ArrayW<UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "destination", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }]
-explicit MeshImporter(UnityEngine::Mesh sourceMesh, ::ArrayW<UnityEngine::Material> sourceMaterials, UnityEngine::ProBuilder::ProBuilderMesh destination) ;
+static UnityEngine::ProBuilder::MeshOperations::MeshImporter New_ctor(UnityEngine::Mesh sourceMesh, ::ArrayW<UnityEngine::Material> sourceMaterials, UnityEngine::ProBuilder::ProBuilderMesh destination) ;
 
 /// @brief Method .ctor addr 0x2a23450 size 0x128 virtual false final false
  void _ctor(UnityEngine::Mesh sourceMesh, ::ArrayW<UnityEngine::Material> sourceMaterials, UnityEngine::ProBuilder::ProBuilderMesh destination) ;
 
-// Ctor Parameters [CppParam { name: "destination", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }]
-explicit MeshImporter(UnityEngine::ProBuilder::ProBuilderMesh destination) ;
+static UnityEngine::ProBuilder::MeshOperations::MeshImporter New_ctor(UnityEngine::ProBuilder::ProBuilderMesh destination) ;
 
 /// @brief Method .ctor addr 0x2a23578 size 0x28 virtual false final false
  void _ctor(UnityEngine::ProBuilder::ProBuilderMesh destination) ;

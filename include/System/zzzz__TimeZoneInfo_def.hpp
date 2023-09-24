@@ -6,6 +6,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
@@ -14,19 +27,6 @@ class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System {
 struct DateTimeKind;
@@ -40,6 +40,44 @@ template<typename T,typename TResult>
 class Func_2;
 }
 namespace System {
+class System__TimeZoneInfo____c;
+}
+namespace System::Globalization {
+struct DaylightTimeStruct;
+}
+namespace System {
+struct System__TimeZoneInfo__TZifType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__Sys__DirectoryEntry;
+}
+namespace System {
+class System__TimeZoneInfo__CachedData;
+}
+namespace System {
+struct System__TimeZoneInfo__TransitionTime;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace System {
+struct System__TimeZoneInfo__TZVersion;
+}
+namespace System {
+class System__TimeZoneInfo__AdjustmentRule;
+}
+namespace System {
+struct TimeZoneInfoOptions;
+}
+namespace System {
+struct System__TimeZoneInfo__TZifHead;
+}
+namespace System {
+template<typename T>
+class Predicate_1;
+}
+namespace System {
 struct DayOfWeek;
 }
 namespace System::Collections::Generic {
@@ -47,21 +85,7 @@ template<typename T>
 class List_1;
 }
 namespace System {
-struct TimeZoneInfoOptions;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__Interop__Sys__DirectoryEntry;
-}
-namespace System {
-template<typename T>
-class Predicate_1;
-}
-namespace System::Globalization {
-struct DaylightTimeStruct;
+class System__TimeZoneInfo____c__DisplayClass16_0;
 }
 // Forward declare root types
 namespace System {
@@ -314,6 +338,8 @@ constexpr operator __System__TimeZoneInfo__TZVersion_Unwrapped () const noexcept
 return std::bit_cast<__System__TimeZoneInfo__TZVersion_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
 
 // Fields
 
@@ -481,8 +507,7 @@ constexpr bool __get__noDaylightTransitions() const;
 /// @brief Method GetHashCode addr 0x23b09ec size 0xc virtual true final false
  int32_t GetHashCode() ;
 
-// Ctor Parameters [CppParam { name: "dateStart", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "dateEnd", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "daylightDelta", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "daylightTransitionStart", ty: "System::System__TimeZoneInfo__TransitionTime", modifiers: "", def_value: None }, CppParam { name: "daylightTransitionEnd", ty: "System::System__TimeZoneInfo__TransitionTime", modifiers: "", def_value: None }, CppParam { name: "baseUtcOffsetDelta", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "noDaylightTransitions", ty: "bool", modifiers: "", def_value: None }]
-explicit System__TimeZoneInfo__AdjustmentRule(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::System__TimeZoneInfo__TransitionTime daylightTransitionStart, System::System__TimeZoneInfo__TransitionTime daylightTransitionEnd, System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions) ;
+static System::System__TimeZoneInfo__AdjustmentRule New_ctor(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::System__TimeZoneInfo__TransitionTime daylightTransitionStart, System::System__TimeZoneInfo__TransitionTime daylightTransitionEnd, System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions) ;
 
 /// @brief Method .ctor addr 0x23b09f8 size 0xc8 virtual false final false
  void _ctor(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::System__TimeZoneInfo__TransitionTime daylightTransitionStart, System::System__TimeZoneInfo__TransitionTime daylightTransitionEnd, System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions) ;
@@ -508,14 +533,12 @@ static void ValidateAdjustmentRule(System::DateTime dateStart, System::DateTime 
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x23b1060 size 0x244 virtual true final true
  void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit System__TimeZoneInfo__AdjustmentRule(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::System__TimeZoneInfo__AdjustmentRule New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23b12a4 size 0x418 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters []
-explicit System__TimeZoneInfo__AdjustmentRule() ;
+static System::System__TimeZoneInfo__AdjustmentRule New_ctor() ;
 
 /// @brief Method .ctor addr 0x23b16bc size 0x38 virtual false final false
  void _ctor() ;
@@ -750,8 +773,7 @@ constexpr System::TimeZoneInfo __get__localTimeZone() const;
 /// @brief Method GetCorrespondingKind addr 0x23ac210 size 0x8c virtual false final false
  System::DateTimeKind GetCorrespondingKind(System::TimeZoneInfo timeZone) ;
 
-// Ctor Parameters []
-explicit System__TimeZoneInfo__CachedData() ;
+static System::System__TimeZoneInfo__CachedData New_ctor() ;
 
 /// @brief Method .ctor addr 0x23b0850 size 0x8 virtual false final false
  void _ctor() ;
@@ -841,8 +863,7 @@ constexpr ::StringW __get_timeZoneDirectory() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__TimeZoneInfo____c__DisplayClass16_0() ;
+static System::System__TimeZoneInfo____c__DisplayClass16_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x23a8750 size 0x8 virtual false final false
  void _ctor() ;
@@ -941,8 +962,7 @@ static System::Comparison_1<System::System__TimeZoneInfo__AdjustmentRule> __get_
 
 // Methods
 
-// Ctor Parameters []
-explicit System__TimeZoneInfo____c() ;
+static System::System__TimeZoneInfo____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x23b2384 size 0x8 virtual false final false
  void _ctor() ;
@@ -1134,8 +1154,7 @@ static System::TimeZoneInfo __declspec(property(get=get_Utc))  Utc;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "dstDisabled", ty: "bool", modifiers: "", def_value: None }]
-explicit TimeZoneInfo(::ArrayW<uint8_t> data, ::StringW id, bool dstDisabled) ;
+static System::TimeZoneInfo New_ctor(::ArrayW<uint8_t> data, ::StringW id, bool dstDisabled) ;
 
 /// @brief Method .ctor addr 0x23a6210 size 0x434 virtual false final false
  void _ctor(::ArrayW<uint8_t> data, ::StringW id, bool dstDisabled) ;
@@ -1311,8 +1330,7 @@ static System::TimeZoneInfo get_Local() ;
 /// @brief Method get_Utc addr 0x23adab0 size 0x58 virtual false final false
 static System::TimeZoneInfo get_Utc() ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "baseUtcOffset", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "standardDisplayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "daylightDisplayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "adjustmentRules", ty: "::ArrayW<System::System__TimeZoneInfo__AdjustmentRule>", modifiers: "", def_value: None }, CppParam { name: "disableDaylightSavingTime", ty: "bool", modifiers: "", def_value: None }]
-explicit TimeZoneInfo(::StringW id, System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName, ::ArrayW<System::System__TimeZoneInfo__AdjustmentRule> adjustmentRules, bool disableDaylightSavingTime) ;
+static System::TimeZoneInfo New_ctor(::StringW id, System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName, ::ArrayW<System::System__TimeZoneInfo__AdjustmentRule> adjustmentRules, bool disableDaylightSavingTime) ;
 
 /// @brief Method .ctor addr 0x23adb08 size 0xec virtual false final false
  void _ctor(::StringW id, System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName, ::ArrayW<System::System__TimeZoneInfo__AdjustmentRule> adjustmentRules, bool disableDaylightSavingTime) ;
@@ -1329,8 +1347,7 @@ static System::TimeZoneInfo CreateCustomTimeZone(::StringW id, System::TimeSpan 
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x23adf80 size 0x1dc virtual true final true
  void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit TimeZoneInfo(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::TimeZoneInfo New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23ae15c size 0x414 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
@@ -1419,8 +1436,7 @@ static System::Collections::Generic::List_1<System::System__TimeZoneInfo__Adjust
 /// @brief Method CreateLocalUnity addr 0x23a8ca4 size 0x4a0 virtual false final false
 static System::TimeZoneInfo CreateLocalUnity() ;
 
-// Ctor Parameters []
-explicit TimeZoneInfo() ;
+static System::TimeZoneInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x23b0858 size 0x38 virtual false final false
  void _ctor() ;

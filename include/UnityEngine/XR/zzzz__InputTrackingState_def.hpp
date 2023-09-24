@@ -62,6 +62,8 @@ constexpr operator __InputTrackingState_Unwrapped () const noexcept {
 return std::bit_cast<__InputTrackingState_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
+
 
 // Fields
 

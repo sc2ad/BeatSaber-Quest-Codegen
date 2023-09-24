@@ -2,13 +2,14 @@
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightInstancedGroupRenderer_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRenderer_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightInstancedGroupRenderer_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty._ctor
 template<>
 
@@ -44,8 +45,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightI
 constexpr int32_t GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty::__get_propertyId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty>())) {}
+ GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty>::get(),
@@ -327,8 +330,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::BloomPrePassBackgroundNonLightInstancedGroupRenderer()  : GlobalNamespace::BloomPrePassNonLightPass(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassBackgroundNonLightInstancedGroupRenderer>())) {}
+ GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::New_ctor()  {
+GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer>::get(),

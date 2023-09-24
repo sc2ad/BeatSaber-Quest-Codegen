@@ -7,23 +7,26 @@
 namespace Mono::Security {
 class ASN1;
 }
-namespace Mono::Security::X509 {
-class X509ExtensionCollection;
-}
 namespace System {
 struct DateTime;
 }
 namespace Mono::Security::X509 {
-class X509Certificate;
+class X509ExtensionCollection;
 }
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
+namespace Mono::Security::X509 {
+class Mono__Security__X509__X509Crl__X509CrlEntry;
 }
 namespace System::Security::Cryptography {
 class RSA;
 }
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
+}
+namespace Mono::Security::X509 {
+class X509Certificate;
 }
 namespace System::Security::Cryptography {
 class DSA;
@@ -107,8 +110,7 @@ constexpr Mono::Security::X509::X509ExtensionCollection __get_extensions() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "entry", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
-explicit Mono__Security__X509__X509Crl__X509CrlEntry(Mono::Security::ASN1 entry) ;
+static Mono::Security::X509::Mono__Security__X509__X509Crl__X509CrlEntry New_ctor(Mono::Security::ASN1 entry) ;
 
 /// @brief Method .ctor addr 0x228ba2c size 0xd8 virtual false final false
  void _ctor(Mono::Security::ASN1 entry) ;
@@ -244,8 +246,7 @@ constexpr ::ArrayW<uint8_t> __get_hash_value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "crl", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit X509Crl(::ArrayW<uint8_t> crl) ;
+static Mono::Security::X509::X509Crl New_ctor(::ArrayW<uint8_t> crl) ;
 
 /// @brief Method .ctor addr 0x228b284 size 0xf8 virtual false final false
  void _ctor(::ArrayW<uint8_t> crl) ;

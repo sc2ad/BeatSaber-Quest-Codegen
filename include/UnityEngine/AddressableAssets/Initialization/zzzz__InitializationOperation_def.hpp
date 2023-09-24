@@ -6,40 +6,49 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl;
+namespace UnityEngine::AddressableAssets::Initialization {
+class ResourceManagerRuntimeData;
+}
+namespace UnityEngine::AddressableAssets::Utility {
+class ResourceManagerDiagnostics;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class InitalizationObjectsOperation;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
+namespace UnityEngine::AddressableAssets::Initialization {
+class UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0;
+}
 namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ResourceLocationMap;
+class IResourceLocator;
+}
+namespace UnityEngine::AddressableAssets::Initialization {
+class UnityEngine__AddressableAssets__Initialization__InitializationOperation____c;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ContentCatalogData;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
 }
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class InitalizationObjectsOperation;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace UnityEngine::AddressableAssets::Initialization {
-class ResourceManagerRuntimeData;
+class UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ResourceLocationMap;
 }
 namespace UnityEngine::ResourceManagement::Util {
 struct ObjectInitializationData;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ContentCatalogData;
-}
-namespace UnityEngine::AddressableAssets::Utility {
-class ResourceManagerDiagnostics;
+namespace UnityEngine::AddressableAssets {
+class AddressablesImpl;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IResourceProvider;
@@ -118,8 +127,7 @@ static System::Func_2<UnityEngine::ResourceManagement::ResourceProviders::IResou
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__Initialization__InitializationOperation____c() ;
+static UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a20a8 size 0x8 virtual false final false
  void _ctor() ;
@@ -194,8 +202,7 @@ constexpr UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0() ;
+static UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass16_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a214c size 0x8 virtual false final false
  void _ctor() ;
@@ -282,8 +289,7 @@ constexpr UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0() ;
+static UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__InitializationOperation____c__DisplayClass18_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a2198 size 0x8 virtual false final false
  void _ctor() ;
@@ -389,8 +395,7 @@ constexpr UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjects
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "aa", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
-explicit InitializationOperation(UnityEngine::AddressableAssets::AddressablesImpl aa) ;
+static UnityEngine::AddressableAssets::Initialization::InitializationOperation New_ctor(UnityEngine::AddressableAssets::AddressablesImpl aa) ;
 
 /// @brief Method .ctor addr 0x289f054 size 0xa4 virtual false final false
  void _ctor(UnityEngine::AddressableAssets::AddressablesImpl aa) ;

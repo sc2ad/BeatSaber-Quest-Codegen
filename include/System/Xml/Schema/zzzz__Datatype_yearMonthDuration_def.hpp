@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System::Xml::Schema {
 struct XmlTypeCode;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 class XmlNameTable;
@@ -73,8 +73,7 @@ constexpr explicit Datatype_yearMonthDuration(void* ptr) noexcept : System::Xml:
 /// @brief Method get_TypeCode addr 0x2725b1c size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_yearMonthDuration() ;
+static System::Xml::Schema::Datatype_yearMonthDuration New_ctor() ;
 
 /// @brief Method .ctor addr 0x2725b24 size 0x54 virtual false final false
  void _ctor() ;

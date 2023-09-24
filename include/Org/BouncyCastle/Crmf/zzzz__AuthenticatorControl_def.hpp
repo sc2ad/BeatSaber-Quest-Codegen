@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
 namespace Org::BouncyCastle::Crmf {
 class IControl;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerUtf8String;
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::DerUtf8String __get_token() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "token", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }]
-explicit AuthenticatorControl(Org::BouncyCastle::Asn1::DerUtf8String token) ;
+static Org::BouncyCastle::Crmf::AuthenticatorControl New_ctor(Org::BouncyCastle::Asn1::DerUtf8String token) ;
 
 /// @brief Method .ctor addr 0x1182bd0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerUtf8String token) ;
 
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AuthenticatorControl(::StringW token) ;
+static Org::BouncyCastle::Crmf::AuthenticatorControl New_ctor(::StringW token) ;
 
 /// @brief Method .ctor addr 0x1182bf8 size 0x7c virtual false final false
  void _ctor(::StringW token) ;

@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace GlobalNamespace {
-class BloomFogEnvironmentParams;
+struct FrameData;
 }
 namespace GlobalNamespace {
 class BloomFogSO;
 }
+namespace GlobalNamespace {
+class BloomFogEnvironmentParams;
+}
 namespace UnityEngine::Playables {
-struct FrameData;
+struct Playable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +94,7 @@ constexpr bool __get__initialized() const;
 /// @brief Method OnPlayableDestroy addr 0x21b1cc8 size 0x90 virtual true final false
  void OnPlayableDestroy(UnityEngine::Playables::Playable playable) ;
 
-// Ctor Parameters []
-explicit BloomFogParamsBehaviour() ;
+static GlobalNamespace::BloomFogParamsBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1d58 size 0x8 virtual false final false
  void _ctor() ;

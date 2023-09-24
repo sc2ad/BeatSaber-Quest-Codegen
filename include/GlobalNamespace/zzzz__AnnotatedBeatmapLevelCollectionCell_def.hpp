@@ -4,11 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct Color;
+}
 namespace HMUI {
 struct HMUI__SelectableCell__TransitionType;
 }
-namespace UnityEngine {
-class GameObject;
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22;
 }
 namespace HMUI {
 class ImageView;
@@ -16,37 +22,34 @@ class ImageView;
 namespace GlobalNamespace {
 class AdditionalContentModel;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
@@ -334,8 +337,7 @@ constexpr System::Threading::CancellationTokenSource __get__cancellationTokenSou
 /// @brief Method CancelAsyncOperations addr 0x21219bc size 0x14 virtual false final false
  void CancelAsyncOperations() ;
 
-// Ctor Parameters []
-explicit AnnotatedBeatmapLevelCollectionCell() ;
+static GlobalNamespace::AnnotatedBeatmapLevelCollectionCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x21219d0 size 0x28 virtual false final false
  void _ctor() ;

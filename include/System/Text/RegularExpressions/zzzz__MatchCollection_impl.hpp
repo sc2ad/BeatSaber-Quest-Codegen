@@ -1,19 +1,20 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__MatchCollection_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__MatchCollection_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::System__Text__RegularExpressions__MatchCollection__Enumerator._ctor
 template<>
@@ -141,8 +142,10 @@ constexpr void System::Text::RegularExpressions::System__Text__RegularExpression
 constexpr int32_t System::Text::RegularExpressions::System__Text__RegularExpressions__MatchCollection__Enumerator::__get__index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "collection", ty: "System::Text::RegularExpressions::MatchCollection", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::System__Text__RegularExpressions__MatchCollection__Enumerator::System__Text__RegularExpressions__MatchCollection__Enumerator(System::Text::RegularExpressions::MatchCollection collection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Text__RegularExpressions__MatchCollection__Enumerator>(collection))) {}
+ System::Text::RegularExpressions::System__Text__RegularExpressions__MatchCollection__Enumerator System::Text::RegularExpressions::System__Text__RegularExpressions__MatchCollection__Enumerator::New_ctor(System::Text::RegularExpressions::MatchCollection collection)  {
+System::Text::RegularExpressions::System__Text__RegularExpressions__MatchCollection__Enumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::System__Text__RegularExpressions__MatchCollection__Enumerator>(collection))};
+return o;
+}
  void System::Text::RegularExpressions::System__Text__RegularExpressions__MatchCollection__Enumerator::_ctor(System::Text::RegularExpressions::MatchCollection collection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::System__Text__RegularExpressions__MatchCollection__Enumerator>::get(),
@@ -821,8 +824,10 @@ constexpr void System::Text::RegularExpressions::MatchCollection::__set__prevlen
 constexpr int32_t System::Text::RegularExpressions::MatchCollection::__get__prevlen() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x3c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "regex", ty: "System::Text::RegularExpressions::Regex", modifiers: "", def_value: None }, CppParam { name: "input", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beginning", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startat", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::MatchCollection::MatchCollection(System::Text::RegularExpressions::Regex regex, ::StringW input, int32_t beginning, int32_t length, int32_t startat)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MatchCollection>(regex, input, beginning, length, startat))) {}
+ System::Text::RegularExpressions::MatchCollection System::Text::RegularExpressions::MatchCollection::New_ctor(System::Text::RegularExpressions::Regex regex, ::StringW input, int32_t beginning, int32_t length, int32_t startat)  {
+System::Text::RegularExpressions::MatchCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::MatchCollection>(regex, input, beginning, length, startat))};
+return o;
+}
  void System::Text::RegularExpressions::MatchCollection::_ctor(System::Text::RegularExpressions::Regex regex, ::StringW input, int32_t beginning, int32_t length, int32_t startat)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::MatchCollection>::get(),
@@ -1102,8 +1107,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, index, value);
 }
-// Ctor Parameters []
- System::Text::RegularExpressions::MatchCollection::MatchCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MatchCollection>())) {}
+ System::Text::RegularExpressions::MatchCollection System::Text::RegularExpressions::MatchCollection::New_ctor()  {
+System::Text::RegularExpressions::MatchCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::MatchCollection>())};
+return o;
+}
  void System::Text::RegularExpressions::MatchCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::MatchCollection>::get(),

@@ -56,8 +56,7 @@ constexpr explicit CrlNumber(void* ptr) noexcept : Org::BouncyCastle::Asn1::DerI
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "number", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit CrlNumber(Org::BouncyCastle::Math::BigInteger number) ;
+static Org::BouncyCastle::Asn1::X509::CrlNumber New_ctor(Org::BouncyCastle::Math::BigInteger number) ;
 
 /// @brief Method .ctor addr 0x1100e54 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger number) ;

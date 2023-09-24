@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::PS4LevelProductsModelSO::PS4LevelProductsModelSO()  : GlobalNamespace::SonyLevelProductsModelSO(THROW_UNLESS(::il2cpp_utils::New<PS4LevelProductsModelSO>())) {}
+ GlobalNamespace::PS4LevelProductsModelSO GlobalNamespace::PS4LevelProductsModelSO::New_ctor()  {
+GlobalNamespace::PS4LevelProductsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS4LevelProductsModelSO>())};
+return o;
+}
  void GlobalNamespace::PS4LevelProductsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS4LevelProductsModelSO>::get(),

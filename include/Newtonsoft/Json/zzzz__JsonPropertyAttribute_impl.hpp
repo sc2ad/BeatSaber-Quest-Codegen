@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonPropertyAttribute_def.hpp"
-#include "Newtonsoft/Json/zzzz__Required_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__ObjectCreationHandling_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__NullValueHandling_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__Required_def.hpp"
+#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::JsonPropertyAttribute.get_ItemConverterType
 template<>
 
@@ -855,8 +855,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::JsonPropertyAttribute::JsonPropertyAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<JsonPropertyAttribute>())) {}
+ Newtonsoft::Json::JsonPropertyAttribute Newtonsoft::Json::JsonPropertyAttribute::New_ctor()  {
+Newtonsoft::Json::JsonPropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonPropertyAttribute>())};
+return o;
+}
  void Newtonsoft::Json::JsonPropertyAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonPropertyAttribute>::get(),
@@ -866,8 +868,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "propertyName", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonPropertyAttribute::JsonPropertyAttribute(::StringW propertyName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<JsonPropertyAttribute>(propertyName))) {}
+ Newtonsoft::Json::JsonPropertyAttribute Newtonsoft::Json::JsonPropertyAttribute::New_ctor(::StringW propertyName)  {
+Newtonsoft::Json::JsonPropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonPropertyAttribute>(propertyName))};
+return o;
+}
  void Newtonsoft::Json::JsonPropertyAttribute::_ctor(::StringW propertyName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonPropertyAttribute>::get(),

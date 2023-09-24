@@ -2,8 +2,9 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace UnityEngine::ProBuilder {
-class Face;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
@@ -11,9 +12,8 @@ class ProBuilderMesh;
 namespace UnityEngine::ProBuilder {
 class ActionResult;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {

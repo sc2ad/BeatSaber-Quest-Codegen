@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__RespData_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__RespID_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__SingleResp_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__ResponseData_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__SingleResp_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__RespID_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::RespData._ctor
 template<>
 
@@ -131,8 +131,10 @@ constexpr void Org::BouncyCastle::Ocsp::RespData::__set_data(Org::BouncyCastle::
 constexpr Org::BouncyCastle::Asn1::Ocsp::ResponseData Org::BouncyCastle::Ocsp::RespData::__get_data() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Ocsp::ResponseData, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "Org::BouncyCastle::Asn1::Ocsp::ResponseData", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::RespData::RespData(Org::BouncyCastle::Asn1::Ocsp::ResponseData data)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<RespData>(data))) {}
+ Org::BouncyCastle::Ocsp::RespData Org::BouncyCastle::Ocsp::RespData::New_ctor(Org::BouncyCastle::Asn1::Ocsp::ResponseData data)  {
+Org::BouncyCastle::Ocsp::RespData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::RespData>(data))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::RespData::_ctor(Org::BouncyCastle::Asn1::Ocsp::ResponseData data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::RespData>::get(),

@@ -192,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, aPent);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::Marker::Marker()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<Marker>())) {}
+ UnityEngine::Timeline::Marker UnityEngine::Timeline::Marker::New_ctor()  {
+UnityEngine::Timeline::Marker o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::Marker>())};
+return o;
+}
  void UnityEngine::Timeline::Marker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::Marker>::get(),

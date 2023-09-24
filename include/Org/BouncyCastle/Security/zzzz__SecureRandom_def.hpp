@@ -110,20 +110,17 @@ static Org::BouncyCastle::Security::SecureRandom GetInstance(::StringW algorithm
 /// @brief Method GetSeed addr 0xeb5240 size 0x90 virtual false final false
 static ::ArrayW<uint8_t> GetSeed(int32_t length) ;
 
-// Ctor Parameters []
-explicit SecureRandom() ;
+static Org::BouncyCastle::Security::SecureRandom New_ctor() ;
 
 /// @brief Method .ctor addr 0xeab0dc size 0x78 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SecureRandom(::ArrayW<uint8_t> seed) ;
+static Org::BouncyCastle::Security::SecureRandom New_ctor(::ArrayW<uint8_t> seed) ;
 
 /// @brief Method .ctor addr 0xeb52d0 size 0x98 virtual false final false
  void _ctor(::ArrayW<uint8_t> seed) ;
 
-// Ctor Parameters [CppParam { name: "generator", ty: "Org::BouncyCastle::Crypto::Prng::IRandomGenerator", modifiers: "", def_value: None }]
-explicit SecureRandom(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator) ;
+static Org::BouncyCastle::Security::SecureRandom New_ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator) ;
 
 /// @brief Method .ctor addr 0xeb51d0 size 0x70 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator) ;

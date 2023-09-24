@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
+namespace System {
 template<typename T>
-class Queue_1;
+class Action_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System {
+namespace System::Collections::Generic {
 template<typename T>
-class Action_1;
+class Queue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +101,7 @@ constexpr int32_t __get__maxNumberElements() const;
 /// @brief Method remove_itemWillBeRemovedFromCacheEvent addr 0x0 size 0xffffffffffffffff virtual false final false
  void remove_itemWillBeRemovedFromCacheEvent(System::Action_1<V> value) ;
 
-// Ctor Parameters [CppParam { name: "maxNumberElements", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMCache_2(int32_t maxNumberElements) ;
+static GlobalNamespace::HMCache_2<K,V> New_ctor(int32_t maxNumberElements) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t maxNumberElements) ;

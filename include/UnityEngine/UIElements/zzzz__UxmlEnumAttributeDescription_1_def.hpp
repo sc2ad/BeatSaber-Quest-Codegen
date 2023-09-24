@@ -5,14 +5,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System {
+struct Int32Enum;
+}
+namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
-namespace System {
-struct Int32Enum;
-}
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+class UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -101,8 +105,7 @@ static System::Func_3<::StringW,System::Int32Enum,System::Int32Enum> __get___9__
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlEnumAttributeDescription_1____c<System::Int32Enum> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -122,7 +125,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7073)), TypeDefinitionIndex(TypeDefinitionIndex(7085)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7073), inst: 5042 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7073), inst: 5042 }), TypeDefinitionIndex(TypeDefinitionIndex(7073)), TypeDefinitionIndex(TypeDefinitionIndex(7085))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7085), inst: 4825 })
 // CS Name: UnityEngine.UIElements.UxmlEnumAttributeDescription`1
 class CORDL_TYPE UxmlEnumAttributeDescription_1<System::Int32Enum> : public UnityEngine::UIElements::TypedUxmlAttributeDescription_1<System::Int32Enum> {
@@ -163,8 +166,7 @@ constexpr explicit UxmlEnumAttributeDescription_1(void* ptr) noexcept : UnityEng
 
 // Methods
 
-// Ctor Parameters []
-explicit UxmlEnumAttributeDescription_1() ;
+static UnityEngine::UIElements::UxmlEnumAttributeDescription_1<System::Int32Enum> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

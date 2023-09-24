@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: Zenject::GameObjectCreationParameters.get_Name
 template<>
 
@@ -507,8 +507,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
 }
-// Ctor Parameters []
- Zenject::GameObjectCreationParameters::GameObjectCreationParameters()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameObjectCreationParameters>())) {}
+ Zenject::GameObjectCreationParameters Zenject::GameObjectCreationParameters::New_ctor()  {
+Zenject::GameObjectCreationParameters o{THROW_UNLESS(::il2cpp_utils::New<Zenject::GameObjectCreationParameters>())};
+return o;
+}
  void Zenject::GameObjectCreationParameters::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::GameObjectCreationParameters>::get(),

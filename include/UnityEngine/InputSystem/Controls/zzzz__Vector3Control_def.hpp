@@ -16,7 +16,7 @@ class Vector3Control;
 // Type: UnityEngine.InputSystem.Controls::Vector3Control
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 394 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6728))
 // CS Name: UnityEngine.InputSystem.Controls.Vector3Control
 class CORDL_TYPE Vector3Control : public UnityEngine::InputSystem::InputControl_1<UnityEngine::Vector3> {
@@ -103,8 +103,7 @@ constexpr UnityEngine::InputSystem::Controls::AxisControl __get__z_k__BackingFie
 /// @brief Method set_z addr 0x29797b4 size 0x8 virtual false final false
  void set_z(UnityEngine::InputSystem::Controls::AxisControl value) ;
 
-// Ctor Parameters []
-explicit Vector3Control() ;
+static UnityEngine::InputSystem::Controls::Vector3Control New_ctor() ;
 
 /// @brief Method .ctor addr 0x29797bc size 0x88 virtual false final false
  void _ctor() ;

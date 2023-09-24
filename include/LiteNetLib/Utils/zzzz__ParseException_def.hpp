@@ -48,8 +48,7 @@ constexpr explicit ParseException(void* ptr) noexcept : System::Exception(ptr) {
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ParseException(::StringW message) ;
+static LiteNetLib::Utils::ParseException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2099178 size 0x68 virtual false final false
  void _ctor(::StringW message) ;

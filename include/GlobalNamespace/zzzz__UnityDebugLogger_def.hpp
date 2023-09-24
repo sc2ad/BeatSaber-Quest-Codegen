@@ -81,8 +81,7 @@ constexpr explicit UnityDebugLogger(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 /// @brief Method LogException addr 0x219ee0c size 0xb8 virtual true final true
  void LogException(System::Exception exception, ::bs_hook::Il2CppWrapperType context) ;
 
-// Ctor Parameters []
-explicit UnityDebugLogger() ;
+static GlobalNamespace::UnityDebugLogger New_ctor() ;
 
 /// @brief Method .ctor addr 0x219eec4 size 0x8 virtual false final false
  void _ctor() ;

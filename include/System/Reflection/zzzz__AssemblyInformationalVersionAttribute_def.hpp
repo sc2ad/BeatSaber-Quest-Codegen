@@ -57,8 +57,7 @@ constexpr ::StringW __get__InformationalVersion_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "informationalVersion", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyInformationalVersionAttribute(::StringW informationalVersion) ;
+static System::Reflection::AssemblyInformationalVersionAttribute New_ctor(::StringW informationalVersion) ;
 
 /// @brief Method .ctor addr 0x2378de8 size 0x28 virtual false final false
  void _ctor(::StringW informationalVersion) ;

@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__Triangulation_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/zzzz__Triangulation_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PolygonPoint_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
@@ -66,8 +67,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder_
 constexpr int32_t UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0::__get_index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0 UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0>::get(),
@@ -158,8 +161,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder_
 constexpr System::Func_2<UnityEngine::Vector2,UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0::__get___9__1() const {
 return ::cordl_internals::getInstanceField<System::Func_2<UnityEngine::Vector2,UnityEngine::ProBuilder::Poly2Tri::PolygonPoint>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0 UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0>::get(),

@@ -10,9 +10,15 @@ namespace System {
 template<typename T>
 class IComparable_1;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__SonyLevelProductsModelSO__LevelProductData;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +111,7 @@ constexpr ::StringW __get__levelId() const;
 /// @brief Method get_levelId addr 0x221c0d0 size 0x8 virtual false final false
  ::StringW get_levelId() ;
 
-// Ctor Parameters [CppParam { name: "entitlementLabel", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "productLabel", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SonyLevelProductsModelSO__LevelProductData(::StringW entitlementLabel, ::StringW productLabel, ::StringW levelId) ;
+static GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData New_ctor(::StringW entitlementLabel, ::StringW productLabel, ::StringW levelId) ;
 
 /// @brief Method .ctor addr 0x221c0d8 size 0x3c virtual false final false
  void _ctor(::StringW entitlementLabel, ::StringW productLabel, ::StringW levelId) ;
@@ -221,8 +226,7 @@ constexpr int32_t __get__packIndex() const;
 /// @brief Method get_levelProductsData addr 0x221c134 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData> get_levelProductsData() ;
 
-// Ctor Parameters [CppParam { name: "productLabel", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelPackId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "packLevelPriceDiscountMul", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "levelProductsData", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData>", modifiers: "", def_value: None }, CppParam { name: "packIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData(::StringW productLabel, ::StringW levelPackId, float_t packLevelPriceDiscountMul, ::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData> levelProductsData, int32_t packIndex) ;
+static GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData New_ctor(::StringW productLabel, ::StringW levelPackId, float_t packLevelPriceDiscountMul, ::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData> levelProductsData, int32_t packIndex) ;
 
 /// @brief Method .ctor addr 0x221c13c size 0x98 virtual false final false
  void _ctor(::StringW productLabel, ::StringW levelPackId, float_t packLevelPriceDiscountMul, ::ArrayW<GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelProductData> levelProductsData, int32_t packIndex) ;
@@ -321,8 +325,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::
 /// @brief Method GetLevelPackProductData addr 0x221c048 size 0x78 virtual false final false
  GlobalNamespace::GlobalNamespace__SonyLevelProductsModelSO__LevelPackProductData GetLevelPackProductData(::StringW levelPackId) ;
 
-// Ctor Parameters []
-explicit SonyLevelProductsModelSO() ;
+static GlobalNamespace::SonyLevelProductsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a4dc size 0xec virtual false final false
  void _ctor() ;

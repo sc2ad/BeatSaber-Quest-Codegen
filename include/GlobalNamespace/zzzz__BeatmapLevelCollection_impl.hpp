@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapLevelCollection_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapLevelCollection.get_beatmapLevels
 template<>
 
@@ -74,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "levels", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel>", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapLevelCollection::BeatmapLevelCollection(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> levels)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelCollection>(levels))) {}
+ GlobalNamespace::BeatmapLevelCollection GlobalNamespace::BeatmapLevelCollection::New_ctor(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> levels)  {
+GlobalNamespace::BeatmapLevelCollection o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelCollection>(levels))};
+return o;
+}
  void GlobalNamespace::BeatmapLevelCollection::_ctor(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> levels)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelCollection>::get(),

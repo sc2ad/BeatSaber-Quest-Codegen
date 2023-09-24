@@ -6,11 +6,11 @@
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -72,14 +72,12 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_x() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }]
-explicit DHPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea3cc8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }, CppParam { name: "algorithmOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit DHPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid) ;
+static Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid) ;
 
 /// @brief Method .ctor addr 0xea3cf0 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid) ;

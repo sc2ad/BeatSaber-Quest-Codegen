@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1::Cmp {
-class InfoTypeAndValue;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class InfoTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -67,8 +67,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_content() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit GenMsgContent(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::GenMsgContent New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdda460 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -76,8 +75,7 @@ explicit GenMsgContent(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xdda488 size 0x18c virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::GenMsgContent GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "itv", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue>", modifiers: "", def_value: None }]
-explicit GenMsgContent(::ArrayW<Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue> itv) ;
+static Org::BouncyCastle::Asn1::Cmp::GenMsgContent New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue> itv) ;
 
 /// @brief Method .ctor addr 0xdda614 size 0x7c virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue> itv) ;

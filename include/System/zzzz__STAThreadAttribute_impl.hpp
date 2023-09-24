@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::STAThreadAttribute::STAThreadAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<STAThreadAttribute>())) {}
+ System::STAThreadAttribute System::STAThreadAttribute::New_ctor()  {
+System::STAThreadAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::STAThreadAttribute>())};
+return o;
+}
  void System::STAThreadAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::STAThreadAttribute>::get(),

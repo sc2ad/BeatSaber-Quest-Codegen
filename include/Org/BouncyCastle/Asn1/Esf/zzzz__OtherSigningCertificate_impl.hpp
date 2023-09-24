@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherSigningCertificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherCertID_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__PolicyInformation_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__PolicyInformation_def.hpp"
+#include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherCertID_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate.GetInstance
 template<>
 
@@ -180,8 +180,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::OtherSigningCertificate(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OtherSigningCertificate>(seq))) {}
+ Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate>::get(),
@@ -191,8 +193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "certs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::OtherSigningCertificate(::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID> certs)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OtherSigningCertificate>(certs))) {}
+ Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID> certs)  {
+Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate>(certs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID> certs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate>::get(),
@@ -202,8 +206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certs);
 }
-// Ctor Parameters [CppParam { name: "certs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID>", modifiers: "", def_value: None }, CppParam { name: "policies", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::OtherSigningCertificate(::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID> certs, ::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation> policies)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OtherSigningCertificate>(certs, policies))) {}
+ Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID> certs, ::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation> policies)  {
+Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate>(certs, policies))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OtherCertID> certs, ::ArrayW<Org::BouncyCastle::Asn1::X509::PolicyInformation> policies)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate>::get(),
@@ -213,8 +219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certs, policies);
 }
-// Ctor Parameters [CppParam { name: "certs", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::OtherSigningCertificate(System::Collections::IEnumerable certs)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OtherSigningCertificate>(certs))) {}
+ Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(System::Collections::IEnumerable certs)  {
+Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate>(certs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::_ctor(System::Collections::IEnumerable certs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate>::get(),
@@ -224,8 +232,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certs);
 }
-// Ctor Parameters [CppParam { name: "certs", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }, CppParam { name: "policies", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::OtherSigningCertificate(System::Collections::IEnumerable certs, System::Collections::IEnumerable policies)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OtherSigningCertificate>(certs, policies))) {}
+ Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(System::Collections::IEnumerable certs, System::Collections::IEnumerable policies)  {
+Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate>(certs, policies))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::_ctor(System::Collections::IEnumerable certs, System::Collections::IEnumerable policies)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate>::get(),

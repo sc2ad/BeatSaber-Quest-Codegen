@@ -3,47 +3,47 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
-namespace GlobalNamespace {
-class PlayersMissingEntitlementsNetSerializable;
-}
-namespace GlobalNamespace {
 struct SongPackMask;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-struct EntitlementsStatus;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-struct CannotStartGameReason;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4>
-class Action_4;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace System {
-template<typename T1,typename T2>
-class Action_2;
+template<typename T1,typename T2,typename T3,typename T4>
+class Action_4;
 }
 namespace GlobalNamespace {
 class PlayersLobbyPermissionConfigurationNetSerializable;
 }
 namespace GlobalNamespace {
+struct CannotStartGameReason;
+}
+namespace GlobalNamespace {
 struct MultiplayerGameState;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
+}
+namespace GlobalNamespace {
+class PlayersMissingEntitlementsNetSerializable;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
+}
+namespace GlobalNamespace {
+struct EntitlementsStatus;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

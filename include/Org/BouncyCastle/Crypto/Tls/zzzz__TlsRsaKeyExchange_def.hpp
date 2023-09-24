@@ -3,8 +3,14 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsKeyExchange_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsEncryptionCredentials;
@@ -12,20 +18,14 @@ class TlsEncryptionCredentials;
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+namespace System::IO {
+class Stream;
 }
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -100,8 +100,7 @@ constexpr ::ArrayW<uint8_t> __get_mPremasterSecret() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit TlsRsaKeyExchange(System::Collections::IList supportedSignatureAlgorithms) ;
+static Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange New_ctor(System::Collections::IList supportedSignatureAlgorithms) ;
 
 /// @brief Method .ctor addr 0xf23ff4 size 0x18 virtual false final false
  void _ctor(System::Collections::IList supportedSignatureAlgorithms) ;

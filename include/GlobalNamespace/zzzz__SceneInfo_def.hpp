@@ -76,8 +76,7 @@ constexpr bool __get__disabledRootObjects() const;
 /// @brief Method get_disabledRootObjects addr 0x1f829ec size 0x8 virtual false final false
  bool get_disabledRootObjects() ;
 
-// Ctor Parameters []
-explicit SceneInfo() ;
+static GlobalNamespace::SceneInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f829f4 size 0x8 virtual false final false
  void _ctor() ;

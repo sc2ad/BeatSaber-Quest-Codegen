@@ -1,7 +1,7 @@
 #pragma once
 #include "BeatSaberAPI/DataTransferObjects/zzzz__LeaderboardEntry_def.hpp"
-#include "BeatSaberAPI/DataTransferObjects/zzzz__LevelScoreResult_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "BeatSaberAPI/DataTransferObjects/zzzz__LevelScoreResult_def.hpp"
 //  Writing Method size for method: BeatSaberAPI::DataTransferObjects::LeaderboardEntry._ctor
 template<>
 
@@ -67,8 +67,10 @@ constexpr void BeatSaberAPI::DataTransferObjects::LeaderboardEntry::__set_gamepl
 constexpr ::ArrayW<BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> BeatSaberAPI::DataTransferObjects::LeaderboardEntry::__get_gameplayModifiers() const {
 return ::cordl_internals::getInstanceField<::ArrayW<BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- BeatSaberAPI::DataTransferObjects::LeaderboardEntry::LeaderboardEntry()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LeaderboardEntry>())) {}
+ BeatSaberAPI::DataTransferObjects::LeaderboardEntry BeatSaberAPI::DataTransferObjects::LeaderboardEntry::New_ctor()  {
+BeatSaberAPI::DataTransferObjects::LeaderboardEntry o{THROW_UNLESS(::il2cpp_utils::New<BeatSaberAPI::DataTransferObjects::LeaderboardEntry>())};
+return o;
+}
  void BeatSaberAPI::DataTransferObjects::LeaderboardEntry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatSaberAPI::DataTransferObjects::LeaderboardEntry>::get(),

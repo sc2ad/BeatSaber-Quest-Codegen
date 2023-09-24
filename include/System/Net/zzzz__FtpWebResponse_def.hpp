@@ -4,23 +4,26 @@
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::Net {
-class WebHeaderCollection;
+class System__Net__FtpWebResponse__EmptyStream;
 }
 namespace System::Net {
 struct FtpStatusCode;
 }
+namespace System::Net {
+class WebHeaderCollection;
+}
 namespace System {
 struct DateTime;
 }
-namespace System::IO {
-class Stream;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Uri;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -71,8 +74,7 @@ constexpr explicit System__Net__FtpWebResponse__EmptyStream(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__FtpWebResponse__EmptyStream() ;
+static System::Net::System__Net__FtpWebResponse__EmptyStream New_ctor() ;
 
 /// @brief Method .ctor addr 0x2809628 size 0x8c virtual false final false
  void _ctor() ;
@@ -200,8 +202,7 @@ constexpr ::StringW __get__exitMessage() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "responseStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "contentLength", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "responseUri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "statusCode", ty: "System::Net::FtpStatusCode", modifiers: "", def_value: None }, CppParam { name: "statusLine", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lastModified", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "bannerMessage", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "welcomeMessage", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exitMessage", ty: "::StringW", modifiers: "", def_value: None }]
-explicit FtpWebResponse(System::IO::Stream responseStream, int64_t contentLength, System::Uri responseUri, System::Net::FtpStatusCode statusCode, ::StringW statusLine, System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage) ;
+static System::Net::FtpWebResponse New_ctor(System::IO::Stream responseStream, int64_t contentLength, System::Uri responseUri, System::Net::FtpStatusCode statusCode, ::StringW statusLine, System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage) ;
 
 /// @brief Method .ctor addr 0x2808ec8 size 0x11c virtual false final false
  void _ctor(System::IO::Stream responseStream, int64_t contentLength, System::Uri responseUri, System::Net::FtpStatusCode statusCode, ::StringW statusLine, System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage) ;

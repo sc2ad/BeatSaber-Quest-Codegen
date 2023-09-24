@@ -2,13 +2,14 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton::UnityEngine__EventSystems__PointerEventData__InputButton(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1864,8 +1865,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
- UnityEngine::EventSystems::PointerEventData::PointerEventData(UnityEngine::EventSystems::EventSystem eventSystem)  : UnityEngine::EventSystems::BaseEventData(THROW_UNLESS(::il2cpp_utils::New<PointerEventData>(eventSystem))) {}
+ UnityEngine::EventSystems::PointerEventData UnityEngine::EventSystems::PointerEventData::New_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
+UnityEngine::EventSystems::PointerEventData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::PointerEventData>(eventSystem))};
+return o;
+}
  void UnityEngine::EventSystems::PointerEventData::_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::PointerEventData>::get(),

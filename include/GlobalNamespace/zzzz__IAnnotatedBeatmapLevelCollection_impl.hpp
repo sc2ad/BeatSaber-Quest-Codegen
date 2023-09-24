@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IAnnotatedBeatmapLevelCollection.get_collectionName
 template<>
 

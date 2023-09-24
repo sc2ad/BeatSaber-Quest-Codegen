@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class SaberManager;
-}
-namespace UnityEngine {
-class ParticleSystem;
-}
-namespace GlobalNamespace {
 class ColorManager;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
+class SaberManager;
+}
+namespace GlobalNamespace {
 class Saber;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -112,8 +112,7 @@ constexpr GlobalNamespace::Saber __get__saber() const;
 /// @brief Method EndEffect addr 0x224c564 size 0x94 virtual true final false
  void EndEffect() ;
 
-// Ctor Parameters []
-explicit SliderParticleInteractionEffect() ;
+static GlobalNamespace::SliderParticleInteractionEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x224c5f8 size 0x8 virtual false final false
  void _ctor() ;

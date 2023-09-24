@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__RangeItemHeaderValue_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::RangeItemHeaderValue._ctor
 template<>
 
@@ -171,8 +171,10 @@ constexpr void System::Net::Http::Headers::RangeItemHeaderValue::__set__To_k__Ba
 constexpr System::Nullable_1<int64_t> System::Net::Http::Headers::RangeItemHeaderValue::__get__To_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Nullable_1<int64_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "from", ty: "System::Nullable_1<int64_t>", modifiers: "", def_value: None }, CppParam { name: "to", ty: "System::Nullable_1<int64_t>", modifiers: "", def_value: None }]
- System::Net::Http::Headers::RangeItemHeaderValue::RangeItemHeaderValue(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RangeItemHeaderValue>(from, to))) {}
+ System::Net::Http::Headers::RangeItemHeaderValue System::Net::Http::Headers::RangeItemHeaderValue::New_ctor(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to)  {
+System::Net::Http::Headers::RangeItemHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::RangeItemHeaderValue>(from, to))};
+return o;
+}
  void System::Net::Http::Headers::RangeItemHeaderValue::_ctor(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::RangeItemHeaderValue>::get(),

@@ -103,8 +103,7 @@ constexpr int32_t __get__erroredWorkItems() const;
 /// @brief Method ProgressRatio addr 0x202b208 size 0xac virtual false final false
  ::StringW ProgressRatio() ;
 
-// Ctor Parameters []
-explicit HEU_WorkItemTally() ;
+static HoudiniEngineUnity::HEU_WorkItemTally New_ctor() ;
 
 /// @brief Method .ctor addr 0x202afb0 size 0x8 virtual false final false
  void _ctor() ;

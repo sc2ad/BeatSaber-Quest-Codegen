@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class IAsn1Choice;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class OtherHashAlgAndValue;
@@ -91,20 +91,17 @@ constexpr Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue __get_otherHash() c
 /// @brief Method GetInstance addr 0xe04f00 size 0x128 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::OtherHash GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "sha1Hash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit OtherHash(::ArrayW<uint8_t> sha1Hash) ;
+static Org::BouncyCastle::Asn1::Esf::OtherHash New_ctor(::ArrayW<uint8_t> sha1Hash) ;
 
 /// @brief Method .ctor addr 0xe06c18 size 0xc4 virtual false final false
  void _ctor(::ArrayW<uint8_t> sha1Hash) ;
 
-// Ctor Parameters [CppParam { name: "sha1Hash", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit OtherHash(Org::BouncyCastle::Asn1::Asn1OctetString sha1Hash) ;
+static Org::BouncyCastle::Asn1::Esf::OtherHash New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString sha1Hash) ;
 
 /// @brief Method .ctor addr 0xe069a0 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString sha1Hash) ;
 
-// Ctor Parameters [CppParam { name: "otherHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue", modifiers: "", def_value: None }]
-explicit OtherHash(Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue otherHash) ;
+static Org::BouncyCastle::Asn1::Esf::OtherHash New_ctor(Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue otherHash) ;
 
 /// @brief Method .ctor addr 0xe06ba0 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue otherHash) ;

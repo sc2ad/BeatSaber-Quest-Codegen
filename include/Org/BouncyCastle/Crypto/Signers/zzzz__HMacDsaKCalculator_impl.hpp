@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__HMacDsaKCalculator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaKCalculator_def.hpp"
-#include "Org/BouncyCastle/Crypto/Macs/zzzz__HMac_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/Macs/zzzz__HMac_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaKCalculator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator._ctor
 template<>
 
@@ -135,8 +135,10 @@ constexpr void Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator::__set_n(O
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator::__get_n() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator::HMacDsaKCalculator(Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMacDsaKCalculator>(digest))) {}
+ Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator>::get(),

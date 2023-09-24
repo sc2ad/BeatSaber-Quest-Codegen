@@ -2,12 +2,12 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__PartBinding.get_part
@@ -346,8 +346,10 @@ constexpr void UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingC
 constexpr int32_t UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2::__get__i_5__6() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x7c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2::UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2>(__1__state))) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2 UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2::New_ctor(int32_t __1__state)  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2>(__1__state))};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext___get_controls_d__2>::get(),
@@ -650,36 +652,6 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<double_t, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, partNumber);
 }
-//  Writing Method size for method: UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1.Compare
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1::*)(TValue, TValue)>(&UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1::Compare)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1>::get(),
-                            "Compare",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::Collections::Generic::IComparer_1<TValue>
-constexpr  UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1::operator System::Collections::Generic::IComparer_1<TValue>() const {
-return System::Collections::Generic::IComparer_1<TValue>(::cordl_internals::Box(this).convert());
-}
- int32_t UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1::Compare(TValue x, TValue y)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1>::get(),
-                            "Compare",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, x, y);
-}
 //  Writing Method size for method: UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1<float_t>.Compare
 template<>
 
@@ -707,6 +679,19 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             "Compare",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, x, y);
+}
+/// @brief Convert operator to System::Collections::Generic::IComparer_1<TValue>
+constexpr  UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1<TValue>::operator System::Collections::Generic::IComparer_1<TValue>() const {
+return System::Collections::Generic::IComparer_1<TValue>(::cordl_internals::Box(this).convert());
+}
+ int32_t UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1<TValue>::Compare(TValue x, TValue y)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingCompositeContext__DefaultComparer_1<TValue>>::get(),
+                            "Compare",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, x, y);
 }

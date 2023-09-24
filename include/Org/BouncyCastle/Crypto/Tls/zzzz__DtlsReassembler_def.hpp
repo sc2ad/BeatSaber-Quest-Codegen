@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto::Tls {
+class Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range;
+}
 namespace System::Collections {
 class IList;
 }
@@ -77,8 +80,7 @@ constexpr int32_t __get_mEnd() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range(int32_t start, int32_t end) ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReassembler__Range New_ctor(int32_t start, int32_t end) ;
 
 /// @brief Method .ctor addr 0xede650 size 0x2c virtual false final false
  void _ctor(int32_t start, int32_t end) ;
@@ -169,8 +171,7 @@ constexpr System::Collections::IList __get_mMissing() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "msg_type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DtlsReassembler(uint8_t msg_type, int32_t length) ;
+static Org::BouncyCastle::Crypto::Tls::DtlsReassembler New_ctor(uint8_t msg_type, int32_t length) ;
 
 /// @brief Method .ctor addr 0xede504 size 0x14c virtual false final false
  void _ctor(uint8_t msg_type, int32_t length) ;

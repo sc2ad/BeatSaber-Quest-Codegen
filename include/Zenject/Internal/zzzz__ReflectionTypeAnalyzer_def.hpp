@@ -3,46 +3,73 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass6_0;
+}
 namespace Zenject {
 class InjectableInfo;
 }
-namespace System {
-class Type;
-}
-namespace Zenject::Internal {
-class Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo;
-}
-namespace Zenject::Internal {
-class Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo;
-}
 namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace Zenject::Internal {
-class ReflectionTypeInfo;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace Zenject::Internal {
-class Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo;
-}
-namespace Zenject::Internal {
-class Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo;
+class MemberInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
 namespace Zenject::Internal {
-class Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo;
+class Zenject__Internal__ReflectionTypeInfo__InjectConstructorInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass8_0;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass7_0;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass7_1;
 }
 namespace System::Reflection {
 class ParameterInfo;
 }
-namespace System::Reflection {
-class MemberInfo;
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeAnalyzer____c;
+}
+namespace System {
+class Type;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectPropertyInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass5_0;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass6_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass5_1;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass11_0;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectFieldInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectMethodInfo;
+}
+namespace Zenject::Internal {
+class Zenject__Internal__ReflectionTypeInfo__InjectParameterInfo;
+}
+namespace Zenject::Internal {
+class ReflectionTypeInfo;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -51,14 +78,14 @@ namespace System::Reflection {
 class FieldInfo;
 }
 namespace System::Reflection {
-class PropertyInfo;
+class MethodInfo;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace System::Reflection {
-class MethodInfo;
+class PropertyInfo;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -142,8 +169,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass5_0() ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2dac8e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -212,8 +238,7 @@ constexpr System::Reflection::PropertyInfo __get_x() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass5_1() ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass5_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2dacbbc size 0x8 virtual false final false
  void _ctor() ;
@@ -318,8 +343,7 @@ static System::Func_2<System::Reflection::ConstructorInfo,int32_t> __get___9__11
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionTypeAnalyzer____c() ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeAnalyzer____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2dacf10 size 0x8 virtual false final false
  void _ctor() ;
@@ -403,8 +427,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass6_0() ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2dad5c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -473,8 +496,7 @@ constexpr System::Reflection::FieldInfo __get_x() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass6_1() ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass6_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2dad118 size 0x8 virtual false final false
  void _ctor() ;
@@ -549,8 +571,7 @@ constexpr System::Func_2<System::Reflection::ParameterInfo,Zenject::Internal::Ze
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass7_0() ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2dadb84 size 0x8 virtual false final false
  void _ctor() ;
@@ -619,8 +640,7 @@ constexpr System::Reflection::MethodInfo __get_x() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass7_1() ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass7_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2dad220 size 0x8 virtual false final false
  void _ctor() ;
@@ -689,8 +709,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass8_0() ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2dae09c size 0x8 virtual false final false
  void _ctor() ;
@@ -759,8 +778,7 @@ constexpr System::Reflection::ConstructorInfo __get_c() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass11_0() ;
+static Zenject::Internal::Zenject__Internal__ReflectionTypeAnalyzer____c__DisplayClass11_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2dad328 size 0x8 virtual false final false
  void _ctor() ;

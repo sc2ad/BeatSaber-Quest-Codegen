@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AchievementIdsModelSO.get_achievementsIds
 template<>
 
@@ -52,8 +52,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<GlobalNamespace::AchievementSO>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AchievementIdsModelSO::AchievementIdsModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<AchievementIdsModelSO>())) {}
+ GlobalNamespace::AchievementIdsModelSO GlobalNamespace::AchievementIdsModelSO::New_ctor()  {
+GlobalNamespace::AchievementIdsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AchievementIdsModelSO>())};
+return o;
+}
  void GlobalNamespace::AchievementIdsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AchievementIdsModelSO>::get(),

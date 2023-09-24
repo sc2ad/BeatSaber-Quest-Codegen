@@ -6,35 +6,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Newtonsoft::Json::Linq {
-class JToken;
+struct JTokenType;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class IList_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
-struct JTokenType;
-}
-namespace Newtonsoft::Json::Linq {
 class JsonLoadSettings;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JsonMergeSettings;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
@@ -43,14 +33,24 @@ namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonConverter;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 namespace Newtonsoft::Json {
-class JsonConverter;
+class JsonWriter;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
+class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -138,26 +138,22 @@ constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Linq::JToken> _
 /// @brief Method get_Type addr 0x2522ed8 size 0x8 virtual true final false
  Newtonsoft::Json::Linq::JTokenType get_Type() ;
 
-// Ctor Parameters []
-explicit JArray() ;
+static Newtonsoft::Json::Linq::JArray New_ctor() ;
 
 /// @brief Method .ctor addr 0x251ec78 size 0x78 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JArray", modifiers: "", def_value: None }]
-explicit JArray(Newtonsoft::Json::Linq::JArray other) ;
+static Newtonsoft::Json::Linq::JArray New_ctor(Newtonsoft::Json::Linq::JArray other) ;
 
 /// @brief Method .ctor addr 0x2522ee0 size 0x88 virtual false final false
  void _ctor(Newtonsoft::Json::Linq::JArray other) ;
 
-// Ctor Parameters [CppParam { name: "content", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit JArray(::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
+static Newtonsoft::Json::Linq::JArray New_ctor(::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
 
 /// @brief Method .ctor addr 0x2522f68 size 0x4 virtual false final false
  void _ctor(::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
 
-// Ctor Parameters [CppParam { name: "content", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit JArray(::bs_hook::Il2CppWrapperType content) ;
+static Newtonsoft::Json::Linq::JArray New_ctor(::bs_hook::Il2CppWrapperType content) ;
 
 /// @brief Method .ctor addr 0x2522f6c size 0x9c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType content) ;

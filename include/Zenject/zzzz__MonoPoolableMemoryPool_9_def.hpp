@@ -3,11 +3,11 @@
 #include "Zenject/zzzz__MemoryPool_9_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace UnityEngine {
-class Transform;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace Zenject {
@@ -24,7 +24,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TParam6,::cordl_internals::il2cpp_reference_type TParam7,::cordl_internals::il2cpp_reference_type TParam8,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10988)), TypeDefinitionIndex(TypeDefinitionIndex(11006)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10988), inst: 3424 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10988), inst: 3424 }), TypeDefinitionIndex(TypeDefinitionIndex(11006)), TypeDefinitionIndex(TypeDefinitionIndex(10988))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11006), inst: 7469 })
 // CS Name: Zenject.MonoPoolableMemoryPool`9
 class CORDL_TYPE MonoPoolableMemoryPool_9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue> : public Zenject::MemoryPool_9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue> {
@@ -72,8 +72,7 @@ constexpr UnityEngine::Transform __get__originalParent() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoPoolableMemoryPool_9() ;
+static Zenject::MonoPoolableMemoryPool_9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

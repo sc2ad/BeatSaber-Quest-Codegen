@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateRequest_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::CertificateRequest._ctor
 template<>
@@ -123,8 +123,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::CertificateRequest::__set_mCertif
 constexpr System::Collections::IList Org::BouncyCastle::Crypto::Tls::CertificateRequest::__get_mCertificateAuthorities() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "certificateTypes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "certificateAuthorities", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::CertificateRequest::CertificateRequest(::ArrayW<uint8_t> certificateTypes, System::Collections::IList supportedSignatureAlgorithms, System::Collections::IList certificateAuthorities)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertificateRequest>(certificateTypes, supportedSignatureAlgorithms, certificateAuthorities))) {}
+ Org::BouncyCastle::Crypto::Tls::CertificateRequest Org::BouncyCastle::Crypto::Tls::CertificateRequest::New_ctor(::ArrayW<uint8_t> certificateTypes, System::Collections::IList supportedSignatureAlgorithms, System::Collections::IList certificateAuthorities)  {
+Org::BouncyCastle::Crypto::Tls::CertificateRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::CertificateRequest>(certificateTypes, supportedSignatureAlgorithms, certificateAuthorities))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::CertificateRequest::_ctor(::ArrayW<uint8_t> certificateTypes, System::Collections::IList supportedSignatureAlgorithms, System::Collections::IList certificateAuthorities)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::CertificateRequest>::get(),

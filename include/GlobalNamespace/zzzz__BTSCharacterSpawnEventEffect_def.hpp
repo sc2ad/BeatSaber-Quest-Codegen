@@ -4,56 +4,56 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class BTSCharacterDataModel;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class AnimationClip;
+class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BeatmapCallbacksController;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System {
-template<typename T1,typename T2>
-class Tuple_2;
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+struct EnvironmentContext;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+class BTSCharacter;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
+class BTSCharacterDataModel;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
+namespace System {
+template<typename T1,typename T2>
+class Tuple_2;
 }
 namespace GlobalNamespace {
-class BTSCharacter;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-struct EnvironmentContext;
+class IAudioTimeSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -223,8 +223,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::ResourceManagement::
 /// @brief Method GetCharacterWithAnimationClip addr 0x20a954c size 0x170 virtual false final false
 static System::Tuple_2<GlobalNamespace::BTSCharacter,UnityEngine::AnimationClip> GetCharacterWithAnimationClip(System::Collections::Generic::Dictionary_2<int32_t,GlobalNamespace::BTSCharacter> charDictionary, System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::AnimationClip> animDictionary, int32_t prefabId, int32_t animationId) ;
 
-// Ctor Parameters []
-explicit BTSCharacterSpawnEventEffect() ;
+static GlobalNamespace::BTSCharacterSpawnEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a9984 size 0x130 virtual false final false
  void _ctor() ;

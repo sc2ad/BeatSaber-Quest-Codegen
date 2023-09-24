@@ -15,11 +15,14 @@ class IEnumerator;
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine {
-class Animation;
+namespace GlobalNamespace {
+class GlobalNamespace__VFXController___MainCoroutine_d__9;
 }
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace UnityEngine {
+class Animation;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +122,7 @@ constexpr float_t __get_duration() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VFXController___MainCoroutine_d__9(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f7d634 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -231,8 +233,7 @@ constexpr bool __get__deactivateAfterAnimationDuration() const;
 /// @brief Method MainCoroutine addr 0x1f7d5a8 size 0x8c virtual false final false
  System::Collections::IEnumerator MainCoroutine(bool deactivateAfterDuration, float_t duration) ;
 
-// Ctor Parameters []
-explicit VFXController() ;
+static GlobalNamespace::VFXController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7d65c size 0x8 virtual false final false
  void _ctor() ;

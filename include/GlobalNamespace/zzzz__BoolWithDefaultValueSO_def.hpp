@@ -59,8 +59,7 @@ constexpr bool __get__defaultValue() const;
 /// @brief Method OnEnable addr 0x1f83cb0 size 0x68 virtual true final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit BoolWithDefaultValueSO() ;
+static GlobalNamespace::BoolWithDefaultValueSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83d18 size 0x4 virtual false final false
  void _ctor() ;

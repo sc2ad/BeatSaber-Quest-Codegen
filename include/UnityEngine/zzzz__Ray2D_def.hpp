@@ -4,10 +4,10 @@
 #include <cmath>
 #include <cstddef>
 namespace System {
-class IFormatProvider;
+class IFormattable;
 }
 namespace System {
-class IFormattable;
+class IFormatProvider;
 }
 namespace UnityEngine {
 struct Vector2;

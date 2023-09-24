@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, objectType);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::DateTimeConverterBase::DateTimeConverterBase()  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<DateTimeConverterBase>())) {}
+ Newtonsoft::Json::Converters::DateTimeConverterBase Newtonsoft::Json::Converters::DateTimeConverterBase::New_ctor()  {
+Newtonsoft::Json::Converters::DateTimeConverterBase o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::DateTimeConverterBase>())};
+return o;
+}
  void Newtonsoft::Json::Converters::DateTimeConverterBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::DateTimeConverterBase>::get(),

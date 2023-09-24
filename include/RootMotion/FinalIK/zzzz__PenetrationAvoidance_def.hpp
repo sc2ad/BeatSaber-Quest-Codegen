@@ -7,17 +7,23 @@
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__PenetrationAvoidance__Avoider;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
 namespace UnityEngine {
 struct LayerMask;
+}
+namespace GlobalNamespace {
+class RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +92,7 @@ constexpr float_t __get_weight() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink() ;
+static GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink New_ctor() ;
 
 /// @brief Method .ctor addr 0x120bd90 size 0x8 virtual false final false
  void _ctor() ;
@@ -212,8 +217,7 @@ constexpr UnityEngine::Vector3 __get_offsetV() const;
 /// @brief Method Raycast addr 0x120ba5c size 0x320 virtual false final false
  UnityEngine::Vector3 Raycast(UnityEngine::Vector3 from, UnityEngine::Vector3 to) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__PenetrationAvoidance__Avoider() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__PenetrationAvoidance__Avoider New_ctor() ;
 
 /// @brief Method .ctor addr 0x120bd7c size 0x14 virtual false final false
  void _ctor() ;
@@ -278,8 +282,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__PenetrationAvoidanc
 /// @brief Method OnModifyOffset addr 0x120b744 size 0x70 virtual true final false
  void OnModifyOffset() ;
 
-// Ctor Parameters []
-explicit PenetrationAvoidance() ;
+static RootMotion::FinalIK::PenetrationAvoidance New_ctor() ;
 
 /// @brief Method .ctor addr 0x120b944 size 0x10 virtual false final false
  void _ctor() ;

@@ -75,20 +75,17 @@ static Org::BouncyCastle::Asn1::DerIA5String GetInstance(::bs_hook::Il2CppWrappe
 /// @brief Method GetInstance addr 0xeeefac size 0x13c virtual false final false
 static Org::BouncyCastle::Asn1::DerIA5String GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerIA5String(::ArrayW<uint8_t> str) ;
+static Org::BouncyCastle::Asn1::DerIA5String New_ctor(::ArrayW<uint8_t> str) ;
 
 /// @brief Method .ctor addr 0xeef0e8 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> str) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DerIA5String(::StringW str) ;
+static Org::BouncyCastle::Asn1::DerIA5String New_ctor(::StringW str) ;
 
 /// @brief Method .ctor addr 0xeef110 size 0x8 virtual false final false
  void _ctor(::StringW str) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "validate", ty: "bool", modifiers: "", def_value: None }]
-explicit DerIA5String(::StringW str, bool validate) ;
+static Org::BouncyCastle::Asn1::DerIA5String New_ctor(::StringW str, bool validate) ;
 
 /// @brief Method .ctor addr 0xeeb29c size 0xd8 virtual false final false
  void _ctor(::StringW str, bool validate) ;

@@ -2,11 +2,12 @@
 #include "RootMotion/FinalIK/zzzz__IKMapping_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMappingLimb_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMappingLimb_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKMappingLimb__BoneMapType::RootMotion__FinalIK__IKMappingLimb__BoneMapType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -300,8 +301,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, upper, lower);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKMappingLimb::IKMappingLimb()  : RootMotion::FinalIK::IKMapping(THROW_UNLESS(::il2cpp_utils::New<IKMappingLimb>())) {}
+ RootMotion::FinalIK::IKMappingLimb RootMotion::FinalIK::IKMappingLimb::New_ctor()  {
+RootMotion::FinalIK::IKMappingLimb o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKMappingLimb>())};
+return o;
+}
  void RootMotion::FinalIK::IKMappingLimb::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKMappingLimb>::get(),
@@ -311,8 +314,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bone1", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone2", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone3", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "parentBone", ty: "UnityEngine::Transform", modifiers: "", def_value: Some("csnull") }]
- RootMotion::FinalIK::IKMappingLimb::IKMappingLimb(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3, UnityEngine::Transform parentBone)  : RootMotion::FinalIK::IKMapping(THROW_UNLESS(::il2cpp_utils::New<IKMappingLimb>(bone1, bone2, bone3, parentBone))) {}
+/// @param parentBone: UnityEngine::Transform (default: csnull)
+ RootMotion::FinalIK::IKMappingLimb RootMotion::FinalIK::IKMappingLimb::New_ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3, UnityEngine::Transform parentBone)  {
+RootMotion::FinalIK::IKMappingLimb o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKMappingLimb>(bone1, bone2, bone3, parentBone))};
+return o;
+}
 /// @param parentBone: UnityEngine::Transform (default: csnull)
  void RootMotion::FinalIK::IKMappingLimb::_ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3, UnityEngine::Transform parentBone)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

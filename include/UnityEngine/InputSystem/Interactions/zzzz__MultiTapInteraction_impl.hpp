@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__MultiTapInteraction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputInteraction_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputInteraction_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
+#include "UnityEngine/InputSystem/Interactions/zzzz__MultiTapInteraction_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::Interactions::UnityEngine__InputSystem__Interactions__MultiTapInteraction__TapPhase::UnityEngine__InputSystem__Interactions__MultiTapInteraction__TapPhase(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -245,8 +246,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Interactions::MultiTapInteraction::MultiTapInteraction()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiTapInteraction>())) {}
+ UnityEngine::InputSystem::Interactions::MultiTapInteraction UnityEngine::InputSystem::Interactions::MultiTapInteraction::New_ctor()  {
+UnityEngine::InputSystem::Interactions::MultiTapInteraction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Interactions::MultiTapInteraction>())};
+return o;
+}
  void UnityEngine::InputSystem::Interactions::MultiTapInteraction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Interactions::MultiTapInteraction>::get(),

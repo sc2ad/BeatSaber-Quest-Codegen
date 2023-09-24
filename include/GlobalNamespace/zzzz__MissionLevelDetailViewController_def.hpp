@@ -4,6 +4,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+class GameplayModifierInfoListItem;
+}
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
+}
+namespace GlobalNamespace {
+class ObjectiveListItem;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -12,38 +21,32 @@ namespace GlobalNamespace {
 class MissionObjective;
 }
 namespace GlobalNamespace {
-class ObjectiveListItem;
+class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
-class GameplayModifierInfoListItem;
-}
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
-}
-namespace GlobalNamespace {
-class MissionNode;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class ObjectiveListItemsList;
+class GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0;
 }
 namespace GlobalNamespace {
 class GameplayModifierInfoListItemsList;
+}
+namespace GlobalNamespace {
+class LevelBar;
+}
+namespace GlobalNamespace {
+class ObjectiveListItemsList;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace UnityEngine::UI {
+class Button;
+}
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+class MissionNode;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace GlobalNamespace {
-class LevelBar;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +112,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GameplayModifier
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0() ;
+static GlobalNamespace::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2173368 size 0x8 virtual false final false
  void _ctor() ;
@@ -246,8 +248,7 @@ constexpr GlobalNamespace::MissionNode __get__missionNode() const;
 /// @brief Method PlayButtonPressed addr 0x2173370 size 0x20 virtual false final false
  void PlayButtonPressed() ;
 
-// Ctor Parameters []
-explicit MissionLevelDetailViewController() ;
+static GlobalNamespace::MissionLevelDetailViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2173390 size 0x8 virtual false final false
  void _ctor() ;

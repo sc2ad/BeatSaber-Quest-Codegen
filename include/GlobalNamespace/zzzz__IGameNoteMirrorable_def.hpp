@@ -1,13 +1,13 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 namespace GlobalNamespace {
-class INoteMirrorable;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__NoteData__GameplayType;
 }
 namespace GlobalNamespace {
 class NoteMovement;
+}
+namespace GlobalNamespace {
+class INoteMirrorable;
 }
 namespace GlobalNamespace {
 struct NoteVisualModifierType;

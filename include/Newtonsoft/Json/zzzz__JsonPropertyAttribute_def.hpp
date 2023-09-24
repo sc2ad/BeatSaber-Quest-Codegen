@@ -6,19 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Newtonsoft::Json {
-struct Required;
+struct ObjectCreationHandling;
 }
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
-struct TypeNameHandling;
-}
-namespace Newtonsoft::Json {
-struct ReferenceLoopHandling;
-}
-namespace Newtonsoft::Json {
-struct ObjectCreationHandling;
+struct DefaultValueHandling;
 }
 namespace Newtonsoft::Json {
 struct NullValueHandling;
@@ -28,7 +22,13 @@ template<typename T>
 struct Nullable_1;
 }
 namespace Newtonsoft::Json {
-struct DefaultValueHandling;
+struct Required;
+}
+namespace Newtonsoft::Json {
+struct ReferenceLoopHandling;
+}
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -278,14 +278,12 @@ constexpr ::StringW __get__PropertyName_k__BackingField() const;
 /// @brief Method set_ItemIsReference addr 0x24d1204 size 0x68 virtual false final false
  void set_ItemIsReference(bool value) ;
 
-// Ctor Parameters []
-explicit JsonPropertyAttribute() ;
+static Newtonsoft::Json::JsonPropertyAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24d126c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "propertyName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JsonPropertyAttribute(::StringW propertyName) ;
+static Newtonsoft::Json::JsonPropertyAttribute New_ctor(::StringW propertyName) ;
 
 /// @brief Method .ctor addr 0x24d1274 size 0x28 virtual false final false
  void _ctor(::StringW propertyName) ;

@@ -6,6 +6,9 @@
 namespace System::Collections {
 class IEnumerator;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -99,8 +102,7 @@ constexpr GlobalNamespace::DeactivateAfterFirstFrame __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2115a04 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -171,8 +173,7 @@ constexpr explicit DeactivateAfterFirstFrame(void* ptr) noexcept : UnityEngine::
 /// @brief Method Start addr 0x211599c size 0x68 virtual false final false
  System::Collections::IEnumerator Start() ;
 
-// Ctor Parameters []
-explicit DeactivateAfterFirstFrame() ;
+static GlobalNamespace::DeactivateAfterFirstFrame New_ctor() ;
 
 /// @brief Method .ctor addr 0x2115a2c size 0x8 virtual false final false
  void _ctor() ;

@@ -3,22 +3,22 @@
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class FileSaveData;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class SteamInit;
-}
-namespace GlobalNamespace {
 class MainSystemInit;
 }
 namespace GlobalNamespace {
 class DefaultScenesTransitionsFromInit;
 }
 namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
 class OculusInit;
+}
+namespace GlobalNamespace {
+class FileSaveData;
+}
+namespace GlobalNamespace {
+class SteamInit;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -129,8 +129,7 @@ constexpr GlobalNamespace::FileSaveData __get__saveData() const;
 /// @brief Method InstallBindings addr 0x20b76fc size 0x2e0 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit PCAppInit() ;
+static GlobalNamespace::PCAppInit New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b79dc size 0x4 virtual false final false
  void _ctor() ;

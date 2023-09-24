@@ -4,28 +4,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class IFormattable;
-}
 namespace UnityEngine {
 struct Vector3Int;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-class IDisposable;
+template<typename T>
+class IEquatable_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+struct UnityEngine__BoundsInt__PositionEnumerator;
+}
+namespace System {
+class IFormattable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine {

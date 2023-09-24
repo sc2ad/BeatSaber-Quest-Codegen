@@ -69,8 +69,7 @@ constexpr float_t __get__smooth() const;
 /// @brief Method Update addr 0x1f77fe8 size 0x170 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit FlexyFollowAndRotate() ;
+static GlobalNamespace::FlexyFollowAndRotate New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f78158 size 0x10 virtual false final false
  void _ctor() ;

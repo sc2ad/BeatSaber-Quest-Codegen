@@ -4,8 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace UnityEngine::Experimental::GlobalIllumination {
+class UnityEngine__Experimental__GlobalIllumination__Lightmapping____c;
+}
 namespace UnityEngine {
 class Light;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+class UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightDataGI;
@@ -66,8 +72,7 @@ constexpr explicit UnityEngine__Experimental__GlobalIllumination__Lightmapping__
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping__RequestLightsDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b7a3ac size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -130,8 +135,7 @@ static UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental_
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Experimental__GlobalIllumination__Lightmapping____c() ;
+static UnityEngine::Experimental::GlobalIllumination::UnityEngine__Experimental__GlobalIllumination__Lightmapping____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b7a4fc size 0x8 virtual false final false
  void _ctor() ;

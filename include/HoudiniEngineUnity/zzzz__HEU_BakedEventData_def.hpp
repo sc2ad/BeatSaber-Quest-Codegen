@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventData_def.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -66,8 +66,7 @@ constexpr bool __get_IsNewBake() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "asset", ty: "HoudiniEngineUnity::HEU_HoudiniAsset", modifiers: "", def_value: None }, CppParam { name: "successful", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "outputObjects", ty: "System::Collections::Generic::List_1<UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "isNewBake", ty: "bool", modifiers: "", def_value: None }]
-explicit HEU_BakedEventData(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects, bool isNewBake) ;
+static HoudiniEngineUnity::HEU_BakedEventData New_ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects, bool isNewBake) ;
 
 /// @brief Method .ctor addr 0x1fdaa98 size 0x6c virtual false final false
  void _ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects, bool isNewBake) ;

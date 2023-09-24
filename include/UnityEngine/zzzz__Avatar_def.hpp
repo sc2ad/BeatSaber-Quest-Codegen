@@ -8,10 +8,10 @@ namespace UnityEngine {
 struct HumanDescription;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -68,8 +68,7 @@ constexpr explicit Avatar(void* ptr) noexcept : UnityEngine::Object(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit Avatar() ;
+static UnityEngine::Avatar New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b19834 size 0x58 virtual false final false
  void _ctor() ;

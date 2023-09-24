@@ -72,8 +72,7 @@ constexpr ::StringW __get__domain() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Type1Message() ;
+static Mono::Security::Protocol::Ntlm::Type1Message New_ctor() ;
 
 /// @brief Method .ctor addr 0x2293df0 size 0x84 virtual false final false
  void _ctor() ;

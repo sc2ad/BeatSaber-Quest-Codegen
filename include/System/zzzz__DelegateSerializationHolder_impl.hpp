@@ -1,8 +1,9 @@
 #pragma once
 #include "System/zzzz__DelegateSerializationHolder_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__DelegateSerializationHolder_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::System__DelegateSerializationHolder__DelegateEntry._ctor
@@ -81,8 +82,10 @@ constexpr void System::System__DelegateSerializationHolder__DelegateEntry::__set
 constexpr System::System__DelegateSerializationHolder__DelegateEntry System::System__DelegateSerializationHolder__DelegateEntry::__get_delegateEntry() const {
 return ::cordl_internals::getInstanceField<System::System__DelegateSerializationHolder__DelegateEntry, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "del", ty: "System::Delegate", modifiers: "", def_value: None }, CppParam { name: "targetLabel", ty: "::StringW", modifiers: "", def_value: None }]
- System::System__DelegateSerializationHolder__DelegateEntry::System__DelegateSerializationHolder__DelegateEntry(System::Delegate del, ::StringW targetLabel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__DelegateSerializationHolder__DelegateEntry>(del, targetLabel))) {}
+ System::System__DelegateSerializationHolder__DelegateEntry System::System__DelegateSerializationHolder__DelegateEntry::New_ctor(System::Delegate del, ::StringW targetLabel)  {
+System::System__DelegateSerializationHolder__DelegateEntry o{THROW_UNLESS(::il2cpp_utils::New<System::System__DelegateSerializationHolder__DelegateEntry>(del, targetLabel))};
+return o;
+}
  void System::System__DelegateSerializationHolder__DelegateEntry::_ctor(System::Delegate del, ::StringW targetLabel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__DelegateSerializationHolder__DelegateEntry>::get(),
@@ -183,8 +186,10 @@ constexpr void System::DelegateSerializationHolder::__set__delegate(System::Dele
 constexpr System::Delegate System::DelegateSerializationHolder::__get__delegate() const {
 return ::cordl_internals::getInstanceField<System::Delegate, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "ctx", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::DelegateSerializationHolder::DelegateSerializationHolder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext ctx)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DelegateSerializationHolder>(info, ctx))) {}
+ System::DelegateSerializationHolder System::DelegateSerializationHolder::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext ctx)  {
+System::DelegateSerializationHolder o{THROW_UNLESS(::il2cpp_utils::New<System::DelegateSerializationHolder>(info, ctx))};
+return o;
+}
  void System::DelegateSerializationHolder::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext ctx)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::DelegateSerializationHolder>::get(),

@@ -103,8 +103,7 @@ constexpr ::StringW __get_RequestHash() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MatchmakingEnqueueResult(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::MatchmakingEnqueueResult New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x25a0680 size 0x168 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

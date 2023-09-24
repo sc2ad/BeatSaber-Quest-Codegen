@@ -2,7 +2,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BombExplosionEffect_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BombExplosionEffect.Awake
 template<>
@@ -109,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pos);
 }
-// Ctor Parameters []
- GlobalNamespace::BombExplosionEffect::BombExplosionEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BombExplosionEffect>())) {}
+ GlobalNamespace::BombExplosionEffect GlobalNamespace::BombExplosionEffect::New_ctor()  {
+GlobalNamespace::BombExplosionEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BombExplosionEffect>())};
+return o;
+}
  void GlobalNamespace::BombExplosionEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BombExplosionEffect>::get(),

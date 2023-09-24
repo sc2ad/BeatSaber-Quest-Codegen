@@ -9,11 +9,11 @@ class ECPoint;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -89,26 +89,22 @@ constexpr Org::BouncyCastle::Math::EC::ECPoint __get_p() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }]
-explicit X9ECPoint(Org::BouncyCastle::Math::EC::ECPoint p) ;
+static Org::BouncyCastle::Asn1::X9::X9ECPoint New_ctor(Org::BouncyCastle::Math::EC::ECPoint p) ;
 
 /// @brief Method .ctor addr 0x1126504 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECPoint p) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "compressed", ty: "bool", modifiers: "", def_value: None }]
-explicit X9ECPoint(Org::BouncyCastle::Math::EC::ECPoint p, bool compressed) ;
+static Org::BouncyCastle::Asn1::X9::X9ECPoint New_ctor(Org::BouncyCastle::Math::EC::ECPoint p, bool compressed) ;
 
 /// @brief Method .ctor addr 0x1126cec size 0xb8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECPoint p, bool compressed) ;
 
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit X9ECPoint(Org::BouncyCastle::Math::EC::ECCurve c, ::ArrayW<uint8_t> encoding) ;
+static Org::BouncyCastle::Asn1::X9::X9ECPoint New_ctor(Org::BouncyCastle::Math::EC::ECCurve c, ::ArrayW<uint8_t> encoding) ;
 
 /// @brief Method .ctor addr 0x111fe88 size 0xb8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve c, ::ArrayW<uint8_t> encoding) ;
 
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "s", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit X9ECPoint(Org::BouncyCastle::Math::EC::ECCurve c, Org::BouncyCastle::Asn1::Asn1OctetString s) ;
+static Org::BouncyCastle::Asn1::X9::X9ECPoint New_ctor(Org::BouncyCastle::Math::EC::ECCurve c, Org::BouncyCastle::Asn1::Asn1OctetString s) ;
 
 /// @brief Method .ctor addr 0x112640c size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve c, Org::BouncyCastle::Asn1::Asn1OctetString s) ;

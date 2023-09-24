@@ -61,8 +61,7 @@ constexpr int32_t __get_blockSize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit CtsBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+static Org::BouncyCastle::Crypto::Modes::CtsBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe8f014 size 0x1ac virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;

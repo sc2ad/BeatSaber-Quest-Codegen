@@ -6,12 +6,12 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine::UIElements {
+class IScheduler;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
-}
-namespace UnityEngine::UIElements {
-class IScheduler;
 }
 namespace UnityEngine::UIElements {
 class ScheduledItem;
@@ -119,8 +119,7 @@ constexpr int32_t __get_m_LastUpdatedIndex() const;
 /// @brief Method UpdateScheduledEvents addr 0x2c8f53c size 0x310 virtual true final true
  void UpdateScheduledEvents() ;
 
-// Ctor Parameters []
-explicit TimerEventScheduler() ;
+static UnityEngine::UIElements::TimerEventScheduler New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c8f84c size 0xf0 virtual false final false
  void _ctor() ;

@@ -2,15 +2,15 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine::XR {
+class XRInputSubsystemDescriptor;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::XR {
 class XRDisplaySubsystemDescriptor;
-}
-namespace UnityEngine::XR {
-class XRInputSubsystemDescriptor;
 }
 namespace UnityEngine::XR {
 class XRDisplaySubsystem;
@@ -122,8 +122,7 @@ static ::StringW __get_s_InputName() ;
 /// @brief Method EnableVRAndDisable2DReprojection addr 0x2b07608 size 0xc4 virtual false final false
  bool EnableVRAndDisable2DReprojection() ;
 
-// Ctor Parameters []
-explicit PSVRLoader() ;
+static UnityEngine::PS4::XR::PSVRLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b076cc size 0x8 virtual false final false
  void _ctor() ;

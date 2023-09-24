@@ -3,18 +3,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace UnityEngine {
-class AudioSource;
-}
 namespace GlobalNamespace {
-class Signal;
+template<typename T>
+class RandomObjectPicker_1;
 }
 namespace UnityEngine {
 class AudioClip;
 }
 namespace GlobalNamespace {
-template<typename T>
-class RandomObjectPicker_1;
+class Signal;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,8 +113,7 @@ constexpr GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip> __get__r
 /// @brief Method HandleButtonClickEvent addr 0x211c64c size 0xd0 virtual false final false
  void HandleButtonClickEvent() ;
 
-// Ctor Parameters []
-explicit BasicUIAudioManager() ;
+static GlobalNamespace::BasicUIAudioManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x211c71c size 0x10 virtual false final false
  void _ctor() ;

@@ -54,8 +54,10 @@ constexpr void HoudiniEngineUnity::HEU_InputObjectPreset::__set__scaleOffset(Uni
 constexpr UnityEngine::Vector3 HoudiniEngineUnity::HEU_InputObjectPreset::__get__scaleOffset() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InputObjectPreset::HEU_InputObjectPreset()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_InputObjectPreset>())) {}
+ HoudiniEngineUnity::HEU_InputObjectPreset HoudiniEngineUnity::HEU_InputObjectPreset::New_ctor()  {
+HoudiniEngineUnity::HEU_InputObjectPreset o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InputObjectPreset>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InputObjectPreset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InputObjectPreset>::get(),

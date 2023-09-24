@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crmf/zzzz__IControl_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crmf::IControl.get_Type
 template<>
 

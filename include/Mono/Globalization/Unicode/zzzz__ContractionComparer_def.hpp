@@ -70,8 +70,7 @@ static Mono::Globalization::Unicode::ContractionComparer __get_Instance() ;
 /// @brief Method Compare addr 0x22a7f9c size 0x94 virtual true final true
  int32_t Compare(Mono::Globalization::Unicode::Contraction c1, Mono::Globalization::Unicode::Contraction c2) ;
 
-// Ctor Parameters []
-explicit ContractionComparer() ;
+static Mono::Globalization::Unicode::ContractionComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x22a8030 size 0x8 virtual false final false
  void _ctor() ;

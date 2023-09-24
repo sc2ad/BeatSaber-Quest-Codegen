@@ -4,7 +4,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace HoudiniEngineUnity {
-struct SessionConnectionState;
+struct HAPI_Session;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_SessionType;
@@ -13,7 +13,7 @@ namespace System {
 class Type;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_Session;
+struct SessionConnectionState;
 }
 namespace HoudiniEngineUnity {
 struct SessionMode;
@@ -238,8 +238,7 @@ constexpr HoudiniEngineUnity::SessionMode __get__sessionMode() const;
 /// @brief Method set_ThisSessionMode addr 0x203118c size 0x8 virtual false final false
  void set_ThisSessionMode(HoudiniEngineUnity::SessionMode value) ;
 
-// Ctor Parameters []
-explicit HEU_SessionData() ;
+static HoudiniEngineUnity::HEU_SessionData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2031194 size 0x10 virtual false final false
  void _ctor() ;

@@ -90,8 +90,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "encodedValue", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::AuthorityKeyIdentifierStructure(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue)  : Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier(THROW_UNLESS(::il2cpp_utils::New<AuthorityKeyIdentifierStructure>(encodedValue))) {}
+ Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue)  {
+Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure>(encodedValue))};
+return o;
+}
  void Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure>::get(),
@@ -119,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Asn1Sequence, false>(nullptr, ___internal_method, pubKey);
 }
-// Ctor Parameters [CppParam { name: "certificate", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::AuthorityKeyIdentifierStructure(Org::BouncyCastle::X509::X509Certificate certificate)  : Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier(THROW_UNLESS(::il2cpp_utils::New<AuthorityKeyIdentifierStructure>(certificate))) {}
+ Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::New_ctor(Org::BouncyCastle::X509::X509Certificate certificate)  {
+Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure>(certificate))};
+return o;
+}
  void Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor(Org::BouncyCastle::X509::X509Certificate certificate)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure>::get(),
@@ -130,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certificate);
 }
-// Ctor Parameters [CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::AuthorityKeyIdentifierStructure(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey)  : Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier(THROW_UNLESS(::il2cpp_utils::New<AuthorityKeyIdentifierStructure>(pubKey))) {}
+ Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey)  {
+Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure>(pubKey))};
+return o;
+}
  void Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure>::get(),

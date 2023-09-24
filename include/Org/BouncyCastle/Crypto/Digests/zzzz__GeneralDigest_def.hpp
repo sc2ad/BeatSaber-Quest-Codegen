@@ -91,14 +91,12 @@ constexpr int64_t __get_byteCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GeneralDigest() ;
+static Org::BouncyCastle::Crypto::Digests::GeneralDigest New_ctor() ;
 
 /// @brief Method .ctor addr 0x119637c size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::GeneralDigest", modifiers: "", def_value: None }]
-explicit GeneralDigest(Org::BouncyCastle::Crypto::Digests::GeneralDigest t) ;
+static Org::BouncyCastle::Crypto::Digests::GeneralDigest New_ctor(Org::BouncyCastle::Crypto::Digests::GeneralDigest t) ;
 
 /// @brief Method .ctor addr 0x11963d8 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::GeneralDigest t) ;

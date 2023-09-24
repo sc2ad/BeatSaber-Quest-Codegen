@@ -62,8 +62,7 @@ constexpr Ice::FloorLightTile __get__floorLightTilePrefab() const;
 /// @brief Method InstallBindings addr 0x1211a58 size 0x84 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit FloorLightTileInstaller() ;
+static Ice::FloorLightTileInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x1211adc size 0x8 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__RegexRunner_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexInterpreter_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexCode_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexCode_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::RegexInterpreter._ctor
 template<>
 
@@ -719,8 +719,10 @@ constexpr void System::Text::RegularExpressions::RegexInterpreter::__set__caseIn
 constexpr bool System::Text::RegularExpressions::RegexInterpreter::__get__caseInsensitive() const {
 return ::cordl_internals::getInstanceField<bool, 0x99>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "code", ty: "System::Text::RegularExpressions::RegexCode", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexInterpreter::RegexInterpreter(System::Text::RegularExpressions::RegexCode code, System::Globalization::CultureInfo culture)  : System::Text::RegularExpressions::RegexRunner(THROW_UNLESS(::il2cpp_utils::New<RegexInterpreter>(code, culture))) {}
+ System::Text::RegularExpressions::RegexInterpreter System::Text::RegularExpressions::RegexInterpreter::New_ctor(System::Text::RegularExpressions::RegexCode code, System::Globalization::CultureInfo culture)  {
+System::Text::RegularExpressions::RegexInterpreter o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexInterpreter>(code, culture))};
+return o;
+}
  void System::Text::RegularExpressions::RegexInterpreter::_ctor(System::Text::RegularExpressions::RegexCode code, System::Globalization::CultureInfo culture)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexInterpreter>::get(),

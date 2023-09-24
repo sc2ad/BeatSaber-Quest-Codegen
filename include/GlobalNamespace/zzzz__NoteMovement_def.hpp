@@ -7,21 +7,24 @@
 namespace System {
 class Action;
 }
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace GlobalNamespace {
 class NoteJump;
 }
 namespace GlobalNamespace {
 class NoteFloorMovement;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__NoteMovement__MovementPhase;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,6 +83,8 @@ __Jumping = 2,
 constexpr operator __GlobalNamespace__NoteMovement__MovementPhase_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__NoteMovement__MovementPhase_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -385,8 +390,7 @@ constexpr UnityEngine::Vector3 __get__prevLocalPosition() const;
 /// @brief Method ManualUpdate addr 0x223ee4c size 0xb8 virtual false final false
  void ManualUpdate() ;
 
-// Ctor Parameters []
-explicit NoteMovement() ;
+static GlobalNamespace::NoteMovement New_ctor() ;
 
 /// @brief Method .ctor addr 0x22433a0 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,11 +4,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace Tweening {
-template<typename T>
-class Tween_1;
-}
-namespace TMPro {
-class TextMeshPro;
+class TimeTweeningManager;
 }
 namespace UnityEngine {
 class Transform;
@@ -16,11 +12,15 @@ class Transform;
 namespace UnityEngine {
 struct Color;
 }
+namespace TMPro {
+class TextMeshPro;
+}
 namespace GlobalNamespace {
 struct EaseType;
 }
 namespace Tweening {
-class TimeTweeningManager;
+template<typename T>
+class Tween_1;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -143,8 +143,7 @@ constexpr Tweening::Tween_1<UnityEngine::Vector3> __get__offsetTween() const;
 /// @brief Method SetText addr 0x20f13ec size 0x24 virtual false final false
  void SetText(::StringW text) ;
 
-// Ctor Parameters []
-explicit MultiplayerCenterTextAnimator() ;
+static GlobalNamespace::MultiplayerCenterTextAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f1410 size 0x8 virtual false final false
  void _ctor() ;

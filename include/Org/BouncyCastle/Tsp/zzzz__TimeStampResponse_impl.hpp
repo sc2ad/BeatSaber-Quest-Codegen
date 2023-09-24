@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampResponse_def.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampToken_def.hpp"
-#include "Org/BouncyCastle/Asn1/Tsp/zzzz__TimeStampResp_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiFailureInfo_def.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiFailureInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/Tsp/zzzz__TimeStampResp_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Tsp::TimeStampResponse._ctor
 template<>
 
@@ -188,8 +188,10 @@ constexpr void Org::BouncyCastle::Tsp::TimeStampResponse::__set_timeStampToken(O
 constexpr Org::BouncyCastle::Tsp::TimeStampToken Org::BouncyCastle::Tsp::TimeStampResponse::__get_timeStampToken() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Tsp::TimeStampToken, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "resp", ty: "Org::BouncyCastle::Asn1::Tsp::TimeStampResp", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampResponse::TimeStampResponse(Org::BouncyCastle::Asn1::Tsp::TimeStampResp resp)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampResponse>(resp))) {}
+ Org::BouncyCastle::Tsp::TimeStampResponse Org::BouncyCastle::Tsp::TimeStampResponse::New_ctor(Org::BouncyCastle::Asn1::Tsp::TimeStampResp resp)  {
+Org::BouncyCastle::Tsp::TimeStampResponse o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampResponse>(resp))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampResponse::_ctor(Org::BouncyCastle::Asn1::Tsp::TimeStampResp resp)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampResponse>::get(),
@@ -199,8 +201,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, resp);
 }
-// Ctor Parameters [CppParam { name: "resp", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampResponse::TimeStampResponse(::ArrayW<uint8_t> resp)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampResponse>(resp))) {}
+ Org::BouncyCastle::Tsp::TimeStampResponse Org::BouncyCastle::Tsp::TimeStampResponse::New_ctor(::ArrayW<uint8_t> resp)  {
+Org::BouncyCastle::Tsp::TimeStampResponse o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampResponse>(resp))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampResponse::_ctor(::ArrayW<uint8_t> resp)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampResponse>::get(),
@@ -210,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, resp);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampResponse::TimeStampResponse(System::IO::Stream input)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampResponse>(input))) {}
+ Org::BouncyCastle::Tsp::TimeStampResponse Org::BouncyCastle::Tsp::TimeStampResponse::New_ctor(System::IO::Stream input)  {
+Org::BouncyCastle::Tsp::TimeStampResponse o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampResponse>(input))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampResponse::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampResponse>::get(),

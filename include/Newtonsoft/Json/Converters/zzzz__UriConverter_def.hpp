@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
+}
+namespace System {
+class Type;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
@@ -69,8 +69,7 @@ constexpr explicit UriConverter(void* ptr) noexcept : Newtonsoft::Json::JsonConv
 /// @brief Method WriteJson addr 0x253f8a4 size 0x134 virtual true final false
  void WriteJson(Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::JsonSerializer serializer) ;
 
-// Ctor Parameters []
-explicit UriConverter() ;
+static Newtonsoft::Json::Converters::UriConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x253f9d8 size 0x8 virtual false final false
  void _ctor() ;

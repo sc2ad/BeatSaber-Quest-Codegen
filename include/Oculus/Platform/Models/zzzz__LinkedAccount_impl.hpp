@@ -36,8 +36,10 @@ constexpr void Oculus::Platform::Models::LinkedAccount::__set_UserId(::StringW v
 constexpr ::StringW Oculus::Platform::Models::LinkedAccount::__get_UserId() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::LinkedAccount::LinkedAccount(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LinkedAccount>(o))) {}
+ Oculus::Platform::Models::LinkedAccount Oculus::Platform::Models::LinkedAccount::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::LinkedAccount o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::LinkedAccount>(o))};
+return o;
+}
  void Oculus::Platform::Models::LinkedAccount::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::LinkedAccount>::get(),

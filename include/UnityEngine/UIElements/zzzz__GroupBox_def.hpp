@@ -4,19 +4,25 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
-class IGroupBox;
+class UnityEngine__UIElements__GroupBox__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__GroupBox__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class Label;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IGroupBox;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -85,8 +91,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Text()
 /// @brief Method Init addr 0x2cc147c size 0xf8 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__GroupBox__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc1574 size 0x84 virtual false final false
  void _ctor() ;
@@ -173,14 +178,12 @@ constexpr UnityEngine::UIElements::Label __get_m_TitleLabel() const;
 /// @brief Method set_text addr 0x2cc11ec size 0x118 virtual false final false
  void set_text(::StringW value) ;
 
-// Ctor Parameters []
-explicit GroupBox() ;
+static UnityEngine::UIElements::GroupBox New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc1304 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GroupBox(::StringW text) ;
+static UnityEngine::UIElements::GroupBox New_ctor(::StringW text) ;
 
 /// @brief Method .ctor addr 0x2cc130c size 0x88 virtual false final false
  void _ctor(::StringW text) ;
@@ -192,7 +195,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7212)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5088 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7213))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7213)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7212)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5088 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7211))
 // CS Name: UnityEngine.UIElements.GroupBox::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__GroupBox__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::GroupBox,UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits> {
@@ -231,8 +234,7 @@ constexpr explicit UnityEngine__UIElements__GroupBox__UxmlFactory(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__GroupBox__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc1434 size 0x48 virtual false final false
  void _ctor() ;

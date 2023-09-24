@@ -78,14 +78,12 @@ constexpr ::StringW __get__standalone() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "standalone", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XDeclaration(::StringW version, ::StringW encoding, ::StringW standalone) ;
+static System::Xml::Linq::XDeclaration New_ctor(::StringW version, ::StringW encoding, ::StringW standalone) ;
 
 /// @brief Method .ctor addr 0x26cb59c size 0x3c virtual false final false
  void _ctor(::StringW version, ::StringW encoding, ::StringW standalone) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XDeclaration", modifiers: "", def_value: None }]
-explicit XDeclaration(System::Xml::Linq::XDeclaration other) ;
+static System::Xml::Linq::XDeclaration New_ctor(System::Xml::Linq::XDeclaration other) ;
 
 /// @brief Method .ctor addr 0x26cb5d8 size 0x84 virtual false final false
  void _ctor(System::Xml::Linq::XDeclaration other) ;

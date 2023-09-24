@@ -6,7 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::IO {
-class Stream;
+class MemoryStream;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System {
 class AsyncCallback;
@@ -15,13 +21,7 @@ namespace System::Net {
 class HttpListenerResponse;
 }
 namespace System::IO {
-struct SeekOrigin;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::IO {
-class MemoryStream;
+class Stream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -121,8 +121,7 @@ static ::ArrayW<uint8_t> __get_crlf() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::HttpListenerResponse", modifiers: "", def_value: None }, CppParam { name: "ignore_errors", ty: "bool", modifiers: "", def_value: None }]
-explicit ResponseStream(System::IO::Stream stream, System::Net::HttpListenerResponse response, bool ignore_errors) ;
+static System::Net::ResponseStream New_ctor(System::IO::Stream stream, System::Net::HttpListenerResponse response, bool ignore_errors) ;
 
 /// @brief Method .ctor addr 0x2843b78 size 0x84 virtual false final false
  void _ctor(System::IO::Stream stream, System::Net::HttpListenerResponse response, bool ignore_errors) ;

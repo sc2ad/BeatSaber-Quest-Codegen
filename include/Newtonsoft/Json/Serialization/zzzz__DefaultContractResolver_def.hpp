@@ -5,40 +5,107 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Newtonsoft::Json::Serialization {
+class JsonPrimitiveContract;
+}
+namespace Newtonsoft::Json {
+struct MemberSerialization;
+}
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class SerializationCallback;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class IContractResolver;
+}
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonISerializableContract;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonStringContract;
+class Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System {
+template<typename T>
+class Predicate_1;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonLinqContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class SerializationErrorCallback;
+}
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonObjectContract;
+template<typename TEnumeratorKey,typename TEnumeratorValue>
+class Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2;
 }
-namespace Newtonsoft::Json {
-class JsonConverter;
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__DefaultContractResolver____c;
 }
-namespace Newtonsoft::Json {
-struct MemberSerialization;
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonDictionaryContract;
 }
 namespace System::Reflection {
-class ParameterInfo;
+struct BindingFlags;
+}
+namespace Newtonsoft::Json::Serialization {
+class IValueProvider;
+}
+namespace Newtonsoft::Json::Serialization {
+class DefaultContractResolverState;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonProperty;
+}
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0;
+}
+namespace System::Reflection {
+class ConstructorInfo;
 }
 namespace System {
 template<typename TResult>
@@ -48,65 +115,24 @@ namespace Newtonsoft::Json::Serialization {
 class JsonArrayContract;
 }
 namespace Newtonsoft::Json::Serialization {
-class IValueProvider;
+class JsonStringContract;
 }
 namespace System::Reflection {
-struct BindingFlags;
+class ParameterInfo;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonPropertyCollection;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
-namespace System {
-template<typename T>
-class Predicate_1;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonLinqContract;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonPrimitiveContract;
-}
-namespace Newtonsoft::Json::Serialization {
-class SerializationErrorCallback;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace Newtonsoft::Json::Serialization {
-class DefaultContractResolverState;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonProperty;
-}
-namespace Newtonsoft::Json::Serialization {
-class IContractResolver;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace Newtonsoft::Json::Serialization {
-class SerializationCallback;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonDictionaryContract;
+class JsonObjectContract;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace GlobalNamespace {
+template<typename TEnumeratorKey,typename TEnumeratorValue>
+class Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -115,13 +141,13 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
 namespace Newtonsoft::Json::Utilities {
 template<typename T,typename TResult>
 class MethodCall_2;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace Newtonsoft::Json::Serialization {
 template<typename T>
@@ -254,8 +280,7 @@ static System::Func_2<Newtonsoft::Json::Serialization::JsonProperty,int32_t> __g
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__DefaultContractResolver____c() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24fe8e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -339,8 +364,7 @@ constexpr System::Reflection::MemberInfo __get_member() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f9344 size 0x8 virtual false final false
  void _ctor() ;
@@ -418,8 +442,7 @@ constexpr Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__Defa
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f934c size 0x8 virtual false final false
  void _ctor() ;
@@ -488,8 +511,7 @@ constexpr Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__Defa
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass34_2 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f9484 size 0x8 virtual false final false
  void _ctor() ;
@@ -552,8 +574,7 @@ constexpr Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass64_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24fe5e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -616,8 +637,7 @@ constexpr System::Func_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperTy
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver____c__DisplayClass65_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24fe5ec size 0x8 virtual false final false
  void _ctor() ;
@@ -797,14 +817,12 @@ static Newtonsoft::Json::Serialization::IContractResolver get_Instance() ;
 /// @brief Method set_IgnoreSerializableAttribute addr 0x24f6ed0 size 0xc virtual false final false
  void set_IgnoreSerializableAttribute(bool value) ;
 
-// Ctor Parameters []
-explicit DefaultContractResolver() ;
+static Newtonsoft::Json::Serialization::DefaultContractResolver New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f6edc size 0x78 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "shareCache", ty: "bool", modifiers: "", def_value: None }]
-explicit DefaultContractResolver(bool shareCache) ;
+static Newtonsoft::Json::Serialization::DefaultContractResolver New_ctor(bool shareCache) ;
 
 /// @brief Method .ctor addr 0x24f6c54 size 0x24 virtual false final false
  void _ctor(bool shareCache) ;
@@ -1020,8 +1038,7 @@ constexpr System::Collections::Generic::IEnumerator_1<System::Collections::Gener
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2(int32_t __1__state) ;
+static GlobalNamespace::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey,TEnumeratorValue> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -1109,8 +1126,7 @@ constexpr System::Collections::Generic::IEnumerable_1<System::Collections::Gener
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "e", ty: "System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> e) ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey,TEnumeratorValue> New_ctor(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> e) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>> e) ;

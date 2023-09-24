@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+namespace UnityEngine::UI {
+class Button;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace System {
 class Action;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 namespace HMUI {
 class ImageView;
@@ -137,8 +137,7 @@ constexpr System::Action __get_incButtonWasPressedEvent() const;
 /// @brief Method DecButtonPressed addr 0x2122d34 size 0x1c virtual false final false
  void DecButtonPressed() ;
 
-// Ctor Parameters []
-explicit ColorStepValuePicker() ;
+static GlobalNamespace::ColorStepValuePicker New_ctor() ;
 
 /// @brief Method .ctor addr 0x2122d50 size 0x8 virtual false final false
  void _ctor() ;

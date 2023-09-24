@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace Tayx::Graphy::Ram {
-class G_RamMonitor;
+namespace UnityEngine::UI {
+class Text;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
 }
-namespace UnityEngine::UI {
-class Text;
+namespace Tayx::Graphy::Ram {
+class G_RamMonitor;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Ram {
@@ -114,8 +114,7 @@ constexpr float_t __get_m_deltaTime() const;
 /// @brief Method Init addr 0x2874fcc size 0xc4 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit G_RamText() ;
+static Tayx::Graphy::Ram::G_RamText New_ctor() ;
 
 /// @brief Method .ctor addr 0x28751f0 size 0x10 virtual false final false
  void _ctor() ;

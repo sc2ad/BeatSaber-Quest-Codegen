@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CubemapTest_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CubemapTest.Start
 template<>
@@ -115,8 +115,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CubemapTest::CubemapTest()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CubemapTest>())) {}
+ GlobalNamespace::CubemapTest GlobalNamespace::CubemapTest::New_ctor()  {
+GlobalNamespace::CubemapTest o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CubemapTest>())};
+return o;
+}
  void GlobalNamespace::CubemapTest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CubemapTest>::get(),

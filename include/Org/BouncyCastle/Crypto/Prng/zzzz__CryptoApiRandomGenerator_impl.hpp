@@ -114,8 +114,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::__set_
 constexpr System::Security::Cryptography::RandomNumberGenerator Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::__get_rndProv() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::RandomNumberGenerator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::CryptoApiRandomGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CryptoApiRandomGenerator>())) {}
+ Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator>::get(),
@@ -125,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rng", ty: "System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::CryptoApiRandomGenerator(System::Security::Cryptography::RandomNumberGenerator rng)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CryptoApiRandomGenerator>(rng))) {}
+ Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor(System::Security::Cryptography::RandomNumberGenerator rng)  {
+Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator>(rng))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::_ctor(System::Security::Cryptography::RandomNumberGenerator rng)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator>::get(),

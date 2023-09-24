@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Utilities::Zlib {
-class Adler32;
+class Deflate;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class Inflate;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class Deflate;
+class Adler32;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -254,8 +254,7 @@ constexpr Org::BouncyCastle::Utilities::Zlib::Adler32 __get__adler() const;
 /// @brief Method free addr 0x10dea58 size 0x14 virtual false final false
  void free() ;
 
-// Ctor Parameters []
-explicit ZStream() ;
+static Org::BouncyCastle::Utilities::Zlib::ZStream New_ctor() ;
 
 /// @brief Method .ctor addr 0x10de628 size 0x68 virtual false final false
  void _ctor() ;

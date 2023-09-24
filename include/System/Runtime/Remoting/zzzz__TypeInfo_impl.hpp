@@ -75,8 +75,10 @@ constexpr void System::Runtime::Remoting::TypeInfo::__set_interfacesImplemented(
 constexpr ::ArrayW<::StringW> System::Runtime::Remoting::TypeInfo::__get_interfacesImplemented() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::StringW>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::Remoting::TypeInfo::TypeInfo(System::Type type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TypeInfo>(type))) {}
+ System::Runtime::Remoting::TypeInfo System::Runtime::Remoting::TypeInfo::New_ctor(System::Type type)  {
+System::Runtime::Remoting::TypeInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::TypeInfo>(type))};
+return o;
+}
  void System::Runtime::Remoting::TypeInfo::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::TypeInfo>::get(),

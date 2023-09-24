@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Collections/zzzz__CaseInsensitiveHashCodeProvider_def.hpp"
-#include "System/Globalization/zzzz__CompareInfo_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Collections/zzzz__IHashCodeProvider_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Globalization/zzzz__CompareInfo_def.hpp"
 //  Writing Method size for method: System::Collections::CaseInsensitiveHashCodeProvider._ctor
 template<>
 
@@ -64,8 +64,10 @@ constexpr void System::Collections::CaseInsensitiveHashCodeProvider::__set__comp
 constexpr System::Globalization::CompareInfo System::Collections::CaseInsensitiveHashCodeProvider::__get__compareInfo() const {
 return ::cordl_internals::getInstanceField<System::Globalization::CompareInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::CaseInsensitiveHashCodeProvider::CaseInsensitiveHashCodeProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CaseInsensitiveHashCodeProvider>())) {}
+ System::Collections::CaseInsensitiveHashCodeProvider System::Collections::CaseInsensitiveHashCodeProvider::New_ctor()  {
+System::Collections::CaseInsensitiveHashCodeProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::CaseInsensitiveHashCodeProvider>())};
+return o;
+}
  void System::Collections::CaseInsensitiveHashCodeProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::CaseInsensitiveHashCodeProvider>::get(),
@@ -75,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
- System::Collections::CaseInsensitiveHashCodeProvider::CaseInsensitiveHashCodeProvider(System::Globalization::CultureInfo culture)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CaseInsensitiveHashCodeProvider>(culture))) {}
+ System::Collections::CaseInsensitiveHashCodeProvider System::Collections::CaseInsensitiveHashCodeProvider::New_ctor(System::Globalization::CultureInfo culture)  {
+System::Collections::CaseInsensitiveHashCodeProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::CaseInsensitiveHashCodeProvider>(culture))};
+return o;
+}
  void System::Collections::CaseInsensitiveHashCodeProvider::_ctor(System::Globalization::CultureInfo culture)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::CaseInsensitiveHashCodeProvider>::get(),

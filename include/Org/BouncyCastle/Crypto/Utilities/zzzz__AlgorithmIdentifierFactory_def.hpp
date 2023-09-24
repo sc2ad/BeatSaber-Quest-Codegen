@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Utilities {
@@ -82,8 +82,7 @@ static ::ArrayW<int16_t> __get_rc2Table() ;
 /// @brief Method GenerateEncryptionAlgID addr 0xf32f64 size 0x55c virtual false final false
 static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier GenerateEncryptionAlgID(Org::BouncyCastle::Asn1::DerObjectIdentifier encryptionOID, int32_t keySize, Org::BouncyCastle::Security::SecureRandom random) ;
 
-// Ctor Parameters []
-explicit AlgorithmIdentifierFactory() ;
+static Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0xf335e4 size 0x8 virtual false final false
  void _ctor() ;

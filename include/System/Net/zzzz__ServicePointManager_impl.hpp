@@ -1,13 +1,14 @@
 #pragma once
 #include "System/Net/zzzz__ServicePointManager_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__ServicePoint_def.hpp"
-#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
-#include "System/Net/zzzz__SecurityProtocolType_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
-#include "System/Net/zzzz__ICertificatePolicy_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
 #include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
+#include "System/Net/zzzz__ServicePoint_def.hpp"
+#include "System/Net/zzzz__ServicePointManager_def.hpp"
+#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Net/zzzz__SecurityProtocolType_def.hpp"
+#include "System/Net/zzzz__ICertificatePolicy_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__ServicePointManager__SPKey._ctor
 template<>
 
@@ -94,8 +95,10 @@ constexpr void System::Net::System__Net__ServicePointManager__SPKey::__set_use_c
 constexpr bool System::Net::System__Net__ServicePointManager__SPKey::__get_use_connect() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "proxy", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "use_connect", ty: "bool", modifiers: "", def_value: None }]
- System::Net::System__Net__ServicePointManager__SPKey::System__Net__ServicePointManager__SPKey(System::Uri uri, System::Uri proxy, bool use_connect)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__ServicePointManager__SPKey>(uri, proxy, use_connect))) {}
+ System::Net::System__Net__ServicePointManager__SPKey System::Net::System__Net__ServicePointManager__SPKey::New_ctor(System::Uri uri, System::Uri proxy, bool use_connect)  {
+System::Net::System__Net__ServicePointManager__SPKey o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__ServicePointManager__SPKey>(uri, proxy, use_connect))};
+return o;
+}
  void System::Net::System__Net__ServicePointManager__SPKey::_ctor(System::Uri uri, System::Uri proxy, bool use_connect)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__ServicePointManager__SPKey>::get(),

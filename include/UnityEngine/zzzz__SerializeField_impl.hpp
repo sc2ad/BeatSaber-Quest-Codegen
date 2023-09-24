@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::SerializeField::SerializeField()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<SerializeField>())) {}
+ UnityEngine::SerializeField UnityEngine::SerializeField::New_ctor()  {
+UnityEngine::SerializeField o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::SerializeField>())};
+return o;
+}
  void UnityEngine::SerializeField::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SerializeField>::get(),

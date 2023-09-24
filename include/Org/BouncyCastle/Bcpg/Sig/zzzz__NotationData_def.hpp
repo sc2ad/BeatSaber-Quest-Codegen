@@ -67,14 +67,12 @@ static constexpr int32_t  HeaderValueLength{2};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit NotationData(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::NotationData New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113dd3c size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "humanReadable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "notationName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "notationValue", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NotationData(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue) ;
+static Org::BouncyCastle::Bcpg::Sig::NotationData New_ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue) ;
 
 /// @brief Method .ctor addr 0x113dd84 size 0x54 virtual false final false
  void _ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue) ;

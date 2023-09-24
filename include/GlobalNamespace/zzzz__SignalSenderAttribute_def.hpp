@@ -47,8 +47,7 @@ constexpr explicit SignalSenderAttribute(void* ptr) noexcept : UnityEngine::Prop
 
 // Methods
 
-// Ctor Parameters []
-explicit SignalSenderAttribute() ;
+static GlobalNamespace::SignalSenderAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83808 size 0x8 virtual false final false
  void _ctor() ;

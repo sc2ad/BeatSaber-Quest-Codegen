@@ -6,20 +6,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace HoudiniEngineUnity {
+template<typename T>
+class HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1;
+}
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Collections::Generic {
+namespace HoudiniEngineUnity {
 template<typename T>
-class List_1;
+class HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1;
+}
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivableWrapperClass_1;
 }
-namespace HoudiniEngineUnity {
+namespace System::Collections::Generic {
 template<typename T>
-class IEquivable_1;
+class List_1;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeInfo;
@@ -67,6 +75,10 @@ template<>
 class HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum>;
 }
 namespace HoudiniEngineUnity {
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+class HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<T>;
+}
+namespace HoudiniEngineUnity {
 template<>
 class HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color>;
 }
@@ -93,10 +105,6 @@ class HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool>;
 namespace HoudiniEngineUnity {
 template<>
 class HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t>;
-}
-namespace HoudiniEngineUnity {
-template<>
-class HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<int32_t>;
 }
 // Type: ::RequireStruct`1
 // Type: ::RequireClass`1
@@ -229,8 +237,7 @@ static bool ShouldBeTested(::StringW a, ::StringW b, ByRef<bool> bResult, ::Stri
 /// @brief Method TestOutputObjectEquivalence addr 0x206ef98 size 0x6b4 virtual false final false
 static bool TestOutputObjectEquivalence(UnityEngine::GameObject a, UnityEngine::GameObject b) ;
 
-// Ctor Parameters []
-explicit HEU_TestHelpers() ;
+static HoudiniEngineUnity::HEU_TestHelpers New_ctor() ;
 
 /// @brief Method .ctor addr 0x206fc34 size 0x8 virtual false final false
  void _ctor() ;
@@ -245,9 +252,9 @@ namespace HoudiniEngineUnity {
 template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 92 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 6990 })
 // CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
-class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<int32_t> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<HoudiniEngineUnity::HAPI_AttributeInfo> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -283,386 +290,7 @@ constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* pt
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def HoudiniEngineUnity
-// Type: ::RequireStruct`1
-namespace HoudiniEngineUnity {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 99 })
-// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
-class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
-                
-
-
-// Methods
-
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def HoudiniEngineUnity
-// Type: ::RequireStruct`1
-namespace HoudiniEngineUnity {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 280 })
-// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
-class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
-                
-
-
-// Methods
-
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def HoudiniEngineUnity
-// Type: ::RequireStruct`1
-namespace HoudiniEngineUnity {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 374 })
-// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
-class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
-                
-
-
-// Methods
-
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def HoudiniEngineUnity
-// Type: ::RequireStruct`1
-namespace HoudiniEngineUnity {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 393 })
-// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
-class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
-                
-
-
-// Methods
-
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def HoudiniEngineUnity
-// Type: ::RequireStruct`1
-namespace HoudiniEngineUnity {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 394 })
-// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
-class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
-                
-
-
-// Methods
-
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def HoudiniEngineUnity
-// Type: ::RequireStruct`1
-namespace HoudiniEngineUnity {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 3205 })
-// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
-class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
-                
-
-
-// Methods
-
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def HoudiniEngineUnity
-// Type: ::RequireStruct`1
-namespace HoudiniEngineUnity {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 3222 })
-// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
-class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
-constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
-  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
-                
-
-
-// Methods
-
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<HoudiniEngineUnity::HAPI_AttributeInfo> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -715,8 +343,7 @@ constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* pt
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<System::Int32Enum> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -731,9 +358,9 @@ namespace HoudiniEngineUnity {
 template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 6990 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 3222 })
 // CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
-class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<HoudiniEngineUnity::HAPI_AttributeInfo> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -769,8 +396,378 @@ constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* pt
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Quaternion> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def HoudiniEngineUnity
+// Type: ::RequireStruct`1
+namespace HoudiniEngineUnity {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 3205 })
+// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
+class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
+                
+
+
+// Methods
+
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Matrix4x4> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def HoudiniEngineUnity
+// Type: ::RequireStruct`1
+namespace HoudiniEngineUnity {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 394 })
+// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
+class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
+                
+
+
+// Methods
+
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector3> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def HoudiniEngineUnity
+// Type: ::RequireStruct`1
+namespace HoudiniEngineUnity {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 393 })
+// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
+class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
+                
+
+
+// Methods
+
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Vector2> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def HoudiniEngineUnity
+// Type: ::RequireStruct`1
+namespace HoudiniEngineUnity {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 374 })
+// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
+class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
+                
+
+
+// Methods
+
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<float_t> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def HoudiniEngineUnity
+// Type: ::RequireStruct`1
+namespace HoudiniEngineUnity {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 280 })
+// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
+class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
+                
+
+
+// Methods
+
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<UnityEngine::Color> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def HoudiniEngineUnity
+// Type: ::RequireStruct`1
+namespace HoudiniEngineUnity {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 99 })
+// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
+class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
+                
+
+
+// Methods
+
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<bool> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def HoudiniEngineUnity
+// Type: ::RequireStruct`1
+namespace HoudiniEngineUnity {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9826))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9826), inst: 92 })
+// CS Name: HoudiniEngineUnity.HEU_TestHelpers::RequireStruct`1
+class CORDL_TYPE HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: " const&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
+constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1&& o) noexcept = default;
+  constexpr HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1& operator=(HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1 const& o) noexcept = default;
+                
+
+
+// Methods
+
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireStruct_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -823,8 +820,7 @@ constexpr explicit HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1(void* ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_TestHelpers__RequireClass_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

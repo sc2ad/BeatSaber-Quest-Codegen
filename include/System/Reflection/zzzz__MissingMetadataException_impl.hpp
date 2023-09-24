@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Reflection::MissingMetadataException::MissingMetadataException()  : System::TypeAccessException(THROW_UNLESS(::il2cpp_utils::New<MissingMetadataException>())) {}
+ System::Reflection::MissingMetadataException System::Reflection::MissingMetadataException::New_ctor()  {
+System::Reflection::MissingMetadataException o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::MissingMetadataException>())};
+return o;
+}
  void System::Reflection::MissingMetadataException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::MissingMetadataException>::get(),

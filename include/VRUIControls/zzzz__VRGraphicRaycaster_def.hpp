@@ -6,33 +6,39 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace VRUIControls {
+class PhysicsRaycasterWithCache;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+struct Ray;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace VRUIControls {
+struct VRUIControls__VRGraphicRaycaster__VRGraphicRaycastResult;
+}
 namespace HMUI {
 class CurvedCanvasSettingsHelper;
 }
 namespace VRUIControls {
-class PhysicsRaycasterWithCache;
+class VRUIControls__VRGraphicRaycaster____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace UnityEngine {
-struct Ray;
-}
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
 }
 namespace System {
 template<typename T>
@@ -42,10 +48,10 @@ namespace UnityEngine::UI {
 class Graphic;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -191,8 +197,7 @@ static System::Comparison_1<VRUIControls::VRUIControls__VRGraphicRaycaster__VRGr
 
 // Methods
 
-// Ctor Parameters []
-explicit VRUIControls__VRGraphicRaycaster____c() ;
+static VRUIControls::VRUIControls__VRGraphicRaycaster____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3ca98 size 0x8 virtual false final false
  void _ctor() ;
@@ -309,8 +314,7 @@ static ::ArrayW<float_t> __get__ray2DCircleIntersectionDistances() ;
 /// @brief Method RaycastCanvas addr 0x2d3bdb4 size 0xb48 virtual false final false
 static void RaycastCanvas(UnityEngine::Canvas canvas, UnityEngine::Ray ray, float_t hitDistance, float_t curvedUIRadius, System::Collections::Generic::List_1<VRUIControls::VRUIControls__VRGraphicRaycaster__VRGraphicRaycastResult> results) ;
 
-// Ctor Parameters []
-explicit VRGraphicRaycaster() ;
+static VRUIControls::VRGraphicRaycaster New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3c910 size 0xbc virtual false final false
  void _ctor() ;

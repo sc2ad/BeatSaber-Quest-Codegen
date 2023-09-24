@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpOnePassSignature_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPublicKey_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__OnePassSignaturePacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignature_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__Packet_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__OnePassSignaturePacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__Packet_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPublicKey_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignature_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature.Cast
 template<>
 
@@ -314,8 +314,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Bcpg::OnePassSignaturePacket, false>(nullptr, ___internal_method, packet);
 }
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::PgpOnePassSignature(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpOnePassSignature>(bcpgInput))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature>(bcpgInput))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature>::get(),
@@ -325,8 +327,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgInput);
 }
-// Ctor Parameters [CppParam { name: "sigPack", ty: "Org::BouncyCastle::Bcpg::OnePassSignaturePacket", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::PgpOnePassSignature(Org::BouncyCastle::Bcpg::OnePassSignaturePacket sigPack)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpOnePassSignature>(sigPack))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::New_ctor(Org::BouncyCastle::Bcpg::OnePassSignaturePacket sigPack)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature>(sigPack))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::_ctor(Org::BouncyCastle::Bcpg::OnePassSignaturePacket sigPack)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature>::get(),

@@ -4,13 +4,13 @@
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 namespace Oculus::Platform::Models {
-class MatchmakingBrowseResult;
+class RoomList;
 }
 namespace Oculus::Platform::Models {
 class MatchmakingEnqueueResult;
 }
 namespace Oculus::Platform::Models {
-class RoomList;
+class MatchmakingBrowseResult;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -58,8 +58,7 @@ constexpr explicit MessageWithMatchmakingBrowseResult(void* ptr) noexcept : Ocul
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithMatchmakingBrowseResult(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithMatchmakingBrowseResult New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257eab0 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

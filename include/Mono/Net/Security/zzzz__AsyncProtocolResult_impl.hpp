@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Runtime::ExceptionServices::ExceptionDispatchInfo, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "result", ty: "int32_t", modifiers: "", def_value: None }]
- Mono::Net::Security::AsyncProtocolResult::AsyncProtocolResult(int32_t result)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsyncProtocolResult>(result))) {}
+ Mono::Net::Security::AsyncProtocolResult Mono::Net::Security::AsyncProtocolResult::New_ctor(int32_t result)  {
+Mono::Net::Security::AsyncProtocolResult o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::AsyncProtocolResult>(result))};
+return o;
+}
  void Mono::Net::Security::AsyncProtocolResult::_ctor(int32_t result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::AsyncProtocolResult>::get(),
@@ -110,8 +112,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-// Ctor Parameters [CppParam { name: "error", ty: "System::Runtime::ExceptionServices::ExceptionDispatchInfo", modifiers: "", def_value: None }]
- Mono::Net::Security::AsyncProtocolResult::AsyncProtocolResult(System::Runtime::ExceptionServices::ExceptionDispatchInfo error)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsyncProtocolResult>(error))) {}
+ Mono::Net::Security::AsyncProtocolResult Mono::Net::Security::AsyncProtocolResult::New_ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo error)  {
+Mono::Net::Security::AsyncProtocolResult o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::AsyncProtocolResult>(error))};
+return o;
+}
  void Mono::Net::Security::AsyncProtocolResult::_ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo error)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::AsyncProtocolResult>::get(),

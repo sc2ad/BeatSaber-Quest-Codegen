@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/CryptoPro/zzzz__Gost3410NamedParameters_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Asn1/CryptoPro/zzzz__Gost3410ParamSetParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters._ctor
@@ -119,8 +119,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::CryptoPro::Gos
  Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::__get_cryptoProXchA()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters, "cryptoProXchA", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::Gost3410NamedParameters()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3410NamedParameters>())) {}
+ Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::New_ctor()  {
+Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters>::get(),

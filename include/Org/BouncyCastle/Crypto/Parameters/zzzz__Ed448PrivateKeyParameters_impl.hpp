@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Ed448PrivateKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Rfc8032/zzzz__Ed448_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Ed448PublicKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Rfc8032/zzzz__Ed448_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters._ctor
 template<>
 
@@ -165,8 +165,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters:
 constexpr Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::__get_cachedPublicKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::Ed448PrivateKeyParameters(Org::BouncyCastle::Security::SecureRandom random)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<Ed448PrivateKeyParameters>(random))) {}
+ Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::New_ctor(Org::BouncyCastle::Security::SecureRandom random)  {
+Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters>(random))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::_ctor(Org::BouncyCastle::Security::SecureRandom random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters>::get(),
@@ -176,8 +178,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, random);
 }
-// Ctor Parameters [CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::Ed448PrivateKeyParameters(::ArrayW<uint8_t> buf, int32_t off)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<Ed448PrivateKeyParameters>(buf, off))) {}
+ Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::New_ctor(::ArrayW<uint8_t> buf, int32_t off)  {
+Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters>(buf, off))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::_ctor(::ArrayW<uint8_t> buf, int32_t off)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters>::get(),
@@ -187,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buf, off);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::Ed448PrivateKeyParameters(System::IO::Stream input)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<Ed448PrivateKeyParameters>(input))) {}
+ Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::New_ctor(System::IO::Stream input)  {
+Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters>(input))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters>::get(),

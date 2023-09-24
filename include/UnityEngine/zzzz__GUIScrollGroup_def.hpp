@@ -126,8 +126,7 @@ constexpr UnityEngine::GUIStyle __get_verticalScrollbar() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GUIScrollGroup() ;
+static UnityEngine::GUIScrollGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b93e20 size 0x60 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerUtf8String_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerUtf8String.GetInstance
 template<>
@@ -147,8 +147,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerUtf8String, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerUtf8String::DerUtf8String(::ArrayW<uint8_t> str)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerUtf8String>(str))) {}
+ Org::BouncyCastle::Asn1::DerUtf8String Org::BouncyCastle::Asn1::DerUtf8String::New_ctor(::ArrayW<uint8_t> str)  {
+Org::BouncyCastle::Asn1::DerUtf8String o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerUtf8String>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerUtf8String::_ctor(::ArrayW<uint8_t> str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerUtf8String>::get(),
@@ -158,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerUtf8String::DerUtf8String(::StringW str)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerUtf8String>(str))) {}
+ Org::BouncyCastle::Asn1::DerUtf8String Org::BouncyCastle::Asn1::DerUtf8String::New_ctor(::StringW str)  {
+Org::BouncyCastle::Asn1::DerUtf8String o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerUtf8String>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerUtf8String::_ctor(::StringW str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerUtf8String>::get(),

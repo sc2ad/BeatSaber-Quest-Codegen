@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionMember_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Utilities::ReflectionMember.get_MemberType
 template<>
 
@@ -194,8 +194,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Utilities::ReflectionMember::ReflectionMember()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReflectionMember>())) {}
+ Newtonsoft::Json::Utilities::ReflectionMember Newtonsoft::Json::Utilities::ReflectionMember::New_ctor()  {
+Newtonsoft::Json::Utilities::ReflectionMember o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Utilities::ReflectionMember>())};
+return o;
+}
  void Newtonsoft::Json::Utilities::ReflectionMember::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::ReflectionMember>::get(),

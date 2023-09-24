@@ -5,23 +5,23 @@
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorIdentifierOrKey;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorIdentifierOrKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -115,14 +115,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_recipientEncryptedKeys() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "originator", ty: "Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey", modifiers: "", def_value: None }, CppParam { name: "ukm", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "keyEncryptionAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "recipientEncryptedKeys", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit KeyAgreeRecipientInfo(Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey originator, Org::BouncyCastle::Asn1::Asn1OctetString ukm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1Sequence recipientEncryptedKeys) ;
+static Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo New_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey originator, Org::BouncyCastle::Asn1::Asn1OctetString ukm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1Sequence recipientEncryptedKeys) ;
 
 /// @brief Method .ctor addr 0xdec644 size 0x98 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey originator, Org::BouncyCastle::Asn1::Asn1OctetString ukm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1Sequence recipientEncryptedKeys) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit KeyAgreeRecipientInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdec6dc size 0x288 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

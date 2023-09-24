@@ -4,6 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
@@ -61,6 +64,8 @@ __Negative = 2,
 constexpr operator __GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -168,8 +173,7 @@ constexpr int32_t __get__multiplierIncreaseMaxProgress() const;
 /// @brief Method ProcessMultiplierEvent addr 0x210f70c size 0x9c virtual false final false
  bool ProcessMultiplierEvent(GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType multiplierEventType) ;
 
-// Ctor Parameters []
-explicit ScoreMultiplierCounter() ;
+static GlobalNamespace::ScoreMultiplierCounter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2110078 size 0x18 virtual false final false
  void _ctor() ;

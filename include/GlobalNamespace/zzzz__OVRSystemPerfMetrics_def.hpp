@@ -9,6 +9,12 @@
 namespace GlobalNamespace {
 class GlobalNamespace__OVRNetwork__OVRNetworkTcpServer;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
@@ -256,8 +262,7 @@ constexpr ::ArrayW<float_t> __get_deviceCpuCoreUtilPercentage() const;
 /// @brief Method LoadFromJSON addr 0x263628c size 0x948 virtual false final false
  bool LoadFromJSON(::StringW json) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics() ;
+static GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics New_ctor() ;
 
 /// @brief Method .ctor addr 0x2637370 size 0xb8 virtual false final false
  void _ctor() ;
@@ -341,8 +346,7 @@ constexpr int32_t __get_listeningPort() const;
 /// @brief Method GatherPerfMetrics addr 0x2637650 size 0x300 virtual false final false
  GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics GatherPerfMetrics() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer() ;
+static GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2637950 size 0x6c virtual false final false
  void _ctor() ;
@@ -412,8 +416,7 @@ static constexpr int32_t  MaxMessageLength{65532};
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRSystemPerfMetrics() ;
+static GlobalNamespace::OVRSystemPerfMetrics New_ctor() ;
 
 /// @brief Method .ctor addr 0x2635b50 size 0x8 virtual false final false
  void _ctor() ;

@@ -6,38 +6,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System {
+class Uri;
+}
 namespace Newtonsoft::Json::Linq {
 class JValue;
 }
 namespace Newtonsoft::Json::Linq {
-class JContainer;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-struct DateTime;
+class JToken;
 }
 namespace Newtonsoft::Json {
 struct JsonToken;
 }
 namespace System {
+struct DateTimeOffset;
+}
+namespace Newtonsoft::Json::Linq {
+class JContainer;
+}
+namespace System {
 struct Guid;
 }
 namespace System {
-struct DateTimeOffset;
+struct Decimal;
 }
 namespace System {
-class Uri;
+struct TimeSpan;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace System {
-struct Decimal;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
+struct DateTime;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -125,14 +125,12 @@ constexpr Newtonsoft::Json::Linq::JToken __get__current() const;
 /// @brief Method get_Token addr 0x2524bd8 size 0x1c virtual false final false
  Newtonsoft::Json::Linq::JToken get_Token() ;
 
-// Ctor Parameters [CppParam { name: "container", ty: "Newtonsoft::Json::Linq::JContainer", modifiers: "", def_value: None }]
-explicit JTokenWriter(Newtonsoft::Json::Linq::JContainer container) ;
+static Newtonsoft::Json::Linq::JTokenWriter New_ctor(Newtonsoft::Json::Linq::JContainer container) ;
 
 /// @brief Method .ctor addr 0x251e660 size 0x90 virtual false final false
  void _ctor(Newtonsoft::Json::Linq::JContainer container) ;
 
-// Ctor Parameters []
-explicit JTokenWriter() ;
+static Newtonsoft::Json::Linq::JTokenWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2524bf4 size 0x58 virtual false final false
  void _ctor() ;

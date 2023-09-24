@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IMac;
+namespace Org::BouncyCastle::Crypto::Digests {
+class Dstu7564Digest;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto::Digests {
-class Dstu7564Digest;
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -103,8 +103,7 @@ constexpr ::ArrayW<uint8_t> __get_invertedKey() const;
 /// @brief Method get_AlgorithmName addr 0xe7fb60 size 0x40 virtual true final true
  ::StringW get_AlgorithmName() ;
 
-// Ctor Parameters [CppParam { name: "macSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Dstu7564Mac(int32_t macSizeBits) ;
+static Org::BouncyCastle::Crypto::Macs::Dstu7564Mac New_ctor(int32_t macSizeBits) ;
 
 /// @brief Method .ctor addr 0xe7fba0 size 0x90 virtual false final false
  void _ctor(int32_t macSizeBits) ;

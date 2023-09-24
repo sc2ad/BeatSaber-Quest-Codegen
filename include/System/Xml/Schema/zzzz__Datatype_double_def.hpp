@@ -6,10 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlNameTable;
 }
 namespace System {
 class Type;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
@@ -18,19 +21,16 @@ namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System {
-class Exception;
+class XmlValueConverter;
 }
 namespace System::Xml::Schema {
 class FacetsChecker;
 }
-namespace System::Xml::Schema {
-class XmlValueConverter;
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -130,8 +130,7 @@ static System::Type __get_listValueType() ;
 /// @brief Method TryParseValue addr 0x2724bec size 0x140 virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_double() ;
+static System::Xml::Schema::Datatype_double New_ctor() ;
 
 /// @brief Method .ctor addr 0x2724d2c size 0x54 virtual false final false
  void _ctor() ;

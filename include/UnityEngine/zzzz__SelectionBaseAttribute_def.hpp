@@ -47,8 +47,7 @@ constexpr explicit SelectionBaseAttribute(void* ptr) noexcept : System::Attribut
 
 // Methods
 
-// Ctor Parameters []
-explicit SelectionBaseAttribute() ;
+static UnityEngine::SelectionBaseAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b55fcc size 0x8 virtual false final false
  void _ctor() ;

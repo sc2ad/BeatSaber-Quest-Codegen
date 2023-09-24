@@ -71,8 +71,7 @@ constexpr GlobalNamespace::AudioTimeSyncController __get__audioTimeSyncControlle
 /// @brief Method Update addr 0x2117098 size 0x44 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit SongTimeAnimationPlayer() ;
+static GlobalNamespace::SongTimeAnimationPlayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x21170dc size 0x8 virtual false final false
  void _ctor() ;

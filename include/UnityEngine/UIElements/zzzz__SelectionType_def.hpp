@@ -57,6 +57,8 @@ constexpr operator __SelectionType_Unwrapped () const noexcept {
 return std::bit_cast<__SelectionType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

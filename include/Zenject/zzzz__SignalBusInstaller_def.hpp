@@ -13,7 +13,7 @@ class SignalBusInstaller;
 // Type: Zenject::SignalBusInstaller
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11073), inst: 3766 }), TypeDefinitionIndex(TypeDefinitionIndex(11073))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11073)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11073), inst: 3766 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10609))
 // CS Name: Zenject.SignalBusInstaller
 class CORDL_TYPE SignalBusInstaller : public Zenject::Installer_1<Zenject::SignalBusInstaller> {
@@ -55,8 +55,7 @@ constexpr explicit SignalBusInstaller(void* ptr) noexcept : Zenject::Installer_1
 /// @brief Method InstallBindings addr 0x2d4c8ec size 0x180 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit SignalBusInstaller() ;
+static Zenject::SignalBusInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4ca88 size 0x48 virtual false final false
  void _ctor() ;

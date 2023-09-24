@@ -3,8 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CuttableBySaber_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__CuttableBySaber_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate._ctor
@@ -75,8 +76,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate::GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate GlobalNamespace::GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate>::get(),
@@ -318,8 +321,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, saber, cutPoint, orientation, cutDirVec);
 }
-// Ctor Parameters []
- GlobalNamespace::CuttableBySaber::CuttableBySaber()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CuttableBySaber>())) {}
+ GlobalNamespace::CuttableBySaber GlobalNamespace::CuttableBySaber::New_ctor()  {
+GlobalNamespace::CuttableBySaber o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CuttableBySaber>())};
+return o;
+}
  void GlobalNamespace::CuttableBySaber::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CuttableBySaber>::get(),

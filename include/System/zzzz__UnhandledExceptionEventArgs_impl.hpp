@@ -64,8 +64,10 @@ constexpr void System::UnhandledExceptionEventArgs::__set__isTerminating(bool va
 constexpr bool System::UnhandledExceptionEventArgs::__get__isTerminating() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "exception", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "isTerminating", ty: "bool", modifiers: "", def_value: None }]
- System::UnhandledExceptionEventArgs::UnhandledExceptionEventArgs(::bs_hook::Il2CppWrapperType exception, bool isTerminating)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<UnhandledExceptionEventArgs>(exception, isTerminating))) {}
+ System::UnhandledExceptionEventArgs System::UnhandledExceptionEventArgs::New_ctor(::bs_hook::Il2CppWrapperType exception, bool isTerminating)  {
+System::UnhandledExceptionEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::UnhandledExceptionEventArgs>(exception, isTerminating))};
+return o;
+}
  void System::UnhandledExceptionEventArgs::_ctor(::bs_hook::Il2CppWrapperType exception, bool isTerminating)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::UnhandledExceptionEventArgs>::get(),

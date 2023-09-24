@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::WaitForEndOfFrame::WaitForEndOfFrame()  : UnityEngine::YieldInstruction(THROW_UNLESS(::il2cpp_utils::New<WaitForEndOfFrame>())) {}
+ UnityEngine::WaitForEndOfFrame UnityEngine::WaitForEndOfFrame::New_ctor()  {
+UnityEngine::WaitForEndOfFrame o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::WaitForEndOfFrame>())};
+return o;
+}
  void UnityEngine::WaitForEndOfFrame::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::WaitForEndOfFrame>::get(),

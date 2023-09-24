@@ -102,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-// Ctor Parameters []
- UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::ScriptableRuntimeReflectionSystemWrapper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ScriptableRuntimeReflectionSystemWrapper>())) {}
+ UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::New_ctor()  {
+UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper>())};
+return o;
+}
  void UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper>::get(),

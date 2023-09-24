@@ -2,6 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Xml::Schema {
+class IXmlSchemaInfo;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaContentType;
+}
+namespace System::Xml::Schema {
+class XmlSchemaAttribute;
+}
+namespace System::Xml::Schema {
 struct XmlSchemaValidity;
 }
 namespace System::Xml::Schema {
@@ -9,18 +21,6 @@ class XmlSchemaElement;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
-}
-namespace System::Xml::Schema {
-class XmlSchemaAttribute;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaContentType;
-}
-namespace System::Xml::Schema {
-class IXmlSchemaInfo;
-}
-namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -139,14 +139,12 @@ constexpr System::Xml::Schema::XmlSchemaContentType __get_contentType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlSchemaInfo() ;
+static System::Xml::Schema::XmlSchemaInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x27351f0 size 0x30 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "validity", ty: "System::Xml::Schema::XmlSchemaValidity", modifiers: "", def_value: None }]
-explicit XmlSchemaInfo(System::Xml::Schema::XmlSchemaValidity validity) ;
+static System::Xml::Schema::XmlSchemaInfo New_ctor(System::Xml::Schema::XmlSchemaValidity validity) ;
 
 /// @brief Method .ctor addr 0x273523c size 0x3c virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaValidity validity) ;

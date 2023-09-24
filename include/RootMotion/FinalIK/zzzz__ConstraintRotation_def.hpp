@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__Constraint_def.hpp"
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -65,14 +65,12 @@ constexpr UnityEngine::Quaternion __get_rotation() const;
 /// @brief Method UpdateConstraint addr 0x11b86bc size 0x7c virtual true final false
  void UpdateConstraint() ;
 
-// Ctor Parameters []
-explicit ConstraintRotation() ;
+static RootMotion::FinalIK::ConstraintRotation New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b8738 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit ConstraintRotation(UnityEngine::Transform transform) ;
+static RootMotion::FinalIK::ConstraintRotation New_ctor(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x11b8740 size 0x28 virtual false final false
  void _ctor(UnityEngine::Transform transform) ;

@@ -1,28 +1,28 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 namespace System {
-class Action;
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 namespace System {
 struct TimeSpan;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace System {
-template<typename TResult>
-class Func_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System::Threading::Tasks {
-class Task;
+class Action;
 }
 // Forward declare root types
 namespace BGNet::Core {

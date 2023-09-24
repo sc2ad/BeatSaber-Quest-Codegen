@@ -2,6 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine {
+class Component;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace UnityEngine::UI {
 class RectMask2D;
 }
@@ -10,13 +17,6 @@ class IClippable;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-class Component;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -85,8 +85,7 @@ static UnityEngine::UI::RectMask2D GetRectMaskForClippable(UnityEngine::UI::ICli
 /// @brief Method GetRectMasksForClip addr 0x2c03488 size 0x364 virtual false final false
 static void GetRectMasksForClip(UnityEngine::UI::RectMask2D clipper, System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D> masks) ;
 
-// Ctor Parameters []
-explicit MaskUtilities() ;
+static UnityEngine::UI::MaskUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c037ec size 0x1008 virtual false final false
  void _ctor() ;

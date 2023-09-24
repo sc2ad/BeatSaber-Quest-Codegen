@@ -1,17 +1,17 @@
 #pragma once
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__InvalidKeyException_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__Addressables_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::InvalidKeyException.get_Key
 template<>
 
@@ -421,8 +421,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Nullable_1<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::InvalidKeyException::InvalidKeyException(::bs_hook::Il2CppWrapperType key)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>(key))) {}
+ UnityEngine::AddressableAssets::InvalidKeyException UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::bs_hook::Il2CppWrapperType key)  {
+UnityEngine::AddressableAssets::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::InvalidKeyException>(key))};
+return o;
+}
  void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::bs_hook::Il2CppWrapperType key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::InvalidKeyException>::get(),
@@ -432,8 +434,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::InvalidKeyException::InvalidKeyException(::bs_hook::Il2CppWrapperType key, System::Type type)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>(key, type))) {}
+ UnityEngine::AddressableAssets::InvalidKeyException UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::bs_hook::Il2CppWrapperType key, System::Type type)  {
+UnityEngine::AddressableAssets::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::InvalidKeyException>(key, type))};
+return o;
+}
  void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::bs_hook::Il2CppWrapperType key, System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::InvalidKeyException>::get(),
@@ -443,8 +447,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key, type);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "addr", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::InvalidKeyException::InvalidKeyException(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::AddressablesImpl addr)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>(key, type, addr))) {}
+ UnityEngine::AddressableAssets::InvalidKeyException UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::AddressablesImpl addr)  {
+UnityEngine::AddressableAssets::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::InvalidKeyException>(key, type, addr))};
+return o;
+}
  void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::AddressablesImpl addr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::InvalidKeyException>::get(),
@@ -454,8 +460,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key, type, addr);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "mergeMode", ty: "UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::InvalidKeyException::InvalidKeyException(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>(key, type, mergeMode))) {}
+ UnityEngine::AddressableAssets::InvalidKeyException UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode)  {
+UnityEngine::AddressableAssets::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::InvalidKeyException>(key, type, mergeMode))};
+return o;
+}
  void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::InvalidKeyException>::get(),
@@ -465,8 +473,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key, type, mergeMode);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "mergeMode", ty: "UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode", modifiers: "", def_value: None }, CppParam { name: "addr", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::InvalidKeyException::InvalidKeyException(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode, UnityEngine::AddressableAssets::AddressablesImpl addr)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>(key, type, mergeMode, addr))) {}
+ UnityEngine::AddressableAssets::InvalidKeyException UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode, UnityEngine::AddressableAssets::AddressablesImpl addr)  {
+UnityEngine::AddressableAssets::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::InvalidKeyException>(key, type, mergeMode, addr))};
+return o;
+}
  void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::bs_hook::Il2CppWrapperType key, System::Type type, UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode mergeMode, UnityEngine::AddressableAssets::AddressablesImpl addr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::InvalidKeyException>::get(),
@@ -476,8 +486,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key, type, mergeMode, addr);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::InvalidKeyException::InvalidKeyException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>())) {}
+ UnityEngine::AddressableAssets::InvalidKeyException UnityEngine::AddressableAssets::InvalidKeyException::New_ctor()  {
+UnityEngine::AddressableAssets::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::InvalidKeyException>())};
+return o;
+}
  void UnityEngine::AddressableAssets::InvalidKeyException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::InvalidKeyException>::get(),
@@ -487,8 +499,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::InvalidKeyException::InvalidKeyException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>(message))) {}
+ UnityEngine::AddressableAssets::InvalidKeyException UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::StringW message)  {
+UnityEngine::AddressableAssets::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::InvalidKeyException>(message))};
+return o;
+}
  void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::InvalidKeyException>::get(),
@@ -498,8 +512,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::InvalidKeyException::InvalidKeyException(::StringW message, System::Exception innerException)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>(message, innerException))) {}
+ UnityEngine::AddressableAssets::InvalidKeyException UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(::StringW message, System::Exception innerException)  {
+UnityEngine::AddressableAssets::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::InvalidKeyException>(message, innerException))};
+return o;
+}
  void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::InvalidKeyException>::get(),
@@ -509,8 +525,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::InvalidKeyException::InvalidKeyException(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<InvalidKeyException>(message, context))) {}
+ UnityEngine::AddressableAssets::InvalidKeyException UnityEngine::AddressableAssets::InvalidKeyException::New_ctor(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context)  {
+UnityEngine::AddressableAssets::InvalidKeyException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::InvalidKeyException>(message, context))};
+return o;
+}
  void UnityEngine::AddressableAssets::InvalidKeyException::_ctor(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::InvalidKeyException>::get(),

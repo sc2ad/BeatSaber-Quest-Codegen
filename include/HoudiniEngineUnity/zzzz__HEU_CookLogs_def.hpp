@@ -120,8 +120,7 @@ static HoudiniEngineUnity::HEU_CookLogs get_Instance() ;
 /// @brief Method GetFileSizeOfLogFile addr 0x2041488 size 0x88 virtual false final false
  int64_t GetFileSizeOfLogFile() ;
 
-// Ctor Parameters []
-explicit HEU_CookLogs() ;
+static HoudiniEngineUnity::HEU_CookLogs New_ctor() ;
 
 /// @brief Method .ctor addr 0x2040ed4 size 0x8c virtual false final false
  void _ctor() ;

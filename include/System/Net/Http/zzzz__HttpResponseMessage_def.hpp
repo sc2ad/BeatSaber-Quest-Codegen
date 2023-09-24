@@ -2,23 +2,23 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Version;
+}
 namespace System::Net::Http {
 class HttpContent;
+}
+namespace System::Net::Http::Headers {
+class HttpResponseHeaders;
 }
 namespace System::Net::Http {
 class HttpRequestMessage;
 }
 namespace System::Net {
 struct HttpStatusCode;
-}
-namespace System {
-class Version;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Net::Http::Headers {
-class HttpResponseHeaders;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -131,8 +131,7 @@ constexpr System::Net::Http::HttpRequestMessage __get__RequestMessage_k__Backing
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "statusCode", ty: "System::Net::HttpStatusCode", modifiers: "", def_value: None }]
-explicit HttpResponseMessage(System::Net::HttpStatusCode statusCode) ;
+static System::Net::Http::HttpResponseMessage New_ctor(System::Net::HttpStatusCode statusCode) ;
 
 /// @brief Method .ctor addr 0x269c95c size 0x2c virtual false final false
  void _ctor(System::Net::HttpStatusCode statusCode) ;

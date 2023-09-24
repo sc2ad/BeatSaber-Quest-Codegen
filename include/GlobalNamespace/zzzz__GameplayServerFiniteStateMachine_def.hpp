@@ -6,26 +6,29 @@
 namespace GlobalNamespace {
 class GameplayRpcManager;
 }
+namespace GlobalNamespace {
+class MenuRpcManager;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+class IServerBeatmapProvider;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
 namespace BGNet::Core {
 class ITaskUtility;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameplayServerFiniteStateMachine__InitParams;
 }
 namespace GlobalNamespace {
 class GameState;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-class MenuRpcManager;
-}
-namespace GlobalNamespace {
-class IServerBeatmapProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -297,8 +300,7 @@ constexpr bool __get_enteringState() const;
 /// @brief Method set_gameplayRpcManager addr 0xdaf0d0 size 0x8 virtual false final false
  void set_gameplayRpcManager(GlobalNamespace::GameplayRpcManager value) ;
 
-// Ctor Parameters [CppParam { name: "initParams", ty: "GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams", modifiers: "", def_value: None }]
-explicit GameplayServerFiniteStateMachine(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
+static GlobalNamespace::GameplayServerFiniteStateMachine New_ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
 
 /// @brief Method .ctor addr 0xdaef0c size 0x11c virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;

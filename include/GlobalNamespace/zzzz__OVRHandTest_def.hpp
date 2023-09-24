@@ -10,11 +10,14 @@
 namespace System::Text {
 class StringBuilder;
 }
-namespace System {
-class IAsyncResult;
+namespace GlobalNamespace {
+class GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace UnityEngine::UI {
 class Text;
@@ -24,10 +27,16 @@ template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__OVRHandTest____c;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__HandState;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__OVRPlugin__Mesh;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRHandTest__BoolMonitor;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Skeleton;
@@ -87,8 +96,7 @@ constexpr explicit GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator(void
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2623e44 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -195,8 +203,7 @@ constexpr float_t __get_m_displayTimer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "generator", ty: "GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator", modifiers: "", def_value: None }, CppParam { name: "displayTimeout", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRHandTest__BoolMonitor(::StringW name, GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator generator, float_t displayTimeout) ;
+static GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor New_ctor(::StringW name, GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator generator, float_t displayTimeout) ;
 
 /// @brief Method .ctor addr 0x2623f00 size 0x78 virtual false final false
  void _ctor(::StringW name, GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator generator, float_t displayTimeout) ;
@@ -268,8 +275,7 @@ static GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor__BoolGenerator
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRHandTest____c() ;
+static GlobalNamespace::GlobalNamespace__OVRHandTest____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2624f5c size 0x8 virtual false final false
  void _ctor() ;
@@ -429,8 +435,7 @@ static GlobalNamespace::GlobalNamespace__OVRHandTest__BoolMonitor __get_controll
 /// @brief Method Update addr 0x2623f78 size 0xc04 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRHandTest() ;
+static GlobalNamespace::OVRHandTest New_ctor() ;
 
 /// @brief Method .ctor addr 0x2624ce4 size 0x84 virtual false final false
  void _ctor() ;

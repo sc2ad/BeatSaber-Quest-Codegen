@@ -2,9 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
-namespace GlobalNamespace {
 class AudioManagerSO;
 }
 namespace GlobalNamespace {
@@ -12,6 +9,9 @@ class PerceivedLoudnessPerLevelModel;
 }
 namespace GlobalNamespace {
 class RelativeSfxVolumePerLevelModel;
+}
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +89,7 @@ constexpr GlobalNamespace::RelativeSfxVolumePerLevelModel __get__relativeSfxVolu
 /// @brief Method InstallBindings addr 0x20e888c size 0x598 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalInactivePlayerInstaller() ;
+static GlobalNamespace::MultiplayerLocalInactivePlayerInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e8e70 size 0x8 virtual false final false
  void _ctor() ;

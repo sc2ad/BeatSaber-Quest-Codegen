@@ -1,19 +1,18 @@
 #pragma once
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONObject_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONObject_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0._ctor
 template<>
 
@@ -54,8 +53,10 @@ constexpr void OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0::
 constexpr OVRSimpleJSON::JSONNode OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0::__get_aNode() const {
 return ::cordl_internals::getInstanceField<OVRSimpleJSON::JSONNode, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0::OVRSimpleJSON__JSONObject____c__DisplayClass21_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON__JSONObject____c__DisplayClass21_0>())) {}
+ OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0 OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0::New_ctor()  {
+OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0 o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0>())};
+return o;
+}
  void OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0>::get(),
@@ -277,8 +278,10 @@ constexpr void OVRSimpleJSON::OVRSimpleJSON__JSONObject___get_Children_d__23::__
 constexpr System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<::StringW,OVRSimpleJSON::JSONNode> OVRSimpleJSON::OVRSimpleJSON__JSONObject___get_Children_d__23::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<::StringW,OVRSimpleJSON::JSONNode>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- OVRSimpleJSON::OVRSimpleJSON__JSONObject___get_Children_d__23::OVRSimpleJSON__JSONObject___get_Children_d__23(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON__JSONObject___get_Children_d__23>(__1__state))) {}
+ OVRSimpleJSON::OVRSimpleJSON__JSONObject___get_Children_d__23 OVRSimpleJSON::OVRSimpleJSON__JSONObject___get_Children_d__23::New_ctor(int32_t __1__state)  {
+OVRSimpleJSON::OVRSimpleJSON__JSONObject___get_Children_d__23 o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::OVRSimpleJSON__JSONObject___get_Children_d__23>(__1__state))};
+return o;
+}
  void OVRSimpleJSON::OVRSimpleJSON__JSONObject___get_Children_d__23::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::OVRSimpleJSON__JSONObject___get_Children_d__23>::get(),
@@ -805,8 +808,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, aSB, aIndent, aIndentInc, aMode);
 }
-// Ctor Parameters []
- OVRSimpleJSON::JSONObject::JSONObject()  : OVRSimpleJSON::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONObject>())) {}
+ OVRSimpleJSON::JSONObject OVRSimpleJSON::JSONObject::New_ctor()  {
+OVRSimpleJSON::JSONObject o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::JSONObject>())};
+return o;
+}
  void OVRSimpleJSON::JSONObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::JSONObject>::get(),

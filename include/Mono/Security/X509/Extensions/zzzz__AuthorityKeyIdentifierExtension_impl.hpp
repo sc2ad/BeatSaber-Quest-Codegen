@@ -93,8 +93,10 @@ constexpr void Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension
 constexpr ::ArrayW<uint8_t> Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::__get_aki() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "extension", ty: "Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
- Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::AuthorityKeyIdentifierExtension(Mono::Security::X509::X509Extension extension)  : Mono::Security::X509::X509Extension(THROW_UNLESS(::il2cpp_utils::New<AuthorityKeyIdentifierExtension>(extension))) {}
+ Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::New_ctor(Mono::Security::X509::X509Extension extension)  {
+Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension>(extension))};
+return o;
+}
  void Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::_ctor(Mono::Security::X509::X509Extension extension)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension>::get(),

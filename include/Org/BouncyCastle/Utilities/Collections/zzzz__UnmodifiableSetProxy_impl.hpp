@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableSet_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableSetProxy_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy._ctor
 template<>
@@ -163,8 +163,10 @@ constexpr void Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy::
 constexpr Org::BouncyCastle::Utilities::Collections::ISet Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy::__get_s() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Utilities::Collections::ISet, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "s", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy::UnmodifiableSetProxy(Org::BouncyCastle::Utilities::Collections::ISet s)  : Org::BouncyCastle::Utilities::Collections::UnmodifiableSet(THROW_UNLESS(::il2cpp_utils::New<UnmodifiableSetProxy>(s))) {}
+ Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy::New_ctor(Org::BouncyCastle::Utilities::Collections::ISet s)  {
+Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy>(s))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy::_ctor(Org::BouncyCastle::Utilities::Collections::ISet s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy>::get(),

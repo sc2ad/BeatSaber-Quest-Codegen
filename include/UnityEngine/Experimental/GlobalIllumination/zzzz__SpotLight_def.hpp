@@ -4,19 +4,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct AngularFalloffType;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
+struct LightMode;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
+struct AngularFalloffType;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LinearColor;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct FalloffType;

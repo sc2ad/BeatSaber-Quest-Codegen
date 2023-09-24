@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_def.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -96,8 +96,7 @@ constexpr TMPro::TextMeshProUGUI __get__rankText() const;
 /// @brief Method SetData addr 0x218edf0 size 0x38c virtual false final false
  void SetData(int32_t order, GlobalNamespace::IConnectedPlayer connectedPlayer, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
-// Ctor Parameters []
-explicit ResultsTableCell() ;
+static GlobalNamespace::ResultsTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x218f17c size 0x8 virtual false final false
  void _ctor() ;

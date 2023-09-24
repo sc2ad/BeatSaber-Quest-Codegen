@@ -15,17 +15,17 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class AsyncCallback;
+namespace GlobalNamespace {
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
-namespace GlobalNamespace {
-class HMAsyncRequest;
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class IDisposable;
@@ -44,7 +44,22 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__LeaderboardScoreUploader__UploadScoreCallback;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LeaderboardScoreUploader___UploadScoresCoroutine_d__16;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LeaderboardScoreUploader__ScoresToUploadData;
+}
+namespace GlobalNamespace {
 class ISaveData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LeaderboardScoreUploader____c__DisplayClass16_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LeaderboardScoreUploader__ScoreData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -265,8 +280,7 @@ constexpr int32_t __get_currentUploadAttemptCount() const;
 /// @brief Method set_maxCombo addr 0x21c4978 size 0x8 virtual false final false
  void set_maxCombo(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "playerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "multipliedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "modifiedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullCombo", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "goodCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "badCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "missedCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCombo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LeaderboardScoreUploader__ScoreData(::StringW playerId, GlobalNamespace::IDifficultyBeatmap beatmap, int32_t multipliedScore, int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, GlobalNamespace::GameplayModifiers gameplayModifiers) ;
+static GlobalNamespace::GlobalNamespace__LeaderboardScoreUploader__ScoreData New_ctor(::StringW playerId, GlobalNamespace::IDifficultyBeatmap beatmap, int32_t multipliedScore, int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, GlobalNamespace::GameplayModifiers gameplayModifiers) ;
 
 /// @brief Method .ctor addr 0x21c4980 size 0x88 virtual false final false
  void _ctor(::StringW playerId, GlobalNamespace::IDifficultyBeatmap beatmap, int32_t multipliedScore, int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, GlobalNamespace::GameplayModifiers gameplayModifiers) ;
@@ -326,8 +340,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LeaderboardScoreUploader__ScoresToUploadData() ;
+static GlobalNamespace::GlobalNamespace__LeaderboardScoreUploader__ScoresToUploadData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c4760 size 0x8 virtual false final false
  void _ctor() ;
@@ -378,8 +391,7 @@ constexpr explicit GlobalNamespace__LeaderboardScoreUploader__UploadScoreCallbac
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LeaderboardScoreUploader__UploadScoreCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__LeaderboardScoreUploader__UploadScoreCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x21c4a08 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -454,8 +466,7 @@ constexpr GlobalNamespace::LeaderboardScoreUploader __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LeaderboardScoreUploader____c__DisplayClass16_0() ;
+static GlobalNamespace::GlobalNamespace__LeaderboardScoreUploader____c__DisplayClass16_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c4b80 size 0x8 virtual false final false
  void _ctor() ;
@@ -546,8 +557,7 @@ constexpr GlobalNamespace::LeaderboardScoreUploader __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LeaderboardScoreUploader___UploadScoresCoroutine_d__16(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__LeaderboardScoreUploader___UploadScoresCoroutine_d__16 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x21c41d4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -698,8 +708,7 @@ constexpr GlobalNamespace::ISaveData __get__saveData() const;
 /// @brief Method AddScore addr 0x21c4768 size 0xc4 virtual false final false
  void AddScore(GlobalNamespace::GlobalNamespace__LeaderboardScoreUploader__ScoreData scoreData) ;
 
-// Ctor Parameters []
-explicit LeaderboardScoreUploader() ;
+static GlobalNamespace::LeaderboardScoreUploader New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c482c size 0xa0 virtual false final false
  void _ctor() ;

@@ -47,8 +47,7 @@ constexpr explicit SoapParameterAttribute(void* ptr) noexcept : System::Runtime:
 
 // Methods
 
-// Ctor Parameters []
-explicit SoapParameterAttribute() ;
+static System::Runtime::Remoting::Metadata::SoapParameterAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2339cec size 0x8 virtual false final false
  void _ctor() ;

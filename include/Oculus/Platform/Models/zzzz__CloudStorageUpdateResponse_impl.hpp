@@ -42,8 +42,10 @@ constexpr void Oculus::Platform::Models::CloudStorageUpdateResponse::__set_Versi
 constexpr ::StringW Oculus::Platform::Models::CloudStorageUpdateResponse::__get_VersionHandle() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::CloudStorageUpdateResponse::CloudStorageUpdateResponse(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CloudStorageUpdateResponse>(o))) {}
+ Oculus::Platform::Models::CloudStorageUpdateResponse Oculus::Platform::Models::CloudStorageUpdateResponse::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::CloudStorageUpdateResponse o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::CloudStorageUpdateResponse>(o))};
+return o;
+}
  void Oculus::Platform::Models::CloudStorageUpdateResponse::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::CloudStorageUpdateResponse>::get(),

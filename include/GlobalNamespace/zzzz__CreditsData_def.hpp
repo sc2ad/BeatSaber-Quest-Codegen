@@ -5,6 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__CreditsData__RootCreditsItem;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__CreditsData__ChildCreditsItem;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__CreditsData__TextStyle;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__CreditsData__Text;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__CreditsData__TextStyle;
@@ -71,6 +83,8 @@ __Header = 2,
 constexpr operator __GlobalNamespace__CreditsData__TextStyle_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__CreditsData__TextStyle_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -163,8 +177,7 @@ constexpr GlobalNamespace::GlobalNamespace__CreditsData__TextStyle __get_style()
 /// @brief Method ToString addr 0x212f70c size 0xc4 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__CreditsData__Text() ;
+static GlobalNamespace::GlobalNamespace__CreditsData__Text New_ctor() ;
 
 /// @brief Method .ctor addr 0x212f7d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -251,8 +264,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__CreditsData__ChildCreditsIt
 /// @brief Method HasRowItems addr 0x212f7f8 size 0x20 virtual false final false
  bool HasRowItems() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__CreditsData__RootCreditsItem() ;
+static GlobalNamespace::GlobalNamespace__CreditsData__RootCreditsItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x212f818 size 0x8 virtual false final false
  void _ctor() ;
@@ -324,8 +336,7 @@ constexpr GlobalNamespace::GlobalNamespace__CreditsData__Text __get_text() const
 /// @brief Method HasText addr 0x212f830 size 0x10 virtual false final false
  bool HasText() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__CreditsData__ChildCreditsItem() ;
+static GlobalNamespace::GlobalNamespace__CreditsData__ChildCreditsItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x212f840 size 0x8 virtual false final false
  void _ctor() ;
@@ -396,8 +407,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__CreditsData__RootCreditsIte
 /// @brief Method Deserialize addr 0x212f5e0 size 0x104 virtual false final false
 static GlobalNamespace::CreditsData Deserialize(::StringW text) ;
 
-// Ctor Parameters []
-explicit CreditsData() ;
+static GlobalNamespace::CreditsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x212f6e4 size 0x8 virtual false final false
  void _ctor() ;

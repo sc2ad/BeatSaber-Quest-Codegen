@@ -2,38 +2,38 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+namespace Org::BouncyCastle::Asn1::X509 {
+class Holder;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AttributeX509;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class Holder;
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AttCertIssuer;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AttributeX509;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AttributeCertificateInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+class AttributeCertificateInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -144,8 +144,7 @@ constexpr Org::BouncyCastle::Asn1::DerGeneralizedTime __get_endDate() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit V2AttributeCertificateInfoGenerator() ;
+static Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1110bdc size 0xa0 virtual false final false
  void _ctor() ;

@@ -87,14 +87,12 @@ constexpr float_t __get_maxExposureValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "showAlpha", ty: "bool", modifiers: "", def_value: None }]
-explicit ColorUsageAttribute(bool showAlpha) ;
+static UnityEngine::ColorUsageAttribute New_ctor(bool showAlpha) ;
 
 /// @brief Method .ctor addr 0x2b54f64 size 0x3c virtual false final false
  void _ctor(bool showAlpha) ;
 
-// Ctor Parameters [CppParam { name: "showAlpha", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hdr", ty: "bool", modifiers: "", def_value: None }]
-explicit ColorUsageAttribute(bool showAlpha, bool hdr) ;
+static UnityEngine::ColorUsageAttribute New_ctor(bool showAlpha, bool hdr) ;
 
 /// @brief Method .ctor addr 0x2b54fa0 size 0x44 virtual false final false
  void _ctor(bool showAlpha, bool hdr) ;

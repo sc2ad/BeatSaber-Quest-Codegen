@@ -50,8 +50,7 @@ constexpr explicit PS5LeaderboardIdsModelSO(void* ptr) noexcept : GlobalNamespac
 /// @brief Method DoesSupport360 addr 0x221a7e4 size 0x8 virtual true final false
  bool DoesSupport360() ;
 
-// Ctor Parameters []
-explicit PS5LeaderboardIdsModelSO() ;
+static GlobalNamespace::PS5LeaderboardIdsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a7ec size 0x4 virtual false final false
  void _ctor() ;

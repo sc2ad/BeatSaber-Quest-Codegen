@@ -2,13 +2,14 @@
 #include "System/Net/zzzz__WebReadStream_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__FixedSizeReadStream_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__FixedSizeReadStream_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Net/zzzz__WebOperation_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__FixedSizeReadStream___ProcessReadAsync_d__5.MoveNext
 template<>
 
@@ -195,8 +196,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "contentLength", ty: "int64_t", modifiers: "", def_value: None }]
- System::Net::FixedSizeReadStream::FixedSizeReadStream(System::Net::WebOperation operation, System::IO::Stream innerStream, int64_t contentLength)  : System::Net::WebReadStream(THROW_UNLESS(::il2cpp_utils::New<FixedSizeReadStream>(operation, innerStream, contentLength))) {}
+ System::Net::FixedSizeReadStream System::Net::FixedSizeReadStream::New_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, int64_t contentLength)  {
+System::Net::FixedSizeReadStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::FixedSizeReadStream>(operation, innerStream, contentLength))};
+return o;
+}
  void System::Net::FixedSizeReadStream::_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, int64_t contentLength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FixedSizeReadStream>::get(),

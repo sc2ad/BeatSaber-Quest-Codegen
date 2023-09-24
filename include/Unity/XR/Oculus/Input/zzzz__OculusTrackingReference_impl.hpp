@@ -2,9 +2,9 @@
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "Unity/XR/Oculus/Input/zzzz__OculusTrackingReference_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
 //  Writing Method size for method: Unity::XR::Oculus::Input::OculusTrackingReference.get_trackingState
 template<>
 
@@ -280,8 +280,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::Oculus::Input::OculusTrackingReference::OculusTrackingReference()  : UnityEngine::InputSystem::InputDevice(THROW_UNLESS(::il2cpp_utils::New<OculusTrackingReference>())) {}
+ Unity::XR::Oculus::Input::OculusTrackingReference Unity::XR::Oculus::Input::OculusTrackingReference::New_ctor()  {
+Unity::XR::Oculus::Input::OculusTrackingReference o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::Input::OculusTrackingReference>())};
+return o;
+}
  void Unity::XR::Oculus::Input::OculusTrackingReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::Input::OculusTrackingReference>::get(),

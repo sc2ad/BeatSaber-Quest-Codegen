@@ -5,10 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
@@ -16,6 +12,10 @@ struct TypeNameHandling;
 }
 namespace Newtonsoft::Json {
 struct ReferenceLoopHandling;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -195,14 +195,12 @@ constexpr System::Nullable_1<Newtonsoft::Json::TypeNameHandling> __get__itemType
 /// @brief Method set_ItemTypeNameHandling addr 0x24c82c4 size 0x68 virtual false final false
  void set_ItemTypeNameHandling(Newtonsoft::Json::TypeNameHandling value) ;
 
-// Ctor Parameters []
-explicit JsonContainerAttribute() ;
+static Newtonsoft::Json::JsonContainerAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c738c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JsonContainerAttribute(::StringW id) ;
+static Newtonsoft::Json::JsonContainerAttribute New_ctor(::StringW id) ;
 
 /// @brief Method .ctor addr 0x24c73bc size 0x28 virtual false final false
  void _ctor(::StringW id) ;

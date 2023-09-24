@@ -47,8 +47,7 @@ constexpr explicit CanBeNullAttribute(void* ptr) noexcept : System::Attribute(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit CanBeNullAttribute() ;
+static JetBrains::Annotations::CanBeNullAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40a5c size 0x8 virtual false final false
  void _ctor() ;

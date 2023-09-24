@@ -2,28 +2,28 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
-namespace GlobalNamespace {
-class BombNoteController;
-}
-namespace GlobalNamespace {
 class BurstSliderGameNoteController;
 }
 namespace GlobalNamespace {
 class GameNoteController;
 }
 namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
 class ObstacleController;
 }
 namespace GlobalNamespace {
-class SliderController;
+class BeatLine;
 }
 namespace GlobalNamespace {
 class NoteLineConnectionController;
 }
 namespace GlobalNamespace {
-class BeatLine;
+class SliderController;
+}
+namespace GlobalNamespace {
+class BombNoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -155,8 +155,7 @@ constexpr GlobalNamespace::GameplayCoreSceneSetupData __get__sceneSetupData() co
 /// @brief Method InstallBindings addr 0x2117244 size 0x4d4 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit BeatmapObjectsInstaller() ;
+static GlobalNamespace::BeatmapObjectsInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2117718 size 0x8 virtual false final false
  void _ctor() ;

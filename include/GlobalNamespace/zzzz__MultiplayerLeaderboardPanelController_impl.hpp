@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLeaderboardPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLeaderboardPanelItem_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLeaderboardPanelController.Start
 template<>
 
@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLeaderboardPanelController::MultiplayerLeaderboardPanelController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLeaderboardPanelController>())) {}
+ GlobalNamespace::MultiplayerLeaderboardPanelController GlobalNamespace::MultiplayerLeaderboardPanelController::New_ctor()  {
+GlobalNamespace::MultiplayerLeaderboardPanelController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLeaderboardPanelController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLeaderboardPanelController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLeaderboardPanelController>::get(),

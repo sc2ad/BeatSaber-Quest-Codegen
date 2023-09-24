@@ -1,26 +1,26 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Cms {
-class CmsProcessableByteArray;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilderWithKey;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
+namespace Org::BouncyCastle::Crmf {
+class PkiArchiveControl;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedDataGenerator;
+class CmsProcessableByteArray;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
 namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
+class CmsEnvelopedDataGenerator;
 }
-namespace Org::BouncyCastle::Crmf {
-class PkiArchiveControl;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class PrivateKeyInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -83,8 +83,7 @@ constexpr Org::BouncyCastle::Cms::CmsProcessableByteArray __get_keyContent() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "privateKeyInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo", modifiers: "", def_value: None }, CppParam { name: "generalName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit PkiArchiveControlBuilder(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName) ;
+static Org::BouncyCastle::Crmf::PkiArchiveControlBuilder New_ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName) ;
 
 /// @brief Method .ctor addr 0x11869d8 size 0x1f8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName) ;

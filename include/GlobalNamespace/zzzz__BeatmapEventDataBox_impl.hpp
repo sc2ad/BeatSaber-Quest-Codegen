@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType::GlobalNamespace__BeatmapEventDataBox__DistributionParamType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -245,8 +246,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::IndexFilter, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "GlobalNamespace::IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "eventDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "eventDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "eventDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "eventDistributionEaseType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapEventDataBox::BeatmapEventDataBox(GlobalNamespace::IndexFilter indexFilter, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType eventDistributionEaseType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapEventDataBox>(indexFilter, beatDistributionParamType, beatDistributionParam, eventDistributionParamType, eventDistributionParam, eventDistributionShouldAffectFirstBaseEvent, eventDistributionEaseType))) {}
+ GlobalNamespace::BeatmapEventDataBox GlobalNamespace::BeatmapEventDataBox::New_ctor(GlobalNamespace::IndexFilter indexFilter, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType eventDistributionEaseType)  {
+GlobalNamespace::BeatmapEventDataBox o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapEventDataBox>(indexFilter, beatDistributionParamType, beatDistributionParam, eventDistributionParamType, eventDistributionParam, eventDistributionShouldAffectFirstBaseEvent, eventDistributionEaseType))};
+return o;
+}
  void GlobalNamespace::BeatmapEventDataBox::_ctor(GlobalNamespace::IndexFilter indexFilter, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType eventDistributionEaseType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapEventDataBox>::get(),

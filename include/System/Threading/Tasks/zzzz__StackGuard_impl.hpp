@@ -75,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Threading::Tasks::StackGuard::StackGuard()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StackGuard>())) {}
+ System::Threading::Tasks::StackGuard System::Threading::Tasks::StackGuard::New_ctor()  {
+System::Threading::Tasks::StackGuard o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::StackGuard>())};
+return o;
+}
  void System::Threading::Tasks::StackGuard::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::StackGuard>::get(),

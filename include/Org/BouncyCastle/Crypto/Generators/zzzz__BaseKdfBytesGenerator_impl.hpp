@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__BaseKdfBytesGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator._ctor
 template<>
 
@@ -99,8 +99,10 @@ constexpr void Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::__s
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::__get_iv() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "counterStart", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::BaseKdfBytesGenerator(int32_t counterStart, Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BaseKdfBytesGenerator>(counterStart, digest))) {}
+ Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::New_ctor(int32_t counterStart, Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator>(counterStart, digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::_ctor(int32_t counterStart, Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator>::get(),

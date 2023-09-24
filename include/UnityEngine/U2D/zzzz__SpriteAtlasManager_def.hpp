@@ -2,9 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::U2D {
-class SpriteAtlas;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
@@ -12,6 +9,9 @@ class Action_2;
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine::U2D {
+class SpriteAtlas;
 }
 // Forward declare root types
 namespace UnityEngine::U2D {

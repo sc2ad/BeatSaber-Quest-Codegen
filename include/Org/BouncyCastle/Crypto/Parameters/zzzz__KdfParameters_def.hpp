@@ -70,8 +70,7 @@ constexpr ::ArrayW<uint8_t> __get_shared() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "shared", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit KdfParameters(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv) ;
+static Org::BouncyCastle::Crypto::Parameters::KdfParameters New_ctor(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method .ctor addr 0xeaa6b4 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv) ;

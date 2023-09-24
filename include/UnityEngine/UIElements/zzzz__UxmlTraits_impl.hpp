@@ -1,14 +1,15 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UxmlTraits_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlTraits_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8._ctor
 template<>
 
@@ -189,8 +190,10 @@ constexpr void UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___ge
 constexpr UnityEngine::UIElements::UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UxmlTraits, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8>(__1__state))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8 UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8::New_ctor(int32_t __1__state)  {
+UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8>(__1__state))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8>::get(),
@@ -337,8 +340,10 @@ constexpr void UnityEngine::UIElements::UxmlTraits::__set__canHaveAnyAttribute_k
 constexpr bool UnityEngine::UIElements::UxmlTraits::__get__canHaveAnyAttribute_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UxmlTraits::UxmlTraits()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UxmlTraits>())) {}
+ UnityEngine::UIElements::UxmlTraits UnityEngine::UIElements::UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UxmlTraits>::get(),

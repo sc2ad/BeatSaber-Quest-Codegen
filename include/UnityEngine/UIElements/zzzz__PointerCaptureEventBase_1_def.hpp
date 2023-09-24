@@ -3,10 +3,10 @@
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class IPointerCaptureEventInternal;
 }
 namespace UnityEngine::UIElements {
-class IPointerCaptureEventInternal;
+class IEventHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1634 }), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1634 }), TypeDefinitionIndex(TypeDefinitionIndex(7249)), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7249), inst: 2 })
 // CS Name: UnityEngine.UIElements.PointerCaptureEventBase`1
 class CORDL_TYPE PointerCaptureEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
@@ -105,8 +105,7 @@ constexpr int32_t __get__pointerId_k__BackingField() const;
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
 static T GetPooled(UnityEngine::UIElements::IEventHandler target, UnityEngine::UIElements::IEventHandler relatedTarget, int32_t pointerId) ;
 
-// Ctor Parameters []
-explicit PointerCaptureEventBase_1() ;
+static UnityEngine::UIElements::PointerCaptureEventBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

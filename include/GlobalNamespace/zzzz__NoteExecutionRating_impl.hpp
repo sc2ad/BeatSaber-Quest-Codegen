@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRating_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteExecutionRating_def.hpp"
+#include "GlobalNamespace/zzzz__NoteExecutionRating_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__NoteExecutionRating__Rating::GlobalNamespace__NoteExecutionRating__Rating(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -68,8 +69,10 @@ constexpr void GlobalNamespace::NoteExecutionRating::__set_scoringType(GlobalNam
 constexpr GlobalNamespace::GlobalNamespace__NoteData__ScoringType GlobalNamespace::NoteExecutionRating::__get_scoringType() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__NoteData__ScoringType, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "scoringType", ty: "GlobalNamespace::GlobalNamespace__NoteData__ScoringType", modifiers: "", def_value: None }, CppParam { name: "rating", ty: "GlobalNamespace::GlobalNamespace__NoteExecutionRating__Rating", modifiers: "", def_value: None }, CppParam { name: "cutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beforeCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "centerDistanceCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "afterCutScore", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::NoteExecutionRating::NoteExecutionRating(float_t time, GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, GlobalNamespace::GlobalNamespace__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore)  : GlobalNamespace::BeatmapObjectExecutionRating(THROW_UNLESS(::il2cpp_utils::New<NoteExecutionRating>(time, scoringType, rating, cutScore, beforeCutScore, centerDistanceCutScore, afterCutScore))) {}
+ GlobalNamespace::NoteExecutionRating GlobalNamespace::NoteExecutionRating::New_ctor(float_t time, GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, GlobalNamespace::GlobalNamespace__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore)  {
+GlobalNamespace::NoteExecutionRating o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteExecutionRating>(time, scoringType, rating, cutScore, beforeCutScore, centerDistanceCutScore, afterCutScore))};
+return o;
+}
  void GlobalNamespace::NoteExecutionRating::_ctor(float_t time, GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, GlobalNamespace::GlobalNamespace__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteExecutionRating>::get(),

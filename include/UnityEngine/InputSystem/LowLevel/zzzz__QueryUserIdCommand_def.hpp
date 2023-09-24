@@ -7,10 +7,13 @@ namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+struct UnityEngine__InputSystem__LowLevel__QueryUserIdCommand___idBuffer_e__FixedBuffer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

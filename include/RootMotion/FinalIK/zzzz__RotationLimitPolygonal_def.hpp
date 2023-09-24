@@ -8,6 +8,12 @@
 namespace UnityEngine {
 struct Vector3;
 }
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__RotationLimitPolygonal__ReachCone;
+}
 namespace UnityEngine {
 struct Quaternion;
 }
@@ -115,8 +121,7 @@ constexpr UnityEngine::Vector3 __get_B() const;
 /// @brief Method get_c addr 0x1205584 size 0x30 virtual false final false
  UnityEngine::Vector3 get_c() ;
 
-// Ctor Parameters [CppParam { name: "_o", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_a", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_b", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_c", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__RotationLimitPolygonal__ReachCone(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__ReachCone New_ctor(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c) ;
 
 /// @brief Method .ctor addr 0x12055b4 size 0x164 virtual false final false
  void _ctor(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c) ;
@@ -188,8 +193,7 @@ constexpr float_t __get_tangentWeight() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint New_ctor() ;
 
 /// @brief Method .ctor addr 0x120599c size 0x64 virtual false final false
  void _ctor() ;
@@ -322,8 +326,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygo
 /// @brief Method GetReachCone addr 0x12053d0 size 0xcc virtual false final false
  int32_t GetReachCone(UnityEngine::Vector3 L) ;
 
-// Ctor Parameters []
-explicit RotationLimitPolygonal() ;
+static RootMotion::FinalIK::RotationLimitPolygonal New_ctor() ;
 
 /// @brief Method .ctor addr 0x120549c size 0x5c virtual false final false
  void _ctor() ;

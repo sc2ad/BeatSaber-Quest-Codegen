@@ -88,8 +88,7 @@ static void InsideCapsule(ByRef<UnityEngine::Vector3> particlePosition, float_t 
 /// @brief Method OnDrawGizmosSelected addr 0x11a6448 size 0x19c virtual false final false
  void OnDrawGizmosSelected() ;
 
-// Ctor Parameters []
-explicit DynamicBoneCollider() ;
+static GlobalNamespace::DynamicBoneCollider New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a65e4 size 0xc virtual false final false
  void _ctor() ;

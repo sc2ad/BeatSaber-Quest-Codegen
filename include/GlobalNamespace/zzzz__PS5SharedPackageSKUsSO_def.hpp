@@ -7,6 +7,12 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__PS5SharedPackageSKUsSO__PS5BuildVersion;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PS5SharedPackageSKUsSO__BuildType;
+}
+namespace GlobalNamespace {
 class PS5PublisherSKUSettingsSO;
 }
 // Forward declare root types
@@ -68,6 +74,8 @@ __RemasterPatch = 1,
 constexpr operator __GlobalNamespace__PS5SharedPackageSKUsSO__BuildType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__PS5SharedPackageSKUsSO__BuildType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -158,8 +166,7 @@ constexpr ::StringW __get__contentVersion() const;
 /// @brief Method get_contentVersion addr 0x221a8b8 size 0x8 virtual false final false
  ::StringW get_contentVersion() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__PS5SharedPackageSKUsSO__PS5BuildVersion() ;
+static GlobalNamespace::GlobalNamespace__PS5SharedPackageSKUsSO__PS5BuildVersion New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a8c0 size 0x8 virtual false final false
  void _ctor() ;
@@ -278,8 +285,7 @@ constexpr GlobalNamespace::GlobalNamespace__PS5SharedPackageSKUsSO__PS5BuildVers
 /// @brief Method GetPrimarySKU addr 0x221a884 size 0x24 virtual false final false
  GlobalNamespace::PS5PublisherSKUSettingsSO GetPrimarySKU() ;
 
-// Ctor Parameters []
-explicit PS5SharedPackageSKUsSO() ;
+static GlobalNamespace::PS5SharedPackageSKUsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a8a8 size 0x8 virtual false final false
  void _ctor() ;

@@ -10,6 +10,9 @@ namespace UnityEngine::InputSystem {
 class InputAction;
 }
 namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputInteractionContext__Flags;
+}
+namespace UnityEngine::InputSystem {
 class InputActionState;
 }
 namespace UnityEngine::InputSystem {
@@ -73,6 +76,8 @@ __TimerHasExpired = 2,
 constexpr operator __UnityEngine__InputSystem__InputInteractionContext__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputInteractionContext__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

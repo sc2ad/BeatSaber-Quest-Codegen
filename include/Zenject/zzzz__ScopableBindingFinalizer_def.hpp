@@ -3,9 +3,11 @@
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class Zenject__ScopableBindingFinalizer____c__DisplayClass4_0;
 }
 namespace System {
 template<typename T1,typename T2,typename TResult>
@@ -15,10 +17,14 @@ namespace System {
 class Type;
 }
 namespace Zenject {
-class IProvider;
+class Zenject__ScopableBindingFinalizer____c__DisplayClass3_0;
 }
 namespace Zenject {
-class DiContainer;
+class IProvider;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Zenject {
 class BindInfo;
@@ -93,8 +99,7 @@ constexpr Zenject::DiContainer __get_container() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ScopableBindingFinalizer____c__DisplayClass3_0() ;
+static Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6cda8 size 0x8 virtual false final false
  void _ctor() ;
@@ -169,8 +174,7 @@ constexpr Zenject::DiContainer __get_container() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ScopableBindingFinalizer____c__DisplayClass4_0() ;
+static Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6cdb0 size 0x8 virtual false final false
  void _ctor() ;
@@ -243,8 +247,7 @@ constexpr System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> _
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "providerFactory", ty: "System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider>", modifiers: "", def_value: None }]
-explicit ScopableBindingFinalizer(Zenject::BindInfo bindInfo, System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> providerFactory) ;
+static Zenject::ScopableBindingFinalizer New_ctor(Zenject::BindInfo bindInfo, System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> providerFactory) ;
 
 /// @brief Method .ctor addr 0x2d6caa4 size 0x2c virtual false final false
  void _ctor(Zenject::BindInfo bindInfo, System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> providerFactory) ;

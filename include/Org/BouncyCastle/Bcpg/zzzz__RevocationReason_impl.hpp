@@ -87,8 +87,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "isCritical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::RevocationReason::RevocationReason(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<RevocationReason>(isCritical, isLongLength, data))) {}
+ Org::BouncyCastle::Bcpg::RevocationReason Org::BouncyCastle::Bcpg::RevocationReason::New_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::RevocationReason o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::RevocationReason>(isCritical, isLongLength, data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::RevocationReason::_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::RevocationReason>::get(),
@@ -98,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isCritical, isLongLength, data);
 }
-// Ctor Parameters [CppParam { name: "isCritical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "reason", ty: "Org::BouncyCastle::Bcpg::RevocationReasonTag", modifiers: "", def_value: None }, CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::RevocationReason::RevocationReason(bool isCritical, Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<RevocationReason>(isCritical, reason, description))) {}
+ Org::BouncyCastle::Bcpg::RevocationReason Org::BouncyCastle::Bcpg::RevocationReason::New_ctor(bool isCritical, Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description)  {
+Org::BouncyCastle::Bcpg::RevocationReason o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::RevocationReason>(isCritical, reason, description))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::RevocationReason::_ctor(bool isCritical, Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::RevocationReason>::get(),

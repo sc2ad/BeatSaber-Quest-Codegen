@@ -2,17 +2,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelFailedController_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedTextEffect_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
-#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnController_def.hpp"
-#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
+#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MissionLevelFailedController_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MissionLevelFailedController__InitData._ctor
 template<>
 
@@ -36,8 +37,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionLevelFailedController__I
 constexpr bool GlobalNamespace::GlobalNamespace__MissionLevelFailedController__InitData::__get_autoRestart() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MissionLevelFailedController__InitData::GlobalNamespace__MissionLevelFailedController__InitData(bool autoRestart)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionLevelFailedController__InitData>(autoRestart))) {}
+ GlobalNamespace::GlobalNamespace__MissionLevelFailedController__InitData GlobalNamespace::GlobalNamespace__MissionLevelFailedController__InitData::New_ctor(bool autoRestart)  {
+GlobalNamespace::GlobalNamespace__MissionLevelFailedController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionLevelFailedController__InitData>(autoRestart))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionLevelFailedController__InitData::_ctor(bool autoRestart)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionLevelFailedController__InitData>::get(),
@@ -185,8 +188,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionLevelFailedController___
 constexpr GlobalNamespace::MissionCompletionResults GlobalNamespace::GlobalNamespace__MissionLevelFailedController___LevelFailedCoroutine_d__13::__get__missionCompletionResults_5__2() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MissionCompletionResults, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MissionLevelFailedController___LevelFailedCoroutine_d__13::GlobalNamespace__MissionLevelFailedController___LevelFailedCoroutine_d__13(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionLevelFailedController___LevelFailedCoroutine_d__13>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MissionLevelFailedController___LevelFailedCoroutine_d__13 GlobalNamespace::GlobalNamespace__MissionLevelFailedController___LevelFailedCoroutine_d__13::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MissionLevelFailedController___LevelFailedCoroutine_d__13 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionLevelFailedController___LevelFailedCoroutine_d__13>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionLevelFailedController___LevelFailedCoroutine_d__13::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionLevelFailedController___LevelFailedCoroutine_d__13>::get(),
@@ -416,8 +421,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionLevelFailedController::MissionLevelFailedController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionLevelFailedController>())) {}
+ GlobalNamespace::MissionLevelFailedController GlobalNamespace::MissionLevelFailedController::New_ctor()  {
+GlobalNamespace::MissionLevelFailedController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionLevelFailedController>())};
+return o;
+}
  void GlobalNamespace::MissionLevelFailedController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionLevelFailedController>::get(),

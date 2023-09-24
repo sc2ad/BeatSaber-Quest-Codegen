@@ -75,8 +75,10 @@ constexpr void JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::
 constexpr ::StringW JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::__get__ParameterName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::NotifyPropertyChangedInvocatorAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NotifyPropertyChangedInvocatorAttribute>())) {}
+ JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor()  {
+JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute>())};
+return o;
+}
  void JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute>::get(),
@@ -86,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "parameterName", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::NotifyPropertyChangedInvocatorAttribute(::StringW parameterName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NotifyPropertyChangedInvocatorAttribute>(parameterName))) {}
+ JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor(::StringW parameterName)  {
+JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute>(parameterName))};
+return o;
+}
  void JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::_ctor(::StringW parameterName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute>::get(),

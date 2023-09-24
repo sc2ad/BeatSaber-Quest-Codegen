@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crmf/zzzz__DefaultPKMacPrimitivesProvider_def.hpp"
-#include "Org/BouncyCastle/Crmf/zzzz__IPKMacPrimitivesProvider_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crmf/zzzz__IPKMacPrimitivesProvider_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider.CreateDigest
 template<>
@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::IMac, false>(const_cast<void*>(instance), ___internal_method, macAlg);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::DefaultPKMacPrimitivesProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultPKMacPrimitivesProvider>())) {}
+ Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::New_ctor()  {
+Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider>())};
+return o;
+}
  void Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider>::get(),

@@ -50,8 +50,7 @@ constexpr explicit IteratorStateMachineAttribute(void* ptr) noexcept : System::R
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stateMachineType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit IteratorStateMachineAttribute(System::Type stateMachineType) ;
+static System::Runtime::CompilerServices::IteratorStateMachineAttribute New_ctor(System::Type stateMachineType) ;
 
 /// @brief Method .ctor addr 0x236e0e0 size 0x28 virtual false final false
  void _ctor(System::Type stateMachineType) ;

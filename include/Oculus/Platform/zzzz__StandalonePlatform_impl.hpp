@@ -3,10 +3,11 @@
 #include "Oculus/Platform/zzzz__StandalonePlatform_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "Oculus/Platform/zzzz__Request_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Oculus/Platform/zzzz__InitConfigOptions_def.hpp"
+#include "Oculus/Platform/zzzz__StandalonePlatform_def.hpp"
+#include "Oculus/Platform/zzzz__Request_1_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Oculus__Platform__StandalonePlatform__UnityLogDelegate._ctor
 template<>
 
@@ -75,8 +76,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Oculus__Platform__StandalonePlatform__UnityLogDelegate::Oculus__Platform__StandalonePlatform__UnityLogDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<Oculus__Platform__StandalonePlatform__UnityLogDelegate>(object, method))) {}
+ Oculus::Platform::Oculus__Platform__StandalonePlatform__UnityLogDelegate Oculus::Platform::Oculus__Platform__StandalonePlatform__UnityLogDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+Oculus::Platform::Oculus__Platform__StandalonePlatform__UnityLogDelegate o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Oculus__Platform__StandalonePlatform__UnityLogDelegate>(object, method))};
+return o;
+}
  void Oculus::Platform::Oculus__Platform__StandalonePlatform__UnityLogDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__StandalonePlatform__UnityLogDelegate>::get(),
@@ -208,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize>, false>(const_cast<void*>(instance), ___internal_method, appId, accessToken, initConfigOptions);
 }
-// Ctor Parameters []
- Oculus::Platform::StandalonePlatform::StandalonePlatform()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StandalonePlatform>())) {}
+ Oculus::Platform::StandalonePlatform Oculus::Platform::StandalonePlatform::New_ctor()  {
+Oculus::Platform::StandalonePlatform o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::StandalonePlatform>())};
+return o;
+}
  void Oculus::Platform::StandalonePlatform::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::StandalonePlatform>::get(),

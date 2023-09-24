@@ -65,14 +65,12 @@ constexpr bool __get_allowAutoCreate() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "clipClass", ty: "System::Type", modifiers: "", def_value: None }]
-explicit TrackClipTypeAttribute(System::Type clipClass) ;
+static UnityEngine::Timeline::TrackClipTypeAttribute New_ctor(System::Type clipClass) ;
 
 /// @brief Method .ctor addr 0x2ad5cec size 0x30 virtual false final false
  void _ctor(System::Type clipClass) ;
 
-// Ctor Parameters [CppParam { name: "clipClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "allowAutoCreate", ty: "bool", modifiers: "", def_value: None }]
-explicit TrackClipTypeAttribute(System::Type clipClass, bool allowAutoCreate) ;
+static UnityEngine::Timeline::TrackClipTypeAttribute New_ctor(System::Type clipClass, bool allowAutoCreate) ;
 
 /// @brief Method .ctor addr 0x2ad5d1c size 0x28 virtual false final false
  void _ctor(System::Type clipClass, bool allowAutoCreate) ;

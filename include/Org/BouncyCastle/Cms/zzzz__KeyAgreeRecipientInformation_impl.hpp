@@ -1,18 +1,18 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__KeyAgreeRecipientInformation_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__RecipientID_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyAgreeRecipientInfo_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorPublicKey_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__OriginatorID_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorIdentifierOrKey_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorIdentifierOrKey_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyAgreeRecipientInfo_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorPublicKey_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__RecipientID_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::KeyAgreeRecipientInformation.ReadRecipientInfo
 template<>
 
@@ -187,8 +187,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, infos, info, secureReadable);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo", modifiers: "", def_value: None }, CppParam { name: "rid", ty: "Org::BouncyCastle::Cms::RecipientID", modifiers: "", def_value: None }, CppParam { name: "encryptedKey", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "secureReadable", ty: "Org::BouncyCastle::Cms::CmsSecureReadable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::KeyAgreeRecipientInformation(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info, Org::BouncyCastle::Cms::RecipientID rid, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  : Org::BouncyCastle::Cms::RecipientInformation(THROW_UNLESS(::il2cpp_utils::New<KeyAgreeRecipientInformation>(info, rid, encryptedKey, secureReadable))) {}
+ Org::BouncyCastle::Cms::KeyAgreeRecipientInformation Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::New_ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info, Org::BouncyCastle::Cms::RecipientID rid, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  {
+Org::BouncyCastle::Cms::KeyAgreeRecipientInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::KeyAgreeRecipientInformation>(info, rid, encryptedKey, secureReadable))};
+return o;
+}
  void Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::_ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info, Org::BouncyCastle::Cms::RecipientID rid, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::KeyAgreeRecipientInformation>::get(),

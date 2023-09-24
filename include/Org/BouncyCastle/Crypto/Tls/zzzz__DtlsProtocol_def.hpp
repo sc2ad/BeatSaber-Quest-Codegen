@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsRecordLayer;
@@ -12,11 +12,11 @@ class DtlsRecordLayer;
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -73,8 +73,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_mSecureRandom() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit DtlsProtocol(Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+static Org::BouncyCastle::Crypto::Tls::DtlsProtocol New_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method .ctor addr 0xed9888 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom secureRandom) ;

@@ -57,8 +57,7 @@ constexpr ::StringW __get_attributeName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "attributeName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlAttributeAttribute(::StringW attributeName) ;
+static System::Xml::Serialization::XmlAttributeAttribute New_ctor(::StringW attributeName) ;
 
 /// @brief Method .ctor addr 0x2718564 size 0x28 virtual false final false
  void _ctor(::StringW attributeName) ;

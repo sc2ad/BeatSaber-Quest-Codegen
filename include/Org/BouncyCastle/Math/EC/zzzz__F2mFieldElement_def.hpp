@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Math::EC {
+class LongArray;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math::EC {
-class LongArray;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {
@@ -119,20 +119,17 @@ constexpr Org::BouncyCastle::Math::EC::LongArray __get_x() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit F2mFieldElement(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger x) ;
+static Org::BouncyCastle::Math::EC::F2mFieldElement New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method .ctor addr 0xfc0a78 size 0x208 virtual false final false
  void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger x) ;
 
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit F2mFieldElement(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger x) ;
+static Org::BouncyCastle::Math::EC::F2mFieldElement New_ctor(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method .ctor addr 0xfc35a8 size 0x10 virtual false final false
  void _ctor(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger x) ;
 
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ks", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::EC::LongArray", modifiers: "", def_value: None }]
-explicit F2mFieldElement(int32_t m, ::ArrayW<int32_t> ks, Org::BouncyCastle::Math::EC::LongArray x) ;
+static Org::BouncyCastle::Math::EC::F2mFieldElement New_ctor(int32_t m, ::ArrayW<int32_t> ks, Org::BouncyCastle::Math::EC::LongArray x) ;
 
 /// @brief Method .ctor addr 0xfc14b0 size 0x58 virtual false final false
  void _ctor(int32_t m, ::ArrayW<int32_t> ks, Org::BouncyCastle::Math::EC::LongArray x) ;

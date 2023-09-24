@@ -5,26 +5,32 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::EventSystems {
-class ISubmitHandler;
+class IEventSystemHandler;
 }
-namespace GlobalNamespace {
-class Signal;
+namespace UnityEngine::EventSystems {
+class BaseEventData;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
 }
 namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
+class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IPointerClickHandler;
+}
+namespace GlobalNamespace {
+class Signal;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -32,9 +38,6 @@ class Action_2;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
 }
 // Forward declare root types
 namespace HMUI {
@@ -92,6 +95,8 @@ __Animated = 1,
 constexpr operator __HMUI__SelectableCell__TransitionType_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__SelectableCell__TransitionType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -268,8 +273,7 @@ constexpr bool __get__selected_k__BackingField() const;
 /// @brief Method OnPointerExit addr 0x1fd2584 size 0x10 virtual true final false
  void OnPointerExit(UnityEngine::EventSystems::PointerEventData eventData) ;
 
-// Ctor Parameters []
-explicit SelectableCell() ;
+static HMUI::SelectableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd2594 size 0x8 virtual false final false
  void _ctor() ;

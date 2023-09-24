@@ -4,25 +4,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class IFactory;
-}
-namespace Zenject {
 class IMemoryPool;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-template<typename TValue>
-class IMemoryPool_1;
+class IFactory;
 }
 namespace Zenject {
 template<typename TValue>
 class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
 template<typename TValue>
 class IFactory_1;
+}
+namespace Zenject {
+template<typename TValue>
+class IMemoryPool_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -39,7 +39,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2648 }), TypeDefinitionIndex(TypeDefinitionIndex(10980)), TypeDefinitionIndex(TypeDefinitionIndex(10991))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10991)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2648 }), TypeDefinitionIndex(TypeDefinitionIndex(10980))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10980), inst: 2 })
 // CS Name: Zenject.MemoryPool`1
 class CORDL_TYPE MemoryPool_1<TValue> : public Zenject::MemoryPoolBase_1<TValue> {
@@ -102,8 +102,7 @@ constexpr explicit MemoryPool_1(void* ptr) noexcept : Zenject::MemoryPoolBase_1<
 /// @brief Method Zenject.IFactory<TValue>.Create addr 0x0 size 0xffffffffffffffff virtual true final true
  TValue Zenject_IFactory_TValue__Create() ;
 
-// Ctor Parameters []
-explicit MemoryPool_1() ;
+static Zenject::MemoryPool_1<TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

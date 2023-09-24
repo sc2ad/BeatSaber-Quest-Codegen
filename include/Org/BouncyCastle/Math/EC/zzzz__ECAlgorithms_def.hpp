@@ -6,8 +6,8 @@
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class WNafPreCompInfo;
 }
-namespace Org::BouncyCastle::Math::Field {
-class IFiniteField;
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ECEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
@@ -15,8 +15,8 @@ class ECFieldElement;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
+namespace Org::BouncyCastle::Math::Field {
+class IFiniteField;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
 class GlvEndomorphism;
@@ -142,8 +142,7 @@ static Org::BouncyCastle::Math::EC::ECPoint ImplSumOfMultiplies(::ArrayW<bool> n
 /// @brief Method ImplShamirsTrickFixedPoint addr 0xfbe934 size 0x490 virtual false final false
 static Org::BouncyCastle::Math::EC::ECPoint ImplShamirsTrickFixedPoint(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Math::BigInteger l) ;
 
-// Ctor Parameters []
-explicit ECAlgorithms() ;
+static Org::BouncyCastle::Math::EC::ECAlgorithms New_ctor() ;
 
 /// @brief Method .ctor addr 0xfbfb88 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,18 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
+namespace UnityEngine::EventSystems {
+class BaseInputModule;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0;
+}
+namespace UnityEngine::EventSystems {
+struct UnityEngine__EventSystems__EventSystem__UIToolkitOverrideConfig;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace System {
+template<typename T>
+class Comparison_1;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
@@ -24,12 +30,12 @@ struct RaycastResult;
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace System {
-template<typename T>
-class Comparison_1;
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
 }
-namespace UnityEngine::EventSystems {
-class BaseInputModule;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -157,8 +163,7 @@ constexpr UnityEngine::GameObject __get_go() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0() ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__EventSystem____c__DisplayClass52_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1e8d8 size 0x8 virtual false final false
  void _ctor() ;
@@ -356,8 +361,7 @@ static void set_current(UnityEngine::EventSystems::EventSystem value) ;
 /// @brief Method get_isFocused addr 0x2c1d9c0 size 0x8 virtual false final false
  bool get_isFocused() ;
 
-// Ctor Parameters []
-explicit EventSystem() ;
+static UnityEngine::EventSystems::EventSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1d9c8 size 0x90 virtual false final false
  void _ctor() ;

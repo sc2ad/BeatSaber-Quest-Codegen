@@ -4,30 +4,33 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class IPanel;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
+class IPanel;
 }
 namespace UnityEngine {
 class Camera;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__PanelRaycaster__FloatIntBits;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+namespace UnityEngine::UIElements {
+class IRuntimePanelComponent;
+}
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
-}
-namespace UnityEngine::UIElements {
-class IRuntimePanelComponent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -197,8 +200,7 @@ constexpr UnityEngine::UIElements::BaseRuntimePanel __get_m_Panel() const;
 /// @brief Method ConvertFloatBitsToInt addr 0x2c1bca4 size 0x8 virtual false final false
 static int32_t ConvertFloatBitsToInt(float_t f) ;
 
-// Ctor Parameters []
-explicit PanelRaycaster() ;
+static UnityEngine::UIElements::PanelRaycaster New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1c1a8 size 0x8 virtual false final false
  void _ctor() ;

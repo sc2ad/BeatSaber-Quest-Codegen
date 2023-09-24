@@ -11,29 +11,137 @@ namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__ControllerState5;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerRHand;
+}
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace OVR::OpenVR {
+struct ETrackedDeviceProperty;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__OpenVRController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerRemote;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__RawAxis1D;
+}
+namespace System {
+class Version;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__HapticsAmplitudeEnvelopeVibration;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Hand;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Button;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class Version;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Controller;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerLTouch;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Axis2D;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__HapticsPcmVibration;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__RawTouch;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__RawButton;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Axis1D;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__NearTouch;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerGamepadAndroid;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__HapticsLocation;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerTouch;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerLHand;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerGamepadPC;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__OpenVRButton;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__OpenVRControllerDetails;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__RawAxis2D;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerBase;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerRTouch;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__InteractionProfile;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__HapticInfo;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Handedness;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Step;
 }
-namespace OVR::OpenVR {
-struct ETrackedDeviceProperty;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__Touch;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRInput__RawNearTouch;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRInput__OVRControllerHands;
 }
 namespace OVR::OpenVR {
 struct VRControllerState_t;
@@ -232,6 +340,8 @@ constexpr operator __GlobalNamespace__OVRInput__Button_Unwrapped () const noexce
 return std::bit_cast<__GlobalNamespace__OVRInput__Button_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -425,6 +535,8 @@ constexpr operator __GlobalNamespace__OVRInput__RawButton_Unwrapped () const noe
 return std::bit_cast<__GlobalNamespace__OVRInput__RawButton_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -590,6 +702,8 @@ constexpr operator __GlobalNamespace__OVRInput__Touch_Unwrapped () const noexcep
 return std::bit_cast<__GlobalNamespace__OVRInput__Touch_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -707,6 +821,8 @@ constexpr operator __GlobalNamespace__OVRInput__RawTouch_Unwrapped () const noex
 return std::bit_cast<__GlobalNamespace__OVRInput__RawTouch_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -816,6 +932,8 @@ constexpr operator __GlobalNamespace__OVRInput__NearTouch_Unwrapped () const noe
 return std::bit_cast<__GlobalNamespace__OVRInput__NearTouch_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -900,6 +1018,8 @@ __Any = -1,
 constexpr operator __GlobalNamespace__OVRInput__RawNearTouch_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRInput__RawNearTouch_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -993,6 +1113,8 @@ __Any = -1,
 constexpr operator __GlobalNamespace__OVRInput__Axis1D_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRInput__Axis1D_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1111,6 +1233,8 @@ constexpr operator __GlobalNamespace__OVRInput__RawAxis1D_Unwrapped () const noe
 return std::bit_cast<__GlobalNamespace__OVRInput__RawAxis1D_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1220,6 +1344,8 @@ constexpr operator __GlobalNamespace__OVRInput__Axis2D_Unwrapped () const noexce
 return std::bit_cast<__GlobalNamespace__OVRInput__Axis2D_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1305,6 +1431,8 @@ constexpr operator __GlobalNamespace__OVRInput__RawAxis2D_Unwrapped () const noe
 return std::bit_cast<__GlobalNamespace__OVRInput__RawAxis2D_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1387,6 +1515,8 @@ __Grip = 4u,
 constexpr operator __GlobalNamespace__OVRInput__OpenVRButton_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRInput__OpenVRButton_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint64_t;
 
 
 // Fields
@@ -1471,6 +1601,8 @@ __All = -1,
 constexpr operator __GlobalNamespace__OVRInput__Controller_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRInput__Controller_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1569,6 +1701,8 @@ constexpr operator __GlobalNamespace__OVRInput__Handedness_Unwrapped () const no
 return std::bit_cast<__GlobalNamespace__OVRInput__Handedness_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1642,6 +1776,8 @@ __Index = 4,
 constexpr operator __GlobalNamespace__OVRInput__HapticsLocation_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRInput__HapticsLocation_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1719,6 +1855,8 @@ constexpr operator __GlobalNamespace__OVRInput__InteractionProfile_Unwrapped () 
 return std::bit_cast<__GlobalNamespace__OVRInput__InteractionProfile_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1791,6 +1929,8 @@ __HandRight = 1,
 constexpr operator __GlobalNamespace__OVRInput__Hand_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRInput__Hand_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -2002,6 +2142,8 @@ constexpr operator __GlobalNamespace__OVRInput__OpenVRController_Unwrapped () co
 return std::bit_cast<__GlobalNamespace__OVRInput__OpenVRController_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint64_t;
+
 
 // Fields
 
@@ -2179,8 +2321,7 @@ constexpr UnityEngine::XR::XRNode __get_node() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__HapticInfo() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__HapticInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c1734 size 0x8 virtual false final false
  void _ctor() ;
@@ -2435,8 +2576,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRInput__RawButton __get_Right() co
 /// @brief Method ToRawMask addr 0x25c2ee8 size 0x214 virtual false final false
  GlobalNamespace::GlobalNamespace__OVRInput__RawButton ToRawMask(GlobalNamespace::GlobalNamespace__OVRInput__Button virtualMask) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualButtonMap New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c21ac size 0x8 virtual false final false
  void _ctor() ;
@@ -2571,8 +2711,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRInput__RawTouch __get_SecondaryTo
 /// @brief Method ToRawMask addr 0x25c30fc size 0xd4 virtual false final false
  GlobalNamespace::GlobalNamespace__OVRInput__RawTouch ToRawMask(GlobalNamespace::GlobalNamespace__OVRInput__Touch virtualMask) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualTouchMap New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c21b4 size 0x8 virtual false final false
  void _ctor() ;
@@ -2659,8 +2798,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRInput__RawNearTouch __get_Seconda
 /// @brief Method ToRawMask addr 0x25c31d0 size 0x54 virtual false final false
  GlobalNamespace::GlobalNamespace__OVRInput__RawNearTouch ToRawMask(GlobalNamespace::GlobalNamespace__OVRInput__NearTouch virtualMask) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualNearTouchMap New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c21bc size 0x8 virtual false final false
  void _ctor() ;
@@ -2795,8 +2933,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRInput__RawAxis1D __get_SecondaryS
 /// @brief Method ToRawMask addr 0x25c3224 size 0xd4 virtual false final false
  GlobalNamespace::GlobalNamespace__OVRInput__RawAxis1D ToRawMask(GlobalNamespace::GlobalNamespace__OVRInput__Axis1D virtualMask) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis1DMap New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c21c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -2883,8 +3020,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRInput__RawAxis2D __get_SecondaryT
 /// @brief Method ToRawMask addr 0x25c32f8 size 0x54 virtual false final false
  GlobalNamespace::GlobalNamespace__OVRInput__RawAxis2D ToRawMask(GlobalNamespace::GlobalNamespace__OVRInput__Axis2D virtualMask) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase__VirtualAxis2DMap New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c21cc size 0x8 virtual false final false
  void _ctor() ;
@@ -3008,8 +3144,7 @@ constexpr ::ArrayW<uint32_t> __get_HapticsPcmSamplesConsumedCache() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerBase() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c1ffc size 0x1b0 virtual false final false
  void _ctor() ;
@@ -3114,8 +3249,7 @@ constexpr explicit GlobalNamespace__OVRInput__OVRControllerTouch(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerTouch() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerTouch New_ctor() ;
 
 /// @brief Method .ctor addr 0x25bcff8 size 0x1c virtual false final false
  void _ctor() ;
@@ -3184,8 +3318,7 @@ constexpr explicit GlobalNamespace__OVRInput__OVRControllerLTouch(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerLTouch() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLTouch New_ctor() ;
 
 /// @brief Method .ctor addr 0x25bd014 size 0x1c virtual false final false
  void _ctor() ;
@@ -3254,8 +3387,7 @@ constexpr explicit GlobalNamespace__OVRInput__OVRControllerRTouch(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerRTouch() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRTouch New_ctor() ;
 
 /// @brief Method .ctor addr 0x25bd030 size 0x1c virtual false final false
  void _ctor() ;
@@ -3324,8 +3456,7 @@ constexpr explicit GlobalNamespace__OVRInput__OVRControllerHands(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerHands() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerHands New_ctor() ;
 
 /// @brief Method .ctor addr 0x25bd04c size 0x1c virtual false final false
  void _ctor() ;
@@ -3394,8 +3525,7 @@ constexpr explicit GlobalNamespace__OVRInput__OVRControllerLHand(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerLHand() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerLHand New_ctor() ;
 
 /// @brief Method .ctor addr 0x25bd068 size 0x1c virtual false final false
  void _ctor() ;
@@ -3464,8 +3594,7 @@ constexpr explicit GlobalNamespace__OVRInput__OVRControllerRHand(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerRHand() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRHand New_ctor() ;
 
 /// @brief Method .ctor addr 0x25bd084 size 0x1c virtual false final false
  void _ctor() ;
@@ -3534,8 +3663,7 @@ constexpr explicit GlobalNamespace__OVRInput__OVRControllerRemote(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerRemote() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerRemote New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c39d4 size 0x1c virtual false final false
  void _ctor() ;
@@ -3601,8 +3729,7 @@ constexpr explicit GlobalNamespace__OVRInput__OVRControllerGamepadPC(void* ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerGamepadPC() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadPC New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c3adc size 0x1c virtual false final false
  void _ctor() ;
@@ -3668,8 +3795,7 @@ constexpr explicit GlobalNamespace__OVRInput__OVRControllerGamepadAndroid(void* 
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRInput__OVRControllerGamepadAndroid() ;
+static GlobalNamespace::GlobalNamespace__OVRInput__OVRControllerGamepadAndroid New_ctor() ;
 
 /// @brief Method .ctor addr 0x25bcfdc size 0x1c virtual false final false
  void _ctor() ;

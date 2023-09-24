@@ -47,8 +47,7 @@ constexpr explicit TerminatesProgramAttribute(void* ptr) noexcept : System::Attr
 
 // Methods
 
-// Ctor Parameters []
-explicit TerminatesProgramAttribute() ;
+static JetBrains::Annotations::TerminatesProgramAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41260 size 0x8 virtual false final false
  void _ctor() ;

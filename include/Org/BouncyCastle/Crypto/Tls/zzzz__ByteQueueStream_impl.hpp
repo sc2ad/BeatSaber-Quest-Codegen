@@ -332,8 +332,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::ByteQueueStream::__set_buffer(Org
 constexpr Org::BouncyCastle::Crypto::Tls::ByteQueue Org::BouncyCastle::Crypto::Tls::ByteQueueStream::__get_buffer() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::ByteQueue, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::ByteQueueStream::ByteQueueStream()  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<ByteQueueStream>())) {}
+ Org::BouncyCastle::Crypto::Tls::ByteQueueStream Org::BouncyCastle::Crypto::Tls::ByteQueueStream::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::ByteQueueStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ByteQueueStream>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ByteQueueStream::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ByteQueueStream>::get(),

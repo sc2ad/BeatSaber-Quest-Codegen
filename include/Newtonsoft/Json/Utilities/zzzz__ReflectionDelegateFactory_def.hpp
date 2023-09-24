@@ -2,17 +2,26 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Reflection {
+class FieldInfo;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace Newtonsoft::Json::Utilities {
+template<typename T,typename TResult>
+class MethodCall_2;
+}
+namespace System::Reflection {
 class MethodBase;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Reflection {
-class PropertyInfo;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace Newtonsoft::Json::Serialization {
 template<typename T>
@@ -21,20 +30,11 @@ class ObjectConstructor_1;
 namespace System {
 class Type;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace Newtonsoft::Json::Utilities {
-template<typename T,typename TResult>
-class MethodCall_2;
-}
 namespace System::Reflection {
 class MemberInfo;
+}
+namespace System::Reflection {
+class PropertyInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -117,8 +117,7 @@ template<typename T>
 template<typename T>
  System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(System::Reflection::PropertyInfo propertyInfo) ;
 
-// Ctor Parameters []
-explicit ReflectionDelegateFactory() ;
+static Newtonsoft::Json::Utilities::ReflectionDelegateFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e24a4 size 0x8 virtual false final false
  void _ctor() ;

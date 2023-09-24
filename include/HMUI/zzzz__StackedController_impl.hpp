@@ -3,6 +3,7 @@
 #include "HMUI/zzzz__StackedController_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "HMUI/zzzz__StackedController_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__StackedController____c__DisplayClass5_0._ctor
@@ -45,8 +46,10 @@ constexpr void HMUI::HMUI__StackedController____c__DisplayClass5_0::__set_number
 constexpr int32_t HMUI::HMUI__StackedController____c__DisplayClass5_0::__get_numberOfViewControllersToPop() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__StackedController____c__DisplayClass5_0::HMUI__StackedController____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__StackedController____c__DisplayClass5_0>())) {}
+ HMUI::HMUI__StackedController____c__DisplayClass5_0 HMUI::HMUI__StackedController____c__DisplayClass5_0::New_ctor()  {
+HMUI::HMUI__StackedController____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__StackedController____c__DisplayClass5_0>())};
+return o;
+}
  void HMUI::HMUI__StackedController____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__StackedController____c__DisplayClass5_0>::get(),
@@ -260,8 +263,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, viewController, index);
 }
-// Ctor Parameters []
- HMUI::StackedController::StackedController()  : HMUI::ContainerViewController(THROW_UNLESS(::il2cpp_utils::New<StackedController>())) {}
+ HMUI::StackedController HMUI::StackedController::New_ctor()  {
+HMUI::StackedController o{THROW_UNLESS(::il2cpp_utils::New<HMUI::StackedController>())};
+return o;
+}
  void HMUI::StackedController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::StackedController>::get(),

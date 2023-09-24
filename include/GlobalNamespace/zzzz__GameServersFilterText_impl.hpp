@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServersFilterText_def.hpp"
-#include "GlobalNamespace/zzzz__GameServersFilter_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
 #include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
+#include "GlobalNamespace/zzzz__GameServersFilter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameServersFilterText.Setup
 template<>
 
@@ -94,8 +94,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapDifficultyMask, songPackMask, visible);
 }
-// Ctor Parameters []
- GlobalNamespace::GameServersFilterText::GameServersFilterText()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GameServersFilterText>())) {}
+ GlobalNamespace::GameServersFilterText GlobalNamespace::GameServersFilterText::New_ctor()  {
+GlobalNamespace::GameServersFilterText o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameServersFilterText>())};
+return o;
+}
  void GlobalNamespace::GameServersFilterText::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameServersFilterText>::get(),

@@ -64,8 +64,7 @@ constexpr OVR::OpenVR::IVRDriverManager __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRDriverManager(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRDriverManager New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x2668078 size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

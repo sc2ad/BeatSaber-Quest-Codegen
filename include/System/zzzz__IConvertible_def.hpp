@@ -5,19 +5,19 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-class IFormatProvider;
-}
-namespace System {
-struct Decimal;
+struct DateTime;
 }
 namespace System {
 class Type;
 }
 namespace System {
-struct DateTime;
+class IFormatProvider;
 }
 namespace System {
 struct TypeCode;
+}
+namespace System {
+struct Decimal;
 }
 // Forward declare root types
 namespace System {

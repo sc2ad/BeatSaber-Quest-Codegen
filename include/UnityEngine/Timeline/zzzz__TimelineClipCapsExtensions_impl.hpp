@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__TimelineClipCapsExtensions_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::TimelineClipCapsExtensions.SupportsLooping
 template<>
 

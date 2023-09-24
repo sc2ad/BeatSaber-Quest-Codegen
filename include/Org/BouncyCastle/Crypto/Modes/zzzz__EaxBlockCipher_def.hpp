@@ -5,23 +5,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadCipher;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class SicBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+struct Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class SicBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -80,6 +83,8 @@ __C = 2u,
 constexpr operator __Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Crypto__Modes__EaxBlockCipher__Tag_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields
@@ -233,8 +238,7 @@ constexpr ::ArrayW<uint8_t> __get_initialAssociatedText() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit EaxBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+static Org::BouncyCastle::Crypto::Modes::EaxBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe8fc38 size 0x24c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;

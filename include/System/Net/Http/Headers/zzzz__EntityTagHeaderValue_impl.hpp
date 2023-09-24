@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__EntityTagHeaderValue_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::EntityTagHeaderValue._ctor
@@ -230,8 +230,10 @@ constexpr void System::Net::Http::Headers::EntityTagHeaderValue::__set__Tag_k__B
 constexpr ::StringW System::Net::Http::Headers::EntityTagHeaderValue::__get__Tag_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::EntityTagHeaderValue::EntityTagHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EntityTagHeaderValue>())) {}
+ System::Net::Http::Headers::EntityTagHeaderValue System::Net::Http::Headers::EntityTagHeaderValue::New_ctor()  {
+System::Net::Http::Headers::EntityTagHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::EntityTagHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::EntityTagHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::EntityTagHeaderValue>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHKeyGenerationParameters_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters._ctor
 template<>
 
@@ -60,8 +60,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters:
 constexpr Org::BouncyCastle::Crypto::Parameters::DHParameters Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters::__get_parameters() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::DHParameters, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters::DHKeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters)  : Org::BouncyCastle::Crypto::KeyGenerationParameters(THROW_UNLESS(::il2cpp_utils::New<DHKeyGenerationParameters>(random, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters::New_ctor(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters>(random, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters::_ctor(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters>::get(),

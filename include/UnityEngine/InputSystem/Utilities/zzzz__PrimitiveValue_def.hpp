@@ -6,26 +6,26 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class Type;
-}
-namespace System {
-struct TypeCode;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class IConvertible;
 }
 namespace System {
-struct Decimal;
-}
-namespace System {
 struct DateTime;
 }
 namespace System {
-template<typename T>
-class IEquatable_1;
+struct TypeCode;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class IFormatProvider;
+}
+namespace System {
+struct Decimal;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

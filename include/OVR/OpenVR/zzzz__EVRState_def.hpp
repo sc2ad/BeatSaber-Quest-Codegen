@@ -63,6 +63,8 @@ constexpr operator __EVRState_Unwrapped () const noexcept {
 return std::bit_cast<__EVRState_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

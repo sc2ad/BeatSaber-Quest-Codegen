@@ -68,8 +68,7 @@ constexpr int32_t __get__order_k__BackingField() const;
 /// @brief Method set_order addr 0x2b4b524 size 0x8 virtual false final false
  void set_order(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BeforeRenderOrderAttribute(int32_t order) ;
+static UnityEngine::BeforeRenderOrderAttribute New_ctor(int32_t order) ;
 
 /// @brief Method .ctor addr 0x2b4b52c size 0x28 virtual false final false
  void _ctor(int32_t order) ;

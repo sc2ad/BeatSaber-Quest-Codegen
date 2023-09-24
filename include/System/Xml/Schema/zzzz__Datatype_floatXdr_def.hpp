@@ -58,8 +58,7 @@ constexpr explicit Datatype_floatXdr(void* ptr) noexcept : System::Xml::Schema::
 /// @brief Method ParseValue addr 0x272b344 size 0x27c virtual true final false
  ::bs_hook::Il2CppWrapperType ParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr) ;
 
-// Ctor Parameters []
-explicit Datatype_floatXdr() ;
+static System::Xml::Schema::Datatype_floatXdr New_ctor() ;
 
 /// @brief Method .ctor addr 0x272b5c0 size 0x54 virtual false final false
  void _ctor() ;

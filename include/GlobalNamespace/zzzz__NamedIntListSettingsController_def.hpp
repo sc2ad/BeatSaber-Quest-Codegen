@@ -7,6 +7,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__NamedIntListSettingsController__TextValuePair;
+}
+namespace GlobalNamespace {
 class IntSO;
 }
 // Forward declare root types
@@ -81,8 +84,7 @@ constexpr int32_t __get_value() const;
 /// @brief Method get_localizedText addr 0x2153944 size 0xc virtual false final false
  ::StringW get_localizedText() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__NamedIntListSettingsController__TextValuePair() ;
+static GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair New_ctor() ;
 
 /// @brief Method .ctor addr 0x2153958 size 0x8 virtual false final false
  void _ctor() ;
@@ -159,8 +161,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__NamedIntListSettingsControl
 /// @brief Method TextForValue addr 0x2153908 size 0x3c virtual true final false
  ::StringW TextForValue(int32_t idx) ;
 
-// Ctor Parameters []
-explicit NamedIntListSettingsController() ;
+static GlobalNamespace::NamedIntListSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2153950 size 0x8 virtual false final false
  void _ctor() ;

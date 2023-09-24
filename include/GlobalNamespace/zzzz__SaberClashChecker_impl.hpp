@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SaberClashChecker_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SaberClashChecker.Init
 template<>
 
@@ -128,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method, fromA, toA, fromB, toB, inbetweenPoint);
 }
-// Ctor Parameters []
- GlobalNamespace::SaberClashChecker::SaberClashChecker()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SaberClashChecker>())) {}
+ GlobalNamespace::SaberClashChecker GlobalNamespace::SaberClashChecker::New_ctor()  {
+GlobalNamespace::SaberClashChecker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SaberClashChecker>())};
+return o;
+}
  void GlobalNamespace::SaberClashChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SaberClashChecker>::get(),

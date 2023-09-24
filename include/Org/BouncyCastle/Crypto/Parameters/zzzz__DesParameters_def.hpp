@@ -64,14 +64,12 @@ static ::ArrayW<uint8_t> __get_DES_weak_keys() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DesParameters(::ArrayW<uint8_t> key) ;
+static Org::BouncyCastle::Crypto::Parameters::DesParameters New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0xea26b0 size 0xc0 virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DesParameters(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
+static Org::BouncyCastle::Crypto::Parameters::DesParameters New_ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
 
 /// @brief Method .ctor addr 0xea27c8 size 0xdc virtual false final false
  void _ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;

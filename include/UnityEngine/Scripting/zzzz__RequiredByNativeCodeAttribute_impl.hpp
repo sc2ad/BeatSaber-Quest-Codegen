@@ -104,8 +104,10 @@ constexpr void UnityEngine::Scripting::RequiredByNativeCodeAttribute::__set__Gen
 constexpr bool UnityEngine::Scripting::RequiredByNativeCodeAttribute::__get__GenerateProxy_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x19>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Scripting::RequiredByNativeCodeAttribute::RequiredByNativeCodeAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RequiredByNativeCodeAttribute>())) {}
+ UnityEngine::Scripting::RequiredByNativeCodeAttribute UnityEngine::Scripting::RequiredByNativeCodeAttribute::New_ctor()  {
+UnityEngine::Scripting::RequiredByNativeCodeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Scripting::RequiredByNativeCodeAttribute>())};
+return o;
+}
  void UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Scripting::RequiredByNativeCodeAttribute>::get(),
@@ -115,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Scripting::RequiredByNativeCodeAttribute::RequiredByNativeCodeAttribute(::StringW name)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RequiredByNativeCodeAttribute>(name))) {}
+ UnityEngine::Scripting::RequiredByNativeCodeAttribute UnityEngine::Scripting::RequiredByNativeCodeAttribute::New_ctor(::StringW name)  {
+UnityEngine::Scripting::RequiredByNativeCodeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Scripting::RequiredByNativeCodeAttribute>(name))};
+return o;
+}
  void UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Scripting::RequiredByNativeCodeAttribute>::get(),

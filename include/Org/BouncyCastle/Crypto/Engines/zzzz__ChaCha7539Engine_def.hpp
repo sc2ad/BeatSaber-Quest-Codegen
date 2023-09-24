@@ -57,8 +57,7 @@ constexpr explicit ChaCha7539Engine(void* ptr) noexcept : Org::BouncyCastle::Cry
 
 // Methods
 
-// Ctor Parameters []
-explicit ChaCha7539Engine() ;
+static Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe3d824 size 0x54 virtual false final false
  void _ctor() ;

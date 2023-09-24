@@ -1,23 +1,23 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Xml {
-struct XmlNodeType;
+namespace System::Xml::Linq {
+struct SaveOptions;
 }
 namespace System::Xml::Linq {
 class XElement;
 }
 namespace System::Xml::Linq {
-class XObjectChangeEventArgs;
+class XContainer;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 namespace System {
 class Type;
 }
 namespace System::Xml::Linq {
-struct SaveOptions;
-}
-namespace System::Xml::Linq {
-class XContainer;
+class XObjectChangeEventArgs;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -87,8 +87,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_annotations() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XObject() ;
+static System::Xml::Linq::XObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x26c8140 size 0x8 virtual false final false
  void _ctor() ;

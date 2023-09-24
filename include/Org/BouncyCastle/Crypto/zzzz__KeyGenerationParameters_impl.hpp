@@ -64,8 +64,10 @@ constexpr void Org::BouncyCastle::Crypto::KeyGenerationParameters::__set_strengt
 constexpr int32_t Org::BouncyCastle::Crypto::KeyGenerationParameters::__get_strength() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::KeyGenerationParameters::KeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, int32_t strength)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyGenerationParameters>(random, strength))) {}
+ Org::BouncyCastle::Crypto::KeyGenerationParameters Org::BouncyCastle::Crypto::KeyGenerationParameters::New_ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength)  {
+Org::BouncyCastle::Crypto::KeyGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::KeyGenerationParameters>(random, strength))};
+return o;
+}
  void Org::BouncyCastle::Crypto::KeyGenerationParameters::_ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::KeyGenerationParameters>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsSignerCredentials_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DefaultTlsSignerCredentials_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SignatureAndHashAlgorithm_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSigner_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials._ctor
 template<>
 
@@ -121,8 +121,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::__se
 constexpr Org::BouncyCastle::Crypto::Tls::TlsSigner Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::__get_mSigner() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::TlsSigner, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "certificate", ty: "Org::BouncyCastle::Crypto::Tls::Certificate", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::DefaultTlsSignerCredentials(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsSignerCredentials>(context, certificate, privateKey))) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials>(context, certificate, privateKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials>::get(),
@@ -132,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, context, certificate, privateKey);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "certificate", ty: "Org::BouncyCastle::Crypto::Tls::Certificate", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "signatureAndHashAlgorithm", ty: "Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::DefaultTlsSignerCredentials(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey, Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm signatureAndHashAlgorithm)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsSignerCredentials>(context, certificate, privateKey, signatureAndHashAlgorithm))) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey, Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm signatureAndHashAlgorithm)  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials>(context, certificate, privateKey, signatureAndHashAlgorithm))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey, Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm signatureAndHashAlgorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials>::get(),

@@ -24,8 +24,10 @@ constexpr void UnityEngine::MultilineAttribute::__set_lines(int32_t value)  {
 constexpr int32_t UnityEngine::MultilineAttribute::__get_lines() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::MultilineAttribute::MultilineAttribute()  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<MultilineAttribute>())) {}
+ UnityEngine::MultilineAttribute UnityEngine::MultilineAttribute::New_ctor()  {
+UnityEngine::MultilineAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::MultilineAttribute>())};
+return o;
+}
  void UnityEngine::MultilineAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::MultilineAttribute>::get(),

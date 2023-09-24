@@ -1,10 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HoverHintController_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "HMUI/zzzz__HoverHint_def.hpp"
+#include "HMUI/zzzz__HoverHintController_def.hpp"
 #include "HMUI/zzzz__HoverHintPanel_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10._ctor
@@ -151,8 +152,10 @@ constexpr void HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10::__set
 constexpr HMUI::HoverHintController HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10::__get___4__this() const {
 return ::cordl_internals::getInstanceField<HMUI::HoverHintController, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10::HMUI__HoverHintController___ShowHintAfterDelay_d__10(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__HoverHintController___ShowHintAfterDelay_d__10>(__1__state))) {}
+ HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10 HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10>(__1__state))};
+return o;
+}
  void HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10>::get(),
@@ -345,8 +348,10 @@ constexpr void HMUI::HMUI__HoverHintController___HideHintAfterDelay_d__11::__set
 constexpr float_t HMUI::HMUI__HoverHintController___HideHintAfterDelay_d__11::__get_delay() const {
 return ::cordl_internals::getInstanceField<float_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__HoverHintController___HideHintAfterDelay_d__11::HMUI__HoverHintController___HideHintAfterDelay_d__11(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__HoverHintController___HideHintAfterDelay_d__11>(__1__state))) {}
+ HMUI::HMUI__HoverHintController___HideHintAfterDelay_d__11 HMUI::HMUI__HoverHintController___HideHintAfterDelay_d__11::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__HoverHintController___HideHintAfterDelay_d__11 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__HoverHintController___HideHintAfterDelay_d__11>(__1__state))};
+return o;
+}
  void HMUI::HMUI__HoverHintController___HideHintAfterDelay_d__11::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__HoverHintController___HideHintAfterDelay_d__11>::get(),
@@ -670,8 +675,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Transform, false>(nullptr, ___internal_method, hoverHint);
 }
-// Ctor Parameters []
- HMUI::HoverHintController::HoverHintController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HoverHintController>())) {}
+ HMUI::HoverHintController HMUI::HoverHintController::New_ctor()  {
+HMUI::HoverHintController o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HoverHintController>())};
+return o;
+}
  void HMUI::HoverHintController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HoverHintController>::get(),

@@ -85,8 +85,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::__set_iv
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::__get_iv() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::ParametersWithIV(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> iv)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ParametersWithIV>(parameters, iv))) {}
+ Org::BouncyCastle::Crypto::Parameters::ParametersWithIV Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> iv)  {
+Org::BouncyCastle::Crypto::Parameters::ParametersWithIV o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ParametersWithIV>(parameters, iv))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> iv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ParametersWithIV>::get(),
@@ -96,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parameters, iv);
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "ivOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ivLen", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::ParametersWithIV(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> iv, int32_t ivOff, int32_t ivLen)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ParametersWithIV>(parameters, iv, ivOff, ivLen))) {}
+ Org::BouncyCastle::Crypto::Parameters::ParametersWithIV Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> iv, int32_t ivOff, int32_t ivLen)  {
+Org::BouncyCastle::Crypto::Parameters::ParametersWithIV o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ParametersWithIV>(parameters, iv, ivOff, ivLen))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> iv, int32_t ivOff, int32_t ivLen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ParametersWithIV>::get(),

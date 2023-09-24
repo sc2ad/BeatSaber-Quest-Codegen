@@ -1,33 +1,34 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyReader_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Cursor_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleProperty_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EasingFunction_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleVariableResolver_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Length_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Translate_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Background_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__ImageSource_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleValueKeyword_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleComplexSelector_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StyleEnumType_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValue_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleValueType_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextShadow_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EasingFunction_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleValueKeyword_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Length_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Translate_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleVariableResolver_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleValueType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleProperty_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Background_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Cursor_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StyleEnumType_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleComplexSelector_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__ImageSource_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyValue_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyReader_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueHandle_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction._ctor
 template<>
@@ -63,8 +64,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Un
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction::UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction>(object, method))) {}
+ UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction>(object, method))};
+return o;
+}
  void UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction>::get(),
@@ -1324,8 +1327,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, propertyValue, dpiScaling, source);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleSheets::StylePropertyReader::StylePropertyReader()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StylePropertyReader>())) {}
+ UnityEngine::UIElements::StyleSheets::StylePropertyReader UnityEngine::UIElements::StyleSheets::StylePropertyReader::New_ctor()  {
+UnityEngine::UIElements::StyleSheets::StylePropertyReader o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleSheets::StylePropertyReader>())};
+return o;
+}
  void UnityEngine::UIElements::StyleSheets::StylePropertyReader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleSheets::StylePropertyReader>::get(),

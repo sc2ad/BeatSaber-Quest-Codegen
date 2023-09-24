@@ -1,39 +1,5 @@
 #pragma once
 #include "Zenject/zzzz__IPoolable_10_def.hpp"
-//  Writing Method size for method: Zenject::IPoolable_10.OnDespawned
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IPoolable_10::*)()>(&Zenject::IPoolable_10::OnDespawned)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(Zenject::IPoolable_10),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::IPoolable_10>::get(),
-                                  0
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::IPoolable_10.OnSpawned
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IPoolable_10::*)(TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10)>(&Zenject::IPoolable_10::OnSpawned)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(Zenject::IPoolable_10),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::IPoolable_10>::get(),
-                                  1
-                                ));
-    return ___internal_method;
-  }
-};
  void Zenject::IPoolable_10::OnDespawned()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::IPoolable_10>::get(),

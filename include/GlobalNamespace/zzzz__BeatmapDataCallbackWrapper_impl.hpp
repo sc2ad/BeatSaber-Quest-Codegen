@@ -54,8 +54,10 @@ constexpr void GlobalNamespace::BeatmapDataCallbackWrapper::__set_subtypeIdentif
 constexpr ::ArrayW<int32_t> GlobalNamespace::BeatmapDataCallbackWrapper::__get_subtypeIdentifiers() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int32_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "aheadTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "BasicBeatmapEventType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifiers", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapDataCallbackWrapper::BeatmapDataCallbackWrapper(float_t aheadTime, System::Type BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapDataCallbackWrapper>(aheadTime, BasicBeatmapEventType, subtypeIdentifiers))) {}
+ GlobalNamespace::BeatmapDataCallbackWrapper GlobalNamespace::BeatmapDataCallbackWrapper::New_ctor(float_t aheadTime, System::Type BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers)  {
+GlobalNamespace::BeatmapDataCallbackWrapper o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapDataCallbackWrapper>(aheadTime, BasicBeatmapEventType, subtypeIdentifiers))};
+return o;
+}
  void GlobalNamespace::BeatmapDataCallbackWrapper::_ctor(float_t aheadTime, System::Type BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapDataCallbackWrapper>::get(),

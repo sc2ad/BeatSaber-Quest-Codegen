@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class IDisposable;
-}
 namespace GlobalNamespace {
 class GameplayServerFiniteStateMachine;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,8 +65,7 @@ constexpr GlobalNamespace::GameplayServerFiniteStateMachine __get_fsm() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fsm", ty: "GlobalNamespace::GameplayServerFiniteStateMachine", modifiers: "", def_value: None }]
-explicit GameState(GlobalNamespace::GameplayServerFiniteStateMachine fsm) ;
+static GlobalNamespace::GameState New_ctor(GlobalNamespace::GameplayServerFiniteStateMachine fsm) ;
 
 /// @brief Method .ctor addr 0xdaf310 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::GameplayServerFiniteStateMachine fsm) ;

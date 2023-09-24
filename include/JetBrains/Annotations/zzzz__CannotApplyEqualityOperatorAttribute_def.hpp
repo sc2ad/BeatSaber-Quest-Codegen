@@ -47,8 +47,7 @@ constexpr explicit CannotApplyEqualityOperatorAttribute(void* ptr) noexcept : Sy
 
 // Methods
 
-// Ctor Parameters []
-explicit CannotApplyEqualityOperatorAttribute() ;
+static JetBrains::Annotations::CannotApplyEqualityOperatorAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40c18 size 0x8 virtual false final false
  void _ctor() ;

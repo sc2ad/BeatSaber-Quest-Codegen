@@ -8,38 +8,41 @@
 #include <cmath>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-struct HAPI_GroupType;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionData;
+class HoudiniEngineUnity__HEU_SessionManager__CreateSessionFromTypeDelegate;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_RSTOrder;
+struct HAPI_GroupType;
+}
+namespace System {
+class Type;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_License;
+struct HAPI_RSTOrder;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_ObjectInfo;
 }
-namespace System {
-class Type;
+namespace HoudiniEngineUnity {
+struct HAPI_License;
 }
-namespace System {
-class AsyncCallback;
+namespace HoudiniEngineUnity {
+class HEU_SessionData;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -90,8 +93,7 @@ constexpr explicit HoudiniEngineUnity__HEU_SessionManager__CreateSessionFromType
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__HEU_SessionManager__CreateSessionFromTypeDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_SessionManager__CreateSessionFromTypeDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x20339e0 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

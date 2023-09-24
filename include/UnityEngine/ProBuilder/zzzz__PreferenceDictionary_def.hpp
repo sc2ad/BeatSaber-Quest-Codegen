@@ -4,8 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
+class IHasDefault;
+}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -13,16 +23,6 @@ class List_1;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::ProBuilder {
-class IHasDefault;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -271,8 +271,7 @@ template<typename T>
 /// @brief Method Clear addr 0x29c2a88 size 0xe0 virtual false final false
  void Clear() ;
 
-// Ctor Parameters []
-explicit PreferenceDictionary() ;
+static UnityEngine::ProBuilder::PreferenceDictionary New_ctor() ;
 
 /// @brief Method .ctor addr 0x29c2b68 size 0x1d0 virtual false final false
  void _ctor() ;

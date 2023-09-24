@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Collections/zzzz__CaseInsensitiveComparer_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
 //  Writing Method size for method: System::Collections::CaseInsensitiveComparer._ctor
 template<>
@@ -64,8 +64,10 @@ constexpr void System::Collections::CaseInsensitiveComparer::__set__compareInfo(
 constexpr System::Globalization::CompareInfo System::Collections::CaseInsensitiveComparer::__get__compareInfo() const {
 return ::cordl_internals::getInstanceField<System::Globalization::CompareInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::CaseInsensitiveComparer::CaseInsensitiveComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CaseInsensitiveComparer>())) {}
+ System::Collections::CaseInsensitiveComparer System::Collections::CaseInsensitiveComparer::New_ctor()  {
+System::Collections::CaseInsensitiveComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::CaseInsensitiveComparer>())};
+return o;
+}
  void System::Collections::CaseInsensitiveComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::CaseInsensitiveComparer>::get(),
@@ -75,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
- System::Collections::CaseInsensitiveComparer::CaseInsensitiveComparer(System::Globalization::CultureInfo culture)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CaseInsensitiveComparer>(culture))) {}
+ System::Collections::CaseInsensitiveComparer System::Collections::CaseInsensitiveComparer::New_ctor(System::Globalization::CultureInfo culture)  {
+System::Collections::CaseInsensitiveComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::CaseInsensitiveComparer>(culture))};
+return o;
+}
  void System::Collections::CaseInsensitiveComparer::_ctor(System::Globalization::CultureInfo culture)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::CaseInsensitiveComparer>::get(),

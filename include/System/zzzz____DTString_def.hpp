@@ -6,20 +6,20 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-struct DTSubString;
+struct TokenType;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
 }
 namespace System::Globalization {
 class CompareInfo;
-}
-namespace System {
-struct TokenType;
 }
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
 namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
+struct DTSubString;
 }
 // Forward declare root types
 namespace System {

@@ -4,50 +4,50 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateStructure;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509ExtensionsGenerator;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class V3TbsCertificateGenerator;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateStructure;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509ExtensionsGenerator;
+}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class V3TbsCertificateGenerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -133,8 +133,7 @@ constexpr ::StringW __get_signatureAlgorithm() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509V3CertificateGenerator() ;
+static Org::BouncyCastle::X509::X509V3CertificateGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x10fc208 size 0x9c virtual false final false
  void _ctor() ;

@@ -73,8 +73,7 @@ constexpr Newtonsoft::Json::Bson::BsonType __get__type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "Newtonsoft::Json::Bson::BsonType", modifiers: "", def_value: None }]
-explicit BsonValue(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Bson::BsonType type) ;
+static Newtonsoft::Json::Bson::BsonValue New_ctor(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Bson::BsonType type) ;
 
 /// @brief Method .ctor addr 0x2550384 size 0x30 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Bson::BsonType type) ;

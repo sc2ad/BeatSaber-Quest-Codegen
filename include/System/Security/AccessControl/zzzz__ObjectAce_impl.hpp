@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__QualifiedAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__ObjectAce_def.hpp"
+#include "System/Security/AccessControl/zzzz__AceType_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceQualifier_def.hpp"
 #include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
-#include "System/Security/AccessControl/zzzz__ObjectAceFlags_def.hpp"
-#include "System/Security/AccessControl/zzzz__AceType_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "System/Security/AccessControl/zzzz__ObjectAceFlags_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::ObjectAce._ctor
 template<>
 
@@ -280,8 +280,10 @@ constexpr void System::Security::AccessControl::ObjectAce::__set_object_ace_flag
 constexpr System::Security::AccessControl::ObjectAceFlags System::Security::AccessControl::ObjectAce::__get_object_ace_flags() const {
 return ::cordl_internals::getInstanceField<System::Security::AccessControl::ObjectAceFlags, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "aceFlags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }, CppParam { name: "qualifier", ty: "System::Security::AccessControl::AceQualifier", modifiers: "", def_value: None }, CppParam { name: "accessMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sid", ty: "System::Security::Principal::SecurityIdentifier", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::ObjectAceFlags", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Guid", modifiers: "", def_value: None }, CppParam { name: "inheritedType", ty: "System::Guid", modifiers: "", def_value: None }, CppParam { name: "isCallback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "opaque", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::AccessControl::ObjectAce::ObjectAce(System::Security::AccessControl::AceFlags aceFlags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, System::Security::AccessControl::ObjectAceFlags flags, System::Guid type, System::Guid inheritedType, bool isCallback, ::ArrayW<uint8_t> opaque)  : System::Security::AccessControl::QualifiedAce(THROW_UNLESS(::il2cpp_utils::New<ObjectAce>(aceFlags, qualifier, accessMask, sid, flags, type, inheritedType, isCallback, opaque))) {}
+ System::Security::AccessControl::ObjectAce System::Security::AccessControl::ObjectAce::New_ctor(System::Security::AccessControl::AceFlags aceFlags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, System::Security::AccessControl::ObjectAceFlags flags, System::Guid type, System::Guid inheritedType, bool isCallback, ::ArrayW<uint8_t> opaque)  {
+System::Security::AccessControl::ObjectAce o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::ObjectAce>(aceFlags, qualifier, accessMask, sid, flags, type, inheritedType, isCallback, opaque))};
+return o;
+}
  void System::Security::AccessControl::ObjectAce::_ctor(System::Security::AccessControl::AceFlags aceFlags, System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask, System::Security::Principal::SecurityIdentifier sid, System::Security::AccessControl::ObjectAceFlags flags, System::Guid type, System::Guid inheritedType, bool isCallback, ::ArrayW<uint8_t> opaque)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::ObjectAce>::get(),
@@ -291,8 +293,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, aceFlags, qualifier, accessMask, sid, flags, type, inheritedType, isCallback, opaque);
 }
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::ObjectAce::ObjectAce(::ArrayW<uint8_t> binaryForm, int32_t offset)  : System::Security::AccessControl::QualifiedAce(THROW_UNLESS(::il2cpp_utils::New<ObjectAce>(binaryForm, offset))) {}
+ System::Security::AccessControl::ObjectAce System::Security::AccessControl::ObjectAce::New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
+System::Security::AccessControl::ObjectAce o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::ObjectAce>(binaryForm, offset))};
+return o;
+}
  void System::Security::AccessControl::ObjectAce::_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::ObjectAce>::get(),

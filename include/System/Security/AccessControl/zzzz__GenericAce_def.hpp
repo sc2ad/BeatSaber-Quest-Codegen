@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::AccessControl {
-struct AuditFlags;
+struct AceFlags;
+}
+namespace System::Security::AccessControl {
+struct PropagationFlags;
 }
 namespace System::Security::AccessControl {
 struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
+struct AuditFlags;
+}
+namespace System::Security::AccessControl {
 struct AceType;
-}
-namespace System::Security::AccessControl {
-struct AceFlags;
-}
-namespace System::Security::AccessControl {
-struct PropagationFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -96,14 +96,12 @@ constexpr System::Security::AccessControl::AceType __get_ace_type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Security::AccessControl::AceType", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }]
-explicit GenericAce(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags) ;
+static System::Security::AccessControl::GenericAce New_ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags) ;
 
 /// @brief Method .ctor addr 0x2318430 size 0x90 virtual false final false
  void _ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags) ;
 
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GenericAce(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
+static System::Security::AccessControl::GenericAce New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
 
 /// @brief Method .ctor addr 0x23184c0 size 0x144 virtual false final false
  void _ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;

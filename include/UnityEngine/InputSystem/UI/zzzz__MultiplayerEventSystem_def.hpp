@@ -82,8 +82,7 @@ constexpr UnityEngine::GameObject __get_m_PlayerRoot() const;
 /// @brief Method Update addr 0x2942c98 size 0x108 virtual true final false
  void Update() ;
 
-// Ctor Parameters []
-explicit MultiplayerEventSystem() ;
+static UnityEngine::InputSystem::UI::MultiplayerEventSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2942da0 size 0x58 virtual false final false
  void _ctor() ;

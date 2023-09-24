@@ -71,14 +71,12 @@ constexpr System::Type __get_m_Type2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "requiredComponent", ty: "System::Type", modifiers: "", def_value: None }]
-explicit RequireComponent(System::Type requiredComponent) ;
+static UnityEngine::RequireComponent New_ctor(System::Type requiredComponent) ;
 
 /// @brief Method .ctor addr 0x2b5b1dc size 0x28 virtual false final false
  void _ctor(System::Type requiredComponent) ;
 
-// Ctor Parameters [CppParam { name: "requiredComponent", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "requiredComponent2", ty: "System::Type", modifiers: "", def_value: None }]
-explicit RequireComponent(System::Type requiredComponent, System::Type requiredComponent2) ;
+static UnityEngine::RequireComponent New_ctor(System::Type requiredComponent, System::Type requiredComponent2) ;
 
 /// @brief Method .ctor addr 0x2b5b204 size 0x2c virtual false final false
  void _ctor(System::Type requiredComponent, System::Type requiredComponent2) ;

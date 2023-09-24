@@ -2,20 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Runtime::Remoting::Contexts {
-class DynamicPropertyCollection;
-}
 namespace System {
 class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessage;
 }
 namespace System::Runtime::Remoting {
 class ObjRef;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageSink;
+}
+namespace System::Runtime::Remoting::Contexts {
+class DynamicPropertyCollection;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -125,8 +125,7 @@ constexpr bool __get__disposed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Identity(::StringW objectUri) ;
+static System::Runtime::Remoting::Identity New_ctor(::StringW objectUri) ;
 
 /// @brief Method .ctor addr 0x2319e2c size 0x28 virtual false final false
  void _ctor(::StringW objectUri) ;

@@ -2,8 +2,8 @@
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__NotSupportedException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::NotSupportedException._ctor
 template<>
 
@@ -72,8 +72,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::NotSupportedException::NotSupportedException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<NotSupportedException>())) {}
+ System::NotSupportedException System::NotSupportedException::New_ctor()  {
+System::NotSupportedException o{THROW_UNLESS(::il2cpp_utils::New<System::NotSupportedException>())};
+return o;
+}
  void System::NotSupportedException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::NotSupportedException>::get(),
@@ -83,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::NotSupportedException::NotSupportedException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<NotSupportedException>(message))) {}
+ System::NotSupportedException System::NotSupportedException::New_ctor(::StringW message)  {
+System::NotSupportedException o{THROW_UNLESS(::il2cpp_utils::New<System::NotSupportedException>(message))};
+return o;
+}
  void System::NotSupportedException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::NotSupportedException>::get(),
@@ -94,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- System::NotSupportedException::NotSupportedException(::StringW message, System::Exception innerException)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<NotSupportedException>(message, innerException))) {}
+ System::NotSupportedException System::NotSupportedException::New_ctor(::StringW message, System::Exception innerException)  {
+System::NotSupportedException o{THROW_UNLESS(::il2cpp_utils::New<System::NotSupportedException>(message, innerException))};
+return o;
+}
  void System::NotSupportedException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::NotSupportedException>::get(),
@@ -105,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::NotSupportedException::NotSupportedException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<NotSupportedException>(info, context))) {}
+ System::NotSupportedException System::NotSupportedException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::NotSupportedException o{THROW_UNLESS(::il2cpp_utils::New<System::NotSupportedException>(info, context))};
+return o;
+}
  void System::NotSupportedException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::NotSupportedException>::get(),

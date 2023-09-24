@@ -2,30 +2,31 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__String_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Globalization/zzzz__CompareOptions_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__StringSplitOptions_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
-#include "System/Collections/Generic/zzzz__ValueListBuilder_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__String_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 #include "System/Text/zzzz__NormalizationForm_def.hpp"
 #include "System/zzzz__ParamsArray_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Buffers/zzzz__SpanAction_2_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__StringComparison_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__StringSplitOptions_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__ValueListBuilder_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Globalization/zzzz__CompareOptions_def.hpp"
+#include "System/Buffers/zzzz__SpanAction_2_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
+#include "System/zzzz__StringComparison_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::System__String__TrimType::System__String__TrimType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -4715,8 +4716,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, value, startIndex, count, comparisonType);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }]
- System::String::String(::ArrayW<char16_t> value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<String>(value))) {}
+ System::String System::String::New_ctor(::ArrayW<char16_t> value)  {
+System::String o{THROW_UNLESS(::il2cpp_utils::New<System::String>(value))};
+return o;
+}
  void System::String::_ctor(::ArrayW<char16_t> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::String>::get(),
@@ -4735,8 +4738,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- System::String::String(::ArrayW<char16_t> value, int32_t startIndex, int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<String>(value, startIndex, length))) {}
+ System::String System::String::New_ctor(::ArrayW<char16_t> value, int32_t startIndex, int32_t length)  {
+System::String o{THROW_UNLESS(::il2cpp_utils::New<System::String>(value, startIndex, length))};
+return o;
+}
  void System::String::_ctor(::ArrayW<char16_t> value, int32_t startIndex, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::String>::get(),
@@ -4755,8 +4760,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, value, startIndex, length);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- System::String::String(void* value, int32_t startIndex, int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<String>(value, startIndex, length))) {}
+ System::String System::String::New_ctor(void* value, int32_t startIndex, int32_t length)  {
+System::String o{THROW_UNLESS(::il2cpp_utils::New<System::String>(value, startIndex, length))};
+return o;
+}
  void System::String::_ctor(void* value, int32_t startIndex, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::String>::get(),
@@ -4775,8 +4782,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, ptr, startIndex, length);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- System::String::String(void* value, int32_t startIndex, int32_t length)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<String>(value, startIndex, length))) {}
+ System::String System::String::New_ctor(void* value, int32_t startIndex, int32_t length)  {
+System::String o{THROW_UNLESS(::il2cpp_utils::New<System::String>(value, startIndex, length))};
+return o;
+}
  void System::String::_ctor(void* value, int32_t startIndex, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::String>::get(),
@@ -4804,8 +4813,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, pb, numBytes);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "enc", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::String::String(void* value, int32_t startIndex, int32_t length, System::Text::Encoding enc)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<String>(value, startIndex, length, enc))) {}
+ System::String System::String::New_ctor(void* value, int32_t startIndex, int32_t length, System::Text::Encoding enc)  {
+System::String o{THROW_UNLESS(::il2cpp_utils::New<System::String>(value, startIndex, length, enc))};
+return o;
+}
  void System::String::_ctor(void* value, int32_t startIndex, int32_t length, System::Text::Encoding enc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::String>::get(),
@@ -4824,8 +4835,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, value, startIndex, length, enc);
 }
-// Ctor Parameters [CppParam { name: "c", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
- System::String::String(char16_t c, int32_t count)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<String>(c, count))) {}
+ System::String System::String::New_ctor(char16_t c, int32_t count)  {
+System::String o{THROW_UNLESS(::il2cpp_utils::New<System::String>(c, count))};
+return o;
+}
  void System::String::_ctor(char16_t c, int32_t count)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::String>::get(),
@@ -4844,8 +4857,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, c, count);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }]
- System::String::String(System::ReadOnlySpan_1<char16_t> value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<String>(value))) {}
+ System::String System::String::New_ctor(System::ReadOnlySpan_1<char16_t> value)  {
+System::String o{THROW_UNLESS(::il2cpp_utils::New<System::String>(value))};
+return o;
+}
  void System::String::_ctor(System::ReadOnlySpan_1<char16_t> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::String>::get(),

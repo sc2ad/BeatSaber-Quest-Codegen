@@ -132,8 +132,10 @@ return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2Cp
  Org::BouncyCastle::Pkix::ReasonsMask Org::BouncyCastle::Pkix::ReasonsMask::__get_AllReasons()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Pkix::ReasonsMask, "AllReasons", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::ReasonsMask>::get>();
 }
-// Ctor Parameters [CppParam { name: "reasons", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::ReasonsMask::ReasonsMask(int32_t reasons)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReasonsMask>(reasons))) {}
+ Org::BouncyCastle::Pkix::ReasonsMask Org::BouncyCastle::Pkix::ReasonsMask::New_ctor(int32_t reasons)  {
+Org::BouncyCastle::Pkix::ReasonsMask o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::ReasonsMask>(reasons))};
+return o;
+}
  void Org::BouncyCastle::Pkix::ReasonsMask::_ctor(int32_t reasons)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::ReasonsMask>::get(),
@@ -143,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reasons);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::ReasonsMask::ReasonsMask()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReasonsMask>())) {}
+ Org::BouncyCastle::Pkix::ReasonsMask Org::BouncyCastle::Pkix::ReasonsMask::New_ctor()  {
+Org::BouncyCastle::Pkix::ReasonsMask o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::ReasonsMask>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::ReasonsMask::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::ReasonsMask>::get(),

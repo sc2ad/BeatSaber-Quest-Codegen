@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
-namespace HMUI {
-class RangeValuesTextSlider;
+namespace GlobalNamespace {
+class Vector3SO;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
-namespace GlobalNamespace {
-class Vector3SO;
+namespace HMUI {
+class RangeValuesTextSlider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -138,8 +138,7 @@ static constexpr float_t  kRotationStep{1};
 /// @brief Method HandleRotationSliderValueDidChange addr 0x215807c size 0x118 virtual false final false
  void HandleRotationSliderValueDidChange(HMUI::RangeValuesTextSlider slider, float_t value) ;
 
-// Ctor Parameters []
-explicit ControllersTransformSettingsViewController() ;
+static GlobalNamespace::ControllersTransformSettingsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2158194 size 0x8 virtual false final false
  void _ctor() ;

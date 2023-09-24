@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DiscreteButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__DiscreteButtonControl_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__DiscreteButtonControl__WriteMode::UnityEngine__InputSystem__Controls__DiscreteButtonControl__WriteMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -138,8 +139,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value, statePtr);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::DiscreteButtonControl::DiscreteButtonControl()  : UnityEngine::InputSystem::Controls::ButtonControl(THROW_UNLESS(::il2cpp_utils::New<DiscreteButtonControl>())) {}
+ UnityEngine::InputSystem::Controls::DiscreteButtonControl UnityEngine::InputSystem::Controls::DiscreteButtonControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::DiscreteButtonControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::DiscreteButtonControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::DiscreteButtonControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::DiscreteButtonControl>::get(),

@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Ed448KeyGenerationParameters::Ed448KeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random)  : Org::BouncyCastle::Crypto::KeyGenerationParameters(THROW_UNLESS(::il2cpp_utils::New<Ed448KeyGenerationParameters>(random))) {}
+ Org::BouncyCastle::Crypto::Parameters::Ed448KeyGenerationParameters Org::BouncyCastle::Crypto::Parameters::Ed448KeyGenerationParameters::New_ctor(Org::BouncyCastle::Security::SecureRandom random)  {
+Org::BouncyCastle::Crypto::Parameters::Ed448KeyGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Ed448KeyGenerationParameters>(random))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Ed448KeyGenerationParameters::_ctor(Org::BouncyCastle::Security::SecureRandom random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Ed448KeyGenerationParameters>::get(),

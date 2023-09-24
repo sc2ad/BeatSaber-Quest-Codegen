@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Diagnostics/zzzz__AsyncStreamReader_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 //  Writing Method size for method: System::Diagnostics::AsyncStreamReader.Close
 template<>
 

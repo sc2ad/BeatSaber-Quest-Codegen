@@ -1,30 +1,31 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/zzzz__JToken_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
-#include "System/ComponentModel/zzzz__AddingNewEventHandler_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
-#include "System/ComponentModel/zzzz__ListChangedEventArgs_def.hpp"
-#include "System/ComponentModel/zzzz__AddingNewEventArgs_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/ComponentModel/zzzz__ListChangedEventHandler_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/ComponentModel/zzzz__IBindingList_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "System/ComponentModel/zzzz__ITypedList_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/ComponentModel/zzzz__ListSortDirection_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JsonMergeSettings_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/ComponentModel/zzzz__AddingNewEventArgs_def.hpp"
+#include "System/ComponentModel/zzzz__ListChangedEventArgs_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JsonLoadSettings_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JsonMergeSettings_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JEnumerable_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
+#include "System/ComponentModel/zzzz__ListChangedEventHandler_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "System/ComponentModel/zzzz__AddingNewEventHandler_def.hpp"
+#include "System/ComponentModel/zzzz__ListSortDirection_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/ComponentModel/zzzz__ITypedList_def.hpp"
+#include "System/ComponentModel/zzzz__IBindingList_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29._ctor
 template<>
@@ -270,8 +271,10 @@ constexpr void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetD
 constexpr System::Collections::Generic::IEnumerator_1<Newtonsoft::Json::Linq::JToken> Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29::__get___7__wrap2() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<Newtonsoft::Json::Linq::JToken>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29>(__1__state))) {}
+ Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29 Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29::New_ctor(int32_t __1__state)  {
+Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29>(__1__state))};
+return o;
+}
  void Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29>::get(),
@@ -2027,8 +2030,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IList_1<Newtonsoft::Json::Linq::JToken>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JContainer::JContainer()  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JContainer>())) {}
+ Newtonsoft::Json::Linq::JContainer Newtonsoft::Json::Linq::JContainer::New_ctor()  {
+Newtonsoft::Json::Linq::JContainer o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JContainer>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JContainer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JContainer>::get(),
@@ -2038,8 +2043,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JContainer", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JContainer::JContainer(Newtonsoft::Json::Linq::JContainer other)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JContainer>(other))) {}
+ Newtonsoft::Json::Linq::JContainer Newtonsoft::Json::Linq::JContainer::New_ctor(Newtonsoft::Json::Linq::JContainer other)  {
+Newtonsoft::Json::Linq::JContainer o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JContainer>(other))};
+return o;
+}
  void Newtonsoft::Json::Linq::JContainer::_ctor(Newtonsoft::Json::Linq::JContainer other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JContainer>::get(),

@@ -1,21 +1,22 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AudioTrack_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Timeline/zzzz__RuntimeElement_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IntervalTree_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__AudioTrack_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
 #include "UnityEngine/Timeline/zzzz__AudioMixerProperties_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IntervalTree_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
+#include "UnityEngine/Timeline/zzzz__RuntimeElement_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_outputs_d__4._ctor
 template<>
 
@@ -196,8 +197,10 @@ constexpr void UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_ou
 constexpr UnityEngine::Timeline::AudioTrack UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_outputs_d__4::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Timeline::AudioTrack, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_outputs_d__4::UnityEngine__Timeline__AudioTrack___get_outputs_d__4(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__AudioTrack___get_outputs_d__4>(__1__state))) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_outputs_d__4 UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_outputs_d__4::New_ctor(int32_t __1__state)  {
+UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_outputs_d__4 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_outputs_d__4>(__1__state))};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_outputs_d__4::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_outputs_d__4>::get(),
@@ -397,8 +400,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::AudioTrack::AudioTrack()  : UnityEngine::Timeline::TrackAsset(THROW_UNLESS(::il2cpp_utils::New<AudioTrack>())) {}
+ UnityEngine::Timeline::AudioTrack UnityEngine::Timeline::AudioTrack::New_ctor()  {
+UnityEngine::Timeline::AudioTrack o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::AudioTrack>())};
+return o;
+}
  void UnityEngine::Timeline::AudioTrack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::AudioTrack>::get(),

@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaDeclBase_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaDeclBase_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Xml::Schema::System__Xml__Schema__SchemaDeclBase__Use::System__Xml__Schema__SchemaDeclBase__Use(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -357,8 +358,10 @@ constexpr void System::Xml::Schema::SchemaDeclBase::__set_values(System::Collect
 constexpr System::Collections::Generic::List_1<::StringW> System::Xml::Schema::SchemaDeclBase::__get_values() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<::StringW>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Schema::SchemaDeclBase::SchemaDeclBase(System::Xml::XmlQualifiedName name, ::StringW prefix)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SchemaDeclBase>(name, prefix))) {}
+ System::Xml::Schema::SchemaDeclBase System::Xml::Schema::SchemaDeclBase::New_ctor(System::Xml::XmlQualifiedName name, ::StringW prefix)  {
+System::Xml::Schema::SchemaDeclBase o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SchemaDeclBase>(name, prefix))};
+return o;
+}
  void System::Xml::Schema::SchemaDeclBase::_ctor(System::Xml::XmlQualifiedName name, ::StringW prefix)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaDeclBase>::get(),
@@ -368,8 +371,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, prefix);
 }
-// Ctor Parameters []
- System::Xml::Schema::SchemaDeclBase::SchemaDeclBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SchemaDeclBase>())) {}
+ System::Xml::Schema::SchemaDeclBase System::Xml::Schema::SchemaDeclBase::New_ctor()  {
+System::Xml::Schema::SchemaDeclBase o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SchemaDeclBase>())};
+return o;
+}
  void System::Xml::Schema::SchemaDeclBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaDeclBase>::get(),

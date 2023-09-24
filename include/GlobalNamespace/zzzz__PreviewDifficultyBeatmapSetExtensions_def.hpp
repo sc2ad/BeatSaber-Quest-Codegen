@@ -2,15 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
 }
 // Forward declare root types
 namespace GlobalNamespace {

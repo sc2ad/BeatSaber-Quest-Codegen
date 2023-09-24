@@ -24,8 +24,10 @@ constexpr void HoudiniEngineUnity::HEU_InputData::__set__inputObject(UnityEngine
 constexpr UnityEngine::GameObject HoudiniEngineUnity::HEU_InputData::__get__inputObject() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GameObject, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InputData::HEU_InputData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_InputData>())) {}
+ HoudiniEngineUnity::HEU_InputData HoudiniEngineUnity::HEU_InputData::New_ctor()  {
+HoudiniEngineUnity::HEU_InputData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InputData>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InputData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InputData>::get(),

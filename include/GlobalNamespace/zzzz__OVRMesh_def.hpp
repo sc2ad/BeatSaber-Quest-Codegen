@@ -3,11 +3,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Mesh;
+namespace GlobalNamespace {
+class GlobalNamespace__OVRMesh__IOVRMeshDataProvider;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRMesh__MeshType;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__OVRPlugin__Mesh;
+}
+namespace UnityEngine {
+class Mesh;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,6 +100,8 @@ __HandRight = 1,
 constexpr operator __GlobalNamespace__OVRMesh__MeshType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRMesh__MeshType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -218,8 +226,7 @@ constexpr bool __get__IsInitialized_k__BackingField() const;
 /// @brief Method TransformOvrpMesh addr 0x26252b0 size 0xab4 virtual false final false
  void TransformOvrpMesh(GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh ovrpMesh, UnityEngine::Mesh mesh) ;
 
-// Ctor Parameters []
-explicit OVRMesh() ;
+static GlobalNamespace::OVRMesh New_ctor() ;
 
 /// @brief Method .ctor addr 0x2625d64 size 0x10 virtual false final false
  void _ctor() ;

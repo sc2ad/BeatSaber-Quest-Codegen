@@ -7,6 +7,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__PackedPlayModeBuildLogs__RuntimeBuildLog;
+}
 namespace UnityEngine {
 struct LogType;
 }
@@ -146,8 +149,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 /// @brief Method set_RuntimeBuildLogs addr 0x287d604 size 0x8 virtual false final false
  void set_RuntimeBuildLogs(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PackedPlayModeBuildLogs__RuntimeBuildLog> value) ;
 
-// Ctor Parameters []
-explicit PackedPlayModeBuildLogs() ;
+static GlobalNamespace::PackedPlayModeBuildLogs New_ctor() ;
 
 /// @brief Method .ctor addr 0x287d60c size 0x7c virtual false final false
  void _ctor() ;

@@ -99,8 +99,7 @@ static bool IsLowSurrogate(uint32_t c) ;
 /// @brief Method ConvertToUTF32 addr 0x2ab14c8 size 0x14 virtual false final false
 static uint32_t ConvertToUTF32(uint32_t highSurrogate, uint32_t lowSurrogate) ;
 
-// Ctor Parameters []
-explicit TMP_TextParsingUtilities() ;
+static TMPro::TMP_TextParsingUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab1270 size 0x8 virtual false final false
  void _ctor() ;

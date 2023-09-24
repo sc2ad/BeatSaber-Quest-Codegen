@@ -115,14 +115,12 @@ static UnityEngine::AnimationCurve Linear(float_t timeStart, float_t valueStart,
 /// @brief Method EaseInOut addr 0x2b294ac size 0x134 virtual false final false
 static UnityEngine::AnimationCurve EaseInOut(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd) ;
 
-// Ctor Parameters [CppParam { name: "keys", ty: "::ArrayW<UnityEngine::Keyframe>", modifiers: "", def_value: None }]
-explicit AnimationCurve(::ArrayW<UnityEngine::Keyframe> keys) ;
+static UnityEngine::AnimationCurve New_ctor(::ArrayW<UnityEngine::Keyframe> keys) ;
 
 /// @brief Method .ctor addr 0x2b2945c size 0x50 virtual false final false
  void _ctor(::ArrayW<UnityEngine::Keyframe> keys) ;
 
-// Ctor Parameters []
-explicit AnimationCurve() ;
+static UnityEngine::AnimationCurve New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b295e0 size 0x4c virtual false final false
  void _ctor() ;

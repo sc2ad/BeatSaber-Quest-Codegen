@@ -8,11 +8,11 @@
 #include <cstdint>
 namespace System {
 template<typename T>
-struct ByReference_1;
+struct Span_1;
 }
 namespace System {
 template<typename T>
-struct Span_1;
+struct ByReference_1;
 }
 // Forward declare root types
 namespace System {
@@ -24,33 +24,285 @@ template<::cordl_internals::il2cpp_reference_type T>
 struct ReadOnlySpan_1<T>;
 }
 namespace System {
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+struct ReadOnlySpan_1<T>;
+}
+namespace System {
+template<::cordl_internals::is_or_is_backed_by<uint8_t> T>
+struct ReadOnlySpan_1<T>;
+}
+namespace System {
+template<::cordl_internals::is_or_is_backed_by<uint16_t> T>
+struct ReadOnlySpan_1<T>;
+}
+namespace System {
+template<::cordl_internals::is_or_is_backed_by<uint32_t> T>
+struct ReadOnlySpan_1<T>;
+}
+namespace System {
 template<>
 struct ReadOnlySpan_1<char16_t>;
-}
-namespace System {
-template<>
-struct ReadOnlySpan_1<int32_t>;
-}
-namespace System {
-template<>
-struct ReadOnlySpan_1<uint16_t>;
-}
-namespace System {
-template<>
-struct ReadOnlySpan_1<uint32_t>;
-}
-namespace System {
-template<>
-struct ReadOnlySpan_1<uint8_t>;
 }
 // Type: System::ReadOnlySpan`1
 // Type: System::ReadOnlySpan`1
 namespace System {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T>
+template<::cordl_internals::is_or_is_backed_by<uint32_t> T>
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2463))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 729 })
+// CS Name: System.ReadOnlySpan`1
+struct CORDL_TYPE ReadOnlySpan_1<T> : public ::bs_hook::ValueTypeWrapper {
+public:
+// Declarations
+// Ctor Parameters [CppParam { name: "_pointer", ty: "System::ByReference_1<T>", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ReadOnlySpan_1(System::ByReference_1<T> _pointer, int32_t _length) noexcept;
+
+
+                    constexpr ReadOnlySpan_1(ReadOnlySpan_1 const&) = default;
+                    constexpr ReadOnlySpan_1(ReadOnlySpan_1&&) = default;
+                    constexpr ReadOnlySpan_1& operator=(ReadOnlySpan_1 const& o) {
+                        __instance = o.__instance;
+                        return *this;
+                    };
+                    constexpr ReadOnlySpan_1& operator=(ReadOnlySpan_1&& o) noexcept {
+                        __instance = std::move(o.__instance);
+                        return *this;
+                    };
+                
+
+/// @brief The size of the true value type
+static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
+
+/// @brief Holds the value type data
+ std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
+
+// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
+constexpr explicit ReadOnlySpan_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+}
+
+/// @brief conversion method for value type
+constexpr void* convert() const noexcept {
+return const_cast<void*>(static_cast<const void*>(__instance.data()));
+}
+
+
+// Fields
+
+ System::ByReference_1<T> __declspec(property(get=__get__pointer, put=__set__pointer))  _pointer;
+
+constexpr void __set__pointer(System::ByReference_1<T> value) ;
+
+constexpr System::ByReference_1<T> __get__pointer() const;
+
+ int32_t __declspec(property(get=__get__length, put=__set__length))  _length;
+
+constexpr void __set__length(int32_t value) ;
+
+constexpr int32_t __get__length() const;
+
+
+// Properties
+
+ T __declspec(property(get=get_Item))  Item;
+
+ int32_t __declspec(property(get=get_Length))  Length;
+
+ bool __declspec(property(get=get_IsEmpty))  IsEmpty;
+
+static System::ReadOnlySpan_1<T> __declspec(property(get=get_Empty))  Empty;
+
+
+// Methods
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(::ArrayW<T> array) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(::ArrayW<T> array, int32_t start, int32_t length) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(void* pointer, int32_t length) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(ByRef<T> ptr, int32_t length) ;
+
+/// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+ ByRef<T> get_Item(int32_t index) ;
+
+/// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
+ void CopyTo(System::Span_1<T> destination) ;
+
+/// @brief Method TryCopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool TryCopyTo(System::Span_1<T> destination) ;
+
+/// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+ ::StringW ToString() ;
+
+/// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
+ System::ReadOnlySpan_1<T> Slice(int32_t start) ;
+
+/// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
+ System::ReadOnlySpan_1<T> Slice(int32_t start, int32_t length) ;
+
+/// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<T> ToArray() ;
+
+/// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
+ int32_t get_Length() ;
+
+/// @brief Method get_IsEmpty addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_IsEmpty() ;
+
+/// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+ bool Equals(::bs_hook::Il2CppWrapperType obj) ;
+
+/// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+ int32_t GetHashCode() ;
+
+/// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
+static System::ReadOnlySpan_1<T> op_Implicit_System__ReadOnlySpan_1_T_(::ArrayW<T> array) ;
+
+/// @brief Method get_Empty addr 0x0 size 0xffffffffffffffff virtual false final false
+static System::ReadOnlySpan_1<T> get_Empty() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace end def System
+// Type: System::ReadOnlySpan`1
+namespace System {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<uint16_t> T>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2463)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 728 })
+// CS Name: System.ReadOnlySpan`1
+struct CORDL_TYPE ReadOnlySpan_1<T> : public ::bs_hook::ValueTypeWrapper {
+public:
+// Declarations
+// Ctor Parameters [CppParam { name: "_pointer", ty: "System::ByReference_1<T>", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ReadOnlySpan_1(System::ByReference_1<T> _pointer, int32_t _length) noexcept;
+
+
+                    constexpr ReadOnlySpan_1(ReadOnlySpan_1 const&) = default;
+                    constexpr ReadOnlySpan_1(ReadOnlySpan_1&&) = default;
+                    constexpr ReadOnlySpan_1& operator=(ReadOnlySpan_1 const& o) {
+                        __instance = o.__instance;
+                        return *this;
+                    };
+                    constexpr ReadOnlySpan_1& operator=(ReadOnlySpan_1&& o) noexcept {
+                        __instance = std::move(o.__instance);
+                        return *this;
+                    };
+                
+
+/// @brief The size of the true value type
+static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
+
+/// @brief Holds the value type data
+ std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
+
+// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
+constexpr explicit ReadOnlySpan_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+}
+
+/// @brief conversion method for value type
+constexpr void* convert() const noexcept {
+return const_cast<void*>(static_cast<const void*>(__instance.data()));
+}
+
+
+// Fields
+
+ System::ByReference_1<T> __declspec(property(get=__get__pointer, put=__set__pointer))  _pointer;
+
+constexpr void __set__pointer(System::ByReference_1<T> value) ;
+
+constexpr System::ByReference_1<T> __get__pointer() const;
+
+ int32_t __declspec(property(get=__get__length, put=__set__length))  _length;
+
+constexpr void __set__length(int32_t value) ;
+
+constexpr int32_t __get__length() const;
+
+
+// Properties
+
+ T __declspec(property(get=get_Item))  Item;
+
+ int32_t __declspec(property(get=get_Length))  Length;
+
+ bool __declspec(property(get=get_IsEmpty))  IsEmpty;
+
+static System::ReadOnlySpan_1<T> __declspec(property(get=get_Empty))  Empty;
+
+
+// Methods
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(::ArrayW<T> array) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(::ArrayW<T> array, int32_t start, int32_t length) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(void* pointer, int32_t length) ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(ByRef<T> ptr, int32_t length) ;
+
+/// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+ ByRef<T> get_Item(int32_t index) ;
+
+/// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
+ void CopyTo(System::Span_1<T> destination) ;
+
+/// @brief Method TryCopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool TryCopyTo(System::Span_1<T> destination) ;
+
+/// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+ ::StringW ToString() ;
+
+/// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
+ System::ReadOnlySpan_1<T> Slice(int32_t start) ;
+
+/// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
+ System::ReadOnlySpan_1<T> Slice(int32_t start, int32_t length) ;
+
+/// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::ArrayW<T> ToArray() ;
+
+/// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
+ int32_t get_Length() ;
+
+/// @brief Method get_IsEmpty addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool get_IsEmpty() ;
+
+/// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+ bool Equals(::bs_hook::Il2CppWrapperType obj) ;
+
+/// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+ int32_t GetHashCode() ;
+
+/// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
+static System::ReadOnlySpan_1<T> op_Implicit_System__ReadOnlySpan_1_T_(::ArrayW<T> array) ;
+
+/// @brief Method get_Empty addr 0x0 size 0xffffffffffffffff virtual false final false
+static System::ReadOnlySpan_1<T> get_Empty() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace end def System
+// Type: System::ReadOnlySpan`1
+namespace System {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<uint8_t> T>
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2463)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 717 })
 // CS Name: System.ReadOnlySpan`1
 struct CORDL_TYPE ReadOnlySpan_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
@@ -175,133 +427,7 @@ namespace System {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2463))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 92 })
-// CS Name: System.ReadOnlySpan`1
-struct CORDL_TYPE ReadOnlySpan_1<int32_t> : public ::bs_hook::ValueTypeWrapper {
-public:
-// Declarations
-// Ctor Parameters [CppParam { name: "_pointer", ty: "System::ByReference_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ReadOnlySpan_1(System::ByReference_1<int32_t> _pointer, int32_t _length) noexcept;
-
-
-                    constexpr ReadOnlySpan_1(ReadOnlySpan_1 const&) = default;
-                    constexpr ReadOnlySpan_1(ReadOnlySpan_1&&) = default;
-                    constexpr ReadOnlySpan_1& operator=(ReadOnlySpan_1 const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr ReadOnlySpan_1& operator=(ReadOnlySpan_1&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ReadOnlySpan_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-
-// Fields
-
- System::ByReference_1<int32_t> __declspec(property(get=__get__pointer, put=__set__pointer))  _pointer;
-
-constexpr void __set__pointer(System::ByReference_1<int32_t> value) ;
-
-constexpr System::ByReference_1<int32_t> __get__pointer() const;
-
- int32_t __declspec(property(get=__get__length, put=__set__length))  _length;
-
-constexpr void __set__length(int32_t value) ;
-
-constexpr int32_t __get__length() const;
-
-
-// Properties
-
- int32_t __declspec(property(get=get_Item))  Item;
-
- int32_t __declspec(property(get=get_Length))  Length;
-
- bool __declspec(property(get=get_IsEmpty))  IsEmpty;
-
-static System::ReadOnlySpan_1<int32_t> __declspec(property(get=get_Empty))  Empty;
-
-
-// Methods
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<int32_t> array) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<int32_t> array, int32_t start, int32_t length) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(void* pointer, int32_t length) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(ByRef<int32_t> ptr, int32_t length) ;
-
-/// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- ByRef<int32_t> get_Item(int32_t index) ;
-
-/// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
- void CopyTo(System::Span_1<int32_t> destination) ;
-
-/// @brief Method TryCopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TryCopyTo(System::Span_1<int32_t> destination) ;
-
-/// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
- ::StringW ToString() ;
-
-/// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlySpan_1<int32_t> Slice(int32_t start) ;
-
-/// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlySpan_1<int32_t> Slice(int32_t start, int32_t length) ;
-
-/// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<int32_t> ToArray() ;
-
-/// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t get_Length() ;
-
-/// @brief Method get_IsEmpty addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_IsEmpty() ;
-
-/// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Equals(::bs_hook::Il2CppWrapperType obj) ;
-
-/// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetHashCode() ;
-
-/// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::ReadOnlySpan_1<int32_t> op_Implicit_System__ReadOnlySpan_1_int32_t_(::ArrayW<int32_t> array) ;
-
-/// @brief Method get_Empty addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::ReadOnlySpan_1<int32_t> get_Empty() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def System
-// Type: System::ReadOnlySpan`1
-namespace System {
-// cpp template
-template<>
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2463))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2463)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 279 })
 // CS Name: System.ReadOnlySpan`1
 struct CORDL_TYPE ReadOnlySpan_1<char16_t> : public ::bs_hook::ValueTypeWrapper {
@@ -425,16 +551,16 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: System::ReadOnlySpan`1
 namespace System {
 // cpp template
-template<>
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2463))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 717 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 92 })
 // CS Name: System.ReadOnlySpan`1
-struct CORDL_TYPE ReadOnlySpan_1<uint8_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE ReadOnlySpan_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_pointer", ty: "System::ByReference_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ReadOnlySpan_1(System::ByReference_1<uint8_t> _pointer, int32_t _length) noexcept;
+// Ctor Parameters [CppParam { name: "_pointer", ty: "System::ByReference_1<T>", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ReadOnlySpan_1(System::ByReference_1<T> _pointer, int32_t _length) noexcept;
 
 
                     constexpr ReadOnlySpan_1(ReadOnlySpan_1 const&) = default;
@@ -467,11 +593,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- System::ByReference_1<uint8_t> __declspec(property(get=__get__pointer, put=__set__pointer))  _pointer;
+ System::ByReference_1<T> __declspec(property(get=__get__pointer, put=__set__pointer))  _pointer;
 
-constexpr void __set__pointer(System::ByReference_1<uint8_t> value) ;
+constexpr void __set__pointer(System::ByReference_1<T> value) ;
 
-constexpr System::ByReference_1<uint8_t> __get__pointer() const;
+constexpr System::ByReference_1<T> __get__pointer() const;
 
  int32_t __declspec(property(get=__get__length, put=__set__length))  _length;
 
@@ -482,49 +608,49 @@ constexpr int32_t __get__length() const;
 
 // Properties
 
- uint8_t __declspec(property(get=get_Item))  Item;
+ T __declspec(property(get=get_Item))  Item;
 
  int32_t __declspec(property(get=get_Length))  Length;
 
  bool __declspec(property(get=get_IsEmpty))  IsEmpty;
 
-static System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_Empty))  Empty;
+static System::ReadOnlySpan_1<T> __declspec(property(get=get_Empty))  Empty;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<uint8_t> array) ;
+ void _ctor(::ArrayW<T> array) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<uint8_t> array, int32_t start, int32_t length) ;
+ void _ctor(::ArrayW<T> array, int32_t start, int32_t length) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(void* pointer, int32_t length) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(ByRef<uint8_t> ptr, int32_t length) ;
+ void _ctor(ByRef<T> ptr, int32_t length) ;
 
 /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- ByRef<uint8_t> get_Item(int32_t index) ;
+ ByRef<T> get_Item(int32_t index) ;
 
 /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
- void CopyTo(System::Span_1<uint8_t> destination) ;
+ void CopyTo(System::Span_1<T> destination) ;
 
 /// @brief Method TryCopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TryCopyTo(System::Span_1<uint8_t> destination) ;
+ bool TryCopyTo(System::Span_1<T> destination) ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlySpan_1<uint8_t> Slice(int32_t start) ;
+ System::ReadOnlySpan_1<T> Slice(int32_t start) ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlySpan_1<uint8_t> Slice(int32_t start, int32_t length) ;
+ System::ReadOnlySpan_1<T> Slice(int32_t start, int32_t length) ;
 
 /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint8_t> ToArray() ;
+ ::ArrayW<T> ToArray() ;
 
 /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Length() ;
@@ -539,10 +665,10 @@ static System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_Empty))  Empt
  int32_t GetHashCode() ;
 
 /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::ReadOnlySpan_1<uint8_t> op_Implicit_System__ReadOnlySpan_1_uint8_t_(::ArrayW<uint8_t> array) ;
+static System::ReadOnlySpan_1<T> op_Implicit_System__ReadOnlySpan_1_T_(::ArrayW<T> array) ;
 
 /// @brief Method get_Empty addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::ReadOnlySpan_1<uint8_t> get_Empty() ;
+static System::ReadOnlySpan_1<T> get_Empty() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -551,16 +677,16 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: System::ReadOnlySpan`1
 namespace System {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2463))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 728 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 2 })
 // CS Name: System.ReadOnlySpan`1
-struct CORDL_TYPE ReadOnlySpan_1<uint16_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE ReadOnlySpan_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_pointer", ty: "System::ByReference_1<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ReadOnlySpan_1(System::ByReference_1<uint16_t> _pointer, int32_t _length) noexcept;
+// Ctor Parameters [CppParam { name: "_pointer", ty: "System::ByReference_1<T>", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ReadOnlySpan_1(System::ByReference_1<T> _pointer, int32_t _length) noexcept;
 
 
                     constexpr ReadOnlySpan_1(ReadOnlySpan_1 const&) = default;
@@ -593,11 +719,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- System::ByReference_1<uint16_t> __declspec(property(get=__get__pointer, put=__set__pointer))  _pointer;
+ System::ByReference_1<T> __declspec(property(get=__get__pointer, put=__set__pointer))  _pointer;
 
-constexpr void __set__pointer(System::ByReference_1<uint16_t> value) ;
+constexpr void __set__pointer(System::ByReference_1<T> value) ;
 
-constexpr System::ByReference_1<uint16_t> __get__pointer() const;
+constexpr System::ByReference_1<T> __get__pointer() const;
 
  int32_t __declspec(property(get=__get__length, put=__set__length))  _length;
 
@@ -608,49 +734,49 @@ constexpr int32_t __get__length() const;
 
 // Properties
 
- uint16_t __declspec(property(get=get_Item))  Item;
+ T __declspec(property(get=get_Item))  Item;
 
  int32_t __declspec(property(get=get_Length))  Length;
 
  bool __declspec(property(get=get_IsEmpty))  IsEmpty;
 
-static System::ReadOnlySpan_1<uint16_t> __declspec(property(get=get_Empty))  Empty;
+static System::ReadOnlySpan_1<T> __declspec(property(get=get_Empty))  Empty;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<uint16_t> array) ;
+ void _ctor(::ArrayW<T> array) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<uint16_t> array, int32_t start, int32_t length) ;
+ void _ctor(::ArrayW<T> array, int32_t start, int32_t length) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(void* pointer, int32_t length) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(ByRef<uint16_t> ptr, int32_t length) ;
+ void _ctor(ByRef<T> ptr, int32_t length) ;
 
 /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- ByRef<uint16_t> get_Item(int32_t index) ;
+ ByRef<T> get_Item(int32_t index) ;
 
 /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
- void CopyTo(System::Span_1<uint16_t> destination) ;
+ void CopyTo(System::Span_1<T> destination) ;
 
 /// @brief Method TryCopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TryCopyTo(System::Span_1<uint16_t> destination) ;
+ bool TryCopyTo(System::Span_1<T> destination) ;
 
 /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlySpan_1<uint16_t> Slice(int32_t start) ;
+ System::ReadOnlySpan_1<T> Slice(int32_t start) ;
 
 /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlySpan_1<uint16_t> Slice(int32_t start, int32_t length) ;
+ System::ReadOnlySpan_1<T> Slice(int32_t start, int32_t length) ;
 
 /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint16_t> ToArray() ;
+ ::ArrayW<T> ToArray() ;
 
 /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Length() ;
@@ -665,136 +791,10 @@ static System::ReadOnlySpan_1<uint16_t> __declspec(property(get=get_Empty))  Emp
  int32_t GetHashCode() ;
 
 /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::ReadOnlySpan_1<uint16_t> op_Implicit_System__ReadOnlySpan_1_uint16_t_(::ArrayW<uint16_t> array) ;
+static System::ReadOnlySpan_1<T> op_Implicit_System__ReadOnlySpan_1_T_(::ArrayW<T> array) ;
 
 /// @brief Method get_Empty addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::ReadOnlySpan_1<uint16_t> get_Empty() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def System
-// Type: System::ReadOnlySpan`1
-namespace System {
-// cpp template
-template<>
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2463))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 729 })
-// CS Name: System.ReadOnlySpan`1
-struct CORDL_TYPE ReadOnlySpan_1<uint32_t> : public ::bs_hook::ValueTypeWrapper {
-public:
-// Declarations
-// Ctor Parameters [CppParam { name: "_pointer", ty: "System::ByReference_1<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ReadOnlySpan_1(System::ByReference_1<uint32_t> _pointer, int32_t _length) noexcept;
-
-
-                    constexpr ReadOnlySpan_1(ReadOnlySpan_1 const&) = default;
-                    constexpr ReadOnlySpan_1(ReadOnlySpan_1&&) = default;
-                    constexpr ReadOnlySpan_1& operator=(ReadOnlySpan_1 const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr ReadOnlySpan_1& operator=(ReadOnlySpan_1&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ReadOnlySpan_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-
-// Fields
-
- System::ByReference_1<uint32_t> __declspec(property(get=__get__pointer, put=__set__pointer))  _pointer;
-
-constexpr void __set__pointer(System::ByReference_1<uint32_t> value) ;
-
-constexpr System::ByReference_1<uint32_t> __get__pointer() const;
-
- int32_t __declspec(property(get=__get__length, put=__set__length))  _length;
-
-constexpr void __set__length(int32_t value) ;
-
-constexpr int32_t __get__length() const;
-
-
-// Properties
-
- uint32_t __declspec(property(get=get_Item))  Item;
-
- int32_t __declspec(property(get=get_Length))  Length;
-
- bool __declspec(property(get=get_IsEmpty))  IsEmpty;
-
-static System::ReadOnlySpan_1<uint32_t> __declspec(property(get=get_Empty))  Empty;
-
-
-// Methods
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<uint32_t> array) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<uint32_t> array, int32_t start, int32_t length) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(void* pointer, int32_t length) ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(ByRef<uint32_t> ptr, int32_t length) ;
-
-/// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
- ByRef<uint32_t> get_Item(int32_t index) ;
-
-/// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
- void CopyTo(System::Span_1<uint32_t> destination) ;
-
-/// @brief Method TryCopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
- bool TryCopyTo(System::Span_1<uint32_t> destination) ;
-
-/// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
- ::StringW ToString() ;
-
-/// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlySpan_1<uint32_t> Slice(int32_t start) ;
-
-/// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlySpan_1<uint32_t> Slice(int32_t start, int32_t length) ;
-
-/// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
- ::ArrayW<uint32_t> ToArray() ;
-
-/// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
- int32_t get_Length() ;
-
-/// @brief Method get_IsEmpty addr 0x0 size 0xffffffffffffffff virtual false final false
- bool get_IsEmpty() ;
-
-/// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Equals(::bs_hook::Il2CppWrapperType obj) ;
-
-/// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetHashCode() ;
-
-/// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::ReadOnlySpan_1<uint32_t> op_Implicit_System__ReadOnlySpan_1_uint32_t_(::ArrayW<uint32_t> array) ;
-
-/// @brief Method get_Empty addr 0x0 size 0xffffffffffffffff virtual false final false
-static System::ReadOnlySpan_1<uint32_t> get_Empty() ;
+static System::ReadOnlySpan_1<T> get_Empty() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };

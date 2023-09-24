@@ -47,8 +47,7 @@ constexpr explicit InstantHandleAttribute(void* ptr) noexcept : System::Attribut
 
 // Methods
 
-// Ctor Parameters []
-explicit InstantHandleAttribute() ;
+static JetBrains::Annotations::InstantHandleAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40e28 size 0x8 virtual false final false
  void _ctor() ;

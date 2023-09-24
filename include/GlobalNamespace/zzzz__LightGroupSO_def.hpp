@@ -127,8 +127,7 @@ constexpr bool __get__ignoreLightGroupEffectManager() const;
 /// @brief Method get_ignoreLightGroupEffectManager addr 0x1f9bfa0 size 0x8 virtual false final false
  bool get_ignoreLightGroupEffectManager() ;
 
-// Ctor Parameters []
-explicit LightGroupSO() ;
+static GlobalNamespace::LightGroupSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9bfa8 size 0x10 virtual false final false
  void _ctor() ;

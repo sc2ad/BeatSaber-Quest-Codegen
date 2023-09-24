@@ -6,160 +6,212 @@
 #include <cstddef>
 #include <cstdint>
 namespace Oculus::Platform::Models {
-class AchievementProgressList;
-}
-namespace Oculus::Platform::Models {
-class NetSyncConnection;
-}
-namespace Oculus::Platform::Models {
-class RoomList;
-}
-namespace Oculus::Platform::Models {
-class Party;
-}
-namespace Oculus::Platform::Models {
-class CloudStorageUpdateResponse;
-}
-namespace Oculus::Platform::Models {
-class GroupPresenceLeaveIntent;
-}
-namespace Oculus::Platform::Models {
-class NetworkingPeer;
-}
-namespace Oculus::Platform::Models {
-class ChallengeList;
-}
-namespace Oculus::Platform::Models {
-class LaunchUnblockFlowResult;
-}
-namespace Oculus::Platform::Models {
-class UserProof;
-}
-namespace Oculus::Platform::Models {
-class UserReportID;
-}
-namespace Oculus::Platform::Models {
-class AssetFileDownloadCancelResult;
-}
-namespace Oculus::Platform::Models {
-class LinkedAccountList;
-}
-namespace Oculus::Platform::Models {
-class LivestreamingStatus;
-}
-namespace Oculus::Platform::Models {
-class AssetFileDeleteResult;
-}
-namespace Oculus::Platform::Models {
-class NetSyncVoipAttenuationValueList;
-}
-namespace Oculus::Platform::Models {
-class CalApplicationProposed;
-}
-namespace Oculus::Platform::Models {
-class Purchase;
-}
-namespace Oculus::Platform::Models {
-class DestinationList;
-}
-namespace Oculus::Platform::Models {
-class GroupPresenceJoinIntent;
-}
-namespace Oculus::Platform::Models {
-class InstalledApplicationList;
-}
-namespace Oculus::Platform::Models {
-class MatchmakingEnqueueResultAndRoom;
-}
-namespace Oculus::Platform::Models {
-class NetSyncSetSessionPropertyResult;
-}
-namespace Oculus::Platform::Models {
-class SendInvitesResult;
-}
-namespace Oculus::Platform::Models {
-class ApplicationInviteList;
-}
-namespace Oculus::Platform::Models {
-class CloudStorageData;
-}
-namespace Oculus::Platform::Models {
-class ShareMediaResult;
-}
-namespace Oculus::Platform::Models {
-class LeaderboardList;
-}
-namespace Oculus::Platform::Models {
-class UserAndRoomList;
-}
-namespace Oculus::Platform::Models {
-class Error;
-}
-namespace Oculus::Platform::Models {
-class CalApplicationFinalized;
-}
-namespace Oculus::Platform::Models {
-class UserDataStoreUpdateResponse;
-}
-namespace Oculus::Platform::Models {
-class InvitePanelResultInfo;
-}
-namespace Oculus::Platform::Models {
-class OrgScopedID;
-}
-namespace Oculus::Platform::Models {
-class AchievementUpdate;
-}
-namespace Oculus::Platform::Models {
-class AssetFileDownloadUpdate;
-}
-namespace Oculus::Platform::Models {
-class AvatarEditorResult;
-}
-namespace Oculus::Platform::Models {
-class Challenge;
-}
-namespace Oculus::Platform::Models {
-class LivestreamingStartResult;
-}
-namespace Oculus::Platform::Models {
-class MatchmakingEnqueueResult;
-}
-namespace Oculus::Platform::Models {
-class ProductList;
-}
-namespace Oculus::Platform::Models {
-class SystemVoipState;
-}
-namespace Oculus::Platform::Models {
-class PingResult;
+class AssetDetails;
 }
 namespace Oculus::Platform::Models {
 class PurchaseList;
 }
 namespace Oculus::Platform::Models {
+class Room;
+}
+namespace Oculus::Platform::Models {
+class AchievementProgressList;
+}
+namespace Oculus::Platform::Models {
+class CloudStorageMetadataList;
+}
+namespace Oculus::Platform::Models {
+class InstalledApplicationList;
+}
+namespace Oculus::Platform::Models {
 class HttpTransferUpdate;
 }
 namespace Oculus::Platform::Models {
-class BlockedUserList;
+class LivestreamingApplicationStatus;
 }
 namespace Oculus::Platform::Models {
-class CalApplicationSuggestionList;
+class SystemVoipState;
 }
 namespace Oculus::Platform::Models {
-class MatchmakingBrowseResult;
+class ShareMediaResult;
 }
 namespace Oculus::Platform::Models {
-class MatchmakingStats;
+class NetSyncSessionsChangedNotification;
 }
 namespace Oculus::Platform::Models {
 class NetSyncSessionList;
 }
 namespace Oculus::Platform::Models {
+class GroupPresenceLeaveIntent;
+}
+namespace Oculus::Platform::Models {
+class CloudStorageConflictMetadata;
+}
+namespace Oculus::Platform::Models {
+class CloudStorageData;
+}
+namespace Oculus::Platform::Models {
+class AvatarEditorResult;
+}
+namespace Oculus::Platform::Models {
+class SdkAccountList;
+}
+namespace Oculus::Platform::Models {
+class PartyUpdateNotification;
+}
+namespace Oculus::Platform::Models {
+class User;
+}
+namespace Oculus::Platform::Models {
+class NetworkingPeer;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDownloadCancelResult;
+}
+namespace Oculus::Platform::Models {
+class MatchmakingBrowseResult;
+}
+namespace Oculus::Platform::Models {
+class RoomList;
+}
+namespace Oculus::Platform::Models {
+class LaunchBlockFlowResult;
+}
+namespace Oculus::Platform::Models {
+class MicrophoneAvailabilityState;
+}
+namespace Oculus::Platform::Models {
 class RoomInviteNotificationList;
 }
 namespace Oculus::Platform::Models {
+class ApplicationInviteList;
+}
+namespace Oculus::Platform::Models {
+class Party;
+}
+namespace Oculus::Platform::Models {
+class RejoinDialogResult;
+}
+namespace Oculus::Platform::Models {
+class ApplicationVersion;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDownloadResult;
+}
+namespace Oculus::Platform::Models {
+class LivestreamingStatus;
+}
+namespace Oculus::Platform::Models {
+class MatchmakingAdminSnapshot;
+}
+namespace Oculus::Platform::Models {
+class CloudStorageMetadata;
+}
+namespace Oculus::Platform::Models {
+class AchievementDefinitionList;
+}
+namespace Oculus::Platform::Models {
+class NetSyncConnection;
+}
+namespace Oculus::Platform::Models {
+class RoomInviteNotification;
+}
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
+}
+namespace Oculus::Platform::Models {
+class OrgScopedID;
+}
+namespace Oculus::Platform::Models {
+class GroupPresenceJoinIntent;
+}
+namespace Oculus::Platform::Models {
+class MatchmakingEnqueueResultAndRoom;
+}
+namespace Oculus::Platform::Models {
+class BlockedUserList;
+}
+namespace Oculus::Platform::Models {
+class LeaderboardList;
+}
+namespace Oculus::Platform::Models {
+class LivestreamingStartResult;
+}
+namespace Oculus::Platform {
+struct Oculus__Platform__Message__MessageType;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDownloadUpdate;
+}
+namespace Oculus::Platform::Models {
+class ProductList;
+}
+namespace Oculus::Platform::Models {
+class AchievementUpdate;
+}
+namespace Oculus::Platform::Models {
+class UserDataStoreUpdateResponse;
+}
+namespace Oculus::Platform::Models {
+class SendInvitesResult;
+}
+namespace Oculus::Platform::Models {
+class InvitePanelResultInfo;
+}
+namespace Oculus::Platform::Models {
+class AbuseReportRecording;
+}
+namespace Oculus::Platform::Models {
+class Challenge;
+}
+namespace Oculus::Platform::Models {
+class LaunchFriendRequestFlowResult;
+}
+namespace Oculus::Platform::Models {
+class ChallengeEntryList;
+}
+namespace Oculus::Platform::Models {
+class LaunchReportFlowResult;
+}
+namespace Oculus::Platform::Models {
+class PartyID;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace Oculus::Platform::Models {
+class UserReportID;
+}
+namespace Oculus::Platform::Models {
+class LaunchUnblockFlowResult;
+}
+namespace Oculus::Platform::Models {
 class AssetDetailsList;
+}
+namespace Oculus::Platform::Models {
+class ChallengeList;
+}
+namespace Oculus::Platform::Models {
+class LeaderboardEntryList;
+}
+namespace Oculus::Platform::Models {
+class MatchmakingStats;
+}
+namespace Oculus::Platform::Models {
+class Purchase;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDeleteResult;
+}
+namespace Oculus::Platform::Models {
+class DestinationList;
+}
+namespace Oculus::Platform::Models {
+class PingResult;
+}
+namespace Oculus::Platform::Models {
+class LaunchInvitePanelFlowResult;
 }
 namespace Oculus::Platform::Models {
 class UserCapabilityList;
@@ -168,92 +220,49 @@ namespace Oculus::Platform::Models {
 class UserList;
 }
 namespace Oculus::Platform::Models {
-class CloudStorageMetadataList;
+class Error;
 }
 namespace Oculus::Platform::Models {
-class AssetDetails;
+class MatchmakingEnqueueResult;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__Message__ExtraMessageTypesHandler;
 }
 namespace Oculus::Platform::Models {
-class ChallengeEntryList;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace Oculus::Platform::Models {
-class PidList;
-}
-namespace Oculus::Platform::Models {
-class AchievementDefinitionList;
-}
-namespace Oculus::Platform::Models {
-class RoomInviteNotification;
-}
-namespace Oculus::Platform::Models {
-class MatchmakingAdminSnapshot;
-}
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
-}
-namespace Oculus::Platform::Models {
-class LivestreamingApplicationStatus;
-}
-namespace Oculus::Platform::Models {
-class LaunchInvitePanelFlowResult;
-}
-namespace Oculus::Platform::Models {
-class AbuseReportRecording;
-}
-namespace Oculus::Platform::Models {
-class RejoinDialogResult;
-}
-namespace Oculus::Platform::Models {
-class PartyID;
-}
-namespace Oculus::Platform::Models {
-class CloudStorageMetadata;
-}
-namespace Oculus::Platform::Models {
-class MicrophoneAvailabilityState;
-}
-namespace Oculus::Platform::Models {
-class NetSyncSessionsChangedNotification;
-}
-namespace Oculus::Platform::Models {
-class PartyUpdateNotification;
-}
-namespace Oculus::Platform::Models {
-class LaunchReportFlowResult;
+class NetSyncVoipAttenuationValueList;
 }
 namespace Oculus::Platform::Models {
 class LivestreamingVideoStats;
 }
 namespace Oculus::Platform::Models {
-class LeaderboardEntryList;
+class CloudStorageUpdateResponse;
 }
 namespace Oculus::Platform::Models {
-class CloudStorageConflictMetadata;
+class NetSyncSetSessionPropertyResult;
 }
 namespace Oculus::Platform::Models {
-class AssetFileDownloadResult;
+class PidList;
 }
 namespace Oculus::Platform::Models {
-class User;
+class CalApplicationFinalized;
 }
 namespace Oculus::Platform::Models {
-class Room;
+class UserProof;
 }
 namespace Oculus::Platform::Models {
-class LaunchBlockFlowResult;
+class CalApplicationProposed;
 }
 namespace Oculus::Platform::Models {
-class ApplicationVersion;
+class LinkedAccountList;
 }
 namespace Oculus::Platform::Models {
-class LaunchFriendRequestFlowResult;
+class CalApplicationSuggestionList;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__Message__Callback;
 }
 namespace Oculus::Platform::Models {
-class SdkAccountList;
+class UserAndRoomList;
 }
 namespace System {
 class AsyncCallback;
@@ -316,8 +325,7 @@ constexpr explicit Oculus__Platform__Message__Callback(void* ptr) noexcept : Sys
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Oculus__Platform__Message__Callback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Oculus::Platform::Oculus__Platform__Message__Callback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x257f7fc size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -576,6 +584,8 @@ __Platform_InitializeWindowsAsynchronous = 1839708815u,
 constexpr operator __Oculus__Platform__Message__MessageType_Unwrapped () const noexcept {
 return std::bit_cast<__Oculus__Platform__Message__MessageType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
 
 
 // Fields
@@ -1214,8 +1224,7 @@ constexpr explicit Oculus__Platform__Message__ExtraMessageTypesHandler(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Oculus__Platform__Message__ExtraMessageTypesHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Oculus::Platform::Oculus__Platform__Message__ExtraMessageTypesHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x257f968 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1319,8 +1328,7 @@ static Oculus::Platform::Oculus__Platform__Message__ExtraMessageTypesHandler __d
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Message(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::Message New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257b7b8 size 0x2b0 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

@@ -3,6 +3,7 @@
 #include "UnityEngine/zzzz__BeforeRenderHelper_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__BeforeRenderHelper_def.hpp"
 // Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "callback", ty: "UnityEngine::Events::UnityAction", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::UnityEngine__BeforeRenderHelper__OrderBlock::UnityEngine__BeforeRenderHelper__OrderBlock(int32_t order, UnityEngine::Events::UnityAction callback) noexcept : ::bs_hook::ValueTypeWrapper() {this->order = order;
 this->callback = callback;

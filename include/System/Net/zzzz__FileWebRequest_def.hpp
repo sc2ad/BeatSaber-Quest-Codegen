@@ -4,35 +4,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Net {
-class ICredentials;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
-namespace System::Net {
-class IWebProxy;
+namespace System::Threading {
+class WaitCallback;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Threading {
-class ManualResetEvent;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Net {
+class IWebProxy;
 }
 namespace System {
-class AsyncCallback;
-}
-namespace System::Net {
-class WebResponse;
-}
-namespace System {
-class Uri;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Threading {
-class WaitCallback;
+class IAsyncResult;
 }
 namespace System::IO {
 struct FileAccess;
@@ -40,14 +25,29 @@ struct FileAccess;
 namespace System::Net {
 class LazyAsyncResult;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Threading {
+class ManualResetEvent;
+}
+namespace System::Net {
+class WebResponse;
+}
+namespace System::Net {
+class ICredentials;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System::Net {
+class WebHeaderCollection;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -258,14 +258,12 @@ constexpr int32_t __get_m_Aborted() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }]
-explicit FileWebRequest(System::Uri uri) ;
+static System::Net::FileWebRequest New_ctor(System::Uri uri) ;
 
 /// @brief Method .ctor addr 0x2821e4c size 0x178 virtual false final false
  void _ctor(System::Uri uri) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit FileWebRequest(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::FileWebRequest New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x2821fc4 size 0x39c virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

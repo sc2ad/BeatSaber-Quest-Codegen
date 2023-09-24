@@ -23,8 +23,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
  ::StringW Org::BouncyCastle::Crypto::Tls::ExporterLabel::__get_extended_master_secret()  {
 return ::cordl_internals::getStaticField<::StringW, "extended_master_secret", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ExporterLabel>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::ExporterLabel::ExporterLabel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ExporterLabel>())) {}
+ Org::BouncyCastle::Crypto::Tls::ExporterLabel Org::BouncyCastle::Crypto::Tls::ExporterLabel::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::ExporterLabel o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ExporterLabel>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ExporterLabel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ExporterLabel>::get(),

@@ -2,8 +2,8 @@
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__SystemGatewayIPAddressInformation_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__IPAddressCollection_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__IPAddressCollection_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::SystemGatewayIPAddressInformation._ctor
 template<>
 
@@ -44,8 +44,10 @@ constexpr void System::Net::NetworkInformation::SystemGatewayIPAddressInformatio
 constexpr System::Net::IPAddress System::Net::NetworkInformation::SystemGatewayIPAddressInformation::__get_address() const {
 return ::cordl_internals::getInstanceField<System::Net::IPAddress, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "System::Net::IPAddress", modifiers: "", def_value: None }]
- System::Net::NetworkInformation::SystemGatewayIPAddressInformation::SystemGatewayIPAddressInformation(System::Net::IPAddress address)  : System::Net::NetworkInformation::GatewayIPAddressInformation(THROW_UNLESS(::il2cpp_utils::New<SystemGatewayIPAddressInformation>(address))) {}
+ System::Net::NetworkInformation::SystemGatewayIPAddressInformation System::Net::NetworkInformation::SystemGatewayIPAddressInformation::New_ctor(System::Net::IPAddress address)  {
+System::Net::NetworkInformation::SystemGatewayIPAddressInformation o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::SystemGatewayIPAddressInformation>(address))};
+return o;
+}
  void System::Net::NetworkInformation::SystemGatewayIPAddressInformation::_ctor(System::Net::IPAddress address)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::SystemGatewayIPAddressInformation>::get(),

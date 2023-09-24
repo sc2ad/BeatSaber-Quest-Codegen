@@ -55,8 +55,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, c1, c2);
 }
-// Ctor Parameters []
- Mono::Globalization::Unicode::ContractionComparer::ContractionComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ContractionComparer>())) {}
+ Mono::Globalization::Unicode::ContractionComparer Mono::Globalization::Unicode::ContractionComparer::New_ctor()  {
+Mono::Globalization::Unicode::ContractionComparer o{THROW_UNLESS(::il2cpp_utils::New<Mono::Globalization::Unicode::ContractionComparer>())};
+return o;
+}
  void Mono::Globalization::Unicode::ContractionComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Globalization::Unicode::ContractionComparer>::get(),

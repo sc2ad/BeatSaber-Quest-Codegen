@@ -3,6 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
+namespace GlobalNamespace {
+class GlobalNamespace__ParticleSystemEventController__Pool;
+}
 namespace UnityEngine {
 class ParticleSystem;
 }
@@ -115,8 +118,7 @@ static constexpr float_t  kMaxSimDelta{0.033333335};
 /// @brief Method ManualUpdate addr 0x2265b14 size 0x68 virtual false final false
  void ManualUpdate(float_t time, float_t deltaTime) ;
 
-// Ctor Parameters []
-explicit ParticleSystemEventController() ;
+static GlobalNamespace::ParticleSystemEventController New_ctor() ;
 
 /// @brief Method .ctor addr 0x22662f8 size 0x8 virtual false final false
  void _ctor() ;
@@ -128,7 +130,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(5066)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2721 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5066)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2721 }), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5065))
 // CS Name: ParticleSystemEventController::Pool
 class CORDL_TYPE GlobalNamespace__ParticleSystemEventController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::ParticleSystemEventController> {
@@ -167,8 +169,7 @@ constexpr explicit GlobalNamespace__ParticleSystemEventController__Pool(void* pt
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__ParticleSystemEventController__Pool() ;
+static GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2266300 size 0x48 virtual false final false
  void _ctor() ;

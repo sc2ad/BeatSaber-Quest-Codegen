@@ -145,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Interactions::SlowTapInteraction::SlowTapInteraction()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SlowTapInteraction>())) {}
+ UnityEngine::InputSystem::Interactions::SlowTapInteraction UnityEngine::InputSystem::Interactions::SlowTapInteraction::New_ctor()  {
+UnityEngine::InputSystem::Interactions::SlowTapInteraction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Interactions::SlowTapInteraction>())};
+return o;
+}
  void UnityEngine::InputSystem::Interactions::SlowTapInteraction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Interactions::SlowTapInteraction>::get(),

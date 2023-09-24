@@ -5,29 +5,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
+}
+namespace System {
+struct System__Exception__ExceptionMessageKind;
+}
+namespace System::Diagnostics {
+class StackTrace;
 }
 namespace System::Collections {
 class IDictionary;
 }
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System {
 class Type;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SafeSerializationManager;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
-}
-namespace System::Diagnostics {
-class StackTrace;
 }
 // Forward declare root types
 namespace System {
@@ -86,6 +89,8 @@ __OutOfMemory = 3,
 constexpr operator __System__Exception__ExceptionMessageKind_Unwrapped () const noexcept {
 return std::bit_cast<__System__Exception__ExceptionMessageKind_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -282,26 +287,22 @@ static constexpr int32_t  _COMPlusExceptionCode{-532462766};
 /// @brief Method Init addr 0x24784f4 size 0x78 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit Exception() ;
+static System::Exception New_ctor() ;
 
 /// @brief Method .ctor addr 0x247856c size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Exception(::StringW message) ;
+static System::Exception New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2478588 size 0x30 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit Exception(::StringW message, System::Exception innerException) ;
+static System::Exception New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x24785b8 size 0x38 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit Exception(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Exception New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24785f0 size 0x468 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

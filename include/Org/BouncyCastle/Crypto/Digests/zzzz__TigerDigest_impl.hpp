@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__TigerDigest_def.hpp"
-#include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Digests::TigerDigest._ctor
 template<>
 
@@ -422,8 +422,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::TigerDigest::__set_xOff(int32
 constexpr int32_t Org::BouncyCastle::Crypto::Digests::TigerDigest::__get_xOff() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::TigerDigest::TigerDigest()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TigerDigest>())) {}
+ Org::BouncyCastle::Crypto::Digests::TigerDigest Org::BouncyCastle::Crypto::Digests::TigerDigest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::TigerDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::TigerDigest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::TigerDigest>::get(),
@@ -433,8 +435,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::TigerDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::TigerDigest::TigerDigest(Org::BouncyCastle::Crypto::Digests::TigerDigest t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TigerDigest>(t))) {}
+ Org::BouncyCastle::Crypto::Digests::TigerDigest Org::BouncyCastle::Crypto::Digests::TigerDigest::New_ctor(Org::BouncyCastle::Crypto::Digests::TigerDigest t)  {
+Org::BouncyCastle::Crypto::Digests::TigerDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::TigerDigest>(t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor(Org::BouncyCastle::Crypto::Digests::TigerDigest t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::TigerDigest>::get(),

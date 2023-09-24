@@ -166,8 +166,7 @@ static ::ArrayW<uint8_t> __get_S3() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::Digests::Dstu7564Digest", modifiers: "", def_value: None }]
-explicit Dstu7564Digest(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest) ;
+static Org::BouncyCastle::Crypto::Digests::Dstu7564Digest New_ctor(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest) ;
 
 /// @brief Method .ctor addr 0x1194f78 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest) ;
@@ -175,8 +174,7 @@ explicit Dstu7564Digest(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest diges
 /// @brief Method CopyIn addr 0x1194fa4 size 0x130 virtual false final false
  void CopyIn(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest) ;
 
-// Ctor Parameters [CppParam { name: "hashSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Dstu7564Digest(int32_t hashSizeBits) ;
+static Org::BouncyCastle::Crypto::Digests::Dstu7564Digest New_ctor(int32_t hashSizeBits) ;
 
 /// @brief Method .ctor addr 0x11950d4 size 0x14c virtual false final false
  void _ctor(int32_t hashSizeBits) ;

@@ -86,8 +86,7 @@ constexpr bool __get__invertToggle() const;
 /// @brief Method SetCanvasGroupData addr 0x1fa4170 size 0x30 virtual false final false
  void SetCanvasGroupData(bool isOn) ;
 
-// Ctor Parameters []
-explicit ToggleableCanvasGroup() ;
+static GlobalNamespace::ToggleableCanvasGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa4250 size 0x8 virtual false final false
  void _ctor() ;

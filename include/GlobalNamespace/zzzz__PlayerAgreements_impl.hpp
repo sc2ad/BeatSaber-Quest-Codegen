@@ -222,8 +222,10 @@ constexpr void GlobalNamespace::PlayerAgreements::__set_healthAndSafetyVersion(i
 constexpr int32_t GlobalNamespace::PlayerAgreements::__get_healthAndSafetyVersion() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerAgreements::PlayerAgreements()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerAgreements>())) {}
+ GlobalNamespace::PlayerAgreements GlobalNamespace::PlayerAgreements::New_ctor()  {
+GlobalNamespace::PlayerAgreements o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerAgreements>())};
+return o;
+}
  void GlobalNamespace::PlayerAgreements::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerAgreements>::get(),
@@ -233,8 +235,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "eulaVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "privacyPolicyVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "healthAndSafetyVersion", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::PlayerAgreements::PlayerAgreements(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerAgreements>(eulaVersion, privacyPolicyVersion, healthAndSafetyVersion))) {}
+ GlobalNamespace::PlayerAgreements GlobalNamespace::PlayerAgreements::New_ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion)  {
+GlobalNamespace::PlayerAgreements o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerAgreements>(eulaVersion, privacyPolicyVersion, healthAndSafetyVersion))};
+return o;
+}
  void GlobalNamespace::PlayerAgreements::_ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerAgreements>::get(),

@@ -11,24 +11,27 @@ namespace System {
 template<typename T1,typename T2,typename T3,typename T4>
 class Action_4;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+class UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateChangeMonitor;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -103,8 +106,7 @@ constexpr System::Action_4<UnityEngine::InputSystem::InputControl,double_t,int64
 /// @brief Method NotifyTimerExpired addr 0x295fd00 size 0x1c virtual true final true
  void NotifyTimerExpired(UnityEngine::InputSystem::InputControl control, double_t time, int64_t monitorIndex, int32_t timerIndex) ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate() ;
+static UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate New_ctor() ;
 
 /// @brief Method .ctor addr 0x295fa18 size 0x8 virtual false final false
  void _ctor() ;

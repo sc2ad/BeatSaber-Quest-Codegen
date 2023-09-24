@@ -2,20 +2,20 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketShutdown_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketShutdown_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
-#include "System/IO/zzzz__FileAccess_def.hpp"
 #include "System/zzzz__Memory_1_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/IO/zzzz__FileAccess_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 //  Writing Method size for method: System::Net::Sockets::NetworkStream._ctor
 template<>
 
@@ -710,8 +710,10 @@ constexpr void System::Net::Sockets::NetworkStream::__set__currentWriteTimeout(i
 constexpr int32_t System::Net::Sockets::NetworkStream::__get__currentWriteTimeout() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "socket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }]
- System::Net::Sockets::NetworkStream::NetworkStream(System::Net::Sockets::Socket socket)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<NetworkStream>(socket))) {}
+ System::Net::Sockets::NetworkStream System::Net::Sockets::NetworkStream::New_ctor(System::Net::Sockets::Socket socket)  {
+System::Net::Sockets::NetworkStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::NetworkStream>(socket))};
+return o;
+}
  void System::Net::Sockets::NetworkStream::_ctor(System::Net::Sockets::Socket socket)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::NetworkStream>::get(),
@@ -721,8 +723,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, socket);
 }
-// Ctor Parameters [CppParam { name: "socket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }, CppParam { name: "ownsSocket", ty: "bool", modifiers: "", def_value: None }]
- System::Net::Sockets::NetworkStream::NetworkStream(System::Net::Sockets::Socket socket, bool ownsSocket)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<NetworkStream>(socket, ownsSocket))) {}
+ System::Net::Sockets::NetworkStream System::Net::Sockets::NetworkStream::New_ctor(System::Net::Sockets::Socket socket, bool ownsSocket)  {
+System::Net::Sockets::NetworkStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::NetworkStream>(socket, ownsSocket))};
+return o;
+}
  void System::Net::Sockets::NetworkStream::_ctor(System::Net::Sockets::Socket socket, bool ownsSocket)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::NetworkStream>::get(),
@@ -732,8 +736,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, socket, ownsSocket);
 }
-// Ctor Parameters [CppParam { name: "socket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "ownsSocket", ty: "bool", modifiers: "", def_value: None }]
- System::Net::Sockets::NetworkStream::NetworkStream(System::Net::Sockets::Socket socket, System::IO::FileAccess access, bool ownsSocket)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<NetworkStream>(socket, access, ownsSocket))) {}
+ System::Net::Sockets::NetworkStream System::Net::Sockets::NetworkStream::New_ctor(System::Net::Sockets::Socket socket, System::IO::FileAccess access, bool ownsSocket)  {
+System::Net::Sockets::NetworkStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::NetworkStream>(socket, access, ownsSocket))};
+return o;
+}
  void System::Net::Sockets::NetworkStream::_ctor(System::Net::Sockets::Socket socket, System::IO::FileAccess access, bool ownsSocket)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::NetworkStream>::get(),

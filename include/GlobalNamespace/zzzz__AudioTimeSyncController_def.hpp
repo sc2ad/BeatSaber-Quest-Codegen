@@ -5,20 +5,26 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+class AudioSource;
+}
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
-namespace UnityEngine {
-class WaitUntil;
+namespace GlobalNamespace {
+class FloatSO;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class FloatSO;
+struct GlobalNamespace__AudioTimeSyncController__State;
 }
 namespace UnityEngine {
-class AudioSource;
+class WaitUntil;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__AudioTimeSyncController__InitData;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -102,8 +108,7 @@ constexpr float_t __get_timeScale() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeScale", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AudioTimeSyncController__InitData(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
+static GlobalNamespace::GlobalNamespace__AudioTimeSyncController__InitData New_ctor(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
 
 /// @brief Method .ctor addr 0x20b9c28 size 0x4c virtual false final false
  void _ctor(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
@@ -162,6 +167,8 @@ __Stopped = 2,
 constexpr operator __GlobalNamespace__AudioTimeSyncController__State_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__AudioTimeSyncController__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -485,8 +492,7 @@ constexpr bool __get__forceNoAudioSyncOrAudioSyncErrorFixing() const;
 /// @brief Method SetSongTimeIntoAudioTime addr 0x20b9b30 size 0xe0 virtual false final false
  void SetSongTimeIntoAudioTime() ;
 
-// Ctor Parameters []
-explicit AudioTimeSyncController() ;
+static GlobalNamespace::AudioTimeSyncController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b9c10 size 0x14 virtual false final false
  void _ctor() ;

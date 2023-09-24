@@ -5,16 +5,16 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine {

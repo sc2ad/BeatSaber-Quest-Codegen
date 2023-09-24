@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/Kdf/zzzz__DHKdfParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters._ctor
 template<>
 
@@ -132,8 +132,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::__set
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::__get_extraInfo() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::DHKdfParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DHKdfParameters>(algorithm, keySize, z))) {}
+ Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z)  {
+Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters>(algorithm, keySize, z))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters>::get(),
@@ -143,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithm, keySize, z);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "extraInfo", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::DHKdfParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z, ::ArrayW<uint8_t> extraInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DHKdfParameters>(algorithm, keySize, z, extraInfo))) {}
+ Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z, ::ArrayW<uint8_t> extraInfo)  {
+Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters>(algorithm, keySize, z, extraInfo))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z, ::ArrayW<uint8_t> extraInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters>::get(),

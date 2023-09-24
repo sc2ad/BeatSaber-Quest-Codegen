@@ -6,17 +6,17 @@
 namespace Oculus::Platform {
 struct ChallengeVisibility;
 }
-namespace Oculus::Platform::Models {
-class UserList;
-}
 namespace System {
 struct DateTime;
 }
-namespace Oculus::Platform::Models {
-class Leaderboard;
-}
 namespace Oculus::Platform {
 struct ChallengeCreationType;
+}
+namespace Oculus::Platform::Models {
+class UserList;
+}
+namespace Oculus::Platform::Models {
+class Leaderboard;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -139,8 +139,7 @@ constexpr Oculus::Platform::ChallengeVisibility __get_Visibility() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Challenge(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::Challenge New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x259d79c size 0x228 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

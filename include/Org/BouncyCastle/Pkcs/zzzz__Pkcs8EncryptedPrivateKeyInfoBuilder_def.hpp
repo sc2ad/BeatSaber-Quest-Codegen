@@ -6,11 +6,11 @@
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
 }
-namespace Org::BouncyCastle::Pkcs {
-class Pkcs8EncryptedPrivateKeyInfo;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherBuilder;
+}
+namespace Org::BouncyCastle::Pkcs {
+class Pkcs8EncryptedPrivateKeyInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -67,14 +67,12 @@ constexpr Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo __get_privateKeyInfo() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "privateKeyInfo", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Pkcs8EncryptedPrivateKeyInfoBuilder(::ArrayW<uint8_t> privateKeyInfo) ;
+static Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder New_ctor(::ArrayW<uint8_t> privateKeyInfo) ;
 
 /// @brief Method .ctor addr 0x105ac24 size 0x38 virtual false final false
  void _ctor(::ArrayW<uint8_t> privateKeyInfo) ;
 
-// Ctor Parameters [CppParam { name: "privateKeyInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo", modifiers: "", def_value: None }]
-explicit Pkcs8EncryptedPrivateKeyInfoBuilder(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo) ;
+static Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder New_ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo) ;
 
 /// @brief Method .ctor addr 0x105ac5c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo) ;

@@ -47,8 +47,7 @@ constexpr explicit TagPropertyAttribute(void* ptr) noexcept : UnityEngine::Prope
 
 // Methods
 
-// Ctor Parameters []
-explicit TagPropertyAttribute() ;
+static GlobalNamespace::TagPropertyAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7bde0 size 0x8 virtual false final false
  void _ctor() ;

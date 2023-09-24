@@ -4,28 +4,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Net {
-class WebRequest;
-}
-namespace System::Net {
-class DigestHeaderParser;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Security::Cryptography {
-class RandomNumberGenerator;
-}
-namespace System::Net {
 class HttpWebRequest;
+}
+namespace System::Net {
+class Authorization;
+}
+namespace System::Net {
+class ICredentials;
 }
 namespace System::Security::Cryptography {
 class HashAlgorithm;
 }
 namespace System::Net {
-class ICredentials;
+class WebRequest;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Net {
-class Authorization;
+class DigestHeaderParser;
+}
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
 }
 // Forward declare root types
 namespace System::Net {
@@ -129,8 +129,7 @@ constexpr ::StringW __get__cnonce() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DigestSession() ;
+static System::Net::DigestSession New_ctor() ;
 
 /// @brief Method .ctor addr 0x282b69c size 0x70 virtual false final false
  void _ctor() ;

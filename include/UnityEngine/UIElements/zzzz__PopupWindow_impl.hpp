@@ -2,13 +2,14 @@
 #include "UnityEngine/UIElements/zzzz__TextElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PopupWindow_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PopupWindow_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits.get_uxmlChildElementsDescription
 template<>
 
@@ -52,8 +53,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::UxmlChildElementDescription>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits::UnityEngine__UIElements__PopupWindow__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__TextElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__PopupWindow__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits>::get(),
@@ -115,8 +118,10 @@ return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::il2cpp_uti
  ::StringW UnityEngine::UIElements::PopupWindow::__get_contentUssClassName()  {
 return ::cordl_internals::getStaticField<::StringW, "contentUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PopupWindow>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::PopupWindow::PopupWindow()  : UnityEngine::UIElements::TextElement(THROW_UNLESS(::il2cpp_utils::New<PopupWindow>())) {}
+ UnityEngine::UIElements::PopupWindow UnityEngine::UIElements::PopupWindow::New_ctor()  {
+UnityEngine::UIElements::PopupWindow o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PopupWindow>())};
+return o;
+}
  void UnityEngine::UIElements::PopupWindow::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PopupWindow>::get(),
@@ -152,8 +157,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlFactory::UnityEngine__UIElements__PopupWindow__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::PopupWindow,UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__PopupWindow__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlFactory>::get(),
@@ -343,8 +350,10 @@ constexpr void GlobalNamespace::UnityEngine__UIElements__PopupWindow__UxmlTraits
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits GlobalNamespace::UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1::UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1>(__1__state))) {}
+ GlobalNamespace::UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1 GlobalNamespace::UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1::New_ctor(int32_t __1__state)  {
+GlobalNamespace::UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1>(__1__state))};
+return o;
+}
  void GlobalNamespace::UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1>::get(),

@@ -1,10 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__GuiRenderableManager_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__IGuiRenderable_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__GuiRenderableManager_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__GuiRenderableManager__RenderableInfo._ctor
 template<>
@@ -69,8 +70,10 @@ constexpr void Zenject::Zenject__GuiRenderableManager__RenderableInfo::__set_Pri
 constexpr int32_t Zenject::Zenject__GuiRenderableManager__RenderableInfo::__get_Priority() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "renderable", ty: "Zenject::IGuiRenderable", modifiers: "", def_value: None }, CppParam { name: "priority", ty: "int32_t", modifiers: "", def_value: None }]
- Zenject::Zenject__GuiRenderableManager__RenderableInfo::Zenject__GuiRenderableManager__RenderableInfo(Zenject::IGuiRenderable renderable, int32_t priority)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__GuiRenderableManager__RenderableInfo>(renderable, priority))) {}
+ Zenject::Zenject__GuiRenderableManager__RenderableInfo Zenject::Zenject__GuiRenderableManager__RenderableInfo::New_ctor(Zenject::IGuiRenderable renderable, int32_t priority)  {
+Zenject::Zenject__GuiRenderableManager__RenderableInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__GuiRenderableManager__RenderableInfo>(renderable, priority))};
+return o;
+}
  void Zenject::Zenject__GuiRenderableManager__RenderableInfo::_ctor(Zenject::IGuiRenderable renderable, int32_t priority)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__GuiRenderableManager__RenderableInfo>::get(),
@@ -172,8 +175,10 @@ constexpr void Zenject::Zenject__GuiRenderableManager____c__DisplayClass1_0::__s
 constexpr Zenject::IGuiRenderable Zenject::Zenject__GuiRenderableManager____c__DisplayClass1_0::__get_renderable() const {
 return ::cordl_internals::getInstanceField<Zenject::IGuiRenderable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__GuiRenderableManager____c__DisplayClass1_0::Zenject__GuiRenderableManager____c__DisplayClass1_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__GuiRenderableManager____c__DisplayClass1_0>())) {}
+ Zenject::Zenject__GuiRenderableManager____c__DisplayClass1_0 Zenject::Zenject__GuiRenderableManager____c__DisplayClass1_0::New_ctor()  {
+Zenject::Zenject__GuiRenderableManager____c__DisplayClass1_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__GuiRenderableManager____c__DisplayClass1_0>())};
+return o;
+}
  void Zenject::Zenject__GuiRenderableManager____c__DisplayClass1_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__GuiRenderableManager____c__DisplayClass1_0>::get(),
@@ -313,8 +318,10 @@ return ::cordl_internals::getStaticField<System::Func_2<ModestTree::Util::ValueP
  System::Func_2<Zenject::Zenject__GuiRenderableManager__RenderableInfo,int32_t> Zenject::Zenject__GuiRenderableManager____c::__get___9__1_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<Zenject::Zenject__GuiRenderableManager__RenderableInfo,int32_t>, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__GuiRenderableManager____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__GuiRenderableManager____c::Zenject__GuiRenderableManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__GuiRenderableManager____c>())) {}
+ Zenject::Zenject__GuiRenderableManager____c Zenject::Zenject__GuiRenderableManager____c::New_ctor()  {
+Zenject::Zenject__GuiRenderableManager____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__GuiRenderableManager____c>())};
+return o;
+}
  void Zenject::Zenject__GuiRenderableManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__GuiRenderableManager____c>::get(),
@@ -434,8 +441,10 @@ constexpr void Zenject::GuiRenderableManager::__set__renderables(System::Collect
 constexpr System::Collections::Generic::List_1<Zenject::Zenject__GuiRenderableManager__RenderableInfo> Zenject::GuiRenderableManager::__get__renderables() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<Zenject::Zenject__GuiRenderableManager__RenderableInfo>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "renderables", ty: "System::Collections::Generic::List_1<Zenject::IGuiRenderable>", modifiers: "", def_value: None }, CppParam { name: "priorities", ty: "System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>>", modifiers: "", def_value: None }]
- Zenject::GuiRenderableManager::GuiRenderableManager(System::Collections::Generic::List_1<Zenject::IGuiRenderable> renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GuiRenderableManager>(renderables, priorities))) {}
+ Zenject::GuiRenderableManager Zenject::GuiRenderableManager::New_ctor(System::Collections::Generic::List_1<Zenject::IGuiRenderable> renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities)  {
+Zenject::GuiRenderableManager o{THROW_UNLESS(::il2cpp_utils::New<Zenject::GuiRenderableManager>(renderables, priorities))};
+return o;
+}
  void Zenject::GuiRenderableManager::_ctor(System::Collections::Generic::List_1<Zenject::IGuiRenderable> renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::GuiRenderableManager>::get(),

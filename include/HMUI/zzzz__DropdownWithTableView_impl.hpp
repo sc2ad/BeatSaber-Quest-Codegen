@@ -1,11 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "HMUI/zzzz__ModalView_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: HMUI::DropdownWithTableView.add_didSelectCellWithIdxEvent
 template<>
 
@@ -501,8 +500,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::DropdownWithTableView::DropdownWithTableView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DropdownWithTableView>())) {}
+ HMUI::DropdownWithTableView HMUI::DropdownWithTableView::New_ctor()  {
+HMUI::DropdownWithTableView o{THROW_UNLESS(::il2cpp_utils::New<HMUI::DropdownWithTableView>())};
+return o;
+}
  void HMUI::DropdownWithTableView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::DropdownWithTableView>::get(),

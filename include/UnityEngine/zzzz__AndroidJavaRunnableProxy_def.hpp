@@ -59,8 +59,7 @@ constexpr UnityEngine::AndroidJavaRunnable __get_mRunnable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "runnable", ty: "UnityEngine::AndroidJavaRunnable", modifiers: "", def_value: None }]
-explicit AndroidJavaRunnableProxy(UnityEngine::AndroidJavaRunnable runnable) ;
+static UnityEngine::AndroidJavaRunnableProxy New_ctor(UnityEngine::AndroidJavaRunnable runnable) ;
 
 /// @brief Method .ctor addr 0x2b0e2f0 size 0x80 virtual false final false
  void _ctor(UnityEngine::AndroidJavaRunnable runnable) ;

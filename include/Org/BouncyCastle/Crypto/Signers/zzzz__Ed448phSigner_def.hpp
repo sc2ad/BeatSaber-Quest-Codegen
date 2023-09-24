@@ -7,17 +7,17 @@
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed448PrivateKeyParameters;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Ed448PublicKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class IXof;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Ed448PublicKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -106,8 +106,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters __get_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Ed448phSigner(::ArrayW<uint8_t> context) ;
+static Org::BouncyCastle::Crypto::Signers::Ed448phSigner New_ctor(::ArrayW<uint8_t> context) ;
 
 /// @brief Method .ctor addr 0xebd2f0 size 0xa8 virtual false final false
  void _ctor(::ArrayW<uint8_t> context) ;

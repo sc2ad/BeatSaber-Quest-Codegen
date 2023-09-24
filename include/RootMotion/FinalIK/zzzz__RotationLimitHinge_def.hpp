@@ -108,8 +108,7 @@ constexpr float_t __get_lastAngle() const;
 /// @brief Method LimitHinge addr 0x1203944 size 0x248 virtual false final false
  UnityEngine::Quaternion LimitHinge(UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit RotationLimitHinge() ;
+static RootMotion::FinalIK::RotationLimitHinge New_ctor() ;
 
 /// @brief Method .ctor addr 0x1203b8c size 0x64 virtual false final false
  void _ctor() ;

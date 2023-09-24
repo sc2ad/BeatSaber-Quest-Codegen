@@ -24,8 +24,10 @@ constexpr void System::CLSCompliantAttribute::__set__compliant(bool value)  {
 constexpr bool System::CLSCompliantAttribute::__get__compliant() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "isCompliant", ty: "bool", modifiers: "", def_value: None }]
- System::CLSCompliantAttribute::CLSCompliantAttribute(bool isCompliant)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<CLSCompliantAttribute>(isCompliant))) {}
+ System::CLSCompliantAttribute System::CLSCompliantAttribute::New_ctor(bool isCompliant)  {
+System::CLSCompliantAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::CLSCompliantAttribute>(isCompliant))};
+return o;
+}
  void System::CLSCompliantAttribute::_ctor(bool isCompliant)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::CLSCompliantAttribute>::get(),

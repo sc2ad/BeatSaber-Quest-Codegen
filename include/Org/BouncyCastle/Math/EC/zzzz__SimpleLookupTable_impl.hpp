@@ -102,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<Org::BouncyCastle::Math::EC::ECPoint>, false>(nullptr, ___internal_method, points, off, len);
 }
-// Ctor Parameters [CppParam { name: "points", ty: "::ArrayW<Org::BouncyCastle::Math::EC::ECPoint>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::SimpleLookupTable::SimpleLookupTable(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> points, int32_t off, int32_t len)  : Org::BouncyCastle::Math::EC::AbstractECLookupTable(THROW_UNLESS(::il2cpp_utils::New<SimpleLookupTable>(points, off, len))) {}
+ Org::BouncyCastle::Math::EC::SimpleLookupTable Org::BouncyCastle::Math::EC::SimpleLookupTable::New_ctor(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> points, int32_t off, int32_t len)  {
+Org::BouncyCastle::Math::EC::SimpleLookupTable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::SimpleLookupTable>(points, off, len))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::SimpleLookupTable::_ctor(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> points, int32_t off, int32_t len)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::SimpleLookupTable>::get(),

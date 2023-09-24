@@ -1,20 +1,21 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIElementsRuntimeUtility_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Panel_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DefaultEventSystem_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIElementsRuntimeUtility_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Panel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DefaultEventSystem_def.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate._ctor
 template<>
@@ -50,8 +51,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate::UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate>(object, method))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate>(object, method))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate>::get(),
@@ -150,8 +153,10 @@ return ::cordl_internals::getStaticField<UnityEngine::UIElements::UnityEngine__U
  System::Comparison_1<UnityEngine::UIElements::Panel> UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility____c::__get___9__46_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::UIElements::Panel>, "<>9__46_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility____c::UnityEngine__UIElements__UIElementsRuntimeUtility____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIElementsRuntimeUtility____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility____c UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility____c>::get(),

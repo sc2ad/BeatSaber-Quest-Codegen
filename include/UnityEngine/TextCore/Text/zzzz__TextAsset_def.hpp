@@ -125,8 +125,7 @@ constexpr int32_t __get_m_MaterialHashCode() const;
 /// @brief Method set_materialHashCode addr 0x2bd2628 size 0x8 virtual false final false
  void set_materialHashCode(int32_t value) ;
 
-// Ctor Parameters []
-explicit TextAsset() ;
+static UnityEngine::TextCore::Text::TextAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd2630 size 0x8 virtual false final false
  void _ctor() ;

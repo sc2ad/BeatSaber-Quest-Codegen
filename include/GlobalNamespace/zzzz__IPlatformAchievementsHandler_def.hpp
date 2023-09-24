@@ -7,13 +7,25 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementResult;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsResult;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
 }
 namespace GlobalNamespace {
 class HMAsyncRequest;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,6 +92,8 @@ __Failed = 1,
 constexpr operator __GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementResult_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -150,6 +164,8 @@ constexpr operator __GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedA
 return std::bit_cast<__GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsResult_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -211,8 +227,7 @@ constexpr explicit GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievem
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x20c6e00 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -272,8 +287,7 @@ constexpr explicit GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAch
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x20c6d34 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

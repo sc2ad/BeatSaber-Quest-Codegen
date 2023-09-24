@@ -1,17 +1,17 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__BeatLineManager_def.hpp"
-#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
-#include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelModel_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
-#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
-#include "GlobalNamespace/zzzz__BadNoteCutEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__MissedNoteEffectSpawner_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutScoreSpawner_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
+#include "GlobalNamespace/zzzz__BadNoteCutEffectSpawner_def.hpp"
+#include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelModel_def.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__BeatLineManager_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutScoreSpawner_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
+#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameplayCoreInstaller.InstallBindings
 template<>
 
@@ -121,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GameplayCoreInstaller::GameplayCoreInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<GameplayCoreInstaller>())) {}
+ GlobalNamespace::GameplayCoreInstaller GlobalNamespace::GameplayCoreInstaller::New_ctor()  {
+GlobalNamespace::GameplayCoreInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayCoreInstaller>())};
+return o;
+}
  void GlobalNamespace::GameplayCoreInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplayCoreInstaller>::get(),

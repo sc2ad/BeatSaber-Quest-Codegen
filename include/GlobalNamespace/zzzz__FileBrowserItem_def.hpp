@@ -96,8 +96,7 @@ constexpr bool __get__isDirectory_k__BackingField() const;
 /// @brief Method set_isDirectory addr 0x21bfe28 size 0xc virtual false final false
  void set_isDirectory(bool value) ;
 
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fullPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isDirectory", ty: "bool", modifiers: "", def_value: None }]
-explicit FileBrowserItem(::StringW displayName, ::StringW fullPath, bool isDirectory) ;
+static GlobalNamespace::FileBrowserItem New_ctor(::StringW displayName, ::StringW fullPath, bool isDirectory) ;
 
 /// @brief Method .ctor addr 0x21bbb34 size 0x40 virtual false final false
  void _ctor(::StringW displayName, ::StringW fullPath, bool isDirectory) ;

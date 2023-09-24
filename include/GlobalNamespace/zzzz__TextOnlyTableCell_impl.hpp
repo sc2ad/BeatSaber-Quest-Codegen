@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__TextOnlyTableCell_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "HMUI/zzzz__ImageView_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
+#include "HMUI/zzzz__ImageView_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TextOnlyTableCell.get_text
 template<>
 
@@ -176,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::TextOnlyTableCell::TextOnlyTableCell()  : HMUI::TableCell(THROW_UNLESS(::il2cpp_utils::New<TextOnlyTableCell>())) {}
+ GlobalNamespace::TextOnlyTableCell GlobalNamespace::TextOnlyTableCell::New_ctor()  {
+GlobalNamespace::TextOnlyTableCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TextOnlyTableCell>())};
+return o;
+}
  void GlobalNamespace::TextOnlyTableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TextOnlyTableCell>::get(),

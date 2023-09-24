@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__Screen_def.hpp"
-#include "UnityEngine/zzzz__Resolution_def.hpp"
-#include "UnityEngine/zzzz__FullScreenMode_def.hpp"
 #include "UnityEngine/zzzz__ScreenOrientation_def.hpp"
+#include "UnityEngine/zzzz__FullScreenMode_def.hpp"
+#include "UnityEngine/zzzz__Resolution_def.hpp"
 //  Writing Method size for method: UnityEngine::Screen.get_width
 template<>
 

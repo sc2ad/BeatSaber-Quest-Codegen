@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSettingsPanelController_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
 #include "GlobalNamespace/zzzz__ServerCodeView_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
 #include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerSettingsPanelController.add_playerActiveStateChangedEvent
 template<>
 
@@ -354,8 +354,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerSettingsPanelController::MultiplayerSettingsPanelController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerSettingsPanelController>())) {}
+ GlobalNamespace::MultiplayerSettingsPanelController GlobalNamespace::MultiplayerSettingsPanelController::New_ctor()  {
+GlobalNamespace::MultiplayerSettingsPanelController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerSettingsPanelController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerSettingsPanelController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerSettingsPanelController>::get(),

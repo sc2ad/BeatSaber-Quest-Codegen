@@ -62,8 +62,7 @@ constexpr HMUI::ScrollView __get__scrollView() const;
 /// @brief Method OnEnable addr 0x1fcf56c size 0x20 virtual false final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit ScrollToTopOnEnable() ;
+static HMUI::ScrollToTopOnEnable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fcf650 size 0x8 virtual false final false
  void _ctor() ;

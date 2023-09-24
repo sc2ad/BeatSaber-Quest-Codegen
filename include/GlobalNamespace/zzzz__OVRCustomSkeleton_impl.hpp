@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__OVRSkeleton_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRCustomSkeleton_def.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
+#include "GlobalNamespace/zzzz__OVRCustomSkeleton_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRCustomSkeleton__RetargetingType::GlobalNamespace__OVRCustomSkeleton__RetargetingType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -206,8 +206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, skeletonType);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRCustomSkeleton::OVRCustomSkeleton()  : GlobalNamespace::OVRSkeleton(THROW_UNLESS(::il2cpp_utils::New<OVRCustomSkeleton>())) {}
+ GlobalNamespace::OVRCustomSkeleton GlobalNamespace::OVRCustomSkeleton::New_ctor()  {
+GlobalNamespace::OVRCustomSkeleton o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRCustomSkeleton>())};
+return o;
+}
  void GlobalNamespace::OVRCustomSkeleton::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRCustomSkeleton>::get(),

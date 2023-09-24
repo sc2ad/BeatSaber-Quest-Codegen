@@ -6,14 +6,14 @@
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
 }
+namespace System::Collections {
+class IDictionary;
+}
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace System::Collections {
-class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
@@ -138,8 +138,7 @@ constexpr int64_t __get_mReseedCounter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HashSP800Drbg(Org::BouncyCastle::Crypto::IDigest digest, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
+static Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg New_ctor(Org::BouncyCastle::Crypto::IDigest digest, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;
 
 /// @brief Method .ctor addr 0xeb1918 size 0x470 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce) ;

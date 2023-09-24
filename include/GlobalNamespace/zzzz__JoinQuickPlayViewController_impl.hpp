@@ -1,13 +1,13 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__JoinQuickPlayViewController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficultyDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerModeSettings_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySongPacksDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficultyDropdown_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerModeSettings_def.hpp"
 //  Writing Method size for method: GlobalNamespace::JoinQuickPlayViewController.add_didFinishEvent
 template<>
 
@@ -257,8 +257,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, success);
 }
-// Ctor Parameters []
- GlobalNamespace::JoinQuickPlayViewController::JoinQuickPlayViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<JoinQuickPlayViewController>())) {}
+ GlobalNamespace::JoinQuickPlayViewController GlobalNamespace::JoinQuickPlayViewController::New_ctor()  {
+GlobalNamespace::JoinQuickPlayViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::JoinQuickPlayViewController>())};
+return o;
+}
  void GlobalNamespace::JoinQuickPlayViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::JoinQuickPlayViewController>::get(),

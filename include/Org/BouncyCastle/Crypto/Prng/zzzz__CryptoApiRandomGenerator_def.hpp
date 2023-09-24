@@ -67,14 +67,12 @@ constexpr System::Security::Cryptography::RandomNumberGenerator __get_rndProv() 
 
 // Methods
 
-// Ctor Parameters []
-explicit CryptoApiRandomGenerator() ;
+static Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb3cfc size 0x34 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rng", ty: "System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }]
-explicit CryptoApiRandomGenerator(System::Security::Cryptography::RandomNumberGenerator rng) ;
+static Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator New_ctor(System::Security::Cryptography::RandomNumberGenerator rng) ;
 
 /// @brief Method .ctor addr 0xeb3d30 size 0x28 virtual false final false
  void _ctor(System::Security::Cryptography::RandomNumberGenerator rng) ;

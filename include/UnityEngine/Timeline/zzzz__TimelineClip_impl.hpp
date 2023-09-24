@@ -2,13 +2,14 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ICurvesOwner_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ICurvesOwner_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::Timeline::UnityEngine__Timeline__TimelineClip__Versions::UnityEngine__Timeline__TimelineClip__Versions(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1764,8 +1765,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "UnityEngine::Timeline::TrackAsset", modifiers: "", def_value: None }]
- UnityEngine::Timeline::TimelineClip::TimelineClip(UnityEngine::Timeline::TrackAsset parent)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimelineClip>(parent))) {}
+ UnityEngine::Timeline::TimelineClip UnityEngine::Timeline::TimelineClip::New_ctor(UnityEngine::Timeline::TrackAsset parent)  {
+UnityEngine::Timeline::TimelineClip o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TimelineClip>(parent))};
+return o;
+}
  void UnityEngine::Timeline::TimelineClip::_ctor(UnityEngine::Timeline::TrackAsset parent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TimelineClip>::get(),

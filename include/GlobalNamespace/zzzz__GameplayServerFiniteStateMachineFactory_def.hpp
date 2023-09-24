@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class GameplayServerFiniteStateMachine;
+struct GlobalNamespace__GameplayServerFiniteStateMachine__InitParams;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__GameplayServerFiniteStateMachine__InitParams;
+class GameplayServerFiniteStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {

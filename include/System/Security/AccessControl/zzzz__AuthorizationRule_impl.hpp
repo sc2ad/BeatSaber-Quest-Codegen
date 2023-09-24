@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_def.hpp"
-#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 #include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
+#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::AuthorizationRule._ctor
 template<>
 
@@ -67,8 +67,10 @@ constexpr void System::Security::AccessControl::AuthorizationRule::__set_propaga
 constexpr System::Security::AccessControl::PropagationFlags System::Security::AccessControl::AuthorizationRule::__get_propagationFlags() const {
 return ::cordl_internals::getInstanceField<System::Security::AccessControl::PropagationFlags, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IdentityReference", modifiers: "", def_value: None }, CppParam { name: "accessMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isInherited", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "inheritanceFlags", ty: "System::Security::AccessControl::InheritanceFlags", modifiers: "", def_value: None }, CppParam { name: "propagationFlags", ty: "System::Security::AccessControl::PropagationFlags", modifiers: "", def_value: None }]
- System::Security::AccessControl::AuthorizationRule::AuthorizationRule(System::Security::Principal::IdentityReference identity, int32_t accessMask, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AuthorizationRule>(identity, accessMask, isInherited, inheritanceFlags, propagationFlags))) {}
+ System::Security::AccessControl::AuthorizationRule System::Security::AccessControl::AuthorizationRule::New_ctor(System::Security::Principal::IdentityReference identity, int32_t accessMask, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags)  {
+System::Security::AccessControl::AuthorizationRule o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::AuthorizationRule>(identity, accessMask, isInherited, inheritanceFlags, propagationFlags))};
+return o;
+}
  void System::Security::AccessControl::AuthorizationRule::_ctor(System::Security::Principal::IdentityReference identity, int32_t accessMask, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::AuthorizationRule>::get(),

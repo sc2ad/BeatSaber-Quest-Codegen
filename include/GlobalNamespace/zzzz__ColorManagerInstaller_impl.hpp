@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorManagerInstaller::ColorManagerInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<ColorManagerInstaller>())) {}
+ GlobalNamespace::ColorManagerInstaller GlobalNamespace::ColorManagerInstaller::New_ctor()  {
+GlobalNamespace::ColorManagerInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorManagerInstaller>())};
+return o;
+}
  void GlobalNamespace::ColorManagerInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorManagerInstaller>::get(),

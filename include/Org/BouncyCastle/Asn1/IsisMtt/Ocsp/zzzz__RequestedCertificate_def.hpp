@@ -6,16 +6,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509CertificateStructure;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
+struct Org__BouncyCastle__Asn1__IsisMtt__Ocsp__RequestedCertificate__Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
@@ -74,6 +77,8 @@ __AttributeCertificate = 1,
 constexpr operator __Org__BouncyCastle__Asn1__IsisMtt__Ocsp__RequestedCertificate__Choice_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Asn1__IsisMtt__Ocsp__RequestedCertificate__Choice_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -176,20 +181,17 @@ static Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate GetInstance(
 /// @brief Method GetInstance addr 0xee82f8 size 0x6c virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit RequestedCertificate(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
+static Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
 /// @brief Method .ctor addr 0xee81cc size 0x12c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
-// Ctor Parameters [CppParam { name: "certificate", ty: "Org::BouncyCastle::Asn1::X509::X509CertificateStructure", modifiers: "", def_value: None }]
-explicit RequestedCertificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure certificate) ;
+static Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate New_ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure certificate) ;
 
 /// @brief Method .ctor addr 0xee81a4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure certificate) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Asn1::IsisMtt::Ocsp::Org__BouncyCastle__Asn1__IsisMtt__Ocsp__RequestedCertificate__Choice", modifiers: "", def_value: None }, CppParam { name: "certificateOctets", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit RequestedCertificate(Org::BouncyCastle::Asn1::IsisMtt::Ocsp::Org__BouncyCastle__Asn1__IsisMtt__Ocsp__RequestedCertificate__Choice type, ::ArrayW<uint8_t> certificateOctets) ;
+static Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate New_ctor(Org::BouncyCastle::Asn1::IsisMtt::Ocsp::Org__BouncyCastle__Asn1__IsisMtt__Ocsp__RequestedCertificate__Choice type, ::ArrayW<uint8_t> certificateOctets) ;
 
 /// @brief Method .ctor addr 0xee8364 size 0xac virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::IsisMtt::Ocsp::Org__BouncyCastle__Asn1__IsisMtt__Ocsp__RequestedCertificate__Choice type, ::ArrayW<uint8_t> certificateOctets) ;

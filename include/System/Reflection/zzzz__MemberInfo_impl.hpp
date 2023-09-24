@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/Reflection/zzzz__MemberTypes_def.hpp"
 #include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Reflection/zzzz__MemberTypes_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
 //  Writing Method size for method: System::Reflection::MemberInfo._ctor
 template<>
 
@@ -246,8 +246,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 constexpr  System::Reflection::MemberInfo::operator System::Reflection::ICustomAttributeProvider() const noexcept {
 return System::Reflection::ICustomAttributeProvider(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Reflection::MemberInfo::MemberInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MemberInfo>())) {}
+ System::Reflection::MemberInfo System::Reflection::MemberInfo::New_ctor()  {
+System::Reflection::MemberInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::MemberInfo>())};
+return o;
+}
  void System::Reflection::MemberInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::MemberInfo>::get(),

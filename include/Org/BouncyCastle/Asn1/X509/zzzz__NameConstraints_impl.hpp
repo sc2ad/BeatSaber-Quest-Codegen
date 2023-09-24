@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__NameConstraints_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerSequence_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::NameConstraints.GetInstance
 template<>
 
@@ -163,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::NameConstraints, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::NameConstraints::NameConstraints(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<NameConstraints>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::NameConstraints Org::BouncyCastle::Asn1::X509::NameConstraints::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::NameConstraints o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::NameConstraints>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::NameConstraints::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::NameConstraints>::get(),
@@ -174,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "permitted", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "excluded", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::NameConstraints::NameConstraints(System::Collections::ArrayList permitted, System::Collections::ArrayList excluded)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<NameConstraints>(permitted, excluded))) {}
+ Org::BouncyCastle::Asn1::X509::NameConstraints Org::BouncyCastle::Asn1::X509::NameConstraints::New_ctor(System::Collections::ArrayList permitted, System::Collections::ArrayList excluded)  {
+Org::BouncyCastle::Asn1::X509::NameConstraints o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::NameConstraints>(permitted, excluded))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::NameConstraints::_ctor(System::Collections::ArrayList permitted, System::Collections::ArrayList excluded)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::NameConstraints>::get(),
@@ -185,8 +189,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, permitted, excluded);
 }
-// Ctor Parameters [CppParam { name: "permitted", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "excluded", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::NameConstraints::NameConstraints(System::Collections::IList permitted, System::Collections::IList excluded)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<NameConstraints>(permitted, excluded))) {}
+ Org::BouncyCastle::Asn1::X509::NameConstraints Org::BouncyCastle::Asn1::X509::NameConstraints::New_ctor(System::Collections::IList permitted, System::Collections::IList excluded)  {
+Org::BouncyCastle::Asn1::X509::NameConstraints o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::NameConstraints>(permitted, excluded))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::NameConstraints::_ctor(System::Collections::IList permitted, System::Collections::IList excluded)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::NameConstraints>::get(),

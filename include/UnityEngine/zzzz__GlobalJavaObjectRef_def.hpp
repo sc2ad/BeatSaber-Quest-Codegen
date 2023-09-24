@@ -63,8 +63,7 @@ constexpr ::cordl_internals::intptr_t __get_m_jobject() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "jobject", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalJavaObjectRef(::cordl_internals::intptr_t jobject) ;
+static UnityEngine::GlobalJavaObjectRef New_ctor(::cordl_internals::intptr_t jobject) ;
 
 /// @brief Method .ctor addr 0x2b0e0d8 size 0xb4 virtual false final false
  void _ctor(::cordl_internals::intptr_t jobject) ;

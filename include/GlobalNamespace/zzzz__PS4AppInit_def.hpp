@@ -2,22 +2,22 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
 namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class SonyOnGoingToBackgroundSaveHandler;
-}
-namespace GlobalNamespace {
-class PS4ActivePublisherSKUSettingsSO;
-}
-namespace GlobalNamespace {
 class MainSystemInit;
+}
+namespace GlobalNamespace {
+class ISaveData;
 }
 namespace GlobalNamespace {
 class DefaultScenesTransitionsFromInit;
 }
 namespace GlobalNamespace {
-class ISaveData;
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class PS4ActivePublisherSKUSettingsSO;
+}
+namespace GlobalNamespace {
+class SonyOnGoingToBackgroundSaveHandler;
 }
 namespace GlobalNamespace {
 class AppInitScenesTransitionSetupDataContainerSO;
@@ -125,8 +125,7 @@ constexpr GlobalNamespace::ISaveData __get__saveData() const;
 /// @brief Method InstallBindings addr 0x20b7afc size 0x2b0 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit PS4AppInit() ;
+static GlobalNamespace::PS4AppInit New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b7dac size 0x4 virtual false final false
  void _ctor() ;

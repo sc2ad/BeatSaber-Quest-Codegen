@@ -56,8 +56,7 @@ static Org::BouncyCastle::Ocsp::CertificateStatus __get_Good() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit CertificateStatus() ;
+static Org::BouncyCastle::Ocsp::CertificateStatus New_ctor() ;
 
 /// @brief Method .ctor addr 0x10133d4 size 0x8 virtual false final false
  void _ctor() ;

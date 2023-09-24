@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "timeoutMs", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::AsyncComputeOperation::AsyncComputeOperation(int32_t timeoutMs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsyncComputeOperation>(timeoutMs))) {}
+ GlobalNamespace::AsyncComputeOperation GlobalNamespace::AsyncComputeOperation::New_ctor(int32_t timeoutMs)  {
+GlobalNamespace::AsyncComputeOperation o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AsyncComputeOperation>(timeoutMs))};
+return o;
+}
  void GlobalNamespace::AsyncComputeOperation::_ctor(int32_t timeoutMs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AsyncComputeOperation>::get(),

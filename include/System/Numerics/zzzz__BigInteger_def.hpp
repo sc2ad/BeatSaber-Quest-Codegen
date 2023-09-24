@@ -8,25 +8,28 @@
 #include <cstdint>
 namespace System {
 template<typename T>
+class IEquatable_1;
+}
+namespace System {
+template<typename T>
+struct Span_1;
+}
+namespace System::Numerics {
+struct System__Numerics__BigInteger__GetBytesMode;
+}
+namespace System {
+template<typename T>
 class IComparable_1;
 }
 namespace System {
 class IComparable;
 }
 namespace System {
-class IFormattable;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
 namespace System {
-template<typename T>
-struct Span_1;
+class IFormattable;
 }
 namespace System {
 class IFormatProvider;
@@ -88,6 +91,8 @@ __Span = 2,
 constexpr operator __System__Numerics__BigInteger__GetBytesMode_Unwrapped () const noexcept {
 return std::bit_cast<__System__Numerics__BigInteger__GetBytesMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

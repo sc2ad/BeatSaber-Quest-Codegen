@@ -47,8 +47,7 @@ constexpr explicit VoipManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(
 
 // Methods
 
-// Ctor Parameters []
-explicit VoipManager() ;
+static GlobalNamespace::VoipManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2215f8c size 0x8 virtual false final false
  void _ctor() ;

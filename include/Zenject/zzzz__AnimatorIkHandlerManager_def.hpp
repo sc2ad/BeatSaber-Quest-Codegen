@@ -74,8 +74,7 @@ constexpr System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler> __ge
 /// @brief Method OnAnimatorIk addr 0x2d94b80 size 0x1b0 virtual false final false
  void OnAnimatorIk() ;
 
-// Ctor Parameters []
-explicit AnimatorIkHandlerManager() ;
+static Zenject::AnimatorIkHandlerManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d94d30 size 0x8 virtual false final false
  void _ctor() ;

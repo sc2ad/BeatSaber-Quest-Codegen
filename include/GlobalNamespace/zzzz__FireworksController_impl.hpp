@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FireworksController_def.hpp"
-#include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
-#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
+#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
+#include "GlobalNamespace/zzzz__FireworksController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__FireworksController___SpawningCoroutine_d__8._ctor
 template<>
 
@@ -140,8 +140,10 @@ constexpr void GlobalNamespace::GlobalNamespace__FireworksController___SpawningC
 constexpr GlobalNamespace::FireworksController GlobalNamespace::GlobalNamespace__FireworksController___SpawningCoroutine_d__8::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::FireworksController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__FireworksController___SpawningCoroutine_d__8::GlobalNamespace__FireworksController___SpawningCoroutine_d__8(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FireworksController___SpawningCoroutine_d__8>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__FireworksController___SpawningCoroutine_d__8 GlobalNamespace::GlobalNamespace__FireworksController___SpawningCoroutine_d__8::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__FireworksController___SpawningCoroutine_d__8 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FireworksController___SpawningCoroutine_d__8>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FireworksController___SpawningCoroutine_d__8::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FireworksController___SpawningCoroutine_d__8>::get(),
@@ -359,8 +361,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FireworksController::FireworksController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FireworksController>())) {}
+ GlobalNamespace::FireworksController GlobalNamespace::FireworksController::New_ctor()  {
+GlobalNamespace::FireworksController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FireworksController>())};
+return o;
+}
  void GlobalNamespace::FireworksController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FireworksController>::get(),

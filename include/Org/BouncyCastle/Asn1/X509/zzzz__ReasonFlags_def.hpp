@@ -81,14 +81,12 @@ static constexpr int32_t  AACompromise{32768};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reasons", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ReasonFlags(int32_t reasons) ;
+static Org::BouncyCastle::Asn1::X509::ReasonFlags New_ctor(int32_t reasons) ;
 
 /// @brief Method .ctor addr 0x110b49c size 0x68 virtual false final false
  void _ctor(int32_t reasons) ;
 
-// Ctor Parameters [CppParam { name: "reasons", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit ReasonFlags(Org::BouncyCastle::Asn1::DerBitString reasons) ;
+static Org::BouncyCastle::Asn1::X509::ReasonFlags New_ctor(Org::BouncyCastle::Asn1::DerBitString reasons) ;
 
 /// @brief Method .ctor addr 0x1101e08 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerBitString reasons) ;

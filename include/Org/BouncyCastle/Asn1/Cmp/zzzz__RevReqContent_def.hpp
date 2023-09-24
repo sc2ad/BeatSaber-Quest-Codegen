@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class RevDetails;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -67,8 +67,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_content() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit RevReqContent(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::RevReqContent New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xde2368 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -76,8 +75,7 @@ explicit RevReqContent(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xddc604 size 0x18c virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::RevReqContent GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "revDetails", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::RevDetails>", modifiers: "", def_value: None }]
-explicit RevReqContent(::ArrayW<Org::BouncyCastle::Asn1::Cmp::RevDetails> revDetails) ;
+static Org::BouncyCastle::Asn1::Cmp::RevReqContent New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::RevDetails> revDetails) ;
 
 /// @brief Method .ctor addr 0xde2390 size 0x7c virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::RevDetails> revDetails) ;

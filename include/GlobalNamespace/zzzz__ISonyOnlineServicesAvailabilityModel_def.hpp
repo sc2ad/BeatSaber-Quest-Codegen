@@ -5,10 +5,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ISonyOnlineServicesAvailabilityModel__GetOnlineServicesAvailabilityCompletionHandler;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ISonyOnlineServicesAvailabilityModel__OnlineServicesAvailability;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ISonyOnlineServicesAvailabilityModel__GetOnlineServicesAvailabilityResult;
 }
 namespace GlobalNamespace {
 class HMAsyncRequest;
@@ -76,6 +85,8 @@ __Unavailable = 2,
 constexpr operator __GlobalNamespace__ISonyOnlineServicesAvailabilityModel__OnlineServicesAvailability_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ISonyOnlineServicesAvailabilityModel__OnlineServicesAvailability_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -150,6 +161,8 @@ constexpr operator __GlobalNamespace__ISonyOnlineServicesAvailabilityModel__GetO
 return std::bit_cast<__GlobalNamespace__ISonyOnlineServicesAvailabilityModel__GetOnlineServicesAvailabilityResult_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -214,8 +227,7 @@ constexpr explicit GlobalNamespace__ISonyOnlineServicesAvailabilityModel__GetOnl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ISonyOnlineServicesAvailabilityModel__GetOnlineServicesAvailabilityCompletionHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__ISonyOnlineServicesAvailabilityModel__GetOnlineServicesAvailabilityCompletionHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x221ae60 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

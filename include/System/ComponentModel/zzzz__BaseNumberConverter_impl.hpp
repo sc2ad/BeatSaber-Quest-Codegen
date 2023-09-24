@@ -1,10 +1,10 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__BaseNumberConverter_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 //  Writing Method size for method: System::ComponentModel::BaseNumberConverter._ctor
 template<>
 
@@ -175,8 +175,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::ComponentModel::BaseNumberConverter::BaseNumberConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<BaseNumberConverter>())) {}
+ System::ComponentModel::BaseNumberConverter System::ComponentModel::BaseNumberConverter::New_ctor()  {
+System::ComponentModel::BaseNumberConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::BaseNumberConverter>())};
+return o;
+}
  void System::ComponentModel::BaseNumberConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::BaseNumberConverter>::get(),

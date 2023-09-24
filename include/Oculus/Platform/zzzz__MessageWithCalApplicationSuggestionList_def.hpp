@@ -13,7 +13,7 @@ class MessageWithCalApplicationSuggestionList;
 // Type: Oculus.Platform::MessageWithCalApplicationSuggestionList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4437 }), TypeDefinitionIndex(TypeDefinitionIndex(13400)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4437 }), TypeDefinitionIndex(TypeDefinitionIndex(13400))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13224))
 // CS Name: Oculus.Platform.MessageWithCalApplicationSuggestionList
 class CORDL_TYPE MessageWithCalApplicationSuggestionList : public Oculus::Platform::Message_1<Oculus::Platform::Models::CalApplicationSuggestionList> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithCalApplicationSuggestionList(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithCalApplicationSuggestionList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithCalApplicationSuggestionList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x25808d8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

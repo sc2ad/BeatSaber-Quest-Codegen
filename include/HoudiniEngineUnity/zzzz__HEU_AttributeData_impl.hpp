@@ -1,8 +1,9 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AttributeData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AttributeData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributeData__AttributeType::HoudiniEngineUnity__HEU_AttributeData__AttributeType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -171,8 +172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_AttributeData::HEU_AttributeData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_AttributeData>())) {}
+ HoudiniEngineUnity::HEU_AttributeData HoudiniEngineUnity::HEU_AttributeData::New_ctor()  {
+HoudiniEngineUnity::HEU_AttributeData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_AttributeData>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_AttributeData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_AttributeData>::get(),

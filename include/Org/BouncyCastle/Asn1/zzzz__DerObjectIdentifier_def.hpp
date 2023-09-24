@@ -5,11 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-class MemoryStream;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace System::IO {
+class MemoryStream;
 }
 namespace System::IO {
 class Stream;
@@ -17,11 +17,11 @@ class Stream;
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -104,14 +104,12 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier GetInstance(::bs_hook::Il2Cp
 /// @brief Method GetInstance addr 0xffae34 size 0xe8 virtual false final false
 static Org::BouncyCastle::Asn1::DerObjectIdentifier GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
 
-// Ctor Parameters [CppParam { name: "identifier", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DerObjectIdentifier(::StringW identifier) ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier New_ctor(::StringW identifier) ;
 
 /// @brief Method .ctor addr 0xfdd8d8 size 0x138 virtual false final false
  void _ctor(::StringW identifier) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "branchID", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DerObjectIdentifier(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, ::StringW branchID) ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, ::StringW branchID) ;
 
 /// @brief Method .ctor addr 0xffafd4 size 0x138 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, ::StringW branchID) ;
@@ -125,8 +123,7 @@ explicit DerObjectIdentifier(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, :
 /// @brief Method On addr 0xffb274 size 0xb0 virtual true final false
  bool On(Org::BouncyCastle::Asn1::DerObjectIdentifier stem) ;
 
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerObjectIdentifier(::ArrayW<uint8_t> bytes) ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier New_ctor(::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0xffb324 size 0xac virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes) ;

@@ -2,15 +2,16 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SimpleCollator_def.hpp"
-#include "System/Globalization/zzzz__CompareOptions_def.hpp"
+#include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Level2Map_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Globalization/zzzz__CompareOptions_def.hpp"
+#include "Mono/Globalization/Unicode/zzzz__SimpleCollator_def.hpp"
 #include "System/Globalization/zzzz__ISimpleCollator_def.hpp"
 #include "System/Globalization/zzzz__SortKey_def.hpp"
-#include "System/Globalization/zzzz__TextInfo_def.hpp"
-#include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
-#include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SortKeyBuffer_def.hpp"
+#include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
+#include "System/Globalization/zzzz__TextInfo_def.hpp"
 //  Writing Method size for method: Mono::Globalization::Unicode::Mono__Globalization__Unicode__SimpleCollator__Context._ctor
 template<>
 
@@ -1056,8 +1057,10 @@ constexpr void Mono::Globalization::Unicode::SimpleCollator::__set_frenchSort(bo
 constexpr bool Mono::Globalization::Unicode::SimpleCollator::__get_frenchSort() const {
 return ::cordl_internals::getInstanceField<bool, 0x5c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
- Mono::Globalization::Unicode::SimpleCollator::SimpleCollator(System::Globalization::CultureInfo culture)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimpleCollator>(culture))) {}
+ Mono::Globalization::Unicode::SimpleCollator Mono::Globalization::Unicode::SimpleCollator::New_ctor(System::Globalization::CultureInfo culture)  {
+Mono::Globalization::Unicode::SimpleCollator o{THROW_UNLESS(::il2cpp_utils::New<Mono::Globalization::Unicode::SimpleCollator>(culture))};
+return o;
+}
  void Mono::Globalization::Unicode::SimpleCollator::_ctor(System::Globalization::CultureInfo culture)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Globalization::Unicode::SimpleCollator>::get(),

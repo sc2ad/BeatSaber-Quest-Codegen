@@ -6,11 +6,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::Composites {
+struct UnityEngine__InputSystem__Composites__Vector2Composite__Mode;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Composites {
@@ -70,6 +73,8 @@ constexpr operator __UnityEngine__InputSystem__Composites__Vector2Composite__Mod
 return std::bit_cast<__UnityEngine__InputSystem__Composites__Vector2Composite__Mode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -95,7 +100,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.InputSystem.Composites::Vector2Composite
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(6273))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10184)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(6273))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6803))
 // CS Name: UnityEngine.InputSystem.Composites.Vector2Composite
 class CORDL_TYPE Vector2Composite : public UnityEngine::InputSystem::InputBindingComposite_1<UnityEngine::Vector2> {
@@ -181,8 +186,7 @@ constexpr UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Compos
 /// @brief Method EvaluateMagnitude addr 0x28c91fc size 0x70 virtual true final false
  float_t EvaluateMagnitude(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
-// Ctor Parameters []
-explicit Vector2Composite() ;
+static UnityEngine::InputSystem::Composites::Vector2Composite New_ctor() ;
 
 /// @brief Method .ctor addr 0x28c926c size 0x50 virtual false final false
  void _ctor() ;

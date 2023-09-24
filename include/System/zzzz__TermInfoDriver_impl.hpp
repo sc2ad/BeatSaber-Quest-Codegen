@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__TermInfoDriver_def.hpp"
-#include "System/zzzz__TermInfoReader_def.hpp"
-#include "System/zzzz__IConsoleDriver_def.hpp"
-#include "System/zzzz__ByteMatcher_def.hpp"
-#include "System/IO/zzzz__CStreamWriter_def.hpp"
-#include "System/zzzz__ConsoleKeyInfo_def.hpp"
-#include "System/zzzz__ConsoleColor_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/zzzz__TermInfoReader_def.hpp"
+#include "System/zzzz__ConsoleKeyInfo_def.hpp"
 #include "System/IO/zzzz__StreamReader_def.hpp"
+#include "System/IO/zzzz__CStreamWriter_def.hpp"
+#include "System/zzzz__IConsoleDriver_def.hpp"
 #include "System/zzzz__TermInfoStrings_def.hpp"
+#include "System/zzzz__ByteMatcher_def.hpp"
+#include "System/zzzz__ConsoleColor_def.hpp"
 //  Writing Method size for method: System::TermInfoDriver.TryTermInfoDir
 template<>
 
@@ -865,8 +865,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "term", ty: "::StringW", modifiers: "", def_value: None }]
- System::TermInfoDriver::TermInfoDriver(::StringW term)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TermInfoDriver>(term))) {}
+ System::TermInfoDriver System::TermInfoDriver::New_ctor(::StringW term)  {
+System::TermInfoDriver o{THROW_UNLESS(::il2cpp_utils::New<System::TermInfoDriver>(term))};
+return o;
+}
  void System::TermInfoDriver::_ctor(::StringW term)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TermInfoDriver>::get(),

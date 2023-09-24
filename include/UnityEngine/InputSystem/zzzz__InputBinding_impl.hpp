@@ -3,10 +3,11 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__DisplayStringOptions::UnityEngine__InputSystem__InputBinding__DisplayStringOptions(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -88,8 +89,10 @@ return ::cordl_internals::getStaticField<UnityEngine::InputSystem::UnityEngine__
  System::Func_2<::StringW,bool> UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c::__get___9__45_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<::StringW,bool>, "<>9__45_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c::UnityEngine__InputSystem__InputBinding____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputBinding____c>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c>::get(),

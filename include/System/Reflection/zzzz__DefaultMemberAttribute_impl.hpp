@@ -41,8 +41,10 @@ constexpr void System::Reflection::DefaultMemberAttribute::__set__MemberName_k__
 constexpr ::StringW System::Reflection::DefaultMemberAttribute::__get__MemberName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "memberName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::DefaultMemberAttribute::DefaultMemberAttribute(::StringW memberName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DefaultMemberAttribute>(memberName))) {}
+ System::Reflection::DefaultMemberAttribute System::Reflection::DefaultMemberAttribute::New_ctor(::StringW memberName)  {
+System::Reflection::DefaultMemberAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::DefaultMemberAttribute>(memberName))};
+return o;
+}
  void System::Reflection::DefaultMemberAttribute::_ctor(::StringW memberName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::DefaultMemberAttribute>::get(),

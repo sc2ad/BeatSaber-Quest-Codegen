@@ -53,8 +53,7 @@ constexpr explicit ContextCallbackObject(void* ptr) noexcept : System::ContextBo
 /// @brief Method DoCallBack addr 0x2332754 size 0x4 virtual false final false
  void DoCallBack(System::Runtime::Remoting::Contexts::CrossContextDelegate deleg) ;
 
-// Ctor Parameters []
-explicit ContextCallbackObject() ;
+static System::Runtime::Remoting::Contexts::ContextCallbackObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x233274c size 0x8 virtual false final false
  void _ctor() ;

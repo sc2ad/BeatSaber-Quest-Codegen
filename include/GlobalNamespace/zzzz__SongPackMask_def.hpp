@@ -6,26 +6,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
+namespace System {
 template<typename T>
-class IEnumerable_1;
+class IEquatable_1;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace GlobalNamespace {
+struct BitMask128;
 }
 namespace LiteNetLib::Utils {
 template<typename T>
 class INetImmutableSerializable_1;
 }
-namespace GlobalNamespace {
-struct BitMask128;
-}
-namespace System {
+namespace System::Collections::Generic {
 template<typename T>
-class IEquatable_1;
+class IEnumerable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {

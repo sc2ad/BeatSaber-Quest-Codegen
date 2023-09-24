@@ -4,21 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace Ice {
+class FloorLightTile;
 }
 namespace Ice {
 class Ice__FloorLightTile__Pool;
 }
-namespace Ice {
-class FloorLightTile;
-}
 namespace GlobalNamespace {
 template<typename T>
 class MemoryPoolContainer_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace Ice {
@@ -134,8 +134,7 @@ constexpr int32_t __get__ySize() const;
 /// @brief Method DespawnTile addr 0x1211bac size 0x60 virtual false final false
  void DespawnTile(Ice::FloorLightTile floorLightTile) ;
 
-// Ctor Parameters []
-explicit FloorLightTilesGrid() ;
+static Ice::FloorLightTilesGrid New_ctor() ;
 
 /// @brief Method .ctor addr 0x1211c10 size 0x8 virtual false final false
  void _ctor() ;

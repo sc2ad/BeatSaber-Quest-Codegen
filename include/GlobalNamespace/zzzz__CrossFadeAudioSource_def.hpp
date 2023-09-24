@@ -2,21 +2,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace Tweening {
-class TimeTweeningManager;
-}
 namespace UnityEngine {
-class AudioClip;
+class AudioSource;
 }
 namespace GlobalNamespace {
 class AudioPitchGainEffect;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace Tweening {
 template<typename T>
 class Tween_1;
 }
 namespace UnityEngine {
-class AudioSource;
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -186,8 +186,7 @@ constexpr GlobalNamespace::AudioPitchGainEffect __get__inactivePitchGainEffect()
 /// @brief Method Stop addr 0x20bac38 size 0x50 virtual false final false
  void Stop() ;
 
-// Ctor Parameters []
-explicit CrossFadeAudioSource() ;
+static GlobalNamespace::CrossFadeAudioSource New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bac88 size 0x14 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__Installer_1_impl.hpp"
 #include "Zenject/zzzz__ActionInstaller_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::ActionInstaller._ctor
 template<>
 
@@ -78,8 +78,10 @@ constexpr void Zenject::ActionInstaller::__set__installMethod(System::Action_1<Z
 constexpr System::Action_1<Zenject::DiContainer> Zenject::ActionInstaller::__get__installMethod() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "installMethod", ty: "System::Action_1<Zenject::DiContainer>", modifiers: "", def_value: None }]
- Zenject::ActionInstaller::ActionInstaller(System::Action_1<Zenject::DiContainer> installMethod)  : Zenject::Installer_1<Zenject::ActionInstaller>(THROW_UNLESS(::il2cpp_utils::New<ActionInstaller>(installMethod))) {}
+ Zenject::ActionInstaller Zenject::ActionInstaller::New_ctor(System::Action_1<Zenject::DiContainer> installMethod)  {
+Zenject::ActionInstaller o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ActionInstaller>(installMethod))};
+return o;
+}
  void Zenject::ActionInstaller::_ctor(System::Action_1<Zenject::DiContainer> installMethod)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ActionInstaller>::get(),

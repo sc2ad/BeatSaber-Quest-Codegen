@@ -5,18 +5,24 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-struct BezierCurve;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+struct BezierCurve;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BezierSpline__ComputeControlPointsResults;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BezierSpline____c;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -176,8 +182,7 @@ static System::Func_2<UnityEngine::Vector3,float_t> __get___9__8_2() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BezierSpline____c() ;
+static GlobalNamespace::GlobalNamespace__BezierSpline____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20abc90 size 0x8 virtual false final false
  void _ctor() ;
@@ -285,8 +290,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> __get__sour
 /// @brief Method ComputeControlPoints addr 0x20ab69c size 0x518 virtual false final false
  GlobalNamespace::GlobalNamespace__BezierSpline__ComputeControlPointsResults ComputeControlPoints(System::Collections::Generic::List_1<float_t> k) ;
 
-// Ctor Parameters []
-explicit BezierSpline() ;
+static GlobalNamespace::BezierSpline New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a6194 size 0xc0 virtual false final false
  void _ctor() ;

@@ -48,8 +48,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, ol, or);
 }
-// Ctor Parameters []
- System::Net::Comparer::Comparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Comparer>())) {}
+ System::Net::Comparer System::Net::Comparer::New_ctor()  {
+System::Net::Comparer o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Comparer>())};
+return o;
+}
  void System::Net::Comparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Comparer>::get(),

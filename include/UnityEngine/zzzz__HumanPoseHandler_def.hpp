@@ -5,23 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Avatar;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct HumanPose;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Avatar;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -93,8 +93,7 @@ static void Internal_Destroy(::cordl_internals::intptr_t ptr) ;
 /// @brief Method Dispose addr 0x2b20a14 size 0xcc virtual true final true
  void Dispose() ;
 
-// Ctor Parameters [CppParam { name: "avatar", ty: "UnityEngine::Avatar", modifiers: "", def_value: None }, CppParam { name: "root", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit HumanPoseHandler(UnityEngine::Avatar avatar, UnityEngine::Transform root) ;
+static UnityEngine::HumanPoseHandler New_ctor(UnityEngine::Avatar avatar, UnityEngine::Transform root) ;
 
 /// @brief Method .ctor addr 0x2b20ae0 size 0x22c virtual false final false
  void _ctor(UnityEngine::Avatar avatar, UnityEngine::Transform root) ;

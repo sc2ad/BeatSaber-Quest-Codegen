@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetSaberFakeGlowColor_def.hpp"
+#include "GlobalNamespace/zzzz__Parametric3SliceSpriteController_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
-#include "GlobalNamespace/zzzz__Parametric3SliceSpriteController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SetSaberFakeGlowColor.set_saberType
 template<>
 
@@ -131,8 +131,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SetSaberFakeGlowColor::SetSaberFakeGlowColor()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SetSaberFakeGlowColor>())) {}
+ GlobalNamespace::SetSaberFakeGlowColor GlobalNamespace::SetSaberFakeGlowColor::New_ctor()  {
+GlobalNamespace::SetSaberFakeGlowColor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SetSaberFakeGlowColor>())};
+return o;
+}
  void GlobalNamespace::SetSaberFakeGlowColor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SetSaberFakeGlowColor>::get(),

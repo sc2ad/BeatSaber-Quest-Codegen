@@ -3,11 +3,11 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsProtocol;
-}
 namespace System::IO {
 struct SeekOrigin;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsProtocol;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -77,8 +77,7 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsProtocol __get_handler() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "handler", ty: "Org::BouncyCastle::Crypto::Tls::TlsProtocol", modifiers: "", def_value: None }]
-explicit TlsStream(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler) ;
+static Org::BouncyCastle::Crypto::Tls::TlsStream New_ctor(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler) ;
 
 /// @brief Method .ctor addr 0xf2c22c size 0x6c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler) ;

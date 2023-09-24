@@ -6,50 +6,50 @@
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPskIdentityManager;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPublicKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPskIdentity;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsEncryptionCredentials;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsDHVerifier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPublicKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPublicKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsEncryptionCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPskIdentity;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -207,14 +207,12 @@ constexpr ::ArrayW<uint8_t> __get_mPremasterSecret() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "pskIdentity", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentity", modifiers: "", def_value: None }, CppParam { name: "pskIdentityManager", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager", modifiers: "", def_value: None }, CppParam { name: "dhParameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }, CppParam { name: "namedCurves", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "clientECPointFormats", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "serverECPointFormats", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TlsPskKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters, ::ArrayW<int32_t> namedCurves, ::ArrayW<uint8_t> clientECPointFormats, ::ArrayW<uint8_t> serverECPointFormats) ;
+static Org::BouncyCastle::Crypto::Tls::TlsPskKeyExchange New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters, ::ArrayW<int32_t> namedCurves, ::ArrayW<uint8_t> clientECPointFormats, ::ArrayW<uint8_t> serverECPointFormats) ;
 
 /// @brief Method .ctor addr 0xf224e8 size 0xcc virtual false final false
  void _ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters, ::ArrayW<int32_t> namedCurves, ::ArrayW<uint8_t> clientECPointFormats, ::ArrayW<uint8_t> serverECPointFormats) ;
 
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "pskIdentity", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentity", modifiers: "", def_value: None }, CppParam { name: "pskIdentityManager", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager", modifiers: "", def_value: None }, CppParam { name: "dhVerifier", ty: "Org::BouncyCastle::Crypto::Tls::TlsDHVerifier", modifiers: "", def_value: None }, CppParam { name: "dhParameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }, CppParam { name: "namedCurves", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "clientECPointFormats", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "serverECPointFormats", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TlsPskKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters, ::ArrayW<int32_t> namedCurves, ::ArrayW<uint8_t> clientECPointFormats, ::ArrayW<uint8_t> serverECPointFormats) ;
+static Org::BouncyCastle::Crypto::Tls::TlsPskKeyExchange New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters, ::ArrayW<int32_t> namedCurves, ::ArrayW<uint8_t> clientECPointFormats, ::ArrayW<uint8_t> serverECPointFormats) ;
 
 /// @brief Method .ctor addr 0xf225b4 size 0xcc virtual false final false
  void _ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity, Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager pskIdentityManager, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters, ::ArrayW<int32_t> namedCurves, ::ArrayW<uint8_t> clientECPointFormats, ::ArrayW<uint8_t> serverECPointFormats) ;

@@ -2,20 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-template<typename TStateTable,typename TType,typename TState,typename TSerializable,typename TDeltaSerializable>
-class IScoreSyncStateManager_5;
+struct StandardScoreSyncState;
 }
 namespace GlobalNamespace {
-struct StandardScoreSyncState;
+struct GlobalNamespace__StandardScoreSyncState__Score;
 }
 namespace GlobalNamespace {
 class StandardScoreSyncStateDeltaNetSerializable;
 }
 namespace GlobalNamespace {
-class StandardScoreSyncStateNetSerializable;
+template<typename TStateTable,typename TType,typename TState,typename TSerializable,typename TDeltaSerializable>
+class IScoreSyncStateManager_5;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__StandardScoreSyncState__Score;
+class StandardScoreSyncStateNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

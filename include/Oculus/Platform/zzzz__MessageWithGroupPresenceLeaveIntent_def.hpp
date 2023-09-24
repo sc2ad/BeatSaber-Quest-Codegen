@@ -13,7 +13,7 @@ class MessageWithGroupPresenceLeaveIntent;
 // Type: Oculus.Platform::MessageWithGroupPresenceLeaveIntent
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 941 }), TypeDefinitionIndex(TypeDefinitionIndex(13415))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 941 }), TypeDefinitionIndex(TypeDefinitionIndex(13415)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13237))
 // CS Name: Oculus.Platform.MessageWithGroupPresenceLeaveIntent
 class CORDL_TYPE MessageWithGroupPresenceLeaveIntent : public Oculus::Platform::Message_1<Oculus::Platform::Models::GroupPresenceLeaveIntent> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithGroupPresenceLeaveIntent(void* ptr) noexcept : Ocu
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithGroupPresenceLeaveIntent(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithGroupPresenceLeaveIntent New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e6e8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

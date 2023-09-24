@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, type, text);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::JsonAssetProvider()  : UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider(THROW_UNLESS(::il2cpp_utils::New<JsonAssetProvider>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider>::get(),

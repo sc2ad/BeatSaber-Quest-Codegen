@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__TaskContinuation_impl.hpp"
 #include "System/Threading/Tasks/zzzz__AwaitTaskContinuation_def.hpp"
-#include "System/Threading/zzzz__ThreadAbortException_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
-#include "System/Threading/zzzz__ExecutionContext_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Threading/zzzz__ThreadAbortException_def.hpp"
+#include "System/Threading/zzzz__ContextCallback_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::AwaitTaskContinuation._ctor
 template<>
 
@@ -236,8 +236,10 @@ return ::cordl_internals::getInstanceField<System::Action, 0x18>(this->::bs_hook
  System::Threading::ContextCallback System::Threading::Tasks::AwaitTaskContinuation::__get_s_invokeActionCallback()  {
 return ::cordl_internals::getStaticField<System::Threading::ContextCallback, "s_invokeActionCallback", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::AwaitTaskContinuation>::get>();
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "flowExecutionContext", ty: "bool", modifiers: "", def_value: None }]
- System::Threading::Tasks::AwaitTaskContinuation::AwaitTaskContinuation(System::Action action, bool flowExecutionContext)  : System::Threading::Tasks::TaskContinuation(THROW_UNLESS(::il2cpp_utils::New<AwaitTaskContinuation>(action, flowExecutionContext))) {}
+ System::Threading::Tasks::AwaitTaskContinuation System::Threading::Tasks::AwaitTaskContinuation::New_ctor(System::Action action, bool flowExecutionContext)  {
+System::Threading::Tasks::AwaitTaskContinuation o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::AwaitTaskContinuation>(action, flowExecutionContext))};
+return o;
+}
  void System::Threading::Tasks::AwaitTaskContinuation::_ctor(System::Action action, bool flowExecutionContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::AwaitTaskContinuation>::get(),

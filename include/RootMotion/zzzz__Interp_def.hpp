@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion {
 struct InterpolationMode;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -144,8 +144,7 @@ static float_t InBack(float_t t, float_t b, float_t c) ;
 /// @brief Method OutBack addr 0x11b3b60 size 0x40 virtual false final false
 static float_t OutBack(float_t t, float_t b, float_t c) ;
 
-// Ctor Parameters []
-explicit Interp() ;
+static RootMotion::Interp New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b3d44 size 0x8 virtual false final false
  void _ctor() ;

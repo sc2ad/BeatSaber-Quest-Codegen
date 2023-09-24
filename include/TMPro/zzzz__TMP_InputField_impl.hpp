@@ -5,46 +5,47 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_3_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "TMPro/zzzz__TMP_InputField_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "TMPro/zzzz__TMP_InputField_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IScrollHandler_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/UI/zzzz__Scrollbar_def.hpp"
 #include "TMPro/zzzz__TMP_ScrollbarEventHandler_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__CanvasRenderer_def.hpp"
+#include "UnityEngine/UI/zzzz__LayoutGroup_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEndDragHandler_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_def.hpp"
+#include "UnityEngine/zzzz__UIVertex_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseInput_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
+#include "TMPro/zzzz__TMP_InputValidator_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
+#include "UnityEngine/zzzz__TouchScreenKeyboardType_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__CanvasRenderer_def.hpp"
-#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IScrollHandler_def.hpp"
-#include "UnityEngine/UI/zzzz__Scrollbar_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/UI/zzzz__LayoutGroup_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseInput_def.hpp"
-#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
-#include "UnityEngine/zzzz__TouchScreenKeyboardType_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
-#include "UnityEngine/zzzz__UIVertex_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
-#include "TMPro/zzzz__TMP_InputValidator_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEndDragHandler_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -178,8 +179,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (T
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- TMPro::TMPro__TMP_InputField__OnValidateInput::TMPro__TMP_InputField__OnValidateInput(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_InputField__OnValidateInput>(object, method))) {}
+ TMPro::TMPro__TMP_InputField__OnValidateInput TMPro::TMPro__TMP_InputField__OnValidateInput::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+TMPro::TMPro__TMP_InputField__OnValidateInput o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_InputField__OnValidateInput>(object, method))};
+return o;
+}
  void TMPro::TMPro__TMP_InputField__OnValidateInput::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_InputField__OnValidateInput>::get(),
@@ -233,8 +236,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- TMPro::TMPro__TMP_InputField__SubmitEvent::TMPro__TMP_InputField__SubmitEvent()  : UnityEngine::Events::UnityEvent_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_InputField__SubmitEvent>())) {}
+ TMPro::TMPro__TMP_InputField__SubmitEvent TMPro::TMPro__TMP_InputField__SubmitEvent::New_ctor()  {
+TMPro::TMPro__TMP_InputField__SubmitEvent o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_InputField__SubmitEvent>())};
+return o;
+}
  void TMPro::TMPro__TMP_InputField__SubmitEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_InputField__SubmitEvent>::get(),
@@ -261,8 +266,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- TMPro::TMPro__TMP_InputField__OnChangeEvent::TMPro__TMP_InputField__OnChangeEvent()  : UnityEngine::Events::UnityEvent_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_InputField__OnChangeEvent>())) {}
+ TMPro::TMPro__TMP_InputField__OnChangeEvent TMPro::TMPro__TMP_InputField__OnChangeEvent::New_ctor()  {
+TMPro::TMPro__TMP_InputField__OnChangeEvent o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_InputField__OnChangeEvent>())};
+return o;
+}
  void TMPro::TMPro__TMP_InputField__OnChangeEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_InputField__OnChangeEvent>::get(),
@@ -289,8 +296,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- TMPro::TMPro__TMP_InputField__SelectionEvent::TMPro__TMP_InputField__SelectionEvent()  : UnityEngine::Events::UnityEvent_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_InputField__SelectionEvent>())) {}
+ TMPro::TMPro__TMP_InputField__SelectionEvent TMPro::TMPro__TMP_InputField__SelectionEvent::New_ctor()  {
+TMPro::TMPro__TMP_InputField__SelectionEvent o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_InputField__SelectionEvent>())};
+return o;
+}
  void TMPro::TMPro__TMP_InputField__SelectionEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_InputField__SelectionEvent>::get(),
@@ -317,8 +326,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- TMPro::TMPro__TMP_InputField__TextSelectionEvent::TMPro__TMP_InputField__TextSelectionEvent()  : UnityEngine::Events::UnityEvent_3<::StringW,int32_t,int32_t>(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_InputField__TextSelectionEvent>())) {}
+ TMPro::TMPro__TMP_InputField__TextSelectionEvent TMPro::TMPro__TMP_InputField__TextSelectionEvent::New_ctor()  {
+TMPro::TMPro__TMP_InputField__TextSelectionEvent o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_InputField__TextSelectionEvent>())};
+return o;
+}
  void TMPro::TMPro__TMP_InputField__TextSelectionEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_InputField__TextSelectionEvent>::get(),
@@ -345,8 +356,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- TMPro::TMPro__TMP_InputField__TouchScreenKeyboardEvent::TMPro__TMP_InputField__TouchScreenKeyboardEvent()  : UnityEngine::Events::UnityEvent_1<UnityEngine::UnityEngine__TouchScreenKeyboard__Status>(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_InputField__TouchScreenKeyboardEvent>())) {}
+ TMPro::TMPro__TMP_InputField__TouchScreenKeyboardEvent TMPro::TMPro__TMP_InputField__TouchScreenKeyboardEvent::New_ctor()  {
+TMPro::TMPro__TMP_InputField__TouchScreenKeyboardEvent o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_InputField__TouchScreenKeyboardEvent>())};
+return o;
+}
  void TMPro::TMPro__TMP_InputField__TouchScreenKeyboardEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_InputField__TouchScreenKeyboardEvent>::get(),
@@ -499,8 +512,10 @@ constexpr void TMPro::TMPro__TMP_InputField___CaretBlink_d__276::__set___4__this
 constexpr TMPro::TMP_InputField TMPro::TMPro__TMP_InputField___CaretBlink_d__276::__get___4__this() const {
 return ::cordl_internals::getInstanceField<TMPro::TMP_InputField, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- TMPro::TMPro__TMP_InputField___CaretBlink_d__276::TMPro__TMP_InputField___CaretBlink_d__276(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_InputField___CaretBlink_d__276>(__1__state))) {}
+ TMPro::TMPro__TMP_InputField___CaretBlink_d__276 TMPro::TMPro__TMP_InputField___CaretBlink_d__276::New_ctor(int32_t __1__state)  {
+TMPro::TMPro__TMP_InputField___CaretBlink_d__276 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_InputField___CaretBlink_d__276>(__1__state))};
+return o;
+}
  void TMPro::TMPro__TMP_InputField___CaretBlink_d__276::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_InputField___CaretBlink_d__276>::get(),
@@ -693,8 +708,10 @@ constexpr void TMPro::TMPro__TMP_InputField___MouseDragOutsideRect_d__294::__set
 constexpr UnityEngine::EventSystems::PointerEventData TMPro::TMPro__TMP_InputField___MouseDragOutsideRect_d__294::__get_eventData() const {
 return ::cordl_internals::getInstanceField<UnityEngine::EventSystems::PointerEventData, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- TMPro::TMPro__TMP_InputField___MouseDragOutsideRect_d__294::TMPro__TMP_InputField___MouseDragOutsideRect_d__294(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_InputField___MouseDragOutsideRect_d__294>(__1__state))) {}
+ TMPro::TMPro__TMP_InputField___MouseDragOutsideRect_d__294 TMPro::TMPro__TMP_InputField___MouseDragOutsideRect_d__294::New_ctor(int32_t __1__state)  {
+TMPro::TMPro__TMP_InputField___MouseDragOutsideRect_d__294 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_InputField___MouseDragOutsideRect_d__294>(__1__state))};
+return o;
+}
  void TMPro::TMPro__TMP_InputField___MouseDragOutsideRect_d__294::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_InputField___MouseDragOutsideRect_d__294>::get(),
@@ -5176,8 +5193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TMP_InputField::TMP_InputField()  : UnityEngine::UI::Selectable(THROW_UNLESS(::il2cpp_utils::New<TMP_InputField>())) {}
+ TMPro::TMP_InputField TMPro::TMP_InputField::New_ctor()  {
+TMPro::TMP_InputField o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_InputField>())};
+return o;
+}
  void TMPro::TMP_InputField::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_InputField>::get(),

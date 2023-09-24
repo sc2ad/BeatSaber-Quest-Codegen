@@ -6,38 +6,22 @@ namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-class PointerCaptureOutEvent;
-}
-namespace UnityEngine::UIElements {
-struct InvokePolicy;
-}
-namespace UnityEngine::UIElements {
 class MouseDownEvent;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
 }
 namespace UnityEngine::UIElements {
 class MouseCaptureOutEvent;
 }
 namespace UnityEngine::UIElements {
+class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
 class PointerUpEvent;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace UnityEngine::UIElements {
+class PointerCaptureOutEvent;
 }
 namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
-namespace UnityEngine::UIElements {
-class MouseMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerCancelEvent;
-}
-namespace UnityEngine::UIElements {
-struct TimerState;
+class PointerDownEvent;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -46,10 +30,26 @@ namespace UnityEngine::UIElements {
 class MouseUpEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerDownEvent;
+struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
-class PointerMoveEvent;
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
+}
+namespace UnityEngine::UIElements {
+class PointerCancelEvent;
+}
+namespace UnityEngine::UIElements {
+struct TimerState;
+}
+namespace UnityEngine::UIElements {
+class MouseMoveEvent;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -183,20 +183,17 @@ constexpr UnityEngine::UIElements::IVisualElementScheduledItem __get_m_Repeater(
 /// @brief Method get_invokePolicy addr 0x2c442d8 size 0x8 virtual false final false
  UnityEngine::UIElements::InvokePolicy get_invokePolicy() ;
 
-// Ctor Parameters [CppParam { name: "handler", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "interval", ty: "int64_t", modifiers: "", def_value: None }]
-explicit Clickable(System::Action handler, int64_t delay, int64_t interval) ;
+static UnityEngine::UIElements::Clickable New_ctor(System::Action handler, int64_t delay, int64_t interval) ;
 
 /// @brief Method .ctor addr 0x2c442e0 size 0x2c virtual false final false
  void _ctor(System::Action handler, int64_t delay, int64_t interval) ;
 
-// Ctor Parameters [CppParam { name: "handler", ty: "System::Action_1<UnityEngine::UIElements::EventBase>", modifiers: "", def_value: None }]
-explicit Clickable(System::Action_1<UnityEngine::UIElements::EventBase> handler) ;
+static UnityEngine::UIElements::Clickable New_ctor(System::Action_1<UnityEngine::UIElements::EventBase> handler) ;
 
 /// @brief Method .ctor addr 0x2c443d4 size 0xc8 virtual false final false
  void _ctor(System::Action_1<UnityEngine::UIElements::EventBase> handler) ;
 
-// Ctor Parameters [CppParam { name: "handler", ty: "System::Action", modifiers: "", def_value: None }]
-explicit Clickable(System::Action handler) ;
+static UnityEngine::UIElements::Clickable New_ctor(System::Action handler) ;
 
 /// @brief Method .ctor addr 0x2c4430c size 0xc8 virtual false final false
  void _ctor(System::Action handler) ;

@@ -6,106 +6,115 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem {
-struct InputControlLayoutChange;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace UnityEngine::InputSystem {
-class InputRemoting;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputMetrics;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventListener;
-}
 namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace System {
-template<typename T>
-class IObservable_1;
-}
-namespace UnityEngine::InputSystem {
-class InputManager;
-}
-namespace UnityEngine::InputSystem {
-template<typename TControl>
-struct InputControlList_1;
+struct InputActionChange;
 }
 namespace UnityEngine::InputSystem::Layouts {
-class InputDeviceFindControlLayoutDelegate;
+struct InputDeviceMatcher;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputRuntime;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputSystem__DeltaStateEventBuffer;
+}
+namespace UnityEngine::InputSystem {
+class InputRemoting;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace UnityEngine::InputSystem {
-struct InputActionChange;
+class InputSettings;
+}
+namespace System {
+class Version;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlLayoutChange;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputSystem__StateEventBuffer;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+template<typename TControl>
+struct InputControlList_1;
+}
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputRuntime;
+struct InputMetrics;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class Type;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceMatcher;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace UnityEngine::InputSystem {
-class InputSettings;
+class UnityEngine__InputSystem__InputSystem____c;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceCommandDelegate;
+namespace UnityEngine::InputSystem {
+class InputManager;
+}
+namespace System {
+template<typename T>
+class IObservable_1;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System {
-class Version;
+class Type;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventListener;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceCommandDelegate;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputDeviceFindControlLayoutDelegate;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -113,6 +122,12 @@ class Func_2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct DeltaStateEvent;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputSystem__DeltaStateEventBuffer___data_e__FixedBuffer;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputSystem__StateEventBuffer___data_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct StateEvent;
@@ -433,8 +448,7 @@ static System::Func_2<UnityEngine::InputSystem::InputControl,bool> __get___9__79
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputSystem____c() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputSystem____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28cf1d0 size 0x8 virtual false final false
  void _ctor() ;

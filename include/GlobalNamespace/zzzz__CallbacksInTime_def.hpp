@@ -6,16 +6,16 @@
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
-namespace System {
-template<typename T1,typename T2>
-struct ValueTuple_2;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+template<typename T1,typename T2>
+struct ValueTuple_2;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -118,8 +118,7 @@ constexpr System::Collections::Generic::Dictionary_2<System::Type,System::Collec
 /// @brief Method get_isEmpty addr 0x2230e30 size 0x8c virtual false final false
  bool get_isEmpty() ;
 
-// Ctor Parameters [CppParam { name: "aheadTime", ty: "float_t", modifiers: "", def_value: None }]
-explicit CallbacksInTime(float_t aheadTime) ;
+static GlobalNamespace::CallbacksInTime New_ctor(float_t aheadTime) ;
 
 /// @brief Method .ctor addr 0x223203c size 0xd4 virtual false final false
  void _ctor(float_t aheadTime) ;

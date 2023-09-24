@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System {
-struct TermInfoStrings;
-}
 namespace System::Collections {
 class Hashtable;
+}
+namespace System {
+struct TermInfoStrings;
 }
 // Forward declare root types
 namespace System {
@@ -83,8 +83,7 @@ constexpr System::Collections::Hashtable __get_starts() const;
 /// @brief Method Match addr 0x2493bcc size 0x48c virtual false final false
  System::TermInfoStrings Match(::ArrayW<char16_t> buffer, int32_t offset, int32_t length, ByRef<int32_t> used) ;
 
-// Ctor Parameters []
-explicit ByteMatcher() ;
+static System::ByteMatcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x2496a58 size 0x7c virtual false final false
  void _ctor() ;

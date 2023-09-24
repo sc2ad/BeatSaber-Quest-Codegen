@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::AndroidRotationVector::AndroidRotationVector()  : UnityEngine::InputSystem::AttitudeSensor(THROW_UNLESS(::il2cpp_utils::New<AndroidRotationVector>())) {}
+ UnityEngine::InputSystem::Android::AndroidRotationVector UnityEngine::InputSystem::Android::AndroidRotationVector::New_ctor()  {
+UnityEngine::InputSystem::Android::AndroidRotationVector o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::AndroidRotationVector>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::AndroidRotationVector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::AndroidRotationVector>::get(),

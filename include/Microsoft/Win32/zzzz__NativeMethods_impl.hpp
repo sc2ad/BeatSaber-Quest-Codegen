@@ -1,9 +1,9 @@
 #pragma once
 #include "Microsoft/Win32/zzzz__NativeMethods_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
+#include "Microsoft/Win32/SafeHandles/zzzz__SafeProcessHandle_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__HandleRef_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeWaitHandle_def.hpp"
-#include "Microsoft/Win32/SafeHandles/zzzz__SafeProcessHandle_def.hpp"
 //  Writing Method size for method: Microsoft::Win32::NativeMethods.DuplicateHandle
 template<>
 

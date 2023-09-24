@@ -6,14 +6,14 @@
 namespace UnityEngine {
 struct KeyCode;
 }
-namespace GlobalNamespace {
-class OVRGridCube;
-}
 namespace UnityEngine {
 class Texture;
 }
 namespace GlobalNamespace {
 class OVRPlayerController;
+}
+namespace GlobalNamespace {
+class OVRGridCube;
 }
 namespace GlobalNamespace {
 class OVRCameraRig;
@@ -133,8 +133,7 @@ constexpr GlobalNamespace::OVRGridCube __get_gridCube() const;
 /// @brief Method UpdateRecenterPose addr 0x26304c4 size 0xb0 virtual false final false
  void UpdateRecenterPose() ;
 
-// Ctor Parameters []
-explicit OVRSceneSampleController() ;
+static GlobalNamespace::OVRSceneSampleController New_ctor() ;
 
 /// @brief Method .ctor addr 0x26306f4 size 0x6c virtual false final false
  void _ctor() ;

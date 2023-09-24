@@ -70,6 +70,8 @@ constexpr operator __ConnectionFailedReason_Unwrapped () const noexcept {
 return std::bit_cast<__ConnectionFailedReason_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

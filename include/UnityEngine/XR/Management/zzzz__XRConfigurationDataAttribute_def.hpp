@@ -82,14 +82,12 @@ constexpr ::StringW __get__buildSettingsKey_k__BackingField() const;
 /// @brief Method set_buildSettingsKey addr 0x2adcc98 size 0x8 virtual false final false
  void set_buildSettingsKey(::StringW value) ;
 
-// Ctor Parameters []
-explicit XRConfigurationDataAttribute() ;
+static UnityEngine::XR::Management::XRConfigurationDataAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2adcca0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buildSettingsKey", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XRConfigurationDataAttribute(::StringW displayName, ::StringW buildSettingsKey) ;
+static UnityEngine::XR::Management::XRConfigurationDataAttribute New_ctor(::StringW displayName, ::StringW buildSettingsKey) ;
 
 /// @brief Method .ctor addr 0x2adcca8 size 0x2c virtual false final false
  void _ctor(::StringW displayName, ::StringW buildSettingsKey) ;

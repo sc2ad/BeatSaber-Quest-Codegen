@@ -3,14 +3,14 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__AnimatedSwitchView_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
+#include "HMUI/zzzz__AnimatedSwitchView_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__AnimatedSwitchView__ColorBlock._ctor
 template<>
 
@@ -64,8 +64,10 @@ constexpr void HMUI::HMUI__AnimatedSwitchView__ColorBlock::__set_backgroundColor
 constexpr UnityEngine::Color HMUI::HMUI__AnimatedSwitchView__ColorBlock::__get_backgroundColor1() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Color, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__AnimatedSwitchView__ColorBlock::HMUI__AnimatedSwitchView__ColorBlock()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__AnimatedSwitchView__ColorBlock>())) {}
+ HMUI::HMUI__AnimatedSwitchView__ColorBlock HMUI::HMUI__AnimatedSwitchView__ColorBlock::New_ctor()  {
+HMUI::HMUI__AnimatedSwitchView__ColorBlock o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__AnimatedSwitchView__ColorBlock>())};
+return o;
+}
  void HMUI::HMUI__AnimatedSwitchView__ColorBlock::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__AnimatedSwitchView__ColorBlock>::get(),
@@ -159,8 +161,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HMUI::HMUI__AnimatedSwitchView__GetColorDelegate::HMUI__AnimatedSwitchView__GetColorDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HMUI__AnimatedSwitchView__GetColorDelegate>(object, method))) {}
+ HMUI::HMUI__AnimatedSwitchView__GetColorDelegate HMUI::HMUI__AnimatedSwitchView__GetColorDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HMUI::HMUI__AnimatedSwitchView__GetColorDelegate o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__AnimatedSwitchView__GetColorDelegate>(object, method))};
+return o;
+}
  void HMUI::HMUI__AnimatedSwitchView__GetColorDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__AnimatedSwitchView__GetColorDelegate>::get(),
@@ -358,8 +362,10 @@ return ::cordl_internals::getStaticField<HMUI::HMUI__AnimatedSwitchView__GetColo
  HMUI::HMUI__AnimatedSwitchView__GetColorDelegate HMUI::HMUI__AnimatedSwitchView____c::__get___9__31_5()  {
 return ::cordl_internals::getStaticField<HMUI::HMUI__AnimatedSwitchView__GetColorDelegate, "<>9__31_5", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__AnimatedSwitchView____c>::get>();
 }
-// Ctor Parameters []
- HMUI::HMUI__AnimatedSwitchView____c::HMUI__AnimatedSwitchView____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__AnimatedSwitchView____c>())) {}
+ HMUI::HMUI__AnimatedSwitchView____c HMUI::HMUI__AnimatedSwitchView____c::New_ctor()  {
+HMUI::HMUI__AnimatedSwitchView____c o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__AnimatedSwitchView____c>())};
+return o;
+}
  void HMUI::HMUI__AnimatedSwitchView____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__AnimatedSwitchView____c>::get(),
@@ -832,8 +838,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, selectionState);
 }
-// Ctor Parameters []
- HMUI::AnimatedSwitchView::AnimatedSwitchView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AnimatedSwitchView>())) {}
+ HMUI::AnimatedSwitchView HMUI::AnimatedSwitchView::New_ctor()  {
+HMUI::AnimatedSwitchView o{THROW_UNLESS(::il2cpp_utils::New<HMUI::AnimatedSwitchView>())};
+return o;
+}
  void HMUI::AnimatedSwitchView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::AnimatedSwitchView>::get(),

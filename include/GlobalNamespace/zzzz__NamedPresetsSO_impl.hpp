@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::NamedPreset>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::NamedPresetsSO::NamedPresetsSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<NamedPresetsSO>())) {}
+ GlobalNamespace::NamedPresetsSO GlobalNamespace::NamedPresetsSO::New_ctor()  {
+GlobalNamespace::NamedPresetsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NamedPresetsSO>())};
+return o;
+}
  void GlobalNamespace::NamedPresetsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NamedPresetsSO>::get(),

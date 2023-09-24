@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: HMUI::ButtonBinder._ctor
 template<>
 
@@ -130,8 +130,10 @@ constexpr void HMUI::ButtonBinder::__set__bindings(System::Collections::Generic:
 constexpr System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button,UnityEngine::Events::UnityAction>> HMUI::ButtonBinder::__get__bindings() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button,UnityEngine::Events::UnityAction>>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::ButtonBinder::ButtonBinder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ButtonBinder>())) {}
+ HMUI::ButtonBinder HMUI::ButtonBinder::New_ctor()  {
+HMUI::ButtonBinder o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ButtonBinder>())};
+return o;
+}
  void HMUI::ButtonBinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ButtonBinder>::get(),
@@ -141,8 +143,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "button", ty: "UnityEngine::UI::Button", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }]
- HMUI::ButtonBinder::ButtonBinder(UnityEngine::UI::Button button, System::Action action)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ButtonBinder>(button, action))) {}
+ HMUI::ButtonBinder HMUI::ButtonBinder::New_ctor(UnityEngine::UI::Button button, System::Action action)  {
+HMUI::ButtonBinder o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ButtonBinder>(button, action))};
+return o;
+}
  void HMUI::ButtonBinder::_ctor(UnityEngine::UI::Button button, System::Action action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ButtonBinder>::get(),
@@ -152,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, button, action);
 }
-// Ctor Parameters [CppParam { name: "bindingData", ty: "System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button,System::Action>>", modifiers: "", def_value: None }]
- HMUI::ButtonBinder::ButtonBinder(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button,System::Action>> bindingData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ButtonBinder>(bindingData))) {}
+ HMUI::ButtonBinder HMUI::ButtonBinder::New_ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button,System::Action>> bindingData)  {
+HMUI::ButtonBinder o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ButtonBinder>(bindingData))};
+return o;
+}
  void HMUI::ButtonBinder::_ctor(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button,System::Action>> bindingData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ButtonBinder>::get(),

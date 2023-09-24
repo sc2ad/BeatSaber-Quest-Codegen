@@ -2,14 +2,15 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__CurveNodeData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "HoudiniEngineUnity/zzzz__CurveNodeData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Parameters_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve__CurveEditState::HoudiniEngineUnity__HEU_Curve__CurveEditState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -133,8 +134,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayCl
 constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0::__get_scales() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<UnityEngine::Vector3>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0::HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0 HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0 o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0>::get(),
@@ -217,8 +220,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayCl
 constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0::__get_scales() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<UnityEngine::Vector3>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0::HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0 HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0 o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0>::get(),
@@ -277,8 +282,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayCl
 constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0::__get_points() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<UnityEngine::Vector3>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0::HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0 HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0 o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0>::get(),
@@ -1457,8 +1464,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_Curve::HEU_Curve()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<HEU_Curve>())) {}
+ HoudiniEngineUnity::HEU_Curve HoudiniEngineUnity::HEU_Curve::New_ctor()  {
+HoudiniEngineUnity::HEU_Curve o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_Curve>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_Curve::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_Curve>::get(),

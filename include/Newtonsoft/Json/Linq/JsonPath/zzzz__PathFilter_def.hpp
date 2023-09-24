@@ -61,8 +61,7 @@ constexpr explicit PathFilter(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 /// @brief Method GetTokenIndex addr 0x2533c68 size 0x2d8 virtual false final false
 static Newtonsoft::Json::Linq::JToken GetTokenIndex(Newtonsoft::Json::Linq::JToken t, bool errorWhenNoMatch, int32_t index) ;
 
-// Ctor Parameters []
-explicit PathFilter() ;
+static Newtonsoft::Json::Linq::JsonPath::PathFilter New_ctor() ;
 
 /// @brief Method .ctor addr 0x25335ec size 0x8 virtual false final false
  void _ctor() ;

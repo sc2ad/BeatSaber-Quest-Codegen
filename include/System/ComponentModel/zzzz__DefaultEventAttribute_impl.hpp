@@ -81,8 +81,10 @@ return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2
  System::ComponentModel::DefaultEventAttribute System::ComponentModel::DefaultEventAttribute::__get_Default()  {
 return ::cordl_internals::getStaticField<System::ComponentModel::DefaultEventAttribute, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DefaultEventAttribute>::get>();
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::ComponentModel::DefaultEventAttribute::DefaultEventAttribute(::StringW name)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DefaultEventAttribute>(name))) {}
+ System::ComponentModel::DefaultEventAttribute System::ComponentModel::DefaultEventAttribute::New_ctor(::StringW name)  {
+System::ComponentModel::DefaultEventAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DefaultEventAttribute>(name))};
+return o;
+}
  void System::ComponentModel::DefaultEventAttribute::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DefaultEventAttribute>::get(),

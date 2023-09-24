@@ -2,10 +2,10 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DistributionPointName_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::DistributionPointName.GetInstance
 template<>
@@ -211,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::DistributionPointName, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::DistributionPointName::DistributionPointName(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable name)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DistributionPointName>(type, name))) {}
+ Org::BouncyCastle::Asn1::X509::DistributionPointName Org::BouncyCastle::Asn1::X509::DistributionPointName::New_ctor(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable name)  {
+Org::BouncyCastle::Asn1::X509::DistributionPointName o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::DistributionPointName>(type, name))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::DistributionPointName::_ctor(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::DistributionPointName>::get(),
@@ -222,8 +224,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, name);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::DistributionPointName::DistributionPointName(Org::BouncyCastle::Asn1::X509::GeneralNames name)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DistributionPointName>(name))) {}
+ Org::BouncyCastle::Asn1::X509::DistributionPointName Org::BouncyCastle::Asn1::X509::DistributionPointName::New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames name)  {
+Org::BouncyCastle::Asn1::X509::DistributionPointName o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::DistributionPointName>(name))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::DistributionPointName::_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::DistributionPointName>::get(),
@@ -251,8 +255,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Asn1Encodable, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::DistributionPointName::DistributionPointName(Org::BouncyCastle::Asn1::Asn1TaggedObject obj)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DistributionPointName>(obj))) {}
+ Org::BouncyCastle::Asn1::X509::DistributionPointName Org::BouncyCastle::Asn1::X509::DistributionPointName::New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject obj)  {
+Org::BouncyCastle::Asn1::X509::DistributionPointName o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::DistributionPointName>(obj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::DistributionPointName::_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::DistributionPointName>::get(),

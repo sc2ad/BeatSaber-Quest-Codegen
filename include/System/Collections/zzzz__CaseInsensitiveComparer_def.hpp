@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System::Collections {
 class IComparer;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Globalization {
 class CompareInfo;
@@ -69,14 +69,12 @@ constexpr System::Globalization::CompareInfo __get__compareInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CaseInsensitiveComparer() ;
+static System::Collections::CaseInsensitiveComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2410094 size 0x7c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit CaseInsensitiveComparer(System::Globalization::CultureInfo culture) ;
+static System::Collections::CaseInsensitiveComparer New_ctor(System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x2410110 size 0x88 virtual false final false
  void _ctor(System::Globalization::CultureInfo culture) ;

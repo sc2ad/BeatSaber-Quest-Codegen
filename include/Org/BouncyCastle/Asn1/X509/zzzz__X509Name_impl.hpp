@@ -1,15 +1,15 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509NameEntryConverter_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509NameEntryConverter_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::X509Name.get_DefaultReverse
 template<>
 
@@ -826,8 +826,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::X509Name, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name()  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>())) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor()  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -837,8 +839,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -848,8 +852,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "ordering", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(System::Collections::IList ordering, System::Collections::IDictionary attributes)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(ordering, attributes))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(System::Collections::IList ordering, System::Collections::IDictionary attributes)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(ordering, attributes))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(System::Collections::IList ordering, System::Collections::IDictionary attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -859,8 +865,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ordering, attributes);
 }
-// Ctor Parameters [CppParam { name: "ordering", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "Org::BouncyCastle::Asn1::X509::X509NameEntryConverter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(System::Collections::IList ordering, System::Collections::IDictionary attributes, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(ordering, attributes, converter))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(System::Collections::IList ordering, System::Collections::IDictionary attributes, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(ordering, attributes, converter))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(System::Collections::IList ordering, System::Collections::IDictionary attributes, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -870,8 +878,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ordering, attributes, converter);
 }
-// Ctor Parameters [CppParam { name: "oids", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "values", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(System::Collections::IList oids, System::Collections::IList values)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(oids, values))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(System::Collections::IList oids, System::Collections::IList values)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(oids, values))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(System::Collections::IList oids, System::Collections::IList values)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -881,8 +891,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oids, values);
 }
-// Ctor Parameters [CppParam { name: "oids", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "values", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "Org::BouncyCastle::Asn1::X509::X509NameEntryConverter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(System::Collections::IList oids, System::Collections::IList values, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(oids, values, converter))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(System::Collections::IList oids, System::Collections::IList values, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(oids, values, converter))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(System::Collections::IList oids, System::Collections::IList values, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -892,8 +904,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oids, values, converter);
 }
-// Ctor Parameters [CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(::StringW dirName)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(dirName))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(::StringW dirName)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(dirName))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(::StringW dirName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -903,8 +917,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dirName);
 }
-// Ctor Parameters [CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "Org::BouncyCastle::Asn1::X509::X509NameEntryConverter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(dirName, converter))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(dirName, converter))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -914,8 +930,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dirName, converter);
 }
-// Ctor Parameters [CppParam { name: "reverse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(bool reverse, ::StringW dirName)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(reverse, dirName))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(bool reverse, ::StringW dirName)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(reverse, dirName))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(bool reverse, ::StringW dirName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -925,8 +943,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reverse, dirName);
 }
-// Ctor Parameters [CppParam { name: "reverse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "Org::BouncyCastle::Asn1::X509::X509NameEntryConverter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(bool reverse, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(reverse, dirName, converter))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(bool reverse, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(reverse, dirName, converter))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(bool reverse, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -936,8 +956,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reverse, dirName, converter);
 }
-// Ctor Parameters [CppParam { name: "reverse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "lookUp", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(reverse, lookUp, dirName))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(reverse, lookUp, dirName))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),
@@ -956,8 +978,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerObjectIdentifier, false>(const_cast<void*>(instance), ___internal_method, name, lookUp);
 }
-// Ctor Parameters [CppParam { name: "reverse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "lookUp", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "Org::BouncyCastle::Asn1::X509::X509NameEntryConverter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Name::X509Name(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Name>(reverse, lookUp, dirName, converter))) {}
+ Org::BouncyCastle::Asn1::X509::X509Name Org::BouncyCastle::Asn1::X509::X509Name::New_ctor(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  {
+Org::BouncyCastle::Asn1::X509::X509Name o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Name>(reverse, lookUp, dirName, converter))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Name::_ctor(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Name>::get(),

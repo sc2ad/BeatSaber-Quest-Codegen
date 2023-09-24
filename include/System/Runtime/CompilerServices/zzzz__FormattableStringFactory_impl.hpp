@@ -2,6 +2,7 @@
 #include "System/zzzz__FormattableString_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__FormattableStringFactory_def.hpp"
 #include "System/zzzz__FormattableString_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__FormattableStringFactory_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 //  Writing Method size for method: System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString._ctor
 template<>
@@ -117,8 +118,10 @@ constexpr void System::Runtime::CompilerServices::System__Runtime__CompilerServi
 constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString::__get__arguments() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::bs_hook::Il2CppWrapperType>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments)  : System::FormattableString(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString>(format, arguments))) {}
+ System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString::New_ctor(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments)  {
+System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString>(format, arguments))};
+return o;
+}
  void System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString::_ctor(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString>::get(),

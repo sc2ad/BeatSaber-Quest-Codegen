@@ -3,26 +3,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class RsassaPssParameters;
-}
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Null;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class RsassaPssParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -115,8 +115,7 @@ static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier GetSigAlgID(Org::Bounc
 /// @brief Method GetAlgNames addr 0xe9f83c size 0x10c virtual false final false
 static System::Collections::IEnumerable GetAlgNames() ;
 
-// Ctor Parameters []
-explicit X509Utilities() ;
+static Org::BouncyCastle::Crypto::Operators::X509Utilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xe9f948 size 0x8 virtual false final false
  void _ctor() ;

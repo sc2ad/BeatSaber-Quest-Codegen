@@ -4,44 +4,45 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__LiteNetLibConnectionManager_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
-#include "GlobalNamespace/zzzz__IConnection_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
-#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
+#include "GlobalNamespace/zzzz__IConnection_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
-#include "LiteNetLib/zzzz__UnconnectedMessageType_def.hpp"
+#include "GlobalNamespace/zzzz__LiteNetLibConnectionManager_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
+#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
 #include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
+#include "LiteNetLib/zzzz__DisconnectReason_def.hpp"
+#include "LiteNetLib/zzzz__UnconnectedMessageType_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__PacketEncryptionLayer_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkStatisticsState_def.hpp"
+#include "LiteNetLib/zzzz__DisconnectInfo_def.hpp"
 #include "LiteNetLib/zzzz__NetManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "LiteNetLib/zzzz__INetEventListener_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkStatisticsState_def.hpp"
-#include "GlobalNamespace/zzzz__PacketEncryptionLayer_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "LiteNetLib/zzzz__DisconnectInfo_def.hpp"
-#include "LiteNetLib/zzzz__DisconnectReason_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetworkMode::GlobalNamespace__LiteNetLibConnectionManager__NetworkMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -131,8 +132,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__Li
 constexpr int32_t GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase::__get_disconnectTimeoutMs() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase>())) {}
+ GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase>::get(),
@@ -171,8 +174,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__St
 constexpr ::StringW GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartServerParams::__get_userName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartServerParams::GlobalNamespace__LiteNetLibConnectionManager__StartServerParams()  : GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LiteNetLibConnectionManager__StartServerParams>())) {}
+ GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartServerParams GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartServerParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartServerParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartServerParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartServerParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartServerParams>::get(),
@@ -199,8 +204,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartClientParams::GlobalNamespace__LiteNetLibConnectionManager__StartClientParams()  : GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LiteNetLibConnectionManager__StartClientParams>())) {}
+ GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartClientParams GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartClientParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartClientParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartClientParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartClientParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__StartClientParams>::get(),
@@ -263,8 +270,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__Co
 constexpr bool GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams::__get_serverIsConnectionOwner() const {
 return ::cordl_internals::getInstanceField<bool, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams::GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams()  : GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams>())) {}
+ GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__ConnectToServerParams>::get(),
@@ -436,8 +445,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::IPEndPoint, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "LiteNetLib::ConnectionRequest", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest(LiteNetLib::ConnectionRequest request, ::StringW userId, ::StringW userName, bool isConnectionOwner)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest>(request, userId, userName, isConnectionOwner))) {}
+ GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest::New_ctor(LiteNetLib::ConnectionRequest request, ::StringW userId, ::StringW userName, bool isConnectionOwner)  {
+GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest>(request, userId, userName, isConnectionOwner))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest::_ctor(LiteNetLib::ConnectionRequest request, ::StringW userId, ::StringW userName, bool isConnectionOwner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnectionRequest>::get(),
@@ -668,8 +679,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "netPeer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection(LiteNetLib::NetPeer netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection>(netPeer, userId, userName, isConnectionOwner))) {}
+ GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection::New_ctor(LiteNetLib::NetPeer netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner)  {
+GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection>(netPeer, userId, userName, isConnectionOwner))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection::_ctor(LiteNetLib::NetPeer netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection>::get(),
@@ -770,8 +783,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__LiteN
  System::Predicate_1<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection> GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager____c::__get___9__70_0()  {
 return ::cordl_internals::getStaticField<System::Predicate_1<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager__NetPeerConnection>, "<>9__70_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager____c::GlobalNamespace__LiteNetLibConnectionManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LiteNetLibConnectionManager____c>())) {}
+ GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager____c GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LiteNetLibConnectionManager____c>::get(),
@@ -2809,8 +2824,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLibConnectionManager>())) {}
+ GlobalNamespace::LiteNetLibConnectionManager GlobalNamespace::LiteNetLibConnectionManager::New_ctor()  {
+GlobalNamespace::LiteNetLibConnectionManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LiteNetLibConnectionManager>())};
+return o;
+}
  void GlobalNamespace::LiteNetLibConnectionManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LiteNetLibConnectionManager>::get(),
@@ -2820,8 +2837,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }]
- GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionManager(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLibConnectionManager>(timeProvider, taskUtility))) {}
+ GlobalNamespace::LiteNetLibConnectionManager GlobalNamespace::LiteNetLibConnectionManager::New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility)  {
+GlobalNamespace::LiteNetLibConnectionManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LiteNetLibConnectionManager>(timeProvider, taskUtility))};
+return o;
+}
  void GlobalNamespace::LiteNetLibConnectionManager::_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LiteNetLibConnectionManager>::get(),

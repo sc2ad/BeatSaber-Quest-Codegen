@@ -4,18 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace RootMotion::FinalIK {
+class VRIK;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace RootMotion::FinalIK {
-class VRIK;
+class RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -103,8 +106,7 @@ constexpr RootMotion::FinalIK::OffsetModifierVRIK __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7(int32_t __1__state) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifierVRIK___Initiate_d__7 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x120b044 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -216,8 +218,7 @@ constexpr float_t __get_lastTime() const;
 /// @brief Method OnDestroy addr 0x120b140 size 0x10c virtual true final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit OffsetModifierVRIK() ;
+static RootMotion::FinalIK::OffsetModifierVRIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x1208fa4 size 0x10 virtual false final false
  void _ctor() ;

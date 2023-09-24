@@ -48,8 +48,7 @@ constexpr explicit XPlatformAccessTokenFetchException(void* ptr) noexcept : Syst
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XPlatformAccessTokenFetchException(::StringW message) ;
+static GlobalNamespace::XPlatformAccessTokenFetchException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x221cca4 size 0x68 virtual false final false
  void _ctor(::StringW message) ;

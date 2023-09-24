@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapLevelData_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapLevelData.get_audioClip
 template<>
 
@@ -89,8 +89,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmapSets", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet>", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapLevelData::BeatmapLevelData(UnityEngine::AudioClip audioClip, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> difficultyBeatmapSets)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelData>(audioClip, difficultyBeatmapSets))) {}
+ GlobalNamespace::BeatmapLevelData GlobalNamespace::BeatmapLevelData::New_ctor(UnityEngine::AudioClip audioClip, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> difficultyBeatmapSets)  {
+GlobalNamespace::BeatmapLevelData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelData>(audioClip, difficultyBeatmapSets))};
+return o;
+}
  void GlobalNamespace::BeatmapLevelData::_ctor(UnityEngine::AudioClip audioClip, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> difficultyBeatmapSets)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelData>::get(),

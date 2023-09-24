@@ -5,13 +5,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
-class BeatmapLevelSO;
+class StandardLevelNoTransitionInstallerData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -20,20 +26,20 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class ColorSchemeSO;
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class StandardLevelNoTransitionInstallerData;
+class ColorSchemeSO;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -187,8 +193,7 @@ constexpr GlobalNamespace::IReadonlyBeatmapData __get_beatmapData() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0() ;
+static GlobalNamespace::GlobalNamespace__LightmappingSceneSetup____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b6094 size 0x8 virtual false final false
  void _ctor() ;
@@ -291,8 +296,7 @@ constexpr GlobalNamespace::StandardLevelNoTransitionInstallerData __get__standar
 /// @brief Method InstallBindings addr 0x21b5384 size 0xd10 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit LightmappingSceneSetup() ;
+static GlobalNamespace::LightmappingSceneSetup New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b609c size 0x8 virtual false final false
  void _ctor() ;

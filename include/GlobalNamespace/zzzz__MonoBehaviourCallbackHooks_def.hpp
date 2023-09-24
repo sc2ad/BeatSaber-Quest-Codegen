@@ -74,8 +74,7 @@ constexpr System::Action_1<float_t> __get_m_OnUpdateDelegate() const;
 /// @brief Method Update addr 0x2a32160 size 0x30 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit MonoBehaviourCallbackHooks() ;
+static GlobalNamespace::MonoBehaviourCallbackHooks New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a32190 size 0x48 virtual false final false
  void _ctor() ;

@@ -8,9 +8,10 @@
 #include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeConnection_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "GlobalNamespace/zzzz__MenuShockwave_def.hpp"
+#include "GlobalNamespace/zzzz__MissionMapAnimationController_def.hpp"
 #include "HMUI/zzzz__ScrollView_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodesManager_def.hpp"
-#include "GlobalNamespace/zzzz__MenuShockwave_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12._ctor
 template<>
 
@@ -155,8 +156,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionMapAnimationController__
 constexpr System::Action GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12::__get_finishCallback() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12 GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateMissionMapCoroutine_d__12>::get(),
@@ -349,8 +352,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionMapAnimationController__
 constexpr GlobalNamespace::MissionMapAnimationController GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MissionMapAnimationController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13::GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13 GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13>::get(),
@@ -537,8 +542,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionMapAnimationController__
 constexpr GlobalNamespace::MissionMapAnimationController GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MissionMapAnimationController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14::GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14 GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateStageCoroutine_d__14>::get(),
@@ -662,8 +669,10 @@ return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::Mission
  System::Func_2<GlobalNamespace::MissionNodeConnection,float_t> GlobalNamespace::GlobalNamespace__MissionMapAnimationController____c::__get___9__15_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::MissionNodeConnection,float_t>, "<>9__15_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionMapAnimationController____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MissionMapAnimationController____c::GlobalNamespace__MissionMapAnimationController____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionMapAnimationController____c>())) {}
+ GlobalNamespace::GlobalNamespace__MissionMapAnimationController____c GlobalNamespace::GlobalNamespace__MissionMapAnimationController____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MissionMapAnimationController____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionMapAnimationController____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionMapAnimationController____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionMapAnimationController____c>::get(),
@@ -841,8 +850,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionMapAnimationController__
 constexpr int32_t GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15::__get___7__wrap3() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15::GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15 GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15>::get(),
@@ -1144,8 +1155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionMapAnimationController::MissionMapAnimationController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionMapAnimationController>())) {}
+ GlobalNamespace::MissionMapAnimationController GlobalNamespace::MissionMapAnimationController::New_ctor()  {
+GlobalNamespace::MissionMapAnimationController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionMapAnimationController>())};
+return o;
+}
  void GlobalNamespace::MissionMapAnimationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionMapAnimationController>::get(),

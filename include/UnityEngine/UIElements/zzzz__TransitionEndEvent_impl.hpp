@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::TransitionEndEvent::TransitionEndEvent()  : UnityEngine::UIElements::TransitionEventBase_1<UnityEngine::UIElements::TransitionEndEvent>(THROW_UNLESS(::il2cpp_utils::New<TransitionEndEvent>())) {}
+ UnityEngine::UIElements::TransitionEndEvent UnityEngine::UIElements::TransitionEndEvent::New_ctor()  {
+UnityEngine::UIElements::TransitionEndEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TransitionEndEvent>())};
+return o;
+}
  void UnityEngine::UIElements::TransitionEndEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TransitionEndEvent>::get(),

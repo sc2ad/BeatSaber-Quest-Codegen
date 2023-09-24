@@ -3,13 +3,14 @@
 #include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData._ctor
 template<>
 
@@ -33,8 +34,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData::__
 constexpr float_t GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData::__get_ambientVolumeScale() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ambientVolumeScale", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData::GlobalNamespace__SongPreviewPlayer__InitData(float_t ambientVolumeScale)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SongPreviewPlayer__InitData>(ambientVolumeScale))) {}
+ GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData::New_ctor(float_t ambientVolumeScale)  {
+GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData>(ambientVolumeScale))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData::_ctor(float_t ambientVolumeScale)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData>::get(),
@@ -189,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceParams::GlobalNamespace__SongPreviewPlayer__AudioSourceParams()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SongPreviewPlayer__AudioSourceParams>())) {}
+ GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceParams GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceParams>::get(),
@@ -339,8 +344,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "audioSource", ty: "UnityEngine::AudioSource", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController::GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController(UnityEngine::AudioSource audioSource)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController>(audioSource))) {}
+ GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController::New_ctor(UnityEngine::AudioSource audioSource)  {
+GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController>(audioSource))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController::_ctor(UnityEngine::AudioSource audioSource)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController>::get(),
@@ -488,8 +495,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SongPreviewPlayer___CrossFadeAf
 constexpr GlobalNamespace::SongPreviewPlayer GlobalNamespace::GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::SongPreviewPlayer, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28 GlobalNamespace::GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28>::get(),
@@ -1071,8 +1080,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, channel);
 }
-// Ctor Parameters []
- GlobalNamespace::SongPreviewPlayer::SongPreviewPlayer()  : GlobalNamespace::AudioPlayerBase(THROW_UNLESS(::il2cpp_utils::New<SongPreviewPlayer>())) {}
+ GlobalNamespace::SongPreviewPlayer GlobalNamespace::SongPreviewPlayer::New_ctor()  {
+GlobalNamespace::SongPreviewPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SongPreviewPlayer>())};
+return o;
+}
  void GlobalNamespace::SongPreviewPlayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SongPreviewPlayer>::get(),

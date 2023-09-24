@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -57,26 +57,22 @@ constexpr explicit ApplicationException(void* ptr) noexcept : System::Exception(
 
 // Methods
 
-// Ctor Parameters []
-explicit ApplicationException() ;
+static System::ApplicationException New_ctor() ;
 
 /// @brief Method .ctor addr 0x23b3cbc size 0x80 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ApplicationException(::StringW message) ;
+static System::ApplicationException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x23b3d3c size 0x78 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit ApplicationException(::StringW message, System::Exception innerException) ;
+static System::ApplicationException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x23b3db4 size 0x80 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ApplicationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::ApplicationException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23b3e34 size 0x80 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

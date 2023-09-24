@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsEncryptionCredentials_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DefaultTlsEncryptionCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials._ctor
 template<>
 
@@ -73,8 +73,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials::
 constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials::__get_mPrivateKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::AsymmetricKeyParameter, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "certificate", ty: "Org::BouncyCastle::Crypto::Tls::Certificate", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials::DefaultTlsEncryptionCredentials(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsEncryptionCredentials>(context, certificate, privateKey))) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials>(context, certificate, privateKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::Certificate certificate, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials>::get(),

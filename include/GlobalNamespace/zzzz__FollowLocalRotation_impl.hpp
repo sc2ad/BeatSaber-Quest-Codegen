@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FollowLocalRotation::FollowLocalRotation()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FollowLocalRotation>())) {}
+ GlobalNamespace::FollowLocalRotation GlobalNamespace::FollowLocalRotation::New_ctor()  {
+GlobalNamespace::FollowLocalRotation o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FollowLocalRotation>())};
+return o;
+}
  void GlobalNamespace::FollowLocalRotation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FollowLocalRotation>::get(),

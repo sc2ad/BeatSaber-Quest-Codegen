@@ -48,8 +48,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers::__get_HmacRipeMD160()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "HmacRipeMD160", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers::IanaObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IanaObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers>::get(),

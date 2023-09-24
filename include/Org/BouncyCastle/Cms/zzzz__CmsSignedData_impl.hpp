@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedData_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__SignedData_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedHelper_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__SignerInformationStore_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__SignedData_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsSignedData._ctor
 template<>
 
@@ -437,8 +437,10 @@ constexpr void Org::BouncyCastle::Cms::CmsSignedData::__set_hashes(System::Colle
 constexpr System::Collections::IDictionary Org::BouncyCastle::Cms::CmsSignedData::__get_hashes() const {
 return ::cordl_internals::getInstanceField<System::Collections::IDictionary, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Cms::CmsSignedData", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData(Org::BouncyCastle::Cms::CmsSignedData c)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsSignedData>(c))) {}
+ Org::BouncyCastle::Cms::CmsSignedData Org::BouncyCastle::Cms::CmsSignedData::New_ctor(Org::BouncyCastle::Cms::CmsSignedData c)  {
+Org::BouncyCastle::Cms::CmsSignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedData>(c))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedData::_ctor(Org::BouncyCastle::Cms::CmsSignedData c)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedData>::get(),
@@ -448,8 +450,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, c);
 }
-// Ctor Parameters [CppParam { name: "sigBlock", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData(::ArrayW<uint8_t> sigBlock)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsSignedData>(sigBlock))) {}
+ Org::BouncyCastle::Cms::CmsSignedData Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::ArrayW<uint8_t> sigBlock)  {
+Org::BouncyCastle::Cms::CmsSignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedData>(sigBlock))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::ArrayW<uint8_t> sigBlock)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedData>::get(),
@@ -459,8 +463,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sigBlock);
 }
-// Ctor Parameters [CppParam { name: "signedContent", ty: "Org::BouncyCastle::Cms::CmsProcessable", modifiers: "", def_value: None }, CppParam { name: "sigBlock", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData(Org::BouncyCastle::Cms::CmsProcessable signedContent, ::ArrayW<uint8_t> sigBlock)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsSignedData>(signedContent, sigBlock))) {}
+ Org::BouncyCastle::Cms::CmsSignedData Org::BouncyCastle::Cms::CmsSignedData::New_ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, ::ArrayW<uint8_t> sigBlock)  {
+Org::BouncyCastle::Cms::CmsSignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedData>(signedContent, sigBlock))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedData::_ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, ::ArrayW<uint8_t> sigBlock)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedData>::get(),
@@ -470,8 +476,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, signedContent, sigBlock);
 }
-// Ctor Parameters [CppParam { name: "hashes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "sigBlock", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData(System::Collections::IDictionary hashes, ::ArrayW<uint8_t> sigBlock)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsSignedData>(hashes, sigBlock))) {}
+ Org::BouncyCastle::Cms::CmsSignedData Org::BouncyCastle::Cms::CmsSignedData::New_ctor(System::Collections::IDictionary hashes, ::ArrayW<uint8_t> sigBlock)  {
+Org::BouncyCastle::Cms::CmsSignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedData>(hashes, sigBlock))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedData::_ctor(System::Collections::IDictionary hashes, ::ArrayW<uint8_t> sigBlock)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedData>::get(),
@@ -481,8 +489,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, hashes, sigBlock);
 }
-// Ctor Parameters [CppParam { name: "signedContent", ty: "Org::BouncyCastle::Cms::CmsProcessable", modifiers: "", def_value: None }, CppParam { name: "sigData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData(Org::BouncyCastle::Cms::CmsProcessable signedContent, System::IO::Stream sigData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsSignedData>(signedContent, sigData))) {}
+ Org::BouncyCastle::Cms::CmsSignedData Org::BouncyCastle::Cms::CmsSignedData::New_ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, System::IO::Stream sigData)  {
+Org::BouncyCastle::Cms::CmsSignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedData>(signedContent, sigData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedData::_ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, System::IO::Stream sigData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedData>::get(),
@@ -492,8 +502,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, signedContent, sigData);
 }
-// Ctor Parameters [CppParam { name: "sigData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData(System::IO::Stream sigData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsSignedData>(sigData))) {}
+ Org::BouncyCastle::Cms::CmsSignedData Org::BouncyCastle::Cms::CmsSignedData::New_ctor(System::IO::Stream sigData)  {
+Org::BouncyCastle::Cms::CmsSignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedData>(sigData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedData::_ctor(System::IO::Stream sigData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedData>::get(),
@@ -503,8 +515,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sigData);
 }
-// Ctor Parameters [CppParam { name: "signedContent", ty: "Org::BouncyCastle::Cms::CmsProcessable", modifiers: "", def_value: None }, CppParam { name: "sigData", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData(Org::BouncyCastle::Cms::CmsProcessable signedContent, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsSignedData>(signedContent, sigData))) {}
+ Org::BouncyCastle::Cms::CmsSignedData Org::BouncyCastle::Cms::CmsSignedData::New_ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData)  {
+Org::BouncyCastle::Cms::CmsSignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedData>(signedContent, sigData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedData::_ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedData>::get(),
@@ -514,8 +528,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, signedContent, sigData);
 }
-// Ctor Parameters [CppParam { name: "hashes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "sigData", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData(System::Collections::IDictionary hashes, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsSignedData>(hashes, sigData))) {}
+ Org::BouncyCastle::Cms::CmsSignedData Org::BouncyCastle::Cms::CmsSignedData::New_ctor(System::Collections::IDictionary hashes, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData)  {
+Org::BouncyCastle::Cms::CmsSignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedData>(hashes, sigData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedData::_ctor(System::Collections::IDictionary hashes, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedData>::get(),
@@ -525,8 +541,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, hashes, sigData);
 }
-// Ctor Parameters [CppParam { name: "sigData", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData(Org::BouncyCastle::Asn1::Cms::ContentInfo sigData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsSignedData>(sigData))) {}
+ Org::BouncyCastle::Cms::CmsSignedData Org::BouncyCastle::Cms::CmsSignedData::New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo sigData)  {
+Org::BouncyCastle::Cms::CmsSignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedData>(sigData))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedData::_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo sigData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedData>::get(),

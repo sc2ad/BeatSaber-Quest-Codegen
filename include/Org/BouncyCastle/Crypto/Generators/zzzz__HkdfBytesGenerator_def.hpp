@@ -6,8 +6,8 @@
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto::Macs {
-class HMac;
+namespace Org::BouncyCastle::Crypto {
+class IDerivationParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
@@ -15,8 +15,8 @@ class KeyParameter;
 namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
+namespace Org::BouncyCastle::Crypto::Macs {
+class HMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -105,8 +105,7 @@ constexpr int32_t __get_generatedBytes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hash", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit HkdfBytesGenerator(Org::BouncyCastle::Crypto::IDigest hash) ;
+static Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator New_ctor(Org::BouncyCastle::Crypto::IDigest hash) ;
 
 /// @brief Method .ctor addr 0xe70aa0 size 0xf4 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest hash) ;

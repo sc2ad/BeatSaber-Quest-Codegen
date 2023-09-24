@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormattable_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
 //  Writing Method size for method: UnityEngine::Color._ctor
 template<>
 

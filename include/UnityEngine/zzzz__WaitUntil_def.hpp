@@ -68,8 +68,7 @@ constexpr System::Func_1<bool> __get_m_Predicate() const;
 /// @brief Method get_keepWaiting addr 0x2b57c64 size 0x30 virtual true final false
  bool get_keepWaiting() ;
 
-// Ctor Parameters [CppParam { name: "predicate", ty: "System::Func_1<bool>", modifiers: "", def_value: None }]
-explicit WaitUntil(System::Func_1<bool> predicate) ;
+static UnityEngine::WaitUntil New_ctor(System::Func_1<bool> predicate) ;
 
 /// @brief Method .ctor addr 0x2b57c94 size 0x28 virtual false final false
  void _ctor(System::Func_1<bool> predicate) ;

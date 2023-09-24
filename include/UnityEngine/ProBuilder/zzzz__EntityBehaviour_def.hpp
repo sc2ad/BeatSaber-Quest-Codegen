@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -77,8 +77,7 @@ constexpr bool __get_manageVisibility() const;
 /// @brief Method SetMaterial addr 0x29a8c00 size 0xe4 virtual false final false
  void SetMaterial(UnityEngine::Material material) ;
 
-// Ctor Parameters []
-explicit EntityBehaviour() ;
+static UnityEngine::ProBuilder::EntityBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a8e64 size 0x10 virtual false final false
  void _ctor() ;

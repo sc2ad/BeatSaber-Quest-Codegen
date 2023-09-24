@@ -3,11 +3,11 @@
 #include "Zenject/zzzz__MemoryPool_4_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -24,7 +24,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11001)), TypeDefinitionIndex(TypeDefinitionIndex(10983)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10983), inst: 3389 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10983)), TypeDefinitionIndex(TypeDefinitionIndex(11001)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10983), inst: 3389 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11001), inst: 5937 })
 // CS Name: Zenject.MonoPoolableMemoryPool`4
 class CORDL_TYPE MonoPoolableMemoryPool_4<TParam1,TParam2,TParam3,TValue> : public Zenject::MemoryPool_4<TParam1,TParam2,TParam3,TValue> {
@@ -72,8 +72,7 @@ constexpr UnityEngine::Transform __get__originalParent() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoPoolableMemoryPool_4() ;
+static Zenject::MonoPoolableMemoryPool_4<TParam1,TParam2,TParam3,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

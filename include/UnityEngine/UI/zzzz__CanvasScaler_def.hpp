@@ -4,11 +4,20 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UI {
+struct UnityEngine__UI__CanvasScaler__ScreenMatchMode;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__CanvasScaler__Unit;
 }
 namespace UnityEngine {
 class Canvas;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__CanvasScaler__ScaleMode;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -73,6 +82,8 @@ __ConstantPhysicalSize = 2,
 constexpr operator __UnityEngine__UI__CanvasScaler__ScaleMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__CanvasScaler__ScaleMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -146,6 +157,8 @@ __Shrink = 2,
 constexpr operator __UnityEngine__UI__CanvasScaler__ScreenMatchMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__CanvasScaler__ScreenMatchMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -221,6 +234,8 @@ __Picas = 4,
 constexpr operator __UnityEngine__UI__CanvasScaler__Unit_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__CanvasScaler__Unit_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -471,8 +486,7 @@ constexpr bool __get_m_PresetInfoIsWorld() const;
 /// @brief Method set_dynamicPixelsPerUnit addr 0x2bfaf30 size 0x8 virtual false final false
  void set_dynamicPixelsPerUnit(float_t value) ;
 
-// Ctor Parameters []
-explicit CanvasScaler() ;
+static UnityEngine::UI::CanvasScaler New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bfaf38 size 0x48 virtual false final false
  void _ctor() ;

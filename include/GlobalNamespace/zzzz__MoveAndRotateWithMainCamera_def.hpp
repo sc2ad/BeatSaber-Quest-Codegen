@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 namespace GlobalNamespace {
 class MainCamera;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -92,8 +92,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method LateUpdate addr 0x21a3ac0 size 0xfc virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit MoveAndRotateWithMainCamera() ;
+static GlobalNamespace::MoveAndRotateWithMainCamera New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a3bbc size 0x8 virtual false final false
  void _ctor() ;

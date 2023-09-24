@@ -3,8 +3,17 @@
 #include "UnityEngine/UI/zzzz__LayoutGroup_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UI {
+struct UnityEngine__UI__GridLayoutGroup__Corner;
+}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__GridLayoutGroup__Axis;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__GridLayoutGroup__Constraint;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -70,6 +79,8 @@ __LowerRight = 3,
 constexpr operator __UnityEngine__UI__GridLayoutGroup__Corner_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__GridLayoutGroup__Corner_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -146,6 +157,8 @@ constexpr operator __UnityEngine__UI__GridLayoutGroup__Axis_Unwrapped () const n
 return std::bit_cast<__UnityEngine__UI__GridLayoutGroup__Axis_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -215,6 +228,8 @@ __FixedRowCount = 2,
 constexpr operator __UnityEngine__UI__GridLayoutGroup__Constraint_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__GridLayoutGroup__Constraint_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -376,8 +391,7 @@ constexpr int32_t __get_m_ConstraintCount() const;
 /// @brief Method set_constraintCount addr 0x2bfbb48 size 0x60 virtual false final false
  void set_constraintCount(int32_t value) ;
 
-// Ctor Parameters []
-explicit GridLayoutGroup() ;
+static UnityEngine::UI::GridLayoutGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bfbba8 size 0x68 virtual false final false
  void _ctor() ;

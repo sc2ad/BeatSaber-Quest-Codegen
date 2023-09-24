@@ -87,8 +87,10 @@ constexpr void UnityEngine::ProBuilder::XYZColor::__set_z(float_t value)  {
 constexpr float_t UnityEngine::ProBuilder::XYZColor::__get_z() const {
 return ::cordl_internals::getInstanceField<float_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::XYZColor::XYZColor(float_t x, float_t y, float_t z)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XYZColor>(x, y, z))) {}
+ UnityEngine::ProBuilder::XYZColor UnityEngine::ProBuilder::XYZColor::New_ctor(float_t x, float_t y, float_t z)  {
+UnityEngine::ProBuilder::XYZColor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::XYZColor>(x, y, z))};
+return o;
+}
  void UnityEngine::ProBuilder::XYZColor::_ctor(float_t x, float_t y, float_t z)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::XYZColor>::get(),

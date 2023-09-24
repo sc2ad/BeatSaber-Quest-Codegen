@@ -100,8 +100,10 @@ return ::cordl_internals::getInstanceField<bool, 0x1c>(this->::bs_hook::Il2CppWr
  Zenject::MemoryPoolSettings Zenject::MemoryPoolSettings::__get_Default()  {
 return ::cordl_internals::getStaticField<Zenject::MemoryPoolSettings, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPoolSettings>::get>();
 }
-// Ctor Parameters []
- Zenject::MemoryPoolSettings::MemoryPoolSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MemoryPoolSettings>())) {}
+ Zenject::MemoryPoolSettings Zenject::MemoryPoolSettings::New_ctor()  {
+Zenject::MemoryPoolSettings o{THROW_UNLESS(::il2cpp_utils::New<Zenject::MemoryPoolSettings>())};
+return o;
+}
  void Zenject::MemoryPoolSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPoolSettings>::get(),
@@ -111,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "expandMethod", ty: "Zenject::PoolExpandMethods", modifiers: "", def_value: None }, CppParam { name: "showExpandWarning", ty: "bool", modifiers: "", def_value: None }]
- Zenject::MemoryPoolSettings::MemoryPoolSettings(int32_t initialSize, int32_t maxSize, Zenject::PoolExpandMethods expandMethod, bool showExpandWarning)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MemoryPoolSettings>(initialSize, maxSize, expandMethod, showExpandWarning))) {}
+ Zenject::MemoryPoolSettings Zenject::MemoryPoolSettings::New_ctor(int32_t initialSize, int32_t maxSize, Zenject::PoolExpandMethods expandMethod, bool showExpandWarning)  {
+Zenject::MemoryPoolSettings o{THROW_UNLESS(::il2cpp_utils::New<Zenject::MemoryPoolSettings>(initialSize, maxSize, expandMethod, showExpandWarning))};
+return o;
+}
  void Zenject::MemoryPoolSettings::_ctor(int32_t initialSize, int32_t maxSize, Zenject::PoolExpandMethods expandMethod, bool showExpandWarning)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPoolSettings>::get(),

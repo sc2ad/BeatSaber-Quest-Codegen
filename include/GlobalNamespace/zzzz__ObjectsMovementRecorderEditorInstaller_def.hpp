@@ -50,8 +50,7 @@ constexpr explicit ObjectsMovementRecorderEditorInstaller(void* ptr) noexcept : 
 /// @brief Method InstallBindings addr 0x21a4f04 size 0x4 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit ObjectsMovementRecorderEditorInstaller() ;
+static GlobalNamespace::ObjectsMovementRecorderEditorInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a4f08 size 0x8 virtual false final false
  void _ctor() ;

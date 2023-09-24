@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::InvalidProgramException::InvalidProgramException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<InvalidProgramException>())) {}
+ System::InvalidProgramException System::InvalidProgramException::New_ctor()  {
+System::InvalidProgramException o{THROW_UNLESS(::il2cpp_utils::New<System::InvalidProgramException>())};
+return o;
+}
  void System::InvalidProgramException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::InvalidProgramException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::InvalidProgramException::InvalidProgramException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<InvalidProgramException>(message))) {}
+ System::InvalidProgramException System::InvalidProgramException::New_ctor(::StringW message)  {
+System::InvalidProgramException o{THROW_UNLESS(::il2cpp_utils::New<System::InvalidProgramException>(message))};
+return o;
+}
  void System::InvalidProgramException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::InvalidProgramException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::InvalidProgramException::InvalidProgramException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<InvalidProgramException>(info, context))) {}
+ System::InvalidProgramException System::InvalidProgramException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::InvalidProgramException o{THROW_UNLESS(::il2cpp_utils::New<System::InvalidProgramException>(info, context))};
+return o;
+}
  void System::InvalidProgramException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::InvalidProgramException>::get(),

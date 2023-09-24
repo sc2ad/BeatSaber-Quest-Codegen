@@ -81,8 +81,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, hapticPreset);
 }
-// Ctor Parameters []
- Libraries::HM::HMLib::VR::HapticPresetSO::HapticPresetSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<HapticPresetSO>())) {}
+ Libraries::HM::HMLib::VR::HapticPresetSO Libraries::HM::HMLib::VR::HapticPresetSO::New_ctor()  {
+Libraries::HM::HMLib::VR::HapticPresetSO o{THROW_UNLESS(::il2cpp_utils::New<Libraries::HM::HMLib::VR::HapticPresetSO>())};
+return o;
+}
  void Libraries::HM::HMLib::VR::HapticPresetSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Libraries::HM::HMLib::VR::HapticPresetSO>::get(),

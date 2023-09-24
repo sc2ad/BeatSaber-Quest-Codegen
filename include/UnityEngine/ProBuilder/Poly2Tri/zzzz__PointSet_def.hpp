@@ -8,14 +8,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
+struct TriangulationMode;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationMode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationContext;
@@ -27,6 +24,9 @@ class List_1;
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class DelaunayTriangle;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -113,8 +113,7 @@ constexpr System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tr
 /// @brief Method set_Triangles addr 0x29a184c size 0x8 virtual false final false
  void set_Triangles(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle> value) ;
 
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint>", modifiers: "", def_value: None }]
-explicit PointSet(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint> points) ;
+static UnityEngine::ProBuilder::Poly2Tri::PointSet New_ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint> points) ;
 
 /// @brief Method .ctor addr 0x29a1450 size 0x90 virtual false final false
  void _ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint> points) ;

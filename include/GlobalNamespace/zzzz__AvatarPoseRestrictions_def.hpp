@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace GlobalNamespace {
 class AvatarPoseController;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -130,8 +130,7 @@ constexpr GlobalNamespace::AvatarPoseController __get__avatarPoseController() co
 /// @brief Method LimitHandPositionRelativeToHead addr 0x20c0730 size 0x90 virtual false final false
  UnityEngine::Vector3 LimitHandPositionRelativeToHead(UnityEngine::Vector3 handPosition, UnityEngine::Vector3 headCenter) ;
 
-// Ctor Parameters []
-explicit AvatarPoseRestrictions() ;
+static GlobalNamespace::AvatarPoseRestrictions New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c07c0 size 0x3c virtual false final false
  void _ctor() ;

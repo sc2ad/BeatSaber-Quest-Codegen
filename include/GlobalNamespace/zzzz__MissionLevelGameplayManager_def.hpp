@@ -17,30 +17,39 @@ class IEnumerator;
 namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
 }
-namespace System {
-class Action;
-}
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class ILevelEndActions;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-class PauseController;
-}
-namespace GlobalNamespace {
-class ILevelStartController;
+class GlobalNamespace__MissionLevelGameplayManager__InitData;
 }
 namespace GlobalNamespace {
 class GameSongController;
 }
 namespace GlobalNamespace {
-class ILevelEndActions;
+class GameEnergyCounter;
 }
 namespace GlobalNamespace {
-class GameEnergyCounter;
+class PauseController;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MissionLevelGameplayManager___Start_d__23;
+}
+namespace GlobalNamespace {
+class ILevelStartController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MissionLevelGameplayManager__GameState;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -106,8 +115,7 @@ constexpr bool __get_failOn0Energy() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "failOn0Energy", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MissionLevelGameplayManager__InitData(bool failOn0Energy) ;
+static GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__InitData New_ctor(bool failOn0Energy) ;
 
 /// @brief Method .ctor addr 0x227133c size 0x28 virtual false final false
  void _ctor(bool failOn0Energy) ;
@@ -168,6 +176,8 @@ __Failed = 4,
 constexpr operator __GlobalNamespace__MissionLevelGameplayManager__GameState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MissionLevelGameplayManager__GameState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -276,8 +286,7 @@ constexpr GlobalNamespace::MissionLevelGameplayManager __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MissionLevelGameplayManager___Start_d__23(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager___Start_d__23 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2270f14 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -481,8 +490,7 @@ constexpr GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__GameSta
 /// @brief Method HandlePauseControllerDidResume addr 0x227131c size 0x18 virtual false final false
  void HandlePauseControllerDidResume() ;
 
-// Ctor Parameters []
-explicit MissionLevelGameplayManager() ;
+static GlobalNamespace::MissionLevelGameplayManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2271334 size 0x8 virtual false final false
  void _ctor() ;

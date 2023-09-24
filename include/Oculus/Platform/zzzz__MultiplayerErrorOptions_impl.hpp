@@ -75,8 +75,10 @@ constexpr void Oculus::Platform::MultiplayerErrorOptions::__set_Handle(::cordl_i
 constexpr ::cordl_internals::intptr_t Oculus::Platform::MultiplayerErrorOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::MultiplayerErrorOptions::MultiplayerErrorOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerErrorOptions>())) {}
+ Oculus::Platform::MultiplayerErrorOptions Oculus::Platform::MultiplayerErrorOptions::New_ctor()  {
+Oculus::Platform::MultiplayerErrorOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::MultiplayerErrorOptions>())};
+return o;
+}
  void Oculus::Platform::MultiplayerErrorOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MultiplayerErrorOptions>::get(),

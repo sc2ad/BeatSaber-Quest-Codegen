@@ -589,8 +589,10 @@ return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "T2", ::il2cpp_utils
  ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Engines::Dstu7624Engine::__get_T3()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "T3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Dstu7624Engine>::get>();
 }
-// Ctor Parameters [CppParam { name: "blockSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::Dstu7624Engine::Dstu7624Engine(int32_t blockSizeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Dstu7624Engine>(blockSizeBits))) {}
+ Org::BouncyCastle::Crypto::Engines::Dstu7624Engine Org::BouncyCastle::Crypto::Engines::Dstu7624Engine::New_ctor(int32_t blockSizeBits)  {
+Org::BouncyCastle::Crypto::Engines::Dstu7624Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Dstu7624Engine>(blockSizeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Dstu7624Engine::_ctor(int32_t blockSizeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Dstu7624Engine>::get(),

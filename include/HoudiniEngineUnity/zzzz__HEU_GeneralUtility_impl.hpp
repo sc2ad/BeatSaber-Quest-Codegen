@@ -1,33 +1,34 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GeneralUtility_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GeneralUtility_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MeshCollider_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Parameters_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Handle_def.hpp"
 #include "HoudiniEngineUnity/zzzz__TransformData_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Parameters_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_OutputAttribute_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAssetRoot_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AssetInfo_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_OutputAttribute_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_HandleInfo_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ParmChoiceInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
@@ -2147,8 +2148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::GameObject, false>(nullptr, ___internal_method, path);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_GeneralUtility::HEU_GeneralUtility()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_GeneralUtility>())) {}
+ HoudiniEngineUnity::HEU_GeneralUtility HoudiniEngineUnity::HEU_GeneralUtility::New_ctor()  {
+HoudiniEngineUnity::HEU_GeneralUtility o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_GeneralUtility>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_GeneralUtility::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_GeneralUtility>::get(),
@@ -2158,16 +2161,16 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1._ctor
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
@@ -2175,619 +2178,91 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1.Invoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::*)(int32_t, ByRef<::ArrayW<T>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>),
                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   13
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1.BeginInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>.BeginInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::*)(int32_t, ByRef<::ArrayW<T>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::BeginInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>),
                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   14
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1.EndInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>.EndInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::EndInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>),
                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   15
                                 ));
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::Invoke(int32_t arg1, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::Invoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::BeginInvoke(int32_t arg1, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::*)(int32_t, ByRef<::ArrayW<int32_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::*)(int32_t, ByRef<::ArrayW<int32_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::Invoke(int32_t arg1, ByRef<::ArrayW<int32_t>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int32_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<int32_t>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int32_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<int32_t>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::*)(int32_t, ByRef<::ArrayW<float_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::*)(int32_t, ByRef<::ArrayW<float_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::Invoke(int32_t arg1, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::Invoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::Invoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::Invoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
@@ -2862,8 +2337,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmChoiceInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>(object, method))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmChoiceInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmChoiceInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmChoiceInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>(object, method))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmChoiceInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
@@ -2900,16 +2377,16 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>._ctor
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
@@ -2917,105 +2394,107 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>.Invoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>),
                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   13
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>.BeginInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>.BeginInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::BeginInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>),
                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   14
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>.EndInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>.EndInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::EndInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>),
                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   15
                                 ));
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::Invoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::Invoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2._ctor
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
@@ -3023,105 +2502,107 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2.Invoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::*)(int32_t, ARG2, ByRef<::ArrayW<T>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   13
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2.BeginInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>.BeginInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::*)(int32_t, ARG2, ByRef<::ArrayW<T>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::BeginInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   14
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2.EndInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>.EndInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::EndInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   15
                                 ));
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::Invoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::Invoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::BeginInvoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>._ctor
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
@@ -3129,105 +2610,107 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>.Invoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::*)(int32_t, int32_t, ByRef<::ArrayW<int32_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   13
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>.BeginInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>.BeginInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::*)(int32_t, int32_t, ByRef<::ArrayW<int32_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::*)(int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::BeginInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   14
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>.EndInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>.EndInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::EndInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   15
                                 ));
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::Invoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<int32_t>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::Invoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int32_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::BeginInvoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<int32_t>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int32_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>._ctor
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
@@ -3235,725 +2718,171 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>.Invoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::*)(int32_t, int32_t, ByRef<::ArrayW<float_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::*)(int32_t, ByRef<::ArrayW<float_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   13
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>.BeginInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>.BeginInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::*)(int32_t, int32_t, ByRef<::ArrayW<float_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::*)(int32_t, ByRef<::ArrayW<float_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::BeginInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   14
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>.EndInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>.EndInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::EndInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1>::get(),
                                   15
                                 ));
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::Invoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::Invoke(int32_t arg1, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::BeginInvoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,float_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<float_t>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::*)(int32_t, int32_t, ByRef<::ArrayW<T>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::*)(int32_t, int32_t, ByRef<::ArrayW<T>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::Invoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>::Invoke(int32_t arg1, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::BeginInvoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::*)(int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::*)(int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::Invoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>::Invoke(int32_t arg1, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::BeginInvoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>::BeginInvoke(int32_t arg1, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::*)(int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::*)(int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::Invoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::BeginInvoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::*)(int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::*)(int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::Invoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::BeginInvoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::*)(int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::*)(int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::Invoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::BeginInvoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::*)(int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::*)(int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::Invoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::BeginInvoke(int32_t arg1, int32_t arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<int32_t,HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray1ArgDel_1<T>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
@@ -4028,8 +2957,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2>(object, method))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<System::Int32Enum,HoudiniEngineUnity::HAPI_Transform> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<System::Int32Enum,HoudiniEngineUnity::HAPI_Transform> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>(object, method))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>::get(),
@@ -4066,1696 +2997,840 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<int32_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<int32_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::Invoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<int32_t>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform>::Invoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int32_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::BeginInvoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<int32_t>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform>::BeginInvoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int32_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_Transform>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(int32_t, ARG2, ARG3, ByRef<::ArrayW<T>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(int32_t, ARG2, ARG3, ByRef<::ArrayW<T>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::Invoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo>::Invoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo>::BeginInvoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::Invoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::BeginInvoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>::Invoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>::BeginInvoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo>::Invoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo>::BeginInvoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::Invoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::BeginInvoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t>::Invoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t>::BeginInvoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,float_t>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::Invoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::BeginInvoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::Invoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::BeginInvoke(int32_t arg1, ARG2 arg2, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray2ArgDel_2<ARG2,T>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform>::Invoke(int32_t arg1, ARG2 arg2, System::Int32Enum arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Int32Enum>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform>::BeginInvoke(int32_t arg1, ARG2 arg2, System::Int32Enum arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Int32Enum>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,ARG2,HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::Invoke(int32_t arg1, System::Int32Enum arg2, ARG3 arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Int32Enum>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::BeginInvoke(int32_t arg1, System::Int32Enum arg2, ARG3 arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Int32Enum>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t>::Invoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t>::BeginInvoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,float_t>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo>::Invoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo>::BeginInvoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::Invoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::BeginInvoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>::Invoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>::BeginInvoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo>::Invoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo>::BeginInvoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo>::EndInvoke(System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::Invoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::BeginInvoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::BeginInvoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<T>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<T>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::Invoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::Invoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::BeginInvoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::BeginInvoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(int32_t, ARG2, int32_t, ByRef<::ArrayW<T>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(int32_t, ARG2, int32_t, ByRef<::ArrayW<T>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::Invoke(int32_t arg1, ARG2 arg2, int32_t arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::Invoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::BeginInvoke(int32_t arg1, ARG2 arg2, int32_t arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::BeginInvoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::Invoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::Invoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::BeginInvoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::BeginInvoke(int32_t arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>::EndInvoke(System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<ARG3,ARG2,T>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::Invoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::BeginInvoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ObjectInfo>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::Invoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::BeginInvoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmChoiceInfo>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::Invoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::BeginInvoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,HoudiniEngineUnity::HAPI_ParmInfo>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<float_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::*)(int32_t, int32_t, int32_t, ByRef<::ArrayW<float_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::Invoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::BeginInvoke(int32_t arg1, int32_t arg2, int32_t arg3, ByRef<::ArrayW<float_t>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,int32_t,float_t>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::*)(int32_t, System::Int32Enum, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::*)(int32_t, System::Int32Enum, int32_t, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::Invoke(int32_t arg1, System::Int32Enum arg2, int32_t arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Int32Enum>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::BeginInvoke(int32_t arg1, System::Int32Enum arg2, int32_t arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Int32Enum>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<int32_t,System::Int32Enum,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::*)(int32_t, int32_t, System::Int32Enum, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::*)(int32_t, int32_t, System::Int32Enum, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::*)(System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::Invoke(int32_t arg1, int32_t arg2, System::Int32Enum arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Int32Enum>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::BeginInvoke(int32_t arg1, int32_t arg2, System::Int32Enum arg3, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> data, int32_t start, int32_t length, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Int32Enum>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, arg1, arg2, arg3, data, start, length, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>::EndInvoke(System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetArray3ArgDel_3<System::Int32Enum,int32_t,HoudiniEngineUnity::HAPI_Transform>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<T>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<T>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::*)(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, info, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int32_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int32_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::*)(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int32_t>> items, int32_t start, int32_t end)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int32_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int32_t>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int32_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int32_t>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, info, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<float_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<float_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::*)(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<float_t>> items, int32_t start, int32_t end)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<float_t>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, info, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int16_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int16_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::*)(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int16_t>> items, int32_t start, int32_t end)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int16_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int16_t>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int16_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int16_t>>::get(),
-                            "EndInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, info, result);
-}
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int64_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int64_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::*)(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int64_t>> items, int32_t start, int32_t end)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int64_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end);
-}
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int64_t>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>>::get(),
-                            "BeginInvoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int64_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end, callback, object);
-}
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int64_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
@@ -5830,8 +3905,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<double_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>(object, method))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<double_t> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<double_t>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<double_t> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<double_t>>(object, method))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<double_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<double_t>>::get(),
@@ -5868,228 +3945,96 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, info, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int8_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int8_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::*)(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int8_t>> items, int32_t start, int32_t end)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int8_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int8_t>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<int8_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<int8_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, info, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<T>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<T>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::*)(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::Invoke(int32_t geoID, int32_t partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, int32_t start, int32_t end)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, attrName, attrInfo, items, start, end);
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::BeginInvoke(int32_t geoID, int32_t partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, attrName, attrInfo, items, start, end, callback, object);
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, attrInfo, result);
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, info, result);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>._ctor
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
@@ -6097,94 +4042,176 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>.Invoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>.Invoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<int32_t>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<float_t>>, int32_t, int32_t)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::Invoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
                                   13
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>.BeginInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>.BeginInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<int32_t>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::*)(int32_t, int32_t, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<float_t>>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::BeginInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
                                   14
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>.EndInvoke
+//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>.EndInvoke
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::*)(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::*)(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, System::IAsyncResult)>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::EndInvoke)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>::get(),
+                                classof(HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1>::get(),
                                   15
                                 ));
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>(object, method))) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::Invoke(int32_t geoID, int32_t partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int32_t> items, int32_t start, int32_t end)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<float_t>> items, int32_t start, int32_t end)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, attrName, attrInfo, items, start, end);
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end);
 }
- System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int32_t> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<float_t>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<float_t>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, attrName, attrInfo, items, start, end, callback, object);
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end, callback, object);
 }
- bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, System::IAsyncResult result)  {
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<int32_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<float_t>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
                         )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, attrInfo, result);
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, info, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, info, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::Invoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, name, info, items, start, end, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__GetAttributeArrayInputFunc_1<T>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, info, result);
 }
 //  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<float_t>._ctor
 template<>
@@ -6254,8 +4281,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<float_t>::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1>(object, method))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<float_t> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<float_t>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<float_t> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<float_t>>(object, method))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<float_t>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<float_t>>::get(),
@@ -6286,6 +4315,86 @@ return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_ca
  bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<float_t>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<float_t>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, attrInfo, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>::Invoke(int32_t geoID, int32_t partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, int32_t start, int32_t end)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, attrName, attrInfo, items, start, end);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, attrName, attrInfo, items, start, end, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>>::get(),
+                            "EndInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, attrInfo, result);
+}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>>(object, method))};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>::Invoke(int32_t geoID, int32_t partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, int32_t start, int32_t end)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>>::get(),
+                            "Invoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, attrName, attrInfo, items, start, end);
+}
+ System::IAsyncResult HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>::BeginInvoke(int32_t geoID, int32_t partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, int32_t start, int32_t end, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>>::get(),
+                            "BeginInvoke",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, geoID, partID, attrName, attrInfo, items, start, end, callback, object);
+}
+ bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>::EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, System::IAsyncResult result)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_GeneralUtility__SetAttributeArrayFunc_1<T>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}

@@ -62,6 +62,8 @@ constexpr operator __BinaryTypeEnum_Unwrapped () const noexcept {
 return std::bit_cast<__BinaryTypeEnum_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

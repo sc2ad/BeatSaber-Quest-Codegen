@@ -212,8 +212,10 @@ constexpr void Org::BouncyCastle::Crypto::Modes::CfbBlockCipher::__set_cipher(Or
 constexpr Org::BouncyCastle::Crypto::IBlockCipher Org::BouncyCastle::Crypto::Modes::CfbBlockCipher::__get_cipher() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IBlockCipher, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "bitBlockSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Modes::CfbBlockCipher::CfbBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t bitBlockSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CfbBlockCipher>(cipher, bitBlockSize))) {}
+ Org::BouncyCastle::Crypto::Modes::CfbBlockCipher Org::BouncyCastle::Crypto::Modes::CfbBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t bitBlockSize)  {
+Org::BouncyCastle::Crypto::Modes::CfbBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::CfbBlockCipher>(cipher, bitBlockSize))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::CfbBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t bitBlockSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::CfbBlockCipher>::get(),

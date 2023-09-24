@@ -66,8 +66,10 @@ constexpr void Oculus::Platform::Models::MatchmakingEnqueueResult::__set_Request
 constexpr ::StringW Oculus::Platform::Models::MatchmakingEnqueueResult::__get_RequestHash() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::MatchmakingEnqueueResult::MatchmakingEnqueueResult(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MatchmakingEnqueueResult>(o))) {}
+ Oculus::Platform::Models::MatchmakingEnqueueResult Oculus::Platform::Models::MatchmakingEnqueueResult::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::MatchmakingEnqueueResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::MatchmakingEnqueueResult>(o))};
+return o;
+}
  void Oculus::Platform::Models::MatchmakingEnqueueResult::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::MatchmakingEnqueueResult>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OculusDeeplinkManager_def.hpp"
-#include "Oculus/Platform/Models/zzzz__GroupPresenceJoinIntent_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__IDeeplinkManager_def.hpp"
 #include "GlobalNamespace/zzzz__Deeplink_def.hpp"
+#include "Oculus/Platform/Models/zzzz__GroupPresenceJoinIntent_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LaunchDetails_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OculusDeeplinkManager.add_didReceiveDeeplinkEvent
 template<>
@@ -279,8 +279,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusDeeplinkManager::OculusDeeplinkManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OculusDeeplinkManager>())) {}
+ GlobalNamespace::OculusDeeplinkManager GlobalNamespace::OculusDeeplinkManager::New_ctor()  {
+GlobalNamespace::OculusDeeplinkManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusDeeplinkManager>())};
+return o;
+}
  void GlobalNamespace::OculusDeeplinkManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusDeeplinkManager>::get(),

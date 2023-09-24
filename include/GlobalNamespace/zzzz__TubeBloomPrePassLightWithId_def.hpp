@@ -85,8 +85,7 @@ constexpr bool __get__setColorOnly() const;
 /// @brief Method ColorWasSet addr 0x1fa1704 size 0x58 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit TubeBloomPrePassLightWithId() ;
+static GlobalNamespace::TubeBloomPrePassLightWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa175c size 0x8 virtual false final false
  void _ctor() ;

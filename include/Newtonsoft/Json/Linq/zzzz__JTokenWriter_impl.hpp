@@ -1,17 +1,17 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonWriter_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenWriter_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JTokenWriter.get_CurrentToken
 template<>
 
@@ -751,8 +751,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Newtonsoft::Json::Linq::JToken, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Newtonsoft::Json::Linq::JContainer", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JTokenWriter::JTokenWriter(Newtonsoft::Json::Linq::JContainer container)  : Newtonsoft::Json::JsonWriter(THROW_UNLESS(::il2cpp_utils::New<JTokenWriter>(container))) {}
+ Newtonsoft::Json::Linq::JTokenWriter Newtonsoft::Json::Linq::JTokenWriter::New_ctor(Newtonsoft::Json::Linq::JContainer container)  {
+Newtonsoft::Json::Linq::JTokenWriter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JTokenWriter>(container))};
+return o;
+}
  void Newtonsoft::Json::Linq::JTokenWriter::_ctor(Newtonsoft::Json::Linq::JContainer container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JTokenWriter>::get(),
@@ -762,8 +764,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JTokenWriter::JTokenWriter()  : Newtonsoft::Json::JsonWriter(THROW_UNLESS(::il2cpp_utils::New<JTokenWriter>())) {}
+ Newtonsoft::Json::Linq::JTokenWriter Newtonsoft::Json::Linq::JTokenWriter::New_ctor()  {
+Newtonsoft::Json::Linq::JTokenWriter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JTokenWriter>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JTokenWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JTokenWriter>::get(),

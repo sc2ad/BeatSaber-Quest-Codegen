@@ -6,11 +6,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct GlobalNamespace__VertexPath__Vertex;
 }
 namespace GlobalNamespace {
 class BezierPath;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -175,8 +178,7 @@ constexpr ::ArrayW<int32_t> __get__anchorVertexMap() const;
 /// @brief Method get_length addr 0x21af7a4 size 0x8 virtual false final false
  float_t get_length() ;
 
-// Ctor Parameters [CppParam { name: "numberOfPathSegments", ty: "int32_t", modifiers: "", def_value: None }]
-explicit VertexPath(int32_t numberOfPathSegments) ;
+static GlobalNamespace::VertexPath New_ctor(int32_t numberOfPathSegments) ;
 
 /// @brief Method .ctor addr 0x21af234 size 0xe4 virtual false final false
  void _ctor(int32_t numberOfPathSegments) ;

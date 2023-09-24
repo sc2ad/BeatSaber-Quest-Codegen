@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, value, formatInfo);
 }
-// Ctor Parameters []
- System::ComponentModel::UInt32Converter::UInt32Converter()  : System::ComponentModel::BaseNumberConverter(THROW_UNLESS(::il2cpp_utils::New<UInt32Converter>())) {}
+ System::ComponentModel::UInt32Converter System::ComponentModel::UInt32Converter::New_ctor()  {
+System::ComponentModel::UInt32Converter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::UInt32Converter>())};
+return o;
+}
  void System::ComponentModel::UInt32Converter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::UInt32Converter>::get(),

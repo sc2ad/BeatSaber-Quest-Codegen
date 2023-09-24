@@ -6,19 +6,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-class Texture2D;
+struct SpritePackingRotation;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine {
-struct SpritePackingMode;
+class Texture2D;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -27,7 +27,7 @@ namespace UnityEngine {
 struct SpriteMeshType;
 }
 namespace UnityEngine {
-struct SpritePackingRotation;
+struct SpritePackingMode;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -106,8 +106,7 @@ constexpr explicit Sprite(void* ptr) noexcept : UnityEngine::Object(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit Sprite() ;
+static UnityEngine::Sprite New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b6d44c size 0x58 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ResizableTextMeshPro_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ResizableTextMeshPro.Start
 template<>
 
@@ -143,8 +143,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, textMeshPro);
 }
-// Ctor Parameters []
- GlobalNamespace::ResizableTextMeshPro::ResizableTextMeshPro()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ResizableTextMeshPro>())) {}
+ GlobalNamespace::ResizableTextMeshPro GlobalNamespace::ResizableTextMeshPro::New_ctor()  {
+GlobalNamespace::ResizableTextMeshPro o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ResizableTextMeshPro>())};
+return o;
+}
  void GlobalNamespace::ResizableTextMeshPro::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ResizableTextMeshPro>::get(),

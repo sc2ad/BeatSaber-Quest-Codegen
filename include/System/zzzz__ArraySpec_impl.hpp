@@ -87,8 +87,10 @@ constexpr void System::ArraySpec::__set_bound(bool value)  {
 constexpr bool System::ArraySpec::__get_bound() const {
 return ::cordl_internals::getInstanceField<bool, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "dimensions", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bound", ty: "bool", modifiers: "", def_value: None }]
- System::ArraySpec::ArraySpec(int32_t dimensions, bool bound)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ArraySpec>(dimensions, bound))) {}
+ System::ArraySpec System::ArraySpec::New_ctor(int32_t dimensions, bool bound)  {
+System::ArraySpec o{THROW_UNLESS(::il2cpp_utils::New<System::ArraySpec>(dimensions, bound))};
+return o;
+}
  void System::ArraySpec::_ctor(int32_t dimensions, bool bound)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ArraySpec>::get(),

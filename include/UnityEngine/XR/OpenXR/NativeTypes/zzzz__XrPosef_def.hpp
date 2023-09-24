@@ -2,16 +2,16 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace UnityEngine::XR::OpenXR::NativeTypes {
-struct XrQuaternionf;
+struct XrVector3f;
 }
 namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine::XR::OpenXR::NativeTypes {
+struct XrQuaternionf;
+}
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace UnityEngine::XR::OpenXR::NativeTypes {
-struct XrVector3f;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::NativeTypes {

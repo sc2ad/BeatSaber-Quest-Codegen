@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationGroupEffectManager_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__LightTranslationGroupEffect_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationGroup_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__LightTranslationGroupEffect_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightTranslationGroupEffectManager.Start
 template<>
 
@@ -92,8 +92,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LightTranslationGroupEffectManager::LightTranslationGroupEffectManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightTranslationGroupEffectManager>())) {}
+ GlobalNamespace::LightTranslationGroupEffectManager GlobalNamespace::LightTranslationGroupEffectManager::New_ctor()  {
+GlobalNamespace::LightTranslationGroupEffectManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightTranslationGroupEffectManager>())};
+return o;
+}
  void GlobalNamespace::LightTranslationGroupEffectManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightTranslationGroupEffectManager>::get(),

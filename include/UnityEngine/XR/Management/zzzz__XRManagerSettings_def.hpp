@@ -3,12 +3,15 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template<typename T>
 struct System__Collections__Generic__List_1__Enumerator;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::XR::Management {
+class XRLoader;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -17,8 +20,9 @@ class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::XR::Management {
-class XRLoader;
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -26,11 +30,10 @@ class List_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class HashSet_1;
+}
+namespace UnityEngine::XR::Management {
+class UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24;
 }
 // Forward declare root types
 namespace UnityEngine::XR::Management {
@@ -124,8 +127,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__List_1__En
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24(int32_t __1__state) ;
+static UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagerSettings___InitializeLoader_d__24 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2adde80 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -336,8 +338,7 @@ template<typename T>
 /// @brief Method get_registeredLoaders addr 0x2ade2f8 size 0x8 virtual false final false
  System::Collections::Generic::HashSet_1<UnityEngine::XR::Management::XRLoader> get_registeredLoaders() ;
 
-// Ctor Parameters []
-explicit XRManagerSettings() ;
+static UnityEngine::XR::Management::XRManagerSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ade300 size 0xc0 virtual false final false
  void _ctor() ;

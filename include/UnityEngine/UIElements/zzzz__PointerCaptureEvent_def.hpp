@@ -47,8 +47,7 @@ constexpr explicit PointerCaptureEvent(void* ptr) noexcept : UnityEngine::UIElem
 
 // Methods
 
-// Ctor Parameters []
-explicit PointerCaptureEvent() ;
+static UnityEngine::UIElements::PointerCaptureEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd0adc size 0x48 virtual false final false
  void _ctor() ;

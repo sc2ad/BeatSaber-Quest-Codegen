@@ -49,8 +49,7 @@ constexpr explicit Pack(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit Pack() ;
+static Org::BouncyCastle::Crypto::Utilities::Pack New_ctor() ;
 
 /// @brief Method .ctor addr 0xf34684 size 0x8 virtual false final false
  void _ctor() ;

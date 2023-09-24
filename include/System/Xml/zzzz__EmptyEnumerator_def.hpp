@@ -67,8 +67,7 @@ constexpr explicit EmptyEnumerator(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 /// @brief Method System.Collections.IEnumerator.get_Current addr 0x26fe9f4 size 0x60 virtual true final true
  ::bs_hook::Il2CppWrapperType System_Collections_IEnumerator_get_Current() ;
 
-// Ctor Parameters []
-explicit EmptyEnumerator() ;
+static System::Xml::EmptyEnumerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x26fea54 size 0x8 virtual false final false
  void _ctor() ;

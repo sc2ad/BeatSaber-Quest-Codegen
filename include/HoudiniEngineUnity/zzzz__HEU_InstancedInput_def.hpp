@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivable_1;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -84,8 +84,7 @@ constexpr UnityEngine::Vector3 __get__scaleOffset() const;
 /// @brief Method IsEquivalentTo addr 0x1fff018 size 0x1a0 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_InstancedInput other) ;
 
-// Ctor Parameters []
-explicit HEU_InstancedInput() ;
+static HoudiniEngineUnity::HEU_InstancedInput New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fff1b8 size 0x94 virtual false final false
  void _ctor() ;

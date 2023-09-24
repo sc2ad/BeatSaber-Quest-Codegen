@@ -10,7 +10,7 @@ class LeaderboardList;
 // Type: Oculus.Platform.Models::LeaderboardList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13427)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1138 }), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13427)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1138 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13428))
 // CS Name: Oculus.Platform.Models.LeaderboardList
 class CORDL_TYPE LeaderboardList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Leaderboard> {
@@ -49,8 +49,7 @@ constexpr explicit LeaderboardList(void* ptr) noexcept : Oculus::Platform::Model
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LeaderboardList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::LeaderboardList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259f5a0 size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

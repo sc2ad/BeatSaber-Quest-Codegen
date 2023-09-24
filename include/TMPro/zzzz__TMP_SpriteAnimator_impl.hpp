@@ -1,14 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteAnimator_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAnimator_def.hpp"
 #include "TMPro/zzzz__TMP_MeshInfo_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "TMPro/zzzz__TMP_CharacterInfo_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7._ctor
 template<>
 
@@ -219,8 +220,10 @@ constexpr void TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7
 constexpr float_t TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::__get__targetTime_5__9() const {
 return ::cordl_internals::getInstanceField<float_t, 0x220>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7>(__1__state))) {}
+ TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7 TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::New_ctor(int32_t __1__state)  {
+TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7>(__1__state))};
+return o;
+}
  void TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7>::get(),
@@ -460,8 +463,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, currentCharacter, spriteAsset, start, end, framerate);
 }
-// Ctor Parameters []
- TMPro::TMP_SpriteAnimator::TMP_SpriteAnimator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TMP_SpriteAnimator>())) {}
+ TMPro::TMP_SpriteAnimator TMPro::TMP_SpriteAnimator::New_ctor()  {
+TMPro::TMP_SpriteAnimator o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SpriteAnimator>())};
+return o;
+}
  void TMPro::TMP_SpriteAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SpriteAnimator>::get(),

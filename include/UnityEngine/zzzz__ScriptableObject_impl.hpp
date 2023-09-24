@@ -70,8 +70,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ScriptableObject::ScriptableObject()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<ScriptableObject>())) {}
+ UnityEngine::ScriptableObject UnityEngine::ScriptableObject::New_ctor()  {
+UnityEngine::ScriptableObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ScriptableObject>())};
+return o;
+}
  void UnityEngine::ScriptableObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ScriptableObject>::get(),

@@ -73,8 +73,7 @@ constexpr ::StringW __get_name() const;
 /// @brief Method SetCachedValue addr 0x23632f4 size 0x90 virtual false final false
  void SetCachedValue(::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters []
-explicit NameCache() ;
+static System::Runtime::Serialization::Formatters::Binary::NameCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x235f388 size 0x8 virtual false final false
  void _ctor() ;

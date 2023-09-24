@@ -8,6 +8,9 @@ namespace System {
 template<typename T>
 class IEquatable_1;
 }
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputDeviceDescription__DeviceDescriptionJson;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;

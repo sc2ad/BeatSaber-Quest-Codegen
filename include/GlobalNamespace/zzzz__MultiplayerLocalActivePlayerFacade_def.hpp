@@ -5,16 +5,26 @@
 #include "Zenject/zzzz__PlaceholderFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class BeatmapCallbacksUpdater;
-}
-namespace GlobalNamespace {
-class GameSongController;
-}
-namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class IStartSeekSongController;
+class IMultiplayerLevelEndActionsListener;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalActivePlayerIntroAnimator;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksUpdater;
+}
+namespace GlobalNamespace {
+class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsPublisher;
@@ -23,26 +33,19 @@ namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerIntroAnimator;
-}
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsListener;
-}
-namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
-}
-namespace System {
-template<typename T>
-class Action_1;
+class IStartSeekSongController;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class IStartSeekSongControllerProvider;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class IStartSeekSongControllerProvider;
+class GameSongController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -223,8 +226,7 @@ constexpr System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults> _
 /// @brief Method __GetActiveOnlyGameObjects addr 0x20e5454 size 0x8 virtual false final false
  ::ArrayW<UnityEngine::GameObject> __GetActiveOnlyGameObjects() ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalActivePlayerFacade() ;
+static GlobalNamespace::MultiplayerLocalActivePlayerFacade New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e545c size 0x1008 virtual false final false
  void _ctor() ;
@@ -236,7 +238,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Factory
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10947)), TypeDefinitionIndex(TypeDefinitionIndex(5328)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3370 }), TypeDefinitionIndex(TypeDefinitionIndex(5251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10947)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3370 }), TypeDefinitionIndex(TypeDefinitionIndex(5251)), TypeDefinitionIndex(TypeDefinitionIndex(5328))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5250))
 // CS Name: MultiplayerLocalActivePlayerFacade::Factory
 class CORDL_TYPE GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory : public Zenject::PlaceholderFactory_2<GlobalNamespace::MultiplayerPlayerStartState,GlobalNamespace::MultiplayerLocalActivePlayerFacade> {
@@ -275,8 +277,7 @@ constexpr explicit GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory(
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e6464 size 0x48 virtual false final false
  void _ctor() ;

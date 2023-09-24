@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupFactory_def.hpp"
-#include "GlobalNamespace/zzzz__DefaultEnvironmentEvents_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
 #include "GlobalNamespace/zzzz__DefaultEnvironmentEvents_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupFactory_def.hpp"
 // Ctor Parameters [CppParam { name: "numberOfElements", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0::GlobalNamespace__BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0(int32_t numberOfElements) noexcept : ::bs_hook::ValueTypeWrapper() {this->numberOfElements = numberOfElements;
 }

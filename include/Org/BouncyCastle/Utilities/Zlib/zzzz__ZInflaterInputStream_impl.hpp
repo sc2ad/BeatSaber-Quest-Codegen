@@ -2,8 +2,8 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZInflaterInputStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream._ctor
 template<>
 
@@ -312,8 +312,10 @@ constexpr void Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::__set_n
 constexpr bool Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::__get_nomoreinput() const {
 return ::cordl_internals::getInstanceField<bool, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "inp", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::ZInflaterInputStream(System::IO::Stream inp)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<ZInflaterInputStream>(inp))) {}
+ Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::New_ctor(System::IO::Stream inp)  {
+Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream>(inp))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::_ctor(System::IO::Stream inp)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream>::get(),
@@ -323,8 +325,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inp);
 }
-// Ctor Parameters [CppParam { name: "inp", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::ZInflaterInputStream(System::IO::Stream inp, bool nowrap)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<ZInflaterInputStream>(inp, nowrap))) {}
+ Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::New_ctor(System::IO::Stream inp, bool nowrap)  {
+Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream>(inp, nowrap))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::_ctor(System::IO::Stream inp, bool nowrap)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream>::get(),

@@ -1,6 +1,7 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__Poser_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__GenericPoser_def.hpp"
+#include "RootMotion/FinalIK/zzzz__GenericPoser_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
@@ -96,8 +97,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map::__se
 constexpr UnityEngine::Quaternion RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map::__get_defaultLocalRotation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Quaternion, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "target", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map::RootMotion__FinalIK__GenericPoser__Map(UnityEngine::Transform bone, UnityEngine::Transform target)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__GenericPoser__Map>(bone, target))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map::New_ctor(UnityEngine::Transform bone, UnityEngine::Transform target)  {
+RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map>(bone, target))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map::_ctor(UnityEngine::Transform bone, UnityEngine::Transform target)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map>::get(),
@@ -313,8 +316,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Transform, false>(const_cast<void*>(instance), ___internal_method, tName, array);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::GenericPoser::GenericPoser()  : RootMotion::FinalIK::Poser(THROW_UNLESS(::il2cpp_utils::New<GenericPoser>())) {}
+ RootMotion::FinalIK::GenericPoser RootMotion::FinalIK::GenericPoser::New_ctor()  {
+RootMotion::FinalIK::GenericPoser o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::GenericPoser>())};
+return o;
+}
  void RootMotion::FinalIK::GenericPoser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::GenericPoser>::get(),

@@ -5,43 +5,46 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class AsyncCallback;
-}
-namespace System::IO {
-class Stream;
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::IO {
+class Stream;
+}
+namespace System::IO {
 struct SeekOrigin;
+}
+namespace System {
+class Exception;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System::Net {
+struct System__Net__WebReadStream___ReadAsync_d__28;
+}
+namespace System::Net {
 class WebOperation;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Threading::Tasks {
+namespace System::Runtime::CompilerServices {
 template<typename TResult>
-class Task_1;
-}
-namespace System {
-class Exception;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -255,8 +258,7 @@ constexpr bool __get_disposed() const;
 /// @brief Method get_InnerStream addr 0x2850d74 size 0x8 virtual false final false
  System::IO::Stream get_InnerStream() ;
 
-// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit WebReadStream(System::Net::WebOperation operation, System::IO::Stream innerStream) ;
+static System::Net::WebReadStream New_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream) ;
 
 /// @brief Method .ctor addr 0x2842354 size 0x70 virtual false final false
  void _ctor(System::Net::WebOperation operation, System::IO::Stream innerStream) ;

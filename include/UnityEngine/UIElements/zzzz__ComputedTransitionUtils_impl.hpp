@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__ComputedTransitionUtils_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EasingMode_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ComputedTransitionUtils_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ComputedTransitionProperty_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ComputedStyle_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ComputedTransitionProperty_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c._ctor
 template<>
 
@@ -560,8 +561,10 @@ return ::cordl_internals::getStaticField<System::Func_2<float_t,float_t>, "<>9__
  System::Func_2<float_t,float_t> UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c::__get___9__12_22()  {
 return ::cordl_internals::getStaticField<System::Func_2<float_t,float_t>, "<>9__12_22", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c::UnityEngine__UIElements__ComputedTransitionUtils____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__ComputedTransitionUtils____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c>::get(),

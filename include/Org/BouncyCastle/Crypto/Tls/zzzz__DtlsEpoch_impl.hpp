@@ -128,8 +128,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::DtlsEpoch::__set_mSequenceNumber(
 constexpr int64_t Org::BouncyCastle::Crypto::Tls::DtlsEpoch::__get_mSequenceNumber() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "epoch", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DtlsEpoch::DtlsEpoch(int32_t epoch, Org::BouncyCastle::Crypto::Tls::TlsCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DtlsEpoch>(epoch, cipher))) {}
+ Org::BouncyCastle::Crypto::Tls::DtlsEpoch Org::BouncyCastle::Crypto::Tls::DtlsEpoch::New_ctor(int32_t epoch, Org::BouncyCastle::Crypto::Tls::TlsCipher cipher)  {
+Org::BouncyCastle::Crypto::Tls::DtlsEpoch o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DtlsEpoch>(epoch, cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DtlsEpoch::_ctor(int32_t epoch, Org::BouncyCastle::Crypto::Tls::TlsCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DtlsEpoch>::get(),

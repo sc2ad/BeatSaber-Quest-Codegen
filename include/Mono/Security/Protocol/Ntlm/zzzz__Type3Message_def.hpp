@@ -122,8 +122,7 @@ constexpr ::ArrayW<uint8_t> __get__nt() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type2", ty: "Mono::Security::Protocol::Ntlm::Type2Message", modifiers: "", def_value: None }]
-explicit Type3Message(Mono::Security::Protocol::Ntlm::Type2Message type2) ;
+static Mono::Security::Protocol::Ntlm::Type3Message New_ctor(Mono::Security::Protocol::Ntlm::Type2Message type2) ;
 
 /// @brief Method .ctor addr 0x229463c size 0x1ec virtual false final false
  void _ctor(Mono::Security::Protocol::Ntlm::Type2Message type2) ;

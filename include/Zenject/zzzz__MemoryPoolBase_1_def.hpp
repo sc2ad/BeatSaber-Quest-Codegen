@@ -4,37 +4,37 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Zenject {
-template<typename TValue>
-class IFactory_1;
+class DiContainer;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
-class DiContainer;
+class IMemoryPool;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class MemoryPoolSettings;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
-}
-namespace Zenject {
-class MemoryPoolSettings;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class IMemoryPool;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class IValidatable;
+class Stack_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class Stack_1;
+class IEnumerable_1;
+}
+namespace Zenject {
+template<typename TValue>
+class IFactory_1;
+}
+namespace Zenject {
+class IValidatable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -213,8 +213,7 @@ constexpr int32_t __get__activeCount() const;
 /// @brief Method OnDestroyed addr 0x0 size 0xffffffffffffffff virtual true final false
  void OnDestroyed(TContract item) ;
 
-// Ctor Parameters []
-explicit MemoryPoolBase_1() ;
+static Zenject::MemoryPoolBase_1<TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

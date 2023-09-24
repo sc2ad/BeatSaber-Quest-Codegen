@@ -5,13 +5,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace UnityEngine {
-class WaitForEndOfFrame;
-}
 namespace System {
 class IDisposable;
 }
@@ -22,11 +15,27 @@ class Action_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine::XR {
-struct XRNode;
+namespace UnityEngine {
+class WaitForEndOfFrame;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__HapticsAudioClipPlayer__Pool;
+}
+namespace UnityEngine::XR {
+struct XRNode;
 }
 namespace UnityEngine {
 class AudioSource;
@@ -152,8 +161,7 @@ static constexpr float_t  kContinuousRumbleFadeDuration{0.016666668};
 /// @brief Method GetPanForNode addr 0x1f88084 size 0xe4 virtual false final false
  float_t GetPanForNode(UnityEngine::XR::XRNode node) ;
 
-// Ctor Parameters []
-explicit HapticsAudioClipPlayer() ;
+static GlobalNamespace::HapticsAudioClipPlayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f88388 size 0x8 virtual false final false
  void _ctor() ;
@@ -219,8 +227,7 @@ constexpr explicit GlobalNamespace__HapticsAudioClipPlayer__Pool(void* ptr) noex
 /// @brief Method Reinitialize addr 0x1f88454 size 0x14 virtual true final false
  void Reinitialize(GlobalNamespace::HapticsAudioClipPlayer clipPlayer) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__HapticsAudioClipPlayer__Pool() ;
+static GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f88468 size 0x48 virtual false final false
  void _ctor() ;
@@ -320,8 +327,7 @@ constexpr UnityEngine::WaitForEndOfFrame __get__waitForLateUpdate_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f8828c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -430,8 +436,7 @@ constexpr System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> __get_onComp
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f882fc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;

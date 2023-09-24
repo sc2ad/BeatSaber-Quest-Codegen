@@ -5,6 +5,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Newtonsoft::Json::Utilities {
+template<typename TKey,typename TValue>
+class Newtonsoft__Json__Utilities__DictionaryWrapper_2____c;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class IDictionary_2;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System {
+class Array;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
@@ -14,17 +38,14 @@ template<typename T>
 class IEnumerable_1;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IDictionary_2;
-}
-namespace System {
-class Array;
+class ICollection;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
+}
+namespace Newtonsoft::Json::Utilities {
+template<typename TKey,typename TValue,typename TEnumeratorKey,typename TEnumeratorValue>
+struct Newtonsoft__Json__Utilities__DictionaryWrapper_2__DictionaryEnumerator_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -32,19 +53,6 @@ class ICollection_1;
 }
 namespace Newtonsoft::Json::Utilities {
 class IWrappedDictionary;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -236,8 +244,7 @@ static System::Func_2<System::Collections::DictionaryEntry,System::Collections::
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__DictionaryWrapper_2____c() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__DictionaryWrapper_2____c<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -367,14 +374,12 @@ constexpr ::bs_hook::Il2CppWrapperType __get__syncRoot() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dictionary", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit DictionaryWrapper_2(System::Collections::IDictionary dictionary) ;
+static Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey,TValue> New_ctor(System::Collections::IDictionary dictionary) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::IDictionary dictionary) ;
 
-// Ctor Parameters [CppParam { name: "dictionary", ty: "System::Collections::Generic::IDictionary_2<TKey,TValue>", modifiers: "", def_value: None }]
-explicit DictionaryWrapper_2(System::Collections::Generic::IDictionary_2<TKey,TValue> dictionary) ;
+static Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey,TValue> New_ctor(System::Collections::Generic::IDictionary_2<TKey,TValue> dictionary) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IDictionary_2<TKey,TValue> dictionary) ;

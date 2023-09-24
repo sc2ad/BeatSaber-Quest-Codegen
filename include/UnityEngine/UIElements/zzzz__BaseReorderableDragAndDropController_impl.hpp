@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseReorderableDragAndDropController_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ICollectionDragAndDropController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IReorderable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IDragAndDropController_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IReorderable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ICollectionDragAndDropController_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IDragAndDropController_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::BaseReorderableDragAndDropController._ctor
 template<>
 
@@ -158,8 +158,10 @@ constexpr void UnityEngine::UIElements::BaseReorderableDragAndDropController::__
 constexpr bool UnityEngine::UIElements::BaseReorderableDragAndDropController::__get__enableReordering_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "view", ty: "UnityEngine::UIElements::BaseVerticalCollectionView", modifiers: "", def_value: None }]
- UnityEngine::UIElements::BaseReorderableDragAndDropController::BaseReorderableDragAndDropController(UnityEngine::UIElements::BaseVerticalCollectionView view)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BaseReorderableDragAndDropController>(view))) {}
+ UnityEngine::UIElements::BaseReorderableDragAndDropController UnityEngine::UIElements::BaseReorderableDragAndDropController::New_ctor(UnityEngine::UIElements::BaseVerticalCollectionView view)  {
+UnityEngine::UIElements::BaseReorderableDragAndDropController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::BaseReorderableDragAndDropController>(view))};
+return o;
+}
  void UnityEngine::UIElements::BaseReorderableDragAndDropController::_ctor(UnityEngine::UIElements::BaseVerticalCollectionView view)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::BaseReorderableDragAndDropController>::get(),

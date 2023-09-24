@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerPlayerResultsData._ctor
 template<>
 
@@ -60,8 +60,10 @@ constexpr void GlobalNamespace::MultiplayerPlayerResultsData::__set_badge(Global
 constexpr GlobalNamespace::MultiplayerBadgeAwardData GlobalNamespace::MultiplayerPlayerResultsData::__get_badge() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerBadgeAwardData, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "connectedPlayer", ty: "GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }, CppParam { name: "multiplayerLevelCompletionResults", ty: "GlobalNamespace::MultiplayerLevelCompletionResults", modifiers: "", def_value: None }]
- GlobalNamespace::MultiplayerPlayerResultsData::MultiplayerPlayerResultsData(GlobalNamespace::IConnectedPlayer connectedPlayer, GlobalNamespace::MultiplayerLevelCompletionResults multiplayerLevelCompletionResults)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerPlayerResultsData>(connectedPlayer, multiplayerLevelCompletionResults))) {}
+ GlobalNamespace::MultiplayerPlayerResultsData GlobalNamespace::MultiplayerPlayerResultsData::New_ctor(GlobalNamespace::IConnectedPlayer connectedPlayer, GlobalNamespace::MultiplayerLevelCompletionResults multiplayerLevelCompletionResults)  {
+GlobalNamespace::MultiplayerPlayerResultsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerPlayerResultsData>(connectedPlayer, multiplayerLevelCompletionResults))};
+return o;
+}
  void GlobalNamespace::MultiplayerPlayerResultsData::_ctor(GlobalNamespace::IConnectedPlayer connectedPlayer, GlobalNamespace::MultiplayerLevelCompletionResults multiplayerLevelCompletionResults)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerPlayerResultsData>::get(),

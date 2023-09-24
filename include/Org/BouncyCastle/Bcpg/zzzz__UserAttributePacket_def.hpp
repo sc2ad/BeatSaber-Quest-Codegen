@@ -3,10 +3,10 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class UserAttributeSubpacket;
 }
 namespace Org::BouncyCastle::Bcpg {
-class UserAttributeSubpacket;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
@@ -66,14 +66,12 @@ constexpr ::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> __get_subpac
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit UserAttributePacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::UserAttributePacket New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1144cbc size 0x324 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "subpackets", ty: "::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>", modifiers: "", def_value: None }]
-explicit UserAttributePacket(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> subpackets) ;
+static Org::BouncyCastle::Bcpg::UserAttributePacket New_ctor(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> subpackets) ;
 
 /// @brief Method .ctor addr 0x114ad58 size 0x28 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> subpackets) ;

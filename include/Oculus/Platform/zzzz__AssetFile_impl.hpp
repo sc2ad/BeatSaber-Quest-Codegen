@@ -1,13 +1,13 @@
 #pragma once
 #include "Oculus/Platform/zzzz__AssetFile_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetFileDownloadUpdate_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetFileDownloadCancelResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetDetailsList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetFileDeleteResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetDetailsList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetDetails_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetFileDownloadUpdate_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetFileDownloadCancelResult_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AssetFileDeleteResult_def.hpp"
 //  Writing Method size for method: Oculus::Platform::AssetFile.Delete
 template<>
 

@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_token_def.hpp"
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
 namespace System::Xml {
 struct XmlTokenizedType;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -66,8 +66,7 @@ constexpr explicit Datatype_NMTOKEN(void* ptr) noexcept : System::Xml::Schema::D
 /// @brief Method get_TokenizedType addr 0x2727d38 size 0x8 virtual true final false
  System::Xml::XmlTokenizedType get_TokenizedType() ;
 
-// Ctor Parameters []
-explicit Datatype_NMTOKEN() ;
+static System::Xml::Schema::Datatype_NMTOKEN New_ctor() ;
 
 /// @brief Method .ctor addr 0x2727d40 size 0x4 virtual false final false
  void _ctor() ;

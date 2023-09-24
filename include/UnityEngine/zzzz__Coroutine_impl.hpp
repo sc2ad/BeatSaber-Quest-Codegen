@@ -58,8 +58,10 @@ constexpr void UnityEngine::Coroutine::__set_m_Ptr(::cordl_internals::intptr_t v
 constexpr ::cordl_internals::intptr_t UnityEngine::Coroutine::__get_m_Ptr() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Coroutine::Coroutine()  : UnityEngine::YieldInstruction(THROW_UNLESS(::il2cpp_utils::New<Coroutine>())) {}
+ UnityEngine::Coroutine UnityEngine::Coroutine::New_ctor()  {
+UnityEngine::Coroutine o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Coroutine>())};
+return o;
+}
  void UnityEngine::Coroutine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Coroutine>::get(),

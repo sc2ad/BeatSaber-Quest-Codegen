@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::AccessControl {
-struct AceFlags;
+struct AceQualifier;
 }
 namespace System::Security::AccessControl {
-struct AceQualifier;
+struct AceFlags;
 }
 namespace System::Security::AccessControl {
 struct AceType;
@@ -76,14 +76,12 @@ constexpr ::ArrayW<uint8_t> __get_opaque() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Security::AccessControl::AceType", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::AceFlags", modifiers: "", def_value: None }, CppParam { name: "opaque", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit QualifiedAce(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque) ;
+static System::Security::AccessControl::QualifiedAce New_ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque) ;
 
 /// @brief Method .ctor addr 0x2315964 size 0x28 virtual false final false
  void _ctor(System::Security::AccessControl::AceType type, System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque) ;
 
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
-explicit QualifiedAce(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
+static System::Security::AccessControl::QualifiedAce New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
 
 /// @brief Method .ctor addr 0x2315b7c size 0x4 virtual false final false
  void _ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;

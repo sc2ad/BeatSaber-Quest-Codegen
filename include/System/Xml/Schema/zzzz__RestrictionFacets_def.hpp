@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ArrayList;
+namespace System::Xml::Schema {
+struct RestrictionFlags;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
 }
-namespace System::Xml::Schema {
-struct RestrictionFlags;
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

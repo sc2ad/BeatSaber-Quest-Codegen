@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace System {
-template<typename T>
-class Action_1;
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class NoTransitionInstaller;
 }
-namespace Zenject {
-class DiContainer;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -85,8 +85,7 @@ constexpr Zenject::NoTransitionInstaller __get__noScenesTransitionInstaller() co
 /// @brief Method Awake addr 0x2d8b574 size 0x78 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit NoTransitionContext() ;
+static Zenject::NoTransitionContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d8b5ec size 0x8 virtual false final false
  void _ctor() ;

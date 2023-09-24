@@ -2,20 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace System::Collections {
 class IDictionary;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -101,8 +101,7 @@ static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier GetSigAlgID(Org::Bounc
 /// @brief Method get_AlgNames addr 0x1012818 size 0x10c virtual false final false
 static System::Collections::IEnumerable get_AlgNames() ;
 
-// Ctor Parameters []
-explicit OcspUtilities() ;
+static Org::BouncyCastle::Ocsp::OcspUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10188e8 size 0x8 virtual false final false
  void _ctor() ;

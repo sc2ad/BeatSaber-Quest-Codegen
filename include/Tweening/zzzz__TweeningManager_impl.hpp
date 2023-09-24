@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tweening/zzzz__TweeningManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Tweening/zzzz__Tween_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 //  Writing Method size for method: Tweening::TweeningManager.Start
@@ -313,8 +313,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tween, owner);
 }
-// Ctor Parameters []
- Tweening::TweeningManager::TweeningManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TweeningManager>())) {}
+ Tweening::TweeningManager Tweening::TweeningManager::New_ctor()  {
+Tweening::TweeningManager o{THROW_UNLESS(::il2cpp_utils::New<Tweening::TweeningManager>())};
+return o;
+}
  void Tweening::TweeningManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tweening::TweeningManager>::get(),

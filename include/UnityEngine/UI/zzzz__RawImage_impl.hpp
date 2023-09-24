@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "UnityEngine/UI/zzzz__RawImage_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::RawImage._ctor
 template<>
 
@@ -169,8 +169,10 @@ constexpr void UnityEngine::UI::RawImage::__set_m_UVRect(UnityEngine::Rect value
 constexpr UnityEngine::Rect UnityEngine::UI::RawImage::__get_m_UVRect() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Rect, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UI::RawImage::RawImage()  : UnityEngine::UI::MaskableGraphic(THROW_UNLESS(::il2cpp_utils::New<RawImage>())) {}
+ UnityEngine::UI::RawImage UnityEngine::UI::RawImage::New_ctor()  {
+UnityEngine::UI::RawImage o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::RawImage>())};
+return o;
+}
  void UnityEngine::UI::RawImage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::RawImage>::get(),

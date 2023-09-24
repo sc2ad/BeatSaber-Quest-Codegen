@@ -6,11 +6,11 @@
 namespace UnityEngine::UI {
 class Image;
 }
-namespace HMUI {
-class HoverHint;
-}
 namespace UnityEngine {
 class Sprite;
+}
+namespace HMUI {
+class HoverHint;
 }
 namespace UnityEngine {
 class GameObject;
@@ -108,8 +108,7 @@ constexpr UnityEngine::GameObject __get__backgroundGameObject() const;
 /// @brief Method set_hideBackgroundImage addr 0x1fac618 size 0x9c virtual false final false
  void set_hideBackgroundImage(bool value) ;
 
-// Ctor Parameters []
-explicit IconSegmentedControlCell() ;
+static HMUI::IconSegmentedControlCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fac874 size 0x8 virtual false final false
  void _ctor() ;

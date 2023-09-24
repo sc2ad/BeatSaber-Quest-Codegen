@@ -2,9 +2,10 @@
 #include "GlobalNamespace/zzzz__ObstacleController_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleClippingController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleController.Init
 template<>
 
@@ -54,8 +55,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, obstacleData, worldRotation, startPos, midPos, endPos, move1Duration, move2Duration, singleLineWidth, height);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerConnectedPlayerObstacleController::MultiplayerConnectedPlayerObstacleController()  : GlobalNamespace::ObstacleController(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConnectedPlayerObstacleController>())) {}
+ GlobalNamespace::MultiplayerConnectedPlayerObstacleController GlobalNamespace::MultiplayerConnectedPlayerObstacleController::New_ctor()  {
+GlobalNamespace::MultiplayerConnectedPlayerObstacleController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConnectedPlayerObstacleController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerConnectedPlayerObstacleController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConnectedPlayerObstacleController>::get(),
@@ -82,8 +85,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::MultiplayerConnectedPlayerObstacleController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool>::get(),

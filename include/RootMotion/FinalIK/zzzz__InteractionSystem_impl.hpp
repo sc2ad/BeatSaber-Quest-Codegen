@@ -2,22 +2,21 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionSystem_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionTrigger_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
-#include "UnityEngine/zzzz__RaycastHit_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
-#include "UnityEngine/zzzz__Collider_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionEffector_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionSystem_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionEffector_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedIK_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionLookAt_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
+#include "UnityEngine/zzzz__RaycastHit_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionTrigger_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionLookAt_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionDelegate._ctor
 template<>
 
@@ -86,8 +85,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionDelegate::RootMotion__FinalIK__InteractionSystem__InteractionDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionSystem__InteractionDelegate>(object, method))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionDelegate RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionDelegate o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionDelegate>(object, method))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionDelegate>::get(),
@@ -192,8 +193,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate::RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate>(object, method))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate>(object, method))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionSystem__InteractionEventDelegate>::get(),
@@ -1873,8 +1876,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, index);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::InteractionSystem::InteractionSystem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<InteractionSystem>())) {}
+ RootMotion::FinalIK::InteractionSystem RootMotion::FinalIK::InteractionSystem::New_ctor()  {
+RootMotion::FinalIK::InteractionSystem o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::InteractionSystem>())};
+return o;
+}
  void RootMotion::FinalIK::InteractionSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::InteractionSystem>::get(),

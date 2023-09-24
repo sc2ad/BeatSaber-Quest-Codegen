@@ -50,8 +50,7 @@ constexpr explicit NoteDataFromNoteSpawnInfoNetSerializable(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "noteSpawnInfo", ty: "GlobalNamespace::NoteSpawnInfoNetSerializable", modifiers: "", def_value: None }]
-explicit NoteDataFromNoteSpawnInfoNetSerializable(GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfo) ;
+static GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable New_ctor(GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfo) ;
 
 /// @brief Method .ctor addr 0x20de67c size 0x50 virtual false final false
  void _ctor(GlobalNamespace::NoteSpawnInfoNetSerializable noteSpawnInfo) ;

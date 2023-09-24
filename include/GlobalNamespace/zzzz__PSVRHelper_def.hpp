@@ -4,17 +4,23 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+class Action;
 }
 namespace UnityEngine::XR {
 struct XRNodeState;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+struct VRPlatformSDK;
+}
+namespace UnityEngine {
+struct Pose;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -23,14 +29,8 @@ class List_1;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-struct Pose;
-}
 namespace GlobalNamespace {
-struct VRPlatformSDK;
+class IVRPlatformHelper;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -254,8 +254,7 @@ static int32_t XRNodeToPSDeviceIndex(UnityEngine::XR::XRNode node) ;
 /// @brief Method RefreshControllersReference addr 0x1f8b10c size 0x1c virtual true final true
  void RefreshControllersReference() ;
 
-// Ctor Parameters []
-explicit PSVRHelper() ;
+static GlobalNamespace::PSVRHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8b128 size 0x88 virtual false final false
  void _ctor() ;

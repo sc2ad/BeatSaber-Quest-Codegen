@@ -75,14 +75,12 @@ static Org::BouncyCastle::Asn1::DerGeneralString GetInstance(::bs_hook::Il2CppWr
 /// @brief Method GetInstance addr 0x11376c8 size 0x140 virtual false final false
 static Org::BouncyCastle::Asn1::DerGeneralString GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerGeneralString(::ArrayW<uint8_t> str) ;
+static Org::BouncyCastle::Asn1::DerGeneralString New_ctor(::ArrayW<uint8_t> str) ;
 
 /// @brief Method .ctor addr 0x112c0c4 size 0x24 virtual false final false
  void _ctor(::ArrayW<uint8_t> str) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DerGeneralString(::StringW str) ;
+static Org::BouncyCastle::Asn1::DerGeneralString New_ctor(::StringW str) ;
 
 /// @brief Method .ctor addr 0x1137808 size 0x78 virtual false final false
  void _ctor(::StringW str) ;

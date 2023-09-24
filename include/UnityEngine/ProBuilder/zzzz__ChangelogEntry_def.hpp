@@ -79,8 +79,7 @@ constexpr ::StringW __get_m_ReleaseNotes() const;
 /// @brief Method get_releaseNotes addr 0x29a8308 size 0x8 virtual false final false
  ::StringW get_releaseNotes() ;
 
-// Ctor Parameters [CppParam { name: "version", ty: "UnityEngine::ProBuilder::SemVer", modifiers: "", def_value: None }, CppParam { name: "releaseNotes", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ChangelogEntry(UnityEngine::ProBuilder::SemVer version, ::StringW releaseNotes) ;
+static UnityEngine::ProBuilder::ChangelogEntry New_ctor(UnityEngine::ProBuilder::SemVer version, ::StringW releaseNotes) ;
 
 /// @brief Method .ctor addr 0x29a8310 size 0x2c virtual false final false
  void _ctor(UnityEngine::ProBuilder::SemVer version, ::StringW releaseNotes) ;

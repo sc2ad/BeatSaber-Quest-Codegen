@@ -8,19 +8,19 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class DisplayText;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
 }
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -91,26 +91,22 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_noticeNumbers() const;
 /// @brief Method ConvertVector addr 0x1108ce0 size 0x47c virtual false final false
 static Org::BouncyCastle::Asn1::Asn1EncodableVector ConvertVector(System::Collections::IList numbers) ;
 
-// Ctor Parameters [CppParam { name: "organization", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "numbers", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit NoticeReference(::StringW organization, System::Collections::IList numbers) ;
+static Org::BouncyCastle::Asn1::X509::NoticeReference New_ctor(::StringW organization, System::Collections::IList numbers) ;
 
 /// @brief Method .ctor addr 0x110915c size 0x30 virtual false final false
  void _ctor(::StringW organization, System::Collections::IList numbers) ;
 
-// Ctor Parameters [CppParam { name: "organization", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "noticeNumbers", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit NoticeReference(::StringW organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers) ;
+static Org::BouncyCastle::Asn1::X509::NoticeReference New_ctor(::StringW organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers) ;
 
 /// @brief Method .ctor addr 0x110918c size 0x78 virtual false final false
  void _ctor(::StringW organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers) ;
 
-// Ctor Parameters [CppParam { name: "organization", ty: "Org::BouncyCastle::Asn1::X509::DisplayText", modifiers: "", def_value: None }, CppParam { name: "noticeNumbers", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit NoticeReference(Org::BouncyCastle::Asn1::X509::DisplayText organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers) ;
+static Org::BouncyCastle::Asn1::X509::NoticeReference New_ctor(Org::BouncyCastle::Asn1::X509::DisplayText organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers) ;
 
 /// @brief Method .ctor addr 0x1109204 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::DisplayText organization, Org::BouncyCastle::Asn1::Asn1EncodableVector noticeNumbers) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit NoticeReference(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::NoticeReference New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1109288 size 0x11c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

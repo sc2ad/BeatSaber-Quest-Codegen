@@ -6,6 +6,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Xml {
+class XmlQualifiedName;
+}
+namespace System {
+struct Decimal;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System {
+struct DateTime;
+}
 namespace System::Xml::Schema {
 class RestrictionFacets;
 }
@@ -15,20 +27,8 @@ class Exception;
 namespace System {
 struct TimeSpan;
 }
-namespace System {
-struct Decimal;
-}
-namespace System::Xml {
-class XmlQualifiedName;
-}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Collections {
-class ArrayList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -127,8 +127,7 @@ constexpr explicit FacetsChecker(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 /// @brief Method Power addr 0x272d2bc size 0x12c virtual false final false
 static System::Decimal Power(int32_t x, int32_t y) ;
 
-// Ctor Parameters []
-explicit FacetsChecker() ;
+static System::Xml::Schema::FacetsChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x272d3e8 size 0x8 virtual false final false
  void _ctor() ;

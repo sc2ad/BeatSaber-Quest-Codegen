@@ -47,8 +47,7 @@ constexpr explicit DisableOnNonOculus(void* ptr) noexcept : UnityEngine::MonoBeh
 
 // Methods
 
-// Ctor Parameters []
-explicit DisableOnNonOculus() ;
+static GlobalNamespace::DisableOnNonOculus New_ctor() ;
 
 /// @brief Method .ctor addr 0x2115b14 size 0x8 virtual false final false
  void _ctor() ;

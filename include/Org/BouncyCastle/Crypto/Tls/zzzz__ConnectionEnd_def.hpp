@@ -57,8 +57,7 @@ static constexpr int32_t  client{1};
 
 // Methods
 
-// Ctor Parameters []
-explicit ConnectionEnd() ;
+static Org::BouncyCastle::Crypto::Tls::ConnectionEnd New_ctor() ;
 
 /// @brief Method .ctor addr 0xed3b90 size 0x8 virtual false final false
  void _ctor() ;

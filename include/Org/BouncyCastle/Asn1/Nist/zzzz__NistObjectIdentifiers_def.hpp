@@ -419,8 +419,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdRsassaPkcs1V15WithSh
 
 // Methods
 
-// Ctor Parameters []
-explicit NistObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xeefec0 size 0x8 virtual false final false
  void _ctor() ;

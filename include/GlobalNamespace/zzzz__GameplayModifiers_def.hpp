@@ -4,10 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
 namespace LiteNetLib::Utils {
 template<typename T>
 class INetImmutableSerializable_1;
@@ -17,6 +13,19 @@ class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameplayModifiers__SongSpeed;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameplayModifiers__EnabledObstacleType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GameplayModifiers__EnergyType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,6 +90,8 @@ __NoObstacles = 2,
 constexpr operator __GlobalNamespace__GameplayModifiers__EnabledObstacleType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__GameplayModifiers__EnabledObstacleType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -154,6 +165,8 @@ constexpr operator __GlobalNamespace__GameplayModifiers__EnergyType_Unwrapped ()
 return std::bit_cast<__GlobalNamespace__GameplayModifiers__EnergyType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -224,6 +237,8 @@ __SuperFast = 3,
 constexpr operator __GlobalNamespace__GameplayModifiers__SongSpeed_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__GameplayModifiers__SongSpeed_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -493,14 +508,12 @@ static GlobalNamespace::GameplayModifiers __get_noModifiers() ;
 /// @brief Method get_notesUniformScale addr 0x12153b8 size 0x18 virtual false final false
  float_t get_notesUniformScale() ;
 
-// Ctor Parameters []
-explicit GameplayModifiers() ;
+static GlobalNamespace::GameplayModifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0x12153d0 size 0x2c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "energyType", ty: "GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType", modifiers: "", def_value: None }, CppParam { name: "noFailOn0Energy", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instaFail", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "failOnSaberClash", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enabledObstacleType", ty: "GlobalNamespace::GlobalNamespace__GameplayModifiers__EnabledObstacleType", modifiers: "", def_value: None }, CppParam { name: "noBombs", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fastNotes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "strictAngles", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "disappearingArrows", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "songSpeed", ty: "GlobalNamespace::GlobalNamespace__GameplayModifiers__SongSpeed", modifiers: "", def_value: None }, CppParam { name: "noArrows", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ghostNotes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "proMode", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "zenMode", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "smallCubes", ty: "bool", modifiers: "", def_value: None }]
-explicit GameplayModifiers(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash, GlobalNamespace::GlobalNamespace__GameplayModifiers__EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, GlobalNamespace::GlobalNamespace__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes) ;
+static GlobalNamespace::GameplayModifiers New_ctor(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash, GlobalNamespace::GlobalNamespace__GameplayModifiers__EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, GlobalNamespace::GlobalNamespace__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes) ;
 
 /// @brief Method .ctor addr 0x1215150 size 0xf4 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash, GlobalNamespace::GlobalNamespace__GameplayModifiers__EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, GlobalNamespace::GlobalNamespace__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes) ;

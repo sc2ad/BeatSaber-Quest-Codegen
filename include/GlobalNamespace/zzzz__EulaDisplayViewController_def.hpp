@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace GlobalNamespace {
-class LocalizedTextAsset;
-}
 namespace HMUI {
 class TextPageScrollView;
+}
+namespace GlobalNamespace {
+class LocalizedTextAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,7 @@ constexpr GlobalNamespace::LocalizedTextAsset __get__localizedTextAsset() const;
 /// @brief Method DidActivate addr 0x215a96c size 0x44 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit EulaDisplayViewController() ;
+static GlobalNamespace::EulaDisplayViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215a9b0 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,8 +2,9 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreUIController_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "GlobalNamespace/zzzz__ScoreUIController_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ScoreUIController__InitData._ctor
 template<>
@@ -28,8 +29,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ScoreUIController__InitData::__
 constexpr GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType GlobalNamespace::GlobalNamespace__ScoreUIController__InitData::__get_scoreDisplayType() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "scoreDisplayType", ty: "GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ScoreUIController__InitData::GlobalNamespace__ScoreUIController__InitData(GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType scoreDisplayType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ScoreUIController__InitData>(scoreDisplayType))) {}
+ GlobalNamespace::GlobalNamespace__ScoreUIController__InitData GlobalNamespace::GlobalNamespace__ScoreUIController__InitData::New_ctor(GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType scoreDisplayType)  {
+GlobalNamespace::GlobalNamespace__ScoreUIController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ScoreUIController__InitData>(scoreDisplayType))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ScoreUIController__InitData::_ctor(GlobalNamespace::GlobalNamespace__ScoreUIController__ScoreDisplayType scoreDisplayType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ScoreUIController__InitData>::get(),
@@ -299,8 +302,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, stringBuilder, number);
 }
-// Ctor Parameters []
- GlobalNamespace::ScoreUIController::ScoreUIController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScoreUIController>())) {}
+ GlobalNamespace::ScoreUIController GlobalNamespace::ScoreUIController::New_ctor()  {
+GlobalNamespace::ScoreUIController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ScoreUIController>())};
+return o;
+}
  void GlobalNamespace::ScoreUIController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ScoreUIController>::get(),

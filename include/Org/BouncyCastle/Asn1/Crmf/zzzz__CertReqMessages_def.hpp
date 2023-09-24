@@ -67,8 +67,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_content() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertReqMessages(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Crmf::CertReqMessages New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf5b9c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -76,8 +75,7 @@ explicit CertReqMessages(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xdf5bc4 size 0x18c virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::CertReqMessages GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "msgs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Crmf::CertReqMsg>", modifiers: "", def_value: None }]
-explicit CertReqMessages(::ArrayW<Org::BouncyCastle::Asn1::Crmf::CertReqMsg> msgs) ;
+static Org::BouncyCastle::Asn1::Crmf::CertReqMessages New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Crmf::CertReqMsg> msgs) ;
 
 /// @brief Method .ctor addr 0xdf5d50 size 0x7c virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Crmf::CertReqMsg> msgs) ;

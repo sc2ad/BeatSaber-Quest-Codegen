@@ -1,13 +1,12 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__JSONNode_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONLazyCreator_def.hpp"
-#include "HoudiniEngineUnity/zzzz__JSONArray_def.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONNodeType_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "HoudiniEngineUnity/zzzz__JSONNode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONTextMode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__JSONNode_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__JSONNode_def.hpp"
+#include "HoudiniEngineUnity/zzzz__JSONArray_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::JSONLazyCreator.get_Tag
 template<>
 
@@ -497,8 +496,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<HoudiniEngineUnity::HoudiniEngineUnity__JSONNode__Enumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "aNode", ty: "HoudiniEngineUnity::JSONNode", modifiers: "", def_value: None }]
- HoudiniEngineUnity::JSONLazyCreator::JSONLazyCreator(HoudiniEngineUnity::JSONNode aNode)  : HoudiniEngineUnity::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONLazyCreator>(aNode))) {}
+ HoudiniEngineUnity::JSONLazyCreator HoudiniEngineUnity::JSONLazyCreator::New_ctor(HoudiniEngineUnity::JSONNode aNode)  {
+HoudiniEngineUnity::JSONLazyCreator o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::JSONLazyCreator>(aNode))};
+return o;
+}
  void HoudiniEngineUnity::JSONLazyCreator::_ctor(HoudiniEngineUnity::JSONNode aNode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::JSONLazyCreator>::get(),
@@ -508,8 +509,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, aNode);
 }
-// Ctor Parameters [CppParam { name: "aNode", ty: "HoudiniEngineUnity::JSONNode", modifiers: "", def_value: None }, CppParam { name: "aKey", ty: "::StringW", modifiers: "", def_value: None }]
- HoudiniEngineUnity::JSONLazyCreator::JSONLazyCreator(HoudiniEngineUnity::JSONNode aNode, ::StringW aKey)  : HoudiniEngineUnity::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONLazyCreator>(aNode, aKey))) {}
+ HoudiniEngineUnity::JSONLazyCreator HoudiniEngineUnity::JSONLazyCreator::New_ctor(HoudiniEngineUnity::JSONNode aNode, ::StringW aKey)  {
+HoudiniEngineUnity::JSONLazyCreator o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::JSONLazyCreator>(aNode, aKey))};
+return o;
+}
  void HoudiniEngineUnity::JSONLazyCreator::_ctor(HoudiniEngineUnity::JSONNode aNode, ::StringW aKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::JSONLazyCreator>::get(),

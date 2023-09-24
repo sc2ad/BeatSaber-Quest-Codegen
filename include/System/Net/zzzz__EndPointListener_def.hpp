@@ -5,29 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Net {
-class IPEndPoint;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Net::Sockets {
-class SocketAsyncEventArgs;
-}
-namespace System::Net {
 class HttpListenerContext;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Net {
-class HttpListener;
-}
-namespace System::Collections {
-class Hashtable;
 }
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Net {
+class IPAddress;
 }
 namespace System {
 class Uri;
@@ -35,14 +19,30 @@ class Uri;
 namespace System::Net {
 class ListenerPrefix;
 }
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Net::Sockets {
+class SocketAsyncEventArgs;
+}
 namespace System::Net::Sockets {
 class Socket;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Net {
 class HttpConnection;
 }
 namespace System::Net {
-class IPAddress;
+class HttpListener;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace System::Net {
@@ -152,8 +152,7 @@ constexpr System::Collections::Generic::Dictionary_2<System::Net::HttpConnection
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "listener", ty: "System::Net::HttpListener", modifiers: "", def_value: None }, CppParam { name: "addr", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "secure", ty: "bool", modifiers: "", def_value: None }]
-explicit EndPointListener(System::Net::HttpListener listener, System::Net::IPAddress addr, int32_t port, bool secure) ;
+static System::Net::EndPointListener New_ctor(System::Net::HttpListener listener, System::Net::IPAddress addr, int32_t port, bool secure) ;
 
 /// @brief Method .ctor addr 0x282e0ec size 0x244 virtual false final false
  void _ctor(System::Net::HttpListener listener, System::Net::IPAddress addr, int32_t port, bool secure) ;

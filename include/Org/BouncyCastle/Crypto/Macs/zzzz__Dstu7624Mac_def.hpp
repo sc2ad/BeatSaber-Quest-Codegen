@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Engines {
 class Dstu7624Engine;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -118,8 +118,7 @@ constexpr int32_t __get_bufOff() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "blockSizeBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "q", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Dstu7624Mac(int32_t blockSizeBits, int32_t q) ;
+static Org::BouncyCastle::Crypto::Macs::Dstu7624Mac New_ctor(int32_t blockSizeBits, int32_t q) ;
 
 /// @brief Method .ctor addr 0xe80358 size 0xf8 virtual false final false
  void _ctor(int32_t blockSizeBits, int32_t q) ;

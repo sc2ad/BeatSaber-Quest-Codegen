@@ -59,8 +59,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
  Org::BouncyCastle::Asn1::BerNull Org::BouncyCastle::Asn1::BerNull::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::BerNull, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerNull>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::BerNull::BerNull()  : Org::BouncyCastle::Asn1::DerNull(THROW_UNLESS(::il2cpp_utils::New<BerNull>())) {}
+ Org::BouncyCastle::Asn1::BerNull Org::BouncyCastle::Asn1::BerNull::New_ctor()  {
+Org::BouncyCastle::Asn1::BerNull o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerNull>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerNull::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerNull>::get(),
@@ -70,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "dummy", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerNull::BerNull(int32_t dummy)  : Org::BouncyCastle::Asn1::DerNull(THROW_UNLESS(::il2cpp_utils::New<BerNull>(dummy))) {}
+ Org::BouncyCastle::Asn1::BerNull Org::BouncyCastle::Asn1::BerNull::New_ctor(int32_t dummy)  {
+Org::BouncyCastle::Asn1::BerNull o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerNull>(dummy))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerNull::_ctor(int32_t dummy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerNull>::get(),

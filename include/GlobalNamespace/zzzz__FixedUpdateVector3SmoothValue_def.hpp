@@ -13,7 +13,7 @@ class FixedUpdateVector3SmoothValue;
 // Type: ::FixedUpdateVector3SmoothValue
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13738), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(13738)), TypeDefinitionIndex(TypeDefinitionIndex(10190))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13738)), TypeDefinitionIndex(TypeDefinitionIndex(10190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13738), inst: 394 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13739))
 // CS Name: FixedUpdateVector3SmoothValue
 class CORDL_TYPE FixedUpdateVector3SmoothValue : public GlobalNamespace::FixedUpdateSmoothValue_1<UnityEngine::Vector3> {
@@ -52,8 +52,7 @@ constexpr explicit FixedUpdateVector3SmoothValue(void* ptr) noexcept : GlobalNam
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "smooth", ty: "float_t", modifiers: "", def_value: None }]
-explicit FixedUpdateVector3SmoothValue(float_t smooth) ;
+static GlobalNamespace::FixedUpdateVector3SmoothValue New_ctor(float_t smooth) ;
 
 /// @brief Method .ctor addr 0x1f71f44 size 0x58 virtual false final false
  void _ctor(float_t smooth) ;

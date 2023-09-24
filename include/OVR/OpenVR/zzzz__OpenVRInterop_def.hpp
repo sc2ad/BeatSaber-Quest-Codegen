@@ -83,8 +83,7 @@ static bool IsInterfaceVersionValid(ByRefConst<::StringW> pchInterfaceVersion) ;
 /// @brief Method GetInitToken addr 0x2668d78 size 0x68 virtual false final false
 static uint32_t GetInitToken() ;
 
-// Ctor Parameters []
-explicit OpenVRInterop() ;
+static OVR::OpenVR::OpenVRInterop New_ctor() ;
 
 /// @brief Method .ctor addr 0x2668de0 size 0x8 virtual false final false
  void _ctor() ;

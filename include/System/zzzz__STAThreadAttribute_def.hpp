@@ -47,8 +47,7 @@ constexpr explicit STAThreadAttribute(void* ptr) noexcept : System::Attribute(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit STAThreadAttribute() ;
+static System::STAThreadAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2457b64 size 0x8 virtual false final false
  void _ctor() ;

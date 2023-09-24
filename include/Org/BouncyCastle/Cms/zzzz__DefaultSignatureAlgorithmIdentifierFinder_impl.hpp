@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__DefaultSignatureAlgorithmIdentifierFinder_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__RsassaPssParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder.Generate
 template<>
 
@@ -184,8 +184,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier, false>(const_cast<void*>(instance), ___internal_method, sigAlgName);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::DefaultSignatureAlgorithmIdentifierFinder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultSignatureAlgorithmIdentifierFinder>())) {}
+ Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::New_ctor()  {
+Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder>())};
+return o;
+}
  void Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder>::get(),

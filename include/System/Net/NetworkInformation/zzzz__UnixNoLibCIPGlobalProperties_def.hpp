@@ -56,8 +56,7 @@ constexpr explicit UnixNoLibCIPGlobalProperties(void* ptr) noexcept : System::Ne
 /// @brief Method get_DomainName addr 0x285df18 size 0x48 virtual true final false
  ::StringW get_DomainName() ;
 
-// Ctor Parameters []
-explicit UnixNoLibCIPGlobalProperties() ;
+static System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties New_ctor() ;
 
 /// @brief Method .ctor addr 0x285df60 size 0x8 virtual false final false
  void _ctor() ;

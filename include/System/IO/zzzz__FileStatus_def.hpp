@@ -3,18 +3,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::IO {
-struct FileAttributes;
-}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
+namespace System {
+struct DateTimeOffset;
+}
 namespace GlobalNamespace {
 struct GlobalNamespace__Interop__Sys__FileStatus;
 }
-namespace System {
-struct DateTimeOffset;
+namespace System::IO {
+struct FileAttributes;
 }
 // Forward declare root types
 namespace System::IO {

@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsSigner_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDsaSigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDsa_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SignatureAndHashAlgorithm_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDsa_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsDsaSigner.GenerateRawSignature
 template<>
@@ -231,8 +231,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::IDsa, false>(const_cast<void*>(instance), ___internal_method, hashAlgorithm);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::TlsDsaSigner()  : Org::BouncyCastle::Crypto::Tls::AbstractTlsSigner(THROW_UNLESS(::il2cpp_utils::New<TlsDsaSigner>())) {}
+ Org::BouncyCastle::Crypto::Tls::TlsDsaSigner Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::TlsDsaSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsDsaSigner>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsDsaSigner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsDsaSigner>::get(),

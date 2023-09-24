@@ -65,8 +65,7 @@ constexpr ::StringW __get__presetNameLocalizationKey() const;
 /// @brief Method get_presetNameLocalizationKey addr 0x21f0898 size 0x8 virtual false final false
  ::StringW get_presetNameLocalizationKey() ;
 
-// Ctor Parameters []
-explicit NamedPreset() ;
+static GlobalNamespace::NamedPreset New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f0890 size 0x8 virtual false final false
  void _ctor() ;

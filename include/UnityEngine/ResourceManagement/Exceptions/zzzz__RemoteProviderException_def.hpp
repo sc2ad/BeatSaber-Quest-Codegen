@@ -73,8 +73,7 @@ constexpr UnityEngine::ResourceManagement::Util::UnityWebRequestResult __get__We
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }, CppParam { name: "uwrResult", ty: "UnityEngine::ResourceManagement::Util::UnityWebRequestResult", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit RemoteProviderException(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, UnityEngine::ResourceManagement::Util::UnityWebRequestResult uwrResult, System::Exception innerException) ;
+static UnityEngine::ResourceManagement::Exceptions::RemoteProviderException New_ctor(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, UnityEngine::ResourceManagement::Util::UnityWebRequestResult uwrResult, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x2a38844 size 0x2c virtual false final false
  void _ctor(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, UnityEngine::ResourceManagement::Util::UnityWebRequestResult uwrResult, System::Exception innerException) ;

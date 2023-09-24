@@ -4,8 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignedData;
+}
 namespace Org::BouncyCastle::Cms {
 class CmsSignedHelper;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
 }
 namespace Org::BouncyCastle::Cms {
 class SignerInformationStore;
@@ -13,23 +28,8 @@ class SignerInformationStore;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignedData;
-}
 namespace System::Collections {
 class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -147,56 +147,47 @@ constexpr System::Collections::IDictionary __get_hashes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Cms::CmsSignedData", modifiers: "", def_value: None }]
-explicit CmsSignedData(Org::BouncyCastle::Cms::CmsSignedData c) ;
+static Org::BouncyCastle::Cms::CmsSignedData New_ctor(Org::BouncyCastle::Cms::CmsSignedData c) ;
 
 /// @brief Method .ctor addr 0x115a308 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsSignedData c) ;
 
-// Ctor Parameters [CppParam { name: "sigBlock", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsSignedData(::ArrayW<uint8_t> sigBlock) ;
+static Org::BouncyCastle::Cms::CmsSignedData New_ctor(::ArrayW<uint8_t> sigBlock) ;
 
 /// @brief Method .ctor addr 0x115a34c size 0x80 virtual false final false
  void _ctor(::ArrayW<uint8_t> sigBlock) ;
 
-// Ctor Parameters [CppParam { name: "signedContent", ty: "Org::BouncyCastle::Cms::CmsProcessable", modifiers: "", def_value: None }, CppParam { name: "sigBlock", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsSignedData(Org::BouncyCastle::Cms::CmsProcessable signedContent, ::ArrayW<uint8_t> sigBlock) ;
+static Org::BouncyCastle::Cms::CmsSignedData New_ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, ::ArrayW<uint8_t> sigBlock) ;
 
 /// @brief Method .ctor addr 0x115a54c size 0x88 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, ::ArrayW<uint8_t> sigBlock) ;
 
-// Ctor Parameters [CppParam { name: "hashes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "sigBlock", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsSignedData(System::Collections::IDictionary hashes, ::ArrayW<uint8_t> sigBlock) ;
+static Org::BouncyCastle::Cms::CmsSignedData New_ctor(System::Collections::IDictionary hashes, ::ArrayW<uint8_t> sigBlock) ;
 
 /// @brief Method .ctor addr 0x115a664 size 0x30 virtual false final false
  void _ctor(System::Collections::IDictionary hashes, ::ArrayW<uint8_t> sigBlock) ;
 
-// Ctor Parameters [CppParam { name: "signedContent", ty: "Org::BouncyCastle::Cms::CmsProcessable", modifiers: "", def_value: None }, CppParam { name: "sigData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsSignedData(Org::BouncyCastle::Cms::CmsProcessable signedContent, System::IO::Stream sigData) ;
+static Org::BouncyCastle::Cms::CmsSignedData New_ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, System::IO::Stream sigData) ;
 
 /// @brief Method .ctor addr 0x115a788 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, System::IO::Stream sigData) ;
 
-// Ctor Parameters [CppParam { name: "sigData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsSignedData(System::IO::Stream sigData) ;
+static Org::BouncyCastle::Cms::CmsSignedData New_ctor(System::IO::Stream sigData) ;
 
 /// @brief Method .ctor addr 0x115a7b8 size 0x20 virtual false final false
  void _ctor(System::IO::Stream sigData) ;
 
-// Ctor Parameters [CppParam { name: "signedContent", ty: "Org::BouncyCastle::Cms::CmsProcessable", modifiers: "", def_value: None }, CppParam { name: "sigData", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit CmsSignedData(Org::BouncyCastle::Cms::CmsProcessable signedContent, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData) ;
+static Org::BouncyCastle::Cms::CmsSignedData New_ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData) ;
 
 /// @brief Method .ctor addr 0x115a5d4 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsProcessable signedContent, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData) ;
 
-// Ctor Parameters [CppParam { name: "hashes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "sigData", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit CmsSignedData(System::Collections::IDictionary hashes, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData) ;
+static Org::BouncyCastle::Cms::CmsSignedData New_ctor(System::Collections::IDictionary hashes, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData) ;
 
 /// @brief Method .ctor addr 0x115a6f8 size 0x90 virtual false final false
  void _ctor(System::Collections::IDictionary hashes, Org::BouncyCastle::Asn1::Cms::ContentInfo sigData) ;
 
-// Ctor Parameters [CppParam { name: "sigData", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit CmsSignedData(Org::BouncyCastle::Asn1::Cms::ContentInfo sigData) ;
+static Org::BouncyCastle::Cms::CmsSignedData New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo sigData) ;
 
 /// @brief Method .ctor addr 0x115a434 size 0x118 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo sigData) ;

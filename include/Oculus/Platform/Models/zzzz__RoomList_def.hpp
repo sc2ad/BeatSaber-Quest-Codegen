@@ -10,7 +10,7 @@ class RoomList;
 // Type: Oculus.Platform.Models::RoomList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 952 }), TypeDefinitionIndex(TypeDefinitionIndex(13468))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 952 }), TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13468))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13469))
 // CS Name: Oculus.Platform.Models.RoomList
 class CORDL_TYPE RoomList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Room> {
@@ -49,8 +49,7 @@ constexpr explicit RoomList(void* ptr) noexcept : Oculus::Platform::Models::Dese
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit RoomList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::RoomList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x25a07e8 size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

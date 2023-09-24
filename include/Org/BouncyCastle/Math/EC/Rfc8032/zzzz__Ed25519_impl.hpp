@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Rfc8032/zzzz__Ed25519_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Rfc8032/zzzz__Ed25519_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -62,8 +63,10 @@ constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC
 constexpr ::ArrayW<int32_t> Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum::__get_v() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int32_t>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum>())) {}
+ Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum::New_ctor()  {
+Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum>::get(),
@@ -114,8 +117,10 @@ constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC
 constexpr ::ArrayW<int32_t> Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt::__get_t() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int32_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt>())) {}
+ Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt::New_ctor()  {
+Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt>::get(),
@@ -160,8 +165,10 @@ constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC
 constexpr ::ArrayW<int32_t> Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp::__get_xyd() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int32_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp>())) {}
+ Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp::New_ctor()  {
+Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp>::get(),
@@ -1734,8 +1741,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, sig, sigOff, pk, pkOff, ctx, ph);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Ed25519()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Ed25519>())) {}
+ Org::BouncyCastle::Math::EC::Rfc8032::Ed25519 Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::New_ctor()  {
+Org::BouncyCastle::Math::EC::Rfc8032::Ed25519 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Rfc8032::Ed25519>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Rfc8032::Ed25519>::get(),

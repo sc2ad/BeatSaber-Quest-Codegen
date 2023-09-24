@@ -1,10 +1,10 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__MemoryTraceWriter_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
-#include "System/Diagnostics/zzzz__TraceLevel_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Diagnostics/zzzz__TraceLevel_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::MemoryTraceWriter.get_LevelFilter
 template<>
 
@@ -141,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::MemoryTraceWriter::MemoryTraceWriter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MemoryTraceWriter>())) {}
+ Newtonsoft::Json::Serialization::MemoryTraceWriter Newtonsoft::Json::Serialization::MemoryTraceWriter::New_ctor()  {
+Newtonsoft::Json::Serialization::MemoryTraceWriter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::MemoryTraceWriter>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::MemoryTraceWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::MemoryTraceWriter>::get(),

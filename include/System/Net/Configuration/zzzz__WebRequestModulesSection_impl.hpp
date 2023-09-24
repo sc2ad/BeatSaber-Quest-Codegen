@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Con
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::Configuration::WebRequestModulesSection::WebRequestModulesSection()  : System::Configuration::ConfigurationSection(THROW_UNLESS(::il2cpp_utils::New<WebRequestModulesSection>())) {}
+ System::Net::Configuration::WebRequestModulesSection System::Net::Configuration::WebRequestModulesSection::New_ctor()  {
+System::Net::Configuration::WebRequestModulesSection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Configuration::WebRequestModulesSection>())};
+return o;
+}
  void System::Net::Configuration::WebRequestModulesSection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Configuration::WebRequestModulesSection>::get(),

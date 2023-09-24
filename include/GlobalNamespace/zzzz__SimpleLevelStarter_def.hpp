@@ -3,49 +3,49 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace UnityEngine {
-class TextAsset;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class BeatmapLevelSO;
+class ScenesTransitionSetupDataSO;
 }
 namespace UnityEngine::UI {
 class Button;
 }
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-class MenuTransitionsHelper;
+namespace UnityEngine {
+class TextAsset;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class BeatmapLevelSO;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+class MenuTransitionsHelper;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace UnityEngine {
+class Component;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -192,8 +192,7 @@ constexpr GlobalNamespace::GameplayModifiers __get__gameplayModifiers() const;
 /// @brief Method HandleLevelDidFinish addr 0x21d42d0 size 0x28 virtual false final false
  void HandleLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
-// Ctor Parameters []
-explicit SimpleLevelStarter() ;
+static GlobalNamespace::SimpleLevelStarter New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d42f8 size 0xd8 virtual false final false
  void _ctor() ;

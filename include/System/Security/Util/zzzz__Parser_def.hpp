@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Security::Util {
-class Tokenizer;
+namespace System::Security {
+class SecurityDocument;
 }
 namespace System::Security {
 class SecurityElement;
 }
-namespace System::Security {
-class SecurityDocument;
-}
 namespace System::Security::Util {
 class TokenizerStream;
+}
+namespace System::Security::Util {
+class Tokenizer;
 }
 // Forward declare root types
 namespace System::Security::Util {
@@ -89,14 +89,12 @@ constexpr System::Security::Util::Tokenizer __get__t() const;
 /// @brief Method ParseContents addr 0x22e9804 size 0x308 virtual false final false
  void ParseContents() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "System::Security::Util::Tokenizer", modifiers: "", def_value: None }]
-explicit Parser(System::Security::Util::Tokenizer t) ;
+static System::Security::Util::Parser New_ctor(System::Security::Util::Tokenizer t) ;
 
 /// @brief Method .ctor addr 0x22e9c40 size 0xa4 virtual false final false
  void _ctor(System::Security::Util::Tokenizer t) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Parser(::StringW input) ;
+static System::Security::Util::Parser New_ctor(::StringW input) ;
 
 /// @brief Method .ctor addr 0x22e9ce4 size 0x70 virtual false final false
  void _ctor(::StringW input) ;

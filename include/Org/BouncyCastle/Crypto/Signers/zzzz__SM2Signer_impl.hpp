@@ -1,16 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__SM2Signer_def.hpp"
-#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaKCalculator_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaKCalculator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::SM2Signer._ctor
 template<>
 
@@ -346,8 +346,10 @@ constexpr void Org::BouncyCastle::Crypto::Signers::SM2Signer::__set_z(::ArrayW<u
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Signers::SM2Signer::__get_z() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Signers::SM2Signer::SM2Signer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM2Signer>())) {}
+ Org::BouncyCastle::Crypto::Signers::SM2Signer Org::BouncyCastle::Crypto::Signers::SM2Signer::New_ctor()  {
+Org::BouncyCastle::Crypto::Signers::SM2Signer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::SM2Signer>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::SM2Signer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::SM2Signer>::get(),
@@ -357,8 +359,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::SM2Signer::SM2Signer(Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM2Signer>(digest))) {}
+ Org::BouncyCastle::Crypto::Signers::SM2Signer Org::BouncyCastle::Crypto::Signers::SM2Signer::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Signers::SM2Signer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::SM2Signer>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::SM2Signer::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::SM2Signer>::get(),
@@ -368,8 +372,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, digest);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "Org::BouncyCastle::Crypto::Signers::IDsaEncoding", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::SM2Signer::SM2Signer(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM2Signer>(encoding))) {}
+ Org::BouncyCastle::Crypto::Signers::SM2Signer Org::BouncyCastle::Crypto::Signers::SM2Signer::New_ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding)  {
+Org::BouncyCastle::Crypto::Signers::SM2Signer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::SM2Signer>(encoding))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::SM2Signer::_ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::SM2Signer>::get(),
@@ -379,8 +385,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoding);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "Org::BouncyCastle::Crypto::Signers::IDsaEncoding", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::SM2Signer::SM2Signer(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding, Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SM2Signer>(encoding, digest))) {}
+ Org::BouncyCastle::Crypto::Signers::SM2Signer Org::BouncyCastle::Crypto::Signers::SM2Signer::New_ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding, Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Signers::SM2Signer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::SM2Signer>(encoding, digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::SM2Signer::_ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding, Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::SM2Signer>::get(),

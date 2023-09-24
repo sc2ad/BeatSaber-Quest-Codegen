@@ -7,57 +7,69 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace HMUI {
-class TableCell;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
+class ITableCellOwner;
+}
+namespace HMUI {
+class HMUI__TableView__CellsGroup;
+}
+namespace HMUI {
 class ScrollView;
 }
-namespace UnityEngine {
-struct UnityEngine__RectTransform__Axis;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
-namespace System {
-template<typename T1,typename T2>
-class Tuple_2;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace HMUI {
+struct HMUI__TableView__TableType;
+}
+namespace HMUI {
+struct HMUI__TableView__ScrollPositionType;
+}
+namespace HMUI {
+struct TableViewSelectionType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
 namespace UnityEngine {
-class RectTransform;
+struct UnityEngine__RectTransform__Axis;
 }
-namespace HMUI {
-class ITableCellOwner;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace HMUI {
-struct HMUI__SelectableCell__TransitionType;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace HMUI {
 class SelectableCell;
-}
-namespace HMUI {
-struct TableViewSelectionType;
 }
 namespace System {
 template<typename T1,typename T2>
-class Action_2;
+class Tuple_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace HMUI {
+class HMUI__TableView__IDataSource;
+}
+namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
 }
 // Forward declare root types
 namespace HMUI {
@@ -124,6 +136,8 @@ __Horizontal = 1,
 constexpr operator __HMUI__TableView__TableType_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__TableView__TableType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -194,6 +208,8 @@ __End = 2,
 constexpr operator __HMUI__TableView__ScrollPositionType_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__TableView__ScrollPositionType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -287,8 +303,7 @@ constexpr System::Collections::Generic::List_1<HMUI::TableCell> __get__cells() c
 /// @brief Method get_cells addr 0x1fd7198 size 0x8 virtual false final false
  System::Collections::Generic::List_1<HMUI::TableCell> get_cells() ;
 
-// Ctor Parameters []
-explicit HMUI__TableView__CellsGroup() ;
+static HMUI::HMUI__TableView__CellsGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd71a0 size 0x8 virtual false final false
  void _ctor() ;
@@ -692,8 +707,7 @@ constexpr bool __get__refreshCellsOnEnable() const;
 /// @brief Method ChangeRectSize addr 0x1fd70e0 size 0xb0 virtual false final false
  void ChangeRectSize(UnityEngine::UnityEngine__RectTransform__Axis axis, float_t size) ;
 
-// Ctor Parameters []
-explicit TableView() ;
+static HMUI::TableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd4e8c size 0xd0 virtual false final false
  void _ctor() ;

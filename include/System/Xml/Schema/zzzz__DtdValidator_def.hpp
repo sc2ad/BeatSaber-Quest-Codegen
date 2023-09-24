@@ -3,11 +3,14 @@
 #include "System/Xml/Schema/zzzz__BaseValidator_def.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Xml::Schema {
+class SchemaAttDef;
+}
 namespace System::Xml {
 class IDtdParserAdapter;
 }
 namespace System::Xml::Schema {
-class SchemaAttDef;
+class System__Xml__Schema__DtdValidator__NamespaceManager;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -61,8 +64,7 @@ constexpr explicit System__Xml__Schema__DtdValidator__NamespaceManager(void* ptr
 /// @brief Method LookupNamespace addr 0x272cfc0 size 0x8 virtual true final false
  ::StringW LookupNamespace(::StringW prefix) ;
 
-// Ctor Parameters []
-explicit System__Xml__Schema__DtdValidator__NamespaceManager() ;
+static System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x272cfb8 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__EnumerableProxy_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Collections::EnumerableProxy._ctor
 template<>
 
@@ -46,8 +46,10 @@ constexpr void Org::BouncyCastle::Utilities::Collections::EnumerableProxy::__set
 constexpr System::Collections::IEnumerable Org::BouncyCastle::Utilities::Collections::EnumerableProxy::__get_inner() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "inner", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::Collections::EnumerableProxy::EnumerableProxy(System::Collections::IEnumerable inner)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EnumerableProxy>(inner))) {}
+ Org::BouncyCastle::Utilities::Collections::EnumerableProxy Org::BouncyCastle::Utilities::Collections::EnumerableProxy::New_ctor(System::Collections::IEnumerable inner)  {
+Org::BouncyCastle::Utilities::Collections::EnumerableProxy o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::EnumerableProxy>(inner))};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::EnumerableProxy::_ctor(System::Collections::IEnumerable inner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::EnumerableProxy>::get(),

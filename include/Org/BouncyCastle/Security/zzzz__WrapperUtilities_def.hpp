@@ -6,19 +6,25 @@
 #include <cstddef>
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
-}
-namespace Org::BouncyCastle::Crypto {
 class IWrapper;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Crypto {
+class IBufferedCipher;
+}
+namespace Org::BouncyCastle::Security {
+class Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Security {
+struct Org__BouncyCastle__Security__WrapperUtilities__WrapAlgorithm;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -85,6 +91,8 @@ __CAMELLIARFC3211WRAP = 7,
 constexpr operator __Org__BouncyCastle__Security__WrapperUtilities__WrapAlgorithm_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Security__WrapperUtilities__WrapAlgorithm_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -188,8 +196,7 @@ constexpr bool __get_forWrapping() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBufferedCipher", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper(Org::BouncyCastle::Crypto::IBufferedCipher cipher) ;
+static Org::BouncyCastle::Security::Org__BouncyCastle__Security__WrapperUtilities__BufferedCipherWrapper New_ctor(Org::BouncyCastle::Crypto::IBufferedCipher cipher) ;
 
 /// @brief Method .ctor addr 0x10c28ec size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBufferedCipher cipher) ;
@@ -265,8 +272,7 @@ static System::Collections::IDictionary __get_algorithms() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit WrapperUtilities() ;
+static Org::BouncyCastle::Security::WrapperUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10c1b14 size 0x8 virtual false final false
  void _ctor() ;

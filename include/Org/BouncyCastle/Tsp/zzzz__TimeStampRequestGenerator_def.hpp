@@ -4,14 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Tsp {
 class TimeStampRequest;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBoolean;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -20,10 +23,7 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBoolean;
-}
-namespace System::Collections {
-class IList;
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -128,8 +128,7 @@ constexpr System::Collections::IList __get_extOrdering() const;
 /// @brief Method Generate addr 0x10c451c size 0x18 virtual true final false
  Org::BouncyCastle::Tsp::TimeStampRequest Generate(Org::BouncyCastle::Asn1::DerObjectIdentifier digestAlgorithm, ::ArrayW<uint8_t> digest, Org::BouncyCastle::Math::BigInteger nonce) ;
 
-// Ctor Parameters []
-explicit TimeStampRequestGenerator() ;
+static Org::BouncyCastle::Tsp::TimeStampRequestGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x10c4534 size 0x70 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Security/Cryptography/zzzz__CryptographicException_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::CryptographicException._ctor
 template<>
 
@@ -89,8 +89,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::CryptographicException::CryptographicException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<CryptographicException>())) {}
+ System::Security::Cryptography::CryptographicException System::Security::Cryptography::CryptographicException::New_ctor()  {
+System::Security::Cryptography::CryptographicException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CryptographicException>())};
+return o;
+}
  void System::Security::Cryptography::CryptographicException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CryptographicException>::get(),
@@ -100,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Cryptography::CryptographicException::CryptographicException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<CryptographicException>(message))) {}
+ System::Security::Cryptography::CryptographicException System::Security::Cryptography::CryptographicException::New_ctor(::StringW message)  {
+System::Security::Cryptography::CryptographicException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CryptographicException>(message))};
+return o;
+}
  void System::Security::Cryptography::CryptographicException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CryptographicException>::get(),
@@ -111,8 +115,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "insert", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Cryptography::CryptographicException::CryptographicException(::StringW format, ::StringW insert)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<CryptographicException>(format, insert))) {}
+ System::Security::Cryptography::CryptographicException System::Security::Cryptography::CryptographicException::New_ctor(::StringW format, ::StringW insert)  {
+System::Security::Cryptography::CryptographicException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CryptographicException>(format, insert))};
+return o;
+}
  void System::Security::Cryptography::CryptographicException::_ctor(::StringW format, ::StringW insert)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CryptographicException>::get(),
@@ -122,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, format, insert);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
- System::Security::Cryptography::CryptographicException::CryptographicException(::StringW message, System::Exception inner)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<CryptographicException>(message, inner))) {}
+ System::Security::Cryptography::CryptographicException System::Security::Cryptography::CryptographicException::New_ctor(::StringW message, System::Exception inner)  {
+System::Security::Cryptography::CryptographicException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CryptographicException>(message, inner))};
+return o;
+}
  void System::Security::Cryptography::CryptographicException::_ctor(::StringW message, System::Exception inner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CryptographicException>::get(),
@@ -133,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, inner);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Security::Cryptography::CryptographicException::CryptographicException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<CryptographicException>(info, context))) {}
+ System::Security::Cryptography::CryptographicException System::Security::Cryptography::CryptographicException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Security::Cryptography::CryptographicException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::CryptographicException>(info, context))};
+return o;
+}
  void System::Security::Cryptography::CryptographicException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::CryptographicException>::get(),

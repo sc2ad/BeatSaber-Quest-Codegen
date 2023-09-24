@@ -4,12 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct GlobalNamespace__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ISonyCommerceHelper__DisplayProductBrowseDialogResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,6 +88,8 @@ __Failed = 1,
 constexpr operator __GlobalNamespace__ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -146,6 +160,8 @@ constexpr operator __GlobalNamespace__ISonyCommerceHelper__DisplayCategoryBrowse
 return std::bit_cast<__GlobalNamespace__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -214,6 +230,8 @@ __Failed = 1,
 constexpr operator __GlobalNamespace__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

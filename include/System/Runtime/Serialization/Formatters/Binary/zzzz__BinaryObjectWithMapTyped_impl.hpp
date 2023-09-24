@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMapTyped_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryHeaderEnum_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryTypeEnum_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped._ctor
 template<>
 
@@ -143,8 +143,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryObjectW
 constexpr int32_t System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::__get_assemId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::BinaryObjectWithMapTyped()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryObjectWithMapTyped>())) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped>::get(),
@@ -154,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "binaryHeaderEnum", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::BinaryObjectWithMapTyped(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryObjectWithMapTyped>(binaryHeaderEnum))) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum)  {
+System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped>(binaryHeaderEnum))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped>::get(),

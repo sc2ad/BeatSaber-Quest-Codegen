@@ -3,14 +3,14 @@
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class X25519PublicKeyParameters;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class X25519PublicKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -79,20 +79,17 @@ constexpr ::ArrayW<uint8_t> __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit X25519PrivateKeyParameters(Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters New_ctor(Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0xead7d0 size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom random) ;
 
-// Ctor Parameters [CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }]
-explicit X25519PrivateKeyParameters(::ArrayW<uint8_t> buf, int32_t off) ;
+static Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters New_ctor(::ArrayW<uint8_t> buf, int32_t off) ;
 
 /// @brief Method .ctor addr 0xead874 size 0xbc virtual false final false
  void _ctor(::ArrayW<uint8_t> buf, int32_t off) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit X25519PrivateKeyParameters(System::IO::Stream input) ;
+static Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0xead930 size 0x108 virtual false final false
  void _ctor(System::IO::Stream input) ;

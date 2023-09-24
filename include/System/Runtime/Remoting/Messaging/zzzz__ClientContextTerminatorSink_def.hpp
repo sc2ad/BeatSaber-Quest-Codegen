@@ -2,9 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
@@ -12,6 +9,9 @@ class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Contexts {
 class Context;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -71,8 +71,7 @@ constexpr System::Runtime::Remoting::Contexts::Context __get__context() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ctx", ty: "System::Runtime::Remoting::Contexts::Context", modifiers: "", def_value: None }]
-explicit ClientContextTerminatorSink(System::Runtime::Remoting::Contexts::Context ctx) ;
+static System::Runtime::Remoting::Messaging::ClientContextTerminatorSink New_ctor(System::Runtime::Remoting::Contexts::Context ctx) ;
 
 /// @brief Method .ctor addr 0x2331d64 size 0x28 virtual false final false
  void _ctor(System::Runtime::Remoting::Contexts::Context ctx) ;

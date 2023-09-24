@@ -1,25 +1,26 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Net/zzzz__HttpConnection_def.hpp"
-#include "System/Net/zzzz__ResponseStream_def.hpp"
-#include "System/Net/zzzz__ListenerPrefix_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/Net/zzzz__RequestStream_def.hpp"
-#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
-#include "System/Net/zzzz__EndPointListener_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
-#include "System/Net/zzzz__HttpListenerContext_def.hpp"
-#include "System/Threading/zzzz__Timer_def.hpp"
-#include "System/Net/zzzz__HttpListener_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Net/zzzz__ResponseStream_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "System/Threading/zzzz__Timer_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Net/zzzz__HttpListenerContext_def.hpp"
+#include "System/Net/zzzz__HttpConnection_def.hpp"
+#include "System/Net/zzzz__RequestStream_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Net/zzzz__EndPointListener_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Net/zzzz__HttpListener_def.hpp"
+#include "System/Net/zzzz__ListenerPrefix_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__HttpConnection__InputState::System__Net__HttpConnection__InputState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -556,8 +557,10 @@ constexpr void System::Net::HttpConnection::__set_position(int32_t value)  {
 constexpr int32_t System::Net::HttpConnection::__get_position() const {
 return ::cordl_internals::getInstanceField<int32_t, 0xb8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "sock", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }, CppParam { name: "epl", ty: "System::Net::EndPointListener", modifiers: "", def_value: None }, CppParam { name: "secure", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cert", ty: "System::Security::Cryptography::X509Certificates::X509Certificate", modifiers: "", def_value: None }]
- System::Net::HttpConnection::HttpConnection(System::Net::Sockets::Socket sock, System::Net::EndPointListener epl, bool secure, System::Security::Cryptography::X509Certificates::X509Certificate cert)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpConnection>(sock, epl, secure, cert))) {}
+ System::Net::HttpConnection System::Net::HttpConnection::New_ctor(System::Net::Sockets::Socket sock, System::Net::EndPointListener epl, bool secure, System::Security::Cryptography::X509Certificates::X509Certificate cert)  {
+System::Net::HttpConnection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpConnection>(sock, epl, secure, cert))};
+return o;
+}
  void System::Net::HttpConnection::_ctor(System::Net::Sockets::Socket sock, System::Net::EndPointListener epl, bool secure, System::Security::Cryptography::X509Certificates::X509Certificate cert)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpConnection>::get(),

@@ -1,17 +1,17 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_def.hpp"
-namespace System::Security {
-class SecurityElement;
-}
 namespace System::Security::Permissions {
 struct SecurityPermissionFlag;
+}
+namespace System::Security::Permissions {
+struct PermissionState;
 }
 namespace System::Security {
 class IPermission;
 }
-namespace System::Security::Permissions {
-struct PermissionState;
+namespace System::Security {
+class SecurityElement;
 }
 // Forward declare root types
 namespace System::Security::Permissions {
@@ -73,14 +73,12 @@ constexpr System::Security::Permissions::SecurityPermissionFlag __get_flags() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "state", ty: "System::Security::Permissions::PermissionState", modifiers: "", def_value: None }]
-explicit SecurityPermission(System::Security::Permissions::PermissionState state) ;
+static System::Security::Permissions::SecurityPermission New_ctor(System::Security::Permissions::PermissionState state) ;
 
 /// @brief Method .ctor addr 0x22eac50 size 0x40 virtual false final false
  void _ctor(System::Security::Permissions::PermissionState state) ;
 
-// Ctor Parameters [CppParam { name: "flag", ty: "System::Security::Permissions::SecurityPermissionFlag", modifiers: "", def_value: None }]
-explicit SecurityPermission(System::Security::Permissions::SecurityPermissionFlag flag) ;
+static System::Security::Permissions::SecurityPermission New_ctor(System::Security::Permissions::SecurityPermissionFlag flag) ;
 
 /// @brief Method .ctor addr 0x22eac90 size 0x2c virtual false final false
  void _ctor(System::Security::Permissions::SecurityPermissionFlag flag) ;

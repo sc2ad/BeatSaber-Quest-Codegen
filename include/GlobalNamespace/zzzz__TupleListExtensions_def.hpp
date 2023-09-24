@@ -1,21 +1,21 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Tuple_3;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
 namespace System {
-template<typename T1,typename T2,typename T3>
-class Tuple_3;
+template<typename T1,typename T2,typename T3,typename T4>
+class Tuple_4;
 }
 namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4>
-class Tuple_4;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -69,8 +69,7 @@ static ::StringW __get_globalStyleSheet() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Defines() ;
+static UIToolkitUtilities::Defines New_ctor() ;
 
 /// @brief Method .ctor addr 0x287b934 size 0x8 virtual false final false
  void _ctor() ;

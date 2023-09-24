@@ -82,8 +82,7 @@ constexpr int32_t __get__bufferTexID() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SimpleTemporalFiltering() ;
+static GlobalNamespace::SimpleTemporalFiltering New_ctor() ;
 
 /// @brief Method .ctor addr 0x267a7a0 size 0xcc virtual false final false
  void _ctor() ;

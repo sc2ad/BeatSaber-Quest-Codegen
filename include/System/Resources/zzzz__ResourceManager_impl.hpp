@@ -1,16 +1,17 @@
 #pragma once
 #include "System/Resources/zzzz__ResourceManager_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Reflection/zzzz__AssemblyName_def.hpp"
-#include "System/Resources/zzzz__UltimateResourceFallbackLocation_def.hpp"
-#include "System/Resources/zzzz__ResourceSet_def.hpp"
-#include "System/Resources/zzzz__IResourceGroveler_def.hpp"
-#include "System/Reflection/zzzz__RuntimeAssembly_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__RuntimeAssembly_def.hpp"
+#include "System/Resources/zzzz__ResourceManager_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Resources/zzzz__ResourceSet_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Resources/zzzz__UltimateResourceFallbackLocation_def.hpp"
+#include "System/Resources/zzzz__IResourceGroveler_def.hpp"
 //  Writing Method size for method: System::Resources::System__Resources__ResourceManager__CultureNameResourceSetPair._ctor
 template<>
 
@@ -28,8 +29,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Resources::System__Resources__ResourceManager__CultureNameResourceSetPair::System__Resources__ResourceManager__CultureNameResourceSetPair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Resources__ResourceManager__CultureNameResourceSetPair>())) {}
+ System::Resources::System__Resources__ResourceManager__CultureNameResourceSetPair System::Resources::System__Resources__ResourceManager__CultureNameResourceSetPair::New_ctor()  {
+System::Resources::System__Resources__ResourceManager__CultureNameResourceSetPair o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::System__Resources__ResourceManager__CultureNameResourceSetPair>())};
+return o;
+}
  void System::Resources::System__Resources__ResourceManager__CultureNameResourceSetPair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::System__Resources__ResourceManager__CultureNameResourceSetPair>::get(),
@@ -62,8 +65,10 @@ constexpr void System::Resources::System__Resources__ResourceManager__ResourceMa
 constexpr System::Resources::ResourceManager System::Resources::System__Resources__ResourceManager__ResourceManagerMediator::__get__rm() const {
 return ::cordl_internals::getInstanceField<System::Resources::ResourceManager, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rm", ty: "System::Resources::ResourceManager", modifiers: "", def_value: None }]
- System::Resources::System__Resources__ResourceManager__ResourceManagerMediator::System__Resources__ResourceManager__ResourceManagerMediator(System::Resources::ResourceManager rm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Resources__ResourceManager__ResourceManagerMediator>(rm))) {}
+ System::Resources::System__Resources__ResourceManager__ResourceManagerMediator System::Resources::System__Resources__ResourceManager__ResourceManagerMediator::New_ctor(System::Resources::ResourceManager rm)  {
+System::Resources::System__Resources__ResourceManager__ResourceManagerMediator o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::System__Resources__ResourceManager__ResourceManagerMediator>(rm))};
+return o;
+}
  void System::Resources::System__Resources__ResourceManager__ResourceManagerMediator::_ctor(System::Resources::ResourceManager rm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::System__Resources__ResourceManager__ResourceManagerMediator>::get(),
@@ -292,8 +297,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Resources::ResourceManager::ResourceManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceManager>())) {}
+ System::Resources::ResourceManager System::Resources::ResourceManager::New_ctor()  {
+System::Resources::ResourceManager o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::ResourceManager>())};
+return o;
+}
  void System::Resources::ResourceManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::ResourceManager>::get(),

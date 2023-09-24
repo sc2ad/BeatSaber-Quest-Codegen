@@ -3,22 +3,22 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class SaberTypeObject;
+class SaberMovementData;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace GlobalNamespace {
 struct SaberType;
 }
 namespace GlobalNamespace {
-class SaberMovementData;
+class SaberTypeObject;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -167,8 +167,7 @@ constexpr UnityEngine::Quaternion __get__handleRot() const;
 /// @brief Method OverridePositionAndRotation addr 0x210b6dc size 0x78 virtual false final false
  void OverridePositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot) ;
 
-// Ctor Parameters []
-explicit Saber() ;
+static GlobalNamespace::Saber New_ctor() ;
 
 /// @brief Method .ctor addr 0x210b754 size 0x68 virtual false final false
  void _ctor() ;

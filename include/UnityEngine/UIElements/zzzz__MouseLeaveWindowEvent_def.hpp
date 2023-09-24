@@ -14,7 +14,7 @@ class MouseLeaveWindowEvent;
 // Type: UnityEngine.UIElements::MouseLeaveWindowEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7314)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4509 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4509 }), TypeDefinitionIndex(TypeDefinitionIndex(7314))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7323))
 // CS Name: UnityEngine.UIElements.MouseLeaveWindowEvent
 class CORDL_TYPE MouseLeaveWindowEvent : public UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseLeaveWindowEvent> {
@@ -59,8 +59,7 @@ constexpr explicit MouseLeaveWindowEvent(void* ptr) noexcept : UnityEngine::UIEl
 /// @brief Method LocalInit addr 0x2cda5fc size 0xa4 virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit MouseLeaveWindowEvent() ;
+static UnityEngine::UIElements::MouseLeaveWindowEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cda6a0 size 0x50 virtual false final false
  void _ctor() ;

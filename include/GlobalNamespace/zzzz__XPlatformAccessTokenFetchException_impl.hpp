@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::XPlatformAccessTokenFetchException::XPlatformAccessTokenFetchException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<XPlatformAccessTokenFetchException>(message))) {}
+ GlobalNamespace::XPlatformAccessTokenFetchException GlobalNamespace::XPlatformAccessTokenFetchException::New_ctor(::StringW message)  {
+GlobalNamespace::XPlatformAccessTokenFetchException o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::XPlatformAccessTokenFetchException>(message))};
+return o;
+}
  void GlobalNamespace::XPlatformAccessTokenFetchException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::XPlatformAccessTokenFetchException>::get(),

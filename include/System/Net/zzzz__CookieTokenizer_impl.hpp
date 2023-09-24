@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__CookieTokenizer_def.hpp"
+#include "System/Net/zzzz__CookieTokenizer_def.hpp"
 #include "System/Net/zzzz__CookieToken_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__CookieTokenizer__RecognizedAttribute._ctor
 template<>
@@ -457,8 +458,10 @@ return ::cordl_internals::getStaticField<::ArrayW<System::Net::System__Net__Cook
  ::ArrayW<System::Net::System__Net__CookieTokenizer__RecognizedAttribute> System::Net::CookieTokenizer::__get_RecognizedServerAttributes()  {
 return ::cordl_internals::getStaticField<::ArrayW<System::Net::System__Net__CookieTokenizer__RecognizedAttribute>, "RecognizedServerAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CookieTokenizer>::get>();
 }
-// Ctor Parameters [CppParam { name: "tokenStream", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::CookieTokenizer::CookieTokenizer(::StringW tokenStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CookieTokenizer>(tokenStream))) {}
+ System::Net::CookieTokenizer System::Net::CookieTokenizer::New_ctor(::StringW tokenStream)  {
+System::Net::CookieTokenizer o{THROW_UNLESS(::il2cpp_utils::New<System::Net::CookieTokenizer>(tokenStream))};
+return o;
+}
  void System::Net::CookieTokenizer::_ctor(::StringW tokenStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::CookieTokenizer>::get(),

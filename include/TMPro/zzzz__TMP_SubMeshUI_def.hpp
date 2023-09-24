@@ -4,7 +4,7 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Transform;
+struct Rect;
 }
 namespace UnityEngine {
 class Mesh;
@@ -12,29 +12,29 @@ class Mesh;
 namespace UnityEngine {
 class Texture;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
-class Material;
+class Transform;
+}
+namespace TMPro {
+struct MaterialReference;
 }
 namespace TMPro {
 class TMP_FontAsset;
 }
 namespace TMPro {
-class TMP_Text;
-}
-namespace TMPro {
-class TMP_SpriteAsset;
-}
-namespace UnityEngine {
-struct Rect;
+class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
 }
 namespace TMPro {
-struct MaterialReference;
+class TMP_SpriteAsset;
+}
+namespace TMPro {
+class TMP_Text;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace TMPro {
@@ -337,8 +337,7 @@ static TMPro::TMP_SubMeshUI AddSubTextObject(TMPro::TextMeshProUGUI textComponen
 /// @brief Method SetSharedMaterial addr 0x2aaf0b4 size 0x30 virtual false final false
  void SetSharedMaterial(UnityEngine::Material mat) ;
 
-// Ctor Parameters []
-explicit TMP_SubMeshUI() ;
+static TMPro::TMP_SubMeshUI New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab0188 size 0x8 virtual false final false
  void _ctor() ;

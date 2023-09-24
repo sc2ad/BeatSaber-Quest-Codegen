@@ -5,10 +5,10 @@ namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
-struct PropertyName;
+class IExposedPropertyTable;
 }
 namespace UnityEngine {
-class IExposedPropertyTable;
+struct PropertyName;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
 namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
-}
-namespace UnityEngine {
-class Texture;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -80,8 +80,7 @@ constexpr UnityEngine::Rect __get_m_UVRect() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RawImage() ;
+static UnityEngine::UI::RawImage New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c05008 size 0x50 virtual false final false
  void _ctor() ;

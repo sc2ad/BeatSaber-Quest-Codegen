@@ -98,8 +98,10 @@ constexpr void System::Xml::UTF16Decoder::__set_lastByte(int32_t value)  {
 constexpr int32_t System::Xml::UTF16Decoder::__get_lastByte() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bigEndian", ty: "bool", modifiers: "", def_value: None }]
- System::Xml::UTF16Decoder::UTF16Decoder(bool bigEndian)  : System::Text::Decoder(THROW_UNLESS(::il2cpp_utils::New<UTF16Decoder>(bigEndian))) {}
+ System::Xml::UTF16Decoder System::Xml::UTF16Decoder::New_ctor(bool bigEndian)  {
+System::Xml::UTF16Decoder o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::UTF16Decoder>(bigEndian))};
+return o;
+}
  void System::Xml::UTF16Decoder::_ctor(bool bigEndian)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::UTF16Decoder>::get(),

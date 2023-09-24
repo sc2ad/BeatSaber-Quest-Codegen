@@ -262,8 +262,10 @@ constexpr void Oculus::Platform::MatchmakingOptions::__set_Handle(::cordl_intern
 constexpr ::cordl_internals::intptr_t Oculus::Platform::MatchmakingOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::MatchmakingOptions::MatchmakingOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MatchmakingOptions>())) {}
+ Oculus::Platform::MatchmakingOptions Oculus::Platform::MatchmakingOptions::New_ctor()  {
+Oculus::Platform::MatchmakingOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::MatchmakingOptions>())};
+return o;
+}
  void Oculus::Platform::MatchmakingOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MatchmakingOptions>::get(),

@@ -70,8 +70,7 @@ constexpr explicit XmlCDataSection(void* ptr) noexcept : System::Xml::XmlCharact
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlCDataSection(::StringW data, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlCDataSection New_ctor(::StringW data, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f010c size 0x2c virtual false final false
  void _ctor(::StringW data, System::Xml::XmlDocument doc) ;

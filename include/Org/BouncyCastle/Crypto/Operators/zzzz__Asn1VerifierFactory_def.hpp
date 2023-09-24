@@ -2,6 +2,9 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace Org::BouncyCastle::Crypto {
+class IStreamCalculator;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
@@ -10,9 +13,6 @@ class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactory;
-}
-namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -83,14 +83,12 @@ constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_publicKey() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit Asn1VerifierFactory(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
+static Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory New_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
 
 /// @brief Method .ctor addr 0xe9fc34 size 0x150 virtual false final false
  void _ctor(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit Asn1VerifierFactory(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
+static Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
 
 /// @brief Method .ctor addr 0xe9fd84 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;

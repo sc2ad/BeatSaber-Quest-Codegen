@@ -443,8 +443,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_sm2sign_with_blake2s25
 
 // Methods
 
-// Ctor Parameters []
-explicit GMObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xe10578 size 0x8 virtual false final false
  void _ctor() ;

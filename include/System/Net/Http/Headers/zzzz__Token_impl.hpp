@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::Http::Headers::System__Net__Http__Headers__Token__Type::System__Net__Http__Headers__Token__Type(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }

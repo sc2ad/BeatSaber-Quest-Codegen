@@ -4,26 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class ICollection;
-}
 namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
-namespace System {
-class Array;
+class System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
-class IDictionaryEnumerator;
+class IDictionary;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System {
+class Array;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -115,8 +118,7 @@ constexpr int32_t __get__posMethod() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "methodDictionary", ty: "System::Runtime::Remoting::Messaging::MessageDictionary", modifiers: "", def_value: None }]
-explicit System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator(System::Runtime::Remoting::Messaging::MessageDictionary methodDictionary) ;
+static System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__MessageDictionary__DictionaryEnumerator New_ctor(System::Runtime::Remoting::Messaging::MessageDictionary methodDictionary) ;
 
 /// @brief Method .ctor addr 0x234367c size 0xe4 virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::MessageDictionary methodDictionary) ;
@@ -246,8 +248,7 @@ constexpr bool __get__ownProperties() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
-explicit MessageDictionary(System::Runtime::Remoting::Messaging::IMethodMessage message) ;
+static System::Runtime::Remoting::Messaging::MessageDictionary New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage message) ;
 
 /// @brief Method .ctor addr 0x233fef8 size 0x28 virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMethodMessage message) ;

@@ -5,27 +5,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class GlobalNamespace__FireworkItemController__Pool;
-}
-namespace GlobalNamespace {
-class DirectionalLight;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class FireworkItemController;
+class DirectionalLight;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__FireworksController___SpawningCoroutine_d__8;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GlobalNamespace__FireworkItemController__Pool;
+}
+namespace GlobalNamespace {
+class FireworkItemController;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,8 +116,7 @@ constexpr GlobalNamespace::FireworksController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__FireworksController___SpawningCoroutine_d__8(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__FireworksController___SpawningCoroutine_d__8 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x224fcc8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -239,8 +241,7 @@ constexpr GlobalNamespace::GlobalNamespace__FireworkItemController__Pool __get__
 /// @brief Method OnDrawGizmosSelected addr 0x224fdac size 0x54 virtual false final false
  void OnDrawGizmosSelected() ;
 
-// Ctor Parameters []
-explicit FireworksController() ;
+static GlobalNamespace::FireworksController New_ctor() ;
 
 /// @brief Method .ctor addr 0x224fe00 size 0x1c virtual false final false
  void _ctor() ;

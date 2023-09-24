@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace HoudiniEngineUnity {
 class HEU_VertexEntry;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace System {
 template<typename T>
@@ -98,8 +98,7 @@ constexpr ::ArrayW<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_
 /// @brief Method SetupNormalIndices addr 0x2051914 size 0x120 virtual false final false
  void SetupNormalIndices(int32_t indicesCount) ;
 
-// Ctor Parameters []
-explicit HEU_GeoGroup() ;
+static HoudiniEngineUnity::HEU_GeoGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2051898 size 0x7c virtual false final false
  void _ctor() ;

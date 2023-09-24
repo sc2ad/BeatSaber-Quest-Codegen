@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X9::X9ECParameters, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::X9ECParametersHolder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X9ECParametersHolder>())) {}
+ Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::New_ctor()  {
+Org::BouncyCastle::Asn1::X9::X9ECParametersHolder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder>::get(),

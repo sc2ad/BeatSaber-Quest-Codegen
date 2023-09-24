@@ -148,8 +148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, infoText, canBuyPack);
 }
-// Ctor Parameters []
- GlobalNamespace::StandardLevelBuyInfoView::StandardLevelBuyInfoView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StandardLevelBuyInfoView>())) {}
+ GlobalNamespace::StandardLevelBuyInfoView GlobalNamespace::StandardLevelBuyInfoView::New_ctor()  {
+GlobalNamespace::StandardLevelBuyInfoView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardLevelBuyInfoView>())};
+return o;
+}
  void GlobalNamespace::StandardLevelBuyInfoView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardLevelBuyInfoView>::get(),

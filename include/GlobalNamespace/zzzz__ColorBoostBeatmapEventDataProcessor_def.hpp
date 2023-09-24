@@ -9,7 +9,7 @@ class ColorBoostBeatmapEventDataProcessor;
 // Type: ::ColorBoostBeatmapEventDataProcessor
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14915)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14924), inst: 919 }), TypeDefinitionIndex(TypeDefinitionIndex(14924))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14924)), TypeDefinitionIndex(TypeDefinitionIndex(14915)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14924), inst: 919 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14925))
 // CS Name: ColorBoostBeatmapEventDataProcessor
 class CORDL_TYPE ColorBoostBeatmapEventDataProcessor : public GlobalNamespace::BeatmapEventDataProcessor_1<GlobalNamespace::ColorBoostBeatmapEventData> {
@@ -48,8 +48,7 @@ constexpr explicit ColorBoostBeatmapEventDataProcessor(void* ptr) noexcept : Glo
 
 // Methods
 
-// Ctor Parameters []
-explicit ColorBoostBeatmapEventDataProcessor() ;
+static GlobalNamespace::ColorBoostBeatmapEventDataProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0xd92e54 size 0x48 virtual false final false
  void _ctor() ;

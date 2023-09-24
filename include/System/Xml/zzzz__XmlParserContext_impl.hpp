@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__XmlParserContext_def.hpp"
-#include "System/Xml/zzzz__XmlSpace_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__XmlSpace_def.hpp"
 //  Writing Method size for method: System::Xml::XmlParserContext._ctor
 template<>
 
@@ -285,8 +285,10 @@ constexpr void System::Xml::XmlParserContext::__set__encoding(System::Text::Enco
 constexpr System::Text::Encoding System::Xml::XmlParserContext::__get__encoding() const {
 return ::cordl_internals::getInstanceField<System::Text::Encoding, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }, CppParam { name: "nsMgr", ty: "System::Xml::XmlNamespaceManager", modifiers: "", def_value: None }, CppParam { name: "docTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "pubId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sysId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "internalSubset", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "baseURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xmlSpace", ty: "System::Xml::XmlSpace", modifiers: "", def_value: None }]
- System::Xml::XmlParserContext::XmlParserContext(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlParserContext>(nt, nsMgr, docTypeName, pubId, sysId, internalSubset, baseURI, xmlLang, xmlSpace))) {}
+ System::Xml::XmlParserContext System::Xml::XmlParserContext::New_ctor(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace)  {
+System::Xml::XmlParserContext o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlParserContext>(nt, nsMgr, docTypeName, pubId, sysId, internalSubset, baseURI, xmlLang, xmlSpace))};
+return o;
+}
  void System::Xml::XmlParserContext::_ctor(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlParserContext>::get(),
@@ -296,8 +298,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, nt, nsMgr, docTypeName, pubId, sysId, internalSubset, baseURI, xmlLang, xmlSpace);
 }
-// Ctor Parameters [CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }, CppParam { name: "nsMgr", ty: "System::Xml::XmlNamespaceManager", modifiers: "", def_value: None }, CppParam { name: "docTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "pubId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sysId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "internalSubset", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "baseURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "xmlSpace", ty: "System::Xml::XmlSpace", modifiers: "", def_value: None }, CppParam { name: "enc", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::Xml::XmlParserContext::XmlParserContext(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace, System::Text::Encoding enc)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlParserContext>(nt, nsMgr, docTypeName, pubId, sysId, internalSubset, baseURI, xmlLang, xmlSpace, enc))) {}
+ System::Xml::XmlParserContext System::Xml::XmlParserContext::New_ctor(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace, System::Text::Encoding enc)  {
+System::Xml::XmlParserContext o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlParserContext>(nt, nsMgr, docTypeName, pubId, sysId, internalSubset, baseURI, xmlLang, xmlSpace, enc))};
+return o;
+}
  void System::Xml::XmlParserContext::_ctor(System::Xml::XmlNameTable nt, System::Xml::XmlNamespaceManager nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace, System::Text::Encoding enc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlParserContext>::get(),

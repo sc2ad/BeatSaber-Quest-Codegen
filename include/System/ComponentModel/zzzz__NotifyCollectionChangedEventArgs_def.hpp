@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IList;
-}
 namespace System::ComponentModel {
 struct NotifyCollectionChangedAction;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -130,68 +130,57 @@ constexpr int32_t __get__OldStartingIndex_k__BackingField() const;
 /// @brief Method set_OldStartingIndex addr 0x24c6c14 size 0x8 virtual false final false
  void set_OldStartingIndex(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action) ;
 
 /// @brief Method .ctor addr 0x24c6c1c size 0x28 virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItems", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems) ;
 
 /// @brief Method .ctor addr 0x24c6c44 size 0x30 virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem) ;
 
 /// @brief Method .ctor addr 0x24c6c74 size 0x100 virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "newItems", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "oldItems", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems) ;
 
 /// @brief Method .ctor addr 0x24c6d74 size 0x40 virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItems", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "startingIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t startingIndex) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t startingIndex) ;
 
 /// @brief Method .ctor addr 0x24c6db4 size 0x40 virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t startingIndex) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index) ;
 
 /// @brief Method .ctor addr 0x24c6df4 size 0x24 virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "newItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "oldItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem) ;
 
 /// @brief Method .ctor addr 0x24c6e18 size 0x10c virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "newItems", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "oldItems", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "startingIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems, int32_t startingIndex) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems, int32_t startingIndex) ;
 
 /// @brief Method .ctor addr 0x24c6f24 size 0x48 virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList newItems, System::Collections::IList oldItems, int32_t startingIndex) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItems", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "oldIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t index, int32_t oldIndex) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t index, int32_t oldIndex) ;
 
 /// @brief Method .ctor addr 0x24c6f6c size 0x48 virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action, System::Collections::IList changedItems, int32_t index, int32_t oldIndex) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "changedItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "oldIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index, int32_t oldIndex) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index, int32_t oldIndex) ;
 
 /// @brief Method .ctor addr 0x24c6fb4 size 0x2c virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType changedItem, int32_t index, int32_t oldIndex) ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "System::ComponentModel::NotifyCollectionChangedAction", modifiers: "", def_value: None }, CppParam { name: "newItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "oldItem", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NotifyCollectionChangedEventArgs(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem, int32_t index) ;
+static System::ComponentModel::NotifyCollectionChangedEventArgs New_ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem, int32_t index) ;
 
 /// @brief Method .ctor addr 0x24c6fe0 size 0x24 virtual false final false
  void _ctor(System::ComponentModel::NotifyCollectionChangedAction action, ::bs_hook::Il2CppWrapperType newItem, ::bs_hook::Il2CppWrapperType oldItem, int32_t index) ;

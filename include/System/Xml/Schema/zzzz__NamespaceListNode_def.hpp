@@ -16,10 +16,10 @@ namespace System::Xml::Schema {
 class Positions;
 }
 namespace System::Xml::Schema {
-class BitSet;
+class NamespaceList;
 }
 namespace System::Xml::Schema {
-class NamespaceList;
+class BitSet;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -87,8 +87,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_particle() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "namespaceList", ty: "System::Xml::Schema::NamespaceList", modifiers: "", def_value: None }, CppParam { name: "particle", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit NamespaceListNode(System::Xml::Schema::NamespaceList namespaceList, ::bs_hook::Il2CppWrapperType particle) ;
+static System::Xml::Schema::NamespaceListNode New_ctor(System::Xml::Schema::NamespaceList namespaceList, ::bs_hook::Il2CppWrapperType particle) ;
 
 /// @brief Method .ctor addr 0x271a2f4 size 0x2c virtual false final false
  void _ctor(System::Xml::Schema::NamespaceList namespaceList, ::bs_hook::Il2CppWrapperType particle) ;

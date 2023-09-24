@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElement_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509ChainElement._ctor
 template<>
 
@@ -163,8 +163,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509ChainElemen
 constexpr System::Security::Cryptography::X509Certificates::X509ChainStatusFlags System::Security::Cryptography::X509Certificates::X509ChainElement::__get_compressed_status_flags() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "certificate", ty: "System::Security::Cryptography::X509Certificates::X509Certificate2", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509ChainElement::X509ChainElement(System::Security::Cryptography::X509Certificates::X509Certificate2 certificate)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509ChainElement>(certificate))) {}
+ System::Security::Cryptography::X509Certificates::X509ChainElement System::Security::Cryptography::X509Certificates::X509ChainElement::New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2 certificate)  {
+System::Security::Cryptography::X509Certificates::X509ChainElement o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509ChainElement>(certificate))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509ChainElement::_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2 certificate)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509ChainElement>::get(),

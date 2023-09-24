@@ -128,8 +128,10 @@ constexpr void Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator
 constexpr Org::BouncyCastle::Crypto::IDigest Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::__get_digest() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IDigest, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::Pkcs5S1ParametersGenerator(Org::BouncyCastle::Crypto::IDigest digest)  : Org::BouncyCastle::Crypto::PbeParametersGenerator(THROW_UNLESS(::il2cpp_utils::New<Pkcs5S1ParametersGenerator>(digest))) {}
+ Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator>::get(),

@@ -7,10 +7,25 @@ namespace GlobalNamespace {
 class ResultsViewController;
 }
 namespace GlobalNamespace {
-class LeaderboardViewController;
+class RunLevelMenuDestination;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardViewController;
+}
+namespace GlobalNamespace {
+class MenuLightsPresetSO;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardsModel;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
@@ -19,25 +34,13 @@ namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
+class LeaderboardViewController;
+}
+namespace GlobalNamespace {
 class PlayerLevelStatsData;
 }
 namespace GlobalNamespace {
 class MenuLightsManager;
-}
-namespace GlobalNamespace {
-class MenuLightsPresetSO;
-}
-namespace GlobalNamespace {
-class RunLevelMenuDestination;
-}
-namespace GlobalNamespace {
-class PlatformLeaderboardViewController;
-}
-namespace GlobalNamespace {
-class PlatformLeaderboardsModel;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +106,7 @@ constexpr GlobalNamespace::ResultsViewController __get_resultsViewController() c
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0() ;
+static GlobalNamespace::GlobalNamespace__SoloFreePlayFlowCoordinator____c__DisplayClass21_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21466c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -252,8 +254,7 @@ constexpr GlobalNamespace::PlatformLeaderboardsModel __get__platformLeaderboards
 /// @brief Method __SetupFromDestination addr 0x21466cc size 0x318 virtual false final false
  void __SetupFromDestination(GlobalNamespace::RunLevelMenuDestination runLevelMenuDestination) ;
 
-// Ctor Parameters []
-explicit SoloFreePlayFlowCoordinator() ;
+static GlobalNamespace::SoloFreePlayFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x21469e4 size 0x8 virtual false final false
  void _ctor() ;

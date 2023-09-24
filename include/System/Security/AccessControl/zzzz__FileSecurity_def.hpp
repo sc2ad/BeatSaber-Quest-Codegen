@@ -51,8 +51,7 @@ constexpr explicit FileSecurity(void* ptr) noexcept : System::Security::AccessCo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }]
-explicit FileSecurity(::StringW fileName, System::Security::AccessControl::AccessControlSections includeSections) ;
+static System::Security::AccessControl::FileSecurity New_ctor(::StringW fileName, System::Security::AccessControl::AccessControlSections includeSections) ;
 
 /// @brief Method .ctor addr 0x2318358 size 0x18 virtual false final false
  void _ctor(::StringW fileName, System::Security::AccessControl::AccessControlSections includeSections) ;

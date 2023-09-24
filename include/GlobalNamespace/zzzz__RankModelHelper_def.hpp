@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-struct GlobalNamespace__RankModel__Rank;
+class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+struct GlobalNamespace__RankModel__Rank;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;

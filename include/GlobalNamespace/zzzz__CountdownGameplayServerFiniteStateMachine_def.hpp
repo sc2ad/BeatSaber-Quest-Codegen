@@ -50,8 +50,7 @@ constexpr explicit CountdownGameplayServerFiniteStateMachine(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initParams", ty: "GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams", modifiers: "", def_value: None }]
-explicit CountdownGameplayServerFiniteStateMachine(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
+static GlobalNamespace::CountdownGameplayServerFiniteStateMachine New_ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;
 
 /// @brief Method .ctor addr 0xdaeedc size 0x30 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__GameplayServerFiniteStateMachine__InitParams initParams) ;

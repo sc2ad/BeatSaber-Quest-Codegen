@@ -71,14 +71,12 @@ constexpr ::ArrayW<uint8_t> __get_mPsk() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "psk", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit BasicTlsPskIdentity(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> psk) ;
+static Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity New_ctor(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> psk) ;
 
 /// @brief Method .ctor addr 0xece06c size 0x8c virtual false final false
  void _ctor(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> psk) ;
 
-// Ctor Parameters [CppParam { name: "identity", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "psk", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit BasicTlsPskIdentity(::StringW identity, ::ArrayW<uint8_t> psk) ;
+static Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity New_ctor(::StringW identity, ::ArrayW<uint8_t> psk) ;
 
 /// @brief Method .ctor addr 0xece0f8 size 0x8c virtual false final false
  void _ctor(::StringW identity, ::ArrayW<uint8_t> psk) ;

@@ -6,13 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine {
+struct CachedAssetBundle;
+}
+namespace UnityEngine {
 class AssetBundle;
 }
 namespace UnityEngine {
 struct Hash128;
-}
-namespace UnityEngine {
-struct CachedAssetBundle;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -81,14 +81,12 @@ static ::cordl_internals::intptr_t CreateCached(UnityEngine::Networking::Downloa
 /// @brief Method InternalCreateAssetBundleCached addr 0x2d3385c size 0x18 virtual false final false
  void InternalCreateAssetBundleCached(::StringW url, ::StringW name, UnityEngine::Hash128 hash, uint32_t crc) ;
 
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "crc", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit DownloadHandlerAssetBundle(::StringW url, uint32_t crc) ;
+static UnityEngine::Networking::DownloadHandlerAssetBundle New_ctor(::StringW url, uint32_t crc) ;
 
 /// @brief Method .ctor addr 0x2d3350c size 0x64 virtual false final false
  void _ctor(::StringW url, uint32_t crc) ;
 
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cachedBundle", ty: "UnityEngine::CachedAssetBundle", modifiers: "", def_value: None }, CppParam { name: "crc", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit DownloadHandlerAssetBundle(::StringW url, UnityEngine::CachedAssetBundle cachedBundle, uint32_t crc) ;
+static UnityEngine::Networking::DownloadHandlerAssetBundle New_ctor(::StringW url, UnityEngine::CachedAssetBundle cachedBundle, uint32_t crc) ;
 
 /// @brief Method .ctor addr 0x2d33660 size 0x70 virtual false final false
  void _ctor(::StringW url, UnityEngine::CachedAssetBundle cachedBundle, uint32_t crc) ;

@@ -2,28 +2,28 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
 namespace LiteNetLib {
-struct DisconnectInfo;
-}
-namespace LiteNetLib {
-class ConnectionRequest;
-}
-namespace System::Net {
-class IPEndPoint;
+class NetPeer;
 }
 namespace LiteNetLib {
 class NetPacketReader;
-}
-namespace System::Net::Sockets {
-struct SocketError;
-}
-namespace LiteNetLib {
-class NetPeer;
 }
 namespace LiteNetLib {
 struct DeliveryMethod;
 }
 namespace LiteNetLib {
+struct DisconnectInfo;
+}
+namespace System::Net::Sockets {
+struct SocketError;
+}
+namespace LiteNetLib {
+class ConnectionRequest;
+}
+namespace LiteNetLib {
 struct UnconnectedMessageType;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace LiteNetLib {

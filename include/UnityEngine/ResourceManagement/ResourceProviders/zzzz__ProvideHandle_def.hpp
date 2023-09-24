@@ -4,15 +4,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
 namespace System {
 class Exception;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace System {
 template<typename TResult>
@@ -21,14 +18,17 @@ class Func_1;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
+namespace System {
+class Type;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class IGenericProviderOperation;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

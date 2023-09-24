@@ -47,8 +47,7 @@ constexpr explicit DisableOnNonQuest(void* ptr) noexcept : UnityEngine::MonoBeha
 
 // Methods
 
-// Ctor Parameters []
-explicit DisableOnNonQuest() ;
+static GlobalNamespace::DisableOnNonQuest New_ctor() ;
 
 /// @brief Method .ctor addr 0x2115b1c size 0x8 virtual false final false
  void _ctor() ;

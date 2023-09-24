@@ -7,12 +7,24 @@
 namespace GlobalNamespace {
 class OVRHapticsClip;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
 class OVRNativeBuffer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRHaptics__OVRHapticsChannel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRHaptics__OVRHapticsOutput;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRHaptics__Config;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -220,8 +232,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput __get_m
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outputIndex", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRHaptics__OVRHapticsChannel(uint32_t outputIndex) ;
+static GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel New_ctor(uint32_t outputIndex) ;
 
 /// @brief Method .ctor addr 0x25b9fb4 size 0x98 virtual false final false
  void _ctor(uint32_t outputIndex) ;
@@ -318,8 +329,7 @@ constexpr GlobalNamespace::OVRHapticsClip __get__Clip_k__BackingField() const;
 /// @brief Method set_Clip addr 0x25bbaa8 size 0x8 virtual false final false
  void set_Clip(GlobalNamespace::OVRHapticsClip value) ;
 
-// Ctor Parameters [CppParam { name: "clip", ty: "GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker(GlobalNamespace::OVRHapticsClip clip) ;
+static GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker New_ctor(GlobalNamespace::OVRHapticsClip clip) ;
 
 /// @brief Method .ctor addr 0x25bb860 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::OVRHapticsClip clip) ;
@@ -447,8 +457,7 @@ constexpr int32_t __get_PrevSampleRateHz() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "controller", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRHaptics__OVRHapticsOutput(uint32_t controller) ;
+static GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput New_ctor(uint32_t controller) ;
 
 /// @brief Method .ctor addr 0x25b9e10 size 0x1a4 virtual false final false
  void _ctor(uint32_t controller) ;

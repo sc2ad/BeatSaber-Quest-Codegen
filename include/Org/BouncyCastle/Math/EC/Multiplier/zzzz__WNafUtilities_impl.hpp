@@ -1,12 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WNafUtilities_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WNafPreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WNafUtilities_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback._ctor
 template<>
 
@@ -57,8 +58,10 @@ constexpr void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math_
 constexpr int32_t Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback::__get_m_confWidth() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "confWidth", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback(Org::BouncyCastle::Math::EC::ECCurve curve, int32_t confWidth)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback>(curve, confWidth))) {}
+ Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, int32_t confWidth)  {
+Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback>(curve, confWidth))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, int32_t confWidth)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__ConfigureBasepointCallback>::get(),
@@ -133,8 +136,10 @@ constexpr void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math_
 constexpr Org::BouncyCastle::Math::EC::ECPointMap Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback::__get_m_pointMap() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::ECPointMap, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "infoP", ty: "Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo", modifiers: "", def_value: None }, CppParam { name: "includeNegated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pointMap", ty: "Org::BouncyCastle::Math::EC::ECPointMap", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo infoP, bool includeNegated, Org::BouncyCastle::Math::EC::ECPointMap pointMap)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback>(infoP, includeNegated, pointMap))) {}
+ Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback::New_ctor(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo infoP, bool includeNegated, Org::BouncyCastle::Math::EC::ECPointMap pointMap)  {
+Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback>(infoP, includeNegated, pointMap))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback::_ctor(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo infoP, bool includeNegated, Org::BouncyCastle::Math::EC::ECPointMap pointMap)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__MapPointCallback>::get(),
@@ -243,8 +248,10 @@ constexpr void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math_
 constexpr bool Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback::__get_m_includeNegated() const {
 return ::cordl_internals::getInstanceField<bool, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "minWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "includeNegated", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback(Org::BouncyCastle::Math::EC::ECPoint p, int32_t minWidth, bool includeNegated)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback>(p, minWidth, includeNegated))) {}
+ Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback::New_ctor(Org::BouncyCastle::Math::EC::ECPoint p, int32_t minWidth, bool includeNegated)  {
+Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback>(p, minWidth, includeNegated))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback::_ctor(Org::BouncyCastle::Math::EC::ECPoint p, int32_t minWidth, bool includeNegated)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeCallback>::get(),
@@ -377,8 +384,10 @@ constexpr void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math_
 constexpr bool Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback::__get_m_includeNegated() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "point", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "pointMap", ty: "Org::BouncyCastle::Math::EC::ECPointMap", modifiers: "", def_value: None }, CppParam { name: "fromWNaf", ty: "Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo", modifiers: "", def_value: None }, CppParam { name: "includeNegated", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback(Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Math::EC::ECPointMap pointMap, Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo fromWNaf, bool includeNegated)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback>(point, pointMap, fromWNaf, includeNegated))) {}
+ Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback::New_ctor(Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Math::EC::ECPointMap pointMap, Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo fromWNaf, bool includeNegated)  {
+Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback>(point, pointMap, fromWNaf, includeNegated))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback::_ctor(Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Math::EC::ECPointMap pointMap, Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo fromWNaf, bool includeNegated)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::Org__BouncyCastle__Math__EC__Multiplier__WNafUtilities__PrecomputeWithPointMapCallback>::get(),
@@ -950,8 +959,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<Org::BouncyCastle::Math::EC::ECPoint>, false>(nullptr, ___internal_method, a, length);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::WNafUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WNafUtilities>())) {}
+ Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::New_ctor()  {
+Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities>::get(),

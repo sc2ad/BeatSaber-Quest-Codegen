@@ -5,10 +5,10 @@ namespace GlobalNamespace {
 class ModifiersSelectionView;
 }
 namespace GlobalNamespace {
-class ILevelGameplaySetupData;
+class BeatmapSelectionView;
 }
 namespace GlobalNamespace {
-class BeatmapSelectionView;
+class ILevelGameplaySetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +74,7 @@ constexpr GlobalNamespace::ModifiersSelectionView __get__modifiersSelectionView(
 /// @brief Method SetLevelGameplaySetupData addr 0x2175aec size 0x13c virtual false final false
  void SetLevelGameplaySetupData(GlobalNamespace::ILevelGameplaySetupData levelGameplaySetupData) ;
 
-// Ctor Parameters []
-explicit CenterStageLobbyViewController() ;
+static GlobalNamespace::CenterStageLobbyViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2175c28 size 0x8 virtual false final false
  void _ctor() ;

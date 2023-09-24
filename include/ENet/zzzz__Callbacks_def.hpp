@@ -5,13 +5,13 @@ namespace ENet {
 class NoMemoryCallback;
 }
 namespace ENet {
-struct ENetCallbacks;
+class AllocCallback;
 }
 namespace ENet {
 class FreeCallback;
 }
 namespace ENet {
-class AllocCallback;
+struct ENetCallbacks;
 }
 // Forward declare root types
 namespace ENet {
@@ -79,8 +79,7 @@ constexpr ENet::ENetCallbacks __get_nativeCallbacks() const;
 /// @brief Method set_NativeData addr 0x207d5dc size 0x14 virtual false final false
  void set_NativeData(ENet::ENetCallbacks value) ;
 
-// Ctor Parameters [CppParam { name: "allocCallback", ty: "ENet::AllocCallback", modifiers: "", def_value: None }, CppParam { name: "freeCallback", ty: "ENet::FreeCallback", modifiers: "", def_value: None }, CppParam { name: "noMemoryCallback", ty: "ENet::NoMemoryCallback", modifiers: "", def_value: None }]
-explicit Callbacks(ENet::AllocCallback allocCallback, ENet::FreeCallback freeCallback, ENet::NoMemoryCallback noMemoryCallback) ;
+static ENet::Callbacks New_ctor(ENet::AllocCallback allocCallback, ENet::FreeCallback freeCallback, ENet::NoMemoryCallback noMemoryCallback) ;
 
 /// @brief Method .ctor addr 0x207d5f0 size 0x3c virtual false final false
  void _ctor(ENet::AllocCallback allocCallback, ENet::FreeCallback freeCallback, ENet::NoMemoryCallback noMemoryCallback) ;

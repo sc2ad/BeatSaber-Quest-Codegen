@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -72,14 +72,12 @@ constexpr int32_t __get_doublingCoord() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MixedNafR2LMultiplier() ;
+static Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0xfa9a48 size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "additionCoord", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "doublingCoord", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MixedNafR2LMultiplier(int32_t additionCoord, int32_t doublingCoord) ;
+static Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier New_ctor(int32_t additionCoord, int32_t doublingCoord) ;
 
 /// @brief Method .ctor addr 0xfa9a6c size 0x2c virtual false final false
  void _ctor(int32_t additionCoord, int32_t doublingCoord) ;

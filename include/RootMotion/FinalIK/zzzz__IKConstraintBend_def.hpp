@@ -9,11 +9,11 @@ struct Vector3;
 namespace RootMotion::FinalIK {
 class IKSolverFullBody;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion {
 class RootMotion__Warning__Logger;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -189,14 +189,12 @@ constexpr bool __get_limbOrientationsSet() const;
 /// @brief Method set_initiated addr 0x11cda0c size 0xc virtual false final false
  void set_initiated(bool value) ;
 
-// Ctor Parameters []
-explicit IKConstraintBend() ;
+static RootMotion::FinalIK::IKConstraintBend New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ca98c size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bone1", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone2", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone3", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit IKConstraintBend(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3) ;
+static RootMotion::FinalIK::IKConstraintBend New_ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3) ;
 
 /// @brief Method .ctor addr 0x11cda18 size 0x8c virtual false final false
  void _ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3) ;

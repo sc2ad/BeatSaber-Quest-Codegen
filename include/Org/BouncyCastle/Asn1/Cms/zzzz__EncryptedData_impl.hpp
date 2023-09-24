@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__EncryptedData_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__EncryptedContentInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::EncryptedData.GetInstance
 template<>
@@ -169,8 +169,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cms::EncryptedData, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "encInfo", ty: "Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::EncryptedData::EncryptedData(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<EncryptedData>(encInfo))) {}
+ Org::BouncyCastle::Asn1::Cms::EncryptedData Org::BouncyCastle::Asn1::Cms::EncryptedData::New_ctor(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo)  {
+Org::BouncyCastle::Asn1::Cms::EncryptedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::EncryptedData>(encInfo))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::EncryptedData::_ctor(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::EncryptedData>::get(),
@@ -180,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encInfo);
 }
-// Ctor Parameters [CppParam { name: "encInfo", ty: "Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo", modifiers: "", def_value: None }, CppParam { name: "unprotectedAttrs", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::EncryptedData::EncryptedData(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo, Org::BouncyCastle::Asn1::Asn1Set unprotectedAttrs)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<EncryptedData>(encInfo, unprotectedAttrs))) {}
+ Org::BouncyCastle::Asn1::Cms::EncryptedData Org::BouncyCastle::Asn1::Cms::EncryptedData::New_ctor(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo, Org::BouncyCastle::Asn1::Asn1Set unprotectedAttrs)  {
+Org::BouncyCastle::Asn1::Cms::EncryptedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::EncryptedData>(encInfo, unprotectedAttrs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::EncryptedData::_ctor(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo, Org::BouncyCastle::Asn1::Asn1Set unprotectedAttrs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::EncryptedData>::get(),
@@ -191,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encInfo, unprotectedAttrs);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::EncryptedData::EncryptedData(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<EncryptedData>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::EncryptedData Org::BouncyCastle::Asn1::Cms::EncryptedData::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cms::EncryptedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::EncryptedData>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::EncryptedData::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::EncryptedData>::get(),

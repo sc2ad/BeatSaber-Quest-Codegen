@@ -6,18 +6,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
+namespace System {
+struct DateTime;
 }
 namespace System {
 class Type;
 }
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace System {
-struct DateTime;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfoEnumerator;
@@ -167,14 +167,12 @@ constexpr bool __get_requireSameTokenInPartialTrust() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "System::Runtime::Serialization::IFormatterConverter", modifiers: "", def_value: None }]
-explicit SerializationInfo(System::Type type, System::Runtime::Serialization::IFormatterConverter converter) ;
+static System::Runtime::Serialization::SerializationInfo New_ctor(System::Type type, System::Runtime::Serialization::IFormatterConverter converter) ;
 
 /// @brief Method .ctor addr 0x2351e70 size 0x8 virtual false final false
  void _ctor(System::Type type, System::Runtime::Serialization::IFormatterConverter converter) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "System::Runtime::Serialization::IFormatterConverter", modifiers: "", def_value: None }, CppParam { name: "requireSameTokenInPartialTrust", ty: "bool", modifiers: "", def_value: None }]
-explicit SerializationInfo(System::Type type, System::Runtime::Serialization::IFormatterConverter converter, bool requireSameTokenInPartialTrust) ;
+static System::Runtime::Serialization::SerializationInfo New_ctor(System::Type type, System::Runtime::Serialization::IFormatterConverter converter, bool requireSameTokenInPartialTrust) ;
 
 /// @brief Method .ctor addr 0x2351e78 size 0x1e0 virtual false final false
  void _ctor(System::Type type, System::Runtime::Serialization::IFormatterConverter converter, bool requireSameTokenInPartialTrust) ;

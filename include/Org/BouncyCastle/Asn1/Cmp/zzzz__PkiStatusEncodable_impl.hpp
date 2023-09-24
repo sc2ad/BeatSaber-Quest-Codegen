@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatusEncodable_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatus_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatus_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable._ctor
 template<>
 
@@ -138,8 +138,10 @@ constexpr void Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::__set_status(Or
 constexpr Org::BouncyCastle::Asn1::DerInteger Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::__get_status() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerInteger, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "status", ty: "Org::BouncyCastle::Asn1::Cmp::PkiStatus", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::PkiStatusEncodable(Org::BouncyCastle::Asn1::Cmp::PkiStatus status)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiStatusEncodable>(status))) {}
+ Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiStatus status)  {
+Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable>(status))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::_ctor(Org::BouncyCastle::Asn1::Cmp::PkiStatus status)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable>::get(),
@@ -149,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, status);
 }
-// Ctor Parameters [CppParam { name: "status", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::PkiStatusEncodable(Org::BouncyCastle::Asn1::DerInteger status)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiStatusEncodable>(status))) {}
+ Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::New_ctor(Org::BouncyCastle::Asn1::DerInteger status)  {
+Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable>(status))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable::_ctor(Org::BouncyCastle::Asn1::DerInteger status)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable>::get(),

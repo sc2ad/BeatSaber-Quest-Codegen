@@ -1,13 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_impl.hpp"
 #include "Org/BouncyCastle/Asn1/GM/zzzz__GMNamedCurves_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECPoint_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
+#include "Org/BouncyCastle/Asn1/GM/zzzz__GMNamedCurves_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder._ctor
 template<>
@@ -49,8 +50,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder>())) {}
+ Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder>::get(),
@@ -109,8 +112,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder>())) {}
+ Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder>::get(),
@@ -317,8 +322,10 @@ return ::cordl_internals::getStaticField<System::Collections::IDictionary, "curv
  System::Collections::IDictionary Org::BouncyCastle::Asn1::GM::GMNamedCurves::__get_names()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "names", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::GM::GMNamedCurves>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::GM::GMNamedCurves::GMNamedCurves()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GMNamedCurves>())) {}
+ Org::BouncyCastle::Asn1::GM::GMNamedCurves Org::BouncyCastle::Asn1::GM::GMNamedCurves::New_ctor()  {
+Org::BouncyCastle::Asn1::GM::GMNamedCurves o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::GM::GMNamedCurves>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::GM::GMNamedCurves::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::GM::GMNamedCurves>::get(),

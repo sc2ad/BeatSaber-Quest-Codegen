@@ -68,8 +68,7 @@ constexpr explicit MainEffectSO(void* ptr) noexcept : GlobalNamespace::Persisten
 /// @brief Method get_hasPostProcessEffect addr 0x26774b4 size 0x8 virtual true final false
  bool get_hasPostProcessEffect() ;
 
-// Ctor Parameters []
-explicit MainEffectSO() ;
+static GlobalNamespace::MainEffectSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2676cb0 size 0x8 virtual false final false
  void _ctor() ;

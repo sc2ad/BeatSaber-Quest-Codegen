@@ -3,26 +3,25 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInputModule_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__InputSystemUIInputModule_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__ExtendedPointerEventData_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__PointerModel_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__PointerModel_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__UIPointerBehavior_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__NavigationModel_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__InputSystemUIInputModule_def.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__UIPointerType_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__PointerModel_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__NavigationModel_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__ExtendedPointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__UIPointerBehavior_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 // Ctor Parameters [CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "enabledByInputModule", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__InputSystemUIInputModule__InputActionReferenceState::UnityEngine__InputSystem__UI__InputSystemUIInputModule__InputActionReferenceState(int32_t refCount, bool enabledByInputModule) noexcept : ::bs_hook::ValueTypeWrapper() {this->refCount = refCount;
 this->enabledByInputModule = enabledByInputModule;
@@ -2872,8 +2871,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UI::InputSystemUIInputModule::InputSystemUIInputModule()  : UnityEngine::EventSystems::BaseInputModule(THROW_UNLESS(::il2cpp_utils::New<InputSystemUIInputModule>())) {}
+ UnityEngine::InputSystem::UI::InputSystemUIInputModule UnityEngine::InputSystem::UI::InputSystemUIInputModule::New_ctor()  {
+UnityEngine::InputSystem::UI::InputSystemUIInputModule o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UI::InputSystemUIInputModule>())};
+return o;
+}
  void UnityEngine::InputSystem::UI::InputSystemUIInputModule::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UI::InputSystemUIInputModule>::get(),

@@ -3,45 +3,45 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRManager__CompositionMethod;
+struct GlobalNamespace__OVRManager__VirtualGreenScreenType;
 }
 namespace UnityEngine {
-struct LayerMask;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRManager__CameraDevice;
+struct Color;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__DepthQuality;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRManager__VirtualGreenScreenType;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__MrcActivationMode;
 }
 namespace GlobalNamespace {
-class OVRMixedRealityCaptureConfiguration;
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__MrcCameraType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__CompositionMethod;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__CameraDevice;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class OVRMixedRealityCaptureConfiguration;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -520,8 +520,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDele
 /// @brief Method InstantiateMixedRealityCameraGameObject addr 0x1f8593c size 0x34 virtual false final false
  UnityEngine::GameObject InstantiateMixedRealityCameraGameObject(UnityEngine::GameObject mainCameraGameObject, GlobalNamespace::GlobalNamespace__OVRManager__MrcCameraType cameraType) ;
 
-// Ctor Parameters []
-explicit OculusMRCManager() ;
+static GlobalNamespace::OculusMRCManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f85970 size 0x80 virtual false final false
  void _ctor() ;

@@ -3,6 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Globalization {
+class ISimpleCollator;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
@@ -11,26 +21,16 @@ namespace System::Globalization {
 class CultureInfo;
 }
 namespace System::Globalization {
-class SortKey;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Globalization {
-class ISimpleCollator;
-}
-namespace System::Globalization {
 struct CompareOptions;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
 }
 namespace System::Globalization {
 class SortVersion;
 }
+namespace System::Globalization {
+class SortKey;
+}
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class IDeserializationCallback;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -172,8 +172,7 @@ static char16_t InvariantToUpper(char16_t c) ;
 /// @brief Method InvariantCreateSortKey addr 0x23d8dbc size 0x29c virtual false final false
  System::Globalization::SortKey InvariantCreateSortKey(::StringW source, System::Globalization::CompareOptions options) ;
 
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit CompareInfo(System::Globalization::CultureInfo culture) ;
+static System::Globalization::CompareInfo New_ctor(System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x23d9058 size 0x34 virtual false final false
  void _ctor(System::Globalization::CultureInfo culture) ;
@@ -340,8 +339,7 @@ static int32_t LastIndexOfOrdinalCore(::StringW source, ::StringW value, int32_t
 /// @brief Method GetHashCodeOfStringCore addr 0x23dc118 size 0x2c virtual false final false
  int32_t GetHashCodeOfStringCore(::StringW source, System::Globalization::CompareOptions options) ;
 
-// Ctor Parameters []
-explicit CompareInfo() ;
+static System::Globalization::CompareInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x23dcdc0 size 0x1038 virtual false final false
  void _ctor() ;

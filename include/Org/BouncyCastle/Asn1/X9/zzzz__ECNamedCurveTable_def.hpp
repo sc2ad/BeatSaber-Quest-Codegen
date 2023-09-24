@@ -2,14 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -77,8 +77,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParameters GetByOid(Org::BouncyCastle::A
 /// @brief Method get_Names addr 0x111f030 size 0x204 virtual false final false
 static System::Collections::IEnumerable get_Names() ;
 
-// Ctor Parameters []
-explicit ECNamedCurveTable() ;
+static Org::BouncyCastle::Asn1::X9::ECNamedCurveTable New_ctor() ;
 
 /// @brief Method .ctor addr 0x111f234 size 0x8 virtual false final false
  void _ctor() ;

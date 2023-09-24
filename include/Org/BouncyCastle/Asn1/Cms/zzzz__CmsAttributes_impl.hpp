@@ -48,8 +48,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Cms::CmsAttributes::__get_ContentHint()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "ContentHint", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::CmsAttributes>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Cms::CmsAttributes::CmsAttributes()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsAttributes>())) {}
+ Org::BouncyCastle::Asn1::Cms::CmsAttributes Org::BouncyCastle::Asn1::Cms::CmsAttributes::New_ctor()  {
+Org::BouncyCastle::Asn1::Cms::CmsAttributes o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::CmsAttributes>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::CmsAttributes::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::CmsAttributes>::get(),

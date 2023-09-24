@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/zzzz__XmlWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_def.hpp"
+#include "System/Xml/zzzz__XmlStandalone_def.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/Xml/zzzz__WriteState_def.hpp"
-#include "System/Xml/zzzz__XmlStandalone_def.hpp"
 #include "System/Xml/zzzz__XmlRawWriterBase64Encoder_def.hpp"
+#include "System/Xml/zzzz__WriteState_def.hpp"
 //  Writing Method size for method: System::Xml::XmlRawWriter.WriteStartDocument
 template<>
 
@@ -815,8 +815,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, currentState);
 }
-// Ctor Parameters []
- System::Xml::XmlRawWriter::XmlRawWriter()  : System::Xml::XmlWriter(THROW_UNLESS(::il2cpp_utils::New<XmlRawWriter>())) {}
+ System::Xml::XmlRawWriter System::Xml::XmlRawWriter::New_ctor()  {
+System::Xml::XmlRawWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlRawWriter>())};
+return o;
+}
  void System::Xml::XmlRawWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlRawWriter>::get(),

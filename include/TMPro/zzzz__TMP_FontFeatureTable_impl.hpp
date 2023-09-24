@@ -2,6 +2,7 @@
 #include "TMPro/zzzz__TMP_FontFeatureTable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "TMPro/zzzz__TMP_FontFeatureTable_def.hpp"
 #include "TMPro/zzzz__TMP_GlyphPairAdjustmentRecord_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__TMP_FontFeatureTable____c._ctor
@@ -73,8 +74,10 @@ return ::cordl_internals::getStaticField<System::Func_2<TMPro::TMP_GlyphPairAdju
  System::Func_2<TMPro::TMP_GlyphPairAdjustmentRecord,uint32_t> TMPro::TMPro__TMP_FontFeatureTable____c::__get___9__6_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<TMPro::TMP_GlyphPairAdjustmentRecord,uint32_t>, "<>9__6_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_FontFeatureTable____c>::get>();
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_FontFeatureTable____c::TMPro__TMP_FontFeatureTable____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_FontFeatureTable____c>())) {}
+ TMPro::TMPro__TMP_FontFeatureTable____c TMPro::TMPro__TMP_FontFeatureTable____c::New_ctor()  {
+TMPro::TMPro__TMP_FontFeatureTable____c o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_FontFeatureTable____c>())};
+return o;
+}
  void TMPro::TMPro__TMP_FontFeatureTable____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_FontFeatureTable____c>::get(),
@@ -200,8 +203,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- TMPro::TMP_FontFeatureTable::TMP_FontFeatureTable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_FontFeatureTable>())) {}
+ TMPro::TMP_FontFeatureTable TMPro::TMP_FontFeatureTable::New_ctor()  {
+TMPro::TMP_FontFeatureTable o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_FontFeatureTable>())};
+return o;
+}
  void TMPro::TMP_FontFeatureTable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_FontFeatureTable>::get(),

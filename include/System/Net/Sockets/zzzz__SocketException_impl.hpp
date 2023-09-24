@@ -173,8 +173,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Net::Sockets::SocketException::SocketException()  : System::ComponentModel::Win32Exception(THROW_UNLESS(::il2cpp_utils::New<SocketException>())) {}
+ System::Net::Sockets::SocketException System::Net::Sockets::SocketException::New_ctor()  {
+System::Net::Sockets::SocketException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::SocketException>())};
+return o;
+}
  void System::Net::Sockets::SocketException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SocketException>::get(),
@@ -184,8 +186,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "error", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Sockets::SocketException::SocketException(int32_t error, ::StringW message)  : System::ComponentModel::Win32Exception(THROW_UNLESS(::il2cpp_utils::New<SocketException>(error, message))) {}
+ System::Net::Sockets::SocketException System::Net::Sockets::SocketException::New_ctor(int32_t error, ::StringW message)  {
+System::Net::Sockets::SocketException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::SocketException>(error, message))};
+return o;
+}
  void System::Net::Sockets::SocketException::_ctor(int32_t error, ::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SocketException>::get(),
@@ -195,8 +199,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, error, message);
 }
-// Ctor Parameters [CppParam { name: "errorCode", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::Sockets::SocketException::SocketException(int32_t errorCode)  : System::ComponentModel::Win32Exception(THROW_UNLESS(::il2cpp_utils::New<SocketException>(errorCode))) {}
+ System::Net::Sockets::SocketException System::Net::Sockets::SocketException::New_ctor(int32_t errorCode)  {
+System::Net::Sockets::SocketException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::SocketException>(errorCode))};
+return o;
+}
  void System::Net::Sockets::SocketException::_ctor(int32_t errorCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SocketException>::get(),
@@ -206,8 +212,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, errorCode);
 }
-// Ctor Parameters [CppParam { name: "socketError", ty: "System::Net::Sockets::SocketError", modifiers: "", def_value: None }]
- System::Net::Sockets::SocketException::SocketException(System::Net::Sockets::SocketError socketError)  : System::ComponentModel::Win32Exception(THROW_UNLESS(::il2cpp_utils::New<SocketException>(socketError))) {}
+ System::Net::Sockets::SocketException System::Net::Sockets::SocketException::New_ctor(System::Net::Sockets::SocketError socketError)  {
+System::Net::Sockets::SocketException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::SocketException>(socketError))};
+return o;
+}
  void System::Net::Sockets::SocketException::_ctor(System::Net::Sockets::SocketError socketError)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SocketException>::get(),
@@ -217,8 +225,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, socketError);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::Sockets::SocketException::SocketException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::ComponentModel::Win32Exception(THROW_UNLESS(::il2cpp_utils::New<SocketException>(serializationInfo, streamingContext))) {}
+ System::Net::Sockets::SocketException System::Net::Sockets::SocketException::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::Sockets::SocketException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::SocketException>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::Sockets::SocketException::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SocketException>::get(),

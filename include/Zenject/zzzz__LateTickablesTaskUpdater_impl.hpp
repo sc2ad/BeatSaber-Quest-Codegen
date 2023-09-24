@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__TaskUpdater_1_impl.hpp"
 #include "Zenject/zzzz__LateTickablesTaskUpdater_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__ILateTickable_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::LateTickablesTaskUpdater.UpdateItem
 template<>
 
@@ -80,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, task);
 }
-// Ctor Parameters []
- Zenject::LateTickablesTaskUpdater::LateTickablesTaskUpdater()  : Zenject::TaskUpdater_1<Zenject::ILateTickable>(THROW_UNLESS(::il2cpp_utils::New<LateTickablesTaskUpdater>())) {}
+ Zenject::LateTickablesTaskUpdater Zenject::LateTickablesTaskUpdater::New_ctor()  {
+Zenject::LateTickablesTaskUpdater o{THROW_UNLESS(::il2cpp_utils::New<Zenject::LateTickablesTaskUpdater>())};
+return o;
+}
  void Zenject::LateTickablesTaskUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::LateTickablesTaskUpdater>::get(),

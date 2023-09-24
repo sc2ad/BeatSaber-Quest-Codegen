@@ -93,8 +93,7 @@ static void set_current(UnityEngine::InputSystem::StepCounter value) ;
 /// @brief Method FinishSetup addr 0x29169b4 size 0x78 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit StepCounter() ;
+static UnityEngine::InputSystem::StepCounter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2916a2c size 0x8 virtual false final false
  void _ctor() ;

@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class InjectTypeInfo;
+class ILateTickable;
 }
 namespace Zenject {
-class ILateTickable;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -17,7 +17,7 @@ class LateTickablesTaskUpdater;
 // Type: Zenject::LateTickablesTaskUpdater
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11279), inst: 4061 }), TypeDefinitionIndex(TypeDefinitionIndex(15676))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15676)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11279), inst: 4061 }), TypeDefinitionIndex(TypeDefinitionIndex(11279))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11281))
 // CS Name: Zenject.LateTickablesTaskUpdater
 class CORDL_TYPE LateTickablesTaskUpdater : public Zenject::TaskUpdater_1<Zenject::ILateTickable> {
@@ -59,8 +59,7 @@ constexpr explicit LateTickablesTaskUpdater(void* ptr) noexcept : Zenject::TaskU
 /// @brief Method UpdateItem addr 0x2d9fbdc size 0x9c virtual true final false
  void UpdateItem(Zenject::ILateTickable task) ;
 
-// Ctor Parameters []
-explicit LateTickablesTaskUpdater() ;
+static Zenject::LateTickablesTaskUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9fc78 size 0x48 virtual false final false
  void _ctor() ;

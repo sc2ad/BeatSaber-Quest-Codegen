@@ -371,8 +371,10 @@ return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "Zero", ::il2cpp_uti
  ::ArrayW<::ArrayW<uint64_t>> Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest::__get_T()  {
 return ::cordl_internals::getStaticField<::ArrayW<::ArrayW<uint64_t>>, "T", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest>::get>();
 }
-// Ctor Parameters [CppParam { name: "IV", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest::Gost3411_2012Digest(::ArrayW<uint8_t> IV)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3411_2012Digest>(IV))) {}
+ Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest::New_ctor(::ArrayW<uint8_t> IV)  {
+Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest>(IV))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest::_ctor(::ArrayW<uint8_t> IV)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest>::get(),

@@ -81,8 +81,7 @@ constexpr ::StringW __get_pubid() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }]
-explicit SchemaNotation(System::Xml::XmlQualifiedName name) ;
+static System::Xml::Schema::SchemaNotation New_ctor(System::Xml::XmlQualifiedName name) ;
 
 /// @brief Method .ctor addr 0x2732234 size 0x28 virtual false final false
  void _ctor(System::Xml::XmlQualifiedName name) ;

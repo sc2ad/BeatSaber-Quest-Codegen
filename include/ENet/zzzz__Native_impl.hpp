@@ -1,12 +1,12 @@
 #pragma once
 #include "ENet/zzzz__Native_def.hpp"
-#include "ENet/zzzz__ENetEvent_def.hpp"
 #include "ENet/zzzz__ENetCallbacks_def.hpp"
-#include "ENet/zzzz__PacketFlags_def.hpp"
 #include "ENet/zzzz__ENetSslConfiguration_def.hpp"
+#include "ENet/zzzz__ENetEvent_def.hpp"
 #include "ENet/zzzz__PeerState_def.hpp"
 #include "ENet/zzzz__ENetAddress_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "ENet/zzzz__PacketFlags_def.hpp"
 //  Writing Method size for method: ENet::Native.OPENSSL_init_crypto
 template<>
 

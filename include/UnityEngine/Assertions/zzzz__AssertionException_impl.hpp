@@ -41,8 +41,10 @@ constexpr void UnityEngine::Assertions::AssertionException::__set_m_UserMessage(
 constexpr ::StringW UnityEngine::Assertions::AssertionException::__get_m_UserMessage() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userMessage", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Assertions::AssertionException::AssertionException(::StringW message, ::StringW userMessage)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<AssertionException>(message, userMessage))) {}
+ UnityEngine::Assertions::AssertionException UnityEngine::Assertions::AssertionException::New_ctor(::StringW message, ::StringW userMessage)  {
+UnityEngine::Assertions::AssertionException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Assertions::AssertionException>(message, userMessage))};
+return o;
+}
  void UnityEngine::Assertions::AssertionException::_ctor(::StringW message, ::StringW userMessage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Assertions::AssertionException>::get(),

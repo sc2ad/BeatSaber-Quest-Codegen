@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::XR {
-class XRDisplaySubsystem;
-}
 namespace Unity::XR::Oculus {
 class OculusSettings;
+}
+namespace Unity::XR::Oculus {
+struct Unity__XR__Oculus__OculusLoader__DeviceSupportedResult;
 }
 namespace UnityEngine::XR {
 class XRInputSubsystemDescriptor;
@@ -19,6 +19,9 @@ class XRDisplaySubsystemDescriptor;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::XR {
+class XRDisplaySubsystem;
 }
 namespace UnityEngine::XR {
 class XRInputSubsystem;
@@ -80,6 +83,8 @@ __ExitApplication = 2,
 constexpr operator __Unity__XR__Oculus__OculusLoader__DeviceSupportedResult_Unwrapped () const noexcept {
 return std::bit_cast<__Unity__XR__Oculus__OculusLoader__DeviceSupportedResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -202,8 +207,7 @@ static void RuntimeLoadOVRPlugin() ;
 /// @brief Method CheckUnityVersionCompatibility addr 0x2adf794 size 0x2dc virtual false final false
  bool CheckUnityVersionCompatibility() ;
 
-// Ctor Parameters []
-explicit OculusLoader() ;
+static Unity::XR::Oculus::OculusLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x2adff44 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,29 +4,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-struct RuntimeMethodHandle;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System {
-class Type;
+namespace System::Reflection {
+class Binder;
 }
 namespace System::Reflection {
 struct MethodImplAttributes;
 }
 namespace System::Reflection {
-struct MethodAttributes;
-}
-namespace System::Reflection {
 class ParameterInfo;
 }
-namespace System::Reflection {
-class Binder;
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 struct BindingFlags;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+struct RuntimeMethodHandle;
+}
+namespace System::Reflection {
+struct MethodAttributes;
 }
 // Forward declare root types
 namespace System::Reflection::Emit {

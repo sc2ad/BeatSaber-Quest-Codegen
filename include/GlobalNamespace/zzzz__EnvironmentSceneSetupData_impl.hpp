@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EnvironmentSceneSetupData._ctor
 template<>
 
@@ -38,8 +38,10 @@ constexpr void GlobalNamespace::EnvironmentSceneSetupData::__set_previewBeatmapL
 constexpr GlobalNamespace::IPreviewBeatmapLevel GlobalNamespace::EnvironmentSceneSetupData::__get_previewBeatmapLevel() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IPreviewBeatmapLevel, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "environmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "hideBranding", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::EnvironmentSceneSetupData::EnvironmentSceneSetupData(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, bool hideBranding)  : GlobalNamespace::SceneSetupData(THROW_UNLESS(::il2cpp_utils::New<EnvironmentSceneSetupData>(environmentInfo, previewBeatmapLevel, hideBranding))) {}
+ GlobalNamespace::EnvironmentSceneSetupData GlobalNamespace::EnvironmentSceneSetupData::New_ctor(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, bool hideBranding)  {
+GlobalNamespace::EnvironmentSceneSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnvironmentSceneSetupData>(environmentInfo, previewBeatmapLevel, hideBranding))};
+return o;
+}
  void GlobalNamespace::EnvironmentSceneSetupData::_ctor(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, bool hideBranding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnvironmentSceneSetupData>::get(),

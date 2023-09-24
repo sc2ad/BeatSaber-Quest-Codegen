@@ -50,8 +50,7 @@ constexpr explicit Outline(void* ptr) noexcept : UnityEngine::UI::Shadow(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit Outline() ;
+static UnityEngine::UI::Outline New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c17784 size 0x8 virtual false final false
  void _ctor() ;

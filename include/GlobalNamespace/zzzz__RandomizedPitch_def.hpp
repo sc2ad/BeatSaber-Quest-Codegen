@@ -4,21 +4,27 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace UnityEngine {
-class AudioSource;
+namespace GlobalNamespace {
+class GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9;
 }
 namespace UnityEngine {
 class Coroutine;
+}
+namespace UnityEngine {
+class AudioSource;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,8 +121,7 @@ constexpr GlobalNamespace::RandomizedPitch __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__RandomizedPitch___PlayDelayedCoroutine_d__9 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f6ff60 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -225,8 +230,7 @@ constexpr GlobalNamespace::RandomizedPitch __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__RandomizedPitch___RestorePitchWithDelay_d__10 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f6ff88 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -350,8 +354,7 @@ constexpr UnityEngine::Coroutine __get__restoringCoroutine() const;
 /// @brief Method RestorePitchWithDelay addr 0x1f6fe38 size 0x78 virtual false final false
  System::Collections::IEnumerator RestorePitchWithDelay(float_t delay) ;
 
-// Ctor Parameters []
-explicit RandomizedPitch() ;
+static GlobalNamespace::RandomizedPitch New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f6ffb0 size 0x1c virtual false final false
  void _ctor() ;

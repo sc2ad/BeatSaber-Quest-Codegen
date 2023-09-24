@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ExtensionDataGetter_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::ExtensionDataGetter._ctor
 template<>
@@ -73,8 +73,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::ExtensionDataGetter::ExtensionDataGetter(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<ExtensionDataGetter>(object, method))) {}
+ Newtonsoft::Json::Serialization::ExtensionDataGetter Newtonsoft::Json::Serialization::ExtensionDataGetter::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+Newtonsoft::Json::Serialization::ExtensionDataGetter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::ExtensionDataGetter>(object, method))};
+return o;
+}
  void Newtonsoft::Json::Serialization::ExtensionDataGetter::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::ExtensionDataGetter>::get(),

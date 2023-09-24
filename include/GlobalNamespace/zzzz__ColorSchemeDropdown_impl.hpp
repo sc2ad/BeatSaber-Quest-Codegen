@@ -1,15 +1,14 @@
 #pragma once
 #include "HMUI/zzzz__DropdownWithTableView_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeDropdown_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
+#include "HMUI/zzzz__TableView_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "HMUI/zzzz__TableCell_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemeTableCell_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeView_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemeTableCell_def.hpp"
+#include "HMUI/zzzz__TableCell_def.hpp"
+#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorSchemeDropdown.LazyInit
 template<>
 
@@ -333,8 +332,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, colorScheme);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorSchemeDropdown::ColorSchemeDropdown()  : HMUI::DropdownWithTableView(THROW_UNLESS(::il2cpp_utils::New<ColorSchemeDropdown>())) {}
+ GlobalNamespace::ColorSchemeDropdown GlobalNamespace::ColorSchemeDropdown::New_ctor()  {
+GlobalNamespace::ColorSchemeDropdown o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorSchemeDropdown>())};
+return o;
+}
  void GlobalNamespace::ColorSchemeDropdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorSchemeDropdown>::get(),

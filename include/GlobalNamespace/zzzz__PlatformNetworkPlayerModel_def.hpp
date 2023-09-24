@@ -5,6 +5,9 @@ namespace GlobalNamespace {
 template<typename T>
 class INetworkPlayerModelPartyConfig_1;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -64,8 +67,7 @@ constexpr explicit GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfi
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig() ;
+static GlobalNamespace::GlobalNamespace__PlatformNetworkPlayerModel__CreatePartyConfig New_ctor() ;
 
 /// @brief Method .ctor addr 0x2211768 size 0x8 virtual false final false
  void _ctor() ;
@@ -129,8 +131,7 @@ constexpr explicit PlatformNetworkPlayerModel(void* ptr) noexcept : GlobalNamesp
 /// @brief Method DestroyPartyConnection addr 0x220df60 size 0x20 virtual true final false
  void DestroyPartyConnection() ;
 
-// Ctor Parameters []
-explicit PlatformNetworkPlayerModel() ;
+static GlobalNamespace::PlatformNetworkPlayerModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x220e530 size 0x8 virtual false final false
  void _ctor() ;

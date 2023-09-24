@@ -3,23 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
-}
-namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
+}
+namespace Org::BouncyCastle::X509 {
+class AttributeCertificateIssuer;
 }
 namespace System {
 class ICloneable;
@@ -27,11 +27,11 @@ class ICloneable;
 namespace Org::BouncyCastle::X509 {
 class AttributeCertificateHolder;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 namespace Org::BouncyCastle::X509 {
-class AttributeCertificateIssuer;
+class IX509AttributeCertificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -145,14 +145,12 @@ constexpr Org::BouncyCastle::Utilities::Collections::ISet __get_targetGroups() c
 
 // Methods
 
-// Ctor Parameters []
-explicit X509AttrCertStoreSelector() ;
+static Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e5068 size 0x84 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "o", ty: "Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector", modifiers: "", def_value: None }]
-explicit X509AttrCertStoreSelector(Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector o) ;
+static Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector New_ctor(Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector o) ;
 
 /// @brief Method .ctor addr 0x10e50ec size 0xf8 virtual false final false
  void _ctor(Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector o) ;

@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "rules", ty: "::ArrayW<System::Security::AccessControl::AuthorizationRule>", modifiers: "", def_value: None }]
- System::Security::AccessControl::AuthorizationRuleCollection::AuthorizationRuleCollection(::ArrayW<System::Security::AccessControl::AuthorizationRule> rules)  : System::Collections::ReadOnlyCollectionBase(THROW_UNLESS(::il2cpp_utils::New<AuthorizationRuleCollection>(rules))) {}
+ System::Security::AccessControl::AuthorizationRuleCollection System::Security::AccessControl::AuthorizationRuleCollection::New_ctor(::ArrayW<System::Security::AccessControl::AuthorizationRule> rules)  {
+System::Security::AccessControl::AuthorizationRuleCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::AuthorizationRuleCollection>(rules))};
+return o;
+}
  void System::Security::AccessControl::AuthorizationRuleCollection::_ctor(::ArrayW<System::Security::AccessControl::AuthorizationRule> rules)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::AuthorizationRuleCollection>::get(),

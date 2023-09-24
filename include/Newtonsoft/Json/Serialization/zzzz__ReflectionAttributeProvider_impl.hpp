@@ -2,8 +2,8 @@
 #include "Newtonsoft/Json/Serialization/zzzz__ReflectionAttributeProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__IAttributeProvider_def.hpp"
-#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::ReflectionAttributeProvider._ctor
 template<>
 
@@ -65,8 +65,10 @@ constexpr void Newtonsoft::Json::Serialization::ReflectionAttributeProvider::__s
 constexpr ::bs_hook::Il2CppWrapperType Newtonsoft::Json::Serialization::ReflectionAttributeProvider::__get__attributeProvider() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "attributeProvider", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::ReflectionAttributeProvider::ReflectionAttributeProvider(::bs_hook::Il2CppWrapperType attributeProvider)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReflectionAttributeProvider>(attributeProvider))) {}
+ Newtonsoft::Json::Serialization::ReflectionAttributeProvider Newtonsoft::Json::Serialization::ReflectionAttributeProvider::New_ctor(::bs_hook::Il2CppWrapperType attributeProvider)  {
+Newtonsoft::Json::Serialization::ReflectionAttributeProvider o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::ReflectionAttributeProvider>(attributeProvider))};
+return o;
+}
  void Newtonsoft::Json::Serialization::ReflectionAttributeProvider::_ctor(::bs_hook::Il2CppWrapperType attributeProvider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::ReflectionAttributeProvider>::get(),

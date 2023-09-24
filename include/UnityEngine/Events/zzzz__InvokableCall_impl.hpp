@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_impl.hpp"
 #include "UnityEngine/Events/zzzz__InvokableCall_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
 //  Writing Method size for method: UnityEngine::Events::InvokableCall.add_Delegate
 template<>
 
@@ -146,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "theFunction", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }]
- UnityEngine::Events::InvokableCall::InvokableCall(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  : UnityEngine::Events::BaseInvokableCall(THROW_UNLESS(::il2cpp_utils::New<InvokableCall>(target, theFunction))) {}
+ UnityEngine::Events::InvokableCall UnityEngine::Events::InvokableCall::New_ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  {
+UnityEngine::Events::InvokableCall o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Events::InvokableCall>(target, theFunction))};
+return o;
+}
  void UnityEngine::Events::InvokableCall::_ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::InvokableCall>::get(),
@@ -157,8 +159,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, target, theFunction);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "UnityEngine::Events::UnityAction", modifiers: "", def_value: None }]
- UnityEngine::Events::InvokableCall::InvokableCall(UnityEngine::Events::UnityAction action)  : UnityEngine::Events::BaseInvokableCall(THROW_UNLESS(::il2cpp_utils::New<InvokableCall>(action))) {}
+ UnityEngine::Events::InvokableCall UnityEngine::Events::InvokableCall::New_ctor(UnityEngine::Events::UnityAction action)  {
+UnityEngine::Events::InvokableCall o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Events::InvokableCall>(action))};
+return o;
+}
  void UnityEngine::Events::InvokableCall::_ctor(UnityEngine::Events::UnityAction action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::InvokableCall>::get(),

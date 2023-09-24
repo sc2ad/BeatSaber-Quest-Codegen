@@ -14,47 +14,69 @@ class Comparison_1;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
+namespace System::IO {
+class Stream;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__InputEventTrace__DeviceInfo;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TDelegate>
 struct CallbackArray_1;
 }
 namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__InputEventTrace__FileFlags;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System::IO {
-class Stream;
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class List_1;
+}
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
@@ -66,10 +88,6 @@ struct KeyValuePair_2;
 }
 namespace System {
 class Action;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -172,8 +190,7 @@ constexpr UnityEngine::InputSystem::LowLevel::InputEventPtr __get_m_Current() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "trace", ty: "UnityEngine::InputSystem::LowLevel::InputEventTrace", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator(UnityEngine::InputSystem::LowLevel::InputEventTrace trace) ;
+static UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator New_ctor(UnityEngine::InputSystem::LowLevel::InputEventTrace trace) ;
 
 /// @brief Method .ctor addr 0x295b9b0 size 0x38 virtual false final false
  void _ctor(UnityEngine::InputSystem::LowLevel::InputEventTrace trace) ;
@@ -245,6 +262,8 @@ __FixedUpdate = 1,
 constexpr operator __UnityEngine__InputSystem__LowLevel__InputEventTrace__FileFlags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__LowLevel__InputEventTrace__FileFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -319,8 +338,7 @@ static System::Comparison_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> _
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c() ;
+static GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x295d98c size 0x8 virtual false final false
  void _ctor() ;
@@ -383,8 +401,7 @@ constexpr int32_t __get_originalDeviceId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0() ;
+static GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x295d920 size 0x8 virtual false final false
  void _ctor() ;
@@ -569,8 +586,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::InputSystem::LowLeve
 /// @brief Method get_createdDevices addr 0x295c2cc size 0x64 virtual false final false
  System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputDevice> get_createdDevices() ;
 
-// Ctor Parameters [CppParam { name: "trace", ty: "UnityEngine::InputSystem::LowLevel::InputEventTrace", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController(UnityEngine::InputSystem::LowLevel::InputEventTrace trace) ;
+static UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController New_ctor(UnityEngine::InputSystem::LowLevel::InputEventTrace trace) ;
 
 /// @brief Method .ctor addr 0x295b514 size 0x78 virtual false final false
  void _ctor(UnityEngine::InputSystem::LowLevel::InputEventTrace trace) ;
@@ -985,14 +1001,12 @@ static UnityEngine::InputSystem::Utilities::FourCC get_FrameMarkerEvent() ;
 /// @brief Method remove_onEvent addr 0x2959cd4 size 0x58 virtual false final false
  void remove_onEvent(System::Action_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> value) ;
 
-// Ctor Parameters [CppParam { name: "device", ty: "UnityEngine::InputSystem::InputDevice", modifiers: "", def_value: None }, CppParam { name: "bufferSizeInBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "growBuffer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "maxBufferSizeInBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "growIncrementSizeInBytes", ty: "int64_t", modifiers: "", def_value: None }]
-explicit InputEventTrace(UnityEngine::InputSystem::InputDevice device, int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes) ;
+static UnityEngine::InputSystem::LowLevel::InputEventTrace New_ctor(UnityEngine::InputSystem::InputDevice device, int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes) ;
 
 /// @brief Method .ctor addr 0x2959d2c size 0xd8 virtual false final false
  void _ctor(UnityEngine::InputSystem::InputDevice device, int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes) ;
 
-// Ctor Parameters [CppParam { name: "bufferSizeInBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "growBuffer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "maxBufferSizeInBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "growIncrementSizeInBytes", ty: "int64_t", modifiers: "", def_value: None }]
-explicit InputEventTrace(int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes) ;
+static UnityEngine::InputSystem::LowLevel::InputEventTrace New_ctor(int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes) ;
 
 /// @brief Method .ctor addr 0x2959e04 size 0x70 virtual false final false
  void _ctor(int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes) ;

@@ -4,13 +4,16 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class ObstacleData;
+class GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerObstacleClippingController;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerObstacleClippingController;
+class ObstacleData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +78,7 @@ constexpr GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController 
 /// @brief Method Init addr 0x20e25bc size 0x1d0 virtual true final false
  void Init(GlobalNamespace::ObstacleData obstacleData, float_t worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 midPos, UnityEngine::Vector3 endPos, float_t move1Duration, float_t move2Duration, float_t singleLineWidth, float_t height) ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerObstacleController() ;
+static GlobalNamespace::MultiplayerConnectedPlayerObstacleController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e278c size 0x8 virtual false final false
  void _ctor() ;
@@ -88,7 +90,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2716 }), TypeDefinitionIndex(TypeDefinitionIndex(5242)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2716 }), TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(5242))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5241))
 // CS Name: MultiplayerConnectedPlayerObstacleController::Pool
 class CORDL_TYPE GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MultiplayerConnectedPlayerObstacleController> {
@@ -127,8 +129,7 @@ constexpr explicit GlobalNamespace__MultiplayerConnectedPlayerObstacleController
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e2794 size 0x48 virtual false final false
  void _ctor() ;

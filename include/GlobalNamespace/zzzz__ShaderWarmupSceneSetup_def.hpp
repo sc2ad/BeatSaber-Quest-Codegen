@@ -62,8 +62,7 @@ constexpr GlobalNamespace::ColorSchemeSO __get__sharedWarmupColorScheme() const;
 /// @brief Method InstallBindings addr 0x21d3bd4 size 0xb8 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit ShaderWarmupSceneSetup() ;
+static GlobalNamespace::ShaderWarmupSceneSetup New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3c8c size 0x8 virtual false final false
  void _ctor() ;

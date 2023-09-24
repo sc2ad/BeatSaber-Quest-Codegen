@@ -1,10 +1,10 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKMapping_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMappingBone_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::IKMappingBone.IsValid
 template<>
 
@@ -168,8 +168,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, solver, message);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKMappingBone::IKMappingBone()  : RootMotion::FinalIK::IKMapping(THROW_UNLESS(::il2cpp_utils::New<IKMappingBone>())) {}
+ RootMotion::FinalIK::IKMappingBone RootMotion::FinalIK::IKMappingBone::New_ctor()  {
+RootMotion::FinalIK::IKMappingBone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKMappingBone>())};
+return o;
+}
  void RootMotion::FinalIK::IKMappingBone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKMappingBone>::get(),
@@ -179,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::IKMappingBone::IKMappingBone(UnityEngine::Transform bone)  : RootMotion::FinalIK::IKMapping(THROW_UNLESS(::il2cpp_utils::New<IKMappingBone>(bone))) {}
+ RootMotion::FinalIK::IKMappingBone RootMotion::FinalIK::IKMappingBone::New_ctor(UnityEngine::Transform bone)  {
+RootMotion::FinalIK::IKMappingBone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKMappingBone>(bone))};
+return o;
+}
  void RootMotion::FinalIK::IKMappingBone::_ctor(UnityEngine::Transform bone)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKMappingBone>::get(),

@@ -6,6 +6,9 @@
 namespace System::Security::Cryptography {
 class RNGCryptoServiceProvider;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__SecureRandomProvider__SecureRandomState;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__SecureRandomProvider__SecureRandomState;
@@ -94,8 +97,7 @@ constexpr int32_t __get__index() const;
 /// @brief Method FillBuffer addr 0xdc9a84 size 0x114 virtual false final false
  void FillBuffer() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__SecureRandomProvider__SecureRandomState() ;
+static GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc99e0 size 0xa4 virtual false final false
  void _ctor() ;

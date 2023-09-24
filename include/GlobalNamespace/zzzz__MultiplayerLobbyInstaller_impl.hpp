@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarPlace_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLobbyInstaller.InstallBindings
 template<>
 
@@ -58,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLobbyInstaller::MultiplayerLobbyInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLobbyInstaller>())) {}
+ GlobalNamespace::MultiplayerLobbyInstaller GlobalNamespace::MultiplayerLobbyInstaller::New_ctor()  {
+GlobalNamespace::MultiplayerLobbyInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLobbyInstaller>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLobbyInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLobbyInstaller>::get(),

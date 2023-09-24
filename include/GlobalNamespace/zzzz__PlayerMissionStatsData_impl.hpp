@@ -107,8 +107,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "missionId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cleared", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::PlayerMissionStatsData::PlayerMissionStatsData(::StringW missionId, bool cleared)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerMissionStatsData>(missionId, cleared))) {}
+ GlobalNamespace::PlayerMissionStatsData GlobalNamespace::PlayerMissionStatsData::New_ctor(::StringW missionId, bool cleared)  {
+GlobalNamespace::PlayerMissionStatsData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerMissionStatsData>(missionId, cleared))};
+return o;
+}
  void GlobalNamespace::PlayerMissionStatsData::_ctor(::StringW missionId, bool cleared)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerMissionStatsData>::get(),

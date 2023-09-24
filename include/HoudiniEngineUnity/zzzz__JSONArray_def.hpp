@@ -8,41 +8,44 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace System {
 class IDisposable;
 }
-namespace HoudiniEngineUnity {
-class JSONNode;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 struct System__Collections__Generic__List_1__Enumerator;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace HoudiniEngineUnity {
+class JSONNode;
+}
+namespace HoudiniEngineUnity {
 struct JSONNodeType;
 }
 namespace HoudiniEngineUnity {
-struct HoudiniEngineUnity__JSONNode__Enumerator;
+class HoudiniEngineUnity__JSONArray___get_Children_d__22;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace HoudiniEngineUnity {
 struct JSONTextMode;
 }
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__JSONNode__Enumerator;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Text {
-class StringBuilder;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -148,8 +151,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__List_1__En
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__JSONArray___get_Children_d__22(int32_t __1__state) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__JSONArray___get_Children_d__22 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2067ad4 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -303,8 +305,7 @@ constexpr bool __get_inline() const;
 /// @brief Method WriteToStringBuilder addr 0x2067b08 size 0x168 virtual true final false
  void WriteToStringBuilder(System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, HoudiniEngineUnity::JSONTextMode aMode) ;
 
-// Ctor Parameters []
-explicit JSONArray() ;
+static HoudiniEngineUnity::JSONArray New_ctor() ;
 
 /// @brief Method .ctor addr 0x20642cc size 0x7c virtual false final false
  void _ctor() ;

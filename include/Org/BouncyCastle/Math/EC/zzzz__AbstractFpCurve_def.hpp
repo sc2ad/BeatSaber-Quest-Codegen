@@ -2,17 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {
@@ -60,8 +60,7 @@ constexpr explicit AbstractFpCurve(void* ptr) noexcept : Org::BouncyCastle::Math
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit AbstractFpCurve(Org::BouncyCastle::Math::BigInteger q) ;
+static Org::BouncyCastle::Math::EC::AbstractFpCurve New_ctor(Org::BouncyCastle::Math::BigInteger q) ;
 
 /// @brief Method .ctor addr 0xf3eafc size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger q) ;

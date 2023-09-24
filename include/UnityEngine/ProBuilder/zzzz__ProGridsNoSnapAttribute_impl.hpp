@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ProBuilder::ProGridsNoSnapAttribute::ProGridsNoSnapAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ProGridsNoSnapAttribute>())) {}
+ UnityEngine::ProBuilder::ProGridsNoSnapAttribute UnityEngine::ProBuilder::ProGridsNoSnapAttribute::New_ctor()  {
+UnityEngine::ProBuilder::ProGridsNoSnapAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::ProGridsNoSnapAttribute>())};
+return o;
+}
  void UnityEngine::ProBuilder::ProGridsNoSnapAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::ProGridsNoSnapAttribute>::get(),

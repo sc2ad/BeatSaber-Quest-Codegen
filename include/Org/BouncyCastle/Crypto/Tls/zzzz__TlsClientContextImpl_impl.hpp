@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClientContextImpl_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SecurityParameters_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClientContext_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl._ctor
 template<>
 
@@ -47,8 +47,10 @@ return Org::BouncyCastle::Crypto::Tls::TlsClientContext(::bs_hook::Il2CppWrapper
 constexpr  Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl::operator Org::BouncyCastle::Crypto::Tls::TlsContext() const noexcept {
 return Org::BouncyCastle::Crypto::Tls::TlsContext(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "securityParameters", ty: "Org::BouncyCastle::Crypto::Tls::SecurityParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl::TlsClientContextImpl(Org::BouncyCastle::Security::SecureRandom secureRandom, Org::BouncyCastle::Crypto::Tls::SecurityParameters securityParameters)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsContext(THROW_UNLESS(::il2cpp_utils::New<TlsClientContextImpl>(secureRandom, securityParameters))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl::New_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom, Org::BouncyCastle::Crypto::Tls::SecurityParameters securityParameters)  {
+Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl>(secureRandom, securityParameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl::_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom, Org::BouncyCastle::Crypto::Tls::SecurityParameters securityParameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl>::get(),

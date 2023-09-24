@@ -93,8 +93,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 constexpr  System::OrdinalCaseSensitiveComparer::operator System::Runtime::Serialization::ISerializable() const noexcept {
 return System::Runtime::Serialization::ISerializable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::OrdinalCaseSensitiveComparer::OrdinalCaseSensitiveComparer()  : System::OrdinalComparer(THROW_UNLESS(::il2cpp_utils::New<OrdinalCaseSensitiveComparer>())) {}
+ System::OrdinalCaseSensitiveComparer System::OrdinalCaseSensitiveComparer::New_ctor()  {
+System::OrdinalCaseSensitiveComparer o{THROW_UNLESS(::il2cpp_utils::New<System::OrdinalCaseSensitiveComparer>())};
+return o;
+}
  void System::OrdinalCaseSensitiveComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OrdinalCaseSensitiveComparer>::get(),

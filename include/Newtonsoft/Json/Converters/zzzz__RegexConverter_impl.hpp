@@ -1,13 +1,13 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__RegexConverter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::RegexConverter.WriteJson
 template<>
 
@@ -233,8 +233,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, objectType);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::RegexConverter::RegexConverter()  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<RegexConverter>())) {}
+ Newtonsoft::Json::Converters::RegexConverter Newtonsoft::Json::Converters::RegexConverter::New_ctor()  {
+Newtonsoft::Json::Converters::RegexConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::RegexConverter>())};
+return o;
+}
  void Newtonsoft::Json::Converters::RegexConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::RegexConverter>::get(),

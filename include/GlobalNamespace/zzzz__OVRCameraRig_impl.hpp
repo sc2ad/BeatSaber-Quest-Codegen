@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRCameraRig.get_leftEyeCamera
 template<>
 
@@ -1152,8 +1152,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRCameraRig::OVRCameraRig()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRCameraRig>())) {}
+ GlobalNamespace::OVRCameraRig GlobalNamespace::OVRCameraRig::New_ctor()  {
+GlobalNamespace::OVRCameraRig o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRCameraRig>())};
+return o;
+}
  void GlobalNamespace::OVRCameraRig::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRCameraRig>::get(),

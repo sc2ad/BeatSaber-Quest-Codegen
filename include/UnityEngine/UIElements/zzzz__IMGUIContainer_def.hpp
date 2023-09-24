@@ -8,68 +8,80 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class UxmlChildElementDescription;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::UIElements {
+class UxmlChildElementDescription;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+class ObjectGUIState;
 }
 namespace UnityEngine::UIElements {
-struct ContextType;
-}
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__VisualElement__MeasureMode;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine::UIElements {
-class FocusChangeDirection;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
+struct UnityEngine__UIElements__IMGUIContainer__GUIGlobals;
 }
 namespace UnityEngine {
 class UnityEngine__GUILayoutUtility__LayoutCache;
 }
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__IMGUIContainer__UxmlFactory;
 }
-namespace UnityEngine {
-class ObjectGUIState;
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class Action;
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine::UIElements {
+class MeshGenerationContext;
+}
+namespace UnityEngine::UIElements {
+class FocusChangeDirection;
+}
+namespace UnityEngine::UIElements {
+struct ContextType;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualElement__MeasureMode;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__IMGUIContainer__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 namespace UnityEngine {
 class Event;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+struct Vector2;
 }
-namespace UnityEngine::UIElements {
-class MeshGenerationContext;
+namespace GlobalNamespace {
+class UnityEngine__UIElements__IMGUIContainer__UxmlTraits___get_uxmlChildElementsDescription_d__2;
 }
 namespace UnityEngine {
 struct Color;
@@ -139,8 +151,7 @@ constexpr explicit UnityEngine__UIElements__IMGUIContainer__UxmlTraits(void* ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__IMGUIContainer__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__IMGUIContainer__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c898a4 size 0x70 virtual false final false
  void _ctor() ;
@@ -424,14 +435,12 @@ static UnityEngine::Event __get_s_CurrentEvent() ;
 /// @brief Method get_canGrabFocus addr 0x2c86594 size 0x20 virtual true final false
  bool get_canGrabFocus() ;
 
-// Ctor Parameters []
-explicit IMGUIContainer() ;
+static UnityEngine::UIElements::IMGUIContainer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c86980 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "onGUIHandler", ty: "System::Action", modifiers: "", def_value: None }]
-explicit IMGUIContainer(System::Action onGUIHandler) ;
+static UnityEngine::UIElements::IMGUIContainer New_ctor(System::Action onGUIHandler) ;
 
 /// @brief Method .ctor addr 0x2c86988 size 0x238 virtual false final false
  void _ctor(System::Action onGUIHandler) ;
@@ -518,7 +527,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5090 }), TypeDefinitionIndex(TypeDefinitionIndex(6996)), TypeDefinitionIndex(TypeDefinitionIndex(6994))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5090 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(6996)), TypeDefinitionIndex(TypeDefinitionIndex(6994))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6992))
 // CS Name: UnityEngine.UIElements.IMGUIContainer::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__IMGUIContainer__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::IMGUIContainer,UnityEngine::UIElements::UnityEngine__UIElements__IMGUIContainer__UxmlTraits> {
@@ -557,8 +566,7 @@ constexpr explicit UnityEngine__UIElements__IMGUIContainer__UxmlFactory(void* pt
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__IMGUIContainer__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__IMGUIContainer__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c8985c size 0x48 virtual false final false
  void _ctor() ;
@@ -658,8 +666,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__IMGUIContainer__Uxml
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__IMGUIContainer__UxmlTraits___get_uxmlChildElementsDescription_d__2(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__UIElements__IMGUIContainer__UxmlTraits___get_uxmlChildElementsDescription_d__2 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2c89978 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;

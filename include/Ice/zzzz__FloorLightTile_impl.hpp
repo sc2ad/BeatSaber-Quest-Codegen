@@ -2,12 +2,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "Ice/zzzz__FloorLightTile_def.hpp"
-#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
-#include "Tweening/zzzz__ColorTween_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
-#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
+#include "Ice/zzzz__FloorLightTile_def.hpp"
+#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "Tweening/zzzz__ColorTween_def.hpp"
 //  Writing Method size for method: Ice::FloorLightTile.Awake
 template<>
 
@@ -217,8 +218,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- Ice::FloorLightTile::FloorLightTile()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FloorLightTile>())) {}
+ Ice::FloorLightTile Ice::FloorLightTile::New_ctor()  {
+Ice::FloorLightTile o{THROW_UNLESS(::il2cpp_utils::New<Ice::FloorLightTile>())};
+return o;
+}
  void Ice::FloorLightTile::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Ice::FloorLightTile>::get(),
@@ -245,8 +248,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ice::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Ice::Ice__FloorLightTile__Pool::Ice__FloorLightTile__Pool()  : Zenject::MonoMemoryPool_1<Ice::FloorLightTile>(THROW_UNLESS(::il2cpp_utils::New<Ice__FloorLightTile__Pool>())) {}
+ Ice::Ice__FloorLightTile__Pool Ice::Ice__FloorLightTile__Pool::New_ctor()  {
+Ice::Ice__FloorLightTile__Pool o{THROW_UNLESS(::il2cpp_utils::New<Ice::Ice__FloorLightTile__Pool>())};
+return o;
+}
  void Ice::Ice__FloorLightTile__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Ice::Ice__FloorLightTile__Pool>::get(),

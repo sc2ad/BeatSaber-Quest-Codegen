@@ -5,25 +5,25 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
-}
-namespace UnityEngine::UIElements {
-struct DragVisualMode;
-}
-namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
-}
-namespace UnityEngine::UIElements {
-class StartDragArgs;
+struct UnityEngine__UIElements__ListViewDragger__DragPosition;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::UIElements {
+class BaseVerticalCollectionView;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__ListViewDragger__DragPosition;
+class StartDragArgs;
+}
+namespace UnityEngine::UIElements {
+class ReusableCollectionItem;
+}
+namespace UnityEngine::UIElements {
+struct DragVisualMode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -134,8 +134,7 @@ constexpr UnityEngine::UIElements::ReusableCollectionItem __get_m_OffsetItem() c
 /// @brief Method get_supportsDragEvents addr 0x2c93408 size 0x8 virtual true final false
  bool get_supportsDragEvents() ;
 
-// Ctor Parameters [CppParam { name: "listView", ty: "UnityEngine::UIElements::BaseVerticalCollectionView", modifiers: "", def_value: None }]
-explicit ListViewDraggerAnimated(UnityEngine::UIElements::BaseVerticalCollectionView listView) ;
+static UnityEngine::UIElements::ListViewDraggerAnimated New_ctor(UnityEngine::UIElements::BaseVerticalCollectionView listView) ;
 
 /// @brief Method .ctor addr 0x2c93410 size 0x4 virtual false final false
  void _ctor(UnityEngine::UIElements::BaseVerticalCollectionView listView) ;

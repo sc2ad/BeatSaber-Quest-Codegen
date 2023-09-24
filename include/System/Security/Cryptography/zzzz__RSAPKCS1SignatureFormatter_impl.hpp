@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::RSAPKCS1SignatureFormatter::RSAPKCS1SignatureFormatter()  : System::Security::Cryptography::AsymmetricSignatureFormatter(THROW_UNLESS(::il2cpp_utils::New<RSAPKCS1SignatureFormatter>())) {}
+ System::Security::Cryptography::RSAPKCS1SignatureFormatter System::Security::Cryptography::RSAPKCS1SignatureFormatter::New_ctor()  {
+System::Security::Cryptography::RSAPKCS1SignatureFormatter o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RSAPKCS1SignatureFormatter>())};
+return o;
+}
  void System::Security::Cryptography::RSAPKCS1SignatureFormatter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RSAPKCS1SignatureFormatter>::get(),

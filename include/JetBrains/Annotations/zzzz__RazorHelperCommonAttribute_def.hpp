@@ -47,8 +47,7 @@ constexpr explicit RazorHelperCommonAttribute(void* ptr) noexcept : System::Attr
 
 // Methods
 
-// Ctor Parameters []
-explicit RazorHelperCommonAttribute() ;
+static JetBrains::Annotations::RazorHelperCommonAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d414a4 size 0x8 virtual false final false
  void _ctor() ;

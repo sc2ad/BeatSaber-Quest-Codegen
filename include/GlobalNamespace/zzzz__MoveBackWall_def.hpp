@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
+namespace GlobalNamespace {
+class PlayerTransforms;
+}
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class MeshRenderer;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +102,7 @@ constexpr UnityEngine::Material __get__material() const;
 /// @brief Method Update addr 0x2107f34 size 0xbc virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit MoveBackWall() ;
+static GlobalNamespace::MoveBackWall New_ctor() ;
 
 /// @brief Method .ctor addr 0x2107ff0 size 0x10 virtual false final false
  void _ctor() ;

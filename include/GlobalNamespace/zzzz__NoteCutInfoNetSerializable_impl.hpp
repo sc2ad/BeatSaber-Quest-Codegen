@@ -1,17 +1,16 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfoNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__QuaternionSerializable_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
+#include "GlobalNamespace/zzzz__QuaternionSerializable_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteCutInfoNetSerializable.Obtain
 template<>
 
@@ -231,8 +230,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, writer);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteCutInfoNetSerializable::NoteCutInfoNetSerializable()  : GlobalNamespace::PoolableSerializable(THROW_UNLESS(::il2cpp_utils::New<NoteCutInfoNetSerializable>())) {}
+ GlobalNamespace::NoteCutInfoNetSerializable GlobalNamespace::NoteCutInfoNetSerializable::New_ctor()  {
+GlobalNamespace::NoteCutInfoNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteCutInfoNetSerializable>())};
+return o;
+}
  void GlobalNamespace::NoteCutInfoNetSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteCutInfoNetSerializable>::get(),

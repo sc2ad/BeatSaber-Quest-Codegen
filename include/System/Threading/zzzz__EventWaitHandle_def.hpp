@@ -51,14 +51,12 @@ constexpr explicit EventWaitHandle(void* ptr) noexcept : System::Threading::Wait
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Threading::EventResetMode", modifiers: "", def_value: None }]
-explicit EventWaitHandle(bool initialState, System::Threading::EventResetMode mode) ;
+static System::Threading::EventWaitHandle New_ctor(bool initialState, System::Threading::EventResetMode mode) ;
 
 /// @brief Method .ctor addr 0x24a27a4 size 0xc virtual false final false
  void _ctor(bool initialState, System::Threading::EventResetMode mode) ;
 
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Threading::EventResetMode", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit EventWaitHandle(bool initialState, System::Threading::EventResetMode mode, ::StringW name) ;
+static System::Threading::EventWaitHandle New_ctor(bool initialState, System::Threading::EventResetMode mode, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x24a9480 size 0x2c0 virtual false final false
  void _ctor(bool initialState, System::Threading::EventResetMode mode, ::StringW name) ;

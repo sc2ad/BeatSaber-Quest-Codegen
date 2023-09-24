@@ -5,6 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+struct Ray;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
@@ -14,22 +26,10 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
 class Canvas;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -78,8 +78,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1EncodableVector __get_capabilities() cons
 /// @brief Method ToAsn1EncodableVector addr 0xfe7c00 size 0x8 virtual false final false
  Org::BouncyCastle::Asn1::Asn1EncodableVector ToAsn1EncodableVector() ;
 
-// Ctor Parameters []
-explicit SmimeCapabilityVector() ;
+static Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe7c08 size 0x68 virtual false final false
  void _ctor() ;

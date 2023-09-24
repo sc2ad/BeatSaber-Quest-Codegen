@@ -2,19 +2,18 @@
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__EditAvatarFlowCoordinator_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarVisualController_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__EditColorController_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
+#include "GlobalNamespace/zzzz__EditAvatarFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarVisualController_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarTweenController_def.hpp"
-#include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
-#include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarDataModel_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType::GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -415,8 +414,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, apply);
 }
-// Ctor Parameters []
- GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarFlowCoordinator()  : HMUI::FlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<EditAvatarFlowCoordinator>())) {}
+ GlobalNamespace::EditAvatarFlowCoordinator GlobalNamespace::EditAvatarFlowCoordinator::New_ctor()  {
+GlobalNamespace::EditAvatarFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EditAvatarFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::EditAvatarFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EditAvatarFlowCoordinator>::get(),

@@ -6,16 +6,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-struct UriSyntaxFlags;
+struct UriComponents;
 }
 namespace System {
 class UriFormatException;
 }
 namespace System {
-class Uri;
-}
-namespace System {
-struct UriComponents;
+struct System__UriParser__UriQuirksVersion;
 }
 namespace System {
 struct UriFormat;
@@ -24,12 +21,18 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace System {
+class System__UriParser__BuiltInUriParser;
+}
+namespace System {
+struct UriSyntaxFlags;
+}
+namespace System {
+class Uri;
+}
 // Forward declare root types
 namespace System {
 struct System__UriParser__UriQuirksVersion;
-}
-namespace System {
-class System__UriParser__BuiltInUriParser;
 }
 namespace System {
 class UriParser;
@@ -83,6 +86,8 @@ __V3 = 3,
 constexpr operator __System__UriParser__UriQuirksVersion_Unwrapped () const noexcept {
 return std::bit_cast<__System__UriParser__UriQuirksVersion_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -411,8 +416,7 @@ static bool get_ShouldUseLegacyV2Quirks() ;
 /// @brief Method IsFullMatch addr 0x27ba2a4 size 0x5c virtual false final false
  bool IsFullMatch(System::UriSyntaxFlags flags, System::UriSyntaxFlags expected) ;
 
-// Ctor Parameters [CppParam { name: "flags", ty: "System::UriSyntaxFlags", modifiers: "", def_value: None }]
-explicit UriParser(System::UriSyntaxFlags flags) ;
+static System::UriParser New_ctor(System::UriSyntaxFlags flags) ;
 
 /// @brief Method .ctor addr 0x27ba308 size 0x6c virtual false final false
  void _ctor(System::UriSyntaxFlags flags) ;
@@ -448,60 +452,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-// Type: ::BuiltInUriParser
-namespace System {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7738))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7737))
-// CS Name: System.UriParser::BuiltInUriParser
-class CORDL_TYPE System__UriParser__BuiltInUriParser : public System::UriParser {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
-
-virtual ~System__UriParser__BuiltInUriParser() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__UriParser__BuiltInUriParser", modifiers: " const&", def_value: None }]
-constexpr System__UriParser__BuiltInUriParser(System__UriParser__BuiltInUriParser const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__UriParser__BuiltInUriParser", modifiers: "&&", def_value: None }]
-constexpr System__UriParser__BuiltInUriParser(System__UriParser__BuiltInUriParser&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__UriParser__BuiltInUriParser(void* ptr) noexcept : System::UriParser(ptr) {
-}
-
-
-  constexpr System__UriParser__BuiltInUriParser& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__UriParser__BuiltInUriParser& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__UriParser__BuiltInUriParser& operator=(System__UriParser__BuiltInUriParser&& o) noexcept = default;
-  constexpr System__UriParser__BuiltInUriParser& operator=(System__UriParser__BuiltInUriParser const& o) noexcept = default;
-                
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "lwrCaseScheme", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "defaultPort", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "syntaxFlags", ty: "System::UriSyntaxFlags", modifiers: "", def_value: None }]
-explicit System__UriParser__BuiltInUriParser(::StringW lwrCaseScheme, int32_t defaultPort, System::UriSyntaxFlags syntaxFlags) ;
-
-/// @brief Method .ctor addr 0x27ba21c size 0x80 virtual false final false
- void _ctor(::StringW lwrCaseScheme, int32_t defaultPort, System::UriSyntaxFlags syntaxFlags) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System
 DEFINE_IL2CPP_ARG_TYPE(System::System__UriParser__UriQuirksVersion, "System", "UriParser/UriQuirksVersion");
-NEED_NO_BOX(System::System__UriParser__BuiltInUriParser);
-DEFINE_IL2CPP_ARG_TYPE(System::System__UriParser__BuiltInUriParser, "System", "UriParser/BuiltInUriParser");
 NEED_NO_BOX(System::UriParser);
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser, "System", "UriParser");

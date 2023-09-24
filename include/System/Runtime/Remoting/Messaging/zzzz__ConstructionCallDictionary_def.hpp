@@ -62,8 +62,7 @@ static ::ArrayW<::StringW> __get_InternalKeys() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Remoting::Activation::IConstructionCallMessage", modifiers: "", def_value: None }]
-explicit ConstructionCallDictionary(System::Runtime::Remoting::Activation::IConstructionCallMessage message) ;
+static System::Runtime::Remoting::Messaging::ConstructionCallDictionary New_ctor(System::Runtime::Remoting::Activation::IConstructionCallMessage message) ;
 
 /// @brief Method .ctor addr 0x233ef78 size 0x7c virtual false final false
  void _ctor(System::Runtime::Remoting::Activation::IConstructionCallMessage message) ;

@@ -4,11 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Crypto::Engines {
+class Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -83,8 +95,7 @@ constexpr ::ArrayW<uint64_t> __get_kw() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
+static Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
 
 /// @brief Method .ctor addr 0xe5f788 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
@@ -192,8 +203,7 @@ static constexpr int32_t  ROTATION_7_1{32};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
+static Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
 
 /// @brief Method .ctor addr 0xe5eb04 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
@@ -349,8 +359,7 @@ static constexpr int32_t  ROTATION_7_3{22};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
+static Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
 
 /// @brief Method .ctor addr 0xe5eb30 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
@@ -602,8 +611,7 @@ static constexpr int32_t  ROTATION_7_7{20};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
+static Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
 
 /// @brief Method .ctor addr 0xe5eb5c size 0x2c virtual false final false
  void _ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) ;
@@ -777,8 +785,7 @@ constexpr bool __get_forEncryption() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "blocksizeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ThreefishEngine(int32_t blocksizeBits) ;
+static Org::BouncyCastle::Crypto::Engines::ThreefishEngine New_ctor(int32_t blocksizeBits) ;
 
 /// @brief Method .ctor addr 0xe5e984 size 0x180 virtual false final false
  void _ctor(int32_t blocksizeBits) ;

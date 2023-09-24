@@ -9,7 +9,7 @@ class InputEvent;
 // Type: UnityEngine.UIElements::InputEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1641 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1641 }), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7345))
 // CS Name: UnityEngine.UIElements.InputEvent
 class CORDL_TYPE InputEvent : public UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::InputEvent> {
@@ -85,8 +85,7 @@ constexpr ::StringW __get__newData_k__BackingField() const;
 /// @brief Method GetPooled addr 0x2cdba2c size 0x84 virtual false final false
 static UnityEngine::UIElements::InputEvent GetPooled(::StringW previousData, ::StringW newData) ;
 
-// Ctor Parameters []
-explicit InputEvent() ;
+static UnityEngine::UIElements::InputEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdbab0 size 0x7c virtual false final false
  void _ctor() ;

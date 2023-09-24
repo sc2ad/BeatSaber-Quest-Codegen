@@ -58,8 +58,7 @@ constexpr explicit Datatype_language(void* ptr) noexcept : System::Xml::Schema::
 /// @brief Method get_TypeCode addr 0x2727d24 size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_language() ;
+static System::Xml::Schema::Datatype_language New_ctor() ;
 
 /// @brief Method .ctor addr 0x2727d2c size 0x4 virtual false final false
  void _ctor() ;

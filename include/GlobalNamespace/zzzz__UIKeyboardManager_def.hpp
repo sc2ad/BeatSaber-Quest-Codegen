@@ -3,13 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace HMUI {
-class InputFieldView;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HMUI {
-class UIKeyboard;
+class ModalView;
 }
 namespace UnityEngine {
 class GameObject;
@@ -17,11 +11,17 @@ class GameObject;
 namespace VRUIControls {
 class VRInputModule;
 }
+namespace HMUI {
+class UIKeyboard;
+}
+namespace HMUI {
+class InputFieldView;
+}
 namespace UnityEngine {
 class RectTransform;
 }
-namespace HMUI {
-class ModalView;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -149,8 +149,7 @@ constexpr HMUI::InputFieldView __get__selectedInput() const;
 /// @brief Method HandleKeyboardOkButton addr 0x212def0 size 0x160 virtual false final false
  void HandleKeyboardOkButton() ;
 
-// Ctor Parameters []
-explicit UIKeyboardManager() ;
+static GlobalNamespace::UIKeyboardManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x212e050 size 0x8 virtual false final false
  void _ctor() ;

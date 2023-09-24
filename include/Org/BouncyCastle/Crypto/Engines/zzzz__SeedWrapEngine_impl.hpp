@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::SeedWrapEngine::SeedWrapEngine()  : Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine(THROW_UNLESS(::il2cpp_utils::New<SeedWrapEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::SeedWrapEngine Org::BouncyCastle::Crypto::Engines::SeedWrapEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::SeedWrapEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::SeedWrapEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::SeedWrapEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::SeedWrapEngine>::get(),

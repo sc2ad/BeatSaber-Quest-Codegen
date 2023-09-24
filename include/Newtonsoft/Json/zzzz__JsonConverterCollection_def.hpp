@@ -9,7 +9,7 @@ class JsonConverterCollection;
 // Type: Newtonsoft.Json::JsonConverterCollection
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3799)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3799), inst: 991 }), TypeDefinitionIndex(TypeDefinitionIndex(11772))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11772)), TypeDefinitionIndex(TypeDefinitionIndex(3799)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3799), inst: 991 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11773))
 // CS Name: Newtonsoft.Json.JsonConverterCollection
 class CORDL_TYPE JsonConverterCollection : public System::Collections::ObjectModel::Collection_1<Newtonsoft::Json::JsonConverter> {
@@ -48,8 +48,7 @@ constexpr explicit JsonConverterCollection(void* ptr) noexcept : System::Collect
 
 // Methods
 
-// Ctor Parameters []
-explicit JsonConverterCollection() ;
+static Newtonsoft::Json::JsonConverterCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x24d34f4 size 0x48 virtual false final false
  void _ctor() ;

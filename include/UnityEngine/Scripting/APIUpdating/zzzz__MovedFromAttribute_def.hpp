@@ -60,14 +60,12 @@ constexpr UnityEngine::Scripting::APIUpdating::MovedFromAttributeData __get_data
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "autoUpdateAPI", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sourceNamespace", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sourceAssembly", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sourceClassName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MovedFromAttribute(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName) ;
+static UnityEngine::Scripting::APIUpdating::MovedFromAttribute New_ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName) ;
 
 /// @brief Method .ctor addr 0x2b71b90 size 0x6c virtual false final false
  void _ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName) ;
 
-// Ctor Parameters [CppParam { name: "sourceNamespace", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MovedFromAttribute(::StringW sourceNamespace) ;
+static UnityEngine::Scripting::APIUpdating::MovedFromAttribute New_ctor(::StringW sourceNamespace) ;
 
 /// @brief Method .ctor addr 0x2b71bfc size 0x44 virtual false final false
  void _ctor(::StringW sourceNamespace) ;

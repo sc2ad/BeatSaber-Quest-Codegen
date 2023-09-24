@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__SerializationEvents_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationEventHandler_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::SerializationEvents._ctor
 template<>
@@ -199,8 +199,10 @@ constexpr void System::Runtime::Serialization::SerializationEvents::__set__onDes
 constexpr System::Collections::Generic::List_1<System::Reflection::MethodInfo> System::Runtime::Serialization::SerializationEvents::__get__onDeserializedMethods() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<System::Reflection::MethodInfo>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SerializationEvents::SerializationEvents(System::Type t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerializationEvents>(t))) {}
+ System::Runtime::Serialization::SerializationEvents System::Runtime::Serialization::SerializationEvents::New_ctor(System::Type t)  {
+System::Runtime::Serialization::SerializationEvents o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationEvents>(t))};
+return o;
+}
  void System::Runtime::Serialization::SerializationEvents::_ctor(System::Type t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationEvents>::get(),

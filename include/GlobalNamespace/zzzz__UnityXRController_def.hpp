@@ -1,17 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine::XR {
-struct XRNode;
-}
 namespace UnityEngine::InputSystem {
 class InputActionReference;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__UnityXRHelper__VRControllerManufacturerName;
-}
 namespace UnityEngine::XR {
-struct InputDevice;
+struct XRNode;
 }
 namespace GlobalNamespace {
 class IUnityXRHapticsHandler;
@@ -19,8 +13,17 @@ class IUnityXRHapticsHandler;
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__UnityXRController__Configuration;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__UnityXRHelper__VRControllerManufacturerName;
+}
 namespace UnityEngine {
 class MonoBehaviour;
+}
+namespace UnityEngine::XR {
+struct InputDevice;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +125,7 @@ constexpr UnityEngine::InputSystem::InputActionReference __get__thumbstickAction
 /// @brief Method CreateController addr 0x1f8991c size 0xc0 virtual false final false
  GlobalNamespace::UnityXRController CreateController(UnityEngine::XR::XRNode node) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__UnityXRController__Configuration() ;
+static GlobalNamespace::GlobalNamespace__UnityXRController__Configuration New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8bdf8 size 0x8 virtual false final false
  void _ctor() ;
@@ -231,8 +233,7 @@ constexpr GlobalNamespace::IUnityXRHapticsHandler __get__hapticsHandler() const;
 /// @brief Method set_manufacturerName addr 0x1f8b9d4 size 0x8 virtual false final false
  void set_manufacturerName(GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName value) ;
 
-// Ctor Parameters [CppParam { name: "node", ty: "UnityEngine::XR::XRNode", modifiers: "", def_value: None }, CppParam { name: "positionAction", ty: "UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }, CppParam { name: "rotationAction", ty: "UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }, CppParam { name: "thumbstickAction", ty: "UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }]
-explicit UnityXRController(UnityEngine::XR::XRNode node, UnityEngine::InputSystem::InputAction positionAction, UnityEngine::InputSystem::InputAction rotationAction, UnityEngine::InputSystem::InputAction thumbstickAction) ;
+static GlobalNamespace::UnityXRController New_ctor(UnityEngine::XR::XRNode node, UnityEngine::InputSystem::InputAction positionAction, UnityEngine::InputSystem::InputAction rotationAction, UnityEngine::InputSystem::InputAction thumbstickAction) ;
 
 /// @brief Method .ctor addr 0x1f8b9dc size 0xd0 virtual false final false
  void _ctor(UnityEngine::XR::XRNode node, UnityEngine::InputSystem::InputAction positionAction, UnityEngine::InputSystem::InputAction rotationAction, UnityEngine::InputSystem::InputAction thumbstickAction) ;

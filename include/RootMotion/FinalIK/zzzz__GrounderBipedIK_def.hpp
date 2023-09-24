@@ -8,13 +8,13 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace RootMotion::FinalIK {
-class IKSolverLimb;
+class BipedIK;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
-class BipedIK;
+class IKSolverLimb;
 }
 namespace UnityEngine {
 class Transform;
@@ -155,8 +155,7 @@ constexpr float_t __get_lastWeight() const;
 /// @brief Method OnDestroy addr 0x11bb23c size 0x1a8 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit GrounderBipedIK() ;
+static RootMotion::FinalIK::GrounderBipedIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x11bb3e4 size 0x108c virtual false final false
  void _ctor() ;

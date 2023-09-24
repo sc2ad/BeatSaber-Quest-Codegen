@@ -1,6 +1,7 @@
 #pragma once
 #include "Zenject/zzzz__ConventionSelectTypesBinder_def.hpp"
 #include "Zenject/zzzz__ConventionFilterTypesBinder_def.hpp"
+#include "Zenject/zzzz__ConventionSelectTypesBinder_def.hpp"
 #include "Zenject/zzzz__ConventionBindInfo_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
@@ -154,8 +155,10 @@ return ::cordl_internals::getStaticField<System::Func_2<System::Type,bool>, "<>9
  System::Func_2<System::Type,bool> Zenject::Zenject__ConventionSelectTypesBinder____c::__get___9__7_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Type,bool>, "<>9__7_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ConventionSelectTypesBinder____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__ConventionSelectTypesBinder____c::Zenject__ConventionSelectTypesBinder____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ConventionSelectTypesBinder____c>())) {}
+ Zenject::Zenject__ConventionSelectTypesBinder____c Zenject::Zenject__ConventionSelectTypesBinder____c::New_ctor()  {
+Zenject::Zenject__ConventionSelectTypesBinder____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ConventionSelectTypesBinder____c>())};
+return o;
+}
  void Zenject::Zenject__ConventionSelectTypesBinder____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ConventionSelectTypesBinder____c>::get(),
@@ -344,8 +347,10 @@ constexpr void Zenject::ConventionSelectTypesBinder::__set__bindInfo(Zenject::Co
 constexpr Zenject::ConventionBindInfo Zenject::ConventionSelectTypesBinder::__get__bindInfo() const {
 return ::cordl_internals::getInstanceField<Zenject::ConventionBindInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::ConventionBindInfo", modifiers: "", def_value: None }]
- Zenject::ConventionSelectTypesBinder::ConventionSelectTypesBinder(Zenject::ConventionBindInfo bindInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ConventionSelectTypesBinder>(bindInfo))) {}
+ Zenject::ConventionSelectTypesBinder Zenject::ConventionSelectTypesBinder::New_ctor(Zenject::ConventionBindInfo bindInfo)  {
+Zenject::ConventionSelectTypesBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ConventionSelectTypesBinder>(bindInfo))};
+return o;
+}
  void Zenject::ConventionSelectTypesBinder::_ctor(Zenject::ConventionBindInfo bindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ConventionSelectTypesBinder>::get(),

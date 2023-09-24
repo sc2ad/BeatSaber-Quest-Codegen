@@ -3,26 +3,26 @@
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
 #include <cstdint>
 namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine {
-struct Color;
+class RenderTexture;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -156,8 +156,7 @@ constexpr UnityEngine::Material __get__material() const;
 /// @brief Method Render addr 0x1f94354 size 0x1b8 virtual true final false
  void Render(UnityEngine::RenderTexture dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix) ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundTextureGradient() ;
+static GlobalNamespace::BloomPrePassBackgroundTextureGradient New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9257c size 0x60 virtual false final false
  void _ctor() ;

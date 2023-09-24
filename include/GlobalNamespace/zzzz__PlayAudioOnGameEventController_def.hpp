@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace GlobalNamespace {
+class AudioClipQueue;
+}
+namespace GlobalNamespace {
 class LocalizedAudioClipSO;
 }
 namespace GlobalNamespace {
@@ -12,10 +15,10 @@ template<typename T>
 class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
-class AudioClipQueue;
+class Signal;
 }
 namespace GlobalNamespace {
-class Signal;
+class GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +111,7 @@ constexpr GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioC
 /// @brief Method HandleGameEvent addr 0x20bd88c size 0xc4 virtual false final false
  void HandleGameEvent() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding() ;
+static GlobalNamespace::GlobalNamespace__PlayAudioOnGameEventController__EventAudioBinding New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bd950 size 0x8 virtual false final false
  void _ctor() ;
@@ -183,8 +185,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__PlayAudioOnGameEventControl
 /// @brief Method OnDestroy addr 0x20bd79c size 0x5c virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit PlayAudioOnGameEventController() ;
+static GlobalNamespace::PlayAudioOnGameEventController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bd884 size 0x8 virtual false final false
  void _ctor() ;

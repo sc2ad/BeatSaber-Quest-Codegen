@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Xml {
-class BitStack;
-}
 namespace System::IO {
 class Stream;
 }
 namespace System::Xml {
 class XmlWriterSettings;
+}
+namespace System::Xml {
+class BitStack;
 }
 namespace System::Xml {
 struct ConformanceLevel;
@@ -101,8 +101,7 @@ constexpr System::Xml::ConformanceLevel __get_conformanceLevel() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlUtf8RawTextWriterIndent(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::XmlUtf8RawTextWriterIndent New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26e4c8c size 0x28 virtual false final false
  void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;

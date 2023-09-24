@@ -75,14 +75,12 @@ constexpr ::ArrayW<int32_t> __get_negObjects() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit IntSizedArray() ;
+static System::Runtime::Serialization::Formatters::Binary::IntSizedArray New_ctor() ;
 
 /// @brief Method .ctor addr 0x2362970 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "sizedArray", ty: "System::Runtime::Serialization::Formatters::Binary::IntSizedArray", modifiers: "", def_value: None }]
-explicit IntSizedArray(System::Runtime::Serialization::Formatters::Binary::IntSizedArray sizedArray) ;
+static System::Runtime::Serialization::Formatters::Binary::IntSizedArray New_ctor(System::Runtime::Serialization::Formatters::Binary::IntSizedArray sizedArray) ;
 
 /// @brief Method .ctor addr 0x2369b4c size 0xdc virtual false final false
  void _ctor(System::Runtime::Serialization::Formatters::Binary::IntSizedArray sizedArray) ;

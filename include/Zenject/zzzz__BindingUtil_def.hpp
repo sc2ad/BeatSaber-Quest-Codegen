@@ -2,24 +2,24 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+class Type;
+}
 namespace UnityEngine {
-class GameObject;
+class Object;
 }
 namespace Zenject {
 struct InvalidBindResponses;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine {
-class Object;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace System {
-class Type;
+class GameObject;
 }
 // Forward declare root types
 namespace Zenject {

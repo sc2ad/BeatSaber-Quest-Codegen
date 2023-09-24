@@ -5,37 +5,40 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Zenject {
-class IProvider;
+class InjectContext;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Type;
+class Zenject__CachedOpenTypeProvider____c;
 }
 namespace Zenject {
-class CachedProvider;
+struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class CachedProvider;
+}
+namespace System {
+class Type;
+}
 namespace System {
 class Action;
 }
 namespace Zenject {
-class InjectContext;
+class InjectTypeInfo;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -101,8 +104,7 @@ static System::Func_2<Zenject::CachedProvider,int32_t> __get___9__8_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__CachedOpenTypeProvider____c() ;
+static Zenject::Zenject__CachedOpenTypeProvider____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d8c0ac size 0x8 virtual false final false
  void _ctor() ;
@@ -191,8 +193,7 @@ constexpr System::Collections::Generic::Dictionary_2<System::Type,Zenject::Cache
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "creator", ty: "Zenject::IProvider", modifiers: "", def_value: None }]
-explicit CachedOpenTypeProvider(Zenject::IProvider creator) ;
+static Zenject::CachedOpenTypeProvider New_ctor(Zenject::IProvider creator) ;
 
 /// @brief Method .ctor addr 0x2d8b8f4 size 0x10c virtual false final false
  void _ctor(Zenject::IProvider creator) ;

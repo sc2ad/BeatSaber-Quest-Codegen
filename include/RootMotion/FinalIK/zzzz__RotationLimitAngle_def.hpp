@@ -84,8 +84,7 @@ constexpr float_t __get_twistLimit() const;
 /// @brief Method LimitSwing addr 0x12034e4 size 0x324 virtual false final false
  UnityEngine::Quaternion LimitSwing(UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit RotationLimitAngle() ;
+static RootMotion::FinalIK::RotationLimitAngle New_ctor() ;
 
 /// @brief Method .ctor addr 0x1203808 size 0x10 virtual false final false
  void _ctor() ;

@@ -4,6 +4,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__BTSCharacterDataModel__AnimationClipWithId;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BTSCharacterDataModel__PrefabWithId;
+}
 namespace UnityEngine::AddressableAssets {
 class AssetReference;
 }
@@ -87,8 +93,7 @@ constexpr UnityEngine::AddressableAssets::AssetReference __get__prefabAssetRefer
 /// @brief Method get_prefabAssetReference addr 0x20a724c size 0x8 virtual false final false
  UnityEngine::AddressableAssets::AssetReference get_prefabAssetReference() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BTSCharacterDataModel__PrefabWithId() ;
+static GlobalNamespace::GlobalNamespace__BTSCharacterDataModel__PrefabWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a7254 size 0x8 virtual false final false
  void _ctor() ;
@@ -167,8 +172,7 @@ constexpr UnityEngine::AddressableAssets::AssetReference __get__animationClipAss
 /// @brief Method get_animationClipAssetReference addr 0x20a7264 size 0x8 virtual false final false
  UnityEngine::AddressableAssets::AssetReference get_animationClipAssetReference() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BTSCharacterDataModel__AnimationClipWithId() ;
+static GlobalNamespace::GlobalNamespace__BTSCharacterDataModel__AnimationClipWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a726c size 0x8 virtual false final false
  void _ctor() ;
@@ -251,8 +255,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BTSCharacterDataModel__Anim
 /// @brief Method get_animationClipsWithIds addr 0x20a7234 size 0x8 virtual false final false
  ::ArrayW<GlobalNamespace::GlobalNamespace__BTSCharacterDataModel__AnimationClipWithId> get_animationClipsWithIds() ;
 
-// Ctor Parameters []
-explicit BTSCharacterDataModel() ;
+static GlobalNamespace::BTSCharacterDataModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a723c size 0x8 virtual false final false
  void _ctor() ;

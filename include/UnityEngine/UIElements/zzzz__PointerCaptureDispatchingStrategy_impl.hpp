@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, evt, panel);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::PointerCaptureDispatchingStrategy::PointerCaptureDispatchingStrategy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PointerCaptureDispatchingStrategy>())) {}
+ UnityEngine::UIElements::PointerCaptureDispatchingStrategy UnityEngine::UIElements::PointerCaptureDispatchingStrategy::New_ctor()  {
+UnityEngine::UIElements::PointerCaptureDispatchingStrategy o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PointerCaptureDispatchingStrategy>())};
+return o;
+}
  void UnityEngine::UIElements::PointerCaptureDispatchingStrategy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PointerCaptureDispatchingStrategy>::get(),

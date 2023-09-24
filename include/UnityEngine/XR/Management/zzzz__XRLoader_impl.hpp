@@ -164,8 +164,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<UnityEngine::Rendering::GraphicsDeviceType>, false>(const_cast<void*>(instance), ___internal_method, buildingPlayer);
 }
-// Ctor Parameters []
- UnityEngine::XR::Management::XRLoader::XRLoader()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<XRLoader>())) {}
+ UnityEngine::XR::Management::XRLoader UnityEngine::XR::Management::XRLoader::New_ctor()  {
+UnityEngine::XR::Management::XRLoader o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::Management::XRLoader>())};
+return o;
+}
  void UnityEngine::XR::Management::XRLoader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::Management::XRLoader>::get(),

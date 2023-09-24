@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Crmf/zzzz__ProofOfPossessionSigningKeyBuilder_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoSigningKey_def.hpp"
+#include "Org/BouncyCastle/Crmf/zzzz__PKMacBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertRequest_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PKMacValue_def.hpp"
-#include "Org/BouncyCastle/Crmf/zzzz__PKMacBuilder_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoSigningKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__PKMacValue_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder._ctor
 template<>
 
@@ -116,8 +116,10 @@ constexpr void Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::__se
 constexpr Org::BouncyCastle::Asn1::Crmf::PKMacValue Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::__get__publicKeyMAC() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Crmf::PKMacValue, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "certRequest", ty: "Org::BouncyCastle::Asn1::Crmf::CertRequest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::ProofOfPossessionSigningKeyBuilder(Org::BouncyCastle::Asn1::Crmf::CertRequest certRequest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProofOfPossessionSigningKeyBuilder>(certRequest))) {}
+ Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::New_ctor(Org::BouncyCastle::Asn1::Crmf::CertRequest certRequest)  {
+Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder>(certRequest))};
+return o;
+}
  void Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::_ctor(Org::BouncyCastle::Asn1::Crmf::CertRequest certRequest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder>::get(),
@@ -127,8 +129,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certRequest);
 }
-// Ctor Parameters [CppParam { name: "pubKeyInfo", ty: "Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::ProofOfPossessionSigningKeyBuilder(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo pubKeyInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProofOfPossessionSigningKeyBuilder>(pubKeyInfo))) {}
+ Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::New_ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo pubKeyInfo)  {
+Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder>(pubKeyInfo))};
+return o;
+}
  void Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::_ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo pubKeyInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder>::get(),

@@ -4,8 +4,9 @@
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__Animation_def.hpp"
+#include "GlobalNamespace/zzzz__VFXController_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "UnityEngine/zzzz__Animation_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9._ctor
 template<>
 
@@ -150,8 +151,10 @@ constexpr void GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d
 constexpr float_t GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9::__get_duration() const {
 return ::cordl_internals::getInstanceField<float_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9::GlobalNamespace__VFXController___MainCoroutine_d__9(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VFXController___MainCoroutine_d__9>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9 GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9>::get(),
@@ -371,8 +374,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, deactivateAfterDuration, duration);
 }
-// Ctor Parameters []
- GlobalNamespace::VFXController::VFXController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VFXController>())) {}
+ GlobalNamespace::VFXController GlobalNamespace::VFXController::New_ctor()  {
+GlobalNamespace::VFXController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VFXController>())};
+return o;
+}
  void GlobalNamespace::VFXController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VFXController>::get(),

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::TubeLightIntensityTrack::TubeLightIntensityTrack()  : UnityEngine::Timeline::TrackAsset(THROW_UNLESS(::il2cpp_utils::New<TubeLightIntensityTrack>())) {}
+ GlobalNamespace::TubeLightIntensityTrack GlobalNamespace::TubeLightIntensityTrack::New_ctor()  {
+GlobalNamespace::TubeLightIntensityTrack o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TubeLightIntensityTrack>())};
+return o;
+}
  void GlobalNamespace::TubeLightIntensityTrack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TubeLightIntensityTrack>::get(),

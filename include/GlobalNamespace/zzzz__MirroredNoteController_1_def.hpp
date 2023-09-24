@@ -5,6 +5,12 @@
 namespace GlobalNamespace {
 class NoteControllerBase;
 }
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
 namespace GlobalNamespace {
 template<typename T>
 class ILazyCopyHashSet_1;
@@ -13,20 +19,14 @@ namespace GlobalNamespace {
 class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 namespace GlobalNamespace {
-template<typename T>
-class LazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class NoteData;
 }
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
+template<typename T>
+class LazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,7 +43,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4886)), TypeDefinitionIndex(TypeDefinitionIndex(4872))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4872)), TypeDefinitionIndex(TypeDefinitionIndex(4886))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4872), inst: 2 })
 // CS Name: MirroredNoteController`1
 class CORDL_TYPE MirroredNoteController_1<T> : public GlobalNamespace::NoteControllerBase {
@@ -174,8 +174,7 @@ constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNot
 /// @brief Method Hide addr 0x0 size 0xffffffffffffffff virtual false final false
  void Hide(bool hide) ;
 
-// Ctor Parameters []
-explicit MirroredNoteController_1() ;
+static GlobalNamespace::MirroredNoteController_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

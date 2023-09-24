@@ -3,15 +3,18 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace GlobalNamespace {
-class MissionHelpSO;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class MissionHelpSO;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -80,8 +83,7 @@ constexpr UnityEngine::GameObject __get_gameObject() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair() ;
+static GlobalNamespace::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair New_ctor() ;
 
 /// @brief Method .ctor addr 0x2172f34 size 0x8 virtual false final false
  void _ctor() ;
@@ -179,8 +181,7 @@ constexpr GlobalNamespace::MissionHelpSO __get__missionHelp() const;
 /// @brief Method OkButtonPressed addr 0x2172f0c size 0x20 virtual false final false
  void OkButtonPressed() ;
 
-// Ctor Parameters []
-explicit MissionHelpViewController() ;
+static GlobalNamespace::MissionHelpViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2172f2c size 0x8 virtual false final false
  void _ctor() ;

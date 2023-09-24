@@ -73,8 +73,7 @@ constexpr explicit FileSaveData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 /// @brief Method HasKey addr 0x1f7dd68 size 0xc virtual true final true
  bool HasKey(::StringW key) ;
 
-// Ctor Parameters []
-explicit FileSaveData() ;
+static GlobalNamespace::FileSaveData New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7dd74 size 0x8 virtual false final false
  void _ctor() ;

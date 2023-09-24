@@ -3,11 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Text::RegularExpressions {
+struct RegexOptions;
+}
+namespace System::Text::RegularExpressions {
 class Match;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
 }
 namespace System::Text::RegularExpressions {
 class RegexNode;
@@ -18,16 +28,6 @@ class StringBuilder;
 namespace System {
 template<typename T>
 class WeakReference_1;
-}
-namespace System::Text::RegularExpressions {
-struct RegexOptions;
-}
-namespace System::Text::RegularExpressions {
-class Regex;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -116,8 +116,7 @@ constexpr ::StringW __get__Pattern_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rep", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "concat", ty: "System::Text::RegularExpressions::RegexNode", modifiers: "", def_value: None }, CppParam { name: "_caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
-explicit RegexReplacement(::StringW rep, System::Text::RegularExpressions::RegexNode concat, System::Collections::Hashtable _caps) ;
+static System::Text::RegularExpressions::RegexReplacement New_ctor(::StringW rep, System::Text::RegularExpressions::RegexNode concat, System::Collections::Hashtable _caps) ;
 
 /// @brief Method .ctor addr 0x27d1668 size 0x4e8 virtual false final false
  void _ctor(::StringW rep, System::Text::RegularExpressions::RegexNode concat, System::Collections::Hashtable _caps) ;

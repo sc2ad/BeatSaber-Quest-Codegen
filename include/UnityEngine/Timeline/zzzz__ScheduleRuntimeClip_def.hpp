@@ -5,11 +5,11 @@
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace UnityEngine::Timeline {
-class TimelineClip;
-}
 namespace UnityEngine::Playables {
 struct FrameData;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -129,8 +129,7 @@ constexpr bool __get_m_Started() const;
 /// @brief Method get_playable addr 0x2acf868 size 0xc virtual false final false
  UnityEngine::Playables::Playable get_playable() ;
 
-// Ctor Parameters [CppParam { name: "clip", ty: "UnityEngine::Timeline::TimelineClip", modifiers: "", def_value: None }, CppParam { name: "clipPlayable", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: None }, CppParam { name: "parentMixer", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: None }, CppParam { name: "startDelay", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "finishTail", ty: "double_t", modifiers: "", def_value: None }]
-explicit ScheduleRuntimeClip(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail) ;
+static UnityEngine::Timeline::ScheduleRuntimeClip New_ctor(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail) ;
 
 /// @brief Method .ctor addr 0x2aca034 size 0x74 virtual false final false
  void _ctor(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail) ;

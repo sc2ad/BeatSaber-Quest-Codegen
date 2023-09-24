@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
 namespace GlobalNamespace {
 class ColorScheme;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 namespace GlobalNamespace {
 class ColorSchemeSO;
@@ -102,14 +102,12 @@ constexpr ::StringW __get__selectedColorSchemeId() const;
 /// @brief Method get_selectedColorSchemeId addr 0x221fa58 size 0x8 virtual false final false
  ::StringW get_selectedColorSchemeId() ;
 
-// Ctor Parameters [CppParam { name: "colorSchemes", ty: "::ArrayW<GlobalNamespace::ColorScheme>", modifiers: "", def_value: None }]
-explicit ColorSchemesSettings(::ArrayW<GlobalNamespace::ColorScheme> colorSchemes) ;
+static GlobalNamespace::ColorSchemesSettings New_ctor(::ArrayW<GlobalNamespace::ColorScheme> colorSchemes) ;
 
 /// @brief Method .ctor addr 0x221fa60 size 0x160 virtual false final false
  void _ctor(::ArrayW<GlobalNamespace::ColorScheme> colorSchemes) ;
 
-// Ctor Parameters [CppParam { name: "colorSchemeSOs", ty: "::ArrayW<GlobalNamespace::ColorSchemeSO>", modifiers: "", def_value: None }]
-explicit ColorSchemesSettings(::ArrayW<GlobalNamespace::ColorSchemeSO> colorSchemeSOs) ;
+static GlobalNamespace::ColorSchemesSettings New_ctor(::ArrayW<GlobalNamespace::ColorSchemeSO> colorSchemeSOs) ;
 
 /// @brief Method .ctor addr 0x221fbc0 size 0x20 virtual false final false
  void _ctor(::ArrayW<GlobalNamespace::ColorSchemeSO> colorSchemeSOs) ;

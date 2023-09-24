@@ -25,8 +25,10 @@ constexpr void UnityEngine::TextCore::Text::SpriteGlyph::__set_sprite(UnityEngin
 constexpr UnityEngine::Sprite UnityEngine::TextCore::Text::SpriteGlyph::__get_sprite() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Sprite, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::SpriteGlyph::SpriteGlyph()  : UnityEngine::TextCore::Glyph(THROW_UNLESS(::il2cpp_utils::New<SpriteGlyph>())) {}
+ UnityEngine::TextCore::Text::SpriteGlyph UnityEngine::TextCore::Text::SpriteGlyph::New_ctor()  {
+UnityEngine::TextCore::Text::SpriteGlyph o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::SpriteGlyph>())};
+return o;
+}
  void UnityEngine::TextCore::Text::SpriteGlyph::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::SpriteGlyph>::get(),

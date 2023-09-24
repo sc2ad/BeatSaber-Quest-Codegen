@@ -5,12 +5,6 @@
 namespace System::Runtime::Remoting {
 class ActivatedServiceTypeEntry;
 }
-namespace System::Runtime::Remoting {
-class ActivatedClientTypeEntry;
-}
-namespace System::Runtime::Remoting {
-class WellKnownServiceTypeEntry;
-}
 namespace System::Collections {
 class ArrayList;
 }
@@ -18,19 +12,25 @@ namespace System::Runtime::Remoting {
 class ChannelData;
 }
 namespace System::Runtime::Remoting {
-class WellKnownClientTypeEntry;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Runtime::Remoting {
-struct CustomErrorsModes;
+class ProviderData;
 }
 namespace System {
 class Type;
 }
 namespace System::Runtime::Remoting {
-class ProviderData;
+struct CustomErrorsModes;
+}
+namespace System::Runtime::Remoting {
+class WellKnownServiceTypeEntry;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Runtime::Remoting {
+class ActivatedClientTypeEntry;
+}
+namespace System::Runtime::Remoting {
+class WellKnownClientTypeEntry;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

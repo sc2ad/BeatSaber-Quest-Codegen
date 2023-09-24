@@ -7,14 +7,14 @@ namespace GlobalNamespace {
 class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
+}
+namespace GlobalNamespace {
 class MultiplayerController;
 }
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__MultiplayerController__State;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
@@ -143,8 +143,7 @@ constexpr GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlay
 /// @brief Method HandleFirstPlayerDidChange addr 0x20face4 size 0xf4 virtual false final false
  void HandleFirstPlayerDidChange(GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer firstPlayer) ;
 
-// Ctor Parameters []
-explicit MultiplayerLeadPlayerProvider() ;
+static GlobalNamespace::MultiplayerLeadPlayerProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x20fadd8 size 0x14 virtual false final false
  void _ctor() ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/zzzz__SocketAddress_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
 //  Writing Method size for method: System::Net::SocketAddress.get_Family
 template<>
@@ -241,8 +241,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint8_t, false>(const_cast<void*>(instance), ___internal_method, offset);
 }
-// Ctor Parameters [CppParam { name: "family", ty: "System::Net::Sockets::AddressFamily", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::SocketAddress::SocketAddress(System::Net::Sockets::AddressFamily family, int32_t size)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SocketAddress>(family, size))) {}
+ System::Net::SocketAddress System::Net::SocketAddress::New_ctor(System::Net::Sockets::AddressFamily family, int32_t size)  {
+System::Net::SocketAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::SocketAddress>(family, size))};
+return o;
+}
  void System::Net::SocketAddress::_ctor(System::Net::Sockets::AddressFamily family, int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::SocketAddress>::get(),
@@ -252,8 +254,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, family, size);
 }
-// Ctor Parameters [CppParam { name: "ipAddress", ty: "System::Net::IPAddress", modifiers: "", def_value: None }]
- System::Net::SocketAddress::SocketAddress(System::Net::IPAddress ipAddress)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SocketAddress>(ipAddress))) {}
+ System::Net::SocketAddress System::Net::SocketAddress::New_ctor(System::Net::IPAddress ipAddress)  {
+System::Net::SocketAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::SocketAddress>(ipAddress))};
+return o;
+}
  void System::Net::SocketAddress::_ctor(System::Net::IPAddress ipAddress)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::SocketAddress>::get(),
@@ -263,8 +267,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ipAddress);
 }
-// Ctor Parameters [CppParam { name: "ipaddress", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::SocketAddress::SocketAddress(System::Net::IPAddress ipaddress, int32_t port)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SocketAddress>(ipaddress, port))) {}
+ System::Net::SocketAddress System::Net::SocketAddress::New_ctor(System::Net::IPAddress ipaddress, int32_t port)  {
+System::Net::SocketAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::SocketAddress>(ipaddress, port))};
+return o;
+}
  void System::Net::SocketAddress::_ctor(System::Net::IPAddress ipaddress, int32_t port)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::SocketAddress>::get(),

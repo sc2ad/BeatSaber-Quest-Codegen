@@ -75,8 +75,7 @@ static constexpr int32_t  idea{7};
 
 // Methods
 
-// Ctor Parameters []
-explicit BulkCipherAlgorithm() ;
+static Org::BouncyCastle::Crypto::Tls::BulkCipherAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0xece1f0 size 0x8 virtual false final false
  void _ctor() ;

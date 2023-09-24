@@ -3,21 +3,24 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
 namespace GlobalNamespace {
-class ShaderWarmupSceneSetupData;
+class GlobalNamespace__ShaderWarmupSceneStart___Start_d__2;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
+}
+namespace GlobalNamespace {
+class ShaderWarmupSceneSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +108,7 @@ constexpr GlobalNamespace::ShaderWarmupSceneStart __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ShaderWarmupSceneStart___Start_d__2(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__ShaderWarmupSceneStart___Start_d__2 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x21d3cfc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -192,8 +194,7 @@ constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 /// @brief Method Start addr 0x21d3c94 size 0x68 virtual false final false
  System::Collections::IEnumerator Start() ;
 
-// Ctor Parameters []
-explicit ShaderWarmupSceneStart() ;
+static GlobalNamespace::ShaderWarmupSceneStart New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3d24 size 0x8 virtual false final false
  void _ctor() ;

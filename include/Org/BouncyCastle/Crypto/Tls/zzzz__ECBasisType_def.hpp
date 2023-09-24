@@ -60,8 +60,7 @@ static constexpr uint8_t  ec_basis_pentanomial{2u};
 /// @brief Method IsValid addr 0xf041e8 size 0x14 virtual false final false
 static bool IsValid(uint8_t ecBasisType) ;
 
-// Ctor Parameters []
-explicit ECBasisType() ;
+static Org::BouncyCastle::Crypto::Tls::ECBasisType New_ctor() ;
 
 /// @brief Method .ctor addr 0xf041fc size 0x8 virtual false final false
  void _ctor() ;

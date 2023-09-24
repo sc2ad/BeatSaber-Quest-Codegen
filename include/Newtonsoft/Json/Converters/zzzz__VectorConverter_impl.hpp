@@ -2,13 +2,13 @@
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__VectorConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::VectorConverter.get_EnableVector2
 template<>
 
@@ -354,8 +354,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::VectorConverter::VectorConverter()  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<VectorConverter>())) {}
+ Newtonsoft::Json::Converters::VectorConverter Newtonsoft::Json::Converters::VectorConverter::New_ctor()  {
+Newtonsoft::Json::Converters::VectorConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::VectorConverter>())};
+return o;
+}
  void Newtonsoft::Json::Converters::VectorConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::VectorConverter>::get(),
@@ -365,8 +367,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "enableVector2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableVector3", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableVector4", ty: "bool", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::VectorConverter::VectorConverter(bool enableVector2, bool enableVector3, bool enableVector4)  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<VectorConverter>(enableVector2, enableVector3, enableVector4))) {}
+ Newtonsoft::Json::Converters::VectorConverter Newtonsoft::Json::Converters::VectorConverter::New_ctor(bool enableVector2, bool enableVector3, bool enableVector4)  {
+Newtonsoft::Json::Converters::VectorConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::VectorConverter>(enableVector2, enableVector3, enableVector4))};
+return o;
+}
  void Newtonsoft::Json::Converters::VectorConverter::_ctor(bool enableVector2, bool enableVector3, bool enableVector4)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::VectorConverter>::get(),

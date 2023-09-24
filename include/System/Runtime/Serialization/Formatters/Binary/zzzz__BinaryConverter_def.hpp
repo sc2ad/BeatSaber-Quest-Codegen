@@ -4,20 +4,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectReader;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class WriteObjectInfo;
@@ -26,10 +14,22 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
+struct BinaryTypeEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
+struct InternalPrimitiveTypeE;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryParser;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryAssemblyInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectReader;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

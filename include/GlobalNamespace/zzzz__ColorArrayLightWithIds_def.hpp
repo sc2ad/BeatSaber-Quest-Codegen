@@ -4,18 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine {
+struct Vector4;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LightWithIds__LightWithId;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__LightWithIds__LightWithId;
-}
-namespace UnityEngine {
-struct Vector4;
 }
 namespace UnityEngine {
 struct Color;
@@ -94,8 +97,7 @@ constexpr System::Action_2<int32_t,UnityEngine::Color> __get_didSetColorEvent() 
 /// @brief Method remove_didSetColorEvent addr 0x1f9c9f4 size 0xb0 virtual false final false
  void remove_didSetColorEvent(System::Action_2<int32_t,UnityEngine::Color> value) ;
 
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId(int32_t index, int32_t lightId) ;
+static GlobalNamespace::GlobalNamespace__ColorArrayLightWithIds__ColorArrayLightWithId New_ctor(int32_t index, int32_t lightId) ;
 
 /// @brief Method .ctor addr 0x1f9cab4 size 0x30 virtual false final false
  void _ctor(int32_t index, int32_t lightId) ;
@@ -208,8 +210,7 @@ constexpr ::ArrayW<UnityEngine::Vector4> __get__colorsArray() const;
 /// @brief Method UnregisterArrayFromColorChanges addr 0x1f9c794 size 0xd4 virtual false final false
  void UnregisterArrayFromColorChanges() ;
 
-// Ctor Parameters []
-explicit ColorArrayLightWithIds() ;
+static GlobalNamespace::ColorArrayLightWithIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9caa4 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,10 +5,10 @@ namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class Vector2Control;
 }
 // Forward declare root types
 namespace Unity::XR::GoogleVr {
@@ -219,8 +219,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector3Control __get__deviceAccele
 /// @brief Method FinishSetup addr 0x28a3280 size 0x24c virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit DaydreamController() ;
+static Unity::XR::GoogleVr::DaydreamController New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a34cc size 0x8 virtual false final false
  void _ctor() ;

@@ -95,14 +95,12 @@ constexpr int32_t __get_r() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ki", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "fixedInputDataCounterSuffix", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "r", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KdfCounterParameters(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputDataCounterSuffix, int32_t r) ;
+static Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters New_ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputDataCounterSuffix, int32_t r) ;
 
 /// @brief Method .ctor addr 0xea9c14 size 0x10 virtual false final false
  void _ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputDataCounterSuffix, int32_t r) ;
 
-// Ctor Parameters [CppParam { name: "ki", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "fixedInputDataCounterPrefix", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "fixedInputDataCounterSuffix", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "r", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KdfCounterParameters(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputDataCounterPrefix, ::ArrayW<uint8_t> fixedInputDataCounterSuffix, int32_t r) ;
+static Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters New_ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputDataCounterPrefix, ::ArrayW<uint8_t> fixedInputDataCounterSuffix, int32_t r) ;
 
 /// @brief Method .ctor addr 0xea9c24 size 0x190 virtual false final false
  void _ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputDataCounterPrefix, ::ArrayW<uint8_t> fixedInputDataCounterSuffix, int32_t r) ;

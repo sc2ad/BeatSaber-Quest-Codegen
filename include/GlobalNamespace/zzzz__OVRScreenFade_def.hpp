@@ -4,27 +4,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System {
+class IDisposable;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRScreenFade___Fade_d__25;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-class Material;
+class MeshFilter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -130,8 +133,7 @@ constexpr float_t __get__elapsedTime_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRScreenFade___Fade_d__25(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRScreenFade___Fade_d__25 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x26310d8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -320,8 +322,7 @@ static void set_instance(GlobalNamespace::OVRScreenFade value) ;
 /// @brief Method SetMaterialAlpha addr 0x2630fc8 size 0x108 virtual false final false
  void SetMaterialAlpha() ;
 
-// Ctor Parameters []
-explicit OVRScreenFade() ;
+static GlobalNamespace::OVRScreenFade New_ctor() ;
 
 /// @brief Method .ctor addr 0x2631100 size 0x2c virtual false final false
  void _ctor() ;

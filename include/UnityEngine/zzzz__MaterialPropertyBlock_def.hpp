@@ -7,20 +7,20 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 class Texture;
 }
-namespace UnityEngine {
-struct Vector4;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -86,8 +86,7 @@ constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
 /// @brief Method SetMatrixArray addr 0x2b413c0 size 0x118 virtual false final false
  void SetMatrixArray(int32_t name, ::ArrayW<UnityEngine::Matrix4x4> values, int32_t count) ;
 
-// Ctor Parameters []
-explicit MaterialPropertyBlock() ;
+static UnityEngine::MaterialPropertyBlock New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b41534 size 0x48 virtual false final false
  void _ctor() ;

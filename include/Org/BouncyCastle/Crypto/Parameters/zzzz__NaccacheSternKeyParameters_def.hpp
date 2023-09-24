@@ -81,8 +81,7 @@ constexpr int32_t __get_lowerSigmaBound() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "privateKey", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "lowerSigmaBound", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NaccacheSternKeyParameters(bool privateKey, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound) ;
+static Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters New_ctor(bool privateKey, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound) ;
 
 /// @brief Method .ctor addr 0xeaac08 size 0x40 virtual false final false
  void _ctor(bool privateKey, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound) ;

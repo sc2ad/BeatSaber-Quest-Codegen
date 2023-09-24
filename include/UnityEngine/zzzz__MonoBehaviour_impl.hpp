@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: UnityEngine::MonoBehaviour.IsInvoking
 template<>
 
@@ -749,8 +749,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::MonoBehaviour::MonoBehaviour()  : UnityEngine::Behaviour(THROW_UNLESS(::il2cpp_utils::New<MonoBehaviour>())) {}
+ UnityEngine::MonoBehaviour UnityEngine::MonoBehaviour::New_ctor()  {
+UnityEngine::MonoBehaviour o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::MonoBehaviour>())};
+return o;
+}
  void UnityEngine::MonoBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::MonoBehaviour>::get(),

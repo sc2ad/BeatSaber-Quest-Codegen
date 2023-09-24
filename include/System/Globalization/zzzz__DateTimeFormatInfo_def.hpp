@@ -5,32 +5,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Globalization {
+class Calendar;
+}
 namespace System {
 class IFormatProvider;
 }
 namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Globalization {
 struct CalendarId;
+}
+namespace System {
+struct DayOfWeek;
 }
 namespace System::Globalization {
 class CultureData;
 }
-namespace System {
-class Type;
-}
 namespace System::Globalization {
-struct MonthNameStyles;
-}
-namespace System {
-struct TokenType;
-}
-namespace System {
-struct __DTString;
+class CompareInfo;
 }
 namespace System::Globalization {
 struct DateTimeFormatFlags;
-}
-namespace System::Globalization {
-class Calendar;
 }
 namespace System {
 class ICloneable;
@@ -38,14 +35,20 @@ class ICloneable;
 namespace System::Globalization {
 struct DateTimeStyles;
 }
-namespace System::Globalization {
-class CompareInfo;
+namespace System {
+struct __DTString;
 }
 namespace System {
-struct DayOfWeek;
+class Type;
+}
+namespace System {
+struct TokenType;
 }
 namespace System::Globalization {
-class CultureInfo;
+class System__Globalization__DateTimeFormatInfo__TokenHashValue;
+}
+namespace System::Globalization {
+struct MonthNameStyles;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -117,8 +120,7 @@ constexpr int32_t __get_tokenValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tokenString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tokenType", ty: "System::TokenType", modifiers: "", def_value: None }, CppParam { name: "tokenValue", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Globalization__DateTimeFormatInfo__TokenHashValue(::StringW tokenString, System::TokenType tokenType, int32_t tokenValue) ;
+static System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue New_ctor(::StringW tokenString, System::TokenType tokenType, int32_t tokenValue) ;
 
 /// @brief Method .ctor addr 0x23e3e58 size 0x3c virtual false final false
  void _ctor(::StringW tokenString, System::TokenType tokenType, int32_t tokenValue) ;
@@ -708,14 +710,12 @@ static System::Globalization::DateTimeFormatInfo __declspec(property(get=get_Cur
 /// @brief Method internalGetMonthNamesCore addr 0x23de5c8 size 0x4c virtual false final false
  ::ArrayW<::StringW> internalGetMonthNamesCore() ;
 
-// Ctor Parameters []
-explicit DateTimeFormatInfo() ;
+static System::Globalization::DateTimeFormatInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x23de614 size 0xd0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "cultureData", ty: "System::Globalization::CultureData", modifiers: "", def_value: None }, CppParam { name: "cal", ty: "System::Globalization::Calendar", modifiers: "", def_value: None }]
-explicit DateTimeFormatInfo(System::Globalization::CultureData cultureData, System::Globalization::Calendar cal) ;
+static System::Globalization::DateTimeFormatInfo New_ctor(System::Globalization::CultureData cultureData, System::Globalization::Calendar cal) ;
 
 /// @brief Method .ctor addr 0x23de8d0 size 0x44 virtual false final false
  void _ctor(System::Globalization::CultureData cultureData, System::Globalization::Calendar cal) ;

@@ -1,13 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__SP800SecureRandomBuilder_def.hpp"
-#include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__ISP80090Drbg_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__IDrbgProvider_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__ISP80090Drbg_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/Prng/zzzz__SP800SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/Prng/zzzz__SP800SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/Prng/zzzz__SP800SecureRandomBuilder_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySourceProvider_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider._ctor
 template<>
@@ -71,8 +72,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng_
 constexpr int32_t Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider::__get_mSecurityStrength() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider(Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider>(digest, nonce, personalizationString, securityStrength))) {}
+ Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider::New_ctor(Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength)  {
+Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider>(digest, nonce, personalizationString, securityStrength))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider::_ctor(Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider>::get(),
@@ -153,8 +156,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng_
 constexpr int32_t Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider::__get_mSecurityStrength() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hMac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider(Org::BouncyCastle::Crypto::IMac hMac, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider>(hMac, nonce, personalizationString, securityStrength))) {}
+ Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider::New_ctor(Org::BouncyCastle::Crypto::IMac hMac, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength)  {
+Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider>(hMac, nonce, personalizationString, securityStrength))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider::_ctor(Org::BouncyCastle::Crypto::IMac hMac, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider>::get(),
@@ -241,8 +246,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng_
 constexpr int32_t Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider::__get_mSecurityStrength() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "blockCipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "keySizeInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider(Org::BouncyCastle::Crypto::IBlockCipher blockCipher, int32_t keySizeInBits, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider>(blockCipher, keySizeInBits, nonce, personalizationString, securityStrength))) {}
+ Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher blockCipher, int32_t keySizeInBits, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength)  {
+Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider>(blockCipher, keySizeInBits, nonce, personalizationString, securityStrength))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider::_ctor(Org::BouncyCastle::Crypto::IBlockCipher blockCipher, int32_t keySizeInBits, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider>::get(),
@@ -444,8 +451,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::__set_
 constexpr int32_t Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::__get_mEntropyBitsRequired() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::SP800SecureRandomBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SP800SecureRandomBuilder>())) {}
+ Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::New_ctor()  {
+Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder>::get(),
@@ -455,8 +464,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "entropySource", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::SP800SecureRandomBuilder(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SP800SecureRandomBuilder>(entropySource, predictionResistant))) {}
+ Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::New_ctor(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant)  {
+Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder>(entropySource, predictionResistant))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::_ctor(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder>::get(),
@@ -466,8 +477,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, entropySource, predictionResistant);
 }
-// Ctor Parameters [CppParam { name: "entropySourceProvider", ty: "Org::BouncyCastle::Crypto::IEntropySourceProvider", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::SP800SecureRandomBuilder(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SP800SecureRandomBuilder>(entropySourceProvider))) {}
+ Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::New_ctor(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider)  {
+Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder>(entropySourceProvider))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::_ctor(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder>::get(),

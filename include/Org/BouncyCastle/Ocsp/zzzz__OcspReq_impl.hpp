@@ -1,16 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__OcspReq_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__Req_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspRequest_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspRequest_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__Req_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::OcspReq._ctor
 template<>
 
@@ -323,8 +323,10 @@ constexpr void Org::BouncyCastle::Ocsp::OcspReq::__set_req(Org::BouncyCastle::As
 constexpr Org::BouncyCastle::Asn1::Ocsp::OcspRequest Org::BouncyCastle::Ocsp::OcspReq::__get_req() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Ocsp::OcspRequest, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "req", ty: "Org::BouncyCastle::Asn1::Ocsp::OcspRequest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::OcspReq::OcspReq(Org::BouncyCastle::Asn1::Ocsp::OcspRequest req)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<OcspReq>(req))) {}
+ Org::BouncyCastle::Ocsp::OcspReq Org::BouncyCastle::Ocsp::OcspReq::New_ctor(Org::BouncyCastle::Asn1::Ocsp::OcspRequest req)  {
+Org::BouncyCastle::Ocsp::OcspReq o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspReq>(req))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspReq::_ctor(Org::BouncyCastle::Asn1::Ocsp::OcspRequest req)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspReq>::get(),
@@ -334,8 +336,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, req);
 }
-// Ctor Parameters [CppParam { name: "req", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::OcspReq::OcspReq(::ArrayW<uint8_t> req)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<OcspReq>(req))) {}
+ Org::BouncyCastle::Ocsp::OcspReq Org::BouncyCastle::Ocsp::OcspReq::New_ctor(::ArrayW<uint8_t> req)  {
+Org::BouncyCastle::Ocsp::OcspReq o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspReq>(req))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspReq::_ctor(::ArrayW<uint8_t> req)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspReq>::get(),
@@ -345,8 +349,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, req);
 }
-// Ctor Parameters [CppParam { name: "inStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::OcspReq::OcspReq(System::IO::Stream inStr)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<OcspReq>(inStr))) {}
+ Org::BouncyCastle::Ocsp::OcspReq Org::BouncyCastle::Ocsp::OcspReq::New_ctor(System::IO::Stream inStr)  {
+Org::BouncyCastle::Ocsp::OcspReq o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspReq>(inStr))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspReq::_ctor(System::IO::Stream inStr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspReq>::get(),
@@ -356,8 +362,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inStr);
 }
-// Ctor Parameters [CppParam { name: "aIn", ty: "Org::BouncyCastle::Asn1::Asn1InputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::OcspReq::OcspReq(Org::BouncyCastle::Asn1::Asn1InputStream aIn)  : Org::BouncyCastle::X509::X509ExtensionBase(THROW_UNLESS(::il2cpp_utils::New<OcspReq>(aIn))) {}
+ Org::BouncyCastle::Ocsp::OcspReq Org::BouncyCastle::Ocsp::OcspReq::New_ctor(Org::BouncyCastle::Asn1::Asn1InputStream aIn)  {
+Org::BouncyCastle::Ocsp::OcspReq o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspReq>(aIn))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspReq::_ctor(Org::BouncyCastle::Asn1::Asn1InputStream aIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspReq>::get(),

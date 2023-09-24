@@ -75,8 +75,10 @@ constexpr void JetBrains::Annotations::MustUseReturnValueAttribute::__set__Justi
 constexpr ::StringW JetBrains::Annotations::MustUseReturnValueAttribute::__get__Justification_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- JetBrains::Annotations::MustUseReturnValueAttribute::MustUseReturnValueAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MustUseReturnValueAttribute>())) {}
+ JetBrains::Annotations::MustUseReturnValueAttribute JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor()  {
+JetBrains::Annotations::MustUseReturnValueAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::MustUseReturnValueAttribute>())};
+return o;
+}
  void JetBrains::Annotations::MustUseReturnValueAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::MustUseReturnValueAttribute>::get(),
@@ -86,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "justification", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::MustUseReturnValueAttribute::MustUseReturnValueAttribute(::StringW justification)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MustUseReturnValueAttribute>(justification))) {}
+ JetBrains::Annotations::MustUseReturnValueAttribute JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor(::StringW justification)  {
+JetBrains::Annotations::MustUseReturnValueAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::MustUseReturnValueAttribute>(justification))};
+return o;
+}
  void JetBrains::Annotations::MustUseReturnValueAttribute::_ctor(::StringW justification)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::MustUseReturnValueAttribute>::get(),

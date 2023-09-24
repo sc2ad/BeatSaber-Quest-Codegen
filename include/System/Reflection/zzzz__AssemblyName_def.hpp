@@ -5,53 +5,53 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Reflection {
-struct AssemblyNameFlags;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Runtime::InteropServices {
-class _AssemblyName;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Configuration::Assemblies {
-struct AssemblyHashAlgorithm;
-}
-namespace System::Configuration::Assemblies {
-struct AssemblyVersionCompatibility;
-}
-namespace System {
-class Version;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Reflection {
-struct ProcessorArchitecture;
-}
 namespace Mono {
 struct MonoAssemblyName;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Reflection {
-class Assembly;
+namespace System {
+class Version;
 }
 namespace System::Reflection {
 struct AssemblyContentType;
 }
 namespace System::Reflection {
+struct ProcessorArchitecture;
+}
+namespace System {
+class ICloneable;
+}
+namespace System::Configuration::Assemblies {
+struct AssemblyHashAlgorithm;
+}
+namespace System::Reflection {
+struct AssemblyNameFlags;
+}
+namespace System::Configuration::Assemblies {
+struct AssemblyVersionCompatibility;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::InteropServices {
+class _AssemblyName;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Reflection {
 class StrongNameKeyPair;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -225,8 +225,7 @@ constexpr System::Reflection::AssemblyContentType __get_contentType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AssemblyName() ;
+static System::Reflection::AssemblyName New_ctor() ;
 
 /// @brief Method .ctor addr 0x238224c size 0x20 virtual false final false
  void _ctor() ;
@@ -234,14 +233,12 @@ explicit AssemblyName() ;
 /// @brief Method ParseAssemblyName addr 0x238226c size 0x4 virtual false final false
 static bool ParseAssemblyName(::cordl_internals::intptr_t name, ByRef<Mono::MonoAssemblyName> aname, ByRef<bool> is_version_definited, ByRef<bool> is_token_defined) ;
 
-// Ctor Parameters [CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyName(::StringW assemblyName) ;
+static System::Reflection::AssemblyName New_ctor(::StringW assemblyName) ;
 
 /// @brief Method .ctor addr 0x2373e30 size 0x298 virtual false final false
  void _ctor(::StringW assemblyName) ;
 
-// Ctor Parameters [CppParam { name: "si", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "sc", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit AssemblyName(System::Runtime::Serialization::SerializationInfo si, System::Runtime::Serialization::StreamingContext sc) ;
+static System::Reflection::AssemblyName New_ctor(System::Runtime::Serialization::SerializationInfo si, System::Runtime::Serialization::StreamingContext sc) ;
 
 /// @brief Method .ctor addr 0x2382510 size 0x508 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo si, System::Runtime::Serialization::StreamingContext sc) ;

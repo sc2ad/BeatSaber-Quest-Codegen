@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class DerSequence;
+}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerSet;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerSequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DefiniteLengthInputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerSet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -61,14 +61,12 @@ constexpr explicit LazyAsn1InputStream(void* ptr) noexcept : Org::BouncyCastle::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit LazyAsn1InputStream(::ArrayW<uint8_t> input) ;
+static Org::BouncyCastle::Asn1::LazyAsn1InputStream New_ctor(::ArrayW<uint8_t> input) ;
 
 /// @brief Method .ctor addr 0x113b1e0 size 0x4 virtual false final false
  void _ctor(::ArrayW<uint8_t> input) ;
 
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit LazyAsn1InputStream(System::IO::Stream inputStream) ;
+static Org::BouncyCastle::Asn1::LazyAsn1InputStream New_ctor(System::IO::Stream inputStream) ;
 
 /// @brief Method .ctor addr 0x113b1e4 size 0x30 virtual false final false
  void _ctor(System::IO::Stream inputStream) ;

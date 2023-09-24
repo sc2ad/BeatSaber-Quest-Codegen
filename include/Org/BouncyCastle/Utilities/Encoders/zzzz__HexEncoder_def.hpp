@@ -77,8 +77,7 @@ constexpr ::ArrayW<uint8_t> __get_decodingTable() const;
 /// @brief Method InitialiseDecodingTable addr 0x10d26dc size 0x164 virtual false final false
  void InitialiseDecodingTable() ;
 
-// Ctor Parameters []
-explicit HexEncoder() ;
+static Org::BouncyCastle::Utilities::Encoders::HexEncoder New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d2640 size 0x9c virtual false final false
  void _ctor() ;

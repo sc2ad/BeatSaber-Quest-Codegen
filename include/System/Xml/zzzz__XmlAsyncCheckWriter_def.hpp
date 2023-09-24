@@ -79,8 +79,7 @@ constexpr System::Threading::Tasks::Task __get_lastTask() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::Xml::XmlWriter", modifiers: "", def_value: None }]
-explicit XmlAsyncCheckWriter(System::Xml::XmlWriter writer) ;
+static System::Xml::XmlAsyncCheckWriter New_ctor(System::Xml::XmlWriter writer) ;
 
 /// @brief Method .ctor addr 0x26c22f4 size 0x7c virtual false final false
  void _ctor(System::Xml::XmlWriter writer) ;

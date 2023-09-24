@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IBeatmapObjectSpawnController.get_noteLinesCount
 template<>
 

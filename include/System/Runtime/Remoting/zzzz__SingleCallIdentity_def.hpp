@@ -5,11 +5,11 @@
 namespace System::Runtime::Remoting::Contexts {
 class Context;
 }
-namespace System {
-class Type;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
@@ -63,8 +63,7 @@ constexpr explicit SingleCallIdentity(void* ptr) noexcept : System::Runtime::Rem
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Remoting::Contexts::Context", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit SingleCallIdentity(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType) ;
+static System::Runtime::Remoting::SingleCallIdentity New_ctor(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType) ;
 
 /// @brief Method .ctor addr 0x2327d20 size 0x30 virtual false final false
  void _ctor(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType) ;

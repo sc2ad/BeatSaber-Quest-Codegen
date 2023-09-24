@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+struct BinaryHeaderEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
+class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
@@ -98,14 +98,12 @@ constexpr int32_t __get_assemId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BinaryObjectWithMap() ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap New_ctor() ;
 
 /// @brief Method .ctor addr 0x23562e0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "binaryHeaderEnum", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum", modifiers: "", def_value: None }]
-explicit BinaryObjectWithMap(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) ;
 
 /// @brief Method .ctor addr 0x23562e8 size 0x28 virtual false final false
  void _ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) ;

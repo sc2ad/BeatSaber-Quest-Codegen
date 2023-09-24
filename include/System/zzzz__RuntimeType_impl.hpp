@@ -3,43 +3,44 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Reflection/zzzz__EventInfo_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/Reflection/zzzz__RuntimeMethodInfo_def.hpp"
-#include "System/zzzz__RuntimeTypeHandle_def.hpp"
+#include "System/Reflection/zzzz__RuntimePropertyInfo_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Threading/zzzz__StackCrawlMark_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Reflection/zzzz__RuntimeConstructorInfo_def.hpp"
+#include "System/zzzz__TypeCode_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Reflection/zzzz__EventInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "System/Reflection/zzzz__RuntimeAssembly_def.hpp"
+#include "System/Reflection/zzzz__RuntimeEventInfo_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/Reflection/zzzz__RuntimeMethodInfo_def.hpp"
+#include "System/Reflection/zzzz__ParameterModifier_def.hpp"
+#include "System/zzzz__RuntimeTypeHandle_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Reflection/zzzz__RuntimeFieldInfo_def.hpp"
 #include "System/zzzz__MonoTypeInfo_def.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
-#include "System/Reflection/zzzz__RuntimeEventInfo_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
-#include "System/Reflection/zzzz__RuntimeConstructorInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__TypeNameKind_def.hpp"
+#include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
+#include "System/Reflection/zzzz__TypeAttributes_def.hpp"
+#include "System/Reflection/zzzz__RuntimeModule_def.hpp"
+#include "System/Reflection/zzzz__CallingConventions_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "System/Reflection/zzzz__ParameterModifier_def.hpp"
-#include "System/Reflection/zzzz__RuntimeModule_def.hpp"
-#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/Reflection/zzzz__RuntimeFieldInfo_def.hpp"
-#include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
-#include "System/zzzz__TypeCode_def.hpp"
-#include "System/zzzz__TypeNameKind_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
-#include "System/Reflection/zzzz__CallingConventions_def.hpp"
-#include "System/Reflection/zzzz__RuntimePropertyInfo_def.hpp"
-#include "System/Reflection/zzzz__TypeAttributes_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::System__RuntimeType__MemberListType::System__RuntimeType__MemberListType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -2684,8 +2685,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, methodBase, methodFlags, bindingFlags, callConv, argumentTypes);
 }
-// Ctor Parameters []
- System::RuntimeType::RuntimeType()  : System::Reflection::TypeInfo(THROW_UNLESS(::il2cpp_utils::New<RuntimeType>())) {}
+ System::RuntimeType System::RuntimeType::New_ctor()  {
+System::RuntimeType o{THROW_UNLESS(::il2cpp_utils::New<System::RuntimeType>())};
+return o;
+}
  void System::RuntimeType::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::RuntimeType>::get(),
@@ -3856,186 +3859,84 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::System__RuntimeType__ListBuilder_1<System::Reflection::MethodInfo>, false>(const_cast<void*>(instance), ___internal_method, name, genericParameterCount, bindingAttr, callConv, types, allowPrefixLookup);
 }
-//  Writing Method size for method: System::System__RuntimeType__ListBuilder_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::System__RuntimeType__ListBuilder_1::*)(int32_t)>(&System::System__RuntimeType__ListBuilder_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::System__RuntimeType__ListBuilder_1.get_Item
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<T (System::System__RuntimeType__ListBuilder_1::*)(int32_t)>(&System::System__RuntimeType__ListBuilder_1::get_Item)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
-                            "get_Item",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::System__RuntimeType__ListBuilder_1.ToArray
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<T> (System::System__RuntimeType__ListBuilder_1::*)()>(&System::System__RuntimeType__ListBuilder_1::ToArray)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
-                            "ToArray",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::System__RuntimeType__ListBuilder_1.CopyTo
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::System__RuntimeType__ListBuilder_1::*)(::ArrayW<::bs_hook::Il2CppWrapperType>, int32_t)>(&System::System__RuntimeType__ListBuilder_1::CopyTo)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
-                            "CopyTo",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::bs_hook::Il2CppWrapperType>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::System__RuntimeType__ListBuilder_1.get_Count
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::System__RuntimeType__ListBuilder_1::*)()>(&System::System__RuntimeType__ListBuilder_1::get_Count)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
-                            "get_Count",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::System__RuntimeType__ListBuilder_1.Add
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::System__RuntimeType__ListBuilder_1::*)(T)>(&System::System__RuntimeType__ListBuilder_1::Add)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
-                            "Add",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
 // Ctor Parameters [CppParam { name: "_items", ty: "::ArrayW<T>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "_item", ty: "T", modifiers: "", def_value: Some("csnull") }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_capacity", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr System::System__RuntimeType__ListBuilder_1::System__RuntimeType__ListBuilder_1(::ArrayW<T> _items, T _item, int32_t _count, int32_t _capacity) noexcept : ::bs_hook::ValueTypeWrapper() {this->_items = _items;
+constexpr System::System__RuntimeType__ListBuilder_1<T>::System__RuntimeType__ListBuilder_1(::ArrayW<T> _items, T _item, int32_t _count, int32_t _capacity) noexcept : ::bs_hook::ValueTypeWrapper() {this->_items = _items;
 this->_item = _item;
 this->_count = _count;
 this->_capacity = _capacity;
 }
-constexpr void System::System__RuntimeType__ListBuilder_1::__set__items(::ArrayW<T> value)  {
+constexpr void System::System__RuntimeType__ListBuilder_1<T>::__set__items(::ArrayW<T> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<T>, 0x0>(this->__instance, std::forward<::ArrayW<T>>(value));
 }
-constexpr ::ArrayW<T> System::System__RuntimeType__ListBuilder_1::__get__items() const {
+constexpr ::ArrayW<T> System::System__RuntimeType__ListBuilder_1<T>::__get__items() const {
 return ::cordl_internals::getInstanceField<::ArrayW<T>, 0x0>(this->__instance);
 }
-constexpr void System::System__RuntimeType__ListBuilder_1::__set__item(T value)  {
+constexpr void System::System__RuntimeType__ListBuilder_1<T>::__set__item(T value)  {
 ::cordl_internals::setInstanceField<T, 0x8>(this->__instance, std::forward<T>(value));
 }
-constexpr T System::System__RuntimeType__ListBuilder_1::__get__item() const {
+constexpr T System::System__RuntimeType__ListBuilder_1<T>::__get__item() const {
 return ::cordl_internals::getInstanceField<T, 0x8>(this->__instance);
 }
-constexpr void System::System__RuntimeType__ListBuilder_1::__set__count(int32_t value)  {
+constexpr void System::System__RuntimeType__ListBuilder_1<T>::__set__count(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x10>(this->__instance, std::forward<int32_t>(value));
 }
-constexpr int32_t System::System__RuntimeType__ListBuilder_1::__get__count() const {
+constexpr int32_t System::System__RuntimeType__ListBuilder_1<T>::__get__count() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->__instance);
 }
-constexpr void System::System__RuntimeType__ListBuilder_1::__set__capacity(int32_t value)  {
+constexpr void System::System__RuntimeType__ListBuilder_1<T>::__set__capacity(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x18>(this->__instance, std::forward<int32_t>(value));
 }
-constexpr int32_t System::System__RuntimeType__ListBuilder_1::__get__capacity() const {
+constexpr int32_t System::System__RuntimeType__ListBuilder_1<T>::__get__capacity() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->__instance);
 }
- void System::System__RuntimeType__ListBuilder_1::_ctor(int32_t capacity)  {
+ void System::System__RuntimeType__ListBuilder_1<T>::_ctor(int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, capacity);
 }
- T System::System__RuntimeType__ListBuilder_1::get_Item(int32_t index)  {
+ T System::System__RuntimeType__ListBuilder_1<T>::get_Item(int32_t index)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1<T>>::get(),
                             "get_Item",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<T, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, index);
 }
- ::ArrayW<T> System::System__RuntimeType__ListBuilder_1::ToArray()  {
+ ::ArrayW<T> System::System__RuntimeType__ListBuilder_1<T>::ToArray()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1<T>>::get(),
                             "ToArray",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<T>, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
 }
- void System::System__RuntimeType__ListBuilder_1::CopyTo(::ArrayW<::bs_hook::Il2CppWrapperType> array, int32_t index)  {
+ void System::System__RuntimeType__ListBuilder_1<T>::CopyTo(::ArrayW<::bs_hook::Il2CppWrapperType> array, int32_t index)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1<T>>::get(),
                             "CopyTo",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::bs_hook::Il2CppWrapperType>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, array, index);
 }
- int32_t System::System__RuntimeType__ListBuilder_1::get_Count()  {
+ int32_t System::System__RuntimeType__ListBuilder_1<T>::get_Count()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1<T>>::get(),
                             "get_Count",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
 }
- void System::System__RuntimeType__ListBuilder_1::Add(T item)  {
+ void System::System__RuntimeType__ListBuilder_1<T>::Add(T item)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__RuntimeType__ListBuilder_1<T>>::get(),
                             "Add",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}

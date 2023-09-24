@@ -4,9 +4,8 @@
 #include "HMUI/zzzz__SectionTableView_def.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
+#include "HMUI/zzzz__SectionTableView_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__SectionTableView__IDataSource.RowHeight
 template<>
@@ -706,8 +705,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, baseRow, section, row, isSectionHeader);
 }
-// Ctor Parameters []
- HMUI::SectionTableView::SectionTableView()  : HMUI::TableView(THROW_UNLESS(::il2cpp_utils::New<SectionTableView>())) {}
+ HMUI::SectionTableView HMUI::SectionTableView::New_ctor()  {
+HMUI::SectionTableView o{THROW_UNLESS(::il2cpp_utils::New<HMUI::SectionTableView>())};
+return o;
+}
  void HMUI::SectionTableView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::SectionTableView>::get(),

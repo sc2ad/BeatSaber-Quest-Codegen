@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Security/zzzz__ParameterUtilities_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Security::ParameterUtilities._ctor
 template<>
 
@@ -292,8 +292,10 @@ return ::cordl_internals::getStaticField<System::Collections::IDictionary, "algo
  System::Collections::IDictionary Org::BouncyCastle::Security::ParameterUtilities::__get_basicIVSizes()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "basicIVSizes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::ParameterUtilities>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Security::ParameterUtilities::ParameterUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ParameterUtilities>())) {}
+ Org::BouncyCastle::Security::ParameterUtilities Org::BouncyCastle::Security::ParameterUtilities::New_ctor()  {
+Org::BouncyCastle::Security::ParameterUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::ParameterUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Security::ParameterUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::ParameterUtilities>::get(),

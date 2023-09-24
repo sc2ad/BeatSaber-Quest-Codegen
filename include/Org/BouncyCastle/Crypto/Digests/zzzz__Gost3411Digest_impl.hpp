@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__Gost3411Digest_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Digests::Gost3411Digest.MakeC
 template<>
 
@@ -508,8 +508,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<::ArrayW<uint8_t>>, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::Gost3411Digest::Gost3411Digest()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3411Digest>())) {}
+ Org::BouncyCastle::Crypto::Digests::Gost3411Digest Org::BouncyCastle::Crypto::Digests::Gost3411Digest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::Gost3411Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Gost3411Digest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Gost3411Digest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Gost3411Digest>::get(),
@@ -519,8 +521,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sBoxParam", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Gost3411Digest::Gost3411Digest(::ArrayW<uint8_t> sBoxParam)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3411Digest>(sBoxParam))) {}
+ Org::BouncyCastle::Crypto::Digests::Gost3411Digest Org::BouncyCastle::Crypto::Digests::Gost3411Digest::New_ctor(::ArrayW<uint8_t> sBoxParam)  {
+Org::BouncyCastle::Crypto::Digests::Gost3411Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Gost3411Digest>(sBoxParam))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Gost3411Digest::_ctor(::ArrayW<uint8_t> sBoxParam)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Gost3411Digest>::get(),
@@ -530,8 +534,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sBoxParam);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::Gost3411Digest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Gost3411Digest::Gost3411Digest(Org::BouncyCastle::Crypto::Digests::Gost3411Digest t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3411Digest>(t))) {}
+ Org::BouncyCastle::Crypto::Digests::Gost3411Digest Org::BouncyCastle::Crypto::Digests::Gost3411Digest::New_ctor(Org::BouncyCastle::Crypto::Digests::Gost3411Digest t)  {
+Org::BouncyCastle::Crypto::Digests::Gost3411Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Gost3411Digest>(t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Gost3411Digest::_ctor(Org::BouncyCastle::Crypto::Digests::Gost3411Digest t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Gost3411Digest>::get(),

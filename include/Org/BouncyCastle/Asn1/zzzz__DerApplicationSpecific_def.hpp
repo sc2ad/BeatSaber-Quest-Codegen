@@ -10,10 +10,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -87,32 +87,27 @@ constexpr ::ArrayW<uint8_t> __get_octets() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isConstructed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "octets", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerApplicationSpecific(bool isConstructed, int32_t tag, ::ArrayW<uint8_t> octets) ;
+static Org::BouncyCastle::Asn1::DerApplicationSpecific New_ctor(bool isConstructed, int32_t tag, ::ArrayW<uint8_t> octets) ;
 
 /// @brief Method .ctor addr 0x11299dc size 0x40 virtual false final false
  void _ctor(bool isConstructed, int32_t tag, ::ArrayW<uint8_t> octets) ;
 
-// Ctor Parameters [CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "octets", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerApplicationSpecific(int32_t tag, ::ArrayW<uint8_t> octets) ;
+static Org::BouncyCastle::Asn1::DerApplicationSpecific New_ctor(int32_t tag, ::ArrayW<uint8_t> octets) ;
 
 /// @brief Method .ctor addr 0x113021c size 0x34 virtual false final false
  void _ctor(int32_t tag, ::ArrayW<uint8_t> octets) ;
 
-// Ctor Parameters [CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit DerApplicationSpecific(int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+static Org::BouncyCastle::Asn1::DerApplicationSpecific New_ctor(int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method .ctor addr 0x1130250 size 0x10 virtual false final false
  void _ctor(int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
-// Ctor Parameters [CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit DerApplicationSpecific(bool isExplicit, int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+static Org::BouncyCastle::Asn1::DerApplicationSpecific New_ctor(bool isExplicit, int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method .ctor addr 0x1130260 size 0xf8 virtual false final false
  void _ctor(bool isExplicit, int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
-// Ctor Parameters [CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vec", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit DerApplicationSpecific(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector vec) ;
+static Org::BouncyCastle::Asn1::DerApplicationSpecific New_ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector vec) ;
 
 /// @brief Method .ctor addr 0x1130424 size 0x1d0 virtual false final false
  void _ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1EncodableVector vec) ;

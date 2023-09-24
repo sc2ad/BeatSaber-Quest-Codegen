@@ -63,8 +63,10 @@ constexpr void Newtonsoft::Json::Serialization::ReflectionValueProvider::__set__
 constexpr System::Reflection::MemberInfo Newtonsoft::Json::Serialization::ReflectionValueProvider::__get__memberInfo() const {
 return ::cordl_internals::getInstanceField<System::Reflection::MemberInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "memberInfo", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::ReflectionValueProvider::ReflectionValueProvider(System::Reflection::MemberInfo memberInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReflectionValueProvider>(memberInfo))) {}
+ Newtonsoft::Json::Serialization::ReflectionValueProvider Newtonsoft::Json::Serialization::ReflectionValueProvider::New_ctor(System::Reflection::MemberInfo memberInfo)  {
+Newtonsoft::Json::Serialization::ReflectionValueProvider o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::ReflectionValueProvider>(memberInfo))};
+return o;
+}
  void Newtonsoft::Json::Serialization::ReflectionValueProvider::_ctor(System::Reflection::MemberInfo memberInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::ReflectionValueProvider>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/Srp/zzzz__Srp6Client_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client._ctor
 template<>
 
@@ -252,8 +252,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::__set_rand
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::__get_random() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::Srp6Client()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Srp6Client>())) {}
+ Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::New_ctor()  {
+Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client>::get(),

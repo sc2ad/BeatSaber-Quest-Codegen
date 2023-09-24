@@ -8,28 +8,34 @@
 namespace GlobalNamespace {
 class QuickPlaySetupData;
 }
-namespace System {
-struct DateTime;
-}
-namespace GlobalNamespace {
-class IQuickPlaySetupModel;
+namespace System::Net::Http {
+class HttpClient;
 }
 namespace GlobalNamespace {
 class INetworkConfig;
 }
-namespace System::Net::Http {
-class HttpClient;
-}
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+class GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace GlobalNamespace {
+class IQuickPlaySetupModel;
+}
+namespace System {
+struct DateTime;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct TaskAwaiter_1;
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System {
 class UriBuilder;
@@ -39,7 +45,7 @@ class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +108,7 @@ constexpr ::ArrayW<GlobalNamespace::QuickPlaySetupData> __get_data() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB() ;
+static GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f2408 size 0x8 virtual false final false
  void _ctor() ;
@@ -301,8 +306,7 @@ constexpr System::DateTime __get__lastRequestTime() const;
 /// @brief Method IsUrlValid addr 0x21f2344 size 0x5c virtual false final false
  bool IsUrlValid(::StringW url) ;
 
-// Ctor Parameters []
-explicit QuickPlaySetupModel() ;
+static GlobalNamespace::QuickPlaySetupModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f23a0 size 0x68 virtual false final false
  void _ctor() ;

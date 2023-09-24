@@ -1,15 +1,15 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBaseData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightRotationBeatmapEventDataBox.get_subtypeIdentifier
 template<>
 
@@ -126,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "GlobalNamespace::IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "flipRotation", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionEaseType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "lightRotationBaseDataList", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightRotationBaseData>", modifiers: "", def_value: None }]
- GlobalNamespace::LightRotationBeatmapEventDataBox::LightRotationBeatmapEventDataBox(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType rotationDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightRotationBaseData> lightRotationBaseDataList)  : GlobalNamespace::BeatmapEventDataBox(THROW_UNLESS(::il2cpp_utils::New<LightRotationBeatmapEventDataBox>(indexFilter, beatDistributionParam, beatDistributionParamType, axis, flipRotation, rotationDistributionParam, rotationDistributionParamType, rotationDistributionShouldAffectFirstBaseEvent, rotationDistributionEaseType, lightRotationBaseDataList))) {}
+ GlobalNamespace::LightRotationBeatmapEventDataBox GlobalNamespace::LightRotationBeatmapEventDataBox::New_ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType rotationDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightRotationBaseData> lightRotationBaseDataList)  {
+GlobalNamespace::LightRotationBeatmapEventDataBox o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightRotationBeatmapEventDataBox>(indexFilter, beatDistributionParam, beatDistributionParamType, axis, flipRotation, rotationDistributionParam, rotationDistributionParamType, rotationDistributionShouldAffectFirstBaseEvent, rotationDistributionEaseType, lightRotationBaseDataList))};
+return o;
+}
  void GlobalNamespace::LightRotationBeatmapEventDataBox::_ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType rotationDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightRotationBaseData> lightRotationBaseDataList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightRotationBeatmapEventDataBox>::get(),

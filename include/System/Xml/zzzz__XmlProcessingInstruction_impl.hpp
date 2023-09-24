@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/zzzz__XmlLinkedNode_impl.hpp"
 #include "System/Xml/zzzz__XmlProcessingInstruction_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 //  Writing Method size for method: System::Xml::XmlProcessingInstruction._ctor
 template<>
@@ -186,8 +186,10 @@ constexpr void System::Xml::XmlProcessingInstruction::__set_data(::StringW value
 constexpr ::StringW System::Xml::XmlProcessingInstruction::__get_data() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "target", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlProcessingInstruction::XmlProcessingInstruction(::StringW target, ::StringW data, System::Xml::XmlDocument doc)  : System::Xml::XmlLinkedNode(THROW_UNLESS(::il2cpp_utils::New<XmlProcessingInstruction>(target, data, doc))) {}
+ System::Xml::XmlProcessingInstruction System::Xml::XmlProcessingInstruction::New_ctor(::StringW target, ::StringW data, System::Xml::XmlDocument doc)  {
+System::Xml::XmlProcessingInstruction o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlProcessingInstruction>(target, data, doc))};
+return o;
+}
  void System::Xml::XmlProcessingInstruction::_ctor(::StringW target, ::StringW data, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlProcessingInstruction>::get(),

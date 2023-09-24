@@ -8,85 +8,104 @@
 namespace Newtonsoft::Json {
 class JsonReader;
 }
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json::Linq {
-class JValue;
+class JContainer;
 }
 namespace Newtonsoft::Json::Linq {
 template<typename T>
 struct JEnumerable_1;
 }
-namespace Newtonsoft::Json::Linq {
-class JContainer;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace Newtonsoft::Json {
-struct Formatting;
-}
-namespace System {
-struct DateTimeOffset;
-}
 namespace System {
 struct Guid;
 }
-namespace System {
-struct DateTime;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace Newtonsoft::Json {
+class JsonConverter;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
 namespace Newtonsoft::Json::Linq {
-class JTokenEqualityComparer;
+class Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 namespace Newtonsoft::Json::Linq {
 struct JTokenType;
+}
+namespace Newtonsoft::Json {
+struct Formatting;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace Newtonsoft::Json::Linq {
+class Newtonsoft__Json__Linq__JToken___Annotations_d__172;
 }
 namespace Newtonsoft::Json::Linq {
 template<typename T>
 class IJEnumerable_1;
 }
 namespace System {
-struct TimeSpan;
+struct DateTime;
 }
-namespace Newtonsoft::Json::Linq {
-class JsonLoadSettings;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
 }
 namespace System {
+class ICloneable;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace Newtonsoft::Json::Linq {
+class Newtonsoft__Json__Linq__JToken___GetAncestors_d__41;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
 class Uri;
+}
+namespace Newtonsoft::Json::Linq {
+class Newtonsoft__Json__Linq__JToken___AfterSelf_d__42;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace System {
+struct Decimal;
+}
+namespace Newtonsoft::Json::Linq {
+class Newtonsoft__Json__Linq__JToken__LineInfoAnnotation;
+}
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json::Linq {
+class JsonLoadSettings;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Newtonsoft::Json::Linq {
+class JValue;
+}
+namespace Newtonsoft::Json::Linq {
+class JTokenEqualityComparer;
+}
+namespace Newtonsoft::Json::Linq {
+template<typename T>
+class Newtonsoft__Json__Linq__JToken___Annotations_d__171_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
 }
 namespace System {
 class IDisposable;
@@ -175,8 +194,7 @@ constexpr int32_t __get_LinePosition() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JToken__LineInfoAnnotation(int32_t lineNumber, int32_t linePosition) ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken__LineInfoAnnotation New_ctor(int32_t lineNumber, int32_t linePosition) ;
 
 /// @brief Method .ctor addr 0x252d584 size 0x2c virtual false final false
  void _ctor(int32_t lineNumber, int32_t linePosition) ;
@@ -294,8 +312,7 @@ constexpr Newtonsoft::Json::Linq::JToken __get__current_5__1() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JToken___GetAncestors_d__41(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___GetAncestors_d__41 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2525f58 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -422,8 +439,7 @@ constexpr Newtonsoft::Json::Linq::JToken __get__o_5__1() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JToken___AfterSelf_d__42(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___AfterSelf_d__42 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x252f634 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -550,8 +566,7 @@ constexpr Newtonsoft::Json::Linq::JToken __get__o_5__1() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___BeforeSelf_d__43 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x252f7f0 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -697,8 +712,7 @@ constexpr int32_t __get__i_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JToken___Annotations_d__172(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__172 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x252f9c0 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -958,8 +972,7 @@ static bool DeepEquals(Newtonsoft::Json::Linq::JToken t1, Newtonsoft::Json::Linq
 /// @brief Method get_Path addr 0x2524888 size 0x348 virtual false final false
  ::StringW get_Path() ;
 
-// Ctor Parameters []
-explicit JToken() ;
+static Newtonsoft::Json::Linq::JToken New_ctor() ;
 
 /// @brief Method .ctor addr 0x251bfd8 size 0x8 virtual false final false
  void _ctor() ;
@@ -1474,8 +1487,7 @@ constexpr int32_t __get__i_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JToken___Annotations_d__171_1(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JToken___Annotations_d__171_1<T> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;

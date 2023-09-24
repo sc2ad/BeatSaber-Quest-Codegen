@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class RsassaPssParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class RsassaPssParameters;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -28,8 +28,8 @@ class DerObjectIdentifier;
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -113,8 +113,7 @@ static System::Collections::IEnumerable GetAlgNames() ;
 /// @brief Method GetSignatureForObject addr 0x10f7eb0 size 0x2d0 virtual false final false
 static ::ArrayW<uint8_t> GetSignatureForObject(Org::BouncyCastle::Asn1::DerObjectIdentifier sigOid, ::StringW sigName, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey, Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Asn1::Asn1Encodable ae) ;
 
-// Ctor Parameters []
-explicit X509Utilities() ;
+static Org::BouncyCastle::X509::X509Utilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10f8180 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class IDragAndDropData;
+struct DragAndDropPosition;
 }
 namespace UnityEngine::UIElements {
-struct DragAndDropPosition;
+class IDragAndDropData;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

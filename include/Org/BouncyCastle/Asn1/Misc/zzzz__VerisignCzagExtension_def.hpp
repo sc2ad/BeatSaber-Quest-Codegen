@@ -51,8 +51,7 @@ constexpr explicit VerisignCzagExtension(void* ptr) noexcept : Org::BouncyCastle
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "str", ty: "Org::BouncyCastle::Asn1::DerIA5String", modifiers: "", def_value: None }]
-explicit VerisignCzagExtension(Org::BouncyCastle::Asn1::DerIA5String str) ;
+static Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension New_ctor(Org::BouncyCastle::Asn1::DerIA5String str) ;
 
 /// @brief Method .ctor addr 0xeef31c size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerIA5String str) ;

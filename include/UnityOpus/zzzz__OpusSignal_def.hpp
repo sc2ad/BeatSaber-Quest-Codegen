@@ -57,6 +57,8 @@ constexpr operator __OpusSignal_Unwrapped () const noexcept {
 return std::bit_cast<__OpusSignal_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

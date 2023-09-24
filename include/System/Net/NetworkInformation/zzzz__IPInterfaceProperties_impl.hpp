@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::NetworkInformation::GatewayIPAddressInformationCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::NetworkInformation::IPInterfaceProperties::IPInterfaceProperties()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPInterfaceProperties>())) {}
+ System::Net::NetworkInformation::IPInterfaceProperties System::Net::NetworkInformation::IPInterfaceProperties::New_ctor()  {
+System::Net::NetworkInformation::IPInterfaceProperties o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::IPInterfaceProperties>())};
+return o;
+}
  void System::Net::NetworkInformation::IPInterfaceProperties::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::IPInterfaceProperties>::get(),

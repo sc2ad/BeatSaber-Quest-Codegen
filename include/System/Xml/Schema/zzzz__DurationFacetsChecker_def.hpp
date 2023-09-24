@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections {
-class ArrayList;
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
 }
 namespace System {
 class Exception;
 }
-namespace System::Xml::Schema {
-class XmlSchemaDatatype;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System {
 struct TimeSpan;
@@ -72,8 +72,7 @@ constexpr explicit DurationFacetsChecker(void* ptr) noexcept : System::Xml::Sche
 /// @brief Method MatchEnumeration addr 0x272e718 size 0x10c virtual false final false
  bool MatchEnumeration(System::TimeSpan value, System::Collections::ArrayList enumeration) ;
 
-// Ctor Parameters []
-explicit DurationFacetsChecker() ;
+static System::Xml::Schema::DurationFacetsChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x272e89c size 0x8 virtual false final false
  void _ctor() ;

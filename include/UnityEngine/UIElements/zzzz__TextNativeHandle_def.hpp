@@ -9,21 +9,21 @@ class ITextHandle;
 namespace UnityEngine::UIElements {
 struct TextVertex;
 }
-namespace UnityEngine::TextCore::Text {
-class TextInfo;
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+struct CursorPositionStylePainterParameters;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
-namespace UnityEngine::UIElements {
-struct CursorPositionStylePainterParameters;
+namespace UnityEngine {
+struct Vector2;
 }
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
+namespace UnityEngine::TextCore::Text {
+class TextInfo;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

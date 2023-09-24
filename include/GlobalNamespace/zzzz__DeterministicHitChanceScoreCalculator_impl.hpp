@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__DeterministicHitChanceScoreCalculator_def.hpp"
-#include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
 #include "GlobalNamespace/zzzz__IMockPlayerScoreCalculator_def.hpp"
+#include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DeterministicHitChanceScoreCalculator._ctor
 template<>
 
@@ -52,8 +52,10 @@ constexpr void GlobalNamespace::DeterministicHitChanceScoreCalculator::__set__ch
 constexpr float_t GlobalNamespace::DeterministicHitChanceScoreCalculator::__get__chanceAggregated() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hitChance", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::DeterministicHitChanceScoreCalculator::DeterministicHitChanceScoreCalculator(float_t hitChance)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DeterministicHitChanceScoreCalculator>(hitChance))) {}
+ GlobalNamespace::DeterministicHitChanceScoreCalculator GlobalNamespace::DeterministicHitChanceScoreCalculator::New_ctor(float_t hitChance)  {
+GlobalNamespace::DeterministicHitChanceScoreCalculator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DeterministicHitChanceScoreCalculator>(hitChance))};
+return o;
+}
  void GlobalNamespace::DeterministicHitChanceScoreCalculator::_ctor(float_t hitChance)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DeterministicHitChanceScoreCalculator>::get(),

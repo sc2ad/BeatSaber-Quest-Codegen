@@ -1,18 +1,19 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XContainer_impl.hpp"
 #include "System/Xml/Linq/zzzz__XElement_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Xml/Linq/zzzz__XName_def.hpp"
-#include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
+#include "System/Xml/Linq/zzzz__XName_def.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
-#include "System/Xml/zzzz__XmlWriter_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/Linq/zzzz__XStreamingElement_def.hpp"
+#include "System/Xml/Linq/zzzz__XElement_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
+#include "System/Xml/zzzz__XmlWriter_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d__116._ctor
 template<>
 
@@ -211,8 +212,10 @@ constexpr void System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d_
 constexpr System::Xml::Linq::XAttribute System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d__116::__get__a_5__2() const {
 return ::cordl_internals::getInstanceField<System::Xml::Linq::XAttribute, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d__116::System__Xml__Linq__XElement___GetAttributes_d__116(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__Linq__XElement___GetAttributes_d__116>(__1__state))) {}
+ System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d__116 System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d__116::New_ctor(int32_t __1__state)  {
+System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d__116 o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d__116>(__1__state))};
+return o;
+}
  void System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d__116::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d__116>::get(),
@@ -637,8 +640,10 @@ constexpr void System::Xml::Linq::XElement::__set_lastAttr(System::Xml::Linq::XA
 constexpr System::Xml::Linq::XAttribute System::Xml::Linq::XElement::__get_lastAttr() const {
 return ::cordl_internals::getInstanceField<System::Xml::Linq::XAttribute, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::Linq::XName", modifiers: "", def_value: None }]
- System::Xml::Linq::XElement::XElement(System::Xml::Linq::XName name)  : System::Xml::Linq::XContainer(THROW_UNLESS(::il2cpp_utils::New<XElement>(name))) {}
+ System::Xml::Linq::XElement System::Xml::Linq::XElement::New_ctor(System::Xml::Linq::XName name)  {
+System::Xml::Linq::XElement o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XElement>(name))};
+return o;
+}
  void System::Xml::Linq::XElement::_ctor(System::Xml::Linq::XName name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XElement>::get(),
@@ -648,8 +653,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XElement", modifiers: "", def_value: None }]
- System::Xml::Linq::XElement::XElement(System::Xml::Linq::XElement other)  : System::Xml::Linq::XContainer(THROW_UNLESS(::il2cpp_utils::New<XElement>(other))) {}
+ System::Xml::Linq::XElement System::Xml::Linq::XElement::New_ctor(System::Xml::Linq::XElement other)  {
+System::Xml::Linq::XElement o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XElement>(other))};
+return o;
+}
  void System::Xml::Linq::XElement::_ctor(System::Xml::Linq::XElement other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XElement>::get(),
@@ -659,8 +666,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XStreamingElement", modifiers: "", def_value: None }]
- System::Xml::Linq::XElement::XElement(System::Xml::Linq::XStreamingElement other)  : System::Xml::Linq::XContainer(THROW_UNLESS(::il2cpp_utils::New<XElement>(other))) {}
+ System::Xml::Linq::XElement System::Xml::Linq::XElement::New_ctor(System::Xml::Linq::XStreamingElement other)  {
+System::Xml::Linq::XElement o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XElement>(other))};
+return o;
+}
  void System::Xml::Linq::XElement::_ctor(System::Xml::Linq::XStreamingElement other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XElement>::get(),

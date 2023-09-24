@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectSubMenuDestination_def.hpp"
+#include "GlobalNamespace/zzzz__SelectSubMenuDestination_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination::GlobalNamespace__SelectSubMenuDestination__Destination(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -41,8 +42,10 @@ constexpr void GlobalNamespace::SelectSubMenuDestination::__set_menuDestination(
 constexpr GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination GlobalNamespace::SelectSubMenuDestination::__get_menuDestination() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "menuDestination", ty: "GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination", modifiers: "", def_value: None }]
- GlobalNamespace::SelectSubMenuDestination::SelectSubMenuDestination(GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination menuDestination)  : GlobalNamespace::MenuDestination(THROW_UNLESS(::il2cpp_utils::New<SelectSubMenuDestination>(menuDestination))) {}
+ GlobalNamespace::SelectSubMenuDestination GlobalNamespace::SelectSubMenuDestination::New_ctor(GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination menuDestination)  {
+GlobalNamespace::SelectSubMenuDestination o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectSubMenuDestination>(menuDestination))};
+return o;
+}
  void GlobalNamespace::SelectSubMenuDestination::_ctor(GlobalNamespace::GlobalNamespace__SelectSubMenuDestination__Destination menuDestination)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectSubMenuDestination>::get(),

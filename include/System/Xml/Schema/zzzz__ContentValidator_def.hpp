@@ -102,14 +102,12 @@ static System::Xml::Schema::ContentValidator __get_Any() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }]
-explicit ContentValidator(System::Xml::Schema::XmlSchemaContentType contentType) ;
+static System::Xml::Schema::ContentValidator New_ctor(System::Xml::Schema::XmlSchemaContentType contentType) ;
 
 /// @brief Method .ctor addr 0x271b3bc size 0x30 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaContentType contentType) ;
 
-// Ctor Parameters [CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }, CppParam { name: "isOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isEmptiable", ty: "bool", modifiers: "", def_value: None }]
-explicit ContentValidator(System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) ;
+static System::Xml::Schema::ContentValidator New_ctor(System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) ;
 
 /// @brief Method .ctor addr 0x271b3ec size 0x40 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) ;

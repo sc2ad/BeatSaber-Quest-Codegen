@@ -72,8 +72,7 @@ constexpr Newtonsoft::Json::Bson::BsonBinaryType __get__BinaryType_k__BackingFie
 /// @brief Method set_BinaryType addr 0x25503f0 size 0x8 virtual false final false
  void set_BinaryType(Newtonsoft::Json::Bson::BsonBinaryType value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "binaryType", ty: "Newtonsoft::Json::Bson::BsonBinaryType", modifiers: "", def_value: None }]
-explicit BsonBinary(::ArrayW<uint8_t> value, Newtonsoft::Json::Bson::BsonBinaryType binaryType) ;
+static Newtonsoft::Json::Bson::BsonBinary New_ctor(::ArrayW<uint8_t> value, Newtonsoft::Json::Bson::BsonBinaryType binaryType) ;
 
 /// @brief Method .ctor addr 0x25503f8 size 0x38 virtual false final false
  void _ctor(::ArrayW<uint8_t> value, Newtonsoft::Json::Bson::BsonBinaryType binaryType) ;

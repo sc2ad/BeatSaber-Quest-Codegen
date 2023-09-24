@@ -4,21 +4,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
-}
-namespace System::Xml::Linq {
-class XName;
-}
-namespace System::Xml::Linq {
-class XAttribute;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -27,20 +14,36 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Xml::Linq {
-class XNamespace;
+class XAttribute;
+}
+namespace System::Xml::Linq {
+class XName;
 }
 namespace System::Xml::Linq {
 class XNode;
 }
-namespace System::Xml {
-class XmlWriter;
+namespace System::Xml::Linq {
+class XStreamingElement;
+}
+namespace System::Xml::Linq {
+class System__Xml__Linq__XElement___GetAttributes_d__116;
 }
 namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Xml::Linq {
-class XStreamingElement;
+class XNamespace;
+}
+namespace System::Xml {
+class XmlWriter;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -158,8 +161,7 @@ constexpr System::Xml::Linq::XAttribute __get__a_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Xml__Linq__XElement___GetAttributes_d__116(int32_t __1__state) ;
+static System::Xml::Linq::System__Xml__Linq__XElement___GetAttributes_d__116 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x26ccc10 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -259,20 +261,17 @@ constexpr System::Xml::Linq::XAttribute __get_lastAttr() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::Linq::XName", modifiers: "", def_value: None }]
-explicit XElement(System::Xml::Linq::XName name) ;
+static System::Xml::Linq::XElement New_ctor(System::Xml::Linq::XName name) ;
 
 /// @brief Method .ctor addr 0x26cc1dc size 0x78 virtual false final false
  void _ctor(System::Xml::Linq::XName name) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XElement", modifiers: "", def_value: None }]
-explicit XElement(System::Xml::Linq::XElement other) ;
+static System::Xml::Linq::XElement New_ctor(System::Xml::Linq::XElement other) ;
 
 /// @brief Method .ctor addr 0x26cc254 size 0xc0 virtual false final false
  void _ctor(System::Xml::Linq::XElement other) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XStreamingElement", modifiers: "", def_value: None }]
-explicit XElement(System::Xml::Linq::XStreamingElement other) ;
+static System::Xml::Linq::XElement New_ctor(System::Xml::Linq::XStreamingElement other) ;
 
 /// @brief Method .ctor addr 0x26ca738 size 0x84 virtual false final false
  void _ctor(System::Xml::Linq::XStreamingElement other) ;

@@ -9,6 +9,9 @@ struct FourCC;
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
+namespace UnityEngine::InputSystem::Android::LowLevel {
+struct UnityEngine__InputSystem__Android__LowLevel__AndroidSensorState___data_e__FixedBuffer;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidSensorState;

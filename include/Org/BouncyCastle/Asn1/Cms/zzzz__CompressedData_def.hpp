@@ -2,23 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -96,14 +96,12 @@ constexpr Org::BouncyCastle::Asn1::Cms::ContentInfo __get_encapContentInfo() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "compressionAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "encapContentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit CompressedData(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier compressionAlgorithm, Org::BouncyCastle::Asn1::Cms::ContentInfo encapContentInfo) ;
+static Org::BouncyCastle::Asn1::Cms::CompressedData New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier compressionAlgorithm, Org::BouncyCastle::Asn1::Cms::ContentInfo encapContentInfo) ;
 
 /// @brief Method .ctor addr 0xde85f0 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier compressionAlgorithm, Org::BouncyCastle::Asn1::Cms::ContentInfo encapContentInfo) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CompressedData(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::CompressedData New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xde8674 size 0x104 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

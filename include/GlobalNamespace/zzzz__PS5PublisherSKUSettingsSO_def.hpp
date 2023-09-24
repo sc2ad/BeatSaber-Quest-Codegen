@@ -47,8 +47,7 @@ constexpr explicit PS5PublisherSKUSettingsSO(void* ptr) noexcept : GlobalNamespa
 
 // Methods
 
-// Ctor Parameters []
-explicit PS5PublisherSKUSettingsSO() ;
+static GlobalNamespace::PS5PublisherSKUSettingsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a854 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -79,8 +79,7 @@ static void WriteSrpParameter(Org::BouncyCastle::Math::BigInteger x, System::IO:
 /// @brief Method IsSrpCipherSuite addr 0xf2bc4c size 0x14 virtual false final false
 static bool IsSrpCipherSuite(int32_t cipherSuite) ;
 
-// Ctor Parameters []
-explicit TlsSrpUtilities() ;
+static Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xf2bc60 size 0x8 virtual false final false
  void _ctor() ;

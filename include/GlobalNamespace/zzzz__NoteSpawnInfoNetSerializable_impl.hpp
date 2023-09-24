@@ -1,15 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteSpawnInfoNetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteSpawnInfoNetSerializable.Obtain
 template<>
 
@@ -239,8 +238,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::NoteSpawnInfoNetSerializable, false>(const_cast<void*>(instance), ___internal_method, time, lineIndex, noteLineLayer, beforeJumpNoteLineLayer, gameplayType, scoringType, colorType, cutDirection, timeToNextColorNote, timeToPrevColorNote, flipLineIndex, flipYSide, moveStartPos, moveEndPos, jumpEndPos, jumpGravity, moveDuration, jumpDuration, rotation, cutDirectionAngleOffset, cutSfxVolumeMultiplier);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteSpawnInfoNetSerializable::NoteSpawnInfoNetSerializable()  : GlobalNamespace::PoolableSerializable(THROW_UNLESS(::il2cpp_utils::New<NoteSpawnInfoNetSerializable>())) {}
+ GlobalNamespace::NoteSpawnInfoNetSerializable GlobalNamespace::NoteSpawnInfoNetSerializable::New_ctor()  {
+GlobalNamespace::NoteSpawnInfoNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteSpawnInfoNetSerializable>())};
+return o;
+}
  void GlobalNamespace::NoteSpawnInfoNetSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteSpawnInfoNetSerializable>::get(),

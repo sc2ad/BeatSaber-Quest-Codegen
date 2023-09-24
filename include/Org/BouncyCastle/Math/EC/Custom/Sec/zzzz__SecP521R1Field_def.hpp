@@ -121,8 +121,7 @@ static void ImplMultiply(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> y, ::ArrayW<ui
 /// @brief Method ImplSquare addr 0xf7223c size 0x78 virtual false final false
 static void ImplSquare(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> zz) ;
 
-// Ctor Parameters []
-explicit SecP521R1Field() ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1Field New_ctor() ;
 
 /// @brief Method .ctor addr 0xf72450 size 0x8 virtual false final false
  void _ctor() ;

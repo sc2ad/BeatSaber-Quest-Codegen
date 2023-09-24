@@ -8,74 +8,74 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class StateMachineBehaviour;
-}
-namespace UnityEngine {
-struct AnimatorCullingMode;
+struct AvatarTarget;
 }
 namespace UnityEngine {
 struct AnimatorRecorderMode;
 }
 namespace UnityEngine {
-struct AvatarIKGoal;
+class Avatar;
+}
+namespace UnityEngine {
+struct MatchTargetWeightMask;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine {
+struct AnimatorUpdateMode;
+}
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine {
+class RuntimeAnimatorController;
+}
+namespace UnityEngine {
+struct AnimatorStateInfo;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct AnimatorCullingMode;
 }
 namespace UnityEngine {
 struct AvatarIKHint;
+}
+namespace UnityEngine {
+struct AnimatorTransitionInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-struct StateInfoIndex;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine {
 class AnimatorControllerParameter;
 }
 namespace UnityEngine {
-class Avatar;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct HumanBodyBones;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class ScriptableObject;
+class StateMachineBehaviour;
 }
 namespace UnityEngine {
 struct AnimatorClipInfo;
 }
 namespace UnityEngine {
+struct StateInfoIndex;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct AnimatorStateInfo;
+struct AvatarIKGoal;
 }
-namespace UnityEngine {
-struct MatchTargetWeightMask;
-}
-namespace UnityEngine {
-struct AnimatorTransitionInfo;
-}
-namespace UnityEngine {
-class RuntimeAnimatorController;
-}
-namespace UnityEngine {
-struct AvatarTarget;
-}
-namespace UnityEngine {
-struct AnimatorUpdateMode;
-}
-namespace UnityEngine {
-struct HumanBodyBones;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -989,8 +989,7 @@ static int32_t StringToHash(::StringW name) ;
 /// @brief Method SetQuaternion addr 0x2b1fe68 size 0x4 virtual false final false
  void SetQuaternion(int32_t id, UnityEngine::Quaternion value) ;
 
-// Ctor Parameters []
-explicit Animator() ;
+static UnityEngine::Animator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b1fe6c size 0x8 virtual false final false
  void _ctor() ;

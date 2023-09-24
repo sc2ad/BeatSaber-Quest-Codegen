@@ -5,18 +5,18 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace TMPro {
-class TMP_FontAsset;
+namespace UnityEngine {
+class Material;
 }
 namespace TMPro {
 class TMP_SpriteAsset;
 }
+namespace TMPro {
+class TMP_FontAsset;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace UnityEngine {
-class Material;
 }
 // Forward declare root types
 namespace TMPro {

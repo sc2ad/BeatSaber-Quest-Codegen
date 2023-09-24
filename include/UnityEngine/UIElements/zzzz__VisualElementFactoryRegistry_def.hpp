@@ -7,12 +7,12 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine::UIElements {
-class IUxmlFactory;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::UIElements {
+class IUxmlFactory;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

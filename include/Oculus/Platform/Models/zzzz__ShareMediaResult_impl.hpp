@@ -24,8 +24,10 @@ constexpr void Oculus::Platform::Models::ShareMediaResult::__set_Status(Oculus::
 constexpr Oculus::Platform::ShareMediaStatus Oculus::Platform::Models::ShareMediaResult::__get_Status() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::ShareMediaStatus, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::ShareMediaResult::ShareMediaResult(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ShareMediaResult>(o))) {}
+ Oculus::Platform::Models::ShareMediaResult Oculus::Platform::Models::ShareMediaResult::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::ShareMediaResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::ShareMediaResult>(o))};
+return o;
+}
  void Oculus::Platform::Models::ShareMediaResult::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::ShareMediaResult>::get(),

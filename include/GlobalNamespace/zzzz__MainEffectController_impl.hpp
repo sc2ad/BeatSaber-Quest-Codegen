@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectController_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__ImageEffectController_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MainEffectController.add_afterImageEffectEvent
 template<>
 
@@ -281,8 +281,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MainEffectController::MainEffectController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MainEffectController>())) {}
+ GlobalNamespace::MainEffectController GlobalNamespace::MainEffectController::New_ctor()  {
+GlobalNamespace::MainEffectController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainEffectController>())};
+return o;
+}
  void GlobalNamespace::MainEffectController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainEffectController>::get(),

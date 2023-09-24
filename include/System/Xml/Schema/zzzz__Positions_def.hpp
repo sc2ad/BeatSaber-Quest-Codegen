@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Xml::Schema {
-struct Position;
-}
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Xml::Schema {
+struct Position;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -79,8 +79,7 @@ constexpr System::Collections::ArrayList __get_positions() const;
 /// @brief Method get_Count addr 0x271a1d4 size 0x24 virtual false final false
  int32_t get_Count() ;
 
-// Ctor Parameters []
-explicit Positions() ;
+static System::Xml::Schema::Positions New_ctor() ;
 
 /// @brief Method .ctor addr 0x271a1f8 size 0x68 virtual false final false
  void _ctor() ;

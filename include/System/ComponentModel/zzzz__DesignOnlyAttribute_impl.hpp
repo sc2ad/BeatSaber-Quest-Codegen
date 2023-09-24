@@ -110,8 +110,10 @@ return ::cordl_internals::getStaticField<System::ComponentModel::DesignOnlyAttri
  System::ComponentModel::DesignOnlyAttribute System::ComponentModel::DesignOnlyAttribute::__get_Default()  {
 return ::cordl_internals::getStaticField<System::ComponentModel::DesignOnlyAttribute, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DesignOnlyAttribute>::get>();
 }
-// Ctor Parameters [CppParam { name: "isDesignOnly", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::DesignOnlyAttribute::DesignOnlyAttribute(bool isDesignOnly)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DesignOnlyAttribute>(isDesignOnly))) {}
+ System::ComponentModel::DesignOnlyAttribute System::ComponentModel::DesignOnlyAttribute::New_ctor(bool isDesignOnly)  {
+System::ComponentModel::DesignOnlyAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DesignOnlyAttribute>(isDesignOnly))};
+return o;
+}
  void System::ComponentModel::DesignOnlyAttribute::_ctor(bool isDesignOnly)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DesignOnlyAttribute>::get(),

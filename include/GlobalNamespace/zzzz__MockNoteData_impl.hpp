@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockNoteData.get_time
 template<>
 
@@ -453,8 +453,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, lineCount);
 }
-// Ctor Parameters []
- GlobalNamespace::MockNoteData::MockNoteData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockNoteData>())) {}
+ GlobalNamespace::MockNoteData GlobalNamespace::MockNoteData::New_ctor()  {
+GlobalNamespace::MockNoteData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockNoteData>())};
+return o;
+}
  void GlobalNamespace::MockNoteData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockNoteData>::get(),

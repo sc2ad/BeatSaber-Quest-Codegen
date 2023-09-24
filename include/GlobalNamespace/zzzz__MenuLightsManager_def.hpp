@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -11,14 +14,14 @@ class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MenuLightsManager___Start_d__4;
 }
 namespace GlobalNamespace {
 class MenuLightsPresetSO;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace GlobalNamespace {
 class LightWithIdManager;
@@ -109,8 +112,7 @@ constexpr GlobalNamespace::MenuLightsManager __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MenuLightsManager___Start_d__4(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x225215c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -232,8 +234,7 @@ constexpr GlobalNamespace::MenuLightsPresetSO __get__preset() const;
 /// @brief Method RefreshColors addr 0x2252544 size 0x8c virtual false final false
  void RefreshColors() ;
 
-// Ctor Parameters []
-explicit MenuLightsManager() ;
+static GlobalNamespace::MenuLightsManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x22525d0 size 0x10 virtual false final false
  void _ctor() ;

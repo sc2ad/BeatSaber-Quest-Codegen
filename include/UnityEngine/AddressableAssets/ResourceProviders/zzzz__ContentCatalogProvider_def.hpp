@@ -6,50 +6,59 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-class AssetBundle;
-}
-namespace UnityEngine {
-class AssetBundleRequest;
-}
-namespace UnityEngine {
-class AsyncOperation;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ContentCatalogData;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
+class AssetBundleCreateRequest;
 }
 namespace UnityEngine::ResourceManagement {
 class WebRequestQueueOperation;
 }
 namespace UnityEngine {
-class AssetBundleCreateRequest;
+class AssetBundle;
+}
+namespace UnityEngine {
+class AssetBundleRequest;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
+}
+namespace UnityEngine {
+class AsyncOperation;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ContentCatalogData;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine::AddressableAssets::ResourceProviders {
+struct UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__DependencyHashIndex;
+}
+namespace UnityEngine::AddressableAssets::ResourceProviders {
+class UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace GlobalNamespace {
+class UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceProviders {
@@ -114,6 +123,8 @@ __Count = 2,
 constexpr operator __UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__DependencyHashIndex_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__DependencyHashIndex_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -261,8 +272,7 @@ constexpr System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::Con
 /// @brief Method get_OpIsSuccess addr 0x289af7c size 0x20 virtual false final false
  bool get_OpIsSuccess() ;
 
-// Ctor Parameters [CppParam { name: "bundlePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "webRequestTimeout", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog(::StringW bundlePath, int32_t webRequestTimeout) ;
+static GlobalNamespace::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp__BundledCatalog New_ctor(::StringW bundlePath, int32_t webRequestTimeout) ;
 
 /// @brief Method .ctor addr 0x289a1b0 size 0x128 virtual false final false
  void _ctor(::StringW bundlePath, int32_t webRequestTimeout) ;
@@ -429,8 +439,7 @@ constexpr bool __get_m_IsLocalCatalogInBundle() const;
 /// @brief Method OnCatalogLoaded addr 0x289a6fc size 0x7c0 virtual false final false
  void OnCatalogLoaded(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData ccd) ;
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp() ;
+static UnityEngine::AddressableAssets::ResourceProviders::UnityEngine__AddressableAssets__ResourceProviders__ContentCatalogProvider__InternalOp New_ctor() ;
 
 /// @brief Method .ctor addr 0x28990c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -515,8 +524,7 @@ constexpr UnityEngine::ResourceManagement::ResourceManager __get_m_RM() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resourceManagerInstance", ty: "UnityEngine::ResourceManagement::ResourceManager", modifiers: "", def_value: None }]
-explicit ContentCatalogProvider(UnityEngine::ResourceManagement::ResourceManager resourceManagerInstance) ;
+static UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider New_ctor(UnityEngine::ResourceManagement::ResourceManager resourceManagerInstance) ;
 
 /// @brief Method .ctor addr 0x2898de4 size 0x98 virtual false final false
  void _ctor(UnityEngine::ResourceManagement::ResourceManager resourceManagerInstance) ;

@@ -48,8 +48,7 @@ constexpr explicit FloatSignal(void* ptr) noexcept : GlobalNamespace::GenericSig
 
 // Methods
 
-// Ctor Parameters []
-explicit FloatSignal() ;
+static GlobalNamespace::FloatSignal New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83174 size 0x48 virtual false final false
  void _ctor() ;

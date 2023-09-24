@@ -5,17 +5,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine::UI {
-class Selectable;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
 }
 namespace UnityEngine {
 struct DrivenRectTransformTracker;
@@ -23,29 +23,38 @@ struct DrivenRectTransformTracker;
 namespace UnityEngine::EventSystems {
 class IDragHandler;
 }
+namespace UnityEngine::UI {
+class Selectable;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Slider__Axis;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__Slider__SliderEvent;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Slider__Direction;
 }
 namespace UnityEngine {
 class RectTransform;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class IInitializePotentialDragHandler;
 }
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace UnityEngine {
-class Camera;
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -112,6 +121,8 @@ constexpr operator __UnityEngine__UI__Slider__Direction_Unwrapped () const noexc
 return std::bit_cast<__UnityEngine__UI__Slider__Direction_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -140,7 +151,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: ::SliderEvent
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13061))
 // CS Name: UnityEngine.UI.Slider::SliderEvent
 class CORDL_TYPE UnityEngine__UI__Slider__SliderEvent : public UnityEngine::Events::UnityEvent_1<float_t> {
@@ -179,8 +190,7 @@ constexpr explicit UnityEngine__UI__Slider__SliderEvent(void* ptr) noexcept : Un
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__Slider__SliderEvent() ;
+static UnityEngine::UI::UnityEngine__UI__Slider__SliderEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c0fcd0 size 0x48 virtual false final false
  void _ctor() ;
@@ -238,6 +248,8 @@ __Vertical = 1,
 constexpr operator __UnityEngine__UI__Slider__Axis_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__Slider__Axis_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -504,8 +516,7 @@ constexpr bool __get_m_DelayedUpdateVisuals() const;
 /// @brief Method get_stepSize addr 0x2c0fbe0 size 0x2c virtual false final false
  float_t get_stepSize() ;
 
-// Ctor Parameters []
-explicit Slider() ;
+static UnityEngine::UI::Slider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c0fc0c size 0xc4 virtual false final false
  void _ctor() ;

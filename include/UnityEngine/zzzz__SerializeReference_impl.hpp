@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::SerializeReference::SerializeReference()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<SerializeReference>())) {}
+ UnityEngine::SerializeReference UnityEngine::SerializeReference::New_ctor()  {
+UnityEngine::SerializeReference o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::SerializeReference>())};
+return o;
+}
  void UnityEngine::SerializeReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SerializeReference>::get(),

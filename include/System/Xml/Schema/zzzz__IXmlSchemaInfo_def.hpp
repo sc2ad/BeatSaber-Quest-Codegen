@@ -1,19 +1,19 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 namespace System::Xml::Schema {
-struct XmlSchemaValidity;
-}
-namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
-}
-namespace System::Xml::Schema {
 class XmlSchemaElement;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System::Xml::Schema {
 class XmlSchemaAttribute;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
+struct XmlSchemaValidity;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

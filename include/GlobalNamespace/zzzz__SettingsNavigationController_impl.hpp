@@ -2,6 +2,7 @@
 #include "HMUI/zzzz__NavigationController_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__SettingsNavigationController_def.hpp"
+#include "GlobalNamespace/zzzz__SettingsNavigationController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -212,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, finishAction);
 }
-// Ctor Parameters []
- GlobalNamespace::SettingsNavigationController::SettingsNavigationController()  : HMUI::NavigationController(THROW_UNLESS(::il2cpp_utils::New<SettingsNavigationController>())) {}
+ GlobalNamespace::SettingsNavigationController GlobalNamespace::SettingsNavigationController::New_ctor()  {
+GlobalNamespace::SettingsNavigationController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SettingsNavigationController>())};
+return o;
+}
  void GlobalNamespace::SettingsNavigationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SettingsNavigationController>::get(),

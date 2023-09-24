@@ -59,8 +59,7 @@ constexpr System::Type __get__val() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "defaultInterface", ty: "System::Type", modifiers: "", def_value: None }]
-explicit ComDefaultInterfaceAttribute(System::Type defaultInterface) ;
+static System::Runtime::InteropServices::ComDefaultInterfaceAttribute New_ctor(System::Type defaultInterface) ;
 
 /// @brief Method .ctor addr 0x236abf0 size 0x28 virtual false final false
  void _ctor(System::Type defaultInterface) ;

@@ -5,17 +5,17 @@
 namespace Org::BouncyCastle::Crmf {
 class IControl;
 }
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedData;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PkiArchiveOptions;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -110,8 +110,7 @@ constexpr Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions __get_pkiArchiveOptio
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pkiArchiveOptions", ty: "Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions", modifiers: "", def_value: None }]
-explicit PkiArchiveControl(Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions pkiArchiveOptions) ;
+static Org::BouncyCastle::Crmf::PkiArchiveControl New_ctor(Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions pkiArchiveOptions) ;
 
 /// @brief Method .ctor addr 0x11830b4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions pkiArchiveOptions) ;

@@ -8,40 +8,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class Type;
+class System__Reflection__RuntimePropertyInfo__GetterAdapter;
 }
 namespace System::Reflection {
 struct BindingFlags;
 }
-namespace System::Reflection {
-class Binder;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Reflection {
-class Module;
-}
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-struct RuntimeTypeHandle;
+class SerializationInfo;
 }
 namespace System::Reflection {
-struct PInfo;
-}
-namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+template<typename R>
+class System__Reflection__RuntimePropertyInfo__StaticGetter_1;
 }
 namespace System::Reflection {
 class PropertyInfo;
@@ -49,14 +26,48 @@ class PropertyInfo;
 namespace System::Reflection {
 class RuntimeModule;
 }
-namespace System {
-class RuntimeType;
+namespace System::Reflection {
+class Binder;
 }
 namespace Mono {
 struct RuntimePropertyHandle;
 }
+namespace System {
+class RuntimeType;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Reflection {
+template<typename T,typename R>
+class System__Reflection__RuntimePropertyInfo__Getter_2;
+}
+namespace System::Reflection {
+class Module;
+}
+namespace System {
+class Type;
+}
 namespace System::Reflection {
 struct MonoPropertyInfo;
+}
+namespace System::Reflection {
+struct PInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+struct RuntimeTypeHandle;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -123,8 +134,7 @@ constexpr explicit System__Reflection__RuntimePropertyInfo__GetterAdapter(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Reflection__RuntimePropertyInfo__GetterAdapter(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Reflection::System__Reflection__RuntimePropertyInfo__GetterAdapter New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x238c188 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -345,8 +355,7 @@ static System::Reflection::PropertyInfo internal_from_handle_type(::cordl_intern
 /// @brief Method GetPropertyFromHandle addr 0x238b098 size 0xe8 virtual false final false
 static System::Reflection::PropertyInfo GetPropertyFromHandle(Mono::RuntimePropertyHandle handle, System::RuntimeTypeHandle reflectedType) ;
 
-// Ctor Parameters []
-explicit RuntimePropertyInfo() ;
+static System::Reflection::RuntimePropertyInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x238b180 size 0x1008 virtual false final false
  void _ctor() ;
@@ -360,7 +369,7 @@ namespace System::Reflection {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type R>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3522)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(3522))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3522), inst: 80 })
 // CS Name: System.Reflection.RuntimePropertyInfo::Getter`2
 class CORDL_TYPE System__Reflection__RuntimePropertyInfo__Getter_2<T,R> : public System::MulticastDelegate {
@@ -399,8 +408,7 @@ constexpr explicit System__Reflection__RuntimePropertyInfo__Getter_2(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Reflection__RuntimePropertyInfo__Getter_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2<T,R> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -417,7 +425,7 @@ namespace System::Reflection {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type R>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(3523))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3523)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3523), inst: 2 })
 // CS Name: System.Reflection.RuntimePropertyInfo::StaticGetter`1
 class CORDL_TYPE System__Reflection__RuntimePropertyInfo__StaticGetter_1<R> : public System::MulticastDelegate {
@@ -456,8 +464,7 @@ constexpr explicit System__Reflection__RuntimePropertyInfo__StaticGetter_1(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Reflection__RuntimePropertyInfo__StaticGetter_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1<R> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

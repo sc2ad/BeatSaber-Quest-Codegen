@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
+class DSA;
 }
 namespace System::Security::Cryptography {
-class DSA;
+class AsymmetricAlgorithm;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -71,14 +71,12 @@ constexpr ::StringW __get__oid() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DSASignatureDeformatter() ;
+static System::Security::Cryptography::DSASignatureDeformatter New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f2b28 size 0x80 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "System::Security::Cryptography::AsymmetricAlgorithm", modifiers: "", def_value: None }]
-explicit DSASignatureDeformatter(System::Security::Cryptography::AsymmetricAlgorithm key) ;
+static System::Security::Cryptography::DSASignatureDeformatter New_ctor(System::Security::Cryptography::AsymmetricAlgorithm key) ;
 
 /// @brief Method .ctor addr 0x22f2ba8 size 0xf4 virtual false final false
  void _ctor(System::Security::Cryptography::AsymmetricAlgorithm key) ;

@@ -47,8 +47,7 @@ constexpr explicit SHA256(void* ptr) noexcept : System::Security::Cryptography::
 
 // Methods
 
-// Ctor Parameters []
-explicit SHA256() ;
+static System::Security::Cryptography::SHA256 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22fc20c size 0x20 virtual false final false
  void _ctor() ;

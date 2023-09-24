@@ -2,32 +2,32 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVROverlay_def.hpp"
-#include "OVR/OpenVR/zzzz__VROverlayTransformType_def.hpp"
-#include "OVR/OpenVR/zzzz__EDualAnalogWhich_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVROverlayError_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdMatrix34_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EOverlayDirection_def.hpp"
-#include "OVR/OpenVR/zzzz__VROverlayFlags_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdRect2_t_def.hpp"
-#include "OVR/OpenVR/zzzz__IVROverlay_def.hpp"
-#include "OVR/OpenVR/zzzz__EColorSpace_def.hpp"
-#include "OVR/OpenVR/zzzz__VROverlayInputMethod_def.hpp"
-#include "OVR/OpenVR/zzzz__VRMessageOverlayResponse_def.hpp"
-#include "OVR/OpenVR/zzzz__VREvent_t_def.hpp"
-#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
-#include "OVR/OpenVR/zzzz__Texture_t_def.hpp"
-#include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
-#include "OVR/OpenVR/zzzz__ETextureType_def.hpp"
-#include "OVR/OpenVR/zzzz__VROverlayIntersectionParams_t_def.hpp"
-#include "OVR/OpenVR/zzzz__VROverlayIntersectionResults_t_def.hpp"
+#include "OVR/OpenVR/zzzz__CVROverlay_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector2_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VROverlayIntersectionResults_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EDualAnalogWhich_def.hpp"
+#include "OVR/OpenVR/zzzz__ETextureType_def.hpp"
+#include "OVR/OpenVR/zzzz__VRMessageOverlayResponse_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__Texture_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VREvent_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VROverlayFlags_def.hpp"
+#include "OVR/OpenVR/zzzz__VROverlayIntersectionParams_t_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdRect2_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EOverlayDirection_def.hpp"
+#include "OVR/OpenVR/zzzz__EVROverlayError_def.hpp"
+#include "OVR/OpenVR/zzzz__VROverlayTransformType_def.hpp"
+#include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_def.hpp"
+#include "OVR/OpenVR/zzzz__VROverlayInputMethod_def.hpp"
 #include "OVR/OpenVR/zzzz__VROverlayIntersectionMaskPrimitive_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EColorSpace_def.hpp"
+#include "OVR/OpenVR/zzzz__IVROverlay_def.hpp"
+#include "OVR/OpenVR/zzzz__VREvent_t_Packed_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "OVR/OpenVR/zzzz__VREvent_t_Packed_def.hpp"
-#include "OVR/OpenVR/zzzz__IVROverlay_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked._ctor
 template<>
 
@@ -96,8 +96,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked::OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked OVR::OpenVR::OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__CVROverlay___PollNextOverlayEventPacked>::get(),
@@ -1567,8 +1569,10 @@ constexpr void OVR::OpenVR::CVROverlay::__set_FnTable(OVR::OpenVR::IVROverlay va
 constexpr OVR::OpenVR::IVROverlay OVR::OpenVR::CVROverlay::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVROverlay, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVROverlay::CVROverlay(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVROverlay>(pInterface))) {}
+ OVR::OpenVR::CVROverlay OVR::OpenVR::CVROverlay::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVROverlay o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVROverlay>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVROverlay::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVROverlay>::get(),

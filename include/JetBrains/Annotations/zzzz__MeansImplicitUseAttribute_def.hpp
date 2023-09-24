@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 namespace JetBrains::Annotations {
-struct ImplicitUseTargetFlags;
+struct ImplicitUseKindFlags;
 }
 namespace JetBrains::Annotations {
-struct ImplicitUseKindFlags;
+struct ImplicitUseTargetFlags;
 }
 // Forward declare root types
 namespace JetBrains::Annotations {
@@ -75,26 +75,22 @@ constexpr JetBrains::Annotations::ImplicitUseTargetFlags __get__TargetFlags_k__B
 
 // Methods
 
-// Ctor Parameters []
-explicit MeansImplicitUseAttribute() ;
+static JetBrains::Annotations::MeansImplicitUseAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40d20 size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "useKindFlags", ty: "JetBrains::Annotations::ImplicitUseKindFlags", modifiers: "", def_value: None }]
-explicit MeansImplicitUseAttribute(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags) ;
+static JetBrains::Annotations::MeansImplicitUseAttribute New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags) ;
 
 /// @brief Method .ctor addr 0x2d40d70 size 0x2c virtual false final false
  void _ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags) ;
 
-// Ctor Parameters [CppParam { name: "targetFlags", ty: "JetBrains::Annotations::ImplicitUseTargetFlags", modifiers: "", def_value: None }]
-explicit MeansImplicitUseAttribute(JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) ;
+static JetBrains::Annotations::MeansImplicitUseAttribute New_ctor(JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) ;
 
 /// @brief Method .ctor addr 0x2d40d9c size 0x2c virtual false final false
  void _ctor(JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) ;
 
-// Ctor Parameters [CppParam { name: "useKindFlags", ty: "JetBrains::Annotations::ImplicitUseKindFlags", modifiers: "", def_value: None }, CppParam { name: "targetFlags", ty: "JetBrains::Annotations::ImplicitUseTargetFlags", modifiers: "", def_value: None }]
-explicit MeansImplicitUseAttribute(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) ;
+static JetBrains::Annotations::MeansImplicitUseAttribute New_ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) ;
 
 /// @brief Method .ctor addr 0x2d40d44 size 0x2c virtual false final false
  void _ctor(JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags targetFlags) ;

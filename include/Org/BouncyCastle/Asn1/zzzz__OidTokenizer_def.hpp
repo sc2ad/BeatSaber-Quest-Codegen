@@ -69,8 +69,7 @@ constexpr int32_t __get_index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit OidTokenizer(::StringW oid) ;
+static Org::BouncyCastle::Asn1::OidTokenizer New_ctor(::StringW oid) ;
 
 /// @brief Method .ctor addr 0x113b914 size 0x28 virtual false final false
  void _ctor(::StringW oid) ;

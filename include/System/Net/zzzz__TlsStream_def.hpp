@@ -5,23 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Net::Security {
-class SslStream;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+namespace System::Net::Sockets {
+class Socket;
 }
 namespace System::Net::Sockets {
 class NetworkStream;
 }
-namespace System::Net::Sockets {
-class Socket;
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
-namespace System {
-class AsyncCallback;
+namespace System::Net::Security {
+class SslStream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -90,8 +90,7 @@ constexpr System::Security::Cryptography::X509Certificates::X509CertificateColle
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::Net::Sockets::NetworkStream", modifiers: "", def_value: None }, CppParam { name: "socket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }, CppParam { name: "host", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "clientCertificates", ty: "System::Security::Cryptography::X509Certificates::X509CertificateCollection", modifiers: "", def_value: None }]
-explicit TlsStream(System::Net::Sockets::NetworkStream stream, System::Net::Sockets::Socket socket, ::StringW host, System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates) ;
+static System::Net::TlsStream New_ctor(System::Net::Sockets::NetworkStream stream, System::Net::Sockets::Socket socket, ::StringW host, System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates) ;
 
 /// @brief Method .ctor addr 0x27f8ba0 size 0xd4 virtual false final false
  void _ctor(System::Net::Sockets::NetworkStream stream, System::Net::Sockets::Socket socket, ::StringW host, System::Security::Cryptography::X509Certificates::X509CertificateCollection clientCertificates) ;

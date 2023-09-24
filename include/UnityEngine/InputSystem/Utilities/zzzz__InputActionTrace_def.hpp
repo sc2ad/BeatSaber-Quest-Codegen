@@ -5,61 +5,67 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputAction__CallbackContext;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct InlinedArray_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem {
-class InputActionState;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionChange;
+class IEnumerator_1;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace UnityEngine::InputSystem::Utilities {
+struct UnityEngine__InputSystem__Utilities__InputActionTrace__ActionEventPtr;
+}
 namespace UnityEngine::InputSystem {
 class InputActionMap;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventBuffer;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct InlinedArray_1;
+}
+namespace UnityEngine::InputSystem {
+class InputActionState;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionChange;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct UnityEngine__InputSystem__Utilities__InputActionTrace__Enumerator;
+}
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::InputSystem {
-class InputControl;
+struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem {
 class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
-struct InputActionPhase;
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -428,20 +434,17 @@ constexpr System::Action_2<::bs_hook::Il2CppWrapperType,UnityEngine::InputSystem
 /// @brief Method get_count addr 0x297ab88 size 0x8 virtual false final false
  int32_t get_count() ;
 
-// Ctor Parameters []
-explicit InputActionTrace() ;
+static UnityEngine::InputSystem::Utilities::InputActionTrace New_ctor() ;
 
 /// @brief Method .ctor addr 0x297ab90 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "action", ty: "UnityEngine::InputSystem::InputAction", modifiers: "", def_value: None }]
-explicit InputActionTrace(UnityEngine::InputSystem::InputAction action) ;
+static UnityEngine::InputSystem::Utilities::InputActionTrace New_ctor(UnityEngine::InputSystem::InputAction action) ;
 
 /// @brief Method .ctor addr 0x297ab98 size 0x7c virtual false final false
  void _ctor(UnityEngine::InputSystem::InputAction action) ;
 
-// Ctor Parameters [CppParam { name: "actionMap", ty: "UnityEngine::InputSystem::InputActionMap", modifiers: "", def_value: None }]
-explicit InputActionTrace(UnityEngine::InputSystem::InputActionMap actionMap) ;
+static UnityEngine::InputSystem::Utilities::InputActionTrace New_ctor(UnityEngine::InputSystem::InputActionMap actionMap) ;
 
 /// @brief Method .ctor addr 0x297ad48 size 0x7c virtual false final false
  void _ctor(UnityEngine::InputSystem::InputActionMap actionMap) ;

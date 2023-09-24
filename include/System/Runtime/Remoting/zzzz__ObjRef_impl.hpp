@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 #include "System/Runtime/Remoting/zzzz__IChannelInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
 #include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Remoting/zzzz__IEnvoyInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Remoting/zzzz__IEnvoyInfo_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::ObjRef._ctor
 template<>
 
@@ -370,8 +370,10 @@ return ::cordl_internals::getStaticField<int32_t, "MarshalledObjectRef", ::il2cp
  int32_t System::Runtime::Remoting::ObjRef::__get_WellKnowObjectRef()  {
 return ::cordl_internals::getStaticField<int32_t, "WellKnowObjectRef", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ObjRef>::get>();
 }
-// Ctor Parameters []
- System::Runtime::Remoting::ObjRef::ObjRef()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjRef>())) {}
+ System::Runtime::Remoting::ObjRef System::Runtime::Remoting::ObjRef::New_ctor()  {
+System::Runtime::Remoting::ObjRef o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ObjRef>())};
+return o;
+}
  void System::Runtime::Remoting::ObjRef::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ObjRef>::get(),
@@ -381,8 +383,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cinfo", ty: "System::Runtime::Remoting::IChannelInfo", modifiers: "", def_value: None }]
- System::Runtime::Remoting::ObjRef::ObjRef(::StringW uri, System::Runtime::Remoting::IChannelInfo cinfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjRef>(uri, cinfo))) {}
+ System::Runtime::Remoting::ObjRef System::Runtime::Remoting::ObjRef::New_ctor(::StringW uri, System::Runtime::Remoting::IChannelInfo cinfo)  {
+System::Runtime::Remoting::ObjRef o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ObjRef>(uri, cinfo))};
+return o;
+}
  void System::Runtime::Remoting::ObjRef::_ctor(::StringW uri, System::Runtime::Remoting::IChannelInfo cinfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ObjRef>::get(),
@@ -410,8 +414,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "remoteChannelData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Runtime::Remoting::ObjRef::ObjRef(System::Type type, ::StringW url, ::bs_hook::Il2CppWrapperType remoteChannelData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjRef>(type, url, remoteChannelData))) {}
+ System::Runtime::Remoting::ObjRef System::Runtime::Remoting::ObjRef::New_ctor(System::Type type, ::StringW url, ::bs_hook::Il2CppWrapperType remoteChannelData)  {
+System::Runtime::Remoting::ObjRef o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ObjRef>(type, url, remoteChannelData))};
+return o;
+}
  void System::Runtime::Remoting::ObjRef::_ctor(System::Type type, ::StringW url, ::bs_hook::Il2CppWrapperType remoteChannelData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ObjRef>::get(),
@@ -421,8 +427,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, url, remoteChannelData);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::Remoting::ObjRef::ObjRef(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjRef>(info, context))) {}
+ System::Runtime::Remoting::ObjRef System::Runtime::Remoting::ObjRef::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::Remoting::ObjRef o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ObjRef>(info, context))};
+return o;
+}
  void System::Runtime::Remoting::ObjRef::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ObjRef>::get(),

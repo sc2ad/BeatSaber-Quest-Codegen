@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Signers {
-class IDsaEncoding;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaEncoding;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -88,8 +88,7 @@ static Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding __get_Instance() 
 /// @brief Method EncodeValue addr 0xeca41c size 0x94 virtual true final false
  Org::BouncyCastle::Asn1::DerInteger EncodeValue(Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger x) ;
 
-// Ctor Parameters []
-explicit StandardDsaEncoding() ;
+static Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding New_ctor() ;
 
 /// @brief Method .ctor addr 0xeca514 size 0x8 virtual false final false
  void _ctor() ;

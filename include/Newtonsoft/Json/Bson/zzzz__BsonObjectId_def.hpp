@@ -69,8 +69,7 @@ constexpr ::ArrayW<uint8_t> __get__Value_k__BackingField() const;
 /// @brief Method set_Value addr 0x2551ab8 size 0x8 virtual false final false
  void set_Value(::ArrayW<uint8_t> value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit BsonObjectId(::ArrayW<uint8_t> value) ;
+static Newtonsoft::Json::Bson::BsonObjectId New_ctor(::ArrayW<uint8_t> value) ;
 
 /// @brief Method .ctor addr 0x2551ac0 size 0xe0 virtual false final false
  void _ctor(::ArrayW<uint8_t> value) ;

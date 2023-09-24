@@ -83,8 +83,7 @@ constexpr HMUI::SegmentedControl __get__segmentedControl() const;
 /// @brief Method InternalToggle addr 0x1fad134 size 0x24 virtual true final false
  void InternalToggle() ;
 
-// Ctor Parameters []
-explicit SegmentedControlCell() ;
+static HMUI::SegmentedControlCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fac87c size 0x8 virtual false final false
  void _ctor() ;

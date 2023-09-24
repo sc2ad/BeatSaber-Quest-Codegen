@@ -3,27 +3,30 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputEventTypeInfo;
-}
 namespace Unity::Collections {
 struct Allocator;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
-namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__DeltaStateEvent___stateData_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
+}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputEventTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

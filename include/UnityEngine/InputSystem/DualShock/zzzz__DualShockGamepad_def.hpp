@@ -1,8 +1,8 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_def.hpp"
-namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::InputSystem::Haptics {
 class IHaptics;
@@ -10,11 +10,11 @@ class IHaptics;
 namespace UnityEngine::InputSystem::DualShock {
 class IDualShockHaptics;
 }
+namespace UnityEngine::InputSystem::Haptics {
+class IDualMotorRumble;
+}
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::DualShock {
@@ -229,8 +229,7 @@ static void set_current(UnityEngine::InputSystem::DualShock::DualShockGamepad va
 /// @brief Method SetLightBarColor addr 0x2952fac size 0x4 virtual true final false
  void SetLightBarColor(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit DualShockGamepad() ;
+static UnityEngine::InputSystem::DualShock::DualShockGamepad New_ctor() ;
 
 /// @brief Method .ctor addr 0x2952fb0 size 0x8 virtual false final false
  void _ctor() ;

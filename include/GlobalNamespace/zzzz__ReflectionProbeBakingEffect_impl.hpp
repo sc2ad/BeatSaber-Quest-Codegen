@@ -52,8 +52,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, src, dest);
 }
-// Ctor Parameters []
- GlobalNamespace::ReflectionProbeBakingEffect::ReflectionProbeBakingEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ReflectionProbeBakingEffect>())) {}
+ GlobalNamespace::ReflectionProbeBakingEffect GlobalNamespace::ReflectionProbeBakingEffect::New_ctor()  {
+GlobalNamespace::ReflectionProbeBakingEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ReflectionProbeBakingEffect>())};
+return o;
+}
  void GlobalNamespace::ReflectionProbeBakingEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ReflectionProbeBakingEffect>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "System/ComponentModel/zzzz__ExtendedPropertyDescriptor_def.hpp"
-#include "System/ComponentModel/zzzz__ReflectPropertyDescriptor_def.hpp"
 #include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
+#include "System/ComponentModel/zzzz__ReflectPropertyDescriptor_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::ComponentModel::ExtendedPropertyDescriptor._ctor
 template<>
@@ -187,8 +187,10 @@ constexpr void System::ComponentModel::ExtendedPropertyDescriptor::__set__provid
 constexpr System::ComponentModel::IExtenderProvider System::ComponentModel::ExtendedPropertyDescriptor::__get__provider() const {
 return ::cordl_internals::getInstanceField<System::ComponentModel::IExtenderProvider, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "extenderInfo", ty: "System::ComponentModel::ReflectPropertyDescriptor", modifiers: "", def_value: None }, CppParam { name: "receiverType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "System::ComponentModel::IExtenderProvider", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
- System::ComponentModel::ExtendedPropertyDescriptor::ExtendedPropertyDescriptor(System::ComponentModel::ReflectPropertyDescriptor extenderInfo, System::Type receiverType, System::ComponentModel::IExtenderProvider provider, ::ArrayW<System::Attribute> attributes)  : System::ComponentModel::PropertyDescriptor(THROW_UNLESS(::il2cpp_utils::New<ExtendedPropertyDescriptor>(extenderInfo, receiverType, provider, attributes))) {}
+ System::ComponentModel::ExtendedPropertyDescriptor System::ComponentModel::ExtendedPropertyDescriptor::New_ctor(System::ComponentModel::ReflectPropertyDescriptor extenderInfo, System::Type receiverType, System::ComponentModel::IExtenderProvider provider, ::ArrayW<System::Attribute> attributes)  {
+System::ComponentModel::ExtendedPropertyDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ExtendedPropertyDescriptor>(extenderInfo, receiverType, provider, attributes))};
+return o;
+}
  void System::ComponentModel::ExtendedPropertyDescriptor::_ctor(System::ComponentModel::ReflectPropertyDescriptor extenderInfo, System::Type receiverType, System::ComponentModel::IExtenderProvider provider, ::ArrayW<System::Attribute> attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ExtendedPropertyDescriptor>::get(),

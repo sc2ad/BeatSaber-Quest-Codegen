@@ -95,8 +95,10 @@ constexpr void System::Text::EncoderFallbackException::__set__index(int32_t valu
 constexpr int32_t System::Text::EncoderFallbackException::__get__index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::EncoderFallbackException::EncoderFallbackException()  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<EncoderFallbackException>())) {}
+ System::Text::EncoderFallbackException System::Text::EncoderFallbackException::New_ctor()  {
+System::Text::EncoderFallbackException o{THROW_UNLESS(::il2cpp_utils::New<System::Text::EncoderFallbackException>())};
+return o;
+}
  void System::Text::EncoderFallbackException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::EncoderFallbackException>::get(),
@@ -106,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "charUnknown", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::EncoderFallbackException::EncoderFallbackException(::StringW message, char16_t charUnknown, int32_t index)  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<EncoderFallbackException>(message, charUnknown, index))) {}
+ System::Text::EncoderFallbackException System::Text::EncoderFallbackException::New_ctor(::StringW message, char16_t charUnknown, int32_t index)  {
+System::Text::EncoderFallbackException o{THROW_UNLESS(::il2cpp_utils::New<System::Text::EncoderFallbackException>(message, charUnknown, index))};
+return o;
+}
  void System::Text::EncoderFallbackException::_ctor(::StringW message, char16_t charUnknown, int32_t index)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::EncoderFallbackException>::get(),
@@ -117,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, charUnknown, index);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "charUnknownHigh", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "charUnknownLow", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::EncoderFallbackException::EncoderFallbackException(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index)  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<EncoderFallbackException>(message, charUnknownHigh, charUnknownLow, index))) {}
+ System::Text::EncoderFallbackException System::Text::EncoderFallbackException::New_ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index)  {
+System::Text::EncoderFallbackException o{THROW_UNLESS(::il2cpp_utils::New<System::Text::EncoderFallbackException>(message, charUnknownHigh, charUnknownLow, index))};
+return o;
+}
  void System::Text::EncoderFallbackException::_ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::EncoderFallbackException>::get(),
@@ -128,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, charUnknownHigh, charUnknownLow, index);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Text::EncoderFallbackException::EncoderFallbackException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<EncoderFallbackException>(serializationInfo, streamingContext))) {}
+ System::Text::EncoderFallbackException System::Text::EncoderFallbackException::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Text::EncoderFallbackException o{THROW_UNLESS(::il2cpp_utils::New<System::Text::EncoderFallbackException>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Text::EncoderFallbackException::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::EncoderFallbackException>::get(),

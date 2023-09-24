@@ -3,37 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteMissInfoNetSerializable;
-}
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettingsNetSerializable;
-}
-namespace GlobalNamespace {
 class NoteSpawnInfoNetSerializable;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettingsAtStartNetSerializable;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 namespace GlobalNamespace {
 class SliderSpawnInfoNetSerializable;
@@ -41,9 +11,39 @@ class SliderSpawnInfoNetSerializable;
 namespace GlobalNamespace {
 class ObstacleSpawnInfoNetSerializable;
 }
+namespace GlobalNamespace {
+class NoteCutInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsNetSerializable;
+}
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4>
 class Action_4;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+class Action_3;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsAtStartNetSerializable;
+}
+namespace GlobalNamespace {
+class NoteMissInfoNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

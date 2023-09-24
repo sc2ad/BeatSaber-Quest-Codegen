@@ -57,8 +57,7 @@ constexpr int32_t __get_number() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NumberTag() ;
+static GlobalNamespace::NumberTag New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7905c size 0x8 virtual false final false
  void _ctor() ;

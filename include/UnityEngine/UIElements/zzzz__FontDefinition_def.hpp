@@ -4,15 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class IEquatable_1;
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
 }
-namespace UnityEngine {
-class Font;
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

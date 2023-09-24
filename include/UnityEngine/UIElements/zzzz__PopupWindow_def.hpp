@@ -5,9 +5,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine::UIElements {
+class UxmlChildElementDescription;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -16,17 +26,16 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-class UxmlChildElementDescription;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class UnityEngine__UIElements__PopupWindow__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__PopupWindow__UxmlTraits;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -93,8 +102,7 @@ constexpr explicit UnityEngine__UIElements__PopupWindow__UxmlTraits(void* ptr) n
 /// @brief Method get_uxmlChildElementsDescription addr 0x2ca2dd8 size 0x64 virtual true final false
  System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::UxmlChildElementDescription> get_uxmlChildElementsDescription() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__PopupWindow__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ca2e80 size 0x8 virtual false final false
  void _ctor() ;
@@ -175,8 +183,7 @@ static ::StringW __get_contentUssClassName() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit PopupWindow() ;
+static UnityEngine::UIElements::PopupWindow New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ca2c04 size 0x12c virtual false final false
  void _ctor() ;
@@ -191,7 +198,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5096 }), TypeDefinitionIndex(TypeDefinitionIndex(7123)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7122))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7123)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5096 }), TypeDefinitionIndex(TypeDefinitionIndex(7122))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7120))
 // CS Name: UnityEngine.UIElements.PopupWindow::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__PopupWindow__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::PopupWindow,UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTraits> {
@@ -230,8 +237,7 @@ constexpr explicit UnityEngine__UIElements__PopupWindow__UxmlFactory(void* ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__PopupWindow__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c9a454 size 0x48 virtual false final false
  void _ctor() ;
@@ -331,8 +337,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__PopupWindow__UxmlTra
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__UIElements__PopupWindow__UxmlTraits___get_uxmlChildElementsDescription_d__1 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2ca2e3c size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;

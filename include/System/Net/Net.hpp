@@ -79,6 +79,7 @@
 #include "System/Net/ICredentials.hpp"
 #include "System/Net/IPAddress.hpp"
 #include "System/Net/IPAddressParser.hpp"
+#include "System/Net/IPAddress_ReadOnlyIPAddress.hpp"
 #include "System/Net/IPEndPoint.hpp"
 #include "System/Net/IPHostEntry.hpp"
 #include "System/Net/IWebProxy.hpp"

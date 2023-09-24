@@ -2,10 +2,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Newtonsoft::Json::Linq {
-struct CommentHandling;
+struct LineInfoHandling;
 }
 namespace Newtonsoft::Json::Linq {
-struct LineInfoHandling;
+struct CommentHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -87,8 +87,7 @@ constexpr Newtonsoft::Json::Linq::LineInfoHandling __get__lineInfoHandling() con
 /// @brief Method set_LineInfoHandling addr 0x2518e9c size 0x64 virtual false final false
  void set_LineInfoHandling(Newtonsoft::Json::Linq::LineInfoHandling value) ;
 
-// Ctor Parameters []
-explicit JsonLoadSettings() ;
+static Newtonsoft::Json::Linq::JsonLoadSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2518f00 size 0x8 virtual false final false
  void _ctor() ;

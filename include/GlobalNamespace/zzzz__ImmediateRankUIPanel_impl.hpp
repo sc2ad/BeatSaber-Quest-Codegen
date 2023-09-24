@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ImmediateRankUIPanel_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "GlobalNamespace/zzzz__RelativeScoreAndImmediateRankCounter_def.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
+#include "GlobalNamespace/zzzz__RelativeScoreAndImmediateRankCounter_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ImmediateRankUIPanel.Start
 template<>
 
@@ -136,8 +136,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ImmediateRankUIPanel::ImmediateRankUIPanel()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ImmediateRankUIPanel>())) {}
+ GlobalNamespace::ImmediateRankUIPanel GlobalNamespace::ImmediateRankUIPanel::New_ctor()  {
+GlobalNamespace::ImmediateRankUIPanel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ImmediateRankUIPanel>())};
+return o;
+}
  void GlobalNamespace::ImmediateRankUIPanel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ImmediateRankUIPanel>::get(),

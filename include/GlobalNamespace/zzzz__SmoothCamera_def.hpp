@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 class MainCamera;
 }
 namespace UnityEngine {
 class Camera;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -114,8 +114,7 @@ constexpr float_t __get__positionSmooth() const;
 /// @brief Method LateUpdate addr 0x21105bc size 0x1f4 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit SmoothCamera() ;
+static GlobalNamespace::SmoothCamera New_ctor() ;
 
 /// @brief Method .ctor addr 0x21107b0 size 0x8 virtual false final false
  void _ctor() ;

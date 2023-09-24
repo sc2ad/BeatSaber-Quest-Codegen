@@ -65,14 +65,12 @@ constexpr ::ArrayW<uint8_t> __get_idData() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit UserIdPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::UserIdPacket New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1144c80 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UserIdPacket(::StringW id) ;
+static Org::BouncyCastle::Bcpg::UserIdPacket New_ctor(::StringW id) ;
 
 /// @brief Method .ctor addr 0x114b124 size 0x4c virtual false final false
  void _ctor(::StringW id) ;

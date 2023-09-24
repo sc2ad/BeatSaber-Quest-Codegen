@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__TimelineCreateUtilities_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimelineCreateUtilities_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0._ctor
 template<>
 
@@ -46,8 +47,10 @@ constexpr void UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtili
 constexpr ::StringW UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0::__get_name() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0>())) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0 UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0::New_ctor()  {
+UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0>())};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_0>::get(),
@@ -106,8 +109,10 @@ constexpr void UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtili
 constexpr ::StringW UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1::__get_result() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1>())) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1 UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1::New_ctor()  {
+UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1>())};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__TimelineCreateUtilities____c__DisplayClass0_1>::get(),

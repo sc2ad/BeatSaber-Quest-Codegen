@@ -56,8 +56,7 @@ constexpr bool __get_enableUpaCheck() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlSchemaCompilationSettings() ;
+static System::Xml::Schema::XmlSchemaCompilationSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2733978 size 0x20 virtual false final false
  void _ctor() ;

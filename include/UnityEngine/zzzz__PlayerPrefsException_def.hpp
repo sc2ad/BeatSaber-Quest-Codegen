@@ -48,8 +48,7 @@ constexpr explicit PlayerPrefsException(void* ptr) noexcept : System::Exception(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "error", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PlayerPrefsException(::StringW error) ;
+static UnityEngine::PlayerPrefsException New_ctor(::StringW error) ;
 
 /// @brief Method .ctor addr 0x2b28b50 size 0x68 virtual false final false
  void _ctor(::StringW error) ;

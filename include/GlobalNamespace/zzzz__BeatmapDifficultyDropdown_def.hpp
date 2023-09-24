@@ -11,8 +11,15 @@ class Tuple_2;
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
 namespace HMUI {
 class DropdownWithTableView;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapDifficultyDropdown____c;
 }
 namespace HMUI {
 class SimpleTextDropdown;
@@ -20,10 +27,6 @@ class SimpleTextDropdown;
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -93,8 +96,7 @@ static System::Func_2<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask,::S
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapDifficultyDropdown____c() ;
+static GlobalNamespace::GlobalNamespace__BeatmapDifficultyDropdown____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x214d310 size 0x8 virtual false final false
  void _ctor() ;
@@ -217,8 +219,7 @@ constexpr bool __get__includeAllDifficulties_k__BackingField() const;
 /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx addr 0x214d280 size 0x24 virtual false final false
  void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
 
-// Ctor Parameters []
-explicit BeatmapDifficultyDropdown() ;
+static GlobalNamespace::BeatmapDifficultyDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x214d2a4 size 0x8 virtual false final false
  void _ctor() ;

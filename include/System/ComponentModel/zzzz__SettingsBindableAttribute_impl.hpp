@@ -87,8 +87,10 @@ constexpr void System::ComponentModel::SettingsBindableAttribute::__set__Bindabl
 constexpr bool System::ComponentModel::SettingsBindableAttribute::__get__Bindable_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindable", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::SettingsBindableAttribute::SettingsBindableAttribute(bool bindable)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<SettingsBindableAttribute>(bindable))) {}
+ System::ComponentModel::SettingsBindableAttribute System::ComponentModel::SettingsBindableAttribute::New_ctor(bool bindable)  {
+System::ComponentModel::SettingsBindableAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::SettingsBindableAttribute>(bindable))};
+return o;
+}
  void System::ComponentModel::SettingsBindableAttribute::_ctor(bool bindable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::SettingsBindableAttribute>::get(),

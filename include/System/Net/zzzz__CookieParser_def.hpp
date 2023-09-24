@@ -63,8 +63,7 @@ constexpr System::Net::CookieTokenizer __get_m_tokenizer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cookieString", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CookieParser(::StringW cookieString) ;
+static System::Net::CookieParser New_ctor(::StringW cookieString) ;
 
 /// @brief Method .ctor addr 0x281bf7c size 0x78 virtual false final false
  void _ctor(::StringW cookieString) ;

@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class ResponderID;
@@ -66,20 +66,17 @@ constexpr Org::BouncyCastle::Asn1::Ocsp::ResponderID __get_id() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Ocsp::ResponderID", modifiers: "", def_value: None }]
-explicit RespID(Org::BouncyCastle::Asn1::Ocsp::ResponderID id) ;
+static Org::BouncyCastle::Ocsp::RespID New_ctor(Org::BouncyCastle::Asn1::Ocsp::ResponderID id) ;
 
 /// @brief Method .ctor addr 0x100fd44 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::ResponderID id) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
-explicit RespID(Org::BouncyCastle::Asn1::X509::X509Name name) ;
+static Org::BouncyCastle::Ocsp::RespID New_ctor(Org::BouncyCastle::Asn1::X509::X509Name name) ;
 
 /// @brief Method .ctor addr 0x1018bc4 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name name) ;
 
-// Ctor Parameters [CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit RespID(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
+static Org::BouncyCastle::Ocsp::RespID New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
 
 /// @brief Method .ctor addr 0x1011064 size 0x210 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
- System::Diagnostics::TraceSwitch::TraceSwitch(::StringW displayName, ::StringW description)  : System::Diagnostics::Switch(THROW_UNLESS(::il2cpp_utils::New<TraceSwitch>(displayName, description))) {}
+ System::Diagnostics::TraceSwitch System::Diagnostics::TraceSwitch::New_ctor(::StringW displayName, ::StringW description)  {
+System::Diagnostics::TraceSwitch o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::TraceSwitch>(displayName, description))};
+return o;
+}
  void System::Diagnostics::TraceSwitch::_ctor(::StringW displayName, ::StringW description)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::TraceSwitch>::get(),

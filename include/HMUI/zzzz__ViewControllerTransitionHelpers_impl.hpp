@@ -1,11 +1,11 @@
 #pragma once
 #include "HMUI/zzzz__ViewControllerTransitionHelpers_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
+#include "HMUI/zzzz__ViewControllerTransitionHelpers_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3._ctor
 template<>
 
@@ -156,8 +156,10 @@ constexpr void HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition
 constexpr float_t HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3::__get_moveOffsetMultiplier() const {
 return ::cordl_internals::getInstanceField<float_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3>(__1__state))) {}
+ HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3 HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3>(__1__state))};
+return o;
+}
  void HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3>::get(),
@@ -362,8 +364,10 @@ constexpr void HMUI::HMUI__ViewControllerTransitionHelpers___DoDismissTransition
 constexpr float_t HMUI::HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4::__get_moveOffsetMultiplier() const {
 return ::cordl_internals::getInstanceField<float_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4::HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4>(__1__state))) {}
+ HMUI::HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4 HMUI::HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4>(__1__state))};
+return o;
+}
  void HMUI::HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4>::get(),
@@ -476,8 +480,10 @@ constexpr void HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0
 constexpr float_t HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0::__get_baseCanvasGroupAlpha() const {
 return ::cordl_internals::getInstanceField<float_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0>())) {}
+ HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0 HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0::New_ctor()  {
+HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0>())};
+return o;
+}
  void HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0>::get(),
@@ -646,8 +652,10 @@ constexpr void HMUI::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransit
 constexpr HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0 HMUI::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::__get___8__1() const {
 return ::cordl_internals::getInstanceField<HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5>(__1__state))) {}
+ HMUI::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5 HMUI::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5>(__1__state))};
+return o;
+}
  void HMUI::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5>::get(),
@@ -760,8 +768,10 @@ constexpr void HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0
 constexpr HMUI::ViewController HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0::__get_toDismissViewController() const {
 return ::cordl_internals::getInstanceField<HMUI::ViewController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0>())) {}
+ HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0 HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0::New_ctor()  {
+HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0>())};
+return o;
+}
  void HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0>::get(),
@@ -930,8 +940,10 @@ constexpr void HMUI::HMUI__ViewControllerTransitionHelpers___DoVerticalTransitio
 constexpr HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0 HMUI::HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::__get___8__1() const {
 return ::cordl_internals::getInstanceField<HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6>(__1__state))) {}
+ HMUI::HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6 HMUI::HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6>(__1__state))};
+return o;
+}
  void HMUI::HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6>::get(),
@@ -1124,8 +1136,10 @@ constexpr void HMUI::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_
 constexpr float_t HMUI::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::__get__elapsedTime_5__2() const {
 return ::cordl_internals::getInstanceField<float_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8>(__1__state))) {}
+ HMUI::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8 HMUI::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8>(__1__state))};
+return o;
+}
  void HMUI::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8>::get(),
@@ -1353,8 +1367,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(nullptr, ___internal_method, transitionAnimation);
 }
-// Ctor Parameters []
- HMUI::ViewControllerTransitionHelpers::ViewControllerTransitionHelpers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ViewControllerTransitionHelpers>())) {}
+ HMUI::ViewControllerTransitionHelpers HMUI::ViewControllerTransitionHelpers::New_ctor()  {
+HMUI::ViewControllerTransitionHelpers o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ViewControllerTransitionHelpers>())};
+return o;
+}
  void HMUI::ViewControllerTransitionHelpers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ViewControllerTransitionHelpers>::get(),

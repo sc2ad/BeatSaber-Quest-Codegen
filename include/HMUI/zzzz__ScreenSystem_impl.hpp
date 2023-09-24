@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScreenSystem_def.hpp"
-#include "HMUI/zzzz__TitleViewController_def.hpp"
 #include "HMUI/zzzz__Screen_def.hpp"
+#include "HMUI/zzzz__TitleViewController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
 //  Writing Method size for method: HMUI::ScreenSystem.get_titleViewController
 template<>
 
@@ -386,8 +386,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, visible, animated);
 }
-// Ctor Parameters []
- HMUI::ScreenSystem::ScreenSystem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScreenSystem>())) {}
+ HMUI::ScreenSystem HMUI::ScreenSystem::New_ctor()  {
+HMUI::ScreenSystem o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ScreenSystem>())};
+return o;
+}
  void HMUI::ScreenSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ScreenSystem>::get(),

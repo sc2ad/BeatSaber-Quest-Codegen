@@ -73,14 +73,12 @@ static Org::BouncyCastle::Pkix::ReasonsMask __get_AllReasons() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reasons", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ReasonsMask(int32_t reasons) ;
+static Org::BouncyCastle::Pkix::ReasonsMask New_ctor(int32_t reasons) ;
 
 /// @brief Method .ctor addr 0x10871a4 size 0x28 virtual false final false
  void _ctor(int32_t reasons) ;
 
-// Ctor Parameters []
-explicit ReasonsMask() ;
+static Org::BouncyCastle::Pkix::ReasonsMask New_ctor() ;
 
 /// @brief Method .ctor addr 0x10871cc size 0x1c virtual false final false
  void _ctor() ;

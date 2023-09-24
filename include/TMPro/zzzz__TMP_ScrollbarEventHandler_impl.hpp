@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_ScrollbarEventHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 //  Writing Method size for method: TMPro::TMP_ScrollbarEventHandler.OnPointerClick
 template<>
 
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, eventData);
 }
-// Ctor Parameters []
- TMPro::TMP_ScrollbarEventHandler::TMP_ScrollbarEventHandler()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TMP_ScrollbarEventHandler>())) {}
+ TMPro::TMP_ScrollbarEventHandler TMPro::TMP_ScrollbarEventHandler::New_ctor()  {
+TMPro::TMP_ScrollbarEventHandler o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_ScrollbarEventHandler>())};
+return o;
+}
  void TMPro::TMP_ScrollbarEventHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_ScrollbarEventHandler>::get(),

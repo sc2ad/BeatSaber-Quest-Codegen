@@ -2,9 +2,9 @@
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_char_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::Datatype_char.get_ValueType
 template<>
 
@@ -164,8 +164,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Exception, false>(const_cast<void*>(instance), ___internal_method, s, nameTable, nsmgr, typedValue);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_char::Datatype_char()  : System::Xml::Schema::Datatype_anySimpleType(THROW_UNLESS(::il2cpp_utils::New<Datatype_char>())) {}
+ System::Xml::Schema::Datatype_char System::Xml::Schema::Datatype_char::New_ctor()  {
+System::Xml::Schema::Datatype_char o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_char>())};
+return o;
+}
  void System::Xml::Schema::Datatype_char::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_char>::get(),

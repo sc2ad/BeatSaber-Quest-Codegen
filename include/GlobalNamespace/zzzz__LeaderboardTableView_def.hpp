@@ -6,20 +6,23 @@
 #include <cmath>
 #include <cstdint>
 namespace HMUI {
+class HMUI__TableView__IDataSource;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace HMUI {
 class TableCell;
 }
 namespace HMUI {
 class TableView;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__LeaderboardTableView__ScoreData;
+}
+namespace GlobalNamespace {
 class LeaderboardTableCell;
-}
-namespace HMUI {
-class HMUI__TableView__IDataSource;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +135,7 @@ constexpr bool __get__fullCombo_k__BackingField() const;
 /// @brief Method set_fullCombo addr 0x21894cc size 0xc virtual false final false
  void set_fullCombo(bool value) ;
 
-// Ctor Parameters [CppParam { name: "score", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullCombo", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LeaderboardTableView__ScoreData(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo) ;
+static GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData New_ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo) ;
 
 /// @brief Method .ctor addr 0x21894d8 size 0x4c virtual false final false
  void _ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo) ;
@@ -237,8 +239,7 @@ constexpr int32_t __get__specialScorePos() const;
 /// @brief Method SetScores addr 0x2189454 size 0x30 virtual false final false
  void SetScores(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__LeaderboardTableView__ScoreData> scores, int32_t specialScorePos) ;
 
-// Ctor Parameters []
-explicit LeaderboardTableView() ;
+static GlobalNamespace::LeaderboardTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2189484 size 0x10 virtual false final false
  void _ctor() ;

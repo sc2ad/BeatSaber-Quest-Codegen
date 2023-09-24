@@ -2,24 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Newtonsoft::Json::Serialization {
-class ExtensionDataSetter;
-}
-namespace Newtonsoft::Json {
-struct Required;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonPropertyCollection;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json::Serialization {
-class ExtensionDataGetter;
-}
-namespace Newtonsoft::Json {
-struct MemberSerialization;
-}
 namespace System::Reflection {
 class ConstructorInfo;
 }
@@ -27,9 +9,27 @@ namespace System {
 template<typename T>
 struct Nullable_1;
 }
+namespace Newtonsoft::Json {
+struct MemberSerialization;
+}
+namespace Newtonsoft::Json::Serialization {
+class ExtensionDataGetter;
+}
+namespace Newtonsoft::Json {
+struct Required;
+}
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonPropertyCollection;
+}
 namespace Newtonsoft::Json::Serialization {
 template<typename T>
 class ObjectConstructor_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class ExtensionDataSetter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -253,8 +253,7 @@ constexpr System::Type __get__extensionDataValueType() const;
 /// @brief Method get_HasRequiredOrDefaultValueProperties addr 0x2502d44 size 0x3f4 virtual false final false
  bool get_HasRequiredOrDefaultValueProperties() ;
 
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JsonObjectContract(System::Type underlyingType) ;
+static Newtonsoft::Json::Serialization::JsonObjectContract New_ctor(System::Type underlyingType) ;
 
 /// @brief Method .ctor addr 0x24f7ef0 size 0x88 virtual false final false
  void _ctor(System::Type underlyingType) ;

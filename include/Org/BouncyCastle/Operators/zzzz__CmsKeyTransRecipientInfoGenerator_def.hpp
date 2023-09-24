@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Cms/zzzz__KeyTransRecipientInfoGenerator_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class IKeyWrapper;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Operators {
@@ -75,14 +75,12 @@ constexpr Org::BouncyCastle::Crypto::IKeyWrapper __get_keyWrapper() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "recipCert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "keyWrapper", ty: "Org::BouncyCastle::Crypto::IKeyWrapper", modifiers: "", def_value: None }]
-explicit CmsKeyTransRecipientInfoGenerator(Org::BouncyCastle::X509::X509Certificate recipCert, Org::BouncyCastle::Crypto::IKeyWrapper keyWrapper) ;
+static Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator New_ctor(Org::BouncyCastle::X509::X509Certificate recipCert, Org::BouncyCastle::Crypto::IKeyWrapper keyWrapper) ;
 
 /// @brief Method .ctor addr 0xea07e4 size 0x14c virtual false final false
  void _ctor(Org::BouncyCastle::X509::X509Certificate recipCert, Org::BouncyCastle::Crypto::IKeyWrapper keyWrapper) ;
 
-// Ctor Parameters [CppParam { name: "subjectKeyID", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyWrapper", ty: "Org::BouncyCastle::Crypto::IKeyWrapper", modifiers: "", def_value: None }]
-explicit CmsKeyTransRecipientInfoGenerator(::ArrayW<uint8_t> subjectKeyID, Org::BouncyCastle::Crypto::IKeyWrapper keyWrapper) ;
+static Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator New_ctor(::ArrayW<uint8_t> subjectKeyID, Org::BouncyCastle::Crypto::IKeyWrapper keyWrapper) ;
 
 /// @brief Method .ctor addr 0xea0930 size 0x74 virtual false final false
  void _ctor(::ArrayW<uint8_t> subjectKeyID, Org::BouncyCastle::Crypto::IKeyWrapper keyWrapper) ;

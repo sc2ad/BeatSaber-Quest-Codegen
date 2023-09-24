@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorArrayLightWithIdsGroupEntry_def.hpp"
-#include "GlobalNamespace/zzzz__ColorArrayLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
+#include "GlobalNamespace/zzzz__ColorArrayLightWithIds_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorArrayLightWithIdsGroupEntry.get_lightGroups
 template<>
 
@@ -64,8 +64,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::LightGroupSO>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorArrayLightWithIdsGroupEntry::ColorArrayLightWithIdsGroupEntry()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ColorArrayLightWithIdsGroupEntry>())) {}
+ GlobalNamespace::ColorArrayLightWithIdsGroupEntry GlobalNamespace::ColorArrayLightWithIdsGroupEntry::New_ctor()  {
+GlobalNamespace::ColorArrayLightWithIdsGroupEntry o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorArrayLightWithIdsGroupEntry>())};
+return o;
+}
  void GlobalNamespace::ColorArrayLightWithIdsGroupEntry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorArrayLightWithIdsGroupEntry>::get(),

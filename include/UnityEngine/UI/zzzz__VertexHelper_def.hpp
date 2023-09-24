@@ -5,26 +5,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine {
-struct UIVertex;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector4;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+struct UIVertex;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -157,14 +157,12 @@ constexpr bool __get_m_ListsInitalized() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit VertexHelper() ;
+static UnityEngine::UI::VertexHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c16098 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "m", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }]
-explicit VertexHelper(UnityEngine::Mesh m) ;
+static UnityEngine::UI::VertexHelper New_ctor(UnityEngine::Mesh m) ;
 
 /// @brief Method .ctor addr 0x2c160a0 size 0x238 virtual false final false
  void _ctor(UnityEngine::Mesh m) ;

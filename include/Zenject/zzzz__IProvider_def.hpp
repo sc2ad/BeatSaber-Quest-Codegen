@@ -7,16 +7,16 @@ template<typename T>
 class List_1;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
+}
+namespace System {
+class Action;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Action;
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

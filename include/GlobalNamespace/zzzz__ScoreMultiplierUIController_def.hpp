@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class Animator;
-}
-namespace GlobalNamespace {
-class IScoreController;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Image;
+}
+namespace GlobalNamespace {
+class IScoreController;
+}
+namespace UnityEngine {
+class Animator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -128,8 +128,7 @@ constexpr float_t __get__progressTarget() const;
 /// @brief Method HandleMultiplierDidChange addr 0x2277704 size 0xcc virtual false final false
  void HandleMultiplierDidChange(int32_t multiplier, float_t progress) ;
 
-// Ctor Parameters []
-explicit ScoreMultiplierUIController() ;
+static GlobalNamespace::ScoreMultiplierUIController New_ctor() ;
 
 /// @brief Method .ctor addr 0x22777d0 size 0x8 virtual false final false
  void _ctor() ;

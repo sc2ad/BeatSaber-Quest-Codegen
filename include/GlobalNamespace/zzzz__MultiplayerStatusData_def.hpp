@@ -5,6 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerStatusData__AvailabilityStatus;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerStatusData__UserMessage;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__MultiplayerStatusData__AvailabilityStatus;
@@ -68,6 +77,8 @@ __Offline = 2,
 constexpr operator __GlobalNamespace__MultiplayerStatusData__AvailabilityStatus_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerStatusData__AvailabilityStatus_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -148,8 +159,7 @@ constexpr ::StringW __get_message() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage__LocalizedMessage New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f1388 size 0x8 virtual false final false
  void _ctor() ;
@@ -211,8 +221,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__MultiplayerStatusData__User
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerStatusData__UserMessage() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerStatusData__UserMessage New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f1380 size 0x8 virtual false final false
  void _ctor() ;
@@ -355,8 +364,7 @@ constexpr bool __get_useXPlatformAuth() const;
 /// @brief Method set__useXPlatformAuth addr 0x21f136c size 0xc virtual false final false
  void set__useXPlatformAuth(bool value) ;
 
-// Ctor Parameters []
-explicit MultiplayerStatusData() ;
+static GlobalNamespace::MultiplayerStatusData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f1378 size 0x8 virtual false final false
  void _ctor() ;

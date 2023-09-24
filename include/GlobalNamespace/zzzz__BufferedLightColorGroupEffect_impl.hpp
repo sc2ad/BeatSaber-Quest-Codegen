@@ -1,14 +1,15 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BufferedLightColorGroupEffect_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
-#include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BufferedLightColorGroupEffect_def.hpp"
+#include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
+#include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroup_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData._ctor
 template<>
@@ -39,8 +40,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__
 constexpr GlobalNamespace::MaterialPropertyBlockController GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData::__get_materialPropertyBlockController() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MaterialPropertyBlockController, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "lightGroup", ty: "GlobalNamespace::LightGroup", modifiers: "", def_value: None }, CppParam { name: "materialPropertyBlockController", ty: "GlobalNamespace::MaterialPropertyBlockController", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData::GlobalNamespace__BufferedLightColorGroupEffect__InitData(GlobalNamespace::LightGroup lightGroup, GlobalNamespace::MaterialPropertyBlockController materialPropertyBlockController)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BufferedLightColorGroupEffect__InitData>(lightGroup, materialPropertyBlockController))) {}
+ GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData::New_ctor(GlobalNamespace::LightGroup lightGroup, GlobalNamespace::MaterialPropertyBlockController materialPropertyBlockController)  {
+GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData>(lightGroup, materialPropertyBlockController))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData::_ctor(GlobalNamespace::LightGroup lightGroup, GlobalNamespace::MaterialPropertyBlockController materialPropertyBlockController)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData>::get(),
@@ -236,8 +239,10 @@ return ::cordl_internals::getStaticField<int32_t, "_colorBufferPropertyId", ::il
  int32_t GlobalNamespace::BufferedLightColorGroupEffect::__get__elementIdBufferPropertyId()  {
 return ::cordl_internals::getStaticField<int32_t, "_elementIdBufferPropertyId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BufferedLightColorGroupEffect>::get>();
 }
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "colorManager", ty: "GlobalNamespace::ColorManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }]
- GlobalNamespace::BufferedLightColorGroupEffect::BufferedLightColorGroupEffect(GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData initData, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BufferedLightColorGroupEffect>(initData, colorManager, beatmapCallbacksController))) {}
+ GlobalNamespace::BufferedLightColorGroupEffect GlobalNamespace::BufferedLightColorGroupEffect::New_ctor(GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData initData, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  {
+GlobalNamespace::BufferedLightColorGroupEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BufferedLightColorGroupEffect>(initData, colorManager, beatmapCallbacksController))};
+return o;
+}
  void GlobalNamespace::BufferedLightColorGroupEffect::_ctor(GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData initData, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BufferedLightColorGroupEffect>::get(),

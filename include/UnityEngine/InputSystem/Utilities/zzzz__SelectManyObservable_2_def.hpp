@@ -2,23 +2,27 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System {
-class IDisposable;
+template<typename T>
+class IObservable_1;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TSource,typename TResult>
+class UnityEngine__InputSystem__Utilities__SelectManyObservable_2__Select;
 }
 namespace System {
 template<typename T>
 class IObserver_1;
 }
 namespace System {
-template<typename T>
-class IObservable_1;
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
 }
 namespace System {
 class Exception;
@@ -104,8 +108,7 @@ constexpr System::IObserver_1<TResult> __get_m_Observer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "observable", ty: "UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource,TResult>", modifiers: "", def_value: None }, CppParam { name: "observer", ty: "System::IObserver_1<TResult>", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Utilities__SelectManyObservable_2__Select(UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource,TResult> observable, System::IObserver_1<TResult> observer) ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__SelectManyObservable_2__Select<TSource,TResult> New_ctor(UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource,TResult> observable, System::IObserver_1<TResult> observer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource,TResult> observable, System::IObserver_1<TResult> observer) ;
@@ -187,8 +190,7 @@ constexpr System::Func_2<TSource,System::Collections::Generic::IEnumerable_1<TRe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::IObservable_1<TSource>", modifiers: "", def_value: None }, CppParam { name: "filter", ty: "System::Func_2<TSource,System::Collections::Generic::IEnumerable_1<TResult>>", modifiers: "", def_value: None }]
-explicit SelectManyObservable_2(System::IObservable_1<TSource> source, System::Func_2<TSource,System::Collections::Generic::IEnumerable_1<TResult>> filter) ;
+static UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource,TResult> New_ctor(System::IObservable_1<TSource> source, System::Func_2<TSource,System::Collections::Generic::IEnumerable_1<TResult>> filter) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::IObservable_1<TSource> source, System::Func_2<TSource,System::Collections::Generic::IEnumerable_1<TResult>> filter) ;

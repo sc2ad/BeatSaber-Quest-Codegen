@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class IFormatProvider;
-}
 namespace System::Text {
-class UnicodeEncoding;
+class Encoding;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace System::Text {
-class Encoding;
+class UnicodeEncoding;
+}
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System::IO {
@@ -88,20 +88,17 @@ constexpr bool __get__isOpen() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit StringWriter() ;
+static System::IO::StringWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x23cb400 size 0x94 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "formatProvider", ty: "System::IFormatProvider", modifiers: "", def_value: None }]
-explicit StringWriter(System::IFormatProvider formatProvider) ;
+static System::IO::StringWriter New_ctor(System::IFormatProvider formatProvider) ;
 
 /// @brief Method .ctor addr 0x23cb57c size 0x74 virtual false final false
  void _ctor(System::IFormatProvider formatProvider) ;
 
-// Ctor Parameters [CppParam { name: "sb", ty: "System::Text::StringBuilder", modifiers: "", def_value: None }, CppParam { name: "formatProvider", ty: "System::IFormatProvider", modifiers: "", def_value: None }]
-explicit StringWriter(System::Text::StringBuilder sb, System::IFormatProvider formatProvider) ;
+static System::IO::StringWriter New_ctor(System::Text::StringBuilder sb, System::IFormatProvider formatProvider) ;
 
 /// @brief Method .ctor addr 0x23cb494 size 0xe8 virtual false final false
  void _ctor(System::Text::StringBuilder sb, System::IFormatProvider formatProvider) ;

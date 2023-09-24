@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerUtf8String;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crmf {
 class IControl;
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::DerUtf8String __get_token() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "token", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }]
-explicit RegTokenControl(Org::BouncyCastle::Asn1::DerUtf8String token) ;
+static Org::BouncyCastle::Crmf::RegTokenControl New_ctor(Org::BouncyCastle::Asn1::DerUtf8String token) ;
 
 /// @brief Method .ctor addr 0x11830dc size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerUtf8String token) ;
 
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RegTokenControl(::StringW token) ;
+static Org::BouncyCastle::Crmf::RegTokenControl New_ctor(::StringW token) ;
 
 /// @brief Method .ctor addr 0x1187e0c size 0x7c virtual false final false
  void _ctor(::StringW token) ;

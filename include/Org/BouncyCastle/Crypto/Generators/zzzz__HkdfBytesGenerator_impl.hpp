@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__HkdfBytesGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/Macs/zzzz__HMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Macs/zzzz__HMac_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator._ctor
 template<>
 
@@ -141,8 +141,10 @@ constexpr void Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator::__set_
 constexpr int32_t Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator::__get_generatedBytes() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hash", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator::HkdfBytesGenerator(Org::BouncyCastle::Crypto::IDigest hash)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HkdfBytesGenerator>(hash))) {}
+ Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator::New_ctor(Org::BouncyCastle::Crypto::IDigest hash)  {
+Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator>(hash))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator::_ctor(Org::BouncyCastle::Crypto::IDigest hash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator>::get(),

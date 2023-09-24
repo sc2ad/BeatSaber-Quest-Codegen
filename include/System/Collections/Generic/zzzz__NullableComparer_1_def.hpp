@@ -18,7 +18,7 @@ namespace System::Collections::Generic {
 // cpp template
 template<typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3850)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3850), inst: 999 }), TypeDefinitionIndex(TypeDefinitionIndex(2447)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2579 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3850)), TypeDefinitionIndex(TypeDefinitionIndex(2447)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2447), inst: 2579 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3850), inst: 999 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3852))
 // CS Name: System.Collections.Generic.NullableComparer`1
 class CORDL_TYPE NullableComparer_1 : public System::Collections::Generic::Comparer_1<System::Nullable_1<T>> {
@@ -66,8 +66,7 @@ constexpr explicit NullableComparer_1(void* ptr) noexcept : System::Collections:
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
 
-// Ctor Parameters []
-explicit NullableComparer_1() ;
+static System::Collections::Generic::NullableComparer_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

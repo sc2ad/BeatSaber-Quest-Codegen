@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
-class NamingAuthority;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+namespace Org::BouncyCastle::Asn1::X500 {
+class DirectoryString;
+}
+namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
+class NamingAuthority;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X500 {
-class DirectoryString;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -227,14 +227,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_addProfessionInfo() con
 /// @brief Method GetInstance addr 0xee9578 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ProfessionInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xeebad8 size 0x8b0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "namingAuthority", ty: "Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority", modifiers: "", def_value: None }, CppParam { name: "professionItems", ty: "::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString>", modifiers: "", def_value: None }, CppParam { name: "professionOids", ty: "::ArrayW<Org::BouncyCastle::Asn1::DerObjectIdentifier>", modifiers: "", def_value: None }, CppParam { name: "registrationNumber", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "addProfessionInfo", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit ProfessionInfo(Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority namingAuthority, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> professionItems, ::ArrayW<Org::BouncyCastle::Asn1::DerObjectIdentifier> professionOids, ::StringW registrationNumber, Org::BouncyCastle::Asn1::Asn1OctetString addProfessionInfo) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo New_ctor(Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority namingAuthority, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> professionItems, ::ArrayW<Org::BouncyCastle::Asn1::DerObjectIdentifier> professionOids, ::StringW registrationNumber, Org::BouncyCastle::Asn1::Asn1OctetString addProfessionInfo) ;
 
 /// @brief Method .ctor addr 0xeec388 size 0xc8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority namingAuthority, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> professionItems, ::ArrayW<Org::BouncyCastle::Asn1::DerObjectIdentifier> professionOids, ::StringW registrationNumber, Org::BouncyCastle::Asn1::Asn1OctetString addProfessionInfo) ;

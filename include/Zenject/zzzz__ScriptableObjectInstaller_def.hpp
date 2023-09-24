@@ -52,8 +52,7 @@ constexpr explicit ScriptableObjectInstaller(void* ptr) noexcept : Zenject::Scri
 
 // Methods
 
-// Ctor Parameters []
-explicit ScriptableObjectInstaller() ;
+static Zenject::ScriptableObjectInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7bfe4 size 0x8 virtual false final false
  void _ctor() ;

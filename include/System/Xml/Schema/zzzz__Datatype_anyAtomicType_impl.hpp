@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anyAtomicType_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::Datatype_anyAtomicType.CreateValueConverter
 template<>
 
@@ -100,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Schema::XmlTypeCode, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_anyAtomicType::Datatype_anyAtomicType()  : System::Xml::Schema::Datatype_anySimpleType(THROW_UNLESS(::il2cpp_utils::New<Datatype_anyAtomicType>())) {}
+ System::Xml::Schema::Datatype_anyAtomicType System::Xml::Schema::Datatype_anyAtomicType::New_ctor()  {
+System::Xml::Schema::Datatype_anyAtomicType o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_anyAtomicType>())};
+return o;
+}
  void System::Xml::Schema::Datatype_anyAtomicType::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_anyAtomicType>::get(),

@@ -2,17 +2,13 @@
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
-#include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/zzzz__Version_def.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
-#include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
+#include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveDataItem_def.hpp"
-#include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
-#include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
-#include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "GlobalNamespace/zzzz__SliderMidAnchorMode_def.hpp"
@@ -87,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(float_t beat)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem>(beat))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem::New_ctor(float_t beat)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem>(beat))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem::_ctor(float_t beat)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem>::get(),
@@ -220,8 +218,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "eventType", ty: "BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "floatValue", ty: "float_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData(float_t beat, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType eventType, int32_t value, float_t floatValue)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData>(beat, eventType, value, floatValue))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData::New_ctor(float_t beat, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType eventType, int32_t value, float_t floatValue)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData>(beat, eventType, value, floatValue))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData::_ctor(float_t beat, BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType eventType, int32_t value, float_t floatValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData>::get(),
@@ -280,8 +280,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "boost", ty: "bool", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData(float_t beat, bool boost)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData>(beat, boost))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData::New_ctor(float_t beat, bool boost)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData>(beat, boost))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData::_ctor(float_t beat, bool boost)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData>::get(),
@@ -340,8 +342,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData(float_t beat, float_t bpm)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData>(beat, bpm))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData::New_ctor(float_t beat, float_t bpm)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData>(beat, bpm))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData::_ctor(float_t beat, float_t bpm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData>::get(),
@@ -443,8 +447,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "executionTime", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ExecutionTime", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData(float_t beat, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ExecutionTime executionTime, float_t rotation)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData>(beat, executionTime, rotation))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData::New_ctor(float_t beat, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ExecutionTime executionTime, float_t rotation)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData>(beat, executionTime, rotation))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData::_ctor(float_t beat, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ExecutionTime executionTime, float_t rotation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData>::get(),
@@ -535,8 +541,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "keyword", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "eventTypes", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType>", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword(::StringW keyword, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType> eventTypes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword>(keyword, eventTypes))) {}
+ GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword::New_ctor(::StringW keyword, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType> eventTypes)  {
+GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword>(keyword, eventTypes))};
+return o;
+}
  void GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword::_ctor(::StringW keyword, System::Collections::Generic::List_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataVersion2_6_0AndEarlier__BeatmapSaveData__BeatmapEventType> eventTypes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword>::get(),
@@ -595,8 +603,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword>", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords>(data))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords::New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword> data)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords>(data))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords::_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords__BasicEventTypesForKeyword> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords>::get(),
@@ -780,8 +790,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__EventBox>(indexFilter, beatDistributionParam, beatDistributionParamType))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox::New_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox>(indexFilter, beatDistributionParam, beatDistributionParamType))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox::_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox>::get(),
@@ -1199,8 +1211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter__IndexFilterType", modifiers: "", def_value: None }, CppParam { name: "param0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "param1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reversed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "random", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilterRandomType", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "chunks", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "limitAlsoAffectsType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilterLimitAlsoAffectsType", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter(GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter__IndexFilterType type, int32_t param0, int32_t param1, bool reversed, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilterRandomType random, int32_t seed, int32_t chunks, float_t limit, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilterLimitAlsoAffectsType limitAlsoAffectsType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter>(type, param0, param1, reversed, random, seed, chunks, limit, limitAlsoAffectsType))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter::New_ctor(GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter__IndexFilterType type, int32_t param0, int32_t param1, bool reversed, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilterRandomType random, int32_t seed, int32_t chunks, float_t limit, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilterLimitAlsoAffectsType limitAlsoAffectsType)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter>(type, param0, param1, reversed, random, seed, chunks, limit, limitAlsoAffectsType))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter::_ctor(GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter__IndexFilterType type, int32_t param0, int32_t param1, bool reversed, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilterRandomType random, int32_t seed, int32_t chunks, float_t limit, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilterLimitAlsoAffectsType limitAlsoAffectsType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter>::get(),
@@ -1210,8 +1224,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, param0, param1, reversed, random, seed, chunks, limit, limitAlsoAffectsType);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter other)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter>(other))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter::New_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter other)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter>(other))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter::_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter>::get(),
@@ -1425,8 +1441,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionParamType", ty: "GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "brightnessDistributionEaseType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType", modifiers: "", def_value: None }, CppParam { name: "lightColorBaseDataList", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData>", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam, bool brightnessDistributionShouldAffectFirstBaseEvent, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType brightnessDistributionParamType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType brightnessDistributionEaseType, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData> lightColorBaseDataList)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox>(indexFilter, beatDistributionParam, beatDistributionParamType, brightnessDistributionParam, brightnessDistributionShouldAffectFirstBaseEvent, brightnessDistributionParamType, brightnessDistributionEaseType, lightColorBaseDataList))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox::New_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam, bool brightnessDistributionShouldAffectFirstBaseEvent, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType brightnessDistributionParamType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType brightnessDistributionEaseType, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData> lightColorBaseDataList)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox>(indexFilter, beatDistributionParam, beatDistributionParamType, brightnessDistributionParam, brightnessDistributionShouldAffectFirstBaseEvent, brightnessDistributionParamType, brightnessDistributionEaseType, lightColorBaseDataList))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox::_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam, bool brightnessDistributionShouldAffectFirstBaseEvent, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType brightnessDistributionParamType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType brightnessDistributionEaseType, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData> lightColorBaseDataList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox>::get(),
@@ -1613,8 +1631,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transitionType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__TransitionType", modifiers: "", def_value: None }, CppParam { name: "colorType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EnvironmentColorType", modifiers: "", def_value: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "strobeFrequency", ty: "int32_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData(float_t beat, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__TransitionType transitionType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EnvironmentColorType colorType, float_t brightness, int32_t strobeFrequency)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData>(beat, transitionType, colorType, brightness, strobeFrequency))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData::New_ctor(float_t beat, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__TransitionType transitionType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EnvironmentColorType colorType, float_t brightness, int32_t strobeFrequency)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData>(beat, transitionType, colorType, brightness, strobeFrequency))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData::_ctor(float_t beat, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__TransitionType transitionType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EnvironmentColorType colorType, float_t brightness, int32_t strobeFrequency)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorBaseData>::get(),
@@ -1865,8 +1885,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionParamType", ty: "GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionEaseType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__Axis", modifiers: "", def_value: None }, CppParam { name: "flipRotation", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "lightRotationBaseDataList", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData>", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType, float_t rotationDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType rotationDistributionEaseType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__Axis axis, bool flipRotation, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData> lightRotationBaseDataList)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox>(indexFilter, beatDistributionParam, beatDistributionParamType, rotationDistributionParam, rotationDistributionParamType, rotationDistributionShouldAffectFirstBaseEvent, rotationDistributionEaseType, axis, flipRotation, lightRotationBaseDataList))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox::New_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType, float_t rotationDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType rotationDistributionEaseType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__Axis axis, bool flipRotation, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData> lightRotationBaseDataList)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox>(indexFilter, beatDistributionParam, beatDistributionParamType, rotationDistributionParam, rotationDistributionParamType, rotationDistributionShouldAffectFirstBaseEvent, rotationDistributionEaseType, axis, flipRotation, lightRotationBaseDataList))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox::_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType, float_t rotationDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType rotationDistributionEaseType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__Axis axis, bool flipRotation, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData> lightRotationBaseDataList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox>::get(),
@@ -2097,8 +2119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData__RotationDirection, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventRotationValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType", modifiers: "", def_value: None }, CppParam { name: "loopsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotationDirection", ty: "GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData__RotationDirection", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData(float_t beat, bool usePreviousEventRotationValue, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType easeType, int32_t loopsCount, float_t rotation, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData__RotationDirection rotationDirection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData>(beat, usePreviousEventRotationValue, easeType, loopsCount, rotation, rotationDirection))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData::New_ctor(float_t beat, bool usePreviousEventRotationValue, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType easeType, int32_t loopsCount, float_t rotation, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData__RotationDirection rotationDirection)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData>(beat, usePreviousEventRotationValue, easeType, loopsCount, rotation, rotationDirection))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData::_ctor(float_t beat, bool usePreviousEventRotationValue, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType easeType, int32_t loopsCount, float_t rotation, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData__RotationDirection rotationDirection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationBaseData>::get(),
@@ -2349,8 +2373,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionPara", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "gapDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gapDistributionParamType", ty: "GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "gapDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gapDistributionEaseType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__Axis", modifiers: "", def_value: None }, CppParam { name: "flipTranslation", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "lightTranslationBaseDataList", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData>", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionPara, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType, float_t gapDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType gapDistributionEaseType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__Axis axis, bool flipTranslation, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData> lightTranslationBaseDataList)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox>(indexFilter, beatDistributionPara, beatDistributionParamType, gapDistributionParam, gapDistributionParamType, gapDistributionShouldAffectFirstBaseEvent, gapDistributionEaseType, axis, flipTranslation, lightTranslationBaseDataList))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox::New_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionPara, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType, float_t gapDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType gapDistributionEaseType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__Axis axis, bool flipTranslation, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData> lightTranslationBaseDataList)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox>(indexFilter, beatDistributionPara, beatDistributionParamType, gapDistributionParam, gapDistributionParamType, gapDistributionShouldAffectFirstBaseEvent, gapDistributionEaseType, axis, flipTranslation, lightTranslationBaseDataList))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox::_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__IndexFilter indexFilter, float_t beatDistributionPara, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType beatDistributionParamType, float_t gapDistributionParam, GlobalNamespace::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox__DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType gapDistributionEaseType, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__Axis axis, bool flipTranslation, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData> lightTranslationBaseDataList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox>::get(),
@@ -2505,8 +2531,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventTranslationValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType", modifiers: "", def_value: None }, CppParam { name: "translation", ty: "float_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData(float_t beat, bool usePreviousEventTranslationValue, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType easeType, float_t translation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData>(beat, usePreviousEventTranslationValue, easeType, translation))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData::New_ctor(float_t beat, bool usePreviousEventTranslationValue, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType easeType, float_t translation)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData>(beat, usePreviousEventTranslationValue, easeType, translation))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData::_ctor(float_t beat, bool usePreviousEventTranslationValue, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EaseType easeType, float_t translation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationBaseData>::get(),
@@ -2591,8 +2619,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup(float_t beat, int32_t groupId)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup>(beat, groupId))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup::New_ctor(float_t beat, int32_t groupId)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup>(beat, groupId))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup::_ctor(float_t beat, int32_t groupId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup>::get(),
@@ -2601,6 +2631,43 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beat, groupId);
+}
+constexpr void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T>::__set_e(System::Collections::Generic::List_1<T> value)  {
+::cordl_internals::setInstanceField<System::Collections::Generic::List_1<T>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Collections::Generic::List_1<T>>(value));
+}
+constexpr System::Collections::Generic::List_1<T> BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T>::__get_e() const {
+return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<T>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+ System::Collections::Generic::IReadOnlyList_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox> BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T>::get_baseEventBoxes()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T>>::get(),
+                            "get_baseEventBoxes",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox>, false>(const_cast<void*>(instance), ___internal_method);
+}
+ System::Collections::Generic::IReadOnlyList_1<T> BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T>::get_eventBoxes()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T>>::get(),
+                            "get_eventBoxes",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<T>, false>(const_cast<void*>(instance), ___internal_method);
+}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T> BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T>::New_ctor(float_t beat, int32_t groupId, System::Collections::Generic::List_1<T> eventBoxes)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T> o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T>>(beat, groupId, eventBoxes))};
+return o;
+}
+ void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T>::_ctor(float_t beat, int32_t groupId, System::Collections::Generic::List_1<T> eventBoxes)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<T>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Collections::Generic::List_1<T>>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beat, groupId, eventBoxes);
 }
 //  Writing Method size for method: BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup._ctor
 template<>
@@ -2636,8 +2703,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<BeatmapSave
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "eventBoxes", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox>", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup(float_t beat, int32_t groupId, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox> eventBoxes)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox>(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup>(beat, groupId, eventBoxes))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup::New_ctor(float_t beat, int32_t groupId, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox> eventBoxes)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup>(beat, groupId, eventBoxes))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup::_ctor(float_t beat, int32_t groupId, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBox> eventBoxes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup>::get(),
@@ -2692,8 +2761,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<BeatmapSave
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "eventBoxes", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox>", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup(float_t beat, int32_t groupId, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox> eventBoxes)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox>(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup>(beat, groupId, eventBoxes))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup::New_ctor(float_t beat, int32_t groupId, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox> eventBoxes)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup>(beat, groupId, eventBoxes))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup::_ctor(float_t beat, int32_t groupId, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBox> eventBoxes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup>::get(),
@@ -2748,8 +2819,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<BeatmapSave
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "eventBoxes", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox>", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup(float_t beat, int32_t groupId, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox> eventBoxes)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox>(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup>(beat, groupId, eventBoxes))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup::New_ctor(float_t beat, int32_t groupId, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox> eventBoxes)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup>(beat, groupId, eventBoxes))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup::_ctor(float_t beat, int32_t groupId, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBox> eventBoxes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup>::get(),
@@ -2958,8 +3031,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::NoteCutDirection, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "line", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "layer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "color", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType", modifiers: "", def_value: None }, CppParam { name: "cutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "angleOffset", ty: "int32_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData(float_t beat, int32_t line, int32_t layer, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType color, GlobalNamespace::NoteCutDirection cutDirection, int32_t angleOffset)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData>(beat, line, layer, color, cutDirection, angleOffset))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData::New_ctor(float_t beat, int32_t line, int32_t layer, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType color, GlobalNamespace::NoteCutDirection cutDirection, int32_t angleOffset)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData>(beat, line, layer, color, cutDirection, angleOffset))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData::_ctor(float_t beat, int32_t line, int32_t layer, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType color, GlobalNamespace::NoteCutDirection cutDirection, int32_t angleOffset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData>::get(),
@@ -3050,8 +3125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "line", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "layer", ty: "int32_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData(float_t beat, int32_t line, int32_t layer)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData>(beat, line, layer))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData::New_ctor(float_t beat, int32_t line, int32_t layer)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData>(beat, line, layer))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData::_ctor(float_t beat, int32_t line, int32_t layer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData>::get(),
@@ -3174,8 +3251,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::OffsetDirection, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "line", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "layer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "offsetDirection", ty: "GlobalNamespace::OffsetDirection", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData(float_t beat, int32_t line, int32_t layer, GlobalNamespace::OffsetDirection offsetDirection)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData>(beat, line, layer, offsetDirection))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData::New_ctor(float_t beat, int32_t line, int32_t layer, GlobalNamespace::OffsetDirection offsetDirection)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData>(beat, line, layer, offsetDirection))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData::_ctor(float_t beat, int32_t line, int32_t layer, GlobalNamespace::OffsetDirection offsetDirection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData>::get(),
@@ -3437,8 +3516,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "colorType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType", modifiers: "", def_value: None }, CppParam { name: "headBeat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headLine", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headLayer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headCutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "tailBeat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tailLine", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailLayer", ty: "int32_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData::BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData>(colorType, headBeat, headLine, headLayer, headCutDirection, tailBeat, tailLine, tailLayer))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData::New_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData>(colorType, headBeat, headLine, headLayer, headCutDirection, tailBeat, tailLine, tailLayer))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData::_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData>::get(),
@@ -3593,8 +3674,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::SliderMidAnchorMode, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "colorType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType", modifiers: "", def_value: None }, CppParam { name: "headBeat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headLine", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headLayer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headControlPointLengthMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headCutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "tailBeat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tailLine", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailLayer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailControlPointLengthMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tailCutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "sliderMidAnchorMode", ty: "GlobalNamespace::SliderMidAnchorMode", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__SliderData>(colorType, headBeat, headLine, headLayer, headControlPointLengthMultiplier, headCutDirection, tailBeat, tailLine, tailLayer, tailControlPointLengthMultiplier, tailCutDirection, sliderMidAnchorMode))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData::New_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData>(colorType, headBeat, headLine, headLayer, headControlPointLengthMultiplier, headCutDirection, tailBeat, tailLine, tailLayer, tailControlPointLengthMultiplier, tailCutDirection, sliderMidAnchorMode))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData::_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData>::get(),
@@ -3685,8 +3768,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "colorType", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType", modifiers: "", def_value: None }, CppParam { name: "headBeat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "headLine", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headLayer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headCutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "tailBeat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tailLine", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailLayer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sliceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "squishAmount", ty: "float_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, int32_t sliceCount, float_t squishAmount)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BaseSliderData(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData>(colorType, headBeat, headLine, headLayer, headCutDirection, tailBeat, tailLine, tailLayer, sliceCount, squishAmount))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData::New_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, int32_t sliceCount, float_t squishAmount)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData>(colorType, headBeat, headLine, headLayer, headCutDirection, tailBeat, tailLine, tailLayer, sliceCount, squishAmount))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData::_ctor(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, GlobalNamespace::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, int32_t sliceCount, float_t squishAmount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData>::get(),
@@ -3873,8 +3958,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "line", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "layer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData(float_t beat, int32_t line, int32_t layer, float_t duration, int32_t width, int32_t height)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BeatmapSaveDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData>(beat, line, layer, duration, width, height))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData::New_ctor(float_t beat, int32_t line, int32_t layer, float_t duration, int32_t width, int32_t height)  {
+BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData>(beat, line, layer, duration, width, height))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData::_ctor(float_t beat, int32_t line, int32_t layer, float_t duration, int32_t width, int32_t height)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData>::get(),
@@ -4179,8 +4266,10 @@ return ::cordl_internals::getStaticField<System::Version, "version2_6_0", ::il2c
  ::ArrayW<float_t> BeatmapSaveDataVersion3::BeatmapSaveData::__get__spawnRotations()  {
 return ::cordl_internals::getStaticField<::ArrayW<float_t>, "_spawnRotations", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveData>::get>();
 }
-// Ctor Parameters [CppParam { name: "bpmEvents", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData>", modifiers: "", def_value: None }, CppParam { name: "rotationEvents", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData>", modifiers: "", def_value: None }, CppParam { name: "colorNotes", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData>", modifiers: "", def_value: None }, CppParam { name: "bombNotes", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData>", modifiers: "", def_value: None }, CppParam { name: "obstacles", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData>", modifiers: "", def_value: None }, CppParam { name: "sliders", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData>", modifiers: "", def_value: None }, CppParam { name: "burstSliders", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData>", modifiers: "", def_value: None }, CppParam { name: "waypoints", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData>", modifiers: "", def_value: None }, CppParam { name: "basicBeatmapEvents", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData>", modifiers: "", def_value: None }, CppParam { name: "colorBoostBeatmapEvents", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData>", modifiers: "", def_value: None }, CppParam { name: "lightColorEventBoxGroups", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup>", modifiers: "", def_value: None }, CppParam { name: "lightRotationEventBoxGroups", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup>", modifiers: "", def_value: None }, CppParam { name: "lightTranslationEventBoxGroups", ty: "System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup>", modifiers: "", def_value: None }, CppParam { name: "basicEventTypesWithKeywords", ty: "BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords", modifiers: "", def_value: None }, CppParam { name: "useNormalEventsAsCompatibleEvents", ty: "bool", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveData(System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData> bpmEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData> rotationEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData> colorNotes, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData> bombNotes, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData> obstacles, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData> sliders, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData> burstSliders, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData> waypoints, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData> basicBeatmapEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData> colorBoostBeatmapEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup> lightColorEventBoxGroups, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup> lightRotationEventBoxGroups, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup> lightTranslationEventBoxGroups, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords basicEventTypesWithKeywords, bool useNormalEventsAsCompatibleEvents)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveData>(bpmEvents, rotationEvents, colorNotes, bombNotes, obstacles, sliders, burstSliders, waypoints, basicBeatmapEvents, colorBoostBeatmapEvents, lightColorEventBoxGroups, lightRotationEventBoxGroups, lightTranslationEventBoxGroups, basicEventTypesWithKeywords, useNormalEventsAsCompatibleEvents))) {}
+ BeatmapSaveDataVersion3::BeatmapSaveData BeatmapSaveDataVersion3::BeatmapSaveData::New_ctor(System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData> bpmEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData> rotationEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData> colorNotes, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData> bombNotes, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData> obstacles, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData> sliders, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData> burstSliders, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData> waypoints, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData> basicBeatmapEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData> colorBoostBeatmapEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup> lightColorEventBoxGroups, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup> lightRotationEventBoxGroups, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup> lightTranslationEventBoxGroups, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords basicEventTypesWithKeywords, bool useNormalEventsAsCompatibleEvents)  {
+BeatmapSaveDataVersion3::BeatmapSaveData o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3::BeatmapSaveData>(bpmEvents, rotationEvents, colorNotes, bombNotes, obstacles, sliders, burstSliders, waypoints, basicBeatmapEvents, colorBoostBeatmapEvents, lightColorEventBoxGroups, lightRotationEventBoxGroups, lightTranslationEventBoxGroups, basicEventTypesWithKeywords, useNormalEventsAsCompatibleEvents))};
+return o;
+}
  void BeatmapSaveDataVersion3::BeatmapSaveData::_ctor(System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BpmChangeEventData> bpmEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__RotationEventData> rotationEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorNoteData> colorNotes, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BombNoteData> bombNotes, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ObstacleData> obstacles, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__SliderData> sliders, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BurstSliderData> burstSliders, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__WaypointData> waypoints, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventData> basicBeatmapEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__ColorBoostEventData> colorBoostBeatmapEvents, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightColorEventBoxGroup> lightColorEventBoxGroups, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightRotationEventBoxGroup> lightRotationEventBoxGroups, System::Collections::Generic::List_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__LightTranslationEventBoxGroup> lightTranslationEventBoxGroups, BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__BasicEventTypesWithKeywords basicEventTypesWithKeywords, bool useNormalEventsAsCompatibleEvents)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveData>::get(),
@@ -4279,90 +4368,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Collections::Generic::IReadOnlyList_1<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, beatmapSaveData);
-}
-//  Writing Method size for method: BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1.get_baseEventBoxes
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox> (BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::*)()>(&BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::get_baseEventBoxes)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1>::get(),
-                                  5
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1.get_eventBoxes
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<T> (BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::*)()>(&BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::get_eventBoxes)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1>::get(),
-                            "get_eventBoxes",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::*)(float_t, int32_t, System::Collections::Generic::List_1<T>)>(&BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Collections::Generic::List_1<T>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::__set_e(System::Collections::Generic::List_1<T> value)  {
-::cordl_internals::setInstanceField<System::Collections::Generic::List_1<T>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Collections::Generic::List_1<T>>(value));
-}
-constexpr System::Collections::Generic::List_1<T> BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::__get_e() const {
-return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<T>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
-}
- System::Collections::Generic::IReadOnlyList_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox> BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::get_baseEventBoxes()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1>::get(),
-                            "get_baseEventBoxes",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBox>, false>(const_cast<void*>(instance), ___internal_method);
-}
- System::Collections::Generic::IReadOnlyList_1<T> BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::get_eventBoxes()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1>::get(),
-                            "get_eventBoxes",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<T>, false>(const_cast<void*>(instance), ___internal_method);
-}
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "eventBoxes", ty: "System::Collections::Generic::List_1<T>", modifiers: "", def_value: None }]
- BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1(float_t beat, int32_t groupId, System::Collections::Generic::List_1<T> eventBoxes)  : BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1>(beat, groupId, eventBoxes))) {}
- void BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1::_ctor(float_t beat, int32_t groupId, System::Collections::Generic::List_1<T> eventBoxes)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion3::BeatmapSaveDataVersion3__BeatmapSaveData__EventBoxGroup_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Collections::Generic::List_1<T>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beat, groupId, eventBoxes);
 }

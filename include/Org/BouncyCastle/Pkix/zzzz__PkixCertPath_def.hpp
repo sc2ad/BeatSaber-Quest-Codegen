@@ -5,10 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class ICollection;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
@@ -16,14 +13,17 @@ class X509Certificate;
 namespace System::IO {
 class Stream;
 }
-namespace System::Collections {
-class ICollection;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -96,20 +96,17 @@ constexpr System::Collections::IList __get_certificates() const;
 /// @brief Method SortCerts addr 0x1063f04 size 0xd94 virtual false final false
 static System::Collections::IList SortCerts(System::Collections::IList certs) ;
 
-// Ctor Parameters [CppParam { name: "certificates", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit PkixCertPath(System::Collections::ICollection certificates) ;
+static Org::BouncyCastle::Pkix::PkixCertPath New_ctor(System::Collections::ICollection certificates) ;
 
 /// @brief Method .ctor addr 0x105f1e8 size 0xac virtual false final false
  void _ctor(System::Collections::ICollection certificates) ;
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit PkixCertPath(System::IO::Stream inStream) ;
+static Org::BouncyCastle::Pkix::PkixCertPath New_ctor(System::IO::Stream inStream) ;
 
 /// @brief Method .ctor addr 0x1064c98 size 0x58 virtual false final false
  void _ctor(System::IO::Stream inStream) ;
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PkixCertPath(System::IO::Stream inStream, ::StringW encoding) ;
+static Org::BouncyCastle::Pkix::PkixCertPath New_ctor(System::IO::Stream inStream, ::StringW encoding) ;
 
 /// @brief Method .ctor addr 0x1064cf0 size 0x86c virtual false final false
  void _ctor(System::IO::Stream inStream, ::StringW encoding) ;

@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 namespace GlobalNamespace {
-class MainEffectSO;
+class BoolSO;
 }
 namespace GlobalNamespace {
-class BoolSO;
+class MainEffectSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,8 +82,7 @@ constexpr GlobalNamespace::BoolSO __get__postProcessEnabled() const;
 /// @brief Method Init addr 0x2676e00 size 0x74 virtual false final false
  void Init(GlobalNamespace::MainEffectSO mainEffect) ;
 
-// Ctor Parameters []
-explicit MainEffectContainerSO() ;
+static GlobalNamespace::MainEffectContainerSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2676e74 size 0x8 virtual false final false
  void _ctor() ;

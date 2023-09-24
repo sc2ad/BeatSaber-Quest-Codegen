@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECKeyParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters._ctor
 template<>
 
@@ -146,8 +146,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::__
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::__get_d() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "d", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::ECPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters)  : Org::BouncyCastle::Crypto::Parameters::ECKeyParameters(THROW_UNLESS(::il2cpp_utils::New<ECPrivateKeyParameters>(d, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::New_ctor(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters>(d, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::_ctor(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters>::get(),
@@ -157,8 +159,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, d, parameters);
 }
-// Ctor Parameters [CppParam { name: "d", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::ECPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  : Org::BouncyCastle::Crypto::Parameters::ECKeyParameters(THROW_UNLESS(::il2cpp_utils::New<ECPrivateKeyParameters>(d, publicKeyParamSet))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::New_ctor(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  {
+Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters>(d, publicKeyParamSet))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::_ctor(Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters>::get(),
@@ -168,8 +172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, d, publicKeyParamSet);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "d", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::ECPrivateKeyParameters(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters)  : Org::BouncyCastle::Crypto::Parameters::ECKeyParameters(THROW_UNLESS(::il2cpp_utils::New<ECPrivateKeyParameters>(algorithm, d, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::New_ctor(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters>(algorithm, d, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::_ctor(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters>::get(),
@@ -179,8 +185,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithm, d, parameters);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "d", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::ECPrivateKeyParameters(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  : Org::BouncyCastle::Crypto::Parameters::ECKeyParameters(THROW_UNLESS(::il2cpp_utils::New<ECPrivateKeyParameters>(algorithm, d, publicKeyParamSet))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::New_ctor(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  {
+Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters>(algorithm, d, publicKeyParamSet))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::_ctor(::StringW algorithm, Org::BouncyCastle::Math::BigInteger d, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters>::get(),

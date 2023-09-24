@@ -4,10 +4,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+class UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 namespace UnityEngine {
 class AsyncOperation;
@@ -91,8 +94,7 @@ constexpr UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle __ge
 /// @brief Method PercentComplete addr 0x2a40620 size 0x18 virtual false final false
  float_t PercentComplete() ;
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp() ;
+static UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__LegacyResourcesProvider__InternalOp New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a401c0 size 0x8 virtual false final false
  void _ctor() ;
@@ -151,8 +153,7 @@ constexpr explicit LegacyResourcesProvider(void* ptr) noexcept : UnityEngine::Re
 /// @brief Method Release addr 0x2a40358 size 0x128 virtual true final false
  void Release(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, ::bs_hook::Il2CppWrapperType asset) ;
 
-// Ctor Parameters []
-explicit LegacyResourcesProvider() ;
+static UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a40480 size 0x8 virtual false final false
  void _ctor() ;

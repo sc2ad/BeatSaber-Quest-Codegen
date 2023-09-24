@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationDebugContext_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepDebugContext_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DelaunayTriangle_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepConstraint_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepContext_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__AdvancingFrontNode_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepConstraint_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DelaunayTriangle_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext.get_PrimaryTriangle
 template<>
 
@@ -347,8 +347,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "tcx", ty: "UnityEngine::ProBuilder::Poly2Tri::DTSweepContext", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::DTSweepDebugContext(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext tcx)  : UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext(THROW_UNLESS(::il2cpp_utils::New<DTSweepDebugContext>(tcx))) {}
+ UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::New_ctor(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext tcx)  {
+UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext>(tcx))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::_ctor(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext tcx)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext>::get(),

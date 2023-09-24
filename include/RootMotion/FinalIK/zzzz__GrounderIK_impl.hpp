@@ -1,11 +1,11 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__Grounder_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__GrounderIK_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IK_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IK_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::GrounderIK.OpenUserManual
 template<>
 
@@ -393,8 +393,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::GrounderIK::GrounderIK()  : RootMotion::FinalIK::Grounder(THROW_UNLESS(::il2cpp_utils::New<GrounderIK>())) {}
+ RootMotion::FinalIK::GrounderIK RootMotion::FinalIK::GrounderIK::New_ctor()  {
+RootMotion::FinalIK::GrounderIK o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::GrounderIK>())};
+return o;
+}
  void RootMotion::FinalIK::GrounderIK::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::GrounderIK>::get(),

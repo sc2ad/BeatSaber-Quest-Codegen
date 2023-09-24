@@ -16,6 +16,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__Test_Material_Extensions____c;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HoudiniEngineUnity__Test_Material_Extensions____c;
@@ -86,8 +89,7 @@ static System::Converter_2<UnityEngine::Material,HoudiniEngineUnity::Test_Materi
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__Test_Material_Extensions____c() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__Test_Material_Extensions____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20729c8 size 0x8 virtual false final false
  void _ctor() ;

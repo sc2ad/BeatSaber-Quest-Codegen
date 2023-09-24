@@ -2,12 +2,12 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyAgreeRecipientInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorIdentifierOrKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorIdentifierOrKey_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo._ctor
 template<>
 
@@ -208,8 +208,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__set_recipi
 constexpr Org::BouncyCastle::Asn1::Asn1Sequence Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__get_recipientEncryptedKeys() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Sequence, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "originator", ty: "Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey", modifiers: "", def_value: None }, CppParam { name: "ukm", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "keyEncryptionAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "recipientEncryptedKeys", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::KeyAgreeRecipientInfo(Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey originator, Org::BouncyCastle::Asn1::Asn1OctetString ukm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1Sequence recipientEncryptedKeys)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<KeyAgreeRecipientInfo>(originator, ukm, keyEncryptionAlgorithm, recipientEncryptedKeys))) {}
+ Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::New_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey originator, Org::BouncyCastle::Asn1::Asn1OctetString ukm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1Sequence recipientEncryptedKeys)  {
+Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo>(originator, ukm, keyEncryptionAlgorithm, recipientEncryptedKeys))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey originator, Org::BouncyCastle::Asn1::Asn1OctetString ukm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1Sequence recipientEncryptedKeys)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo>::get(),
@@ -219,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, originator, ukm, keyEncryptionAlgorithm, recipientEncryptedKeys);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::KeyAgreeRecipientInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<KeyAgreeRecipientInfo>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo>::get(),

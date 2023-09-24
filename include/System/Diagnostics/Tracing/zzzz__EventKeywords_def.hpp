@@ -64,6 +64,8 @@ constexpr operator __EventKeywords_Unwrapped () const noexcept {
 return std::bit_cast<__EventKeywords_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int64_t;
+
 
 // Fields
 

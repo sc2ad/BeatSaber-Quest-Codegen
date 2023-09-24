@@ -179,8 +179,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_TA_ECDSA_SHA_512() 
 
 // Methods
 
-// Ctor Parameters []
-explicit EacObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xe00804 size 0x8 virtual false final false
  void _ctor() ;

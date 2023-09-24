@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace HMUI {
+class ScrollViewItemForVisibilityController;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
@@ -13,14 +16,14 @@ namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
 }
+namespace UnityEngine {
+class RectTransform;
+}
 namespace HMUI {
-class ScrollViewItemForVisibilityController;
+class HMUI__ScrollViewItemsVisibilityController____c;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class RectTransform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -92,8 +95,7 @@ static System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityControlle
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ScrollViewItemsVisibilityController____c() ;
+static HMUI::HMUI__ScrollViewItemsVisibilityController____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd1f6c size 0x8 virtual false final false
  void _ctor() ;
@@ -233,8 +235,7 @@ constexpr float_t __get__contentMinY() const;
 /// @brief Method UpdateVisibilityDownDirection addr 0x1fd1d14 size 0x19c virtual false final false
  void UpdateVisibilityDownDirection(float_t newContentAnchoredPositionY) ;
 
-// Ctor Parameters []
-explicit ScrollViewItemsVisibilityController() ;
+static HMUI::ScrollViewItemsVisibilityController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd1eb0 size 0x58 virtual false final false
  void _ctor() ;

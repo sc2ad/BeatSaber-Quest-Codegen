@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::MirroredGameNoteController, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MirroredDisappearingArrowController::MirroredDisappearingArrowController()  : GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::MirroredGameNoteController>(THROW_UNLESS(::il2cpp_utils::New<MirroredDisappearingArrowController>())) {}
+ GlobalNamespace::MirroredDisappearingArrowController GlobalNamespace::MirroredDisappearingArrowController::New_ctor()  {
+GlobalNamespace::MirroredDisappearingArrowController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MirroredDisappearingArrowController>())};
+return o;
+}
  void GlobalNamespace::MirroredDisappearingArrowController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MirroredDisappearingArrowController>::get(),

@@ -5,18 +5,18 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
-namespace System {
 template<typename T>
-class IEquatable_1;
+class IStyleValue_1;
 }
 namespace System {
 struct Int32Enum;
 }
 namespace UnityEngine::UIElements {
+struct StyleKeyword;
+}
+namespace System {
 template<typename T>
-class IStyleValue_1;
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,7 +33,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(7393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7393)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7393), inst: 4825 })
 // CS Name: UnityEngine.UIElements.StyleEnum`1
 struct CORDL_TYPE StyleEnum_1<System::Int32Enum> : public ::bs_hook::ValueTypeWrapper {

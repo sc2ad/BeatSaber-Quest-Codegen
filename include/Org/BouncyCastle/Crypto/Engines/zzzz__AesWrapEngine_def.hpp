@@ -47,8 +47,7 @@ constexpr explicit AesWrapEngine(void* ptr) noexcept : Org::BouncyCastle::Crypto
 
 // Methods
 
-// Ctor Parameters []
-explicit AesWrapEngine() ;
+static Org::BouncyCastle::Crypto::Engines::AesWrapEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe31664 size 0x68 virtual false final false
  void _ctor() ;

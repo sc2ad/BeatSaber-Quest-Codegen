@@ -47,8 +47,7 @@ constexpr explicit AndroidJoystick(void* ptr) noexcept : UnityEngine::InputSyste
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidJoystick() ;
+static UnityEngine::InputSystem::Android::AndroidJoystick New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953040 size 0x8 virtual false final false
  void _ctor() ;

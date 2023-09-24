@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -14,6 +11,9 @@ class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class BufferedBlockCipher;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Utilities {
@@ -70,8 +70,7 @@ static ::ArrayW<int16_t> __get_rc2Ekb() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit CipherFactory() ;
+static Org::BouncyCastle::Crypto::Utilities::CipherFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0xf335ec size 0x8 virtual false final false
  void _ctor() ;

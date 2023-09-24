@@ -6,8 +6,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System {
+class Type;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace System {
+struct DateTime;
+}
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
+}
 namespace Newtonsoft::Json {
 struct JsonToken;
+}
+namespace System {
+struct DateTimeOffset;
 }
 namespace System {
 struct Decimal;
@@ -16,26 +32,10 @@ namespace Newtonsoft::Json {
 class JsonTextWriter;
 }
 namespace Newtonsoft::Json {
-class IJsonLineInfo;
+class JsonReader;
 }
 namespace System::IO {
 class StringWriter;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -126,8 +126,7 @@ constexpr System::IO::StringWriter __get__sw() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "innerReader", ty: "Newtonsoft::Json::JsonReader", modifiers: "", def_value: None }]
-explicit TraceJsonReader(Newtonsoft::Json::JsonReader innerReader) ;
+static Newtonsoft::Json::Serialization::TraceJsonReader New_ctor(Newtonsoft::Json::JsonReader innerReader) ;
 
 /// @brief Method .ctor addr 0x24f2f60 size 0x13c virtual false final false
  void _ctor(Newtonsoft::Json::JsonReader innerReader) ;

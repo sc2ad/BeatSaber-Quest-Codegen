@@ -219,8 +219,10 @@ constexpr void Zenject::SignalDeclarationBindInfo::__set__MissingHandlerResponse
 constexpr Zenject::SignalMissingHandlerResponses Zenject::SignalDeclarationBindInfo::__get__MissingHandlerResponse_k__BackingField() const {
 return ::cordl_internals::getInstanceField<Zenject::SignalMissingHandlerResponses, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signalType", ty: "System::Type", modifiers: "", def_value: None }]
- Zenject::SignalDeclarationBindInfo::SignalDeclarationBindInfo(System::Type signalType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignalDeclarationBindInfo>(signalType))) {}
+ Zenject::SignalDeclarationBindInfo Zenject::SignalDeclarationBindInfo::New_ctor(System::Type signalType)  {
+Zenject::SignalDeclarationBindInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalDeclarationBindInfo>(signalType))};
+return o;
+}
  void Zenject::SignalDeclarationBindInfo::_ctor(System::Type signalType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalDeclarationBindInfo>::get(),

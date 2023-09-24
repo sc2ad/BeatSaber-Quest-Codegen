@@ -4,22 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::Rendering {
-struct LightProbeUsage;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine::Rendering {
 struct ShadowCastingMode;
 }
@@ -28,6 +12,22 @@ struct MotionVectorGenerationMode;
 }
 namespace UnityEngine::Rendering {
 struct ReflectionProbeUsage;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine::Rendering {
+struct LightProbeUsage;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -224,8 +224,7 @@ constexpr explicit Renderer(void* ptr) noexcept : UnityEngine::Component(ptr) {
 /// @brief Method GetSharedMaterials addr 0x2b2d994 size 0x134 virtual false final false
  void GetSharedMaterials(System::Collections::Generic::List_1<UnityEngine::Material> m) ;
 
-// Ctor Parameters []
-explicit Renderer() ;
+static UnityEngine::Renderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b2dac8 size 0x8 virtual false final false
  void _ctor() ;

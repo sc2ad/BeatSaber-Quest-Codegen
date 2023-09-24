@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelMissionParser_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__LevelMissionParser_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction._ctor
 template<>
 
@@ -72,8 +73,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction::GlobalNamespace__LevelMissionParser__ParserFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelMissionParser__ParserFunction>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction>::get(),
@@ -201,8 +204,10 @@ constexpr void GlobalNamespace::LevelMissionParser::__set__functions(System::Col
 constexpr System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction> GlobalNamespace::LevelMissionParser::__get__functions() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelMissionParser::LevelMissionParser()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LevelMissionParser>())) {}
+ GlobalNamespace::LevelMissionParser GlobalNamespace::LevelMissionParser::New_ctor()  {
+GlobalNamespace::LevelMissionParser o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelMissionParser>())};
+return o;
+}
  void GlobalNamespace::LevelMissionParser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelMissionParser>::get(),

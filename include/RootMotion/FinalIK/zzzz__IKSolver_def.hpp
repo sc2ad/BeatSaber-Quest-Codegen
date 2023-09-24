@@ -7,11 +7,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Node;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__IterationDelegate;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Point;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Bone;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__UpdateDelegate;
 }
 namespace RootMotion::FinalIK {
 class RotationLimit;
@@ -143,8 +158,7 @@ constexpr UnityEngine::Quaternion __get_defaultLocalRotation() const;
 /// @brief Method UpdateSolverLocalState addr 0x11d3b84 size 0x44 virtual false final false
  void UpdateSolverLocalState() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKSolver__Point() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d3bc8 size 0x60 virtual false final false
  void _ctor() ;
@@ -251,20 +265,17 @@ static void SolverSwing(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSol
 /// @brief Method SetToSolverPosition addr 0x11d449c size 0x28 virtual false final false
  void SetToSolverPosition() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKSolver__Bone() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d44c4 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__IKSolver__Bone(UnityEngine::Transform transform) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone New_ctor(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x11d4530 size 0x78 virtual false final false
  void _ctor(UnityEngine::Transform transform) ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__IKSolver__Bone(UnityEngine::Transform transform, float_t weight) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone New_ctor(UnityEngine::Transform transform, float_t weight) ;
 
 /// @brief Method .ctor addr 0x11d45a8 size 0x88 virtual false final false
  void _ctor(UnityEngine::Transform transform, float_t weight) ;
@@ -342,20 +353,17 @@ constexpr UnityEngine::Vector3 __get_offset() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKSolver__Node() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d4630 size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__IKSolver__Node(UnityEngine::Transform transform) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node New_ctor(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x11d4634 size 0x24 virtual false final false
  void _ctor(UnityEngine::Transform transform) ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__IKSolver__Node(UnityEngine::Transform transform, float_t weight) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node New_ctor(UnityEngine::Transform transform, float_t weight) ;
 
 /// @brief Method .ctor addr 0x11d4658 size 0x34 virtual false final false
  void _ctor(UnityEngine::Transform transform, float_t weight) ;
@@ -406,8 +414,7 @@ constexpr explicit RootMotion__FinalIK__IKSolver__UpdateDelegate(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__IKSolver__UpdateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x11d468c size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -467,8 +474,7 @@ constexpr explicit RootMotion__FinalIK__IKSolver__IterationDelegate(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__IKSolver__IterationDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x11d4788 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -663,8 +669,7 @@ static bool HierarchyIsValid(::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__
 /// @brief Method PreSolveBones addr 0x11d37b8 size 0x1f4 virtual false final false
 static float_t PreSolveBones(ByRef<::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone>> bones) ;
 
-// Ctor Parameters []
-explicit IKSolver() ;
+static RootMotion::FinalIK::IKSolver New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d39ac size 0x18 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HAPI_TransformEuler._ctor
 template<>
 

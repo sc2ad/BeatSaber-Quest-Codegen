@@ -4,13 +4,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class FloatSO;
-}
-namespace GlobalNamespace {
 class BoolSO;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__VRRenderingParamsSetup__SceneType;
+}
+namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class FloatSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -69,6 +72,8 @@ __Game = 2,
 constexpr operator __GlobalNamespace__VRRenderingParamsSetup__SceneType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__VRRenderingParamsSetup__SceneType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -172,8 +177,7 @@ constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 /// @brief Method OnEnable addr 0x267b064 size 0x33c virtual false final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit VRRenderingParamsSetup() ;
+static GlobalNamespace::VRRenderingParamsSetup New_ctor() ;
 
 /// @brief Method .ctor addr 0x267b3a0 size 0x8 virtual false final false
  void _ctor() ;

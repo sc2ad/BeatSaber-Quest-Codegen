@@ -52,14 +52,12 @@ constexpr explicit DesEdeKeyGenerator(void* ptr) noexcept : Org::BouncyCastle::C
 
 // Methods
 
-// Ctor Parameters []
-explicit DesEdeKeyGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe6ae08 size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "defaultStrength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DesEdeKeyGenerator(int32_t defaultStrength) ;
+static Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator New_ctor(int32_t defaultStrength) ;
 
 /// @brief Method .ctor addr 0xe6ae18 size 0x4 virtual false final false
  void _ctor(int32_t defaultStrength) ;

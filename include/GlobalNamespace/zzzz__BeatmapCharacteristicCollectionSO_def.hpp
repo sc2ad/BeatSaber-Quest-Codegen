@@ -72,8 +72,7 @@ constexpr ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO> __get__beatmapChara
 /// @brief Method get_allBeatmapCharacteristics addr 0x21c96d8 size 0x8 virtual false final false
  System::Collections::Generic::IReadOnlyCollection_1<GlobalNamespace::BeatmapCharacteristicSO> get_allBeatmapCharacteristics() ;
 
-// Ctor Parameters []
-explicit BeatmapCharacteristicCollectionSO() ;
+static GlobalNamespace::BeatmapCharacteristicCollectionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c96e0 size 0x8 virtual false final false
  void _ctor() ;

@@ -81,8 +81,7 @@ constexpr int32_t __get_customPropertiesCount() const;
 /// @brief Method get_properties addr 0x2cf4058 size 0x8 virtual false final false
  ::ArrayW<UnityEngine::UIElements::StyleProperty> get_properties() ;
 
-// Ctor Parameters []
-explicit StyleRule() ;
+static UnityEngine::UIElements::StyleRule New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf4060 size 0x8 virtual false final false
  void _ctor() ;

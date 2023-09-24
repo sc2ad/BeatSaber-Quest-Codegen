@@ -31,8 +31,10 @@ constexpr void UnityEngine::AssetFileNameExtensionAttribute::__set__otherExtensi
 constexpr System::Collections::Generic::IEnumerable_1<::StringW> UnityEngine::AssetFileNameExtensionAttribute::__get__otherExtensions_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerable_1<::StringW>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "preferredExtension", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "otherExtensions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
- UnityEngine::AssetFileNameExtensionAttribute::AssetFileNameExtensionAttribute(::StringW preferredExtension, ::ArrayW<::StringW> otherExtensions)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssetFileNameExtensionAttribute>(preferredExtension, otherExtensions))) {}
+ UnityEngine::AssetFileNameExtensionAttribute UnityEngine::AssetFileNameExtensionAttribute::New_ctor(::StringW preferredExtension, ::ArrayW<::StringW> otherExtensions)  {
+UnityEngine::AssetFileNameExtensionAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AssetFileNameExtensionAttribute>(preferredExtension, otherExtensions))};
+return o;
+}
  void UnityEngine::AssetFileNameExtensionAttribute::_ctor(::StringW preferredExtension, ::ArrayW<::StringW> otherExtensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AssetFileNameExtensionAttribute>::get(),

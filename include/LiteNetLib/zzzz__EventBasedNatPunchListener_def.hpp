@@ -4,20 +4,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace LiteNetLib {
+class INatPunchListener;
+}
 namespace System::Net {
 class IPEndPoint;
 }
 namespace LiteNetLib {
-class INatPunchListener;
+class LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess;
+}
+namespace LiteNetLib {
+class LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest;
 }
 namespace LiteNetLib {
 struct NatAddressType;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -71,8 +77,7 @@ constexpr explicit LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequ
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionRequest New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2086eb4 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -132,8 +137,7 @@ constexpr explicit LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSucc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionSuccess New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2087030 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -233,8 +237,7 @@ constexpr LiteNetLib::LiteNetLib__EventBasedNatPunchListener__OnNatIntroductionS
 /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionSuccess addr 0x2086e90 size 0x1c virtual true final true
  void LiteNetLib_INatPunchListener_OnNatIntroductionSuccess(System::Net::IPEndPoint targetEndPoint, LiteNetLib::NatAddressType type, ::StringW token) ;
 
-// Ctor Parameters []
-explicit EventBasedNatPunchListener() ;
+static LiteNetLib::EventBasedNatPunchListener New_ctor() ;
 
 /// @brief Method .ctor addr 0x2086eac size 0x8 virtual false final false
  void _ctor() ;

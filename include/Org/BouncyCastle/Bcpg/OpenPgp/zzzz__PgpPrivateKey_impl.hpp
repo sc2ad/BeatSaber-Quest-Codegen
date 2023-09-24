@@ -88,8 +88,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey::__set_privateKey
 constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey::__get_privateKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::AsymmetricKeyParameter, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "keyID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "publicKeyPacket", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey::PgpPrivateKey(int64_t keyID, Org::BouncyCastle::Bcpg::PublicKeyPacket publicKeyPacket, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpPrivateKey>(keyID, publicKeyPacket, privateKey))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey::New_ctor(int64_t keyID, Org::BouncyCastle::Bcpg::PublicKeyPacket publicKeyPacket, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey>(keyID, publicKeyPacket, privateKey))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey::_ctor(int64_t keyID, Org::BouncyCastle::Bcpg::PublicKeyPacket publicKeyPacket, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey>::get(),

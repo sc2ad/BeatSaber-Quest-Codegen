@@ -1,16 +1,16 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonWriter_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__TraceJsonWriter_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonTextWriter_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "System/IO/zzzz__StringWriter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::TraceJsonWriter._ctor
 template<>
 
@@ -709,8 +709,10 @@ constexpr void Newtonsoft::Json::Serialization::TraceJsonWriter::__set__sw(Syste
 constexpr System::IO::StringWriter Newtonsoft::Json::Serialization::TraceJsonWriter::__get__sw() const {
 return ::cordl_internals::getInstanceField<System::IO::StringWriter, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "innerWriter", ty: "Newtonsoft::Json::JsonWriter", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::TraceJsonWriter::TraceJsonWriter(Newtonsoft::Json::JsonWriter innerWriter)  : Newtonsoft::Json::JsonWriter(THROW_UNLESS(::il2cpp_utils::New<TraceJsonWriter>(innerWriter))) {}
+ Newtonsoft::Json::Serialization::TraceJsonWriter Newtonsoft::Json::Serialization::TraceJsonWriter::New_ctor(Newtonsoft::Json::JsonWriter innerWriter)  {
+Newtonsoft::Json::Serialization::TraceJsonWriter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::TraceJsonWriter>(innerWriter))};
+return o;
+}
  void Newtonsoft::Json::Serialization::TraceJsonWriter::_ctor(Newtonsoft::Json::JsonWriter innerWriter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::TraceJsonWriter>::get(),

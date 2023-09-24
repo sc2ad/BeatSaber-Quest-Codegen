@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/X509/Store/zzzz__X509StoreFactory_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509StoreParameters_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::Store::X509StoreFactory._ctor
 template<>
 
@@ -55,8 +55,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::X509::Store::X509StoreFactory::X509StoreFactory()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509StoreFactory>())) {}
+ Org::BouncyCastle::X509::Store::X509StoreFactory Org::BouncyCastle::X509::Store::X509StoreFactory::New_ctor()  {
+Org::BouncyCastle::X509::Store::X509StoreFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Store::X509StoreFactory>())};
+return o;
+}
  void Org::BouncyCastle::X509::Store::X509StoreFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Store::X509StoreFactory>::get(),

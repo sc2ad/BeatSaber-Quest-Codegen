@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Ocsp/zzzz__RespID_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__ResponderID_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::RespID._ctor
 template<>
@@ -111,8 +111,10 @@ constexpr void Org::BouncyCastle::Ocsp::RespID::__set_id(Org::BouncyCastle::Asn1
 constexpr Org::BouncyCastle::Asn1::Ocsp::ResponderID Org::BouncyCastle::Ocsp::RespID::__get_id() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Ocsp::ResponderID, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Ocsp::ResponderID", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::RespID::RespID(Org::BouncyCastle::Asn1::Ocsp::ResponderID id)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RespID>(id))) {}
+ Org::BouncyCastle::Ocsp::RespID Org::BouncyCastle::Ocsp::RespID::New_ctor(Org::BouncyCastle::Asn1::Ocsp::ResponderID id)  {
+Org::BouncyCastle::Ocsp::RespID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::RespID>(id))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::RespID::_ctor(Org::BouncyCastle::Asn1::Ocsp::ResponderID id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::RespID>::get(),
@@ -122,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, id);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::RespID::RespID(Org::BouncyCastle::Asn1::X509::X509Name name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RespID>(name))) {}
+ Org::BouncyCastle::Ocsp::RespID Org::BouncyCastle::Ocsp::RespID::New_ctor(Org::BouncyCastle::Asn1::X509::X509Name name)  {
+Org::BouncyCastle::Ocsp::RespID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::RespID>(name))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::RespID::_ctor(Org::BouncyCastle::Asn1::X509::X509Name name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::RespID>::get(),
@@ -133,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::RespID::RespID(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RespID>(publicKey))) {}
+ Org::BouncyCastle::Ocsp::RespID Org::BouncyCastle::Ocsp::RespID::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey)  {
+Org::BouncyCastle::Ocsp::RespID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::RespID>(publicKey))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::RespID::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::RespID>::get(),

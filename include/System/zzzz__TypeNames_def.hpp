@@ -10,6 +10,9 @@ class IEquatable_1;
 namespace System {
 class TypeName;
 }
+namespace System {
+class System__TypeNames__ATypeName;
+}
 // Forward declare root types
 namespace System {
 class System__TypeNames__ATypeName;
@@ -82,8 +85,7 @@ constexpr explicit System__TypeNames__ATypeName(void* ptr) noexcept : ::bs_hook:
 /// @brief Method Equals addr 0x24983c0 size 0x60 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType other) ;
 
-// Ctor Parameters []
-explicit System__TypeNames__ATypeName() ;
+static System::System__TypeNames__ATypeName New_ctor() ;
 
 /// @brief Method .ctor addr 0x2498420 size 0x4 virtual false final false
  void _ctor() ;

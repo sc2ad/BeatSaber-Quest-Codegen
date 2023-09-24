@@ -1,19 +1,20 @@
 #pragma once
 #include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/Globalization/zzzz__CalendarId_def.hpp"
-#include "System/Globalization/zzzz__CultureData_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Globalization/zzzz__MonthNameStyles_def.hpp"
-#include "System/zzzz__TokenType_def.hpp"
-#include "System/zzzz____DTString_def.hpp"
-#include "System/Globalization/zzzz__DateTimeFormatFlags_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Globalization/zzzz__CalendarId_def.hpp"
+#include "System/zzzz__DayOfWeek_def.hpp"
+#include "System/Globalization/zzzz__CultureData_def.hpp"
+#include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/Globalization/zzzz__DateTimeFormatFlags_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 #include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
-#include "System/Globalization/zzzz__CompareInfo_def.hpp"
-#include "System/zzzz__DayOfWeek_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz____DTString_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__TokenType_def.hpp"
+#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
+#include "System/Globalization/zzzz__MonthNameStyles_def.hpp"
 //  Writing Method size for method: System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue._ctor
 template<>
 
@@ -49,8 +50,10 @@ constexpr void System::Globalization::System__Globalization__DateTimeFormatInfo_
 constexpr int32_t System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue::__get_tokenValue() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tokenString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "tokenType", ty: "System::TokenType", modifiers: "", def_value: None }, CppParam { name: "tokenValue", ty: "int32_t", modifiers: "", def_value: None }]
- System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue::System__Globalization__DateTimeFormatInfo__TokenHashValue(::StringW tokenString, System::TokenType tokenType, int32_t tokenValue)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Globalization__DateTimeFormatInfo__TokenHashValue>(tokenString, tokenType, tokenValue))) {}
+ System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue::New_ctor(::StringW tokenString, System::TokenType tokenType, int32_t tokenValue)  {
+System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue>(tokenString, tokenType, tokenValue))};
+return o;
+}
  void System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue::_ctor(::StringW tokenString, System::TokenType tokenType, int32_t tokenValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::System__Globalization__DateTimeFormatInfo__TokenHashValue>::get(),
@@ -2071,8 +2074,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Globalization::DateTimeFormatInfo::DateTimeFormatInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DateTimeFormatInfo>())) {}
+ System::Globalization::DateTimeFormatInfo System::Globalization::DateTimeFormatInfo::New_ctor()  {
+System::Globalization::DateTimeFormatInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::DateTimeFormatInfo>())};
+return o;
+}
  void System::Globalization::DateTimeFormatInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::DateTimeFormatInfo>::get(),
@@ -2082,8 +2087,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "cultureData", ty: "System::Globalization::CultureData", modifiers: "", def_value: None }, CppParam { name: "cal", ty: "System::Globalization::Calendar", modifiers: "", def_value: None }]
- System::Globalization::DateTimeFormatInfo::DateTimeFormatInfo(System::Globalization::CultureData cultureData, System::Globalization::Calendar cal)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DateTimeFormatInfo>(cultureData, cal))) {}
+ System::Globalization::DateTimeFormatInfo System::Globalization::DateTimeFormatInfo::New_ctor(System::Globalization::CultureData cultureData, System::Globalization::Calendar cal)  {
+System::Globalization::DateTimeFormatInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::DateTimeFormatInfo>(cultureData, cal))};
+return o;
+}
  void System::Globalization::DateTimeFormatInfo::_ctor(System::Globalization::CultureData cultureData, System::Globalization::Calendar cal)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::DateTimeFormatInfo>::get(),

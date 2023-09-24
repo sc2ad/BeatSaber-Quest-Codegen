@@ -1,9 +1,9 @@
 #pragma once
 #include "RootMotion/zzzz__Baker_impl.hpp"
 #include "RootMotion/zzzz__GenericBaker_def.hpp"
-#include "RootMotion/zzzz__BakerTransform_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "RootMotion/zzzz__BakerTransform_def.hpp"
 //  Writing Method size for method: RootMotion::GenericBaker.Awake
 template<>
 
@@ -277,8 +277,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-// Ctor Parameters []
- RootMotion::GenericBaker::GenericBaker()  : RootMotion::Baker(THROW_UNLESS(::il2cpp_utils::New<GenericBaker>())) {}
+ RootMotion::GenericBaker RootMotion::GenericBaker::New_ctor()  {
+RootMotion::GenericBaker o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::GenericBaker>())};
+return o;
+}
  void RootMotion::GenericBaker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::GenericBaker>::get(),

@@ -53,8 +53,7 @@ constexpr explicit OVRAutoDestroyInMRC(void* ptr) noexcept : UnityEngine::MonoBe
 /// @brief Method Update addr 0x26194e4 size 0x4 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRAutoDestroyInMRC() ;
+static GlobalNamespace::OVRAutoDestroyInMRC New_ctor() ;
 
 /// @brief Method .ctor addr 0x26194e8 size 0x8 virtual false final false
  void _ctor() ;

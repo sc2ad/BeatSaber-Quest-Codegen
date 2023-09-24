@@ -17,39 +17,48 @@ class IEnumerator;
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::UI {
-struct UnityEngine__UI__Selectable__SelectionState;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace HMUI {
-class UIKeyboard;
+class ButtonBinder;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace HMUI {
-class ButtonBinder;
+struct HMUI__InputFieldView__SelectionState;
 }
 namespace HMUI {
-class ImageView;
+class HMUI__InputFieldView__InputFieldChanged;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace UnityEngine {
 class YieldInstruction;
 }
 namespace UnityEngine::UI {
-class Button;
+struct UnityEngine__UI__Selectable__SelectionState;
+}
+namespace HMUI {
+class ImageView;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace HMUI {
+class HMUI__InputFieldView___BlinkingCaretCoroutine_d__43;
+}
+namespace HMUI {
+class UIKeyboard;
 }
 // Forward declare root types
 namespace HMUI {
@@ -116,6 +125,8 @@ __Selected = 4,
 constexpr operator __HMUI__InputFieldView__SelectionState_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__InputFieldView__SelectionState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -380,8 +391,7 @@ constexpr UnityEngine::YieldInstruction __get__blinkWaitYieldInstruction() const
 /// @brief Method UpdateClearButton addr 0x1fcd91c size 0x34 virtual false final false
  void UpdateClearButton() ;
 
-// Ctor Parameters []
-explicit InputFieldView() ;
+static HMUI::InputFieldView New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fcdbe4 size 0x138 virtual false final false
  void _ctor() ;
@@ -435,8 +445,7 @@ constexpr explicit HMUI__InputFieldView__InputFieldChanged(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__InputFieldView__InputFieldChanged() ;
+static HMUI::HMUI__InputFieldView__InputFieldChanged New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fcdd1c size 0x48 virtual false final false
  void _ctor() ;
@@ -524,8 +533,7 @@ constexpr HMUI::InputFieldView __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__InputFieldView___BlinkingCaretCoroutine_d__43(int32_t __1__state) ;
+static HMUI::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fcdbbc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;

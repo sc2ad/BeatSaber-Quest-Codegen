@@ -55,8 +55,10 @@ constexpr void Zenject::InjectableInfo::__set_DefaultValue(::bs_hook::Il2CppWrap
 constexpr ::bs_hook::Il2CppWrapperType Zenject::InjectableInfo::__get_DefaultValue() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "optional", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "memberName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "memberType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "defaultValue", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "sourceType", ty: "Zenject::InjectSources", modifiers: "", def_value: None }]
- Zenject::InjectableInfo::InjectableInfo(bool optional, ::bs_hook::Il2CppWrapperType identifier, ::StringW memberName, System::Type memberType, ::bs_hook::Il2CppWrapperType defaultValue, Zenject::InjectSources sourceType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InjectableInfo>(optional, identifier, memberName, memberType, defaultValue, sourceType))) {}
+ Zenject::InjectableInfo Zenject::InjectableInfo::New_ctor(bool optional, ::bs_hook::Il2CppWrapperType identifier, ::StringW memberName, System::Type memberType, ::bs_hook::Il2CppWrapperType defaultValue, Zenject::InjectSources sourceType)  {
+Zenject::InjectableInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::InjectableInfo>(optional, identifier, memberName, memberType, defaultValue, sourceType))};
+return o;
+}
  void Zenject::InjectableInfo::_ctor(bool optional, ::bs_hook::Il2CppWrapperType identifier, ::StringW memberName, System::Type memberType, ::bs_hook::Il2CppWrapperType defaultValue, Zenject::InjectSources sourceType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::InjectableInfo>::get(),

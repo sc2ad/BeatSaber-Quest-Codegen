@@ -3,6 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::IO {
+class Stream;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Xml {
 struct XmlNodeType;
 }
@@ -13,19 +22,10 @@ namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
 namespace System::Xml {
-class IDtdInfo;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::Xml {
 struct ReadState;
 }
-namespace System::IO {
-class Stream;
+namespace System::Xml {
+class IDtdInfo;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -211,8 +211,7 @@ static uint32_t __get_HasValueBitmap() ;
 /// @brief Method CalcBufferSize addr 0x26c7658 size 0x84 virtual false final false
 static int32_t CalcBufferSize(System::IO::Stream input) ;
 
-// Ctor Parameters []
-explicit XmlReader() ;
+static System::Xml::XmlReader New_ctor() ;
 
 /// @brief Method .ctor addr 0x26c76dc size 0x8 virtual false final false
  void _ctor() ;

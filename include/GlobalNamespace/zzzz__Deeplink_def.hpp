@@ -100,8 +100,7 @@ constexpr uint64_t __get_MultiplayerRoomId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Deeplink() ;
+static GlobalNamespace::Deeplink New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bc748 size 0x8 virtual false final false
  void _ctor() ;

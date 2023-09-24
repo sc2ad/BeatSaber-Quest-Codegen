@@ -2,21 +2,22 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__HttpWebRequest_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__ValueTuple_3_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/zzzz__WebConnectionTunnel_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Version_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/Net/zzzz__HttpWebRequest_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__WebConnectionTunnel__NtlmAuthState::System__Net__WebConnectionTunnel__NtlmAuthState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -718,8 +719,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Uri, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::HttpWebRequest", modifiers: "", def_value: None }, CppParam { name: "connectUri", ty: "System::Uri", modifiers: "", def_value: None }]
- System::Net::WebConnectionTunnel::WebConnectionTunnel(System::Net::HttpWebRequest request, System::Uri connectUri)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WebConnectionTunnel>(request, connectUri))) {}
+ System::Net::WebConnectionTunnel System::Net::WebConnectionTunnel::New_ctor(System::Net::HttpWebRequest request, System::Uri connectUri)  {
+System::Net::WebConnectionTunnel o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebConnectionTunnel>(request, connectUri))};
+return o;
+}
  void System::Net::WebConnectionTunnel::_ctor(System::Net::HttpWebRequest request, System::Uri connectUri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebConnectionTunnel>::get(),

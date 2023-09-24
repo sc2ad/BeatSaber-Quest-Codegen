@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__BufferedCipherBase_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__BufferedAsymmetricBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher._ctor
 template<>
 
@@ -225,8 +225,10 @@ constexpr void Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::__set_b
 constexpr int32_t Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::__get_bufOff() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::BufferedAsymmetricBlockCipher(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  : Org::BouncyCastle::Crypto::BufferedCipherBase(THROW_UNLESS(::il2cpp_utils::New<BufferedAsymmetricBlockCipher>(cipher))) {}
+ Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher>::get(),

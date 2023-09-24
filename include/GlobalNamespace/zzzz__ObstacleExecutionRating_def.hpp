@@ -4,6 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__ObstacleExecutionRating__Rating;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__ObstacleExecutionRating__Rating;
@@ -60,6 +63,8 @@ __NotGood = 1,
 constexpr operator __GlobalNamespace__ObstacleExecutionRating__Rating_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ObstacleExecutionRating__Rating_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -141,8 +146,7 @@ constexpr GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating __ge
 /// @brief Method get_rating addr 0x2215fe8 size 0x8 virtual false final false
  GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating get_rating() ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rating", ty: "GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating", modifiers: "", def_value: None }]
-explicit ObstacleExecutionRating(float_t time, GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating rating) ;
+static GlobalNamespace::ObstacleExecutionRating New_ctor(float_t time, GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating rating) ;
 
 /// @brief Method .ctor addr 0x2215ff0 size 0x28 virtual false final false
  void _ctor(float_t time, GlobalNamespace::GlobalNamespace__ObstacleExecutionRating__Rating rating) ;

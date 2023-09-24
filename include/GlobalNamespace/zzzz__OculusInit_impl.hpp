@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusInit_def.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
+#include "GlobalNamespace/zzzz__OculusInit_def.hpp"
+#include "GlobalNamespace/zzzz__OculusDeeplinkManager_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "GlobalNamespace/zzzz__DlcPromoPanelModel_def.hpp"
-#include "GlobalNamespace/zzzz__OculusDeeplinkManager_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OculusInit____c._ctor
 template<>
@@ -53,8 +53,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Oculu
  Oculus::Platform::Oculus__Platform__Message__Callback GlobalNamespace::GlobalNamespace__OculusInit____c::__get___9__6_0()  {
 return ::cordl_internals::getStaticField<Oculus::Platform::Oculus__Platform__Message__Callback, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusInit____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusInit____c::GlobalNamespace__OculusInit____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusInit____c>())) {}
+ GlobalNamespace::GlobalNamespace__OculusInit____c GlobalNamespace::GlobalNamespace__OculusInit____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusInit____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusInit____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusInit____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusInit____c>::get(),
@@ -212,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, msg);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusInit::OculusInit()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OculusInit>())) {}
+ GlobalNamespace::OculusInit GlobalNamespace::OculusInit::New_ctor()  {
+GlobalNamespace::OculusInit o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusInit>())};
+return o;
+}
  void GlobalNamespace::OculusInit::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusInit>::get(),

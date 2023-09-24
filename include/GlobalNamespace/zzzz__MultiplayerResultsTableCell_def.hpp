@@ -5,26 +5,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace GlobalNamespace {
-class MultiplayerResultsAvatarController;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+class IConnectedPlayer;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class MultiplayerResultsAvatarController;
 }
 namespace UnityEngine::UI {
 class Image;
@@ -173,8 +173,7 @@ constexpr UnityEngine::Color __get__lightColor() const;
 /// @brief Method SetData addr 0x218c9a4 size 0x3c4 virtual false final false
  void SetData(GlobalNamespace::IConnectedPlayer connectedPlayer, int32_t position, ::StringW playerName, GlobalNamespace::LevelCompletionResults levelCompletionResults, bool isLocalPlayer, int32_t numberOfPlayers) ;
 
-// Ctor Parameters []
-explicit MultiplayerResultsTableCell() ;
+static GlobalNamespace::MultiplayerResultsTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x218cd68 size 0x10 virtual false final false
  void _ctor() ;

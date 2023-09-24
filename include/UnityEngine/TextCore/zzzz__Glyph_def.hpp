@@ -10,10 +10,10 @@ namespace UnityEngine::TextCore::LowLevel {
 struct GlyphMarshallingStruct;
 }
 namespace UnityEngine::TextCore {
-struct GlyphClassDefinitionType;
+struct GlyphMetrics;
 }
 namespace UnityEngine::TextCore {
-struct GlyphMetrics;
+struct GlyphClassDefinitionType;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore {
@@ -143,20 +143,17 @@ constexpr UnityEngine::TextCore::GlyphClassDefinitionType __get_m_ClassDefinitio
 /// @brief Method set_atlasIndex addr 0x2baa860 size 0x8 virtual false final false
  void set_atlasIndex(int32_t value) ;
 
-// Ctor Parameters []
-explicit Glyph() ;
+static UnityEngine::TextCore::Glyph New_ctor() ;
 
 /// @brief Method .ctor addr 0x2baa868 size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "glyphStruct", ty: "UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct", modifiers: "", def_value: None }]
-explicit Glyph(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct) ;
+static UnityEngine::TextCore::Glyph New_ctor(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct) ;
 
 /// @brief Method .ctor addr 0x2baa890 size 0x8c virtual false final false
  void _ctor(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct) ;
 
-// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Glyph(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
+static UnityEngine::TextCore::Glyph New_ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;
 
 /// @brief Method .ctor addr 0x2baa91c size 0x70 virtual false final false
  void _ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex) ;

@@ -92,8 +92,7 @@ constexpr GlobalNamespace::ColorStepValuePicker __get__stepValuePicker() const;
 /// @brief Method DecButtonPressed addr 0x0 size 0xffffffffffffffff virtual true final false
  void DecButtonPressed() ;
 
-// Ctor Parameters []
-explicit IncDecColorController() ;
+static GlobalNamespace::IncDecColorController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21250d8 size 0x8 virtual false final false
  void _ctor() ;

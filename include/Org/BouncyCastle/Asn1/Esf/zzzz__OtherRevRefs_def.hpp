@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Object __get_otherRevRefs() const;
 /// @brief Method GetInstance addr 0xe049c0 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::OtherRevRefs GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OtherRevRefs(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::OtherRevRefs New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe07298 size 0x208 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "otherRevRefType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "otherRevRefs", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit OtherRevRefs(Org::BouncyCastle::Asn1::DerObjectIdentifier otherRevRefType, Org::BouncyCastle::Asn1::Asn1Encodable otherRevRefs) ;
+static Org::BouncyCastle::Asn1::Esf::OtherRevRefs New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier otherRevRefType, Org::BouncyCastle::Asn1::Asn1Encodable otherRevRefs) ;
 
 /// @brief Method .ctor addr 0xe074a0 size 0xb8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier otherRevRefType, Org::BouncyCastle::Asn1::Asn1Encodable otherRevRefs) ;

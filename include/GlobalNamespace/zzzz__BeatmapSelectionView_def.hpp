@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class LevelBar;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
-namespace GlobalNamespace {
-class LevelBar;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +74,7 @@ constexpr TMPro::TextMeshProUGUI __get__noLevelText() const;
 /// @brief Method SetBeatmap addr 0x2185160 size 0xa8 virtual true final false
  void SetBeatmap(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel) ;
 
-// Ctor Parameters []
-explicit BeatmapSelectionView() ;
+static GlobalNamespace::BeatmapSelectionView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2185208 size 0x8 virtual false final false
  void _ctor() ;

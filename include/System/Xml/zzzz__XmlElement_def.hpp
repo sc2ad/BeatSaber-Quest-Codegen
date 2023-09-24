@@ -3,16 +3,7 @@
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class XmlAttribute;
-}
-namespace System::Xml {
 class XmlAttributeCollection;
-}
-namespace System::Xml {
-class XmlName;
-}
-namespace System::Xml {
-class XmlLinkedNode;
 }
 namespace System::Xml {
 struct XmlNodeType;
@@ -21,7 +12,16 @@ namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
+class XmlLinkedNode;
+}
+namespace System::Xml {
 class XmlDocument;
+}
+namespace System::Xml {
+class XmlName;
+}
+namespace System::Xml {
+class XmlAttribute;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -125,14 +125,12 @@ constexpr System::Xml::XmlLinkedNode __get_lastChild() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlName", modifiers: "", def_value: None }, CppParam { name: "empty", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlElement(System::Xml::XmlName name, bool empty, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlElement New_ctor(System::Xml::XmlName name, bool empty, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f48b4 size 0x120 virtual false final false
  void _ctor(System::Xml::XmlName name, bool empty, System::Xml::XmlDocument doc) ;
 
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "namespaceURI", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlElement(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlElement New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f49d4 size 0x44 virtual false final false
  void _ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, System::Xml::XmlDocument doc) ;

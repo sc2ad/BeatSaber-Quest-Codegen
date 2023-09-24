@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipherFactory;
@@ -63,8 +63,7 @@ constexpr explicit AbstractTlsCipherFactory(void* ptr) noexcept : ::bs_hook::Il2
 /// @brief Method CreateCipher addr 0xecb1a8 size 0x44 virtual true final false
  Org::BouncyCastle::Crypto::Tls::TlsCipher CreateCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, int32_t encryptionAlgorithm, int32_t macAlgorithm) ;
 
-// Ctor Parameters []
-explicit AbstractTlsCipherFactory() ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0xecb1ec size 0x8 virtual false final false
  void _ctor() ;

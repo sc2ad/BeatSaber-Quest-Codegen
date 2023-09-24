@@ -115,8 +115,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::NetworkInformation::LinuxNetworkInterface::LinuxNetworkInterface(::StringW name)  : System::Net::NetworkInformation::UnixNetworkInterface(THROW_UNLESS(::il2cpp_utils::New<LinuxNetworkInterface>(name))) {}
+ System::Net::NetworkInformation::LinuxNetworkInterface System::Net::NetworkInformation::LinuxNetworkInterface::New_ctor(::StringW name)  {
+System::Net::NetworkInformation::LinuxNetworkInterface o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::LinuxNetworkInterface>(name))};
+return o;
+}
  void System::Net::NetworkInformation::LinuxNetworkInterface::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::LinuxNetworkInterface>::get(),

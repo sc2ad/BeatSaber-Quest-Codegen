@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Uri;
-}
 namespace System::Text::RegularExpressions {
 class Regex;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace UnityEngineInternal {

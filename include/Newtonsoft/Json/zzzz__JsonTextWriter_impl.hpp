@@ -1,17 +1,17 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonWriter_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonTextWriter_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__Base64Encoder_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::JsonTextWriter.get_Base64Encoder
 template<>
 
@@ -1157,8 +1157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "textWriter", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonTextWriter::JsonTextWriter(System::IO::TextWriter textWriter)  : Newtonsoft::Json::JsonWriter(THROW_UNLESS(::il2cpp_utils::New<JsonTextWriter>(textWriter))) {}
+ Newtonsoft::Json::JsonTextWriter Newtonsoft::Json::JsonTextWriter::New_ctor(System::IO::TextWriter textWriter)  {
+Newtonsoft::Json::JsonTextWriter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonTextWriter>(textWriter))};
+return o;
+}
  void Newtonsoft::Json::JsonTextWriter::_ctor(System::IO::TextWriter textWriter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonTextWriter>::get(),

@@ -52,8 +52,7 @@ constexpr explicit MessageWithRoomList(void* ptr) noexcept : Oculus::Platform::M
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithRoomList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithRoomList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f0e0 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

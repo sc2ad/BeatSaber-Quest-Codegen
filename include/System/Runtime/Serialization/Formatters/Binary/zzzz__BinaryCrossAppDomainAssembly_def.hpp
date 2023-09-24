@@ -66,8 +66,7 @@ constexpr int32_t __get_assemblyIndex() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BinaryCrossAppDomainAssembly() ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly New_ctor() ;
 
 /// @brief Method .ctor addr 0x2355c58 size 0x8 virtual false final false
  void _ctor() ;

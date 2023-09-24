@@ -9,11 +9,11 @@ class BasicSpectrogramData;
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
-namespace UnityEngine {
-class MeshRenderer;
-}
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +108,7 @@ static UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
 /// @brief Method Update addr 0x226bebc size 0x15c virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit Spectrogram() ;
+static GlobalNamespace::Spectrogram New_ctor() ;
 
 /// @brief Method .ctor addr 0x226c018 size 0x8 virtual false final false
  void _ctor() ;

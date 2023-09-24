@@ -4,8 +4,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::ProBuilder {
+struct UnityEngine__ProBuilder__AutoUnwrapSettings__Fill;
+}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::ProBuilder {
+struct UnityEngine__ProBuilder__AutoUnwrapSettings__Anchor;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -74,6 +80,8 @@ __None = 9,
 constexpr operator __UnityEngine__ProBuilder__AutoUnwrapSettings__Anchor_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ProBuilder__AutoUnwrapSettings__Anchor_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -168,6 +176,8 @@ __Stretch = 2,
 constexpr operator __UnityEngine__ProBuilder__AutoUnwrapSettings__Fill_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ProBuilder__AutoUnwrapSettings__Fill_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

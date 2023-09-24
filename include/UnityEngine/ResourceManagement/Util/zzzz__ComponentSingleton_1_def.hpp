@@ -17,7 +17,7 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166)), TypeDefinitionIndex(TypeDefinitionIndex(14247))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14247)), TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14247), inst: 2 })
 // CS Name: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
 class CORDL_TYPE ComponentSingleton_1<T> : public UnityEngine::MonoBehaviour {
@@ -93,8 +93,7 @@ static T CreateNewSingleton() ;
 /// @brief Method DestroySingleton addr 0x0 size 0xffffffffffffffff virtual false final false
 static void DestroySingleton() ;
 
-// Ctor Parameters []
-explicit ComponentSingleton_1() ;
+static UnityEngine::ResourceManagement::Util::ComponentSingleton_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

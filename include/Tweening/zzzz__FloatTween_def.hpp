@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Tweening/zzzz__Tween_1_def.hpp"
 #include <cmath>
-namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TValue>
-class StaticMemoryPool_7;
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace GlobalNamespace {
-struct EaseType;
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TValue>
+class StaticMemoryPool_7;
 }
 // Forward declare root types
 namespace Tweening {
@@ -68,14 +68,12 @@ static Zenject::StaticMemoryPool_7<float_t,float_t,System::Action_1<float_t>,flo
 
 // Methods
 
-// Ctor Parameters []
-explicit FloatTween() ;
+static Tweening::FloatTween New_ctor() ;
 
 /// @brief Method .ctor addr 0x2879e94 size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "fromValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "toValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "onUpdate", ty: "System::Action_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: None }]
-explicit FloatTween(float_t fromValue, float_t toValue, System::Action_1<float_t> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;
+static Tweening::FloatTween New_ctor(float_t fromValue, float_t toValue, System::Action_1<float_t> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;
 
 /// @brief Method .ctor addr 0x2879edc size 0x90 virtual false final false
  void _ctor(float_t fromValue, float_t toValue, System::Action_1<float_t> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;

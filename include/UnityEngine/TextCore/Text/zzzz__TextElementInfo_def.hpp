@@ -4,28 +4,28 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::TextCore::Text {
-struct FontStyles;
-}
-namespace UnityEngine {
-class Material;
+struct TextVertex;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine::TextCore::Text {
-struct TextElementType;
+class FontAsset;
 }
 namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
 }
+namespace UnityEngine {
+class Material;
+}
 namespace UnityEngine::TextCore::Text {
-class FontAsset;
+struct FontStyles;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::TextCore::Text {
-struct TextVertex;
+struct TextElementType;
 }
 namespace UnityEngine::TextCore::Text {
 class TextElement;

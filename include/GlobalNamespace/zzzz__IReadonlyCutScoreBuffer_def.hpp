@@ -3,16 +3,16 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class ICutScoreBufferDidChangeReceiver;
-}
-namespace GlobalNamespace {
 class ICutScoreBufferDidFinishReceiver;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__ScoreModel__NoteScoreDefinition;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class ICutScoreBufferDidChangeReceiver;
 }
 // Forward declare root types
 namespace GlobalNamespace {

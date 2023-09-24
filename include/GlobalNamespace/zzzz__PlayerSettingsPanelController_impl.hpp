@@ -2,23 +2,24 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSettingsPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__ArcVisibilityTypeSettingsDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
-#include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeightSettingsController_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSettingsPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpStartBeatOffsetDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__EventBinder_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPresetDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettingsDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__EventBinder_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeightSettingsController_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPresetDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__ArcVisibilityTypeSettingsDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
+#include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettingsDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
-#include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout::GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1041,8 +1042,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, arcVisibilityType, forceRebuild);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlayerSettingsPanelController>())) {}
+ GlobalNamespace::PlayerSettingsPanelController GlobalNamespace::PlayerSettingsPanelController::New_ctor()  {
+GlobalNamespace::PlayerSettingsPanelController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerSettingsPanelController>())};
+return o;
+}
  void GlobalNamespace::PlayerSettingsPanelController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerSettingsPanelController>::get(),

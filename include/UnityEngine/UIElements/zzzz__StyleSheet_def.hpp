@@ -7,21 +7,24 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class StyleComplexSelector;
-}
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements {
-struct StyleValueType;
+class Object;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct Dimension;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__StyleSheet__ImportStruct;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct ScalableImage;
+}
+namespace UnityEngine::UIElements {
+struct StyleValueType;
 }
 namespace UnityEngine::UIElements {
 struct StyleValueHandle;
@@ -29,21 +32,21 @@ struct StyleValueHandle;
 namespace UnityEngine::UIElements {
 struct StyleValueKeyword;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct ScalableImage;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine::UIElements {
 struct StyleValueFunction;
 }
 namespace UnityEngine::UIElements {
 class StyleRule;
 }
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::UIElements {
+class StyleComplexSelector;
+}
 namespace UnityEngine {
-class Object;
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -408,8 +411,7 @@ static T CheckAccess(::ArrayW<T> list, UnityEngine::UIElements::StyleValueType t
 /// @brief Method CustomStartsWith addr 0x2cf47dc size 0xc4 virtual false final false
 static bool CustomStartsWith(::StringW originalString, ::StringW pattern) ;
 
-// Ctor Parameters []
-explicit StyleSheet() ;
+static UnityEngine::UIElements::StyleSheet New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf3f5c size 0x8 virtual false final false
  void _ctor() ;

@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Material, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassLightTypeSO::BloomPrePassLightTypeSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassLightTypeSO>())) {}
+ GlobalNamespace::BloomPrePassLightTypeSO GlobalNamespace::BloomPrePassLightTypeSO::New_ctor()  {
+GlobalNamespace::BloomPrePassLightTypeSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassLightTypeSO>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassLightTypeSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassLightTypeSO>::get(),

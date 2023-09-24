@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-class IFormatProvider;
+class IFormattable;
 }
 namespace System {
-class IFormattable;
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System {
@@ -87,8 +87,7 @@ constexpr explicit FormattableString(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 /// @brief Method ToString addr 0x2429460 size 0x68 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit FormattableString() ;
+static System::FormattableString New_ctor() ;
 
 /// @brief Method .ctor addr 0x24294c8 size 0x8 virtual false final false
  void _ctor() ;

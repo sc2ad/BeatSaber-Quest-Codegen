@@ -1,6 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
+#include "UnityEngine/zzzz__TextAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
  void UnityEngine::UnityEngine__TextAsset__EncodingUtility::__set_encodingLookup(::ArrayW<System::Collections::Generic::KeyValuePair_2<::ArrayW<uint8_t>,System::Text::Encoding>> value)  {

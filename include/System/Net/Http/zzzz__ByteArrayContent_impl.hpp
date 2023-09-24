@@ -2,8 +2,8 @@
 #include "System/Net/Http/zzzz__HttpContent_impl.hpp"
 #include "System/Net/Http/zzzz__ByteArrayContent_def.hpp"
 #include "System/Net/zzzz__TransportContext_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: System::Net::Http::ByteArrayContent._ctor
 template<>
 
@@ -73,8 +73,10 @@ constexpr void System::Net::Http::ByteArrayContent::__set_count(int32_t value)  
 constexpr int32_t System::Net::Http::ByteArrayContent::__get_count() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "content", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Net::Http::ByteArrayContent::ByteArrayContent(::ArrayW<uint8_t> content)  : System::Net::Http::HttpContent(THROW_UNLESS(::il2cpp_utils::New<ByteArrayContent>(content))) {}
+ System::Net::Http::ByteArrayContent System::Net::Http::ByteArrayContent::New_ctor(::ArrayW<uint8_t> content)  {
+System::Net::Http::ByteArrayContent o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::ByteArrayContent>(content))};
+return o;
+}
  void System::Net::Http::ByteArrayContent::_ctor(::ArrayW<uint8_t> content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::ByteArrayContent>::get(),

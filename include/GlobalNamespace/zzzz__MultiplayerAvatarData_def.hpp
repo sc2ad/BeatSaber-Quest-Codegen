@@ -4,14 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace LiteNetLib::Utils {
-template<typename T>
-class INetImmutableSerializable_1;
-}
 namespace UnityEngine {
 struct Color32;
 }
@@ -19,7 +11,15 @@ namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace LiteNetLib::Utils {
+template<typename T>
+class INetImmutableSerializable_1;
+}
+namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

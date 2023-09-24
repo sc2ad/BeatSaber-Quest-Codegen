@@ -6,10 +6,22 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct VerticalWrapMode;
+struct FontStyle;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine::UI {
+class FontData;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
 }
 namespace UnityEngine {
 class Material;
@@ -21,31 +33,19 @@ namespace UnityEngine {
 struct UIVertex;
 }
 namespace UnityEngine {
-class TextGenerator;
-}
-namespace UnityEngine::UI {
-class FontData;
+class Texture;
 }
 namespace UnityEngine {
 struct TextAnchor;
 }
 namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine {
-struct Vector2;
+class TextGenerator;
 }
 namespace UnityEngine {
 struct HorizontalWrapMode;
 }
 namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine {
-class Texture;
+struct VerticalWrapMode;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -192,8 +192,7 @@ constexpr ::ArrayW<UnityEngine::UIVertex> __get_m_TempVerts() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Text() ;
+static UnityEngine::UI::Text New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c11980 size 0x98 virtual false final false
  void _ctor() ;

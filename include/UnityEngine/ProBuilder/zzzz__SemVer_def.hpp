@@ -5,15 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
+class IComparable;
+}
+namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace System {
 template<typename T>
 class IComparable_1;
-}
-namespace System {
-class IComparable;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -161,20 +161,17 @@ static constexpr ::ConstString  DefaultStringFormat{u"M.m.p-t.b"};
 /// @brief Method get_MajorMinorPatch addr 0x29d7bf4 size 0x8c virtual false final false
  UnityEngine::ProBuilder::SemVer get_MajorMinorPatch() ;
 
-// Ctor Parameters []
-explicit SemVer() ;
+static UnityEngine::ProBuilder::SemVer New_ctor() ;
 
 /// @brief Method .ctor addr 0x29d7cec size 0x34 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "formatted", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "date", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SemVer(::StringW formatted, ::StringW date) ;
+static UnityEngine::ProBuilder::SemVer New_ctor(::StringW formatted, ::StringW date) ;
 
 /// @brief Method .ctor addr 0x29d7d20 size 0xa8 virtual false final false
  void _ctor(::StringW formatted, ::StringW date) ;
 
-// Ctor Parameters [CppParam { name: "major", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "patch", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "date", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "metadata", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SemVer(int32_t major, int32_t minor, int32_t patch, int32_t build, ::StringW type, ::StringW date, ::StringW metadata) ;
+static UnityEngine::ProBuilder::SemVer New_ctor(int32_t major, int32_t minor, int32_t patch, int32_t build, ::StringW type, ::StringW date, ::StringW metadata) ;
 
 /// @brief Method .ctor addr 0x29d7c80 size 0x6c virtual false final false
  void _ctor(int32_t major, int32_t minor, int32_t patch, int32_t build, ::StringW type, ::StringW date, ::StringW metadata) ;

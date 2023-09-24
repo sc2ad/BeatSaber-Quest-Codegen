@@ -76,8 +76,7 @@ constexpr Newtonsoft::Json::Linq::JsonPath::QueryOperator __get__Operator_k__Bac
 /// @brief Method IsMatch addr 0x0 size 0xffffffffffffffff virtual true final false
  bool IsMatch(Newtonsoft::Json::Linq::JToken t) ;
 
-// Ctor Parameters []
-explicit QueryExpression() ;
+static Newtonsoft::Json::Linq::JsonPath::QueryExpression New_ctor() ;
 
 /// @brief Method .ctor addr 0x2539244 size 0x8 virtual false final false
  void _ctor() ;

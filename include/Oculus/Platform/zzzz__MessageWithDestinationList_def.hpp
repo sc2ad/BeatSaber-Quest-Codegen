@@ -52,8 +52,7 @@ constexpr explicit MessageWithDestinationList(void* ptr) noexcept : Oculus::Plat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithDestinationList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithDestinationList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e638 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

@@ -3,31 +3,31 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::Rendering {
+class RenderPipelineAsset;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+struct UnityEngine__Camera__RenderRequest;
+}
 namespace UnityEngine::Rendering {
 class RenderPipeline;
 }
 namespace UnityEngine::Rendering {
 struct ScriptableRenderContext;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System {
-class Action;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
-}
-namespace UnityEngine {
-struct UnityEngine__Camera__RenderRequest;
-}
-namespace UnityEngine::Rendering {
-class RenderPipelineAsset;
-}
-namespace UnityEngine {
-class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

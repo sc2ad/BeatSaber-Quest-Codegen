@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, result);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::MultiplayerBadgeDataGoodCutsSO()  : GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO(THROW_UNLESS(::il2cpp_utils::New<MultiplayerBadgeDataGoodCutsSO>())) {}
+ GlobalNamespace::MultiplayerBadgeDataGoodCutsSO GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::New_ctor()  {
+GlobalNamespace::MultiplayerBadgeDataGoodCutsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerBadgeDataGoodCutsSO>())};
+return o;
+}
  void GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerBadgeDataGoodCutsSO>::get(),

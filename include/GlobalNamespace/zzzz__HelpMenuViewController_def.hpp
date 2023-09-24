@@ -4,25 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace HMUI {
+class ViewController;
+}
+namespace HMUI {
+class SegmentedControl;
+}
+namespace HMUI {
 class TextSegmentedControl;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace HMUI {
-class ViewController;
-}
-namespace HMUI {
-class SegmentedControl;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -106,8 +106,7 @@ constexpr System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewCo
 /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell addr 0x215fd0c size 0x24 virtual false final false
  void HandleHelpMenuSegmentedControlDidSelectCell(HMUI::SegmentedControl segmentedControl, int32_t cellIdx) ;
 
-// Ctor Parameters []
-explicit HelpMenuViewController() ;
+static GlobalNamespace::HelpMenuViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215fd30 size 0x8 virtual false final false
  void _ctor() ;

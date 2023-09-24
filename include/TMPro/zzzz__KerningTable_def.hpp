@@ -4,14 +4,26 @@
 #include <cmath>
 #include <cstdint>
 namespace TMPro {
-struct GlyphValueRecord_Legacy;
+class TMPro__KerningTable____c__DisplayClass4_0;
 }
 namespace TMPro {
 class KerningPair;
 }
+namespace TMPro {
+struct GlyphValueRecord_Legacy;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace TMPro {
+class TMPro__KerningTable____c__DisplayClass3_0;
+}
+namespace TMPro {
+class TMPro__KerningTable____c;
+}
+namespace TMPro {
+class TMPro__KerningTable____c__DisplayClass5_0;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -90,8 +102,7 @@ constexpr uint32_t __get_second() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__KerningTable____c__DisplayClass3_0() ;
+static TMPro::TMPro__KerningTable____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a78f24 size 0x8 virtual false final false
  void _ctor() ;
@@ -160,8 +171,7 @@ constexpr uint32_t __get_second() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__KerningTable____c__DisplayClass4_0() ;
+static TMPro::TMPro__KerningTable____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a79124 size 0x8 virtual false final false
  void _ctor() ;
@@ -230,8 +240,7 @@ constexpr int32_t __get_right() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__KerningTable____c__DisplayClass5_0() ;
+static TMPro::TMPro__KerningTable____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a7924c size 0x8 virtual false final false
  void _ctor() ;
@@ -306,8 +315,7 @@ static System::Func_2<TMPro::KerningPair,uint32_t> __get___9__7_1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__KerningTable____c() ;
+static TMPro::TMPro__KerningTable____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a795b0 size 0x8 virtual false final false
  void _ctor() ;
@@ -381,8 +389,7 @@ constexpr System::Collections::Generic::List_1<TMPro::KerningPair> __get_kerning
 
 // Methods
 
-// Ctor Parameters []
-explicit KerningTable() ;
+static TMPro::KerningTable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a78410 size 0x80 virtual false final false
  void _ctor() ;

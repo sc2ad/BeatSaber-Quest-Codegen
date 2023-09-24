@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AuthenticationTokenPlatformExtensions_def.hpp"
-#include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
+#include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AuthenticationTokenPlatformExtensions.ToAuthenticationTokenPlatform
 template<>
 

@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__SignerInfoGeneratorBuilder_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__SignerInfoGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerIdentifier_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__SignerInfoGenerator_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder._ctor
 template<>
 
@@ -142,8 +142,10 @@ constexpr void Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__set_unsigne
 constexpr Org::BouncyCastle::Cms::CmsAttributeTableGenerator Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__get_unsignedGen() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Cms::CmsAttributeTableGenerator, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::SignerInfoGeneratorBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignerInfoGeneratorBuilder>())) {}
+ Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::New_ctor()  {
+Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder>())};
+return o;
+}
  void Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder>::get(),

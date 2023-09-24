@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class OcspResponseStatus;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class OcspResponseStatus;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class ResponseBytes;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -91,14 +91,12 @@ static Org::BouncyCastle::Asn1::Ocsp::OcspResponse GetInstance(Org::BouncyCastle
 /// @brief Method GetInstance addr 0xef2f4c size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Ocsp::OcspResponse GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "responseStatus", ty: "Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus", modifiers: "", def_value: None }, CppParam { name: "responseBytes", ty: "Org::BouncyCastle::Asn1::Ocsp::ResponseBytes", modifiers: "", def_value: None }]
-explicit OcspResponse(Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus responseStatus, Org::BouncyCastle::Asn1::Ocsp::ResponseBytes responseBytes) ;
+static Org::BouncyCastle::Asn1::Ocsp::OcspResponse New_ctor(Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus responseStatus, Org::BouncyCastle::Asn1::Ocsp::ResponseBytes responseBytes) ;
 
 /// @brief Method .ctor addr 0xef322c size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus responseStatus, Org::BouncyCastle::Asn1::Ocsp::ResponseBytes responseBytes) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OcspResponse(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ocsp::OcspResponse New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef30d4 size 0x158 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

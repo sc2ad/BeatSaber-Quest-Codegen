@@ -3,9 +3,6 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class DisplayText;
 }
@@ -14,6 +11,9 @@ class NoticeReference;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -83,20 +83,17 @@ constexpr Org::BouncyCastle::Asn1::X509::DisplayText __get_explicitText() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "noticeRef", ty: "Org::BouncyCastle::Asn1::X509::NoticeReference", modifiers: "", def_value: None }, CppParam { name: "explicitText", ty: "Org::BouncyCastle::Asn1::X509::DisplayText", modifiers: "", def_value: None }]
-explicit UserNotice(Org::BouncyCastle::Asn1::X509::NoticeReference noticeRef, Org::BouncyCastle::Asn1::X509::DisplayText explicitText) ;
+static Org::BouncyCastle::Asn1::X509::UserNotice New_ctor(Org::BouncyCastle::Asn1::X509::NoticeReference noticeRef, Org::BouncyCastle::Asn1::X509::DisplayText explicitText) ;
 
 /// @brief Method .ctor addr 0x11102c0 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::NoticeReference noticeRef, Org::BouncyCastle::Asn1::X509::DisplayText explicitText) ;
 
-// Ctor Parameters [CppParam { name: "noticeRef", ty: "Org::BouncyCastle::Asn1::X509::NoticeReference", modifiers: "", def_value: None }, CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UserNotice(Org::BouncyCastle::Asn1::X509::NoticeReference noticeRef, ::StringW str) ;
+static Org::BouncyCastle::Asn1::X509::UserNotice New_ctor(Org::BouncyCastle::Asn1::X509::NoticeReference noticeRef, ::StringW str) ;
 
 /// @brief Method .ctor addr 0x11102ec size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::NoticeReference noticeRef, ::StringW str) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit UserNotice(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::UserNotice New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1110368 size 0x208 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

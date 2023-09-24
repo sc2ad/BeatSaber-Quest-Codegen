@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__PointerManipulator_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TwoPaneSplitViewResizer_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TwoPaneSplitViewOrientation_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TwoPaneSplitView_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TwoPaneSplitViewOrientation_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::TwoPaneSplitViewResizer.get_fixedPane
 template<>
 
@@ -261,8 +261,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "splitView", ty: "UnityEngine::UIElements::TwoPaneSplitView", modifiers: "", def_value: None }, CppParam { name: "dir", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "UnityEngine::UIElements::TwoPaneSplitViewOrientation", modifiers: "", def_value: None }]
- UnityEngine::UIElements::TwoPaneSplitViewResizer::TwoPaneSplitViewResizer(UnityEngine::UIElements::TwoPaneSplitView splitView, int32_t dir, UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation)  : UnityEngine::UIElements::PointerManipulator(THROW_UNLESS(::il2cpp_utils::New<TwoPaneSplitViewResizer>(splitView, dir, orientation))) {}
+ UnityEngine::UIElements::TwoPaneSplitViewResizer UnityEngine::UIElements::TwoPaneSplitViewResizer::New_ctor(UnityEngine::UIElements::TwoPaneSplitView splitView, int32_t dir, UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation)  {
+UnityEngine::UIElements::TwoPaneSplitViewResizer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TwoPaneSplitViewResizer>(splitView, dir, orientation))};
+return o;
+}
  void UnityEngine::UIElements::TwoPaneSplitViewResizer::_ctor(UnityEngine::UIElements::TwoPaneSplitView splitView, int32_t dir, UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TwoPaneSplitViewResizer>::get(),

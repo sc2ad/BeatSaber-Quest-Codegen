@@ -7,17 +7,16 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationDebugContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class Triangulatable;
+struct TriangulationAlgorithm;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationConstraint;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class Triangulatable;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DTSweepDebugContext;
+class TriangulationPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DelaunayTriangle;
@@ -26,10 +25,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 struct TriangulationMode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationAlgorithm;
+class DTSweepDebugContext;
 }
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -190,8 +190,7 @@ constexpr bool __get__IsDebugEnabled_k__BackingField() const;
 /// @brief Method get_DTDebugContext addr 0x299dc64 size 0x7c virtual false final false
  UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext get_DTDebugContext() ;
 
-// Ctor Parameters []
-explicit TriangulationContext() ;
+static UnityEngine::ProBuilder::Poly2Tri::TriangulationContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a0b38 size 0xc0 virtual false final false
  void _ctor() ;

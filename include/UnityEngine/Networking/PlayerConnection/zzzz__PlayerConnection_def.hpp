@@ -5,6 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine::Networking::PlayerConnection {
+class UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class IEditorPlayerConnection;
+}
+namespace System {
+struct Guid;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class IPlayerEditorConnectionNative;
+}
 namespace UnityEngine::Events {
 template<typename T0>
 class UnityAction_1;
@@ -12,21 +31,11 @@ class UnityAction_1;
 namespace UnityEngine::Networking::PlayerConnection {
 class MessageEventArgs;
 }
-namespace System {
-struct Guid;
-}
 namespace UnityEngine::Networking::PlayerConnection {
 class PlayerEditorConnectionEvents;
 }
 namespace UnityEngine::Networking::PlayerConnection {
-class IEditorPlayerConnection;
-}
-namespace UnityEngine {
-class IPlayerEditorConnectionNative;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0;
 }
 namespace UnityEngine::Networking::PlayerConnection {
 class UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__MessageTypeSubscribers;
@@ -95,8 +104,7 @@ constexpr System::Guid __get_messageId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0() ;
+static UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass12_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b6ff00 size 0x8 virtual false final false
  void _ctor() ;
@@ -159,8 +167,7 @@ constexpr System::Guid __get_messageId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0() ;
+static UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b700b0 size 0x8 virtual false final false
  void _ctor() ;
@@ -223,8 +230,7 @@ constexpr bool __get_msgReceived() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0() ;
+static UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerConnection____c__DisplayClass20_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b70830 size 0x8 virtual false final false
  void _ctor() ;
@@ -381,8 +387,7 @@ static void ConnectedCallbackInternal(int32_t playerId) ;
 /// @brief Method DisconnectedCallback addr 0x2b70ac8 size 0x94 virtual false final false
 static void DisconnectedCallback(int32_t playerId) ;
 
-// Ctor Parameters []
-explicit PlayerConnection() ;
+static UnityEngine::Networking::PlayerConnection::PlayerConnection New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b70b5c size 0xa8 virtual false final false
  void _ctor() ;

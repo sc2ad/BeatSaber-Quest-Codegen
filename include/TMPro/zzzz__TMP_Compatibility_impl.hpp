@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "TMPro/zzzz__TMP_Compatibility_def.hpp"
+#include "TMPro/zzzz__TMP_Compatibility_def.hpp"
 #include "TMPro/zzzz__TextAlignmentOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr TMPro::TMPro__TMP_Compatibility__AnchorPositions::TMPro__TMP_Compatibility__AnchorPositions(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;

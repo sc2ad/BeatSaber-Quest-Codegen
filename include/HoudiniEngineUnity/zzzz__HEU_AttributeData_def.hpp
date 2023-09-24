@@ -7,11 +7,17 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
-}
-namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_AttributeData__AttributeType;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_AttributeData__AttributeState;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -76,6 +82,8 @@ __MAX = 4,
 constexpr operator __HoudiniEngineUnity__HEU_AttributeData__AttributeType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_AttributeData__AttributeType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -158,6 +166,8 @@ __LOCAL_DIRTY = 2,
 constexpr operator __HoudiniEngineUnity__HEU_AttributeData__AttributeState_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_AttributeData__AttributeState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -284,8 +294,7 @@ constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributeData__AttributeSt
 /// @brief Method IsEquivalentTo addr 0x200c0d4 size 0x328 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_AttributeData other) ;
 
-// Ctor Parameters []
-explicit HEU_AttributeData() ;
+static HoudiniEngineUnity::HEU_AttributeData New_ctor() ;
 
 /// @brief Method .ctor addr 0x200c3fc size 0x8 virtual false final false
  void _ctor() ;

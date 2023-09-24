@@ -2,24 +2,24 @@
 #include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__SinglePlayerLevelSelectionFlowCoordinator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__GameplaySetupViewController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
-#include "GlobalNamespace/zzzz__SafeAreaFocusedSimpleDialogPromptViewController_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__GameplaySetupViewController_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
+#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
+#include "GlobalNamespace/zzzz__SinglePlayerLevelSelectionFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__SafeAreaFocusedSimpleDialogPromptViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PracticeViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0._ctor
 template<>
 
@@ -95,8 +95,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowC
 constexpr System::Action GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0::__get___9__1() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0>())) {}
+ GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0 GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SinglePlayerLevelSelectionFlowCoordinator____c__DisplayClass37_0>::get(),
@@ -917,8 +919,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, finishedCallback, immediately);
 }
-// Ctor Parameters []
- GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinator()  : GlobalNamespace::LevelSelectionFlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<SinglePlayerLevelSelectionFlowCoordinator>())) {}
+ GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::New_ctor()  {
+GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>::get(),

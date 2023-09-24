@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__SignerInformationStore_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__SignerInformation_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__SignerID_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__SignerID_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::SignerInformationStore._ctor
 template<>
 
@@ -119,8 +119,10 @@ constexpr void Org::BouncyCastle::Cms::SignerInformationStore::__set_table(Syste
 constexpr System::Collections::IDictionary Org::BouncyCastle::Cms::SignerInformationStore::__get_table() const {
 return ::cordl_internals::getInstanceField<System::Collections::IDictionary, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signerInfo", ty: "Org::BouncyCastle::Cms::SignerInformation", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::SignerInformationStore::SignerInformationStore(Org::BouncyCastle::Cms::SignerInformation signerInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignerInformationStore>(signerInfo))) {}
+ Org::BouncyCastle::Cms::SignerInformationStore Org::BouncyCastle::Cms::SignerInformationStore::New_ctor(Org::BouncyCastle::Cms::SignerInformation signerInfo)  {
+Org::BouncyCastle::Cms::SignerInformationStore o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::SignerInformationStore>(signerInfo))};
+return o;
+}
  void Org::BouncyCastle::Cms::SignerInformationStore::_ctor(Org::BouncyCastle::Cms::SignerInformation signerInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::SignerInformationStore>::get(),
@@ -130,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, signerInfo);
 }
-// Ctor Parameters [CppParam { name: "signerInfos", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::SignerInformationStore::SignerInformationStore(System::Collections::ICollection signerInfos)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignerInformationStore>(signerInfos))) {}
+ Org::BouncyCastle::Cms::SignerInformationStore Org::BouncyCastle::Cms::SignerInformationStore::New_ctor(System::Collections::ICollection signerInfos)  {
+Org::BouncyCastle::Cms::SignerInformationStore o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::SignerInformationStore>(signerInfos))};
+return o;
+}
  void Org::BouncyCastle::Cms::SignerInformationStore::_ctor(System::Collections::ICollection signerInfos)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::SignerInformationStore>::get(),

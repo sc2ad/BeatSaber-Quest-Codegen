@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockComboController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__IComboController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__IComboController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockComboController.add_comboDidChangeEvent
 template<>
 
@@ -140,8 +140,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::MockComboController::MockComboController()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockComboController>())) {}
+ GlobalNamespace::MockComboController GlobalNamespace::MockComboController::New_ctor()  {
+GlobalNamespace::MockComboController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockComboController>())};
+return o;
+}
  void GlobalNamespace::MockComboController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockComboController>::get(),

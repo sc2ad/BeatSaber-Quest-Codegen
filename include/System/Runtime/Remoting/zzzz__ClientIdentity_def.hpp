@@ -6,10 +6,10 @@ namespace System {
 class Type;
 }
 namespace System {
-class WeakReference;
+class MarshalByRefObject;
 }
 namespace System {
-class MarshalByRefObject;
+class WeakReference;
 }
 namespace System::Runtime::Remoting {
 class ObjRef;
@@ -76,8 +76,7 @@ constexpr System::WeakReference __get__proxyReference() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objRef", ty: "System::Runtime::Remoting::ObjRef", modifiers: "", def_value: None }]
-explicit ClientIdentity(::StringW objectUri, System::Runtime::Remoting::ObjRef objRef) ;
+static System::Runtime::Remoting::ClientIdentity New_ctor(::StringW objectUri, System::Runtime::Remoting::ObjRef objRef) ;
 
 /// @brief Method .ctor addr 0x231a008 size 0x108 virtual false final false
  void _ctor(::StringW objectUri, System::Runtime::Remoting::ObjRef objRef) ;

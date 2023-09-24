@@ -2,9 +2,9 @@
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XContainerWrapper_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Xml/Linq/zzzz__XContainer_def.hpp"
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
-#include "System/Xml/Linq/zzzz__XContainer_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::XContainerWrapper.get_Container
 template<>
 
@@ -122,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Linq::XContainer, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "System::Xml::Linq::XContainer", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::XContainerWrapper::XContainerWrapper(System::Xml::Linq::XContainer container)  : Newtonsoft::Json::Converters::XObjectWrapper(THROW_UNLESS(::il2cpp_utils::New<XContainerWrapper>(container))) {}
+ Newtonsoft::Json::Converters::XContainerWrapper Newtonsoft::Json::Converters::XContainerWrapper::New_ctor(System::Xml::Linq::XContainer container)  {
+Newtonsoft::Json::Converters::XContainerWrapper o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::XContainerWrapper>(container))};
+return o;
+}
  void Newtonsoft::Json::Converters::XContainerWrapper::_ctor(System::Xml::Linq::XContainer container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::XContainerWrapper>::get(),

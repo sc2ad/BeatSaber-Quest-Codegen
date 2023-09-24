@@ -1,14 +1,15 @@
 #pragma once
 #include "Zenject/zzzz__AddToCurrentGameObjectComponentProvider_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__AddToCurrentGameObjectComponentProvider_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0._ctor
 template<>
@@ -102,8 +103,10 @@ constexpr void Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__D
 constexpr Zenject::InjectContext Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0::__get_context() const {
 return ::cordl_internals::getInstanceField<Zenject::InjectContext, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0>())) {}
+ Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0 Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0::New_ctor()  {
+Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0>())};
+return o;
+}
  void Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0>::get(),
@@ -293,8 +296,10 @@ constexpr void Zenject::AddToCurrentGameObjectComponentProvider::__set__instanti
 constexpr System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> Zenject::AddToCurrentGameObjectComponentProvider::__get__instantiateCallback() const {
 return ::cordl_internals::getInstanceField<System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- Zenject::AddToCurrentGameObjectComponentProvider::AddToCurrentGameObjectComponentProvider(Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AddToCurrentGameObjectComponentProvider>(container, componentType, extraArguments, concreteIdentifier, instantiateCallback))) {}
+ Zenject::AddToCurrentGameObjectComponentProvider Zenject::AddToCurrentGameObjectComponentProvider::New_ctor(Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  {
+Zenject::AddToCurrentGameObjectComponentProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::AddToCurrentGameObjectComponentProvider>(container, componentType, extraArguments, concreteIdentifier, instantiateCallback))};
+return o;
+}
  void Zenject::AddToCurrentGameObjectComponentProvider::_ctor(Zenject::DiContainer container, System::Type componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::AddToCurrentGameObjectComponentProvider>::get(),

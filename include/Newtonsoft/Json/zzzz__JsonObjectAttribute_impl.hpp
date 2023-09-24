@@ -1,9 +1,9 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonContainerAttribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonObjectAttribute_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
 #include "Newtonsoft/Json/zzzz__Required_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::JsonObjectAttribute.get_MemberSerialization
 template<>
 
@@ -171,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::JsonObjectAttribute::JsonObjectAttribute()  : Newtonsoft::Json::JsonContainerAttribute(THROW_UNLESS(::il2cpp_utils::New<JsonObjectAttribute>())) {}
+ Newtonsoft::Json::JsonObjectAttribute Newtonsoft::Json::JsonObjectAttribute::New_ctor()  {
+Newtonsoft::Json::JsonObjectAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonObjectAttribute>())};
+return o;
+}
  void Newtonsoft::Json::JsonObjectAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonObjectAttribute>::get(),
@@ -182,8 +184,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "memberSerialization", ty: "Newtonsoft::Json::MemberSerialization", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonObjectAttribute::JsonObjectAttribute(Newtonsoft::Json::MemberSerialization memberSerialization)  : Newtonsoft::Json::JsonContainerAttribute(THROW_UNLESS(::il2cpp_utils::New<JsonObjectAttribute>(memberSerialization))) {}
+ Newtonsoft::Json::JsonObjectAttribute Newtonsoft::Json::JsonObjectAttribute::New_ctor(Newtonsoft::Json::MemberSerialization memberSerialization)  {
+Newtonsoft::Json::JsonObjectAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonObjectAttribute>(memberSerialization))};
+return o;
+}
  void Newtonsoft::Json::JsonObjectAttribute::_ctor(Newtonsoft::Json::MemberSerialization memberSerialization)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonObjectAttribute>::get(),
@@ -193,8 +197,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, memberSerialization);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonObjectAttribute::JsonObjectAttribute(::StringW id)  : Newtonsoft::Json::JsonContainerAttribute(THROW_UNLESS(::il2cpp_utils::New<JsonObjectAttribute>(id))) {}
+ Newtonsoft::Json::JsonObjectAttribute Newtonsoft::Json::JsonObjectAttribute::New_ctor(::StringW id)  {
+Newtonsoft::Json::JsonObjectAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonObjectAttribute>(id))};
+return o;
+}
  void Newtonsoft::Json::JsonObjectAttribute::_ctor(::StringW id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonObjectAttribute>::get(),

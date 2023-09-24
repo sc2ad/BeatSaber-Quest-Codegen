@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509CertificateStructure;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Icao {
@@ -85,14 +85,12 @@ constexpr ::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> __ge
 /// @brief Method GetInstance addr 0xee6138 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Icao::CscaMasterList GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CscaMasterList(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Icao::CscaMasterList New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xee61dc size 0x288 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "certStructs", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure>", modifiers: "", def_value: None }]
-explicit CscaMasterList(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certStructs) ;
+static Org::BouncyCastle::Asn1::Icao::CscaMasterList New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certStructs) ;
 
 /// @brief Method .ctor addr 0xee6464 size 0x88 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certStructs) ;

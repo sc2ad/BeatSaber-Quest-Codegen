@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Text {
-class Encoder;
-}
-namespace System::Text {
-class Encoding;
-}
 namespace System::IO {
 class Stream;
 }
+namespace System::Text {
+class Encoder;
+}
 namespace System {
 class IDisposable;
+}
+namespace System::Text {
+class Encoding;
 }
 // Forward declare root types
 namespace System::IO {
@@ -117,26 +117,22 @@ constexpr int32_t __get__maxChars() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BinaryWriter() ;
+static System::IO::BinaryWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x23ca0e8 size 0xec virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BinaryWriter(System::IO::Stream output) ;
+static System::IO::BinaryWriter New_ctor(System::IO::Stream output) ;
 
 /// @brief Method .ctor addr 0x23ca1d4 size 0x80 virtual false final false
  void _ctor(System::IO::Stream output) ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit BinaryWriter(System::IO::Stream output, System::Text::Encoding encoding) ;
+static System::IO::BinaryWriter New_ctor(System::IO::Stream output, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x23ca3cc size 0x8 virtual false final false
  void _ctor(System::IO::Stream output, System::Text::Encoding encoding) ;
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit BinaryWriter(System::IO::Stream output, System::Text::Encoding encoding, bool leaveOpen) ;
+static System::IO::BinaryWriter New_ctor(System::IO::Stream output, System::Text::Encoding encoding, bool leaveOpen) ;
 
 /// @brief Method .ctor addr 0x23ca254 size 0x178 virtual false final false
  void _ctor(System::IO::Stream output, System::Text::Encoding encoding, bool leaveOpen) ;

@@ -66,8 +66,7 @@ constexpr explicit Datatype_normalizedString(void* ptr) noexcept : System::Xml::
 /// @brief Method get_BuiltInWhitespaceFacet addr 0x2727cec size 0x8 virtual true final false
  System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() ;
 
-// Ctor Parameters []
-explicit Datatype_normalizedString() ;
+static System::Xml::Schema::Datatype_normalizedString New_ctor() ;
 
 /// @brief Method .ctor addr 0x2727cf4 size 0x4 virtual false final false
  void _ctor() ;

@@ -116,8 +116,7 @@ static int32_t __get__lineLightColorsID() ;
 /// @brief Method Update addr 0x1fa1ac8 size 0x370 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit LineLightManager() ;
+static GlobalNamespace::LineLightManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa1e38 size 0xa4 virtual false final false
  void _ctor() ;

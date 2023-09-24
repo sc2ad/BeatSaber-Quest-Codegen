@@ -60,8 +60,7 @@ static constexpr uint8_t  ansiX962_compressed_char2{2u};
 
 // Methods
 
-// Ctor Parameters []
-explicit ECPointFormat() ;
+static Org::BouncyCastle::Crypto::Tls::ECPointFormat New_ctor() ;
 
 /// @brief Method .ctor addr 0xf0420c size 0x8 virtual false final false
  void _ctor() ;

@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Text::RegularExpressions {
-class RegexCharClass;
-}
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System::Text::RegularExpressions {
+class RegexCharClass;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -80,20 +80,17 @@ constexpr bool __get__CaseInsensitive_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nullable", ty: "bool", modifiers: "", def_value: None }]
-explicit RegexFC(bool nullable) ;
+static System::Text::RegularExpressions::RegexFC New_ctor(bool nullable) ;
 
 /// @brief Method .ctor addr 0x27ccb20 size 0x80 virtual false final false
  void _ctor(bool nullable) ;
 
-// Ctor Parameters [CppParam { name: "ch", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "not", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nullable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "caseInsensitive", ty: "bool", modifiers: "", def_value: None }]
-explicit RegexFC(char16_t ch, bool not, bool nullable, bool caseInsensitive) ;
+static System::Text::RegularExpressions::RegexFC New_ctor(char16_t ch, bool not, bool nullable, bool caseInsensitive) ;
 
 /// @brief Method .ctor addr 0x27ccc4c size 0xf4 virtual false final false
  void _ctor(char16_t ch, bool not, bool nullable, bool caseInsensitive) ;
 
-// Ctor Parameters [CppParam { name: "charClass", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nullable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "caseInsensitive", ty: "bool", modifiers: "", def_value: None }]
-explicit RegexFC(::StringW charClass, bool nullable, bool caseInsensitive) ;
+static System::Text::RegularExpressions::RegexFC New_ctor(::StringW charClass, bool nullable, bool caseInsensitive) ;
 
 /// @brief Method .ctor addr 0x27ccd40 size 0x94 virtual false final false
  void _ctor(::StringW charClass, bool nullable, bool caseInsensitive) ;

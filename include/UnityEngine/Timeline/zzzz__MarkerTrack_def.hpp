@@ -62,8 +62,7 @@ constexpr explicit MarkerTrack(void* ptr) noexcept : UnityEngine::Timeline::Trac
 /// @brief Method get_outputs addr 0x2ad01c8 size 0x1e4 virtual true final false
  System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding> get_outputs() ;
 
-// Ctor Parameters []
-explicit MarkerTrack() ;
+static UnityEngine::Timeline::MarkerTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad03ac size 0x54 virtual false final false
  void _ctor() ;

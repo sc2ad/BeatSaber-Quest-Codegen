@@ -1,13 +1,11 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__ConfigHandler_def.hpp"
-#include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
-#include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Collections/zzzz__Stack_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ProviderData_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
+#include "System/Collections/zzzz__Stack_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::ConfigHandler._ctor
 template<>
 
@@ -468,8 +466,10 @@ constexpr void System::Runtime::Remoting::ConfigHandler::__set_onlyDelayedChanne
 constexpr bool System::Runtime::Remoting::ConfigHandler::__get_onlyDelayedChannels() const {
 return ::cordl_internals::getInstanceField<bool, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "onlyDelayedChannels", ty: "bool", modifiers: "", def_value: None }]
- System::Runtime::Remoting::ConfigHandler::ConfigHandler(bool onlyDelayedChannels)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ConfigHandler>(onlyDelayedChannels))) {}
+ System::Runtime::Remoting::ConfigHandler System::Runtime::Remoting::ConfigHandler::New_ctor(bool onlyDelayedChannels)  {
+System::Runtime::Remoting::ConfigHandler o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ConfigHandler>(onlyDelayedChannels))};
+return o;
+}
  void System::Runtime::Remoting::ConfigHandler::_ctor(bool onlyDelayedChannels)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ConfigHandler>::get(),

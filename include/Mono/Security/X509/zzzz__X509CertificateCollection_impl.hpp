@@ -1,9 +1,10 @@
 #pragma once
 #include "System/Collections/zzzz__CollectionBase_impl.hpp"
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
 //  Writing Method size for method: Mono::Security::X509::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator._ctor
 template<>
 
@@ -116,8 +117,10 @@ constexpr void Mono::Security::X509::Mono__Security__X509__X509CertificateCollec
 constexpr System::Collections::IEnumerator Mono::Security::X509::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator::__get_enumerator() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mappings", ty: "Mono::Security::X509::X509CertificateCollection", modifiers: "", def_value: None }]
- Mono::Security::X509::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator(Mono::Security::X509::X509CertificateCollection mappings)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator>(mappings))) {}
+ Mono::Security::X509::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator Mono::Security::X509::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator::New_ctor(Mono::Security::X509::X509CertificateCollection mappings)  {
+Mono::Security::X509::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator>(mappings))};
+return o;
+}
  void Mono::Security::X509::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator::_ctor(Mono::Security::X509::X509CertificateCollection mappings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator>::get(),
@@ -346,8 +349,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 constexpr  Mono::Security::X509::X509CertificateCollection::operator System::Collections::IEnumerable() const noexcept {
 return System::Collections::IEnumerable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::X509::X509CertificateCollection::X509CertificateCollection()  : System::Collections::CollectionBase(THROW_UNLESS(::il2cpp_utils::New<X509CertificateCollection>())) {}
+ Mono::Security::X509::X509CertificateCollection Mono::Security::X509::X509CertificateCollection::New_ctor()  {
+Mono::Security::X509::X509CertificateCollection o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::X509CertificateCollection>())};
+return o;
+}
  void Mono::Security::X509::X509CertificateCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::X509CertificateCollection>::get(),

@@ -90,8 +90,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- GlobalNamespace::TubeBloomPrePassLightWithId::TubeBloomPrePassLightWithId()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TubeBloomPrePassLightWithId>())) {}
+ GlobalNamespace::TubeBloomPrePassLightWithId GlobalNamespace::TubeBloomPrePassLightWithId::New_ctor()  {
+GlobalNamespace::TubeBloomPrePassLightWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TubeBloomPrePassLightWithId>())};
+return o;
+}
  void GlobalNamespace::TubeBloomPrePassLightWithId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TubeBloomPrePassLightWithId>::get(),

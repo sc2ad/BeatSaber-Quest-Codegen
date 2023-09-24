@@ -4,32 +4,35 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class CutScoreBuffer;
-}
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class IReadonlyCutScoreBuffer;
-}
-namespace UnityEngine {
-class SpriteRenderer;
-}
-namespace UnityEngine {
-class AnimationCurve;
+class ICutScoreBufferDidChangeReceiver;
 }
 namespace GlobalNamespace {
-class ICutScoreBufferDidChangeReceiver;
+class ICutScoreBufferDidFinishReceiver;
 }
 namespace TMPro {
 class TextMeshPro;
 }
 namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
+class CutScoreBuffer;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class SpriteRenderer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__FlyingScoreEffect__Pool;
+}
+namespace GlobalNamespace {
+class IReadonlyCutScoreBuffer;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -151,8 +154,7 @@ constexpr GlobalNamespace::IReadonlyCutScoreBuffer __get__cutScoreBuffer() const
 /// @brief Method UnregisterCallbacksIfNeeded addr 0x225114c size 0x128 virtual false final false
  void UnregisterCallbacksIfNeeded() ;
 
-// Ctor Parameters []
-explicit FlyingScoreEffect() ;
+static GlobalNamespace::FlyingScoreEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2251274 size 0x30 virtual false final false
  void _ctor() ;
@@ -164,7 +166,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4969)), TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2707 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2707 }), TypeDefinitionIndex(TypeDefinitionIndex(4969))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4968))
 // CS Name: FlyingScoreEffect::Pool
 class CORDL_TYPE GlobalNamespace__FlyingScoreEffect__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::FlyingScoreEffect> {
@@ -206,8 +208,7 @@ constexpr explicit GlobalNamespace__FlyingScoreEffect__Pool(void* ptr) noexcept 
 /// @brief Method OnDespawned addr 0x22512a4 size 0x60 virtual true final false
  void OnDespawned(GlobalNamespace::FlyingScoreEffect item) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__FlyingScoreEffect__Pool() ;
+static GlobalNamespace::GlobalNamespace__FlyingScoreEffect__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2251304 size 0x48 virtual false final false
  void _ctor() ;

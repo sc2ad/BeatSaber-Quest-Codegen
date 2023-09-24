@@ -4,21 +4,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::EventSystems {
+class UnityEngine__EventSystems__OVRPhysicsRaycaster____c;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 class Camera;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine {
 struct LayerMask;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
@@ -103,8 +106,7 @@ static System::Comparison_1<UnityEngine::RaycastHit> __get___9__16_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__EventSystems__OVRPhysicsRaycaster____c() ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__OVRPhysicsRaycaster____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x266e6e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -194,8 +196,7 @@ constexpr int32_t __get_sortOrder() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRPhysicsRaycaster() ;
+static UnityEngine::EventSystems::OVRPhysicsRaycaster New_ctor() ;
 
 /// @brief Method .ctor addr 0x266dfa4 size 0x28 virtual false final false
  void _ctor() ;

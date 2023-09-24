@@ -5,11 +5,11 @@
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlDeclaration;
-}
 namespace System::Xml {
 class XmlDeclaration;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlDeclaration;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -81,8 +81,7 @@ constexpr System::Xml::XmlDeclaration __get__declaration() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "declaration", ty: "System::Xml::XmlDeclaration", modifiers: "", def_value: None }]
-explicit XmlDeclarationWrapper(System::Xml::XmlDeclaration declaration) ;
+static Newtonsoft::Json::Converters::XmlDeclarationWrapper New_ctor(System::Xml::XmlDeclaration declaration) ;
 
 /// @brief Method .ctor addr 0x2541b4c size 0x2c virtual false final false
  void _ctor(System::Xml::XmlDeclaration declaration) ;

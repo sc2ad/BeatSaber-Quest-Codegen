@@ -47,8 +47,7 @@ constexpr explicit TransitionCancelEvent(void* ptr) noexcept : UnityEngine::UIEl
 
 // Methods
 
-// Ctor Parameters []
-explicit TransitionCancelEvent() ;
+static UnityEngine::UIElements::TransitionCancelEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd7658 size 0x48 virtual false final false
  void _ctor() ;

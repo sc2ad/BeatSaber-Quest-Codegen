@@ -7,6 +7,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class PreviewBeatmapLevelPackSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c;
+}
+namespace GlobalNamespace {
+class BeatmapLevelPackCollectionSO;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -15,13 +24,11 @@ namespace GlobalNamespace {
 struct SongPackMask;
 }
 namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
-}
-namespace GlobalNamespace {
 class BeatmapLevelPackSO;
 }
-namespace GlobalNamespace {
-class BeatmapLevelPackCollectionSO;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -30,17 +37,19 @@ class Func_2;
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace GlobalNamespace {
+struct GlobalNamespace__SongPackMaskModelSO__SongPackDataType;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace GlobalNamespace {
+class GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem;
 }
 namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace Polyglot {
 struct Language;
@@ -111,6 +120,8 @@ __MultipleBeatmapLevelPackCollections = 5,
 constexpr operator __GlobalNamespace__SongPackMaskModelSO__SongPackDataType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SongPackMaskModelSO__SongPackDataType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -224,8 +235,7 @@ static System::Func_2<GlobalNamespace::BeatmapLevelPackCollectionSO,System::Coll
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c() ;
+static GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2201574 size 0x8 virtual false final false
  void _ctor() ;
@@ -362,8 +372,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPack
 /// @brief Method get_containsMultiplePacks addr 0x22014e4 size 0x1c virtual false final false
  bool get_containsMultiplePacks() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem() ;
+static GlobalNamespace::GlobalNamespace__SongPackMaskModelSO__SongPackMaskItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2201508 size 0x8 virtual false final false
  void _ctor() ;
@@ -513,8 +522,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::SongPackMa
 /// @brief Method LazyInit addr 0x2200884 size 0x6e4 virtual false final false
  void LazyInit() ;
 
-// Ctor Parameters []
-explicit SongPackMaskModelSO() ;
+static GlobalNamespace::SongPackMaskModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2201500 size 0x8 virtual false final false
  void _ctor() ;

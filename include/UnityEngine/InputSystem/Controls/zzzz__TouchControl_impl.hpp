@@ -2,13 +2,13 @@
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__TouchControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__TouchPressControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__TouchPhaseControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__DoubleControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__DeltaControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__TouchPhaseControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__DeltaControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__DoubleControl_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Controls::TouchControl.get_press
 template<>
@@ -800,8 +800,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::TouchControl::TouchControl()  : UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState>(THROW_UNLESS(::il2cpp_utils::New<TouchControl>())) {}
+ UnityEngine::InputSystem::Controls::TouchControl UnityEngine::InputSystem::Controls::TouchControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::TouchControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::TouchControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::TouchControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::TouchControl>::get(),

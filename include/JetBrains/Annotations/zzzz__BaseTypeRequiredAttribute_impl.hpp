@@ -59,8 +59,10 @@ constexpr void JetBrains::Annotations::BaseTypeRequiredAttribute::__set__BaseTyp
 constexpr System::Type JetBrains::Annotations::BaseTypeRequiredAttribute::__get__BaseType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "baseType", ty: "System::Type", modifiers: "", def_value: None }]
- JetBrains::Annotations::BaseTypeRequiredAttribute::BaseTypeRequiredAttribute(System::Type baseType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<BaseTypeRequiredAttribute>(baseType))) {}
+ JetBrains::Annotations::BaseTypeRequiredAttribute JetBrains::Annotations::BaseTypeRequiredAttribute::New_ctor(System::Type baseType)  {
+JetBrains::Annotations::BaseTypeRequiredAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::BaseTypeRequiredAttribute>(baseType))};
+return o;
+}
  void JetBrains::Annotations::BaseTypeRequiredAttribute::_ctor(System::Type baseType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::BaseTypeRequiredAttribute>::get(),

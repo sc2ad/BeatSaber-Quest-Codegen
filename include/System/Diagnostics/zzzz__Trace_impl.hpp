@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Diagnostics/zzzz__Trace_def.hpp"
-#include "System/Diagnostics/zzzz__CorrelationManager_def.hpp"
 #include "System/Diagnostics/zzzz__TraceListenerCollection_def.hpp"
+#include "System/Diagnostics/zzzz__CorrelationManager_def.hpp"
 //  Writing Method size for method: System::Diagnostics::Trace.get_Listeners
 template<>
 

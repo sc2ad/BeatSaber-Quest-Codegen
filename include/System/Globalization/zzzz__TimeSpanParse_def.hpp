@@ -8,18 +8,42 @@
 namespace System {
 struct TimeSpan;
 }
-namespace System {
-class IFormatProvider;
-}
 namespace System::Globalization {
 struct TimeSpanStyles;
 }
 namespace System::Text {
 class StringBuilder;
 }
+namespace System::Globalization {
+struct System__Globalization__TimeSpanParse__TimeSpanRawInfo;
+}
+namespace System::Globalization {
+struct System__Globalization__TimeSpanParse__TimeSpanResult;
+}
+namespace System::Globalization {
+struct System__Globalization__TimeSpanParse__TimeSpanStandardStyles;
+}
+namespace System::Globalization {
+struct System__Globalization__TimeSpanParse__StringParser;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System::Globalization {
+struct System__Globalization__TimeSpanParse__ParseFailureKind;
+}
+namespace System::Globalization {
+struct System__Globalization__TimeSpanParse__TTT;
+}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
+}
+namespace System::Globalization {
+struct System__Globalization__TimeSpanParse__TimeSpanTokenizer;
+}
+namespace System::Globalization {
+struct System__Globalization__TimeSpanParse__TimeSpanToken;
 }
 namespace System::Globalization {
 struct System__Globalization__TimeSpanFormat__FormatLiterals;
@@ -108,6 +132,8 @@ constexpr operator __System__Globalization__TimeSpanParse__ParseFailureKind_Unwr
 return std::bit_cast<__System__Globalization__TimeSpanParse__ParseFailureKind_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
 
 // Fields
 
@@ -189,6 +215,8 @@ constexpr operator __System__Globalization__TimeSpanParse__TimeSpanStandardStyle
 return std::bit_cast<__System__Globalization__TimeSpanParse__TimeSpanStandardStyles_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
 
 // Fields
 
@@ -269,6 +297,8 @@ __NumOverflow = 4u,
 constexpr operator __System__Globalization__TimeSpanParse__TTT_Unwrapped () const noexcept {
 return std::bit_cast<__System__Globalization__TimeSpanParse__TTT_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields

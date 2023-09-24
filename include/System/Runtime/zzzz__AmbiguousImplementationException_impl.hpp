@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::AmbiguousImplementationException::AmbiguousImplementationException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<AmbiguousImplementationException>())) {}
+ System::Runtime::AmbiguousImplementationException System::Runtime::AmbiguousImplementationException::New_ctor()  {
+System::Runtime::AmbiguousImplementationException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::AmbiguousImplementationException>())};
+return o;
+}
  void System::Runtime::AmbiguousImplementationException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::AmbiguousImplementationException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::AmbiguousImplementationException::AmbiguousImplementationException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<AmbiguousImplementationException>(message))) {}
+ System::Runtime::AmbiguousImplementationException System::Runtime::AmbiguousImplementationException::New_ctor(::StringW message)  {
+System::Runtime::AmbiguousImplementationException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::AmbiguousImplementationException>(message))};
+return o;
+}
  void System::Runtime::AmbiguousImplementationException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::AmbiguousImplementationException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::AmbiguousImplementationException::AmbiguousImplementationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<AmbiguousImplementationException>(info, context))) {}
+ System::Runtime::AmbiguousImplementationException System::Runtime::AmbiguousImplementationException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::AmbiguousImplementationException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::AmbiguousImplementationException>(info, context))};
+return o;
+}
  void System::Runtime::AmbiguousImplementationException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::AmbiguousImplementationException>::get(),

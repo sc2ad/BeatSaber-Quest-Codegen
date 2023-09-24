@@ -212,8 +212,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::TeaEngine::__set__forEncrypti
 constexpr bool Org::BouncyCastle::Crypto::Engines::TeaEngine::__get__forEncryption() const {
 return ::cordl_internals::getInstanceField<bool, 0x21>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::TeaEngine::TeaEngine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TeaEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::TeaEngine Org::BouncyCastle::Crypto::Engines::TeaEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::TeaEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::TeaEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::TeaEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::TeaEngine>::get(),

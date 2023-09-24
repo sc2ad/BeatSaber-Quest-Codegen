@@ -101,8 +101,7 @@ constexpr float_t __get_remainingBufferTime() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audio", ty: "UnityEngine::AudioSource", modifiers: "", def_value: None }]
-explicit BufferedAudioStream(UnityEngine::AudioSource audio) ;
+static GlobalNamespace::BufferedAudioStream New_ctor(UnityEngine::AudioSource audio) ;
 
 /// @brief Method .ctor addr 0x2551c24 size 0xc4 virtual false final false
  void _ctor(UnityEngine::AudioSource audio) ;

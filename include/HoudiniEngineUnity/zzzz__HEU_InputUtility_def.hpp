@@ -3,12 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputHDAInfo;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 class Type;
@@ -17,19 +22,14 @@ namespace HoudiniEngineUnity {
 class HEU_InputObjectInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputInterface;
-}
-namespace HoudiniEngineUnity {
 class HEU_InputNode;
 }
-namespace HoudiniEngineUnity {
-class HEU_InputHDAInfo;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-class GameObject;
+class HEU_InputInterface;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

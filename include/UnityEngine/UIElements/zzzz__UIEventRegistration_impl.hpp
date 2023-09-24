@@ -1,8 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UIEventRegistration_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIEventRegistration_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUIElementsUtility_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c._ctor
 template<>
 
@@ -128,8 +129,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
  UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c::__get___9()  {
 return ::cordl_internals::getStaticField<UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c::UnityEngine__UIElements__UIEventRegistration____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIEventRegistration____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UIEventRegistration____c>::get(),

@@ -2,8 +2,9 @@
 #include "System/Xml/Schema/zzzz__BaseValidator_impl.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_impl.hpp"
 #include "System/Xml/Schema/zzzz__DtdValidator_def.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
 #include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
+#include "System/Xml/Schema/zzzz__DtdValidator_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager.LookupNamespace
 template<>
 
@@ -47,8 +48,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, prefix);
 }
-// Ctor Parameters []
- System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager::System__Xml__Schema__DtdValidator__NamespaceManager()  : System::Xml::XmlNamespaceManager(THROW_UNLESS(::il2cpp_utils::New<System__Xml__Schema__DtdValidator__NamespaceManager>())) {}
+ System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager::New_ctor()  {
+System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager>())};
+return o;
+}
  void System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::System__Xml__Schema__DtdValidator__NamespaceManager>::get(),

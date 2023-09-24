@@ -3,30 +3,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-class MeshCollider;
+namespace UnityEngine::XR {
+struct MeshId;
 }
 namespace UnityEngine::XR {
 struct MeshGenerationStatus;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace UnityEngine {
+class MeshCollider;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::XR {
 struct MeshVertexAttributes;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::XR {
-struct MeshId;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::XR {

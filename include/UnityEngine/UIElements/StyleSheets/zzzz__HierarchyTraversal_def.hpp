@@ -60,8 +60,7 @@ constexpr explicit HierarchyTraversal(void* ptr) noexcept : ::bs_hook::Il2CppWra
 /// @brief Method Recurse addr 0x2c6b220 size 0xd0 virtual false final false
  void Recurse(UnityEngine::UIElements::VisualElement element, int32_t depth) ;
 
-// Ctor Parameters []
-explicit HierarchyTraversal() ;
+static UnityEngine::UIElements::StyleSheets::HierarchyTraversal New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c6b2f0 size 0x8 virtual false final false
  void _ctor() ;

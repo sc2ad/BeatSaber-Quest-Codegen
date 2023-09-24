@@ -9,6 +9,9 @@ template<typename T>
 class Action_1;
 }
 namespace UnityEngine::XR {
+struct UnityEngine__XR__XRMeshSubsystem__MeshTransformList;
+}
+namespace UnityEngine::XR {
 struct MeshGenerationResult;
 }
 namespace System {
@@ -89,7 +92,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.XR::XRMeshSubsystem
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15849)), TypeDefinitionIndex(TypeDefinitionIndex(15582)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15849), inst: 3780 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15582)), TypeDefinitionIndex(TypeDefinitionIndex(15849)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15849), inst: 3780 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15589))
 // CS Name: UnityEngine.XR.XRMeshSubsystem
 class CORDL_TYPE XRMeshSubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRMeshSubsystemDescriptor> {
@@ -133,8 +136,7 @@ constexpr explicit XRMeshSubsystem(void* ptr) noexcept : UnityEngine::Integrated
 /// @brief Method InvokeMeshReadyDelegate addr 0x2d3a8a0 size 0x58 virtual false final false
  void InvokeMeshReadyDelegate(UnityEngine::XR::MeshGenerationResult result, System::Action_1<UnityEngine::XR::MeshGenerationResult> onMeshGenerationComplete) ;
 
-// Ctor Parameters []
-explicit XRMeshSubsystem() ;
+static UnityEngine::XR::XRMeshSubsystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3a8f8 size 0x48 virtual false final false
  void _ctor() ;

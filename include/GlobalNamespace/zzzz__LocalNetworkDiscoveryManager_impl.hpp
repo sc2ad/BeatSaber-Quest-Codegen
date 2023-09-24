@@ -3,25 +3,26 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalNetworkDiscoveryManager_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
-#include "LiteNetLib/zzzz__NetManager_def.hpp"
-#include "LiteNetLib/zzzz__UnconnectedMessageType_def.hpp"
-#include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
-#include "LiteNetLib/zzzz__INetEventListener_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
-#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
 #include "LiteNetLib/zzzz__DisconnectInfo_def.hpp"
+#include "GlobalNamespace/zzzz__LocalNetworkDiscoveryManager_def.hpp"
+#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
+#include "LiteNetLib/zzzz__INetEventListener_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/zzzz__NetManager_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
+#include "LiteNetLib/zzzz__UnconnectedMessageType_def.hpp"
+#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
+#include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__PacketType::GlobalNamespace__LocalNetworkDiscoveryManager__PacketType(uint8_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -151,8 +152,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket::GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket>())) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__BroadcastPacket>::get(),
@@ -247,8 +250,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket>())) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestPacket>::get(),
@@ -373,8 +378,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket::GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket>())) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinResponsePacket>::get(),
@@ -499,8 +506,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket>())) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestPacket>::get(),
@@ -601,8 +610,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket::GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket>())) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteResponsePacket>::get(),
@@ -680,8 +691,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate::GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__PeerUpdatedDelegate>::get(),
@@ -786,8 +799,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRequestedDelegate>::get(),
@@ -892,8 +907,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__JoinRespondedDelegate>::get(),
@@ -998,8 +1015,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRequestedDelegate>::get(),
@@ -1104,8 +1123,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkDiscoveryManager__InviteRespondedDelegate>::get(),
@@ -2302,8 +2323,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, peer, reader, deliveryMethod);
 }
-// Ctor Parameters []
- GlobalNamespace::LocalNetworkDiscoveryManager::LocalNetworkDiscoveryManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LocalNetworkDiscoveryManager>())) {}
+ GlobalNamespace::LocalNetworkDiscoveryManager GlobalNamespace::LocalNetworkDiscoveryManager::New_ctor()  {
+GlobalNamespace::LocalNetworkDiscoveryManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LocalNetworkDiscoveryManager>())};
+return o;
+}
  void GlobalNamespace::LocalNetworkDiscoveryManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LocalNetworkDiscoveryManager>::get(),

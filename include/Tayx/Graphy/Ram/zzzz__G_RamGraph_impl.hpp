@@ -2,10 +2,10 @@
 #include "Tayx/Graphy/Graph/zzzz__G_Graph_impl.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamGraph_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-#include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
-#include "Tayx/Graphy/zzzz__G_GraphShader_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "Tayx/Graphy/zzzz__G_GraphShader_def.hpp"
+#include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 //  Writing Method size for method: Tayx::Graphy::Ram::G_RamGraph.Update
 template<>
 
@@ -249,8 +249,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tayx::Graphy::Ram::G_RamGraph::G_RamGraph()  : Tayx::Graphy::Graph::G_Graph(THROW_UNLESS(::il2cpp_utils::New<G_RamGraph>())) {}
+ Tayx::Graphy::Ram::G_RamGraph Tayx::Graphy::Ram::G_RamGraph::New_ctor()  {
+Tayx::Graphy::Ram::G_RamGraph o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Ram::G_RamGraph>())};
+return o;
+}
  void Tayx::Graphy::Ram::G_RamGraph::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Ram::G_RamGraph>::get(),

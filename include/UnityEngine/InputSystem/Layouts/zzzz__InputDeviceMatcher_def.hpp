@@ -11,25 +11,28 @@ template<typename T,typename TResult>
 class Func_2;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
@@ -39,7 +42,16 @@ template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
+class UnityEngine__InputSystem__Layouts__InputDeviceMatcher___get_patterns_d__4;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputDeviceMatcher__MatcherJson;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class UnityEngine__InputSystem__Layouts__InputDeviceMatcher____c;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__Layouts__InputDeviceMatcher__MatcherJson__Capability;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Layouts {
@@ -349,8 +361,7 @@ constexpr int32_t __get__i_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Layouts__InputDeviceMatcher___get_patterns_d__4(int32_t __1__state) ;
+static UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputDeviceMatcher___get_patterns_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2976bec size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -437,8 +448,7 @@ static System::Func_2<char16_t,bool> __get___9__11_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Layouts__InputDeviceMatcher____c() ;
+static UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputDeviceMatcher____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2976f88 size 0x8 virtual false final false
  void _ctor() ;

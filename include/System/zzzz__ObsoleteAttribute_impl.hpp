@@ -81,8 +81,10 @@ constexpr void System::ObsoleteAttribute::__set__error(bool value)  {
 constexpr bool System::ObsoleteAttribute::__get__error() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::ObsoleteAttribute::ObsoleteAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ObsoleteAttribute>())) {}
+ System::ObsoleteAttribute System::ObsoleteAttribute::New_ctor()  {
+System::ObsoleteAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ObsoleteAttribute>())};
+return o;
+}
  void System::ObsoleteAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ObsoleteAttribute>::get(),
@@ -92,8 +94,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::ObsoleteAttribute::ObsoleteAttribute(::StringW message)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ObsoleteAttribute>(message))) {}
+ System::ObsoleteAttribute System::ObsoleteAttribute::New_ctor(::StringW message)  {
+System::ObsoleteAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ObsoleteAttribute>(message))};
+return o;
+}
  void System::ObsoleteAttribute::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ObsoleteAttribute>::get(),
@@ -103,8 +107,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "error", ty: "bool", modifiers: "", def_value: None }]
- System::ObsoleteAttribute::ObsoleteAttribute(::StringW message, bool error)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ObsoleteAttribute>(message, error))) {}
+ System::ObsoleteAttribute System::ObsoleteAttribute::New_ctor(::StringW message, bool error)  {
+System::ObsoleteAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ObsoleteAttribute>(message, error))};
+return o;
+}
  void System::ObsoleteAttribute::_ctor(::StringW message, bool error)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ObsoleteAttribute>::get(),

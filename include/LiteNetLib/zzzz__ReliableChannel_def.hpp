@@ -12,6 +12,9 @@ namespace LiteNetLib {
 struct DeliveryMethod;
 }
 namespace LiteNetLib {
+struct LiteNetLib__ReliableChannel__PendingPacket;
+}
+namespace LiteNetLib {
 class NetPacket;
 }
 // Forward declare root types
@@ -229,8 +232,7 @@ constexpr uint8_t __get__id() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }, CppParam { name: "ordered", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit ReliableChannel(LiteNetLib::NetPeer peer, bool ordered, uint8_t id) ;
+static LiteNetLib::ReliableChannel New_ctor(LiteNetLib::NetPeer peer, bool ordered, uint8_t id) ;
 
 /// @brief Method .ctor addr 0x208ff40 size 0x188 virtual false final false
  void _ctor(LiteNetLib::NetPeer peer, bool ordered, uint8_t id) ;

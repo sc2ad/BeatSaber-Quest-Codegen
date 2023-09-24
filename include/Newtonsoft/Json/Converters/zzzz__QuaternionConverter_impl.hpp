@@ -1,12 +1,13 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__QuaternionConverter_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JProperty_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__QuaternionConverter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c._ctor
 template<>
 
@@ -145,8 +146,10 @@ return ::cordl_internals::getStaticField<System::Func_2<Newtonsoft::Json::Linq::
  System::Func_2<Newtonsoft::Json::Linq::JProperty,bool> Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c::__get___9__2_4()  {
 return ::cordl_internals::getStaticField<System::Func_2<Newtonsoft::Json::Linq::JProperty,bool>, "<>9__2_4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c>::get>();
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c::Newtonsoft__Json__Converters__QuaternionConverter____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Converters__QuaternionConverter____c>())) {}
+ Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c::New_ctor()  {
+Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c>())};
+return o;
+}
  void Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::Newtonsoft__Json__Converters__QuaternionConverter____c>::get(),
@@ -322,8 +325,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::QuaternionConverter::QuaternionConverter()  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<QuaternionConverter>())) {}
+ Newtonsoft::Json::Converters::QuaternionConverter Newtonsoft::Json::Converters::QuaternionConverter::New_ctor()  {
+Newtonsoft::Json::Converters::QuaternionConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::QuaternionConverter>())};
+return o;
+}
  void Newtonsoft::Json::Converters::QuaternionConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::QuaternionConverter>::get(),

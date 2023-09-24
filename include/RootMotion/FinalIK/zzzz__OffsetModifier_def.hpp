@@ -5,17 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
+class FullBodyBipedIK;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__OffsetModifier__OffsetLimits;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__OffsetModifier___Initiate_d__8;
 }
 namespace RootMotion::FinalIK {
 class IKEffector;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedEffector;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -157,8 +163,7 @@ constexpr float_t __get_maxZ() const;
 /// @brief Method Spring addr 0x120ada8 size 0x48 virtual false final false
  float_t Spring(float_t value, float_t limit, bool negative) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__OffsetModifier__OffsetLimits() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits New_ctor() ;
 
 /// @brief Method .ctor addr 0x120adf0 size 0x8 virtual false final false
  void _ctor() ;
@@ -246,8 +251,7 @@ constexpr RootMotion::FinalIK::OffsetModifier __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__OffsetModifier___Initiate_d__8(int32_t __1__state) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x120a9cc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -364,8 +368,7 @@ constexpr float_t __get_lastTime() const;
 /// @brief Method OnDestroy addr 0x120ac2c size 0x10c virtual true final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit OffsetModifier() ;
+static RootMotion::FinalIK::OffsetModifier New_ctor() ;
 
 /// @brief Method .ctor addr 0x120775c size 0x10 virtual false final false
  void _ctor() ;

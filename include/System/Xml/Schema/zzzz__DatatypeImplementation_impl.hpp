@@ -1,21 +1,22 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_impl.hpp"
 #include "System/Xml/Schema/zzzz__DatatypeImplementation_def.hpp"
-#include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
-#include "System/Xml/Schema/zzzz__RestrictionFacets_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaDatatypeVariety_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaDatatypeVariety_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
+#include "System/Xml/Schema/zzzz__DatatypeImplementation_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Xml/Schema/zzzz__RestrictionFacets_def.hpp"
+#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"
+#include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap._ctor
 template<>
@@ -141,8 +142,10 @@ constexpr void System::Xml::Schema::System__Xml__Schema__DatatypeImplementation_
 constexpr int32_t System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap::__get_parentIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Xml::Schema::DatatypeImplementation", modifiers: "", def_value: None }]
- System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap(::StringW name, System::Xml::Schema::DatatypeImplementation type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap>(name, type))) {}
+ System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap::New_ctor(::StringW name, System::Xml::Schema::DatatypeImplementation type)  {
+System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap>(name, type))};
+return o;
+}
  void System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap::_ctor(::StringW name, System::Xml::Schema::DatatypeImplementation type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap>::get(),
@@ -152,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, type);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Xml::Schema::DatatypeImplementation", modifiers: "", def_value: None }, CppParam { name: "parentIndex", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap(::StringW name, System::Xml::Schema::DatatypeImplementation type, int32_t parentIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap>(name, type, parentIndex))) {}
+ System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap::New_ctor(::StringW name, System::Xml::Schema::DatatypeImplementation type, int32_t parentIndex)  {
+System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap>(name, type, parentIndex))};
+return o;
+}
  void System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap::_ctor(::StringW name, System::Xml::Schema::DatatypeImplementation type, int32_t parentIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap>::get(),
@@ -1348,8 +1353,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, value1, value2);
 }
-// Ctor Parameters []
- System::Xml::Schema::DatatypeImplementation::DatatypeImplementation()  : System::Xml::Schema::XmlSchemaDatatype(THROW_UNLESS(::il2cpp_utils::New<DatatypeImplementation>())) {}
+ System::Xml::Schema::DatatypeImplementation System::Xml::Schema::DatatypeImplementation::New_ctor()  {
+System::Xml::Schema::DatatypeImplementation o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::DatatypeImplementation>())};
+return o;
+}
  void System::Xml::Schema::DatatypeImplementation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::DatatypeImplementation>::get(),

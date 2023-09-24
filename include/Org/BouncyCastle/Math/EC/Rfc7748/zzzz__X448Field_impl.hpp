@@ -578,8 +578,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Rfc7748::X448Field::X448Field()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X448Field>())) {}
+ Org::BouncyCastle::Math::EC::Rfc7748::X448Field Org::BouncyCastle::Math::EC::Rfc7748::X448Field::New_ctor()  {
+Org::BouncyCastle::Math::EC::Rfc7748::X448Field o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Rfc7748::X448Field>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Rfc7748::X448Field::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Rfc7748::X448Field>::get(),

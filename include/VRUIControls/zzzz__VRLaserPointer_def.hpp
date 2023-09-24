@@ -4,13 +4,13 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class MeshRenderer;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -88,8 +88,7 @@ static UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
 /// @brief Method SetFadeDistance addr 0x2d3f3e4 size 0xfc virtual false final false
  void SetFadeDistance(float_t distance) ;
 
-// Ctor Parameters []
-explicit VRLaserPointer() ;
+static VRUIControls::VRLaserPointer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3f4e0 size 0x8 virtual false final false
  void _ctor() ;

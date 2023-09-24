@@ -10,7 +10,7 @@ class CalApplicationSuggestionList;
 // Type: Oculus.Platform.Models::CalApplicationSuggestionList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1132 }), TypeDefinitionIndex(TypeDefinitionIndex(13399)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13399)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1132 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13400))
 // CS Name: Oculus.Platform.Models.CalApplicationSuggestionList
 class CORDL_TYPE CalApplicationSuggestionList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::CalApplicationSuggestion> {
@@ -49,8 +49,7 @@ constexpr explicit CalApplicationSuggestionList(void* ptr) noexcept : Oculus::Pl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CalApplicationSuggestionList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::CalApplicationSuggestionList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259d560 size 0x23c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

@@ -55,8 +55,7 @@ constexpr explicit SettingsSection(void* ptr) noexcept : System::Configuration::
 
 // Methods
 
-// Ctor Parameters []
-explicit SettingsSection() ;
+static System::Net::Configuration::SettingsSection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b251c size 0x38 virtual false final false
  void _ctor() ;

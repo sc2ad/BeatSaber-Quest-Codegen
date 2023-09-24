@@ -68,8 +68,7 @@ constexpr System::Runtime::ConstrainedExecution::Cer __get__Cer_k__BackingField(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "consistencyGuarantee", ty: "System::Runtime::ConstrainedExecution::Consistency", modifiers: "", def_value: None }, CppParam { name: "cer", ty: "System::Runtime::ConstrainedExecution::Cer", modifiers: "", def_value: None }]
-explicit ReliabilityContractAttribute(System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, System::Runtime::ConstrainedExecution::Cer cer) ;
+static System::Runtime::ConstrainedExecution::ReliabilityContractAttribute New_ctor(System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, System::Runtime::ConstrainedExecution::Cer cer) ;
 
 /// @brief Method .ctor addr 0x236d950 size 0x2c virtual false final false
  void _ctor(System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, System::Runtime::ConstrainedExecution::Cer cer) ;

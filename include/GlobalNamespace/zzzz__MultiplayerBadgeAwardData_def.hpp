@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class MultiplayerBadgeDataSO;
-}
 namespace UnityEngine {
 class Sprite;
 }
 namespace System {
 class IComparable;
+}
+namespace GlobalNamespace {
+class MultiplayerBadgeDataSO;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -132,8 +132,7 @@ constexpr GlobalNamespace::MultiplayerBadgeDataSO __get__badgeData() const;
 /// @brief Method get_icon addr 0x20da338 size 0x8 virtual false final false
  UnityEngine::Sprite get_icon() ;
 
-// Ctor Parameters [CppParam { name: "awardedPlayer", ty: "GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subtitle", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "badgeData", ty: "GlobalNamespace::MultiplayerBadgeDataSO", modifiers: "", def_value: None }]
-explicit MultiplayerBadgeAwardData(GlobalNamespace::IConnectedPlayer awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, GlobalNamespace::MultiplayerBadgeDataSO badgeData) ;
+static GlobalNamespace::MultiplayerBadgeAwardData New_ctor(GlobalNamespace::IConnectedPlayer awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, GlobalNamespace::MultiplayerBadgeDataSO badgeData) ;
 
 /// @brief Method .ctor addr 0x20d85d4 size 0x60 virtual false final false
  void _ctor(GlobalNamespace::IConnectedPlayer awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, GlobalNamespace::MultiplayerBadgeDataSO badgeData) ;

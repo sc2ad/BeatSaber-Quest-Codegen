@@ -77,8 +77,7 @@ constexpr ::ArrayW<int32_t> __get__colorIndices_k__BackingField() const;
 /// @brief Method get_colorIndices addr 0x21d55f8 size 0x8 virtual false final false
  ::ArrayW<int32_t> get_colorIndices() ;
 
-// Ctor Parameters [CppParam { name: "headTopPrimaryColorIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headTopSecondaryColorIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "glassesColorIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "facialHairColorIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "handsColorIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "clothesPrimaryColorIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "clothesSecondaryColorIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "clothesDetailColorIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RandomizeAvatarColorMap(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex, int32_t glassesColorIndex, int32_t facialHairColorIndex, int32_t handsColorIndex, int32_t clothesPrimaryColorIndex, int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex) ;
+static DataModels::PlayerAvatar::RandomizeAvatarColorMap New_ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex, int32_t glassesColorIndex, int32_t facialHairColorIndex, int32_t handsColorIndex, int32_t clothesPrimaryColorIndex, int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex) ;
 
 /// @brief Method .ctor addr 0x21d5004 size 0x188 virtual false final false
  void _ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex, int32_t glassesColorIndex, int32_t facialHairColorIndex, int32_t handsColorIndex, int32_t clothesPrimaryColorIndex, int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex) ;

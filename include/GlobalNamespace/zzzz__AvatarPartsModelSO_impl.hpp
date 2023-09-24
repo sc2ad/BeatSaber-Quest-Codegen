@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarPartsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarSpritePartSO_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarMeshPartSO_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarSpritePartSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AvatarPartsModelSO.get_headTops
 template<>
 
@@ -244,8 +244,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::AvatarMeshPartSO>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarPartsModelSO::AvatarPartsModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<AvatarPartsModelSO>())) {}
+ GlobalNamespace::AvatarPartsModelSO GlobalNamespace::AvatarPartsModelSO::New_ctor()  {
+GlobalNamespace::AvatarPartsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarPartsModelSO>())};
+return o;
+}
  void GlobalNamespace::AvatarPartsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarPartsModelSO>::get(),

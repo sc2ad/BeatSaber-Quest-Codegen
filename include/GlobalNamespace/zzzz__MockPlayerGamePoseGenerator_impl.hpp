@@ -1,15 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGenerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__MockScoreSyncStateSender_def.hpp"
-#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__MockNodePoseSyncStateSender_def.hpp"
+#include "GlobalNamespace/zzzz__MockScoreSyncStateSender_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockPlayerGamePoseGenerator._ctor
 template<>
 
@@ -163,8 +162,10 @@ constexpr void GlobalNamespace::MockPlayerGamePoseGenerator::__set_mockScoreSync
 constexpr GlobalNamespace::MockScoreSyncStateSender GlobalNamespace::MockPlayerGamePoseGenerator::__get_mockScoreSyncStateSender() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MockScoreSyncStateSender, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::MockPlayerGamePoseGenerator::MockPlayerGamePoseGenerator(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockPlayerGamePoseGenerator>(multiplayerSessionManager, gameplayRpcManager, leftHanded))) {}
+ GlobalNamespace::MockPlayerGamePoseGenerator GlobalNamespace::MockPlayerGamePoseGenerator::New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded)  {
+GlobalNamespace::MockPlayerGamePoseGenerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockPlayerGamePoseGenerator>(multiplayerSessionManager, gameplayRpcManager, leftHanded))};
+return o;
+}
  void GlobalNamespace::MockPlayerGamePoseGenerator::_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, bool leftHanded)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockPlayerGamePoseGenerator>::get(),

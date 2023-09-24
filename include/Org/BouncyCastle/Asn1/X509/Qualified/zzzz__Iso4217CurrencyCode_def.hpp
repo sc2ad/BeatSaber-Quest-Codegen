@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
@@ -92,14 +92,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_obj() const;
 /// @brief Method GetInstance addr 0xff385c size 0x1ec virtual false final false
 static Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "numeric", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Iso4217CurrencyCode(int32_t numeric) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode New_ctor(int32_t numeric) ;
 
 /// @brief Method .ctor addr 0xff3a48 size 0x228 virtual false final false
  void _ctor(int32_t numeric) ;
 
-// Ctor Parameters [CppParam { name: "alphabetic", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Iso4217CurrencyCode(::StringW alphabetic) ;
+static Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode New_ctor(::StringW alphabetic) ;
 
 /// @brief Method .ctor addr 0xff3c70 size 0x108 virtual false final false
  void _ctor(::StringW alphabetic) ;

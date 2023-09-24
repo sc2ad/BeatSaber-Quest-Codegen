@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__NamedPresetsSO_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset._ctor
 template<>
@@ -27,8 +28,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPre
 constexpr GlobalNamespace::BloomPrePassEffectSO GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset::__get_bloomPrePassEffect() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BloomPrePassEffectSO, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset()  : GlobalNamespace::NamedPreset(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset>())) {}
+ GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset>::get(),
@@ -113,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::NamedPreset>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::BloomPrePassGraphicsSettingsPresetsSO()  : GlobalNamespace::NamedPresetsSO(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassGraphicsSettingsPresetsSO>())) {}
+ GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::New_ctor()  {
+GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO>::get(),

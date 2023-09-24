@@ -2,22 +2,23 @@
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "GlobalNamespace/zzzz__StretchableObstacle_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapObjectController_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapObjectController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ObstacleController.add_finishedMovementEvent
 template<>
 
@@ -927,8 +928,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pause);
 }
-// Ctor Parameters []
- GlobalNamespace::ObstacleController::ObstacleController()  : GlobalNamespace::ObstacleControllerBase(THROW_UNLESS(::il2cpp_utils::New<ObstacleController>())) {}
+ GlobalNamespace::ObstacleController GlobalNamespace::ObstacleController::New_ctor()  {
+GlobalNamespace::ObstacleController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObstacleController>())};
+return o;
+}
  void GlobalNamespace::ObstacleController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObstacleController>::get(),
@@ -955,8 +958,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ObstacleController__Pool::GlobalNamespace__ObstacleController__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::ObstacleController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ObstacleController__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__ObstacleController__Pool GlobalNamespace::GlobalNamespace__ObstacleController__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ObstacleController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ObstacleController__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ObstacleController__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ObstacleController__Pool>::get(),
@@ -1104,8 +1109,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCo
 constexpr float_t GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65::__get_duration() const {
 return ::cordl_internals::getInstanceField<float_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ObstacleController___DissolveCoroutine_d__65>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65 GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65>::get(),

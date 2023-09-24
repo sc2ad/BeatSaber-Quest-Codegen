@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
+namespace GlobalNamespace {
+class BaseTransitionSO;
+}
+namespace GlobalNamespace {
+class ColorTransitionSO;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace Tweening {
 class ColorTween;
-}
-namespace GlobalNamespace {
-class ColorTransitionSO;
-}
-namespace GlobalNamespace {
-class BaseTransitionSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ class ColorTMPTextStateTransition;
 // Type: ::ColorTMPTextStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12388)), TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 897 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 897 }), TypeDefinitionIndex(TypeDefinitionIndex(12388)), TypeDefinitionIndex(TypeDefinitionIndex(5544))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5549))
 // CS Name: ColorTMPTextStateTransition
 class CORDL_TYPE ColorTMPTextStateTransition : public GlobalNamespace::BaseStateTransition_1<TMPro::TMP_Text> {
@@ -122,8 +122,7 @@ constexpr Tweening::ColorTween __get__colorTween() const;
 /// @brief Method StartTween addr 0x2128970 size 0x238 virtual false final false
  void StartTween(UnityEngine::Color endColor) ;
 
-// Ctor Parameters []
-explicit ColorTMPTextStateTransition() ;
+static GlobalNamespace::ColorTMPTextStateTransition New_ctor() ;
 
 /// @brief Method .ctor addr 0x2128dec size 0x48 virtual false final false
  void _ctor() ;

@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ShelfToolData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ShelfToolData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_ShelfToolData__ToolType::HoudiniEngineUnity__HEU_ShelfToolData__ToolType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -79,8 +80,10 @@ constexpr void HoudiniEngineUnity::HEU_ShelfToolData::__set__jsonPath(::StringW 
 constexpr ::StringW HoudiniEngineUnity::HEU_ShelfToolData::__get__jsonPath() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_ShelfToolData::HEU_ShelfToolData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_ShelfToolData>())) {}
+ HoudiniEngineUnity::HEU_ShelfToolData HoudiniEngineUnity::HEU_ShelfToolData::New_ctor()  {
+HoudiniEngineUnity::HEU_ShelfToolData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_ShelfToolData>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_ShelfToolData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_ShelfToolData>::get(),

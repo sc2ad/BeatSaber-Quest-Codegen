@@ -9,32 +9,50 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-class Transform;
+class LineRenderer;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-class LineRenderer;
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class OVRBoneCapsule;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class MeshRenderer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSkeletonRenderer__ConfidenceBehavior;
+}
+namespace GlobalNamespace {
+class OVRSkeleton;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace GlobalNamespace {
-class OVRSkeleton;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSkeletonRenderer__BoneVisualization;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSkeletonRenderer__SystemGestureBehavior;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -242,6 +260,8 @@ constexpr operator __GlobalNamespace__OVRSkeletonRenderer__ConfidenceBehavior_Un
 return std::bit_cast<__GlobalNamespace__OVRSkeletonRenderer__ConfidenceBehavior_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -310,6 +330,8 @@ __SwapMaterial = 1,
 constexpr operator __GlobalNamespace__OVRSkeletonRenderer__SystemGestureBehavior_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRSkeletonRenderer__SystemGestureBehavior_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -411,8 +433,7 @@ constexpr UnityEngine::Material __get_SystemGestureMaterial() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rootGO", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "renderMat", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "systemGestureMat", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "begin", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "end", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRSkeletonRenderer__BoneVisualization(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, UnityEngine::Transform begin, UnityEngine::Transform end) ;
+static GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__BoneVisualization New_ctor(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, UnityEngine::Transform begin, UnityEngine::Transform end) ;
 
 /// @brief Method .ctor addr 0x26340b4 size 0x1d8 virtual false final false
  void _ctor(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, UnityEngine::Transform begin, UnityEngine::Transform end) ;
@@ -505,8 +526,7 @@ constexpr UnityEngine::Material __get_SystemGestureMaterial() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rootGO", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "renderMat", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "systemGestureMat", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "boneCapsule", ty: "GlobalNamespace::OVRBoneCapsule", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, GlobalNamespace::OVRBoneCapsule boneCapsule) ;
+static GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__CapsuleVisualization New_ctor(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, GlobalNamespace::OVRBoneCapsule boneCapsule) ;
 
 /// @brief Method .ctor addr 0x263428c size 0x1c0 virtual false final false
  void _ctor(UnityEngine::GameObject rootGO, UnityEngine::Material renderMat, UnityEngine::Material systemGestureMat, float_t scale, GlobalNamespace::OVRBoneCapsule boneCapsule) ;
@@ -751,8 +771,7 @@ constexpr bool __get__ShouldUseSystemGestureMaterial_k__BackingField() const;
 /// @brief Method OnDestroy addr 0x2634af4 size 0x12c virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit OVRSkeletonRenderer() ;
+static GlobalNamespace::OVRSkeletonRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2634c20 size 0x10 virtual false final false
  void _ctor() ;

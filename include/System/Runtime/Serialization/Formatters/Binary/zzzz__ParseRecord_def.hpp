@@ -5,28 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization::Formatters::Binary {
-class PrimitiveArray;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalArrayTypeE;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalObjectTypeE;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalMemberTypeE;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalMemberValueE;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalObjectPositionE;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ReadObjectInfo;
+struct InternalParseTypeE;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -35,7 +20,22 @@ namespace System {
 class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalParseTypeE;
+struct InternalObjectPositionE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalPrimitiveTypeE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalMemberValueE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalObjectTypeE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class PrimitiveArray;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ReadObjectInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -332,8 +332,7 @@ constexpr int32_t __get_PRnullCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ParseRecord() ;
+static System::Runtime::Serialization::Formatters::Binary::ParseRecord New_ctor() ;
 
 /// @brief Method .ctor addr 0x2365fe0 size 0x8 virtual false final false
  void _ctor() ;

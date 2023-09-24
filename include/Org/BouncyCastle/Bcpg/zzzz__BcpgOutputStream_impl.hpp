@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__PacketTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__PacketTag_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::BcpgOutputStream.Wrap
 template<>
 
@@ -435,8 +435,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Bcpg::BcpgOutputStream, false>(nullptr, ___internal_method, outStr);
 }
-// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::BcpgOutputStream::BcpgOutputStream(System::IO::Stream outStr)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<BcpgOutputStream>(outStr))) {}
+ Org::BouncyCastle::Bcpg::BcpgOutputStream Org::BouncyCastle::Bcpg::BcpgOutputStream::New_ctor(System::IO::Stream outStr)  {
+Org::BouncyCastle::Bcpg::BcpgOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::BcpgOutputStream>(outStr))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::BcpgOutputStream::_ctor(System::IO::Stream outStr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::BcpgOutputStream>::get(),
@@ -446,8 +448,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outStr);
 }
-// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::BcpgOutputStream::BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<BcpgOutputStream>(outStr, tag))) {}
+ Org::BouncyCastle::Bcpg::BcpgOutputStream Org::BouncyCastle::Bcpg::BcpgOutputStream::New_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag)  {
+Org::BouncyCastle::Bcpg::BcpgOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::BcpgOutputStream>(outStr, tag))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::BcpgOutputStream::_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::BcpgOutputStream>::get(),
@@ -457,8 +461,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outStr, tag);
 }
-// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "oldFormat", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::BcpgOutputStream::BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<BcpgOutputStream>(outStr, tag, length, oldFormat))) {}
+ Org::BouncyCastle::Bcpg::BcpgOutputStream Org::BouncyCastle::Bcpg::BcpgOutputStream::New_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat)  {
+Org::BouncyCastle::Bcpg::BcpgOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::BcpgOutputStream>(outStr, tag, length, oldFormat))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::BcpgOutputStream::_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::BcpgOutputStream>::get(),
@@ -468,8 +474,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outStr, tag, length, oldFormat);
 }
-// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int64_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::BcpgOutputStream::BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<BcpgOutputStream>(outStr, tag, length))) {}
+ Org::BouncyCastle::Bcpg::BcpgOutputStream Org::BouncyCastle::Bcpg::BcpgOutputStream::New_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length)  {
+Org::BouncyCastle::Bcpg::BcpgOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::BcpgOutputStream>(outStr, tag, length))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::BcpgOutputStream::_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::BcpgOutputStream>::get(),
@@ -479,8 +487,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outStr, tag, length);
 }
-// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::BcpgOutputStream::BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> buffer)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<BcpgOutputStream>(outStr, tag, buffer))) {}
+ Org::BouncyCastle::Bcpg::BcpgOutputStream Org::BouncyCastle::Bcpg::BcpgOutputStream::New_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> buffer)  {
+Org::BouncyCastle::Bcpg::BcpgOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::BcpgOutputStream>(outStr, tag, buffer))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::BcpgOutputStream::_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> buffer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::BcpgOutputStream>::get(),

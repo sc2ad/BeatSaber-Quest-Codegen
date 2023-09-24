@@ -2,17 +2,21 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Newtonsoft::Json::Serialization {
-struct JsonContractType;
+class ErrorContext;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace System {
-template<typename TResult>
-class Func_1;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+template<typename T>
+struct Nullable_1;
 }
 namespace Newtonsoft::Json::Serialization {
-class ErrorContext;
+struct JsonContractType;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace Newtonsoft::Json::Serialization {
 class SerializationErrorCallback;
@@ -23,26 +27,28 @@ class Type;
 namespace Newtonsoft::Json::Serialization {
 class SerializationCallback;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace System::Reflection {
-class MethodInfo;
+namespace Newtonsoft::Json {
+class JsonConverter;
 }
 namespace Newtonsoft::Json {
 struct ReadType;
 }
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__JsonContract____c__DisplayClass73_0;
+}
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__JsonContract____c__DisplayClass74_0;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -105,8 +111,7 @@ constexpr System::Reflection::MethodInfo __get_callbackMethodInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__JsonContract____c__DisplayClass73_0() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonContract____c__DisplayClass73_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2501f2c size 0x8 virtual false final false
  void _ctor() ;
@@ -169,8 +174,7 @@ constexpr System::Reflection::MethodInfo __get_callbackMethodInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__JsonContract____c__DisplayClass74_0() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonContract____c__DisplayClass74_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2501f34 size 0x8 virtual false final false
  void _ctor() ;
@@ -481,8 +485,7 @@ constexpr bool __get__DefaultCreatorNonPublic_k__BackingField() const;
 /// @brief Method set_DefaultCreatorNonPublic addr 0x25011a0 size 0xc virtual false final false
  void set_DefaultCreatorNonPublic(bool value) ;
 
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JsonContract(System::Type underlyingType) ;
+static Newtonsoft::Json::Serialization::JsonContract New_ctor(System::Type underlyingType) ;
 
 /// @brief Method .ctor addr 0x24f618c size 0x140 virtual false final false
  void _ctor(System::Type underlyingType) ;

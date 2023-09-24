@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameObjectIntSwitchEventEffect_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__GameObjectIntSwitchEventEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList.get_isActive
 template<>
@@ -120,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, active);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList::GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList>())) {}
+ GlobalNamespace::GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList GlobalNamespace::GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList>::get(),
@@ -262,8 +265,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data);
 }
-// Ctor Parameters []
- GlobalNamespace::GameObjectIntSwitchEventEffect::GameObjectIntSwitchEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GameObjectIntSwitchEventEffect>())) {}
+ GlobalNamespace::GameObjectIntSwitchEventEffect GlobalNamespace::GameObjectIntSwitchEventEffect::New_ctor()  {
+GlobalNamespace::GameObjectIntSwitchEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameObjectIntSwitchEventEffect>())};
+return o;
+}
  void GlobalNamespace::GameObjectIntSwitchEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameObjectIntSwitchEventEffect>::get(),

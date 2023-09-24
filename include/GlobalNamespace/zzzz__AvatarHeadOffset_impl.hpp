@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarHeadOffset_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarPoseController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarPoseController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AvatarHeadOffset.Start
 template<>
 
@@ -110,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, headLocalPosition);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarHeadOffset::AvatarHeadOffset()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AvatarHeadOffset>())) {}
+ GlobalNamespace::AvatarHeadOffset GlobalNamespace::AvatarHeadOffset::New_ctor()  {
+GlobalNamespace::AvatarHeadOffset o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarHeadOffset>())};
+return o;
+}
  void GlobalNamespace::AvatarHeadOffset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarHeadOffset>::get(),

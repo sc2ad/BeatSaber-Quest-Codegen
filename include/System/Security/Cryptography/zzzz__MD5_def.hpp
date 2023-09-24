@@ -47,8 +47,7 @@ constexpr explicit MD5(void* ptr) noexcept : System::Security::Cryptography::Has
 
 // Methods
 
-// Ctor Parameters []
-explicit MD5() ;
+static System::Security::Cryptography::MD5 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f4ca4 size 0x20 virtual false final false
  void _ctor() ;

@@ -3,13 +3,13 @@
 #include "RootMotion/FinalIK/zzzz__Poser_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -105,8 +105,7 @@ constexpr ::ArrayW<UnityEngine::Quaternion> __get_defaultLocalRotations() const;
 /// @brief Method StoreDefaultState addr 0x1200c74 size 0x150 virtual false final false
  void StoreDefaultState() ;
 
-// Ctor Parameters []
-explicit HandPoser() ;
+static RootMotion::FinalIK::HandPoser New_ctor() ;
 
 /// @brief Method .ctor addr 0x12011dc size 0x10 virtual false final false
  void _ctor() ;

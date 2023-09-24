@@ -75,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JTokenEqualityComparer::JTokenEqualityComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JTokenEqualityComparer>())) {}
+ Newtonsoft::Json::Linq::JTokenEqualityComparer Newtonsoft::Json::Linq::JTokenEqualityComparer::New_ctor()  {
+Newtonsoft::Json::Linq::JTokenEqualityComparer o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JTokenEqualityComparer>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JTokenEqualityComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JTokenEqualityComparer>::get(),

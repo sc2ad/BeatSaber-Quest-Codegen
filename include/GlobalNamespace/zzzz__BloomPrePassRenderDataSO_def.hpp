@@ -3,17 +3,20 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace UnityEngine {
-class RenderTexture;
+namespace GlobalNamespace {
+class GlobalNamespace__BloomPrePassRenderDataSO__Data;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Vector2;
+class RenderTexture;
 }
 namespace GlobalNamespace {
 struct ToneMapping;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +106,7 @@ constexpr GlobalNamespace::ToneMapping __get_toneMapping() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BloomPrePassRenderDataSO__Data() ;
+static GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f90958 size 0x8 virtual false final false
  void _ctor() ;
@@ -166,8 +168,7 @@ constexpr GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data __get
 
 // Methods
 
-// Ctor Parameters []
-explicit BloomPrePassRenderDataSO() ;
+static GlobalNamespace::BloomPrePassRenderDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f95038 size 0x68 virtual false final false
  void _ctor() ;

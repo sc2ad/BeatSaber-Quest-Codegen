@@ -4,7 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
+struct TextureCreationFlags;
+}
+namespace UnityEngine {
+struct TextureFormat;
 }
 namespace UnityEngine {
 struct CubemapFace;
@@ -13,13 +16,10 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::Experimental::Rendering {
-struct DefaultFormat;
-}
-namespace UnityEngine {
-struct TextureFormat;
+struct GraphicsFormat;
 }
 namespace UnityEngine::Experimental::Rendering {
-struct TextureCreationFlags;
+struct DefaultFormat;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -110,44 +110,37 @@ static void Internal_Create(UnityEngine::Cubemap mono, int32_t ext, int32_t mipC
 /// @brief Method ValidateFormat addr 0x2b3ad6c size 0x128 virtual false final false
  bool ValidateFormat(UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t width) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::DefaultFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
-explicit Cubemap(int32_t width, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
+static UnityEngine::Cubemap New_ctor(int32_t width, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
 /// @brief Method .ctor addr 0x2b3ae94 size 0x3c virtual false final false
  void _ctor(int32_t width, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
-explicit Cubemap(int32_t width, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
+static UnityEngine::Cubemap New_ctor(int32_t width, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
 /// @brief Method .ctor addr 0x2b3aed0 size 0xe8 virtual false final false
  void _ctor(int32_t width, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Cubemap(int32_t width, UnityEngine::TextureFormat format, int32_t mipCount) ;
+static UnityEngine::Cubemap New_ctor(int32_t width, UnityEngine::TextureFormat format, int32_t mipCount) ;
 
 /// @brief Method .ctor addr 0x2b3afb8 size 0x78 virtual false final false
  void _ctor(int32_t width, UnityEngine::TextureFormat format, int32_t mipCount) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Cubemap(int32_t width, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) ;
+static UnityEngine::Cubemap New_ctor(int32_t width, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) ;
 
 /// @brief Method .ctor addr 0x2b3b158 size 0xdc virtual false final false
  void _ctor(int32_t width, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nativeTex", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Cubemap(int32_t width, UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::cordl_internals::intptr_t nativeTex) ;
+static UnityEngine::Cubemap New_ctor(int32_t width, UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::cordl_internals::intptr_t nativeTex) ;
 
 /// @brief Method .ctor addr 0x2b3b030 size 0x128 virtual false final false
  void _ctor(int32_t width, UnityEngine::TextureFormat textureFormat, int32_t mipCount, ::cordl_internals::intptr_t nativeTex) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipChain", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nativeTex", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Cubemap(int32_t width, UnityEngine::TextureFormat textureFormat, bool mipChain, ::cordl_internals::intptr_t nativeTex) ;
+static UnityEngine::Cubemap New_ctor(int32_t width, UnityEngine::TextureFormat textureFormat, bool mipChain, ::cordl_internals::intptr_t nativeTex) ;
 
 /// @brief Method .ctor addr 0x2b3b28c size 0x10 virtual false final false
  void _ctor(int32_t width, UnityEngine::TextureFormat textureFormat, bool mipChain, ::cordl_internals::intptr_t nativeTex) ;
 
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipChain", ty: "bool", modifiers: "", def_value: None }]
-explicit Cubemap(int32_t width, UnityEngine::TextureFormat textureFormat, bool mipChain) ;
+static UnityEngine::Cubemap New_ctor(int32_t width, UnityEngine::TextureFormat textureFormat, bool mipChain) ;
 
 /// @brief Method .ctor addr 0x2b3b29c size 0x80 virtual false final false
  void _ctor(int32_t width, UnityEngine::TextureFormat textureFormat, bool mipChain) ;

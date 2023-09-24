@@ -3,8 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+class MultiplayerScoreProvider;
+}
 namespace UnityEngine {
 class GameObject;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayersManager;
@@ -14,12 +20,6 @@ class CanvasGroup;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__CoreGameHUDController__InitData;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +132,7 @@ constexpr int32_t __get__prevPosition() const;
 /// @brief Method Update addr 0x2276b48 size 0x1b0 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit MultiplayerPositionHUDController() ;
+static GlobalNamespace::MultiplayerPositionHUDController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2276cf8 size 0x10 virtual false final false
  void _ctor() ;

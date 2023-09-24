@@ -4,12 +4,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace UnityEngine::ResourceManagement::Util {
+class IInitializableObject;
+}
+namespace UnityEngine::AddressableAssets::Initialization {
+class UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp;
+}
+namespace UnityEngine::AddressableAssets::Initialization {
+class UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IInitializableObject;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
@@ -34,7 +40,7 @@ class UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__
 // Type: ::CacheInitOp
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(14313))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 99 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14398))
 // CS Name: UnityEngine.AddressableAssets.Initialization.CacheInitialization::CacheInitOp
 class CORDL_TYPE UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
@@ -103,8 +109,7 @@ constexpr bool __get_m_UpdateRequired() const;
 /// @brief Method Execute addr 0x289eed4 size 0x98 virtual true final false
  void Execute() ;
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp() ;
+static UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp New_ctor() ;
 
 /// @brief Method .ctor addr 0x289ecb4 size 0x50 virtual false final false
  void _ctor() ;
@@ -176,8 +181,7 @@ constexpr ::StringW __get_data() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0() ;
+static UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x289ecac size 0x8 virtual false final false
  void _ctor() ;
@@ -252,8 +256,7 @@ static ::StringW __declspec(property(get=get_RootPath))  RootPath;
 /// @brief Method get_RootPath addr 0x289ed04 size 0x78 virtual false final false
 static ::StringW get_RootPath() ;
 
-// Ctor Parameters []
-explicit CacheInitialization() ;
+static UnityEngine::AddressableAssets::Initialization::CacheInitialization New_ctor() ;
 
 /// @brief Method .ctor addr 0x289ed7c size 0x8 virtual false final false
  void _ctor() ;

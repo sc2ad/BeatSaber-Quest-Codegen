@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
-}
 namespace System::Security::Principal {
 class IdentityReference;
 }
 namespace System::Security::AccessControl {
 struct PropagationFlags;
+}
+namespace System::Security::AccessControl {
+struct InheritanceFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -95,8 +95,7 @@ constexpr System::Security::AccessControl::PropagationFlags __get_propagationFla
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IdentityReference", modifiers: "", def_value: None }, CppParam { name: "accessMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isInherited", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "inheritanceFlags", ty: "System::Security::AccessControl::InheritanceFlags", modifiers: "", def_value: None }, CppParam { name: "propagationFlags", ty: "System::Security::AccessControl::PropagationFlags", modifiers: "", def_value: None }]
-explicit AuthorizationRule(System::Security::Principal::IdentityReference identity, int32_t accessMask, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags) ;
+static System::Security::AccessControl::AuthorizationRule New_ctor(System::Security::Principal::IdentityReference identity, int32_t accessMask, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags) ;
 
 /// @brief Method .ctor addr 0x2315534 size 0x19c virtual false final false
  void _ctor(System::Security::Principal::IdentityReference identity, int32_t accessMask, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags) ;

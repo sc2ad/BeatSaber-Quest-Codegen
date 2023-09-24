@@ -52,14 +52,12 @@ constexpr explicit Revocable(void* ptr) noexcept : Org::BouncyCastle::Bcpg::Sign
 /// @brief Method BooleanToByteArray addr 0x113e4fc size 0x6c virtual false final false
 static ::ArrayW<uint8_t> BooleanToByteArray(bool value) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Revocable(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::Revocable New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113e568 size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRevocable", ty: "bool", modifiers: "", def_value: None }]
-explicit Revocable(bool critical, bool isRevocable) ;
+static Org::BouncyCastle::Bcpg::Sig::Revocable New_ctor(bool critical, bool isRevocable) ;
 
 /// @brief Method .ctor addr 0x113e5b0 size 0x4c virtual false final false
  void _ctor(bool critical, bool isRevocable) ;

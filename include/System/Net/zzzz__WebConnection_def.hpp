@@ -7,82 +7,94 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System {
 class AsyncCallback;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace System {
-template<typename T>
-class Action_1;
+class IAsyncResult;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename TResult>
 class Func_4;
 }
+namespace System::Net {
+class ServicePoint;
+}
 namespace System {
-class IAsyncResult;
+class IDisposable;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace System::Net {
-class WebRequestStream;
+class System__Net__WebConnection____c;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Net {
 class WebConnectionTunnel;
 }
 namespace System::Net {
-struct WebExceptionStatus;
+struct System__Net__WebConnection___CreateStream_d__18;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Net {
+class WebOperation;
+}
+namespace Mono::Net::Security {
+class MonoTlsStream;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Net {
+struct System__Net__WebConnection___Connect_d__16;
+}
+namespace System::Net {
+class WebRequestStream;
+}
+namespace System::Net {
+class WebException;
+}
+namespace System::Net::Sockets {
+class Socket;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Net {
-class NetworkCredential;
+struct WebExceptionStatus;
 }
 namespace System::Net {
-class ServicePoint;
-}
-namespace System::Net {
-class WebOperation;
+struct System__Net__WebConnection___InitConnection_d__19;
 }
 namespace System {
 class Exception;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace Mono::Net::Security {
-class MonoTlsStream;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
 namespace System::Net {
-class WebException;
-}
-namespace System::IO {
-class Stream;
+class NetworkCredential;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Net {
 class IPAddress;
 }
 namespace System::Runtime::CompilerServices {
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Net::Sockets {
 class NetworkStream;
@@ -174,8 +186,7 @@ static System::Action_1<System::IAsyncResult> __get___9__16_1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__WebConnection____c() ;
+static System::Net::System__Net__WebConnection____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x284b67c size 0x8 virtual false final false
  void _ctor() ;
@@ -663,8 +674,7 @@ constexpr System::Net::WebOperation __get_currentOperation() const;
 /// @brief Method get_ServicePoint addr 0x284a458 size 0x8 virtual false final false
  System::Net::ServicePoint get_ServicePoint() ;
 
-// Ctor Parameters [CppParam { name: "sPoint", ty: "System::Net::ServicePoint", modifiers: "", def_value: None }]
-explicit WebConnection(System::Net::ServicePoint sPoint) ;
+static System::Net::WebConnection New_ctor(System::Net::ServicePoint sPoint) ;
 
 /// @brief Method .ctor addr 0x28492e4 size 0x28 virtual false final false
  void _ctor(System::Net::ServicePoint sPoint) ;

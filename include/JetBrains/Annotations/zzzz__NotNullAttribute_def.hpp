@@ -9,7 +9,7 @@ class NotNullAttribute;
 namespace JetBrains::Annotations {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15679))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9968))
 // CS Name: JetBrains.Annotations.NotNullAttribute
 class CORDL_TYPE NotNullAttribute : public System::Attribute {
 public:
@@ -47,10 +47,9 @@ constexpr explicit NotNullAttribute(void* ptr) noexcept : System::Attribute(ptr)
 
 // Methods
 
-// Ctor Parameters []
-explicit NotNullAttribute() ;
+static JetBrains::Annotations::NotNullAttribute New_ctor() ;
 
-/// @brief Method .ctor addr 0x2d40a64 size 0x8 virtual false final false
+/// @brief Method .ctor addr 0x2b28af0 size 0x8 virtual false final false
  void _ctor() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;

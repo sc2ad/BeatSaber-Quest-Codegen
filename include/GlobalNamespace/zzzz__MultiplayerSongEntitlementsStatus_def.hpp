@@ -56,6 +56,8 @@ constexpr operator __MultiplayerSongEntitlementsStatus_Unwrapped () const noexce
 return std::bit_cast<__MultiplayerSongEntitlementsStatus_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

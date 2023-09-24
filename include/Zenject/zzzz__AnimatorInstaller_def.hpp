@@ -4,11 +4,11 @@
 #include "Zenject/zzzz__Installer_2_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace UnityEngine {
 class Animator;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -17,7 +17,7 @@ class AnimatorInstaller;
 // Type: Zenject::AnimatorInstaller
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11074), inst: 3770 }), TypeDefinitionIndex(TypeDefinitionIndex(11074)), TypeDefinitionIndex(TypeDefinitionIndex(15053))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11074)), TypeDefinitionIndex(TypeDefinitionIndex(15053)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11074), inst: 3770 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11243))
 // CS Name: Zenject.AnimatorInstaller
 class CORDL_TYPE AnimatorInstaller : public Zenject::Installer_2<UnityEngine::Animator,Zenject::AnimatorInstaller> {
@@ -65,8 +65,7 @@ constexpr UnityEngine::Animator __get__animator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "animator", ty: "UnityEngine::Animator", modifiers: "", def_value: None }]
-explicit AnimatorInstaller(UnityEngine::Animator animator) ;
+static Zenject::AnimatorInstaller New_ctor(UnityEngine::Animator animator) ;
 
 /// @brief Method .ctor addr 0x2d9510c size 0x5c virtual false final false
  void _ctor(UnityEngine::Animator animator) ;

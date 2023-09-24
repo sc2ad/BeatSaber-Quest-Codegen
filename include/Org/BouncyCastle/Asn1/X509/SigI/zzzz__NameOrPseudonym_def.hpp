@@ -7,14 +7,14 @@
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1::X500 {
 class DirectoryString;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::SigI {
@@ -96,26 +96,22 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_givenName() const;
 /// @brief Method GetInstance addr 0xff5298 size 0x1e8 virtual false final false
 static Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "pseudonym", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }]
-explicit NameOrPseudonym(Org::BouncyCastle::Asn1::X500::DirectoryString pseudonym) ;
+static Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym New_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString pseudonym) ;
 
 /// @brief Method .ctor addr 0xff5480 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X500::DirectoryString pseudonym) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit NameOrPseudonym(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff54a8 size 0x1a8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "pseudonym", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NameOrPseudonym(::StringW pseudonym) ;
+static Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym New_ctor(::StringW pseudonym) ;
 
 /// @brief Method .ctor addr 0xff5650 size 0x78 virtual false final false
  void _ctor(::StringW pseudonym) ;
 
-// Ctor Parameters [CppParam { name: "surname", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "givenName", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit NameOrPseudonym(Org::BouncyCastle::Asn1::X500::DirectoryString surname, Org::BouncyCastle::Asn1::Asn1Sequence givenName) ;
+static Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym New_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString surname, Org::BouncyCastle::Asn1::Asn1Sequence givenName) ;
 
 /// @brief Method .ctor addr 0xff56c8 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X500::DirectoryString surname, Org::BouncyCastle::Asn1::Asn1Sequence givenName) ;

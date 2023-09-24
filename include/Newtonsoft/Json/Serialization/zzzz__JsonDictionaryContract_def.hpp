@@ -7,6 +7,12 @@ namespace Newtonsoft::Json::Serialization {
 template<typename T>
 class ObjectConstructor_1;
 }
+namespace System::Collections {
+class IDictionary;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
+}
 namespace System {
 template<typename TResult>
 class Func_1;
@@ -15,20 +21,14 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace Newtonsoft::Json::Utilities {
-class IWrappedDictionary;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
-namespace System::Reflection {
-class ConstructorInfo;
-}
 namespace System {
 class Type;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Newtonsoft::Json::Utilities {
+class IWrappedDictionary;
+}
+namespace System::Reflection {
+class ConstructorInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -234,8 +234,7 @@ constexpr bool __get__HasParameterizedCreator_k__BackingField() const;
 /// @brief Method get_HasParameterizedCreatorInternal addr 0x250225c size 0x28 virtual false final false
  bool get_HasParameterizedCreatorInternal() ;
 
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JsonDictionaryContract(System::Type underlyingType) ;
+static Newtonsoft::Json::Serialization::JsonDictionaryContract New_ctor(System::Type underlyingType) ;
 
 /// @brief Method .ctor addr 0x24fbd1c size 0x598 virtual false final false
  void _ctor(System::Type underlyingType) ;

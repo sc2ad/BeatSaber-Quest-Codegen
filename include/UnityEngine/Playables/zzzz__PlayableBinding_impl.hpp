@@ -4,6 +4,7 @@
 #include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutput_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: UnityEngine::Playables::UnityEngine__Playables__PlayableBinding__CreateOutputMethod._ctor
@@ -40,8 +41,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Playables::UnityEngine__Playables__PlayableBinding__CreateOutputMethod::UnityEngine__Playables__PlayableBinding__CreateOutputMethod(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Playables__PlayableBinding__CreateOutputMethod>(object, method))) {}
+ UnityEngine::Playables::UnityEngine__Playables__PlayableBinding__CreateOutputMethod UnityEngine::Playables::UnityEngine__Playables__PlayableBinding__CreateOutputMethod::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::Playables::UnityEngine__Playables__PlayableBinding__CreateOutputMethod o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Playables::UnityEngine__Playables__PlayableBinding__CreateOutputMethod>(object, method))};
+return o;
+}
  void UnityEngine::Playables::UnityEngine__Playables__PlayableBinding__CreateOutputMethod::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Playables::UnityEngine__Playables__PlayableBinding__CreateOutputMethod>::get(),

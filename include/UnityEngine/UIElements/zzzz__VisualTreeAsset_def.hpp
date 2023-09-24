@@ -13,16 +13,8 @@ class IComparer_1;
 namespace UnityEngine::UIElements {
 class VisualElementAsset;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace UnityEngine::UIElements {
 class StyleSheet;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -31,38 +23,70 @@ class HashSet_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 struct System__Collections__Generic__List_1__Enumerator;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__TemplateAsset__AttributeOverride;
+class UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer;
 }
 namespace UnityEngine::UIElements {
 class TemplateContainer;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
-class TemplateAsset;
+struct UnityEngine__UIElements__VisualTreeAsset__SlotDefinition;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__TemplateAsset__AttributeOverride;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass49_0;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualTreeAsset__UsingEntry;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class TemplateAsset;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -217,8 +241,7 @@ constexpr explicit UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer(
 /// @brief Method Compare addr 0x2c9c974 size 0x10 virtual true final true
  int32_t Compare(UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntry x, UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntry y) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c9c96c size 0x8 virtual false final false
  void _ctor() ;
@@ -460,8 +483,7 @@ constexpr UnityEngine::UIElements::VisualTreeAsset __get__vta_5__4() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17(int32_t __1__state) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2c9a5d0 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -633,8 +655,7 @@ constexpr UnityEngine::UIElements::StyleSheet __get__stylesheet_5__8() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21(int32_t __1__state) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2c9a678 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -724,8 +745,7 @@ constexpr UnityEngine::UIElements::VisualElementAsset __get_childVea() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c9c238 size 0x8 virtual false final false
  void _ctor() ;
@@ -1031,8 +1051,7 @@ static void AssignStyleSheetFromAssetToElement(UnityEngine::UIElements::VisualEl
 /// @brief Method set_contentHash addr 0x2c9c82c size 0x8 virtual false final false
  void set_contentHash(int32_t value) ;
 
-// Ctor Parameters []
-explicit VisualTreeAsset() ;
+static UnityEngine::UIElements::VisualTreeAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c9c834 size 0x8 virtual false final false
  void _ctor() ;

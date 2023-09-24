@@ -5,28 +5,28 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Vector4;
+struct Color;
 }
 namespace HMUI {
 class CurvedCanvasSettingsHelper;
 }
 namespace UnityEngine {
-struct Rect;
+struct Color32;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Rect;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::UI {
-class VertexHelper;
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
 }
 // Forward declare root types
 namespace HMUI {
@@ -198,8 +198,7 @@ static void RadialCut(::ArrayW<UnityEngine::Vector3> xy, float_t cos, float_t si
 /// @brief Method GetDrawingDimensions addr 0x1fc2c28 size 0x588 virtual false final false
  UnityEngine::Vector4 GetDrawingDimensions(bool shouldPreserveAspect) ;
 
-// Ctor Parameters []
-explicit GradientImage() ;
+static HMUI::GradientImage New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fc4274 size 0x8c virtual false final false
  void _ctor() ;

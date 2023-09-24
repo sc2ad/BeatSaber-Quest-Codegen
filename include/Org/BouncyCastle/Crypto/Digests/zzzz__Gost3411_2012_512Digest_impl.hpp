@@ -102,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::Gost3411_2012_512Digest()  : Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest(THROW_UNLESS(::il2cpp_utils::New<Gost3411_2012_512Digest>())) {}
+ Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest>::get(),
@@ -113,8 +115,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::Gost3411_2012_512Digest(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest other)  : Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest(THROW_UNLESS(::il2cpp_utils::New<Gost3411_2012_512Digest>(other))) {}
+ Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::New_ctor(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest other)  {
+Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest>(other))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest::_ctor(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest>::get(),

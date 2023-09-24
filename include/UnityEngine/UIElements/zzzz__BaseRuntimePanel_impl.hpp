@@ -1,16 +1,17 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__Panel_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c._ctor
 template<>
 
@@ -51,8 +52,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
  UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c::__get___9()  {
 return ::cordl_internals::getStaticField<UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c::UnityEngine__UIElements__BaseRuntimePanel____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__BaseRuntimePanel____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__BaseRuntimePanel____c>::get(),
@@ -588,8 +591,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "ownerObject", ty: "UnityEngine::ScriptableObject", modifiers: "", def_value: None }, CppParam { name: "dispatcher", ty: "UnityEngine::UIElements::EventDispatcher", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::UIElements::BaseRuntimePanel::BaseRuntimePanel(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::EventDispatcher dispatcher)  : UnityEngine::UIElements::Panel(THROW_UNLESS(::il2cpp_utils::New<BaseRuntimePanel>(ownerObject, dispatcher))) {}
+/// @param dispatcher: UnityEngine::UIElements::EventDispatcher (default: csnull)
+ UnityEngine::UIElements::BaseRuntimePanel UnityEngine::UIElements::BaseRuntimePanel::New_ctor(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::EventDispatcher dispatcher)  {
+UnityEngine::UIElements::BaseRuntimePanel o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::BaseRuntimePanel>(ownerObject, dispatcher))};
+return o;
+}
 /// @param dispatcher: UnityEngine::UIElements::EventDispatcher (default: csnull)
  void UnityEngine::UIElements::BaseRuntimePanel::_ctor(UnityEngine::ScriptableObject ownerObject, UnityEngine::UIElements::EventDispatcher dispatcher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

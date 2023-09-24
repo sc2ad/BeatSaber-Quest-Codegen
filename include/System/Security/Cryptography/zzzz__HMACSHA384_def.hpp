@@ -63,14 +63,12 @@ constexpr bool __get_m_useLegacyBlockSize() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMACSHA384() ;
+static System::Security::Cryptography::HMACSHA384 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f3e3c size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HMACSHA384(::ArrayW<uint8_t> key) ;
+static System::Security::Cryptography::HMACSHA384 New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0x22f3e60 size 0xf0 virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;

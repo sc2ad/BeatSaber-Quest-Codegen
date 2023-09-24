@@ -161,8 +161,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TMP_SpriteCharacter::TMP_SpriteCharacter()  : TMPro::TMP_TextElement(THROW_UNLESS(::il2cpp_utils::New<TMP_SpriteCharacter>())) {}
+ TMPro::TMP_SpriteCharacter TMPro::TMP_SpriteCharacter::New_ctor()  {
+TMPro::TMP_SpriteCharacter o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SpriteCharacter>())};
+return o;
+}
  void TMPro::TMP_SpriteCharacter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SpriteCharacter>::get(),
@@ -172,8 +174,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "TMPro::TMP_SpriteGlyph", modifiers: "", def_value: None }]
- TMPro::TMP_SpriteCharacter::TMP_SpriteCharacter(uint32_t unicode, TMPro::TMP_SpriteGlyph glyph)  : TMPro::TMP_TextElement(THROW_UNLESS(::il2cpp_utils::New<TMP_SpriteCharacter>(unicode, glyph))) {}
+ TMPro::TMP_SpriteCharacter TMPro::TMP_SpriteCharacter::New_ctor(uint32_t unicode, TMPro::TMP_SpriteGlyph glyph)  {
+TMPro::TMP_SpriteCharacter o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SpriteCharacter>(unicode, glyph))};
+return o;
+}
  void TMPro::TMP_SpriteCharacter::_ctor(uint32_t unicode, TMPro::TMP_SpriteGlyph glyph)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SpriteCharacter>::get(),
@@ -183,8 +187,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, unicode, glyph);
 }
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "spriteAsset", ty: "TMPro::TMP_SpriteAsset", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "TMPro::TMP_SpriteGlyph", modifiers: "", def_value: None }]
- TMPro::TMP_SpriteCharacter::TMP_SpriteCharacter(uint32_t unicode, TMPro::TMP_SpriteAsset spriteAsset, TMPro::TMP_SpriteGlyph glyph)  : TMPro::TMP_TextElement(THROW_UNLESS(::il2cpp_utils::New<TMP_SpriteCharacter>(unicode, spriteAsset, glyph))) {}
+ TMPro::TMP_SpriteCharacter TMPro::TMP_SpriteCharacter::New_ctor(uint32_t unicode, TMPro::TMP_SpriteAsset spriteAsset, TMPro::TMP_SpriteGlyph glyph)  {
+TMPro::TMP_SpriteCharacter o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SpriteCharacter>(unicode, spriteAsset, glyph))};
+return o;
+}
  void TMPro::TMP_SpriteCharacter::_ctor(uint32_t unicode, TMPro::TMP_SpriteAsset spriteAsset, TMPro::TMP_SpriteGlyph glyph)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SpriteCharacter>::get(),
@@ -194,8 +200,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, unicode, spriteAsset, glyph);
 }
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyphIndex", ty: "uint32_t", modifiers: "", def_value: None }]
- TMPro::TMP_SpriteCharacter::TMP_SpriteCharacter(uint32_t unicode, uint32_t glyphIndex)  : TMPro::TMP_TextElement(THROW_UNLESS(::il2cpp_utils::New<TMP_SpriteCharacter>(unicode, glyphIndex))) {}
+ TMPro::TMP_SpriteCharacter TMPro::TMP_SpriteCharacter::New_ctor(uint32_t unicode, uint32_t glyphIndex)  {
+TMPro::TMP_SpriteCharacter o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_SpriteCharacter>(unicode, glyphIndex))};
+return o;
+}
  void TMPro::TMP_SpriteCharacter::_ctor(uint32_t unicode, uint32_t glyphIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_SpriteCharacter>::get(),

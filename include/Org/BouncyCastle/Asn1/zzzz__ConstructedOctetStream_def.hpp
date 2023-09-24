@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetStringParser;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1StreamParser;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetStringParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -79,8 +79,7 @@ constexpr System::IO::Stream __get__currentStream() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parser", ty: "Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
-explicit ConstructedOctetStream(Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
+static Org::BouncyCastle::Asn1::ConstructedOctetStream New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
 
 /// @brief Method .ctor addr 0x11326c4 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;

@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/Rendering/zzzz__LightProbeUsage_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShadowCastingMode_def.hpp"
 #include "UnityEngine/zzzz__MotionVectorGenerationMode_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ReflectionProbeUsage_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/Rendering/zzzz__LightProbeUsage_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 //  Writing Method size for method: UnityEngine::Renderer.get_bounds
 template<>
 
@@ -1031,8 +1031,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, m);
 }
-// Ctor Parameters []
- UnityEngine::Renderer::Renderer()  : UnityEngine::Component(THROW_UNLESS(::il2cpp_utils::New<Renderer>())) {}
+ UnityEngine::Renderer UnityEngine::Renderer::New_ctor()  {
+UnityEngine::Renderer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Renderer>())};
+return o;
+}
  void UnityEngine::Renderer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Renderer>::get(),

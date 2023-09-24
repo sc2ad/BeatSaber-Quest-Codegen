@@ -58,8 +58,10 @@ constexpr void JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttrib
 constexpr ::StringW JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute::__get__Format_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute::AspMvcAreaPartialViewLocationFormatAttribute(::StringW format)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspMvcAreaPartialViewLocationFormatAttribute>(format))) {}
+ JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute::New_ctor(::StringW format)  {
+JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute>(format))};
+return o;
+}
  void JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute::_ctor(::StringW format)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute>::get(),

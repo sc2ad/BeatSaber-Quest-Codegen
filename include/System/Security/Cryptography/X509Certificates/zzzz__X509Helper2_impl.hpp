@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Helper2_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509Helper2.GetMonoCertificate
 template<>
 

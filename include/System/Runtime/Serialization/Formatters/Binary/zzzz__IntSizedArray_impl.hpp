@@ -119,8 +119,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::IntSizedArray
 constexpr ::ArrayW<int32_t> System::Runtime::Serialization::Formatters::Binary::IntSizedArray::__get_negObjects() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int32_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::IntSizedArray::IntSizedArray()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IntSizedArray>())) {}
+ System::Runtime::Serialization::Formatters::Binary::IntSizedArray System::Runtime::Serialization::Formatters::Binary::IntSizedArray::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::IntSizedArray o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::IntSizedArray>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::IntSizedArray::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::IntSizedArray>::get(),
@@ -130,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sizedArray", ty: "System::Runtime::Serialization::Formatters::Binary::IntSizedArray", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::IntSizedArray::IntSizedArray(System::Runtime::Serialization::Formatters::Binary::IntSizedArray sizedArray)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IntSizedArray>(sizedArray))) {}
+ System::Runtime::Serialization::Formatters::Binary::IntSizedArray System::Runtime::Serialization::Formatters::Binary::IntSizedArray::New_ctor(System::Runtime::Serialization::Formatters::Binary::IntSizedArray sizedArray)  {
+System::Runtime::Serialization::Formatters::Binary::IntSizedArray o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::IntSizedArray>(sizedArray))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::IntSizedArray::_ctor(System::Runtime::Serialization::Formatters::Binary::IntSizedArray sizedArray)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::IntSizedArray>::get(),

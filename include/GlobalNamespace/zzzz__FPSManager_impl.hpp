@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FPSManager_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "GlobalNamespace/zzzz__MainCamera_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FPSManager.Start
 template<>
 
@@ -65,8 +65,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FPSManager::FPSManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FPSManager>())) {}
+ GlobalNamespace::FPSManager GlobalNamespace::FPSManager::New_ctor()  {
+GlobalNamespace::FPSManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FPSManager>())};
+return o;
+}
  void GlobalNamespace::FPSManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FPSManager>::get(),

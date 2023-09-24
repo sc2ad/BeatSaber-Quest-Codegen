@@ -2,10 +2,10 @@
 #include "Zenject/zzzz__GetFromGameObjectComponentProvider_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: Zenject::GetFromGameObjectComponentProvider._ctor
 template<>
@@ -114,8 +114,10 @@ constexpr void Zenject::GetFromGameObjectComponentProvider::__set__matchSingle(b
 constexpr bool Zenject::GetFromGameObjectComponentProvider::__get__matchSingle() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "matchSingle", ty: "bool", modifiers: "", def_value: None }]
- Zenject::GetFromGameObjectComponentProvider::GetFromGameObjectComponentProvider(System::Type componentType, UnityEngine::GameObject gameObject, bool matchSingle)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GetFromGameObjectComponentProvider>(componentType, gameObject, matchSingle))) {}
+ Zenject::GetFromGameObjectComponentProvider Zenject::GetFromGameObjectComponentProvider::New_ctor(System::Type componentType, UnityEngine::GameObject gameObject, bool matchSingle)  {
+Zenject::GetFromGameObjectComponentProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::GetFromGameObjectComponentProvider>(componentType, gameObject, matchSingle))};
+return o;
+}
  void Zenject::GetFromGameObjectComponentProvider::_ctor(System::Type componentType, UnityEngine::GameObject gameObject, bool matchSingle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::GetFromGameObjectComponentProvider>::get(),

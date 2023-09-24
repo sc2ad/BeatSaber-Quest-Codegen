@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::DualShock4GamepadAndroid::DualShock4GamepadAndroid()  : UnityEngine::InputSystem::DualShock::DualShockGamepad(THROW_UNLESS(::il2cpp_utils::New<DualShock4GamepadAndroid>())) {}
+ UnityEngine::InputSystem::Android::DualShock4GamepadAndroid UnityEngine::InputSystem::Android::DualShock4GamepadAndroid::New_ctor()  {
+UnityEngine::InputSystem::Android::DualShock4GamepadAndroid o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::DualShock4GamepadAndroid>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::DualShock4GamepadAndroid::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::DualShock4GamepadAndroid>::get(),

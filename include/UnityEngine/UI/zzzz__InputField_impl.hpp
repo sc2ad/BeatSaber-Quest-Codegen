@@ -4,39 +4,40 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/UI/zzzz__InputField_def.hpp"
-#include "UnityEngine/zzzz__TextGenerator_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseInput_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
+#include "UnityEngine/UI/zzzz__InputField_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__TextGenerator_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
+#include "UnityEngine/zzzz__UIVertex_def.hpp"
+#include "UnityEngine/zzzz__CanvasRenderer_def.hpp"
 #include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/zzzz__TouchScreenKeyboardType_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
-#include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
-#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
-#include "UnityEngine/zzzz__UIVertex_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
+#include "UnityEngine/zzzz__TouchScreenKeyboardType_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseInput_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEndDragHandler_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__CanvasRenderer_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -165,8 +166,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (U
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput::UnityEngine__UI__InputField__OnValidateInput(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__InputField__OnValidateInput>(object, method))) {}
+ UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput>(object, method))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__InputField__OnValidateInput>::get(),
@@ -220,8 +223,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent::UnityEngine__UI__InputField__SubmitEvent()  : UnityEngine::Events::UnityEvent_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__InputField__SubmitEvent>())) {}
+ UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__InputField__SubmitEvent>::get(),
@@ -248,8 +253,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent::UnityEngine__UI__InputField__EndEditEvent()  : UnityEngine::Events::UnityEvent_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__InputField__EndEditEvent>())) {}
+ UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__InputField__EndEditEvent>::get(),
@@ -276,8 +283,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent::UnityEngine__UI__InputField__OnChangeEvent()  : UnityEngine::Events::UnityEvent_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__InputField__OnChangeEvent>())) {}
+ UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__InputField__OnChangeEvent>::get(),
@@ -430,8 +439,10 @@ constexpr void UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172:
 constexpr UnityEngine::UI::InputField UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UI::InputField, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172::UnityEngine__UI__InputField___CaretBlink_d__172(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__InputField___CaretBlink_d__172>(__1__state))) {}
+ UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172 UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172::New_ctor(int32_t __1__state)  {
+UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172>(__1__state))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__InputField___CaretBlink_d__172>::get(),
@@ -624,8 +635,10 @@ constexpr void UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRe
 constexpr UnityEngine::UI::InputField UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UI::InputField, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__InputField___MouseDragOutsideRect_d__194>(__1__state))) {}
+ UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194 UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194::New_ctor(int32_t __1__state)  {
+UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194>(__1__state))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__InputField___MouseDragOutsideRect_d__194>::get(),
@@ -3811,8 +3824,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UI::InputField::InputField()  : UnityEngine::UI::Selectable(THROW_UNLESS(::il2cpp_utils::New<InputField>())) {}
+ UnityEngine::UI::InputField UnityEngine::UI::InputField::New_ctor()  {
+UnityEngine::UI::InputField o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::InputField>())};
+return o;
+}
  void UnityEngine::UI::InputField::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::InputField>::get(),

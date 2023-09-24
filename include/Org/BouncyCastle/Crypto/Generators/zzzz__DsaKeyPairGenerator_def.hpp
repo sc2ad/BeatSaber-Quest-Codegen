@@ -2,19 +2,19 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
 }
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
+class KeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DsaKeyGenerationParameters;
@@ -95,8 +95,7 @@ static Org::BouncyCastle::Math::BigInteger GeneratePrivateKey(Org::BouncyCastle:
 /// @brief Method CalculatePublicKey addr 0xe6c330 size 0x24 virtual false final false
 static Org::BouncyCastle::Math::BigInteger CalculatePublicKey(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger x) ;
 
-// Ctor Parameters []
-explicit DsaKeyPairGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe6c3cc size 0x8 virtual false final false
  void _ctor() ;

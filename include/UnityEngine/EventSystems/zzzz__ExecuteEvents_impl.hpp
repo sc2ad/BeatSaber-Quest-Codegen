@@ -1,31 +1,32 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__ExecuteEvents_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IScrollHandler_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ICancelHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerMoveHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDropHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEndDragHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IMoveHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEndDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerMoveHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDropHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ExecuteEvents_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IMoveHandler_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IScrollHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ICancelHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: UnityEngine::EventSystems::ExecuteEvents.Execute
@@ -1202,106 +1203,40 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::GameObject, false>(nullptr, ___internal_method, root);
 }
-//  Writing Method size for method: UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::*)(T1, UnityEngine::EventSystems::BaseEventData)>(&UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1.BeginInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::*)(T1, UnityEngine::EventSystems::BaseEventData, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::BeginInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1.EndInvoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::*)(System::IAsyncResult)>(&UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::EndInvoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__EventSystems__ExecuteEvents__EventFunction_1>(object, method))) {}
- void UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1> UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1>>(object, method))};
+return o;
+}
+ void UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- void UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::Invoke(T1 handler, UnityEngine::EventSystems::BaseEventData eventData)  {
+ void UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1>::Invoke(T1 handler, UnityEngine::EventSystems::BaseEventData eventData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::EventSystems::BaseEventData>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, handler, eventData);
 }
- System::IAsyncResult UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::BeginInvoke(T1 handler, UnityEngine::EventSystems::BaseEventData eventData, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
+ System::IAsyncResult UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1>::BeginInvoke(T1 handler, UnityEngine::EventSystems::BaseEventData eventData, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1>>::get(),
                             "BeginInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::EventSystems::BaseEventData>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, handler, eventData, callback, object);
 }
- void UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1::EndInvoke(System::IAsyncResult result)  {
+ void UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1>::EndInvoke(System::IAsyncResult result)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__ExecuteEvents__EventFunction_1<T1>>::get(),
                             "EndInvoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}

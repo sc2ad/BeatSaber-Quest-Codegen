@@ -4,39 +4,42 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
-class SharedVertex;
+class ProBuilderMesh;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__CombineMeshes____c;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+class SharedVertex;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -106,8 +109,7 @@ static System::Func_2<UnityEngine::ProBuilder::Face,int32_t> __get___9__5_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__CombineMeshes____c() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__CombineMeshes____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a0da44 size 0x8 virtual false final false
  void _ctor() ;

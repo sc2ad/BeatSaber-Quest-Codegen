@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, providerInterface);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider::AtlasSpriteProvider()  : UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase(THROW_UNLESS(::il2cpp_utils::New<AtlasSpriteProvider>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider>::get(),

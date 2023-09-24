@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System {
-class AsyncCallback;
-}
-namespace System::Threading {
-class WaitHandle;
+class IAsyncResult;
 }
 namespace System::Threading {
 class ManualResetEvent;
 }
+namespace System::Threading {
+class WaitHandle;
+}
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 // Forward declare root types
 namespace System::IO {
@@ -131,8 +131,7 @@ constexpr System::AsyncCallback __get_realcb() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cb", ty: "System::AsyncCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit FileStreamAsyncResult(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state) ;
+static System::IO::FileStreamAsyncResult New_ctor(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method .ctor addr 0x23cfa24 size 0xd8 virtual false final false
  void _ctor(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state) ;

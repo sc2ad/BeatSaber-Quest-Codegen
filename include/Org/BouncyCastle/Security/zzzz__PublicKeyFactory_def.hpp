@@ -6,23 +6,23 @@
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPublicKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -70,8 +70,7 @@ constexpr explicit PublicKeyFactory(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Methods
 
-// Ctor Parameters []
-explicit PublicKeyFactory() ;
+static Org::BouncyCastle::Security::PublicKeyFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x10b3430 size 0x8 virtual false final false
  void _ctor() ;

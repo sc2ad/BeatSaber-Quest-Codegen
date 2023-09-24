@@ -79,8 +79,7 @@ constexpr ::StringW __get_propertyName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "muscleIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BakerMuscle(int32_t muscleIndex) ;
+static RootMotion::BakerMuscle New_ctor(int32_t muscleIndex) ;
 
 /// @brief Method .ctor addr 0x11a96a8 size 0x64 virtual false final false
  void _ctor(int32_t muscleIndex) ;

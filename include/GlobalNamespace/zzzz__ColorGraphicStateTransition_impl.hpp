@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorGraphicStateTransition_def.hpp"
 #include "GlobalNamespace/zzzz__ColorTransitionSO_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "Tweening/zzzz__ColorTween_def.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
+#include "Tweening/zzzz__ColorTween_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorGraphicStateTransition.get_transition
 template<>
 
@@ -432,8 +432,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, endColor);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorGraphicStateTransition::ColorGraphicStateTransition()  : GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Graphic>(THROW_UNLESS(::il2cpp_utils::New<ColorGraphicStateTransition>())) {}
+ GlobalNamespace::ColorGraphicStateTransition GlobalNamespace::ColorGraphicStateTransition::New_ctor()  {
+GlobalNamespace::ColorGraphicStateTransition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorGraphicStateTransition>())};
+return o;
+}
  void GlobalNamespace::ColorGraphicStateTransition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorGraphicStateTransition>::get(),

@@ -55,8 +55,7 @@ constexpr explicit PerformanceCountersElement(void* ptr) noexcept : System::Conf
 
 // Methods
 
-// Ctor Parameters []
-explicit PerformanceCountersElement() ;
+static System::Net::Configuration::PerformanceCountersElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b258c size 0x38 virtual false final false
  void _ctor() ;

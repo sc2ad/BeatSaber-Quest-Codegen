@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__CompletionActionInvoker_def.hpp"
-#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
+#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::CompletionActionInvoker._ctor
 template<>
 
@@ -71,8 +71,10 @@ constexpr void System::Threading::Tasks::CompletionActionInvoker::__set_m_comple
 constexpr System::Threading::Tasks::Task System::Threading::Tasks::CompletionActionInvoker::__get_m_completingTask() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::Threading::Tasks::ITaskCompletionAction", modifiers: "", def_value: None }, CppParam { name: "completingTask", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }]
- System::Threading::Tasks::CompletionActionInvoker::CompletionActionInvoker(System::Threading::Tasks::ITaskCompletionAction action, System::Threading::Tasks::Task completingTask)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CompletionActionInvoker>(action, completingTask))) {}
+ System::Threading::Tasks::CompletionActionInvoker System::Threading::Tasks::CompletionActionInvoker::New_ctor(System::Threading::Tasks::ITaskCompletionAction action, System::Threading::Tasks::Task completingTask)  {
+System::Threading::Tasks::CompletionActionInvoker o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::CompletionActionInvoker>(action, completingTask))};
+return o;
+}
  void System::Threading::Tasks::CompletionActionInvoker::_ctor(System::Threading::Tasks::ITaskCompletionAction action, System::Threading::Tasks::Task completingTask)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::CompletionActionInvoker>::get(),

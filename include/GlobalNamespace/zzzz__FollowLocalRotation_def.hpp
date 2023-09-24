@@ -71,8 +71,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method Update addr 0x1f78184 size 0x34 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit FollowLocalRotation() ;
+static GlobalNamespace::FollowLocalRotation New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f781b8 size 0x8 virtual false final false
  void _ctor() ;

@@ -83,8 +83,7 @@ constexpr GlobalNamespace::BeatmapEventData __get__nextSameTypeEventData_k__Back
 /// @brief Method set_nextSameTypeEventData addr 0xd919d0 size 0x8 virtual false final false
  void set_nextSameTypeEventData(GlobalNamespace::BeatmapEventData value) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "executionOrder", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifier", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BeatmapEventData(float_t time, int32_t executionOrder, int32_t subtypeIdentifier) ;
+static GlobalNamespace::BeatmapEventData New_ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier) ;
 
 /// @brief Method .ctor addr 0xd91600 size 0x44 virtual false final false
  void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier) ;

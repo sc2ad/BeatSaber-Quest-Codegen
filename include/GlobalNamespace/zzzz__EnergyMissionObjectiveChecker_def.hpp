@@ -72,8 +72,7 @@ constexpr GlobalNamespace::GameEnergyCounter __get__energyCounter() const;
 /// @brief Method CheckAndUpdateStatus addr 0x20d61f0 size 0xc4 virtual false final false
  void CheckAndUpdateStatus() ;
 
-// Ctor Parameters []
-explicit EnergyMissionObjectiveChecker() ;
+static GlobalNamespace::EnergyMissionObjectiveChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d63ec size 0x8 virtual false final false
  void _ctor() ;

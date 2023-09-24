@@ -11,63 +11,69 @@ namespace HMUI {
 class ViewController;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__LevelCollectionNavigationController__AlphaAnimationType;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
 class LoadingControl;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class AppStaticSettingsSO;
+}
+namespace Tweening {
+class FloatTween;
+}
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
+}
+namespace GlobalNamespace {
+class LevelCollectionViewController;
+}
+namespace GlobalNamespace {
+class LevelPackDetailViewController;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__StandardLevelDetailViewController__ContentType;
-}
-namespace GlobalNamespace {
 class IBeatmapLevel;
-}
-namespace Tweening {
-class FloatTween;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class StandardLevelDetailViewController;
-}
-namespace GlobalNamespace {
-class AppStaticSettingsSO;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
-}
-namespace UnityEngine {
-class GameObject;
+class StandardLevelDetailViewController;
 }
 namespace GlobalNamespace {
-class LevelPackDetailViewController;
+struct GlobalNamespace__StandardLevelDetailViewController__ContentType;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace Tweening {
 class TimeTweeningManager;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
-}
-namespace GlobalNamespace {
-class LevelCollectionViewController;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -128,6 +134,8 @@ __Out = 1,
 constexpr operator __GlobalNamespace__LevelCollectionNavigationController__AlphaAnimationType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LevelCollectionNavigationController__AlphaAnimationType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -205,8 +213,7 @@ constexpr HMUI::ViewController __get_viewController() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0() ;
+static GlobalNamespace::GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2165f0c size 0x8 virtual false final false
  void _ctor() ;
@@ -511,8 +518,7 @@ constexpr Tweening::FloatTween __get__floatTween() const;
 /// @brief Method HandleLevelDetailViewControllerLevelFavoriteStatusDidChange addr 0x2165fb4 size 0x18 virtual false final false
  void HandleLevelDetailViewControllerLevelFavoriteStatusDidChange(GlobalNamespace::StandardLevelDetailViewController viewController, bool favoriteStatus) ;
 
-// Ctor Parameters []
-explicit LevelCollectionNavigationController() ;
+static GlobalNamespace::LevelCollectionNavigationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2165ffc size 0x8 virtual false final false
  void _ctor() ;

@@ -64,14 +64,12 @@ constexpr UnityEngine::RuntimeInitializeLoadType __get_m_LoadType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RuntimeInitializeOnLoadMethodAttribute() ;
+static UnityEngine::RuntimeInitializeOnLoadMethodAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b56874 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "loadType", ty: "UnityEngine::RuntimeInitializeLoadType", modifiers: "", def_value: None }]
-explicit RuntimeInitializeOnLoadMethodAttribute(UnityEngine::RuntimeInitializeLoadType loadType) ;
+static UnityEngine::RuntimeInitializeOnLoadMethodAttribute New_ctor(UnityEngine::RuntimeInitializeLoadType loadType) ;
 
 /// @brief Method .ctor addr 0x2b56898 size 0x28 virtual false final false
  void _ctor(UnityEngine::RuntimeInitializeLoadType loadType) ;

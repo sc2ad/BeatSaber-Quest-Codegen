@@ -1,8 +1,8 @@
 #pragma once
 #include "LiteNetLib/Utils/zzzz__NetDataReader_impl.hpp"
 #include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/zzzz__NetManager_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/zzzz__NetEvent_def.hpp"
 //  Writing Method size for method: LiteNetLib::NetPacketReader._ctor
 template<>
@@ -90,8 +90,10 @@ constexpr void LiteNetLib::NetPacketReader::__set__evt(LiteNetLib::NetEvent valu
 constexpr LiteNetLib::NetEvent LiteNetLib::NetPacketReader::__get__evt() const {
 return ::cordl_internals::getInstanceField<LiteNetLib::NetEvent, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "manager", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }, CppParam { name: "evt", ty: "LiteNetLib::NetEvent", modifiers: "", def_value: None }]
- LiteNetLib::NetPacketReader::NetPacketReader(LiteNetLib::NetManager manager, LiteNetLib::NetEvent evt)  : LiteNetLib::Utils::NetDataReader(THROW_UNLESS(::il2cpp_utils::New<NetPacketReader>(manager, evt))) {}
+ LiteNetLib::NetPacketReader LiteNetLib::NetPacketReader::New_ctor(LiteNetLib::NetManager manager, LiteNetLib::NetEvent evt)  {
+LiteNetLib::NetPacketReader o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetPacketReader>(manager, evt))};
+return o;
+}
  void LiteNetLib::NetPacketReader::_ctor(LiteNetLib::NetManager manager, LiteNetLib::NetEvent evt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetPacketReader>::get(),

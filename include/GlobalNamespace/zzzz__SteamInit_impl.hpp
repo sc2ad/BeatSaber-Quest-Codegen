@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SteamInit::SteamInit()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SteamInit>())) {}
+ GlobalNamespace::SteamInit GlobalNamespace::SteamInit::New_ctor()  {
+GlobalNamespace::SteamInit o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SteamInit>())};
+return o;
+}
  void GlobalNamespace::SteamInit::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SteamInit>::get(),

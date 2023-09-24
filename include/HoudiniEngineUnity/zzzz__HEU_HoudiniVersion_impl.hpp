@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_HoudiniVersion::HEU_HoudiniVersion()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_HoudiniVersion>())) {}
+ HoudiniEngineUnity::HEU_HoudiniVersion HoudiniEngineUnity::HEU_HoudiniVersion::New_ctor()  {
+HoudiniEngineUnity::HEU_HoudiniVersion o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_HoudiniVersion>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_HoudiniVersion::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_HoudiniVersion>::get(),

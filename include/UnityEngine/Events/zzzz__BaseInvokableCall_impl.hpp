@@ -87,8 +87,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Events::BaseInvokableCall::BaseInvokableCall()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BaseInvokableCall>())) {}
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::BaseInvokableCall::New_ctor()  {
+UnityEngine::Events::BaseInvokableCall o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Events::BaseInvokableCall>())};
+return o;
+}
  void UnityEngine::Events::BaseInvokableCall::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::BaseInvokableCall>::get(),
@@ -98,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "function", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }]
- UnityEngine::Events::BaseInvokableCall::BaseInvokableCall(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo function)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BaseInvokableCall>(target, function))) {}
+ UnityEngine::Events::BaseInvokableCall UnityEngine::Events::BaseInvokableCall::New_ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo function)  {
+UnityEngine::Events::BaseInvokableCall o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Events::BaseInvokableCall>(target, function))};
+return o;
+}
  void UnityEngine::Events::BaseInvokableCall::_ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo function)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::BaseInvokableCall>::get(),

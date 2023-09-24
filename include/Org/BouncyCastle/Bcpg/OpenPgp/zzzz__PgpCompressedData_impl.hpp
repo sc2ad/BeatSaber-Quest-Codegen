@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpCompressedData_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__CompressedDataPacket_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__CompressionAlgorithmTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData._ctor
 template<>
@@ -79,8 +79,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData::__set_data(O
 constexpr Org::BouncyCastle::Bcpg::CompressedDataPacket Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData::__get_data() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::CompressedDataPacket, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData::PgpCompressedData(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(THROW_UNLESS(::il2cpp_utils::New<PgpCompressedData>(bcpgInput))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData>(bcpgInput))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData>::get(),

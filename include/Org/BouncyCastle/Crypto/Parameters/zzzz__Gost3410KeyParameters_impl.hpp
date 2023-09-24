@@ -100,8 +100,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::__s
 constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::__get_publicKeyParamSet() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerObjectIdentifier, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::Gost3410KeyParameters(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters parameters)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<Gost3410KeyParameters>(isPrivate, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters>(isPrivate, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters>::get(),
@@ -111,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isPrivate, parameters);
 }
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::Gost3410KeyParameters(bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<Gost3410KeyParameters>(isPrivate, publicKeyParamSet))) {}
+ Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::New_ctor(bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  {
+Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters>(isPrivate, publicKeyParamSet))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::_ctor(bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters>::get(),

@@ -2,11 +2,12 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRNetwork_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__OVRNetwork_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
+#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Net/Sockets/zzzz__TcpListener_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRNetwork__FrameHeader.ToBytes
@@ -275,8 +276,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ar);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRNetwork__OVRNetworkTcpServer>())) {}
+ GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer>::get(),
@@ -539,8 +542,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ar);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpClient::GlobalNamespace__OVRNetwork__OVRNetworkTcpClient()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRNetwork__OVRNetworkTcpClient>())) {}
+ GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpClient GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpClient::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpClient o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpClient>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpClient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpClient>::get(),
@@ -567,8 +572,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::OVRNetwork::OVRNetwork()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRNetwork>())) {}
+ GlobalNamespace::OVRNetwork GlobalNamespace::OVRNetwork::New_ctor()  {
+GlobalNamespace::OVRNetwork o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRNetwork>())};
+return o;
+}
  void GlobalNamespace::OVRNetwork::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRNetwork>::get(),

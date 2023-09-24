@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Utilities/zzzz__FilterStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Utilities::FilterStream._ctor
 template<>
 
@@ -264,8 +264,10 @@ constexpr void Org::BouncyCastle::Asn1::Utilities::FilterStream::__set_s(System:
 constexpr System::IO::Stream Org::BouncyCastle::Asn1::Utilities::FilterStream::__get_s() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "s", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Utilities::FilterStream::FilterStream(System::IO::Stream s)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FilterStream>(s))) {}
+ Org::BouncyCastle::Asn1::Utilities::FilterStream Org::BouncyCastle::Asn1::Utilities::FilterStream::New_ctor(System::IO::Stream s)  {
+Org::BouncyCastle::Asn1::Utilities::FilterStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Utilities::FilterStream>(s))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Utilities::FilterStream::_ctor(System::IO::Stream s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Utilities::FilterStream>::get(),

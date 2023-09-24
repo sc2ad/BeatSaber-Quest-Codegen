@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+class BindInfo;
 }
 namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -65,8 +65,7 @@ constexpr Zenject::SubContainerCreatorBindInfo __get__subContainerBindInfo() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "subContainerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::SubContainerCreatorBindInfo subContainerBindInfo, Zenject::BindInfo bindInfo) ;
+static Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder New_ctor(Zenject::SubContainerCreatorBindInfo subContainerBindInfo, Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d65434 size 0x2c virtual false final false
  void _ctor(Zenject::SubContainerCreatorBindInfo subContainerBindInfo, Zenject::BindInfo bindInfo) ;

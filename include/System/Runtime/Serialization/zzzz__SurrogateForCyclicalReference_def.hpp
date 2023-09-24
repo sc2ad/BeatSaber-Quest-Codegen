@@ -2,16 +2,16 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializationSurrogate;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
+class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

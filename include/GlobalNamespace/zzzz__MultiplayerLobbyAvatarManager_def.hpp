@@ -5,32 +5,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
 namespace GlobalNamespace {
 class MultiplayerLobbyAvatarController;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace GlobalNamespace {
-class GlobalNamespace__MultiplayerLobbyAvatarController__Factory;
-}
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
+class GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLobbyAvatarController__Factory;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -133,8 +136,7 @@ constexpr GlobalNamespace::MultiplayerLobbyAvatarController __get_multiplayerAva
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20c4ec4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -265,8 +267,7 @@ constexpr System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLo
 /// @brief Method RemovePlayerAndDestroy addr 0x20c4e48 size 0x7c virtual false final false
  System::Collections::IEnumerator RemovePlayerAndDestroy(::StringW userId, GlobalNamespace::MultiplayerLobbyAvatarController multiplayerAvatar) ;
 
-// Ctor Parameters []
-explicit MultiplayerLobbyAvatarManager() ;
+static GlobalNamespace::MultiplayerLobbyAvatarManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c4eec size 0xcc virtual false final false
  void _ctor() ;

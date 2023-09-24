@@ -9,19 +9,22 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-class Transform;
+class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback;
 }
 namespace HoudiniEngineUnity {
-class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback;
+class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback;
 }
 namespace HoudiniEngineUnity {
 class HEU_ThreadedTaskLoadGeo;
 }
-namespace HoudiniEngineUnity {
-class HoudiniEngineUnity__HEU_ThreadedTaskLoadGeo__HEU_LoadData;
+namespace UnityEngine {
+class Transform;
 }
 namespace System {
 class AsyncCallback;
@@ -78,8 +81,7 @@ constexpr explicit HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2033ff0 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -180,8 +182,7 @@ constexpr ::StringW __get__assetPath() const;
 /// @brief Method Resync addr 0x2033e44 size 0x38 virtual true final false
  void Resync() ;
 
-// Ctor Parameters []
-explicit HEU_AssetSync() ;
+static HoudiniEngineUnity::HEU_AssetSync New_ctor() ;
 
 /// @brief Method .ctor addr 0x2033e7c size 0x4 virtual false final false
  void _ctor() ;

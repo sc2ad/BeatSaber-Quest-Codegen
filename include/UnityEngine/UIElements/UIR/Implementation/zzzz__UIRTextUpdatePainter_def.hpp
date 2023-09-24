@@ -3,30 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class IStylePainter;
-}
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements::UIR {
-class UIRenderDevice;
-}
-namespace UnityEngine::UIElements {
-class ITextHandle;
-}
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::UIElements {
+class MeshGenerationContext;
+}
+namespace UnityEngine::UIElements {
+class IStylePainter;
 }
 namespace Unity::Collections {
 template<typename T>
@@ -35,11 +20,26 @@ struct NativeSlice_1;
 namespace UnityEngine {
 struct Color32;
 }
+namespace UnityEngine::UIElements::UIR {
+class UIRenderDevice;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class ITextHandle;
+}
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class MeshGenerationContext;
+struct Vertex;
 }
 namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
@@ -167,8 +167,7 @@ constexpr UnityEngine::UIElements::MeshGenerationContext __get__meshGenerationCo
 /// @brief Method get_meshGenerationContext addr 0x2c66640 size 0x8 virtual false final false
  UnityEngine::UIElements::MeshGenerationContext get_meshGenerationContext() ;
 
-// Ctor Parameters []
-explicit UIRTextUpdatePainter() ;
+static UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c66648 size 0x70 virtual false final false
  void _ctor() ;

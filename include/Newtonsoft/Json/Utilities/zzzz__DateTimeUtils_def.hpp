@@ -5,20 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-struct DateTimeOffset;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace Newtonsoft::Json::Utilities {
-struct StringReference;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace Newtonsoft::Json {
-struct DateFormatHandling;
+namespace System::IO {
+class TextWriter;
 }
 namespace System {
 struct DateTimeKind;
@@ -26,21 +14,33 @@ struct DateTimeKind;
 namespace System::Xml {
 struct XmlDateTimeSerializationMode;
 }
-namespace System::IO {
-class TextWriter;
-}
-namespace System {
-struct DateTime;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
+namespace System {
+struct DateTimeOffset;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace Newtonsoft::Json {
+struct DateFormatHandling;
+}
+namespace Newtonsoft::Json::Utilities {
+struct StringReference;
+}
 namespace Newtonsoft::Json::Utilities {
 struct DateTimeParser;
 }
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace Newtonsoft::Json {
 struct DateTimeZoneHandling;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

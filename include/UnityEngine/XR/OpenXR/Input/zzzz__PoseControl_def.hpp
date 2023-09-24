@@ -3,19 +3,19 @@
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__Pose_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
+class Vector3Control;
+}
+namespace UnityEngine::XR::OpenXR::Input {
+struct Pose;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class IntegerControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class QuaternionControl;
-}
-namespace UnityEngine::XR::OpenXR::Input {
-struct Pose;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Input {
@@ -24,7 +24,7 @@ class PoseControl;
 // Type: UnityEngine.XR.OpenXR.Input::PoseControl
 namespace UnityEngine::XR::OpenXR::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), TypeDefinitionIndex(TypeDefinitionIndex(14197)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3756 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3756 }), TypeDefinitionIndex(TypeDefinitionIndex(14197))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14198))
 // CS Name: UnityEngine.XR.OpenXR.Input.PoseControl
 class CORDL_TYPE PoseControl : public UnityEngine::InputSystem::InputControl_1<UnityEngine::XR::OpenXR::Input::Pose> {
@@ -153,8 +153,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector3Control __get__angularVeloc
 /// @brief Method set_angularVelocity addr 0x2aefb1c size 0x8 virtual false final false
  void set_angularVelocity(UnityEngine::InputSystem::Controls::Vector3Control value) ;
 
-// Ctor Parameters []
-explicit PoseControl() ;
+static UnityEngine::XR::OpenXR::Input::PoseControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aefb24 size 0x48 virtual false final false
  void _ctor() ;

@@ -83,8 +83,7 @@ constexpr System::TimeSpan __get__delta() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "start", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "end", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "System::TimeSpan", modifiers: "", def_value: None }]
-explicit DaylightTime(System::DateTime start, System::DateTime end, System::TimeSpan delta) ;
+static System::Globalization::DaylightTime New_ctor(System::DateTime start, System::DateTime end, System::TimeSpan delta) ;
 
 /// @brief Method .ctor addr 0x23e51a4 size 0x3c virtual false final false
  void _ctor(System::DateTime start, System::DateTime end, System::TimeSpan delta) ;

@@ -7,75 +7,117 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-struct MultiplayerAvatarData;
+class GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-class RollingAverage;
-}
-namespace GlobalNamespace {
-class IConnection;
-}
-namespace BGNet::Core {
-class ITimeProvider;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace GlobalNamespace {
-template<typename TType,typename TData>
-class NetworkPacketSerializer_2;
-}
-namespace System {
-class Action;
-}
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace BGNet::Core {
-class ITaskUtility;
+class GlobalNamespace__EncryptionUtility__IEncryptionState;
 }
 namespace GlobalNamespace {
 template<typename TData>
 class INetworkPacketSubSerializer_1;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__EncryptionUtility__IEncryptionState;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+class GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket;
 }
 namespace GlobalNamespace {
-class IDiffieHellmanKeyPair;
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+class IConnectionManager;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
+class IDiffieHellmanKeyPair;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ConnectedPlayerManager__MessageType;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarData;
+}
+namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IConnectionManager;
+class GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace GlobalNamespace {
+template<typename TType,typename TData>
+class NetworkPacketSerializer_2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ConnectedPlayerManager___InitializePlayerEncryption_d__129;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace GlobalNamespace {
+class IConnection;
+}
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket;
+}
+namespace GlobalNamespace {
+class RollingAverage;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ConnectedPlayerManager__PingPacket;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__ConnectedPlayerManager__InternalMessageType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ConnectedPlayerManager__PongPacket;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket;
+}
+namespace BGNet::Core {
+class ITimeProvider;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ConnectedPlayerManager__SyncTimePacket;
 }
 namespace GlobalNamespace {
 struct PlayerStateHash;
@@ -91,14 +133,14 @@ namespace GlobalNamespace {
 class ByteArrayNetSerializable;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -409,8 +451,7 @@ constexpr GlobalNamespace::RollingAverage __get__latency() const;
 /// @brief Method get_encryptionState addr 0xda3f54 size 0x8 virtual false final false
  GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState get_encryptionState() ;
 
-// Ctor Parameters [CppParam { name: "manager", ty: "GlobalNamespace::ConnectedPlayerManager", modifiers: "", def_value: None }, CppParam { name: "connectionId", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "remoteConnectionId", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "connection", ty: "GlobalNamespace::IConnection", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isMe", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "publicEncryptionKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "random", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer(GlobalNamespace::ConnectedPlayerManager manager, uint8_t connectionId, uint8_t remoteConnectionId, GlobalNamespace::IConnection connection, GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer parent, ::StringW userId, ::StringW userName, bool isConnectionOwner, bool isMe, ::ArrayW<uint8_t> publicEncryptionKey, ::ArrayW<uint8_t> random) ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer New_ctor(GlobalNamespace::ConnectedPlayerManager manager, uint8_t connectionId, uint8_t remoteConnectionId, GlobalNamespace::IConnection connection, GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer parent, ::StringW userId, ::StringW userName, bool isConnectionOwner, bool isMe, ::ArrayW<uint8_t> publicEncryptionKey, ::ArrayW<uint8_t> random) ;
 
 /// @brief Method .ctor addr 0xda3f5c size 0x100 virtual false final false
  void _ctor(GlobalNamespace::ConnectedPlayerManager manager, uint8_t connectionId, uint8_t remoteConnectionId, GlobalNamespace::IConnection connection, GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__ConnectedPlayer parent, ::StringW userId, ::StringW userName, bool isConnectionOwner, bool isMe, ::ArrayW<uint8_t> publicEncryptionKey, ::ArrayW<uint8_t> random) ;
@@ -540,6 +581,8 @@ constexpr operator __GlobalNamespace__ConnectedPlayerManager__InternalMessageTyp
 return std::bit_cast<__GlobalNamespace__ConnectedPlayerManager__InternalMessageType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
 
 // Fields
 
@@ -641,6 +684,8 @@ __MultiplayerSession = 7u,
 constexpr operator __GlobalNamespace__ConnectedPlayerManager__MessageType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ConnectedPlayerManager__MessageType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields
@@ -756,8 +801,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__Connected
 /// @brief Method Init addr 0xda405c size 0x14 virtual false final false
  GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket Init(uint8_t connectionId, ::StringW userId, ::StringW userName, bool isConnectionOwner) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket() ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerConnectedPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0xda4378 size 0x8 virtual false final false
  void _ctor() ;
@@ -861,8 +905,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__Connected
 /// @brief Method Init addr 0xda4070 size 0x5c virtual false final false
  GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket Init(GlobalNamespace::PlayerStateHash states, GlobalNamespace::MultiplayerAvatarData avatar, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicEncryptionKey) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket() ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerIdentityPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0xda44cc size 0xec virtual false final false
  void _ctor() ;
@@ -948,8 +991,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__Connected
 /// @brief Method Init addr 0xda40d4 size 0x20 virtual false final false
  GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket Init(GlobalNamespace::MultiplayerAvatarData avatar) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket() ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerAvatarPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0xda4660 size 0x8 virtual false final false
  void _ctor() ;
@@ -1035,8 +1077,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__Connected
 /// @brief Method Init addr 0xda40cc size 0x8 virtual false final false
  GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket Init(GlobalNamespace::PlayerStateHash states) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket() ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerStatePacket New_ctor() ;
 
 /// @brief Method .ctor addr 0xda46e8 size 0x8 virtual false final false
  void _ctor() ;
@@ -1128,8 +1169,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__Connected
 /// @brief Method Init addr 0xda40f4 size 0xc virtual false final false
  GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket Init(::StringW userId, int32_t sortIndex) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket() ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerSortOrderPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0xda4774 size 0x8 virtual false final false
  void _ctor() ;
@@ -1215,8 +1255,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__Connected
 /// @brief Method Release addr 0xda34a8 size 0x54 virtual true final true
  void Release() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket() ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PlayerDisconnectedPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0xda47b0 size 0x10 virtual false final false
  void _ctor() ;
@@ -1302,8 +1341,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__Connected
 /// @brief Method Release addr 0xda35dc size 0x54 virtual true final true
  void Release() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket() ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__KickPlayerPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0xda47f4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1389,8 +1427,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__Connected
 /// @brief Method Release addr 0xda3904 size 0x54 virtual true final true
  void Release() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectedPlayerManager__SyncTimePacket() ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__SyncTimePacket New_ctor() ;
 
 /// @brief Method .ctor addr 0xda4844 size 0x8 virtual false final false
  void _ctor() ;
@@ -1476,8 +1513,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__Connected
 /// @brief Method Release addr 0xda3b54 size 0x54 virtual true final true
  void Release() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectedPlayerManager__PingPacket() ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PingPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0xda4894 size 0x8 virtual false final false
  void _ctor() ;
@@ -1563,8 +1599,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::GlobalNamespace__Connected
 /// @brief Method Release addr 0xda3d3c size 0x54 virtual true final true
  void Release() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__ConnectedPlayerManager__PongPacket() ;
+static GlobalNamespace::GlobalNamespace__ConnectedPlayerManager__PongPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0xda48e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -2100,14 +2135,12 @@ constexpr GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::GlobalName
 /// @brief Method get_runTime addr 0xd9e2a8 size 0xc4 virtual false final false
  float_t get_runTime() ;
 
-// Ctor Parameters [CppParam { name: "connectionManager", ty: "GlobalNamespace::IConnectionManager", modifiers: "", def_value: None }]
-explicit ConnectedPlayerManager(GlobalNamespace::IConnectionManager connectionManager) ;
+static GlobalNamespace::ConnectedPlayerManager New_ctor(GlobalNamespace::IConnectionManager connectionManager) ;
 
 /// @brief Method .ctor addr 0xd9fc2c size 0xbc virtual false final false
  void _ctor(GlobalNamespace::IConnectionManager connectionManager) ;
 
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }, CppParam { name: "connectionManager", ty: "GlobalNamespace::IConnectionManager", modifiers: "", def_value: None }]
-explicit ConnectedPlayerManager(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager) ;
+static GlobalNamespace::ConnectedPlayerManager New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager) ;
 
 /// @brief Method .ctor addr 0xd9fce8 size 0x1034 virtual false final false
  void _ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IConnectionManager connectionManager) ;

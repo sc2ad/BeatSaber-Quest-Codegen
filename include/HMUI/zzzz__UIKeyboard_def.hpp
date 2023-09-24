@@ -5,23 +5,6 @@
 namespace HMUI {
 class UIKeyboardKey;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 struct KeyCode;
 }
@@ -29,7 +12,27 @@ namespace TMPro {
 struct FontStyles;
 }
 namespace System {
+template<typename T>
+class Action_1;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace HMUI {
+class HMUI__UIKeyboard____c__DisplayClass13_0;
+}
+namespace System {
 class Action;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace HMUI {
@@ -95,8 +98,7 @@ constexpr HMUI::UIKeyboard __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__UIKeyboard____c__DisplayClass13_0() ;
+static HMUI::HMUI__UIKeyboard____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fab110 size 0x8 virtual false final false
  void _ctor() ;
@@ -233,8 +235,7 @@ constexpr System::Collections::Generic::List_1<TMPro::TextMeshProUGUI> __get__le
 /// @brief Method OnEnable addr 0x1fab324 size 0xc virtual false final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit UIKeyboard() ;
+static HMUI::UIKeyboard New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fab330 size 0x70 virtual false final false
  void _ctor() ;

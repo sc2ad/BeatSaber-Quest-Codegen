@@ -3,20 +3,20 @@
 #include "RootMotion/FinalIK/zzzz__IKSolverHeuristic_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace RootMotion::FinalIK {
-class RotationLimit;
-}
-namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__IterationDelegate;
-}
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__IKSolver__Bone;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class RotationLimit;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__IterationDelegate;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -186,8 +186,7 @@ constexpr UnityEngine::Transform __get_lastTransform() const;
 /// @brief Method get_localDirection addr 0x11d5bcc size 0x60 virtual true final false
  UnityEngine::Vector3 get_localDirection() ;
 
-// Ctor Parameters []
-explicit IKSolverAim() ;
+static RootMotion::FinalIK::IKSolverAim New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d5c2c size 0xa0 virtual false final false
  void _ctor() ;

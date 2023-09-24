@@ -1,10 +1,10 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__DateTimeConverterBase_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__JavaScriptDateTimeConverter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::JavaScriptDateTimeConverter.WriteJson
 template<>
 
@@ -74,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, reader, objectType, existingValue, serializer);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::JavaScriptDateTimeConverter()  : Newtonsoft::Json::Converters::DateTimeConverterBase(THROW_UNLESS(::il2cpp_utils::New<JavaScriptDateTimeConverter>())) {}
+ Newtonsoft::Json::Converters::JavaScriptDateTimeConverter Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::New_ctor()  {
+Newtonsoft::Json::Converters::JavaScriptDateTimeConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::JavaScriptDateTimeConverter>())};
+return o;
+}
  void Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::JavaScriptDateTimeConverter>::get(),

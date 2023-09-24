@@ -102,8 +102,7 @@ constexpr System::Net::HttpListener __get_Listener() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ListenerPrefix(::StringW prefix) ;
+static System::Net::ListenerPrefix New_ctor(::StringW prefix) ;
 
 /// @brief Method .ctor addr 0x2840bec size 0x30 virtual false final false
  void _ctor(::StringW prefix) ;

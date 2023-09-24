@@ -50,8 +50,10 @@ constexpr void Assets::OVR::Scripts::FixRecord::__set_complete(bool value)  {
 constexpr bool Assets::OVR::Scripts::FixRecord::__get_complete() const {
 return ::cordl_internals::getInstanceField<bool, 0x41>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cat", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fix", ty: "Assets::OVR::Scripts::FixMethodDelegate", modifiers: "", def_value: None }, CppParam { name: "target", ty: "UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "editRequired", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
- Assets::OVR::Scripts::FixRecord::FixRecord(int32_t order, ::StringW cat, ::StringW msg, Assets::OVR::Scripts::FixMethodDelegate fix, UnityEngine::Object target, bool editRequired, ::ArrayW<::StringW> buttons)  : Assets::OVR::Scripts::Record(THROW_UNLESS(::il2cpp_utils::New<FixRecord>(order, cat, msg, fix, target, editRequired, buttons))) {}
+ Assets::OVR::Scripts::FixRecord Assets::OVR::Scripts::FixRecord::New_ctor(int32_t order, ::StringW cat, ::StringW msg, Assets::OVR::Scripts::FixMethodDelegate fix, UnityEngine::Object target, bool editRequired, ::ArrayW<::StringW> buttons)  {
+Assets::OVR::Scripts::FixRecord o{THROW_UNLESS(::il2cpp_utils::New<Assets::OVR::Scripts::FixRecord>(order, cat, msg, fix, target, editRequired, buttons))};
+return o;
+}
  void Assets::OVR::Scripts::FixRecord::_ctor(int32_t order, ::StringW cat, ::StringW msg, Assets::OVR::Scripts::FixMethodDelegate fix, UnityEngine::Object target, bool editRequired, ::ArrayW<::StringW> buttons)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Assets::OVR::Scripts::FixRecord>::get(),

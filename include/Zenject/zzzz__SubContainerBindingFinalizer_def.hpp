@@ -3,31 +3,43 @@
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace Zenject {
+class DiContainer;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class ISubContainerCreator;
+class Zenject__SubContainerBindingFinalizer____c__DisplayClass5_0;
 }
 namespace Zenject {
-class DiContainer;
+class BindInfo;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace Zenject {
+class Zenject__SubContainerBindingFinalizer____c__DisplayClass6_0;
+}
+namespace Zenject {
+class Zenject__SubContainerBindingFinalizer____c__DisplayClass5_1;
+}
+namespace Zenject {
+class ISubContainerCreator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class InjectTypeInfo;
+class Zenject__SubContainerBindingFinalizer____c__DisplayClass6_1;
 }
 namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 class SubContainerCreatorCached;
@@ -105,8 +117,7 @@ constexpr Zenject::DiContainer __get_container() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBindingFinalizer____c__DisplayClass5_0() ;
+static Zenject::Zenject__SubContainerBindingFinalizer____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6d784 size 0x8 virtual false final false
  void _ctor() ;
@@ -181,8 +192,7 @@ constexpr Zenject::Zenject__SubContainerBindingFinalizer____c__DisplayClass5_0 _
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBindingFinalizer____c__DisplayClass5_1() ;
+static Zenject::Zenject__SubContainerBindingFinalizer____c__DisplayClass5_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6d78c size 0x8 virtual false final false
  void _ctor() ;
@@ -257,8 +267,7 @@ constexpr Zenject::DiContainer __get_container() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBindingFinalizer____c__DisplayClass6_0() ;
+static Zenject::Zenject__SubContainerBindingFinalizer____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6d794 size 0x8 virtual false final false
  void _ctor() ;
@@ -333,8 +342,7 @@ constexpr Zenject::Zenject__SubContainerBindingFinalizer____c__DisplayClass6_0 _
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SubContainerBindingFinalizer____c__DisplayClass6_1() ;
+static Zenject::Zenject__SubContainerBindingFinalizer____c__DisplayClass6_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6d79c size 0x8 virtual false final false
  void _ctor() ;
@@ -423,8 +431,7 @@ constexpr System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator> __g
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "subIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "resolveAll", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "creatorFactory", ty: "System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator>", modifiers: "", def_value: None }]
-explicit SubContainerBindingFinalizer(Zenject::BindInfo bindInfo, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator> creatorFactory) ;
+static Zenject::SubContainerBindingFinalizer New_ctor(Zenject::BindInfo bindInfo, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator> creatorFactory) ;
 
 /// @brief Method .ctor addr 0x2d61fa4 size 0x44 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll, System::Func_2<Zenject::DiContainer,Zenject::ISubContainerCreator> creatorFactory) ;

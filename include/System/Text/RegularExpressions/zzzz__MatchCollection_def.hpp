@@ -4,25 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ICollection;
-}
 namespace System::Collections::Generic {
 template<typename T>
-class IReadOnlyCollection_1;
-}
-namespace System::Text::RegularExpressions {
-class Regex;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -30,28 +14,47 @@ class ICollection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System {
+class Array;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace System::Text::RegularExpressions {
-class Match;
-}
-namespace System::Collections {
-class IList;
+class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::Text::RegularExpressions {
+class System__Text__RegularExpressions__MatchCollection__Enumerator;
+}
+namespace System::Text::RegularExpressions {
+class Match;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System {
 class IDisposable;
@@ -136,8 +139,7 @@ constexpr int32_t __get__index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collection", ty: "System::Text::RegularExpressions::MatchCollection", modifiers: "", def_value: None }]
-explicit System__Text__RegularExpressions__MatchCollection__Enumerator(System::Text::RegularExpressions::MatchCollection collection) ;
+static System::Text::RegularExpressions::System__Text__RegularExpressions__MatchCollection__Enumerator New_ctor(System::Text::RegularExpressions::MatchCollection collection) ;
 
 /// @brief Method .ctor addr 0x27bf1e4 size 0x30 virtual false final false
  void _ctor(System::Text::RegularExpressions::MatchCollection collection) ;
@@ -299,8 +301,7 @@ constexpr int32_t __get__prevlen() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "regex", ty: "System::Text::RegularExpressions::Regex", modifiers: "", def_value: None }, CppParam { name: "input", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beginning", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startat", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MatchCollection(System::Text::RegularExpressions::Regex regex, ::StringW input, int32_t beginning, int32_t length, int32_t startat) ;
+static System::Text::RegularExpressions::MatchCollection New_ctor(System::Text::RegularExpressions::Regex regex, ::StringW input, int32_t beginning, int32_t length, int32_t startat) ;
 
 /// @brief Method .ctor addr 0x27bee00 size 0x130 virtual false final false
  void _ctor(System::Text::RegularExpressions::Regex regex, ::StringW input, int32_t beginning, int32_t length, int32_t startat) ;
@@ -395,8 +396,7 @@ explicit MatchCollection(System::Text::RegularExpressions::Regex regex, ::String
 /// @brief Method System.Collections.IList.set_Item addr 0x27bfa2c size 0x50 virtual true final true
  void System_Collections_IList_set_Item(int32_t index, ::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters []
-explicit MatchCollection() ;
+static System::Text::RegularExpressions::MatchCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27bfa7c size 0x38 virtual false final false
  void _ctor() ;

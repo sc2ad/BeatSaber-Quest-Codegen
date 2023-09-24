@@ -117,8 +117,10 @@ return ::cordl_internals::getInstanceField<bool, 0x48>(this->::bs_hook::Il2CppWr
  ::ArrayW<System::Security::Cryptography::KeySizes> System::Security::Cryptography::RC2CryptoServiceProvider::__get_s_legalKeySizes()  {
 return ::cordl_internals::getStaticField<::ArrayW<System::Security::Cryptography::KeySizes>, "s_legalKeySizes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RC2CryptoServiceProvider>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::RC2CryptoServiceProvider::RC2CryptoServiceProvider()  : System::Security::Cryptography::RC2(THROW_UNLESS(::il2cpp_utils::New<RC2CryptoServiceProvider>())) {}
+ System::Security::Cryptography::RC2CryptoServiceProvider System::Security::Cryptography::RC2CryptoServiceProvider::New_ctor()  {
+System::Security::Cryptography::RC2CryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RC2CryptoServiceProvider>())};
+return o;
+}
  void System::Security::Cryptography::RC2CryptoServiceProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RC2CryptoServiceProvider>::get(),

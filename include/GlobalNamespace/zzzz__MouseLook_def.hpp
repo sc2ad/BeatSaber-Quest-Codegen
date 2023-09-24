@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -144,8 +144,7 @@ constexpr bool __get__cursorIsLocked() const;
 /// @brief Method ClampRotationAroundXAxis addr 0x21935d4 size 0x64 virtual false final false
  UnityEngine::Quaternion ClampRotationAroundXAxis(UnityEngine::Quaternion q) ;
 
-// Ctor Parameters []
-explicit MouseLook() ;
+static GlobalNamespace::MouseLook New_ctor() ;
 
 /// @brief Method .ctor addr 0x219358c size 0x34 virtual false final false
  void _ctor() ;

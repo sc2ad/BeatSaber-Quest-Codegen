@@ -62,8 +62,7 @@ constexpr TMPro::TextMeshProUGUI __get__text() const;
 /// @brief Method Start addr 0x2185210 size 0x24 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit BetaBuildInfoText() ;
+static GlobalNamespace::BetaBuildInfoText New_ctor() ;
 
 /// @brief Method .ctor addr 0x2185234 size 0x8 virtual false final false
  void _ctor() ;

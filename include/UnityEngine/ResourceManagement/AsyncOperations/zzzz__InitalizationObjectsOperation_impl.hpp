@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__InitalizationObjectsOperation_def.hpp"
-#include "UnityEngine/AddressableAssets/Initialization/zzzz__ResourceManagerRuntimeData_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/AddressableAssets/Initialization/zzzz__ResourceManagerRuntimeData_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation.Init
 template<>
 
@@ -188,8 +188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation::InitalizationObjectsOperation()  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool>(THROW_UNLESS(::il2cpp_utils::New<InitalizationObjectsOperation>())) {}
+ UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation::New_ctor()  {
+UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation>())};
+return o;
+}
  void UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation>::get(),

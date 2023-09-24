@@ -1,6 +1,27 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Initialization__ProfilerStartFrame;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Initialization__AsyncUploadTimeSlicedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Initialization__XREarlyUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Initialization__SynchronizeState;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Initialization__DirectorSampleTime;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Initialization__UpdateCameraMotionVectors;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__Initialization__SynchronizeInputs;
+}
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct Initialization;

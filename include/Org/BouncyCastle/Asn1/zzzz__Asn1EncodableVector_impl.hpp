@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Asn1EncodableVector.FromEnumerable
 template<>
 
@@ -312,8 +312,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Asn1EncodableVector, false>(nullptr, ___internal_method, e);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Asn1EncodableVector::Asn1EncodableVector()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1EncodableVector>())) {}
+ Org::BouncyCastle::Asn1::Asn1EncodableVector Org::BouncyCastle::Asn1::Asn1EncodableVector::New_ctor()  {
+Org::BouncyCastle::Asn1::Asn1EncodableVector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1EncodableVector>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1EncodableVector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1EncodableVector>::get(),
@@ -323,8 +325,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "initialCapacity", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1EncodableVector::Asn1EncodableVector(int32_t initialCapacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1EncodableVector>(initialCapacity))) {}
+ Org::BouncyCastle::Asn1::Asn1EncodableVector Org::BouncyCastle::Asn1::Asn1EncodableVector::New_ctor(int32_t initialCapacity)  {
+Org::BouncyCastle::Asn1::Asn1EncodableVector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1EncodableVector>(initialCapacity))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1EncodableVector::_ctor(int32_t initialCapacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1EncodableVector>::get(),
@@ -334,8 +338,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, initialCapacity);
 }
-// Ctor Parameters [CppParam { name: "v", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1EncodableVector::Asn1EncodableVector(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> v)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1EncodableVector>(v))) {}
+ Org::BouncyCastle::Asn1::Asn1EncodableVector Org::BouncyCastle::Asn1::Asn1EncodableVector::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> v)  {
+Org::BouncyCastle::Asn1::Asn1EncodableVector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1EncodableVector>(v))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1EncodableVector::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> v)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1EncodableVector>::get(),

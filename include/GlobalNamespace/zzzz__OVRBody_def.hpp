@@ -5,42 +5,42 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Vector3f;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Step;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRSkeleton__SkeletonType;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Quatf;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__OVRSkeleton__SkeletonPoseData;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BodyState;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__OVRPermissionsRequester__Permission;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__BodyState;
+struct GlobalNamespace__OVRPlugin__Quatf;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Vector3f;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Step;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSkeleton__SkeletonType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -183,8 +183,7 @@ static int32_t __get__trackingInstanceCount() ;
 /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData addr 0x25a9688 size 0x18 virtual true final true
  GlobalNamespace::GlobalNamespace__OVRSkeletonRenderer__SkeletonRendererData OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData() ;
 
-// Ctor Parameters []
-explicit OVRBody() ;
+static GlobalNamespace::OVRBody New_ctor() ;
 
 /// @brief Method .ctor addr 0x25a96a0 size 0x8 virtual false final false
  void _ctor() ;

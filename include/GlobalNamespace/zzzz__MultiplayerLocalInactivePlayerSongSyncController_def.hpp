@@ -6,26 +6,29 @@
 namespace UnityEngine {
 class AudioClip;
 }
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
 namespace UnityEngine {
 class WaitUntil;
-}
-namespace GlobalNamespace {
-class IStartSeekSongController;
-}
-namespace GlobalNamespace {
-class CrossFadeAudioSource;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
-class IMultiplayerObservable;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
 class FloatSO;
+}
+namespace GlobalNamespace {
+class IStartSeekSongController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData;
+}
+namespace GlobalNamespace {
+class CrossFadeAudioSource;
+}
+namespace GlobalNamespace {
+class IMultiplayerObservable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +106,7 @@ constexpr float_t __get_timeScale() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeScale", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerSongSyncController__InitData New_ctor(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
 
 /// @brief Method .ctor addr 0x20e8e24 size 0x4c virtual false final false
  void _ctor(UnityEngine::AudioClip audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
@@ -287,8 +289,7 @@ static constexpr float_t  kReSyncThreshold{0.05};
 /// @brief Method HandleVrFocusWasReleased addr 0x20e9af0 size 0x4 virtual false final false
  void HandleVrFocusWasReleased() ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalInactivePlayerSongSyncController() ;
+static GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e9af4 size 0x8 virtual false final false
  void _ctor() ;

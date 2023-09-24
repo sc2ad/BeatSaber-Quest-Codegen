@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Text/zzzz__DecoderFallback_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Text/zzzz__DecoderFallback_def.hpp"
 //  Writing Method size for method: System::Text::Decoder._ctor
 template<>
 
@@ -254,8 +254,10 @@ constexpr void System::Text::Decoder::__set__fallbackBuffer(System::Text::Decode
 constexpr System::Text::DecoderFallbackBuffer System::Text::Decoder::__get__fallbackBuffer() const {
 return ::cordl_internals::getInstanceField<System::Text::DecoderFallbackBuffer, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::Decoder::Decoder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Decoder>())) {}
+ System::Text::Decoder System::Text::Decoder::New_ctor()  {
+System::Text::Decoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::Decoder>())};
+return o;
+}
  void System::Text::Decoder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::Decoder>::get(),

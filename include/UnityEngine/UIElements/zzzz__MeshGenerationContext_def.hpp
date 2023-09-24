@@ -4,6 +4,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContext__MeshFlags;
+}
+namespace UnityEngine::UIElements {
 class IStylePainter;
 }
 // Forward declare root types
@@ -63,6 +66,8 @@ __SkipDynamicAtlas = 2,
 constexpr operator __UnityEngine__UIElements__MeshGenerationContext__MeshFlags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__MeshGenerationContext__MeshFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -139,8 +144,7 @@ constexpr UnityEngine::UIElements::IStylePainter __get_painter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "painter", ty: "UnityEngine::UIElements::IStylePainter", modifiers: "", def_value: None }]
-explicit MeshGenerationContext(UnityEngine::UIElements::IStylePainter painter) ;
+static UnityEngine::UIElements::MeshGenerationContext New_ctor(UnityEngine::UIElements::IStylePainter painter) ;
 
 /// @brief Method .ctor addr 0x2d05fd8 size 0x28 virtual false final false
  void _ctor(UnityEngine::UIElements::IStylePainter painter) ;

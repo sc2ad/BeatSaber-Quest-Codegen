@@ -1,11 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__InjectUtil_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "Zenject/zzzz__InjectUtil_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__InjectUtil____c._ctor
 template<>
 
@@ -86,8 +87,10 @@ return ::cordl_internals::getStaticField<Zenject::Zenject__InjectUtil____c, "<>9
  System::Func_2<::bs_hook::Il2CppWrapperType,Zenject::TypeValuePair> Zenject::Zenject__InjectUtil____c::__get___9__0_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,Zenject::TypeValuePair>, "<>9__0_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InjectUtil____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__InjectUtil____c::Zenject__InjectUtil____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__InjectUtil____c>())) {}
+ Zenject::Zenject__InjectUtil____c Zenject::Zenject__InjectUtil____c::New_ctor()  {
+Zenject::Zenject__InjectUtil____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__InjectUtil____c>())};
+return o;
+}
  void Zenject::Zenject__InjectUtil____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InjectUtil____c>::get(),

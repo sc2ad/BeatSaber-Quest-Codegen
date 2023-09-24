@@ -48,8 +48,7 @@ constexpr explicit PoolExceededFixedSizeException(void* ptr) noexcept : System::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "errorMessage", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PoolExceededFixedSizeException(::StringW errorMessage) ;
+static Zenject::PoolExceededFixedSizeException New_ctor(::StringW errorMessage) ;
 
 /// @brief Method .ctor addr 0x2d6f230 size 0x68 virtual false final false
  void _ctor(::StringW errorMessage) ;

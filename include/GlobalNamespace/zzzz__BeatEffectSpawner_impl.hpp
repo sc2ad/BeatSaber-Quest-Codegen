@@ -1,17 +1,17 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatEffectSpawner_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__BeatEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatEffectDidFinishEvent_def.hpp"
-#include "GlobalNamespace/zzzz__SongController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
+#include "GlobalNamespace/zzzz__SongController_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData._ctor
 template<>
 
@@ -35,8 +35,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData::__
 constexpr bool GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData::__get_hideNoteSpawnEffect() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hideNoteSpawnEffect", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData::GlobalNamespace__BeatEffectSpawner__InitData(bool hideNoteSpawnEffect)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatEffectSpawner__InitData>(hideNoteSpawnEffect))) {}
+ GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData::New_ctor(bool hideNoteSpawnEffect)  {
+GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData>(hideNoteSpawnEffect))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData::_ctor(bool hideNoteSpawnEffect)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatEffectSpawner__InitData>::get(),
@@ -277,8 +279,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatEffect);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatEffectSpawner::BeatEffectSpawner()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatEffectSpawner>())) {}
+ GlobalNamespace::BeatEffectSpawner GlobalNamespace::BeatEffectSpawner::New_ctor()  {
+GlobalNamespace::BeatEffectSpawner o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatEffectSpawner>())};
+return o;
+}
  void GlobalNamespace::BeatEffectSpawner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatEffectSpawner>::get(),

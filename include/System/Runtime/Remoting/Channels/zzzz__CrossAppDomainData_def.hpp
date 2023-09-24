@@ -77,8 +77,7 @@ constexpr ::StringW __get__processGuid() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "domainId", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CrossAppDomainData(int32_t domainId) ;
+static System::Runtime::Remoting::Channels::CrossAppDomainData New_ctor(int32_t domainId) ;
 
 /// @brief Method .ctor addr 0x23368b4 size 0xa8 virtual false final false
  void _ctor(int32_t domainId) ;

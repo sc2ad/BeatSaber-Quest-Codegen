@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -65,8 +65,7 @@ constexpr Org::BouncyCastle::Crypto::IDigest __get_digest() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit OpenSslPbeParametersGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe76b80 size 0x68 virtual false final false
  void _ctor() ;

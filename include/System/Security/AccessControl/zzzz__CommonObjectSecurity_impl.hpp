@@ -37,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }]
- System::Security::AccessControl::CommonObjectSecurity::CommonObjectSecurity(bool isContainer)  : System::Security::AccessControl::ObjectSecurity(THROW_UNLESS(::il2cpp_utils::New<CommonObjectSecurity>(isContainer))) {}
+ System::Security::AccessControl::CommonObjectSecurity System::Security::AccessControl::CommonObjectSecurity::New_ctor(bool isContainer)  {
+System::Security::AccessControl::CommonObjectSecurity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::CommonObjectSecurity>(isContainer))};
+return o;
+}
  void System::Security::AccessControl::CommonObjectSecurity::_ctor(bool isContainer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::CommonObjectSecurity>::get(),

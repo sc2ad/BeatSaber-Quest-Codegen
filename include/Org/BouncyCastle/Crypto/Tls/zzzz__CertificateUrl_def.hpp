@@ -3,14 +3,17 @@
 #include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -61,8 +64,7 @@ constexpr explicit Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16(
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16() ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__CertificateUrl__ListBuffer16 New_ctor() ;
 
 /// @brief Method .ctor addr 0xed193c size 0x68 virtual false final false
  void _ctor() ;
@@ -140,8 +142,7 @@ constexpr System::Collections::IList __get_mUrlAndHashList() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "urlAndHashList", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit CertificateUrl(uint8_t type, System::Collections::IList urlAndHashList) ;
+static Org::BouncyCastle::Crypto::Tls::CertificateUrl New_ctor(uint8_t type, System::Collections::IList urlAndHashList) ;
 
 /// @brief Method .ctor addr 0xed141c size 0x16c virtual false final false
  void _ctor(uint8_t type, System::Collections::IList urlAndHashList) ;

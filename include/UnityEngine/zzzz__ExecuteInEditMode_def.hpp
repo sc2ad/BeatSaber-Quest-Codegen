@@ -47,8 +47,7 @@ constexpr explicit ExecuteInEditMode(void* ptr) noexcept : System::Attribute(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit ExecuteInEditMode() ;
+static UnityEngine::ExecuteInEditMode New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5b358 size 0x8 virtual false final false
  void _ctor() ;

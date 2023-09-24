@@ -122,8 +122,10 @@ constexpr void System::Text::DecoderReplacementFallbackBuffer::__set__fallbackIn
 constexpr int32_t System::Text::DecoderReplacementFallbackBuffer::__get__fallbackIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::DecoderReplacementFallback", modifiers: "", def_value: None }]
- System::Text::DecoderReplacementFallbackBuffer::DecoderReplacementFallbackBuffer(System::Text::DecoderReplacementFallback fallback)  : System::Text::DecoderFallbackBuffer(THROW_UNLESS(::il2cpp_utils::New<DecoderReplacementFallbackBuffer>(fallback))) {}
+ System::Text::DecoderReplacementFallbackBuffer System::Text::DecoderReplacementFallbackBuffer::New_ctor(System::Text::DecoderReplacementFallback fallback)  {
+System::Text::DecoderReplacementFallbackBuffer o{THROW_UNLESS(::il2cpp_utils::New<System::Text::DecoderReplacementFallbackBuffer>(fallback))};
+return o;
+}
  void System::Text::DecoderReplacementFallbackBuffer::_ctor(System::Text::DecoderReplacementFallback fallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::DecoderReplacementFallbackBuffer>::get(),

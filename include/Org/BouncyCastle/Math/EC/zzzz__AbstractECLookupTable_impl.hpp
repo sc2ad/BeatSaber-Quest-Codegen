@@ -101,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::EC::ECPoint, false>(const_cast<void*>(instance), ___internal_method, index);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::AbstractECLookupTable::AbstractECLookupTable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AbstractECLookupTable>())) {}
+ Org::BouncyCastle::Math::EC::AbstractECLookupTable Org::BouncyCastle::Math::EC::AbstractECLookupTable::New_ctor()  {
+Org::BouncyCastle::Math::EC::AbstractECLookupTable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::AbstractECLookupTable>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::AbstractECLookupTable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::AbstractECLookupTable>::get(),

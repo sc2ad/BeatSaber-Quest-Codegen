@@ -3,6 +3,7 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "ModestTree/zzzz__TypeStringFormatter_def.hpp"
 //  Writing Method size for method: ModestTree::ModestTree__TypeStringFormatter____c._ctor
 template<>
 
@@ -49,8 +50,10 @@ return ::cordl_internals::getStaticField<ModestTree::ModestTree__TypeStringForma
  System::Func_2<System::Type,::StringW> ModestTree::ModestTree__TypeStringFormatter____c::__get___9__2_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Type,::StringW>, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::ModestTree__TypeStringFormatter____c>::get>();
 }
-// Ctor Parameters []
- ModestTree::ModestTree__TypeStringFormatter____c::ModestTree__TypeStringFormatter____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ModestTree__TypeStringFormatter____c>())) {}
+ ModestTree::ModestTree__TypeStringFormatter____c ModestTree::ModestTree__TypeStringFormatter____c::New_ctor()  {
+ModestTree::ModestTree__TypeStringFormatter____c o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::ModestTree__TypeStringFormatter____c>())};
+return o;
+}
  void ModestTree::ModestTree__TypeStringFormatter____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::ModestTree__TypeStringFormatter____c>::get(),

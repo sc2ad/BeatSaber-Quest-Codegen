@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::PSSortingLayer::PSSortingLayer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PSSortingLayer>())) {}
+ GlobalNamespace::PSSortingLayer GlobalNamespace::PSSortingLayer::New_ctor()  {
+GlobalNamespace::PSSortingLayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PSSortingLayer>())};
+return o;
+}
  void GlobalNamespace::PSSortingLayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PSSortingLayer>::get(),

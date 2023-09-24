@@ -4,24 +4,21 @@
 namespace GlobalNamespace {
 class RGBPanelController;
 }
-namespace GlobalNamespace {
-class ColorSchemeColorsToggleGroup;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace GlobalNamespace {
+struct ColorChangeUIEventType;
+}
 namespace System {
 class Action;
 }
-namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class HSVPanelController;
+}
+namespace GlobalNamespace {
+class ColorScheme;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -30,10 +27,13 @@ namespace GlobalNamespace {
 class PreviousColorPanelController;
 }
 namespace GlobalNamespace {
-class ColorScheme;
+class ColorSchemeColorsToggleGroup;
 }
-namespace GlobalNamespace {
-struct ColorChangeUIEventType;
+namespace HMUI {
+class ButtonBinder;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -165,8 +165,7 @@ constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 /// @brief Method HandlePreviousColorPanelControllerColorWasSelected addr 0x212096c size 0xb4 virtual false final false
  void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit EditColorSchemeController() ;
+static GlobalNamespace::EditColorSchemeController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2120a20 size 0x8 virtual false final false
  void _ctor() ;

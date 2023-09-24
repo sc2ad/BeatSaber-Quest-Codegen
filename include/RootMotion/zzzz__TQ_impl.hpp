@@ -31,8 +31,10 @@ constexpr void RootMotion::TQ::__set_q(UnityEngine::Quaternion value)  {
 constexpr UnityEngine::Quaternion RootMotion::TQ::__get_q() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Quaternion, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "translation", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }]
- RootMotion::TQ::TQ(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TQ>(translation, rotation))) {}
+ RootMotion::TQ RootMotion::TQ::New_ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation)  {
+RootMotion::TQ o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::TQ>(translation, rotation))};
+return o;
+}
  void RootMotion::TQ::_ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::TQ>::get(),

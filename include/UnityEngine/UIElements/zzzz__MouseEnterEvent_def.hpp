@@ -8,7 +8,7 @@ class MouseEnterEvent;
 // Type: UnityEngine.UIElements::MouseEnterEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7314)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4506 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4506 }), TypeDefinitionIndex(TypeDefinitionIndex(7314))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7320))
 // CS Name: UnityEngine.UIElements.MouseEnterEvent
 class CORDL_TYPE MouseEnterEvent : public UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseEnterEvent> {
@@ -53,8 +53,7 @@ constexpr explicit MouseEnterEvent(void* ptr) noexcept : UnityEngine::UIElements
 /// @brief Method LocalInit addr 0x2cda288 size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit MouseEnterEvent() ;
+static UnityEngine::UIElements::MouseEnterEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cda294 size 0x54 virtual false final false
  void _ctor() ;

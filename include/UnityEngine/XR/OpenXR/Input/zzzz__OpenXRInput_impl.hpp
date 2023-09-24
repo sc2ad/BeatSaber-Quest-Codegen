@@ -2,21 +2,18 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__OpenXRInput_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
+#include "UnityEngine/XR/OpenXR/Input/zzzz__OpenXRInput_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
-#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
-#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
-#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 // Ctor Parameters [CppParam { name: "guid", ty: "System::Guid", modifiers: "", def_value: Some("{}") }, CppParam { name: "ulong1", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ulong2", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput__SerializedGuid::UnityEngine__XR__OpenXR__Input__OpenXRInput__SerializedGuid(System::Guid guid, uint64_t ulong1, uint64_t ulong2) noexcept : ::bs_hook::ValueTypeWrapper() {this->guid = guid;
@@ -283,8 +280,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::XR::OpenXR:
  System::Func_2<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding,System::Collections::Generic::IEnumerable_1<::StringW>> UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput____c::__get___9__9_3()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRInteractionFeature__ActionBinding,System::Collections::Generic::IEnumerable_1<::StringW>>, "<>9__9_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput____c::UnityEngine__XR__OpenXR__Input__OpenXRInput____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Input__OpenXRInput____c>())) {}
+ UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput____c UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput____c::New_ctor()  {
+UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput____c>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Input::UnityEngine__XR__OpenXR__Input__OpenXRInput____c>::get(),

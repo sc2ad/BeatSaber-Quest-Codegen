@@ -6,6 +6,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace LIV::SDK::Unity {
+struct SDKInputFrame;
+}
+namespace LIV::SDK::Unity {
+struct TEXTURE_DEVICE;
+}
+namespace UnityEngine {
+struct RenderTextureReadWrite;
+}
+namespace LIV::SDK::Unity {
+struct RENDERING_PIPELINE;
+}
 namespace LIV::SDK::Unity {
 struct FEATURES;
 }
@@ -15,38 +30,20 @@ class Material;
 namespace UnityEngine {
 class RenderTexture;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace LIV::SDK::Unity {
-struct RENDERING_PIPELINE;
+struct SDKPose;
 }
 namespace UnityEngine {
-struct RenderingPath;
-}
-namespace UnityEngine {
-class MonoBehaviour;
+class Camera;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct RenderTextureReadWrite;
-}
-namespace UnityEngine {
-struct RenderTextureFormat;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
 namespace LIV::SDK::Unity {
-struct SDKInputFrame;
-}
-namespace LIV::SDK::Unity {
-struct TEXTURE_COLOR_SPACE;
-}
-namespace LIV::SDK::Unity {
-struct SDKPose;
+class SDKRender;
 }
 namespace LIV::SDK::Unity {
 struct SDKTrackedSpace;
@@ -54,17 +51,20 @@ struct SDKTrackedSpace;
 namespace UnityEngine {
 class Mesh;
 }
-namespace LIV::SDK::Unity {
-class SDKRender;
-}
-namespace LIV::SDK::Unity {
-struct TEXTURE_DEVICE;
-}
 namespace UnityEngine {
-class Camera;
+struct RenderingPath;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace LIV::SDK::Unity {
+struct TEXTURE_COLOR_SPACE;
+}
+namespace UnityEngine {
+struct RenderTextureFormat;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

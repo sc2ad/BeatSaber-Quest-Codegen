@@ -3,26 +3,27 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRControllersRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__IConstructorStringGenerator_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/IO/zzzz__BinaryWriter_def.hpp"
 #include "System/IO/zzzz__BinaryReader_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "GlobalNamespace/zzzz__IConstructorStringGenerator_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
+#include "System/IO/zzzz__BinaryWriter_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__VRControllersRecorder_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
-#include "UnityEngine/zzzz__TextAsset_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/zzzz__TextAsset_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__VRControllersRecorder__TypeSerializationBinder.BindToType
 template<>
 
@@ -66,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Type, false>(const_cast<void*>(instance), ___internal_method, assemblyName, typeName);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__VRControllersRecorder__TypeSerializationBinder::GlobalNamespace__VRControllersRecorder__TypeSerializationBinder()  : System::Runtime::Serialization::SerializationBinder(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRControllersRecorder__TypeSerializationBinder>())) {}
+ GlobalNamespace::GlobalNamespace__VRControllersRecorder__TypeSerializationBinder GlobalNamespace::GlobalNamespace__VRControllersRecorder__TypeSerializationBinder::New_ctor()  {
+GlobalNamespace::GlobalNamespace__VRControllersRecorder__TypeSerializationBinder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRControllersRecorder__TypeSerializationBinder>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRControllersRecorder__TypeSerializationBinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__TypeSerializationBinder>::get(),
@@ -226,8 +229,10 @@ constexpr void GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedDat
 constexpr float_t GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable::__get__time() const {
 return ::cordl_internals::getInstanceField<float_t, 0x64>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable>())) {}
+ GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable::New_ctor()  {
+GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable>::get(),
@@ -260,8 +265,10 @@ constexpr void GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedDat
 constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable> GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData::__get__keyframes() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData::GlobalNamespace__VRControllersRecorder__SavedData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRControllersRecorder__SavedData>())) {}
+ GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData>::get(),
@@ -581,8 +588,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Pose, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "leftController", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "rightController", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "head", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe::GlobalNamespace__VRControllersRecorder__Keyframe(UnityEngine::Pose leftController, UnityEngine::Pose rightController, UnityEngine::Pose head, float_t time)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRControllersRecorder__Keyframe>(leftController, rightController, head, time))) {}
+ GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe::New_ctor(UnityEngine::Pose leftController, UnityEngine::Pose rightController, UnityEngine::Pose head, float_t time)  {
+GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>(leftController, rightController, head, time))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe::_ctor(UnityEngine::Pose leftController, UnityEngine::Pose rightController, UnityEngine::Pose head, float_t time)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>::get(),
@@ -592,8 +601,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, leftController, rightController, head, time);
 }
-// Ctor Parameters [CppParam { name: "pos1", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "pos2", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "pos3", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rot1", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "rot2", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "rot3", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe::GlobalNamespace__VRControllersRecorder__Keyframe(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, UnityEngine::Vector3 pos3, UnityEngine::Quaternion rot1, UnityEngine::Quaternion rot2, UnityEngine::Quaternion rot3, float_t time)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRControllersRecorder__Keyframe>(pos1, pos2, pos3, rot1, rot2, rot3, time))) {}
+ GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe::New_ctor(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, UnityEngine::Vector3 pos3, UnityEngine::Quaternion rot1, UnityEngine::Quaternion rot2, UnityEngine::Quaternion rot3, float_t time)  {
+GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>(pos1, pos2, pos3, rot1, rot2, rot3, time))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe::_ctor(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, UnityEngine::Vector3 pos3, UnityEngine::Quaternion rot1, UnityEngine::Quaternion rot2, UnityEngine::Quaternion rot3, float_t time)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>::get(),
@@ -721,8 +732,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__VRCon
  System::Action_2<System::IO::BinaryWriter,GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> GlobalNamespace::GlobalNamespace__VRControllersRecorder__State____c::__get___9__16_0()  {
 return ::cordl_internals::getStaticField<System::Action_2<System::IO::BinaryWriter,GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>, "<>9__16_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__VRControllersRecorder__State____c::GlobalNamespace__VRControllersRecorder__State____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRControllersRecorder__State____c>())) {}
+ GlobalNamespace::GlobalNamespace__VRControllersRecorder__State____c GlobalNamespace::GlobalNamespace__VRControllersRecorder__State____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__VRControllersRecorder__State____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRControllersRecorder__State____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State____c>::get(),
@@ -986,8 +999,10 @@ constexpr void GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::_
 constexpr uint32_t GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::__get__version() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "keyframes", ty: "System::Collections::Generic::IEnumerable_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>", modifiers: "", def_value: None }, CppParam { name: "leftControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "rightControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::GlobalNamespace__VRControllersRecorder__State(System::Collections::Generic::IEnumerable_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRControllersRecorder__State>(keyframes, leftControllerOffset, rightControllerOffset))) {}
+ GlobalNamespace::GlobalNamespace__VRControllersRecorder__State GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::New_ctor(System::Collections::Generic::IEnumerable_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset)  {
+GlobalNamespace::GlobalNamespace__VRControllersRecorder__State o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State>(keyframes, leftControllerOffset, rightControllerOffset))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::_ctor(System::Collections::Generic::IEnumerable_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State>::get(),
@@ -997,8 +1012,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyframes, leftControllerOffset, rightControllerOffset);
 }
-// Ctor Parameters [CppParam { name: "keyframes", ty: "System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>", modifiers: "", def_value: None }, CppParam { name: "leftControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "rightControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::GlobalNamespace__VRControllersRecorder__State(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRControllersRecorder__State>(keyframes, leftControllerOffset, rightControllerOffset))) {}
+ GlobalNamespace::GlobalNamespace__VRControllersRecorder__State GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::New_ctor(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset)  {
+GlobalNamespace::GlobalNamespace__VRControllersRecorder__State o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State>(keyframes, leftControllerOffset, rightControllerOffset))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::_ctor(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State>::get(),
@@ -1008,8 +1025,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyframes, leftControllerOffset, rightControllerOffset);
 }
-// Ctor Parameters [CppParam { name: "keyframes", ty: "System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>", modifiers: "", def_value: None }, CppParam { name: "leftControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "rightControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "version", ty: "uint32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::GlobalNamespace__VRControllersRecorder__State(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset, uint32_t version)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRControllersRecorder__State>(keyframes, leftControllerOffset, rightControllerOffset, version))) {}
+ GlobalNamespace::GlobalNamespace__VRControllersRecorder__State GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::New_ctor(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset, uint32_t version)  {
+GlobalNamespace::GlobalNamespace__VRControllersRecorder__State o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State>(keyframes, leftControllerOffset, rightControllerOffset, version))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::_ctor(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset, uint32_t version)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State>::get(),
@@ -1019,8 +1038,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyframes, leftControllerOffset, rightControllerOffset, version);
 }
-// Ctor Parameters [CppParam { name: "leftController", ty: "GlobalNamespace::VRController", modifiers: "", def_value: None }, CppParam { name: "rightController", ty: "GlobalNamespace::VRController", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::GlobalNamespace__VRControllersRecorder__State(GlobalNamespace::VRController leftController, GlobalNamespace::VRController rightController)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VRControllersRecorder__State>(leftController, rightController))) {}
+ GlobalNamespace::GlobalNamespace__VRControllersRecorder__State GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::New_ctor(GlobalNamespace::VRController leftController, GlobalNamespace::VRController rightController)  {
+GlobalNamespace::GlobalNamespace__VRControllersRecorder__State o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State>(leftController, rightController))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VRControllersRecorder__State::_ctor(GlobalNamespace::VRController leftController, GlobalNamespace::VRController rightController)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VRControllersRecorder__State>::get(),
@@ -2122,8 +2143,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::AnimationClip, false>(nullptr, ___internal_method, recordingfilePath);
 }
-// Ctor Parameters []
- GlobalNamespace::VRControllersRecorder::VRControllersRecorder()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VRControllersRecorder>())) {}
+ GlobalNamespace::VRControllersRecorder GlobalNamespace::VRControllersRecorder::New_ctor()  {
+GlobalNamespace::VRControllersRecorder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VRControllersRecorder>())};
+return o;
+}
  void GlobalNamespace::VRControllersRecorder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VRControllersRecorder>::get(),

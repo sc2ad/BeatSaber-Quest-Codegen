@@ -9,44 +9,56 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::XR::OpenXR::NativeTypes {
+struct XrViewConfigurationType;
+}
+namespace UnityEngine::XR::OpenXR::Features::Mock {
+class UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate;
+}
+namespace UnityEngine::XR::OpenXR::Features::Mock {
+struct UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEvent;
+}
+namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrResult;
 }
 namespace UnityEngine::XR::OpenXR::NativeTypes {
-struct XrViewConfigurationType;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
+struct XrReferenceSpaceType;
 }
 namespace UnityEngine {
 struct Vector4;
 }
+namespace UnityEngine::XR::OpenXR::NativeTypes {
+struct XrSessionState;
+}
+namespace UnityEngine::XR::OpenXR::NativeTypes {
+struct XrViewStateFlags;
+}
+namespace UnityEngine::XR::OpenXR::Features::Mock {
+class UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate;
+}
 namespace UnityEngine {
-struct Vector2;
+struct Quaternion;
+}
+namespace UnityEngine::XR::OpenXR::Features::Mock {
+class UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate;
 }
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrSpaceLocationFlags;
-}
-namespace UnityEngine::XR::OpenXR::NativeTypes {
-struct XrSessionState;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace UnityEngine::XR::OpenXR::NativeTypes {
-struct XrViewStateFlags;
+namespace UnityEngine {
+struct Vector3;
 }
-namespace UnityEngine::XR::OpenXR::NativeTypes {
-struct XrReferenceSpaceType;
-}
-namespace System {
-class IAsyncResult;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::Mock {
@@ -116,6 +128,8 @@ constexpr operator __UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__Scrip
 return std::bit_cast<__UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEvent_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -183,8 +197,7 @@ constexpr explicit UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptE
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__ScriptEventDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b06254 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -244,8 +257,7 @@ constexpr explicit UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeF
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__BeforeFunctionDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b05684 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -305,8 +317,7 @@ constexpr explicit UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFu
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::XR::OpenXR::Features::Mock::UnityEngine__XR__OpenXR__Features__Mock__MockRuntime__AfterFunctionDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b05758 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -502,8 +513,7 @@ static void MockRuntime_RegisterFunctionCallbacks(UnityEngine::XR::OpenXR::Featu
 /// @brief Method MetaPerformanceMetrics_SeedCounterOnce_Float addr 0x2b061a8 size 0xa4 virtual false final false
 static void MetaPerformanceMetrics_SeedCounterOnce_Float(::StringW xrPathString, float_t value, uint32_t unit) ;
 
-// Ctor Parameters []
-explicit MockRuntime() ;
+static UnityEngine::XR::OpenXR::Features::Mock::MockRuntime New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b0624c size 0x8 virtual false final false
  void _ctor() ;

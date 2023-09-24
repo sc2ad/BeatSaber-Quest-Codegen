@@ -278,8 +278,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, xrSession);
 }
-// Ctor Parameters []
- Meta::XR::MetaXRFeature::MetaXRFeature()  : UnityEngine::XR::OpenXR::Features::OpenXRFeature(THROW_UNLESS(::il2cpp_utils::New<MetaXRFeature>())) {}
+ Meta::XR::MetaXRFeature Meta::XR::MetaXRFeature::New_ctor()  {
+Meta::XR::MetaXRFeature o{THROW_UNLESS(::il2cpp_utils::New<Meta::XR::MetaXRFeature>())};
+return o;
+}
  void Meta::XR::MetaXRFeature::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Meta::XR::MetaXRFeature>::get(),

@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__TransformUtility_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::TransformUtility.UnparentChildren
 template<>

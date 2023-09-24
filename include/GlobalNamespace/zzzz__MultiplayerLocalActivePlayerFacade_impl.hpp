@@ -2,19 +2,20 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_2_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerFacade_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksUpdater_def.hpp"
-#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsListener_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerIntroAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerFacade_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksUpdater_def.hpp"
+#include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerIntroAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsListener_def.hpp"
-#include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__IStartSeekSongControllerProvider_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLocalActivePlayerFacade.get_introAnimator
 template<>
 
@@ -494,8 +495,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<UnityEngine::GameObject>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalActivePlayerFacade::MultiplayerLocalActivePlayerFacade()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalActivePlayerFacade>())) {}
+ GlobalNamespace::MultiplayerLocalActivePlayerFacade GlobalNamespace::MultiplayerLocalActivePlayerFacade::New_ctor()  {
+GlobalNamespace::MultiplayerLocalActivePlayerFacade o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalActivePlayerFacade>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalActivePlayerFacade::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalActivePlayerFacade>::get(),
@@ -522,8 +525,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory::GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory()  : Zenject::PlaceholderFactory_2<GlobalNamespace::MultiplayerPlayerStartState,GlobalNamespace::MultiplayerLocalActivePlayerFacade>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLocalActivePlayerFacade__Factory>::get(),

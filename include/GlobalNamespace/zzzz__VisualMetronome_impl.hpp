@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VisualMetronome_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
 //  Writing Method size for method: GlobalNamespace::VisualMetronome.set_tickerColor
 template<>
 
@@ -353,8 +353,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-// Ctor Parameters []
- GlobalNamespace::VisualMetronome::VisualMetronome()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VisualMetronome>())) {}
+ GlobalNamespace::VisualMetronome GlobalNamespace::VisualMetronome::New_ctor()  {
+GlobalNamespace::VisualMetronome o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VisualMetronome>())};
+return o;
+}
  void GlobalNamespace::VisualMetronome::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VisualMetronome>::get(),

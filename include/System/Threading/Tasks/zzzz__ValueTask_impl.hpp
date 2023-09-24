@@ -3,11 +3,12 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c._ctor
 template<>
 
@@ -48,8 +49,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
  GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c::__get___9()  {
 return ::cordl_internals::getStaticField<GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c>())) {}
+ GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c::New_ctor()  {
+GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c>())};
+return o;
+}
  void GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask____c>::get(),
@@ -103,8 +106,10 @@ constexpr void System::Threading::Tasks::System__Threading__Tasks__ValueTask__Va
 constexpr int16_t System::Threading::Tasks::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask::__get__token() const {
 return ::cordl_internals::getInstanceField<int16_t, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "System::Threading::Tasks::Sources::IValueTaskSource", modifiers: "", def_value: None }, CppParam { name: "token", ty: "int16_t", modifiers: "", def_value: None }]
- System::Threading::Tasks::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask(System::Threading::Tasks::Sources::IValueTaskSource source, int16_t token)  : System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult>(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask>(source, token))) {}
+ System::Threading::Tasks::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask System::Threading::Tasks::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask::New_ctor(System::Threading::Tasks::Sources::IValueTaskSource source, int16_t token)  {
+System::Threading::Tasks::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask>(source, token))};
+return o;
+}
  void System::Threading::Tasks::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask::_ctor(System::Threading::Tasks::Sources::IValueTaskSource source, int16_t token)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__ValueTask__ValueTaskSourceAsTask>::get(),

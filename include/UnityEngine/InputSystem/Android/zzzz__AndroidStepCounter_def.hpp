@@ -47,8 +47,7 @@ constexpr explicit AndroidStepCounter(void* ptr) noexcept : UnityEngine::InputSy
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidStepCounter() ;
+static UnityEngine::InputSystem::Android::AndroidStepCounter New_ctor() ;
 
 /// @brief Method .ctor addr 0x29530b0 size 0x8 virtual false final false
  void _ctor() ;

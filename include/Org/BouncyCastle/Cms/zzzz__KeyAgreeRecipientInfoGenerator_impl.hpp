@@ -1,16 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__KeyAgreeRecipientInfoGenerator_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorPublicKey_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedHelper_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorPublicKey_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientInfo_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedHelper_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator._ctor
 template<>
 
@@ -164,8 +164,10 @@ constexpr void Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator::__set_sen
 constexpr Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator::__get_senderKeyPair() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator::KeyAgreeRecipientInfoGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyAgreeRecipientInfoGenerator>())) {}
+ Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator>::get(),

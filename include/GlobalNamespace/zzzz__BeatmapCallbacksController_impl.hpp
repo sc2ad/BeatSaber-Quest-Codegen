@@ -1,17 +1,18 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallback_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallback_1_def.hpp"
 #include "GlobalNamespace/zzzz__CallbacksInTime_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData._ctor
 template<>
 
@@ -47,8 +48,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__Ini
 constexpr bool GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData::__get_shouldKeepReplayState() const {
 return ::cordl_internals::getInstanceField<bool, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapData", ty: "GlobalNamespace::IReadonlyBeatmapData", modifiers: "", def_value: None }, CppParam { name: "startFilterTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shouldKeepReplayState", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData::GlobalNamespace__BeatmapCallbacksController__InitData(GlobalNamespace::IReadonlyBeatmapData beatmapData, float_t startFilterTime, bool shouldKeepReplayState)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapCallbacksController__InitData>(beatmapData, startFilterTime, shouldKeepReplayState))) {}
+ GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData::New_ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, float_t startFilterTime, bool shouldKeepReplayState)  {
+GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData>(beatmapData, startFilterTime, shouldKeepReplayState))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData::_ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, float_t startFilterTime, bool shouldKeepReplayState)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData>::get(),
@@ -183,8 +186,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, callbacksInTimes);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehavior>::get(),
@@ -273,8 +278,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, callbacksInTimes);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__CallCallbacksBehaviorWithLastState>::get(),
@@ -625,8 +632,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapCallbacksController::BeatmapCallbacksController(GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData initData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapCallbacksController>(initData))) {}
+ GlobalNamespace::BeatmapCallbacksController GlobalNamespace::BeatmapCallbacksController::New_ctor(GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData initData)  {
+GlobalNamespace::BeatmapCallbacksController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapCallbacksController>(initData))};
+return o;
+}
  void GlobalNamespace::BeatmapCallbacksController::_ctor(GlobalNamespace::GlobalNamespace__BeatmapCallbacksController__InitData initData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapCallbacksController>::get(),

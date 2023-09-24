@@ -5,23 +5,23 @@
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PopoSigningKey;
+}
+namespace Org::BouncyCastle::Crmf {
+class PKMacBuilder;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertRequest;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PKMacValue;
-}
-namespace Org::BouncyCastle::Crmf {
-class PKMacBuilder;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PopoSigningKey;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PKMacValue;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -96,14 +96,12 @@ constexpr Org::BouncyCastle::Asn1::Crmf::PKMacValue __get__publicKeyMAC() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certRequest", ty: "Org::BouncyCastle::Asn1::Crmf::CertRequest", modifiers: "", def_value: None }]
-explicit ProofOfPossessionSigningKeyBuilder(Org::BouncyCastle::Asn1::Crmf::CertRequest certRequest) ;
+static Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder New_ctor(Org::BouncyCastle::Asn1::Crmf::CertRequest certRequest) ;
 
 /// @brief Method .ctor addr 0x11854c0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::CertRequest certRequest) ;
 
-// Ctor Parameters [CppParam { name: "pubKeyInfo", ty: "Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo", modifiers: "", def_value: None }]
-explicit ProofOfPossessionSigningKeyBuilder(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo pubKeyInfo) ;
+static Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder New_ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo pubKeyInfo) ;
 
 /// @brief Method .ctor addr 0x11849f8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo pubKeyInfo) ;

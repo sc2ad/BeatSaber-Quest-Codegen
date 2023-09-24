@@ -8,42 +8,48 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-struct DateTime;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
-class Array;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
-class RuntimeType;
+struct System__Enum__EnumResult;
 }
 namespace System {
 class IFormattable;
 }
 namespace System {
+class IComparable;
+}
+namespace System {
 class Type;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
-class IFormatProvider;
 }
 namespace System {
 struct TypeCode;
 }
 namespace System {
-class Exception;
+class System__Enum__ValuesAndNames;
 }
-// Forward declare root types
+namespace System {
+class RuntimeType;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class Array;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+class IConvertible;
+}
 namespace System {
 struct System__Enum__ParseFailureKind;
 }
+namespace System {
+class Exception;
+}
+// Forward declare root types
 namespace System {
 class Enum;
 }
@@ -53,124 +59,6 @@ class System__Enum__ValuesAndNames;
 namespace System {
 struct System__Enum__EnumResult;
 }
-// Type: System::Enum
-namespace System {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2558))
-// CS Name: System.Enum
-class CORDL_TYPE Enum : public ::bs_hook::EnumTypeWrapper {
-public:
-// Declarations
-using ValuesAndNames = System::System__Enum__ValuesAndNames;
-
-using EnumResult = System::System__Enum__EnumResult;
-
-using ParseFailureKind = System::System__Enum__ParseFailureKind;
-
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-
-// Fields
-
-static ::ArrayW<char16_t> __declspec(property(get=__get_enumSeperatorCharArray, put=__set_enumSeperatorCharArray))  enumSeperatorCharArray;
-
-/// @brief Field enumSeperator offset 0
-static constexpr ::ConstString  enumSeperator{u", "};
-
-
-// Methods
-
-// Ctor Parameters []
-constexpr explicit Enum()  : ::bs_hook::EnumTypeWrapper() {
-}
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System
-// Type: ::ParseFailureKind
-namespace System {
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2555))
-// CS Name: System.Enum::ParseFailureKind
-struct CORDL_TYPE System__Enum__ParseFailureKind : public ::bs_hook::EnumTypeWrapper {
-public:
-// Declarations
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr System__Enum__ParseFailureKind(int32_t value__) noexcept;
-
-
-                    constexpr System__Enum__ParseFailureKind(System__Enum__ParseFailureKind const&) = default;
-                    constexpr System__Enum__ParseFailureKind(System__Enum__ParseFailureKind&&) = default;
-                    constexpr System__Enum__ParseFailureKind& operator=(System__Enum__ParseFailureKind const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr System__Enum__ParseFailureKind& operator=(System__Enum__ParseFailureKind&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit System__Enum__ParseFailureKind(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-enum class __System__Enum__ParseFailureKind_Unwrapped : int32_t {
-__None = 0,
-__Argument = 1,
-__ArgumentNull = 2,
-__ArgumentWithParameter = 3,
-__UnhandledException = 4,
-};
-
-/// @brief Conversion into unwrapped enum value
-constexpr operator __System__Enum__ParseFailureKind_Unwrapped () const noexcept {
-return std::bit_cast<__System__Enum__ParseFailureKind_Unwrapped>(__instance);
-}
-
-
-// Fields
-
- int32_t __declspec(property(get=__get_value__, put=__set_value__))  value__;
-
-constexpr void __set_value__(int32_t value) ;
-
-constexpr int32_t __get_value__() const;
-
-/// @brief Field None offset 0
-static System::System__Enum__ParseFailureKind const None;
-
-/// @brief Field Argument offset 0
-static System::System__Enum__ParseFailureKind const Argument;
-
-/// @brief Field ArgumentNull offset 0
-static System::System__Enum__ParseFailureKind const ArgumentNull;
-
-/// @brief Field ArgumentWithParameter offset 0
-static System::System__Enum__ParseFailureKind const ArgumentWithParameter;
-
-/// @brief Field UnhandledException offset 0
-static System::System__Enum__ParseFailureKind const UnhandledException;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def System
 // Type: ::EnumResult
 namespace System {
 // Is value type: true
@@ -335,8 +223,7 @@ constexpr ::ArrayW<::StringW> __get_Names() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "values", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "names", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit System__Enum__ValuesAndNames(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names) ;
+static System::System__Enum__ValuesAndNames New_ctor(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names) ;
 
 /// @brief Method .ctor addr 0x2473ac0 size 0x2c virtual false final false
  void _ctor(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names) ;
@@ -345,7 +232,39 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-DEFINE_IL2CPP_ARG_TYPE(System::System__Enum__ParseFailureKind, "System", "Enum/ParseFailureKind");
+// Type: System::Enum
+namespace System {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2558))
+// CS Name: System.Enum
+class CORDL_TYPE Enum : public ::bs_hook::EnumTypeWrapper {
+public:
+// Declarations
+using ValuesAndNames = System::System__Enum__ValuesAndNames;
+
+using EnumResult = System::System__Enum__EnumResult;
+
+using ParseFailureKind = System::System__Enum__ParseFailureKind;
+
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+
+// Fields
+
+static ::ArrayW<char16_t> __declspec(property(get=__get_enumSeperatorCharArray, put=__set_enumSeperatorCharArray))  enumSeperatorCharArray;
+
+/// @brief Field enumSeperator offset 0
+static constexpr ::ConstString  enumSeperator{u", "};
+
+
+// Methods
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System
 NEED_NO_BOX(System::Enum);
 DEFINE_IL2CPP_ARG_TYPE(System::Enum, "System", "Enum");
 NEED_NO_BOX(System::System__Enum__ValuesAndNames);

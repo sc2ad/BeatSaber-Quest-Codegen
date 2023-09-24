@@ -67,8 +67,10 @@ constexpr void Oculus::Platform::Models::ApplicationInvite::__set_Recipient(Ocul
 constexpr Oculus::Platform::Models::User Oculus::Platform::Models::ApplicationInvite::__get_Recipient() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Models::User, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::ApplicationInvite::ApplicationInvite(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ApplicationInvite>(o))) {}
+ Oculus::Platform::Models::ApplicationInvite Oculus::Platform::Models::ApplicationInvite::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::ApplicationInvite o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::ApplicationInvite>(o))};
+return o;
+}
  void Oculus::Platform::Models::ApplicationInvite::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::ApplicationInvite>::get(),

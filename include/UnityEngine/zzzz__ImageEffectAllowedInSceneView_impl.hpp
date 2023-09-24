@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ImageEffectAllowedInSceneView::ImageEffectAllowedInSceneView()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ImageEffectAllowedInSceneView>())) {}
+ UnityEngine::ImageEffectAllowedInSceneView UnityEngine::ImageEffectAllowedInSceneView::New_ctor()  {
+UnityEngine::ImageEffectAllowedInSceneView o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ImageEffectAllowedInSceneView>())};
+return o;
+}
  void UnityEngine::ImageEffectAllowedInSceneView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ImageEffectAllowedInSceneView>::get(),

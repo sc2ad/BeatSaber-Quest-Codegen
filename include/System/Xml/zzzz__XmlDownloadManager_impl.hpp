@@ -3,16 +3,17 @@
 #include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
+#include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
 #include "System/Net/zzzz__IWebProxy_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 //  Writing Method size for method: System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_0._ctor
 template<>
 
@@ -53,8 +54,10 @@ constexpr void System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_
 constexpr System::Uri System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_0::__get_uri() const {
 return ::cordl_internals::getInstanceField<System::Uri, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_0::System__Xml__XmlDownloadManager____c__DisplayClass4_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__XmlDownloadManager____c__DisplayClass4_0>())) {}
+ System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_0 System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_0::New_ctor()  {
+System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_0 o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_0>())};
+return o;
+}
  void System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_0>::get(),
@@ -347,8 +350,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<System::IO::Stream>, false>(const_cast<void*>(instance), ___internal_method, uri, credentials, proxy, cachePolicy);
 }
-// Ctor Parameters []
- System::Xml::XmlDownloadManager::XmlDownloadManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlDownloadManager>())) {}
+ System::Xml::XmlDownloadManager System::Xml::XmlDownloadManager::New_ctor()  {
+System::Xml::XmlDownloadManager o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlDownloadManager>())};
+return o;
+}
  void System::Xml::XmlDownloadManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlDownloadManager>::get(),

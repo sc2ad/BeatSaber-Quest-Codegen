@@ -1,12 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-namespace GlobalNamespace {
-class AchievementSO;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+class AchievementSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::AchievementSO> _
 /// @brief Method get_achievementsIds addr 0x20c5934 size 0x8 virtual false final false
  System::Collections::Generic::List_1<GlobalNamespace::AchievementSO> get_achievementsIds() ;
 
-// Ctor Parameters []
-explicit AchievementIdsModelSO() ;
+static GlobalNamespace::AchievementIdsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c593c size 0x7c virtual false final false
  void _ctor() ;

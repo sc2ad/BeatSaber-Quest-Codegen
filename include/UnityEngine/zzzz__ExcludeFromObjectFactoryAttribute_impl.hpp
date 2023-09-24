@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ExcludeFromObjectFactoryAttribute::ExcludeFromObjectFactoryAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ExcludeFromObjectFactoryAttribute>())) {}
+ UnityEngine::ExcludeFromObjectFactoryAttribute UnityEngine::ExcludeFromObjectFactoryAttribute::New_ctor()  {
+UnityEngine::ExcludeFromObjectFactoryAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ExcludeFromObjectFactoryAttribute>())};
+return o;
+}
  void UnityEngine::ExcludeFromObjectFactoryAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ExcludeFromObjectFactoryAttribute>::get(),

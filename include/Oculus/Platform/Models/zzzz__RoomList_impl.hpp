@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::RoomList::RoomList(::cordl_internals::intptr_t a)  : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Room>(THROW_UNLESS(::il2cpp_utils::New<RoomList>(a))) {}
+ Oculus::Platform::Models::RoomList Oculus::Platform::Models::RoomList::New_ctor(::cordl_internals::intptr_t a)  {
+Oculus::Platform::Models::RoomList o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::RoomList>(a))};
+return o;
+}
  void Oculus::Platform::Models::RoomList::_ctor(::cordl_internals::intptr_t a)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::RoomList>::get(),

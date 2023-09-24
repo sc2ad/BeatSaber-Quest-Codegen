@@ -3,10 +3,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace OVR::OpenVR {
-struct EVRTrackedCameraFrameType;
+struct TrackedDevicePose_t;
 }
 namespace OVR::OpenVR {
-struct TrackedDevicePose_t;
+struct EVRTrackedCameraFrameType;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

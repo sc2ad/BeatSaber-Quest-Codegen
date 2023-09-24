@@ -1,20 +1,19 @@
 #pragma once
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerStatisticsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
-#include "GlobalNamespace/zzzz__HealthWarningDisplayViewController_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
-#include "GlobalNamespace/zzzz__HelpMenuViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PrivacyPolicyDisplayViewController_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__EulaDisplayViewController_def.hpp"
 #include "GlobalNamespace/zzzz__HelpNavigationController_def.hpp"
+#include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__EulaDisplayViewController_def.hpp"
+#include "GlobalNamespace/zzzz__HelpMenuViewController_def.hpp"
+#include "GlobalNamespace/zzzz__HealthWarningDisplayViewController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerStatisticsViewController_def.hpp"
+#include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
+#include "GlobalNamespace/zzzz__PrivacyPolicyDisplayViewController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::HelpFlowCoordinator.add_didFinishEvent
 template<>
 
@@ -306,8 +305,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, topViewController);
 }
-// Ctor Parameters []
- GlobalNamespace::HelpFlowCoordinator::HelpFlowCoordinator()  : HMUI::FlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<HelpFlowCoordinator>())) {}
+ GlobalNamespace::HelpFlowCoordinator GlobalNamespace::HelpFlowCoordinator::New_ctor()  {
+GlobalNamespace::HelpFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HelpFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::HelpFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HelpFlowCoordinator>::get(),

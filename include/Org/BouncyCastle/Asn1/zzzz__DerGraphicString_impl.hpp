@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGraphicString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerGraphicString.GetInstance
 template<>
 
@@ -164,8 +164,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerGraphicString, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerGraphicString::DerGraphicString(::ArrayW<uint8_t> encoding)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerGraphicString>(encoding))) {}
+ Org::BouncyCastle::Asn1::DerGraphicString Org::BouncyCastle::Asn1::DerGraphicString::New_ctor(::ArrayW<uint8_t> encoding)  {
+Org::BouncyCastle::Asn1::DerGraphicString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerGraphicString>(encoding))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerGraphicString::_ctor(::ArrayW<uint8_t> encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerGraphicString>::get(),

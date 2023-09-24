@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_TOPNetworkData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_TOPNodeData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__TOPNodeTags_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_TOPNetworkData._ctor
 template<>
 
@@ -62,8 +62,10 @@ constexpr void HoudiniEngineUnity::HEU_TOPNetworkData::__set__tags(HoudiniEngine
 constexpr HoudiniEngineUnity::TOPNodeTags HoudiniEngineUnity::HEU_TOPNetworkData::__get__tags() const {
 return ::cordl_internals::getInstanceField<HoudiniEngineUnity::TOPNodeTags, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_TOPNetworkData::HEU_TOPNetworkData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_TOPNetworkData>())) {}
+ HoudiniEngineUnity::HEU_TOPNetworkData HoudiniEngineUnity::HEU_TOPNetworkData::New_ctor()  {
+HoudiniEngineUnity::HEU_TOPNetworkData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_TOPNetworkData>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_TOPNetworkData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_TOPNetworkData>::get(),

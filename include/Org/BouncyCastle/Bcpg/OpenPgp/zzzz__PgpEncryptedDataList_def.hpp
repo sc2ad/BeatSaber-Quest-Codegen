@@ -3,20 +3,20 @@
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpEncryptedData;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace System::Collections {
 class IList;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Bcpg {
 class InputStreamPacket;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpEncryptedData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -90,8 +90,7 @@ constexpr Org::BouncyCastle::Bcpg::InputStreamPacket __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PgpEncryptedDataList(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method .ctor addr 0x1020cb8 size 0x55c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;

@@ -3,10 +3,10 @@
 #include "System/zzzz__ApplicationException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -54,20 +54,17 @@ constexpr explicit WaitHandleCannotBeOpenedException(void* ptr) noexcept : Syste
 
 // Methods
 
-// Ctor Parameters []
-explicit WaitHandleCannotBeOpenedException() ;
+static System::Threading::WaitHandleCannotBeOpenedException New_ctor() ;
 
 /// @brief Method .ctor addr 0x24a2ea4 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit WaitHandleCannotBeOpenedException(::StringW message) ;
+static System::Threading::WaitHandleCannotBeOpenedException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x24a2f00 size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit WaitHandleCannotBeOpenedException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Threading::WaitHandleCannotBeOpenedException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24a2f24 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

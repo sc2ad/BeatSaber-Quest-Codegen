@@ -4,20 +4,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3;
+}
+namespace GlobalNamespace {
 class FadeInOutController;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class GameScenesManager;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +108,7 @@ constexpr GlobalNamespace::FadeInOnSceneTransitionFinished __get___4__this() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2676204 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -195,8 +197,7 @@ constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 /// @brief Method FadeInAfterSceneTransitionCoroutine addr 0x267619c size 0x68 virtual false final false
  System::Collections::IEnumerator FadeInAfterSceneTransitionCoroutine() ;
 
-// Ctor Parameters []
-explicit FadeInOnSceneTransitionFinished() ;
+static GlobalNamespace::FadeInOnSceneTransitionFinished New_ctor() ;
 
 /// @brief Method .ctor addr 0x267622c size 0x8 virtual false final false
  void _ctor() ;

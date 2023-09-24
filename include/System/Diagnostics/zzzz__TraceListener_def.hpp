@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Diagnostics {
-struct TraceEventType;
-}
-namespace System::Diagnostics {
-class TraceEventCache;
-}
-namespace System {
-class IDisposable;
+class TraceFilter;
 }
 namespace System::Diagnostics {
 struct TraceOptions;
 }
 namespace System::Diagnostics {
-class TraceFilter;
+class TraceEventCache;
+}
+namespace System::Diagnostics {
+struct TraceEventType;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -121,8 +121,7 @@ constexpr System::Diagnostics::TraceFilter __get_filter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TraceListener(::StringW name) ;
+static System::Diagnostics::TraceListener New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x27db288 size 0x38 virtual false final false
  void _ctor(::StringW name) ;

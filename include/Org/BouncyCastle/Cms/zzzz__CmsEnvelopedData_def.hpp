@@ -8,19 +8,19 @@ namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
-namespace System::IO {
-class Stream;
+class AttributeTable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -104,20 +104,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_unprotectedAttributes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "envelopedData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsEnvelopedData(::ArrayW<uint8_t> envelopedData) ;
+static Org::BouncyCastle::Cms::CmsEnvelopedData New_ctor(::ArrayW<uint8_t> envelopedData) ;
 
 /// @brief Method .ctor addr 0x1153580 size 0x24 virtual false final false
  void _ctor(::ArrayW<uint8_t> envelopedData) ;
 
-// Ctor Parameters [CppParam { name: "envelopedData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsEnvelopedData(System::IO::Stream envelopedData) ;
+static Org::BouncyCastle::Cms::CmsEnvelopedData New_ctor(System::IO::Stream envelopedData) ;
 
 /// @brief Method .ctor addr 0x11536e8 size 0x24 virtual false final false
  void _ctor(System::IO::Stream envelopedData) ;
 
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit CmsEnvelopedData(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
+static Org::BouncyCastle::Cms::CmsEnvelopedData New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
 
 /// @brief Method .ctor addr 0x11535a4 size 0x144 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;

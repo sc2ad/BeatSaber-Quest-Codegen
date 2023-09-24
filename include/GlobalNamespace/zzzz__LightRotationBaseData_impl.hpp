@@ -55,8 +55,10 @@ constexpr void GlobalNamespace::LightRotationBaseData::__set_rotationDirection(G
 constexpr GlobalNamespace::LightRotationDirection GlobalNamespace::LightRotationBaseData::__get_rotationDirection() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::LightRotationDirection, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventRotationValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "loopsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rotationDirection", ty: "GlobalNamespace::LightRotationDirection", modifiers: "", def_value: None }]
- GlobalNamespace::LightRotationBaseData::LightRotationBaseData(float_t beat, bool usePreviousEventRotationValue, GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount, GlobalNamespace::LightRotationDirection rotationDirection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LightRotationBaseData>(beat, usePreviousEventRotationValue, easeType, rotation, loopsCount, rotationDirection))) {}
+ GlobalNamespace::LightRotationBaseData GlobalNamespace::LightRotationBaseData::New_ctor(float_t beat, bool usePreviousEventRotationValue, GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount, GlobalNamespace::LightRotationDirection rotationDirection)  {
+GlobalNamespace::LightRotationBaseData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightRotationBaseData>(beat, usePreviousEventRotationValue, easeType, rotation, loopsCount, rotationDirection))};
+return o;
+}
  void GlobalNamespace::LightRotationBaseData::_ctor(float_t beat, bool usePreviousEventRotationValue, GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount, GlobalNamespace::LightRotationDirection rotationDirection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightRotationBaseData>::get(),

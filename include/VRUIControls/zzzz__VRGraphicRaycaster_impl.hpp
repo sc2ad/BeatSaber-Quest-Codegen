@@ -2,19 +2,20 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "VRUIControls/zzzz__VRGraphicRaycaster_def.hpp"
-#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
 #include "VRUIControls/zzzz__PhysicsRaycasterWithCache_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "UnityEngine/zzzz__Ray_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "VRUIControls/zzzz__VRGraphicRaycaster_def.hpp"
+#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: VRUIControls::VRUIControls__VRGraphicRaycaster__VRGraphicRaycastResult._ctor
 template<>
 
@@ -117,8 +118,10 @@ return ::cordl_internals::getStaticField<VRUIControls::VRUIControls__VRGraphicRa
  System::Comparison_1<VRUIControls::VRUIControls__VRGraphicRaycaster__VRGraphicRaycastResult> VRUIControls::VRUIControls__VRGraphicRaycaster____c::__get___9__12_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<VRUIControls::VRUIControls__VRGraphicRaycaster__VRGraphicRaycastResult>, "<>9__12_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<VRUIControls::VRUIControls__VRGraphicRaycaster____c>::get>();
 }
-// Ctor Parameters []
- VRUIControls::VRUIControls__VRGraphicRaycaster____c::VRUIControls__VRGraphicRaycaster____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VRUIControls__VRGraphicRaycaster____c>())) {}
+ VRUIControls::VRUIControls__VRGraphicRaycaster____c VRUIControls::VRUIControls__VRGraphicRaycaster____c::New_ctor()  {
+VRUIControls::VRUIControls__VRGraphicRaycaster____c o{THROW_UNLESS(::il2cpp_utils::New<VRUIControls::VRUIControls__VRGraphicRaycaster____c>())};
+return o;
+}
  void VRUIControls::VRUIControls__VRGraphicRaycaster____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<VRUIControls::VRUIControls__VRGraphicRaycaster____c>::get(),
@@ -294,8 +297,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, canvas, ray, hitDistance, curvedUIRadius, results);
 }
-// Ctor Parameters []
- VRUIControls::VRGraphicRaycaster::VRGraphicRaycaster()  : UnityEngine::EventSystems::BaseRaycaster(THROW_UNLESS(::il2cpp_utils::New<VRGraphicRaycaster>())) {}
+ VRUIControls::VRGraphicRaycaster VRUIControls::VRGraphicRaycaster::New_ctor()  {
+VRUIControls::VRGraphicRaycaster o{THROW_UNLESS(::il2cpp_utils::New<VRUIControls::VRGraphicRaycaster>())};
+return o;
+}
  void VRUIControls::VRGraphicRaycaster::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<VRUIControls::VRGraphicRaycaster>::get(),

@@ -142,8 +142,7 @@ static void SubtractExt(::ArrayW<uint32_t> xx, ::ArrayW<uint32_t> yy, ::ArrayW<u
 /// @brief Method Twice addr 0xf5823c size 0xcc virtual false final false
 static void Twice(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> z) ;
 
-// Ctor Parameters []
-explicit SecP192K1Field() ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecP192K1Field New_ctor() ;
 
 /// @brief Method .ctor addr 0xf5841c size 0x8 virtual false final false
  void _ctor() ;

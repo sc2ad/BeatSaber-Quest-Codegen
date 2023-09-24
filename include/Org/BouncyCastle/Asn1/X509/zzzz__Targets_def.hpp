@@ -3,14 +3,14 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class Target;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -70,14 +70,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_targets() const;
 /// @brief Method GetInstance addr 0x110dfa4 size 0x18c virtual false final false
 static Org::BouncyCastle::Asn1::X509::Targets GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "targets", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Targets(Org::BouncyCastle::Asn1::Asn1Sequence targets) ;
+static Org::BouncyCastle::Asn1::X509::Targets New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence targets) ;
 
 /// @brief Method .ctor addr 0x110e2a0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence targets) ;
 
-// Ctor Parameters [CppParam { name: "targets", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::Target>", modifiers: "", def_value: None }]
-explicit Targets(::ArrayW<Org::BouncyCastle::Asn1::X509::Target> targets) ;
+static Org::BouncyCastle::Asn1::X509::Targets New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::Target> targets) ;
 
 /// @brief Method .ctor addr 0x110e21c size 0x7c virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::Target> targets) ;

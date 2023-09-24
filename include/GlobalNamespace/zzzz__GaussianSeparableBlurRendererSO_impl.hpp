@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GaussianSeparableBlurRendererSO::GaussianSeparableBlurRendererSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<GaussianSeparableBlurRendererSO>())) {}
+ GlobalNamespace::GaussianSeparableBlurRendererSO GlobalNamespace::GaussianSeparableBlurRendererSO::New_ctor()  {
+GlobalNamespace::GaussianSeparableBlurRendererSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GaussianSeparableBlurRendererSO>())};
+return o;
+}
  void GlobalNamespace::GaussianSeparableBlurRendererSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GaussianSeparableBlurRendererSO>::get(),

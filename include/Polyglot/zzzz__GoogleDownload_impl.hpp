@@ -1,12 +1,13 @@
 #pragma once
 #include "Polyglot/zzzz__GoogleDownload_def.hpp"
 #include "Polyglot/zzzz__GoogleDriveDownloadFormat_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "Polyglot/zzzz__GoogleDownload_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 //  Writing Method size for method: Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0._ctor
 template<>
 
@@ -175,8 +176,10 @@ constexpr void Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0::__set__w
 constexpr UnityEngine::Networking::UnityWebRequest Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0::__get__www_5__3() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Networking::UnityWebRequest, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0::Polyglot__GoogleDownload___DownloadSheet_d__0(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Polyglot__GoogleDownload___DownloadSheet_d__0>(__1__state))) {}
+ Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0 Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0::New_ctor(int32_t __1__state)  {
+Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0 o{THROW_UNLESS(::il2cpp_utils::New<Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0>(__1__state))};
+return o;
+}
  void Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0>::get(),

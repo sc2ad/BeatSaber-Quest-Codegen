@@ -2,8 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class ConnectedPlayerManager;
+}
+namespace GlobalNamespace {
 template<typename T>
 class INetworkPlayerModelPartyConfig_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
@@ -12,18 +19,11 @@ namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-class ConnectedPlayerManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

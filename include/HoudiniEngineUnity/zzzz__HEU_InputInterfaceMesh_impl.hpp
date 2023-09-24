@@ -2,15 +2,16 @@
 #include "HoudiniEngineUnity/zzzz__HEU_InputData_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputInterface_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputInterfaceMesh_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_InputData_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_InputInterfaceMesh_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_InputData_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes._ctor
 template<>
 
@@ -40,8 +41,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__H
 constexpr bool HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes::__get__hasLOD() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes()  : HoudiniEngineUnity::HEU_InputData(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMeshes>::get(),
@@ -128,8 +131,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__H
 constexpr UnityEngine::Transform HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh::__get__transform() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Transform, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceMesh__HEU_InputDataMesh>::get(),
@@ -275,8 +280,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputInterfaceMesh()  : HoudiniEngineUnity::HEU_InputInterface(THROW_UNLESS(::il2cpp_utils::New<HEU_InputInterfaceMesh>())) {}
+ HoudiniEngineUnity::HEU_InputInterfaceMesh HoudiniEngineUnity::HEU_InputInterfaceMesh::New_ctor()  {
+HoudiniEngineUnity::HEU_InputInterfaceMesh o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InputInterfaceMesh>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InputInterfaceMesh::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InputInterfaceMesh>::get(),

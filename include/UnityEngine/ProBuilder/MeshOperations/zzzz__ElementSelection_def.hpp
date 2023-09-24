@@ -5,19 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::ProBuilder {
-struct Edge;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__ElementSelection____c;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+struct EdgeLookup;
 }
 namespace UnityEngine::ProBuilder {
 template<typename T1,typename T2>
@@ -28,24 +33,24 @@ template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
+class WingedEdge;
 }
-namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
+class HashSet_1;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine::ProBuilder {
-class WingedEdge;
-}
-namespace System {
+namespace System::Collections::Generic {
 template<typename T>
-class Comparison_1;
+class IList_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -54,6 +59,10 @@ struct KeyValuePair_2;
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System {
+template<typename T>
+class Comparison_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -203,8 +212,7 @@ static System::Comparison_1<UnityEngine::ProBuilder::SimpleTuple_2<int32_t,int32
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__ElementSelection____c() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a1a18c size 0x8 virtual false final false
  void _ctor() ;
@@ -306,8 +314,7 @@ constexpr UnityEngine::ProBuilder::Face __get_face() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass25_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a1a3f4 size 0x8 virtual false final false
  void _ctor() ;
@@ -382,8 +389,7 @@ constexpr System::Func_2<UnityEngine::ProBuilder::WingedEdge,bool> __get___9__2(
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__ElementSelection____c__DisplayClass27_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a1a420 size 0x8 virtual false final false
  void _ctor() ;

@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRResetOrientation::OVRResetOrientation()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRResetOrientation>())) {}
+ GlobalNamespace::OVRResetOrientation GlobalNamespace::OVRResetOrientation::New_ctor()  {
+GlobalNamespace::OVRResetOrientation o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRResetOrientation>())};
+return o;
+}
  void GlobalNamespace::OVRResetOrientation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRResetOrientation>::get(),

@@ -2,29 +2,29 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 namespace GlobalNamespace {
+class ResultsTableView;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class LevelBar;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class MultiplayerResultsData;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsData;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class ResultsTableView;
+class LevelBar;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -156,8 +156,7 @@ constexpr System::Action_1<GlobalNamespace::MultiplayerResultsViewController> __
 /// @brief Method BackToMenuPressed addr 0x21790fc size 0x20 virtual false final false
  void BackToMenuPressed() ;
 
-// Ctor Parameters []
-explicit MultiplayerResultsViewController() ;
+static GlobalNamespace::MultiplayerResultsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217911c size 0x8 virtual false final false
  void _ctor() ;

@@ -66,8 +66,7 @@ constexpr HoudiniEngineUnity::HAPI_TransformEuler __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "HoudiniEngineUnity::HAPI_TransformEuler", modifiers: "", def_value: None }]
-explicit Test_HAPI_TransformEuler(HoudiniEngineUnity::HAPI_TransformEuler self) ;
+static HoudiniEngineUnity::Test_HAPI_TransformEuler New_ctor(HoudiniEngineUnity::HAPI_TransformEuler self) ;
 
 /// @brief Method .ctor addr 0x2070e50 size 0x34 virtual false final false
  void _ctor(HoudiniEngineUnity::HAPI_TransformEuler self) ;

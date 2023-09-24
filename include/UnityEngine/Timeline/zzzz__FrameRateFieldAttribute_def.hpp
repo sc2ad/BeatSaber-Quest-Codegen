@@ -47,8 +47,7 @@ constexpr explicit FrameRateFieldAttribute(void* ptr) noexcept : UnityEngine::Pr
 
 // Methods
 
-// Ctor Parameters []
-explicit FrameRateFieldAttribute() ;
+static UnityEngine::Timeline::FrameRateFieldAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad5e14 size 0x8 virtual false final false
  void _ctor() ;

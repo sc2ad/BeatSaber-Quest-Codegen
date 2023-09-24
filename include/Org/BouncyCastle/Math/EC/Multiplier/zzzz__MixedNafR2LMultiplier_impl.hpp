@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__MixedNafR2LMultiplier_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier._ctor
 template<>
 
@@ -84,8 +84,10 @@ constexpr void Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::_
 constexpr int32_t Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::__get_doublingCoord() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::MixedNafR2LMultiplier()  : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(THROW_UNLESS(::il2cpp_utils::New<MixedNafR2LMultiplier>())) {}
+ Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::New_ctor()  {
+Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier>::get(),
@@ -95,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "additionCoord", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "doublingCoord", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::MixedNafR2LMultiplier(int32_t additionCoord, int32_t doublingCoord)  : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(THROW_UNLESS(::il2cpp_utils::New<MixedNafR2LMultiplier>(additionCoord, doublingCoord))) {}
+ Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::New_ctor(int32_t additionCoord, int32_t doublingCoord)  {
+Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier>(additionCoord, doublingCoord))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::_ctor(int32_t additionCoord, int32_t doublingCoord)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier>::get(),

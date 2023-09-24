@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__DfaContentValidator_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::DfaContentValidator._ctor
 template<>
 
@@ -32,8 +32,10 @@ constexpr void System::Xml::Schema::DfaContentValidator::__set_symbols(System::X
 constexpr System::Xml::Schema::SymbolsDictionary System::Xml::Schema::DfaContentValidator::__get_symbols() const {
 return ::cordl_internals::getInstanceField<System::Xml::Schema::SymbolsDictionary, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "transitionTable", ty: "::ArrayW<::ArrayW<int32_t>>", modifiers: "", def_value: None }, CppParam { name: "symbols", ty: "System::Xml::Schema::SymbolsDictionary", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }, CppParam { name: "isOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isEmptiable", ty: "bool", modifiers: "", def_value: None }]
- System::Xml::Schema::DfaContentValidator::DfaContentValidator(::ArrayW<::ArrayW<int32_t>> transitionTable, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)  : System::Xml::Schema::ContentValidator(THROW_UNLESS(::il2cpp_utils::New<DfaContentValidator>(transitionTable, symbols, contentType, isOpen, isEmptiable))) {}
+ System::Xml::Schema::DfaContentValidator System::Xml::Schema::DfaContentValidator::New_ctor(::ArrayW<::ArrayW<int32_t>> transitionTable, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)  {
+System::Xml::Schema::DfaContentValidator o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::DfaContentValidator>(transitionTable, symbols, contentType, isOpen, isEmptiable))};
+return o;
+}
  void System::Xml::Schema::DfaContentValidator::_ctor(::ArrayW<::ArrayW<int32_t>> transitionTable, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::DfaContentValidator>::get(),

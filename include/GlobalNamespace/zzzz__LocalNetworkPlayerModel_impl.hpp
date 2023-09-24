@@ -3,25 +3,26 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__LocalNetworkPlayerModel_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__LiteNetLibConnectionManager_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "GlobalNamespace/zzzz__LocalNetworkDiscoveryManager_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
-#include "GlobalNamespace/zzzz__BasicConnectionRequestHandler_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "GlobalNamespace/zzzz__BasicConnectionRequestHandler_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "GlobalNamespace/zzzz__LocalNetworkDiscoveryManager_def.hpp"
+#include "GlobalNamespace/zzzz__LiteNetLibConnectionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer.get_userId
 template<>
 
@@ -1139,8 +1140,12 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "playerModel", ty: "GlobalNamespace::LocalNetworkPlayerModel", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ipAddress", ty: "System::Net::IPAddress", modifiers: "", def_value: Some("csnull") }, CppParam { name: "isMe", ty: "bool", modifiers: "", def_value: Some("false") }]
- GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer::GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer(GlobalNamespace::LocalNetworkPlayerModel playerModel, ::StringW userId, ::StringW userName, System::Net::IPAddress ipAddress, bool isMe)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer>(playerModel, userId, userName, ipAddress, isMe))) {}
+/// @param ipAddress: System::Net::IPAddress (default: csnull)
+/// @param isMe: bool (default: false)
+ GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer::New_ctor(GlobalNamespace::LocalNetworkPlayerModel playerModel, ::StringW userId, ::StringW userName, System::Net::IPAddress ipAddress, bool isMe)  {
+GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer>(playerModel, userId, userName, ipAddress, isMe))};
+return o;
+}
 /// @param ipAddress: System::Net::IPAddress (default: csnull)
 /// @param isMe: bool (default: false)
  void GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__LocalNetworkPlayer::_ctor(GlobalNamespace::LocalNetworkPlayerModel playerModel, ::StringW userId, ::StringW userName, System::Net::IPAddress ipAddress, bool isMe)  {
@@ -1425,8 +1430,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 constexpr  GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig::operator GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::LocalNetworkPlayerModel>() const noexcept {
 return GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::LocalNetworkPlayerModel>(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig::GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig()  : GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig>())) {}
+ GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalNetworkPlayerModel__CreatePartyConfig>::get(),
@@ -2786,8 +2793,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayerModel()  : GlobalNamespace::BaseNetworkPlayerModel(THROW_UNLESS(::il2cpp_utils::New<LocalNetworkPlayerModel>())) {}
+ GlobalNamespace::LocalNetworkPlayerModel GlobalNamespace::LocalNetworkPlayerModel::New_ctor()  {
+GlobalNamespace::LocalNetworkPlayerModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LocalNetworkPlayerModel>())};
+return o;
+}
  void GlobalNamespace::LocalNetworkPlayerModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LocalNetworkPlayerModel>::get(),

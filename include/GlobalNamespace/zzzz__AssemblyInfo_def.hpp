@@ -65,8 +65,7 @@ static ::StringW __declspec(property(get=get_Version))  Version;
 /// @brief Method get_Version addr 0x10fd2e8 size 0x12c virtual false final false
 static ::StringW get_Version() ;
 
-// Ctor Parameters []
-explicit AssemblyInfo() ;
+static GlobalNamespace::AssemblyInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x10fd45c size 0x8 virtual false final false
  void _ctor() ;

@@ -264,8 +264,10 @@ constexpr void Org::BouncyCastle::Utilities::IO::FilterStream::__set_s(System::I
 constexpr System::IO::Stream Org::BouncyCastle::Utilities::IO::FilterStream::__get_s() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "s", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::IO::FilterStream::FilterStream(System::IO::Stream s)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FilterStream>(s))) {}
+ Org::BouncyCastle::Utilities::IO::FilterStream Org::BouncyCastle::Utilities::IO::FilterStream::New_ctor(System::IO::Stream s)  {
+Org::BouncyCastle::Utilities::IO::FilterStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::FilterStream>(s))};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::FilterStream::_ctor(System::IO::Stream s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::FilterStream>::get(),

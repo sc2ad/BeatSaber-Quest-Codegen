@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpKeyPair_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPublicKey_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPrivateKey_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPrivateKey_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPublicKey_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair._ctor
 template<>
@@ -120,8 +120,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::__set_priv(Org::Bou
 constexpr Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::__get_priv() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::PgpKeyPair(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair keyPair, System::DateTime time)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpKeyPair>(algorithm, keyPair, time))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair keyPair, System::DateTime time)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair>(algorithm, keyPair, time))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair keyPair, System::DateTime time)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair>::get(),
@@ -131,8 +133,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithm, keyPair, time);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "privKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::PgpKeyPair(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpKeyPair>(algorithm, pubKey, privKey, time))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair>(algorithm, pubKey, privKey, time))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, System::DateTime time)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair>::get(),
@@ -142,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithm, pubKey, privKey, time);
 }
-// Ctor Parameters [CppParam { name: "pub", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey", modifiers: "", def_value: None }, CppParam { name: "priv", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::PgpKeyPair(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pub, Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey priv)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpKeyPair>(pub, priv))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pub, Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey priv)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair>(pub, priv))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey pub, Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey priv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair>::get(),

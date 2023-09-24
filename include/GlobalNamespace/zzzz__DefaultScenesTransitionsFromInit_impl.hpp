@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
-#include "GlobalNamespace/zzzz__HealthWarningScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MenuScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__ShaderWarmupScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEditorScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEditorScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ShaderWarmupScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__HealthWarningScenesTransitionSetupDataSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DefaultScenesTransitionsFromInit.get_mainMenuScenesTransitionSetupData
 template<>
 
@@ -112,8 +112,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, goStraightToMenu, goStraightToEditor, goToRecordingToolScene);
 }
-// Ctor Parameters []
- GlobalNamespace::DefaultScenesTransitionsFromInit::DefaultScenesTransitionsFromInit()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DefaultScenesTransitionsFromInit>())) {}
+ GlobalNamespace::DefaultScenesTransitionsFromInit GlobalNamespace::DefaultScenesTransitionsFromInit::New_ctor()  {
+GlobalNamespace::DefaultScenesTransitionsFromInit o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DefaultScenesTransitionsFromInit>())};
+return o;
+}
  void GlobalNamespace::DefaultScenesTransitionsFromInit::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DefaultScenesTransitionsFromInit>::get(),

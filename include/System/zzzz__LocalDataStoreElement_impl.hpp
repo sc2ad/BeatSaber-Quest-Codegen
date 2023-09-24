@@ -80,8 +80,10 @@ constexpr void System::LocalDataStoreElement::__set_m_cookie(int64_t value)  {
 constexpr int64_t System::LocalDataStoreElement::__get_m_cookie() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cookie", ty: "int64_t", modifiers: "", def_value: None }]
- System::LocalDataStoreElement::LocalDataStoreElement(int64_t cookie)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LocalDataStoreElement>(cookie))) {}
+ System::LocalDataStoreElement System::LocalDataStoreElement::New_ctor(int64_t cookie)  {
+System::LocalDataStoreElement o{THROW_UNLESS(::il2cpp_utils::New<System::LocalDataStoreElement>(cookie))};
+return o;
+}
  void System::LocalDataStoreElement::_ctor(int64_t cookie)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::LocalDataStoreElement>::get(),

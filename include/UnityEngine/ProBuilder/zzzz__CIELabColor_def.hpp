@@ -76,8 +76,7 @@ constexpr float_t __get_b() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "L", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "float_t", modifiers: "", def_value: None }]
-explicit CIELabColor(float_t L, float_t a, float_t b) ;
+static UnityEngine::ProBuilder::CIELabColor New_ctor(float_t L, float_t a, float_t b) ;
 
 /// @brief Method .ctor addr 0x29aa0d0 size 0x3c virtual false final false
  void _ctor(float_t L, float_t a, float_t b) ;

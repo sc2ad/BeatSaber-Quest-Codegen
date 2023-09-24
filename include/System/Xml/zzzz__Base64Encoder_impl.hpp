@@ -86,8 +86,10 @@ constexpr void System::Xml::Base64Encoder::__set_charsLine(::ArrayW<char16_t> va
 constexpr ::ArrayW<char16_t> System::Xml::Base64Encoder::__get_charsLine() const {
 return ::cordl_internals::getInstanceField<::ArrayW<char16_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Base64Encoder::Base64Encoder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Base64Encoder>())) {}
+ System::Xml::Base64Encoder System::Xml::Base64Encoder::New_ctor()  {
+System::Xml::Base64Encoder o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Base64Encoder>())};
+return o;
+}
  void System::Xml::Base64Encoder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Base64Encoder>::get(),

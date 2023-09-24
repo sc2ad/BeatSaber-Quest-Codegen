@@ -6,10 +6,10 @@ namespace RootMotion::FinalIK {
 class LookAtIK;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -200,8 +200,7 @@ constexpr bool __get_lastSmoothTowardsTarget() const;
 /// @brief Method RootRotation addr 0x120a680 size 0x24c virtual false final false
  void RootRotation() ;
 
-// Ctor Parameters []
-explicit LookAtController() ;
+static RootMotion::FinalIK::LookAtController New_ctor() ;
 
 /// @brief Method .ctor addr 0x120a8cc size 0x98 virtual false final false
  void _ctor() ;

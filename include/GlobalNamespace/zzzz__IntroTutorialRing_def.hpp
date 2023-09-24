@@ -3,24 +3,24 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
+namespace UnityEngine {
+class Collider;
+}
 namespace GlobalNamespace {
 struct SaberType;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
-namespace UnityEngine::UI {
-class Image;
-}
 namespace UnityEngine {
 class ParticleSystem;
 }
-namespace UnityEngine {
-class Collider;
-}
-namespace GlobalNamespace {
-class ColorManager;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine {
 class CanvasGroup;
@@ -188,8 +188,7 @@ constexpr bool __get__sabersInsideAfterOnEnable() const;
 /// @brief Method OnTriggerStay addr 0x2111b38 size 0x108 virtual false final false
  void OnTriggerStay(UnityEngine::Collider other) ;
 
-// Ctor Parameters []
-explicit IntroTutorialRing() ;
+static GlobalNamespace::IntroTutorialRing New_ctor() ;
 
 /// @brief Method .ctor addr 0x2111c40 size 0x88 virtual false final false
  void _ctor() ;

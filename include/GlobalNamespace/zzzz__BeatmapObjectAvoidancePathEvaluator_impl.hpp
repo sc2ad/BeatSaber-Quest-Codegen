@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidancePathEvaluator_def.hpp"
+#include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapObjectAvoidancePathEvaluator._ctor
 template<>
 
@@ -92,8 +92,10 @@ constexpr void GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::__set__play
 constexpr GlobalNamespace::PlayerTransforms GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::__get__playerTransforms() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::PlayerTransforms, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "playerTransforms", ty: "GlobalNamespace::PlayerTransforms", modifiers: "", def_value: None }, CppParam { name: "pathBezierCurveEvaluator", ty: "GlobalNamespace::BezierSplineEvaluator", modifiers: "", def_value: None }, CppParam { name: "jumpStartZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "jumpEndZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "zOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpSeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "moveToPlayerHeadTParam", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::BeatmapObjectAvoidancePathEvaluator(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::PlayerTransforms playerTransforms, GlobalNamespace::BezierSplineEvaluator pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapObjectAvoidancePathEvaluator>(audioTimeSource, playerTransforms, pathBezierCurveEvaluator, jumpStartZ, jumpEndZ, yOffset, zOffset, noteJumpSeed, moveToPlayerHeadTParam))) {}
+ GlobalNamespace::BeatmapObjectAvoidancePathEvaluator GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::New_ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::PlayerTransforms playerTransforms, GlobalNamespace::BezierSplineEvaluator pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam)  {
+GlobalNamespace::BeatmapObjectAvoidancePathEvaluator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapObjectAvoidancePathEvaluator>(audioTimeSource, playerTransforms, pathBezierCurveEvaluator, jumpStartZ, jumpEndZ, yOffset, zOffset, noteJumpSeed, moveToPlayerHeadTParam))};
+return o;
+}
  void GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::_ctor(GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::PlayerTransforms playerTransforms, GlobalNamespace::BezierSplineEvaluator pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapObjectAvoidancePathEvaluator>::get(),

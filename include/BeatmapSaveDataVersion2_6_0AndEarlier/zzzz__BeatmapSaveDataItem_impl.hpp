@@ -74,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::BeatmapSaveDataItem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataItem>())) {}
+ BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::New_ctor()  {
+BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem o{THROW_UNLESS(::il2cpp_utils::New<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem>())};
+return o;
+}
  void BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem>::get(),

@@ -5,9 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class DropdownMenuEventInfo;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
@@ -15,6 +12,12 @@ class Func_2;
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine::UIElements {
+class DropdownMenuEventInfo;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__DropdownMenuAction__Status;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -75,6 +78,8 @@ __Hidden = 8,
 constexpr operator __UnityEngine__UIElements__DropdownMenuAction__Status_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__DropdownMenuAction__Status_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -205,8 +210,7 @@ constexpr System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine
 /// @brief Method set_userData addr 0x2c8fc98 size 0x8 virtual false final false
  void set_userData(::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters [CppParam { name: "actionName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "actionCallback", ty: "System::Action_1<UnityEngine::UIElements::DropdownMenuAction>", modifiers: "", def_value: None }, CppParam { name: "actionStatusCallback", ty: "System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status>", modifiers: "", def_value: None }, CppParam { name: "userData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit DropdownMenuAction(::StringW actionName, System::Action_1<UnityEngine::UIElements::DropdownMenuAction> actionCallback, System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> actionStatusCallback, ::bs_hook::Il2CppWrapperType userData) ;
+static UnityEngine::UIElements::DropdownMenuAction New_ctor(::StringW actionName, System::Action_1<UnityEngine::UIElements::DropdownMenuAction> actionCallback, System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> actionStatusCallback, ::bs_hook::Il2CppWrapperType userData) ;
 
 /// @brief Method .ctor addr 0x2c8fca0 size 0x44 virtual false final false
  void _ctor(::StringW actionName, System::Action_1<UnityEngine::UIElements::DropdownMenuAction> actionCallback, System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> actionStatusCallback, ::bs_hook::Il2CppWrapperType userData) ;

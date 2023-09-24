@@ -2,15 +2,16 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "UnityEngine/UI/zzzz__GraphicRaycaster_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "UnityEngine/UI/zzzz__GraphicRaycaster_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UI::UnityEngine__UI__GraphicRaycaster__BlockingObjects::UnityEngine__UI__GraphicRaycaster__BlockingObjects(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -71,8 +72,10 @@ return ::cordl_internals::getStaticField<UnityEngine::UI::UnityEngine__UI__Graph
  System::Comparison_1<UnityEngine::UI::Graphic> UnityEngine::UI::UnityEngine__UI__GraphicRaycaster____c::__get___9__27_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::UI::Graphic>, "<>9__27_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__GraphicRaycaster____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__GraphicRaycaster____c::UnityEngine__UI__GraphicRaycaster____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__GraphicRaycaster____c>())) {}
+ UnityEngine::UI::UnityEngine__UI__GraphicRaycaster____c UnityEngine::UI::UnityEngine__UI__GraphicRaycaster____c::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__GraphicRaycaster____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__GraphicRaycaster____c>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__GraphicRaycaster____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__GraphicRaycaster____c>::get(),
@@ -420,8 +423,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UI::GraphicRaycaster::GraphicRaycaster()  : UnityEngine::EventSystems::BaseRaycaster(THROW_UNLESS(::il2cpp_utils::New<GraphicRaycaster>())) {}
+ UnityEngine::UI::GraphicRaycaster UnityEngine::UI::GraphicRaycaster::New_ctor()  {
+UnityEngine::UI::GraphicRaycaster o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::GraphicRaycaster>())};
+return o;
+}
  void UnityEngine::UI::GraphicRaycaster::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::GraphicRaycaster>::get(),

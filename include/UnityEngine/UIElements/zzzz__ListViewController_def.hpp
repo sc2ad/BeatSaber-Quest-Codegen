@@ -3,6 +3,9 @@
 #include "UnityEngine/UIElements/zzzz__CollectionViewController_def.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
+class ListView;
+}
+namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
 }
 namespace System::Collections::Generic {
@@ -10,21 +13,18 @@ template<typename T>
 class IEnumerable_1;
 }
 namespace System {
-template<typename T>
-class Action_1;
+class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::UIElements {
-class ListView;
-}
 namespace System {
 class Array;
 }
 namespace System {
-class Action;
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -161,8 +161,7 @@ static System::Array RemoveFromArray(System::Array source, System::Collections::
 /// @brief Method EnsureItemSourceCanBeResized addr 0x2d0ffac size 0x118 virtual false final false
  void EnsureItemSourceCanBeResized() ;
 
-// Ctor Parameters []
-explicit ListViewController() ;
+static UnityEngine::UIElements::ListViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d10a90 size 0x8 virtual false final false
  void _ctor() ;

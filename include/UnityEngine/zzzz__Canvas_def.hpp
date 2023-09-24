@@ -7,13 +7,20 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class UnityEngine__Canvas__WillRenderCanvases;
+}
+namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-struct Vector2;
+struct AdditionalCanvasShaderChannels;
 }
-namespace UnityEngine {
-class Camera;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -26,11 +33,7 @@ namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-struct AdditionalCanvasShaderChannels;
-}
-namespace System {
-template<typename T>
-class Action_1;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -81,8 +84,7 @@ constexpr explicit UnityEngine__Canvas__WillRenderCanvases(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Canvas__WillRenderCanvases(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__Canvas__WillRenderCanvases New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2d33074 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -339,8 +341,7 @@ static void RenderExtraOverlaysBefore(int32_t displayIndex, int32_t sortingOrder
 /// @brief Method EndRenderExtraOverlays addr 0x2d33000 size 0x6c virtual false final false
 static void EndRenderExtraOverlays(int32_t displayIndex) ;
 
-// Ctor Parameters []
-explicit Canvas() ;
+static UnityEngine::Canvas New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3306c size 0x8 virtual false final false
  void _ctor() ;

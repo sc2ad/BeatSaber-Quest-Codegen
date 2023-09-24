@@ -6,31 +6,40 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace System::Runtime::InteropServices {
-class ICustomMarshaler;
-}
-namespace System::Security {
-class SecureString;
-}
-namespace System {
-class Type;
-}
-namespace System {
-template<typename T1,typename T2>
-struct ValueTuple_2;
+class System__Runtime__InteropServices__Marshal____c;
 }
 namespace System {
 class Array;
 }
 namespace System {
+class Delegate;
+}
+namespace System {
 class Exception;
 }
 namespace System {
-class Delegate;
+class Type;
+}
+namespace System::Security {
+class SecureString;
+}
+namespace System::Runtime::InteropServices {
+class System__Runtime__InteropServices__Marshal__SecureStringAllocator;
+}
+namespace System::Runtime::InteropServices {
+class ICustomMarshaler;
+}
+namespace System::Runtime::InteropServices {
+class System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System {
+template<typename T1,typename T2>
+struct ValueTuple_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -95,8 +104,7 @@ constexpr explicit System__Runtime__InteropServices__Marshal__SecureStringAlloca
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Runtime__InteropServices__Marshal__SecureStringAllocator(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__SecureStringAllocator New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x236cad4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -159,8 +167,7 @@ constexpr explicit System__Runtime__InteropServices__Marshal__MarshalerInstanceK
 /// @brief Method GetHashCode addr 0x236d5fc size 0x54 virtual true final true
  int32_t GetHashCode(System::ValueTuple_2<System::Type,::StringW> key) ;
 
-// Ctor Parameters []
-explicit System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer() ;
+static System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal__MarshalerInstanceKeyComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x236d650 size 0x8 virtual false final false
  void _ctor() ;
@@ -226,8 +233,7 @@ static System::Func_1<System::Collections::Generic::Dictionary_2<System::ValueTu
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__InteropServices__Marshal____c() ;
+static System::Runtime::InteropServices::System__Runtime__InteropServices__Marshal____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x236d6bc size 0x8 virtual false final false
  void _ctor() ;

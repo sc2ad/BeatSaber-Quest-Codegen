@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
 //  Writing Method size for method: System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c._ctor
 template<>
 
@@ -45,8 +46,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
  System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c::__get___9()  {
 return ::cordl_internals::getStaticField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c>::get>();
 }
-// Ctor Parameters []
- System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c::System__Runtime__CompilerServices__ValueTaskAwaiter____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__CompilerServices__ValueTaskAwaiter____c>())) {}
+ System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c::New_ctor()  {
+System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c>())};
+return o;
+}
  void System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ValueTaskAwaiter____c>::get(),

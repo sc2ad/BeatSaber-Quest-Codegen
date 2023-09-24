@@ -62,8 +62,7 @@ constexpr GlobalNamespace::MissionGameplaySceneSetupData __get__sceneSetupData()
 /// @brief Method InstallBindings addr 0x211a128 size 0x490 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MissionGameplayInstaller() ;
+static GlobalNamespace::MissionGameplayInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211a5b8 size 0x8 virtual false final false
  void _ctor() ;

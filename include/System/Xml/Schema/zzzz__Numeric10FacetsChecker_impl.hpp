@@ -2,10 +2,10 @@
 #include "System/Xml/Schema/zzzz__FacetsChecker_impl.hpp"
 #include "System/Xml/Schema/zzzz__Numeric10FacetsChecker_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::Numeric10FacetsChecker._ctor
 template<>
 
@@ -177,8 +177,10 @@ constexpr void System::Xml::Schema::Numeric10FacetsChecker::__set_minValue(Syste
 constexpr System::Decimal System::Xml::Schema::Numeric10FacetsChecker::__get_minValue() const {
 return ::cordl_internals::getInstanceField<System::Decimal, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "minVal", ty: "System::Decimal", modifiers: "", def_value: None }, CppParam { name: "maxVal", ty: "System::Decimal", modifiers: "", def_value: None }]
- System::Xml::Schema::Numeric10FacetsChecker::Numeric10FacetsChecker(System::Decimal minVal, System::Decimal maxVal)  : System::Xml::Schema::FacetsChecker(THROW_UNLESS(::il2cpp_utils::New<Numeric10FacetsChecker>(minVal, maxVal))) {}
+ System::Xml::Schema::Numeric10FacetsChecker System::Xml::Schema::Numeric10FacetsChecker::New_ctor(System::Decimal minVal, System::Decimal maxVal)  {
+System::Xml::Schema::Numeric10FacetsChecker o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Numeric10FacetsChecker>(minVal, maxVal))};
+return o;
+}
  void System::Xml::Schema::Numeric10FacetsChecker::_ctor(System::Decimal minVal, System::Decimal maxVal)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Numeric10FacetsChecker>::get(),

@@ -6,16 +6,19 @@
 namespace UnityEngine {
 struct KeyCode;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,8 +90,7 @@ constexpr UnityEngine::KeyCode __get_combinationKey2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mainKey", ty: "UnityEngine::KeyCode", modifiers: "", def_value: None }, CppParam { name: "combinationKey1", ty: "UnityEngine::KeyCode", modifiers: "", def_value: None }, CppParam { name: "combinationKey2", ty: "UnityEngine::KeyCode", modifiers: "", def_value: None }]
-explicit GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2) ;
+static GlobalNamespace::GlobalNamespace__KeyboardShortcutsManager__KeyboardShortcut New_ctor(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2) ;
 
 /// @brief Method .ctor addr 0x1f72ae0 size 0x3c virtual false final false
  void _ctor(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2) ;
@@ -195,8 +197,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalName
 /// @brief Method AddKeyboardShortcut addr 0x1f72c8c size 0x10 virtual false final false
  void AddKeyboardShortcut(UnityEngine::KeyCode mainKey, System::Action callback) ;
 
-// Ctor Parameters []
-explicit KeyboardShortcutsManager() ;
+static GlobalNamespace::KeyboardShortcutsManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f72fe4 size 0x7c virtual false final false
  void _ctor() ;

@@ -62,8 +62,7 @@ constexpr GlobalNamespace::BTSStarTextEffectController __get__btsStarTextEffectC
 /// @brief Method InstallBindings addr 0x20ab41c size 0x84 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit BTSStarTextEventInstaller() ;
+static GlobalNamespace::BTSStarTextEventInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ab4a0 size 0x8 virtual false final false
  void _ctor() ;

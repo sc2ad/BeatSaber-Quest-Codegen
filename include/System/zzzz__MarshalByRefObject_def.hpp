@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Runtime::Remoting {
-class ServerIdentity;
-}
-namespace System::Runtime::Remoting {
 class ObjRef;
 }
 namespace System {
 class Type;
+}
+namespace System::Runtime::Remoting {
+class ServerIdentity;
 }
 // Forward declare root types
 namespace System {
@@ -70,8 +70,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__identity() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MarshalByRefObject() ;
+static System::MarshalByRefObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x2485910 size 0x4 virtual false final false
  void _ctor() ;

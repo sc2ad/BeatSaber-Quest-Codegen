@@ -104,8 +104,10 @@ constexpr void UnityEngine::ProBuilder::HSVColor::__set_v(float_t value)  {
 constexpr float_t UnityEngine::ProBuilder::HSVColor::__get_v() const {
 return ::cordl_internals::getInstanceField<float_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "h", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "v", ty: "float_t", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::HSVColor::HSVColor(float_t h, float_t s, float_t v)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HSVColor>(h, s, v))) {}
+ UnityEngine::ProBuilder::HSVColor UnityEngine::ProBuilder::HSVColor::New_ctor(float_t h, float_t s, float_t v)  {
+UnityEngine::ProBuilder::HSVColor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::HSVColor>(h, s, v))};
+return o;
+}
  void UnityEngine::ProBuilder::HSVColor::_ctor(float_t h, float_t s, float_t v)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::HSVColor>::get(),
@@ -115,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, h, s, v);
 }
-// Ctor Parameters [CppParam { name: "h", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "v", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "sv_modifier", ty: "float_t", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::HSVColor::HSVColor(float_t h, float_t s, float_t v, float_t sv_modifier)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HSVColor>(h, s, v, sv_modifier))) {}
+ UnityEngine::ProBuilder::HSVColor UnityEngine::ProBuilder::HSVColor::New_ctor(float_t h, float_t s, float_t v, float_t sv_modifier)  {
+UnityEngine::ProBuilder::HSVColor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::HSVColor>(h, s, v, sv_modifier))};
+return o;
+}
  void UnityEngine::ProBuilder::HSVColor::_ctor(float_t h, float_t s, float_t v, float_t sv_modifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::HSVColor>::get(),

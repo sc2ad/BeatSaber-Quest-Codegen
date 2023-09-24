@@ -103,8 +103,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::MissionObjective
 /// @brief Method CreateUIElements addr 0x2275f88 size 0x3a0 virtual false final false
  void CreateUIElements() ;
 
-// Ctor Parameters []
-explicit MissionObjectivesGameUIController() ;
+static GlobalNamespace::MissionObjectivesGameUIController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2276400 size 0x10 virtual false final false
  void _ctor() ;

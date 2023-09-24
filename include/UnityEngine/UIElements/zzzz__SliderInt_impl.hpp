@@ -3,14 +3,15 @@
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderInt_def.hpp"
+#include "UnityEngine/UIElements/zzzz__SliderInt_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits.Init
 template<>
 
@@ -90,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits::UnityEngine__UIElements__SliderInt__UxmlTraits()  : UnityEngine::UIElements::BaseFieldTraits_2<int32_t,UnityEngine::UIElements::UxmlIntAttributeDescription>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__SliderInt__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits>::get(),
@@ -272,8 +275,10 @@ return ::cordl_internals::getStaticField<::StringW, "labelUssClassName", ::il2cp
  ::StringW UnityEngine::UIElements::SliderInt::__get_inputUssClassName()  {
 return ::cordl_internals::getStaticField<::StringW, "inputUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::SliderInt>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::SliderInt::SliderInt()  : UnityEngine::UIElements::BaseSlider_1<int32_t>(THROW_UNLESS(::il2cpp_utils::New<SliderInt>())) {}
+ UnityEngine::UIElements::SliderInt UnityEngine::UIElements::SliderInt::New_ctor()  {
+UnityEngine::UIElements::SliderInt o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::SliderInt>())};
+return o;
+}
  void UnityEngine::UIElements::SliderInt::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::SliderInt>::get(),
@@ -283,8 +288,14 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: Some("0") }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: Some("10") }, CppParam { name: "direction", ty: "UnityEngine::UIElements::SliderDirection", modifiers: "", def_value: Some("0") }, CppParam { name: "pageSize", ty: "float_t", modifiers: "", def_value: Some("0") }]
- UnityEngine::UIElements::SliderInt::SliderInt(::StringW label, int32_t start, int32_t end, UnityEngine::UIElements::SliderDirection direction, float_t pageSize)  : UnityEngine::UIElements::BaseSlider_1<int32_t>(THROW_UNLESS(::il2cpp_utils::New<SliderInt>(label, start, end, direction, pageSize))) {}
+/// @param start: int32_t (default: 0)
+/// @param end: int32_t (default: 10)
+/// @param direction: UnityEngine::UIElements::SliderDirection (default: 0)
+/// @param pageSize: float_t (default: 0)
+ UnityEngine::UIElements::SliderInt UnityEngine::UIElements::SliderInt::New_ctor(::StringW label, int32_t start, int32_t end, UnityEngine::UIElements::SliderDirection direction, float_t pageSize)  {
+UnityEngine::UIElements::SliderInt o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::SliderInt>(label, start, end, direction, pageSize))};
+return o;
+}
 /// @param start: int32_t (default: 0)
 /// @param end: int32_t (default: 10)
 /// @param direction: UnityEngine::UIElements::SliderDirection (default: 0)
@@ -378,8 +389,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlFactory::UnityEngine__UIElements__SliderInt__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::SliderInt,UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__SliderInt__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlFactory>::get(),

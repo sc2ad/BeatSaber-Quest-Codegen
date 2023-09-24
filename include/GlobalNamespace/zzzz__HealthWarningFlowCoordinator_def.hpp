@@ -6,6 +6,31 @@
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__HealthWarningFlowCoordinator__InitData;
+}
+namespace GlobalNamespace {
+class EulaViewController;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SelectRegionViewController__Region;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class PrivacyPolicyViewController;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
 namespace HMUI {
 class ViewController;
 }
@@ -13,53 +38,31 @@ namespace GlobalNamespace {
 struct GlobalNamespace__PrivacyPolicyViewController__ButtonType;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+struct GlobalNamespace__EulaViewController__ButtonType;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class ISaveData;
+}
+namespace GlobalNamespace {
+class SelectLanguageViewController;
+}
+namespace GlobalNamespace {
+class AppInitScenesTransitionSetupDataContainerSO;
+}
+namespace GlobalNamespace {
+class FadeInOutController;
+}
+namespace HMUI {
+struct HMUI__ViewController__AnimationType;
+}
+namespace GlobalNamespace {
+class SelectRegionViewController;
 }
 namespace GlobalNamespace {
 class DlcPromoPanelModel;
 }
 namespace GlobalNamespace {
 class HealthWarningViewController;
-}
-namespace HMUI {
-struct HMUI__ViewController__AnimationType;
-}
-namespace GlobalNamespace {
-class SelectLanguageViewController;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__SelectRegionViewController__Region;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__EulaViewController__ButtonType;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-class EulaViewController;
-}
-namespace GlobalNamespace {
-class SelectRegionViewController;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace GlobalNamespace {
-class PrivacyPolicyViewController;
-}
-namespace GlobalNamespace {
-class FadeInOutController;
-}
-namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataContainerSO;
-}
-namespace GlobalNamespace {
-class ISaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +122,7 @@ constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get_nextScenesTransitio
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
-explicit GlobalNamespace__HealthWarningFlowCoordinator__InitData(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
+static GlobalNamespace::GlobalNamespace__HealthWarningFlowCoordinator__InitData New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
 
 /// @brief Method .ctor addr 0x21333a0 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
@@ -305,8 +307,7 @@ constexpr GlobalNamespace::GlobalNamespace__SelectRegionViewController__Region _
 /// @brief Method GoToNextScene addr 0x2133344 size 0x54 virtual false final false
  void GoToNextScene() ;
 
-// Ctor Parameters []
-explicit HealthWarningFlowCoordinator() ;
+static GlobalNamespace::HealthWarningFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2133398 size 0x8 virtual false final false
  void _ctor() ;

@@ -35,8 +35,10 @@ constexpr void Assets::OVR::Scripts::Record::__set_message(::StringW value)  {
 constexpr ::StringW Assets::OVR::Scripts::Record::__get_message() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cat", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }]
- Assets::OVR::Scripts::Record::Record(int32_t order, ::StringW cat, ::StringW msg)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Record>(order, cat, msg))) {}
+ Assets::OVR::Scripts::Record Assets::OVR::Scripts::Record::New_ctor(int32_t order, ::StringW cat, ::StringW msg)  {
+Assets::OVR::Scripts::Record o{THROW_UNLESS(::il2cpp_utils::New<Assets::OVR::Scripts::Record>(order, cat, msg))};
+return o;
+}
  void Assets::OVR::Scripts::Record::_ctor(int32_t order, ::StringW cat, ::StringW msg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Assets::OVR::Scripts::Record>::get(),

@@ -58,8 +58,7 @@ constexpr explicit CustomStyleResolvedEvent(void* ptr) noexcept : UnityEngine::U
 /// @brief Method get_customStyle addr 0x2cce128 size 0x88 virtual false final false
  UnityEngine::UIElements::ICustomStyle get_customStyle() ;
 
-// Ctor Parameters []
-explicit CustomStyleResolvedEvent() ;
+static UnityEngine::UIElements::CustomStyleResolvedEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd9570 size 0x6c virtual false final false
  void _ctor() ;

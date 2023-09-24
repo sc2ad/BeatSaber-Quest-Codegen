@@ -120,8 +120,7 @@ constexpr float_t __get__selectedAndHighlightedAlpha() const;
 /// @brief Method get_selectedAndHighlightedAlpha addr 0x2128340 size 0x8 virtual false final false
  float_t get_selectedAndHighlightedAlpha() ;
 
-// Ctor Parameters []
-explicit CanvasGroupTransitionSO() ;
+static GlobalNamespace::CanvasGroupTransitionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2128348 size 0x8 virtual false final false
  void _ctor() ;

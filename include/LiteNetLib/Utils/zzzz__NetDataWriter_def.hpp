@@ -5,11 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Net {
-class IPEndPoint;
-}
 namespace System {
 class Array;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
@@ -93,20 +93,17 @@ constexpr bool __get__autoResize() const;
 /// @brief Method get_Capacity addr 0x2097020 size 0x1c virtual false final false
  int32_t get_Capacity() ;
 
-// Ctor Parameters []
-explicit NetDataWriter() ;
+static LiteNetLib::Utils::NetDataWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x20874e4 size 0xc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "autoResize", ty: "bool", modifiers: "", def_value: None }]
-explicit NetDataWriter(bool autoResize) ;
+static LiteNetLib::Utils::NetDataWriter New_ctor(bool autoResize) ;
 
 /// @brief Method .ctor addr 0x20970ac size 0xc virtual false final false
  void _ctor(bool autoResize) ;
 
-// Ctor Parameters [CppParam { name: "autoResize", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NetDataWriter(bool autoResize, int32_t initialSize) ;
+static LiteNetLib::Utils::NetDataWriter New_ctor(bool autoResize, int32_t initialSize) ;
 
 /// @brief Method .ctor addr 0x209703c size 0x70 virtual false final false
  void _ctor(bool autoResize, int32_t initialSize) ;

@@ -7,13 +7,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
+class AsyncCallback;
+}
+namespace System {
 class IAsyncResult;
 }
 namespace OVR::OpenVR {
 struct EVRTrackedCameraError;
-}
-namespace System {
-class AsyncCallback;
 }
 namespace OVR::OpenVR {
 struct EVRTrackedCameraFrameType;
@@ -29,6 +29,42 @@ struct CameraVideoStreamFrameHeader_t;
 }
 namespace OVR::OpenVR {
 struct VRTextureBounds_t;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___GetCameraFrameSize;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___GetCameraProjection;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___GetVideoStreamFrameBuffer;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureSize;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureGL;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___HasCamera;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___GetCameraErrorNameFromEnum;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___ReleaseVideoStreamingService;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureD3D11;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___ReleaseVideoStreamTextureGL;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___GetCameraIntrinsics;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRTrackedCamera___AcquireVideoStreamingService;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -112,8 +148,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___GetCameraErrorNameFromEnum(vo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___GetCameraErrorNameFromEnum(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___GetCameraErrorNameFromEnum New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2646a1c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -173,8 +208,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___HasCamera(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___HasCamera(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___HasCamera New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2646ba0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -234,8 +268,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___GetCameraFrameSize(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___GetCameraFrameSize(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___GetCameraFrameSize New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2646d5c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -295,8 +328,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___GetCameraIntrinsics(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___GetCameraIntrinsics(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___GetCameraIntrinsics New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2646f6c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -356,8 +388,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___GetCameraProjection(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___GetCameraProjection(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___GetCameraProjection New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2647178 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -417,8 +448,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___AcquireVideoStreamingService(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___AcquireVideoStreamingService(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___AcquireVideoStreamingService New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26473a4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -478,8 +508,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___ReleaseVideoStreamingService(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___ReleaseVideoStreamingService(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___ReleaseVideoStreamingService New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2647560 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -539,8 +568,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___GetVideoStreamFrameBuffer(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___GetVideoStreamFrameBuffer(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___GetVideoStreamFrameBuffer New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26476e4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -600,8 +628,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureSize(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureSize(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureSize New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2647944 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -661,8 +688,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureD3D11(vo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureD3D11(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureD3D11 New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2647b70 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -722,8 +748,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureGL(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureGL(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___GetVideoStreamTextureGL New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2647de0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -783,8 +808,7 @@ constexpr explicit OVR__OpenVR__IVRTrackedCamera___ReleaseVideoStreamTextureGL(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRTrackedCamera___ReleaseVideoStreamTextureGL(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRTrackedCamera___ReleaseVideoStreamTextureGL New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264801c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

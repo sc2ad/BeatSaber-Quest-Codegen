@@ -2,15 +2,15 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace System::Threading::Tasks::Sources {
 struct ValueTaskSourceStatus;
 }
 namespace System::Threading::Tasks::Sources {
 struct ValueTaskSourceOnCompletedFlags;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 // Forward declare root types
 namespace System::Threading::Tasks::Sources {

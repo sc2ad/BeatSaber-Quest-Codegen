@@ -57,8 +57,7 @@ constexpr ::StringW __get_category() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "category", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MenuCategoryAttribute(::StringW category) ;
+static UnityEngine::Timeline::MenuCategoryAttribute New_ctor(::StringW category) ;
 
 /// @brief Method .ctor addr 0x2ad5e4c size 0x6c virtual false final false
  void _ctor(::StringW category) ;

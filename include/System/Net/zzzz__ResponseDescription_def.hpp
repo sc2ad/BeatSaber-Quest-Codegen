@@ -113,8 +113,7 @@ constexpr ::StringW __get_StatusCodeString() const;
 /// @brief Method get_InvalidStatusCode addr 0x27fd598 size 0x14 virtual false final false
  bool get_InvalidStatusCode() ;
 
-// Ctor Parameters []
-explicit ResponseDescription() ;
+static System::Net::ResponseDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x27fd5ac size 0x70 virtual false final false
  void _ctor() ;

@@ -4,34 +4,34 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__VisualElement__MeasureMode;
+class ITextHandle;
 }
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine {
-class Font;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements::UIR {
 struct TextCoreSettings;
 }
 namespace UnityEngine::UIElements {
-class ITextHandle;
-}
-namespace UnityEngine::UIElements {
-class PanelTextSettings;
-}
-namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
+}
+namespace UnityEngine {
+class Font;
 }
 namespace UnityEngine {
 struct Vector2;
 }
+namespace UnityEngine {
+struct Matrix4x4;
+}
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct UnityEngine__UIElements__VisualElement__MeasureMode;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
+namespace UnityEngine::UIElements {
+class PanelTextSettings;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

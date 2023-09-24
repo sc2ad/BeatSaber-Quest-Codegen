@@ -2,6 +2,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DeactivateAfterFirstFrame_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__DeactivateAfterFirstFrame_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0._ctor
@@ -136,8 +137,10 @@ constexpr void GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Sta
 constexpr GlobalNamespace::DeactivateAfterFirstFrame GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::DeactivateAfterFirstFrame, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0 GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DeactivateAfterFirstFrame___Start_d__0>::get(),
@@ -235,8 +238,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DeactivateAfterFirstFrame::DeactivateAfterFirstFrame()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DeactivateAfterFirstFrame>())) {}
+ GlobalNamespace::DeactivateAfterFirstFrame GlobalNamespace::DeactivateAfterFirstFrame::New_ctor()  {
+GlobalNamespace::DeactivateAfterFirstFrame o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DeactivateAfterFirstFrame>())};
+return o;
+}
  void GlobalNamespace::DeactivateAfterFirstFrame::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DeactivateAfterFirstFrame>::get(),

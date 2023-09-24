@@ -6,19 +6,25 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class Version;
-}
-namespace System {
 struct PlatformID;
-}
-namespace System {
-class OperatingSystem;
 }
 namespace System {
 struct EnvironmentVariableTarget;
 }
+namespace System {
+struct System__Environment__SpecialFolder;
+}
+namespace System {
+class OperatingSystem;
+}
 namespace System::Collections {
 class IDictionary;
+}
+namespace System {
+struct System__Environment__SpecialFolderOption;
+}
+namespace System {
+class Version;
 }
 namespace System {
 class Exception;
@@ -127,6 +133,8 @@ __CDBurning = 59,
 constexpr operator __System__Environment__SpecialFolder_Unwrapped () const noexcept {
 return std::bit_cast<__System__Environment__SpecialFolder_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -332,6 +340,8 @@ __Create = 32768,
 constexpr operator __System__Environment__SpecialFolderOption_Unwrapped () const noexcept {
 return std::bit_cast<__System__Environment__SpecialFolderOption_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

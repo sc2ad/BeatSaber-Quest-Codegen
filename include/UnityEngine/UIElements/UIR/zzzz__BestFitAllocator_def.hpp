@@ -5,7 +5,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements::UIR {
+class UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool;
+}
+namespace UnityEngine::UIElements::UIR {
 struct Alloc;
+}
+namespace UnityEngine::UIElements::UIR {
+class UnityEngine__UIElements__UIR__BestFitAllocator__Block;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -112,8 +118,7 @@ constexpr bool __get_allocated() const;
 /// @brief Method get_size addr 0x2c5c4a4 size 0xc virtual false final false
  uint32_t get_size() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIR__BestFitAllocator__Block() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c5c6fc size 0x48 virtual false final false
  void _ctor() ;
@@ -125,7 +130,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::BlockPool
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7500), inst: 3839 }), TypeDefinitionIndex(TypeDefinitionIndex(7500)), TypeDefinitionIndex(TypeDefinitionIndex(7535))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7535)), TypeDefinitionIndex(TypeDefinitionIndex(7500)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7500), inst: 3839 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7534))
 // CS Name: UnityEngine.UIElements.UIR.BestFitAllocator::BlockPool
 class CORDL_TYPE UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool : public UnityEngine::UIElements::UIR::LinkedPool_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block> {
@@ -170,8 +175,7 @@ static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAlloca
 /// @brief Method ResetBlock addr 0x2c5c744 size 0x4 virtual false final false
 static void ResetBlock(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block block) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c5c36c size 0xf0 virtual false final false
  void _ctor() ;
@@ -266,8 +270,7 @@ constexpr uint32_t __get_m_HighWatermark() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit BestFitAllocator(uint32_t size) ;
+static UnityEngine::UIElements::UIR::BestFitAllocator New_ctor(uint32_t size) ;
 
 /// @brief Method .ctor addr 0x2c53438 size 0xa8 virtual false final false
  void _ctor(uint32_t size) ;

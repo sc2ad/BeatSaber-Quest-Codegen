@@ -4,13 +4,13 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
 class IScoreController;
 }
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
@@ -140,8 +140,7 @@ constexpr GlobalNamespace::GlobalNamespace__RankModel__Rank __get__immediateRank
 /// @brief Method UpdateRelativeScoreAndImmediateRank addr 0x2277264 size 0x88 virtual false final false
  void UpdateRelativeScoreAndImmediateRank(int32_t score, int32_t modifiedScore, int32_t maxPossibleScore, int32_t maxPossibleModifiedScore) ;
 
-// Ctor Parameters []
-explicit RelativeScoreAndImmediateRankCounter() ;
+static GlobalNamespace::RelativeScoreAndImmediateRankCounter New_ctor() ;
 
 /// @brief Method .ctor addr 0x22772ec size 0x8 virtual false final false
  void _ctor() ;

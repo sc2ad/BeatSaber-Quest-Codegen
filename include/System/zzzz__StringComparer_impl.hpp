@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__StringComparer_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/zzzz__CultureAwareComparer_def.hpp"
-#include "System/zzzz__OrdinalIgnoreCaseComparer_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/zzzz__OrdinalCaseSensitiveComparer_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/zzzz__OrdinalIgnoreCaseComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/zzzz__CultureAwareComparer_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 //  Writing Method size for method: System::StringComparer.get_InvariantCultureIgnoreCase
 template<>
 
@@ -298,8 +298,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters []
- System::StringComparer::StringComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringComparer>())) {}
+ System::StringComparer System::StringComparer::New_ctor()  {
+System::StringComparer o{THROW_UNLESS(::il2cpp_utils::New<System::StringComparer>())};
+return o;
+}
  void System::StringComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::StringComparer>::get(),

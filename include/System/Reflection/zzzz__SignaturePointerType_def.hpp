@@ -61,8 +61,7 @@ constexpr explicit SignaturePointerType(void* ptr) noexcept : System::Reflection
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementType", ty: "System::Reflection::SignatureType", modifiers: "", def_value: None }]
-explicit SignaturePointerType(System::Reflection::SignatureType elementType) ;
+static System::Reflection::SignaturePointerType New_ctor(System::Reflection::SignatureType elementType) ;
 
 /// @brief Method .ctor addr 0x237d6dc size 0x24 virtual false final false
  void _ctor(System::Reflection::SignatureType elementType) ;

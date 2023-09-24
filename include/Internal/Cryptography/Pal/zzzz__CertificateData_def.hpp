@@ -5,30 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class Stack_1;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X500DistinguishedName;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class Stack_1;
+}
+namespace System::Security::Cryptography {
+class DerSequenceReader;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Security::Cryptography {
-class DerSequenceReader;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -37,7 +30,23 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace Internal::Cryptography::Pal {
+struct Internal__Cryptography__Pal__CertificateData__AlgorithmIdentifier;
+}
+namespace System {
 struct DateTime;
+}
+namespace Internal::Cryptography::Pal {
+struct GeneralNameType;
+}
+namespace Internal::Cryptography::Pal {
+class Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509NameType;
@@ -48,9 +57,6 @@ class List_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Extension;
-}
-namespace Internal::Cryptography::Pal {
-struct GeneralNameType;
 }
 // Forward declare root types
 namespace Internal::Cryptography::Pal {
@@ -230,8 +236,7 @@ constexpr System::Security::Cryptography::DerSequenceReader __get__rdnReader_5__
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21(int32_t __1__state) ;
+static Internal::Cryptography::Pal::Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2698ae4 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;

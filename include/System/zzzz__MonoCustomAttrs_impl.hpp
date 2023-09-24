@@ -1,17 +1,18 @@
 #pragma once
 #include "System/zzzz__MonoCustomAttrs_def.hpp"
-#include "System/Reflection/zzzz__EventInfo_def.hpp"
-#include "System/Reflection/zzzz__RuntimePropertyInfo_def.hpp"
-#include "System/Reflection/zzzz__CustomAttributeData_def.hpp"
-#include "System/zzzz__AttributeUsageAttribute_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/zzzz__Attribute_def.hpp"
-#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/Reflection/zzzz__EventInfo_def.hpp"
+#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
+#include "System/Reflection/zzzz__CustomAttributeData_def.hpp"
 #include "System/Reflection/zzzz__RuntimeEventInfo_def.hpp"
+#include "System/zzzz__MonoCustomAttrs_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/zzzz__AttributeUsageAttribute_def.hpp"
+#include "System/Reflection/zzzz__RuntimePropertyInfo_def.hpp"
 //  Writing Method size for method: System::System__MonoCustomAttrs__AttributeInfo._ctor
 template<>
 
@@ -75,8 +76,10 @@ constexpr void System::System__MonoCustomAttrs__AttributeInfo::__set__inheritanc
 constexpr int32_t System::System__MonoCustomAttrs__AttributeInfo::__get__inheritanceLevel() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "usage", ty: "System::AttributeUsageAttribute", modifiers: "", def_value: None }, CppParam { name: "inheritanceLevel", ty: "int32_t", modifiers: "", def_value: None }]
- System::System__MonoCustomAttrs__AttributeInfo::System__MonoCustomAttrs__AttributeInfo(System::AttributeUsageAttribute usage, int32_t inheritanceLevel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__MonoCustomAttrs__AttributeInfo>(usage, inheritanceLevel))) {}
+ System::System__MonoCustomAttrs__AttributeInfo System::System__MonoCustomAttrs__AttributeInfo::New_ctor(System::AttributeUsageAttribute usage, int32_t inheritanceLevel)  {
+System::System__MonoCustomAttrs__AttributeInfo o{THROW_UNLESS(::il2cpp_utils::New<System::System__MonoCustomAttrs__AttributeInfo>(usage, inheritanceLevel))};
+return o;
+}
  void System::System__MonoCustomAttrs__AttributeInfo::_ctor(System::AttributeUsageAttribute usage, int32_t inheritanceLevel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__MonoCustomAttrs__AttributeInfo>::get(),

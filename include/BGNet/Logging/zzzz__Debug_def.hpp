@@ -5,6 +5,12 @@
 namespace System {
 class Exception;
 }
+namespace BGNet::Logging {
+class BGNet__Logging__Debug__LoggerLinkedList;
+}
+namespace BGNet::Logging {
+class BGNet__Logging__Debug__ILogger;
+}
 // Forward declare root types
 namespace BGNet::Logging {
 class BGNet__Logging__Debug__ILogger;
@@ -72,8 +78,7 @@ constexpr BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList __get_next() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "logger", ty: "BGNet::Logging::BGNet__Logging__Debug__ILogger", modifiers: "", def_value: None }]
-explicit BGNet__Logging__Debug__LoggerLinkedList(BGNet::Logging::BGNet__Logging__Debug__ILogger logger) ;
+static BGNet::Logging::BGNet__Logging__Debug__LoggerLinkedList New_ctor(BGNet::Logging::BGNet__Logging__Debug__ILogger logger) ;
 
 /// @brief Method .ctor addr 0xdd44e0 size 0x28 virtual false final false
  void _ctor(BGNet::Logging::BGNet__Logging__Debug__ILogger logger) ;

@@ -65,8 +65,7 @@ constexpr System::Decimal __get__dec() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "scale", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sign", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "hi", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "mid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "low", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit DecimalConstantAttribute(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low) ;
+static System::Runtime::CompilerServices::DecimalConstantAttribute New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low) ;
 
 /// @brief Method .ctor addr 0x236de5c size 0x9c virtual false final false
  void _ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low) ;

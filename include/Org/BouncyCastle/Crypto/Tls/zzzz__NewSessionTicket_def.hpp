@@ -74,8 +74,7 @@ constexpr ::ArrayW<uint8_t> __get_mTicket() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ticketLifetimeHint", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "ticket", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit NewSessionTicket(int64_t ticketLifetimeHint, ::ArrayW<uint8_t> ticket) ;
+static Org::BouncyCastle::Crypto::Tls::NewSessionTicket New_ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t> ticket) ;
 
 /// @brief Method .ctor addr 0xf04dac size 0x2c virtual false final false
  void _ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t> ticket) ;

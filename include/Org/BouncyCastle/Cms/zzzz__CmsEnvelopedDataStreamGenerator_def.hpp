@@ -6,35 +6,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Crypto {
 class CipherKeyGenerator;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace System::IO {
-class Stream;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Cms {
+class Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedGenerator;
 }
-namespace Org::BouncyCastle::Asn1 {
-class BerSequenceGenerator;
-}
 namespace Org::BouncyCastle::Crypto::IO {
 class CipherStream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class BerSequenceGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -118,8 +121,7 @@ constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get__eiGen() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Cms::CmsEnvelopedGenerator", modifiers: "", def_value: None }, CppParam { name: "outStream", ty: "Org::BouncyCastle::Crypto::IO::CipherStream", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "envGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream(Org::BouncyCastle::Cms::CmsEnvelopedGenerator outer, Org::BouncyCastle::Crypto::IO::CipherStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator envGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
+static Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream New_ctor(Org::BouncyCastle::Cms::CmsEnvelopedGenerator outer, Org::BouncyCastle::Crypto::IO::CipherStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator envGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
 
 /// @brief Method .ctor addr 0x1156c38 size 0x50 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsEnvelopedGenerator outer, Org::BouncyCastle::Crypto::IO::CipherStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator envGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
@@ -213,14 +215,12 @@ constexpr bool __get__berEncodeRecipientSet() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsEnvelopedDataStreamGenerator() ;
+static Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1155aa8 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit CmsEnvelopedDataStreamGenerator(Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator New_ctor(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1155b00 size 0x68 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom rand) ;

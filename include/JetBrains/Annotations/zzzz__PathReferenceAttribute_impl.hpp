@@ -75,8 +75,10 @@ constexpr void JetBrains::Annotations::PathReferenceAttribute::__set__BasePath_k
 constexpr ::StringW JetBrains::Annotations::PathReferenceAttribute::__get__BasePath_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- JetBrains::Annotations::PathReferenceAttribute::PathReferenceAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PathReferenceAttribute>())) {}
+ JetBrains::Annotations::PathReferenceAttribute JetBrains::Annotations::PathReferenceAttribute::New_ctor()  {
+JetBrains::Annotations::PathReferenceAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::PathReferenceAttribute>())};
+return o;
+}
  void JetBrains::Annotations::PathReferenceAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::PathReferenceAttribute>::get(),
@@ -86,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "basePath", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::PathReferenceAttribute::PathReferenceAttribute(::StringW basePath)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PathReferenceAttribute>(basePath))) {}
+ JetBrains::Annotations::PathReferenceAttribute JetBrains::Annotations::PathReferenceAttribute::New_ctor(::StringW basePath)  {
+JetBrains::Annotations::PathReferenceAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::PathReferenceAttribute>(basePath))};
+return o;
+}
  void JetBrains::Annotations::PathReferenceAttribute::_ctor(::StringW basePath)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::PathReferenceAttribute>::get(),

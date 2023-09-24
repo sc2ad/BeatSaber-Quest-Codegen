@@ -47,8 +47,7 @@ constexpr explicit AndroidRelativeHumidity(void* ptr) noexcept : UnityEngine::In
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidRelativeHumidity() ;
+static UnityEngine::InputSystem::Android::AndroidRelativeHumidity New_ctor() ;
 
 /// @brief Method .ctor addr 0x29530a0 size 0x8 virtual false final false
  void _ctor() ;

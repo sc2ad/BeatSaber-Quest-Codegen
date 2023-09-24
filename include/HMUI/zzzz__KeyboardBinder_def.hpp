@@ -3,24 +3,27 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System {
-template<typename T>
-class Action_1;
+namespace HMUI {
+struct HMUI__KeyboardBinder__KeyBindingType;
 }
 namespace UnityEngine::Events {
 template<typename T0>
 class UnityAction_1;
 }
-namespace UnityEngine {
-struct KeyCode;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Tuple_3;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+struct KeyCode;
 }
 // Forward declare root types
 namespace HMUI {
@@ -79,6 +82,8 @@ __KeyPress = 2,
 constexpr operator __HMUI__KeyboardBinder__KeyBindingType_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__KeyboardBinder__KeyBindingType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -172,20 +177,17 @@ constexpr System::Collections::Generic::List_1<System::Tuple_3<UnityEngine::KeyC
 /// @brief Method set_enabled addr 0x1fa6ac4 size 0xc virtual false final false
  void set_enabled(bool value) ;
 
-// Ctor Parameters []
-explicit KeyboardBinder() ;
+static HMUI::KeyboardBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa6ad0 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "keycode", ty: "UnityEngine::KeyCode", modifiers: "", def_value: None }, CppParam { name: "keyBindingType", ty: "HMUI::HMUI__KeyboardBinder__KeyBindingType", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action_1<bool>", modifiers: "", def_value: None }]
-explicit KeyboardBinder(UnityEngine::KeyCode keycode, HMUI::HMUI__KeyboardBinder__KeyBindingType keyBindingType, System::Action_1<bool> action) ;
+static HMUI::KeyboardBinder New_ctor(UnityEngine::KeyCode keycode, HMUI::HMUI__KeyboardBinder__KeyBindingType keyBindingType, System::Action_1<bool> action) ;
 
 /// @brief Method .ctor addr 0x1fa6b68 size 0x4c virtual false final false
  void _ctor(UnityEngine::KeyCode keycode, HMUI::HMUI__KeyboardBinder__KeyBindingType keyBindingType, System::Action_1<bool> action) ;
 
-// Ctor Parameters [CppParam { name: "bindingData", ty: "System::Collections::Generic::List_1<System::Tuple_3<UnityEngine::KeyCode,HMUI::HMUI__KeyboardBinder__KeyBindingType,System::Action_1<bool>>>", modifiers: "", def_value: None }]
-explicit KeyboardBinder(System::Collections::Generic::List_1<System::Tuple_3<UnityEngine::KeyCode,HMUI::HMUI__KeyboardBinder__KeyBindingType,System::Action_1<bool>>> bindingData) ;
+static HMUI::KeyboardBinder New_ctor(System::Collections::Generic::List_1<System::Tuple_3<UnityEngine::KeyCode,HMUI::HMUI__KeyboardBinder__KeyBindingType,System::Action_1<bool>>> bindingData) ;
 
 /// @brief Method .ctor addr 0x1fa6d14 size 0x34 virtual false final false
  void _ctor(System::Collections::Generic::List_1<System::Tuple_3<UnityEngine::KeyCode,HMUI::HMUI__KeyboardBinder__KeyBindingType,System::Action_1<bool>>> bindingData) ;

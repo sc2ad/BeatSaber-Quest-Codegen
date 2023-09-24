@@ -130,8 +130,7 @@ constexpr bool __get_m_BindingIsButton() const;
 /// @brief Method ReadValueAsObject addr 0x28c902c size 0x64 virtual true final false
  ::bs_hook::Il2CppWrapperType ReadValueAsObject(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
-// Ctor Parameters []
-explicit TwoModifiersComposite() ;
+static UnityEngine::InputSystem::Composites::TwoModifiersComposite New_ctor() ;
 
 /// @brief Method .ctor addr 0x28c9090 size 0x8 virtual false final false
  void _ctor() ;

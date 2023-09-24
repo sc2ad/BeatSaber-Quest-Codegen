@@ -4,29 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Mono::Security {
-class ASN1;
-}
 namespace System::Security::Cryptography {
 class HashAlgorithm;
 }
 namespace Mono::Security::X509 {
 class X509CertificateCollection;
 }
+namespace Mono::Security {
+class Mono__Security__PKCS7__SignedData;
+}
+namespace Mono::Security {
+class ASN1;
+}
+namespace Mono::Security {
+class Mono__Security__PKCS7__SignerInfo;
+}
+namespace Mono::Security::X509 {
+class X509Chain;
+}
 namespace Mono::Security::X509 {
 class X509Certificate;
 }
 namespace System {
 struct DateTime;
-}
-namespace Mono::Security {
-class Mono__Security__PKCS7__SignerInfo;
-}
-namespace Mono::Security {
-class Mono__Security__PKCS7__SignedData;
-}
-namespace Mono::Security::X509 {
-class X509Chain;
 }
 // Forward declare root types
 namespace Mono::Security::Authenticode {
@@ -162,14 +162,12 @@ constexpr Mono::Security::X509::X509Chain __get_timestampChain() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AuthenticodeDeformatter() ;
+static Mono::Security::Authenticode::AuthenticodeDeformatter New_ctor() ;
 
 /// @brief Method .ctor addr 0x229d808 size 0x8c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit AuthenticodeDeformatter(::ArrayW<uint8_t> rawData) ;
+static Mono::Security::Authenticode::AuthenticodeDeformatter New_ctor(::ArrayW<uint8_t> rawData) ;
 
 /// @brief Method .ctor addr 0x229d894 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> rawData) ;

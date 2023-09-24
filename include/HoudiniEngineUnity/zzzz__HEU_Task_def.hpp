@@ -4,14 +4,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_Task__TaskStatus;
+}
 namespace System {
 struct Guid;
 }
-namespace System {
-class AsyncCallback;
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_Task__TaskCallback;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_Task__TaskResult;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -80,6 +89,8 @@ __UNUSED = 6,
 constexpr operator __HoudiniEngineUnity__HEU_Task__TaskStatus_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_Task__TaskStatus_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -167,6 +178,8 @@ constexpr operator __HoudiniEngineUnity__HEU_Task__TaskResult_Unwrapped () const
 return std::bit_cast<__HoudiniEngineUnity__HEU_Task__TaskResult_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -234,8 +247,7 @@ constexpr explicit HoudiniEngineUnity__HEU_Task__TaskCallback(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__HEU_Task__TaskCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2038e58 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -336,8 +348,7 @@ constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskCallback __get__
 /// @brief Method get_TaskGuid addr 0x2038e24 size 0xc virtual false final false
  System::Guid get_TaskGuid() ;
 
-// Ctor Parameters []
-explicit HEU_Task() ;
+static HoudiniEngineUnity::HEU_Task New_ctor() ;
 
 /// @brief Method .ctor addr 0x2038e30 size 0x24 virtual false final false
  void _ctor() ;

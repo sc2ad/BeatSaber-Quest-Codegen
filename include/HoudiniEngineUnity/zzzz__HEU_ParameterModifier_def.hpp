@@ -5,6 +5,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction;
+}
+namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
@@ -67,6 +70,8 @@ __SET_INT = 4,
 constexpr operator __HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_ParameterModifier__ModifierAction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -188,8 +193,7 @@ static HoudiniEngineUnity::HEU_ParameterModifier GetNewModifier(HoudiniEngineUni
 /// @brief Method IsEquivalentTo addr 0x2020548 size 0x28c virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_ParameterModifier other) ;
 
-// Ctor Parameters []
-explicit HEU_ParameterModifier() ;
+static HoudiniEngineUnity::HEU_ParameterModifier New_ctor() ;
 
 /// @brief Method .ctor addr 0x2020540 size 0x8 virtual false final false
  void _ctor() ;

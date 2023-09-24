@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CountdownController_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "GlobalNamespace/zzzz__CountdownElementController_def.hpp"
-#include "GlobalNamespace/zzzz__ITimeProvider_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "GlobalNamespace/zzzz__ITimeProvider_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CountdownController.Awake
 template<>
 
@@ -200,8 +200,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CountdownController::CountdownController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CountdownController>())) {}
+ GlobalNamespace::CountdownController GlobalNamespace::CountdownController::New_ctor()  {
+GlobalNamespace::CountdownController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CountdownController>())};
+return o;
+}
  void GlobalNamespace::CountdownController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CountdownController>::get(),

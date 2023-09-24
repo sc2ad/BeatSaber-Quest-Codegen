@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ColorSchemeConverter_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemeNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemeNetSerializable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorSchemeConverter.FromNetSerializable
 template<>
 

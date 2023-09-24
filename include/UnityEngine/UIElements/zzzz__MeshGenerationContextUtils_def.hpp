@@ -7,13 +7,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
+}
+namespace UnityEngine::UIElements {
 class ITextHandle;
 }
 namespace UnityEngine::UIElements {
 class MeshGenerationContext;
 }
 namespace UnityEngine::UIElements {
-struct Length;
+struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -24,41 +27,62 @@ struct Vector2;
 namespace UnityEngine {
 struct Rect;
 }
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
 namespace UnityEngine {
-class Material;
+struct Color;
 }
 namespace UnityEngine::UIElements {
 struct ColorPage;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct ScaleMode;
+class Material;
 }
 namespace UnityEngine::UIElements {
 class VectorImage;
 }
-namespace UnityEngine::UIElements {
-struct ContextType;
-}
 namespace UnityEngine {
-class Texture;
+class Sprite;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContext__MeshFlags;
 }
 namespace UnityEngine {
 struct SpritePackingRotation;
 }
 namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__MeshGenerationContext__MeshFlags;
+struct ContextType;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+struct ScaleMode;
+}
+namespace UnityEngine {
+struct TextAnchor;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflowPosition;
 }
 namespace UnityEngine::UIElements {
 struct OverflowInternal;
+}
+namespace UnityEngine::UIElements {
+struct TextNativeSettings;
+}
+namespace UnityEngine::UIElements {
+struct FontDefinition;
+}
+namespace UnityEngine {
+struct FontStyle;
 }
 namespace UnityEngine::UIElements {
 struct TextOverflow;
@@ -67,22 +91,7 @@ namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine {
 class Font;
-}
-namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine::UIElements {
-struct TextNativeSettings;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

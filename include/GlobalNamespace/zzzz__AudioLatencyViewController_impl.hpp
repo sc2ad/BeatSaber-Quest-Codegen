@@ -1,14 +1,14 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioLatencyViewController_def.hpp"
-#include "GlobalNamespace/zzzz__VisualMetronome_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 #include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
-#include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "GlobalNamespace/zzzz__VisualMetronome_def.hpp"
+#include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AudioLatencyViewController.DidActivate
 template<>
 
@@ -236,8 +236,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, overrideAudioLatencyIsEnabled);
 }
-// Ctor Parameters []
- GlobalNamespace::AudioLatencyViewController::AudioLatencyViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<AudioLatencyViewController>())) {}
+ GlobalNamespace::AudioLatencyViewController GlobalNamespace::AudioLatencyViewController::New_ctor()  {
+GlobalNamespace::AudioLatencyViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AudioLatencyViewController>())};
+return o;
+}
  void GlobalNamespace::AudioLatencyViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AudioLatencyViewController>::get(),

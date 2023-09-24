@@ -141,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MarkableUIButton::MarkableUIButton()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MarkableUIButton>())) {}
+ GlobalNamespace::MarkableUIButton GlobalNamespace::MarkableUIButton::New_ctor()  {
+GlobalNamespace::MarkableUIButton o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MarkableUIButton>())};
+return o;
+}
  void GlobalNamespace::MarkableUIButton::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MarkableUIButton>::get(),

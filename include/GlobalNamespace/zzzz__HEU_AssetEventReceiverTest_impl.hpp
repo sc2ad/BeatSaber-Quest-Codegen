@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HEU_AssetEventReceiverTest_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: GlobalNamespace::HEU_AssetEventReceiverTest.ReloadCallback
 template<>
 
@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, asset, success, outputList);
 }
-// Ctor Parameters []
- GlobalNamespace::HEU_AssetEventReceiverTest::HEU_AssetEventReceiverTest()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HEU_AssetEventReceiverTest>())) {}
+ GlobalNamespace::HEU_AssetEventReceiverTest GlobalNamespace::HEU_AssetEventReceiverTest::New_ctor()  {
+GlobalNamespace::HEU_AssetEventReceiverTest o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HEU_AssetEventReceiverTest>())};
+return o;
+}
  void GlobalNamespace::HEU_AssetEventReceiverTest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HEU_AssetEventReceiverTest>::get(),

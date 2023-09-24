@@ -47,8 +47,7 @@ constexpr explicit FormatterData(void* ptr) noexcept : System::Runtime::Remoting
 
 // Methods
 
-// Ctor Parameters []
-explicit FormatterData() ;
+static System::Runtime::Remoting::FormatterData New_ctor() ;
 
 /// @brief Method .ctor addr 0x23223a8 size 0x4 virtual false final false
  void _ctor() ;

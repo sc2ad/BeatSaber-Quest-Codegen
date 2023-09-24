@@ -9,64 +9,76 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class IAsyncResult;
-}
-namespace System {
 class AsyncCallback;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Sizei;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace GlobalNamespace {
-struct OVRPose;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__LayerDesc;
+namespace System {
+class IAsyncResult;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__XRDevice;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__TextureRectMatrixf;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__LayerLayout;
-}
-namespace System::Runtime::InteropServices {
-struct GCHandle;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__EyeTextureFormat;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Renderer;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__OverlayShape;
 }
 namespace UnityEngine {
-struct Vector3;
+class RenderTexture;
 }
-namespace UnityEngine::XR {
-struct XRNode;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__EyeTextureFormat;
 }
-namespace UnityEngine {
-class Material;
+namespace GlobalNamespace {
+struct OVRPose;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
+struct Vector4;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVROverlay__ExternalSurfaceObjectCreated;
+}
+namespace UnityEngine {
 struct Vector2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__LayerLayout;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+class Renderer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVROverlay__OverlayType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVROverlay__OverlayShape;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVROverlay__LayerTexture;
+}
+namespace System::Runtime::InteropServices {
+struct GCHandle;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Sizei;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__LayerDesc;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__TextureRectMatrixf;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -141,6 +153,8 @@ __KeyboardMaskedHandsPassthrough = 11,
 constexpr operator __GlobalNamespace__OVROverlay__OverlayShape_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVROverlay__OverlayShape_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -236,6 +250,8 @@ constexpr operator __GlobalNamespace__OVROverlay__OverlayType_Unwrapped () const
 return std::bit_cast<__GlobalNamespace__OVROverlay__OverlayType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -300,8 +316,7 @@ constexpr explicit GlobalNamespace__OVROverlay__ExternalSurfaceObjectCreated(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVROverlay__ExternalSurfaceObjectCreated(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__OVROverlay__ExternalSurfaceObjectCreated New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x25d54e0 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -882,8 +897,7 @@ static ::StringW get_OpenVROverlayKey() ;
 /// @brief Method LateUpdate addr 0x25d4da0 size 0x524 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit OVROverlay() ;
+static GlobalNamespace::OVROverlay New_ctor() ;
 
 /// @brief Method .ctor addr 0x25d52c4 size 0x1b4 virtual false final false
  void _ctor() ;

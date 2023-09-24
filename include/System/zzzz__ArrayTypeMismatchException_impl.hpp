@@ -37,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::ArrayTypeMismatchException::ArrayTypeMismatchException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ArrayTypeMismatchException>())) {}
+ System::ArrayTypeMismatchException System::ArrayTypeMismatchException::New_ctor()  {
+System::ArrayTypeMismatchException o{THROW_UNLESS(::il2cpp_utils::New<System::ArrayTypeMismatchException>())};
+return o;
+}
  void System::ArrayTypeMismatchException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ArrayTypeMismatchException>::get(),
@@ -48,8 +50,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::ArrayTypeMismatchException::ArrayTypeMismatchException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ArrayTypeMismatchException>(info, context))) {}
+ System::ArrayTypeMismatchException System::ArrayTypeMismatchException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::ArrayTypeMismatchException o{THROW_UNLESS(::il2cpp_utils::New<System::ArrayTypeMismatchException>(info, context))};
+return o;
+}
  void System::ArrayTypeMismatchException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ArrayTypeMismatchException>::get(),

@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Misc {
@@ -71,14 +71,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_iv() const;
 /// @brief Method GetInstance addr 0xeee0e4 size 0x148 virtual false final false
 static Org::BouncyCastle::Asn1::Misc::IdeaCbcPar GetInstance(::bs_hook::Il2CppWrapperType o) ;
 
-// Ctor Parameters [CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit IdeaCbcPar(::ArrayW<uint8_t> iv) ;
+static Org::BouncyCastle::Asn1::Misc::IdeaCbcPar New_ctor(::ArrayW<uint8_t> iv) ;
 
 /// @brief Method .ctor addr 0xeee310 size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> iv) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit IdeaCbcPar(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Misc::IdeaCbcPar New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xeee22c size 0xe4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

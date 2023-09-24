@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "itemType", ty: "System::Type", modifiers: "", def_value: None }]
- System::Configuration::ConfigurationCollectionAttribute::ConfigurationCollectionAttribute(System::Type itemType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ConfigurationCollectionAttribute>(itemType))) {}
+ System::Configuration::ConfigurationCollectionAttribute System::Configuration::ConfigurationCollectionAttribute::New_ctor(System::Type itemType)  {
+System::Configuration::ConfigurationCollectionAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Configuration::ConfigurationCollectionAttribute>(itemType))};
+return o;
+}
  void System::Configuration::ConfigurationCollectionAttribute::_ctor(System::Type itemType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Configuration::ConfigurationCollectionAttribute>::get(),

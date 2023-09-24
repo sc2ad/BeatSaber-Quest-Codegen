@@ -3,25 +3,25 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct RenderTextureMemoryless;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
-}
-namespace UnityEngine::Rendering {
-struct TextureDimension;
-}
-namespace UnityEngine {
-struct VRTextureUsage;
-}
-namespace UnityEngine {
 struct RenderTextureCreationFlags;
 }
 namespace UnityEngine {
 struct RenderTextureFormat;
 }
+namespace UnityEngine {
+struct VRTextureUsage;
+}
+namespace UnityEngine {
+struct RenderTextureMemoryless;
+}
+namespace UnityEngine::Rendering {
+struct TextureDimension;
+}
 namespace UnityEngine::Rendering {
 struct ShadowSamplingMode;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
 }
 // Forward declare root types
 namespace UnityEngine {

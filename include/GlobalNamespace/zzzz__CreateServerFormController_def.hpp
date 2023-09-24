@@ -86,8 +86,7 @@ constexpr bool __get__netDiscoverable() const;
 /// @brief Method Setup addr 0x214c3ec size 0x60 virtual false final false
  void Setup(int32_t selectedNumberOfPlayers, bool netDiscoverable) ;
 
-// Ctor Parameters []
-explicit CreateServerFormController() ;
+static GlobalNamespace::CreateServerFormController New_ctor() ;
 
 /// @brief Method .ctor addr 0x214c460 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Net/zzzz__HttpListenerResponse_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/zzzz__Cookie_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__CookieCollection_def.hpp"
-#include "System/Net/zzzz__HttpListenerContext_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
-#include "System/Net/zzzz__ResponseStream_def.hpp"
 #include "System/zzzz__Version_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Net/zzzz__CookieCollection_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__Cookie_def.hpp"
+#include "System/Net/zzzz__HttpListenerContext_def.hpp"
+#include "System/Net/zzzz__ResponseStream_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 //  Writing Method size for method: System::Net::HttpListenerResponse._ctor
 template<>
 
@@ -451,8 +451,10 @@ return ::cordl_internals::getInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWr
  ::StringW System::Net::HttpListenerResponse::__get_tspecials()  {
 return ::cordl_internals::getStaticField<::StringW, "tspecials", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerResponse>::get>();
 }
-// Ctor Parameters [CppParam { name: "context", ty: "System::Net::HttpListenerContext", modifiers: "", def_value: None }]
- System::Net::HttpListenerResponse::HttpListenerResponse(System::Net::HttpListenerContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpListenerResponse>(context))) {}
+ System::Net::HttpListenerResponse System::Net::HttpListenerResponse::New_ctor(System::Net::HttpListenerContext context)  {
+System::Net::HttpListenerResponse o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpListenerResponse>(context))};
+return o;
+}
  void System::Net::HttpListenerResponse::_ctor(System::Net::HttpListenerContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerResponse>::get(),

@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__NonLazyBinder_def.hpp"
-namespace Zenject {
-class NonLazyBinder;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Zenject {
 class BindInfo;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+class NonLazyBinder;
 }
 namespace Zenject {
 struct BindingInheritanceMethods;
@@ -69,8 +69,7 @@ constexpr System::Collections::Generic::List_1<Zenject::BindInfo> __get__seconda
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit CopyNonLazyBinder(Zenject::BindInfo bindInfo) ;
+static Zenject::CopyNonLazyBinder New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d4df24 size 0x8 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;

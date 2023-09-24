@@ -3,6 +3,9 @@
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto::Prng::Drbg {
+class ISP80090Drbg;
+}
 namespace Org::BouncyCastle::Crypto::Prng {
 class IDrbgProvider;
 }
@@ -11,9 +14,6 @@ class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
-}
-namespace Org::BouncyCastle::Crypto::Prng::Drbg {
-class ISP80090Drbg;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -94,8 +94,7 @@ constexpr Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg __get_mDrbg() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "randomSource", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "drbgProvider", ty: "Org::BouncyCastle::Crypto::Prng::IDrbgProvider", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }]
-explicit SP800SecureRandom(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::IEntropySource entropySource, Org::BouncyCastle::Crypto::Prng::IDrbgProvider drbgProvider, bool predictionResistant) ;
+static Org::BouncyCastle::Crypto::Prng::SP800SecureRandom New_ctor(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::IEntropySource entropySource, Org::BouncyCastle::Crypto::Prng::IDrbgProvider drbgProvider, bool predictionResistant) ;
 
 /// @brief Method .ctor addr 0xeb5b4c size 0x88 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::IEntropySource entropySource, Org::BouncyCastle::Crypto::Prng::IDrbgProvider drbgProvider, bool predictionResistant) ;

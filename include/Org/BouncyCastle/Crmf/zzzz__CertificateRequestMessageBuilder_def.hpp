@@ -4,58 +4,58 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class SubsequentMessage;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
-}
-namespace Org::BouncyCastle::Crmf {
-class PKMacBuilder;
-}
-namespace Org::BouncyCastle::Crmf {
-class IControl;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PKMacValue;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertTemplateBuilder;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PopoPrivKey;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509ExtensionsGenerator;
+class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509ExtensionsGenerator;
+}
+namespace Org::BouncyCastle::Crmf {
+class PKMacBuilder;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertTemplateBuilder;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PKMacValue;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class SubsequentMessage;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PopoPrivKey;
+}
 namespace Org::BouncyCastle::Crmf {
 class CertificateRequestMessage;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Null;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Crmf {
+class IControl;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -178,8 +178,7 @@ constexpr Org::BouncyCastle::Asn1::Crmf::PKMacValue __get__agreeMac() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certReqId", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit CertificateRequestMessageBuilder(Org::BouncyCastle::Math::BigInteger certReqId) ;
+static Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder New_ctor(Org::BouncyCastle::Math::BigInteger certReqId) ;
 
 /// @brief Method .ctor addr 0x11838d0 size 0xe4 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger certReqId) ;

@@ -2,23 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Crypto {
+class IStreamCalculator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -103,14 +103,12 @@ static System::Collections::IEnumerable __declspec(property(get=get_SignatureAlg
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit Asn1SignatureFactory(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;
+static Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory New_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;
 
 /// @brief Method .ctor addr 0xe9f950 size 0x8 virtual false final false
  void _ctor(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit Asn1SignatureFactory(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey, Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory New_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0xe9f958 size 0x158 virtual false final false
  void _ctor(::StringW algorithm, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateKey, Org::BouncyCastle::Security::SecureRandom random) ;

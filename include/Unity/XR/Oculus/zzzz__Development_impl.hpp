@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__Development_def.hpp"
+#include "Unity/XR/Oculus/zzzz__Development_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Unity::XR::Oculus::Unity__XR__Oculus__Development__UserDeveloperModeSettingCache::Unity__XR__Oculus__Development__UserDeveloperModeSettingCache(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }

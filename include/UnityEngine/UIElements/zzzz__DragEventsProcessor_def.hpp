@@ -4,40 +4,43 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct DragVisualMode;
+struct UnityEngine__UIElements__DragEventsProcessor__DragState;
 }
 namespace UnityEngine::UIElements {
 class PointerDownEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerCancelEvent;
+class PointerUpEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerMoveEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerUpEvent;
+class StartDragArgs;
 }
 namespace UnityEngine::UIElements {
-class DefaultDragAndDropClient;
-}
-namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class PointerLeaveEvent;
 }
 namespace UnityEngine::UIElements {
-class StartDragArgs;
-}
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
+class DefaultDragAndDropClient;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::UIElements {
+class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+struct DragVisualMode;
+}
+namespace UnityEngine::UIElements {
+class PointerCancelEvent;
+}
+namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -96,6 +99,8 @@ __Dragging = 2,
 constexpr operator __UnityEngine__UIElements__DragEventsProcessor__DragState_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__DragEventsProcessor__DragState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -214,8 +219,7 @@ constexpr UnityEngine::UIElements::DefaultDragAndDropClient __get_dragAndDropCli
 /// @brief Method get_isEditorContext addr 0x2c94a1c size 0x120 virtual false final false
  bool get_isEditorContext() ;
 
-// Ctor Parameters [CppParam { name: "target", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }]
-explicit DragEventsProcessor(UnityEngine::UIElements::VisualElement target) ;
+static UnityEngine::UIElements::DragEventsProcessor New_ctor(UnityEngine::UIElements::VisualElement target) ;
 
 /// @brief Method .ctor addr 0x2c91154 size 0x13c virtual false final false
  void _ctor(UnityEngine::UIElements::VisualElement target) ;

@@ -5,15 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
-}
 namespace UnityEngine {
 struct Color;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element;
+}
 namespace UnityEngine {
 struct Color32;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,8 +88,7 @@ constexpr float_t __get_exp() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element() ;
+static GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradient__Element New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f925dc size 0x8 virtual false final false
  void _ctor() ;
@@ -162,8 +164,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColor
 /// @brief Method EvaluateColor addr 0x1f92448 size 0xe0 virtual false final false
  UnityEngine::Color EvaluateColor(float_t t) ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundColorsGradient() ;
+static GlobalNamespace::BloomPrePassBackgroundColorsGradient New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f92528 size 0x54 virtual false final false
  void _ctor() ;

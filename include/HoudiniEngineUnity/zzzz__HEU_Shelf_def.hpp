@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace HoudiniEngineUnity {
-class HEU_ShelfToolData;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_ShelfToolData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -82,8 +82,7 @@ constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfTool
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_Shelf() ;
+static HoudiniEngineUnity::HEU_Shelf New_ctor() ;
 
 /// @brief Method .ctor addr 0x205ee74 size 0x7c virtual false final false
  void _ctor() ;

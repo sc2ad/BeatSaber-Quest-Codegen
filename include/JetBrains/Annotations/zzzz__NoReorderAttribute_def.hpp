@@ -47,8 +47,7 @@ constexpr explicit NoReorderAttribute(void* ptr) noexcept : System::Attribute(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit NoReorderAttribute() ;
+static JetBrains::Annotations::NoReorderAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41280 size 0x8 virtual false final false
  void _ctor() ;

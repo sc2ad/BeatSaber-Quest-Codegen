@@ -93,8 +93,7 @@ static void set_current(UnityEngine::InputSystem::AttitudeSensor value) ;
 /// @brief Method FinishSetup addr 0x29159d4 size 0x78 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit AttitudeSensor() ;
+static UnityEngine::InputSystem::AttitudeSensor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2915a4c size 0x8 virtual false final false
  void _ctor() ;

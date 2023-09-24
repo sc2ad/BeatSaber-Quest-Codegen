@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
 namespace Org::BouncyCastle::Crypto::Digests {
 class SkeinEngine;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Crypto::Digests::SkeinEngine __get_engine() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stateSizeBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "digestSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SkeinMac(int32_t stateSizeBits, int32_t digestSizeBits) ;
+static Org::BouncyCastle::Crypto::Macs::SkeinMac New_ctor(int32_t stateSizeBits, int32_t digestSizeBits) ;
 
 /// @brief Method .ctor addr 0xe84dc8 size 0x84 virtual false final false
  void _ctor(int32_t stateSizeBits, int32_t digestSizeBits) ;
 
-// Ctor Parameters [CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::Macs::SkeinMac", modifiers: "", def_value: None }]
-explicit SkeinMac(Org::BouncyCastle::Crypto::Macs::SkeinMac mac) ;
+static Org::BouncyCastle::Crypto::Macs::SkeinMac New_ctor(Org::BouncyCastle::Crypto::Macs::SkeinMac mac) ;
 
 /// @brief Method .ctor addr 0xe84e4c size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Macs::SkeinMac mac) ;

@@ -91,8 +91,10 @@ constexpr UnityEngine::TextCore::Text::ColorGradientMode  UnityEngine::TextCore:
  UnityEngine::Color UnityEngine::TextCore::Text::TextColorGradient::__get_k_DefaultColor()  {
 return ::cordl_internals::getStaticField<UnityEngine::Color, "k_DefaultColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::TextColorGradient>::get>();
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::TextColorGradient::TextColorGradient()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TextColorGradient>())) {}
+ UnityEngine::TextCore::Text::TextColorGradient UnityEngine::TextCore::Text::TextColorGradient::New_ctor()  {
+UnityEngine::TextCore::Text::TextColorGradient o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::TextColorGradient>())};
+return o;
+}
  void UnityEngine::TextCore::Text::TextColorGradient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::TextColorGradient>::get(),
@@ -102,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "color", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
- UnityEngine::TextCore::Text::TextColorGradient::TextColorGradient(UnityEngine::Color color)  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TextColorGradient>(color))) {}
+ UnityEngine::TextCore::Text::TextColorGradient UnityEngine::TextCore::Text::TextColorGradient::New_ctor(UnityEngine::Color color)  {
+UnityEngine::TextCore::Text::TextColorGradient o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::TextColorGradient>(color))};
+return o;
+}
  void UnityEngine::TextCore::Text::TextColorGradient::_ctor(UnityEngine::Color color)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::TextColorGradient>::get(),
@@ -113,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters [CppParam { name: "color0", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "color1", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "color2", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "color3", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
- UnityEngine::TextCore::Text::TextColorGradient::TextColorGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TextColorGradient>(color0, color1, color2, color3))) {}
+ UnityEngine::TextCore::Text::TextColorGradient UnityEngine::TextCore::Text::TextColorGradient::New_ctor(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)  {
+UnityEngine::TextCore::Text::TextColorGradient o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::TextColorGradient>(color0, color1, color2, color3))};
+return o;
+}
  void UnityEngine::TextCore::Text::TextColorGradient::_ctor(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::TextColorGradient>::get(),

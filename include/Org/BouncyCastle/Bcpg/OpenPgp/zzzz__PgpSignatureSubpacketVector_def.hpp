@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Bcpg::Sig {
+class NotationData;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct SignatureSubpacketTag;
 }
@@ -15,9 +18,6 @@ struct DateTime;
 }
 namespace Org::BouncyCastle::Bcpg::Sig {
 class Features;
-}
-namespace Org::BouncyCastle::Bcpg::Sig {
-class NotationData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -81,8 +81,7 @@ constexpr ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> __get_packets() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "packets", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }]
-explicit PgpSignatureSubpacketVector(::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> packets) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector New_ctor(::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> packets) ;
 
 /// @brief Method .ctor addr 0x103d700 size 0x28 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> packets) ;

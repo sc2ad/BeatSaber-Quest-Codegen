@@ -77,8 +77,7 @@ constexpr ::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint> __get_m_preCom
 /// @brief Method set_PreComp addr 0xfadc4c size 0x8 virtual true final false
  void set_PreComp(::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint> value) ;
 
-// Ctor Parameters []
-explicit WTauNafPreCompInfo() ;
+static Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0xfadc3c size 0x8 virtual false final false
  void _ctor() ;

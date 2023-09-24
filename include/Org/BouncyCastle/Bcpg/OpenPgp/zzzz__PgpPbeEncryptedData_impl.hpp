@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpEncryptedData_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPbeEncryptedData_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyAlgorithmTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyEncSessionPacket_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__InputStreamPacket_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyEncSessionPacket_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData._ctor
 template<>
 
@@ -131,8 +131,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::__set_keyD
 constexpr Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::__get_keyData() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "keyData", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket", modifiers: "", def_value: None }, CppParam { name: "encData", ty: "Org::BouncyCastle::Bcpg::InputStreamPacket", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::PgpPbeEncryptedData(Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket keyData, Org::BouncyCastle::Bcpg::InputStreamPacket encData)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData(THROW_UNLESS(::il2cpp_utils::New<PgpPbeEncryptedData>(keyData, encData))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::New_ctor(Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket keyData, Org::BouncyCastle::Bcpg::InputStreamPacket encData)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData>(keyData, encData))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::_ctor(Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket keyData, Org::BouncyCastle::Bcpg::InputStreamPacket encData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData>::get(),

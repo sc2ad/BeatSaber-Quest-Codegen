@@ -42,8 +42,10 @@ constexpr void System::Xml::XmlRawWriterBase64Encoder::__set_rawWriter(System::X
 constexpr System::Xml::XmlRawWriter System::Xml::XmlRawWriterBase64Encoder::__get_rawWriter() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlRawWriter, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rawWriter", ty: "System::Xml::XmlRawWriter", modifiers: "", def_value: None }]
- System::Xml::XmlRawWriterBase64Encoder::XmlRawWriterBase64Encoder(System::Xml::XmlRawWriter rawWriter)  : System::Xml::Base64Encoder(THROW_UNLESS(::il2cpp_utils::New<XmlRawWriterBase64Encoder>(rawWriter))) {}
+ System::Xml::XmlRawWriterBase64Encoder System::Xml::XmlRawWriterBase64Encoder::New_ctor(System::Xml::XmlRawWriter rawWriter)  {
+System::Xml::XmlRawWriterBase64Encoder o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlRawWriterBase64Encoder>(rawWriter))};
+return o;
+}
  void System::Xml::XmlRawWriterBase64Encoder::_ctor(System::Xml::XmlRawWriter rawWriter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlRawWriterBase64Encoder>::get(),

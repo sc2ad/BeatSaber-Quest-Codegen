@@ -106,8 +106,7 @@ constexpr float_t __get__lastFrameDeltaSongTime_k__BackingField() const;
 /// @brief Method Update addr 0x20bbbb8 size 0x38 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit MockAudioTimeSource() ;
+static GlobalNamespace::MockAudioTimeSource New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bbbf0 size 0x8 virtual false final false
  void _ctor() ;

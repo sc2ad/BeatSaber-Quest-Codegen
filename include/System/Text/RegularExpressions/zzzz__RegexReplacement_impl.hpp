@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__RegexReplacement_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__WeakReference_1_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::RegexReplacement._ctor
 template<>
 
@@ -128,8 +128,10 @@ constexpr void System::Text::RegularExpressions::RegexReplacement::__set__Patter
 constexpr ::StringW System::Text::RegularExpressions::RegexReplacement::__get__Pattern_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "rep", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "concat", ty: "System::Text::RegularExpressions::RegexNode", modifiers: "", def_value: None }, CppParam { name: "_caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexReplacement::RegexReplacement(::StringW rep, System::Text::RegularExpressions::RegexNode concat, System::Collections::Hashtable _caps)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexReplacement>(rep, concat, _caps))) {}
+ System::Text::RegularExpressions::RegexReplacement System::Text::RegularExpressions::RegexReplacement::New_ctor(::StringW rep, System::Text::RegularExpressions::RegexNode concat, System::Collections::Hashtable _caps)  {
+System::Text::RegularExpressions::RegexReplacement o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexReplacement>(rep, concat, _caps))};
+return o;
+}
  void System::Text::RegularExpressions::RegexReplacement::_ctor(::StringW rep, System::Text::RegularExpressions::RegexNode concat, System::Collections::Hashtable _caps)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexReplacement>::get(),

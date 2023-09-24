@@ -3,11 +3,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::TextCore::Text {
-class TextInfo;
+namespace UnityEngine::UIElements {
+class ITextHandle;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::TextCore::Text {
+class TextGenerationSettings;
 }
 namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
@@ -19,10 +22,7 @@ namespace UnityEngine::TextCore::Text {
 struct TextOverflowMode;
 }
 namespace UnityEngine::TextCore::Text {
-class TextGenerationSettings;
-}
-namespace UnityEngine::UIElements {
-class ITextHandle;
+class TextInfo;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

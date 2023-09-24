@@ -5,20 +5,14 @@
 #include <cstdint>
 namespace System::Collections::Generic {
 template<typename T>
-class ICollection_1;
-}
-namespace System::Collections {
-class IEnumerable;
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
+class IEqualityComparer_1;
 }
 namespace System::Collections {
 class IEqualityComparer;
-}
-namespace System::Collections {
-class IList;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -26,24 +20,30 @@ class Func_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEqualityComparer_1;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class ICollection_1;
 }
 namespace System::Reflection {
 class ConstructorInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class List_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

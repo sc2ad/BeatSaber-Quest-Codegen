@@ -4,37 +4,37 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace UnityEngine {
-class Sprite;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelData;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace UnityEngine {
-class AudioClip;
+class Sprite;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace UnityEngine {
+class AudioClip;
+}
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -191,8 +191,7 @@ constexpr GlobalNamespace::IBeatmapLevelData __get__beatmapLevelData_k__BackingF
 /// @brief Method get_beatmapLevelData addr 0x21ea944 size 0x8 virtual true final true
  GlobalNamespace::IBeatmapLevelData get_beatmapLevelData() ;
 
-// Ctor Parameters []
-explicit EmptyBeatmapLevel() ;
+static GlobalNamespace::EmptyBeatmapLevel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ea94c size 0x6c virtual false final false
  void _ctor() ;

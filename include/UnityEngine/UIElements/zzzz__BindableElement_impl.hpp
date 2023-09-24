@@ -4,10 +4,11 @@
 #include "UnityEngine/UIElements/zzzz__BindableElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IBindable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IBinding_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BindableElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits._ctor
 template<>
 
@@ -48,8 +49,10 @@ constexpr void UnityEngine::UIElements::UnityEngine__UIElements__BindableElement
 constexpr UnityEngine::UIElements::UxmlStringAttributeDescription UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits::__get_m_PropertyPath() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UxmlStringAttributeDescription, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits::UnityEngine__UIElements__BindableElement__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__BindableElement__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits>::get(),
@@ -153,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::BindableElement::BindableElement()  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<BindableElement>())) {}
+ UnityEngine::UIElements::BindableElement UnityEngine::UIElements::BindableElement::New_ctor()  {
+UnityEngine::UIElements::BindableElement o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::BindableElement>())};
+return o;
+}
  void UnityEngine::UIElements::BindableElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::BindableElement>::get(),
@@ -181,8 +186,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlFactory::UnityEngine__UIElements__BindableElement__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::BindableElement,UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__BindableElement__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlFactory>::get(),

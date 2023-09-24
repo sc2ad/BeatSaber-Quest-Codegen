@@ -1,9 +1,9 @@
 #pragma once
 #include "Mono/Net/Security/zzzz__MonoTlsProviderFactory_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
 //  Writing Method size for method: Mono::Net::Security::MonoTlsProviderFactory.GetProviderInternal
 template<>
 

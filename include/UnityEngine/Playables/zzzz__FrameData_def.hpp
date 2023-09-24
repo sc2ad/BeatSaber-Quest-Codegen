@@ -4,10 +4,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Playables {
-struct PlayState;
+struct PlayableOutput;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutput;
+struct UnityEngine__Playables__FrameData__Flags;
+}
+namespace UnityEngine::Playables {
+struct UnityEngine__Playables__FrameData__EvaluationType;
+}
+namespace UnityEngine::Playables {
+struct PlayState;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -72,6 +78,8 @@ __EffectivePlayStatePlaying = 32,
 constexpr operator __UnityEngine__Playables__FrameData__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Playables__FrameData__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -153,6 +161,8 @@ __Playback = 1,
 constexpr operator __UnityEngine__Playables__FrameData__EvaluationType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Playables__FrameData__EvaluationType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

@@ -63,8 +63,7 @@ constexpr ::StringW __get__msg() const;
 /// @brief Method AssetCallbackNoMsg addr 0x1fd97dc size 0x68 virtual false final false
  void AssetCallbackNoMsg() ;
 
-// Ctor Parameters []
-explicit HEU_ScriptCallbackExample() ;
+static GlobalNamespace::HEU_ScriptCallbackExample New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd9844 size 0x8 virtual false final false
  void _ctor() ;

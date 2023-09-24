@@ -11,6 +11,9 @@ class BigInteger;
 namespace System::Security::Cryptography {
 class RandomNumberGenerator;
 }
+namespace Mono::Security::Cryptography {
+class Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler;
+}
 namespace System::Security::Cryptography {
 struct DSAParameters;
 }
@@ -66,8 +69,7 @@ constexpr explicit Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged__KeyGeneratedEventHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x22bad78 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -213,8 +215,7 @@ constexpr Mono::Security::Cryptography::Mono__Security__Cryptography__DSAManaged
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DSAManaged(int32_t dwKeySize) ;
+static Mono::Security::Cryptography::DSAManaged New_ctor(int32_t dwKeySize) ;
 
 /// @brief Method .ctor addr 0x22b91f8 size 0xe0 virtual false final false
  void _ctor(int32_t dwKeySize) ;

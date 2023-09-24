@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectLevelDestination_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SelectLevelDestination._ctor
 template<>
 
@@ -46,8 +46,10 @@ constexpr void GlobalNamespace::SelectLevelDestination::__set_beatmapCharacteris
 constexpr GlobalNamespace::BeatmapCharacteristicSO GlobalNamespace::SelectLevelDestination::__get_beatmapCharacteristic() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BeatmapCharacteristicSO, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }]
- GlobalNamespace::SelectLevelDestination::SelectLevelDestination(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  : GlobalNamespace::MenuDestination(THROW_UNLESS(::il2cpp_utils::New<SelectLevelDestination>(beatmapLevelPack, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic))) {}
+ GlobalNamespace::SelectLevelDestination GlobalNamespace::SelectLevelDestination::New_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  {
+GlobalNamespace::SelectLevelDestination o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectLevelDestination>(beatmapLevelPack, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic))};
+return o;
+}
  void GlobalNamespace::SelectLevelDestination::_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectLevelDestination>::get(),

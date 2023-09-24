@@ -120,8 +120,10 @@ constexpr void System::Xml::BitStack::__set_curr(uint32_t value)  {
 constexpr uint32_t System::Xml::BitStack::__get_curr() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::BitStack::BitStack()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BitStack>())) {}
+ System::Xml::BitStack System::Xml::BitStack::New_ctor()  {
+System::Xml::BitStack o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::BitStack>())};
+return o;
+}
  void System::Xml::BitStack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::BitStack>::get(),

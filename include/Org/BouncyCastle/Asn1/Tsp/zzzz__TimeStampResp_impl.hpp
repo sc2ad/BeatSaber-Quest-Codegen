@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Tsp/zzzz__TimeStampResp_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatusInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Tsp::TimeStampResp.GetInstance
 template<>
@@ -128,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Tsp::TimeStampResp, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Tsp::TimeStampResp::TimeStampResp(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<TimeStampResp>(seq))) {}
+ Org::BouncyCastle::Asn1::Tsp::TimeStampResp Org::BouncyCastle::Asn1::Tsp::TimeStampResp::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Tsp::TimeStampResp o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Tsp::TimeStampResp>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Tsp::TimeStampResp::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Tsp::TimeStampResp>::get(),
@@ -139,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "pkiStatusInfo", ty: "Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo", modifiers: "", def_value: None }, CppParam { name: "timeStampToken", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Tsp::TimeStampResp::TimeStampResp(Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo pkiStatusInfo, Org::BouncyCastle::Asn1::Cms::ContentInfo timeStampToken)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<TimeStampResp>(pkiStatusInfo, timeStampToken))) {}
+ Org::BouncyCastle::Asn1::Tsp::TimeStampResp Org::BouncyCastle::Asn1::Tsp::TimeStampResp::New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo pkiStatusInfo, Org::BouncyCastle::Asn1::Cms::ContentInfo timeStampToken)  {
+Org::BouncyCastle::Asn1::Tsp::TimeStampResp o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Tsp::TimeStampResp>(pkiStatusInfo, timeStampToken))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Tsp::TimeStampResp::_ctor(Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo pkiStatusInfo, Org::BouncyCastle::Asn1::Cms::ContentInfo timeStampToken)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Tsp::TimeStampResp>::get(),

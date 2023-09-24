@@ -4,6 +4,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace TMPro {
+struct TMPro__TMP_Compatibility__AnchorPositions;
+}
+namespace TMPro {
 struct TextAlignmentOptions;
 }
 // Forward declare root types
@@ -71,6 +74,8 @@ __None = 10,
 constexpr operator __TMPro__TMP_Compatibility__AnchorPositions_Unwrapped () const noexcept {
 return std::bit_cast<__TMPro__TMP_Compatibility__AnchorPositions_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

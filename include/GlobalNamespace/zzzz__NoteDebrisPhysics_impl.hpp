@@ -97,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, force);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteDebrisPhysics::NoteDebrisPhysics()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteDebrisPhysics>())) {}
+ GlobalNamespace::NoteDebrisPhysics GlobalNamespace::NoteDebrisPhysics::New_ctor()  {
+GlobalNamespace::NoteDebrisPhysics o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteDebrisPhysics>())};
+return o;
+}
  void GlobalNamespace::NoteDebrisPhysics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteDebrisPhysics>::get(),

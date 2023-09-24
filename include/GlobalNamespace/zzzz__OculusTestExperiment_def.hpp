@@ -8,17 +8,23 @@ namespace GlobalNamespace {
 class IExperimentData;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__OculusTestExperiment___Init_d__3;
+}
+namespace GlobalNamespace {
 class IExperimentModel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusTestExperiment__ExperimentData;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -92,8 +98,7 @@ constexpr ::StringW __get__experimentPlatformKey() const;
 /// @brief Method get_experimentPlatformKey addr 0x21bf954 size 0x8 virtual true final true
  ::StringW get_experimentPlatformKey() ;
 
-// Ctor Parameters [CppParam { name: "experimentPlatformKey", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OculusTestExperiment__ExperimentData(::StringW experimentPlatformKey) ;
+static GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData New_ctor(::StringW experimentPlatformKey) ;
 
 /// @brief Method .ctor addr 0x21bf95c size 0x28 virtual false final false
  void _ctor(::StringW experimentPlatformKey) ;
@@ -246,8 +251,7 @@ constexpr GlobalNamespace::IExperimentModel __get__experimentModel() const;
 /// @brief Method Init addr 0x21bf8b8 size 0x94 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit OculusTestExperiment() ;
+static GlobalNamespace::OculusTestExperiment New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bf94c size 0x8 virtual false final false
  void _ctor() ;

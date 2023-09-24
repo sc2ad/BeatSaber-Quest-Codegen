@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__ZenjectMoqExtensions_def.hpp"
 #include "Zenject/zzzz__FromBinderGeneric_1_def.hpp"
+#include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__FactoryFromBinder_1_def.hpp"
-#include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"
 template<typename TContract>
  Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder Zenject::ZenjectMoqExtensions::FromMock(Zenject::FromBinderGeneric_1<TContract> binder)  {
 static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(

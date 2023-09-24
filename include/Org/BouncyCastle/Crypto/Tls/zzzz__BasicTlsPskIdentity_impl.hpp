@@ -119,8 +119,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::__set_mPsk(:
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::__get_mPsk() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "psk", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::BasicTlsPskIdentity(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> psk)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BasicTlsPskIdentity>(identity, psk))) {}
+ Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::New_ctor(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> psk)  {
+Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity>(identity, psk))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::_ctor(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> psk)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity>::get(),
@@ -130,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, identity, psk);
 }
-// Ctor Parameters [CppParam { name: "identity", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "psk", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::BasicTlsPskIdentity(::StringW identity, ::ArrayW<uint8_t> psk)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BasicTlsPskIdentity>(identity, psk))) {}
+ Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::New_ctor(::StringW identity, ::ArrayW<uint8_t> psk)  {
+Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity>(identity, psk))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::_ctor(::StringW identity, ::ArrayW<uint8_t> psk)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity>::get(),

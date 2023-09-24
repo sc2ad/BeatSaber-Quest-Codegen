@@ -7,6 +7,31 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__OVRSkeleton__SkeletonPoseData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSkeleton__SkeletonType;
+}
+namespace GlobalNamespace {
+class OVRBoneCapsule;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSkeleton__IOVRSkeletonDataProvider;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Skeleton2;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
 class OVRBone;
 }
 namespace System::Collections::Generic {
@@ -17,29 +42,16 @@ namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class OVRBoneCapsule;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class GameObject;
+struct GlobalNamespace__OVRSkeleton__BoneId;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Skeleton2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Quatf;
+struct GlobalNamespace__OVRPlugin__Posef;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Vector3f;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__Posef;
+struct GlobalNamespace__OVRPlugin__Quatf;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -296,6 +308,8 @@ constexpr operator __GlobalNamespace__OVRSkeleton__SkeletonType_Unwrapped () con
 return std::bit_cast<__GlobalNamespace__OVRSkeleton__SkeletonType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -469,6 +483,8 @@ __Max = 70,
 constexpr operator __GlobalNamespace__OVRSkeleton__BoneId_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRSkeleton__BoneId_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1075,8 +1091,7 @@ constexpr int32_t __get__SkeletonChangedCount_k__BackingField() const;
 /// @brief Method BoneLabelFromBoneId addr 0x2632968 size 0x518 virtual false final false
 static ::StringW BoneLabelFromBoneId(GlobalNamespace::GlobalNamespace__OVRSkeleton__SkeletonType skeletonType, GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId boneId) ;
 
-// Ctor Parameters []
-explicit OVRSkeleton() ;
+static GlobalNamespace::OVRSkeleton New_ctor() ;
 
 /// @brief Method .ctor addr 0x26335e8 size 0x24 virtual false final false
  void _ctor() ;

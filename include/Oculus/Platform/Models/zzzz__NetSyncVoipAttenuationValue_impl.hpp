@@ -29,8 +29,10 @@ constexpr void Oculus::Platform::Models::NetSyncVoipAttenuationValue::__set_Dist
 constexpr float_t Oculus::Platform::Models::NetSyncVoipAttenuationValue::__get_Distance() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::NetSyncVoipAttenuationValue::NetSyncVoipAttenuationValue(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetSyncVoipAttenuationValue>(o))) {}
+ Oculus::Platform::Models::NetSyncVoipAttenuationValue Oculus::Platform::Models::NetSyncVoipAttenuationValue::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::NetSyncVoipAttenuationValue o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::NetSyncVoipAttenuationValue>(o))};
+return o;
+}
  void Oculus::Platform::Models::NetSyncVoipAttenuationValue::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::NetSyncVoipAttenuationValue>::get(),

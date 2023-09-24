@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipherFactory;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPskIdentity;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDHVerifier;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
+class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
+class TlsDHVerifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -79,20 +79,17 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsPskIdentity __get_mPskIdentity() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pskIdentity", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentity", modifiers: "", def_value: None }]
-explicit PskTlsClient(Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity) ;
+static Org::BouncyCastle::Crypto::Tls::PskTlsClient New_ctor(Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity) ;
 
 /// @brief Method .ctor addr 0xf05dcc size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity) ;
 
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "pskIdentity", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentity", modifiers: "", def_value: None }]
-explicit PskTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity) ;
+static Org::BouncyCastle::Crypto::Tls::PskTlsClient New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity) ;
 
 /// @brief Method .ctor addr 0xf05e40 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity) ;
 
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "dhVerifier", ty: "Org::BouncyCastle::Crypto::Tls::TlsDHVerifier", modifiers: "", def_value: None }, CppParam { name: "pskIdentity", ty: "Org::BouncyCastle::Crypto::Tls::TlsPskIdentity", modifiers: "", def_value: None }]
-explicit PskTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity) ;
+static Org::BouncyCastle::Crypto::Tls::PskTlsClient New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity) ;
 
 /// @brief Method .ctor addr 0xf05ec0 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Tls::TlsPskIdentity pskIdentity) ;

@@ -2,16 +2,17 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupModel_def.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "GlobalNamespace/zzzz__QuickPlaySetupModel_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/zzzz__UriBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB._ctor
 template<>
 
@@ -35,8 +36,10 @@ constexpr void GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlayS
 constexpr ::ArrayW<GlobalNamespace::QuickPlaySetupData> GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB::__get_data() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::QuickPlaySetupData>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB>())) {}
+ GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB::New_ctor()  {
+GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__QuickPlaySetupModel__QuickPlaySetupDataFB>::get(),
@@ -340,8 +343,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, url);
 }
-// Ctor Parameters []
- GlobalNamespace::QuickPlaySetupModel::QuickPlaySetupModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<QuickPlaySetupModel>())) {}
+ GlobalNamespace::QuickPlaySetupModel GlobalNamespace::QuickPlaySetupModel::New_ctor()  {
+GlobalNamespace::QuickPlaySetupModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::QuickPlaySetupModel>())};
+return o;
+}
  void GlobalNamespace::QuickPlaySetupModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::QuickPlaySetupModel>::get(),

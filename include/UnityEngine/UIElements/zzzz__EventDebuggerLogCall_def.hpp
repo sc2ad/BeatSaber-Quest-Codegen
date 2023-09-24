@@ -1,14 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
+namespace System {
+class Delegate;
+}
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Delegate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

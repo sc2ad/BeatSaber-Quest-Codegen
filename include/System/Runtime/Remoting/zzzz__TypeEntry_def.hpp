@@ -70,8 +70,7 @@ constexpr ::StringW __get_type_name() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TypeEntry() ;
+static System::Runtime::Remoting::TypeEntry New_ctor() ;
 
 /// @brief Method .ctor addr 0x23293f0 size 0x8 virtual false final false
  void _ctor() ;

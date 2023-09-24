@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct PlayableOutputHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PbmParameter;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMacFactory;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PbmParameter;
 }
 namespace Org::BouncyCastle::Crmf {
 class IPKMacPrimitivesProvider;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -115,32 +115,27 @@ constexpr int32_t __get_maxIterations() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PKMacBuilder() ;
+static Org::BouncyCastle::Crmf::PKMacBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x118723c size 0x174 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "provider", ty: "Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider", modifiers: "", def_value: None }]
-explicit PKMacBuilder(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider) ;
+static Org::BouncyCastle::Crmf::PKMacBuilder New_ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider) ;
 
 /// @brief Method .ctor addr 0x11873fc size 0x14c virtual false final false
  void _ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider) ;
 
-// Ctor Parameters [CppParam { name: "provider", ty: "Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "macAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit PKMacBuilder(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier) ;
+static Org::BouncyCastle::Crmf::PKMacBuilder New_ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier) ;
 
 /// @brief Method .ctor addr 0x1187548 size 0x4c virtual false final false
  void _ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier) ;
 
-// Ctor Parameters [CppParam { name: "provider", ty: "Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider", modifiers: "", def_value: None }, CppParam { name: "maxIterations", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PKMacBuilder(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, int32_t maxIterations) ;
+static Org::BouncyCastle::Crmf::PKMacBuilder New_ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, int32_t maxIterations) ;
 
 /// @brief Method .ctor addr 0x1187594 size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, int32_t maxIterations) ;
 
-// Ctor Parameters [CppParam { name: "digestAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "macAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider", modifiers: "", def_value: None }]
-explicit PKMacBuilder(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier, Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider) ;
+static Org::BouncyCastle::Crmf::PKMacBuilder New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier, Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider) ;
 
 /// @brief Method .ctor addr 0x11873b0 size 0x4c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier, Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider) ;

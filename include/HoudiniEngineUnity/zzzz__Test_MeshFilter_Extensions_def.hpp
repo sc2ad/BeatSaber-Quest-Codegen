@@ -2,15 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace HoudiniEngineUnity {
-class Test_MeshFilter;
-}
 namespace System {
 template<typename TInput,typename TOutput>
 class Converter_2;
 }
 namespace UnityEngine {
 class MeshFilter;
+}
+namespace HoudiniEngineUnity {
+class Test_MeshFilter;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__Test_MeshFilter_Extensions____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -86,8 +89,7 @@ static System::Converter_2<UnityEngine::MeshFilter,HoudiniEngineUnity::Test_Mesh
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__Test_MeshFilter_Extensions____c() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__Test_MeshFilter_Extensions____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2073ffc size 0x8 virtual false final false
  void _ctor() ;

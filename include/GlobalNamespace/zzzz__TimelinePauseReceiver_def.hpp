@@ -3,9 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::Playables {
-class INotificationReceiver;
-}
-namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace System {
@@ -13,6 +10,9 @@ class Action;
 }
 namespace UnityEngine::Playables {
 class INotification;
+}
+namespace UnityEngine::Playables {
+class INotificationReceiver;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,8 +81,7 @@ constexpr System::Action __get_timelinePauseEvent() const;
 /// @brief Method OnNotify addr 0x1f83b84 size 0x94 virtual true final true
  void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification notification, ::bs_hook::Il2CppWrapperType context) ;
 
-// Ctor Parameters []
-explicit TimelinePauseReceiver() ;
+static GlobalNamespace::TimelinePauseReceiver New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83c18 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,19 +1,19 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformAuthenticationTokenProvider_def.hpp"
+#include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
+#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformAuthenticationTokenProvider_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
-#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
-#include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
-#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
+#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16.MoveNext
 template<>
 
@@ -508,8 +508,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "platformUserModel", ty: "GlobalNamespace::IPlatformUserModel", modifiers: "", def_value: None }, CppParam { name: "userInfo", ty: "GlobalNamespace::UserInfo", modifiers: "", def_value: None }]
- GlobalNamespace::PlatformAuthenticationTokenProvider::PlatformAuthenticationTokenProvider(GlobalNamespace::IPlatformUserModel platformUserModel, GlobalNamespace::UserInfo userInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlatformAuthenticationTokenProvider>(platformUserModel, userInfo))) {}
+ GlobalNamespace::PlatformAuthenticationTokenProvider GlobalNamespace::PlatformAuthenticationTokenProvider::New_ctor(GlobalNamespace::IPlatformUserModel platformUserModel, GlobalNamespace::UserInfo userInfo)  {
+GlobalNamespace::PlatformAuthenticationTokenProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlatformAuthenticationTokenProvider>(platformUserModel, userInfo))};
+return o;
+}
  void GlobalNamespace::PlatformAuthenticationTokenProvider::_ctor(GlobalNamespace::IPlatformUserModel platformUserModel, GlobalNamespace::UserInfo userInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlatformAuthenticationTokenProvider>::get(),

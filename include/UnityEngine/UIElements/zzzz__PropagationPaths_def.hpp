@@ -7,15 +7,18 @@ namespace UnityEngine::UIElements {
 template<typename T>
 class ObjectPool_1;
 }
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+struct UnityEngine__UIElements__PropagationPaths__Type;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -74,6 +77,8 @@ __BubbleUp = 2,
 constexpr operator __UnityEngine__UIElements__PropagationPaths__Type_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__PropagationPaths__Type_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -174,8 +179,7 @@ static constexpr int32_t  k_DefaultTargetCount{4};
 
 // Methods
 
-// Ctor Parameters []
-explicit PropagationPaths() ;
+static UnityEngine::UIElements::PropagationPaths New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd5390 size 0xcc virtual false final false
  void _ctor() ;

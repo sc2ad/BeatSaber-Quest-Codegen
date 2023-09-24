@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__RegexFC_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::RegexFC._ctor
 template<>
 
@@ -139,8 +139,10 @@ constexpr void System::Text::RegularExpressions::RegexFC::__set__CaseInsensitive
 constexpr bool System::Text::RegularExpressions::RegexFC::__get__CaseInsensitive_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x19>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "nullable", ty: "bool", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexFC::RegexFC(bool nullable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexFC>(nullable))) {}
+ System::Text::RegularExpressions::RegexFC System::Text::RegularExpressions::RegexFC::New_ctor(bool nullable)  {
+System::Text::RegularExpressions::RegexFC o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexFC>(nullable))};
+return o;
+}
  void System::Text::RegularExpressions::RegexFC::_ctor(bool nullable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexFC>::get(),
@@ -150,8 +152,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, nullable);
 }
-// Ctor Parameters [CppParam { name: "ch", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "not", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nullable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "caseInsensitive", ty: "bool", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexFC::RegexFC(char16_t ch, bool not, bool nullable, bool caseInsensitive)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexFC>(ch, not, nullable, caseInsensitive))) {}
+ System::Text::RegularExpressions::RegexFC System::Text::RegularExpressions::RegexFC::New_ctor(char16_t ch, bool not, bool nullable, bool caseInsensitive)  {
+System::Text::RegularExpressions::RegexFC o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexFC>(ch, not, nullable, caseInsensitive))};
+return o;
+}
  void System::Text::RegularExpressions::RegexFC::_ctor(char16_t ch, bool not, bool nullable, bool caseInsensitive)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexFC>::get(),
@@ -161,8 +165,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ch, not, nullable, caseInsensitive);
 }
-// Ctor Parameters [CppParam { name: "charClass", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nullable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "caseInsensitive", ty: "bool", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexFC::RegexFC(::StringW charClass, bool nullable, bool caseInsensitive)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexFC>(charClass, nullable, caseInsensitive))) {}
+ System::Text::RegularExpressions::RegexFC System::Text::RegularExpressions::RegexFC::New_ctor(::StringW charClass, bool nullable, bool caseInsensitive)  {
+System::Text::RegularExpressions::RegexFC o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexFC>(charClass, nullable, caseInsensitive))};
+return o;
+}
  void System::Text::RegularExpressions::RegexFC::_ctor(::StringW charClass, bool nullable, bool caseInsensitive)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexFC>::get(),

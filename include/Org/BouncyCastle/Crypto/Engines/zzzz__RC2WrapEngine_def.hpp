@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
-}
 namespace Org::BouncyCastle::Crypto::Modes {
 class CbcBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IWrapper;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ParametersWithIV;
 }
 namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -151,8 +151,7 @@ constexpr ::ArrayW<uint8_t> __get_digest() const;
 /// @brief Method CheckCmsKeyChecksum addr 0xe4e36c size 0x80 virtual false final false
  bool CheckCmsKeyChecksum(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> checksum) ;
 
-// Ctor Parameters []
-explicit RC2WrapEngine() ;
+static Org::BouncyCastle::Crypto::Engines::RC2WrapEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe4e480 size 0x8c virtual false final false
  void _ctor() ;

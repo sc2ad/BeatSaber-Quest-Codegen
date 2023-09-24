@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Tsp {
@@ -100,14 +100,12 @@ constexpr Org::BouncyCastle::Asn1::DerInteger __get_micros() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seconds", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "millis", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "micros", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
-explicit Accuracy(Org::BouncyCastle::Asn1::DerInteger seconds, Org::BouncyCastle::Asn1::DerInteger millis, Org::BouncyCastle::Asn1::DerInteger micros) ;
+static Org::BouncyCastle::Asn1::Tsp::Accuracy New_ctor(Org::BouncyCastle::Asn1::DerInteger seconds, Org::BouncyCastle::Asn1::DerInteger millis, Org::BouncyCastle::Asn1::DerInteger micros) ;
 
 /// @brief Method .ctor addr 0xfeb760 size 0xe4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerInteger seconds, Org::BouncyCastle::Asn1::DerInteger millis, Org::BouncyCastle::Asn1::DerInteger micros) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Accuracy(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Tsp::Accuracy New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xfeb844 size 0x310 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

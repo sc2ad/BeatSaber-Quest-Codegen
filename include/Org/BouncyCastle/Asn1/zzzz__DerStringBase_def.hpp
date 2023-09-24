@@ -55,8 +55,7 @@ constexpr explicit DerStringBase(void* ptr) noexcept : Org::BouncyCastle::Asn1::
 
 // Methods
 
-// Ctor Parameters []
-explicit DerStringBase() ;
+static Org::BouncyCastle::Asn1::DerStringBase New_ctor() ;
 
 /// @brief Method .ctor addr 0xddd4b8 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,24 +5,10 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class GameServerListDetailTableCell;
-}
-namespace GlobalNamespace {
 class INetworkPlayer;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class TableViewWithDetailCell;
-}
-namespace GlobalNamespace {
-class GameServerListTableCell;
+namespace HMUI {
+class TableView;
 }
 namespace Zenject {
 class DiContainer;
@@ -31,10 +17,24 @@ namespace HMUI {
 class TableCell;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__TableViewWithDetailCell__IDataSource;
+class GameServerListDetailTableCell;
 }
-namespace HMUI {
-class TableView;
+namespace GlobalNamespace {
+class GameServerListTableCell;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace GlobalNamespace {
+class TableViewWithDetailCell;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__TableViewWithDetailCell__IDataSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -178,8 +178,7 @@ constexpr GlobalNamespace::INetworkPlayer __get__selectedServer() const;
 /// @brief Method OnDestroy addr 0x2188224 size 0xf4 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit GameServersListTableView() ;
+static GlobalNamespace::GameServersListTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2188318 size 0x8 virtual false final false
  void _ctor() ;

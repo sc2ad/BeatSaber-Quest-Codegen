@@ -115,8 +115,10 @@ constexpr void System::Runtime::InteropServices::MarshalAsAttribute::__set_SizeP
 constexpr int16_t System::Runtime::InteropServices::MarshalAsAttribute::__get_SizeParamIndex() const {
 return ::cordl_internals::getInstanceField<int16_t, 0x44>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "unmanagedType", ty: "System::Runtime::InteropServices::UnmanagedType", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::MarshalAsAttribute::MarshalAsAttribute(System::Runtime::InteropServices::UnmanagedType unmanagedType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MarshalAsAttribute>(unmanagedType))) {}
+ System::Runtime::InteropServices::MarshalAsAttribute System::Runtime::InteropServices::MarshalAsAttribute::New_ctor(System::Runtime::InteropServices::UnmanagedType unmanagedType)  {
+System::Runtime::InteropServices::MarshalAsAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::MarshalAsAttribute>(unmanagedType))};
+return o;
+}
  void System::Runtime::InteropServices::MarshalAsAttribute::_ctor(System::Runtime::InteropServices::UnmanagedType unmanagedType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::MarshalAsAttribute>::get(),

@@ -3,12 +3,13 @@
 #include "GlobalNamespace/zzzz__LeaderboardHelper_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelCollectionSO_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardHelper_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LeaderboardHelper___CreateOculusLeaderboard_d__2.MoveNext
 template<>
@@ -199,8 +200,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, leaderboardID, appToken);
 }
-// Ctor Parameters []
- GlobalNamespace::LeaderboardHelper::LeaderboardHelper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LeaderboardHelper>())) {}
+ GlobalNamespace::LeaderboardHelper GlobalNamespace::LeaderboardHelper::New_ctor()  {
+GlobalNamespace::LeaderboardHelper o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LeaderboardHelper>())};
+return o;
+}
  void GlobalNamespace::LeaderboardHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LeaderboardHelper>::get(),

@@ -51,20 +51,17 @@ constexpr explicit CmpException(void* ptr) noexcept : System::Exception(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit CmpException() ;
+static Org::BouncyCastle::Cmp::CmpException New_ctor() ;
 
 /// @brief Method .ctor addr 0x114bd9c size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CmpException(::StringW message) ;
+static Org::BouncyCastle::Cmp::CmpException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x114ba08 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit CmpException(::StringW message, System::Exception innerException) ;
+static Org::BouncyCastle::Cmp::CmpException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x114bdf4 size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;

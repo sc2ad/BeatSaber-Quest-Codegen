@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XObject_impl.hpp"
 #include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
+#include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
 #include "System/Xml/Linq/zzzz__XName_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::XAttribute._ctor
 template<>
 
@@ -192,8 +192,10 @@ constexpr void System::Xml::Linq::XAttribute::__set_value(::StringW value)  {
 constexpr ::StringW System::Xml::Linq::XAttribute::__get_value() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::Linq::XName", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Xml::Linq::XAttribute::XAttribute(System::Xml::Linq::XName name, ::bs_hook::Il2CppWrapperType value)  : System::Xml::Linq::XObject(THROW_UNLESS(::il2cpp_utils::New<XAttribute>(name, value))) {}
+ System::Xml::Linq::XAttribute System::Xml::Linq::XAttribute::New_ctor(System::Xml::Linq::XName name, ::bs_hook::Il2CppWrapperType value)  {
+System::Xml::Linq::XAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XAttribute>(name, value))};
+return o;
+}
  void System::Xml::Linq::XAttribute::_ctor(System::Xml::Linq::XName name, ::bs_hook::Il2CppWrapperType value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XAttribute>::get(),
@@ -203,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, value);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XAttribute", modifiers: "", def_value: None }]
- System::Xml::Linq::XAttribute::XAttribute(System::Xml::Linq::XAttribute other)  : System::Xml::Linq::XObject(THROW_UNLESS(::il2cpp_utils::New<XAttribute>(other))) {}
+ System::Xml::Linq::XAttribute System::Xml::Linq::XAttribute::New_ctor(System::Xml::Linq::XAttribute other)  {
+System::Xml::Linq::XAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XAttribute>(other))};
+return o;
+}
  void System::Xml::Linq::XAttribute::_ctor(System::Xml::Linq::XAttribute other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XAttribute>::get(),

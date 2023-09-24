@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__NullBindingFinalizer_def.hpp"
-#include "Zenject/zzzz__IBindingFinalizer_def.hpp"
-#include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
+#include "Zenject/zzzz__IBindingFinalizer_def.hpp"
 //  Writing Method size for method: Zenject::NullBindingFinalizer.get_BindingInheritanceMethod
 template<>
 
@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container);
 }
-// Ctor Parameters []
- Zenject::NullBindingFinalizer::NullBindingFinalizer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NullBindingFinalizer>())) {}
+ Zenject::NullBindingFinalizer Zenject::NullBindingFinalizer::New_ctor()  {
+Zenject::NullBindingFinalizer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::NullBindingFinalizer>())};
+return o;
+}
  void Zenject::NullBindingFinalizer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::NullBindingFinalizer>::get(),

@@ -7,20 +7,23 @@ namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine::Rendering {
+struct StencilOp;
+}
+namespace UnityEngine::UI {
+class UnityEngine__UI__StencilMaterial__MatEntry;
+}
+namespace UnityEngine::Rendering {
 struct ColorWriteMask;
 }
 namespace UnityEngine {
 class Object;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine::Rendering {
 struct CompareFunction;
 }
-namespace UnityEngine::Rendering {
-struct StencilOp;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -134,8 +137,7 @@ constexpr UnityEngine::Rendering::ColorWriteMask __get_colorMask() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__StencilMaterial__MatEntry() ;
+static UnityEngine::UI::UnityEngine__UI__StencilMaterial__MatEntry New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c11608 size 0x10 virtual false final false
  void _ctor() ;

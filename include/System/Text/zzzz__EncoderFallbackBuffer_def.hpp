@@ -135,8 +135,7 @@ constexpr int32_t __get_iRecursionCount() const;
 /// @brief Method ThrowLastCharRecursive addr 0x24c5e40 size 0x90 virtual false final false
  void ThrowLastCharRecursive(int32_t charRecursive) ;
 
-// Ctor Parameters []
-explicit EncoderFallbackBuffer() ;
+static System::Text::EncoderFallbackBuffer New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c51b0 size 0x8 virtual false final false
  void _ctor() ;

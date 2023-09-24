@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::Versioning::NonVersionableAttribute::NonVersionableAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NonVersionableAttribute>())) {}
+ System::Runtime::Versioning::NonVersionableAttribute System::Runtime::Versioning::NonVersionableAttribute::New_ctor()  {
+System::Runtime::Versioning::NonVersionableAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Versioning::NonVersionableAttribute>())};
+return o;
+}
  void System::Runtime::Versioning::NonVersionableAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Versioning::NonVersionableAttribute>::get(),

@@ -63,8 +63,7 @@ constexpr bool __get_DidSendRequest() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LaunchFriendRequestFlowResult(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::LaunchFriendRequestFlowResult New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x259f344 size 0x90 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

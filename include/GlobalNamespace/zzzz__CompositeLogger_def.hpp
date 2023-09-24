@@ -6,11 +6,11 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace GlobalNamespace {
-class IBeatSaberLogger;
-}
 namespace System {
 class Exception;
+}
+namespace GlobalNamespace {
+class IBeatSaberLogger;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -70,14 +70,12 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger
 
 // Methods
 
-// Ctor Parameters []
-explicit CompositeLogger() ;
+static GlobalNamespace::CompositeLogger New_ctor() ;
 
 /// @brief Method .ctor addr 0x219d604 size 0x80 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "loggers", ty: "System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger>", modifiers: "", def_value: None }]
-explicit CompositeLogger(System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger> loggers) ;
+static GlobalNamespace::CompositeLogger New_ctor(System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger> loggers) ;
 
 /// @brief Method .ctor addr 0x219d684 size 0x28 virtual false final false
  void _ctor(System::Collections::Generic::List_1<GlobalNamespace::IBeatSaberLogger> loggers) ;

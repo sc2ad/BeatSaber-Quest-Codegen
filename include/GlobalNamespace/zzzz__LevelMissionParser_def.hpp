@@ -7,14 +7,17 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LevelMissionParser__ParserFunction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,8 +68,7 @@ constexpr explicit GlobalNamespace__LevelMissionParser__ParserFunction(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LevelMissionParser__ParserFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__LevelMissionParser__ParserFunction New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x21c90cc size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -137,8 +139,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::
 
 // Methods
 
-// Ctor Parameters []
-explicit LevelMissionParser() ;
+static GlobalNamespace::LevelMissionParser New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c8a08 size 0x84 virtual false final false
  void _ctor() ;

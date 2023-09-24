@@ -72,8 +72,7 @@ constexpr bool __get_curried_first_arg() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DelegateData() ;
+static System::DelegateData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2489788 size 0x4 virtual false final false
  void _ctor() ;

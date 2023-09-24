@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+class IDisposable;
+}
 namespace Zenject {
 class IInitializable;
 }
 namespace GlobalNamespace {
 class IVerboseLogger;
-}
-namespace System {
-class IDisposable;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
@@ -110,8 +110,7 @@ constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 /// @brief Method HandleVRFocusWasReleased addr 0x1f8eeac size 0x4 virtual false final false
  void HandleVRFocusWasReleased() ;
 
-// Ctor Parameters []
-explicit VRPlatformEventsDebugger() ;
+static GlobalNamespace::VRPlatformEventsDebugger New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8eeb0 size 0x8 virtual false final false
  void _ctor() ;

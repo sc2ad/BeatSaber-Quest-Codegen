@@ -2,9 +2,9 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__Request_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__CertID_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Ocsp::Request.GetInstance
 template<>
@@ -155,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Ocsp::Request, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "reqCert", ty: "Org::BouncyCastle::Asn1::Ocsp::CertID", modifiers: "", def_value: None }, CppParam { name: "singleRequestExtensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::Request::Request(Org::BouncyCastle::Asn1::Ocsp::CertID reqCert, Org::BouncyCastle::Asn1::X509::X509Extensions singleRequestExtensions)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Request>(reqCert, singleRequestExtensions))) {}
+ Org::BouncyCastle::Asn1::Ocsp::Request Org::BouncyCastle::Asn1::Ocsp::Request::New_ctor(Org::BouncyCastle::Asn1::Ocsp::CertID reqCert, Org::BouncyCastle::Asn1::X509::X509Extensions singleRequestExtensions)  {
+Org::BouncyCastle::Asn1::Ocsp::Request o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::Request>(reqCert, singleRequestExtensions))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::Request::_ctor(Org::BouncyCastle::Asn1::Ocsp::CertID reqCert, Org::BouncyCastle::Asn1::X509::X509Extensions singleRequestExtensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::Request>::get(),
@@ -166,8 +168,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reqCert, singleRequestExtensions);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::Request::Request(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Request>(seq))) {}
+ Org::BouncyCastle::Asn1::Ocsp::Request Org::BouncyCastle::Asn1::Ocsp::Request::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Ocsp::Request o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::Request>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::Request::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::Request>::get(),

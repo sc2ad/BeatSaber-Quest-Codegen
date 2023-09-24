@@ -9,7 +9,7 @@ class HEU_PreAssetEvent;
 // Type: HoudiniEngineUnity::HEU_PreAssetEvent
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5064 }), TypeDefinitionIndex(TypeDefinitionIndex(9540)), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9540)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5064 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9547))
 // CS Name: HoudiniEngineUnity.HEU_PreAssetEvent
 class CORDL_TYPE HEU_PreAssetEvent : public UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_PreAssetEventData> {
@@ -48,8 +48,7 @@ constexpr explicit HEU_PreAssetEvent(void* ptr) noexcept : UnityEngine::Events::
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_PreAssetEvent() ;
+static HoudiniEngineUnity::HEU_PreAssetEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdace4 size 0x48 virtual false final false
  void _ctor() ;

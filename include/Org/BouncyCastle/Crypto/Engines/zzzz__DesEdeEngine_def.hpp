@@ -100,8 +100,7 @@ constexpr bool __get_forEncryption() const;
 /// @brief Method Reset addr 0xe3f8f0 size 0x4 virtual true final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit DesEdeEngine() ;
+static Org::BouncyCastle::Crypto::Engines::DesEdeEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe3f8f4 size 0x58 virtual false final false
  void _ctor() ;

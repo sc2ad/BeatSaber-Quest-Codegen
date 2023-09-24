@@ -4,25 +4,25 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct FontStyle;
+struct VerticalWrapMode;
 }
 namespace UnityEngine {
-struct Color;
+struct TextAnchor;
 }
 namespace UnityEngine {
 struct HorizontalWrapMode;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color;
 }
 namespace UnityEngine {
 class Font;
 }
 namespace UnityEngine {
-struct VerticalWrapMode;
+struct Vector2;
 }
 namespace UnityEngine {
-struct TextAnchor;
+struct FontStyle;
 }
 // Forward declare root types
 namespace UnityEngine {

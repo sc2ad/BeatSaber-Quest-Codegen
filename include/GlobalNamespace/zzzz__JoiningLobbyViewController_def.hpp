@@ -5,11 +5,11 @@
 namespace System {
 class Action;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
 class LoadingControl;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,8 +99,7 @@ constexpr System::Action __get_didCancelEvent() const;
 /// @brief Method DidActivate addr 0x2176bc4 size 0xc8 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit JoiningLobbyViewController() ;
+static GlobalNamespace::JoiningLobbyViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2176c8c size 0x8 virtual false final false
  void _ctor() ;

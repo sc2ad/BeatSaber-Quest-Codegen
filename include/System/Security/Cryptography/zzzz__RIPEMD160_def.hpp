@@ -47,8 +47,7 @@ constexpr explicit RIPEMD160(void* ptr) noexcept : System::Security::Cryptograph
 
 // Methods
 
-// Ctor Parameters []
-explicit RIPEMD160() ;
+static System::Security::Cryptography::RIPEMD160 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f8898 size 0x20 virtual false final false
  void _ctor() ;

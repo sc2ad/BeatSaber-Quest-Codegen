@@ -2,16 +2,16 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 namespace System::Collections {
-class Hashtable;
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -68,20 +68,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_seq() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PolicyMappings(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::PolicyMappings New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x110a3c8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "mappings", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
-explicit PolicyMappings(System::Collections::Hashtable mappings) ;
+static Org::BouncyCastle::Asn1::X509::PolicyMappings New_ctor(System::Collections::Hashtable mappings) ;
 
 /// @brief Method .ctor addr 0x110a3f0 size 0x4 virtual false final false
  void _ctor(System::Collections::Hashtable mappings) ;
 
-// Ctor Parameters [CppParam { name: "mappings", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit PolicyMappings(System::Collections::IDictionary mappings) ;
+static Org::BouncyCastle::Asn1::X509::PolicyMappings New_ctor(System::Collections::IDictionary mappings) ;
 
 /// @brief Method .ctor addr 0x110a3f4 size 0x5ec virtual false final false
  void _ctor(System::Collections::IDictionary mappings) ;

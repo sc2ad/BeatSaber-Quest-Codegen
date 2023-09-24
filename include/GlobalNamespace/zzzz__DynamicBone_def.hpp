@@ -5,8 +5,21 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__DynamicBone__Particle;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__DynamicBone__UpdateMode;
+}
 namespace UnityEngine {
-class Transform;
+struct Vector3;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__DynamicBone__FreezeAxis;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -14,12 +27,8 @@ class AnimationCurve;
 namespace GlobalNamespace {
 class DynamicBoneColliderBase;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -87,6 +96,8 @@ __UnscaledTime = 2,
 constexpr operator __GlobalNamespace__DynamicBone__UpdateMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__DynamicBone__UpdateMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -161,6 +172,8 @@ __Z = 3,
 constexpr operator __GlobalNamespace__DynamicBone__FreezeAxis_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__DynamicBone__FreezeAxis_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -310,8 +323,7 @@ constexpr UnityEngine::Quaternion __get_m_InitLocalRotation() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__DynamicBone__Particle() ;
+static GlobalNamespace::GlobalNamespace__DynamicBone__Particle New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a5c54 size 0xdc virtual false final false
  void _ctor() ;
@@ -632,8 +644,7 @@ static UnityEngine::Vector3 MirrorVector(UnityEngine::Vector3 v, UnityEngine::Ve
 /// @brief Method ApplyParticlesToTransforms addr 0x11a5174 size 0x25c virtual false final false
  void ApplyParticlesToTransforms() ;
 
-// Ctor Parameters []
-explicit DynamicBone() ;
+static GlobalNamespace::DynamicBone New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a5d64 size 0x150 virtual false final false
  void _ctor() ;

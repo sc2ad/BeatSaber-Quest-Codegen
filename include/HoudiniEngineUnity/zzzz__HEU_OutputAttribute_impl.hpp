@@ -67,8 +67,10 @@ constexpr void HoudiniEngineUnity::HEU_OutputAttribute::__set__stringValues(::Ar
 constexpr ::ArrayW<::StringW> HoudiniEngineUnity::HEU_OutputAttribute::__get__stringValues() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::StringW>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_OutputAttribute::HEU_OutputAttribute()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_OutputAttribute>())) {}
+ HoudiniEngineUnity::HEU_OutputAttribute HoudiniEngineUnity::HEU_OutputAttribute::New_ctor()  {
+HoudiniEngineUnity::HEU_OutputAttribute o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_OutputAttribute>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_OutputAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_OutputAttribute>::get(),

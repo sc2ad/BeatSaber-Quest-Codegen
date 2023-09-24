@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__Log_def.hpp"
+#include "UnityEngine/zzzz__LogType_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogOutput_def.hpp"
-#include "UnityEngine/zzzz__LogType_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogLevel_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Log.PushLogLevel
 template<>

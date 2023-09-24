@@ -50,8 +50,7 @@ constexpr explicit TimelineHelpURLAttribute(void* ptr) noexcept : System::Attrib
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit TimelineHelpURLAttribute(System::Type type) ;
+static UnityEngine::Timeline::TimelineHelpURLAttribute New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2ac90ec size 0x8 virtual false final false
  void _ctor(System::Type type) ;

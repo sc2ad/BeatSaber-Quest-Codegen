@@ -9,6 +9,9 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerSpectatingSpotManager____c;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
@@ -85,8 +88,7 @@ static System::Func_2<GlobalNamespace::IMultiplayerSpectatingSpot,bool> __get___
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerSpectatingSpotManager____c() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerSpectatingSpotManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2106884 size 0x8 virtual false final false
  void _ctor() ;
@@ -185,8 +187,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplay
 /// @brief Method SpotOnHasBeenRemoved addr 0x2106640 size 0x120 virtual false final false
  void SpotOnHasBeenRemoved(GlobalNamespace::IMultiplayerSpectatingSpot spectatingSpot) ;
 
-// Ctor Parameters []
-explicit MultiplayerSpectatingSpotManager() ;
+static GlobalNamespace::MultiplayerSpectatingSpotManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2106760 size 0xc0 virtual false final false
  void _ctor() ;

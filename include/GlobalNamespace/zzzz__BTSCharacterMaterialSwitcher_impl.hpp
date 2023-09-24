@@ -1,9 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterMaterialSwitcher_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacterMaterialSwitcher_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs.get_renderer
 template<>
 
@@ -85,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "renderer", ty: "UnityEngine::Renderer", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs::GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs(UnityEngine::Renderer renderer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs>(renderer))) {}
+ GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs::New_ctor(UnityEngine::Renderer renderer)  {
+GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs>(renderer))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs::_ctor(UnityEngine::Renderer renderer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__RendererMaterialsPairs>::get(),
@@ -131,8 +134,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__M
 constexpr UnityEngine::Material GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs::__get_alternativeMaterial() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Material, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs>())) {}
+ GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BTSCharacterMaterialSwitcher__MaterialPairs>::get(),
@@ -191,8 +196,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, alternative);
 }
-// Ctor Parameters []
- GlobalNamespace::BTSCharacterMaterialSwitcher::BTSCharacterMaterialSwitcher()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BTSCharacterMaterialSwitcher>())) {}
+ GlobalNamespace::BTSCharacterMaterialSwitcher GlobalNamespace::BTSCharacterMaterialSwitcher::New_ctor()  {
+GlobalNamespace::BTSCharacterMaterialSwitcher o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BTSCharacterMaterialSwitcher>())};
+return o;
+}
  void GlobalNamespace::BTSCharacterMaterialSwitcher::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BTSCharacterMaterialSwitcher>::get(),

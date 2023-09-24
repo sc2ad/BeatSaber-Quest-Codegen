@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyPacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__IBcpgKey_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::PublicKeyPacket._ctor
 template<>
 
@@ -189,8 +189,10 @@ constexpr void Org::BouncyCastle::Bcpg::PublicKeyPacket::__set_key(Org::BouncyCa
 constexpr Org::BouncyCastle::Bcpg::IBcpgKey Org::BouncyCastle::Bcpg::PublicKeyPacket::__get_key() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::IBcpgKey, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::PublicKeyPacket::PublicKeyPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<PublicKeyPacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::PublicKeyPacket Org::BouncyCastle::Bcpg::PublicKeyPacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::PublicKeyPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::PublicKeyPacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::PublicKeyPacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::PublicKeyPacket>::get(),
@@ -200,8 +202,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgIn);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "key", ty: "Org::BouncyCastle::Bcpg::IBcpgKey", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::PublicKeyPacket::PublicKeyPacket(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, System::DateTime time, Org::BouncyCastle::Bcpg::IBcpgKey key)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<PublicKeyPacket>(algorithm, time, key))) {}
+ Org::BouncyCastle::Bcpg::PublicKeyPacket Org::BouncyCastle::Bcpg::PublicKeyPacket::New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, System::DateTime time, Org::BouncyCastle::Bcpg::IBcpgKey key)  {
+Org::BouncyCastle::Bcpg::PublicKeyPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::PublicKeyPacket>(algorithm, time, key))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::PublicKeyPacket::_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, System::DateTime time, Org::BouncyCastle::Bcpg::IBcpgKey key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::PublicKeyPacket>::get(),

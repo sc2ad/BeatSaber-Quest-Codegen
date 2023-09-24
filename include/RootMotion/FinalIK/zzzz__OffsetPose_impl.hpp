@@ -1,10 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__OffsetPose_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__OffsetPose_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink.Apply
 template<>
 
@@ -72,8 +73,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, solver, weight, rotation);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink::RootMotion__FinalIK__OffsetPose__EffectorLink()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__OffsetPose__EffectorLink>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__OffsetPose__EffectorLink>::get(),
@@ -158,8 +161,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, solver, weight, rotation);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::OffsetPose::OffsetPose()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OffsetPose>())) {}
+ RootMotion::FinalIK::OffsetPose RootMotion::FinalIK::OffsetPose::New_ctor()  {
+RootMotion::FinalIK::OffsetPose o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::OffsetPose>())};
+return o;
+}
  void RootMotion::FinalIK::OffsetPose::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::OffsetPose>::get(),

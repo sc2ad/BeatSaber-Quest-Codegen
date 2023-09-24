@@ -53,8 +53,7 @@ constexpr explicit SteamNetworkPlayerModel(void* ptr) noexcept : GlobalNamespace
 
 // Methods
 
-// Ctor Parameters []
-explicit SteamNetworkPlayerModel() ;
+static GlobalNamespace::SteamNetworkPlayerModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x22126dc size 0x8 virtual false final false
  void _ctor() ;

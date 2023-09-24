@@ -1,20 +1,20 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/AccessControl/zzzz__GenericSecurityDescriptor_def.hpp"
-namespace System::Security::Principal {
-class SecurityIdentifier;
-}
 namespace System::Security::AccessControl {
 class CommonAcl;
-}
-namespace System::Security::AccessControl {
-struct ControlFlags;
 }
 namespace System::Security::AccessControl {
 class DiscretionaryAcl;
 }
 namespace System::Security::AccessControl {
 class SystemAcl;
+}
+namespace System::Security::AccessControl {
+struct ControlFlags;
+}
+namespace System::Security::Principal {
+class SecurityIdentifier;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -122,8 +122,7 @@ constexpr System::Security::AccessControl::DiscretionaryAcl __get_discretionary_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDS", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::ControlFlags", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "System::Security::Principal::SecurityIdentifier", modifiers: "", def_value: None }, CppParam { name: "group", ty: "System::Security::Principal::SecurityIdentifier", modifiers: "", def_value: None }, CppParam { name: "systemAcl", ty: "System::Security::AccessControl::SystemAcl", modifiers: "", def_value: None }, CppParam { name: "discretionaryAcl", ty: "System::Security::AccessControl::DiscretionaryAcl", modifiers: "", def_value: None }]
-explicit CommonSecurityDescriptor(bool isContainer, bool isDS, System::Security::AccessControl::ControlFlags flags, System::Security::Principal::SecurityIdentifier owner, System::Security::Principal::SecurityIdentifier group, System::Security::AccessControl::SystemAcl systemAcl, System::Security::AccessControl::DiscretionaryAcl discretionaryAcl) ;
+static System::Security::AccessControl::CommonSecurityDescriptor New_ctor(bool isContainer, bool isDS, System::Security::AccessControl::ControlFlags flags, System::Security::Principal::SecurityIdentifier owner, System::Security::Principal::SecurityIdentifier group, System::Security::AccessControl::SystemAcl systemAcl, System::Security::AccessControl::DiscretionaryAcl discretionaryAcl) ;
 
 /// @brief Method .ctor addr 0x2317dd0 size 0x74 virtual false final false
  void _ctor(bool isContainer, bool isDS, System::Security::AccessControl::ControlFlags flags, System::Security::Principal::SecurityIdentifier owner, System::Security::Principal::SecurityIdentifier group, System::Security::AccessControl::SystemAcl systemAcl, System::Security::AccessControl::DiscretionaryAcl discretionaryAcl) ;

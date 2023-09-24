@@ -62,8 +62,7 @@ constexpr ::cordl_internals::intptr_t __get_Handle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MatchmakingOptions() ;
+static Oculus::Platform::MatchmakingOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x257b150 size 0x64 virtual false final false
  void _ctor() ;

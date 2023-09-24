@@ -2,9 +2,9 @@
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PropagationPhase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CallbackPhase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CallbackPhase_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::EventCallbackFunctorBase.get_phase
 template<>
 
@@ -137,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::InvokePolicy, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "phase", ty: "UnityEngine::UIElements::CallbackPhase", modifiers: "", def_value: None }, CppParam { name: "invokePolicy", ty: "UnityEngine::UIElements::InvokePolicy", modifiers: "", def_value: None }]
- UnityEngine::UIElements::EventCallbackFunctorBase::EventCallbackFunctorBase(UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventCallbackFunctorBase>(phase, invokePolicy))) {}
+ UnityEngine::UIElements::EventCallbackFunctorBase UnityEngine::UIElements::EventCallbackFunctorBase::New_ctor(UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy)  {
+UnityEngine::UIElements::EventCallbackFunctorBase o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::EventCallbackFunctorBase>(phase, invokePolicy))};
+return o;
+}
  void UnityEngine::UIElements::EventCallbackFunctorBase::_ctor(UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::EventCallbackFunctorBase>::get(),

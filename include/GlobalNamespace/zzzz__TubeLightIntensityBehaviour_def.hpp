@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace UnityEngine::Playables {
-struct FrameData;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct FrameData;
 }
 namespace GlobalNamespace {
 class DirectionalLight;
 }
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -170,8 +170,7 @@ constexpr float_t __get__firstFrameLaserIntensity() const;
 /// @brief Method OnPlayableDestroy addr 0x21b3ca0 size 0xcc virtual true final false
  void OnPlayableDestroy(UnityEngine::Playables::Playable playable) ;
 
-// Ctor Parameters []
-explicit TubeLightIntensityBehaviour() ;
+static GlobalNamespace::TubeLightIntensityBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b3d6c size 0x8 virtual false final false
  void _ctor() ;

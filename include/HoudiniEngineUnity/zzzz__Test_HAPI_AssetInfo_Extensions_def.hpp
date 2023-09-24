@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace HoudiniEngineUnity {
-class Test_HAPI_AssetInfo;
+struct HAPI_AssetInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AssetInfo;
+class Test_HAPI_AssetInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

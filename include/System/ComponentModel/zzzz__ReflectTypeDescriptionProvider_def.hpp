@@ -5,11 +5,41 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System {
+struct Guid;
+}
+namespace System {
+class Type;
+}
+namespace System::ComponentModel {
+class IExtenderProvider;
+}
+namespace System::ComponentModel {
+class TypeConverter;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::ComponentModel {
-class PropertyDescriptorCollection;
+class EventDescriptor;
+}
+namespace System::ComponentModel {
+class EventDescriptorCollection;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System {
+class Attribute;
 }
 namespace System::Collections {
 class ICollection;
@@ -18,37 +48,10 @@ namespace System::ComponentModel {
 class AttributeCollection;
 }
 namespace System::ComponentModel {
-class EventDescriptorCollection;
-}
-namespace System::ComponentModel {
-class IExtenderProvider;
+class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
 class ICustomTypeDescriptor;
-}
-namespace System::ComponentModel {
-class EventDescriptor;
-}
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System {
-class Attribute;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System {
-class Type;
-}
-namespace System {
-struct Guid;
 }
 namespace System::ComponentModel {
 class EditorAttribute;
@@ -158,8 +161,7 @@ constexpr int32_t __get__editorCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData(System::Type type) ;
+static System::ComponentModel::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2796898 size 0x28 virtual false final false
  void _ctor(System::Type type) ;
@@ -355,8 +357,7 @@ static System::Collections::Hashtable __declspec(property(get=get_IntrinsicTypeC
 
 // Methods
 
-// Ctor Parameters []
-explicit ReflectTypeDescriptionProvider() ;
+static System::ComponentModel::ReflectTypeDescriptionProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2791010 size 0x8 virtual false final false
  void _ctor() ;

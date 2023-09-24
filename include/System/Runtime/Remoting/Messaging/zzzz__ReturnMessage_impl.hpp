@@ -1,18 +1,18 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__ReturnMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__MethodReturnDictionary_def.hpp"
-#include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IInternalMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__ArgInfo_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IInternalMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__MethodReturnDictionary_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__ArgInfo_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::ReturnMessage._ctor
 template<>
 
@@ -447,8 +447,10 @@ constexpr void System::Runtime::Remoting::Messaging::ReturnMessage::__set__inArg
 constexpr System::Runtime::Remoting::Messaging::ArgInfo System::Runtime::Remoting::Messaging::ReturnMessage::__get__inArgInfo() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Messaging::ArgInfo, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ret", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "outArgs", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "outArgsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callCtx", ty: "System::Runtime::Remoting::Messaging::LogicalCallContext", modifiers: "", def_value: None }, CppParam { name: "mcm", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::ReturnMessage::ReturnMessage(::bs_hook::Il2CppWrapperType ret, ::ArrayW<::bs_hook::Il2CppWrapperType> outArgs, int32_t outArgsCount, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReturnMessage>(ret, outArgs, outArgsCount, callCtx, mcm))) {}
+ System::Runtime::Remoting::Messaging::ReturnMessage System::Runtime::Remoting::Messaging::ReturnMessage::New_ctor(::bs_hook::Il2CppWrapperType ret, ::ArrayW<::bs_hook::Il2CppWrapperType> outArgs, int32_t outArgsCount, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm)  {
+System::Runtime::Remoting::Messaging::ReturnMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ReturnMessage>(ret, outArgs, outArgsCount, callCtx, mcm))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ReturnMessage::_ctor(::bs_hook::Il2CppWrapperType ret, ::ArrayW<::bs_hook::Il2CppWrapperType> outArgs, int32_t outArgsCount, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ReturnMessage>::get(),
@@ -458,8 +460,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ret, outArgs, outArgsCount, callCtx, mcm);
 }
-// Ctor Parameters [CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "mcm", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::ReturnMessage::ReturnMessage(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReturnMessage>(e, mcm))) {}
+ System::Runtime::Remoting::Messaging::ReturnMessage System::Runtime::Remoting::Messaging::ReturnMessage::New_ctor(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm)  {
+System::Runtime::Remoting::Messaging::ReturnMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ReturnMessage>(e, mcm))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ReturnMessage::_ctor(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ReturnMessage>::get(),

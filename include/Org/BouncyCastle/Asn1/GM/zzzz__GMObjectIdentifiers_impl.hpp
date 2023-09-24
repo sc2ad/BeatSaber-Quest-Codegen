@@ -408,8 +408,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers::__get_sm2sign_with_blake2s256()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "sm2sign_with_blake2s256", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers::GMObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GMObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::GM::GMObjectIdentifiers>::get(),

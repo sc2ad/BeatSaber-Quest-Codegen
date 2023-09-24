@@ -1,15 +1,15 @@
 #pragma once
 #include "Zenject/zzzz__Context_impl.hpp"
 #include "Zenject/zzzz__ProjectContext_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__ReflectionBakingCoverageModes_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__ZenjectSettings_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: Zenject::ProjectContext.add_PreInstall
 template<>
 
@@ -708,8 +708,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, injectableMonoBehaviours);
 }
-// Ctor Parameters []
- Zenject::ProjectContext::ProjectContext()  : Zenject::Context(THROW_UNLESS(::il2cpp_utils::New<ProjectContext>())) {}
+ Zenject::ProjectContext Zenject::ProjectContext::New_ctor()  {
+Zenject::ProjectContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ProjectContext>())};
+return o;
+}
  void Zenject::ProjectContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ProjectContext>::get(),

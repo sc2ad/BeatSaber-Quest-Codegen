@@ -25,8 +25,10 @@ constexpr void GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms::__set_
 constexpr UnityEngine::AudioSource GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms::__get__audioSource() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AudioSource, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms::DisableSpatializerOnUnsupportedPlatforms()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DisableSpatializerOnUnsupportedPlatforms>())) {}
+ GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms::New_ctor()  {
+GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms>())};
+return o;
+}
  void GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms>::get(),

@@ -54,8 +54,7 @@ constexpr explicit MultiplayerBadgeDataGoodCutsSO(void* ptr) noexcept : GlobalNa
 /// @brief Method GetValue addr 0x20d864c size 0x28 virtual true final false
  int32_t GetValue(GlobalNamespace::MultiplayerPlayerResultsData result) ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgeDataGoodCutsSO() ;
+static GlobalNamespace::MultiplayerBadgeDataGoodCutsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d8674 size 0x10 virtual false final false
  void _ctor() ;

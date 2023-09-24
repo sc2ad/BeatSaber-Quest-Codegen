@@ -80,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, task);
 }
-// Ctor Parameters []
- Zenject::TickablesTaskUpdater::TickablesTaskUpdater()  : Zenject::TaskUpdater_1<Zenject::ITickable>(THROW_UNLESS(::il2cpp_utils::New<TickablesTaskUpdater>())) {}
+ Zenject::TickablesTaskUpdater Zenject::TickablesTaskUpdater::New_ctor()  {
+Zenject::TickablesTaskUpdater o{THROW_UNLESS(::il2cpp_utils::New<Zenject::TickablesTaskUpdater>())};
+return o;
+}
  void Zenject::TickablesTaskUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::TickablesTaskUpdater>::get(),

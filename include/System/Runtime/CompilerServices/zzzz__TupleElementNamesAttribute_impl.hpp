@@ -24,8 +24,10 @@ constexpr void System::Runtime::CompilerServices::TupleElementNamesAttribute::__
 constexpr ::ArrayW<::StringW> System::Runtime::CompilerServices::TupleElementNamesAttribute::__get__transformNames() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::StringW>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "transformNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::TupleElementNamesAttribute::TupleElementNamesAttribute(::ArrayW<::StringW> transformNames)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TupleElementNamesAttribute>(transformNames))) {}
+ System::Runtime::CompilerServices::TupleElementNamesAttribute System::Runtime::CompilerServices::TupleElementNamesAttribute::New_ctor(::ArrayW<::StringW> transformNames)  {
+System::Runtime::CompilerServices::TupleElementNamesAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::TupleElementNamesAttribute>(transformNames))};
+return o;
+}
  void System::Runtime::CompilerServices::TupleElementNamesAttribute::_ctor(::ArrayW<::StringW> transformNames)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::TupleElementNamesAttribute>::get(),

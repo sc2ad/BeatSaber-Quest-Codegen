@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
-namespace GlobalNamespace {
-class BeatmapDataItem;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -16,7 +16,7 @@ class LightColorBeatmapEventDataProcessor;
 // Type: ::LightColorBeatmapEventDataProcessor
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14924), inst: 920 }), TypeDefinitionIndex(TypeDefinitionIndex(14917)), TypeDefinitionIndex(TypeDefinitionIndex(14924))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14924), inst: 920 }), TypeDefinitionIndex(TypeDefinitionIndex(14924)), TypeDefinitionIndex(TypeDefinitionIndex(14917))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14926))
 // CS Name: LightColorBeatmapEventDataProcessor
 class CORDL_TYPE LightColorBeatmapEventDataProcessor : public GlobalNamespace::BeatmapEventDataProcessor_1<GlobalNamespace::LightColorBeatmapEventData> {
@@ -61,8 +61,7 @@ constexpr explicit LightColorBeatmapEventDataProcessor(void* ptr) noexcept : Glo
 /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0xd92fc4 size 0x108 virtual true final false
  void ProcessBeforeDeleteEventDataInternal(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> nodeToDelete) ;
 
-// Ctor Parameters []
-explicit LightColorBeatmapEventDataProcessor() ;
+static GlobalNamespace::LightColorBeatmapEventDataProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0xd930cc size 0x48 virtual false final false
  void _ctor() ;

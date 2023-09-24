@@ -5,10 +5,10 @@ namespace Zenject {
 class SignalTickPriorityCopyBinder;
 }
 namespace Zenject {
-class SignalCopyBinder;
+class SignalDeclarationBindInfo;
 }
 namespace Zenject {
-class SignalDeclarationBindInfo;
+class SignalCopyBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -56,8 +56,7 @@ constexpr explicit DeclareSignalAsyncTickPriorityCopyBinder(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "Zenject::SignalDeclarationBindInfo", modifiers: "", def_value: None }]
-explicit DeclareSignalAsyncTickPriorityCopyBinder(Zenject::SignalDeclarationBindInfo signalBindInfo) ;
+static Zenject::DeclareSignalAsyncTickPriorityCopyBinder New_ctor(Zenject::SignalDeclarationBindInfo signalBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d48dcc size 0x24 virtual false final false
  void _ctor(Zenject::SignalDeclarationBindInfo signalBindInfo) ;

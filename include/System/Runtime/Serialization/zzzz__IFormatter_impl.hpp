@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__IFormatter_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::IFormatter.Serialize
 template<>
 

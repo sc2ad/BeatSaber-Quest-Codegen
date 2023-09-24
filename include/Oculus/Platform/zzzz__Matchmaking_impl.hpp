@@ -1,18 +1,19 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Oculus/Platform/zzzz__Matchmaking_def.hpp"
-#include "Oculus/Platform/Models/zzzz__MatchmakingEnqueueResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__MatchmakingStats_def.hpp"
-#include "Oculus/Platform/zzzz__MatchmakingOptions_def.hpp"
-#include "Oculus/Platform/Models/zzzz__MatchmakingBrowseResult_def.hpp"
-#include "Oculus/Platform/Models/zzzz__MatchmakingAdminSnapshot_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Oculus/Platform/zzzz__Request_1_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/zzzz__Request_def.hpp"
-#include "Oculus/Platform/Models/zzzz__MatchmakingEnqueueResultAndRoom_def.hpp"
-#include "Oculus/Platform/zzzz__MatchmakingStatApproach_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Room_def.hpp"
+#include "Oculus/Platform/Models/zzzz__MatchmakingAdminSnapshot_def.hpp"
+#include "Oculus/Platform/Models/zzzz__MatchmakingEnqueueResult_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Oculus/Platform/zzzz__Matchmaking_def.hpp"
+#include "Oculus/Platform/zzzz__MatchmakingStatApproach_def.hpp"
+#include "Oculus/Platform/Models/zzzz__MatchmakingStats_def.hpp"
+#include "Oculus/Platform/Models/zzzz__MatchmakingBrowseResult_def.hpp"
+#include "Oculus/Platform/zzzz__MatchmakingOptions_def.hpp"
+#include "Oculus/Platform/Models/zzzz__MatchmakingEnqueueResultAndRoom_def.hpp"
+#include "Oculus/Platform/zzzz__Request_1_def.hpp"
 #include "Oculus/Platform/zzzz__MatchmakingCriterionImportance_def.hpp"
 //  Writing Method size for method: GlobalNamespace::Oculus__Platform__Matchmaking__CustomQuery__Criterion._ctor
 template<>
@@ -118,8 +119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::cordl_internals::intptr_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Oculus::Platform::Oculus__Platform__Matchmaking__CustomQuery::Oculus__Platform__Matchmaking__CustomQuery()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Oculus__Platform__Matchmaking__CustomQuery>())) {}
+ Oculus::Platform::Oculus__Platform__Matchmaking__CustomQuery Oculus::Platform::Oculus__Platform__Matchmaking__CustomQuery::New_ctor()  {
+Oculus::Platform::Oculus__Platform__Matchmaking__CustomQuery o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Oculus__Platform__Matchmaking__CustomQuery>())};
+return o;
+}
  void Oculus::Platform::Oculus__Platform__Matchmaking__CustomQuery::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__Matchmaking__CustomQuery>::get(),

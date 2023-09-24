@@ -8,15 +8,18 @@ class Oculus__Platform__Message__Callback;
 namespace Oculus::Platform {
 class Message;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__OculusInit____c;
+}
+namespace GlobalNamespace {
+class OculusDeeplinkManager;
+}
 namespace Oculus::Platform {
 template<typename T>
 class Message_1;
 }
 namespace GlobalNamespace {
 class DlcPromoPanelModel;
-}
-namespace GlobalNamespace {
-class OculusDeeplinkManager;
 }
 namespace Oculus::Platform::Models {
 class PlatformInitialize;
@@ -85,8 +88,7 @@ static Oculus::Platform::Oculus__Platform__Message__Callback __get___9__6_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusInit____c() ;
+static GlobalNamespace::GlobalNamespace__OculusInit____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b7450 size 0x8 virtual false final false
  void _ctor() ;
@@ -175,8 +177,7 @@ static void NoDomainReloadInit() ;
 /// @brief Method InitCallback addr 0x20b71dc size 0x1bc virtual false final false
  void InitCallback(Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize> msg) ;
 
-// Ctor Parameters []
-explicit OculusInit() ;
+static GlobalNamespace::OculusInit New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b7398 size 0x8 virtual false final false
  void _ctor() ;

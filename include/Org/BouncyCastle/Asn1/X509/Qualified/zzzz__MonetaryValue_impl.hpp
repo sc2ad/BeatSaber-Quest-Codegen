@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__MonetaryValue_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__Iso4217CurrencyCode_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__Iso4217CurrencyCode_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue.GetInstance
 template<>
@@ -152,8 +152,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::MonetaryValue(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<MonetaryValue>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue>::get(),
@@ -163,8 +165,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "currency", ty: "Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode", modifiers: "", def_value: None }, CppParam { name: "amount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "exponent", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::MonetaryValue(Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode currency, int32_t amount, int32_t exponent)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<MonetaryValue>(currency, amount, exponent))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::New_ctor(Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode currency, int32_t amount, int32_t exponent)  {
+Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue>(currency, amount, exponent))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::_ctor(Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode currency, int32_t amount, int32_t exponent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue>::get(),

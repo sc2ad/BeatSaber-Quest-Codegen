@@ -1,8 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class IDisposable;
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 struct BindingInheritanceMethods;
@@ -10,11 +13,8 @@ struct BindingInheritanceMethods;
 namespace Zenject {
 class IBindingFinalizer;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class BindInfo;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -91,8 +91,7 @@ constexpr Zenject::IBindingFinalizer __get__bindingFinalizer() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BindStatement() ;
+static Zenject::BindStatement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d656c8 size 0x84 virtual false final false
  void _ctor() ;

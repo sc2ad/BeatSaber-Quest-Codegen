@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarManager_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarController_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarController_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarManager_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13._ctor
 template<>
@@ -154,8 +154,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager__
 constexpr GlobalNamespace::MultiplayerLobbyAvatarController GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::__get_multiplayerAvatar() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerLobbyAvatarController, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13 GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13>::get(),
@@ -471,8 +473,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, userId, multiplayerAvatar);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLobbyAvatarManager::MultiplayerLobbyAvatarManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLobbyAvatarManager>())) {}
+ GlobalNamespace::MultiplayerLobbyAvatarManager GlobalNamespace::MultiplayerLobbyAvatarManager::New_ctor()  {
+GlobalNamespace::MultiplayerLobbyAvatarManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLobbyAvatarManager>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLobbyAvatarManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLobbyAvatarManager>::get(),

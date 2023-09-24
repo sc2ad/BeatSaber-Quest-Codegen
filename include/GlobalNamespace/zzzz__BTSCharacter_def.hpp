@@ -3,19 +3,19 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class BTSCharacterMaterialSwitcher;
+class MaterialPropertyBlockController;
 }
 namespace UnityEngine {
 class Animator;
 }
+namespace UnityEngine {
+class AnimationClip;
+}
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class BTSCharacterMaterialSwitcher;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine {
-class AnimationClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +122,7 @@ constexpr UnityEngine::Transform __get__headTransform() const;
 /// @brief Method SetAlternativeAnimationAndMaterial addr 0x20a6ddc size 0x1f4 virtual false final false
  void SetAlternativeAnimationAndMaterial(UnityEngine::AnimationClip animation, bool alternativeMaterialOn) ;
 
-// Ctor Parameters []
-explicit BTSCharacter() ;
+static GlobalNamespace::BTSCharacter New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a7224 size 0x8 virtual false final false
  void _ctor() ;

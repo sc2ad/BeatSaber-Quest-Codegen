@@ -5,22 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -98,20 +98,17 @@ constexpr Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo __get_statusInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertStatus(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::CertStatus New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdd8c04 size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "certHash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "certReqId", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit CertStatus(::ArrayW<uint8_t> certHash, Org::BouncyCastle::Math::BigInteger certReqId) ;
+static Org::BouncyCastle::Asn1::Cmp::CertStatus New_ctor(::ArrayW<uint8_t> certHash, Org::BouncyCastle::Math::BigInteger certReqId) ;
 
 /// @brief Method .ctor addr 0xdd8ca8 size 0xb4 virtual false final false
  void _ctor(::ArrayW<uint8_t> certHash, Org::BouncyCastle::Math::BigInteger certReqId) ;
 
-// Ctor Parameters [CppParam { name: "certHash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "certReqId", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "statusInfo", ty: "Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo", modifiers: "", def_value: None }]
-explicit CertStatus(::ArrayW<uint8_t> certHash, Org::BouncyCastle::Math::BigInteger certReqId, Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo statusInfo) ;
+static Org::BouncyCastle::Asn1::Cmp::CertStatus New_ctor(::ArrayW<uint8_t> certHash, Org::BouncyCastle::Math::BigInteger certReqId, Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo statusInfo) ;
 
 /// @brief Method .ctor addr 0xdd8d5c size 0xc0 virtual false final false
  void _ctor(::ArrayW<uint8_t> certHash, Org::BouncyCastle::Math::BigInteger certReqId, Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo statusInfo) ;

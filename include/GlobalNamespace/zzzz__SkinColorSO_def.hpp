@@ -79,8 +79,7 @@ constexpr UnityEngine::Color __get__color() const;
 /// @brief Method get_Color addr 0x2229a10 size 0xc virtual false final false
  UnityEngine::Color get_Color() ;
 
-// Ctor Parameters []
-explicit SkinColorSO() ;
+static GlobalNamespace::SkinColorSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2229a1c size 0x8 virtual false final false
  void _ctor() ;

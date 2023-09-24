@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspIdentifier_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__ResponderID_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Esf::OcspIdentifier.GetInstance
 template<>
 
@@ -129,8 +129,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Esf::OcspIdentifier, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OcspIdentifier::OcspIdentifier(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OcspIdentifier>(seq))) {}
+ Org::BouncyCastle::Asn1::Esf::OcspIdentifier Org::BouncyCastle::Asn1::Esf::OcspIdentifier::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Esf::OcspIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OcspIdentifier>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OcspIdentifier::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OcspIdentifier>::get(),
@@ -140,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "ocspResponderID", ty: "Org::BouncyCastle::Asn1::Ocsp::ResponderID", modifiers: "", def_value: None }, CppParam { name: "producedAt", ty: "System::DateTime", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OcspIdentifier::OcspIdentifier(Org::BouncyCastle::Asn1::Ocsp::ResponderID ocspResponderID, System::DateTime producedAt)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OcspIdentifier>(ocspResponderID, producedAt))) {}
+ Org::BouncyCastle::Asn1::Esf::OcspIdentifier Org::BouncyCastle::Asn1::Esf::OcspIdentifier::New_ctor(Org::BouncyCastle::Asn1::Ocsp::ResponderID ocspResponderID, System::DateTime producedAt)  {
+Org::BouncyCastle::Asn1::Esf::OcspIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OcspIdentifier>(ocspResponderID, producedAt))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OcspIdentifier::_ctor(Org::BouncyCastle::Asn1::Ocsp::ResponderID ocspResponderID, System::DateTime producedAt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OcspIdentifier>::get(),

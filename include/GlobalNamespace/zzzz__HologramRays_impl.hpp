@@ -1,19 +1,20 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HologramRays_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__HologramRays_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_d__28._ctor
 template<>
 
@@ -164,8 +165,10 @@ constexpr void GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_
 constexpr float_t GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_d__28::__get_duration() const {
 return ::cordl_internals::getInstanceField<float_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_d__28::GlobalNamespace__HologramRays___FadingCoroutine_d__28(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__HologramRays___FadingCoroutine_d__28>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_d__28 GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_d__28::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_d__28 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_d__28>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_d__28::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_d__28>::get(),
@@ -614,8 +617,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::HologramRays::HologramRays()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HologramRays>())) {}
+ GlobalNamespace::HologramRays GlobalNamespace::HologramRays::New_ctor()  {
+GlobalNamespace::HologramRays o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HologramRays>())};
+return o;
+}
  void GlobalNamespace::HologramRays::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HologramRays>::get(),

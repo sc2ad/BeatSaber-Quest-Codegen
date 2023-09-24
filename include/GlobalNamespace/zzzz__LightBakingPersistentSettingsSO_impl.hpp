@@ -1,22 +1,22 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LightBakingPersistentSettingsSO_def.hpp"
-#include "GlobalNamespace/zzzz__FakeMirrorSettings_def.hpp"
-#include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__BakedLightDataLoader_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__BakedReflectionProbe_def.hpp"
 #include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
-#include "GlobalNamespace/zzzz__FakeMirrorObjectsInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
+#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
+#include "GlobalNamespace/zzzz__FakeMirrorSettings_def.hpp"
+#include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__BakedLightDataLoader_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
+#include "GlobalNamespace/zzzz__FakeMirrorObjectsInstaller_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightBakingPersistentSettingsSO.get_reflectionsCount
 template<>
 
@@ -584,8 +584,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LightBakingPersistentSettingsSO::LightBakingPersistentSettingsSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<LightBakingPersistentSettingsSO>())) {}
+ GlobalNamespace::LightBakingPersistentSettingsSO GlobalNamespace::LightBakingPersistentSettingsSO::New_ctor()  {
+GlobalNamespace::LightBakingPersistentSettingsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightBakingPersistentSettingsSO>())};
+return o;
+}
  void GlobalNamespace::LightBakingPersistentSettingsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightBakingPersistentSettingsSO>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MarshalByRefObject_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 //  Writing Method size for method: System::MarshalByRefObject._ctor
 template<>
 
@@ -94,8 +94,10 @@ constexpr void System::MarshalByRefObject::__set__identity(::bs_hook::Il2CppWrap
 constexpr ::bs_hook::Il2CppWrapperType System::MarshalByRefObject::__get__identity() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::MarshalByRefObject::MarshalByRefObject()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MarshalByRefObject>())) {}
+ System::MarshalByRefObject System::MarshalByRefObject::New_ctor()  {
+System::MarshalByRefObject o{THROW_UNLESS(::il2cpp_utils::New<System::MarshalByRefObject>())};
+return o;
+}
  void System::MarshalByRefObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::MarshalByRefObject>::get(),

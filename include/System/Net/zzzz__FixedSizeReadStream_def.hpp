@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Net {
+struct System__Net__FixedSizeReadStream___ProcessReadAsync_d__5;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
@@ -17,16 +17,19 @@ class Task_1;
 namespace System::Net {
 class WebOperation;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 // Forward declare root types
 namespace System::Net {
@@ -209,8 +212,7 @@ constexpr int64_t __get_position() const;
 /// @brief Method get_ContentLength addr 0x28322b4 size 0x8 virtual false final false
  int64_t get_ContentLength() ;
 
-// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "contentLength", ty: "int64_t", modifiers: "", def_value: None }]
-explicit FixedSizeReadStream(System::Net::WebOperation operation, System::IO::Stream innerStream, int64_t contentLength) ;
+static System::Net::FixedSizeReadStream New_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, int64_t contentLength) ;
 
 /// @brief Method .ctor addr 0x28322bc size 0x28 virtual false final false
  void _ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, int64_t contentLength) ;

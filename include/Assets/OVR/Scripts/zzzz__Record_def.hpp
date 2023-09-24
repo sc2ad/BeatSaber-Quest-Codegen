@@ -70,8 +70,7 @@ constexpr ::StringW __get_message() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cat", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Record(int32_t order, ::StringW cat, ::StringW msg) ;
+static Assets::OVR::Scripts::Record New_ctor(int32_t order, ::StringW cat, ::StringW msg) ;
 
 /// @brief Method .ctor addr 0x266a8fc size 0x3c virtual false final false
  void _ctor(int32_t order, ::StringW cat, ::StringW msg) ;

@@ -5,6 +5,12 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_InputNodeUICache__HEU_InputObjectUICache;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_InputNodeUICache__HEU_InputAssetUICache;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_InputNodeUICache;
@@ -57,8 +63,7 @@ constexpr explicit HoudiniEngineUnity__HEU_InputNodeUICache__HEU_InputObjectUICa
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_InputNodeUICache__HEU_InputObjectUICache() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputNodeUICache__HEU_InputObjectUICache New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ffebd8 size 0x8 virtual false final false
  void _ctor() ;
@@ -109,8 +114,7 @@ constexpr explicit HoudiniEngineUnity__HEU_InputNodeUICache__HEU_InputAssetUICac
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_InputNodeUICache__HEU_InputAssetUICache() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputNodeUICache__HEU_InputAssetUICache New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ffebe0 size 0x8 virtual false final false
  void _ctor() ;
@@ -180,8 +184,7 @@ constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HoudiniEngine
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_InputNodeUICache() ;
+static HoudiniEngineUnity::HEU_InputNodeUICache New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ffeb18 size 0xc0 virtual false final false
  void _ctor() ;

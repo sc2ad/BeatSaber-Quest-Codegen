@@ -2,22 +2,22 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "Zenject/zzzz__ZenjectSceneLoader_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "UnityEngine/zzzz__WaitUntil_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "Zenject/zzzz__ZenjectSceneLoader_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__WaitUntil_def.hpp"
+#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GameScenesManager__ScenesStackData.get_sceneNames
 template<>
 
@@ -168,8 +168,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "sceneNames", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__GameScenesManager__ScenesStackData::GlobalNamespace__GameScenesManager__ScenesStackData(System::Collections::Generic::List_1<::StringW> sceneNames)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameScenesManager__ScenesStackData>(sceneNames))) {}
+ GlobalNamespace::GlobalNamespace__GameScenesManager__ScenesStackData GlobalNamespace::GlobalNamespace__GameScenesManager__ScenesStackData::New_ctor(System::Collections::Generic::List_1<::StringW> sceneNames)  {
+GlobalNamespace::GlobalNamespace__GameScenesManager__ScenesStackData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameScenesManager__ScenesStackData>(sceneNames))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameScenesManager__ScenesStackData::_ctor(System::Collections::Generic::List_1<::StringW> sceneNames)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameScenesManager__ScenesStackData>::get(),
@@ -287,8 +289,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameScenesManager____c__Display
 constexpr System::Action_1<Zenject::DiContainer> GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass30_0::__get_finishCallback() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass30_0::GlobalNamespace__GameScenesManager____c__DisplayClass30_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameScenesManager____c__DisplayClass30_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass30_0 GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass30_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass30_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass30_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass30_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass30_0>::get(),
@@ -362,8 +366,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameScenesManager____c__Display
 constexpr System::Action_1<Zenject::DiContainer> GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass31_0::__get_finishCallback() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass31_0::GlobalNamespace__GameScenesManager____c__DisplayClass31_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameScenesManager____c__DisplayClass31_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass31_0 GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass31_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass31_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass31_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass31_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass31_0>::get(),
@@ -498,8 +504,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameScenesManager____c__Display
 constexpr System::Action_1<Zenject::DiContainer> GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass32_0::__get___9__2() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass32_0::GlobalNamespace__GameScenesManager____c__DisplayClass32_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameScenesManager____c__DisplayClass32_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass32_0 GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass32_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass32_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass32_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass32_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass32_0>::get(),
@@ -652,8 +660,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameScenesManager____c__Display
 constexpr System::Action_1<Zenject::DiContainer> GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass33_0::__get___9__2() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass33_0::GlobalNamespace__GameScenesManager____c__DisplayClass33_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameScenesManager____c__DisplayClass33_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass33_0 GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass33_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass33_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass33_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass33_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass33_0>::get(),
@@ -765,8 +775,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameScenesManager____c__Display
 constexpr System::Action_1<Zenject::DiContainer> GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass34_0::__get_finishCallback() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass34_0::GlobalNamespace__GameScenesManager____c__DisplayClass34_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameScenesManager____c__DisplayClass34_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass34_0 GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass34_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass34_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass34_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass34_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass34_0>::get(),
@@ -863,8 +875,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameScenesManager____c__Display
 constexpr System::Collections::Generic::List_1<::StringW> GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass35_0::__get_sceneNamesToRemove() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<::StringW>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass35_0::GlobalNamespace__GameScenesManager____c__DisplayClass35_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameScenesManager____c__DisplayClass35_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass35_0 GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass35_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass35_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass35_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass35_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass35_0>::get(),
@@ -949,8 +963,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameScenesManager____c__Display
 constexpr GlobalNamespace::ScenesTransitionSetupDataSO GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass38_0::__get_newScenesTransitionSetupData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ScenesTransitionSetupDataSO, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass38_0::GlobalNamespace__GameScenesManager____c__DisplayClass38_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameScenesManager____c__DisplayClass38_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass38_0 GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass38_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass38_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass38_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass38_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameScenesManager____c__DisplayClass38_0>::get(),
@@ -1234,8 +1250,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameScenesManager___ScenesTrans
 constexpr System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<::StringW> GlobalNamespace::GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38::__get___7__wrap5() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::System__Collections__Generic__List_1__Enumerator<::StringW>, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38::GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38 GlobalNamespace::GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameScenesManager___ScenesTransitionCoroutine_d__38>::get(),
@@ -2170,8 +2188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
 }
-// Ctor Parameters []
- GlobalNamespace::GameScenesManager::GameScenesManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GameScenesManager>())) {}
+ GlobalNamespace::GameScenesManager GlobalNamespace::GameScenesManager::New_ctor()  {
+GlobalNamespace::GameScenesManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameScenesManager>())};
+return o;
+}
  void GlobalNamespace::GameScenesManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameScenesManager>::get(),

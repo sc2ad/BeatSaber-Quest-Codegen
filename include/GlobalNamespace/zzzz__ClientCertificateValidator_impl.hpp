@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, endPoint, certificate, certificateChain);
 }
-// Ctor Parameters []
- GlobalNamespace::ClientCertificateValidator::ClientCertificateValidator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClientCertificateValidator>())) {}
+ GlobalNamespace::ClientCertificateValidator GlobalNamespace::ClientCertificateValidator::New_ctor()  {
+GlobalNamespace::ClientCertificateValidator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ClientCertificateValidator>())};
+return o;
+}
  void GlobalNamespace::ClientCertificateValidator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ClientCertificateValidator>::get(),

@@ -100,8 +100,10 @@ constexpr void System::Security::Cryptography::RSAPKCS1SignatureDeformatter::__s
 constexpr ::StringW System::Security::Cryptography::RSAPKCS1SignatureDeformatter::__get_hashName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::RSAPKCS1SignatureDeformatter::RSAPKCS1SignatureDeformatter()  : System::Security::Cryptography::AsymmetricSignatureDeformatter(THROW_UNLESS(::il2cpp_utils::New<RSAPKCS1SignatureDeformatter>())) {}
+ System::Security::Cryptography::RSAPKCS1SignatureDeformatter System::Security::Cryptography::RSAPKCS1SignatureDeformatter::New_ctor()  {
+System::Security::Cryptography::RSAPKCS1SignatureDeformatter o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RSAPKCS1SignatureDeformatter>())};
+return o;
+}
  void System::Security::Cryptography::RSAPKCS1SignatureDeformatter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RSAPKCS1SignatureDeformatter>::get(),
@@ -111,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "System::Security::Cryptography::AsymmetricAlgorithm", modifiers: "", def_value: None }]
- System::Security::Cryptography::RSAPKCS1SignatureDeformatter::RSAPKCS1SignatureDeformatter(System::Security::Cryptography::AsymmetricAlgorithm key)  : System::Security::Cryptography::AsymmetricSignatureDeformatter(THROW_UNLESS(::il2cpp_utils::New<RSAPKCS1SignatureDeformatter>(key))) {}
+ System::Security::Cryptography::RSAPKCS1SignatureDeformatter System::Security::Cryptography::RSAPKCS1SignatureDeformatter::New_ctor(System::Security::Cryptography::AsymmetricAlgorithm key)  {
+System::Security::Cryptography::RSAPKCS1SignatureDeformatter o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RSAPKCS1SignatureDeformatter>(key))};
+return o;
+}
  void System::Security::Cryptography::RSAPKCS1SignatureDeformatter::_ctor(System::Security::Cryptography::AsymmetricAlgorithm key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RSAPKCS1SignatureDeformatter>::get(),

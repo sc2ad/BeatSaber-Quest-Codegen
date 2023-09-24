@@ -77,14 +77,12 @@ constexpr Org::BouncyCastle::Asn1::Esf::SignaturePolicyId __get_sigPolicy() cons
 /// @brief Method GetInstance addr 0xe0a310 size 0x1dc virtual false final false
 static Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit SignaturePolicyIdentifier() ;
+static Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier New_ctor() ;
 
 /// @brief Method .ctor addr 0xe0a564 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "signaturePolicyId", ty: "Org::BouncyCastle::Asn1::Esf::SignaturePolicyId", modifiers: "", def_value: None }]
-explicit SignaturePolicyIdentifier(Org::BouncyCastle::Asn1::Esf::SignaturePolicyId signaturePolicyId) ;
+static Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier New_ctor(Org::BouncyCastle::Asn1::Esf::SignaturePolicyId signaturePolicyId) ;
 
 /// @brief Method .ctor addr 0xe0a4ec size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Esf::SignaturePolicyId signaturePolicyId) ;

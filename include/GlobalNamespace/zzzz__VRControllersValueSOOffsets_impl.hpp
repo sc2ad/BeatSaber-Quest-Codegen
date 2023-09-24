@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::VRControllersValueSOOffsets::VRControllersValueSOOffsets()  : GlobalNamespace::VRControllerTransformOffset(THROW_UNLESS(::il2cpp_utils::New<VRControllersValueSOOffsets>())) {}
+ GlobalNamespace::VRControllersValueSOOffsets GlobalNamespace::VRControllersValueSOOffsets::New_ctor()  {
+GlobalNamespace::VRControllersValueSOOffsets o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VRControllersValueSOOffsets>())};
+return o;
+}
  void GlobalNamespace::VRControllersValueSOOffsets::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VRControllersValueSOOffsets>::get(),

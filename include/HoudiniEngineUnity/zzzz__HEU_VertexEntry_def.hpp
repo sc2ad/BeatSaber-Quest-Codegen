@@ -69,8 +69,7 @@ constexpr int32_t __get__normalIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "meshKey", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "normalIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HEU_VertexEntry(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex) ;
+static HoudiniEngineUnity::HEU_VertexEntry New_ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex) ;
 
 /// @brief Method .ctor addr 0x2051a34 size 0x3c virtual false final false
  void _ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex) ;

@@ -59,8 +59,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::__set_alertDescrip
 constexpr uint8_t Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::__get_alertDescription() const {
 return ::cordl_internals::getInstanceField<uint8_t, 0x8c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "alertDescription", ty: "uint8_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::TlsFatalAlert(uint8_t alertDescription)  : Org::BouncyCastle::Crypto::Tls::TlsException(THROW_UNLESS(::il2cpp_utils::New<TlsFatalAlert>(alertDescription))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsFatalAlert Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::New_ctor(uint8_t alertDescription)  {
+Org::BouncyCastle::Crypto::Tls::TlsFatalAlert o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsFatalAlert>(alertDescription))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::_ctor(uint8_t alertDescription)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsFatalAlert>::get(),
@@ -70,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, alertDescription);
 }
-// Ctor Parameters [CppParam { name: "alertDescription", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "alertCause", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::TlsFatalAlert(uint8_t alertDescription, System::Exception alertCause)  : Org::BouncyCastle::Crypto::Tls::TlsException(THROW_UNLESS(::il2cpp_utils::New<TlsFatalAlert>(alertDescription, alertCause))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsFatalAlert Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::New_ctor(uint8_t alertDescription, System::Exception alertCause)  {
+Org::BouncyCastle::Crypto::Tls::TlsFatalAlert o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsFatalAlert>(alertDescription, alertCause))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::_ctor(uint8_t alertDescription, System::Exception alertCause)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsFatalAlert>::get(),

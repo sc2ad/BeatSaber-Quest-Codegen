@@ -7,23 +7,26 @@
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
-namespace Org::BouncyCastle::Math::EC::Custom::GM {
-class SM2P256V1Point;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
+namespace Org::BouncyCastle::Math::EC::Custom::GM {
+class SM2P256V1Point;
+}
+namespace Org::BouncyCastle::Math::EC::Custom::GM {
+class Org__BouncyCastle__Math__EC__Custom__GM__SM2P256V1Curve__SM2P256V1LookupTable;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::GM {
@@ -100,8 +103,7 @@ constexpr int32_t __get_m_size() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve", modifiers: "", def_value: None }, CppParam { name: "table", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__Custom__GM__SM2P256V1Curve__SM2P256V1LookupTable(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve outer, ::ArrayW<uint32_t> table, int32_t size) ;
+static Org::BouncyCastle::Math::EC::Custom::GM::Org__BouncyCastle__Math__EC__Custom__GM__SM2P256V1Curve__SM2P256V1LookupTable New_ctor(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve outer, ::ArrayW<uint32_t> table, int32_t size) ;
 
 /// @brief Method .ctor addr 0xf459d8 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve outer, ::ArrayW<uint32_t> table, int32_t size) ;
@@ -202,8 +204,7 @@ constexpr Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Point __get_m_infini
 
 // Methods
 
-// Ctor Parameters []
-explicit SM2P256V1Curve() ;
+static Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve New_ctor() ;
 
 /// @brief Method .ctor addr 0xf451cc size 0x218 virtual false final false
  void _ctor() ;

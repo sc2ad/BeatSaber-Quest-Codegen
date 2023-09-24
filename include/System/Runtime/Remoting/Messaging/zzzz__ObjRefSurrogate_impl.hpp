@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__ObjRefSurrogate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::ObjRefSurrogate.GetObjectData
 template<>
@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, obj, si, sc, selector);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Messaging::ObjRefSurrogate::ObjRefSurrogate()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjRefSurrogate>())) {}
+ System::Runtime::Remoting::Messaging::ObjRefSurrogate System::Runtime::Remoting::Messaging::ObjRefSurrogate::New_ctor()  {
+System::Runtime::Remoting::Messaging::ObjRefSurrogate o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ObjRefSurrogate>())};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ObjRefSurrogate::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ObjRefSurrogate>::get(),

@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRBoundary__BoundaryType;
-}
 namespace UnityEngine {
 class Mesh;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
 class Camera;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRBoundary__BoundaryType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,8 +82,7 @@ static float_t GetMaximumBoundaryDistance(UnityEngine::Camera camera, GlobalName
 /// @brief Method BuildBoundaryMesh addr 0x25a5d7c size 0x480 virtual false final false
 static UnityEngine::Mesh BuildBoundaryMesh(GlobalNamespace::GlobalNamespace__OVRBoundary__BoundaryType boundaryType, float_t topY, float_t bottomY) ;
 
-// Ctor Parameters []
-explicit OVRCompositionUtil() ;
+static GlobalNamespace::OVRCompositionUtil New_ctor() ;
 
 /// @brief Method .ctor addr 0x25a61fc size 0x8 virtual false final false
  void _ctor() ;

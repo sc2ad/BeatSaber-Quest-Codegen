@@ -2,10 +2,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
 namespace System::Xml::Schema {
-struct XmlSeverityType;
+class XmlSchemaException;
 }
 namespace System::Xml::Schema {
-class XmlSchemaException;
+struct XmlSeverityType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

@@ -8,19 +8,19 @@ namespace System {
 class Type;
 }
 namespace System::Reflection {
-class ParameterInfo;
+struct BindingFlags;
 }
 namespace System::Reflection {
-struct BindingFlags;
+class Binder;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
+namespace System::Reflection {
+class ParameterInfo;
+}
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System::Reflection {
-class Binder;
 }
 // Forward declare root types
 namespace System::Reflection::Emit {

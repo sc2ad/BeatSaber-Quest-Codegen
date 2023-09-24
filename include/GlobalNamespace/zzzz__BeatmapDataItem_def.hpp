@@ -4,6 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapDataItem__BeatmapDataItemType;
+}
 namespace System {
 template<typename T>
 class IComparable_1;
@@ -64,6 +67,8 @@ __BeatmapEvent = 1,
 constexpr operator __GlobalNamespace__BeatmapDataItem__BeatmapDataItemType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__BeatmapDataItem__BeatmapDataItemType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -176,8 +181,7 @@ constexpr GlobalNamespace::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType
 /// @brief Method get_subtypeGroupIdentifier addr 0xd90eb0 size 0x8 virtual true final false
  int32_t get_subtypeGroupIdentifier() ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "executionOrder", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifier", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "GlobalNamespace::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType", modifiers: "", def_value: None }]
-explicit BeatmapDataItem(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, GlobalNamespace::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType type) ;
+static GlobalNamespace::BeatmapDataItem New_ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, GlobalNamespace::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType type) ;
 
 /// @brief Method .ctor addr 0xd90eb8 size 0x4c virtual false final false
  void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, GlobalNamespace::GlobalNamespace__BeatmapDataItem__BeatmapDataItemType type) ;

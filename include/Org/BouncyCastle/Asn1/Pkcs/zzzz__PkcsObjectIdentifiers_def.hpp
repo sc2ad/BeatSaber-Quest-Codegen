@@ -881,8 +881,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PbewithShaAnd40BitRC2C
 
 // Methods
 
-// Ctor Parameters []
-explicit PkcsObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xefebac size 0x8 virtual false final false
  void _ctor() ;

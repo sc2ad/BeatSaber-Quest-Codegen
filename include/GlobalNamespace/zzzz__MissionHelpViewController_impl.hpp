@@ -1,9 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionHelpViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MissionHelpSO_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__MissionHelpSO_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__MissionHelpViewController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair._ctor
 template<>
@@ -34,8 +35,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionHelpViewController__Miss
 constexpr UnityEngine::GameObject GlobalNamespace::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair::__get_gameObject() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GameObject, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair>())) {}
+ GlobalNamespace::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair GlobalNamespace::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionHelpViewController__MissionHelpGameObjectPair>::get(),
@@ -242,8 +245,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionHelpViewController::MissionHelpViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<MissionHelpViewController>())) {}
+ GlobalNamespace::MissionHelpViewController GlobalNamespace::MissionHelpViewController::New_ctor()  {
+GlobalNamespace::MissionHelpViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionHelpViewController>())};
+return o;
+}
  void GlobalNamespace::MissionHelpViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionHelpViewController>::get(),

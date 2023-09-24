@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerExternal_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerTaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerExternal._ctor
 template<>
 
@@ -345,8 +345,10 @@ constexpr void Org::BouncyCastle::Asn1::DerExternal::__set_externalContent(Org::
 constexpr Org::BouncyCastle::Asn1::Asn1Object Org::BouncyCastle::Asn1::DerExternal::__get_externalContent() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Object, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "vector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerExternal::DerExternal(Org::BouncyCastle::Asn1::Asn1EncodableVector vector)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerExternal>(vector))) {}
+ Org::BouncyCastle::Asn1::DerExternal Org::BouncyCastle::Asn1::DerExternal::New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector vector)  {
+Org::BouncyCastle::Asn1::DerExternal o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerExternal>(vector))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerExternal::_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector vector)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerExternal>::get(),
@@ -356,8 +358,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, vector);
 }
-// Ctor Parameters [CppParam { name: "directReference", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "indirectReference", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "dataValueDescriptor", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }, CppParam { name: "externalData", ty: "Org::BouncyCastle::Asn1::DerTaggedObject", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerExternal::DerExternal(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, Org::BouncyCastle::Asn1::DerTaggedObject externalData)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerExternal>(directReference, indirectReference, dataValueDescriptor, externalData))) {}
+ Org::BouncyCastle::Asn1::DerExternal Org::BouncyCastle::Asn1::DerExternal::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, Org::BouncyCastle::Asn1::DerTaggedObject externalData)  {
+Org::BouncyCastle::Asn1::DerExternal o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerExternal>(directReference, indirectReference, dataValueDescriptor, externalData))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerExternal::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, Org::BouncyCastle::Asn1::DerTaggedObject externalData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerExternal>::get(),
@@ -367,8 +371,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, directReference, indirectReference, dataValueDescriptor, externalData);
 }
-// Ctor Parameters [CppParam { name: "directReference", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "indirectReference", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "dataValueDescriptor", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "externalData", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerExternal::DerExternal(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, int32_t encoding, Org::BouncyCastle::Asn1::Asn1Object externalData)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerExternal>(directReference, indirectReference, dataValueDescriptor, encoding, externalData))) {}
+ Org::BouncyCastle::Asn1::DerExternal Org::BouncyCastle::Asn1::DerExternal::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, int32_t encoding, Org::BouncyCastle::Asn1::Asn1Object externalData)  {
+Org::BouncyCastle::Asn1::DerExternal o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerExternal>(directReference, indirectReference, dataValueDescriptor, encoding, externalData))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerExternal::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier directReference, Org::BouncyCastle::Asn1::DerInteger indirectReference, Org::BouncyCastle::Asn1::Asn1Object dataValueDescriptor, int32_t encoding, Org::BouncyCastle::Asn1::Asn1Object externalData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerExternal>::get(),

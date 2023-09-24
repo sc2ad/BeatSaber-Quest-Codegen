@@ -183,8 +183,10 @@ constexpr void System::Security::Cryptography::SHA1Internal::__set_buff(::ArrayW
 constexpr ::ArrayW<uint32_t> System::Security::Cryptography::SHA1Internal::__get_buff() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::SHA1Internal::SHA1Internal()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SHA1Internal>())) {}
+ System::Security::Cryptography::SHA1Internal System::Security::Cryptography::SHA1Internal::New_ctor()  {
+System::Security::Cryptography::SHA1Internal o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::SHA1Internal>())};
+return o;
+}
  void System::Security::Cryptography::SHA1Internal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::SHA1Internal>::get(),

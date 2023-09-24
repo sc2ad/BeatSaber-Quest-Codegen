@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "ENet/zzzz__Event_def.hpp"
-#include "ENet/zzzz__EventType_def.hpp"
 #include "ENet/zzzz__ENetEvent_def.hpp"
+#include "ENet/zzzz__EventType_def.hpp"
 #include "ENet/zzzz__Peer_def.hpp"
 #include "ENet/zzzz__Packet_def.hpp"
 //  Writing Method size for method: ENet::Event.get_NativeData

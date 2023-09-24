@@ -3,28 +3,28 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class MultiplayerLobbyCenterScreenLayoutAnimator;
-}
-namespace GlobalNamespace {
-class CountdownController;
-}
-namespace GlobalNamespace {
 class BeatmapSelectionView;
-}
-namespace GlobalNamespace {
-class MenuLightsPresetSO;
-}
-namespace GlobalNamespace {
-class ILobbyGameStateController;
-}
-namespace GlobalNamespace {
-class ModifiersSelectionView;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
 class MenuLightsManager;
+}
+namespace GlobalNamespace {
+class CountdownController;
+}
+namespace GlobalNamespace {
+class MultiplayerLobbyCenterScreenLayoutAnimator;
+}
+namespace GlobalNamespace {
+class ModifiersSelectionView;
+}
+namespace GlobalNamespace {
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+class MenuLightsPresetSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -182,8 +182,7 @@ constexpr float_t __get__countdownEndTime() const;
 /// @brief Method SetNextGameplaySetupData addr 0x2175e2c size 0x13c virtual false final false
  void SetNextGameplaySetupData(GlobalNamespace::ILevelGameplaySetupData levelGameplaySetupData) ;
 
-// Ctor Parameters []
-explicit CenterStageScreenController() ;
+static GlobalNamespace::CenterStageScreenController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21761a0 size 0x8 virtual false final false
  void _ctor() ;

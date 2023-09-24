@@ -2,10 +2,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Newtonsoft::Json::Converters {
-class IXmlElement;
+class IXmlNode;
 }
 namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+class IXmlElement;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

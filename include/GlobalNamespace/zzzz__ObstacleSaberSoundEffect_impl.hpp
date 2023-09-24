@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSaberSoundEffect_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSaberSparkleEffectManager_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ObstacleSaberSoundEffect.Awake
 template<>
 
@@ -181,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, saberType);
 }
-// Ctor Parameters []
- GlobalNamespace::ObstacleSaberSoundEffect::ObstacleSaberSoundEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ObstacleSaberSoundEffect>())) {}
+ GlobalNamespace::ObstacleSaberSoundEffect GlobalNamespace::ObstacleSaberSoundEffect::New_ctor()  {
+GlobalNamespace::ObstacleSaberSoundEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObstacleSaberSoundEffect>())};
+return o;
+}
  void GlobalNamespace::ObstacleSaberSoundEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObstacleSaberSoundEffect>::get(),

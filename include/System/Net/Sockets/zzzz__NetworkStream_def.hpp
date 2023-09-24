@@ -7,53 +7,53 @@
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace System::Net::Sockets {
+class Socket;
+}
 namespace System {
 template<typename T>
 struct ReadOnlyMemory_1;
 }
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Net::Sockets {
-struct SocketShutdown;
-}
 namespace System {
 class IAsyncResult;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-struct ValueTask_1;
-}
-namespace System {
-template<typename T>
-struct Span_1;
-}
-namespace System {
-class AsyncCallback;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace System {
+template<typename T>
+struct Span_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+struct ValueTask_1;
+}
+namespace System::Net::Sockets {
+struct SocketShutdown;
+}
 namespace System::Threading::Tasks {
 struct ValueTask;
-}
-namespace System::IO {
-struct FileAccess;
 }
 namespace System {
 template<typename T>
 struct Memory_1;
 }
 namespace System {
+class AsyncCallback;
+}
+namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
+}
+namespace System::IO {
+struct FileAccess;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace System::Net::Sockets {
@@ -175,20 +175,17 @@ constexpr int32_t __get__currentWriteTimeout() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "socket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }]
-explicit NetworkStream(System::Net::Sockets::Socket socket) ;
+static System::Net::Sockets::NetworkStream New_ctor(System::Net::Sockets::Socket socket) ;
 
 /// @brief Method .ctor addr 0x285ee8c size 0xc virtual false final false
  void _ctor(System::Net::Sockets::Socket socket) ;
 
-// Ctor Parameters [CppParam { name: "socket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }, CppParam { name: "ownsSocket", ty: "bool", modifiers: "", def_value: None }]
-explicit NetworkStream(System::Net::Sockets::Socket socket, bool ownsSocket) ;
+static System::Net::Sockets::NetworkStream New_ctor(System::Net::Sockets::Socket socket, bool ownsSocket) ;
 
 /// @brief Method .ctor addr 0x285f048 size 0xc virtual false final false
  void _ctor(System::Net::Sockets::Socket socket, bool ownsSocket) ;
 
-// Ctor Parameters [CppParam { name: "socket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "ownsSocket", ty: "bool", modifiers: "", def_value: None }]
-explicit NetworkStream(System::Net::Sockets::Socket socket, System::IO::FileAccess access, bool ownsSocket) ;
+static System::Net::Sockets::NetworkStream New_ctor(System::Net::Sockets::Socket socket, System::IO::FileAccess access, bool ownsSocket) ;
 
 /// @brief Method .ctor addr 0x285ee98 size 0x1b0 virtual false final false
  void _ctor(System::Net::Sockets::Socket socket, System::IO::FileAccess access, bool ownsSocket) ;

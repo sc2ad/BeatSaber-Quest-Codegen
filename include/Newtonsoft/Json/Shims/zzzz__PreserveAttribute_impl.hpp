@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Newtonsoft::Json::Shims::PreserveAttribute::PreserveAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PreserveAttribute>())) {}
+ Newtonsoft::Json::Shims::PreserveAttribute Newtonsoft::Json::Shims::PreserveAttribute::New_ctor()  {
+Newtonsoft::Json::Shims::PreserveAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Shims::PreserveAttribute>())};
+return o;
+}
  void Newtonsoft::Json::Shims::PreserveAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Shims::PreserveAttribute>::get(),

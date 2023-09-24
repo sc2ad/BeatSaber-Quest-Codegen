@@ -4,26 +4,29 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
 struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__EdgeUtility____c__DisplayClass0_0;
 }
 namespace UnityEngine::ProBuilder {
 template<typename T1,typename T2>
 struct SimpleTuple_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -83,8 +86,7 @@ constexpr UnityEngine::ProBuilder::ProBuilderMesh __get_mesh() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__EdgeUtility____c__DisplayClass0_0() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeUtility____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x29abe38 size 0x8 virtual false final false
  void _ctor() ;

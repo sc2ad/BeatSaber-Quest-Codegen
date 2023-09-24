@@ -62,14 +62,12 @@ constexpr ::StringW __get__Justification_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MustUseReturnValueAttribute() ;
+static JetBrains::Annotations::MustUseReturnValueAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40e38 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "justification", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MustUseReturnValueAttribute(::StringW justification) ;
+static JetBrains::Annotations::MustUseReturnValueAttribute New_ctor(::StringW justification) ;
 
 /// @brief Method .ctor addr 0x2d40e40 size 0x28 virtual false final false
  void _ctor(::StringW justification) ;

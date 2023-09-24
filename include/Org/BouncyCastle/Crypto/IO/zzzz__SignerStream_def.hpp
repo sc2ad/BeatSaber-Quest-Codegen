@@ -3,14 +3,14 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace System::IO {
 struct SeekOrigin;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::IO {
@@ -92,8 +92,7 @@ constexpr Org::BouncyCastle::Crypto::ISigner __get_outSigner() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readSigner", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }, CppParam { name: "writeSigner", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
-explicit SignerStream(System::IO::Stream stream, Org::BouncyCastle::Crypto::ISigner readSigner, Org::BouncyCastle::Crypto::ISigner writeSigner) ;
+static Org::BouncyCastle::Crypto::IO::SignerStream New_ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::ISigner readSigner, Org::BouncyCastle::Crypto::ISigner writeSigner) ;
 
 /// @brief Method .ctor addr 0xe7ca5c size 0x80 virtual false final false
  void _ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::ISigner readSigner, Org::BouncyCastle::Crypto::ISigner writeSigner) ;

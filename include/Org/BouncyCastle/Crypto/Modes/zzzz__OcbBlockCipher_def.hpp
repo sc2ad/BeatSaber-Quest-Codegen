@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -214,8 +214,7 @@ constexpr ::ArrayW<uint8_t> __get_macBlock() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hashCipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "mainCipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit OcbBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher hashCipher, Org::BouncyCastle::Crypto::IBlockCipher mainCipher) ;
+static Org::BouncyCastle::Crypto::Modes::OcbBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher hashCipher, Org::BouncyCastle::Crypto::IBlockCipher mainCipher) ;
 
 /// @brief Method .ctor addr 0xe97020 size 0x3e4 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher hashCipher, Org::BouncyCastle::Crypto::IBlockCipher mainCipher) ;

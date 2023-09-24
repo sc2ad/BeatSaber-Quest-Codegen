@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGrabbable_def.hpp"
-#include "UnityEngine/zzzz__Collider_def.hpp"
-#include "UnityEngine/zzzz__Rigidbody_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__OVRGrabber_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Rigidbody_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRGrabbable.get_allowOffhandGrab
 template<>
@@ -435,8 +435,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRGrabbable::OVRGrabbable()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRGrabbable>())) {}
+ GlobalNamespace::OVRGrabbable GlobalNamespace::OVRGrabbable::New_ctor()  {
+GlobalNamespace::OVRGrabbable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRGrabbable>())};
+return o;
+}
  void GlobalNamespace::OVRGrabbable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRGrabbable>::get(),

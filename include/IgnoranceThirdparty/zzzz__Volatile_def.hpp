@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace IgnoranceThirdparty {
+struct IgnoranceThirdparty__Volatile__PaddedLong;
+}
 // Forward declare root types
 namespace IgnoranceThirdparty {
 class Volatile;

@@ -53,14 +53,12 @@ constexpr explicit SignerUserId(void* ptr) noexcept : Org::BouncyCastle::Bcpg::S
 /// @brief Method UserIdToBytes addr 0x113ee24 size 0xa4 virtual false final false
 static ::ArrayW<uint8_t> UserIdToBytes(::StringW id) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SignerUserId(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::SignerUserId New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113eec8 size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SignerUserId(bool critical, ::StringW userId) ;
+static Org::BouncyCastle::Bcpg::Sig::SignerUserId New_ctor(bool critical, ::StringW userId) ;
 
 /// @brief Method .ctor addr 0x113ef10 size 0x4c virtual false final false
  void _ctor(bool critical, ::StringW userId) ;

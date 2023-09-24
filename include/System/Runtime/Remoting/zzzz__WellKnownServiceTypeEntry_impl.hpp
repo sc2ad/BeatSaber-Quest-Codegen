@@ -106,8 +106,10 @@ constexpr void System::Runtime::Remoting::WellKnownServiceTypeEntry::__set_obj_m
 constexpr System::Runtime::Remoting::WellKnownObjectMode System::Runtime::Remoting::WellKnownServiceTypeEntry::__get_obj_mode() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::WellKnownObjectMode, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Runtime::Remoting::WellKnownObjectMode", modifiers: "", def_value: None }]
- System::Runtime::Remoting::WellKnownServiceTypeEntry::WellKnownServiceTypeEntry(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, System::Runtime::Remoting::WellKnownObjectMode mode)  : System::Runtime::Remoting::TypeEntry(THROW_UNLESS(::il2cpp_utils::New<WellKnownServiceTypeEntry>(typeName, assemblyName, objectUri, mode))) {}
+ System::Runtime::Remoting::WellKnownServiceTypeEntry System::Runtime::Remoting::WellKnownServiceTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, System::Runtime::Remoting::WellKnownObjectMode mode)  {
+System::Runtime::Remoting::WellKnownServiceTypeEntry o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::WellKnownServiceTypeEntry>(typeName, assemblyName, objectUri, mode))};
+return o;
+}
  void System::Runtime::Remoting::WellKnownServiceTypeEntry::_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, System::Runtime::Remoting::WellKnownObjectMode mode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::WellKnownServiceTypeEntry>::get(),

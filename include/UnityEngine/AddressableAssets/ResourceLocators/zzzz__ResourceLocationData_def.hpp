@@ -137,8 +137,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__Data() const;
 /// @brief Method set_Data addr 0x289d054 size 0xac virtual false final false
  void set_Data(::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters [CppParam { name: "keys", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit ResourceLocationData(::ArrayW<::StringW> keys, ::StringW id, System::Type provider, System::Type t, ::ArrayW<::StringW> dependencies) ;
+static UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData New_ctor(::ArrayW<::StringW> keys, ::StringW id, System::Type provider, System::Type t, ::ArrayW<::StringW> dependencies) ;
 
 /// @brief Method .ctor addr 0x289d100 size 0x138 virtual false final false
  void _ctor(::ArrayW<::StringW> keys, ::StringW id, System::Type provider, System::Type t, ::ArrayW<::StringW> dependencies) ;

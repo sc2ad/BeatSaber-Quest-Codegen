@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -59,8 +59,7 @@ constexpr explicit DerOutputStream(void* ptr) noexcept : Org::BouncyCastle::Util
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "os", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit DerOutputStream(System::IO::Stream os) ;
+static Org::BouncyCastle::Asn1::DerOutputStream New_ctor(System::IO::Stream os) ;
 
 /// @brief Method .ctor addr 0x112c888 size 0x4 virtual false final false
  void _ctor(System::IO::Stream os) ;

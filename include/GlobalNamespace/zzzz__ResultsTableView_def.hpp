@@ -4,12 +4,6 @@
 #include <cmath>
 #include <cstdint>
 namespace HMUI {
-class TableCell;
-}
-namespace GlobalNamespace {
-class ResultsTableCell;
-}
-namespace HMUI {
 class TableView;
 }
 namespace System::Collections::Generic {
@@ -21,6 +15,12 @@ class HMUI__TableView__IDataSource;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
+}
+namespace HMUI {
+class TableCell;
+}
+namespace GlobalNamespace {
+class ResultsTableCell;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,8 +113,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::Multipl
 /// @brief Method SetData addr 0x218f3fc size 0x2c virtual false final false
  void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> dataList) ;
 
-// Ctor Parameters []
-explicit ResultsTableView() ;
+static GlobalNamespace::ResultsTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x218f428 size 0x14 virtual false final false
  void _ctor() ;

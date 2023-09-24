@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class BeatmapObjectSpawnMovementData;
-}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class BeatmapObjectSpawnMovementData;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

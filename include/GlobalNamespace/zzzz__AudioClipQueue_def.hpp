@@ -88,8 +88,7 @@ constexpr float_t __get__delay() const;
 /// @brief Method PlayAudioClipWithDelay addr 0x20b8714 size 0xcc virtual false final false
  void PlayAudioClipWithDelay(UnityEngine::AudioClip audioClip, float_t delay) ;
 
-// Ctor Parameters []
-explicit AudioClipQueue() ;
+static GlobalNamespace::AudioClipQueue New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b87e0 size 0x7c virtual false final false
  void _ctor() ;

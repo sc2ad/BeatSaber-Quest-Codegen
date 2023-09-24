@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+class IPlayableOutput;
 }
 namespace UnityEngine::Playables {
-class IPlayableOutput;
+struct PlayableOutputHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

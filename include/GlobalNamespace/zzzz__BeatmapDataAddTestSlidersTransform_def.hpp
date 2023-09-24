@@ -4,9 +4,6 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
 struct ColorType;
 }
 namespace System::Collections::Generic {
@@ -14,10 +11,13 @@ template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+class NoteData;
 }
 namespace GlobalNamespace {
-class NoteData;
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ static GlobalNamespace::IReadonlyBeatmapData CreateTransformedData(GlobalNamespa
 /// @brief Method FindNextSameColorTypeNote addr 0x21b9758 size 0x1ec virtual false final false
 static GlobalNamespace::NoteData FindNextSameColorTypeNote(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapDataItem> beatmapDataItems, int32_t startIndex, GlobalNamespace::ColorType colorType) ;
 
-// Ctor Parameters []
-explicit BeatmapDataAddTestSlidersTransform() ;
+static GlobalNamespace::BeatmapDataAddTestSlidersTransform New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b9944 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509CertificateStructure_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509CertificateStructure_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Certificate._ctor
 template<>
 
@@ -150,8 +150,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::Certificate::__set_mCertificateLi
 constexpr ::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> Org::BouncyCastle::Crypto::Tls::Certificate::__get_mCertificateList() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "certificateList", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Certificate::Certificate(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certificateList)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Certificate>(certificateList))) {}
+ Org::BouncyCastle::Crypto::Tls::Certificate Org::BouncyCastle::Crypto::Tls::Certificate::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certificateList)  {
+Org::BouncyCastle::Crypto::Tls::Certificate o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Certificate>(certificateList))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Certificate::_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::X509CertificateStructure> certificateList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Certificate>::get(),

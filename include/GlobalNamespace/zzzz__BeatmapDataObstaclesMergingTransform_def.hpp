@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
+class GlobalNamespace__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
@@ -69,8 +72,7 @@ constexpr ::ArrayW<GlobalNamespace::ObstacleData> __get_prevObstacleDataInLines(
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ba1b8 size 0x8 virtual false final false
  void _ctor() ;

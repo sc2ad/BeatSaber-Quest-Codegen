@@ -4,17 +4,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
-namespace UnityEngine {
-class Cloth;
+namespace GlobalNamespace {
+class GlobalNamespace__DroneHover__SineLayer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
+}
+namespace UnityEngine {
+class Cloth;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +83,7 @@ constexpr float_t __get_offset() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__DroneHover__SineLayer() ;
+static GlobalNamespace::GlobalNamespace__DroneHover__SineLayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x20afc20 size 0x8 virtual false final false
  void _ctor() ;
@@ -212,8 +214,7 @@ constexpr UnityEngine::Cloth __get__cloth() const;
 /// @brief Method UpdateTiltTransform addr 0x20af850 size 0x2c0 virtual false final false
  void UpdateTiltTransform() ;
 
-// Ctor Parameters []
-explicit DroneHover() ;
+static GlobalNamespace::DroneHover New_ctor() ;
 
 /// @brief Method .ctor addr 0x20afc04 size 0x1c virtual false final false
  void _ctor() ;

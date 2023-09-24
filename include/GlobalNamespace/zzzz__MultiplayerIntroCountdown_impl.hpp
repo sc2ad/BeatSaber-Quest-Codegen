@@ -1,15 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerIntroCountdown_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerIntroCountdownTextController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerIntroCountdownTextController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerIntroCountdown_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23._ctor
 template<>
 
@@ -166,8 +167,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___Cou
 constexpr float_t GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get__soundDelayAfterText_5__2() const {
 return ::cordl_internals::getInstanceField<float_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23 GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___CountdownRoutine_d__23>::get(),
@@ -366,8 +369,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___Pla
 constexpr UnityEngine::AudioClip GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24::__get_audioClip() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AudioClip, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24::GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24 GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PlayDelayed_d__24>::get(),
@@ -536,8 +541,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c_
 constexpr GlobalNamespace::MultiplayerIntroCountdown GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerIntroCountdown, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0 GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0>::get(),
@@ -748,8 +755,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___Pha
 constexpr GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0 GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___8__1() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown____c__DisplayClass25_0, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25::GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25 GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerIntroCountdown___PhaseRoutine_d__25>::get(),
@@ -1111,8 +1120,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, text, appearDuration, disappearDuration);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerIntroCountdown::MultiplayerIntroCountdown()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerIntroCountdown>())) {}
+ GlobalNamespace::MultiplayerIntroCountdown GlobalNamespace::MultiplayerIntroCountdown::New_ctor()  {
+GlobalNamespace::MultiplayerIntroCountdown o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerIntroCountdown>())};
+return o;
+}
  void GlobalNamespace::MultiplayerIntroCountdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerIntroCountdown>::get(),

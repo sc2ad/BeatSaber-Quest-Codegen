@@ -66,8 +66,7 @@ constexpr Org::BouncyCastle::Crypto::ISigner __get_mSigner() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
-explicit SignerSink(Org::BouncyCastle::Crypto::ISigner signer) ;
+static Org::BouncyCastle::Crypto::IO::SignerSink New_ctor(Org::BouncyCastle::Crypto::ISigner signer) ;
 
 /// @brief Method .ctor addr 0xe7c8a4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ISigner signer) ;

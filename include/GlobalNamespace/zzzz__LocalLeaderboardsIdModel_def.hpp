@@ -54,8 +54,7 @@ constexpr explicit LocalLeaderboardsIdModel(void* ptr) noexcept : ::bs_hook::Il2
 /// @brief Method GetLocalLeaderboardID addr 0x21c3bc4 size 0x8 virtual false final false
 static ::StringW GetLocalLeaderboardID(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
-// Ctor Parameters []
-explicit LocalLeaderboardsIdModel() ;
+static GlobalNamespace::LocalLeaderboardsIdModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c3bcc size 0x8 virtual false final false
  void _ctor() ;

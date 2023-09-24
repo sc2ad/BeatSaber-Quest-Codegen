@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }]
- Mono::Util::MonoPInvokeCallbackAttribute::MonoPInvokeCallbackAttribute(System::Type t)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MonoPInvokeCallbackAttribute>(t))) {}
+ Mono::Util::MonoPInvokeCallbackAttribute Mono::Util::MonoPInvokeCallbackAttribute::New_ctor(System::Type t)  {
+Mono::Util::MonoPInvokeCallbackAttribute o{THROW_UNLESS(::il2cpp_utils::New<Mono::Util::MonoPInvokeCallbackAttribute>(t))};
+return o;
+}
  void Mono::Util::MonoPInvokeCallbackAttribute::_ctor(System::Type t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Util::MonoPInvokeCallbackAttribute>::get(),

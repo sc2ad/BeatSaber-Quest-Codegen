@@ -62,8 +62,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_data() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoListItem() ;
+static System::MonoListItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x248fea4 size 0x4 virtual false final false
  void _ctor() ;

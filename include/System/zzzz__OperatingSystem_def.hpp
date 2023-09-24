@@ -2,23 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System {
+struct PlatformID;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
 class Version;
 }
-namespace System {
-struct PlatformID;
-}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System {
 class ICloneable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -106,14 +106,12 @@ constexpr ::StringW __get__versionString() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "platform", ty: "System::PlatformID", modifiers: "", def_value: None }, CppParam { name: "version", ty: "System::Version", modifiers: "", def_value: None }]
-explicit OperatingSystem(System::PlatformID platform, System::Version version) ;
+static System::OperatingSystem New_ctor(System::PlatformID platform, System::Version version) ;
 
 /// @brief Method .ctor addr 0x2462f74 size 0x8 virtual false final false
  void _ctor(System::PlatformID platform, System::Version version) ;
 
-// Ctor Parameters [CppParam { name: "platform", ty: "System::PlatformID", modifiers: "", def_value: None }, CppParam { name: "version", ty: "System::Version", modifiers: "", def_value: None }, CppParam { name: "servicePack", ty: "::StringW", modifiers: "", def_value: None }]
-explicit OperatingSystem(System::PlatformID platform, System::Version version, ::StringW servicePack) ;
+static System::OperatingSystem New_ctor(System::PlatformID platform, System::Version version, ::StringW servicePack) ;
 
 /// @brief Method .ctor addr 0x2462f7c size 0x140 virtual false final false
  void _ctor(System::PlatformID platform, System::Version version, ::StringW servicePack) ;

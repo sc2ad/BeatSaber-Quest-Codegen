@@ -21,6 +21,30 @@ struct ChaperoneCalibrationState;
 namespace OVR::OpenVR {
 struct HmdQuad_t;
 }
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperone___ReloadInfo;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperone___GetPlayAreaRect;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperone___GetPlayAreaSize;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperone___GetCalibrationState;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperone___SetSceneColor;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperone___AreBoundsVisible;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperone___GetBoundsColor;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperone___ForceBoundsVisible;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 class OVR__OpenVR__IVRChaperone___AreBoundsVisible;
@@ -91,8 +115,7 @@ constexpr explicit OVR__OpenVR__IVRChaperone___GetCalibrationState(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperone___GetCalibrationState(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperone___GetCalibrationState New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264ae88 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -152,8 +175,7 @@ constexpr explicit OVR__OpenVR__IVRChaperone___GetPlayAreaSize(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperone___GetPlayAreaSize(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperone___GetPlayAreaSize New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264afa0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -213,8 +235,7 @@ constexpr explicit OVR__OpenVR__IVRChaperone___GetPlayAreaRect(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperone___GetPlayAreaRect(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperone___GetPlayAreaRect New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264b164 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -274,8 +295,7 @@ constexpr explicit OVR__OpenVR__IVRChaperone___ReloadInfo(void* ptr) noexcept : 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperone___ReloadInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperone___ReloadInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264b304 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -335,8 +355,7 @@ constexpr explicit OVR__OpenVR__IVRChaperone___SetSceneColor(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperone___SetSceneColor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperone___SetSceneColor New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264b400 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -396,8 +415,7 @@ constexpr explicit OVR__OpenVR__IVRChaperone___GetBoundsColor(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperone___GetBoundsColor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperone___GetBoundsColor New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264b56c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -457,8 +475,7 @@ constexpr explicit OVR__OpenVR__IVRChaperone___AreBoundsVisible(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperone___AreBoundsVisible(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperone___AreBoundsVisible New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264b780 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -518,8 +535,7 @@ constexpr explicit OVR__OpenVR__IVRChaperone___ForceBoundsVisible(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperone___ForceBoundsVisible(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperone___ForceBoundsVisible New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264b898 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockBeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
 #include "GlobalNamespace/zzzz__MockObstacleData_def.hpp"
+#include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockBeatmapData.get_numberOfLines
 template<>
 
@@ -367,8 +367,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::MockBeatmapData::MockBeatmapData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockBeatmapData>())) {}
+ GlobalNamespace::MockBeatmapData GlobalNamespace::MockBeatmapData::New_ctor()  {
+GlobalNamespace::MockBeatmapData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockBeatmapData>())};
+return o;
+}
  void GlobalNamespace::MockBeatmapData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockBeatmapData>::get(),

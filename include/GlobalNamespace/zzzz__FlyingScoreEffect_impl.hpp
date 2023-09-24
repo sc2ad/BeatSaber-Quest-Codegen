@@ -2,15 +2,16 @@
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
-#include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
-#include "TMPro/zzzz__TextMeshPro_def.hpp"
 #include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
+#include "TMPro/zzzz__TextMeshPro_def.hpp"
+#include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FlyingScoreEffect.InitAndPresent
 template<>
 
@@ -234,8 +235,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FlyingScoreEffect::FlyingScoreEffect()  : GlobalNamespace::FlyingObjectEffect(THROW_UNLESS(::il2cpp_utils::New<FlyingScoreEffect>())) {}
+ GlobalNamespace::FlyingScoreEffect GlobalNamespace::FlyingScoreEffect::New_ctor()  {
+GlobalNamespace::FlyingScoreEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FlyingScoreEffect>())};
+return o;
+}
  void GlobalNamespace::FlyingScoreEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FlyingScoreEffect>::get(),
@@ -288,8 +291,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, item);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__FlyingScoreEffect__Pool::GlobalNamespace__FlyingScoreEffect__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::FlyingScoreEffect>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FlyingScoreEffect__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__FlyingScoreEffect__Pool GlobalNamespace::GlobalNamespace__FlyingScoreEffect__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__FlyingScoreEffect__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FlyingScoreEffect__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FlyingScoreEffect__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FlyingScoreEffect__Pool>::get(),

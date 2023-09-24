@@ -7,11 +7,23 @@
 namespace Mono::Security {
 class ASN1;
 }
+namespace Mono::Security::X509 {
+class X509CertificateCollection;
+}
 namespace System::Collections {
 class ArrayList;
 }
-namespace Mono::Security::X509 {
-class X509CertificateCollection;
+namespace Mono::Security {
+class Mono__Security__PKCS7__SignedData;
+}
+namespace Mono::Security {
+class Mono__Security__PKCS7__SignerInfo;
+}
+namespace Mono::Security {
+class Mono__Security__PKCS7__ContentInfo;
+}
+namespace Mono::Security {
+class Mono__Security__PKCS7__EncryptedData;
 }
 // Forward declare root types
 namespace Mono::Security {
@@ -95,26 +107,22 @@ constexpr Mono::Security::ASN1 __get_content() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Security__PKCS7__ContentInfo() ;
+static Mono::Security::Mono__Security__PKCS7__ContentInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2281914 size 0x78 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Mono__Security__PKCS7__ContentInfo(::StringW oid) ;
+static Mono::Security::Mono__Security__PKCS7__ContentInfo New_ctor(::StringW oid) ;
 
 /// @brief Method .ctor addr 0x228198c size 0x24 virtual false final false
  void _ctor(::StringW oid) ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Mono__Security__PKCS7__ContentInfo(::ArrayW<uint8_t> data) ;
+static Mono::Security::Mono__Security__PKCS7__ContentInfo New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x22819b0 size 0x70 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
-explicit Mono__Security__PKCS7__ContentInfo(Mono::Security::ASN1 asn1) ;
+static Mono::Security::Mono__Security__PKCS7__ContentInfo New_ctor(Mono::Security::ASN1 asn1) ;
 
 /// @brief Method .ctor addr 0x2281a20 size 0x188 virtual false final false
  void _ctor(Mono::Security::ASN1 asn1) ;
@@ -217,14 +225,12 @@ constexpr ::ArrayW<uint8_t> __get__encrypted() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Security__PKCS7__EncryptedData() ;
+static Mono::Security::Mono__Security__PKCS7__EncryptedData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2281c80 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
-explicit Mono__Security__PKCS7__EncryptedData(Mono::Security::ASN1 asn1) ;
+static Mono::Security::Mono__Security__PKCS7__EncryptedData New_ctor(Mono::Security::ASN1 asn1) ;
 
 /// @brief Method .ctor addr 0x2281c9c size 0x2d8 virtual false final false
  void _ctor(Mono::Security::ASN1 asn1) ;
@@ -337,8 +343,7 @@ constexpr bool __get_mda() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
-explicit Mono__Security__PKCS7__SignedData(Mono::Security::ASN1 asn1) ;
+static Mono::Security::Mono__Security__PKCS7__SignedData New_ctor(Mono::Security::ASN1 asn1) ;
 
 /// @brief Method .ctor addr 0x2281ff0 size 0x4e4 virtual false final false
  void _ctor(Mono::Security::ASN1 asn1) ;
@@ -472,14 +477,12 @@ constexpr ::ArrayW<uint8_t> __get_ski() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Security__PKCS7__SignerInfo() ;
+static Mono::Security::Mono__Security__PKCS7__SignerInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2282a5c size 0x90 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
-explicit Mono__Security__PKCS7__SignerInfo(Mono::Security::ASN1 asn1) ;
+static Mono::Security::Mono__Security__PKCS7__SignerInfo New_ctor(Mono::Security::ASN1 asn1) ;
 
 /// @brief Method .ctor addr 0x22826e4 size 0x378 virtual false final false
  void _ctor(Mono::Security::ASN1 asn1) ;

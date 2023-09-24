@@ -2,21 +2,21 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__SynchronizationContext_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
-#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
-#include "System/Threading/zzzz__ExecutionContextSwitcher_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Threading/zzzz__ContextCallback_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Threading/zzzz__IAsyncLocal_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IllogicalCallContext_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
+#include "System/Threading/zzzz__IAsyncLocal_def.hpp"
+#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
+#include "System/Threading/zzzz__SynchronizationContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Threading/zzzz__ExecutionContextSwitcher_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Threading::System__Threading__ExecutionContext__Flags::System__Threading__ExecutionContext__Flags(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -970,8 +970,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Threading::ExecutionContext::ExecutionContext()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ExecutionContext>())) {}
+ System::Threading::ExecutionContext System::Threading::ExecutionContext::New_ctor()  {
+System::Threading::ExecutionContext o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ExecutionContext>())};
+return o;
+}
  void System::Threading::ExecutionContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ExecutionContext>::get(),
@@ -981,8 +983,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "isPreAllocatedDefault", ty: "bool", modifiers: "", def_value: None }]
- System::Threading::ExecutionContext::ExecutionContext(bool isPreAllocatedDefault)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ExecutionContext>(isPreAllocatedDefault))) {}
+ System::Threading::ExecutionContext System::Threading::ExecutionContext::New_ctor(bool isPreAllocatedDefault)  {
+System::Threading::ExecutionContext o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ExecutionContext>(isPreAllocatedDefault))};
+return o;
+}
  void System::Threading::ExecutionContext::_ctor(bool isPreAllocatedDefault)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ExecutionContext>::get(),
@@ -1217,8 +1221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Threading::ExecutionContext::ExecutionContext(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ExecutionContext>(info, context))) {}
+ System::Threading::ExecutionContext System::Threading::ExecutionContext::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Threading::ExecutionContext o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ExecutionContext>(info, context))};
+return o;
+}
  void System::Threading::ExecutionContext::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ExecutionContext>::get(),

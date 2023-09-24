@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapDataMirrorTransform_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataMirrorTransform_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0._ctor
 template<>
@@ -42,8 +43,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c
 constexpr int32_t GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0::__get_numberOfLines() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0 GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0>::get(),

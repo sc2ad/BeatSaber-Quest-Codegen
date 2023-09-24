@@ -82,20 +82,17 @@ constexpr Org::BouncyCastle::Asn1::Cms::ContentInfo __get_response() const;
 /// @brief Method GetInstance addr 0xdf040c size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Cms::ScvpReqRes GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ScvpReqRes(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::ScvpReqRes New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf04b0 size 0xfc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "response", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit ScvpReqRes(Org::BouncyCastle::Asn1::Cms::ContentInfo response) ;
+static Org::BouncyCastle::Asn1::Cms::ScvpReqRes New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo response) ;
 
 /// @brief Method .ctor addr 0xdf05ac size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo response) ;
 
-// Ctor Parameters [CppParam { name: "request", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }, CppParam { name: "response", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit ScvpReqRes(Org::BouncyCastle::Asn1::Cms::ContentInfo request, Org::BouncyCastle::Asn1::Cms::ContentInfo response) ;
+static Org::BouncyCastle::Asn1::Cms::ScvpReqRes New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo request, Org::BouncyCastle::Asn1::Cms::ContentInfo response) ;
 
 /// @brief Method .ctor addr 0xdf05d4 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo request, Org::BouncyCastle::Asn1::Cms::ContentInfo response) ;

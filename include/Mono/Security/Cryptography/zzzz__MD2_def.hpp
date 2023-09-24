@@ -9,7 +9,7 @@ class MD2;
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2912))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2277))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14001))
 // CS Name: Mono.Security.Cryptography.MD2
 class CORDL_TYPE MD2 : public System::Security::Cryptography::HashAlgorithm {
 public:
@@ -47,13 +47,12 @@ constexpr explicit MD2(void* ptr) noexcept : System::Security::Cryptography::Has
 
 // Methods
 
-// Ctor Parameters []
-explicit MD2() ;
+static Mono::Security::Cryptography::MD2 New_ctor() ;
 
-/// @brief Method .ctor addr 0x22b3204 size 0x20 virtual false final false
+/// @brief Method .ctor addr 0x22971f8 size 0x20 virtual false final false
  void _ctor() ;
 
-/// @brief Method Create addr 0x22b3224 size 0x58 virtual false final false
+/// @brief Method Create addr 0x2297218 size 0x58 virtual false final false
 static Mono::Security::Cryptography::MD2 Create() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;

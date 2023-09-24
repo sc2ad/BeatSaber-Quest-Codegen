@@ -1,18 +1,18 @@
 #pragma once
 #include "System/Net/zzzz__EndPointListener_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketAsyncEventArgs_def.hpp"
 #include "System/Net/zzzz__HttpListenerContext_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Net/zzzz__HttpListener_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__ListenerPrefix_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncEventArgs_def.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Net/zzzz__HttpConnection_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Net/zzzz__HttpListener_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: System::Net::EndPointListener._ctor
 template<>
 
@@ -339,8 +339,10 @@ constexpr void System::Net::EndPointListener::__set_unregistered(System::Collect
 constexpr System::Collections::Generic::Dictionary_2<System::Net::HttpConnection,System::Net::HttpConnection> System::Net::EndPointListener::__get_unregistered() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<System::Net::HttpConnection,System::Net::HttpConnection>, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "listener", ty: "System::Net::HttpListener", modifiers: "", def_value: None }, CppParam { name: "addr", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "secure", ty: "bool", modifiers: "", def_value: None }]
- System::Net::EndPointListener::EndPointListener(System::Net::HttpListener listener, System::Net::IPAddress addr, int32_t port, bool secure)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EndPointListener>(listener, addr, port, secure))) {}
+ System::Net::EndPointListener System::Net::EndPointListener::New_ctor(System::Net::HttpListener listener, System::Net::IPAddress addr, int32_t port, bool secure)  {
+System::Net::EndPointListener o{THROW_UNLESS(::il2cpp_utils::New<System::Net::EndPointListener>(listener, addr, port, secure))};
+return o;
+}
  void System::Net::EndPointListener::_ctor(System::Net::HttpListener listener, System::Net::IPAddress addr, int32_t port, bool secure)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::EndPointListener>::get(),

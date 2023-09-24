@@ -19,7 +19,7 @@ namespace System {
 class IDisposable;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -30,13 +30,34 @@ template<typename T>
 class IEnumerable_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct NameAndParameters;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct NamedValue;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__Flags;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__CacheRefInstance;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__Cache;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
@@ -46,41 +67,62 @@ namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System {
-class Type;
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlAttribute;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJsonNameAndDescriptorOnly;
 }
 namespace UnityEngine::InputSystem::Layouts {
-class InputControlAttribute;
+class UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceMatcher;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceMatcher;
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__Collection;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class UnityEngine__InputSystem__Layouts__InputControlLayout____c;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct InlinedArray_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class UnityEngine__InputSystem__Layouts__InputControlLayout__Builder;
+}
 namespace System::Reflection {
 class MemberInfo;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder;
+}
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c;
 }
 namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
+}
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct PrimitiveValue;
@@ -98,9 +140,24 @@ struct InputDeviceDescription;
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__Collection__PrecompiledLayout;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__Collection__LayoutMatcher;
+}
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem__Flags;
+}
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct UnityEngine__InputSystem__Layouts__InputDeviceMatcher__MatcherJson;
@@ -218,6 +275,8 @@ __DontReset = 16,
 constexpr operator __UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -673,8 +732,7 @@ static System::Func_2<::StringW,UnityEngine::InputSystem::Utilities::InternedStr
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c() ;
+static GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x296df14 size 0x8 virtual false final false
  void _ctor() ;
@@ -1000,8 +1058,7 @@ template<typename T>
 /// @brief Method Build addr 0x296d2c0 size 0x234 virtual false final false
  UnityEngine::InputSystem::Layouts::InputControlLayout Build() ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__Builder() ;
+static UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder New_ctor() ;
 
 /// @brief Method .ctor addr 0x296d4f4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1063,6 +1120,8 @@ __IsNoisy = 32,
 constexpr operator __UnityEngine__InputSystem__Layouts__InputControlLayout__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__Layouts__InputControlLayout__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1235,8 +1294,7 @@ static System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::Stri
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c() ;
+static GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x296ed14 size 0x8 virtual false final false
  void _ctor() ;
@@ -1483,8 +1541,7 @@ static System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::Stri
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c() ;
+static GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x296ee10 size 0x8 virtual false final false
  void _ctor() ;
@@ -1696,8 +1753,7 @@ constexpr ::StringW __get_maxValue() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson() ;
+static UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson New_ctor() ;
 
 /// @brief Method .ctor addr 0x296ed8c size 0x20 virtual false final false
  void _ctor() ;
@@ -1951,8 +2007,7 @@ constexpr UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2970468 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -2196,32 +2251,27 @@ constexpr ::StringW __get__layout_k__BackingField() const;
 /// @brief Method get_layout addr 0x2970920 size 0x8 virtual false final false
  ::StringW get_layout() ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException() ;
+static UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2970928 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException(::StringW name, ::StringW message) ;
+static UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException New_ctor(::StringW name, ::StringW message) ;
 
 /// @brief Method .ctor addr 0x2970980 size 0x74 virtual false final false
  void _ctor(::StringW name, ::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException(::StringW name) ;
+static UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x296fba0 size 0xbc virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException(::StringW message, System::Exception innerException) ;
+static UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x29709f4 size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2970a64 size 0x80 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
@@ -2423,8 +2473,7 @@ static System::Func_2<::StringW,UnityEngine::InputSystem::Utilities::InternedStr
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Layouts__InputControlLayout____c() ;
+static UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2970be8 size 0x8 virtual false final false
  void _ctor() ;
@@ -2752,8 +2801,7 @@ static UnityEngine::InputSystem::Layouts::InputControlLayout FromType(::StringW 
 /// @brief Method FromJson addr 0x2968f88 size 0x90 virtual false final false
 static UnityEngine::InputSystem::Layouts::InputControlLayout FromJson(::StringW json) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit InputControlLayout(::StringW name, System::Type type) ;
+static UnityEngine::InputSystem::Layouts::InputControlLayout New_ctor(::StringW name, System::Type type) ;
 
 /// @brief Method .ctor addr 0x2968b78 size 0x50 virtual false final false
  void _ctor(::StringW name, System::Type type) ;

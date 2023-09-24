@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__SemanticsInformation_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation.GetInstance
 template<>
 
@@ -162,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::SemanticsInformation(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SemanticsInformation>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation>::get(),
@@ -173,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "semanticsIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "generalNames", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::SemanticsInformation(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SemanticsInformation>(semanticsIdentifier, generalNames))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames)  {
+Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation>(semanticsIdentifier, generalNames))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation>::get(),
@@ -184,8 +188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, semanticsIdentifier, generalNames);
 }
-// Ctor Parameters [CppParam { name: "semanticsIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::SemanticsInformation(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SemanticsInformation>(semanticsIdentifier))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier)  {
+Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation>(semanticsIdentifier))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier semanticsIdentifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation>::get(),
@@ -195,8 +201,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, semanticsIdentifier);
 }
-// Ctor Parameters [CppParam { name: "generalNames", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::SemanticsInformation(::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SemanticsInformation>(generalNames))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames)  {
+Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation>(generalNames))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation::_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> generalNames)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation>::get(),

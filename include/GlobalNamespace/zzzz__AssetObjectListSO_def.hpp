@@ -68,8 +68,7 @@ constexpr ::ArrayW<UnityEngine::Object> __get__objects() const;
 /// @brief Method get_objects addr 0x2190cc0 size 0x8 virtual false final false
  ::ArrayW<UnityEngine::Object> get_objects() ;
 
-// Ctor Parameters []
-explicit AssetObjectListSO() ;
+static GlobalNamespace::AssetObjectListSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2190cc8 size 0x8 virtual false final false
  void _ctor() ;

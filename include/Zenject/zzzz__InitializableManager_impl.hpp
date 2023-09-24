@@ -1,10 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__InitializableManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
-#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__InitializableManager_def.hpp"
+#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__InitializableManager__InitializableInfo._ctor
 template<>
@@ -69,8 +70,10 @@ constexpr void Zenject::Zenject__InitializableManager__InitializableInfo::__set_
 constexpr int32_t Zenject::Zenject__InitializableManager__InitializableInfo::__get_Priority() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "initializable", ty: "Zenject::IInitializable", modifiers: "", def_value: None }, CppParam { name: "priority", ty: "int32_t", modifiers: "", def_value: None }]
- Zenject::Zenject__InitializableManager__InitializableInfo::Zenject__InitializableManager__InitializableInfo(Zenject::IInitializable initializable, int32_t priority)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__InitializableManager__InitializableInfo>(initializable, priority))) {}
+ Zenject::Zenject__InitializableManager__InitializableInfo Zenject::Zenject__InitializableManager__InitializableInfo::New_ctor(Zenject::IInitializable initializable, int32_t priority)  {
+Zenject::Zenject__InitializableManager__InitializableInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__InitializableManager__InitializableInfo>(initializable, priority))};
+return o;
+}
  void Zenject::Zenject__InitializableManager__InitializableInfo::_ctor(Zenject::IInitializable initializable, int32_t priority)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InitializableManager__InitializableInfo>::get(),
@@ -172,8 +175,10 @@ constexpr void Zenject::Zenject__InitializableManager____c__DisplayClass2_0::__s
 constexpr Zenject::IInitializable Zenject::Zenject__InitializableManager____c__DisplayClass2_0::__get_initializable() const {
 return ::cordl_internals::getInstanceField<Zenject::IInitializable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__InitializableManager____c__DisplayClass2_0::Zenject__InitializableManager____c__DisplayClass2_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__InitializableManager____c__DisplayClass2_0>())) {}
+ Zenject::Zenject__InitializableManager____c__DisplayClass2_0 Zenject::Zenject__InitializableManager____c__DisplayClass2_0::New_ctor()  {
+Zenject::Zenject__InitializableManager____c__DisplayClass2_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__InitializableManager____c__DisplayClass2_0>())};
+return o;
+}
  void Zenject::Zenject__InitializableManager____c__DisplayClass2_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InitializableManager____c__DisplayClass2_0>::get(),
@@ -313,8 +318,10 @@ return ::cordl_internals::getStaticField<System::Func_2<ModestTree::Util::ValueP
  System::Func_2<Zenject::Zenject__InitializableManager__InitializableInfo,int32_t> Zenject::Zenject__InitializableManager____c::__get___9__5_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<Zenject::Zenject__InitializableManager__InitializableInfo,int32_t>, "<>9__5_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InitializableManager____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__InitializableManager____c::Zenject__InitializableManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__InitializableManager____c>())) {}
+ Zenject::Zenject__InitializableManager____c Zenject::Zenject__InitializableManager____c::New_ctor()  {
+Zenject::Zenject__InitializableManager____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__InitializableManager____c>())};
+return o;
+}
  void Zenject::Zenject__InitializableManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InitializableManager____c>::get(),
@@ -474,8 +481,10 @@ constexpr void Zenject::InitializableManager::__set__hasInitialized(bool value) 
 constexpr bool Zenject::InitializableManager::__get__hasInitialized() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "initializables", ty: "System::Collections::Generic::List_1<Zenject::IInitializable>", modifiers: "", def_value: None }, CppParam { name: "priorities", ty: "System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>>", modifiers: "", def_value: None }]
- Zenject::InitializableManager::InitializableManager(System::Collections::Generic::List_1<Zenject::IInitializable> initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InitializableManager>(initializables, priorities))) {}
+ Zenject::InitializableManager Zenject::InitializableManager::New_ctor(System::Collections::Generic::List_1<Zenject::IInitializable> initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities)  {
+Zenject::InitializableManager o{THROW_UNLESS(::il2cpp_utils::New<Zenject::InitializableManager>(initializables, priorities))};
+return o;
+}
  void Zenject::InitializableManager::_ctor(System::Collections::Generic::List_1<Zenject::IInitializable> initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::InitializableManager>::get(),

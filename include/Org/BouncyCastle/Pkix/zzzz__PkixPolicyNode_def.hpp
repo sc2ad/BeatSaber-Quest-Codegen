@@ -155,8 +155,7 @@ constexpr bool __get_mCritical() const;
 /// @brief Method set_Parent addr 0x10866c0 size 0x8 virtual true final false
  void set_Parent(Org::BouncyCastle::Pkix::PkixPolicyNode value) ;
 
-// Ctor Parameters [CppParam { name: "children", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "expectedPolicies", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "Org::BouncyCastle::Pkix::PkixPolicyNode", modifiers: "", def_value: None }, CppParam { name: "policyQualifiers", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "validPolicy", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit PkixPolicyNode(System::Collections::IList children, int32_t depth, Org::BouncyCastle::Utilities::Collections::ISet expectedPolicies, Org::BouncyCastle::Pkix::PkixPolicyNode parent, Org::BouncyCastle::Utilities::Collections::ISet policyQualifiers, ::StringW validPolicy, bool critical) ;
+static Org::BouncyCastle::Pkix::PkixPolicyNode New_ctor(System::Collections::IList children, int32_t depth, Org::BouncyCastle::Utilities::Collections::ISet expectedPolicies, Org::BouncyCastle::Pkix::PkixPolicyNode parent, Org::BouncyCastle::Utilities::Collections::ISet policyQualifiers, ::StringW validPolicy, bool critical) ;
 
 /// @brief Method .ctor addr 0x106a984 size 0xd0 virtual false final false
  void _ctor(System::Collections::IList children, int32_t depth, Org::BouncyCastle::Utilities::Collections::ISet expectedPolicies, Org::BouncyCastle::Pkix::PkixPolicyNode parent, Org::BouncyCastle::Utilities::Collections::ISet policyQualifiers, ::StringW validPolicy, bool critical) ;

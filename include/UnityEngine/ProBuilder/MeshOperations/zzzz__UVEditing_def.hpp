@@ -5,6 +5,12 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__UVEditing____c__DisplayClass0_0;
+}
+namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
@@ -13,23 +19,26 @@ struct Edge;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::ProBuilder {
-class Face;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__UVEditing____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__UVEditing____c__DisplayClass4_0;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace UnityEngine {
-struct Vector4;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
 }
 namespace UnityEngine::ProBuilder {
 class WingedEdge;
@@ -104,8 +113,7 @@ constexpr UnityEngine::ProBuilder::Face __get_f2() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__UVEditing____c__DisplayClass0_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__UVEditing____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a2ccd0 size 0x8 virtual false final false
  void _ctor() ;
@@ -204,8 +212,7 @@ static System::Func_2<UnityEngine::ProBuilder::Face,System::Collections::Generic
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__UVEditing____c() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__UVEditing____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a2fe48 size 0x8 virtual false final false
  void _ctor() ;
@@ -283,8 +290,7 @@ constexpr int32_t __get_b() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__UVEditing____c__DisplayClass4_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__UVEditing____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a2e5ec size 0x8 virtual false final false
  void _ctor() ;

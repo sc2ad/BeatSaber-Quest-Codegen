@@ -131,8 +131,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_id_ri_scvp() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xde85e8 size 0x8 virtual false final false
  void _ctor() ;

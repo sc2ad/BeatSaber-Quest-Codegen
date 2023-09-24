@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-class Type;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct TypeTable;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
@@ -75,8 +75,7 @@ static UnityEngine::InputSystem::Utilities::TypeTable __get_s_Processors() ;
 /// @brief Method GetValueTypeFromType addr 0x28d6c78 size 0xf4 virtual false final false
 static System::Type GetValueTypeFromType(System::Type processorType) ;
 
-// Ctor Parameters []
-explicit InputProcessor() ;
+static UnityEngine::InputSystem::InputProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x28d6d6c size 0x8 virtual false final false
  void _ctor() ;

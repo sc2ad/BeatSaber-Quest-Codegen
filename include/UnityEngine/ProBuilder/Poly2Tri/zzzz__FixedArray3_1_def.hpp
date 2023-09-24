@@ -3,22 +3,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
+namespace UnityEngine::ProBuilder::Poly2Tri {
 template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-class IDisposable;
+class UnityEngine__ProBuilder__Poly2Tri__FixedArray3_1___Enumerate_d__10;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -144,8 +148,7 @@ constexpr int32_t __get__i_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__ProBuilder__Poly2Tri__FixedArray3_1___Enumerate_d__10(int32_t __1__state) ;
+static UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedArray3_1___Enumerate_d__10<T> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;

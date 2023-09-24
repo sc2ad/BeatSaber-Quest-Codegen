@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapDataAddTestSlidersTransform_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapDataAddTestSlidersTransform.CreateTransformedData
 template<>
 
@@ -74,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::NoteData, false>(nullptr, ___internal_method, beatmapDataItems, startIndex, colorType);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapDataAddTestSlidersTransform::BeatmapDataAddTestSlidersTransform()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapDataAddTestSlidersTransform>())) {}
+ GlobalNamespace::BeatmapDataAddTestSlidersTransform GlobalNamespace::BeatmapDataAddTestSlidersTransform::New_ctor()  {
+GlobalNamespace::BeatmapDataAddTestSlidersTransform o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapDataAddTestSlidersTransform>())};
+return o;
+}
  void GlobalNamespace::BeatmapDataAddTestSlidersTransform::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapDataAddTestSlidersTransform>::get(),

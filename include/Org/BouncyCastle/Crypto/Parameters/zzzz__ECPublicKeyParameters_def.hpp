@@ -73,26 +73,22 @@ constexpr Org::BouncyCastle::Math::EC::ECPoint __get_q() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
-explicit ECPublicKeyParameters(Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters New_ctor(Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea6b18 size 0x60 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit ECPublicKeyParameters(Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters New_ctor(Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
 /// @brief Method .ctor addr 0xea6c14 size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
-explicit ECPublicKeyParameters(::StringW algorithm, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters New_ctor(::StringW algorithm, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea6b78 size 0x9c virtual false final false
  void _ctor(::StringW algorithm, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit ECPublicKeyParameters(::StringW algorithm, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
+static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters New_ctor(::StringW algorithm, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;
 
 /// @brief Method .ctor addr 0xea6cb8 size 0x9c virtual false final false
  void _ctor(::StringW algorithm, Org::BouncyCastle::Math::EC::ECPoint q, Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet) ;

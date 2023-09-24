@@ -1,11 +1,11 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__CollectionConverter_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::ComponentModel::CollectionConverter.ConvertTo
 template<>
 
@@ -101,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, context);
 }
-// Ctor Parameters []
- System::ComponentModel::CollectionConverter::CollectionConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<CollectionConverter>())) {}
+ System::ComponentModel::CollectionConverter System::ComponentModel::CollectionConverter::New_ctor()  {
+System::ComponentModel::CollectionConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::CollectionConverter>())};
+return o;
+}
  void System::ComponentModel::CollectionConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::CollectionConverter>::get(),

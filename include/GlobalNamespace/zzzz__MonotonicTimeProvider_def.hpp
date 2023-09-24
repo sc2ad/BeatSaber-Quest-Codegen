@@ -85,8 +85,7 @@ static GlobalNamespace::MonotonicTimeProvider __get_instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit MonotonicTimeProvider() ;
+static GlobalNamespace::MonotonicTimeProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0xdbc7d0 size 0xe4 virtual false final false
  void _ctor() ;

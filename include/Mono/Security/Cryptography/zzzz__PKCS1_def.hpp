@@ -18,7 +18,7 @@ class PKCS1;
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14005))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2281))
 // CS Name: Mono.Security.Cryptography.PKCS1
 class CORDL_TYPE PKCS1 : public ::bs_hook::Il2CppWrapperType {
 public:
@@ -83,31 +83,31 @@ static ::ArrayW<uint8_t> __get_emptySHA512() ;
 
 // Methods
 
-/// @brief Method Compare addr 0x229865c size 0x74 virtual false final false
+/// @brief Method Compare addr 0x22b4668 size 0x74 virtual false final false
 static bool Compare(::ArrayW<uint8_t> array1, ::ArrayW<uint8_t> array2) ;
 
-/// @brief Method I2OSP addr 0x22986d0 size 0x8c virtual false final false
+/// @brief Method I2OSP addr 0x22b46dc size 0x8c virtual false final false
 static ::ArrayW<uint8_t> I2OSP(::ArrayW<uint8_t> x, int32_t size) ;
 
-/// @brief Method OS2IP addr 0x229875c size 0xbc virtual false final false
+/// @brief Method OS2IP addr 0x22b4768 size 0xbc virtual false final false
 static ::ArrayW<uint8_t> OS2IP(::ArrayW<uint8_t> x) ;
 
-/// @brief Method RSAVP1 addr 0x2298818 size 0x1c virtual false final false
+/// @brief Method RSAVP1 addr 0x22b4824 size 0x1c virtual false final false
 static ::ArrayW<uint8_t> RSAVP1(System::Security::Cryptography::RSA rsa, ::ArrayW<uint8_t> s) ;
 
-/// @brief Method Verify_v15 addr 0x2298834 size 0x1e0 virtual false final false
+/// @brief Method Verify_v15 addr 0x22b4840 size 0x80 virtual false final false
+static bool Verify_v15(System::Security::Cryptography::RSA rsa, System::Security::Cryptography::HashAlgorithm hash, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature) ;
+
+/// @brief Method Verify_v15 addr 0x22b4aa0 size 0x1dc virtual false final false
+static bool Verify_v15(System::Security::Cryptography::RSA rsa, ::StringW hashName, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature) ;
+
+/// @brief Method Verify_v15 addr 0x22b48c0 size 0x1e0 virtual false final false
 static bool Verify_v15(System::Security::Cryptography::RSA rsa, System::Security::Cryptography::HashAlgorithm hash, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature, bool tryNonStandardEncoding) ;
 
-/// @brief Method Encode_v15 addr 0x2298a14 size 0x348 virtual false final false
+/// @brief Method Encode_v15 addr 0x22b508c size 0x350 virtual false final false
 static ::ArrayW<uint8_t> Encode_v15(System::Security::Cryptography::HashAlgorithm hash, ::ArrayW<uint8_t> hashValue, int32_t emLength) ;
 
-/// @brief Method HashNameFromOid addr 0x2298d5c size 0x394 virtual false final false
-static ::StringW HashNameFromOid(::StringW oid, bool throwOnError) ;
-
-/// @brief Method CreateFromOid addr 0x229916c size 0x5c virtual false final false
-static System::Security::Cryptography::HashAlgorithm CreateFromOid(::StringW oid) ;
-
-/// @brief Method CreateFromName addr 0x22991c8 size 0x40c virtual false final false
+/// @brief Method CreateFromName addr 0x22b4c7c size 0x410 virtual false final false
 static System::Security::Cryptography::HashAlgorithm CreateFromName(::StringW name) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;

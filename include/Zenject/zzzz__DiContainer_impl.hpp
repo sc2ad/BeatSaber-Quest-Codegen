@@ -1,60 +1,61 @@
 #pragma once
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_7_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_2_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "Zenject/zzzz__LazyInstanceInjector_def.hpp"
 #include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
-#include "Zenject/zzzz__ConcreteBinderNonGeneric_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
-#include "Zenject/zzzz__BindingCondition_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "Zenject/zzzz__ZenjectSettings_def.hpp"
-#include "Zenject/Internal/zzzz__SingletonMarkRegistry_def.hpp"
-#include "Zenject/zzzz__BindingId_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_3_def.hpp"
-#include "Zenject/zzzz__ConventionSelectTypesBinder_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__IdScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Zenject/zzzz__InjectSources_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_6_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_7_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__IInstantiator_def.hpp"
 #include "Zenject/zzzz__ConcreteIdBinderNonGeneric_def.hpp"
-#include "Zenject/zzzz__ConcreteIdBinderGeneric_1_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Zenject/zzzz__MemoryPoolIdInitialSizeMaxSizeBinder_1_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_11_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__FromBinderNonGeneric_def.hpp"
-#include "Zenject/zzzz__CopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__LazyInstanceInjector_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "Zenject/Internal/zzzz__IDecoratorProvider_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_1_def.hpp"
-#include "Zenject/zzzz__InjectSources_def.hpp"
-#include "Zenject/zzzz__FactoryToChoiceIdBinder_4_def.hpp"
-#include "Zenject/Internal/zzzz__LookupId_def.hpp"
-#include "Zenject/zzzz__DecoratorToChoiceFromBinder_1_def.hpp"
-#include "Zenject/zzzz__BindStatement_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "Zenject/zzzz__FactoryToChoiceIdBinder_5_def.hpp"
-#include "Zenject/zzzz__InjectableInfo_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_2_def.hpp"
+#include "Zenject/zzzz__MemoryPoolIdInitialSizeMaxSizeBinder_1_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_3_def.hpp"
+#include "Zenject/zzzz__ConventionSelectTypesBinder_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "Zenject/zzzz__IValidatable_def.hpp"
+#include "Zenject/zzzz__ConcreteBinderNonGeneric_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "Zenject/zzzz__ZenjectSettings_def.hpp"
+#include "Zenject/zzzz__ConcreteIdBinderGeneric_1_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__BindingCondition_def.hpp"
+#include "Zenject/Internal/zzzz__SingletonMarkRegistry_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Zenject/Internal/zzzz__LookupId_def.hpp"
+#include "Zenject/zzzz__BindStatement_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_11_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_6_def.hpp"
+#include "Zenject/zzzz__FromBinderNonGeneric_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_4_def.hpp"
+#include "Zenject/zzzz__DecoratorToChoiceFromBinder_1_def.hpp"
+#include "Zenject/zzzz__CopyNonLazyBinder_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__BindingId_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "Zenject/zzzz__FactoryToChoiceIdBinder_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Zenject/zzzz__InjectableInfo_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__DiContainer__ProviderInfo._ctor
 template<>
@@ -131,8 +132,10 @@ constexpr void Zenject::Zenject__DiContainer__ProviderInfo::__set_Condition(Zenj
 constexpr Zenject::BindingCondition Zenject::Zenject__DiContainer__ProviderInfo::__get_Condition() const {
 return ::cordl_internals::getInstanceField<Zenject::BindingCondition, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "provider", ty: "Zenject::IProvider", modifiers: "", def_value: None }, CppParam { name: "condition", ty: "Zenject::BindingCondition", modifiers: "", def_value: None }, CppParam { name: "nonLazy", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
- Zenject::Zenject__DiContainer__ProviderInfo::Zenject__DiContainer__ProviderInfo(Zenject::IProvider provider, Zenject::BindingCondition condition, bool nonLazy, Zenject::DiContainer container)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DiContainer__ProviderInfo>(provider, condition, nonLazy, container))) {}
+ Zenject::Zenject__DiContainer__ProviderInfo Zenject::Zenject__DiContainer__ProviderInfo::New_ctor(Zenject::IProvider provider, Zenject::BindingCondition condition, bool nonLazy, Zenject::DiContainer container)  {
+Zenject::Zenject__DiContainer__ProviderInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DiContainer__ProviderInfo>(provider, condition, nonLazy, container))};
+return o;
+}
  void Zenject::Zenject__DiContainer__ProviderInfo::_ctor(Zenject::IProvider provider, Zenject::BindingCondition condition, bool nonLazy, Zenject::DiContainer container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer__ProviderInfo>::get(),
@@ -378,8 +381,10 @@ return ::cordl_internals::getStaticField<System::Func_2<System::Type,bool>, "<>9
  System::Func_2<System::Type,bool> Zenject::Zenject__DiContainer____c::__get___9__198_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Type,bool>, "<>9__198_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__DiContainer____c::Zenject__DiContainer____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DiContainer____c>())) {}
+ Zenject::Zenject__DiContainer____c Zenject::Zenject__DiContainer____c::New_ctor()  {
+Zenject::Zenject__DiContainer____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DiContainer____c>())};
+return o;
+}
  void Zenject::Zenject__DiContainer____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer____c>::get(),
@@ -510,8 +515,10 @@ constexpr void Zenject::Zenject__DiContainer____c__DisplayClass86_0::__set_conte
 constexpr Zenject::InjectContext Zenject::Zenject__DiContainer____c__DisplayClass86_0::__get_context() const {
 return ::cordl_internals::getInstanceField<Zenject::InjectContext, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__DiContainer____c__DisplayClass86_0::Zenject__DiContainer____c__DisplayClass86_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DiContainer____c__DisplayClass86_0>())) {}
+ Zenject::Zenject__DiContainer____c__DisplayClass86_0 Zenject::Zenject__DiContainer____c__DisplayClass86_0::New_ctor()  {
+Zenject::Zenject__DiContainer____c__DisplayClass86_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DiContainer____c__DisplayClass86_0>())};
+return o;
+}
  void Zenject::Zenject__DiContainer____c__DisplayClass86_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer____c__DisplayClass86_0>::get(),
@@ -745,8 +752,10 @@ constexpr void Zenject::Zenject__DiContainer___GetDependencyContracts_d__96::__s
 constexpr System::Collections::Generic::IEnumerator_1<Zenject::InjectableInfo> Zenject::Zenject__DiContainer___GetDependencyContracts_d__96::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<Zenject::InjectableInfo>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Zenject::Zenject__DiContainer___GetDependencyContracts_d__96::Zenject__DiContainer___GetDependencyContracts_d__96(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DiContainer___GetDependencyContracts_d__96>(__1__state))) {}
+ Zenject::Zenject__DiContainer___GetDependencyContracts_d__96 Zenject::Zenject__DiContainer___GetDependencyContracts_d__96::New_ctor(int32_t __1__state)  {
+Zenject::Zenject__DiContainer___GetDependencyContracts_d__96 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DiContainer___GetDependencyContracts_d__96>(__1__state))};
+return o;
+}
  void Zenject::Zenject__DiContainer___GetDependencyContracts_d__96::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer___GetDependencyContracts_d__96>::get(),
@@ -886,8 +895,10 @@ constexpr void Zenject::Zenject__DiContainer____c__DisplayClass178_0::__set_conc
 constexpr System::Type Zenject::Zenject__DiContainer____c__DisplayClass178_0::__get_concreteType() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__DiContainer____c__DisplayClass178_0::Zenject__DiContainer____c__DisplayClass178_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DiContainer____c__DisplayClass178_0>())) {}
+ Zenject::Zenject__DiContainer____c__DisplayClass178_0 Zenject::Zenject__DiContainer____c__DisplayClass178_0::New_ctor()  {
+Zenject::Zenject__DiContainer____c__DisplayClass178_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DiContainer____c__DisplayClass178_0>())};
+return o;
+}
  void Zenject::Zenject__DiContainer____c__DisplayClass178_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer____c__DisplayClass178_0>::get(),
@@ -3354,8 +3365,10 @@ constexpr void Zenject::DiContainer::__set__AssertOnNewGameObjects_k__BackingFie
 constexpr bool Zenject::DiContainer::__get__AssertOnNewGameObjects_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x9c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parentContainersEnumerable", ty: "System::Collections::Generic::IEnumerable_1<Zenject::DiContainer>", modifiers: "", def_value: None }, CppParam { name: "isValidating", ty: "bool", modifiers: "", def_value: None }]
- Zenject::DiContainer::DiContainer(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainersEnumerable, bool isValidating)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DiContainer>(parentContainersEnumerable, isValidating))) {}
+ Zenject::DiContainer Zenject::DiContainer::New_ctor(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainersEnumerable, bool isValidating)  {
+Zenject::DiContainer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DiContainer>(parentContainersEnumerable, isValidating))};
+return o;
+}
  void Zenject::DiContainer::_ctor(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainersEnumerable, bool isValidating)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DiContainer>::get(),
@@ -3365,8 +3378,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parentContainersEnumerable, isValidating);
 }
-// Ctor Parameters [CppParam { name: "isValidating", ty: "bool", modifiers: "", def_value: None }]
- Zenject::DiContainer::DiContainer(bool isValidating)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DiContainer>(isValidating))) {}
+ Zenject::DiContainer Zenject::DiContainer::New_ctor(bool isValidating)  {
+Zenject::DiContainer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DiContainer>(isValidating))};
+return o;
+}
  void Zenject::DiContainer::_ctor(bool isValidating)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DiContainer>::get(),
@@ -3376,8 +3391,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isValidating);
 }
-// Ctor Parameters []
- Zenject::DiContainer::DiContainer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DiContainer>())) {}
+ Zenject::DiContainer Zenject::DiContainer::New_ctor()  {
+Zenject::DiContainer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DiContainer>())};
+return o;
+}
  void Zenject::DiContainer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DiContainer>::get(),
@@ -3387,8 +3404,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "parentContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "isValidating", ty: "bool", modifiers: "", def_value: None }]
- Zenject::DiContainer::DiContainer(Zenject::DiContainer parentContainer, bool isValidating)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DiContainer>(parentContainer, isValidating))) {}
+ Zenject::DiContainer Zenject::DiContainer::New_ctor(Zenject::DiContainer parentContainer, bool isValidating)  {
+Zenject::DiContainer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DiContainer>(parentContainer, isValidating))};
+return o;
+}
  void Zenject::DiContainer::_ctor(Zenject::DiContainer parentContainer, bool isValidating)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DiContainer>::get(),
@@ -3398,8 +3417,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parentContainer, isValidating);
 }
-// Ctor Parameters [CppParam { name: "parentContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
- Zenject::DiContainer::DiContainer(Zenject::DiContainer parentContainer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DiContainer>(parentContainer))) {}
+ Zenject::DiContainer Zenject::DiContainer::New_ctor(Zenject::DiContainer parentContainer)  {
+Zenject::DiContainer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DiContainer>(parentContainer))};
+return o;
+}
  void Zenject::DiContainer::_ctor(Zenject::DiContainer parentContainer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DiContainer>::get(),
@@ -3409,8 +3430,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parentContainer);
 }
-// Ctor Parameters [CppParam { name: "parentContainers", ty: "System::Collections::Generic::IEnumerable_1<Zenject::DiContainer>", modifiers: "", def_value: None }]
- Zenject::DiContainer::DiContainer(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainers)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DiContainer>(parentContainers))) {}
+ Zenject::DiContainer Zenject::DiContainer::New_ctor(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainers)  {
+Zenject::DiContainer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DiContainer>(parentContainers))};
+return o;
+}
  void Zenject::DiContainer::_ctor(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> parentContainers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DiContainer>::get(),
@@ -5951,60 +5974,28 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Zenject::CopyNonLazyBinder, false>(const_cast<void*>(instance), ___internal_method, type, order);
 }
-//  Writing Method size for method: Zenject::Zenject__DiContainer____c__DisplayClass203_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Zenject__DiContainer____c__DisplayClass203_0_1::*)()>(&Zenject::Zenject__DiContainer____c__DisplayClass203_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer____c__DisplayClass203_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::Zenject__DiContainer____c__DisplayClass203_0_1._BindInstance_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider (Zenject::Zenject__DiContainer____c__DisplayClass203_0_1::*)(Zenject::DiContainer, System::Type)>(&Zenject::Zenject__DiContainer____c__DisplayClass203_0_1::_BindInstance_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer____c__DisplayClass203_0_1>::get(),
-                            "<BindInstance>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<Zenject::DiContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Type>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void Zenject::Zenject__DiContainer____c__DisplayClass203_0_1::__set_instance(TContract value)  {
+constexpr void Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract>::__set_instance(TContract value)  {
 ::cordl_internals::setInstanceField<TContract, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<TContract>(value));
 }
-constexpr TContract Zenject::Zenject__DiContainer____c__DisplayClass203_0_1::__get_instance() const {
+constexpr TContract Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract>::__get_instance() const {
 return ::cordl_internals::getInstanceField<TContract, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__DiContainer____c__DisplayClass203_0_1::Zenject__DiContainer____c__DisplayClass203_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DiContainer____c__DisplayClass203_0_1>())) {}
- void Zenject::Zenject__DiContainer____c__DisplayClass203_0_1::_ctor()  {
+ Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract> Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract>::New_ctor()  {
+Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract> o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract>>())};
+return o;
+}
+ void Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer____c__DisplayClass203_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- Zenject::IProvider Zenject::Zenject__DiContainer____c__DisplayClass203_0_1::_BindInstance_b__0(Zenject::DiContainer container, System::Type type)  {
+ Zenject::IProvider Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract>::_BindInstance_b__0(Zenject::DiContainer container, System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer____c__DisplayClass203_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DiContainer____c__DisplayClass203_0_1<TContract>>::get(),
                             "<BindInstance>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<Zenject::DiContainer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Type>::get()}

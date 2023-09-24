@@ -3,20 +3,20 @@
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+struct ColorType;
+}
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace GlobalNamespace {
-class NoteData;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
-struct ColorType;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -135,8 +135,7 @@ static GlobalNamespace::NoteMissInfoNetSerializable Obtain() ;
 /// @brief Method Serialize addr 0x1217af8 size 0x6c virtual true final false
  void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
-// Ctor Parameters []
-explicit NoteMissInfoNetSerializable() ;
+static GlobalNamespace::NoteMissInfoNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1217b64 size 0x58 virtual false final false
  void _ctor() ;

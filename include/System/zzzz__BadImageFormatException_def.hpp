@@ -3,13 +3,13 @@
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
 class Exception;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -77,32 +77,27 @@ constexpr ::StringW __get__fusionLog() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BadImageFormatException() ;
+static System::BadImageFormatException New_ctor() ;
 
 /// @brief Method .ctor addr 0x23b4a30 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BadImageFormatException(::StringW message) ;
+static System::BadImageFormatException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x23b4a8c size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit BadImageFormatException(::StringW message, System::Exception inner) ;
+static System::BadImageFormatException New_ctor(::StringW message, System::Exception inner) ;
 
 /// @brief Method .ctor addr 0x23b4ab0 size 0x24 virtual false final false
  void _ctor(::StringW message, System::Exception inner) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BadImageFormatException(::StringW message, ::StringW fileName) ;
+static System::BadImageFormatException New_ctor(::StringW message, ::StringW fileName) ;
 
 /// @brief Method .ctor addr 0x23b4ad4 size 0x34 virtual false final false
  void _ctor(::StringW message, ::StringW fileName) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit BadImageFormatException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::BadImageFormatException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23b4b08 size 0xb0 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class DiContainer;
+class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
-class SubContainerCreatorBindInfo;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {

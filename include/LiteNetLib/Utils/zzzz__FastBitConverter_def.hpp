@@ -5,6 +5,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace LiteNetLib::Utils {
+struct LiteNetLib__Utils__FastBitConverter__ConverterHelperFloat;
+}
+namespace LiteNetLib::Utils {
+struct LiteNetLib__Utils__FastBitConverter__ConverterHelperDouble;
+}
 // Forward declare root types
 namespace LiteNetLib::Utils {
 class FastBitConverter;

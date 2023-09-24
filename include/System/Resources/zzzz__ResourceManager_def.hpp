@@ -3,39 +3,45 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Reflection {
 class AssemblyName;
-}
-namespace System::Resources {
-struct UltimateResourceFallbackLocation;
-}
-namespace System::Resources {
-class ResourceSet;
-}
-namespace System::Resources {
-class IResourceGroveler;
-}
-namespace System::Reflection {
-class RuntimeAssembly;
-}
-namespace System::Reflection {
-class Assembly;
 }
 namespace System {
 class Type;
 }
+namespace System::Reflection {
+class RuntimeAssembly;
+}
+namespace System::Resources {
+class System__Resources__ResourceManager__CultureNameResourceSetPair;
+}
+namespace System::Collections {
+class Hashtable;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Resources {
+class System__Resources__ResourceManager__ResourceManagerMediator;
+}
+namespace System::Resources {
+class ResourceSet;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace System::Reflection {
+class Assembly;
+}
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System::Resources {
+struct UltimateResourceFallbackLocation;
+}
+namespace System::Resources {
+class IResourceGroveler;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -89,8 +95,7 @@ constexpr explicit System__Resources__ResourceManager__CultureNameResourceSetPai
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Resources__ResourceManager__CultureNameResourceSetPair() ;
+static System::Resources::System__Resources__ResourceManager__CultureNameResourceSetPair New_ctor() ;
 
 /// @brief Method .ctor addr 0x2373910 size 0x8 virtual false final false
  void _ctor() ;
@@ -150,8 +155,7 @@ constexpr System::Resources::ResourceManager __get__rm() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rm", ty: "System::Resources::ResourceManager", modifiers: "", def_value: None }]
-explicit System__Resources__ResourceManager__ResourceManagerMediator(System::Resources::ResourceManager rm) ;
+static System::Resources::System__Resources__ResourceManager__ResourceManagerMediator New_ctor(System::Resources::ResourceManager rm) ;
 
 /// @brief Method .ctor addr 0x2373918 size 0x78 virtual false final false
  void _ctor(System::Resources::ResourceManager rm) ;
@@ -320,8 +324,7 @@ static int32_t __get_DEBUG() ;
 /// @brief Method Init addr 0x2373720 size 0x118 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit ResourceManager() ;
+static System::Resources::ResourceManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x237383c size 0xd4 virtual false final false
  void _ctor() ;

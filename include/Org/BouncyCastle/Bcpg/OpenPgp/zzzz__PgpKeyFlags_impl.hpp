@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags::PgpKeyFlags()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpKeyFlags>())) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags::New_ctor()  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags>())};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags>::get(),

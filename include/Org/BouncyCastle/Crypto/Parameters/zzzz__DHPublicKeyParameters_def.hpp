@@ -75,14 +75,12 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_y() const;
 /// @brief Method Validate addr 0xea3e70 size 0x258 virtual false final false
 static Org::BouncyCastle::Math::BigInteger Validate(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParams) ;
 
-// Ctor Parameters [CppParam { name: "y", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }]
-explicit DHPublicKeyParameters(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea4280 size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "y", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }, CppParam { name: "algorithmOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit DHPublicKeyParameters(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid) ;
+static Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid) ;
 
 /// @brief Method .ctor addr 0xea42b8 size 0x4c virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger y, Org::BouncyCastle::Crypto::Parameters::DHParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier algorithmOid) ;

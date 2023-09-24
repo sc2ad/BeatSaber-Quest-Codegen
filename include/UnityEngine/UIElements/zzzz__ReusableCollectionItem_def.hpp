@@ -2,19 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-template<typename TEventType>
-class EventCallback_1;
 }
 namespace UnityEngine::UIElements::Experimental {
 struct StyleValues;
@@ -22,6 +14,14 @@ struct StyleValues;
 namespace UnityEngine::UIElements::Experimental {
 template<typename T>
 class ValueAnimation_1;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::UIElements {
+template<typename TEventType>
+class EventCallback_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -154,8 +154,7 @@ constexpr UnityEngine::UIElements::EventCallback_1<UnityEngine::UIElements::Geom
 /// @brief Method remove_onGeometryChanged addr 0x2d11ac4 size 0xb0 virtual false final false
  void remove_onGeometryChanged(System::Action_1<UnityEngine::UIElements::ReusableCollectionItem> value) ;
 
-// Ctor Parameters []
-explicit ReusableCollectionItem() ;
+static UnityEngine::UIElements::ReusableCollectionItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d11914 size 0x90 virtual false final false
  void _ctor() ;

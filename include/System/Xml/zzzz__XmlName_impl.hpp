@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/zzzz__XmlName_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaValidity_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaElement_def.hpp"
 #include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAttribute_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaValidity_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
 //  Writing Method size for method: System::Xml::XmlName.Create
 template<>
 
@@ -351,8 +351,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::XmlName, false>(nullptr, ___internal_method, prefix, localName, ns, hashCode, ownerDoc, next, schemaInfo);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ownerDoc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Xml::XmlName", modifiers: "", def_value: None }]
- System::Xml::XmlName::XmlName(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlName>(prefix, localName, ns, hashCode, ownerDoc, next))) {}
+ System::Xml::XmlName System::Xml::XmlName::New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next)  {
+System::Xml::XmlName o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlName>(prefix, localName, ns, hashCode, ownerDoc, next))};
+return o;
+}
  void System::Xml::XmlName::_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlName>::get(),

@@ -73,8 +73,7 @@ constexpr explicit VideoClip(void* ptr) noexcept : UnityEngine::Object(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit VideoClip() ;
+static UnityEngine::Video::VideoClip New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d37b9c size 0x58 virtual false final false
  void _ctor() ;

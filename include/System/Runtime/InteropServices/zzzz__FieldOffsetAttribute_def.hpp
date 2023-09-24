@@ -57,8 +57,7 @@ constexpr int32_t __get__val() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
-explicit FieldOffsetAttribute(int32_t offset) ;
+static System::Runtime::InteropServices::FieldOffsetAttribute New_ctor(int32_t offset) ;
 
 /// @brief Method .ctor addr 0x236af7c size 0x28 virtual false final false
  void _ctor(int32_t offset) ;

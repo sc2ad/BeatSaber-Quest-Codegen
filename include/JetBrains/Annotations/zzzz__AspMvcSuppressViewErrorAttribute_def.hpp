@@ -47,8 +47,7 @@ constexpr explicit AspMvcSuppressViewErrorAttribute(void* ptr) noexcept : System
 
 // Methods
 
-// Ctor Parameters []
-explicit AspMvcSuppressViewErrorAttribute() ;
+static JetBrains::Annotations::AspMvcSuppressViewErrorAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41128 size 0x8 virtual false final false
  void _ctor() ;

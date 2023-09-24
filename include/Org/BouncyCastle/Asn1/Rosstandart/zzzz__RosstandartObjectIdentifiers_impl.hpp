@@ -138,8 +138,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers::__get_id_tc26_gost_28147_param_Z()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "id_tc26_gost_28147_param_Z", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers::RosstandartObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RosstandartObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers>::get(),

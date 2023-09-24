@@ -5,17 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Org::BouncyCastle::Security {
+struct Org__BouncyCastle__Security__DigestUtilities__DigestAlgorithm;
+}
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -114,6 +117,8 @@ __WHIRLPOOL = 42,
 constexpr operator __Org__BouncyCastle__Security__DigestUtilities__DigestAlgorithm_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Security__DigestUtilities__DigestAlgorithm_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -321,8 +326,7 @@ static System::Collections::ICollection __declspec(property(get=get_Algorithms))
 
 // Methods
 
-// Ctor Parameters []
-explicit DigestUtilities() ;
+static Org::BouncyCastle::Security::DigestUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x109807c size 0x8 virtual false final false
  void _ctor() ;

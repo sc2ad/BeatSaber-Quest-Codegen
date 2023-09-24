@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Net/zzzz__ListenerAsyncResult_def.hpp"
-#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "System/Net/zzzz__HttpListenerContext_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Net/zzzz__HttpListenerContext_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Net::ListenerAsyncResult._ctor
 template<>
 
@@ -253,8 +253,10 @@ return ::cordl_internals::getInstanceField<bool, 0x51>(this->::bs_hook::Il2CppWr
  System::Threading::WaitCallback System::Net::ListenerAsyncResult::__get_InvokeCB()  {
 return ::cordl_internals::getStaticField<System::Threading::WaitCallback, "InvokeCB", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ListenerAsyncResult>::get>();
 }
-// Ctor Parameters [CppParam { name: "cb", ty: "System::AsyncCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Net::ListenerAsyncResult::ListenerAsyncResult(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ListenerAsyncResult>(cb, state))) {}
+ System::Net::ListenerAsyncResult System::Net::ListenerAsyncResult::New_ctor(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state)  {
+System::Net::ListenerAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ListenerAsyncResult>(cb, state))};
+return o;
+}
  void System::Net::ListenerAsyncResult::_ctor(System::AsyncCallback cb, ::bs_hook::Il2CppWrapperType state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ListenerAsyncResult>::get(),

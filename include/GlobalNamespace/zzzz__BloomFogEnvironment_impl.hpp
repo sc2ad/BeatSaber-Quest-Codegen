@@ -110,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomFogEnvironment::BloomFogEnvironment()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BloomFogEnvironment>())) {}
+ GlobalNamespace::BloomFogEnvironment GlobalNamespace::BloomFogEnvironment::New_ctor()  {
+GlobalNamespace::BloomFogEnvironment o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomFogEnvironment>())};
+return o;
+}
  void GlobalNamespace::BloomFogEnvironment::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomFogEnvironment>::get(),

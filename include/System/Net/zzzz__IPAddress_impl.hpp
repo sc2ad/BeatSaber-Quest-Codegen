@@ -1,9 +1,9 @@
 #pragma once
-#include "System/Net/zzzz__IPAddress_impl.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Net/zzzz__IPAddress_ReadOnlyIPAddress_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
 #include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 //  Writing Method size for method: System::Net::IPAddress.get_IsIPv4
 template<>
 
@@ -617,8 +617,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "newAddress", ty: "int64_t", modifiers: "", def_value: None }]
- System::Net::IPAddress::IPAddress(int64_t newAddress)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPAddress>(newAddress))) {}
+ System::Net::IPAddress System::Net::IPAddress::New_ctor(int64_t newAddress)  {
+System::Net::IPAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::IPAddress>(newAddress))};
+return o;
+}
  void System::Net::IPAddress::_ctor(int64_t newAddress)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::IPAddress>::get(),
@@ -628,8 +630,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newAddress);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "scopeid", ty: "int64_t", modifiers: "", def_value: None }]
- System::Net::IPAddress::IPAddress(::ArrayW<uint8_t> address, int64_t scopeid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPAddress>(address, scopeid))) {}
+ System::Net::IPAddress System::Net::IPAddress::New_ctor(::ArrayW<uint8_t> address, int64_t scopeid)  {
+System::Net::IPAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::IPAddress>(address, scopeid))};
+return o;
+}
  void System::Net::IPAddress::_ctor(::ArrayW<uint8_t> address, int64_t scopeid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::IPAddress>::get(),
@@ -639,8 +643,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, address, scopeid);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "System::ReadOnlySpan_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "scopeid", ty: "int64_t", modifiers: "", def_value: None }]
- System::Net::IPAddress::IPAddress(System::ReadOnlySpan_1<uint8_t> address, int64_t scopeid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPAddress>(address, scopeid))) {}
+ System::Net::IPAddress System::Net::IPAddress::New_ctor(System::ReadOnlySpan_1<uint8_t> address, int64_t scopeid)  {
+System::Net::IPAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::IPAddress>(address, scopeid))};
+return o;
+}
  void System::Net::IPAddress::_ctor(System::ReadOnlySpan_1<uint8_t> address, int64_t scopeid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::IPAddress>::get(),
@@ -650,8 +656,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, address, scopeid);
 }
-// Ctor Parameters [CppParam { name: "numbers", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "numbersLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scopeid", ty: "uint32_t", modifiers: "", def_value: None }]
- System::Net::IPAddress::IPAddress(void* numbers, int32_t numbersLength, uint32_t scopeid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPAddress>(numbers, numbersLength, scopeid))) {}
+ System::Net::IPAddress System::Net::IPAddress::New_ctor(void* numbers, int32_t numbersLength, uint32_t scopeid)  {
+System::Net::IPAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::IPAddress>(numbers, numbersLength, scopeid))};
+return o;
+}
  void System::Net::IPAddress::_ctor(void* numbers, int32_t numbersLength, uint32_t scopeid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::IPAddress>::get(),
@@ -661,8 +669,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, numbers, numbersLength, scopeid);
 }
-// Ctor Parameters [CppParam { name: "numbers", ty: "::ArrayW<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "scopeid", ty: "uint32_t", modifiers: "", def_value: None }]
- System::Net::IPAddress::IPAddress(::ArrayW<uint16_t> numbers, uint32_t scopeid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPAddress>(numbers, scopeid))) {}
+ System::Net::IPAddress System::Net::IPAddress::New_ctor(::ArrayW<uint16_t> numbers, uint32_t scopeid)  {
+System::Net::IPAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::IPAddress>(numbers, scopeid))};
+return o;
+}
  void System::Net::IPAddress::_ctor(::ArrayW<uint16_t> numbers, uint32_t scopeid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::IPAddress>::get(),
@@ -672,8 +682,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, numbers, scopeid);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Net::IPAddress::IPAddress(::ArrayW<uint8_t> address)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPAddress>(address))) {}
+ System::Net::IPAddress System::Net::IPAddress::New_ctor(::ArrayW<uint8_t> address)  {
+System::Net::IPAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::IPAddress>(address))};
+return o;
+}
  void System::Net::IPAddress::_ctor(::ArrayW<uint8_t> address)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::IPAddress>::get(),
@@ -683,8 +695,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, address);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "System::ReadOnlySpan_1<uint8_t>", modifiers: "", def_value: None }]
- System::Net::IPAddress::IPAddress(System::ReadOnlySpan_1<uint8_t> address)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPAddress>(address))) {}
+ System::Net::IPAddress System::Net::IPAddress::New_ctor(System::ReadOnlySpan_1<uint8_t> address)  {
+System::Net::IPAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::IPAddress>(address))};
+return o;
+}
  void System::Net::IPAddress::_ctor(System::ReadOnlySpan_1<uint8_t> address)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::IPAddress>::get(),
@@ -837,32 +851,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method);
-}
-//  Writing Method size for method: System::Net::System__Net__IPAddress__ReadOnlyIPAddress._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::System__Net__IPAddress__ReadOnlyIPAddress::*)(int64_t)>(&System::Net::System__Net__IPAddress__ReadOnlyIPAddress::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x27fa77c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__IPAddress__ReadOnlyIPAddress>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "newAddress", ty: "int64_t", modifiers: "", def_value: None }]
- System::Net::System__Net__IPAddress__ReadOnlyIPAddress::System__Net__IPAddress__ReadOnlyIPAddress(int64_t newAddress)  : System::Net::IPAddress(THROW_UNLESS(::il2cpp_utils::New<System__Net__IPAddress__ReadOnlyIPAddress>(newAddress))) {}
- void System::Net::System__Net__IPAddress__ReadOnlyIPAddress::_ctor(int64_t newAddress)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__IPAddress__ReadOnlyIPAddress>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newAddress);
 }

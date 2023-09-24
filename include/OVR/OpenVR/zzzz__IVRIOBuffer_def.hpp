@@ -7,16 +7,31 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class AsyncCallback;
-}
-namespace System {
 class IAsyncResult;
 }
 namespace OVR::OpenVR {
 struct EIOBufferError;
 }
+namespace System {
+class AsyncCallback;
+}
 namespace OVR::OpenVR {
 struct EIOBufferMode;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRIOBuffer___Close;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRIOBuffer___Open;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRIOBuffer___PropertyContainer;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRIOBuffer___Read;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRIOBuffer___Write;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -79,8 +94,7 @@ constexpr explicit OVR__OpenVR__IVRIOBuffer___Open(void* ptr) noexcept : System:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRIOBuffer___Open(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRIOBuffer___Open New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2661fe0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -140,8 +154,7 @@ constexpr explicit OVR__OpenVR__IVRIOBuffer___Close(void* ptr) noexcept : System
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRIOBuffer___Close(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRIOBuffer___Close New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2662200 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -201,8 +214,7 @@ constexpr explicit OVR__OpenVR__IVRIOBuffer___Read(void* ptr) noexcept : System:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRIOBuffer___Read(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRIOBuffer___Read New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2662384 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -262,8 +274,7 @@ constexpr explicit OVR__OpenVR__IVRIOBuffer___Write(void* ptr) noexcept : System
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRIOBuffer___Write(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRIOBuffer___Write New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2662588 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -323,8 +334,7 @@ constexpr explicit OVR__OpenVR__IVRIOBuffer___PropertyContainer(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRIOBuffer___PropertyContainer(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRIOBuffer___PropertyContainer New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2662768 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

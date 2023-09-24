@@ -7,6 +7,15 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId;
+}
+namespace GlobalNamespace {
 class DirectionalLightWithIds;
 }
 namespace GlobalNamespace {
@@ -74,6 +83,8 @@ __LinearFraction = 1,
 constexpr operator __GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -164,8 +175,7 @@ constexpr float_t __get__groupIntensity() const;
 /// @brief Method get_groupIntensity addr 0x1f9cc50 size 0x8 virtual false final false
  float_t get_groupIntensity() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData() ;
+static GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9cc58 size 0x8 virtual false final false
  void _ctor() ;
@@ -244,8 +254,7 @@ constexpr float_t __get__intensity() const;
 /// @brief Method get_intensity addr 0x1f9cc68 size 0x8 virtual false final false
  float_t get_intensity() ;
 
-// Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightIntensity", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId(int32_t lightId, float_t lightIntensity) ;
+static GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId New_ctor(int32_t lightId, float_t lightIntensity) ;
 
 /// @brief Method .ctor addr 0x1f9cc70 size 0x38 virtual false final false
  void _ctor(int32_t lightId, float_t lightIntensity) ;
@@ -335,8 +344,7 @@ constexpr GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__G
 
 // Methods
 
-// Ctor Parameters []
-explicit DirectionalLightWithIdsGroupEntry() ;
+static GlobalNamespace::DirectionalLightWithIdsGroupEntry New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9cc40 size 0x8 virtual false final false
  void _ctor() ;

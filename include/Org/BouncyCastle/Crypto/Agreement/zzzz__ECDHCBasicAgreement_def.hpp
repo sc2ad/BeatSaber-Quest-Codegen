@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBasicAgreement;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
 }
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -81,8 +81,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters __get_pr
 /// @brief Method CalculateAgreement addr 0x118f78c size 0x1f4 virtual true final false
  Org::BouncyCastle::Math::BigInteger CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters pubKey) ;
 
-// Ctor Parameters []
-explicit ECDHCBasicAgreement() ;
+static Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement New_ctor() ;
 
 /// @brief Method .ctor addr 0x118f980 size 0x8 virtual false final false
  void _ctor() ;

@@ -60,8 +60,7 @@ static constexpr uint8_t  psk{2u};
 
 // Methods
 
-// Ctor Parameters []
-explicit ClientAuthenticationType() ;
+static Org::BouncyCastle::Crypto::Tls::ClientAuthenticationType New_ctor() ;
 
 /// @brief Method .ctor addr 0xed2ce0 size 0x8 virtual false final false
  void _ctor() ;

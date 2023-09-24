@@ -74,8 +74,7 @@ static UnityEngine::UI::ClipperRegistry __declspec(property(get=get_instance))  
 
 // Methods
 
-// Ctor Parameters []
-explicit ClipperRegistry() ;
+static UnityEngine::UI::ClipperRegistry New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd9ff4 size 0x7c virtual false final false
  void _ctor() ;

@@ -4,26 +4,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
-namespace System::IO {
-struct FileAccess;
+namespace System {
+class System__Console__WindowsConsole;
 }
 namespace System {
 class ConsoleCancelEventHandler;
 }
-namespace System {
-struct ConsoleKeyInfo;
-}
 namespace System::IO {
-class TextWriter;
+class Stream;
 }
 namespace System::Text {
 class Encoding;
 }
 namespace System::IO {
 class TextReader;
+}
+namespace System::IO {
+class TextWriter;
+}
+namespace System {
+struct ConsoleKeyInfo;
+}
+namespace System::IO {
+struct FileAccess;
+}
+namespace GlobalNamespace {
+class System__Console__WindowsConsole__WindowsCancelHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +83,7 @@ constexpr explicit System__Console__WindowsConsole__WindowsCancelHandler(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Console__WindowsConsole__WindowsCancelHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::System__Console__WindowsConsole__WindowsCancelHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2489184 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

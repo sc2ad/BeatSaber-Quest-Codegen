@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__AttributeCertificateHolder_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__Holder_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__Holder_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::AttributeCertificateHolder._ctor
 template<>
 
@@ -380,8 +380,10 @@ constexpr void Org::BouncyCastle::X509::AttributeCertificateHolder::__set_holder
 constexpr Org::BouncyCastle::Asn1::X509::Holder Org::BouncyCastle::X509::AttributeCertificateHolder::__get_holder() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::Holder, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::AttributeCertificateHolder::AttributeCertificateHolder(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeCertificateHolder>(seq))) {}
+ Org::BouncyCastle::X509::AttributeCertificateHolder Org::BouncyCastle::X509::AttributeCertificateHolder::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::X509::AttributeCertificateHolder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::AttributeCertificateHolder>(seq))};
+return o;
+}
  void Org::BouncyCastle::X509::AttributeCertificateHolder::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::AttributeCertificateHolder>::get(),
@@ -391,8 +393,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "issuerName", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::AttributeCertificateHolder::AttributeCertificateHolder(Org::BouncyCastle::Asn1::X509::X509Name issuerName, Org::BouncyCastle::Math::BigInteger serialNumber)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeCertificateHolder>(issuerName, serialNumber))) {}
+ Org::BouncyCastle::X509::AttributeCertificateHolder Org::BouncyCastle::X509::AttributeCertificateHolder::New_ctor(Org::BouncyCastle::Asn1::X509::X509Name issuerName, Org::BouncyCastle::Math::BigInteger serialNumber)  {
+Org::BouncyCastle::X509::AttributeCertificateHolder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::AttributeCertificateHolder>(issuerName, serialNumber))};
+return o;
+}
  void Org::BouncyCastle::X509::AttributeCertificateHolder::_ctor(Org::BouncyCastle::Asn1::X509::X509Name issuerName, Org::BouncyCastle::Math::BigInteger serialNumber)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::AttributeCertificateHolder>::get(),
@@ -402,8 +406,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, issuerName, serialNumber);
 }
-// Ctor Parameters [CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::AttributeCertificateHolder::AttributeCertificateHolder(Org::BouncyCastle::X509::X509Certificate cert)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeCertificateHolder>(cert))) {}
+ Org::BouncyCastle::X509::AttributeCertificateHolder Org::BouncyCastle::X509::AttributeCertificateHolder::New_ctor(Org::BouncyCastle::X509::X509Certificate cert)  {
+Org::BouncyCastle::X509::AttributeCertificateHolder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::AttributeCertificateHolder>(cert))};
+return o;
+}
  void Org::BouncyCastle::X509::AttributeCertificateHolder::_ctor(Org::BouncyCastle::X509::X509Certificate cert)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::AttributeCertificateHolder>::get(),
@@ -413,8 +419,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cert);
 }
-// Ctor Parameters [CppParam { name: "principal", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::AttributeCertificateHolder::AttributeCertificateHolder(Org::BouncyCastle::Asn1::X509::X509Name principal)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeCertificateHolder>(principal))) {}
+ Org::BouncyCastle::X509::AttributeCertificateHolder Org::BouncyCastle::X509::AttributeCertificateHolder::New_ctor(Org::BouncyCastle::Asn1::X509::X509Name principal)  {
+Org::BouncyCastle::X509::AttributeCertificateHolder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::AttributeCertificateHolder>(principal))};
+return o;
+}
  void Org::BouncyCastle::X509::AttributeCertificateHolder::_ctor(Org::BouncyCastle::Asn1::X509::X509Name principal)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::AttributeCertificateHolder>::get(),
@@ -424,8 +432,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, principal);
 }
-// Ctor Parameters [CppParam { name: "digestedObjectType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "otherObjectTypeID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectDigest", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::AttributeCertificateHolder::AttributeCertificateHolder(int32_t digestedObjectType, ::StringW digestAlgorithm, ::StringW otherObjectTypeID, ::ArrayW<uint8_t> objectDigest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeCertificateHolder>(digestedObjectType, digestAlgorithm, otherObjectTypeID, objectDigest))) {}
+ Org::BouncyCastle::X509::AttributeCertificateHolder Org::BouncyCastle::X509::AttributeCertificateHolder::New_ctor(int32_t digestedObjectType, ::StringW digestAlgorithm, ::StringW otherObjectTypeID, ::ArrayW<uint8_t> objectDigest)  {
+Org::BouncyCastle::X509::AttributeCertificateHolder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::AttributeCertificateHolder>(digestedObjectType, digestAlgorithm, otherObjectTypeID, objectDigest))};
+return o;
+}
  void Org::BouncyCastle::X509::AttributeCertificateHolder::_ctor(int32_t digestedObjectType, ::StringW digestAlgorithm, ::StringW otherObjectTypeID, ::ArrayW<uint8_t> objectDigest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::AttributeCertificateHolder>::get(),

@@ -62,14 +62,12 @@ constexpr ::StringW __get__BasePath_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PathReferenceAttribute() ;
+static JetBrains::Annotations::PathReferenceAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40e80 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "basePath", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PathReferenceAttribute(::StringW basePath) ;
+static JetBrains::Annotations::PathReferenceAttribute New_ctor(::StringW basePath) ;
 
 /// @brief Method .ctor addr 0x2d40e88 size 0x28 virtual false final false
  void _ctor(::StringW basePath) ;

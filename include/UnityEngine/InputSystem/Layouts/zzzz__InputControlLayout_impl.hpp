@@ -6,32 +6,32 @@
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__NameAndParameters_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__NamedValue_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlAttribute_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem__Flags::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem__Flags(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1527,8 +1527,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::UnityEngine__InputSyst
  System::Func_2<::StringW,UnityEngine::InputSystem::Utilities::InternedString> GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c::__get___9__14_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<::StringW,UnityEngine::InputSystem::Utilities::InternedString>, "<>9__14_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c>())) {}
+ GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c::New_ctor()  {
+GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c>())};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder__ControlBuilder____c>::get(),
@@ -2740,8 +2742,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::InputSystem::Layouts::InputControlLayout, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__Builder>())) {}
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder::New_ctor()  {
+UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder>())};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Builder>::get(),
@@ -2888,8 +2892,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem
  System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::StringW> GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c::__get___9__15_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::StringW>, "<>9__15_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c>())) {}
+ GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c::New_ctor()  {
+GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c>())};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutJson____c>::get(),
@@ -3239,8 +3245,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem
  System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::StringW> GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c::__get___9__25_3()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::StringW>, "<>9__25_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c>())) {}
+ GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c::New_ctor()  {
+GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c>())};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson____c>::get(),
@@ -3493,8 +3501,10 @@ constexpr void UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layo
 constexpr ::StringW UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson::__get_maxValue() const {
 return ::cordl_internals::getInstanceField<::StringW, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson>())) {}
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson::New_ctor()  {
+UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson>())};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItemJson>::get(),
@@ -3764,8 +3774,10 @@ constexpr void GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlL
 constexpr UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24::__get___3____4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24>(__1__state))) {}
+ GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24 GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24::New_ctor(int32_t __1__state)  {
+GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24>(__1__state))};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__Layouts__InputControlLayout__Collection___GetBaseLayouts_d__24>::get(),
@@ -4431,8 +4443,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>())) {}
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::New_ctor()  {
+UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>())};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>::get(),
@@ -4442,8 +4456,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException(::StringW name, ::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>(name, message))) {}
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::New_ctor(::StringW name, ::StringW message)  {
+UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>(name, message))};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::_ctor(::StringW name, ::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>::get(),
@@ -4453,8 +4469,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, message);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException(::StringW name)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>(name))) {}
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::New_ctor(::StringW name)  {
+UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>(name))};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>::get(),
@@ -4464,8 +4482,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException(::StringW message, System::Exception innerException)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>(message, innerException))) {}
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::New_ctor(::StringW message, System::Exception innerException)  {
+UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>(message, innerException))};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>::get(),
@@ -4475,8 +4495,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>(info, context))) {}
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>(info, context))};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__LayoutNotFoundException>::get(),
@@ -4679,8 +4701,10 @@ return ::cordl_internals::getStaticField<System::Func_2<::StringW,UnityEngine::I
  System::Func_2<::StringW,UnityEngine::InputSystem::Utilities::InternedString> UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout____c::__get___9__75_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<::StringW,UnityEngine::InputSystem::Utilities::InternedString>, "<>9__75_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout____c::UnityEngine__InputSystem__Layouts__InputControlLayout____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Layouts__InputControlLayout____c>())) {}
+ UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout____c UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout____c::New_ctor()  {
+UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout____c>())};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout____c>::get(),
@@ -5897,8 +5921,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::InputSystem::Layouts::InputControlLayout, false>(nullptr, ___internal_method, json);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Layouts::InputControlLayout::InputControlLayout(::StringW name, System::Type type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputControlLayout>(name, type))) {}
+ UnityEngine::InputSystem::Layouts::InputControlLayout UnityEngine::InputSystem::Layouts::InputControlLayout::New_ctor(::StringW name, System::Type type)  {
+UnityEngine::InputSystem::Layouts::InputControlLayout o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Layouts::InputControlLayout>(name, type))};
+return o;
+}
  void UnityEngine::InputSystem::Layouts::InputControlLayout::_ctor(::StringW name, System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Layouts::InputControlLayout>::get(),

@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__GUILayoutOption_def.hpp"
+#include "UnityEngine/zzzz__GUILayoutOption_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UnityEngine__GUILayoutOption__Type::UnityEngine__GUILayoutOption__Type(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -53,8 +54,10 @@ constexpr void UnityEngine::GUILayoutOption::__set_value(::bs_hook::Il2CppWrappe
 constexpr ::bs_hook::Il2CppWrapperType UnityEngine::GUILayoutOption::__get_value() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "UnityEngine::UnityEngine__GUILayoutOption__Type", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- UnityEngine::GUILayoutOption::GUILayoutOption(UnityEngine::UnityEngine__GUILayoutOption__Type type, ::bs_hook::Il2CppWrapperType value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUILayoutOption>(type, value))) {}
+ UnityEngine::GUILayoutOption UnityEngine::GUILayoutOption::New_ctor(UnityEngine::UnityEngine__GUILayoutOption__Type type, ::bs_hook::Il2CppWrapperType value)  {
+UnityEngine::GUILayoutOption o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUILayoutOption>(type, value))};
+return o;
+}
  void UnityEngine::GUILayoutOption::_ctor(UnityEngine::UnityEngine__GUILayoutOption__Type type, ::bs_hook::Il2CppWrapperType value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUILayoutOption>::get(),

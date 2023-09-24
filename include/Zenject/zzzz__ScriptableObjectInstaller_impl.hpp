@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Zenject::ScriptableObjectInstaller::ScriptableObjectInstaller()  : Zenject::ScriptableObjectInstallerBase(THROW_UNLESS(::il2cpp_utils::New<ScriptableObjectInstaller>())) {}
+ Zenject::ScriptableObjectInstaller Zenject::ScriptableObjectInstaller::New_ctor()  {
+Zenject::ScriptableObjectInstaller o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ScriptableObjectInstaller>())};
+return o;
+}
  void Zenject::ScriptableObjectInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ScriptableObjectInstaller>::get(),

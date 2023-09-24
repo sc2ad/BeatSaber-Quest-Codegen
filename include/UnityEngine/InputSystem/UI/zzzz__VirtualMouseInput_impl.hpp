@@ -3,13 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__VirtualMouseInput_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__Mouse_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionProperty_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionProperty_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__VirtualMouseInput_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__Mouse_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::UI::UnityEngine__InputSystem__UI__VirtualMouseInput__CursorMode::UnityEngine__InputSystem__UI__VirtualMouseInput__CursorMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -1038,8 +1039,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UI::VirtualMouseInput::VirtualMouseInput()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VirtualMouseInput>())) {}
+ UnityEngine::InputSystem::UI::VirtualMouseInput UnityEngine::InputSystem::UI::VirtualMouseInput::New_ctor()  {
+UnityEngine::InputSystem::UI::VirtualMouseInput o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UI::VirtualMouseInput>())};
+return o;
+}
  void UnityEngine::InputSystem::UI::VirtualMouseInput::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UI::VirtualMouseInput>::get(),

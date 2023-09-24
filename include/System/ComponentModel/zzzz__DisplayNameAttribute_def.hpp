@@ -72,14 +72,12 @@ constexpr ::StringW __get__DisplayNameValue_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DisplayNameAttribute() ;
+static System::ComponentModel::DisplayNameAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x27721f4 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DisplayNameAttribute(::StringW displayName) ;
+static System::ComponentModel::DisplayNameAttribute New_ctor(::StringW displayName) ;
 
 /// @brief Method .ctor addr 0x2772250 size 0x28 virtual false final false
  void _ctor(::StringW displayName) ;

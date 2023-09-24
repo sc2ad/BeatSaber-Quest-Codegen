@@ -69,8 +69,7 @@ constexpr float_t __get_nextActionTime() const;
 /// @brief Method Update addr 0x2619200 size 0x1bc virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRAudioSourceTest() ;
+static GlobalNamespace::OVRAudioSourceTest New_ctor() ;
 
 /// @brief Method .ctor addr 0x26193bc size 0x10 virtual false final false
  void _ctor() ;

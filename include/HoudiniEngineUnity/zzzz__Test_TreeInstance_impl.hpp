@@ -1,7 +1,7 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__Test_TreeInstance_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__TreeInstance_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::Test_TreeInstance._ctor
 template<>
 
@@ -46,8 +46,10 @@ constexpr void HoudiniEngineUnity::Test_TreeInstance::__set_self(UnityEngine::Tr
 constexpr UnityEngine::TreeInstance HoudiniEngineUnity::Test_TreeInstance::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::TreeInstance, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::TreeInstance", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_TreeInstance::Test_TreeInstance(UnityEngine::TreeInstance self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_TreeInstance>(self))) {}
+ HoudiniEngineUnity::Test_TreeInstance HoudiniEngineUnity::Test_TreeInstance::New_ctor(UnityEngine::TreeInstance self)  {
+HoudiniEngineUnity::Test_TreeInstance o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_TreeInstance>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_TreeInstance::_ctor(UnityEngine::TreeInstance self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_TreeInstance>::get(),

@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ContentCatalogData_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__ObjectInitializationData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__SerializedType_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ResourceLocationMap_def.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ContentCatalogData_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__SerializedType_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__ObjectInitializationData_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 // Ctor Parameters [CppParam { name: "dataOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "entries", ty: "::ArrayW<int32_t>", modifiers: "", def_value: Some("csnull") }]
@@ -385,8 +386,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-// Ctor Parameters [CppParam { name: "locator", ty: "UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap", modifiers: "", def_value: None }, CppParam { name: "internalId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "providerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "dependencyKey", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "depHash", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "primaryKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::ResourceLocators::UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation::UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap locator, ::StringW internalId, ::StringW providerId, ::bs_hook::Il2CppWrapperType dependencyKey, ::bs_hook::Il2CppWrapperType data, int32_t depHash, ::StringW primaryKey, System::Type type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation>(locator, internalId, providerId, dependencyKey, data, depHash, primaryKey, type))) {}
+ UnityEngine::AddressableAssets::ResourceLocators::UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation UnityEngine::AddressableAssets::ResourceLocators::UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation::New_ctor(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap locator, ::StringW internalId, ::StringW providerId, ::bs_hook::Il2CppWrapperType dependencyKey, ::bs_hook::Il2CppWrapperType data, int32_t depHash, ::StringW primaryKey, System::Type type)  {
+UnityEngine::AddressableAssets::ResourceLocators::UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::ResourceLocators::UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation>(locator, internalId, providerId, dependencyKey, data, depHash, primaryKey, type))};
+return o;
+}
  void UnityEngine::AddressableAssets::ResourceLocators::UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation::_ctor(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap locator, ::StringW internalId, ::StringW providerId, ::bs_hook::Il2CppWrapperType dependencyKey, ::bs_hook::Il2CppWrapperType data, int32_t depHash, ::StringW primaryKey, System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::ResourceLocators::UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation>::get(),
@@ -863,8 +866,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, internalIdPrefixes, v);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::ContentCatalogData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ContentCatalogData>())) {}
+ UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::New_ctor()  {
+UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData>())};
+return o;
+}
  void UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData>::get(),

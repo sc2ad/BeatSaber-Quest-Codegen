@@ -66,8 +66,7 @@ constexpr UnityEngine::GameObject __get__separator() const;
 /// @brief Method TableViewSetup addr 0x1fa3804 size 0xe4 virtual true final false
  void TableViewSetup(HMUI::ITableCellOwner tableCellOwner, int32_t idx) ;
 
-// Ctor Parameters []
-explicit TableCellWithSeparator() ;
+static GlobalNamespace::TableCellWithSeparator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa38e8 size 0x8 virtual false final false
  void _ctor() ;

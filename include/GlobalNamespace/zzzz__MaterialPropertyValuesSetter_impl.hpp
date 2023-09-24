@@ -4,6 +4,7 @@
 #include "GlobalNamespace/zzzz__MaterialPropertyValuesSetter_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyValuesSetter_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase.get_propertyId
 template<>
@@ -103,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase>())) {}
+ GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase>::get(),
@@ -146,8 +149,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__P
 constexpr float_t GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair::__get_value() const {
 return ::cordl_internals::getInstanceField<float_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair()  : GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair>())) {}
+ GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameFloatValuePair>::get(),
@@ -180,8 +185,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__P
 constexpr int32_t GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair::__get_value() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair()  : GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair>())) {}
+ GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameIntValuePair>::get(),
@@ -214,8 +221,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__P
 constexpr UnityEngine::Vector4 GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair::__get_vector() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector4, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair()  : GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair>())) {}
+ GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameVectorValuePair>::get(),
@@ -248,8 +257,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__P
 constexpr UnityEngine::Color GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair::__get_color() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Color, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair()  : GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyValuePairBase(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair>())) {}
+ GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MaterialPropertyValuesSetter__PropertyNameColorValuePair>::get(),
@@ -410,8 +421,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MaterialPropertyValuesSetter::MaterialPropertyValuesSetter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MaterialPropertyValuesSetter>())) {}
+ GlobalNamespace::MaterialPropertyValuesSetter GlobalNamespace::MaterialPropertyValuesSetter::New_ctor()  {
+GlobalNamespace::MaterialPropertyValuesSetter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MaterialPropertyValuesSetter>())};
+return o;
+}
  void GlobalNamespace::MaterialPropertyValuesSetter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MaterialPropertyValuesSetter>::get(),

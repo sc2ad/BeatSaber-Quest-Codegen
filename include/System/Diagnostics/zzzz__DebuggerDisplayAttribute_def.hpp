@@ -69,8 +69,7 @@ constexpr ::StringW __get_type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DebuggerDisplayAttribute(::StringW value) ;
+static System::Diagnostics::DebuggerDisplayAttribute New_ctor(::StringW value) ;
 
 /// @brief Method .ctor addr 0x240c0dc size 0x70 virtual false final false
  void _ctor(::StringW value) ;

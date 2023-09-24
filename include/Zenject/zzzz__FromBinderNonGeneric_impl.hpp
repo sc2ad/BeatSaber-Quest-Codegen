@@ -1,18 +1,19 @@
 #pragma once
 #include "Zenject/zzzz__FromBinder_impl.hpp"
 #include "Zenject/zzzz__FromBinderNonGeneric_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "Zenject/zzzz__BindStatement_def.hpp"
-#include "Zenject/zzzz__InjectSources_def.hpp"
+#include "Zenject/zzzz__FromBinderNonGeneric_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__IFactory_1_def.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Zenject/zzzz__BindStatement_def.hpp"
+#include "Zenject/zzzz__InjectSources_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::FromBinderNonGeneric._ctor
 template<>
@@ -99,8 +100,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }]
- Zenject::FromBinderNonGeneric::FromBinderNonGeneric(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement)  : Zenject::FromBinder(THROW_UNLESS(::il2cpp_utils::New<FromBinderNonGeneric>(bindContainer, bindInfo, bindStatement))) {}
+ Zenject::FromBinderNonGeneric Zenject::FromBinderNonGeneric::New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement)  {
+Zenject::FromBinderNonGeneric o{THROW_UNLESS(::il2cpp_utils::New<Zenject::FromBinderNonGeneric>(bindContainer, bindInfo, bindStatement))};
+return o;
+}
  void Zenject::FromBinderNonGeneric::_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::FromBinderNonGeneric>::get(),
@@ -292,118 +295,52 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder, false>(const_cast<void*>(instance), ___internal_method, predicate, includeInactive);
 }
-//  Writing Method size for method: Zenject::Zenject__FromBinderNonGeneric____c__1_2._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Zenject__FromBinderNonGeneric____c__1_2::*)()>(&Zenject::Zenject__FromBinderNonGeneric____c__1_2::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::Zenject__FromBinderNonGeneric____c__1_2._FromFactory_b__1_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Zenject__FromBinderNonGeneric____c__1_2::*)(Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>)>(&Zenject::Zenject__FromBinderNonGeneric____c__1_2::_FromFactory_b__1_0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get(),
-                            "<FromFactory>b__1_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::Zenject__FromBinderNonGeneric____c__1_2.__zenCreate
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::Il2CppWrapperType (*)(::ArrayW<::bs_hook::Il2CppWrapperType>)>(&Zenject::Zenject__FromBinderNonGeneric____c__1_2::__zenCreate)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get(),
-                            "__zenCreate",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::bs_hook::Il2CppWrapperType>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Zenject::Zenject__FromBinderNonGeneric____c__1_2.__zenCreateInjectTypeInfo
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo (*)()>(&Zenject::Zenject__FromBinderNonGeneric____c__1_2::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get(),
-                            "__zenCreateInjectTypeInfo",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
- void Zenject::Zenject__FromBinderNonGeneric____c__1_2::__set___9(Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory> value)  {
-::cordl_internals::setStaticField<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get>(std::forward<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>(value));
+ void Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>::__set___9(Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory> value)  {
+::cordl_internals::setStaticField<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>::get>(std::forward<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>(value));
 }
- Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory> Zenject::Zenject__FromBinderNonGeneric____c__1_2::__get___9()  {
-return ::cordl_internals::getStaticField<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get>();
+ Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory> Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>::__get___9()  {
+return ::cordl_internals::getStaticField<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>::get>();
 }
- void Zenject::Zenject__FromBinderNonGeneric____c__1_2::__set___9__1_0(System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>> value)  {
-::cordl_internals::setStaticField<System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>>, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get>(std::forward<System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>>>(value));
+ void Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>::__set___9__1_0(System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>> value)  {
+::cordl_internals::setStaticField<System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>>, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>::get>(std::forward<System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>>>(value));
 }
- System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>> Zenject::Zenject__FromBinderNonGeneric____c__1_2::__get___9__1_0()  {
-return ::cordl_internals::getStaticField<System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>>, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get>();
+ System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>> Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>::__get___9__1_0()  {
+return ::cordl_internals::getStaticField<System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>>, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>::get>();
 }
-// Ctor Parameters []
- Zenject::Zenject__FromBinderNonGeneric____c__1_2::Zenject__FromBinderNonGeneric____c__1_2()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__FromBinderNonGeneric____c__1_2>())) {}
- void Zenject::Zenject__FromBinderNonGeneric____c__1_2::_ctor()  {
+ Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory> Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>::New_ctor()  {
+Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory> o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>())};
+return o;
+}
+ void Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void Zenject::Zenject__FromBinderNonGeneric____c__1_2::_FromFactory_b__1_0(Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>> x)  {
+ void Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>::_FromFactory_b__1_0(Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>> x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>::get(),
                             "<FromFactory>b__1_0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_1<TConcrete>>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x);
 }
- ::bs_hook::Il2CppWrapperType Zenject::Zenject__FromBinderNonGeneric____c__1_2::__zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0)  {
+ ::bs_hook::Il2CppWrapperType Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>::__zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>::get(),
                             "__zenCreate",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::bs_hook::Il2CppWrapperType>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(nullptr, ___internal_method, P_0);
 }
- Zenject::InjectTypeInfo Zenject::Zenject__FromBinderNonGeneric____c__1_2::__zenCreateInjectTypeInfo()  {
+ Zenject::InjectTypeInfo Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>::__zenCreateInjectTypeInfo()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__FromBinderNonGeneric____c__1_2<TConcrete,TFactory>>::get(),
                             "__zenCreateInjectTypeInfo",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

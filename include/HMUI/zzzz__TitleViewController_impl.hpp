@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, text);
 }
-// Ctor Parameters []
- HMUI::TitleViewController::TitleViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<TitleViewController>())) {}
+ HMUI::TitleViewController HMUI::TitleViewController::New_ctor()  {
+HMUI::TitleViewController o{THROW_UNLESS(::il2cpp_utils::New<HMUI::TitleViewController>())};
+return o;
+}
  void HMUI::TitleViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::TitleViewController>::get(),

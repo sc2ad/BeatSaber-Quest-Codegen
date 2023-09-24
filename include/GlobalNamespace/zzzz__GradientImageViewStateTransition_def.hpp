@@ -3,17 +3,11 @@
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace System {
-class Action;
+namespace Tweening {
+class ColorTween;
 }
 namespace GlobalNamespace {
 class BaseTransitionSO;
-}
-namespace GlobalNamespace {
-class GradientTransitionSO;
-}
-namespace Tweening {
-class ColorTween;
 }
 namespace UnityEngine {
 struct Color;
@@ -22,6 +16,12 @@ namespace System {
 template<typename T>
 class Action_1;
 }
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class GradientTransitionSO;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GradientImageViewStateTransition;
@@ -29,7 +29,7 @@ class GradientImageViewStateTransition;
 // Type: ::GradientImageViewStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(5544)), TypeDefinitionIndex(TypeDefinitionIndex(13678))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(13678))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5553))
 // CS Name: GradientImageViewStateTransition
 class CORDL_TYPE GradientImageViewStateTransition : public GlobalNamespace::BaseStateTransition_1<HMUI::ImageView> {
@@ -142,8 +142,7 @@ constexpr Tweening::ColorTween __get__colorTweenB() const;
 /// @brief Method SetColors addr 0x21296dc size 0x60 virtual false final false
  void SetColors(UnityEngine::Color startColor, UnityEngine::Color endColor) ;
 
-// Ctor Parameters []
-explicit GradientImageViewStateTransition() ;
+static GlobalNamespace::GradientImageViewStateTransition New_ctor() ;
 
 /// @brief Method .ctor addr 0x2129b50 size 0x48 virtual false final false
  void _ctor() ;

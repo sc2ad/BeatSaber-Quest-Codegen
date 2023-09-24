@@ -5,10 +5,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalSerializerTypeE;
 }
 namespace System::Runtime::Serialization::Formatters {
-struct FormatterTypeStyle;
+struct FormatterAssemblyStyle;
 }
 namespace System::Runtime::Serialization::Formatters {
-struct FormatterAssemblyStyle;
+struct FormatterTypeStyle;
 }
 namespace System::Runtime::Serialization::Formatters {
 struct TypeFilterLevel;
@@ -86,8 +86,7 @@ constexpr System::Runtime::Serialization::Formatters::Binary::InternalSerializer
 
 // Methods
 
-// Ctor Parameters []
-explicit InternalFE() ;
+static System::Runtime::Serialization::Formatters::Binary::InternalFE New_ctor() ;
 
 /// @brief Method .ctor addr 0x2369f34 size 0x8 virtual false final false
  void _ctor() ;

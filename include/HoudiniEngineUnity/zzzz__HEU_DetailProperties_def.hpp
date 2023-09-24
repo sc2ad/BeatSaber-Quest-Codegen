@@ -86,8 +86,7 @@ constexpr int32_t __get__detailResolutionPerPatch() const;
 /// @brief Method IsEquivalentTo addr 0x2077d88 size 0x1f0 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_DetailProperties other) ;
 
-// Ctor Parameters []
-explicit HEU_DetailProperties() ;
+static HoudiniEngineUnity::HEU_DetailProperties New_ctor() ;
 
 /// @brief Method .ctor addr 0x2077f78 size 0x18 virtual false final false
  void _ctor() ;

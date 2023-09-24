@@ -84,8 +84,7 @@ constexpr System::Runtime::Remoting::WellKnownObjectMode __get_obj_mode() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Runtime::Remoting::WellKnownObjectMode", modifiers: "", def_value: None }]
-explicit WellKnownServiceTypeEntry(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, System::Runtime::Remoting::WellKnownObjectMode mode) ;
+static System::Runtime::Remoting::WellKnownServiceTypeEntry New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, System::Runtime::Remoting::WellKnownObjectMode mode) ;
 
 /// @brief Method .ctor addr 0x23297f4 size 0x140 virtual false final false
  void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, System::Runtime::Remoting::WellKnownObjectMode mode) ;

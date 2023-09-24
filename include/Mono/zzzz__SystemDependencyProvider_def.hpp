@@ -5,13 +5,13 @@ namespace Mono {
 class ISystemCertificateProvider;
 }
 namespace Mono {
-class X509PalImpl;
-}
-namespace Mono {
 class ISystemDependencyProvider;
 }
 namespace Mono {
 class SystemCertificateProvider;
+}
+namespace Mono {
+class X509PalImpl;
 }
 // Forward declare root types
 namespace Mono {
@@ -109,8 +109,7 @@ static void Initialize() ;
 /// @brief Method get_X509Pal addr 0x2685494 size 0x18 virtual false final false
  Mono::X509PalImpl get_X509Pal() ;
 
-// Ctor Parameters []
-explicit SystemDependencyProvider() ;
+static Mono::SystemDependencyProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x26853ec size 0x98 virtual false final false
  void _ctor() ;

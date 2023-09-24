@@ -4,32 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDHVerifier;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
+class DHPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsDHVerifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPrivateKeyParameters;
+class DHPublicKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -215,8 +215,7 @@ static void WriteDHParameter(Org::BouncyCastle::Math::BigInteger x, System::IO::
 /// @brief Method WriteDHParameters addr 0xf19404 size 0x74 virtual false final false
 static void WriteDHParameters(Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters, System::IO::Stream output) ;
 
-// Ctor Parameters []
-explicit TlsDHUtilities() ;
+static Org::BouncyCastle::Crypto::Tls::TlsDHUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xf1968c size 0x8 virtual false final false
  void _ctor() ;

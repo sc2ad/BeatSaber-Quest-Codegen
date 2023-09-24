@@ -47,8 +47,7 @@ constexpr explicit SHA512(void* ptr) noexcept : System::Security::Cryptography::
 
 // Methods
 
-// Ctor Parameters []
-explicit SHA512() ;
+static System::Security::Cryptography::SHA512 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22fdfc4 size 0x20 virtual false final false
  void _ctor() ;

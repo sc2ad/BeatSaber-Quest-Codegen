@@ -1,5 +1,6 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AlphabetScrollInfo_def.hpp"
+#include "GlobalNamespace/zzzz__AlphabetScrollInfo_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data._ctor
 template<>
 
@@ -29,8 +30,10 @@ constexpr void GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data::__set
 constexpr int32_t GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data::__get_cellIdx() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "cellIdx", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data::GlobalNamespace__AlphabetScrollInfo__Data(char16_t character, int32_t cellIdx)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AlphabetScrollInfo__Data>(character, cellIdx))) {}
+ GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data::New_ctor(char16_t character, int32_t cellIdx)  {
+GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data>(character, cellIdx))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data::_ctor(char16_t character, int32_t cellIdx)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AlphabetScrollInfo__Data>::get(),
@@ -57,8 +60,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::AlphabetScrollInfo::AlphabetScrollInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AlphabetScrollInfo>())) {}
+ GlobalNamespace::AlphabetScrollInfo GlobalNamespace::AlphabetScrollInfo::New_ctor()  {
+GlobalNamespace::AlphabetScrollInfo o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AlphabetScrollInfo>())};
+return o;
+}
  void GlobalNamespace::AlphabetScrollInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AlphabetScrollInfo>::get(),

@@ -218,8 +218,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tayx::Graphy::Ram::G_RamMonitor::G_RamMonitor()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<G_RamMonitor>())) {}
+ Tayx::Graphy::Ram::G_RamMonitor Tayx::Graphy::Ram::G_RamMonitor::New_ctor()  {
+Tayx::Graphy::Ram::G_RamMonitor o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Ram::G_RamMonitor>())};
+return o;
+}
  void Tayx::Graphy::Ram::G_RamMonitor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Ram::G_RamMonitor>::get(),

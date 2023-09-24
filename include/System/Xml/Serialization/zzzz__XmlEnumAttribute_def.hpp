@@ -57,8 +57,7 @@ constexpr ::StringW __get_name() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XmlEnumAttribute(::StringW name) ;
+static System::Xml::Serialization::XmlEnumAttribute New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x27185c0 size 0x28 virtual false final false
  void _ctor(::StringW name) ;

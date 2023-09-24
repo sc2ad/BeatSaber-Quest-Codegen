@@ -7,6 +7,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__FormattedFloatListSettingsController__ValueType;
+}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
@@ -68,6 +71,8 @@ __InvertedNormalized = 2,
 constexpr operator __GlobalNamespace__FormattedFloatListSettingsController__ValueType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__FormattedFloatListSettingsController__ValueType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -220,8 +225,7 @@ constexpr bool __get__hasValue() const;
 /// @brief Method TextForValue addr 0x2152cbc size 0xdc virtual true final false
  ::StringW TextForValue(int32_t idx) ;
 
-// Ctor Parameters []
-explicit FormattedFloatListSettingsController() ;
+static GlobalNamespace::FormattedFloatListSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2152d98 size 0x5c virtual false final false
  void _ctor() ;

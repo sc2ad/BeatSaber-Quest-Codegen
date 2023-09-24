@@ -78,8 +78,7 @@ constexpr uint64_t __get__requestId() const;
 /// @brief Method get_RequestId addr 0x1f7887c size 0x8 virtual false final false
  uint64_t get_RequestId() ;
 
-// Ctor Parameters []
-explicit HMAutoincrementedRequestId() ;
+static GlobalNamespace::HMAutoincrementedRequestId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f786ac size 0x64 virtual false final false
  void _ctor() ;

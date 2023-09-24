@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__RemoteInputPlayerConnection_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
+#include "System/zzzz__IObservable_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__RemoteInputPlayerConnection_def.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__MessageEventArgs_def.hpp"
+#include "System/zzzz__IObserver_1_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__IEditorPlayerConnection_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber.Dispose
 template<>
 
@@ -69,8 +69,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber::UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber UnityEngine::InputSystem::UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__RemoteInputPlayerConnection__Subscriber>::get(),
@@ -555,8 +557,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::RemoteInputPlayerConnection::RemoteInputPlayerConnection()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<RemoteInputPlayerConnection>())) {}
+ UnityEngine::InputSystem::RemoteInputPlayerConnection UnityEngine::InputSystem::RemoteInputPlayerConnection::New_ctor()  {
+UnityEngine::InputSystem::RemoteInputPlayerConnection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::RemoteInputPlayerConnection>())};
+return o;
+}
  void UnityEngine::InputSystem::RemoteInputPlayerConnection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::RemoteInputPlayerConnection>::get(),

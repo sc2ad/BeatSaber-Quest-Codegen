@@ -72,8 +72,7 @@ constexpr ::ArrayW<GlobalNamespace::TubeBloomPrePassLight> __get__tubeLights() c
 /// @brief Method Start addr 0x210ce5c size 0x70 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit SetTubeBloomPrePassLightColor() ;
+static GlobalNamespace::SetTubeBloomPrePassLightColor New_ctor() ;
 
 /// @brief Method .ctor addr 0x210cecc size 0x8 virtual false final false
  void _ctor() ;

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLobbyCenterScreenSystem::MultiplayerLobbyCenterScreenSystem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLobbyCenterScreenSystem>())) {}
+ GlobalNamespace::MultiplayerLobbyCenterScreenSystem GlobalNamespace::MultiplayerLobbyCenterScreenSystem::New_ctor()  {
+GlobalNamespace::MultiplayerLobbyCenterScreenSystem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLobbyCenterScreenSystem>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLobbyCenterScreenSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLobbyCenterScreenSystem>::get(),

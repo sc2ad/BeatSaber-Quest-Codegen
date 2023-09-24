@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -88,14 +88,12 @@ static Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod GetInstance(::bs_hoo
 /// @brief Method GetInstance addr 0xff7058 size 0x18 virtual false final false
 static Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit AttCertValidityPeriod(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xff6f48 size 0x110 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "notBeforeTime", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }, CppParam { name: "notAfterTime", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }]
-explicit AttCertValidityPeriod(Org::BouncyCastle::Asn1::DerGeneralizedTime notBeforeTime, Org::BouncyCastle::Asn1::DerGeneralizedTime notAfterTime) ;
+static Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod New_ctor(Org::BouncyCastle::Asn1::DerGeneralizedTime notBeforeTime, Org::BouncyCastle::Asn1::DerGeneralizedTime notAfterTime) ;
 
 /// @brief Method .ctor addr 0xff7070 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerGeneralizedTime notBeforeTime, Org::BouncyCastle::Asn1::DerGeneralizedTime notAfterTime) ;

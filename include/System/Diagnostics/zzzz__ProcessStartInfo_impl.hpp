@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Diagnostics/zzzz__ProcessStartInfo_def.hpp"
-#include "System/Diagnostics/zzzz__Process_def.hpp"
-#include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
-#include "System/Collections/Specialized/zzzz__StringDictionary_def.hpp"
 #include "System/zzzz__WeakReference_def.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
+#include "System/Security/zzzz__SecureString_def.hpp"
+#include "System/Diagnostics/zzzz__Process_def.hpp"
+#include "System/Collections/Specialized/zzzz__StringDictionary_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Diagnostics/zzzz__ProcessWindowStyle_def.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
-#include "System/Security/zzzz__SecureString_def.hpp"
 //  Writing Method size for method: System::Diagnostics::ProcessStartInfo._ctor
 template<>
 
@@ -498,8 +498,10 @@ constexpr void System::Diagnostics::ProcessStartInfo::__set__StandardInputEncodi
 constexpr System::Text::Encoding System::Diagnostics::ProcessStartInfo::__get__StandardInputEncoding_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Text::Encoding, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "System::Diagnostics::Process", modifiers: "", def_value: None }]
- System::Diagnostics::ProcessStartInfo::ProcessStartInfo(System::Diagnostics::Process parent)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProcessStartInfo>(parent))) {}
+ System::Diagnostics::ProcessStartInfo System::Diagnostics::ProcessStartInfo::New_ctor(System::Diagnostics::Process parent)  {
+System::Diagnostics::ProcessStartInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::ProcessStartInfo>(parent))};
+return o;
+}
  void System::Diagnostics::ProcessStartInfo::_ctor(System::Diagnostics::Process parent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::ProcessStartInfo>::get(),

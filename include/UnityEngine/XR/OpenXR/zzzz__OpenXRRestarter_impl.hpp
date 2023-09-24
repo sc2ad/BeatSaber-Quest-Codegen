@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRRestarter_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/XR/OpenXR/zzzz__OpenXRRestarter_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24._ctor
 template<>
 
@@ -161,8 +162,10 @@ constexpr void UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter
 constexpr UnityEngine::XR::OpenXR::OpenXRRestarter UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::XR::OpenXR::OpenXRRestarter, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24>(__1__state))) {}
+ UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24 UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24::New_ctor(int32_t __1__state)  {
+UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24>(__1__state))};
+return o;
+}
  void UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndShutdownAndRestartCoroutine_d__24>::get(),
@@ -381,8 +384,10 @@ constexpr void UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter
 constexpr UnityEngine::XR::OpenXR::OpenXRRestarter UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::XR::OpenXR::OpenXRRestarter, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25>(__1__state))) {}
+ UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25 UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25::New_ctor(int32_t __1__state)  {
+UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25>(__1__state))};
+return o;
+}
  void UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___PauseAndRetryInitializationCoroutine_d__25>::get(),
@@ -607,8 +612,10 @@ constexpr void UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter
 constexpr bool UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26::__get_shouldRestart() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26>(__1__state))) {}
+ UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26 UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26::New_ctor(int32_t __1__state)  {
+UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26>(__1__state))};
+return o;
+}
  void UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRRestarter___RestartCoroutine_d__26>::get(),
@@ -1081,8 +1088,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, shouldRestart, shouldShutdown);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::OpenXRRestarter::OpenXRRestarter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OpenXRRestarter>())) {}
+ UnityEngine::XR::OpenXR::OpenXRRestarter UnityEngine::XR::OpenXR::OpenXRRestarter::New_ctor()  {
+UnityEngine::XR::OpenXR::OpenXRRestarter o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::OpenXRRestarter>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::OpenXRRestarter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::OpenXRRestarter>::get(),

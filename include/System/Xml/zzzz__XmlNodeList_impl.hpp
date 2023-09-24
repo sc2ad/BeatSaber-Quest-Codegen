@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/zzzz__XmlNodeList_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::Xml::XmlNodeList.get_Count
 template<>
 
@@ -132,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::XmlNodeList::XmlNodeList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlNodeList>())) {}
+ System::Xml::XmlNodeList System::Xml::XmlNodeList::New_ctor()  {
+System::Xml::XmlNodeList o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlNodeList>())};
+return o;
+}
  void System::Xml::XmlNodeList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlNodeList>::get(),

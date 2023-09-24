@@ -2,14 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHValidationParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -128,38 +128,32 @@ constexpr Org::BouncyCastle::Crypto::Parameters::DHValidationParameters __get_va
 /// @brief Method GetDefaultMParam addr 0xea356c size 0x70 virtual false final false
 static int32_t GetDefaultMParam(int32_t lParam) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit DHParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g) ;
+static Org::BouncyCastle::Crypto::Parameters::DHParameters New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g) ;
 
 /// @brief Method .ctor addr 0xea35dc size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit DHParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q) ;
+static Org::BouncyCastle::Crypto::Parameters::DHParameters New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q) ;
 
 /// @brief Method .ctor addr 0xea36b4 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "l", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DHParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, int32_t l) ;
+static Org::BouncyCastle::Crypto::Parameters::DHParameters New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, int32_t l) ;
 
 /// @brief Method .ctor addr 0xea3650 size 0x64 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, int32_t l) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "l", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DHParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, int32_t m, int32_t l) ;
+static Org::BouncyCastle::Crypto::Parameters::DHParameters New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, int32_t m, int32_t l) ;
 
 /// @brief Method .ctor addr 0xea3abc size 0x20 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, int32_t m, int32_t l) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "j", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "validation", ty: "Org::BouncyCastle::Crypto::Parameters::DHValidationParameters", modifiers: "", def_value: None }]
-explicit DHParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger j, Org::BouncyCastle::Crypto::Parameters::DHValidationParameters validation) ;
+static Org::BouncyCastle::Crypto::Parameters::DHParameters New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger j, Org::BouncyCastle::Crypto::Parameters::DHValidationParameters validation) ;
 
 /// @brief Method .ctor addr 0xea3adc size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger j, Org::BouncyCastle::Crypto::Parameters::DHValidationParameters validation) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "l", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "j", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "validation", ty: "Org::BouncyCastle::Crypto::Parameters::DHValidationParameters", modifiers: "", def_value: None }]
-explicit DHParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, int32_t m, int32_t l, Org::BouncyCastle::Math::BigInteger j, Org::BouncyCastle::Crypto::Parameters::DHValidationParameters validation) ;
+static Org::BouncyCastle::Crypto::Parameters::DHParameters New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, int32_t m, int32_t l, Org::BouncyCastle::Math::BigInteger j, Org::BouncyCastle::Crypto::Parameters::DHValidationParameters validation) ;
 
 /// @brief Method .ctor addr 0xea372c size 0x390 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger q, int32_t m, int32_t l, Org::BouncyCastle::Math::BigInteger j, Org::BouncyCastle::Crypto::Parameters::DHValidationParameters validation) ;

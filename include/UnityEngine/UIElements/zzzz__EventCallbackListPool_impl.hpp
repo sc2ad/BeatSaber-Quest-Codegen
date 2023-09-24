@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, element);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::EventCallbackListPool::EventCallbackListPool()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventCallbackListPool>())) {}
+ UnityEngine::UIElements::EventCallbackListPool UnityEngine::UIElements::EventCallbackListPool::New_ctor()  {
+UnityEngine::UIElements::EventCallbackListPool o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::EventCallbackListPool>())};
+return o;
+}
  void UnityEngine::UIElements::EventCallbackListPool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::EventCallbackListPool>::get(),

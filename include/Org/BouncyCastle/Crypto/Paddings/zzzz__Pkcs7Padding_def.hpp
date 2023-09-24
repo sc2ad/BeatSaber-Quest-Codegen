@@ -76,8 +76,7 @@ constexpr explicit Pkcs7Padding(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 /// @brief Method PadCount addr 0xea2000 size 0xc0 virtual true final true
  int32_t PadCount(::ArrayW<uint8_t> input) ;
 
-// Ctor Parameters []
-explicit Pkcs7Padding() ;
+static Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding New_ctor() ;
 
 /// @brief Method .ctor addr 0xea1480 size 0x8 virtual false final false
  void _ctor() ;

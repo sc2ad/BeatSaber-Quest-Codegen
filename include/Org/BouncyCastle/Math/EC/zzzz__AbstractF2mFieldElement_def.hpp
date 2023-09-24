@@ -65,8 +65,7 @@ constexpr explicit AbstractF2mFieldElement(void* ptr) noexcept : Org::BouncyCast
 /// @brief Method Trace addr 0xf74a6c size 0x14c virtual true final false
  int32_t Trace() ;
 
-// Ctor Parameters []
-explicit AbstractF2mFieldElement() ;
+static Org::BouncyCastle::Math::EC::AbstractF2mFieldElement New_ctor() ;
 
 /// @brief Method .ctor addr 0xf74bb8 size 0x8 virtual false final false
  void _ctor() ;

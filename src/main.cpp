@@ -14,9 +14,11 @@
 
 
 extern "C" void setup() {
-  UnityEngine::GameObject go = UnityEngine::GameObject("SomeObject");
+  UnityEngine::GameObject go = UnityEngine::GameObject::New_ctor("SomeObject");
 
   go.transform.position = UnityEngine::Vector3(1, 0, 0);
 
-  go.transform.position
+  auto pos = go.transform.position;
+
+  pos = UnityEngine::Vector3(1,0,0);
 }

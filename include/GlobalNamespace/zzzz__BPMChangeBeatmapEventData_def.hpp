@@ -63,8 +63,7 @@ constexpr float_t __get_bpm() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None }]
-explicit BPMChangeBeatmapEventData(float_t time, float_t bpm) ;
+static GlobalNamespace::BPMChangeBeatmapEventData New_ctor(float_t time, float_t bpm) ;
 
 /// @brief Method .ctor addr 0xd91a2c size 0x44 virtual false final false
  void _ctor(float_t time, float_t bpm) ;

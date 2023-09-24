@@ -7,11 +7,17 @@
 namespace GlobalNamespace {
 class BTSStarTextEffectController;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BTSStarTextEffectController__Pool;
+}
 namespace UnityEngine {
 class Sprite;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5;
 }
 namespace GlobalNamespace {
 class BTSStarTextEventEffect;
@@ -19,15 +25,12 @@ class BTSStarTextEventEffect;
 namespace UnityEngine {
 class Transform;
 }
-namespace GlobalNamespace {
-class GlobalNamespace__BTSStarTextEffectController__Pool;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -121,8 +124,7 @@ constexpr GlobalNamespace::BTSStarTextEffectsManager __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20aadd0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -217,8 +219,7 @@ constexpr GlobalNamespace::GlobalNamespace__BTSStarTextEffectController__Pool __
 /// @brief Method DespawnEffectDelayed addr 0x20aad5c size 0x74 virtual false final false
  System::Collections::IEnumerator DespawnEffectDelayed(GlobalNamespace::BTSStarTextEffectController effectController) ;
 
-// Ctor Parameters []
-explicit BTSStarTextEffectsManager() ;
+static GlobalNamespace::BTSStarTextEffectsManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20aadf8 size 0x8 virtual false final false
  void _ctor() ;

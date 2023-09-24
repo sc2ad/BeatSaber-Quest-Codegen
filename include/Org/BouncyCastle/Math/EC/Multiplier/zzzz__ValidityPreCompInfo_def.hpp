@@ -99,8 +99,7 @@ constexpr bool __get_orderPassed() const;
 /// @brief Method ReportOrderPassed addr 0xfaa514 size 0xc virtual false final false
  void ReportOrderPassed() ;
 
-// Ctor Parameters []
-explicit ValidityPreCompInfo() ;
+static Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0xfaa580 size 0x10 virtual false final false
  void _ctor() ;

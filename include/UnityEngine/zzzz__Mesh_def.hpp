@@ -7,73 +7,79 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Rendering {
-struct SubMeshDescriptor;
-}
-namespace UnityEngine {
-struct BoneWeight;
-}
 namespace UnityEngine {
 class GraphicsBuffer;
-}
-namespace UnityEngine {
-struct CombineInstance;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct BoneWeight1;
-}
-namespace System {
-class Array;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-struct Color32;
-}
 namespace UnityEngine::Rendering {
 struct IndexFormat;
 }
 namespace UnityEngine {
+struct CombineInstance;
+}
+namespace UnityEngine {
 struct Bounds;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct MeshTopology;
-}
-namespace UnityEngine::Rendering {
-struct VertexAttributeFormat;
 }
 namespace UnityEngine::Rendering {
 struct MeshUpdateFlags;
 }
 namespace UnityEngine {
-struct UnityEngine__GraphicsBuffer__Target;
-}
-namespace UnityEngine::Rendering {
-struct VertexAttributeDescriptor;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector2;
+struct MeshTopology;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
+namespace UnityEngine {
+struct UnityEngine__Mesh__MeshDataArray;
+}
+namespace System {
+class Array;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::Rendering {
+struct VertexAttributeDescriptor;
+}
+namespace UnityEngine {
+struct UnityEngine__GraphicsBuffer__Target;
+}
+namespace UnityEngine {
+struct UnityEngine__Mesh__MeshData;
+}
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::Rendering {
 struct VertexAttribute;
+}
+namespace UnityEngine {
+struct BoneWeight;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::Rendering {
+struct VertexAttributeFormat;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct BoneWeight1;
+}
+namespace UnityEngine::Rendering {
+struct SubMeshDescriptor;
 }
 namespace System {
 class IDisposable;
@@ -356,8 +362,7 @@ constexpr explicit Mesh(void* ptr) noexcept : UnityEngine::Object(ptr) {
 /// @brief Method Internal_Create addr 0x2b2e598 size 0x3c virtual false final false
 static void Internal_Create(UnityEngine::Mesh mono) ;
 
-// Ctor Parameters []
-explicit Mesh() ;
+static UnityEngine::Mesh New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b2e5d4 size 0x80 virtual false final false
  void _ctor() ;

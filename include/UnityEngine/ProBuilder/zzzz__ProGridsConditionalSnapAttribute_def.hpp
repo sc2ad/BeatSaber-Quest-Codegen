@@ -47,8 +47,7 @@ constexpr explicit ProGridsConditionalSnapAttribute(void* ptr) noexcept : System
 
 // Methods
 
-// Ctor Parameters []
-explicit ProGridsConditionalSnapAttribute() ;
+static UnityEngine::ProBuilder::ProGridsConditionalSnapAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x29cc41c size 0x8 virtual false final false
  void _ctor() ;

@@ -87,8 +87,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector3Control __get__deviceAngula
 /// @brief Method FinishSetup addr 0x28a2c74 size 0xa4 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit ViveTracker() ;
+static Unity::XR::OpenVR::ViveTracker New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a2d18 size 0x8 virtual false final false
  void _ctor() ;

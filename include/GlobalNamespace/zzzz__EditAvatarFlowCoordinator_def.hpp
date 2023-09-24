@@ -3,30 +3,26 @@
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__EditAvatarViewController__FinishAction;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class AvatarVisualController;
-}
-namespace GlobalNamespace {
-class AvatarDataModel;
 }
 namespace GlobalNamespace {
 class EditColorController;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__EditAvatarViewController__AvatarEditPart;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType;
+}
+namespace GlobalNamespace {
+class AvatarVisualController;
+}
+namespace GlobalNamespace {
+class EditAvatarViewController;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -40,10 +36,17 @@ namespace GlobalNamespace {
 class AvatarTweenController;
 }
 namespace GlobalNamespace {
-class EditAvatarViewController;
+struct GlobalNamespace__EditAvatarViewController__FinishAction;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__EditAvatarViewController__AvatarEditPart;
+class AvatarDataModel;
+}
+namespace System {
+class Action;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,6 +104,8 @@ __Edit = 1,
 constexpr operator __GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -264,8 +269,7 @@ constexpr System::Action_1<GlobalNamespace::GlobalNamespace__EditAvatarFlowCoord
 /// @brief Method HandleEditColorViewControllerDidFinish addr 0x21327b4 size 0x68 virtual false final false
  void HandleEditColorViewControllerDidFinish(bool apply) ;
 
-// Ctor Parameters []
-explicit EditAvatarFlowCoordinator() ;
+static GlobalNamespace::EditAvatarFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x213281c size 0x8 virtual false final false
  void _ctor() ;

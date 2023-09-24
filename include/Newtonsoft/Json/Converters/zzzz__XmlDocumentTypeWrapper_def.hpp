@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
 namespace System::Xml {
 class XmlDocumentType;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlDocumentType;
@@ -85,8 +85,7 @@ constexpr System::Xml::XmlDocumentType __get__documentType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "documentType", ty: "System::Xml::XmlDocumentType", modifiers: "", def_value: None }]
-explicit XmlDocumentTypeWrapper(System::Xml::XmlDocumentType documentType) ;
+static Newtonsoft::Json::Converters::XmlDocumentTypeWrapper New_ctor(System::Xml::XmlDocumentType documentType) ;
 
 /// @brief Method .ctor addr 0x2541c24 size 0x2c virtual false final false
  void _ctor(System::Xml::XmlDocumentType documentType) ;

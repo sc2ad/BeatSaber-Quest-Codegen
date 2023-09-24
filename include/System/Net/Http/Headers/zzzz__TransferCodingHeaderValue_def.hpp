@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class ICloneable;
-}
 namespace System::Net::Http::Headers {
 struct Token;
+}
+namespace System {
+class ICloneable;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -17,12 +17,12 @@ class ICollection_1;
 namespace System::Net::Http::Headers {
 class Lexer;
 }
+namespace System::Net::Http::Headers {
+class NameValueHeaderValue;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Net::Http::Headers {
-class NameValueHeaderValue;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -95,14 +95,12 @@ constexpr System::Collections::Generic::List_1<System::Net::Http::Headers::NameV
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::TransferCodingHeaderValue", modifiers: "", def_value: None }]
-explicit TransferCodingHeaderValue(System::Net::Http::Headers::TransferCodingHeaderValue source) ;
+static System::Net::Http::Headers::TransferCodingHeaderValue New_ctor(System::Net::Http::Headers::TransferCodingHeaderValue source) ;
 
 /// @brief Method .ctor addr 0x26b03d4 size 0x230 virtual false final false
  void _ctor(System::Net::Http::Headers::TransferCodingHeaderValue source) ;
 
-// Ctor Parameters []
-explicit TransferCodingHeaderValue() ;
+static System::Net::Http::Headers::TransferCodingHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26b0684 size 0x8 virtual false final false
  void _ctor() ;

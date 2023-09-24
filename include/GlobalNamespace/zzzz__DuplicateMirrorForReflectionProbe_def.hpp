@@ -47,8 +47,7 @@ constexpr explicit DuplicateMirrorForReflectionProbe(void* ptr) noexcept : Unity
 
 // Methods
 
-// Ctor Parameters []
-explicit DuplicateMirrorForReflectionProbe() ;
+static GlobalNamespace::DuplicateMirrorForReflectionProbe New_ctor() ;
 
 /// @brief Method .ctor addr 0x219c42c size 0x8 virtual false final false
  void _ctor() ;

@@ -49,8 +49,7 @@ constexpr explicit AndroidJavaClass(void* ptr) noexcept : UnityEngine::AndroidJa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AndroidJavaClass(::StringW className) ;
+static UnityEngine::AndroidJavaClass New_ctor(::StringW className) ;
 
 /// @brief Method .ctor addr 0x2b0e410 size 0x2c virtual false final false
  void _ctor(::StringW className) ;
@@ -58,8 +57,7 @@ explicit AndroidJavaClass(::StringW className) ;
 /// @brief Method _AndroidJavaClass addr 0x2b11a64 size 0xc0 virtual false final false
  void _AndroidJavaClass(::StringW className) ;
 
-// Ctor Parameters [CppParam { name: "jclass", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit AndroidJavaClass(::cordl_internals::intptr_t jclass) ;
+static UnityEngine::AndroidJavaClass New_ctor(::cordl_internals::intptr_t jclass) ;
 
 /// @brief Method .ctor addr 0x2b11278 size 0xf4 virtual false final false
  void _ctor(::cordl_internals::intptr_t jclass) ;

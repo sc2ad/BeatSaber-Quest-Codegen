@@ -1,27 +1,27 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-namespace GlobalNamespace {
-class CustomTweenBehaviour;
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
 }
 namespace UnityEngine {
 template<typename T>
 struct ExposedReference_1;
 }
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace GlobalNamespace {
+class CustomTweenBehaviour;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
 }
 namespace UnityEngine {
 class GameObject;
@@ -101,8 +101,7 @@ constexpr GlobalNamespace::CustomTweenBehaviour __get_template() const;
 /// @brief Method CreatePlayable addr 0x21b303c size 0x1c4 virtual true final false
  UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
-// Ctor Parameters []
-explicit SinglePositionTween() ;
+static GlobalNamespace::SinglePositionTween New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b3200 size 0x8 virtual false final false
  void _ctor() ;

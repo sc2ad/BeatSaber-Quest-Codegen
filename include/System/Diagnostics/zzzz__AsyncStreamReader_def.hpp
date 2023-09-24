@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
-namespace System::Text {
-class Encoding;
-}
 namespace System::Text {
 class Decoder;
 }
 namespace System::Threading {
 class ManualResetEvent;
 }
+namespace System::IO {
+class Stream;
+}
 namespace System {
 class IAsyncResult;
+}
+namespace System::Text {
+class Encoding;
 }
 // Forward declare root types
 namespace System::Diagnostics {

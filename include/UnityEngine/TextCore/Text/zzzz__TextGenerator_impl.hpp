@@ -1,32 +1,33 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextGenerator_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextElementType_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextColorGradient_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__WordWrapState_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__XmlTagAttribute_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextElementInfo_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__Extents_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__WordWrapState_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontStyleStack_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextGenerator_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextElementType_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__RichTextTagAttribute_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextGenerationSettings_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__XmlTagAttribute_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextColorGradient_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__SpriteAsset_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MaterialReference_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextGenerationSettings_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__Extents_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__SpriteAsset_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextElementInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontStyleStack_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Character_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__TextGenerator__SpecialCharacter._ctor
 template<>
@@ -1370,8 +1371,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector2, false>(const_cast<void*>(instance), ___internal_method, defaultFontSize, marginSize, ignoreTextAutoSizing, generationSettings, textInfo);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::TextGenerator::TextGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TextGenerator>())) {}
+ UnityEngine::TextCore::Text::TextGenerator UnityEngine::TextCore::Text::TextGenerator::New_ctor()  {
+UnityEngine::TextCore::Text::TextGenerator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::TextGenerator>())};
+return o;
+}
  void UnityEngine::TextCore::Text::TextGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::TextGenerator>::get(),

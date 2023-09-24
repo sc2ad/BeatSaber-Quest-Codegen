@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundLightWithId_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundColor_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BloomPrePassBackgroundLightWithId.get_color
 template<>
 
@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newColor);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassBackgroundLightWithId::BloomPrePassBackgroundLightWithId()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassBackgroundLightWithId>())) {}
+ GlobalNamespace::BloomPrePassBackgroundLightWithId GlobalNamespace::BloomPrePassBackgroundLightWithId::New_ctor()  {
+GlobalNamespace::BloomPrePassBackgroundLightWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassBackgroundLightWithId>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassBackgroundLightWithId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassBackgroundLightWithId>::get(),

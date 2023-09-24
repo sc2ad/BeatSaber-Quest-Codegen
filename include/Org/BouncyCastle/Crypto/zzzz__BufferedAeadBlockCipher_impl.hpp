@@ -247,8 +247,10 @@ constexpr void Org::BouncyCastle::Crypto::BufferedAeadBlockCipher::__set_cipher(
 constexpr Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher Org::BouncyCastle::Crypto::BufferedAeadBlockCipher::__get_cipher() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::BufferedAeadBlockCipher::BufferedAeadBlockCipher(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher cipher)  : Org::BouncyCastle::Crypto::BufferedCipherBase(THROW_UNLESS(::il2cpp_utils::New<BufferedAeadBlockCipher>(cipher))) {}
+ Org::BouncyCastle::Crypto::BufferedAeadBlockCipher Org::BouncyCastle::Crypto::BufferedAeadBlockCipher::New_ctor(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::BufferedAeadBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::BufferedAeadBlockCipher>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::BufferedAeadBlockCipher::_ctor(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::BufferedAeadBlockCipher>::get(),

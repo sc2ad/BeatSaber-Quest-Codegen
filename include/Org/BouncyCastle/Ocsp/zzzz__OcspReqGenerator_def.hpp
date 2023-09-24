@@ -6,11 +6,26 @@
 namespace Org::BouncyCastle::Ocsp {
 class CertificateID;
 }
+namespace Org::BouncyCastle::Ocsp {
+class OcspReq;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Ocsp {
+class Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
@@ -20,18 +35,6 @@ class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
-}
-namespace Org::BouncyCastle::Ocsp {
-class OcspReq;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace System::Collections {
-class IList;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -103,8 +106,7 @@ constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_extensions() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certId", ty: "Org::BouncyCastle::Ocsp::CertificateID", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
+static Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__OcspReqGenerator__RequestObject New_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
 /// @brief Method .ctor addr 0x101480c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
@@ -216,8 +218,7 @@ constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_requestExtensions(
 /// @brief Method get_SignatureAlgNames addr 0x1015ac4 size 0x4c virtual false final false
  System::Collections::IEnumerable get_SignatureAlgNames() ;
 
-// Ctor Parameters []
-explicit OcspReqGenerator() ;
+static Org::BouncyCastle::Ocsp::OcspReqGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1015b10 size 0x68 virtual false final false
  void _ctor() ;

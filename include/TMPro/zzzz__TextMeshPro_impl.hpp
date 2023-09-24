@@ -1,26 +1,26 @@
 #pragma once
 #include "TMPro/zzzz__TMP_Text_impl.hpp"
 #include "TMPro/zzzz__TextMeshPro_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
-#include "TMPro/zzzz__TMP_SubMesh_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "TMPro/zzzz__TMP_TextInfo_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "TMPro/zzzz__MaskingTypes_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "TMPro/zzzz__TextContainer_def.hpp"
 #include "TMPro/zzzz__TMP_VertexDataUpdateFlags_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "TMPro/zzzz__MaskingTypes_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "TMPro/zzzz__TMP_TextInfo_def.hpp"
+#include "TMPro/zzzz__TMP_SubMesh_def.hpp"
 //  Writing Method size for method: TMPro::TextMeshPro.get_sortingLayerID
 template<>
 
@@ -2190,8 +2190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, scaleDelta);
 }
-// Ctor Parameters []
- TMPro::TextMeshPro::TextMeshPro()  : TMPro::TMP_Text(THROW_UNLESS(::il2cpp_utils::New<TextMeshPro>())) {}
+ TMPro::TextMeshPro TMPro::TextMeshPro::New_ctor()  {
+TMPro::TextMeshPro o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TextMeshPro>())};
+return o;
+}
  void TMPro::TextMeshPro::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TextMeshPro>::get(),

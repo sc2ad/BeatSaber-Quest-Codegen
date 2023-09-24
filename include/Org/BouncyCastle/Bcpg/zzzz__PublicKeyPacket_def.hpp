@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 namespace System {
 struct DateTime;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -108,14 +108,12 @@ constexpr Org::BouncyCastle::Bcpg::IBcpgKey __get_key() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PublicKeyPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::PublicKeyPacket New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1144640 size 0x298 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "key", ty: "Org::BouncyCastle::Bcpg::IBcpgKey", modifiers: "", def_value: None }]
-explicit PublicKeyPacket(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, System::DateTime time, Org::BouncyCastle::Bcpg::IBcpgKey key) ;
+static Org::BouncyCastle::Bcpg::PublicKeyPacket New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, System::DateTime time, Org::BouncyCastle::Bcpg::IBcpgKey key) ;
 
 /// @brief Method .ctor addr 0x11483e8 size 0xb4 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, System::DateTime time, Org::BouncyCastle::Bcpg::IBcpgKey key) ;

@@ -1,49 +1,48 @@
 #pragma once
-#include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/Threading/zzzz__ManualResetEventSlim_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskExceptionHolder_def.hpp"
-#include "System/Threading/zzzz__ManualResetEventSlim_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelListWithIList_1_def.hpp"
-#include "System/Threading/zzzz__Timer_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
+#include "System/Threading/zzzz__ManualResetEventSlim_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "System/Threading/zzzz__TimerCallback_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/zzzz__TimerCallback_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskStatus_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_DelayPromise_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/Tasks/zzzz__StackGuard_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/Threading/zzzz__ContextCallback_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_WhenAllPromise_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskFactory_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
+#include "System/zzzz__OperationCanceledException_def.hpp"
+#include "System/Threading/zzzz__ThreadAbortException_def.hpp"
+#include "System/zzzz__AggregateException_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskStatus_def.hpp"
-#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskFactory_def.hpp"
-#include "System/Threading/zzzz__ThreadAbortException_def.hpp"
-#include "System/Threading/Tasks/zzzz__StackGuard_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Threading/zzzz__ContextCallback_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__OperationCanceledException_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
-#include "System/zzzz__AggregateException_def.hpp"
-#include "System/Threading/zzzz__WaitHandle_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
-#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties.SetCompleted
 template<>
 
@@ -161,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties::System__Threading__Tasks__Task__ContingentProperties()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__Task__ContingentProperties>())) {}
+ System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties::New_ctor()  {
+System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties>())};
+return o;
+}
  void System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__ContingentProperties>::get(),
@@ -227,8 +228,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 constexpr  System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres::operator System::Threading::Tasks::ITaskCompletionAction() const noexcept {
 return System::Threading::Tasks::ITaskCompletionAction(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres::System__Threading__Tasks__Task__SetOnInvokeMres()  : System::Threading::ManualResetEventSlim(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__Task__SetOnInvokeMres>())) {}
+ System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres::New_ctor()  {
+System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres>())};
+return o;
+}
  void System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__SetOnInvokeMres>::get(),
@@ -255,78 +258,6 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::*)(System::Threading::CancellationToken)>(&System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::_ctor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x24bbb34;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise.Complete
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::*)()>(&System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::Complete)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x24bca70;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise>::get(),
-                            "Complete",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::__set_Token(System::Threading::CancellationToken value)  {
-::cordl_internals::setInstanceField<System::Threading::CancellationToken, 0x58>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Threading::CancellationToken>(value));
-}
-constexpr System::Threading::CancellationToken System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::__get_Token() const {
-return ::cordl_internals::getInstanceField<System::Threading::CancellationToken, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::__set_Registration(System::Threading::CancellationTokenRegistration value)  {
-::cordl_internals::setInstanceField<System::Threading::CancellationTokenRegistration, 0x60>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Threading::CancellationTokenRegistration>(value));
-}
-constexpr System::Threading::CancellationTokenRegistration System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::__get_Registration() const {
-return ::cordl_internals::getInstanceField<System::Threading::CancellationTokenRegistration, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::__set_Timer(System::Threading::Timer value)  {
-::cordl_internals::setInstanceField<System::Threading::Timer, 0x78>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Threading::Timer>(value));
-}
-constexpr System::Threading::Timer System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::__get_Timer() const {
-return ::cordl_internals::getInstanceField<System::Threading::Timer, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "token", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
- System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::System__Threading__Tasks__Task__DelayPromise(System::Threading::CancellationToken token)  : System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult>(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__Task__DelayPromise>(token))) {}
- void System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::_ctor(System::Threading::CancellationToken token)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, token);
-}
- void System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise::Complete()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__DelayPromise>::get(),
-                            "Complete",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
 //  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task____c._ctor
 template<>
@@ -448,8 +379,10 @@ return ::cordl_internals::getStaticField<System::Action_1<::bs_hook::Il2CppWrapp
  System::Threading::TimerCallback System::Threading::Tasks::System__Threading__Tasks__Task____c::__get___9__247_1()  {
 return ::cordl_internals::getStaticField<System::Threading::TimerCallback, "<>9__247_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task____c>::get>();
 }
-// Ctor Parameters []
- System::Threading::Tasks::System__Threading__Tasks__Task____c::System__Threading__Tasks__Task____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__Task____c>())) {}
+ System::Threading::Tasks::System__Threading__Tasks__Task____c System::Threading::Tasks::System__Threading__Tasks__Task____c::New_ctor()  {
+System::Threading::Tasks::System__Threading__Tasks__Task____c o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::System__Threading__Tasks__Task____c>())};
+return o;
+}
  void System::Threading::Tasks::System__Threading__Tasks__Task____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task____c>::get(),
@@ -2688,8 +2621,10 @@ return ::cordl_internals::getStaticField<System::Collections::Generic::Dictionar
  ::bs_hook::Il2CppWrapperType System::Threading::Tasks::Task::__get_s_activeTasksLock()  {
 return ::cordl_internals::getStaticField<::bs_hook::Il2CppWrapperType, "s_activeTasksLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::Task>::get>();
 }
-// Ctor Parameters [CppParam { name: "canceled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }, CppParam { name: "ct", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
- System::Threading::Tasks::Task::Task(bool canceled, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::CancellationToken ct)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Task>(canceled, creationOptions, ct))) {}
+ System::Threading::Tasks::Task System::Threading::Tasks::Task::New_ctor(bool canceled, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::CancellationToken ct)  {
+System::Threading::Tasks::Task o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::Task>(canceled, creationOptions, ct))};
+return o;
+}
  void System::Threading::Tasks::Task::_ctor(bool canceled, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::CancellationToken ct)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::Task>::get(),
@@ -2699,8 +2634,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, canceled, creationOptions, ct);
 }
-// Ctor Parameters []
- System::Threading::Tasks::Task::Task()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Task>())) {}
+ System::Threading::Tasks::Task System::Threading::Tasks::Task::New_ctor()  {
+System::Threading::Tasks::Task o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::Task>())};
+return o;
+}
  void System::Threading::Tasks::Task::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::Task>::get(),
@@ -2710,8 +2647,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }, CppParam { name: "promiseStyle", ty: "bool", modifiers: "", def_value: None }]
- System::Threading::Tasks::Task::Task(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, bool promiseStyle)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Task>(state, creationOptions, promiseStyle))) {}
+ System::Threading::Tasks::Task System::Threading::Tasks::Task::New_ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, bool promiseStyle)  {
+System::Threading::Tasks::Task o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::Task>(state, creationOptions, promiseStyle))};
+return o;
+}
  void System::Threading::Tasks::Task::_ctor(::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, bool promiseStyle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::Task>::get(),
@@ -2721,8 +2660,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state, creationOptions, promiseStyle);
 }
-// Ctor Parameters [CppParam { name: "action", ty: "System::Delegate", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }, CppParam { name: "internalOptions", ty: "System::Threading::Tasks::InternalTaskOptions", modifiers: "", def_value: None }, CppParam { name: "scheduler", ty: "System::Threading::Tasks::TaskScheduler", modifiers: "", def_value: None }]
- System::Threading::Tasks::Task::Task(System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::Task parent, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler scheduler)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Task>(action, state, parent, cancellationToken, creationOptions, internalOptions, scheduler))) {}
+ System::Threading::Tasks::Task System::Threading::Tasks::Task::New_ctor(System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::Task parent, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler scheduler)  {
+System::Threading::Tasks::Task o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::Task>(action, state, parent, cancellationToken, creationOptions, internalOptions, scheduler))};
+return o;
+}
  void System::Threading::Tasks::Task::_ctor(System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::Task parent, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::Tasks::TaskScheduler scheduler)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::Task>::get(),
@@ -3957,370 +3898,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<System::Threading::Tasks::Task>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, currentTaskSlot);
-}
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::*)(::ArrayW<System::Threading::Tasks::Task_1<T>>)>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<System::Threading::Tasks::Task_1<T>>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::*)(System::Threading::Tasks::Task)>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1.get_ShouldNotifyDebuggerOfWaitCompletion
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::*)()>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::get_ShouldNotifyDebuggerOfWaitCompletion)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1>::get(),
-                                  11
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1.get_InvokeMayRunArbitraryCode
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::*)()>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::get_InvokeMayRunArbitraryCode)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1>::get(),
-                            "get_InvokeMayRunArbitraryCode",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::Threading::Tasks::ITaskCompletionAction
-constexpr  System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::operator System::Threading::Tasks::ITaskCompletionAction() const noexcept {
-return System::Threading::Tasks::ITaskCompletionAction(::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::__set_m_tasks(::ArrayW<System::Threading::Tasks::Task_1<T>> value)  {
-::cordl_internals::setInstanceField<::ArrayW<System::Threading::Tasks::Task_1<T>>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<System::Threading::Tasks::Task_1<T>>>(value));
-}
-constexpr ::ArrayW<System::Threading::Tasks::Task_1<T>> System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::__get_m_tasks() const {
-return ::cordl_internals::getInstanceField<::ArrayW<System::Threading::Tasks::Task_1<T>>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::__set_m_count(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x60>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::__get_m_count() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "tasks", ty: "::ArrayW<System::Threading::Tasks::Task_1<T>>", modifiers: "", def_value: None }]
- System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::System__Threading__Tasks__Task__WhenAllPromise_1(::ArrayW<System::Threading::Tasks::Task_1<T>> tasks)  : System::Threading::Tasks::Task_1<::ArrayW<T>>(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__Task__WhenAllPromise_1>(tasks))) {}
- void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::_ctor(::ArrayW<System::Threading::Tasks::Task_1<T>> tasks)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<System::Threading::Tasks::Task_1<T>>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tasks);
-}
- void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::Invoke(System::Threading::Tasks::Task ignored)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ignored);
-}
- bool System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::get_ShouldNotifyDebuggerOfWaitCompletion()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1>::get(),
-                            "get_ShouldNotifyDebuggerOfWaitCompletion",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1::get_InvokeMayRunArbitraryCode()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1>::get(),
-                            "get_InvokeMayRunArbitraryCode",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::*)(::ArrayW<System::Threading::Tasks::Task_1<bool>>)>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<System::Threading::Tasks::Task_1<bool>>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::*)(System::Threading::Tasks::Task)>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>.get_ShouldNotifyDebuggerOfWaitCompletion
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::*)()>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::get_ShouldNotifyDebuggerOfWaitCompletion)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1>::get(),
-                                  11
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>.get_InvokeMayRunArbitraryCode
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::*)()>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::get_InvokeMayRunArbitraryCode)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>>::get(),
-                            "get_InvokeMayRunArbitraryCode",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::Threading::Tasks::ITaskCompletionAction
-constexpr  System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::operator System::Threading::Tasks::ITaskCompletionAction() const noexcept {
-return System::Threading::Tasks::ITaskCompletionAction(::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::__set_m_tasks(::ArrayW<System::Threading::Tasks::Task_1<bool>> value)  {
-::cordl_internals::setInstanceField<::ArrayW<System::Threading::Tasks::Task_1<bool>>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<System::Threading::Tasks::Task_1<bool>>>(value));
-}
-constexpr ::ArrayW<System::Threading::Tasks::Task_1<bool>> System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::__get_m_tasks() const {
-return ::cordl_internals::getInstanceField<::ArrayW<System::Threading::Tasks::Task_1<bool>>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::__set_m_count(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x60>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::__get_m_count() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "tasks", ty: "::ArrayW<System::Threading::Tasks::Task_1<bool>>", modifiers: "", def_value: None }]
- System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::System__Threading__Tasks__Task__WhenAllPromise_1(::ArrayW<System::Threading::Tasks::Task_1<bool>> tasks)  : System::Threading::Tasks::Task_1<::ArrayW<bool>>(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__Task__WhenAllPromise_1>(tasks))) {}
- void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::_ctor(::ArrayW<System::Threading::Tasks::Task_1<bool>> tasks)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<System::Threading::Tasks::Task_1<bool>>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tasks);
-}
- void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::Invoke(System::Threading::Tasks::Task ignored)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ignored);
-}
- bool System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::get_ShouldNotifyDebuggerOfWaitCompletion()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>>::get(),
-                            "get_ShouldNotifyDebuggerOfWaitCompletion",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>::get_InvokeMayRunArbitraryCode()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<bool>>::get(),
-                            "get_InvokeMayRunArbitraryCode",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::*)(::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>)>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::*)(System::Threading::Tasks::Task)>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>.get_ShouldNotifyDebuggerOfWaitCompletion
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::*)()>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::get_ShouldNotifyDebuggerOfWaitCompletion)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1>::get(),
-                                  11
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>.get_InvokeMayRunArbitraryCode
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::*)()>(&System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::get_InvokeMayRunArbitraryCode)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>::get(),
-                            "get_InvokeMayRunArbitraryCode",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::Threading::Tasks::ITaskCompletionAction
-constexpr  System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::operator System::Threading::Tasks::ITaskCompletionAction() const noexcept {
-return System::Threading::Tasks::ITaskCompletionAction(::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::__set_m_tasks(::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>> value)  {
-::cordl_internals::setInstanceField<::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>>(value));
-}
-constexpr ::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>> System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::__get_m_tasks() const {
-return ::cordl_internals::getInstanceField<::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::__set_m_count(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x60>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::__get_m_count() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "tasks", ty: "::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>", modifiers: "", def_value: None }]
- System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::System__Threading__Tasks__Task__WhenAllPromise_1(::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>> tasks)  : System::Threading::Tasks::Task_1<::ArrayW<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__Task__WhenAllPromise_1>(tasks))) {}
- void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::_ctor(::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>> tasks)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<System::Threading::Tasks::Task_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tasks);
-}
- void System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::Invoke(System::Threading::Tasks::Task ignored)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>::get(),
-                            "Invoke",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ignored);
-}
- bool System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::get_ShouldNotifyDebuggerOfWaitCompletion()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>::get(),
-                            "get_ShouldNotifyDebuggerOfWaitCompletion",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>::get_InvokeMayRunArbitraryCode()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__Task__WhenAllPromise_1<System::ValueTuple_2<::bs_hook::Il2CppWrapperType,int64_t>>>::get(),
-                            "get_InvokeMayRunArbitraryCode",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }

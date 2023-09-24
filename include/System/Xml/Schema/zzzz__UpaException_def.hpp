@@ -63,8 +63,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_particle2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "particle1", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "particle2", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit UpaException(::bs_hook::Il2CppWrapperType particle1, ::bs_hook::Il2CppWrapperType particle2) ;
+static System::Xml::Schema::UpaException New_ctor(::bs_hook::Il2CppWrapperType particle1, ::bs_hook::Il2CppWrapperType particle2) ;
 
 /// @brief Method .ctor addr 0x2719144 size 0x70 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType particle1, ::bs_hook::Il2CppWrapperType particle2) ;

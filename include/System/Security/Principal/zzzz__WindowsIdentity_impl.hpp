@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Security/Claims/zzzz__ClaimsIdentity_impl.hpp"
 #include "System/Security/Principal/zzzz__WindowsIdentity_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Security/Principal/zzzz__WindowsAccountType_def.hpp"
+#include "System/Security/Principal/zzzz__IIdentity_def.hpp"
 #include "System/Security/Principal/zzzz__WindowsImpersonationContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Security/Principal/zzzz__WindowsAccountType_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Security/Principal/zzzz__IIdentity_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 //  Writing Method size for method: System::Security::Principal::WindowsIdentity._ctor
 template<>
 
@@ -323,8 +323,10 @@ return ::cordl_internals::getInstanceField<System::Runtime::Serialization::Seria
  ::cordl_internals::intptr_t System::Security::Principal::WindowsIdentity::__get_invalidWindows()  {
 return ::cordl_internals::getStaticField<::cordl_internals::intptr_t, "invalidWindows", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::WindowsIdentity>::get>();
 }
-// Ctor Parameters [CppParam { name: "userToken", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "acctType", ty: "System::Security::Principal::WindowsAccountType", modifiers: "", def_value: None }, CppParam { name: "isAuthenticated", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Principal::WindowsIdentity::WindowsIdentity(::cordl_internals::intptr_t userToken, ::StringW type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated)  : System::Security::Claims::ClaimsIdentity(THROW_UNLESS(::il2cpp_utils::New<WindowsIdentity>(userToken, type, acctType, isAuthenticated))) {}
+ System::Security::Principal::WindowsIdentity System::Security::Principal::WindowsIdentity::New_ctor(::cordl_internals::intptr_t userToken, ::StringW type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated)  {
+System::Security::Principal::WindowsIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::WindowsIdentity>(userToken, type, acctType, isAuthenticated))};
+return o;
+}
  void System::Security::Principal::WindowsIdentity::_ctor(::cordl_internals::intptr_t userToken, ::StringW type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::WindowsIdentity>::get(),
@@ -334,8 +336,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, userToken, type, acctType, isAuthenticated);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Security::Principal::WindowsIdentity::WindowsIdentity(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Security::Claims::ClaimsIdentity(THROW_UNLESS(::il2cpp_utils::New<WindowsIdentity>(info, context))) {}
+ System::Security::Principal::WindowsIdentity System::Security::Principal::WindowsIdentity::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Security::Principal::WindowsIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::WindowsIdentity>(info, context))};
+return o;
+}
  void System::Security::Principal::WindowsIdentity::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::WindowsIdentity>::get(),
@@ -345,8 +349,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters [CppParam { name: "claimsIdentity", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }, CppParam { name: "userToken", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Security::Principal::WindowsIdentity::WindowsIdentity(System::Security::Claims::ClaimsIdentity claimsIdentity, ::cordl_internals::intptr_t userToken)  : System::Security::Claims::ClaimsIdentity(THROW_UNLESS(::il2cpp_utils::New<WindowsIdentity>(claimsIdentity, userToken))) {}
+ System::Security::Principal::WindowsIdentity System::Security::Principal::WindowsIdentity::New_ctor(System::Security::Claims::ClaimsIdentity claimsIdentity, ::cordl_internals::intptr_t userToken)  {
+System::Security::Principal::WindowsIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::WindowsIdentity>(claimsIdentity, userToken))};
+return o;
+}
  void System::Security::Principal::WindowsIdentity::_ctor(System::Security::Claims::ClaimsIdentity claimsIdentity, ::cordl_internals::intptr_t userToken)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::WindowsIdentity>::get(),

@@ -163,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Encoders::HexEncoder::HexEncoder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HexEncoder>())) {}
+ Org::BouncyCastle::Utilities::Encoders::HexEncoder Org::BouncyCastle::Utilities::Encoders::HexEncoder::New_ctor()  {
+Org::BouncyCastle::Utilities::Encoders::HexEncoder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Encoders::HexEncoder>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Encoders::HexEncoder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Encoders::HexEncoder>::get(),

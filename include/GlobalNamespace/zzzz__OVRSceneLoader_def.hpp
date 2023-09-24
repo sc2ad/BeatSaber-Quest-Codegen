@@ -6,31 +6,40 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace UnityEngine {
-class AssetBundle;
+namespace UnityEngine::UI {
+class Text;
 }
 namespace UnityEngine {
 class AsyncOperation;
 }
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine::UI {
-class Text;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+class AssetBundle;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSceneLoader__SceneInfo;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24;
+}
+namespace UnityEngine {
+class Canvas;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -189,8 +198,7 @@ constexpr GlobalNamespace::OVRSceneLoader __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2604808 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -293,8 +301,7 @@ constexpr GlobalNamespace::OVRSceneLoader __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2604830 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -486,8 +493,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRSceneLoader__SceneInfo __get_curr
 /// @brief Method DestroyAllGameObjects addr 0x2604858 size 0x110 virtual false final false
  void DestroyAllGameObjects() ;
 
-// Ctor Parameters []
-explicit OVRSceneLoader() ;
+static GlobalNamespace::OVRSceneLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x2604968 size 0xac virtual false final false
  void _ctor() ;

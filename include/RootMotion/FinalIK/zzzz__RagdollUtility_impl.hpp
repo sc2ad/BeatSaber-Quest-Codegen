@@ -1,18 +1,19 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__RagdollUtility_def.hpp"
+#include "RootMotion/FinalIK/zzzz__RagdollUtility_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
 #include "UnityEngine/zzzz__AnimatorUpdateMode_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
 #include "UnityEngine/zzzz__Joint_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone._ctor
 template<>
 
@@ -130,8 +131,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbo
 constexpr UnityEngine::Quaternion RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone::__get_lastRotation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Quaternion, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "r", ty: "UnityEngine::Rigidbody", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone::RootMotion__FinalIK__RagdollUtility__Rigidbone(UnityEngine::Rigidbody r)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__RagdollUtility__Rigidbone>(r))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone::New_ctor(UnityEngine::Rigidbody r)  {
+RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone>(r))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone::_ctor(UnityEngine::Rigidbody r)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Rigidbone>::get(),
@@ -228,8 +231,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child::
 constexpr UnityEngine::Quaternion RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child::__get_localRotation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Quaternion, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child::RootMotion__FinalIK__RagdollUtility__Child(UnityEngine::Transform transform)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__RagdollUtility__Child>(transform))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child::New_ctor(UnityEngine::Transform transform)  {
+RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child>(transform))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child::_ctor(UnityEngine::Transform transform)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility__Child>::get(),
@@ -389,8 +394,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___Disabl
 constexpr RootMotion::FinalIK::RagdollUtility RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21::__get___4__this() const {
 return ::cordl_internals::getInstanceField<RootMotion::FinalIK::RagdollUtility, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21>(__1__state))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21 RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21::New_ctor(int32_t __1__state)  {
+RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21 o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21>(__1__state))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__RagdollUtility___DisableRagdollSmooth_d__21>::get(),
@@ -1000,8 +1007,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RagdollUtility::RagdollUtility()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RagdollUtility>())) {}
+ RootMotion::FinalIK::RagdollUtility RootMotion::FinalIK::RagdollUtility::New_ctor()  {
+RootMotion::FinalIK::RagdollUtility o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RagdollUtility>())};
+return o;
+}
  void RootMotion::FinalIK::RagdollUtility::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RagdollUtility>::get(),

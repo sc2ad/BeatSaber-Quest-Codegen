@@ -1,7 +1,7 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__Test_Material_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::Test_Material._ctor
 template<>
@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::Test_Material::__set_self(UnityEngine::Materi
 constexpr UnityEngine::Material HoudiniEngineUnity::Test_Material::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Material, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Material", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_Material::Test_Material(UnityEngine::Material self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_Material>(self))) {}
+ HoudiniEngineUnity::Test_Material HoudiniEngineUnity::Test_Material::New_ctor(UnityEngine::Material self)  {
+HoudiniEngineUnity::Test_Material o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_Material>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_Material::_ctor(UnityEngine::Material self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_Material>::get(),

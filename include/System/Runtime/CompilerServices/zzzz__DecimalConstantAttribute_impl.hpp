@@ -42,8 +42,10 @@ constexpr void System::Runtime::CompilerServices::DecimalConstantAttribute::__se
 constexpr System::Decimal System::Runtime::CompilerServices::DecimalConstantAttribute::__get__dec() const {
 return ::cordl_internals::getInstanceField<System::Decimal, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "scale", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sign", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "hi", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "mid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "low", ty: "uint32_t", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::DecimalConstantAttribute::DecimalConstantAttribute(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DecimalConstantAttribute>(scale, sign, hi, mid, low))) {}
+ System::Runtime::CompilerServices::DecimalConstantAttribute System::Runtime::CompilerServices::DecimalConstantAttribute::New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low)  {
+System::Runtime::CompilerServices::DecimalConstantAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::DecimalConstantAttribute>(scale, sign, hi, mid, low))};
+return o;
+}
  void System::Runtime::CompilerServices::DecimalConstantAttribute::_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::DecimalConstantAttribute>::get(),

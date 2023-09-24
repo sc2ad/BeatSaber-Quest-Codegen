@@ -110,8 +110,10 @@ constexpr void System::ComponentModel::ReadOnlyAttribute::__set__IsReadOnly_k__B
 constexpr bool System::ComponentModel::ReadOnlyAttribute::__get__IsReadOnly_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "isReadOnly", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::ReadOnlyAttribute::ReadOnlyAttribute(bool isReadOnly)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ReadOnlyAttribute>(isReadOnly))) {}
+ System::ComponentModel::ReadOnlyAttribute System::ComponentModel::ReadOnlyAttribute::New_ctor(bool isReadOnly)  {
+System::ComponentModel::ReadOnlyAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ReadOnlyAttribute>(isReadOnly))};
+return o;
+}
  void System::ComponentModel::ReadOnlyAttribute::_ctor(bool isReadOnly)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ReadOnlyAttribute>::get(),

@@ -4,14 +4,14 @@
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
-namespace System {
-class Exception;
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainImpl;
 }
 namespace Mono::Security::X509 {
 class X509Certificate;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainImpl;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

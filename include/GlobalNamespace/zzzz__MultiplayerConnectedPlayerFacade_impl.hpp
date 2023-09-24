@@ -2,15 +2,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_3_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerFacade_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSongTimeSyncController_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerIntroAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreDiffText_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarPoseController_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerFacade_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSongTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerIntroAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayerBeatmapObjectEventManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBigAvatarAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarPoseController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerConnectedPlayerFacade.get_introAnimator
 template<>
 
@@ -316,8 +317,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::AvatarPoseController, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerConnectedPlayerFacade::MultiplayerConnectedPlayerFacade()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConnectedPlayerFacade>())) {}
+ GlobalNamespace::MultiplayerConnectedPlayerFacade GlobalNamespace::MultiplayerConnectedPlayerFacade::New_ctor()  {
+GlobalNamespace::MultiplayerConnectedPlayerFacade o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConnectedPlayerFacade>())};
+return o;
+}
  void GlobalNamespace::MultiplayerConnectedPlayerFacade::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConnectedPlayerFacade>::get(),
@@ -344,8 +347,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory::GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory()  : Zenject::PlaceholderFactory_3<GlobalNamespace::IConnectedPlayer,GlobalNamespace::MultiplayerPlayerStartState,GlobalNamespace::MultiplayerConnectedPlayerFacade>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory>::get(),

@@ -73,8 +73,7 @@ constexpr int32_t __get_strength() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, int32_t strength) ;
+static Org::BouncyCastle::Crypto::KeyGenerationParameters New_ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength) ;
 
 /// @brief Method .ctor addr 0xea30f8 size 0xd4 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom random, int32_t strength) ;

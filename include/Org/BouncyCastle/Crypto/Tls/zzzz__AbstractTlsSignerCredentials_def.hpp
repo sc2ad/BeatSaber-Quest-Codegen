@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class SignatureAndHashAlgorithm;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSignerCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class SignatureAndHashAlgorithm;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -75,8 +75,7 @@ constexpr explicit AbstractTlsSignerCredentials(void* ptr) noexcept : Org::Bounc
 /// @brief Method get_SignatureAndHashAlgorithm addr 0xecd870 size 0x50 virtual true final false
  Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm get_SignatureAndHashAlgorithm() ;
 
-// Ctor Parameters []
-explicit AbstractTlsSignerCredentials() ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials New_ctor() ;
 
 /// @brief Method .ctor addr 0xecd8c0 size 0x8 virtual false final false
  void _ctor() ;

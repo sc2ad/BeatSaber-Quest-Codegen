@@ -283,8 +283,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, highSurrogate, lowSurrogate);
 }
-// Ctor Parameters []
- TMPro::TMP_TextParsingUtilities::TMP_TextParsingUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_TextParsingUtilities>())) {}
+ TMPro::TMP_TextParsingUtilities TMPro::TMP_TextParsingUtilities::New_ctor()  {
+TMPro::TMP_TextParsingUtilities o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_TextParsingUtilities>())};
+return o;
+}
  void TMPro::TMP_TextParsingUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_TextParsingUtilities>::get(),

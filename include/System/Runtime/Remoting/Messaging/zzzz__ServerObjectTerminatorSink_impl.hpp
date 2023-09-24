@@ -64,8 +64,10 @@ constexpr void System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink:
 constexpr System::Runtime::Remoting::Messaging::IMessageSink System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink::__get__nextSink() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Messaging::IMessageSink, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "nextSink", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink::ServerObjectTerminatorSink(System::Runtime::Remoting::Messaging::IMessageSink nextSink)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServerObjectTerminatorSink>(nextSink))) {}
+ System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink::New_ctor(System::Runtime::Remoting::Messaging::IMessageSink nextSink)  {
+System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink>(nextSink))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink::_ctor(System::Runtime::Remoting::Messaging::IMessageSink nextSink)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink>::get(),

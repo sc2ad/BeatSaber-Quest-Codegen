@@ -3,23 +3,23 @@
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::ProBuilder::Shapes {
-struct StepGenerationType;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine::ProBuilder::Shapes {
+struct StepGenerationType;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -138,8 +138,7 @@ constexpr float_t __get_m_InnerRadius() const;
 /// @brief Method BuildCurvedStairs addr 0x29f9948 size 0x1174 virtual false final false
  UnityEngine::Bounds BuildCurvedStairs(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit Stairs() ;
+static UnityEngine::ProBuilder::Shapes::Stairs New_ctor() ;
 
 /// @brief Method .ctor addr 0x29fbb48 size 0x2c virtual false final false
  void _ctor() ;

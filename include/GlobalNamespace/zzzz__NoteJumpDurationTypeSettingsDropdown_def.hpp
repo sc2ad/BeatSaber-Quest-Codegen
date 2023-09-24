@@ -3,13 +3,13 @@
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-template<typename T1,typename T2>
-class Tuple_2;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
+}
+namespace System {
+template<typename T1,typename T2>
+class Tuple_2;
 }
 namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
@@ -21,7 +21,7 @@ class NoteJumpDurationTypeSettingsDropdown;
 // Type: ::NoteJumpDurationTypeSettingsDropdown
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5694)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5694), inst: 4608 }), TypeDefinitionIndex(TypeDefinitionIndex(4732))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4732)), TypeDefinitionIndex(TypeDefinitionIndex(5694)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5694), inst: 4608 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5697))
 // CS Name: NoteJumpDurationTypeSettingsDropdown
 class CORDL_TYPE NoteJumpDurationTypeSettingsDropdown : public GlobalNamespace::ValueDropdownController_1<GlobalNamespace::NoteJumpDurationTypeSettings> {
@@ -63,8 +63,7 @@ constexpr explicit NoteJumpDurationTypeSettingsDropdown(void* ptr) noexcept : Gl
 /// @brief Method GetNamedValues addr 0x2154054 size 0xf4 virtual true final false
  System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::NoteJumpDurationTypeSettings,::StringW>> GetNamedValues() ;
 
-// Ctor Parameters []
-explicit NoteJumpDurationTypeSettingsDropdown() ;
+static GlobalNamespace::NoteJumpDurationTypeSettingsDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x2154148 size 0x48 virtual false final false
  void _ctor() ;

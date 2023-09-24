@@ -2,28 +2,28 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace UnityEngine::Playables {
-struct DirectorWrapMode;
-}
-namespace UnityEngine::Playables {
-template<typename T>
-struct ScriptPlayable_1;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
 namespace UnityEngine::Timeline {
 class TimeNotificationBehaviour;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::Timeline {
-class IMarker;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace UnityEngine::Playables {
+struct DirectorWrapMode;
+}
+namespace UnityEngine::Timeline {
+class IMarker;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+template<typename T>
+struct ScriptPlayable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

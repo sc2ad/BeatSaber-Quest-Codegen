@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_impl.hpp"
 #include "GlobalNamespace/zzzz__PositionRectTransformViewStateTransition_def.hpp"
-#include "Tweening/zzzz__Vector3Tween_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3TransitionSO_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__Vector3TransitionSO_def.hpp"
+#include "Tweening/zzzz__Vector3Tween_def.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PositionRectTransformViewStateTransition.get_transition
 template<>
@@ -432,8 +432,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, endPosition);
 }
-// Ctor Parameters []
- GlobalNamespace::PositionRectTransformViewStateTransition::PositionRectTransformViewStateTransition()  : GlobalNamespace::BaseStateTransition_1<UnityEngine::RectTransform>(THROW_UNLESS(::il2cpp_utils::New<PositionRectTransformViewStateTransition>())) {}
+ GlobalNamespace::PositionRectTransformViewStateTransition GlobalNamespace::PositionRectTransformViewStateTransition::New_ctor()  {
+GlobalNamespace::PositionRectTransformViewStateTransition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PositionRectTransformViewStateTransition>())};
+return o;
+}
  void GlobalNamespace::PositionRectTransformViewStateTransition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PositionRectTransformViewStateTransition>::get(),

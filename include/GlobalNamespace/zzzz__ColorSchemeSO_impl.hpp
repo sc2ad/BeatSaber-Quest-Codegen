@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorSchemeSO::ColorSchemeSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<ColorSchemeSO>())) {}
+ GlobalNamespace::ColorSchemeSO GlobalNamespace::ColorSchemeSO::New_ctor()  {
+GlobalNamespace::ColorSchemeSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorSchemeSO>())};
+return o;
+}
  void GlobalNamespace::ColorSchemeSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorSchemeSO>::get(),

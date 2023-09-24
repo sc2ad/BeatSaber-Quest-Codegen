@@ -1,26 +1,26 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Mono::Security::Interface {
-struct AlertDescription;
-}
 namespace System::Net::Security {
 struct SslPolicyErrors;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
 }
-namespace Mono::Unity {
-struct Mono__Unity__UnityTls__unitytls_x509verify_result;
+namespace Mono::Security::Interface {
+struct AlertDescription;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
 }
-namespace Mono::Security::Interface {
-struct TlsProtocols;
-}
 namespace Mono::Unity {
 struct Mono__Unity__UnityTls__unitytls_protocol;
+}
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_x509verify_result;
+}
+namespace Mono::Security::Interface {
+struct TlsProtocols;
 }
 // Forward declare root types
 namespace Mono::Unity {

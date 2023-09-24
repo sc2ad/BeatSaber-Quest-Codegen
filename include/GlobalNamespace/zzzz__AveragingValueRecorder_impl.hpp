@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__AveragingValueRecorder__AverageValueData.get_value
 template<>
@@ -293,8 +294,10 @@ constexpr void GlobalNamespace::AveragingValueRecorder::__set__lastValue(float_t
 constexpr float_t GlobalNamespace::AveragingValueRecorder::__get__lastValue() const {
 return ::cordl_internals::getInstanceField<float_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "averageWindowDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "historyWindowDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "historyValuesPerSecond", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::AveragingValueRecorder::AveragingValueRecorder(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AveragingValueRecorder>(averageWindowDuration, historyWindowDuration, historyValuesPerSecond))) {}
+ GlobalNamespace::AveragingValueRecorder GlobalNamespace::AveragingValueRecorder::New_ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond)  {
+GlobalNamespace::AveragingValueRecorder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AveragingValueRecorder>(averageWindowDuration, historyWindowDuration, historyValuesPerSecond))};
+return o;
+}
  void GlobalNamespace::AveragingValueRecorder::_ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AveragingValueRecorder>::get(),

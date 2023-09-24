@@ -5,82 +5,85 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Newtonsoft::Json::Linq {
+class Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace System::ComponentModel {
+class AddingNewEventArgs;
+}
+namespace System::ComponentModel {
+class ListChangedEventArgs;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Newtonsoft::Json::Linq {
+class JsonLoadSettings;
+}
 namespace System::ComponentModel {
 class PropertyDescriptor;
 }
-namespace System::ComponentModel {
-class AddingNewEventHandler;
+namespace Newtonsoft::Json::Linq {
+class JsonMergeSettings;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace Newtonsoft::Json::Linq {
+template<typename T>
+struct JEnumerable_1;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace System::ComponentModel {
 class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
-class ListChangedEventArgs;
-}
-namespace System::ComponentModel {
-class AddingNewEventArgs;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System::ComponentModel {
 class ListChangedEventHandler;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
+namespace System::ComponentModel {
+class AddingNewEventHandler;
+}
+namespace System::ComponentModel {
+struct ListSortDirection;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
 }
 namespace System::ComponentModel {
-class IBindingList;
-}
-namespace Newtonsoft::Json::Linq {
-template<typename T>
-struct JEnumerable_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace System::ComponentModel {
 class ITypedList;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace System {
-class Array;
-}
 namespace System::ComponentModel {
-struct ListSortDirection;
+class IBindingList;
 }
-namespace Newtonsoft::Json::Linq {
-class JsonMergeSettings;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace Newtonsoft::Json::Linq {
-class JsonLoadSettings;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -213,8 +216,7 @@ constexpr System::Collections::Generic::IEnumerator_1<Newtonsoft::Json::Linq::JT
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JContainer___GetDescendants_d__29 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x251c984 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -405,14 +407,12 @@ constexpr bool __get__busy() const;
 /// @brief Method get_ChildrenTokens addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Collections::Generic::IList_1<Newtonsoft::Json::Linq::JToken> get_ChildrenTokens() ;
 
-// Ctor Parameters []
-explicit JContainer() ;
+static Newtonsoft::Json::Linq::JContainer New_ctor() ;
 
 /// @brief Method .ctor addr 0x251a6e8 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JContainer", modifiers: "", def_value: None }]
-explicit JContainer(Newtonsoft::Json::Linq::JContainer other) ;
+static Newtonsoft::Json::Linq::JContainer New_ctor(Newtonsoft::Json::Linq::JContainer other) ;
 
 /// @brief Method .ctor addr 0x251a7d8 size 0x318 virtual false final false
  void _ctor(Newtonsoft::Json::Linq::JContainer other) ;

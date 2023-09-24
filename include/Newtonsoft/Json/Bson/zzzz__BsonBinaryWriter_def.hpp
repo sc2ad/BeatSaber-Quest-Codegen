@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Newtonsoft::Json::Bson {
-class BsonToken;
-}
 namespace System::Text {
 class Encoding;
 }
 namespace System::IO {
 class BinaryWriter;
+}
+namespace Newtonsoft::Json::Bson {
+class BsonToken;
 }
 namespace System {
 template<typename T>
@@ -104,8 +104,7 @@ constexpr System::DateTimeKind __get__DateTimeKindHandling_k__BackingField() con
 /// @brief Method set_DateTimeKindHandling addr 0x254c970 size 0x8 virtual false final false
  void set_DateTimeKindHandling(System::DateTimeKind value) ;
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::BinaryWriter", modifiers: "", def_value: None }]
-explicit BsonBinaryWriter(System::IO::BinaryWriter writer) ;
+static Newtonsoft::Json::Bson::BsonBinaryWriter New_ctor(System::IO::BinaryWriter writer) ;
 
 /// @brief Method .ctor addr 0x254c978 size 0x30 virtual false final false
  void _ctor(System::IO::BinaryWriter writer) ;

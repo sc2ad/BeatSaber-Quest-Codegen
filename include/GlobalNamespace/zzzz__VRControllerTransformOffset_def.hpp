@@ -71,8 +71,7 @@ constexpr explicit VRControllerTransformOffset(void* ptr) noexcept : UnityEngine
 /// @brief Method get_rotationOffset addr 0x0 size 0xffffffffffffffff virtual true final false
  UnityEngine::Vector3 get_rotationOffset() ;
 
-// Ctor Parameters []
-explicit VRControllerTransformOffset() ;
+static GlobalNamespace::VRControllerTransformOffset New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8e64c size 0x8 virtual false final false
  void _ctor() ;

@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsEncryptionCredentials;
+class TlsKeyExchange;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipherFactory;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSignerCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
+class TlsEncryptionCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -67,14 +67,12 @@ constexpr explicit DefaultTlsServer(void* ptr) noexcept : Org::BouncyCastle::Cry
 
 // Methods
 
-// Ctor Parameters []
-explicit DefaultTlsServer() ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsServer New_ctor() ;
 
 /// @brief Method .ctor addr 0xed61ac size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }]
-explicit DefaultTlsServer(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsServer New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;
 
 /// @brief Method .ctor addr 0xed61b0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;

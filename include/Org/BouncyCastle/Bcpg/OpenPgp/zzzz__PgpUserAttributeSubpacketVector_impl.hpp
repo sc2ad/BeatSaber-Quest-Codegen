@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpUserAttributeSubpacketVector_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacketTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/Attr/zzzz__ImageAttrib_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacketTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector._ctor
 template<>
 
@@ -111,8 +111,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector
 constexpr ::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::__get_packets() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "packets", ty: "::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::PgpUserAttributeSubpacketVector(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> packets)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpUserAttributeSubpacketVector>(packets))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::New_ctor(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> packets)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector>(packets))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::_ctor(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> packets)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector>::get(),

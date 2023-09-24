@@ -5,6 +5,36 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDeserialize__SpaceSaveCompleteData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDeserialize__SpatialAnchorCreateCompleteData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDeserialize__SceneCaptureCompleteData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDeserialize__SpaceQueryResultsData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDeserialize__SpaceShareResultData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDeserialize__DisplayRefreshRateChangedData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDeserialize__SpaceListSaveResultData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDeserialize__SpaceSetComponentStatusCompleteData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDeserialize__SpaceQueryCompleteData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRDeserialize__SpaceEraseCompleteData;
+}
 namespace System {
 struct Guid;
 }

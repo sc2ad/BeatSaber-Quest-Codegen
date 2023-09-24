@@ -3,28 +3,29 @@
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_Dropdown_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ICancelHandler_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
-#include "TMPro/zzzz__TweenRunner_1_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "TMPro/zzzz__TMP_Dropdown_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "TMPro/zzzz__FloatTween_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "TMPro/zzzz__FloatTween_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "TMPro/zzzz__TweenRunner_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ICancelHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__TMP_Dropdown__DropdownItem.get_text
 template<>
 
@@ -338,8 +339,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, eventData);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_Dropdown__DropdownItem::TMPro__TMP_Dropdown__DropdownItem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Dropdown__DropdownItem>())) {}
+ TMPro::TMPro__TMP_Dropdown__DropdownItem TMPro::TMPro__TMP_Dropdown__DropdownItem::New_ctor()  {
+TMPro::TMPro__TMP_Dropdown__DropdownItem o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Dropdown__DropdownItem>())};
+return o;
+}
  void TMPro::TMPro__TMP_Dropdown__DropdownItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Dropdown__DropdownItem>::get(),
@@ -533,8 +536,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_Dropdown__OptionData::TMPro__TMP_Dropdown__OptionData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Dropdown__OptionData>())) {}
+ TMPro::TMPro__TMP_Dropdown__OptionData TMPro::TMPro__TMP_Dropdown__OptionData::New_ctor()  {
+TMPro::TMPro__TMP_Dropdown__OptionData o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Dropdown__OptionData>())};
+return o;
+}
  void TMPro::TMPro__TMP_Dropdown__OptionData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Dropdown__OptionData>::get(),
@@ -544,8 +549,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
- TMPro::TMPro__TMP_Dropdown__OptionData::TMPro__TMP_Dropdown__OptionData(::StringW text)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Dropdown__OptionData>(text))) {}
+ TMPro::TMPro__TMP_Dropdown__OptionData TMPro::TMPro__TMP_Dropdown__OptionData::New_ctor(::StringW text)  {
+TMPro::TMPro__TMP_Dropdown__OptionData o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Dropdown__OptionData>(text))};
+return o;
+}
  void TMPro::TMPro__TMP_Dropdown__OptionData::_ctor(::StringW text)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Dropdown__OptionData>::get(),
@@ -555,8 +562,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, text);
 }
-// Ctor Parameters [CppParam { name: "image", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }]
- TMPro::TMPro__TMP_Dropdown__OptionData::TMPro__TMP_Dropdown__OptionData(UnityEngine::Sprite image)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Dropdown__OptionData>(image))) {}
+ TMPro::TMPro__TMP_Dropdown__OptionData TMPro::TMPro__TMP_Dropdown__OptionData::New_ctor(UnityEngine::Sprite image)  {
+TMPro::TMPro__TMP_Dropdown__OptionData o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Dropdown__OptionData>(image))};
+return o;
+}
  void TMPro::TMPro__TMP_Dropdown__OptionData::_ctor(UnityEngine::Sprite image)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Dropdown__OptionData>::get(),
@@ -566,8 +575,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, image);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "image", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }]
- TMPro::TMPro__TMP_Dropdown__OptionData::TMPro__TMP_Dropdown__OptionData(::StringW text, UnityEngine::Sprite image)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Dropdown__OptionData>(text, image))) {}
+ TMPro::TMPro__TMP_Dropdown__OptionData TMPro::TMPro__TMP_Dropdown__OptionData::New_ctor(::StringW text, UnityEngine::Sprite image)  {
+TMPro::TMPro__TMP_Dropdown__OptionData o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Dropdown__OptionData>(text, image))};
+return o;
+}
  void TMPro::TMPro__TMP_Dropdown__OptionData::_ctor(::StringW text, UnityEngine::Sprite image)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Dropdown__OptionData>::get(),
@@ -652,8 +663,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_Dropdown__OptionDataList::TMPro__TMP_Dropdown__OptionDataList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Dropdown__OptionDataList>())) {}
+ TMPro::TMPro__TMP_Dropdown__OptionDataList TMPro::TMPro__TMP_Dropdown__OptionDataList::New_ctor()  {
+TMPro::TMPro__TMP_Dropdown__OptionDataList o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Dropdown__OptionDataList>())};
+return o;
+}
  void TMPro::TMPro__TMP_Dropdown__OptionDataList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Dropdown__OptionDataList>::get(),
@@ -680,8 +693,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- TMPro::TMPro__TMP_Dropdown__DropdownEvent::TMPro__TMP_Dropdown__DropdownEvent()  : UnityEngine::Events::UnityEvent_1<int32_t>(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Dropdown__DropdownEvent>())) {}
+ TMPro::TMPro__TMP_Dropdown__DropdownEvent TMPro::TMPro__TMP_Dropdown__DropdownEvent::New_ctor()  {
+TMPro::TMPro__TMP_Dropdown__DropdownEvent o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Dropdown__DropdownEvent>())};
+return o;
+}
  void TMPro::TMPro__TMP_Dropdown__DropdownEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Dropdown__DropdownEvent>::get(),
@@ -737,8 +752,10 @@ constexpr void TMPro::TMPro__TMP_Dropdown____c__DisplayClass69_0::__set___4__thi
 constexpr TMPro::TMP_Dropdown TMPro::TMPro__TMP_Dropdown____c__DisplayClass69_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<TMPro::TMP_Dropdown, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_Dropdown____c__DisplayClass69_0::TMPro__TMP_Dropdown____c__DisplayClass69_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Dropdown____c__DisplayClass69_0>())) {}
+ TMPro::TMPro__TMP_Dropdown____c__DisplayClass69_0 TMPro::TMPro__TMP_Dropdown____c__DisplayClass69_0::New_ctor()  {
+TMPro::TMPro__TMP_Dropdown____c__DisplayClass69_0 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Dropdown____c__DisplayClass69_0>())};
+return o;
+}
  void TMPro::TMPro__TMP_Dropdown____c__DisplayClass69_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Dropdown____c__DisplayClass69_0>::get(),
@@ -895,8 +912,10 @@ constexpr void TMPro::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81::__
 constexpr TMPro::TMP_Dropdown TMPro::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81::__get___4__this() const {
 return ::cordl_internals::getInstanceField<TMPro::TMP_Dropdown, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- TMPro::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81>(__1__state))) {}
+ TMPro::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81 TMPro::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81::New_ctor(int32_t __1__state)  {
+TMPro::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81 o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81>(__1__state))};
+return o;
+}
  void TMPro::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81>::get(),
@@ -2144,8 +2163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TMP_Dropdown::TMP_Dropdown()  : UnityEngine::UI::Selectable(THROW_UNLESS(::il2cpp_utils::New<TMP_Dropdown>())) {}
+ TMPro::TMP_Dropdown TMPro::TMP_Dropdown::New_ctor()  {
+TMPro::TMP_Dropdown o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Dropdown>())};
+return o;
+}
  void TMPro::TMP_Dropdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Dropdown>::get(),

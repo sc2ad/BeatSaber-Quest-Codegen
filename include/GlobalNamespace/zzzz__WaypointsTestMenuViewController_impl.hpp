@@ -1,23 +1,23 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__WaypointsTestMenuViewController_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__WaypointsTestMenuViewController_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14._ctor
 template<>
 
@@ -255,8 +255,10 @@ constexpr void GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController
 constexpr GlobalNamespace::BeatmapDifficulty GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14::__get__difficulty_5__9() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BeatmapDifficulty, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14 GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14>::get(),
@@ -582,8 +584,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data, results);
 }
-// Ctor Parameters []
- GlobalNamespace::WaypointsTestMenuViewController::WaypointsTestMenuViewController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<WaypointsTestMenuViewController>())) {}
+ GlobalNamespace::WaypointsTestMenuViewController GlobalNamespace::WaypointsTestMenuViewController::New_ctor()  {
+GlobalNamespace::WaypointsTestMenuViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::WaypointsTestMenuViewController>())};
+return o;
+}
  void GlobalNamespace::WaypointsTestMenuViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::WaypointsTestMenuViewController>::get(),

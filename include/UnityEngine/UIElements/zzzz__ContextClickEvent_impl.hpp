@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::ContextClickEvent::ContextClickEvent()  : UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::ContextClickEvent>(THROW_UNLESS(::il2cpp_utils::New<ContextClickEvent>())) {}
+ UnityEngine::UIElements::ContextClickEvent UnityEngine::UIElements::ContextClickEvent::New_ctor()  {
+UnityEngine::UIElements::ContextClickEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ContextClickEvent>())};
+return o;
+}
  void UnityEngine::UIElements::ContextClickEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ContextClickEvent>::get(),

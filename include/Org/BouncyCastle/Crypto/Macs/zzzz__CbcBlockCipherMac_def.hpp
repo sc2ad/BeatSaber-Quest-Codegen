@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 namespace Org::BouncyCastle::Crypto::Paddings {
 class IBlockCipherPadding;
 }
@@ -12,9 +15,6 @@ class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -103,26 +103,22 @@ constexpr int32_t __get_macSize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit CbcBlockCipherMac(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+static Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe7d008 size 0xcc virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding", modifiers: "", def_value: None }]
-explicit CbcBlockCipherMac(Org::BouncyCastle::Crypto::IBlockCipher cipher, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding padding) ;
+static Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding padding) ;
 
 /// @brief Method .ctor addr 0xe7d25c size 0xd8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding padding) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "macSizeInBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CbcBlockCipherMac(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t macSizeInBits) ;
+static Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t macSizeInBits) ;
 
 /// @brief Method .ctor addr 0xe7d334 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t macSizeInBits) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "macSizeInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding", modifiers: "", def_value: None }]
-explicit CbcBlockCipherMac(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t macSizeInBits, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding padding) ;
+static Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t macSizeInBits, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding padding) ;
 
 /// @brief Method .ctor addr 0xe7d0d4 size 0x188 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t macSizeInBits, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding padding) ;

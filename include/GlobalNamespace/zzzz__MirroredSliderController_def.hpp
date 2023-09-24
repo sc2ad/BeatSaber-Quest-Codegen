@@ -3,20 +3,23 @@
 #include "GlobalNamespace/zzzz__SliderControllerBase_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class ISliderDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
-class SliderController;
+class GlobalNamespace__MirroredSliderController__Pool;
+}
+namespace UnityEngine {
+class MeshFilter;
 }
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
+namespace GlobalNamespace {
+class SliderController;
+}
 namespace UnityEngine {
-class MeshFilter;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -137,8 +140,7 @@ constexpr UnityEngine::Transform __get__followedTransform() const;
 /// @brief Method Dissolve addr 0x223e374 size 0x24 virtual false final false
  void Dissolve(float_t duration) ;
 
-// Ctor Parameters []
-explicit MirroredSliderController() ;
+static GlobalNamespace::MirroredSliderController New_ctor() ;
 
 /// @brief Method .ctor addr 0x223e3c0 size 0x8 virtual false final false
  void _ctor() ;
@@ -150,7 +152,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2713 }), TypeDefinitionIndex(TypeDefinitionIndex(4874))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4874)), TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2713 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4873))
 // CS Name: MirroredSliderController::Pool
 class CORDL_TYPE GlobalNamespace__MirroredSliderController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MirroredSliderController> {
@@ -189,8 +191,7 @@ constexpr explicit GlobalNamespace__MirroredSliderController__Pool(void* ptr) no
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MirroredSliderController__Pool() ;
+static GlobalNamespace::GlobalNamespace__MirroredSliderController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x223e3d0 size 0x48 virtual false final false
  void _ctor() ;

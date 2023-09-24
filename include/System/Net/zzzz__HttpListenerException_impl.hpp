@@ -71,8 +71,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::HttpListenerException::HttpListenerException()  : System::ComponentModel::Win32Exception(THROW_UNLESS(::il2cpp_utils::New<HttpListenerException>())) {}
+ System::Net::HttpListenerException System::Net::HttpListenerException::New_ctor()  {
+System::Net::HttpListenerException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpListenerException>())};
+return o;
+}
  void System::Net::HttpListenerException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerException>::get(),
@@ -82,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "errorCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::HttpListenerException::HttpListenerException(int32_t errorCode, ::StringW message)  : System::ComponentModel::Win32Exception(THROW_UNLESS(::il2cpp_utils::New<HttpListenerException>(errorCode, message))) {}
+ System::Net::HttpListenerException System::Net::HttpListenerException::New_ctor(int32_t errorCode, ::StringW message)  {
+System::Net::HttpListenerException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpListenerException>(errorCode, message))};
+return o;
+}
  void System::Net::HttpListenerException::_ctor(int32_t errorCode, ::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerException>::get(),
@@ -93,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, errorCode, message);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::HttpListenerException::HttpListenerException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::ComponentModel::Win32Exception(THROW_UNLESS(::il2cpp_utils::New<HttpListenerException>(serializationInfo, streamingContext))) {}
+ System::Net::HttpListenerException System::Net::HttpListenerException::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::HttpListenerException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpListenerException>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::HttpListenerException::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerException>::get(),

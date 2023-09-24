@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Collections::Generic {
 template<typename T>
-class IReadOnlyList_1;
+class HashSet_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class HashSet_1;
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -79,8 +79,7 @@ constexpr System::Collections::Generic::HashSet_1<::StringW> __get__environmentK
 /// @brief Method get_environmentKeywords addr 0x21bef18 size 0x8 virtual false final false
  System::Collections::Generic::IReadOnlyList_1<::StringW> get_environmentKeywords() ;
 
-// Ctor Parameters [CppParam { name: "environmentKeywords", ty: "System::Collections::Generic::IReadOnlyList_1<::StringW>", modifiers: "", def_value: None }]
-explicit EnvironmentKeywords(System::Collections::Generic::IReadOnlyList_1<::StringW> environmentKeywords) ;
+static GlobalNamespace::EnvironmentKeywords New_ctor(System::Collections::Generic::IReadOnlyList_1<::StringW> environmentKeywords) ;
 
 /// @brief Method .ctor addr 0x21bef20 size 0x104 virtual false final false
  void _ctor(System::Collections::Generic::IReadOnlyList_1<::StringW> environmentKeywords) ;

@@ -50,8 +50,7 @@ constexpr explicit Ed448KeyGenerationParameters(void* ptr) noexcept : Org::Bounc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit Ed448KeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Crypto::Parameters::Ed448KeyGenerationParameters New_ctor(Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0xea79c0 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom random) ;

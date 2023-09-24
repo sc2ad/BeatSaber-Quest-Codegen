@@ -69,8 +69,7 @@ static int32_t __get__songTimePropertyId() ;
 /// @brief Method Update addr 0x21b0cbc size 0x240 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit SongTimeToShaderWriter() ;
+static GlobalNamespace::SongTimeToShaderWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b0efc size 0x8 virtual false final false
  void _ctor() ;

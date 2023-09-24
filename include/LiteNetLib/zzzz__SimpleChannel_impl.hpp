@@ -1,8 +1,8 @@
 #pragma once
 #include "LiteNetLib/zzzz__BaseChannel_impl.hpp"
 #include "LiteNetLib/zzzz__SimpleChannel_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 //  Writing Method size for method: LiteNetLib::SimpleChannel._ctor
 template<>
 
@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }]
- LiteNetLib::SimpleChannel::SimpleChannel(LiteNetLib::NetPeer peer)  : LiteNetLib::BaseChannel(THROW_UNLESS(::il2cpp_utils::New<SimpleChannel>(peer))) {}
+ LiteNetLib::SimpleChannel LiteNetLib::SimpleChannel::New_ctor(LiteNetLib::NetPeer peer)  {
+LiteNetLib::SimpleChannel o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::SimpleChannel>(peer))};
+return o;
+}
  void LiteNetLib::SimpleChannel::_ctor(LiteNetLib::NetPeer peer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::SimpleChannel>::get(),

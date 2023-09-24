@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IVerifier;
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IVerifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -67,8 +67,7 @@ constexpr Org::BouncyCastle::Crypto::ISigner __get_mSigner() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
-explicit DefaultVerifierResult(Org::BouncyCastle::Crypto::ISigner signer) ;
+static Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult New_ctor(Org::BouncyCastle::Crypto::ISigner signer) ;
 
 /// @brief Method .ctor addr 0xea0de4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ISigner signer) ;

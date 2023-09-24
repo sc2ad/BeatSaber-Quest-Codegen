@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace MidiParser {
+struct MidiEvent;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace MidiParser {
-struct MidiEvent;
 }
 // Forward declare root types
 namespace MidiParser {
@@ -70,8 +70,7 @@ constexpr System::Collections::Generic::List_1<MidiParser::MidiEvent> __get_Midi
 
 // Methods
 
-// Ctor Parameters []
-explicit MidiTrack() ;
+static MidiParser::MidiTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2278d30 size 0x7c virtual false final false
  void _ctor() ;

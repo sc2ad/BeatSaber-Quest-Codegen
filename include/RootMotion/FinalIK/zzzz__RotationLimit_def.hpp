@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -152,8 +152,7 @@ static UnityEngine::Quaternion LimitTwist(UnityEngine::Quaternion rotation, Unit
 /// @brief Method GetOrthogonalAngle addr 0x12031e8 size 0x154 virtual false final false
 static float_t GetOrthogonalAngle(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, UnityEngine::Vector3 normal) ;
 
-// Ctor Parameters []
-explicit RotationLimit() ;
+static RootMotion::FinalIK::RotationLimit New_ctor() ;
 
 /// @brief Method .ctor addr 0x120333c size 0x60 virtual false final false
  void _ctor() ;

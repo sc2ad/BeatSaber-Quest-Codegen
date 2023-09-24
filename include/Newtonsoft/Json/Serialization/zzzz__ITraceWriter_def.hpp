@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Exception;
-}
 namespace System::Diagnostics {
 struct TraceLevel;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

@@ -5,7 +5,7 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-struct GlobalNamespace__LevelCompletionResults__LevelEndAction;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class PlayerData;
@@ -14,10 +14,10 @@ namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class BeatmapObjectExecutionRating;
 }
 namespace GlobalNamespace {
-class PlayerLevelStatsData;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class PlatformLeaderboardsModel;
@@ -26,13 +26,13 @@ namespace GlobalNamespace {
 struct GlobalNamespace__LevelCompletionResults__LevelEndStateType;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class PlayerLevelStatsData;
 }
 namespace GlobalNamespace {
-class BeatmapObjectExecutionRating;
+struct GlobalNamespace__LevelCompletionResults__LevelEndAction;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;

@@ -99,8 +99,10 @@ constexpr void Mono::Security::X509::Extensions::BasicConstraintsExtension::__se
 constexpr int32_t Mono::Security::X509::Extensions::BasicConstraintsExtension::__get_pathLenConstraint() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "extension", ty: "Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
- Mono::Security::X509::Extensions::BasicConstraintsExtension::BasicConstraintsExtension(Mono::Security::X509::X509Extension extension)  : Mono::Security::X509::X509Extension(THROW_UNLESS(::il2cpp_utils::New<BasicConstraintsExtension>(extension))) {}
+ Mono::Security::X509::Extensions::BasicConstraintsExtension Mono::Security::X509::Extensions::BasicConstraintsExtension::New_ctor(Mono::Security::X509::X509Extension extension)  {
+Mono::Security::X509::Extensions::BasicConstraintsExtension o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::Extensions::BasicConstraintsExtension>(extension))};
+return o;
+}
  void Mono::Security::X509::Extensions::BasicConstraintsExtension::_ctor(Mono::Security::X509::X509Extension extension)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::Extensions::BasicConstraintsExtension>::get(),

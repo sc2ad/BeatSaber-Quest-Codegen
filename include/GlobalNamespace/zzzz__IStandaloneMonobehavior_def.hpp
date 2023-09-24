@@ -1,20 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
+namespace System {
+template<typename TResult>
+class Func_1;
+}
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace GlobalNamespace {
+class IStandaloneThreadRunner;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class IStandaloneThreadRunner;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -4,21 +4,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
 namespace UnityEngine {
 struct MeshTopology;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
 class Face;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -114,14 +114,12 @@ constexpr int32_t __get_m_SubmeshIndex() const;
 /// @brief Method set_submeshIndex addr 0x29e68f8 size 0x8 virtual false final false
  void set_submeshIndex(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "submeshIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "topology", ty: "UnityEngine::MeshTopology", modifiers: "", def_value: None }, CppParam { name: "indexes", ty: "System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }]
-explicit Submesh(int32_t submeshIndex, UnityEngine::MeshTopology topology, System::Collections::Generic::IEnumerable_1<int32_t> indexes) ;
+static UnityEngine::ProBuilder::Submesh New_ctor(int32_t submeshIndex, UnityEngine::MeshTopology topology, System::Collections::Generic::IEnumerable_1<int32_t> indexes) ;
 
 /// @brief Method .ctor addr 0x29e6900 size 0xc4 virtual false final false
  void _ctor(int32_t submeshIndex, UnityEngine::MeshTopology topology, System::Collections::Generic::IEnumerable_1<int32_t> indexes) ;
 
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }, CppParam { name: "subMeshIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Submesh(UnityEngine::Mesh mesh, int32_t subMeshIndex) ;
+static UnityEngine::ProBuilder::Submesh New_ctor(UnityEngine::Mesh mesh, int32_t subMeshIndex) ;
 
 /// @brief Method .ctor addr 0x29e69c4 size 0xfc virtual false final false
  void _ctor(UnityEngine::Mesh mesh, int32_t subMeshIndex) ;

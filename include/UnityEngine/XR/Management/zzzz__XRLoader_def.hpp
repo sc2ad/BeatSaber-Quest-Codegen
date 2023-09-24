@@ -73,8 +73,7 @@ template<typename T>
 /// @brief Method GetSupportedGraphicsDeviceTypes addr 0x2addb20 size 0x70 virtual true final false
  System::Collections::Generic::List_1<UnityEngine::Rendering::GraphicsDeviceType> GetSupportedGraphicsDeviceTypes(bool buildingPlayer) ;
 
-// Ctor Parameters []
-explicit XRLoader() ;
+static UnityEngine::XR::Management::XRLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x2addb90 size 0x8 virtual false final false
  void _ctor() ;

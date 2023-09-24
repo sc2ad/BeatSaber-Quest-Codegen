@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Mono::Security {
-class ASN1;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace Mono::Security {
+class ASN1;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -85,14 +85,12 @@ constexpr Mono::Security::ASN1 __get_extnValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
-explicit X509Extension(Mono::Security::ASN1 asn1) ;
+static Mono::Security::X509::X509Extension New_ctor(Mono::Security::ASN1 asn1) ;
 
 /// @brief Method .ctor addr 0x228f518 size 0x2cc virtual false final false
  void _ctor(Mono::Security::ASN1 asn1) ;
 
-// Ctor Parameters [CppParam { name: "extension", ty: "Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
-explicit X509Extension(Mono::Security::X509::X509Extension extension) ;
+static Mono::Security::X509::X509Extension New_ctor(Mono::Security::X509::X509Extension extension) ;
 
 /// @brief Method .ctor addr 0x228f7e4 size 0x14c virtual false final false
  void _ctor(Mono::Security::X509::X509Extension extension) ;

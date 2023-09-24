@@ -450,8 +450,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "children", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "expectedPolicies", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "Org::BouncyCastle::Pkix::PkixPolicyNode", modifiers: "", def_value: None }, CppParam { name: "policyQualifiers", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "validPolicy", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::PkixPolicyNode::PkixPolicyNode(System::Collections::IList children, int32_t depth, Org::BouncyCastle::Utilities::Collections::ISet expectedPolicies, Org::BouncyCastle::Pkix::PkixPolicyNode parent, Org::BouncyCastle::Utilities::Collections::ISet policyQualifiers, ::StringW validPolicy, bool critical)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixPolicyNode>(children, depth, expectedPolicies, parent, policyQualifiers, validPolicy, critical))) {}
+ Org::BouncyCastle::Pkix::PkixPolicyNode Org::BouncyCastle::Pkix::PkixPolicyNode::New_ctor(System::Collections::IList children, int32_t depth, Org::BouncyCastle::Utilities::Collections::ISet expectedPolicies, Org::BouncyCastle::Pkix::PkixPolicyNode parent, Org::BouncyCastle::Utilities::Collections::ISet policyQualifiers, ::StringW validPolicy, bool critical)  {
+Org::BouncyCastle::Pkix::PkixPolicyNode o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixPolicyNode>(children, depth, expectedPolicies, parent, policyQualifiers, validPolicy, critical))};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixPolicyNode::_ctor(System::Collections::IList children, int32_t depth, Org::BouncyCastle::Utilities::Collections::ISet expectedPolicies, Org::BouncyCastle::Pkix::PkixPolicyNode parent, Org::BouncyCastle::Utilities::Collections::ISet policyQualifiers, ::StringW validPolicy, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixPolicyNode>::get(),

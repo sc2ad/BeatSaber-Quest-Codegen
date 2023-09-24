@@ -4,26 +4,38 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
+namespace GlobalNamespace {
 template<typename T>
-class Comparison_1;
+class GlobalNamespace__OrderedSet_1___GetEnumerator_d__23;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__OrderedSet_1__Node;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+template<typename T>
+class Comparison_1;
+}
+namespace GlobalNamespace {
+template<typename T>
+struct GlobalNamespace__OrderedSet_1__ProcessOrder;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -110,6 +122,8 @@ __DontCare = 2,
 constexpr operator __GlobalNamespace__OrderedSet_1__ProcessOrder_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OrderedSet_1__ProcessOrder_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -213,8 +227,7 @@ constexpr int32_t __get_clearCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "T", modifiers: "", def_value: None }, CppParam { name: "clearCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OrderedSet_1__Node(T value, int32_t clearCount) ;
+static GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> New_ctor(T value, int32_t clearCount) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(T value, int32_t clearCount) ;
@@ -310,8 +323,7 @@ constexpr GlobalNamespace::GlobalNamespace__OrderedSet_1__Node<T> __get__next_5_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OrderedSet_1___GetEnumerator_d__23(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OrderedSet_1___GetEnumerator_d__23<T> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -438,8 +450,7 @@ constexpr int32_t __get__clearCount() const;
 /// @brief Method get_count addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_count() ;
 
-// Ctor Parameters [CppParam { name: "comparison", ty: "System::Comparison_1<T>", modifiers: "", def_value: None }, CppParam { name: "processOrder", ty: "GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T>", modifiers: "", def_value: None }]
-explicit OrderedSet_1(System::Comparison_1<T> comparison, GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> processOrder) ;
+static GlobalNamespace::OrderedSet_1<T> New_ctor(System::Comparison_1<T> comparison, GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> processOrder) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Comparison_1<T> comparison, GlobalNamespace::GlobalNamespace__OrderedSet_1__ProcessOrder<T> processOrder) ;

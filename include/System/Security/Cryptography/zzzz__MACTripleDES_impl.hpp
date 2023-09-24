@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__KeyedHashAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__MACTripleDES_def.hpp"
+#include "System/Security/Cryptography/zzzz__CryptoStream_def.hpp"
 #include "System/Security/Cryptography/zzzz__TailStream_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__TripleDES_def.hpp"
-#include "System/Security/Cryptography/zzzz__CryptoStream_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::MACTripleDES._ctor
 template<>
 
@@ -120,8 +120,10 @@ constexpr void System::Security::Cryptography::MACTripleDES::__set_des(System::S
 constexpr System::Security::Cryptography::TripleDES System::Security::Cryptography::MACTripleDES::__get_des() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::TripleDES, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::MACTripleDES::MACTripleDES()  : System::Security::Cryptography::KeyedHashAlgorithm(THROW_UNLESS(::il2cpp_utils::New<MACTripleDES>())) {}
+ System::Security::Cryptography::MACTripleDES System::Security::Cryptography::MACTripleDES::New_ctor()  {
+System::Security::Cryptography::MACTripleDES o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::MACTripleDES>())};
+return o;
+}
  void System::Security::Cryptography::MACTripleDES::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::MACTripleDES>::get(),

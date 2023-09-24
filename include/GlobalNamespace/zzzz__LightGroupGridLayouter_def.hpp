@@ -102,8 +102,7 @@ constexpr UnityEngine::Vector3 __get__defaultRotation() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LightGroupGridLayouter() ;
+static GlobalNamespace::LightGroupGridLayouter New_ctor() ;
 
 /// @brief Method .ctor addr 0x225e670 size 0x88 virtual false final false
  void _ctor() ;

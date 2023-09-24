@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine {
-struct Vector3;
+struct Ray;
 }
 namespace UnityEngine {
-struct Ray;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,8 +56,7 @@ constexpr explicit LineTriangleIntersection(void* ptr) noexcept : ::bs_hook::Il2
 /// @brief Method Intersects addr 0x1f78dbc size 0x8 virtual false final false
 static bool Intersects(UnityEngine::Ray ray, UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2) ;
 
-// Ctor Parameters []
-explicit LineTriangleIntersection() ;
+static GlobalNamespace::LineTriangleIntersection New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f78dc4 size 0x8 virtual false final false
  void _ctor() ;

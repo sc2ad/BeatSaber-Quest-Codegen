@@ -68,8 +68,7 @@ constexpr System::Xml::XmlNode __get_container() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }]
-explicit XmlChildNodes(System::Xml::XmlNode container) ;
+static System::Xml::XmlChildNodes New_ctor(System::Xml::XmlNode container) ;
 
 /// @brief Method .ctor addr 0x26f0578 size 0x28 virtual false final false
  void _ctor(System::Xml::XmlNode container) ;

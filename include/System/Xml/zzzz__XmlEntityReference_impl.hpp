@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__XmlLinkedNode_impl.hpp"
 #include "System/Xml/zzzz__XmlEntityReference_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 //  Writing Method size for method: System::Xml::XmlEntityReference._ctor
 template<>
@@ -306,8 +306,10 @@ constexpr void System::Xml::XmlEntityReference::__set_lastChild(System::Xml::Xml
 constexpr System::Xml::XmlLinkedNode System::Xml::XmlEntityReference::__get_lastChild() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlLinkedNode, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlEntityReference::XmlEntityReference(::StringW name, System::Xml::XmlDocument doc)  : System::Xml::XmlLinkedNode(THROW_UNLESS(::il2cpp_utils::New<XmlEntityReference>(name, doc))) {}
+ System::Xml::XmlEntityReference System::Xml::XmlEntityReference::New_ctor(::StringW name, System::Xml::XmlDocument doc)  {
+System::Xml::XmlEntityReference o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlEntityReference>(name, doc))};
+return o;
+}
  void System::Xml::XmlEntityReference::_ctor(::StringW name, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlEntityReference>::get(),

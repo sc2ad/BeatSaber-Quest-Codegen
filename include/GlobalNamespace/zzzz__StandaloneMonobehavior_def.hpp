@@ -6,35 +6,22 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class TaskCompletionSource_1;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
 namespace System {
 class IDisposable;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IStandaloneMonobehavior;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class IStandaloneThreadRunner;
@@ -42,18 +29,40 @@ class IStandaloneThreadRunner;
 namespace UnityEngine {
 struct FrameTiming;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+namespace System {
+template<typename TResult>
+class Func_1;
+}
+namespace GlobalNamespace {
+class IStandaloneMonobehavior;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__StandaloneMonobehavior___DispatchAsync_d__21;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__StandaloneMonobehavior___Dispatch_d__20;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+class Action;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -346,8 +355,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<bool> __get_tcs() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__StandaloneMonobehavior___RunAsyncCoroutine_d__25 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0xdcbc0c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -520,8 +528,7 @@ static T Create() ;
 /// @brief Method GetLastFrameTime addr 0xdcb7e8 size 0x70 virtual false final false
  float_t GetLastFrameTime() ;
 
-// Ctor Parameters []
-explicit StandaloneMonobehavior() ;
+static GlobalNamespace::StandaloneMonobehavior New_ctor() ;
 
 /// @brief Method .ctor addr 0xdbfb30 size 0xa0 virtual false final false
  void _ctor() ;

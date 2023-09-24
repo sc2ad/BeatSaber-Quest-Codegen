@@ -5,10 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-struct GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsResult;
-}
-namespace GlobalNamespace {
-class IPlatformAchievementsHandler;
+class GlobalNamespace__AchievementsModelSO____c__DisplayClass4_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -16,6 +13,12 @@ class HashSet_1;
 }
 namespace GlobalNamespace {
 class AchievementSO;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsResult;
+}
+namespace GlobalNamespace {
+class IPlatformAchievementsHandler;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementResult;
@@ -84,8 +87,7 @@ constexpr ::StringW __get_achievementId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__AchievementsModelSO____c__DisplayClass4_0() ;
+static GlobalNamespace::GlobalNamespace__AchievementsModelSO____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c6df8 size 0x8 virtual false final false
  void _ctor() ;
@@ -168,8 +170,7 @@ constexpr bool __get__initialized() const;
 /// @brief Method UnlockAchievement addr 0x20c6ba8 size 0x184 virtual false final false
  void UnlockAchievement(GlobalNamespace::AchievementSO achievement) ;
 
-// Ctor Parameters []
-explicit AchievementsModelSO() ;
+static GlobalNamespace::AchievementsModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c6ec4 size 0x7c virtual false final false
  void _ctor() ;

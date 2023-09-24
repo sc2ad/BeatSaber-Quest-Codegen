@@ -4,7 +4,7 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class BeatmapEventData;
+struct EaseType;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -14,10 +14,10 @@ namespace GlobalNamespace {
 struct LightAxis;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+class BeatmapEventData;
 }
 namespace GlobalNamespace {
-struct EaseType;
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -135,8 +135,7 @@ static System::Collections::Generic::Dictionary_2<int32_t,GlobalNamespace::Light
 /// @brief Method set_distribution addr 0xd92418 size 0x8 virtual false final false
  void set_distribution(float_t value) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "translation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "distribution", ty: "float_t", modifiers: "", def_value: None }]
-explicit LightTranslationBeatmapEventData(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t translation, float_t distribution) ;
+static GlobalNamespace::LightTranslationBeatmapEventData New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t translation, float_t distribution) ;
 
 /// @brief Method .ctor addr 0xd92420 size 0xdc virtual false final false
  void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t translation, float_t distribution) ;

@@ -319,8 +319,10 @@ constexpr void System::Security::Cryptography::AsnEncodedData::__set__raw(::Arra
 constexpr ::ArrayW<uint8_t> System::Security::Cryptography::AsnEncodedData::__get__raw() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::AsnEncodedData::AsnEncodedData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsnEncodedData>())) {}
+ System::Security::Cryptography::AsnEncodedData System::Security::Cryptography::AsnEncodedData::New_ctor()  {
+System::Security::Cryptography::AsnEncodedData o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::AsnEncodedData>())};
+return o;
+}
  void System::Security::Cryptography::AsnEncodedData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::AsnEncodedData>::get(),
@@ -330,8 +332,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::AsnEncodedData::AsnEncodedData(::StringW oid, ::ArrayW<uint8_t> rawData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsnEncodedData>(oid, rawData))) {}
+ System::Security::Cryptography::AsnEncodedData System::Security::Cryptography::AsnEncodedData::New_ctor(::StringW oid, ::ArrayW<uint8_t> rawData)  {
+System::Security::Cryptography::AsnEncodedData o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::AsnEncodedData>(oid, rawData))};
+return o;
+}
  void System::Security::Cryptography::AsnEncodedData::_ctor(::StringW oid, ::ArrayW<uint8_t> rawData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::AsnEncodedData>::get(),
@@ -341,8 +345,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oid, rawData);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "System::Security::Cryptography::Oid", modifiers: "", def_value: None }, CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::AsnEncodedData::AsnEncodedData(System::Security::Cryptography::Oid oid, ::ArrayW<uint8_t> rawData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsnEncodedData>(oid, rawData))) {}
+ System::Security::Cryptography::AsnEncodedData System::Security::Cryptography::AsnEncodedData::New_ctor(System::Security::Cryptography::Oid oid, ::ArrayW<uint8_t> rawData)  {
+System::Security::Cryptography::AsnEncodedData o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::AsnEncodedData>(oid, rawData))};
+return o;
+}
  void System::Security::Cryptography::AsnEncodedData::_ctor(System::Security::Cryptography::Oid oid, ::ArrayW<uint8_t> rawData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::AsnEncodedData>::get(),
@@ -352,8 +358,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oid, rawData);
 }
-// Ctor Parameters [CppParam { name: "asnEncodedData", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }]
- System::Security::Cryptography::AsnEncodedData::AsnEncodedData(System::Security::Cryptography::AsnEncodedData asnEncodedData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsnEncodedData>(asnEncodedData))) {}
+ System::Security::Cryptography::AsnEncodedData System::Security::Cryptography::AsnEncodedData::New_ctor(System::Security::Cryptography::AsnEncodedData asnEncodedData)  {
+System::Security::Cryptography::AsnEncodedData o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::AsnEncodedData>(asnEncodedData))};
+return o;
+}
  void System::Security::Cryptography::AsnEncodedData::_ctor(System::Security::Cryptography::AsnEncodedData asnEncodedData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::AsnEncodedData>::get(),

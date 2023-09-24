@@ -10,6 +10,10 @@ struct Pose;
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
 namespace GlobalNamespace {
 struct Vector3Serializable;
 }
@@ -18,10 +22,6 @@ struct QuaternionSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;

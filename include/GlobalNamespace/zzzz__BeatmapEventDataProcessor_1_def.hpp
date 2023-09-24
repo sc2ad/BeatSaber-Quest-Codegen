@@ -1,6 +1,9 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace GlobalNamespace {
+class BeatmapDataItem;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
@@ -8,9 +11,6 @@ class LinkedListNode_1;
 namespace GlobalNamespace {
 template<typename T>
 class ISortedListItemProcessor_1;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,8 +87,7 @@ static void ProcessInsertedEventDataCommon(System::Collections::Generic::LinkedL
 /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0x0 size 0xffffffffffffffff virtual true final false
  void ProcessBeforeDeleteEventDataInternal(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> nodeToDelete) ;
 
-// Ctor Parameters []
-explicit BeatmapEventDataProcessor_1() ;
+static GlobalNamespace::BeatmapEventDataProcessor_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

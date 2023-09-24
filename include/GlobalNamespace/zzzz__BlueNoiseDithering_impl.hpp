@@ -63,8 +63,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cameraPixelWidth, cameraPixelHeight);
 }
-// Ctor Parameters []
- GlobalNamespace::BlueNoiseDithering::BlueNoiseDithering()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BlueNoiseDithering>())) {}
+ GlobalNamespace::BlueNoiseDithering GlobalNamespace::BlueNoiseDithering::New_ctor()  {
+GlobalNamespace::BlueNoiseDithering o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BlueNoiseDithering>())};
+return o;
+}
  void GlobalNamespace::BlueNoiseDithering::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BlueNoiseDithering>::get(),

@@ -59,8 +59,10 @@ constexpr void JetBrains::Annotations::AssertionConditionAttribute::__set__Condi
 constexpr JetBrains::Annotations::AssertionConditionType JetBrains::Annotations::AssertionConditionAttribute::__get__ConditionType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<JetBrains::Annotations::AssertionConditionType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "conditionType", ty: "JetBrains::Annotations::AssertionConditionType", modifiers: "", def_value: None }]
- JetBrains::Annotations::AssertionConditionAttribute::AssertionConditionAttribute(JetBrains::Annotations::AssertionConditionType conditionType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssertionConditionAttribute>(conditionType))) {}
+ JetBrains::Annotations::AssertionConditionAttribute JetBrains::Annotations::AssertionConditionAttribute::New_ctor(JetBrains::Annotations::AssertionConditionType conditionType)  {
+JetBrains::Annotations::AssertionConditionAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AssertionConditionAttribute>(conditionType))};
+return o;
+}
  void JetBrains::Annotations::AssertionConditionAttribute::_ctor(JetBrains::Annotations::AssertionConditionType conditionType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AssertionConditionAttribute>::get(),

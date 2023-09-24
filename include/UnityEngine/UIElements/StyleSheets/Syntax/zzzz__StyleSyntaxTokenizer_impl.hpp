@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxTokenizer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxToken_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer.get_current
 template<>
 
@@ -239,8 +239,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, s, index, c);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::StyleSyntaxTokenizer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StyleSyntaxTokenizer>())) {}
+ UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::New_ctor()  {
+UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer>())};
+return o;
+}
  void UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer>::get(),

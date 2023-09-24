@@ -319,8 +319,10 @@ return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "HEBREW_MONTH_NAME
  ::ArrayW<::StringW> System::Globalization::CalendarData::__get_HEBREW_LEAP_MONTH_NAMES()  {
 return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "HEBREW_LEAP_MONTH_NAMES", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CalendarData>::get>();
 }
-// Ctor Parameters []
- System::Globalization::CalendarData::CalendarData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CalendarData>())) {}
+ System::Globalization::CalendarData System::Globalization::CalendarData::New_ctor()  {
+System::Globalization::CalendarData o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CalendarData>())};
+return o;
+}
  void System::Globalization::CalendarData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CalendarData>::get(),
@@ -330,8 +332,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "localeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "calendarId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bUseUserOverrides", ty: "bool", modifiers: "", def_value: None }]
- System::Globalization::CalendarData::CalendarData(::StringW localeName, int32_t calendarId, bool bUseUserOverrides)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CalendarData>(localeName, calendarId, bUseUserOverrides))) {}
+ System::Globalization::CalendarData System::Globalization::CalendarData::New_ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides)  {
+System::Globalization::CalendarData o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::CalendarData>(localeName, calendarId, bUseUserOverrides))};
+return o;
+}
  void System::Globalization::CalendarData::_ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::CalendarData>::get(),

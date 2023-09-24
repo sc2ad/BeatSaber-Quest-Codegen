@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__GenRepContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__InfoTypeAndValue_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__InfoTypeAndValue_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cmp::GenRepContent._ctor
 template<>
 
@@ -95,8 +95,10 @@ constexpr void Org::BouncyCastle::Asn1::Cmp::GenRepContent::__set_content(Org::B
 constexpr Org::BouncyCastle::Asn1::Asn1Sequence Org::BouncyCastle::Asn1::Cmp::GenRepContent::__get_content() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Sequence, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::GenRepContent::GenRepContent(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<GenRepContent>(seq))) {}
+ Org::BouncyCastle::Asn1::Cmp::GenRepContent Org::BouncyCastle::Asn1::Cmp::GenRepContent::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cmp::GenRepContent o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::GenRepContent>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::GenRepContent::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::GenRepContent>::get(),
@@ -115,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cmp::GenRepContent, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "itv", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::GenRepContent::GenRepContent(::ArrayW<Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue> itv)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<GenRepContent>(itv))) {}
+ Org::BouncyCastle::Asn1::Cmp::GenRepContent Org::BouncyCastle::Asn1::Cmp::GenRepContent::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue> itv)  {
+Org::BouncyCastle::Asn1::Cmp::GenRepContent o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::GenRepContent>(itv))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::GenRepContent::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue> itv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::GenRepContent>::get(),

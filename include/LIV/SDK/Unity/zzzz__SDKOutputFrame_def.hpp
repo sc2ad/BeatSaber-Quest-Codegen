@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 namespace LIV::SDK::Unity {
-struct SDKTrackedSpace;
+struct RENDERING_PIPELINE;
 }
 namespace LIV::SDK::Unity {
-struct RENDERING_PIPELINE;
+struct SDKTrackedSpace;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

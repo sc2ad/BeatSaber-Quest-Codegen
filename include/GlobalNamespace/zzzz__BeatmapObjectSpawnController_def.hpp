@@ -5,43 +5,46 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace GlobalNamespace {
-class SpawnRotationBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnMovementData;
+class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
 class IJumpOffsetYProvider;
 }
 namespace GlobalNamespace {
-class IBeatmapObjectSpawnController;
-}
-namespace GlobalNamespace {
 class ObstacleData;
 }
 namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapObjectSpawnController__InitData;
+}
+namespace GlobalNamespace {
+class BeatmapObjectSpawnMovementData;
+}
+namespace GlobalNamespace {
 class IBeatmapObjectSpawner;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class SpawnRotationBeatmapEventData;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType;
@@ -128,8 +131,7 @@ constexpr float_t __get_noteJumpValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteLinesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpMovementSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpValueType", ty: "GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType", modifiers: "", def_value: None }, CppParam { name: "noteJumpValue", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BeatmapObjectSpawnController__InitData(float_t beatsPerMinute, int32_t noteLinesCount, float_t noteJumpMovementSpeed, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType noteJumpValueType, float_t noteJumpValue) ;
+static GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnController__InitData New_ctor(float_t beatsPerMinute, int32_t noteLinesCount, float_t noteJumpMovementSpeed, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType noteJumpValueType, float_t noteJumpValue) ;
 
 /// @brief Method .ctor addr 0x2236cdc size 0x58 virtual false final false
  void _ctor(float_t beatsPerMinute, int32_t noteLinesCount, float_t noteJumpMovementSpeed, GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType noteJumpValueType, float_t noteJumpValue) ;
@@ -352,8 +354,7 @@ constexpr float_t __get__spawnRotation() const;
 /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset addr 0x2236b94 size 0x18 virtual true final true
  float_t JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, float_t distanceFromPlayer) ;
 
-// Ctor Parameters []
-explicit BeatmapObjectSpawnController() ;
+static GlobalNamespace::BeatmapObjectSpawnController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2236c1c size 0x90 virtual false final false
  void _ctor() ;

@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2ImplUnix_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2ImplMono_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyStorageFlags_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImplCollection_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyStorageFlags_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
-#include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
+#include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono.get_IsValid
 template<>
 
@@ -332,8 +332,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "cert", ty: "Mono::Security::X509::X509Certificate", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::X509Certificate2ImplMono(Mono::Security::X509::X509Certificate cert)  : System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2ImplMono>(cert))) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::New_ctor(Mono::Security::X509::X509Certificate cert)  {
+System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono>(cert))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::_ctor(Mono::Security::X509::X509Certificate cert)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono>::get(),
@@ -343,8 +345,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cert);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::X509Certificate2ImplMono(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono other)  : System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2ImplMono>(other))) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono other)  {
+System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono>(other))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono>::get(),
@@ -354,8 +358,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "Microsoft::Win32::SafeHandles::SafePasswordHandle", modifiers: "", def_value: None }, CppParam { name: "keyStorageFlags", ty: "System::Security::Cryptography::X509Certificates::X509KeyStorageFlags", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::X509Certificate2ImplMono(::ArrayW<uint8_t> rawData, Microsoft::Win32::SafeHandles::SafePasswordHandle password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags)  : System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2ImplMono>(rawData, password, keyStorageFlags))) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::New_ctor(::ArrayW<uint8_t> rawData, Microsoft::Win32::SafeHandles::SafePasswordHandle password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags)  {
+System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono>(rawData, password, keyStorageFlags))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::_ctor(::ArrayW<uint8_t> rawData, Microsoft::Win32::SafeHandles::SafePasswordHandle password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono>::get(),

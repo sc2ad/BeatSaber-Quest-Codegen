@@ -4,18 +4,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace HMUI {
 class HoverHint;
+}
+namespace HMUI {
+class HMUI__HoverHintController___HideHintAfterDelay_d__11;
+}
+namespace HMUI {
+class HMUI__HoverHintController___ShowHintAfterDelay_d__10;
 }
 namespace HMUI {
 class HoverHintPanel;
@@ -124,8 +130,7 @@ constexpr HMUI::HoverHintController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__HoverHintController___ShowHintAfterDelay_d__10(int32_t __1__state) ;
+static HMUI::HMUI__HoverHintController___ShowHintAfterDelay_d__10 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fa9ff4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -234,8 +239,7 @@ constexpr float_t __get_delay() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__HoverHintController___HideHintAfterDelay_d__11(int32_t __1__state) ;
+static HMUI::HMUI__HoverHintController___HideHintAfterDelay_d__11 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1faa01c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -359,8 +363,7 @@ constexpr bool __get__isHiding() const;
 /// @brief Method GetScreenTransformForHoverHint addr 0x1faa044 size 0x150 virtual false final false
 static UnityEngine::Transform GetScreenTransformForHoverHint(HMUI::HoverHint hoverHint) ;
 
-// Ctor Parameters []
-explicit HoverHintController() ;
+static HMUI::HoverHintController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1faa408 size 0x8 virtual false final false
  void _ctor() ;

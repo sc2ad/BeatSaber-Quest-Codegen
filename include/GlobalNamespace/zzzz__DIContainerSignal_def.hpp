@@ -9,7 +9,7 @@ class DIContainerSignal;
 // Type: ::DIContainerSignal
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 288 }), TypeDefinitionIndex(TypeDefinitionIndex(13881)), TypeDefinitionIndex(TypeDefinitionIndex(11108))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11108)), TypeDefinitionIndex(TypeDefinitionIndex(13881)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 288 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13878))
 // CS Name: DIContainerSignal
 class CORDL_TYPE DIContainerSignal : public GlobalNamespace::GenericSignal_1<Zenject::DiContainer> {
@@ -48,8 +48,7 @@ constexpr explicit DIContainerSignal(void* ptr) noexcept : GlobalNamespace::Gene
 
 // Methods
 
-// Ctor Parameters []
-explicit DIContainerSignal() ;
+static GlobalNamespace::DIContainerSignal New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8312c size 0x48 virtual false final false
  void _ctor() ;

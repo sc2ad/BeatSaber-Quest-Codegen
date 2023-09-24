@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlAttributeDescription_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeDescription__Use::UnityEngine__UIElements__UxmlAttributeDescription__Use(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -208,8 +209,10 @@ constexpr void UnityEngine::UIElements::UxmlAttributeDescription::__set__restric
 constexpr UnityEngine::UIElements::UxmlTypeRestriction UnityEngine::UIElements::UxmlAttributeDescription::__get__restriction_k__BackingField() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UxmlTypeRestriction, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UxmlAttributeDescription::UxmlAttributeDescription()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UxmlAttributeDescription>())) {}
+ UnityEngine::UIElements::UxmlAttributeDescription UnityEngine::UIElements::UxmlAttributeDescription::New_ctor()  {
+UnityEngine::UIElements::UxmlAttributeDescription o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UxmlAttributeDescription>())};
+return o;
+}
  void UnityEngine::UIElements::UxmlAttributeDescription::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UxmlAttributeDescription>::get(),

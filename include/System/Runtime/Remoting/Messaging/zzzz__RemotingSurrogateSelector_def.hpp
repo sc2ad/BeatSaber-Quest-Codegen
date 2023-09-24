@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+namespace System::Runtime::Remoting::Messaging {
+class RemotingSurrogate;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+class ISerializationSurrogate;
 }
-namespace System::Runtime::Remoting::Messaging {
-class RemotingSurrogate;
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 namespace System {
 class Type;
-}
-namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
 }
 namespace System::Runtime::Remoting::Messaging {
 class ObjRefSurrogate;
@@ -96,8 +96,7 @@ constexpr System::Runtime::Serialization::ISurrogateSelector __get__next() const
 
 // Methods
 
-// Ctor Parameters []
-explicit RemotingSurrogateSelector() ;
+static System::Runtime::Remoting::Messaging::RemotingSurrogateSelector New_ctor() ;
 
 /// @brief Method .ctor addr 0x2337d78 size 0x8 virtual false final false
  void _ctor() ;

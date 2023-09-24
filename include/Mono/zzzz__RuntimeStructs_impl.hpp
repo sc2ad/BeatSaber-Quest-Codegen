@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Mono/zzzz__RuntimeStructs_def.hpp"
+#include "Mono/zzzz__RuntimeStructs_def.hpp"
 // Ctor Parameters [CppParam { name: "default_vtable", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "xdomain_vtable", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "proxy_class", ty: "void*", modifiers: "", def_value: Some("csnull") }, CppParam { name: "proxy_class_name", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "interface_count", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Mono::Mono__RuntimeStructs__RemoteClass::Mono__RuntimeStructs__RemoteClass(::cordl_internals::intptr_t default_vtable, ::cordl_internals::intptr_t xdomain_vtable, void* proxy_class, ::cordl_internals::intptr_t proxy_class_name, uint32_t interface_count) noexcept : ::bs_hook::ValueTypeWrapper() {this->default_vtable = default_vtable;
 this->xdomain_vtable = xdomain_vtable;

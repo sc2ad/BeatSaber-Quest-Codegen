@@ -150,8 +150,7 @@ constexpr UnityEngine::Color __get_clothesDetailColor() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AvatarSaveData() ;
+static GlobalNamespace::AvatarSaveData New_ctor() ;
 
 /// @brief Method .ctor addr 0x22277fc size 0x8 virtual false final false
  void _ctor() ;

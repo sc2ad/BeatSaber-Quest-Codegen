@@ -59,8 +59,7 @@ constexpr System::Runtime::InteropServices::DllImportSearchPath __get__paths() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "paths", ty: "System::Runtime::InteropServices::DllImportSearchPath", modifiers: "", def_value: None }]
-explicit DefaultDllImportSearchPathsAttribute(System::Runtime::InteropServices::DllImportSearchPath paths) ;
+static System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute New_ctor(System::Runtime::InteropServices::DllImportSearchPath paths) ;
 
 /// @brief Method .ctor addr 0x236acb8 size 0x28 virtual false final false
  void _ctor(System::Runtime::InteropServices::DllImportSearchPath paths) ;

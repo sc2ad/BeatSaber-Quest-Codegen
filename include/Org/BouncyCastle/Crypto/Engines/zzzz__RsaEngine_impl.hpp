@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__RsaEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IRsa_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::RsaEngine._ctor
 template<>
 
@@ -132,8 +132,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::RsaEngine::__set_core(Org::Bo
 constexpr Org::BouncyCastle::Crypto::IRsa Org::BouncyCastle::Crypto::Engines::RsaEngine::__get_core() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IRsa, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::RsaEngine::RsaEngine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::RsaEngine Org::BouncyCastle::Crypto::Engines::RsaEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::RsaEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::RsaEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::RsaEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::RsaEngine>::get(),
@@ -143,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rsa", ty: "Org::BouncyCastle::Crypto::IRsa", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::RsaEngine::RsaEngine(Org::BouncyCastle::Crypto::IRsa rsa)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaEngine>(rsa))) {}
+ Org::BouncyCastle::Crypto::Engines::RsaEngine Org::BouncyCastle::Crypto::Engines::RsaEngine::New_ctor(Org::BouncyCastle::Crypto::IRsa rsa)  {
+Org::BouncyCastle::Crypto::Engines::RsaEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::RsaEngine>(rsa))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::RsaEngine::_ctor(Org::BouncyCastle::Crypto::IRsa rsa)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::RsaEngine>::get(),

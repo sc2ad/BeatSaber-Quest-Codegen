@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Net/zzzz__WebProxy_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Net/zzzz__AutoWebProxyScriptEngine_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Net/zzzz__AutoWebProxyScriptEngine_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Net::WebProxy._ctor
 template<>
 
@@ -464,8 +464,10 @@ constexpr void System::Net::WebProxy::__set_m_ScriptEngine(System::Net::AutoWebP
 constexpr System::Net::AutoWebProxyScriptEngine System::Net::WebProxy::__get_m_ScriptEngine() const {
 return ::cordl_internals::getInstanceField<System::Net::AutoWebProxyScriptEngine, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::WebProxy::WebProxy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WebProxy>())) {}
+ System::Net::WebProxy System::Net::WebProxy::New_ctor()  {
+System::Net::WebProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebProxy>())};
+return o;
+}
  void System::Net::WebProxy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebProxy>::get(),
@@ -475,8 +477,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Address", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "BypassOnLocal", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "BypassList", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "Credentials", ty: "System::Net::ICredentials", modifiers: "", def_value: None }]
- System::Net::WebProxy::WebProxy(System::Uri Address, bool BypassOnLocal, ::ArrayW<::StringW> BypassList, System::Net::ICredentials Credentials)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WebProxy>(Address, BypassOnLocal, BypassList, Credentials))) {}
+ System::Net::WebProxy System::Net::WebProxy::New_ctor(System::Uri Address, bool BypassOnLocal, ::ArrayW<::StringW> BypassList, System::Net::ICredentials Credentials)  {
+System::Net::WebProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebProxy>(Address, BypassOnLocal, BypassList, Credentials))};
+return o;
+}
  void System::Net::WebProxy::_ctor(System::Uri Address, bool BypassOnLocal, ::ArrayW<::StringW> BypassList, System::Net::ICredentials Credentials)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebProxy>::get(),
@@ -576,8 +580,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, host);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::WebProxy::WebProxy(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WebProxy>(serializationInfo, streamingContext))) {}
+ System::Net::WebProxy System::Net::WebProxy::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::WebProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebProxy>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::WebProxy::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebProxy>::get(),
@@ -623,8 +629,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::IWebProxy, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "enableAutoproxy", ty: "bool", modifiers: "", def_value: None }]
- System::Net::WebProxy::WebProxy(bool enableAutoproxy)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WebProxy>(enableAutoproxy))) {}
+ System::Net::WebProxy System::Net::WebProxy::New_ctor(bool enableAutoproxy)  {
+System::Net::WebProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebProxy>(enableAutoproxy))};
+return o;
+}
  void System::Net::WebProxy::_ctor(bool enableAutoproxy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebProxy>::get(),

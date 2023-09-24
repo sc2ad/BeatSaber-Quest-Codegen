@@ -93,8 +93,7 @@ static void set_current(UnityEngine::InputSystem::HumiditySensor value) ;
 /// @brief Method FinishSetup addr 0x29165bc size 0x78 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit HumiditySensor() ;
+static UnityEngine::InputSystem::HumiditySensor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2916634 size 0x8 virtual false final false
  void _ctor() ;

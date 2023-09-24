@@ -257,8 +257,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_CookLogs::HEU_CookLogs()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_CookLogs>())) {}
+ HoudiniEngineUnity::HEU_CookLogs HoudiniEngineUnity::HEU_CookLogs::New_ctor()  {
+HoudiniEngineUnity::HEU_CookLogs o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_CookLogs>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_CookLogs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_CookLogs>::get(),

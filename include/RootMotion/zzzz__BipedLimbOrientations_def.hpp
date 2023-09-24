@@ -1,6 +1,9 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace RootMotion {
+class RootMotion__BipedLimbOrientations__LimbOrientation;
+}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -74,8 +77,7 @@ constexpr UnityEngine::Vector3 __get_lastBoneLeftAxis() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "upperBoneForwardAxis", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "lowerBoneForwardAxis", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "lastBoneLeftAxis", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
-explicit RootMotion__BipedLimbOrientations__LimbOrientation(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis) ;
+static RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation New_ctor(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis) ;
 
 /// @brief Method .ctor addr 0x11abdc4 size 0x74 virtual false final false
  void _ctor(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis) ;
@@ -162,8 +164,7 @@ static RootMotion::BipedLimbOrientations __declspec(property(get=get_MaxBiped)) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "leftArm", ty: "RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation", modifiers: "", def_value: None }, CppParam { name: "rightArm", ty: "RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation", modifiers: "", def_value: None }, CppParam { name: "leftLeg", ty: "RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation", modifiers: "", def_value: None }, CppParam { name: "rightLeg", ty: "RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation", modifiers: "", def_value: None }]
-explicit BipedLimbOrientations(RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftLeg, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightLeg) ;
+static RootMotion::BipedLimbOrientations New_ctor(RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftLeg, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightLeg) ;
 
 /// @brief Method .ctor addr 0x11abad0 size 0x40 virtual false final false
  void _ctor(RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightArm, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation leftLeg, RootMotion::RootMotion__BipedLimbOrientations__LimbOrientation rightLeg) ;

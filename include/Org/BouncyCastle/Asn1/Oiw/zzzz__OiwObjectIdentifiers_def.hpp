@@ -125,8 +125,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ElGamalAlgorithm() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit OiwObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xef7470 size 0x8 virtual false final false
  void _ctor() ;

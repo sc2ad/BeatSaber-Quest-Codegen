@@ -4,9 +4,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
+namespace System::Net::Http::Headers {
+class Lexer;
 }
 namespace System::Net::Http::Headers {
 struct Token;
@@ -15,18 +14,22 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Net::Http::Headers {
-class Lexer;
-}
-namespace System::Net::Http::Headers {
-class NameValueHeaderValue;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
+}
 namespace System {
 class ICloneable;
+}
+namespace System::Net::Http::Headers {
+class System__Net__Http__Headers__MediaTypeHeaderValue____c;
+}
+namespace System::Net::Http::Headers {
+class NameValueHeaderValue;
 }
 namespace System {
 template<typename T>
@@ -96,8 +99,7 @@ static System::Predicate_1<System::Net::Http::Headers::NameValueHeaderValue> __g
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Http__Headers__MediaTypeHeaderValue____c() ;
+static System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x26ac144 size 0x8 virtual false final false
  void _ctor() ;
@@ -180,20 +182,17 @@ constexpr ::StringW __get_media_type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mediaType", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MediaTypeHeaderValue(::StringW mediaType) ;
+static System::Net::Http::Headers::MediaTypeHeaderValue New_ctor(::StringW mediaType) ;
 
 /// @brief Method .ctor addr 0x26a2e60 size 0x2c virtual false final false
  void _ctor(::StringW mediaType) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::MediaTypeHeaderValue", modifiers: "", def_value: None }]
-explicit MediaTypeHeaderValue(System::Net::Http::Headers::MediaTypeHeaderValue source) ;
+static System::Net::Http::Headers::MediaTypeHeaderValue New_ctor(System::Net::Http::Headers::MediaTypeHeaderValue source) ;
 
 /// @brief Method .ctor addr 0x26ab860 size 0x278 virtual false final false
  void _ctor(System::Net::Http::Headers::MediaTypeHeaderValue source) ;
 
-// Ctor Parameters []
-explicit MediaTypeHeaderValue() ;
+static System::Net::Http::Headers::MediaTypeHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26abb58 size 0x8 virtual false final false
  void _ctor() ;

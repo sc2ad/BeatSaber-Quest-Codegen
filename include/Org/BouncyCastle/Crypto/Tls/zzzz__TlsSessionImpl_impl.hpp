@@ -109,8 +109,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__set_mResumable(
 constexpr bool Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::__get_mResumable() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "sessionID", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "sessionParameters", ty: "Org::BouncyCastle::Crypto::Tls::SessionParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::TlsSessionImpl(::ArrayW<uint8_t> sessionID, Org::BouncyCastle::Crypto::Tls::SessionParameters sessionParameters)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsSessionImpl>(sessionID, sessionParameters))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsSessionImpl Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::New_ctor(::ArrayW<uint8_t> sessionID, Org::BouncyCastle::Crypto::Tls::SessionParameters sessionParameters)  {
+Org::BouncyCastle::Crypto::Tls::TlsSessionImpl o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsSessionImpl>(sessionID, sessionParameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::_ctor(::ArrayW<uint8_t> sessionID, Org::BouncyCastle::Crypto::Tls::SessionParameters sessionParameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsSessionImpl>::get(),

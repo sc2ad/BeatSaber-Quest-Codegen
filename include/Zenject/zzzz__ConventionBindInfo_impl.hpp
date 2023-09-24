@@ -1,11 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__ConventionBindInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__ConventionBindInfo_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0._ctor
 template<>
@@ -81,8 +82,10 @@ constexpr void Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0::__set
 constexpr System::Reflection::Assembly Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0::__get_assembly() const {
 return ::cordl_internals::getInstanceField<System::Reflection::Assembly, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0::Zenject__ConventionBindInfo____c__DisplayClass6_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ConventionBindInfo____c__DisplayClass6_0>())) {}
+ Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0 Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0::New_ctor()  {
+Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0>())};
+return o;
+}
  void Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ConventionBindInfo____c__DisplayClass6_0>::get(),
@@ -193,8 +196,10 @@ constexpr void Zenject::Zenject__ConventionBindInfo____c__DisplayClass7_0::__set
 constexpr System::Type Zenject::Zenject__ConventionBindInfo____c__DisplayClass7_0::__get_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__ConventionBindInfo____c__DisplayClass7_0::Zenject__ConventionBindInfo____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ConventionBindInfo____c__DisplayClass7_0>())) {}
+ Zenject::Zenject__ConventionBindInfo____c__DisplayClass7_0 Zenject::Zenject__ConventionBindInfo____c__DisplayClass7_0::New_ctor()  {
+Zenject::Zenject__ConventionBindInfo____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ConventionBindInfo____c__DisplayClass7_0>())};
+return o;
+}
  void Zenject::Zenject__ConventionBindInfo____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ConventionBindInfo____c__DisplayClass7_0>::get(),
@@ -465,8 +470,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<System::Type>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::ConventionBindInfo::ConventionBindInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ConventionBindInfo>())) {}
+ Zenject::ConventionBindInfo Zenject::ConventionBindInfo::New_ctor()  {
+Zenject::ConventionBindInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ConventionBindInfo>())};
+return o;
+}
  void Zenject::ConventionBindInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ConventionBindInfo>::get(),

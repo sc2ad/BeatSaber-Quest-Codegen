@@ -6,38 +6,38 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+class WingedEdge;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine::ProBuilder {
-template<typename T1,typename T2>
-struct SimpleTuple_2;
+struct Edge;
 }
 namespace UnityEngine::ProBuilder {
 class FaceRebuildData;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
 namespace UnityEngine::ProBuilder {
-class WingedEdge;
-}
-namespace UnityEngine::ProBuilder {
 class Vertex;
 }
 namespace UnityEngine::ProBuilder {
-struct Edge;
+template<typename T1,typename T2>
+struct SimpleTuple_2;
 }
 namespace UnityEngine::ProBuilder {
 struct EdgeLookup;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>

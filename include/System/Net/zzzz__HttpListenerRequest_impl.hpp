@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Net/zzzz__HttpListenerRequest_def.hpp"
-#include "System/Net/zzzz__HttpListenerContext_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Collections/Specialized/zzzz__NameValueCollection_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Net/zzzz__CookieCollection_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/zzzz__Version_def.hpp"
+#include "System/Net/zzzz__CookieCollection_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Net/zzzz__HttpListenerContext_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 //  Writing Method size for method: System::Net::HttpListenerRequest._ctor
 template<>
 
@@ -445,8 +445,10 @@ return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "_100continue", ::il
  ::ArrayW<char16_t> System::Net::HttpListenerRequest::__get_separators()  {
 return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "separators", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerRequest>::get>();
 }
-// Ctor Parameters [CppParam { name: "context", ty: "System::Net::HttpListenerContext", modifiers: "", def_value: None }]
- System::Net::HttpListenerRequest::HttpListenerRequest(System::Net::HttpListenerContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpListenerRequest>(context))) {}
+ System::Net::HttpListenerRequest System::Net::HttpListenerRequest::New_ctor(System::Net::HttpListenerContext context)  {
+System::Net::HttpListenerRequest o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpListenerRequest>(context))};
+return o;
+}
  void System::Net::HttpListenerRequest::_ctor(System::Net::HttpListenerContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpListenerRequest>::get(),

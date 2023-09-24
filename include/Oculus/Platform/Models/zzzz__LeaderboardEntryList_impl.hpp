@@ -24,8 +24,10 @@ constexpr void Oculus::Platform::Models::LeaderboardEntryList::__set_TotalCount(
 constexpr uint64_t Oculus::Platform::Models::LeaderboardEntryList::__get_TotalCount() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::LeaderboardEntryList::LeaderboardEntryList(::cordl_internals::intptr_t a)  : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::LeaderboardEntry>(THROW_UNLESS(::il2cpp_utils::New<LeaderboardEntryList>(a))) {}
+ Oculus::Platform::Models::LeaderboardEntryList Oculus::Platform::Models::LeaderboardEntryList::New_ctor(::cordl_internals::intptr_t a)  {
+Oculus::Platform::Models::LeaderboardEntryList o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::LeaderboardEntryList>(a))};
+return o;
+}
  void Oculus::Platform::Models::LeaderboardEntryList::_ctor(::cordl_internals::intptr_t a)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::LeaderboardEntryList>::get(),

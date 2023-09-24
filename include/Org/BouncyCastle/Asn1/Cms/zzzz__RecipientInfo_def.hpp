@@ -3,34 +3,34 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class KeyTransRecipientInfo;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class OtherRecipientInfo;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class PasswordRecipientInfo;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class KeyAgreeRecipientInfo;
+class KekRecipientInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class KekRecipientInfo;
+class KeyAgreeRecipientInfo;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class OtherRecipientInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class KeyTransRecipientInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -99,38 +99,32 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_info() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo", modifiers: "", def_value: None }]
-explicit RecipientInfo(Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo info) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientInfo New_ctor(Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo info) ;
 
 /// @brief Method .ctor addr 0xdef99c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo info) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo", modifiers: "", def_value: None }]
-explicit RecipientInfo(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientInfo New_ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info) ;
 
 /// @brief Method .ctor addr 0xdef9c4 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KekRecipientInfo", modifiers: "", def_value: None }]
-explicit RecipientInfo(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientInfo New_ctor(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info) ;
 
 /// @brief Method .ctor addr 0xdefa48 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo", modifiers: "", def_value: None }]
-explicit RecipientInfo(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientInfo New_ctor(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info) ;
 
 /// @brief Method .ctor addr 0xdefacc size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo", modifiers: "", def_value: None }]
-explicit RecipientInfo(Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo info) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientInfo New_ctor(Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo info) ;
 
 /// @brief Method .ctor addr 0xdefb50 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo info) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
-explicit RecipientInfo(Org::BouncyCastle::Asn1::Asn1Object info) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Object info) ;
 
 /// @brief Method .ctor addr 0xdefbd4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Object info) ;

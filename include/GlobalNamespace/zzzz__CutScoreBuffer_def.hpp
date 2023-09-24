@@ -8,25 +8,22 @@ namespace GlobalNamespace {
 class ICutScoreBufferDidChangeReceiver;
 }
 namespace GlobalNamespace {
-class ISaberSwingRatingCounterDidChangeReceiver;
+class IReadonlyCutScoreBuffer;
 }
 namespace GlobalNamespace {
 class SaberSwingRatingCounter;
 }
 namespace GlobalNamespace {
-class ISaberSwingRatingCounterDidFinishReceiver;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__ScoreModel__NoteScoreDefinition;
-}
-namespace GlobalNamespace {
-class IReadonlyCutScoreBuffer;
+class ICutScoreBufferDidFinishReceiver;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
+class ISaberSwingRatingCounterDidChangeReceiver;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ScoreModel__NoteScoreDefinition;
 }
 namespace GlobalNamespace {
 class ISaberSwingRatingCounter;
@@ -34,6 +31,9 @@ class ISaberSwingRatingCounter;
 namespace GlobalNamespace {
 template<typename T>
 class LazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class ISaberSwingRatingCounterDidFinishReceiver;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -235,8 +235,7 @@ constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDid
 /// @brief Method HandleSaberSwingRatingCounterDidFinish addr 0x210df1c size 0x2b8 virtual true final true
  void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter swingRatingCounter) ;
 
-// Ctor Parameters []
-explicit CutScoreBuffer() ;
+static GlobalNamespace::CutScoreBuffer New_ctor() ;
 
 /// @brief Method .ctor addr 0x210e1d4 size 0xf0 virtual false final false
  void _ctor() ;

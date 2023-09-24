@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__UpdateCatalogsOperation_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__UpdateCatalogsOperation_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c._ctor
 template<>
 
@@ -57,8 +57,10 @@ return ::cordl_internals::getStaticField<UnityEngine::AddressableAssets::UnityEn
  System::Func_2<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider,bool> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c::__get___9__6_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider,bool>, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__UpdateCatalogsOperation____c>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c>::get(),
@@ -123,8 +125,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__U
 constexpr System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0::__get_catalogs() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__UpdateCatalogsOperation____c__DisplayClass11_0>::get(),
@@ -292,8 +296,10 @@ constexpr void UnityEngine::AddressableAssets::UpdateCatalogsOperation::__set_m_
 constexpr bool UnityEngine::AddressableAssets::UpdateCatalogsOperation::__get_m_AutoCleanBundleCache() const {
 return ::cordl_internals::getInstanceField<bool, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "aa", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::UpdateCatalogsOperation::UpdateCatalogsOperation(UnityEngine::AddressableAssets::AddressablesImpl aa)  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator>>(THROW_UNLESS(::il2cpp_utils::New<UpdateCatalogsOperation>(aa))) {}
+ UnityEngine::AddressableAssets::UpdateCatalogsOperation UnityEngine::AddressableAssets::UpdateCatalogsOperation::New_ctor(UnityEngine::AddressableAssets::AddressablesImpl aa)  {
+UnityEngine::AddressableAssets::UpdateCatalogsOperation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UpdateCatalogsOperation>(aa))};
+return o;
+}
  void UnityEngine::AddressableAssets::UpdateCatalogsOperation::_ctor(UnityEngine::AddressableAssets::AddressablesImpl aa)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UpdateCatalogsOperation>::get(),

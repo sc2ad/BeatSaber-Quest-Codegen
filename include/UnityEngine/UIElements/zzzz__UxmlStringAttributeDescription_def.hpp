@@ -11,6 +11,9 @@ namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UxmlStringAttributeDescription____c;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 // Forward declare root types
@@ -77,8 +80,7 @@ static System::Func_3<::StringW,::StringW,::StringW> __get___9__3_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UxmlStringAttributeDescription____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlStringAttributeDescription____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c97ea0 size 0x8 virtual false final false
  void _ctor() ;
@@ -93,7 +95,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.UIElements::UxmlStringAttributeDescription
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7073), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(7073))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7073)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7073), inst: 380 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7075))
 // CS Name: UnityEngine.UIElements.UxmlStringAttributeDescription
 class CORDL_TYPE UxmlStringAttributeDescription : public UnityEngine::UIElements::TypedUxmlAttributeDescription_1<::StringW> {
@@ -134,8 +136,7 @@ constexpr explicit UxmlStringAttributeDescription(void* ptr) noexcept : UnityEng
 
 // Methods
 
-// Ctor Parameters []
-explicit UxmlStringAttributeDescription() ;
+static UnityEngine::UIElements::UxmlStringAttributeDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c97c1c size 0xbc virtual false final false
  void _ctor() ;

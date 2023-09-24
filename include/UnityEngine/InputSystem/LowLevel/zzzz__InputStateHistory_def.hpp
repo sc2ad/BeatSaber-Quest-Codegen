@@ -7,58 +7,73 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename TResult>
-class Func_4;
-}
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
-}
 namespace System {
-class IDisposable;
+template<typename T1,typename T2,typename T3,typename TResult>
+class Func_4;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateChangeMonitor;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace System {
+class IDisposable;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__Record;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace System {
 template<typename T>
-class Action_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateChangeMonitor;
-}
-namespace System {
-template<typename T>
 class IEquatable_1;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithControlIndex_e__FixedBuffer;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory__RecordHeader___m_StateWithoutControlIndex_e__FixedBuffer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -760,26 +775,22 @@ constexpr bool __get_m_AddNewControls() const;
 /// @brief Method set_onShouldRecordStateChange addr 0x296468c size 0x8 virtual false final false
  void set_onShouldRecordStateChange(System::Func_4<UnityEngine::InputSystem::InputControl,double_t,UnityEngine::InputSystem::LowLevel::InputEventPtr,bool> value) ;
 
-// Ctor Parameters [CppParam { name: "maxStateSizeInBytes", ty: "int32_t", modifiers: "", def_value: None }]
-explicit InputStateHistory(int32_t maxStateSizeInBytes) ;
+static UnityEngine::InputSystem::LowLevel::InputStateHistory New_ctor(int32_t maxStateSizeInBytes) ;
 
 /// @brief Method .ctor addr 0x2964694 size 0xb4 virtual false final false
  void _ctor(int32_t maxStateSizeInBytes) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InputStateHistory(::StringW path) ;
+static UnityEngine::InputSystem::LowLevel::InputStateHistory New_ctor(::StringW path) ;
 
 /// @brief Method .ctor addr 0x2964748 size 0x158 virtual false final false
  void _ctor(::StringW path) ;
 
-// Ctor Parameters [CppParam { name: "control", ty: "UnityEngine::InputSystem::InputControl", modifiers: "", def_value: None }]
-explicit InputStateHistory(UnityEngine::InputSystem::InputControl control) ;
+static UnityEngine::InputSystem::LowLevel::InputStateHistory New_ctor(UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method .ctor addr 0x29648a0 size 0xfc virtual false final false
  void _ctor(UnityEngine::InputSystem::InputControl control) ;
 
-// Ctor Parameters [CppParam { name: "controls", ty: "System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl>", modifiers: "", def_value: None }]
-explicit InputStateHistory(System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl> controls) ;
+static UnityEngine::InputSystem::LowLevel::InputStateHistory New_ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl> controls) ;
 
 /// @brief Method .ctor addr 0x296499c size 0x7c virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl> controls) ;

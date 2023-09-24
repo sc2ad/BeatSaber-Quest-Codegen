@@ -6,7 +6,11 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Threading {
-struct CancellationToken;
+class System__Threading__SemaphoreSlim__TaskNode;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace System {
 class IDisposable;
@@ -14,25 +18,31 @@ class IDisposable;
 namespace System::Threading {
 class ManualResetEvent;
 }
+namespace System::Threading {
+struct System__Threading__SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace System::Threading {
-class IThreadPoolWorkItem;
 }
 namespace System::Threading {
 class ThreadAbortException;
 }
+namespace System::Threading {
+class IThreadPoolWorkItem;
+}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Threading {
 class CancellationTokenSource;
@@ -40,10 +50,6 @@ class CancellationTokenSource;
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -115,8 +121,7 @@ constexpr System::Threading::System__Threading__SemaphoreSlim__TaskNode __get_Ne
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__SemaphoreSlim__TaskNode() ;
+static System::Threading::System__Threading__SemaphoreSlim__TaskNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x24a79e8 size 0x48 virtual false final false
  void _ctor() ;
@@ -373,14 +378,12 @@ static System::Action_1<::bs_hook::Il2CppWrapperType> __get_s_cancellationTokenC
 /// @brief Method get_CurrentCount addr 0x24a6d24 size 0x18 virtual false final false
  int32_t get_CurrentCount() ;
 
-// Ctor Parameters [CppParam { name: "initialCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SemaphoreSlim(int32_t initialCount) ;
+static System::Threading::SemaphoreSlim New_ctor(int32_t initialCount) ;
 
 /// @brief Method .ctor addr 0x24a6d3c size 0x8 virtual false final false
  void _ctor(int32_t initialCount) ;
 
-// Ctor Parameters [CppParam { name: "initialCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SemaphoreSlim(int32_t initialCount, int32_t maxCount) ;
+static System::Threading::SemaphoreSlim New_ctor(int32_t initialCount, int32_t maxCount) ;
 
 /// @brief Method .ctor addr 0x24a6d44 size 0x194 virtual false final false
  void _ctor(int32_t initialCount, int32_t maxCount) ;

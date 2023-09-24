@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/Srp/zzzz__Srp6Server_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server._ctor
@@ -252,8 +252,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server::__set_Key(
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server::__get_Key() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server::Srp6Server()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Srp6Server>())) {}
+ Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server::New_ctor()  {
+Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server>::get(),

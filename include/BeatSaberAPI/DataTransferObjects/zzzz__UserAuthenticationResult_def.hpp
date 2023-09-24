@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace BeatSaberAPI::DataTransferObjects {
-class UserInfo;
+class AccessToken;
 }
 namespace BeatSaberAPI::DataTransferObjects {
-class AccessToken;
+class UserInfo;
 }
 // Forward declare root types
 namespace BeatSaberAPI::DataTransferObjects {
@@ -68,8 +68,7 @@ constexpr BeatSaberAPI::DataTransferObjects::AccessToken __get_accessToken() con
 
 // Methods
 
-// Ctor Parameters []
-explicit UserAuthenticationResult() ;
+static BeatSaberAPI::DataTransferObjects::UserAuthenticationResult New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d737c size 0x8 virtual false final false
  void _ctor() ;

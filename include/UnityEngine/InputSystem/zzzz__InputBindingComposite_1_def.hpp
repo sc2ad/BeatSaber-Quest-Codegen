@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace System {
 class Type;
 }
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -47,10 +47,10 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template<>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6273)), TypeDefinitionIndex(TypeDefinitionIndex(6272))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 374 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6272)), TypeDefinitionIndex(TypeDefinitionIndex(6273))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 3222 })
 // CS Name: UnityEngine.InputSystem.InputBindingComposite`1
-class CORDL_TYPE InputBindingComposite_1<float_t> : public UnityEngine::InputSystem::InputBindingComposite {
+class CORDL_TYPE InputBindingComposite_1<UnityEngine::Quaternion> : public UnityEngine::InputSystem::InputBindingComposite {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -100,7 +100,7 @@ constexpr explicit InputBindingComposite_1(void* ptr) noexcept : UnityEngine::In
  int32_t get_valueSizeInBytes() ;
 
 /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
- float_t ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ UnityEngine::Quaternion ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
  void ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context, void* buffer, int32_t bufferSize) ;
@@ -108,8 +108,82 @@ constexpr explicit InputBindingComposite_1(void* ptr) noexcept : UnityEngine::In
 /// @brief Method ReadValueAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
  ::bs_hook::Il2CppWrapperType ReadValueAsObject(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
-// Ctor Parameters []
-explicit InputBindingComposite_1() ;
+static UnityEngine::InputSystem::InputBindingComposite_1<UnityEngine::Quaternion> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::InputSystem
+// Type: UnityEngine.InputSystem::InputBindingComposite`1
+namespace UnityEngine::InputSystem {
+// cpp template
+template<>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6273)), TypeDefinitionIndex(TypeDefinitionIndex(6272))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 394 })
+// CS Name: UnityEngine.InputSystem.InputBindingComposite`1
+class CORDL_TYPE InputBindingComposite_1<UnityEngine::Vector3> : public UnityEngine::InputSystem::InputBindingComposite {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~InputBindingComposite_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite_1", modifiers: " const&", def_value: None }]
+constexpr InputBindingComposite_1(InputBindingComposite_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite_1", modifiers: "&&", def_value: None }]
+constexpr InputBindingComposite_1(InputBindingComposite_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit InputBindingComposite_1(void* ptr) noexcept : UnityEngine::InputSystem::InputBindingComposite(ptr) {
+}
+
+
+  constexpr InputBindingComposite_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr InputBindingComposite_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr InputBindingComposite_1& operator=(InputBindingComposite_1&& o) noexcept = default;
+  constexpr InputBindingComposite_1& operator=(InputBindingComposite_1 const& o) noexcept = default;
+                
+
+
+// Properties
+
+ System::Type __declspec(property(get=get_valueType))  valueType;
+
+ int32_t __declspec(property(get=get_valueSizeInBytes))  valueSizeInBytes;
+
+
+// Methods
+
+/// @brief Method get_valueType addr 0x0 size 0xffffffffffffffff virtual true final false
+ System::Type get_valueType() ;
+
+/// @brief Method get_valueSizeInBytes addr 0x0 size 0xffffffffffffffff virtual true final false
+ int32_t get_valueSizeInBytes() ;
+
+/// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
+ UnityEngine::Vector3 ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+
+/// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
+ void ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context, void* buffer, int32_t bufferSize) ;
+
+/// @brief Method ReadValueAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
+ ::bs_hook::Il2CppWrapperType ReadValueAsObject(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+
+static UnityEngine::InputSystem::InputBindingComposite_1<UnityEngine::Vector3> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -184,8 +258,7 @@ constexpr explicit InputBindingComposite_1(void* ptr) noexcept : UnityEngine::In
 /// @brief Method ReadValueAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
  ::bs_hook::Il2CppWrapperType ReadValueAsObject(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
-// Ctor Parameters []
-explicit InputBindingComposite_1() ;
+static UnityEngine::InputSystem::InputBindingComposite_1<UnityEngine::Vector2> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -200,9 +273,9 @@ namespace UnityEngine::InputSystem {
 template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6272)), TypeDefinitionIndex(TypeDefinitionIndex(6273))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 394 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 374 })
 // CS Name: UnityEngine.InputSystem.InputBindingComposite`1
-class CORDL_TYPE InputBindingComposite_1<UnityEngine::Vector3> : public UnityEngine::InputSystem::InputBindingComposite {
+class CORDL_TYPE InputBindingComposite_1<float_t> : public UnityEngine::InputSystem::InputBindingComposite {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -252,7 +325,7 @@ constexpr explicit InputBindingComposite_1(void* ptr) noexcept : UnityEngine::In
  int32_t get_valueSizeInBytes() ;
 
 /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
- UnityEngine::Vector3 ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
+ float_t ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
 /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
  void ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context, void* buffer, int32_t bufferSize) ;
@@ -260,84 +333,7 @@ constexpr explicit InputBindingComposite_1(void* ptr) noexcept : UnityEngine::In
 /// @brief Method ReadValueAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
  ::bs_hook::Il2CppWrapperType ReadValueAsObject(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
-// Ctor Parameters []
-explicit InputBindingComposite_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def UnityEngine::InputSystem
-// Type: UnityEngine.InputSystem::InputBindingComposite`1
-namespace UnityEngine::InputSystem {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6273)), TypeDefinitionIndex(TypeDefinitionIndex(6272))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 3222 })
-// CS Name: UnityEngine.InputSystem.InputBindingComposite`1
-class CORDL_TYPE InputBindingComposite_1<UnityEngine::Quaternion> : public UnityEngine::InputSystem::InputBindingComposite {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~InputBindingComposite_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite_1", modifiers: " const&", def_value: None }]
-constexpr InputBindingComposite_1(InputBindingComposite_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite_1", modifiers: "&&", def_value: None }]
-constexpr InputBindingComposite_1(InputBindingComposite_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InputBindingComposite_1(void* ptr) noexcept : UnityEngine::InputSystem::InputBindingComposite(ptr) {
-}
-
-
-  constexpr InputBindingComposite_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr InputBindingComposite_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr InputBindingComposite_1& operator=(InputBindingComposite_1&& o) noexcept = default;
-  constexpr InputBindingComposite_1& operator=(InputBindingComposite_1 const& o) noexcept = default;
-                
-
-
-// Properties
-
- System::Type __declspec(property(get=get_valueType))  valueType;
-
- int32_t __declspec(property(get=get_valueSizeInBytes))  valueSizeInBytes;
-
-
-// Methods
-
-/// @brief Method get_valueType addr 0x0 size 0xffffffffffffffff virtual true final false
- System::Type get_valueType() ;
-
-/// @brief Method get_valueSizeInBytes addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t get_valueSizeInBytes() ;
-
-/// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
- UnityEngine::Quaternion ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
-
-/// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
- void ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context, void* buffer, int32_t bufferSize) ;
-
-/// @brief Method ReadValueAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType ReadValueAsObject(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
-
-// Ctor Parameters []
-explicit InputBindingComposite_1() ;
+static UnityEngine::InputSystem::InputBindingComposite_1<float_t> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

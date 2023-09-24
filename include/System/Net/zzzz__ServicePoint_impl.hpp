@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Net/zzzz__ServicePoint_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Net/zzzz__BindIPEndPoint_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/Net/zzzz__ServicePointManager_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
 #include "System/zzzz__Version_def.hpp"
-#include "System/Net/zzzz__ServicePointScheduler_def.hpp"
 #include "System/Net/zzzz__IPHostEntry_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Net/zzzz__BindIPEndPoint_def.hpp"
+#include "System/Net/zzzz__ServicePointManager_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Net/zzzz__ServicePointScheduler_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 //  Writing Method size for method: System::Net::ServicePoint._ctor
 template<>
 
@@ -619,8 +619,10 @@ constexpr void System::Net::ServicePoint::__set_m_ClientCertificateOrBytes(::bs_
 constexpr ::bs_hook::Il2CppWrapperType System::Net::ServicePoint::__get_m_ClientCertificateOrBytes() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x88>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "System::Net::System__Net__ServicePointManager__SPKey", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "connectionLimit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxIdleTime", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::ServicePoint::ServicePoint(System::Net::System__Net__ServicePointManager__SPKey key, System::Uri uri, int32_t connectionLimit, int32_t maxIdleTime)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServicePoint>(key, uri, connectionLimit, maxIdleTime))) {}
+ System::Net::ServicePoint System::Net::ServicePoint::New_ctor(System::Net::System__Net__ServicePointManager__SPKey key, System::Uri uri, int32_t connectionLimit, int32_t maxIdleTime)  {
+System::Net::ServicePoint o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ServicePoint>(key, uri, connectionLimit, maxIdleTime))};
+return o;
+}
  void System::Net::ServicePoint::_ctor(System::Net::System__Net__ServicePointManager__SPKey key, System::Uri uri, int32_t connectionLimit, int32_t maxIdleTime)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ServicePoint>::get(),

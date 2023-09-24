@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputDeviceCommandInfo;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

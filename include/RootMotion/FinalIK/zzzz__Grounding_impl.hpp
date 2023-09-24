@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -1045,8 +1046,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Leg::RootMotion__FinalIK__Grounding__Leg()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__Grounding__Leg>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Leg RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Leg::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Leg o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Leg>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Leg::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Leg>::get(),
@@ -1323,8 +1326,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, lowestOffset, highestOffset, isGrounded);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Pelvis::RootMotion__FinalIK__Grounding__Pelvis()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__Grounding__Pelvis>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Pelvis RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Pelvis::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Pelvis o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Pelvis>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Pelvis::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__Grounding__Pelvis>::get(),
@@ -2094,8 +2099,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::Grounding::Grounding()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Grounding>())) {}
+ RootMotion::FinalIK::Grounding RootMotion::FinalIK::Grounding::New_ctor()  {
+RootMotion::FinalIK::Grounding o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::Grounding>())};
+return o;
+}
  void RootMotion::FinalIK::Grounding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::Grounding>::get(),

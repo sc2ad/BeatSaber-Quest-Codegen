@@ -13,7 +13,7 @@ class MessageWithShareMediaResult;
 // Type: Oculus.Platform::MessageWithShareMediaResult
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13475)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4476 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4476 }), TypeDefinitionIndex(TypeDefinitionIndex(13475))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13280))
 // CS Name: Oculus.Platform.MessageWithShareMediaResult
 class CORDL_TYPE MessageWithShareMediaResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::ShareMediaResult> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithShareMediaResult(void* ptr) noexcept : Oculus::Pla
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithShareMediaResult(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithShareMediaResult New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f298 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/Sockets/zzzz__TcpListener_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Net/zzzz__EndPoint_def.hpp"
 //  Writing Method size for method: System::Net::Sockets::TcpListener._ctor
 template<>
@@ -150,8 +150,10 @@ constexpr void System::Net::Sockets::TcpListener::__set_m_ExclusiveAddressUse(bo
 constexpr bool System::Net::Sockets::TcpListener::__get_m_ExclusiveAddressUse() const {
 return ::cordl_internals::getInstanceField<bool, 0x21>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "localaddr", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::Sockets::TcpListener::TcpListener(System::Net::IPAddress localaddr, int32_t port)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TcpListener>(localaddr, port))) {}
+ System::Net::Sockets::TcpListener System::Net::Sockets::TcpListener::New_ctor(System::Net::IPAddress localaddr, int32_t port)  {
+System::Net::Sockets::TcpListener o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::TcpListener>(localaddr, port))};
+return o;
+}
  void System::Net::Sockets::TcpListener::_ctor(System::Net::IPAddress localaddr, int32_t port)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::TcpListener>::get(),

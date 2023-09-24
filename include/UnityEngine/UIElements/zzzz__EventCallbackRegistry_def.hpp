@@ -7,25 +7,25 @@ template<typename TEventType>
 class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
+struct InvokePolicy;
+}
+namespace UnityEngine::UIElements {
+class EventCallbackListPool;
+}
+namespace UnityEngine::UIElements {
 struct PropagationPhase;
+}
+namespace System {
+class Delegate;
 }
 namespace UnityEngine::UIElements {
 class EventCallbackList;
-}
-namespace UnityEngine::UIElements {
-struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
 struct TrickleDown;
-}
-namespace UnityEngine::UIElements {
-class EventCallbackListPool;
-}
-namespace System {
-class Delegate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -106,8 +106,7 @@ static UnityEngine::UIElements::EventCallbackList GetCallbackList(UnityEngine::U
 /// @brief Method ReleaseCallbackList addr 0x2cd42e0 size 0x68 virtual false final false
 static void ReleaseCallbackList(UnityEngine::UIElements::EventCallbackList toRelease) ;
 
-// Ctor Parameters []
-explicit EventCallbackRegistry() ;
+static UnityEngine::UIElements::EventCallbackRegistry New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd4348 size 0x1c virtual false final false
  void _ctor() ;

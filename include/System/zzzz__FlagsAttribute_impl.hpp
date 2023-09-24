@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::FlagsAttribute::FlagsAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<FlagsAttribute>())) {}
+ System::FlagsAttribute System::FlagsAttribute::New_ctor()  {
+System::FlagsAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::FlagsAttribute>())};
+return o;
+}
  void System::FlagsAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::FlagsAttribute>::get(),

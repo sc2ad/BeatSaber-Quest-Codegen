@@ -1,17 +1,18 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedHelper_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientInfo_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientInfo_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformationStore_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedHelper_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable._ctor
 template<>
 
@@ -102,8 +103,10 @@ constexpr void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelpe
 constexpr Org::BouncyCastle::Cms::CmsReadable Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable::__get_readable() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Cms::CmsReadable, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "readable", ty: "Org::BouncyCastle::Cms::CmsReadable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable>(algorithm, readable))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable>(algorithm, readable))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsAuthenticatedSecureReadable>::get(),
@@ -230,8 +233,10 @@ constexpr void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelpe
 constexpr Org::BouncyCastle::Cms::CmsReadable Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable::__get_readable() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Cms::CmsReadable, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "readable", ty: "Org::BouncyCastle::Cms::CmsReadable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable>(algorithm, readable))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable>(algorithm, readable))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithm, Org::BouncyCastle::Cms::CmsReadable readable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsEnvelopedHelper__CmsEnvelopedSecureReadable>::get(),
@@ -485,8 +490,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, infos, info, secureReadable);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsEnvelopedHelper::CmsEnvelopedHelper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsEnvelopedHelper>())) {}
+ Org::BouncyCastle::Cms::CmsEnvelopedHelper Org::BouncyCastle::Cms::CmsEnvelopedHelper::New_ctor()  {
+Org::BouncyCastle::Cms::CmsEnvelopedHelper o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsEnvelopedHelper>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsEnvelopedHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsEnvelopedHelper>::get(),

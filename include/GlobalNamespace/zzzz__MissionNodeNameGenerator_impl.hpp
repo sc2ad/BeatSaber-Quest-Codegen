@@ -25,8 +25,10 @@ constexpr void GlobalNamespace::MissionNodeNameGenerator::__set__missionNodesMan
 constexpr GlobalNamespace::MissionNodesManager GlobalNamespace::MissionNodeNameGenerator::__get__missionNodesManager() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MissionNodesManager, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionNodeNameGenerator::MissionNodeNameGenerator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionNodeNameGenerator>())) {}
+ GlobalNamespace::MissionNodeNameGenerator GlobalNamespace::MissionNodeNameGenerator::New_ctor()  {
+GlobalNamespace::MissionNodeNameGenerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionNodeNameGenerator>())};
+return o;
+}
  void GlobalNamespace::MissionNodeNameGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionNodeNameGenerator>::get(),

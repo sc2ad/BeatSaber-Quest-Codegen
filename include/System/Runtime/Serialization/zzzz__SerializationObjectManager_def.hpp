@@ -1,15 +1,15 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace System::Runtime::Serialization {
 class SerializationEventHandler;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -78,8 +78,7 @@ constexpr System::Runtime::Serialization::SerializationEventHandler __get__onSer
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit SerializationObjectManager(System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::Serialization::SerializationObjectManager New_ctor(System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2349714 size 0x94 virtual false final false
  void _ctor(System::Runtime::Serialization::StreamingContext context) ;

@@ -3,22 +3,22 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -110,14 +110,12 @@ static Org::BouncyCastle::Asn1::Ocsp::CertID GetInstance(Org::BouncyCastle::Asn1
 /// @brief Method GetInstance addr 0xef1934 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Ocsp::CertID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "issuerNameHash", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "issuerKeyHash", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "serialNumber", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
-explicit CertID(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString issuerNameHash, Org::BouncyCastle::Asn1::Asn1OctetString issuerKeyHash, Org::BouncyCastle::Asn1::DerInteger serialNumber) ;
+static Org::BouncyCastle::Asn1::Ocsp::CertID New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString issuerNameHash, Org::BouncyCastle::Asn1::Asn1OctetString issuerKeyHash, Org::BouncyCastle::Asn1::DerInteger serialNumber) ;
 
 /// @brief Method .ctor addr 0xef1be0 size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString issuerNameHash, Org::BouncyCastle::Asn1::Asn1OctetString issuerKeyHash, Org::BouncyCastle::Asn1::DerInteger serialNumber) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ocsp::CertID New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef1abc size 0x124 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

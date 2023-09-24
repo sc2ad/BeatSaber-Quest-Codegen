@@ -2,8 +2,9 @@
 #include "RootMotion/FinalIK/zzzz__OffsetModifier_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__PenetrationAvoidance_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__PenetrationAvoidance_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink._ctor
@@ -35,8 +36,10 @@ constexpr void GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoid
 constexpr float_t GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink::__get_weight() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink>())) {}
+ GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink::New_ctor()  {
+GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink>())};
+return o;
+}
  void GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RootMotion__FinalIK__PenetrationAvoidance__Avoider__EffectorLink>::get(),
@@ -201,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method, from, to);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__PenetrationAvoidance__Avoider::RootMotion__FinalIK__PenetrationAvoidance__Avoider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__PenetrationAvoidance__Avoider>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__PenetrationAvoidance__Avoider RootMotion::FinalIK::RootMotion__FinalIK__PenetrationAvoidance__Avoider::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__PenetrationAvoidance__Avoider o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__PenetrationAvoidance__Avoider>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__PenetrationAvoidance__Avoider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__PenetrationAvoidance__Avoider>::get(),
@@ -261,8 +266,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::PenetrationAvoidance::PenetrationAvoidance()  : RootMotion::FinalIK::OffsetModifier(THROW_UNLESS(::il2cpp_utils::New<PenetrationAvoidance>())) {}
+ RootMotion::FinalIK::PenetrationAvoidance RootMotion::FinalIK::PenetrationAvoidance::New_ctor()  {
+RootMotion::FinalIK::PenetrationAvoidance o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::PenetrationAvoidance>())};
+return o;
+}
  void RootMotion::FinalIK::PenetrationAvoidance::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::PenetrationAvoidance>::get(),

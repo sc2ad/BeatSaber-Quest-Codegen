@@ -3,21 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
-}
-namespace UnityEngine::TextCore::Text {
-class TextColorGradient;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine::TextCore::Text {
+class TextColorGradient;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -154,8 +154,7 @@ static bool TryGetMaterial(int32_t hashCode, ByRef<UnityEngine::Material> materi
 /// @brief Method TryGetMaterialInternal addr 0x2bc9574 size 0x6c virtual false final false
  bool TryGetMaterialInternal(int32_t hashCode, ByRef<UnityEngine::Material> material) ;
 
-// Ctor Parameters []
-explicit MaterialReferenceManager() ;
+static UnityEngine::TextCore::Text::MaterialReferenceManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bc8ea4 size 0x148 virtual false final false
  void _ctor() ;

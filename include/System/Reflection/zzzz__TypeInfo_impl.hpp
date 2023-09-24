@@ -20,8 +20,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
   }
 };
 constexpr System::Reflection::BindingFlags  System::Reflection::TypeInfo::DeclaredOnlyLookup{62};
-// Ctor Parameters []
- System::Reflection::TypeInfo::TypeInfo()  : System::Type(THROW_UNLESS(::il2cpp_utils::New<TypeInfo>())) {}
+ System::Reflection::TypeInfo System::Reflection::TypeInfo::New_ctor()  {
+System::Reflection::TypeInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::TypeInfo>())};
+return o;
+}
  void System::Reflection::TypeInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::TypeInfo>::get(),

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute::PreventReadOnlyInstanceModificationAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PreventReadOnlyInstanceModificationAttribute>())) {}
+ UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute::New_ctor()  {
+UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute>())};
+return o;
+}
  void UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute>::get(),

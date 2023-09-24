@@ -6,22 +6,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__UxmlAttributeDescription__Use;
+}
+namespace UnityEngine::UIElements {
+class UxmlTypeRestriction;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
 namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
-}
-namespace UnityEngine::UIElements {
-class UxmlTypeRestriction;
-}
-namespace UnityEngine::UIElements {
 struct CreationContext;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -81,6 +84,8 @@ __Required = 3,
 constexpr operator __UnityEngine__UIElements__UxmlAttributeDescription__Use_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__UxmlAttributeDescription__Use_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -205,8 +210,7 @@ constexpr UnityEngine::UIElements::UxmlTypeRestriction __get__restriction_k__Bac
 
 // Methods
 
-// Ctor Parameters []
-explicit UxmlAttributeDescription() ;
+static UnityEngine::UIElements::UxmlAttributeDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c966f8 size 0x24 virtual false final false
  void _ctor() ;

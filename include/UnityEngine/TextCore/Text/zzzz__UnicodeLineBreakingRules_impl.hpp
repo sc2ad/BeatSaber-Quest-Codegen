@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__UnicodeLineBreakingRules_def.hpp"
-#include "UnityEngine/zzzz__TextAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/zzzz__TextAsset_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Text::UnicodeLineBreakingRules.get_leadingCharactersLookup
 template<>
 
@@ -165,8 +165,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::HashSet_1<uint32_t>, false>(nullptr, ___internal_method, file);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::UnicodeLineBreakingRules::UnicodeLineBreakingRules()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnicodeLineBreakingRules>())) {}
+ UnityEngine::TextCore::Text::UnicodeLineBreakingRules UnityEngine::TextCore::Text::UnicodeLineBreakingRules::New_ctor()  {
+UnityEngine::TextCore::Text::UnicodeLineBreakingRules o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::UnicodeLineBreakingRules>())};
+return o;
+}
  void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::UnicodeLineBreakingRules>::get(),

@@ -73,14 +73,12 @@ constexpr ::StringW __get_value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XComment(::StringW value) ;
+static System::Xml::Linq::XComment New_ctor(::StringW value) ;
 
 /// @brief Method .ctor addr 0x26c9428 size 0x78 virtual false final false
  void _ctor(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XComment", modifiers: "", def_value: None }]
-explicit XComment(System::Xml::Linq::XComment other) ;
+static System::Xml::Linq::XComment New_ctor(System::Xml::Linq::XComment other) ;
 
 /// @brief Method .ctor addr 0x26c94a8 size 0x7c virtual false final false
  void _ctor(System::Xml::Linq::XComment other) ;

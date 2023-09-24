@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore::MessageWithDataStoreUnderPublicUserDataStore(::cordl_internals::intptr_t c_message)  : Oculus::Platform::Message_1<System::Collections::Generic::Dictionary_2<::StringW,::StringW>>(THROW_UNLESS(::il2cpp_utils::New<MessageWithDataStoreUnderPublicUserDataStore>(c_message))) {}
+ Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore::New_ctor(::cordl_internals::intptr_t c_message)  {
+Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore>(c_message))};
+return o;
+}
  void Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore::_ctor(::cordl_internals::intptr_t c_message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore>::get(),

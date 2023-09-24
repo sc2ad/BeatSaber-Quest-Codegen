@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CallbacksInTime_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
@@ -149,8 +149,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "aheadTime", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::CallbacksInTime::CallbacksInTime(float_t aheadTime)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CallbacksInTime>(aheadTime))) {}
+ GlobalNamespace::CallbacksInTime GlobalNamespace::CallbacksInTime::New_ctor(float_t aheadTime)  {
+GlobalNamespace::CallbacksInTime o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CallbacksInTime>(aheadTime))};
+return o;
+}
  void GlobalNamespace::CallbacksInTime::_ctor(float_t aheadTime)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CallbacksInTime>::get(),

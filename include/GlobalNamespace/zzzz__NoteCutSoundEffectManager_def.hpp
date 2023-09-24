@@ -6,30 +6,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__NoteCutSoundEffect__Pool;
+}
 namespace UnityEngine {
 class AudioClip;
-}
-namespace GlobalNamespace {
-class SaberManager;
 }
 namespace GlobalNamespace {
 class INoteCutSoundEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__NoteCutSoundEffect__Pool;
+class GlobalNamespace__NoteCutSoundEffectManager__InitData;
+}
+namespace GlobalNamespace {
+template<typename T>
+class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-class AudioManagerSO;
-}
-namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-template<typename T>
-class RandomObjectPicker_1;
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 namespace GlobalNamespace {
 class NoteCutSoundEffect;
@@ -39,10 +42,10 @@ template<typename T>
 class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
+class AudioManagerSO;
 }
 namespace GlobalNamespace {
-class NoteData;
+class SaberManager;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
@@ -111,8 +114,7 @@ constexpr bool __get_ignoreBadCuts() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "useTestAudioClips", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ignoreBadCuts", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__NoteCutSoundEffectManager__InitData(bool useTestAudioClips, bool ignoreBadCuts) ;
+static GlobalNamespace::GlobalNamespace__NoteCutSoundEffectManager__InitData New_ctor(bool useTestAudioClips, bool ignoreBadCuts) ;
 
 /// @brief Method .ctor addr 0x20bd200 size 0x30 virtual false final false
  void _ctor(bool useTestAudioClips, bool ignoreBadCuts) ;
@@ -329,8 +331,7 @@ constexpr GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEf
 /// @brief Method IsSupportedNote addr 0x20bcebc size 0x3c virtual false final false
  bool IsSupportedNote(GlobalNamespace::NoteData noteData) ;
 
-// Ctor Parameters []
-explicit NoteCutSoundEffectManager() ;
+static GlobalNamespace::NoteCutSoundEffectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bd180 size 0x80 virtual false final false
  void _ctor() ;

@@ -68,8 +68,7 @@ constexpr explicit TlsECDsaSigner(void* ptr) noexcept : Org::BouncyCastle::Crypt
 /// @brief Method get_SignatureAlgorithm addr 0xf1edf0 size 0x8 virtual true final false
  uint8_t get_SignatureAlgorithm() ;
 
-// Ctor Parameters []
-explicit TlsECDsaSigner() ;
+static Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner New_ctor() ;
 
 /// @brief Method .ctor addr 0xf1cec4 size 0x8 virtual false final false
  void _ctor() ;

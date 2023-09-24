@@ -6,20 +6,26 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
+struct GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeType;
 }
 namespace GlobalNamespace {
 class MultiplayerCenterResizeController;
 }
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData;
+}
+namespace GlobalNamespace {
+class BeatmapObjectSpawnCenter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,6 +87,8 @@ __Length = 2,
 constexpr operator __GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -196,8 +204,7 @@ constexpr ::ArrayW<UnityEngine::Transform> __get__otherTransforms() const;
 /// @brief Method get_otherTransforms addr 0x20f7790 size 0x8 virtual false final false
  ::ArrayW<UnityEngine::Transform> get_otherTransforms() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerEnvironmentResizeController__ResizeData New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f7798 size 0x8 virtual false final false
  void _ctor() ;
@@ -335,8 +342,7 @@ constexpr bool __get__spawnCenterDistanceFound() const;
 /// @brief Method Resize addr 0x20f7588 size 0x1e8 virtual false final false
  void Resize() ;
 
-// Ctor Parameters []
-explicit MultiplayerEnvironmentResizeController() ;
+static GlobalNamespace::MultiplayerEnvironmentResizeController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f7770 size 0x8 virtual false final false
  void _ctor() ;

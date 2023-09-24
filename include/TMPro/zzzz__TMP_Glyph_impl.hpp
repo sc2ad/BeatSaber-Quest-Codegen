@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<TMPro::TMP_Glyph, false>(nullptr, ___internal_method, source);
 }
-// Ctor Parameters []
- TMPro::TMP_Glyph::TMP_Glyph()  : TMPro::TMP_TextElement_Legacy(THROW_UNLESS(::il2cpp_utils::New<TMP_Glyph>())) {}
+ TMPro::TMP_Glyph TMPro::TMP_Glyph::New_ctor()  {
+TMPro::TMP_Glyph o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Glyph>())};
+return o;
+}
  void TMPro::TMP_Glyph::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Glyph>::get(),

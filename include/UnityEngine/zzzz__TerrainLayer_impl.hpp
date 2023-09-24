@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TerrainLayer_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 //  Writing Method size for method: UnityEngine::TerrainLayer._ctor
 template<>
 
@@ -566,8 +566,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::TerrainLayer::TerrainLayer()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<TerrainLayer>())) {}
+ UnityEngine::TerrainLayer UnityEngine::TerrainLayer::New_ctor()  {
+UnityEngine::TerrainLayer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TerrainLayer>())};
+return o;
+}
  void UnityEngine::TerrainLayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TerrainLayer>::get(),

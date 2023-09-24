@@ -8,11 +8,11 @@
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
+namespace System {
+class Type;
+}
 namespace System::Xml {
 class IXmlNamespaceResolver;
-}
-namespace System {
-class Exception;
 }
 namespace System::Xml {
 class XmlNameTable;
@@ -21,7 +21,7 @@ namespace System::Xml::Schema {
 class FacetsChecker;
 }
 namespace System {
-class Type;
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -119,8 +119,7 @@ static System::Xml::Schema::FacetsChecker __get_numeric10FacetsChecker() ;
 /// @brief Method TryParseValue addr 0x2728dd0 size 0x140 virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_int() ;
+static System::Xml::Schema::Datatype_int New_ctor() ;
 
 /// @brief Method .ctor addr 0x2728f10 size 0x54 virtual false final false
  void _ctor() ;

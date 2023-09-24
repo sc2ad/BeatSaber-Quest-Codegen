@@ -5,9 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Globalization {
 class NumberFormatInfo;
 }
 namespace System {
@@ -15,6 +12,9 @@ class Type;
 }
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -69,8 +69,7 @@ constexpr explicit BaseNumberConverter(void* ptr) noexcept : System::ComponentMo
 
 // Methods
 
-// Ctor Parameters []
-explicit BaseNumberConverter() ;
+static System::ComponentModel::BaseNumberConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2773c54 size 0x8 virtual false final false
  void _ctor() ;

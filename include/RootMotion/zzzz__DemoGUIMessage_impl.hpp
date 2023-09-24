@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::DemoGUIMessage::DemoGUIMessage()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DemoGUIMessage>())) {}
+ RootMotion::DemoGUIMessage RootMotion::DemoGUIMessage::New_ctor()  {
+RootMotion::DemoGUIMessage o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::DemoGUIMessage>())};
+return o;
+}
  void RootMotion::DemoGUIMessage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::DemoGUIMessage>::get(),

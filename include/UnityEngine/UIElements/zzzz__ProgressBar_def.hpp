@@ -2,6 +2,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__AbstractProgressBar_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__ProgressBar__UxmlFactory;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class ProgressBar;
@@ -53,8 +56,7 @@ constexpr explicit ProgressBar(void* ptr) noexcept : UnityEngine::UIElements::Ab
 
 // Methods
 
-// Ctor Parameters []
-explicit ProgressBar() ;
+static UnityEngine::UIElements::ProgressBar New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc227c size 0x54 virtual false final false
  void _ctor() ;
@@ -66,7 +68,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7214)), TypeDefinitionIndex(TypeDefinitionIndex(7217)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5097 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7217)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5097 }), TypeDefinitionIndex(TypeDefinitionIndex(7214))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7216))
 // CS Name: UnityEngine.UIElements.ProgressBar::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__ProgressBar__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::ProgressBar,UnityEngine::UIElements::UnityEngine__UIElements__AbstractProgressBar__UxmlTraits> {
@@ -105,8 +107,7 @@ constexpr explicit UnityEngine__UIElements__ProgressBar__UxmlFactory(void* ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__ProgressBar__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__ProgressBar__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc22d0 size 0x48 virtual false final false
  void _ctor() ;

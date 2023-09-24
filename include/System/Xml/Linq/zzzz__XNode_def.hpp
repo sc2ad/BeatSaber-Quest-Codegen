@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml::Linq {
-struct SaveOptions;
-}
 namespace System::Xml {
 class XmlWriter;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Xml::Linq {
+struct SaveOptions;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -66,8 +66,7 @@ constexpr System::Xml::Linq::XNode __get_next() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XNode() ;
+static System::Xml::Linq::XNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x26c94a0 size 0x8 virtual false final false
  void _ctor() ;

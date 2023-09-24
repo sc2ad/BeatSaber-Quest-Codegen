@@ -42,8 +42,10 @@ constexpr void UnityEngine::AndroidJavaRunnableProxy::__set_mRunnable(UnityEngin
 constexpr UnityEngine::AndroidJavaRunnable UnityEngine::AndroidJavaRunnableProxy::__get_mRunnable() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AndroidJavaRunnable, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "runnable", ty: "UnityEngine::AndroidJavaRunnable", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaRunnableProxy::AndroidJavaRunnableProxy(UnityEngine::AndroidJavaRunnable runnable)  : UnityEngine::AndroidJavaProxy(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaRunnableProxy>(runnable))) {}
+ UnityEngine::AndroidJavaRunnableProxy UnityEngine::AndroidJavaRunnableProxy::New_ctor(UnityEngine::AndroidJavaRunnable runnable)  {
+UnityEngine::AndroidJavaRunnableProxy o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaRunnableProxy>(runnable))};
+return o;
+}
  void UnityEngine::AndroidJavaRunnableProxy::_ctor(UnityEngine::AndroidJavaRunnable runnable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaRunnableProxy>::get(),

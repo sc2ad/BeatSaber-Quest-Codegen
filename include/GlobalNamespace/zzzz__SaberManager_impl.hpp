@@ -4,6 +4,7 @@
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SaberManager__InitData._ctor
 template<>
 
@@ -33,8 +34,11 @@ constexpr void GlobalNamespace::GlobalNamespace__SaberManager__InitData::__set_o
 constexpr GlobalNamespace::SaberType GlobalNamespace::GlobalNamespace__SaberManager__InitData::__get_oneSaberType() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::SaberType, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "oneSaberMode", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "oneSaberType", ty: "GlobalNamespace::SaberType", modifiers: "", def_value: Some("0") }]
- GlobalNamespace::GlobalNamespace__SaberManager__InitData::GlobalNamespace__SaberManager__InitData(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SaberManager__InitData>(oneSaberMode, oneSaberType))) {}
+/// @param oneSaberType: GlobalNamespace::SaberType (default: 0)
+ GlobalNamespace::GlobalNamespace__SaberManager__InitData GlobalNamespace::GlobalNamespace__SaberManager__InitData::New_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType)  {
+GlobalNamespace::GlobalNamespace__SaberManager__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SaberManager__InitData>(oneSaberMode, oneSaberType))};
+return o;
+}
 /// @param oneSaberType: GlobalNamespace::SaberType (default: 0)
  void GlobalNamespace::GlobalNamespace__SaberManager__InitData::_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -378,8 +382,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SaberManager::SaberManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SaberManager>())) {}
+ GlobalNamespace::SaberManager GlobalNamespace::SaberManager::New_ctor()  {
+GlobalNamespace::SaberManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SaberManager>())};
+return o;
+}
  void GlobalNamespace::SaberManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SaberManager>::get(),

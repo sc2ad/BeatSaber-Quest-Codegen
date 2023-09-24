@@ -1,38 +1,39 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/Http/zzzz__MonoWebRequestHandler_def.hpp"
-#include "System/Security/Principal/zzzz__TokenImpersonationLevel_def.hpp"
-#include "System/Net/Security/zzzz__SslClientAuthenticationOptions_def.hpp"
-#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
-#include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Net/zzzz__HttpWebResponse_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Net/Http/zzzz__IMonoHttpClientHandler_def.hpp"
+#include "System/Net/zzzz__DecompressionMethods_def.hpp"
+#include "System/Net/Http/zzzz__MonoWebRequestHandler_def.hpp"
+#include "System/Net/Security/zzzz__SslClientAuthenticationOptions_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
 #include "System/Net/Security/zzzz__AuthenticationLevel_def.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
-#include "System/Net/Http/zzzz__IMonoHttpClientHandler_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/zzzz__DecompressionMethods_def.hpp"
-#include "System/Net/zzzz__CookieContainer_def.hpp"
-#include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__HttpWebRequest_def.hpp"
 #include "System/Net/Http/zzzz__HttpMethod_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
+#include "System/Net/zzzz__CookieContainer_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Principal/zzzz__TokenImpersonationLevel_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
-#include "System/Net/Http/zzzz__HttpContent_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Net/Http/zzzz__HttpContent_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Net/zzzz__WebResponse_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
 //  Writing Method size for method: System::Net::Http::System__Net__Http__MonoWebRequestHandler____c._ctor
 template<>
 
@@ -125,8 +126,10 @@ return ::cordl_internals::getStaticField<System::Func_2<::StringW,bool>, "<>9__9
  System::Action_1<::bs_hook::Il2CppWrapperType> System::Net::Http::System__Net__Http__MonoWebRequestHandler____c::__get___9__99_0()  {
 return ::cordl_internals::getStaticField<System::Action_1<::bs_hook::Il2CppWrapperType>, "<>9__99_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::System__Net__Http__MonoWebRequestHandler____c>::get>();
 }
-// Ctor Parameters []
- System::Net::Http::System__Net__Http__MonoWebRequestHandler____c::System__Net__Http__MonoWebRequestHandler____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Http__MonoWebRequestHandler____c>())) {}
+ System::Net::Http::System__Net__Http__MonoWebRequestHandler____c System::Net::Http::System__Net__Http__MonoWebRequestHandler____c::New_ctor()  {
+System::Net::Http::System__Net__Http__MonoWebRequestHandler____c o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::System__Net__Http__MonoWebRequestHandler____c>())};
+return o;
+}
  void System::Net::Http::System__Net__Http__MonoWebRequestHandler____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::System__Net__Http__MonoWebRequestHandler____c>::get(),
@@ -715,8 +718,10 @@ constexpr void System::Net::Http::MonoWebRequestHandler::__set_disposed(bool val
 constexpr bool System::Net::Http::MonoWebRequestHandler::__get_disposed() const {
 return ::cordl_internals::getInstanceField<bool, 0xb0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Http::MonoWebRequestHandler::MonoWebRequestHandler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoWebRequestHandler>())) {}
+ System::Net::Http::MonoWebRequestHandler System::Net::Http::MonoWebRequestHandler::New_ctor()  {
+System::Net::Http::MonoWebRequestHandler o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::MonoWebRequestHandler>())};
+return o;
+}
  void System::Net::Http::MonoWebRequestHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::MonoWebRequestHandler>::get(),

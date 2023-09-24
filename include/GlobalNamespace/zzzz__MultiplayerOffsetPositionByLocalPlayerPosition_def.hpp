@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace GlobalNamespace {
 class MultiplayerPlayersManager;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +101,7 @@ constexpr UnityEngine::Quaternion __get__lastParentRotation() const;
 /// @brief Method UpdatePositionAndRotationIfNeeded addr 0x20fb4a4 size 0x208 virtual false final false
  void UpdatePositionAndRotationIfNeeded() ;
 
-// Ctor Parameters []
-explicit MultiplayerOffsetPositionByLocalPlayerPosition() ;
+static GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition New_ctor() ;
 
 /// @brief Method .ctor addr 0x20fb72c size 0x8 virtual false final false
  void _ctor() ;

@@ -2,23 +2,23 @@
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__SelectLevelCategoryViewController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelDetailViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 #include "GlobalNamespace/zzzz__LevelFilterParams_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__LevelSelectionNavigationController_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__SearchFilterParamsViewController_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__LevelSearchViewController_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
+#include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__SearchFilterParamsViewController_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelDetailViewController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State._ctor
 template<>
 
@@ -111,8 +111,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__
 constexpr GlobalNamespace::IDifficultyBeatmap GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::__get_difficultyBeatmap() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IDifficultyBeatmap, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "levelCategory", ty: "System::Nullable_1<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::GlobalNamespace__LevelSelectionFlowCoordinator__State(System::Nullable_1<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory> levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelSelectionFlowCoordinator__State>(levelCategory, beatmapLevelPack, previewBeatmapLevel, difficultyBeatmap))) {}
+ GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::New_ctor(System::Nullable_1<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory> levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap)  {
+GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State>(levelCategory, beatmapLevelPack, previewBeatmapLevel, difficultyBeatmap))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::_ctor(System::Nullable_1<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory> levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State>::get(),
@@ -122,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, levelCategory, beatmapLevelPack, previewBeatmapLevel, difficultyBeatmap);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::GlobalNamespace__LevelSelectionFlowCoordinator__State(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelSelectionFlowCoordinator__State>(beatmapLevelPack))) {}
+ GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::New_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack)  {
+GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State>(beatmapLevelPack))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State>::get(),
@@ -133,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapLevelPack);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::GlobalNamespace__LevelSelectionFlowCoordinator__State(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelSelectionFlowCoordinator__State>(beatmapLevelPack, previewBeatmapLevel))) {}
+ GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::New_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  {
+GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State>(beatmapLevelPack, previewBeatmapLevel))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::_ctor(GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State>::get(),
@@ -144,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapLevelPack, previewBeatmapLevel);
 }
-// Ctor Parameters [CppParam { name: "levelCategory", ty: "GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelPack", ty: "GlobalNamespace::IBeatmapLevelPack", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::GlobalNamespace__LevelSelectionFlowCoordinator__State(GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelSelectionFlowCoordinator__State>(levelCategory, beatmapLevelPack, difficultyBeatmap))) {}
+ GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::New_ctor(GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap)  {
+GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State>(levelCategory, beatmapLevelPack, difficultyBeatmap))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State::_ctor(GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategory levelCategory, GlobalNamespace::IBeatmapLevelPack beatmapLevelPack, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelSelectionFlowCoordinator__State>::get(),
@@ -1164,8 +1172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, finishedCallback, animationType);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinator()  : HMUI::FlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<LevelSelectionFlowCoordinator>())) {}
+ GlobalNamespace::LevelSelectionFlowCoordinator GlobalNamespace::LevelSelectionFlowCoordinator::New_ctor()  {
+GlobalNamespace::LevelSelectionFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelSelectionFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::LevelSelectionFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelSelectionFlowCoordinator>::get(),

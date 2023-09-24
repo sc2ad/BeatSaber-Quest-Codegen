@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace GlobalNamespace {
 class IConnectionRequestHandler;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,8 +87,7 @@ constexpr ::StringW __get__secret_k__BackingField() const;
 /// @brief Method ValidateConnectionMessage addr 0xd9ca58 size 0xbc virtual true final true
  bool ValidateConnectionMessage(LiteNetLib::Utils::NetDataReader reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner) ;
 
-// Ctor Parameters []
-explicit BasicConnectionRequestHandler() ;
+static GlobalNamespace::BasicConnectionRequestHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0xd9cb14 size 0x8 virtual false final false
  void _ctor() ;

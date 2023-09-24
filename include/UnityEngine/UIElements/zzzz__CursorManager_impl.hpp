@@ -133,8 +133,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::CursorManager::CursorManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CursorManager>())) {}
+ UnityEngine::UIElements::CursorManager UnityEngine::UIElements::CursorManager::New_ctor()  {
+UnityEngine::UIElements::CursorManager o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::CursorManager>())};
+return o;
+}
  void UnityEngine::UIElements::CursorManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::CursorManager>::get(),

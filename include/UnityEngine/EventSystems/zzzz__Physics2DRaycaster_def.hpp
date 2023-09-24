@@ -2,18 +2,18 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__PhysicsRaycaster_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
 namespace UnityEngine {
 struct RaycastHit2D;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -70,8 +70,7 @@ constexpr ::ArrayW<UnityEngine::RaycastHit2D> __get_m_Hits() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Physics2DRaycaster() ;
+static UnityEngine::EventSystems::Physics2DRaycaster New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c27268 size 0x28 virtual false final false
  void _ctor() ;

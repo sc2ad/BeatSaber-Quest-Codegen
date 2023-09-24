@@ -46,8 +46,10 @@ constexpr void HoudiniEngineUnity::Test_LayerMask::__set_self(UnityEngine::Layer
 constexpr UnityEngine::LayerMask HoudiniEngineUnity::Test_LayerMask::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::LayerMask, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::LayerMask", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_LayerMask::Test_LayerMask(UnityEngine::LayerMask self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_LayerMask>(self))) {}
+ HoudiniEngineUnity::Test_LayerMask HoudiniEngineUnity::Test_LayerMask::New_ctor(UnityEngine::LayerMask self)  {
+HoudiniEngineUnity::Test_LayerMask o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_LayerMask>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_LayerMask::_ctor(UnityEngine::LayerMask self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_LayerMask>::get(),

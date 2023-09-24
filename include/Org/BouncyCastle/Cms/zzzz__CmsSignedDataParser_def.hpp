@@ -5,25 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Cms {
 class SignerInformationStore;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsSignedHelper;
+class CmsTypedStream;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Cms {
+class CmsSignedHelper;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SetParser;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class SignedDataParser;
@@ -34,8 +34,8 @@ class Asn1Set;
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -173,26 +173,22 @@ constexpr Org::BouncyCastle::X509::Store::IX509Store __get__crlStore() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sigBlock", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsSignedDataParser(::ArrayW<uint8_t> sigBlock) ;
+static Org::BouncyCastle::Cms::CmsSignedDataParser New_ctor(::ArrayW<uint8_t> sigBlock) ;
 
 /// @brief Method .ctor addr 0x1162714 size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> sigBlock) ;
 
-// Ctor Parameters [CppParam { name: "signedContent", ty: "Org::BouncyCastle::Cms::CmsTypedStream", modifiers: "", def_value: None }, CppParam { name: "sigBlock", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsSignedDataParser(Org::BouncyCastle::Cms::CmsTypedStream signedContent, ::ArrayW<uint8_t> sigBlock) ;
+static Org::BouncyCastle::Cms::CmsSignedDataParser New_ctor(Org::BouncyCastle::Cms::CmsTypedStream signedContent, ::ArrayW<uint8_t> sigBlock) ;
 
 /// @brief Method .ctor addr 0x116279c size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsTypedStream signedContent, ::ArrayW<uint8_t> sigBlock) ;
 
-// Ctor Parameters [CppParam { name: "sigData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsSignedDataParser(System::IO::Stream sigData) ;
+static Org::BouncyCastle::Cms::CmsSignedDataParser New_ctor(System::IO::Stream sigData) ;
 
 /// @brief Method .ctor addr 0x1162790 size 0xc virtual false final false
  void _ctor(System::IO::Stream sigData) ;
 
-// Ctor Parameters [CppParam { name: "signedContent", ty: "Org::BouncyCastle::Cms::CmsTypedStream", modifiers: "", def_value: None }, CppParam { name: "sigData", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsSignedDataParser(Org::BouncyCastle::Cms::CmsTypedStream signedContent, System::IO::Stream sigData) ;
+static Org::BouncyCastle::Cms::CmsSignedDataParser New_ctor(Org::BouncyCastle::Cms::CmsTypedStream signedContent, System::IO::Stream sigData) ;
 
 /// @brief Method .ctor addr 0x116281c size 0x784 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsTypedStream signedContent, System::IO::Stream sigData) ;

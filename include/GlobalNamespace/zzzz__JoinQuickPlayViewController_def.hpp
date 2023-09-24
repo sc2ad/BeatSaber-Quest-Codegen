@@ -1,11 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace GlobalNamespace {
-class BeatmapDifficultyDropdown;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
-class MultiplayerModeSettings;
+class QuickPlaySongPacksDropdown;
+}
+namespace GlobalNamespace {
+class BeatmapDifficultyDropdown;
 }
 namespace System {
 template<typename T>
@@ -15,13 +18,10 @@ namespace GlobalNamespace {
 class QuickPlaySetupData;
 }
 namespace UnityEngine::UI {
-class Button;
+class Toggle;
 }
 namespace GlobalNamespace {
-class QuickPlaySongPacksDropdown;
-}
-namespace UnityEngine::UI {
-class Toggle;
+class MultiplayerModeSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -137,8 +137,7 @@ constexpr GlobalNamespace::MultiplayerModeSettings __get__multiplayerModeSetting
 /// @brief Method ButtonPressed addr 0x2176fd0 size 0x8c virtual false final false
  void ButtonPressed(bool success) ;
 
-// Ctor Parameters []
-explicit JoinQuickPlayViewController() ;
+static GlobalNamespace::JoinQuickPlayViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217705c size 0x8 virtual false final false
  void _ctor() ;

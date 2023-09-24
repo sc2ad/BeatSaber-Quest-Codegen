@@ -13,7 +13,7 @@ class MessageWithHttpTransferUpdate;
 // Type: Oculus.Platform::MessageWithHttpTransferUpdate
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13416)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 942 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 942 }), TypeDefinitionIndex(TypeDefinitionIndex(13416)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13295))
 // CS Name: Oculus.Platform.MessageWithHttpTransferUpdate
 class CORDL_TYPE MessageWithHttpTransferUpdate : public Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithHttpTransferUpdate(void* ptr) noexcept : Oculus::P
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithHttpTransferUpdate(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithHttpTransferUpdate New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f6b8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

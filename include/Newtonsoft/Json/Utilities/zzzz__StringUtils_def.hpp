@@ -12,6 +12,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System {
+class IFormatProvider;
+}
 namespace System::IO {
 class StringWriter;
 }
@@ -19,8 +22,9 @@ namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System {
-class IFormatProvider;
+namespace Newtonsoft::Json::Utilities {
+template<typename TSource>
+class Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -211,8 +215,7 @@ constexpr ::StringW __get_testValue() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

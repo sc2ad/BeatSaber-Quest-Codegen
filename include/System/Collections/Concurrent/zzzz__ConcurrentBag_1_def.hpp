@@ -4,19 +4,34 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections::Generic {
+namespace System::Collections::Concurrent {
 template<typename T>
-class IReadOnlyCollection_1;
+class System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue;
+}
+namespace System::Collections::Concurrent {
+template<typename T>
+class System__Collections__Concurrent__ConcurrentBag_1__Enumerator;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
+}
 namespace System::Collections {
-class IEnumerator;
+class ICollection;
+}
+namespace System::Threading {
+template<typename T>
+class ThreadLocal_1;
 }
 namespace System {
 class Array;
@@ -25,16 +40,9 @@ namespace System::Collections::Concurrent {
 template<typename T>
 class IProducerConsumerCollection_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System::Threading {
-template<typename T>
-class ThreadLocal_1;
 }
 namespace System {
 class IDisposable;
@@ -185,8 +193,7 @@ constexpr int32_t __get__ownerThreadId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nextQueue", ty: "System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T>", modifiers: "", def_value: None }]
-explicit System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue(System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> nextQueue) ;
+static System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> New_ctor(System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> nextQueue) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__WorkStealingQueue<T> nextQueue) ;
@@ -294,8 +301,7 @@ constexpr int32_t __get__index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "array", ty: "::ArrayW<T>", modifiers: "", def_value: None }]
-explicit System__Collections__Concurrent__ConcurrentBag_1__Enumerator(::ArrayW<T> array) ;
+static System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentBag_1__Enumerator<T> New_ctor(::ArrayW<T> array) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::ArrayW<T> array) ;
@@ -416,8 +422,7 @@ constexpr int64_t __get__emptyToNonEmptyListTransitionCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ConcurrentBag_1() ;
+static System::Collections::Concurrent::ConcurrentBag_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -2,15 +2,16 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimeNotificationBehaviour_def.hpp"
-#include "UnityEngine/Timeline/zzzz__NotificationFlags_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__DirectorWrapMode_def.hpp"
-#include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableOutput_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimeNotificationBehaviour_def.hpp"
+#include "UnityEngine/Timeline/zzzz__NotificationFlags_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
+#include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableOutput_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour__NotificationEntry.get_triggerInEditor
 template<>
@@ -166,8 +167,10 @@ return ::cordl_internals::getStaticField<UnityEngine::Timeline::UnityEngine__Tim
  System::Comparison_1<UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour__NotificationEntry> UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour____c::__get___9__12_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour__NotificationEntry>, "<>9__12_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour____c::UnityEngine__Timeline__TimeNotificationBehaviour____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__TimeNotificationBehaviour____c>())) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour____c UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour____c::New_ctor()  {
+UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour____c>())};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__TimeNotificationBehaviour____c>::get(),
@@ -540,8 +543,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, e);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::TimeNotificationBehaviour::TimeNotificationBehaviour()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<TimeNotificationBehaviour>())) {}
+ UnityEngine::Timeline::TimeNotificationBehaviour UnityEngine::Timeline::TimeNotificationBehaviour::New_ctor()  {
+UnityEngine::Timeline::TimeNotificationBehaviour o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TimeNotificationBehaviour>())};
+return o;
+}
  void UnityEngine::Timeline::TimeNotificationBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TimeNotificationBehaviour>::get(),

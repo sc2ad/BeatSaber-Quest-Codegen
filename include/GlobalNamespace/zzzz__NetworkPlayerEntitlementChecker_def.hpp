@@ -5,10 +5,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class IMenuRpcManager;
+struct GlobalNamespace__NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__5;
 }
 namespace GlobalNamespace {
-struct EntitlementsStatus;
+struct GlobalNamespace__NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__6;
+}
+namespace GlobalNamespace {
+class IMenuRpcManager;
 }
 namespace GlobalNamespace {
 class AdditionalContentModel;
@@ -17,19 +20,22 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+struct EntitlementsStatus;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct TaskAwaiter_1;
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -298,8 +304,7 @@ constexpr GlobalNamespace::AdditionalContentModel __get__additionalContentModel(
 /// @brief Method GetEntitlementStatus addr 0x22091a0 size 0xfc virtual false final false
  System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus> GetEntitlementStatus(::StringW levelId) ;
 
-// Ctor Parameters []
-explicit NetworkPlayerEntitlementChecker() ;
+static GlobalNamespace::NetworkPlayerEntitlementChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x220929c size 0x8 virtual false final false
  void _ctor() ;

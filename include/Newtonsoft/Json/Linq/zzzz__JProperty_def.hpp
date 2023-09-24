@@ -8,37 +8,43 @@
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace Newtonsoft::Json::Linq {
-struct JTokenType;
-}
-namespace Newtonsoft::Json::Linq {
-class JsonMergeSettings;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JsonLoadSettings;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
+namespace Newtonsoft::Json::Linq {
+struct JTokenType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
-namespace Newtonsoft::Json {
-class JsonConverter;
+namespace Newtonsoft::Json::Linq {
+class Newtonsoft__Json__Linq__JProperty__JPropertyList;
+}
+namespace Newtonsoft::Json::Linq {
+class JsonMergeSettings;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace GlobalNamespace {
+class Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -140,8 +146,7 @@ constexpr Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyLi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1(int32_t __1__state) ;
+static GlobalNamespace::Newtonsoft__Json__Linq__JProperty__JPropertyList___GetEnumerator_d__1 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2530a70 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -281,8 +286,7 @@ constexpr Newtonsoft::Json::Linq::JToken __get__token() const;
 /// @brief Method set_Item addr 0x2530b8c size 0x10 virtual true final true
  void set_Item(int32_t index, Newtonsoft::Json::Linq::JToken value) ;
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Linq__JProperty__JPropertyList() ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JProperty__JPropertyList New_ctor() ;
 
 /// @brief Method .ctor addr 0x252fe64 size 0x8 virtual false final false
  void _ctor() ;
@@ -373,8 +377,7 @@ constexpr ::StringW __get__name() const;
 /// @brief Method set_Value addr 0x252fcfc size 0x80 virtual false final false
  void set_Value(Newtonsoft::Json::Linq::JToken value) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JProperty", modifiers: "", def_value: None }]
-explicit JProperty(Newtonsoft::Json::Linq::JProperty other) ;
+static Newtonsoft::Json::Linq::JProperty New_ctor(Newtonsoft::Json::Linq::JProperty other) ;
 
 /// @brief Method .ctor addr 0x252fddc size 0x88 virtual false final false
  void _ctor(Newtonsoft::Json::Linq::JProperty other) ;
@@ -415,20 +418,17 @@ explicit JProperty(Newtonsoft::Json::Linq::JProperty other) ;
 /// @brief Method get_Type addr 0x2530580 size 0x8 virtual true final false
  Newtonsoft::Json::Linq::JTokenType get_Type() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JProperty(::StringW name) ;
+static Newtonsoft::Json::Linq::JProperty New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2530588 size 0xa0 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit JProperty(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
+static Newtonsoft::Json::Linq::JProperty New_ctor(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
 
 /// @brief Method .ctor addr 0x2530628 size 0x4 virtual false final false
  void _ctor(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit JProperty(::StringW name, ::bs_hook::Il2CppWrapperType content) ;
+static Newtonsoft::Json::Linq::JProperty New_ctor(::StringW name, ::bs_hook::Il2CppWrapperType content) ;
 
 /// @brief Method .ctor addr 0x253062c size 0x104 virtual false final false
  void _ctor(::StringW name, ::bs_hook::Il2CppWrapperType content) ;

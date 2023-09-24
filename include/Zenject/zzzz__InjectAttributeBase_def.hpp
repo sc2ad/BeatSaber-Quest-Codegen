@@ -99,8 +99,7 @@ constexpr Zenject::InjectSources __get__Source_k__BackingField() const;
 /// @brief Method set_Source addr 0x2d402e8 size 0x8 virtual false final false
  void set_Source(Zenject::InjectSources value) ;
 
-// Ctor Parameters []
-explicit InjectAttributeBase() ;
+static Zenject::InjectAttributeBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d402f0 size 0x8 virtual false final false
  void _ctor() ;

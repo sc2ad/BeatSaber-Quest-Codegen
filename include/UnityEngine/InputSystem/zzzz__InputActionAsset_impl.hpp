@@ -2,27 +2,24 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputActionCollection_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionRebindingExtensions_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputActionCollection_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionRebindingExtensions_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputActionCollection2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
 // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "maps", ty: "::ArrayW<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionMap__WriteMapJson>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "controlSchemes", ty: "::ArrayW<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__SchemeJson>", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset__WriteFileJson::UnityEngine__InputSystem__InputActionAsset__WriteFileJson(::StringW name, ::ArrayW<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionMap__WriteMapJson> maps, ::ArrayW<UnityEngine::InputSystem::UnityEngine__InputSystem__InputControlScheme__SchemeJson> controlSchemes) noexcept : ::bs_hook::ValueTypeWrapper() {this->name = name;
 this->maps = maps;
@@ -305,8 +302,10 @@ constexpr void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAs
 constexpr int32_t UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8::__get__n_5__6() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x94>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8::UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8>(__1__state))) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8 UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8::New_ctor(int32_t __1__state)  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8>(__1__state))};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___get_bindings_d__8>::get(),
@@ -535,8 +534,10 @@ constexpr void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAs
 constexpr int32_t UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31::__get__n_5__5() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x44>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31::UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31>(__1__state))) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31 UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31::New_ctor(int32_t __1__state)  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31>(__1__state))};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionAsset___GetEnumerator_d__31>::get(),
@@ -1474,8 +1475,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::InputActionAsset::InputActionAsset()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<InputActionAsset>())) {}
+ UnityEngine::InputSystem::InputActionAsset UnityEngine::InputSystem::InputActionAsset::New_ctor()  {
+UnityEngine::InputSystem::InputActionAsset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::InputActionAsset>())};
+return o;
+}
  void UnityEngine::InputSystem::InputActionAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::InputActionAsset>::get(),

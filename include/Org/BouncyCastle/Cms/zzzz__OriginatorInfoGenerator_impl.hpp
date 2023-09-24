@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__OriginatorInfoGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorInfo_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::OriginatorInfoGenerator._ctor
 template<>
 
@@ -84,8 +84,10 @@ constexpr void Org::BouncyCastle::Cms::OriginatorInfoGenerator::__set_origCrls(S
 constexpr System::Collections::IList Org::BouncyCastle::Cms::OriginatorInfoGenerator::__get_origCrls() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "origCert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::OriginatorInfoGenerator::OriginatorInfoGenerator(Org::BouncyCastle::X509::X509Certificate origCert)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OriginatorInfoGenerator>(origCert))) {}
+ Org::BouncyCastle::Cms::OriginatorInfoGenerator Org::BouncyCastle::Cms::OriginatorInfoGenerator::New_ctor(Org::BouncyCastle::X509::X509Certificate origCert)  {
+Org::BouncyCastle::Cms::OriginatorInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::OriginatorInfoGenerator>(origCert))};
+return o;
+}
  void Org::BouncyCastle::Cms::OriginatorInfoGenerator::_ctor(Org::BouncyCastle::X509::X509Certificate origCert)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::OriginatorInfoGenerator>::get(),
@@ -95,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, origCert);
 }
-// Ctor Parameters [CppParam { name: "origCerts", ty: "Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::OriginatorInfoGenerator::OriginatorInfoGenerator(Org::BouncyCastle::X509::Store::IX509Store origCerts)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OriginatorInfoGenerator>(origCerts))) {}
+ Org::BouncyCastle::Cms::OriginatorInfoGenerator Org::BouncyCastle::Cms::OriginatorInfoGenerator::New_ctor(Org::BouncyCastle::X509::Store::IX509Store origCerts)  {
+Org::BouncyCastle::Cms::OriginatorInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::OriginatorInfoGenerator>(origCerts))};
+return o;
+}
  void Org::BouncyCastle::Cms::OriginatorInfoGenerator::_ctor(Org::BouncyCastle::X509::Store::IX509Store origCerts)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::OriginatorInfoGenerator>::get(),
@@ -106,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, origCerts);
 }
-// Ctor Parameters [CppParam { name: "origCerts", ty: "Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }, CppParam { name: "origCrls", ty: "Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::OriginatorInfoGenerator::OriginatorInfoGenerator(Org::BouncyCastle::X509::Store::IX509Store origCerts, Org::BouncyCastle::X509::Store::IX509Store origCrls)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OriginatorInfoGenerator>(origCerts, origCrls))) {}
+ Org::BouncyCastle::Cms::OriginatorInfoGenerator Org::BouncyCastle::Cms::OriginatorInfoGenerator::New_ctor(Org::BouncyCastle::X509::Store::IX509Store origCerts, Org::BouncyCastle::X509::Store::IX509Store origCrls)  {
+Org::BouncyCastle::Cms::OriginatorInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::OriginatorInfoGenerator>(origCerts, origCrls))};
+return o;
+}
  void Org::BouncyCastle::Cms::OriginatorInfoGenerator::_ctor(Org::BouncyCastle::X509::Store::IX509Store origCerts, Org::BouncyCastle::X509::Store::IX509Store origCrls)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::OriginatorInfoGenerator>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
-#include "System/Threading/zzzz__CancellationCallbackInfo_def.hpp"
-#include "System/Threading/zzzz__SparselyPopulatedArrayAddInfo_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Threading/zzzz__CancellationCallbackInfo_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Threading/zzzz__SparselyPopulatedArrayAddInfo_1_def.hpp"
 //  Writing Method size for method: System::Threading::CancellationTokenRegistration._ctor
 template<>
 

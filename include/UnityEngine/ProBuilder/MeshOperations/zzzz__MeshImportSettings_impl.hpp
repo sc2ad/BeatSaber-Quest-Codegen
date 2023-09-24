@@ -217,8 +217,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::MeshImportSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MeshImportSettings>())) {}
+ UnityEngine::ProBuilder::MeshOperations::MeshImportSettings UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::MeshImportSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::MeshImportSettings>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::MeshImportSettings>::get(),

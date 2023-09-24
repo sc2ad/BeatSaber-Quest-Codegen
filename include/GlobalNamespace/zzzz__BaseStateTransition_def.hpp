@@ -1,8 +1,8 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class SelectableStateController;
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace GlobalNamespace {
 class BaseTransitionSO;
@@ -10,8 +10,8 @@ class BaseTransitionSO;
 namespace GlobalNamespace {
 struct GlobalNamespace__SelectableStateController__ViewState;
 }
-namespace Tweening {
-class TimeTweeningManager;
+namespace GlobalNamespace {
+class SelectableStateController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +132,7 @@ constexpr GlobalNamespace::SelectableStateController __get__selectableStateContr
 /// @brief Method SetSelectedAndHighlightedState addr 0x2127e64 size 0x4 virtual true final false
  void SetSelectedAndHighlightedState() ;
 
-// Ctor Parameters []
-explicit BaseStateTransition() ;
+static GlobalNamespace::BaseStateTransition New_ctor() ;
 
 /// @brief Method .ctor addr 0x2127e68 size 0x8 virtual false final false
  void _ctor() ;

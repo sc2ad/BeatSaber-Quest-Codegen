@@ -91,8 +91,7 @@ constexpr System::Xml::Schema::NamespaceList __get_namespaceList() const;
 /// @brief Method BuildNamespaceList addr 0x2733778 size 0x90 virtual false final false
  void BuildNamespaceList(::StringW targetNamespace) ;
 
-// Ctor Parameters []
-explicit XmlSchemaAny() ;
+static System::Xml::Schema::XmlSchemaAny New_ctor() ;
 
 /// @brief Method .ctor addr 0x2733808 size 0x54 virtual false final false
  void _ctor() ;

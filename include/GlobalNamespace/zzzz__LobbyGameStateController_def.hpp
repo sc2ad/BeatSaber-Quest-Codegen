@@ -14,95 +14,70 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
+namespace GlobalNamespace {
+class PlayersLobbyPermissionConfigurationNetSerializable;
+}
+namespace GlobalNamespace {
+struct MultiplayerGameState;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class TaskCompletionSource_1;
 }
 namespace GlobalNamespace {
-struct MultiplayerGameState;
-}
-namespace GlobalNamespace {
 class PlayerLobbyPermissionConfigurationNetSerializable;
-}
-namespace GlobalNamespace {
-class PlayersLobbyPermissionConfigurationNetSerializable;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelLoader;
-}
-namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-struct MultiplayerLobbyState;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-class IMenuRpcManager;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
+class LobbyGameStateModel;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
 class BeatmapLevelsModel;
 }
-namespace GlobalNamespace {
-class PlayersMissingEntitlementsNetSerializable;
+namespace System {
+template<typename T>
+class Action_1;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace GlobalNamespace {
-class ILobbyGameStateController;
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
 struct CannotStartGameReason;
 }
 namespace GlobalNamespace {
-class LevelGameplaySetupData;
+class ILobbyGameStateController;
 }
 namespace GlobalNamespace {
-class LobbyGameStateModel;
+class GlobalNamespace__LobbyGameStateController____c__DisplayClass98_0;
+}
+namespace GlobalNamespace {
+class PlayersMissingEntitlementsNetSerializable;
+}
+namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
+}
+namespace GlobalNamespace {
+class ILevelGameplaySetupData;
+}
+namespace GlobalNamespace {
+class ILobbyPlayersDataModel;
+}
+namespace GlobalNamespace {
+struct MultiplayerLobbyState;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
@@ -111,10 +86,41 @@ namespace GlobalNamespace {
 class MenuTransitionsHelper;
 }
 namespace GlobalNamespace {
-class ILevelGameplaySetupData;
+class PlayerDataModel;
 }
 namespace System {
-class Action;
+class IDisposable;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class IMenuRpcManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LobbyGameStateController____c;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelLoader;
+}
+namespace GlobalNamespace {
+class LevelGameplaySetupData;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -189,8 +195,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<bool> __get_getPlayer
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LobbyGameStateController____c__DisplayClass98_0() ;
+static GlobalNamespace::GlobalNamespace__LobbyGameStateController____c__DisplayClass98_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f69b0 size 0x8 virtual false final false
  void _ctor() ;
@@ -265,8 +270,7 @@ static System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW,Glo
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LobbyGameStateController____c() ;
+static GlobalNamespace::GlobalNamespace__LobbyGameStateController____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f87fc size 0x8 virtual false final false
  void _ctor() ;
@@ -797,8 +801,7 @@ constexpr GlobalNamespace::LevelGameplaySetupData __get__selectedLevelGameplaySe
 /// @brief Method StopLoading addr 0x21f72b8 size 0x104 virtual false final false
  void StopLoading() ;
 
-// Ctor Parameters []
-explicit LobbyGameStateController() ;
+static GlobalNamespace::LobbyGameStateController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f81c8 size 0x74 virtual false final false
  void _ctor() ;

@@ -48,8 +48,10 @@ constexpr void UnityEngine::GUISettings::__set_m_SelectionColor(UnityEngine::Col
 constexpr UnityEngine::Color UnityEngine::GUISettings::__get_m_SelectionColor() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Color, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::GUISettings::GUISettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GUISettings>())) {}
+ UnityEngine::GUISettings UnityEngine::GUISettings::New_ctor()  {
+UnityEngine::GUISettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUISettings>())};
+return o;
+}
  void UnityEngine::GUISettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUISettings>::get(),

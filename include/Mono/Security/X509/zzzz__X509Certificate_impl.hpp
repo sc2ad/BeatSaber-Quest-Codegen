@@ -1,14 +1,14 @@
 #pragma once
 #include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "Mono/Security/zzzz__ASN1_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
-#include "Mono/Security/X509/zzzz__X509ExtensionCollection_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSA_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
+#include "Mono/Security/zzzz__ASN1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Security/Cryptography/zzzz__RSA_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "Mono/Security/X509/zzzz__X509ExtensionCollection_def.hpp"
 //  Writing Method size for method: Mono::Security::X509::X509Certificate.Parse
 template<>
 
@@ -653,8 +653,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::X509::X509Certificate::X509Certificate(::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Certificate>(data))) {}
+ Mono::Security::X509::X509Certificate Mono::Security::X509::X509Certificate::New_ctor(::ArrayW<uint8_t> data)  {
+Mono::Security::X509::X509Certificate o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::X509Certificate>(data))};
+return o;
+}
  void Mono::Security::X509::X509Certificate::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::X509Certificate>::get(),

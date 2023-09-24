@@ -205,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::FormatterConverter::FormatterConverter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FormatterConverter>())) {}
+ System::Runtime::Serialization::FormatterConverter System::Runtime::Serialization::FormatterConverter::New_ctor()  {
+System::Runtime::Serialization::FormatterConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::FormatterConverter>())};
+return o;
+}
  void System::Runtime::Serialization::FormatterConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::FormatterConverter>::get(),

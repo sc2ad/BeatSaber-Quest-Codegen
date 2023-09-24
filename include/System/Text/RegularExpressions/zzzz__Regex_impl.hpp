@@ -1,20 +1,21 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexRunnerFactory_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
-#include "System/zzzz__WeakReference_1_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexReplacement_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexCode_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexRunnerFactory_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__ExclusiveReference_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__MatchCollection_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__ExclusiveReference_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexCode_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexReplacement_def.hpp"
+#include "System/zzzz__WeakReference_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntryKey._ctor
 template<>
@@ -250,8 +251,10 @@ constexpr void System::Text::RegularExpressions::System__Text__RegularExpression
 constexpr System::WeakReference_1<System::Text::RegularExpressions::RegexReplacement> System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntry::__get_ReplRef() const {
 return ::cordl_internals::getInstanceField<System::WeakReference_1<System::Text::RegularExpressions::RegexReplacement>, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntryKey", modifiers: "", def_value: None }, CppParam { name: "capnames", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capslist", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "code", ty: "System::Text::RegularExpressions::RegexCode", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capsize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "runner", ty: "System::Text::RegularExpressions::ExclusiveReference", modifiers: "", def_value: None }, CppParam { name: "replref", ty: "System::WeakReference_1<System::Text::RegularExpressions::RegexReplacement>", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntry::System__Text__RegularExpressions__Regex__CachedCodeEntry(System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntryKey key, System::Collections::Hashtable capnames, ::ArrayW<::StringW> capslist, System::Text::RegularExpressions::RegexCode code, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::ExclusiveReference runner, System::WeakReference_1<System::Text::RegularExpressions::RegexReplacement> replref)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Text__RegularExpressions__Regex__CachedCodeEntry>(key, capnames, capslist, code, caps, capsize, runner, replref))) {}
+ System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntry System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntry::New_ctor(System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntryKey key, System::Collections::Hashtable capnames, ::ArrayW<::StringW> capslist, System::Text::RegularExpressions::RegexCode code, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::ExclusiveReference runner, System::WeakReference_1<System::Text::RegularExpressions::RegexReplacement> replref)  {
+System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntry o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntry>(key, capnames, capslist, code, caps, capsize, runner, replref))};
+return o;
+}
  void System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntry::_ctor(System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntryKey key, System::Collections::Hashtable capnames, ::ArrayW<::StringW> capslist, System::Text::RegularExpressions::RegexCode code, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::ExclusiveReference runner, System::WeakReference_1<System::Text::RegularExpressions::RegexReplacement> replref)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::System__Text__RegularExpressions__Regex__CachedCodeEntry>::get(),
@@ -1152,8 +1155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::TimeSpan, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::Regex::Regex(::StringW pattern)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Regex>(pattern))) {}
+ System::Text::RegularExpressions::Regex System::Text::RegularExpressions::Regex::New_ctor(::StringW pattern)  {
+System::Text::RegularExpressions::Regex o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::Regex>(pattern))};
+return o;
+}
  void System::Text::RegularExpressions::Regex::_ctor(::StringW pattern)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::Regex>::get(),
@@ -1163,8 +1168,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pattern);
 }
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::Regex::Regex(::StringW pattern, System::Text::RegularExpressions::RegexOptions options)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Regex>(pattern, options))) {}
+ System::Text::RegularExpressions::Regex System::Text::RegularExpressions::Regex::New_ctor(::StringW pattern, System::Text::RegularExpressions::RegexOptions options)  {
+System::Text::RegularExpressions::Regex o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::Regex>(pattern, options))};
+return o;
+}
  void System::Text::RegularExpressions::Regex::_ctor(::StringW pattern, System::Text::RegularExpressions::RegexOptions options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::Regex>::get(),
@@ -1183,8 +1190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, si, context);
 }
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "matchTimeout", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "addToCache", ty: "bool", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::Regex::Regex(::StringW pattern, System::Text::RegularExpressions::RegexOptions options, System::TimeSpan matchTimeout, bool addToCache)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Regex>(pattern, options, matchTimeout, addToCache))) {}
+ System::Text::RegularExpressions::Regex System::Text::RegularExpressions::Regex::New_ctor(::StringW pattern, System::Text::RegularExpressions::RegexOptions options, System::TimeSpan matchTimeout, bool addToCache)  {
+System::Text::RegularExpressions::Regex o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::Regex>(pattern, options, matchTimeout, addToCache))};
+return o;
+}
  void System::Text::RegularExpressions::Regex::_ctor(::StringW pattern, System::Text::RegularExpressions::RegexOptions options, System::TimeSpan matchTimeout, bool addToCache)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::Regex>::get(),

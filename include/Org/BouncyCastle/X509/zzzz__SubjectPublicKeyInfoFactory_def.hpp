@@ -58,8 +58,7 @@ constexpr explicit SubjectPublicKeyInfoFactory(void* ptr) noexcept : ::bs_hook::
 
 // Methods
 
-// Ctor Parameters []
-explicit SubjectPublicKeyInfoFactory() ;
+static Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x10eb028 size 0x8 virtual false final false
  void _ctor() ;

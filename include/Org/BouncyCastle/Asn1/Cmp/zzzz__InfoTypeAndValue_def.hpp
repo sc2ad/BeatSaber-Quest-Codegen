@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -82,8 +82,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_infoValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit InfoTypeAndValue(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xddac40 size 0xc8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -91,14 +90,12 @@ explicit InfoTypeAndValue(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xdda784 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "infoType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit InfoTypeAndValue(Org::BouncyCastle::Asn1::DerObjectIdentifier infoType) ;
+static Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier infoType) ;
 
 /// @brief Method .ctor addr 0xddad08 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier infoType) ;
 
-// Ctor Parameters [CppParam { name: "infoType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "optionalValue", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit InfoTypeAndValue(Org::BouncyCastle::Asn1::DerObjectIdentifier infoType, Org::BouncyCastle::Asn1::Asn1Encodable optionalValue) ;
+static Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier infoType, Org::BouncyCastle::Asn1::Asn1Encodable optionalValue) ;
 
 /// @brief Method .ctor addr 0xddad30 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier infoType, Org::BouncyCastle::Asn1::Asn1Encodable optionalValue) ;

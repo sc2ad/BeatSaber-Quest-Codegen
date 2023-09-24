@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__CommonAcl_impl.hpp"
 #include "System/Security/AccessControl/zzzz__DiscretionaryAcl_def.hpp"
-#include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
-#include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
-#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 #include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
+#include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
+#include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceQualifier_def.hpp"
+#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::DiscretionaryAcl._ctor
 template<>
@@ -109,8 +109,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDS", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::DiscretionaryAcl::DiscretionaryAcl(bool isContainer, bool isDS, int32_t capacity)  : System::Security::AccessControl::CommonAcl(THROW_UNLESS(::il2cpp_utils::New<DiscretionaryAcl>(isContainer, isDS, capacity))) {}
+ System::Security::AccessControl::DiscretionaryAcl System::Security::AccessControl::DiscretionaryAcl::New_ctor(bool isContainer, bool isDS, int32_t capacity)  {
+System::Security::AccessControl::DiscretionaryAcl o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::DiscretionaryAcl>(isContainer, isDS, capacity))};
+return o;
+}
  void System::Security::AccessControl::DiscretionaryAcl::_ctor(bool isContainer, bool isDS, int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::DiscretionaryAcl>::get(),

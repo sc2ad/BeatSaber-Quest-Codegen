@@ -1,17 +1,17 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace System::Collections {
-class IList;
-}
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
-}
 namespace System::Runtime::Remoting::Contexts {
 class IContextAttribute;
 }
+namespace System::Collections {
+class IList;
+}
 namespace System::Runtime::Remoting::Contexts {
 class Context;
+}
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
@@ -71,8 +71,7 @@ constexpr System::Collections::IList __get__contextProperties() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "contextProperties", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit RemoteActivationAttribute(System::Collections::IList contextProperties) ;
+static System::Runtime::Remoting::Activation::RemoteActivationAttribute New_ctor(System::Collections::IList contextProperties) ;
 
 /// @brief Method .ctor addr 0x233917c size 0x28 virtual false final false
  void _ctor(System::Collections::IList contextProperties) ;

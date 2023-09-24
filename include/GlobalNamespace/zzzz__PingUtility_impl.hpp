@@ -1,14 +1,15 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__PingUtility_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__Ping_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "GlobalNamespace/zzzz__PingUtility_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PingUtility____c._ctor
 template<>
 
@@ -55,8 +56,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__PingU
  System::Func_2<System::Net::IPAddress,UnityEngine::Ping> GlobalNamespace::GlobalNamespace__PingUtility____c::__get___9__0_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Net::IPAddress,UnityEngine::Ping>, "<>9__0_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PingUtility____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PingUtility____c::GlobalNamespace__PingUtility____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PingUtility____c>())) {}
+ GlobalNamespace::GlobalNamespace__PingUtility____c GlobalNamespace::GlobalNamespace__PingUtility____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PingUtility____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PingUtility____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PingUtility____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PingUtility____c>::get(),

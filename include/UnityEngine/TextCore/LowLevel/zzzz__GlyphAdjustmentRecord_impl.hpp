@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphAdjustmentRecord_def.hpp"
-#include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord.get_glyphIndex
 template<>
 

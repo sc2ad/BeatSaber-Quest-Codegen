@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
- System::ComponentModel::EventDescriptor::EventDescriptor(::StringW name, ::ArrayW<System::Attribute> attrs)  : System::ComponentModel::MemberDescriptor(THROW_UNLESS(::il2cpp_utils::New<EventDescriptor>(name, attrs))) {}
+ System::ComponentModel::EventDescriptor System::ComponentModel::EventDescriptor::New_ctor(::StringW name, ::ArrayW<System::Attribute> attrs)  {
+System::ComponentModel::EventDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::EventDescriptor>(name, attrs))};
+return o;
+}
  void System::ComponentModel::EventDescriptor::_ctor(::StringW name, ::ArrayW<System::Attribute> attrs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::EventDescriptor>::get(),

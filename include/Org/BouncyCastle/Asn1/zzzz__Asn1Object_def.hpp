@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -79,8 +79,7 @@ static Org::BouncyCastle::Asn1::Asn1Object FromStream(System::IO::Stream inStr) 
 /// @brief Method CallAsn1GetHashCode addr 0xdd6334 size 0xc virtual false final false
  int32_t CallAsn1GetHashCode() ;
 
-// Ctor Parameters []
-explicit Asn1Object() ;
+static Org::BouncyCastle::Asn1::Asn1Object New_ctor() ;
 
 /// @brief Method .ctor addr 0xddd4b0 size 0x8 virtual false final false
  void _ctor() ;

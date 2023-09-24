@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace HoudiniEngineUnity {
 struct HFLayerType;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -240,8 +240,7 @@ constexpr HoudiniEngineUnity::HFLayerType __get__layerType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_LoadBufferVolumeLayer() ;
+static HoudiniEngineUnity::HEU_LoadBufferVolumeLayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x203a494 size 0x80 virtual false final false
  void _ctor() ;

@@ -127,8 +127,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::__set_sigs(::
 constexpr ::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature> Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::__get_sigs() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "sigs", ty: "::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::PgpSignatureList(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature> sigs)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(THROW_UNLESS(::il2cpp_utils::New<PgpSignatureList>(sigs))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::New_ctor(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature> sigs)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList>(sigs))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::_ctor(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature> sigs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList>::get(),
@@ -138,8 +140,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sigs);
 }
-// Ctor Parameters [CppParam { name: "sig", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::PgpSignatureList(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature sig)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(THROW_UNLESS(::il2cpp_utils::New<PgpSignatureList>(sig))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature sig)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList>(sig))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature sig)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList>::get(),

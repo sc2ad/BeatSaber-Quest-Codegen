@@ -3,18 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::ResourceManagement::Util {
-struct SerializedType;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class ResourceLocationData;
 }
 namespace UnityEngine::ResourceManagement::Util {
 struct ObjectInitializationData;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::ResourceManagement::Util {
+struct SerializedType;
 }
 namespace System {
 class Type;
@@ -236,8 +236,7 @@ constexpr int32_t __get_m_CatalogRequestsTimeout() const;
 /// @brief Method set_CatalogRequestsTimeout addr 0x28a22c0 size 0x1c virtual false final false
  void set_CatalogRequestsTimeout(int32_t value) ;
 
-// Ctor Parameters []
-explicit ResourceManagerRuntimeData() ;
+static UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a22dc size 0xd0 virtual false final false
  void _ctor() ;

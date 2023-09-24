@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Enumerator_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Enumerator_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509FindType_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509Certificate2Collection._ctor
 template<>
@@ -163,8 +163,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
  ::ArrayW<::StringW> System::Security::Cryptography::X509Certificates::X509Certificate2Collection::__get_newline_split()  {
 return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "newline_split", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2Collection>::get>();
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509Certificate2Collection::X509Certificate2Collection()  : System::Security::Cryptography::X509Certificates::X509CertificateCollection(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2Collection>())) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2Collection System::Security::Cryptography::X509Certificates::X509Certificate2Collection::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509Certificate2Collection o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2Collection>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2Collection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2Collection>::get(),
@@ -174,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "certificates", ty: "System::Security::Cryptography::X509Certificates::X509Certificate2Collection", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Certificate2Collection::X509Certificate2Collection(System::Security::Cryptography::X509Certificates::X509Certificate2Collection certificates)  : System::Security::Cryptography::X509Certificates::X509CertificateCollection(THROW_UNLESS(::il2cpp_utils::New<X509Certificate2Collection>(certificates))) {}
+ System::Security::Cryptography::X509Certificates::X509Certificate2Collection System::Security::Cryptography::X509Certificates::X509Certificate2Collection::New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection certificates)  {
+System::Security::Cryptography::X509Certificates::X509Certificate2Collection o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Certificate2Collection>(certificates))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Certificate2Collection::_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection certificates)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Certificate2Collection>::get(),

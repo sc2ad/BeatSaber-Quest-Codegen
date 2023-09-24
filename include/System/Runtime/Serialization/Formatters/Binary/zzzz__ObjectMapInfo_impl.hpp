@@ -59,8 +59,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo
 constexpr ::ArrayW<System::Type> System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::__get_memberTypes() const {
 return ::cordl_internals::getInstanceField<::ArrayW<System::Type>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "objectId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numMembers", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "memberNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "memberTypes", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::ObjectMapInfo(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type> memberTypes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectMapInfo>(objectId, numMembers, memberNames, memberTypes))) {}
+ System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::New_ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type> memberTypes)  {
+System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo>(objectId, numMembers, memberNames, memberTypes))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::_ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type> memberTypes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo>::get(),

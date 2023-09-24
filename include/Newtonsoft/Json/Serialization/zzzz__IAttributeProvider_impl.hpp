@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__IAttributeProvider_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::IAttributeProvider.GetAttributes
 template<>
 

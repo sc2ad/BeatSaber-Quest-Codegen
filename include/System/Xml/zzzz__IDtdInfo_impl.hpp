@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Xml/zzzz__IDtdInfo_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__IDtdAttributeListInfo_def.hpp"
 //  Writing Method size for method: System::Xml::IDtdInfo.get_Name
 template<>

@@ -82,8 +82,7 @@ constexpr Org::BouncyCastle::Asn1::DerGeneralizedTime __get__notAfter() const;
 /// @brief Method GetInstance addr 0x110aee8 size 0x1d4 virtual false final false
 static Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PrivateKeyUsagePeriod(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x110b0bc size 0x310 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

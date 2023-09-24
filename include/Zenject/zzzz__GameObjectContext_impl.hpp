@@ -2,13 +2,13 @@
 #include "Zenject/zzzz__RunnableContext_impl.hpp"
 #include "Zenject/zzzz__GameObjectContext_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "Zenject/zzzz__MonoKernel_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__MonoKernel_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: Zenject::GameObjectContext.add_PreInstall
 template<>
 
@@ -460,8 +460,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, injectableMonoBehaviours);
 }
-// Ctor Parameters []
- Zenject::GameObjectContext::GameObjectContext()  : Zenject::RunnableContext(THROW_UNLESS(::il2cpp_utils::New<GameObjectContext>())) {}
+ Zenject::GameObjectContext Zenject::GameObjectContext::New_ctor()  {
+Zenject::GameObjectContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::GameObjectContext>())};
+return o;
+}
  void Zenject::GameObjectContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::GameObjectContext>::get(),

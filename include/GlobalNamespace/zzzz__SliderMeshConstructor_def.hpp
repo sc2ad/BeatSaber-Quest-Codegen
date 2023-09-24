@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class Mesh;
+struct Vector3;
 }
 namespace UnityEngine {
 class MeshFilter;
 }
 namespace UnityEngine {
-struct Vector3;
+class Mesh;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace GlobalNamespace {
 class VertexPath;
@@ -126,8 +126,7 @@ constexpr UnityEngine::Mesh __get__mesh() const;
 /// @brief Method GetTrianglesCount addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetTrianglesCount(GlobalNamespace::VertexPath path) ;
 
-// Ctor Parameters []
-explicit SliderMeshConstructor() ;
+static GlobalNamespace::SliderMeshConstructor New_ctor() ;
 
 /// @brief Method .ctor addr 0x224baec size 0x8 virtual false final false
  void _ctor() ;

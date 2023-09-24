@@ -2,6 +2,19 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Security::Principal {
+class IPrincipal;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -14,21 +27,8 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Security::Principal {
-class IPrincipal;
-}
 namespace System::Security::Claims {
 class ClaimsIdentity;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Security::Claims {
@@ -123,14 +123,12 @@ static System::Security::Claims::ClaimsIdentity SelectPrimaryIdentity(System::Co
 /// @brief Method get_ClaimsPrincipalSelector addr 0x2313db0 size 0x58 virtual false final false
 static System::Func_1<System::Security::Claims::ClaimsPrincipal> get_ClaimsPrincipalSelector() ;
 
-// Ctor Parameters []
-explicit ClaimsPrincipal() ;
+static System::Security::Claims::ClaimsPrincipal New_ctor() ;
 
 /// @brief Method .ctor addr 0x230bae4 size 0xa0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ClaimsPrincipal(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Security::Claims::ClaimsPrincipal New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2313e08 size 0x100 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

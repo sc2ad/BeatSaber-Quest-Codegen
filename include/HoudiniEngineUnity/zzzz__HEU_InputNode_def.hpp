@@ -6,36 +6,48 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_InputNode__InputNodeType;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputObjectInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputHDAInfo;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_InputNode__InternalObjectType;
+}
+namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputPreset;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+struct HoudiniEngineUnity__HEU_InputNode__InputObjectType;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputObjectInfo;
+class HEU_InputInterfaceTilemapSettings;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputNodeUICache;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputNodeUICache;
-}
-namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputInterfaceTilemapSettings;
+class HEU_InputPreset;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputHDAInfo;
+struct HoudiniEngineUnity__HEU_InputNode__InputActions;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -103,6 +115,8 @@ __PARAMETER = 2,
 constexpr operator __HoudiniEngineUnity__HEU_InputNode__InputNodeType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_InputNode__InputNodeType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -179,6 +193,8 @@ __TILEMAP = 5,
 constexpr operator __HoudiniEngineUnity__HEU_InputNode__InputObjectType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_InputNode__InputObjectType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -262,6 +278,8 @@ constexpr operator __HoudiniEngineUnity__HEU_InputNode__InternalObjectType_Unwra
 return std::bit_cast<__HoudiniEngineUnity__HEU_InputNode__InternalObjectType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -334,6 +352,8 @@ __INSERT = 2,
 constexpr operator __HoudiniEngineUnity__HEU_InputNode__InputActions_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_InputNode__InputActions_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -762,8 +782,7 @@ static HoudiniEngineUnity::HEU_InputNode CreateSetupInput(int32_t nodeID, int32_
 /// @brief Method GetInternalObjectType addr 0x1ffa8f4 size 0x20 virtual false final false
 static HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputNode__InternalObjectType GetInternalObjectType(HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputNode__InputObjectType type) ;
 
-// Ctor Parameters []
-explicit HEU_InputNode() ;
+static HoudiniEngineUnity::HEU_InputNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ffe610 size 0x14c virtual false final false
  void _ctor() ;

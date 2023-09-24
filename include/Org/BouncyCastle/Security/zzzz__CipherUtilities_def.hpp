@@ -4,20 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto {
+class IBufferedCipher;
+}
+namespace Org::BouncyCastle::Security {
+struct Org__BouncyCastle__Security__CipherUtilities__CipherAlgorithm;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace System::Collections {
-class ICollection;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
+}
+namespace Org::BouncyCastle::Security {
+struct Org__BouncyCastle__Security__CipherUtilities__CipherPadding;
+}
+namespace Org::BouncyCastle::Security {
+struct Org__BouncyCastle__Security__CipherUtilities__CipherMode;
+}
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -118,6 +127,8 @@ __XTEA = 38,
 constexpr operator __Org__BouncyCastle__Security__CipherUtilities__CipherAlgorithm_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Security__CipherUtilities__CipherAlgorithm_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -311,6 +322,8 @@ constexpr operator __Org__BouncyCastle__Security__CipherUtilities__CipherMode_Un
 return std::bit_cast<__Org__BouncyCastle__Security__CipherUtilities__CipherMode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -445,6 +458,8 @@ __ZEROBYTEPADDING = 31,
 constexpr operator __Org__BouncyCastle__Security__CipherUtilities__CipherPadding_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Security__CipherUtilities__CipherPadding_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -623,8 +638,7 @@ static System::Collections::ICollection __declspec(property(get=get_Algorithms))
 
 // Methods
 
-// Ctor Parameters []
-explicit CipherUtilities() ;
+static Org::BouncyCastle::Security::CipherUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10953cc size 0x8 virtual false final false
  void _ctor() ;

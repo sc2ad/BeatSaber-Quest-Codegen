@@ -2,9 +2,9 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertRequest_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__Controls_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertTemplate_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Crmf::CertRequest._ctor
 template<>
@@ -160,8 +160,10 @@ constexpr void Org::BouncyCastle::Asn1::Crmf::CertRequest::__set_controls(Org::B
 constexpr Org::BouncyCastle::Asn1::Crmf::Controls Org::BouncyCastle::Asn1::Crmf::CertRequest::__get_controls() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Crmf::Controls, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::CertRequest::CertRequest(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertRequest>(seq))) {}
+ Org::BouncyCastle::Asn1::Crmf::CertRequest Org::BouncyCastle::Asn1::Crmf::CertRequest::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Crmf::CertRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::CertRequest>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::CertRequest::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::CertRequest>::get(),
@@ -180,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Crmf::CertRequest, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "certReqId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certTemplate", ty: "Org::BouncyCastle::Asn1::Crmf::CertTemplate", modifiers: "", def_value: None }, CppParam { name: "controls", ty: "Org::BouncyCastle::Asn1::Crmf::Controls", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::CertRequest::CertRequest(int32_t certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertRequest>(certReqId, certTemplate, controls))) {}
+ Org::BouncyCastle::Asn1::Crmf::CertRequest Org::BouncyCastle::Asn1::Crmf::CertRequest::New_ctor(int32_t certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls)  {
+Org::BouncyCastle::Asn1::Crmf::CertRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::CertRequest>(certReqId, certTemplate, controls))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::CertRequest::_ctor(int32_t certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::CertRequest>::get(),
@@ -191,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certReqId, certTemplate, controls);
 }
-// Ctor Parameters [CppParam { name: "certReqId", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "certTemplate", ty: "Org::BouncyCastle::Asn1::Crmf::CertTemplate", modifiers: "", def_value: None }, CppParam { name: "controls", ty: "Org::BouncyCastle::Asn1::Crmf::Controls", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::CertRequest::CertRequest(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertRequest>(certReqId, certTemplate, controls))) {}
+ Org::BouncyCastle::Asn1::Crmf::CertRequest Org::BouncyCastle::Asn1::Crmf::CertRequest::New_ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls)  {
+Org::BouncyCastle::Asn1::Crmf::CertRequest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::CertRequest>(certReqId, certTemplate, controls))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::CertRequest::_ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::Crmf::CertTemplate certTemplate, Org::BouncyCastle::Asn1::Crmf::Controls controls)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::CertRequest>::get(),

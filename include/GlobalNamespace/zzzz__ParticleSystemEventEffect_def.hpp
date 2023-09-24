@@ -3,8 +3,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
+namespace UnityEngine {
+class ParticleSystem;
+}
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class ColorSO;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 struct UnityEngine__ParticleSystem__MainModule;
@@ -13,22 +22,13 @@ namespace UnityEngine {
 struct UnityEngine__ParticleSystem__Particle;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
-}
-namespace UnityEngine {
-class ParticleSystem;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class ColorSO;
-}
-namespace UnityEngine {
-struct Color;
+class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -202,8 +202,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method RefreshParticles addr 0x2266520 size 0x3c0 virtual false final false
  void RefreshParticles() ;
 
-// Ctor Parameters []
-explicit ParticleSystemEventEffect() ;
+static GlobalNamespace::ParticleSystemEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2266b94 size 0x18 virtual false final false
  void _ctor() ;

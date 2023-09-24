@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::VisualElement, false>(const_cast<void*>(instance), ___internal_method, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UxmlRootElementFactory::UxmlRootElementFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UxmlRootElementTraits>(THROW_UNLESS(::il2cpp_utils::New<UxmlRootElementFactory>())) {}
+ UnityEngine::UIElements::UxmlRootElementFactory UnityEngine::UIElements::UxmlRootElementFactory::New_ctor()  {
+UnityEngine::UIElements::UxmlRootElementFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UxmlRootElementFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UxmlRootElementFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UxmlRootElementFactory>::get(),

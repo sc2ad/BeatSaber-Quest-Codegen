@@ -5,71 +5,16 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class ObstacleController;
+class ObstacleSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerGameNoteController;
 }
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-template<typename T>
-class MemoryPoolContainer_1;
-}
 namespace GlobalNamespace {
 class NoteCutInfoNetSerializable;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
 namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool;
-}
-namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerBombNoteController;
-}
-namespace GlobalNamespace {
-template<typename T0,typename T1>
-class MemoryPoolContainer_2;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class IConnectedPlayerBeatmapObjectEventManager;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerObstacleController;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool;
-}
-namespace GlobalNamespace {
-class ObstacleData;
+class GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
@@ -78,10 +23,68 @@ namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
+class IConnectedPlayerBeatmapObjectEventManager;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerObstacleController;
+}
+namespace GlobalNamespace {
+template<typename T>
+class MemoryPoolContainer_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+template<typename T0,typename T1>
+class MemoryPoolContainer_2;
 }
 namespace GlobalNamespace {
 class SliderController;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace GlobalNamespace {
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerBombNoteController;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -153,8 +156,7 @@ constexpr float_t __get_notesUniformScale() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "disappearingArrows", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ghostNotes", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "notesUniformScale", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData(bool disappearingArrows, bool ghostNotes, float_t notesUniformScale) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData New_ctor(bool disappearingArrows, bool ghostNotes, float_t notesUniformScale) ;
 
 /// @brief Method .ctor addr 0x20df0e0 size 0x40 virtual false final false
  void _ctor(bool disappearingArrows, bool ghostNotes, float_t notesUniformScale) ;
@@ -275,8 +277,7 @@ constexpr GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObj
 /// @brief Method get_activeObstacleControllers addr 0x20dd594 size 0x50 virtual true final false
  System::Collections::Generic::List_1<GlobalNamespace::ObstacleController> get_activeObstacleControllers() ;
 
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData", modifiers: "", def_value: None }, CppParam { name: "beatmapObjectEventManager", ty: "GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager", modifiers: "", def_value: None }, CppParam { name: "gameNotePool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool", modifiers: "", def_value: None }, CppParam { name: "burstSliderHeadGameNotePool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool", modifiers: "", def_value: None }, CppParam { name: "burstSliderGameNotePool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool", modifiers: "", def_value: None }, CppParam { name: "burstSliderFillPool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool", modifiers: "", def_value: None }, CppParam { name: "bombNotePool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool", modifiers: "", def_value: None }, CppParam { name: "obstaclePool", ty: "GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool", modifiers: "", def_value: None }]
-explicit MultiplayerConnectedPlayerBeatmapObjectManager(GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData initData, GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager beatmapObjectEventManager, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool gameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderHeadGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderFillPool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool bombNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool obstaclePool) ;
+static GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager New_ctor(GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData initData, GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager beatmapObjectEventManager, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool gameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderHeadGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderFillPool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool bombNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool obstaclePool) ;
 
 /// @brief Method .ctor addr 0x20dd5e4 size 0x480 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBeatmapObjectManager__InitData initData, GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager beatmapObjectEventManager, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool gameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderHeadGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderGameNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool burstSliderFillPool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool bombNotePool, GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerObstacleController__Pool obstaclePool) ;

@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine::UI {
-class Text;
+class Button;
 }
 namespace UnityEngine::UI {
-class Button;
+class Text;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,8 +81,7 @@ constexpr UnityEngine::UI::Button __get__button() const;
 /// @brief Method get_button addr 0x2127a10 size 0x8 virtual false final false
  UnityEngine::UI::Button get_button() ;
 
-// Ctor Parameters []
-explicit TextButton() ;
+static GlobalNamespace::TextButton New_ctor() ;
 
 /// @brief Method .ctor addr 0x2127a18 size 0x8 virtual false final false
  void _ctor() ;

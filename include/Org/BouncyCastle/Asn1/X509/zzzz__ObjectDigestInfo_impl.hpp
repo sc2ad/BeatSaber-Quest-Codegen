@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__ObjectDigestInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerEnumerated_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::ObjectDigestInfo.GetInstance
 template<>
@@ -203,8 +203,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::ObjectDigestInfo, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "digestedObjectType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "otherObjectTypeID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "objectDigest", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::ObjectDigestInfo::ObjectDigestInfo(int32_t digestedObjectType, ::StringW otherObjectTypeID, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, ::ArrayW<uint8_t> objectDigest)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ObjectDigestInfo>(digestedObjectType, otherObjectTypeID, digestAlgorithm, objectDigest))) {}
+ Org::BouncyCastle::Asn1::X509::ObjectDigestInfo Org::BouncyCastle::Asn1::X509::ObjectDigestInfo::New_ctor(int32_t digestedObjectType, ::StringW otherObjectTypeID, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, ::ArrayW<uint8_t> objectDigest)  {
+Org::BouncyCastle::Asn1::X509::ObjectDigestInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::ObjectDigestInfo>(digestedObjectType, otherObjectTypeID, digestAlgorithm, objectDigest))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::ObjectDigestInfo::_ctor(int32_t digestedObjectType, ::StringW otherObjectTypeID, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithm, ::ArrayW<uint8_t> objectDigest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::ObjectDigestInfo>::get(),
@@ -214,8 +216,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, digestedObjectType, otherObjectTypeID, digestAlgorithm, objectDigest);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::ObjectDigestInfo::ObjectDigestInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ObjectDigestInfo>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::ObjectDigestInfo Org::BouncyCastle::Asn1::X509::ObjectDigestInfo::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::ObjectDigestInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::ObjectDigestInfo>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::ObjectDigestInfo::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::ObjectDigestInfo>::get(),

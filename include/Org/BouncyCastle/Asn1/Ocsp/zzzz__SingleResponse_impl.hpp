@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__SingleResponse_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__CertStatus_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__CertID_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__CertStatus_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Ocsp::SingleResponse._ctor
 template<>
 
@@ -208,8 +208,10 @@ constexpr void Org::BouncyCastle::Asn1::Ocsp::SingleResponse::__set_singleExtens
 constexpr Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Asn1::Ocsp::SingleResponse::__get_singleExtensions() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::X509Extensions, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "certID", ty: "Org::BouncyCastle::Asn1::Ocsp::CertID", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "Org::BouncyCastle::Asn1::Ocsp::CertStatus", modifiers: "", def_value: None }, CppParam { name: "thisUpdate", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }, CppParam { name: "nextUpdate", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }, CppParam { name: "singleExtensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::SingleResponse::SingleResponse(Org::BouncyCastle::Asn1::Ocsp::CertID certID, Org::BouncyCastle::Asn1::Ocsp::CertStatus certStatus, Org::BouncyCastle::Asn1::DerGeneralizedTime thisUpdate, Org::BouncyCastle::Asn1::DerGeneralizedTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions singleExtensions)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SingleResponse>(certID, certStatus, thisUpdate, nextUpdate, singleExtensions))) {}
+ Org::BouncyCastle::Asn1::Ocsp::SingleResponse Org::BouncyCastle::Asn1::Ocsp::SingleResponse::New_ctor(Org::BouncyCastle::Asn1::Ocsp::CertID certID, Org::BouncyCastle::Asn1::Ocsp::CertStatus certStatus, Org::BouncyCastle::Asn1::DerGeneralizedTime thisUpdate, Org::BouncyCastle::Asn1::DerGeneralizedTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions singleExtensions)  {
+Org::BouncyCastle::Asn1::Ocsp::SingleResponse o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::SingleResponse>(certID, certStatus, thisUpdate, nextUpdate, singleExtensions))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::SingleResponse::_ctor(Org::BouncyCastle::Asn1::Ocsp::CertID certID, Org::BouncyCastle::Asn1::Ocsp::CertStatus certStatus, Org::BouncyCastle::Asn1::DerGeneralizedTime thisUpdate, Org::BouncyCastle::Asn1::DerGeneralizedTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions singleExtensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::SingleResponse>::get(),
@@ -219,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certID, certStatus, thisUpdate, nextUpdate, singleExtensions);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::SingleResponse::SingleResponse(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SingleResponse>(seq))) {}
+ Org::BouncyCastle::Asn1::Ocsp::SingleResponse Org::BouncyCastle::Asn1::Ocsp::SingleResponse::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Ocsp::SingleResponse o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::SingleResponse>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::SingleResponse::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::SingleResponse>::get(),

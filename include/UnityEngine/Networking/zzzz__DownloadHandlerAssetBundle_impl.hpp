@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandlerAssetBundle_def.hpp"
+#include "UnityEngine/zzzz__CachedAssetBundle_def.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
-#include "UnityEngine/zzzz__CachedAssetBundle_def.hpp"
 //  Writing Method size for method: UnityEngine::Networking::DownloadHandlerAssetBundle.Create
 template<>
 
@@ -261,8 +261,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, url, name, hash, crc);
 }
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "crc", ty: "uint32_t", modifiers: "", def_value: None }]
- UnityEngine::Networking::DownloadHandlerAssetBundle::DownloadHandlerAssetBundle(::StringW url, uint32_t crc)  : UnityEngine::Networking::DownloadHandler(THROW_UNLESS(::il2cpp_utils::New<DownloadHandlerAssetBundle>(url, crc))) {}
+ UnityEngine::Networking::DownloadHandlerAssetBundle UnityEngine::Networking::DownloadHandlerAssetBundle::New_ctor(::StringW url, uint32_t crc)  {
+UnityEngine::Networking::DownloadHandlerAssetBundle o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::DownloadHandlerAssetBundle>(url, crc))};
+return o;
+}
  void UnityEngine::Networking::DownloadHandlerAssetBundle::_ctor(::StringW url, uint32_t crc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::DownloadHandlerAssetBundle>::get(),
@@ -272,8 +274,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, url, crc);
 }
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cachedBundle", ty: "UnityEngine::CachedAssetBundle", modifiers: "", def_value: None }, CppParam { name: "crc", ty: "uint32_t", modifiers: "", def_value: None }]
- UnityEngine::Networking::DownloadHandlerAssetBundle::DownloadHandlerAssetBundle(::StringW url, UnityEngine::CachedAssetBundle cachedBundle, uint32_t crc)  : UnityEngine::Networking::DownloadHandler(THROW_UNLESS(::il2cpp_utils::New<DownloadHandlerAssetBundle>(url, cachedBundle, crc))) {}
+ UnityEngine::Networking::DownloadHandlerAssetBundle UnityEngine::Networking::DownloadHandlerAssetBundle::New_ctor(::StringW url, UnityEngine::CachedAssetBundle cachedBundle, uint32_t crc)  {
+UnityEngine::Networking::DownloadHandlerAssetBundle o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::DownloadHandlerAssetBundle>(url, cachedBundle, crc))};
+return o;
+}
  void UnityEngine::Networking::DownloadHandlerAssetBundle::_ctor(::StringW url, UnityEngine::CachedAssetBundle cachedBundle, uint32_t crc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::DownloadHandlerAssetBundle>::get(),

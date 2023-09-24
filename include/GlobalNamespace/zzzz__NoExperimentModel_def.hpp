@@ -1,12 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace GlobalNamespace {
+class IExperimentData;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
-}
-namespace GlobalNamespace {
-class IExperimentData;
 }
 namespace GlobalNamespace {
 class IExperimentModel;
@@ -66,8 +66,7 @@ constexpr explicit NoExperimentModel(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 /// @brief Method IsInTest addr 0x21bf848 size 0x68 virtual true final true
  System::Threading::Tasks::Task_1<bool> IsInTest(GlobalNamespace::IExperimentData data) ;
 
-// Ctor Parameters []
-explicit NoExperimentModel() ;
+static GlobalNamespace::NoExperimentModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bf8b0 size 0x8 virtual false final false
  void _ctor() ;

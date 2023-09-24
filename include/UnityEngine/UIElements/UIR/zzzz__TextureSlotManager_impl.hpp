@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/UIR/zzzz__TextureSlotManager_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureRegistry_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::TextureSlotManager._ctor
 template<>
 
@@ -217,8 +217,10 @@ constexpr void UnityEngine::UIElements::UIR::TextureSlotManager::__set_textureRe
 constexpr UnityEngine::UIElements::TextureRegistry UnityEngine::UIElements::UIR::TextureSlotManager::__get_textureRegistry() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::TextureRegistry, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::TextureSlotManager::TextureSlotManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TextureSlotManager>())) {}
+ UnityEngine::UIElements::UIR::TextureSlotManager UnityEngine::UIElements::UIR::TextureSlotManager::New_ctor()  {
+UnityEngine::UIElements::UIR::TextureSlotManager o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::TextureSlotManager>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::TextureSlotManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::TextureSlotManager>::get(),

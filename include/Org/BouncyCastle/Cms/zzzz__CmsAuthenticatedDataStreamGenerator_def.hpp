@@ -5,29 +5,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Cms {
+class Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class CipherKeyGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Asn1 {
 class BerSequenceGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -111,8 +114,7 @@ constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get_eiGen() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "macStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "authGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream(System::IO::Stream macStream, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator authGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
+static Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream New_ctor(System::IO::Stream macStream, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator authGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
 
 /// @brief Method .ctor addr 0x1151e18 size 0x50 virtual false final false
  void _ctor(System::IO::Stream macStream, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator authGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
@@ -189,14 +191,12 @@ constexpr bool __get__berEncodeRecipientSet() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsAuthenticatedDataStreamGenerator() ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1150f58 size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit CmsAuthenticatedDataStreamGenerator(Org::BouncyCastle::Security::SecureRandom rand) ;
+static Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator New_ctor(Org::BouncyCastle::Security::SecureRandom rand) ;
 
 /// @brief Method .ctor addr 0x1150f5c size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom rand) ;

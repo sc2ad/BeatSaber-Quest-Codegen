@@ -6,35 +6,35 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+class INetworkPlayer;
+}
 namespace System {
 template<typename T>
 struct Nullable_1;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Message_1;
 }
-namespace GlobalNamespace {
-class INetworkPlayer;
-}
 namespace Oculus::Platform::Models {
 class Room;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
+class IConnectedPlayer;
+}
+namespace Oculus::Platform::Models {
+class User;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class TaskCompletionSource_1;
-}
-namespace Oculus::Platform::Models {
-class User;
 }
 namespace Oculus::Platform::Models {
 class UserList;
@@ -47,7 +47,40 @@ namespace Oculus::Platform::Models {
 class UserAndRoomList;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0;
+}
+namespace GlobalNamespace {
+class OculusConnectionManager;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace GlobalNamespace {
 class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusNetworkPlayerModel___Start_d__42;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0;
+}
+namespace GlobalNamespace {
+template<typename T>
+class INetworkPlayerModelPartyConfig_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusNetworkPlayerModel___HandleRoomInviteReceived_d__51;
 }
 namespace System {
 template<typename T>
@@ -57,33 +90,21 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace GlobalNamespace {
+class IPlatformUserModel;
+}
 namespace Oculus::Platform {
 struct RoomJoinPolicy;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace Oculus::Platform::Models {
+class RoomInviteNotification;
 }
 namespace GlobalNamespace {
-template<typename T>
-class INetworkPlayerModelPartyConfig_1;
-}
-namespace GlobalNamespace {
-class OculusConnectionManager;
+class GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace Oculus::Platform::Models {
-class RoomInviteNotification;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -333,8 +354,7 @@ constexpr bool __get__isWaitingOnInvite_k__BackingField() const;
 /// @brief Method set_connectedPlayer addr 0x220ecf0 size 0x8 virtual false final false
  void set_connectedPlayer(GlobalNamespace::IConnectedPlayer value) ;
 
-// Ctor Parameters [CppParam { name: "playerModel", ty: "GlobalNamespace::OculusNetworkPlayerModel", modifiers: "", def_value: None }, CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isMe", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer(GlobalNamespace::OculusNetworkPlayerModel playerModel, uint64_t id, ::StringW userName, bool isMe) ;
+static GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer New_ctor(GlobalNamespace::OculusNetworkPlayerModel playerModel, uint64_t id, ::StringW userName, bool isMe) ;
 
 /// @brief Method .ctor addr 0x220ddb4 size 0xb8 virtual false final false
  void _ctor(GlobalNamespace::OculusNetworkPlayerModel playerModel, uint64_t id, ::StringW userName, bool isMe) ;
@@ -552,8 +572,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<::StringW> __get_tcs(
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0() ;
+static GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x220d664 size 0x8 virtual false final false
  void _ctor() ;
@@ -622,8 +641,7 @@ constexpr GlobalNamespace::OculusNetworkPlayerModel __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0() ;
+static GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x220f7e8 size 0x8 virtual false final false
  void _ctor() ;
@@ -793,8 +811,7 @@ constexpr Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platfo
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0() ;
+static GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x220df2c size 0x8 virtual false final false
  void _ctor() ;
@@ -872,8 +889,7 @@ constexpr uint64_t __get_userId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0() ;
+static GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x220e3f8 size 0x8 virtual false final false
  void _ctor() ;
@@ -1178,8 +1194,7 @@ template<typename T>
 /// @brief Method ShouldAcceptConnectionFromPlayer addr 0x220c634 size 0x1d4 virtual false final false
  System::Threading::Tasks::Task_1<bool> ShouldAcceptConnectionFromPlayer(uint64_t userId) ;
 
-// Ctor Parameters []
-explicit OculusNetworkPlayerModel() ;
+static GlobalNamespace::OculusNetworkPlayerModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x220e43c size 0xf4 virtual false final false
  void _ctor() ;

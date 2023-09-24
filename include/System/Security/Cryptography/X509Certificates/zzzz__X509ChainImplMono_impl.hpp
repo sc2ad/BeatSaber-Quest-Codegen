@@ -1,21 +1,20 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImplMono_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X500DistinguishedName_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElementCollection_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Store_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElement_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Crl_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElementCollection_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElement_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X500DistinguishedName_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__StoreLocation_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Store_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainPolicy_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Store_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Crl_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Store_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Crl_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__StoreLocation_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509ChainImplMono._ctor
 template<>
 
@@ -741,8 +740,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509ChainImplMo
 constexpr System::Security::Cryptography::X509Certificates::X509Certificate2Collection System::Security::Cryptography::X509Certificates::X509ChainImplMono::__get_collection() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::X509Certificates::X509Certificate2Collection, 0x80>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "useMachineContext", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509ChainImplMono::X509ChainImplMono(bool useMachineContext)  : System::Security::Cryptography::X509Certificates::X509ChainImpl(THROW_UNLESS(::il2cpp_utils::New<X509ChainImplMono>(useMachineContext))) {}
+ System::Security::Cryptography::X509Certificates::X509ChainImplMono System::Security::Cryptography::X509Certificates::X509ChainImplMono::New_ctor(bool useMachineContext)  {
+System::Security::Cryptography::X509Certificates::X509ChainImplMono o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509ChainImplMono>(useMachineContext))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509ChainImplMono::_ctor(bool useMachineContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509ChainImplMono>::get(),

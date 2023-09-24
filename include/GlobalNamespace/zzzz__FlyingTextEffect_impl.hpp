@@ -2,11 +2,12 @@
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingTextEffect_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "TMPro/zzzz__TextMeshPro_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "TMPro/zzzz__TextMeshPro_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingTextEffect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FlyingTextEffect.InitAndPresent
 template<>
 
@@ -94,8 +95,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-// Ctor Parameters []
- GlobalNamespace::FlyingTextEffect::FlyingTextEffect()  : GlobalNamespace::FlyingObjectEffect(THROW_UNLESS(::il2cpp_utils::New<FlyingTextEffect>())) {}
+ GlobalNamespace::FlyingTextEffect GlobalNamespace::FlyingTextEffect::New_ctor()  {
+GlobalNamespace::FlyingTextEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FlyingTextEffect>())};
+return o;
+}
  void GlobalNamespace::FlyingTextEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FlyingTextEffect>::get(),
@@ -122,8 +125,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__FlyingTextEffect__Pool::GlobalNamespace__FlyingTextEffect__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::FlyingTextEffect>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FlyingTextEffect__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__FlyingTextEffect__Pool GlobalNamespace::GlobalNamespace__FlyingTextEffect__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__FlyingTextEffect__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FlyingTextEffect__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FlyingTextEffect__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FlyingTextEffect__Pool>::get(),

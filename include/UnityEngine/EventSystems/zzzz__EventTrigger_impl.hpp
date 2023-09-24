@@ -2,29 +2,30 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventTrigger_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDropHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEndDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventTrigger_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IScrollHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventTriggerType_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDropHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IMoveHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__ICancelHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IMoveHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEndDragHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventTriggerType_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
 //  Writing Method size for method: UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent._ctor
 template<>
 
@@ -42,8 +43,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent::UnityEngine__EventSystems__EventTrigger__TriggerEvent()  : UnityEngine::Events::UnityEvent_1<UnityEngine::EventSystems::BaseEventData>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__EventSystems__EventTrigger__TriggerEvent>())) {}
+ UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent::New_ctor()  {
+UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent>())};
+return o;
+}
  void UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent>::get(),
@@ -82,8 +85,10 @@ constexpr void UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigge
 constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Entry::__get_callback() const {
 return ::cordl_internals::getInstanceField<UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Entry::UnityEngine__EventSystems__EventTrigger__Entry()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__EventSystems__EventTrigger__Entry>())) {}
+ UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Entry UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Entry::New_ctor()  {
+UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Entry o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Entry>())};
+return o;
+}
  void UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Entry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Entry>::get(),
@@ -580,8 +585,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::EventTrigger::EventTrigger()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EventTrigger>())) {}
+ UnityEngine::EventSystems::EventTrigger UnityEngine::EventSystems::EventTrigger::New_ctor()  {
+UnityEngine::EventSystems::EventTrigger o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::EventTrigger>())};
+return o;
+}
  void UnityEngine::EventSystems::EventTrigger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::EventTrigger>::get(),

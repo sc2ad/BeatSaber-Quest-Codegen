@@ -6,25 +6,25 @@ namespace UnityEngine::InputSystem::Controls {
 class TouchPressControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class TouchPhaseControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class DoubleControl;
+class IntegerControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class DeltaControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::Controls {
+class DoubleControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct TouchState;
@@ -36,7 +36,7 @@ class TouchControl;
 // Type: UnityEngine.InputSystem.Controls::TouchControl
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3759 }), TypeDefinitionIndex(TypeDefinitionIndex(6597))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3759 }), TypeDefinitionIndex(TypeDefinitionIndex(6597)), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6724))
 // CS Name: UnityEngine.InputSystem.Controls.TouchControl
 class CORDL_TYPE TouchControl : public UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::LowLevel::TouchState> {
@@ -254,8 +254,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector2Control __get__startPositio
 /// @brief Method get_isInProgress addr 0x2978e18 size 0x70 virtual false final false
  bool get_isInProgress() ;
 
-// Ctor Parameters []
-explicit TouchControl() ;
+static UnityEngine::InputSystem::Controls::TouchControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2978e88 size 0x58 virtual false final false
  void _ctor() ;

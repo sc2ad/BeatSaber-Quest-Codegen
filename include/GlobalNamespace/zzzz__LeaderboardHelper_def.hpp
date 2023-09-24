@@ -10,16 +10,15 @@ class LeaderboardIdsModelSO;
 namespace GlobalNamespace {
 class BeatmapLevelCollectionSO;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__LeaderboardHelper___CreateOculusLeaderboard_d__2;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
 }
 namespace System::Net::Http {
 class HttpRequestMessage;
@@ -29,6 +28,10 @@ class IAsyncStateMachine;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace System::Net::Http {
 class HttpClient;
@@ -206,8 +209,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get__leaderboardIds(
 /// @brief Method CreateOculusLeaderboard addr 0x2199538 size 0xa4 virtual false final false
  void CreateOculusLeaderboard(::StringW leaderboardID, ::StringW appToken) ;
 
-// Ctor Parameters []
-explicit LeaderboardHelper() ;
+static GlobalNamespace::LeaderboardHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x21995dc size 0x80 virtual false final false
  void _ctor() ;

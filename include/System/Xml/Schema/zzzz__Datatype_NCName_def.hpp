@@ -7,11 +7,11 @@
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
-namespace System {
-class Exception;
-}
 namespace System::Xml {
 class XmlNameTable;
+}
+namespace System {
+class Exception;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
@@ -73,8 +73,7 @@ constexpr explicit Datatype_NCName(void* ptr) noexcept : System::Xml::Schema::Da
 /// @brief Method TryParseValue addr 0x2727d58 size 0xfc virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_NCName() ;
+static System::Xml::Schema::Datatype_NCName New_ctor() ;
 
 /// @brief Method .ctor addr 0x2727e54 size 0x4 virtual false final false
  void _ctor() ;

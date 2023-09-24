@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/zzzz__XmlEncodedRawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlEncodedRawTextWriterIndent_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_def.hpp"
 #include "System/Xml/zzzz__BitStack_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: System::Xml::XmlEncodedRawTextWriterIndent._ctor
 template<>
 
@@ -433,8 +433,10 @@ constexpr void System::Xml::XmlEncodedRawTextWriterIndent::__set_conformanceLeve
 constexpr System::Xml::ConformanceLevel System::Xml::XmlEncodedRawTextWriterIndent::__get_conformanceLevel() const {
 return ::cordl_internals::getInstanceField<System::Xml::ConformanceLevel, 0xd8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlEncodedRawTextWriterIndent::XmlEncodedRawTextWriterIndent(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlEncodedRawTextWriter(THROW_UNLESS(::il2cpp_utils::New<XmlEncodedRawTextWriterIndent>(writer, settings))) {}
+ System::Xml::XmlEncodedRawTextWriterIndent System::Xml::XmlEncodedRawTextWriterIndent::New_ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings)  {
+System::Xml::XmlEncodedRawTextWriterIndent o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlEncodedRawTextWriterIndent>(writer, settings))};
+return o;
+}
  void System::Xml::XmlEncodedRawTextWriterIndent::_ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlEncodedRawTextWriterIndent>::get(),
@@ -444,8 +446,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, writer, settings);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlEncodedRawTextWriterIndent::XmlEncodedRawTextWriterIndent(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlEncodedRawTextWriter(THROW_UNLESS(::il2cpp_utils::New<XmlEncodedRawTextWriterIndent>(stream, settings))) {}
+ System::Xml::XmlEncodedRawTextWriterIndent System::Xml::XmlEncodedRawTextWriterIndent::New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
+System::Xml::XmlEncodedRawTextWriterIndent o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlEncodedRawTextWriterIndent>(stream, settings))};
+return o;
+}
  void System::Xml::XmlEncodedRawTextWriterIndent::_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlEncodedRawTextWriterIndent>::get(),

@@ -84,8 +84,7 @@ static System::Net::Configuration::SettingsSectionInternal get_Section() ;
 /// @brief Method get_Ipv6Enabled addr 0x285e728 size 0x8 virtual false final false
  bool get_Ipv6Enabled() ;
 
-// Ctor Parameters []
-explicit SettingsSectionInternal() ;
+static System::Net::Configuration::SettingsSectionInternal New_ctor() ;
 
 /// @brief Method .ctor addr 0x285e730 size 0x18 virtual false final false
  void _ctor() ;

@@ -95,8 +95,7 @@ constexpr GlobalNamespace::TabBarViewController __get__tabBarViewControllerPrefa
 /// @brief Method InstallBindings addr 0x211a06c size 0xb4 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MainSettingsMenuViewControllersInstaller() ;
+static GlobalNamespace::MainSettingsMenuViewControllersInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211a120 size 0x8 virtual false final false
  void _ctor() ;

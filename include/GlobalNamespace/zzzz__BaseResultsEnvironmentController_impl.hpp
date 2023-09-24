@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapData);
 }
-// Ctor Parameters []
- GlobalNamespace::BaseResultsEnvironmentController::BaseResultsEnvironmentController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BaseResultsEnvironmentController>())) {}
+ GlobalNamespace::BaseResultsEnvironmentController GlobalNamespace::BaseResultsEnvironmentController::New_ctor()  {
+GlobalNamespace::BaseResultsEnvironmentController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BaseResultsEnvironmentController>())};
+return o;
+}
  void GlobalNamespace::BaseResultsEnvironmentController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BaseResultsEnvironmentController>::get(),

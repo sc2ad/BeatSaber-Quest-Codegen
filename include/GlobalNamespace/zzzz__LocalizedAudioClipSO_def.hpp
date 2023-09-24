@@ -9,6 +9,12 @@ class AudioClip;
 namespace Polyglot {
 struct Language;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo;
@@ -76,8 +82,7 @@ constexpr UnityEngine::AudioClip __get_localizedAudioClip() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo() ;
+static GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudioClipInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x219d1fc size 0x8 virtual false final false
  void _ctor() ;
@@ -137,8 +142,7 @@ constexpr Polyglot::Language __get_language() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0() ;
+static GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x219d1ec size 0x8 virtual false final false
  void _ctor() ;
@@ -219,8 +223,7 @@ constexpr GlobalNamespace::GlobalNamespace__LocalizedAudioClipSO__LocalizedAudio
 /// @brief Method get_localizedAudioClip addr 0x219d0e4 size 0x108 virtual false final false
  UnityEngine::AudioClip get_localizedAudioClip() ;
 
-// Ctor Parameters []
-explicit LocalizedAudioClipSO() ;
+static GlobalNamespace::LocalizedAudioClipSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x219d1f4 size 0x8 virtual false final false
  void _ctor() ;

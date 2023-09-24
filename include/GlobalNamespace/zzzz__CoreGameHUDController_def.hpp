@@ -3,6 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
+namespace GlobalNamespace {
+class GlobalNamespace__CoreGameHUDController__InitData;
+}
 namespace UnityEngine {
 class CanvasGroup;
 }
@@ -79,8 +82,7 @@ constexpr bool __get_advancedHUD() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hide", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "showEnergyPanel", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "advancedHUD", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__CoreGameHUDController__InitData(bool hide, bool showEnergyPanel, bool advancedHUD) ;
+static GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) ;
 
 /// @brief Method .ctor addr 0x2274b38 size 0x40 virtual false final false
  void _ctor(bool hide, bool showEnergyPanel, bool advancedHUD) ;
@@ -197,8 +199,7 @@ constexpr UnityEngine::CanvasGroup __get__canvasGroup() const;
 /// @brief Method Initialize addr 0x2274aa0 size 0x90 virtual false final false
  void Initialize(GlobalNamespace::GlobalNamespace__CoreGameHUDController__InitData initData) ;
 
-// Ctor Parameters []
-explicit CoreGameHUDController() ;
+static GlobalNamespace::CoreGameHUDController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2274b30 size 0x8 virtual false final false
  void _ctor() ;

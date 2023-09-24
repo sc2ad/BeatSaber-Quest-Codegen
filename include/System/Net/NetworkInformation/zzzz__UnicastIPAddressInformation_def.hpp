@@ -47,8 +47,7 @@ constexpr explicit UnicastIPAddressInformation(void* ptr) noexcept : System::Net
 
 // Methods
 
-// Ctor Parameters []
-explicit UnicastIPAddressInformation() ;
+static System::Net::NetworkInformation::UnicastIPAddressInformation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2859610 size 0x8 virtual false final false
  void _ctor() ;

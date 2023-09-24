@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::MD5::MD5()  : System::Security::Cryptography::HashAlgorithm(THROW_UNLESS(::il2cpp_utils::New<MD5>())) {}
+ System::Security::Cryptography::MD5 System::Security::Cryptography::MD5::New_ctor()  {
+System::Security::Cryptography::MD5 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::MD5>())};
+return o;
+}
  void System::Security::Cryptography::MD5::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::MD5>::get(),

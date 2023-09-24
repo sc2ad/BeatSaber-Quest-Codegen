@@ -82,20 +82,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_commitmentTypeQualifier() 
 /// @brief Method GetInstance addr 0xe0129c size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CommitmentTypeIndication(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe01424 size 0x2b8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "commitmentTypeId", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit CommitmentTypeIndication(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeId) ;
+static Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeId) ;
 
 /// @brief Method .ctor addr 0xe016dc size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeId) ;
 
-// Ctor Parameters [CppParam { name: "commitmentTypeId", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "commitmentTypeQualifier", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CommitmentTypeIndication(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeId, Org::BouncyCastle::Asn1::Asn1Sequence commitmentTypeQualifier) ;
+static Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeId, Org::BouncyCastle::Asn1::Asn1Sequence commitmentTypeQualifier) ;
 
 /// @brief Method .ctor addr 0xe016e4 size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier commitmentTypeId, Org::BouncyCastle::Asn1::Asn1Sequence commitmentTypeQualifier) ;

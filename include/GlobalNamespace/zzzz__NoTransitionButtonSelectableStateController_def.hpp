@@ -12,7 +12,7 @@ class NoTransitionButtonSelectableStateController;
 // Type: ::NoTransitionButtonSelectableStateController
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5559), inst: 4808 }), TypeDefinitionIndex(TypeDefinitionIndex(5559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5559)), TypeDefinitionIndex(TypeDefinitionIndex(13674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5559), inst: 4808 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5560))
 // CS Name: NoTransitionButtonSelectableStateController
 class CORDL_TYPE NoTransitionButtonSelectableStateController : public GlobalNamespace::SelectableStateController_1<HMUI::NoTransitionsButton> {
@@ -63,8 +63,7 @@ constexpr explicit NoTransitionButtonSelectableStateController(void* ptr) noexce
 /// @brief Method ResolveSelectionState addr 0x212b8c8 size 0xb8 virtual false final false
  void ResolveSelectionState(HMUI::HMUI__NoTransitionsButton__SelectionState state, bool animated) ;
 
-// Ctor Parameters []
-explicit NoTransitionButtonSelectableStateController() ;
+static GlobalNamespace::NoTransitionButtonSelectableStateController New_ctor() ;
 
 /// @brief Method .ctor addr 0x212ba14 size 0x48 virtual false final false
  void _ctor() ;

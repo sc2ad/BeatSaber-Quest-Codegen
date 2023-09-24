@@ -3,24 +3,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template<typename T>
+class LinkedListNode_1;
 }
 namespace GlobalNamespace {
-class BeatmapData;
+class BeatmapEventDataBoxGroupList;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroup;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class LinkedListNode_1;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
 }
 namespace GlobalNamespace {
-class BeatmapEventDataBoxGroupList;
+class BeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +95,7 @@ constexpr bool __get__updateBeatmapDataOnInsert() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beatmapData", ty: "GlobalNamespace::BeatmapData", modifiers: "", def_value: None }, CppParam { name: "beatToTimeConvertor", ty: "GlobalNamespace::IBeatToTimeConvertor", modifiers: "", def_value: None }, CppParam { name: "updateBeatmapDataOnInsert", ty: "bool", modifiers: "", def_value: None }]
-explicit BeatmapEventDataBoxGroupLists(GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor, bool updateBeatmapDataOnInsert) ;
+static GlobalNamespace::BeatmapEventDataBoxGroupLists New_ctor(GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor, bool updateBeatmapDataOnInsert) ;
 
 /// @brief Method .ctor addr 0x21dc9bc size 0xa8 virtual false final false
  void _ctor(GlobalNamespace::BeatmapData beatmapData, GlobalNamespace::IBeatToTimeConvertor beatToTimeConvertor, bool updateBeatmapDataOnInsert) ;

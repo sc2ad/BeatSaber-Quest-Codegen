@@ -3,6 +3,7 @@
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__SXprUtilities_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__SXprUtilities_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__S2k_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k._ctor
 template<>
@@ -44,8 +45,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPg
 constexpr int64_t Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k::__get_mIterationCount64() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount64", ty: "int64_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int64_t iterationCount64)  : Org::BouncyCastle::Bcpg::S2k(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k>(algorithm, iv, iterationCount64))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k::New_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int64_t iterationCount64)  {
+Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k>(algorithm, iv, iterationCount64))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k::_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int64_t iterationCount64)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__SXprUtilities__MyS2k>::get(),
@@ -183,8 +186,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::SXprUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SXprUtilities>())) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::New_ctor()  {
+Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities>::get(),

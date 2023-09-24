@@ -47,8 +47,7 @@ constexpr explicit AspMvcPartialViewAttribute(void* ptr) noexcept : System::Attr
 
 // Methods
 
-// Ctor Parameters []
-explicit AspMvcPartialViewAttribute() ;
+static JetBrains::Annotations::AspMvcPartialViewAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41120 size 0x8 virtual false final false
  void _ctor() ;

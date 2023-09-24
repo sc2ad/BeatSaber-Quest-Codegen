@@ -1,6 +1,9 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace UnityEngine {
+class TerrainLayer;
+}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
@@ -8,9 +11,6 @@ class IEquivable_1;
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivableWrapperClass_1;
-}
-namespace UnityEngine {
-class TerrainLayer;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -73,8 +73,7 @@ constexpr UnityEngine::TerrainLayer __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::TerrainLayer", modifiers: "", def_value: None }]
-explicit Test_TerrainLayer(UnityEngine::TerrainLayer self) ;
+static HoudiniEngineUnity::Test_TerrainLayer New_ctor(UnityEngine::TerrainLayer self) ;
 
 /// @brief Method .ctor addr 0x2074bac size 0x28 virtual false final false
  void _ctor(UnityEngine::TerrainLayer self) ;

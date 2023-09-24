@@ -263,8 +263,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bytesUnknown);
 }
-// Ctor Parameters []
- System::Text::DecoderFallbackBuffer::DecoderFallbackBuffer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DecoderFallbackBuffer>())) {}
+ System::Text::DecoderFallbackBuffer System::Text::DecoderFallbackBuffer::New_ctor()  {
+System::Text::DecoderFallbackBuffer o{THROW_UNLESS(::il2cpp_utils::New<System::Text::DecoderFallbackBuffer>())};
+return o;
+}
  void System::Text::DecoderFallbackBuffer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::DecoderFallbackBuffer>::get(),

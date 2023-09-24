@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PbeS2Parameters_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__KeyDerivationFunc_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__EncryptionScheme_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__KeyDerivationFunc_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters.GetInstance
 template<>
 
@@ -128,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "keyDevFunc", ty: "Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc", modifiers: "", def_value: None }, CppParam { name: "encScheme", ty: "Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::PbeS2Parameters(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc keyDevFunc, Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme encScheme)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PbeS2Parameters>(keyDevFunc, encScheme))) {}
+ Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::New_ctor(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc keyDevFunc, Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme encScheme)  {
+Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters>(keyDevFunc, encScheme))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::_ctor(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc keyDevFunc, Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme encScheme)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters>::get(),
@@ -139,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyDevFunc, encScheme);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::PbeS2Parameters(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PbeS2Parameters>(seq))) {}
+ Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters>::get(),

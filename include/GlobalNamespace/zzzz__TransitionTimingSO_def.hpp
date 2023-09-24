@@ -79,8 +79,7 @@ constexpr float_t __get__easeDuration() const;
 /// @brief Method get_easeDuration addr 0x212c29c size 0x8 virtual false final false
  float_t get_easeDuration() ;
 
-// Ctor Parameters []
-explicit TransitionTimingSO() ;
+static GlobalNamespace::TransitionTimingSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x212c2a4 size 0x8 virtual false final false
  void _ctor() ;

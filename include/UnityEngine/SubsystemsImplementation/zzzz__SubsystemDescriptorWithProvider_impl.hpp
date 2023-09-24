@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemDescriptorWithProvider_def.hpp"
-#include "UnityEngine/zzzz__ISubsystem_def.hpp"
 #include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
+#include "UnityEngine/zzzz__ISubsystem_def.hpp"
 //  Writing Method size for method: UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider.get_id
 template<>
 
@@ -107,8 +107,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::ISubsystem, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::SubsystemDescriptorWithProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubsystemDescriptorWithProvider>())) {}
+ UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::New_ctor()  {
+UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider>())};
+return o;
+}
  void UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider>::get(),

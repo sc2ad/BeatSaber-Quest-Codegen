@@ -6,94 +6,109 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct HideFlags;
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+class UnwrapParameters;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace UnityEngine::ProBuilder {
-struct MeshArrays;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
 namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine {
-class Material;
+struct RefreshMask;
 }
 namespace UnityEngine {
 struct MeshTopology;
 }
 namespace UnityEngine::ProBuilder {
-struct AutoUnwrapSettings;
-}
-namespace UnityEngine::ProBuilder {
-struct MeshSyncState;
-}
-namespace UnityEngine::ProBuilder {
-class UnwrapParameters;
-}
-namespace System::Collections::ObjectModel {
-template<typename T>
-class ReadOnlyCollection_1;
+struct MeshArrays;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class MeshFilter;
+class MeshRenderer;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::ProBuilder {
-struct Edge;
+struct AutoUnwrapSettings;
 }
-namespace UnityEngine {
-class Mesh;
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::ProBuilder {
-struct RefreshMask;
+class UnityEngine__ProBuilder__ProBuilderMesh____c;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine::ProBuilder {
 class SharedVertex;
+}
+namespace UnityEngine::ProBuilder {
+struct MeshSyncState;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct HideFlags;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace System::Collections::ObjectModel {
+template<typename T>
+class ReadOnlyCollection_1;
+}
+namespace UnityEngine::ProBuilder {
+struct UnityEngine__ProBuilder__ProBuilderMesh__CacheValidState;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::ProBuilder {
+struct UnityEngine__ProBuilder__ProBuilderMesh__NonVersionedEditScope;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -170,6 +185,8 @@ __SharedTexture = 2u,
 constexpr operator __UnityEngine__ProBuilder__ProBuilderMesh__CacheValidState_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ProBuilder__ProBuilderMesh__CacheValidState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields
@@ -342,8 +359,7 @@ static System::Func_2<UnityEngine::ProBuilder::Face,UnityEngine::ProBuilder::Fac
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__ProBuilderMesh____c() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x29cb694 size 0x8 virtual false final false
  void _ctor() ;
@@ -418,8 +434,7 @@ constexpr int32_t __get_i() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass168_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x29c7c58 size 0x8 virtual false final false
  void _ctor() ;
@@ -482,8 +497,7 @@ constexpr int32_t __get_i() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ProBuilderMesh____c__DisplayClass170_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x29c7d7c size 0x8 virtual false final false
  void _ctor() ;
@@ -1344,8 +1358,7 @@ static bool IsValidTextureGroup(int32_t group) ;
 /// @brief Method ClearSelection addr 0x29c61f4 size 0x94 virtual false final false
  void ClearSelection() ;
 
-// Ctor Parameters []
-explicit ProBuilderMesh() ;
+static UnityEngine::ProBuilder::ProBuilderMesh New_ctor() ;
 
 /// @brief Method .ctor addr 0x29cb33c size 0x128 virtual false final false
  void _ctor() ;

@@ -8,23 +8,26 @@
 namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
-}
 namespace UnityEngine::AddressableAssets {
-class UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+class UnityEngine__AddressableAssets__CheckCatalogsOperation____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -97,8 +100,7 @@ static System::Func_2<UnityEngine::ResourceManagement::ResourceProviders::IResou
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__CheckCatalogsOperation____c() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__CheckCatalogsOperation____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28937e8 size 0x8 virtual false final false
  void _ctor() ;
@@ -113,7 +115,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: UnityEngine.AddressableAssets::CheckCatalogsOperation
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 380 }), TypeDefinitionIndex(TypeDefinitionIndex(14313)), TypeDefinitionIndex(TypeDefinitionIndex(3828)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 770 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 380 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 770 }), TypeDefinitionIndex(TypeDefinitionIndex(3828))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14373))
 // CS Name: UnityEngine.AddressableAssets.CheckCatalogsOperation
 class CORDL_TYPE CheckCatalogsOperation : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<System::Collections::Generic::List_1<::StringW>> {
@@ -181,8 +183,7 @@ constexpr UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "aa", ty: "UnityEngine::AddressableAssets::AddressablesImpl", modifiers: "", def_value: None }]
-explicit CheckCatalogsOperation(UnityEngine::AddressableAssets::AddressablesImpl aa) ;
+static UnityEngine::AddressableAssets::CheckCatalogsOperation New_ctor(UnityEngine::AddressableAssets::AddressablesImpl aa) ;
 
 /// @brief Method .ctor addr 0x288f564 size 0x5c virtual false final false
  void _ctor(UnityEngine::AddressableAssets::AddressablesImpl aa) ;

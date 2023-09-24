@@ -6,17 +6,11 @@
 namespace System::Xml {
 class XmlAttributeCollection;
 }
-namespace System::Xml {
-struct XmlNodeType;
-}
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
-namespace System::Xml {
-class XmlNodeList;
-}
-namespace System::Xml {
-class XmlNodeChangedEventArgs;
+namespace System {
+class ICloneable;
 }
 namespace System::Text {
 class StringBuilder;
@@ -25,16 +19,22 @@ namespace System::Xml {
 struct XmlNodeChangedAction;
 }
 namespace System::Xml {
-class XmlLinkedNode;
+struct XmlNodeType;
 }
-namespace System {
-class ICloneable;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System::Xml {
+class XmlNodeChangedEventArgs;
 }
 namespace System::Xml {
 class XmlDocument;
+}
+namespace System::Xml {
+class XmlNodeList;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Xml {
+class XmlLinkedNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -146,14 +146,12 @@ constexpr System::Xml::XmlNode __get_parentNode() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlNode() ;
+static System::Xml::XmlNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x26f40ec size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlNode(System::Xml::XmlDocument doc) ;
+static System::Xml::XmlNode New_ctor(System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f5acc size 0x84 virtual false final false
  void _ctor(System::Xml::XmlDocument doc) ;

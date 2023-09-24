@@ -5,16 +5,16 @@
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
 namespace TMPro {
 class TMP_Text;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -157,8 +157,7 @@ static TMPro::TMP_UpdateManager __declspec(property(get=get_instance))  instance
 /// @brief Method get_instance addr 0x2ab44a4 size 0xa8 virtual false final false
 static TMPro::TMP_UpdateManager get_instance() ;
 
-// Ctor Parameters []
-explicit TMP_UpdateManager() ;
+static TMPro::TMP_UpdateManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab454c size 0x1cc virtual false final false
  void _ctor() ;

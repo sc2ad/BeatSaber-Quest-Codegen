@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/CryptoPro/zzzz__Gost3410ParamSetParameters_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters.GetInstance
 template<>
@@ -201,8 +201,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::Gost3410ParamSetParameters(int32_t keySize, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Gost3410ParamSetParameters>(keySize, p, q, a))) {}
+ Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::New_ctor(int32_t keySize, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a)  {
+Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters>(keySize, p, q, a))};
+return o;
+}
  void Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::_ctor(int32_t keySize, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters>::get(),
@@ -212,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keySize, p, q, a);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::Gost3410ParamSetParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Gost3410ParamSetParameters>(seq))) {}
+ Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters>::get(),

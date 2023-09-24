@@ -10,7 +10,7 @@ class CloudStorageMetadataList;
 // Type: Oculus.Platform.Models::CloudStorageMetadataList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1135 }), TypeDefinitionIndex(TypeDefinitionIndex(13407)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13407)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1135 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13408))
 // CS Name: Oculus.Platform.Models.CloudStorageMetadataList
 class CORDL_TYPE CloudStorageMetadataList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::CloudStorageMetadata> {
@@ -49,8 +49,7 @@ constexpr explicit CloudStorageMetadataList(void* ptr) noexcept : Oculus::Platfo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CloudStorageMetadataList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::CloudStorageMetadataList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259e5c0 size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

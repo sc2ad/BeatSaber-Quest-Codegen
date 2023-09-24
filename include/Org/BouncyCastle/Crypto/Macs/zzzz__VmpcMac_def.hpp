@@ -157,8 +157,7 @@ constexpr uint8_t __get_x4() const;
 /// @brief Method BlockUpdate addr 0xe85e5c size 0xf4 virtual true final false
  void BlockUpdate(::ArrayW<uint8_t> input, int32_t inOff, int32_t len) ;
 
-// Ctor Parameters []
-explicit VmpcMac() ;
+static Org::BouncyCastle::Crypto::Macs::VmpcMac New_ctor() ;
 
 /// @brief Method .ctor addr 0xe85f50 size 0x14 virtual false final false
  void _ctor() ;

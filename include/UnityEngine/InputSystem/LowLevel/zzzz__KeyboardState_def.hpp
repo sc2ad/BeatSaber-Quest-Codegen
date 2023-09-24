@@ -6,11 +6,14 @@
 namespace UnityEngine::InputSystem {
 struct Key;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
+struct UnityEngine__InputSystem__LowLevel__KeyboardState___keys_e__FixedBuffer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

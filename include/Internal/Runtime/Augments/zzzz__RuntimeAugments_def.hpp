@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Exception;
-}
 namespace Internal::Runtime::Augments {
 class ReflectionExecutionDomainCallbacks;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Internal::Runtime::Augments {

@@ -73,8 +73,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_characteristic() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "characteristic", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit PrimeField(Org::BouncyCastle::Math::BigInteger characteristic) ;
+static Org::BouncyCastle::Math::Field::PrimeField New_ctor(Org::BouncyCastle::Math::BigInteger characteristic) ;
 
 /// @brief Method .ctor addr 0xfce2d8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger characteristic) ;

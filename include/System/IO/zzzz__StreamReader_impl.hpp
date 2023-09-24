@@ -1,12 +1,12 @@
 #pragma once
-#include "System/IO/zzzz__StreamReader_impl.hpp"
 #include "System/IO/zzzz__TextReader_impl.hpp"
 #include "System/IO/zzzz__StreamReader_def.hpp"
+#include "System/IO/zzzz__StreamReader_NullStreamReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 //  Writing Method size for method: System::IO::StreamReader.CheckAsyncTaskInProgress
 template<>
 
@@ -682,8 +682,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::IO::StreamReader::StreamReader()  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>())) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor()  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>())};
+return o;
+}
  void System::IO::StreamReader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -693,8 +695,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- System::IO::StreamReader::StreamReader(System::IO::Stream stream)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>(stream))) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor(System::IO::Stream stream)  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>(stream))};
+return o;
+}
  void System::IO::StreamReader::_ctor(System::IO::Stream stream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -704,8 +708,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }]
- System::IO::StreamReader::StreamReader(System::IO::Stream stream, bool detectEncodingFromByteOrderMarks)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>(stream, detectEncodingFromByteOrderMarks))) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor(System::IO::Stream stream, bool detectEncodingFromByteOrderMarks)  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>(stream, detectEncodingFromByteOrderMarks))};
+return o;
+}
  void System::IO::StreamReader::_ctor(System::IO::Stream stream, bool detectEncodingFromByteOrderMarks)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -715,8 +721,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, detectEncodingFromByteOrderMarks);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::IO::StreamReader::StreamReader(System::IO::Stream stream, System::Text::Encoding encoding)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>(stream, encoding))) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor(System::IO::Stream stream, System::Text::Encoding encoding)  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>(stream, encoding))};
+return o;
+}
  void System::IO::StreamReader::_ctor(System::IO::Stream stream, System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -726,8 +734,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, encoding);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }]
- System::IO::StreamReader::StreamReader(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>(stream, encoding, detectEncodingFromByteOrderMarks))) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks)  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>(stream, encoding, detectEncodingFromByteOrderMarks))};
+return o;
+}
  void System::IO::StreamReader::_ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -737,8 +747,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, encoding, detectEncodingFromByteOrderMarks);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
- System::IO::StreamReader::StreamReader(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>(stream, encoding, detectEncodingFromByteOrderMarks, bufferSize, leaveOpen))) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen)  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>(stream, encoding, detectEncodingFromByteOrderMarks, bufferSize, leaveOpen))};
+return o;
+}
  void System::IO::StreamReader::_ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -748,8 +760,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, encoding, detectEncodingFromByteOrderMarks, bufferSize, leaveOpen);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
- System::IO::StreamReader::StreamReader(::StringW path)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>(path))) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor(::StringW path)  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>(path))};
+return o;
+}
  void System::IO::StreamReader::_ctor(::StringW path)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -759,8 +773,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }]
- System::IO::StreamReader::StreamReader(::StringW path, bool detectEncodingFromByteOrderMarks)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>(path, detectEncodingFromByteOrderMarks))) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor(::StringW path, bool detectEncodingFromByteOrderMarks)  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>(path, detectEncodingFromByteOrderMarks))};
+return o;
+}
  void System::IO::StreamReader::_ctor(::StringW path, bool detectEncodingFromByteOrderMarks)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -770,8 +786,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, detectEncodingFromByteOrderMarks);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::IO::StreamReader::StreamReader(::StringW path, System::Text::Encoding encoding)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>(path, encoding))) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor(::StringW path, System::Text::Encoding encoding)  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>(path, encoding))};
+return o;
+}
  void System::IO::StreamReader::_ctor(::StringW path, System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -781,8 +799,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, encoding);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }]
- System::IO::StreamReader::StreamReader(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>(path, encoding, detectEncodingFromByteOrderMarks))) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks)  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>(path, encoding, detectEncodingFromByteOrderMarks))};
+return o;
+}
  void System::IO::StreamReader::_ctor(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -792,8 +812,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, encoding, detectEncodingFromByteOrderMarks);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::IO::StreamReader::StreamReader(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StreamReader>(path, encoding, detectEncodingFromByteOrderMarks, bufferSize))) {}
+ System::IO::StreamReader System::IO::StreamReader::New_ctor(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize)  {
+System::IO::StreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamReader>(path, encoding, detectEncodingFromByteOrderMarks, bufferSize))};
+return o;
+}
  void System::IO::StreamReader::_ctor(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamReader>::get(),
@@ -982,266 +1004,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: System::IO::System__IO__StreamReader__NullStreamReader._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__StreamReader__NullStreamReader::*)()>(&System::IO::System__IO__StreamReader__NullStreamReader::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2395420;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__StreamReader__NullStreamReader.get_BaseStream
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream (System::IO::System__IO__StreamReader__NullStreamReader::*)()>(&System::IO::System__IO__StreamReader__NullStreamReader::get_BaseStream)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23954b4;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__StreamReader__NullStreamReader),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                                  15
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__StreamReader__NullStreamReader.get_CurrentEncoding
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding (System::IO::System__IO__StreamReader__NullStreamReader::*)()>(&System::IO::System__IO__StreamReader__NullStreamReader::get_CurrentEncoding)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x239550c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__StreamReader__NullStreamReader),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                                  14
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__StreamReader__NullStreamReader.Dispose
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__StreamReader__NullStreamReader::*)(bool)>(&System::IO::System__IO__StreamReader__NullStreamReader::Dispose)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2395514;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__StreamReader__NullStreamReader),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                                  8
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__StreamReader__NullStreamReader.Peek
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__StreamReader__NullStreamReader::*)()>(&System::IO::System__IO__StreamReader__NullStreamReader::Peek)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2395518;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__StreamReader__NullStreamReader),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                                  9
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__StreamReader__NullStreamReader.Read
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__StreamReader__NullStreamReader::*)()>(&System::IO::System__IO__StreamReader__NullStreamReader::Read)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2395520;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__StreamReader__NullStreamReader),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                                  10
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__StreamReader__NullStreamReader.Read
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__StreamReader__NullStreamReader::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&System::IO::System__IO__StreamReader__NullStreamReader::Read)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2395528;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__StreamReader__NullStreamReader),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                                  11
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__StreamReader__NullStreamReader.ReadLine
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::System__IO__StreamReader__NullStreamReader::*)()>(&System::IO::System__IO__StreamReader__NullStreamReader::ReadLine)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2395530;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__StreamReader__NullStreamReader),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__StreamReader__NullStreamReader.ReadToEnd
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::System__IO__StreamReader__NullStreamReader::*)()>(&System::IO::System__IO__StreamReader__NullStreamReader::ReadToEnd)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2395538;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__StreamReader__NullStreamReader),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                                  12
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__StreamReader__NullStreamReader.ReadBuffer
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__StreamReader__NullStreamReader::*)()>(&System::IO::System__IO__StreamReader__NullStreamReader::ReadBuffer)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2395580;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__StreamReader__NullStreamReader),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                                  16
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- System::IO::System__IO__StreamReader__NullStreamReader::System__IO__StreamReader__NullStreamReader()  : System::IO::StreamReader(THROW_UNLESS(::il2cpp_utils::New<System__IO__StreamReader__NullStreamReader>())) {}
- void System::IO::System__IO__StreamReader__NullStreamReader::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- System::IO::Stream System::IO::System__IO__StreamReader__NullStreamReader::get_BaseStream()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            "get_BaseStream",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IO::Stream, false>(const_cast<void*>(instance), ___internal_method);
-}
- System::Text::Encoding System::IO::System__IO__StreamReader__NullStreamReader::get_CurrentEncoding()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            "get_CurrentEncoding",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Text::Encoding, false>(const_cast<void*>(instance), ___internal_method);
-}
- void System::IO::System__IO__StreamReader__NullStreamReader::Dispose(bool disposing)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            "Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, disposing);
-}
- int32_t System::IO::System__IO__StreamReader__NullStreamReader::Peek()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            "Peek",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
-}
- int32_t System::IO::System__IO__StreamReader__NullStreamReader::Read()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            "Read",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
-}
- int32_t System::IO::System__IO__StreamReader__NullStreamReader::Read(::ArrayW<char16_t> buffer, int32_t index, int32_t count)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            "Read",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, buffer, index, count);
-}
- ::StringW System::IO::System__IO__StreamReader__NullStreamReader::ReadLine()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            "ReadLine",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
-}
- ::StringW System::IO::System__IO__StreamReader__NullStreamReader::ReadToEnd()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            "ReadToEnd",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
-}
- int32_t System::IO::System__IO__StreamReader__NullStreamReader::ReadBuffer()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__StreamReader__NullStreamReader>::get(),
-                            "ReadBuffer",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }

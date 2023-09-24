@@ -79,8 +79,7 @@ constexpr bool __get_quickPlayEnableLevelSelection() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MultiplayerModeSettings() ;
+static GlobalNamespace::MultiplayerModeSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2200264 size 0x68 virtual false final false
  void _ctor() ;

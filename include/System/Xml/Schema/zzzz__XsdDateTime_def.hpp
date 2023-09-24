@@ -9,16 +9,25 @@ namespace System::Xml::Schema {
 struct XsdDateTimeFlags;
 }
 namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System {
-struct DateTime;
+struct System__Xml__Schema__XsdDateTime__XsdDateTimeKind;
 }
 namespace System {
 struct DateTimeOffset;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Xml::Schema {
+struct System__Xml__Schema__XsdDateTime__Parser;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Xml::Schema {
+struct System__Xml__Schema__XsdDateTime__DateTimeTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -89,6 +98,8 @@ __XdrDateTime = 8,
 constexpr operator __System__Xml__Schema__XsdDateTime__DateTimeTypeCode_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__Schema__XsdDateTime__DateTimeTypeCode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -181,6 +192,8 @@ __LocalEastOfZulu = 3,
 constexpr operator __System__Xml__Schema__XsdDateTime__XsdDateTimeKind_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__Schema__XsdDateTime__XsdDateTimeKind_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

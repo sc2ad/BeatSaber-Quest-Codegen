@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state, animated);
 }
-// Ctor Parameters []
- GlobalNamespace::NoTransitionToggleSelectableStateController::NoTransitionToggleSelectableStateController()  : GlobalNamespace::SelectableStateController_1<HMUI::NoTransitionsToggle>(THROW_UNLESS(::il2cpp_utils::New<NoTransitionToggleSelectableStateController>())) {}
+ GlobalNamespace::NoTransitionToggleSelectableStateController GlobalNamespace::NoTransitionToggleSelectableStateController::New_ctor()  {
+GlobalNamespace::NoTransitionToggleSelectableStateController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoTransitionToggleSelectableStateController>())};
+return o;
+}
  void GlobalNamespace::NoTransitionToggleSelectableStateController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoTransitionToggleSelectableStateController>::get(),

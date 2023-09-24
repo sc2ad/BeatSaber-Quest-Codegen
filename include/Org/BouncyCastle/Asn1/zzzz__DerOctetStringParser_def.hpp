@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DefiniteLengthInputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -14,7 +14,7 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetStringParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DefiniteLengthInputStream;
+class IAsn1Convertible;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -77,8 +77,7 @@ constexpr Org::BouncyCastle::Asn1::DefiniteLengthInputStream __get_stream() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "Org::BouncyCastle::Asn1::DefiniteLengthInputStream", modifiers: "", def_value: None }]
-explicit DerOctetStringParser(Org::BouncyCastle::Asn1::DefiniteLengthInputStream stream) ;
+static Org::BouncyCastle::Asn1::DerOctetStringParser New_ctor(Org::BouncyCastle::Asn1::DefiniteLengthInputStream stream) ;
 
 /// @brief Method .ctor addr 0x112f244 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DefiniteLengthInputStream stream) ;

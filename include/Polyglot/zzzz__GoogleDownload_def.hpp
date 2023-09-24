@@ -8,18 +8,18 @@ namespace Polyglot {
 struct GoogleDriveDownloadFormat;
 }
 namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace Polyglot {
+class Polyglot__GoogleDownload___DownloadSheet_d__0;
+}
+namespace System {
 template<typename T>
 class Action_1;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -27,6 +27,9 @@ class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -150,8 +153,7 @@ constexpr UnityEngine::Networking::UnityWebRequest __get__www_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Polyglot__GoogleDownload___DownloadSheet_d__0(int32_t __1__state) ;
+static Polyglot::Polyglot__GoogleDownload___DownloadSheet_d__0 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2670494 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;

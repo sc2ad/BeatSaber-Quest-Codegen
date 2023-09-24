@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace System {
 class Type;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {
@@ -179,8 +179,7 @@ constexpr ::StringW __get_m_PrimaryKey() const;
 /// @brief Method ToString addr 0x2a43240 size 0x8 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "providerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>", modifiers: "", def_value: None }]
-explicit ResourceLocationBase(::StringW name, ::StringW id, ::StringW providerId, System::Type t, ::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies) ;
+static UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase New_ctor(::StringW name, ::StringW id, ::StringW providerId, System::Type t, ::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies) ;
 
 /// @brief Method .ctor addr 0x2a43248 size 0x224 virtual false final false
  void _ctor(::StringW name, ::StringW id, ::StringW providerId, System::Type t, ::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies) ;

@@ -2,6 +2,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace GlobalNamespace {
+class GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData;
+}
 namespace System {
 class Version;
 }
@@ -77,8 +80,7 @@ constexpr ::StringW __get_version() const;
 /// @brief Method get_v addr 0xd98624 size 0x30 virtual false final false
  ::StringW get_v() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData() ;
+static GlobalNamespace::GlobalNamespace__BeatmapSaveDataHelpers__VersionSerializedData New_ctor() ;
 
 /// @brief Method .ctor addr 0xd98654 size 0x8 virtual false final false
  void _ctor() ;

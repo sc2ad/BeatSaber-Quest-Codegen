@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Reflection/zzzz__MemberInfoSerializationHolder_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Reflection::MemberInfoSerializationHolder.GetSerializationInfo
 template<>
 
@@ -154,8 +154,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, info, name, reflectedClass, signature, signature2, type, genericArguments);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Reflection::MemberInfoSerializationHolder::MemberInfoSerializationHolder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MemberInfoSerializationHolder>(info, context))) {}
+ System::Reflection::MemberInfoSerializationHolder System::Reflection::MemberInfoSerializationHolder::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Reflection::MemberInfoSerializationHolder o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::MemberInfoSerializationHolder>(info, context))};
+return o;
+}
  void System::Reflection::MemberInfoSerializationHolder::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::MemberInfoSerializationHolder>::get(),

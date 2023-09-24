@@ -2,23 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ArrayList;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElementEnumerator;
 }
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
+}
 namespace System {
 class Array;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
 }
 namespace System::Collections {
 class ICollection;
@@ -98,8 +98,7 @@ constexpr System::Collections::ArrayList __get__list() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509ChainElementCollection() ;
+static System::Security::Cryptography::X509Certificates::X509ChainElementCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27eda84 size 0x6c virtual false final false
  void _ctor() ;

@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +132,7 @@ static GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable Obtain
 /// @brief Method Init addr 0x12185d4 size 0x30 virtual false final false
  GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable Init(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission, bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission) ;
 
-// Ctor Parameters []
-explicit PlayerLobbyPermissionConfigurationNetSerializable() ;
+static GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1218604 size 0x58 virtual false final false
  void _ctor() ;

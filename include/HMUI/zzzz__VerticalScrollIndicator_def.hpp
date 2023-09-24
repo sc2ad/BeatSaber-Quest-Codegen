@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-class RectTransform;
+class AnimationClip;
 }
 namespace UnityEngine {
-class AnimationClip;
+class RectTransform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -123,8 +123,7 @@ constexpr float_t __get__normalizedPageHeight() const;
 /// @brief Method RefreshHandle addr 0x1fd7294 size 0xf0 virtual false final false
  void RefreshHandle() ;
 
-// Ctor Parameters []
-explicit VerticalScrollIndicator() ;
+static HMUI::VerticalScrollIndicator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd73d8 size 0x10 virtual false final false
  void _ctor() ;

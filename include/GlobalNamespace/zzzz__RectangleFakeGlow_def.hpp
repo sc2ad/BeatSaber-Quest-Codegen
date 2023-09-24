@@ -7,10 +7,10 @@ namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -120,8 +120,7 @@ static int32_t __get__sizeParamsID() ;
 /// @brief Method Refresh addr 0x226a004 size 0x114 virtual false final false
  void Refresh() ;
 
-// Ctor Parameters []
-explicit RectangleFakeGlow() ;
+static GlobalNamespace::RectangleFakeGlow New_ctor() ;
 
 /// @brief Method .ctor addr 0x226a184 size 0x24 virtual false final false
  void _ctor() ;

@@ -63,20 +63,17 @@ constexpr ::ArrayW<uint8_t> __get__byteKey() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XorEncryptLayer() ;
+static LiteNetLib::Layers::XorEncryptLayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x209abe8 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit XorEncryptLayer(::ArrayW<uint8_t> key) ;
+static LiteNetLib::Layers::XorEncryptLayer New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0x209ac04 size 0x30 virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XorEncryptLayer(::StringW key) ;
+static LiteNetLib::Layers::XorEncryptLayer New_ctor(::StringW key) ;
 
 /// @brief Method .ctor addr 0x209acc8 size 0x30 virtual false final false
  void _ctor(::StringW key) ;

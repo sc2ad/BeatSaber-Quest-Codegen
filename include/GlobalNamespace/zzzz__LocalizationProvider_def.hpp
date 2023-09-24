@@ -86,8 +86,7 @@ static void set_Instance(GlobalNamespace::LocalizationProvider value) ;
 /// @brief Method get_HasInstance addr 0x266f430 size 0xe8 virtual false final false
 static bool get_HasInstance() ;
 
-// Ctor Parameters []
-explicit LocalizationProvider() ;
+static GlobalNamespace::LocalizationProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x266f564 size 0x8 virtual false final false
  void _ctor() ;

@@ -123,8 +123,7 @@ static constexpr int32_t  AES_256_OCB_TAGLEN96{104};
 
 // Methods
 
-// Ctor Parameters []
-explicit EncryptionAlgorithm() ;
+static Org::BouncyCastle::Crypto::Tls::EncryptionAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04214 size 0x8 virtual false final false
  void _ctor() ;

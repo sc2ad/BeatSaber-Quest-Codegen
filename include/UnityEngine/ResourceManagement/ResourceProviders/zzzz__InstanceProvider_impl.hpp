@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstanceProvider_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IInstanceProvider_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider.ProvideInstance
 template<>
 
@@ -85,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, resourceManager, instance);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::InstanceProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InstanceProvider>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider>::get(),

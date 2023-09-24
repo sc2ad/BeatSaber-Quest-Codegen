@@ -1,12 +1,12 @@
 #pragma once
 #include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_impl.hpp"
 #include "Mono/Net/Security/zzzz__MonoSslClientAuthenticationOptions_def.hpp"
-#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Net/Security/zzzz__SslClientAuthenticationOptions_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
 #include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Net/Security/zzzz__SslClientAuthenticationOptions_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
 //  Writing Method size for method: Mono::Net::Security::MonoSslClientAuthenticationOptions.get_Options
 template<>
 
@@ -286,8 +286,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Mono::Net::Security::MonoSslClientAuthenticationOptions::MonoSslClientAuthenticationOptions()  : Mono::Net::Security::MonoSslAuthenticationOptions(THROW_UNLESS(::il2cpp_utils::New<MonoSslClientAuthenticationOptions>())) {}
+ Mono::Net::Security::MonoSslClientAuthenticationOptions Mono::Net::Security::MonoSslClientAuthenticationOptions::New_ctor()  {
+Mono::Net::Security::MonoSslClientAuthenticationOptions o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::MonoSslClientAuthenticationOptions>())};
+return o;
+}
  void Mono::Net::Security::MonoSslClientAuthenticationOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::MonoSslClientAuthenticationOptions>::get(),

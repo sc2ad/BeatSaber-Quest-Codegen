@@ -47,8 +47,7 @@ constexpr explicit DetachFromPanelEvent(void* ptr) noexcept : UnityEngine::UIEle
 
 // Methods
 
-// Ctor Parameters []
-explicit DetachFromPanelEvent() ;
+static UnityEngine::UIElements::DetachFromPanelEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdb96c size 0x48 virtual false final false
  void _ctor() ;

@@ -72,8 +72,7 @@ constexpr explicit RuntimeClipBase(void* ptr) noexcept : UnityEngine::Timeline::
 /// @brief Method get_intervalEnd addr 0x2acf6a4 size 0x84 virtual true final false
  int64_t get_intervalEnd() ;
 
-// Ctor Parameters []
-explicit RuntimeClipBase() ;
+static UnityEngine::Timeline::RuntimeClipBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2acf054 size 0x8 virtual false final false
  void _ctor() ;

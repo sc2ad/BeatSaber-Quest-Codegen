@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ProBuilder::KdTree::DuplicateNodeError::DuplicateNodeError()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<DuplicateNodeError>())) {}
+ UnityEngine::ProBuilder::KdTree::DuplicateNodeError UnityEngine::ProBuilder::KdTree::DuplicateNodeError::New_ctor()  {
+UnityEngine::ProBuilder::KdTree::DuplicateNodeError o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::KdTree::DuplicateNodeError>())};
+return o;
+}
  void UnityEngine::ProBuilder::KdTree::DuplicateNodeError::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::KdTree::DuplicateNodeError>::get(),

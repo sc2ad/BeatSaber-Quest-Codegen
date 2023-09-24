@@ -12,7 +12,7 @@ class BurstSliderNoteDisappearingArrowController;
 // Type: ::BurstSliderNoteDisappearingArrowController
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 275 }), TypeDefinitionIndex(TypeDefinitionIndex(4858))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 275 }), TypeDefinitionIndex(TypeDefinitionIndex(4854))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4855))
 // CS Name: BurstSliderNoteDisappearingArrowController
 class CORDL_TYPE BurstSliderNoteDisappearingArrowController : public GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::BurstSliderGameNoteController> {
@@ -68,8 +68,7 @@ constexpr GlobalNamespace::BurstSliderGameNoteController __get__burstSliderNoteC
 /// @brief Method get_gameNoteController addr 0x223afa8 size 0x8 virtual true final false
  GlobalNamespace::BurstSliderGameNoteController get_gameNoteController() ;
 
-// Ctor Parameters []
-explicit BurstSliderNoteDisappearingArrowController() ;
+static GlobalNamespace::BurstSliderNoteDisappearingArrowController New_ctor() ;
 
 /// @brief Method .ctor addr 0x223afb0 size 0x6c virtual false final false
  void _ctor() ;

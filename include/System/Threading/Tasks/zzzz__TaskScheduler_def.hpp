@@ -2,8 +2,16 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Threading {
-class Lock;
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__TaskScheduler__SystemThreadingTasks_TaskSchedulerDebugView;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TKey,typename TValue>
+class ConditionalWeakTable_2;
+}
+namespace System {
+template<typename TEventArgs>
+class EventHandler_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -11,13 +19,8 @@ class Task;
 namespace System::Threading::Tasks {
 class UnobservedTaskExceptionEventArgs;
 }
-namespace System {
-template<typename TEventArgs>
-class EventHandler_1;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TKey,typename TValue>
-class ConditionalWeakTable_2;
+namespace System::Threading {
+class Lock;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -183,8 +186,7 @@ static System::Threading::Tasks::TaskScheduler __declspec(property(get=get_Inter
 /// @brief Method get_RequiresAtomicStartTransition addr 0x24bf368 size 0x8 virtual true final false
  bool get_RequiresAtomicStartTransition() ;
 
-// Ctor Parameters []
-explicit TaskScheduler() ;
+static System::Threading::Tasks::TaskScheduler New_ctor() ;
 
 /// @brief Method .ctor addr 0x24bf370 size 0x8 virtual false final false
  void _ctor() ;

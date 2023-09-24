@@ -3,6 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
+class ISaberMovementData;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
 template<typename T>
 class LazyCopyHashSet_1;
 }
@@ -10,28 +16,22 @@ namespace GlobalNamespace {
 class ISaberSwingRatingCounterDidFinishReceiver;
 }
 namespace GlobalNamespace {
-class ISaberMovementDataProcessor;
-}
-namespace GlobalNamespace {
-class ISaberSwingRatingCounter;
-}
-namespace GlobalNamespace {
 struct BladeMovementDataElement;
 }
 namespace GlobalNamespace {
-class ISaberMovementData;
-}
-namespace GlobalNamespace {
-class ISaberSwingRatingCounterDidChangeReceiver;
+class ISaberMovementDataProcessor;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Plane;
+}
+namespace GlobalNamespace {
+class ISaberSwingRatingCounter;
+}
+namespace GlobalNamespace {
+class ISaberSwingRatingCounterDidChangeReceiver;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -251,8 +251,7 @@ constexpr bool __get__finished() const;
 /// @brief Method DrawGizmos addr 0x21c1d2c size 0x384 virtual false final false
  void DrawGizmos() ;
 
-// Ctor Parameters []
-explicit SaberSwingRatingCounter() ;
+static GlobalNamespace::SaberSwingRatingCounter New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c20b0 size 0xc0 virtual false final false
  void _ctor() ;

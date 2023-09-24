@@ -108,8 +108,7 @@ static UnityEngine::UIElements::GeometryChangedEvent GetPooled(UnityEngine::Rect
 /// @brief Method set_layoutPass addr 0x2cd9a30 size 0x8 virtual false final false
  void set_layoutPass(int32_t value) ;
 
-// Ctor Parameters []
-explicit GeometryChangedEvent() ;
+static UnityEngine::UIElements::GeometryChangedEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd9a38 size 0x74 virtual false final false
  void _ctor() ;

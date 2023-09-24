@@ -82,8 +82,7 @@ constexpr ::StringW __get__logicalCallID() const;
 /// @brief Method Clone addr 0x233b0fc size 0x68 virtual true final true
  ::bs_hook::Il2CppWrapperType Clone() ;
 
-// Ctor Parameters []
-explicit CallContextRemotingData() ;
+static System::Runtime::Remoting::Messaging::CallContextRemotingData New_ctor() ;
 
 /// @brief Method .ctor addr 0x233b350 size 0x8 virtual false final false
  void _ctor() ;

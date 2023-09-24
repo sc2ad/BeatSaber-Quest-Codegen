@@ -24,8 +24,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::__get_FRP256v1()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "FRP256v1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::AnssiObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AnssiObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers>::get(),

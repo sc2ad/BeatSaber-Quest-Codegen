@@ -3,6 +3,9 @@
 #include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__NavigationTabEvent__Direction;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__NavigationTabEvent__Direction;
@@ -61,6 +64,8 @@ constexpr operator __UnityEngine__UIElements__NavigationTabEvent__Direction_Unwr
 return std::bit_cast<__UnityEngine__UIElements__NavigationTabEvent__Direction_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -86,7 +91,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.UIElements::NavigationTabEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7347)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7347), inst: 4563 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7347), inst: 4563 }), TypeDefinitionIndex(TypeDefinitionIndex(7347))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7351))
 // CS Name: UnityEngine.UIElements.NavigationTabEvent
 class CORDL_TYPE NavigationTabEvent : public UnityEngine::UIElements::NavigationEventBase_1<UnityEngine::UIElements::NavigationTabEvent> {
@@ -153,8 +158,7 @@ static UnityEngine::UIElements::NavigationTabEvent GetPooled(int32_t moveValue) 
 /// @brief Method Init addr 0x2cdbe08 size 0x50 virtual true final false
  void Init() ;
 
-// Ctor Parameters []
-explicit NavigationTabEvent() ;
+static UnityEngine::UIElements::NavigationTabEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdbe58 size 0x58 virtual false final false
  void _ctor() ;

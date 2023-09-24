@@ -54,20 +54,17 @@ constexpr explicit PlatformNotSupportedException(void* ptr) noexcept : System::N
 
 // Methods
 
-// Ctor Parameters []
-explicit PlatformNotSupportedException() ;
+static System::PlatformNotSupportedException New_ctor() ;
 
 /// @brief Method .ctor addr 0x24515b8 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PlatformNotSupportedException(::StringW message) ;
+static System::PlatformNotSupportedException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2451614 size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit PlatformNotSupportedException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::PlatformNotSupportedException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2451638 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

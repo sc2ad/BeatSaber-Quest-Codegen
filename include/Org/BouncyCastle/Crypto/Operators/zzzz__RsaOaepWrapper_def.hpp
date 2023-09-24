@@ -4,25 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IKeyUnwrapper;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class IKeyUnwrapper;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
-class IKeyWrapper;
+class IBlockResult;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockResult;
+class IKeyWrapper;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -96,8 +96,7 @@ constexpr Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_engine() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "forWrapping", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "digestOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit RsaOaepWrapper(bool forWrapping, Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;
+static Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper New_ctor(bool forWrapping, Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;
 
 /// @brief Method .ctor addr 0xe9c198 size 0x2a0 virtual false final false
  void _ctor(bool forWrapping, Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;

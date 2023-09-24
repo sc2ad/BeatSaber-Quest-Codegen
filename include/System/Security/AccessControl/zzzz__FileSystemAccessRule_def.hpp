@@ -2,19 +2,19 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
 namespace System::Security::AccessControl {
-struct AccessControlType;
+struct FileSystemRights;
 }
 namespace System::Security::AccessControl {
-struct FileSystemRights;
+struct InheritanceFlags;
+}
+namespace System::Security::AccessControl {
+struct AccessControlType;
 }
 namespace System::Security::Principal {
 class IdentityReference;
 }
 namespace System::Security::AccessControl {
 struct PropagationFlags;
-}
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -67,8 +67,7 @@ constexpr explicit FileSystemAccessRule(void* ptr) noexcept : System::Security::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::IdentityReference", modifiers: "", def_value: None }, CppParam { name: "fileSystemRights", ty: "System::Security::AccessControl::FileSystemRights", modifiers: "", def_value: None }, CppParam { name: "isInherited", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "inheritanceFlags", ty: "System::Security::AccessControl::InheritanceFlags", modifiers: "", def_value: None }, CppParam { name: "propagationFlags", ty: "System::Security::AccessControl::PropagationFlags", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Security::AccessControl::AccessControlType", modifiers: "", def_value: None }]
-explicit FileSystemAccessRule(System::Security::Principal::IdentityReference identity, System::Security::AccessControl::FileSystemRights fileSystemRights, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags, System::Security::AccessControl::AccessControlType type) ;
+static System::Security::AccessControl::FileSystemAccessRule New_ctor(System::Security::Principal::IdentityReference identity, System::Security::AccessControl::FileSystemRights fileSystemRights, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags, System::Security::AccessControl::AccessControlType type) ;
 
 /// @brief Method .ctor addr 0x2318370 size 0x8 virtual false final false
  void _ctor(System::Security::Principal::IdentityReference identity, System::Security::AccessControl::FileSystemRights fileSystemRights, bool isInherited, System::Security::AccessControl::InheritanceFlags inheritanceFlags, System::Security::AccessControl::PropagationFlags propagationFlags, System::Security::AccessControl::AccessControlType type) ;

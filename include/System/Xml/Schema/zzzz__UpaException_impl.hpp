@@ -30,8 +30,10 @@ constexpr void System::Xml::Schema::UpaException::__set_particle2(::bs_hook::Il2
 constexpr ::bs_hook::Il2CppWrapperType System::Xml::Schema::UpaException::__get_particle2() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "particle1", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "particle2", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Xml::Schema::UpaException::UpaException(::bs_hook::Il2CppWrapperType particle1, ::bs_hook::Il2CppWrapperType particle2)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<UpaException>(particle1, particle2))) {}
+ System::Xml::Schema::UpaException System::Xml::Schema::UpaException::New_ctor(::bs_hook::Il2CppWrapperType particle1, ::bs_hook::Il2CppWrapperType particle2)  {
+System::Xml::Schema::UpaException o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::UpaException>(particle1, particle2))};
+return o;
+}
  void System::Xml::Schema::UpaException::_ctor(::bs_hook::Il2CppWrapperType particle1, ::bs_hook::Il2CppWrapperType particle2)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::UpaException>::get(),

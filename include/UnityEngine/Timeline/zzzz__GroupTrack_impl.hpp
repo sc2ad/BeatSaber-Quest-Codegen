@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__GroupTrack_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::GroupTrack.CanCompileClips
 template<>
 
@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::GroupTrack::GroupTrack()  : UnityEngine::Timeline::TrackAsset(THROW_UNLESS(::il2cpp_utils::New<GroupTrack>())) {}
+ UnityEngine::Timeline::GroupTrack UnityEngine::Timeline::GroupTrack::New_ctor()  {
+UnityEngine::Timeline::GroupTrack o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::GroupTrack>())};
+return o;
+}
  void UnityEngine::Timeline::GroupTrack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::GroupTrack>::get(),

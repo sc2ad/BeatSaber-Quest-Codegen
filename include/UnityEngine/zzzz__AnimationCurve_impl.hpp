@@ -435,8 +435,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::AnimationCurve, false>(nullptr, ___internal_method, timeStart, valueStart, timeEnd, valueEnd);
 }
-// Ctor Parameters [CppParam { name: "keys", ty: "::ArrayW<UnityEngine::Keyframe>", modifiers: "", def_value: None }]
- UnityEngine::AnimationCurve::AnimationCurve(::ArrayW<UnityEngine::Keyframe> keys)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AnimationCurve>(keys))) {}
+ UnityEngine::AnimationCurve UnityEngine::AnimationCurve::New_ctor(::ArrayW<UnityEngine::Keyframe> keys)  {
+UnityEngine::AnimationCurve o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AnimationCurve>(keys))};
+return o;
+}
  void UnityEngine::AnimationCurve::_ctor(::ArrayW<UnityEngine::Keyframe> keys)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AnimationCurve>::get(),
@@ -446,8 +448,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keys);
 }
-// Ctor Parameters []
- UnityEngine::AnimationCurve::AnimationCurve()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AnimationCurve>())) {}
+ UnityEngine::AnimationCurve UnityEngine::AnimationCurve::New_ctor()  {
+UnityEngine::AnimationCurve o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AnimationCurve>())};
+return o;
+}
  void UnityEngine::AnimationCurve::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AnimationCurve>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__JPath_def.hpp"
-#include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryOperator_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryOperator_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JsonPath::JPath.get_Filters
 template<>
 
@@ -348,8 +348,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "expression", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JsonPath::JPath::JPath(::StringW expression)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JPath>(expression))) {}
+ Newtonsoft::Json::Linq::JsonPath::JPath Newtonsoft::Json::Linq::JsonPath::JPath::New_ctor(::StringW expression)  {
+Newtonsoft::Json::Linq::JsonPath::JPath o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JsonPath::JPath>(expression))};
+return o;
+}
  void Newtonsoft::Json::Linq::JsonPath::JPath::_ctor(::StringW expression)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JsonPath::JPath>::get(),

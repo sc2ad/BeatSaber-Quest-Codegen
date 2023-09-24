@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Tree_def.hpp"
-#include "Org/BouncyCastle/Utilities/Zlib/zzzz__StaticTree_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Deflate_def.hpp"
+#include "Org/BouncyCastle/Utilities/Zlib/zzzz__StaticTree_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Zlib::Tree.d_code
 template<>
 
@@ -215,8 +215,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, code, len);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Zlib::Tree::Tree()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tree>())) {}
+ Org::BouncyCastle::Utilities::Zlib::Tree Org::BouncyCastle::Utilities::Zlib::Tree::New_ctor()  {
+Org::BouncyCastle::Utilities::Zlib::Tree o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::Tree>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::Tree::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::Tree>::get(),

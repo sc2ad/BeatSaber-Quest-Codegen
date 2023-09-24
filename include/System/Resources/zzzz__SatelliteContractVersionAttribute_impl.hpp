@@ -24,8 +24,10 @@ constexpr void System::Resources::SatelliteContractVersionAttribute::__set__Vers
 constexpr ::StringW System::Resources::SatelliteContractVersionAttribute::__get__Version_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }]
- System::Resources::SatelliteContractVersionAttribute::SatelliteContractVersionAttribute(::StringW version)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<SatelliteContractVersionAttribute>(version))) {}
+ System::Resources::SatelliteContractVersionAttribute System::Resources::SatelliteContractVersionAttribute::New_ctor(::StringW version)  {
+System::Resources::SatelliteContractVersionAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::SatelliteContractVersionAttribute>(version))};
+return o;
+}
  void System::Resources::SatelliteContractVersionAttribute::_ctor(::StringW version)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::SatelliteContractVersionAttribute>::get(),

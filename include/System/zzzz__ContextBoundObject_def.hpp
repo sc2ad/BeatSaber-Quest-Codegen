@@ -47,8 +47,7 @@ constexpr explicit ContextBoundObject(void* ptr) noexcept : System::MarshalByRef
 
 // Methods
 
-// Ctor Parameters []
-explicit ContextBoundObject() ;
+static System::ContextBoundObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x246e18c size 0x8 virtual false final false
  void _ctor() ;

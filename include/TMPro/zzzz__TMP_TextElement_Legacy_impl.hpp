@@ -71,8 +71,10 @@ constexpr void TMPro::TMP_TextElement_Legacy::__set_scale(float_t value)  {
 constexpr float_t TMPro::TMP_TextElement_Legacy::__get_scale() const {
 return ::cordl_internals::getInstanceField<float_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMP_TextElement_Legacy::TMP_TextElement_Legacy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_TextElement_Legacy>())) {}
+ TMPro::TMP_TextElement_Legacy TMPro::TMP_TextElement_Legacy::New_ctor()  {
+TMPro::TMP_TextElement_Legacy o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_TextElement_Legacy>())};
+return o;
+}
  void TMPro::TMP_TextElement_Legacy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_TextElement_Legacy>::get(),

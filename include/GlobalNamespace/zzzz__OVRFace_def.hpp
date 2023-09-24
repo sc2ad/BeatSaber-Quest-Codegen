@@ -6,11 +6,11 @@
 namespace GlobalNamespace {
 class OVRFaceExpressions;
 }
-namespace UnityEngine {
-class SkinnedMeshRenderer;
-}
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRFaceExpressions__FaceExpression;
+}
+namespace UnityEngine {
+class SkinnedMeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -107,8 +107,7 @@ constexpr UnityEngine::SkinnedMeshRenderer __get__skinnedMeshRenderer() const;
 /// @brief Method GetFaceExpression addr 0x2620554 size 0x8 virtual true final false
  GlobalNamespace::GlobalNamespace__OVRFaceExpressions__FaceExpression GetFaceExpression(int32_t blendShapeIndex) ;
 
-// Ctor Parameters []
-explicit OVRFace() ;
+static GlobalNamespace::OVRFace New_ctor() ;
 
 /// @brief Method .ctor addr 0x261ed1c size 0x10 virtual false final false
  void _ctor() ;

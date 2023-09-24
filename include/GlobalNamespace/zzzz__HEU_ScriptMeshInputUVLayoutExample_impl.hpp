@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__HEU_ScriptMeshInputUVLayoutExample_def.hpp"
+#include "GlobalNamespace/zzzz__HEU_ScriptMeshInputUVLayoutExample_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__HEU_ScriptMeshInputUVLayoutExample__OutputMode::GlobalNamespace__HEU_ScriptMeshInputUVLayoutExample__OutputMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -56,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, gameObjects, outputMode, output_name_suffix);
 }
-// Ctor Parameters []
- GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::HEU_ScriptMeshInputUVLayoutExample()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_ScriptMeshInputUVLayoutExample>())) {}
+ GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::New_ctor()  {
+GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample>())};
+return o;
+}
  void GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample>::get(),

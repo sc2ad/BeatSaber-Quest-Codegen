@@ -4,14 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Attribute;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::ComponentModel {
+struct System__ComponentModel__AttributeCollection__AttributeEntry;
 }
 namespace System::Collections {
 class ICollection;
 }
+namespace System {
+class Array;
+}
 namespace System::Collections {
-class IEnumerable;
+class Hashtable;
 }
 namespace System {
 class Type;
@@ -20,10 +26,7 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class Array;
-}
-namespace System::Collections {
-class Hashtable;
+class Attribute;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -195,8 +198,7 @@ constexpr int32_t __get__index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit AttributeCollection(::ArrayW<System::Attribute> attributes) ;
+static System::ComponentModel::AttributeCollection New_ctor(::ArrayW<System::Attribute> attributes) ;
 
 /// @brief Method .ctor addr 0x2772f08 size 0x124 virtual false final false
  void _ctor(::ArrayW<System::Attribute> attributes) ;

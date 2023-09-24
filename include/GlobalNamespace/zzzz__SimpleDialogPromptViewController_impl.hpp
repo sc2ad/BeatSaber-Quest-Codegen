@@ -1,9 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0._ctor
 template<>
 
@@ -50,8 +51,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewControlle
 constexpr GlobalNamespace::SimpleDialogPromptViewController GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::SimpleDialogPromptViewController, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0>())) {}
+ GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0 GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleDialogPromptViewController____c__DisplayClass5_0>::get(),
@@ -247,8 +250,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, title, message, firstButtonText, secondButtonText, thirdButtonText, didFinishAction);
 }
-// Ctor Parameters []
- GlobalNamespace::SimpleDialogPromptViewController::SimpleDialogPromptViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<SimpleDialogPromptViewController>())) {}
+ GlobalNamespace::SimpleDialogPromptViewController GlobalNamespace::SimpleDialogPromptViewController::New_ctor()  {
+GlobalNamespace::SimpleDialogPromptViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SimpleDialogPromptViewController>())};
+return o;
+}
  void GlobalNamespace::SimpleDialogPromptViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleDialogPromptViewController>::get(),

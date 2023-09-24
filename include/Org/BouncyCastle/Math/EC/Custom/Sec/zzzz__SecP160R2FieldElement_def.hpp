@@ -5,11 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
@@ -83,20 +83,17 @@ constexpr ::ArrayW<uint32_t> __get_x() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit SecP160R2FieldElement(Org::BouncyCastle::Math::BigInteger x) ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2FieldElement New_ctor(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method .ctor addr 0xf52ea8 size 0x118 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger x) ;
 
-// Ctor Parameters []
-explicit SecP160R2FieldElement() ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2FieldElement New_ctor() ;
 
 /// @brief Method .ctor addr 0xf54a4c size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "x", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None }]
-explicit SecP160R2FieldElement(::ArrayW<uint32_t> x) ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2FieldElement New_ctor(::ArrayW<uint32_t> x) ;
 
 /// @brief Method .ctor addr 0xf534d4 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint32_t> x) ;

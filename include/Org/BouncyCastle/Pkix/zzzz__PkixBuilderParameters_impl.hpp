@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixBuilderParameters_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::PkixBuilderParameters.GetInstance
 template<>
 
@@ -178,8 +178,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Pkix::PkixBuilderParameters, false>(nullptr, ___internal_method, pkixParams);
 }
-// Ctor Parameters [CppParam { name: "trustAnchors", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }, CppParam { name: "targetConstraints", ty: "Org::BouncyCastle::X509::Store::IX509Selector", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::PkixBuilderParameters::PkixBuilderParameters(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors, Org::BouncyCastle::X509::Store::IX509Selector targetConstraints)  : Org::BouncyCastle::Pkix::PkixParameters(THROW_UNLESS(::il2cpp_utils::New<PkixBuilderParameters>(trustAnchors, targetConstraints))) {}
+ Org::BouncyCastle::Pkix::PkixBuilderParameters Org::BouncyCastle::Pkix::PkixBuilderParameters::New_ctor(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors, Org::BouncyCastle::X509::Store::IX509Selector targetConstraints)  {
+Org::BouncyCastle::Pkix::PkixBuilderParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixBuilderParameters>(trustAnchors, targetConstraints))};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixBuilderParameters::_ctor(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors, Org::BouncyCastle::X509::Store::IX509Selector targetConstraints)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixBuilderParameters>::get(),

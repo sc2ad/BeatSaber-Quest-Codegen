@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::VideoProjectionInstaller::VideoProjectionInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<VideoProjectionInstaller>())) {}
+ GlobalNamespace::VideoProjectionInstaller GlobalNamespace::VideoProjectionInstaller::New_ctor()  {
+GlobalNamespace::VideoProjectionInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VideoProjectionInstaller>())};
+return o;
+}
  void GlobalNamespace::VideoProjectionInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VideoProjectionInstaller>::get(),

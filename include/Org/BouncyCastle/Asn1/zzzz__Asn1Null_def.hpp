@@ -48,8 +48,7 @@ constexpr explicit Asn1Null(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1O
 
 // Methods
 
-// Ctor Parameters []
-explicit Asn1Null() ;
+static Org::BouncyCastle::Asn1::Asn1Null New_ctor() ;
 
 /// @brief Method .ctor addr 0x112c370 size 0x8 virtual false final false
  void _ctor() ;

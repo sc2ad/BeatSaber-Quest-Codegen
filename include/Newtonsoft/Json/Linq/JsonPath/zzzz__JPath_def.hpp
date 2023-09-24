@@ -3,18 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Newtonsoft::Json::Linq::JsonPath {
-class QueryExpression;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace Newtonsoft::Json::Linq::JsonPath {
-struct QueryOperator;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
 }
 namespace Newtonsoft::Json::Linq::JsonPath {
 class PathFilter;
@@ -22,6 +13,15 @@ class PathFilter;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace Newtonsoft::Json::Linq::JsonPath {
+class QueryExpression;
+}
+namespace Newtonsoft::Json::Linq::JsonPath {
+struct QueryOperator;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -101,8 +101,7 @@ constexpr int32_t __get__currentIndex() const;
 /// @brief Method set_Filters addr 0x2536a60 size 0x8 virtual false final false
  void set_Filters(System::Collections::Generic::List_1<Newtonsoft::Json::Linq::JsonPath::PathFilter> value) ;
 
-// Ctor Parameters [CppParam { name: "expression", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JPath(::StringW expression) ;
+static Newtonsoft::Json::Linq::JsonPath::JPath New_ctor(::StringW expression) ;
 
 /// @brief Method .ctor addr 0x2536a68 size 0xb8 virtual false final false
  void _ctor(::StringW expression) ;

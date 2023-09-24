@@ -356,8 +356,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::UIBehaviour::UIBehaviour()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<UIBehaviour>())) {}
+ UnityEngine::EventSystems::UIBehaviour UnityEngine::EventSystems::UIBehaviour::New_ctor()  {
+UnityEngine::EventSystems::UIBehaviour o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::UIBehaviour>())};
+return o;
+}
  void UnityEngine::EventSystems::UIBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::UIBehaviour>::get(),

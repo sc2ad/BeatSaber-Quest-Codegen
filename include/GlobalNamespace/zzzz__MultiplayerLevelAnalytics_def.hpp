@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class MultiplayerResultsData;
+class IAnalyticsModel;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class IAnalyticsModel;
+class MultiplayerResultsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
 /// @brief Method HandleMultiplayerLevelDidFinish addr 0x20b1e90 size 0x6a4 virtual false final false
  void HandleMultiplayerLevelDidFinish(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerResultsData multiplayerResultsData) ;
 
-// Ctor Parameters []
-explicit MultiplayerLevelAnalytics() ;
+static GlobalNamespace::MultiplayerLevelAnalytics New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b2534 size 0x8 virtual false final false
  void _ctor() ;

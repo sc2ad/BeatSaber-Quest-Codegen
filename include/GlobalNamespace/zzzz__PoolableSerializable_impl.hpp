@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__IPoolableSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "System/Collections/Concurrent/zzzz__ConcurrentBag_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__IPoolableSerializable_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentBag_1_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PoolableSerializable.NoDomainReloadInit
 template<>
 
@@ -240,8 +240,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Concurrent::ConcurrentBag_1<GlobalNamespace::IPoolableSerializable>, false>(nullptr, ___internal_method, t);
 }
-// Ctor Parameters []
- GlobalNamespace::PoolableSerializable::PoolableSerializable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PoolableSerializable>())) {}
+ GlobalNamespace::PoolableSerializable GlobalNamespace::PoolableSerializable::New_ctor()  {
+GlobalNamespace::PoolableSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PoolableSerializable>())};
+return o;
+}
  void GlobalNamespace::PoolableSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PoolableSerializable>::get(),

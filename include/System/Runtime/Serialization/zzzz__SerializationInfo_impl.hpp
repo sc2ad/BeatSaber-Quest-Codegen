@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IFormatterConverter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IFormatterConverter_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfoEnumerator_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::SerializationInfo._ctor
 template<>
@@ -689,8 +689,10 @@ constexpr void System::Runtime::Serialization::SerializationInfo::__set_requireS
 constexpr bool System::Runtime::Serialization::SerializationInfo::__get_requireSameTokenInPartialTrust() const {
 return ::cordl_internals::getInstanceField<bool, 0x5a>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "System::Runtime::Serialization::IFormatterConverter", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SerializationInfo::SerializationInfo(System::Type type, System::Runtime::Serialization::IFormatterConverter converter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerializationInfo>(type, converter))) {}
+ System::Runtime::Serialization::SerializationInfo System::Runtime::Serialization::SerializationInfo::New_ctor(System::Type type, System::Runtime::Serialization::IFormatterConverter converter)  {
+System::Runtime::Serialization::SerializationInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationInfo>(type, converter))};
+return o;
+}
  void System::Runtime::Serialization::SerializationInfo::_ctor(System::Type type, System::Runtime::Serialization::IFormatterConverter converter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationInfo>::get(),
@@ -700,8 +702,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, converter);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "System::Runtime::Serialization::IFormatterConverter", modifiers: "", def_value: None }, CppParam { name: "requireSameTokenInPartialTrust", ty: "bool", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SerializationInfo::SerializationInfo(System::Type type, System::Runtime::Serialization::IFormatterConverter converter, bool requireSameTokenInPartialTrust)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerializationInfo>(type, converter, requireSameTokenInPartialTrust))) {}
+ System::Runtime::Serialization::SerializationInfo System::Runtime::Serialization::SerializationInfo::New_ctor(System::Type type, System::Runtime::Serialization::IFormatterConverter converter, bool requireSameTokenInPartialTrust)  {
+System::Runtime::Serialization::SerializationInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationInfo>(type, converter, requireSameTokenInPartialTrust))};
+return o;
+}
  void System::Runtime::Serialization::SerializationInfo::_ctor(System::Type type, System::Runtime::Serialization::IFormatterConverter converter, bool requireSameTokenInPartialTrust)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationInfo>::get(),

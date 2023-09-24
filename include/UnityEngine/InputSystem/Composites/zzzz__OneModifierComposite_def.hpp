@@ -5,11 +5,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class Type;
-}
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Composites {
@@ -127,8 +127,7 @@ constexpr bool __get_m_BindingIsButton() const;
 /// @brief Method DetermineValueTypeAndSize addr 0x28c88e4 size 0x4d4 virtual false final false
 static void DetermineValueTypeAndSize(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context, int32_t part, ByRef<System::Type> valueType, ByRef<int32_t> valueSizeInBytes, ByRef<bool> isButton) ;
 
-// Ctor Parameters []
-explicit OneModifierComposite() ;
+static UnityEngine::InputSystem::Composites::OneModifierComposite New_ctor() ;
 
 /// @brief Method .ctor addr 0x28c8e08 size 0x8 virtual false final false
  void _ctor() ;

@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ExecuteAlways::ExecuteAlways()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ExecuteAlways>())) {}
+ UnityEngine::ExecuteAlways UnityEngine::ExecuteAlways::New_ctor()  {
+UnityEngine::ExecuteAlways o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ExecuteAlways>())};
+return o;
+}
  void UnityEngine::ExecuteAlways::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ExecuteAlways>::get(),

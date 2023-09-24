@@ -6,25 +6,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SetParser;
+class Org__BouncyCastle__Asn1__Asn1Set__DerComparer;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1SetParser;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Org::BouncyCastle::Asn1 {
+class Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
@@ -111,8 +117,7 @@ constexpr int32_t __get_index() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl(Org::BouncyCastle::Asn1::Asn1Set outer) ;
+static Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__Asn1SetParserImpl New_ctor(Org::BouncyCastle::Asn1::Asn1Set outer) ;
 
 /// @brief Method .ctor addr 0x112e6d8 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Set outer) ;
@@ -175,8 +180,7 @@ constexpr explicit Org__BouncyCastle__Asn1__Asn1Set__DerComparer(void* ptr) noex
 /// @brief Method Compare addr 0x112eba0 size 0x180 virtual true final true
  int32_t Compare(::bs_hook::Il2CppWrapperType x, ::bs_hook::Il2CppWrapperType y) ;
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Asn1Set__DerComparer() ;
+static Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__Asn1Set__DerComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x112ea8c size 0x8 virtual false final false
  void _ctor() ;
@@ -258,26 +262,22 @@ static Org::BouncyCastle::Asn1::Asn1Set GetInstance(::bs_hook::Il2CppWrapperType
 /// @brief Method GetInstance addr 0x112ddbc size 0x558 virtual false final false
 static Org::BouncyCastle::Asn1::Asn1Set GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
 
-// Ctor Parameters []
-explicit Asn1Set() ;
+static Org::BouncyCastle::Asn1::Asn1Set New_ctor() ;
 
 /// @brief Method .ctor addr 0x112e34c size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "element", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit Asn1Set(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
+static Org::BouncyCastle::Asn1::Asn1Set New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
 
 /// @brief Method .ctor addr 0x112e3b8 size 0xec virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
 
-// Ctor Parameters [CppParam { name: "elements", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable>", modifiers: "", def_value: None }]
-explicit Asn1Set(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
+static Org::BouncyCastle::Asn1::Asn1Set New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
 
 /// @brief Method .ctor addr 0x112e4a4 size 0xf4 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
 
-// Ctor Parameters [CppParam { name: "elementVector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit Asn1Set(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
+static Org::BouncyCastle::Asn1::Asn1Set New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
 
 /// @brief Method .ctor addr 0x112e598 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;

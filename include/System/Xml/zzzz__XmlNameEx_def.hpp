@@ -5,28 +5,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
-}
-namespace System::Xml::Schema {
-class IXmlSchemaInfo;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaValidity;
-}
-namespace System::Xml::Schema {
-class XmlSchemaElement;
+class XmlSchemaAttribute;
 }
 namespace System::Xml {
 class XmlDocument;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
+struct XmlSchemaValidity;
 }
 namespace System::Xml {
 class XmlName;
 }
 namespace System::Xml::Schema {
-class XmlSchemaAttribute;
+class XmlSchemaElement;
+}
+namespace System::Xml::Schema {
+class IXmlSchemaInfo;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -118,8 +118,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_decl() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ownerDoc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Xml::XmlName", modifiers: "", def_value: None }, CppParam { name: "schemaInfo", ty: "System::Xml::Schema::IXmlSchemaInfo", modifiers: "", def_value: None }]
-explicit XmlNameEx(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next, System::Xml::Schema::IXmlSchemaInfo schemaInfo) ;
+static System::Xml::XmlNameEx New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next, System::Xml::Schema::IXmlSchemaInfo schemaInfo) ;
 
 /// @brief Method .ctor addr 0x26fa968 size 0x3cc virtual false final false
  void _ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next, System::Xml::Schema::IXmlSchemaInfo schemaInfo) ;

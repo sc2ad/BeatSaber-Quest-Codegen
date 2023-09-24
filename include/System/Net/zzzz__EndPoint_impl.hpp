@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/zzzz__EndPoint_def.hpp"
-#include "System/Net/zzzz__SocketAddress_def.hpp"
 #include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
+#include "System/Net/zzzz__SocketAddress_def.hpp"
 //  Writing Method size for method: System::Net::EndPoint.get_AddressFamily
 template<>
 
@@ -97,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::EndPoint, false>(const_cast<void*>(instance), ___internal_method, socketAddress);
 }
-// Ctor Parameters []
- System::Net::EndPoint::EndPoint()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EndPoint>())) {}
+ System::Net::EndPoint System::Net::EndPoint::New_ctor()  {
+System::Net::EndPoint o{THROW_UNLESS(::il2cpp_utils::New<System::Net::EndPoint>())};
+return o;
+}
  void System::Net::EndPoint::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::EndPoint>::get(),

@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::IO::StreamOverflowException::StreamOverflowException()  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<StreamOverflowException>())) {}
+ Org::BouncyCastle::Utilities::IO::StreamOverflowException Org::BouncyCastle::Utilities::IO::StreamOverflowException::New_ctor()  {
+Org::BouncyCastle::Utilities::IO::StreamOverflowException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::StreamOverflowException>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::StreamOverflowException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::StreamOverflowException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::IO::StreamOverflowException::StreamOverflowException(::StringW message)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<StreamOverflowException>(message))) {}
+ Org::BouncyCastle::Utilities::IO::StreamOverflowException Org::BouncyCastle::Utilities::IO::StreamOverflowException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Utilities::IO::StreamOverflowException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::StreamOverflowException>(message))};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::StreamOverflowException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::StreamOverflowException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::IO::StreamOverflowException::StreamOverflowException(::StringW message, System::Exception exception)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<StreamOverflowException>(message, exception))) {}
+ Org::BouncyCastle::Utilities::IO::StreamOverflowException Org::BouncyCastle::Utilities::IO::StreamOverflowException::New_ctor(::StringW message, System::Exception exception)  {
+Org::BouncyCastle::Utilities::IO::StreamOverflowException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::StreamOverflowException>(message, exception))};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::StreamOverflowException::_ctor(::StringW message, System::Exception exception)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::StreamOverflowException>::get(),

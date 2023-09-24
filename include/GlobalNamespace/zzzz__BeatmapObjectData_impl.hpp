@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "subtypeIdentifier", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapObjectData::BeatmapObjectData(float_t time, int32_t subtypeIdentifier)  : GlobalNamespace::BeatmapDataItem(THROW_UNLESS(::il2cpp_utils::New<BeatmapObjectData>(time, subtypeIdentifier))) {}
+ GlobalNamespace::BeatmapObjectData GlobalNamespace::BeatmapObjectData::New_ctor(float_t time, int32_t subtypeIdentifier)  {
+GlobalNamespace::BeatmapObjectData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapObjectData>(time, subtypeIdentifier))};
+return o;
+}
  void GlobalNamespace::BeatmapObjectData::_ctor(float_t time, int32_t subtypeIdentifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapObjectData>::get(),

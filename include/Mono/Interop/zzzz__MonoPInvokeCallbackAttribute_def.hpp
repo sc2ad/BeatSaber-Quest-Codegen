@@ -50,8 +50,7 @@ constexpr explicit MonoPInvokeCallbackAttribute(void* ptr) noexcept : System::At
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }]
-explicit MonoPInvokeCallbackAttribute(System::Type t) ;
+static Mono::Interop::MonoPInvokeCallbackAttribute New_ctor(System::Type t) ;
 
 /// @brief Method .ctor addr 0x22a7d1c size 0x8 virtual false final false
  void _ctor(System::Type t) ;

@@ -11,6 +11,12 @@ class Camera;
 namespace UnityEngine {
 struct Pose;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__PosesRecordingData__ExternalCameraCalibration;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PosesRecordingData__TransformsKeyframe;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -82,8 +88,7 @@ constexpr float_t __get_time() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "poses", ty: "::ArrayW<UnityEngine::Pose>", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PosesRecordingData__TransformsKeyframe(::ArrayW<UnityEngine::Pose> poses, float_t time) ;
+static GlobalNamespace::GlobalNamespace__PosesRecordingData__TransformsKeyframe New_ctor(::ArrayW<UnityEngine::Pose> poses, float_t time) ;
 
 /// @brief Method .ctor addr 0x21a6b2c size 0x38 virtual false final false
  void _ctor(::ArrayW<UnityEngine::Pose> poses, float_t time) ;
@@ -167,14 +172,12 @@ constexpr float_t __get_nearOffset() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fieldOfVision", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearClip", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farClip", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "hmdOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearOffset", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PosesRecordingData__ExternalCameraCalibration(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
+static GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCalibration New_ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
 
 /// @brief Method .ctor addr 0x21a6d74 size 0x50 virtual false final false
  void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
 
-// Ctor Parameters [CppParam { name: "camera", ty: "UnityEngine::Camera", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PosesRecordingData__ExternalCameraCalibration(UnityEngine::Camera camera) ;
+static GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCalibration New_ctor(UnityEngine::Camera camera) ;
 
 /// @brief Method .ctor addr 0x21a4664 size 0x60 virtual false final false
  void _ctor(UnityEngine::Camera camera) ;
@@ -250,14 +253,12 @@ constexpr GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectIds", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "externalCameraCalibration", ty: "GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCalibration", modifiers: "", def_value: None }]
-explicit PosesRecordingData(::ArrayW<::StringW> objectIds, GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCalibration externalCameraCalibration) ;
+static GlobalNamespace::PosesRecordingData New_ctor(::ArrayW<::StringW> objectIds, GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCalibration externalCameraCalibration) ;
 
 /// @brief Method .ctor addr 0x21a6a98 size 0x94 virtual false final false
  void _ctor(::ArrayW<::StringW> objectIds, GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCalibration externalCameraCalibration) ;
 
-// Ctor Parameters [CppParam { name: "objectIds", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "keyframes", ty: "System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PosesRecordingData__TransformsKeyframe>", modifiers: "", def_value: None }, CppParam { name: "externalCameraCalibration", ty: "GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCalibration", modifiers: "", def_value: None }]
-explicit PosesRecordingData(::ArrayW<::StringW> objectIds, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PosesRecordingData__TransformsKeyframe> keyframes, GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCalibration externalCameraCalibration) ;
+static GlobalNamespace::PosesRecordingData New_ctor(::ArrayW<::StringW> objectIds, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PosesRecordingData__TransformsKeyframe> keyframes, GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCalibration externalCameraCalibration) ;
 
 /// @brief Method .ctor addr 0x21a6cb8 size 0x3c virtual false final false
  void _ctor(::ArrayW<::StringW> objectIds, System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__PosesRecordingData__TransformsKeyframe> keyframes, GlobalNamespace::GlobalNamespace__PosesRecordingData__ExternalCameraCalibration externalCameraCalibration) ;

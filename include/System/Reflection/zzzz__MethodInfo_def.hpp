@@ -10,11 +10,11 @@ class ParameterInfo;
 namespace System {
 class Type;
 }
-namespace System {
-class Delegate;
-}
 namespace System::Reflection {
 struct MemberTypes;
+}
+namespace System {
+class Delegate;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -73,8 +73,7 @@ constexpr explicit MethodInfo(void* ptr) noexcept : System::Reflection::MethodBa
 
 // Methods
 
-// Ctor Parameters []
-explicit MethodInfo() ;
+static System::Reflection::MethodInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x237b6dc size 0x8 virtual false final false
  void _ctor() ;

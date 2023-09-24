@@ -1,8 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__TestAnalyticsModel_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
+#include "GlobalNamespace/zzzz__TestAnalyticsModel_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c._ctor
 template<>
@@ -50,8 +51,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__TestA
  System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>,::StringW> GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c::__get___9__3_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>,::StringW>, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c::GlobalNamespace__TestAnalyticsModel____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TestAnalyticsModel____c>())) {}
+ GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c>::get(),
@@ -273,8 +276,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, exposureType, exposureData);
 }
-// Ctor Parameters []
- GlobalNamespace::TestAnalyticsModel::TestAnalyticsModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TestAnalyticsModel>())) {}
+ GlobalNamespace::TestAnalyticsModel GlobalNamespace::TestAnalyticsModel::New_ctor()  {
+GlobalNamespace::TestAnalyticsModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TestAnalyticsModel>())};
+return o;
+}
  void GlobalNamespace::TestAnalyticsModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TestAnalyticsModel>::get(),

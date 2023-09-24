@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__CallbackEventHandler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventCallbackRegistry_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TrickleDown_def.hpp"
-#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventCallbackRegistry_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::CallbackEventHandler.SendEvent
 template<>
 
@@ -339,8 +339,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, evt);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::CallbackEventHandler::CallbackEventHandler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CallbackEventHandler>())) {}
+ UnityEngine::UIElements::CallbackEventHandler UnityEngine::UIElements::CallbackEventHandler::New_ctor()  {
+UnityEngine::UIElements::CallbackEventHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::CallbackEventHandler>())};
+return o;
+}
  void UnityEngine::UIElements::CallbackEventHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::CallbackEventHandler>::get(),

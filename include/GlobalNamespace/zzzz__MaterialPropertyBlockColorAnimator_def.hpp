@@ -73,8 +73,7 @@ constexpr UnityEngine::Color __get__color() const;
 /// @brief Method SetProperty addr 0x1fa23a4 size 0x34 virtual true final false
  void SetProperty() ;
 
-// Ctor Parameters []
-explicit MaterialPropertyBlockColorAnimator() ;
+static GlobalNamespace::MaterialPropertyBlockColorAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2444 size 0x14 virtual false final false
  void _ctor() ;

@@ -1,29 +1,30 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__RemotingServices_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
-#include "System/Runtime/Remoting/zzzz__WellKnownClientTypeEntry_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ClientActivatedIdentity_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/zzzz__MarshalByRefObject_def.hpp"
-#include "System/Runtime/Remoting/zzzz__WellKnownObjectMode_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ActivatedClientTypeEntry_def.hpp"
 #include "System/Reflection/zzzz__MethodBase_def.hpp"
-#include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
-#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ClientActivatedIdentity_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Runtime/Remoting/zzzz__RemotingServices_def.hpp"
+#include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
+#include "System/Runtime/Remoting/zzzz__WellKnownClientTypeEntry_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ClientIdentity_def.hpp"
+#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
+#include "System/Runtime/Remoting/zzzz__WellKnownObjectMode_def.hpp"
+#include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::System__Runtime__Remoting__RemotingServices__CACD._ctor
 template<>
 
@@ -53,8 +54,10 @@ constexpr void System::Runtime::Remoting::System__Runtime__Remoting__RemotingSer
 constexpr ::bs_hook::Il2CppWrapperType System::Runtime::Remoting::System__Runtime__Remoting__RemotingServices__CACD::__get_c() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::System__Runtime__Remoting__RemotingServices__CACD::System__Runtime__Remoting__RemotingServices__CACD()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__Remoting__RemotingServices__CACD>())) {}
+ System::Runtime::Remoting::System__Runtime__Remoting__RemotingServices__CACD System::Runtime::Remoting::System__Runtime__Remoting__RemotingServices__CACD::New_ctor()  {
+System::Runtime::Remoting::System__Runtime__Remoting__RemotingServices__CACD o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::System__Runtime__Remoting__RemotingServices__CACD>())};
+return o;
+}
  void System::Runtime::Remoting::System__Runtime__Remoting__RemotingServices__CACD::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::System__Runtime__Remoting__RemotingServices__CACD>::get(),

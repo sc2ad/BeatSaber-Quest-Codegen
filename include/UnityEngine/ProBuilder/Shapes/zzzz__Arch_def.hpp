@@ -5,22 +5,22 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Bounds;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -110,8 +110,7 @@ constexpr bool __get_m_Smooth() const;
 /// @brief Method RebuildMesh addr 0x29f1540 size 0xc00 virtual true final false
  UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit Arch() ;
+static UnityEngine::ProBuilder::Shapes::Arch New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f2140 size 0x28 virtual false final false
  void _ctor() ;

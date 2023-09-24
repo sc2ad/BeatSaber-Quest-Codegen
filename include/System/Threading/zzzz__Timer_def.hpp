@@ -11,21 +11,27 @@ class List_1;
 namespace System::Threading {
 class ManualResetEvent;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading {
+struct System__Threading__Timer__TimerComparer;
+}
+namespace System::Threading {
+class System__Threading__Timer__Scheduler;
 }
 namespace System {
-struct TimeSpan;
+class IDisposable;
 }
 namespace System::Threading {
 class TimerCallback;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IComparer_1;
+namespace System {
+struct TimeSpan;
 }
 namespace System::Collections {
 class IComparer;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IComparer_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -185,8 +191,7 @@ static System::Threading::System__Threading__Timer__Scheduler __declspec(propert
 /// @brief Method get_Instance addr 0x24b3108 size 0x58 virtual false final false
 static System::Threading::System__Threading__Timer__Scheduler get_Instance() ;
 
-// Ctor Parameters []
-explicit System__Threading__Timer__Scheduler() ;
+static System::Threading::System__Threading__Timer__Scheduler New_ctor() ;
 
 /// @brief Method .ctor addr 0x24b3160 size 0x9c virtual false final false
  void _ctor() ;
@@ -327,14 +332,12 @@ static System::Threading::System__Threading__Timer__Scheduler __declspec(propert
 /// @brief Method get_scheduler addr 0x24b23b8 size 0x88 virtual false final false
 static System::Threading::System__Threading__Timer__Scheduler get_scheduler() ;
 
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Threading::TimerCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "dueTime", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "period", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Timer(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int32_t dueTime, int32_t period) ;
+static System::Threading::Timer New_ctor(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int32_t dueTime, int32_t period) ;
 
 /// @brief Method .ctor addr 0x24b2440 size 0x4c virtual false final false
  void _ctor(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, int32_t dueTime, int32_t period) ;
 
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Threading::TimerCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "dueTime", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "period", ty: "System::TimeSpan", modifiers: "", def_value: None }]
-explicit Timer(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan dueTime, System::TimeSpan period) ;
+static System::Threading::Timer New_ctor(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan dueTime, System::TimeSpan period) ;
 
 /// @brief Method .ctor addr 0x24b2500 size 0x90 virtual false final false
  void _ctor(System::Threading::TimerCallback callback, ::bs_hook::Il2CppWrapperType state, System::TimeSpan dueTime, System::TimeSpan period) ;

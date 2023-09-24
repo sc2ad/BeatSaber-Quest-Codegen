@@ -139,8 +139,7 @@ static ::ArrayW<uint32_t> __get_iT3() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algo", ty: "System::Security::Cryptography::Aes", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit AesTransform(System::Security::Cryptography::Aes algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
+static System::Security::Cryptography::AesTransform New_ctor(System::Security::Cryptography::Aes algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method .ctor addr 0x267c0f8 size 0x6f4 virtual false final false
  void _ctor(System::Security::Cryptography::Aes algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;

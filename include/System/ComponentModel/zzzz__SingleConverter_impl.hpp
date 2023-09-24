@@ -1,8 +1,8 @@
 #pragma once
 #include "System/ComponentModel/zzzz__BaseNumberConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__SingleConverter_def.hpp"
-#include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 //  Writing Method size for method: System::ComponentModel::SingleConverter.get_AllowHex
 template<>
 
@@ -150,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, value, formatInfo);
 }
-// Ctor Parameters []
- System::ComponentModel::SingleConverter::SingleConverter()  : System::ComponentModel::BaseNumberConverter(THROW_UNLESS(::il2cpp_utils::New<SingleConverter>())) {}
+ System::ComponentModel::SingleConverter System::ComponentModel::SingleConverter::New_ctor()  {
+System::ComponentModel::SingleConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::SingleConverter>())};
+return o;
+}
  void System::ComponentModel::SingleConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::SingleConverter>::get(),

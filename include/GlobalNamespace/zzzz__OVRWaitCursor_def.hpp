@@ -62,8 +62,7 @@ constexpr UnityEngine::Vector3 __get_rotateSpeeds() const;
 /// @brief Method Update addr 0x26390a4 size 0x5c virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRWaitCursor() ;
+static GlobalNamespace::OVRWaitCursor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2639100 size 0x14 virtual false final false
  void _ctor() ;

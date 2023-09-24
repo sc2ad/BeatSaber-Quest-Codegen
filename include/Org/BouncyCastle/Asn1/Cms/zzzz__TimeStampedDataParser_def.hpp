@@ -2,22 +2,22 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1::Cms {
-class Evidence;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
 class MetaData;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetStringParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerIA5String;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetStringParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1SequenceParser;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class Evidence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -113,8 +113,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1SequenceParser __get_parser() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parser", ty: "Org::BouncyCastle::Asn1::Asn1SequenceParser", modifiers: "", def_value: None }]
-explicit TimeStampedDataParser(Org::BouncyCastle::Asn1::Asn1SequenceParser parser) ;
+static Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser New_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser parser) ;
 
 /// @brief Method .ctor addr 0xdf481c size 0x400 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser parser) ;

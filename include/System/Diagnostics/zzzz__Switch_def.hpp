@@ -95,14 +95,12 @@ static int32_t __get_s_LastCollectionCount() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Switch(::StringW displayName, ::StringW description) ;
+static System::Diagnostics::Switch New_ctor(::StringW displayName, ::StringW description) ;
 
 /// @brief Method .ctor addr 0x27d9abc size 0x60 virtual false final false
  void _ctor(::StringW displayName, ::StringW description) ;
 
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "defaultSwitchValue", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Switch(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue) ;
+static System::Diagnostics::Switch New_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue) ;
 
 /// @brief Method .ctor addr 0x27d9b1c size 0x24c virtual false final false
  void _ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue) ;

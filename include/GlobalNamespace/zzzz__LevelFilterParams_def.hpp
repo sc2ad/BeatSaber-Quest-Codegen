@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-struct SongPackMask;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+struct SongPackMask;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -299,14 +299,12 @@ static ::ArrayW<float_t> __get_bpmValues() ;
 /// @brief Method set_filteredMaxBpm addr 0x21ec294 size 0x8 virtual false final false
  void set_filteredMaxBpm(float_t value) ;
 
-// Ctor Parameters []
-explicit LevelFilterParams() ;
+static GlobalNamespace::LevelFilterParams New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ec29c size 0xd0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "filterByLevelIds", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelIds", ty: "System::Collections::Generic::HashSet_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "searchText", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "filterByOwned", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filterByNotOwned", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filterByDifficulty", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filteredDifficulty", ty: "GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "filterByCharacteristic", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filteredCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "filterBySongPacks", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filteredSongPacks", ty: "GlobalNamespace::SongPackMask", modifiers: "", def_value: None }, CppParam { name: "filterByNotPlayedYet", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filterByMinBpm", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filteredMinBpm", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "filterByMaxBpm", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filteredMaxBpm", ty: "float_t", modifiers: "", def_value: None }]
-explicit LevelFilterParams(bool filterByLevelIds, System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds, ::StringW searchText, bool filterByOwned, bool filterByNotOwned, bool filterByDifficulty, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty, bool filterByCharacteristic, GlobalNamespace::BeatmapCharacteristicSO filteredCharacteristic, bool filterBySongPacks, GlobalNamespace::SongPackMask filteredSongPacks, bool filterByNotPlayedYet, bool filterByMinBpm, float_t filteredMinBpm, bool filterByMaxBpm, float_t filteredMaxBpm) ;
+static GlobalNamespace::LevelFilterParams New_ctor(bool filterByLevelIds, System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds, ::StringW searchText, bool filterByOwned, bool filterByNotOwned, bool filterByDifficulty, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty, bool filterByCharacteristic, GlobalNamespace::BeatmapCharacteristicSO filteredCharacteristic, bool filterBySongPacks, GlobalNamespace::SongPackMask filteredSongPacks, bool filterByNotPlayedYet, bool filterByMinBpm, float_t filteredMinBpm, bool filterByMaxBpm, float_t filteredMaxBpm) ;
 
 /// @brief Method .ctor addr 0x21ec36c size 0x104 virtual false final false
  void _ctor(bool filterByLevelIds, System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds, ::StringW searchText, bool filterByOwned, bool filterByNotOwned, bool filterByDifficulty, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty, bool filterByCharacteristic, GlobalNamespace::BeatmapCharacteristicSO filteredCharacteristic, bool filterBySongPacks, GlobalNamespace::SongPackMask filteredSongPacks, bool filterByNotPlayedYet, bool filterByMinBpm, float_t filteredMinBpm, bool filterByMaxBpm, float_t filteredMaxBpm) ;
@@ -314,14 +312,12 @@ explicit LevelFilterParams(bool filterByLevelIds, System::Collections::Generic::
 /// @brief Method IsWithoutFilter addr 0x21ec470 size 0x5c virtual false final false
  bool IsWithoutFilter(bool ignoreFilterBySongs) ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevelIds", ty: "System::Collections::Generic::HashSet_1<::StringW>", modifiers: "", def_value: None }]
-explicit LevelFilterParams(System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds) ;
+static GlobalNamespace::LevelFilterParams New_ctor(System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds) ;
 
 /// @brief Method .ctor addr 0x21ec4cc size 0x2c virtual false final false
  void _ctor(System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds) ;
 
-// Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }]
-explicit LevelFilterParams(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
+static GlobalNamespace::LevelFilterParams New_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
 
 /// @brief Method .ctor addr 0x21ec4f8 size 0x2c virtual false final false
  void _ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;

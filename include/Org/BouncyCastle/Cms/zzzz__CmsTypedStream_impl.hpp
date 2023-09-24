@@ -1,6 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__FilterStream_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream._ctor
 template<>
@@ -36,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Or
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream::Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream(System::IO::Stream input)  : Org::BouncyCastle::Utilities::IO::FilterStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream>(input))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream::New_ctor(System::IO::Stream input)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream>(input))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsTypedStream__FullReaderStream>::get(),
@@ -170,8 +173,10 @@ constexpr void Org::BouncyCastle::Cms::CmsTypedStream::__set__in(System::IO::Str
 constexpr System::IO::Stream Org::BouncyCastle::Cms::CmsTypedStream::__get__in() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsTypedStream::CmsTypedStream(System::IO::Stream inStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsTypedStream>(inStream))) {}
+ Org::BouncyCastle::Cms::CmsTypedStream Org::BouncyCastle::Cms::CmsTypedStream::New_ctor(System::IO::Stream inStream)  {
+Org::BouncyCastle::Cms::CmsTypedStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsTypedStream>(inStream))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsTypedStream::_ctor(System::IO::Stream inStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsTypedStream>::get(),
@@ -181,8 +186,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inStream);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsTypedStream::CmsTypedStream(::StringW oid, System::IO::Stream inStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsTypedStream>(oid, inStream))) {}
+ Org::BouncyCastle::Cms::CmsTypedStream Org::BouncyCastle::Cms::CmsTypedStream::New_ctor(::StringW oid, System::IO::Stream inStream)  {
+Org::BouncyCastle::Cms::CmsTypedStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsTypedStream>(oid, inStream))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsTypedStream::_ctor(::StringW oid, System::IO::Stream inStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsTypedStream>::get(),
@@ -192,8 +199,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oid, inStream);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "bufSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsTypedStream::CmsTypedStream(::StringW oid, System::IO::Stream inStream, int32_t bufSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsTypedStream>(oid, inStream, bufSize))) {}
+ Org::BouncyCastle::Cms::CmsTypedStream Org::BouncyCastle::Cms::CmsTypedStream::New_ctor(::StringW oid, System::IO::Stream inStream, int32_t bufSize)  {
+Org::BouncyCastle::Cms::CmsTypedStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsTypedStream>(oid, inStream, bufSize))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsTypedStream::_ctor(::StringW oid, System::IO::Stream inStream, int32_t bufSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsTypedStream>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__HealthCheckService_def.hpp"
-#include "GlobalNamespace/zzzz__IHealthCheckService_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
+#include "GlobalNamespace/zzzz__IHealthCheckService_def.hpp"
 #include "System/Net/zzzz__HttpListener_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::HealthCheckService._ctor
 template<>
 
@@ -116,8 +116,10 @@ constexpr void GlobalNamespace::HealthCheckService::__set__listener(System::Net:
 constexpr System::Net::HttpListener GlobalNamespace::HealthCheckService::__get__listener() const {
 return ::cordl_internals::getInstanceField<System::Net::HttpListener, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::HealthCheckService::HealthCheckService(int32_t port)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HealthCheckService>(port))) {}
+ GlobalNamespace::HealthCheckService GlobalNamespace::HealthCheckService::New_ctor(int32_t port)  {
+GlobalNamespace::HealthCheckService o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HealthCheckService>(port))};
+return o;
+}
  void GlobalNamespace::HealthCheckService::_ctor(int32_t port)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HealthCheckService>::get(),

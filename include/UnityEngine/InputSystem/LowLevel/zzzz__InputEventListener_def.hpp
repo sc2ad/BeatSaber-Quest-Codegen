@@ -2,15 +2,15 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
-namespace System {
-class IDisposable;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 namespace System {
 template<typename T>
 class IObserver_1;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
@@ -23,9 +23,15 @@ namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+class UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState;
+}
 namespace System {
 template<typename T>
 class IObservable_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -94,8 +100,7 @@ constexpr System::Action_2<UnityEngine::InputSystem::LowLevel::InputEventPtr,Uni
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState() ;
+static UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2958a18 size 0x88 virtual false final false
  void _ctor() ;
@@ -164,8 +169,7 @@ constexpr System::IObserver_1<UnityEngine::InputSystem::LowLevel::InputEventPtr>
 /// @brief Method Dispose addr 0x2958b9c size 0x138 virtual true final true
  void Dispose() ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver() ;
+static UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver New_ctor() ;
 
 /// @brief Method .ctor addr 0x2958aa0 size 0x8 virtual false final false
  void _ctor() ;

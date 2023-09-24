@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_List_def.hpp"
+#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
+#include "System/Xml/Schema/zzzz__DatatypeImplementation_def.hpp"
 #include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
-#include "System/Xml/Schema/zzzz__DatatypeImplementation_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::Datatype_List.CreateValueConverter
 template<>
 
@@ -185,8 +185,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Schema::XmlValueConverter, false>(const_cast<void*>(instance), ___internal_method, schemaType);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Xml::Schema::DatatypeImplementation", modifiers: "", def_value: None }, CppParam { name: "minListSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::Schema::Datatype_List::Datatype_List(System::Xml::Schema::DatatypeImplementation type, int32_t minListSize)  : System::Xml::Schema::Datatype_anySimpleType(THROW_UNLESS(::il2cpp_utils::New<Datatype_List>(type, minListSize))) {}
+ System::Xml::Schema::Datatype_List System::Xml::Schema::Datatype_List::New_ctor(System::Xml::Schema::DatatypeImplementation type, int32_t minListSize)  {
+System::Xml::Schema::Datatype_List o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_List>(type, minListSize))};
+return o;
+}
  void System::Xml::Schema::Datatype_List::_ctor(System::Xml::Schema::DatatypeImplementation type, int32_t minListSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_List>::get(),

@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRScenePrefabOverride_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRScenePrefabOverride.UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 template<>
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRScenePrefabOverride::OVRScenePrefabOverride()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRScenePrefabOverride>())) {}
+ GlobalNamespace::OVRScenePrefabOverride GlobalNamespace::OVRScenePrefabOverride::New_ctor()  {
+GlobalNamespace::OVRScenePrefabOverride o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRScenePrefabOverride>())};
+return o;
+}
  void GlobalNamespace::OVRScenePrefabOverride::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRScenePrefabOverride>::get(),

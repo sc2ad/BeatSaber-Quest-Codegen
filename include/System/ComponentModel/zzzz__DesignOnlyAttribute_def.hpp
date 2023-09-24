@@ -81,8 +81,7 @@ static System::ComponentModel::DesignOnlyAttribute __get_Default() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isDesignOnly", ty: "bool", modifiers: "", def_value: None }]
-explicit DesignOnlyAttribute(bool isDesignOnly) ;
+static System::ComponentModel::DesignOnlyAttribute New_ctor(bool isDesignOnly) ;
 
 /// @brief Method .ctor addr 0x2771a74 size 0x28 virtual false final false
  void _ctor(bool isDesignOnly) ;

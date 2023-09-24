@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyDisplayViewController_def.hpp"
-#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 #include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
+#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PrivacyPolicyDisplayViewController.DidActivate
 template<>
 
@@ -58,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-// Ctor Parameters []
- GlobalNamespace::PrivacyPolicyDisplayViewController::PrivacyPolicyDisplayViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<PrivacyPolicyDisplayViewController>())) {}
+ GlobalNamespace::PrivacyPolicyDisplayViewController GlobalNamespace::PrivacyPolicyDisplayViewController::New_ctor()  {
+GlobalNamespace::PrivacyPolicyDisplayViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PrivacyPolicyDisplayViewController>())};
+return o;
+}
  void GlobalNamespace::PrivacyPolicyDisplayViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PrivacyPolicyDisplayViewController>::get(),

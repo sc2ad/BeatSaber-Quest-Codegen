@@ -2,6 +2,7 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__AudioDataLoadState_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__AudioClip__PCMReaderCallback._ctor
 template<>
@@ -37,8 +38,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__AudioClip__PCMReaderCallback::UnityEngine__AudioClip__PCMReaderCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AudioClip__PCMReaderCallback>(object, method))) {}
+ UnityEngine::UnityEngine__AudioClip__PCMReaderCallback UnityEngine::UnityEngine__AudioClip__PCMReaderCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__AudioClip__PCMReaderCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__AudioClip__PCMReaderCallback>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__AudioClip__PCMReaderCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__AudioClip__PCMReaderCallback>::get(),
@@ -91,8 +94,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback::UnityEngine__AudioClip__PCMSetPositionCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AudioClip__PCMSetPositionCallback>(object, method))) {}
+ UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback>::get(),
@@ -514,8 +519,10 @@ constexpr void UnityEngine::AudioClip::__set_m_PCMSetPositionCallback(UnityEngin
 constexpr UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback UnityEngine::AudioClip::__get_m_PCMSetPositionCallback() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AudioClip::AudioClip()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<AudioClip>())) {}
+ UnityEngine::AudioClip UnityEngine::AudioClip::New_ctor()  {
+UnityEngine::AudioClip o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AudioClip>())};
+return o;
+}
  void UnityEngine::AudioClip::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AudioClip>::get(),

@@ -77,8 +77,7 @@ constexpr UnityEngine::Mesh __get_m_Mesh() const;
 /// @brief Method get_mesh addr 0x29b8788 size 0x8 virtual false final false
  UnityEngine::Mesh get_mesh() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "mesh", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }]
-explicit MeshHandle(UnityEngine::Transform transform, UnityEngine::Mesh mesh) ;
+static UnityEngine::ProBuilder::MeshHandle New_ctor(UnityEngine::Transform transform, UnityEngine::Mesh mesh) ;
 
 /// @brief Method .ctor addr 0x29b8790 size 0x2c virtual false final false
  void _ctor(UnityEngine::Transform transform, UnityEngine::Mesh mesh) ;

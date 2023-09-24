@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography {
-struct PaddingMode;
+class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
 struct CipherMode;
 }
 namespace System::Security::Cryptography {
-class ICryptoTransform;
+struct PaddingMode;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -73,8 +73,7 @@ constexpr explicit AesCryptoServiceProvider(void* ptr) noexcept : System::Securi
 
 // Methods
 
-// Ctor Parameters []
-explicit AesCryptoServiceProvider() ;
+static System::Security::Cryptography::AesCryptoServiceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x267bf50 size 0x64 virtual false final false
  void _ctor() ;

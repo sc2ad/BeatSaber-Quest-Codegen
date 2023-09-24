@@ -4,8 +4,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Mono::Xml {
-class Mono__Xml__SmallXmlParser__IContentHandler;
+namespace System::Runtime::Remoting {
+class ChannelData;
 }
 namespace System::Collections {
 class ArrayList;
@@ -13,20 +13,20 @@ class ArrayList;
 namespace Mono::Xml {
 class SmallXmlParser;
 }
+namespace System::Runtime::Remoting {
+class ProviderData;
+}
 namespace Mono::Xml {
 class Mono__Xml__SmallXmlParser__IAttrList;
-}
-namespace System {
-struct TimeSpan;
 }
 namespace System::Collections {
 class Stack;
 }
-namespace System::Runtime::Remoting {
-class ProviderData;
+namespace Mono::Xml {
+class Mono__Xml__SmallXmlParser__IContentHandler;
 }
-namespace System::Runtime::Remoting {
-class ChannelData;
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -128,8 +128,7 @@ constexpr bool __get_onlyDelayedChannels() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onlyDelayedChannels", ty: "bool", modifiers: "", def_value: None }]
-explicit ConfigHandler(bool onlyDelayedChannels) ;
+static System::Runtime::Remoting::ConfigHandler New_ctor(bool onlyDelayedChannels) ;
 
 /// @brief Method .ctor addr 0x231ba48 size 0xb8 virtual false final false
  void _ctor(bool onlyDelayedChannels) ;

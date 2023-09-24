@@ -106,8 +106,7 @@ constexpr T __get__partAsset() const;
 /// @brief Method get_localizedName addr 0x0 size 0xffffffffffffffff virtual true final true
  ::StringW get_localizedName() ;
 
-// Ctor Parameters []
-explicit AvatarPartSO_1() ;
+static GlobalNamespace::AvatarPartSO_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

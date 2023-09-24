@@ -72,14 +72,12 @@ constexpr Org::BouncyCastle::Asn1::Cmp::CertConfirmContent __get_content() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "content", ty: "Org::BouncyCastle::Asn1::Cmp::CertConfirmContent", modifiers: "", def_value: None }]
-explicit CertificateConfirmationContent(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content) ;
+static Org::BouncyCastle::Cmp::CertificateConfirmationContent New_ctor(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content) ;
 
 /// @brief Method .ctor addr 0x114b1d4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content) ;
 
-// Ctor Parameters [CppParam { name: "content", ty: "Org::BouncyCastle::Asn1::Cmp::CertConfirmContent", modifiers: "", def_value: None }, CppParam { name: "digestAlgFinder", ty: "Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder", modifiers: "", def_value: None }]
-explicit CertificateConfirmationContent(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content, Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder) ;
+static Org::BouncyCastle::Cmp::CertificateConfirmationContent New_ctor(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content, Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder) ;
 
 /// @brief Method .ctor addr 0x114b1fc size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content, Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder) ;

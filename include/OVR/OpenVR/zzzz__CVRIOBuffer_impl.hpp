@@ -1,8 +1,8 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRIOBuffer_def.hpp"
-#include "OVR/OpenVR/zzzz__EIOBufferMode_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRIOBuffer_def.hpp"
 #include "OVR/OpenVR/zzzz__EIOBufferError_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRIOBuffer_def.hpp"
+#include "OVR/OpenVR/zzzz__EIOBufferMode_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRIOBuffer._ctor
 template<>
 
@@ -111,8 +111,10 @@ constexpr void OVR::OpenVR::CVRIOBuffer::__set_FnTable(OVR::OpenVR::IVRIOBuffer 
 constexpr OVR::OpenVR::IVRIOBuffer OVR::OpenVR::CVRIOBuffer::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRIOBuffer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRIOBuffer::CVRIOBuffer(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRIOBuffer>(pInterface))) {}
+ OVR::OpenVR::CVRIOBuffer OVR::OpenVR::CVRIOBuffer::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRIOBuffer o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRIOBuffer>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRIOBuffer::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRIOBuffer>::get(),

@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::HandsMovementMissionObjectiveChecker::HandsMovementMissionObjectiveChecker()  : GlobalNamespace::SimpleValueMissionObjectiveChecker(THROW_UNLESS(::il2cpp_utils::New<HandsMovementMissionObjectiveChecker>())) {}
+ GlobalNamespace::HandsMovementMissionObjectiveChecker GlobalNamespace::HandsMovementMissionObjectiveChecker::New_ctor()  {
+GlobalNamespace::HandsMovementMissionObjectiveChecker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HandsMovementMissionObjectiveChecker>())};
+return o;
+}
  void GlobalNamespace::HandsMovementMissionObjectiveChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HandsMovementMissionObjectiveChecker>::get(),

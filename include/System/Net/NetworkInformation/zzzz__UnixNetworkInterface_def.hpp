@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Net::NetworkInformation {
-class IPInterfaceProperties;
+struct NetworkInterfaceType;
+}
+namespace System::Net {
+class IPAddress;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Net {
-class IPAddress;
-}
 namespace System::Net::NetworkInformation {
-struct NetworkInterfaceType;
+class IPInterfaceProperties;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -103,8 +103,7 @@ constexpr System::Net::NetworkInformation::NetworkInterfaceType __get_type() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UnixNetworkInterface(::StringW name) ;
+static System::Net::NetworkInformation::UnixNetworkInterface New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x285b184 size 0x90 virtual false final false
  void _ctor(::StringW name) ;

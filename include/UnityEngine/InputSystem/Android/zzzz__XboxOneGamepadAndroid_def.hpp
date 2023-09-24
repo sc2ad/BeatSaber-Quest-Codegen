@@ -47,8 +47,7 @@ constexpr explicit XboxOneGamepadAndroid(void* ptr) noexcept : UnityEngine::Inpu
 
 // Methods
 
-// Ctor Parameters []
-explicit XboxOneGamepadAndroid() ;
+static UnityEngine::InputSystem::Android::XboxOneGamepadAndroid New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953050 size 0x8 virtual false final false
  void _ctor() ;

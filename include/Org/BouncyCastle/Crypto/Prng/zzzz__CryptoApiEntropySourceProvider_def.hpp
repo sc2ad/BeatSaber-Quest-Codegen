@@ -3,11 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Security::Cryptography {
-class RandomNumberGenerator;
-}
 namespace Org::BouncyCastle::Crypto {
 class IEntropySourceProvider;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource;
+}
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
@@ -92,8 +95,7 @@ constexpr int32_t __get_mEntropySize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rng", ty: "System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "entropySize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource(System::Security::Cryptography::RandomNumberGenerator rng, bool predictionResistant, int32_t entropySize) ;
+static Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__CryptoApiEntropySourceProvider__CryptoApiEntropySource New_ctor(System::Security::Cryptography::RandomNumberGenerator rng, bool predictionResistant, int32_t entropySize) ;
 
 /// @brief Method .ctor addr 0xeb3c24 size 0x40 virtual false final false
  void _ctor(System::Security::Cryptography::RandomNumberGenerator rng, bool predictionResistant, int32_t entropySize) ;
@@ -173,14 +175,12 @@ constexpr bool __get_mPredictionResistant() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CryptoApiEntropySourceProvider() ;
+static Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb3afc size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rng", ty: "System::Security::Cryptography::RandomNumberGenerator", modifiers: "", def_value: None }, CppParam { name: "isPredictionResistant", ty: "bool", modifiers: "", def_value: None }]
-explicit CryptoApiEntropySourceProvider(System::Security::Cryptography::RandomNumberGenerator rng, bool isPredictionResistant) ;
+static Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider New_ctor(System::Security::Cryptography::RandomNumberGenerator rng, bool isPredictionResistant) ;
 
 /// @brief Method .ctor addr 0xeb3b20 size 0x84 virtual false final false
  void _ctor(System::Security::Cryptography::RandomNumberGenerator rng, bool isPredictionResistant) ;

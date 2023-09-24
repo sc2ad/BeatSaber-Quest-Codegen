@@ -5,14 +5,14 @@
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+struct MouseButton;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct MouseButton;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

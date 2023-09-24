@@ -8,22 +8,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::XR::OpenXR::Features {
-struct UnityEngine__XR__OpenXR__Features__OpenXRFeature__NativeEvent;
-}
-namespace System {
-class UnhandledExceptionEventArgs;
-}
-namespace System {
-class UnhandledExceptionEventHandler;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::XR {
-class XRDisplaySubsystem;
-}
 namespace UnityEngine::XR {
 class XRDisplaySubsystemDescriptor;
 }
@@ -32,6 +16,31 @@ class XRInputSubsystem;
 }
 namespace UnityEngine::XR {
 class XRInputSubsystemDescriptor;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System {
+class UnhandledExceptionEventHandler;
+}
+namespace UnityEngine::XR::OpenXR::Features {
+struct UnityEngine__XR__OpenXR__Features__OpenXRFeature__NativeEvent;
+}
+namespace UnityEngine::XR::OpenXR {
+struct UnityEngine__XR__OpenXR__OpenXRLoaderBase__LoaderState;
+}
+namespace UnityEngine::XR::OpenXR {
+class UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate;
+}
+namespace UnityEngine::XR::OpenXR {
+class UnityEngine__XR__OpenXR__OpenXRLoaderBase____c;
+}
+namespace System {
+class UnhandledExceptionEventArgs;
+}
+namespace UnityEngine::XR {
+class XRDisplaySubsystem;
 }
 namespace System {
 class IAsyncResult;
@@ -115,6 +124,8 @@ constexpr operator __UnityEngine__XR__OpenXR__OpenXRLoaderBase__LoaderState_Unwr
 return std::bit_cast<__UnityEngine__XR__OpenXR__OpenXRLoaderBase__LoaderState_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -194,8 +205,7 @@ constexpr explicit UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEvent
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase__ReceiveNativeEventDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2aeaf10 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -282,8 +292,7 @@ static System::Func_2<UnityEngine::XR::OpenXR::Features::OpenXRFeature,::StringW
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__XR__OpenXR__OpenXRLoaderBase____c() ;
+static UnityEngine::XR::OpenXR::UnityEngine__XR__OpenXR__OpenXRLoaderBase____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aeb264 size 0x8 virtual false final false
  void _ctor() ;
@@ -587,8 +596,7 @@ static void Internal_SetSuccessfullyInitialized(bool value) ;
 /// @brief Method Internal_RequestEnableExtensionString addr 0x2aea3c0 size 0x90 virtual false final false
 static bool Internal_RequestEnableExtensionString(::StringW extensionString) ;
 
-// Ctor Parameters []
-explicit OpenXRLoaderBase() ;
+static UnityEngine::XR::OpenXR::OpenXRLoaderBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae57c8 size 0x6e0 virtual false final false
  void _ctor() ;

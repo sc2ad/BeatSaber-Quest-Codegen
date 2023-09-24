@@ -75,8 +75,10 @@ constexpr void UnityEngine::Internal::DefaultValueAttribute::__set_DefaultValue(
 constexpr ::bs_hook::Il2CppWrapperType UnityEngine::Internal::DefaultValueAttribute::__get_DefaultValue() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Internal::DefaultValueAttribute::DefaultValueAttribute(::StringW value)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DefaultValueAttribute>(value))) {}
+ UnityEngine::Internal::DefaultValueAttribute UnityEngine::Internal::DefaultValueAttribute::New_ctor(::StringW value)  {
+UnityEngine::Internal::DefaultValueAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Internal::DefaultValueAttribute>(value))};
+return o;
+}
  void UnityEngine::Internal::DefaultValueAttribute::_ctor(::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Internal::DefaultValueAttribute>::get(),

@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Bcpg {
 class Crc24;
 }
-namespace System::Collections {
-class IList;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -155,14 +155,12 @@ constexpr bool __get_isEndOfStream() const;
 /// @brief Method Decode addr 0x113f2d8 size 0x208 virtual false final false
  int32_t Decode(int32_t in0, int32_t in1, int32_t in2, int32_t in3, ::ArrayW<int32_t> result) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit ArmoredInputStream(System::IO::Stream input) ;
+static Org::BouncyCastle::Bcpg::ArmoredInputStream New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x113f4e0 size 0x8 virtual false final false
  void _ctor(System::IO::Stream input) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "hasHeaders", ty: "bool", modifiers: "", def_value: None }]
-explicit ArmoredInputStream(System::IO::Stream input, bool hasHeaders) ;
+static Org::BouncyCastle::Bcpg::ArmoredInputStream New_ctor(System::IO::Stream input, bool hasHeaders) ;
 
 /// @brief Method .ctor addr 0x113f4e8 size 0x124 virtual false final false
  void _ctor(System::IO::Stream input, bool hasHeaders) ;

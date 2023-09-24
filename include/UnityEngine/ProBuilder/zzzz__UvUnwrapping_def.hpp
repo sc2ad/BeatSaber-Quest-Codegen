@@ -6,42 +6,48 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::ProBuilder {
-class Face;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+struct UnityEngine__ProBuilder__UvUnwrapping__UVTransform;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__UvUnwrapping____c;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
+namespace UnityEngine::ProBuilder {
+struct UnityEngine__ProBuilder__AutoUnwrapSettings__Anchor;
+}
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine::ProBuilder {
 class Bounds2D;
 }
 namespace UnityEngine::ProBuilder {
-struct UnityEngine__ProBuilder__AutoUnwrapSettings__Anchor;
-}
-namespace UnityEngine::ProBuilder {
 struct AutoUnwrapSettings;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -181,8 +187,7 @@ static System::Func_2<UnityEngine::ProBuilder::Face,bool> __get___9__0_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__UvUnwrapping____c() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__UvUnwrapping____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x29eaae0 size 0x8 virtual false final false
  void _ctor() ;

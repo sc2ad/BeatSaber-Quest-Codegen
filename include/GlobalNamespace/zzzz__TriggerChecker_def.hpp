@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace System {
-class Action;
-}
 namespace UnityEngine {
 class Collider;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -83,8 +83,7 @@ constexpr System::Action __get_TriggerCheckerOnStayEvent() const;
 /// @brief Method OnTriggerStay addr 0x1f7c628 size 0x1c virtual false final false
  void OnTriggerStay(UnityEngine::Collider other) ;
 
-// Ctor Parameters []
-explicit TriggerChecker() ;
+static GlobalNamespace::TriggerChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7c644 size 0x8 virtual false final false
  void _ctor() ;

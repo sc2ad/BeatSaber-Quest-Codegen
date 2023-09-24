@@ -2,11 +2,12 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__DelayedActionManager_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__DelayedActionManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::Util::UnityEngine__ResourceManagement__Util__DelayedActionManager__DelegateInfo._ctor
 template<>
 
@@ -483,8 +484,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::Util::DelayedActionManager::DelayedActionManager()  : UnityEngine::ResourceManagement::Util::ComponentSingleton_1<UnityEngine::ResourceManagement::Util::DelayedActionManager>(THROW_UNLESS(::il2cpp_utils::New<DelayedActionManager>())) {}
+ UnityEngine::ResourceManagement::Util::DelayedActionManager UnityEngine::ResourceManagement::Util::DelayedActionManager::New_ctor()  {
+UnityEngine::ResourceManagement::Util::DelayedActionManager o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Util::DelayedActionManager>())};
+return o;
+}
  void UnityEngine::ResourceManagement::Util::DelayedActionManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Util::DelayedActionManager>::get(),

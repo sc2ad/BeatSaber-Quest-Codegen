@@ -29,8 +29,10 @@ constexpr void BeatSaberAPI::DataTransferObjects::UserInfo::__set_publicPlatform
 constexpr ::StringW BeatSaberAPI::DataTransferObjects::UserInfo::__get_publicPlatformDisplayName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- BeatSaberAPI::DataTransferObjects::UserInfo::UserInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserInfo>())) {}
+ BeatSaberAPI::DataTransferObjects::UserInfo BeatSaberAPI::DataTransferObjects::UserInfo::New_ctor()  {
+BeatSaberAPI::DataTransferObjects::UserInfo o{THROW_UNLESS(::il2cpp_utils::New<BeatSaberAPI::DataTransferObjects::UserInfo>())};
+return o;
+}
  void BeatSaberAPI::DataTransferObjects::UserInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatSaberAPI::DataTransferObjects::UserInfo>::get(),

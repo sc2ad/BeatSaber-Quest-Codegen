@@ -88,8 +88,10 @@ constexpr void UnityEngine::ProBuilder::CIELabColor::__set_b(float_t value)  {
 constexpr float_t UnityEngine::ProBuilder::CIELabColor::__get_b() const {
 return ::cordl_internals::getInstanceField<float_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "L", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "float_t", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::CIELabColor::CIELabColor(float_t L, float_t a, float_t b)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CIELabColor>(L, a, b))) {}
+ UnityEngine::ProBuilder::CIELabColor UnityEngine::ProBuilder::CIELabColor::New_ctor(float_t L, float_t a, float_t b)  {
+UnityEngine::ProBuilder::CIELabColor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::CIELabColor>(L, a, b))};
+return o;
+}
  void UnityEngine::ProBuilder::CIELabColor::_ctor(float_t L, float_t a, float_t b)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::CIELabColor>::get(),

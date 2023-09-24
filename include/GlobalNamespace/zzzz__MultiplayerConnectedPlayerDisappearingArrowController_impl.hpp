@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::MultiplayerConnectedPlayerDisappearingArrowController()  : GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConnectedPlayerDisappearingArrowController>())) {}
+ GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::New_ctor()  {
+GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController>::get(),

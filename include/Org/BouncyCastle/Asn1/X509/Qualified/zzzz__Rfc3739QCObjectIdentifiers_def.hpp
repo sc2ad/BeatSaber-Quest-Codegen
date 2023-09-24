@@ -71,8 +71,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdQcsPkixQCSyntaxV2() 
 
 // Methods
 
-// Ctor Parameters []
-explicit Rfc3739QCObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xff47c4 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,30 +1,30 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Type;
-}
-namespace UnityEngine::Tilemaps {
-class Tilemap;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine {
 struct Matrix4x4;
-}
-namespace GlobalNamespace {
-class HEU_BoundingVolume;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class HEU_BoundingVolume;
+}
 namespace UnityEngine {
 class Terrain;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::Tilemaps {
+class Tilemap;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -147,8 +147,7 @@ constexpr System::Type __get__inputInterfaceType() const;
 /// @brief Method IsEquivalentTo addr 0x1ffe75c size 0x28c virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_InputObjectInfo other) ;
 
-// Ctor Parameters []
-explicit HEU_InputObjectInfo() ;
+static HoudiniEngineUnity::HEU_InputObjectInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x1ffc354 size 0xe8 virtual false final false
  void _ctor() ;

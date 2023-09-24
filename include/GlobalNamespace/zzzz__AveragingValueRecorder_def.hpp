@@ -4,6 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__AveragingValueRecorder__AverageValueData;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class Queue_1;
@@ -206,8 +209,7 @@ constexpr float_t __get__lastValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "averageWindowDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "historyWindowDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "historyValuesPerSecond", ty: "float_t", modifiers: "", def_value: None }]
-explicit AveragingValueRecorder(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond) ;
+static GlobalNamespace::AveragingValueRecorder New_ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond) ;
 
 /// @brief Method .ctor addr 0x21937ac size 0x154 virtual false final false
  void _ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond) ;

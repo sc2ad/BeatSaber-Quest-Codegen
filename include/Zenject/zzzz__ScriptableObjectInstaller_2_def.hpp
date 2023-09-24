@@ -25,7 +25,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11096)), TypeDefinitionIndex(TypeDefinitionIndex(11091))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11091)), TypeDefinitionIndex(TypeDefinitionIndex(11096))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11091), inst: 80 })
 // CS Name: Zenject.ScriptableObjectInstaller`2
 class CORDL_TYPE ScriptableObjectInstaller_2<TParam1,TDerived> : public Zenject::ScriptableObjectInstallerBase {
@@ -70,8 +70,7 @@ static TDerived InstallFromResource(Zenject::DiContainer container, TParam1 p1) 
 /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
 static TDerived InstallFromResource(::StringW resourcePath, Zenject::DiContainer container, TParam1 p1) ;
 
-// Ctor Parameters []
-explicit ScriptableObjectInstaller_2() ;
+static Zenject::ScriptableObjectInstaller_2<TParam1,TDerived> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

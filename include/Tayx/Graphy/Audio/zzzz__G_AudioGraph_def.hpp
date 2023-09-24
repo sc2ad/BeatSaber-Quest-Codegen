@@ -4,11 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace Tayx::Graphy {
-class GraphyManager;
-}
-namespace Tayx::Graphy {
-class G_GraphShader;
+namespace UnityEngine {
+class Shader;
 }
 namespace UnityEngine::UI {
 class Image;
@@ -16,8 +13,11 @@ class Image;
 namespace Tayx::Graphy::Audio {
 class G_AudioMonitor;
 }
-namespace UnityEngine {
-class Shader;
+namespace Tayx::Graphy {
+class G_GraphShader;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -158,8 +158,7 @@ constexpr ::ArrayW<float_t> __get_m_graphArrayHighestValue() const;
 /// @brief Method Init addr 0x2876ed8 size 0xf4 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit G_AudioGraph() ;
+static Tayx::Graphy::Audio::G_AudioGraph New_ctor() ;
 
 /// @brief Method .ctor addr 0x2877224 size 0x10 virtual false final false
  void _ctor() ;

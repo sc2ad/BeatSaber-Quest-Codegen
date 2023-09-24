@@ -47,8 +47,7 @@ constexpr explicit JsonConstructorAttribute(void* ptr) noexcept : System::Attrib
 
 // Methods
 
-// Ctor Parameters []
-explicit JsonConstructorAttribute() ;
+static Newtonsoft::Json::JsonConstructorAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c737c size 0x8 virtual false final false
  void _ctor() ;

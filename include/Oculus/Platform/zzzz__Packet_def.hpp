@@ -82,8 +82,7 @@ constexpr ::cordl_internals::intptr_t __get_packetHandle() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "packetHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Packet(::cordl_internals::intptr_t packetHandle) ;
+static Oculus::Platform::Packet New_ctor(::cordl_internals::intptr_t packetHandle) ;
 
 /// @brief Method .ctor addr 0x2584f80 size 0xb0 virtual false final false
  void _ctor(::cordl_internals::intptr_t packetHandle) ;

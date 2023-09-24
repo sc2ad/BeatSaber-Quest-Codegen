@@ -7,48 +7,48 @@
 namespace GlobalNamespace {
 class BeatmapLevelsPromoDataSO;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
 namespace UnityEngine {
 class Sprite;
 }
 namespace HMUI {
 class HMUI__TableView__IDataSource;
 }
-namespace HMUI {
-class TableCell;
-}
-namespace GlobalNamespace {
-class LevelPackHeaderTableCell;
-}
 namespace GlobalNamespace {
 class AdditionalContentModel;
 }
 namespace GlobalNamespace {
-class LevelListTableCell;
+class IPreviewBeatmapLevel;
+}
+namespace HMUI {
+class TableCell;
 }
 namespace HMUI {
 class TableView;
 }
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace GlobalNamespace {
+class LevelPackHeaderTableCell;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IReadOnlyList_1;
+class HashSet_1;
 }
 namespace HMUI {
 class AlphabetScrollbar;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class HashSet_1;
+class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class LevelListTableCell;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -285,8 +285,7 @@ constexpr GlobalNamespace::IPreviewBeatmapLevel __get__selectedPreviewBeatmapLev
 /// @brief Method SelectLevel addr 0x218bc1c size 0x288 virtual false final false
  void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel beatmapLevel) ;
 
-// Ctor Parameters []
-explicit LevelCollectionTableView() ;
+static GlobalNamespace::LevelCollectionTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x218bea4 size 0x8c virtual false final false
  void _ctor() ;

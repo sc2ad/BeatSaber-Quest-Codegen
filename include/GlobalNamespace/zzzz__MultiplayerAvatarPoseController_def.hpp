@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class AvatarPoseController;
-}
-namespace GlobalNamespace {
 class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class AvatarPoseController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,8 +91,7 @@ constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 /// @brief Method Update addr 0x20c3608 size 0x3b8 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit MultiplayerAvatarPoseController() ;
+static GlobalNamespace::MultiplayerAvatarPoseController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c39c0 size 0x8 virtual false final false
  void _ctor() ;

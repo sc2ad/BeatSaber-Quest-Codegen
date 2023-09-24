@@ -71,8 +71,7 @@ constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 /// @brief Method Start addr 0x20c39c8 size 0xe4 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit MultiplayerAvatarVisualProvider() ;
+static GlobalNamespace::MultiplayerAvatarVisualProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c3aac size 0x8 virtual false final false
  void _ctor() ;

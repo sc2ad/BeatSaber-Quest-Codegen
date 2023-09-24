@@ -5,25 +5,28 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class GlobalNamespace__LightPairSinMoveEventEffect__MovementData;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +122,7 @@ constexpr float_t __get_side() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LightPairSinMoveEventEffect__MovementData() ;
+static GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2263390 size 0x8 virtual false final false
  void _ctor() ;
@@ -290,8 +292,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method UpdateMovementData addr 0x2262230 size 0x138 virtual false final false
  void UpdateMovementData(int32_t beatmapEventDataValue, GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData movementData, float_t movementValueOffset) ;
 
-// Ctor Parameters []
-explicit LightPairSinMoveEventEffect() ;
+static GlobalNamespace::LightPairSinMoveEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2262368 size 0x1028 virtual false final false
  void _ctor() ;

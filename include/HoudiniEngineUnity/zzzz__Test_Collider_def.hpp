@@ -73,8 +73,7 @@ constexpr UnityEngine::Collider __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Collider", modifiers: "", def_value: None }]
-explicit Test_Collider(UnityEngine::Collider self) ;
+static HoudiniEngineUnity::Test_Collider New_ctor(UnityEngine::Collider self) ;
 
 /// @brief Method .ctor addr 0x2072a98 size 0x28 virtual false final false
  void _ctor(UnityEngine::Collider self) ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__RecipientID_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__RecipientID_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::RecipientInformation._ctor
 template<>
 
@@ -201,8 +201,10 @@ constexpr void Org::BouncyCastle::Cms::RecipientInformation::__set_resultMac(::A
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Cms::RecipientInformation::__get_resultMac() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "keyEncAlg", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "secureReadable", ty: "Org::BouncyCastle::Cms::CmsSecureReadable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::RecipientInformation::RecipientInformation(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncAlg, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RecipientInformation>(keyEncAlg, secureReadable))) {}
+ Org::BouncyCastle::Cms::RecipientInformation Org::BouncyCastle::Cms::RecipientInformation::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncAlg, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  {
+Org::BouncyCastle::Cms::RecipientInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::RecipientInformation>(keyEncAlg, secureReadable))};
+return o;
+}
  void Org::BouncyCastle::Cms::RecipientInformation::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncAlg, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::RecipientInformation>::get(),

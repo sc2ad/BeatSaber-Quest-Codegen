@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LightGroupSubsystem::LightGroupSubsystem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightGroupSubsystem>())) {}
+ GlobalNamespace::LightGroupSubsystem GlobalNamespace::LightGroupSubsystem::New_ctor()  {
+GlobalNamespace::LightGroupSubsystem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightGroupSubsystem>())};
+return o;
+}
  void GlobalNamespace::LightGroupSubsystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightGroupSubsystem>::get(),

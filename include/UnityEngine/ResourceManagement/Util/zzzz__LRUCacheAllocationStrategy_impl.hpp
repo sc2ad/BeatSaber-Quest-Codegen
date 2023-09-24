@@ -123,8 +123,10 @@ constexpr void UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy
 constexpr System::Collections::Generic::Dictionary_2<int32_t,System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType>> UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::__get_m_cache() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<int32_t,System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType>>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "poolMaxSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "poolCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "poolCacheMaxSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "initialPoolCacheCapacity", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::LRUCacheAllocationStrategy(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LRUCacheAllocationStrategy>(poolMaxSize, poolCapacity, poolCacheMaxSize, initialPoolCacheCapacity))) {}
+ UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity)  {
+UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy>(poolMaxSize, poolCapacity, poolCacheMaxSize, initialPoolCacheCapacity))};
+return o;
+}
  void UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy>::get(),

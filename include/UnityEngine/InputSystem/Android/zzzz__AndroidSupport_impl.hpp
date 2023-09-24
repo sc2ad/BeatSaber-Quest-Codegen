@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidSupport_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceExecuteCommandDelegate_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Android::AndroidSupport.Initialize
 template<>
 
@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, description, matchedLayout, executeCommandDelegate);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::AndroidSupport::AndroidSupport()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidSupport>())) {}
+ UnityEngine::InputSystem::Android::AndroidSupport UnityEngine::InputSystem::Android::AndroidSupport::New_ctor()  {
+UnityEngine::InputSystem::Android::AndroidSupport o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::AndroidSupport>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::AndroidSupport::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::AndroidSupport>::get(),

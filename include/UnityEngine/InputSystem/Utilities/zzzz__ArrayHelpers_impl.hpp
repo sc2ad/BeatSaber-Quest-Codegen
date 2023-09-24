@@ -1,12 +1,13 @@
 #pragma once
 #include "UnityEngine/InputSystem/Utilities/zzzz__ArrayHelpers_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ArrayHelpers_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 template<typename TValue>
  int32_t UnityEngine::InputSystem::Utilities::ArrayHelpers::LengthSafe(::ArrayW<TValue> array)  {
@@ -699,66 +700,6 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index1, index2);
 }
-//  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1::*)()>(&UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1._Merge_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1::*)(TValue)>(&UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1::_Merge_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1>::get(),
-                            "<Merge>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1::__set_secondValue(TValue value)  {
-::cordl_internals::setInstanceField<TValue, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<TValue>(value));
-}
-constexpr TValue UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1::__get_secondValue() const {
-return ::cordl_internals::getInstanceField<TValue, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters []
- UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1>())) {}
- void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1::_Merge_b__0(TValue x)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1>::get(),
-                            "<Merge>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, x);
-}
 //  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<UnityEngine::InputSystem::Utilities::InternedString>._ctor
 template<>
 
@@ -799,8 +740,10 @@ constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Ut
 constexpr UnityEngine::InputSystem::Utilities::InternedString UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<UnityEngine::InputSystem::Utilities::InternedString>::__get_secondValue() const {
 return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::Utilities::InternedString, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<UnityEngine::InputSystem::Utilities::InternedString>::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1>())) {}
+ UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<UnityEngine::InputSystem::Utilities::InternedString> UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<UnityEngine::InputSystem::Utilities::InternedString>::New_ctor()  {
+UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<UnityEngine::InputSystem::Utilities::InternedString> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<UnityEngine::InputSystem::Utilities::InternedString>>())};
+return o;
+}
  void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<UnityEngine::InputSystem::Utilities::InternedString>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<UnityEngine::InputSystem::Utilities::InternedString>>::get(),
@@ -819,100 +762,81 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, x);
 }
-//  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1::*)()>(&UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1::__set_comparer(System::Collections::Generic::IEqualityComparer_1<TValue> value)  {
-::cordl_internals::setInstanceField<System::Collections::Generic::IEqualityComparer_1<TValue>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Collections::Generic::IEqualityComparer_1<TValue>>(value));
+constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue>::__set_secondValue(TValue value)  {
+::cordl_internals::setInstanceField<TValue, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<TValue>(value));
 }
-constexpr System::Collections::Generic::IEqualityComparer_1<TValue> UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1::__get_comparer() const {
-return ::cordl_internals::getInstanceField<System::Collections::Generic::IEqualityComparer_1<TValue>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
+constexpr TValue UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue>::__get_secondValue() const {
+return ::cordl_internals::getInstanceField<TValue, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1>())) {}
- void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1::_ctor()  {
+ UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue> UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue>::New_ctor()  {
+UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue>>())};
+return o;
+}
+ void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::*)()>(&UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1._Merge_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::*)(TValue)>(&UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::_Merge_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1>::get(),
+ bool UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue>::_Merge_b__0(TValue x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass33_0_1<TValue>>::get(),
                             "<Merge>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get()}
                         )));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::__set_secondValue(TValue value)  {
-::cordl_internals::setInstanceField<TValue, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<TValue>(value));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, x);
 }
-constexpr TValue UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::__get_secondValue() const {
-return ::cordl_internals::getInstanceField<TValue, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
+constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>::__set_comparer(System::Collections::Generic::IEqualityComparer_1<TValue> value)  {
+::cordl_internals::setInstanceField<System::Collections::Generic::IEqualityComparer_1<TValue>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Collections::Generic::IEqualityComparer_1<TValue>>(value));
 }
-constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::__set_CS$__8__locals1(UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue> value)  {
-::cordl_internals::setInstanceField<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>>(value));
+constexpr System::Collections::Generic::IEqualityComparer_1<TValue> UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>::__get_comparer() const {
+return ::cordl_internals::getInstanceField<System::Collections::Generic::IEqualityComparer_1<TValue>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue> UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::__get_CS$__8__locals1() const {
-return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
+ UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue> UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>::New_ctor()  {
+UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>>())};
+return o;
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1>())) {}
- void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::_ctor()  {
+ void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- bool UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1::_Merge_b__0(TValue x)  {
+constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue>::__set_secondValue(TValue value)  {
+::cordl_internals::setInstanceField<TValue, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<TValue>(value));
+}
+constexpr TValue UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue>::__get_secondValue() const {
+return ::cordl_internals::getInstanceField<TValue, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue>::__set_CS$__8__locals1(UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue> value)  {
+::cordl_internals::setInstanceField<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>>(value));
+}
+constexpr UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue> UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue>::__get_CS$__8__locals1() const {
+return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_0_1<TValue>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+ UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue> UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue>::New_ctor()  {
+UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue>>())};
+return o;
+}
+ void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ bool UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue>::_Merge_b__0(TValue x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ArrayHelpers____c__DisplayClass34_1_1<TValue>>::get(),
                             "<Merge>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get()}

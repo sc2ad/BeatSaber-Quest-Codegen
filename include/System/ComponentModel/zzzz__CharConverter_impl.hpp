@@ -2,8 +2,8 @@
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__CharConverter_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 //  Writing Method size for method: System::ComponentModel::CharConverter.CanConvertFrom
 template<>
 
@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, context, culture, value);
 }
-// Ctor Parameters []
- System::ComponentModel::CharConverter::CharConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<CharConverter>())) {}
+ System::ComponentModel::CharConverter System::ComponentModel::CharConverter::New_ctor()  {
+System::ComponentModel::CharConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::CharConverter>())};
+return o;
+}
  void System::ComponentModel::CharConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::CharConverter>::get(),

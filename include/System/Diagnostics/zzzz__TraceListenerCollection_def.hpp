@@ -3,25 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
 class ArrayList;
 }
-namespace System::Diagnostics {
-class TraceListener;
-}
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IList;
 }
-namespace System {
-class Array;
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Diagnostics {
+class TraceListener;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -102,8 +102,7 @@ constexpr System::Collections::ArrayList __get_list() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TraceListenerCollection() ;
+static System::Diagnostics::TraceListenerCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27dae74 size 0x70 virtual false final false
  void _ctor() ;

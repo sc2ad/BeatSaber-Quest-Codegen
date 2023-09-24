@@ -49,14 +49,12 @@ constexpr explicit VisibleToOtherModulesAttribute(void* ptr) noexcept : System::
 
 // Methods
 
-// Ctor Parameters []
-explicit VisibleToOtherModulesAttribute() ;
+static UnityEngine::Bindings::VisibleToOtherModulesAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba105c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "modules", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit VisibleToOtherModulesAttribute(::ArrayW<::StringW> modules) ;
+static UnityEngine::Bindings::VisibleToOtherModulesAttribute New_ctor(::ArrayW<::StringW> modules) ;
 
 /// @brief Method .ctor addr 0x2ba1064 size 0x8 virtual false final false
  void _ctor(::ArrayW<::StringW> modules) ;

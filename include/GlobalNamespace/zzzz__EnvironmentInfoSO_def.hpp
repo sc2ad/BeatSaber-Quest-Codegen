@@ -3,29 +3,29 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class ColorSchemeSO;
-}
-namespace GlobalNamespace {
-class EnvironmentSizeData;
-}
-namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
-}
-namespace GlobalNamespace {
 class SceneInfo;
 }
 namespace GlobalNamespace {
 class EnvironmentIntensityReductionOptions;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+class EnvironmentLightGroups;
+}
+namespace GlobalNamespace {
+class DefaultEnvironmentEvents;
+}
+namespace GlobalNamespace {
+class EnvironmentSizeData;
 }
 namespace GlobalNamespace {
 class EnvironmentTypeSO;
 }
 namespace GlobalNamespace {
-class EnvironmentLightGroups;
+class ColorSchemeSO;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -207,8 +207,7 @@ constexpr GlobalNamespace::DefaultEnvironmentEvents __get__defaultEnvironmentEve
 /// @brief Method get_defaultEnvironmentEvents addr 0x21beea8 size 0x8 virtual false final false
  GlobalNamespace::DefaultEnvironmentEvents get_defaultEnvironmentEvents() ;
 
-// Ctor Parameters []
-explicit EnvironmentInfoSO() ;
+static GlobalNamespace::EnvironmentInfoSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21beeb0 size 0x50 virtual false final false
  void _ctor() ;

@@ -86,8 +86,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::VerticalLayoutGroup::VerticalLayoutGroup()  : UnityEngine::UI::HorizontalOrVerticalLayoutGroup(THROW_UNLESS(::il2cpp_utils::New<VerticalLayoutGroup>())) {}
+ UnityEngine::UI::VerticalLayoutGroup UnityEngine::UI::VerticalLayoutGroup::New_ctor()  {
+UnityEngine::UI::VerticalLayoutGroup o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::VerticalLayoutGroup>())};
+return o;
+}
  void UnityEngine::UI::VerticalLayoutGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::VerticalLayoutGroup>::get(),

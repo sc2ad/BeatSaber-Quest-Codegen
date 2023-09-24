@@ -218,8 +218,10 @@ constexpr void Org::BouncyCastle::Crypto::Generators::BCrypt::__set_P(::ArrayW<u
 constexpr ::ArrayW<uint32_t> Org::BouncyCastle::Crypto::Generators::BCrypt::__get_P() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Generators::BCrypt::BCrypt()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BCrypt>())) {}
+ Org::BouncyCastle::Crypto::Generators::BCrypt Org::BouncyCastle::Crypto::Generators::BCrypt::New_ctor()  {
+Org::BouncyCastle::Crypto::Generators::BCrypt o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::BCrypt>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::BCrypt::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::BCrypt>::get(),

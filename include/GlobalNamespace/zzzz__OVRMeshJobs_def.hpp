@@ -5,6 +5,20 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__OVRMeshJobs__TransformToUnitySpaceJob;
+}
+namespace GlobalNamespace {
+template<typename T>
+struct GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRMeshJobs__TransformTrianglesJob;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Vector2f;
 }
 namespace System {
@@ -12,10 +26,6 @@ class IDisposable;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
-}
-namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Vector3f;
@@ -26,14 +36,14 @@ struct GlobalNamespace__OVRPlugin__Vector4f;
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Vector4s;
 }
-namespace Unity::Jobs {
-class IJobParallelFor;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace Unity::Jobs {
+class IJobParallelFor;
 }
 namespace UnityEngine {
 struct BoneWeight;
@@ -63,8 +73,8 @@ template<>
 struct GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>;
 }
 namespace GlobalNamespace {
-template<>
-struct GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t>;
+template<::cordl_internals::is_or_is_backed_by<int16_t> T>
+struct GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T>;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRMeshJobs__TransformToUnitySpaceJob;
@@ -306,8 +316,7 @@ constexpr explicit OVRMeshJobs(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRMeshJobs() ;
+static GlobalNamespace::OVRMeshJobs New_ctor() ;
 
 /// @brief Method .ctor addr 0x2625d74 size 0x8 virtual false final false
  void _ctor() ;
@@ -322,16 +331,16 @@ namespace GlobalNamespace {
 template<>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(8922))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8922), inst: 721 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8922), inst: 738 })
 // CS Name: OVRMeshJobs::NativeArrayHelper`1
-struct CORDL_TYPE GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<int16_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 /// @brief Convert operator to System::IDisposable
 constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
-constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<int16_t> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept;
+// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept;
 
 
                     constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1 const&) = default;
@@ -364,84 +373,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- Unity::Collections::NativeArray_1<int16_t> __declspec(property(get=__get_UnityNativeArray, put=__set_UnityNativeArray))  UnityNativeArray;
+ Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> __declspec(property(get=__get_UnityNativeArray, put=__set_UnityNativeArray))  UnityNativeArray;
 
-constexpr void __set_UnityNativeArray(Unity::Collections::NativeArray_1<int16_t> value) ;
+constexpr void __set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> value) ;
 
-constexpr Unity::Collections::NativeArray_1<int16_t> __get_UnityNativeArray() const;
-
- System::Runtime::InteropServices::GCHandle __declspec(property(get=__get__handle, put=__set__handle))  _handle;
-
-constexpr void __set__handle(System::Runtime::InteropServices::GCHandle value) ;
-
-constexpr System::Runtime::InteropServices::GCHandle __get__handle() const;
-
-
-// Methods
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<int16_t> ovrArray, int32_t length) ;
-
-/// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
- void Dispose() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::NativeArrayHelper`1
-namespace GlobalNamespace {
-// cpp template
-template<>
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(8922))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8922), inst: 735 })
-// CS Name: OVRMeshJobs::NativeArrayHelper`1
-struct CORDL_TYPE GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> : public ::bs_hook::ValueTypeWrapper {
-public:
-// Declarations
-/// @brief Convert operator to System::IDisposable
-constexpr operator  System::IDisposable() const;
-
-// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
-constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept;
-
-
-                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1 const&) = default;
-                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1&&) = default;
-                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1& operator=(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1 const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1& operator=(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-
-// Fields
-
- Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> __declspec(property(get=__get_UnityNativeArray, put=__set_UnityNativeArray))  UnityNativeArray;
-
-constexpr void __set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> value) ;
-
-constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> __get_UnityNativeArray() const;
+constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> __get_UnityNativeArray() const;
 
  System::Runtime::InteropServices::GCHandle __declspec(property(get=__get__handle, put=__set__handle))  _handle;
 
@@ -453,80 +389,7 @@ constexpr System::Runtime::InteropServices::GCHandle __get__handle() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> ovrArray, int32_t length) ;
-
-/// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
- void Dispose() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::NativeArrayHelper`1
-namespace GlobalNamespace {
-// cpp template
-template<>
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8922)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8922), inst: 736 })
-// CS Name: OVRMeshJobs::NativeArrayHelper`1
-struct CORDL_TYPE GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> : public ::bs_hook::ValueTypeWrapper {
-public:
-// Declarations
-/// @brief Convert operator to System::IDisposable
-constexpr operator  System::IDisposable() const;
-
-// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
-constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept;
-
-
-                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1 const&) = default;
-                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1&&) = default;
-                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1& operator=(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1 const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1& operator=(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-
-// Fields
-
- Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> __declspec(property(get=__get_UnityNativeArray, put=__set_UnityNativeArray))  UnityNativeArray;
-
-constexpr void __set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> value) ;
-
-constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> __get_UnityNativeArray() const;
-
- System::Runtime::InteropServices::GCHandle __declspec(property(get=__get__handle, put=__set__handle))  _handle;
-
-constexpr void __set__handle(System::Runtime::InteropServices::GCHandle value) ;
-
-constexpr System::Runtime::InteropServices::GCHandle __get__handle() const;
-
-
-// Methods
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> ovrArray, int32_t length) ;
+ void _ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> ovrArray, int32_t length) ;
 
 /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
  void Dispose() ;
@@ -614,16 +477,16 @@ namespace GlobalNamespace {
 template<>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(8922))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8922), inst: 738 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8922), inst: 736 })
 // CS Name: OVRMeshJobs::NativeArrayHelper`1
-struct CORDL_TYPE GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 /// @brief Convert operator to System::IDisposable
 constexpr operator  System::IDisposable() const;
 
-// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
-constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept;
+// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept;
 
 
                     constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1 const&) = default;
@@ -656,11 +519,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> __declspec(property(get=__get_UnityNativeArray, put=__set_UnityNativeArray))  UnityNativeArray;
+ Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> __declspec(property(get=__get_UnityNativeArray, put=__set_UnityNativeArray))  UnityNativeArray;
 
-constexpr void __set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> value) ;
+constexpr void __set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> value) ;
 
-constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> __get_UnityNativeArray() const;
+constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> __get_UnityNativeArray() const;
 
  System::Runtime::InteropServices::GCHandle __declspec(property(get=__get__handle, put=__set__handle))  _handle;
 
@@ -672,7 +535,153 @@ constexpr System::Runtime::InteropServices::GCHandle __get__handle() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4s> ovrArray, int32_t length) ;
+ void _ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector3f> ovrArray, int32_t length) ;
+
+/// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+ void Dispose() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::NativeArrayHelper`1
+namespace GlobalNamespace {
+// cpp template
+template<>
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(8922))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8922), inst: 735 })
+// CS Name: OVRMeshJobs::NativeArrayHelper`1
+struct CORDL_TYPE GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> : public ::bs_hook::ValueTypeWrapper {
+public:
+// Declarations
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
+
+// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept;
+
+
+                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1 const&) = default;
+                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1&&) = default;
+                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1& operator=(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1 const& o) {
+                        __instance = o.__instance;
+                        return *this;
+                    };
+                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1& operator=(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1&& o) noexcept {
+                        __instance = std::move(o.__instance);
+                        return *this;
+                    };
+                
+
+/// @brief The size of the true value type
+static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
+
+/// @brief Holds the value type data
+ std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
+
+// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+}
+
+/// @brief conversion method for value type
+constexpr void* convert() const noexcept {
+return const_cast<void*>(static_cast<const void*>(__instance.data()));
+}
+
+
+// Fields
+
+ Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> __declspec(property(get=__get_UnityNativeArray, put=__set_UnityNativeArray))  UnityNativeArray;
+
+constexpr void __set_UnityNativeArray(Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> value) ;
+
+constexpr Unity::Collections::NativeArray_1<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> __get_UnityNativeArray() const;
+
+ System::Runtime::InteropServices::GCHandle __declspec(property(get=__get__handle, put=__set__handle))  _handle;
+
+constexpr void __set__handle(System::Runtime::InteropServices::GCHandle value) ;
+
+constexpr System::Runtime::InteropServices::GCHandle __get__handle() const;
+
+
+// Methods
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector2f> ovrArray, int32_t length) ;
+
+/// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+ void Dispose() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::NativeArrayHelper`1
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<int16_t> T>
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(8922))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8922), inst: 721 })
+// CS Name: OVRMeshJobs::NativeArrayHelper`1
+struct CORDL_TYPE GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1<T> : public ::bs_hook::ValueTypeWrapper {
+public:
+// Declarations
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
+
+// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(Unity::Collections::NativeArray_1<T> UnityNativeArray, System::Runtime::InteropServices::GCHandle _handle) noexcept;
+
+
+                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1 const&) = default;
+                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1&&) = default;
+                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1& operator=(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1 const& o) {
+                        __instance = o.__instance;
+                        return *this;
+                    };
+                    constexpr GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1& operator=(GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1&& o) noexcept {
+                        __instance = std::move(o.__instance);
+                        return *this;
+                    };
+                
+
+/// @brief The size of the true value type
+static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
+
+/// @brief Holds the value type data
+ std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
+
+// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__OVRMeshJobs__NativeArrayHelper_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+}
+
+/// @brief conversion method for value type
+constexpr void* convert() const noexcept {
+return const_cast<void*>(static_cast<const void*>(__instance.data()));
+}
+
+
+// Fields
+
+ Unity::Collections::NativeArray_1<T> __declspec(property(get=__get_UnityNativeArray, put=__set_UnityNativeArray))  UnityNativeArray;
+
+constexpr void __set_UnityNativeArray(Unity::Collections::NativeArray_1<T> value) ;
+
+constexpr Unity::Collections::NativeArray_1<T> __get_UnityNativeArray() const;
+
+ System::Runtime::InteropServices::GCHandle __declspec(property(get=__get__handle, put=__set__handle))  _handle;
+
+constexpr void __set__handle(System::Runtime::InteropServices::GCHandle value) ;
+
+constexpr System::Runtime::InteropServices::GCHandle __get__handle() const;
+
+
+// Methods
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor(::ArrayW<T> ovrArray, int32_t length) ;
 
 /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
  void Dispose() ;

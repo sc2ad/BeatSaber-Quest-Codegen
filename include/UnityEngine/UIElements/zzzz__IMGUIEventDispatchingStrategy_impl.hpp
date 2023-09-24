@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, evt, panel);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::IMGUIEventDispatchingStrategy::IMGUIEventDispatchingStrategy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IMGUIEventDispatchingStrategy>())) {}
+ UnityEngine::UIElements::IMGUIEventDispatchingStrategy UnityEngine::UIElements::IMGUIEventDispatchingStrategy::New_ctor()  {
+UnityEngine::UIElements::IMGUIEventDispatchingStrategy o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::IMGUIEventDispatchingStrategy>())};
+return o;
+}
  void UnityEngine::UIElements::IMGUIEventDispatchingStrategy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::IMGUIEventDispatchingStrategy>::get(),

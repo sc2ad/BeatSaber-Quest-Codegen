@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Reflection/zzzz__FieldInfo_impl.hpp"
 #include "System/Reflection/zzzz__RtFieldInfo_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/Reflection/zzzz__Binder_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 //  Writing Method size for method: System::Reflection::RtFieldInfo.UnsafeGetValue
 template<>
 
@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, target);
 }
-// Ctor Parameters []
- System::Reflection::RtFieldInfo::RtFieldInfo()  : System::Reflection::FieldInfo(THROW_UNLESS(::il2cpp_utils::New<RtFieldInfo>())) {}
+ System::Reflection::RtFieldInfo System::Reflection::RtFieldInfo::New_ctor()  {
+System::Reflection::RtFieldInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::RtFieldInfo>())};
+return o;
+}
  void System::Reflection::RtFieldInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::RtFieldInfo>::get(),

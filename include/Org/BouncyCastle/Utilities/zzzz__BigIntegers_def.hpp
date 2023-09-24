@@ -79,8 +79,7 @@ static Org::BouncyCastle::Math::BigInteger CreateRandomInRange(Org::BouncyCastle
 /// @brief Method GetUnsignedByteLength addr 0x10e258c size 0x30 virtual false final false
 static int32_t GetUnsignedByteLength(Org::BouncyCastle::Math::BigInteger n) ;
 
-// Ctor Parameters []
-explicit BigIntegers() ;
+static Org::BouncyCastle::Utilities::BigIntegers New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e25bc size 0x8 virtual false final false
  void _ctor() ;

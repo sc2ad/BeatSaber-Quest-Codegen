@@ -5,25 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
 struct AvatarIKGoal;
 }
 namespace UnityEngine {
+class Avatar;
+}
+namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class Avatar;
+class AnimationClip;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -182,14 +182,12 @@ constexpr bool __get_lastQSet() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BakerHumanoidQT(::StringW name) ;
+static RootMotion::BakerHumanoidQT New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x11a8a60 size 0x178 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "goal", ty: "UnityEngine::AvatarIKGoal", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BakerHumanoidQT(UnityEngine::Transform transform, UnityEngine::AvatarIKGoal goal, ::StringW name) ;
+static RootMotion::BakerHumanoidQT New_ctor(UnityEngine::Transform transform, UnityEngine::AvatarIKGoal goal, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x11a8d1c size 0x188 virtual false final false
  void _ctor(UnityEngine::Transform transform, UnityEngine::AvatarIKGoal goal, ::StringW name) ;

@@ -47,8 +47,7 @@ constexpr explicit MultiplayerLobbyCenterScreenSystem(void* ptr) noexcept : Unit
 
 // Methods
 
-// Ctor Parameters []
-explicit MultiplayerLobbyCenterScreenSystem() ;
+static GlobalNamespace::MultiplayerLobbyCenterScreenSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x214bf54 size 0x8 virtual false final false
  void _ctor() ;

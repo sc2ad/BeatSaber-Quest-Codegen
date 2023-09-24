@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Security::Cryptography::X509Certificates {
 class X509Chain;
 }
 namespace System::Net::Security {
 struct SslPolicyErrors;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
 }
 // Forward declare root types
 namespace System::Net::Security {
@@ -58,8 +58,7 @@ constexpr explicit RemoteCertificateValidationCallback(void* ptr) noexcept : Sys
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit RemoteCertificateValidationCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Net::Security::RemoteCertificateValidationCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x276d1c0 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

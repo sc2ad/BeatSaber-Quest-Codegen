@@ -3,16 +3,16 @@
 #include "UnityEngine/InputSystem/XR/zzzz__Bone_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
+class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
 }
+namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
+}
 namespace UnityEngine::InputSystem::XR {
 struct Bone;
-}
-namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -21,7 +21,7 @@ class BoneControl;
 // Type: UnityEngine.InputSystem.XR::BoneControl
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3753 }), TypeDefinitionIndex(TypeDefinitionIndex(6420)), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6420)), TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3753 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6422))
 // CS Name: UnityEngine.InputSystem.XR.BoneControl
 class CORDL_TYPE BoneControl : public UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::XR::Bone> {
@@ -117,8 +117,7 @@ constexpr UnityEngine::InputSystem::Controls::QuaternionControl __get__rotation_
 /// @brief Method WriteValueIntoState addr 0x2935c84 size 0x84 virtual true final false
  void WriteValueIntoState(UnityEngine::InputSystem::XR::Bone value, void* statePtr) ;
 
-// Ctor Parameters []
-explicit BoneControl() ;
+static UnityEngine::InputSystem::XR::BoneControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2935d08 size 0x48 virtual false final false
  void _ctor() ;

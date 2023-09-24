@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace System::Collections::Generic {
@@ -14,6 +11,9 @@ class Dictionary_2;
 }
 namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -13,7 +13,7 @@ class MessageWithInstalledApplicationList;
 // Type: Oculus.Platform::MessageWithInstalledApplicationList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4445 }), TypeDefinitionIndex(TypeDefinitionIndex(13418))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13418)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4445 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13238))
 // CS Name: Oculus.Platform.MessageWithInstalledApplicationList
 class CORDL_TYPE MessageWithInstalledApplicationList : public Oculus::Platform::Message_1<Oculus::Platform::Models::InstalledApplicationList> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithInstalledApplicationList(void* ptr) noexcept : Ocu
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithInstalledApplicationList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithInstalledApplicationList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x2581480 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

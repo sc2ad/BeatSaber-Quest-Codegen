@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Oculus::Platform {
-struct TimeWindow;
+struct ServiceProvider;
 }
 namespace Oculus::Platform {
-struct ServiceProvider;
+struct TimeWindow;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -63,8 +63,7 @@ constexpr ::cordl_internals::intptr_t __get_Handle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UserOptions() ;
+static Oculus::Platform::UserOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x2598e04 size 0x68 virtual false final false
  void _ctor() ;

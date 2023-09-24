@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography {
-struct AsnDecodeStatus;
-}
-namespace System::Security::Cryptography {
 class AsnEncodedData;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509SubjectKeyIdentifierHashAlgorithm;
+}
+namespace System::Security::Cryptography {
+struct AsnDecodeStatus;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class PublicKey;
@@ -94,38 +94,32 @@ constexpr System::Security::Cryptography::AsnDecodeStatus __get__status() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509SubjectKeyIdentifierExtension() ;
+static System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension New_ctor() ;
 
 /// @brief Method .ctor addr 0x27f50b4 size 0x9c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "encodedSubjectKeyIdentifier", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509SubjectKeyIdentifierExtension(System::Security::Cryptography::AsnEncodedData encodedSubjectKeyIdentifier, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension New_ctor(System::Security::Cryptography::AsnEncodedData encodedSubjectKeyIdentifier, bool critical) ;
 
 /// @brief Method .ctor addr 0x27f5150 size 0xcc virtual false final false
  void _ctor(System::Security::Cryptography::AsnEncodedData encodedSubjectKeyIdentifier, bool critical) ;
 
-// Ctor Parameters [CppParam { name: "subjectKeyIdentifier", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509SubjectKeyIdentifierExtension(::ArrayW<uint8_t> subjectKeyIdentifier, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension New_ctor(::ArrayW<uint8_t> subjectKeyIdentifier, bool critical) ;
 
 /// @brief Method .ctor addr 0x27f5380 size 0x1b8 virtual false final false
  void _ctor(::ArrayW<uint8_t> subjectKeyIdentifier, bool critical) ;
 
-// Ctor Parameters [CppParam { name: "subjectKeyIdentifier", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509SubjectKeyIdentifierExtension(::StringW subjectKeyIdentifier, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension New_ctor(::StringW subjectKeyIdentifier, bool critical) ;
 
 /// @brief Method .ctor addr 0x27f55ac size 0x168 virtual false final false
  void _ctor(::StringW subjectKeyIdentifier, bool critical) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "System::Security::Cryptography::X509Certificates::PublicKey", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509SubjectKeyIdentifierExtension(System::Security::Cryptography::X509Certificates::PublicKey key, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension New_ctor(System::Security::Cryptography::X509Certificates::PublicKey key, bool critical) ;
 
 /// @brief Method .ctor addr 0x27f5804 size 0xc virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::PublicKey key, bool critical) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "System::Security::Cryptography::X509Certificates::PublicKey", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509SubjectKeyIdentifierExtension(System::Security::Cryptography::X509Certificates::PublicKey key, System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension New_ctor(System::Security::Cryptography::X509Certificates::PublicKey key, System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical) ;
 
 /// @brief Method .ctor addr 0x27f5810 size 0x3cc virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::PublicKey key, System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical) ;

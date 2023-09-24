@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class Vector3SO;
-}
-namespace TMPro {
-class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -114,8 +114,7 @@ constexpr float_t __get__playerHeight() const;
 /// @brief Method Update addr 0x215b330 size 0x240 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit FloorAdjustViewController() ;
+static GlobalNamespace::FloorAdjustViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215b570 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,9 +2,9 @@
 #include "System/zzzz__TimeoutException_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexMatchTimeoutException_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::RegexMatchTimeoutException._ctor
 template<>
 
@@ -146,8 +146,10 @@ constexpr void System::Text::RegularExpressions::RegexMatchTimeoutException::__s
 constexpr System::TimeSpan System::Text::RegularExpressions::RegexMatchTimeoutException::__get__MatchTimeout_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::TimeSpan, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "regexInput", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "regexPattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "matchTimeout", ty: "System::TimeSpan", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexMatchTimeoutException::RegexMatchTimeoutException(::StringW regexInput, ::StringW regexPattern, System::TimeSpan matchTimeout)  : System::TimeoutException(THROW_UNLESS(::il2cpp_utils::New<RegexMatchTimeoutException>(regexInput, regexPattern, matchTimeout))) {}
+ System::Text::RegularExpressions::RegexMatchTimeoutException System::Text::RegularExpressions::RegexMatchTimeoutException::New_ctor(::StringW regexInput, ::StringW regexPattern, System::TimeSpan matchTimeout)  {
+System::Text::RegularExpressions::RegexMatchTimeoutException o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexMatchTimeoutException>(regexInput, regexPattern, matchTimeout))};
+return o;
+}
  void System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor(::StringW regexInput, ::StringW regexPattern, System::TimeSpan matchTimeout)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexMatchTimeoutException>::get(),
@@ -157,8 +159,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, regexInput, regexPattern, matchTimeout);
 }
-// Ctor Parameters []
- System::Text::RegularExpressions::RegexMatchTimeoutException::RegexMatchTimeoutException()  : System::TimeoutException(THROW_UNLESS(::il2cpp_utils::New<RegexMatchTimeoutException>())) {}
+ System::Text::RegularExpressions::RegexMatchTimeoutException System::Text::RegularExpressions::RegexMatchTimeoutException::New_ctor()  {
+System::Text::RegularExpressions::RegexMatchTimeoutException o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexMatchTimeoutException>())};
+return o;
+}
  void System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexMatchTimeoutException>::get(),
@@ -168,8 +172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexMatchTimeoutException::RegexMatchTimeoutException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::TimeoutException(THROW_UNLESS(::il2cpp_utils::New<RegexMatchTimeoutException>(info, context))) {}
+ System::Text::RegularExpressions::RegexMatchTimeoutException System::Text::RegularExpressions::RegexMatchTimeoutException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Text::RegularExpressions::RegexMatchTimeoutException o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexMatchTimeoutException>(info, context))};
+return o;
+}
  void System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexMatchTimeoutException>::get(),

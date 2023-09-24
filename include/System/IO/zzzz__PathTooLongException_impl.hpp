@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::IO::PathTooLongException::PathTooLongException()  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<PathTooLongException>())) {}
+ System::IO::PathTooLongException System::IO::PathTooLongException::New_ctor()  {
+System::IO::PathTooLongException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::PathTooLongException>())};
+return o;
+}
  void System::IO::PathTooLongException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::PathTooLongException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::IO::PathTooLongException::PathTooLongException(::StringW message)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<PathTooLongException>(message))) {}
+ System::IO::PathTooLongException System::IO::PathTooLongException::New_ctor(::StringW message)  {
+System::IO::PathTooLongException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::PathTooLongException>(message))};
+return o;
+}
  void System::IO::PathTooLongException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::PathTooLongException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::IO::PathTooLongException::PathTooLongException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<PathTooLongException>(info, context))) {}
+ System::IO::PathTooLongException System::IO::PathTooLongException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::IO::PathTooLongException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::PathTooLongException>(info, context))};
+return o;
+}
  void System::IO::PathTooLongException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::PathTooLongException>::get(),

@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__PersistentCall_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-#include "UnityEngine/Events/zzzz__PersistentListenerMode_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEventCallState_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEventBase_def.hpp"
-#include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 #include "UnityEngine/Events/zzzz__ArgumentCache_def.hpp"
+#include "UnityEngine/Events/zzzz__PersistentListenerMode_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 //  Writing Method size for method: UnityEngine::Events::PersistentCall.get_target
 template<>
 
@@ -325,8 +325,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Events::PersistentCall::PersistentCall()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PersistentCall>())) {}
+ UnityEngine::Events::PersistentCall UnityEngine::Events::PersistentCall::New_ctor()  {
+UnityEngine::Events::PersistentCall o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Events::PersistentCall>())};
+return o;
+}
  void UnityEngine::Events::PersistentCall::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::PersistentCall>::get(),

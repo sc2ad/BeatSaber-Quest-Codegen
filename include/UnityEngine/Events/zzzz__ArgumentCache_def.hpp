@@ -5,10 +5,10 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class ISerializationCallbackReceiver;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+class ISerializationCallbackReceiver;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -137,8 +137,7 @@ constexpr bool __get_m_BoolArgument() const;
 /// @brief Method OnAfterDeserialize addr 0x2b7f2ac size 0x1c virtual true final true
  void OnAfterDeserialize() ;
 
-// Ctor Parameters []
-explicit ArgumentCache() ;
+static UnityEngine::Events::ArgumentCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b7f2c8 size 0x8 virtual false final false
  void _ctor() ;

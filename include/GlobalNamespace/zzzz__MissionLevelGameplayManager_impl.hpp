@@ -6,14 +6,15 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__PauseController_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelStartController_def.hpp"
-#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
+#include "GlobalNamespace/zzzz__MissionLevelGameplayManager_def.hpp"
+#include "GlobalNamespace/zzzz__GameSongController_def.hpp"
 #include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
+#include "GlobalNamespace/zzzz__PauseController_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelStartController_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__InitData._ctor
 template<>
 
@@ -37,8 +38,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__In
 constexpr bool GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__InitData::__get_failOn0Energy() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "failOn0Energy", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__InitData::GlobalNamespace__MissionLevelGameplayManager__InitData(bool failOn0Energy)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionLevelGameplayManager__InitData>(failOn0Energy))) {}
+ GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__InitData GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__InitData::New_ctor(bool failOn0Energy)  {
+GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__InitData>(failOn0Energy))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__InitData::_ctor(bool failOn0Energy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager__InitData>::get(),
@@ -194,8 +197,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager___S
 constexpr GlobalNamespace::MissionLevelGameplayManager GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager___Start_d__23::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MissionLevelGameplayManager, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager___Start_d__23::GlobalNamespace__MissionLevelGameplayManager___Start_d__23(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionLevelGameplayManager___Start_d__23>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager___Start_d__23 GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager___Start_d__23::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager___Start_d__23 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager___Start_d__23>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager___Start_d__23::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionLevelGameplayManager___Start_d__23>::get(),
@@ -789,8 +794,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionLevelGameplayManager::MissionLevelGameplayManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionLevelGameplayManager>())) {}
+ GlobalNamespace::MissionLevelGameplayManager GlobalNamespace::MissionLevelGameplayManager::New_ctor()  {
+GlobalNamespace::MissionLevelGameplayManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionLevelGameplayManager>())};
+return o;
+}
  void GlobalNamespace::MissionLevelGameplayManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionLevelGameplayManager>::get(),

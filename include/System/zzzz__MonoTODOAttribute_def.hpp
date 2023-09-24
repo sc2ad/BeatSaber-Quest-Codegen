@@ -57,14 +57,12 @@ constexpr ::StringW __get_comment() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoTODOAttribute() ;
+static System::MonoTODOAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x24696bc size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "comment", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MonoTODOAttribute(::StringW comment) ;
+static System::MonoTODOAttribute New_ctor(::StringW comment) ;
 
 /// @brief Method .ctor addr 0x24696cc size 0x28 virtual false final false
  void _ctor(::StringW comment) ;

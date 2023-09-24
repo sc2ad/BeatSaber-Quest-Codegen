@@ -9,31 +9,37 @@
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__NetworkPlayersTableView__CellInfo__CellType;
+}
 namespace HMUI {
-class TableCell;
+class TableView;
 }
 namespace GlobalNamespace {
 class NetworkPlayerTableCell;
 }
 namespace GlobalNamespace {
-class NetworkPlayerOptionsTableCell;
+class GlobalNamespace__NetworkPlayersTableView__CellInfo;
 }
 namespace GlobalNamespace {
 class LevelPackHeaderTableCell;
+}
+namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
+class HMUI__TableView__IDataSource;
+}
+namespace GlobalNamespace {
+class NetworkPlayerOptionsTableCell;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace HMUI {
-class HMUI__TableView__IDataSource;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace HMUI {
-class TableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,6 +101,8 @@ __Options = 2,
 constexpr operator __GlobalNamespace__NetworkPlayersTableView__CellInfo__CellType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__NetworkPlayersTableView__CellInfo__CellType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -189,8 +197,7 @@ constexpr bool __get_lastCellInParty() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__NetworkPlayersTableView__CellInfo() ;
+static GlobalNamespace::GlobalNamespace__NetworkPlayersTableView__CellInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2151a38 size 0x8 virtual false final false
  void _ctor() ;
@@ -333,8 +340,7 @@ constexpr bool __get__selectedCellHasOptions() const;
 /// @brief Method HasVisibleOptions addr 0x2151a40 size 0x350 virtual false final false
 static bool HasVisibleOptions(GlobalNamespace::INetworkPlayer player) ;
 
-// Ctor Parameters []
-explicit NetworkPlayersTableView() ;
+static GlobalNamespace::NetworkPlayersTableView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2151ed0 size 0x8c virtual false final false
  void _ctor() ;

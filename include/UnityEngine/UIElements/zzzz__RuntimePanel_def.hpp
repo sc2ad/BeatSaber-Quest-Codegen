@@ -1,11 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
-namespace UnityEngine::UIElements {
-class EventDispatcher;
-}
 namespace UnityEngine {
 class ScriptableObject;
+}
+namespace UnityEngine::UIElements {
+class EventDispatcher;
 }
 namespace UnityEngine::UIElements {
 class PanelSettings;
@@ -82,8 +82,7 @@ constexpr UnityEngine::UIElements::PanelSettings __get_m_PanelSettings() const;
 /// @brief Method Create addr 0x2c9f720 size 0x60 virtual false final false
 static UnityEngine::UIElements::RuntimePanel Create(UnityEngine::ScriptableObject ownerObject) ;
 
-// Ctor Parameters [CppParam { name: "ownerObject", ty: "UnityEngine::ScriptableObject", modifiers: "", def_value: None }]
-explicit RuntimePanel(UnityEngine::ScriptableObject ownerObject) ;
+static UnityEngine::UIElements::RuntimePanel New_ctor(UnityEngine::ScriptableObject ownerObject) ;
 
 /// @brief Method .ctor addr 0x2c9f780 size 0x1f8 virtual false final false
  void _ctor(UnityEngine::ScriptableObject ownerObject) ;

@@ -64,8 +64,10 @@ constexpr void System::Collections::Specialized::StringDictionary::__set_content
 constexpr System::Collections::Hashtable System::Collections::Specialized::StringDictionary::__get_contents() const {
 return ::cordl_internals::getInstanceField<System::Collections::Hashtable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Collections::Specialized::StringDictionary::StringDictionary()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringDictionary>())) {}
+ System::Collections::Specialized::StringDictionary System::Collections::Specialized::StringDictionary::New_ctor()  {
+System::Collections::Specialized::StringDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Specialized::StringDictionary>())};
+return o;
+}
  void System::Collections::Specialized::StringDictionary::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Specialized::StringDictionary>::get(),

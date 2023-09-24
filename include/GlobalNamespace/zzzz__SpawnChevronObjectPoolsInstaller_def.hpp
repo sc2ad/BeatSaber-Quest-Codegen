@@ -62,8 +62,7 @@ constexpr GlobalNamespace::SpawnRotationChevron __get__spawnRotationChevronPrefa
 /// @brief Method InstallBindings addr 0x226a5e8 size 0x84 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit SpawnChevronObjectPoolsInstaller() ;
+static GlobalNamespace::SpawnChevronObjectPoolsInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x226a66c size 0x8 virtual false final false
  void _ctor() ;

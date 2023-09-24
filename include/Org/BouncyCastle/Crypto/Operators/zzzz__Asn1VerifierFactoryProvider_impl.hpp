@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__Asn1VerifierFactoryProvider_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactory_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactory_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactoryProvider_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider._ctor
 template<>
@@ -65,8 +65,10 @@ constexpr void Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider
 constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider::__get_publicKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::AsymmetricKeyParameter, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider::Asn1VerifierFactoryProvider(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1VerifierFactoryProvider>(publicKey))) {}
+ Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey)  {
+Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider>(publicKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider>::get(),

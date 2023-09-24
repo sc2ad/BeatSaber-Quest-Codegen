@@ -2,14 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Mono::Math::Prime {
+struct ConfidenceFactor;
+}
 namespace Mono::Math {
 class BigInteger;
 }
 namespace Mono::Math::Prime {
 class PrimalityTest;
-}
-namespace Mono::Math::Prime {
-struct ConfidenceFactor;
 }
 // Forward declare root types
 namespace Mono::Math::Prime::Generator {
@@ -78,8 +78,7 @@ constexpr explicit PrimeGeneratorBase(void* ptr) noexcept : ::bs_hook::Il2CppWra
 /// @brief Method GenerateNewPrime addr 0x0 size 0xffffffffffffffff virtual true final false
  Mono::Math::BigInteger GenerateNewPrime(int32_t bits) ;
 
-// Ctor Parameters []
-explicit PrimeGeneratorBase() ;
+static Mono::Math::Prime::Generator::PrimeGeneratorBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x22be478 size 0x8 virtual false final false
  void _ctor() ;

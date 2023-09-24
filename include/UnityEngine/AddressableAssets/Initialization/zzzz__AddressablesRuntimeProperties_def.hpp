@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Reflection {
-class Assembly;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Initialization {

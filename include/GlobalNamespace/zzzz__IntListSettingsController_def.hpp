@@ -93,8 +93,7 @@ constexpr System::Action_1<int32_t> __get_valueChangedEvent() const;
 /// @brief Method TextForValue addr 0x2153680 size 0x1c virtual true final false
  ::StringW TextForValue(int32_t idx) ;
 
-// Ctor Parameters []
-explicit IntListSettingsController() ;
+static GlobalNamespace::IntListSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215369c size 0x8 virtual false final false
  void _ctor() ;

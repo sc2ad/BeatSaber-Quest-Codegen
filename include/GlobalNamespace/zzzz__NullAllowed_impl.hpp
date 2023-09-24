@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowed_def.hpp"
+#include "GlobalNamespace/zzzz__NullAllowed_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__NullAllowed__Context::GlobalNamespace__NullAllowed__Context(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -82,8 +83,10 @@ constexpr void GlobalNamespace::NullAllowed::__set_ifNotValue(::bs_hook::Il2CppW
 constexpr ::bs_hook::Il2CppWrapperType GlobalNamespace::NullAllowed::__get_ifNotValue() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::NullAllowed::NullAllowed()  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<NullAllowed>())) {}
+ GlobalNamespace::NullAllowed GlobalNamespace::NullAllowed::New_ctor()  {
+GlobalNamespace::NullAllowed o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NullAllowed>())};
+return o;
+}
  void GlobalNamespace::NullAllowed::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NullAllowed>::get(),
@@ -93,8 +96,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "GlobalNamespace::GlobalNamespace__NullAllowed__Context", modifiers: "", def_value: None }]
- GlobalNamespace::NullAllowed::NullAllowed(GlobalNamespace::GlobalNamespace__NullAllowed__Context context)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<NullAllowed>(context))) {}
+ GlobalNamespace::NullAllowed GlobalNamespace::NullAllowed::New_ctor(GlobalNamespace::GlobalNamespace__NullAllowed__Context context)  {
+GlobalNamespace::NullAllowed o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NullAllowed>(context))};
+return o;
+}
  void GlobalNamespace::NullAllowed::_ctor(GlobalNamespace::GlobalNamespace__NullAllowed__Context context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NullAllowed>::get(),
@@ -104,8 +109,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, context);
 }
-// Ctor Parameters [CppParam { name: "propertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ifNotValue", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- GlobalNamespace::NullAllowed::NullAllowed(::StringW propertyName, ::bs_hook::Il2CppWrapperType ifNotValue)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<NullAllowed>(propertyName, ifNotValue))) {}
+ GlobalNamespace::NullAllowed GlobalNamespace::NullAllowed::New_ctor(::StringW propertyName, ::bs_hook::Il2CppWrapperType ifNotValue)  {
+GlobalNamespace::NullAllowed o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NullAllowed>(propertyName, ifNotValue))};
+return o;
+}
  void GlobalNamespace::NullAllowed::_ctor(::StringW propertyName, ::bs_hook::Il2CppWrapperType ifNotValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NullAllowed>::get(),

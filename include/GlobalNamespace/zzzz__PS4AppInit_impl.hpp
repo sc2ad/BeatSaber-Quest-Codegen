@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AppInit_impl.hpp"
 #include "GlobalNamespace/zzzz__PS4AppInit_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__SonyOnGoingToBackgroundSaveHandler_def.hpp"
-#include "GlobalNamespace/zzzz__PS4ActivePublisherSKUSettingsSO_def.hpp"
 #include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
-#include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
+#include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
+#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PS4ActivePublisherSKUSettingsSO_def.hpp"
+#include "GlobalNamespace/zzzz__SonyOnGoingToBackgroundSaveHandler_def.hpp"
 #include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PS4AppInit.AppStartAndMultiSceneEditorSetup
 template<>
@@ -171,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PS4AppInit::PS4AppInit()  : GlobalNamespace::AppInit(THROW_UNLESS(::il2cpp_utils::New<PS4AppInit>())) {}
+ GlobalNamespace::PS4AppInit GlobalNamespace::PS4AppInit::New_ctor()  {
+GlobalNamespace::PS4AppInit o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS4AppInit>())};
+return o;
+}
  void GlobalNamespace::PS4AppInit::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS4AppInit>::get(),

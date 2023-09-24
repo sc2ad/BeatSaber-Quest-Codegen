@@ -12,11 +12,11 @@ class Task;
 namespace System::Threading {
 class ContextCallback;
 }
-namespace System::Threading {
-class ExecutionContext;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Threading {
+class ExecutionContext;
 }
 namespace System::Threading {
 class WaitCallback;
@@ -24,11 +24,23 @@ class WaitCallback;
 namespace System::Threading {
 class SendOrPostCallback;
 }
-namespace System::Threading {
-class SynchronizationContext;
+namespace System::Runtime::CompilerServices {
+class System__Runtime__CompilerServices__AsyncMethodBuilderCore____c;
+}
+namespace System::Runtime::CompilerServices {
+class System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper;
+}
+namespace System::Runtime::CompilerServices {
+class System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner;
+}
+namespace System::Runtime::CompilerServices {
+class System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0;
 }
 namespace System {
 class Exception;
+}
+namespace System::Threading {
+class SynchronizationContext;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -109,8 +121,7 @@ static System::Threading::ContextCallback __get_s_invokeMoveNext() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "System::Threading::ExecutionContext", modifiers: "", def_value: None }, CppParam { name: "stateMachine", ty: "System::Runtime::CompilerServices::IAsyncStateMachine", modifiers: "", def_value: None }]
-explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner(System::Threading::ExecutionContext context, System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore__MoveNextRunner New_ctor(System::Threading::ExecutionContext context, System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 /// @brief Method .ctor addr 0x236fcd4 size 0x2c virtual false final false
  void _ctor(System::Threading::ExecutionContext context, System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
@@ -188,8 +199,7 @@ constexpr System::Threading::Tasks::Task __get_m_innerTask() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "continuation", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "invokeAction", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "innerTask", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }]
-explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper(System::Action continuation, System::Action invokeAction, System::Threading::Tasks::Task innerTask) ;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore__ContinuationWrapper New_ctor(System::Action continuation, System::Action invokeAction, System::Threading::Tasks::Task innerTask) ;
 
 /// @brief Method .ctor addr 0x2370028 size 0x4c virtual false final false
  void _ctor(System::Action continuation, System::Action invokeAction, System::Threading::Tasks::Task innerTask) ;
@@ -258,8 +268,7 @@ constexpr System::Action __get_continuation() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0() ;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x236fdc0 size 0x8 virtual false final false
  void _ctor() ;
@@ -334,8 +343,7 @@ static System::Threading::WaitCallback __get___9__7_1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__CompilerServices__AsyncMethodBuilderCore____c() ;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__AsyncMethodBuilderCore____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x23704d8 size 0x8 virtual false final false
  void _ctor() ;

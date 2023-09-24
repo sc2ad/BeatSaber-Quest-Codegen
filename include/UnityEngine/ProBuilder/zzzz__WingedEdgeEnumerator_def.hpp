@@ -1,9 +1,8 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -11,8 +10,9 @@ class IDisposable;
 namespace UnityEngine::ProBuilder {
 class WingedEdge;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -91,8 +91,7 @@ constexpr UnityEngine::ProBuilder::WingedEdge __get_m_Current() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "start", ty: "UnityEngine::ProBuilder::WingedEdge", modifiers: "", def_value: None }]
-explicit WingedEdgeEnumerator(UnityEngine::ProBuilder::WingedEdge start) ;
+static UnityEngine::ProBuilder::WingedEdgeEnumerator New_ctor(UnityEngine::ProBuilder::WingedEdge start) ;
 
 /// @brief Method .ctor addr 0x29f1368 size 0x28 virtual false final false
  void _ctor(UnityEngine::ProBuilder::WingedEdge start) ;

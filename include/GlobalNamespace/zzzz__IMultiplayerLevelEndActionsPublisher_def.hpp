@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
+}
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {

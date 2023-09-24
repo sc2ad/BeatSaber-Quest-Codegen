@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System::Text {
+class DecoderFallback;
+}
 namespace System {
 template<typename T>
 struct Span_1;
@@ -14,9 +17,6 @@ class DecoderFallbackBuffer;
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
-}
-namespace System::Text {
-class DecoderFallback;
 }
 // Forward declare root types
 namespace System::Text {
@@ -88,8 +88,7 @@ constexpr System::Text::DecoderFallbackBuffer __get__fallbackBuffer() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Decoder() ;
+static System::Text::Decoder New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c1b3c size 0x8 virtual false final false
  void _ctor() ;

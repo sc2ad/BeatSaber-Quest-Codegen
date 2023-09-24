@@ -63,8 +63,7 @@ static Org::BouncyCastle::Asn1::Crmf::SubsequentMessage __get_challengeResp() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SubsequentMessage(int32_t value) ;
+static Org::BouncyCastle::Asn1::Crmf::SubsequentMessage New_ctor(int32_t value) ;
 
 /// @brief Method .ctor addr 0xdfb32c size 0x4 virtual false final false
  void _ctor(int32_t value) ;

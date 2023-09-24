@@ -8,14 +8,17 @@ namespace GlobalNamespace {
 template<typename T>
 class SimpleMemoryPool_1;
 }
+namespace Ice {
+class FloorLightTilesGrid;
+}
+namespace Ice {
+class Ice__FloorLightStreakTileEffect__Element;
+}
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace Ice {
-class FloorLightTilesGrid;
 }
 namespace System {
 template<typename T>
@@ -133,8 +136,7 @@ constexpr UnityEngine::Color __get__color() const;
 /// @brief Method ManualUpdate addr 0x1211054 size 0x68 virtual false final false
  void ManualUpdate(float_t deltaTime) ;
 
-// Ctor Parameters []
-explicit Ice__FloorLightStreakTileEffect__Element() ;
+static Ice::Ice__FloorLightStreakTileEffect__Element New_ctor() ;
 
 /// @brief Method .ctor addr 0x1211530 size 0x8 virtual false final false
  void _ctor() ;
@@ -238,8 +240,7 @@ constexpr GlobalNamespace::SimpleMemoryPool_1<Ice::Ice__FloorLightStreakTileEffe
 /// @brief Method HandleElementDidMoveToNextTile addr 0x1211538 size 0x9c virtual false final false
  void HandleElementDidMoveToNextTile(Ice::Ice__FloorLightStreakTileEffect__Element element) ;
 
-// Ctor Parameters []
-explicit FloorLightStreakTileEffect() ;
+static Ice::FloorLightStreakTileEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x12115d4 size 0x14 virtual false final false
  void _ctor() ;

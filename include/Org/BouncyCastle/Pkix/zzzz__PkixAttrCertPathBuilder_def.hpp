@@ -1,23 +1,23 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace System::Collections {
-class IList;
-}
 namespace System {
 class Exception;
-}
-namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixBuilderParameters;
 }
+namespace Org::BouncyCastle::X509 {
+class IX509AttributeCertificate;
+}
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPathBuilderResult;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -80,8 +80,7 @@ constexpr System::Exception __get_certPathException() const;
 /// @brief Method Build addr 0x105e4b8 size 0xc40 virtual false final false
  Org::BouncyCastle::Pkix::PkixCertPathBuilderResult Build(Org::BouncyCastle::X509::IX509AttributeCertificate attrCert, Org::BouncyCastle::X509::X509Certificate tbvCert, Org::BouncyCastle::Pkix::PkixBuilderParameters pkixParams, System::Collections::IList tbvPath) ;
 
-// Ctor Parameters []
-explicit PkixAttrCertPathBuilder() ;
+static Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x105fa50 size 0x8 virtual false final false
  void _ctor() ;

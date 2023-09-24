@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::UI {
-class Image;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,8 +88,7 @@ constexpr UnityEngine::UI::Image __get__icon() const;
 /// @brief Method get_text addr 0x1fa37d8 size 0x24 virtual false final false
  ::StringW get_text() ;
 
-// Ctor Parameters []
-explicit SimpleTextWithIconTableCell() ;
+static GlobalNamespace::SimpleTextWithIconTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa37fc size 0x8 virtual false final false
  void _ctor() ;

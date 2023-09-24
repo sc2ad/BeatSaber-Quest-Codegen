@@ -2,20 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
-namespace System {
-class Exception;
-}
 namespace System::Runtime::CompilerServices {
 struct AsyncMethodBuilderCore;
 }
 namespace System::Threading {
 class SynchronizationContext;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System {
+class Exception;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

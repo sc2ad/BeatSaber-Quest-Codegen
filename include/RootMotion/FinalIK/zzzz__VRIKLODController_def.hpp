@@ -91,8 +91,7 @@ constexpr RootMotion::FinalIK::VRIK __get_ik() const;
 /// @brief Method GetLODLevel addr 0x12103e4 size 0x120 virtual false final false
  int32_t GetLODLevel() ;
 
-// Ctor Parameters []
-explicit VRIKLODController() ;
+static RootMotion::FinalIK::VRIKLODController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1210504 size 0x18 virtual false final false
  void _ctor() ;

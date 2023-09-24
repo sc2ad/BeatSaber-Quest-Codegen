@@ -88,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters []
- System::Text::RegularExpressions::ExclusiveReference::ExclusiveReference()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ExclusiveReference>())) {}
+ System::Text::RegularExpressions::ExclusiveReference System::Text::RegularExpressions::ExclusiveReference::New_ctor()  {
+System::Text::RegularExpressions::ExclusiveReference o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::ExclusiveReference>())};
+return o;
+}
  void System::Text::RegularExpressions::ExclusiveReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::ExclusiveReference>::get(),

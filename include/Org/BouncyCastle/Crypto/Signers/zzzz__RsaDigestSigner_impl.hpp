@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__RsaDigestSigner_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IRsa_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IRsa_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::RsaDigestSigner._ctor
 template<>
 
@@ -280,8 +280,10 @@ return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWr
  System::Collections::IDictionary Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::__get_oidMap()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "oidMap", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>::get>();
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::RsaDigestSigner(Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaDigestSigner>(digest))) {}
+ Org::BouncyCastle::Crypto::Signers::RsaDigestSigner Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Signers::RsaDigestSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>::get(),
@@ -291,8 +293,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, digest);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "digestOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::RsaDigestSigner(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaDigestSigner>(digest, digestOid))) {}
+ Org::BouncyCastle::Crypto::Signers::RsaDigestSigner Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::New_ctor(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  {
+Org::BouncyCastle::Crypto::Signers::RsaDigestSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>(digest, digestOid))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::_ctor(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>::get(),
@@ -302,8 +306,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, digest, digestOid);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "algId", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::RsaDigestSigner(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaDigestSigner>(digest, algId))) {}
+ Org::BouncyCastle::Crypto::Signers::RsaDigestSigner Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::New_ctor(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId)  {
+Org::BouncyCastle::Crypto::Signers::RsaDigestSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>(digest, algId))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::_ctor(Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>::get(),
@@ -313,8 +319,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, digest, algId);
 }
-// Ctor Parameters [CppParam { name: "rsa", ty: "Org::BouncyCastle::Crypto::IRsa", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "digestOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::RsaDigestSigner(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaDigestSigner>(rsa, digest, digestOid))) {}
+ Org::BouncyCastle::Crypto::Signers::RsaDigestSigner Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::New_ctor(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  {
+Org::BouncyCastle::Crypto::Signers::RsaDigestSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>(rsa, digest, digestOid))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::_ctor(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>::get(),
@@ -324,8 +332,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, rsa, digest, digestOid);
 }
-// Ctor Parameters [CppParam { name: "rsa", ty: "Org::BouncyCastle::Crypto::IRsa", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "algId", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::RsaDigestSigner(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaDigestSigner>(rsa, digest, algId))) {}
+ Org::BouncyCastle::Crypto::Signers::RsaDigestSigner Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::New_ctor(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId)  {
+Org::BouncyCastle::Crypto::Signers::RsaDigestSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>(rsa, digest, algId))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::_ctor(Org::BouncyCastle::Crypto::IRsa rsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>::get(),
@@ -335,8 +345,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, rsa, digest, algId);
 }
-// Ctor Parameters [CppParam { name: "rsaEngine", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "algId", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::RsaDigestSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher rsaEngine, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaDigestSigner>(rsaEngine, digest, algId))) {}
+ Org::BouncyCastle::Crypto::Signers::RsaDigestSigner Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher rsaEngine, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId)  {
+Org::BouncyCastle::Crypto::Signers::RsaDigestSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>(rsaEngine, digest, algId))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher rsaEngine, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::RsaDigestSigner>::get(),

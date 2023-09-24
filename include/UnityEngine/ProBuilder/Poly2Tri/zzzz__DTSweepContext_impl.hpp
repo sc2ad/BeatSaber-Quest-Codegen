@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepContext_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationConstraint_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationAlgorithm_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Triangulatable_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepEdgeEvent_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationConstraint_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__AdvancingFront_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepPointComparator_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepBasin_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DelaunayTriangle_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepEdgeEvent_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__AdvancingFront_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepPointComparator_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__AdvancingFrontNode_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepContext.get_Head
 template<>
@@ -429,8 +429,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::DTSweepContext()  : UnityEngine::ProBuilder::Poly2Tri::TriangulationContext(THROW_UNLESS(::il2cpp_utils::New<DTSweepContext>())) {}
+ UnityEngine::ProBuilder::Poly2Tri::DTSweepContext UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::New_ctor()  {
+UnityEngine::ProBuilder::Poly2Tri::DTSweepContext o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext>())};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::DTSweepContext>::get(),

@@ -2,14 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Security {
+class SecureString;
+}
 namespace System {
 class Uri;
 }
 namespace System::Net {
 class ICredentials;
-}
-namespace System::Security {
-class SecureString;
 }
 // Forward declare root types
 namespace System::Net {
@@ -90,14 +90,12 @@ constexpr System::Security::SecureString __get_m_password() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NetworkCredential(::StringW userName, ::StringW password) ;
+static System::Net::NetworkCredential New_ctor(::StringW userName, ::StringW password) ;
 
 /// @brief Method .ctor addr 0x280d330 size 0x68 virtual false final false
  void _ctor(::StringW userName, ::StringW password) ;
 
-// Ctor Parameters [CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "domain", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NetworkCredential(::StringW userName, ::StringW password, ::StringW domain) ;
+static System::Net::NetworkCredential New_ctor(::StringW userName, ::StringW password, ::StringW domain) ;
 
 /// @brief Method .ctor addr 0x280d398 size 0xc4 virtual false final false
  void _ctor(::StringW userName, ::StringW password, ::StringW domain) ;

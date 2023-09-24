@@ -8,49 +8,70 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-struct OVRSpaceUser;
-}
 namespace System {
 template<typename T>
 class Comparison_1;
+}
+namespace GlobalNamespace {
+struct OVRSpaceUser;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSpatialAnchor__OperationResult;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSpatialAnchor__LoadOptions;
+}
+namespace System {
+struct Guid;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSpatialAnchor__MultiAnchorActionType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceComponentType;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSpatialAnchor__UnboundAnchor;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSpatialAnchor____c;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSpatialAnchor__SingleAnchorDelegatePair;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSpatialAnchor__Development;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__SpaceStorageLocation;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
-}
-namespace GlobalNamespace {
-struct OVRSpace;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-struct Guid;
+struct GlobalNamespace__OVRSpatialAnchor__EraseOptions;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRSpace__StorageLocation;
@@ -58,16 +79,25 @@ struct GlobalNamespace__OVRSpace__StorageLocation;
 namespace GlobalNamespace {
 struct OVRPose;
 }
-namespace System::Collections::Generic {
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceStorageLocation;
+}
+namespace Unity::Collections {
 template<typename T>
-class List_1;
+struct NativeArray_1;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__SpaceComponentType;
+struct GlobalNamespace__OVRSpatialAnchor__SaveOptions;
+}
+namespace GlobalNamespace {
+struct OVRSpace;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSpatialAnchor__MultiAnchorDelegatePair;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRSpaceQuery__Options;
@@ -486,6 +516,8 @@ constexpr operator __GlobalNamespace__OVRSpatialAnchor__MultiAnchorActionType_Un
 return std::bit_cast<__GlobalNamespace__OVRSpatialAnchor__MultiAnchorActionType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -727,6 +759,8 @@ constexpr operator __GlobalNamespace__OVRSpatialAnchor__OperationResult_Unwrappe
 return std::bit_cast<__GlobalNamespace__OVRSpatialAnchor__OperationResult_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -818,8 +852,7 @@ static System::Comparison_1<GlobalNamespace::OVRSpaceUser> __get___9__34_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRSpatialAnchor____c() ;
+static GlobalNamespace::GlobalNamespace__OVRSpatialAnchor____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x26128d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -1174,8 +1207,7 @@ static void OnSpaceListSaveComplete(uint64_t requestId, GlobalNamespace::GlobalN
 /// @brief Method OnShareSpacesComplete addr 0x2611c44 size 0x68 virtual false final false
 static void OnShareSpacesComplete(uint64_t requestId, GlobalNamespace::GlobalNamespace__OVRSpatialAnchor__OperationResult result) ;
 
-// Ctor Parameters []
-explicit OVRSpatialAnchor() ;
+static GlobalNamespace::OVRSpatialAnchor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2611cac size 0xc virtual false final false
  void _ctor() ;

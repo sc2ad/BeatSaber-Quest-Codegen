@@ -1,37 +1,38 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__Addressables_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ISceneProvider_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__UnloadSceneOptions_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ResourceLocationBase_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IInstanceProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__UnloadSceneOptions_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__Addressables_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IInstanceProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ResourceLocationBase_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IAssetBundleResource_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo.get_Locator
 template<>
@@ -333,8 +334,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "loc", ty: "UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator", modifiers: "", def_value: None }, CppParam { name: "localHash", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "remoteCatalogLocation", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator loc, ::StringW localHash, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation remoteCatalogLocation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo>(loc, localHash, remoteCatalogLocation))) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo::New_ctor(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator loc, ::StringW localHash, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation remoteCatalogLocation)  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo>(loc, localHash, remoteCatalogLocation))};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo::_ctor(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator loc, ::StringW localHash, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation remoteCatalogLocation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo>::get(),
@@ -516,8 +519,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp()  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp>::get(),
@@ -678,8 +683,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp()  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp>::get(),
@@ -804,8 +811,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::Addressable
  System::Func_2<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo,::StringW> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c::__get___9__143_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo,::StringW>, "<>9__143_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c::UnityEngine__AddressableAssets__AddressablesImpl____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c>::get(),
@@ -891,8 +900,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0::__get_loc() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0>::get(),
@@ -969,8 +980,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr ::StringW UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0::__get_providerSuffix() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0>::get(),
@@ -1047,8 +1060,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr System::Type UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0::__get_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0>::get(),
@@ -1119,8 +1134,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr System::Type UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0::__get_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0>::get(),
@@ -1185,8 +1202,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr ::bs_hook::Il2CppWrapperType UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0::__get_key() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0>::get(),
@@ -1251,8 +1270,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr System::Collections::IEnumerable UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0::__get_keys() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerable, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0>::get(),
@@ -1317,8 +1338,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr ::bs_hook::Il2CppWrapperType UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0::__get_key() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0>::get(),
@@ -1383,8 +1406,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0::__get_locations() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0>::get(),
@@ -1455,8 +1480,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0::__get_mode() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0>::get(),
@@ -1527,8 +1554,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0::__get_autoReleaseHandle() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0>::get(),
@@ -1599,8 +1628,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0::__get_autoReleaseHandle() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0>::get(),
@@ -1671,8 +1702,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0::__get_autoReleaseHandle() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0>::get(),
@@ -1743,8 +1776,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0::__get_instantiateParameters() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0>::get(),
@@ -1815,8 +1850,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0::__get_instantiateParameters() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0>::get(),
@@ -1899,8 +1936,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr int32_t UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0::__get_priority() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0>::get(),
@@ -1971,8 +2010,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0::__get_autoReleaseHandle() const {
 return ::cordl_internals::getInstanceField<bool, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0>::get(),
@@ -2043,8 +2084,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0::__get_autoReleaseHandle() const {
 return ::cordl_internals::getInstanceField<bool, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0>::get(),
@@ -2109,8 +2152,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0::__get_autoReleaseHandle() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0>::get(),
@@ -2181,8 +2226,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0::__get_autoCleanBundleCache() const {
 return ::cordl_internals::getInstanceField<bool, 0x19>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0>::get(),
@@ -2253,8 +2300,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0::__get_forceSingleThreading() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0>::get(),
@@ -2325,8 +2374,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0::__get_forceSingleThreading() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0 UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0>::get(),
@@ -4219,8 +4270,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "alloc", ty: "UnityEngine::ResourceManagement::Util::IAllocationStrategy", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::AddressablesImpl::AddressablesImpl(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AddressablesImpl>(alloc))) {}
+ UnityEngine::AddressableAssets::AddressablesImpl UnityEngine::AddressableAssets::AddressablesImpl::New_ctor(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc)  {
+UnityEngine::AddressableAssets::AddressablesImpl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::AddressablesImpl>(alloc))};
+return o;
+}
  void UnityEngine::AddressableAssets::AddressablesImpl::_ctor(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::AddressablesImpl>::get(),
@@ -5337,299 +5390,137 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, op);
 }
-//  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::*)()>(&UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1._LoadAssetWithChain_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> (UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::_LoadAssetWithChain_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1>::get(),
-                            "<LoadAssetWithChain>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::__set___4__this(UnityEngine::AddressableAssets::AddressablesImpl value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject>::__set___4__this(UnityEngine::AddressableAssets::AddressablesImpl value)  {
 ::cordl_internals::setInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::AddressableAssets::AddressablesImpl>(value));
 }
-constexpr UnityEngine::AddressableAssets::AddressablesImpl UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::__get___4__this() const {
+constexpr UnityEngine::AddressableAssets::AddressablesImpl UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::__set_key(::bs_hook::Il2CppWrapperType value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject>::__set_key(::bs_hook::Il2CppWrapperType value)  {
 ::cordl_internals::setInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::bs_hook::Il2CppWrapperType>(value));
 }
-constexpr ::bs_hook::Il2CppWrapperType UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::__get_key() const {
+constexpr ::bs_hook::Il2CppWrapperType UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject>::__get_key() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1>())) {}
- void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::_ctor()  {
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject>::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject>>())};
+return o;
+}
+ void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1::_LoadAssetWithChain_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op)  {
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject>::_LoadAssetWithChain_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject>>::get(),
                             "<LoadAssetWithChain>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(const_cast<void*>(instance), ___internal_method, op);
 }
-//  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::*)()>(&UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1._LoadAssetsWithChain_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>> (UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::_LoadAssetsWithChain_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1>::get(),
-                            "<LoadAssetsWithChain>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::__set___4__this(UnityEngine::AddressableAssets::AddressablesImpl value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__set___4__this(UnityEngine::AddressableAssets::AddressablesImpl value)  {
 ::cordl_internals::setInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::AddressableAssets::AddressablesImpl>(value));
 }
-constexpr UnityEngine::AddressableAssets::AddressablesImpl UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::__get___4__this() const {
+constexpr UnityEngine::AddressableAssets::AddressablesImpl UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::__set_keys(System::Collections::IEnumerable value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__set_keys(System::Collections::IEnumerable value)  {
 ::cordl_internals::setInstanceField<System::Collections::IEnumerable, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Collections::IEnumerable>(value));
 }
-constexpr System::Collections::IEnumerable UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::__get_keys() const {
+constexpr System::Collections::IEnumerable UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_keys() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerable, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::__set_callback(System::Action_1<TObject> value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__set_callback(System::Action_1<TObject> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<TObject>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<TObject>>(value));
 }
-constexpr System::Action_1<TObject> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::__get_callback() const {
+constexpr System::Action_1<TObject> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_callback() const {
 return ::cordl_internals::getInstanceField<System::Action_1<TObject>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::__set_mode(UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__set_mode(UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode value)  {
 ::cordl_internals::setInstanceField<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode>(value));
 }
-constexpr UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::__get_mode() const {
+constexpr UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_mode() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addressables__MergeMode, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::__set_releaseDependenciesOnFailure(bool value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__set_releaseDependenciesOnFailure(bool value)  {
 ::cordl_internals::setInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
 }
-constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::__get_releaseDependenciesOnFailure() const {
+constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::__get_releaseDependenciesOnFailure() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1>())) {}
- void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::_ctor()  {
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>>())};
+return o;
+}
+ void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1::_LoadAssetsWithChain_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op)  {
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>::_LoadAssetsWithChain_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject>>::get(),
                             "<LoadAssetsWithChain>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>>, false>(const_cast<void*>(instance), ___internal_method, op);
 }
-//  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::*)()>(&UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1._LoadAssetsWithChain_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>> (UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::_LoadAssetsWithChain_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1>::get(),
-                            "<LoadAssetsWithChain>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::__set___4__this(UnityEngine::AddressableAssets::AddressablesImpl value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__set___4__this(UnityEngine::AddressableAssets::AddressablesImpl value)  {
 ::cordl_internals::setInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::AddressableAssets::AddressablesImpl>(value));
 }
-constexpr UnityEngine::AddressableAssets::AddressablesImpl UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::__get___4__this() const {
+constexpr UnityEngine::AddressableAssets::AddressablesImpl UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::__set_key(::bs_hook::Il2CppWrapperType value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__set_key(::bs_hook::Il2CppWrapperType value)  {
 ::cordl_internals::setInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::bs_hook::Il2CppWrapperType>(value));
 }
-constexpr ::bs_hook::Il2CppWrapperType UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::__get_key() const {
+constexpr ::bs_hook::Il2CppWrapperType UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get_key() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::__set_callback(System::Action_1<TObject> value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__set_callback(System::Action_1<TObject> value)  {
 ::cordl_internals::setInstanceField<System::Action_1<TObject>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<TObject>>(value));
 }
-constexpr System::Action_1<TObject> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::__get_callback() const {
+constexpr System::Action_1<TObject> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get_callback() const {
 return ::cordl_internals::getInstanceField<System::Action_1<TObject>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::__set_releaseDependenciesOnFailure(bool value)  {
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__set_releaseDependenciesOnFailure(bool value)  {
 ::cordl_internals::setInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
 }
-constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::__get_releaseDependenciesOnFailure() const {
+constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::__get_releaseDependenciesOnFailure() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1>())) {}
- void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::_ctor()  {
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>>())};
+return o;
+}
+ void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1::_LoadAssetsWithChain_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op2)  {
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>::_LoadAssetsWithChain_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op2)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject>>::get(),
                             "<LoadAssetsWithChain>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>>, false>(const_cast<void*>(instance), ___internal_method, op2);
-}
-//  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::*)()>(&UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1._AutoReleaseHandleOnCompletion_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>)>(&UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::_AutoReleaseHandleOnCompletion_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1>::get(),
-                            "<AutoReleaseHandleOnCompletion>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::__set_unloadSceneOpExcludeReleaseCallback(bool value)  {
-::cordl_internals::setInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
-}
-constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::__get_unloadSceneOpExcludeReleaseCallback() const {
-return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::__set___4__this(UnityEngine::AddressableAssets::AddressablesImpl value)  {
-::cordl_internals::setInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::AddressableAssets::AddressablesImpl>(value));
-}
-constexpr UnityEngine::AddressableAssets::AddressablesImpl UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::__get___4__this() const {
-return ::cordl_internals::getInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1>())) {}
- void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1::_AutoReleaseHandleOnCompletion_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> op)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1>::get(),
-                            "<AutoReleaseHandleOnCompletion>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, op);
 }
 //  Writing Method size for method: UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>._ctor
 template<>
@@ -5677,8 +5568,10 @@ constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__A
 constexpr UnityEngine::AddressableAssets::AddressablesImpl UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1>())) {}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>())};
+return o;
+}
  void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>::get(),
@@ -5694,6 +5587,40 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             "<AutoReleaseHandleOnCompletion>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, op);
+}
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject>::__set_unloadSceneOpExcludeReleaseCallback(bool value)  {
+::cordl_internals::setInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
+}
+constexpr bool UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject>::__get_unloadSceneOpExcludeReleaseCallback() const {
+return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject>::__set___4__this(UnityEngine::AddressableAssets::AddressablesImpl value)  {
+::cordl_internals::setInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::AddressableAssets::AddressablesImpl>(value));
+}
+constexpr UnityEngine::AddressableAssets::AddressablesImpl UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject>::__get___4__this() const {
+return ::cordl_internals::getInstanceField<UnityEngine::AddressableAssets::AddressablesImpl, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+ UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject> UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject>::New_ctor()  {
+UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject>>())};
+return o;
+}
+ void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ void UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject>::_AutoReleaseHandleOnCompletion_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> op)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject>>::get(),
+                            "<AutoReleaseHandleOnCompletion>b__0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, op);
 }

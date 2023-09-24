@@ -1,15 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
 #include "HMUI/zzzz__NavigationController_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseInputModule_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
 #include "HMUI/zzzz__ScreenSystem_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseInputModule_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0._ctor
 template<>
 
@@ -79,8 +78,10 @@ constexpr void HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0::__set___4__th
 constexpr HMUI::FlowCoordinator HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<HMUI::FlowCoordinator, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0::HMUI__FlowCoordinator____c__DisplayClass37_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__FlowCoordinator____c__DisplayClass37_0>())) {}
+ HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0 HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0::New_ctor()  {
+HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0>())};
+return o;
+}
  void HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__FlowCoordinator____c__DisplayClass37_0>::get(),
@@ -172,8 +173,10 @@ constexpr void HMUI::HMUI__FlowCoordinator____c__DisplayClass38_0::__set_flowCoo
 constexpr HMUI::FlowCoordinator HMUI::HMUI__FlowCoordinator____c__DisplayClass38_0::__get_flowCoordinator() const {
 return ::cordl_internals::getInstanceField<HMUI::FlowCoordinator, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__FlowCoordinator____c__DisplayClass38_0::HMUI__FlowCoordinator____c__DisplayClass38_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__FlowCoordinator____c__DisplayClass38_0>())) {}
+ HMUI::HMUI__FlowCoordinator____c__DisplayClass38_0 HMUI::HMUI__FlowCoordinator____c__DisplayClass38_0::New_ctor()  {
+HMUI::HMUI__FlowCoordinator____c__DisplayClass38_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__FlowCoordinator____c__DisplayClass38_0>())};
+return o;
+}
  void HMUI::HMUI__FlowCoordinator____c__DisplayClass38_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__FlowCoordinator____c__DisplayClass38_0>::get(),
@@ -250,8 +253,10 @@ constexpr void HMUI::HMUI__FlowCoordinator____c__DisplayClass39_0::__set_flowCoo
 constexpr HMUI::FlowCoordinator HMUI::HMUI__FlowCoordinator____c__DisplayClass39_0::__get_flowCoordinatorToReplace() const {
 return ::cordl_internals::getInstanceField<HMUI::FlowCoordinator, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__FlowCoordinator____c__DisplayClass39_0::HMUI__FlowCoordinator____c__DisplayClass39_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__FlowCoordinator____c__DisplayClass39_0>())) {}
+ HMUI::HMUI__FlowCoordinator____c__DisplayClass39_0 HMUI::HMUI__FlowCoordinator____c__DisplayClass39_0::New_ctor()  {
+HMUI::HMUI__FlowCoordinator____c__DisplayClass39_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__FlowCoordinator____c__DisplayClass39_0>())};
+return o;
+}
  void HMUI::HMUI__FlowCoordinator____c__DisplayClass39_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__FlowCoordinator____c__DisplayClass39_0>::get(),
@@ -328,8 +333,10 @@ constexpr void HMUI::HMUI__FlowCoordinator____c__DisplayClass40_0::__set_topView
 constexpr HMUI::ViewController HMUI::HMUI__FlowCoordinator____c__DisplayClass40_0::__get_topViewController() const {
 return ::cordl_internals::getInstanceField<HMUI::ViewController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__FlowCoordinator____c__DisplayClass40_0::HMUI__FlowCoordinator____c__DisplayClass40_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__FlowCoordinator____c__DisplayClass40_0>())) {}
+ HMUI::HMUI__FlowCoordinator____c__DisplayClass40_0 HMUI::HMUI__FlowCoordinator____c__DisplayClass40_0::New_ctor()  {
+HMUI::HMUI__FlowCoordinator____c__DisplayClass40_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__FlowCoordinator____c__DisplayClass40_0>())};
+return o;
+}
  void HMUI::HMUI__FlowCoordinator____c__DisplayClass40_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__FlowCoordinator____c__DisplayClass40_0>::get(),
@@ -406,8 +413,10 @@ constexpr void HMUI::HMUI__FlowCoordinator____c__DisplayClass41_0::__set_newTopV
 constexpr HMUI::ViewController HMUI::HMUI__FlowCoordinator____c__DisplayClass41_0::__get_newTopViewController() const {
 return ::cordl_internals::getInstanceField<HMUI::ViewController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__FlowCoordinator____c__DisplayClass41_0::HMUI__FlowCoordinator____c__DisplayClass41_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__FlowCoordinator____c__DisplayClass41_0>())) {}
+ HMUI::HMUI__FlowCoordinator____c__DisplayClass41_0 HMUI::HMUI__FlowCoordinator____c__DisplayClass41_0::New_ctor()  {
+HMUI::HMUI__FlowCoordinator____c__DisplayClass41_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__FlowCoordinator____c__DisplayClass41_0>())};
+return o;
+}
  void HMUI::HMUI__FlowCoordinator____c__DisplayClass41_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__FlowCoordinator____c__DisplayClass41_0>::get(),
@@ -484,8 +493,10 @@ constexpr void HMUI::HMUI__FlowCoordinator____c__DisplayClass43_0::__set_origina
 constexpr HMUI::ViewController HMUI::HMUI__FlowCoordinator____c__DisplayClass43_0::__get_originalTopViewController() const {
 return ::cordl_internals::getInstanceField<HMUI::ViewController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__FlowCoordinator____c__DisplayClass43_0::HMUI__FlowCoordinator____c__DisplayClass43_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__FlowCoordinator____c__DisplayClass43_0>())) {}
+ HMUI::HMUI__FlowCoordinator____c__DisplayClass43_0 HMUI::HMUI__FlowCoordinator____c__DisplayClass43_0::New_ctor()  {
+HMUI::HMUI__FlowCoordinator____c__DisplayClass43_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__FlowCoordinator____c__DisplayClass43_0>())};
+return o;
+}
  void HMUI::HMUI__FlowCoordinator____c__DisplayClass43_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__FlowCoordinator____c__DisplayClass43_0>::get(),
@@ -562,8 +573,10 @@ constexpr void HMUI::HMUI__FlowCoordinator____c__DisplayClass44_0::__set_viewCon
 constexpr HMUI::ViewController HMUI::HMUI__FlowCoordinator____c__DisplayClass44_0::__get_viewController() const {
 return ::cordl_internals::getInstanceField<HMUI::ViewController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__FlowCoordinator____c__DisplayClass44_0::HMUI__FlowCoordinator____c__DisplayClass44_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__FlowCoordinator____c__DisplayClass44_0>())) {}
+ HMUI::HMUI__FlowCoordinator____c__DisplayClass44_0 HMUI::HMUI__FlowCoordinator____c__DisplayClass44_0::New_ctor()  {
+HMUI::HMUI__FlowCoordinator____c__DisplayClass44_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__FlowCoordinator____c__DisplayClass44_0>())};
+return o;
+}
  void HMUI::HMUI__FlowCoordinator____c__DisplayClass44_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__FlowCoordinator____c__DisplayClass44_0>::get(),
@@ -640,8 +653,10 @@ constexpr void HMUI::HMUI__FlowCoordinator____c__DisplayClass47_0::__set_navigat
 constexpr HMUI::NavigationController HMUI::HMUI__FlowCoordinator____c__DisplayClass47_0::__get_navigationController() const {
 return ::cordl_internals::getInstanceField<HMUI::NavigationController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__FlowCoordinator____c__DisplayClass47_0::HMUI__FlowCoordinator____c__DisplayClass47_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__FlowCoordinator____c__DisplayClass47_0>())) {}
+ HMUI::HMUI__FlowCoordinator____c__DisplayClass47_0 HMUI::HMUI__FlowCoordinator____c__DisplayClass47_0::New_ctor()  {
+HMUI::HMUI__FlowCoordinator____c__DisplayClass47_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__FlowCoordinator____c__DisplayClass47_0>())};
+return o;
+}
  void HMUI::HMUI__FlowCoordinator____c__DisplayClass47_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__FlowCoordinator____c__DisplayClass47_0>::get(),
@@ -718,8 +733,10 @@ constexpr void HMUI::HMUI__FlowCoordinator____c__DisplayClass48_0::__set_navigat
 constexpr HMUI::NavigationController HMUI::HMUI__FlowCoordinator____c__DisplayClass48_0::__get_navigationController() const {
 return ::cordl_internals::getInstanceField<HMUI::NavigationController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__FlowCoordinator____c__DisplayClass48_0::HMUI__FlowCoordinator____c__DisplayClass48_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__FlowCoordinator____c__DisplayClass48_0>())) {}
+ HMUI::HMUI__FlowCoordinator____c__DisplayClass48_0 HMUI::HMUI__FlowCoordinator____c__DisplayClass48_0::New_ctor()  {
+HMUI::HMUI__FlowCoordinator____c__DisplayClass48_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__FlowCoordinator____c__DisplayClass48_0>())};
+return o;
+}
  void HMUI::HMUI__FlowCoordinator____c__DisplayClass48_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__FlowCoordinator____c__DisplayClass48_0>::get(),
@@ -2038,8 +2055,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
 }
-// Ctor Parameters []
- HMUI::FlowCoordinator::FlowCoordinator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FlowCoordinator>())) {}
+ HMUI::FlowCoordinator HMUI::FlowCoordinator::New_ctor()  {
+HMUI::FlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<HMUI::FlowCoordinator>())};
+return o;
+}
  void HMUI::FlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::FlowCoordinator>::get(),

@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::EC::ECPoint, false>(const_cast<void*>(instance), ___internal_method, p, k);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier::NafL2RMultiplier()  : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(THROW_UNLESS(::il2cpp_utils::New<NafL2RMultiplier>())) {}
+ Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier::New_ctor()  {
+Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier>::get(),

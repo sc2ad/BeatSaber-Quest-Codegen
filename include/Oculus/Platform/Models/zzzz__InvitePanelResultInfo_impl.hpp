@@ -23,8 +23,10 @@ constexpr void Oculus::Platform::Models::InvitePanelResultInfo::__set_InvitesSen
 constexpr bool Oculus::Platform::Models::InvitePanelResultInfo::__get_InvitesSent() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::InvitePanelResultInfo::InvitePanelResultInfo(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InvitePanelResultInfo>(o))) {}
+ Oculus::Platform::Models::InvitePanelResultInfo Oculus::Platform::Models::InvitePanelResultInfo::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::InvitePanelResultInfo o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::InvitePanelResultInfo>(o))};
+return o;
+}
  void Oculus::Platform::Models::InvitePanelResultInfo::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::InvitePanelResultInfo>::get(),

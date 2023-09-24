@@ -5,11 +5,26 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class IComparable;
-}
-namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace System::Runtime::CompilerServices {
+class ITuple;
+}
+namespace System::Collections {
+class IStructuralEquatable;
+}
+namespace System::Collections {
+class IStructuralComparable;
+}
+namespace System::Collections {
+class IComparer;
+}
+namespace System {
+class IComparable;
+}
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace System {
 template<typename T>
@@ -18,52 +33,37 @@ class IComparable_1;
 namespace System {
 class IValueTupleInternal;
 }
-namespace System::Runtime::CompilerServices {
-class ITuple;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System::Collections {
-class IEqualityComparer;
-}
-namespace System::Collections {
-class IStructuralEquatable;
-}
-namespace System::Collections {
-class IStructuralComparable;
-}
 // Forward declare root types
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4,typename T5>
 struct ValueTuple_5;
 }
 namespace System {
-template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type T5>
-struct ValueTuple_5<T1,bool,bool,T4,T5>;
+template<::cordl_internals::is_or_is_backed_by<int32_t> T2,::cordl_internals::is_or_is_backed_by<int32_t> T4>
+struct ValueTuple_5<::cordl_internals::intptr_t,T2,::cordl_internals::intptr_t,T4,bool>;
 }
 namespace System {
 template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type T5>
 struct ValueTuple_5<T1,T2,T3,T4,T5>;
 }
 namespace System {
-template<>
-struct ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>;
+template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type T5>
+struct ValueTuple_5<T1,bool,bool,T4,T5>;
 }
 // Type: System::ValueTuple`5
 // Type: System::ValueTuple`5
 namespace System {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type T5>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2509)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2509), inst: 5162 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2509))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2509), inst: 5938 })
 // CS Name: System.ValueTuple`5
-struct CORDL_TYPE ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE ValueTuple_5<T1,T2,T3,T4,T5> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to System::IEquatable_1<System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>>
-constexpr operator  System::IEquatable_1<System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::ValueTuple_5<T1,T2,T3,T4,T5>>
+constexpr operator  System::IEquatable_1<System::ValueTuple_5<T1,T2,T3,T4,T5>>() const;
 
 /// @brief Convert operator to System::Collections::IStructuralEquatable
 constexpr operator  System::Collections::IStructuralEquatable() const;
@@ -74,8 +74,8 @@ constexpr operator  System::Collections::IStructuralComparable() const;
 /// @brief Convert operator to System::IComparable
 constexpr operator  System::IComparable() const;
 
-/// @brief Convert operator to System::IComparable_1<System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>>
-constexpr operator  System::IComparable_1<System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>>() const;
+/// @brief Convert operator to System::IComparable_1<System::ValueTuple_5<T1,T2,T3,T4,T5>>
+constexpr operator  System::IComparable_1<System::ValueTuple_5<T1,T2,T3,T4,T5>>() const;
 
 /// @brief Convert operator to System::IValueTupleInternal
 constexpr operator  System::IValueTupleInternal() const;
@@ -83,8 +83,8 @@ constexpr operator  System::IValueTupleInternal() const;
 /// @brief Convert operator to System::Runtime::CompilerServices::ITuple
 constexpr operator  System::Runtime::CompilerServices::ITuple() const;
 
-// Ctor Parameters [CppParam { name: "Item1", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "Item2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Item3", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "Item4", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Item5", ty: "bool", modifiers: "", def_value: None }]
-constexpr ValueTuple_5(::cordl_internals::intptr_t Item1, int32_t Item2, ::cordl_internals::intptr_t Item3, int32_t Item4, bool Item5) noexcept;
+// Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "Item3", ty: "T3", modifiers: "", def_value: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None }, CppParam { name: "Item5", ty: "T5", modifiers: "", def_value: None }]
+constexpr ValueTuple_5(T1 Item1, T2 Item2, T3 Item3, T4 Item4, T5 Item5) noexcept;
 
 
                     constexpr ValueTuple_5(ValueTuple_5 const&) = default;
@@ -117,35 +117,35 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::cordl_internals::intptr_t __declspec(property(get=__get_Item1, put=__set_Item1))  Item1;
+ T1 __declspec(property(get=__get_Item1, put=__set_Item1))  Item1;
 
-constexpr void __set_Item1(::cordl_internals::intptr_t value) ;
+constexpr void __set_Item1(T1 value) ;
 
-constexpr ::cordl_internals::intptr_t __get_Item1() const;
+constexpr T1 __get_Item1() const;
 
- int32_t __declspec(property(get=__get_Item2, put=__set_Item2))  Item2;
+ T2 __declspec(property(get=__get_Item2, put=__set_Item2))  Item2;
 
-constexpr void __set_Item2(int32_t value) ;
+constexpr void __set_Item2(T2 value) ;
 
-constexpr int32_t __get_Item2() const;
+constexpr T2 __get_Item2() const;
 
- ::cordl_internals::intptr_t __declspec(property(get=__get_Item3, put=__set_Item3))  Item3;
+ T3 __declspec(property(get=__get_Item3, put=__set_Item3))  Item3;
 
-constexpr void __set_Item3(::cordl_internals::intptr_t value) ;
+constexpr void __set_Item3(T3 value) ;
 
-constexpr ::cordl_internals::intptr_t __get_Item3() const;
+constexpr T3 __get_Item3() const;
 
- int32_t __declspec(property(get=__get_Item4, put=__set_Item4))  Item4;
+ T4 __declspec(property(get=__get_Item4, put=__set_Item4))  Item4;
 
-constexpr void __set_Item4(int32_t value) ;
+constexpr void __set_Item4(T4 value) ;
 
-constexpr int32_t __get_Item4() const;
+constexpr T4 __get_Item4() const;
 
- bool __declspec(property(get=__get_Item5, put=__set_Item5))  Item5;
+ T5 __declspec(property(get=__get_Item5, put=__set_Item5))  Item5;
 
-constexpr void __set_Item5(bool value) ;
+constexpr void __set_Item5(T5 value) ;
 
-constexpr bool __get_Item5() const;
+constexpr T5 __get_Item5() const;
 
 
 // Properties
@@ -156,13 +156,13 @@ constexpr bool __get_Item5() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::cordl_internals::intptr_t item1, int32_t item2, ::cordl_internals::intptr_t item3, int32_t item4, bool item5) ;
+ void _ctor(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool> other) ;
+ bool Equals(System::ValueTuple_5<T1,T2,T3,T4,T5> other) ;
 
 /// @brief Method System.Collections.IStructuralEquatable.Equals addr 0x0 size 0xffffffffffffffff virtual true final true
  bool System_Collections_IStructuralEquatable_Equals(::bs_hook::Il2CppWrapperType other, System::Collections::IEqualityComparer comparer) ;
@@ -171,7 +171,7 @@ constexpr bool __get_Item5() const;
  int32_t System_IComparable_CompareTo(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t CompareTo(System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool> other) ;
+ int32_t CompareTo(System::ValueTuple_5<T1,T2,T3,T4,T5> other) ;
 
 /// @brief Method System.Collections.IStructuralComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t System_Collections_IStructuralComparable_CompareTo(::bs_hook::Il2CppWrapperType other, System::Collections::IComparer comparer) ;
@@ -354,16 +354,16 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: System::ValueTuple`5
 namespace System {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type T5>
+template<::cordl_internals::is_or_is_backed_by<int32_t> T2,::cordl_internals::is_or_is_backed_by<int32_t> T4>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2509)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2509), inst: 5938 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2509))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2509), inst: 5162 })
 // CS Name: System.ValueTuple`5
-struct CORDL_TYPE ValueTuple_5<T1,T2,T3,T4,T5> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE ValueTuple_5<::cordl_internals::intptr_t,T2,::cordl_internals::intptr_t,T4,bool> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to System::IEquatable_1<System::ValueTuple_5<T1,T2,T3,T4,T5>>
-constexpr operator  System::IEquatable_1<System::ValueTuple_5<T1,T2,T3,T4,T5>>() const;
+/// @brief Convert operator to System::IEquatable_1<System::ValueTuple_5<::cordl_internals::intptr_t,T2,::cordl_internals::intptr_t,T4,bool>>
+constexpr operator  System::IEquatable_1<System::ValueTuple_5<::cordl_internals::intptr_t,T2,::cordl_internals::intptr_t,T4,bool>>() const;
 
 /// @brief Convert operator to System::Collections::IStructuralEquatable
 constexpr operator  System::Collections::IStructuralEquatable() const;
@@ -374,8 +374,8 @@ constexpr operator  System::Collections::IStructuralComparable() const;
 /// @brief Convert operator to System::IComparable
 constexpr operator  System::IComparable() const;
 
-/// @brief Convert operator to System::IComparable_1<System::ValueTuple_5<T1,T2,T3,T4,T5>>
-constexpr operator  System::IComparable_1<System::ValueTuple_5<T1,T2,T3,T4,T5>>() const;
+/// @brief Convert operator to System::IComparable_1<System::ValueTuple_5<::cordl_internals::intptr_t,T2,::cordl_internals::intptr_t,T4,bool>>
+constexpr operator  System::IComparable_1<System::ValueTuple_5<::cordl_internals::intptr_t,T2,::cordl_internals::intptr_t,T4,bool>>() const;
 
 /// @brief Convert operator to System::IValueTupleInternal
 constexpr operator  System::IValueTupleInternal() const;
@@ -383,8 +383,8 @@ constexpr operator  System::IValueTupleInternal() const;
 /// @brief Convert operator to System::Runtime::CompilerServices::ITuple
 constexpr operator  System::Runtime::CompilerServices::ITuple() const;
 
-// Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "Item3", ty: "T3", modifiers: "", def_value: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None }, CppParam { name: "Item5", ty: "T5", modifiers: "", def_value: None }]
-constexpr ValueTuple_5(T1 Item1, T2 Item2, T3 Item3, T4 Item4, T5 Item5) noexcept;
+// Ctor Parameters [CppParam { name: "Item1", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "Item3", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None }, CppParam { name: "Item5", ty: "bool", modifiers: "", def_value: None }]
+constexpr ValueTuple_5(::cordl_internals::intptr_t Item1, T2 Item2, ::cordl_internals::intptr_t Item3, T4 Item4, bool Item5) noexcept;
 
 
                     constexpr ValueTuple_5(ValueTuple_5 const&) = default;
@@ -417,11 +417,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- T1 __declspec(property(get=__get_Item1, put=__set_Item1))  Item1;
+ ::cordl_internals::intptr_t __declspec(property(get=__get_Item1, put=__set_Item1))  Item1;
 
-constexpr void __set_Item1(T1 value) ;
+constexpr void __set_Item1(::cordl_internals::intptr_t value) ;
 
-constexpr T1 __get_Item1() const;
+constexpr ::cordl_internals::intptr_t __get_Item1() const;
 
  T2 __declspec(property(get=__get_Item2, put=__set_Item2))  Item2;
 
@@ -429,11 +429,11 @@ constexpr void __set_Item2(T2 value) ;
 
 constexpr T2 __get_Item2() const;
 
- T3 __declspec(property(get=__get_Item3, put=__set_Item3))  Item3;
+ ::cordl_internals::intptr_t __declspec(property(get=__get_Item3, put=__set_Item3))  Item3;
 
-constexpr void __set_Item3(T3 value) ;
+constexpr void __set_Item3(::cordl_internals::intptr_t value) ;
 
-constexpr T3 __get_Item3() const;
+constexpr ::cordl_internals::intptr_t __get_Item3() const;
 
  T4 __declspec(property(get=__get_Item4, put=__set_Item4))  Item4;
 
@@ -441,11 +441,11 @@ constexpr void __set_Item4(T4 value) ;
 
 constexpr T4 __get_Item4() const;
 
- T5 __declspec(property(get=__get_Item5, put=__set_Item5))  Item5;
+ bool __declspec(property(get=__get_Item5, put=__set_Item5))  Item5;
 
-constexpr void __set_Item5(T5 value) ;
+constexpr void __set_Item5(bool value) ;
 
-constexpr T5 __get_Item5() const;
+constexpr bool __get_Item5() const;
 
 
 // Properties
@@ -456,13 +456,13 @@ constexpr T5 __get_Item5() const;
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5) ;
+ void _ctor(::cordl_internals::intptr_t item1, T2 item2, ::cordl_internals::intptr_t item3, T4 item4, bool item5) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
- bool Equals(System::ValueTuple_5<T1,T2,T3,T4,T5> other) ;
+ bool Equals(System::ValueTuple_5<::cordl_internals::intptr_t,T2,::cordl_internals::intptr_t,T4,bool> other) ;
 
 /// @brief Method System.Collections.IStructuralEquatable.Equals addr 0x0 size 0xffffffffffffffff virtual true final true
  bool System_Collections_IStructuralEquatable_Equals(::bs_hook::Il2CppWrapperType other, System::Collections::IEqualityComparer comparer) ;
@@ -471,7 +471,7 @@ constexpr T5 __get_Item5() const;
  int32_t System_IComparable_CompareTo(::bs_hook::Il2CppWrapperType other) ;
 
 /// @brief Method CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
- int32_t CompareTo(System::ValueTuple_5<T1,T2,T3,T4,T5> other) ;
+ int32_t CompareTo(System::ValueTuple_5<::cordl_internals::intptr_t,T2,::cordl_internals::intptr_t,T4,bool> other) ;
 
 /// @brief Method System.Collections.IStructuralComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
  int32_t System_Collections_IStructuralComparable_CompareTo(::bs_hook::Il2CppWrapperType other, System::Collections::IComparer comparer) ;

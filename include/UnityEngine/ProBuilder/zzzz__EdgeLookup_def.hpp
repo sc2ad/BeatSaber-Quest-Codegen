@@ -11,13 +11,16 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 namespace System {
 template<typename T>
@@ -81,8 +84,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,int32_t> __get_look
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x29ab93c size 0x8 virtual false final false
  void _ctor() ;

@@ -1,17 +1,17 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
+namespace System::Collections {
+class ICollection;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPath;
+}
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
-}
-namespace System::Collections {
-class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -68,8 +68,7 @@ constexpr explicit PkixAttrCertChecker(void* ptr) noexcept : ::bs_hook::Il2CppWr
 /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual true final false
  Org::BouncyCastle::Pkix::PkixAttrCertChecker Clone() ;
 
-// Ctor Parameters []
-explicit PkixAttrCertChecker() ;
+static Org::BouncyCastle::Pkix::PkixAttrCertChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x105c5b8 size 0x8 virtual false final false
  void _ctor() ;

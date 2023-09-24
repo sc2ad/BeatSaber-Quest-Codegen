@@ -3,34 +3,34 @@
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class IndexFilter;
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
+}
+namespace GlobalNamespace {
+class LightRotationBaseData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapEventDataBox__DistributionParamType;
+}
+namespace GlobalNamespace {
+struct LightAxis;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
 }
 namespace GlobalNamespace {
 struct EaseType;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapEventDataBox__DistributionParamType;
-}
-namespace GlobalNamespace {
-class LightRotationBaseData;
-}
-namespace GlobalNamespace {
-struct LightAxis;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+class IndexFilter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -124,8 +124,7 @@ constexpr float_t __get__beatStep() const;
 /// @brief Method get_beatStep addr 0x21de66c size 0x8 virtual true final false
  float_t get_beatStep() ;
 
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "GlobalNamespace::IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "flipRotation", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rotationDistributionEaseType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "lightRotationBaseDataList", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightRotationBaseData>", modifiers: "", def_value: None }]
-explicit LightRotationBeatmapEventDataBox(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType rotationDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightRotationBaseData> lightRotationBaseDataList) ;
+static GlobalNamespace::LightRotationBeatmapEventDataBox New_ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType rotationDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightRotationBaseData> lightRotationBaseDataList) ;
 
 /// @brief Method .ctor addr 0x21d81c4 size 0x22c virtual false final false
  void _ctor(GlobalNamespace::IndexFilter indexFilter, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType rotationDistributionEaseType, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::LightRotationBaseData> lightRotationBaseDataList) ;

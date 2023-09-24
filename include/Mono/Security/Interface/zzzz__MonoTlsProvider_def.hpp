@@ -71,8 +71,7 @@ constexpr explicit MonoTlsProvider(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoTlsProvider() ;
+static Mono::Security::Interface::MonoTlsProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x229575c size 0x8 virtual false final false
  void _ctor() ;

@@ -3,14 +3,14 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 #include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
 #include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_def.hpp"
+#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerConnectedPlayerGameNoteController.add_cubeNoteControllerDidInitEvent
 template<>
 
@@ -214,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteData, worldRotation, moveStartPos, moveEndPos, jumpEndPos, moveDuration, jumpDuration, jumpGravity, noteVisualModifierType, uniformScale);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::MultiplayerConnectedPlayerGameNoteController()  : GlobalNamespace::MultiplayerConnectedPlayerNoteController(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConnectedPlayerGameNoteController>())) {}
+ GlobalNamespace::MultiplayerConnectedPlayerGameNoteController GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::New_ctor()  {
+GlobalNamespace::MultiplayerConnectedPlayerGameNoteController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>::get(),
@@ -242,8 +244,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__Pool>::get(),

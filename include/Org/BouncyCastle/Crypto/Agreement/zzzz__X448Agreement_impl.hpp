@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__X448Agreement_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IRawAgreement_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__X448PrivateKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IRawAgreement_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Agreement::X448Agreement.Init
 template<>
 
@@ -108,8 +108,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, publicKey, buf, off);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Agreement::X448Agreement::X448Agreement()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X448Agreement>())) {}
+ Org::BouncyCastle::Crypto::Agreement::X448Agreement Org::BouncyCastle::Crypto::Agreement::X448Agreement::New_ctor()  {
+Org::BouncyCastle::Crypto::Agreement::X448Agreement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::X448Agreement>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::X448Agreement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::X448Agreement>::get(),

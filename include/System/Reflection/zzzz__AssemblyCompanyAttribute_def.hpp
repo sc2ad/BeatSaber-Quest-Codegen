@@ -57,8 +57,7 @@ constexpr ::StringW __get__Company_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "company", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyCompanyAttribute(::StringW company) ;
+static System::Reflection::AssemblyCompanyAttribute New_ctor(::StringW company) ;
 
 /// @brief Method .ctor addr 0x2378c80 size 0x28 virtual false final false
  void _ctor(::StringW company) ;

@@ -91,8 +91,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::IesParameters::__set_macKe
 constexpr int32_t Org::BouncyCastle::Crypto::Parameters::IesParameters::__get_macKeySize() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "derivation", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "macKeySize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::IesParameters::IesParameters(::ArrayW<uint8_t> derivation, ::ArrayW<uint8_t> encoding, int32_t macKeySize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IesParameters>(derivation, encoding, macKeySize))) {}
+ Org::BouncyCastle::Crypto::Parameters::IesParameters Org::BouncyCastle::Crypto::Parameters::IesParameters::New_ctor(::ArrayW<uint8_t> derivation, ::ArrayW<uint8_t> encoding, int32_t macKeySize)  {
+Org::BouncyCastle::Crypto::Parameters::IesParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::IesParameters>(derivation, encoding, macKeySize))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::IesParameters::_ctor(::ArrayW<uint8_t> derivation, ::ArrayW<uint8_t> encoding, int32_t macKeySize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::IesParameters>::get(),

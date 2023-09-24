@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security::Util {
-class TokenizerShortBlock;
+class TokenizerStringBlock;
 }
 namespace System::Security::Util {
-class TokenizerStringBlock;
+class TokenizerShortBlock;
 }
 // Forward declare root types
 namespace System::Security::Util {
@@ -106,8 +106,7 @@ constexpr int32_t __get_m_indexStrings() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TokenizerStream() ;
+static System::Security::Util::TokenizerStream New_ctor() ;
 
 /// @brief Method .ctor addr 0x22e9b0c size 0xa8 virtual false final false
  void _ctor() ;

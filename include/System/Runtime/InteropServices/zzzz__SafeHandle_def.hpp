@@ -95,8 +95,7 @@ static constexpr int32_t  RefCount_One{4};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "invalidHandleValue", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
-explicit SafeHandle(::cordl_internals::intptr_t invalidHandleValue, bool ownsHandle) ;
+static System::Runtime::InteropServices::SafeHandle New_ctor(::cordl_internals::intptr_t invalidHandleValue, bool ownsHandle) ;
 
 /// @brief Method .ctor addr 0x236afe4 size 0x98 virtual false final false
  void _ctor(::cordl_internals::intptr_t invalidHandleValue, bool ownsHandle) ;

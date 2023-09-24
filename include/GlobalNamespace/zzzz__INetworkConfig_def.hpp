@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-struct ServiceEnvironment;
+class DnsEndPoint;
 }
 namespace GlobalNamespace {
-class DnsEndPoint;
+struct ServiceEnvironment;
 }
 // Forward declare root types
 namespace GlobalNamespace {

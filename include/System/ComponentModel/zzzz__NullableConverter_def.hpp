@@ -4,28 +4,28 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace System::ComponentModel {
-class PropertyDescriptorCollection;
+class TypeConverter;
+}
+namespace System {
+class Attribute;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class Type;
 }
 namespace System::ComponentModel {
-class System__ComponentModel__TypeConverter__StandardValuesCollection;
+class ITypeDescriptorContext;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Attribute;
-}
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
-}
-namespace System::Globalization {
-class CultureInfo;
+class System__ComponentModel__TypeConverter__StandardValuesCollection;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -103,8 +103,7 @@ constexpr System::ComponentModel::TypeConverter __get__UnderlyingTypeConverter_k
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit NullableConverter(System::Type type) ;
+static System::ComponentModel::NullableConverter New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x277ed28 size 0x12c virtual false final false
  void _ctor(System::Type type) ;

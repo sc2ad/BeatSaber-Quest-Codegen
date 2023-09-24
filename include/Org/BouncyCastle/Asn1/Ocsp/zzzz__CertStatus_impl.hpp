@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__CertStatus_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__RevokedInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__RevokedInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Ocsp::CertStatus._ctor
 template<>
 
@@ -158,8 +158,10 @@ constexpr void Org::BouncyCastle::Asn1::Ocsp::CertStatus::__set_value(Org::Bounc
 constexpr Org::BouncyCastle::Asn1::Asn1Encodable Org::BouncyCastle::Asn1::Ocsp::CertStatus::__get_value() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Encodable, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Ocsp::CertStatus::CertStatus()  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertStatus>())) {}
+ Org::BouncyCastle::Asn1::Ocsp::CertStatus Org::BouncyCastle::Asn1::Ocsp::CertStatus::New_ctor()  {
+Org::BouncyCastle::Asn1::Ocsp::CertStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::CertStatus>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::CertStatus::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::CertStatus>::get(),
@@ -169,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Ocsp::RevokedInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::CertStatus::CertStatus(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertStatus>(info))) {}
+ Org::BouncyCastle::Asn1::Ocsp::CertStatus Org::BouncyCastle::Asn1::Ocsp::CertStatus::New_ctor(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info)  {
+Org::BouncyCastle::Asn1::Ocsp::CertStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::CertStatus>(info))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::CertStatus::_ctor(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::CertStatus>::get(),
@@ -180,8 +184,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info);
 }
-// Ctor Parameters [CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::CertStatus::CertStatus(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable value)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertStatus>(tagNo, value))) {}
+ Org::BouncyCastle::Asn1::Ocsp::CertStatus Org::BouncyCastle::Asn1::Ocsp::CertStatus::New_ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable value)  {
+Org::BouncyCastle::Asn1::Ocsp::CertStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::CertStatus>(tagNo, value))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::CertStatus::_ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::CertStatus>::get(),
@@ -191,8 +197,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tagNo, value);
 }
-// Ctor Parameters [CppParam { name: "choice", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::CertStatus::CertStatus(Org::BouncyCastle::Asn1::Asn1TaggedObject choice)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CertStatus>(choice))) {}
+ Org::BouncyCastle::Asn1::Ocsp::CertStatus Org::BouncyCastle::Asn1::Ocsp::CertStatus::New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject choice)  {
+Org::BouncyCastle::Asn1::Ocsp::CertStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::CertStatus>(choice))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::CertStatus::_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject choice)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::CertStatus>::get(),

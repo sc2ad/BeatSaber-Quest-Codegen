@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::LeaderboardList::LeaderboardList(::cordl_internals::intptr_t a)  : Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Leaderboard>(THROW_UNLESS(::il2cpp_utils::New<LeaderboardList>(a))) {}
+ Oculus::Platform::Models::LeaderboardList Oculus::Platform::Models::LeaderboardList::New_ctor(::cordl_internals::intptr_t a)  {
+Oculus::Platform::Models::LeaderboardList o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::LeaderboardList>(a))};
+return o;
+}
  void Oculus::Platform::Models::LeaderboardList::_ctor(::cordl_internals::intptr_t a)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::LeaderboardList>::get(),

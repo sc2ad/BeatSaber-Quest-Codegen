@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Mono::Math::Prime {
-struct ConfidenceFactor;
-}
 namespace Mono::Math {
 class BigInteger;
+}
+namespace Mono::Math::Prime {
+struct ConfidenceFactor;
 }
 // Forward declare root types
 namespace Mono::Math::Prime {
@@ -16,7 +16,7 @@ class PrimalityTests;
 namespace Mono::Math::Prime {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14021))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2293))
 // CS Name: Mono.Math.Prime.PrimalityTests
 class CORDL_TYPE PrimalityTests : public ::bs_hook::Il2CppWrapperType {
 public:
@@ -54,11 +54,17 @@ constexpr explicit PrimalityTests(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Methods
 
-/// @brief Method GetSPPRounds addr 0x22a2940 size 0x194 virtual false final false
+/// @brief Method GetSPPRounds addr 0x22bde04 size 0x194 virtual false final false
 static int32_t GetSPPRounds(Mono::Math::BigInteger bi, Mono::Math::Prime::ConfidenceFactor confidence) ;
 
-/// @brief Method RabinMillerTest addr 0x22a2ad4 size 0x290 virtual false final false
+/// @brief Method Test addr 0x22bcf50 size 0x4c virtual false final false
+static bool Test(Mono::Math::BigInteger n, Mono::Math::Prime::ConfidenceFactor confidence) ;
+
+/// @brief Method RabinMillerTest addr 0x22be164 size 0x290 virtual false final false
 static bool RabinMillerTest(Mono::Math::BigInteger n, Mono::Math::Prime::ConfidenceFactor confidence) ;
+
+/// @brief Method SmallPrimeSppTest addr 0x22bdf98 size 0x1cc virtual false final false
+static bool SmallPrimeSppTest(Mono::Math::BigInteger bi, Mono::Math::Prime::ConfidenceFactor confidence) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

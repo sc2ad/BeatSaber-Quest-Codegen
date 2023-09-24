@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackBindingTypeAttribute_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackBindingFlags_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::TrackBindingTypeAttribute._ctor
 template<>
 
@@ -49,8 +49,10 @@ constexpr void UnityEngine::Timeline::TrackBindingTypeAttribute::__set_flags(Uni
 constexpr UnityEngine::Timeline::TrackBindingFlags UnityEngine::Timeline::TrackBindingTypeAttribute::__get_flags() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Timeline::TrackBindingFlags, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::Timeline::TrackBindingTypeAttribute::TrackBindingTypeAttribute(System::Type type)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TrackBindingTypeAttribute>(type))) {}
+ UnityEngine::Timeline::TrackBindingTypeAttribute UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor(System::Type type)  {
+UnityEngine::Timeline::TrackBindingTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TrackBindingTypeAttribute>(type))};
+return o;
+}
  void UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TrackBindingTypeAttribute>::get(),
@@ -60,8 +62,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Timeline::TrackBindingFlags", modifiers: "", def_value: None }]
- UnityEngine::Timeline::TrackBindingTypeAttribute::TrackBindingTypeAttribute(System::Type type, UnityEngine::Timeline::TrackBindingFlags flags)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TrackBindingTypeAttribute>(type, flags))) {}
+ UnityEngine::Timeline::TrackBindingTypeAttribute UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor(System::Type type, UnityEngine::Timeline::TrackBindingFlags flags)  {
+UnityEngine::Timeline::TrackBindingTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TrackBindingTypeAttribute>(type, flags))};
+return o;
+}
  void UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor(System::Type type, UnityEngine::Timeline::TrackBindingFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TrackBindingTypeAttribute>::get(),

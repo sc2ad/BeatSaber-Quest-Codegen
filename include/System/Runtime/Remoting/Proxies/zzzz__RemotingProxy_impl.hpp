@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_impl.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RemotingProxy_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ClientIdentity_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__ConstructionCall_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ClientIdentity_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__ConstructionCall_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Proxies::RemotingProxy._ctor
 template<>
 
@@ -180,8 +180,10 @@ constexpr void System::Runtime::Remoting::Proxies::RemotingProxy::__set__ctorCal
 constexpr System::Runtime::Remoting::Messaging::ConstructionCall System::Runtime::Remoting::Proxies::RemotingProxy::__get__ctorCall() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Messaging::ConstructionCall, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "System::Runtime::Remoting::ClientIdentity", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Proxies::RemotingProxy::RemotingProxy(System::Type type, System::Runtime::Remoting::ClientIdentity identity)  : System::Runtime::Remoting::Proxies::RealProxy(THROW_UNLESS(::il2cpp_utils::New<RemotingProxy>(type, identity))) {}
+ System::Runtime::Remoting::Proxies::RemotingProxy System::Runtime::Remoting::Proxies::RemotingProxy::New_ctor(System::Type type, System::Runtime::Remoting::ClientIdentity identity)  {
+System::Runtime::Remoting::Proxies::RemotingProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Proxies::RemotingProxy>(type, identity))};
+return o;
+}
  void System::Runtime::Remoting::Proxies::RemotingProxy::_ctor(System::Type type, System::Runtime::Remoting::ClientIdentity identity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Proxies::RemotingProxy>::get(),
@@ -191,8 +193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, identity);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "activationUrl", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "activationAttributes", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Proxies::RemotingProxy::RemotingProxy(System::Type type, ::StringW activationUrl, ::ArrayW<::bs_hook::Il2CppWrapperType> activationAttributes)  : System::Runtime::Remoting::Proxies::RealProxy(THROW_UNLESS(::il2cpp_utils::New<RemotingProxy>(type, activationUrl, activationAttributes))) {}
+ System::Runtime::Remoting::Proxies::RemotingProxy System::Runtime::Remoting::Proxies::RemotingProxy::New_ctor(System::Type type, ::StringW activationUrl, ::ArrayW<::bs_hook::Il2CppWrapperType> activationAttributes)  {
+System::Runtime::Remoting::Proxies::RemotingProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Proxies::RemotingProxy>(type, activationUrl, activationAttributes))};
+return o;
+}
  void System::Runtime::Remoting::Proxies::RemotingProxy::_ctor(System::Type type, ::StringW activationUrl, ::ArrayW<::bs_hook::Il2CppWrapperType> activationAttributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Proxies::RemotingProxy>::get(),

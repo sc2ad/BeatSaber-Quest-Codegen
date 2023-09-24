@@ -68,8 +68,7 @@ constexpr GlobalNamespace::GameNoteController __get__gameNoteController() const;
 /// @brief Method get_gameNoteController addr 0x223b86c size 0x8 virtual true final false
  GlobalNamespace::GameNoteController get_gameNoteController() ;
 
-// Ctor Parameters []
-explicit DisappearingArrowController() ;
+static GlobalNamespace::DisappearingArrowController New_ctor() ;
 
 /// @brief Method .ctor addr 0x223b874 size 0x6c virtual false final false
  void _ctor() ;

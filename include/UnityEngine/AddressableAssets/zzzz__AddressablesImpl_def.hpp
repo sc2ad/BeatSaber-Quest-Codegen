@@ -8,73 +8,54 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IAllocationStrategy;
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0;
 }
 namespace UnityEngine::AddressableAssets {
-struct UnityEngine__AddressableAssets__Addressables__MergeMode;
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class HashSet_1;
+class List_1;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class ISceneProvider;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace UnityEngine {
+struct Quaternion;
 }
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
+namespace System {
+class Exception;
 }
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
@@ -83,24 +64,52 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEqualityComparer_1;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
 }
-namespace System {
-class Exception;
+namespace UnityEngine::AddressableAssets {
+template<typename TObject>
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::AddressableAssets {
+template<typename TObject>
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class ResourceLocationBase;
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IInstanceProvider;
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -108,7 +117,89 @@ class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IList_1;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IAllocationStrategy;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEqualityComparer_1;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
+}
+namespace UnityEngine::AddressableAssets {
+struct UnityEngine__AddressableAssets__Addressables__MergeMode;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IInstanceProvider;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class ResourceLocationBase;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0;
+}
+namespace UnityEngine::AddressableAssets {
+template<typename TObject>
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class IResourceLocator;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::AddressableAssets {
+template<typename TObject>
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1;
+}
+namespace UnityEngine::AddressableAssets {
+class UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IAssetBundleResource;
@@ -336,8 +427,7 @@ constexpr bool __get__ContentUpdateAvailable_k__BackingField() const;
 /// @brief Method set_ContentUpdateAvailable addr 0x289118c size 0xc virtual false final false
  void set_ContentUpdateAvailable(bool value) ;
 
-// Ctor Parameters [CppParam { name: "loc", ty: "UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator", modifiers: "", def_value: None }, CppParam { name: "localHash", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "remoteCatalogLocation", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
-explicit UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator loc, ::StringW localHash, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation remoteCatalogLocation) ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__ResourceLocatorInfo New_ctor(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator loc, ::StringW localHash, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation remoteCatalogLocation) ;
 
 /// @brief Method .ctor addr 0x288a990 size 0x3c virtual false final false
  void _ctor(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator loc, ::StringW localHash, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation remoteCatalogLocation) ;
@@ -358,7 +448,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::LoadResourceLocationKeyOp
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14302)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3820), inst: 3092 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 768 }), TypeDefinitionIndex(TypeDefinitionIndex(14313)), TypeDefinitionIndex(TypeDefinitionIndex(3820))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14302)), TypeDefinitionIndex(TypeDefinitionIndex(3820)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 768 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3820), inst: 3092 }), TypeDefinitionIndex(TypeDefinitionIndex(14313))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14333))
 // CS Name: UnityEngine.AddressableAssets.AddressablesImpl::LoadResourceLocationKeyOp
 class CORDL_TYPE UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>> {
@@ -441,8 +531,7 @@ constexpr System::Type __get_m_ResourceType() const;
 /// @brief Method Execute addr 0x28914f8 size 0xdc virtual true final false
  void Execute() ;
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeyOp New_ctor() ;
 
 /// @brief Method .ctor addr 0x288d064 size 0x48 virtual false final false
  void _ctor() ;
@@ -454,7 +543,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::LoadResourceLocationKeysOp
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 768 }), TypeDefinitionIndex(TypeDefinitionIndex(3820)), TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3820), inst: 3092 }), TypeDefinitionIndex(TypeDefinitionIndex(14302))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3820)), TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 768 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3820), inst: 3092 }), TypeDefinitionIndex(TypeDefinitionIndex(14302))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14334))
 // CS Name: UnityEngine.AddressableAssets.AddressablesImpl::LoadResourceLocationKeysOp
 class CORDL_TYPE UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>> {
@@ -543,8 +632,7 @@ constexpr System::Type __get_m_ResourceType() const;
 /// @brief Method InvokeWaitForCompletion addr 0x28916f4 size 0x74 virtual true final false
  bool InvokeWaitForCompletion() ;
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl__LoadResourceLocationKeysOp New_ctor() ;
 
 /// @brief Method .ctor addr 0x288cecc size 0x48 virtual false final false
  void _ctor() ;
@@ -628,8 +716,7 @@ static System::Func_2<UnityEngine::AddressableAssets::UnityEngine__AddressableAs
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28917cc size 0x8 virtual false final false
  void _ctor() ;
@@ -701,8 +788,7 @@ constexpr UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator __g
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass62_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288a9cc size 0x8 virtual false final false
  void _ctor() ;
@@ -783,8 +869,7 @@ constexpr ::StringW __get_providerSuffix() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass71_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288c590 size 0x8 virtual false final false
  void _ctor() ;
@@ -866,8 +951,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass81_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288cec4 size 0x8 virtual false final false
  void _ctor() ;
@@ -942,8 +1026,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass83_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288d05c size 0x8 virtual false final false
  void _ctor() ;
@@ -1014,8 +1097,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_key() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass96_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288d4a8 size 0x8 virtual false final false
  void _ctor() ;
@@ -1084,8 +1166,7 @@ constexpr System::Collections::IEnumerable __get_keys() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass97_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288d5e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -1154,8 +1235,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_key() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass100_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288d788 size 0x8 virtual false final false
  void _ctor() ;
@@ -1224,8 +1304,7 @@ constexpr System::Collections::Generic::IList_1<UnityEngine::ResourceManagement:
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass104_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288e2cc size 0x8 virtual false final false
  void _ctor() ;
@@ -1300,8 +1379,7 @@ constexpr UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__Addres
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass106_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288e484 size 0x8 virtual false final false
  void _ctor() ;
@@ -1377,8 +1455,7 @@ constexpr bool __get_autoReleaseHandle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass113_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288ebd4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1453,8 +1530,7 @@ constexpr bool __get_autoReleaseHandle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass114_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288ebdc size 0x8 virtual false final false
  void _ctor() ;
@@ -1529,8 +1605,7 @@ constexpr bool __get_autoReleaseHandle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass115_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288ebe4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1605,8 +1680,7 @@ constexpr UnityEngine::ResourceManagement::ResourceProviders::InstantiationParam
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass120_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288edf4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1681,8 +1755,7 @@ constexpr UnityEngine::ResourceManagement::ResourceProviders::InstantiationParam
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass122_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288ef7c size 0x8 virtual false final false
  void _ctor() ;
@@ -1769,8 +1842,7 @@ constexpr int32_t __get_priority() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass125_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288f0f0 size 0x8 virtual false final false
  void _ctor() ;
@@ -1845,8 +1917,7 @@ constexpr bool __get_autoReleaseHandle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass131_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288f428 size 0x8 virtual false final false
  void _ctor() ;
@@ -1921,8 +1992,7 @@ constexpr bool __get_autoReleaseHandle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass132_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288f430 size 0x8 virtual false final false
  void _ctor() ;
@@ -1991,8 +2061,7 @@ constexpr bool __get_autoReleaseHandle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass136_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288fbb4 size 0x8 virtual false final false
  void _ctor() ;
@@ -2067,8 +2136,7 @@ constexpr bool __get_autoCleanBundleCache() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass140_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x288ff7c size 0x8 virtual false final false
  void _ctor() ;
@@ -2143,8 +2211,7 @@ constexpr bool __get_forceSingleThreading() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass145_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2891068 size 0x8 virtual false final false
  void _ctor() ;
@@ -2219,8 +2286,7 @@ constexpr bool __get_forceSingleThreading() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass146_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2891070 size 0x8 virtual false final false
  void _ctor() ;
@@ -2489,8 +2555,7 @@ constexpr bool __get_hasStartedInitialization() const;
 /// @brief Method get_TrackedHandleCount addr 0x288a12c size 0x50 virtual false final false
  int32_t get_TrackedHandleCount() ;
 
-// Ctor Parameters [CppParam { name: "alloc", ty: "UnityEngine::ResourceManagement::Util::IAllocationStrategy", modifiers: "", def_value: None }]
-explicit AddressablesImpl(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc) ;
+static UnityEngine::AddressableAssets::AddressablesImpl New_ctor(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc) ;
 
 /// @brief Method .ctor addr 0x2889e8c size 0x1bc virtual false final false
  void _ctor(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc) ;
@@ -2901,8 +2966,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_key() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass77_0_1<TObject> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -2991,8 +3055,7 @@ constexpr bool __get_releaseDependenciesOnFailure() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass86_0_1<TObject> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -3075,86 +3138,13 @@ constexpr bool __get_releaseDependenciesOnFailure() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass88_0_1<TObject> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <LoadAssetsWithChain>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
  UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>> _LoadAssetsWithChain_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op2) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def UnityEngine::AddressableAssets
-// Type: ::<>c__DisplayClass111_0`1
-namespace UnityEngine::AddressableAssets {
-// cpp template
-template<::cordl_internals::il2cpp_reference_type TObject>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14348))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14348), inst: 2 })
-// CS Name: UnityEngine.AddressableAssets.AddressablesImpl::<>c__DisplayClass111_0`1
-class CORDL_TYPE UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1", modifiers: " const&", def_value: None }]
-constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1(UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1", modifiers: "&&", def_value: None }]
-constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1(UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1& operator=(UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1&& o) noexcept = default;
-  constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1& operator=(UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- bool __declspec(property(get=__get_unloadSceneOpExcludeReleaseCallback, put=__set_unloadSceneOpExcludeReleaseCallback))  unloadSceneOpExcludeReleaseCallback;
-
-constexpr void __set_unloadSceneOpExcludeReleaseCallback(bool value) ;
-
-constexpr bool __get_unloadSceneOpExcludeReleaseCallback() const;
-
- UnityEngine::AddressableAssets::AddressablesImpl __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
-
-constexpr void __set___4__this(UnityEngine::AddressableAssets::AddressablesImpl value) ;
-
-constexpr UnityEngine::AddressableAssets::AddressablesImpl __get___4__this() const;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <AutoReleaseHandleOnCompletion>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _AutoReleaseHandleOnCompletion_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> op) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -3219,14 +3209,84 @@ constexpr UnityEngine::AddressableAssets::AddressablesImpl __get___4__this() con
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1() ;
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <AutoReleaseHandleOnCompletion>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
  void _AutoReleaseHandleOnCompletion_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> op) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::AddressableAssets
+// Type: ::<>c__DisplayClass111_0`1
+namespace UnityEngine::AddressableAssets {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TObject>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14348))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14348), inst: 2 })
+// CS Name: UnityEngine.AddressableAssets.AddressablesImpl::<>c__DisplayClass111_0`1
+class CORDL_TYPE UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1(UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1(UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1& operator=(UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1&& o) noexcept = default;
+  constexpr UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1& operator=(UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ bool __declspec(property(get=__get_unloadSceneOpExcludeReleaseCallback, put=__set_unloadSceneOpExcludeReleaseCallback))  unloadSceneOpExcludeReleaseCallback;
+
+constexpr void __set_unloadSceneOpExcludeReleaseCallback(bool value) ;
+
+constexpr bool __get_unloadSceneOpExcludeReleaseCallback() const;
+
+ UnityEngine::AddressableAssets::AddressablesImpl __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+
+constexpr void __set___4__this(UnityEngine::AddressableAssets::AddressablesImpl value) ;
+
+constexpr UnityEngine::AddressableAssets::AddressablesImpl __get___4__this() const;
+
+
+// Methods
+
+static UnityEngine::AddressableAssets::UnityEngine__AddressableAssets__AddressablesImpl____c__DisplayClass111_0_1<TObject> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <AutoReleaseHandleOnCompletion>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _AutoReleaseHandleOnCompletion_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> op) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

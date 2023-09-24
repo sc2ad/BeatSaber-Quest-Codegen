@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Bcpg {
+struct PacketTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class ContainedPacket;
+}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgObject;
-}
-namespace Org::BouncyCastle::Bcpg {
-class ContainedPacket;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PacketTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -100,32 +100,27 @@ constexpr int32_t __get_partialOffset() const;
 /// @brief Method Wrap addr 0x11455a4 size 0x90 virtual false final false
 static Org::BouncyCastle::Bcpg::BcpgOutputStream Wrap(System::IO::Stream outStr) ;
 
-// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BcpgOutputStream(System::IO::Stream outStr) ;
+static Org::BouncyCastle::Bcpg::BcpgOutputStream New_ctor(System::IO::Stream outStr) ;
 
 /// @brief Method .ctor addr 0x11454fc size 0x78 virtual false final false
  void _ctor(System::IO::Stream outStr) ;
 
-// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }]
-explicit BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag) ;
+static Org::BouncyCastle::Bcpg::BcpgOutputStream New_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag) ;
 
 /// @brief Method .ctor addr 0x1145634 size 0x90 virtual false final false
  void _ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag) ;
 
-// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "oldFormat", ty: "bool", modifiers: "", def_value: None }]
-explicit BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat) ;
+static Org::BouncyCastle::Bcpg::BcpgOutputStream New_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat) ;
 
 /// @brief Method .ctor addr 0x1145838 size 0x130 virtual false final false
  void _ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat) ;
 
-// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int64_t", modifiers: "", def_value: None }]
-explicit BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length) ;
+static Org::BouncyCastle::Bcpg::BcpgOutputStream New_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length) ;
 
 /// @brief Method .ctor addr 0x1145968 size 0x9c virtual false final false
  void _ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length) ;
 
-// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> buffer) ;
+static Org::BouncyCastle::Bcpg::BcpgOutputStream New_ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> buffer) ;
 
 /// @brief Method .ctor addr 0x1145a04 size 0x128 virtual false final false
  void _ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> buffer) ;

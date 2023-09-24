@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayableAsset_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: UnityEngine::Playables::PlayableAsset.CreatePlayable
 template<>
@@ -158,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, asset, ptrToDouble);
 }
-// Ctor Parameters []
- UnityEngine::Playables::PlayableAsset::PlayableAsset()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<PlayableAsset>())) {}
+ UnityEngine::Playables::PlayableAsset UnityEngine::Playables::PlayableAsset::New_ctor()  {
+UnityEngine::Playables::PlayableAsset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Playables::PlayableAsset>())};
+return o;
+}
  void UnityEngine::Playables::PlayableAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Playables::PlayableAsset>::get(),

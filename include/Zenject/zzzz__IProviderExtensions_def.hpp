@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
 class InjectContext;
-}
-namespace System {
-class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace System {
+class Action;
+}
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace Zenject {
+class IProvider;
 }
 // Forward declare root types
 namespace Zenject {

@@ -10,16 +10,22 @@ namespace UnityEngine::UIElements {
 class IBinding;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class UnityEngine__UIElements__BindableElement__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UnityEngine__UIElements__BindableElement__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -82,8 +88,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Proper
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__BindableElement__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c4090c size 0x88 virtual false final false
  void _ctor() ;
@@ -172,8 +177,7 @@ constexpr ::StringW __get__bindingPath_k__BackingField() const;
 /// @brief Method set_bindingPath addr 0x2c441f8 size 0x8 virtual true final true
  void set_bindingPath(::StringW value) ;
 
-// Ctor Parameters []
-explicit BindableElement() ;
+static UnityEngine::UIElements::BindableElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c401a8 size 0x58 virtual false final false
  void _ctor() ;
@@ -185,7 +189,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5083 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(6886)), TypeDefinitionIndex(TypeDefinitionIndex(6885))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(6886)), TypeDefinitionIndex(TypeDefinitionIndex(6885)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5083 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6884))
 // CS Name: UnityEngine.UIElements.BindableElement::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__BindableElement__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::BindableElement,UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits> {
@@ -224,8 +228,7 @@ constexpr explicit UnityEngine__UIElements__BindableElement__UxmlFactory(void* p
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__BindableElement__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c44200 size 0x48 virtual false final false
  void _ctor() ;

@@ -57,8 +57,7 @@ constexpr ::StringW __get__Copyright_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "copyright", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyCopyrightAttribute(::StringW copyright) ;
+static System::Reflection::AssemblyCopyrightAttribute New_ctor(::StringW copyright) ;
 
 /// @brief Method .ctor addr 0x2378cd0 size 0x28 virtual false final false
  void _ctor(::StringW copyright) ;

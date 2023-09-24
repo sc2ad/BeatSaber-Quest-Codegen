@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9FieldID_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X9::X9FieldID._ctor
@@ -153,8 +153,10 @@ constexpr void Org::BouncyCastle::Asn1::X9::X9FieldID::__set_parameters(Org::Bou
 constexpr Org::BouncyCastle::Asn1::Asn1Object Org::BouncyCastle::Asn1::X9::X9FieldID::__get_parameters() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Object, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "primeP", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9FieldID::X9FieldID(Org::BouncyCastle::Math::BigInteger primeP)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9FieldID>(primeP))) {}
+ Org::BouncyCastle::Asn1::X9::X9FieldID Org::BouncyCastle::Asn1::X9::X9FieldID::New_ctor(Org::BouncyCastle::Math::BigInteger primeP)  {
+Org::BouncyCastle::Asn1::X9::X9FieldID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9FieldID>(primeP))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9FieldID::_ctor(Org::BouncyCastle::Math::BigInteger primeP)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9FieldID>::get(),
@@ -164,8 +166,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, primeP);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9FieldID::X9FieldID(int32_t m, int32_t k1)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9FieldID>(m, k1))) {}
+ Org::BouncyCastle::Asn1::X9::X9FieldID Org::BouncyCastle::Asn1::X9::X9FieldID::New_ctor(int32_t m, int32_t k1)  {
+Org::BouncyCastle::Asn1::X9::X9FieldID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9FieldID>(m, k1))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9FieldID::_ctor(int32_t m, int32_t k1)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9FieldID>::get(),
@@ -175,8 +179,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, m, k1);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k3", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9FieldID::X9FieldID(int32_t m, int32_t k1, int32_t k2, int32_t k3)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9FieldID>(m, k1, k2, k3))) {}
+ Org::BouncyCastle::Asn1::X9::X9FieldID Org::BouncyCastle::Asn1::X9::X9FieldID::New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3)  {
+Org::BouncyCastle::Asn1::X9::X9FieldID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9FieldID>(m, k1, k2, k3))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9FieldID::_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9FieldID>::get(),
@@ -186,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, m, k1, k2, k3);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9FieldID::X9FieldID(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9FieldID>(seq))) {}
+ Org::BouncyCastle::Asn1::X9::X9FieldID Org::BouncyCastle::Asn1::X9::X9FieldID::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X9::X9FieldID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9FieldID>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9FieldID::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9FieldID>::get(),

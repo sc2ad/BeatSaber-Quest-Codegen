@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Experimental/Audio/zzzz__AudioSampleProvider_def.hpp"
+#include "UnityEngine/Experimental/Audio/zzzz__AudioSampleProvider_def.hpp"
 //  Writing Method size for method: UnityEngine::Experimental::Audio::UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler._ctor
 template<>
 
@@ -35,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Experimental::Audio::UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler::UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler>(object, method))) {}
+ UnityEngine::Experimental::Audio::UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler UnityEngine::Experimental::Audio::UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::Experimental::Audio::UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Experimental::Audio::UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler>(object, method))};
+return o;
+}
  void UnityEngine::Experimental::Audio::UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Experimental::Audio::UnityEngine__Experimental__Audio__AudioSampleProvider__SampleFramesHandler>::get(),

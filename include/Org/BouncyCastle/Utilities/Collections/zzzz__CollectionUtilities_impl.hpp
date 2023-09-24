@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__CollectionUtilities_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Collections::CollectionUtilities.AddRange
 template<>
 
@@ -205,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, c);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Collections::CollectionUtilities::CollectionUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CollectionUtilities>())) {}
+ Org::BouncyCastle::Utilities::Collections::CollectionUtilities Org::BouncyCastle::Utilities::Collections::CollectionUtilities::New_ctor()  {
+Org::BouncyCastle::Utilities::Collections::CollectionUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::CollectionUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::CollectionUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::CollectionUtilities>::get(),

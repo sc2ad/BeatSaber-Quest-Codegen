@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRSkeleton__BoneId;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRSkeleton__BoneId;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,14 +102,12 @@ constexpr UnityEngine::Transform __get__Transform_k__BackingField() const;
 /// @brief Method set_Transform addr 0x26336cc size 0x8 virtual false final false
  void set_Transform(UnityEngine::Transform value) ;
 
-// Ctor Parameters []
-explicit OVRBone() ;
+static GlobalNamespace::OVRBone New_ctor() ;
 
 /// @brief Method .ctor addr 0x2632960 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId", modifiers: "", def_value: None }, CppParam { name: "parentBoneIndex", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "trans", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit OVRBone(GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId id, int16_t parentBoneIndex, UnityEngine::Transform trans) ;
+static GlobalNamespace::OVRBone New_ctor(GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId id, int16_t parentBoneIndex, UnityEngine::Transform trans) ;
 
 /// @brief Method .ctor addr 0x26336d4 size 0x40 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__OVRSkeleton__BoneId id, int16_t parentBoneIndex, UnityEngine::Transform trans) ;

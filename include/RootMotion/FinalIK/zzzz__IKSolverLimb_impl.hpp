@@ -4,9 +4,10 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverLimb_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverLimb_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKSolverLimb__BendModifier::RootMotion__FinalIK__IKSolverLimb__BendModifier(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -381,8 +382,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKSolverLimb::IKSolverLimb()  : RootMotion::FinalIK::IKSolverTrigonometric(THROW_UNLESS(::il2cpp_utils::New<IKSolverLimb>())) {}
+ RootMotion::FinalIK::IKSolverLimb RootMotion::FinalIK::IKSolverLimb::New_ctor()  {
+RootMotion::FinalIK::IKSolverLimb o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolverLimb>())};
+return o;
+}
  void RootMotion::FinalIK::IKSolverLimb::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolverLimb>::get(),
@@ -392,8 +395,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "goal", ty: "UnityEngine::AvatarIKGoal", modifiers: "", def_value: None }]
- RootMotion::FinalIK::IKSolverLimb::IKSolverLimb(UnityEngine::AvatarIKGoal goal)  : RootMotion::FinalIK::IKSolverTrigonometric(THROW_UNLESS(::il2cpp_utils::New<IKSolverLimb>(goal))) {}
+ RootMotion::FinalIK::IKSolverLimb RootMotion::FinalIK::IKSolverLimb::New_ctor(UnityEngine::AvatarIKGoal goal)  {
+RootMotion::FinalIK::IKSolverLimb o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolverLimb>(goal))};
+return o;
+}
  void RootMotion::FinalIK::IKSolverLimb::_ctor(UnityEngine::AvatarIKGoal goal)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolverLimb>::get(),

@@ -41,8 +41,10 @@ constexpr void HoudiniEngineUnity::HEU_VolumeLayerPreset::__set__tile(int32_t va
 constexpr int32_t HoudiniEngineUnity::HEU_VolumeLayerPreset::__get__tile() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_VolumeLayerPreset::HEU_VolumeLayerPreset()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_VolumeLayerPreset>())) {}
+ HoudiniEngineUnity::HEU_VolumeLayerPreset HoudiniEngineUnity::HEU_VolumeLayerPreset::New_ctor()  {
+HoudiniEngineUnity::HEU_VolumeLayerPreset o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_VolumeLayerPreset>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_VolumeLayerPreset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_VolumeLayerPreset>::get(),

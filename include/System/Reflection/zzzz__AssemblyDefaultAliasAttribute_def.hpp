@@ -57,8 +57,7 @@ constexpr ::StringW __get__DefaultAlias_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "defaultAlias", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyDefaultAliasAttribute(::StringW defaultAlias) ;
+static System::Reflection::AssemblyDefaultAliasAttribute New_ctor(::StringW defaultAlias) ;
 
 /// @brief Method .ctor addr 0x2378cf8 size 0x28 virtual false final false
  void _ctor(::StringW defaultAlias) ;

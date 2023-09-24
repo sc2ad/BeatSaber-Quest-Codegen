@@ -10,22 +10,25 @@ template<typename T>
 class List_1;
 }
 namespace UnityEngine::ResourceManagement::Diagnostics {
+class UnityEngine__ResourceManagement__Diagnostics__DiagnosticEventCollectorSingleton____c;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System {
+struct Guid;
+}
+namespace UnityEngine::ResourceManagement::Diagnostics {
 struct DiagnosticEvent;
 }
 namespace GlobalNamespace {
 template<typename T>
 class DelegateList_1;
 }
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace System {
-struct Guid;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -101,8 +104,7 @@ static System::Action_1<UnityEngine::ResourceManagement::Diagnostics::Diagnostic
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__Diagnostics__DiagnosticEventCollectorSingleton____c() ;
+static UnityEngine::ResourceManagement::Diagnostics::UnityEngine__ResourceManagement__Diagnostics__DiagnosticEventCollectorSingleton____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a44bc4 size 0x8 virtual false final false
  void _ctor() ;
@@ -235,8 +237,7 @@ static bool RegisterEventHandler(System::Action_1<UnityEngine::ResourceManagemen
 /// @brief Method Update addr 0x2a44884 size 0x1d8 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit DiagnosticEventCollectorSingleton() ;
+static UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a44a5c size 0x104 virtual false final false
  void _ctor() ;

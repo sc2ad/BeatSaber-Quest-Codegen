@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__DefaultEnvironmentEvents_def.hpp"
+#include "GlobalNamespace/zzzz__DefaultEnvironmentEvents_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
-#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
+#include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent.get_eventType
 template<>
@@ -119,8 +119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent::GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent>())) {}
+ GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent>::get(),
@@ -243,8 +245,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution::GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution>())) {}
+ GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution>::get(),
@@ -463,8 +467,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering>())) {}
+ GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering>::get(),
@@ -1099,8 +1105,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent::GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent>())) {}
+ GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent>::get(),
@@ -1217,8 +1225,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DefaultEnvironmentEvents::DefaultEnvironmentEvents()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultEnvironmentEvents>())) {}
+ GlobalNamespace::DefaultEnvironmentEvents GlobalNamespace::DefaultEnvironmentEvents::New_ctor()  {
+GlobalNamespace::DefaultEnvironmentEvents o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DefaultEnvironmentEvents>())};
+return o;
+}
  void GlobalNamespace::DefaultEnvironmentEvents::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DefaultEnvironmentEvents>::get(),

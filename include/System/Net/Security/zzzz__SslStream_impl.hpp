@@ -1,22 +1,23 @@
 #pragma once
 #include "System/Net/Security/zzzz__AuthenticatedStream_impl.hpp"
 #include "System/Net/Security/zzzz__SslStream_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsProvider_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
-#include "System/Net/Security/zzzz__LocalCertificateSelectionCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
+#include "System/Net/Security/zzzz__LocalCertificateSelectionCallback_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsProvider_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0._ctor
 template<>
 
@@ -63,8 +64,10 @@ constexpr void System::Net::Security::System__Net__Security__SslStream____c__Dis
 constexpr System::Net::Security::SslStream System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<System::Net::Security::SslStream, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0::System__Net__Security__SslStream____c__DisplayClass21_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Security__SslStream____c__DisplayClass21_0>())) {}
+ System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0 System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0::New_ctor()  {
+System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0 o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0>())};
+return o;
+}
  void System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Security::System__Net__Security__SslStream____c__DisplayClass21_0>::get(),
@@ -826,8 +829,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Mono::Net::Security::MobileTlsProvider, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "userCertificateValidationCallback", ty: "System::Net::Security::RemoteCertificateValidationCallback", modifiers: "", def_value: None }]
- System::Net::Security::SslStream::SslStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback)  : System::Net::Security::AuthenticatedStream(THROW_UNLESS(::il2cpp_utils::New<SslStream>(innerStream, leaveInnerStreamOpen, userCertificateValidationCallback))) {}
+ System::Net::Security::SslStream System::Net::Security::SslStream::New_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback)  {
+System::Net::Security::SslStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Security::SslStream>(innerStream, leaveInnerStreamOpen, userCertificateValidationCallback))};
+return o;
+}
  void System::Net::Security::SslStream::_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Security::SslStream>::get(),
@@ -837,8 +842,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, innerStream, leaveInnerStreamOpen, userCertificateValidationCallback);
 }
-// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "userCertificateValidationCallback", ty: "System::Net::Security::RemoteCertificateValidationCallback", modifiers: "", def_value: None }, CppParam { name: "userCertificateSelectionCallback", ty: "System::Net::Security::LocalCertificateSelectionCallback", modifiers: "", def_value: None }]
- System::Net::Security::SslStream::SslStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback, System::Net::Security::LocalCertificateSelectionCallback userCertificateSelectionCallback)  : System::Net::Security::AuthenticatedStream(THROW_UNLESS(::il2cpp_utils::New<SslStream>(innerStream, leaveInnerStreamOpen, userCertificateValidationCallback, userCertificateSelectionCallback))) {}
+ System::Net::Security::SslStream System::Net::Security::SslStream::New_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback, System::Net::Security::LocalCertificateSelectionCallback userCertificateSelectionCallback)  {
+System::Net::Security::SslStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Security::SslStream>(innerStream, leaveInnerStreamOpen, userCertificateValidationCallback, userCertificateSelectionCallback))};
+return o;
+}
  void System::Net::Security::SslStream::_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::RemoteCertificateValidationCallback userCertificateValidationCallback, System::Net::Security::LocalCertificateSelectionCallback userCertificateSelectionCallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Security::SslStream>::get(),
@@ -848,8 +855,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, innerStream, leaveInnerStreamOpen, userCertificateValidationCallback, userCertificateSelectionCallback);
 }
-// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Mono::Security::Interface::MonoTlsProvider", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }]
- System::Net::Security::SslStream::SslStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings)  : System::Net::Security::AuthenticatedStream(THROW_UNLESS(::il2cpp_utils::New<SslStream>(innerStream, leaveInnerStreamOpen, provider, settings))) {}
+ System::Net::Security::SslStream System::Net::Security::SslStream::New_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings)  {
+System::Net::Security::SslStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Security::SslStream>(innerStream, leaveInnerStreamOpen, provider, settings))};
+return o;
+}
  void System::Net::Security::SslStream::_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsProvider provider, Mono::Security::Interface::MonoTlsSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Security::SslStream>::get(),

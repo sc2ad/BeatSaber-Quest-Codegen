@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
 class IList;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
 }
-namespace System::Collections {
-class IDictionary;
-}
 namespace System::IO {
 class Stream;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKeyRing;
@@ -90,26 +90,22 @@ constexpr System::Collections::IList __get_order() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pubRings", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "order", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit PgpPublicKeyRingBundle(System::Collections::IDictionary pubRings, System::Collections::IList order) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle New_ctor(System::Collections::IDictionary pubRings, System::Collections::IList order) ;
 
 /// @brief Method .ctor addr 0x102f140 size 0x2c virtual false final false
  void _ctor(System::Collections::IDictionary pubRings, System::Collections::IList order) ;
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PgpPublicKeyRingBundle(::ArrayW<uint8_t> encoding) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle New_ctor(::ArrayW<uint8_t> encoding) ;
 
 /// @brief Method .ctor addr 0x102f16c size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoding) ;
 
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit PgpPublicKeyRingBundle(System::IO::Stream inputStream) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle New_ctor(System::IO::Stream inputStream) ;
 
 /// @brief Method .ctor addr 0x102f1e4 size 0x80 virtual false final false
  void _ctor(System::IO::Stream inputStream) ;
 
-// Ctor Parameters [CppParam { name: "e", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit PgpPublicKeyRingBundle(System::Collections::IEnumerable e) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle New_ctor(System::Collections::IEnumerable e) ;
 
 /// @brief Method .ctor addr 0x102f264 size 0x5a0 virtual false final false
  void _ctor(System::Collections::IEnumerable e) ;

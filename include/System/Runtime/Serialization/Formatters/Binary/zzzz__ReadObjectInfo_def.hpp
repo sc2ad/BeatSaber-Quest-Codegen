@@ -6,26 +6,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class ObjectManager;
-}
-namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoCache;
+namespace System {
+class Type;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 namespace System::Reflection {
 class MemberInfo;
+}
+namespace System::Runtime::Serialization {
+class ObjectManager;
 }
 namespace System::Runtime::Serialization {
 class IFormatterConverter;
@@ -34,10 +27,17 @@ namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+class SerObjectInfoCache;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class SerObjectInfoInit;
 }
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -196,8 +196,7 @@ constexpr System::Runtime::Serialization::IFormatterConverter __get_formatterCon
 
 // Methods
 
-// Ctor Parameters []
-explicit ReadObjectInfo() ;
+static System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x235d120 size 0x8 virtual false final false
  void _ctor() ;

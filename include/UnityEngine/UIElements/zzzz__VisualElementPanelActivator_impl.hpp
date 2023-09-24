@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__VisualElementPanelActivator_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IVisualElementPanelActivatable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualElementPanelActivatable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::VisualElementPanelActivator.get_isActive
 template<>
@@ -227,8 +227,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "activatable", ty: "UnityEngine::UIElements::IVisualElementPanelActivatable", modifiers: "", def_value: None }]
- UnityEngine::UIElements::VisualElementPanelActivator::VisualElementPanelActivator(UnityEngine::UIElements::IVisualElementPanelActivatable activatable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VisualElementPanelActivator>(activatable))) {}
+ UnityEngine::UIElements::VisualElementPanelActivator UnityEngine::UIElements::VisualElementPanelActivator::New_ctor(UnityEngine::UIElements::IVisualElementPanelActivatable activatable)  {
+UnityEngine::UIElements::VisualElementPanelActivator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualElementPanelActivator>(activatable))};
+return o;
+}
  void UnityEngine::UIElements::VisualElementPanelActivator::_ctor(UnityEngine::UIElements::IVisualElementPanelActivatable activatable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualElementPanelActivator>::get(),

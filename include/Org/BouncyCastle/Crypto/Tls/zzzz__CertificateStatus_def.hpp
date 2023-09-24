@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class OcspResponse;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class OcspResponse;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -76,8 +76,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_mResponse() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "statusType", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "response", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit CertificateStatus(uint8_t statusType, ::bs_hook::Il2CppWrapperType response) ;
+static Org::BouncyCastle::Crypto::Tls::CertificateStatus New_ctor(uint8_t statusType, ::bs_hook::Il2CppWrapperType response) ;
 
 /// @brief Method .ctor addr 0xed0aa0 size 0xa0 virtual false final false
  void _ctor(uint8_t statusType, ::bs_hook::Il2CppWrapperType response) ;

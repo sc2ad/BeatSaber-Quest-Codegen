@@ -4,14 +4,14 @@
 namespace Zenject {
 class BindInfo;
 }
-namespace System {
-class Type;
-}
 namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -59,8 +59,7 @@ constexpr explicit FactoryFromBinderUntyped(void* ptr) noexcept : Zenject::Facto
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "contractType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryFromBinderUntyped(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::FactoryFromBinderUntyped New_ctor(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d525d8 size 0x4 virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

@@ -5,20 +5,20 @@
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
-namespace UnityEngine {
-class RectTransform;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine::UI {
-class Slider;
+namespace System::Text {
+class StringBuilder;
 }
 namespace UnityEngine::UI {
 class Image;
 }
-namespace System::Text {
-class StringBuilder;
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::UI {
+class Slider;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -141,8 +141,7 @@ constexpr UnityEngine::RectTransform __get__progressImageRectTransform() const;
 /// @brief Method Update addr 0x20cdadc size 0x2e8 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit SongProgressUIController() ;
+static GlobalNamespace::SongProgressUIController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20cddc4 size 0x10 virtual false final false
  void _ctor() ;

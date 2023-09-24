@@ -5,64 +5,80 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Collections {
-class IDictionaryEnumerator;
+class IEnumerable;
 }
-namespace System::Collections::Generic {
+namespace System::Collections::Concurrent {
 template<typename TKey,typename TValue>
-class IReadOnlyDictionary_2;
-}
-namespace System::Collections::ObjectModel {
-template<typename T>
-class ReadOnlyCollection_1;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyCollection_1;
+class System__Collections__Concurrent__ConcurrentDictionary_2__Node;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections {
-struct DictionaryEntry;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class IDictionary_2;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class IReadOnlyDictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
+}
+namespace System::Collections::ObjectModel {
+template<typename T>
+class ReadOnlyCollection_1;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Collections::Concurrent {
+template<typename TKey,typename TValue>
+class System__Collections__Concurrent__ConcurrentDictionary_2__Tables;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections::Concurrent {
+template<typename TKey,typename TValue>
+class System__Collections__Concurrent__ConcurrentDictionary_2___GetEnumerator_d__35;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections::Concurrent {
+template<typename TKey,typename TValue>
+class System__Collections__Concurrent__ConcurrentDictionary_2__DictionaryEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System::Collections {
+struct DictionaryEntry;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -182,8 +198,7 @@ constexpr ::ArrayW<int32_t> __get__countPerLock() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "buckets", ty: "::ArrayW<System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__Node<TKey,TValue>>", modifiers: "", def_value: None }, CppParam { name: "locks", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "countPerLock", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit System__Collections__Concurrent__ConcurrentDictionary_2__Tables(::ArrayW<System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__Node<TKey,TValue>> buckets, ::ArrayW<::bs_hook::Il2CppWrapperType> locks, ::ArrayW<int32_t> countPerLock) ;
+static System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__Tables<TKey,TValue> New_ctor(::ArrayW<System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__Node<TKey,TValue>> buckets, ::ArrayW<::bs_hook::Il2CppWrapperType> locks, ::ArrayW<int32_t> countPerLock) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::ArrayW<System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__Node<TKey,TValue>> buckets, ::ArrayW<::bs_hook::Il2CppWrapperType> locks, ::ArrayW<int32_t> countPerLock) ;
@@ -263,8 +278,7 @@ constexpr int32_t __get__hashcode() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "TKey", modifiers: "", def_value: None }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: None }, CppParam { name: "hashcode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__Node<TKey,TValue>", modifiers: "", def_value: None }]
-explicit System__Collections__Concurrent__ConcurrentDictionary_2__Node(TKey key, TValue value, int32_t hashcode, System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__Node<TKey,TValue> next) ;
+static System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__Node<TKey,TValue> New_ctor(TKey key, TValue value, int32_t hashcode, System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__Node<TKey,TValue> next) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(TKey key, TValue value, int32_t hashcode, System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__Node<TKey,TValue> next) ;
@@ -343,8 +357,7 @@ constexpr System::Collections::Generic::IEnumerator_1<System::Collections::Gener
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dictionary", ty: "System::Collections::Concurrent::ConcurrentDictionary_2<TKey,TValue>", modifiers: "", def_value: None }]
-explicit System__Collections__Concurrent__ConcurrentDictionary_2__DictionaryEnumerator(System::Collections::Concurrent::ConcurrentDictionary_2<TKey,TValue> dictionary) ;
+static System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2__DictionaryEnumerator<TKey,TValue> New_ctor(System::Collections::Concurrent::ConcurrentDictionary_2<TKey,TValue> dictionary) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Concurrent::ConcurrentDictionary_2<TKey,TValue> dictionary) ;
@@ -470,8 +483,7 @@ constexpr System::Collections::Concurrent::System__Collections__Concurrent__Conc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Collections__Concurrent__ConcurrentDictionary_2___GetEnumerator_d__35(int32_t __1__state) ;
+static System::Collections::Concurrent::System__Collections__Concurrent__ConcurrentDictionary_2___GetEnumerator_d__35<TKey,TValue> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -660,14 +672,12 @@ static int32_t __declspec(property(get=get_DefaultConcurrencyLevel))  DefaultCon
 /// @brief Method IsValueWriteAtomic addr 0x0 size 0xffffffffffffffff virtual false final false
 static bool IsValueWriteAtomic() ;
 
-// Ctor Parameters []
-explicit ConcurrentDictionary_2() ;
+static System::Collections::Concurrent::ConcurrentDictionary_2<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit ConcurrentDictionary_2(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+static System::Collections::Concurrent::ConcurrentDictionary_2<TKey,TValue> New_ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
@@ -675,8 +685,7 @@ explicit ConcurrentDictionary_2(System::Collections::Generic::IEqualityComparer_
 /// @brief Method InitializeFromCollection addr 0x0 size 0xffffffffffffffff virtual false final false
  void InitializeFromCollection(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<TKey,TValue>> collection) ;
 
-// Ctor Parameters [CppParam { name: "concurrencyLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "growLockArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit ConcurrentDictionary_2(int32_t concurrencyLevel, int32_t capacity, bool growLockArray, System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+static System::Collections::Concurrent::ConcurrentDictionary_2<TKey,TValue> New_ctor(int32_t concurrencyLevel, int32_t capacity, bool growLockArray, System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t concurrencyLevel, int32_t capacity, bool growLockArray, System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;

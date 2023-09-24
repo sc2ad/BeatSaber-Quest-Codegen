@@ -3,23 +3,26 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System {
-class Action;
-}
-namespace HMUI {
-class PanelAnimationSO;
-}
-namespace System {
 template<typename T>
 class Action_1;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 namespace HMUI {
 class ButtonBinder;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0;
+}
+namespace HMUI {
+class PanelAnimationSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,8 +88,7 @@ constexpr GlobalNamespace::DisconnectPromptView __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0() ;
+static GlobalNamespace::GlobalNamespace__DisconnectPromptView____c__DisplayClass12_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2186620 size 0x8 virtual false final false
  void _ctor() ;
@@ -205,8 +207,7 @@ constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 /// @brief Method Hide addr 0x2186554 size 0xcc virtual false final false
  void Hide(System::Action finishedCallback) ;
 
-// Ctor Parameters []
-explicit DisconnectPromptView() ;
+static GlobalNamespace::DisconnectPromptView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2186628 size 0x68 virtual false final false
  void _ctor() ;

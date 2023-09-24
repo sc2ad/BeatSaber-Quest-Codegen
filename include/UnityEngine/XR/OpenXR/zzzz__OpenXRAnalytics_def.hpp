@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::XR::OpenXR {
+struct UnityEngine__XR__OpenXR__OpenXRAnalytics__InitializeEvent;
+}
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR {
 class OpenXRAnalytics;

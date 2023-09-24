@@ -58,8 +58,7 @@ constexpr explicit BcpgObject(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 /// @brief Method Encode addr 0x0 size 0xffffffffffffffff virtual true final false
  void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
-// Ctor Parameters []
-explicit BcpgObject() ;
+static Org::BouncyCastle::Bcpg::BcpgObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x114559c size 0x8 virtual false final false
  void _ctor() ;

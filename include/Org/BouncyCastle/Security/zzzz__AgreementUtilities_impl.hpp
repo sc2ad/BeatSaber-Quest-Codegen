@@ -163,8 +163,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
  System::Collections::IDictionary Org::BouncyCastle::Security::AgreementUtilities::__get_algorithms()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "algorithms", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::AgreementUtilities>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Security::AgreementUtilities::AgreementUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AgreementUtilities>())) {}
+ Org::BouncyCastle::Security::AgreementUtilities Org::BouncyCastle::Security::AgreementUtilities::New_ctor()  {
+Org::BouncyCastle::Security::AgreementUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::AgreementUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Security::AgreementUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::AgreementUtilities>::get(),

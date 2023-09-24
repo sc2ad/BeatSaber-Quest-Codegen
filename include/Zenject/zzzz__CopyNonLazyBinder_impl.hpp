@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__NonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__CopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__NonLazyBinder_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__NonLazyBinder_def.hpp"
 #include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
 //  Writing Method size for method: Zenject::CopyNonLazyBinder._ctor
 template<>
@@ -130,8 +130,10 @@ constexpr void Zenject::CopyNonLazyBinder::__set__secondaryBindInfos(System::Col
 constexpr System::Collections::Generic::List_1<Zenject::BindInfo> Zenject::CopyNonLazyBinder::__get__secondaryBindInfos() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<Zenject::BindInfo>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
- Zenject::CopyNonLazyBinder::CopyNonLazyBinder(Zenject::BindInfo bindInfo)  : Zenject::NonLazyBinder(THROW_UNLESS(::il2cpp_utils::New<CopyNonLazyBinder>(bindInfo))) {}
+ Zenject::CopyNonLazyBinder Zenject::CopyNonLazyBinder::New_ctor(Zenject::BindInfo bindInfo)  {
+Zenject::CopyNonLazyBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::CopyNonLazyBinder>(bindInfo))};
+return o;
+}
  void Zenject::CopyNonLazyBinder::_ctor(Zenject::BindInfo bindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::CopyNonLazyBinder>::get(),

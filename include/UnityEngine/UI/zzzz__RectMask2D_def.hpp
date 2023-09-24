@@ -3,51 +3,51 @@
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace UnityEngine {
-struct Vector2Int;
+class Canvas;
+}
+namespace UnityEngine::UI {
+class RectangularVertexClipper;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::UI {
+class IClippable;
+}
+namespace UnityEngine::UI {
+class IClipper;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::UI {
-class MaskableGraphic;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine {
 class Camera;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-class RectTransform;
+struct Vector2Int;
 }
 namespace UnityEngine {
 class ICanvasRaycastFilter;
-}
-namespace UnityEngine::UI {
-class RectangularVertexClipper;
-}
-namespace UnityEngine::UI {
-class IClippable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UI {
-class IClipper;
-}
-namespace UnityEngine {
-struct Vector3;
+class MaskableGraphic;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -212,8 +212,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get_m_Corners() const;
 /// @brief Method get_rectTransform addr 0x2c068d0 size 0x58 virtual false final false
  UnityEngine::RectTransform get_rectTransform() ;
 
-// Ctor Parameters []
-explicit RectMask2D() ;
+static UnityEngine::UI::RectMask2D New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c06928 size 0x158 virtual false final false
  void _ctor() ;

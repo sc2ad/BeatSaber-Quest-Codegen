@@ -61,8 +61,7 @@ static int32_t getdomainname(::ArrayW<uint8_t> name, int32_t len) ;
 /// @brief Method get_DomainName addr 0x285dd8c size 0x17c virtual true final false
  ::StringW get_DomainName() ;
 
-// Ctor Parameters []
-explicit CommonUnixIPGlobalProperties() ;
+static System::Net::NetworkInformation::CommonUnixIPGlobalProperties New_ctor() ;
 
 /// @brief Method .ctor addr 0x285df08 size 0x8 virtual false final false
  void _ctor() ;

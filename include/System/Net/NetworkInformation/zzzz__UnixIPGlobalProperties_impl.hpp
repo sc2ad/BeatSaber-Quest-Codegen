@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::NetworkInformation::UnixIPGlobalProperties::UnixIPGlobalProperties()  : System::Net::NetworkInformation::CommonUnixIPGlobalProperties(THROW_UNLESS(::il2cpp_utils::New<UnixIPGlobalProperties>())) {}
+ System::Net::NetworkInformation::UnixIPGlobalProperties System::Net::NetworkInformation::UnixIPGlobalProperties::New_ctor()  {
+System::Net::NetworkInformation::UnixIPGlobalProperties o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::UnixIPGlobalProperties>())};
+return o;
+}
  void System::Net::NetworkInformation::UnixIPGlobalProperties::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::UnixIPGlobalProperties>::get(),

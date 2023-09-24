@@ -5,28 +5,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Text {
-class StringBuilder;
-}
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
-}
-namespace System {
-class IFormatProvider;
-}
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
 namespace System {
-struct DateTime;
+struct TimeSpan;
+}
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 template<typename T>
 struct Span_1;
 }
 namespace System {
-struct TimeSpan;
+struct DateTime;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System {

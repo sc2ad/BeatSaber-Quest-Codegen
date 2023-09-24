@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ActionResult_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ActionResult_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::ProBuilder::UnityEngine__ProBuilder__ActionResult__Status::UnityEngine__ProBuilder__ActionResult__Status(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -249,8 +250,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "status", ty: "UnityEngine::ProBuilder::UnityEngine__ProBuilder__ActionResult__Status", modifiers: "", def_value: None }, CppParam { name: "notification", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::ActionResult::ActionResult(UnityEngine::ProBuilder::UnityEngine__ProBuilder__ActionResult__Status status, ::StringW notification)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ActionResult>(status, notification))) {}
+ UnityEngine::ProBuilder::ActionResult UnityEngine::ProBuilder::ActionResult::New_ctor(UnityEngine::ProBuilder::UnityEngine__ProBuilder__ActionResult__Status status, ::StringW notification)  {
+UnityEngine::ProBuilder::ActionResult o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::ActionResult>(status, notification))};
+return o;
+}
  void UnityEngine::ProBuilder::ActionResult::_ctor(UnityEngine::ProBuilder::UnityEngine__ProBuilder__ActionResult__Status status, ::StringW notification)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::ActionResult>::get(),

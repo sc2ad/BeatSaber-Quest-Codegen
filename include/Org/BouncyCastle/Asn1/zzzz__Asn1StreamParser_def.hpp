@@ -82,20 +82,17 @@ constexpr ::ArrayW<::ArrayW<uint8_t>> __get_tmpBuffers() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit Asn1StreamParser(System::IO::Stream inStream) ;
+static Org::BouncyCastle::Asn1::Asn1StreamParser New_ctor(System::IO::Stream inStream) ;
 
 /// @brief Method .ctor addr 0x1129a1c size 0x30 virtual false final false
  void _ctor(System::IO::Stream inStream) ;
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Asn1StreamParser(System::IO::Stream inStream, int32_t limit) ;
+static Org::BouncyCastle::Asn1::Asn1StreamParser New_ctor(System::IO::Stream inStream, int32_t limit) ;
 
 /// @brief Method .ctor addr 0x112b178 size 0xf0 virtual false final false
  void _ctor(System::IO::Stream inStream, int32_t limit) ;
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Asn1StreamParser(::ArrayW<uint8_t> encoding) ;
+static Org::BouncyCastle::Asn1::Asn1StreamParser New_ctor(::ArrayW<uint8_t> encoding) ;
 
 /// @brief Method .ctor addr 0x112ed20 size 0x80 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoding) ;

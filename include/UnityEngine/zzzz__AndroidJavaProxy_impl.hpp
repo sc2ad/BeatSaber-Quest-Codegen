@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaClass_def.hpp"
 #include "UnityEngine/zzzz__GlobalJavaObjectRef_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaClass_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 //  Writing Method size for method: UnityEngine::AndroidJavaProxy._ctor
 template<>
 
@@ -197,8 +197,10 @@ return ::cordl_internals::getStaticField<UnityEngine::GlobalJavaObjectRef, "s_Ja
  ::cordl_internals::intptr_t UnityEngine::AndroidJavaProxy::__get_s_HashCodeMethodID()  {
 return ::cordl_internals::getStaticField<::cordl_internals::intptr_t, "s_HashCodeMethodID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaProxy>::get>();
 }
-// Ctor Parameters [CppParam { name: "javaInterface", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaProxy::AndroidJavaProxy(::StringW javaInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaProxy>(javaInterface))) {}
+ UnityEngine::AndroidJavaProxy UnityEngine::AndroidJavaProxy::New_ctor(::StringW javaInterface)  {
+UnityEngine::AndroidJavaProxy o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaProxy>(javaInterface))};
+return o;
+}
  void UnityEngine::AndroidJavaProxy::_ctor(::StringW javaInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaProxy>::get(),
@@ -208,8 +210,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, javaInterface);
 }
-// Ctor Parameters [CppParam { name: "javaInterface", ty: "UnityEngine::AndroidJavaClass", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaProxy::AndroidJavaProxy(UnityEngine::AndroidJavaClass javaInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaProxy>(javaInterface))) {}
+ UnityEngine::AndroidJavaProxy UnityEngine::AndroidJavaProxy::New_ctor(UnityEngine::AndroidJavaClass javaInterface)  {
+UnityEngine::AndroidJavaProxy o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaProxy>(javaInterface))};
+return o;
+}
  void UnityEngine::AndroidJavaProxy::_ctor(UnityEngine::AndroidJavaClass javaInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaProxy>::get(),

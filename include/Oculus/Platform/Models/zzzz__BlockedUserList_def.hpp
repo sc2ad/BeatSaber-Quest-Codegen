@@ -10,7 +10,7 @@ class BlockedUserList;
 // Type: Oculus.Platform.Models::BlockedUserList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13395)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1131 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1131 }), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13396))
 // CS Name: Oculus.Platform.Models.BlockedUserList
 class CORDL_TYPE BlockedUserList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::BlockedUser> {
@@ -49,8 +49,7 @@ constexpr explicit BlockedUserList(void* ptr) noexcept : Oculus::Platform::Model
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit BlockedUserList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::BlockedUserList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259d16c size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

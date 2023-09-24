@@ -47,8 +47,7 @@ constexpr explicit ExcludeFromPresetAttribute(void* ptr) noexcept : System::Attr
 
 // Methods
 
-// Ctor Parameters []
-explicit ExcludeFromPresetAttribute() ;
+static UnityEngine::ExcludeFromPresetAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5b400 size 0x8 virtual false final false
  void _ctor() ;

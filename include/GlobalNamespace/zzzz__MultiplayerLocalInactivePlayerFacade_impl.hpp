@@ -2,17 +2,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_2_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerFacade_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerFacade_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerOutroAnimator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSpectatorController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerSpectatorController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerOutroAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsListener_def.hpp"
+#include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
 #include "GlobalNamespace/zzzz__IStartSeekSongControllerProvider_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLocalInactivePlayerFacade.get_songController
 template<>
 
@@ -364,8 +365,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, results);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalInactivePlayerFacade::MultiplayerLocalInactivePlayerFacade()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalInactivePlayerFacade>())) {}
+ GlobalNamespace::MultiplayerLocalInactivePlayerFacade GlobalNamespace::MultiplayerLocalInactivePlayerFacade::New_ctor()  {
+GlobalNamespace::MultiplayerLocalInactivePlayerFacade o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalInactivePlayerFacade>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalInactivePlayerFacade::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalInactivePlayerFacade>::get(),
@@ -392,8 +395,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory::GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory()  : Zenject::PlaceholderFactory_2<GlobalNamespace::MultiplayerPlayerStartState,GlobalNamespace::MultiplayerLocalInactivePlayerFacade>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLocalInactivePlayerFacade__Factory>::get(),

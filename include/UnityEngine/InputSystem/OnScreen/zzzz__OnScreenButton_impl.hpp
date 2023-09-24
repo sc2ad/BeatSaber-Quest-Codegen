@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenControl_impl.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenButton_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::OnScreen::OnScreenButton.OnPointerUp
 template<>
 
@@ -144,8 +144,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::OnScreen::OnScreenButton::OnScreenButton()  : UnityEngine::InputSystem::OnScreen::OnScreenControl(THROW_UNLESS(::il2cpp_utils::New<OnScreenButton>())) {}
+ UnityEngine::InputSystem::OnScreen::OnScreenButton UnityEngine::InputSystem::OnScreen::OnScreenButton::New_ctor()  {
+UnityEngine::InputSystem::OnScreen::OnScreenButton o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::OnScreen::OnScreenButton>())};
+return o;
+}
  void UnityEngine::InputSystem::OnScreen::OnScreenButton::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::OnScreen::OnScreenButton>::get(),

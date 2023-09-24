@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksUpdater_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapCallbacksUpdater.LateUpdate
 template<>
 
@@ -110,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapCallbacksUpdater::BeatmapCallbacksUpdater()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatmapCallbacksUpdater>())) {}
+ GlobalNamespace::BeatmapCallbacksUpdater GlobalNamespace::BeatmapCallbacksUpdater::New_ctor()  {
+GlobalNamespace::BeatmapCallbacksUpdater o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapCallbacksUpdater>())};
+return o;
+}
  void GlobalNamespace::BeatmapCallbacksUpdater::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapCallbacksUpdater>::get(),

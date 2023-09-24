@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Pkix/zzzz__PkixParameters_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathChecker_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CertStoreSelector_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathChecker_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::PkixParameters._ctor
 template<>
 
@@ -892,8 +892,10 @@ constexpr void Org::BouncyCastle::Pkix::PkixParameters::__set_useDeltas(bool val
 constexpr bool Org::BouncyCastle::Pkix::PkixParameters::__get_useDeltas() const {
 return ::cordl_internals::getInstanceField<bool, 0x8c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "trustAnchors", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::PkixParameters::PkixParameters(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixParameters>(trustAnchors))) {}
+ Org::BouncyCastle::Pkix::PkixParameters Org::BouncyCastle::Pkix::PkixParameters::New_ctor(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors)  {
+Org::BouncyCastle::Pkix::PkixParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixParameters>(trustAnchors))};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixParameters::_ctor(Org::BouncyCastle::Utilities::Collections::ISet trustAnchors)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixParameters>::get(),

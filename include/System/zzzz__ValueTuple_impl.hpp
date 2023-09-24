@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__ValueTuple_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 #include "System/zzzz__IValueTupleInternal_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 //  Writing Method size for method: System::ValueTuple.Equals
 template<>
 

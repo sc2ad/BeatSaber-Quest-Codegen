@@ -66,8 +66,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers::__get_PkixOcspServiceLocator()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "PkixOcspServiceLocator", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers::OcspObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OcspObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers>::get(),

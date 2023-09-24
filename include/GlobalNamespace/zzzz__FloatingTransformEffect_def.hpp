@@ -3,19 +3,19 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Vector2;
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace Zenject {
+class ITickable;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace Zenject {
-class ITickable;
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -213,8 +213,7 @@ constexpr UnityEngine::Quaternion __get__targetRotation() const;
 /// @brief Method GetPoint addr 0x2250460 size 0x8c virtual false final false
  UnityEngine::Vector3 GetPoint(float_t time) ;
 
-// Ctor Parameters []
-explicit FloatingTransformEffect() ;
+static GlobalNamespace::FloatingTransformEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x22504ec size 0xa8 virtual false final false
  void _ctor() ;

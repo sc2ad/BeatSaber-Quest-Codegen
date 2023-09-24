@@ -6,16 +6,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -97,26 +97,22 @@ static Org::BouncyCastle::Asn1::DerBitString GetInstance(::bs_hook::Il2CppWrappe
 /// @brief Method GetInstance addr 0xddd4f0 size 0x140 virtual false final false
 static Org::BouncyCastle::Asn1::DerBitString GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "padBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DerBitString(::ArrayW<uint8_t> data, int32_t padBits) ;
+static Org::BouncyCastle::Asn1::DerBitString New_ctor(::ArrayW<uint8_t> data, int32_t padBits) ;
 
 /// @brief Method .ctor addr 0xddd7b8 size 0x168 virtual false final false
  void _ctor(::ArrayW<uint8_t> data, int32_t padBits) ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerBitString(::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Asn1::DerBitString New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0xddd920 size 0x8 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "namedBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DerBitString(int32_t namedBits) ;
+static Org::BouncyCastle::Asn1::DerBitString New_ctor(int32_t namedBits) ;
 
 /// @brief Method .ctor addr 0xddd928 size 0x128 virtual false final false
  void _ctor(int32_t namedBits) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit DerBitString(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+static Org::BouncyCastle::Asn1::DerBitString New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method .ctor addr 0xddda50 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Text {
+class StringBuilder;
+}
 namespace OVRSimpleJSON {
 struct OVRSimpleJSON__JSONNode__Enumerator;
 }
@@ -13,9 +16,6 @@ struct JSONNodeType;
 }
 namespace OVRSimpleJSON {
 struct JSONTextMode;
-}
-namespace System::Text {
-class StringBuilder;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {
@@ -112,14 +112,12 @@ constexpr double_t __get_m_Data() const;
 /// @brief Method set_AsLong addr 0x2640508 size 0xc virtual true final false
  void set_AsLong(int64_t value) ;
 
-// Ctor Parameters [CppParam { name: "aData", ty: "double_t", modifiers: "", def_value: None }]
-explicit JSONNumber(double_t aData) ;
+static OVRSimpleJSON::JSONNumber New_ctor(double_t aData) ;
 
 /// @brief Method .ctor addr 0x2640514 size 0x28 virtual false final false
  void _ctor(double_t aData) ;
 
-// Ctor Parameters [CppParam { name: "aData", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JSONNumber(::StringW aData) ;
+static OVRSimpleJSON::JSONNumber New_ctor(::StringW aData) ;
 
 /// @brief Method .ctor addr 0x264053c size 0x34 virtual false final false
  void _ctor(::StringW aData) ;

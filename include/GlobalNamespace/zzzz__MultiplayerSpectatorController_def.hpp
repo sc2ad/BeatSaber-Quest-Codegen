@@ -7,36 +7,42 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
 }
 namespace GlobalNamespace {
-class MultiplayerSpectatingSpotManager;
+class MultiplayerLocalInactivePlayerSongSyncController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__MultiplayerController__State;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18;
+}
+namespace GlobalNamespace {
+class MultiplayerSpectatingSpotManager;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace GlobalNamespace {
-class MultiplayerController;
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class FadeInOutController;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerSongSyncController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -133,8 +139,7 @@ constexpr GlobalNamespace::IMultiplayerSpectatingSpot __get__defaultSpot_5__2() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2106fbc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -237,8 +242,7 @@ constexpr GlobalNamespace::MultiplayerSpectatorController __get___4__this() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2106fe4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -397,8 +401,7 @@ constexpr GlobalNamespace::IMultiplayerSpectatingSpot __get__currentSpot() const
 /// @brief Method HandleStateChanged addr 0x210700c size 0x2c virtual false final false
  void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
-// Ctor Parameters []
-explicit MultiplayerSpectatorController() ;
+static GlobalNamespace::MultiplayerSpectatorController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2107038 size 0x8 virtual false final false
  void _ctor() ;

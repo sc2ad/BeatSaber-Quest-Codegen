@@ -191,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fullPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isDirectory", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::FileBrowserItem::FileBrowserItem(::StringW displayName, ::StringW fullPath, bool isDirectory)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FileBrowserItem>(displayName, fullPath, isDirectory))) {}
+ GlobalNamespace::FileBrowserItem GlobalNamespace::FileBrowserItem::New_ctor(::StringW displayName, ::StringW fullPath, bool isDirectory)  {
+GlobalNamespace::FileBrowserItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FileBrowserItem>(displayName, fullPath, isDirectory))};
+return o;
+}
  void GlobalNamespace::FileBrowserItem::_ctor(::StringW displayName, ::StringW fullPath, bool isDirectory)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FileBrowserItem>::get(),

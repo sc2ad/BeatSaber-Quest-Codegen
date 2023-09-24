@@ -3,32 +3,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Attribute;
+namespace System::ComponentModel {
+class ICustomTypeDescriptor;
 }
 namespace System::ComponentModel {
 class AttributeCollection;
 }
 namespace System::ComponentModel {
-class EventDescriptorCollection;
+class TypeConverter;
 }
 namespace System::ComponentModel {
-class TypeConverter;
+class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
 class EventDescriptor;
 }
 namespace System::ComponentModel {
-class ICustomTypeDescriptor;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
+class PropertyDescriptor;
 }
 namespace System {
 class Type;
 }
 namespace System::ComponentModel {
-class PropertyDescriptor;
+class EventDescriptorCollection;
+}
+namespace System {
+class Attribute;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -88,8 +88,7 @@ constexpr System::ComponentModel::ICustomTypeDescriptor __get__parent() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CustomTypeDescriptor() ;
+static System::ComponentModel::CustomTypeDescriptor New_ctor() ;
 
 /// @brief Method .ctor addr 0x277a2c4 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 namespace Org::BouncyCastle::Crypto {
-class ICipherBuilder;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class ICipherBuilder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

@@ -24,8 +24,10 @@ constexpr void Oculus::Platform::Models::LivestreamingStartResult::__set_Streami
 constexpr Oculus::Platform::LivestreamingStartStatus Oculus::Platform::Models::LivestreamingStartResult::__get_StreamingResult() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::LivestreamingStartStatus, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::LivestreamingStartResult::LivestreamingStartResult(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LivestreamingStartResult>(o))) {}
+ Oculus::Platform::Models::LivestreamingStartResult Oculus::Platform::Models::LivestreamingStartResult::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::LivestreamingStartResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::LivestreamingStartResult>(o))};
+return o;
+}
  void Oculus::Platform::Models::LivestreamingStartResult::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::LivestreamingStartResult>::get(),

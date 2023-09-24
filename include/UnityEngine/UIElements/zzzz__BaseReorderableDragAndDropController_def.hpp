@@ -2,35 +2,35 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class ICollectionDragAndDropController;
-}
-namespace UnityEngine::UIElements {
-class IListDragAndDropArgs;
-}
 namespace UnityEngine::UIElements {
 class StartDragArgs;
-}
-namespace UnityEngine::UIElements {
-struct DragVisualMode;
-}
-namespace UnityEngine::UIElements {
-class IReorderable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-template<typename TArgs>
-class IDragAndDropController_1;
+class BaseVerticalCollectionView;
 }
 namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
+class IReorderable;
+}
+namespace UnityEngine::UIElements {
+struct DragVisualMode;
+}
+namespace UnityEngine::UIElements {
+class ICollectionDragAndDropController;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::UIElements {
+class IListDragAndDropArgs;
+}
+namespace UnityEngine::UIElements {
+template<typename TArgs>
+class IDragAndDropController_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -113,8 +113,7 @@ constexpr bool __get__enableReordering_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "view", ty: "UnityEngine::UIElements::BaseVerticalCollectionView", modifiers: "", def_value: None }]
-explicit BaseReorderableDragAndDropController(UnityEngine::UIElements::BaseVerticalCollectionView view) ;
+static UnityEngine::UIElements::BaseReorderableDragAndDropController New_ctor(UnityEngine::UIElements::BaseVerticalCollectionView view) ;
 
 /// @brief Method .ctor addr 0x2c9025c size 0x30 virtual false final false
  void _ctor(UnityEngine::UIElements::BaseVerticalCollectionView view) ;

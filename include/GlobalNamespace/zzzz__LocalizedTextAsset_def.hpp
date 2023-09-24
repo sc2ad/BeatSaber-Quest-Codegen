@@ -4,15 +4,24 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Polyglot {
-struct Language;
-}
 namespace UnityEngine {
 class TextAsset;
+}
+namespace Polyglot {
+struct Language;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalizedTextAsset__TextInfo;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LocalizedTextAsset____c;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,8 +93,7 @@ constexpr UnityEngine::TextAsset __get_localizedText() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalizedTextAsset__TextInfo() ;
+static GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x219d54c size 0x8 virtual false final false
  void _ctor() ;
@@ -145,8 +153,7 @@ constexpr Polyglot::Language __get_language() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0() ;
+static GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x219d53c size 0x8 virtual false final false
  void _ctor() ;
@@ -215,8 +222,7 @@ static System::Func_2<GlobalNamespace::GlobalNamespace__LocalizedTextAsset__Text
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LocalizedTextAsset____c() ;
+static GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x219d5dc size 0x8 virtual false final false
  void _ctor() ;
@@ -304,8 +310,7 @@ constexpr GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo __get__
 /// @brief Method get_localizedText addr 0x219d230 size 0x30c virtual false final false
  ::StringW get_localizedText() ;
 
-// Ctor Parameters []
-explicit LocalizedTextAsset() ;
+static GlobalNamespace::LocalizedTextAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x219d544 size 0x8 virtual false final false
  void _ctor() ;

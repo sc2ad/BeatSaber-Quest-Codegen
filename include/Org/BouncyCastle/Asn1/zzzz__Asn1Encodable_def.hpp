@@ -86,8 +86,7 @@ static constexpr ::ConstString  Ber{u"BER"};
 /// @brief Method ToAsn1Object addr 0x0 size 0xffffffffffffffff virtual true final false
  Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
-// Ctor Parameters []
-explicit Asn1Encodable() ;
+static Org::BouncyCastle::Asn1::Asn1Encodable New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd6454 size 0x8 virtual false final false
  void _ctor() ;

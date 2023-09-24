@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "GlobalNamespace/zzzz__SongSelectionMode_def.hpp"
 #include "GlobalNamespace/zzzz__InvitePolicy_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerMode_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerControlSettings_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "GlobalNamespace/zzzz__DiscoveryPolicy_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerMode_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerControlSettings_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameplayServerConfiguration._ctor
 template<>
 

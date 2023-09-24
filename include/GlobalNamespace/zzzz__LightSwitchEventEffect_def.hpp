@@ -3,17 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
-}
-namespace GlobalNamespace {
-class LightWithIdManager;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BeatmapCallbacksController;
 }
 namespace Tweening {
 class ColorTween;
@@ -22,19 +16,25 @@ namespace GlobalNamespace {
 class ColorSO;
 }
 namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
 }
 namespace Tweening {
 class SongTimeTweeningManager;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace GlobalNamespace {
 class ColorManager;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class ColorBoostBeatmapEventData;
+}
+namespace GlobalNamespace {
+class LightWithIdManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -266,8 +266,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__colorBoostBeatmapDa
 /// @brief Method SetColor addr 0x2263f44 size 0x24 virtual false final false
  void SetColor(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit LightSwitchEventEffect() ;
+static GlobalNamespace::LightSwitchEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2264384 size 0x8 virtual false final false
  void _ctor() ;

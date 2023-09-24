@@ -53,14 +53,12 @@ constexpr explicit MissingManifestResourceException(void* ptr) noexcept : System
 
 // Methods
 
-// Ctor Parameters []
-explicit MissingManifestResourceException() ;
+static System::Resources::MissingManifestResourceException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2370ca4 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit MissingManifestResourceException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Resources::MissingManifestResourceException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2370d00 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

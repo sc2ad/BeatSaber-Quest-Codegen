@@ -36,8 +36,10 @@ constexpr void System::Diagnostics::DebuggerDisplayAttribute::__set_type(::Strin
 constexpr ::StringW System::Diagnostics::DebuggerDisplayAttribute::__get_type() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- System::Diagnostics::DebuggerDisplayAttribute::DebuggerDisplayAttribute(::StringW value)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DebuggerDisplayAttribute>(value))) {}
+ System::Diagnostics::DebuggerDisplayAttribute System::Diagnostics::DebuggerDisplayAttribute::New_ctor(::StringW value)  {
+System::Diagnostics::DebuggerDisplayAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::DebuggerDisplayAttribute>(value))};
+return o;
+}
  void System::Diagnostics::DebuggerDisplayAttribute::_ctor(::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::DebuggerDisplayAttribute>::get(),

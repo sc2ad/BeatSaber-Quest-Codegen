@@ -1,7 +1,7 @@
 #pragma once
 #include "Polyglot/zzzz__CsvWriter_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: Polyglot::CsvWriter.AppendRow
 template<>
 
@@ -97,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, element);
 }
-// Ctor Parameters []
- Polyglot::CsvWriter::CsvWriter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CsvWriter>())) {}
+ Polyglot::CsvWriter Polyglot::CsvWriter::New_ctor()  {
+Polyglot::CsvWriter o{THROW_UNLESS(::il2cpp_utils::New<Polyglot::CsvWriter>())};
+return o;
+}
  void Polyglot::CsvWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Polyglot::CsvWriter>::get(),

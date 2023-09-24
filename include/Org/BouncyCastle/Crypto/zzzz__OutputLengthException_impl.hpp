@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::OutputLengthException::OutputLengthException()  : Org::BouncyCastle::Crypto::DataLengthException(THROW_UNLESS(::il2cpp_utils::New<OutputLengthException>())) {}
+ Org::BouncyCastle::Crypto::OutputLengthException Org::BouncyCastle::Crypto::OutputLengthException::New_ctor()  {
+Org::BouncyCastle::Crypto::OutputLengthException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::OutputLengthException>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::OutputLengthException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::OutputLengthException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::OutputLengthException::OutputLengthException(::StringW message)  : Org::BouncyCastle::Crypto::DataLengthException(THROW_UNLESS(::il2cpp_utils::New<OutputLengthException>(message))) {}
+ Org::BouncyCastle::Crypto::OutputLengthException Org::BouncyCastle::Crypto::OutputLengthException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Crypto::OutputLengthException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::OutputLengthException>(message))};
+return o;
+}
  void Org::BouncyCastle::Crypto::OutputLengthException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::OutputLengthException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::OutputLengthException::OutputLengthException(::StringW message, System::Exception exception)  : Org::BouncyCastle::Crypto::DataLengthException(THROW_UNLESS(::il2cpp_utils::New<OutputLengthException>(message, exception))) {}
+ Org::BouncyCastle::Crypto::OutputLengthException Org::BouncyCastle::Crypto::OutputLengthException::New_ctor(::StringW message, System::Exception exception)  {
+Org::BouncyCastle::Crypto::OutputLengthException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::OutputLengthException>(message, exception))};
+return o;
+}
  void Org::BouncyCastle::Crypto::OutputLengthException::_ctor(::StringW message, System::Exception exception)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::OutputLengthException>::get(),

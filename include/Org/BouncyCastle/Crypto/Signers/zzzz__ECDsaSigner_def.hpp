@@ -4,32 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Signers {
 class IDsaKCalculator;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDsaExt;
+class ICipherParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsa;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDsa;
+class IDsaExt;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECKeyParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
@@ -120,14 +120,12 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ECDsaSigner() ;
+static Org::BouncyCastle::Crypto::Signers::ECDsaSigner New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb9c54 size 0x70 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "kCalculator", ty: "Org::BouncyCastle::Crypto::Signers::IDsaKCalculator", modifiers: "", def_value: None }]
-explicit ECDsaSigner(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator kCalculator) ;
+static Org::BouncyCastle::Crypto::Signers::ECDsaSigner New_ctor(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator kCalculator) ;
 
 /// @brief Method .ctor addr 0xeb9cc4 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Signers::IDsaKCalculator kCalculator) ;

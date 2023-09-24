@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Ess::ContentIdentifier, false>(nullptr, ___internal_method, o);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ess::ContentIdentifier::ContentIdentifier(Org::BouncyCastle::Asn1::Asn1OctetString value)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ContentIdentifier>(value))) {}
+ Org::BouncyCastle::Asn1::Ess::ContentIdentifier Org::BouncyCastle::Asn1::Ess::ContentIdentifier::New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString value)  {
+Org::BouncyCastle::Asn1::Ess::ContentIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ess::ContentIdentifier>(value))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ess::ContentIdentifier::_ctor(Org::BouncyCastle::Asn1::Asn1OctetString value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ess::ContentIdentifier>::get(),
@@ -114,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ess::ContentIdentifier::ContentIdentifier(::ArrayW<uint8_t> value)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ContentIdentifier>(value))) {}
+ Org::BouncyCastle::Asn1::Ess::ContentIdentifier Org::BouncyCastle::Asn1::Ess::ContentIdentifier::New_ctor(::ArrayW<uint8_t> value)  {
+Org::BouncyCastle::Asn1::Ess::ContentIdentifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ess::ContentIdentifier>(value))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ess::ContentIdentifier::_ctor(::ArrayW<uint8_t> value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ess::ContentIdentifier>::get(),

@@ -5,10 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Globalization {
-class CultureInfo;
+class MethodBase;
 }
 namespace System::Reflection {
 struct ParameterModifier;
@@ -17,13 +14,16 @@ namespace System {
 class Type;
 }
 namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Reflection {
 class PropertyInfo;
 }
 namespace System::Reflection {
+class FieldInfo;
+}
+namespace System::Reflection {
 struct BindingFlags;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -71,8 +71,7 @@ constexpr explicit Binder(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit Binder() ;
+static System::Reflection::Binder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2378eb0 size 0x8 virtual false final false
  void _ctor() ;

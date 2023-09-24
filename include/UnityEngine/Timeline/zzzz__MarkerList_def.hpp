@@ -3,34 +3,34 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine::Timeline {
+class TrackAsset;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine::Timeline {
+class IMarker;
+}
 namespace UnityEngine::Playables {
 class PlayableAsset;
-}
-namespace UnityEngine::Timeline {
-class TimelineAsset;
 }
 namespace System {
 class Type;
 }
-namespace UnityEngine::Timeline {
-class TrackAsset;
-}
-namespace UnityEngine::Timeline {
-class IMarker;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::Timeline {
+class TimelineAsset;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

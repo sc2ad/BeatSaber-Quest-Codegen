@@ -6,13 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -75,8 +75,7 @@ static Org::BouncyCastle::Asn1::DerVideotexString GetInstance(::bs_hook::Il2CppW
 /// @brief Method GetInstance addr 0x113a940 size 0x130 virtual false final false
 static Org::BouncyCastle::Asn1::DerVideotexString GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerVideotexString(::ArrayW<uint8_t> encoding) ;
+static Org::BouncyCastle::Asn1::DerVideotexString New_ctor(::ArrayW<uint8_t> encoding) ;
 
 /// @brief Method .ctor addr 0x112c2d4 size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoding) ;

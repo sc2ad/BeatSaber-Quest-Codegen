@@ -1,7 +1,7 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__Test_HAPI_ParmInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::Test_HAPI_ParmInfo._ctor
 template<>
 
@@ -46,8 +46,10 @@ constexpr void HoudiniEngineUnity::Test_HAPI_ParmInfo::__set_self(HoudiniEngineU
 constexpr HoudiniEngineUnity::HAPI_ParmInfo HoudiniEngineUnity::Test_HAPI_ParmInfo::__get_self() const {
 return ::cordl_internals::getInstanceField<HoudiniEngineUnity::HAPI_ParmInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "HoudiniEngineUnity::HAPI_ParmInfo", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_HAPI_ParmInfo::Test_HAPI_ParmInfo(HoudiniEngineUnity::HAPI_ParmInfo self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_HAPI_ParmInfo>(self))) {}
+ HoudiniEngineUnity::Test_HAPI_ParmInfo HoudiniEngineUnity::Test_HAPI_ParmInfo::New_ctor(HoudiniEngineUnity::HAPI_ParmInfo self)  {
+HoudiniEngineUnity::Test_HAPI_ParmInfo o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_HAPI_ParmInfo>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_HAPI_ParmInfo::_ctor(HoudiniEngineUnity::HAPI_ParmInfo self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_HAPI_ParmInfo>::get(),

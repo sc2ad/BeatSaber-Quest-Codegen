@@ -9,6 +9,12 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
+class UnityEngine__AudioClip__PCMSetPositionCallback;
+}
+namespace UnityEngine {
+class UnityEngine__AudioClip__PCMReaderCallback;
+}
+namespace UnityEngine {
 struct AudioDataLoadState;
 }
 // Forward declare root types
@@ -63,8 +69,7 @@ constexpr explicit UnityEngine__AudioClip__PCMReaderCallback(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__AudioClip__PCMReaderCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__AudioClip__PCMReaderCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b25670 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -118,8 +123,7 @@ constexpr explicit UnityEngine__AudioClip__PCMSetPositionCallback(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__AudioClip__PCMSetPositionCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b25758 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -205,8 +209,7 @@ constexpr UnityEngine::UnityEngine__AudioClip__PCMSetPositionCallback __get_m_PC
 
 // Methods
 
-// Ctor Parameters []
-explicit AudioClip() ;
+static UnityEngine::AudioClip New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b24ab8 size 0x5c virtual false final false
  void _ctor() ;

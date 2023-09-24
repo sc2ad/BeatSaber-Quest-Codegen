@@ -5,21 +5,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ResourceLocationMap;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
 namespace UnityEngine::ResourceManagement::Util {
-struct ObjectInitializationData;
+struct SerializedType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::ResourceManagement::Util {
-struct SerializedType;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+struct ObjectInitializationData;
 }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ResourceLocationMap;
+struct UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__Bucket;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -251,8 +257,7 @@ constexpr System::Type __get_m_Type() const;
 /// @brief Method Hash addr 0x289ccd0 size 0x54 virtual true final true
  int32_t Hash(System::Type t) ;
 
-// Ctor Parameters [CppParam { name: "locator", ty: "UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap", modifiers: "", def_value: None }, CppParam { name: "internalId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "providerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "dependencyKey", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "depHash", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "primaryKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap locator, ::StringW internalId, ::StringW providerId, ::bs_hook::Il2CppWrapperType dependencyKey, ::bs_hook::Il2CppWrapperType data, int32_t depHash, ::StringW primaryKey, System::Type type) ;
+static UnityEngine::AddressableAssets::ResourceLocators::UnityEngine__AddressableAssets__ResourceLocators__ContentCatalogData__CompactLocation New_ctor(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap locator, ::StringW internalId, ::StringW providerId, ::bs_hook::Il2CppWrapperType dependencyKey, ::bs_hook::Il2CppWrapperType data, int32_t depHash, ::StringW primaryKey, System::Type type) ;
 
 /// @brief Method .ctor addr 0x289c148 size 0x134 virtual false final false
  void _ctor(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap locator, ::StringW internalId, ::StringW providerId, ::bs_hook::Il2CppWrapperType dependencyKey, ::bs_hook::Il2CppWrapperType data, int32_t depHash, ::StringW primaryKey, System::Type type) ;
@@ -457,8 +462,7 @@ constexpr ::ArrayW<::StringW> __get_m_InternalIdPrefixes() const;
 /// @brief Method ExpandInternalId addr 0x289c088 size 0xc0 virtual false final false
 static ::StringW ExpandInternalId(::ArrayW<::StringW> internalIdPrefixes, ::StringW v) ;
 
-// Ctor Parameters []
-explicit ContentCatalogData() ;
+static UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData New_ctor() ;
 
 /// @brief Method .ctor addr 0x289c2e4 size 0x7c virtual false final false
  void _ctor() ;

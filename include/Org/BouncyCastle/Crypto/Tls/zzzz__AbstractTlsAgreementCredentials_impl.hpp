@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCredentials_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsAgreementCredentials_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAgreementCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials.GenerateAgreement
 template<>
 
@@ -55,8 +55,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method, peerPublicKey);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials::AbstractTlsAgreementCredentials()  : Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials(THROW_UNLESS(::il2cpp_utils::New<AbstractTlsAgreementCredentials>())) {}
+ Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials>::get(),

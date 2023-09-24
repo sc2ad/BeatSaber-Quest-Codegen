@@ -1,12 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine::Pool {
 template<typename T>
 class IObjectPool_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {

@@ -114,8 +114,10 @@ constexpr void GlobalNamespace::AvatarSaveData::__set_clothesDetailColor(UnityEn
 constexpr UnityEngine::Color GlobalNamespace::AvatarSaveData::__get_clothesDetailColor() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Color, 0xc0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarSaveData::AvatarSaveData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AvatarSaveData>())) {}
+ GlobalNamespace::AvatarSaveData GlobalNamespace::AvatarSaveData::New_ctor()  {
+GlobalNamespace::AvatarSaveData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarSaveData>())};
+return o;
+}
  void GlobalNamespace::AvatarSaveData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarSaveData>::get(),

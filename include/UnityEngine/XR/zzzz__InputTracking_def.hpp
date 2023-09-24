@@ -10,12 +10,15 @@ class Action_1;
 namespace UnityEngine::XR {
 struct XRNodeState;
 }
-namespace UnityEngine::XR {
-struct XRNode;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine::XR {
+struct UnityEngine__XR__InputTracking__TrackingStateEventType;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -75,6 +78,8 @@ __TrackingLost = 3,
 constexpr operator __UnityEngine__XR__InputTracking__TrackingStateEventType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__XR__InputTracking__TrackingStateEventType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

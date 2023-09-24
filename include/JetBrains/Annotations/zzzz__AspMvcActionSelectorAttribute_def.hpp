@@ -47,8 +47,7 @@ constexpr explicit AspMvcActionSelectorAttribute(void* ptr) noexcept : System::A
 
 // Methods
 
-// Ctor Parameters []
-explicit AspMvcActionSelectorAttribute() ;
+static JetBrains::Annotations::AspMvcActionSelectorAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41160 size 0x8 virtual false final false
  void _ctor() ;

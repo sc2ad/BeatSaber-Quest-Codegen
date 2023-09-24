@@ -5,35 +5,35 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Xml::Schema {
-struct XsdDateTimeFlags;
-}
 namespace System {
 class Type;
 }
 namespace System::Xml::Schema {
-class FacetsChecker;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
-}
-namespace System::Xml::Schema {
-class XmlValueConverter;
+class XmlSchemaType;
 }
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
 namespace System::Xml {
-class XmlNameTable;
+class IXmlNamespaceResolver;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
 }
 namespace System {
 class Exception;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
+class FacetsChecker;
 }
 namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlNameTable;
+}
+namespace System::Xml::Schema {
+struct XsdDateTimeFlags;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -124,8 +124,7 @@ constexpr System::Xml::Schema::XsdDateTimeFlags __get_dateTimeFlags() const;
 /// @brief Method get_TypeCode addr 0x2725e58 size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters [CppParam { name: "dateTimeFlags", ty: "System::Xml::Schema::XsdDateTimeFlags", modifiers: "", def_value: None }]
-explicit Datatype_dateTimeBase(System::Xml::Schema::XsdDateTimeFlags dateTimeFlags) ;
+static System::Xml::Schema::Datatype_dateTimeBase New_ctor(System::Xml::Schema::XsdDateTimeFlags dateTimeFlags) ;
 
 /// @brief Method .ctor addr 0x2725e60 size 0x68 virtual false final false
  void _ctor(System::Xml::Schema::XsdDateTimeFlags dateTimeFlags) ;

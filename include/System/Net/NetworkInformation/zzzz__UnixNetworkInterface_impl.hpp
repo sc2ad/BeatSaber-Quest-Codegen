@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__NetworkInterface_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterfaceType_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::UnixNetworkInterface._ctor
 template<>
 
@@ -120,8 +120,10 @@ constexpr void System::Net::NetworkInformation::UnixNetworkInterface::__set_type
 constexpr System::Net::NetworkInformation::NetworkInterfaceType System::Net::NetworkInformation::UnixNetworkInterface::__get_type() const {
 return ::cordl_internals::getInstanceField<System::Net::NetworkInformation::NetworkInterfaceType, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::NetworkInformation::UnixNetworkInterface::UnixNetworkInterface(::StringW name)  : System::Net::NetworkInformation::NetworkInterface(THROW_UNLESS(::il2cpp_utils::New<UnixNetworkInterface>(name))) {}
+ System::Net::NetworkInformation::UnixNetworkInterface System::Net::NetworkInformation::UnixNetworkInterface::New_ctor(::StringW name)  {
+System::Net::NetworkInformation::UnixNetworkInterface o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::UnixNetworkInterface>(name))};
+return o;
+}
  void System::Net::NetworkInformation::UnixNetworkInterface::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::UnixNetworkInterface>::get(),

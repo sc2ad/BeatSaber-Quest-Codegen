@@ -6,11 +6,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class Texture;
+namespace GlobalNamespace {
+class GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData;
 }
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace GlobalNamespace {
+class IBloomPrePassParams;
+}
+namespace GlobalNamespace {
+struct ToneMapping;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BloomPrePassRendererSO__PreallocationData;
 }
 namespace UnityEngine {
 class Camera;
@@ -18,11 +33,8 @@ class Camera;
 namespace UnityEngine {
 class Texture2D;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct ToneMapping;
+namespace UnityEngine::Rendering {
+class CommandBuffer;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -31,20 +43,14 @@ class Dictionary_2;
 namespace GlobalNamespace {
 class BloomFogSO;
 }
-namespace GlobalNamespace {
-class BloomPrePassLightTypeSO;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace GlobalNamespace {
-class IBloomPrePassParams;
+class BloomPrePassLightTypeSO;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__BloomPrePassLight__QuadData;
@@ -122,8 +128,7 @@ constexpr int32_t __get_preallocateCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BloomPrePassRendererSO__PreallocationData() ;
+static GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__PreallocationData New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f96268 size 0x10 virtual false final false
  void _ctor() ;
@@ -195,8 +200,7 @@ constexpr UnityEngine::Rendering::SubMeshDescriptor __get_subMeshDescriptor() co
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData() ;
+static GlobalNamespace::GlobalNamespace__BloomPrePassRendererSO__LightsRenderingData New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f95258 size 0x8 virtual false final false
  void _ctor() ;
@@ -365,8 +369,7 @@ static void SetDataToShaders(float_t stereoCameraEyeOffset, UnityEngine::Vector2
 /// @brief Method MatrixLerp addr 0x1f96038 size 0xb8 virtual false final false
  UnityEngine::Matrix4x4 MatrixLerp(UnityEngine::Matrix4x4 from, UnityEngine::Matrix4x4 to, float_t t) ;
 
-// Ctor Parameters []
-explicit BloomPrePassRendererSO() ;
+static GlobalNamespace::BloomPrePassRendererSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f960f0 size 0x7c virtual false final false
  void _ctor() ;

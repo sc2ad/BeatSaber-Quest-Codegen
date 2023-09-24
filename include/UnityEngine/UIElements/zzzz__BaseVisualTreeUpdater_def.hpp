@@ -1,27 +1,27 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Unity::Profiling {
-struct ProfilerMarker;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace UnityEngine::UIElements {
-class IVisualTreeUpdater;
+namespace System {
+class IDisposable;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
 }
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+class IVisualTreeUpdater;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -129,8 +129,7 @@ constexpr UnityEngine::UIElements::BaseVisualElementPanel __get_m_Panel() const;
 /// @brief Method OnVersionChanged addr 0x0 size 0xffffffffffffffff virtual true final false
  void OnVersionChanged(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::VersionChangeType versionChangeType) ;
 
-// Ctor Parameters []
-explicit BaseVisualTreeUpdater() ;
+static UnityEngine::UIElements::BaseVisualTreeUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c39ef8 size 0x8 virtual false final false
  void _ctor() ;

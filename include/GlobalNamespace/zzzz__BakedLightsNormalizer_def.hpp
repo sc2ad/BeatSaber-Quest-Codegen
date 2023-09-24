@@ -3,8 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-struct GlobalNamespace__LightConstants__BakeId;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace GlobalNamespace {
 class LightmapLightWithIds;
@@ -12,9 +13,8 @@ class LightmapLightWithIds;
 namespace GlobalNamespace {
 class LightWithIdManager;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace GlobalNamespace {
+struct GlobalNamespace__LightConstants__BakeId;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -147,8 +147,7 @@ static constexpr int32_t  kMaxFramesWithoutUpdate{5};
 /// @brief Method GetNormalizationMultiplier addr 0x1f9c334 size 0x48 virtual false final false
  float_t GetNormalizationMultiplier() ;
 
-// Ctor Parameters []
-explicit BakedLightsNormalizer() ;
+static GlobalNamespace::BakedLightsNormalizer New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9c37c size 0x94 virtual false final false
  void _ctor() ;

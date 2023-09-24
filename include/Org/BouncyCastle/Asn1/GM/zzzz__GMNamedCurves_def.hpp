@@ -3,26 +3,32 @@
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
 namespace System::Collections {
 class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParametersHolder;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParametersHolder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
+}
+namespace Org::BouncyCastle::Asn1::GM {
+class Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECPoint;
+}
+namespace Org::BouncyCastle::Asn1::GM {
+class Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -88,8 +94,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder() ;
+static Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__SM2P256V1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe0f180 size 0x8 virtual false final false
  void _ctor() ;
@@ -152,8 +157,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder() ;
+static Org::BouncyCastle::Asn1::GM::Org__BouncyCastle__Asn1__GM__GMNamedCurves__WapiP192V1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xe0f3c0 size 0x8 virtual false final false
  void _ctor() ;
@@ -237,8 +241,7 @@ static System::Collections::IEnumerable __declspec(property(get=get_Names))  Nam
 
 // Methods
 
-// Ctor Parameters []
-explicit GMNamedCurves() ;
+static Org::BouncyCastle::Asn1::GM::GMNamedCurves New_ctor() ;
 
 /// @brief Method .ctor addr 0xe0e748 size 0x8 virtual false final false
  void _ctor() ;

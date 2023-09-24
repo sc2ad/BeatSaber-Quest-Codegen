@@ -3,18 +3,21 @@
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-class LightColorGroupParent;
-}
-namespace GlobalNamespace {
-class IEditTimeValidated;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
+class IEditTimeValidated;
+}
+namespace GlobalNamespace {
+class LightColorGroupParent;
+}
+namespace GlobalNamespace {
 class LightWithIds;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LightColorGroup__LightColorGroupControlType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -72,6 +75,8 @@ __LightWithIdsCollection = 1,
 constexpr operator __GlobalNamespace__LightColorGroup__LightColorGroupControlType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LightColorGroup__LightColorGroupControlType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -166,8 +171,7 @@ constexpr GlobalNamespace::LightWithIds __get__lightWithIds() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LightColorGroup() ;
+static GlobalNamespace::LightColorGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x225cbe4 size 0x7c virtual false final false
  void _ctor() ;

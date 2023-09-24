@@ -1,21 +1,21 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace GlobalNamespace {
+struct LevelDataAssetDownloadUpdate;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace GlobalNamespace {
-struct LevelDataAssetDownloadUpdate;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace GlobalNamespace {
 struct GetAssetBundleFileResult;

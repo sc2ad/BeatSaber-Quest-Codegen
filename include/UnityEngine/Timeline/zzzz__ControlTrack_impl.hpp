@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Timeline::ControlTrack::ControlTrack()  : UnityEngine::Timeline::TrackAsset(THROW_UNLESS(::il2cpp_utils::New<ControlTrack>())) {}
+ UnityEngine::Timeline::ControlTrack UnityEngine::Timeline::ControlTrack::New_ctor()  {
+UnityEngine::Timeline::ControlTrack o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::ControlTrack>())};
+return o;
+}
  void UnityEngine::Timeline::ControlTrack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::ControlTrack>::get(),

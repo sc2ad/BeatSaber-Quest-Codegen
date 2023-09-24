@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class CapsuleCollider;
+class Rigidbody;
 }
 namespace UnityEngine {
-class Rigidbody;
+class CapsuleCollider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,14 +102,12 @@ constexpr UnityEngine::CapsuleCollider __get__CapsuleCollider_k__BackingField() 
 /// @brief Method set_CapsuleCollider addr 0x263373c size 0x8 virtual false final false
  void set_CapsuleCollider(UnityEngine::CapsuleCollider value) ;
 
-// Ctor Parameters []
-explicit OVRBoneCapsule() ;
+static GlobalNamespace::OVRBoneCapsule New_ctor() ;
 
 /// @brief Method .ctor addr 0x2632e80 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "boneIndex", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "capsuleRigidBody", ty: "UnityEngine::Rigidbody", modifiers: "", def_value: None }, CppParam { name: "capsuleCollider", ty: "UnityEngine::CapsuleCollider", modifiers: "", def_value: None }]
-explicit OVRBoneCapsule(int16_t boneIndex, UnityEngine::Rigidbody capsuleRigidBody, UnityEngine::CapsuleCollider capsuleCollider) ;
+static GlobalNamespace::OVRBoneCapsule New_ctor(int16_t boneIndex, UnityEngine::Rigidbody capsuleRigidBody, UnityEngine::CapsuleCollider capsuleCollider) ;
 
 /// @brief Method .ctor addr 0x2633744 size 0x3c virtual false final false
  void _ctor(int16_t boneIndex, UnityEngine::Rigidbody capsuleRigidBody, UnityEngine::CapsuleCollider capsuleCollider) ;

@@ -62,8 +62,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__lock() const;
 /// @brief Method Release addr 0x24a6cac size 0x8 virtual false final false
  void Release() ;
 
-// Ctor Parameters []
-explicit Lock() ;
+static System::Threading::Lock New_ctor() ;
 
 /// @brief Method .ctor addr 0x24a6cbc size 0x68 virtual false final false
  void _ctor() ;

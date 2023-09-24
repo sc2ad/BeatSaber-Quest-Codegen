@@ -13,7 +13,7 @@ class MessageWithLinkedAccountList;
 // Type: Oculus.Platform::MessageWithLinkedAccountList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13432)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4452 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4452 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13432))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13247))
 // CS Name: Oculus.Platform.MessageWithLinkedAccountList
 class CORDL_TYPE MessageWithLinkedAccountList : public Oculus::Platform::Message_1<Oculus::Platform::Models::LinkedAccountList> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithLinkedAccountList(void* ptr) noexcept : Oculus::Pl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithLinkedAccountList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithLinkedAccountList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x2581cc8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

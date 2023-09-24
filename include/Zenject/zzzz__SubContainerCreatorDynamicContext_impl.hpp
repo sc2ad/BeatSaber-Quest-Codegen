@@ -1,12 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorDynamicContext_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__GameObjectContext_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__GameObjectContext_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 //  Writing Method size for method: Zenject::SubContainerCreatorDynamicContext._ctor
 template<>
 
@@ -102,8 +102,10 @@ constexpr void Zenject::SubContainerCreatorDynamicContext::__set__container(Zenj
 constexpr Zenject::DiContainer Zenject::SubContainerCreatorDynamicContext::__get__container() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }]
- Zenject::SubContainerCreatorDynamicContext::SubContainerCreatorDynamicContext(Zenject::DiContainer container)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerCreatorDynamicContext>(container))) {}
+ Zenject::SubContainerCreatorDynamicContext Zenject::SubContainerCreatorDynamicContext::New_ctor(Zenject::DiContainer container)  {
+Zenject::SubContainerCreatorDynamicContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerCreatorDynamicContext>(container))};
+return o;
+}
  void Zenject::SubContainerCreatorDynamicContext::_ctor(Zenject::DiContainer container)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerCreatorDynamicContext>::get(),

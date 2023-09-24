@@ -9,6 +9,12 @@
 namespace UnityEngine {
 class Texture3D;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__Noise3DTexturesGenerator__MaterialTextureParamsCouple;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__Noise3DTexturesGenerator__MaterialPropertyNameCouple;
+}
 namespace UnityEngine {
 struct Color32;
 }
@@ -210,8 +216,7 @@ static UnityEngine::Texture3D __get__texture() ;
 /// @brief Method CreateNoisePixels addr 0x2679c28 size 0x324 virtual false final false
 static ::ArrayW<UnityEngine::Color32> CreateNoisePixels(int32_t width, int32_t height, int32_t depth, float_t scale, int32_t repeat, float_t contrast) ;
 
-// Ctor Parameters []
-explicit Noise3DTexturesGenerator() ;
+static GlobalNamespace::Noise3DTexturesGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2679f4c size 0x8 virtual false final false
  void _ctor() ;

@@ -49,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Times::Times()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Times>())) {}
+ Org::BouncyCastle::Utilities::Times Org::BouncyCastle::Utilities::Times::New_ctor()  {
+Org::BouncyCastle::Utilities::Times o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Times>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Times::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Times>::get(),

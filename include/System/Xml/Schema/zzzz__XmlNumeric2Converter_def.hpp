@@ -7,11 +7,11 @@
 namespace System {
 class Type;
 }
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
 namespace System::Xml {
 class IXmlNamespaceResolver;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System::Xml::Schema {
 class XmlValueConverter;
@@ -62,8 +62,7 @@ constexpr explicit XmlNumeric2Converter(void* ptr) noexcept : System::Xml::Schem
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
-explicit XmlNumeric2Converter(System::Xml::Schema::XmlSchemaType schemaType) ;
+static System::Xml::Schema::XmlNumeric2Converter New_ctor(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method .ctor addr 0x273f5e0 size 0x64 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType schemaType) ;

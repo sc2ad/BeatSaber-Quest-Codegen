@@ -2,11 +2,12 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreDiffText_def.hpp"
-#include "TMPro/zzzz__TextMeshPro_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerScoreDiffText_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "TMPro/zzzz__TextMeshPro_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLeadPlayerProvider_def.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -355,8 +356,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, userId);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerScoreDiffText::MultiplayerScoreDiffText()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerScoreDiffText>())) {}
+ GlobalNamespace::MultiplayerScoreDiffText GlobalNamespace::MultiplayerScoreDiffText::New_ctor()  {
+GlobalNamespace::MultiplayerScoreDiffText o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerScoreDiffText>())};
+return o;
+}
  void GlobalNamespace::MultiplayerScoreDiffText::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerScoreDiffText>::get(),

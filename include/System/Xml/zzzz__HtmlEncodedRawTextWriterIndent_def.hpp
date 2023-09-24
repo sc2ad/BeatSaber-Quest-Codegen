@@ -3,14 +3,14 @@
 #include "System/Xml/zzzz__HtmlEncodedRawTextWriter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-class TextWriter;
-}
 namespace System::Xml {
 class XmlWriterSettings;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System::IO {
+class TextWriter;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -85,14 +85,12 @@ constexpr bool __get_newLineOnAttributes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit HtmlEncodedRawTextWriterIndent(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::HtmlEncodedRawTextWriterIndent New_ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26bf0f4 size 0x48 virtual false final false
  void _ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit HtmlEncodedRawTextWriterIndent(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::HtmlEncodedRawTextWriterIndent New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26bf164 size 0x48 virtual false final false
  void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;

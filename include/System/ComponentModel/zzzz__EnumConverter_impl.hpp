@@ -1,11 +1,11 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__EnumConverter_def.hpp"
-#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 //  Writing Method size for method: System::ComponentModel::EnumConverter._ctor
 template<>
 
@@ -188,8 +188,10 @@ constexpr void System::ComponentModel::EnumConverter::__set_type(System::Type va
 constexpr System::Type System::ComponentModel::EnumConverter::__get_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::ComponentModel::EnumConverter::EnumConverter(System::Type type)  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<EnumConverter>(type))) {}
+ System::ComponentModel::EnumConverter System::ComponentModel::EnumConverter::New_ctor(System::Type type)  {
+System::ComponentModel::EnumConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::EnumConverter>(type))};
+return o;
+}
  void System::ComponentModel::EnumConverter::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::EnumConverter>::get(),

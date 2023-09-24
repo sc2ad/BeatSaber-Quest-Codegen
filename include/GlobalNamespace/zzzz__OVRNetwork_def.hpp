@@ -4,21 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Action;
-}
-namespace System::Net::Sockets {
-class TcpClient;
-}
 namespace System::Threading {
 class ManualResetEvent;
 }
 namespace System {
-class IAsyncResult;
+class Action;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRNetwork__OVRNetworkTcpClient__ConnectionState;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4>
 class Action_4;
+}
+namespace System::Net::Sockets {
+class TcpClient;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System::Net::Sockets {
 class TcpListener;
@@ -26,6 +29,15 @@ class TcpListener;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRNetwork__OVRNetworkTcpClient;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRNetwork__FrameHeader;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRNetwork__OVRNetworkTcpServer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -201,8 +213,7 @@ constexpr System::Collections::Generic::List_1<System::Net::Sockets::TcpClient> 
 /// @brief Method DoWriteDataCallback addr 0x262a7d8 size 0xf4 virtual false final false
  void DoWriteDataCallback(System::IAsyncResult ar) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRNetwork__OVRNetworkTcpServer() ;
+static GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer New_ctor() ;
 
 /// @brief Method .ctor addr 0x262a8cc size 0xac virtual false final false
  void _ctor() ;
@@ -261,6 +272,8 @@ __Connecting = 2,
 constexpr operator __GlobalNamespace__OVRNetwork__OVRNetworkTcpClient__ConnectionState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRNetwork__OVRNetworkTcpClient__ConnectionState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -401,8 +414,7 @@ constexpr System::Threading::ManualResetEvent __get_readyReceiveDataEvent() cons
 /// @brief Method OnReadDataCallback addr 0x262b280 size 0x4dc virtual false final false
  void OnReadDataCallback(System::IAsyncResult ar) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRNetwork__OVRNetworkTcpClient() ;
+static GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpClient New_ctor() ;
 
 /// @brief Method .ctor addr 0x262b75c size 0x134 virtual false final false
  void _ctor() ;
@@ -471,8 +483,7 @@ static constexpr uint32_t  FrameHeaderMagicIdentifier{1384359787u};
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRNetwork() ;
+static GlobalNamespace::OVRNetwork New_ctor() ;
 
 /// @brief Method .ctor addr 0x2629148 size 0x8 virtual false final false
  void _ctor() ;

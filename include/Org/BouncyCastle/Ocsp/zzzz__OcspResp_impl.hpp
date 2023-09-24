@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Ocsp/zzzz__OcspResp_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspResponse_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::OcspResp._ctor
 template<>
 
@@ -162,8 +162,10 @@ constexpr void Org::BouncyCastle::Ocsp::OcspResp::__set_resp(Org::BouncyCastle::
 constexpr Org::BouncyCastle::Asn1::Ocsp::OcspResponse Org::BouncyCastle::Ocsp::OcspResp::__get_resp() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Ocsp::OcspResponse, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "resp", ty: "Org::BouncyCastle::Asn1::Ocsp::OcspResponse", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::OcspResp::OcspResp(Org::BouncyCastle::Asn1::Ocsp::OcspResponse resp)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OcspResp>(resp))) {}
+ Org::BouncyCastle::Ocsp::OcspResp Org::BouncyCastle::Ocsp::OcspResp::New_ctor(Org::BouncyCastle::Asn1::Ocsp::OcspResponse resp)  {
+Org::BouncyCastle::Ocsp::OcspResp o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspResp>(resp))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspResp::_ctor(Org::BouncyCastle::Asn1::Ocsp::OcspResponse resp)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspResp>::get(),
@@ -173,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, resp);
 }
-// Ctor Parameters [CppParam { name: "resp", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::OcspResp::OcspResp(::ArrayW<uint8_t> resp)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OcspResp>(resp))) {}
+ Org::BouncyCastle::Ocsp::OcspResp Org::BouncyCastle::Ocsp::OcspResp::New_ctor(::ArrayW<uint8_t> resp)  {
+Org::BouncyCastle::Ocsp::OcspResp o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspResp>(resp))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspResp::_ctor(::ArrayW<uint8_t> resp)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspResp>::get(),
@@ -184,8 +188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, resp);
 }
-// Ctor Parameters [CppParam { name: "inStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::OcspResp::OcspResp(System::IO::Stream inStr)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OcspResp>(inStr))) {}
+ Org::BouncyCastle::Ocsp::OcspResp Org::BouncyCastle::Ocsp::OcspResp::New_ctor(System::IO::Stream inStr)  {
+Org::BouncyCastle::Ocsp::OcspResp o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspResp>(inStr))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspResp::_ctor(System::IO::Stream inStr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspResp>::get(),
@@ -195,8 +201,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inStr);
 }
-// Ctor Parameters [CppParam { name: "aIn", ty: "Org::BouncyCastle::Asn1::Asn1InputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::OcspResp::OcspResp(Org::BouncyCastle::Asn1::Asn1InputStream aIn)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OcspResp>(aIn))) {}
+ Org::BouncyCastle::Ocsp::OcspResp Org::BouncyCastle::Ocsp::OcspResp::New_ctor(Org::BouncyCastle::Asn1::Asn1InputStream aIn)  {
+Org::BouncyCastle::Ocsp::OcspResp o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspResp>(aIn))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspResp::_ctor(Org::BouncyCastle::Asn1::Asn1InputStream aIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspResp>::get(),

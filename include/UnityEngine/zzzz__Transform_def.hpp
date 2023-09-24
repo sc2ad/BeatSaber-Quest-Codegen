@@ -7,16 +7,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct RotationOrder;
-}
-namespace System::Collections {
-class IEnumerator;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Space;
+struct RotationOrder;
 }
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine {
+class UnityEngine__Transform__Enumerator;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -25,7 +28,7 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Space;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -99,8 +102,7 @@ constexpr int32_t __get_currentIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit UnityEngine__Transform__Enumerator(UnityEngine::Transform outer) ;
+static UnityEngine::UnityEngine__Transform__Enumerator New_ctor(UnityEngine::Transform outer) ;
 
 /// @brief Method .ctor addr 0x2b6bba0 size 0x30 virtual false final false
  void _ctor(UnityEngine::Transform outer) ;
@@ -212,8 +214,7 @@ constexpr explicit Transform(void* ptr) noexcept : UnityEngine::Component(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit Transform() ;
+static UnityEngine::Transform New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b69770 size 0x8 virtual false final false
  void _ctor() ;

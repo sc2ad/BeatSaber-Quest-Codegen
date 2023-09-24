@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

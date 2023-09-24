@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Mono/zzzz__RuntimeGenericParamInfoHandle_def.hpp"
-#include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
 //  Writing Method size for method: Mono::RuntimeGenericParamInfoHandle._ctor
 template<>
 

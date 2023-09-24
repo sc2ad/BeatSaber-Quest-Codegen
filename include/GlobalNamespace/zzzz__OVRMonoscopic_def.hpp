@@ -68,8 +68,7 @@ constexpr bool __get_monoscopic() const;
 /// @brief Method Update addr 0x2629048 size 0xf0 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRMonoscopic() ;
+static GlobalNamespace::OVRMonoscopic New_ctor() ;
 
 /// @brief Method .ctor addr 0x2629138 size 0x10 virtual false final false
  void _ctor() ;

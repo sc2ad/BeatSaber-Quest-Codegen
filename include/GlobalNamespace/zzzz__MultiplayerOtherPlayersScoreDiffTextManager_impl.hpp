@@ -3,13 +3,12 @@
 #include "GlobalNamespace/zzzz__MultiplayerOtherPlayersScoreDiffTextManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerOtherPlayersScoreDiffTextManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c._ctor
 template<>
 
@@ -56,8 +55,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Multi
  System::Func_2<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer,bool> GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c::__get___9__10_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer,bool>, "<>9__10_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerOtherPlayersScoreDiffTextManager____c>::get(),
@@ -291,8 +292,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newState);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::MultiplayerOtherPlayersScoreDiffTextManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerOtherPlayersScoreDiffTextManager>())) {}
+ GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::New_ctor()  {
+GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager>())};
+return o;
+}
  void GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager>::get(),

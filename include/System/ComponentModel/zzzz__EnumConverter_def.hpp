@@ -2,20 +2,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
-}
-namespace System::Collections {
-class IComparer;
 }
 namespace System::ComponentModel {
 class System__ComponentModel__TypeConverter__StandardValuesCollection;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 class Type;
+}
+namespace System::Collections {
+class IComparer;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -83,8 +83,7 @@ constexpr System::Type __get_type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit EnumConverter(System::Type type) ;
+static System::ComponentModel::EnumConverter New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2788b98 size 0x28 virtual false final false
  void _ctor(System::Type type) ;

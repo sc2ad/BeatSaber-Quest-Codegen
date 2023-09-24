@@ -6,31 +6,39 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T1,typename T2>
-class Tuple_2;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRGLTFAnimatinonNode__ThumbstickDirection;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRGLTFAnimatinonNode__OVRInterpolationType;
 }
 namespace UnityEngine {
 struct Vector3;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRGLTFAnimatinonNode__OVRGLTFTransformType;
+}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace GlobalNamespace {
+struct OVRGLTFInputNode;
 }
 namespace OVRSimpleJSON {
 class JSONNode;
 }
 namespace GlobalNamespace {
-struct OVRGLTFInputNode;
-}
-namespace GlobalNamespace {
 struct OVRBinaryChunk;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRGLTFAnimatinonNode__InputNodeState;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -38,6 +46,10 @@ class Dictionary_2;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace System {
+template<typename T1,typename T2>
+class Tuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -111,6 +123,8 @@ __NorthWest = 8,
 constexpr operator __GlobalNamespace__OVRGLTFAnimatinonNode__ThumbstickDirection_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRGLTFAnimatinonNode__ThumbstickDirection_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -204,6 +218,8 @@ constexpr operator __GlobalNamespace__OVRGLTFAnimatinonNode__OVRGLTFTransformTyp
 return std::bit_cast<__GlobalNamespace__OVRGLTFAnimatinonNode__OVRGLTFTransformType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -280,6 +296,8 @@ __CUBICSPLINE = 3,
 constexpr operator __GlobalNamespace__OVRGLTFAnimatinonNode__OVRInterpolationType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRGLTFAnimatinonNode__OVRInterpolationType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -490,8 +508,7 @@ static ::ArrayW<UnityEngine::Vector2> __get_CardDirections() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "jsonData", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }, CppParam { name: "binaryChunk", ty: "GlobalNamespace::OVRBinaryChunk", modifiers: "", def_value: None }, CppParam { name: "inputNodeType", ty: "GlobalNamespace::OVRGLTFInputNode", modifiers: "", def_value: None }, CppParam { name: "gameObj", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }]
-explicit OVRGLTFAnimatinonNode(OVRSimpleJSON::JSONNode jsonData, GlobalNamespace::OVRBinaryChunk binaryChunk, GlobalNamespace::OVRGLTFInputNode inputNodeType, UnityEngine::GameObject gameObj) ;
+static GlobalNamespace::OVRGLTFAnimatinonNode New_ctor(OVRSimpleJSON::JSONNode jsonData, GlobalNamespace::OVRBinaryChunk binaryChunk, GlobalNamespace::OVRGLTFInputNode inputNodeType, UnityEngine::GameObject gameObj) ;
 
 /// @brief Method .ctor addr 0x25b2a84 size 0x2d4 virtual false final false
  void _ctor(OVRSimpleJSON::JSONNode jsonData, GlobalNamespace::OVRBinaryChunk binaryChunk, GlobalNamespace::OVRGLTFInputNode inputNodeType, UnityEngine::GameObject gameObj) ;

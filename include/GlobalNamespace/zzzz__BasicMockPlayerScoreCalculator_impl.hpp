@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BasicMockPlayerScoreCalculator_def.hpp"
+#include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
 #include "System/zzzz__Random_def.hpp"
 #include "GlobalNamespace/zzzz__IMockPlayerScoreCalculator_def.hpp"
-#include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BasicMockPlayerScoreCalculator._ctor
 template<>
 
@@ -65,8 +65,13 @@ constexpr void GlobalNamespace::BasicMockPlayerScoreCalculator::__set__random(Sy
 constexpr System::Random GlobalNamespace::BasicMockPlayerScoreCalculator::__get__random() const {
 return ::cordl_internals::getInstanceField<System::Random, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hitFrequency", ty: "float_t", modifiers: "", def_value: Some("0.95") }, CppParam { name: "minScore", ty: "int32_t", modifiers: "", def_value: Some("66") }, CppParam { name: "maxScore", ty: "int32_t", modifiers: "", def_value: Some("110") }]
- GlobalNamespace::BasicMockPlayerScoreCalculator::BasicMockPlayerScoreCalculator(float_t hitFrequency, int32_t minScore, int32_t maxScore)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BasicMockPlayerScoreCalculator>(hitFrequency, minScore, maxScore))) {}
+/// @param hitFrequency: float_t (default: 0.95)
+/// @param minScore: int32_t (default: 66)
+/// @param maxScore: int32_t (default: 110)
+ GlobalNamespace::BasicMockPlayerScoreCalculator GlobalNamespace::BasicMockPlayerScoreCalculator::New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore)  {
+GlobalNamespace::BasicMockPlayerScoreCalculator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BasicMockPlayerScoreCalculator>(hitFrequency, minScore, maxScore))};
+return o;
+}
 /// @param hitFrequency: float_t (default: 0.95)
 /// @param minScore: int32_t (default: 66)
 /// @param maxScore: int32_t (default: 110)

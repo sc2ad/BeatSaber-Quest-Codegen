@@ -227,8 +227,10 @@ constexpr void Org::BouncyCastle::Asn1::Esf::SignerLocation::__set_postalAddress
 constexpr Org::BouncyCastle::Asn1::Asn1Sequence Org::BouncyCastle::Asn1::Esf::SignerLocation::__get_postalAddress() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Sequence, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::SignerLocation::SignerLocation(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignerLocation>(seq))) {}
+ Org::BouncyCastle::Asn1::Esf::SignerLocation Org::BouncyCastle::Asn1::Esf::SignerLocation::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Esf::SignerLocation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::SignerLocation>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::SignerLocation::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::SignerLocation>::get(),
@@ -238,8 +240,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "countryName", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "localityName", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "postalAddress", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::SignerLocation::SignerLocation(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignerLocation>(countryName, localityName, postalAddress))) {}
+ Org::BouncyCastle::Asn1::Esf::SignerLocation Org::BouncyCastle::Asn1::Esf::SignerLocation::New_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress)  {
+Org::BouncyCastle::Asn1::Esf::SignerLocation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::SignerLocation>(countryName, localityName, postalAddress))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::SignerLocation::_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::SignerLocation>::get(),
@@ -249,8 +253,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, countryName, localityName, postalAddress);
 }
-// Ctor Parameters [CppParam { name: "countryName", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "localityName", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "postalAddress", ty: "::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::SignerLocation::SignerLocation(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> postalAddress)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignerLocation>(countryName, localityName, postalAddress))) {}
+ Org::BouncyCastle::Asn1::Esf::SignerLocation Org::BouncyCastle::Asn1::Esf::SignerLocation::New_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> postalAddress)  {
+Org::BouncyCastle::Asn1::Esf::SignerLocation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::SignerLocation>(countryName, localityName, postalAddress))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::SignerLocation::_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> postalAddress)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::SignerLocation>::get(),
@@ -260,8 +266,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, countryName, localityName, postalAddress);
 }
-// Ctor Parameters [CppParam { name: "countryName", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }, CppParam { name: "localityName", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }, CppParam { name: "postalAddress", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::SignerLocation::SignerLocation(Org::BouncyCastle::Asn1::DerUtf8String countryName, Org::BouncyCastle::Asn1::DerUtf8String localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignerLocation>(countryName, localityName, postalAddress))) {}
+ Org::BouncyCastle::Asn1::Esf::SignerLocation Org::BouncyCastle::Asn1::Esf::SignerLocation::New_ctor(Org::BouncyCastle::Asn1::DerUtf8String countryName, Org::BouncyCastle::Asn1::DerUtf8String localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress)  {
+Org::BouncyCastle::Asn1::Esf::SignerLocation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::SignerLocation>(countryName, localityName, postalAddress))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::SignerLocation::_ctor(Org::BouncyCastle::Asn1::DerUtf8String countryName, Org::BouncyCastle::Asn1::DerUtf8String localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::SignerLocation>::get(),

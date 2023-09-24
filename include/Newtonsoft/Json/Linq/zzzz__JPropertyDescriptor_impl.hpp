@@ -190,8 +190,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Ne
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JPropertyDescriptor::JPropertyDescriptor(::StringW name)  : System::ComponentModel::PropertyDescriptor(THROW_UNLESS(::il2cpp_utils::New<JPropertyDescriptor>(name))) {}
+ Newtonsoft::Json::Linq::JPropertyDescriptor Newtonsoft::Json::Linq::JPropertyDescriptor::New_ctor(::StringW name)  {
+Newtonsoft::Json::Linq::JPropertyDescriptor o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JPropertyDescriptor>(name))};
+return o;
+}
  void Newtonsoft::Json::Linq::JPropertyDescriptor::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JPropertyDescriptor>::get(),

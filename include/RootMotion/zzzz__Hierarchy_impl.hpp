@@ -279,8 +279,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, transform, transforms);
 }
-// Ctor Parameters []
- RootMotion::Hierarchy::Hierarchy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Hierarchy>())) {}
+ RootMotion::Hierarchy RootMotion::Hierarchy::New_ctor()  {
+RootMotion::Hierarchy o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::Hierarchy>())};
+return o;
+}
  void RootMotion::Hierarchy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::Hierarchy>::get(),

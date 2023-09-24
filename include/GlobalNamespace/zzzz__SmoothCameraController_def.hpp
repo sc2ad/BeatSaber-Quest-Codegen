@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class SmoothCamera;
+class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class SmoothCamera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -83,8 +83,7 @@ constexpr GlobalNamespace::SmoothCamera __get__smoothCamera() const;
 /// @brief Method ActivateSmoothCameraIfNeeded addr 0x21107bc size 0x19c virtual false final false
  void ActivateSmoothCameraIfNeeded() ;
 
-// Ctor Parameters []
-explicit SmoothCameraController() ;
+static GlobalNamespace::SmoothCameraController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21109a0 size 0x8 virtual false final false
  void _ctor() ;

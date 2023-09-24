@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::IO::MemoryOutputStream::MemoryOutputStream()  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<MemoryOutputStream>())) {}
+ Org::BouncyCastle::Utilities::IO::MemoryOutputStream Org::BouncyCastle::Utilities::IO::MemoryOutputStream::New_ctor()  {
+Org::BouncyCastle::Utilities::IO::MemoryOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::MemoryOutputStream>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::MemoryOutputStream::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::MemoryOutputStream>::get(),

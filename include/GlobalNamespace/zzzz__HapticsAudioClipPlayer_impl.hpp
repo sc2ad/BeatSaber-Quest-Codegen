@@ -2,13 +2,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__HapticsAudioClipPlayer_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/zzzz__WaitForEndOfFrame_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "UnityEngine/zzzz__WaitForEndOfFrame_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "GlobalNamespace/zzzz__HapticsAudioClipPlayer_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
 //  Writing Method size for method: GlobalNamespace::HapticsAudioClipPlayer.PlayHapticsPreset
 template<>
@@ -328,8 +329,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method, node);
 }
-// Ctor Parameters []
- GlobalNamespace::HapticsAudioClipPlayer::HapticsAudioClipPlayer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HapticsAudioClipPlayer>())) {}
+ GlobalNamespace::HapticsAudioClipPlayer GlobalNamespace::HapticsAudioClipPlayer::New_ctor()  {
+GlobalNamespace::HapticsAudioClipPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HapticsAudioClipPlayer>())};
+return o;
+}
  void GlobalNamespace::HapticsAudioClipPlayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HapticsAudioClipPlayer>::get(),
@@ -469,8 +472,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, clipPlayer);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool::GlobalNamespace__HapticsAudioClipPlayer__Pool()  : Zenject::MemoryPool_1<GlobalNamespace::HapticsAudioClipPlayer>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__HapticsAudioClipPlayer__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer__Pool>::get(),
@@ -624,8 +629,10 @@ constexpr void GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___Handle
 constexpr UnityEngine::WaitForEndOfFrame GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::__get__waitForLateUpdate_5__2() const {
 return ::cordl_internals::getInstanceField<UnityEngine::WaitForEndOfFrame, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9 GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9>::get(),
@@ -818,8 +825,10 @@ constexpr void GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___Handle
 constexpr System::Action_1<GlobalNamespace::HapticsAudioClipPlayer> GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::__get_onComplete() const {
 return ::cordl_internals::getInstanceField<System::Action_1<GlobalNamespace::HapticsAudioClipPlayer>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11 GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11>::get(),

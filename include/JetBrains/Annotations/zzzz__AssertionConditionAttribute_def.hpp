@@ -64,8 +64,7 @@ constexpr JetBrains::Annotations::AssertionConditionType __get__ConditionType_k_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "conditionType", ty: "JetBrains::Annotations::AssertionConditionType", modifiers: "", def_value: None }]
-explicit AssertionConditionAttribute(JetBrains::Annotations::AssertionConditionType conditionType) ;
+static JetBrains::Annotations::AssertionConditionAttribute New_ctor(JetBrains::Annotations::AssertionConditionType conditionType) ;
 
 /// @brief Method .ctor addr 0x2d41228 size 0x28 virtual false final false
  void _ctor(JetBrains::Annotations::AssertionConditionType conditionType) ;

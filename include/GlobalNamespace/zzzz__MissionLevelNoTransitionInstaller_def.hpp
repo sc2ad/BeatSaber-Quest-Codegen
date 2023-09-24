@@ -3,32 +3,32 @@
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class ColorSchemeSO;
 }
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
+namespace Zenject {
+class DiContainer;
+}
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class MissionObjective;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class MissionObjective;
-}
-namespace GlobalNamespace {
-class ColorSchemeSO;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -136,8 +136,7 @@ constexpr GlobalNamespace::MissionLevelScenesTransitionSetupDataSO __get__scenes
 /// @brief Method InstallBindings addr 0x21b65f0 size 0xc4 virtual true final false
  void InstallBindings(Zenject::DiContainer container) ;
 
-// Ctor Parameters []
-explicit MissionLevelNoTransitionInstaller() ;
+static GlobalNamespace::MissionLevelNoTransitionInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b66b4 size 0x8 virtual false final false
  void _ctor() ;

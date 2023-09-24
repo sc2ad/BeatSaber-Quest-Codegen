@@ -8,35 +8,41 @@
 namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
+namespace System::Net::Http {
+class HttpClient;
+}
 namespace GlobalNamespace {
-class IMultiplayerStatusModel;
+class GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9;
+}
+namespace GlobalNamespace {
+class INetworkConfig;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
-class INetworkConfig;
+class IMultiplayerStatusModel;
 }
-namespace System::Net::Http {
-class HttpClient;
-}
-namespace System::Threading {
-struct CancellationToken;
+namespace System {
+class UriBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct TaskAwaiter_1;
-}
-namespace System {
-class UriBuilder;
+struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,8 +105,7 @@ constexpr ::ArrayW<GlobalNamespace::MultiplayerStatusData> __get_data() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerStatusModel__MultiplayerStatusDataFB New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f15e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -286,8 +291,7 @@ constexpr System::Threading::Tasks::Task_1<GlobalNamespace::MultiplayerStatusDat
 /// @brief Method GetMultiplayerStatusAsyncInternal addr 0x21f1488 size 0xf4 virtual false final false
  System::Threading::Tasks::Task_1<GlobalNamespace::MultiplayerStatusData> GetMultiplayerStatusAsyncInternal() ;
 
-// Ctor Parameters []
-explicit MultiplayerStatusModel() ;
+static GlobalNamespace::MultiplayerStatusModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f157c size 0x68 virtual false final false
  void _ctor() ;

@@ -1,21 +1,21 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace GlobalNamespace {
-class MultiplayerModeSettings;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
-}
-namespace GlobalNamespace {
-struct CreateServerFormData;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
 class CreateServerFormController;
+}
+namespace GlobalNamespace {
+struct CreateServerFormData;
+}
+namespace GlobalNamespace {
+class MultiplayerModeSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +119,7 @@ constexpr GlobalNamespace::MultiplayerModeSettings __get__multiplayerModeSetting
 /// @brief Method ApplyAndGetData addr 0x217645c size 0xb8 virtual false final false
  GlobalNamespace::CreateServerFormData ApplyAndGetData() ;
 
-// Ctor Parameters []
-explicit CreateServerViewController() ;
+static GlobalNamespace::CreateServerViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2176514 size 0x8 virtual false final false
  void _ctor() ;

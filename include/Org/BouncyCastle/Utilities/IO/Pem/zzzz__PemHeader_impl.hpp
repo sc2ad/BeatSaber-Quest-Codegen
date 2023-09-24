@@ -114,8 +114,10 @@ constexpr void Org::BouncyCastle::Utilities::IO::Pem::PemHeader::__set_val(::Str
 constexpr ::StringW Org::BouncyCastle::Utilities::IO::Pem::PemHeader::__get_val() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "val", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::IO::Pem::PemHeader::PemHeader(::StringW name, ::StringW val)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PemHeader>(name, val))) {}
+ Org::BouncyCastle::Utilities::IO::Pem::PemHeader Org::BouncyCastle::Utilities::IO::Pem::PemHeader::New_ctor(::StringW name, ::StringW val)  {
+Org::BouncyCastle::Utilities::IO::Pem::PemHeader o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::Pem::PemHeader>(name, val))};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::Pem::PemHeader::_ctor(::StringW name, ::StringW val)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::Pem::PemHeader>::get(),

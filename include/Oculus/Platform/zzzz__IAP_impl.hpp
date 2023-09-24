@@ -1,10 +1,10 @@
 #pragma once
 #include "Oculus/Platform/zzzz__IAP_def.hpp"
-#include "Oculus/Platform/zzzz__Request_def.hpp"
-#include "Oculus/Platform/zzzz__Request_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__ProductList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PurchaseList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Purchase_def.hpp"
+#include "Oculus/Platform/Models/zzzz__ProductList_def.hpp"
+#include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/zzzz__Request_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PurchaseList_def.hpp"
 //  Writing Method size for method: Oculus::Platform::IAP.ConsumePurchase
 template<>
 

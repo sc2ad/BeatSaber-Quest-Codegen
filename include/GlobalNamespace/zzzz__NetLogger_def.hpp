@@ -61,8 +61,7 @@ constexpr explicit NetLogger(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 /// @brief Method WriteNet addr 0xdbfd8c size 0x174 virtual true final true
  void WriteNet(LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
-// Ctor Parameters []
-explicit NetLogger() ;
+static GlobalNamespace::NetLogger New_ctor() ;
 
 /// @brief Method .ctor addr 0xdbff00 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,17 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutCoreEffectsSpawner_def.hpp"
-#include "GlobalNamespace/zzzz__NoteDebrisSpawner_def.hpp"
-#include "GlobalNamespace/zzzz__ShockwaveEffect_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutHapticEffect_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutHapticEffect_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutParticlesEffect_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__BombExplosionEffect_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutHapticEffect_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutParticlesEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BombExplosionEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__ShockwaveEffect_def.hpp"
+#include "GlobalNamespace/zzzz__NoteDebrisSpawner_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteCutCoreEffectsSpawner.Start
 template<>
 
@@ -239,8 +238,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteCutInfo, noteController);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteCutCoreEffectsSpawner::NoteCutCoreEffectsSpawner()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteCutCoreEffectsSpawner>())) {}
+ GlobalNamespace::NoteCutCoreEffectsSpawner GlobalNamespace::NoteCutCoreEffectsSpawner::New_ctor()  {
+GlobalNamespace::NoteCutCoreEffectsSpawner o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteCutCoreEffectsSpawner>())};
+return o;
+}
  void GlobalNamespace::NoteCutCoreEffectsSpawner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteCutCoreEffectsSpawner>::get(),

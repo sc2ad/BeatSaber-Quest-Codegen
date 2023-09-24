@@ -36,8 +36,10 @@ constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__set_playV
 constexpr bool GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_playVRMovement() const {
 return ::cordl_internals::getInstanceField<bool, 0x12>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "useFirstPersonFlyingController", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "recordVRMovement", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playVRMovement", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapEditorGameplaySceneSetupData::BeatmapEditorGameplaySceneSetupData(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement)  : GlobalNamespace::SceneSetupData(THROW_UNLESS(::il2cpp_utils::New<BeatmapEditorGameplaySceneSetupData>(useFirstPersonFlyingController, recordVRMovement, playVRMovement))) {}
+ GlobalNamespace::BeatmapEditorGameplaySceneSetupData GlobalNamespace::BeatmapEditorGameplaySceneSetupData::New_ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement)  {
+GlobalNamespace::BeatmapEditorGameplaySceneSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapEditorGameplaySceneSetupData>(useFirstPersonFlyingController, recordVRMovement, playVRMovement))};
+return o;
+}
  void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::_ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapEditorGameplaySceneSetupData>::get(),

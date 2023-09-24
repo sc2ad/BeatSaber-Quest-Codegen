@@ -60,8 +60,7 @@ static constexpr uint8_t  RawPublicKey{2u};
 
 // Methods
 
-// Ctor Parameters []
-explicit CertificateType() ;
+static Org::BouncyCastle::Crypto::Tls::CertificateType New_ctor() ;
 
 /// @brief Method .ctor addr 0xed1414 size 0x8 virtual false final false
  void _ctor() ;

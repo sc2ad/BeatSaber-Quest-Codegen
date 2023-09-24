@@ -14,12 +14,24 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
+namespace UnityEngine::InputSystem::Utilities {
+struct UnityEngine__InputSystem__Utilities__JsonParser__JsonValue;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct UnityEngine__InputSystem__Utilities__JsonParser__JsonValueType;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct UnityEngine__InputSystem__Utilities__JsonParser__JsonString;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct Substring;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct Substring;
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__Utilities__JsonParser__JsonValue____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -100,6 +112,8 @@ __Any = 7,
 constexpr operator __UnityEngine__InputSystem__Utilities__JsonParser__JsonValueType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__Utilities__JsonParser__JsonValueType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -287,8 +301,7 @@ static System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW,Uni
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Utilities__JsonParser__JsonValue____c() ;
+static GlobalNamespace::UnityEngine__InputSystem__Utilities__JsonParser__JsonValue____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2980a18 size 0x8 virtual false final false
  void _ctor() ;

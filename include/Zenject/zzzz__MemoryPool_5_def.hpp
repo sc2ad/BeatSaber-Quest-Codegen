@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TValue>
 class IMemoryPool_5;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TValue>
@@ -39,7 +39,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10991)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2673 }), TypeDefinitionIndex(TypeDefinitionIndex(10984))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2673 }), TypeDefinitionIndex(TypeDefinitionIndex(10984)), TypeDefinitionIndex(TypeDefinitionIndex(10991))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10984), inst: 5938 })
 // CS Name: Zenject.MemoryPool`5
 class CORDL_TYPE MemoryPool_5<TParam1,TParam2,TParam3,TParam4,TValue> : public Zenject::MemoryPoolBase_1<TValue> {
@@ -102,8 +102,7 @@ constexpr explicit MemoryPool_5(void* ptr) noexcept : Zenject::MemoryPoolBase_1<
 /// @brief Method Zenject.IFactory<TParam1,TParam2,TParam3,TParam4,TValue>.Create addr 0x0 size 0xffffffffffffffff virtual true final true
  TValue Zenject_IFactory_TParam1,TParam2,TParam3,TParam4,TValue__Create(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) ;
 
-// Ctor Parameters []
-explicit MemoryPool_5() ;
+static Zenject::MemoryPool_5<TParam1,TParam2,TParam3,TParam4,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

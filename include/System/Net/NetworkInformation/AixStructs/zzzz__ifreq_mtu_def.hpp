@@ -2,6 +2,9 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Net::NetworkInformation::AixStructs {
+struct System__Net__NetworkInformation__AixStructs__ifreq_mtu___ifr_name_e__FixedBuffer;
+}
 // Forward declare root types
 namespace System::Net::NetworkInformation::AixStructs {
 struct System__Net__NetworkInformation__AixStructs__ifreq_mtu___ifr_name_e__FixedBuffer;

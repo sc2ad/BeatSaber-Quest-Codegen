@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttributeDescriptor_def.hpp"
+#include "UnityEngine/Rendering/zzzz__VertexAttributeFormat_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttribute_def.hpp"
-#include "UnityEngine/Rendering/zzzz__VertexAttributeFormat_def.hpp"
 //  Writing Method size for method: UnityEngine::Rendering::VertexAttributeDescriptor.get_attribute
 template<>
 

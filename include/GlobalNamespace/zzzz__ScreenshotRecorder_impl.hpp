@@ -3,6 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScreenshotRecorder_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__ScreenshotRecorder_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -379,8 +380,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Texture2D, false>(const_cast<void*>(instance), ___internal_method, renderTexture);
 }
-// Ctor Parameters []
- GlobalNamespace::ScreenshotRecorder::ScreenshotRecorder()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScreenshotRecorder>())) {}
+ GlobalNamespace::ScreenshotRecorder GlobalNamespace::ScreenshotRecorder::New_ctor()  {
+GlobalNamespace::ScreenshotRecorder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ScreenshotRecorder>())};
+return o;
+}
  void GlobalNamespace::ScreenshotRecorder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ScreenshotRecorder>::get(),

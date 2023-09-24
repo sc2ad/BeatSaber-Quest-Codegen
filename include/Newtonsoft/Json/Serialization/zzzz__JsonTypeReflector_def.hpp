@@ -2,6 +2,16 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace Newtonsoft::Json::Utilities {
+template<typename TKey,typename TValue>
+class ThreadSafeStore_2;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionDelegateFactory;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
 namespace System {
 class Type;
 }
@@ -13,33 +23,29 @@ namespace System::ComponentModel {
 class TypeConverter;
 }
 namespace System::Runtime::Serialization {
-class DataMemberAttribute;
-}
-namespace System::Runtime::Serialization {
 class DataContractAttribute;
 }
-namespace Newtonsoft::Json::Utilities {
-template<typename TKey,typename TValue>
-class ThreadSafeStore_2;
+namespace System::Runtime::Serialization {
+class DataMemberAttribute;
+}
+namespace Newtonsoft::Json {
+struct MemberSerialization;
 }
 namespace Newtonsoft::Json::Utilities {
 class ReflectionObject;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
-}
-namespace Newtonsoft::Json::Utilities {
-class ReflectionDelegateFactory;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace Newtonsoft::Json {
-struct MemberSerialization;
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0;
 }
 namespace System::Reflection {
 class MemberInfo;
+}
+namespace Newtonsoft::Json::Serialization {
+class Newtonsoft__Json__Serialization__JsonTypeReflector____c;
 }
 namespace System {
 template<typename TResult>
@@ -112,8 +118,7 @@ constexpr System::Func_1<::bs_hook::Il2CppWrapperType> __get_defaultConstructor(
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c__DisplayClass18_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2516840 size 0x8 virtual false final false
  void _ctor() ;
@@ -182,8 +187,7 @@ static System::Func_2<::bs_hook::Il2CppWrapperType,System::Type> __get___9__18_1
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__JsonTypeReflector____c() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonTypeReflector____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2517550 size 0x8 virtual false final false
  void _ctor() ;

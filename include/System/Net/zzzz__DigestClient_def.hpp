@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Net {
-class Authorization;
-}
 namespace System::Collections {
 class Hashtable;
 }
@@ -17,6 +14,9 @@ class WebRequest;
 }
 namespace System::Net {
 class ICredentials;
+}
+namespace System::Net {
+class Authorization;
 }
 // Forward declare root types
 namespace System::Net {
@@ -98,8 +98,7 @@ static void CheckExpired(int32_t count) ;
 /// @brief Method get_AuthenticationType addr 0x282d1d0 size 0x40 virtual true final true
  ::StringW get_AuthenticationType() ;
 
-// Ctor Parameters []
-explicit DigestClient() ;
+static System::Net::DigestClient New_ctor() ;
 
 /// @brief Method .ctor addr 0x28286f0 size 0x8 virtual false final false
  void _ctor() ;

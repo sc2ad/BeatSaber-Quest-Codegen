@@ -3,10 +3,11 @@
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__ArrayConverter_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/ComponentModel/zzzz__ArrayConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
 //  Writing Method size for method: System::ComponentModel::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor._ctor
 template<>
 
@@ -64,8 +65,10 @@ constexpr void System::ComponentModel::System__ComponentModel__ArrayConverter__A
 constexpr int32_t System::ComponentModel::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor::__get__index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "arrayType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "elementType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor(System::Type arrayType, System::Type elementType, int32_t index)  : System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor>(arrayType, elementType, index))) {}
+ System::ComponentModel::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor System::ComponentModel::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor::New_ctor(System::Type arrayType, System::Type elementType, int32_t index)  {
+System::ComponentModel::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor>(arrayType, elementType, index))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor::_ctor(System::Type arrayType, System::Type elementType, int32_t index)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__ArrayConverter__ArrayPropertyDescriptor>::get(),
@@ -188,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, context);
 }
-// Ctor Parameters []
- System::ComponentModel::ArrayConverter::ArrayConverter()  : System::ComponentModel::CollectionConverter(THROW_UNLESS(::il2cpp_utils::New<ArrayConverter>())) {}
+ System::ComponentModel::ArrayConverter System::ComponentModel::ArrayConverter::New_ctor()  {
+System::ComponentModel::ArrayConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ArrayConverter>())};
+return o;
+}
  void System::ComponentModel::ArrayConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ArrayConverter>::get(),

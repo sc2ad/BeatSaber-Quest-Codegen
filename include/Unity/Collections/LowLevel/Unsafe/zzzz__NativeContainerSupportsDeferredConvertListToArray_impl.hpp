@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray::NativeContainerSupportsDeferredConvertListToArray()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeContainerSupportsDeferredConvertListToArray>())) {}
+ Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray::New_ctor()  {
+Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray o{THROW_UNLESS(::il2cpp_utils::New<Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray>())};
+return o;
+}
  void Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray>::get(),

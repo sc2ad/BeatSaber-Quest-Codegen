@@ -165,8 +165,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::HkdfParameters::__set_info
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Parameters::HkdfParameters::__get_info() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ikm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "skip", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "info", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::HkdfParameters::HkdfParameters(::ArrayW<uint8_t> ikm, bool skip, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HkdfParameters>(ikm, skip, salt, info))) {}
+ Org::BouncyCastle::Crypto::Parameters::HkdfParameters Org::BouncyCastle::Crypto::Parameters::HkdfParameters::New_ctor(::ArrayW<uint8_t> ikm, bool skip, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info)  {
+Org::BouncyCastle::Crypto::Parameters::HkdfParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::HkdfParameters>(ikm, skip, salt, info))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::HkdfParameters::_ctor(::ArrayW<uint8_t> ikm, bool skip, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::HkdfParameters>::get(),
@@ -176,8 +178,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ikm, skip, salt, info);
 }
-// Ctor Parameters [CppParam { name: "ikm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "info", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::HkdfParameters::HkdfParameters(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HkdfParameters>(ikm, salt, info))) {}
+ Org::BouncyCastle::Crypto::Parameters::HkdfParameters Org::BouncyCastle::Crypto::Parameters::HkdfParameters::New_ctor(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info)  {
+Org::BouncyCastle::Crypto::Parameters::HkdfParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::HkdfParameters>(ikm, salt, info))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::HkdfParameters::_ctor(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::HkdfParameters>::get(),

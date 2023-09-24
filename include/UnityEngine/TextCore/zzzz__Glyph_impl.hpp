@@ -2,8 +2,8 @@
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphMarshallingStruct_def.hpp"
-#include "UnityEngine/TextCore/zzzz__GlyphClassDefinitionType_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
+#include "UnityEngine/TextCore/zzzz__GlyphClassDefinitionType_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Glyph.get_index
 template<>
 
@@ -351,8 +351,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Glyph::Glyph()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Glyph>())) {}
+ UnityEngine::TextCore::Glyph UnityEngine::TextCore::Glyph::New_ctor()  {
+UnityEngine::TextCore::Glyph o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Glyph>())};
+return o;
+}
  void UnityEngine::TextCore::Glyph::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Glyph>::get(),
@@ -362,8 +364,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "glyphStruct", ty: "UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct", modifiers: "", def_value: None }]
- UnityEngine::TextCore::Glyph::Glyph(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Glyph>(glyphStruct))) {}
+ UnityEngine::TextCore::Glyph UnityEngine::TextCore::Glyph::New_ctor(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct)  {
+UnityEngine::TextCore::Glyph o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Glyph>(glyphStruct))};
+return o;
+}
  void UnityEngine::TextCore::Glyph::_ctor(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Glyph>::get(),
@@ -373,8 +377,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, glyphStruct);
 }
-// Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value: None }, CppParam { name: "glyphRect", ty: "UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::TextCore::Glyph::Glyph(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Glyph>(index, metrics, glyphRect, scale, atlasIndex))) {}
+ UnityEngine::TextCore::Glyph UnityEngine::TextCore::Glyph::New_ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex)  {
+UnityEngine::TextCore::Glyph o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Glyph>(index, metrics, glyphRect, scale, atlasIndex))};
+return o;
+}
  void UnityEngine::TextCore::Glyph::_ctor(uint32_t index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Glyph>::get(),

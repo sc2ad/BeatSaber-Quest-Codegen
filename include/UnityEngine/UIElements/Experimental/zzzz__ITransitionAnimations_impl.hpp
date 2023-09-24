@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/Experimental/zzzz__ITransitionAnimations_def.hpp"
-#include "UnityEngine/UIElements/Experimental/zzzz__StyleValues_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__ValueAnimation_1_def.hpp"
+#include "UnityEngine/UIElements/Experimental/zzzz__StyleValues_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::Experimental::ITransitionAnimations.Start
 template<>
 

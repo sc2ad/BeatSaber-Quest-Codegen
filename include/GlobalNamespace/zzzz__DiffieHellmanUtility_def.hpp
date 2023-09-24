@@ -5,21 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-class IDiffieHellmanKeyPair;
-}
 namespace Org::BouncyCastle::Crypto::Agreement {
 class ECDHBasicAgreement;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
@@ -27,17 +14,48 @@ class ECDomainParameters;
 namespace Org::BouncyCastle::Crypto::Agreement {
 class DHBasicAgreement;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
+}
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DiffieHellmanUtility__OperationTimer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__DiffieHellmanUtility__KeyType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair;
+}
+namespace BGNet::Core {
+class ITaskUtility;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
+namespace GlobalNamespace {
+class IDiffieHellmanKeyPair;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0;
 }
 namespace System::Diagnostics {
 class Stopwatch;
@@ -117,6 +135,8 @@ constexpr operator __GlobalNamespace__DiffieHellmanUtility__KeyType_Unwrapped ()
 return std::bit_cast<__GlobalNamespace__DiffieHellmanUtility__KeyType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -193,8 +213,7 @@ constexpr ::ArrayW<uint8_t> __get_clientPublicKey() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0() ;
+static GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0xda6708 size 0x8 virtual false final false
  void _ctor() ;
@@ -276,8 +295,7 @@ constexpr ::ArrayW<uint8_t> __get__publicKey() const;
 /// @brief Method get_publicKey addr 0xda65b0 size 0x8 virtual true final true
  ::ArrayW<uint8_t> get_publicKey() ;
 
-// Ctor Parameters [CppParam { name: "privateKeyParameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey) ;
+static GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__DiffieHellmanKeyPair New_ctor(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey) ;
 
 /// @brief Method .ctor addr 0xda5fd8 size 0x98 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey) ;
@@ -349,8 +367,7 @@ constexpr ::ArrayW<uint8_t> __get_clientPublicKey() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0() ;
+static GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0xda693c size 0x8 virtual false final false
  void _ctor() ;
@@ -432,8 +449,7 @@ constexpr ::ArrayW<uint8_t> __get__publicKey() const;
 /// @brief Method get_publicKey addr 0xda67e4 size 0x8 virtual true final true
  ::ArrayW<uint8_t> get_publicKey() ;
 
-// Ctor Parameters [CppParam { name: "privateKeyParameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey) ;
+static GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__ElipticalCurveKeyPair New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey) ;
 
 /// @brief Method .ctor addr 0xda6070 size 0x98 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters privateKeyParameters, ::ArrayW<uint8_t> publicKey) ;
@@ -508,8 +524,7 @@ constexpr ::StringW __get__operationName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "operationName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GlobalNamespace__DiffieHellmanUtility__OperationTimer(::StringW operationName) ;
+static GlobalNamespace::GlobalNamespace__DiffieHellmanUtility__OperationTimer New_ctor(::StringW operationName) ;
 
 /// @brief Method .ctor addr 0xda6a18 size 0x84 virtual false final false
  void _ctor(::StringW operationName) ;

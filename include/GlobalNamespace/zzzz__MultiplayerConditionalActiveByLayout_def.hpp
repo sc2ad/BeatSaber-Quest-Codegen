@@ -4,6 +4,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerConditionalActiveByLayout__Condition;
+}
+namespace GlobalNamespace {
 struct MultiplayerPlayerLayout;
 }
 namespace GlobalNamespace {
@@ -65,6 +68,8 @@ __HideIf = 1,
 constexpr operator __GlobalNamespace__MultiplayerConditionalActiveByLayout__Condition_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerConditionalActiveByLayout__Condition_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -156,8 +161,7 @@ constexpr GlobalNamespace::MultiplayerLayoutProvider __get__layoutProvider() con
 /// @brief Method HandlePlayersLayoutWasCalculated addr 0x20f1630 size 0x58 virtual false final false
  void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int32_t playersCount) ;
 
-// Ctor Parameters []
-explicit MultiplayerConditionalActiveByLayout() ;
+static GlobalNamespace::MultiplayerConditionalActiveByLayout New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f1688 size 0x8 virtual false final false
  void _ctor() ;

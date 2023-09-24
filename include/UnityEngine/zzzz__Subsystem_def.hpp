@@ -65,8 +65,7 @@ constexpr explicit Subsystem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 /// @brief Method OnDestroy addr 0x0 size 0xffffffffffffffff virtual true final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit Subsystem() ;
+static UnityEngine::Subsystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba3eb0 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,16 +1,16 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__WebConnectionStream_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
+#include "System/Net/zzzz__WebConnection_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Net/zzzz__ServicePoint_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__WebConnection_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Net/zzzz__HttpWebRequest_def.hpp"
 //  Writing Method size for method: System::Net::WebConnectionStream._ctor
 template<>
 
@@ -552,8 +552,10 @@ constexpr void System::Net::WebConnectionStream::__set__Operation_k__BackingFiel
 constexpr System::Net::WebOperation System::Net::WebConnectionStream::__get__Operation_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Net::WebOperation, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cnc", ty: "System::Net::WebConnection", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }]
- System::Net::WebConnectionStream::WebConnectionStream(System::Net::WebConnection cnc, System::Net::WebOperation operation)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<WebConnectionStream>(cnc, operation))) {}
+ System::Net::WebConnectionStream System::Net::WebConnectionStream::New_ctor(System::Net::WebConnection cnc, System::Net::WebOperation operation)  {
+System::Net::WebConnectionStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebConnectionStream>(cnc, operation))};
+return o;
+}
  void System::Net::WebConnectionStream::_ctor(System::Net::WebConnection cnc, System::Net::WebOperation operation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebConnectionStream>::get(),

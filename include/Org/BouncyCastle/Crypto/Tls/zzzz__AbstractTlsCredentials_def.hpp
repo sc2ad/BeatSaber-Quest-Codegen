@@ -64,8 +64,7 @@ constexpr explicit AbstractTlsCredentials(void* ptr) noexcept : ::bs_hook::Il2Cp
 /// @brief Method get_Certificate addr 0x0 size 0xffffffffffffffff virtual true final false
  Org::BouncyCastle::Crypto::Tls::Certificate get_Certificate() ;
 
-// Ctor Parameters []
-explicit AbstractTlsCredentials() ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials New_ctor() ;
 
 /// @brief Method .ctor addr 0xecb198 size 0x8 virtual false final false
  void _ctor() ;

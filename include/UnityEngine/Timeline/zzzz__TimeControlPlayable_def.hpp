@@ -2,6 +2,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
+}
+namespace UnityEngine::Playables {
 template<typename T>
 struct ScriptPlayable_1;
 }
@@ -10,12 +16,6 @@ struct PlayableGraph;
 }
 namespace UnityEngine::Timeline {
 class ITimeControl;
-}
-namespace UnityEngine::Playables {
-struct FrameData;
-}
-namespace UnityEngine::Playables {
-struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -93,8 +93,7 @@ static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeContr
 /// @brief Method OnBehaviourPause addr 0x2ad4c5c size 0xb0 virtual true final false
  void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info) ;
 
-// Ctor Parameters []
-explicit TimeControlPlayable() ;
+static UnityEngine::Timeline::TimeControlPlayable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad4d0c size 0x8 virtual false final false
  void _ctor() ;

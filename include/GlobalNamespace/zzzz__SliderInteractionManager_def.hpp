@@ -3,21 +3,21 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-struct ColorType;
-}
-namespace GlobalNamespace {
 class SliderController;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System {
-class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct ColorType;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
@@ -156,8 +156,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::SliderController
 /// @brief Method HandleSliderWasDespawned addr 0x224b7ec size 0x34 virtual false final false
  void HandleSliderWasDespawned(GlobalNamespace::SliderController sliderController) ;
 
-// Ctor Parameters []
-explicit SliderInteractionManager() ;
+static GlobalNamespace::SliderInteractionManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x224b820 size 0x7c virtual false final false
  void _ctor() ;

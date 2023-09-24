@@ -1,11 +1,11 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerBrowserViewController_def.hpp"
-#include "GlobalNamespace/zzzz__GameServersFilterText_def.hpp"
-#include "GlobalNamespace/zzzz__GameServersListTableView_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__GameServersFilterText_def.hpp"
 #include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__GameServersListTableView_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameServerBrowserViewController._ctor
 template<>
 
@@ -65,8 +65,10 @@ constexpr void GlobalNamespace::GameServerBrowserViewController::__set__smallLoa
 constexpr GlobalNamespace::LoadingControl GlobalNamespace::GameServerBrowserViewController::__get__smallLoadingControl() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::LoadingControl, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GameServerBrowserViewController::GameServerBrowserViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<GameServerBrowserViewController>())) {}
+ GlobalNamespace::GameServerBrowserViewController GlobalNamespace::GameServerBrowserViewController::New_ctor()  {
+GlobalNamespace::GameServerBrowserViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameServerBrowserViewController>())};
+return o;
+}
  void GlobalNamespace::GameServerBrowserViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameServerBrowserViewController>::get(),

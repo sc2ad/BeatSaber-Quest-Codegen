@@ -90,26 +90,22 @@ constexpr UnityEngine::Bindings::CodegenOptions __get__CodegenOptions_k__Backing
 /// @brief Method set_CodegenOptions addr 0x2ba1534 size 0x8 virtual true final true
  void set_CodegenOptions(UnityEngine::Bindings::CodegenOptions value) ;
 
-// Ctor Parameters []
-explicit NativeTypeAttribute() ;
+static UnityEngine::Bindings::NativeTypeAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba153c size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "codegenOptions", ty: "UnityEngine::Bindings::CodegenOptions", modifiers: "", def_value: None }]
-explicit NativeTypeAttribute(UnityEngine::Bindings::CodegenOptions codegenOptions) ;
+static UnityEngine::Bindings::NativeTypeAttribute New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions) ;
 
 /// @brief Method .ctor addr 0x2ba1558 size 0x28 virtual false final false
  void _ctor(UnityEngine::Bindings::CodegenOptions codegenOptions) ;
 
-// Ctor Parameters [CppParam { name: "header", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NativeTypeAttribute(::StringW header) ;
+static UnityEngine::Bindings::NativeTypeAttribute New_ctor(::StringW header) ;
 
 /// @brief Method .ctor addr 0x2ba1580 size 0x108 virtual false final false
  void _ctor(::StringW header) ;
 
-// Ctor Parameters [CppParam { name: "codegenOptions", ty: "UnityEngine::Bindings::CodegenOptions", modifiers: "", def_value: None }, CppParam { name: "intermediateStructName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NativeTypeAttribute(UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName) ;
+static UnityEngine::Bindings::NativeTypeAttribute New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName) ;
 
 /// @brief Method .ctor addr 0x2ba1688 size 0x30 virtual false final false
  void _ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName) ;

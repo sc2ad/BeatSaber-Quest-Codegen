@@ -62,8 +62,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRInput__RawButton __get_resetButto
 /// @brief Method Update addr 0x262f3e8 size 0xe0 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRResetOrientation() ;
+static GlobalNamespace::OVRResetOrientation New_ctor() ;
 
 /// @brief Method .ctor addr 0x262f4c8 size 0x10 virtual false final false
  void _ctor() ;

@@ -82,8 +82,10 @@ constexpr void UnityEngine::AssetReferenceUILabelRestriction::__set_m_CachedToSt
 constexpr ::StringW UnityEngine::AssetReferenceUILabelRestriction::__get_m_CachedToString() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "allowedLabels", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
- UnityEngine::AssetReferenceUILabelRestriction::AssetReferenceUILabelRestriction(::ArrayW<::StringW> allowedLabels)  : UnityEngine::AssetReferenceUIRestriction(THROW_UNLESS(::il2cpp_utils::New<AssetReferenceUILabelRestriction>(allowedLabels))) {}
+ UnityEngine::AssetReferenceUILabelRestriction UnityEngine::AssetReferenceUILabelRestriction::New_ctor(::ArrayW<::StringW> allowedLabels)  {
+UnityEngine::AssetReferenceUILabelRestriction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AssetReferenceUILabelRestriction>(allowedLabels))};
+return o;
+}
  void UnityEngine::AssetReferenceUILabelRestriction::_ctor(::ArrayW<::StringW> allowedLabels)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AssetReferenceUILabelRestriction>::get(),

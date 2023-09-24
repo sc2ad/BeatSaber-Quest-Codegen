@@ -8,33 +8,36 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class ICachable;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class IList_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct UnityEngine__ResourceManagement__AsyncOperations__GroupOperation__GroupOperationSettings;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class List_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class ICachable;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -94,6 +97,8 @@ constexpr operator __UnityEngine__ResourceManagement__AsyncOperations__GroupOper
 return std::bit_cast<__UnityEngine__ResourceManagement__AsyncOperations__GroupOperation__GroupOperationSettings_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -119,7 +124,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.ResourceManagement.AsyncOperations::GroupOperation
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313)), TypeDefinitionIndex(TypeDefinitionIndex(3820)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3820), inst: 265 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 767 }), TypeDefinitionIndex(TypeDefinitionIndex(14315))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14315)), TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3820), inst: 265 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 767 }), TypeDefinitionIndex(TypeDefinitionIndex(3820))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14319))
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.GroupOperation
 class CORDL_TYPE GroupOperation : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>> {
@@ -214,8 +219,7 @@ constexpr System::Collections::Generic::HashSet_1<::StringW> __get_m_CachedDepen
 
 // Methods
 
-// Ctor Parameters []
-explicit GroupOperation() ;
+static UnityEngine::ResourceManagement::AsyncOperations::GroupOperation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a45d74 size 0x138 virtual false final false
  void _ctor() ;

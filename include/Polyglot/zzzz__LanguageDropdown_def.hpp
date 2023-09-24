@@ -77,8 +77,7 @@ constexpr UnityEngine::UI::Dropdown __get_dropdown() const;
 /// @brief Method OnLocalize addr 0x26718f8 size 0x148 virtual true final true
  void OnLocalize() ;
 
-// Ctor Parameters []
-explicit LanguageDropdown() ;
+static Polyglot::LanguageDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x2671a40 size 0x8 virtual false final false
  void _ctor() ;

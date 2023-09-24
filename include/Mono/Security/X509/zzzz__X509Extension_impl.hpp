@@ -1,7 +1,7 @@
 #pragma once
 #include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
-#include "Mono/Security/zzzz__ASN1_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "Mono/Security/zzzz__ASN1_def.hpp"
 //  Writing Method size for method: Mono::Security::X509::X509Extension._ctor
 template<>
 
@@ -207,8 +207,10 @@ constexpr void Mono::Security::X509::X509Extension::__set_extnValue(Mono::Securi
 constexpr Mono::Security::ASN1 Mono::Security::X509::X509Extension::__get_extnValue() const {
 return ::cordl_internals::getInstanceField<Mono::Security::ASN1, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
- Mono::Security::X509::X509Extension::X509Extension(Mono::Security::ASN1 asn1)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Extension>(asn1))) {}
+ Mono::Security::X509::X509Extension Mono::Security::X509::X509Extension::New_ctor(Mono::Security::ASN1 asn1)  {
+Mono::Security::X509::X509Extension o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::X509Extension>(asn1))};
+return o;
+}
  void Mono::Security::X509::X509Extension::_ctor(Mono::Security::ASN1 asn1)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::X509Extension>::get(),
@@ -218,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, asn1);
 }
-// Ctor Parameters [CppParam { name: "extension", ty: "Mono::Security::X509::X509Extension", modifiers: "", def_value: None }]
- Mono::Security::X509::X509Extension::X509Extension(Mono::Security::X509::X509Extension extension)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Extension>(extension))) {}
+ Mono::Security::X509::X509Extension Mono::Security::X509::X509Extension::New_ctor(Mono::Security::X509::X509Extension extension)  {
+Mono::Security::X509::X509Extension o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::X509Extension>(extension))};
+return o;
+}
  void Mono::Security::X509::X509Extension::_ctor(Mono::Security::X509::X509Extension extension)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::X509Extension>::get(),

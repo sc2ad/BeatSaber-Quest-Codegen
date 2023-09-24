@@ -5,20 +5,23 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-struct EaseType;
+class IBeatToTimeConvertor;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
-}
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
+struct GlobalNamespace__BeatmapEventDataBox__DistributionParamType;
 }
 namespace GlobalNamespace {
 class IndexFilter;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,6 +79,8 @@ __Step = 2,
 constexpr operator __GlobalNamespace__BeatmapEventDataBox__DistributionParamType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__BeatmapEventDataBox__DistributionParamType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -209,8 +214,7 @@ constexpr GlobalNamespace::EaseType __get__eventDistributionEaseType() const;
 /// @brief Method get_indexFilter addr 0x21da734 size 0x8 virtual false final false
  GlobalNamespace::IndexFilter get_indexFilter() ;
 
-// Ctor Parameters [CppParam { name: "indexFilter", ty: "GlobalNamespace::IndexFilter", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "beatDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "eventDistributionParamType", ty: "GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType", modifiers: "", def_value: None }, CppParam { name: "eventDistributionParam", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "eventDistributionShouldAffectFirstBaseEvent", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "eventDistributionEaseType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }]
-explicit BeatmapEventDataBox(GlobalNamespace::IndexFilter indexFilter, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType eventDistributionEaseType) ;
+static GlobalNamespace::BeatmapEventDataBox New_ctor(GlobalNamespace::IndexFilter indexFilter, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType eventDistributionEaseType) ;
 
 /// @brief Method .ctor addr 0x21da73c size 0x94 virtual false final false
  void _ctor(GlobalNamespace::IndexFilter indexFilter, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam, GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent, GlobalNamespace::EaseType eventDistributionEaseType) ;

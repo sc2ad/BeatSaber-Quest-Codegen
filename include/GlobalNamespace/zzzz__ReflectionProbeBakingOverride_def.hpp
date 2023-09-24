@@ -3,6 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__ReflectionProbeBakingOverride__ActiveStateHandling;
+}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -63,6 +66,8 @@ __Disable = 2,
 constexpr operator __GlobalNamespace__ReflectionProbeBakingOverride__ActiveStateHandling_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ReflectionProbeBakingOverride__ActiveStateHandling_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -178,8 +183,7 @@ constexpr UnityEngine::Vector3 __get__localScale() const;
 /// @brief Method UpdateForProbeBaking addr 0x219ce88 size 0xe8 virtual false final false
  void UpdateForProbeBaking() ;
 
-// Ctor Parameters []
-explicit ReflectionProbeBakingOverride() ;
+static GlobalNamespace::ReflectionProbeBakingOverride New_ctor() ;
 
 /// @brief Method .ctor addr 0x219cf70 size 0xa8 virtual false final false
  void _ctor() ;

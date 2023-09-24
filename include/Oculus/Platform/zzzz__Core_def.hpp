@@ -3,18 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Oculus::Platform {
-struct InitConfigOptions;
+template<typename T>
+class Request_1;
+}
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
-}
 namespace Oculus::Platform {
-template<typename T>
-class Request_1;
+struct InitConfigOptions;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -104,8 +104,7 @@ static void Initialize(::StringW appId) ;
 /// @brief Method GetAppIDFromConfig addr 0x25855a0 size 0x2c virtual false final false
 static ::StringW GetAppIDFromConfig() ;
 
-// Ctor Parameters []
-explicit Core() ;
+static Oculus::Platform::Core New_ctor() ;
 
 /// @brief Method .ctor addr 0x2585e04 size 0x8 virtual false final false
  void _ctor() ;

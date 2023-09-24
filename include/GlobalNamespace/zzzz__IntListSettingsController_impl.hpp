@@ -193,8 +193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::IntListSettingsController::IntListSettingsController()  : GlobalNamespace::ListSettingsController(THROW_UNLESS(::il2cpp_utils::New<IntListSettingsController>())) {}
+ GlobalNamespace::IntListSettingsController GlobalNamespace::IntListSettingsController::New_ctor()  {
+GlobalNamespace::IntListSettingsController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::IntListSettingsController>())};
+return o;
+}
  void GlobalNamespace::IntListSettingsController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IntListSettingsController>::get(),

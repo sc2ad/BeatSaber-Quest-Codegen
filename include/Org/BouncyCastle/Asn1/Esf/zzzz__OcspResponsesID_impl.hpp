@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspResponsesID_def.hpp"
-#include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherHash_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherHash_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Esf::OcspResponsesID.GetInstance
 template<>
 
@@ -145,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Esf::OcspResponsesID, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OcspResponsesID::OcspResponsesID(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OcspResponsesID>(seq))) {}
+ Org::BouncyCastle::Asn1::Esf::OcspResponsesID Org::BouncyCastle::Asn1::Esf::OcspResponsesID::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Esf::OcspResponsesID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OcspResponsesID>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OcspResponsesID::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OcspResponsesID>::get(),
@@ -156,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "ocspIdentifier", ty: "Org::BouncyCastle::Asn1::Esf::OcspIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OcspResponsesID::OcspResponsesID(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OcspResponsesID>(ocspIdentifier))) {}
+ Org::BouncyCastle::Asn1::Esf::OcspResponsesID Org::BouncyCastle::Asn1::Esf::OcspResponsesID::New_ctor(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier)  {
+Org::BouncyCastle::Asn1::Esf::OcspResponsesID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OcspResponsesID>(ocspIdentifier))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OcspResponsesID::_ctor(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OcspResponsesID>::get(),
@@ -167,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ocspIdentifier);
 }
-// Ctor Parameters [CppParam { name: "ocspIdentifier", ty: "Org::BouncyCastle::Asn1::Esf::OcspIdentifier", modifiers: "", def_value: None }, CppParam { name: "ocspRepHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHash", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::OcspResponsesID::OcspResponsesID(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHash ocspRepHash)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OcspResponsesID>(ocspIdentifier, ocspRepHash))) {}
+ Org::BouncyCastle::Asn1::Esf::OcspResponsesID Org::BouncyCastle::Asn1::Esf::OcspResponsesID::New_ctor(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHash ocspRepHash)  {
+Org::BouncyCastle::Asn1::Esf::OcspResponsesID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::OcspResponsesID>(ocspIdentifier, ocspRepHash))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::OcspResponsesID::_ctor(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHash ocspRepHash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::OcspResponsesID>::get(),

@@ -2,41 +2,41 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
 namespace Org::BouncyCastle::Cms {
-class RecipientID;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class KeyAgreeRecipientInfo;
+class OriginatorID;
 }
 namespace System::Collections {
 class IList;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorIdentifierOrKey;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class KeyAgreeRecipientInfo;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
+class CmsTypedStream;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorPublicKey;
 }
 namespace Org::BouncyCastle::Cms {
-class OriginatorID;
+class RecipientID;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorIdentifierOrKey;
+namespace Org::BouncyCastle::Cms {
+class CmsSecureReadable;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -102,8 +102,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_encryptedKey() const;
 /// @brief Method ReadRecipientInfo addr 0x115881c size 0x57c virtual false final false
 static void ReadRecipientInfo(System::Collections::IList infos, Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo", modifiers: "", def_value: None }, CppParam { name: "rid", ty: "Org::BouncyCastle::Cms::RecipientID", modifiers: "", def_value: None }, CppParam { name: "encryptedKey", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "secureReadable", ty: "Org::BouncyCastle::Cms::CmsSecureReadable", modifiers: "", def_value: None }]
-explicit KeyAgreeRecipientInformation(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info, Org::BouncyCastle::Cms::RecipientID rid, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
+static Org::BouncyCastle::Cms::KeyAgreeRecipientInformation New_ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info, Org::BouncyCastle::Cms::RecipientID rid, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
 
 /// @brief Method .ctor addr 0x1178d48 size 0x48 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo info, Org::BouncyCastle::Cms::RecipientID rid, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;

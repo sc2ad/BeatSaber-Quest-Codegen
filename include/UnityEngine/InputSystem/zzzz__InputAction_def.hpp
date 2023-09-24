@@ -7,17 +7,37 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-struct Guid;
-}
-namespace System {
 class ICloneable;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace System {
+struct Guid;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TDelegate>
+struct CallbackArray_1;
+}
 namespace UnityEngine::InputSystem {
 struct InputActionType;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputAction__ActionFlags;
+}
+namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::InputSystem {
 struct InputBinding;
@@ -28,35 +48,21 @@ class InputControl;
 namespace UnityEngine::InputSystem {
 struct UnityEngine__InputSystem__InputActionState__TriggerState;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::InputSystem {
+struct InputActionPhase;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TDelegate>
-struct CallbackArray_1;
-}
 namespace UnityEngine::InputSystem {
-struct InputActionPhase;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
+class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
 class InputActionState;
 }
 namespace System {
 class Type;
-}
-namespace UnityEngine::InputSystem {
-class IInputInteraction;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -116,6 +122,8 @@ __WantsInitialStateCheck = 1,
 constexpr operator __UnityEngine__InputSystem__InputAction__ActionFlags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputAction__ActionFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -576,14 +584,12 @@ constexpr UnityEngine::InputSystem::Utilities::CallbackArray_1<System::Action_1<
 /// @brief Method set_wantsInitialStateCheck addr 0x28a4920 size 0x1c virtual false final false
  void set_wantsInitialStateCheck(bool value) ;
 
-// Ctor Parameters []
-explicit InputAction() ;
+static UnityEngine::InputSystem::InputAction New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a493c size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "UnityEngine::InputSystem::InputActionType", modifiers: "", def_value: None }, CppParam { name: "binding", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InputAction(::StringW name, UnityEngine::InputSystem::InputActionType type, ::StringW binding, ::StringW interactions, ::StringW processors, ::StringW expectedControlType) ;
+static UnityEngine::InputSystem::InputAction New_ctor(::StringW name, UnityEngine::InputSystem::InputActionType type, ::StringW binding, ::StringW interactions, ::StringW processors, ::StringW expectedControlType) ;
 
 /// @brief Method .ctor addr 0x28a494c size 0x120 virtual false final false
  void _ctor(::StringW name, UnityEngine::InputSystem::InputActionType type, ::StringW binding, ::StringW interactions, ::StringW processors, ::StringW expectedControlType) ;

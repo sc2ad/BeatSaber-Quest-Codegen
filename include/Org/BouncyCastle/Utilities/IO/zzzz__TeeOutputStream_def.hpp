@@ -67,8 +67,7 @@ constexpr System::IO::Stream __get_tee() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tee", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit TeeOutputStream(System::IO::Stream output, System::IO::Stream tee) ;
+static Org::BouncyCastle::Utilities::IO::TeeOutputStream New_ctor(System::IO::Stream output, System::IO::Stream tee) ;
 
 /// @brief Method .ctor addr 0x10d4264 size 0x2c virtual false final false
  void _ctor(System::IO::Stream output, System::IO::Stream tee) ;

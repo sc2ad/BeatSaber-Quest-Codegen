@@ -1,9 +1,9 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeDescriptionProvider_impl.hpp"
 #include "System/ComponentModel/zzzz__DelegatingTypeDescriptionProvider_def.hpp"
-#include "System/ComponentModel/zzzz__TypeDescriptionProvider_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/ComponentModel/zzzz__TypeDescriptionProvider_def.hpp"
 #include "System/ComponentModel/zzzz__ICustomTypeDescriptor_def.hpp"
 #include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
 //  Writing Method size for method: System::ComponentModel::DelegatingTypeDescriptionProvider._ctor
@@ -131,8 +131,10 @@ constexpr void System::ComponentModel::DelegatingTypeDescriptionProvider::__set_
 constexpr System::Type System::ComponentModel::DelegatingTypeDescriptionProvider::__get__type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::ComponentModel::DelegatingTypeDescriptionProvider::DelegatingTypeDescriptionProvider(System::Type type)  : System::ComponentModel::TypeDescriptionProvider(THROW_UNLESS(::il2cpp_utils::New<DelegatingTypeDescriptionProvider>(type))) {}
+ System::ComponentModel::DelegatingTypeDescriptionProvider System::ComponentModel::DelegatingTypeDescriptionProvider::New_ctor(System::Type type)  {
+System::ComponentModel::DelegatingTypeDescriptionProvider o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DelegatingTypeDescriptionProvider>(type))};
+return o;
+}
  void System::ComponentModel::DelegatingTypeDescriptionProvider::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DelegatingTypeDescriptionProvider>::get(),

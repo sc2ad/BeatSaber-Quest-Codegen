@@ -4,17 +4,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Remoting {
-class IRemotingTypeInfo;
-}
-namespace System::Runtime::Remoting {
-class ClientIdentity;
+namespace System::Reflection {
+class MethodInfo;
 }
 namespace System::Runtime::Remoting {
 class Identity;
@@ -23,13 +14,22 @@ namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class ConstructionCall;
+class IMessageSink;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace System::Runtime::Remoting {
+class IRemotingTypeInfo;
+}
+namespace System::Runtime::Remoting {
+class ClientIdentity;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Remoting::Messaging {
+class ConstructionCall;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {
@@ -118,14 +118,12 @@ constexpr System::Runtime::Remoting::Messaging::ConstructionCall __get__ctorCall
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "System::Runtime::Remoting::ClientIdentity", modifiers: "", def_value: None }]
-explicit RemotingProxy(System::Type type, System::Runtime::Remoting::ClientIdentity identity) ;
+static System::Runtime::Remoting::Proxies::RemotingProxy New_ctor(System::Type type, System::Runtime::Remoting::ClientIdentity identity) ;
 
 /// @brief Method .ctor addr 0x232c9f8 size 0x44 virtual false final false
  void _ctor(System::Type type, System::Runtime::Remoting::ClientIdentity identity) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "activationUrl", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "activationAttributes", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit RemotingProxy(System::Type type, ::StringW activationUrl, ::ArrayW<::bs_hook::Il2CppWrapperType> activationAttributes) ;
+static System::Runtime::Remoting::Proxies::RemotingProxy New_ctor(System::Type type, ::StringW activationUrl, ::ArrayW<::bs_hook::Il2CppWrapperType> activationAttributes) ;
 
 /// @brief Method .ctor addr 0x232a260 size 0x48 virtual false final false
  void _ctor(System::Type type, ::StringW activationUrl, ::ArrayW<::bs_hook::Il2CppWrapperType> activationAttributes) ;

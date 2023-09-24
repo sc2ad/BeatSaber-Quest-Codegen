@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, amplitude, duration);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::XR::XRControllerWithRumble::XRControllerWithRumble()  : UnityEngine::InputSystem::XR::XRController(THROW_UNLESS(::il2cpp_utils::New<XRControllerWithRumble>())) {}
+ UnityEngine::InputSystem::XR::XRControllerWithRumble UnityEngine::InputSystem::XR::XRControllerWithRumble::New_ctor()  {
+UnityEngine::InputSystem::XR::XRControllerWithRumble o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::XR::XRControllerWithRumble>())};
+return o;
+}
  void UnityEngine::InputSystem::XR::XRControllerWithRumble::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::XR::XRControllerWithRumble>::get(),

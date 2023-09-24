@@ -79,8 +79,7 @@ static UnityEngine::UIElements::FocusChangeDirection get_left() ;
 /// @brief Method get_right addr 0x2c42544 size 0x58 virtual false final false
 static UnityEngine::UIElements::FocusChangeDirection get_right() ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-explicit VisualElementFocusChangeDirection(int32_t value) ;
+static UnityEngine::UIElements::VisualElementFocusChangeDirection New_ctor(int32_t value) ;
 
 /// @brief Method .ctor addr 0x2c4259c size 0x68 virtual false final false
  void _ctor(int32_t value) ;

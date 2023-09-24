@@ -5,40 +5,40 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
+class ColorSchemesListSO;
+}
+namespace GlobalNamespace {
+class EnvironmentsListSO;
+}
+namespace GlobalNamespace {
+class PlayerData;
+}
+namespace GlobalNamespace {
+class ISaveData;
+}
+namespace GlobalNamespace {
+class PlayerSaveData;
+}
+namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace System {
 class Version;
 }
 namespace GlobalNamespace {
-class PlayerData;
+class EnvironmentTypeSO;
 }
 namespace GlobalNamespace {
-class PlayerSaveData;
-}
-namespace GlobalNamespace {
-class EnvironmentsListSO;
-}
-namespace GlobalNamespace {
-class ISaveData;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+class PlayerSaveDataV1_0_1;
 }
 namespace GlobalNamespace {
 class OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
-class ColorSchemesListSO;
-}
-namespace GlobalNamespace {
-class EnvironmentTypeSO;
-}
-namespace GlobalNamespace {
 class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class PlayerSaveDataV1_0_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -191,8 +191,7 @@ static GlobalNamespace::BeatmapCharacteristicSO GetBeatmapCharacteristicFromV_1_
 /// @brief Method LoadCorrectedSongPackMask addr 0x2225dd8 size 0x70 virtual false final false
  ::StringW LoadCorrectedSongPackMask(::ArrayW<uint8_t> songMaskPackBytes) ;
 
-// Ctor Parameters []
-explicit PlayerDataFileManagerSO() ;
+static GlobalNamespace::PlayerDataFileManagerSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x22267bc size 0x74 virtual false final false
  void _ctor() ;

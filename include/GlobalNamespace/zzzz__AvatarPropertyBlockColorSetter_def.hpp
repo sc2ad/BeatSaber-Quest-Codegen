@@ -7,10 +7,10 @@ namespace UnityEngine {
 class Renderer;
 }
 namespace UnityEngine {
-struct Color;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -139,8 +139,7 @@ constexpr bool __get__highlighted() const;
 /// @brief Method UpdateRenderer addr 0x20c08f8 size 0x170 virtual false final false
  void UpdateRenderer() ;
 
-// Ctor Parameters []
-explicit AvatarPropertyBlockColorSetter() ;
+static GlobalNamespace::AvatarPropertyBlockColorSetter New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c0a74 size 0x24 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__UnmanagedMemoryStream_impl.hpp"
 #include "System/IO/zzzz__PinnedBufferMemoryStream_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: System::IO::PinnedBufferMemoryStream._ctor
 template<>
@@ -101,8 +101,10 @@ constexpr void System::IO::PinnedBufferMemoryStream::__set__pinningHandle(System
 constexpr System::Runtime::InteropServices::GCHandle System::IO::PinnedBufferMemoryStream::__get__pinningHandle() const {
 return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::GCHandle, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "array", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::IO::PinnedBufferMemoryStream::PinnedBufferMemoryStream(::ArrayW<uint8_t> array)  : System::IO::UnmanagedMemoryStream(THROW_UNLESS(::il2cpp_utils::New<PinnedBufferMemoryStream>(array))) {}
+ System::IO::PinnedBufferMemoryStream System::IO::PinnedBufferMemoryStream::New_ctor(::ArrayW<uint8_t> array)  {
+System::IO::PinnedBufferMemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::PinnedBufferMemoryStream>(array))};
+return o;
+}
  void System::IO::PinnedBufferMemoryStream::_ctor(::ArrayW<uint8_t> array)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::PinnedBufferMemoryStream>::get(),

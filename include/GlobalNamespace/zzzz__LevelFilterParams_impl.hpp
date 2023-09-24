@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LevelFilterParams_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LevelFilterParams.get_filterByLevelIds
@@ -1074,8 +1074,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelFilterParams::LevelFilterParams()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LevelFilterParams>())) {}
+ GlobalNamespace::LevelFilterParams GlobalNamespace::LevelFilterParams::New_ctor()  {
+GlobalNamespace::LevelFilterParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelFilterParams>())};
+return o;
+}
  void GlobalNamespace::LevelFilterParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelFilterParams>::get(),
@@ -1085,8 +1087,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "filterByLevelIds", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelIds", ty: "System::Collections::Generic::HashSet_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "searchText", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "filterByOwned", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filterByNotOwned", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filterByDifficulty", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filteredDifficulty", ty: "GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "filterByCharacteristic", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filteredCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "filterBySongPacks", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filteredSongPacks", ty: "GlobalNamespace::SongPackMask", modifiers: "", def_value: None }, CppParam { name: "filterByNotPlayedYet", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filterByMinBpm", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filteredMinBpm", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "filterByMaxBpm", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "filteredMaxBpm", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::LevelFilterParams::LevelFilterParams(bool filterByLevelIds, System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds, ::StringW searchText, bool filterByOwned, bool filterByNotOwned, bool filterByDifficulty, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty, bool filterByCharacteristic, GlobalNamespace::BeatmapCharacteristicSO filteredCharacteristic, bool filterBySongPacks, GlobalNamespace::SongPackMask filteredSongPacks, bool filterByNotPlayedYet, bool filterByMinBpm, float_t filteredMinBpm, bool filterByMaxBpm, float_t filteredMaxBpm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LevelFilterParams>(filterByLevelIds, beatmapLevelIds, searchText, filterByOwned, filterByNotOwned, filterByDifficulty, filteredDifficulty, filterByCharacteristic, filteredCharacteristic, filterBySongPacks, filteredSongPacks, filterByNotPlayedYet, filterByMinBpm, filteredMinBpm, filterByMaxBpm, filteredMaxBpm))) {}
+ GlobalNamespace::LevelFilterParams GlobalNamespace::LevelFilterParams::New_ctor(bool filterByLevelIds, System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds, ::StringW searchText, bool filterByOwned, bool filterByNotOwned, bool filterByDifficulty, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty, bool filterByCharacteristic, GlobalNamespace::BeatmapCharacteristicSO filteredCharacteristic, bool filterBySongPacks, GlobalNamespace::SongPackMask filteredSongPacks, bool filterByNotPlayedYet, bool filterByMinBpm, float_t filteredMinBpm, bool filterByMaxBpm, float_t filteredMaxBpm)  {
+GlobalNamespace::LevelFilterParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelFilterParams>(filterByLevelIds, beatmapLevelIds, searchText, filterByOwned, filterByNotOwned, filterByDifficulty, filteredDifficulty, filterByCharacteristic, filteredCharacteristic, filterBySongPacks, filteredSongPacks, filterByNotPlayedYet, filterByMinBpm, filteredMinBpm, filterByMaxBpm, filteredMaxBpm))};
+return o;
+}
  void GlobalNamespace::LevelFilterParams::_ctor(bool filterByLevelIds, System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds, ::StringW searchText, bool filterByOwned, bool filterByNotOwned, bool filterByDifficulty, GlobalNamespace::BeatmapDifficultyMask filteredDifficulty, bool filterByCharacteristic, GlobalNamespace::BeatmapCharacteristicSO filteredCharacteristic, bool filterBySongPacks, GlobalNamespace::SongPackMask filteredSongPacks, bool filterByNotPlayedYet, bool filterByMinBpm, float_t filteredMinBpm, bool filterByMaxBpm, float_t filteredMaxBpm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelFilterParams>::get(),
@@ -1105,8 +1109,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, ignoreFilterBySongs);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelIds", ty: "System::Collections::Generic::HashSet_1<::StringW>", modifiers: "", def_value: None }]
- GlobalNamespace::LevelFilterParams::LevelFilterParams(System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LevelFilterParams>(beatmapLevelIds))) {}
+ GlobalNamespace::LevelFilterParams GlobalNamespace::LevelFilterParams::New_ctor(System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds)  {
+GlobalNamespace::LevelFilterParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelFilterParams>(beatmapLevelIds))};
+return o;
+}
  void GlobalNamespace::LevelFilterParams::_ctor(System::Collections::Generic::HashSet_1<::StringW> beatmapLevelIds)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelFilterParams>::get(),
@@ -1116,8 +1122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapLevelIds);
 }
-// Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }]
- GlobalNamespace::LevelFilterParams::LevelFilterParams(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LevelFilterParams>(beatmapCharacteristic))) {}
+ GlobalNamespace::LevelFilterParams GlobalNamespace::LevelFilterParams::New_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  {
+GlobalNamespace::LevelFilterParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelFilterParams>(beatmapCharacteristic))};
+return o;
+}
  void GlobalNamespace::LevelFilterParams::_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelFilterParams>::get(),

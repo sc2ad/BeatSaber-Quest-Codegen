@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, combo);
 }
-// Ctor Parameters []
- GlobalNamespace::ComboMissionObjectiveChecker::ComboMissionObjectiveChecker()  : GlobalNamespace::SimpleValueMissionObjectiveChecker(THROW_UNLESS(::il2cpp_utils::New<ComboMissionObjectiveChecker>())) {}
+ GlobalNamespace::ComboMissionObjectiveChecker GlobalNamespace::ComboMissionObjectiveChecker::New_ctor()  {
+GlobalNamespace::ComboMissionObjectiveChecker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ComboMissionObjectiveChecker>())};
+return o;
+}
  void GlobalNamespace::ComboMissionObjectiveChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ComboMissionObjectiveChecker>::get(),

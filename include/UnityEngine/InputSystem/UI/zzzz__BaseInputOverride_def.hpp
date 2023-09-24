@@ -65,8 +65,7 @@ constexpr ::StringW __get__compositionString_k__BackingField() const;
 /// @brief Method get_compositionString addr 0x293bdb8 size 0x8 virtual true final false
  ::StringW get_compositionString() ;
 
-// Ctor Parameters []
-explicit BaseInputOverride() ;
+static UnityEngine::InputSystem::UI::BaseInputOverride New_ctor() ;
 
 /// @brief Method .ctor addr 0x293bdc0 size 0x8 virtual false final false
  void _ctor() ;

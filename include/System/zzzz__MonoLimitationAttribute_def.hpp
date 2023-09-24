@@ -48,8 +48,7 @@ constexpr explicit MonoLimitationAttribute(void* ptr) noexcept : System::MonoTOD
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "comment", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MonoLimitationAttribute(::StringW comment) ;
+static System::MonoLimitationAttribute New_ctor(::StringW comment) ;
 
 /// @brief Method .ctor addr 0x24696f4 size 0x28 virtual false final false
  void _ctor(::StringW comment) ;

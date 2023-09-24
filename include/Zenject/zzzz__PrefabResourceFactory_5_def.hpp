@@ -4,9 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
@@ -15,6 +12,9 @@ class IFactory_6;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -96,8 +96,7 @@ constexpr Zenject::DiContainer __get__container() const;
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
  T Create(::StringW prefabResourceName, P1 param, P2 param2, P3 param3, P4 param4) ;
 
-// Ctor Parameters []
-explicit PrefabResourceFactory_5() ;
+static Zenject::PrefabResourceFactory_5<P1,P2,P3,P4,T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

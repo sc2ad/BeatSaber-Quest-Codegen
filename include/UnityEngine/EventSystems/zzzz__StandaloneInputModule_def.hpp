@@ -6,13 +6,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+struct UnityEngine__EventSystems__StandaloneInputModule__InputMode;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::EventSystems {
 class UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine {
 class GameObject;
@@ -73,6 +76,8 @@ __Buttons = 1,
 constexpr operator __UnityEngine__EventSystems__StandaloneInputModule__InputMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__EventSystems__StandaloneInputModule__InputMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -245,8 +250,7 @@ constexpr bool __get_m_ForceModuleActive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit StandaloneInputModule() ;
+static UnityEngine::EventSystems::StandaloneInputModule New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c2401c size 0xbc virtual false final false
  void _ctor() ;

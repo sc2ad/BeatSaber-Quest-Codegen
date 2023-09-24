@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::UserMappingType::UserMappingType()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserMappingType>())) {}
+ Org::BouncyCastle::Crypto::Tls::UserMappingType Org::BouncyCastle::Crypto::Tls::UserMappingType::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::UserMappingType o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::UserMappingType>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::UserMappingType::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::UserMappingType>::get(),

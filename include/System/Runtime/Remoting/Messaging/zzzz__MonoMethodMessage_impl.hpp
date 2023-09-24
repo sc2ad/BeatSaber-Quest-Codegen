@@ -1,21 +1,21 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__MonoMethodMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__MCMDictionary_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
-#include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__CallType_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IInternalMessage_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
 #include "System/Reflection/zzzz__RuntimeMethodInfo_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__CallType_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__MCMDictionary_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__AsyncResult_def.hpp"
+#include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::MonoMethodMessage.InitMessage
 template<>
 
@@ -565,8 +565,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, method, out_args);
 }
-// Ctor Parameters [CppParam { name: "method", ty: "System::Reflection::MethodBase", modifiers: "", def_value: None }, CppParam { name: "out_args", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::MonoMethodMessage::MonoMethodMessage(System::Reflection::MethodBase method, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoMethodMessage>(method, out_args))) {}
+ System::Runtime::Remoting::Messaging::MonoMethodMessage System::Runtime::Remoting::Messaging::MonoMethodMessage::New_ctor(System::Reflection::MethodBase method, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args)  {
+System::Runtime::Remoting::Messaging::MonoMethodMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::MonoMethodMessage>(method, out_args))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor(System::Reflection::MethodBase method, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::MonoMethodMessage>::get(),
@@ -576,8 +578,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, method, out_args);
 }
-// Ctor Parameters [CppParam { name: "minfo", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "in_args", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "out_args", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::MonoMethodMessage::MonoMethodMessage(System::Reflection::MethodInfo minfo, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoMethodMessage>(minfo, in_args, out_args))) {}
+ System::Runtime::Remoting::Messaging::MonoMethodMessage System::Runtime::Remoting::Messaging::MonoMethodMessage::New_ctor(System::Reflection::MethodInfo minfo, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args)  {
+System::Runtime::Remoting::Messaging::MonoMethodMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::MonoMethodMessage>(minfo, in_args, out_args))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor(System::Reflection::MethodInfo minfo, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::MonoMethodMessage>::get(),
@@ -596,8 +600,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodInfo, false>(nullptr, ___internal_method, type, methodName);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "methodName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "in_args", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::MonoMethodMessage::MonoMethodMessage(System::Type type, ::StringW methodName, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoMethodMessage>(type, methodName, in_args))) {}
+ System::Runtime::Remoting::Messaging::MonoMethodMessage System::Runtime::Remoting::Messaging::MonoMethodMessage::New_ctor(System::Type type, ::StringW methodName, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args)  {
+System::Runtime::Remoting::Messaging::MonoMethodMessage o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::MonoMethodMessage>(type, methodName, in_args))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor(System::Type type, ::StringW methodName, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::MonoMethodMessage>::get(),

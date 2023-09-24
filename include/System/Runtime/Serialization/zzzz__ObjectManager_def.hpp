@@ -6,28 +6,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Reflection {
-class RuntimeConstructorInfo;
+class MemberInfo;
 }
 namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Runtime::Serialization {
-class ObjectHolder;
-}
-namespace System::Runtime::Serialization {
-class ObjectHolderList;
-}
-namespace System::Runtime::Serialization {
-class SerializationEventHandler;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+class RuntimeConstructorInfo;
 }
 namespace System {
 class RuntimeType;
@@ -36,10 +18,28 @@ namespace System::Runtime::Serialization {
 class DeserializationEventHandler;
 }
 namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
 class FixupHolder;
 }
+namespace System::Runtime::Serialization {
+class ObjectHolderList;
+}
+namespace System::Runtime::Serialization {
+class SerializationEventHandler;
+}
+namespace System::Runtime::Serialization {
+class ObjectHolder;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
+}
 namespace System::Reflection {
-class MemberInfo;
+class FieldInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -145,8 +145,7 @@ constexpr System::Runtime::Serialization::StreamingContext __get_m_context() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "selector", ty: "System::Runtime::Serialization::ISurrogateSelector", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }, CppParam { name: "checkSecurity", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isCrossAppDomain", ty: "bool", modifiers: "", def_value: None }]
-explicit ObjectManager(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, bool checkSecurity, bool isCrossAppDomain) ;
+static System::Runtime::Serialization::ObjectManager New_ctor(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, bool checkSecurity, bool isCrossAppDomain) ;
 
 /// @brief Method .ctor addr 0x234c9e4 size 0x80 virtual false final false
  void _ctor(System::Runtime::Serialization::ISurrogateSelector selector, System::Runtime::Serialization::StreamingContext context, bool checkSecurity, bool isCrossAppDomain) ;

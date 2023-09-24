@@ -12,6 +12,12 @@ namespace System {
 class Exception;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__ListLogger__LogType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ListLogger__LogMessage;
+}
+namespace GlobalNamespace {
 class IBeatSaberLogger;
 }
 // Forward declare root types
@@ -75,6 +81,8 @@ __Exception = 3,
 constexpr operator __GlobalNamespace__ListLogger__LogType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ListLogger__LogType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -164,8 +172,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_context() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "GlobalNamespace::GlobalNamespace__ListLogger__LogType", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ListLogger__LogMessage(GlobalNamespace::GlobalNamespace__ListLogger__LogType type, ::StringW message, ::bs_hook::Il2CppWrapperType context) ;
+static GlobalNamespace::GlobalNamespace__ListLogger__LogMessage New_ctor(GlobalNamespace::GlobalNamespace__ListLogger__LogType type, ::StringW message, ::bs_hook::Il2CppWrapperType context) ;
 
 /// @brief Method .ctor addr 0x219e6b0 size 0x3c virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__ListLogger__LogType type, ::StringW message, ::bs_hook::Il2CppWrapperType context) ;
@@ -243,8 +250,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 /// @brief Method get_messages addr 0x219e530 size 0x8 virtual false final false
  System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__ListLogger__LogMessage> get_messages() ;
 
-// Ctor Parameters []
-explicit ListLogger() ;
+static GlobalNamespace::ListLogger New_ctor() ;
 
 /// @brief Method .ctor addr 0x219e538 size 0x80 virtual false final false
  void _ctor() ;

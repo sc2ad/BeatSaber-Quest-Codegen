@@ -13,7 +13,7 @@ class MessageWithBlockedUserList;
 // Type: Oculus.Platform::MessageWithBlockedUserList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4434 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4434 }), TypeDefinitionIndex(TypeDefinitionIndex(13396)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13221))
 // CS Name: Oculus.Platform.MessageWithBlockedUserList
 class CORDL_TYPE MessageWithBlockedUserList : public Oculus::Platform::Message_1<Oculus::Platform::Models::BlockedUserList> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithBlockedUserList(void* ptr) noexcept : Oculus::Plat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithBlockedUserList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithBlockedUserList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e1c0 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

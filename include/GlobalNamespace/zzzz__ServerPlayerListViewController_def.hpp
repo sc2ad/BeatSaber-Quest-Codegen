@@ -3,47 +3,47 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class IInvitePlatformHandler;
-}
-namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
-namespace HMUI {
-class HoverHint;
+namespace GlobalNamespace {
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class GameServerPlayersTableView;
 }
-namespace HMUI {
-class ButtonBinder;
-}
 namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
+class IInvitePlatformHandler;
 }
 namespace GlobalNamespace {
 class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
-struct MultiplayerLobbyState;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
 class ILobbyPlayersDataModel;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine::UI {
 class Button;
 }
+namespace HMUI {
+class HoverHint;
+}
 namespace GlobalNamespace {
-class ILobbyGameStateController;
+class LobbyPlayerPermissionsModel;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace GlobalNamespace {
+struct MultiplayerLobbyState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -229,8 +229,7 @@ constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 /// @brief Method TrySetInviteButtonEnabled addr 0x217a4b8 size 0x2f8 virtual false final false
  void TrySetInviteButtonEnabled() ;
 
-// Ctor Parameters []
-explicit ServerPlayerListViewController() ;
+static GlobalNamespace::ServerPlayerListViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217b0d0 size 0x68 virtual false final false
  void _ctor() ;

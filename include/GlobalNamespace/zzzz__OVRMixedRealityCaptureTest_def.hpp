@@ -4,6 +4,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Fovf;
 }
 namespace UnityEngine {
@@ -66,6 +69,8 @@ __ThirdPerson = 2,
 constexpr operator __GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRMixedRealityCaptureTest__CameraMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -172,8 +177,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRPlugin__Fovf __get_defaultFov() c
 /// @brief Method Update addr 0x262870c size 0x738 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRMixedRealityCaptureTest() ;
+static GlobalNamespace::OVRMixedRealityCaptureTest New_ctor() ;
 
 /// @brief Method .ctor addr 0x2628e44 size 0x8 virtual false final false
  void _ctor() ;

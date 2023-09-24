@@ -6,7 +6,7 @@
 #include <cstdint>
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class List_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -14,7 +14,7 @@ class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IEnumerable_1;
 }
 namespace System {
 template<typename T>

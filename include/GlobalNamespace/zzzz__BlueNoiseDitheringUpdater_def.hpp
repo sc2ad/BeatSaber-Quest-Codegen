@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class BlueNoiseDithering;
-}
 namespace UnityEngine {
 class Camera;
+}
+namespace GlobalNamespace {
+class BlueNoiseDithering;
 }
 namespace GlobalNamespace {
 class RandomValueToShader;
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::RandomValueToShader __get__randomValueToShader() cons
 /// @brief Method HandleCameraPreRender addr 0x1f98d5c size 0x60 virtual false final false
  void HandleCameraPreRender(UnityEngine::Camera camera) ;
 
-// Ctor Parameters []
-explicit BlueNoiseDitheringUpdater() ;
+static GlobalNamespace::BlueNoiseDitheringUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f98e48 size 0x8 virtual false final false
  void _ctor() ;

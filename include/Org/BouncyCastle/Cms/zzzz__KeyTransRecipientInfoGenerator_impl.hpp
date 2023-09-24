@@ -1,17 +1,17 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__KeyTransRecipientInfoGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__IssuerAndSerialNumber_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateStructure_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientInfo_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedHelper_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateStructure_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__IssuerAndSerialNumber_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator._ctor
 template<>
 
@@ -211,8 +211,10 @@ constexpr void Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::__set_ran
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::__get_random() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::KeyTransRecipientInfoGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyTransRecipientInfoGenerator>())) {}
+ Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator>::get(),
@@ -222,8 +224,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "issuerAndSerialNumber", ty: "Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::KeyTransRecipientInfoGenerator(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issuerAndSerialNumber)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyTransRecipientInfoGenerator>(issuerAndSerialNumber))) {}
+ Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::New_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issuerAndSerialNumber)  {
+Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator>(issuerAndSerialNumber))};
+return o;
+}
  void Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issuerAndSerialNumber)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator>::get(),
@@ -233,8 +237,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, issuerAndSerialNumber);
 }
-// Ctor Parameters [CppParam { name: "subjectKeyIdentifier", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::KeyTransRecipientInfoGenerator(::ArrayW<uint8_t> subjectKeyIdentifier)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyTransRecipientInfoGenerator>(subjectKeyIdentifier))) {}
+ Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::New_ctor(::ArrayW<uint8_t> subjectKeyIdentifier)  {
+Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator>(subjectKeyIdentifier))};
+return o;
+}
  void Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator::_ctor(::ArrayW<uint8_t> subjectKeyIdentifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator>::get(),

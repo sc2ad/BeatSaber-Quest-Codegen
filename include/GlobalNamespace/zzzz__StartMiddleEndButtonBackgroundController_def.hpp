@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace UnityEngine {
-class Sprite;
-}
 namespace HMUI {
 class ImageView;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +89,7 @@ constexpr HMUI::ImageView __get__image() const;
 /// @brief Method SetEndSprite addr 0x21273d0 size 0x24 virtual false final false
  void SetEndSprite() ;
 
-// Ctor Parameters []
-explicit StartMiddleEndButtonBackgroundController() ;
+static GlobalNamespace::StartMiddleEndButtonBackgroundController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21273f4 size 0x8 virtual false final false
  void _ctor() ;

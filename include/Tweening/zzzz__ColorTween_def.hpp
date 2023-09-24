@@ -6,12 +6,12 @@
 namespace UnityEngine {
 struct Color;
 }
-namespace GlobalNamespace {
-struct EaseType;
-}
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TValue>
 class StaticMemoryPool_7;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace System {
 template<typename T>
@@ -24,7 +24,7 @@ class ColorTween;
 // Type: Tweening::ColorTween
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15937), inst: 280 }), TypeDefinitionIndex(TypeDefinitionIndex(10192))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10192)), TypeDefinitionIndex(TypeDefinitionIndex(15937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15937), inst: 280 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15934))
 // CS Name: Tweening.ColorTween
 class CORDL_TYPE ColorTween : public Tweening::Tween_1<UnityEngine::Color> {
@@ -72,14 +72,12 @@ static Zenject::StaticMemoryPool_7<UnityEngine::Color,UnityEngine::Color,System:
 
 // Methods
 
-// Ctor Parameters []
-explicit ColorTween() ;
+static Tweening::ColorTween New_ctor() ;
 
 /// @brief Method .ctor addr 0x287a598 size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "fromValue", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "toValue", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "onUpdate", ty: "System::Action_1<UnityEngine::Color>", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: None }]
-explicit ColorTween(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;
+static Tweening::ColorTween New_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;
 
 /// @brief Method .ctor addr 0x287a5e0 size 0xd0 virtual false final false
  void _ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay) ;

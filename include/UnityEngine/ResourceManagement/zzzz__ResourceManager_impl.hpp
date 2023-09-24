@@ -3,38 +3,39 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IInstanceProvider_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__GroupOperation_def.hpp"
-#include "System/zzzz__Action_4_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__ListWithEvents_1_def.hpp"
-#include "UnityEngine/Networking/zzzz__CertificateHandler_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ISceneProvider_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 #include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IInstanceProvider_def.hpp"
+#include "UnityEngine/Networking/zzzz__CertificateHandler_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IAsyncOperation_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__GroupOperation_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ISceneProvider_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "GlobalNamespace/zzzz__ListWithEvents_1_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_def.hpp"
+#include "System/zzzz__Action_4_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventType::UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -577,8 +578,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__InstanceOperation::UnityEngine__ResourceManagement__ResourceManager__InstanceOperation()  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<UnityEngine::GameObject>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ResourceManagement__ResourceManager__InstanceOperation>())) {}
+ UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__InstanceOperation UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__InstanceOperation::New_ctor()  {
+UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__InstanceOperation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__InstanceOperation>())};
+return o;
+}
  void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__InstanceOperation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__InstanceOperation>::get(),
@@ -1788,8 +1791,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "alloc", ty: "UnityEngine::ResourceManagement::Util::IAllocationStrategy", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::ResourceManagement::ResourceManager::ResourceManager(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceManager>(alloc))) {}
+/// @param alloc: UnityEngine::ResourceManagement::Util::IAllocationStrategy (default: csnull)
+ UnityEngine::ResourceManagement::ResourceManager UnityEngine::ResourceManagement::ResourceManager::New_ctor(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc)  {
+UnityEngine::ResourceManagement::ResourceManager o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceManager>(alloc))};
+return o;
+}
 /// @param alloc: UnityEngine::ResourceManagement::Util::IAllocationStrategy (default: csnull)
  void UnityEngine::ResourceManagement::ResourceManager::_ctor(UnityEngine::ResourceManagement::Util::IAllocationStrategy alloc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2322,131 +2328,31 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x);
 }
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1.Init
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::*)(TObject, bool, ::StringW, bool)>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::Init)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
-                            "Init",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TObject>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1.Init
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::*)(TObject, bool, System::Exception, bool)>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::Init)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
-                            "Init",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TObject>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1.get_DebugName
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::get_DebugName)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
-                                  31
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1.InvokeWaitForCompletion
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::InvokeWaitForCompletion)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
-                                  33
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1.Execute
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::Execute)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
-                                  28
-                                ));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::__set_m_Success(bool value)  {
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__set_m_Success(bool value)  {
 ::cordl_internals::setInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
 }
-constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::__get_m_Success() const {
+constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__get_m_Success() const {
 return ::cordl_internals::getInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::__set_m_Exception(System::Exception value)  {
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__set_m_Exception(System::Exception value)  {
 ::cordl_internals::setInstanceField<System::Exception, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Exception>(value));
 }
-constexpr System::Exception UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::__get_m_Exception() const {
+constexpr System::Exception UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__get_m_Exception() const {
 return ::cordl_internals::getInstanceField<System::Exception, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::__set_m_ReleaseDependenciesOnFailure(bool value)  {
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__set_m_ReleaseDependenciesOnFailure(bool value)  {
 ::cordl_internals::setInstanceField<bool, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
 }
-constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::__get_m_ReleaseDependenciesOnFailure() const {
+constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__get_m_ReleaseDependenciesOnFailure() const {
 return ::cordl_internals::getInstanceField<bool, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1()  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>())) {}
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::_ctor()  {
+ UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject> UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::New_ctor()  {
+UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>())};
+return o;
+}
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -2454,9 +2360,9 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
 /// @param releaseDependenciesOnFailure: bool (default: true)
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::Init(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure)  {
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::Init(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
                             "Init",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TObject>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
@@ -2464,214 +2370,36 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result, success, errorMsg, releaseDependenciesOnFailure);
 }
 /// @param releaseDependenciesOnFailure: bool (default: true)
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::Init(TObject result, bool success, System::Exception exception, bool releaseDependenciesOnFailure)  {
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::Init(TObject result, bool success, System::Exception exception, bool releaseDependenciesOnFailure)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
                             "Init",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TObject>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result, success, exception, releaseDependenciesOnFailure);
 }
- ::StringW UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::get_DebugName()  {
+ ::StringW UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::get_DebugName()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
                             "get_DebugName",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
- bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::InvokeWaitForCompletion()  {
+ bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::InvokeWaitForCompletion()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
                             "InvokeWaitForCompletion",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1::Execute()  {
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::Execute()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
-                            "Execute",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>.Init
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)(bool, bool, ::StringW, bool)>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Init)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
-                            "Init",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>.Init
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)(bool, bool, System::Exception, bool)>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Init)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
-                            "Init",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>.get_DebugName
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::get_DebugName)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
-                                  31
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>.InvokeWaitForCompletion
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::InvokeWaitForCompletion)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
-                                  33
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>.Execute
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Execute)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
-                                  28
-                                ));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__set_m_Success(bool value)  {
-::cordl_internals::setInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
-}
-constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__get_m_Success() const {
-return ::cordl_internals::getInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__set_m_Exception(System::Exception value)  {
-::cordl_internals::setInstanceField<System::Exception, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Exception>(value));
-}
-constexpr System::Exception UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__get_m_Exception() const {
-return ::cordl_internals::getInstanceField<System::Exception, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__set_m_ReleaseDependenciesOnFailure(bool value)  {
-::cordl_internals::setInstanceField<bool, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
-}
-constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__get_m_ReleaseDependenciesOnFailure() const {
-return ::cordl_internals::getInstanceField<bool, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters []
- UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1()  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>())) {}
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-/// @param releaseDependenciesOnFailure: bool (default: true)
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Init(bool result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
-                            "Init",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result, success, errorMsg, releaseDependenciesOnFailure);
-}
-/// @param releaseDependenciesOnFailure: bool (default: true)
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Init(bool result, bool success, System::Exception exception, bool releaseDependenciesOnFailure)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
-                            "Init",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result, success, exception, releaseDependenciesOnFailure);
-}
- ::StringW UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::get_DebugName()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
-                            "get_DebugName",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::InvokeWaitForCompletion()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
-                            "InvokeWaitForCompletion",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Execute()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
                             "Execute",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -2798,8 +2526,10 @@ constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement_
 constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>::__get_m_ReleaseDependenciesOnFailure() const {
 return ::cordl_internals::getInstanceField<bool, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1()  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>())) {}
+ UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>::New_ctor()  {
+UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>())};
+return o;
+}
  void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>::get(),
@@ -2856,16 +2586,16 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>._ctor
+//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>._ctor
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::_ctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::_ctor)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -2873,114 +2603,116 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>.Init
+//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>.Init
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::*)(int64_t, bool, ::StringW, bool)>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)(bool, bool, ::StringW, bool)>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Init)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
                             "Init",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>.Init
+//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>.Init
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::*)(int64_t, bool, System::Exception, bool)>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)(bool, bool, System::Exception, bool)>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Init)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
                             "Init",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
                         )));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>.get_DebugName
+//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>.get_DebugName
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::get_DebugName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::get_DebugName)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>),
+                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>),
                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
                                   31
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>.InvokeWaitForCompletion
+//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>.InvokeWaitForCompletion
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::InvokeWaitForCompletion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::InvokeWaitForCompletion)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>),
+                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>),
                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
                                   33
                                 ));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>.Execute
+//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>.Execute
 template<>
 
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Execute)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
   inline static const ::MethodInfo* methodInfo() {
     
                             static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>),
+                                classof(UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>),
                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>::get(),
                                   28
                                 ));
     return ___internal_method;
   }
 };
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::__set_m_Success(bool value)  {
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__set_m_Success(bool value)  {
 ::cordl_internals::setInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
 }
-constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::__get_m_Success() const {
+constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__get_m_Success() const {
 return ::cordl_internals::getInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::__set_m_Exception(System::Exception value)  {
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__set_m_Exception(System::Exception value)  {
 ::cordl_internals::setInstanceField<System::Exception, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Exception>(value));
 }
-constexpr System::Exception UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::__get_m_Exception() const {
+constexpr System::Exception UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__get_m_Exception() const {
 return ::cordl_internals::getInstanceField<System::Exception, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::__set_m_ReleaseDependenciesOnFailure(bool value)  {
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__set_m_ReleaseDependenciesOnFailure(bool value)  {
 ::cordl_internals::setInstanceField<bool, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
 }
-constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::__get_m_ReleaseDependenciesOnFailure() const {
+constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::__get_m_ReleaseDependenciesOnFailure() const {
 return ::cordl_internals::getInstanceField<bool, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1()  : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<int64_t>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1>())) {}
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::_ctor()  {
+ UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool> UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::New_ctor()  {
+UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>())};
+return o;
+}
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
@@ -2988,144 +2720,173 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
 /// @param releaseDependenciesOnFailure: bool (default: true)
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::Init(int64_t result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure)  {
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Init(bool result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
                             "Init",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result, success, errorMsg, releaseDependenciesOnFailure);
 }
 /// @param releaseDependenciesOnFailure: bool (default: true)
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::Init(int64_t result, bool success, System::Exception exception, bool releaseDependenciesOnFailure)  {
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Init(bool result, bool success, System::Exception exception, bool releaseDependenciesOnFailure)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
                             "Init",
                             std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result, success, exception, releaseDependenciesOnFailure);
 }
- ::StringW UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::get_DebugName()  {
+ ::StringW UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::get_DebugName()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
                             "get_DebugName",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
- bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::InvokeWaitForCompletion()  {
+ bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::InvokeWaitForCompletion()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
                             "InvokeWaitForCompletion",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>::Execute()  {
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>::Execute()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<int64_t>>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<bool>>::get(),
                             "Execute",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::*)()>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1._ProvideResources_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::_ProvideResources_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1>::get(),
-                            "<ProvideResources>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1._ProvideResources_b__1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>> (UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::_ProvideResources_b__1)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1>::get(),
-                            "<ProvideResources>b__1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::__set_callback(System::Action_1<TObject> value)  {
-::cordl_internals::setInstanceField<System::Action_1<TObject>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<TObject>>(value));
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__set_m_Success(bool value)  {
+::cordl_internals::setInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
 }
-constexpr System::Action_1<TObject> UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::__get_callback() const {
-return ::cordl_internals::getInstanceField<System::Action_1<TObject>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
+constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__get_m_Success() const {
+return ::cordl_internals::getInstanceField<bool, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::__set_releaseDependenciesOnFailure(bool value)  {
-::cordl_internals::setInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__set_m_Exception(System::Exception value)  {
+::cordl_internals::setInstanceField<System::Exception, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Exception>(value));
 }
-constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::__get_releaseDependenciesOnFailure() const {
-return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
+constexpr System::Exception UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__get_m_Exception() const {
+return ::cordl_internals::getInstanceField<System::Exception, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::__set___4__this(UnityEngine::ResourceManagement::ResourceManager value)  {
-::cordl_internals::setInstanceField<UnityEngine::ResourceManagement::ResourceManager, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::ResourceManagement::ResourceManager>(value));
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__set_m_ReleaseDependenciesOnFailure(bool value)  {
+::cordl_internals::setInstanceField<bool, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
 }
-constexpr UnityEngine::ResourceManagement::ResourceManager UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::__get___4__this() const {
-return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::ResourceManager, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
+constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::__get_m_ReleaseDependenciesOnFailure() const {
+return ::cordl_internals::getInstanceField<bool, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1>())) {}
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::_ctor()  {
+ UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject> UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::New_ctor()  {
+UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>())};
+return o;
+}
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::_ProvideResources_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle x)  {
+/// @param releaseDependenciesOnFailure: bool (default: true)
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::Init(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
+                            "Init",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TObject>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result, success, errorMsg, releaseDependenciesOnFailure);
+}
+/// @param releaseDependenciesOnFailure: bool (default: true)
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::Init(TObject result, bool success, System::Exception exception, bool releaseDependenciesOnFailure)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
+                            "Init",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TObject>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, result, success, exception, releaseDependenciesOnFailure);
+}
+ ::StringW UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::get_DebugName()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
+                            "get_DebugName",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
+}
+ bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::InvokeWaitForCompletion()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
+                            "InvokeWaitForCompletion",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
+}
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>::Execute()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager__CompletedOperation_1<TObject>>::get(),
+                            "Execute",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>::__set_callback(System::Action_1<TObject> value)  {
+::cordl_internals::setInstanceField<System::Action_1<TObject>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Action_1<TObject>>(value));
+}
+constexpr System::Action_1<TObject> UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>::__get_callback() const {
+return ::cordl_internals::getInstanceField<System::Action_1<TObject>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>::__set_releaseDependenciesOnFailure(bool value)  {
+::cordl_internals::setInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
+}
+constexpr bool UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>::__get_releaseDependenciesOnFailure() const {
+return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>::__set___4__this(UnityEngine::ResourceManagement::ResourceManager value)  {
+::cordl_internals::setInstanceField<UnityEngine::ResourceManagement::ResourceManager, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::ResourceManagement::ResourceManager>(value));
+}
+constexpr UnityEngine::ResourceManagement::ResourceManager UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>::__get___4__this() const {
+return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::ResourceManager, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+ UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject> UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>::New_ctor()  {
+UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject> o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>>())};
+return o;
+}
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ void UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>::_ProvideResources_b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>>::get(),
                             "<ProvideResources>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x);
 }
- UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>> UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1::_ProvideResources_b__1(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle resultHandle)  {
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>> UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>::_ProvideResources_b__1(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle resultHandle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::UnityEngine__ResourceManagement__ResourceManager____c__DisplayClass92_0_1<TObject>>::get(),
                             "<ProvideResources>b__1",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>::get()}

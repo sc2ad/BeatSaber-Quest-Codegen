@@ -4,11 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto::Tls {
+class SessionParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509CertificateStructure;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSigner;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
@@ -16,26 +25,8 @@ class ProtocolVersion;
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsHandshakeHash;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSigner;
+namespace System::Net::Sockets {
+class SocketException;
 }
 namespace System::Collections {
 class IDictionary;
@@ -43,17 +34,26 @@ class IDictionary;
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSignerCredentials;
 }
-namespace System::Net::Sockets {
-class SocketException;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class SignatureAndHashAlgorithm;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+namespace System::IO {
+class Stream;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class SessionParameters;
+class Certificate;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsHandshakeHash;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -542,8 +542,7 @@ static System::Collections::IList GetUsableSignatureAlgorithms(System::Collectio
 /// @brief Method IsTimeout addr 0xf32a0c size 0x2c virtual false final false
 static bool IsTimeout(System::Net::Sockets::SocketException e) ;
 
-// Ctor Parameters []
-explicit TlsUtilities() ;
+static Org::BouncyCastle::Crypto::Tls::TlsUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xf32bc4 size 0x8 virtual false final false
  void _ctor() ;

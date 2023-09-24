@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__ElementUnderPointer_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextType_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
@@ -268,8 +268,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dispatcher, contextType);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::ElementUnderPointer::ElementUnderPointer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ElementUnderPointer>())) {}
+ UnityEngine::UIElements::ElementUnderPointer UnityEngine::UIElements::ElementUnderPointer::New_ctor()  {
+UnityEngine::UIElements::ElementUnderPointer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ElementUnderPointer>())};
+return o;
+}
  void UnityEngine::UIElements::ElementUnderPointer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ElementUnderPointer>::get(),

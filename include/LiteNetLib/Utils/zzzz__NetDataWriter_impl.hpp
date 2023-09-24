@@ -1,7 +1,7 @@
 #pragma once
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 //  Writing Method size for method: LiteNetLib::Utils::NetDataWriter.get_Capacity
 template<>
 
@@ -811,8 +811,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::NetDataWriter::NetDataWriter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetDataWriter>())) {}
+ LiteNetLib::Utils::NetDataWriter LiteNetLib::Utils::NetDataWriter::New_ctor()  {
+LiteNetLib::Utils::NetDataWriter o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NetDataWriter>())};
+return o;
+}
  void LiteNetLib::Utils::NetDataWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NetDataWriter>::get(),
@@ -822,8 +824,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "autoResize", ty: "bool", modifiers: "", def_value: None }]
- LiteNetLib::Utils::NetDataWriter::NetDataWriter(bool autoResize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetDataWriter>(autoResize))) {}
+ LiteNetLib::Utils::NetDataWriter LiteNetLib::Utils::NetDataWriter::New_ctor(bool autoResize)  {
+LiteNetLib::Utils::NetDataWriter o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NetDataWriter>(autoResize))};
+return o;
+}
  void LiteNetLib::Utils::NetDataWriter::_ctor(bool autoResize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NetDataWriter>::get(),
@@ -833,8 +837,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, autoResize);
 }
-// Ctor Parameters [CppParam { name: "autoResize", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }]
- LiteNetLib::Utils::NetDataWriter::NetDataWriter(bool autoResize, int32_t initialSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetDataWriter>(autoResize, initialSize))) {}
+ LiteNetLib::Utils::NetDataWriter LiteNetLib::Utils::NetDataWriter::New_ctor(bool autoResize, int32_t initialSize)  {
+LiteNetLib::Utils::NetDataWriter o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NetDataWriter>(autoResize, initialSize))};
+return o;
+}
  void LiteNetLib::Utils::NetDataWriter::_ctor(bool autoResize, int32_t initialSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NetDataWriter>::get(),

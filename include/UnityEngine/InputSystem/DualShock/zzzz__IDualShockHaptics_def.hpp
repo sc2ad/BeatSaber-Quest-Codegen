@@ -1,10 +1,10 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::InputSystem::Haptics {
 class IDualMotorRumble;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::InputSystem::Haptics {
 class IHaptics;

@@ -4,18 +4,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class ICloneable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Net::Http::Headers {
-struct Token;
+class Lexer;
 }
 namespace System::Net::Http::Headers {
-class Lexer;
+struct Token;
+}
+namespace System {
+class ICloneable;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -88,20 +88,17 @@ constexpr ::StringW __get__Name_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NameValueHeaderValue(::StringW name, ::StringW value) ;
+static System::Net::Http::Headers::NameValueHeaderValue New_ctor(::StringW name, ::StringW value) ;
 
 /// @brief Method .ctor addr 0x26a5a80 size 0x3c virtual false final false
  void _ctor(::StringW name, ::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::NameValueHeaderValue", modifiers: "", def_value: None }]
-explicit NameValueHeaderValue(System::Net::Http::Headers::NameValueHeaderValue source) ;
+static System::Net::Http::Headers::NameValueHeaderValue New_ctor(System::Net::Http::Headers::NameValueHeaderValue source) ;
 
 /// @brief Method .ctor addr 0x26a5f38 size 0x34 virtual false final false
  void _ctor(System::Net::Http::Headers::NameValueHeaderValue source) ;
 
-// Ctor Parameters []
-explicit NameValueHeaderValue() ;
+static System::Net::Http::Headers::NameValueHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26ac3c4 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,20 +3,21 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Diagnostics/zzzz__Process_def.hpp"
-#include "System/Diagnostics/zzzz__ProcessInfo_def.hpp"
-#include "System/Threading/zzzz__RegisteredWaitHandle_def.hpp"
+#include "System/zzzz__EventHandler_def.hpp"
 #include "System/ComponentModel/zzzz__ISynchronizeInvoke_def.hpp"
 #include "System/Diagnostics/zzzz__ProcessModuleCollection_def.hpp"
+#include "System/Diagnostics/zzzz__ProcessThreadTimes_def.hpp"
+#include "System/Diagnostics/zzzz__ProcessThreadCollection_def.hpp"
+#include "System/Diagnostics/zzzz__ProcessStartInfo_def.hpp"
+#include "System/Threading/zzzz__RegisteredWaitHandle_def.hpp"
+#include "System/Diagnostics/zzzz__Process_def.hpp"
 #include "System/IO/zzzz__StreamReader_def.hpp"
+#include "Microsoft/Win32/SafeHandles/zzzz__SafeProcessHandle_def.hpp"
+#include "System/Diagnostics/zzzz__AsyncStreamReader_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Diagnostics/zzzz__ProcessInfo_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/IO/zzzz__StreamWriter_def.hpp"
-#include "System/zzzz__EventHandler_def.hpp"
-#include "System/Diagnostics/zzzz__ProcessStartInfo_def.hpp"
-#include "System/Diagnostics/zzzz__AsyncStreamReader_def.hpp"
-#include "System/Diagnostics/zzzz__ProcessThreadTimes_def.hpp"
-#include "Microsoft/Win32/SafeHandles/zzzz__SafeProcessHandle_def.hpp"
-#include "System/Diagnostics/zzzz__ProcessThreadCollection_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Diagnostics::System__Diagnostics__Process__StreamReadMode::System__Diagnostics__Process__StreamReadMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1026,8 +1027,10 @@ constexpr void System::Diagnostics::Process::__set_process_name(::StringW value)
 constexpr ::StringW System::Diagnostics::Process::__get_process_name() const {
 return ::cordl_internals::getInstanceField<::StringW, 0xe8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Diagnostics::Process::Process()  : System::ComponentModel::Component(THROW_UNLESS(::il2cpp_utils::New<Process>())) {}
+ System::Diagnostics::Process System::Diagnostics::Process::New_ctor()  {
+System::Diagnostics::Process o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Process>())};
+return o;
+}
  void System::Diagnostics::Process::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Process>::get(),
@@ -1037,8 +1040,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "machineName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isRemoteMachine", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "processId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "processInfo", ty: "System::Diagnostics::ProcessInfo", modifiers: "", def_value: None }]
- System::Diagnostics::Process::Process(::StringW machineName, bool isRemoteMachine, int32_t processId, System::Diagnostics::ProcessInfo processInfo)  : System::ComponentModel::Component(THROW_UNLESS(::il2cpp_utils::New<Process>(machineName, isRemoteMachine, processId, processInfo))) {}
+ System::Diagnostics::Process System::Diagnostics::Process::New_ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, System::Diagnostics::ProcessInfo processInfo)  {
+System::Diagnostics::Process o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Process>(machineName, isRemoteMachine, processId, processInfo))};
+return o;
+}
  void System::Diagnostics::Process::_ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, System::Diagnostics::ProcessInfo processInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Process>::get(),
@@ -1282,8 +1287,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "Microsoft::Win32::SafeHandles::SafeProcessHandle", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }]
- System::Diagnostics::Process::Process(Microsoft::Win32::SafeHandles::SafeProcessHandle handle, int32_t id)  : System::ComponentModel::Component(THROW_UNLESS(::il2cpp_utils::New<Process>(handle, id))) {}
+ System::Diagnostics::Process System::Diagnostics::Process::New_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle handle, int32_t id)  {
+System::Diagnostics::Process o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Process>(handle, id))};
+return o;
+}
  void System::Diagnostics::Process::_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle handle, int32_t id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Process>::get(),

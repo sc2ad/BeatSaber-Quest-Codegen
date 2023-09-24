@@ -47,8 +47,7 @@ constexpr explicit GameCoreSceneSetupData(void* ptr) noexcept : GlobalNamespace:
 
 // Methods
 
-// Ctor Parameters []
-explicit GameCoreSceneSetupData() ;
+static GlobalNamespace::GameCoreSceneSetupData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b6aec size 0x8 virtual false final false
  void _ctor() ;

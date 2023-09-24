@@ -6,34 +6,34 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace RootMotion::FinalIK {
-class IKMappingLimb;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
 class FBIKChain;
-}
-namespace RootMotion::FinalIK {
-class IKEffector;
-}
-namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__Node;
-}
-namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__IterationDelegate;
-}
-namespace RootMotion::FinalIK {
-class IKMappingBone;
-}
-namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__Point;
 }
 namespace RootMotion::FinalIK {
 class IKMappingSpine;
 }
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__IKSolver__UpdateDelegate;
+}
+namespace RootMotion::FinalIK {
+class IKMappingBone;
+}
+namespace RootMotion::FinalIK {
+class IKMappingLimb;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Node;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Point;
+}
+namespace RootMotion::FinalIK {
+class IKEffector;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__IterationDelegate;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -222,8 +222,7 @@ constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate __g
 /// @brief Method WritePose addr 0x11dbfb0 size 0xd8 virtual true final false
  void WritePose() ;
 
-// Ctor Parameters []
-explicit IKSolverFullBody() ;
+static RootMotion::FinalIK::IKSolverFullBody New_ctor() ;
 
 /// @brief Method .ctor addr 0x11dc088 size 0x118 virtual false final false
  void _ctor() ;

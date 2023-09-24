@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionGameplayInstaller::MissionGameplayInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<MissionGameplayInstaller>())) {}
+ GlobalNamespace::MissionGameplayInstaller GlobalNamespace::MissionGameplayInstaller::New_ctor()  {
+GlobalNamespace::MissionGameplayInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionGameplayInstaller>())};
+return o;
+}
  void GlobalNamespace::MissionGameplayInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionGameplayInstaller>::get(),

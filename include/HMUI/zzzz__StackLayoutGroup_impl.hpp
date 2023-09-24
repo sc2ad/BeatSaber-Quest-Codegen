@@ -236,8 +236,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- HMUI::StackLayoutGroup::StackLayoutGroup()  : UnityEngine::UI::LayoutGroup(THROW_UNLESS(::il2cpp_utils::New<StackLayoutGroup>())) {}
+ HMUI::StackLayoutGroup HMUI::StackLayoutGroup::New_ctor()  {
+HMUI::StackLayoutGroup o{THROW_UNLESS(::il2cpp_utils::New<HMUI::StackLayoutGroup>())};
+return o;
+}
  void HMUI::StackLayoutGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::StackLayoutGroup>::get(),

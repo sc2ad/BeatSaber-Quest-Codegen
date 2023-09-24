@@ -8,11 +8,11 @@ class IEventSystemHandler;
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
 namespace HMUI {
 class HoverTextController;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -107,8 +107,7 @@ constexpr ::StringW __get__text() const;
 /// @brief Method OnDisable addr 0x1fabb44 size 0x18 virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit HoverTextSetter() ;
+static HMUI::HoverTextSetter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fabb5c size 0x8 virtual false final false
  void _ctor() ;

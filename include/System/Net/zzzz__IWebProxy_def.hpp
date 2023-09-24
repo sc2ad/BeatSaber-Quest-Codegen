@@ -1,10 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace System::Net {
-class ICredentials;
-}
 namespace System {
 class Uri;
+}
+namespace System::Net {
+class ICredentials;
 }
 // Forward declare root types
 namespace System::Net {

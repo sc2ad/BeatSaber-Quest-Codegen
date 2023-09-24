@@ -3,8 +3,9 @@
 #include "UnityEngine/ProBuilder/zzzz__EdgeLookup_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__EdgeLookup_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0._ctor
 template<>
@@ -46,8 +47,10 @@ constexpr void UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c
 constexpr System::Collections::Generic::Dictionary_2<int32_t,int32_t> UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0::__get_lookup() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<int32_t,int32_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0>())) {}
+ UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0 UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0::New_ctor()  {
+UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0>())};
+return o;
+}
  void UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__EdgeLookup____c__DisplayClass16_0>::get(),

@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_def.hpp"
-#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Timeline/zzzz__IInterval_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::RuntimeElement.get_intervalStart
 template<>
 
@@ -211,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, localTime, rootDuration, frameData);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::RuntimeElement::RuntimeElement()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RuntimeElement>())) {}
+ UnityEngine::Timeline::RuntimeElement UnityEngine::Timeline::RuntimeElement::New_ctor()  {
+UnityEngine::Timeline::RuntimeElement o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::RuntimeElement>())};
+return o;
+}
  void UnityEngine::Timeline::RuntimeElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::RuntimeElement>::get(),

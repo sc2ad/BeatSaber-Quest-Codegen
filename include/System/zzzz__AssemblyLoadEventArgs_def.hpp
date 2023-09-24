@@ -59,8 +59,7 @@ constexpr System::Reflection::Assembly __get__LoadedAssembly_k__BackingField() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "loadedAssembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }]
-explicit AssemblyLoadEventArgs(System::Reflection::Assembly loadedAssembly) ;
+static System::AssemblyLoadEventArgs New_ctor(System::Reflection::Assembly loadedAssembly) ;
 
 /// @brief Method .ctor addr 0x23b463c size 0x6c virtual false final false
  void _ctor(System::Reflection::Assembly loadedAssembly) ;

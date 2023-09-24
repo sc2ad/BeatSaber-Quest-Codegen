@@ -87,14 +87,12 @@ constexpr int32_t __get_defaultStrength() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CipherKeyGenerator() ;
+static Org::BouncyCastle::Crypto::CipherKeyGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe6a970 size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "defaultStrength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CipherKeyGenerator(int32_t defaultStrength) ;
+static Org::BouncyCastle::Crypto::CipherKeyGenerator New_ctor(int32_t defaultStrength) ;
 
 /// @brief Method .ctor addr 0xe6a980 size 0x98 virtual false final false
  void _ctor(int32_t defaultStrength) ;

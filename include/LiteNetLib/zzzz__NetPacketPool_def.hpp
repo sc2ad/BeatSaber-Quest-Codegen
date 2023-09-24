@@ -7,10 +7,10 @@ namespace System::Threading {
 class ReaderWriterLockSlim;
 }
 namespace LiteNetLib {
-class NetPacket;
+struct PacketProperty;
 }
 namespace LiteNetLib {
-struct PacketProperty;
+class NetPacket;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -94,8 +94,7 @@ constexpr int32_t __get__count() const;
 /// @brief Method Recycle addr 0x2088d04 size 0x140 virtual false final false
  void Recycle(LiteNetLib::NetPacket packet) ;
 
-// Ctor Parameters []
-explicit NetPacketPool() ;
+static LiteNetLib::NetPacketPool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2089a6c size 0x98 virtual false final false
  void _ctor() ;

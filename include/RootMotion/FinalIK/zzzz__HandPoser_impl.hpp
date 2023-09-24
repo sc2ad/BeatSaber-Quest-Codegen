@@ -1,9 +1,9 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__Poser_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__HandPoser_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::HandPoser.AutoMapping
 template<>
 
@@ -181,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::HandPoser::HandPoser()  : RootMotion::FinalIK::Poser(THROW_UNLESS(::il2cpp_utils::New<HandPoser>())) {}
+ RootMotion::FinalIK::HandPoser RootMotion::FinalIK::HandPoser::New_ctor()  {
+RootMotion::FinalIK::HandPoser o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::HandPoser>())};
+return o;
+}
  void RootMotion::FinalIK::HandPoser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::HandPoser>::get(),

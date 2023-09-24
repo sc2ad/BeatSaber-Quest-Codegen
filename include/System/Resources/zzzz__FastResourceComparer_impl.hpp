@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Resources/zzzz__FastResourceComparer_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 //  Writing Method size for method: System::Resources::FastResourceComparer.GetHashCode
 template<>
 
@@ -303,8 +303,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, a, byteLen, b);
 }
-// Ctor Parameters []
- System::Resources::FastResourceComparer::FastResourceComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FastResourceComparer>())) {}
+ System::Resources::FastResourceComparer System::Resources::FastResourceComparer::New_ctor()  {
+System::Resources::FastResourceComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::FastResourceComparer>())};
+return o;
+}
  void System::Resources::FastResourceComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::FastResourceComparer>::get(),

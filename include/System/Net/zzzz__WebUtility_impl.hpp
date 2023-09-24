@@ -1,9 +1,10 @@
 #pragma once
 #include "System/Net/zzzz__WebUtility_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Net/Configuration/zzzz__UnicodeDecodingConformance_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Net/Configuration/zzzz__UnicodeEncodingConformance_def.hpp"
-#include "System/Net/Configuration/zzzz__UnicodeDecodingConformance_def.hpp"
+#include "System/Net/zzzz__WebUtility_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__WebUtility__UrlDecoder.FlushBytes
 template<>
 
@@ -134,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::Net::System__Net__WebUtility__UrlDecoder::System__Net__WebUtility__UrlDecoder(int32_t bufferSize, System::Text::Encoding encoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__WebUtility__UrlDecoder>(bufferSize, encoding))) {}
+ System::Net::System__Net__WebUtility__UrlDecoder System::Net::System__Net__WebUtility__UrlDecoder::New_ctor(int32_t bufferSize, System::Text::Encoding encoding)  {
+System::Net::System__Net__WebUtility__UrlDecoder o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__WebUtility__UrlDecoder>(bufferSize, encoding))};
+return o;
+}
  void System::Net::System__Net__WebUtility__UrlDecoder::_ctor(int32_t bufferSize, System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__WebUtility__UrlDecoder>::get(),

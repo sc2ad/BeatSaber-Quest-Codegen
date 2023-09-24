@@ -4,18 +4,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace OVRSimpleJSON {
 class JSONNode;
 }
 namespace OVRSimpleJSON {
-struct JSONNodeType;
+class OVRSimpleJSON__JSONArray___get_Children_d__22;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -27,15 +24,18 @@ struct OVRSimpleJSON__JSONNode__Enumerator;
 namespace OVRSimpleJSON {
 struct JSONTextMode;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Text {
+class StringBuilder;
+}
+namespace OVRSimpleJSON {
+struct JSONNodeType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 struct System__Collections__Generic__List_1__Enumerator;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
@@ -43,6 +43,9 @@ class IDisposable;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {
@@ -148,8 +151,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__List_1__En
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OVRSimpleJSON__JSONArray___get_Children_d__22(int32_t __1__state) ;
+static OVRSimpleJSON::OVRSimpleJSON__JSONArray___get_Children_d__22 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x263ebe0 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -303,8 +305,7 @@ constexpr bool __get_inline() const;
 /// @brief Method WriteToStringBuilder addr 0x263ec14 size 0x168 virtual true final false
  void WriteToStringBuilder(System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, OVRSimpleJSON::JSONTextMode aMode) ;
 
-// Ctor Parameters []
-explicit JSONArray() ;
+static OVRSimpleJSON::JSONArray New_ctor() ;
 
 /// @brief Method .ctor addr 0x263ed7c size 0x7c virtual false final false
  void _ctor() ;

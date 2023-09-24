@@ -25,8 +25,10 @@ constexpr void UnityEngine::Timeline::TrackMediaType::__set_m_MediaType(UnityEng
 constexpr UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType UnityEngine::Timeline::TrackMediaType::__get_m_MediaType() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mt", ty: "UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType", modifiers: "", def_value: None }]
- UnityEngine::Timeline::TrackMediaType::TrackMediaType(UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType mt)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TrackMediaType>(mt))) {}
+ UnityEngine::Timeline::TrackMediaType UnityEngine::Timeline::TrackMediaType::New_ctor(UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType mt)  {
+UnityEngine::Timeline::TrackMediaType o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TrackMediaType>(mt))};
+return o;
+}
  void UnityEngine::Timeline::TrackMediaType::_ctor(UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType mt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TrackMediaType>::get(),

@@ -62,8 +62,7 @@ constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 /// @brief Method Awake addr 0x1f82988 size 0x54 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit MarkSceneAsPersistent() ;
+static GlobalNamespace::MarkSceneAsPersistent New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f829dc size 0x8 virtual false final false
  void _ctor() ;

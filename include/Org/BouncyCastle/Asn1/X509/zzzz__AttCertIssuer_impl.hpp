@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttCertIssuer_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__V2Form_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__V2Form_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::AttCertIssuer.GetInstance
 template<>
 
@@ -143,8 +143,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::AttCertIssuer, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "names", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AttCertIssuer::AttCertIssuer(Org::BouncyCastle::Asn1::X509::GeneralNames names)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AttCertIssuer>(names))) {}
+ Org::BouncyCastle::Asn1::X509::AttCertIssuer Org::BouncyCastle::Asn1::X509::AttCertIssuer::New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames names)  {
+Org::BouncyCastle::Asn1::X509::AttCertIssuer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AttCertIssuer>(names))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AttCertIssuer::_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames names)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AttCertIssuer>::get(),
@@ -154,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, names);
 }
-// Ctor Parameters [CppParam { name: "v2Form", ty: "Org::BouncyCastle::Asn1::X509::V2Form", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::AttCertIssuer::AttCertIssuer(Org::BouncyCastle::Asn1::X509::V2Form v2Form)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AttCertIssuer>(v2Form))) {}
+ Org::BouncyCastle::Asn1::X509::AttCertIssuer Org::BouncyCastle::Asn1::X509::AttCertIssuer::New_ctor(Org::BouncyCastle::Asn1::X509::V2Form v2Form)  {
+Org::BouncyCastle::Asn1::X509::AttCertIssuer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::AttCertIssuer>(v2Form))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::AttCertIssuer::_ctor(Org::BouncyCastle::Asn1::X509::V2Form v2Form)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::AttCertIssuer>::get(),

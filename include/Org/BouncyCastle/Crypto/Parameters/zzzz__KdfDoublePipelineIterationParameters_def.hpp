@@ -99,8 +99,7 @@ constexpr ::ArrayW<uint8_t> __get_fixedInputData() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ki", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "fixedInputData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "r", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "useCounter", ty: "bool", modifiers: "", def_value: None }]
-explicit KdfDoublePipelineIterationParameters(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputData, int32_t r, bool useCounter) ;
+static Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters New_ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputData, int32_t r, bool useCounter) ;
 
 /// @brief Method .ctor addr 0xea9ed8 size 0x164 virtual false final false
  void _ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputData, int32_t r, bool useCounter) ;

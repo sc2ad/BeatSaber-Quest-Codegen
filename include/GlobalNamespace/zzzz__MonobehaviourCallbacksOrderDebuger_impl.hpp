@@ -96,8 +96,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MonobehaviourCallbacksOrderDebuger::MonobehaviourCallbacksOrderDebuger()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MonobehaviourCallbacksOrderDebuger>())) {}
+ GlobalNamespace::MonobehaviourCallbacksOrderDebuger GlobalNamespace::MonobehaviourCallbacksOrderDebuger::New_ctor()  {
+GlobalNamespace::MonobehaviourCallbacksOrderDebuger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MonobehaviourCallbacksOrderDebuger>())};
+return o;
+}
  void GlobalNamespace::MonobehaviourCallbacksOrderDebuger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MonobehaviourCallbacksOrderDebuger>::get(),

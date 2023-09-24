@@ -48,8 +48,7 @@ constexpr explicit TraceSwitch(void* ptr) noexcept : System::Diagnostics::Switch
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TraceSwitch(::StringW displayName, ::StringW description) ;
+static System::Diagnostics::TraceSwitch New_ctor(::StringW displayName, ::StringW description) ;
 
 /// @brief Method .ctor addr 0x27dc61c size 0x6c virtual false final false
  void _ctor(::StringW displayName, ::StringW description) ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__EncodingNLS_def.hpp"
-#include "System/Text/zzzz__Encoder_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Text/zzzz__Encoder_def.hpp"
 //  Writing Method size for method: System::Text::EncodingNLS._ctor
 template<>
 
@@ -241,8 +241,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "codePage", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::EncodingNLS::EncodingNLS(int32_t codePage)  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<EncodingNLS>(codePage))) {}
+ System::Text::EncodingNLS System::Text::EncodingNLS::New_ctor(int32_t codePage)  {
+System::Text::EncodingNLS o{THROW_UNLESS(::il2cpp_utils::New<System::Text::EncodingNLS>(codePage))};
+return o;
+}
  void System::Text::EncodingNLS::_ctor(int32_t codePage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::EncodingNLS>::get(),

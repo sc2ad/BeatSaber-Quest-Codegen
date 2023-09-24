@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelAnalytics_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissionLevelAnalytics.Start
 template<>
 
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, missionLevelScenesTransitionSetupData, missionCompletionResults);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionLevelAnalytics::MissionLevelAnalytics()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionLevelAnalytics>())) {}
+ GlobalNamespace::MissionLevelAnalytics GlobalNamespace::MissionLevelAnalytics::New_ctor()  {
+GlobalNamespace::MissionLevelAnalytics o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionLevelAnalytics>())};
+return o;
+}
  void GlobalNamespace::MissionLevelAnalytics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionLevelAnalytics>::get(),

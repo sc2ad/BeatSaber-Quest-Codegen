@@ -25,8 +25,10 @@ constexpr void System::Runtime::CompilerServices::AsyncMethodBuilderAttribute::_
 constexpr System::Type System::Runtime::CompilerServices::AsyncMethodBuilderAttribute::__get__BuilderType_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "builderType", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::AsyncMethodBuilderAttribute::AsyncMethodBuilderAttribute(System::Type builderType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AsyncMethodBuilderAttribute>(builderType))) {}
+ System::Runtime::CompilerServices::AsyncMethodBuilderAttribute System::Runtime::CompilerServices::AsyncMethodBuilderAttribute::New_ctor(System::Type builderType)  {
+System::Runtime::CompilerServices::AsyncMethodBuilderAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::AsyncMethodBuilderAttribute>(builderType))};
+return o;
+}
  void System::Runtime::CompilerServices::AsyncMethodBuilderAttribute::_ctor(System::Type builderType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::AsyncMethodBuilderAttribute>::get(),

@@ -47,8 +47,7 @@ constexpr explicit OVRDirectComposition(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRDirectComposition() ;
+static GlobalNamespace::OVRDirectComposition New_ctor() ;
 
 /// @brief Method .ctor addr 0x25a6204 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,15 +2,16 @@
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__Lease_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__LeaseState_def.hpp"
-#include "System/Collections/zzzz__Queue_def.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__ISponsor_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__LeaseState_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__Lease_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
+#include "System/Collections/zzzz__Queue_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate._ctor
 template<>
 
@@ -79,8 +80,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate>(object, method))) {}
+ System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate>(object, method))};
+return o;
+}
  void System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate>::get(),
@@ -339,8 +342,10 @@ constexpr void System::Runtime::Remoting::Lifetime::Lease::__set__renewalDelegat
 constexpr System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate System::Runtime::Remoting::Lifetime::Lease::__get__renewalDelegate() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Lifetime::System__Runtime__Remoting__Lifetime__Lease__RenewalDelegate, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Lifetime::Lease::Lease()  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<Lease>())) {}
+ System::Runtime::Remoting::Lifetime::Lease System::Runtime::Remoting::Lifetime::Lease::New_ctor()  {
+System::Runtime::Remoting::Lifetime::Lease o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Lifetime::Lease>())};
+return o;
+}
  void System::Runtime::Remoting::Lifetime::Lease::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Lifetime::Lease>::get(),

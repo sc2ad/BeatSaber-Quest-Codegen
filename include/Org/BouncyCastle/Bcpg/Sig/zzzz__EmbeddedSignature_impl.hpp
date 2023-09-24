@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature::EmbeddedSignature(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<EmbeddedSignature>(critical, isLongLength, data))) {}
+ Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature::New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature>(critical, isLongLength, data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature::_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature>::get(),

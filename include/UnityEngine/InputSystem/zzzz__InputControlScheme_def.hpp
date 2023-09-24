@@ -10,13 +10,6 @@
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::InputSystem {
-template<typename TControl>
-struct InputControlList_1;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -25,26 +18,57 @@ template<typename T>
 class IEnumerator_1;
 }
 namespace UnityEngine::InputSystem {
+template<typename TControl>
+struct InputControlList_1;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
 class InputDevice;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
 }
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlScheme__SchemeJson;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlScheme__DeviceRequirement;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlScheme__MatchResult;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputControlScheme__DeviceRequirement__Flags;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputControlScheme__MatchResult__Enumerator;
+}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputControlScheme__MatchResult__Match;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputControlScheme__MatchResult__Result;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputControlScheme__SchemeJson__DeviceJson;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -124,6 +148,8 @@ __MissingOptional = 2,
 constexpr operator __UnityEngine__InputSystem__InputControlScheme__MatchResult__Result_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputControlScheme__MatchResult__Result_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -529,6 +555,8 @@ __Or = 2,
 constexpr operator __UnityEngine__InputSystem__InputControlScheme__DeviceRequirement__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputControlScheme__DeviceRequirement__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

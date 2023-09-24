@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -12,13 +12,13 @@ namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class PreviewDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

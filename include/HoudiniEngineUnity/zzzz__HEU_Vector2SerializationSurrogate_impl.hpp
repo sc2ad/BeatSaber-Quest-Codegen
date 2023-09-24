@@ -1,9 +1,9 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_Vector2SerializationSurrogate_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_Vector2SerializationSurrogate.System_Runtime_Serialization_ISerializationSurrogate_GetObjectData
 template<>
 
@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, obj, info, context, selector);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::HEU_Vector2SerializationSurrogate()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_Vector2SerializationSurrogate>())) {}
+ HoudiniEngineUnity::HEU_Vector2SerializationSurrogate HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::New_ctor()  {
+HoudiniEngineUnity::HEU_Vector2SerializationSurrogate o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_Vector2SerializationSurrogate>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_Vector2SerializationSurrogate>::get(),

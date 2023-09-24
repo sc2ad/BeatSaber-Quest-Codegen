@@ -75,8 +75,7 @@ static ::ArrayW<System::Security::Cryptography::KeySizes> __get_s_legalKeySizes(
 
 // Methods
 
-// Ctor Parameters []
-explicit RC2CryptoServiceProvider() ;
+static System::Security::Cryptography::RC2CryptoServiceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f5060 size 0x174 virtual false final false
  void _ctor() ;

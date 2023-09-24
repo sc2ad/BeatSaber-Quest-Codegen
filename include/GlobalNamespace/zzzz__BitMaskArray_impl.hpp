@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BitMaskArray_def.hpp"
-#include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BitMaskArray.get_bitCount
 template<>
 
@@ -174,8 +174,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bitCount", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::BitMaskArray::BitMaskArray(int32_t bitCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BitMaskArray>(bitCount))) {}
+ GlobalNamespace::BitMaskArray GlobalNamespace::BitMaskArray::New_ctor(int32_t bitCount)  {
+GlobalNamespace::BitMaskArray o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BitMaskArray>(bitCount))};
+return o;
+}
  void GlobalNamespace::BitMaskArray::_ctor(int32_t bitCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BitMaskArray>::get(),

@@ -29,8 +29,10 @@ constexpr void Oculus::Platform::Models::AssetFileDownloadResult::__set_Filepath
 constexpr ::StringW Oculus::Platform::Models::AssetFileDownloadResult::__get_Filepath() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::AssetFileDownloadResult::AssetFileDownloadResult(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssetFileDownloadResult>(o))) {}
+ Oculus::Platform::Models::AssetFileDownloadResult Oculus::Platform::Models::AssetFileDownloadResult::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::AssetFileDownloadResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::AssetFileDownloadResult>(o))};
+return o;
+}
  void Oculus::Platform::Models::AssetFileDownloadResult::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::AssetFileDownloadResult>::get(),

@@ -13,7 +13,7 @@ class MessageWithMatchmakingEnqueueResultAndRoom;
 // Type: Oculus.Platform::MessageWithMatchmakingEnqueueResultAndRoom
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4459 }), TypeDefinitionIndex(TypeDefinitionIndex(13444))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13444)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4459 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13254))
 // CS Name: Oculus.Platform.MessageWithMatchmakingEnqueueResultAndRoom
 class CORDL_TYPE MessageWithMatchmakingEnqueueResultAndRoom : public Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithMatchmakingEnqueueResultAndRoom(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithMatchmakingEnqueueResultAndRoom(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithMatchmakingEnqueueResultAndRoom New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257eb60 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

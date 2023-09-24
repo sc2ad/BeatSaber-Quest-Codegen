@@ -4,9 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
@@ -17,6 +14,12 @@ class ProBuilderMesh;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::ProBuilder {
+struct UnityEngine__ProBuilder__PolyShape__PolyEditMode;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System::Collections::ObjectModel {
 template<typename T>
@@ -80,6 +83,8 @@ __Edit = 3,
 constexpr operator __UnityEngine__ProBuilder__PolyShape__PolyEditMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ProBuilder__PolyShape__PolyEditMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -235,8 +240,7 @@ constexpr bool __get_isOnGrid() const;
 /// @brief Method IsSnapEnabled addr 0x29c165c size 0x8 virtual false final false
  bool IsSnapEnabled() ;
 
-// Ctor Parameters []
-explicit PolyShape() ;
+static UnityEngine::ProBuilder::PolyShape New_ctor() ;
 
 /// @brief Method .ctor addr 0x29c1664 size 0x84 virtual false final false
  void _ctor() ;

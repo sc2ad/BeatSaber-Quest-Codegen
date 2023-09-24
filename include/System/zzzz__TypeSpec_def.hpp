@@ -6,27 +6,31 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class ModifierSpec;
+class TypeIdentifier;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename TResult>
+class Func_4;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System::Threading {
 struct StackCrawlMark;
 }
 namespace System {
-class Type;
+class ModifierSpec;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class TypeIdentifier;
-}
 namespace System::Text {
 class StringBuilder;
 }
 namespace System {
-template<typename T1,typename T2,typename T3,typename TResult>
-class Func_4;
+struct System__TypeSpec__DisplayNameFormat;
 }
 namespace System::Reflection {
 class AssemblyName;
@@ -35,8 +39,7 @@ namespace System::Reflection {
 class Assembly;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -95,6 +98,8 @@ __NO_MODIFIERS = 2,
 constexpr operator __System__TypeSpec__DisplayNameFormat_Unwrapped () const noexcept {
 return std::bit_cast<__System__TypeSpec__DisplayNameFormat_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -253,8 +258,7 @@ static System::TypeIdentifier ParsedTypeIdentifier(::StringW displayName) ;
 /// @brief Method Parse addr 0x2499e94 size 0xb84 virtual false final false
 static System::TypeSpec Parse(::StringW name, ByRef<int32_t> p, bool is_recurse, bool allow_aqn) ;
 
-// Ctor Parameters []
-explicit TypeSpec() ;
+static System::TypeSpec New_ctor() ;
 
 /// @brief Method .ctor addr 0x249b754 size 0x8 virtual false final false
  void _ctor() ;

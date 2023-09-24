@@ -3,11 +3,17 @@
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpKeyRing_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSecretKey;
-}
 namespace System::Collections {
 class IList;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKey;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
@@ -16,13 +22,7 @@ namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+class PgpSecretKey;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKeyRing;
@@ -88,26 +88,22 @@ constexpr System::Collections::IList __get_extraPubKeys() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keys", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit PgpSecretKeyRing(System::Collections::IList keys) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing New_ctor(System::Collections::IList keys) ;
 
 /// @brief Method .ctor addr 0x1037674 size 0x78 virtual false final false
  void _ctor(System::Collections::IList keys) ;
 
-// Ctor Parameters [CppParam { name: "keys", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "extraPubKeys", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit PgpSecretKeyRing(System::Collections::IList keys, System::Collections::IList extraPubKeys) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing New_ctor(System::Collections::IList keys, System::Collections::IList extraPubKeys) ;
 
 /// @brief Method .ctor addr 0x10376ec size 0x2c virtual false final false
  void _ctor(System::Collections::IList keys, System::Collections::IList extraPubKeys) ;
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PgpSecretKeyRing(::ArrayW<uint8_t> encoding) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing New_ctor(::ArrayW<uint8_t> encoding) ;
 
 /// @brief Method .ctor addr 0x1037718 size 0x74 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoding) ;
 
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit PgpSecretKeyRing(System::IO::Stream inputStream) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing New_ctor(System::IO::Stream inputStream) ;
 
 /// @brief Method .ctor addr 0x103778c size 0x538 virtual false final false
  void _ctor(System::IO::Stream inputStream) ;

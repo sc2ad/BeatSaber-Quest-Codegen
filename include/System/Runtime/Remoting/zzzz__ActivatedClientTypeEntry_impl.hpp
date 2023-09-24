@@ -100,8 +100,10 @@ constexpr void System::Runtime::Remoting::ActivatedClientTypeEntry::__set_obj_ty
 constexpr System::Type System::Runtime::Remoting::ActivatedClientTypeEntry::__get_obj_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "appUrl", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::Remoting::ActivatedClientTypeEntry::ActivatedClientTypeEntry(::StringW typeName, ::StringW assemblyName, ::StringW appUrl)  : System::Runtime::Remoting::TypeEntry(THROW_UNLESS(::il2cpp_utils::New<ActivatedClientTypeEntry>(typeName, assemblyName, appUrl))) {}
+ System::Runtime::Remoting::ActivatedClientTypeEntry System::Runtime::Remoting::ActivatedClientTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl)  {
+System::Runtime::Remoting::ActivatedClientTypeEntry o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ActivatedClientTypeEntry>(typeName, assemblyName, appUrl))};
+return o;
+}
  void System::Runtime::Remoting::ActivatedClientTypeEntry::_ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ActivatedClientTypeEntry>::get(),

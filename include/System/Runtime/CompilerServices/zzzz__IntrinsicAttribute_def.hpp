@@ -47,8 +47,7 @@ constexpr explicit IntrinsicAttribute(void* ptr) noexcept : System::Attribute(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit IntrinsicAttribute() ;
+static System::Runtime::CompilerServices::IntrinsicAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236e0c8 size 0x8 virtual false final false
  void _ctor() ;

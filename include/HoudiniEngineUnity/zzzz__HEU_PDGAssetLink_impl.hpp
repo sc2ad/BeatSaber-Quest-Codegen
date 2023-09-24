@@ -3,22 +3,23 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PDGAssetLink_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_TOPNodeData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_WorkItemTally_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PDG_WorkitemResultInfo_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PDG_WorkitemInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ReloadEventData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__TOPNodeTags_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_CookedEventData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_PDGAssetLink_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_TOPWorkResult_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_TOPNetworkData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_TOPNodeData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__TOPNodeTags_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_PDG_WorkitemInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ReloadEventData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_TOPNetworkData_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_PDG_WorkitemResultInfo_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_CookedEventData_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -102,8 +103,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate::HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate>(object, method))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate HoudiniEngineUnity::HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate>(object, method))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate>::get(),
@@ -1479,8 +1482,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PDGAssetLink__LinkState, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_PDGAssetLink::HEU_PDGAssetLink()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HEU_PDGAssetLink>())) {}
+ HoudiniEngineUnity::HEU_PDGAssetLink HoudiniEngineUnity::HEU_PDGAssetLink::New_ctor()  {
+HoudiniEngineUnity::HEU_PDGAssetLink o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_PDGAssetLink>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_PDGAssetLink::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_PDGAssetLink>::get(),

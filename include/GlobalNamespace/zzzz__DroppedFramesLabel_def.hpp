@@ -112,8 +112,7 @@ constexpr int32_t __get__frameCountInInterval() const;
 /// @brief Method RefreshText addr 0x1f74064 size 0x168 virtual false final false
  void RefreshText() ;
 
-// Ctor Parameters []
-explicit DroppedFramesLabel() ;
+static GlobalNamespace::DroppedFramesLabel New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f741cc size 0x14 virtual false final false
  void _ctor() ;

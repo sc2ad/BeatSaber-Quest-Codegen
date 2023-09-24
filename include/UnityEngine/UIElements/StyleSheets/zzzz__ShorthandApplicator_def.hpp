@@ -4,29 +4,29 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace UnityEngine::UIElements {
-struct StylePropertyName;
-}
-namespace UnityEngine::UIElements {
-struct EasingFunction;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-class StylePropertyReader;
+struct Length;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::UIElements {
-struct ComputedStyle;
+namespace UnityEngine::UIElements::StyleSheets {
+class StylePropertyReader;
 }
 namespace UnityEngine::UIElements {
 struct TimeValue;
 }
 namespace UnityEngine::UIElements {
-struct Length;
+struct ComputedStyle;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::UIElements {
+struct EasingFunction;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

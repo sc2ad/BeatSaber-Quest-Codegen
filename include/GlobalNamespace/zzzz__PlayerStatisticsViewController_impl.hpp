@@ -2,12 +2,13 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerStatisticsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "HMUI/zzzz__TextSegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
+#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerStatisticsViewController_def.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PlayerStatisticsViewController__StatsScopeData.get_text
 template<>
@@ -445,8 +446,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, segmentedControl, cellIdx);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerStatisticsViewController::PlayerStatisticsViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<PlayerStatisticsViewController>())) {}
+ GlobalNamespace::PlayerStatisticsViewController GlobalNamespace::PlayerStatisticsViewController::New_ctor()  {
+GlobalNamespace::PlayerStatisticsViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerStatisticsViewController>())};
+return o;
+}
  void GlobalNamespace::PlayerStatisticsViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerStatisticsViewController>::get(),

@@ -50,8 +50,7 @@ constexpr explicit PositionAsUV1(void* ptr) noexcept : UnityEngine::UI::BaseMesh
 
 // Methods
 
-// Ctor Parameters []
-explicit PositionAsUV1() ;
+static UnityEngine::UI::PositionAsUV1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c183cc size 0x8 virtual false final false
  void _ctor() ;

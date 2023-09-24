@@ -12,11 +12,11 @@ class InjectContext;
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 struct Guid;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -37,7 +37,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11136)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11136), inst: 3339 }), TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138)), TypeDefinitionIndex(TypeDefinitionIndex(11136)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11136), inst: 3339 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11138), inst: 80 })
 // CS Name: Zenject.IFactoryProvider`2
 class CORDL_TYPE IFactoryProvider_2<TParam1,TContract> : public Zenject::IFactoryProviderBase_1<TContract> {
@@ -76,8 +76,7 @@ constexpr explicit IFactoryProvider_2(void* ptr) noexcept : Zenject::IFactoryPro
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "factoryId", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit IFactoryProvider_2(Zenject::DiContainer container, System::Guid factoryId) ;
+static Zenject::IFactoryProvider_2<TParam1,TContract> New_ctor(Zenject::DiContainer container, System::Guid factoryId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, System::Guid factoryId) ;

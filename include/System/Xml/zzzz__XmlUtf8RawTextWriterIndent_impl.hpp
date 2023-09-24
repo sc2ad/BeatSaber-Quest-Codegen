@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__XmlUtf8RawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlUtf8RawTextWriterIndent_def.hpp"
-#include "System/Xml/zzzz__BitStack_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/Xml/zzzz__BitStack_def.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_def.hpp"
 //  Writing Method size for method: System::Xml::XmlUtf8RawTextWriterIndent._ctor
 template<>
@@ -415,8 +415,10 @@ constexpr void System::Xml::XmlUtf8RawTextWriterIndent::__set_conformanceLevel(S
 constexpr System::Xml::ConformanceLevel System::Xml::XmlUtf8RawTextWriterIndent::__get_conformanceLevel() const {
 return ::cordl_internals::getInstanceField<System::Xml::ConformanceLevel, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlUtf8RawTextWriterIndent::XmlUtf8RawTextWriterIndent(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlUtf8RawTextWriter(THROW_UNLESS(::il2cpp_utils::New<XmlUtf8RawTextWriterIndent>(stream, settings))) {}
+ System::Xml::XmlUtf8RawTextWriterIndent System::Xml::XmlUtf8RawTextWriterIndent::New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
+System::Xml::XmlUtf8RawTextWriterIndent o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlUtf8RawTextWriterIndent>(stream, settings))};
+return o;
+}
  void System::Xml::XmlUtf8RawTextWriterIndent::_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlUtf8RawTextWriterIndent>::get(),

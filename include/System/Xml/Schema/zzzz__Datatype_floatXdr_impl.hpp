@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, s, nameTable, nsmgr);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_floatXdr::Datatype_floatXdr()  : System::Xml::Schema::Datatype_float(THROW_UNLESS(::il2cpp_utils::New<Datatype_floatXdr>())) {}
+ System::Xml::Schema::Datatype_floatXdr System::Xml::Schema::Datatype_floatXdr::New_ctor()  {
+System::Xml::Schema::Datatype_floatXdr o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_floatXdr>())};
+return o;
+}
  void System::Xml::Schema::Datatype_floatXdr::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_floatXdr>::get(),

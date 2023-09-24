@@ -5,20 +5,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class IProvider;
+struct TypeValuePair;
 }
 namespace System {
 class Action;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace Zenject {
+class Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0;
 }
 namespace System {
 class Type;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Zenject {
 class InjectContext;
@@ -26,13 +36,6 @@ class InjectContext;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -113,8 +116,7 @@ constexpr Zenject::InjectContext __get_context() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0() ;
+static Zenject::Zenject__ScriptableObjectResourceProvider____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d916b8 size 0x8 virtual false final false
  void _ctor() ;
@@ -231,8 +233,7 @@ constexpr System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resourcePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "extraArguments", ty: "System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>", modifiers: "", def_value: None }, CppParam { name: "createNew", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "concreteIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "instantiateCallback", ty: "System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit ScriptableObjectResourceProvider(::StringW resourcePath, System::Type resourceType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, bool createNew, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
+static Zenject::ScriptableObjectResourceProvider New_ctor(::StringW resourcePath, System::Type resourceType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, bool createNew, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;
 
 /// @brief Method .ctor addr 0x2d91378 size 0xc8 virtual false final false
  void _ctor(::StringW resourcePath, System::Type resourceType, Zenject::DiContainer container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair> extraArguments, bool createNew, ::bs_hook::Il2CppWrapperType concreteIdentifier, System::Action_2<Zenject::InjectContext,::bs_hook::Il2CppWrapperType> instantiateCallback) ;

@@ -4,10 +4,7 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Org::BouncyCastle::Asn1::Cmp {
-class CmpCertificate;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiBody;
+class PkiHeader;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -15,11 +12,14 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiBody;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeader;
+class CmpCertificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -103,8 +103,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_extraCerts() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PkiMessage(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiMessage New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xddf920 size 0x1c4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -112,20 +111,17 @@ explicit PkiMessage(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xddfae4 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::PkiMessage GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "header", ty: "Org::BouncyCastle::Asn1::Cmp::PkiHeader", modifiers: "", def_value: None }, CppParam { name: "body", ty: "Org::BouncyCastle::Asn1::Cmp::PkiBody", modifiers: "", def_value: None }, CppParam { name: "protection", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }, CppParam { name: "extraCerts", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate>", modifiers: "", def_value: None }]
-explicit PkiMessage(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body, Org::BouncyCastle::Asn1::DerBitString protection, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> extraCerts) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiMessage New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body, Org::BouncyCastle::Asn1::DerBitString protection, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> extraCerts) ;
 
 /// @brief Method .ctor addr 0xddfb88 size 0x9c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body, Org::BouncyCastle::Asn1::DerBitString protection, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> extraCerts) ;
 
-// Ctor Parameters [CppParam { name: "header", ty: "Org::BouncyCastle::Asn1::Cmp::PkiHeader", modifiers: "", def_value: None }, CppParam { name: "body", ty: "Org::BouncyCastle::Asn1::Cmp::PkiBody", modifiers: "", def_value: None }, CppParam { name: "protection", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit PkiMessage(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body, Org::BouncyCastle::Asn1::DerBitString protection) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiMessage New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body, Org::BouncyCastle::Asn1::DerBitString protection) ;
 
 /// @brief Method .ctor addr 0xddfc24 size 0x60 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body, Org::BouncyCastle::Asn1::DerBitString protection) ;
 
-// Ctor Parameters [CppParam { name: "header", ty: "Org::BouncyCastle::Asn1::Cmp::PkiHeader", modifiers: "", def_value: None }, CppParam { name: "body", ty: "Org::BouncyCastle::Asn1::Cmp::PkiBody", modifiers: "", def_value: None }]
-explicit PkiMessage(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiMessage New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body) ;
 
 /// @brief Method .ctor addr 0xddfc84 size 0x5c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body) ;

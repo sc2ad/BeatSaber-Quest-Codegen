@@ -6,37 +6,40 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Newtonsoft::Json::Utilities {
+class TypeInformation;
+}
 namespace System {
 struct Guid;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace Newtonsoft::Json::Utilities {
+struct Newtonsoft__Json__Utilities__ConvertUtils__TypeConvertKey;
+}
+namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace Newtonsoft::Json::Utilities {
 struct ParseResult;
-}
-namespace System {
-class Version;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-class Type;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace Newtonsoft::Json::Utilities {
-struct PrimitiveTypeCode;
+namespace System {
+class Version;
 }
 namespace System {
 class IConvertible;
 }
 namespace Newtonsoft::Json::Utilities {
-class TypeInformation;
+struct Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename TKey,typename TValue>
@@ -45,8 +48,14 @@ class ThreadSafeStore_2;
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::ComponentModel {
-class TypeConverter;
+namespace Newtonsoft::Json::Utilities {
+class Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0;
+}
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json::Utilities {
+struct PrimitiveTypeCode;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename T,typename TResult>
@@ -204,6 +213,8 @@ constexpr operator __Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult_Un
 return std::bit_cast<__Newtonsoft__Json__Utilities__ConvertUtils__ConvertResult_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -280,8 +291,7 @@ constexpr Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ConvertUtils____c__DisplayClass9_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e4300 size 0x8 virtual false final false
  void _ctor() ;

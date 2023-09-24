@@ -4,12 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -17,31 +11,37 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpOnePassSignature;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ISigner;
+}
+namespace Org::BouncyCastle::Bcpg {
+class SignatureSubpacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignature;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKey;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignatureSubpacketVector;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPrivateKey;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 namespace Org::BouncyCastle::Bcpg {
-class SignatureSubpacket;
+struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpUserAttributeSubpacketVector;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct SignatureSubpacketTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPrivateKey;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignatureSubpacketVector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -152,8 +152,7 @@ constexpr ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> __get_hashed() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }]
-explicit PgpSignatureGenerator(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator New_ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm) ;
 
 /// @brief Method .ctor addr 0x1032c88 size 0x10c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm) ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/Util/zzzz__DefaultAllocationStrategy_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy.New
 template<>
 
@@ -75,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, typeHash, obj);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::DefaultAllocationStrategy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultAllocationStrategy>())) {}
+ UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::New_ctor()  {
+UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy>())};
+return o;
+}
  void UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy>::get(),

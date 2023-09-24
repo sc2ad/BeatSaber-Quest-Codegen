@@ -98,8 +98,7 @@ constexpr ::StringW __get__productLabel() const;
 /// @brief Method get_productLabel addr 0x221c2c8 size 0x8 virtual false final false
  ::StringW get_productLabel() ;
 
-// Ctor Parameters []
-explicit SonyPublisherSKUSettingsSO() ;
+static GlobalNamespace::SonyPublisherSKUSettingsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a77c size 0x8 virtual false final false
  void _ctor() ;

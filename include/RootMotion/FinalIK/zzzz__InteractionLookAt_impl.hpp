@@ -1,7 +1,7 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__InteractionLookAt_def.hpp"
-#include "RootMotion/FinalIK/zzzz__LookAtIK_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__LookAtIK_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::InteractionLookAt.Look
 template<>
 
@@ -197,8 +197,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::InteractionLookAt::InteractionLookAt()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InteractionLookAt>())) {}
+ RootMotion::FinalIK::InteractionLookAt RootMotion::FinalIK::InteractionLookAt::New_ctor()  {
+RootMotion::FinalIK::InteractionLookAt o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::InteractionLookAt>())};
+return o;
+}
  void RootMotion::FinalIK::InteractionLookAt::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::InteractionLookAt>::get(),

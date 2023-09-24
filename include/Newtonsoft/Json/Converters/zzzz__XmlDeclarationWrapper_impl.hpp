@@ -2,8 +2,8 @@
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlDeclarationWrapper_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_def.hpp"
 #include "System/Xml/zzzz__XmlDeclaration_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::XmlDeclarationWrapper._ctor
 template<>
 
@@ -120,8 +120,10 @@ constexpr void Newtonsoft::Json::Converters::XmlDeclarationWrapper::__set__decla
 constexpr System::Xml::XmlDeclaration Newtonsoft::Json::Converters::XmlDeclarationWrapper::__get__declaration() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlDeclaration, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "declaration", ty: "System::Xml::XmlDeclaration", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::XmlDeclarationWrapper::XmlDeclarationWrapper(System::Xml::XmlDeclaration declaration)  : Newtonsoft::Json::Converters::XmlNodeWrapper(THROW_UNLESS(::il2cpp_utils::New<XmlDeclarationWrapper>(declaration))) {}
+ Newtonsoft::Json::Converters::XmlDeclarationWrapper Newtonsoft::Json::Converters::XmlDeclarationWrapper::New_ctor(System::Xml::XmlDeclaration declaration)  {
+Newtonsoft::Json::Converters::XmlDeclarationWrapper o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::XmlDeclarationWrapper>(declaration))};
+return o;
+}
  void Newtonsoft::Json::Converters::XmlDeclarationWrapper::_ctor(System::Xml::XmlDeclaration declaration)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::XmlDeclarationWrapper>::get(),

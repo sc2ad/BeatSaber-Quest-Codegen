@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
 namespace GlobalNamespace {
-class SimpleDialogPromptViewController;
+class SafeAreaFocusedSimpleDialogPromptViewController;
 }
 namespace GlobalNamespace {
-class SafeAreaFocusedSimpleDialogPromptViewController;
+class SimpleDialogPromptViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,7 @@ constexpr GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController __get
 /// @brief Method InstallBindings addr 0x2117190 size 0xac virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit BaseViewControllersInstaller() ;
+static GlobalNamespace::BaseViewControllersInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211723c size 0x8 virtual false final false
  void _ctor() ;

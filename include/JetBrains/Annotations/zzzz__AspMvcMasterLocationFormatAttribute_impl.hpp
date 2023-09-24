@@ -58,8 +58,10 @@ constexpr void JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::__se
 constexpr ::StringW JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::__get__Format_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::AspMvcMasterLocationFormatAttribute(::StringW format)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspMvcMasterLocationFormatAttribute>(format))) {}
+ JetBrains::Annotations::AspMvcMasterLocationFormatAttribute JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::New_ctor(::StringW format)  {
+JetBrains::Annotations::AspMvcMasterLocationFormatAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspMvcMasterLocationFormatAttribute>(format))};
+return o;
+}
  void JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::_ctor(::StringW format)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspMvcMasterLocationFormatAttribute>::get(),

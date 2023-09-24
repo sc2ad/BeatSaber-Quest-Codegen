@@ -3,11 +3,11 @@
 #include "System/Text/RegularExpressions/zzzz__RegexRunner_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Text::RegularExpressions {
-class RegexCode;
-}
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System::Text::RegularExpressions {
+class RegexCode;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -94,8 +94,7 @@ constexpr bool __get__caseInsensitive() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "code", ty: "System::Text::RegularExpressions::RegexCode", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit RegexInterpreter(System::Text::RegularExpressions::RegexCode code, System::Globalization::CultureInfo culture) ;
+static System::Text::RegularExpressions::RegexInterpreter New_ctor(System::Text::RegularExpressions::RegexCode code, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x27ccde8 size 0x2c virtual false final false
  void _ctor(System::Text::RegularExpressions::RegexCode code, System::Globalization::CultureInfo culture) ;

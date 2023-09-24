@@ -79,8 +79,7 @@ static int32_t __get__clippingPlaneNormalID() ;
 /// @brief Method SetClippingParams addr 0x20e23cc size 0x14c virtual false final false
  void SetClippingParams(UnityEngine::Vector3 position, UnityEngine::Vector3 normal) ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerObstacleClippingController() ;
+static GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e2518 size 0x8 virtual false final false
  void _ctor() ;

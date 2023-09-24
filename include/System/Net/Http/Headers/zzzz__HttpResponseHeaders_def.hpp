@@ -47,8 +47,7 @@ constexpr explicit HttpResponseHeaders(void* ptr) noexcept : System::Net::Http::
 
 // Methods
 
-// Ctor Parameters []
-explicit HttpResponseHeaders() ;
+static System::Net::Http::Headers::HttpResponseHeaders New_ctor() ;
 
 /// @brief Method .ctor addr 0x26a2708 size 0x60 virtual false final false
  void _ctor() ;

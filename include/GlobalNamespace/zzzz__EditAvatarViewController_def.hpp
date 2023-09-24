@@ -6,57 +6,40 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename TResult>
-class Func_1;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__NamedIntListController__TextValuePair;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace HMUI {
-class CurvedTextMeshPro;
-}
-namespace GlobalNamespace {
-template<typename T>
-class AvatarPartCollection_1;
-}
-namespace GlobalNamespace {
-class ColorPickerButtonController;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class AvatarEditHistory;
-}
-namespace GlobalNamespace {
-class SkinColorSO;
-}
 namespace GlobalNamespace {
 class NamedColorListController;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__NamedColorListController__ColorValuePair;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4>
-class Action_4;
 }
 namespace GlobalNamespace {
 class NamedIntListController;
 }
 namespace UnityEngine::UI {
-class Image;
+class Button;
+}
+namespace GlobalNamespace {
+class AvatarPartsModel;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__EditAvatarViewController__FinishAction;
+}
+namespace HMUI {
+class CurvedTextMeshPro;
+}
+namespace GlobalNamespace {
+class AvatarEditHistory;
+}
+namespace HMUI {
+template<typename T>
+class ValueChangedBinder_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__NamedColorListController__ColorValuePair;
 }
 namespace System {
 class Action;
@@ -65,11 +48,41 @@ namespace GlobalNamespace {
 class AvatarDataModel;
 }
 namespace GlobalNamespace {
-class AvatarPartsModel;
+class GlobalNamespace__NamedIntListController__TextValuePair;
 }
-namespace HMUI {
+namespace GlobalNamespace {
+struct GlobalNamespace__EditAvatarViewController__AvatarEditPart;
+}
+namespace GlobalNamespace {
+class SkinColorSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0;
+}
+namespace GlobalNamespace {
+class ColorPickerButtonController;
+}
+namespace GlobalNamespace {
 template<typename T>
-class ValueChangedBinder_1;
+class GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename T4>
+class Action_4;
+}
+namespace GlobalNamespace {
+template<typename T>
+class AvatarPartCollection_1;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -141,6 +154,8 @@ __Apply = 1,
 constexpr operator __GlobalNamespace__EditAvatarViewController__FinishAction_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__EditAvatarViewController__FinishAction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -224,6 +239,8 @@ __ClothesModelDetailColor = 15,
 constexpr operator __GlobalNamespace__EditAvatarViewController__AvatarEditPart_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__EditAvatarViewController__AvatarEditPart_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -367,8 +384,7 @@ constexpr System::Action_1<UnityEngine::Color> __get___9__1() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0() ;
+static GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass60_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2159e90 size 0x8 virtual false final false
  void _ctor() ;
@@ -704,8 +720,7 @@ static ::ArrayW<GlobalNamespace::GlobalNamespace__NamedIntListController__TextVa
 template<typename T>
  void SetupValuePicker(GlobalNamespace::AvatarPartCollection_1<T> partCollection, GlobalNamespace::NamedIntListController valuePicker, System::Action_1<::StringW> setIdAction, GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart avatarEditPart) ;
 
-// Ctor Parameters []
-explicit EditAvatarViewController() ;
+static GlobalNamespace::EditAvatarViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2159be0 size 0x64 virtual false final false
  void _ctor() ;
@@ -830,8 +845,7 @@ constexpr GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEdit
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1() ;
+static GlobalNamespace::GlobalNamespace__EditAvatarViewController____c__DisplayClass61_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

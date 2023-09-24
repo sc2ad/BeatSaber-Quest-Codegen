@@ -70,8 +70,7 @@ constexpr ::StringW __get__value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NTAccount(::StringW name) ;
+static System::Security::Principal::NTAccount New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x230bc58 size 0xe8 virtual false final false
  void _ctor(::StringW name) ;

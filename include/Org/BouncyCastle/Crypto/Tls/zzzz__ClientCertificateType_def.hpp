@@ -81,8 +81,7 @@ static constexpr uint8_t  ecdsa_fixed_ecdh{66u};
 
 // Methods
 
-// Ctor Parameters []
-explicit ClientCertificateType() ;
+static Org::BouncyCastle::Crypto::Tls::ClientCertificateType New_ctor() ;
 
 /// @brief Method .ctor addr 0xed2ce8 size 0x8 virtual false final false
  void _ctor() ;

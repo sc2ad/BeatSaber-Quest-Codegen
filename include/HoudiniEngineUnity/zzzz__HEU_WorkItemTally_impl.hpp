@@ -183,8 +183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_WorkItemTally::HEU_WorkItemTally()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_WorkItemTally>())) {}
+ HoudiniEngineUnity::HEU_WorkItemTally HoudiniEngineUnity::HEU_WorkItemTally::New_ctor()  {
+HoudiniEngineUnity::HEU_WorkItemTally o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_WorkItemTally>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_WorkItemTally::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_WorkItemTally>::get(),

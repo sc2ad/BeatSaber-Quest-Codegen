@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__TreeInstance_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
 // Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "widthScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "heightScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightmapColor", ty: "UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "prototypeIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "temporaryDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::TreeInstance::TreeInstance(UnityEngine::Vector3 position, float_t widthScale, float_t heightScale, float_t rotation, UnityEngine::Color32 color, UnityEngine::Color32 lightmapColor, int32_t prototypeIndex, float_t temporaryDistance) noexcept : ::bs_hook::ValueTypeWrapper() {this->position = position;
 this->widthScale = widthScale;

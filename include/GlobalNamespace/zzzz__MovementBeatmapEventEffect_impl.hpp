@@ -2,11 +2,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MovementBeatmapEventEffect_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__MovementBeatmapEventEffect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MovementBeatmapEventEffect__MovementData.get_localPositionOffset
 template<>
 
@@ -56,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MovementBeatmapEventEffect__MovementData::GlobalNamespace__MovementBeatmapEventEffect__MovementData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MovementBeatmapEventEffect__MovementData>())) {}
+ GlobalNamespace::GlobalNamespace__MovementBeatmapEventEffect__MovementData GlobalNamespace::GlobalNamespace__MovementBeatmapEventEffect__MovementData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MovementBeatmapEventEffect__MovementData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MovementBeatmapEventEffect__MovementData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MovementBeatmapEventEffect__MovementData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MovementBeatmapEventEffect__MovementData>::get(),
@@ -300,8 +303,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, localPositionOffset);
 }
-// Ctor Parameters []
- GlobalNamespace::MovementBeatmapEventEffect::MovementBeatmapEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MovementBeatmapEventEffect>())) {}
+ GlobalNamespace::MovementBeatmapEventEffect GlobalNamespace::MovementBeatmapEventEffect::New_ctor()  {
+GlobalNamespace::MovementBeatmapEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MovementBeatmapEventEffect>())};
+return o;
+}
  void GlobalNamespace::MovementBeatmapEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MovementBeatmapEventEffect>::get(),

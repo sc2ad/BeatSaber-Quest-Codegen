@@ -5,10 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct StyleSelectorPart;
+class UnityEngine__UIElements__StyleSelector____c;
 }
 namespace UnityEngine::UIElements {
 struct StyleSelectorRelationship;
+}
+namespace UnityEngine::UIElements {
+struct StyleSelectorPart;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -78,8 +81,7 @@ static System::Func_2<UnityEngine::UIElements::StyleSelectorPart,::StringW> __ge
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__StyleSelector____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf3d74 size 0x8 virtual false final false
  void _ctor() ;
@@ -184,8 +186,7 @@ constexpr int32_t __get_negatedPseudoStateMask() const;
 /// @brief Method ToString addr 0x2cf3bc0 size 0x140 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit StyleSelector() ;
+static UnityEngine::UIElements::StyleSelector New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf3d00 size 0x10 virtual false final false
  void _ctor() ;

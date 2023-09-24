@@ -7,40 +7,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
+namespace TMPro {
+class TMPro__TMP_Dropdown__OptionData;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace TMPro {
+class TMPro__TMP_Dropdown____c__DisplayClass69_0;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 namespace UnityEngine {
 class Canvas;
 }
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
 namespace TMPro {
-template<typename T>
-class TweenRunner_1;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
+struct FloatTween;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -49,32 +35,64 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::UI {
-class Image;
+class Graphic;
 }
 namespace TMPro {
-struct FloatTween;
+class TMPro__TMP_Dropdown__DropdownItem;
 }
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
+namespace TMPro {
+class TMPro__TMP_Dropdown__DropdownEvent;
 }
 namespace UnityEngine {
-class RectTransform;
+class Coroutine;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace TMPro {
+class TMP_Text;
+}
+namespace TMPro {
+class TMPro__TMP_Dropdown__OptionDataList;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace TMPro {
-class TMP_Text;
+template<typename T>
+class TweenRunner_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace TMPro {
+class TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace TMPro {
@@ -217,8 +235,7 @@ constexpr UnityEngine::UI::Toggle __get_m_Toggle() const;
 /// @brief Method OnCancel addr 0x2a6fcac size 0xac virtual true final false
  void OnCancel(UnityEngine::EventSystems::BaseEventData eventData) ;
 
-// Ctor Parameters []
-explicit TMPro__TMP_Dropdown__DropdownItem() ;
+static TMPro::TMPro__TMP_Dropdown__DropdownItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a6fd58 size 0x8 virtual false final false
  void _ctor() ;
@@ -303,26 +320,22 @@ constexpr UnityEngine::Sprite __get_m_Image() const;
 /// @brief Method set_image addr 0x2a6fd78 size 0x8 virtual false final false
  void set_image(UnityEngine::Sprite value) ;
 
-// Ctor Parameters []
-explicit TMPro__TMP_Dropdown__OptionData() ;
+static TMPro::TMPro__TMP_Dropdown__OptionData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a6cb78 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TMPro__TMP_Dropdown__OptionData(::StringW text) ;
+static TMPro::TMPro__TMP_Dropdown__OptionData New_ctor(::StringW text) ;
 
 /// @brief Method .ctor addr 0x2a6d7d0 size 0x28 virtual false final false
  void _ctor(::StringW text) ;
 
-// Ctor Parameters [CppParam { name: "image", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }]
-explicit TMPro__TMP_Dropdown__OptionData(UnityEngine::Sprite image) ;
+static TMPro::TMPro__TMP_Dropdown__OptionData New_ctor(UnityEngine::Sprite image) ;
 
 /// @brief Method .ctor addr 0x2a6d950 size 0x28 virtual false final false
  void _ctor(UnityEngine::Sprite image) ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "image", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }]
-explicit TMPro__TMP_Dropdown__OptionData(::StringW text, UnityEngine::Sprite image) ;
+static TMPro::TMPro__TMP_Dropdown__OptionData New_ctor(::StringW text, UnityEngine::Sprite image) ;
 
 /// @brief Method .ctor addr 0x2a6fd80 size 0x2c virtual false final false
  void _ctor(::StringW text, UnityEngine::Sprite image) ;
@@ -393,8 +406,7 @@ constexpr System::Collections::Generic::List_1<TMPro::TMPro__TMP_Dropdown__Optio
 /// @brief Method set_options addr 0x2a6fdb4 size 0x8 virtual false final false
  void set_options(System::Collections::Generic::List_1<TMPro::TMPro__TMP_Dropdown__OptionData> value) ;
 
-// Ctor Parameters []
-explicit TMPro__TMP_Dropdown__OptionDataList() ;
+static TMPro::TMPro__TMP_Dropdown__OptionDataList New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a6d18c size 0x80 virtual false final false
  void _ctor() ;
@@ -406,7 +418,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::DropdownEvent
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 92 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 92 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12292))
 // CS Name: TMPro.TMP_Dropdown::DropdownEvent
 class CORDL_TYPE TMPro__TMP_Dropdown__DropdownEvent : public UnityEngine::Events::UnityEvent_1<int32_t> {
@@ -445,8 +457,7 @@ constexpr explicit TMPro__TMP_Dropdown__DropdownEvent(void* ptr) noexcept : Unit
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_Dropdown__DropdownEvent() ;
+static TMPro::TMPro__TMP_Dropdown__DropdownEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a6d20c size 0x48 virtual false final false
  void _ctor() ;
@@ -512,8 +523,7 @@ constexpr TMPro::TMP_Dropdown __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_Dropdown____c__DisplayClass69_0() ;
+static TMPro::TMPro__TMP_Dropdown____c__DisplayClass69_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a6edfc size 0x8 virtual false final false
  void _ctor() ;
@@ -610,8 +620,7 @@ constexpr TMPro::TMP_Dropdown __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81(int32_t __1__state) ;
+static TMPro::TMPro__TMP_Dropdown___DelayedDestroyDropdownList_d__81 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2a6fa1c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -900,8 +909,7 @@ static TMPro::TMPro__TMP_Dropdown__OptionData __get_s_NoOptionData() ;
 /// @brief Method get_IsExpanded addr 0x2a6d028 size 0x60 virtual false final false
  bool get_IsExpanded() ;
 
-// Ctor Parameters []
-explicit TMP_Dropdown() ;
+static TMPro::TMP_Dropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a6d088 size 0x104 virtual false final false
  void _ctor() ;

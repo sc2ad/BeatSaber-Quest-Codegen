@@ -5,31 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
-}
-namespace GlobalNamespace {
-template<typename T>
-class INetworkPlayerModelPartyConfig_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace GlobalNamespace {
-template<typename T>
-class IConnectionInitParams_1;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
 class ConnectedPlayerManager;
 }
 namespace GlobalNamespace {
-class INetworkPlayerModel;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 struct DisconnectedReason;
@@ -38,14 +17,41 @@ namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
+class INetworkPlayerModel;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class GlobalNamespace__BaseNetworkPlayerModel__PartyConfig;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55;
+}
+namespace GlobalNamespace {
+template<typename T>
+class INetworkPlayerModelPartyConfig_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+template<typename T>
+class IConnectionInitParams_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -53,6 +59,9 @@ class IEnumerable;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -133,8 +142,7 @@ constexpr GlobalNamespace::INetworkPlayerModel __get_partyManager() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BaseNetworkPlayerModel__PartyConfig() ;
+static GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig New_ctor() ;
 
 /// @brief Method .ctor addr 0x2202418 size 0x8 virtual false final false
  void _ctor() ;
@@ -228,8 +236,7 @@ constexpr int32_t __get___l__initialThreadId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2202118 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -344,8 +351,7 @@ constexpr int32_t __get___l__initialThreadId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x22021bc size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -639,8 +645,7 @@ template<typename T>
 /// @brief Method Log addr 0x2202340 size 0xd0 virtual false final false
  void Log(::StringW message) ;
 
-// Ctor Parameters []
-explicit BaseNetworkPlayerModel() ;
+static GlobalNamespace::BaseNetworkPlayerModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2202410 size 0x8 virtual false final false
  void _ctor() ;

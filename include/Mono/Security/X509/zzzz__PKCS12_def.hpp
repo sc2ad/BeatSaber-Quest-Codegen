@@ -5,41 +5,44 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Mono::Security::X509 {
-class X509CertificateCollection;
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
 }
 namespace System {
 class ICloneable;
 }
+namespace System::Collections {
+class ArrayList;
+}
 namespace System::Security::Cryptography {
-class RandomNumberGenerator;
+struct DSAParameters;
+}
+namespace Mono::Security::Cryptography {
+class Mono__Security__Cryptography__PKCS8__PrivateKeyInfo;
 }
 namespace Mono::Security {
 class Mono__Security__PKCS7__EncryptedData;
 }
 namespace Mono::Security::X509 {
-class X509Certificate;
-}
-namespace Mono::Security {
-class Mono__Security__PKCS7__ContentInfo;
+class X509CertificateCollection;
 }
 namespace Mono::Security {
 class ASN1;
 }
+namespace Mono::Security::X509 {
+class X509Certificate;
+}
 namespace System::Security::Cryptography {
 class SymmetricAlgorithm;
 }
-namespace System::Collections {
-class ArrayList;
+namespace Mono::Security {
+class Mono__Security__PKCS7__ContentInfo;
 }
-namespace System::Collections {
-class IDictionary;
-}
-namespace Mono::Security::Cryptography {
-class Mono__Security__Cryptography__PKCS8__PrivateKeyInfo;
-}
-namespace System::Security::Cryptography {
-struct DSAParameters;
+namespace Mono::Security::X509 {
+class Mono__Security__X509__PKCS12__DeriveBytes;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -146,8 +149,7 @@ constexpr ::ArrayW<uint8_t> __get__salt() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Security__X509__PKCS12__DeriveBytes() ;
+static Mono::Security::X509::Mono__Security__X509__PKCS12__DeriveBytes New_ctor() ;
 
 /// @brief Method .ctor addr 0x22855e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -314,20 +316,17 @@ static int32_t __declspec(property(get=get_MaximumPasswordLength))  MaximumPassw
 
 // Methods
 
-// Ctor Parameters []
-explicit PKCS12() ;
+static Mono::Security::X509::PKCS12 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2282f64 size 0xec virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PKCS12(::ArrayW<uint8_t> data) ;
+static Mono::Security::X509::PKCS12 New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x2283050 size 0x34 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PKCS12(::ArrayW<uint8_t> data, ::StringW password) ;
+static Mono::Security::X509::PKCS12 New_ctor(::ArrayW<uint8_t> data, ::StringW password) ;
 
 /// @brief Method .ctor addr 0x22838e8 size 0x38 virtual false final false
  void _ctor(::ArrayW<uint8_t> data, ::StringW password) ;

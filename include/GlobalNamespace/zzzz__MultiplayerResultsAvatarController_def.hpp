@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class MultiplayerAvatarPoseController;
+class AvatarVisualController;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class AvatarVisualController;
+class MultiplayerAvatarPoseController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,8 +78,7 @@ constexpr GlobalNamespace::MultiplayerAvatarPoseController __get__multiplayerAva
 /// @brief Method Setup addr 0x2100df0 size 0x134 virtual false final false
  void Setup(GlobalNamespace::IConnectedPlayer connectedPlayer) ;
 
-// Ctor Parameters []
-explicit MultiplayerResultsAvatarController() ;
+static GlobalNamespace::MultiplayerResultsAvatarController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2100f24 size 0x8 virtual false final false
  void _ctor() ;

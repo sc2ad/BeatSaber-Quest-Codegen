@@ -64,8 +64,10 @@ constexpr void Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::__set_private
 constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::__get_privateParameter() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::AsymmetricKeyParameter, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "publicParameter", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "privateParameter", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::AsymmetricCipherKeyPair(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateParameter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsymmetricCipherKeyPair>(publicParameter, privateParameter))) {}
+ Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateParameter)  {
+Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair>(publicParameter, privateParameter))};
+return o;
+}
  void Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter privateParameter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair>::get(),

@@ -76,8 +76,7 @@ constexpr System::Collections::IList __get_lookupPowX2() const;
 /// @brief Method EnsureAvailable addr 0xe877b0 size 0x268 virtual false final false
  void EnsureAvailable(int32_t bit) ;
 
-// Ctor Parameters []
-explicit Tables1kGcmExponentiator() ;
+static Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe87a18 size 0x8 virtual false final false
  void _ctor() ;

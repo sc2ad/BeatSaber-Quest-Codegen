@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine {
-struct LogType;
+class ILogger;
 }
 namespace UnityEngine {
-class ILogger;
+class Object;
 }
 namespace System {
 class Exception;
 }
 namespace UnityEngine {
-class Object;
+struct LogType;
 }
 namespace UnityEngine {
 class ILogHandler;
@@ -100,8 +100,7 @@ constexpr UnityEngine::LogType __get__filterLogType_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "logHandler", ty: "UnityEngine::ILogHandler", modifiers: "", def_value: None }]
-explicit Logger(UnityEngine::ILogHandler logHandler) ;
+static UnityEngine::Logger New_ctor(UnityEngine::ILogHandler logHandler) ;
 
 /// @brief Method .ctor addr 0x2b2b604 size 0x38 virtual false final false
  void _ctor(UnityEngine::ILogHandler logHandler) ;

@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::IO {
-class MemoryStream;
+class Stream;
 }
 namespace System::IO {
-class Stream;
+class MemoryStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -93,20 +93,17 @@ constexpr bool __get_readOnlyBuf() const;
 /// @brief Method NextTwoPow addr 0xece1f8 size 0x1c virtual false final false
 static int32_t NextTwoPow(int32_t i) ;
 
-// Ctor Parameters []
-explicit ByteQueue() ;
+static Org::BouncyCastle::Crypto::Tls::ByteQueue New_ctor() ;
 
 /// @brief Method .ctor addr 0xece214 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ByteQueue(int32_t capacity) ;
+static Org::BouncyCastle::Crypto::Tls::ByteQueue New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0xece21c size 0xa0 virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ByteQueue(::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
+static Org::BouncyCastle::Crypto::Tls::ByteQueue New_ctor(::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
 
 /// @brief Method .ctor addr 0xece2bc size 0x4c virtual false final false
  void _ctor(::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;

@@ -1,17 +1,17 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
+namespace UnityEngine::UIElements {
+struct TimerState;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace System {
 class Action;
-}
-namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
-namespace UnityEngine::UIElements {
-struct TimerState;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

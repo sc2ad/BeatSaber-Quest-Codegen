@@ -183,8 +183,7 @@ static uint32_t SubWord(uint32_t x) ;
 /// @brief Method GenerateWorkingKey addr 0xe29488 size 0xb18 virtual false final false
  ::ArrayW<::ArrayW<uint32_t>> GenerateWorkingKey(::ArrayW<uint8_t> key, bool forEncryption) ;
 
-// Ctor Parameters []
-explicit AesEngine() ;
+static Org::BouncyCastle::Crypto::Engines::AesEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe29fa0 size 0x8 virtual false final false
  void _ctor() ;

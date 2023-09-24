@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::Collections {
+class ICollection;
+}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
-}
-namespace System::Collections {
-class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -68,8 +68,7 @@ constexpr System::Collections::ICollection __get__local() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collection", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit X509CollectionStore(System::Collections::ICollection collection) ;
+static Org::BouncyCastle::X509::Store::X509CollectionStore New_ctor(System::Collections::ICollection collection) ;
 
 /// @brief Method .ctor addr 0x10e64a4 size 0x74 virtual false final false
  void _ctor(System::Collections::ICollection collection) ;

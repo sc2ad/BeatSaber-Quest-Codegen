@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__RegexTree_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::RegexTree._ctor
 template<>
 
@@ -62,8 +62,10 @@ constexpr void System::Text::RegularExpressions::RegexTree::__set_Options(System
 constexpr System::Text::RegularExpressions::RegexOptions System::Text::RegularExpressions::RegexTree::__get_Options() const {
 return ::cordl_internals::getInstanceField<System::Text::RegularExpressions::RegexOptions, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "root", ty: "System::Text::RegularExpressions::RegexNode", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capNumList", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "capTop", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "capNames", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capsList", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexTree::RegexTree(System::Text::RegularExpressions::RegexNode root, System::Collections::Hashtable caps, ::ArrayW<int32_t> capNumList, int32_t capTop, System::Collections::Hashtable capNames, ::ArrayW<::StringW> capsList, System::Text::RegularExpressions::RegexOptions options)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexTree>(root, caps, capNumList, capTop, capNames, capsList, options))) {}
+ System::Text::RegularExpressions::RegexTree System::Text::RegularExpressions::RegexTree::New_ctor(System::Text::RegularExpressions::RegexNode root, System::Collections::Hashtable caps, ::ArrayW<int32_t> capNumList, int32_t capTop, System::Collections::Hashtable capNames, ::ArrayW<::StringW> capsList, System::Text::RegularExpressions::RegexOptions options)  {
+System::Text::RegularExpressions::RegexTree o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexTree>(root, caps, capNumList, capTop, capNames, capsList, options))};
+return o;
+}
  void System::Text::RegularExpressions::RegexTree::_ctor(System::Text::RegularExpressions::RegexNode root, System::Collections::Hashtable caps, ::ArrayW<int32_t> capNumList, int32_t capTop, System::Collections::Hashtable capNames, ::ArrayW<::StringW> capsList, System::Text::RegularExpressions::RegexOptions options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexTree>::get(),

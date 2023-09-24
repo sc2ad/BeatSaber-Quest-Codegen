@@ -68,8 +68,7 @@ constexpr bool __get__activateOnFalse() const;
 /// @brief Method Awake addr 0x21155b8 size 0x84 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit ConditionalActivation() ;
+static GlobalNamespace::ConditionalActivation New_ctor() ;
 
 /// @brief Method .ctor addr 0x211563c size 0x8 virtual false final false
  void _ctor() ;

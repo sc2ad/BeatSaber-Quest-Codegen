@@ -62,8 +62,7 @@ constexpr ::StringW __get__Directive_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "directive", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RazorDirectiveAttribute(::StringW directive) ;
+static JetBrains::Annotations::RazorDirectiveAttribute New_ctor(::StringW directive) ;
 
 /// @brief Method .ctor addr 0x2d413f8 size 0x28 virtual false final false
  void _ctor(::StringW directive) ;

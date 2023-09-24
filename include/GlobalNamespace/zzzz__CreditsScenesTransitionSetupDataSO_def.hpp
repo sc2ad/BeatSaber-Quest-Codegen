@@ -69,8 +69,7 @@ constexpr System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO> 
 /// @brief Method Finish addr 0x21d003c size 0x20 virtual false final false
  void Finish() ;
 
-// Ctor Parameters []
-explicit CreditsScenesTransitionSetupDataSO() ;
+static GlobalNamespace::CreditsScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d005c size 0x8 virtual false final false
  void _ctor() ;

@@ -6,22 +6,34 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::IO::Enumeration {
+template<typename TResult>
+class System__IO__Enumeration__FileSystemEnumerable_1__FindTransform;
+}
+namespace System::IO::Enumeration {
+template<typename TResult>
+class System__IO__Enumeration__FileSystemEnumerable_1__FindPredicate;
+}
+namespace System::IO {
+class EnumerationOptions;
+}
+namespace System::IO::Enumeration {
+template<typename TResult>
+class System__IO__Enumeration__FileSystemEnumerable_1__DelegateEnumerator;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System::IO {
-class EnumerationOptions;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 namespace System::IO::Enumeration {
 struct FileSystemEntry;
@@ -68,7 +80,7 @@ namespace System::IO::Enumeration {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3628)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(3628))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3628), inst: 2 })
 // CS Name: System.IO.Enumeration.FileSystemEnumerable`1::FindPredicate
 class CORDL_TYPE System__IO__Enumeration__FileSystemEnumerable_1__FindPredicate<TResult> : public System::MulticastDelegate {
@@ -107,8 +119,7 @@ constexpr explicit System__IO__Enumeration__FileSystemEnumerable_1__FindPredicat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__IO__Enumeration__FileSystemEnumerable_1__FindPredicate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable_1__FindPredicate<TResult> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -125,7 +136,7 @@ namespace System::IO::Enumeration {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(3629))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3629)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3629), inst: 2 })
 // CS Name: System.IO.Enumeration.FileSystemEnumerable`1::FindTransform
 class CORDL_TYPE System__IO__Enumeration__FileSystemEnumerable_1__FindTransform<TResult> : public System::MulticastDelegate {
@@ -164,8 +175,7 @@ constexpr explicit System__IO__Enumeration__FileSystemEnumerable_1__FindTransfor
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__IO__Enumeration__FileSystemEnumerable_1__FindTransform(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable_1__FindTransform<TResult> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -230,8 +240,7 @@ constexpr System::IO::Enumeration::FileSystemEnumerable_1<TResult> __get__enumer
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "enumerable", ty: "System::IO::Enumeration::FileSystemEnumerable_1<TResult>", modifiers: "", def_value: None }]
-explicit System__IO__Enumeration__FileSystemEnumerable_1__DelegateEnumerator(System::IO::Enumeration::FileSystemEnumerable_1<TResult> enumerable) ;
+static System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable_1__DelegateEnumerator<TResult> New_ctor(System::IO::Enumeration::FileSystemEnumerable_1<TResult> enumerable) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::IO::Enumeration::FileSystemEnumerable_1<TResult> enumerable) ;
@@ -351,8 +360,7 @@ constexpr System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "directory", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable_1__FindTransform<TResult>", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::IO::EnumerationOptions", modifiers: "", def_value: None }]
-explicit FileSystemEnumerable_1(::StringW directory, System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable_1__FindTransform<TResult> transform, System::IO::EnumerationOptions options) ;
+static System::IO::Enumeration::FileSystemEnumerable_1<TResult> New_ctor(::StringW directory, System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable_1__FindTransform<TResult> transform, System::IO::EnumerationOptions options) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::StringW directory, System::IO::Enumeration::System__IO__Enumeration__FileSystemEnumerable_1__FindTransform<TResult> transform, System::IO::EnumerationOptions options) ;

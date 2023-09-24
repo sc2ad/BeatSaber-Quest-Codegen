@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-class ObjectHolder;
+class ObjectHolderList;
 }
 namespace System::Runtime::Serialization {
-class ObjectHolderList;
+class ObjectHolder;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -86,8 +86,7 @@ constexpr int32_t __get_m_currPos() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "list", ty: "System::Runtime::Serialization::ObjectHolderList", modifiers: "", def_value: None }, CppParam { name: "isFixupEnumerator", ty: "bool", modifiers: "", def_value: None }]
-explicit ObjectHolderListEnumerator(System::Runtime::Serialization::ObjectHolderList list, bool isFixupEnumerator) ;
+static System::Runtime::Serialization::ObjectHolderListEnumerator New_ctor(System::Runtime::Serialization::ObjectHolderList list, bool isFixupEnumerator) ;
 
 /// @brief Method .ctor addr 0x2350ad0 size 0x48 virtual false final false
  void _ctor(System::Runtime::Serialization::ObjectHolderList list, bool isFixupEnumerator) ;

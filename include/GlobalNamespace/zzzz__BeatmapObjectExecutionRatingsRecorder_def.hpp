@@ -2,24 +2,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class IScoreController;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace GlobalNamespace {
 class ObstacleController;
-}
-namespace GlobalNamespace {
-class ScoringElement;
-}
-namespace GlobalNamespace {
-class BeatmapObjectExecutionRating;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
@@ -27,8 +10,25 @@ class AudioTimeSyncController;
 namespace GlobalNamespace {
 class PlayerHeadAndObstacleInteraction;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class ScoringElement;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
 namespace GlobalNamespace {
 class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class BeatmapObjectExecutionRating;
+}
+namespace GlobalNamespace {
+class IScoreController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -138,8 +138,7 @@ constexpr System::Collections::Generic::HashSet_1<GlobalNamespace::ObstacleContr
 /// @brief Method HandleObstacleDidPassAvoidedMark addr 0x223316c size 0x15c virtual false final false
  void HandleObstacleDidPassAvoidedMark(GlobalNamespace::ObstacleController obstacleController) ;
 
-// Ctor Parameters []
-explicit BeatmapObjectExecutionRatingsRecorder() ;
+static GlobalNamespace::BeatmapObjectExecutionRatingsRecorder New_ctor() ;
 
 /// @brief Method .ctor addr 0x22332c8 size 0xc4 virtual false final false
  void _ctor() ;

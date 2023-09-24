@@ -8,7 +8,7 @@ class BoolSignal;
 // Type: ::BoolSignal
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(13881))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13881)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13881), inst: 99 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13876))
 // CS Name: BoolSignal
 class CORDL_TYPE BoolSignal : public GlobalNamespace::GenericSignal_1<bool> {
@@ -47,8 +47,7 @@ constexpr explicit BoolSignal(void* ptr) noexcept : GlobalNamespace::GenericSign
 
 // Methods
 
-// Ctor Parameters []
-explicit BoolSignal() ;
+static GlobalNamespace::BoolSignal New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8309c size 0x48 virtual false final false
  void _ctor() ;

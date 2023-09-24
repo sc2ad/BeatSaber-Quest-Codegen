@@ -7,29 +7,38 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__BloomPrePassLight__VertexData;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace GlobalNamespace {
+class BloomPrePassLightTypeSO;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BloomPrePassLight__QuadData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BloomPrePassLight__LightsDataItem;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-class BloomPrePassLightTypeSO;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class HashSet_1;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -243,8 +252,7 @@ constexpr System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassL
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "lightType", ty: "GlobalNamespace::BloomPrePassLightTypeSO", modifiers: "", def_value: None }, CppParam { name: "lights", ty: "System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight>", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BloomPrePassLight__LightsDataItem(GlobalNamespace::BloomPrePassLightTypeSO lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> lights) ;
+static GlobalNamespace::GlobalNamespace__BloomPrePassLight__LightsDataItem New_ctor(GlobalNamespace::BloomPrePassLightTypeSO lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> lights) ;
 
 /// @brief Method .ctor addr 0x1f94aa8 size 0x2c virtual false final false
  void _ctor(GlobalNamespace::BloomPrePassLightTypeSO lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight> lights) ;
@@ -412,8 +420,7 @@ static System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__Bl
 /// @brief Method Refresh addr 0x0 size 0xffffffffffffffff virtual true final false
  void Refresh() ;
 
-// Ctor Parameters []
-explicit BloomPrePassLight() ;
+static GlobalNamespace::BloomPrePassLight New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f94ad4 size 0x8 virtual false final false
  void _ctor() ;

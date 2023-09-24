@@ -3,21 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Oculus::Platform {
-class Request;
+namespace Oculus::Platform::Models {
+class Purchase;
+}
+namespace Oculus::Platform::Models {
+class ProductList;
 }
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
-namespace Oculus::Platform::Models {
-class ProductList;
+namespace Oculus::Platform {
+class Request;
 }
 namespace Oculus::Platform::Models {
 class PurchaseList;
-}
-namespace Oculus::Platform::Models {
-class Purchase;
 }
 // Forward declare root types
 namespace Oculus::Platform {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/ComponentModel/zzzz__BaseNumberConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__Int32Converter_def.hpp"
-#include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 //  Writing Method size for method: System::ComponentModel::Int32Converter.get_TargetType
 template<>
 
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, value, formatInfo);
 }
-// Ctor Parameters []
- System::ComponentModel::Int32Converter::Int32Converter()  : System::ComponentModel::BaseNumberConverter(THROW_UNLESS(::il2cpp_utils::New<Int32Converter>())) {}
+ System::ComponentModel::Int32Converter System::ComponentModel::Int32Converter::New_ctor()  {
+System::ComponentModel::Int32Converter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Int32Converter>())};
+return o;
+}
  void System::ComponentModel::Int32Converter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Int32Converter>::get(),

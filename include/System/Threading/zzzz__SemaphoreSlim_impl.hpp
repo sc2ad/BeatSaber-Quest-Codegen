@@ -2,18 +2,19 @@
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: System::Threading::System__Threading__SemaphoreSlim__TaskNode._ctor
 template<>
 
@@ -81,8 +82,10 @@ constexpr void System::Threading::System__Threading__SemaphoreSlim__TaskNode::__
 constexpr System::Threading::System__Threading__SemaphoreSlim__TaskNode System::Threading::System__Threading__SemaphoreSlim__TaskNode::__get_Next() const {
 return ::cordl_internals::getInstanceField<System::Threading::System__Threading__SemaphoreSlim__TaskNode, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Threading::System__Threading__SemaphoreSlim__TaskNode::System__Threading__SemaphoreSlim__TaskNode()  : System::Threading::Tasks::Task_1<bool>(THROW_UNLESS(::il2cpp_utils::New<System__Threading__SemaphoreSlim__TaskNode>())) {}
+ System::Threading::System__Threading__SemaphoreSlim__TaskNode System::Threading::System__Threading__SemaphoreSlim__TaskNode::New_ctor()  {
+System::Threading::System__Threading__SemaphoreSlim__TaskNode o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::System__Threading__SemaphoreSlim__TaskNode>())};
+return o;
+}
  void System::Threading::System__Threading__SemaphoreSlim__TaskNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__SemaphoreSlim__TaskNode>::get(),
@@ -668,8 +671,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "initialCount", ty: "int32_t", modifiers: "", def_value: None }]
- System::Threading::SemaphoreSlim::SemaphoreSlim(int32_t initialCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SemaphoreSlim>(initialCount))) {}
+ System::Threading::SemaphoreSlim System::Threading::SemaphoreSlim::New_ctor(int32_t initialCount)  {
+System::Threading::SemaphoreSlim o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::SemaphoreSlim>(initialCount))};
+return o;
+}
  void System::Threading::SemaphoreSlim::_ctor(int32_t initialCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::SemaphoreSlim>::get(),
@@ -679,8 +684,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, initialCount);
 }
-// Ctor Parameters [CppParam { name: "initialCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCount", ty: "int32_t", modifiers: "", def_value: None }]
- System::Threading::SemaphoreSlim::SemaphoreSlim(int32_t initialCount, int32_t maxCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SemaphoreSlim>(initialCount, maxCount))) {}
+ System::Threading::SemaphoreSlim System::Threading::SemaphoreSlim::New_ctor(int32_t initialCount, int32_t maxCount)  {
+System::Threading::SemaphoreSlim o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::SemaphoreSlim>(initialCount, maxCount))};
+return o;
+}
  void System::Threading::SemaphoreSlim::_ctor(int32_t initialCount, int32_t maxCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::SemaphoreSlim>::get(),

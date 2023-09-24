@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
-#include "System/Xml/Schema/zzzz__Positions_def.hpp"
-#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
-#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
+#include "System/Xml/Schema/zzzz__Positions_def.hpp"
+#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::SyntaxTreeNode.ExpandTree
 template<>
 
@@ -125,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::SyntaxTreeNode::SyntaxTreeNode()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SyntaxTreeNode>())) {}
+ System::Xml::Schema::SyntaxTreeNode System::Xml::Schema::SyntaxTreeNode::New_ctor()  {
+System::Xml::Schema::SyntaxTreeNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SyntaxTreeNode>())};
+return o;
+}
  void System::Xml::Schema::SyntaxTreeNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SyntaxTreeNode>::get(),

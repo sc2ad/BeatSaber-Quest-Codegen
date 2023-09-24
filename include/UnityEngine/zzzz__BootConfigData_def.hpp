@@ -60,8 +60,7 @@ constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
 /// @brief Method WrapBootConfigData addr 0x2b55d7c size 0x60 virtual false final false
 static UnityEngine::BootConfigData WrapBootConfigData(::cordl_internals::intptr_t nativeHandle) ;
 
-// Ctor Parameters [CppParam { name: "nativeHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit BootConfigData(::cordl_internals::intptr_t nativeHandle) ;
+static UnityEngine::BootConfigData New_ctor(::cordl_internals::intptr_t nativeHandle) ;
 
 /// @brief Method .ctor addr 0x2b55ddc size 0xc4 virtual false final false
  void _ctor(::cordl_internals::intptr_t nativeHandle) ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__Iso4217CurrencyCode_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode.GetInstance
 template<>
 
@@ -142,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "numeric", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::Iso4217CurrencyCode(int32_t numeric)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Iso4217CurrencyCode>(numeric))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::New_ctor(int32_t numeric)  {
+Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode>(numeric))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::_ctor(int32_t numeric)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode>::get(),
@@ -153,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, numeric);
 }
-// Ctor Parameters [CppParam { name: "alphabetic", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::Iso4217CurrencyCode(::StringW alphabetic)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Iso4217CurrencyCode>(alphabetic))) {}
+ Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::New_ctor(::StringW alphabetic)  {
+Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode>(alphabetic))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode::_ctor(::StringW alphabetic)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode>::get(),

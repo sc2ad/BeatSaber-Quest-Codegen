@@ -95,8 +95,7 @@ constexpr int32_t __get__charsUsed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit EncoderNLS(System::Text::Encoding encoding) ;
+static System::Text::EncoderNLS New_ctor(System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x24c1a28 size 0x44 virtual false final false
  void _ctor(System::Text::Encoding encoding) ;

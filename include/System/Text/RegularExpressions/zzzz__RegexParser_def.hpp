@@ -4,33 +4,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System::Text::RegularExpressions {
 class RegexCharClass;
 }
+namespace System {
+class ArgumentException;
+}
+namespace System::Text::RegularExpressions {
+struct RegexOptions;
+}
 namespace System::Text::RegularExpressions {
 class RegexNode;
+}
+namespace System::Text::RegularExpressions {
+class RegexReplacement;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Text::RegularExpressions {
-class RegexReplacement;
-}
-namespace System::Text::RegularExpressions {
 class RegexTree;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Text::RegularExpressions {
-struct RegexOptions;
-}
-namespace System {
-class ArgumentException;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -207,8 +207,7 @@ static System::Text::RegularExpressions::RegexTree Parse(::StringW re, System::T
 /// @brief Method ParseReplacement addr 0x27d13e8 size 0x150 virtual false final false
 static System::Text::RegularExpressions::RegexReplacement ParseReplacement(::StringW rep, System::Collections::Hashtable caps, int32_t capsize, System::Collections::Hashtable capnames, System::Text::RegularExpressions::RegexOptions op) ;
 
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit RegexParser(System::Globalization::CultureInfo culture) ;
+static System::Text::RegularExpressions::RegexParser New_ctor(System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x27d0750 size 0xc0 virtual false final false
  void _ctor(System::Globalization::CultureInfo culture) ;

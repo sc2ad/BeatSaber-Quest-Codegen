@@ -24,8 +24,10 @@ constexpr void System::Security::Cryptography::RSAPKCS1SignatureDescription::__s
 constexpr ::StringW System::Security::Cryptography::RSAPKCS1SignatureDescription::__get__hashAlgorithm() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithm", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Cryptography::RSAPKCS1SignatureDescription::RSAPKCS1SignatureDescription(::StringW hashAlgorithm, ::StringW digestAlgorithm)  : System::Security::Cryptography::SignatureDescription(THROW_UNLESS(::il2cpp_utils::New<RSAPKCS1SignatureDescription>(hashAlgorithm, digestAlgorithm))) {}
+ System::Security::Cryptography::RSAPKCS1SignatureDescription System::Security::Cryptography::RSAPKCS1SignatureDescription::New_ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm)  {
+System::Security::Cryptography::RSAPKCS1SignatureDescription o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RSAPKCS1SignatureDescription>(hashAlgorithm, digestAlgorithm))};
+return o;
+}
  void System::Security::Cryptography::RSAPKCS1SignatureDescription::_ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RSAPKCS1SignatureDescription>::get(),

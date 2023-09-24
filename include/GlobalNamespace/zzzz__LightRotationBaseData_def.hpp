@@ -94,8 +94,7 @@ constexpr GlobalNamespace::LightRotationDirection __get_rotationDirection() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventRotationValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "loopsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rotationDirection", ty: "GlobalNamespace::LightRotationDirection", modifiers: "", def_value: None }]
-explicit LightRotationBaseData(float_t beat, bool usePreviousEventRotationValue, GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount, GlobalNamespace::LightRotationDirection rotationDirection) ;
+static GlobalNamespace::LightRotationBaseData New_ctor(float_t beat, bool usePreviousEventRotationValue, GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount, GlobalNamespace::LightRotationDirection rotationDirection) ;
 
 /// @brief Method .ctor addr 0x21d8438 size 0x5c virtual false final false
  void _ctor(float_t beat, bool usePreviousEventRotationValue, GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount, GlobalNamespace::LightRotationDirection rotationDirection) ;

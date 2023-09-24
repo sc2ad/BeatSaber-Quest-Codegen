@@ -5,41 +5,23 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Net {
-template<typename T>
-class WebCompletionSource_1;
-}
-namespace System {
-class Exception;
-}
-namespace System::Net {
-class ServicePoint;
-}
-namespace System::Net {
 class WebRequestStream;
+}
+namespace System::Net {
+class WebConnection;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Net {
-class HttpWebRequest;
+template<typename T>
+class WebCompletionSource_1;
 }
 namespace System::Net {
-class BufferOffsetSize;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Net {
-class WebConnection;
-}
-namespace System::Net {
-class WebResponseStream;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
+class ServicePoint;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -49,8 +31,29 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Net {
+struct System__Net__WebOperation___Run_d__58;
+}
+namespace System::Net {
+struct System__Net__WebOperation___GetRequestStream_d__50;
+}
+namespace System::Net {
+class BufferOffsetSize;
+}
+namespace System {
+class Exception;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
+namespace System::Net {
+class HttpWebRequest;
+}
+namespace System::Net {
+class WebResponseStream;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -61,10 +64,13 @@ template<typename TResult>
 struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 // Forward declare root types
 namespace System::Net {
@@ -453,8 +459,7 @@ constexpr int32_t __get_finished() const;
 /// @brief Method get_IsNtlmChallenge addr 0x284f888 size 0x8 virtual false final false
  bool get_IsNtlmChallenge() ;
 
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::HttpWebRequest", modifiers: "", def_value: None }, CppParam { name: "writeBuffer", ty: "System::Net::BufferOffsetSize", modifiers: "", def_value: None }, CppParam { name: "isNtlmChallenge", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
-explicit WebOperation(System::Net::HttpWebRequest request, System::Net::BufferOffsetSize writeBuffer, bool isNtlmChallenge, System::Threading::CancellationToken cancellationToken) ;
+static System::Net::WebOperation New_ctor(System::Net::HttpWebRequest request, System::Net::BufferOffsetSize writeBuffer, bool isNtlmChallenge, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method .ctor addr 0x284f890 size 0x194 virtual false final false
  void _ctor(System::Net::HttpWebRequest request, System::Net::BufferOffsetSize writeBuffer, bool isNtlmChallenge, System::Threading::CancellationToken cancellationToken) ;

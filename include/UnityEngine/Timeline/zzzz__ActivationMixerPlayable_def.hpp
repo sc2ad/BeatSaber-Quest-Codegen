@@ -7,20 +7,20 @@ namespace UnityEngine::Timeline {
 struct UnityEngine__Timeline__ActivationTrack__PostPlaybackState;
 }
 namespace UnityEngine::Playables {
-template<typename T>
-struct ScriptPlayable_1;
+struct FrameData;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableGraph;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct Playable;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+template<typename T>
+struct ScriptPlayable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -109,8 +109,7 @@ static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::Activatio
 /// @brief Method ProcessFrame addr 0x2ab6150 size 0x1c4 virtual true final false
  void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::bs_hook::Il2CppWrapperType playerData) ;
 
-// Ctor Parameters []
-explicit ActivationMixerPlayable() ;
+static UnityEngine::Timeline::ActivationMixerPlayable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab6314 size 0x8 virtual false final false
  void _ctor() ;

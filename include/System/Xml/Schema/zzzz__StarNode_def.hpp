@@ -62,8 +62,7 @@ constexpr explicit StarNode(void* ptr) noexcept : System::Xml::Schema::InteriorN
 /// @brief Method get_IsNullable addr 0x271b384 size 0x8 virtual true final false
  bool get_IsNullable() ;
 
-// Ctor Parameters []
-explicit StarNode() ;
+static System::Xml::Schema::StarNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x271b38c size 0x8 virtual false final false
  void _ctor() ;

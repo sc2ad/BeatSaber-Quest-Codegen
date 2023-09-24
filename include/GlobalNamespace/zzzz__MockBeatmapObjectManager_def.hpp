@@ -3,24 +3,17 @@
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
 class ObstacleController;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
@@ -29,7 +22,14 @@ namespace GlobalNamespace {
 class SliderData;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+class NoteController;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class ObstacleData;
 }
 namespace GlobalNamespace {
 class SliderController;
@@ -106,8 +106,7 @@ constexpr explicit MockBeatmapObjectManager(void* ptr) noexcept : GlobalNamespac
 /// @brief Method DespawnInternal addr 0x2238a4c size 0x4 virtual true final false
  void DespawnInternal(GlobalNamespace::SliderController sliderNoteController) ;
 
-// Ctor Parameters []
-explicit MockBeatmapObjectManager() ;
+static GlobalNamespace::MockBeatmapObjectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2238a50 size 0x4 virtual false final false
  void _ctor() ;

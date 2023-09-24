@@ -3,17 +3,17 @@
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_4_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class FactoryBindInfo;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TContract>
 class FactoryArgumentsToChoiceBinder_4;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class FactoryBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -30,7 +30,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10649)), TypeDefinitionIndex(TypeDefinitionIndex(10802)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10649), inst: 1693 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10802)), TypeDefinitionIndex(TypeDefinitionIndex(10649)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10649), inst: 1693 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10802), inst: 5937 })
 // CS Name: Zenject.FactoryToChoiceIdBinder`4
 class CORDL_TYPE FactoryToChoiceIdBinder_4<TParam1,TParam2,TParam3,TContract> : public Zenject::FactoryArgumentsToChoiceBinder_4<TParam1,TParam2,TParam3,TContract> {
@@ -69,8 +69,7 @@ constexpr explicit FactoryToChoiceIdBinder_4(void* ptr) noexcept : Zenject::Fact
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryToChoiceIdBinder_4(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::FactoryToChoiceIdBinder_4<TParam1,TParam2,TParam3,TContract> New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

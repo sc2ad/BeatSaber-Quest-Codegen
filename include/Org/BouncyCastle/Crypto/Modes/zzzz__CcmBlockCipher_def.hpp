@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadCipher;
+class IAeadBlockCipher;
 }
 namespace System::IO {
 class MemoryStream;
@@ -16,8 +16,8 @@ class MemoryStream;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -139,8 +139,7 @@ constexpr System::IO::MemoryStream __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
-explicit CcmBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
+static Org::BouncyCastle::Crypto::Modes::CcmBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe893c4 size 0x22c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher) ;

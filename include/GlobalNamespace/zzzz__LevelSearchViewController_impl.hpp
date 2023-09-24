@@ -2,25 +2,26 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelSearchViewController_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "GlobalNamespace/zzzz__LevelFilterParams_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "HMUI/zzzz__InputFieldView_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__LevelSearchViewController_def.hpp"
+#include "HMUI/zzzz__InputFieldView_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection.get_collectionName
 template<>
 
@@ -178,8 +179,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelCollection", ty: "GlobalNamespace::IBeatmapLevelCollection", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection::GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection(GlobalNamespace::IBeatmapLevelCollection beatmapLevelCollection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection>(beatmapLevelCollection))) {}
+ GlobalNamespace::GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection GlobalNamespace::GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection::New_ctor(GlobalNamespace::IBeatmapLevelCollection beatmapLevelCollection)  {
+GlobalNamespace::GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection>(beatmapLevelCollection))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection::_ctor(GlobalNamespace::IBeatmapLevelCollection beatmapLevelCollection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelSearchViewController__BeatmapLevelPackCollection>::get(),
@@ -896,8 +899,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, levelFilterParams);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelSearchViewController::LevelSearchViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<LevelSearchViewController>())) {}
+ GlobalNamespace::LevelSearchViewController GlobalNamespace::LevelSearchViewController::New_ctor()  {
+GlobalNamespace::LevelSearchViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelSearchViewController>())};
+return o;
+}
  void GlobalNamespace::LevelSearchViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelSearchViewController>::get(),

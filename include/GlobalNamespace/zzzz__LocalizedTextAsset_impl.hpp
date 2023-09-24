@@ -1,9 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
-#include "Polyglot/zzzz__Language_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
+#include "Polyglot/zzzz__Language_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo._ctor
 template<>
 
@@ -33,8 +34,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo::_
 constexpr UnityEngine::TextAsset GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo::__get_localizedText() const {
 return ::cordl_internals::getInstanceField<UnityEngine::TextAsset, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo::GlobalNamespace__LocalizedTextAsset__TextInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalizedTextAsset__TextInfo>())) {}
+ GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo>::get(),
@@ -84,8 +87,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c__Displa
 constexpr Polyglot::Language GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0::__get_language() const {
 return ::cordl_internals::getInstanceField<Polyglot::Language, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0::GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0>())) {}
+ GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0 GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c__DisplayClass6_0>::get(),
@@ -150,8 +155,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Local
  System::Func_2<GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo,bool> GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c::__get___9__6_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::GlobalNamespace__LocalizedTextAsset__TextInfo,bool>, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c::GlobalNamespace__LocalizedTextAsset____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LocalizedTextAsset____c>())) {}
+ GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LocalizedTextAsset____c>::get(),
@@ -251,8 +258,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LocalizedTextAsset::LocalizedTextAsset()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<LocalizedTextAsset>())) {}
+ GlobalNamespace::LocalizedTextAsset GlobalNamespace::LocalizedTextAsset::New_ctor()  {
+GlobalNamespace::LocalizedTextAsset o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LocalizedTextAsset>())};
+return o;
+}
  void GlobalNamespace::LocalizedTextAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LocalizedTextAsset>::get(),

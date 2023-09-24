@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_iv() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterations", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Pkcs12PbeParams(::ArrayW<uint8_t> salt, int32_t iterations) ;
+static Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams New_ctor(::ArrayW<uint8_t> salt, int32_t iterations) ;
 
 /// @brief Method .ctor addr 0xefca04 size 0xb4 virtual false final false
  void _ctor(::ArrayW<uint8_t> salt, int32_t iterations) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Pkcs12PbeParams(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xefcab8 size 0xe8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

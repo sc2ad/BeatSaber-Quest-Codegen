@@ -5,29 +5,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-struct FileAccess;
+namespace System::Net {
+class FileWebRequest;
 }
 namespace System::IO {
 struct FileShare;
 }
-namespace System {
-class IAsyncResult;
+namespace System::IO {
+struct FileMode;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System::IO {
+struct FileAccess;
 }
 namespace System::Net {
 struct CloseExState;
 }
 namespace System::Net {
-class FileWebRequest;
-}
-namespace System::Net {
 class ICloseEx;
 }
-namespace System::IO {
-struct FileMode;
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace System::Net {
@@ -87,14 +87,12 @@ constexpr System::Net::FileWebRequest __get_m_request() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::FileWebRequest", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "sharing", ty: "System::IO::FileShare", modifiers: "", def_value: None }]
-explicit FileWebStream(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing) ;
+static System::Net::FileWebStream New_ctor(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing) ;
 
 /// @brief Method .ctor addr 0x2823b14 size 0x9c virtual false final false
  void _ctor(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing) ;
 
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::FileWebRequest", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "sharing", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "async", ty: "bool", modifiers: "", def_value: None }]
-explicit FileWebStream(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing, int32_t length, bool async) ;
+static System::Net::FileWebStream New_ctor(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing, int32_t length, bool async) ;
 
 /// @brief Method .ctor addr 0x2824784 size 0xb4 virtual false final false
  void _ctor(System::Net::FileWebRequest request, ::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare sharing, int32_t length, bool async) ;

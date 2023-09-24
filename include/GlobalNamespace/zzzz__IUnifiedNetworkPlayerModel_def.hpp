@@ -1,27 +1,27 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace GlobalNamespace {
-struct GlobalNamespace__UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
 class INetworkPlayerModel;
 }
 namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
+}
+namespace GlobalNamespace {
 class INetworkPlayer;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

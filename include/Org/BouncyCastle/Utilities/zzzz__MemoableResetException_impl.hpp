@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::MemoableResetException::MemoableResetException(::StringW msg)  : System::InvalidCastException(THROW_UNLESS(::il2cpp_utils::New<MemoableResetException>(msg))) {}
+ Org::BouncyCastle::Utilities::MemoableResetException Org::BouncyCastle::Utilities::MemoableResetException::New_ctor(::StringW msg)  {
+Org::BouncyCastle::Utilities::MemoableResetException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::MemoableResetException>(msg))};
+return o;
+}
  void Org::BouncyCastle::Utilities::MemoableResetException::_ctor(::StringW msg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::MemoableResetException>::get(),

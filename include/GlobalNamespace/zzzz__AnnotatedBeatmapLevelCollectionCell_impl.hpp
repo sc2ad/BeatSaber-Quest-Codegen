@@ -2,21 +2,21 @@
 #include "HMUI/zzzz__SelectableCell_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionCell_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionCell_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22.MoveNext
 template<>
 
@@ -520,8 +520,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::AnnotatedBeatmapLevelCollectionCell()  : HMUI::SelectableCell(THROW_UNLESS(::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionCell>())) {}
+ GlobalNamespace::AnnotatedBeatmapLevelCollectionCell GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::New_ctor()  {
+GlobalNamespace::AnnotatedBeatmapLevelCollectionCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AnnotatedBeatmapLevelCollectionCell>())};
+return o;
+}
  void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AnnotatedBeatmapLevelCollectionCell>::get(),

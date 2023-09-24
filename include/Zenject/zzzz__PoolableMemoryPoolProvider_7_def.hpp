@@ -4,26 +4,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace Zenject {
-class IValidatable;
+struct TypeValuePair;
 }
 namespace Zenject {
-class InjectContext;
-}
-namespace System {
-struct Guid;
+class DiContainer;
 }
 namespace System {
 class Action;
+}
+namespace System {
+struct Guid;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace Zenject {
-class DiContainer;
+class IValidatable;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -40,7 +40,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TContract,::cordl_internals::il2cpp_reference_type TMemoryPool>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11161), inst: 4692 }), TypeDefinitionIndex(TypeDefinitionIndex(11167)), TypeDefinitionIndex(TypeDefinitionIndex(11161))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11161), inst: 4692 }), TypeDefinitionIndex(TypeDefinitionIndex(11161)), TypeDefinitionIndex(TypeDefinitionIndex(11167))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11167), inst: 5940 })
 // CS Name: Zenject.PoolableMemoryPoolProvider`7
 class CORDL_TYPE PoolableMemoryPoolProvider_7<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TMemoryPool> : public Zenject::PoolableMemoryPoolProviderBase_1<TContract> {
@@ -91,8 +91,7 @@ constexpr TMemoryPool __get__pool() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "poolId", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit PoolableMemoryPoolProvider_7(Zenject::DiContainer container, System::Guid poolId) ;
+static Zenject::PoolableMemoryPoolProvider_7<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TMemoryPool> New_ctor(Zenject::DiContainer container, System::Guid poolId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, System::Guid poolId) ;

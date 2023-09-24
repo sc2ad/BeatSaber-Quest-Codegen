@@ -2,10 +2,10 @@
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__SignalEmitter_def.hpp"
 #include "UnityEngine/Timeline/zzzz__INotificationOptionProvider_def.hpp"
-#include "UnityEngine/zzzz__PropertyName_def.hpp"
 #include "UnityEngine/Timeline/zzzz__NotificationFlags_def.hpp"
-#include "UnityEngine/Timeline/zzzz__SignalAsset_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
+#include "UnityEngine/Timeline/zzzz__SignalAsset_def.hpp"
+#include "UnityEngine/zzzz__PropertyName_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::SignalEmitter.get_retroactive
 template<>
 
@@ -257,8 +257,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Timeline::NotificationFlags, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::SignalEmitter::SignalEmitter()  : UnityEngine::Timeline::Marker(THROW_UNLESS(::il2cpp_utils::New<SignalEmitter>())) {}
+ UnityEngine::Timeline::SignalEmitter UnityEngine::Timeline::SignalEmitter::New_ctor()  {
+UnityEngine::Timeline::SignalEmitter o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::SignalEmitter>())};
+return o;
+}
  void UnityEngine::Timeline::SignalEmitter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::SignalEmitter>::get(),

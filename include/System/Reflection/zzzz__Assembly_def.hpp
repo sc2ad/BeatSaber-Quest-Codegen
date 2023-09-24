@@ -10,11 +10,23 @@ class ISerializable;
 namespace System::Runtime::InteropServices {
 class _Assembly;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+class System__Reflection__Assembly__ResolveEventHolder;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Security::Policy {
+class Evidence;
 }
 namespace System::Reflection {
 class Module;
+}
+namespace System::Reflection {
+class ICustomAttributeProvider;
 }
 namespace System::Reflection {
 class AssemblyName;
@@ -22,17 +34,8 @@ class AssemblyName;
 namespace System {
 class Exception;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Security::Policy {
-class Evidence;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Reflection {
-class ICustomAttributeProvider;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -83,8 +86,7 @@ constexpr explicit System__Reflection__Assembly__ResolveEventHolder(void* ptr) n
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Reflection__Assembly__ResolveEventHolder() ;
+static System::Reflection::System__Reflection__Assembly__ResolveEventHolder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2382244 size 0x8 virtual false final false
  void _ctor() ;
@@ -253,8 +255,7 @@ static bool op_Equality(System::Reflection::Assembly left, System::Reflection::A
 /// @brief Method op_Inequality addr 0x23821e4 size 0x58 virtual false final false
 static bool op_Inequality(System::Reflection::Assembly left, System::Reflection::Assembly right) ;
 
-// Ctor Parameters []
-explicit Assembly() ;
+static System::Reflection::Assembly New_ctor() ;
 
 /// @brief Method .ctor addr 0x238223c size 0x8 virtual false final false
  void _ctor() ;

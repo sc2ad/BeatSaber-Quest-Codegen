@@ -14,16 +14,25 @@ template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine::EventSystems {
+struct UnityEngine__EventSystems__PointerEventData__FramePressState;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::EventSystems {
-struct UnityEngine__EventSystems__PointerEventData__FramePressState;
+class UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData;
+}
+namespace UnityEngine::EventSystems {
+class UnityEngine__EventSystems__PointerInputModule__MouseState;
+}
+namespace UnityEngine::EventSystems {
+class UnityEngine__EventSystems__PointerInputModule__ButtonState;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -124,8 +133,7 @@ constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModu
 /// @brief Method set_button addr 0x2c23cdc size 0x8 virtual false final false
  void set_button(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton value) ;
 
-// Ctor Parameters []
-explicit UnityEngine__EventSystems__PointerInputModule__ButtonState() ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__ButtonState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c23ce4 size 0x8 virtual false final false
  void _ctor() ;
@@ -197,8 +205,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::EventSystems::UnityE
 /// @brief Method SetButtonState addr 0x2c23278 size 0x38 virtual false final false
  void SetButtonState(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton button, UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData data) ;
 
-// Ctor Parameters []
-explicit UnityEngine__EventSystems__PointerInputModule__MouseState() ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c23c48 size 0x7c virtual false final false
  void _ctor() ;
@@ -270,8 +277,7 @@ constexpr UnityEngine::EventSystems::PointerEventData __get_buttonData() const;
 /// @brief Method ReleasedThisFrame addr 0x2c23e68 size 0x14 virtual false final false
  bool ReleasedThisFrame() ;
 
-// Ctor Parameters []
-explicit UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData() ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__PointerInputModule__MouseButtonEventData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c24014 size 0x8 virtual false final false
  void _ctor() ;
@@ -400,8 +406,7 @@ static bool ShouldStartDrag(UnityEngine::Vector2 pressPos, UnityEngine::Vector2 
 /// @brief Method DeselectIfSelectionChanged addr 0x2c23ab8 size 0xec virtual false final false
  void DeselectIfSelectionChanged(UnityEngine::GameObject currentOverGo, UnityEngine::EventSystems::BaseEventData pointerEvent) ;
 
-// Ctor Parameters []
-explicit PointerInputModule() ;
+static UnityEngine::EventSystems::PointerInputModule New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c23ba4 size 0xa4 virtual false final false
  void _ctor() ;

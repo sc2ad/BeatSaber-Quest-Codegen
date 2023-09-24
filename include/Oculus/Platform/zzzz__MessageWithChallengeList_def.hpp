@@ -13,7 +13,7 @@ class MessageWithChallengeList;
 // Type: Oculus.Platform::MessageWithChallengeList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4439 }), TypeDefinitionIndex(TypeDefinitionIndex(13402))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4439 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13402))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13226))
 // CS Name: Oculus.Platform.MessageWithChallengeList
 class CORDL_TYPE MessageWithChallengeList : public Oculus::Platform::Message_1<Oculus::Platform::Models::ChallengeList> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithChallengeList(void* ptr) noexcept : Oculus::Platfo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithChallengeList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithChallengeList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e320 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

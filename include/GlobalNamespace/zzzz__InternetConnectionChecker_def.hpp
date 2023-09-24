@@ -3,12 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__InternetConnectionChecker___IsConnectedToInternetAsync_d__0;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -17,9 +23,6 @@ struct TaskAwaiter_1;
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -152,8 +155,7 @@ constexpr explicit InternetConnectionChecker(void* ptr) noexcept : ::bs_hook::Il
 /// @brief Method IsConnectedToInternetAsync addr 0x21a1a10 size 0xec virtual false final false
 static System::Threading::Tasks::Task_1<bool> IsConnectedToInternetAsync(System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters []
-explicit InternetConnectionChecker() ;
+static GlobalNamespace::InternetConnectionChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a1afc size 0x8 virtual false final false
  void _ctor() ;

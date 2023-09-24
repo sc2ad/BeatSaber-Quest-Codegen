@@ -6,16 +6,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class SerializationBinder;
+class IFormatterConverter;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoInit;
+class SerObjectInfoCache;
+}
+namespace System::Runtime::Serialization {
+class SerializationBinder;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
@@ -23,20 +35,8 @@ class ISerializationSurrogate;
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectWriter;
 }
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoCache;
-}
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
-}
-namespace System {
-class Type;
+class SerObjectInfoInit;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -189,8 +189,7 @@ constexpr ::StringW __get_binderAssemblyString() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit WriteObjectInfo() ;
+static System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x235bce0 size 0x8 virtual false final false
  void _ctor() ;

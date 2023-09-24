@@ -2,26 +2,26 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
 namespace UnityEngine {
 class Transform;
-}
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
 class SongTimeFixedUpdateController;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+struct BasicBeatmapEventType;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -201,8 +201,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method HandleBeatmapEvent addr 0x2267094 size 0x7c virtual false final false
  void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
-// Ctor Parameters []
-explicit PhysicsPositionsMovementEventEffect() ;
+static GlobalNamespace::PhysicsPositionsMovementEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2267110 size 0x7c virtual false final false
  void _ctor() ;

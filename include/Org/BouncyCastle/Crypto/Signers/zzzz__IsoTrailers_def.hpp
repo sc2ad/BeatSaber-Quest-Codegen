@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -105,8 +105,7 @@ static int32_t GetTrailer(Org::BouncyCastle::Crypto::IDigest digest) ;
 /// @brief Method NoTrailerAvailable addr 0xec0d88 size 0x154 virtual false final false
 static bool NoTrailerAvailable(Org::BouncyCastle::Crypto::IDigest digest) ;
 
-// Ctor Parameters []
-explicit IsoTrailers() ;
+static Org::BouncyCastle::Crypto::Signers::IsoTrailers New_ctor() ;
 
 /// @brief Method .ctor addr 0xec4eb0 size 0x8 virtual false final false
  void _ctor() ;

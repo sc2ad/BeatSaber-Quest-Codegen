@@ -3,19 +3,19 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
 class BeatmapLevelCollectionSO;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelCollection;
 }
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
 namespace UnityEngine {
 class Sprite;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -146,8 +146,7 @@ constexpr GlobalNamespace::BeatmapLevelCollectionSO __get__beatmapLevelCollectio
 /// @brief Method get_beatmapLevelCollection addr 0x21e5408 size 0x8 virtual true final true
  GlobalNamespace::IBeatmapLevelCollection get_beatmapLevelCollection() ;
 
-// Ctor Parameters []
-explicit BeatmapLevelPackSO() ;
+static GlobalNamespace::BeatmapLevelPackSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e5410 size 0x8 virtual false final false
  void _ctor() ;

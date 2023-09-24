@@ -5,14 +5,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class OVRManager;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRHeadsetEmulator__OpMode;
+}
 namespace UnityEngine {
 struct KeyCode;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct CursorLockMode;
@@ -74,6 +77,8 @@ __AlwaysOn = 2,
 constexpr operator __GlobalNamespace__OVRHeadsetEmulator__OpMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRHeadsetEmulator__OpMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -243,8 +248,7 @@ constexpr UnityEngine::CursorLockMode __get_previousCursorLockMode() const;
 /// @brief Method IsTweakingPitch addr 0x25bc898 size 0x7c virtual false final false
  bool IsTweakingPitch() ;
 
-// Ctor Parameters []
-explicit OVRHeadsetEmulator() ;
+static GlobalNamespace::OVRHeadsetEmulator New_ctor() ;
 
 /// @brief Method .ctor addr 0x25bc914 size 0xc8 virtual false final false
  void _ctor() ;

@@ -22,7 +22,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11077)), TypeDefinitionIndex(TypeDefinitionIndex(11079))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11079)), TypeDefinitionIndex(TypeDefinitionIndex(11077))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11077), inst: 5938 })
 // CS Name: Zenject.Installer`5
 class CORDL_TYPE Installer_5<TParam1,TParam2,TParam3,TParam4,TDerived> : public Zenject::InstallerBase {
@@ -64,8 +64,7 @@ constexpr explicit Installer_5(void* ptr) noexcept : Zenject::InstallerBase(ptr)
 /// @brief Method Install addr 0x0 size 0xffffffffffffffff virtual false final false
 static void Install(Zenject::DiContainer container, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) ;
 
-// Ctor Parameters []
-explicit Installer_5() ;
+static Zenject::Installer_5<TParam1,TParam2,TParam3,TParam4,TDerived> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

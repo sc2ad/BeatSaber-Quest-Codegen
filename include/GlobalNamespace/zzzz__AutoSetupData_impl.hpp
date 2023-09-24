@@ -41,8 +41,10 @@ constexpr void GlobalNamespace::AutoSetupData::__set_randomSongIfNoneSuggested(b
 constexpr bool GlobalNamespace::AutoSetupData::__get_randomSongIfNoneSuggested() const {
 return ::cordl_internals::getInstanceField<bool, 0x13>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::AutoSetupData::AutoSetupData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AutoSetupData>())) {}
+ GlobalNamespace::AutoSetupData GlobalNamespace::AutoSetupData::New_ctor()  {
+GlobalNamespace::AutoSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AutoSetupData>())};
+return o;
+}
  void GlobalNamespace::AutoSetupData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AutoSetupData>::get(),

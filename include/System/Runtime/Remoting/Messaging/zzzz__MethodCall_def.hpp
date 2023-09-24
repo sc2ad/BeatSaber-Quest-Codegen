@@ -4,44 +4,44 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Type;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
 }
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
 namespace System::Runtime::Remoting {
 class Identity;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IInternalMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
 class CADMethodCallMessage;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
+class IInternalMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -200,20 +200,17 @@ constexpr System::Collections::IDictionary __get_InternalProperties() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit MethodCall(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::Remoting::Messaging::MethodCall New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x233ee5c size 0x98 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "System::Runtime::Remoting::Messaging::CADMethodCallMessage", modifiers: "", def_value: None }]
-explicit MethodCall(System::Runtime::Remoting::Messaging::CADMethodCallMessage msg) ;
+static System::Runtime::Remoting::Messaging::MethodCall New_ctor(System::Runtime::Remoting::Messaging::CADMethodCallMessage msg) ;
 
 /// @brief Method .ctor addr 0x234158c size 0x114 virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::CADMethodCallMessage msg) ;
 
-// Ctor Parameters []
-explicit MethodCall() ;
+static System::Runtime::Remoting::Messaging::MethodCall New_ctor() ;
 
 /// @brief Method .ctor addr 0x233ee50 size 0x8 virtual false final false
  void _ctor() ;

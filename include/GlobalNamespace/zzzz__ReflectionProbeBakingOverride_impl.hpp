@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ReflectionProbeBakingOverride_def.hpp"
+#include "GlobalNamespace/zzzz__ReflectionProbeBakingOverride_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__ReflectionProbeBakingOverride__ActiveStateHandling::GlobalNamespace__ReflectionProbeBakingOverride__ActiveStateHandling(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -100,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ReflectionProbeBakingOverride::ReflectionProbeBakingOverride()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ReflectionProbeBakingOverride>())) {}
+ GlobalNamespace::ReflectionProbeBakingOverride GlobalNamespace::ReflectionProbeBakingOverride::New_ctor()  {
+GlobalNamespace::ReflectionProbeBakingOverride o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ReflectionProbeBakingOverride>())};
+return o;
+}
  void GlobalNamespace::ReflectionProbeBakingOverride::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ReflectionProbeBakingOverride>::get(),

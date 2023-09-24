@@ -6,10 +6,10 @@ namespace UnityEngine {
 struct UnityEngine__ParticleSystem__EmitParams;
 }
 namespace UnityEngine {
-class ParticleSystem;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,8 +102,7 @@ constexpr UnityEngine::UnityEngine__ParticleSystem__EmitParams __get__explosionP
 /// @brief Method SpawnExplosion addr 0x224dac4 size 0xbc virtual false final false
  void SpawnExplosion(UnityEngine::Vector3 pos) ;
 
-// Ctor Parameters []
-explicit BombExplosionEffect() ;
+static GlobalNamespace::BombExplosionEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x224db80 size 0x14 virtual false final false
  void _ctor() ;

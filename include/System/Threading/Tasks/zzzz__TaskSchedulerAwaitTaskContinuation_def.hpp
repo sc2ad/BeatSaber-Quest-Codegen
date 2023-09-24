@@ -7,13 +7,16 @@ template<typename T>
 class Action_1;
 }
 namespace System::Threading::Tasks {
-class Task;
+class System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c;
 }
 namespace System::Threading::Tasks {
 class TaskScheduler;
 }
 namespace System {
 class Action;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -79,8 +82,7 @@ static System::Action_1<::bs_hook::Il2CppWrapperType> __get___9__2_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c() ;
+static System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24bdd54 size 0x8 virtual false final false
  void _ctor() ;
@@ -145,8 +147,7 @@ constexpr System::Threading::Tasks::TaskScheduler __get_m_scheduler() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "scheduler", ty: "System::Threading::Tasks::TaskScheduler", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "flowExecutionContext", ty: "bool", modifiers: "", def_value: None }]
-explicit TaskSchedulerAwaitTaskContinuation(System::Threading::Tasks::TaskScheduler scheduler, System::Action action, bool flowExecutionContext) ;
+static System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation New_ctor(System::Threading::Tasks::TaskScheduler scheduler, System::Action action, bool flowExecutionContext) ;
 
 /// @brief Method .ctor addr 0x24b938c size 0x30 virtual false final false
  void _ctor(System::Threading::Tasks::TaskScheduler scheduler, System::Action action, bool flowExecutionContext) ;

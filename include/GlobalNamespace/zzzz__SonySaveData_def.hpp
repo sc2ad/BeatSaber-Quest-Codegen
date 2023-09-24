@@ -6,11 +6,11 @@
 namespace Zenject {
 class ITickable;
 }
-namespace GlobalNamespace {
-class ISaveData;
-}
 namespace Zenject {
 class TickableManager;
+}
+namespace GlobalNamespace {
+class ISaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -100,8 +100,7 @@ static void Initialize() ;
 /// @brief Method Tick addr 0x1f7dea4 size 0x18 virtual true final true
  void Tick() ;
 
-// Ctor Parameters []
-explicit SonySaveData() ;
+static GlobalNamespace::SonySaveData New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7debc size 0x8 virtual false final false
  void _ctor() ;

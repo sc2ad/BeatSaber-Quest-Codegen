@@ -10,10 +10,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct CollisionDetectionMode;
 }
 namespace UnityEngine {
-struct CollisionDetectionMode;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -138,8 +138,7 @@ constexpr explicit Rigidbody(void* ptr) noexcept : UnityEngine::Component(ptr) {
 /// @brief Method AddForceAtPosition addr 0x2b9f438 size 0x8 virtual false final false
  void AddForceAtPosition(UnityEngine::Vector3 force, UnityEngine::Vector3 position) ;
 
-// Ctor Parameters []
-explicit Rigidbody() ;
+static UnityEngine::Rigidbody New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b9f440 size 0x8 virtual false final false
  void _ctor() ;

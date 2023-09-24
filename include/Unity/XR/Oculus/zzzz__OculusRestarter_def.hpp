@@ -5,21 +5,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+class Coroutine;
+}
+namespace Unity::XR::Oculus {
+class Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22;
+}
 namespace System {
 class Action;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine {
-class Coroutine;
+namespace Unity::XR::Oculus {
+class Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {
@@ -116,8 +122,7 @@ constexpr Unity::XR::Oculus::OculusRestarter __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22(int32_t __1__state) ;
+static Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___PauseAndRestartCoroutine_d__22 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2ae2898 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -229,8 +234,7 @@ constexpr bool __get_shouldRestart() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23(int32_t __1__state) ;
+static Unity::XR::Oculus::Unity__XR__Oculus__OculusRestarter___RestartCoroutine_d__23 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2ae293c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -404,8 +408,7 @@ static Unity::XR::Oculus::OculusRestarter get_Instance() ;
 /// @brief Method RestartCoroutine addr 0x2ae28c0 size 0x7c virtual false final false
  System::Collections::IEnumerator RestartCoroutine(bool shouldRestart) ;
 
-// Ctor Parameters []
-explicit OculusRestarter() ;
+static Unity::XR::Oculus::OculusRestarter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae2964 size 0x8 virtual false final false
  void _ctor() ;

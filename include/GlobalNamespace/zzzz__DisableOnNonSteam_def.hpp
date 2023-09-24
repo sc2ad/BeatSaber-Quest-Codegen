@@ -50,8 +50,7 @@ constexpr explicit DisableOnNonSteam(void* ptr) noexcept : UnityEngine::MonoBeha
 /// @brief Method Awake addr 0x2115b24 size 0x24 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit DisableOnNonSteam() ;
+static GlobalNamespace::DisableOnNonSteam New_ctor() ;
 
 /// @brief Method .ctor addr 0x2115b48 size 0x8 virtual false final false
  void _ctor() ;

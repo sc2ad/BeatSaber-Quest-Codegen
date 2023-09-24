@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemWriter_def.hpp"
-#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
+#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::IO::Pem::PemWriter._ctor
 template<>
 
@@ -140,8 +140,10 @@ constexpr void Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__set_buf(::Arr
 constexpr ::ArrayW<char16_t> Org::BouncyCastle::Utilities::IO::Pem::PemWriter::__get_buf() const {
 return ::cordl_internals::getInstanceField<::ArrayW<char16_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::IO::Pem::PemWriter::PemWriter(System::IO::TextWriter writer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PemWriter>(writer))) {}
+ Org::BouncyCastle::Utilities::IO::Pem::PemWriter Org::BouncyCastle::Utilities::IO::Pem::PemWriter::New_ctor(System::IO::TextWriter writer)  {
+Org::BouncyCastle::Utilities::IO::Pem::PemWriter o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::Pem::PemWriter>(writer))};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::Pem::PemWriter::_ctor(System::IO::TextWriter writer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::Pem::PemWriter>::get(),

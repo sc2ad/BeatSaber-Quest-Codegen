@@ -5,15 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class AndroidJavaObject;
+namespace UnityEngine::Android {
+class UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback;
 }
 namespace UnityEngine::Android {
-class AndroidAssetPackInfo;
+class UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback;
+}
+namespace UnityEngine::Android {
+class UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback;
+}
+namespace UnityEngine {
+class AndroidJavaObject;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine::Android {
+class AndroidAssetPackInfo;
 }
 namespace UnityEngine::Android {
 class AndroidAssetPackUseMobileDataRequestResult;
@@ -99,8 +108,7 @@ constexpr ::ArrayW<::StringW> __get_m_AssetPacks() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Action_1<UnityEngine::Android::AndroidAssetPackInfo>", modifiers: "", def_value: None }, CppParam { name: "assetPacks", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback(System::Action_1<UnityEngine::Android::AndroidAssetPackInfo> callback, ::ArrayW<::StringW> assetPacks) ;
+static UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback New_ctor(System::Action_1<UnityEngine::Android::AndroidAssetPackInfo> callback, ::ArrayW<::StringW> assetPacks) ;
 
 /// @brief Method .ctor addr 0x2b17184 size 0x84 virtual false final false
  void _ctor(System::Action_1<UnityEngine::Android::AndroidAssetPackInfo> callback, ::ArrayW<::StringW> assetPacks) ;
@@ -163,8 +171,7 @@ constexpr System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult>", modifiers: "", def_value: None }]
-explicit UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback(System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult> callback) ;
+static UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback New_ctor(System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult> callback) ;
 
 /// @brief Method .ctor addr 0x2b1731c size 0x80 virtual false final false
  void _ctor(System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult> callback) ;
@@ -245,8 +252,7 @@ constexpr int64_t __get_m_Size() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Action_2<uint64_t,::ArrayW<UnityEngine::Android::AndroidAssetPackState>>", modifiers: "", def_value: None }, CppParam { name: "assetPacks", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback(System::Action_2<uint64_t,::ArrayW<UnityEngine::Android::AndroidAssetPackState>> callback, ::ArrayW<::StringW> assetPacks) ;
+static UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback New_ctor(System::Action_2<uint64_t,::ArrayW<UnityEngine::Android::AndroidAssetPackState>> callback, ::ArrayW<::StringW> assetPacks) ;
 
 /// @brief Method .ctor addr 0x2b17428 size 0xf8 virtual false final false
  void _ctor(System::Action_2<uint64_t,::ArrayW<UnityEngine::Android::AndroidAssetPackState>> callback, ::ArrayW<::StringW> assetPacks) ;

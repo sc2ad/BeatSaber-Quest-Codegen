@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DefaultTlsSrpGroupVerifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpGroupVerifier_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpGroupVerifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier._ctor
 template<>
 
@@ -105,8 +105,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::__set
 constexpr System::Collections::IList Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::__get_mGroups() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::DefaultTlsSrpGroupVerifier()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsSrpGroupVerifier>())) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier>::get(),
@@ -116,8 +118,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "groups", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::DefaultTlsSrpGroupVerifier(System::Collections::IList groups)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultTlsSrpGroupVerifier>(groups))) {}
+ Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::New_ctor(System::Collections::IList groups)  {
+Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier>(groups))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::_ctor(System::Collections::IList groups)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier>::get(),

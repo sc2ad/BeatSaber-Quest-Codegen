@@ -7,16 +7,16 @@ namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-class SceneStartHandler;
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class SceneStartHandler;
 }
 namespace System {
 template<typename T>
@@ -167,8 +167,7 @@ constexpr bool __get__sceneSyncStarted() const;
 /// @brief Method HandleSceneSetupDidReceiveTooLate addr 0x2211e94 size 0x4c virtual false final false
  void HandleSceneSetupDidReceiveTooLate(::StringW sessionGameId) ;
 
-// Ctor Parameters []
-explicit SceneStartSyncController() ;
+static GlobalNamespace::SceneStartSyncController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2211ee0 size 0x8 virtual false final false
  void _ctor() ;

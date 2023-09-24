@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnyAttribute_def.hpp"
-#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContentProcessing_def.hpp"
+#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::XmlSchemaAnyAttribute.set_ProcessContents
 template<>
 
@@ -90,8 +90,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, targetNamespace);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaAnyAttribute::XmlSchemaAnyAttribute()  : System::Xml::Schema::XmlSchemaAnnotated(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaAnyAttribute>())) {}
+ System::Xml::Schema::XmlSchemaAnyAttribute System::Xml::Schema::XmlSchemaAnyAttribute::New_ctor()  {
+System::Xml::Schema::XmlSchemaAnyAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaAnyAttribute>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaAnyAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaAnyAttribute>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerLobbyPermissionConfigurationNetSerializable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable.get_playersPermission
 template<>
 
@@ -175,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable, false>(const_cast<void*>(instance), ___internal_method, playersPermission);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::PlayersLobbyPermissionConfigurationNetSerializable()  : GlobalNamespace::PoolableSerializable(THROW_UNLESS(::il2cpp_utils::New<PlayersLobbyPermissionConfigurationNetSerializable>())) {}
+ GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::New_ctor()  {
+GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable>())};
+return o;
+}
  void GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable>::get(),

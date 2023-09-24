@@ -4,37 +4,40 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class BoxCuttableBySaber;
-}
-namespace GlobalNamespace {
-class INoteMirrorable;
-}
-namespace GlobalNamespace {
-struct NoteVisualModifierType;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__NoteData__GameplayType;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class IGameNoteMirrorable;
-}
-namespace UnityEngine {
-struct Quaternion;
+class NoteMovement;
 }
 namespace GlobalNamespace {
 class Saber;
 }
 namespace GlobalNamespace {
-class NoteMovement;
+struct GlobalNamespace__NoteData__GameplayType;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class BoxCuttableBySaber;
+}
+namespace GlobalNamespace {
+class IGameNoteMirrorable;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+struct NoteVisualModifierType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__TutorialNoteController__Pool;
+}
+namespace GlobalNamespace {
+class INoteMirrorable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -168,8 +171,7 @@ constexpr float_t __get__cutAngleTolerance() const;
 /// @brief Method Pause addr 0x2244138 size 0x10 virtual true final false
  void Pause(bool pause) ;
 
-// Ctor Parameters []
-explicit TutorialNoteController() ;
+static GlobalNamespace::TutorialNoteController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2244148 size 0x4 virtual false final false
  void _ctor() ;
@@ -181,7 +183,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4903)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2724 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2724 }), TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4903))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4902))
 // CS Name: TutorialNoteController::Pool
 class CORDL_TYPE GlobalNamespace__TutorialNoteController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::TutorialNoteController> {
@@ -220,8 +222,7 @@ constexpr explicit GlobalNamespace__TutorialNoteController__Pool(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__TutorialNoteController__Pool() ;
+static GlobalNamespace::GlobalNamespace__TutorialNoteController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x224414c size 0x48 virtual false final false
  void _ctor() ;

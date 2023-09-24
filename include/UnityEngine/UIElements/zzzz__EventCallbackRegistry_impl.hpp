@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__EventCallbackRegistry_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PropagationPhase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventCallbackList_def.hpp"
 #include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventCallbackListPool_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PropagationPhase_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventCallbackList_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TrickleDown_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventCallbackListPool_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::EventCallbackRegistry.GetCallbackList
 template<>
 
@@ -204,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, toRelease);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::EventCallbackRegistry::EventCallbackRegistry()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventCallbackRegistry>())) {}
+ UnityEngine::UIElements::EventCallbackRegistry UnityEngine::UIElements::EventCallbackRegistry::New_ctor()  {
+UnityEngine::UIElements::EventCallbackRegistry o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::EventCallbackRegistry>())};
+return o;
+}
  void UnityEngine::UIElements::EventCallbackRegistry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::EventCallbackRegistry>::get(),

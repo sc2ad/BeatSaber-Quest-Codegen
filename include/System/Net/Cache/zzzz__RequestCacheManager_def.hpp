@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Net::Cache {
-class RequestCacheBinding;
+class RequestCachingSectionInternal;
 }
 namespace System::Net::Cache {
-class RequestCachingSectionInternal;
+class RequestCacheBinding;
 }
 // Forward declare root types
 namespace System::Net::Cache {

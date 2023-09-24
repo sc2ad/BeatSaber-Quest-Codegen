@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::UIElements {
-class EventBase;
+class ITextInputField;
 }
 namespace UnityEngine::UIElements {
 class TextEditorEngine;
 }
 namespace UnityEngine::UIElements {
-class ITextInputField;
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -90,8 +90,7 @@ constexpr UnityEngine::UIElements::ITextInputField __get__textInputField_k__Back
 /// @brief Method set_textInputField addr 0x2cbd594 size 0x8 virtual false final false
  void set_textInputField(UnityEngine::UIElements::ITextInputField value) ;
 
-// Ctor Parameters [CppParam { name: "editorEngine", ty: "UnityEngine::UIElements::TextEditorEngine", modifiers: "", def_value: None }, CppParam { name: "textInputField", ty: "UnityEngine::UIElements::ITextInputField", modifiers: "", def_value: None }]
-explicit TextEditorEventHandler(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;
+static UnityEngine::UIElements::TextEditorEventHandler New_ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;
 
 /// @brief Method .ctor addr 0x2cbd59c size 0xc0 virtual false final false
  void _ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;

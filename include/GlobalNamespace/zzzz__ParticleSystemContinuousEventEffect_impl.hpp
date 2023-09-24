@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ParticleSystemContinuousEventEffect_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ParticleSystemContinuousEventEffect.Start
 template<>
@@ -151,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, shouldPlay);
 }
-// Ctor Parameters []
- GlobalNamespace::ParticleSystemContinuousEventEffect::ParticleSystemContinuousEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ParticleSystemContinuousEventEffect>())) {}
+ GlobalNamespace::ParticleSystemContinuousEventEffect GlobalNamespace::ParticleSystemContinuousEventEffect::New_ctor()  {
+GlobalNamespace::ParticleSystemContinuousEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ParticleSystemContinuousEventEffect>())};
+return o;
+}
  void GlobalNamespace::ParticleSystemContinuousEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ParticleSystemContinuousEventEffect>::get(),

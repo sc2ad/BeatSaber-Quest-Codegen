@@ -48,8 +48,7 @@ constexpr explicit InvalidTypeException(void* ptr) noexcept : System::ArgumentEx
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InvalidTypeException(::StringW message) ;
+static LiteNetLib::Utils::InvalidTypeException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2099444 size 0x8 virtual false final false
  void _ctor(::StringW message) ;

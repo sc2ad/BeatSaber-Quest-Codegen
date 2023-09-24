@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Attribute_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::X509Attribute._ctor
 template<>
 
@@ -113,8 +113,10 @@ constexpr void Org::BouncyCastle::X509::X509Attribute::__set_attr(Org::BouncyCas
 constexpr Org::BouncyCastle::Asn1::X509::AttributeX509 Org::BouncyCastle::X509::X509Attribute::__get_attr() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::AttributeX509, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "at", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::X509Attribute::X509Attribute(Org::BouncyCastle::Asn1::Asn1Encodable at)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Attribute>(at))) {}
+ Org::BouncyCastle::X509::X509Attribute Org::BouncyCastle::X509::X509Attribute::New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable at)  {
+Org::BouncyCastle::X509::X509Attribute o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509Attribute>(at))};
+return o;
+}
  void Org::BouncyCastle::X509::X509Attribute::_ctor(Org::BouncyCastle::Asn1::Asn1Encodable at)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509Attribute>::get(),
@@ -124,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, at);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::X509Attribute::X509Attribute(::StringW oid, Org::BouncyCastle::Asn1::Asn1Encodable value)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Attribute>(oid, value))) {}
+ Org::BouncyCastle::X509::X509Attribute Org::BouncyCastle::X509::X509Attribute::New_ctor(::StringW oid, Org::BouncyCastle::Asn1::Asn1Encodable value)  {
+Org::BouncyCastle::X509::X509Attribute o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509Attribute>(oid, value))};
+return o;
+}
  void Org::BouncyCastle::X509::X509Attribute::_ctor(::StringW oid, Org::BouncyCastle::Asn1::Asn1Encodable value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509Attribute>::get(),
@@ -135,8 +139,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oid, value);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::X509Attribute::X509Attribute(::StringW oid, Org::BouncyCastle::Asn1::Asn1EncodableVector value)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Attribute>(oid, value))) {}
+ Org::BouncyCastle::X509::X509Attribute Org::BouncyCastle::X509::X509Attribute::New_ctor(::StringW oid, Org::BouncyCastle::Asn1::Asn1EncodableVector value)  {
+Org::BouncyCastle::X509::X509Attribute o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509Attribute>(oid, value))};
+return o;
+}
  void Org::BouncyCastle::X509::X509Attribute::_ctor(::StringW oid, Org::BouncyCastle::Asn1::Asn1EncodableVector value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509Attribute>::get(),

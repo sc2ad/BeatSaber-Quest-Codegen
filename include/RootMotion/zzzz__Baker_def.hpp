@@ -10,6 +10,9 @@
 namespace UnityEngine {
 class Transform;
 }
+namespace RootMotion {
+struct RootMotion__Baker__Mode;
+}
 namespace UnityEngine {
 class AnimationClip;
 }
@@ -77,6 +80,8 @@ __Realtime = 3,
 constexpr operator __RootMotion__Baker__Mode_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__Baker__Mode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -297,8 +302,7 @@ constexpr float_t __get__clipLength_k__BackingField() const;
 /// @brief Method StopBaking addr 0x11a6a94 size 0x4 virtual false final false
  void StopBaking() ;
 
-// Ctor Parameters []
-explicit Baker() ;
+static RootMotion::Baker New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a6a98 size 0xf8 virtual false final false
  void _ctor() ;

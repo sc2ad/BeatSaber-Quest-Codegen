@@ -9,7 +9,7 @@ class HEU_CookedDataEvent;
 // Type: HoudiniEngineUnity::HEU_CookedDataEvent
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5063 }), TypeDefinitionIndex(TypeDefinitionIndex(9538)), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), TypeDefinitionIndex(TypeDefinitionIndex(9538)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5063 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9544))
 // CS Name: HoudiniEngineUnity.HEU_CookedDataEvent
 class CORDL_TYPE HEU_CookedDataEvent : public UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_CookedEventData> {
@@ -48,8 +48,7 @@ constexpr explicit HEU_CookedDataEvent(void* ptr) noexcept : UnityEngine::Events
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_CookedDataEvent() ;
+static HoudiniEngineUnity::HEU_CookedDataEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdac0c size 0x48 virtual false final false
  void _ctor() ;

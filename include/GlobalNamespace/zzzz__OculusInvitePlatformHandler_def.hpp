@@ -64,8 +64,7 @@ constexpr explicit OculusInvitePlatformHandler(void* ptr) noexcept : ::bs_hook::
 /// @brief Method OpenInvitePanel addr 0x21f3078 size 0x60 virtual true final true
  void OpenInvitePanel() ;
 
-// Ctor Parameters []
-explicit OculusInvitePlatformHandler() ;
+static GlobalNamespace::OculusInvitePlatformHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f30d8 size 0x8 virtual false final false
  void _ctor() ;

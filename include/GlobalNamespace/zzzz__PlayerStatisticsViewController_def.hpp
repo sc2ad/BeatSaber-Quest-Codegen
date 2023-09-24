@@ -5,23 +5,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-class AppStaticSettingsSO;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
+namespace HMUI {
+class TextSegmentedControl;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__PlayerAllOverallStatsData__PlayerOverallStatsData;
 }
+namespace GlobalNamespace {
+class AppStaticSettingsSO;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace HMUI {
-class TextSegmentedControl;
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerStatisticsViewController__StatsScopeData;
 }
 namespace HMUI {
 class SegmentedControl;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace System {
 template<typename TResult>
@@ -261,8 +264,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__PlayerStatisticsViewControl
 /// @brief Method HandleStatsScopeSegmentedControlDidSelectCell addr 0x217dc3c size 0x50 virtual false final false
  void HandleStatsScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl segmentedControl, int32_t cellIdx) ;
 
-// Ctor Parameters []
-explicit PlayerStatisticsViewController() ;
+static GlobalNamespace::PlayerStatisticsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217dc8c size 0x8 virtual false final false
  void _ctor() ;

@@ -53,8 +53,7 @@ constexpr explicit FocusEvent(void* ptr) noexcept : UnityEngine::UIElements::Foc
 /// @brief Method PreDispatch addr 0x2cdae10 size 0xa8 virtual true final false
  void PreDispatch(UnityEngine::UIElements::IPanel panel) ;
 
-// Ctor Parameters []
-explicit FocusEvent() ;
+static UnityEngine::UIElements::FocusEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdaeb8 size 0x48 virtual false final false
  void _ctor() ;

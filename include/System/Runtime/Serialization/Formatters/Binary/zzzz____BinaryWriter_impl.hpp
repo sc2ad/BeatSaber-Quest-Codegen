@@ -1,30 +1,30 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryMethodReturn_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMap_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveUnTyped_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveTyped_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__WriteObjectInfo_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryMethodCall_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMapTyped_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberReference_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__NameInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/IO/zzzz__BinaryWriter_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssembly_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMap_def.hpp"
 #include "System/Runtime/Serialization/Formatters/zzzz__FormatterTypeStyle_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectWriter_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObject_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectString_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryArray_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObject_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssembly_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveTyped_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/IO/zzzz__BinaryWriter_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberReference_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectWithMapTyped_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectWriter_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__WriteObjectInfo_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryMethodCall_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryMethodReturn_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectNull_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__NameInfo_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryObjectString_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberPrimitiveUnTyped_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::__BinaryWriter._ctor
 template<>
 
@@ -950,8 +950,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::__BinaryWrite
 constexpr System::Runtime::Serialization::Formatters::Binary::BinaryAssembly System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__get_binaryAssembly() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::Formatters::Binary::BinaryAssembly, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "sout", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "objectWriter", ty: "System::Runtime::Serialization::Formatters::Binary::ObjectWriter", modifiers: "", def_value: None }, CppParam { name: "formatterTypeStyle", ty: "System::Runtime::Serialization::Formatters::FormatterTypeStyle", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__BinaryWriter(System::IO::Stream sout, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<__BinaryWriter>(sout, objectWriter, formatterTypeStyle))) {}
+ System::Runtime::Serialization::Formatters::Binary::__BinaryWriter System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::New_ctor(System::IO::Stream sout, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle)  {
+System::Runtime::Serialization::Formatters::Binary::__BinaryWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter>(sout, objectWriter, formatterTypeStyle))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::_ctor(System::IO::Stream sout, System::Runtime::Serialization::Formatters::Binary::ObjectWriter objectWriter, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter>::get(),

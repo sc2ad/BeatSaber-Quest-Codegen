@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: System::Threading::System__Threading__CancellationToken____c._ctor
 template<>
 
@@ -45,8 +46,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
  System::Threading::System__Threading__CancellationToken____c System::Threading::System__Threading__CancellationToken____c::__get___9()  {
 return ::cordl_internals::getStaticField<System::Threading::System__Threading__CancellationToken____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationToken____c>::get>();
 }
-// Ctor Parameters []
- System::Threading::System__Threading__CancellationToken____c::System__Threading__CancellationToken____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__CancellationToken____c>())) {}
+ System::Threading::System__Threading__CancellationToken____c System::Threading::System__Threading__CancellationToken____c::New_ctor()  {
+System::Threading::System__Threading__CancellationToken____c o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::System__Threading__CancellationToken____c>())};
+return o;
+}
  void System::Threading::System__Threading__CancellationToken____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationToken____c>::get(),

@@ -51,8 +51,7 @@ constexpr explicit ExtendedAxisEventData(void* ptr) noexcept : UnityEngine::Even
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
-explicit ExtendedAxisEventData(UnityEngine::EventSystems::EventSystem eventSystem) ;
+static UnityEngine::InputSystem::UI::ExtendedAxisEventData New_ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;
 
 /// @brief Method .ctor addr 0x293bdc8 size 0x8 virtual false final false
  void _ctor(UnityEngine::EventSystems::EventSystem eventSystem) ;

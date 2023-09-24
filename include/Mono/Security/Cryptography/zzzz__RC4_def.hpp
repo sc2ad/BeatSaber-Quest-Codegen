@@ -72,8 +72,7 @@ static ::ArrayW<System::Security::Cryptography::KeySizes> __get_s_legalKeySizes(
 
 // Methods
 
-// Ctor Parameters []
-explicit RC4() ;
+static Mono::Security::Cryptography::RC4 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2295d08 size 0x7c virtual false final false
  void _ctor() ;

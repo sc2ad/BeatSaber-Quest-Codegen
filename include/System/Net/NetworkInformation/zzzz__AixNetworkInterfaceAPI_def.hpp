@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Net::NetworkInformation {
-class NetworkInterface;
-}
-namespace System::Net::NetworkInformation {
 struct AixIoctlRequest;
-}
-namespace System::Net::NetworkInformation::AixStructs {
-struct ifconf;
 }
 namespace System::Net::NetworkInformation {
 struct AixAddressFamily;
 }
 namespace System::Net::NetworkInformation::AixStructs {
 struct ifreq_mtu;
+}
+namespace System::Net::NetworkInformation {
+class NetworkInterface;
+}
+namespace System::Net::NetworkInformation::AixStructs {
+struct ifconf;
 }
 namespace System::Net::NetworkInformation::AixStructs {
 struct ifreq_flags;
@@ -92,8 +92,7 @@ static void ByteArrayCopy(void* dst, void* src, int32_t elements) ;
 /// @brief Method GetAllNetworkInterfaces addr 0x285a07c size 0xe8c virtual true final false
  ::ArrayW<System::Net::NetworkInformation::NetworkInterface> GetAllNetworkInterfaces() ;
 
-// Ctor Parameters []
-explicit AixNetworkInterfaceAPI() ;
+static System::Net::NetworkInformation::AixNetworkInterfaceAPI New_ctor() ;
 
 /// @brief Method .ctor addr 0x285b174 size 0x8 virtual false final false
  void _ctor() ;

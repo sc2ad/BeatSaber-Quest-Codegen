@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
 namespace RootMotion::FinalIK {
-class IKSolverFABRIKRoot;
+class IKSolver;
 }
 namespace RootMotion::FinalIK {
-class IKSolver;
+class IKSolverFABRIKRoot;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -77,8 +77,7 @@ constexpr RootMotion::FinalIK::IKSolverFABRIKRoot __get_solver() const;
 /// @brief Method GetIKSolver addr 0x11c4454 size 0x8 virtual true final false
  RootMotion::FinalIK::IKSolver GetIKSolver() ;
 
-// Ctor Parameters []
-explicit FABRIKRoot() ;
+static RootMotion::FinalIK::FABRIKRoot New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c445c size 0x68 virtual false final false
  void _ctor() ;

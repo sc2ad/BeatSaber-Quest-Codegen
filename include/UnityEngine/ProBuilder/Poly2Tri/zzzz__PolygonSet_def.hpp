@@ -72,14 +72,12 @@ constexpr System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri
 
 // Methods
 
-// Ctor Parameters []
-explicit PolygonSet() ;
+static UnityEngine::ProBuilder::Poly2Tri::PolygonSet New_ctor() ;
 
 /// @brief Method .ctor addr 0x299b884 size 0x7c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "poly", ty: "UnityEngine::ProBuilder::Poly2Tri::Polygon", modifiers: "", def_value: None }]
-explicit PolygonSet(UnityEngine::ProBuilder::Poly2Tri::Polygon poly) ;
+static UnityEngine::ProBuilder::Poly2Tri::PolygonSet New_ctor(UnityEngine::ProBuilder::Poly2Tri::Polygon poly) ;
 
 /// @brief Method .ctor addr 0x299b900 size 0x104 virtual false final false
  void _ctor(UnityEngine::ProBuilder::Poly2Tri::Polygon poly) ;

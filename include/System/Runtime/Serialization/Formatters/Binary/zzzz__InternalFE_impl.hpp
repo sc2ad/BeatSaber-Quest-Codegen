@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalFE_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalSerializerTypeE_def.hpp"
-#include "System/Runtime/Serialization/Formatters/zzzz__FormatterTypeStyle_def.hpp"
 #include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterTypeStyle_def.hpp"
 #include "System/Runtime/Serialization/Formatters/zzzz__TypeFilterLevel_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::InternalFE._ctor
 template<>
@@ -45,8 +45,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::InternalFE::_
 constexpr System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE System::Runtime::Serialization::Formatters::Binary::InternalFE::__get_FEserializerTypeEnum() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::InternalFE::InternalFE()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InternalFE>())) {}
+ System::Runtime::Serialization::Formatters::Binary::InternalFE System::Runtime::Serialization::Formatters::Binary::InternalFE::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::InternalFE o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::InternalFE>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::InternalFE::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::InternalFE>::get(),

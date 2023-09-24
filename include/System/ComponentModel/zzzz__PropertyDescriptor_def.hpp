@@ -5,26 +5,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Attribute;
-}
 namespace System::ComponentModel {
 class TypeConverter;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections {
-class IList;
 }
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::ComponentModel {
-class MemberDescriptor;
+namespace System {
+class Attribute;
 }
 namespace System {
 class EventArgs;
+}
+namespace System {
+class Type;
+}
+namespace System::ComponentModel {
+class MemberDescriptor;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -114,14 +114,12 @@ constexpr int32_t __get__editorCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit PropertyDescriptor(::StringW name, ::ArrayW<System::Attribute> attrs) ;
+static System::ComponentModel::PropertyDescriptor New_ctor(::StringW name, ::ArrayW<System::Attribute> attrs) ;
 
 /// @brief Method .ctor addr 0x277f7e4 size 0x8 virtual false final false
  void _ctor(::StringW name, ::ArrayW<System::Attribute> attrs) ;
 
-// Ctor Parameters [CppParam { name: "descr", ty: "System::ComponentModel::MemberDescriptor", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit PropertyDescriptor(System::ComponentModel::MemberDescriptor descr, ::ArrayW<System::Attribute> attrs) ;
+static System::ComponentModel::PropertyDescriptor New_ctor(System::ComponentModel::MemberDescriptor descr, ::ArrayW<System::Attribute> attrs) ;
 
 /// @brief Method .ctor addr 0x277d95c size 0x8 virtual false final false
  void _ctor(System::ComponentModel::MemberDescriptor descr, ::ArrayW<System::Attribute> attrs) ;

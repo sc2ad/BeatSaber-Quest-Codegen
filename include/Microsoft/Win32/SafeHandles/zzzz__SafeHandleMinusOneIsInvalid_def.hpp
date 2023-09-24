@@ -52,8 +52,7 @@ constexpr explicit SafeHandleMinusOneIsInvalid(void* ptr) noexcept : System::Run
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
-explicit SafeHandleMinusOneIsInvalid(bool ownsHandle) ;
+static Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid New_ctor(bool ownsHandle) ;
 
 /// @brief Method .ctor addr 0x22bec9c size 0x44 virtual false final false
  void _ctor(bool ownsHandle) ;

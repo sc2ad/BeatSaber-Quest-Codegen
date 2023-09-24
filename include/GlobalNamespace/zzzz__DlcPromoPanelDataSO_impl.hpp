@@ -1,10 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo.get_previewBeatmapLevelPack
 template<>
@@ -183,8 +184,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo>())) {}
+ GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo>::get(),
@@ -339,8 +342,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DlcPromoPanelDataSO::DlcPromoPanelDataSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<DlcPromoPanelDataSO>())) {}
+ GlobalNamespace::DlcPromoPanelDataSO GlobalNamespace::DlcPromoPanelDataSO::New_ctor()  {
+GlobalNamespace::DlcPromoPanelDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DlcPromoPanelDataSO>())};
+return o;
+}
  void GlobalNamespace::DlcPromoPanelDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DlcPromoPanelDataSO>::get(),

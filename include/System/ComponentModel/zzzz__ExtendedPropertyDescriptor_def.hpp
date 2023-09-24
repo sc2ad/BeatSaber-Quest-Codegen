@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::ComponentModel {
-class ReflectPropertyDescriptor;
-}
-namespace System::ComponentModel {
 class IExtenderProvider;
 }
 namespace System {
 class Attribute;
+}
+namespace System::ComponentModel {
+class ReflectPropertyDescriptor;
 }
 namespace System {
 class Type;
@@ -88,8 +88,7 @@ constexpr System::ComponentModel::IExtenderProvider __get__provider() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "extenderInfo", ty: "System::ComponentModel::ReflectPropertyDescriptor", modifiers: "", def_value: None }, CppParam { name: "receiverType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "System::ComponentModel::IExtenderProvider", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit ExtendedPropertyDescriptor(System::ComponentModel::ReflectPropertyDescriptor extenderInfo, System::Type receiverType, System::ComponentModel::IExtenderProvider provider, ::ArrayW<System::Attribute> attributes) ;
+static System::ComponentModel::ExtendedPropertyDescriptor New_ctor(System::ComponentModel::ReflectPropertyDescriptor extenderInfo, System::Type receiverType, System::ComponentModel::IExtenderProvider provider, ::ArrayW<System::Attribute> attributes) ;
 
 /// @brief Method .ctor addr 0x277d70c size 0x250 virtual false final false
  void _ctor(System::ComponentModel::ReflectPropertyDescriptor extenderInfo, System::Type receiverType, System::ComponentModel::IExtenderProvider provider, ::ArrayW<System::Attribute> attributes) ;

@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObjectGenerator;
 }
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObject;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {
@@ -143,14 +143,12 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "privKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit Pkcs8Generator(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey) ;
+static Org::BouncyCastle::OpenSsl::Pkcs8Generator New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey) ;
 
 /// @brief Method .ctor addr 0x1048e0c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey) ;
 
-// Ctor Parameters [CppParam { name: "privKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Pkcs8Generator(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, ::StringW algorithm) ;
+static Org::BouncyCastle::OpenSsl::Pkcs8Generator New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, ::StringW algorithm) ;
 
 /// @brief Method .ctor addr 0x1048e34 size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter privKey, ::StringW algorithm) ;

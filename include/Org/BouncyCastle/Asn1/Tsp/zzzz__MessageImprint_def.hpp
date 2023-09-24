@@ -82,14 +82,12 @@ constexpr ::ArrayW<uint8_t> __get_hashedMessage() const;
 /// @brief Method GetInstance addr 0xfebd48 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Tsp::MessageImprint GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit MessageImprint(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Tsp::MessageImprint New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xfebdec size 0xf8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "hashedMessage", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit MessageImprint(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, ::ArrayW<uint8_t> hashedMessage) ;
+static Org::BouncyCastle::Asn1::Tsp::MessageImprint New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, ::ArrayW<uint8_t> hashedMessage) ;
 
 /// @brief Method .ctor addr 0xfebee4 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, ::ArrayW<uint8_t> hashedMessage) ;

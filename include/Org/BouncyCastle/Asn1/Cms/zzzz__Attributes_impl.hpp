@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__Attributes_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__Attribute_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__Attribute_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::Attributes._ctor
 template<>
@@ -96,8 +96,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::Attributes::__set_attributes(Org::B
 constexpr Org::BouncyCastle::Asn1::Asn1Set Org::BouncyCastle::Asn1::Cms::Attributes::__get_attributes() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Set, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::Attributes::Attributes(Org::BouncyCastle::Asn1::Asn1Set attributes)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Attributes>(attributes))) {}
+ Org::BouncyCastle::Asn1::Cms::Attributes Org::BouncyCastle::Asn1::Cms::Attributes::New_ctor(Org::BouncyCastle::Asn1::Asn1Set attributes)  {
+Org::BouncyCastle::Asn1::Cms::Attributes o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::Attributes>(attributes))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::Attributes::_ctor(Org::BouncyCastle::Asn1::Asn1Set attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::Attributes>::get(),
@@ -107,8 +109,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, attributes);
 }
-// Ctor Parameters [CppParam { name: "v", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::Attributes::Attributes(Org::BouncyCastle::Asn1::Asn1EncodableVector v)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<Attributes>(v))) {}
+ Org::BouncyCastle::Asn1::Cms::Attributes Org::BouncyCastle::Asn1::Cms::Attributes::New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector v)  {
+Org::BouncyCastle::Asn1::Cms::Attributes o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::Attributes>(v))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::Attributes::_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector v)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::Attributes>::get(),

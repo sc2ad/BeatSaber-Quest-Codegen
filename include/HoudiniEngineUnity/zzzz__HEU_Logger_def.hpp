@@ -85,8 +85,7 @@ static void LogToCookLogsIfOn(::StringW text) ;
 /// @brief Method LogToCookLogsIfOnFormat addr 0x205e634 size 0x64 virtual false final false
 static void LogToCookLogsIfOnFormat(::StringW text, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
-// Ctor Parameters []
-explicit HEU_Logger() ;
+static HoudiniEngineUnity::HEU_Logger New_ctor() ;
 
 /// @brief Method .ctor addr 0x205e72c size 0x8 virtual false final false
  void _ctor() ;

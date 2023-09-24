@@ -73,8 +73,7 @@ constexpr UnityEngine::Vector2 __get_scale() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
-explicit Transform2D(UnityEngine::Vector2 position, float_t rotation, UnityEngine::Vector2 scale) ;
+static UnityEngine::ProBuilder::Transform2D New_ctor(UnityEngine::Vector2 position, float_t rotation, UnityEngine::Vector2 scale) ;
 
 /// @brief Method .ctor addr 0x29e76c0 size 0x50 virtual false final false
  void _ctor(UnityEngine::Vector2 position, float_t rotation, UnityEngine::Vector2 scale) ;

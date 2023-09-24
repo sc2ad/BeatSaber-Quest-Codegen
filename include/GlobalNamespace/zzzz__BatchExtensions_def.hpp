@@ -4,15 +4,15 @@
 #include <cstdint>
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class List_1;
 }
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__BatchExtensions___Batch_d__0_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -22,6 +22,10 @@ class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -206,8 +210,7 @@ constexpr System::Collections::Generic::IEnumerator_1<T> __get___7__wrap1() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BatchExtensions___Batch_d__0_1(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__BatchExtensions___Batch_d__0_1<T> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;

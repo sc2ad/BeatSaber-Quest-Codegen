@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Collections::Generic::KeyNotFoundException::KeyNotFoundException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<KeyNotFoundException>())) {}
+ System::Collections::Generic::KeyNotFoundException System::Collections::Generic::KeyNotFoundException::New_ctor()  {
+System::Collections::Generic::KeyNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Generic::KeyNotFoundException>())};
+return o;
+}
  void System::Collections::Generic::KeyNotFoundException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Generic::KeyNotFoundException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Collections::Generic::KeyNotFoundException::KeyNotFoundException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<KeyNotFoundException>(message))) {}
+ System::Collections::Generic::KeyNotFoundException System::Collections::Generic::KeyNotFoundException::New_ctor(::StringW message)  {
+System::Collections::Generic::KeyNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Generic::KeyNotFoundException>(message))};
+return o;
+}
  void System::Collections::Generic::KeyNotFoundException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Generic::KeyNotFoundException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Collections::Generic::KeyNotFoundException::KeyNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<KeyNotFoundException>(info, context))) {}
+ System::Collections::Generic::KeyNotFoundException System::Collections::Generic::KeyNotFoundException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Collections::Generic::KeyNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Generic::KeyNotFoundException>(info, context))};
+return o;
+}
  void System::Collections::Generic::KeyNotFoundException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Generic::KeyNotFoundException>::get(),

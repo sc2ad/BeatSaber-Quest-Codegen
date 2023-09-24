@@ -3,13 +3,13 @@
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Newtonsoft::Json {
-class JsonReader;
+class JsonWriter;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonReader;
 }
 namespace System {
 class Type;
@@ -88,8 +88,7 @@ constexpr explicit CustomCreationConverter_1(void* ptr) noexcept : Newtonsoft::J
 /// @brief Method get_CanWrite addr 0x0 size 0xffffffffffffffff virtual true final false
  bool get_CanWrite() ;
 
-// Ctor Parameters []
-explicit CustomCreationConverter_1() ;
+static Newtonsoft::Json::Converters::CustomCreationConverter_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

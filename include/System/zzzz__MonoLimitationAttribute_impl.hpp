@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "comment", ty: "::StringW", modifiers: "", def_value: None }]
- System::MonoLimitationAttribute::MonoLimitationAttribute(::StringW comment)  : System::MonoTODOAttribute(THROW_UNLESS(::il2cpp_utils::New<MonoLimitationAttribute>(comment))) {}
+ System::MonoLimitationAttribute System::MonoLimitationAttribute::New_ctor(::StringW comment)  {
+System::MonoLimitationAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::MonoLimitationAttribute>(comment))};
+return o;
+}
  void System::MonoLimitationAttribute::_ctor(::StringW comment)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::MonoLimitationAttribute>::get(),

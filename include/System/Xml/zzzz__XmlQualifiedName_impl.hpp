@@ -2,6 +2,7 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 //  Writing Method size for method: System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate._ctor
 template<>
 
@@ -36,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Xml__XmlQualifiedName__HashCodeOfStringDelegate>(object, method))) {}
+ System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate>(object, method))};
+return o;
+}
  void System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__XmlQualifiedName__HashCodeOfStringDelegate>::get(),
@@ -358,8 +361,10 @@ return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2Cp
  System::Xml::XmlQualifiedName System::Xml::XmlQualifiedName::__get_Empty()  {
 return ::cordl_internals::getStaticField<System::Xml::XmlQualifiedName, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlQualifiedName>::get>();
 }
-// Ctor Parameters []
- System::Xml::XmlQualifiedName::XmlQualifiedName()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlQualifiedName>())) {}
+ System::Xml::XmlQualifiedName System::Xml::XmlQualifiedName::New_ctor()  {
+System::Xml::XmlQualifiedName o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlQualifiedName>())};
+return o;
+}
  void System::Xml::XmlQualifiedName::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlQualifiedName>::get(),
@@ -369,8 +374,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::XmlQualifiedName::XmlQualifiedName(::StringW name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlQualifiedName>(name))) {}
+ System::Xml::XmlQualifiedName System::Xml::XmlQualifiedName::New_ctor(::StringW name)  {
+System::Xml::XmlQualifiedName o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlQualifiedName>(name))};
+return o;
+}
  void System::Xml::XmlQualifiedName::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlQualifiedName>::get(),
@@ -380,8 +387,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::XmlQualifiedName::XmlQualifiedName(::StringW name, ::StringW ns)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlQualifiedName>(name, ns))) {}
+ System::Xml::XmlQualifiedName System::Xml::XmlQualifiedName::New_ctor(::StringW name, ::StringW ns)  {
+System::Xml::XmlQualifiedName o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlQualifiedName>(name, ns))};
+return o;
+}
  void System::Xml::XmlQualifiedName::_ctor(::StringW name, ::StringW ns)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlQualifiedName>::get(),

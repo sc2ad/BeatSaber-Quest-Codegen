@@ -1,16 +1,16 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
+namespace UnityEngine {
+class Mesh;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivableWrapperClass_1;
 }
-namespace UnityEngine {
-class Mesh;
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -73,8 +73,7 @@ constexpr UnityEngine::Mesh __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }]
-explicit Test_Mesh(UnityEngine::Mesh self) ;
+static HoudiniEngineUnity::Test_Mesh New_ctor(UnityEngine::Mesh self) ;
 
 /// @brief Method .ctor addr 0x2072e50 size 0x28 virtual false final false
  void _ctor(UnityEngine::Mesh self) ;

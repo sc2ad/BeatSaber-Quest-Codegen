@@ -47,8 +47,7 @@ constexpr explicit IsUnmanagedAttribute(void* ptr) noexcept : System::Attribute(
 
 // Methods
 
-// Ctor Parameters []
-explicit IsUnmanagedAttribute() ;
+static System::Runtime::CompilerServices::IsUnmanagedAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x25a4d78 size 0x8 virtual false final false
  void _ctor() ;

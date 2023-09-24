@@ -1,21 +1,21 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine::EventSystems {
-struct UnityEngine__EventSystems__PointerEventData__FramePressState;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::EventSystems {
-struct UnityEngine__EventSystems__PointerEventData__InputButton;
+class PointerEventData;
 }
 namespace VRUIControls {
 class ButtonState;
+}
+namespace UnityEngine::EventSystems {
+struct UnityEngine__EventSystems__PointerEventData__InputButton;
+}
+namespace UnityEngine::EventSystems {
+struct UnityEngine__EventSystems__PointerEventData__FramePressState;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -84,8 +84,7 @@ constexpr System::Collections::Generic::List_1<VRUIControls::ButtonState> __get_
 /// @brief Method SetButtonState addr 0x2d3afc8 size 0x38 virtual false final false
  void SetButtonState(UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__InputButton button, UnityEngine::EventSystems::UnityEngine__EventSystems__PointerEventData__FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData data) ;
 
-// Ctor Parameters []
-explicit MouseState() ;
+static VRUIControls::MouseState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3b000 size 0x7c virtual false final false
  void _ctor() ;

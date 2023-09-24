@@ -1,24 +1,24 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
 namespace Newtonsoft::Json::Serialization {
 class JsonContract;
 }
 namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace Newtonsoft::Json {
-struct TypeNameHandling;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
+class Type;
 }
 namespace Newtonsoft::Json {
 struct ReferenceLoopHandling;
 }
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
+}
 namespace System {
-class Type;
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -153,8 +153,7 @@ constexpr System::Nullable_1<Newtonsoft::Json::TypeNameHandling> __get__ItemType
 /// @brief Method set_ItemTypeNameHandling addr 0x24f28b0 size 0x8 virtual false final false
  void set_ItemTypeNameHandling(System::Nullable_1<Newtonsoft::Json::TypeNameHandling> value) ;
 
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JsonContainerContract(System::Type underlyingType) ;
+static Newtonsoft::Json::Serialization::JsonContainerContract New_ctor(System::Type underlyingType) ;
 
 /// @brief Method .ctor addr 0x24f28b8 size 0xdc virtual false final false
  void _ctor(System::Type underlyingType) ;

@@ -86,8 +86,7 @@ constexpr ::StringW __get__strDeformatter() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SignatureDescription() ;
+static System::Security::Cryptography::SignatureDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x22fedfc size 0x8 virtual false final false
  void _ctor() ;

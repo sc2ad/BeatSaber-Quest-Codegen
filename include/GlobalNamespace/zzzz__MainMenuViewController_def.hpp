@@ -4,16 +4,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class DlcPromoPanelModel;
-}
-namespace GlobalNamespace {
 class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 class AppStaticSettingsSO;
@@ -24,6 +21,12 @@ class Button;
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MainMenuViewController__MenuButton;
+}
+namespace GlobalNamespace {
+class DlcPromoPanelModel;
 }
 namespace GlobalNamespace {
 class MusicPackPromoBanner;
@@ -91,6 +94,8 @@ __HowToPlay = 8,
 constexpr operator __GlobalNamespace__MainMenuViewController__MenuButton_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MainMenuViewController__MenuButton_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -290,8 +295,7 @@ constexpr System::Action_2<GlobalNamespace::IBeatmapLevelPack,GlobalNamespace::I
 /// @brief Method HandleMenuButton addr 0x21725e8 size 0x1b0 virtual false final false
  void HandleMenuButton(GlobalNamespace::GlobalNamespace__MainMenuViewController__MenuButton menuButton) ;
 
-// Ctor Parameters []
-explicit MainMenuViewController() ;
+static GlobalNamespace::MainMenuViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2172798 size 0x8 virtual false final false
  void _ctor() ;

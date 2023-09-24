@@ -3,14 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -150,8 +150,7 @@ constexpr int32_t __get__prevNumberOfPlayers() const;
 /// @brief Method set_hide addr 0x2276470 size 0x2c virtual false final false
  void set_hide(bool value) ;
 
-// Ctor Parameters []
-explicit MultiplayerLeaderboardPanelItem() ;
+static GlobalNamespace::MultiplayerLeaderboardPanelItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x22769bc size 0x14 virtual false final false
  void _ctor() ;

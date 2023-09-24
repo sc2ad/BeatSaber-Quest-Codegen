@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderSnapping_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Vector3Mask_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Ray_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Vector3Mask_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::ProBuilderSnapping.IsCardinalDirection
 template<>
 

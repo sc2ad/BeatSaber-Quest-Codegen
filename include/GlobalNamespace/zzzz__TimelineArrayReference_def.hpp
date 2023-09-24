@@ -11,13 +11,16 @@ namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
-class CanvasGroup;
+class Transform;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__TimelineArrayReference__ArrayTypes;
 }
 namespace TMPro {
 class TextMeshPro;
 }
 namespace UnityEngine {
-class Transform;
+class CanvasGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,6 +81,8 @@ __DirectionalLight = 4,
 constexpr operator __GlobalNamespace__TimelineArrayReference__ArrayTypes_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__TimelineArrayReference__ArrayTypes_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -190,8 +195,7 @@ constexpr ::ArrayW<GlobalNamespace::DirectionalLight> __get__directionalLights()
 
 // Methods
 
-// Ctor Parameters []
-explicit TimelineArrayReference() ;
+static GlobalNamespace::TimelineArrayReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b3208 size 0x8 virtual false final false
  void _ctor() ;

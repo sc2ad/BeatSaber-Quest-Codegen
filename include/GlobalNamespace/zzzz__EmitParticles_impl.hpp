@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, count);
 }
-// Ctor Parameters []
- GlobalNamespace::EmitParticles::EmitParticles()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EmitParticles>())) {}
+ GlobalNamespace::EmitParticles GlobalNamespace::EmitParticles::New_ctor()  {
+GlobalNamespace::EmitParticles o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EmitParticles>())};
+return o;
+}
  void GlobalNamespace::EmitParticles::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EmitParticles>::get(),

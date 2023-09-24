@@ -79,8 +79,7 @@ static bool IsZero64(::ArrayW<uint64_t> x) ;
 /// @brief Method ToBigInteger64 addr 0x10012b8 size 0xe0 virtual false final false
 static Org::BouncyCastle::Math::BigInteger ToBigInteger64(::ArrayW<uint64_t> x) ;
 
-// Ctor Parameters []
-explicit Nat320() ;
+static Org::BouncyCastle::Math::Raw::Nat320 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1001398 size 0x8 virtual false final false
  void _ctor() ;

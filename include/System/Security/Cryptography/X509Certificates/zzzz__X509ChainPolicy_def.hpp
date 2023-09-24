@@ -2,16 +2,7 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
-}
-namespace System::Security::Cryptography {
-class OidCollection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Collection;
-}
-namespace System {
-struct TimeSpan;
+class X509CertificateCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509RevocationFlag;
@@ -20,10 +11,19 @@ namespace System::Security::Cryptography::X509Certificates {
 struct X509VerificationFlags;
 }
 namespace System {
+struct TimeSpan;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509RevocationMode;
+}
+namespace System {
 struct DateTime;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+class X509Certificate2Collection;
+}
+namespace System::Security::Cryptography {
+class OidCollection;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -143,8 +143,7 @@ constexpr System::DateTime __get_vtime() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509ChainPolicy() ;
+static System::Security::Cryptography::X509Certificates::X509ChainPolicy New_ctor() ;
 
 /// @brief Method .ctor addr 0x27ee3c8 size 0x1c virtual false final false
  void _ctor() ;

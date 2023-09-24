@@ -50,8 +50,7 @@ constexpr explicit MultiplayerMenuInstaller(void* ptr) noexcept : Zenject::MonoI
 /// @brief Method InstallBindings addr 0x211af18 size 0x8c virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MultiplayerMenuInstaller() ;
+static GlobalNamespace::MultiplayerMenuInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211afa4 size 0x8 virtual false final false
  void _ctor() ;

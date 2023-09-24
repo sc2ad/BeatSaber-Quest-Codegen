@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Diagnostics/zzzz__StackTrace_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Diagnostics/zzzz__StackFrame_def.hpp"
 #include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Diagnostics/zzzz__StackTrace_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Diagnostics::System__Diagnostics__StackTrace__TraceFormat::System__Diagnostics__StackTrace__TraceFormat(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -320,8 +321,10 @@ return ::cordl_internals::getStaticField<bool, "isAotidSet", ::il2cpp_utils::il2
  ::StringW System::Diagnostics::StackTrace::__get_aotid()  {
 return ::cordl_internals::getStaticField<::StringW, "aotid", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::StackTrace>::get>();
 }
-// Ctor Parameters []
- System::Diagnostics::StackTrace::StackTrace()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StackTrace>())) {}
+ System::Diagnostics::StackTrace System::Diagnostics::StackTrace::New_ctor()  {
+System::Diagnostics::StackTrace o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::StackTrace>())};
+return o;
+}
  void System::Diagnostics::StackTrace::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::StackTrace>::get(),
@@ -331,8 +334,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "fNeedFileInfo", ty: "bool", modifiers: "", def_value: None }]
- System::Diagnostics::StackTrace::StackTrace(bool fNeedFileInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StackTrace>(fNeedFileInfo))) {}
+ System::Diagnostics::StackTrace System::Diagnostics::StackTrace::New_ctor(bool fNeedFileInfo)  {
+System::Diagnostics::StackTrace o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::StackTrace>(fNeedFileInfo))};
+return o;
+}
  void System::Diagnostics::StackTrace::_ctor(bool fNeedFileInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::StackTrace>::get(),
@@ -342,8 +347,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fNeedFileInfo);
 }
-// Ctor Parameters [CppParam { name: "skipFrames", ty: "int32_t", modifiers: "", def_value: None }]
- System::Diagnostics::StackTrace::StackTrace(int32_t skipFrames)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StackTrace>(skipFrames))) {}
+ System::Diagnostics::StackTrace System::Diagnostics::StackTrace::New_ctor(int32_t skipFrames)  {
+System::Diagnostics::StackTrace o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::StackTrace>(skipFrames))};
+return o;
+}
  void System::Diagnostics::StackTrace::_ctor(int32_t skipFrames)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::StackTrace>::get(),
@@ -353,8 +360,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, skipFrames);
 }
-// Ctor Parameters [CppParam { name: "skipFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fNeedFileInfo", ty: "bool", modifiers: "", def_value: None }]
- System::Diagnostics::StackTrace::StackTrace(int32_t skipFrames, bool fNeedFileInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StackTrace>(skipFrames, fNeedFileInfo))) {}
+ System::Diagnostics::StackTrace System::Diagnostics::StackTrace::New_ctor(int32_t skipFrames, bool fNeedFileInfo)  {
+System::Diagnostics::StackTrace o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::StackTrace>(skipFrames, fNeedFileInfo))};
+return o;
+}
  void System::Diagnostics::StackTrace::_ctor(int32_t skipFrames, bool fNeedFileInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::StackTrace>::get(),
@@ -382,8 +391,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<System::Diagnostics::StackFrame>, false>(nullptr, ___internal_method, e, skipFrames, fNeedFileInfo);
 }
-// Ctor Parameters [CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "fNeedFileInfo", ty: "bool", modifiers: "", def_value: None }]
- System::Diagnostics::StackTrace::StackTrace(System::Exception e, bool fNeedFileInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StackTrace>(e, fNeedFileInfo))) {}
+ System::Diagnostics::StackTrace System::Diagnostics::StackTrace::New_ctor(System::Exception e, bool fNeedFileInfo)  {
+System::Diagnostics::StackTrace o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::StackTrace>(e, fNeedFileInfo))};
+return o;
+}
  void System::Diagnostics::StackTrace::_ctor(System::Exception e, bool fNeedFileInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::StackTrace>::get(),
@@ -393,8 +404,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, e, fNeedFileInfo);
 }
-// Ctor Parameters [CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "skipFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fNeedFileInfo", ty: "bool", modifiers: "", def_value: None }]
- System::Diagnostics::StackTrace::StackTrace(System::Exception e, int32_t skipFrames, bool fNeedFileInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StackTrace>(e, skipFrames, fNeedFileInfo))) {}
+ System::Diagnostics::StackTrace System::Diagnostics::StackTrace::New_ctor(System::Exception e, int32_t skipFrames, bool fNeedFileInfo)  {
+System::Diagnostics::StackTrace o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::StackTrace>(e, skipFrames, fNeedFileInfo))};
+return o;
+}
  void System::Diagnostics::StackTrace::_ctor(System::Exception e, int32_t skipFrames, bool fNeedFileInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::StackTrace>::get(),

@@ -10,43 +10,64 @@
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-struct Vector4;
-}
-namespace GlobalNamespace {
-class OVROverlay;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-class Gradient;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVROverlay__OverlayType;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPassthroughLayer__ProjectionSurfaceType;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVROverlay__OverlayShape;
+struct GlobalNamespace__OVRPassthroughLayer__SerializedSurfaceGeometry;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPassthroughLayer__DeferredPassthroughMeshAddition;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVROverlay__OverlayType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPassthroughLayer__ColorMapEditorType;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__InsightPassthroughColorMapType;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__OVRPassthroughLayer__PassthroughMeshInstance;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class Gradient;
+}
+namespace GlobalNamespace {
+class OVROverlay;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0;
+}
+namespace GlobalNamespace {
 class OVRCameraRig;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVROverlay__OverlayShape;
 }
 namespace UnityEngine {
 class MeshFilter;
@@ -126,6 +147,8 @@ constexpr operator __GlobalNamespace__OVRPassthroughLayer__ProjectionSurfaceType
 return std::bit_cast<__GlobalNamespace__OVRPassthroughLayer__ProjectionSurfaceType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -198,6 +221,8 @@ __ColorAdjustment = 4,
 constexpr operator __GlobalNamespace__OVRPassthroughLayer__ColorMapEditorType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPassthroughLayer__ColorMapEditorType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -470,8 +495,7 @@ constexpr UnityEngine::GameObject __get_obj() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0() ;
+static GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass9_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x25d8b10 size 0x8 virtual false final false
  void _ctor() ;
@@ -534,8 +558,7 @@ constexpr UnityEngine::GameObject __get_obj() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0() ;
+static GlobalNamespace::GlobalNamespace__OVRPassthroughLayer____c__DisplayClass10_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x25d8dc4 size 0x8 virtual false final false
  void _ctor() ;
@@ -943,8 +966,7 @@ static void computeBrightnessContrastPosterizeMap(::ArrayW<uint8_t> result, floa
 /// @brief Method OnDestroy addr 0x25dba48 size 0x8 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit OVRPassthroughLayer() ;
+static GlobalNamespace::OVRPassthroughLayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x25dba50 size 0x1ec virtual false final false
  void _ctor() ;

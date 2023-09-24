@@ -2,18 +2,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
 }
 namespace UnityEngine {
 class AsyncOperation;
@@ -21,6 +12,15 @@ class AsyncOperation;
 namespace System::Collections::Generic {
 template<typename T>
 class Queue_1;
+}
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {

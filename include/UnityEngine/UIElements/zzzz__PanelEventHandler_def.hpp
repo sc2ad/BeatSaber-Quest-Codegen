@@ -7,19 +7,58 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::EventSystems {
-class ICancelHandler;
+class AxisEventData;
 }
 namespace UnityEngine::UIElements {
-class BlurEvent;
+class FocusEvent;
 }
 namespace UnityEngine::EventSystems {
-class IMoveHandler;
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerMoveHandler;
 }
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__PanelEventHandler__PointerEventType;
+}
 namespace UnityEngine::EventSystems {
-class ISubmitHandler;
+class IDeselectHandler;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::UIElements {
+class BlurEvent;
+}
+namespace UnityEngine::UIElements {
+class IRuntimePanelComponent;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class EventSystem;
+}
+namespace UnityEngine::EventSystems {
+class IScrollHandler;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
 }
 namespace UnityEngine::EventSystems {
 class ISelectHandler;
@@ -28,67 +67,34 @@ namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
 }
 namespace UnityEngine::EventSystems {
-class IDeselectHandler;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::EventSystems {
-class EventSystem;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
-class IScrollHandler;
-}
-namespace UnityEngine {
-struct EventModifiers;
-}
-namespace UnityEngine {
-class GameObject;
+class IMoveHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
+class ISubmitHandler;
 }
 namespace UnityEngine::UIElements {
-class FocusEvent;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class IRuntimePanelComponent;
+class UnityEngine__UIElements__PanelEventHandler__PointerEvent;
 }
 namespace UnityEngine::UIElements {
 class BaseRuntimePanel;
 }
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
 namespace UnityEngine::UIElements {
-class IPointerEvent;
+class EventBase;
+}
+namespace UnityEngine {
+struct EventModifiers;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class IPointerEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -150,6 +156,8 @@ __Up = 2,
 constexpr operator __UnityEngine__UIElements__PanelEventHandler__PointerEventType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__PanelEventHandler__PointerEventType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -507,8 +515,7 @@ constexpr UnityEngine::EventModifiers __get__modifiers_k__BackingField() const;
 /// @brief Method SetPosition addr 0x2c1b7d0 size 0x18 virtual false final false
  void SetPosition(UnityEngine::Vector3 positionOverride, UnityEngine::Vector3 deltaOverride) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__PanelEventHandler__PointerEvent() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__PanelEventHandler__PointerEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1b880 size 0x8 virtual false final false
  void _ctor() ;
@@ -746,8 +753,7 @@ static UnityEngine::EventModifiers __get_s_Modifiers() ;
 /// @brief Method ReadPointerData addr 0x2c19aa0 size 0x13c virtual false final false
  bool ReadPointerData(UnityEngine::UIElements::UnityEngine__UIElements__PanelEventHandler__PointerEvent pe, UnityEngine::EventSystems::PointerEventData eventData, UnityEngine::UIElements::UnityEngine__UIElements__PanelEventHandler__PointerEventType eventType) ;
 
-// Ctor Parameters []
-explicit PanelEventHandler() ;
+static UnityEngine::UIElements::PanelEventHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1b7e8 size 0x98 virtual false final false
  void _ctor() ;

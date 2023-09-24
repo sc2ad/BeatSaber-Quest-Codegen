@@ -17,14 +17,25 @@ namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
-struct GameplayServerConfiguration;
+struct BeatmapLevelSelectionMask;
+}
+namespace System::Collections::Generic {
+template<typename T>
+struct System__Collections__Generic__List_1__Enumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -33,50 +44,59 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-struct System__Collections__Generic__List_1__Enumerator;
-}
-namespace System {
 template<typename T>
 class Comparison_1;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-struct PublicServerInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+struct PublicServerInfo;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
 class INetworkPlayerModel;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+template<typename T>
+class GlobalNamespace__NetworkPlayerModel_1__NetworkPlayer;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__NetworkPlayerModel_1__NetworkServer;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace System {
-class Action;
-}
-namespace System {
 template<typename T>
 class Action_1;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__NetworkPlayerModel_1____c__DisplayClass59_0;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__NetworkPlayerModel_1__JoinMatchmakingPartyConfig;
+}
+namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__NetworkPlayerModel_1___GetOtherPlayers_d__58;
+}
+namespace GlobalNamespace {
+template<typename T>
+struct GlobalNamespace__NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56;
+}
+namespace GlobalNamespace {
+class IPlatformUserModel;
 }
 namespace GlobalNamespace {
 class UserInfo;
@@ -86,10 +106,26 @@ template<typename T>
 class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
+template<typename T>
+class GlobalNamespace__NetworkPlayerModel_1____c;
 }
 namespace GlobalNamespace {
-class IPlatformUserModel;
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__NetworkPlayerModel_1___GetPartyPlayers_d__57;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__NetworkPlayerModel_1__StartClientPartyConfig;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -294,8 +330,7 @@ constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "playerModel", ty: "GlobalNamespace::NetworkPlayerModel_1<T>", modifiers: "", def_value: None }, CppParam { name: "connectedPlayer", ty: "GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }]
-explicit GlobalNamespace__NetworkPlayerModel_1__NetworkPlayer(GlobalNamespace::NetworkPlayerModel_1<T> playerModel, GlobalNamespace::IConnectedPlayer connectedPlayer) ;
+static GlobalNamespace::GlobalNamespace__NetworkPlayerModel_1__NetworkPlayer<T> New_ctor(GlobalNamespace::NetworkPlayerModel_1<T> playerModel, GlobalNamespace::IConnectedPlayer connectedPlayer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(GlobalNamespace::NetworkPlayerModel_1<T> playerModel, GlobalNamespace::IConnectedPlayer connectedPlayer) ;
@@ -390,7 +425,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4565)), TypeDefinitionIndex(TypeDefinitionIndex(4532))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4532)), TypeDefinitionIndex(TypeDefinitionIndex(4565))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4565), inst: 2 })
 // CS Name: NetworkPlayerModel`1::JoinMatchmakingPartyConfig
 class CORDL_TYPE GlobalNamespace__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T> : public GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig {
@@ -447,8 +482,7 @@ constexpr ::StringW __get_code() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__NetworkPlayerModel_1__JoinMatchmakingPartyConfig() ;
+static GlobalNamespace::GlobalNamespace__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -462,7 +496,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4566)), TypeDefinitionIndex(TypeDefinitionIndex(4532))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4532)), TypeDefinitionIndex(TypeDefinitionIndex(4566))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4566), inst: 2 })
 // CS Name: NetworkPlayerModel`1::StartClientPartyConfig
 class CORDL_TYPE GlobalNamespace__NetworkPlayerModel_1__StartClientPartyConfig<T> : public GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig {
@@ -504,8 +538,7 @@ constexpr explicit GlobalNamespace__NetworkPlayerModel_1__StartClientPartyConfig
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__NetworkPlayerModel_1__StartClientPartyConfig() ;
+static GlobalNamespace::GlobalNamespace__NetworkPlayerModel_1__StartClientPartyConfig<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -643,8 +676,7 @@ constexpr float_t __get__lastUpdateTime() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "playerModel", ty: "GlobalNamespace::NetworkPlayerModel_1<T>", modifiers: "", def_value: None }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "selectionMask", ty: "GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }, CppParam { name: "configuration", ty: "GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: None }]
-explicit GlobalNamespace__NetworkPlayerModel_1__NetworkServer(GlobalNamespace::NetworkPlayerModel_1<T> playerModel, ::StringW code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration) ;
+static GlobalNamespace::GlobalNamespace__NetworkPlayerModel_1__NetworkServer<T> New_ctor(GlobalNamespace::NetworkPlayerModel_1<T> playerModel, ::StringW code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(GlobalNamespace::NetworkPlayerModel_1<T> playerModel, ::StringW code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration) ;
@@ -927,8 +959,7 @@ constexpr int32_t __get__i_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__NetworkPlayerModel_1___GetPartyPlayers_d__57(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__NetworkPlayerModel_1___GetPartyPlayers_d__57<T> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -1057,8 +1088,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__List_1__En
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__NetworkPlayerModel_1___GetOtherPlayers_d__58(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__NetworkPlayerModel_1___GetOtherPlayers_d__58<T> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -1162,8 +1192,7 @@ constexpr GlobalNamespace::GameplayServerConfiguration __get_localConfiguration(
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__NetworkPlayerModel_1____c__DisplayClass59_0() ;
+static GlobalNamespace::GlobalNamespace__NetworkPlayerModel_1____c__DisplayClass59_0<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1237,8 +1266,7 @@ static System::Comparison_1<GlobalNamespace::GlobalNamespace__NetworkPlayerModel
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__NetworkPlayerModel_1____c() ;
+static GlobalNamespace::GlobalNamespace__NetworkPlayerModel_1____c<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1255,7 +1283,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4535)), TypeDefinitionIndex(TypeDefinitionIndex(4573))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4573)), TypeDefinitionIndex(TypeDefinitionIndex(4535))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4573), inst: 2 })
 // CS Name: NetworkPlayerModel`1
 class CORDL_TYPE NetworkPlayerModel_1<T> : public GlobalNamespace::BaseNetworkPlayerModel {
@@ -1574,8 +1602,7 @@ template<typename T2>
 /// @brief Method GetServer addr 0x0 size 0xffffffffffffffff virtual false final false
  GlobalNamespace::GlobalNamespace__NetworkPlayerModel_1__NetworkServer<T> GetServer(::StringW code) ;
 
-// Ctor Parameters []
-explicit NetworkPlayerModel_1() ;
+static GlobalNamespace::NetworkPlayerModel_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

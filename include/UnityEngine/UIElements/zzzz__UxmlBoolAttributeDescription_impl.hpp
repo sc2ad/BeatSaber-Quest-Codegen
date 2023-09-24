@@ -2,6 +2,7 @@
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c._ctor
@@ -73,8 +74,10 @@ return ::cordl_internals::getStaticField<System::Func_3<::StringW,bool,bool>, "<
  System::Func_3<::StringW,bool,bool> UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c::__get___9__4_0()  {
 return ::cordl_internals::getStaticField<System::Func_3<::StringW,bool,bool>, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c::UnityEngine__UIElements__UxmlBoolAttributeDescription____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UxmlBoolAttributeDescription____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UxmlBoolAttributeDescription____c>::get(),
@@ -170,8 +173,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UxmlBoolAttributeDescription::UxmlBoolAttributeDescription()  : UnityEngine::UIElements::TypedUxmlAttributeDescription_1<bool>(THROW_UNLESS(::il2cpp_utils::New<UxmlBoolAttributeDescription>())) {}
+ UnityEngine::UIElements::UxmlBoolAttributeDescription UnityEngine::UIElements::UxmlBoolAttributeDescription::New_ctor()  {
+UnityEngine::UIElements::UxmlBoolAttributeDescription o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UxmlBoolAttributeDescription>())};
+return o;
+}
  void UnityEngine::UIElements::UxmlBoolAttributeDescription::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UxmlBoolAttributeDescription>::get(),

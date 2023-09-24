@@ -75,26 +75,22 @@ constexpr ::ArrayW<uint8_t> __get__raw() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AsnEncodedData() ;
+static System::Security::Cryptography::AsnEncodedData New_ctor() ;
 
 /// @brief Method .ctor addr 0x27e3c8c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit AsnEncodedData(::StringW oid, ::ArrayW<uint8_t> rawData) ;
+static System::Security::Cryptography::AsnEncodedData New_ctor(::StringW oid, ::ArrayW<uint8_t> rawData) ;
 
 /// @brief Method .ctor addr 0x27e3c94 size 0x84 virtual false final false
  void _ctor(::StringW oid, ::ArrayW<uint8_t> rawData) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "System::Security::Cryptography::Oid", modifiers: "", def_value: None }, CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit AsnEncodedData(System::Security::Cryptography::Oid oid, ::ArrayW<uint8_t> rawData) ;
+static System::Security::Cryptography::AsnEncodedData New_ctor(System::Security::Cryptography::Oid oid, ::ArrayW<uint8_t> rawData) ;
 
 /// @brief Method .ctor addr 0x27e3e0c size 0x3c virtual false final false
  void _ctor(System::Security::Cryptography::Oid oid, ::ArrayW<uint8_t> rawData) ;
 
-// Ctor Parameters [CppParam { name: "asnEncodedData", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }]
-explicit AsnEncodedData(System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
+static System::Security::Cryptography::AsnEncodedData New_ctor(System::Security::Cryptography::AsnEncodedData asnEncodedData) ;
 
 /// @brief Method .ctor addr 0x27e3eb8 size 0xe0 virtual false final false
  void _ctor(System::Security::Cryptography::AsnEncodedData asnEncodedData) ;

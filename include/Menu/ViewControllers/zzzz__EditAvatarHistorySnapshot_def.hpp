@@ -81,8 +81,7 @@ constexpr GlobalNamespace::AvatarData __get__avatarData_k__BackingField() const;
 /// @brief Method get_avatarData addr 0x21d4b98 size 0x8 virtual false final false
  GlobalNamespace::AvatarData get_avatarData() ;
 
-// Ctor Parameters [CppParam { name: "avatarData", ty: "GlobalNamespace::AvatarData", modifiers: "", def_value: None }, CppParam { name: "avatarEditPart", ty: "GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart", modifiers: "", def_value: None }]
-explicit EditAvatarHistorySnapshot(GlobalNamespace::AvatarData avatarData, GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart avatarEditPart) ;
+static Menu::ViewControllers::EditAvatarHistorySnapshot New_ctor(GlobalNamespace::AvatarData avatarData, GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart avatarEditPart) ;
 
 /// @brief Method .ctor addr 0x21d4ba0 size 0x30 virtual false final false
  void _ctor(GlobalNamespace::AvatarData avatarData, GlobalNamespace::GlobalNamespace__EditAvatarViewController__AvatarEditPart avatarEditPart) ;

@@ -2,18 +2,19 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/IO/zzzz__FileStream_def.hpp"
-#include "System/IO/zzzz__FileShare_def.hpp"
-#include "Microsoft/Win32/SafeHandles/zzzz__SafeFileHandle_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/IO/zzzz__FileMode_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/IO/zzzz__FileOptions_def.hpp"
-#include "System/IO/zzzz__FileAccess_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/IO/zzzz__FileMode_def.hpp"
+#include "System/IO/zzzz__FileOptions_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
+#include "System/IO/zzzz__FileAccess_def.hpp"
+#include "System/IO/zzzz__FileStream_def.hpp"
+#include "Microsoft/Win32/SafeHandles/zzzz__SafeFileHandle_def.hpp"
+#include "System/IO/zzzz__FileShare_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: System::IO::System__IO__FileStream__ReadDelegate._ctor
 template<>
 
@@ -82,8 +83,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::IO::System__IO__FileStream__ReadDelegate::System__IO__FileStream__ReadDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__IO__FileStream__ReadDelegate>(object, method))) {}
+ System::IO::System__IO__FileStream__ReadDelegate System::IO::System__IO__FileStream__ReadDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::IO::System__IO__FileStream__ReadDelegate o{THROW_UNLESS(::il2cpp_utils::New<System::IO::System__IO__FileStream__ReadDelegate>(object, method))};
+return o;
+}
  void System::IO::System__IO__FileStream__ReadDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__FileStream__ReadDelegate>::get(),
@@ -188,8 +191,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::IO::System__IO__FileStream__WriteDelegate::System__IO__FileStream__WriteDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__IO__FileStream__WriteDelegate>(object, method))) {}
+ System::IO::System__IO__FileStream__WriteDelegate System::IO::System__IO__FileStream__WriteDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::IO::System__IO__FileStream__WriteDelegate o{THROW_UNLESS(::il2cpp_utils::New<System::IO::System__IO__FileStream__WriteDelegate>(object, method))};
+return o;
+}
  void System::IO::System__IO__FileStream__WriteDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__FileStream__WriteDelegate>::get(),
@@ -1110,8 +1115,10 @@ constexpr void System::IO::FileStream::__set_buf_start(int64_t value)  {
 constexpr int64_t System::IO::FileStream::__get_buf_start() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::IO::FileStream::FileStream(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FileStream>(handle, access, ownsHandle, bufferSize))) {}
+ System::IO::FileStream System::IO::FileStream::New_ctor(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize)  {
+System::IO::FileStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStream>(handle, access, ownsHandle, bufferSize))};
+return o;
+}
  void System::IO::FileStream::_ctor(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStream>::get(),
@@ -1121,8 +1128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, handle, access, ownsHandle, bufferSize);
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isAsync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isConsoleWrapper", ty: "bool", modifiers: "", def_value: None }]
- System::IO::FileStream::FileStream(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize, bool isAsync, bool isConsoleWrapper)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FileStream>(handle, access, ownsHandle, bufferSize, isAsync, isConsoleWrapper))) {}
+ System::IO::FileStream System::IO::FileStream::New_ctor(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize, bool isAsync, bool isConsoleWrapper)  {
+System::IO::FileStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStream>(handle, access, ownsHandle, bufferSize, isAsync, isConsoleWrapper))};
+return o;
+}
  void System::IO::FileStream::_ctor(::cordl_internals::intptr_t handle, System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize, bool isAsync, bool isConsoleWrapper)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStream>::get(),
@@ -1132,8 +1141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, handle, access, ownsHandle, bufferSize, isAsync, isConsoleWrapper);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }]
- System::IO::FileStream::FileStream(::StringW path, System::IO::FileMode mode)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FileStream>(path, mode))) {}
+ System::IO::FileStream System::IO::FileStream::New_ctor(::StringW path, System::IO::FileMode mode)  {
+System::IO::FileStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStream>(path, mode))};
+return o;
+}
  void System::IO::FileStream::_ctor(::StringW path, System::IO::FileMode mode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStream>::get(),
@@ -1143,8 +1154,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, mode);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }]
- System::IO::FileStream::FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FileStream>(path, mode, access))) {}
+ System::IO::FileStream System::IO::FileStream::New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access)  {
+System::IO::FileStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStream>(path, mode, access))};
+return o;
+}
  void System::IO::FileStream::_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStream>::get(),
@@ -1154,8 +1167,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, mode, access);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }]
- System::IO::FileStream::FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FileStream>(path, mode, access, share))) {}
+ System::IO::FileStream System::IO::FileStream::New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share)  {
+System::IO::FileStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStream>(path, mode, access, share))};
+return o;
+}
  void System::IO::FileStream::_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStream>::get(),
@@ -1165,8 +1180,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, mode, access, share);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::IO::FileStream::FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FileStream>(path, mode, access, share, bufferSize))) {}
+ System::IO::FileStream System::IO::FileStream::New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize)  {
+System::IO::FileStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStream>(path, mode, access, share, bufferSize))};
+return o;
+}
  void System::IO::FileStream::_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStream>::get(),
@@ -1176,8 +1193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, mode, access, share, bufferSize);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "useAsync", ty: "bool", modifiers: "", def_value: None }]
- System::IO::FileStream::FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool useAsync)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FileStream>(path, mode, access, share, bufferSize, useAsync))) {}
+ System::IO::FileStream System::IO::FileStream::New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool useAsync)  {
+System::IO::FileStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStream>(path, mode, access, share, bufferSize, useAsync))};
+return o;
+}
  void System::IO::FileStream::_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool useAsync)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStream>::get(),
@@ -1187,8 +1206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, mode, access, share, bufferSize, useAsync);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::IO::FileOptions", modifiers: "", def_value: None }]
- System::IO::FileStream::FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, System::IO::FileOptions options)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FileStream>(path, mode, access, share, bufferSize, options))) {}
+ System::IO::FileStream System::IO::FileStream::New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, System::IO::FileOptions options)  {
+System::IO::FileStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStream>(path, mode, access, share, bufferSize, options))};
+return o;
+}
  void System::IO::FileStream::_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, System::IO::FileOptions options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStream>::get(),
@@ -1198,8 +1219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, mode, access, share, bufferSize, options);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isAsync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "anonymous", ty: "bool", modifiers: "", def_value: None }]
- System::IO::FileStream::FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool isAsync, bool anonymous)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FileStream>(path, mode, access, share, bufferSize, isAsync, anonymous))) {}
+ System::IO::FileStream System::IO::FileStream::New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool isAsync, bool anonymous)  {
+System::IO::FileStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStream>(path, mode, access, share, bufferSize, isAsync, anonymous))};
+return o;
+}
  void System::IO::FileStream::_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool isAsync, bool anonymous)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStream>::get(),
@@ -1209,8 +1232,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, mode, access, share, bufferSize, isAsync, anonymous);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::FileMode", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }, CppParam { name: "share", ty: "System::IO::FileShare", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "anonymous", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::IO::FileOptions", modifiers: "", def_value: None }]
- System::IO::FileStream::FileStream(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool anonymous, System::IO::FileOptions options)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<FileStream>(path, mode, access, share, bufferSize, anonymous, options))) {}
+ System::IO::FileStream System::IO::FileStream::New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool anonymous, System::IO::FileOptions options)  {
+System::IO::FileStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileStream>(path, mode, access, share, bufferSize, anonymous, options))};
+return o;
+}
  void System::IO::FileStream::_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int32_t bufferSize, bool anonymous, System::IO::FileOptions options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileStream>::get(),

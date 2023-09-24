@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_def.hpp"
-#include "UnityEngine/Rendering/zzzz__LocalKeywordSpace_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/Rendering/zzzz__LocalKeywordSpace_def.hpp"
 //  Writing Method size for method: UnityEngine::Rendering::LocalKeyword.ToString
 template<>
 

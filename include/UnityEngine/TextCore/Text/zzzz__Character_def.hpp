@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
 #include <cstdint>
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
 namespace UnityEngine::TextCore {
 class Glyph;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -54,20 +54,17 @@ constexpr explicit Character(void* ptr) noexcept : UnityEngine::TextCore::Text::
 
 // Methods
 
-// Ctor Parameters []
-explicit Character() ;
+static UnityEngine::TextCore::Text::Character New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bcc318 size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "UnityEngine::TextCore::Text::FontAsset", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "UnityEngine::TextCore::Glyph", modifiers: "", def_value: None }]
-explicit Character(uint32_t unicode, UnityEngine::TextCore::Text::FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph) ;
+static UnityEngine::TextCore::Text::Character New_ctor(uint32_t unicode, UnityEngine::TextCore::Text::FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph) ;
 
 /// @brief Method .ctor addr 0x2bc279c size 0x60 virtual false final false
  void _ctor(uint32_t unicode, UnityEngine::TextCore::Text::FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph) ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyphIndex", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit Character(uint32_t unicode, uint32_t glyphIndex) ;
+static UnityEngine::TextCore::Text::Character New_ctor(uint32_t unicode, uint32_t glyphIndex) ;
 
 /// @brief Method .ctor addr 0x2bc5c68 size 0x40 virtual false final false
  void _ctor(uint32_t unicode, uint32_t glyphIndex) ;

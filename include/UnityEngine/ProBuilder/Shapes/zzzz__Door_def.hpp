@@ -5,17 +5,17 @@
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Bounds;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Bounds;
+}
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -84,8 +84,7 @@ constexpr float_t __get_m_LegWidth() const;
 /// @brief Method RebuildMesh addr 0x29f4120 size 0x1a9c virtual true final false
  UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit Door() ;
+static UnityEngine::ProBuilder::Shapes::Door New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f5bbc size 0x14 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "TMPro/zzzz__TMP_UpdateRegistry_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
 //  Writing Method size for method: TMPro::TMP_UpdateRegistry.get_instance
 template<>
 
@@ -229,8 +229,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<TMPro::TMP_UpdateRegistry, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- TMPro::TMP_UpdateRegistry::TMP_UpdateRegistry()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_UpdateRegistry>())) {}
+ TMPro::TMP_UpdateRegistry TMPro::TMP_UpdateRegistry::New_ctor()  {
+TMPro::TMP_UpdateRegistry o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_UpdateRegistry>())};
+return o;
+}
  void TMPro::TMP_UpdateRegistry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_UpdateRegistry>::get(),

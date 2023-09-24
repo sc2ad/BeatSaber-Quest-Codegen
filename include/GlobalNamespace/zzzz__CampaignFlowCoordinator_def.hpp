@@ -3,53 +3,59 @@
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class MissionCompletionResults;
+class MissionResultsViewController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace GlobalNamespace {
-class MissionResultsViewController;
-}
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class MenuLightsPresetSO;
-}
-namespace HMUI {
-struct HMUI__ViewController__AnimationType;
-}
-namespace GlobalNamespace {
-class MenuTransitionsHelper;
-}
-namespace GlobalNamespace {
-class MenuLightsManager;
-}
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MissionSelectionNavigationController;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class GameplaySetupViewController;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-class MissionNode;
 }
 namespace GlobalNamespace {
 class MissionHelpViewController;
 }
 namespace GlobalNamespace {
+class MenuTransitionsHelper;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace HMUI {
+struct HMUI__ViewController__AnimationType;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MenuLightsPresetSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0;
+}
+namespace GlobalNamespace {
+class MenuLightsManager;
+}
+namespace GlobalNamespace {
+class GameplaySetupViewController;
+}
+namespace GlobalNamespace {
 class CampaignProgressModel;
+}
+namespace GlobalNamespace {
+class MissionCompletionResults;
+}
+namespace GlobalNamespace {
+class MissionNode;
+}
+namespace GlobalNamespace {
+class MissionSelectionNavigationController;
+}
+namespace HMUI {
+class ViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -118,8 +124,7 @@ constexpr GlobalNamespace::MissionHelpViewController __get_viewController() cons
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0() ;
+static GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass20_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2131710 size 0x8 virtual false final false
  void _ctor() ;
@@ -188,8 +193,7 @@ constexpr GlobalNamespace::MissionResultsViewController __get_viewController() c
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0() ;
+static GlobalNamespace::GlobalNamespace__CampaignFlowCoordinator____c__DisplayClass22_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2131880 size 0x8 virtual false final false
  void _ctor() ;
@@ -376,8 +380,7 @@ constexpr bool __get__showCredits() const;
 /// @brief Method BackButtonWasPressed addr 0x2131a6c size 0xa0 virtual true final false
  void BackButtonWasPressed(HMUI::ViewController topViewController) ;
 
-// Ctor Parameters []
-explicit CampaignFlowCoordinator() ;
+static GlobalNamespace::CampaignFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2131b0c size 0x8 virtual false final false
  void _ctor() ;

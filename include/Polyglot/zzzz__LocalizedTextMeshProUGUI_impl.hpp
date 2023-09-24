@@ -2,8 +2,8 @@
 #include "Polyglot/zzzz__LocalizedTextComponent_1_impl.hpp"
 #include "Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "TMPro/zzzz__TextAlignmentOptions_def.hpp"
+#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 //  Writing Method size for method: Polyglot::LocalizedTextMeshProUGUI.SetText
 template<>
 
@@ -151,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, alignment);
 }
-// Ctor Parameters []
- Polyglot::LocalizedTextMeshProUGUI::LocalizedTextMeshProUGUI()  : Polyglot::LocalizedTextComponent_1<TMPro::TextMeshProUGUI>(THROW_UNLESS(::il2cpp_utils::New<LocalizedTextMeshProUGUI>())) {}
+ Polyglot::LocalizedTextMeshProUGUI Polyglot::LocalizedTextMeshProUGUI::New_ctor()  {
+Polyglot::LocalizedTextMeshProUGUI o{THROW_UNLESS(::il2cpp_utils::New<Polyglot::LocalizedTextMeshProUGUI>())};
+return o;
+}
  void Polyglot::LocalizedTextMeshProUGUI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Polyglot::LocalizedTextMeshProUGUI>::get(),

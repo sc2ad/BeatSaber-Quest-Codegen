@@ -2,7 +2,8 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Oculus::Platform {
-class Request;
+template<typename T>
+class Request_1;
 }
 namespace Oculus::Platform::Models {
 class DestinationList;
@@ -11,8 +12,7 @@ namespace Oculus::Platform {
 class RichPresenceOptions;
 }
 namespace Oculus::Platform {
-template<typename T>
-class Request_1;
+class Request;
 }
 // Forward declare root types
 namespace Oculus::Platform {

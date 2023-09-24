@@ -3,29 +3,19 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-struct Span_1;
-}
 namespace System::Threading::Tasks {
-class Task;
+template<typename TResult>
+struct ValueTask_1;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System::IO {
-struct SeekOrigin;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
-namespace System::Runtime::InteropServices {
-class SafeBuffer;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-struct ValueTask_1;
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::Threading::Tasks {
 struct ValueTask;
@@ -33,13 +23,23 @@ struct ValueTask;
 namespace System::IO {
 struct FileAccess;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace System {
+template<typename T>
+struct Span_1;
 }
 namespace System {
 template<typename T>
 struct Memory_1;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Runtime::InteropServices {
+class SafeBuffer;
 }
 namespace System {
 template<typename T>
@@ -163,14 +163,12 @@ constexpr System::Threading::Tasks::Task_1<int32_t> __get__lastReadTask() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnmanagedMemoryStream() ;
+static System::IO::UnmanagedMemoryStream New_ctor() ;
 
 /// @brief Method .ctor addr 0x2392f34 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "pointer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "access", ty: "System::IO::FileAccess", modifiers: "", def_value: None }]
-explicit UnmanagedMemoryStream(void* pointer, int64_t length, int64_t capacity, System::IO::FileAccess access) ;
+static System::IO::UnmanagedMemoryStream New_ctor(void* pointer, int64_t length, int64_t capacity, System::IO::FileAccess access) ;
 
 /// @brief Method .ctor addr 0x23983e8 size 0x90 virtual false final false
  void _ctor(void* pointer, int64_t length, int64_t capacity, System::IO::FileAccess access) ;

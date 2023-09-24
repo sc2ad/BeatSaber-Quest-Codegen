@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__SpanHelpers_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
 #include "System/Numerics/zzzz__Vector_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: System::SpanHelpers.IndexOfAny
 template<>
 

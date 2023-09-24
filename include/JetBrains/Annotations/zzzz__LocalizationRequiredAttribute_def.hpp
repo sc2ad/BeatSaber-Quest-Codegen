@@ -61,14 +61,12 @@ constexpr bool __get__Required_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LocalizationRequiredAttribute() ;
+static JetBrains::Annotations::LocalizationRequiredAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40bb8 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "required", ty: "bool", modifiers: "", def_value: None }]
-explicit LocalizationRequiredAttribute(bool required) ;
+static JetBrains::Annotations::LocalizationRequiredAttribute New_ctor(bool required) ;
 
 /// @brief Method .ctor addr 0x2d40bd8 size 0x2c virtual false final false
  void _ctor(bool required) ;

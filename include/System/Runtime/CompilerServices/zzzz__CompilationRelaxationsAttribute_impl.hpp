@@ -59,8 +59,10 @@ constexpr void System::Runtime::CompilerServices::CompilationRelaxationsAttribut
 constexpr int32_t System::Runtime::CompilerServices::CompilationRelaxationsAttribute::__get_m_relaxations() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "relaxations", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::CompilationRelaxationsAttribute::CompilationRelaxationsAttribute(int32_t relaxations)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<CompilationRelaxationsAttribute>(relaxations))) {}
+ System::Runtime::CompilerServices::CompilationRelaxationsAttribute System::Runtime::CompilerServices::CompilationRelaxationsAttribute::New_ctor(int32_t relaxations)  {
+System::Runtime::CompilerServices::CompilationRelaxationsAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::CompilationRelaxationsAttribute>(relaxations))};
+return o;
+}
  void System::Runtime::CompilerServices::CompilationRelaxationsAttribute::_ctor(int32_t relaxations)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::CompilationRelaxationsAttribute>::get(),
@@ -70,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, relaxations);
 }
-// Ctor Parameters [CppParam { name: "relaxations", ty: "System::Runtime::CompilerServices::CompilationRelaxations", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::CompilationRelaxationsAttribute::CompilationRelaxationsAttribute(System::Runtime::CompilerServices::CompilationRelaxations relaxations)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<CompilationRelaxationsAttribute>(relaxations))) {}
+ System::Runtime::CompilerServices::CompilationRelaxationsAttribute System::Runtime::CompilerServices::CompilationRelaxationsAttribute::New_ctor(System::Runtime::CompilerServices::CompilationRelaxations relaxations)  {
+System::Runtime::CompilerServices::CompilationRelaxationsAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::CompilationRelaxationsAttribute>(relaxations))};
+return o;
+}
  void System::Runtime::CompilerServices::CompilationRelaxationsAttribute::_ctor(System::Runtime::CompilerServices::CompilationRelaxations relaxations)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::CompilationRelaxationsAttribute>::get(),

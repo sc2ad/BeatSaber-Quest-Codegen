@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__RuntimeLightWithLightGroupIds_impl.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLightWithLightGroupIds_def.hpp"
-#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DirectionalLightWithLightGroupIds.ColorWasSet
 template<>
 
@@ -52,8 +52,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- GlobalNamespace::DirectionalLightWithLightGroupIds::DirectionalLightWithLightGroupIds()  : GlobalNamespace::RuntimeLightWithLightGroupIds(THROW_UNLESS(::il2cpp_utils::New<DirectionalLightWithLightGroupIds>())) {}
+ GlobalNamespace::DirectionalLightWithLightGroupIds GlobalNamespace::DirectionalLightWithLightGroupIds::New_ctor()  {
+GlobalNamespace::DirectionalLightWithLightGroupIds o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DirectionalLightWithLightGroupIds>())};
+return o;
+}
  void GlobalNamespace::DirectionalLightWithLightGroupIds::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DirectionalLightWithLightGroupIds>::get(),

@@ -6,18 +6,27 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class Action_1;
+namespace UnityEngine::XR {
+struct UnityEngine__XR__XRDisplaySubsystem__LateLatchNode;
+}
+namespace UnityEngine::XR {
+struct UnityEngine__XR__XRDisplaySubsystem__XRRenderPass;
+}
+namespace UnityEngine::XR {
+struct UnityEngine__XR__XRDisplaySubsystem__XRMirrorViewBlitDesc;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct RenderTextureDescriptor;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine::Rendering {
 struct RenderTargetIdentifier;
+}
+namespace UnityEngine {
+struct RenderTextureDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -82,6 +91,8 @@ __RightHand = 2,
 constexpr operator __UnityEngine__XR__XRDisplaySubsystem__LateLatchNode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__XR__XRDisplaySubsystem__LateLatchNode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -280,7 +291,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.XR::XRDisplaySubsystem
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15590)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15849), inst: 3778 }), TypeDefinitionIndex(TypeDefinitionIndex(15849))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15849)), TypeDefinitionIndex(TypeDefinitionIndex(15590)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15849), inst: 3778 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15594))
 // CS Name: UnityEngine.XR.XRDisplaySubsystem
 class CORDL_TYPE XRDisplaySubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRDisplaySubsystemDescriptor> {
@@ -352,8 +363,7 @@ constexpr System::Action_1<bool> __get_displayFocusChanged() const;
 /// @brief Method TryGetMotionToPhoton addr 0x2d3ab40 size 0x44 virtual false final false
  bool TryGetMotionToPhoton(ByRef<float_t> motionToPhoton) ;
 
-// Ctor Parameters []
-explicit XRDisplaySubsystem() ;
+static UnityEngine::XR::XRDisplaySubsystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3ab84 size 0x48 virtual false final false
  void _ctor() ;

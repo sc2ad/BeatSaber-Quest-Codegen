@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::InteropServices::PreserveSigAttribute::PreserveSigAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PreserveSigAttribute>())) {}
+ System::Runtime::InteropServices::PreserveSigAttribute System::Runtime::InteropServices::PreserveSigAttribute::New_ctor()  {
+System::Runtime::InteropServices::PreserveSigAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::PreserveSigAttribute>())};
+return o;
+}
  void System::Runtime::InteropServices::PreserveSigAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::PreserveSigAttribute>::get(),

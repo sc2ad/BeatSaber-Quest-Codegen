@@ -135,8 +135,10 @@ constexpr void System::Xml::CharEntityEncoderFallback::__set_startOffset(int32_t
 constexpr int32_t System::Xml::CharEntityEncoderFallback::__get_startOffset() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::CharEntityEncoderFallback::CharEntityEncoderFallback()  : System::Text::EncoderFallback(THROW_UNLESS(::il2cpp_utils::New<CharEntityEncoderFallback>())) {}
+ System::Xml::CharEntityEncoderFallback System::Xml::CharEntityEncoderFallback::New_ctor()  {
+System::Xml::CharEntityEncoderFallback o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::CharEntityEncoderFallback>())};
+return o;
+}
  void System::Xml::CharEntityEncoderFallback::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::CharEntityEncoderFallback>::get(),

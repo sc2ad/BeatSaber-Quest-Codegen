@@ -16,6 +16,7 @@
 #include "OVR/OpenVR/zzzz__Texture_t_def.hpp"
 #include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRSubmitFlags_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRCompositor_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetTrackingSpace._ctor
 template<>
 
@@ -84,8 +85,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetTrackingSpace::OVR__OpenVR__IVRCompositor___SetTrackingSpace(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___SetTrackingSpace>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetTrackingSpace OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetTrackingSpace::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetTrackingSpace o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetTrackingSpace>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetTrackingSpace::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetTrackingSpace>::get(),
@@ -190,8 +193,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetTrackingSpace::OVR__OpenVR__IVRCompositor___GetTrackingSpace(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetTrackingSpace>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetTrackingSpace OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetTrackingSpace::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetTrackingSpace o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetTrackingSpace>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetTrackingSpace::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetTrackingSpace>::get(),
@@ -296,8 +301,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___WaitGetPoses::OVR__OpenVR__IVRCompositor___WaitGetPoses(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___WaitGetPoses>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___WaitGetPoses OVR::OpenVR::OVR__OpenVR__IVRCompositor___WaitGetPoses::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___WaitGetPoses o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___WaitGetPoses>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___WaitGetPoses::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___WaitGetPoses>::get(),
@@ -402,8 +409,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoses::OVR__OpenVR__IVRCompositor___GetLastPoses(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetLastPoses>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoses OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoses::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoses o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoses>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoses::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoses>::get(),
@@ -508,8 +517,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoseForTrackedDeviceIndex::OVR__OpenVR__IVRCompositor___GetLastPoseForTrackedDeviceIndex(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetLastPoseForTrackedDeviceIndex>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoseForTrackedDeviceIndex OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoseForTrackedDeviceIndex::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoseForTrackedDeviceIndex o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoseForTrackedDeviceIndex>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoseForTrackedDeviceIndex::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastPoseForTrackedDeviceIndex>::get(),
@@ -614,8 +625,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___Submit::OVR__OpenVR__IVRCompositor___Submit(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___Submit>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___Submit OVR::OpenVR::OVR__OpenVR__IVRCompositor___Submit::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___Submit o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___Submit>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___Submit::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___Submit>::get(),
@@ -720,8 +733,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearLastSubmittedFrame::OVR__OpenVR__IVRCompositor___ClearLastSubmittedFrame(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___ClearLastSubmittedFrame>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearLastSubmittedFrame OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearLastSubmittedFrame::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearLastSubmittedFrame o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearLastSubmittedFrame>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearLastSubmittedFrame::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearLastSubmittedFrame>::get(),
@@ -826,8 +841,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___PostPresentHandoff::OVR__OpenVR__IVRCompositor___PostPresentHandoff(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___PostPresentHandoff>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___PostPresentHandoff OVR::OpenVR::OVR__OpenVR__IVRCompositor___PostPresentHandoff::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___PostPresentHandoff o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___PostPresentHandoff>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___PostPresentHandoff::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___PostPresentHandoff>::get(),
@@ -932,8 +949,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTiming::OVR__OpenVR__IVRCompositor___GetFrameTiming(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetFrameTiming>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTiming OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTiming::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTiming o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTiming>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTiming::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTiming>::get(),
@@ -1038,8 +1057,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimings::OVR__OpenVR__IVRCompositor___GetFrameTimings(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetFrameTimings>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimings OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimings::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimings o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimings>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimings::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimings>::get(),
@@ -1144,8 +1165,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (OV
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimeRemaining::OVR__OpenVR__IVRCompositor___GetFrameTimeRemaining(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetFrameTimeRemaining>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimeRemaining OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimeRemaining::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimeRemaining o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimeRemaining>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimeRemaining::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetFrameTimeRemaining>::get(),
@@ -1250,8 +1273,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCumulativeStats::OVR__OpenVR__IVRCompositor___GetCumulativeStats(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetCumulativeStats>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCumulativeStats OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCumulativeStats::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCumulativeStats o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCumulativeStats>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCumulativeStats::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCumulativeStats>::get(),
@@ -1356,8 +1381,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeToColor::OVR__OpenVR__IVRCompositor___FadeToColor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___FadeToColor>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeToColor OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeToColor::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeToColor o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeToColor>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeToColor::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeToColor>::get(),
@@ -1462,8 +1489,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentFadeColor::OVR__OpenVR__IVRCompositor___GetCurrentFadeColor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetCurrentFadeColor>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentFadeColor OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentFadeColor::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentFadeColor o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentFadeColor>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentFadeColor::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentFadeColor>::get(),
@@ -1568,8 +1597,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeGrid::OVR__OpenVR__IVRCompositor___FadeGrid(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___FadeGrid>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeGrid OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeGrid::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeGrid o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeGrid>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeGrid::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___FadeGrid>::get(),
@@ -1674,8 +1705,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (OV
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentGridAlpha::OVR__OpenVR__IVRCompositor___GetCurrentGridAlpha(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetCurrentGridAlpha>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentGridAlpha OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentGridAlpha::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentGridAlpha o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentGridAlpha>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentGridAlpha::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentGridAlpha>::get(),
@@ -1780,8 +1813,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetSkyboxOverride::OVR__OpenVR__IVRCompositor___SetSkyboxOverride(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___SetSkyboxOverride>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetSkyboxOverride OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetSkyboxOverride::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetSkyboxOverride o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetSkyboxOverride>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetSkyboxOverride::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetSkyboxOverride>::get(),
@@ -1886,8 +1921,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearSkyboxOverride::OVR__OpenVR__IVRCompositor___ClearSkyboxOverride(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___ClearSkyboxOverride>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearSkyboxOverride OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearSkyboxOverride::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearSkyboxOverride o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearSkyboxOverride>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearSkyboxOverride::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ClearSkyboxOverride>::get(),
@@ -1992,8 +2029,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorBringToFront::OVR__OpenVR__IVRCompositor___CompositorBringToFront(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___CompositorBringToFront>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorBringToFront OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorBringToFront::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorBringToFront o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorBringToFront>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorBringToFront::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorBringToFront>::get(),
@@ -2098,8 +2137,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorGoToBack::OVR__OpenVR__IVRCompositor___CompositorGoToBack(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___CompositorGoToBack>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorGoToBack OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorGoToBack::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorGoToBack o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorGoToBack>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorGoToBack::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorGoToBack>::get(),
@@ -2204,8 +2245,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorQuit::OVR__OpenVR__IVRCompositor___CompositorQuit(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___CompositorQuit>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorQuit OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorQuit::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorQuit o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorQuit>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorQuit::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorQuit>::get(),
@@ -2310,8 +2353,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsFullscreen::OVR__OpenVR__IVRCompositor___IsFullscreen(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___IsFullscreen>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsFullscreen OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsFullscreen::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsFullscreen o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsFullscreen>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsFullscreen::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsFullscreen>::get(),
@@ -2416,8 +2461,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentSceneFocusProcess::OVR__OpenVR__IVRCompositor___GetCurrentSceneFocusProcess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetCurrentSceneFocusProcess>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentSceneFocusProcess OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentSceneFocusProcess::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentSceneFocusProcess o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentSceneFocusProcess>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentSceneFocusProcess::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetCurrentSceneFocusProcess>::get(),
@@ -2522,8 +2569,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastFrameRenderer::OVR__OpenVR__IVRCompositor___GetLastFrameRenderer(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetLastFrameRenderer>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastFrameRenderer OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastFrameRenderer::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastFrameRenderer o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastFrameRenderer>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastFrameRenderer::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetLastFrameRenderer>::get(),
@@ -2628,8 +2677,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___CanRenderScene::OVR__OpenVR__IVRCompositor___CanRenderScene(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___CanRenderScene>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___CanRenderScene OVR::OpenVR::OVR__OpenVR__IVRCompositor___CanRenderScene::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___CanRenderScene o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___CanRenderScene>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___CanRenderScene::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___CanRenderScene>::get(),
@@ -2734,8 +2785,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShowMirrorWindow::OVR__OpenVR__IVRCompositor___ShowMirrorWindow(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___ShowMirrorWindow>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShowMirrorWindow OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShowMirrorWindow::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShowMirrorWindow o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShowMirrorWindow>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShowMirrorWindow::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShowMirrorWindow>::get(),
@@ -2840,8 +2893,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___HideMirrorWindow::OVR__OpenVR__IVRCompositor___HideMirrorWindow(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___HideMirrorWindow>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___HideMirrorWindow OVR::OpenVR::OVR__OpenVR__IVRCompositor___HideMirrorWindow::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___HideMirrorWindow o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___HideMirrorWindow>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___HideMirrorWindow::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___HideMirrorWindow>::get(),
@@ -2946,8 +3001,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsMirrorWindowVisible::OVR__OpenVR__IVRCompositor___IsMirrorWindowVisible(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___IsMirrorWindowVisible>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsMirrorWindowVisible OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsMirrorWindowVisible::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsMirrorWindowVisible o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsMirrorWindowVisible>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsMirrorWindowVisible::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___IsMirrorWindowVisible>::get(),
@@ -3052,8 +3109,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorDumpImages::OVR__OpenVR__IVRCompositor___CompositorDumpImages(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___CompositorDumpImages>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorDumpImages OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorDumpImages::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorDumpImages o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorDumpImages>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorDumpImages::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___CompositorDumpImages>::get(),
@@ -3158,8 +3217,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShouldAppRenderWithLowResources::OVR__OpenVR__IVRCompositor___ShouldAppRenderWithLowResources(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___ShouldAppRenderWithLowResources>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShouldAppRenderWithLowResources OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShouldAppRenderWithLowResources::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShouldAppRenderWithLowResources o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShouldAppRenderWithLowResources>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShouldAppRenderWithLowResources::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ShouldAppRenderWithLowResources>::get(),
@@ -3264,8 +3325,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceInterleavedReprojectionOn::OVR__OpenVR__IVRCompositor___ForceInterleavedReprojectionOn(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___ForceInterleavedReprojectionOn>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceInterleavedReprojectionOn OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceInterleavedReprojectionOn::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceInterleavedReprojectionOn o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceInterleavedReprojectionOn>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceInterleavedReprojectionOn::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceInterleavedReprojectionOn>::get(),
@@ -3370,8 +3433,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceReconnectProcess::OVR__OpenVR__IVRCompositor___ForceReconnectProcess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___ForceReconnectProcess>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceReconnectProcess OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceReconnectProcess::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceReconnectProcess o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceReconnectProcess>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceReconnectProcess::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ForceReconnectProcess>::get(),
@@ -3476,8 +3541,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___SuspendRendering::OVR__OpenVR__IVRCompositor___SuspendRendering(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___SuspendRendering>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___SuspendRendering OVR::OpenVR::OVR__OpenVR__IVRCompositor___SuspendRendering::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___SuspendRendering o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___SuspendRendering>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___SuspendRendering::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___SuspendRendering>::get(),
@@ -3582,8 +3649,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureD3D11::OVR__OpenVR__IVRCompositor___GetMirrorTextureD3D11(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetMirrorTextureD3D11>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureD3D11 OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureD3D11::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureD3D11 o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureD3D11>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureD3D11::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureD3D11>::get(),
@@ -3688,8 +3757,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseMirrorTextureD3D11::OVR__OpenVR__IVRCompositor___ReleaseMirrorTextureD3D11(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___ReleaseMirrorTextureD3D11>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseMirrorTextureD3D11 OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseMirrorTextureD3D11::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseMirrorTextureD3D11 o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseMirrorTextureD3D11>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseMirrorTextureD3D11::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseMirrorTextureD3D11>::get(),
@@ -3794,8 +3865,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureGL::OVR__OpenVR__IVRCompositor___GetMirrorTextureGL(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetMirrorTextureGL>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureGL OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureGL::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureGL o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureGL>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureGL::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetMirrorTextureGL>::get(),
@@ -3900,8 +3973,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseSharedGLTexture::OVR__OpenVR__IVRCompositor___ReleaseSharedGLTexture(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___ReleaseSharedGLTexture>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseSharedGLTexture OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseSharedGLTexture::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseSharedGLTexture o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseSharedGLTexture>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseSharedGLTexture::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___ReleaseSharedGLTexture>::get(),
@@ -4006,8 +4081,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___LockGLSharedTextureForAccess::OVR__OpenVR__IVRCompositor___LockGLSharedTextureForAccess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___LockGLSharedTextureForAccess>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___LockGLSharedTextureForAccess OVR::OpenVR::OVR__OpenVR__IVRCompositor___LockGLSharedTextureForAccess::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___LockGLSharedTextureForAccess o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___LockGLSharedTextureForAccess>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___LockGLSharedTextureForAccess::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___LockGLSharedTextureForAccess>::get(),
@@ -4112,8 +4189,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___UnlockGLSharedTextureForAccess::OVR__OpenVR__IVRCompositor___UnlockGLSharedTextureForAccess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___UnlockGLSharedTextureForAccess>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___UnlockGLSharedTextureForAccess OVR::OpenVR::OVR__OpenVR__IVRCompositor___UnlockGLSharedTextureForAccess::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___UnlockGLSharedTextureForAccess o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___UnlockGLSharedTextureForAccess>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___UnlockGLSharedTextureForAccess::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___UnlockGLSharedTextureForAccess>::get(),
@@ -4218,8 +4297,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanInstanceExtensionsRequired::OVR__OpenVR__IVRCompositor___GetVulkanInstanceExtensionsRequired(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetVulkanInstanceExtensionsRequired>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanInstanceExtensionsRequired OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanInstanceExtensionsRequired::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanInstanceExtensionsRequired o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanInstanceExtensionsRequired>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanInstanceExtensionsRequired::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanInstanceExtensionsRequired>::get(),
@@ -4324,8 +4405,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanDeviceExtensionsRequired::OVR__OpenVR__IVRCompositor___GetVulkanDeviceExtensionsRequired(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___GetVulkanDeviceExtensionsRequired>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanDeviceExtensionsRequired OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanDeviceExtensionsRequired::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanDeviceExtensionsRequired o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanDeviceExtensionsRequired>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanDeviceExtensionsRequired::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___GetVulkanDeviceExtensionsRequired>::get(),
@@ -4430,8 +4513,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetExplicitTimingMode::OVR__OpenVR__IVRCompositor___SetExplicitTimingMode(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___SetExplicitTimingMode>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetExplicitTimingMode OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetExplicitTimingMode::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetExplicitTimingMode o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetExplicitTimingMode>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetExplicitTimingMode::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___SetExplicitTimingMode>::get(),
@@ -4536,8 +4621,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRCompositor___SubmitExplicitTimingData::OVR__OpenVR__IVRCompositor___SubmitExplicitTimingData(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRCompositor___SubmitExplicitTimingData>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRCompositor___SubmitExplicitTimingData OVR::OpenVR::OVR__OpenVR__IVRCompositor___SubmitExplicitTimingData::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRCompositor___SubmitExplicitTimingData o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRCompositor___SubmitExplicitTimingData>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRCompositor___SubmitExplicitTimingData::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRCompositor___SubmitExplicitTimingData>::get(),

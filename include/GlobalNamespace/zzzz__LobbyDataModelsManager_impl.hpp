@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LobbyDataModelsManager_def.hpp"
-#include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
-#include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayersDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
+#include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LobbyDataModelsManager.Activate
 template<>
 
@@ -104,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LobbyDataModelsManager::LobbyDataModelsManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LobbyDataModelsManager>())) {}
+ GlobalNamespace::LobbyDataModelsManager GlobalNamespace::LobbyDataModelsManager::New_ctor()  {
+GlobalNamespace::LobbyDataModelsManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LobbyDataModelsManager>())};
+return o;
+}
  void GlobalNamespace::LobbyDataModelsManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LobbyDataModelsManager>::get(),

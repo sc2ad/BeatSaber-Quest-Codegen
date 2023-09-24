@@ -210,8 +210,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CanvasGroupTransitionSO::CanvasGroupTransitionSO()  : GlobalNamespace::BaseTransitionSO(THROW_UNLESS(::il2cpp_utils::New<CanvasGroupTransitionSO>())) {}
+ GlobalNamespace::CanvasGroupTransitionSO GlobalNamespace::CanvasGroupTransitionSO::New_ctor()  {
+GlobalNamespace::CanvasGroupTransitionSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CanvasGroupTransitionSO>())};
+return o;
+}
  void GlobalNamespace::CanvasGroupTransitionSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CanvasGroupTransitionSO>::get(),

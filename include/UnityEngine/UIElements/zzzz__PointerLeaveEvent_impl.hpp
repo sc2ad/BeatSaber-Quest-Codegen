@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::PointerLeaveEvent::PointerLeaveEvent()  : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerLeaveEvent>(THROW_UNLESS(::il2cpp_utils::New<PointerLeaveEvent>())) {}
+ UnityEngine::UIElements::PointerLeaveEvent UnityEngine::UIElements::PointerLeaveEvent::New_ctor()  {
+UnityEngine::UIElements::PointerLeaveEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PointerLeaveEvent>())};
+return o;
+}
  void UnityEngine::UIElements::PointerLeaveEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PointerLeaveEvent>::get(),

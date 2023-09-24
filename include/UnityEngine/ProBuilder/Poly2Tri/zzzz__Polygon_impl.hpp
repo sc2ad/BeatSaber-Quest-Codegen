@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Polygon_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Triangulatable_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DelaunayTriangle_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PolygonPoint_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationMode_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Triangulatable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationMode_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Poly2Tri::Polygon._ctor
 template<>
 
@@ -366,8 +366,10 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::Polygon::__set__last(UnityEngi
 constexpr UnityEngine::ProBuilder::Poly2Tri::PolygonPoint UnityEngine::ProBuilder::Poly2Tri::Polygon::__get__last() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::Polygon::Polygon(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Polygon>(points))) {}
+ UnityEngine::ProBuilder::Poly2Tri::Polygon UnityEngine::ProBuilder::Poly2Tri::Polygon::New_ctor(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points)  {
+UnityEngine::ProBuilder::Poly2Tri::Polygon o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::Polygon>(points))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::Polygon::_ctor(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::Polygon>::get(),
@@ -377,8 +379,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, points);
 }
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::Polygon::Polygon(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Polygon>(points))) {}
+ UnityEngine::ProBuilder::Poly2Tri::Polygon UnityEngine::ProBuilder::Poly2Tri::Polygon::New_ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points)  {
+UnityEngine::ProBuilder::Poly2Tri::Polygon o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::Polygon>(points))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::Polygon::_ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::Polygon>::get(),
@@ -388,8 +392,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, points);
 }
-// Ctor Parameters [CppParam { name: "points", ty: "::ArrayW<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::Polygon::Polygon(::ArrayW<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Polygon>(points))) {}
+ UnityEngine::ProBuilder::Poly2Tri::Polygon UnityEngine::ProBuilder::Poly2Tri::Polygon::New_ctor(::ArrayW<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points)  {
+UnityEngine::ProBuilder::Poly2Tri::Polygon o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::Polygon>(points))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::Polygon::_ctor(::ArrayW<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::Polygon>::get(),

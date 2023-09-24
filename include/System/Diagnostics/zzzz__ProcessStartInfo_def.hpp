@@ -4,31 +4,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Diagnostics {
-class Process;
+namespace System {
+class WeakReference;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class IDictionary_2;
 }
 namespace System::Collections::ObjectModel {
 template<typename T>
 class Collection_1;
 }
+namespace System::Security {
+class SecureString;
+}
+namespace System::Diagnostics {
+class Process;
+}
 namespace System::Collections::Specialized {
 class StringDictionary;
-}
-namespace System {
-class WeakReference;
 }
 namespace System::Text {
 class Encoding;
 }
 namespace System::Diagnostics {
 struct ProcessWindowStyle;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IDictionary_2;
-}
-namespace System::Security {
-class SecureString;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -266,8 +266,7 @@ constexpr System::Text::Encoding __get__StandardInputEncoding_k__BackingField() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "System::Diagnostics::Process", modifiers: "", def_value: None }]
-explicit ProcessStartInfo(System::Diagnostics::Process parent) ;
+static System::Diagnostics::ProcessStartInfo New_ctor(System::Diagnostics::Process parent) ;
 
 /// @brief Method .ctor addr 0x27ddb20 size 0x84 virtual false final false
  void _ctor(System::Diagnostics::Process parent) ;

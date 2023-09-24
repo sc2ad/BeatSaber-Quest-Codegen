@@ -77,14 +77,12 @@ constexpr int32_t __get_usageIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "counter", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DsaValidationParameters(::ArrayW<uint8_t> seed, int32_t counter) ;
+static Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters New_ctor(::ArrayW<uint8_t> seed, int32_t counter) ;
 
 /// @brief Method .ctor addr 0xea518c size 0x8 virtual false final false
  void _ctor(::ArrayW<uint8_t> seed, int32_t counter) ;
 
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "counter", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usageIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DsaValidationParameters(::ArrayW<uint8_t> seed, int32_t counter, int32_t usageIndex) ;
+static Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters New_ctor(::ArrayW<uint8_t> seed, int32_t counter, int32_t usageIndex) ;
 
 /// @brief Method .ctor addr 0xea5194 size 0x108 virtual false final false
  void _ctor(::ArrayW<uint8_t> seed, int32_t counter, int32_t usageIndex) ;

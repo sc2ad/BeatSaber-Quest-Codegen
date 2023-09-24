@@ -125,8 +125,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__set_w
 constexpr int32_t Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__get_windowCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "generator", ty: "Org::BouncyCastle::Crypto::Prng::IRandomGenerator", modifiers: "", def_value: None }, CppParam { name: "windowSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::ReversedWindowGenerator(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator, int32_t windowSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReversedWindowGenerator>(generator, windowSize))) {}
+ Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::New_ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator, int32_t windowSize)  {
+Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator>(generator, windowSize))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::_ctor(Org::BouncyCastle::Crypto::Prng::IRandomGenerator generator, int32_t windowSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator>::get(),

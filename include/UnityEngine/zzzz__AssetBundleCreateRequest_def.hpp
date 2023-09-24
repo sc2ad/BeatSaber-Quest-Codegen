@@ -58,8 +58,7 @@ constexpr explicit AssetBundleCreateRequest(void* ptr) noexcept : UnityEngine::A
 /// @brief Method get_assetBundle addr 0x2b243e8 size 0x3c virtual false final false
  UnityEngine::AssetBundle get_assetBundle() ;
 
-// Ctor Parameters []
-explicit AssetBundleCreateRequest() ;
+static UnityEngine::AssetBundleCreateRequest New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b24424 size 0x8 virtual false final false
  void _ctor() ;

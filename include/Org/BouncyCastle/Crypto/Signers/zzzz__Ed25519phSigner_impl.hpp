@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__Ed25519phSigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__Ed25519PrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Ed25519PublicKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__Ed25519PrivateKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::Ed25519phSigner._ctor
 template<>
 
@@ -175,8 +175,10 @@ constexpr void Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::__set_public
 constexpr Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::__get_publicKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::Ed25519phSigner(::ArrayW<uint8_t> context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Ed25519phSigner>(context))) {}
+ Org::BouncyCastle::Crypto::Signers::Ed25519phSigner Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::New_ctor(::ArrayW<uint8_t> context)  {
+Org::BouncyCastle::Crypto::Signers::Ed25519phSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::Ed25519phSigner>(context))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::_ctor(::ArrayW<uint8_t> context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::Ed25519phSigner>::get(),

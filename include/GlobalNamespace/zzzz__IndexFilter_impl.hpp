@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__ValueTuple_3_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType::GlobalNamespace__IndexFilter__IndexFilterRandomType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -224,8 +225,10 @@ constexpr void GlobalNamespace::GlobalNamespace__IndexFilter___GetEnumerator_d__
 constexpr int32_t GlobalNamespace::GlobalNamespace__IndexFilter___GetEnumerator_d__19::__get__localChunkIndex_5__8() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__IndexFilter___GetEnumerator_d__19::GlobalNamespace__IndexFilter___GetEnumerator_d__19(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__IndexFilter___GetEnumerator_d__19>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__IndexFilter___GetEnumerator_d__19 GlobalNamespace::GlobalNamespace__IndexFilter___GetEnumerator_d__19::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__IndexFilter___GetEnumerator_d__19 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__IndexFilter___GetEnumerator_d__19>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__IndexFilter___GetEnumerator_d__19::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__IndexFilter___GetEnumerator_d__19>::get(),
@@ -481,8 +484,10 @@ constexpr void GlobalNamespace::GlobalNamespace__IndexFilter___GetValues_d__20::
 constexpr int32_t GlobalNamespace::GlobalNamespace__IndexFilter___GetValues_d__20::__get__i_5__3() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__IndexFilter___GetValues_d__20::GlobalNamespace__IndexFilter___GetValues_d__20(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__IndexFilter___GetValues_d__20>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__IndexFilter___GetValues_d__20 GlobalNamespace::GlobalNamespace__IndexFilter___GetValues_d__20::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__IndexFilter___GetValues_d__20 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__IndexFilter___GetValues_d__20>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__IndexFilter___GetValues_d__20::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__IndexFilter___GetValues_d__20>::get(),
@@ -784,8 +789,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "step", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "groupSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "limitAlsoAffectType", ty: "GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType", modifiers: "", def_value: None }]
- GlobalNamespace::IndexFilter::IndexFilter(int32_t start, int32_t step, int32_t count, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IndexFilter>(start, step, count, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType))) {}
+ GlobalNamespace::IndexFilter GlobalNamespace::IndexFilter::New_ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType)  {
+GlobalNamespace::IndexFilter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::IndexFilter>(start, step, count, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType))};
+return o;
+}
  void GlobalNamespace::IndexFilter::_ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IndexFilter>::get(),
@@ -795,8 +802,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, start, step, count, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType);
 }
-// Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "groupSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "limitAlsoAffectType", ty: "GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType", modifiers: "", def_value: None }]
- GlobalNamespace::IndexFilter::IndexFilter(int32_t start, int32_t end, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IndexFilter>(start, end, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType))) {}
+ GlobalNamespace::IndexFilter GlobalNamespace::IndexFilter::New_ctor(int32_t start, int32_t end, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType)  {
+GlobalNamespace::IndexFilter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::IndexFilter>(start, end, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType))};
+return o;
+}
  void GlobalNamespace::IndexFilter::_ctor(int32_t start, int32_t end, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::IndexFilter>::get(),

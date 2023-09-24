@@ -3,6 +3,9 @@
 #include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredNoteController_1_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
+namespace GlobalNamespace {
+class GlobalNamespace__MirroredBombNoteController__Pool;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__MirroredBombNoteController__Pool;
@@ -54,8 +57,7 @@ constexpr explicit MirroredBombNoteController(void* ptr) noexcept : GlobalNamesp
 
 // Methods
 
-// Ctor Parameters []
-explicit MirroredBombNoteController() ;
+static GlobalNamespace::MirroredBombNoteController New_ctor() ;
 
 /// @brief Method .ctor addr 0x223d4b4 size 0x48 virtual false final false
  void _ctor() ;
@@ -67,7 +69,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2711 }), TypeDefinitionIndex(TypeDefinitionIndex(4868)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4868)), TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2711 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4867))
 // CS Name: MirroredBombNoteController::Pool
 class CORDL_TYPE GlobalNamespace__MirroredBombNoteController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MirroredBombNoteController> {
@@ -106,8 +108,7 @@ constexpr explicit GlobalNamespace__MirroredBombNoteController__Pool(void* ptr) 
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MirroredBombNoteController__Pool() ;
+static GlobalNamespace::GlobalNamespace__MirroredBombNoteController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x223d4fc size 0x48 virtual false final false
  void _ctor() ;

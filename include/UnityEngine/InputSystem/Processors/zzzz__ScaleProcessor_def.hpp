@@ -67,8 +67,7 @@ constexpr float_t __get_factor() const;
 /// @brief Method ToString addr 0x296719c size 0x84 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit ScaleProcessor() ;
+static UnityEngine::InputSystem::Processors::ScaleProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2967220 size 0x50 virtual false final false
  void _ctor() ;

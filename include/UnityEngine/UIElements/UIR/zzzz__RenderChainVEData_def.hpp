@@ -3,43 +3,43 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine::UIElements::UIR {
 class MeshHandle;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace UnityEngine::UIElements::UIR {
 struct RenderChainTextEntry;
 }
 namespace UnityEngine::UIElements::UIR {
-template<typename T>
-class BasicNode_1;
-}
-namespace UnityEngine::UIElements::UIR {
 class RenderChainCommand;
 }
-namespace UnityEngine::UIElements::UIR {
-struct BMPAlloc;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements::UIR {
-struct RenderDataDirtyTypes;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-struct ClipMethod;
+template<typename T>
+class BasicNode_1;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine::UIElements::UIR {
+struct RenderDataDirtyTypes;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements::UIR {
 struct TextureEntry;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+struct ClipMethod;
+}
+namespace UnityEngine::UIElements::UIR {
+struct BMPAlloc;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

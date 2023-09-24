@@ -2,20 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+class MissionNodeVisualController;
 }
 namespace UnityEngine {
 class Animator;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 class RectTransform;
 }
-namespace GlobalNamespace {
-class MissionNodeVisualController;
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -156,8 +156,7 @@ constexpr bool __get__isActive() const;
 /// @brief Method MissionConnectionEnabledDidFinish addr 0x2149104 size 0x20 virtual false final false
  void MissionConnectionEnabledDidFinish() ;
 
-// Ctor Parameters []
-explicit MissionNodeConnection() ;
+static GlobalNamespace::MissionNodeConnection New_ctor() ;
 
 /// @brief Method .ctor addr 0x2149124 size 0x14 virtual false final false
  void _ctor() ;

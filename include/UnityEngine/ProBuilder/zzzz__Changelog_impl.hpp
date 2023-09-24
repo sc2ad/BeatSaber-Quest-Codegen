@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__Changelog_def.hpp"
-#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ChangelogEntry_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Changelog.get_entries
 template<>
@@ -69,8 +69,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "log", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Changelog::Changelog(::StringW log)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Changelog>(log))) {}
+ UnityEngine::ProBuilder::Changelog UnityEngine::ProBuilder::Changelog::New_ctor(::StringW log)  {
+UnityEngine::ProBuilder::Changelog o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Changelog>(log))};
+return o;
+}
  void UnityEngine::ProBuilder::Changelog::_ctor(::StringW log)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Changelog>::get(),

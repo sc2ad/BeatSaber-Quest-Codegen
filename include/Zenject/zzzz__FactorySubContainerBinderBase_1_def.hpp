@@ -4,23 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System {
 class Type;
 }
 namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+template<typename TContract>
+class Zenject__FactorySubContainerBinderBase_1____c__DisplayClass29_0;
 }
 namespace Zenject {
-class DiContainer;
+template<typename TContract>
+class Zenject__FactorySubContainerBinderBase_1____c__DisplayClass23_0;
+}
+namespace Zenject {
+template<typename TContract>
+class Zenject__FactorySubContainerBinderBase_1____c__DisplayClass27_0;
 }
 namespace Zenject {
 class IProvider;
 }
-namespace UnityEngine {
-class Object;
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
@@ -28,8 +30,22 @@ class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 namespace Zenject {
 class FactoryBindInfo;
 }
+namespace UnityEngine {
+class Object;
+}
+namespace Zenject {
+template<typename TContract>
+class Zenject__FactorySubContainerBinderBase_1____c__DisplayClass25_0;
+}
 namespace Zenject {
 class BindInfo;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -151,8 +167,7 @@ constexpr System::Type __get_installerType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactorySubContainerBinderBase_1____c__DisplayClass23_0() ;
+static Zenject::Zenject__FactorySubContainerBinderBase_1____c__DisplayClass23_0<TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -235,8 +250,7 @@ constexpr System::Type __get_installerType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactorySubContainerBinderBase_1____c__DisplayClass25_0() ;
+static Zenject::Zenject__FactorySubContainerBinderBase_1____c__DisplayClass25_0<TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -325,8 +339,7 @@ constexpr System::Type __get_installerType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactorySubContainerBinderBase_1____c__DisplayClass27_0() ;
+static Zenject::Zenject__FactorySubContainerBinderBase_1____c__DisplayClass27_0<TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -415,8 +428,7 @@ constexpr System::Type __get_installerType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactorySubContainerBinderBase_1____c__DisplayClass29_0() ;
+static Zenject::Zenject__FactorySubContainerBinderBase_1____c__DisplayClass29_0<TContract> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -528,8 +540,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__SubIdentifier_k__BackingField() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }, CppParam { name: "subIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit FactorySubContainerBinderBase_1(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, ::bs_hook::Il2CppWrapperType subIdentifier) ;
+static Zenject::FactorySubContainerBinderBase_1<TContract> New_ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, ::bs_hook::Il2CppWrapperType subIdentifier) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, ::bs_hook::Il2CppWrapperType subIdentifier) ;

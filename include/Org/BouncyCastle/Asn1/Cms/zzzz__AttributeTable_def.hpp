@@ -2,6 +2,15 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class Attribute;
+}
 namespace System::Collections {
 class Hashtable;
 }
@@ -11,20 +20,11 @@ class IDictionary;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+namespace Org::BouncyCastle::Asn1::Cms {
+class Attributes;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class Attribute;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class Attributes;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -88,32 +88,27 @@ constexpr System::Collections::IDictionary __get_attributes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "attrs", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
-explicit AttributeTable(System::Collections::Hashtable attrs) ;
+static Org::BouncyCastle::Asn1::Cms::AttributeTable New_ctor(System::Collections::Hashtable attrs) ;
 
 /// @brief Method .ctor addr 0xde306c size 0x78 virtual false final false
  void _ctor(System::Collections::Hashtable attrs) ;
 
-// Ctor Parameters [CppParam { name: "attrs", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit AttributeTable(System::Collections::IDictionary attrs) ;
+static Org::BouncyCastle::Asn1::Cms::AttributeTable New_ctor(System::Collections::IDictionary attrs) ;
 
 /// @brief Method .ctor addr 0xde30e4 size 0x78 virtual false final false
  void _ctor(System::Collections::IDictionary attrs) ;
 
-// Ctor Parameters [CppParam { name: "v", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit AttributeTable(Org::BouncyCastle::Asn1::Asn1EncodableVector v) ;
+static Org::BouncyCastle::Asn1::Cms::AttributeTable New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector v) ;
 
 /// @brief Method .ctor addr 0xde315c size 0x31c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector v) ;
 
-// Ctor Parameters [CppParam { name: "s", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit AttributeTable(Org::BouncyCastle::Asn1::Asn1Set s) ;
+static Org::BouncyCastle::Asn1::Cms::AttributeTable New_ctor(Org::BouncyCastle::Asn1::Asn1Set s) ;
 
 /// @brief Method .ctor addr 0xde37c0 size 0xe8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Set s) ;
 
-// Ctor Parameters [CppParam { name: "attrs", ty: "Org::BouncyCastle::Asn1::Cms::Attributes", modifiers: "", def_value: None }]
-explicit AttributeTable(Org::BouncyCastle::Asn1::Cms::Attributes attrs) ;
+static Org::BouncyCastle::Asn1::Cms::AttributeTable New_ctor(Org::BouncyCastle::Asn1::Cms::Attributes attrs) ;
 
 /// @brief Method .ctor addr 0xde38a8 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::Attributes attrs) ;

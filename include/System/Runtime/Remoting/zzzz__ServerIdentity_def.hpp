@@ -2,14 +2,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Runtime::Remoting::Lifetime {
-class Lease;
-}
-namespace System::Runtime::Remoting::Lifetime {
-class ILease;
-}
-namespace System::Runtime::Remoting {
-class ObjRef;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
@@ -17,17 +11,23 @@ class IMessageSink;
 namespace System {
 class MarshalByRefObject;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+namespace System::Runtime::Remoting::Contexts {
+class Context;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Remoting::Lifetime {
+class ILease;
 }
-namespace System::Runtime::Remoting::Contexts {
-class Context;
+namespace System::Runtime::Remoting::Lifetime {
+class Lease;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting {
+class ObjRef;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -117,8 +117,7 @@ constexpr System::Runtime::Remoting::Lifetime::Lease __get__lease() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Remoting::Contexts::Context", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit ServerIdentity(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType) ;
+static System::Runtime::Remoting::ServerIdentity New_ctor(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType) ;
 
 /// @brief Method .ctor addr 0x232654c size 0x30 virtual false final false
  void _ctor(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType) ;

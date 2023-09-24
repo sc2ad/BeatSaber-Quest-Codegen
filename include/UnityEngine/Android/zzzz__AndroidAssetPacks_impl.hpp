@@ -1,9 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__AndroidJavaProxy_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPacks_def.hpp"
+#include "UnityEngine/Android/zzzz__AndroidAssetPacks_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
-#include "UnityEngine/Android/zzzz__AndroidAssetPackInfo_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/Android/zzzz__AndroidAssetPackInfo_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackUseMobileDataRequestResult_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackState_def.hpp"
@@ -54,8 +55,10 @@ constexpr void UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__As
 constexpr ::ArrayW<::StringW> UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::__get_m_AssetPacks() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::StringW>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Action_1<UnityEngine::Android::AndroidAssetPackInfo>", modifiers: "", def_value: None }, CppParam { name: "assetPacks", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
- UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback(System::Action_1<UnityEngine::Android::AndroidAssetPackInfo> callback, ::ArrayW<::StringW> assetPacks)  : UnityEngine::AndroidJavaProxy(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback>(callback, assetPacks))) {}
+ UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::New_ctor(System::Action_1<UnityEngine::Android::AndroidAssetPackInfo> callback, ::ArrayW<::StringW> assetPacks)  {
+UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback>(callback, assetPacks))};
+return o;
+}
  void UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::_ctor(System::Action_1<UnityEngine::Android::AndroidAssetPackInfo> callback, ::ArrayW<::StringW> assetPacks)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback>::get(),
@@ -114,8 +117,10 @@ constexpr void UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__As
 constexpr System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult> UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::__get_m_Callback() const {
 return ::cordl_internals::getInstanceField<System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult>", modifiers: "", def_value: None }]
- UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback(System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult> callback)  : UnityEngine::AndroidJavaProxy(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback>(callback))) {}
+ UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::New_ctor(System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult> callback)  {
+UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback>(callback))};
+return o;
+}
  void UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::_ctor(System::Action_1<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult> callback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback>::get(),
@@ -192,8 +197,10 @@ constexpr void UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__As
 constexpr int64_t UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::__get_m_Size() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Action_2<uint64_t,::ArrayW<UnityEngine::Android::AndroidAssetPackState>>", modifiers: "", def_value: None }, CppParam { name: "assetPacks", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
- UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback(System::Action_2<uint64_t,::ArrayW<UnityEngine::Android::AndroidAssetPackState>> callback, ::ArrayW<::StringW> assetPacks)  : UnityEngine::AndroidJavaProxy(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback>(callback, assetPacks))) {}
+ UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::New_ctor(System::Action_2<uint64_t,::ArrayW<UnityEngine::Android::AndroidAssetPackState>> callback, ::ArrayW<::StringW> assetPacks)  {
+UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback>(callback, assetPacks))};
+return o;
+}
  void UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::_ctor(System::Action_2<uint64_t,::ArrayW<UnityEngine::Android::AndroidAssetPackState>> callback, ::ArrayW<::StringW> assetPacks)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Android::UnityEngine__Android__AndroidAssetPacks__AssetPackManagerStatusQueryCallback>::get(),

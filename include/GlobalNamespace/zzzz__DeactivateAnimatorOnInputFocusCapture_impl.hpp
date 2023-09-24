@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DeactivateAnimatorOnInputFocusCapture_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DeactivateAnimatorOnInputFocusCapture.Start
 template<>
 
@@ -142,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::DeactivateAnimatorOnInputFocusCapture()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DeactivateAnimatorOnInputFocusCapture>())) {}
+ GlobalNamespace::DeactivateAnimatorOnInputFocusCapture GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::New_ctor()  {
+GlobalNamespace::DeactivateAnimatorOnInputFocusCapture o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DeactivateAnimatorOnInputFocusCapture>())};
+return o;
+}
  void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DeactivateAnimatorOnInputFocusCapture>::get(),

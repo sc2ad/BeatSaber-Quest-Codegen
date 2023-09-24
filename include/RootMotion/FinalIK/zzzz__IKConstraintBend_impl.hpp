@@ -2,8 +2,8 @@
 #include "RootMotion/FinalIK/zzzz__IKConstraintBend_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/zzzz__Warning_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::IKConstraintBend.IsValid
 template<>
@@ -344,8 +344,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKConstraintBend::IKConstraintBend()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IKConstraintBend>())) {}
+ RootMotion::FinalIK::IKConstraintBend RootMotion::FinalIK::IKConstraintBend::New_ctor()  {
+RootMotion::FinalIK::IKConstraintBend o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKConstraintBend>())};
+return o;
+}
  void RootMotion::FinalIK::IKConstraintBend::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKConstraintBend>::get(),
@@ -355,8 +357,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bone1", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone2", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "bone3", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::IKConstraintBend::IKConstraintBend(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IKConstraintBend>(bone1, bone2, bone3))) {}
+ RootMotion::FinalIK::IKConstraintBend RootMotion::FinalIK::IKConstraintBend::New_ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3)  {
+RootMotion::FinalIK::IKConstraintBend o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKConstraintBend>(bone1, bone2, bone3))};
+return o;
+}
  void RootMotion::FinalIK::IKConstraintBend::_ctor(UnityEngine::Transform bone1, UnityEngine::Transform bone2, UnityEngine::Transform bone3)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKConstraintBend>::get(),

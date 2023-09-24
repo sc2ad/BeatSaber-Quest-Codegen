@@ -3,29 +3,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class SM2KeyExchangePublicParameters;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class SM2KeyExchangePublicParameters;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -130,14 +130,12 @@ constexpr bool __get_mInitiator() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SM2KeyExchange() ;
+static Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange New_ctor() ;
 
 /// @brief Method .ctor addr 0x11905dc size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit SM2KeyExchange(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0x1190648 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

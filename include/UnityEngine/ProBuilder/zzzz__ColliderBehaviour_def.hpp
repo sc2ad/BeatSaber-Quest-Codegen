@@ -62,8 +62,7 @@ constexpr explicit ColliderBehaviour(void* ptr) noexcept : UnityEngine::ProBuild
 /// @brief Method OnSceneLoaded addr 0x29a8d9c size 0xb8 virtual true final false
  void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode) ;
 
-// Ctor Parameters []
-explicit ColliderBehaviour() ;
+static UnityEngine::ProBuilder::ColliderBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a8e54 size 0x10 virtual false final false
  void _ctor() ;

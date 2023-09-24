@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__StyleMatchingContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariableContext_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResultInfo_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::StyleMatchingContext.get_styleSheetCount
 template<>
 
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "processResult", ty: "System::Action_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::StyleSheets::MatchResultInfo>", modifiers: "", def_value: None }]
- UnityEngine::UIElements::StyleMatchingContext::StyleMatchingContext(System::Action_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::StyleSheets::MatchResultInfo> processResult)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StyleMatchingContext>(processResult))) {}
+ UnityEngine::UIElements::StyleMatchingContext UnityEngine::UIElements::StyleMatchingContext::New_ctor(System::Action_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::StyleSheets::MatchResultInfo> processResult)  {
+UnityEngine::UIElements::StyleMatchingContext o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleMatchingContext>(processResult))};
+return o;
+}
  void UnityEngine::UIElements::StyleMatchingContext::_ctor(System::Action_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::StyleSheets::MatchResultInfo> processResult)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleMatchingContext>::get(),

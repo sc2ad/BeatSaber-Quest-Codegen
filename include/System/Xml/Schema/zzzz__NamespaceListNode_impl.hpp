@@ -5,8 +5,8 @@
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
-#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::NamespaceListNode._ctor
 template<>
 
@@ -104,8 +104,10 @@ constexpr void System::Xml::Schema::NamespaceListNode::__set_particle(::bs_hook:
 constexpr ::bs_hook::Il2CppWrapperType System::Xml::Schema::NamespaceListNode::__get_particle() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "namespaceList", ty: "System::Xml::Schema::NamespaceList", modifiers: "", def_value: None }, CppParam { name: "particle", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Xml::Schema::NamespaceListNode::NamespaceListNode(System::Xml::Schema::NamespaceList namespaceList, ::bs_hook::Il2CppWrapperType particle)  : System::Xml::Schema::SyntaxTreeNode(THROW_UNLESS(::il2cpp_utils::New<NamespaceListNode>(namespaceList, particle))) {}
+ System::Xml::Schema::NamespaceListNode System::Xml::Schema::NamespaceListNode::New_ctor(System::Xml::Schema::NamespaceList namespaceList, ::bs_hook::Il2CppWrapperType particle)  {
+System::Xml::Schema::NamespaceListNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::NamespaceListNode>(namespaceList, particle))};
+return o;
+}
  void System::Xml::Schema::NamespaceListNode::_ctor(System::Xml::Schema::NamespaceList namespaceList, ::bs_hook::Il2CppWrapperType particle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::NamespaceListNode>::get(),

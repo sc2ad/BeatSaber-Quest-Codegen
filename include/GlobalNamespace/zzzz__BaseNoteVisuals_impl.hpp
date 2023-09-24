@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseNoteVisuals_def.hpp"
-#include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
-#include "GlobalNamespace/zzzz__CutoutAnimateEffect_def.hpp"
 #include "GlobalNamespace/zzzz__INoteControllerNoteDidStartDissolvingEvent_def.hpp"
+#include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
+#include "GlobalNamespace/zzzz__CutoutAnimateEffect_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BaseNoteVisuals.Awake
 template<>
 
@@ -172,8 +172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cutoutStart, cutoutEnd, duration);
 }
-// Ctor Parameters []
- GlobalNamespace::BaseNoteVisuals::BaseNoteVisuals()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BaseNoteVisuals>())) {}
+ GlobalNamespace::BaseNoteVisuals GlobalNamespace::BaseNoteVisuals::New_ctor()  {
+GlobalNamespace::BaseNoteVisuals o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BaseNoteVisuals>())};
+return o;
+}
  void GlobalNamespace::BaseNoteVisuals::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BaseNoteVisuals>::get(),

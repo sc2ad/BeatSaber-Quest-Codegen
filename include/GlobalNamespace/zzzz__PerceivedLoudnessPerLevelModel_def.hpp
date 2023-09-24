@@ -74,8 +74,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,float_t> __get__l
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "loudnessPerLeveData", ty: "GlobalNamespace::PerceivedLoudnessPerLevelSO", modifiers: "", def_value: None }]
-explicit PerceivedLoudnessPerLevelModel(GlobalNamespace::PerceivedLoudnessPerLevelSO loudnessPerLeveData) ;
+static GlobalNamespace::PerceivedLoudnessPerLevelModel New_ctor(GlobalNamespace::PerceivedLoudnessPerLevelSO loudnessPerLeveData) ;
 
 /// @brief Method .ctor addr 0x21ee670 size 0xfc virtual false final false
  void _ctor(GlobalNamespace::PerceivedLoudnessPerLevelSO loudnessPerLeveData) ;

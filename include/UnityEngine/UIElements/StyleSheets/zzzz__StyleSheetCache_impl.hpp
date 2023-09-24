@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StyleSheetCache_def.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleRule_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StyleSheetCache_def.hpp"
+#include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKey._ctor
 template<>
@@ -121,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, key);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer>())) {}
+ UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer::New_ctor()  {
+UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer>())};
+return o;
+}
  void UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StyleSheetCache__SheetHandleKeyComparer>::get(),

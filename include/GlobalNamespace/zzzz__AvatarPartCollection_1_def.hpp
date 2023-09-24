@@ -96,8 +96,7 @@ constexpr ::ArrayW<T> __get__parts() const;
 /// @brief Method get_parts addr 0x0 size 0xffffffffffffffff virtual false final false
  ::ArrayW<T> get_parts() ;
 
-// Ctor Parameters [CppParam { name: "parts", ty: "::ArrayW<T>", modifiers: "", def_value: None }]
-explicit AvatarPartCollection_1(::ArrayW<T> parts) ;
+static GlobalNamespace::AvatarPartCollection_1<T> New_ctor(::ArrayW<T> parts) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::ArrayW<T> parts) ;

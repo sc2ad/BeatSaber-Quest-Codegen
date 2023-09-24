@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/InputSystem/Interactions/zzzz__HoldInteraction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Interactions::HoldInteraction.get_durationOrDefault
 template<>
 
@@ -145,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Interactions::HoldInteraction::HoldInteraction()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoldInteraction>())) {}
+ UnityEngine::InputSystem::Interactions::HoldInteraction UnityEngine::InputSystem::Interactions::HoldInteraction::New_ctor()  {
+UnityEngine::InputSystem::Interactions::HoldInteraction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Interactions::HoldInteraction>())};
+return o;
+}
  void UnityEngine::InputSystem::Interactions::HoldInteraction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Interactions::HoldInteraction>::get(),

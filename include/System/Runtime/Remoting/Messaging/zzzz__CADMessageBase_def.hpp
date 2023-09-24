@@ -5,25 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
 class CADArgHolder;
 }
-namespace System::Reflection {
-class MethodBase;
+namespace System {
+class Type;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
+class LogicalCallContext;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 namespace System::Collections {
 class ArrayList;
-}
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -104,8 +104,7 @@ constexpr ::ArrayW<uint8_t> __get_serializedMethod() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "msg", ty: "System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
-explicit CADMessageBase(System::Runtime::Remoting::Messaging::IMethodMessage msg) ;
+static System::Runtime::Remoting::Messaging::CADMessageBase New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage msg) ;
 
 /// @brief Method .ctor addr 0x233c32c size 0x94 virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMethodMessage msg) ;

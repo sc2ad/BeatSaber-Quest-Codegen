@@ -47,8 +47,7 @@ constexpr explicit InjectOptionalAttribute(void* ptr) noexcept : Zenject::Inject
 
 // Methods
 
-// Ctor Parameters []
-explicit InjectOptionalAttribute() ;
+static Zenject::InjectOptionalAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40320 size 0x20 virtual false final false
  void _ctor() ;

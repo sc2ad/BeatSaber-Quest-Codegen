@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
+class IRawAgreement;
+}
+namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class X448PrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IRawAgreement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -84,8 +84,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters __get_
 /// @brief Method CalculateAgreement addr 0x1192268 size 0x8c virtual true final true
  void CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters publicKey, ::ArrayW<uint8_t> buf, int32_t off) ;
 
-// Ctor Parameters []
-explicit X448Agreement() ;
+static Org::BouncyCastle::Crypto::Agreement::X448Agreement New_ctor() ;
 
 /// @brief Method .ctor addr 0x11922f4 size 0x8 virtual false final false
  void _ctor() ;

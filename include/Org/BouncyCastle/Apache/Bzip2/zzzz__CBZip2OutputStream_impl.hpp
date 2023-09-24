@@ -1,9 +1,10 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Apache/Bzip2/zzzz__CBZip2OutputStream_def.hpp"
+#include "Org/BouncyCastle/Apache/Bzip2/zzzz__CBZip2OutputStream_def.hpp"
 #include "Org/BouncyCastle/Apache/Bzip2/zzzz__CRC_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem._ctor
 template<>
 
@@ -39,8 +40,10 @@ constexpr void Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip
 constexpr int32_t Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem::__get_dd() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem>())) {}
+ Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem::New_ctor()  {
+Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem>())};
+return o;
+}
  void Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem>::get(),
@@ -1018,8 +1021,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, len, freq, alphaSize, maxLen);
 }
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::CBZip2OutputStream(System::IO::Stream inStream)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<CBZip2OutputStream>(inStream))) {}
+ Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::New_ctor(System::IO::Stream inStream)  {
+Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream>(inStream))};
+return o;
+}
  void Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::_ctor(System::IO::Stream inStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream>::get(),
@@ -1029,8 +1034,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inStream);
 }
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "inBlockSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::CBZip2OutputStream(System::IO::Stream inStream, int32_t inBlockSize)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<CBZip2OutputStream>(inStream, inBlockSize))) {}
+ Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::New_ctor(System::IO::Stream inStream, int32_t inBlockSize)  {
+Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream>(inStream, inBlockSize))};
+return o;
+}
  void Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::_ctor(System::IO::Stream inStream, int32_t inBlockSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream>::get(),

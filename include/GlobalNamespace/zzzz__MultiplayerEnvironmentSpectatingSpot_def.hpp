@@ -3,24 +3,24 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class MultiplayerActivePlayersTimeOffsetAverage;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class MultiplayerSpectatingSpotManager;
-}
-namespace GlobalNamespace {
-class MultiplayerActivePlayersTimeOffsetAverage;
-}
-namespace UnityEngine {
-class Transform;
+class IMultiplayerObservable;
 }
 namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
 }
 namespace GlobalNamespace {
-class IMultiplayerObservable;
+class MultiplayerSpectatingSpotManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -143,8 +143,7 @@ constexpr System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot> __get_ha
 /// @brief Method SetIsObserved addr 0x2106220 size 0x4 virtual true final true
  void SetIsObserved(bool isObserved) ;
 
-// Ctor Parameters []
-explicit MultiplayerEnvironmentSpectatingSpot() ;
+static GlobalNamespace::MultiplayerEnvironmentSpectatingSpot New_ctor() ;
 
 /// @brief Method .ctor addr 0x2106224 size 0x8 virtual false final false
  void _ctor() ;

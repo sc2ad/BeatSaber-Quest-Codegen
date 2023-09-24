@@ -2,28 +2,29 @@
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IPropertyPreview_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ActivationControlPlayable_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IPropertyPreview_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ActivationControlPlayable_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"
+#include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39._ctor
 template<>
 
@@ -222,8 +223,10 @@ constexpr void UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsse
 constexpr int32_t UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39::__get___7__wrap2() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39>(__1__state))) {}
+ UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39 UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39::New_ctor(int32_t __1__state)  {
+UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39>(__1__state))};
+return o;
+}
  void UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::UnityEngine__Timeline__ControlPlayableAsset___GetControlableScripts_d__39>::get(),
@@ -1073,8 +1076,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, driver, directors);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::ControlPlayableAsset::ControlPlayableAsset()  : UnityEngine::Playables::PlayableAsset(THROW_UNLESS(::il2cpp_utils::New<ControlPlayableAsset>())) {}
+ UnityEngine::Timeline::ControlPlayableAsset UnityEngine::Timeline::ControlPlayableAsset::New_ctor()  {
+UnityEngine::Timeline::ControlPlayableAsset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::ControlPlayableAsset>())};
+return o;
+}
  void UnityEngine::Timeline::ControlPlayableAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::ControlPlayableAsset>::get(),

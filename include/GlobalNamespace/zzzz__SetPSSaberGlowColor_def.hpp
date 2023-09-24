@@ -4,11 +4,11 @@
 namespace GlobalNamespace {
 class ColorManager;
 }
-namespace GlobalNamespace {
-class SaberTypeObject;
-}
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace GlobalNamespace {
+class SaberTypeObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr UnityEngine::ParticleSystem __get__particleSystem() const;
 /// @brief Method Start addr 0x210ca30 size 0x84 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit SetPSSaberGlowColor() ;
+static GlobalNamespace::SetPSSaberGlowColor New_ctor() ;
 
 /// @brief Method .ctor addr 0x210cab4 size 0x8 virtual false final false
  void _ctor() ;

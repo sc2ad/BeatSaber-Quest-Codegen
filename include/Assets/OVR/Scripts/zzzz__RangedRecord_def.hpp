@@ -71,8 +71,7 @@ constexpr float_t __get_max() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cat", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "val", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "minVal", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxVal", ty: "float_t", modifiers: "", def_value: None }]
-explicit RangedRecord(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal) ;
+static Assets::OVR::Scripts::RangedRecord New_ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal) ;
 
 /// @brief Method .ctor addr 0x266a938 size 0x60 virtual false final false
  void _ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal) ;

@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine {
-class SpriteRenderer;
+class Material;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 class BoolSO;
 }
 namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class Material;
+class SpriteRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -123,8 +123,7 @@ constexpr UnityEngine::SpriteRenderer __get__spriteRenderer() const;
 /// @brief Method Apply addr 0x2115830 size 0xa4 virtual false final false
  void Apply() ;
 
-// Ctor Parameters []
-explicit ConditionalSpriteSwitcher() ;
+static GlobalNamespace::ConditionalSpriteSwitcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x21158d4 size 0x8 virtual false final false
  void _ctor() ;

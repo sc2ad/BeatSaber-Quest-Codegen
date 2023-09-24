@@ -1,20 +1,20 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGenerator_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGeneratorAI_def.hpp"
-#include "GlobalNamespace/zzzz__IMockPlayerScoreCalculator_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__NoteSpawnInfoNetSerializable_def.hpp"
-#include "UnityEngine/zzzz__Pose_def.hpp"
-#include "GlobalNamespace/zzzz__SliderSpawnInfoNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__IMockPlayerScoreCalculator_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__MockObstacleData_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleSpawnInfoNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleSpawnInfoNetSerializable_def.hpp"
+#include "UnityEngine/zzzz__Pose_def.hpp"
+#include "GlobalNamespace/zzzz__SliderSpawnInfoNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__MockObstacleData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI._ctor
 template<>
 
@@ -433,8 +433,10 @@ constexpr void GlobalNamespace::MockPlayerGamePoseGeneratorAI::__set__isInited(b
 constexpr bool GlobalNamespace::MockPlayerGamePoseGeneratorAI::__get__isInited() const {
 return ::cordl_internals::getInstanceField<bool, 0x10e>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "scoreCalculator", ty: "GlobalNamespace::IMockPlayerScoreCalculator", modifiers: "", def_value: None }, CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::MockPlayerGamePoseGeneratorAI::MockPlayerGamePoseGeneratorAI(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMockPlayerScoreCalculator scoreCalculator, bool leftHanded)  : GlobalNamespace::MockPlayerGamePoseGenerator(THROW_UNLESS(::il2cpp_utils::New<MockPlayerGamePoseGeneratorAI>(multiplayerSessionManager, gameplayRpcManager, scoreCalculator, leftHanded))) {}
+ GlobalNamespace::MockPlayerGamePoseGeneratorAI GlobalNamespace::MockPlayerGamePoseGeneratorAI::New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMockPlayerScoreCalculator scoreCalculator, bool leftHanded)  {
+GlobalNamespace::MockPlayerGamePoseGeneratorAI o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockPlayerGamePoseGeneratorAI>(multiplayerSessionManager, gameplayRpcManager, scoreCalculator, leftHanded))};
+return o;
+}
  void GlobalNamespace::MockPlayerGamePoseGeneratorAI::_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMockPlayerScoreCalculator scoreCalculator, bool leftHanded)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockPlayerGamePoseGeneratorAI>::get(),

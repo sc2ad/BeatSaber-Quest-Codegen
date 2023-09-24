@@ -7,11 +7,11 @@ namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace System {
 class AsyncCallback;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace System {
 class IAsyncResult;
@@ -62,8 +62,7 @@ constexpr explicit InputDeviceCommandDelegate(void* ptr) noexcept : System::Mult
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit InputDeviceCommandDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2954d54 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

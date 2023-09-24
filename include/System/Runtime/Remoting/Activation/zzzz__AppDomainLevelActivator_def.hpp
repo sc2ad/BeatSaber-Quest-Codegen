@@ -6,10 +6,10 @@ namespace System::Runtime::Remoting::Activation {
 class IActivator;
 }
 namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
+class IConstructionReturnMessage;
 }
 namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
+class IConstructionCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
@@ -80,8 +80,7 @@ constexpr System::Runtime::Remoting::Activation::IActivator __get__next() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "activationUrl", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Runtime::Remoting::Activation::IActivator", modifiers: "", def_value: None }]
-explicit AppDomainLevelActivator(::StringW activationUrl, System::Runtime::Remoting::Activation::IActivator next) ;
+static System::Runtime::Remoting::Activation::AppDomainLevelActivator New_ctor(::StringW activationUrl, System::Runtime::Remoting::Activation::IActivator next) ;
 
 /// @brief Method .ctor addr 0x23382c0 size 0x2c virtual false final false
  void _ctor(::StringW activationUrl, System::Runtime::Remoting::Activation::IActivator next) ;

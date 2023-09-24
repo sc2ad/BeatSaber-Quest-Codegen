@@ -2,8 +2,9 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__Vector3Composite_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
+#include "UnityEngine/InputSystem/Composites/zzzz__Vector3Composite_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Composites__Vector3Composite__Mode::UnityEngine__InputSystem__Composites__Vector3Composite__Mode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -101,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method, context);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Composites::Vector3Composite::Vector3Composite()  : UnityEngine::InputSystem::InputBindingComposite_1<UnityEngine::Vector3>(THROW_UNLESS(::il2cpp_utils::New<Vector3Composite>())) {}
+ UnityEngine::InputSystem::Composites::Vector3Composite UnityEngine::InputSystem::Composites::Vector3Composite::New_ctor()  {
+UnityEngine::InputSystem::Composites::Vector3Composite o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Composites::Vector3Composite>())};
+return o;
+}
  void UnityEngine::InputSystem::Composites::Vector3Composite::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Composites::Vector3Composite>::get(),

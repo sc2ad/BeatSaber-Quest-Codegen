@@ -4,26 +4,26 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace System {
 class ICloneable;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
 }
-namespace System::Net::Http::Headers {
-class NameValueHeaderValue;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System {
-struct TimeSpan;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Net::Http::Headers {
+class NameValueHeaderValue;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -310,8 +310,7 @@ static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::CacheCon
 /// @brief Method ToString addr 0x26a5070 size 0x6e0 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit CacheControlHeaderValue() ;
+static System::Net::Http::Headers::CacheControlHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26a4e88 size 0x8 virtual false final false
  void _ctor() ;

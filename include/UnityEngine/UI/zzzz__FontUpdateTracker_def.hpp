@@ -2,18 +2,18 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine::UI {
 class Text;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
 namespace UnityEngine {
 class Font;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

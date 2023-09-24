@@ -2,16 +2,16 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class KekRecipientInfo;
+class CmsTypedStream;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
+class CmsSecureReadable;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class KekRecipientInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -68,8 +68,7 @@ constexpr Org::BouncyCastle::Asn1::Cms::KekRecipientInfo __get_info() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KekRecipientInfo", modifiers: "", def_value: None }, CppParam { name: "secureReadable", ty: "Org::BouncyCastle::Cms::CmsSecureReadable", modifiers: "", def_value: None }]
-explicit KekRecipientInformation(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
+static Org::BouncyCastle::Cms::KekRecipientInformation New_ctor(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
 
 /// @brief Method .ctor addr 0x1158768 size 0xb4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;

@@ -91,14 +91,12 @@ constexpr Org::BouncyCastle::Crypto::IDigest __get_mSha1() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CombinedHash() ;
+static Org::BouncyCastle::Crypto::Tls::CombinedHash New_ctor() ;
 
 /// @brief Method .ctor addr 0xed2cf0 size 0x7c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Tls::CombinedHash", modifiers: "", def_value: None }]
-explicit CombinedHash(Org::BouncyCastle::Crypto::Tls::CombinedHash t) ;
+static Org::BouncyCastle::Crypto::Tls::CombinedHash New_ctor(Org::BouncyCastle::Crypto::Tls::CombinedHash t) ;
 
 /// @brief Method .ctor addr 0xed2d6c size 0x9c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::CombinedHash t) ;

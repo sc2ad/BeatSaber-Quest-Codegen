@@ -47,8 +47,7 @@ constexpr explicit ProGridsNoSnapAttribute(void* ptr) noexcept : System::Attribu
 
 // Methods
 
-// Ctor Parameters []
-explicit ProGridsNoSnapAttribute() ;
+static UnityEngine::ProBuilder::ProGridsNoSnapAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x29cc414 size 0x8 virtual false final false
  void _ctor() ;

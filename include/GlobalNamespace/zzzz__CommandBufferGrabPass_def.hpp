@@ -2,14 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine {
-class Camera;
-}
 namespace GlobalNamespace {
 class CommandBufferOwners;
-}
-namespace UnityEngine::Rendering {
-struct CameraEvent;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -17,6 +11,12 @@ class Dictionary_2;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::Rendering {
+struct CameraEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +94,7 @@ static System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalName
 /// @brief Method CommandBufferCameraEvent addr 0x2675318 size 0x8 virtual true final false
  UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent() ;
 
-// Ctor Parameters []
-explicit CommandBufferGrabPass() ;
+static GlobalNamespace::CommandBufferGrabPass New_ctor() ;
 
 /// @brief Method .ctor addr 0x2675320 size 0x58 virtual false final false
  void _ctor() ;

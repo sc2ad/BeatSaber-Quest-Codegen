@@ -6,9 +6,6 @@
 namespace Org::BouncyCastle::Asn1::X509 {
 class ReasonFlags;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class DistributionPointName;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -16,10 +13,13 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class DistributionPointName;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -133,14 +133,12 @@ static Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint GetInstance(Org::
 /// @brief Method GetInstance addr 0x11072a8 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "distributionPoint", ty: "Org::BouncyCastle::Asn1::X509::DistributionPointName", modifiers: "", def_value: None }, CppParam { name: "onlyContainsUserCerts", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "onlyContainsCACerts", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "onlySomeReasons", ty: "Org::BouncyCastle::Asn1::X509::ReasonFlags", modifiers: "", def_value: None }, CppParam { name: "indirectCRL", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "onlyContainsAttributeCerts", ty: "bool", modifiers: "", def_value: None }]
-explicit IssuingDistributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName distributionPoint, bool onlyContainsUserCerts, bool onlyContainsCACerts, Org::BouncyCastle::Asn1::X509::ReasonFlags onlySomeReasons, bool indirectCRL, bool onlyContainsAttributeCerts) ;
+static Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint New_ctor(Org::BouncyCastle::Asn1::X509::DistributionPointName distributionPoint, bool onlyContainsUserCerts, bool onlyContainsCACerts, Org::BouncyCastle::Asn1::X509::ReasonFlags onlySomeReasons, bool indirectCRL, bool onlyContainsAttributeCerts) ;
 
 /// @brief Method .ctor addr 0x11076dc size 0x2f0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::DistributionPointName distributionPoint, bool onlyContainsUserCerts, bool onlyContainsCACerts, Org::BouncyCastle::Asn1::X509::ReasonFlags onlySomeReasons, bool indirectCRL, bool onlyContainsAttributeCerts) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit IssuingDistributionPoint(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1107430 size 0x2ac virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

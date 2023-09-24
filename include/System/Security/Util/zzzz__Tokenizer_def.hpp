@@ -11,11 +11,23 @@ class StreamReader;
 namespace System::Text {
 class StringBuilder;
 }
+namespace System::Security::Util {
+struct System__Security__Util__Tokenizer__TokenSource;
+}
+namespace System::Security::Util {
+class System__Security__Util__Tokenizer__StringMaker;
+}
 namespace System::Text {
 class Encoding;
 }
 namespace System::Security::Util {
+class System__Security__Util__Tokenizer__ITokenReader;
+}
+namespace System::Security::Util {
 class TokenizerStream;
+}
+namespace System::Security::Util {
+class System__Security__Util__Tokenizer__StreamTokenReader;
 }
 // Forward declare root types
 namespace System::Security::Util {
@@ -87,6 +99,8 @@ __Other = 6,
 constexpr operator __System__Security__Util__Tokenizer__TokenSource_Unwrapped () const noexcept {
 return std::bit_cast<__System__Security__Util__Tokenizer__TokenSource_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -209,8 +223,7 @@ static uint32_t HashString(::StringW str) ;
 /// @brief Method HashCharArray addr 0x22ea0f8 size 0x5c virtual false final false
 static uint32_t HashCharArray(::ArrayW<char16_t> a, int32_t l) ;
 
-// Ctor Parameters []
-explicit System__Security__Util__Tokenizer__StringMaker() ;
+static System::Security::Util::System__Security__Util__Tokenizer__StringMaker New_ctor() ;
 
 /// @brief Method .ctor addr 0x22ea154 size 0x94 virtual false final false
  void _ctor() ;
@@ -315,8 +328,7 @@ constexpr int32_t __get__numCharRead() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::StreamReader", modifiers: "", def_value: None }]
-explicit System__Security__Util__Tokenizer__StreamTokenReader(System::IO::StreamReader input) ;
+static System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader New_ctor(System::IO::StreamReader input) ;
 
 /// @brief Method .ctor addr 0x22e9e70 size 0x2c virtual false final false
  void _ctor(System::IO::StreamReader input) ;
@@ -486,8 +498,7 @@ constexpr ::StringW __get__inNestedString() const;
 /// @brief Method Recycle addr 0x22e9e14 size 0x5c virtual false final false
  void Recycle() ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Tokenizer(::StringW input) ;
+static System::Security::Util::Tokenizer New_ctor(::StringW input) ;
 
 /// @brief Method .ctor addr 0x22e9d54 size 0x48 virtual false final false
  void _ctor(::StringW input) ;

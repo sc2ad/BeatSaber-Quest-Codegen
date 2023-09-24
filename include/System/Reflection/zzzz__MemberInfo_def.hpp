@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Reflection {
-struct MemberTypes;
-}
-namespace System::Reflection {
 class ICustomAttributeProvider;
 }
 namespace System::Reflection {
-class Module;
+struct MemberTypes;
 }
 namespace System {
 class Type;
+}
+namespace System::Reflection {
+class Module;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -80,8 +80,7 @@ constexpr explicit MemberInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Methods
 
-// Ctor Parameters []
-explicit MemberInfo() ;
+static System::Reflection::MemberInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2379148 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlElementWrapper_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlElement_def.hpp"
 #include "System/Xml/zzzz__XmlElement_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlElement_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::XmlElementWrapper._ctor
 template<>
 
@@ -86,8 +86,10 @@ constexpr void Newtonsoft::Json::Converters::XmlElementWrapper::__set__element(S
 constexpr System::Xml::XmlElement Newtonsoft::Json::Converters::XmlElementWrapper::__get__element() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlElement, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "element", ty: "System::Xml::XmlElement", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::XmlElementWrapper::XmlElementWrapper(System::Xml::XmlElement element)  : Newtonsoft::Json::Converters::XmlNodeWrapper(THROW_UNLESS(::il2cpp_utils::New<XmlElementWrapper>(element))) {}
+ Newtonsoft::Json::Converters::XmlElementWrapper Newtonsoft::Json::Converters::XmlElementWrapper::New_ctor(System::Xml::XmlElement element)  {
+Newtonsoft::Json::Converters::XmlElementWrapper o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::XmlElementWrapper>(element))};
+return o;
+}
  void Newtonsoft::Json::Converters::XmlElementWrapper::_ctor(System::Xml::XmlElement element)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::XmlElementWrapper>::get(),

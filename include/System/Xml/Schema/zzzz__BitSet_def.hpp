@@ -71,14 +71,12 @@ constexpr ::ArrayW<uint32_t> __get_bits() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BitSet() ;
+static System::Xml::Schema::BitSet New_ctor() ;
 
 /// @brief Method .ctor addr 0x27189ec size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BitSet(int32_t count) ;
+static System::Xml::Schema::BitSet New_ctor(int32_t count) ;
 
 /// @brief Method .ctor addr 0x27189f4 size 0x70 virtual false final false
  void _ctor(int32_t count) ;

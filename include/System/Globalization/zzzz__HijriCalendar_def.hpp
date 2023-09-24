@@ -109,8 +109,7 @@ static System::DateTime __get_calendarMaxValue() ;
 /// @brief Method get_MaxSupportedDateTime addr 0x23f4f24 size 0x58 virtual true final false
  System::DateTime get_MaxSupportedDateTime() ;
 
-// Ctor Parameters []
-explicit HijriCalendar() ;
+static System::Globalization::HijriCalendar New_ctor() ;
 
 /// @brief Method .ctor addr 0x23f4f7c size 0x10 virtual false final false
  void _ctor() ;

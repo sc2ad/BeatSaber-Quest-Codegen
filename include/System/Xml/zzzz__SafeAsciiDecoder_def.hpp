@@ -50,8 +50,7 @@ constexpr explicit SafeAsciiDecoder(void* ptr) noexcept : System::Text::Decoder(
 
 // Methods
 
-// Ctor Parameters []
-explicit SafeAsciiDecoder() ;
+static System::Xml::SafeAsciiDecoder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2712154 size 0x8 virtual false final false
  void _ctor() ;

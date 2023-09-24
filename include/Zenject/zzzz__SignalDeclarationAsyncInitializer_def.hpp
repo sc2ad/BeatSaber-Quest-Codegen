@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
+class IInitializable;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
 class TickableManager;
-}
-namespace Zenject {
-class IInitializable;
 }
 namespace Zenject {
 template<typename T>
@@ -86,8 +86,7 @@ constexpr System::Collections::Generic::List_1<Zenject::SignalDeclaration> __get
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "declarations", ty: "System::Collections::Generic::List_1<Zenject::SignalDeclaration>", modifiers: "", def_value: None }, CppParam { name: "tickManager", ty: "Zenject::LazyInject_1<Zenject::TickableManager>", modifiers: "", def_value: None }]
-explicit SignalDeclarationAsyncInitializer(System::Collections::Generic::List_1<Zenject::SignalDeclaration> declarations, Zenject::LazyInject_1<Zenject::TickableManager> tickManager) ;
+static Zenject::SignalDeclarationAsyncInitializer New_ctor(System::Collections::Generic::List_1<Zenject::SignalDeclaration> declarations, Zenject::LazyInject_1<Zenject::TickableManager> tickManager) ;
 
 /// @brief Method .ctor addr 0x2d4cce8 size 0x2c virtual false final false
  void _ctor(System::Collections::Generic::List_1<Zenject::SignalDeclaration> declarations, Zenject::LazyInject_1<Zenject::TickableManager> tickManager) ;

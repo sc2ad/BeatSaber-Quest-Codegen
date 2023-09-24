@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::MessageWithNetSyncSetSessionPropertyResult(::cordl_internals::intptr_t c_message)  : Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSetSessionPropertyResult>(THROW_UNLESS(::il2cpp_utils::New<MessageWithNetSyncSetSessionPropertyResult>(c_message))) {}
+ Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::New_ctor(::cordl_internals::intptr_t c_message)  {
+Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult>(c_message))};
+return o;
+}
  void Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::_ctor(::cordl_internals::intptr_t c_message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult>::get(),

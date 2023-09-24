@@ -96,8 +96,7 @@ constexpr float_t __get_minYPos() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "offsetHeightByHeadPos", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "yOffsetRelativeToHead", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "minYPos", ty: "float_t", modifiers: "", def_value: None }]
-explicit ScreenModeData(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos) ;
+static HMUI::ScreenModeData New_ctor(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos) ;
 
 /// @brief Method .ctor addr 0x1fb8aa0 size 0x98 virtual false final false
  void _ctor(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos) ;

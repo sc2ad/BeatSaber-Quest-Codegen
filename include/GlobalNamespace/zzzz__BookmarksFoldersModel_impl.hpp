@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BookmarksFoldersModel_def.hpp"
 #include "GlobalNamespace/zzzz__FileBrowserItem_def.hpp"
+#include "GlobalNamespace/zzzz__BookmarksFoldersModel_def.hpp"
 #include "System/zzzz__Environment_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c._ctor
@@ -50,8 +51,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Bookm
  System::Func_2<System::System__Environment__SpecialFolder,::StringW> GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c::__get___9__3_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::System__Environment__SpecialFolder,::StringW>, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c::GlobalNamespace__BookmarksFoldersModel____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BookmarksFoldersModel____c>())) {}
+ GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BookmarksFoldersModel____c>::get(),
@@ -125,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::FileBrowserItem>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BookmarksFoldersModel::BookmarksFoldersModel()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BookmarksFoldersModel>())) {}
+ GlobalNamespace::BookmarksFoldersModel GlobalNamespace::BookmarksFoldersModel::New_ctor()  {
+GlobalNamespace::BookmarksFoldersModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BookmarksFoldersModel>())};
+return o;
+}
  void GlobalNamespace::BookmarksFoldersModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BookmarksFoldersModel>::get(),

@@ -5,22 +5,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsHandshakeHash;
+class TlsContext;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Crypto::Tls {
+class Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsRecordLayer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class Timeout;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsHandshakeHash;
 }
 namespace System::Collections {
 class IList;
 }
+namespace System::Collections {
+class IDictionary;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
-class Timeout;
+class Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsHandshakeRetransmit;
@@ -110,8 +119,7 @@ constexpr ::ArrayW<uint8_t> __get_mBody() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message_seq", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "msg_type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "body", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message(int32_t message_seq, uint8_t msg_type, ::ArrayW<uint8_t> body) ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Message New_ctor(int32_t message_seq, uint8_t msg_type, ::ArrayW<uint8_t> body) ;
 
 /// @brief Method .ctor addr 0xee0bc0 size 0x40 virtual false final false
  void _ctor(int32_t message_seq, uint8_t msg_type, ::ArrayW<uint8_t> body) ;
@@ -171,8 +179,7 @@ constexpr explicit Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Record
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer(int32_t size) ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__RecordLayerBuffer New_ctor(int32_t size) ;
 
 /// @brief Method .ctor addr 0xee2080 size 0x8 virtual false final false
  void _ctor(int32_t size) ;
@@ -238,8 +245,7 @@ constexpr Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake __get_mOuter() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit(Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake outer) ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsReliableHandshake__Retransmit New_ctor(Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake outer) ;
 
 /// @brief Method .ctor addr 0xee177c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake outer) ;
@@ -379,8 +385,7 @@ constexpr int32_t __get_mNextReceiveSeq() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "transport", ty: "Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer", modifiers: "", def_value: None }, CppParam { name: "timeoutMillis", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DtlsReliableHandshake(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer transport, int32_t timeoutMillis) ;
+static Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer transport, int32_t timeoutMillis) ;
 
 /// @brief Method .ctor addr 0xedb970 size 0x14c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer transport, int32_t timeoutMillis) ;

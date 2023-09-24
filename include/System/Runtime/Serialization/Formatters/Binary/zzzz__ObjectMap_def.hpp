@@ -5,23 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectReader;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ReadObjectInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryAssemblyInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SizedArray;
+class ObjectReader;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryTypeEnum;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SizedArray;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -141,14 +141,12 @@ constexpr System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "memberNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "objectReader", ty: "System::Runtime::Serialization::Formatters::Binary::ObjectReader", modifiers: "", def_value: None }, CppParam { name: "objectId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "assemblyInfo", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo", modifiers: "", def_value: None }]
-explicit ObjectMap(::StringW objectName, System::Type objectType, ::ArrayW<::StringW> memberNames, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo) ;
+static System::Runtime::Serialization::Formatters::Binary::ObjectMap New_ctor(::StringW objectName, System::Type objectType, ::ArrayW<::StringW> memberNames, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo) ;
 
 /// @brief Method .ctor addr 0x235731c size 0x1b4 virtual false final false
  void _ctor(::StringW objectName, System::Type objectType, ::ArrayW<::StringW> memberNames, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo) ;
 
-// Ctor Parameters [CppParam { name: "objectName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "memberNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "binaryTypeEnumA", ty: "::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>", modifiers: "", def_value: None }, CppParam { name: "typeInformationA", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "memberAssemIds", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "objectReader", ty: "System::Runtime::Serialization::Formatters::Binary::ObjectReader", modifiers: "", def_value: None }, CppParam { name: "objectId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "assemblyInfo", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo", modifiers: "", def_value: None }, CppParam { name: "assemIdToAssemblyTable", ty: "System::Runtime::Serialization::Formatters::Binary::SizedArray", modifiers: "", def_value: None }]
-explicit ObjectMap(::StringW objectName, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayW<::bs_hook::Il2CppWrapperType> typeInformationA, ::ArrayW<int32_t> memberAssemIds, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo, System::Runtime::Serialization::Formatters::Binary::SizedArray assemIdToAssemblyTable) ;
+static System::Runtime::Serialization::Formatters::Binary::ObjectMap New_ctor(::StringW objectName, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayW<::bs_hook::Il2CppWrapperType> typeInformationA, ::ArrayW<int32_t> memberAssemIds, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo, System::Runtime::Serialization::Formatters::Binary::SizedArray assemIdToAssemblyTable) ;
 
 /// @brief Method .ctor addr 0x235799c size 0x2e4 virtual false final false
  void _ctor(::StringW objectName, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayW<::bs_hook::Il2CppWrapperType> typeInformationA, ::ArrayW<int32_t> memberAssemIds, System::Runtime::Serialization::Formatters::Binary::ObjectReader objectReader, int32_t objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo assemblyInfo, System::Runtime::Serialization::Formatters::Binary::SizedArray assemIdToAssemblyTable) ;

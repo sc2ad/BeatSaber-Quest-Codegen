@@ -47,8 +47,7 @@ constexpr explicit AspMvcViewComponentViewAttribute(void* ptr) noexcept : System
 
 // Methods
 
-// Ctor Parameters []
-explicit AspMvcViewComponentViewAttribute() ;
+static JetBrains::Annotations::AspMvcViewComponentViewAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41158 size 0x8 virtual false final false
  void _ctor() ;

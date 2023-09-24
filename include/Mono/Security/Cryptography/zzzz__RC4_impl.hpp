@@ -82,8 +82,10 @@ return ::cordl_internals::getStaticField<::ArrayW<System::Security::Cryptography
  ::ArrayW<System::Security::Cryptography::KeySizes> Mono::Security::Cryptography::RC4::__get_s_legalKeySizes()  {
 return ::cordl_internals::getStaticField<::ArrayW<System::Security::Cryptography::KeySizes>, "s_legalKeySizes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::RC4>::get>();
 }
-// Ctor Parameters []
- Mono::Security::Cryptography::RC4::RC4()  : System::Security::Cryptography::SymmetricAlgorithm(THROW_UNLESS(::il2cpp_utils::New<RC4>())) {}
+ Mono::Security::Cryptography::RC4 Mono::Security::Cryptography::RC4::New_ctor()  {
+Mono::Security::Cryptography::RC4 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Cryptography::RC4>())};
+return o;
+}
  void Mono::Security::Cryptography::RC4::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Cryptography::RC4>::get(),

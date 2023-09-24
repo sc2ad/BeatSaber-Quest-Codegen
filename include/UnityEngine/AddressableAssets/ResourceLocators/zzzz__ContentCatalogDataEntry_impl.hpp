@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ContentCatalogDataEntry_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry.get_InternalId
 template<>
@@ -368,8 +368,12 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "internalId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keys", ty: "System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "extraData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::ContentCatalogDataEntry(System::Type type, ::StringW internalId, ::StringW provider, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> keys, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> dependencies, ::bs_hook::Il2CppWrapperType extraData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ContentCatalogDataEntry>(type, internalId, provider, keys, dependencies, extraData))) {}
+/// @param dependencies: System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> (default: csnull)
+/// @param extraData: ::bs_hook::Il2CppWrapperType (default: csnull)
+ UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::New_ctor(System::Type type, ::StringW internalId, ::StringW provider, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> keys, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> dependencies, ::bs_hook::Il2CppWrapperType extraData)  {
+UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry>(type, internalId, provider, keys, dependencies, extraData))};
+return o;
+}
 /// @param dependencies: System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> (default: csnull)
 /// @param extraData: ::bs_hook::Il2CppWrapperType (default: csnull)
  void UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::_ctor(System::Type type, ::StringW internalId, ::StringW provider, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> keys, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> dependencies, ::bs_hook::Il2CppWrapperType extraData)  {

@@ -6,11 +6,11 @@
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpUserAttributeSubpacketVector;
-}
 namespace Org::BouncyCastle::Bcpg::Attr {
 struct Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpUserAttributeSubpacketVector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -73,8 +73,7 @@ constexpr System::Collections::IList __get_list() const;
 /// @brief Method Generate addr 0x1041714 size 0x2c8 virtual true final false
  Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector Generate() ;
 
-// Ctor Parameters []
-explicit PgpUserAttributeSubpacketVectorGenerator() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x10419dc size 0x64 virtual false final false
  void _ctor() ;

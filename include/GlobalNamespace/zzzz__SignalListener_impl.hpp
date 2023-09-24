@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SignalListener_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SignalListener.OnEnable
 template<>
 
@@ -110,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SignalListener::SignalListener()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SignalListener>())) {}
+ GlobalNamespace::SignalListener GlobalNamespace::SignalListener::New_ctor()  {
+GlobalNamespace::SignalListener o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SignalListener>())};
+return o;
+}
  void GlobalNamespace::SignalListener::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SignalListener>::get(),

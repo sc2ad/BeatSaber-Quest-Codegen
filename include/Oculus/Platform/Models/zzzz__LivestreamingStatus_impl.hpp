@@ -47,8 +47,10 @@ constexpr void Oculus::Platform::Models::LivestreamingStatus::__set_MicEnabled(b
 constexpr bool Oculus::Platform::Models::LivestreamingStatus::__get_MicEnabled() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::LivestreamingStatus::LivestreamingStatus(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LivestreamingStatus>(o))) {}
+ Oculus::Platform::Models::LivestreamingStatus Oculus::Platform::Models::LivestreamingStatus::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::LivestreamingStatus o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::LivestreamingStatus>(o))};
+return o;
+}
  void Oculus::Platform::Models::LivestreamingStatus::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::LivestreamingStatus>::get(),

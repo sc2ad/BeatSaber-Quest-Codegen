@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__PasswordRecipientInformation_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__PasswordRecipientInfo_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__PasswordRecipientInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::PasswordRecipientInformation._ctor
 template<>
 
@@ -63,8 +63,10 @@ constexpr void Org::BouncyCastle::Cms::PasswordRecipientInformation::__set_info(
 constexpr Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo Org::BouncyCastle::Cms::PasswordRecipientInformation::__get_info() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo", modifiers: "", def_value: None }, CppParam { name: "secureReadable", ty: "Org::BouncyCastle::Cms::CmsSecureReadable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::PasswordRecipientInformation::PasswordRecipientInformation(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  : Org::BouncyCastle::Cms::RecipientInformation(THROW_UNLESS(::il2cpp_utils::New<PasswordRecipientInformation>(info, secureReadable))) {}
+ Org::BouncyCastle::Cms::PasswordRecipientInformation Org::BouncyCastle::Cms::PasswordRecipientInformation::New_ctor(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  {
+Org::BouncyCastle::Cms::PasswordRecipientInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::PasswordRecipientInformation>(info, secureReadable))};
+return o;
+}
  void Org::BouncyCastle::Cms::PasswordRecipientInformation::_ctor(Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::PasswordRecipientInformation>::get(),

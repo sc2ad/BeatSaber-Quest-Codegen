@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class StyleSheet;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

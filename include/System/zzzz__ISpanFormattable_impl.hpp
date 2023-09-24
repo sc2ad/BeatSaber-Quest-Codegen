@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ISpanFormattable_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
 //  Writing Method size for method: System::ISpanFormattable.TryFormat
 template<>
 

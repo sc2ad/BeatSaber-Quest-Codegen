@@ -59,6 +59,8 @@ constexpr operator __MonoFileType_Unwrapped () const noexcept {
 return std::bit_cast<__MonoFileType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

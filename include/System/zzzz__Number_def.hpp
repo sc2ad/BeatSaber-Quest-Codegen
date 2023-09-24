@@ -7,28 +7,34 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Globalization {
-struct NumberStyles;
-}
 namespace System {
-template<typename T>
-struct Span_1;
+struct Decimal;
 }
 namespace System::Text {
 struct ValueStringBuilder;
 }
-namespace System {
-struct Decimal;
+namespace System::Globalization {
+struct NumberStyles;
 }
 namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
+class IFormatProvider;
+}
+namespace System {
+struct System__Number__NumberBuffer;
 }
 namespace System::Globalization {
 class NumberFormatInfo;
 }
 namespace System {
-class IFormatProvider;
+template<typename T>
+struct Span_1;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
+namespace GlobalNamespace {
+struct System__Number__NumberBuffer__DigitsAndNullTerminator;
 }
 // Forward declare root types
 namespace System {

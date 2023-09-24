@@ -2,6 +2,9 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__DateTimeConverterBase_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
 namespace System {
 class Type;
 }
@@ -10,9 +13,6 @@ class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -66,8 +66,7 @@ constexpr explicit JavaScriptDateTimeConverter(void* ptr) noexcept : Newtonsoft:
 /// @brief Method ReadJson addr 0x2541320 size 0x46c virtual true final false
  ::bs_hook::Il2CppWrapperType ReadJson(Newtonsoft::Json::JsonReader reader, System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, Newtonsoft::Json::JsonSerializer serializer) ;
 
-// Ctor Parameters []
-explicit JavaScriptDateTimeConverter() ;
+static Newtonsoft::Json::Converters::JavaScriptDateTimeConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x254178c size 0x8 virtual false final false
  void _ctor() ;

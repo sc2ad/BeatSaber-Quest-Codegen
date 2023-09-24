@@ -48,8 +48,7 @@ constexpr explicit MessageWithLeaderboardDidUpdate(void* ptr) noexcept : Oculus:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithLeaderboardDidUpdate(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithLeaderboardDidUpdate New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e9a8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

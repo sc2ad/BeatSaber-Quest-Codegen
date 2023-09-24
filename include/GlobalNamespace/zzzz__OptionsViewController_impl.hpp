@@ -2,9 +2,10 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__OptionsViewController_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__OptionsViewController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OptionsViewController__OptionsButton::GlobalNamespace__OptionsViewController__OptionsButton(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -193,8 +194,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-// Ctor Parameters []
- GlobalNamespace::OptionsViewController::OptionsViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<OptionsViewController>())) {}
+ GlobalNamespace::OptionsViewController GlobalNamespace::OptionsViewController::New_ctor()  {
+GlobalNamespace::OptionsViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OptionsViewController>())};
+return o;
+}
  void GlobalNamespace::OptionsViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OptionsViewController>::get(),

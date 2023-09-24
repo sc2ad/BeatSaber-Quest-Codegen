@@ -60,8 +60,7 @@ static constexpr uint8_t  named_curve{3u};
 
 // Methods
 
-// Ctor Parameters []
-explicit ECCurveType() ;
+static Org::BouncyCastle::Crypto::Tls::ECCurveType New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04204 size 0x8 virtual false final false
  void _ctor() ;

@@ -13,7 +13,7 @@ class AssetReferenceAtlasedSprite;
 // Type: UnityEngine.AddressableAssets::AssetReferenceAtlasedSprite
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 752 }), TypeDefinitionIndex(TypeDefinitionIndex(14363))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14363)), TypeDefinitionIndex(TypeDefinitionIndex(10227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 752 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14369))
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite
 class CORDL_TYPE AssetReferenceAtlasedSprite : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Sprite> {
@@ -52,8 +52,7 @@ constexpr explicit AssetReferenceAtlasedSprite(void* ptr) noexcept : UnityEngine
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssetReferenceAtlasedSprite(::StringW guid) ;
+static UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite New_ctor(::StringW guid) ;
 
 /// @brief Method .ctor addr 0x2892314 size 0x58 virtual false final false
  void _ctor(::StringW guid) ;

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
 }
@@ -12,10 +15,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class ChaCha7539Engine;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+struct Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -80,6 +83,8 @@ __DecFinal = 8,
 constexpr operator __Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Crypto__Modes__ChaCha20Poly1305__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -266,14 +271,12 @@ constexpr int32_t __get_mBufPos() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ChaCha20Poly1305() ;
+static Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305 New_ctor() ;
 
 /// @brief Method .ctor addr 0xe8ba98 size 0x60 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "poly1305", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit ChaCha20Poly1305(Org::BouncyCastle::Crypto::IMac poly1305) ;
+static Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305 New_ctor(Org::BouncyCastle::Crypto::IMac poly1305) ;
 
 /// @brief Method .ctor addr 0xe8baf8 size 0x1e4 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IMac poly1305) ;

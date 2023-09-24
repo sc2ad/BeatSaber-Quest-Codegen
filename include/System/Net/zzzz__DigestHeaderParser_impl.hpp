@@ -200,8 +200,10 @@ constexpr void System::Net::DigestHeaderParser::__set_values(::ArrayW<::StringW>
 constexpr ::ArrayW<::StringW> System::Net::DigestHeaderParser::__get_values() const {
 return ::cordl_internals::getInstanceField<::ArrayW<::StringW>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "header", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::DigestHeaderParser::DigestHeaderParser(::StringW header)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DigestHeaderParser>(header))) {}
+ System::Net::DigestHeaderParser System::Net::DigestHeaderParser::New_ctor(::StringW header)  {
+System::Net::DigestHeaderParser o{THROW_UNLESS(::il2cpp_utils::New<System::Net::DigestHeaderParser>(header))};
+return o;
+}
  void System::Net::DigestHeaderParser::_ctor(::StringW header)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::DigestHeaderParser>::get(),

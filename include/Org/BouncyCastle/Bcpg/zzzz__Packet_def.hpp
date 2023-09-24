@@ -47,8 +47,7 @@ constexpr explicit Packet(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit Packet() ;
+static Org::BouncyCastle::Bcpg::Packet New_ctor() ;
 
 /// @brief Method .ctor addr 0x1146250 size 0x8 virtual false final false
  void _ctor() ;

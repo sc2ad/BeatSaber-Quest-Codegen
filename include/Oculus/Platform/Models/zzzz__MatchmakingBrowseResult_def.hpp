@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Oculus::Platform::Models {
-class MatchmakingEnqueueResult;
+class RoomList;
 }
 namespace Oculus::Platform::Models {
-class RoomList;
+class MatchmakingEnqueueResult;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -69,8 +69,7 @@ constexpr Oculus::Platform::Models::RoomList __get_Rooms() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MatchmakingBrowseResult(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::MatchmakingBrowseResult New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x25a058c size 0xf4 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

@@ -56,8 +56,7 @@ static System::EventArgs __get_Empty() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit EventArgs() ;
+static System::EventArgs New_ctor() ;
 
 /// @brief Method .ctor addr 0x24290d8 size 0x8 virtual false final false
  void _ctor() ;

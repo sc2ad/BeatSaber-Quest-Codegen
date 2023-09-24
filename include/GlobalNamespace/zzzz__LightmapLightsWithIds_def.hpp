@@ -10,6 +10,9 @@ struct GlobalNamespace__LightConstants__BakeId;
 namespace UnityEngine {
 struct Color;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -132,8 +135,7 @@ constexpr bool __get__initializedPropertyIds() const;
 /// @brief Method SetDataToShaders addr 0x1f9cffc size 0x160 virtual false final false
  void SetDataToShaders(UnityEngine::Color lightmapColor, UnityEngine::Color probeColor) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId() ;
+static GlobalNamespace::GlobalNamespace__LightmapLightsWithIds__LightIntensitiesWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9d19c size 0x8 virtual false final false
  void _ctor() ;
@@ -218,8 +220,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__LightmapLightsWithIds__Ligh
 /// @brief Method GetLightWithIds addr 0x1f9d15c size 0x8 virtual true final false
  System::Collections::Generic::IEnumerable_1<GlobalNamespace::GlobalNamespace__LightWithIds__LightWithId> GetLightWithIds() ;
 
-// Ctor Parameters []
-explicit LightmapLightsWithIds() ;
+static GlobalNamespace::LightmapLightsWithIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9d164 size 0x10 virtual false final false
  void _ctor() ;

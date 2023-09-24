@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightTranslationBeatmapEventData.get_translation
 template<>
 
@@ -243,8 +243,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "translation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "distribution", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::LightTranslationBeatmapEventData::LightTranslationBeatmapEventData(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t translation, float_t distribution)  : GlobalNamespace::BeatmapEventData(THROW_UNLESS(::il2cpp_utils::New<LightTranslationBeatmapEventData>(time, groupId, elementId, usePreviousEventValue, easeType, axis, translation, distribution))) {}
+ GlobalNamespace::LightTranslationBeatmapEventData GlobalNamespace::LightTranslationBeatmapEventData::New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t translation, float_t distribution)  {
+GlobalNamespace::LightTranslationBeatmapEventData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightTranslationBeatmapEventData>(time, groupId, elementId, usePreviousEventValue, easeType, axis, translation, distribution))};
+return o;
+}
  void GlobalNamespace::LightTranslationBeatmapEventData::_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t translation, float_t distribution)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightTranslationBeatmapEventData>::get(),

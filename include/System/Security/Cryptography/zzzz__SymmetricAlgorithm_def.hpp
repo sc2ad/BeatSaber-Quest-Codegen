@@ -4,9 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Security::Cryptography {
-struct CipherMode;
-}
 namespace System {
 class IDisposable;
 }
@@ -18,6 +15,9 @@ class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
 struct PaddingMode;
+}
+namespace System::Security::Cryptography {
+struct CipherMode;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -144,8 +144,7 @@ constexpr System::Security::Cryptography::PaddingMode __get_PaddingValue() const
 
 // Methods
 
-// Ctor Parameters []
-explicit SymmetricAlgorithm() ;
+static System::Security::Cryptography::SymmetricAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0x22ff120 size 0x24 virtual false final false
  void _ctor() ;

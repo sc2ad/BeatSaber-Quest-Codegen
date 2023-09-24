@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsUtilities_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateStructure_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__IssuerAndSerialNumber_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__IssuerAndSerialNumber_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateStructure_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsUtilities.get_MaximumMemory
 template<>
 
@@ -364,8 +364,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber, false>(nullptr, ___internal_method, cert);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsUtilities::CmsUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsUtilities>())) {}
+ Org::BouncyCastle::Cms::CmsUtilities Org::BouncyCastle::Cms::CmsUtilities::New_ctor()  {
+Org::BouncyCastle::Cms::CmsUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsUtilities>::get(),

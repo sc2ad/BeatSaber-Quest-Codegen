@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::OVRRuntimeSettings, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRRuntimeSettings::OVRRuntimeSettings()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<OVRRuntimeSettings>())) {}
+ GlobalNamespace::OVRRuntimeSettings GlobalNamespace::OVRRuntimeSettings::New_ctor()  {
+GlobalNamespace::OVRRuntimeSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRRuntimeSettings>())};
+return o;
+}
  void GlobalNamespace::OVRRuntimeSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRRuntimeSettings>::get(),

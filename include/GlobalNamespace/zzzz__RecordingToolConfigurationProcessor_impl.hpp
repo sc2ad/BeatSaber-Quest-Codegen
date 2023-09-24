@@ -1,18 +1,19 @@
 #pragma once
 #include "GlobalNamespace/zzzz__RecordingToolConfigurationProcessor_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolSettings_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "GlobalNamespace/zzzz__ObjectsMovementRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
-#include "GlobalNamespace/zzzz__ProgramArguments_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolConfigurationProcessor_def.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolSettings_def.hpp"
+#include "GlobalNamespace/zzzz__ProgramArguments_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolResourceContainerSO_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
+#include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "GlobalNamespace/zzzz__ObjectsMovementRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData._ctor
 template<>
 
@@ -48,8 +49,10 @@ constexpr void GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProce
 constexpr float_t GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData::__get_b() const {
 return ::cordl_internals::getInstanceField<float_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData>())) {}
+ GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData>::get(),
@@ -106,8 +109,10 @@ constexpr void GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProce
 constexpr GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_backgroundColor() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__ColorSaveData, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot::GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot>())) {}
+ GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot::New_ctor()  {
+GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__PlaybackScreenshot>::get(),
@@ -266,8 +271,10 @@ constexpr void GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProce
 constexpr bool GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration::__get_saveToOldFormat() const {
 return ::cordl_internals::getInstanceField<bool, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration::GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration>())) {}
+ GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration::New_ctor()  {
+GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__RecordingToolConfigurationProcessor__RecordingToolConfiguration>::get(),
@@ -522,8 +529,10 @@ constexpr void GlobalNamespace::RecordingToolConfigurationProcessor::__set__reso
 constexpr GlobalNamespace::RecordingToolResourceContainerSO GlobalNamespace::RecordingToolConfigurationProcessor::__get__resourceContainer() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::RecordingToolResourceContainerSO, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "programArguments", ty: "GlobalNamespace::ProgramArguments", modifiers: "", def_value: None }, CppParam { name: "logger", ty: "GlobalNamespace::IBeatSaberLogger", modifiers: "", def_value: None }, CppParam { name: "posesSerializer", ty: "GlobalNamespace::IPosesSerializer", modifiers: "", def_value: None }, CppParam { name: "resourceContainer", ty: "GlobalNamespace::RecordingToolResourceContainerSO", modifiers: "", def_value: None }]
- GlobalNamespace::RecordingToolConfigurationProcessor::RecordingToolConfigurationProcessor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RecordingToolConfigurationProcessor>(programArguments, logger, posesSerializer, resourceContainer))) {}
+ GlobalNamespace::RecordingToolConfigurationProcessor GlobalNamespace::RecordingToolConfigurationProcessor::New_ctor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer)  {
+GlobalNamespace::RecordingToolConfigurationProcessor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RecordingToolConfigurationProcessor>(programArguments, logger, posesSerializer, resourceContainer))};
+return o;
+}
  void GlobalNamespace::RecordingToolConfigurationProcessor::_ctor(GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::IBeatSaberLogger logger, GlobalNamespace::IPosesSerializer posesSerializer, GlobalNamespace::RecordingToolResourceContainerSO resourceContainer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RecordingToolConfigurationProcessor>::get(),

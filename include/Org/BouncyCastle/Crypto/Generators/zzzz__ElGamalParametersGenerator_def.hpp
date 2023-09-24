@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ElGamalParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -81,8 +81,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 /// @brief Method GenerateParameters addr 0xe6e478 size 0xdc virtual false final false
  Org::BouncyCastle::Crypto::Parameters::ElGamalParameters GenerateParameters() ;
 
-// Ctor Parameters []
-explicit ElGamalParametersGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe6e554 size 0x8 virtual false final false
  void _ctor() ;

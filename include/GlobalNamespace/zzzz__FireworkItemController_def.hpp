@@ -6,47 +6,56 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class GlobalNamespace__FireworkItemController__Pool;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+class GlobalNamespace__FireworkItemController___FireCoroutine_d__29;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
 namespace GlobalNamespace {
-class DirectionalLight;
-}
-namespace UnityEngine {
-class AudioSource;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-template<typename T>
-class RandomObjectPicker_1;
+class GlobalNamespace__FireworkItemController__FireworkItemParticleSystem;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
+class AudioClip;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
+namespace UnityEngine {
+class AudioSource;
+}
+namespace UnityEngine {
 class Gradient;
+}
+namespace GlobalNamespace {
+template<typename T>
+class RandomObjectPicker_1;
+}
+namespace GlobalNamespace {
+class DirectionalLight;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine {
 class ParticleSystem;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -142,8 +151,7 @@ constexpr bool __get__randomizeSpeed() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__FireworkItemController__FireworkItemParticleSystem() ;
+static GlobalNamespace::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x224f928 size 0x10 virtual false final false
  void _ctor() ;
@@ -351,8 +359,7 @@ constexpr System::Action_1<GlobalNamespace::FireworkItemController> __get_didFin
 /// @brief Method InitializeParticleSystem addr 0x224e5f4 size 0x314 virtual false final false
  void InitializeParticleSystem() ;
 
-// Ctor Parameters []
-explicit FireworkItemController() ;
+static GlobalNamespace::FireworkItemController New_ctor() ;
 
 /// @brief Method .ctor addr 0x224e908 size 0x1020 virtual false final false
  void _ctor() ;
@@ -403,8 +410,7 @@ constexpr explicit GlobalNamespace__FireworkItemController__Pool(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__FireworkItemController__Pool() ;
+static GlobalNamespace::GlobalNamespace__FireworkItemController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x224f938 size 0x48 virtual false final false
  void _ctor() ;
@@ -510,8 +516,7 @@ constexpr bool __get__explosionSoundFired_5__4() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__FireworkItemController___FireCoroutine_d__29(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__FireworkItemController___FireCoroutine_d__29 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x224f980 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;

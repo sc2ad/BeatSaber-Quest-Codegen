@@ -58,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SetTubeBloomPrePassLightColor::SetTubeBloomPrePassLightColor()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SetTubeBloomPrePassLightColor>())) {}
+ GlobalNamespace::SetTubeBloomPrePassLightColor GlobalNamespace::SetTubeBloomPrePassLightColor::New_ctor()  {
+GlobalNamespace::SetTubeBloomPrePassLightColor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SetTubeBloomPrePassLightColor>())};
+return o;
+}
  void GlobalNamespace::SetTubeBloomPrePassLightColor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SetTubeBloomPrePassLightColor>::get(),

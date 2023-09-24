@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockBeatmapProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IServerBeatmapProvider_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
+#include "GlobalNamespace/zzzz__IServerBeatmapProvider_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockBeatmapProvider.VerifyBeatmapForSelectionMask
 template<>
 
@@ -104,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MockBeatmapProvider::MockBeatmapProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockBeatmapProvider>())) {}
+ GlobalNamespace::MockBeatmapProvider GlobalNamespace::MockBeatmapProvider::New_ctor()  {
+GlobalNamespace::MockBeatmapProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockBeatmapProvider>())};
+return o;
+}
  void GlobalNamespace::MockBeatmapProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockBeatmapProvider>::get(),

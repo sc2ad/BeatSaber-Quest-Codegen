@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Unity::XR::Oculus {
+struct Unity__XR__Oculus__Boundary__BoundaryType;
+}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -63,6 +66,8 @@ __PlayArea = 1,
 constexpr operator __Unity__XR__Oculus__Boundary__BoundaryType_Unwrapped () const noexcept {
 return std::bit_cast<__Unity__XR__Oculus__Boundary__BoundaryType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

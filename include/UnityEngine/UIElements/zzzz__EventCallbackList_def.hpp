@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-class Delegate;
-}
 namespace UnityEngine::UIElements {
 class EventCallbackFunctorBase;
+}
+namespace System {
+class Delegate;
 }
 namespace UnityEngine::UIElements {
 struct CallbackPhase;
@@ -105,14 +105,12 @@ constexpr int32_t __get__bubbleUpCallbackCount_k__BackingField() const;
 /// @brief Method set_bubbleUpCallbackCount addr 0x2cd3ed4 size 0x8 virtual false final false
  void set_bubbleUpCallbackCount(int32_t value) ;
 
-// Ctor Parameters []
-explicit EventCallbackList() ;
+static UnityEngine::UIElements::EventCallbackList New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd3b60 size 0x80 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "UnityEngine::UIElements::EventCallbackList", modifiers: "", def_value: None }]
-explicit EventCallbackList(UnityEngine::UIElements::EventCallbackList source) ;
+static UnityEngine::UIElements::EventCallbackList New_ctor(UnityEngine::UIElements::EventCallbackList source) ;
 
 /// @brief Method .ctor addr 0x2cd3ad0 size 0x90 virtual false final false
  void _ctor(UnityEngine::UIElements::EventCallbackList source) ;

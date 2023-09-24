@@ -100,8 +100,7 @@ static UnityEngine::LayerMask GetLayerMask(int32_t layerNum) ;
 /// @brief Method GetLayer addr 0x11a384c size 0x8 virtual false final false
 static int32_t GetLayer(::StringW layerName) ;
 
-// Ctor Parameters []
-explicit LayerMasks() ;
+static GlobalNamespace::LayerMasks New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a3854 size 0x8 virtual false final false
  void _ctor() ;

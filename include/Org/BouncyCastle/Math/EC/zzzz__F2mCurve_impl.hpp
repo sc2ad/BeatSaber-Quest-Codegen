@@ -2,13 +2,14 @@
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractECLookupTable_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mCurve_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__F2mCurve_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__F2mPoint_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__F2mCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable._ctor
 template<>
 
@@ -112,8 +113,10 @@ constexpr void Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__F2mCurv
 constexpr int32_t Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable::__get_m_size() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::F2mCurve", modifiers: "", def_value: None }, CppParam { name: "table", ty: "::ArrayW<int64_t>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable::Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable(Org::BouncyCastle::Math::EC::F2mCurve outer, ::ArrayW<int64_t> table, int32_t size)  : Org::BouncyCastle::Math::EC::AbstractECLookupTable(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable>(outer, table, size))) {}
+ Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable::New_ctor(Org::BouncyCastle::Math::EC::F2mCurve outer, ::ArrayW<int64_t> table, int32_t size)  {
+Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable>(outer, table, size))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable::_ctor(Org::BouncyCastle::Math::EC::F2mCurve outer, ::ArrayW<int64_t> table, int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__F2mCurve__DefaultF2mLookupTable>::get(),
@@ -512,8 +515,10 @@ constexpr void Org::BouncyCastle::Math::EC::F2mCurve::__set_m_infinity(Org::Boun
 constexpr Org::BouncyCastle::Math::EC::F2mPoint Org::BouncyCastle::Math::EC::F2mCurve::__get_m_infinity() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::F2mPoint, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::F2mCurve::F2mCurve(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b)  : Org::BouncyCastle::Math::EC::AbstractF2mCurve(THROW_UNLESS(::il2cpp_utils::New<F2mCurve>(m, k, a, b))) {}
+ Org::BouncyCastle::Math::EC::F2mCurve Org::BouncyCastle::Math::EC::F2mCurve::New_ctor(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b)  {
+Org::BouncyCastle::Math::EC::F2mCurve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::F2mCurve>(m, k, a, b))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::F2mCurve::_ctor(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::F2mCurve>::get(),
@@ -523,8 +528,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, m, k, a, b);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "order", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::F2mCurve::F2mCurve(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor)  : Org::BouncyCastle::Math::EC::AbstractF2mCurve(THROW_UNLESS(::il2cpp_utils::New<F2mCurve>(m, k, a, b, order, cofactor))) {}
+ Org::BouncyCastle::Math::EC::F2mCurve Org::BouncyCastle::Math::EC::F2mCurve::New_ctor(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor)  {
+Org::BouncyCastle::Math::EC::F2mCurve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::F2mCurve>(m, k, a, b, order, cofactor))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::F2mCurve::_ctor(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::F2mCurve>::get(),
@@ -534,8 +541,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, m, k, a, b, order, cofactor);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::F2mCurve::F2mCurve(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b)  : Org::BouncyCastle::Math::EC::AbstractF2mCurve(THROW_UNLESS(::il2cpp_utils::New<F2mCurve>(m, k1, k2, k3, a, b))) {}
+ Org::BouncyCastle::Math::EC::F2mCurve Org::BouncyCastle::Math::EC::F2mCurve::New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b)  {
+Org::BouncyCastle::Math::EC::F2mCurve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::F2mCurve>(m, k1, k2, k3, a, b))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::F2mCurve::_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::F2mCurve>::get(),
@@ -545,8 +554,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, m, k1, k2, k3, a, b);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "order", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::F2mCurve::F2mCurve(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor)  : Org::BouncyCastle::Math::EC::AbstractF2mCurve(THROW_UNLESS(::il2cpp_utils::New<F2mCurve>(m, k1, k2, k3, a, b, order, cofactor))) {}
+ Org::BouncyCastle::Math::EC::F2mCurve Org::BouncyCastle::Math::EC::F2mCurve::New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor)  {
+Org::BouncyCastle::Math::EC::F2mCurve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::F2mCurve>(m, k1, k2, k3, a, b, order, cofactor))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::F2mCurve::_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Math::BigInteger b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::F2mCurve>::get(),
@@ -556,8 +567,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, m, k1, k2, k3, a, b, order, cofactor);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "b", ty: "Org::BouncyCastle::Math::EC::ECFieldElement", modifiers: "", def_value: None }, CppParam { name: "order", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::F2mCurve::F2mCurve(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor)  : Org::BouncyCastle::Math::EC::AbstractF2mCurve(THROW_UNLESS(::il2cpp_utils::New<F2mCurve>(m, k1, k2, k3, a, b, order, cofactor))) {}
+ Org::BouncyCastle::Math::EC::F2mCurve Org::BouncyCastle::Math::EC::F2mCurve::New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor)  {
+Org::BouncyCastle::Math::EC::F2mCurve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::F2mCurve>(m, k1, k2, k3, a, b, order, cofactor))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::F2mCurve::_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::EC::ECFieldElement a, Org::BouncyCastle::Math::EC::ECFieldElement b, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::F2mCurve>::get(),

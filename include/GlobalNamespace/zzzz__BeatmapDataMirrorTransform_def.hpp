@@ -6,6 +6,9 @@ namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0;
+}
+namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 // Forward declare root types
@@ -66,8 +69,7 @@ constexpr int32_t __get_numberOfLines() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapDataMirrorTransform____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b9adc size 0x8 virtual false final false
  void _ctor() ;

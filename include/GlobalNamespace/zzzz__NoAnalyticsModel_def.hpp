@@ -84,8 +84,7 @@ constexpr explicit NoAnalyticsModel(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 /// @brief Method LogExposure addr 0x20b2e90 size 0x4 virtual true final true
  void LogExposure(::StringW exposureType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> exposureData) ;
 
-// Ctor Parameters []
-explicit NoAnalyticsModel() ;
+static GlobalNamespace::NoAnalyticsModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b2e94 size 0x8 virtual false final false
  void _ctor() ;

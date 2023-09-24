@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
-}
-namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -58,20 +58,17 @@ constexpr explicit DerOctetString(void* ptr) noexcept : Org::BouncyCastle::Asn1:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerOctetString(::ArrayW<uint8_t> str) ;
+static Org::BouncyCastle::Asn1::DerOctetString New_ctor(::ArrayW<uint8_t> str) ;
 
 /// @brief Method .ctor addr 0x1126da4 size 0x4 virtual false final false
  void _ctor(::ArrayW<uint8_t> str) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::IAsn1Convertible", modifiers: "", def_value: None }]
-explicit DerOctetString(Org::BouncyCastle::Asn1::IAsn1Convertible obj) ;
+static Org::BouncyCastle::Asn1::DerOctetString New_ctor(Org::BouncyCastle::Asn1::IAsn1Convertible obj) ;
 
 /// @brief Method .ctor addr 0x113125c size 0xac virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::IAsn1Convertible obj) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit DerOctetString(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+static Org::BouncyCastle::Asn1::DerOctetString New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method .ctor addr 0x1131308 size 0x64 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;

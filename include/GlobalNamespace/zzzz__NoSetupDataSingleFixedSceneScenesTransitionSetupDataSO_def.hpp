@@ -50,8 +50,7 @@ constexpr explicit NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO(void* 
 /// @brief Method Init addr 0x1f82a30 size 0x8 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO() ;
+static GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f82b28 size 0x8 virtual false final false
  void _ctor() ;

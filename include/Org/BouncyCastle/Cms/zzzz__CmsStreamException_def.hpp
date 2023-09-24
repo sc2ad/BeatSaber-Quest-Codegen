@@ -51,20 +51,17 @@ constexpr explicit CmsStreamException(void* ptr) noexcept : System::IO::IOExcept
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsStreamException() ;
+static Org::BouncyCastle::Cms::CmsStreamException New_ctor() ;
 
 /// @brief Method .ctor addr 0x1174cf0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CmsStreamException(::StringW name) ;
+static Org::BouncyCastle::Cms::CmsStreamException New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x1174cf8 size 0x8 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit CmsStreamException(::StringW name, System::Exception e) ;
+static Org::BouncyCastle::Cms::CmsStreamException New_ctor(::StringW name, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x11680b0 size 0x8 virtual false final false
  void _ctor(::StringW name, System::Exception e) ;

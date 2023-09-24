@@ -3,6 +3,10 @@
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System {
 template<typename T>
 struct Nullable_1;
@@ -10,12 +14,11 @@ struct Nullable_1;
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace Newtonsoft::Json::Linq::JsonPath {
+class Newtonsoft__Json__Linq__JsonPath__ArrayIndexFilter___ExecuteFilter_d__4;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -24,8 +27,8 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -167,8 +170,7 @@ constexpr System::Collections::Generic::IEnumerator_1<Newtonsoft::Json::Linq::JT
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JsonPath__ArrayIndexFilter___ExecuteFilter_d__4(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__ArrayIndexFilter___ExecuteFilter_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x25335a0 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -271,8 +273,7 @@ constexpr System::Nullable_1<int32_t> __get__Index_k__BackingField() const;
 /// @brief Method ExecuteFilter addr 0x2533524 size 0x7c virtual true final false
  System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JToken> ExecuteFilter(System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JToken> current, bool errorWhenNoMatch) ;
 
-// Ctor Parameters []
-explicit ArrayIndexFilter() ;
+static Newtonsoft::Json::Linq::JsonPath::ArrayIndexFilter New_ctor() ;
 
 /// @brief Method .ctor addr 0x25335e4 size 0x8 virtual false final false
  void _ctor() ;

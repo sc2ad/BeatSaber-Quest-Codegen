@@ -8,27 +8,30 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-class IConstructorStringGenerator;
+namespace System::IO {
+class BinaryReader;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::IO {
-class BinaryWriter;
-}
-namespace System::IO {
-class BinaryReader;
+namespace GlobalNamespace {
+class IConstructorStringGenerator;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Pose;
+}
+namespace System::IO {
+class BinaryWriter;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -37,13 +40,16 @@ class IEnumerable_1;
 namespace GlobalNamespace {
 class VRController;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+namespace GlobalNamespace {
+class GlobalNamespace__VRControllersRecorder__State____c;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -52,26 +58,41 @@ class Action_2;
 namespace System {
 class Type;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryFormatter;
-}
-namespace UnityEngine {
-class TextAsset;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__VRControllersRecorder__SavedData;
 }
 namespace UnityEngine {
 class Camera;
 }
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
 namespace System::IO {
 class Stream;
 }
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__VRControllersRecorder__Keyframe;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__VRControllersRecorder__Mode;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryFormatter;
+}
 namespace UnityEngine {
 class AnimationClip;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__VRControllersRecorder__TypeSerializationBinder;
+}
+namespace UnityEngine {
+class TextAsset;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__VRControllersRecorder__State;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -143,8 +164,7 @@ constexpr explicit GlobalNamespace__VRControllersRecorder__TypeSerializationBind
 /// @brief Method BindToType addr 0x2197800 size 0x84 virtual true final false
  System::Type BindToType(::StringW assemblyName, ::StringW typeName) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__VRControllersRecorder__TypeSerializationBinder() ;
+static GlobalNamespace::GlobalNamespace__VRControllersRecorder__TypeSerializationBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2196b60 size 0x8 virtual false final false
  void _ctor() ;
@@ -330,8 +350,7 @@ constexpr float_t __get__time() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable() ;
+static GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData__KeyframeSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2197884 size 0x8 virtual false final false
  void _ctor() ;
@@ -393,8 +412,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Save
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__VRControllersRecorder__SavedData() ;
+static GlobalNamespace::GlobalNamespace__VRControllersRecorder__SavedData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2196018 size 0x8 virtual false final false
  void _ctor() ;
@@ -453,6 +471,8 @@ __Off = 2,
 constexpr operator __GlobalNamespace__VRControllersRecorder__Mode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__VRControllersRecorder__Mode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -587,14 +607,12 @@ constexpr float_t __get_time() const;
 /// @brief Method get_headPose addr 0x21978dc size 0x28 virtual false final false
  UnityEngine::Pose get_headPose() ;
 
-// Ctor Parameters [CppParam { name: "leftController", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "rightController", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "head", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VRControllersRecorder__Keyframe(UnityEngine::Pose leftController, UnityEngine::Pose rightController, UnityEngine::Pose head, float_t time) ;
+static GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe New_ctor(UnityEngine::Pose leftController, UnityEngine::Pose rightController, UnityEngine::Pose head, float_t time) ;
 
 /// @brief Method .ctor addr 0x2195ba8 size 0x70 virtual false final false
  void _ctor(UnityEngine::Pose leftController, UnityEngine::Pose rightController, UnityEngine::Pose head, float_t time) ;
 
-// Ctor Parameters [CppParam { name: "pos1", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "pos2", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "pos3", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rot1", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "rot2", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "rot3", ty: "UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VRControllersRecorder__Keyframe(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, UnityEngine::Vector3 pos3, UnityEngine::Quaternion rot1, UnityEngine::Quaternion rot2, UnityEngine::Quaternion rot3, float_t time) ;
+static GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe New_ctor(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, UnityEngine::Vector3 pos3, UnityEngine::Quaternion rot1, UnityEngine::Quaternion rot2, UnityEngine::Quaternion rot3, float_t time) ;
 
 /// @brief Method .ctor addr 0x2197904 size 0xb4 virtual false final false
  void _ctor(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, UnityEngine::Vector3 pos3, UnityEngine::Quaternion rot1, UnityEngine::Quaternion rot2, UnityEngine::Quaternion rot3, float_t time) ;
@@ -684,8 +702,7 @@ static System::Action_2<System::IO::BinaryWriter,GlobalNamespace::GlobalNamespac
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__VRControllersRecorder__State____c() ;
+static GlobalNamespace::GlobalNamespace__VRControllersRecorder__State____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2198658 size 0x8 virtual false final false
  void _ctor() ;
@@ -779,26 +796,22 @@ constexpr uint32_t __get__version() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyframes", ty: "System::Collections::Generic::IEnumerable_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>", modifiers: "", def_value: None }, CppParam { name: "leftControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "rightControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VRControllersRecorder__State(System::Collections::Generic::IEnumerable_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset) ;
+static GlobalNamespace::GlobalNamespace__VRControllersRecorder__State New_ctor(System::Collections::Generic::IEnumerable_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset) ;
 
 /// @brief Method .ctor addr 0x21982c8 size 0xf0 virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset) ;
 
-// Ctor Parameters [CppParam { name: "keyframes", ty: "System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>", modifiers: "", def_value: None }, CppParam { name: "leftControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "rightControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VRControllersRecorder__State(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset) ;
+static GlobalNamespace::GlobalNamespace__VRControllersRecorder__State New_ctor(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset) ;
 
 /// @brief Method .ctor addr 0x2198424 size 0x78 virtual false final false
  void _ctor(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset) ;
 
-// Ctor Parameters [CppParam { name: "keyframes", ty: "System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe>", modifiers: "", def_value: None }, CppParam { name: "leftControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "rightControllerOffset", ty: "UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "version", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VRControllersRecorder__State(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset, uint32_t version) ;
+static GlobalNamespace::GlobalNamespace__VRControllersRecorder__State New_ctor(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset, uint32_t version) ;
 
 /// @brief Method .ctor addr 0x21983b8 size 0x6c virtual false final false
  void _ctor(System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__VRControllersRecorder__Keyframe> keyframes, UnityEngine::Pose leftControllerOffset, UnityEngine::Pose rightControllerOffset, uint32_t version) ;
 
-// Ctor Parameters [CppParam { name: "leftController", ty: "GlobalNamespace::VRController", modifiers: "", def_value: None }, CppParam { name: "rightController", ty: "GlobalNamespace::VRController", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VRControllersRecorder__State(GlobalNamespace::VRController leftController, GlobalNamespace::VRController rightController) ;
+static GlobalNamespace::GlobalNamespace__VRControllersRecorder__State New_ctor(GlobalNamespace::VRController leftController, GlobalNamespace::VRController rightController) ;
 
 /// @brief Method .ctor addr 0x219498c size 0x108 virtual false final false
  void _ctor(GlobalNamespace::VRController leftController, GlobalNamespace::VRController rightController) ;
@@ -1172,8 +1185,7 @@ static void SerializeSavedData(System::IO::Stream dataStream, GlobalNamespace::G
 /// @brief Method CreateAnimationClipFromRecording addr 0x2196b9c size 0xbf8 virtual false final false
 static UnityEngine::AnimationClip CreateAnimationClipFromRecording(::StringW recordingfilePath) ;
 
-// Ctor Parameters []
-explicit VRControllersRecorder() ;
+static GlobalNamespace::VRControllersRecorder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2197794 size 0x6c virtual false final false
  void _ctor() ;

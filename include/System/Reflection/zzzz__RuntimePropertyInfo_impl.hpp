@@ -2,23 +2,24 @@
 #include "System/Reflection/zzzz__PropertyInfo_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Reflection/zzzz__RuntimePropertyInfo_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__RuntimePropertyInfo_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__RuntimeTypeHandle_def.hpp"
-#include "System/Reflection/zzzz__PInfo_def.hpp"
-#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 #include "System/Reflection/zzzz__RuntimeModule_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
 #include "Mono/zzzz__RuntimePropertyHandle_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__MonoPropertyInfo_def.hpp"
+#include "System/Reflection/zzzz__PInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__RuntimeTypeHandle_def.hpp"
 //  Writing Method size for method: System::Reflection::System__Reflection__RuntimePropertyInfo__GetterAdapter._ctor
 template<>
 
@@ -53,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Reflection::System__Reflection__RuntimePropertyInfo__GetterAdapter::System__Reflection__RuntimePropertyInfo__GetterAdapter(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Reflection__RuntimePropertyInfo__GetterAdapter>(object, method))) {}
+ System::Reflection::System__Reflection__RuntimePropertyInfo__GetterAdapter System::Reflection::System__Reflection__RuntimePropertyInfo__GetterAdapter::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Reflection::System__Reflection__RuntimePropertyInfo__GetterAdapter o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::System__Reflection__RuntimePropertyInfo__GetterAdapter>(object, method))};
+return o;
+}
  void System::Reflection::System__Reflection__RuntimePropertyInfo__GetterAdapter::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__GetterAdapter>::get(),
@@ -932,8 +935,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Reflection::PropertyInfo, false>(nullptr, ___internal_method, handle, reflectedType);
 }
-// Ctor Parameters []
- System::Reflection::RuntimePropertyInfo::RuntimePropertyInfo()  : System::Reflection::PropertyInfo(THROW_UNLESS(::il2cpp_utils::New<RuntimePropertyInfo>())) {}
+ System::Reflection::RuntimePropertyInfo System::Reflection::RuntimePropertyInfo::New_ctor()  {
+System::Reflection::RuntimePropertyInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::RuntimePropertyInfo>())};
+return o;
+}
  void System::Reflection::RuntimePropertyInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::RuntimePropertyInfo>::get(),
@@ -943,108 +948,44 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<R (System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2::*)(T)>(&System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2::System__Reflection__RuntimePropertyInfo__Getter_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Reflection__RuntimePropertyInfo__Getter_2>(object, method))) {}
- void System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2<T,R> System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2<T,R>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2<T,R> o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2<T,R>>(object, method))};
+return o;
+}
+ void System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2<T,R>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2<T,R>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- R System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2::Invoke(T _this)  {
+ R System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2<T,R>::Invoke(T _this)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__Getter_2<T,R>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<R, false>(const_cast<void*>(instance), ___internal_method, _this);
 }
-//  Writing Method size for method: System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1::*)(::bs_hook::Il2CppWrapperType, ::cordl_internals::intptr_t)>(&System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1.Invoke
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<R (System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1::*)()>(&System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1::Invoke)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1::System__Reflection__RuntimePropertyInfo__StaticGetter_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Reflection__RuntimePropertyInfo__StaticGetter_1>(object, method))) {}
- void System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+ System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1<R> System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1<R>::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1<R> o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1<R>>(object, method))};
+return o;
+}
+ void System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1<R>::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1<R>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::intptr_t>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, object, method);
 }
- R System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1::Invoke()  {
+ R System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1<R>::Invoke()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__RuntimePropertyInfo__StaticGetter_1<R>>::get(),
                             "Invoke",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

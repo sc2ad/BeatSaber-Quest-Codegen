@@ -1,7 +1,7 @@
 #pragma once
 #include "Zenject/zzzz__InstallerBase_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__IInstaller_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: Zenject::InstallerBase.get_Container
 template<>
@@ -142,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::InstallerBase::InstallerBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InstallerBase>())) {}
+ Zenject::InstallerBase Zenject::InstallerBase::New_ctor()  {
+Zenject::InstallerBase o{THROW_UNLESS(::il2cpp_utils::New<Zenject::InstallerBase>())};
+return o;
+}
  void Zenject::InstallerBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::InstallerBase>::get(),

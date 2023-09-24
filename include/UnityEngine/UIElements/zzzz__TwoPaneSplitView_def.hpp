@@ -6,31 +6,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class UxmlChildElementDescription;
-}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+class IEnumerable_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IEnumerator_1;
+}
+namespace UnityEngine::UIElements {
+class UxmlChildElementDescription;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct TwoPaneSplitViewOrientation;
+class UnityEngine__UIElements__TwoPaneSplitView__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class TwoPaneSplitViewResizer;
@@ -39,17 +36,29 @@ namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-template<typename T>
-class UxmlEnumAttributeDescription_1;
+struct TwoPaneSplitViewOrientation;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__TwoPaneSplitView__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__TwoPaneSplitView__UxmlTraits___get_uxmlChildElementsDescription_d__4;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlIntAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -140,8 +149,7 @@ constexpr UnityEngine::UIElements::UxmlEnumAttributeDescription_1<UnityEngine::U
 /// @brief Method Init addr 0x2cc82b0 size 0x16c virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TwoPaneSplitView__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TwoPaneSplitView__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc841c size 0x14c virtual false final false
  void _ctor() ;
@@ -365,8 +373,7 @@ constexpr UnityEngine::UIElements::TwoPaneSplitViewResizer __get_m_Resizer() con
 /// @brief Method set_fixedPaneDimension addr 0x2cc623c size 0x1c virtual false final false
  void set_fixedPaneDimension(float_t value) ;
 
-// Ctor Parameters []
-explicit TwoPaneSplitView() ;
+static UnityEngine::UIElements::TwoPaneSplitView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc6258 size 0x210 virtual false final false
  void _ctor() ;
@@ -405,7 +412,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5112 }), TypeDefinitionIndex(TypeDefinitionIndex(7236)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7237))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7237)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5112 }), TypeDefinitionIndex(TypeDefinitionIndex(7236))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7234))
 // CS Name: UnityEngine.UIElements.TwoPaneSplitView::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__TwoPaneSplitView__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::TwoPaneSplitView,UnityEngine::UIElements::UnityEngine__UIElements__TwoPaneSplitView__UxmlTraits> {
@@ -444,8 +451,7 @@ constexpr explicit UnityEngine__UIElements__TwoPaneSplitView__UxmlFactory(void* 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TwoPaneSplitView__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TwoPaneSplitView__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc81c0 size 0x48 virtual false final false
  void _ctor() ;
@@ -545,8 +551,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__TwoPaneSplitView__Ux
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__TwoPaneSplitView__UxmlTraits___get_uxmlChildElementsDescription_d__4(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__UIElements__TwoPaneSplitView__UxmlTraits___get_uxmlChildElementsDescription_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2cc826c size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;

@@ -57,8 +57,7 @@ constexpr int32_t __get_nonCachedConnectionsCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit OpenedHost() ;
+static System::Xml::OpenedHost New_ctor() ;
 
 /// @brief Method .ctor addr 0x27108dc size 0x8 virtual false final false
  void _ctor() ;

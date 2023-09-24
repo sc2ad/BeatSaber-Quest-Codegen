@@ -60,14 +60,12 @@ constexpr ::StringW __get__rule() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rule", ty: "UnityEngineInternal::TypeInferenceRules", modifiers: "", def_value: None }]
-explicit TypeInferenceRuleAttribute(UnityEngineInternal::TypeInferenceRules rule) ;
+static UnityEngineInternal::TypeInferenceRuleAttribute New_ctor(UnityEngineInternal::TypeInferenceRules rule) ;
 
 /// @brief Method .ctor addr 0x2b279cc size 0x84 virtual false final false
  void _ctor(UnityEngineInternal::TypeInferenceRules rule) ;
 
-// Ctor Parameters [CppParam { name: "rule", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TypeInferenceRuleAttribute(::StringW rule) ;
+static UnityEngineInternal::TypeInferenceRuleAttribute New_ctor(::StringW rule) ;
 
 /// @brief Method .ctor addr 0x2b27a50 size 0x28 virtual false final false
  void _ctor(::StringW rule) ;

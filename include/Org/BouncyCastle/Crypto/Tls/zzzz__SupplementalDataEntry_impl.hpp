@@ -63,8 +63,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry::__set_mDat
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry::__get_mData() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "dataType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry::SupplementalDataEntry(int32_t dataType, ::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SupplementalDataEntry>(dataType, data))) {}
+ Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry::New_ctor(int32_t dataType, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry>(dataType, data))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry::_ctor(int32_t dataType, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry>::get(),

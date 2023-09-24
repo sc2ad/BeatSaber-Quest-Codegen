@@ -5,21 +5,21 @@
 namespace UnityEngine {
 class Transform;
 }
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-class InjectContext;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class InjectContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -81,8 +81,7 @@ constexpr Zenject::GameObjectCreationParameters __get__GameObjectInfo_k__Backing
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "gameObjectInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
-explicit TransformScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectInfo) ;
+static Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder New_ctor(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectInfo) ;
 
 /// @brief Method .ctor addr 0x2d60b8c size 0x28 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectInfo) ;

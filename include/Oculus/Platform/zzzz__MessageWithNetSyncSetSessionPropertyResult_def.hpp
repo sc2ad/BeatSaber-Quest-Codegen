@@ -13,7 +13,7 @@ class MessageWithNetSyncSetSessionPropertyResult;
 // Type: Oculus.Platform::MessageWithNetSyncSetSessionPropertyResult
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4463 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13451))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4463 }), TypeDefinitionIndex(TypeDefinitionIndex(13451))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13260))
 // CS Name: Oculus.Platform.MessageWithNetSyncSetSessionPropertyResult
 class CORDL_TYPE MessageWithNetSyncSetSessionPropertyResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSetSessionPropertyResult> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithNetSyncSetSessionPropertyResult(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithNetSyncSetSessionPropertyResult(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x2582978 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

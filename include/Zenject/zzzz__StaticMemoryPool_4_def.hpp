@@ -2,8 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_def.hpp"
 namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TValue>
-class IMemoryPool_4;
+template<typename TValue>
+class IDespawnableMemoryPool_1;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4>
@@ -14,11 +17,8 @@ template<typename T>
 class Action_1;
 }
 namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
-template<typename TValue>
-class IDespawnableMemoryPool_1;
+template<typename TParam1,typename TParam2,typename TParam3,typename TValue>
+class IMemoryPool_4;
 }
 // Forward declare root types
 namespace Zenject {
@@ -97,8 +97,7 @@ constexpr System::Action_4<TParam1,TParam2,TParam3,TValue> __get__onSpawnMethod(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onSpawnMethod", ty: "System::Action_4<TParam1,TParam2,TParam3,TValue>", modifiers: "", def_value: None }, CppParam { name: "onDespawnedMethod", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }]
-explicit StaticMemoryPool_4(System::Action_4<TParam1,TParam2,TParam3,TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod) ;
+static Zenject::StaticMemoryPool_4<TParam1,TParam2,TParam3,TValue> New_ctor(System::Action_4<TParam1,TParam2,TParam3,TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Action_4<TParam1,TParam2,TParam3,TValue> onSpawnMethod, System::Action_1<TValue> onDespawnedMethod) ;

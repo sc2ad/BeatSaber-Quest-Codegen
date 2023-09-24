@@ -2,18 +2,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerOutroAnimationController_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerTimelineMock_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerScoreRingManager_def.hpp"
+#include "UnityEngine/zzzz__PropertyName_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerResultsPyramidView_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "UnityEngine/zzzz__PropertyName_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerScoreRingManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerResultsPyramidView_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerTimelineMock_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerOutroAnimationController.Start
 template<>
 
@@ -392,8 +392,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerOutroAnimationController::MultiplayerOutroAnimationController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerOutroAnimationController>())) {}
+ GlobalNamespace::MultiplayerOutroAnimationController GlobalNamespace::MultiplayerOutroAnimationController::New_ctor()  {
+GlobalNamespace::MultiplayerOutroAnimationController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerOutroAnimationController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerOutroAnimationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerOutroAnimationController>::get(),

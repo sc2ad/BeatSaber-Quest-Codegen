@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/Experimental/zzzz__Lerp_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__StyleValues_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::Experimental::Lerp.Interpolate
 template<>
 

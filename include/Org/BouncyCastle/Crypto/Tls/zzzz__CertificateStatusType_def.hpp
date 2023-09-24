@@ -54,8 +54,7 @@ static constexpr uint8_t  ocsp{1u};
 
 // Methods
 
-// Ctor Parameters []
-explicit CertificateStatusType() ;
+static Org::BouncyCastle::Crypto::Tls::CertificateStatusType New_ctor() ;
 
 /// @brief Method .ctor addr 0xed140c size 0x8 virtual false final false
  void _ctor() ;

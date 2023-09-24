@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AttributeX509;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -75,20 +75,17 @@ constexpr Org::BouncyCastle::Asn1::X509::AttributeX509 __get_attr() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "at", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit X509Attribute(Org::BouncyCastle::Asn1::Asn1Encodable at) ;
+static Org::BouncyCastle::X509::X509Attribute New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable at) ;
 
 /// @brief Method .ctor addr 0x10ecad0 size 0x34 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Encodable at) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit X509Attribute(::StringW oid, Org::BouncyCastle::Asn1::Asn1Encodable value) ;
+static Org::BouncyCastle::X509::X509Attribute New_ctor(::StringW oid, Org::BouncyCastle::Asn1::Asn1Encodable value) ;
 
 /// @brief Method .ctor addr 0x10ecb04 size 0xe4 virtual false final false
  void _ctor(::StringW oid, Org::BouncyCastle::Asn1::Asn1Encodable value) ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit X509Attribute(::StringW oid, Org::BouncyCastle::Asn1::Asn1EncodableVector value) ;
+static Org::BouncyCastle::X509::X509Attribute New_ctor(::StringW oid, Org::BouncyCastle::Asn1::Asn1EncodableVector value) ;
 
 /// @brief Method .ctor addr 0x10ecbe8 size 0xe4 virtual false final false
  void _ctor(::StringW oid, Org::BouncyCastle::Asn1::Asn1EncodableVector value) ;

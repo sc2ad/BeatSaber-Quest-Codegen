@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class IBeatmapLevelPackCollection;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPackCollection;
+class IBeatmapLevelPack;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +74,7 @@ constexpr ::ArrayW<GlobalNamespace::IBeatmapLevelPack> __get__beatmapLevelPacks(
 /// @brief Method get_beatmapLevelPacks addr 0x21e5170 size 0x8 virtual true final true
  ::ArrayW<GlobalNamespace::IBeatmapLevelPack> get_beatmapLevelPacks() ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevelPacks", ty: "::ArrayW<GlobalNamespace::IBeatmapLevelPack>", modifiers: "", def_value: None }]
-explicit BeatmapLevelPackCollection(::ArrayW<GlobalNamespace::IBeatmapLevelPack> beatmapLevelPacks) ;
+static GlobalNamespace::BeatmapLevelPackCollection New_ctor(::ArrayW<GlobalNamespace::IBeatmapLevelPack> beatmapLevelPacks) ;
 
 /// @brief Method .ctor addr 0x21e5178 size 0x28 virtual false final false
  void _ctor(::ArrayW<GlobalNamespace::IBeatmapLevelPack> beatmapLevelPacks) ;

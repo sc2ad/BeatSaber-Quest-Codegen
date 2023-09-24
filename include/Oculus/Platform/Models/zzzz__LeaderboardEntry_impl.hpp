@@ -1,8 +1,8 @@
 #pragma once
 #include "Oculus/Platform/Models/zzzz__LeaderboardEntry_def.hpp"
-#include "Oculus/Platform/Models/zzzz__User_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "Oculus/Platform/Models/zzzz__SupplementaryMetric_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Oculus/Platform/Models/zzzz__User_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Models::LeaderboardEntry._ctor
 template<>
 
@@ -74,8 +74,10 @@ constexpr void Oculus::Platform::Models::LeaderboardEntry::__set_User(Oculus::Pl
 constexpr Oculus::Platform::Models::User Oculus::Platform::Models::LeaderboardEntry::__get_User() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Models::User, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::LeaderboardEntry::LeaderboardEntry(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LeaderboardEntry>(o))) {}
+ Oculus::Platform::Models::LeaderboardEntry Oculus::Platform::Models::LeaderboardEntry::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::LeaderboardEntry o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::LeaderboardEntry>(o))};
+return o;
+}
  void Oculus::Platform::Models::LeaderboardEntry::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::LeaderboardEntry>::get(),

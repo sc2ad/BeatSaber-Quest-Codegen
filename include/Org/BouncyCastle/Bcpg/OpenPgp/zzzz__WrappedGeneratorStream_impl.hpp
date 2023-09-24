@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__FilterStream_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__WrappedGeneratorStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__IStreamGenerator_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream._ctor
 template<>
 
@@ -43,8 +43,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::__set_g
 constexpr Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::__get_gen() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "gen", ty: "Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator", modifiers: "", def_value: None }, CppParam { name: "str", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::WrappedGeneratorStream(Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator gen, System::IO::Stream str)  : Org::BouncyCastle::Utilities::IO::FilterStream(THROW_UNLESS(::il2cpp_utils::New<WrappedGeneratorStream>(gen, str))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator gen, System::IO::Stream str)  {
+Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream>(gen, str))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::_ctor(Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator gen, System::IO::Stream str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream>::get(),

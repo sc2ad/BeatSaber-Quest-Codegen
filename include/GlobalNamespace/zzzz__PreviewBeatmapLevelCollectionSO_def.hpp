@@ -2,18 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IBeatmapLevelCollection;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,8 +81,7 @@ constexpr ::ArrayW<GlobalNamespace::PreviewBeatmapLevelSO> __get__beatmapLevels(
 /// @brief Method get_beatmapLevels addr 0x21ec6e0 size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> get_beatmapLevels() ;
 
-// Ctor Parameters []
-explicit PreviewBeatmapLevelCollectionSO() ;
+static GlobalNamespace::PreviewBeatmapLevelCollectionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ec6e8 size 0x8 virtual false final false
  void _ctor() ;

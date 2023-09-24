@@ -207,8 +207,10 @@ constexpr void System::Net::ListenerPrefix::__set_Listener(System::Net::HttpList
 constexpr System::Net::HttpListener System::Net::ListenerPrefix::__get_Listener() const {
 return ::cordl_internals::getInstanceField<System::Net::HttpListener, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::ListenerPrefix::ListenerPrefix(::StringW prefix)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ListenerPrefix>(prefix))) {}
+ System::Net::ListenerPrefix System::Net::ListenerPrefix::New_ctor(::StringW prefix)  {
+System::Net::ListenerPrefix o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ListenerPrefix>(prefix))};
+return o;
+}
  void System::Net::ListenerPrefix::_ctor(::StringW prefix)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ListenerPrefix>::get(),

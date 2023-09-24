@@ -1,13 +1,12 @@
 #pragma once
 #include "UnityEngine/Rendering/zzzz__RenderPipelineManager_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderPipeline_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineAsset_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderPipeline_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: UnityEngine::Rendering::RenderPipelineManager.get_currentPipeline
 template<>
 

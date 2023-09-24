@@ -2,15 +2,15 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+class Type;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace System {
-class Type;
+template<typename T,typename TResult>
+class Func_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -106,8 +106,7 @@ constexpr System::Action_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapper
 /// @brief Method set_Setter addr 0x24e2730 size 0x8 virtual false final false
  void set_Setter(System::Action_2<::bs_hook::Il2CppWrapperType,::bs_hook::Il2CppWrapperType> value) ;
 
-// Ctor Parameters []
-explicit ReflectionMember() ;
+static Newtonsoft::Json::Utilities::ReflectionMember New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e2738 size 0x8 virtual false final false
  void _ctor() ;

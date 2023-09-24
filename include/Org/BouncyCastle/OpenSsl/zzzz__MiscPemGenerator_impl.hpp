@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/OpenSsl/zzzz__MiscPemGenerator_def.hpp"
-#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
+#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::OpenSsl::MiscPemGenerator._ctor
 template<>
 
@@ -134,8 +134,10 @@ constexpr void Org::BouncyCastle::OpenSsl::MiscPemGenerator::__set_random(Org::B
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::OpenSsl::MiscPemGenerator::__get_random() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Org::BouncyCastle::OpenSsl::MiscPemGenerator::MiscPemGenerator(::bs_hook::Il2CppWrapperType obj)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MiscPemGenerator>(obj))) {}
+ Org::BouncyCastle::OpenSsl::MiscPemGenerator Org::BouncyCastle::OpenSsl::MiscPemGenerator::New_ctor(::bs_hook::Il2CppWrapperType obj)  {
+Org::BouncyCastle::OpenSsl::MiscPemGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::OpenSsl::MiscPemGenerator>(obj))};
+return o;
+}
  void Org::BouncyCastle::OpenSsl::MiscPemGenerator::_ctor(::bs_hook::Il2CppWrapperType obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::OpenSsl::MiscPemGenerator>::get(),
@@ -145,8 +147,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::OpenSsl::MiscPemGenerator::MiscPemGenerator(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, Org::BouncyCastle::Security::SecureRandom random)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MiscPemGenerator>(obj, algorithm, password, random))) {}
+ Org::BouncyCastle::OpenSsl::MiscPemGenerator Org::BouncyCastle::OpenSsl::MiscPemGenerator::New_ctor(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, Org::BouncyCastle::Security::SecureRandom random)  {
+Org::BouncyCastle::OpenSsl::MiscPemGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::OpenSsl::MiscPemGenerator>(obj, algorithm, password, random))};
+return o;
+}
  void Org::BouncyCastle::OpenSsl::MiscPemGenerator::_ctor(::bs_hook::Il2CppWrapperType obj, ::StringW algorithm, ::ArrayW<char16_t> password, Org::BouncyCastle::Security::SecureRandom random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::OpenSsl::MiscPemGenerator>::get(),

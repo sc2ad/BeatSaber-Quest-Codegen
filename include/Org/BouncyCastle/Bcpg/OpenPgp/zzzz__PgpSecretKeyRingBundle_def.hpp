@@ -14,13 +14,13 @@ namespace System::IO {
 class Stream;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
 class IList;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -90,26 +90,22 @@ constexpr System::Collections::IList __get_order() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "secretRings", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "order", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit PgpSecretKeyRingBundle(System::Collections::IDictionary secretRings, System::Collections::IList order) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle New_ctor(System::Collections::IDictionary secretRings, System::Collections::IList order) ;
 
 /// @brief Method .ctor addr 0x1039ad0 size 0x2c virtual false final false
  void _ctor(System::Collections::IDictionary secretRings, System::Collections::IList order) ;
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PgpSecretKeyRingBundle(::ArrayW<uint8_t> encoding) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle New_ctor(::ArrayW<uint8_t> encoding) ;
 
 /// @brief Method .ctor addr 0x1039afc size 0x78 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoding) ;
 
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit PgpSecretKeyRingBundle(System::IO::Stream inputStream) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle New_ctor(System::IO::Stream inputStream) ;
 
 /// @brief Method .ctor addr 0x1039b74 size 0x80 virtual false final false
  void _ctor(System::IO::Stream inputStream) ;
 
-// Ctor Parameters [CppParam { name: "e", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit PgpSecretKeyRingBundle(System::Collections::IEnumerable e) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRingBundle New_ctor(System::Collections::IEnumerable e) ;
 
 /// @brief Method .ctor addr 0x1039bf4 size 0x59c virtual false final false
  void _ctor(System::Collections::IEnumerable e) ;

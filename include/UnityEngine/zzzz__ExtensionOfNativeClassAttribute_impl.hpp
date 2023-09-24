@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ExtensionOfNativeClassAttribute::ExtensionOfNativeClassAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ExtensionOfNativeClassAttribute>())) {}
+ UnityEngine::ExtensionOfNativeClassAttribute UnityEngine::ExtensionOfNativeClassAttribute::New_ctor()  {
+UnityEngine::ExtensionOfNativeClassAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ExtensionOfNativeClassAttribute>())};
+return o;
+}
  void UnityEngine::ExtensionOfNativeClassAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ExtensionOfNativeClassAttribute>::get(),

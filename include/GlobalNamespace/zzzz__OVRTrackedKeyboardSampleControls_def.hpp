@@ -15,23 +15,26 @@ class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
 namespace UnityEngine::UI {
 class Button;
 }
-namespace UnityEngine::UI {
-class InputField;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UI {
 class Text;
 }
 namespace GlobalNamespace {
 class OVRTrackedKeyboard;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19;
+}
+namespace UnityEngine::UI {
+class InputField;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -131,8 +134,7 @@ constexpr bool __get__trackingWasEnabled_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2618434 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -308,8 +310,7 @@ constexpr ::ArrayW<UnityEngine::UI::Button> __get_ShaderButtons() const;
 /// @brief Method SetTrackingEnabled addr 0x26184a4 size 0x20 virtual false final false
  void SetTrackingEnabled(bool value) ;
 
-// Ctor Parameters []
-explicit OVRTrackedKeyboardSampleControls() ;
+static GlobalNamespace::OVRTrackedKeyboardSampleControls New_ctor() ;
 
 /// @brief Method .ctor addr 0x26184c4 size 0x1c virtual false final false
  void _ctor() ;

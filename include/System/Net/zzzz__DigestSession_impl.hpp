@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Net/zzzz__DigestSession_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
-#include "System/Net/zzzz__DigestHeaderParser_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
 #include "System/Net/zzzz__HttpWebRequest_def.hpp"
-#include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/Net/zzzz__DigestHeaderParser_def.hpp"
+#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
 //  Writing Method size for method: System::Net::DigestSession._ctor
 template<>
 
@@ -282,8 +282,10 @@ constexpr void System::Net::DigestSession::__set__cnonce(::StringW value)  {
 constexpr ::StringW System::Net::DigestSession::__get__cnonce() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::DigestSession::DigestSession()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DigestSession>())) {}
+ System::Net::DigestSession System::Net::DigestSession::New_ctor()  {
+System::Net::DigestSession o{THROW_UNLESS(::il2cpp_utils::New<System::Net::DigestSession>())};
+return o;
+}
  void System::Net::DigestSession::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::DigestSession>::get(),

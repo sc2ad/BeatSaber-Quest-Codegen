@@ -56,8 +56,7 @@ constexpr bool __get__val() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "visibility", ty: "bool", modifiers: "", def_value: None }]
-explicit ComVisibleAttribute(bool visibility) ;
+static System::Runtime::InteropServices::ComVisibleAttribute New_ctor(bool visibility) ;
 
 /// @brief Method .ctor addr 0x236ac40 size 0x28 virtual false final false
  void _ctor(bool visibility) ;

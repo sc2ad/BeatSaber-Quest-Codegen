@@ -77,8 +77,7 @@ constexpr System::Type __get__ptrType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "ptrType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit Pointer(void* ptr, System::Type ptrType) ;
+static System::Reflection::Pointer New_ctor(void* ptr, System::Type ptrType) ;
 
 /// @brief Method .ctor addr 0x237c608 size 0x2c virtual false final false
  void _ctor(void* ptr, System::Type ptrType) ;

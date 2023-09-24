@@ -54,8 +54,7 @@ static constexpr uint8_t  upn_domain_hint{64u};
 
 // Methods
 
-// Ctor Parameters []
-explicit UserMappingType() ;
+static Org::BouncyCastle::Crypto::Tls::UserMappingType New_ctor() ;
 
 /// @brief Method .ctor addr 0xf32f4c size 0x8 virtual false final false
  void _ctor() ;

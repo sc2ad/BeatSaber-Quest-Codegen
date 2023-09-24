@@ -2,13 +2,13 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Runtime::Remoting::Activation {
-class IActivator;
+class IConstructionCallMessage;
 }
 namespace System::Runtime::Remoting::Activation {
 class IConstructionReturnMessage;
 }
 namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
+class IActivator;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
@@ -73,8 +73,7 @@ constexpr System::Runtime::Remoting::Activation::IActivator __get_m_NextActivato
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "next", ty: "System::Runtime::Remoting::Activation::IActivator", modifiers: "", def_value: None }]
-explicit ContextLevelActivator(System::Runtime::Remoting::Activation::IActivator next) ;
+static System::Runtime::Remoting::Activation::ContextLevelActivator New_ctor(System::Runtime::Remoting::Activation::IActivator next) ;
 
 /// @brief Method .ctor addr 0x23382ec size 0x28 virtual false final false
  void _ctor(System::Runtime::Remoting::Activation::IActivator next) ;

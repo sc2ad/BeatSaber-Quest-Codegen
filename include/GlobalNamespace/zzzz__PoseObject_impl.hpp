@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PoseObject_def.hpp"
-#include "GlobalNamespace/zzzz__PoseObjectIdSO_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__PoseObjectIdSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PoseObject.get_objectTransform
 template<>
 
@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "poseObjectId", ty: "GlobalNamespace::PoseObjectIdSO", modifiers: "", def_value: None }]
- GlobalNamespace::PoseObject::PoseObject(UnityEngine::Transform transform, GlobalNamespace::PoseObjectIdSO poseObjectId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PoseObject>(transform, poseObjectId))) {}
+ GlobalNamespace::PoseObject GlobalNamespace::PoseObject::New_ctor(UnityEngine::Transform transform, GlobalNamespace::PoseObjectIdSO poseObjectId)  {
+GlobalNamespace::PoseObject o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PoseObject>(transform, poseObjectId))};
+return o;
+}
  void GlobalNamespace::PoseObject::_ctor(UnityEngine::Transform transform, GlobalNamespace::PoseObjectIdSO poseObjectId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PoseObject>::get(),

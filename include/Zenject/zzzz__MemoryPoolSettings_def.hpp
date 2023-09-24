@@ -88,14 +88,12 @@ static Zenject::MemoryPoolSettings __get_Default() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit MemoryPoolSettings() ;
+static Zenject::MemoryPoolSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d6f298 size 0x30 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "expandMethod", ty: "Zenject::PoolExpandMethods", modifiers: "", def_value: None }, CppParam { name: "showExpandWarning", ty: "bool", modifiers: "", def_value: None }]
-explicit MemoryPoolSettings(int32_t initialSize, int32_t maxSize, Zenject::PoolExpandMethods expandMethod, bool showExpandWarning) ;
+static Zenject::MemoryPoolSettings New_ctor(int32_t initialSize, int32_t maxSize, Zenject::PoolExpandMethods expandMethod, bool showExpandWarning) ;
 
 /// @brief Method .ctor addr 0x2d6f2c8 size 0x44 virtual false final false
  void _ctor(int32_t initialSize, int32_t maxSize, Zenject::PoolExpandMethods expandMethod, bool showExpandWarning) ;

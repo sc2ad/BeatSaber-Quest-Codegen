@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Srp6GroupParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -85,8 +85,7 @@ constexpr ::ArrayW<uint8_t> __get_mSalt() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters", modifiers: "", def_value: None }, CppParam { name: "verifier", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TlsSrpLoginParameters(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Math::BigInteger verifier, ::ArrayW<uint8_t> salt) ;
+static Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters New_ctor(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Math::BigInteger verifier, ::ArrayW<uint8_t> salt) ;
 
 /// @brief Method .ctor addr 0xf2b884 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters group, Org::BouncyCastle::Math::BigInteger verifier, ::ArrayW<uint8_t> salt) ;

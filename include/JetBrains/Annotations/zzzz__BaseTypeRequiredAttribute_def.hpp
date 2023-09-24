@@ -64,8 +64,7 @@ constexpr System::Type __get__BaseType_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "baseType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit BaseTypeRequiredAttribute(System::Type baseType) ;
+static JetBrains::Annotations::BaseTypeRequiredAttribute New_ctor(System::Type baseType) ;
 
 /// @brief Method .ctor addr 0x2d40c20 size 0x28 virtual false final false
  void _ctor(System::Type baseType) ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__BindStatement_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
 #include "Zenject/zzzz__IBindingFinalizer_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: Zenject::BindStatement._ctor
 template<>
@@ -192,8 +192,10 @@ constexpr void Zenject::BindStatement::__set__bindingFinalizer(Zenject::IBinding
 constexpr Zenject::IBindingFinalizer Zenject::BindStatement::__get__bindingFinalizer() const {
 return ::cordl_internals::getInstanceField<Zenject::IBindingFinalizer, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::BindStatement::BindStatement()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BindStatement>())) {}
+ Zenject::BindStatement Zenject::BindStatement::New_ctor()  {
+Zenject::BindStatement o{THROW_UNLESS(::il2cpp_utils::New<Zenject::BindStatement>())};
+return o;
+}
  void Zenject::BindStatement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::BindStatement>::get(),

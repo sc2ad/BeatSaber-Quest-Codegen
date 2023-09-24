@@ -48,8 +48,10 @@ constexpr void UnityEngine::Timeline::TrackClipTypeAttribute::__set_allowAutoCre
 constexpr bool UnityEngine::Timeline::TrackClipTypeAttribute::__get_allowAutoCreate() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "clipClass", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::Timeline::TrackClipTypeAttribute::TrackClipTypeAttribute(System::Type clipClass)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TrackClipTypeAttribute>(clipClass))) {}
+ UnityEngine::Timeline::TrackClipTypeAttribute UnityEngine::Timeline::TrackClipTypeAttribute::New_ctor(System::Type clipClass)  {
+UnityEngine::Timeline::TrackClipTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TrackClipTypeAttribute>(clipClass))};
+return o;
+}
  void UnityEngine::Timeline::TrackClipTypeAttribute::_ctor(System::Type clipClass)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TrackClipTypeAttribute>::get(),
@@ -59,8 +61,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, clipClass);
 }
-// Ctor Parameters [CppParam { name: "clipClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "allowAutoCreate", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::Timeline::TrackClipTypeAttribute::TrackClipTypeAttribute(System::Type clipClass, bool allowAutoCreate)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TrackClipTypeAttribute>(clipClass, allowAutoCreate))) {}
+ UnityEngine::Timeline::TrackClipTypeAttribute UnityEngine::Timeline::TrackClipTypeAttribute::New_ctor(System::Type clipClass, bool allowAutoCreate)  {
+UnityEngine::Timeline::TrackClipTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TrackClipTypeAttribute>(clipClass, allowAutoCreate))};
+return o;
+}
  void UnityEngine::Timeline::TrackClipTypeAttribute::_ctor(System::Type clipClass, bool allowAutoCreate)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TrackClipTypeAttribute>::get(),

@@ -1,16 +1,16 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonReader_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__TraceJsonReader_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonTextWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
-#include "System/IO/zzzz__StringWriter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/IO/zzzz__StringWriter_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::TraceJsonReader._ctor
 template<>
 
@@ -407,8 +407,10 @@ constexpr void Newtonsoft::Json::Serialization::TraceJsonReader::__set__sw(Syste
 constexpr System::IO::StringWriter Newtonsoft::Json::Serialization::TraceJsonReader::__get__sw() const {
 return ::cordl_internals::getInstanceField<System::IO::StringWriter, 0x88>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "innerReader", ty: "Newtonsoft::Json::JsonReader", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::TraceJsonReader::TraceJsonReader(Newtonsoft::Json::JsonReader innerReader)  : Newtonsoft::Json::JsonReader(THROW_UNLESS(::il2cpp_utils::New<TraceJsonReader>(innerReader))) {}
+ Newtonsoft::Json::Serialization::TraceJsonReader Newtonsoft::Json::Serialization::TraceJsonReader::New_ctor(Newtonsoft::Json::JsonReader innerReader)  {
+Newtonsoft::Json::Serialization::TraceJsonReader o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::TraceJsonReader>(innerReader))};
+return o;
+}
  void Newtonsoft::Json::Serialization::TraceJsonReader::_ctor(Newtonsoft::Json::JsonReader innerReader)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::TraceJsonReader>::get(),

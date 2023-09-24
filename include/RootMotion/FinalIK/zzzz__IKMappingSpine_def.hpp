@@ -7,16 +7,16 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Transform;
 }
-namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKMapping__BoneMap;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKMapping__BoneMap;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBody;
@@ -157,14 +157,12 @@ constexpr bool __get_useFABRIK() const;
 /// @brief Method IsValid addr 0x11d1ce8 size 0x320 virtual true final false
  bool IsValid(RootMotion::FinalIK::IKSolver solver, ByRef<::StringW> message) ;
 
-// Ctor Parameters []
-explicit IKMappingSpine() ;
+static RootMotion::FinalIK::IKMappingSpine New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d2008 size 0x13c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "spineBones", ty: "::ArrayW<UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "leftUpperArmBone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "rightUpperArmBone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "leftThighBone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "rightThighBone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit IKMappingSpine(::ArrayW<UnityEngine::Transform> spineBones, UnityEngine::Transform leftUpperArmBone, UnityEngine::Transform rightUpperArmBone, UnityEngine::Transform leftThighBone, UnityEngine::Transform rightThighBone) ;
+static RootMotion::FinalIK::IKMappingSpine New_ctor(::ArrayW<UnityEngine::Transform> spineBones, UnityEngine::Transform leftUpperArmBone, UnityEngine::Transform rightUpperArmBone, UnityEngine::Transform leftThighBone, UnityEngine::Transform rightThighBone) ;
 
 /// @brief Method .ctor addr 0x11d2144 size 0x170 virtual false final false
  void _ctor(::ArrayW<UnityEngine::Transform> spineBones, UnityEngine::Transform leftUpperArmBone, UnityEngine::Transform rightUpperArmBone, UnityEngine::Transform leftThighBone, UnityEngine::Transform rightThighBone) ;

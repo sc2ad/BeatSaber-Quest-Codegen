@@ -83,8 +83,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method HandleNoteControllerDidInit addr 0x2243840 size 0x28 virtual true final true
  void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase noteController) ;
 
-// Ctor Parameters []
-explicit RandomNoteRotation() ;
+static GlobalNamespace::RandomNoteRotation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2243868 size 0x8 virtual false final false
  void _ctor() ;

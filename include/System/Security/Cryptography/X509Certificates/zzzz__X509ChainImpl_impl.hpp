@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElementCollection_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElementCollection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainPolicy_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509ChainImpl.get_IsValid
 template<>
 
@@ -313,8 +313,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509ChainImpl::X509ChainImpl()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509ChainImpl>())) {}
+ System::Security::Cryptography::X509Certificates::X509ChainImpl System::Security::Cryptography::X509Certificates::X509ChainImpl::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509ChainImpl o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509ChainImpl>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509ChainImpl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509ChainImpl>::get(),

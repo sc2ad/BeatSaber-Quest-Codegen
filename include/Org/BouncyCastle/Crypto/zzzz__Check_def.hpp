@@ -59,8 +59,7 @@ static void DataLength(::ArrayW<uint8_t> buf, int32_t off, int32_t len, ::String
 /// @brief Method OutputLength addr 0xf3863c size 0x6c virtual false final false
 static void OutputLength(::ArrayW<uint8_t> buf, int32_t off, int32_t len, ::StringW msg) ;
 
-// Ctor Parameters []
-explicit Check() ;
+static Org::BouncyCastle::Crypto::Check New_ctor() ;
 
 /// @brief Method .ctor addr 0xf386ac size 0x8 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/U2D/zzzz__SpriteAtlasManager_def.hpp"
-#include "UnityEngine/U2D/zzzz__SpriteAtlas_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/U2D/zzzz__SpriteAtlas_def.hpp"
 //  Writing Method size for method: UnityEngine::U2D::SpriteAtlasManager.RequestAtlas
 template<>
 

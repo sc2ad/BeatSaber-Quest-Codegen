@@ -47,8 +47,7 @@ constexpr explicit KeyUpEvent(void* ptr) noexcept : UnityEngine::UIElements::Key
 
 // Methods
 
-// Ctor Parameters []
-explicit KeyUpEvent() ;
+static UnityEngine::UIElements::KeyUpEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdb8dc size 0x48 virtual false final false
  void _ctor() ;

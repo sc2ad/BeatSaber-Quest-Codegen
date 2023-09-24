@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+class GameScenesManager;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -11,17 +14,17 @@ namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
 class FPSCounter;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GlobalNamespace__FPSCounterUIController___Start_d__9;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -109,8 +112,7 @@ constexpr GlobalNamespace::FPSCounterUIController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__FPSCounterUIController___Start_d__9(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__FPSCounterUIController___Start_d__9 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2115d24 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -238,8 +240,7 @@ constexpr float_t __get__timeToUpdateUI() const;
 /// @brief Method LateUpdate addr 0x2115d4c size 0x144 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit FPSCounterUIController() ;
+static GlobalNamespace::FPSCounterUIController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2115e90 size 0x10 virtual false final false
  void _ctor() ;

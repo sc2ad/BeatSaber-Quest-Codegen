@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
-namespace HMUI {
-class ButtonBinder;
-}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace System {
 class Action;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +86,7 @@ constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 /// @brief Method Start addr 0x21232d8 size 0xa8 virtual true final false
  void Start() ;
 
-// Ctor Parameters []
-explicit GameServerListDetailTableCell() ;
+static GlobalNamespace::GameServerListDetailTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x2123380 size 0x68 virtual false final false
  void _ctor() ;

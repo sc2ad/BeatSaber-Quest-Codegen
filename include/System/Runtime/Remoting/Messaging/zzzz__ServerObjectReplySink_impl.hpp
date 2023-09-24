@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__ServerObjectReplySink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::ServerObjectReplySink._ctor
 template<>
 
@@ -71,8 +71,10 @@ constexpr void System::Runtime::Remoting::Messaging::ServerObjectReplySink::__se
 constexpr System::Runtime::Remoting::ServerIdentity System::Runtime::Remoting::Messaging::ServerObjectReplySink::__get__identity() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::ServerIdentity, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Runtime::Remoting::ServerIdentity", modifiers: "", def_value: None }, CppParam { name: "replySink", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::ServerObjectReplySink::ServerObjectReplySink(System::Runtime::Remoting::ServerIdentity identity, System::Runtime::Remoting::Messaging::IMessageSink replySink)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServerObjectReplySink>(identity, replySink))) {}
+ System::Runtime::Remoting::Messaging::ServerObjectReplySink System::Runtime::Remoting::Messaging::ServerObjectReplySink::New_ctor(System::Runtime::Remoting::ServerIdentity identity, System::Runtime::Remoting::Messaging::IMessageSink replySink)  {
+System::Runtime::Remoting::Messaging::ServerObjectReplySink o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ServerObjectReplySink>(identity, replySink))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ServerObjectReplySink::_ctor(System::Runtime::Remoting::ServerIdentity identity, System::Runtime::Remoting::Messaging::IMessageSink replySink)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ServerObjectReplySink>::get(),

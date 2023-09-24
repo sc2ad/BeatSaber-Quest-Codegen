@@ -59,8 +59,7 @@ static UnityEngine::UIElements::IMGUIEvent GetPooled(UnityEngine::Event systemEv
 /// @brief Method LocalInit addr 0x2cd287c size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit IMGUIEvent() ;
+static UnityEngine::UIElements::IMGUIEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd2888 size 0x78 virtual false final false
  void _ctor() ;

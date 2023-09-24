@@ -149,8 +149,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::RepaintData::RepaintData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RepaintData>())) {}
+ UnityEngine::UIElements::RepaintData UnityEngine::UIElements::RepaintData::New_ctor()  {
+UnityEngine::UIElements::RepaintData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::RepaintData>())};
+return o;
+}
  void UnityEngine::UIElements::RepaintData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::RepaintData>::get(),

@@ -76,8 +76,10 @@ constexpr void Org::BouncyCastle::Crypto::IO::SignerSink::__set_mSigner(Org::Bou
 constexpr Org::BouncyCastle::Crypto::ISigner Org::BouncyCastle::Crypto::IO::SignerSink::__get_mSigner() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::ISigner, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::IO::SignerSink::SignerSink(Org::BouncyCastle::Crypto::ISigner signer)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<SignerSink>(signer))) {}
+ Org::BouncyCastle::Crypto::IO::SignerSink Org::BouncyCastle::Crypto::IO::SignerSink::New_ctor(Org::BouncyCastle::Crypto::ISigner signer)  {
+Org::BouncyCastle::Crypto::IO::SignerSink o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::IO::SignerSink>(signer))};
+return o;
+}
  void Org::BouncyCastle::Crypto::IO::SignerSink::_ctor(Org::BouncyCastle::Crypto::ISigner signer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::IO::SignerSink>::get(),

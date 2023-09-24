@@ -12,7 +12,7 @@ class TooltipEvent;
 // Type: UnityEngine.UIElements::TooltipEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1642 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1642 }), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7273))
 // CS Name: UnityEngine.UIElements.TooltipEvent
 class CORDL_TYPE TooltipEvent : public UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::TooltipEvent> {
@@ -85,8 +85,7 @@ constexpr UnityEngine::Rect __get__rect_k__BackingField() const;
 /// @brief Method LocalInit addr 0x2cd5d04 size 0x5c virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit TooltipEvent() ;
+static UnityEngine::UIElements::TooltipEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd5d7c size 0xb4 virtual false final false
  void _ctor() ;

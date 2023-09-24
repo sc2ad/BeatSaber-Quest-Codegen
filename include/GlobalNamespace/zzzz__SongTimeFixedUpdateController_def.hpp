@@ -2,15 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
 namespace System {
 class Action;
 }
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +122,7 @@ static constexpr float_t  kFixedDeltaTime{0.016666668};
 /// @brief Method Update addr 0x20bf378 size 0x140 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit SongTimeFixedUpdateController() ;
+static GlobalNamespace::SongTimeFixedUpdateController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bf4b8 size 0x8 virtual false final false
  void _ctor() ;

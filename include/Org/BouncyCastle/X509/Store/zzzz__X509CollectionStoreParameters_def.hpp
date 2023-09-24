@@ -2,14 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections {
-class ICollection;
+namespace Org::BouncyCastle::X509::Store {
+class IX509StoreParameters;
 }
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509StoreParameters;
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -69,8 +69,7 @@ constexpr System::Collections::IList __get_collection() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collection", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit X509CollectionStoreParameters(System::Collections::ICollection collection) ;
+static Org::BouncyCastle::X509::Store::X509CollectionStoreParameters New_ctor(System::Collections::ICollection collection) ;
 
 /// @brief Method .ctor addr 0x10e6960 size 0xbc virtual false final false
  void _ctor(System::Collections::ICollection collection) ;

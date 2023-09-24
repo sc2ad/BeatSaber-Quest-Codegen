@@ -47,8 +47,7 @@ constexpr explicit PS4NetworkPlayerModel(void* ptr) noexcept : GlobalNamespace::
 
 // Methods
 
-// Ctor Parameters []
-explicit PS4NetworkPlayerModel() ;
+static GlobalNamespace::PS4NetworkPlayerModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2211770 size 0x8 virtual false final false
  void _ctor() ;

@@ -9,14 +9,14 @@ struct Vector3;
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine {
-struct Bounds;
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
+namespace UnityEngine {
+struct Bounds;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -85,8 +85,7 @@ static ::ArrayW<int32_t> __get_k_CubeTriangles() ;
 /// @brief Method RebuildMesh addr 0x29f2fd0 size 0x20c virtual true final false
  UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit Cube() ;
+static UnityEngine::ProBuilder::Shapes::Cube New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f31dc size 0x8 virtual false final false
  void _ctor() ;

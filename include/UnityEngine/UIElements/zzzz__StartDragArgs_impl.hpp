@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::StartDragArgs.get_userData
 template<>
 
@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- UnityEngine::UIElements::StartDragArgs::StartDragArgs(::StringW title, ::bs_hook::Il2CppWrapperType userData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StartDragArgs>(title, userData))) {}
+ UnityEngine::UIElements::StartDragArgs UnityEngine::UIElements::StartDragArgs::New_ctor(::StringW title, ::bs_hook::Il2CppWrapperType userData)  {
+UnityEngine::UIElements::StartDragArgs o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StartDragArgs>(title, userData))};
+return o;
+}
  void UnityEngine::UIElements::StartDragArgs::_ctor(::StringW title, ::bs_hook::Il2CppWrapperType userData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StartDragArgs>::get(),

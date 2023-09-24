@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarPoseRestrictions_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarPoseController_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarPoseController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AvatarPoseRestrictions.Start
 template<>
 
@@ -159,8 +159,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method, handPosition, headCenter);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarPoseRestrictions::AvatarPoseRestrictions()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AvatarPoseRestrictions>())) {}
+ GlobalNamespace::AvatarPoseRestrictions GlobalNamespace::AvatarPoseRestrictions::New_ctor()  {
+GlobalNamespace::AvatarPoseRestrictions o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarPoseRestrictions>())};
+return o;
+}
  void GlobalNamespace::AvatarPoseRestrictions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarPoseRestrictions>::get(),

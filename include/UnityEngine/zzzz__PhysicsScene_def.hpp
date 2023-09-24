@@ -7,27 +7,27 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct QueryTriggerInteraction;
+}
+namespace UnityEngine {
+struct Ray;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
-struct QueryTriggerInteraction;
-}
-namespace UnityEngine {
 struct Quaternion;
-}
-namespace UnityEngine {
-struct RaycastHit;
 }
 namespace UnityEngine {
 class Collider;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct RaycastHit;
 }
 // Forward declare root types
 namespace UnityEngine {

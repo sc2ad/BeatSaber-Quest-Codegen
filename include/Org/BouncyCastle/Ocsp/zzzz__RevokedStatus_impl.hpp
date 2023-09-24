@@ -94,8 +94,10 @@ constexpr void Org::BouncyCastle::Ocsp::RevokedStatus::__set_info(Org::BouncyCas
 constexpr Org::BouncyCastle::Asn1::Ocsp::RevokedInfo Org::BouncyCastle::Ocsp::RevokedStatus::__get_info() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Ocsp::RevokedInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Ocsp::RevokedInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::RevokedStatus::RevokedStatus(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info)  : Org::BouncyCastle::Ocsp::CertificateStatus(THROW_UNLESS(::il2cpp_utils::New<RevokedStatus>(info))) {}
+ Org::BouncyCastle::Ocsp::RevokedStatus Org::BouncyCastle::Ocsp::RevokedStatus::New_ctor(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info)  {
+Org::BouncyCastle::Ocsp::RevokedStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::RevokedStatus>(info))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::RevokedStatus::_ctor(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::RevokedStatus>::get(),
@@ -105,8 +107,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info);
 }
-// Ctor Parameters [CppParam { name: "revocationDate", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "reason", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::RevokedStatus::RevokedStatus(System::DateTime revocationDate, int32_t reason)  : Org::BouncyCastle::Ocsp::CertificateStatus(THROW_UNLESS(::il2cpp_utils::New<RevokedStatus>(revocationDate, reason))) {}
+ Org::BouncyCastle::Ocsp::RevokedStatus Org::BouncyCastle::Ocsp::RevokedStatus::New_ctor(System::DateTime revocationDate, int32_t reason)  {
+Org::BouncyCastle::Ocsp::RevokedStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::RevokedStatus>(revocationDate, reason))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::RevokedStatus::_ctor(System::DateTime revocationDate, int32_t reason)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::RevokedStatus>::get(),

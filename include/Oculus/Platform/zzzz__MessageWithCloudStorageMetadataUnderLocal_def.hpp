@@ -13,7 +13,7 @@ class MessageWithCloudStorageMetadataUnderLocal;
 // Type: Oculus.Platform::MessageWithCloudStorageMetadataUnderLocal
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 1135 }), TypeDefinitionIndex(TypeDefinitionIndex(13407)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13407)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 1135 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13230))
 // CS Name: Oculus.Platform.MessageWithCloudStorageMetadataUnderLocal
 class CORDL_TYPE MessageWithCloudStorageMetadataUnderLocal : public Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageMetadata> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithCloudStorageMetadataUnderLocal(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithCloudStorageMetadataUnderLocal(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e480 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

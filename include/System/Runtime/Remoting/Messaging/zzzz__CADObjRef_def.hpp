@@ -73,8 +73,7 @@ constexpr ::ArrayW<uint8_t> __get_TypeInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "System::Runtime::Remoting::ObjRef", modifiers: "", def_value: None }, CppParam { name: "sourceDomain", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CADObjRef(System::Runtime::Remoting::ObjRef o, int32_t sourceDomain) ;
+static System::Runtime::Remoting::Messaging::CADObjRef New_ctor(System::Runtime::Remoting::ObjRef o, int32_t sourceDomain) ;
 
 /// @brief Method .ctor addr 0x233b9a4 size 0x48 virtual false final false
  void _ctor(System::Runtime::Remoting::ObjRef o, int32_t sourceDomain) ;

@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableSet_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 namespace System {
 class Array;
@@ -80,8 +80,7 @@ constexpr Org::BouncyCastle::Utilities::Collections::ISet __get_s() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "s", ty: "Org::BouncyCastle::Utilities::Collections::ISet", modifiers: "", def_value: None }]
-explicit UnmodifiableSetProxy(Org::BouncyCastle::Utilities::Collections::ISet s) ;
+static Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy New_ctor(Org::BouncyCastle::Utilities::Collections::ISet s) ;
 
 /// @brief Method .ctor addr 0x10cb3d0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Utilities::Collections::ISet s) ;

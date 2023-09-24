@@ -1,11 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Ice/zzzz__FloorLightTilesGrid_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "Ice/zzzz__FloorLightTile_def.hpp"
 #include "Ice/zzzz__FloorLightTile_def.hpp"
 #include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: Ice::FloorLightTilesGrid.get_ySize
 template<>
 
@@ -221,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, floorLightTile);
 }
-// Ctor Parameters []
- Ice::FloorLightTilesGrid::FloorLightTilesGrid()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FloorLightTilesGrid>())) {}
+ Ice::FloorLightTilesGrid Ice::FloorLightTilesGrid::New_ctor()  {
+Ice::FloorLightTilesGrid o{THROW_UNLESS(::il2cpp_utils::New<Ice::FloorLightTilesGrid>())};
+return o;
+}
  void Ice::FloorLightTilesGrid::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Ice::FloorLightTilesGrid>::get(),

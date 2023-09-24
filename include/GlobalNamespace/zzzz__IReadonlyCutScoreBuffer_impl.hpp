@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
-#include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreModel_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IReadonlyCutScoreBuffer.get_maxPossibleCutScore
 template<>
 

@@ -94,8 +94,7 @@ constexpr int32_t __get_pos() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "Org::BouncyCastle::Utilities::Collections::LinkedDictionary", modifiers: "", def_value: None }]
-explicit LinkedDictionaryEnumerator(Org::BouncyCastle::Utilities::Collections::LinkedDictionary parent) ;
+static Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator New_ctor(Org::BouncyCastle::Utilities::Collections::LinkedDictionary parent) ;
 
 /// @brief Method .ctor addr 0x10cd1bc size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Utilities::Collections::LinkedDictionary parent) ;

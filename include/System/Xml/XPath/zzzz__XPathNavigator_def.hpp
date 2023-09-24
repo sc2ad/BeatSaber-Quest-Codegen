@@ -6,26 +6,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class ICloneable;
-}
-namespace System::Xml::XPath {
-struct XPathNodeType;
-}
 namespace System::Xml::XPath {
 struct XPathNamespaceScope;
 }
-namespace System::Xml::XPath {
-class XPathNavigatorKeyComparer;
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
+class ICloneable;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
-namespace System {
-class Type;
-}
 namespace System::Xml {
 class XmlNameTable;
+}
+namespace System {
+class Type;
 }
 namespace System {
 struct DateTime;
@@ -33,8 +30,11 @@ struct DateTime;
 namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System::Xml::XPath {
+struct XPathNodeType;
+}
+namespace System::Xml::XPath {
+class XPathNavigatorKeyComparer;
 }
 // Forward declare root types
 namespace System::Xml::XPath {
@@ -229,8 +229,7 @@ static ::ArrayW<int32_t> __get_ContentKindMasks() ;
 /// @brief Method IsText addr 0x2718104 size 0x10 virtual false final false
 static bool IsText(System::Xml::XPath::XPathNodeType type) ;
 
-// Ctor Parameters []
-explicit XPathNavigator() ;
+static System::Xml::XPath::XPathNavigator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2718114 size 0x8 virtual false final false
  void _ctor() ;

@@ -58,8 +58,7 @@ constexpr explicit EnvironmentCommandLineArgsProvider(void* ptr) noexcept : ::bs
 /// @brief Method GetCommandLineArgs addr 0x21a8e34 size 0x8 virtual true final true
  ::ArrayW<::StringW> GetCommandLineArgs() ;
 
-// Ctor Parameters []
-explicit EnvironmentCommandLineArgsProvider() ;
+static GlobalNamespace::EnvironmentCommandLineArgsProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a8ebc size 0x8 virtual false final false
  void _ctor() ;

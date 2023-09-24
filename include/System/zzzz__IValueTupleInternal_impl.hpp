@@ -1,7 +1,7 @@
 #pragma once
 #include "System/zzzz__IValueTupleInternal_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 //  Writing Method size for method: System::IValueTupleInternal.GetHashCode
 template<>
 

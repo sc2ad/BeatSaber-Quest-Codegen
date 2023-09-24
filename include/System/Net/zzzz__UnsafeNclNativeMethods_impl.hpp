@@ -1,5 +1,6 @@
 #pragma once
 #include "System/Net/zzzz__UnsafeNclNativeMethods_def.hpp"
+#include "System/Net/zzzz__UnsafeNclNativeMethods_def.hpp"
 #include "System/Security/zzzz__SecureString_def.hpp"
 //  Writing Method size for method: GlobalNamespace::System__Net__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID.ToString
 template<>

@@ -47,8 +47,7 @@ constexpr explicit AspMvcEditorTemplateAttribute(void* ptr) noexcept : System::A
 
 // Methods
 
-// Ctor Parameters []
-explicit AspMvcEditorTemplateAttribute() ;
+static JetBrains::Annotations::AspMvcEditorTemplateAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41138 size 0x8 virtual false final false
  void _ctor() ;

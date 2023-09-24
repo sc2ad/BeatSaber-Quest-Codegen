@@ -2,14 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Globalization {
-class CompareInfo;
+namespace System::Collections {
+class IHashCodeProvider;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::Collections {
-class IHashCodeProvider;
+namespace System::Globalization {
+class CompareInfo;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -69,14 +69,12 @@ constexpr System::Globalization::CompareInfo __get__compareInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CaseInsensitiveHashCodeProvider() ;
+static System::Collections::CaseInsensitiveHashCodeProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2410284 size 0x7c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit CaseInsensitiveHashCodeProvider(System::Globalization::CultureInfo culture) ;
+static System::Collections::CaseInsensitiveHashCodeProvider New_ctor(System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x2410300 size 0x88 virtual false final false
  void _ctor(System::Globalization::CultureInfo culture) ;

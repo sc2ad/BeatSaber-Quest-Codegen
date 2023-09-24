@@ -24,7 +24,7 @@ namespace System::Net::Http::Headers {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(14828))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14828)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14828), inst: 2 })
 // CS Name: System.Net.Http.Headers.TryParseListDelegate`1
 class CORDL_TYPE TryParseListDelegate_1<T> : public System::MulticastDelegate {
@@ -63,8 +63,7 @@ constexpr explicit TryParseListDelegate_1(void* ptr) noexcept : System::Multicas
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit TryParseListDelegate_1(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Net::Http::Headers::TryParseListDelegate_1<T> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

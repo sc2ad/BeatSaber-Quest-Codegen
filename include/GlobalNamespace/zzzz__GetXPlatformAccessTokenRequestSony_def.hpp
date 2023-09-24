@@ -66,8 +66,7 @@ constexpr GlobalNamespace::PlatformEnvironment __get_platformEnvironment() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "platformToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformEnvironment", ty: "GlobalNamespace::PlatformEnvironment", modifiers: "", def_value: None }]
-explicit GetXPlatformAccessTokenRequestSony(::StringW platformToken, GlobalNamespace::PlatformEnvironment platformEnvironment) ;
+static GlobalNamespace::GetXPlatformAccessTokenRequestSony New_ctor(::StringW platformToken, GlobalNamespace::PlatformEnvironment platformEnvironment) ;
 
 /// @brief Method .ctor addr 0x221f9cc size 0x30 virtual false final false
  void _ctor(::StringW platformToken, GlobalNamespace::PlatformEnvironment platformEnvironment) ;

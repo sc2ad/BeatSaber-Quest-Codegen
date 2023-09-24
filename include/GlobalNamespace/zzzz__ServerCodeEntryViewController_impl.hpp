@@ -1,11 +1,11 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerCodeEntryViewController_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "HMUI/zzzz__InputFieldViewChangeBinder_def.hpp"
 #include "HMUI/zzzz__InputFieldView_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "HMUI/zzzz__UIKeyboard_def.hpp"
+#include "HMUI/zzzz__InputFieldViewChangeBinder_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ServerCodeEntryViewController.add_didFinishEvent
 template<>
 
@@ -267,8 +267,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ServerCodeEntryViewController::ServerCodeEntryViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<ServerCodeEntryViewController>())) {}
+ GlobalNamespace::ServerCodeEntryViewController GlobalNamespace::ServerCodeEntryViewController::New_ctor()  {
+GlobalNamespace::ServerCodeEntryViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ServerCodeEntryViewController>())};
+return o;
+}
  void GlobalNamespace::ServerCodeEntryViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ServerCodeEntryViewController>::get(),

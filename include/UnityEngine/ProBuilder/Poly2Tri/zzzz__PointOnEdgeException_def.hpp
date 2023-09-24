@@ -72,8 +72,7 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __get_C() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "a", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }, CppParam { name: "b", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }, CppParam { name: "c", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
-explicit PointOnEdgeException(::StringW message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint c) ;
+static UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException New_ctor(::StringW message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint c) ;
 
 /// @brief Method .ctor addr 0x299fa9c size 0x3c virtual false final false
  void _ctor(::StringW message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint c) ;

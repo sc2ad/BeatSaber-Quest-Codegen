@@ -5,17 +5,17 @@
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class Array;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -87,8 +87,7 @@ constexpr explicit UnmodifiableSet(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Methods
 
-// Ctor Parameters []
-explicit UnmodifiableSet() ;
+static Org::BouncyCastle::Utilities::Collections::UnmodifiableSet New_ctor() ;
 
 /// @brief Method .ctor addr 0x10ceee0 size 0x8 virtual false final false
  void _ctor() ;

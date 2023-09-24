@@ -2,9 +2,9 @@
 #include "UnityEngine/UIElements/zzzz__MouseEventDispatchingStrategy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventDispatchingStrategy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::MouseEventDispatchingStrategy.CanDispatchEvent
 template<>
 
@@ -234,8 +234,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, evt);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::MouseEventDispatchingStrategy::MouseEventDispatchingStrategy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MouseEventDispatchingStrategy>())) {}
+ UnityEngine::UIElements::MouseEventDispatchingStrategy UnityEngine::UIElements::MouseEventDispatchingStrategy::New_ctor()  {
+UnityEngine::UIElements::MouseEventDispatchingStrategy o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::MouseEventDispatchingStrategy>())};
+return o;
+}
  void UnityEngine::UIElements::MouseEventDispatchingStrategy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::MouseEventDispatchingStrategy>::get(),

@@ -55,8 +55,7 @@ constexpr explicit NullOutputStream(void* ptr) noexcept : Org::BouncyCastle::Uti
 /// @brief Method Write addr 0x10d39f8 size 0x4 virtual true final false
  void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
-// Ctor Parameters []
-explicit NullOutputStream() ;
+static Org::BouncyCastle::Utilities::IO::NullOutputStream New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d39fc size 0x8 virtual false final false
  void _ctor() ;

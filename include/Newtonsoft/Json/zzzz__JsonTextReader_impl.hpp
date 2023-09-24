@@ -1,18 +1,18 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonReader_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonTextReader_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__StringReference_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__PropertyNameTable_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
-#include "Newtonsoft/Json/zzzz__ReadType_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__StringBuffer_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__PropertyNameTable_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__StringBuffer_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__StringReference_def.hpp"
+#include "Newtonsoft/Json/zzzz__ReadType_def.hpp"
+#include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 #include "System/IO/zzzz__TextReader_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::JsonTextReader._ctor
 template<>
 
@@ -1120,8 +1120,10 @@ constexpr void Newtonsoft::Json::JsonTextReader::__set_NameTable(Newtonsoft::Jso
 constexpr Newtonsoft::Json::Utilities::PropertyNameTable Newtonsoft::Json::JsonTextReader::__get_NameTable() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Utilities::PropertyNameTable, 0xc8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::TextReader", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonTextReader::JsonTextReader(System::IO::TextReader reader)  : Newtonsoft::Json::JsonReader(THROW_UNLESS(::il2cpp_utils::New<JsonTextReader>(reader))) {}
+ Newtonsoft::Json::JsonTextReader Newtonsoft::Json::JsonTextReader::New_ctor(System::IO::TextReader reader)  {
+Newtonsoft::Json::JsonTextReader o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonTextReader>(reader))};
+return o;
+}
  void Newtonsoft::Json::JsonTextReader::_ctor(System::IO::TextReader reader)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonTextReader>::get(),

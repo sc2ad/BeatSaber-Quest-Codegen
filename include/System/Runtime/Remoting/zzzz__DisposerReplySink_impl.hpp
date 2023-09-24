@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__DisposerReplySink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::DisposerReplySink._ctor
 template<>
 
@@ -71,8 +71,10 @@ constexpr void System::Runtime::Remoting::DisposerReplySink::__set__disposable(S
 constexpr System::IDisposable System::Runtime::Remoting::DisposerReplySink::__get__disposable() const {
 return ::cordl_internals::getInstanceField<System::IDisposable, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "next", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }, CppParam { name: "disposable", ty: "System::IDisposable", modifiers: "", def_value: None }]
- System::Runtime::Remoting::DisposerReplySink::DisposerReplySink(System::Runtime::Remoting::Messaging::IMessageSink next, System::IDisposable disposable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DisposerReplySink>(next, disposable))) {}
+ System::Runtime::Remoting::DisposerReplySink System::Runtime::Remoting::DisposerReplySink::New_ctor(System::Runtime::Remoting::Messaging::IMessageSink next, System::IDisposable disposable)  {
+System::Runtime::Remoting::DisposerReplySink o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::DisposerReplySink>(next, disposable))};
+return o;
+}
  void System::Runtime::Remoting::DisposerReplySink::_ctor(System::Runtime::Remoting::Messaging::IMessageSink next, System::IDisposable disposable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::DisposerReplySink>::get(),

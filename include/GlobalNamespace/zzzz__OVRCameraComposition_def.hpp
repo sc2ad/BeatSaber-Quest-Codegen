@@ -47,8 +47,7 @@ constexpr explicit OVRCameraComposition(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRCameraComposition() ;
+static GlobalNamespace::OVRCameraComposition New_ctor() ;
 
 /// @brief Method .ctor addr 0x25a4d80 size 0x8 virtual false final false
  void _ctor() ;

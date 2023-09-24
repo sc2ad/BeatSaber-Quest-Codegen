@@ -47,8 +47,7 @@ constexpr explicit PreserveSigAttribute(void* ptr) noexcept : System::Attribute(
 
 // Methods
 
-// Ctor Parameters []
-explicit PreserveSigAttribute() ;
+static System::Runtime::InteropServices::PreserveSigAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236ac98 size 0x8 virtual false final false
  void _ctor() ;

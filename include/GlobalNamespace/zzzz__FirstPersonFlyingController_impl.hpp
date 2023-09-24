@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FirstPersonFlyingController_def.hpp"
-#include "GlobalNamespace/zzzz__MouseLook_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__VRCenterAdjust_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__MouseLook_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FirstPersonFlyingController.Awake
 template<>
 
@@ -246,8 +246,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, camera, centerAdjust, controller0, controller1, shouldBeEnabled);
 }
-// Ctor Parameters []
- GlobalNamespace::FirstPersonFlyingController::FirstPersonFlyingController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FirstPersonFlyingController>())) {}
+ GlobalNamespace::FirstPersonFlyingController GlobalNamespace::FirstPersonFlyingController::New_ctor()  {
+GlobalNamespace::FirstPersonFlyingController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FirstPersonFlyingController>())};
+return o;
+}
  void GlobalNamespace::FirstPersonFlyingController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FirstPersonFlyingController>::get(),

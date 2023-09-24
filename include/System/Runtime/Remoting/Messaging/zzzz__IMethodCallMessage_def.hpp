@@ -1,10 +1,10 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMethodMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

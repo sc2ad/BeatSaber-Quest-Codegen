@@ -6,68 +6,74 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
 namespace UnityEngine::EventSystems {
 class AxisEventData;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-class InputActionReference;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputAction__CallbackContext;
-}
-namespace UnityEngine::InputSystem::UI {
-class ExtendedPointerEventData;
-}
-namespace UnityEngine::InputSystem::UI {
-struct PointerModel;
+class InputDevice;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct InlinedArray_1;
 }
 namespace UnityEngine::InputSystem::UI {
-struct UnityEngine__InputSystem__UI__PointerModel__ButtonState;
+struct UnityEngine__InputSystem__UI__InputSystemUIInputModule__CursorLockBehavior;
+}
+namespace UnityEngine::InputSystem::UI {
+struct UIPointerType;
+}
+namespace UnityEngine::InputSystem::UI {
+struct PointerModel;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::InputSystem::UI {
+struct UnityEngine__InputSystem__UI__InputSystemUIInputModule__InputActionReferenceState;
+}
+namespace UnityEngine::InputSystem {
+class InputActionReference;
+}
+namespace UnityEngine::InputSystem::UI {
+struct NavigationModel;
+}
+namespace UnityEngine::InputSystem::UI {
+class ExtendedPointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+struct RaycastResult;
+}
+namespace UnityEngine::InputSystem::UI {
+struct UIPointerBehavior;
+}
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
-}
-namespace UnityEngine::InputSystem::UI {
-struct UIPointerBehavior;
+class InputAction;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace UnityEngine::InputSystem::UI {
-struct NavigationModel;
+struct UnityEngine__InputSystem__UI__PointerModel__ButtonState;
 }
 namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine::InputSystem::UI {
-struct UIPointerType;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -187,6 +193,8 @@ __ScreenCenter = 1,
 constexpr operator __UnityEngine__InputSystem__UI__InputSystemUIInputModule__CursorLockBehavior_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__UI__InputSystemUIInputModule__CursorLockBehavior_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -838,8 +846,7 @@ static void SetActionCallback(UnityEngine::InputSystem::InputActionReference act
 /// @brief Method set_actionsAsset addr 0x29401c4 size 0x230 virtual false final false
  void set_actionsAsset(UnityEngine::InputSystem::InputActionAsset value) ;
 
-// Ctor Parameters []
-explicit InputSystemUIInputModule() ;
+static UnityEngine::InputSystem::UI::InputSystemUIInputModule New_ctor() ;
 
 /// @brief Method .ctor addr 0x2942ae8 size 0x2c virtual false final false
  void _ctor() ;

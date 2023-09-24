@@ -2,12 +2,13 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CloudsMeshGenerator_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Gradient_def.hpp"
+#include "GlobalNamespace/zzzz__CloudsMeshGenerator_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "UnityEngine/zzzz__Gradient_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "precisionOpaqueMesh", ty: "UnityEngine::Mesh", modifiers: "", def_value: Some("csnull") }, CppParam { name: "lowPolyMesh", ty: "UnityEngine::Mesh", modifiers: "", def_value: Some("csnull") }, CppParam { name: "sizeModifier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomThreshold", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "weight", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "precisionVertexCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lowPolyVertexCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "generatedCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__Cloud::GlobalNamespace__CloudsMeshGenerator__Cloud(UnityEngine::Mesh precisionOpaqueMesh, UnityEngine::Mesh lowPolyMesh, float_t sizeModifier, float_t bottomThreshold, int32_t weight, int32_t precisionVertexCount, int32_t lowPolyVertexCount, int32_t generatedCount) noexcept : ::bs_hook::ValueTypeWrapper() {this->precisionOpaqueMesh = precisionOpaqueMesh;
@@ -372,8 +373,10 @@ constexpr void GlobalNamespace::CloudsMeshGenerator::__set__sortedProhibitedRadi
 constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius> GlobalNamespace::CloudsMeshGenerator::__get__sortedProhibitedRadii() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::GlobalNamespace__CloudsMeshGenerator__ProhibitedRadius>, 0xe0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::CloudsMeshGenerator::CloudsMeshGenerator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CloudsMeshGenerator>())) {}
+ GlobalNamespace::CloudsMeshGenerator GlobalNamespace::CloudsMeshGenerator::New_ctor()  {
+GlobalNamespace::CloudsMeshGenerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CloudsMeshGenerator>())};
+return o;
+}
  void GlobalNamespace::CloudsMeshGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CloudsMeshGenerator>::get(),

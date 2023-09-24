@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto {
+class IBasicAgreement;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -90,8 +90,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::DHParameters __get_dhParams() c
 /// @brief Method CalculateAgreement addr 0x118e918 size 0x27c virtual true final false
  Org::BouncyCastle::Math::BigInteger CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters pubKey) ;
 
-// Ctor Parameters []
-explicit DHBasicAgreement() ;
+static Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement New_ctor() ;
 
 /// @brief Method .ctor addr 0x118eb94 size 0x8 virtual false final false
  void _ctor() ;

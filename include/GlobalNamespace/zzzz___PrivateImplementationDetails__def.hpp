@@ -1,66 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-#include <cstddef>
+#include <cstdint>
 // Forward declare root types
 namespace GlobalNamespace {
 class _PrivateImplementationDetails_;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24;
-}
-// Type: ::__StaticArrayInitTypeSize=24
-namespace GlobalNamespace {
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9524))
-// CS Name: <PrivateImplementationDetails>::__StaticArrayInitTypeSize=24
-struct CORDL_TYPE GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24 : public ::bs_hook::ValueTypeWrapper {
-public:
-// Declarations
-
-                    constexpr GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24(GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24 const&) = default;
-                    constexpr GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24(GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24&&) = default;
-                    constexpr GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24& operator=(GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24 const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24& operator=(GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x18};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
 // Type: ::<PrivateImplementationDetails>
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9525))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12953))
 // CS Name: <PrivateImplementationDetails>
 class CORDL_TYPE _PrivateImplementationDetails_ : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __StaticArrayInitTypeSize=24 = GlobalNamespace::GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24;
-
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
@@ -94,11 +48,17 @@ constexpr explicit _PrivateImplementationDetails_(void* ptr) noexcept : ::bs_hoo
 
 // Fields
 
-static GlobalNamespace::GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24 __declspec(property(get=__get_CD9A54ED1F18BF97DB08914E280EA7349E11CA2C4885A4D8052552CEBA84208D, put=__set_CD9A54ED1F18BF97DB08914E280EA7349E11CA2C4885A4D8052552CEBA84208D))  CD9A54ED1F18BF97DB08914E280EA7349E11CA2C4885A4D8052552CEBA84208D;
+static int64_t __declspec(property(get=__get_1D8EE5DD0A2536B5ABB8D369F6CAAB05B62A56201972EEE21AAC47EE5191257F, put=__set_1D8EE5DD0A2536B5ABB8D369F6CAAB05B62A56201972EEE21AAC47EE5191257F))  1D8EE5DD0A2536B5ABB8D369F6CAAB05B62A56201972EEE21AAC47EE5191257F;
 
-static void __set_CD9A54ED1F18BF97DB08914E280EA7349E11CA2C4885A4D8052552CEBA84208D(GlobalNamespace::GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24 value) ;
+static void __set_1D8EE5DD0A2536B5ABB8D369F6CAAB05B62A56201972EEE21AAC47EE5191257F(int64_t value) ;
 
-static GlobalNamespace::GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24 __get_CD9A54ED1F18BF97DB08914E280EA7349E11CA2C4885A4D8052552CEBA84208D() ;
+static int64_t __get_1D8EE5DD0A2536B5ABB8D369F6CAAB05B62A56201972EEE21AAC47EE5191257F() ;
+
+static int64_t __declspec(property(get=__get_F5397012DCA333BF243C6AAB47AA9D0FD58EFF88D1589545161773E7420D2F67, put=__set_F5397012DCA333BF243C6AAB47AA9D0FD58EFF88D1589545161773E7420D2F67))  F5397012DCA333BF243C6AAB47AA9D0FD58EFF88D1589545161773E7420D2F67;
+
+static void __set_F5397012DCA333BF243C6AAB47AA9D0FD58EFF88D1589545161773E7420D2F67(int64_t value) ;
+
+static int64_t __get_F5397012DCA333BF243C6AAB47AA9D0FD58EFF88D1589545161773E7420D2F67() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -106,4 +66,3 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 } // namespace end def GlobalNamespace
 NEED_NO_BOX(GlobalNamespace::_PrivateImplementationDetails_);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::_PrivateImplementationDetails_, "", "<PrivateImplementationDetails>");
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace___PrivateImplementationDetails_____StaticArrayInitTypeSize=24, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=24");

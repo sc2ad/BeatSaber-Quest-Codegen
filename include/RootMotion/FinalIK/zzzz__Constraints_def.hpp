@@ -114,8 +114,7 @@ constexpr float_t __get_rotationWeight() const;
 /// @brief Method Update addr 0x11b7d00 size 0x2f8 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit Constraints() ;
+static RootMotion::FinalIK::Constraints New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b83f4 size 0x8 virtual false final false
  void _ctor() ;

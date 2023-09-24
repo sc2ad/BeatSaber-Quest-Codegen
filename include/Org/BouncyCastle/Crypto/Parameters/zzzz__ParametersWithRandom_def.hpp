@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -78,14 +78,12 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit ParametersWithRandom(Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0xeaafc8 size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, Org::BouncyCastle::Security::SecureRandom random) ;
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }]
-explicit ParametersWithRandom(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method .ctor addr 0xeab06c size 0x70 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;

@@ -3,6 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System::Dynamic::Utils {
+template<typename TKey,typename TValue>
+class System__Dynamic__Utils__CacheDict_2__Entry;
+}
 // Forward declare root types
 namespace System::Dynamic::Utils {
 template<typename TKey,typename TValue>
@@ -123,8 +127,7 @@ constexpr ::ArrayW<System::Dynamic::Utils::System__Dynamic__Utils__CacheDict_2__
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CacheDict_2(int32_t size) ;
+static System::Dynamic::Utils::CacheDict_2<TKey,TValue> New_ctor(int32_t size) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t size) ;

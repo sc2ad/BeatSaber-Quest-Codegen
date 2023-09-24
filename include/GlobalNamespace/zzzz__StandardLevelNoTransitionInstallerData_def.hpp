@@ -3,28 +3,28 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class ColorSchemeSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
 class PracticeSettings;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class ColorSchemeSO;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -218,8 +218,7 @@ constexpr bool __get__useTestNoteCutSoundEffects() const;
 /// @brief Method set_useTestNoteCutSoundEffects addr 0x21b6908 size 0xc virtual false final false
  void set_useTestNoteCutSoundEffects(bool value) ;
 
-// Ctor Parameters []
-explicit StandardLevelNoTransitionInstallerData() ;
+static GlobalNamespace::StandardLevelNoTransitionInstallerData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b6914 size 0x8 virtual false final false
  void _ctor() ;

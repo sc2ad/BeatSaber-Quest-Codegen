@@ -4,33 +4,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace HMUI {
+class HMUI__TableView__IDataSource;
+}
+namespace HMUI {
+class DropdownWithTableView;
+}
+namespace GlobalNamespace {
+class ColorSchemeView;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class ColorScheme;
+class ColorSchemeTableCell;
 }
 namespace HMUI {
-class DropdownWithTableView;
-}
-namespace HMUI {
-class HMUI__TableView__IDataSource;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+class TableView;
 }
 namespace HMUI {
 class TableCell;
 }
 namespace GlobalNamespace {
-class ColorSchemeTableCell;
-}
-namespace GlobalNamespace {
-class ColorSchemeView;
-}
-namespace HMUI {
-class TableView;
+class ColorScheme;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -156,8 +156,7 @@ constexpr bool __get__initialized() const;
 /// @brief Method RefreshUI addr 0x211dec8 size 0xf4 virtual false final false
  void RefreshUI(GlobalNamespace::ColorScheme colorScheme) ;
 
-// Ctor Parameters []
-explicit ColorSchemeDropdown() ;
+static GlobalNamespace::ColorSchemeDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x211e774 size 0x58 virtual false final false
  void _ctor() ;

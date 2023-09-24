@@ -2,20 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class NoteControllerBase;
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class NoteController;
 }
 namespace GlobalNamespace {
 class NoteJump;
 }
 namespace GlobalNamespace {
-class NoteController;
+class NoteControllerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +108,7 @@ constexpr GlobalNamespace::NoteJump __get__noteJump() const;
 /// @brief Method HandleNoteControllerDidInit addr 0x224255c size 0xd0 virtual true final true
  void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase noteController) ;
 
-// Ctor Parameters []
-explicit NoteJumpStartScaleUp() ;
+static GlobalNamespace::NoteJumpStartScaleUp New_ctor() ;
 
 /// @brief Method .ctor addr 0x224262c size 0x10 virtual false final false
  void _ctor() ;

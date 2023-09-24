@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_double_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_doubleXdr_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::Datatype_doubleXdr.ParseValue
 template<>
 
@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, s, nameTable, nsmgr);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_doubleXdr::Datatype_doubleXdr()  : System::Xml::Schema::Datatype_double(THROW_UNLESS(::il2cpp_utils::New<Datatype_doubleXdr>())) {}
+ System::Xml::Schema::Datatype_doubleXdr System::Xml::Schema::Datatype_doubleXdr::New_ctor()  {
+System::Xml::Schema::Datatype_doubleXdr o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_doubleXdr>())};
+return o;
+}
  void System::Xml::Schema::Datatype_doubleXdr::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_doubleXdr>::get(),

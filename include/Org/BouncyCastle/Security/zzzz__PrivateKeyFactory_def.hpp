@@ -7,8 +7,11 @@
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class PrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
@@ -16,11 +19,8 @@ class AsymmetricKeyParameter;
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class EncryptedPrivateKeyInfo;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class PrivateKeyInfo;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -68,8 +68,7 @@ constexpr explicit PrivateKeyFactory(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Methods
 
-// Ctor Parameters []
-explicit PrivateKeyFactory() ;
+static Org::BouncyCastle::Security::PrivateKeyFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x10b0e08 size 0x8 virtual false final false
  void _ctor() ;

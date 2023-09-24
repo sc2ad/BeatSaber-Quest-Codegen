@@ -1,8 +1,9 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleComplexSelector_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleSelector_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleComplexSelector_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSelector_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleRule_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PseudoStates_def.hpp"
@@ -94,8 +95,10 @@ return ::cordl_internals::getStaticField<UnityEngine::UIElements::UnityEngine__U
  System::Func_2<UnityEngine::UIElements::StyleSelector,::StringW> UnityEngine::UIElements::UnityEngine__UIElements__StyleComplexSelector____c::__get___9__20_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::UIElements::StyleSelector,::StringW>, "<>9__20_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__StyleComplexSelector____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__StyleComplexSelector____c::UnityEngine__UIElements__StyleComplexSelector____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__StyleComplexSelector____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__StyleComplexSelector____c UnityEngine::UIElements::UnityEngine__UIElements__StyleComplexSelector____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__StyleComplexSelector____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__StyleComplexSelector____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__StyleComplexSelector____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__StyleComplexSelector____c>::get(),
@@ -355,8 +358,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleComplexSelector::StyleComplexSelector()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StyleComplexSelector>())) {}
+ UnityEngine::UIElements::StyleComplexSelector UnityEngine::UIElements::StyleComplexSelector::New_ctor()  {
+UnityEngine::UIElements::StyleComplexSelector o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleComplexSelector>())};
+return o;
+}
  void UnityEngine::UIElements::StyleComplexSelector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleComplexSelector>::get(),

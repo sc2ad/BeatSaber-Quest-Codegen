@@ -1,13 +1,13 @@
 #pragma once
 #include "Mono/Security/Interface/zzzz__MonoTlsProvider_impl.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
-#include "System/Net/Security/zzzz__SslStream_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
 #include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
 //  Writing Method size for method: Mono::Net::Security::MobileTlsProvider.CreateSslStream
 template<>
@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, validator, targetHost, serverMode, certificates, wantsChain, chain, errors, status11);
 }
-// Ctor Parameters []
- Mono::Net::Security::MobileTlsProvider::MobileTlsProvider()  : Mono::Security::Interface::MonoTlsProvider(THROW_UNLESS(::il2cpp_utils::New<MobileTlsProvider>())) {}
+ Mono::Net::Security::MobileTlsProvider Mono::Net::Security::MobileTlsProvider::New_ctor()  {
+Mono::Net::Security::MobileTlsProvider o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::MobileTlsProvider>())};
+return o;
+}
  void Mono::Net::Security::MobileTlsProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::MobileTlsProvider>::get(),

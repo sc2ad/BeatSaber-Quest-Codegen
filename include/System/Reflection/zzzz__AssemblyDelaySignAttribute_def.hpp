@@ -56,8 +56,7 @@ constexpr bool __get__DelaySign_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "delaySign", ty: "bool", modifiers: "", def_value: None }]
-explicit AssemblyDelaySignAttribute(bool delaySign) ;
+static System::Reflection::AssemblyDelaySignAttribute New_ctor(bool delaySign) ;
 
 /// @brief Method .ctor addr 0x2378d20 size 0x28 virtual false final false
  void _ctor(bool delaySign) ;

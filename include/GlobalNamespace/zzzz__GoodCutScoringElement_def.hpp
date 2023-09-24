@@ -3,19 +3,22 @@
 #include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
 class CutScoreBuffer;
-}
-namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
 }
 namespace GlobalNamespace {
+class ICutScoreBufferDidFinishReceiver;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
 class IReadonlyCutScoreBuffer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GoodCutScoringElement__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -129,8 +132,7 @@ constexpr GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEv
 /// @brief Method HandleCutScoreBufferDidFinish addr 0x211021c size 0x24 virtual true final true
  void HandleCutScoreBufferDidFinish(GlobalNamespace::CutScoreBuffer cutScoreBuffer) ;
 
-// Ctor Parameters []
-explicit GoodCutScoringElement() ;
+static GlobalNamespace::GoodCutScoringElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2110240 size 0x64 virtual false final false
  void _ctor() ;
@@ -181,8 +183,7 @@ constexpr explicit GlobalNamespace__GoodCutScoringElement__Pool(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GoodCutScoringElement__Pool() ;
+static GlobalNamespace::GlobalNamespace__GoodCutScoringElement__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x21102a4 size 0x48 virtual false final false
  void _ctor() ;

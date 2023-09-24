@@ -1,11 +1,11 @@
 #pragma once
 #include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "LiteNetLib/zzzz__NetPeer_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "LiteNetLib/zzzz__NetManager_def.hpp"
 #include "LiteNetLib/zzzz__ConnectionRequestResult_def.hpp"
+#include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
 //  Writing Method size for method: LiteNetLib::ConnectionRequest.get_Result
 template<>
@@ -357,8 +357,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, connRequest);
 }
-// Ctor Parameters [CppParam { name: "connectionId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "connectionNumber", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "netDataReader", ty: "LiteNetLib::Utils::NetDataReader", modifiers: "", def_value: None }, CppParam { name: "endPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }, CppParam { name: "listener", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }]
- LiteNetLib::ConnectionRequest::ConnectionRequest(int64_t connectionId, uint8_t connectionNumber, LiteNetLib::Utils::NetDataReader netDataReader, System::Net::IPEndPoint endPoint, LiteNetLib::NetManager listener)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ConnectionRequest>(connectionId, connectionNumber, netDataReader, endPoint, listener))) {}
+ LiteNetLib::ConnectionRequest LiteNetLib::ConnectionRequest::New_ctor(int64_t connectionId, uint8_t connectionNumber, LiteNetLib::Utils::NetDataReader netDataReader, System::Net::IPEndPoint endPoint, LiteNetLib::NetManager listener)  {
+LiteNetLib::ConnectionRequest o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::ConnectionRequest>(connectionId, connectionNumber, netDataReader, endPoint, listener))};
+return o;
+}
  void LiteNetLib::ConnectionRequest::_ctor(int64_t connectionId, uint8_t connectionNumber, LiteNetLib::Utils::NetDataReader netDataReader, System::Net::IPEndPoint endPoint, LiteNetLib::NetManager listener)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::ConnectionRequest>::get(),

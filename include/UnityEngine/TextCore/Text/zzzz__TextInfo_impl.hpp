@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__MeshInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__LinkInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextElementInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__WordInfo_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__PageInfo_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__WordInfo_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextElementInfo_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__LinkInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__LineInfo_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__MeshInfo_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Text::TextInfo._ctor
 template<>
 
@@ -177,8 +177,10 @@ constexpr void UnityEngine::TextCore::Text::TextInfo::__set_isDirty(bool value) 
 constexpr bool UnityEngine::TextCore::Text::TextInfo::__get_isDirty() const {
 return ::cordl_internals::getInstanceField<bool, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::TextInfo::TextInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TextInfo>())) {}
+ UnityEngine::TextCore::Text::TextInfo UnityEngine::TextCore::Text::TextInfo::New_ctor()  {
+UnityEngine::TextCore::Text::TextInfo o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::TextInfo>())};
+return o;
+}
  void UnityEngine::TextCore::Text::TextInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::TextInfo>::get(),

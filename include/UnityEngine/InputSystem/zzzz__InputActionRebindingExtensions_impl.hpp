@@ -3,39 +3,38 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionRebindingExtensions_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
-#include "System/Linq/Expressions/zzzz__Expression_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionRebindingExtensions_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputActionCollection2_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
+#include "System/Linq/Expressions/zzzz__Expression_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 // Ctor Parameters [CppParam { name: "instance", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: Some("csnull") }, CppParam { name: "field", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: Some("csnull") }, CppParam { name: "bindingIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__Parameter::UnityEngine__InputSystem__InputActionRebindingExtensions__Parameter(::bs_hook::Il2CppWrapperType instance, System::Reflection::FieldInfo field, int32_t bindingIndex) noexcept : ::bs_hook::ValueTypeWrapper() {this->instance = instance;
 this->field = field;
@@ -835,8 +834,10 @@ constexpr void GlobalNamespace::UnityEngine__InputSystem__InputActionRebindingEx
 constexpr ::StringW GlobalNamespace::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0::__get_group() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0>())) {}
+ GlobalNamespace::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0 GlobalNamespace::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0::New_ctor()  {
+GlobalNamespace::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0>())};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0>::get(),
@@ -2535,8 +2536,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, control);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation>::get(),
@@ -2619,8 +2622,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper::UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper>::get(),
@@ -2688,8 +2693,10 @@ constexpr void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRe
 constexpr int32_t UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0::__get_partCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0::UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0 UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0>::get(),

@@ -7,6 +7,13 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+template<typename T>
+class HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -16,10 +23,13 @@ template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HoudiniEngineUnity__HEU_PluginStorage__StoreData;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionData;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_PluginStorage__DataType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -91,6 +101,8 @@ __STRING = 4,
 constexpr operator __HoudiniEngineUnity__HEU_PluginStorage__DataType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_PluginStorage__DataType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -177,8 +189,7 @@ constexpr ::StringW __get__valueStr() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_PluginStorage__StoreData() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreData New_ctor() ;
 
 /// @brief Method .ctor addr 0x201c9ec size 0x8 virtual false final false
  void _ctor() ;
@@ -380,8 +391,7 @@ static void DeleteAllSavedSessionData() ;
 /// @brief Method ConvertEnvKeyedPathToReal addr 0x2013314 size 0x230 virtual false final false
  ::StringW ConvertEnvKeyedPathToReal(::StringW inPath) ;
 
-// Ctor Parameters []
-explicit HEU_PluginStorage() ;
+static HoudiniEngineUnity::HEU_PluginStorage New_ctor() ;
 
 /// @brief Method .ctor addr 0x201bf3c size 0x7c virtual false final false
  void _ctor() ;
@@ -443,8 +453,7 @@ constexpr ::ArrayW<T> __get__array() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

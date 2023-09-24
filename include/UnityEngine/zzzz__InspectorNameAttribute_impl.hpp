@@ -24,8 +24,10 @@ constexpr void UnityEngine::InspectorNameAttribute::__set_displayName(::StringW 
 constexpr ::StringW UnityEngine::InspectorNameAttribute::__get_displayName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::InspectorNameAttribute::InspectorNameAttribute(::StringW displayName)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<InspectorNameAttribute>(displayName))) {}
+ UnityEngine::InspectorNameAttribute UnityEngine::InspectorNameAttribute::New_ctor(::StringW displayName)  {
+UnityEngine::InspectorNameAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InspectorNameAttribute>(displayName))};
+return o;
+}
  void UnityEngine::InspectorNameAttribute::_ctor(::StringW displayName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InspectorNameAttribute>::get(),

@@ -87,14 +87,12 @@ constexpr int32_t __get_l() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ElGamalParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g) ;
+static Org::BouncyCastle::Crypto::Parameters::ElGamalParameters New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g) ;
 
 /// @brief Method .ctor addr 0xea8684 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g) ;
 
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "l", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ElGamalParameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, int32_t l) ;
+static Org::BouncyCastle::Crypto::Parameters::ElGamalParameters New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, int32_t l) ;
 
 /// @brief Method .ctor addr 0xea868c size 0xb4 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger g, int32_t l) ;

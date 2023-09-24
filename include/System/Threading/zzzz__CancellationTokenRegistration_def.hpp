@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading {
-class CancellationCallbackInfo;
-}
-namespace System::Threading {
-template<typename T>
-struct SparselyPopulatedArrayAddInfo_1;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
+namespace System::Threading {
+class CancellationCallbackInfo;
+}
 namespace System {
 class IDisposable;
+}
+namespace System::Threading {
+template<typename T>
+struct SparselyPopulatedArrayAddInfo_1;
 }
 // Forward declare root types
 namespace System::Threading {

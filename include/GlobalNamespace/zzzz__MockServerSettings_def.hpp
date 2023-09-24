@@ -47,8 +47,7 @@ constexpr explicit MockServerSettings(void* ptr) noexcept : GlobalNamespace::Moc
 
 // Methods
 
-// Ctor Parameters []
-explicit MockServerSettings() ;
+static GlobalNamespace::MockServerSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x20efa84 size 0x8 virtual false final false
  void _ctor() ;

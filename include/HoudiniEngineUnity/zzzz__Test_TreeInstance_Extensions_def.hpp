@@ -12,6 +12,9 @@ struct TreeInstance;
 namespace HoudiniEngineUnity {
 class Test_TreeInstance;
 }
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__Test_TreeInstance_Extensions____c;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -86,8 +89,7 @@ static System::Converter_2<UnityEngine::TreeInstance,HoudiniEngineUnity::Test_Tr
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__Test_TreeInstance_Extensions____c() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__Test_TreeInstance_Extensions____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2075e70 size 0x8 virtual false final false
  void _ctor() ;

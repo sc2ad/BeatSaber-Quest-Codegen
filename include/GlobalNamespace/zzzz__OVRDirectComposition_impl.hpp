@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::OVRDirectComposition::OVRDirectComposition()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRDirectComposition>())) {}
+ GlobalNamespace::OVRDirectComposition GlobalNamespace::OVRDirectComposition::New_ctor()  {
+GlobalNamespace::OVRDirectComposition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRDirectComposition>())};
+return o;
+}
  void GlobalNamespace::OVRDirectComposition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRDirectComposition>::get(),

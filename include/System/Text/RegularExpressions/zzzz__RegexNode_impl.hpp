@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::RegexNode._ctor
 template<>
 
@@ -390,8 +390,10 @@ constexpr void System::Text::RegularExpressions::RegexNode::__set_Next(System::T
 constexpr System::Text::RegularExpressions::RegexNode System::Text::RegularExpressions::RegexNode::__get_Next() const {
 return ::cordl_internals::getInstanceField<System::Text::RegularExpressions::RegexNode, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexNode::RegexNode(int32_t type, System::Text::RegularExpressions::RegexOptions options)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexNode>(type, options))) {}
+ System::Text::RegularExpressions::RegexNode System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options)  {
+System::Text::RegularExpressions::RegexNode o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexNode>(type, options))};
+return o;
+}
  void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexNode>::get(),
@@ -401,8 +403,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, options);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "ch", ty: "char16_t", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexNode::RegexNode(int32_t type, System::Text::RegularExpressions::RegexOptions options, char16_t ch)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexNode>(type, options, ch))) {}
+ System::Text::RegularExpressions::RegexNode System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, char16_t ch)  {
+System::Text::RegularExpressions::RegexNode o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexNode>(type, options, ch))};
+return o;
+}
  void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, char16_t ch)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexNode>::get(),
@@ -412,8 +416,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, options, ch);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexNode::RegexNode(int32_t type, System::Text::RegularExpressions::RegexOptions options, ::StringW str)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexNode>(type, options, str))) {}
+ System::Text::RegularExpressions::RegexNode System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, ::StringW str)  {
+System::Text::RegularExpressions::RegexNode o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexNode>(type, options, str))};
+return o;
+}
  void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, ::StringW str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexNode>::get(),
@@ -423,8 +429,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, options, str);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexNode::RegexNode(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexNode>(type, options, m))) {}
+ System::Text::RegularExpressions::RegexNode System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m)  {
+System::Text::RegularExpressions::RegexNode o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexNode>(type, options, m))};
+return o;
+}
  void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexNode>::get(),
@@ -434,8 +442,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, options, m);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "n", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexNode::RegexNode(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexNode>(type, options, m, n))) {}
+ System::Text::RegularExpressions::RegexNode System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n)  {
+System::Text::RegularExpressions::RegexNode o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexNode>(type, options, m, n))};
+return o;
+}
  void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexNode>::get(),

@@ -5,19 +5,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine {
-struct Bounds;
-}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -110,8 +110,7 @@ constexpr bool __get_m_Smooth() const;
 /// @brief Method SubdivideIcosahedron addr 0x29f8cd8 size 0x62c virtual false final false
 static ::ArrayW<UnityEngine::Vector3> SubdivideIcosahedron(::ArrayW<UnityEngine::Vector3> vertices, float_t radius) ;
 
-// Ctor Parameters []
-explicit Sphere() ;
+static UnityEngine::ProBuilder::Shapes::Sphere New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f9304 size 0x18 virtual false final false
  void _ctor() ;

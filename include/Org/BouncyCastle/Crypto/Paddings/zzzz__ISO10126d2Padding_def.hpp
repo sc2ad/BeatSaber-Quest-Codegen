@@ -85,8 +85,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 /// @brief Method PadCount addr 0xea1130 size 0x84 virtual true final true
  int32_t PadCount(::ArrayW<uint8_t> input) ;
 
-// Ctor Parameters []
-explicit ISO10126d2Padding() ;
+static Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding New_ctor() ;
 
 /// @brief Method .ctor addr 0xea11b4 size 0x8 virtual false final false
  void _ctor() ;

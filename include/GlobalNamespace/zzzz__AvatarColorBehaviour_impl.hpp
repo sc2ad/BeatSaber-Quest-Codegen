@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarColorBehaviour_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarVisualController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AvatarColorBehaviour.OnGraphStart
@@ -131,8 +131,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playable);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarColorBehaviour::AvatarColorBehaviour()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<AvatarColorBehaviour>())) {}
+ GlobalNamespace::AvatarColorBehaviour GlobalNamespace::AvatarColorBehaviour::New_ctor()  {
+GlobalNamespace::AvatarColorBehaviour o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarColorBehaviour>())};
+return o;
+}
  void GlobalNamespace::AvatarColorBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarColorBehaviour>::get(),

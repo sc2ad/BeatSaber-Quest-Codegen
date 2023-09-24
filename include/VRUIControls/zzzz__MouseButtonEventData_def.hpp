@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+struct UnityEngine__EventSystems__PointerEventData__FramePressState;
 }
 namespace UnityEngine::EventSystems {
-struct UnityEngine__EventSystems__PointerEventData__FramePressState;
+class PointerEventData;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -74,8 +74,7 @@ constexpr UnityEngine::EventSystems::PointerEventData __get_buttonData() const;
 /// @brief Method ReleasedThisFrame addr 0x2d3acc4 size 0x14 virtual false final false
  bool ReleasedThisFrame() ;
 
-// Ctor Parameters []
-explicit MouseButtonEventData() ;
+static VRUIControls::MouseButtonEventData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3acd8 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,13 +1,7 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 namespace UnityEngine::UIElements {
-struct StyleTextShadow;
-}
-namespace UnityEngine::UIElements {
-struct StyleRotate;
-}
-namespace UnityEngine::UIElements {
-struct Justify;
+struct FlexDirection;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
@@ -20,31 +14,37 @@ namespace UnityEngine::UIElements {
 struct DisplayStyle;
 }
 namespace UnityEngine::UIElements {
-struct StyleScale;
+struct StyleLength;
 }
 namespace UnityEngine::UIElements {
-struct StyleLength;
+struct StyleRotate;
+}
+namespace UnityEngine::UIElements {
+struct Justify;
 }
 namespace UnityEngine::UIElements {
 struct Visibility;
 }
 namespace UnityEngine::UIElements {
-struct StyleTransformOrigin;
-}
-namespace UnityEngine::UIElements {
-struct FlexDirection;
-}
-namespace UnityEngine::UIElements {
-struct StyleFloat;
+struct StyleCursor;
 }
 namespace UnityEngine::UIElements {
 struct StyleColor;
 }
 namespace UnityEngine::UIElements {
-struct StyleCursor;
+struct StyleFloat;
+}
+namespace UnityEngine::UIElements {
+struct StyleScale;
 }
 namespace UnityEngine::UIElements {
 struct StyleTranslate;
+}
+namespace UnityEngine::UIElements {
+struct StyleTextShadow;
+}
+namespace UnityEngine::UIElements {
+struct StyleTransformOrigin;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

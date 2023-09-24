@@ -95,8 +95,7 @@ constexpr ::StringW __get__namespace() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SoapMethodAttribute() ;
+static System::Runtime::Remoting::Metadata::SoapMethodAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2339b28 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__TwofishEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine._ctor
 template<>
 
@@ -491,8 +491,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::TwofishEngine::__set_workingK
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Engines::TwofishEngine::__get_workingKey() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::TwofishEngine::TwofishEngine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TwofishEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::TwofishEngine Org::BouncyCastle::Crypto::Engines::TwofishEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::TwofishEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::TwofishEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::TwofishEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::TwofishEngine>::get(),

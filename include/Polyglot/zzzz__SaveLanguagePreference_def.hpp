@@ -69,8 +69,7 @@ constexpr ::StringW __get_preferenceKey() const;
 /// @brief Method OnLocalize addr 0x2674c18 size 0x28 virtual true final true
  void OnLocalize() ;
 
-// Ctor Parameters []
-explicit SaveLanguagePreference() ;
+static Polyglot::SaveLanguagePreference New_ctor() ;
 
 /// @brief Method .ctor addr 0x2674c40 size 0x50 virtual false final false
  void _ctor() ;

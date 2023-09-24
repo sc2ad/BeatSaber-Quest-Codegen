@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
 class ICollection;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientID;
 }
-namespace Org::BouncyCastle::Cms {
-class RecipientInformation;
-}
-namespace System::Collections {
-class IList;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInformation;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -85,8 +85,7 @@ constexpr System::Collections::IDictionary __get_table() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "recipientInfos", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit RecipientInformationStore(System::Collections::ICollection recipientInfos) ;
+static Org::BouncyCastle::Cms::RecipientInformationStore New_ctor(System::Collections::ICollection recipientInfos) ;
 
 /// @brief Method .ctor addr 0x1157fa4 size 0x5a8 virtual false final false
  void _ctor(System::Collections::ICollection recipientInfos) ;

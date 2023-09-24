@@ -2,6 +2,9 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System {
+class Type;
+}
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
@@ -10,9 +13,6 @@ class JsonWriter;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -77,8 +77,7 @@ constexpr explicit Matrix4x4Converter(void* ptr) noexcept : Newtonsoft::Json::Js
 /// @brief Method CanConvert addr 0x253d6c0 size 0x84 virtual true final false
  bool CanConvert(System::Type objectType) ;
 
-// Ctor Parameters []
-explicit Matrix4x4Converter() ;
+static Newtonsoft::Json::Converters::Matrix4x4Converter New_ctor() ;
 
 /// @brief Method .ctor addr 0x253d744 size 0x8 virtual false final false
  void _ctor() ;

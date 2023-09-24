@@ -5,21 +5,21 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
 class IFormattable;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {

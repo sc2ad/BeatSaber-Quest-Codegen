@@ -7,37 +7,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class ISpanFormattable;
-}
-namespace System {
-class IComparable;
-}
-namespace System::Globalization {
-struct NumberStyles;
-}
-namespace System {
-template<typename T>
-struct Span_1;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-template<typename T>
-class IComparable_1;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
+}
+namespace System {
+struct MidpointRounding;
 }
 namespace System {
 struct TypeCode;
@@ -45,16 +19,54 @@ struct TypeCode;
 namespace System {
 class IFormattable;
 }
+namespace System::Globalization {
+struct NumberStyles;
+}
 namespace System {
 template<typename T>
-struct ReadOnlySpan_1;
+class IComparable_1;
+}
+namespace System {
+class IComparable;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace System {
-struct MidpointRounding;
+struct System__Decimal__DecCalc;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+template<typename T>
+struct Span_1;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class IConvertible;
+}
+namespace System {
+class ISpanFormattable;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
+namespace GlobalNamespace {
+struct System__Decimal__DecCalc__Buf24;
+}
+namespace GlobalNamespace {
+struct System__Decimal__DecCalc__RoundingMode;
+}
+namespace GlobalNamespace {
+struct System__Decimal__DecCalc__PowerOvfl;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -124,6 +136,8 @@ __Ceiling = 4,
 constexpr operator __System__Decimal__DecCalc__RoundingMode_Unwrapped () const noexcept {
 return std::bit_cast<__System__Decimal__DecCalc__RoundingMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

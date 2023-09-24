@@ -7,19 +7,19 @@
 #include <cmath>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
+class HEU_SessionBase;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
 }
 namespace UnityEngine {
 struct Vector3Int;
 }
 namespace UnityEngine {
-class Mesh;
+struct Vector3;
 }
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+namespace UnityEngine {
+class Mesh;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

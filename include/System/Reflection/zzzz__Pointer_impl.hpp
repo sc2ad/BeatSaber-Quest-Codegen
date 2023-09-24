@@ -71,8 +71,10 @@ constexpr void System::Reflection::Pointer::__set__ptrType(System::Type value)  
 constexpr System::Type System::Reflection::Pointer::__get__ptrType() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "ptrType", ty: "System::Type", modifiers: "", def_value: None }]
- System::Reflection::Pointer::Pointer(void* ptr, System::Type ptrType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pointer>(ptr, ptrType))) {}
+ System::Reflection::Pointer System::Reflection::Pointer::New_ctor(void* ptr, System::Type ptrType)  {
+System::Reflection::Pointer o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::Pointer>(ptr, ptrType))};
+return o;
+}
  void System::Reflection::Pointer::_ctor(void* ptr, System::Type ptrType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::Pointer>::get(),

@@ -67,8 +67,7 @@ constexpr bool __get__CreateConstructorReferences_k__BackingField() const;
 /// @brief Method set_CreateConstructorReferences addr 0x2d4133c size 0xc virtual false final false
  void set_CreateConstructorReferences(bool value) ;
 
-// Ctor Parameters [CppParam { name: "createConstructorReferences", ty: "bool", modifiers: "", def_value: None }]
-explicit AspTypePropertyAttribute(bool createConstructorReferences) ;
+static JetBrains::Annotations::AspTypePropertyAttribute New_ctor(bool createConstructorReferences) ;
 
 /// @brief Method .ctor addr 0x2d41348 size 0x2c virtual false final false
  void _ctor(bool createConstructorReferences) ;

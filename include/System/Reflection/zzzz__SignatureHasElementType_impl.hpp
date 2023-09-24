@@ -383,8 +383,10 @@ constexpr void System::Reflection::SignatureHasElementType::__set__elementType(S
 constexpr System::Reflection::SignatureType System::Reflection::SignatureHasElementType::__get__elementType() const {
 return ::cordl_internals::getInstanceField<System::Reflection::SignatureType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "elementType", ty: "System::Reflection::SignatureType", modifiers: "", def_value: None }]
- System::Reflection::SignatureHasElementType::SignatureHasElementType(System::Reflection::SignatureType elementType)  : System::Reflection::SignatureType(THROW_UNLESS(::il2cpp_utils::New<SignatureHasElementType>(elementType))) {}
+ System::Reflection::SignatureHasElementType System::Reflection::SignatureHasElementType::New_ctor(System::Reflection::SignatureType elementType)  {
+System::Reflection::SignatureHasElementType o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::SignatureHasElementType>(elementType))};
+return o;
+}
  void System::Reflection::SignatureHasElementType::_ctor(System::Reflection::SignatureType elementType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::SignatureHasElementType>::get(),

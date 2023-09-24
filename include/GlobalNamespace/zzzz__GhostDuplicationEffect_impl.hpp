@@ -2,14 +2,15 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GhostDuplicationEffect_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__GhostDuplicationEffect_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 // Ctor Parameters [CppParam { name: "startAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "startPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "startSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "endAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "endPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "endSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: Some("{}") }, CppParam { name: "distanceCurve", ty: "UnityEngine::AnimationCurve", modifiers: "", def_value: Some("csnull") }, CppParam { name: "peakDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastPhase", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__GhostDuplicationEffect__GhostEffectParams::GlobalNamespace__GhostDuplicationEffect__GhostEffectParams(float_t startAlpha, UnityEngine::Vector3 startPosition, float_t startSize, float_t endAlpha, UnityEngine::Vector3 endPosition, float_t endSize, float_t duration, float_t delay, GlobalNamespace::EaseType easeType, UnityEngine::AnimationCurve distanceCurve, float_t peakDistance, bool lastPhase) noexcept : ::bs_hook::ValueTypeWrapper() {this->startAlpha = startAlpha;
 this->startPosition = startPosition;
@@ -199,8 +200,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__Di
 constexpr UnityEngine::Vector3 GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0::__get_direction() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0>())) {}
+ GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0 GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0>::get(),
@@ -384,8 +387,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRe
 constexpr GlobalNamespace::GhostDuplicationEffect GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GhostDuplicationEffect, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8 GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8>::get(),
@@ -761,8 +766,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GhostDuplicationEffect::GhostDuplicationEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GhostDuplicationEffect>())) {}
+ GlobalNamespace::GhostDuplicationEffect GlobalNamespace::GhostDuplicationEffect::New_ctor()  {
+GlobalNamespace::GhostDuplicationEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GhostDuplicationEffect>())};
+return o;
+}
  void GlobalNamespace::GhostDuplicationEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GhostDuplicationEffect>::get(),

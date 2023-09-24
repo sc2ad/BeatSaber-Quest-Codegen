@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__ConnectionErrorDialogViewController_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionErrorDialogViewController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0._ctor
 template<>
 
@@ -43,8 +44,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewContro
 constexpr System::Action GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0::__get_buttonAction() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0>())) {}
+ GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0 GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ConnectionErrorDialogViewController____c__DisplayClass0_0>::get(),
@@ -106,8 +109,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reason, buttonAction);
 }
-// Ctor Parameters []
- GlobalNamespace::ConnectionErrorDialogViewController::ConnectionErrorDialogViewController()  : GlobalNamespace::SimpleDialogPromptViewController(THROW_UNLESS(::il2cpp_utils::New<ConnectionErrorDialogViewController>())) {}
+ GlobalNamespace::ConnectionErrorDialogViewController GlobalNamespace::ConnectionErrorDialogViewController::New_ctor()  {
+GlobalNamespace::ConnectionErrorDialogViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ConnectionErrorDialogViewController>())};
+return o;
+}
  void GlobalNamespace::ConnectionErrorDialogViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ConnectionErrorDialogViewController>::get(),

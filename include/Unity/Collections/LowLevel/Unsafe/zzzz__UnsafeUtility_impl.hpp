@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeUtility_def.hpp"
+#include "Unity/Collections/zzzz__Allocator_def.hpp"
+#include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeUtility_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Unity/Collections/zzzz__Allocator_def.hpp"
 // Ctor Parameters [CppParam { name: "dummy", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty: "T", modifiers: "", def_value: Some("csnull") }]
 constexpr Unity::Collections::LowLevel::Unsafe::Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1::Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1(uint8_t dummy, T data) noexcept : ::bs_hook::ValueTypeWrapper() {this->dummy = dummy;
 this->data = data;

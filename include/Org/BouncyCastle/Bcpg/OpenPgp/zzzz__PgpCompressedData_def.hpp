@@ -2,13 +2,13 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
 class CompressedDataPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct CompressionAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
 }
 namespace System::IO {
 class Stream;
@@ -73,8 +73,7 @@ constexpr Org::BouncyCastle::Bcpg::CompressedDataPacket __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PgpCompressedData(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method .ctor addr 0x1019104 size 0x120 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;

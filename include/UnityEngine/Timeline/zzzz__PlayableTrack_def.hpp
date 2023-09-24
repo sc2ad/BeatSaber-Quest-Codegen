@@ -53,8 +53,7 @@ constexpr explicit PlayableTrack(void* ptr) noexcept : UnityEngine::Timeline::Tr
 /// @brief Method OnCreateClip addr 0x2ad5bd8 size 0x94 virtual true final false
  void OnCreateClip(UnityEngine::Timeline::TimelineClip clip) ;
 
-// Ctor Parameters []
-explicit PlayableTrack() ;
+static UnityEngine::Timeline::PlayableTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad5c6c size 0x58 virtual false final false
  void _ctor() ;

@@ -3,15 +3,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine {
-class MonoBehaviour;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
-class ScriptableObjectInstaller;
+class Zenject__Context____c;
+}
+namespace Zenject {
+class MonoInstaller;
+}
+namespace Zenject {
+class InstallerBase;
 }
 namespace Zenject {
 class DiContainer;
@@ -21,22 +23,23 @@ class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
+class List_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
 class IEnumerable_1;
+}
+namespace Zenject {
+class ScriptableObjectInstaller;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
-class MonoInstaller;
-}
-namespace Zenject {
-class InstallerBase;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 class ZenjectBinding;
+}
+namespace UnityEngine {
+class MonoBehaviour;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -106,8 +109,7 @@ static System::Func_2<System::Type,bool> __get___9__16_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__Context____c() ;
+static Zenject::Zenject__Context____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d74814 size 0x8 virtual false final false
  void _ctor() ;
@@ -277,8 +279,7 @@ constexpr System::Collections::Generic::List_1<System::Type> __get__normalInstal
 /// @brief Method GetInjectableMonoBehaviours addr 0x0 size 0xffffffffffffffff virtual true final false
  void GetInjectableMonoBehaviours(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour> components) ;
 
-// Ctor Parameters []
-explicit Context() ;
+static Zenject::Context New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d744cc size 0x16c virtual false final false
  void _ctor() ;

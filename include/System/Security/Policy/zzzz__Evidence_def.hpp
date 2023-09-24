@@ -2,8 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Security::Policy {
+class System__Security__Policy__Evidence__EvidenceEnumerator;
+}
 namespace System::Collections {
-class ArrayList;
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -11,11 +14,11 @@ class IEnumerator;
 namespace System::Collections {
 class ICollection;
 }
+namespace System::Collections {
+class ArrayList;
+}
 namespace System {
 class Array;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace System::Security::Policy {
@@ -95,8 +98,7 @@ constexpr System::Collections::IEnumerator __get_assemblyEnum() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hostenum", ty: "System::Collections::IEnumerator", modifiers: "", def_value: None }, CppParam { name: "assemblyenum", ty: "System::Collections::IEnumerator", modifiers: "", def_value: None }]
-explicit System__Security__Policy__Evidence__EvidenceEnumerator(System::Collections::IEnumerator hostenum, System::Collections::IEnumerator assemblyenum) ;
+static System::Security::Policy::System__Security__Policy__Evidence__EvidenceEnumerator New_ctor(System::Collections::IEnumerator hostenum, System::Collections::IEnumerator assemblyenum) ;
 
 /// @brief Method .ctor addr 0x22ea55c size 0x30 virtual false final false
  void _ctor(System::Collections::IEnumerator hostenum, System::Collections::IEnumerator assemblyenum) ;
@@ -194,8 +196,7 @@ constexpr System::Collections::ArrayList __get_assemblyEvidenceList() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Evidence() ;
+static System::Security::Policy::Evidence New_ctor() ;
 
 /// @brief Method .ctor addr 0x22ea378 size 0x8 virtual false final false
  void _ctor() ;

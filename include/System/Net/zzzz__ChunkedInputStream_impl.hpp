@@ -1,11 +1,12 @@
 #pragma once
 #include "System/Net/zzzz__RequestStream_impl.hpp"
 #include "System/Net/zzzz__ChunkedInputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Net/zzzz__MonoChunkParser_def.hpp"
 #include "System/Net/zzzz__HttpListenerContext_def.hpp"
+#include "System/Net/zzzz__ChunkedInputStream_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/zzzz__HttpStreamAsyncResult_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__ChunkedInputStream__ReadBufferState._ctor
 template<>
@@ -54,8 +55,10 @@ constexpr void System::Net::System__Net__ChunkedInputStream__ReadBufferState::__
 constexpr System::Net::HttpStreamAsyncResult System::Net::System__Net__ChunkedInputStream__ReadBufferState::__get_Ares() const {
 return ::cordl_internals::getInstanceField<System::Net::HttpStreamAsyncResult, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ares", ty: "System::Net::HttpStreamAsyncResult", modifiers: "", def_value: None }]
- System::Net::System__Net__ChunkedInputStream__ReadBufferState::System__Net__ChunkedInputStream__ReadBufferState(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Net::HttpStreamAsyncResult ares)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__ChunkedInputStream__ReadBufferState>(buffer, offset, count, ares))) {}
+ System::Net::System__Net__ChunkedInputStream__ReadBufferState System::Net::System__Net__ChunkedInputStream__ReadBufferState::New_ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Net::HttpStreamAsyncResult ares)  {
+System::Net::System__Net__ChunkedInputStream__ReadBufferState o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__ChunkedInputStream__ReadBufferState>(buffer, offset, count, ares))};
+return o;
+}
  void System::Net::System__Net__ChunkedInputStream__ReadBufferState::_ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Net::HttpStreamAsyncResult ares)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__ChunkedInputStream__ReadBufferState>::get(),
@@ -191,8 +194,10 @@ constexpr void System::Net::ChunkedInputStream::__set_no_more_data(bool value)  
 constexpr bool System::Net::ChunkedInputStream::__get_no_more_data() const {
 return ::cordl_internals::getInstanceField<bool, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "System::Net::HttpListenerContext", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::ChunkedInputStream::ChunkedInputStream(System::Net::HttpListenerContext context, System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length)  : System::Net::RequestStream(THROW_UNLESS(::il2cpp_utils::New<ChunkedInputStream>(context, stream, buffer, offset, length))) {}
+ System::Net::ChunkedInputStream System::Net::ChunkedInputStream::New_ctor(System::Net::HttpListenerContext context, System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length)  {
+System::Net::ChunkedInputStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ChunkedInputStream>(context, stream, buffer, offset, length))};
+return o;
+}
  void System::Net::ChunkedInputStream::_ctor(System::Net::HttpListenerContext context, System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ChunkedInputStream>::get(),

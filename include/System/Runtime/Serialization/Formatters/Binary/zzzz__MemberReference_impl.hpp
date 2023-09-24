@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MemberReference_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::MemberReference._ctor
 template<>
 
@@ -93,8 +93,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::MemberReferen
 constexpr int32_t System::Runtime::Serialization::Formatters::Binary::MemberReference::__get_idRef() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::MemberReference::MemberReference()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MemberReference>())) {}
+ System::Runtime::Serialization::Formatters::Binary::MemberReference System::Runtime::Serialization::Formatters::Binary::MemberReference::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::MemberReference o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::MemberReference>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::MemberReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::MemberReference>::get(),

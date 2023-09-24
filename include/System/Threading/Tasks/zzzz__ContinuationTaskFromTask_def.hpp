@@ -69,8 +69,7 @@ constexpr System::Threading::Tasks::Task __get_m_antecedent() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "antecedent", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Delegate", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }, CppParam { name: "internalOptions", ty: "System::Threading::Tasks::InternalTaskOptions", modifiers: "", def_value: None }]
-explicit ContinuationTaskFromTask(System::Threading::Tasks::Task antecedent, System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions) ;
+static System::Threading::Tasks::ContinuationTaskFromTask New_ctor(System::Threading::Tasks::Task antecedent, System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions) ;
 
 /// @brief Method .ctor addr 0x24baa38 size 0xb4 virtual false final false
  void _ctor(System::Threading::Tasks::Task antecedent, System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions) ;

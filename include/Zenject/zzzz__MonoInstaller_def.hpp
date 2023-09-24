@@ -50,8 +50,7 @@ constexpr explicit MonoInstaller(void* ptr) noexcept : Zenject::MonoInstallerBas
 
 // Methods
 
-// Ctor Parameters []
-explicit MonoInstaller() ;
+static Zenject::MonoInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7ba80 size 0x8 virtual false final false
  void _ctor() ;

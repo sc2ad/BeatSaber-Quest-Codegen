@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace HoudiniEngineUnity {
-struct HoudiniEngineUnity__JSONNode__Enumerator;
-}
 namespace System::Text {
 class StringBuilder;
 }
 namespace HoudiniEngineUnity {
-struct JSONTextMode;
+struct JSONNodeType;
 }
 namespace HoudiniEngineUnity {
-struct JSONNodeType;
+struct HoudiniEngineUnity__JSONNode__Enumerator;
+}
+namespace HoudiniEngineUnity {
+struct JSONTextMode;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -103,14 +103,12 @@ constexpr bool __get_m_Data() const;
 /// @brief Method set_AsBool addr 0x20696ec size 0xc virtual true final false
  void set_AsBool(bool value) ;
 
-// Ctor Parameters [CppParam { name: "aData", ty: "bool", modifiers: "", def_value: None }]
-explicit JSONBool(bool aData) ;
+static HoudiniEngineUnity::JSONBool New_ctor(bool aData) ;
 
 /// @brief Method .ctor addr 0x2063638 size 0x28 virtual false final false
  void _ctor(bool aData) ;
 
-// Ctor Parameters [CppParam { name: "aData", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JSONBool(::StringW aData) ;
+static HoudiniEngineUnity::JSONBool New_ctor(::StringW aData) ;
 
 /// @brief Method .ctor addr 0x20696f8 size 0x34 virtual false final false
  void _ctor(::StringW aData) ;

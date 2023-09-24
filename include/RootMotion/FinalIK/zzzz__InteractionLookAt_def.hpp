@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace RootMotion::FinalIK {
-class LookAtIK;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace RootMotion::FinalIK {
+class LookAtIK;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -120,8 +120,7 @@ constexpr bool __get_firstFBBIKSolve() const;
 /// @brief Method SolveHead addr 0x11fa418 size 0xac virtual false final false
  void SolveHead() ;
 
-// Ctor Parameters []
-explicit InteractionLookAt() ;
+static RootMotion::FinalIK::InteractionLookAt New_ctor() ;
 
 /// @brief Method .ctor addr 0x11fa4c4 size 0x14 virtual false final false
  void _ctor() ;

@@ -3,9 +3,6 @@
 #include "RootMotion/zzzz__SolverManager_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace RootMotion::FinalIK {
-class BipedIKSolvers;
-}
 namespace RootMotion {
 class BipedReferences;
 }
@@ -13,13 +10,16 @@ namespace UnityEngine {
 struct AvatarIKGoal;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class IKSolverLimb;
+}
+namespace RootMotion::FinalIK {
+class BipedIKSolvers;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -154,8 +154,7 @@ constexpr RootMotion::FinalIK::BipedIKSolvers __get_solvers() const;
 /// @brief Method LogWarning addr 0x11b7ff8 size 0x24 virtual false final false
  void LogWarning(::StringW message) ;
 
-// Ctor Parameters []
-explicit BipedIK() ;
+static RootMotion::FinalIK::BipedIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b801c size 0x98 virtual false final false
  void _ctor() ;

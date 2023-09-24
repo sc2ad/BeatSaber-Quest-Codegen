@@ -3,17 +3,7 @@
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_def.hpp"
 #include <cstdint>
 namespace UnityEngine::Rendering {
-struct CameraEvent;
-}
-namespace GlobalNamespace {
-class KawaseBlurRendererSO;
-}
-namespace UnityEngine::Rendering {
 class CommandBuffer;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__KawaseBlurRendererSO__KernelSize;
@@ -23,6 +13,16 @@ class CommandBufferOwners;
 }
 namespace UnityEngine {
 class Camera;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::Rendering {
+struct CameraEvent;
+}
+namespace GlobalNamespace {
+class KawaseBlurRendererSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -112,8 +112,7 @@ static System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalName
 /// @brief Method CommandBufferCameraEvent addr 0x2675024 size 0x8 virtual true final false
  UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent() ;
 
-// Ctor Parameters []
-explicit CommandBufferBlurryScreenGrab() ;
+static GlobalNamespace::CommandBufferBlurryScreenGrab New_ctor() ;
 
 /// @brief Method .ctor addr 0x267502c size 0x14 virtual false final false
  void _ctor() ;

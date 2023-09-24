@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HMUI/zzzz__PanelAnimationSO_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: HMUI::PanelAnimationSO.ExecuteAnimation
 template<>
 
@@ -156,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, go, parentCanvasGroup, instant, finishedCallback);
 }
-// Ctor Parameters []
- HMUI::PanelAnimationSO::PanelAnimationSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<PanelAnimationSO>())) {}
+ HMUI::PanelAnimationSO HMUI::PanelAnimationSO::New_ctor()  {
+HMUI::PanelAnimationSO o{THROW_UNLESS(::il2cpp_utils::New<HMUI::PanelAnimationSO>())};
+return o;
+}
  void HMUI::PanelAnimationSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::PanelAnimationSO>::get(),

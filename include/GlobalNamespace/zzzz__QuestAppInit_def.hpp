@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
 namespace GlobalNamespace {
-class DefaultScenesTransitionsFromInit;
+class MainSystemInit;
 }
 namespace GlobalNamespace {
-class OculusInit;
+class DefaultScenesTransitionsFromInit;
 }
 namespace GlobalNamespace {
 class FileSaveData;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class OculusInit;
 }
 namespace GlobalNamespace {
-class MainSystemInit;
+class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -107,8 +107,7 @@ constexpr GlobalNamespace::FileSaveData __get__saveData() const;
 /// @brief Method InstallBindings addr 0x20b8268 size 0x33c virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit QuestAppInit() ;
+static GlobalNamespace::QuestAppInit New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b85a4 size 0x4 virtual false final false
  void _ctor() ;

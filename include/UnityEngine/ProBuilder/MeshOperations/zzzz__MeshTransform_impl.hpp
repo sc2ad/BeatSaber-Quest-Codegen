@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__MeshTransform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PivotLocation_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::MeshOperations::MeshTransform.SetPivot
 template<>
 

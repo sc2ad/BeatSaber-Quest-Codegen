@@ -76,8 +76,7 @@ static UnityEngine::ProBuilder::Poly2Tri::Polygon RandomCircleSweep(double_t sca
 /// @brief Method RandomCircleSweep2 addr 0x29a2664 size 0x25c virtual false final false
 static UnityEngine::ProBuilder::Poly2Tri::Polygon RandomCircleSweep2(double_t scale, int32_t vertexCount) ;
 
-// Ctor Parameters []
-explicit PolygonGenerator() ;
+static UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a28c0 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,19 +2,19 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationDebugContext_def.hpp"
 namespace UnityEngine::ProBuilder::Poly2Tri {
+class DelaunayTriangle;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class DTSweepConstraint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class AdvancingFrontNode;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class DTSweepConstraint;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -140,8 +140,7 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint __get__activeCons
 /// @brief Method set_ActiveConstraint addr 0x299dce0 size 0x4c virtual false final false
  void set_ActiveConstraint(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint value) ;
 
-// Ctor Parameters [CppParam { name: "tcx", ty: "UnityEngine::ProBuilder::Poly2Tri::DTSweepContext", modifiers: "", def_value: None }]
-explicit DTSweepDebugContext(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext tcx) ;
+static UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext New_ctor(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext tcx) ;
 
 /// @brief Method .ctor addr 0x29a0c7c size 0x28 virtual false final false
  void _ctor(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext tcx) ;

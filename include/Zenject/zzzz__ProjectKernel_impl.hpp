@@ -1,13 +1,14 @@
 #pragma once
 #include "Zenject/zzzz__MonoKernel_impl.hpp"
 #include "Zenject/zzzz__ProjectKernel_def.hpp"
-#include "Zenject/zzzz__ZenjectSettings_def.hpp"
 #include "Zenject/zzzz__SceneContextRegistry_def.hpp"
+#include "Zenject/zzzz__ProjectKernel_def.hpp"
+#include "Zenject/zzzz__ZenjectSettings_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
-#include "Zenject/zzzz__SceneContext_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__SceneContext_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__ProjectKernel____c__DisplayClass4_0._ctor
 template<>
 
@@ -88,8 +89,10 @@ constexpr void Zenject::Zenject__ProjectKernel____c__DisplayClass4_0::__set___9_
 constexpr System::Func_2<Zenject::SceneContext,int32_t> Zenject::Zenject__ProjectKernel____c__DisplayClass4_0::__get___9__0() const {
 return ::cordl_internals::getInstanceField<System::Func_2<Zenject::SceneContext,int32_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__ProjectKernel____c__DisplayClass4_0::Zenject__ProjectKernel____c__DisplayClass4_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ProjectKernel____c__DisplayClass4_0>())) {}
+ Zenject::Zenject__ProjectKernel____c__DisplayClass4_0 Zenject::Zenject__ProjectKernel____c__DisplayClass4_0::New_ctor()  {
+Zenject::Zenject__ProjectKernel____c__DisplayClass4_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ProjectKernel____c__DisplayClass4_0>())};
+return o;
+}
  void Zenject::Zenject__ProjectKernel____c__DisplayClass4_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ProjectKernel____c__DisplayClass4_0>::get(),
@@ -285,8 +288,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, immediate);
 }
-// Ctor Parameters []
- Zenject::ProjectKernel::ProjectKernel()  : Zenject::MonoKernel(THROW_UNLESS(::il2cpp_utils::New<ProjectKernel>())) {}
+ Zenject::ProjectKernel Zenject::ProjectKernel::New_ctor()  {
+Zenject::ProjectKernel o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ProjectKernel>())};
+return o;
+}
  void Zenject::ProjectKernel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ProjectKernel>::get(),

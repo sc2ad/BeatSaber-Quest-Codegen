@@ -2,10 +2,11 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerOctetString_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerOctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__BerOctetString_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOctetString_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator._ctor
 template<>
@@ -103,8 +104,10 @@ constexpr void Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString_
 constexpr int32_t Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator::__get_nextChunkPos() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "octets", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator(::ArrayW<uint8_t> octets, int32_t chunkSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator>(octets, chunkSize))) {}
+ Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator::New_ctor(::ArrayW<uint8_t> octets, int32_t chunkSize)  {
+Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator>(octets, chunkSize))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator::_ctor(::ArrayW<uint8_t> octets, int32_t chunkSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetString__ChunkEnumerator>::get(),
@@ -394,8 +397,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString>, false>(nullptr, ___internal_method, e);
 }
-// Ctor Parameters [CppParam { name: "e", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerOctetString::BerOctetString(System::Collections::IEnumerable e)  : Org::BouncyCastle::Asn1::DerOctetString(THROW_UNLESS(::il2cpp_utils::New<BerOctetString>(e))) {}
+ Org::BouncyCastle::Asn1::BerOctetString Org::BouncyCastle::Asn1::BerOctetString::New_ctor(System::Collections::IEnumerable e)  {
+Org::BouncyCastle::Asn1::BerOctetString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerOctetString>(e))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerOctetString::_ctor(System::Collections::IEnumerable e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerOctetString>::get(),
@@ -405,8 +410,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, e);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerOctetString::BerOctetString(::ArrayW<uint8_t> str)  : Org::BouncyCastle::Asn1::DerOctetString(THROW_UNLESS(::il2cpp_utils::New<BerOctetString>(str))) {}
+ Org::BouncyCastle::Asn1::BerOctetString Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<uint8_t> str)  {
+Org::BouncyCastle::Asn1::BerOctetString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerOctetString>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<uint8_t> str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerOctetString>::get(),
@@ -416,8 +423,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "octs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerOctetString::BerOctetString(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs)  : Org::BouncyCastle::Asn1::DerOctetString(THROW_UNLESS(::il2cpp_utils::New<BerOctetString>(octs))) {}
+ Org::BouncyCastle::Asn1::BerOctetString Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs)  {
+Org::BouncyCastle::Asn1::BerOctetString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerOctetString>(octs))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerOctetString>::get(),
@@ -427,8 +436,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, octs);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerOctetString::BerOctetString(::ArrayW<uint8_t> str, int32_t chunkSize)  : Org::BouncyCastle::Asn1::DerOctetString(THROW_UNLESS(::il2cpp_utils::New<BerOctetString>(str, chunkSize))) {}
+ Org::BouncyCastle::Asn1::BerOctetString Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<uint8_t> str, int32_t chunkSize)  {
+Org::BouncyCastle::Asn1::BerOctetString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerOctetString>(str, chunkSize))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<uint8_t> str, int32_t chunkSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerOctetString>::get(),
@@ -438,8 +449,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str, chunkSize);
 }
-// Ctor Parameters [CppParam { name: "octs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString>", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerOctetString::BerOctetString(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize)  : Org::BouncyCastle::Asn1::DerOctetString(THROW_UNLESS(::il2cpp_utils::New<BerOctetString>(octs, chunkSize))) {}
+ Org::BouncyCastle::Asn1::BerOctetString Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize)  {
+Org::BouncyCastle::Asn1::BerOctetString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerOctetString>(octs, chunkSize))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerOctetString>::get(),
@@ -449,8 +462,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, octs, chunkSize);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "octs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString>", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerOctetString::BerOctetString(::ArrayW<uint8_t> str, ::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize)  : Org::BouncyCastle::Asn1::DerOctetString(THROW_UNLESS(::il2cpp_utils::New<BerOctetString>(str, octs, chunkSize))) {}
+ Org::BouncyCastle::Asn1::BerOctetString Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<uint8_t> str, ::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize)  {
+Org::BouncyCastle::Asn1::BerOctetString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerOctetString>(str, octs, chunkSize))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<uint8_t> str, ::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString> octs, int32_t chunkSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerOctetString>::get(),

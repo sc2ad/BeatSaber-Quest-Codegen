@@ -47,8 +47,7 @@ constexpr explicit MissingMetadataException(void* ptr) noexcept : System::TypeAc
 
 // Methods
 
-// Ctor Parameters []
-explicit MissingMetadataException() ;
+static System::Reflection::MissingMetadataException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2380cac size 0x8 virtual false final false
  void _ctor() ;

@@ -5,31 +5,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-class ISerializationSurrogate;
-}
-namespace System::Runtime::Serialization {
-class TypeLoadExceptionHolder;
-}
-namespace System::Runtime::Serialization {
-class ObjectManager;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class FixupHolder;
-}
-namespace System::Runtime::Serialization {
-class ValueTypeFixupInfo;
+class LongList;
 }
 namespace System::Reflection {
 class FieldInfo;
 }
 namespace System::Runtime::Serialization {
-class LongList;
+class FixupHolder;
+}
+namespace System::Runtime::Serialization {
+class TypeLoadExceptionHolder;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ObjectManager;
 }
 namespace System::Runtime::Serialization {
 class FixupHolderList;
+}
+namespace System::Runtime::Serialization {
+class ISerializationSurrogate;
+}
+namespace System::Runtime::Serialization {
+class ValueTypeFixupInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -209,20 +209,17 @@ constexpr bool __get_m_reachable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objID", ty: "int64_t", modifiers: "", def_value: None }]
-explicit ObjectHolder(int64_t objID) ;
+static System::Runtime::Serialization::ObjectHolder New_ctor(int64_t objID) ;
 
 /// @brief Method .ctor addr 0x234cbec size 0x34 virtual false final false
  void _ctor(int64_t objID) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "objID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "surrogate", ty: "System::Runtime::Serialization::ISerializationSurrogate", modifiers: "", def_value: None }, CppParam { name: "idOfContainingObj", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "field", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "arrayIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit ObjectHolder(::bs_hook::Il2CppWrapperType obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
+static System::Runtime::Serialization::ObjectHolder New_ctor(::bs_hook::Il2CppWrapperType obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
 
 /// @brief Method .ctor addr 0x234f134 size 0x1dc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "surrogate", ty: "System::Runtime::Serialization::ISerializationSurrogate", modifiers: "", def_value: None }, CppParam { name: "idOfContainingObj", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "field", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "arrayIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit ObjectHolder(::StringW obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
+static System::Runtime::Serialization::ObjectHolder New_ctor(::StringW obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;
 
 /// @brief Method .ctor addr 0x234ea94 size 0xe4 virtual false final false
  void _ctor(::StringW obj, int64_t objID, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::ISerializationSurrogate surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo field, ::ArrayW<int32_t> arrayIndex) ;

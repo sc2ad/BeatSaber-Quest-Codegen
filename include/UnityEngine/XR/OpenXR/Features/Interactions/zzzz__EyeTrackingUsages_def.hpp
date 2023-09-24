@@ -1,15 +1,15 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::XR {
 template<typename T>
 struct InputFeatureUsage_1;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::Interactions {

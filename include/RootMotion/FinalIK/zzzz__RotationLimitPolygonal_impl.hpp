@@ -2,6 +2,7 @@
 #include "RootMotion/FinalIK/zzzz__RotationLimit_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__RotationLimitPolygonal_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__RotationLimitPolygonal_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__ReachCone.get_o
 template<>
@@ -182,8 +183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_o", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_a", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_b", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_c", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__ReachCone::RootMotion__FinalIK__RotationLimitPolygonal__ReachCone(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__RotationLimitPolygonal__ReachCone>(_o, _a, _b, _c))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__ReachCone RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__ReachCone::New_ctor(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c)  {
+RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__ReachCone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__ReachCone>(_o, _a, _b, _c))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__ReachCone::_ctor(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__ReachCone>::get(),
@@ -240,8 +243,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal_
 constexpr float_t RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint::__get_tangentWeight() const {
 return ::cordl_internals::getInstanceField<float_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint::RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__RotationLimitPolygonal__LimitPoint>::get(),
@@ -688,8 +693,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, L);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RotationLimitPolygonal::RotationLimitPolygonal()  : RootMotion::FinalIK::RotationLimit(THROW_UNLESS(::il2cpp_utils::New<RotationLimitPolygonal>())) {}
+ RootMotion::FinalIK::RotationLimitPolygonal RootMotion::FinalIK::RotationLimitPolygonal::New_ctor()  {
+RootMotion::FinalIK::RotationLimitPolygonal o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RotationLimitPolygonal>())};
+return o;
+}
  void RootMotion::FinalIK::RotationLimitPolygonal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RotationLimitPolygonal>::get(),

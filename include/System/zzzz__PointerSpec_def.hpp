@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
+class Type;
+}
+namespace System {
 class ModifierSpec;
 }
 namespace System::Text {
 class StringBuilder;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System {
@@ -70,8 +70,7 @@ constexpr int32_t __get_pointer_level() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pointer_level", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PointerSpec(int32_t pointer_level) ;
+static System::PointerSpec New_ctor(int32_t pointer_level) ;
 
 /// @brief Method .ctor addr 0x2498644 size 0x8 virtual false final false
  void _ctor(int32_t pointer_level) ;

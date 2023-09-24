@@ -2,10 +2,11 @@
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorGroup_def.hpp"
-#include "GlobalNamespace/zzzz__LightColorGroupParent_def.hpp"
-#include "GlobalNamespace/zzzz__IEditTimeValidated_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__IEditTimeValidated_def.hpp"
+#include "GlobalNamespace/zzzz__LightColorGroupParent_def.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__LightColorGroup_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__LightColorGroup__LightColorGroupControlType::GlobalNamespace__LightColorGroup__LightColorGroupControlType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -62,8 +63,10 @@ constexpr void GlobalNamespace::LightColorGroup::__set__lightWithIds(GlobalNames
 constexpr GlobalNamespace::LightWithIds GlobalNamespace::LightColorGroup::__get__lightWithIds() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::LightWithIds, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::LightColorGroup::LightColorGroup()  : GlobalNamespace::LightGroupSubsystem(THROW_UNLESS(::il2cpp_utils::New<LightColorGroup>())) {}
+ GlobalNamespace::LightColorGroup GlobalNamespace::LightColorGroup::New_ctor()  {
+GlobalNamespace::LightColorGroup o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightColorGroup>())};
+return o;
+}
  void GlobalNamespace::LightColorGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightColorGroup>::get(),

@@ -4,14 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
-}
 namespace Mono::Security::X509 {
 class X509Certificate;
 }
 namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
 class IEnumerable;
+}
+namespace Mono::Security::X509 {
+class Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -81,8 +84,7 @@ constexpr System::Collections::IEnumerator __get_enumerator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mappings", ty: "Mono::Security::X509::X509CertificateCollection", modifiers: "", def_value: None }]
-explicit Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator(Mono::Security::X509::X509CertificateCollection mappings) ;
+static Mono::Security::X509::Mono__Security__X509__X509CertificateCollection__X509CertificateEnumerator New_ctor(Mono::Security::X509::X509CertificateCollection mappings) ;
 
 /// @brief Method .ctor addr 0x228e508 size 0xb4 virtual false final false
  void _ctor(Mono::Security::X509::X509CertificateCollection mappings) ;
@@ -158,8 +160,7 @@ constexpr explicit X509CertificateCollection(void* ptr) noexcept : System::Colle
 
 // Methods
 
-// Ctor Parameters []
-explicit X509CertificateCollection() ;
+static Mono::Security::X509::X509CertificateCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x22824d4 size 0x8 virtual false final false
  void _ctor() ;

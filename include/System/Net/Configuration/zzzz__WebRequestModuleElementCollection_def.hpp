@@ -47,8 +47,7 @@ constexpr explicit WebRequestModuleElementCollection(void* ptr) noexcept : Syste
 
 // Methods
 
-// Ctor Parameters []
-explicit WebRequestModuleElementCollection() ;
+static System::Net::Configuration::WebRequestModuleElementCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b27bc size 0x38 virtual false final false
  void _ctor() ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderParticleInteractionEffect_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SliderParticleInteractionEffect.Start
 template<>
 
@@ -183,8 +183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SliderParticleInteractionEffect::SliderParticleInteractionEffect()  : GlobalNamespace::SliderInteractionEffect(THROW_UNLESS(::il2cpp_utils::New<SliderParticleInteractionEffect>())) {}
+ GlobalNamespace::SliderParticleInteractionEffect GlobalNamespace::SliderParticleInteractionEffect::New_ctor()  {
+GlobalNamespace::SliderParticleInteractionEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SliderParticleInteractionEffect>())};
+return o;
+}
  void GlobalNamespace::SliderParticleInteractionEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SliderParticleInteractionEffect>::get(),

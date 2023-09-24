@@ -2,8 +2,9 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementAsset_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
 // Ctor Parameters [CppParam { name: "m_ElementName", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "m_AttributeName", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__TemplateAsset__AttributeOverride::UnityEngine__UIElements__TemplateAsset__AttributeOverride(::StringW m_ElementName, ::StringW m_AttributeName, ::StringW m_Value) noexcept : ::bs_hook::ValueTypeWrapper() {this->m_ElementName = m_ElementName;
 this->m_AttributeName = m_AttributeName;

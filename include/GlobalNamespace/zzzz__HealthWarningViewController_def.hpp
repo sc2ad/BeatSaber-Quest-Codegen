@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -12,8 +15,8 @@ class IEnumerator_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace System {
 class Action;
@@ -21,17 +24,17 @@ class Action;
 namespace UnityEngine {
 class Coroutine;
 }
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15;
+}
 namespace GlobalNamespace {
 class SafeAreaRectChecker;
 }
 namespace GlobalNamespace {
 class ICoroutineStarter;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +122,7 @@ constexpr GlobalNamespace::HealthWarningViewController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x215f784 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -269,8 +271,7 @@ constexpr UnityEngine::Coroutine __get__dismissCoroutine() const;
 /// @brief Method DismissHealthAndSafety addr 0x215f64c size 0x68 virtual false final false
  System::Collections::IEnumerator DismissHealthAndSafety() ;
 
-// Ctor Parameters []
-explicit HealthWarningViewController() ;
+static GlobalNamespace::HealthWarningViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215f7ac size 0x8 virtual false final false
  void _ctor() ;

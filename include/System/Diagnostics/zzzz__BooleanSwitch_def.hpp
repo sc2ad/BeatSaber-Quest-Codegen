@@ -48,8 +48,7 @@ constexpr explicit BooleanSwitch(void* ptr) noexcept : System::Diagnostics::Swit
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BooleanSwitch(::StringW displayName, ::StringW description) ;
+static System::Diagnostics::BooleanSwitch New_ctor(::StringW displayName, ::StringW description) ;
 
 /// @brief Method .ctor addr 0x27d8980 size 0x1070 virtual false final false
  void _ctor(::StringW displayName, ::StringW description) ;

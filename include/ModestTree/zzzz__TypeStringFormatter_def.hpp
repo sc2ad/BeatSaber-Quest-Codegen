@@ -13,6 +13,9 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace ModestTree {
+class ModestTree__TypeStringFormatter____c;
+}
 // Forward declare root types
 namespace ModestTree {
 class ModestTree__TypeStringFormatter____c;
@@ -77,8 +80,7 @@ static System::Func_2<System::Type,::StringW> __get___9__2_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit ModestTree__TypeStringFormatter____c() ;
+static ModestTree::ModestTree__TypeStringFormatter____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d45038 size 0x8 virtual false final false
  void _ctor() ;

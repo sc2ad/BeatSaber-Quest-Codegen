@@ -3,21 +3,27 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace LiteNetLib::Utils {
-template<typename T>
-class INetImmutableSerializable_1;
-}
 namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace System {
-class IComparable;
+struct GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason;
+}
+namespace LiteNetLib::Utils {
+template<typename T>
+class INetImmutableSerializable_1;
+}
+namespace System {
+class IComparable;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -79,6 +85,8 @@ __NotStarted = 2,
 constexpr operator __GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -157,6 +165,8 @@ __ConnectedAfterLevelEnded = 7,
 constexpr operator __GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -296,14 +306,12 @@ constexpr GlobalNamespace::LevelCompletionResults __get__levelCompletionResults(
 /// @brief Method get_failedOrGivenUp addr 0xdbca80 size 0x14 virtual false final false
  bool get_failedOrGivenUp() ;
 
-// Ctor Parameters []
-explicit MultiplayerLevelCompletionResults() ;
+static GlobalNamespace::MultiplayerLevelCompletionResults New_ctor() ;
 
 /// @brief Method .ctor addr 0xdbca94 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "playerLevelEndState", ty: "GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState", modifiers: "", def_value: None }, CppParam { name: "playerLevelEndReason", ty: "GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason", modifiers: "", def_value: None }, CppParam { name: "levelCompletionResults", ty: "GlobalNamespace::LevelCompletionResults", modifiers: "", def_value: None }]
-explicit MultiplayerLevelCompletionResults(GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
+static GlobalNamespace::MultiplayerLevelCompletionResults New_ctor(GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
 /// @brief Method .ctor addr 0xdbca9c size 0x3c virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, GlobalNamespace::GlobalNamespace__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;

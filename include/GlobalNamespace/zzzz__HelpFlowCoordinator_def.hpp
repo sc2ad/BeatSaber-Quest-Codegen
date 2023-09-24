@@ -4,49 +4,49 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class PlayerStatisticsViewController;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
+class HelpNavigationController;
 }
 namespace GlobalNamespace {
 class MenuTransitionsHelper;
 }
 namespace GlobalNamespace {
-class HealthWarningDisplayViewController;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-class HowToPlayViewController;
-}
-namespace GlobalNamespace {
-class HelpMenuViewController;
-}
-namespace GlobalNamespace {
-class PrivacyPolicyDisplayViewController;
-}
-namespace HMUI {
-class ViewController;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class EulaDisplayViewController;
 }
 namespace GlobalNamespace {
-class HelpNavigationController;
+class HelpMenuViewController;
+}
+namespace GlobalNamespace {
+class HealthWarningDisplayViewController;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace GlobalNamespace {
+class PlayerStatisticsViewController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace HMUI {
+class ViewController;
+}
 namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+class PrivacyPolicyDisplayViewController;
+}
+namespace GlobalNamespace {
+class HowToPlayViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -199,8 +199,7 @@ constexpr System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewCo
 /// @brief Method BackButtonWasPressed addr 0x2133c9c size 0x20 virtual true final false
  void BackButtonWasPressed(HMUI::ViewController topViewController) ;
 
-// Ctor Parameters []
-explicit HelpFlowCoordinator() ;
+static GlobalNamespace::HelpFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2133cbc size 0x8 virtual false final false
  void _ctor() ;

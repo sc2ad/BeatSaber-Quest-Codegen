@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerOutroAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator.Start
 template<>
 
@@ -58,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator::MultiplayerLocalInactivePlayerOutroAnimator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalInactivePlayerOutroAnimator>())) {}
+ GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator::New_ctor()  {
+GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator>::get(),

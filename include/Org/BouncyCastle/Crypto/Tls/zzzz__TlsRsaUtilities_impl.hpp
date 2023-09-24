@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsRsaUtilities_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaKeyParameters_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities.GenerateEncryptedPreMasterSecret
 template<>
@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, context, rsaServerPrivateKey, encryptedPreMasterSecret);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities::TlsRsaUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsRsaUtilities>())) {}
+ Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities>::get(),

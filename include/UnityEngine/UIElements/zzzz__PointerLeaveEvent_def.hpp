@@ -53,8 +53,7 @@ constexpr explicit PointerLeaveEvent(void* ptr) noexcept : UnityEngine::UIElemen
 /// @brief Method LocalInit addr 0x2cd9480 size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit PointerLeaveEvent() ;
+static UnityEngine::UIElements::PointerLeaveEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd948c size 0x54 virtual false final false
  void _ctor() ;

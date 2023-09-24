@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__PrimitiveArray_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::PrimitiveArray._ctor
 template<>
 
@@ -125,8 +125,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArra
 constexpr ::ArrayW<uint64_t> System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::__get_uint64A() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint64_t>, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "code", ty: "System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE", modifiers: "", def_value: None }, CppParam { name: "array", ty: "System::Array", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::PrimitiveArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array array)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PrimitiveArray>(code, array))) {}
+ System::Runtime::Serialization::Formatters::Binary::PrimitiveArray System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::New_ctor(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array array)  {
+System::Runtime::Serialization::Formatters::Binary::PrimitiveArray o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::PrimitiveArray>(code, array))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::_ctor(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array array)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::PrimitiveArray>::get(),

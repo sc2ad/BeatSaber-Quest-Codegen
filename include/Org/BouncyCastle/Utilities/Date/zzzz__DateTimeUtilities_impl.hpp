@@ -75,8 +75,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
  System::DateTime Org::BouncyCastle::Utilities::Date::DateTimeUtilities::__get_UnixEpoch()  {
 return ::cordl_internals::getStaticField<System::DateTime, "UnixEpoch", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Date::DateTimeUtilities>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Date::DateTimeUtilities::DateTimeUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DateTimeUtilities>())) {}
+ Org::BouncyCastle::Utilities::Date::DateTimeUtilities Org::BouncyCastle::Utilities::Date::DateTimeUtilities::New_ctor()  {
+Org::BouncyCastle::Utilities::Date::DateTimeUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Date::DateTimeUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Date::DateTimeUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Date::DateTimeUtilities>::get(),

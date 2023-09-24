@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -78,14 +78,12 @@ constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_publicKeyParamSet()
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "domainParameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit ECKeyGenerationParameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters domainParameters, Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters New_ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters domainParameters, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0xea5ea8 size 0x4c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters domainParameters, Org::BouncyCastle::Security::SecureRandom random) ;
 
-// Ctor Parameters [CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit ECKeyGenerationParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0xea5ef4 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Security::SecureRandom random) ;

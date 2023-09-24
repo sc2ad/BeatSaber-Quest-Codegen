@@ -526,8 +526,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- LiteNetLib::NetPacket::NetPacket(int32_t size)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetPacket>(size))) {}
+ LiteNetLib::NetPacket LiteNetLib::NetPacket::New_ctor(int32_t size)  {
+LiteNetLib::NetPacket o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetPacket>(size))};
+return o;
+}
  void LiteNetLib::NetPacket::_ctor(int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetPacket>::get(),
@@ -537,8 +539,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, size);
 }
-// Ctor Parameters [CppParam { name: "property", ty: "LiteNetLib::PacketProperty", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- LiteNetLib::NetPacket::NetPacket(LiteNetLib::PacketProperty property, int32_t size)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetPacket>(property, size))) {}
+ LiteNetLib::NetPacket LiteNetLib::NetPacket::New_ctor(LiteNetLib::PacketProperty property, int32_t size)  {
+LiteNetLib::NetPacket o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetPacket>(property, size))};
+return o;
+}
  void LiteNetLib::NetPacket::_ctor(LiteNetLib::PacketProperty property, int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetPacket>::get(),

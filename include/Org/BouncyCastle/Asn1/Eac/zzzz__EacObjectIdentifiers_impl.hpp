@@ -144,8 +144,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers::__get_id_TA_ECDSA_SHA_512()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "id_TA_ECDSA_SHA_512", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers::EacObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EacObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers>::get(),

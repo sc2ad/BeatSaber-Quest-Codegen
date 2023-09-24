@@ -7,14 +7,14 @@
 namespace System {
 class Exception;
 }
+namespace System::Xml {
+class XmlNameTable;
+}
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
-}
-namespace System::Xml {
-class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -73,8 +73,7 @@ constexpr explicit Datatype_dayTimeDuration(void* ptr) noexcept : System::Xml::S
 /// @brief Method get_TypeCode addr 0x2725d3c size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_dayTimeDuration() ;
+static System::Xml::Schema::Datatype_dayTimeDuration New_ctor() ;
 
 /// @brief Method .ctor addr 0x2725d44 size 0x54 virtual false final false
  void _ctor() ;

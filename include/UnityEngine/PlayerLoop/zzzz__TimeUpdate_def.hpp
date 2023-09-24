@@ -1,6 +1,9 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__TimeUpdate__WaitForLastPresentationAndUpdateTime;
+}
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct TimeUpdate;

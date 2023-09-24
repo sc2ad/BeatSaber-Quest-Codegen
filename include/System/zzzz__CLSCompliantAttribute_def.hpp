@@ -56,8 +56,7 @@ constexpr bool __get__compliant() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isCompliant", ty: "bool", modifiers: "", def_value: None }]
-explicit CLSCompliantAttribute(bool isCompliant) ;
+static System::CLSCompliantAttribute New_ctor(bool isCompliant) ;
 
 /// @brief Method .ctor addr 0x23b8804 size 0x28 virtual false final false
  void _ctor(bool isCompliant) ;

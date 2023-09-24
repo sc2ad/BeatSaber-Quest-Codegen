@@ -2,21 +2,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class LightGroup;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-struct Color;
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class WhiteColorOrAlphaGroupEffect;
+}
+namespace GlobalNamespace {
+class LightGroup;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,8 +97,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::WhiteColorOrAlph
 /// @brief Method OnDestroy addr 0x225e3dc size 0x148 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit WhiteColorOrAlphaGroupEffectManager() ;
+static GlobalNamespace::WhiteColorOrAlphaGroupEffectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x225e524 size 0x7c virtual false final false
  void _ctor() ;

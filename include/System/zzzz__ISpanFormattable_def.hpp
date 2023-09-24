@@ -3,15 +3,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 namespace System {
+template<typename T>
+struct Span_1;
+}
+namespace System {
 class IFormatProvider;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
-}
-namespace System {
-template<typename T>
-struct Span_1;
 }
 // Forward declare root types
 namespace System {

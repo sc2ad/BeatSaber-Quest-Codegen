@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__AbstractEventData_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInputModule_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: UnityEngine::EventSystems::BaseEventData._ctor
 template<>
@@ -78,8 +78,10 @@ constexpr void UnityEngine::EventSystems::BaseEventData::__set_m_EventSystem(Uni
 constexpr UnityEngine::EventSystems::EventSystem UnityEngine::EventSystems::BaseEventData::__get_m_EventSystem() const {
 return ::cordl_internals::getInstanceField<UnityEngine::EventSystems::EventSystem, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
- UnityEngine::EventSystems::BaseEventData::BaseEventData(UnityEngine::EventSystems::EventSystem eventSystem)  : UnityEngine::EventSystems::AbstractEventData(THROW_UNLESS(::il2cpp_utils::New<BaseEventData>(eventSystem))) {}
+ UnityEngine::EventSystems::BaseEventData UnityEngine::EventSystems::BaseEventData::New_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
+UnityEngine::EventSystems::BaseEventData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::BaseEventData>(eventSystem))};
+return o;
+}
  void UnityEngine::EventSystems::BaseEventData::_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::BaseEventData>::get(),

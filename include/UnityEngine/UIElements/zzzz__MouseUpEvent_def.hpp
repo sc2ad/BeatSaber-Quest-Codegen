@@ -65,8 +65,7 @@ constexpr explicit MouseUpEvent(void* ptr) noexcept : UnityEngine::UIElements::M
 /// @brief Method LocalInit addr 0x2cd9d40 size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit MouseUpEvent() ;
+static UnityEngine::UIElements::MouseUpEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd9d4c size 0x54 virtual false final false
  void _ctor() ;

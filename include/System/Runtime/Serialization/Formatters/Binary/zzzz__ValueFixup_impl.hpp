@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ValueFixup_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ValueFixupEnum_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ReadObjectInfo_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ParseRecord_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ParseRecord_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::ValueFixup._ctor
 template<>
 
@@ -104,8 +104,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::ValueFixup::_
 constexpr ::StringW System::Runtime::Serialization::Formatters::Binary::ValueFixup::__get_memberName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "arrayObj", ty: "System::Array", modifiers: "", def_value: None }, CppParam { name: "indexMap", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::ValueFixup::ValueFixup(System::Array arrayObj, ::ArrayW<int32_t> indexMap)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ValueFixup>(arrayObj, indexMap))) {}
+ System::Runtime::Serialization::Formatters::Binary::ValueFixup System::Runtime::Serialization::Formatters::Binary::ValueFixup::New_ctor(System::Array arrayObj, ::ArrayW<int32_t> indexMap)  {
+System::Runtime::Serialization::Formatters::Binary::ValueFixup o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::ValueFixup>(arrayObj, indexMap))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::ValueFixup::_ctor(System::Array arrayObj, ::ArrayW<int32_t> indexMap)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::ValueFixup>::get(),
@@ -115,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, arrayObj, indexMap);
 }
-// Ctor Parameters [CppParam { name: "memberObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "memberName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectInfo", ty: "System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::ValueFixup::ValueFixup(::bs_hook::Il2CppWrapperType memberObject, ::StringW memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo objectInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ValueFixup>(memberObject, memberName, objectInfo))) {}
+ System::Runtime::Serialization::Formatters::Binary::ValueFixup System::Runtime::Serialization::Formatters::Binary::ValueFixup::New_ctor(::bs_hook::Il2CppWrapperType memberObject, ::StringW memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo objectInfo)  {
+System::Runtime::Serialization::Formatters::Binary::ValueFixup o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::ValueFixup>(memberObject, memberName, objectInfo))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::ValueFixup::_ctor(::bs_hook::Il2CppWrapperType memberObject, ::StringW memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo objectInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::ValueFixup>::get(),

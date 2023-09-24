@@ -79,14 +79,12 @@ constexpr System::Runtime::ExceptionServices::ExceptionDispatchInfo __get__Error
 /// @brief Method get_Error addr 0x268c814 size 0x8 virtual false final false
  System::Runtime::ExceptionServices::ExceptionDispatchInfo get_Error() ;
 
-// Ctor Parameters [CppParam { name: "result", ty: "int32_t", modifiers: "", def_value: None }]
-explicit AsyncProtocolResult(int32_t result) ;
+static Mono::Net::Security::AsyncProtocolResult New_ctor(int32_t result) ;
 
 /// @brief Method .ctor addr 0x268c81c size 0x28 virtual false final false
  void _ctor(int32_t result) ;
 
-// Ctor Parameters [CppParam { name: "error", ty: "System::Runtime::ExceptionServices::ExceptionDispatchInfo", modifiers: "", def_value: None }]
-explicit AsyncProtocolResult(System::Runtime::ExceptionServices::ExceptionDispatchInfo error) ;
+static Mono::Net::Security::AsyncProtocolResult New_ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo error) ;
 
 /// @brief Method .ctor addr 0x268c844 size 0x28 virtual false final false
  void _ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo error) ;

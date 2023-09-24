@@ -4,25 +4,31 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationContext;
+}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ProBuilder {
+class Vertex;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::ProBuilder {
-class Vertex;
+namespace UnityEngine {
+struct Vector3;
 }
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationContext;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
@@ -95,8 +101,7 @@ constexpr int32_t __get_index() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a2c7dc size 0x8 virtual false final false
  void _ctor() ;
@@ -168,8 +173,7 @@ constexpr System::Func_2<UnityEngine::Vector2,UnityEngine::ProBuilder::Poly2Tri:
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__Triangulation____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a2c7e4 size 0x8 virtual false final false
  void _ctor() ;

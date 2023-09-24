@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpObject;
+namespace System::Collections {
+class IList;
 }
 namespace System {
 class Type;
@@ -12,8 +12,8 @@ class Type;
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpObject;
 }
 namespace System::IO {
 class Stream;
@@ -73,14 +73,12 @@ constexpr Org::BouncyCastle::Bcpg::BcpgInputStream __get_bcpgIn() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit PgpObjectFactory(System::IO::Stream inputStream) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory New_ctor(System::IO::Stream inputStream) ;
 
 /// @brief Method .ctor addr 0x1024680 size 0x34 virtual false final false
  void _ctor(System::IO::Stream inputStream) ;
 
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PgpObjectFactory(::ArrayW<uint8_t> bytes) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory New_ctor(::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0x10246b4 size 0x8c virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes) ;

@@ -5,13 +5,13 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+struct Ray;
 }
 // Forward declare root types
 namespace UnityEngine {

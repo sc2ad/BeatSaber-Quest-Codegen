@@ -8,24 +8,58 @@ namespace GlobalNamespace {
 template<typename T>
 class IConnectionInitParams_1;
 }
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
 namespace System::Threading {
 class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class IStandaloneMonobehavior;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MockPlayerInstance___Stop_d__21;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace GlobalNamespace {
+class ConnectedPlayerManager;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class IStandaloneThreadRunner;
 }
 namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+template<typename T>
+class GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1;
+}
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MockPlayerInstance___RunAsync_d__18;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
 namespace GlobalNamespace {
-class ConnectedPlayerManager;
+class MockPlayerFiniteStateMachine;
+}
+namespace GlobalNamespace {
+class IConnectionManager;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MockPlayerInstance___DisposeAsync_d__22;
 }
 namespace GlobalNamespace {
 class MultiplayerSessionManager;
@@ -33,32 +67,11 @@ class MultiplayerSessionManager;
 namespace BGNet::Core {
 class ITimeProvider;
 }
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace GlobalNamespace {
-class MockPlayerFiniteStateMachine;
-}
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
-class IStandaloneThreadRunner;
-}
-namespace GlobalNamespace {
-class IConnectionManager;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class IStandaloneMonobehavior;
+struct ConnectionFailedReason;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -487,8 +500,7 @@ constexpr GlobalNamespace::MockPlayerFiniteStateMachine __get__fsm() const;
 /// @brief Method get_userName addr 0x227da70 size 0x8 virtual false final false
  ::StringW get_userName() ;
 
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }, CppParam { name: "beatmapDataProvider", ty: "GlobalNamespace::IMockBeatmapDataProvider", modifiers: "", def_value: None }, CppParam { name: "connectionManager", ty: "GlobalNamespace::IConnectionManager", modifiers: "", def_value: None }]
-explicit MockPlayerInstance(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::IConnectionManager connectionManager) ;
+static GlobalNamespace::MockPlayerInstance New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::IConnectionManager connectionManager) ;
 
 /// @brief Method .ctor addr 0x227da78 size 0x384 virtual false final false
  void _ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::IConnectionManager connectionManager) ;
@@ -590,8 +602,7 @@ constexpr GlobalNamespace::IConnectionInitParams_1<T> __get_connectionInitParams
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1() ;
+static GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

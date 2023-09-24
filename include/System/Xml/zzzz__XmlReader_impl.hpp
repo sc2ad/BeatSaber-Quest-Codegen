@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
 #include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
-#include "System/Xml/zzzz__IDtdInfo_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__ReadState_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__IDtdInfo_def.hpp"
 //  Writing Method size for method: System::Xml::XmlReader.get_Settings
 template<>
 
@@ -749,8 +749,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, input);
 }
-// Ctor Parameters []
- System::Xml::XmlReader::XmlReader()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlReader>())) {}
+ System::Xml::XmlReader System::Xml::XmlReader::New_ctor()  {
+System::Xml::XmlReader o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlReader>())};
+return o;
+}
  void System::Xml::XmlReader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlReader>::get(),

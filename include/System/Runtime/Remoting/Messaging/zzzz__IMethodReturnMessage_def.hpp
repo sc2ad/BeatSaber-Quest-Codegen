@@ -5,11 +5,11 @@
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
 namespace System {
 class Exception;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

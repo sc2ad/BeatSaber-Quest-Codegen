@@ -2,9 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Ice/zzzz__FloorLightStreakTileEffect_def.hpp"
 #include "GlobalNamespace/zzzz__SimpleMemoryPool_1_def.hpp"
+#include "Ice/zzzz__FloorLightTilesGrid_def.hpp"
+#include "Ice/zzzz__FloorLightStreakTileEffect_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "Ice/zzzz__FloorLightTilesGrid_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: Ice::Ice__FloorLightStreakTileEffect__Element.get_lineIndex
 template<>
@@ -189,8 +190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, deltaTime);
 }
-// Ctor Parameters []
- Ice::Ice__FloorLightStreakTileEffect__Element::Ice__FloorLightStreakTileEffect__Element()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Ice__FloorLightStreakTileEffect__Element>())) {}
+ Ice::Ice__FloorLightStreakTileEffect__Element Ice::Ice__FloorLightStreakTileEffect__Element::New_ctor()  {
+Ice::Ice__FloorLightStreakTileEffect__Element o{THROW_UNLESS(::il2cpp_utils::New<Ice::Ice__FloorLightStreakTileEffect__Element>())};
+return o;
+}
  void Ice::Ice__FloorLightStreakTileEffect__Element::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Ice::Ice__FloorLightStreakTileEffect__Element>::get(),
@@ -397,8 +400,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, element);
 }
-// Ctor Parameters []
- Ice::FloorLightStreakTileEffect::FloorLightStreakTileEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FloorLightStreakTileEffect>())) {}
+ Ice::FloorLightStreakTileEffect Ice::FloorLightStreakTileEffect::New_ctor()  {
+Ice::FloorLightStreakTileEffect o{THROW_UNLESS(::il2cpp_utils::New<Ice::FloorLightStreakTileEffect>())};
+return o;
+}
  void Ice::FloorLightStreakTileEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Ice::FloorLightStreakTileEffect>::get(),

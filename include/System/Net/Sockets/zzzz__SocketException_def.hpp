@@ -82,32 +82,27 @@ constexpr System::Net::EndPoint __get_m_EndPoint() const;
 /// @brief Method WSAGetLastError_icall addr 0x2769b18 size 0x4 virtual false final false
 static int32_t WSAGetLastError_icall() ;
 
-// Ctor Parameters []
-explicit SocketException() ;
+static System::Net::Sockets::SocketException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2769b1c size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "error", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SocketException(int32_t error, ::StringW message) ;
+static System::Net::Sockets::SocketException New_ctor(int32_t error, ::StringW message) ;
 
 /// @brief Method .ctor addr 0x2769b3c size 0x8 virtual false final false
  void _ctor(int32_t error, ::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "errorCode", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SocketException(int32_t errorCode) ;
+static System::Net::Sockets::SocketException New_ctor(int32_t errorCode) ;
 
 /// @brief Method .ctor addr 0x2767d80 size 0x8 virtual false final false
  void _ctor(int32_t errorCode) ;
 
-// Ctor Parameters [CppParam { name: "socketError", ty: "System::Net::Sockets::SocketError", modifiers: "", def_value: None }]
-explicit SocketException(System::Net::Sockets::SocketError socketError) ;
+static System::Net::Sockets::SocketException New_ctor(System::Net::Sockets::SocketError socketError) ;
 
 /// @brief Method .ctor addr 0x27692c4 size 0x8 virtual false final false
  void _ctor(System::Net::Sockets::SocketError socketError) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit SocketException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::Sockets::SocketException New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x2769b44 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

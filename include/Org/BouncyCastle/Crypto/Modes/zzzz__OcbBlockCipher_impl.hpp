@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__OcbBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Modes::OcbBlockCipher._ctor
 template<>
 
@@ -587,8 +587,10 @@ constexpr void Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::__set_macBlock(
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::__get_macBlock() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hashCipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "mainCipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::OcbBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher hashCipher, Org::BouncyCastle::Crypto::IBlockCipher mainCipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OcbBlockCipher>(hashCipher, mainCipher))) {}
+ Org::BouncyCastle::Crypto::Modes::OcbBlockCipher Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher hashCipher, Org::BouncyCastle::Crypto::IBlockCipher mainCipher)  {
+Org::BouncyCastle::Crypto::Modes::OcbBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::OcbBlockCipher>(hashCipher, mainCipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher hashCipher, Org::BouncyCastle::Crypto::IBlockCipher mainCipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::OcbBlockCipher>::get(),

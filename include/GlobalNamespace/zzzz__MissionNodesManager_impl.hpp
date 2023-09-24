@@ -2,12 +2,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodesManager_def.hpp"
 #include "GlobalNamespace/zzzz__CampaignProgressModel_def.hpp"
-#include "GlobalNamespace/zzzz__MissionNodeConnection_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__MissionStagesManager_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeVisualController_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__MissionStagesManager_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__MissionNodeConnection_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNode_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissionNodesManager.get_rootMissionNode
 template<>
 
@@ -651,8 +651,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionNodesManager::MissionNodesManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionNodesManager>())) {}
+ GlobalNamespace::MissionNodesManager GlobalNamespace::MissionNodesManager::New_ctor()  {
+GlobalNamespace::MissionNodesManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionNodesManager>())};
+return o;
+}
  void GlobalNamespace::MissionNodesManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionNodesManager>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "System/IO/zzzz__FileLoadException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::IO::FileLoadException._ctor
 template<>
 
@@ -168,8 +168,10 @@ constexpr void System::IO::FileLoadException::__set__FusionLog_k__BackingField(:
 constexpr ::StringW System::IO::FileLoadException::__get__FusionLog_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::FileLoadException::FileLoadException()  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<FileLoadException>())) {}
+ System::IO::FileLoadException System::IO::FileLoadException::New_ctor()  {
+System::IO::FileLoadException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileLoadException>())};
+return o;
+}
  void System::IO::FileLoadException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileLoadException>::get(),
@@ -179,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::IO::FileLoadException::FileLoadException(::StringW message)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<FileLoadException>(message))) {}
+ System::IO::FileLoadException System::IO::FileLoadException::New_ctor(::StringW message)  {
+System::IO::FileLoadException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileLoadException>(message))};
+return o;
+}
  void System::IO::FileLoadException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileLoadException>::get(),
@@ -226,8 +230,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::IO::FileLoadException::FileLoadException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<FileLoadException>(info, context))) {}
+ System::IO::FileLoadException System::IO::FileLoadException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::IO::FileLoadException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::FileLoadException>(info, context))};
+return o;
+}
  void System::IO::FileLoadException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::FileLoadException>::get(),

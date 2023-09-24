@@ -5,38 +5,56 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace Tayx::Graphy::Ram {
+class G_RamManager;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__ModuleState;
+}
 namespace Tayx::Graphy::Fps {
 class G_FpsManager;
 }
 namespace UnityEngine {
-struct FFTWindow;
-}
-namespace Tayx::Graphy::Ram {
-class G_RamManager;
-}
-namespace Tayx::Graphy::Fps {
-class G_FpsMonitor;
-}
-namespace UnityEngine {
 struct Color;
-}
-namespace Tayx::Graphy::Advanced {
-class G_AdvancedData;
 }
 namespace Tayx::Graphy::Audio {
 class G_AudioManager;
 }
-namespace UnityEngine::InputSystem {
-struct Key;
+namespace Tayx::Graphy::Advanced {
+class G_AdvancedData;
+}
+namespace Tayx::Graphy::Fps {
+class G_FpsMonitor;
 }
 namespace Tayx::Graphy::Audio {
 class G_AudioMonitor;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__ModulePosition;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__Mode;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__ModuleType;
+}
+namespace UnityEngine::InputSystem {
+struct Key;
+}
+namespace UnityEngine {
+class AudioListener;
 }
 namespace Tayx::Graphy::Ram {
 class G_RamMonitor;
 }
 namespace UnityEngine {
-class AudioListener;
+struct FFTWindow;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__ModulePreset;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyManager__LookForAudioListener;
 }
 // Forward declare root types
 namespace Tayx::Graphy {
@@ -110,6 +128,8 @@ constexpr operator __Tayx__Graphy__GraphyManager__Mode_Unwrapped () const noexce
 return std::bit_cast<__Tayx__Graphy__GraphyManager__Mode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -180,6 +200,8 @@ __ADVANCED = 3,
 constexpr operator __Tayx__Graphy__GraphyManager__ModuleType_Unwrapped () const noexcept {
 return std::bit_cast<__Tayx__Graphy__GraphyManager__ModuleType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -258,6 +280,8 @@ __OFF = 4,
 constexpr operator __Tayx__Graphy__GraphyManager__ModuleState_Unwrapped () const noexcept {
 return std::bit_cast<__Tayx__Graphy__GraphyManager__ModuleState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -340,6 +364,8 @@ constexpr operator __Tayx__Graphy__GraphyManager__ModulePosition_Unwrapped () co
 return std::bit_cast<__Tayx__Graphy__GraphyManager__ModulePosition_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -418,6 +444,8 @@ __NEVER = 2,
 constexpr operator __Tayx__Graphy__GraphyManager__LookForAudioListener_Unwrapped () const noexcept {
 return std::bit_cast<__Tayx__Graphy__GraphyManager__LookForAudioListener_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -500,6 +528,8 @@ __FPS_BASIC_ADVANCED_FULL = 11,
 constexpr operator __Tayx__Graphy__GraphyManager__ModulePreset_Unwrapped () const noexcept {
 return std::bit_cast<__Tayx__Graphy__GraphyManager__ModulePreset_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -976,8 +1006,7 @@ constexpr Tayx::Graphy::Tayx__Graphy__GraphyManager__ModulePreset __get_m_module
 
 // Methods
 
-// Ctor Parameters []
-explicit GraphyManager() ;
+static Tayx::Graphy::GraphyManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x286efe4 size 0x138 virtual false final false
  void _ctor() ;

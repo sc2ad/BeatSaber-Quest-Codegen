@@ -6,27 +6,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::IO {
+class System__IO__StreamReader__NullStreamReader;
+}
+namespace System::IO {
 class Stream;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System::Text {
+class Decoder;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 template<typename T>
 struct Span_1;
 }
-namespace System::Text {
-class Encoding;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Text {
-class Decoder;
-}
 // Forward declare root types
 namespace System::IO {
 class StreamReader;
-}
-namespace System::IO {
-class System__IO__StreamReader__NullStreamReader;
 }
 // Type: System.IO::StreamReader
 namespace System::IO {
@@ -188,68 +188,57 @@ constexpr System::Threading::Tasks::Task __get__asyncReadTask() const;
 /// @brief Method ThrowAsyncIOInProgress addr 0x239383c size 0x50 virtual false final false
 static void ThrowAsyncIOInProgress() ;
 
-// Ctor Parameters []
-explicit StreamReader() ;
+static System::IO::StreamReader New_ctor() ;
 
 /// @brief Method .ctor addr 0x239388c size 0xbc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit StreamReader(System::IO::Stream stream) ;
+static System::IO::StreamReader New_ctor(System::IO::Stream stream) ;
 
 /// @brief Method .ctor addr 0x2393950 size 0x3c virtual false final false
  void _ctor(System::IO::Stream stream) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }]
-explicit StreamReader(System::IO::Stream stream, bool detectEncodingFromByteOrderMarks) ;
+static System::IO::StreamReader New_ctor(System::IO::Stream stream, bool detectEncodingFromByteOrderMarks) ;
 
 /// @brief Method .ctor addr 0x239398c size 0x40 virtual false final false
  void _ctor(System::IO::Stream stream, bool detectEncodingFromByteOrderMarks) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit StreamReader(System::IO::Stream stream, System::Text::Encoding encoding) ;
+static System::IO::StreamReader New_ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x2393bf4 size 0x10 virtual false final false
  void _ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }]
-explicit StreamReader(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks) ;
+static System::IO::StreamReader New_ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks) ;
 
 /// @brief Method .ctor addr 0x2393c04 size 0x10 virtual false final false
  void _ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit StreamReader(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen) ;
+static System::IO::StreamReader New_ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen) ;
 
 /// @brief Method .ctor addr 0x23939cc size 0x228 virtual false final false
  void _ctor(System::IO::Stream stream, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize, bool leaveOpen) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StreamReader(::StringW path) ;
+static System::IO::StreamReader New_ctor(::StringW path) ;
 
 /// @brief Method .ctor addr 0x2393d3c size 0x38 virtual false final false
  void _ctor(::StringW path) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }]
-explicit StreamReader(::StringW path, bool detectEncodingFromByteOrderMarks) ;
+static System::IO::StreamReader New_ctor(::StringW path, bool detectEncodingFromByteOrderMarks) ;
 
 /// @brief Method .ctor addr 0x2393d74 size 0x3c virtual false final false
  void _ctor(::StringW path, bool detectEncodingFromByteOrderMarks) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit StreamReader(::StringW path, System::Text::Encoding encoding) ;
+static System::IO::StreamReader New_ctor(::StringW path, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x2393ffc size 0xc virtual false final false
  void _ctor(::StringW path, System::Text::Encoding encoding) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }]
-explicit StreamReader(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks) ;
+static System::IO::StreamReader New_ctor(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks) ;
 
 /// @brief Method .ctor addr 0x2394008 size 0xc virtual false final false
  void _ctor(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "detectEncodingFromByteOrderMarks", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StreamReader(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize) ;
+static System::IO::StreamReader New_ctor(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize) ;
 
 /// @brief Method .ctor addr 0x2393db0 size 0x24c virtual false final false
  void _ctor(::StringW path, System::Text::Encoding encoding, bool detectEncodingFromByteOrderMarks, int32_t bufferSize) ;
@@ -318,93 +307,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-// Type: ::NullStreamReader
-namespace System::IO {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3564))
-// CS Name: System.IO.StreamReader::NullStreamReader
-class CORDL_TYPE System__IO__StreamReader__NullStreamReader : public System::IO::StreamReader {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x60};
-
-virtual ~System__IO__StreamReader__NullStreamReader() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__IO__StreamReader__NullStreamReader", modifiers: " const&", def_value: None }]
-constexpr System__IO__StreamReader__NullStreamReader(System__IO__StreamReader__NullStreamReader const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__IO__StreamReader__NullStreamReader", modifiers: "&&", def_value: None }]
-constexpr System__IO__StreamReader__NullStreamReader(System__IO__StreamReader__NullStreamReader&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__IO__StreamReader__NullStreamReader(void* ptr) noexcept : System::IO::StreamReader(ptr) {
-}
-
-
-  constexpr System__IO__StreamReader__NullStreamReader& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__IO__StreamReader__NullStreamReader& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__IO__StreamReader__NullStreamReader& operator=(System__IO__StreamReader__NullStreamReader&& o) noexcept = default;
-  constexpr System__IO__StreamReader__NullStreamReader& operator=(System__IO__StreamReader__NullStreamReader const& o) noexcept = default;
-                
-
-
-// Properties
-
- System::IO::Stream __declspec(property(get=get_BaseStream))  BaseStream;
-
- System::Text::Encoding __declspec(property(get=get_CurrentEncoding))  CurrentEncoding;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit System__IO__StreamReader__NullStreamReader() ;
-
-/// @brief Method .ctor addr 0x2395420 size 0x94 virtual false final false
- void _ctor() ;
-
-/// @brief Method get_BaseStream addr 0x23954b4 size 0x58 virtual true final false
- System::IO::Stream get_BaseStream() ;
-
-/// @brief Method get_CurrentEncoding addr 0x239550c size 0x8 virtual true final false
- System::Text::Encoding get_CurrentEncoding() ;
-
-/// @brief Method Dispose addr 0x2395514 size 0x4 virtual true final false
- void Dispose(bool disposing) ;
-
-/// @brief Method Peek addr 0x2395518 size 0x8 virtual true final false
- int32_t Peek() ;
-
-/// @brief Method Read addr 0x2395520 size 0x8 virtual true final false
- int32_t Read() ;
-
-/// @brief Method Read addr 0x2395528 size 0x8 virtual true final false
- int32_t Read(::ArrayW<char16_t> buffer, int32_t index, int32_t count) ;
-
-/// @brief Method ReadLine addr 0x2395530 size 0x8 virtual true final false
- ::StringW ReadLine() ;
-
-/// @brief Method ReadToEnd addr 0x2395538 size 0x48 virtual true final false
- ::StringW ReadToEnd() ;
-
-/// @brief Method ReadBuffer addr 0x2395580 size 0x8 virtual true final false
- int32_t ReadBuffer() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::IO
 NEED_NO_BOX(System::IO::StreamReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamReader, "System.IO", "StreamReader");
-NEED_NO_BOX(System::IO::System__IO__StreamReader__NullStreamReader);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::System__IO__StreamReader__NullStreamReader, "System.IO", "StreamReader/NullStreamReader");

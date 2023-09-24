@@ -1,37 +1,37 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class ILobbyPlayerData;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class IReadOnlyDictionary_2;
 }
 namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
+}
+namespace GlobalNamespace {
+class ILobbyPlayerData;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {

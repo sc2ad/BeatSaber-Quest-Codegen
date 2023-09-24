@@ -23,50 +23,59 @@ class Stream;
 namespace System::Net {
 class WebResponse;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Net {
+class ICredentials;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Net::Security {
-struct AuthenticationLevel;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Net::Cache {
-class RequestCacheProtocol;
+namespace System::Security::Principal {
+struct TokenImpersonationLevel;
 }
 namespace System::Net::Cache {
 class RequestCacheBinding;
 }
+namespace System::Net::Cache {
+class RequestCacheProtocol;
+}
+namespace System::Net {
+class System__Net__WebRequest__DesignerWebRequestCreate;
+}
+namespace System::Net {
+class System__Net__WebRequest____c__DisplayClass79_0;
+}
+namespace System::Net {
+class System__Net__WebRequest____c__DisplayClass78_0;
+}
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::Net::Security {
+struct AuthenticationLevel;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Net::Cache {
 class RequestCachePolicy;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Net {
+class System__Net__TimerThread__Queue;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Net {
 class IWebProxy;
 }
 namespace System::Net {
-class ICredentials;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Security::Principal {
-struct TokenImpersonationLevel;
-}
-namespace System::Net {
-class System__Net__TimerThread__Queue;
-}
-namespace System::Net {
 class WebHeaderCollection;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Net {
@@ -129,8 +138,7 @@ constexpr explicit System__Net__WebRequest__DesignerWebRequestCreate(void* ptr) 
 /// @brief Method Create addr 0x2812fa0 size 0x54 virtual true final true
  System::Net::WebRequest Create(System::Uri uri) ;
 
-// Ctor Parameters []
-explicit System__Net__WebRequest__DesignerWebRequestCreate() ;
+static System::Net::System__Net__WebRequest__DesignerWebRequestCreate New_ctor() ;
 
 /// @brief Method .ctor addr 0x2812da0 size 0x8 virtual false final false
  void _ctor() ;
@@ -196,8 +204,7 @@ constexpr System::Net::WebRequest __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__WebRequest____c__DisplayClass78_0() ;
+static System::Net::System__Net__WebRequest____c__DisplayClass78_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x28125a0 size 0x8 virtual false final false
  void _ctor() ;
@@ -266,8 +273,7 @@ constexpr System::Net::WebRequest __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__WebRequest____c__DisplayClass79_0() ;
+static System::Net::System__Net__WebRequest____c__DisplayClass79_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2812880 size 0x8 virtual false final false
  void _ctor() ;
@@ -452,14 +458,12 @@ static System::Collections::ArrayList get_PrefixList() ;
 /// @brief Method PopulatePrefixList addr 0x2811c90 size 0x234 virtual false final false
 static System::Collections::ArrayList PopulatePrefixList() ;
 
-// Ctor Parameters []
-explicit WebRequest() ;
+static System::Net::WebRequest New_ctor() ;
 
 /// @brief Method .ctor addr 0x2811ecc size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit WebRequest(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::WebRequest New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x2811ef0 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

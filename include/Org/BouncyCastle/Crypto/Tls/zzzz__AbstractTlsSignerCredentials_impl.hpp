@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCredentials_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsSignerCredentials_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__SignatureAndHashAlgorithm_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSignerCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSignerCredentials_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__SignatureAndHashAlgorithm_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials.GenerateCertificateSignature
 template<>
 
@@ -81,8 +81,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials::AbstractTlsSignerCredentials()  : Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials(THROW_UNLESS(::il2cpp_utils::New<AbstractTlsSignerCredentials>())) {}
+ Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials>::get(),

@@ -87,8 +87,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Text::DecoderExceptionFallback::DecoderExceptionFallback()  : System::Text::DecoderFallback(THROW_UNLESS(::il2cpp_utils::New<DecoderExceptionFallback>())) {}
+ System::Text::DecoderExceptionFallback System::Text::DecoderExceptionFallback::New_ctor()  {
+System::Text::DecoderExceptionFallback o{THROW_UNLESS(::il2cpp_utils::New<System::Text::DecoderExceptionFallback>())};
+return o;
+}
  void System::Text::DecoderExceptionFallback::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::DecoderExceptionFallback>::get(),

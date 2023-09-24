@@ -3,6 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Net {
+class IPEndPoint;
+}
+namespace LiteNetLib {
+struct DisconnectReason;
+}
+namespace LiteNetLib {
+class NetPeer;
+}
+namespace LiteNetLib {
+struct DeliveryMethod;
+}
+namespace LiteNetLib {
+struct LiteNetLib__NetEvent__EType;
+}
 namespace LiteNetLib {
 class ConnectionRequest;
 }
@@ -10,22 +25,10 @@ namespace LiteNetLib {
 class NetManager;
 }
 namespace LiteNetLib {
-class NetPeer;
-}
-namespace System::Net {
-class IPEndPoint;
+class NetPacketReader;
 }
 namespace System::Net::Sockets {
 struct SocketError;
-}
-namespace LiteNetLib {
-struct DisconnectReason;
-}
-namespace LiteNetLib {
-class NetPacketReader;
-}
-namespace LiteNetLib {
-struct DeliveryMethod;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -90,6 +93,8 @@ __MessageDelivered = 8,
 constexpr operator __LiteNetLib__NetEvent__EType_Unwrapped () const noexcept {
 return std::bit_cast<__LiteNetLib__NetEvent__EType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -238,8 +243,7 @@ constexpr LiteNetLib::NetPacketReader __get_DataReader() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "manager", ty: "LiteNetLib::NetManager", modifiers: "", def_value: None }]
-explicit NetEvent(LiteNetLib::NetManager manager) ;
+static LiteNetLib::NetEvent New_ctor(LiteNetLib::NetManager manager) ;
 
 /// @brief Method .ctor addr 0x2088fc4 size 0x7c virtual false final false
  void _ctor(LiteNetLib::NetManager manager) ;

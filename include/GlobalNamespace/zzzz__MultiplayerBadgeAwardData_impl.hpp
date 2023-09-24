@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerBadgeAwardData.get_awardedPlayer
 template<>
@@ -208,8 +208,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Sprite, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "awardedPlayer", ty: "GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subtitle", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "badgeData", ty: "GlobalNamespace::MultiplayerBadgeDataSO", modifiers: "", def_value: None }]
- GlobalNamespace::MultiplayerBadgeAwardData::MultiplayerBadgeAwardData(GlobalNamespace::IConnectedPlayer awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, GlobalNamespace::MultiplayerBadgeDataSO badgeData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerBadgeAwardData>(awardedPlayer, weight, title, subtitle, badgeData))) {}
+ GlobalNamespace::MultiplayerBadgeAwardData GlobalNamespace::MultiplayerBadgeAwardData::New_ctor(GlobalNamespace::IConnectedPlayer awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, GlobalNamespace::MultiplayerBadgeDataSO badgeData)  {
+GlobalNamespace::MultiplayerBadgeAwardData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerBadgeAwardData>(awardedPlayer, weight, title, subtitle, badgeData))};
+return o;
+}
  void GlobalNamespace::MultiplayerBadgeAwardData::_ctor(GlobalNamespace::IConnectedPlayer awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, GlobalNamespace::MultiplayerBadgeDataSO badgeData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerBadgeAwardData>::get(),

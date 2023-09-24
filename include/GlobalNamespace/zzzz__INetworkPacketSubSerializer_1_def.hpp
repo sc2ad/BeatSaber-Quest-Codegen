@@ -2,9 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
 namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System {
@@ -12,6 +9,9 @@ class Type;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {

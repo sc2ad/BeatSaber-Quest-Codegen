@@ -76,8 +76,7 @@ constexpr bool __get__isHandledByDraggable_k__BackingField() const;
 /// @brief Method LocalInit addr 0x2cd7f50 size 0x10c virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit PointerMoveEvent() ;
+static UnityEngine::UIElements::PointerMoveEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd805c size 0x50 virtual false final false
  void _ctor() ;

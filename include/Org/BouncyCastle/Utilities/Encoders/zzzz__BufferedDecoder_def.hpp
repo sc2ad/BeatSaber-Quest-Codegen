@@ -73,8 +73,7 @@ constexpr Org::BouncyCastle::Utilities::Encoders::ITranslator __get_translator()
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "translator", ty: "Org::BouncyCastle::Utilities::Encoders::ITranslator", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BufferedDecoder(Org::BouncyCastle::Utilities::Encoders::ITranslator translator, int32_t bufferSize) ;
+static Org::BouncyCastle::Utilities::Encoders::BufferedDecoder New_ctor(Org::BouncyCastle::Utilities::Encoders::ITranslator translator, int32_t bufferSize) ;
 
 /// @brief Method .ctor addr 0x10d0cd8 size 0x13c virtual false final false
  void _ctor(Org::BouncyCastle::Utilities::Encoders::ITranslator translator, int32_t bufferSize) ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonReader_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenReader_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JTokenReader.get_CurrentToken
 template<>
 
@@ -298,8 +298,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Newtonsoft::Json::Linq::JToken, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "token", ty: "Newtonsoft::Json::Linq::JToken", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JTokenReader::JTokenReader(Newtonsoft::Json::Linq::JToken token)  : Newtonsoft::Json::JsonReader(THROW_UNLESS(::il2cpp_utils::New<JTokenReader>(token))) {}
+ Newtonsoft::Json::Linq::JTokenReader Newtonsoft::Json::Linq::JTokenReader::New_ctor(Newtonsoft::Json::Linq::JToken token)  {
+Newtonsoft::Json::Linq::JTokenReader o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JTokenReader>(token))};
+return o;
+}
  void Newtonsoft::Json::Linq::JTokenReader::_ctor(Newtonsoft::Json::Linq::JToken token)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JTokenReader>::get(),
@@ -309,8 +311,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, token);
 }
-// Ctor Parameters [CppParam { name: "token", ty: "Newtonsoft::Json::Linq::JToken", modifiers: "", def_value: None }, CppParam { name: "initialPath", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JTokenReader::JTokenReader(Newtonsoft::Json::Linq::JToken token, ::StringW initialPath)  : Newtonsoft::Json::JsonReader(THROW_UNLESS(::il2cpp_utils::New<JTokenReader>(token, initialPath))) {}
+ Newtonsoft::Json::Linq::JTokenReader Newtonsoft::Json::Linq::JTokenReader::New_ctor(Newtonsoft::Json::Linq::JToken token, ::StringW initialPath)  {
+Newtonsoft::Json::Linq::JTokenReader o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JTokenReader>(token, initialPath))};
+return o;
+}
  void Newtonsoft::Json::Linq::JTokenReader::_ctor(Newtonsoft::Json::Linq::JToken token, ::StringW initialPath)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JTokenReader>::get(),

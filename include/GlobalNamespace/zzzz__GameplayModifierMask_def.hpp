@@ -72,6 +72,8 @@ constexpr operator __GameplayModifierMask_Unwrapped () const noexcept {
 return std::bit_cast<__GameplayModifierMask_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint16_t;
+
 
 // Fields
 

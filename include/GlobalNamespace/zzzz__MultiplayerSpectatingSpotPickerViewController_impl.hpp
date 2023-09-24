@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotPickerViewController_def.hpp"
-#include "GlobalNamespace/zzzz__StepValuePicker_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSpectatorController_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
+#include "GlobalNamespace/zzzz__StepValuePicker_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController.Start
 template<>
 
@@ -189,8 +189,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::MultiplayerSpectatingSpotPickerViewController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerSpectatingSpotPickerViewController>())) {}
+ GlobalNamespace::MultiplayerSpectatingSpotPickerViewController GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::New_ctor()  {
+GlobalNamespace::MultiplayerSpectatingSpotPickerViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerSpectatingSpotPickerViewController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerSpectatingSpotPickerViewController>::get(),

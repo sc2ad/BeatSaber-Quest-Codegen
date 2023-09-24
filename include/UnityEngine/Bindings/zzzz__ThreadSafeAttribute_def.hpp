@@ -47,8 +47,7 @@ constexpr explicit ThreadSafeAttribute(void* ptr) noexcept : UnityEngine::Bindin
 
 // Methods
 
-// Ctor Parameters []
-explicit ThreadSafeAttribute() ;
+static UnityEngine::Bindings::ThreadSafeAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba175c size 0x20 virtual false final false
  void _ctor() ;

@@ -8,86 +8,89 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::UIElements {
-struct Cursor;
-}
-namespace UnityEngine::UIElements {
-class StyleProperty;
-}
-namespace UnityEngine::UIElements {
-struct Angle;
-}
-namespace UnityEngine::UIElements {
-struct EasingFunction;
-}
-namespace UnityEngine::UIElements {
-class StyleVariableResolver;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
-}
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
-struct Length;
+struct Color;
 }
 namespace UnityEngine::UIElements {
 struct Rotate;
 }
 namespace UnityEngine::UIElements {
-class StyleVariableContext;
+struct TextShadow;
 }
 namespace UnityEngine::UIElements {
-struct Translate;
+struct EasingFunction;
 }
 namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct ImageSource;
+struct StylePropertyName;
 }
 namespace UnityEngine::UIElements {
-struct StyleValueKeyword;
-}
-namespace UnityEngine::UIElements {
-class StyleComplexSelector;
+struct FontDefinition;
 }
 namespace UnityEngine::UIElements {
 struct TimeValue;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StyleEnumType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-struct FontDefinition;
+class StyleSheet;
 }
 namespace UnityEngine::UIElements {
-struct StylePropertyName;
+struct StyleValueKeyword;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine::UIElements {
+struct Translate;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace UnityEngine::UIElements {
+class StyleVariableResolver;
+}
+namespace UnityEngine::UIElements {
+struct StyleValueType;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine::UIElements {
+class StyleProperty;
+}
+namespace UnityEngine::UIElements {
+class StyleVariableContext;
+}
+namespace UnityEngine::UIElements {
+struct Background;
+}
+namespace UnityEngine::UIElements {
+struct Cursor;
+}
+namespace UnityEngine::UIElements {
+struct Angle;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StyleEnumType;
+}
+namespace UnityEngine::UIElements {
+class StyleComplexSelector;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct ImageSource;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyValue;
 }
 namespace UnityEngine::UIElements {
-struct TextShadow;
+struct TransformOrigin;
 }
-namespace UnityEngine::UIElements {
-struct StyleValueType;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements {
-struct Scale;
+namespace UnityEngine::UIElements::StyleSheets {
+class UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction;
 }
 namespace UnityEngine::UIElements {
 struct StyleValueHandle;
@@ -141,8 +144,7 @@ constexpr explicit UnityEngine__UIElements__StyleSheets__StylePropertyReader__Ge
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UIElements::StyleSheets::UnityEngine__UIElements__StyleSheets__StylePropertyReader__GetCursorIdFunction New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2c70bd8 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -422,8 +424,7 @@ static UnityEngine::UIElements::Angle ReadAngle(UnityEngine::UIElements::StyleSh
 /// @brief Method TryGetImageSourceFromValue addr 0x2c6f6bc size 0x6b4 virtual false final false
 static bool TryGetImageSourceFromValue(UnityEngine::UIElements::StyleSheets::StylePropertyValue propertyValue, float_t dpiScaling, ByRef<UnityEngine::UIElements::StyleSheets::ImageSource> source) ;
 
-// Ctor Parameters []
-explicit StylePropertyReader() ;
+static UnityEngine::UIElements::StyleSheets::StylePropertyReader New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c70ae8 size 0xf0 virtual false final false
  void _ctor() ;

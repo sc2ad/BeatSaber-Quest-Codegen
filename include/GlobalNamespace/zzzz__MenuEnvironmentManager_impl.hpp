@@ -3,6 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuEnvironmentManager_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__MenuEnvironmentManager_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentType::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -96,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::GameObject, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects>())) {}
+ GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuEnvironmentManager__MenuEnvironmentObjects>::get(),
@@ -188,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, menuEnvironmentType);
 }
-// Ctor Parameters []
- GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MenuEnvironmentManager>())) {}
+ GlobalNamespace::MenuEnvironmentManager GlobalNamespace::MenuEnvironmentManager::New_ctor()  {
+GlobalNamespace::MenuEnvironmentManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MenuEnvironmentManager>())};
+return o;
+}
  void GlobalNamespace::MenuEnvironmentManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MenuEnvironmentManager>::get(),

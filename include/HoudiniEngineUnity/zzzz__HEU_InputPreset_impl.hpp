@@ -1,9 +1,9 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_InputPreset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_InputObjectPreset_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputAssetPreset_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputNode_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_InputObjectPreset_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_InputPreset._ctor
 template<>
 
@@ -69,8 +69,10 @@ constexpr void HoudiniEngineUnity::HEU_InputPreset::__set__inputAssetPresets(Sys
 constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset> HoudiniEngineUnity::HEU_InputPreset::__get__inputAssetPresets() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InputPreset::HEU_InputPreset()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_InputPreset>())) {}
+ HoudiniEngineUnity::HEU_InputPreset HoudiniEngineUnity::HEU_InputPreset::New_ctor()  {
+HoudiniEngineUnity::HEU_InputPreset o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InputPreset>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InputPreset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InputPreset>::get(),

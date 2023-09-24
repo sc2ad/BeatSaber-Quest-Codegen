@@ -138,8 +138,7 @@ static System::Security::Cryptography::HMAC Create() ;
 /// @brief Method Dispose addr 0x22f35ac size 0x148 virtual true final false
  void Dispose(bool disposing) ;
 
-// Ctor Parameters []
-explicit HMAC() ;
+static System::Security::Cryptography::HMAC New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f373c size 0x10 virtual false final false
  void _ctor() ;

@@ -2,16 +2,16 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace UnityEngine::UIElements {
 class UxmlTypeRestriction;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -82,8 +82,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get_m_Values() const
 /// @brief Method Equals addr 0x2c96530 size 0x14c virtual true final false
  bool Equals(UnityEngine::UIElements::UxmlTypeRestriction other) ;
 
-// Ctor Parameters []
-explicit UxmlEnumeration() ;
+static UnityEngine::UIElements::UxmlEnumeration New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c9667c size 0x7c virtual false final false
  void _ctor() ;

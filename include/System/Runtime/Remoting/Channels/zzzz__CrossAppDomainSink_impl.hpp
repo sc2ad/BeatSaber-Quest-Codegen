@@ -2,11 +2,12 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__CrossAppDomainSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMethodCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Channels/zzzz__CrossAppDomainSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMethodReturnMessage_def.hpp"
 // Ctor Parameters [CppParam { name: "arrResponse", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "cadMrm", ty: "System::Runtime::Remoting::Messaging::CADMethodReturnMessage", modifiers: "", def_value: Some("csnull") }]
 constexpr System::Runtime::Remoting::Channels::System__Runtime__Remoting__Channels__CrossAppDomainSink__ProcessMessageRes::System__Runtime__Remoting__Channels__CrossAppDomainSink__ProcessMessageRes(::ArrayW<uint8_t> arrResponse, System::Runtime::Remoting::Messaging::CADMethodReturnMessage cadMrm) noexcept : ::bs_hook::ValueTypeWrapper() {this->arrResponse = arrResponse;
@@ -182,8 +183,10 @@ constexpr void System::Runtime::Remoting::Channels::CrossAppDomainSink::__set__d
 constexpr int32_t System::Runtime::Remoting::Channels::CrossAppDomainSink::__get__domainID() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "domainID", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Channels::CrossAppDomainSink::CrossAppDomainSink(int32_t domainID)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CrossAppDomainSink>(domainID))) {}
+ System::Runtime::Remoting::Channels::CrossAppDomainSink System::Runtime::Remoting::Channels::CrossAppDomainSink::New_ctor(int32_t domainID)  {
+System::Runtime::Remoting::Channels::CrossAppDomainSink o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Channels::CrossAppDomainSink>(domainID))};
+return o;
+}
  void System::Runtime::Remoting::Channels::CrossAppDomainSink::_ctor(int32_t domainID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Channels::CrossAppDomainSink>::get(),

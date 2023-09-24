@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Diagnostics/Contracts/zzzz__Contract_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 template<typename T>
  bool System::Diagnostics::Contracts::Contract::ForAll(System::Collections::Generic::IEnumerable_1<T> collection, System::Predicate_1<T> predicate)  {
 static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(

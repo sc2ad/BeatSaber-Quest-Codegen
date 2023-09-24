@@ -4,20 +4,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+namespace Mono::Unity {
+class Mono__Unity__UnityTls__unitytls_tlsctx_x509verify_callback;
 }
 namespace Mono::Net::Security {
 class MonoSslAuthenticationOptions;
 }
-namespace System::Runtime::InteropServices {
-struct GCHandle;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
 namespace Mono::Unity {
 struct Mono__Unity__UnityTls__unitytls_x509verify_result;
+}
+namespace Mono::Unity {
+class Mono__Unity__UnityTls__unitytls_tlsctx_read_callback;
 }
 namespace Mono::Security::Interface {
 class MonoTlsConnectionInfo;
@@ -25,27 +22,30 @@ class MonoTlsConnectionInfo;
 namespace System {
 class Exception;
 }
-namespace System {
-template<typename T1,typename T2>
-struct ValueTuple_2;
-}
-namespace Mono::Unity {
-class Mono__Unity__UnityTls__unitytls_tlsctx_write_callback;
-}
-namespace Mono::Unity {
-class Mono__Unity__UnityTls__unitytls_tlsctx_x509verify_callback;
-}
 namespace Mono::Unity {
 struct Mono__Unity__UnityTls__unitytls_x509list_ref;
 }
 namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
+}
+namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
+}
+namespace Mono::Net::Security {
+class MobileAuthenticatedStream;
+}
+namespace Mono::Unity {
+class Mono__Unity__UnityTls__unitytls_tlsctx_write_callback;
+}
+namespace System::Runtime::InteropServices {
+struct GCHandle;
 }
 namespace Mono::Unity {
 class Mono__Unity__UnityTls__unitytls_tlsctx_certificate_callback;
 }
-namespace Mono::Unity {
-class Mono__Unity__UnityTls__unitytls_tlsctx_read_callback;
+namespace System {
+template<typename T1,typename T2>
+struct ValueTuple_2;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -207,8 +207,7 @@ constexpr System::Exception __get_lastException() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "options", ty: "Mono::Net::Security::MonoSslAuthenticationOptions", modifiers: "", def_value: None }]
-explicit UnityTlsContext(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options) ;
+static Mono::Unity::UnityTlsContext New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options) ;
 
 /// @brief Method .ctor addr 0x26886e8 size 0x708 virtual false final false
  void _ctor(Mono::Net::Security::MobileAuthenticatedStream parent, Mono::Net::Security::MonoSslAuthenticationOptions options) ;

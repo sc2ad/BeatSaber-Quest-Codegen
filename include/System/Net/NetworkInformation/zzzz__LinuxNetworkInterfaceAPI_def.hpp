@@ -62,8 +62,7 @@ static int32_t GetInterfaceAddresses(ByRef<::cordl_internals::intptr_t> ifap) ;
 /// @brief Method GetAllNetworkInterfaces addr 0x285b9d4 size 0xaf4 virtual true final false
  ::ArrayW<System::Net::NetworkInformation::NetworkInterface> GetAllNetworkInterfaces() ;
 
-// Ctor Parameters []
-explicit LinuxNetworkInterfaceAPI() ;
+static System::Net::NetworkInformation::LinuxNetworkInterfaceAPI New_ctor() ;
 
 /// @brief Method .ctor addr 0x285c5a0 size 0x8 virtual false final false
  void _ctor() ;

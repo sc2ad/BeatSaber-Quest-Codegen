@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__ClientContextReplySink_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::ClientContextReplySink._ctor
 template<>
 
@@ -71,8 +71,10 @@ constexpr void System::Runtime::Remoting::Messaging::ClientContextReplySink::__s
 constexpr System::Runtime::Remoting::Contexts::Context System::Runtime::Remoting::Messaging::ClientContextReplySink::__get__context() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Contexts::Context, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ctx", ty: "System::Runtime::Remoting::Contexts::Context", modifiers: "", def_value: None }, CppParam { name: "replySink", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::ClientContextReplySink::ClientContextReplySink(System::Runtime::Remoting::Contexts::Context ctx, System::Runtime::Remoting::Messaging::IMessageSink replySink)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ClientContextReplySink>(ctx, replySink))) {}
+ System::Runtime::Remoting::Messaging::ClientContextReplySink System::Runtime::Remoting::Messaging::ClientContextReplySink::New_ctor(System::Runtime::Remoting::Contexts::Context ctx, System::Runtime::Remoting::Messaging::IMessageSink replySink)  {
+System::Runtime::Remoting::Messaging::ClientContextReplySink o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::ClientContextReplySink>(ctx, replySink))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::ClientContextReplySink::_ctor(System::Runtime::Remoting::Contexts::Context ctx, System::Runtime::Remoting::Messaging::IMessageSink replySink)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::ClientContextReplySink>::get(),
